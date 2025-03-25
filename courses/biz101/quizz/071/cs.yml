@@ -1,0 +1,9 @@
+question: Jakou roli hraje LSP v podnikových platbách bitcoinem?
+answer: Správa velkoobjemových transakcí v aplikaci Lightning
+wrong_answers:
+  - Uložení soukromých klíčů peněženky Lightning
+  - Tisk faktur Lightning
+  - Ruční zpracování náhrad v aplikaci Lightning
+explanation: |
+  Služby LSP zpracovávají složité a velkoobjemové operace v systému Lightning.
+reviewed: false

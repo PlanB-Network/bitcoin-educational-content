@@ -1,0 +1,9 @@
+question: Mikä on yritystason Bitcoin-maksutoteutusten päätavoite?
+answer: Integroida Bitcoin-maksut täysin organisaation ydinprosesseihin
+wrong_answers:
+  - Bitcoinin kokeileminen pienessä mittakaavassa
+  - Bitcoinin käyttäminen markkinointitarkoituksiin
+  - Bitcoinin hyväksyminen ilman integrointia muihin järjestelmiin
+explanation: |
+  Yritysratkaisuilla pyritään sovittamaan Bitcoin-maksut yhteen liiketoiminnan keskeisten työnkulkujen ja järjestelmien kanssa.
+reviewed: false

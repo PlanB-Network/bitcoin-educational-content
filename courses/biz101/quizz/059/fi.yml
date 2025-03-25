@@ -1,0 +1,9 @@
+question: Mitkä kaksi lompakkotyyppiä otetaan huomioon Starter-profiilissa?
+answer: Säilytettävien ja muiden kuin säilyttäjien Lightning-lompakot
+wrong_answers:
+  - Kuuma ja kylmä varastointi Bitcoin-lompakot
+  - Multisig ja paperiset Bitcoin-lompakot
+  - Laitteisto ja aivot Lightning-lompakot
+explanation: |
+  Starter-profiilissa käytetään joko säilytettäviä tai ei-säilytettäviä Lightning-lompakoita.
+reviewed: false

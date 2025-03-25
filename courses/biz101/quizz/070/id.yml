@@ -1,0 +1,9 @@
+question: Fitur canggih apa yang biasanya diminta oleh bisnis profil Profesional?
+answer: Dasbor pelaporan tingkat lanjut dan beberapa peran administratif
+wrong_answers:
+  - Pencatatan transaksi dasar dan tanda terima standar
+  - Integrasi dompet sederhana dan pembuatan kode QR
+  - Konversi otomatis ke fiat tanpa opsi pelaporan apa pun
+explanation: |
+  Bisnis profesional memerlukan faktur yang dapat disesuaikan, pelaporan yang canggih, dan manajemen peran yang sesuai dengan alur kerja mereka yang kompleks.
+reviewed: false

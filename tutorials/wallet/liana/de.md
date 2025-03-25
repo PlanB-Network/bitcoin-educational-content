@@ -27,7 +27,7 @@ Das nachstehende Diagramm veranschaulicht die Funktionsweise eines Portfolios mi
 Mit diesem Vorgang können Sie verschiedene Konfigurationen einrichten, darunter :
 
 
-- Ein Nachfolgeplan (oder Erbschaftsplan), der es den Erben ermöglicht, im Falle des Todes des Nutzers Gelder zurückzuerhalten. Für weitere Informationen zu diesem Thema empfehlen wir die Lektüre von [Teil 4] (https://planb.network/courses/btc102/233c88d3-2e8e-5eba-ac06-efe67a209038) des Kurses BTC102.
+- Ein Nachfolgeplan (oder Erbschaftsplan), der es den Erben ermöglicht, im Falle des Todes des Nutzers Gelder zurückzuerhalten. Für weitere Informationen zu diesem Thema empfehlen wir die Lektüre von [Teil 4] (https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) des Kurses BTC102.
 - Ein verstärktes Backup mit Wiederherstellungszeit, das dem Nutzer die Möglichkeit gibt, sein Portemonnaie zu benutzen, ohne dass er die entsprechende geheime Phrase aufbewahren und riskieren muss, dass sie gestohlen wird, z. B. bei einem Einbruch.
 - Ein Sicherheitsnetz für Menschen, die mit Bitcoin anfangen: Sie verwalten ihre eigene Wallet, und ihr "Vormund" (z. B. ein Verwandter) behält sich das Recht vor, ihre Gelder nach einer bestimmten Zeit zurückzuholen.
 - Ein Mehrparteien-Signatursystem (*multisig*) mit reduzierten Anforderungen im Laufe der Zeit, um das Verschwinden eines oder mehrerer Teilnehmer, z. B. der Partner eines Unternehmens, zu bewältigen.
@@ -63,7 +63,8 @@ Besuchen Sie die offizielle Wizardsardine-Website und laden Sie Liana unter http
 
 Um herauszufinden, wie Sie die Authentizität und Integrität von Software vor der Installation manuell überprüfen können, empfehlen wir Ihnen diese Anleitung:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 Installieren Sie die Software auf Ihrem Rechner und starten Sie sie. Wählen Sie die Option "*Erstelle eine neue Liana-Brieftasche*", um Ihre Brieftasche zu konfigurieren.
 
 ![Accueil Liana](assets/fr/03.webp)
@@ -192,7 +193,8 @@ Sie können den Verfallsstatus Ihres Guthabens überprüfen, indem Sie auf die R
 
 Um das in Bitcoin verwendete UTXO-Darstellungsmodell besser zu verstehen, können Sie den ersten Teil des von Loïc Morel geschriebenen Kurses über Vertraulichkeit in Bitcoin lesen:
 
-https://planb.network/courses/btc204
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+
 ## Laufende Ausgaben
 
 Laufende Ausgaben sind der Normalfall für die Nutzung von Liana. Das Versenden von Bitcoins mit dem Master Key funktioniert wie bei allen klassischen Bitcoin-Wallets wie Electrum oder Sparrow.
@@ -303,18 +305,6 @@ Die Transaktion sollte auf dem Hauptbildschirm erscheinen. Sobald dies bestätig
 
 ![Écran principal après récupération](assets/fr/45.webp)
 
-## Videos
-
-Wenn Sie mehr über Liana erfahren möchten, finden Sie hier einige Videos, die Ihnen eine bessere Vorstellung von der Funktionsweise vermitteln. Hier ist eine Video-Präsentation von Liana mit Kévin Loaec und Antoine Poinsot:
-
-![Vidéo de présentation avec Kévin Loaec et Antoine Poinsot](https://youtu.be/siuLmQo1lM8)
-
-Und hier ist eine Anleitung zur Verwendung von Liana, mit Antoine Poinsot:
-
-![Vidéo-tutoriel avec Antoine Poinsot](https://youtu.be/JrG4WMVPZDQ)
-
-Die dort gezeigten Manipulationen ähneln denen, die in diesem Lernprogramm vorgestellt werden.
-
 ## Bonus: Deskriptoranalyse
 
 Der Deskriptor ist eine vom Menschen lesbare Zeichenkette, die eine Reihe von Adressen erschöpfend beschreibt. Er fasst eine Reihe wesentlicher Informationen zusammen, um die Teile (UTXO) eines erweiterten Portfolios abzurufen. Die Art und Weise, wie der Deskriptor geschrieben wird, basiert auf [Miniscript syntax] (https://bitbox.swiss/blog/understanding-bitcoin-miniscript-part-2/), der von Andrew Poelstra, Pieter Wuille und Sanket Kanjalkar im Jahr 2019 entwickelten Skriptsprache.
@@ -350,4 +340,4 @@ Die von diesem Portfolio erstellten Skripte haben die folgende Form:
 
 Da die Sicherheit Ihrer Bitcoin-Wallet auch davon abhängt, dass Sie verstehen, wie sie funktioniert, schlage ich vor, dass Sie die Mechanismen von deterministischen und hierarchischen Wallets in diesem kostenlosen Trainingskurs auf Plan ₿ Network eingehend studieren:
 
-https://planb.network/courses/cyp201
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

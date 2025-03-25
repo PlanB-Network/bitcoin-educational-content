@@ -1,0 +1,9 @@
+question: Which scenario best illustrates the usage of the Essential profile for Bitcoin payments?
+answer: A restaurant accepting a few Bitcoin payments a month
+wrong_answers:
+  - A multinational corporation processing thousands of transactions daily
+  - An independent freelancer who accepts payment for their invoices in bitcoins
+  - A high-frequency Bitcoin trading desk
+explanation: |
+  The Essential profile targets small to medium-sized businesses with few Bitcoin transactions, such as a restaurant.
+reviewed: false

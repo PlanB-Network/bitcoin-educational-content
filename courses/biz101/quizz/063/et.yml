@@ -1,0 +1,9 @@
+question: Milline stsenaarium illustreerib kõige paremini Essential-profiili kasutamist Bitcoini maksete jaoks?
+answer: Restoran, mis võtab vastu mõned Bitcoini maksed kuus
+wrong_answers:
+  - Mitmekülgne ettevõte, mis töötleb tuhandeid tehinguid päevas
+  - Sõltumatu vabakutseline, kes aktsepteerib oma arvete eest maksmist bitcoinides
+  - Kõrgsageduslik Bitcoini kauplemislaud
+explanation: |
+  Essential-profiil on suunatud väikestele ja keskmise suurusega ettevõtetele, kellel on vähe Bitcoini tehinguid, näiteks restoranile.
+reviewed: false

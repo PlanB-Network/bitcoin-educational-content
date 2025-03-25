@@ -234,7 +234,7 @@ Bitcoin challenges us to reconsider the nature of money itself. Could you explai
 
 For more information on Bitcoin, its history, how it works, and its use, I also suggest following this other comprehensive course:
 
-https://planb.network/courses/btc101
+https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 ## Introduction to the Lightning Network
 <chapterId>c095c7ad-5469-4c7b-9510-b6c0b86244e7</chapterId>
@@ -307,7 +307,7 @@ The Lightning Network is ideal for Bitcoin payments in physical or online stores
 
 For more information on the technical workings of the Lightning Network, I also suggest following this other comprehensive course:
 
-https://planb.network/courses/lnp201
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 # Bitcoin in treasury
@@ -426,11 +426,11 @@ These thinkers shaped the idea that state intervention distorts markets and that
 
 For more information on this topic:
 
-https://planb.network/courses/eco201
+https://planb.network/courses/d955dd28-b7c6-4ba2-a123-d932e21d148f
 
-https://planb.network/courses/phi201
+https://planb.network/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
 
-https://planb.network/courses/eco102
+https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 ## Holding bitcoin in treasury
 <chapterId>89622a40-d14f-4c37-a075-8e7e1731ec26</chapterId>
@@ -578,9 +578,9 @@ This is by far the most common method, done either via peer-to-peer exchanges or
 
 To learn how to open a business account and use it to buy, sell, and transfer bitcoins, you can check out these two tutorials specifically designed for businesses, covering the Kraken and Bitfinex platforms in their corporate versions:
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
+https://planb.network/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
 
-https://planb.network/tutorials/exchange/centralized/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
 
 To learn more about methods for acquiring bitcoins via an exchange or peer-to-peer, you can [consult the "exchange" section in our tutorials](https://planb.network/tutorials/exchange).
 
@@ -859,17 +859,17 @@ Although the Essential profile does not demand highly sophisticated accounting s
 
 The most suitable hybrid solution for your profile is likely Swiss Bitcoin Pay:
 
-https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 
 Another easy-to-implement solution, but with the drawback of being 100% custodial, is Open Node:
 
-https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 
 If you are ready to get your hands dirty and want full control over the process, the BTCPay Server software is an excellent option. However, the major drawback of BTCPay Server is that its setup and management are time-consuming and require a certain level of technical expertise, but you can follow our guides:
 
-https://planb.network/tutorials/merchant/merchant/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 
 Finally, as a complement for physical points of sale, you could consider setting up [a Bitcoinize PoS](https://bitcoinize.com/).
@@ -908,7 +908,7 @@ When it comes to real-world examples, consider a mid-sized e-commerce store spec
 
 To delve deeper into implementation specifics and to explore hands-on configurations of BTC Pay Server, refer to the following course:
 
-https://planb.network/courses/btc305
+https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
 
 ## The Enterprise

@@ -1,0 +1,9 @@
+question: Mikä seuraavista EI ole yksi kolmesta mainitusta ensisijaisesta tavasta hankkia Bitcoin?
+answer: Bitcoinin saaminen valtionavustuksena liiketoiminnan kehittämiseen.
+wrong_answers:
+  - Bitcoinin hankkiminen tavaroita tai palveluja vastaan.
+  - Bitcoinin louhinta erikoistuneen laitteiston ja energiankäytön avulla.
+  - Bitcoinin ostaminen alustalta tai välittäjältä.
+explanation: |
+  Luvussa mainitaan kolme pääasiallista tapaa hankkia Bitcoin: hyväksyä se maksuksi, louhia sitä tai ostaa sitä. Bitcoinin vastaanottaminen valtion apurahana ei ole tunnustettu standardihankintatapa.
+reviewed: false

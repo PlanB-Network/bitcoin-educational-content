@@ -1,0 +1,9 @@
+question: Kuidas saab BTC Pay Serverit kasutada professionaalses keskkonnas?
+answer: Kohapeal või pilvehostingu kaudu
+wrong_answers:
+  - Ainult spetsiaalsetel riistvaraseadmetel
+  - Täielikult sisseostetud kolmanda osapoole teenuse kaudu
+  - Mobiilirakendusena
+explanation: |
+  BTC Pay Serveri kasutamise paindlikkus nii kohapeal kui ka pilves võimaldab ettevõtetel valida oma tegevusvajadustele kõige paremini sobivaimad seadistused.
+reviewed: false

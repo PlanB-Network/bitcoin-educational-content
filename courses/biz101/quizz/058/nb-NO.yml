@@ -1,0 +1,9 @@
+question: Hva er fordelen med å bruke en depotlommebok for Starter-profilen?
+answer: Redusert teknisk ansvar
+wrong_answers:
+  - Økt kontroll over private nøkler
+  - Forbedret personvern med full autonomi over transaksjoner
+  - Eliminering av transaksjonsgebyrer
+explanation: |
+  Depotlommebøker administrerer private nøkler, noe som letter den tekniske byrden for brukerne.
+reviewed: false

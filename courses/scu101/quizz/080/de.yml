@@ -1,0 +1,9 @@
+question: Warum wird empfohlen, zwei verschiedene E-Mail-Adressen zu erstellen?
+answer: Um allgemeine Kommunikation von der Konto-Wiederherstellung zu trennen.
+wrong_answers:
+  - Um berufliche und persönliche Kommunikation zu trennen.
+  - Um mehrere Konten zu erstellen und die Online-Sichtbarkeit zu erhöhen.
+  - Um mehr Spam zu erhalten.
+explanation: |
+  Die Trennung von E-Mail-Adressen hilft, Risiken zu minimieren und den Zugang zu kritischen Konten besser zu schützen.
+reviewed: false

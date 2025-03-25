@@ -1,0 +1,9 @@
+question: Hvilke avanserte funksjoner etterspørres vanligvis av bedrifter med profesjonell profil?
+answer: Avanserte rapporteringspaneler og flere administrative roller
+wrong_answers:
+  - Grunnleggende transaksjonsregistrering og standard kvitteringer
+  - Enkel lommebokintegrasjon og generering av QR-koder
+  - Automatisk konvertering til fiat uten noen rapporteringsalternativer
+explanation: |
+  Profesjonelle virksomheter trenger tilpassbare fakturaer, sofistikert rapportering og rollehåndtering som passer til deres komplekse arbeidsflyter.
+reviewed: false

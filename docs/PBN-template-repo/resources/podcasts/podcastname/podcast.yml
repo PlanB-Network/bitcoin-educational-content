@@ -1,3 +1,4 @@
+id: 574fefe7-c787-4ed7-a36e-3203bad80f70
 ## Characteristics of the podcast
 
 # Name
@@ -39,5 +40,5 @@ tags:
 # List all the contributors who help format, review and translate the course.
 # They are identified by their UUID
 # Currently, there are no shared record of these UUIDs
-contributors:
-  - another-satoshi
+contributor_names:
+  - Asi0Flammeus

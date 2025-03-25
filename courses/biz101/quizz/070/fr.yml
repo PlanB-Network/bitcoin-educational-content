@@ -1,0 +1,9 @@
+question: Quelles sont les fonctionnalités avancées généralement demandées par les entreprises à profil professionnel ?
+answer: Tableaux de bord avancés et rôles administratifs multiples
+wrong_answers:
+  - Enregistrement des transactions de base et reçus standard
+  - Intégration simple d'un portefeuille et génération d'un code QR
+  - Conversion automatique en monnaie fiduciaire sans aucune option de déclaration
+explanation: |
+  Les entreprises professionnelles ont besoin de factures personnalisables, de rapports sophistiqués et d'une gestion des rôles pour s'adapter à leurs flux de travail complexes.
+reviewed: false

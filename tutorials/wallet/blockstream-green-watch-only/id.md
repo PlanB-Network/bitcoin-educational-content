@@ -29,7 +29,9 @@ Green adalah aplikasi yang sangat mudah digunakan, membuatnya sangat cocok untuk
 Dalam tutorial ini, kita hanya akan berkonsentrasi pada pembuatan portofolio khusus jam tangan. Untuk menjelajahi penggunaan Green lainnya, silakan baca tutorial khusus kami yang lain:
 
 https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+
 https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+
 ## Menginstal dan mengonfigurasi aplikasi Blockstream Green
 
 Langkah pertama tentu saja mengunduh aplikasi Green. Buka toko aplikasi Anda:

@@ -3,92 +3,86 @@ chapterId: 36a82de7-87ee-5e7a-b69e-48fc30030447
 difficulty: hard
 duration: 45
 author: DecouvreBitcoin
-tags:
-  - Bitcoin
-  - Mining
-  - ASIC
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.3
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.2
+    contributor_names:
+    reward: 0.25
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
-    reward: 0.1
+    reward: 0.12
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.25
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.3
   - language: fr
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.2
+    contributor_names:
+    reward: 0.25
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.25
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.4
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.2
+    contributor_names:
+    reward: 0.25
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.4
 
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.3
 
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.35
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.3
 
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.3
 
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.35

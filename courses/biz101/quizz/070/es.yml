@@ -1,0 +1,9 @@
+question: ¿Qué funciones avanzadas suelen demandar las empresas de perfil profesional?
+answer: Paneles de información avanzados y múltiples funciones administrativas
+wrong_answers:
+  - Registro básico de transacciones y recibos normalizados
+  - Integración sencilla del monedero y generación de códigos QR
+  - Conversión automática a fiat sin opciones de notificación
+explanation: |
+  Las empresas profesionales necesitan facturas personalizables, informes sofisticados y una gestión de funciones que se adapte a sus complejos flujos de trabajo.
+reviewed: false

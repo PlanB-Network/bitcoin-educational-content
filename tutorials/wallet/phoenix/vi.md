@@ -1,192 +1,182 @@
 ---
-name: Phoenix
-
-description: Cài đặt ví Phoenix của bạn
+name: Phượng hoàng
+description: Cài đặt và sử dụng Phoenix Wallet
 ---
+![cover](assets/cover.webp)
 
-![phoenix](assets/cover.webp)
+Phoenix là ví và nút Lightning tự lưu giữ do ACINQ, một công ty Pháp chuyên về các giải pháp phần mềm dựa trên Lightning, phát triển. Không giống như các ví Lightning lưu giữ như Wallet of Satoshi, nơi bitcoin được bên thứ ba nắm giữ, Phoenix cho phép người dùng giữ toàn quyền kiểm soát khóa riêng của họ.
 
-## Giới thiệu
+Phoenix hoạt động như một nút Lightning thực sự được tích hợp vào điện thoại của bạn, tự động mở một kênh với nút Lightning của ACINQ. Ứng dụng này dựa trên Lightning-KMP, một triển khai đa nền tảng của Lightning Network bằng Kotlin, được tối ưu hóa cho ví di động. Không giống như các giải pháp nút Lightning khác, Phoenix đơn giản hóa đáng kể việc quản lý. Người dùng không cần quản lý việc mở và đóng kênh, chạy một nút Bitcoin hoặc điều phối thanh khoản trên mạng Lightning. Phoenix xử lý tất cả các hoạt động kỹ thuật này ở chế độ nền.
 
-Phoenix là một ví lightning không giữ tiền (non-custodial) được tạo bởi Acinq, đội ngũ đứng sau việc triển khai Lightning Eclair.
+Ứng dụng này kết hợp tính dễ sử dụng và tiện lợi của ví Lightning di động với tính bảo mật và chủ quyền của một nút Lightning cá nhân thực sự. Phoenix giúp bạn có thể sử dụng Lightning Network một cách an toàn, hiệu quả và tự chủ, đồng thời tận hưởng trải nghiệm người dùng trực quan, trôi chảy.
 
-Hãy nhớ rằng Phoenix là một ứng dụng di động tập trung vào thanh toán Lightning, nhưng vẫn hỗ trợ thanh toán trên chuỗi, thông qua việc chuyển đổi tích hợp. Điều này có nghĩa là bất kỳ khoản gửi tiền trên chuỗi nào vào Phoenix, sẽ được chuyển đổi ngay lập tức thành một kênh Lightning.
+Đổi lại, một số khoản phí nhất định sẽ được áp dụng:
 
-Nếu bạn muốn gửi đến một địa chỉ trên chuỗi, Phoenix sẽ thực hiện việc chuyển đổi nội bộ từ kênh LN của bạn sang đích trên chuỗi. Lưu ý, tất cả các lần chuyển đổi này đều có chi phí, vì chúng liên quan đến phí trên chuỗi.
 
-Dưới đây, trong phần "Hướng dẫn bắt đầu" chúng tôi sẽ hướng dẫn quá trình thiết lập và giải thích thêm về cách quản lý tính thanh khoản của lightning với Phoenix.
+- Gửi qua Lightning tốn 0,4% số tiền cộng với 4 sats;
+- Nếu cần tiền mặt để nhận qua Lightning, bạn sẽ phải trả 1% số tiền;
+- Mỗi kênh tốn 1000 sats để mở.
 
-## Tài nguyên quan trọng
-- Trang web chính thức của Phoenix - [https://phoenix.acinq.co](https://phoenix.acinq.co)
-- Trang tài liệu / Câu hỏi thường gặp - [https://phoenix.acinq.co/faq](https://phoenix.acinq.co/faq)
-- [Trang Github](https://github.com/ACINQ/phoenix/) | [Trang phát hành Github](https://github.com/ACINQ/phoenix/releases) (tải trực tiếp apk)
-- [Hỗ trợ và thảo luận](https://github.com/ACINQ/phoenix/discussions)
-- [Blog Acinq](https://acinq.co/blog) - thông báo
+Theo tôi, Phoenix là giải pháp trung gian tuyệt vời giữa danh mục đầu tư Lightning lưu ký và quản lý thủ công một nút Lightning. Ứng dụng này phù hợp với cả người mới bắt đầu và người dùng nâng cao, những người không muốn xử lý các chi tiết về việc quản lý LND hoặc Core Lightning của riêng họ. Hãy cùng tìm hiểu cách sử dụng nó!
 
-## Hướng dẫn Video
+![Image](assets/fr/01.webp)
 
-![Phoenix: Hướng dẫn Ví Bitcoin Lightning](https://youtu.be/cbtAmevYpdM?si=zctujxtI0hI-jKpC)
+## Cài đặt ứng dụng
 
-## Hướng dẫn Bắt Đầu
+Vào cửa hàng ứng dụng và cài đặt Phoenix:
 
-Dưới đây là hướng dẫn từng bước cách bắt đầu với Phoenix, thiết lập, thực hiện / nhận thanh toán, quản lý tính thanh khoản, quá trình sao lưu / khôi phục.
 
-### Tải về & Thiết lập
-Bạn có thể tải và cài đặt Phoenix từ: [App Store](https://apps.apple.com/us/app/phoenix-wallet/id1544097028) | [Google Play Store](https://play.google.com/store/apps/details?id=fr.acinq.phoenix.mainnet) | [Tải trực tiếp apk](https://github.com/ACINQ/phoenix/releases)
+- Trên [Cửa hàng Google Play](https://play.google.com/store/apps/details?id=fr.acinq.phoenix.mainnet);
+- Trên [App Store](https://apps.apple.com/fr/app/phoenix-wallet/id1544097028?l=en-GB).
 
-Theo dõi các hướng dẫn bắt đầu từ màn hình Chào mừng, từng bước một.
+![Image](assets/fr/02.webp)
 
-![](assets/screenshot2.webp)
+Bạn cũng có thể cài đặt ứng dụng [bằng tệp apk trên kho lưu trữ GitHub của họ](https://github.com/ACINQ/phoenix/releases).
 
-Bạn sẽ được thông báo về việc tạo kênh lightning tự động.
-Bắt đầu với phiên bản 2.0 là một nâng cấp lớn mang lại "splicing" cho Phoenix:
-- một kênh động duy nhất,
-- không còn phí 1% cho tính thanh khoản đầu vào
-- khả năng dự đoán và kiểm soát tốt hơn
-- chuyển đổi không cần tin cậy
+![Image](assets/fr/03.webp)
 
-Kiểm tra [bài đăng trên blog Phoenix](https://acinq.co/blog/phoenix-splicing-update) để biết thêm chi tiết, đặc biệt là mô hình phí mới.
+## Tạo danh mục đầu tư
 
-![](assets/screenshot3.webp)
+Sau khi ứng dụng bắt đầu, hãy nhấp vào nút "*Tiếp theo*" để bỏ qua phần trình bày, sau đó nhấp vào "*Bắt đầu*".
 
-### Hướng dẫn nhanh về Tính thanh khoản
+![Image](assets/fr/04.webp)
 
-Vì vậy, một khi bạn nhận / gửi sats vào ví này, tự động nó sẽ mở kênh với nút ACINQ. Thông thường, kích thước của các kênh sẽ lớn hơn một chút so với số tiền bạn đã gửi. Vì vậy, bạn sẽ luôn có một kênh mới cho mỗi khoản gửi, trừ khi khi bạn chưa hoàn toàn dùng hết kênh và bạn nhận được một khoản thanh toán nhỏ hơn, nó sẽ được nạp lại.
+Chọn "*Tạo ví mới*".
 
-Đối với tính thanh khoản Lightning của Phoenix, chúng tôi sẽ đề xuất kịch bản sau:
+![Image](assets/fr/05.webp)
 
-Với phiên bản mới v0.2.0 có tính năng LN mới là splicing. Điều này có nghĩa là từ bây giờ bạn sẽ không phải đối mặt với việc có nhiều kênh nhỏ mới cho mỗi khoản thanh toán nhận được nữa.
+Và thế là ví Lightning và nút của bạn đã được tạo.
 
-Nếu không đủ tính thanh khoản đầu vào, Phoenix sẽ tăng kích thước của kênh ban đầu của bạn, nhưng điều đó vẫn đòi hỏi một phí trên chuỗi. Bạn có thể thiết lập phí đó trong cài đặt Phoenix, tùy chọn thanh toán và phí.
-Vì vậy, chúng tôi đề xuất bạn bắt đầu sử dụng Phoenix với một kênh lớn, như 1-3-5M sats. Phí cam kết của bạn sẽ không đáng kể so với kích thước của kênh và sẽ không ảnh hưởng quá nhiều đến bạn. Thay vì phải trả 4-5 lần (hoặc bất kỳ bao nhiêu lần bạn nạp số lượng nhỏ) một phí tối thiểu 3000 sats cho mỗi lần nạp, bạn chỉ cần trả một lần phí mở kênh.
+![Image](assets/fr/06.webp)
 
-Nếu bạn bắt đầu chi tiêu từ kênh đó, đừng tiêu hết, vì Phoenix sẽ đóng nó.
+## Lưu cụm từ ghi nhớ
 
-Nếu bạn để lại một số sats trong kênh và thực hiện một lần nạp tiền khác từ một ví LN khác / nguồn nạp tiền khác, chúng ta có hai tình huống cần xem xét:
-- với một số tiền nạp mới lớn hơn sức chứa kênh của bạn, Phoenix sẽ điều chỉnh kích thước kênh và bạn sẽ phải trả một khoản phí bổ sung.
-- với một số tiền nạp mới nhỏ hơn sức chứa kênh của bạn, sẽ không có phí nào được tính.
+Trước khi bắt đầu, chúng ta cần lưu cụm từ ghi nhớ 12 từ của mình. Cụm từ này cung cấp quyền truy cập hoàn toàn, không giới hạn vào tất cả bitcoin của bạn. Bất kỳ ai sở hữu cụm từ này đều có thể đánh cắp tiền của bạn, ngay cả khi không có quyền truy cập vật lý vào điện thoại của bạn.
 
-Vì vậy, hãy cố gắng điều chỉnh sức chứa kênh ban đầu theo nhu cầu chi tiêu cá nhân của bạn. Chi tiêu và thay thế trong giới hạn của kênh sẽ không phát sinh thêm phí và trải nghiệm sử dụng ứng dụng ví này sẽ trở nên mượt mà.
+Cụm từ 12 từ này khôi phục quyền truy cập vào bitcoin của bạn trong trường hợp điện thoại bị mất, bị trộm hoặc bị hỏng. Do đó, điều rất quan trọng là phải lưu trữ cẩn thận và cất giữ ở nơi an toàn.
 
-### Sao lưu
-Trong màn hình tiếp theo, bạn sẽ được thông báo rằng ứng dụng Phoenix sẽ tạo một cụm từ hạt giống làm sao lưu cho ví của bạn. Sau này, những từ hạt giống này PHẢI được lưu trữ ở một nơi an toàn!
+Bạn có thể viết nó trên giấy hoặc, để tăng thêm tính bảo mật, hãy khắc nó trên thép không gỉ để bảo vệ nó khỏi hỏa hoạn, lũ lụt hoặc sụp đổ. Lựa chọn phương tiện cho phương pháp ghi nhớ của bạn sẽ phụ thuộc vào chiến lược bảo mật của bạn, nhưng nếu bạn đang sử dụng Phoenix như một danh mục chi tiêu có số tiền vừa phải, thì giấy sẽ là đủ.
 
-![](assets/screenshot4.webp)
+Để biết thêm thông tin về cách lưu và quản lý cụm từ ghi nhớ đúng cách, tôi thực sự khuyên bạn nên làm theo hướng dẫn khác này, đặc biệt nếu bạn là người mới bắt đầu:
 
-Màn hình tiếp theo chỉ ra nếu bạn muốn tạo một ví mới hoặc khôi phục một ví trước đó, từ cụm từ hạt giống.
+https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-![](assets/screenshot5.webp)
+Nhấp vào thông báo hiển thị ở đầu giao diện "*Lưu ví của bạn...*".
 
-Một khi ví mới được tạo, bạn sẽ được cảnh báo rằng bạn nên sao lưu cụm từ hạt giống. Nhấp vào nút "Sao lưu ví".
+![Image](assets/fr/07.webp)
 
-![](assets/screenshot6.webp)
+Sau đó nhấp vào "*Lưu ví của tôi*".
 
-Bạn sẽ được cảnh báo rằng những từ từ cụm từ hạt giống này rất quan trọng và nhạy cảm và bạn nên giữ chúng ở chế độ riêng tư.
+![Image](assets/fr/08.webp)
 
-![](assets/screenshot7.webp)
+Sau đó nhấp vào "*Xem khóa của tôi*" và lưu cụm từ ghi nhớ của bạn vào một phương tiện vật lý.
 
-Những từ hạt giống này bạn PHẢI lưu chúng vào một nơi an toàn, như một trình quản lý mật khẩu ([KeePass](https://keepass.info/) hoặc [Bitwarden](https://bitwarden.com/)), giữ cơ sở dữ liệu của trình quản lý mật khẩu này trên một ổ USB mã hóa ngoại tuyến để đảm bảo an toàn tuyệt đối.
+![Image](assets/fr/09.webp)
 
-![](assets/screenshot8.webp)
+Đánh dấu vào hai hộp ở cuối giao diện để xác nhận rằng quá trình sao lưu đã hoàn tất thành công.
 
-### Nhận thanh toán
+![Image](assets/fr/10.webp)
 
-Trước khi bạn bắt đầu nhận, vui lòng đọc phần "Hướng dẫn Nhanh về Tính thanh khoản" ở trên.
+## Thiết lập ứng dụng
 
-Vậy giờ đây, bạn đã sẵn sàng nhận sats vào ví Phoenix của mình!
+Trước khi thực hiện giao dịch đầu tiên, bạn có thể tùy chỉnh cài đặt bằng cách nhấp vào biểu tượng bánh răng ở góc dưới bên trái của giao diện.
 
-![](assets/screenshot9.webp)
+![Image](assets/fr/11.webp)
 
-Để nhận một khoản thanh toán, trong Phoenix bạn có các lựa chọn sau:
-- bằng cách sử dụng mã QR được hiển thị, đại diện cho một hóa đơn Lightning "trống"
-- bằng cách chỉnh sửa hóa đơn Lightning (xem nút chỉnh sửa dưới mã QR), nơi bạn có thể thêm một số lượng sats, thêm một bình luận hiển thị cho người thanh toán
-- bằng cách sử dụng / quét mã QR LNURL-withdraw
-- bằng cách tạo một địa chỉ Bitcoin trên chuỗi từ ví Phoenix của bạn. Hãy nhớ rằng khoản thanh toán này sẽ được "chuyển đổi" thành một kênh Lightning mới (nếu bạn chưa mở một kênh) hoặc điều chỉnh kích thước một kênh Lightning hiện có.
+Trong menu "*Hiển thị*", bạn có thể chọn chủ đề ứng dụng, mệnh giá sử dụng cho bitcoin và loại tiền pháp định địa phương của bạn.
 
-![](assets/screenshot10.webp)
+![Image](assets/fr/12.webp)
 
-Màn hình hiển thị để chỉnh sửa một hóa đơn Lightning mới và tạo mã QR mới cho nó:
+Trong "*Tùy chọn thanh toán*", bạn sẽ tìm thấy nhiều cài đặt nâng cao cho thanh toán Lightning. Bạn có thể giữ nguyên cài đặt mặc định.
 
-![](assets/screenshot11.webp)
+![Image](assets/fr/13.webp)
 
-Đây là màn hình nơi bạn có thể tạo một địa chỉ BTC trên chuỗi và được thông báo rằng khoản thanh toán đến địa chỉ này sẽ được "chuyển đổi" thành tính thanh khoản lightning và liên quan đến một số phí.
+Trong "*Quản lý kênh*", hãy đặt mức phí tối đa bạn sẵn sàng trả khi mở kênh Lightning.
 
-![](assets/screenshot12.webp)
+![Image](assets/fr/14.webp)
 
-Một khi khoản thanh toán được thực hiện, một màn hình xác nhận sẽ được hiển thị, tất cả đã xong!
+Trong menu "*Kiểm soát truy cập*", tôi thực sự khuyên bạn nên kích hoạt hệ thống xác thực để bảo mật quyền truy cập vào ứng dụng trên điện thoại của bạn. Điều này sẽ ngăn chặn bất kỳ ai có quyền truy cập vào điện thoại đã mở khóa của bạn truy cập vào Phoenix và đánh cắp bitcoin của bạn.
 
-![](assets/screenshot13.webp)
-Bạn có thể thêm một ghi chú cá nhân cho mỗi khoản thanh toán nhận được. Những ghi chú này không được lưu trữ ở bất cứ đâu khác, chỉ được giữ trên thiết bị của bạn. Nếu bạn khôi phục ví Phoenix của mình, những ghi chú này sẽ không được khôi phục. Đây là một tính năng hữu ích để theo dõi các khoản thanh toán đã gửi và nhận.
+![Image](assets/fr/15.webp)
 
-![](assets/screenshot14.webp)
+Trong menu "*Máy chủ Electrum*", nếu bạn có máy chủ Electrs, bạn có thể kết nối máy chủ đó để phát các giao dịch của mình.
 
-### Gửi thanh toán
+![Image](assets/fr/16.webp)
 
-Quá trình gửi thanh toán khá đơn giản, chỉ cần nhấp vào nút "Send" trên màn hình chính
+Để tăng cường tính bảo mật cho các kết nối của bạn, hãy bật kết nối qua Tor trong menu "*Tor*". Mặc dù việc sử dụng Tor có thể làm chậm một chút các khoản thanh toán của bạn và yêu cầu ứng dụng Phoenix phải mở ở chế độ nền trước khi nhận, nhưng nó làm tăng đáng kể tính riêng tư của bạn.
 
-![](assets/screenshot15.webp)
+![Image](assets/fr/17.webp)
 
-Bạn sẽ được yêu cầu cho phép ứng dụng Phoenix truy cập camera của thiết bị, để có thể quét mã QR.
+## Nhận bitcoin trên chuỗi
 
-![](assets/screenshot16.webp)
+Khi sử dụng lần đầu, bạn có tùy chọn nạp tiền vào ví Phoenix của mình bằng tiền trên chuỗi. Bạn cũng có thể thực hiện khoản tiền gửi đầu tiên này trực tiếp từ Lightning (xem phần tiếp theo), nhưng trong cả hai trường hợp, bạn sẽ phải trả thêm phí để mở kênh đầu tiên.
 
-Trong màn hình thanh toán, bạn có 3 lựa chọn:
-- quét mã QR từ hóa đơn Lightning của người nhận / LNURL
-- nhập thủ công (dán), nhập địa chỉ Lightning hoặc mã LNURL-pay
-- tải một hình ảnh QR từ đĩa cục bộ
+Nhấp vào nút "*Nhận*".
 
-![](assets/screenshot17.webp)
+![Image](assets/fr/18.webp)
 
-Như bạn có thể thấy trên màn hình này, yêu cầu thanh toán đã được quét và các chi tiết đã được điền vào. Bạn chỉ cần nhấn nút "Pay".
+Vuốt mã QR sang phải để hiển thị địa chỉ nhận Bitcoin. Gửi số tiền bạn muốn gửi vào Phoenix.
 
-![](assets/screenshot18.webp)
+![Image](assets/fr/19.webp)
 
-Một khi thanh toán được gửi và xác nhận, một màn hình xác nhận với các chi tiết ngắn gọn của khoản thanh toán, bao gồm cả phí đã trả. Nếu bạn muốn xem thêm chi tiết về thanh toán, nhấp vào nút "Details".
+Số tiền nhận được trên chuỗi sẽ xuất hiện đầu tiên dưới dạng đang chờ xử lý trong số dư danh mục đầu tư của bạn. Sẽ mất 3 lần xác nhận trước khi số tiền có thể sử dụng.
 
-![](assets/screenshot19.webp)
+![Image](assets/fr/20.webp)
 
-Trong màn hình chi tiết, bạn có thể thấy các chi tiết kỹ thuật của khoản thanh toán, bao gồm: hash thanh toán và yêu cầu, preimage, nút đích và thời gian. Đôi khi những chi tiết này hữu ích để theo dõi thanh toán, gỡ lỗi hoặc xác định với người nhận một khoản thanh toán cụ thể.
+Sau khi nhận được tiền, Phoenix sẽ tự động mở kênh Lightning cho bạn. Bây giờ bạn có thể gửi và nhận bitcoin qua Lightning Network.
 
-![](assets/screenshot20.webp)
+![Image](assets/fr/21.webp)
 
-### Cài đặt
+## Nhận bitcoin qua Lightning
 
-Trong menu Cài đặt, không có quá nhiều việc phải làm, Phoenix hướng tới sự đơn giản. Nhưng một khía cạnh quan trọng ở đây là menu quản lý các kênh thanh toán và phí, nơi bạn có thể thiết lập các mức phí mong muốn của mình. Hãy nhớ rằng trong một môi trường mempool với phí cao, bạn không nên sử dụng phí quá thấp, nếu không các khoản thanh toán và việc mở kênh của bạn sẽ bị gián đoạn và/hoặc thất bại.
+Để nhận vệ tinh qua Lightning Network, hãy nhấp vào nút "*Nhận*".
 
-Các tùy chọn khác trong menu Cài đặt:
-- Hiển thị - để chuyển đổi giữa các chủ đề màu sắc khác nhau
-- Máy chủ Electrum - để kiểm tra trạng thái của máy chủ Electrum mà bạn đang kết nối hoặc chỉ định một máy chủ
-- Tor - nếu bạn muốn sử dụng Phoenix qua mạng Tor
-- Cài đặt truy cập ứng dụng - thiết lập quyền cho Phoenix đối với các dịch vụ thiết bị cụ thể
-- Cụm từ khôi phục - nếu bạn muốn kiểm tra các từ khóa hạt giống và/hoặc tạo một bản sao lưu mới
-- Danh sách kênh - hiển thị trạng thái của các kênh Lightning của bạn và tính thanh khoản (vào/ra) có sẵn
-- Nhật ký - hiển thị nhật ký gỡ lỗi
-- Đóng tất cả các kênh - Tùy chọn nguy hiểm chỉ nên sử dụng TRONG TRƯỜNG HỢP bạn muốn tắt vĩnh viễn nút Phoenix của mình và khôi phục các quỹ vào địa chỉ onchain của bạn. Địa chỉ đó sau đó có thể được truy xuất sử dụng ví Electrum, bằng cách sử dụng cụm từ hạt giống Phoenix của bạn.
+![Image](assets/fr/22.webp)
 
-![](assets/screenshot21.webp)
+Phoenix tạo hóa đơn Lightning. Bạn có thể quét hoặc gửi cho người muốn chuyển sats cho bạn.
 
-### Đặt lại
+![Image](assets/fr/23.webp)
 
-Nếu bạn đang trong tình huống mà ứng dụng Phoneix của bạn gặp rắc rối (không thực hiện được thanh toán, không kết nối được với máy chủ Electrum, không nhận được thanh toán) hoặc bạn đơn giản muốn chuyển nó sang một thiết bị khác, bạn PHẢI chắc chắn về hai khía cạnh:
-- có bản sao lưu của cụm từ hạt giống của bạn
-- dừng ứng dụng trên thiết bị của bạn - đi đến chi tiết ứng dụng và buộc dừng dịch vụ
-- gỡ cài đặt nó khỏi thiết bị cũ nếu bạn muốn chuyển nó sang một thiết bị mới
-- KHÔNG chạy cùng một ví Phoenix trên nhiều thiết bị!
+Bằng cách nhấp vào nút "*Chỉnh sửa*", bạn có thể thêm mô tả sẽ hiển thị cho người trả tiền trên hóa đơn và xác định số tiền cụ thể mà người trả tiền phải gửi.
 
-![](assets/screenshot22.webp)
+![Image](assets/fr/24.webp)
 
-Một khi bạn cài đặt lại hoặc cài đặt nó trên các thiết bị mới, nhấp vào nút "Restore" và làm theo hướng dẫn
+Các hóa đơn cổ điển được đề cập ở trên chỉ có thể sử dụng một lần. Đối với tùy chọn thanh toán có thể tái sử dụng, bạn có thể sử dụng mã QR có thể tái sử dụng của mình, đây là ưu đãi BOLT12.
 
-![](assets/screenshot23.webp)
-Bạn không thể sử dụng loại hạt giống khác, được tạo từ các ứng dụng ví khác. [Xem thêm chi tiết tại đây](https://walletsrecovery.org/) về các loại ví khác và loại hạt giống cũng như đường dẫn phái sinh của chúng. Không phải tất cả đều tương thích!
-![](assets/screenshot24.webp)
+![Image](assets/fr/25.webp)
 
-Bạn phải nhập các từ hạt giống đã lưu trước đó, từng từ một, theo đúng thứ tự. Sau khi bạn nhập xong 12 từ, nhấn vào nút "Nhập khẩu" và xong.
+Sau khi hóa đơn hoặc ưu đãi BOLT12 được thanh toán, giao dịch sẽ hiển thị trên ví Lightning của bạn.
 
-![](assets/screenshot25.webp)
+![Image](assets/fr/26.webp)
 
-Trong vài phút, bạn sẽ thấy số dư trước đó của mình được hiển thị. Bạn cũng sẽ nhận được cảnh báo để sao lưu hạt giống của mình. Bạn chỉ cần vào menu và chọn "Tôi đã lưu sao lưu" nếu bạn đã làm điều đó.
+## Gửi bitcoin qua Lightning
 
-![](assets/screenshot26.webp)
+Bây giờ bạn đã có sats trên Phoenix, bạn đã sẵn sàng thực hiện thanh toán qua Lightning Network. Bắt đầu bằng cách nhấp vào nút "*Gửi*".
 
-Xong! Chúc mừng! Hãy thưởng thức Lightning!
+![Image](assets/fr/27.webp)
+
+Có một số tùy chọn dành cho bạn. Bằng cách nhấp vào "*Quét mã QR*", bạn có thể quét hóa đơn Lightning, ưu đãi BOLT12 hoặc thậm chí là địa chỉ nhận để thanh toán trên chuỗi.
+
+![Image](assets/fr/28.webp)
+
+Bạn cũng có thể nhập thông tin này theo cách thủ công thông qua bàn phím trong trường ở đầu giao diện hoặc nhập địa chỉ Lightning (BOLT12 hoặc LNURL). Bạn cũng có thể dán thông tin trực tiếp bằng nút "*Dán*".
+
+![Image](assets/fr/29.webp)
+
+Trong ví dụ này, tôi đã quét một hóa đơn trị giá 10.000 sats. Để thanh toán, chỉ cần nhấp vào "*Thanh toán*".
+
+![Image](assets/fr/30.webp)
+
+Giao dịch đã hoàn tất.
+
+![Image](assets/fr/31.webp)
+
+Xin chúc mừng, giờ bạn đã biết cách cấu hình và sử dụng Phoenix. Nếu bạn thấy hướng dẫn này hữu ích, tôi sẽ rất biết ơn nếu bạn để lại một ngón tay cái màu xanh lá cây bên dưới. Hãy thoải mái chia sẻ bài viết này trên mạng xã hội của bạn. Cảm ơn vì đã chia sẻ!
+
+Để tìm hiểu sâu hơn, hãy xem hướng dẫn này về Alby Hub, một giải pháp sáng tạo và dễ sử dụng khác để khởi chạy nút Lightning của riêng bạn:
+
+https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+
+Và để tìm hiểu thêm về hoạt động kỹ thuật của Lightning Network, bạn có thể tìm thấy khóa đào tạo miễn phí tuyệt vời của Fanis Michalakis về Plan ₿ Network:
+
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

@@ -1,0 +1,9 @@
+question: ¿Cuáles son las principales funcionalidades de un gestor de contraseñas?
+answer: Almacenar, generar y organizar contraseñas.
+wrong_answers:
+  - Analizar y eliminar virus.
+  - Hacer copias de seguridad y organizar documentos personales.
+  - Optimizar la velocidad de conexión.
+explanation: |
+  Las funciones esenciales incluyen almacenar, generar y organizar contraseñas.
+reviewed: false

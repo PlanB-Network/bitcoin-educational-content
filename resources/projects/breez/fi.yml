@@ -6,5 +6,3 @@ description: |
   Niille, jotka haluavat integroida P2P Lightning-maksut sovelluksiinsa, Breez tarjoaa SDK:n maksimaalisen mukauttamisen minimaalisella ohjelmoinnilla. Breez Cloud parantaa edelleen käyttäjäkokemusta, yhdistäen ei-huoltajavaltuutetun Lightningin mukavuuden huoltajavaltuutettujen palveluiden kanssa monipuolisiin, milloin tahansa tapahtuviin maksuihin.
 
   Breez muokkaa Lightning-talouden tulevaisuutta, tehden Bitcoin-maksuista aiempaa saavutettavampia ja tehokkaampia.
-contributors:
-  - rabbit-hole

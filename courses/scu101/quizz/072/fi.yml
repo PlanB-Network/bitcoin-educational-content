@@ -1,0 +1,9 @@
+question: Mikä on salasanojen hallintaohjelma?
+answer: Työkalu, joka tallentaa, luo ja hallinnoi salasanoja.
+wrong_answers:
+  - Virustorjuntaohjelma hakkereiden hyökkäyksiä vastaan.
+  - Turvallinen sähköpostipalvelu.
+  - Henkilötietojen varmuuskopiointityökalu.
+explanation: |
+  Salasanojen hallintaohjelma keskittää salasanojen tallennuksen ja luomisen.
+reviewed: false

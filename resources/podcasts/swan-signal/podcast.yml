@@ -1,3 +1,4 @@
+id: a5e54b2e-9fb0-4815-953a-0aaad7bac98c
 name: Swan Signal
 host: Sam Callahan
 language: en
@@ -5,9 +6,10 @@ links:
   podcast: https://podcasts.apple.com/us/podcast/swan-signal-a-bitcoin-podcast/id1503581478
   website: https://swansignalpodcast.com/
 description: |
- Swan Signal pairs up great Bitcoiners for compelling discussions that are unique on the Bitcoin content scene. Every week we broadcast Swan Signal Live Twitter, YouTube, Facebook, and Twitch. Then we publish the audio here. Enjoy!
+  Swan Signal pairs up great Bitcoiners for compelling discussions that are unique on the Bitcoin content scene. Every week we broadcast Swan Signal Live Twitter, YouTube, Facebook, and Twitch. Then we publish the audio here. Enjoy!
+contributor_names:
+  - Rogzy-DB
 tags:
-  - bitcoin
-  - technology
-contributors:
-  - rabbit-hole
+  - high-level
+  - market-trends
+  - adoption

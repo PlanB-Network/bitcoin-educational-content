@@ -1,3 +1,4 @@
+id: 48973f26-3c23-4d51-8784-4124c3452e8c
 name: Enigma Nakamoto
 host: Urban Tech
 language: fr
@@ -6,8 +7,9 @@ links:
   twitter: hhttps://twitter.com/urbantech21
 description: |
   Plongez dans les abysses mystérieuses de l'histoire et la préhistoire de Bitcoin. Partir d'une autre approche à la rencontre de Satoshi
+contributor_names:
+  - Rogzy-DB
 tags:
-  - bitcoin
-  - technology
-contributors:
-  - rabbit-hole
+  - historical
+  - deep-dive
+  - cypherpunk

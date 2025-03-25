@@ -1,7 +1,7 @@
 ---
 name: Introduzione alla crittografia formale
 goal: Un'introduzione approfondita alla scienza e alla pratica della crittografia.
-objectives: 
+objectives:
 
   - Esplorare i cifrari di Beale e i moderni metodi crittografici per comprendere i concetti fondamentali e storici della crittografia.
   - Approfondite la teoria dei numeri, i gruppi e i campi per padroneggiare i concetti matematici chiave alla base della crittografia.
@@ -291,7 +291,7 @@ Nell'espressione "variabile casuale", il termine "casuale" significa semplicemen
 
 Una variabile **uniforme** è un caso speciale di variabile casuale. Può assumere due o più valori, tutti con la stessa probabilità. La variabile casuale $X$ rappresentata nella *Figura 1* è chiaramente una variabile uniforme, poiché entrambi i possibili risultati si verificano con una probabilità di $0,5$. Esistono tuttavia molte variabili casuali che non sono istanze di variabili uniformi.
 
-Consideriamo, ad esempio, la variabile casuale $Y$. Essa ha un insieme di risultati ${1, 2, 3, 8, 10}$ e la seguente distribuzione di probabilità:
+Consideriamo, ad esempio, la variabile casuale $Y$. Essa ha un insieme di risultati $\{1, 2, 3, 8, 10}$ e la seguente distribuzione di probabilità:
 
 $$
 \Pr[Y = 1] = 0.25
@@ -542,7 +542,7 @@ Nella nostra discussione sulle variabili casuali e uniformi, abbiamo fatto una d
 
 Per cominciare, possiamo chiamare una stringa binaria di lunghezza $n$ **casuale** (o **uniforme**), se è il risultato del campionamento di una variabile uniforme $S$ che dà a ogni stringa binaria di tale lunghezza $n$ un'uguale probabilità di selezione.
 
-Supponiamo, ad esempio, l'insieme di tutte le stringhe binarie di lunghezza 8: ${0000\ 0000, 0000\ 0001, \ldots, 1111\ 1111\}$. (È tipico scrivere una stringa a 8 bit in due quartine, ciascuna chiamata **nibble**) Chiamiamo questo insieme di stringhe **$S_8$**.
+Supponiamo, ad esempio, l'insieme di tutte le stringhe binarie di lunghezza 8: $\{0000\ 0000, 0000\ 0001, \ldots, 1111\ 1111\}$. (È tipico scrivere una stringa a 8 bit in due quartine, ciascuna chiamata **nibble**) Chiamiamo questo insieme di stringhe **$S_8$**.
 
 In base alla definizione precedente, possiamo quindi chiamare casuale (o uniforme) una particolare stringa binaria di lunghezza 8, se è il risultato del campionamento di una variabile uniforme $S$ che dà a ogni stringa in **$S_8$** un'uguale probabilità di selezione. Dato che l'insieme **$S_8$** comprende $2^8$ elementi, la probabilità di selezione al momento del campionamento dovrebbe essere $1/2^8$ per ogni stringa dell'insieme.
 
@@ -560,7 +560,7 @@ Un concetto chiave della crittografia è quello di pseudorandomicità. Una strin
 
 Supponiamo, ad esempio, una variabile casuale $S$. Il suo insieme di risultati è **$S_{256}$**, cioè l'insieme di tutte le stringhe binarie di lunghezza 256. Questo insieme ha $2^{256}$ elementi. Questo insieme ha $2^{256}$ elementi. Ogni elemento ha un'uguale probabilità di selezione, $1/2^{256}$, al momento del campionamento.
 
-Inoltre, supponiamo una variabile casuale $S'$. Il suo insieme di risultati comprende solo $2^{128}$ stringhe binarie di lunghezza 256. Ha una certa distribuzione di probabilità su queste stringhe, ma questa distribuzione non è necessariamente uniforme. Ha una certa distribuzione di probabilità su queste stringhe, ma questa distribuzione non è necessariamente uniforme.
+Inoltre, supponiamo una variabile casuale $S'$. Il suo insieme di risultati comprende solo $2^{128}$ stringhe binarie di lunghezza 256. Ha una certa distribuzione di probabilità su queste stringhe, ma questa distribuzione non è necessariamente uniforme.
 
 Supponiamo che ora io prenda 1000 campioni da $S$ e 1000 campioni da $S'$ e che vi dia le due serie di risultati. Vi dico quale serie di risultati è associata a quale variabile casuale. Poi prendo un campione da una delle due variabili casuali. Ma questa volta non vi dico quale variabile casuale campionare. Se $S'$ fosse pseudorandom, la probabilità di indovinare quale variabile casuale ho campionato non sarebbe praticamente migliore di $1/2$.
 
@@ -610,9 +610,9 @@ Un concetto fondamentale in matematica è quello di insieme di elementi. Un insi
 
 Ad esempio, l'insieme di tutti i numeri interi è ${{..., -2, -1, 0, 1, 2, ...\}$. Le ellissi qui significano che un certo schema continua in una particolare direzione. Quindi l'insieme di tutti i numeri interi comprende anche $3, 4, 5, 6$ e così via, così come $3, -4, -5, -6$ e così via. Questo insieme di tutti i numeri interi è tipicamente indicato con $mathbb{Z}$.
 
-Un altro esempio di insieme è $mathbb{Z} \mod 11$, ovvero l'insieme di tutti i numeri interi modulo 11$. A differenza dell'intero insieme $\mathbb{Z}$, questo insieme contiene solo un numero finito di elementi, ovvero ${0, 1, \ldots, 9, 10}$.
+Un altro esempio di insieme è $mathbb{Z} \mod 11$, ovvero l'insieme di tutti i numeri interi modulo 11$. A differenza dell'intero insieme $\mathbb{Z}$, questo insieme contiene solo un numero finito di elementi, ovvero $\{0, 1, \ldots, 9, 10\}$.
 
-Un errore comune è pensare che l'insieme $mathbb{Z} \mod 11$ sia in realtà ${-10, -9, \ldots, 0, \ldots, 9, 10}$. Ma non è questo il caso, dato il modo in cui abbiamo definito l'operazione modulo in precedenza. Qualsiasi intero negativo ridotto con modulo 11 si avvolge su ${0, 1, \ldots, 9, 10}$. Per esempio, l'espressione $-2 \mod 11$ si avvolge su $9$, mentre l'espressione $-27 \mod 11$ si avvolge su $5$.
+Un errore comune è pensare che l'insieme $mathbb{Z} \mod 11$ sia in realtà $\{-10, -9, \ldots, 0, \ldots, 9, 10\}$. Ma non è questo il caso, dato il modo in cui abbiamo definito l'operazione modulo in precedenza. Qualsiasi intero negativo ridotto con modulo 11 si avvolge su $\{0, 1, \ldots, 9, 10\}$. Per esempio, l'espressione $-2 \mod 11$ si avvolge su $9$, mentre l'espressione $-27 \mod 11$ si avvolge su $5$.
 
 Un altro concetto fondamentale della matematica è quello di operazione binaria. Si tratta di qualsiasi operazione che prende due elementi per produrne un terzo. Per esempio, dall'aritmetica e dall'algebra di base si conoscono le quattro operazioni binarie fondamentali: addizione, sottrazione, moltiplicazione e divisione.
 
@@ -685,7 +685,7 @@ Nell'ambito della crittografia a chiave pubblica, una certa classe di gruppi abe
 
 Supponiamo un gruppo $G$ con un'operazione di gruppo $\circ$ e che $a$ sia un elemento di $G$. L'espressione $a^n$ va quindi interpretata come l'elemento $a$ combinato con se stesso per un totale di $n - 1$ volte. Ad esempio, $a^2$ significa $a \circ a$, $a^3$ significa $a \circ a \circ a$, e così via. (Si noti che l'esponenziazione in questo caso non è necessariamente un'esponenziazione in senso aritmetico standard)
 
-Facciamo un esempio. Supponiamo che $G = ´angolo ´mathbb{Z} \mod 7, + \rangolo$, e che il nostro valore per $a$ sia uguale a 4. In questo caso, $a^2$ = [4 + 4 \mod 7] = [8 \mod 7] = 1 \mod 7$. In alternativa, $a^4$ rappresenterebbe $[4 + 4 + 4 + 4 \mod 7] = [16 \mod 7] = 2 \mod 7$.
+Facciamo un esempio. Supponiamo che $G = \langle \mathbb{Z} \mod 7, + \rangle$, e che il nostro valore per $a$ sia uguale a 4. In questo caso, $a^2$ = [4 + 4 \mod 7] = [8 \mod 7] = 1 \mod 7$. In alternativa, $a^4$ rappresenterebbe $[4 + 4 + 4 + 4 \mod 7] = [16 \mod 7] = 2 \mod 7$.
 
 Alcuni gruppi abeliani hanno uno o più elementi che possono generare tutti gli altri elementi del gruppo attraverso l'esponenziazione continua. Questi elementi sono chiamati **generatori** o **elementi primitivi**.
 
@@ -778,7 +778,7 @@ Un campo deriva dalla nozione di gruppo. In particolare, un **campo** è un insi
 
 3. L'insieme **S** dotato dei due operatori soddisfa la cosiddetta condizione distributiva: Supponiamo che $a$, $b$ e $c$ siano elementi di **S**. Allora **S** dotato dei due operatori soddisfa la proprietà distributiva quando $a \circ (b \diamond c) = (a \circ b) \diamond (a \circ c)$.
 
-Si noti che, come per i gruppi, la definizione di campo è molto astratta. Non fa affermazioni sui tipi di elementi in **S**, né sulle operazioni $circ$ e $diamond$. Si limita ad affermare che un campo è un qualsiasi insieme di elementi con due operazioni per il quale valgono le tre condizioni di cui sopra. (L'elemento "zero" del secondo gruppo abeliano può essere interpretato astrattamente)
+Si noti che, come per i gruppi, la definizione di campo è molto astratta. Non fa affermazioni sui tipi di elementi in **S**, né sulle operazioni $\circ$ e $\diamond$. Si limita ad affermare che un campo è un qualsiasi insieme di elementi con due operazioni per il quale valgono le tre condizioni di cui sopra. (L'elemento "zero" del secondo gruppo abeliano può essere interpretato astrattamente)
 
 Quale potrebbe essere un esempio di campo? Un buon esempio è l'insieme $mathbb{Z} \mod 7$, ovvero ${0, 1, \ldots, 7\}$ definito su addizione standard (al posto del precedente $circ$) e moltiplicazione standard (al posto del precedente $diamond$).
 
@@ -824,7 +824,7 @@ In crittografia, siamo principalmente interessati ai campi finiti. In generale, 
 
 Se un campo finito ha un numero di elementi primi, si chiama **campo primo**. Se il numero di elementi del campo finito è una potenza prima, allora il campo è chiamato **campo di estensione**. In crittografia, siamo interessati sia ai campi primi che a quelli di estensione. [2]
 
-I principali campi primi di interesse per la crittografia sono quelli in cui l'insieme di tutti i numeri interi è modulato da qualche numero primo e gli operatori sono l'addizione e la moltiplicazione standard. Questa classe di campi finiti comprende $mathbb{Z} \´mod 2$, $mathbb{Z} \´mod 3$, $mathbb{Z} \´modulo 5$, $mathbb{Z} \´mod 7$, $mathbb{Z} \´modulo 11$, $mathbb{Z} \´mod 13$, e così via. Per qualsiasi campo primo $mathbb{Z} \mod p$, l'insieme dei numeri interi del campo è il seguente: ${0, 1, \ldots, p - 2, p - 1\}$.
+I principali campi primi di interesse per la crittografia sono quelli in cui l'insieme di tutti i numeri interi è modulato da qualche numero primo e gli operatori sono l'addizione e la moltiplicazione standard. Questa classe di campi finiti comprende $\mathbb{Z} \mod 2$, $\mathbb{Z} \mod 3$, $\mathbb{Z} \mod 5$, $\mathbb{Z} \mod 7$, $\mathbb{Z} \mod 11$, $\mathbb{Z} \mod 13$, e così via. Per qualsiasi campo primo $mathbb{Z} \mod p$, l'insieme dei numeri interi del campo è il seguente: ${0, 1, \ldots, p - 2, p - 1\}$.
 
 In crittografia, ci interessano anche i campi di estensione, in particolare i campi con $2^m$ elementi dove $m > 1$. Tali campi finiti sono utilizzati, ad esempio, nel cifrario Rijndael, che costituisce la base dell'Advanced Encryption Standard. Mentre i campi primi sono relativamente intuitivi, questi campi di estensione in base 2 non sono probabilmente adatti a chi non ha familiarità con l'algebra astratta.
 
@@ -1019,7 +1019,7 @@ Bob cripta il messaggio $M$ al tempo $T_0$ con la chiave $K$ per produrre il tes
 
 Nel Capitolo 2 abbiamo incontrato il cifrario a turni, che è un esempio di schema di crittografia simmetrica molto semplice. Riportiamolo qui di seguito.
 
-Supponiamo un dizionario *D* che equipara tutte le lettere dell'alfabeto inglese, in ordine, con l'insieme di numeri ${0,1,2,\punti,25\}$. Si supponga un insieme di possibili messaggi **M**. Il cifrario a turni è quindi uno schema di crittografia definito come segue:
+Supponiamo un dizionario *D* che equipara tutte le lettere dell'alfabeto inglese, in ordine, con l'insieme di numeri ${0,1,2,\dots,25\}$. Si supponga un insieme di possibili messaggi **M**. Il cifrario a turni è quindi uno schema di crittografia definito come segue:
 
 
 - Selezionare casualmente una chiave $k$ dall'insieme delle possibili chiavi **K**, dove **K** = ${0,1,2,\dots,25\}$
@@ -2100,13 +2100,13 @@ Possiamo ora definire l'ordine di $N$ come segue. Supponiamo che $N$ sia un inte
 
 Ad esempio, se $N = 12$, 1, 5, 7 e 11 sono gli unici numeri coprimari che soddisfano il requisito precedente. Quindi, l'ordine di 12 è uguale a 4.
 
-Supponiamo che $N$ sia un numero primo. Allora ogni intero minore di $N$ ma maggiore o uguale a 1 è coprimo con esso. Questo include tutti gli elementi del seguente insieme: ${1,2,3,....,N - 1}$. Quindi, quando $N$ è primo, l'ordine di $N$ è $N - 1$. Ciò è affermato nella proposizione 1, dove $\phi(N)$ indica l'ordine di $N$.
+Supponiamo che $N$ sia un numero primo. Allora ogni intero minore di $N$ ma maggiore o uguale a 1 è coprimo con esso. Questo include tutti gli elementi del seguente insieme: $\{1,2,3,....,N - 1\}$. Quindi, quando $N$ è primo, l'ordine di $N$ è $N - 1$. Ciò è affermato nella proposizione 1, dove $\phi(N)$ indica l'ordine di $N$.
 
 **Proposizione 1**. $$phi(N) = N - 1$ quando $N$ è primo
 
 Supponiamo che $N$ non sia primo. È quindi possibile calcolare il suo ordine utilizzando la **funzione Phi di Eulero**. Mentre il calcolo dell'ordine di un intero piccolo è relativamente semplice, la funzione Phi di Eulero diventa particolarmente importante per gli interi più grandi. La proposizione della funzione Phi di Eulero è riportata di seguito.
 
-**Teorema 2**. Sia $N$ uguale a $p_1^{e_1} \cdot p_2^{e_2} \cdot \ldots \cdot p_i^{e_i} \cdot \ldots \cdot p_n^{e_n}$, dove l'insieme ${p_i\}$ è costituito da tutti i fattori primi distinti di $N$ e ogni $e_i$ indica quante volte il fattore primo $p_i$ ricorre per $N$. Allora,
+**Teorema 2**. Sia $N$ uguale a $p_1^{e_1} \cdot p_2^{e_2} \cdot \ldots \cdot p_i^{e_i} \cdot \ldots \cdot p_n^{e_n}$, dove l'insieme $\{p_i\}$ è costituito da tutti i fattori primi distinti di $N$ e ogni $e_i$ indica quante volte il fattore primo $p_i$ ricorre per $N$. Allora,
 
 $$\phi(N) = p_1^{e_1 - 1} \cdot (p_1 - 1) \cdot p_2^{e_2 - 1} \cdot (p_2 - 1) \cdot \ldots \cdot p_n^{e_n - 1} \cdot (p_n - 1)$$
 
@@ -2295,7 +2295,7 @@ Tuttavia, aggiungendo un po' di complessità intelligente, il problema RSA può 
 
 <chapterId>366d6fd0-ceb2-4299-bf37-8c6dfcb681d5</chapterId>
 <isCourseReview>true</isCourseReview>
- 
+
 ## Esame Finale
 
 <chapterId>44882d2b-63cd-4fde-8485-f76f14d8b2fe</chapterId>

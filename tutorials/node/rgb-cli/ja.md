@@ -14,7 +14,8 @@ RGBコントラクトは、進化型ステートマシンのような構造に�
 
 RGBプロトコルがどのように機能するかについてもっと学ぶには、この包括的なトレーニングコースを受講することをお勧めする：
 
-https://planb.network/courses/csv402
+https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+
 RGBの内部ロジックはRustライブラリに基づいており、開発者はプロジェクトにインポートして*クライアント側検証*部分を管理することができる。加えて、LNP/BPチームは他の言語用のバインディングに取り組んでいるが、これはまだ確定していない。さらに、Bitfinexのような他のエンティティも独自の統合スタックを開発していますが、これらについては別のチュートリアルでお話しします。今のところ、`rgb` CLI が公式のリファレンスです。
 
 ## rgb CLIツールのインストールと表示
@@ -308,4 +309,4 @@ bob$ rgb check <sig> && wallet sign --publish tx.psbt
 
 また、RGB互換のLightningノードを起動し、ほぼ瞬時にトークンを交換する方法を説明した別のチュートリアルもお勧めする：
 
-https://planb.network/tutorials/node/rgb/rln-ffc02528-329b-4e16-bd83-873d0299feea
+https://planb.network/tutorials/node/others/rln-ffc02528-329b-4e16-bd83-873d0299feea

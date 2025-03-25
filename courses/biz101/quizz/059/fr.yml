@@ -1,0 +1,9 @@
+question: Quels sont les deux types de portefeuilles pris en compte dans le profil de démarrage ?
+answer: Portefeuilles Lightning avec ou sans garde
+wrong_answers:
+  - Portefeuilles Bitcoin avec stockage à chaud et à froid
+  - Portefeuilles bitcoin papier et multisig
+  - Matériel et cerveau Portefeuilles Lightning
+explanation: |
+  Le profil Starter utilise des portefeuilles Lightning avec ou sans dépôt.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jakou výhodu nabízí zabezpečený poskytovatel e-mailu, jako je ProtonMail?
+answer: Respektování soukromí a posílení bezpečnosti.
+wrong_answers:
+  - Jednodušší rozhraní pro začátečníky.
+  - Snížení počtu funkcí ke zmenšení útočné plochy.
+  - Integrace algoritmu pro automatické generování e-mailů.
+explanation: |
+  ProtonMail vyniká svou politikou ochrany soukromí a zvýšenými bezpečnostními opatřeními.
+reviewed: false

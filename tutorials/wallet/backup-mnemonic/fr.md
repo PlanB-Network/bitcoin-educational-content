@@ -116,6 +116,6 @@ Pour aller plus loin et renforcer encore davantage votre stratégie de sécurisa
 
 C’est pourquoi je vous invite à suivre la formation gratuite CYP201 proposée sur Plan ₿ Network. Cette formation explique en détail tous les rouages des portefeuilles Bitcoin, ce qui vous permet de maîtriser les aspects techniques essentiels pour sécuriser efficacement vos fonds :
 
-https://planb.network/courses/cyp201
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 Si vous avez trouvé ce tutoriel utile, je vous serais reconnaissant de laisser un pouce vert ci-dessous. N'hésitez pas à partager cet article sur vos réseaux sociaux. Merci beaucoup !

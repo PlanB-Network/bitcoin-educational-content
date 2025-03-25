@@ -29,7 +29,9 @@ In questo tutorial, userò il Ledger Flex come esempio. Tuttavia, se stai utiliz
 Prima di iniziare questo tutorial, assicurati di aver già inizializzato il tuo Ledger e generato la tua frase mnemonica. Se non è così e il tuo Ledger è nuovo, segui il tutorial specifico per il tuo modello disponibile su PlanB Network. Una volta completato questo passaggio, puoi tornare a questo tutorial.
 
 https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+
 https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
 https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
 
 ## Come impostare una passphrase temporanea con un Ledger?

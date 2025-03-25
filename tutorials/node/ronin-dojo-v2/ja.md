@@ -205,7 +205,7 @@ RoninUIのホームページにアクセスすると、セットアップを開�
 
 ![lets start](assets/en/25.webp)
 
-この段階で、RoninUIはあなたの`root`パスワードを提示します。これを安全に保管することが重要です。物理的なバックアップを紙に取るか、[パスワードマネージャー](https://planb.network/courses/secu101/4/2)に保存することができます。
+この段階で、RoninUIはあなたの`root`パスワードを提示します。これを安全に保管することが重要です。物理的なバックアップを紙に取るか、[パスワードマネージャー](https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f)に保存することができます。
 
 ![root password](assets/en/26.webp)
 
@@ -321,6 +321,7 @@ Samourai WalletとRoninDojo v2を使用してコインジョインを行うプ�
 ビットコインでのコインジョインとその使用についてのより深い理解のために、この他の記事も参照してください：ビットコインでのコインジョインの理解と使用、ここではこの技術について知っておくべきすべてのことを詳しく説明しています。
 
 https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 ### Whirlpool Stat Tool (WST)の使用
 
 Whirlpoolでコインジョインを実行した後、ミックスされたUTXOの達成したプライバシーレベルを正確に評価することが役立ちます。これを行うには、Pythonツールである*Whirlpool Stat Tool*を使用できます。このツールを使用すると、UTXOの見込みスコアと遡及スコアの両方を測定し、プール内での拡散率を分析することができます。

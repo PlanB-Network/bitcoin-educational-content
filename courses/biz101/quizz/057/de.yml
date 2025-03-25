@@ -1,0 +1,9 @@
+question: Warum ist es wichtig, den Fiat-Wert zum Zeitpunkt jeder Bitcoin-Transaktion zu verfolgen?
+answer: Sicherstellung einer korrekten Buchführung und der Einhaltung von Steuervorschriften
+wrong_answers:
+  - So erhöhen Sie automatisch das Guthaben in der Brieftasche
+  - Ermöglichung des Markthandels in Echtzeit direkt über die Brieftasche
+  - Senkung der vom Netz erhobenen Transaktionsgebühren
+explanation: |
+  Die Verfolgung des Fiat-Wertes hilft Unternehmen bei der Buchhaltung mit schwankenden Bitcoin-Preisen.
+reviewed: false

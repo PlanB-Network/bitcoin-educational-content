@@ -1,0 +1,9 @@
+question: Perché è importante tracciare il valore fiat al momento di ogni transazione Bitcoin?
+answer: Garantire una contabilità accurata e la conformità fiscale
+wrong_answers:
+  - Per aumentare automaticamente il saldo del portafoglio
+  - Per consentire il trading di mercato in tempo reale direttamente dal portafoglio
+  - Ridurre le commissioni di transazione imposte dalla rete
+explanation: |
+  Il monitoraggio del valore fiat aiuta le aziende a gestire la contabilità con i prezzi fluttuanti dei Bitcoin.
+reviewed: false

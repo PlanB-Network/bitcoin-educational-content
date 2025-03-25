@@ -1,0 +1,9 @@
+question: Was ermöglicht die Website Have I Been Pwned?
+answer: Überprüfen, ob eine E-Mail-Adresse kompromittiert wurde.
+wrong_answers:
+  - Starke und zufällige Passwörter generieren.
+  - Eine sichere E-Mail-Adresse erstellen.
+  - E-Mail-Konten synchronisieren, um die Nutzung zu erleichtern.
+explanation: |
+  Diese Website hilft, Datenlecks zu erkennen und die Sicherheit einer E-Mail-Adresse zu überprüfen.
+reviewed: false

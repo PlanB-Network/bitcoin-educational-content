@@ -27,7 +27,7 @@ The diagram below illustrates the operation of a portfolio with two spending pat
 This operation allows you to set up various configurations, including :
 
 
-- A succession (or inheritance) plan, enabling heirs to recover funds in the event of the user's death. For more information on this subject, we recommend reading [part 4](https://planb.network/courses/btc102/233c88d3-2e8e-5eba-ac06-efe67a209038) of the BTC102 course.
+- A succession (or inheritance) plan, enabling heirs to recover funds in the event of the user's death. For more information on this subject, we recommend reading [part 4](https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) of the BTC102 course.
 - A reinforced backup with a recovery time, giving the user the possibility of using his wallet without having to keep the corresponding secret phrase and risk having it stolen, during a burglary for example.
 - A safety net for people starting out with Bitcoin: they will manage their own wallet, and their "guardian" (a relative, for example) will reserve the right to recover their funds after a given period.
 - A multi-party signature scheme (*multisig*) with reduced requirements over time, to cope with the disappearance of one or more of the participants, such as a company's partners.
@@ -63,7 +63,8 @@ Visit the official Wizardsardine website and download Liana at https://wizardsar
 
 To find out how to manually verify the authenticity and integrity of software before installation, we recommend you consult this tutorial :
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 Install the software on your machine and launch it. Choose the "*Create a new Liana wallet*" option to configure your wallet.
 
 ![Accueil Liana](assets/fr/03.webp)
@@ -192,7 +193,8 @@ You can check the expiry status of your funds by going to the "*Coins*" tab. Thi
 
 To better understand the UTXO representation model used in Bitcoin, you can consult the first part of the course on confidentiality in Bitcoin written by Loïc Morel :
 
-https://planb.network/courses/btc204
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+
 ## Current expenditure
 
 Current spending is the normal situation for using Liana. Sending bitcoins with the master key works as in all classic Bitcoin wallets such as Electrum or Sparrow.
@@ -303,18 +305,6 @@ The transaction should appear on the main screen. Once confirmed, recovery is co
 
 ![Écran principal après récupération](assets/fr/45.webp)
 
-## Videos
-
-If you'd like to know more about Liana, there's some video content that will give you a clearer idea of how it works. Here's a video presentation of Liana with Kévin Loaec and Antoine Poinsot :
-
-![Vidéo de présentation avec Kévin Loaec et Antoine Poinsot](https://youtu.be/siuLmQo1lM8)
-
-And here's a tutorial on how to use Liana, with Antoine Poinsot :
-
-![Vidéo-tutoriel avec Antoine Poinsot](https://youtu.be/JrG4WMVPZDQ)
-
-The manipulations shown in the latter are similar to those presented in this tutorial.
-
 ## Bonus: descriptor analysis
 
 The descriptor is a human-readable character string that exhaustively describes a set of addresses. It combines a number of essential pieces of information for retrieving the parts (UTXO) of an advanced portfolio. The way the descriptor is written is based on [Miniscript syntax](https://bitbox.swiss/blog/understanding-bitcoin-miniscript-part-2/), the scripting language developed by Andrew Poelstra, Pieter Wuille and Sanket Kanjalkar in 2019.
@@ -350,4 +340,4 @@ The scripts created by this portfolio will take the following form:
 
 Since the security of your Bitcoin wallet also depends on your understanding of how it works, I suggest you study the mechanisms of deterministic and hierarchical wallets in depth by taking this free training course on Plan ₿ Network :
 
-https://planb.network/courses/cyp201
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

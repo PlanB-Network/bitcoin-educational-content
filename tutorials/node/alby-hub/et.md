@@ -363,4 +363,4 @@ Ja see ongi kõik, te teate nüüd, kuidas kasutada Lightningut oma sõlme kasut
 
 Et mõista üksikasjalikult kõiki Lightning mehhanisme, millega me selles õpetuses manipuleerisime, soovitan tungivalt tutvuda meie tasuta koolitusega sel teemal :
 
-https://planb.network/courses/lnp201
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

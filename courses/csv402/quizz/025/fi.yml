@@ -1,0 +1,9 @@
+question: Mitkä neljä osatekijää määrittelevät RGB-sopimuksen?
+answer: Genesis, skeema, rajapinta ja rajapinnan toteutus
+wrong_answers:
+  - Genesis, skeema, siirtymä ja rajapinnan toteutus
+  - Synty, käyttöliittymä, siirtymä ja laajennus
+  - Genesis, käyttöliittymä, käyttöliittymän toteutus ja laajennus
+explanation: |
+  RGB-sopimus koostuu neljästä eri osasta: Genesis, Schema, Interface ja Interface Implementation.
+reviewed: false

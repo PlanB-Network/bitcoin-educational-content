@@ -1,0 +1,9 @@
+question: Che cosa utilizza il profilo Essential per aiutare i dipendenti a elaborare i pagamenti al PoS?
+answer: Creazione di un menu con i prezzi delle voci sull'applicazione PoS
+wrong_answers:
+  - Un libro mastro manuale per la registrazione delle vendite
+  - Un sistema di fatturazione cartacea per ogni transazione
+  - Un sistema di registrazione contabile automatica per le transazioni dal PoS
+explanation: |
+  L'app PoS del profilo Essential consente ai dipendenti di selezionare gli articoli da un menu preimpostato, semplificando il processo di fatturazione.
+reviewed: false

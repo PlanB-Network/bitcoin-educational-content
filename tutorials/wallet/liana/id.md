@@ -27,7 +27,7 @@ Diagram di bawah ini mengilustrasikan pengoperasian portofolio dengan dua jalur 
 Operasi ini memungkinkan Anda untuk mengatur berbagai konfigurasi, termasuk :
 
 
-- Rencana suksesi (atau warisan), yang memungkinkan ahli waris untuk mendapatkan kembali dana jika pengguna meninggal dunia. Untuk informasi lebih lanjut mengenai hal ini, kami sarankan untuk membaca [bagian 4] (https://planb.network/courses/btc102/233c88d3-2e8e-5eba-ac06-efe67a209038) dari kursus BTC102.
+- Rencana suksesi (atau warisan), yang memungkinkan ahli waris untuk mendapatkan kembali dana jika pengguna meninggal dunia. Untuk informasi lebih lanjut mengenai hal ini, kami sarankan untuk membaca [bagian 4] (https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) dari kursus BTC102.
 - Cadangan yang diperkuat dengan waktu pemulihan, memberikan pengguna kemungkinan untuk menggunakan dompetnya tanpa harus menyimpan frasa rahasia yang sesuai dan berisiko dicuri, selama pencurian misalnya.
 - Jaring pengaman untuk orang-orang yang baru memulai dengan Bitcoin: mereka akan mengelola dompet mereka sendiri, dan "wali" mereka (kerabat, misalnya) akan memiliki hak untuk mendapatkan kembali dana mereka setelah jangka waktu tertentu.
 - Skema tanda tangan multi-pihak (*multisig*) dengan persyaratan yang berkurang dari waktu ke waktu, untuk mengatasi hilangnya satu atau lebih peserta, seperti mitra perusahaan.
@@ -63,7 +63,8 @@ Kunjungi situs web resmi Wizardsardine dan unduh Liana di https://wizardsardine.
 
 Untuk mengetahui cara memverifikasi keaslian dan integritas perangkat lunak secara manual sebelum instalasi, kami sarankan Anda membaca tutorial ini:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 Instal perangkat lunak pada komputer Anda dan luncurkan. Pilih opsi "*Buat dompet Liana baru*" untuk mengonfigurasi dompet Anda.
 
 ![Accueil Liana](assets/fr/03.webp)
@@ -192,7 +193,8 @@ Anda dapat memeriksa status kedaluwarsa dana Anda dengan membuka tab "*Coins*". 
 
 Untuk lebih memahami model representasi UTXO yang digunakan dalam Bitcoin, Anda dapat membaca bagian pertama dari kursus tentang kerahasiaan dalam Bitcoin yang ditulis oleh Loïc Morel :
 
-https://planb.network/courses/btc204
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+
 ## Pengeluaran saat ini
 
 Pengeluaran saat ini adalah situasi normal untuk menggunakan Liana. Mengirim bitcoin dengan kunci utama berfungsi seperti pada semua dompet Bitcoin klasik seperti Electrum atau Sparrow.
@@ -303,18 +305,6 @@ Transaksi akan muncul di layar utama. Setelah dikonfirmasi, pemulihan selesai!
 
 ![Écran principal après récupération](assets/fr/45.webp)
 
-## Video
-
-Jika Anda ingin tahu lebih banyak tentang Liana, ada beberapa konten video yang akan memberi Anda gambaran yang lebih jelas tentang cara kerjanya. Berikut ini adalah video presentasi Liana bersama Kévin Loaec dan Antoine Poinsot :
-
-![Vidéo de présentation avec Kévin Loaec et Antoine Poinsot](https://youtu.be/siuLmQo1lM8)
-
-Dan berikut ini adalah tutorial tentang cara menggunakan Liana, dengan Antoine Poinsot :
-
-![Vidéo-tutoriel avec Antoine Poinsot](https://youtu.be/JrG4WMVPZDQ)
-
-Manipulasi yang ditunjukkan dalam gambar terakhir, serupa dengan yang disajikan dalam tutorial ini.
-
 ## Bonus: analisis deskriptor
 
 Deskriptor adalah string karakter yang dapat dibaca manusia yang secara lengkap menjelaskan serangkaian alamat. Deskriptor menggabungkan sejumlah informasi penting untuk mengambil bagian-bagian (UTXO) dari portofolio tingkat lanjut. Cara penulisan deskriptor didasarkan pada [Miniscript syntax] (https://bitbox.swiss/blog/understanding-bitcoin-miniscript-part-2/), bahasa skrip yang dikembangkan oleh Andrew Poelstra, Pieter Wuille, dan Sanket Kanjalkar pada tahun 2019.
@@ -350,4 +340,4 @@ Skrip yang dibuat oleh portofolio ini akan berbentuk sebagai berikut:
 
 Karena keamanan dompet Bitcoin Anda juga bergantung pada pemahaman Anda tentang cara kerjanya, saya sarankan Anda mempelajari mekanisme dompet deterministik dan hirarkis secara mendalam dengan mengikuti kursus pelatihan gratis di Plan ₿ Network:
 
-https://planb.network/courses/cyp201
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

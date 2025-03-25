@@ -56,21 +56,37 @@ Per gli utenti che dispongono di un proprio full node, Green Wallet offre la pos
 
 ![GREEN](assets/fr/08.webp)
 
+<<<<<<< Updated upstream
 Un'altra funzione alternativa è l'opzione "_SPV Verification_", che consente di verificare direttamente alcuni dati della blockchain e quindi ridurre la necessità di fidarsi del nodo predefinito di Blockstream, anche se questo metodo non fornisce tutte le garanzie di un full node.
 
 ![GREEN](assets/fr/09.webp)
 
 Dopo aver regolato le impostazioni in base alle tue esigenze, fai clic sul pulsante "_Save_" e riavvia l'applicazione.
+=======
+Un'altra funzione alternativa è l'opzione "*SPV Verification*", che consente di verificare direttamente alcuni dati della blockchain e quindi ridurre la necessità di fidarsi del nodo predefinito di Blockstream, anche se questo metodo non fornisce tutte le garanzie di un full node.
+
+![GREEN](assets/fr/09.webp)
+
+Dopo aver regolato le impostazioni in base alle tue esigenze, fai clic sul pulsante "*Save" e riavvia l'applicazione.
+>>>>>>> Stashed changes
 
 ![GREEN](assets/fr/10.webp)
 
 ## Creare un wallet Bitcoin con Blockstream Green
 
+<<<<<<< Updated upstream
 Ora sei pronto a creare un wallet Bitcoin. Fai clic sul pulsante "_Get Started_".
 
 ![GREEN](assets/fr/11.webp)
 
 Puoi scegliere tra la creazione di un software wallet locale o la gestione di un wallet cold tramite un dispositivo hardware. Per questo tutorial ci concentreremo sulla creazione di un wallet hot, quindi dovrai selezionare l'opzione "On This Device". In una prossima guida ti mostrerò come utilizzare l'altra opzione.
+=======
+Ora sei pronto a creare un wallet Bitcoin. Fare clic sul pulsante "*Get Started*".
+
+![GREEN](assets/fr/11.webp)
+
+Puoiscegliere tra la creazione di un software wallet locale o la gestione di un wallet cold tramite un dispositivo hardware. Per questo tutorial ci concentreremo sulla creazione di un wallet hot, quindi dovrai selezionare l'opzione "On This Device". In una prossima guida ti mostrerò come utilizzare l'altra opzione.
+>>>>>>> Stashed changes
 
 L'opzione "_Watch-only_", invece, consente di importare una chiave pubblica estesa (`xpub`) per visualizzare le transazioni di un wallet senza poter spendere i fondi associati, il che è utile per monitorare un wallet su un dispositivo hardware, ad esempio.
 
@@ -82,6 +98,7 @@ Si può quindi scegliere di ripristinare un wallet esistente o di crearne uno nu
 
 È possibile scegliere tra una mnemonica di 12 o 24 parole. Questa ti permetterà di recuperare l'accesso al wallet da qualsiasi software compatibile in caso di problemi con il tuo telefono. Attualmente, la scelta di una mnemonica di 24 parole non offre maggiore sicurezza di una di 12 parole. Ti consiglio quindi di scegliere una frase mnemonica di 12 parole.
 
+<<<<<<< Updated upstream
 Green ti mostrerà la frase mnemonica. Prima di continuare, assicurati di non essere osservato. Clicca su "_Show Recovery Phrase_" per visualizzarla sullo schermo.
 
 ![GREEN](assets/fr/14.webp)
@@ -89,18 +106,35 @@ Green ti mostrerà la frase mnemonica. Prima di continuare, assicurati di non es
 **Questa mnemonica dà accesso completo e illimitato a tutti i tuoi bitcoin**. Chiunque sia in possesso di queste parole può rubare i tuoi fondi, anche senza accedere fisicamente al tuo dispositivo.
 
 Le parole consentono l'accesso ai bitcoin in caso di perdita, furto o rottura del telefono. È quindi molto importante eseguire un backup accurato **su un supporto fisico (non digitale)** e conservarlo in un luogo sicuro. Puoi scriverlo su un foglio di carta o, per maggiore sicurezza, se si tratta di un wallet di grandi dimensioni, ti consiglio di incidere le parole su un supporto in acciaio inossidabile, per proteggerlo dal rischio di incendi, allagamento o crolli (per un wallet hot progettato per proteggere una piccola quantità di bitcoin, un semplice backup cartaceo è probabilmente sufficiente).
+=======
+Green ti mostrerà la frase mnemonica. Prima di continuare, assicurateti di non essere osservato. Clicca su "_Show Recovery Phrase_" per visualizzarla sullo schermo.
+
+![GREEN](assets/fr/14.webp)
+
+**Questa mnemonica dà accesso completo e illimitato a tutti i tuoi bitcoin **. Chiunque sia in possesso di queste parole, può rubare i tuoi fondi, anche senza accedere fisicamente al tuo dispositivo.
+
+Le parole consentono l'accesso ai bitcoin in caso di perdita, furto o rottura del telefono. È quindi molto importante eseguire un backup accurato **su un supporto fisico (non digitale)** e conservarlo in un luogo sicuro. Puoi scriverlo su un foglio di carta o, per maggiore sicurezza, se si tratta di un portafoglio di grandi dimensioni, ti consiglio di incidere le parole su un supporto in acciaio inossidabile, per proteggerlo dal rischio di incendi,o allagamento o crolli (per un wallet hot progettato per proteggere una piccola quantità di bitcoin, un semplice backup cartaceo è probabilmente sufficiente).
+>>>>>>> Stashed changes
 
 _Ovviamente, non devi mai condividere queste parole su Internet, come faccio io in questo tutorial. Questo wallet di esempio sarà utilizzato solo su Testnet e sarà cancellato alla fine del tutorial._
 
 ![GREEN](assets/fr/15.webp)
 
+<<<<<<< Updated upstream
 Dopo aver scritto correttamente la frase mnemonica su un supporto fisico, clicca su su "_Continue_". Green Wallet ti chiederà di confermare alcune parole della mnemonica per assicurarsi che siano state trascritte correttamente. Riempi gli spazi vuoti con le parole mancanti.
+=======
+Dopo aver scritto correttamente la frase mnemonica su un supporto fisico, clicca su su _Continue_". Green Wallet ti chiederà di confermare alcune parole della mnemonica per assicurarsi che siano state trascritte correttamente. Riempi gli spazi vuoti con le parole mancanti.
+>>>>>>> Stashed changes
 
 ![GREEN](assets/fr/16.webp)
 
 Scegli un PIN a sei cifre per il dispositivo, che verrà utilizzato per sbloccare Green. Si tratta di una protezione contro l'accesso fisico non autorizzato. Il PIN non concorre alla creazione delle chiavi crittografiche del wallet. Anche senza questo PIN, il possesso della frase mnemonica di 12 o 24 parole ti permetterà di riavere accesso ai fondi associati ad esso.
 
+<<<<<<< Updated upstream
 Ti consiglio di scegliere un PIN di 6 cifre che sia il più casuale possibile. Assicurati di salvare questo PIN per non dimenticarlo, altrimenti sarai costretto a recuperare il wallet dalla mnemonica. È possibile aggiungere un'opzione per il blocco biometrico, per evitare di dover inserire il PIN ogni volta che lo si utilizza. In generale, il biometrico è molto meno sicuro del PIN stesso. Pertanto, per impostazione predefinita, ti consiglio di non usare questa opzione per lo sblocco.
+=======
+Ti consiglio di scegliere un PIN di 6 cifre che sia il più casuale possibile. Assicurati di salvare questo PIN per non dimenticarlo, altrimenti sarai costretto a recuperare il wallet dalla mnemonica. È possibile aggiungere un'opzione per il blocco biometrico, per evitare di dover inserire il PIN ogni volta che lo si utilizza. In generale, lil biometrico è molto meno sicuro del PIN stesso. Pertanto, per impostazione predefinita, ti consiglio di non impostare questa opzione per lo sblocco.
+>>>>>>> Stashed changes
 
 ![GREEN](assets/fr/17.webp)
 
@@ -108,6 +142,7 @@ Immetti il PIN una seconda volta per confermarlo.
 
 ![GREEN](assets/fr/18.webp)
 
+<<<<<<< Updated upstream
 Attendi la creazione del wallet, quindi fai clic sul pulsante "_Create an account_".
 
 ![GREEN](assets/fr/19.webp)
@@ -117,12 +152,27 @@ Adesso puoi scegliere tra un wallet standard singlesig, che utilizzeremo in ques
 ![GREEN](assets/fr/20.webp)
 
 L'opzione 2FA su Green crea un wallet multifirma 2di2, con una chiave detenuta da Blockstream. Ciò significa che per effettuare una transazione sono necessarie entrambe le chiavi: una chiave locale protetta dal codice PIN sul telefono e una chiave remota protetta dall'autenticazione 2FA sui server di Blockstream. In caso di perdita dell'accesso all'autenticazione 2FA o di indisponibilità dei servizi di Blockstream, i meccanismi di recupero basati su script time-lock, garantiscono il recupero autonomo dei fondi. Sebbene questa configurazione riduca notevolmente il rischio di furto dei tuoi bitcoin, è più complessa da gestire e dipende in parte da Blockstream. Per questo tutorial, opteremo per un wallet classico singlesig, con le chiavi memorizzate localmente sul telefono.
+=======
+Attendi la creazione del wallet, quindi fare clic sul pulsante "_Create an account_".
+
+![GREEN](assets/fr/19.webp)
+
+Adesso puoi scegliere tra un wallet standard a singlesig, che utilizzeremo in questo tutorial, o un wallet protetto da autenticazione a due fattori (2FA).
+
+![GREEN](assets/fr/20.webp)
+
+L'opzione 2FA su Green crea un wallet multifirma 2di2, con una chiave detenuta da Blockstream. Ciò significa che per effettuare una transazione sono necessarie entrambe le chiavi: una chiave locale protetta dal codice PIN sul telefono e una chiave remota protetta dall'autenticazione 2FA sui server di Blockstream. In caso di perdita dell'accesso all'autenticazione 2FA o di indisponibilità dei servizi di Blockstream, i meccanismi di recupero basati su time-loc script, garantiscono il recupero autonomo dei fondi. Sebbene questa configurazione riduca notevolmente il rischio di furto dei tuoi bitcoin, è più complessa da gestire e dipende in parte da Blockstream. Per questo tutorial, opteremo per un wallet classico singlesig, con le chiavi memorizzate localmente sul telefono.
+>>>>>>> Stashed changes
 
 Il tuo wallet è stato creato con l'applicazione Green!
 
 ![GREEN](assets/fr/21.webp)
 
+<<<<<<< Updated upstream
 Prima di ricevere i primi bitcoin nel tuo wallet, **ti consiglio vivamente di eseguire un test di recupero finché è vuoto**. Prendi nota di alcune informazioni di riferimento, come la xpub o il primo indirizzo di ricezione, quindi cancella il wallet dall'app Green, mentre è ancora vuoto. In seguito prova a ripristinare il wallet su Green utilizzando il backup cartaceo. Verifica che le informazioni del cookie generate dopo il ripristino corrispondano a quelle annotate in origine. Se è così, puoi essere certo che il tuo backup cartaceo è affidabile. Per saperne di più su come effettuare un ripristino di prova, consulta quest'altro tutorial:
+=======
+Prima di ricevere i primi bitcoin nel tuo wallet, **ti consiglio vivamente di eseguire un test di recupero finché è vuoto**. Prendi nota di alcune informazioni di riferimento, come la xpub o il primo indirizzo di ricezione, quindi cancella il wallet dall'app Green, mentre è ancora vuoto. Quindi prova a ripristinare il wallet su Green utilizzando il backup cartaceo. Verifica che le informazioni del cookie generate dopo il ripristino corrispondano a quelle annotate in origine. Se è così, puoi essere certo che il tuo backup cartaceo è affidabile. Per saperne di più su come effettuare un ripristino di prova, consulta quest'altro tutorial:
+>>>>>>> Stashed changes
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
@@ -136,7 +186,11 @@ L'opzione "_Rename_" consente di personalizzare il nome del wallet, particolarme
 
 ![GREEN](assets/fr/23.webp)
 
+<<<<<<< Updated upstream
 Il menu "_Unit_" consente di modificare l'unità di base del wallet. Si può scegliere di visualizzarlo in satoshi oppure in bitcoin.
+=======
+Il menu "*Unit*" consente di modificare l'unità di base del wallet. Si può scegliere di visualizzarlo in satoshi oppure in bitcoin.
+>>>>>>> Stashed changes
 
 ![GREEN](assets/fr/24.webp)
 
@@ -158,7 +212,11 @@ Ora che il tuo wallet è stato configurato, sei pronto a ricevere i tuoi primi s
 
 ![GREEN](assets/fr/28.webp)
 
+<<<<<<< Updated upstream
 Green visualizzerà quindi il primo indirizzo di ricezione vuoto del wallet. È possibile scansionare il QR code associato o copiare direttamente l'indirizzo per ricevere bitcoin. Questo tipo di indirizzo non specifica l'importo che il mittente deve inviare. È tuttavia possibile generare un indirizzo che richieda un importo specifico, facendo clic sui tre puntini in alto a destra, quindi su "_Request Amount_" e inserendo l'importo desiderato.
+=======
+Green visualizzerà quindi il primo indirizzo di ricezione vuoto del wallet. È possibile scansionare il QR code associato o copiare direttamente l'indirizzo per inviare bitcoin. Questo tipo di indirizzo non specifica l'importo che il mittente deve inviare. È tuttavia possibile generare un indirizzo che richieda un importo specifico, facendo clic sui tre puntini in alto a destra, quindi su "_Request Amount_" e inserendo l'importo desiderato.
+>>>>>>> Stashed changes
 
 Poiché stai usando un account Segwit v0 (BIP84), il tuo indirizzo inizierà con `bc1q...`. Nel mio esempio, sto usando un wallet Testnet, quindi il prefisso è leggermente diverso.
 
@@ -184,7 +242,11 @@ Imposta l'importo del pagamento.
 
 ![GREEN](assets/fr/34.webp)
 
+<<<<<<< Updated upstream
 La parte inferiore della schermata è dedicata all'impostazione delle fee. È possibile scegliere se seguire le raccomandazioni dell'applicazione o personalizzare l'importo. Più alte sono le fee rispetto alle altre transazioni in attesa, più veloce sarà l'elaborazione della transazione. Per informazioni sul funzionamento delle fee, visita [Mempool.space](https://mempool.space/) nella sezione "_Transaction Fees_".
+=======
+Nella parte inferiore della schermata è possibile selezionare lle fee per questa transazione. È possibile scegliere se seguire le raccomandazioni dell'applicazione o personalizzare le fee. Più alte sono le fee rispetto alle altre transazioni in attesa, più veloce sarà l'elaborazione della transazione. Per informazioni sul funzionamento delle fee, visita [Mempool.space](https://mempool.space/) nella sezione "_Transaction Fees_".
+>>>>>>> Stashed changes
 
 ![GREEN](assets/fr/35.webp)
 
@@ -200,4 +262,8 @@ La transazione apparirà ora sulla dashboard del tuo wallet, in attesa di confer
 
 ![GREEN](assets/fr/38.webp)
 
+<<<<<<< Updated upstream
 _Questo tutorial si basa su [una versione originale appartenente a Bitstack](https://www.bitstack-app.com/blog/installer-portefeuille-bitcoin-green-wallet) scritta da Loïc Morel. Bitstack è una neo-banca Bitcoin francese, che offre la possibilità di risparmiare in bitcoin, sia in DCA (Dollar Cost Averaging), sia attraverso un sistema di arrotondamento automatico per le spese giornaliere._
+=======
+_Questo tutorial si basa su [una versione originale appartenente a Bitstack](https://www.bitstack-app.com/blog/installer-portefeuille-bitcoin-green-wallet) scritta da Loïc Morel. Bitstack è una neo-banca Bitcoin francese, che offre la possibilità di risparmiare in bitcoin, sia in DCA (Dollar Cost Averaging), sia attraverso un sistema di arrotondamento automatico per le spese giornaliere._
+>>>>>>> Stashed changes

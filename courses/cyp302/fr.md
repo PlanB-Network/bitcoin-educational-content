@@ -752,183 +752,163 @@ $$
 
 Formule de la fonction Phi d’Euler pour la factorisation en nombres premiers de $N$.
 
-
 ## Corps
-
 <chapterId>fad52d86-3a22-5c9f-979e-3bec9eaa008e</chapterId>
 
-Un groupe est la structure algébrique de base de l'algèbre abstraite, mais il en existe beaucoup d'autres. La seule autre structure algébrique que vous devez connaître est celle d'un **corps**, plus précisément celle d'un **corps fini**. Ce type de structure algébrique est fréquemment utilisé en cryptographie, notamment dans l'Advanced Encryption Standard. Ce dernier est le principal système de chiffrement symétrique que vous rencontrerez dans la pratique.
+Un groupe est la structure algébrique de base en algèbre abstraite, mais il en existe beaucoup d’autres. La seule autre structure algébrique dont vous devez être familier est celle d’un **corps**, en particulier celle d’un **corps fini**. Ce type de structure algébrique est fréquemment utilisé en cryptographie, par exemple dans l’algorithme **Advanced Encryption Standard (AES)**, qui est le principal schéma de chiffrement symétrique utilisé en pratique.
 
-Un corps est dérivé de la notion de groupe. Plus précisément, un **corps** est un ensemble d'éléments **S** équipé de deux opérateurs binaires $\circ$ et $\diamond$, qui remplit les conditions suivantes :
+Un corps est dérivé de la notion de groupe. Plus précisément, un **corps** est un ensemble d’éléments **S** équipé de deux opérateurs binaires $\circ$ et $\diamond$, qui satisfait les conditions suivantes :
 
-1. L'ensemble **S** muni de $\circ$ est un groupe abélien.
+1. L’ensemble **S** équipé de $\circ$ est un groupe abélien.
+2. L’ensemble **S** équipé de $\diamond$ est un groupe abélien pour les éléments **non nuls**.
+3. L’ensemble **S** équipé des deux opérateurs satisfait ce que l’on appelle la condition de distributivité : Supposons que $a$, $b$ et $c$ sont des éléments de **S**. Alors **S** satisfait la propriété distributive lorsque $a \circ (b \diamond c) = (a \circ b) \diamond (a \circ c)$.
 
-2. L'ensemble **S** équipé de $\diamond$ est un groupe abélien pour les éléments "non nuls".
+Il est important de noter que, comme pour les groupes, la définition d’un corps est très abstraite. Elle ne précise rien sur les types d’éléments de **S**, ni sur les opérations $\circ$ et $\diamond$. Elle indique simplement qu’un corps est un ensemble d’éléments muni de deux opérations pour lesquelles les trois conditions ci-dessus sont vérifiées. (L’élément “zéro” dans le deuxième groupe abélien peut être interprété de manière abstraite.)
 
-3. L'ensemble **S** muni des deux opérateurs satisfait à ce que l'on appelle la condition de distribution : Supposons que $a$, $b$ et $c$ sont des éléments de **S**. Alors **S** muni des deux opérateurs satisfait à la propriété distributive lorsque $a \circ (b \diamond c) = (a \circ b) \diamond (a \circ c)$.
+Quel pourrait être un exemple de corps ? Un bon exemple est l’ensemble $\mathbb{Z} \mod 7$, soit $\{0, 1, \ldots, 6\}$, défini avec l’addition standard (remplaçant $\circ$) et la multiplication standard (remplaçant $\diamond$).
 
-Notez que, comme pour les groupes, la définition d'un corps est très abstraite. Elle ne prétend rien sur les types d'éléments de **S**, ni sur les opérations $\circ$ et $\diamond$. Elle indique simplement qu'un corps est tout ensemble d'éléments avec deux opérations pour lesquelles les trois conditions ci-dessus sont remplies. (L'élément "zéro" du deuxième groupe abélien peut être interprété abstraitement)
+Premièrement, $\mathbb{Z} \mod 7$ satisfait la condition pour être un groupe abélien sur l’addition, et il satisfait également la condition pour être un groupe abélien sur la multiplication si l’on considère uniquement les éléments non nuls. Deuxièmement, la combinaison de l’ensemble avec les deux opérateurs satisfait la condition de distributivité.
 
-Quel est donc l'exemple d'un corps ? Un bon exemple est l'ensemble $\mathbb{Z} \mod 7$, ou $\{0, 1, \ldots, 7\}$ défini sur l'addition standard (à la place de $\circ$ ci-dessus) et la multiplication standard (à la place de $\diamond$ ci-dessus).
+Il est utile pédagogiquement d’explorer ces affirmations en utilisant des valeurs particulières. Prenons les valeurs expérimentales $5$, $2$ et $3$, des éléments sélectionnés aléatoirement de l’ensemble $\mathbb{Z} \mod 7$, pour inspecter le corps $\langle \mathbb{Z} \mod 7, +, \cdot \rangle$. Nous allons utiliser ces trois valeurs dans l'ordre, en fonction des conditions à vérifier.
 
-Premièrement, $\mathbb{Z} \mod 7$ remplit la condition pour être un groupe abélien sur l'addition, et il remplit la condition pour être un groupe abélien sur la multiplication si l'on ne considère que les éléments non nuls. Deuxièmement, la combinaison de l'ensemble avec les deux opérateurs remplit la condition de distribution.
+Explorons d’abord si $\mathbb{Z} \mod 7$ équipé de l’addition est un groupe abélien.
 
-Il est didactiquement intéressant d'explorer ces affirmations en utilisant quelques valeurs particulières. Prenons les valeurs expérimentales 5, 2 et 3, des éléments choisis au hasard dans l'ensemble $\mathbb{Z} \mod 7$, pour inspecter le corps $\langle \mathbb{Z} \mod 7, +, \cdot \rangle$. Nous utiliserons ces trois valeurs dans l'ordre, selon les besoins pour explorer des conditions particulières.
+1. **Condition de fermeture** : Prenons $5$ et $2$ comme valeurs. Dans ce cas, $[5 + 2] \mod 7 = 7 \mod 7 = 0$. Cela appartient bien à l’ensemble $\mathbb{Z} \mod 7$, donc le résultat est conforme à la condition de fermeture.
+2. **Condition d’associativité** : Prenons $5$, $2$ et $3$ comme valeurs. Dans ce cas, $[(5 + 2) + 3] \mod 7 = [5 + (2 + 3)] \mod 7 = 10 \mod 7 = 3$. Cela satisfait la condition d’associativité.
+3. **Condition d’identité** : Prenons $5$ comme valeur. Dans ce cas, $[5 + 0] \mod 7 = [0 + 5] \mod 7 = 5$. Ainsi, $0$ semble être l’élément neutre pour l’addition.
+4. **Condition d’inverse** : Considérons l’inverse de $5$. Il faut que $[5 + d] \mod 7 = 0$, pour une certaine valeur de $d$. La valeur unique de $\mathbb{Z} \mod 7$ qui satisfait cette condition est $2$.
+5. **Condition de commutativité** : Prenons $5$ et $3$ comme valeurs. Dans ce cas, $[5 + 3] \mod 7 = [3 + 5] \mod 7 = 1$. Cela satisfait la condition de commutativité.
 
-Voyons d'abord si $\mathbb{Z} \mod 7$ muni de l'addition est un groupe abélien.
+L’ensemble $\mathbb{Z} \mod 7$ équipé de l’addition semble clairement être un groupe abélien. Explorons maintenant si $\mathbb{Z} \mod 7$ équipé de la multiplication est un groupe abélien pour tous les éléments non nuls.
 
-1. **Condition de fermeture** : Prenons 5 et 2 comme valeurs. Dans ce cas, $[5 + 2] \mod 7 = 7 \mod 7 = 0$. Il s'agit bien d'un élément de $\mathbb{Z} \mod 7$, donc le résultat est cohérent avec la condition de fermeture.
+1. **Condition de fermeture** : Prenons $5$ et $2$ comme valeurs. Dans ce cas, $[5 \cdot 2] \mod 7 = 10 \mod 7 = 3$. Cela appartient bien à l’ensemble $\mathbb{Z} \mod 7$, donc le résultat est conforme à la condition de fermeture.
+2. **Condition d’associativité** : Prenons $5$, $2$ et $3$ comme valeurs. Dans ce cas, $[(5 \cdot 2) \cdot 3] \mod 7 = [5 \cdot (2 \cdot 3)] \mod 7 = 30 \mod 7 = 2$. Cela satisfait la condition d’associativité.
+3. **Condition d’identité** : Prenons $5$ comme valeur. Dans ce cas, $[5 \cdot 1] \mod 7 = [1 \cdot 5] \mod 7 = 5$. Ainsi, $1$ semble être l’élément neutre pour la multiplication.
+4. **Condition d’inverse** : Considérons l’inverse de $5$. Il faut que $[5 \cdot d] \mod 7 = 1$, pour une certaine valeur de $d$. La valeur unique de $\mathbb{Z} \mod 7$ qui satisfait cette condition est $3$. Cela satisfait la condition d’inversibilité.
+5. **Condition de commutativité** : Prenons $5$ et $3$ comme valeurs. Dans ce cas, $[5 \cdot 3] \mod 7 = [3 \cdot 5] \mod 7 = 15 \mod 7 = 1$. Cela satisfait la condition de commutativité.
 
-2. **Condition d'associativité** : Prenons 5, 2 et 3 comme valeurs. Dans ce cas, $[(5 + 2) + 3] \mod 7 = [5 + (2 + 3)] \mod 7 = 10 \mod 7 = 3$. Ceci est cohérent avec la condition d'associativité.
+L’ensemble $\mathbb{Z} \mod 7$ semble clairement répondre aux règles pour être un groupe abélien lorsqu'il est combiné avec l’addition ou avec la multiplication appliquée uniquement aux éléments non nuls.
 
-3. **Condition d'identité** : Prenons 5 comme valeur. Dans ce cas, $[5 + 0] \mod 7 = [0 + 5] \mod 7 = 5$. Ainsi, 0 semble être l'élément d'identité pour l'addition.
+Enfin, cet ensemble combiné avec les deux opérateurs semble satisfaire la condition de distributivité. Prenons $5$, $2$ et $3$ comme valeurs. On peut constater que $[5 \cdot (2 + 3)] \mod 7 = [5 \cdot 2 + 5 \cdot 3] \mod 7 = 25 \mod 7 = 4$.
 
-4. **Condition inverse** : Considérons l'inverse de 5. Il faut que $[5 + d] \mod 7 = 0$, pour une certaine valeur de $d$. Dans ce cas, l'unique valeur de $\mathbb{Z} \mod 7$ qui remplit cette condition est 2.
+Nous avons maintenant montré que $\mathbb{Z} \mod 7$ muni de l’addition et de la multiplication satisfait les axiomes d’un corps fini lorsqu’on teste avec des valeurs particulières. Bien sûr, cela peut aussi être démontré de manière générale, mais nous ne le ferons pas ici.
 
-5. **Condition de commutativité** : Prenons 5 et 3 comme valeurs. Dans ce cas, $[5 + 3] \mod 7 = [3 + 5] \mod 7 = 1$. Ceci est conforme à la condition de commutativité.
+Une distinction clé existe entre deux types de corps : les **corps finis** et les **corps infinis**.
 
-L'ensemble $\mathbb{Z} \mod 7$ équipé de l'addition apparaît clairement comme un groupe abélien. Voyons maintenant si $\mathbb{Z} \mod 7$ muni de la multiplication est un groupe abélien pour tous les éléments non nuls.
+Un **corps infini** est un corps où l’ensemble **S** est infiniment grand. Par exemple, l’ensemble des nombres réels $\mathbb{R}$ muni de l’addition et de la multiplication est un corps infini. Un **corps fini**, également connu sous le nom de **corps de Galois**, est un corps où l’ensemble **S** est fini. Notre exemple précédent $\langle \mathbb{Z} \mod 7, +, \cdot \rangle$ est un corps fini.
 
-1. **Condition de fermeture** : Prenons 5 et 2 comme valeurs. Dans ce cas, $[5 \cdot 2] \mod 7 = 10 \mod 7 = 3$. C'est aussi un élément de $\mathbb{Z} \mod 7$, donc le résultat est cohérent avec la condition de fermeture.
+En cryptographie, nous nous intéressons principalement aux corps finis. En général, il peut être démontré qu’un corps fini existe pour un certain ensemble d’éléments **S** si et seulement si cet ensemble contient $p^m$ éléments, où $p$ est un nombre premier et $m$ est un entier positif supérieur ou égal à $1$. En d’autres termes, si l’ordre de l’ensemble **S** est un nombre premier ($p^m$ où $m = 1$) ou une puissance de nombre premier ($p^m$ où $m > 1$), alors on peut trouver deux opérateurs $\circ$ et $\diamond$ tels que les conditions pour un corps soient satisfaites.
 
-2. **Condition d'associativité** : Prenons 5, 2 et 3 comme valeurs. Dans ce cas, $[(5 \cdot 2) \cdot 3] \mod 7 = [5 \cdot (2 \cdot 3)] \mod 7 = 30 \cdot 7 = 2$. Ceci est conforme à la condition d'associativité.
+Si un corps fini a un nombre premier d’éléments, on l’appelle un **corps premier**. Si le nombre d’éléments du corps fini est une puissance d’un nombre premier, alors le corps est appelé un **corps d’extension**. En cryptographie, nous nous intéressons à la fois aux corps premiers et aux corps d’extension. [2]
 
-3. **Condition d'identité** : Prenons 5 comme valeur. Dans ce cas, $[5 \cdot 1] \mod 7 = [1 \cdot 5] \mod 7 = 5$. Ainsi, 1 semble être l'élément d'identité pour la multiplication.
+Les principaux corps premiers d’intérêt en cryptographie sont ceux où l’ensemble de tous les entiers est modulé par un nombre premier, et les opérateurs sont l’addition et la multiplication standard. Cette classe de corps finis comprendrait $\mathbb{Z} \mod 2$, $\mathbb{Z} \mod 3$, $\mathbb{Z} \mod 5$, $\mathbb{Z} \mod 7$, $\mathbb{Z} \mod 11$, $\mathbb{Z} \mod 13$, etc. Pour tout corps premier $\mathbb{Z} \mod p$, l’ensemble des entiers du corps est : $\{0, 1, \ldots, p - 2, p - 1\}$.
 
-4. **Condition inverse** : Considérons l'inverse de 5. Il faut que $[5 \cdot d] \mod 7 = 1$, pour une certaine valeur de $d$. L'unique valeur de $\mathbb{Z} \mod 7$ qui remplit cette condition est 3, ce qui est cohérent avec la condition d'inversion.
+En cryptographie, nous nous intéressons également aux corps d’extension, en particulier aux corps contenant $2^m$ éléments où $m > 1$. Ces corps finis sont, par exemple, utilisés dans le chiffrement Rijndael, qui constitue la base de l’**Advanced Encryption Standard (AES)**. Bien que les corps premiers soient relativement intuitifs, ces corps d’extension en base 2 peuvent sembler beaucoup moins intuitifs pour ceux qui ne sont pas familiers avec l’algèbre abstraite.
 
-5. **Condition de commutativité** : Prenons 5 et 3 comme valeurs. Dans ce cas, $[5 \cdot 3] \mod 7 = [3 \cdot 5] \mod 7 = 15 \mod 7 = 1$. Ceci est cohérent avec la condition de commutativité.
+Pour commencer, il est effectivement vrai que tout ensemble d’entiers contenant $2^m$ éléments peut être associé à deux opérateurs qui en feront un corps (tant que $m$ est un entier positif). Cependant, le fait qu'un corps existe ne signifie pas nécessairement qu'il est facile à découvrir ou particulièrement pratique pour certaines applications.
 
-L'ensemble $\mathbb{Z} \mod 7$ semble clairement répondre aux règles pour être un groupe abélien lorsqu'il est associé à l'addition ou à la multiplication sur les éléments non nuls.
+Il se trouve que les corps d’extension de $2^m$ particulièrement utiles en cryptographie sont ceux définis sur des ensembles particuliers d'expressions polynomiales, plutôt que sur un ensemble d’entiers.
 
-Enfin, cet ensemble combiné avec les deux opérateurs semble satisfaire à la condition de distribution. Prenons 5, 2 et 3 comme valeurs. Nous voyons que $[5 \cdot (2 + 3)] \mod 7 = [5 \cdot 2 + 5 \cdot 3] \mod 7 = 25 \mod 7 = 4$.
-
-Nous avons vu que $\mathbb{Z} \mod 7$ équipée de l'addition et de la multiplication satisfait aux axiomes d'un corps fini lorsqu'elle est testée avec des valeurs particulières. Bien sûr, nous pouvons aussi le montrer de manière générale, mais nous ne le ferons pas ici.
-
-Une distinction essentielle est faite entre deux types de corps : les corps finis et les corps infinis.
-
-Un **corps infini** est un corps dont l'ensemble **S** est infiniment grand. L'ensemble des nombres réels $\mathbb{R}$ muni de l'addition et de la multiplication est un exemple de corps infini. Un **corps fini**, également appelé **corps de Galois**, est un corps dont l'ensemble **S** est fini. Notre exemple ci-dessus de $\langle \mathbb{Z} \mod 7, +, \cdot \rangle$ est un corps fini.
-
-En cryptographie, nous nous intéressons principalement aux corps finis. En général, on peut montrer qu'un corps fini existe pour un ensemble d'éléments **S** si et seulement s'il a $p^m$ éléments, où $p$ est un nombre premier et $m$ un entier positif supérieur ou égal à un. En d'autres termes, si l'ordre d'un ensemble **S** est un nombre premier ($p^m$ où $m = 1$) ou une puissance première ($p^m$ où $m > 1$), alors on peut trouver deux opérateurs $\circ$ et $\diamond$ tels que les conditions d'existence d'un corps soient satisfaites.
-
-Si un corps fini possède un nombre premier d'éléments, on l'appelle **corps premier**. Si le nombre d'éléments du corps fini est une puissance première, le corps est appelé **corps d'extension**. En cryptographie, nous nous intéressons à la fois aux corps de nombres premiers et aux corps d'extension. [2]
-
-Les principaux corps de nombres premiers qui présentent un intérêt pour la cryptographie sont ceux où l'ensemble des entiers est modulé par un nombre premier et où les opérateurs sont l'addition et la multiplication standard. Cette classe de corps finis comprend $\mathbb{Z} \mod 2$, $\mathbb{Z} \mod 3$, $\mathbb{Z} \mod 5$, $\mathbb{Z} \mod 7$, $\mathbb{Z} \mod 11$, $\mathbb{Z} \mod 13$, et ainsi de suite. Pour tout corps premier $\mathbb{Z} \mod p$, l'ensemble des entiers du corps est le suivant : $\{0, 1, \ldots, p - 2, p - 1\}$.
-
-En cryptographie, nous nous intéressons également aux corps d'extension, en particulier aux corps à $2^m$ éléments où $m > 1$. De tels corps finis sont, par exemple, utilisés dans le chiffrement de Rijndael, qui constitue la base de l'Advanced Encryption Standard. Alors que les corps premiers sont relativement intuitifs, ces corps d'extension en base 2 ne sont probablement pas destinés à ceux qui ne sont pas familiers avec l'algèbre abstraite.
-
-Pour commencer, il est vrai que tout ensemble d'entiers avec $2^m$ éléments peut se voir attribuer deux opérateurs qui feraient de leur combinaison un corps (tant que $m$ est un entier positif). Cependant, ce n'est pas parce qu'un corps existe qu'il est nécessairement facile à découvrir ou particulièrement pratique pour certaines applications.
-
-Il s'avère que les corps d'extension de $2^m$ particulièrement applicables en cryptographie sont ceux définis sur des ensembles particuliers d'expressions polynomiales, plutôt que sur un ensemble d'entiers.
-
-Par exemple, supposons que nous voulions un corps d'extension avec $2^3$ (c'est-à-dire 8) éléments dans l'ensemble. Bien qu'il puisse exister de nombreux ensembles différents pouvant être utilisés pour des corps de cette taille, l'un de ces ensembles comprend tous les polynômes uniques de la forme $a_2x^2 + a_1x + a_0$, où chaque coefficient $a_i$ est soit 0, soit 1. Par conséquent, cet ensemble **S** comprend les éléments suivants :
+Par exemple, supposons que nous voulions un corps d’extension contenant $2^3$ (c’est-à-dire $8$) éléments dans l’ensemble. Bien qu'il puisse exister de nombreux ensembles qui peuvent être utilisés pour des corps de cette taille, un ensemble particulier inclut tous les polynômes uniques de la forme $a_2x^2 + a_1x + a_0$, où chaque coefficient $a_i$ est soit $0$, soit $1$. Ainsi, cet ensemble **S** comprend les éléments suivants :
 
 1. $0$ : Le cas où $a_2 = 0$, $a_1 = 0$, et $a_0 = 0$.
-
 2. $1$ : Le cas où $a_2 = 0$, $a_1 = 0$, et $a_0 = 1$.
-
 3. $x$ : Le cas où $a_2 = 0$, $a_1 = 1$, et $a_0 = 0$.
-
 4. $x + 1$ : Le cas où $a_2 = 0$, $a_1 = 1$, et $a_0 = 1$.
-
 5. $x^2$ : Le cas où $a_2 = 1$, $a_1 = 0$, et $a_0 = 0$.
-
 6. $x^2 + 1$ : Le cas où $a_2 = 1$, $a_1 = 0$, et $a_0 = 1$.
-
 7. $x^2 + x$ : Le cas où $a_2 = 1$, $a_1 = 1$, et $a_0 = 0$.
-
 8. $x^2 + x + 1$ : Le cas où $a_2 = 1$, $a_1 = 1$, et $a_0 = 1$.
 
-Donc **S** serait l'ensemble $\{0, 1, x, x + 1, x^2, x^2 + 1, x^2 + x, x^2 + x + 1\}$. Quelles sont les deux opérations que l'on peut définir sur cet ensemble d'éléments pour s'assurer que leur combinaison est un corps ?
+L'ensemble **S** serait donc : $\{0, 1, x, x + 1, x^2, x^2 + 1, x^2 + x, x^2 + x + 1\}$. Quelles sont les deux opérations qui peuvent être définies sur cet ensemble d’éléments pour garantir que leur combinaison forme un corps ?
 
-La première opération sur l'ensemble **S** ($\circ$) peut être définie comme une addition polynomiale standard modulo 2. Tout ce que vous avez à faire est d'additionner les polynômes comme vous le feriez normalement, puis d'appliquer le modulo 2 à chacun des coefficients du polynôme résultant. Voici quelques exemples :
+La première opération sur l'ensemble **S** ($\circ$) peut être définie comme l’**addition polynomiale standard modulo 2**. Il suffit d’additionner les polynômes normalement, puis d’appliquer le modulo 2 à chacun des coefficients du polynôme résultant. Voici quelques exemples :
 
+* $[(x^2) + (x^2 + x + 1)] \mod 2 = [2x^2 + x + 1] \mod 2 = x + 1$
+* $[(x^2 + x) + (x)] \mod 2 = [x^2 + 2x] \mod 2 = x^2$
+* $[(x + 1) + (x^2 + x + 1)] \mod 2 = [x^2 + 2x + 2] \mod 2 = x^2 + 1$
 
-- $[(x^2) + (x^2 + x + 1)] \mod 2 = [2x^2 + x + 1] \mod 2 = x + 1$
-- $[(x^2 + x) + (x)] \mod 2 = [x^2 + 2x] \mod 2 = x^2$
-- $[(x + 1) + (x^2 + x + 1)] \mod 2 = [x^2 + 2x + 2] \mod 2 = x^2 + 1$
+La deuxième opération sur l'ensemble **S** ($\diamond$) nécessaire pour créer le corps est plus complexe. Il s’agit d’une sorte de multiplication, mais pas de la multiplication standard en arithmétique. Au lieu de cela, chaque élément doit être considéré comme un vecteur, et l’opération doit être comprise comme une **multiplication de vecteurs modulo un polynôme irréductible**.
 
-La deuxième opération sur l'ensemble **S** ($\diamond$) qui est nécessaire pour créer le corps est plus compliquée. Il s'agit d'une sorte de multiplication, mais pas de la multiplication standard de l'arithmétique. Au lieu de cela, vous devez considérer chaque élément comme un vecteur et comprendre l'opération comme la multiplication de ces deux vecteurs modulo un polynôme irréductible.
+Passons d’abord à l’idée d’un polynôme irréductible. Un **polynôme irréductible** est un polynôme qui ne peut pas être factorisé (de la même manière qu’un nombre premier ne peut pas être décomposé en d’autres éléments que $1$ et lui-même). Pour notre cas, nous nous intéressons aux polynômes irréductibles par rapport à l'ensemble de tous les entiers. (Il est à noter que certains polynômes peuvent être factorisés par exemple avec les nombres réels ou complexes, même s’ils ne peuvent pas l’être avec les entiers.)
 
-Commençons par l'idée d'un polynôme irréductible. Un **polynôme irréductible** est un polynôme qui ne peut pas être factorisé (tout comme un nombre premier ne peut pas être factorisé en composantes autres que 1 et le nombre premier lui-même). Pour nos besoins, nous nous intéressons aux polynômes irréductibles par rapport à l'ensemble des entiers. (Notez que vous pouvez être en mesure de factoriser certains polynômes par, par exemple, les nombres réels ou complexes, même si vous ne pouvez pas les factoriser en utilisant les nombres entiers)
+Par exemple, considérons le polynôme $x^2 - 3x + 2$. Celui-ci peut être réécrit comme $(x - 1)(x - 2)$. Ainsi, il n’est pas irréductible. Maintenant, considérons le polynôme $x^2 + 1$. En utilisant uniquement les entiers, il est impossible de factoriser cette expression. Ainsi, ce polynôme est irréductible par rapport aux entiers.
 
-Par exemple, considérons le polynôme $x^2 - 3x + 2$. Il peut être réécrit sous la forme $(x - 1)(x - 2)$. Il n'est donc pas irréductible. Considérons maintenant le polynôme $x^2 + 1$. En utilisant uniquement des entiers, il n'y a aucun moyen de factoriser cette expression. Il s'agit donc d'un polynôme irréductible par rapport aux entiers.
+Ensuite, considérons la **multiplication de vecteurs**. Nous n’allons pas explorer ce sujet en profondeur, mais il est important de comprendre une règle fondamentale : Toute division de vecteur peut avoir lieu tant que le dividende a un degré supérieur ou égal à celui du diviseur. Si le degré du dividende est inférieur au degré du diviseur, alors la division est impossible.
 
-Passons maintenant au concept de multiplication vectorielle. Nous n'allons pas approfondir ce sujet, mais il suffit de comprendre une règle de base : Toute division vectorielle peut avoir lieu tant que le dividende a un degré supérieur ou égal à celui du diviseur. Si le dividende a un degré inférieur à celui du diviseur, alors le dividende ne peut plus être divisé par le diviseur.
+Par exemple, considérons l’expression $x^6 + x + 1 \mod x^5 + x^2$. Celle-ci peut être réduite car le degré du dividende, $6$, est supérieur au degré du diviseur, $5$. Maintenant, considérons l’expression $x^5 + x + 1 \mod x^5 + x^2$. Celle-ci peut également être réduite, car les degrés du dividende et du diviseur sont égaux ($5$ chacun).
 
-Par exemple, considérons l'expression $x^6 + x + 1 \mod x^5 + x^2$. Cette expression se réduit encore puisque le degré du dividende, 6, est plus élevé que celui du diviseur, 5. Considérons maintenant l'expression $x^5 + x + 1 \mod x^5 + x^2$. Cette expression se réduit également, car les degrés du dividende, 5, et du diviseur, 5, sont égaux.
+Cependant, si nous considérons l’expression $x^4 + x + 1 \mod x^5 + x^2$, elle ne peut pas être simplifiée davantage, car le degré du dividende, $4$, est inférieur au degré du diviseur, $5$.
 
-Cependant, considérons maintenant l'expression $x^4 + x + 1 \mod x^5 + x^2$. Cette expression ne se réduit pas davantage, car le degré du dividende, 4, est inférieur au degré du diviseur, 5.
+Sur la base de ces informations, nous sommes maintenant prêts à définir notre deuxième opération pour l’ensemble $\{0, 1, x, x + 1, x^2, x^2 + 1, x^2 + x, x^2 + x + 1\}$.
 
-Sur la base de ces informations, nous sommes maintenant prêts à trouver notre deuxième opération pour l'ensemble $\{0, 1, x, x + 1, x^2, x^2 + 1, x^2 + x, x^2 + x + 1\}$.
+J’ai déjà mentionné que la deuxième opération doit être comprise comme une **multiplication de vecteurs modulo un polynôme irréductible**. Ce polynôme irréductible doit garantir que l'opération définit un groupe abélien sur **S** et est cohérente avec la condition de distributivité. Alors, quel devrait être ce polynôme irréductible ?
 
-J'ai déjà dit que la deuxième opération devait être comprise comme une multiplication vectorielle modulo un polynôme irréductible. Ce polynôme irréductible doit garantir que la deuxième opération définit un groupe abélien sur **S** et qu'elle est compatible avec la condition de distribution. Quel doit être ce polynôme irréductible ?
+Comme tous les vecteurs de l’ensemble ont un degré $2$ ou inférieur, le polynôme irréductible doit être de degré $3$. Si une multiplication de deux vecteurs dans l'ensemble produit un polynôme de degré $3$ ou supérieur, nous savons que la réduction modulo un polynôme de degré $3$ donnera toujours un polynôme de degré $2$ ou inférieur. Cela est vrai parce que tout polynôme de degré $3$ ou supérieur est toujours divisible par un polynôme de degré $3$. De plus, le polynôme qui sert de diviseur doit être irréductible.
 
-Comme tous les vecteurs de l'ensemble sont de degré 2 ou inférieur, le polynôme irréductible doit être de degré 3. Si toute multiplication de deux vecteurs de l'ensemble donne un polynôme de degré 3 ou supérieur, nous savons que modulo un polynôme de degré 3 donne toujours un polynôme de degré 2 ou inférieur, car tout polynôme de degré 3 ou supérieur est toujours divisible par un polynôme de degré 3. En outre, le polynôme qui sert de diviseur doit être irréductible. C'est le cas parce que tout polynôme de degré 3 ou plus est toujours divisible par un polynôme de degré 3. En outre, le polynôme qui sert de diviseur doit être irréductible.
+Il se trouve qu’il existe plusieurs polynômes irréductibles de degré $3$ que nous pourrions utiliser comme diviseur. Chacun de ces polynômes définit un corps différent en conjonction avec notre ensemble **S** et l’addition modulo $2$. Cela signifie que vous disposez de plusieurs options lorsque vous utilisez des corps d’extension $2^m$ en cryptographie.
 
-Il s'avère qu'il existe plusieurs polynômes irréductibles de degré 3 que nous pourrions utiliser comme diviseur. Chacun de ces polynômes définit un corps différent en conjonction avec notre ensemble **S** et l'addition modulo 2. Cela signifie que vous avez plusieurs options lorsque vous utilisez les corps d'extension $2^m$ en cryptographie.
+Pour notre exemple, supposons que nous sélectionnons le polynôme $x^3 + x + 1$. Celui-ci est effectivement irréductible, car il est impossible de le factoriser en utilisant des entiers. De plus, il garantit que toute multiplication de deux éléments donnera un polynôme de degré $2$ ou moins.
 
-Pour notre exemple, supposons que nous choisissions le polynôme $x^3 + x + 1$. Ce polynôme est irréductible, car vous ne pouvez pas le factoriser en utilisant des entiers. De plus, il garantit que toute multiplication de deux éléments produira un polynôme de degré 2 ou moins.
+Travaillons maintenant sur un exemple de la deuxième opération en utilisant le polynôme $x^3 + x + 1$ comme diviseur pour illustrer comment cela fonctionne. Supposons que vous multipliez les éléments $x^2 + 1$ avec $x^2 + x$ dans notre ensemble **S**. Nous devons alors calculer l’expression suivante :
 
-Prenons un exemple de la deuxième opération en utilisant le polynôme $x^3 + x + 1$ comme diviseur pour illustrer son fonctionnement. Supposons que vous multipliez les éléments $x^2 + 1$ avec $x^2 + x$ dans notre ensemble **S**. Nous devons alors calculer l'expression $[(x^2 + 1) \cdot (x^2 + x)] \mod x^3 + x + 1$. Ceci peut être simplifié comme suit :
+* $[(x^2 + 1) \cdot (x^2 + x)] \mod x^3 + x + 1 =$
+* $[x^2 \cdot x^2 + x^2 \cdot x + 1 \cdot x^2 + 1 \cdot x] \mod x^3 + x + 1 =$
+* $[x^4 + x^3 + x^2 + x] \mod x^3 + x + 1$
 
-- $[(x^2 + 1) \cdot (x^2 + x)] \mod x^3 + x + 1 =$
-- $[x^2 \cdot x^2 + x^2 \cdot x + 1 \cdot x^2 + 1 \cdot x] \mod x^3 + x + 1 =$
-- $[x^4 + x^3 + x^2 + x] \mod x^3 + x + 1$
+Nous savons que $[x^4 + x^3 + x^2 + x] \mod x^3 + x + 1$ peut être réduit car le dividende a un degré supérieur ($4$) au diviseur ($3$).
 
-Nous savons que $[x^4 + x^3 + x^2 + x] \mod x^3 + x + 1$ peut être réduit car le dividende a un degré plus élevé (4) que le diviseur (3).
+Pour commencer, vous pouvez constater que l'expression $x^3 + x + 1$ divise $x^4 + x^3 + x^2 + x$ un total de $x$ fois. Vous pouvez vérifier cela en multipliant $x^3 + x + 1$ par $x$, ce qui donne $x^4 + x^2 + x$. Comme ce terme est du même degré que le dividende, à savoir $4$, nous savons que cela fonctionne. Vous pouvez calculer le reste de cette division par $x$ comme suit :
 
-Pour commencer, vous pouvez voir que l'expression $x^3 + x + 1$ entre dans $x^4 + x^3 + x^2 + x$ un total de $x$ fois. Vous pouvez le vérifier en multipliant $x^3 + x + 1$ par $x$, ce qui donne $x^4 + x^2 + x$. Comme ce dernier terme est du même degré que le dividende, à savoir 4, nous savons que cela fonctionne. Vous pouvez calculer le reste de cette division par $x$ comme suit :
+* $[(x^4 + x^3 + x^2 + x) - (x^4 + x^2 + x)] \mod x^3 + x + 1 =$
+* $[x^3] \mod x^3 + x + 1 =$
+* $x^3$
 
-- $[(x^4 + x^3 + x^2 + x) - (x^4 + x^2 + x)] \mod x^3 + x + 1 =$
-- $[x^3] \mod x^3 + x + 1 =$$
-- $x^3$
+Après avoir divisé $x^4 + x^3 + x^2 + x$ par $x^3 + x + 1$ un total de $x$ fois, il reste un reste de $x^3$. Ce reste peut-il être divisé davantage par $x^3 + x + 1$ ?
 
-Ainsi, après avoir divisé $x^4 + x^3 + x^2 + x$ par $x^3 + x + 1$ un total de $x$ fois, nous avons un reste de $x^3$. Peut-on le diviser à nouveau par $x^3 + x + 1$ ?
-
-Intuitivement, il peut être intéressant de dire que $x^3$ ne peut plus être divisé par $x^3 + x + 1$, parce que ce dernier terme semble plus grand. Cependant, rappelez-vous notre discussion sur la division vectorielle plus tôt. Tant que le dividende a un degré supérieur ou égal au diviseur, l'expression peut être réduite. Plus précisément, l'expression $x^3 + x + 1$ peut entrer dans $x^3$ exactement une fois. Le reste est calculé comme suit :
+Intuitivement, il pourrait sembler que $x^3$ ne puisse plus être divisé par $x^3 + x + 1$, car ce dernier terme semble plus grand. Cependant, rappelez-vous notre discussion sur la division des vecteurs. Tant que le dividende a un degré supérieur ou égal à celui du diviseur, l'expression peut être réduite davantage. Plus précisément, l'expression $x^3 + x + 1$ peut diviser $x^3$ exactement une fois. Le reste est calculé comme suit :
 
 $$
 [(x^3) - (x^3 + x + 1)] \mod x^3 + x + 1 = [x + 1] \mod x^3 + x + 1 = x + 1
 $$
 
-Vous vous demandez peut-être pourquoi $(x^3) - (x^3 + x + 1)$ s'évalue à $x + 1$ et non à $-x - 1$. Rappelez-vous que la première opération de notre corps est définie modulo 2. Par conséquent, la soustraction de deux vecteurs donne exactement le même résultat que l'addition de deux vecteurs.
+Vous vous demandez peut-être pourquoi $(x^3) - (x^3 + x + 1)$ donne $x + 1$ au lieu de $-x - 1$. Rappelez-vous que la première opération de notre corps est définie modulo $2$. Par conséquent, la soustraction de deux vecteurs donne exactement le même résultat que l’addition de ces deux vecteurs.
 
-Pour résumer la multiplication de $x^2 + 1$ et $x^2 + x$ : En multipliant ces deux termes, on obtient un polynôme de degré 4, $x^4 + x^3 + x^2 + x$, qui doit être réduit modulo $x^3 + x + 1$. Le polynôme de degré 4 est divisible par $x^3 + x + 1$ exactement $x + 1$ fois. Le reste après avoir divisé $x^4 + x^3 + x^2 + x$ par $x^3 + x + 1$ exactement $x + 1$ fois est $x + 1$. Il s'agit bien d'un élément de notre ensemble $\{0, 1, x, x + 1, x^2, x^2 + 1, x^2 + x, x^2 + x + 1\}$.
+Pour résumer la multiplication de $x^2 + 1$ par $x^2 + x$ : Lorsque vous multipliez ces deux termes, vous obtenez un polynôme de degré $4$, $x^4 + x^3 + x^2 + x$, qui doit être réduit modulo $x^3 + x + 1$. Le polynôme de degré $4$ est divisible par $x^3 + x + 1$ exactement $x + 1$ fois. Le reste après avoir divisé $x^4 + x^3 + x^2 + x$ par $x^3 + x + 1$ exactement $x + 1$ fois est $x + 1$. Ce résultat est effectivement un élément de notre ensemble $\{0, 1, x, x + 1, x^2, x^2 + 1, x^2 + x, x^2 + x + 1\}$.
 
-Pourquoi les corps d'extension de base 2 sur des ensembles de polynômes, comme dans l'exemple ci-dessus, seraient-ils utiles pour la cryptographie ? La raison en est que vous pouvez considérer les coefficients des polynômes de ces ensembles, soit 0 soit 1, comme des éléments de chaînes binaires d'une longueur particulière. L'ensemble **S** de notre exemple ci-dessus, par exemple, pourrait être considéré comme un ensemble **S** comprenant toutes les chaînes binaires de longueur 3 (de 000 à 111). Les opérations sur **S** peuvent donc également être utilisées pour effectuer des opérations sur ces chaînes binaires et produire une chaîne binaire de même longueur.
+Pourquoi les corps d’extension en base $2$ sur des ensembles de polynômes, comme dans l’exemple ci-dessus, sont-ils utiles en cryptographie ? La raison est que vous pouvez considérer les coefficients dans les polynômes de tels ensembles, qui sont soit $0$ soit $1$, comme des éléments de chaînes binaires d'une certaine longueur. L’ensemble **S** dans notre exemple ci-dessus pourrait par exemple être considéré comme un ensemble **S** qui comprend toutes les chaînes binaires de longueur $3$ (de $000$ à $111$). Les opérations sur **S** peuvent alors également être utilisées pour effectuer des opérations sur ces chaînes binaires et produire une chaîne binaire de la même longueur.
 
-**Notes:**
+**Notes :**
 
-[2] Les corps d'extension deviennent très contre-intuitifs. Au lieu d'avoir des éléments d'entiers, ils ont des ensembles de polynômes. En outre, toutes les opérations sont effectuées modulo un polynôme irréductible.
+[2] Les corps d’extension peuvent être très contre-intuitifs. Au lieu d’avoir des éléments constitués d’entiers, ils sont composés d’ensembles de polynômes. De plus, toutes les opérations sont effectuées modulo un polynôme irréductible.
 
-## L'algèbre abstraite en pratique
-
+## Algèbre abstraite en pratique
 <chapterId>ed35b98d-18b4-5790-9911-1078e0f84f92</chapterId>
 
-Malgré le langage formel et le caractère abstrait de la discussion, le concept de groupe ne devrait pas être trop difficile à saisir. Il s'agit simplement d'un ensemble d'éléments associé à une opération binaire, où l'exécution de cette opération binaire sur ces éléments répond à quatre conditions générales. Un groupe abélien est soumis à une condition supplémentaire, la commutativité. Un groupe cyclique, quant à lui, est un type particulier de groupe abélien, à savoir un groupe qui possède un générateur. Un corps est simplement une construction plus complexe à partir de la notion de groupe de base.
+Bien que le langage formel et l’abstraction de la discussion puissent sembler complexes, le concept de groupe ne devrait pas être trop difficile à comprendre. Il s'agit simplement d'un ensemble d’éléments accompagné d’une opération binaire, où l’application de cette opération sur ces éléments respecte quatre conditions générales. Un groupe abélien possède simplement une condition supplémentaire appelée commutativité. Un groupe cyclique, quant à lui, est un type particulier de groupe abélien, à savoir celui qui possède un générateur. Un corps est simplement une construction plus complexe issue de la notion fondamentale de groupe.
 
-Mais si vous avez l'esprit pratique, vous pouvez vous demander à ce stade : Qui s'en soucie ? Savoir qu'un ensemble d'éléments avec un opérateur est un groupe, ou même un groupe abélien ou cyclique, a-t-il une quelconque pertinence dans le monde réel ? Savoir que quelque chose est un corps ?
+Mais si vous êtes une personne orientée vers la pratique, vous pourriez vous demander à ce stade : En quoi cela est-il utile ? Le fait de savoir qu’un ensemble d’éléments avec un opérateur est un groupe, ou même un groupe abélien ou cyclique, a-t-il une réelle importance pratique ? Le fait de savoir qu'il s'agit d'un corps est-il pertinent ?
 
-Sans entrer dans les détails, la réponse est "oui". Les groupes ont été créés au 19e siècle par le mathématicien français Evariste Galois. Il les a utilisés pour tirer des conclusions sur la résolution d'équations polynomiales d'un degré supérieur à cinq.
+Sans entrer dans trop de détails, la réponse est « oui ». Les groupes ont été créés au XIXe siècle par le mathématicien français **Évariste Galois**. Il les a utilisés pour tirer des conclusions sur la résolution des équations polynomiales d’un degré supérieur à cinq.
 
-Depuis lors, le concept de groupe a permis d'éclairer un certain nombre de problèmes en mathématiques et ailleurs. C'est ainsi que le physicien Murray-Gellman a pu prédire l'existence d'une particule avant qu'elle ne soit observée lors d'expériences[3]. Autre exemple, les chimistes utilisent la théorie des groupes pour classer les formes des molécules. Les mathématiciens ont même utilisé le concept de groupe pour tirer des conclusions sur quelque chose d'aussi concret que le papier peint !
+Depuis lors, le concept de groupe a permis de clarifier de nombreux problèmes en mathématiques et ailleurs. Par exemple, le physicien **Murray Gell-Mann** a pu prédire l'existence d'une particule avant même qu'elle ne soit effectivement observée lors d’expériences. [3] Autre exemple, les chimistes utilisent la théorie des groupes pour classifier les formes des molécules. Les mathématiciens ont même utilisé le concept de groupe pour tirer des conclusions sur quelque chose de concret comme les motifs des papiers peints !
 
-Montrer qu'un ensemble d'éléments avec un certain opérateur est un groupe signifie essentiellement que ce que vous décrivez possède une symétrie particulière. Pas une symétrie au sens commun du terme, mais sous une forme plus abstraite. Cela peut permettre de mieux comprendre des systèmes et des problèmes particuliers. Les notions plus complexes de l'algèbre abstraite ne font que nous donner des informations supplémentaires.
+Montrer essentiellement qu’un ensemble d’éléments avec un certain opérateur est un groupe signifie que ce que vous décrivez possède une certaine symétrie. Pas une symétrie au sens courant du terme, mais sous une forme plus abstraite. Cela peut apporter des éclairages considérables sur certains systèmes et problèmes. Les notions plus complexes issues de l’algèbre abstraite ne font que fournir des informations supplémentaires.
 
-Plus important encore, vous verrez l'importance des groupes et des corps de la théorie des nombres dans la pratique grâce à leur application en cryptographie, en particulier en cryptographie à clé publique. Nous avons déjà vu dans notre discussion sur les corps, par exemple, comment les corps d'extension sont utilisés dans le chiffrement Rijndael. Nous développerons cet exemple au *chapitre 5*.
+Surtout, vous verrez l’importance des groupes et des corps issus de la théorie des nombres en pratique grâce à leur application en cryptographie, en particulier la cryptographie à clé publique. Nous avons déjà vu dans notre discussion sur les corps comment les corps d’extension sont utilisés dans l’algorithme **Rijndael**. Nous détaillerons cet exemple dans le *Chapitre 5*.
 
-Pour une discussion plus approfondie sur l'algèbre abstraite, je recommande l'excellente série de vidéos sur l'algèbre abstraite de Socratica[4]. Je recommande en particulier les vidéos suivantes : "Qu'est-ce que l'algèbre abstraite ?", "Définition des groupes (développée)", "Définition des anneaux (développée)", et "Définition des corps (développée)" Ces quatre vidéos vous donneront un aperçu supplémentaire de la majeure partie de la discussion ci-dessus. (Nous n'avons pas parlé des anneaux, mais un corps est un type particulier d'anneau)
+Pour approfondir la discussion sur l’algèbre abstraite, je recommande l'excellente série de vidéos sur l'algèbre abstraite proposée par **Socratica**. [4] Je recommande particulièrement les vidéos suivantes : « What is abstract algebra? », « Group definition (expanded) », « Ring definition (expanded) », et « Field definition (expanded) ». Ces quatre vidéos vous apporteront des informations supplémentaires sur une grande partie de ce qui a été discuté ci-dessus. (Nous n’avons pas abordé les anneaux, mais un corps est simplement un type particulier d’anneau.)
 
-Pour une discussion plus approfondie sur la théorie moderne des nombres, vous pouvez consulter de nombreuses discussions avancées sur la cryptographie. Je vous suggère l'ouvrage de Jonathan Katz et Yehuda Lindell intitulé Introduction to Modern Cryptography ou celui de Christof Paar et Jan Pelzl intitulé Understanding Cryptography. [5]
+Pour aller plus loin sur la théorie moderne des nombres, vous pouvez consulter de nombreuses discussions avancées sur la cryptographie. Je suggère notamment **Introduction to Modern Cryptography** de **Jonathan Katz et Yehuda Lindell**, ou **Understanding Cryptography** de **Christof Paar et Jan Pelzl** pour une étude plus approfondie. [5]
 
-**Notes:**
+**Notes :**
 
 [3] Voir [Vidéo YouTube](https://www.youtube.com/watch?v=NOMUnMuxDZY&feature=youtu.be)
 
-[4] Socratica, [Algèbre abstraite](https://www.socratica.com/subject/abstract-algebra)
+[4] Socratica, [Algèbre Abstraite](https://www.socratica.com/subject/abstract-algebra)
 
-[5] Katz et Lindell, *Introduction to Modern Cryptography*, 2e édition, 2015 (CRC Press : Boca Raton, FL). Paar et Pelzl, *Understanding Cryptography*, 2010 (Springer-Verlag : Berlin).
+[5] Katz et Lindell, *Introduction to Modern Cryptography*, 2e éd., 2015 (CRC Press : Boca Raton, FL). Paar et Pelzl, *Understanding Cryptography*, 2010 (Springer-Verlag : Berlin).
+
 
 # Cryptographie symétrique
 

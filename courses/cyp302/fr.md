@@ -44,7 +44,7 @@ Des développeurs aux personnes intellectuellement curieuses, ce livre est utile
 
 ### Guide de lecture
 
-Le livre contient actuellement sept chapitres : "Qu'est-ce que la cryptographie ?" (chapitre 1), "Fondements mathématiques de la cryptographie I" (chapitre 2), "Fondements mathématiques de la cryptographie II" (chapitre 3), "Cryptographie symétrique" (chapitre 4), "RC4 et AES" (chapitre 5), "Cryptographie asymétrique" (chapitre 6) et "Le système cryptographique RSA" (chapitre 7). Un dernier chapitre, "La cryptographie en pratique", sera encore ajouté. Il se concentre sur diverses applications cryptographiques, notamment la sécurité de la couche transport, le routage en oignon et le système d'échange de valeur de Bitcoin.
+Le livre contient actuellement sept chapitres : "Qu'est-ce que la cryptographie ?" (partie 2), "Fondements mathématiques de la cryptographie I" (partie 3), "Fondements mathématiques de la cryptographie II" (partie 4), "Cryptographie symétrique" (partie 5), "RC4 et AES" (partie 6), "Cryptographie asymétrique" (partie 7) et "Le système cryptographique RSA" (partie 8). Un dernier chapitre, "La cryptographie en pratique", sera encore ajouté. Il se concentre sur diverses applications cryptographiques, notamment la sécurité de la couche transport, le routage en oignon et le système d'échange de valeur de Bitcoin.
 
 À moins que vous n'ayez une solide formation en mathématiques, la théorie des nombres est probablement le sujet le plus difficile de ce livre. J'en propose une vue d'ensemble au chapitre 3, et elle apparaît également dans l'exposé de l'AES au chapitre 5 et du système de chiffrement RSA au chapitre 7.
 

@@ -43,7 +43,7 @@ Ni muhimu kuelewa kwamba Bitcoin ni mfumo mpya wa fedha ambao hubadilisha kabisa
 
 
 - Sura ya 1 - Pesa ni nini?
-- Sura ya 2 - Fiat pesa
+- Sura ya 2 - Fiat kama pesa
 - Sura ya 3 - Mfumuko wa bei
 - Sura ya 4 - Bitcoin sera ya fedha
 

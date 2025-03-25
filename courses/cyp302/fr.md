@@ -1876,304 +1876,291 @@ Bien que la résistance aux collisions et le masquage soient les principales pro
 <partId>864dca42-2a8d-530f-bb94-2e1f68b3f411</partId>
 
 ## Le problème de la factorisation
-
 <chapterId>a31a66e4-52ea-539c-9953-4769ad565d7e</chapterId>
 
-Si la cryptographie symétrique est généralement assez intuitive pour la plupart des gens, ce n'est pas le cas de la cryptographie asymétrique. Bien que vous soyez probablement à l'aise avec la description de haut niveau proposée dans les sections précédentes, vous vous demandez probablement ce que sont précisément les fonctions à sens unique et comment elles sont utilisées pour construire des schémas asymétriques.
+Bien que la cryptographie symétrique soit généralement assez intuitive pour la plupart des gens, ce n'est généralement pas le cas de la cryptographie asymétrique. Bien que vous soyez probablement à l'aise avec la description générale présentée dans les sections précédentes, vous vous demandez probablement ce que sont précisément les fonctions à sens unique et comment elles sont utilisées pour construire des systèmes asymétriques.
 
-Dans ce chapitre, je lèverai une partie du mystère qui entoure la cryptographie asymétrique, en examinant plus en profondeur un exemple spécifique, à savoir le cryptosystème RSA. Dans la première section, je présenterai le problème de factorisation sur lequel repose le problème RSA. Nous aborderons ensuite un certain nombre de résultats clés de la théorie des nombres. Dans la dernière section, nous rassemblerons ces informations pour expliquer le problème RSA et la manière dont il peut être utilisé pour créer des systèmes cryptographiques asymétriques.
+Dans ce chapitre, je vais lever une partie du mystère entourant la cryptographie asymétrique, en examinant plus en détail un exemple spécifique, à savoir le système cryptographique RSA. Dans la première section, je vais introduire le problème de la factorisation sur lequel repose le problème RSA. Ensuite, j'aborderai un certain nombre de résultats clés issus de la théorie des nombres. Dans la dernière section, nous mettrons ensemble ces informations pour expliquer le problème RSA, et comment celui-ci peut être utilisé pour créer des schémas cryptographiques asymétriques.
 
-Il n'est pas facile d'ajouter cette profondeur à notre discussion. Il faut en effet introduire un certain nombre de théorèmes et de propositions relatifs à la théorie des nombres. Mais ne vous laissez pas dissuader par les mathématiques. Travailler sur cette discussion améliorera considérablement votre compréhension de ce qui sous-tend la cryptographie asymétrique et c'est un investissement qui en vaut la peine.
+Approfondir cette discussion n'est pas une tâche facile. Cela nécessite l'introduction de nombreux théorèmes et propositions de la théorie des nombres. Mais ne laissez pas les mathématiques vous décourager. Travailler sur cette discussion améliorera considérablement votre compréhension des bases de la cryptographie asymétrique et constituera un investissement précieux.
 
-Passons maintenant au problème de la factorisation.
+Commençons donc par examiner le problème de la factorisation.
 
 ___
 
-Lorsque vous multipliez deux nombres, par exemple $a$ et $b$, nous appelons les nombres $a$ et $b$ **facteurs**, et le résultat **produit**. Tenter d'écrire un nombre $N$ en multipliant deux facteurs ou plus s'appelle **factorisation** ou **factoring**. [1] On peut appeler tout problème nécessitant cette opération un **problème de factorisation**.
+Chaque fois que vous multipliez deux nombres, disons $a$ et $b$, nous appelons ces nombres $a$ et $b$ des **facteurs**, et le résultat le **produit**. Tenter d'écrire un nombre $N$ comme la multiplication de deux ou plusieurs facteurs est appelé **factorisation** ou **décomposition en facteurs premiers**. [1] Tout problème nécessitant cela peut être appelé un **problème de factorisation**.
 
-Il y a environ 2 500 ans, le mathématicien grec Euclide d'Alexandrie a découvert un théorème clé sur la factorisation des nombres entiers. Ce théorème, communément appelé **théorème de factorisation unique**, énonce ce qui suit :
+Il y a environ 2 500 ans, le mathématicien grec Euclide d'Alexandrie a découvert un théorème clé sur la factorisation des entiers. Il est couramment appelé le **théorème de la factorisation unique** et énonce ce qui suit :
 
 **Théorème 1**. Tout entier $N$ supérieur à 1 est soit un nombre premier, soit peut être exprimé comme un produit de facteurs premiers.
 
-Tout ce que la dernière partie de cette affirmation signifie, c'est que vous pouvez prendre n'importe quel entier non premier $N$ supérieur à 1, et l'écrire comme une multiplication de nombres premiers. Vous trouverez ci-dessous plusieurs exemples d'entiers non premiers écrits comme le produit de facteurs premiers.
+La seconde partie de cette affirmation signifie simplement que vous pouvez prendre n'importe quel entier non premier $N$ supérieur à 1, et l'écrire comme une multiplication de nombres premiers. Voici plusieurs exemples d'entiers non premiers écrits comme produit de facteurs premiers.
 
+* $18 = 2 \cdot 3 \cdot 3 = 2 \cdot 3^2$
+* $84 = 2 \cdot 2 \cdot 3 \cdot 7 = 2^2 \cdot 3 \cdot 7$
+* $144 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 3 \cdot 3 = 2^4 \cdot 3^2$
 
-- $18 = 2 \cdot 3 \cdot 3 = 2 \cdot 3^2$
-- 84$ = 2 \cdot 2 \cdot 3 \cdot 7 = 2^2 \cdot 3 \cdot 7$
-- $144 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 3 \cdot 3 = 2^4 \cdot 3^2$
+Pour tous ces exemples, calculer leurs facteurs premiers est relativement simple, même si vous ne disposez que de $N$. Vous commencez par le plus petit nombre premier, c'est-à-dire 2, et vous voyez combien de fois l'entier $N$ est divisible par celui-ci. Ensuite, vous passez à tester la divisibilité de $N$ par 3, 5, 7, et ainsi de suite. Vous poursuivez ce processus jusqu'à ce que votre entier $N$ soit écrit comme produit uniquement de nombres premiers.
 
-Pour les trois entiers ci-dessus, il est relativement facile de calculer leurs facteurs premiers, même si l'on ne dispose que de $N$. Vous commencez par le plus petit nombre premier, à savoir 2, et vous voyez combien de fois l'entier $N$ est divisible par lui. Vous testez ensuite la divisibilité de $N$ par 3, 5, 7, etc. Vous continuez ce processus jusqu'à ce que votre entier $N$ s'écrive comme le produit de nombres premiers uniquement.
+Prenons par exemple l'entier 84. Vous pouvez voir ci-dessous le processus pour déterminer ses facteurs premiers. À chaque étape, nous prenons le plus petit facteur premier restant (à gauche) et déterminons le reste à factoriser. Nous continuons jusqu'à ce que le reste soit également un nombre premier. À chaque étape, la factorisation actuelle de 84 est affichée à droite.
 
-Prenons par exemple l'entier 84. Vous trouverez ci-dessous le processus de détermination de ses facteurs premiers. À chaque étape, nous éliminons le plus petit facteur premier restant (à gauche) et déterminons le terme restant à factoriser. Nous continuons jusqu'à ce que le terme restant soit également un nombre premier. À chaque étape, la factorisation actuelle de 84 est affichée à l'extrême droite.
+* Facteur premier = 2 : reste = 42 	($84 = 2 \cdot 42$)  
+* Facteur premier = 2 : reste = 21 	($84 = 2 \cdot 2 \cdot 21$)  
+* Facteur premier = 3 : reste = 7 	($84 = 2 \cdot 2 \cdot 3 \cdot 7$)  
+* Comme 7 est un nombre premier, le résultat est $2 \cdot 2 \cdot 3 \cdot 7$, ou $2^2 \cdot 3 \cdot 7$.
 
+Supposons maintenant que $N$ soit très grand. Quelle serait la difficulté de réduire $N$ en ses facteurs premiers ?
 
-- Facteur premier = 2 : reste du terme = 42 ($84 = 2 \cdot 42$)
-- Facteur premier = 2 : reste du terme = 21 ($84 = 2 \cdot 2 \cdot 21$)
-- Facteur premier = 3 : reste du terme = 7 ($84 = 2 \cdot 2 \cdot 3 \cdot 7$)
-- Comme 7 est un nombre premier, le résultat est $2 \cdot 2 \cdot 3 \cdot 7$, ou $2^2 \cdot 3 \cdot 7$.
+Cela dépend vraiment de $N$. Supposons, par exemple, que $N$ soit égal à 50 450 400. Bien que ce nombre semble intimidant, les calculs ne sont pas si compliqués et peuvent facilement être effectués à la main. Comme ci-dessus, vous commencez simplement par 2 et continuez. Vous trouverez ci-dessous le résultat de ce processus de manière similaire à l'exemple précédent.
 
-Supposons maintenant que $N$ est très grand. Quelle serait la difficulté de réduire $N$ en ses facteurs premiers ?
+* 2 : 25 225 200 	($50 450 400 = 2 \cdot 25 225 200$)  
+* 2 : 12 612 600 	($50 450 400 = 2^2 \cdot 12 612 600$)  
+* 2 : 6 306 300 	($50 450 400 = 2^3 \cdot 6 306 300$)  
+* 2 : 3 153 150 	($50 450 400 = 2^4 \cdot 3 153 150$)  
+* 2 : 1 576 575 	($50 450 400 = 2^5 \cdot 1 576 575$)  
+* 3 : 525 525 	($50 450 400 = 2^5 \cdot 3 \cdot 525 525$)  
+* 3 : 175 175 	($50 450 400 = 2^5 \cdot 3^2 \cdot 175 175$)  
+* 5 : 35 035 	($50 450 400 = 2^5 \cdot 3^2 \cdot 5 \cdot 35 035$)  
+* 5 : 7 007 	($50 450 400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7 007$)  
+* 7 : 1 001 	($50 450 400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7 \cdot 1 001$)  
+* 7 : 143 	($50 450 400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 143$)  
+* 11 : 13 	($50 450 400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 11 \cdot 13$)  
+* Comme 13 est un nombre premier, le résultat est $2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 11 \cdot 13$.
 
-Cela dépend vraiment de $N$. Supposons, par exemple, que $N$ soit égal à 50 450 400. Bien que ce nombre semble intimidant, les calculs ne sont pas très compliqués et peuvent facilement être effectués à la main. Comme ci-dessus, il suffit de commencer par 2 et d'aller plus loin. Ci-dessous, vous pouvez voir le résultat de ce processus de la même manière que ci-dessus.
+Réaliser cette décomposition en facteurs premiers à la main prend un certain temps. Un ordinateur, bien sûr, pourrait effectuer tous ces calculs en une fraction de seconde. En fait, un ordinateur peut fréquemment factoriser des entiers extrêmement grands en une fraction de seconde.
 
+Il existe cependant certaines exceptions. Supposons que nous sélectionnions d'abord aléatoirement deux nombres premiers très grands. Il est courant de les désigner par $p$ et $q$, et j'adopterai cette convention ici.
 
-- 2 : 25 225 200 (50 450 400 $ = 2 \cdot 25 225 200$)
-- 2 : 12.612.600 ($50.450.400 = 2^2 \cdot 12.612.600$)
-- 2 : 6 306 300 (50 450 400 $ = 2^3 \cdot 6 306 300$)
-- 2 : 3 153 150 (50 450 400 $ = 2^4 \cdot 3 153 150$)
-- 2 : 1 576 575 (50 450 400 $ = 2^5 \cdot 1 576 575$)
-- 3 : 525,525 ($50,450,400 = 2^5 \cdot 3 \cdot 525,525$)
-- 3 : 175,175 ($50,450,400 = 2^5 \cdot 3^2 \cdot 175,175$)
-- 5 : 35,035 ($50,450,400 = 2^5 \cdot 3^2 \cdot 5 \cdot 35,035$)
-- 5 : 7 007 ($50,450,400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7,007$)
-- 7 : 1 001 (50 450 400 $ = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7 \cdot 1 001$)
-- 7 : 143 ($50,450,400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 143$)
-- 11 : 13 ($50,450,400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 11 \cdot 13$)
-- Comme 13 est un nombre premier, le résultat est $2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 11 \cdot 13$.
+Pour être concret, disons que $p$ et $q$ sont tous deux des nombres premiers de 1024 bits, et qu'ils nécessitent effectivement au moins 1024 bits pour être représentés (donc le premier bit doit être égal à 1). Par exemple, 37 ne pourrait pas être l'un de ces nombres premiers. Vous pouvez certainement représenter 37 avec 1024 bits, mais il est clair *que vous n'avez pas besoin* d'autant de bits pour le représenter. Vous pouvez représenter 37 par n'importe quelle chaîne ayant au moins 6 bits. (En 6 bits, 37 serait représenté par $100101$).
 
-Résoudre ce problème à la main prend un certain temps. Un ordinateur, bien sûr, pourrait faire tout cela en une petite fraction de seconde. En fait, un ordinateur peut souvent factoriser des nombres entiers extrêmement grands en une fraction de seconde.
+Il est important de comprendre à quel point $p$ et $q$ sont grands s'ils sont sélectionnés selon les conditions ci-dessus. Par exemple, voici un nombre premier aléatoire qui nécessite au moins 1024 bits pour être représenté :
 
-Il existe cependant certaines exceptions. Supposons que nous choisissions d'abord au hasard deux très grands nombres premiers. Il est courant d'appeler ces nombres $p$ et $q$, et j'adopterai cette convention ici.
+* 14,752,173,874,503,595,484,930,006,383,670,759,559,764,562,721,397,166,747,289,220,945,457,932,666,751,048,198,854,920,097,085,690,793,755,254,946,188,163,753,506,778,089,706,699,671,722,089,715,624,760,049,594,106,189,662,669,156,149,028,900,805,928,183,585,427,782,974,951,355,515,394,807,209,836,870,484,558,332,897,443,152,653,214,483,870,992,618,171,825,921,582,253,023,974,514,209,142,520,026,807,636,589.
 
-Pour être concret, disons que $p$ et $q$ sont tous deux des nombres premiers de 1024 bits, et qu'ils nécessitent effectivement au moins 1024 bits pour être représentés (le premier bit doit donc être 1). Ainsi, par exemple, 37 ne peut pas être l'un des nombres premiers. Vous pouvez certainement représenter 37 avec 1024 bits. Mais il est clair que vous n'avez pas besoin de ce nombre de bits pour le représenter. Vous pouvez représenter 37 par n'importe quelle chaîne de 6 bits ou plus. (En 6 bits, 37 serait représenté par $100101$).
+Supposons maintenant qu'après avoir sélectionné aléatoirement les nombres premiers $p$ et $q$, nous les multiplions pour obtenir un entier $N$. Ce dernier entier est donc un nombre de 2048 bits qui nécessite au moins 2048 bits pour être représenté. Il est beaucoup, beaucoup plus grand que $p$ ou $q$.
 
-Il est important d'apprécier la taille de $p$ et $q$ s'ils sont sélectionnés dans les conditions ci-dessus. À titre d'exemple, j'ai choisi un nombre premier aléatoire dont la représentation nécessite au moins 1024 bits.
+Supposons que vous fournissiez uniquement l'entier $N$ à un ordinateur, et que vous lui demandiez de trouver les deux facteurs premiers de 1024 bits de $N$. La probabilité que l'ordinateur découvre $p$ et $q$ est extrêmement faible. Vous pouvez dire qu'il est impossible de les trouver pour des raisons pratiques. Cela reste vrai même si vous utilisiez un superordinateur ou même un réseau de superordinateurs.
 
+Pour commencer, supposons que l'ordinateur tente de résoudre le problème en parcourant tous les nombres de 1024 bits, en testant à chaque fois s'ils sont premiers et s'ils sont facteurs de $N$. L'ensemble des nombres premiers à tester est alors approximativement égal à $1.265 \cdot 10^{305}$. [2]
 
-- 14,752,173,874,503,595,484,930,006,383,670,759,559,764,562,721,397,166,747,289,220,945,457,932,666,751,048,198,854,920,097,085,690,793,755,254,946,188,163,753,506,778,089,706,699,671,722,089,715,624,760,049,594,106,189,662,669,156,149,028,900,805,928,183,585,427,782,974,951,355,515,394,807,209,836,870,484,558,332,897,443,152,653,214,483,870,992,618,171,825,921,582,253,023,974,514,209,142,520,026,807,636,589
+Même si vous preniez tous les ordinateurs de la planète et les faisiez essayer de trouver et de tester les nombres premiers de 1024 bits de cette manière, une chance sur un milliard de réussir nécessiterait une période de calcul bien plus longue que l'âge de l'Univers.
 
-Supposons maintenant qu'après avoir choisi au hasard des nombres premiers $p$ et $q$, nous les multiplions pour obtenir un entier $N$. Ce dernier entier est donc un nombre de 2048 bits qui nécessite au moins 2048 bits pour sa représentation. Il est beaucoup, beaucoup plus grand que $p$ ou $q$.
+En pratique, un ordinateur peut faire mieux que la procédure approximative décrite ci-dessus. Il existe plusieurs algorithmes que l'ordinateur peut appliquer pour parvenir à une factorisation plus rapidement. Cependant, même en utilisant ces algorithmes plus efficaces, la tâche reste toujours computationnellement infaisable. [3]
 
-Supposons que vous donniez seulement $N$ à un ordinateur et que vous lui demandiez de trouver les deux facteurs premiers de $N$ sur 1024 bits. La probabilité que l'ordinateur découvre $p$ et $q$ est extrêmement faible. On peut dire que c'est impossible à toutes fins pratiques. Il en est ainsi même si vous employez un superordinateur ou même un réseau de superordinateurs.
+Il est important de noter que la difficulté de la factorisation dans les conditions décrites repose sur l'hypothèse qu'il n'existe pas d'algorithmes efficaces pour calculer les facteurs premiers. Nous ne pouvons pas réellement prouver qu'un algorithme efficace n'existe pas. Néanmoins, cette hypothèse est très plausible : malgré des efforts considérables qui s'étendent sur des centaines d'années, nous n'avons toujours pas trouvé un tel algorithme qui soit efficace en pratique.
 
-Pour commencer, supposons que l'ordinateur tente de résoudre le problème en parcourant 1024 nombres binaires, en testant dans chaque cas s'ils sont premiers et s'ils sont des facteurs de $N$. L'ensemble des nombres premiers à tester est alors d'environ $1.265 \cdot 10^{305}$. [2]
+Par conséquent, le problème de la factorisation, dans certaines conditions, peut raisonnablement être supposé être un problème difficile. Plus précisément, lorsque $p$ et $q$ sont des nombres premiers très grands, leur produit $N$ n'est pas difficile à calculer ; mais la factorisation de $N$ sans connaître $p$ ou $q$ est pratiquement impossible.
 
-Même si l'on prend tous les ordinateurs de la planète et qu'on leur demande d'essayer de trouver et de tester des nombres premiers de 1024 bits de cette manière, une chance sur un milliard de trouver un facteur premier de $N$ nécessiterait une période de calcul bien plus longue que l'âge de l'Univers.
+---
 
-Dans la pratique, un ordinateur peut faire mieux que la procédure approximative décrite ci-dessus. Il existe plusieurs algorithmes que l'ordinateur peut appliquer pour parvenir plus rapidement à une factorisation. Cependant, même en utilisant ces algorithmes plus efficaces, la tâche de l'ordinateur reste infaisable d'un point de vue informatique. [3]
-
-Il est important de noter que la difficulté de la factorisation dans les conditions décrites ci-dessus repose sur l'hypothèse qu'il n'existe pas d'algorithme efficace pour le calcul des facteurs premiers. Nous ne pouvons pas prouver qu'il n'existe pas d'algorithme efficace. Néanmoins, cette hypothèse est très plausible : malgré des efforts considérables déployés pendant des centaines d'années, nous n'avons pas encore trouvé d'algorithme efficace sur le plan informatique.
-
-Par conséquent, le problème de la factorisation, dans certaines circonstances, peut être considéré comme un problème difficile. Plus précisément, lorsque $p$ et $q$ sont de très grands nombres premiers, leur produit $N$ n'est pas difficile à calculer ; mais la factorisation à partir de $N$ seulement est pratiquement impossible.
-
-**Notes:**
+**Notes :**
 
 [1] La factorisation peut également être importante pour travailler avec d'autres types d'objets mathématiques que les nombres. Par exemple, il peut être utile de factoriser des expressions polynomiales telles que $x^2 - 2x + 1$. Dans notre discussion, nous nous concentrerons uniquement sur la factorisation des nombres, en particulier des entiers.
 
-[2] Selon le **théorème du nombre premier**, le nombre de nombres premiers inférieurs ou égaux à $N$ est approximativement $N/\ln(N)$. Cela signifie que vous pouvez approximer le nombre de nombres premiers de longueur 1024 bits par :
+[2] Selon le **théorème des nombres premiers**, le nombre de nombres premiers inférieurs ou égaux à $N$ est approximativement égal à $N/\ln(N)$. Cela signifie que vous pouvez approximer le nombre de nombres premiers de longueur 1024 bits par :
 
 $$ \frac{2^{1024}}{\ln(2^{1024})} - \frac{2^{1023}}{\ln(2^{1023})} $$
 
-...ce qui équivaut à environ 1,265 \\Npar 10^{305}$.
+...ce qui est approximativement égal à $1.265 \times 10^{305}$.
 
-[3] Il en va de même pour les problèmes de logarithme discret. C'est pourquoi les constructions asymétriques fonctionnent avec des clés beaucoup plus grandes que les constructions cryptographiques symétriques.
+[3] La même chose est vraie pour les problèmes de logarithmes discrets. C'est pourquoi les constructions asymétriques nécessitent des clés beaucoup plus longues que les constructions cryptographiques symétriques.
 
-## Résultats de la théorie des nombres
 
+## Résultats en théorie des nombres
 <chapterId>23cd2186-8d97-5709-a4a7-b984f1eb9999</chapterId>
 
-Malheureusement, le problème de la factorisation ne peut pas être utilisé directement pour les systèmes cryptographiques asymétriques. Cependant, nous pouvons utiliser un problème plus complexe mais connexe à cet effet : le problème RSA.
+Malheureusement, le problème de la factorisation ne peut pas être utilisé directement pour les systèmes cryptographiques asymétriques. Cependant, nous pouvons utiliser un problème plus complexe mais lié : le problème RSA.
 
-Pour comprendre le problème RSA, nous devons comprendre un certain nombre de théorèmes et de propositions de la théorie des nombres. Ceux-ci sont présentés dans cette section en trois sous-sections : (1) l'ordre de N, (2) l'inversibilité modulo N, et (3) le théorème d'Euler.
+Pour comprendre le problème RSA, nous devons assimiler un certain nombre de théorèmes et propositions issus de la théorie des nombres. Ceux-ci sont présentés dans cette section en trois sous-sections : (1) l'ordre de $N$, (2) l'inversibilité modulo $N$, et (3) le théorème d'Euler.
 
-Une partie du contenu des trois sous-sections a déjà été présentée dans le *chapitre 3*. Mais je vais les rappeler ici pour des raisons de commodité.
+Certains des éléments abordés dans ces trois sous-sections ont déjà été introduits au *Chapitre 3*. Cependant, nous les réexposons ici par souci de commodité.
 
 ### L'ordre de N
 
-Un entier $a$ est **coprime** ou **premier relatif** avec un entier $N$, si le plus grand diviseur commun entre eux est 1. Bien que 1 ne soit pas, par convention, un nombre premier, il est coprime de tout entier (tout comme $-1$).
+Un entier $a$ est **premier avec** ou un **co-premier** d'un entier $N$, si le plus grand diviseur commun entre eux est 1. Bien que 1 ne soit pas considéré comme un nombre premier par convention, il est co-premier avec tout entier (tout comme $-1$).
 
-Par exemple, considérons le cas où $a = 18$ et $N = 37$. Il s'agit clairement de coprimes. Le plus grand entier qui se divise à la fois en 18 et 37 est 1. Par contre, considérons le cas où $a = 42$ et $N = 16$. Il est clair qu'il ne s'agit pas de coprimes. Les deux nombres sont divisibles par 2, qui est supérieur à 1.
+Par exemple, considérons le cas où $a = 18$ et $N = 37$. Ces nombres sont clairement co-premiers. Le plus grand entier qui divise à la fois 18 et 37 est 1. En revanche, considérons le cas où $a = 42$ et $N = 16$. Ces nombres ne sont pas co-premiers, car ils sont tous deux divisibles par 2, qui est supérieur à 1.
 
-Nous pouvons maintenant définir l'ordre de $N$ comme suit. Supposons que $N$ soit un entier supérieur à 1. L'**ordre de N** est alors le nombre de tous les coprimes avec $N$ tels que pour chaque coprimes $a$, la condition suivante s'applique : $1 \leq a < N$.
+Nous pouvons maintenant définir l'ordre de $N$ de la manière suivante. Supposons que $N$ est un entier supérieur à 1. L'**ordre de $N$** est alors le nombre de tous les co-premiers avec $N$ tels que pour chaque co-premier $a$, la condition suivante est vérifiée : $1 \leq a < N$.
 
-Par exemple, si $N = 12$, alors 1, 5, 7 et 11 sont les seuls coprimes qui répondent à la condition ci-dessus. Par conséquent, l'ordre de 12 est égal à 4.
+Par exemple, si $N = 12$, alors 1, 5, 7, et 11 sont les seuls co-premiers qui répondent à la condition ci-dessus. Par conséquent, l'ordre de 12 est égal à 4.
 
-Supposons que $N$ soit un nombre premier. Alors tout entier plus petit que $N$ mais supérieur ou égal à 1 est coprime avec lui. Cela inclut tous les éléments de l'ensemble suivant : $\{1,2,3,....,N - 1\}$. Par conséquent, lorsque $N$ est premier, l'ordre de $N$ est $N - 1$. C'est ce qu'affirme la proposition 1, où $\phi(N)$ désigne l'ordre de $N$.
+Supposons maintenant que $N$ soit un nombre premier. Alors, tout entier inférieur à $N$ mais supérieur ou égal à 1 est co-premier avec celui-ci. Cela inclut tous les éléments de l'ensemble suivant : $\{1,2,3,....,N - 1\}$. Par conséquent, lorsque $N$ est premier, l'ordre de $N$ est $N - 1$. Cela est énoncé dans la **Proposition 1**, où $\phi(N)$ désigne l'ordre de $N$.
 
-**Proposition 1**. $\phi(N) = N - 1$ lorsque $N$ est premier
+**Proposition 1**. $\phi(N) = N - 1$ lorsque $N$ est premier.
 
-Supposons que $N$ ne soit pas premier. Vous pouvez alors calculer son ordre en utilisant **la fonction Phi d'Euler**. Si le calcul de l'ordre d'un petit entier est relativement simple, la fonction Phi d'Euler devient particulièrement importante pour les entiers plus grands. La proposition de la fonction Phi d'Euler est énoncée ci-dessous.
+Supposons maintenant que $N$ ne soit pas premier. Vous pouvez alors calculer son ordre en utilisant la **fonction Phi d'Euler**. Bien que calculer l'ordre d'un petit entier soit relativement simple, la fonction Phi d'Euler devient particulièrement importante pour les grands entiers. La proposition de la fonction Phi d'Euler est énoncée ci-dessous.
 
-**Théorème 2**. Soit $N$ égal à $p_1^{e_1} \cdot p_2^{e_2} \cdot \ldots \cdot p_i^{e_i} \cdot \ldots \cdot p_n^{e_n}$, où l'ensemble $\{p_i\}$ est constitué de tous les facteurs premiers distincts de $N$ et chaque $e_i$ indique combien de fois le facteur premier $p_i$ apparaît pour $N$. Dans ce cas,
+**Théorème 2**. Soit $N$ égal à $p_1^{e_1} \cdot p_2^{e_2} \cdot \ldots \cdot p_i^{e_i} \cdot \ldots \cdot p_n^{e_n}$, où l'ensemble $\{p_i\}$ est constitué de tous les facteurs premiers distincts de $N$ et chaque $e_i$ indique combien de fois le facteur premier $p_i$ apparaît pour $N$. Alors,
 
 $$\phi(N) = p_1^{e_1 - 1} \cdot (p_1 - 1) \cdot p_2^{e_2 - 1} \cdot (p_2 - 1) \cdot \ldots \cdot p_n^{e_n - 1} \cdot (p_n - 1)$$
 
-*le *théorème 2** montre qu'une fois que l'on a décomposé tout $N$ non premier en ses facteurs premiers distincts, il est facile de calculer l'ordre de $N$.
+Le **Théorème 2** montre qu'une fois que vous avez décomposé un entier non premier $N$ en ses facteurs premiers distincts, il devient facile de calculer l'ordre de $N$.
 
-Par exemple, supposons que $N = 270$. Il ne s'agit manifestement pas d'un nombre premier. En décomposant $N$ en ses facteurs premiers, on obtient l'expression : $2 \cdot 3^3 \cdot 5$. Selon la fonction Phi d'Euler, l'ordre de $N$ est alors le suivant :
+Par exemple, supposons que $N = 270$. Il est clair que ce n'est pas un nombre premier. Sa décomposition en facteurs premiers donne l'expression suivante : $2 \cdot 3^3 \cdot 5$. Selon la fonction Phi d'Euler, l'ordre de $N$ est alors :
 
-$$\phi(N) = 2^{1 - 1} \cdot (2 - 1) + 3^{3 - 1} \cdot (3 - 1) + 5^{1 - 1} \cdot (5 - 1) = 1 \cdot 1 + 9 \cdot 2 + 1 \cdot 4 = 1 + 18 + 4 = 23$$
+$$\phi(N) = 2^{1 - 1} \cdot (2 - 1) \cdot 3^{3 - 1} \cdot (3 - 1) \cdot 5^{1 - 1} \cdot (5 - 1) = 1 \cdot 1 \cdot 9 \cdot 2 \cdot 1 \cdot 4 = 1 + 18 + 4 = 23$$
 
-Supposons ensuite que $N$ est un produit de deux nombres premiers, $p$ et $q$. *le *théorème 2** ci-dessus indique alors que l'ordre de $N$ est le suivant :
+Supposons maintenant que $N$ soit le produit de deux nombres premiers, $p$ et $q$. Le **Théorème 2** ci-dessus indique alors que l'ordre de $N$ est le suivant :
 
 $$p^{1 - 1} \cdot (p - 1) \cdot q^{1 - 1} \cdot (q - 1) = (p - 1) \cdot (q - 1)$$
 
-Il s'agit d'un résultat clé pour le problème RSA en particulier, qui est énoncé dans la **Proposition 2** ci-dessous.
+C'est un résultat clé pour le problème RSA en particulier, et il est énoncé dans la **Proposition 2** ci-dessous.
 
 **Proposition 2**. Si $N$ est le produit de deux nombres premiers, $p$ et $q$, l'ordre de $N$ est le produit $(p - 1) \cdot (q - 1)$.
 
-Pour illustrer ce propos, supposons que $N = 119$. Cet entier peut être factorisé en deux nombres premiers, à savoir 7 et 17. Par conséquent, la fonction Phi d'Euler suggère que l'ordre de 119 est le suivant :
+Pour illustrer, supposons que $N = 119$. Cet entier peut être factorisé en deux nombres premiers, à savoir 7 et 17. Par conséquent, la fonction Phi d'Euler suggère que l'ordre de 119 est :
 
-$$\phi(119) = (7 - 1) \cdot (17 - 1) = 6 \cdot 16 = 96$$$$
+$$\phi(119) = (7 - 1) \cdot (17 - 1) = 6 \cdot 16 = 96$$
 
-En d'autres termes, l'entier 119 a 96 coprimes dans l'intervalle de 1 à 119. En fait, cet ensemble comprend tous les entiers compris entre 1 et 119 qui ne sont pas des multiples de 7 ou de 17.
+En d'autres termes, l'entier 119 possède 96 co-premiers dans l'intervalle allant de 1 à 119. En fait, cet ensemble comprend tous les entiers de 1 à 119 qui ne sont pas des multiples de 7 ou de 17.
 
-A partir de maintenant, nous désignerons l'ensemble des coprimes qui détermine l'ordre de $N$ par $C_N$. Pour notre exemple où $N = 119$, l'ensemble $C_{119}$ est beaucoup trop grand pour être énuméré complètement. Mais certains de ses éléments sont les suivants :
+Désormais, désignons par $C_N$ l'ensemble des co-premiers qui déterminent l'ordre de $N$. Pour notre exemple où $N = 119$, l'ensemble $C_{119}$ est bien trop grand pour être énuméré complètement. Cependant, certains des éléments sont les suivants :
 
-$$C_{119} = \N{1, 2, \Npoints 6, 8 \Npoints 13, 15, 16, 18, \Npoints 33, 35 \Npoints 96}$$$
+$$C_{119} = \{1, 2, \ldots, 6, 8, \ldots, 13, 15, 16, 18, \ldots, 33, 35, \ldots, 96\}$$
 
-### Invertibilité modulo N
+### Inversibilité modulo N
 
-On peut dire qu'un entier $a$ est **inversible modulo N**, s'il existe au moins un entier $b$ tel que $a \cdot b \mod N = 1 \mod N$. Un tel entier $b$ est appelé **inverse** (ou **inverse multiplicatif**) de $a$ compte tenu de la réduction modulo $N$.
+On dit qu'un entier $a$ est **inversible modulo $N$**, s'il existe au moins un entier $b$ tel que $a \cdot b \mod N = 1 \mod N$. Tout entier $b$ qui satisfait cette condition est appelé un **inverse** (ou **inverse multiplicatif**) de $a$ pour une réduction par modulo $N$.
 
-Supposons, par exemple, que $a = 5$ et $N = 11$. Il existe de nombreux entiers par lesquels on peut multiplier 5, de sorte que $5 \cdot b \mod 11 = 1 \cmod 11$. Considérons, par exemple, les entiers 20 et 31. Il est facile de voir que ces deux entiers sont des inverses de 5 par réduction modulo 11.
+Supposons, par exemple, que $a = 5$ et $N = 11$. Il existe plusieurs entiers par lesquels vous pouvez multiplier 5, de sorte que $5 \cdot b \mod 11 = 1 \mod 11$. Considérons, par exemple, les entiers 20 et 31. Il est facile de vérifier que ces deux entiers sont des inverses de 5 pour une réduction modulo 11.
 
+* $5 \cdot 20 \mod 11 = 100 \mod 11 = 1 \mod 11$
+* $5 \cdot 31 \mod 11 = 155 \mod 11 = 1 \mod 11$
 
-- $5 \cdot 20 \mod 11 = 100 \mod 11 = 1 \mod 11$
-- $5 \cdot 31 \mod 11 = 155 \mod 11 = 1 \mod 11$
+Bien que 5 ait de nombreux inverses en réduction modulo 11, vous pouvez démontrer qu'il n'existe qu'un seul inverse positif de 5 qui soit inférieur à 11. En fait, ce résultat est valable de manière générale.
 
-Alors que 5 a de nombreux inverses de réduction modulo 11, vous pouvez montrer qu'il n'existe qu'un seul inverse positif de 5 qui soit inférieur à 11. En fait, ce n'est pas propre à notre exemple particulier, mais un résultat général.
+**Proposition 3**. Si l'entier $a$ est inversible modulo $N$, il doit exister un seul inverse positif de $a$ inférieur à $N$. (Cet inverse unique de $a$ doit donc appartenir à l'ensemble $\{1, \ldots, N - 1\}$).
 
-**Proposition 3**. Si l'entier $a$ est inversible modulo $N$, il doit y avoir exactement un inverse positif de $a$ inférieur à $N$ (cet unique inverse de $a$ doit donc provenir de l'ensemble $\{1, \dots, N - 1\}$).
+Désignons l'inverse unique de $a$ de la **Proposition 3** par $a^{-1}$. Dans le cas où $a = 5$ et $N = 11$, on constate que $a^{-1} = 9$, puisque $5 \cdot 9 \mod 11 = 45 \mod 11 = 1 \mod 11$.
 
-Désignons l'unique inverse de $a$ de la **Proposition 3** par $a^{-1}$. Dans le cas où $a = 5$ et $N = 11$, on voit que $a^{-1} = 9$, étant donné que $5 \cdot 9 \mod 11 = 45 \mod 11 = 1 \mod 11$.
+Remarquez que vous pouvez également obtenir la valeur 9 pour $a^{-1}$ dans notre exemple en réduisant simplement tout autre inverse de $a$ par modulo 11. Par exemple, $20 \mod 11 = 31 \mod 11 = 9 \mod 11$. Ainsi, chaque fois qu'un entier $a > N$ est inversible modulo $N$, alors $a \mod N$ doit aussi être inversible modulo $N$.
 
-Notez que vous pouvez également obtenir la valeur 9 pour $a^{-1}$ dans notre exemple en réduisant simplement tout autre inverse de $a$ par modulo 11. Par exemple, $20 \mod 11 = 31 \mod 11 = 9 \mod 11$. Ainsi, chaque fois qu'un entier $a > N$ est inversible modulo $N$, alors $a \mod N$ doit aussi être inversible modulo $N$.
+Cependant, il n'est pas toujours garanti qu'un inverse de $a$ existe en réduction modulo $N$. Supposons, par exemple, que $a = 2$ et $N = 8$. Il n'existe aucun $b$, ni même aucun $a^{-1}$, tel que $2 \cdot b \mod 8 = 1 \mod 8$. Cela s'explique par le fait que toute valeur de $b$ produira toujours un multiple de 2, de sorte qu'aucune division par 8 ne pourra jamais donner un reste égal à 1.
 
-Il n'existe pas nécessairement d'inverse de $a$ réduction modulo $N$. Supposons, par exemple, que $a = 2$ et $N = 8$. Il n'existe pas de $b$, ou plus précisément de $a^{-1}$, tel que $2 \cdot b \mod 8 = 1 \mod 8$. En effet, toute valeur de $b$ produira toujours un multiple de 2, de sorte qu'aucune division par 8 ne peut jamais produire un reste égal à 1.
+Comment savoir exactement si un entier $a$ possède un inverse pour un $N$ donné ? Comme vous l'avez peut-être remarqué dans l'exemple ci-dessus, le plus grand diviseur commun entre 2 et 8 est supérieur à 1, à savoir 2. Et cela illustre en fait le résultat général suivant :
 
-Comment savoir si un entier $a$ a un inverse pour un $N$ donné ? Comme vous l'avez peut-être remarqué dans l'exemple ci-dessus, le plus grand diviseur commun entre 2 et 8 est supérieur à 1, à savoir 2. Et ceci illustre en fait le résultat général suivant :
+**Proposition 4**. Un inverse d'un entier $a$ pour une réduction modulo $N$ existe, et spécifiquement un unique inverse positif inférieur à $N$, si et seulement si le plus grand diviseur commun entre $a$ et $N$ est 1 (c'est-à-dire s'ils sont co-premiers).
 
-**Proposition 4**. Il existe un inverse d'un entier $a$ donné par réduction modulo $N$, et en particulier un unique inverse positif inférieur à $N$, si et seulement si le plus grand diviseur commun entre $a$ et $N$ est 1 (c'est-à-dire s'ils sont coprimes).
-
-Dans le cas où $a = 5$ et $N = 11$, nous avons conclu que $a^{-1} = 9$, étant donné que $5 \cdot 9 \mod 11 = 45 \mod 11 = 1 \mod 11$. Il est important de noter que l'inverse est également vrai. Autrement dit, lorsque $a = 9$ et $N = 11$, c'est le cas que $a^{-1} = 5$.
+Dans le cas où $a = 5$ et $N = 11$, nous avons conclu que $a^{-1} = 9$, puisque $5 \cdot 9 \mod 11 = 45 \mod 11 = 1 \mod 11$. Il est important de noter que l'inverse est également vrai. C'est-à-dire que lorsque $a = 9$ et $N = 11$, on a $a^{-1} = 5$.
 
 ### Théorème d'Euler
 
-Avant de passer au problème RSA, nous devons comprendre un autre théorème crucial, à savoir le **théorème d'Euler**. Il énonce ce qui suit :
+Avant de passer au problème RSA, nous devons comprendre un dernier théorème crucial, à savoir le **théorème d'Euler**. Celui-ci énonce ce qui suit :
 
-**Théorème 3**. Supposons que deux entiers $a$ et $N$ soient coprimes. Alors, $a^{\phi(N)} \mod N = 1 \mod N$.
+**Théorème 3**. Supposons que deux entiers $a$ et $N$ sont copremiers. Alors, $a^{\phi(N)} \mod N = 1 \mod N$.
 
-Il s'agit d'un résultat remarquable, mais un peu déroutant au premier abord. Prenons un exemple pour le comprendre.
+Ce résultat est remarquable, mais peut paraître déroutant au premier abord. Prenons un exemple pour mieux le comprendre.
 
-Supposons que $a = 5$ et $N = 7$. Ce sont bien des coprimes comme l'exige le théorème d'Euler. Nous savons que l'ordre de 7 est égal à 6, étant donné que 7 est un nombre premier (voir **Proposition 1**).
+Supposons que $a = 5$ et $N = 7$. Ces deux nombres sont effectivement copremiers, comme l'exige le théorème d'Euler. Nous savons que l'ordre de 7 est égal à 6, étant donné que 7 est un nombre premier (voir **Proposition 1**).
 
-Le théorème d'Euler stipule maintenant que $5^6 \mod 7$ doit être égal à $1 \mod 7$. Les calculs ci-dessous montrent que c'est effectivement le cas.
+Le théorème d'Euler indique maintenant que $5^6 \mod 7$ doit être égal à $1 \mod 7$. Voici les calculs qui montrent que cela est effectivement vrai.
 
+* $5^6 \mod 7 = 15,625 \mod 7 = 1 \mod N$
 
-- $5^6 \mod 7 = 15,625 \mod 7 = 1 \mod N$
+L'entier 7 divise 15 624 un total de 2 233 fois. Par conséquent, le reste de la division de 15 625 par 7 est 1.
 
-L'entier 7 se divise en 15 624 un total de 2 233 fois. Par conséquent, le reste de la division de 16 625 par 7 est 1.
+Ensuite, en utilisant la fonction Phi d'Euler (**Théorème 2**), vous pouvez dériver la **Proposition 5** ci-dessous.
 
-Ensuite, en utilisant la fonction Phi d'Euler, **théorème 2**, vous pouvez dériver **la proposition 5** ci-dessous.
+**Proposition 5**. $\phi(a \cdot b) = \phi(a) \cdot \phi(b)$ pour tous les entiers positifs $a$ et $b$.
 
-**Proposition 5**. \phi(a \cdot b) = \phi(a) \cdot \phi(b)$ pour tout entier positif $a$ et $b$.
+Nous n'allons pas démontrer pourquoi c'est le cas. Il suffit de noter que vous avez déjà vu une preuve de cette proposition par le fait que $\phi(p \cdot q) = \phi(p) \cdot \phi(q) = (p - 1) \cdot (q - 1)$ lorsque $p$ et $q$ sont des nombres premiers, comme énoncé dans la **Proposition 2**.
 
-Nous ne montrerons pas pourquoi c'est le cas. Mais notez simplement que vous avez déjà vu la preuve de cette proposition par le fait que $\phi(p \cdot q) = \phi(p) \cdot \phi(q) = (p - 1) \cdot (q - 1)$ lorsque $p$ et $q$ sont des nombres premiers, comme indiqué dans la **Proposition 2**.
+Le théorème d'Euler, associé à la **Proposition 5**, a des implications importantes. Voyez ce qui se passe, par exemple, dans les expressions ci-dessous, où $a$ et $N$ sont copremiers.
 
-Le théorème d'Euler associé à la **Proposition 5** a des implications importantes. Voyez ce qui se passe, par exemple, dans les expressions ci-dessous, où $a$ et $N$ sont des coprimes.
+* $a^{2 \cdot \phi(N)} \mod N = a^{\phi(N)} \cdot a^{\phi(N)} \mod N = 1 \cdot 1 \mod N = 1 \mod N$
+* $a^{\phi(N) + 1} \mod N = a^{\phi(N)} \cdot a^1 \mod N = 1 \cdot a^1 \mod N = a \mod N$
+* $a^{8 \cdot \phi(N) + 3} \mod N = a^{8 \cdot \phi(N)} \cdot a^3 \mod N = 1 \cdot a^3 \mod N = a^3 \mod N$
 
+Ainsi, la combinaison du théorème d'Euler et de la **Proposition 5** permet de simplifier le calcul d'un certain nombre d'expressions. En général, nous pouvons résumer ce principe par la **Proposition 6**.
 
-- a^{2 \cdot \phi(N)} \mod N = a^{\phi(N)} \cdot a^{\phi(N)} \mod N = 1 \cdot 1 \mod N = 1 \mod N$
-- a^{\phi(N) + 1} \mod N = a^{\phi(N)} \cdot a^1 \mod N = 1 \cdot a^1 \mod N = a \mod N$
-- a^{8 \cdot \phi(N) + 3} \mod N = a^{8 \cdot \phi(N)} \cdot a^3 \mod N = 1 \cdot a^3 \mod N = a^3 \mod N$
+**Proposition 6**. $a^x \mod N = a^{x \mod \phi(N)}$
 
-Ainsi, la combinaison du théorème d'Euler et de la **Proposition 5** nous permet de calculer simplement un certain nombre d'expressions. En général, nous pouvons résumer l'idée comme dans la **Proposition 6**.
+Nous devons maintenant assembler toutes ces connaissances dans une dernière étape délicate.
 
-**Proposition 6**. a^x \mod N = a^{x \mod \phi(N)}$
+Tout comme $N$ possède un ordre $\phi(N)$ qui inclut les éléments de l'ensemble $C_N$, nous savons que l'entier $\phi(N)$ doit lui-même avoir un ordre et un ensemble de copremiers. Appelons $\phi(N) = R$. Il existe donc également une valeur pour $\phi(R)$ et un ensemble de copremiers $C_R$.
 
-Il nous reste maintenant à assembler le tout dans une dernière étape délicate.
+Supposons maintenant que nous sélectionnions un entier $e$ dans l'ensemble $C_R$. Nous savons d'après la **Proposition 3** que cet entier $e$ possède un unique inverse positif inférieur à $R$. C'est-à-dire que $e$ a un seul inverse unique dans l'ensemble $C_R$. Appelons cet inverse $d$. D'après la définition d'un inverse, cela signifie que $e \cdot d = 1 \mod R$.
 
-Tout comme $N$ possède un ordre $\phi(N)$ qui inclut les éléments de l'ensemble $C_N$, nous savons que l'entier $\phi(N)$ doit à son tour posséder un ordre et un ensemble de coprimes. Fixons $\phi(N) = R$. Nous savons alors qu'il existe également une valeur pour $\phi(R)$ et un ensemble de coprimes $C_R$.
+Nous pouvons utiliser ce résultat pour formuler une assertion concernant notre entier d'origine $N$. Cela est résumé dans la **Proposition 7**.
 
-Supposons que nous choisissions maintenant un entier $e$ dans l'ensemble $C_R$. Nous savons d'après la **Proposition 3** que cet entier $e$ n'a qu'un seul inverse positif inférieur à $R$. C'est-à-dire que $e$ a un unique inverse dans l'ensemble $C_R$. Appelons cet inverse $d$. Etant donné la définition d'un inverse, cela signifie que $e \cdot d = 1 \mod R$.
+**Proposition 7**. Supposons que $e \cdot d \mod \phi(N) = 1 \mod \phi(N)$. Alors, pour tout élément $a$ de l'ensemble $C_N$, il doit être vrai que $a^{e \cdot d \mod \phi(N)} = a^{1 \mod \phi(N)} = a \mod N$.
 
-Nous pouvons utiliser ce résultat pour faire une déclaration sur notre entier original $N$. Ceci est résumé dans la **Proposition 7**.
+Nous disposons maintenant de tous les résultats issus de la théorie des nombres nécessaires pour énoncer clairement le problème RSA.
 
-**Proposition 7**. Supposons que $e \cdot d \mod \phi(N) = 1 \mod \phi(N)$. Alors pour tout élément $a$ de l'ensemble $C_N$ il faut que $a^{e \cdot d \mod \phi(N)} = a^{1 \mod \phi(N)} = a \mod N$.
+### Le système cryptographique RSA
 
-Nous disposons maintenant de tous les résultats de la théorie des nombres nécessaires pour énoncer clairement le problème RSA.
+Nous sommes maintenant prêts à énoncer le problème RSA. Supposons que vous créez un ensemble de variables composé de $p$, $q$, $N$, $\phi(N)$, $e$, $d$, et $y$. Appelons cet ensemble $\Pi$. Il est créé comme suit :
 
-## Le système cryptographique RSA
+1. Générez deux nombres premiers aléatoires $p$ et $q$ de taille égale et calculez leur produit $N$.
+2. Calculez l'ordre de $N$, $\phi(N)$, à l'aide du produit suivant : $(p - 1) \cdot (q - 1)$.
+3. Choisissez un $e > 2$ tel qu'il soit plus petit que $\phi(N)$ et copremier avec $\phi(N)$.
+4. Calculez $d$ en définissant $e \cdot d \mod \phi(N) = 1$.
+5. Sélectionnez une valeur aléatoire $y$ qui est inférieure à $N$ et copremière avec $N$.
 
-<chapterId>0253c2f7-b8a4-5d0e-bd60-812ed6b6c7a9</chapterId>
+Le problème RSA consiste à trouver un $x$ tel que $x^e = y$, tout en ne disposant que d'un sous-ensemble d'informations concernant $\Pi$, à savoir les variables $N$, $e$, et $y$. Lorsque $p$ et $q$ sont très grands, généralement de l'ordre de 1024 bits chacun, on considère que le problème RSA est difficile. Vous comprenez maintenant pourquoi c'est le cas, compte tenu de notre discussion précédente.
 
-Nous sommes maintenant prêts à énoncer le problème RSA. Supposons que vous créiez un ensemble de variables composé de $p$, $q$, $N$, $\phi(N)$, $e$, $d$ et $y$. Appelons cet ensemble $\Pi$. Il est créé comme suit :
-
-1. Générer deux nombres premiers aléatoires $p$ et $q$ de même taille et calculer leur produit $N$.
-
-2. Calculer l'ordre de $N$, $\phi(N)$, par le produit suivant : $(p - 1) \cdot (q - 1)$.
-
-3. Choisir un $e > 2$ tel qu'il soit plus petit et coprime à $\phi(N)$.
-
-4. Calculer $d$ en fixant $e \cdot d \mod \phi(N) = 1$.
-
-5. Choisir une valeur aléatoire $y$ qui est plus petite et coprime à $N$.
-
-Le problème RSA consiste à trouver un $x$ tel que $x^e = y$, tout en ne disposant que d'un sous-ensemble d'informations concernant $\Pi$, à savoir les variables $N$, $e$ et $y$. Lorsque $p$ et $q$ sont très grands, typiquement il est recommandé qu'ils aient une taille de 1024 bits, le problème RSA est considéré comme difficile. Vous pouvez maintenant comprendre pourquoi c'est le cas, compte tenu de ce qui précède.
-
-Une façon simple de calculer $x$ lorsque $x^e \mod N = y \mod N$ est de calculer $y^d \mod N$. Nous savons que $y^d \mod N = x \mod N$ par les calculs suivants :
+Une méthode simple pour calculer $x$ lorsque $x^e \mod N = y \mod N$ est de calculer $y^d \mod N$. Nous savons que $y^d \mod N = x \mod N$ par les calculs suivants :
 
 $$ y^d \mod N = x^{e \cdot d} \mod N = x^{e \cdot d \mod \phi(N)} \mod N = x^{1 \mod \phi(N)} \mod N = x \mod N. $$
 
-Le problème est que nous ne connaissons pas la valeur $d$, puisqu'elle n'est pas donnée dans le problème. On ne peut donc pas calculer directement $y^d \mod N$ pour obtenir $x \mod N$.
+Le problème est que nous ne connaissons pas la valeur de $d$, car elle n'est pas donnée dans le problème. Par conséquent, nous ne pouvons pas calculer directement $y^d \mod N$ pour obtenir $x \mod N$.
 
-Nous pourrions cependant être en mesure de calculer indirectement $d$ à partir de l'ordre de $N$, $\phi(N)$, puisque nous savons que $e \cdot d \mod \phi(N) = 1 \mod \phi(N)$. Mais par hypothèse, le problème ne donne pas non plus de valeur pour $\phi(N)$.
+Nous pourrions toutefois, indirectement, calculer $d$ à partir de l'ordre de $N$, $\phi(N)$, car nous savons que $e \cdot d \mod \phi(N) = 1 \mod \phi(N)$. Mais par hypothèse, le problème ne fournit pas non plus de valeur pour $\phi(N)$.
 
-Enfin, l'ordre pourrait être calculé indirectement avec les facteurs premiers $p$ et $q$, de sorte que nous puissions éventuellement calculer $d$. Mais par hypothèse, les valeurs $p$ et $q$ ne nous ont pas non plus été fournies.
+Enfin, l'ordre pourrait être calculé indirectement à partir des facteurs premiers $p$ et $q$, afin que nous puissions finalement calculer $d$. Mais par hypothèse, les valeurs $p$ et $q$ ne sont pas non plus fournies.
 
-Strictement parlant, même si le problème de factorisation à l'intérieur d'un problème RSA est difficile, nous ne pouvons pas prouver que le problème RSA est également difficile. Il peut en effet y avoir d'autres moyens de résoudre le problème RSA que la factorisation. Cependant, il est généralement admis et supposé que si le problème de factorisation à l'intérieur du problème RSA est difficile, le problème RSA lui-même est également difficile.
+En toute rigueur, même si le problème de factorisation dans un problème RSA est difficile, nous ne pouvons pas prouver que le problème RSA lui-même est difficile. Il peut en effet exister d'autres méthodes pour résoudre le problème RSA que par la factorisation. Cependant, il est généralement admis et supposé que si le problème de factorisation dans le problème RSA est difficile, alors le problème RSA lui-même l'est aussi.
 
-Si le problème RSA est effectivement difficile, alors il produit une fonction à sens unique avec une trappe. La fonction est ici $f(g) = g^e \mod N$. En connaissant $f(g)$, n'importe qui pourrait facilement calculer une valeur $y$ pour un $g = x$ particulier. Cependant, il est pratiquement impossible de calculer une valeur particulière $x$ simplement en connaissant la valeur $y$ et la fonction $f(g)$. L'exception est lorsque l'on vous donne un élément d'information $d$, la trappe. Dans ce cas, il suffit de calculer $y^d$ pour obtenir $x$.
+Si le problème RSA est effectivement difficile, alors il produit une fonction à sens unique avec une porte dérobée. La fonction ici est $f(g) = g^e \mod N$. Avec la connaissance de $f(g)$, n'importe qui pourrait facilement calculer une valeur $y$ pour une valeur particulière $g = x$. Cependant, il est pratiquement impossible de calculer une valeur particulière $x$ simplement en connaissant la valeur $y$ et la fonction $f(g)$. L'exception est lorsque vous disposez d'une information $d$, la porte dérobée. Dans ce cas, vous pouvez simplement calculer $y^d$ pour obtenir $x$.
 
-Prenons un exemple spécifique pour illustrer le problème RSA. Je ne peux pas choisir un problème RSA qui serait considéré comme difficile dans les conditions ci-dessus, car les chiffres seraient trop lourds. Cet exemple a pour but d'illustrer le fonctionnement général du problème RSA.
+Voyons un exemple spécifique pour illustrer le problème RSA. Je ne peux pas sélectionner un problème RSA qui serait considéré comme difficile dans les conditions décrites ci-dessus, car les nombres seraient trop volumineux. Cet exemple est donc simplement destiné à illustrer comment fonctionne généralement le problème RSA.
 
-Pour commencer, supposons que vous choisissiez au hasard deux nombres premiers 13 et 31. Donc $p = 13$ et $q = 31$. Le produit $N$ de ces deux nombres premiers est égal à 403. Nous pouvons facilement calculer l'ordre de 403. Il est équivalent à $(13 - 1) \cdot (31 - 1) = 360$.
+Pour commencer, supposons que vous sélectionnez deux nombres premiers aléatoires 13 et 31. Ainsi, $p = 13$ et $q = 31$. Le produit $N$ de ces deux nombres premiers est égal à 403. Nous pouvons facilement calculer l'ordre de 403. Il est équivalent à $(13 - 1) \cdot (31 - 1) = 360$.
 
-Ensuite, comme l'exige l'étape 3 du problème RSA, nous devons choisir un coprime pour 360 qui soit supérieur à 2 et inférieur à 360. Nous ne devons pas choisir cette valeur au hasard. Supposons que nous choisissions 103. Il s'agit d'une coprime de 360 car son plus grand diviseur commun avec 103 est 1.
+Ensuite, comme indiqué à l'étape 3 du problème RSA, nous devons sélectionner un copremier de 360 qui est supérieur à 2 et inférieur à 360. Il n'est pas nécessaire de choisir cette valeur au hasard. Supposons que nous choisissions 103. Il s'agit bien d'un copremier de 360, car leur plus grand diviseur commun est 1.
 
-L'étape 4 exige maintenant que nous calculions une valeur $d$ telle que $103 \cdot d \mod 360 = 1$. Ce n'est pas une tâche facile à la main lorsque la valeur de $N$ est grande. Il faut utiliser une procédure appelée **algorithme d'Euclide étendu**.
+L'étape 4 exige maintenant que nous calculions une valeur $d$ telle que $103 \cdot d \mod 360 = 1$. Ce n'est pas une tâche facile à effectuer à la main lorsque la valeur de $N$ est grande. Cela nécessite d'utiliser une procédure appelée **algorithme d'Euclide étendu**.
 
-Bien que je ne montre pas la procédure ici, elle donne la valeur 7 lorsque $e = 103$. Vous pouvez vérifier que la paire de valeurs 103 et 7 répond bien à la condition générale $e \cdot d \mod \phi(n) = 1$ par les calculs ci-dessous.
+Bien que je ne montre pas ici la procédure, elle donne la valeur 7 lorsque $e = 103$. Vous pouvez vérifier que la paire de valeurs 103 et 7 satisfait bien la condition générale $e \cdot d \mod \phi(n) = 1$ grâce aux calculs suivants :
+
+* $103 \cdot 7 \mod 360 = 721 \mod 360 = 1 \mod 360$
+
+Il est important de noter qu'étant donné la *Proposition 4*, nous savons qu'aucun autre entier compris entre 1 et 360 pour $d$ ne produira le résultat $103 \cdot d = 1 \mod 360$. De plus, la proposition implique que la sélection d'une valeur différente pour $e$ donnera une valeur unique différente pour $d$.
+
+À l'étape 5 du problème RSA, nous devons sélectionner un entier positif $y$ qui est un copremier de 403. Supposons que nous fixions $y = 2^{103}$. L'exponentiation de 2 par 103 donne le résultat suivant :
+
+* $2^{103} \mod 403 = 10,141,204,801,825,835,211,973,625,643,008 \mod 403 = 349 \mod 403$
+
+Le problème RSA dans cet exemple particulier est maintenant le suivant : On vous fournit $N = 403$, $e = 103$ et $y = 349 \mod 403$. Vous devez maintenant calculer $x$ tel que $x^{103} = 349 \mod 403$. Autrement dit, vous devez trouver que la valeur d'origine avant l'exponentiation par 103 était 2.
+
+Il serait facile (pour un ordinateur du moins) de calculer $x$ si nous savions que $d = 7$. Dans ce cas, vous pourriez déterminer $x$ comme suit :
+
+* $x = y^7 \mod 403 = 349^7 \mod 403 = 630,634,881,591,804,949 \mod 403 = 2 \mod 403$
+
+Le problème est que vous n'avez pas reçu l'information que $d = 7$. Vous pourriez bien sûr calculer $d$ à partir du fait que $103 \cdot d = 1 \mod 360$. Le problème est que vous ne disposez pas non plus de l'information que l'ordre de $N = 360$. Enfin, vous pourriez aussi calculer l'ordre de 403 en déterminant le produit : $(p - 1) \cdot (q - 1)$. Mais on ne vous a pas dit que $p = 13$ et $q = 31$.
+
+Bien entendu, un ordinateur pourrait encore résoudre facilement le problème RSA pour cet exemple, car les nombres premiers impliqués ne sont pas grands. Mais lorsque les nombres premiers deviennent très grands, cela devient une tâche pratiquement impossible.
+
+Nous avons maintenant présenté le problème RSA, un ensemble de conditions sous lesquelles il est difficile, ainsi que les mathématiques sous-jacentes. Comment cela aide-t-il concrètement à la cryptographie asymétrique ? Plus précisément, comment pouvons-nous transformer la difficulté du problème RSA dans certaines conditions en un schéma de chiffrement ou un schéma de signature numérique ?
+
+Une approche consiste à prendre le problème RSA et à construire des schémas de manière directe. Par exemple, supposons que vous ayez généré un ensemble de variables $\Pi$ tel que décrit dans le problème RSA, en vous assurant que $p$ et $q$ sont suffisamment grands. Vous définissez votre clé publique comme étant $(N, e)$ et vous partagez cette information avec le monde. Comme décrit ci-dessus, vous conservez les valeurs $p$, $q$, $\phi(n)$ et $d$ secrètes. En fait, $d$ est votre clé privée.
+
+Toute personne qui souhaite vous envoyer un message $m$ qui est un élément de $C_N$ pourrait simplement le chiffrer comme suit : $c = m^e \mod N$. (Le texte chiffré $c$ ici est équivalent à la valeur $y$ dans le problème RSA.) Vous pouvez facilement déchiffrer ce message en calculant simplement $c^d \mod N$.
+
+Vous pourriez essayer de créer un schéma de signature numérique de la même manière. Supposons que vous vouliez envoyer un message $m$ accompagné d'une signature numérique $S$. Vous pourriez simplement définir $S = m^d \mod N$ et envoyer la paire $(m, S)$ au destinataire. N'importe qui peut vérifier la signature numérique en vérifiant si $S^e \mod N = m \mod N$. Tout attaquant, cependant, aurait beaucoup de mal à créer une valeur valide $S$ pour un message donné, puisqu'il ne possède pas $d$.
+
+Malheureusement, transformer un problème intrinsèquement difficile, le problème RSA, en un schéma cryptographique n'est pas aussi simple. Pour le schéma de chiffrement simple décrit ci-dessus, vous ne pouvez sélectionner que des copremiers de $N$ comme messages. Cela ne laisse pas beaucoup de messages possibles, certainement pas assez pour une communication standard. De plus, ces messages doivent être choisis de manière aléatoire, ce qui semble peu pratique. Enfin, tout message sélectionné deux fois produira exactement le même texte chiffré. Ceci est extrêmement indésirable dans tout schéma de chiffrement et ne répond pas aux normes modernes rigoureuses de sécurité en chiffrement.
+
+Les problèmes deviennent encore pires pour notre schéma de signature numérique simplifié. En l'état, tout attaquant peut facilement falsifier des signatures numériques en sélectionnant d'abord un copremier de $N$ comme signature, puis en calculant le message original correspondant. Cela viole clairement l'exigence d'inforgeabilité existentielle.
+
+Cependant, en ajoutant une certaine complexité astucieuse, le problème RSA peut être utilisé pour créer un schéma de chiffrement par clé publique sécurisé ainsi qu'un schéma de signature numérique sécurisé. Nous n'entrerons pas dans les détails de ces constructions ici. [4] Il est important de noter, cependant, que cette complexité supplémentaire ne change pas le problème RSA fondamental sur lequel ces schémas sont basés.
 
 
-- $103 \cdot 7 \mod 360 = 721 \mod 360 = 1 \mod 360$
+**Notes :**
 
-Il est important de noter qu'étant donné la *Proposition 4*, nous savons qu'aucun autre entier compris entre 1 et 360 pour $d$ ne produira le résultat $103 \cdot d = 1 \mod 360$. De plus, la proposition implique qu'en choisissant une valeur différente pour $e$, on obtiendra une valeur unique différente pour $d$.
+[4] Voir par exemple Jonathan Katz et Yehuda Lindell, *Introduction to Modern Cryptography*, CRC Press (Boca Raton, FL : 2015), pp. 410–32 pour le chiffrement RSA et pp. 444–41 pour les signatures numériques RSA.
 
-A l'étape 5 du problème RSA, nous devons choisir un entier positif $y$ qui est un plus petit coprime de 403. Supposons que nous choisissions $y = 2^{103}$. L'exponentiation de 2 par 103 donne le résultat ci-dessous.
-
-
-- $2^{103} \mod 403 = 10,141,204,801,825,835,211,973,625,643,008 \mod 403 = 349 \mod 403$
-
-Le problème RSA dans cet exemple particulier est maintenant le suivant : Vous disposez de $N = 403$, $e = 103$ et $y = 349 \mod 403$. Vous devez maintenant calculer $x$ de telle sorte que $x^{103} = 349 \mod 403$. En d'autres termes, vous devez trouver que la valeur originale avant l'exponentiation par 103 était 2.
-
-Il serait facile (du moins pour un ordinateur) de calculer $x$ si nous savions que $d = 7$. Dans ce cas, il suffirait de déterminer $x$ comme ci-dessous.
-
-
-- x = y^7 \mod 403 = 349^7 \mod 403 = 630,634,881,591,804,949 \mod 403 = 2 \mod 403$
-
-Le problème est que vous n'avez pas été informé que $d = 7$. Vous pourriez bien sûr calculer $d$ à partir du fait que $103 \cdot d = 1 \mod 360$. Le problème est que l'on ne vous a pas non plus indiqué que l'ordre de $N = 360$. Enfin, vous pourriez aussi calculer l'ordre de 403 en calculant le produit suivant : $(p - 1) \cdot (q - 1)$. Mais on ne vous dit pas non plus que $p = 13$ et $q = 31$.
-
-Bien sûr, un ordinateur pourrait encore résoudre le problème RSA pour cet exemple relativement facilement, parce que les nombres premiers impliqués ne sont pas grands. Mais lorsque les nombres premiers deviennent très grands, la tâche devient pratiquement impossible.
-
-Nous avons maintenant présenté le problème RSA, un ensemble de conditions sous lesquelles il est difficile, et les mathématiques sous-jacentes. En quoi cela peut-il être utile pour la cryptographie asymétrique ? Plus précisément, comment pouvons-nous transformer la difficulté du problème RSA sous certaines conditions en un système de chiffrement ou de signature numérique ?
-
-Une approche consiste à prendre le problème RSA et à construire des schémas de manière simple. Par exemple, supposons que vous ayez généré un ensemble de variables $\Pi$ comme décrit dans le problème RSA, et que vous vous assuriez que $p$ et $q$ sont suffisamment grands. Vous définissez votre clé publique comme étant $(N, e)$ et partagez cette information avec le monde entier. Comme décrit ci-dessus, vous gardez secrètes les valeurs de $p$, $q$, $\phi(n)$ et $d$. En fait, $d$ est votre clé privée.
-
-Quiconque souhaite vous envoyer un message $m$ qui est un élément de $C_N$ peut simplement le chiffrer comme suit : $c = m^e \mod N$ (le texte chiffré est ici équivalent à la valeur $y$ dans le problème RSA) : $c = m^e \mod N$. (Le texte chiffré $c$ est ici équivalent à la valeur $y$ dans le problème RSA.) Vous pouvez facilement déchiffrer ce message en calculant simplement $c^d \mod N$.
-
-Vous pouvez tenter de créer un système de signature numérique de la même manière. Supposons que vous souhaitiez envoyer à quelqu'un un message $m$ avec une signature numérique $S$. Vous pourriez simplement définir $S = m^d \mod N$ et envoyer la paire $(m,S)$ au destinataire. N'importe qui peut vérifier la signature numérique en contrôlant simplement si $S^e \mod N = m \mod N$. Cependant, tout attaquant aurait beaucoup de mal à créer une $S$ valide pour un message, étant donné qu'il ne possède pas $d$.
-
-Malheureusement, transformer ce qui est en soi un problème difficile, le problème RSA, en un schéma cryptographique n'est pas aussi simple. Pour le schéma de chiffrement simple, vous ne pouvez sélectionner que des coprimes de $N$ comme messages. Cela ne nous laisse pas beaucoup de messages possibles, certainement pas assez pour une communication standard. En outre, ces messages doivent être choisis au hasard. Cela semble peu pratique. Enfin, tout message sélectionné deux fois produira exactement le même texte chiffré. Cette situation est extrêmement indésirable dans tout système de chiffrement et ne répond à aucune notion moderne et rigoureuse de sécurité en matière de chiffrement.
-
-Les problèmes sont encore plus graves pour notre système de signature numérique simple. Dans l'état actuel des choses, n'importe quel attaquant peut facilement falsifier des signatures numériques en choisissant d'abord un nombre premier de $N$ comme signature, puis en calculant le message original correspondant. Cela rompt clairement avec l'exigence d'infalsifiabilité existentielle.
-
-Néanmoins, en ajoutant un peu de complexité intelligente, le problème RSA peut être utilisé pour créer un système de chiffrement à clé publique sécurisé ainsi qu'un système de signature numérique sécurisé. Nous n'entrerons pas ici dans les détails de ces constructions. [Il est toutefois important de noter que cette complexité supplémentaire ne modifie pas le problème RSA fondamental sur lequel ces systèmes sont basés.
-
-**Notes:**
-
-[4] Voir, par exemple, Jonathan Katz et Yehuda Lindell, _Introduction to Modern Cryptography_, CRC Press (Boca Raton, FL : 2015), pp. 410-32 pour le chiffrement RSA et pp. 444-41 pour les signatures numériques RSA.
 
 # Conclusion
 <partId>e538fb79-bf28-40cd-a5c3-badf864d8567</partId>

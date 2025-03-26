@@ -4,15 +4,16 @@ description: How do you easily launch your own Lightning node?
 ---
 ![cover](assets/cover.webp)
 
-Alby Hub is the latest software from Alby, the company behind the popular Lightning web extension. Alby Hub is an easy-to-use interface for managing Lightning nodes.
+Alby Hub là phần mềm mã nguồn mở mới nhất từ Alby, công ty đứng sau tiện ích mở rộng web Lightning phổ biến. Alby Hub là một ví tự quản lý với nút Lightning dễ sử dụng nhất, có thể truy cập từ bất cứ đâu để tích hợp với hàng chục ứng dụng. Alby Hub là giao diện dễ sử dụng để quản lý các nút Lightning.
 
-In this tutorial, we'll look at different ways of using Alby Hub to manage your own Lightning node, and how to connect it to Alby Go, Alby's mobile app. This will enable you to spend your sats on the move while being autonomous in the management of your node.
+Trong hướng dẫn này, chúng ta sẽ xem xét các cách khác nhau để sử dụng Alby Hub và cách kết nối nó với Alby Go, ứng dụng di động của Alby hoặc tiện ích mở rộng trình duyệt Alby. Điều này sẽ cho phép bạn chi tiêu sats của mình khi di chuyển đồng thời duy trì quyền tự chủ trong quản lý nút của bạn.
+
 
 ![ALBY HUB](assets/fr/01.webp)
 
 ## What is Alby Hub?
 
-In 2024, Alby marked a strategic shift. For years, they've offered a variety of tools associated with Bitcoin and the Lightning Network, including the iconic Alby extension, which allows you to operate a Lightning wallet, custodial or otherwise. However, in 2025, they plan to discontinue their shared custodial wallet service and focus exclusively on self-custody solutions. Alby Hub is set to be the new flagship tool in the Alby ecosystem. This software enables users to easily manage their own Lightning node, while retaining ownership of their keys (self-custody).
+Alby Hub được thiết lập để trở thành công cụ hàng đầu mới trong hệ sinh thái Alby. Phần mềm này cho phép người dùng dễ dàng quản lý ví tự quản lý của riêng họ với một node Lightning tích hợp, đồng thời giữ quyền sở hữu các khóa của họ (tự quản lý).
 
 Alby Hub is a highly adaptable tool. It can meet the needs of both beginners and advanced users. Novices will use it to easily operate a real Lightning node on their own, without having to deal with the underlying complexity. For more experienced users, Alby Hub can be used as a complete interface for advanced management of an existing Lightning node.
 

@@ -4,15 +4,15 @@ description: Kuidas käivitada oma Lightning-sõlme lihtsalt?
 ---
 ![cover](assets/cover.webp)
 
-Alby Hub on populaarse veebipikenduse Lightning taga oleva ettevõtte Alby uusim tarkvara. Alby Hub on lihtne kasutajaliides Lightning-sõlmede haldamiseks.
+Alby Hub on uusim avatud lähtekoodiga tarkvara ettevõttelt Alby, mis on populaarse Lightning veebilaienduse looja. Alby Hub on isehooldatav rahakott, millel on kõige lihtsamini kasutatav Lightning sõlm, millele pääseb ligi kõikjalt, et integreerida kümnete rakendustega. Alby Hub on lihtne kasutajaliides Lightning sõlmede haldamiseks.
 
-Selles õpetuses vaatleme erinevaid võimalusi, kuidas kasutada Alby Hubi oma Lightning-sõlme haldamiseks ja kuidas ühendada see Alby Go, Alby mobiilirakendusega. See võimaldab teil oma sati liikvel olles oma sõlme iseseisvalt hallata.
+Selles juhendis vaatleme erinevaid viise Alby Hubi kasutamiseks ja kuidas ühendada see Alby Go, Alby mobiilirakenduse või Alby brauserilaiendiga. See võimaldab teil kulutada oma satse liikvel olles, säilitades samal ajal oma sõlme haldamise.
 
 ![ALBY HUB](assets/fr/01.webp)
 
 ## Mis on Alby Hub?
 
-Aastal 2024 tähistas Alby strateegilist muutust. Aastaid on nad pakkunud mitmesuguseid vahendeid, mis on seotud Bitcoini ja Lightning Networkiga, sealhulgas ikoonilist Alby laiendust, mis võimaldab teil kasutada Lightningi rahakotti, hoiustatud või muul viisil. Kuid 2025. aastal kavatsevad nad lõpetada oma jagatud hoiustatava rahakoti teenuse ja keskenduda ainult ise hoiustavatele lahendustele. Alby Hubist saab Alby ökosüsteemi uus lipulaev. See tarkvara võimaldab kasutajatel hõlpsasti hallata oma Lightning-sõlme, säilitades samal ajal oma võtmete omandiõiguse (self-custody).
+Alby Hubist saab Alby ökosüsteemi uus lipulaev. See tarkvara võimaldab kasutajatel hõlpsasti hallata oma isehooldatavat rahakotti koos integreeritud Lightning sõlmega, säilitades samas oma võtmete omandiõiguse (iseseisev hoidmine).
 
 Alby Hub on väga kohandatav vahend. See vastab nii algajate kui ka edasijõudnute vajadustele. Algajad kasutavad seda, et hõlpsasti juhtida tõelist Lightning-sõlme iseseisvalt, ilma et nad peaksid tegelema selle aluseks oleva keerukusega. Kogenumate kasutajate jaoks saab Alby Hubi kasutada olemasoleva Lightning-sõlme täiustatud haldamiseks täieliku kasutajaliidesena.
 
@@ -21,12 +21,11 @@ Sõltuvalt teie vajadustest on Alby Hub saadaval 4 konfiguratsioonis:
 
 - Alby Hub Cloud :**
 
-See esimene võimalus on ideaalne algajatele, see on Alby pilvevõimalus. See võimaldab teil võtta Lightning-sõlme kasutusele otse Alby hallatavas serveris, millele pääseb ligi Alby Hubi liidese kaudu. Kuigi Alby haldab serverit, säilitate oma rahaliste vahendite üle suveräänsuse, sest teie võtmed on krüpteeritud ainult teile teadaoleva parooliga. Siiski peavad teie võtmed jääma sõlme tööks lahti krüpteeritud RAM-i, mis teoreetiliselt seab need ohtu, kui keegi pääseb füüsiliselt serverile ligi. See on huvitav kompromiss algajatele, kuid on oluline olla teadlik riskidest.
+Ideaalne algajatele, see esimene võimalus on Alby pilvevõimalus. See võimaldab teil juurutada Hubi otse Alby hallatavale serverile, millele pääseb teie Alby Hubi liidese kaudu. Kuigi Alby haldab serverit, säilitate oma vahendite suveräänsuse, kuna teie võtmed on krüpteeritud parooliga, mida teate ainult teie. Kuid teie võtmed peavad sõlme töötamiseks jääma RAM-is dekrüpteerituks, mis teoreetiliselt seab need ohtu, kui keegi pääseb füüsiliselt serverile ligi. See on algajatele huvitav kompromiss, kuid oluline on olla teadlik riskidest.
 
 Selle võimaluse peamine eelis on see, et saate Lightning-sõlme, mis töötab 24/7, ilma et peaksite ise haldama hostingut. Lisaks on Lightning-sõlme varukoopiad lihtsustatud ja automatiseeritud, võrreldes isehostitud võimalustega, kus peate ise haldama kanali varukoopiaid.
 
-Alby pakub seda teenust 21 000 sati eest kuus (detsembri 2024. aasta hind, mis võib muutuda [vaadake nende hinnakujundust](https://albyhub.com/#pricing)). Tasu arvatakse automaatselt maha teie sõlmpunktist Alby poolt väljastatud Lightning arve kaudu. See toimub NWC-ühenduse kaudu, mis konfigureerib teie sõlme nii, et see maksab automaatselt Alby tellimusega seotud arveid.
-
+Alby Cloud on tasuline teenus [Vaata nende hinnakujundust](https://albyhub.com/#pricing) rohkemate üksikasjade saamiseks. Tasu arvatakse automaatselt teie rahakotist maha Alby väljastatud Lightning arve kaudu. See toimub NWC-ühenduse kaudu, mis konfigureerib teie sõlme nii, et see maksab automaatselt teie tellimusega seotud Alby arveid.
 
 - Alby Hub koos olemasoleva sõlmpunktiga :**
 
@@ -35,7 +34,7 @@ Kui teil on juba olemas sõlme hostimine, näiteks Umbrel või Start9, saab Alby
 
 - Alby Hub kohalik :**
 
-Samuti on võimalik paigaldada Alby Hub ja oma sõlme otse arvutisse, kuigi see võimalus on vähem praktiline, sest arvuti peab Lightning-sõlme kaugjuurdepääsuks olema kogu aeg aktiivne. See alternatiiv võib siiski sobida teie konkreetsete vajaduste jaoks.
+Samuti on võimalik installida Alby Hub otse oma arvutisse, kuigi see valik on vähem praktiline, kuna teie arvuti peab jääma alati aktiivseks, et saada kaugjuurdepääs Lightning sõlmele. Kuid see alternatiiv võib sobida teie konkreetsetele vajadustele.
 
 
 - Alby Hub isiklikul serveril :**
@@ -76,7 +75,7 @@ Klõpsake uuesti "*Jätka*".
 
 ## Pilvehostingu võimalus
 
-Seejärel peate valima kas isehostitava variandi, mille puhul majutate Lightning-sõlme oma riistvaral, või tasulise variandi, mille puhul kasutate Alby pilve. Alustan selgitades, kuidas toimida pilvevariandi puhul (pange tähele, et see on tasuline variant, vt üksikasju eelmises jaotises).
+Seejärel peate valima isemajutatud variandi, kus installite Alby Hubi oma seadmesse, või premium-võimaluste vahel. Alustan selgitamisega, kuidas edasi minna Pro Cloudi valikuga (pange tähele, et see on tasuline võimalus, vaadake üksikasju eelmises osas).
 
 Klõpsake nuppu "*Upgrade*".
 
@@ -94,7 +93,8 @@ Oodake mõned hetked, kuni teie sõlme luuakse.
 
 ![ALBY HUB](assets/fr/12.webp)
 
-Ja see ongi kõik, teie Alby Hub on nüüd seadistatud. Järgmises jaotises näitan teile, kuidas paigaldada Alby Hub olemasolevale sõlmpunktile. Kui teil ei ole seda vaja, võite hüpata järgmise jaotise juurde, et oma sõlme konfigureerida.
+Ja see ongi kõik, teie Alby Hub on nüüd konfigureeritud. Järgmises jaotises näitan, kuidas installida Alby Hub olemasolevale sõlmele. Kui teil pole veel Lightning sõlme, võite minna otse järgmisesse jaotisesse Alby Hubi seadistamiseks Alby Cloudis.
+
 
 ![ALBY HUB](assets/fr/13.webp)
 
@@ -128,7 +128,7 @@ Vajutage nupule "*Alusta*".
 
 Seejärel palub Alby Hub teil valida parool. See parool on väga oluline, sest seda kasutatakse teie rahakoti krüpteerimiseks. Tasulises pilveversioonis salvestatakse teie võtmed Alby serveris, krüpteeritakse selle parooliga, mida teate ainult teie, seejärel dekrüpteeritakse ja salvestatakse ainult RAM-i, et vajadusel tehinguid allkirjastada.
 
-Seetõttu on oluline valida tugev parool. Igaüks, kes seda salasõna kasutab, võib potentsiaalselt saada juurdepääsu teie sõlmpunktile. Tehke kindlasti ka üks või mitu füüsilist varukoopiat sellest paroolist paberile või veel parem, kui see on metalltükil, et suurendada turvalisust. **Kui kaotate selle parooli, on võimatu taastada ligipääsu oma bitcoinidele**, kuna Alby ei saa seda kuidagi taastada. Selle salasõna kaotamine tähendab teie bitcoinide kaotamist.
+Seetõttu on oluline valida tugev parool. Igaüks, kellel on see parool, võib potentsiaalselt saada juurdepääsu teie sõlmele. Veenduge, et teete sellest paroolist ühe või mitu füüsilist varukoopiat paberile või veelgi parem - metallile, et suurendada turvalisust.
 
 Kui olete hoolikalt valinud ja salvestanud oma salasõna, klõpsake "*Loo salasõna*".
 
@@ -138,7 +138,7 @@ Nüüd on teil juurdepääs oma Lightning-sõlmele.
 
 ![ALBY HUB](assets/fr/20.webp)
 
-Esimene toiming, mida tuleb teha, on salvestada oma taastamisfraas, millest teie võtmed on tuletatud. See fraas võimaldab teil taastada juurdepääsu oma onchaini rahakotile ja, koos oma kanalite viimase seisuga, oma satsidele Lightningis. Selleks klõpsake nupule "*Settings*".
+Esimene samm on salvestada oma taastamisfraas, millest teie võtmed on tuletatud. Selleks klõpsake "Seaded". See fraas võimaldab teil taastada juurdepääsu oma rahakotile, kui olete lubanud automaatsed varukoopiad.
 
 ![ALBY HUB](assets/fr/21.webp)
 
@@ -156,22 +156,18 @@ Kui olete fraasi salvestanud, kontrollige ruutu, et kinnitada selle salvestamist
 
 ## Kuidas saan taastada juurdepääsu oma bitcoinidele?
 
-Enne raha saatmist oma sõlmpunkti on oluline mõista, kuidas neid probleemide korral tagasi saada ja milliseid andmeid on selleks vaja. Protsess varieerub sõltuvalt taastatavate vahendite laadist ja teie sõlme hostimisviisist.
+Enne rahaliste vahendite saatmist oma Alby Hubi on oluline mõista, kuidas neid probleemi korral taastada, samuti millist teavet on selleks vaja. Protsess varieerub sõltuvalt taastatavate vahendite olemusest ja teie sõlme majutusviisist.
 
-Tasuliste pilveteenuste kasutajate jaoks on bitcoinide täielikuks taastamiseks vaja kolme olulist elementi:
+Tasuliste pilveteenuste kasutajatele on oma bitcoinide täielik taastamine võimalik ainult kolme olulise elemendi olemasolul:
 
+- Teie taastamisfraas;
+- Juurdepääs teie Alby kontole, et hankida automaatsed varukoopiad.
 
-- Teie taastumisfraas;
-- Teie parool (mida kasutatakse teie sõlme jaoks) ;
-- Juurdepääs oma Alby kontole, et saada teada oma Lightning-kanalite uusim staatus.
+Nende kahe teabe puudumine muudaks teie bitcoinide täieliku taastamise võimatuks.
 
-Nende 3 teabe puudumise korral oleks teie bitcoinide täielik tagasisaamine võimatu.
+Neile, kes kasutavad Alby Hubi oma seadmel, on taastamisprotsess dokumenteeritud [siin](https://guides.getalby.com/user-guide/alby-account-and-browser-extension/alby-hub/backups-and-recover#alby-hub-self-hosted-with-an-alby-account).
 
-Nende puhul, kes majutavad oma sõlme, on taastamisprotsess identne mis tahes Lightning-sõlme taastamisprotsessiga. Teil on vaja :
-
-
-- Teie taastumisfraas;
-- Teie Lightning-kanalite viimane staatus. Selle teabe kaitsmiseks pakub Umbrel [võimalust](https://github.com/getumbrel/umbrel/blob/2b266036f62a1594aa60a8a3be30cfb8656e755f/scripts/backup/README.md) selle krüpteerimiseks ja dünaamiliseks ja anonüümseks salvestamiseks Tor'i kaudu.
+Kui olete installinud Alby Hubi olemasolevale sõlmele, peate järgima selle sõlme operatsioonisüsteemi taastamisprotsessi. Näiteks: Umbrel pakub [võimalust](https://github.com/getumbrel/umbrel/blob/2b266036f62a1594aa60a8a3be30cfb8656e755f/scripts/backup/README.md) krüpteerida teie Lightning-kanalite uusim olek ja salvestada see dünaamiliselt ja anonüümselt Tori kaudu. Pidage meeles, et ainult Alby automaatsed varukoopiad võimaldavad teil oma Hubi täielikult taastada, ilma et peaksite kanaleid sulgema.
 
 ## Osta oma esimene Lightning kanal
 
@@ -255,6 +251,13 @@ Teie uus kanal ilmub nüüd vahekaardile "*Sõlm*".
 
 ![ALBY HUB](assets/fr/42.webp)
 
+## Sõlme haldamine
+
+Teie Lightning kanalite haldamine on lihtsam, kui arvate. Alby Hub võimaldab teil edastada satse teie kulutuste saldo ja on-chain saldo vahel. Nii saate suurendada kulutamise või vastuvõtmise mahtu.
+
+![ALBY HUB](assets/fr/66.webp)
+
+
 ## Ühendage kulurakendus
 
 Nüüd, kui teil on toimiv Lightning-sõlm, saate seda kasutada igapäevaseks sati vastuvõtmiseks ja kulutamiseks. Kuigi Alby Hubi veebiliides on mugav oma sõlme haldamiseks, ei ole see ideaalne kiirete tehingute tegemiseks liikvel olles. Selleks kasutame oma nutitelefoni paigaldatud Lightningi rahakoti rakendust.
@@ -279,15 +282,14 @@ Kui rakendus on käivitunud, klõpsake nupule "*Connect Wallet*".
 
 ![ALBY HUB](assets/fr/46.webp)
 
-Klõpsake oma Alby Hubis vahekaardil "*Connections*" (*ühendused*) nupule "*Add Connection*" (*Lisenda ühendus*).
+Teie Alby Hubis, jaotises App Store, leidke „Alby Go“ ja klõpsake nuppu „Connect“  
+![ALBY HUB](assets/fr/47.webp)  
+Klõpsake nuppu „Connect with One-Tab Connections“. See võimaldab teil oma Alby Hubi ühe klõpsuga ühendada teiste rakendustega, mis kasutavad Alby Go.  
 
-![ALBY HUB](assets/fr/47.webp)
+![ALBY HUB](assets/fr/48.webp)  
 
-Andke sellele ühendusele nimi, et see oleks hõlpsasti tuvastatav teie keskuses, ja valige õigused, mida soovite rakendusele anda. Minu puhul valisin "*Täielik juurdepääs*", et mul oleks nutitelefonist täielik juurdepääs oma Lightning-sõlme rahalistele vahenditele, kuid te võite piirata juurdepääsu ka maksimaalse eelarve alusel, valida lubatud funktsioonid või määrata nende õiguste kehtivusaja. Kui olete seadistanud, klõpsake nuppu "*Järgmine*".
+Seejärel genereerib Alby Hub saladuse, et luua ühendus Alby Go-ga.
 
-![ALBY HUB](assets/fr/48.webp)
-
-Seejärel loob Alby Hub ühenduse loomiseks saladuse.
 
 ![ALBY HUB](assets/fr/49.webp)
 
@@ -299,7 +301,8 @@ Klõpsake nuppu "Lõpeta*".
 
 ![ALBY HUB](assets/fr/51.webp)
 
-Nüüd on teil nutitelefonist kaugjuurdepääs oma Lightning-sõlmele, mis võimaldab teil iga päev liikvel olles hõlpsasti satelliite kulutada ja vastu võtta.
+Nüüd on teil kaugjuurdepääs oma Alby Hubi toitega Lightning sõlmele oma nutitelefonist, mis muudab satide saatmise ja vastuvõtmise liikvel olles iga päev lihtsaks.
+
 
 ![ALBY HUB](assets/fr/52.webp)
 

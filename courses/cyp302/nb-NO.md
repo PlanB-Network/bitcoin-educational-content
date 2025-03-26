@@ -28,7 +28,7 @@ Denne introduksjonen til kryptografi forsøker å finne en mellomting. Selv om d
 
 Denne boken gir en grundig innføring i vitenskapen om og utøvelsen av kryptografi. Der det er mulig, fokuserer den på konseptuell snarere enn formell fremstilling av materialet.
 
-> Dette kurset er basert på [JWBurgers' repo] (https://github.com/JWBurgers/An_Introduction_to_Cryptography). All right til ham. Innholdet er ennå ikke ferdig og er bare her for å vise hvordan vi kan integrere det hvis JWburger er enig.
+> Dette kurset er basert på [JWBurgers' repo](https://github.com/JWBurgers/An_Introduction_to_Cryptography). All right til ham. Innholdet er ennå ikke ferdig og er bare her for å vise hvordan vi kan integrere det hvis JWburger er enig.
 ### Motivasjon og mål
 
 Det er vanskelig å finne mye materiale som tilbyr en god mellomting i kryptografiundervisningen.
@@ -53,7 +53,7 @@ Hvis du virkelig sliter med de formelle detaljene i disse delene av boken, anbef
 
 Den boken som har hatt størst innflytelse på denne, er Jonathan Katz og Yehuda Lindells _Introduction to Modern Cryptography_, CRC Press (Boca Raton, FL), 2015. Et tilhørende kurs er tilgjengelig på Coursera under tittelen "Cryptography"
 
-De viktigste tilleggskildene som har vært nyttige for å skape oversikten i denne boken, er Simon Singh, _The Code Book_, Fourth Estate (London, 1999); Christof Paar og Jan Pelzl, _Understanding Cryptography_, Springer (Heidelberg, 2010) og [et kurs basert på boken til Paar kalt "Introduction to Cryptography"] (https://www.youtube.com/channel/UC1usFRN4LCMcfIV7UjHNuQg); og Bruce Schneier, Applied Cryptography, 2nd edn, 2015 (Indianapolis, IN: John Wiley & Sons).
+De viktigste tilleggskildene som har vært nyttige for å skape oversikten i denne boken, er Simon Singh, _The Code Book_, Fourth Estate (London, 1999); Christof Paar og Jan Pelzl, _Understanding Cryptography_, Springer (Heidelberg, 2010) og [et kurs basert på boken til Paar kalt "Introduction to Cryptography"](https://www.youtube.com/channel/UC1usFRN4LCMcfIV7UjHNuQg); og Bruce Schneier, Applied Cryptography, 2nd edn, 2015 (Indianapolis, IN: John Wiley & Sons).
 
 Jeg vil bare sitere helt spesifikk informasjon og resultater jeg har hentet fra disse kildene, men jeg vil gjerne anerkjenne min generelle gjeld til dem her.
 
@@ -61,7 +61,7 @@ For de leserne som ønsker å oppsøke mer avansert kunnskap om kryptografi ette
 
 ### Bidrag
 
-Ta en titt på [bidragsfilen i depotet] (https://github.com/JWBurgers/An_Introduction_to_Cryptography/blob/master/Contributions.md) for å finne noen retningslinjer for hvordan du kan støtte prosjektet.
+Ta en titt på [bidragsfilen i depotet](https://github.com/JWBurgers/An_Introduction_to_Cryptography/blob/master/Contributions.md) for å finne noen retningslinjer for hvordan du kan støtte prosjektet.
 
 ### Notasjon
 
@@ -110,7 +110,7 @@ Morris forsøkte å dekryptere de tre krypteringstekstene i tjue år. Med nøkke
 
 På slutten av sitt liv ga Morriss boksen videre til en venn i 1862. Denne vennen publiserte deretter en pamflett i 1885, under pseudonymet J.B. Ward. Den inneholdt en beskrivelse av boksens (påståtte) historie, de tre chiffertekstene og en løsning som han hadde funnet for den andre chifferteksten. (Tilsynelatende er det én nøkkel for hver chiffertekst, og ikke én nøkkel som fungerer på alle tre chiffertekstene, slik Beale opprinnelig ser ut til å ha antydet i brevet til Morriss)
 
-Du kan se den andre krypteringsteksten i *Figur 2* nedenfor. [Nøkkelen til denne krypteringsteksten er USAs uavhengighetserklæring. Dekrypteringsprosedyren går ut på å bruke følgende to regler:
+Du kan se den andre krypteringsteksten i *Figur 2* nedenfor. Nøkkelen til denne krypteringsteksten er USAs uavhengighetserklæring. Dekrypteringsprosedyren går ut på å bruke følgende to regler:
 
 
 - Finn det n-te ordet i USAs uavhengighetserklæring for et hvilket som helst tall n i krypteringsteksten
@@ -126,7 +126,7 @@ Etter dekryptering gir den andre meldingen en detaljert beskrivelse av skattens 
 
 **Noter:**
 
-[1] For en god oppsummering av historien, se Simon Singh, *The Code Book*, Fourth Estate (London, 1999), s. 82-99. Andrew Allen laget en kortfilm av historien i 2010. Du finner filmen, "The Thomas Beale Cipher", [på nettsiden] (http://www.thomasbealecipher.com/).
+[1] For en god oppsummering av historien, se Simon Singh, *The Code Book*, Fourth Estate (London, 1999), s. 82-99. Andrew Allen laget en kortfilm av historien i 2010. Du finner filmen, "The Thomas Beale Cipher", [på nettsiden](http://www.thomasbealecipher.com/).
 
 [2] Dette bildet er tilgjengelig på Wikipedia-siden for Beale-chiffrene.
 
@@ -136,7 +136,7 @@ Etter dekryptering gir den andre meldingen en detaljert beskrivelse av skattens 
 
 Fargerike historier som den om Beale-chiffrene er det de fleste av oss forbinder med kryptografi. Moderne kryptografi skiller seg imidlertid fra denne typen historiske eksempler på minst fire viktige måter.
 
-For det første har kryptografi historisk sett kun vært opptatt av **hemmelighet** (eller konfidensialitet). [Krypteringstekster ble laget for å sikre at bare visse parter kunne få tilgang til informasjonen i klartekstene, som i tilfellet med Beale-kryptering. For at et krypteringsopplegg skal tjene dette formålet på en god måte, bør det bare være mulig å dekryptere chifferteksten hvis du har nøkkelen.
+For det første har kryptografi historisk sett kun vært opptatt av **hemmelighet** (eller konfidensialitet). Krypteringstekster ble laget for å sikre at bare visse parter kunne få tilgang til informasjonen i klartekstene, som i tilfellet med Beale-kryptering. For at et krypteringsopplegg skal tjene dette formålet på en god måte, bør det bare være mulig å dekryptere chifferteksten hvis du har nøkkelen.
 
 Moderne kryptografi er opptatt av et bredere spekter av temaer enn bare hemmeligholdelse. Disse temaene omfatter først og fremst (1) **meldingsintegritet** - det vil si å sikre at en melding ikke har blitt endret; (2) **meldingsautentisitet** - det vil si å sikre at en melding virkelig kommer fra en bestemt avsender; og (3) **uavviselighet** - det vil si å sikre at en avsender ikke senere kan nekte for at hun har sendt en melding. [4]
 
@@ -200,7 +200,7 @@ Derfor er ideen om å holde kommunikasjonen hemmelig ved å beskytte kommunikasj
 
 **Noter:**
 
-[7] Se for eksempel Olga Khazan, "The creepy, long-standing practice of undersea cable tapping", *The Atlantic*, 16. juli 2013 (tilgjengelig på [The Atlantic] (https://www.theatlantic.com/international/archive/2013/07/the-creepy-long-standing-practice-of-undersea-cable-tapping/277855/)).
+[7] Se for eksempel Olga Khazan, "The creepy, long-standing practice of undersea cable tapping", *The Atlantic*, 16. juli 2013 (tilgjengelig på [The Atlantic](https://www.theatlantic.com/international/archive/2013/07/the-creepy-long-standing-practice-of-undersea-cable-tapping/277855/)).
 
 # Kryptografiens matematiske grunnlag 1
 
@@ -923,7 +923,7 @@ Men hvis du er en praktisk anlagt person, lurer du kanskje på dette punktet: Hv
 
 Uten å gå for mye i detalj, er svaret "ja". Grupper ble først skapt på 1800-tallet av den franske matematikeren Evariste Galois. Han brukte dem til å trekke konklusjoner om løsning av polynomlikninger av en grad høyere enn fem.
 
-Siden den gang har gruppebegrepet bidratt til å kaste lys over en rekke problemer i blant annet matematikken. På grunnlag av gruppeteori kunne for eksempel fysikeren Murray-Gellman forutsi eksistensen av en partikkel før den faktisk ble observert i eksperimenter [3]. [Et annet eksempel er kjemikere som bruker gruppeteori til å klassifisere molekylers form. Matematikere har til og med brukt gruppebegrepet til å trekke konklusjoner om noe så konkret som veggpapir!
+Siden den gang har gruppebegrepet bidratt til å kaste lys over en rekke problemer i blant annet matematikken. På grunnlag av gruppeteori kunne for eksempel fysikeren Murray-Gellman forutsi eksistensen av en partikkel før den faktisk ble observert i eksperimenter [3]. Et annet eksempel er kjemikere som bruker gruppeteori til å klassifisere molekylers form. Matematikere har til og med brukt gruppebegrepet til å trekke konklusjoner om noe så konkret som veggpapir!
 
 Å vise at en mengde elementer med en eller annen operator er en gruppe, betyr at det du beskriver har en bestemt symmetri. Ikke en symmetri i vanlig forstand, men i en mer abstrakt form. Og dette kan gi betydelig innsikt i spesielle systemer og problemer. De mer komplekse begrepene fra abstrakt algebra gir oss bare tilleggsinformasjon.
 
@@ -935,9 +935,9 @@ For videre diskusjon om moderne tallteori kan du konsultere mange avanserte disk
 
 **Noter:**
 
-[3] Se [YouTube-video] (https://www.youtube.com/watch?v=NOMUnMuxDZY&feature=youtu.be)
+[3] Se [YouTube-video](https://www.youtube.com/watch?v=NOMUnMuxDZY&feature=youtu.be)
 
-[4] Socratica, [Abstrakt algebra] (https://www.socratica.com/subject/abstract-algebra)
+[4] Socratica, [Abstrakt algebra](https://www.socratica.com/subject/abstract-algebra)
 
 [5] Katz og Lindell, *Introduction to Modern Cryptography*, 2. utgave, 2015 (CRC Press: Boca Raton, FL). Paar og Pelzl, *Understanding Cryptography*, 2010 (Springer-Verlag: Berlin).
 
@@ -1067,7 +1067,7 @@ Ideen om at sikkerheten til et symmetrisk krypteringssystem bare kan baseres på
 
 Slik Kerckhoffs opprinnelig tenkte seg, gjelder prinsippet bare for symmetriske krypteringssystemer. En mer generell versjon av prinsippet gjelder imidlertid også for alle andre moderne typer kryptografiske systemer: Det må ikke kreves at et kryptografisk system må være hemmelig for at det skal være sikkert; hemmeligholdet kan bare omfatte noen strenger med informasjon, typisk en privat nøkkel.
 
-Kerckhoffs prinsipp er sentralt i moderne kryptografi av fire grunner. [For det første finnes det bare et begrenset antall kryptografiske ordninger for bestemte typer applikasjoner. For eksempel bruker de fleste moderne symmetriske krypteringsapplikasjoner Rijndael-krypteringen. Så hemmeligholdet ditt når det gjelder utformingen av et skjema er svært begrenset. Det er imidlertid mye mer fleksibelt å holde en privat nøkkel for Rijndael-krypteringen hemmelig.
+Kerckhoffs prinsipp er sentralt i moderne kryptografi av fire grunner. For det første finnes det bare et begrenset antall kryptografiske ordninger for bestemte typer applikasjoner. For eksempel bruker de fleste moderne symmetriske krypteringsapplikasjoner Rijndael-krypteringen. Så hemmeligholdet ditt når det gjelder utformingen av et skjema er svært begrenset. Det er imidlertid mye mer fleksibelt å holde en privat nøkkel for Rijndael-krypteringen hemmelig.
 
 For det andre er det lettere å bytte ut en streng med informasjon enn et helt kryptografisk system. Anta at alle de ansatte i en bedrift har den samme krypteringsprogramvaren, og at to og to ansatte har hver sin private nøkkel for å kommunisere konfidensielt. I dette scenariet er det vanskelig å kompromittere nøkler, men selskapet kan i det minste beholde programvaren med slike sikkerhetsbrudd. Hvis selskapet var avhengig av at ordningen var hemmelig, ville ethvert brudd på denne hemmeligheten kreve at all programvaren ble byttet ut.
 
@@ -1900,11 +1900,11 @@ En hashfunksjon $H$ sies å være **kollisjonsresistent** hvis det er umulig å 
 
 Kollisjonsresistente hash-funksjoner er viktige, for eksempel ved verifisering av programvare. Anta at du ønsker å laste ned Windows-versjonen av Bitcoin Core 0.21.0 (en serverapplikasjon for behandling av Bitcoin-nettverkstrafikk). De viktigste stegene du må ta for å verifisere programvarens legitimitet, er som følger:
 
-1.	Du må først laste ned og importere de offentlige nøklene til en eller flere bidragsytere til Bitcoin Core til programvare som kan verifisere digitale signaturer (f.eks. Kleopetra). Du finner disse offentlige nøklene [her] (https://github.com/bitcoin/bitcoin/blob/master/contrib/builder-keys/keys.txt). Det anbefales at du verifiserer Bitcoin Core-programvaren med de offentlige nøklene fra flere bidragsytere.
+1.	Du må først laste ned og importere de offentlige nøklene til en eller flere bidragsytere til Bitcoin Core til programvare som kan verifisere digitale signaturer (f.eks. Kleopetra). Du finner disse offentlige nøklene [her](https://github.com/bitcoin/bitcoin/blob/master/contrib/builder-keys/keys.txt). Det anbefales at du verifiserer Bitcoin Core-programvaren med de offentlige nøklene fra flere bidragsytere.
 
 2.	Deretter må du verifisere de offentlige nøklene du har importert. Du bør i det minste kontrollere at de offentlige nøklene du har funnet, er de samme som er publisert på andre steder. Du kan for eksempel sjekke de personlige nettsidene, Twitter-sidene eller Github-sidene til personene du har importert de offentlige nøklene til. Vanligvis gjøres denne sammenligningen av offentlige nøkler ved å sammenligne en kort hash av den offentlige nøkkelen, et såkalt fingeravtrykk.
 
-3.	Deretter må du laste ned den kjørbare filen for Bitcoin Core fra deres [nettsted] (www.bitcoincore.org). Det vil være pakker tilgjengelig for Linux-, Windows- og MAC-operativsystemer.
+3.	Deretter må du laste ned den kjørbare filen for Bitcoin Core fra deres [nettsted](www.bitcoincore.org). Det vil være pakker tilgjengelig for Linux-, Windows- og MAC-operativsystemer.
 
 4.	Deretter må du finne to utgivelsesfiler. Den første inneholder den offisielle SHA-256-hashingen for den kjørbare filen du lastet ned, sammen med hashene for alle de andre pakkene som ble utgitt. En annen utgivelsesfil vil inneholde signaturene fra ulike bidragsytere over utgivelsesfilen med pakkehashene. Begge disse utgivelsesfilene skal finnes på Bitcoin Core-nettstedet.
 
@@ -2037,7 +2037,7 @@ $$ \frac{2^{1024}}{\ln(2^{1024})} - \frac{2^{1023}}{\ln(2^{1023})} $$
 
 ...som tilsvarer omtrent $1,265 \times 10^{305}$.
 
-[Det samme gjelder for diskrete logaritmeproblemer. Derfor fungerer asymmetriske konstruksjoner med mye større nøkler enn symmetriske kryptografiske konstruksjoner.
+Det samme gjelder for diskrete logaritmeproblemer. Derfor fungerer asymmetriske konstruksjoner med mye større nøkler enn symmetriske kryptografiske konstruksjoner.
 
 ## Tallteoretiske resultater
 

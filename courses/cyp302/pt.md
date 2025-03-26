@@ -291,7 +291,7 @@ Na expressão "variável aleatória", o termo "aleatório" significa apenas "pro
 
 Uma **variável uniforme** é um caso especial de uma variável aleatória. Pode assumir dois ou mais valores, todos com a mesma probabilidade. A variável aleatória $X$ representada na *Figura 1* é claramente uma variável uniforme, uma vez que ambos os resultados possíveis ocorrem com uma probabilidade de $0,5$. Existem, no entanto, muitas variáveis aleatórias que não são instâncias de variáveis uniformes.
 
-Considere, por exemplo, a variável aleatória $Y$. Tem um conjunto de resultados $\{1, 2, 3, 8, 10}$ e a seguinte distribuição de probabilidade:
+Considere, por exemplo, a variável aleatória $Y$. Tem um conjunto de resultados ${1, 2, 3, 8, 10}$ e a seguinte distribuição de probabilidade:
 
 $$
 \Pr[Y = 1] = 0.25
@@ -423,7 +423,6 @@ A variável $x$ é designada por dividendo e a variável $y$ por divisor. Para e
 
 Por exemplo, considere a expressão $25 \mod 4$. O número 4 entra no número 25 um total de 6 vezes. O resto dessa divisão é 1. Portanto, $25 \mod 4$ é igual a 1. De maneira semelhante, podemos avaliar as expressões abaixo:
 
-
 - $29 \mod 30 = 29$ (porque 30 entra em 29 um total de 0 vezes e o resto é 29)
 - $42 \mod 2 = 0$ (porque 2 entra em 42 um total de 21 vezes e o resto é 0)
 - $12 \mod 5 = 2$ (porque 5 entra em 12 um total de 2 vezes e o resto é 2)
@@ -433,12 +432,10 @@ Quando o dividendo ou divisor é negativo, as operações de módulo podem ser t
 
 De certeza que vai encontrar casos com um dividendo negativo na criptografia. Nestes casos, a abordagem típica é a seguinte:
 
-
 - Primeiro, determine o valor mais próximo *inferior ou igual* ao dividendo no qual o divisor se divide com um resto de zero. Chamemos a esse valor $p$.
 - Se o dividendo for $x$, então o resultado da operação de módulo é o valor de $x - p$.
 
 Por exemplo, suponha que o dividendo é $-20$ e o divisor 3. O valor mais próximo inferior ou igual a $-20$ em que 3 se divide uniformemente é $-21$. O valor de $x - p$ neste caso é $-20 - (-21)$. Este valor é igual a 1 e, portanto, $-20 \mod 3$ é igual a 1. De forma semelhante, podemos calcular as expressões abaixo:
-
 
 - $-8 \mod 5 = 2$
 - $-19 \mod 16 = 13$
@@ -455,7 +452,6 @@ O ramo da matemática que envolve operações de módulo em números e expressõ
 A operação de módulo é frequentemente utilizada em criptografia. Para ilustrar, consideremos um dos mais famosos esquemas históricos de encriptação: a cifra de deslocamento.
 
 Comecemos por defini-lo. Suponhamos um dicionário *D* que equaciona todas as letras do alfabeto inglês, por ordem, com o conjunto de números $\{0, 1, 2, \ldots, 25\}$. Suponha-se um espaço de mensagem **M**. A **cifra de deslocamento** é, então, um esquema de encriptação definido da seguinte forma:
-
 
 - Selecionar uniformemente uma chave $k$ do espaço de chaves **K**, em que **K** = $\{0, 1, 2, \ldots, 25\}$ [1]
 - Encriptar uma mensagem $m \in \mathbf{M}$, da seguinte forma:
@@ -475,7 +471,6 @@ O operador de módulo na cifra de deslocamento assegura que as letras se envolve
 Suponha que selecionou uniformemente uma chave para ter o valor de 17. A letra "O" equivale a 15. Sem a operação de módulo, a adição deste número de texto simples com a chave resultaria num número de texto cifrado de 32. No entanto, esse número de texto cifrado não pode ser transformado numa letra de texto cifrado, uma vez que o alfabeto inglês só tem 26 letras. A operação de módulo garante que o número do texto cifrado é efetivamente 6 (o resultado de $32 \mod 26$), o que equivale à letra de texto cifrado "G".
 
 A encriptação completa da palavra "DOG" com um valor de chave de 17 é a seguinte:
-
 
 - Mensagem = DOG = D,O,G = 3,15,6
 - $c_0 = [(3 + 17) \mod 26] = [(20) \mod 26] = 20 = U$
@@ -509,14 +504,12 @@ Por exemplo, suponhamos que escreveu uma mensagem de correio eletrónico na sua 
 
 Uma operação matemática fundamental a compreender para a criptografia moderna, para além da operação de módulo, é a operação **XOR**, ou operação "exclusive or". Esta operação recebe como entrada dois bits e produz como saída outro bit. A operação XOR será simplesmente designada por "XOR". A operação produz 0 se os dois bits forem iguais e 1 se os dois bits forem diferentes. Pode ver as quatro possibilidades abaixo. O símbolo $\oplus$ representa "XOR" :
 
-
 - $0 \oplus 0 = 0$
 - $0 \oplus 1 = 1$
 - $1 \oplus 0 = 1$
 - $1 \oplus 1 = 0$
 
 Para ilustrar, suponha que tem uma mensagem $m_1$ (01111001) e uma mensagem $m_2$ (01011001). A operação XOR destas duas mensagens pode ser vista abaixo.
-
 
 - $m_1 \oplus m_2 = 01111001 \oplus 01011001 = 00100000$
 
@@ -774,7 +767,7 @@ Um campo é derivado da noção de grupo. Especificamente, um **campo** é um co
 
 1. O conjunto **S** equipado com $\circ$ é um grupo abeliano.
 
-2. O conjunto **S** equipado com $\diamante$ é um grupo abeliano para os elementos "não nulos".
+2. O conjunto **S** equipado com $\diamond$ é um grupo abeliano para os elementos "não nulos".
 
 3. O conjunto **S** equipado com os dois operadores satisfaz o que é conhecido como a condição distributiva: Suponhamos que $a$, $b$ e $c$ são elementos de **S**. Então **S** equipado com os dois operadores satisfaz a propriedade distributiva quando $a \circ (b \diamond c) = (a \circ b) \diamond (a \circ c)$.
 
@@ -1233,7 +1226,7 @@ Esta construção é muito mais segura do que o modo de livro de códigos eletr�
 
 Por outras palavras, o seu vetor de inicialização deve ser um nonce aleatório ou pseudo-aleatório, onde um **nonce** significa "um número que só é usado uma vez" Se mantiver esta prática, então o modo CBC com uma cifra de bloco garante que quaisquer dois blocos de texto simples idênticos serão geralmente encriptados de forma diferente de cada vez.
 
-Por fim, vamos debruçar-nos sobre o modo de feedback de saída** (modo **OFB**). Pode ver uma representação deste modo na *Figura 7*.
+Por fim, vamos debruçar-nos sobre o **modo de feedback de saída** (modo **OFB**). Pode ver uma representação deste modo na *Figura 7*.
 
 *Figura 7: Uma cifra de bloco com modo OFB*
 
@@ -1448,29 +1441,19 @@ Continuamos com este processo até produzirmos a linha final na parte inferior d
 
 *Quadro 1: Quadro de programação de chaves*
 
-| Rodada | i | j | | S[0] | S[1] | S[2] | S[3] | S[4] | S[5] | S[6] | S[7] |
-
+| Round   | i   | j   |     | S[0] | S[1] | S[2] | S[3] | S[4] | S[5] | S[6] | S[7] |
 | ------- | --- | --- | --- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+|         |     |     |     |      |      |      |      |      |      |      |      |
+| Initial |     | 0   |     | 0    | 1    | 2    | 3    | 4    | 5    | 6    | 7    |
+| 1       | 0   | 6   |     | 6    | 1    | 2    | 3    | 4    | 5    | 0    | 7    |
+| 2       | 1   | 7   |     | 6    | 7    | 2    | 3    | 4    | 5    | 0    | 1    |
+| 3       | 2   | 2   |     | 6    | 7    | 2    | 3    | 4    | 5    | 0    | 1    |
+| 4       | 3   | 3   |     | 6    | 7    | 2    | 3    | 4    | 5    | 0    | 1    |
+| 5       | 4   | 3   |     | 6    | 7    | 2    | 0    | 3    | 5    | 4    | 1    |
+| 6       | 5   | 6   |     | 6    | 4    | 2    | 0    | 3    | 7    | 5    | 1    |
+| 7       | 6   | 1   |     | 6    | 4    | 2    | 0    | 3    | 7    | 5    | 2    |
+| 8       | 7   | 2   |     | 6    | 4    | 1    | 0    | 3    | 7    | 5    | 2    |
 
-| | | | | | | | | | | | |
-
-| Inicial | | | 0 | | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
-
-| 1 | 0 | 6 | | 6 | 1 | 2 | 3 | 4 | 5 | 0 | 7 |
-
-| 2 | 1 | 7 | | 6 | 7 | 2 | 3 | 4 | 5 | 0 | 1 |
-
-| 3 | 2 | 2 | | 6 | 7 | 2 | 3 | 4 | 5 | 0 | 1 |
-
-| 4 | 3 | 3 | | 6 | 7 | 2 | 3 | 4 | 5 | 0 | 1 |
-
-| 5 | 4 | 3 | | 6 | 7 | 2 | 0 | 3 | 5 | 4 | 1 |
-
-| 6 | 5 | 6 | | 6 | 4 | 2 | 0 | 3 | 7 | 5 | 1 |
-
-| 7 | 6 | 1 | | 6 | 4 | 2 | 0 | 3 | 7 | 5 | 2 |
-
-| 8 | 7 | 2 | | 6 | 4 | 1 | 0 | 3 | 7 | 5 | 2 |
 
 ### Passo 4
 
@@ -1499,23 +1482,18 @@ O que aconteceria se a palavra a encriptar fosse maior do que a matriz **S**? Ne
 
 *Quadro 2: Geração de fluxos principais*
 
-| i | j | t | Keystream | S[0] | S[1] | S[2] | S[3] | S[4] | S[5] | S[6] | S[7] |
 
+| i   | j   | t   | Keystream | S[0] | S[1] | S[2] | S[3] | S[4] | S[5] | S[6] | S[7] |
 | --- | --- | --- | --------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+|     |     |     |           |      |      |      |      |      |      |      |      |
+|     | 0   |     |           | 6    | 4    | 1    | 0    | 3    | 7    | 5    | 2    |
+| 1   | 4   | 7   | 2         | 6    | 3    | 1    | 0    | 4    | 7    | 5    | 2    |
+| 2   | 5   | 0   | 6         | 6    | 3    | 7    | 0    | 4    | 1    | 5    | 2    |
+| 3   | 5   | 1   | 3         | 6    | 3    | 7    | 1    | 4    | 0    | 5    | 2    |
+| 4   | 1   | 7   | 2         | 6    | 4    | 7    | 1    | 3    | 0    | 5    | 2    |
 
-| | | | | | | | | | | | |
 
-| | 0 | | | 6 | 4 | 1 | 0 | 3 | 7 | 5 | 2 |
-
-| 1 | 4 | 7 | 2 | 6 | 3 | 1 | 0 | 4 | 7 | 5 | 2 |
-
-| 2 | 5 | 0 | 6 | 6 | 3 | 7 | 0 | 4 | 1 | 5 | 2 |
-
-| 3 | 5 | 1 | 3 | 6 | 3 | 7 | 1 | 4 | 0 | 5 | 2 |
-
-| 4 | 1 | 7 | 2 | 6 | 4 | 7 | 1 | 3 | 0 | 5 | 2 |
-
-O exemplo que acabámos de discutir é apenas uma versão diluída do **RC4 stream cipher**. A verdadeira cifra de fluxo RC4 tem uma matriz **S** de 256 bytes de comprimento, não 8 bytes, e uma chave que pode ter entre 1 e 256 bytes, não entre 1 e 8 bytes. O array de chaves e os keystreams são então todos produzidos considerando o comprimento de 256 bytes do array **S**. Os cálculos tornam-se imensamente mais complexos, mas os princípios permanecem os mesmos. Usando a mesma chave, [14,48,9], com a cifra RC4 padrão, a mensagem de texto simples "SOUP" é encriptada como 67 02 ed df em formato hexadecimal.
+O exemplo que acabámos de discutir é apenas uma versão diluída do **RC4 stream cipher**. A verdadeira cifra de fluxo RC4 tem uma matriz **S** de 256 bytes de comprimento, não 8 bytes, e uma chave que pode ter entre 1 e 256 bytes, não entre 1 e 8 bytes. O array de chaves e os keystreams são então todos produzidos considerando o comprimento de 256 bytes do array **S**. Os cálculos tornam-se imensamente mais complexos, mas os princípios permanecem os mesmos. Usando a mesma chave, 14,48,9, com a cifra RC4 padrão, a mensagem de texto simples "SOUP" é encriptada como 67 02 ed df em formato hexadecimal.
 
 Uma cifra de fluxo em que o fluxo de chaves é atualizado independentemente da mensagem de texto simples ou do texto cifrado é uma **cifra de fluxo síncrona**. O keystream depende apenas da chave. Claramente, o RC4 é um exemplo de uma cifra de fluxo síncrono, uma vez que o fluxo de chaves não tem qualquer relação com o texto simples ou o texto cifrado. Todas as nossas cifras de fluxo primitivas mencionadas no capítulo anterior, incluindo a cifra de deslocamento, a cifra de Vigenère e o bloco de tempo único, eram também da variedade síncrona.
 
@@ -1589,41 +1567,26 @@ Segundo, a operação de **substituição de bytes** é executada no estado atua
 
 *Figura 3: S-Box* do Rijndael
 
-| 00 | 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 0A | 0B | 0C | 0D | 0E | 0F |
 
+|     | 00  | 01  | 02  | 03  | 04  | 05  | 06  | 07  | 08  | 09  | 0A  | 0B  | 0C  | 0D  | 0E  | 0F  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 00  | 63  | 7C  | 77  | 7B  | F2  | 6B  | 6F  | C5  | 30  | 01  | 67  | 2B  | FE  | D7  | AB  | 76  |
+| 10  | CA  | 82  | C9  | 7D  | FA  | 59  | 47  | F0  | AD  | D4  | A2  | AF  | 9C  | A4  | 72  | C0  |
+| 20  | B7  | FD  | 93  | 26  | 36  | 3F  | F7  | CC  | 34  | A5  | E5  | F1  | 71  | D8  | 31  | 15  |
+| 30  | 04  | C7  | 23  | C3  | 18  | 96  | 05  | 9A  | 07  | 12  | 80  | E2  | EB  | 27  | B2  | 75  |
+| 40  | 09  | 83  | 2C  | 1A  | 1B  | 6E  | 5A  | A0  | 52  | 3B  | D6  | B3  | 29  | E3  | 2F  | 84  |
+| 50  | 53  | D1  | 00  | ED  | 20  | FC  | B1  | 5B  | 6A  | CB  | BE  | 39  | 4A  | 4C  | 58  | CF  |
+| 60  | D0  | EF  | AA  | FB  | 43  | 4D  | 33  | 85  | 45  | F9  | 02  | 7F  | 50  | 3C  | 9F  | A8  |
+| 70  | 51  | A3  | 40  | 8F  | 92  | 9D  | 38  | F5  | BC  | B6  | DA  | 21  | 10  | FF  | F3  | D2  |
+| 80  | CD  | 0C  | 13  | EC  | 5F  | 97  | 44  | 17  | C4  | A7  | 7E  | 3D  | 64  | 5D  | 19  | 73  |
+| 90  | 60  | 81  | 4F  | DC  | 22  | 2A  | 90  | 88  | 46  | EE  | B8  | 14  | DE  | 5E  | 0B  | DB  |
+| A0  | E0  | 32  | 3A  | 0A  | 49  | 06  | 24  | 5C  | C2  | D3  | AC  | 62  | 91  | 95  | E4  | 79  |
+| B0  | E7  | C8  | 37  | 6D  | 8D  | D5  | 4E  | A9  | 6C  | 56  | F4  | EA  | 65  | 7A  | AE  | 08  |
+| C0  | BA  | 78  | 25  | 2E  | 1C  | A6  | B4  | C6  | E8  | DD  | 74  | 1F  | 4B  | BD  | 8B  | 8A  |
+| D0  | 70  | 3E  | B5  | 66  | 48  | 03  | F6  | 0E  | 61  | 35  | 57  | B9  | 86  | C1  | 1D  | 9E  |
+| E0  | E1  | F8  | 98  | 11  | 69  | D9  | 8E  | 94  | 9B  | 1E  | 87  | E9  | CE  | 55  | 28  | DF  |
+| F0  | 8C  | A1  | 89  | 0D  | BF  | E6  | 42  | 68  | 41  | 99  | 2D  | 0F  | B0  | 54  | BB  | 16  |
 
-| 00 | 63 | 7C | 77 | 7B | F2 | 6B | 6F | C5 | 30 | 01 | 67 | 2B | FE | D7 | AB | 76 |
-
-| 10 | CA | 82 | C9 | 7D | FA | 59 | 47 | F0 | AD | D4 | A2 | AF | 9C | A4 | 72 | C0 |
-
-| 20 | B7 | FD | 93 | 26 | 36 | 3F | F7 | CC | 34 | A5 | E5 | F1 | 71 | D8 | 31 | 15 |
-
-| 30 | 04 | C7 | 23 | C3 | 18 | 96 | 05 | 9A | 07 | 12 | 80 | E2 | EB | 27 | B2 | 75 |
-
-| 40 | 09 | 83 | 2C | 1A | 1B | 6E | 5A | A0 | 52 | 3B | D6 | B3 | 29 | E3 | 2F | 84 |
-
-| 50 | 53 | D1 | 00 | ED | 20 | FC | B1 | 5B | 6A | CB | BE | 39 | 4A | 4C | 58 | CF |
-
-| 60 | D0 | EF | AA | FB | 43 | 4D | 33 | 85 | 45 | F9 | 02 | 7F | 50 | 3C | 9F | A8 |
-
-| 70 | 51 | A3 | 40 | 8F | 92 | 9D | 38 | F5 | BC | B6 | DA | 21 | 10 | FF | F3 | D2 |
-
-| 80 | CD | 0C | 13 | EC | 5F | 97 | 44 | 17 | C4 | A7 | 7E | 3D | 64 | 5D | 19 | 73 |
-
-| 90 | 60 | 81 | 4F | DC | 22 | 2A | 90 | 88 | 46 | EE | B8 | 14 | DE | 5E | 0B | DB |
-
-| A0 | E0 | 32 | 3A | 0A | 49 | 06 | 24 | 5C | C2 | D3 | AC | 62 | 91 | 95 | E4 | 79 |
-
-| B0 | E7 | C8 | 37 | 6D | 8D | D5 | 4E | A9 | 6C | 56 | F4 | EA | 65 | 7A | AE | 08 |
-
-| C0 | BA | 78 | 25 | 2E | 1C | A6 | B4 | C6 | E8 | DD | 74 | 1F | 4B | BD | 8B | 8A |
-
-| D0 | 70 | 3E | B5 | 66 | 48 | 03 | F6 | 0E | 61 | 35 | 57 | B9 | 86 | C1 | 1D | 9E |
-
-| E0 | E1 | F8 | 98 | 11 | 69 | D9 | 8E | 94 | 9B | 1E | 87 | E9 | CE | 55 | 28 | DF |
-
-| F0 | 8C | A1 | 89 | 0D | BF | E6 | 42 | 68 | 41 | 99 | 2D | 0F | B0 | 54 | BB | 16 |
 
 Esta S-Box é um dos locais onde a álgebra abstrata entra em jogo na cifra Rijndael, especificamente os **campos de Galois**.
 
@@ -1637,39 +1600,31 @@ Uma vez construída a matriz de **S**, as quatro linhas são deslocadas. A prime
 
 *Figura 4: Operação de deslocação de linhas*
 
-| F1 | A0 | B1 | 23 |
 
+| F1   | A0   | B1   | 23   |
 |------|------|------|------|
+| 59   | EF   | 09   | 82   |
+| 97   | 01   | B0   | CC   |
+| D4   | 72   | 04   | 21   |
 
-| 59 | EF | 09 | 82 |
-
-| 97 | 01 | B0 | CC |
-
-| D4 | 72 | 04 | 21 |
-
-| F1 | A0 | B1 | 23 |
-
+| F1   | A0   | B1   | 23   |
 |------|------|------|------|
+| EF   | 09   | 82   | 59   |
+| B0   | CC   | 97   | 01   |
+| 21   | D4   | 72   | 04   |
 
-| EF | 09 | 82 | 59 |
-
-| B0 | CC | 97 | 01 |
-
-| 21 | D4 | 72 | 04 |
 
 No quarto passo, os **campos de Galois** voltam a aparecer. Para começar, cada coluna da matriz **S** é multiplicada pela coluna da matriz 4 x 4 vista na *Figura 5*. Mas em vez de ser uma multiplicação matricial normal, é uma multiplicação vetorial **módulo de um polinómio irredutível**, $x^8 + x^4 + x^3 + x + 1$. Os coeficientes do vetor resultante representam os bits individuais de um byte.
 
 *Figura 5: Matriz de colunas mistas*
 
-| 02 | 03 | 01 | 01 |
 
+| 02   | 03   | 01   | 01   |
 |------|------|------|------|
+| 01   | 02   | 03   | 01   |
+| 01   | 01   | 02   | 03   |
+| 03   | 01   | 01   | 02   |
 
-| 01 | 02 | 03 | 01 |
-
-| 01 | 01 | 02 | 03 |
-
-| 03 | 01 | 01 | 02 |
 
 A multiplicação da primeira coluna da matriz **S** com a matriz 4 x 4 acima produz o resultado na *Figura 6*.
 
@@ -1773,6 +1728,7 @@ Na década de 1970, os problemas de distribuição e gestão de chaves tinham at
 Pelo menos uma das principais motivações para o seu empreendimento foi a previsão de que as comunicações abertas por computador iriam afetar profundamente o nosso mundo. Como referem Diffie e Helmann em 1976,
 
 > O desenvolvimento de redes de comunicação controladas por computador promete um contacto sem esforço e pouco dispendioso entre pessoas ou computadores em lados opostos do mundo, substituindo a maior parte do correio e muitas excursões por telecomunicações. Para muitas aplicações, estes contactos devem ser seguros, tanto contra a escuta como contra a injeção de mensagens ilegítimas. Atualmente, porém, a solução dos problemas de segurança está muito atrasada em relação a outros domínios da tecnologia das comunicações. *A criptografia contemporânea não é capaz de satisfazer os requisitos, na medida em que a sua utilização imporia inconvenientes tão graves aos utilizadores do sistema que eliminaria muitos dos benefícios do teleprocessamento.* [1]
+
 A tenacidade de Diffie, Hellman e Merkle deu frutos. A primeira publicação dos seus resultados foi um artigo de Diffie e Helmann em 1976 intitulado "New Diretions in Cryptography" Nele, apresentaram duas formas originais de resolver os problemas de distribuição de chaves e de gestão de chaves.
 
 A primeira solução que propuseram foi um *protocolo de troca de chaves* remoto, ou seja, um conjunto de regras para a troca de uma ou mais chaves simétricas através de um canal de comunicação inseguro. Este protocolo é atualmente conhecido como *Diffie-Helmann key exchange* ou *Diffie-Helmann-Merkle key exchange*. [2]

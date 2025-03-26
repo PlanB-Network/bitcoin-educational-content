@@ -110,7 +110,7 @@ Morris intentó descifrar los tres textos cifrados durante veinte años. Esto ha
 
 Al final de su vida, Morriss cedió la caja a un amigo en 1862. Este amigo publicó posteriormente un panfleto en 1885, bajo el seudónimo de J.B. Ward. Incluía una descripción de la (supuesta) historia de la caja, los tres textos cifrados y una solución que había encontrado para el segundo texto cifrado. (Aparentemente, hay una clave para cada texto cifrado, y no una clave que funcione con los tres textos cifrados, como Beale parece haber sugerido originalmente en su carta a Morriss)
 
-Puedes ver el segundo texto cifrado en la *Figura 2* de abajo. [La clave de este texto cifrado es la Declaración de Independencia de los Estados Unidos. El procedimiento de descifrado se reduce a la aplicación de las dos reglas siguientes:
+Puedes ver el segundo texto cifrado en la *Figura 2* de abajo. La clave de este texto cifrado es la Declaración de Independencia de los Estados Unidos. El procedimiento de descifrado se reduce a la aplicación de las dos reglas siguientes:
 
 
 - Para cualquier número n en el texto cifrado, localice la enésima palabra en la Declaración de Independencia de los Estados Unidos
@@ -136,7 +136,7 @@ Una vez descifrado, el segundo mensaje proporciona el contenido detallado del te
 
 Historias pintorescas como la de los cifradores Beale son las que la mayoría de nosotros asociamos con la criptografía. Sin embargo, la criptografía moderna difiere al menos en cuatro aspectos importantes de este tipo de ejemplos históricos.
 
-En primer lugar, históricamente la criptografía sólo se ha ocupado del **secreto** (o confidencialidad). [Los textos cifrados se creaban para garantizar que sólo determinadas partes pudieran conocer la información de los textos sin cifrar, como en el caso de los cifrados Beale. Para que un sistema de cifrado cumpla bien este propósito, sólo se puede descifrar el texto cifrado si se tiene la clave.
+En primer lugar, históricamente la criptografía sólo se ha ocupado del **secreto** (o confidencialidad). Los textos cifrados se creaban para garantizar que sólo determinadas partes pudieran conocer la información de los textos sin cifrar, como en el caso de los cifrados Beale. Para que un sistema de cifrado cumpla bien este propósito, sólo se puede descifrar el texto cifrado si se tiene la clave.
 
 La criptografía moderna se ocupa de una gama de temas más amplia que el secreto. Estos temas incluyen principalmente (1) **la integridad del mensaje**, es decir, garantizar que un mensaje no ha sido modificado; (2) **la autenticidad del mensaje**, es decir, garantizar que un mensaje procede realmente de un remitente concreto; y (3) **el no repudio**, es decir, garantizar que un remitente no puede negar falsamente más tarde que ha enviado un mensaje. [4]
 
@@ -164,7 +164,7 @@ En concreto, la criptografía moderna se centra en **pruebas formales de segurid
 
 En cuarto lugar, mientras que históricamente la criptografía se utilizaba sobre todo en entornos militares, en la era digital ha llegado a impregnar nuestras actividades cotidianas. La criptografía es la condición sine qua non de nuestra era digital, ya sea para realizar operaciones bancarias en línea, publicar en las redes sociales, comprar un producto en Amazon con tarjeta de crédito o dar una propina en bitcoin a un amigo.
 
-Teniendo en cuenta estos cuatro aspectos de la criptografía moderna, podríamos caracterizar la **criptografía** moderna como la ciencia que se ocupa del desarrollo formal y el análisis de esquemas criptográficos para asegurar la información digital contra ataques adversarios[6]. [La seguridad debe entenderse en sentido amplio como la prevención de ataques que dañan el secreto, la integridad, la autenticación y/o el no repudio en las comunicaciones.
+Teniendo en cuenta estos cuatro aspectos de la criptografía moderna, podríamos caracterizar la **criptografía** moderna como la ciencia que se ocupa del desarrollo formal y el análisis de esquemas criptográficos para asegurar la información digital contra ataques adversarios[6]. La seguridad debe entenderse en sentido amplio como la prevención de ataques que dañan el secreto, la integridad, la autenticación y/o el no repudio en las comunicaciones.
 
 La criptografía se considera una subdisciplina de la **ciberseguridad**, que se ocupa de prevenir el robo, el daño y el uso indebido de los sistemas informáticos. Hay que tener en cuenta que muchos problemas de ciberseguridad están poco o nada relacionados con la criptografía.
 
@@ -174,7 +174,7 @@ Por ejemplo, los ataques de suplantación de identidad (phishing)** son un probl
 
 **Notas:**
 
-[Para ser exactos, las aplicaciones importantes de los esquemas criptográficos han estado relacionadas con el secreto. Los niños, por ejemplo, suelen utilizar esquemas criptográficos sencillos para "divertirse". El secreto no es realmente una preocupación en esos casos.
+Para ser exactos, las aplicaciones importantes de los esquemas criptográficos han estado relacionadas con el secreto. Los niños, por ejemplo, suelen utilizar esquemas criptográficos sencillos para "divertirse". El secreto no es realmente una preocupación en esos casos.
 
 [4] Bruce Schneier, *Applied Cryptography*, 2ª edn, 2015 (Indianápolis, IN: John Wiley & Sons), p. 2.
 
@@ -925,7 +925,7 @@ Pero si eres una persona con inclinaciones prácticas, puede que en este punto t
 
 Sin entrar en demasiados detalles, la respuesta es "sí". Los grupos fueron creados por primera vez en el siglo XIX por el matemático francés Evariste Galois. Los utilizó para sacar conclusiones sobre la resolución de ecuaciones polinómicas de grado superior a cinco.
 
-Desde entonces, el concepto de grupo ha contribuido a arrojar luz sobre numerosos problemas matemáticos y de otros ámbitos. Basándose en ellos, por ejemplo, el físico Murray-Gellman pudo predecir la existencia de una partícula antes de que se observara realmente en experimentos[3]. [Otro ejemplo: los químicos utilizan la teoría de grupos para clasificar las formas de las moléculas. Los matemáticos incluso han utilizado el concepto de grupo para sacar conclusiones sobre algo tan concreto como el papel pintado
+Desde entonces, el concepto de grupo ha contribuido a arrojar luz sobre numerosos problemas matemáticos y de otros ámbitos. Basándose en ellos, por ejemplo, el físico Murray-Gellman pudo predecir la existencia de una partícula antes de que se observara realmente en experimentos[3]. Otro ejemplo: los químicos utilizan la teoría de grupos para clasificar las formas de las moléculas. Los matemáticos incluso han utilizado el concepto de grupo para sacar conclusiones sobre algo tan concreto como el papel pintado
 
 Esencialmente, demostrar que un conjunto de elementos con algún operador es un grupo, significa que lo que estás describiendo tiene una simetría particular. No una simetría en el sentido común de la palabra, sino en una forma más abstracta. Y esto puede aportar información sustancial sobre sistemas y problemas concretos. Las nociones más complejas del álgebra abstracta sólo nos dan información adicional.
 
@@ -1069,7 +1069,7 @@ La idea de que la seguridad de un esquema de cifrado simétrico sólo puede basa
 
 Tal como lo concibió Kerckhoffs, este principio sólo se aplica a los sistemas de cifrado simétricos. Sin embargo, una versión más general del principio se aplica también a todos los demás tipos de esquemas criptográficos actuales: No se debe exigir que el diseño de cualquier esquema criptográfico sea secreto para que sea seguro; el secreto sólo puede extenderse a algunas cadenas de información, normalmente una clave privada.
 
-El principio de Kerckhoffs es fundamental para la criptografía moderna por cuatro razones. [En primer lugar, sólo existe un número limitado de esquemas criptográficos para determinados tipos de aplicaciones. Por ejemplo, la mayoría de las aplicaciones modernas de cifrado simétrico utilizan el cifrado Rijndael. Por tanto, el secreto sobre el diseño de un esquema es muy limitado. Sin embargo, hay mucha más flexibilidad en mantener en secreto alguna clave privada para el cifrado Rijndael.
+El principio de Kerckhoffs es fundamental para la criptografía moderna por cuatro razones. En primer lugar, sólo existe un número limitado de esquemas criptográficos para determinados tipos de aplicaciones. Por ejemplo, la mayoría de las aplicaciones modernas de cifrado simétrico utilizan el cifrado Rijndael. Por tanto, el secreto sobre el diseño de un esquema es muy limitado. Sin embargo, hay mucha más flexibilidad en mantener en secreto alguna clave privada para el cifrado Rijndael.
 
 En segundo lugar, es más fácil sustituir una cadena de información que todo un esquema criptográfico. Supongamos que todos los empleados de una empresa disponen del mismo software de cifrado y que cada dos empleados tienen una clave privada para comunicarse confidencialmente. En este escenario, las claves comprometidas son una molestia, pero al menos la empresa podría conservar el software con tales fallos de seguridad. Si la empresa confiara en el secreto del esquema, cualquier violación de ese secreto exigiría sustituir todo el software.
 
@@ -1761,7 +1761,7 @@ La segunda forma que Diffie y Helmann ofrecieron para abordar el problema de la 
 
 En contraste con su presentación del intercambio de claves Diffie-Hellman, sólo proporcionaron los contornos generales de cómo podrían construirse esquemas criptográficos asimétricos. No ofrecían ninguna función unidireccional que pudiera cumplir específicamente las condiciones necesarias para una seguridad razonable en dichos esquemas.
 
-Sin embargo, un año más tarde, tres criptógrafos y matemáticos académicos encontraron una aplicación práctica de un esquema asimétrico: Ronald Rivest, Adi Shamir y Leonard Adleman [3]. [El criptosistema que introdujeron se conoció como el **criptosistema RSA** (por sus apellidos).
+Sin embargo, un año más tarde, tres criptógrafos y matemáticos académicos encontraron una aplicación práctica de un esquema asimétrico: Ronald Rivest, Adi Shamir y Leonard Adleman [3]. El criptosistema que introdujeron se conoció como el **criptosistema RSA** (por sus apellidos).
 
 Las funciones de trampilla utilizadas en la criptografía asimétrica (y en el intercambio de claves Diffie Helmann) están relacionadas con dos **problemas informáticos** principales: la factorización de números primos y el cálculo de logaritmos discretos.
 
@@ -1775,7 +1775,7 @@ A continuación, pasaremos a una visión general de alto nivel del secreto y la 
 
 Ahora parece verosímil que un grupo de criptógrafos y matemáticos británicos que trabajaban para el Cuartel General de Comunicaciones del Gobierno (GCHQ) hubiera realizado de forma independiente los descubrimientos mencionados unos años antes. Este grupo estaba formado por James Ellis, Clifford Cocks y Malcolm Williamson.
 
-Según sus propios relatos y los del GCHQ, fue James Ellis quien ideó por primera vez el concepto de criptografía de clave pública en 1969. Supuestamente, Clifford Cocks descubrió después el sistema criptográfico RSA en 1973, y Malcolm Williamson el concepto de intercambio de claves Diffie Helmann en 1974[4]. [Sin embargo, sus descubrimientos no se revelaron hasta 1997, dada la naturaleza secreta del trabajo realizado en el GCHQ.
+Según sus propios relatos y los del GCHQ, fue James Ellis quien ideó por primera vez el concepto de criptografía de clave pública en 1969. Supuestamente, Clifford Cocks descubrió después el sistema criptográfico RSA en 1973, y Malcolm Williamson el concepto de intercambio de claves Diffie Helmann en 1974[4]. Sin embargo, sus descubrimientos no se revelaron hasta 1997, dada la naturaleza secreta del trabajo realizado en el GCHQ.
 
 **Notas:**
 
@@ -2243,7 +2243,7 @@ Desgraciadamente, convertir lo que de por sí es un problema difícil, el proble
 
 Los problemas se agravan aún más para nuestro sencillo esquema de firma digital. Tal y como está, cualquier atacante puede falsificar fácilmente firmas digitales simplemente seleccionando primero un coprimo de $N$ como firma y calculando después el mensaje original correspondiente. Esto incumple claramente el requisito de infalsificabilidad existencial.
 
-No obstante, añadiendo un poco de complejidad inteligente, el problema RSA puede utilizarse para crear un esquema seguro de cifrado de clave pública, así como un esquema seguro de firma digital. No entraremos aquí en los detalles de tales construcciones. [Sin embargo, es importante destacar que esta complejidad adicional no cambia el problema fundamental subyacente de RSA en el que se basan estos esquemas.
+No obstante, añadiendo un poco de complejidad inteligente, el problema RSA puede utilizarse para crear un esquema seguro de cifrado de clave pública, así como un esquema seguro de firma digital. No entraremos aquí en los detalles de tales construcciones. Sin embargo, es importante destacar que esta complejidad adicional no cambia el problema fundamental subyacente de RSA en el que se basan estos esquemas.
 
 **Notas:**
 

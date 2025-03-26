@@ -53,7 +53,7 @@ Wenn Sie sich mit den formalen Details in diesen Teilen des Buches wirklich schw
 
 Das einflussreichste Buch bei der Entwicklung dieses Themas war Jonathan Katz und Yehuda Lindell's _Introduction to Modern Cryptography_, CRC Press (Boca Raton, FL), 2015. Ein begleitender Kurs mit dem Titel "Kryptografie" ist auf Coursera verfügbar
 
-Die wichtigsten zusätzlichen Quellen, die bei der Erstellung des Überblicks in diesem Buch hilfreich waren, sind Simon Singh, _The Code Book_, Fourth Estate (London, 1999); Christof Paar und Jan Pelzl, _Understanding Cryptography_, Springer (Heidelberg, 2010) und [ein auf dem Buch von Paar basierender Kurs namens "Introduction to Cryptography"] (https://www.youtube.com/channel/UC1usFRN4LCMcfIV7UjHNuQg); und Bruce Schneier, Applied Cryptography, 2nd edn, 2015 (Indianapolis, IN: John Wiley & Sons).
+Die wichtigsten zusätzlichen Quellen, die bei der Erstellung des Überblicks in diesem Buch hilfreich waren, sind Simon Singh, _The Code Book_, Fourth Estate (London, 1999); Christof Paar und Jan Pelzl, _Understanding Cryptography_, Springer (Heidelberg, 2010) und [ein auf dem Buch von Paar basierender Kurs namens "Introduction to Cryptography"](https://www.youtube.com/channel/UC1usFRN4LCMcfIV7UjHNuQg); und Bruce Schneier, Applied Cryptography, 2nd edn, 2015 (Indianapolis, IN: John Wiley & Sons).
 
 Ich werde nur ganz bestimmte Informationen und Ergebnisse zitieren, die ich aus diesen Quellen entnommen habe, möchte aber an dieser Stelle meine allgemeine Dankbarkeit gegenüber diesen Quellen zum Ausdruck bringen.
 
@@ -61,7 +61,7 @@ Denjenigen Lesern, die nach dieser Einführung fortgeschrittenere Kenntnisse üb
 
 ### Beiträge
 
-Bitte werfen Sie einen Blick auf [die Beitragsdatei im Repository] (https://github.com/JWBurgers/An_Introduction_to_Cryptography/blob/master/Contributions.md) für einige Richtlinien, wie Sie das Projekt unterstützen können.
+Bitte werfen Sie einen Blick auf [die Beitragsdatei im Repository](https://github.com/JWBurgers/An_Introduction_to_Cryptography/blob/master/Contributions.md) für einige Richtlinien, wie Sie das Projekt unterstützen können.
 
 ### Notation
 
@@ -126,7 +126,7 @@ Nach der Entschlüsselung liefert die zweite Nachricht den genauen Inhalt des Sc
 
 **Anmerkungen:**
 
-[1] Für eine gute Zusammenfassung der Geschichte siehe Simon Singh, *The Code Book*, Fourth Estate (London, 1999), S. 82-99. Ein kurzer Film über die Geschichte wurde 2010 von Andrew Allen gedreht. Sie finden den Film, "The Thomas Beale Cipher", [auf seiner Website] (http://www.thomasbealecipher.com/).
+[1] Für eine gute Zusammenfassung der Geschichte siehe Simon Singh, *The Code Book*, Fourth Estate (London, 1999), S. 82-99. Ein kurzer Film über die Geschichte wurde 2010 von Andrew Allen gedreht. Sie finden den Film, "The Thomas Beale Cipher", [auf seiner Website](http://www.thomasbealecipher.com/).
 
 [2] Dieses Bild ist auf der Wikipedia-Seite für die Beale-Chiffren verfügbar.
 
@@ -200,7 +200,7 @@ Daher ist die Idee, Kommunikation durch den Schutz des Kommunikationskanals gehe
 
 **Anmerkungen:**
 
-[7] Siehe z. B. Olga Khazan, "The creepy, long-standing practice of undersea cable tapping", *The Atlantic*, 16. Juli 2013 (abrufbar unter [The Atlantic] (https://www.theatlantic.com/international/archive/2013/07/the-creepy-long-standing-practice-of-undersea-cable-tapping/277855/)).
+[7] Siehe z. B. Olga Khazan, "The creepy, long-standing practice of undersea cable tapping", *The Atlantic*, 16. Juli 2013 (abrufbar unter [The Atlantic](https://www.theatlantic.com/international/archive/2013/07/the-creepy-long-standing-practice-of-undersea-cable-tapping/277855/)).
 
 # Mathematische Grundlagen der Kryptographie 1
 

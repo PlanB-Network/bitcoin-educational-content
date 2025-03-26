@@ -237,7 +237,7 @@ $$
 Pr[X = 2] = 0.5
 $$
 
-Sangat mudah untuk melihat bahwa $X$ adalah variabel acak. Pertama, ada dua atau lebih kemungkinan nilai yang dapat diambil oleh $X$, yaitu $1 dan $2. Kedua, setiap nilai yang mungkin memiliki probabilitas positif untuk muncul setiap kali Anda mengambil sampel $X$, yaitu $0,5$.
+Sangat mudah untuk melihat bahwa $X$ adalah variabel acak. Pertama, ada dua atau lebih kemungkinan nilai yang dapat diambil oleh $X$, yaitu $1$ dan $2$. Kedua, setiap nilai yang mungkin memiliki probabilitas positif untuk muncul setiap kali Anda mengambil sampel $X$, yaitu $0,5$.
 
 Yang dibutuhkan oleh variabel acak adalah kumpulan hasil dengan dua atau lebih kemungkinan, di mana setiap kemungkinan memiliki probabilitas positif untuk terjadi pada saat pengambilan sampel. Pada prinsipnya, variabel acak dapat didefinisikan secara abstrak, tanpa konteks apa pun. Dalam hal ini, Anda dapat menganggap "pengambilan sampel" sebagai menjalankan eksperimen alami untuk menentukan nilai variabel acak.
 
@@ -252,7 +252,7 @@ Namun, sering kali, variabel acak tidak hanya diperkenalkan secara abstrak. Seba
 Sekarang mari kita lihat sebuah contoh variabel $X$ yang tidak didefinisikan secara abstrak. X didefinisikan sebagai berikut untuk menentukan tim mana dari dua tim yang memulai pertandingan sepak bola:
 
 
-- $X $ memiliki set hasil {merah dimulai, biru dimulai}
+- $X$ memiliki set hasil {merah dimulai, biru dimulai}
 - Lempar koin tertentu $C$: ekor = "merah akan keluar"; kepala = "biru akan keluar"
 
 $$
@@ -291,7 +291,7 @@ Dalam ungkapan "variabel acak", istilah "acak" berarti "probabilistik". Dengan k
 
 Variabel acak adalah kasus khusus dari variabel acak. Variabel ini dapat memiliki dua nilai atau lebih dengan probabilitas yang sama. Variabel acak $X$ yang digambarkan pada *Gambar 1* jelas merupakan variabel seragam, karena kedua hasil yang mungkin terjadi memiliki probabilitas $0,5$. Namun, ada banyak variabel acak yang bukan merupakan contoh variabel seragam.
 
-Sebagai contoh, pertimbangkan variabel acak $Y$. Variabel ini memiliki himpunan hasil $\{1, 2, 3, 8, 10}$ dan distribusi probabilitas berikut:
+Sebagai contoh, pertimbangkan variabel acak $Y$. Variabel ini memiliki himpunan hasil ${1, 2, 3, 8, 10}$ dan distribusi probabilitas berikut:
 
 $$
 \Pr[Y = 1] = 0.25
@@ -321,7 +321,7 @@ Penggambaran grafis dari $Y$ disediakan dalam *Gambar 2*.
 
 ![Figure 2: Random variable Y.](assets/Figure2-2.webp "Figure 2: Random variable Y")
 
-Sebagai contoh terakhir, pertimbangkan variabel acak Z. Variabel ini memiliki himpunan hasil {1,3,7,11,12} dan distribusi probabilitas berikut:
+Sebagai contoh terakhir, pertimbangkan variabel acak Z. Variabel ini memiliki himpunan hasil ${1,3,7,11,12}$ dan distribusi probabilitas berikut:
 
 $$
 \Pr[Z = 2] = 0.2
@@ -440,13 +440,13 @@ Anda pasti akan menemukan kasus dengan dividen negatif dalam kriptografi. Dalam 
 Sebagai contoh, anggaplah dividennya adalah $-20$ dan pembaginya 3. Nilai terdekat yang lebih rendah atau sama dengan $-20$ yang dibagi 3 secara merata adalah $-21$. Nilai $x - p$ dalam kasus ini adalah $-20 - (-21)$. Ini sama dengan 1 dan, oleh karena itu, $-20 \mod 3$ sama dengan 1. Dengan cara yang sama, kita dapat mengevaluasi ekspresi di bawah ini:
 
 
-- $ -8 \mod 5 = 2$
-- $ -19 \mod 16 = 13$
+- $-8 \mod 5 = 2$
+- $-19 \mod 16 = 13$
 - $-14 \mod 6 = 4$
 
 Mengenai notasi, Anda biasanya akan melihat jenis ekspresi berikut ini: $x = [y \mod z]$. Karena adanya tanda kurung, operasi modulo dalam hal ini hanya berlaku untuk sisi kanan ekspresi. Jika $y$ sama dengan 25 dan $z$ sama dengan 4, misalnya, maka $x$ akan bernilai 1.
 
-Tanpa tanda kurung, operasi modulo bekerja pada *kedua sisi* ekspresi. Misalkan, sebagai contoh, ekspresi berikut: $x = y \mod z$. Jika $y$ sama dengan 25 dan $z$ sama dengan 4, maka yang kita ketahui adalah bahwa $x \mod 4$ bernilai 1. Hal ini konsisten dengan nilai apa pun untuk $x$ dari himpunan $\{\ titik-titik, -7, -3, 1, 5, 9, \ titik-titik\}$.
+Tanpa tanda kurung, operasi modulo bekerja pada *kedua sisi* ekspresi. Misalkan, sebagai contoh, ekspresi berikut: $x = y \mod z$. Jika $y$ sama dengan 25 dan $z$ sama dengan 4, maka yang kita ketahui adalah bahwa $x \mod 4$ bernilai 1. Hal ini konsisten dengan nilai apa pun untuk $x$ dari himpunan $\{\dots, -7, -3, 1, 5, 9, \dots\}$.
 
 Cabang matematika yang melibatkan operasi modulo pada angka dan ekspresi disebut sebagai **aritmetika modulo**. Anda dapat menganggap cabang ini sebagai aritmatika untuk kasus-kasus di mana garis bilangan tidak memiliki panjang yang tak terbatas. Meskipun kita biasanya menemukan operasi modulo untuk bilangan bulat (positif) dalam kriptografi, Anda juga dapat melakukan operasi modulo menggunakan bilangan real.
 
@@ -454,7 +454,7 @@ Cabang matematika yang melibatkan operasi modulo pada angka dan ekspresi disebut
 
 Operasi modulo sering ditemui dalam kriptografi. Sebagai ilustrasi, mari kita pertimbangkan salah satu skema enkripsi historis yang paling terkenal: shift cipher.
 
-Pertama-tama mari kita definisikan. Misalkan sebuah kamus *D* yang menyamakan semua huruf dalam alfabet bahasa Inggris, secara berurutan, dengan himpunan angka $\{0, 1, 2, \ titik, 25\}$. Asumsikan ruang pesan **M**. Maka, **shift cipher** adalah sebuah skema enkripsi yang didefinisikan sebagai berikut:
+Pertama-tama mari kita definisikan. Misalkan sebuah kamus *D* yang menyamakan semua huruf dalam alfabet bahasa Inggris, secara berurutan, dengan himpunan angka $\{0, 1, 2, \dots, 25\}$. Asumsikan ruang pesan **M**. Maka, **shift cipher** adalah sebuah skema enkripsi yang didefinisikan sebagai berikut:
 
 
 - Pilih secara seragam sebuah kunci $k$ dari ruang kunci **K**, di mana **K** = $\{0, 1, 2, \ldots, 25\}$ [1]
@@ -509,27 +509,25 @@ Sebagai contoh, anggaplah Anda telah mengetik email ke dalam aplikasi email Anda
 
 Sebuah operasi matematika utama yang perlu dipahami untuk kriptografi modern, selain operasi modulo, adalah operasi **XOR**, atau operasi "eksklusif atau". Operasi ini mengambil dua bit sebagai masukan dan menghasilkan keluaran berupa satu bit lagi. Operasi XOR hanya akan dilambangkan sebagai "XOR". Operasi ini menghasilkan 0 jika dua bit sama dan 1 jika dua bit berbeda. Anda dapat melihat empat kemungkinan di bawah ini. Simbol $\oplus$ mewakili "XOR":
 
-
-- $ 0 \oplus 0 = 0$
-- $ 0 \ ditambah 1 = 1 $
-- $ 1 \ ditambah 0 = $ 1
-- $ 1 \ ditambah 1 = 0 $
+- $0 \oplus 0 = 0$
+- $0 \oplus 1 = 1$
+- $1 \oplus 0 = 1$
+- $1 \oplus 1 = 0$
 
 Sebagai ilustrasi, anggaplah Anda memiliki sebuah pesan $m_1$ (01111001) dan sebuah pesan $m_2$ (01011001). Operasi XOR dari kedua pesan ini dapat dilihat di bawah ini.
 
-
 - $m_1 \oplus m_2 = 01111001 \oplus 01011001 = 00100000$
 
-Prosesnya sangat mudah. Pertama-tama, Anda harus meng-XOR bit paling kiri dari $m_1$ dan $m_2$. Dalam hal ini adalah $0 \ ditambah 0 = 0$. Kemudian Anda meng-XOR pasangan bit kedua dari kiri. Dalam hal ini adalah $1 \oplus 1 = 0$. Anda melanjutkan proses ini sampai Anda telah melakukan operasi XOR pada bit paling kanan.
+Prosesnya sangat mudah. Pertama-tama, Anda harus meng-XOR bit paling kiri dari $m_1$ dan $m_2$. Dalam hal ini adalah $0 \oplus 0 = 0$. Kemudian Anda meng-XOR pasangan bit kedua dari kiri. Dalam hal ini adalah $1 \oplus 1 = 0$. Anda melanjutkan proses ini sampai Anda telah melakukan operasi XOR pada bit paling kanan.
 
-Sangat mudah untuk melihat bahwa operasi XOR bersifat komutatif, yaitu bahwa $m_1 \ ditambah m_2 = m_2 \ ditambah m_1$. Selain itu, operasi XOR juga bersifat asosiatif. Artinya, $(m_1 \oplus m_2) \oplus m_3 = m_1 \oplus (m_2 \oplus m_3)$.
+Sangat mudah untuk melihat bahwa operasi XOR bersifat komutatif, yaitu bahwa $m_1 \oplus m_2 = m_2 \oplus m_1$. Selain itu, operasi XOR juga bersifat asosiatif. Artinya, $(m_1 \oplus m_2) \oplus m_3 = m_1 \oplus (m_2 \oplus m_3)$.
 
 Operasi XOR pada dua string dengan panjang alternatif dapat memiliki interpretasi yang berbeda, tergantung pada konteksnya. Di sini kita tidak akan membahas operasi XOR pada string dengan panjang yang berbeda.
 
 Operasi XOR setara dengan kasus khusus untuk melakukan operasi modulo pada penambahan bit ketika pembaginya adalah 2. Anda dapat melihat ekuivalensi pada hasil berikut:
 
 
-- $ (0 + 0) \mod 2 = 0 \oplus 0 = 0$
+- $(0 + 0) \mod 2 = 0 \oplus 0 = 0$
 - $(1 + 0) \mod 2 = 1 \oplus 0 = 1$
 - $(0 + 1) \mod 2 = 0 \oplus 1 = 1$
 - $(1 + 1) \mod 2 = 1 \oplus 1 = 0$
@@ -550,7 +548,7 @@ Aspek kunci dari keacakan string biner adalah bahwa string biner didefinisikan d
 
 Sebagai contoh, banyak orang yang secara naluri memiliki pemikiran bahwa string seperti $1111\ 1111$ tidak mungkin dipilih secara acak. Tetapi ini jelas salah.
 
-Dengan mendefinisikan variabel seragam $S$ pada semua string biner dengan panjang 8, kemungkinan memilih $1111\1111$ dari himpunan **$S_8$** adalah sama dengan string seperti $0111\0100$. Dengan demikian, Anda tidak dapat mengetahui apa pun tentang keacakan sebuah string, hanya dengan menganalisis string itu sendiri.
+Dengan mendefinisikan variabel seragam $S$ pada semua string biner dengan panjang 8, kemungkinan memilih $1111 \ 1111$ dari himpunan **$S_8$** adalah sama dengan string seperti $0111 \ 0100$. Dengan demikian, Anda tidak dapat mengetahui apa pun tentang keacakan sebuah string, hanya dengan menganalisis string itu sendiri.
 
 Kita juga dapat berbicara tentang string acak tanpa secara khusus mengartikan string biner. Misalnya, kita dapat membicarakan string heksa acak $AF\ 02\ 82$. Dalam kasus ini, string akan dipilih secara acak dari kumpulan semua string heksa dengan panjang 6. Hal ini sama dengan memilih secara acak string biner dengan panjang 24, karena setiap digit heksa mewakili 4 bit.
 
@@ -695,8 +693,7 @@ Sebagai contoh, $G = \langle \mathbb{Z}^* \mod 11, \cdot \rangle$. Grup ini memi
 
 Mari kita telusuri eksponensial elemen 2 dari grup ini. Perhitungan hingga $2^{12}$ ditunjukkan di bawah ini. Perhatikan bahwa di sisi kiri persamaan, eksponen mengacu pada eksponensial elemen grup. Dalam contoh khusus kita, ini memang melibatkan eksponensial aritmatika di sisi kanan persamaan (tetapi bisa juga melibatkan, misalnya, penjumlahan). Untuk memperjelas, saya telah menuliskan operasi yang diulang, bukan bentuk eksponen di sisi kanan.
 
-
-- $ 2 ^ 1 = 2 \mod 11$
+- $2 ^ 1 = 2 \mod 11$
 - $2^2 = 2 \cdot 2 \mod 11 = 4 \mod 11$
 - $2^3 = 2 \cdot 2 \cdot 2 \mod 11 = 8 \mod 11$
 - $2^4 = 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 16 \mod 11 = 5 \mod 11$
@@ -709,7 +706,7 @@ Mari kita telusuri eksponensial elemen 2 dari grup ini. Perhitungan hingga $2^{1
 - $2^{11} = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 2048 \mod 11 = 2 \mod 11$
 - $2^{12} = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 4096 \mod 11 = 4 \mod 11$
 
-Jika Anda perhatikan dengan seksama, Anda dapat melihat bahwa melakukan eksponensial pada elemen 2 siklus melalui semua elemen $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$ dengan urutan sebagai berikut: 2, 4, 8, 5, 10, 9, 7, 3, 6, 1. Setelah $ 2^{10}$, eksponensial lanjutan pada elemen 2 siklus melalui semua elemen lagi dan dalam urutan yang sama. Oleh karena itu, elemen 2 adalah generator dalam $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$.
+Jika Anda perhatikan dengan seksama, Anda dapat melihat bahwa melakukan eksponensial pada elemen 2 siklus melalui semua elemen $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$ dengan urutan sebagai berikut: 2, 4, 8, 5, 10, 9, 7, 3, 6, 1. Setelah $2^{10}$, eksponensial lanjutan pada elemen 2 siklus melalui semua elemen lagi dan dalam urutan yang sama. Oleh karena itu, elemen 2 adalah generator dalam $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$.
 
 Meskipun $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$ memiliki beberapa generator, tidak semua elemen dari grup ini adalah generator. Pertimbangkan, sebagai contoh, elemen 3. Menjalankan 10 eksponensial pertama, tanpa memperlihatkan perhitungan yang rumit, memberikan hasil sebagai berikut:
 
@@ -729,7 +726,7 @@ Alih-alih mengulang semua nilai dalam $\langle \mathbb{Z}^* \mod 11, \cdot \rang
 
 Sekarang kita bisa mendefinisikan grup siklik sebagai grup dengan setidaknya satu generator. Artinya, setidaknya ada satu elemen grup yang darinya Anda dapat menghasilkan semua elemen grup lainnya melalui eksponensial.
 
-Anda mungkin telah memperhatikan pada contoh kita di atas bahwa $2^{10}$ dan $3^{10}$ sama dengan $1 \mod 11$. Bahkan, meskipun kita tidak akan melakukan perhitungan, eksponensial dengan 10 dari setiap elemen dalam grup $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$ akan menghasilkan $ 1 \mod 11$. Mengapa hal ini terjadi?
+Anda mungkin telah memperhatikan pada contoh kita di atas bahwa $2^{10}$ dan $3^{10}$ sama dengan $1 \mod 11$. Bahkan, meskipun kita tidak akan melakukan perhitungan, eksponensial dengan 10 dari setiap elemen dalam grup $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$ akan menghasilkan $1 \mod 11$. Mengapa hal ini terjadi?
 
 Ini adalah pertanyaan yang penting, tetapi butuh usaha untuk menjawabnya.
 
@@ -824,7 +821,7 @@ Dalam kriptografi, kita terutama tertarik pada lapangan terbatas. Secara umum, d
 
 Jika suatu lapangan berhingga memiliki jumlah elemen bilangan prima, maka lapangan tersebut disebut lapangan prima. Jika jumlah elemen dalam bidang terbatas adalah pangkat prima, maka bidang tersebut disebut **bidang ekstensi**. Dalam kriptografi, kita tertarik dengan lapangan prima dan lapangan ekstensi. [2]
 
-Bidang prima utama yang menarik dalam kriptografi adalah bidang di mana himpunan semua bilangan bulat dimodulasi oleh beberapa bilangan prima, dan operatornya adalah penjumlahan dan perkalian standar. Kelas bidang terbatas ini akan mencakup $\mathbb{Z} \mod 2$, $\mathbb{Z} \mod 3$, $\mathbb{Z} \mod 5$, $\mathbb{Z} \mod 7$, $\mathbb{Z} \mod 11$, $\mathbb{Z} \mod 13$, dan seterusnya. Untuk setiap lapangan prima $\mathbb{Z} \mod p$, himpunan bilangan bulat dari field tersebut adalah sebagai berikut: $\{0, 1, \ titik-titik, p - 2, p - 1\}$.
+Bidang prima utama yang menarik dalam kriptografi adalah bidang di mana himpunan semua bilangan bulat dimodulasi oleh beberapa bilangan prima, dan operatornya adalah penjumlahan dan perkalian standar. Kelas bidang terbatas ini akan mencakup $\mathbb{Z} \mod 2$, $\mathbb{Z} \mod 3$, $\mathbb{Z} \mod 5$, $\mathbb{Z} \mod 7$, $\mathbb{Z} \mod 11$, $\mathbb{Z} \mod 13$, dan seterusnya. Untuk setiap lapangan prima $\mathbb{Z} \mod p$, himpunan bilangan bulat dari field tersebut adalah sebagai berikut: $\{0, 1, \dots, p - 2, p - 1\}$.
 
 Dalam kriptografi, kita juga tertarik dengan bidang ekstensi, khususnya bidang dengan elemen $2^m$ di mana $m > 1$. Field terbatas seperti itu, misalnya, digunakan dalam Rijndael Cipher, yang menjadi dasar dari Advanced Encryption Standard. Walaupun bidang prima relatif intuitif, bidang ekstensi basis 2 ini mungkin tidak cocok untuk orang yang tidak terbiasa dengan aljabar abstrak.
 
@@ -832,7 +829,7 @@ Sebagai permulaan, memang benar bahwa setiap himpunan bilangan bulat dengan elem
 
 Ternyata, bidang ekstensi $2^m$ yang dapat diterapkan dalam kriptografi adalah bidang yang didefinisikan pada kumpulan ekspresi polinomial tertentu, dan bukan pada kumpulan bilangan bulat.
 
-Sebagai contoh, anggaplah kita menginginkan sebuah bidang ekstensi dengan $ 2^3$ (yaitu, 8) elemen dalam himpunan. Meskipun mungkin ada banyak himpunan berbeda yang dapat digunakan untuk bidang sebesar itu, salah satu himpunan tersebut mencakup semua polinomial unik dengan bentuk $a_2x^2 + a_1x + a_0$, di mana setiap koefisien $a_i$ adalah 0 atau 1. Oleh karena itu, himpunan **S** ini mencakup elemen-elemen berikut:
+Sebagai contoh, anggaplah kita menginginkan sebuah bidang ekstensi dengan $2^3$ (yaitu, 8) elemen dalam himpunan. Meskipun mungkin ada banyak himpunan berbeda yang dapat digunakan untuk bidang sebesar itu, salah satu himpunan tersebut mencakup semua polinomial unik dengan bentuk $a_2x^2 + a_1x + a_0$, di mana setiap koefisien $a_i$ adalah 0 atau 1. Oleh karena itu, himpunan **S** ini mencakup elemen-elemen berikut:
 
 1. $0$: Kasus di mana $a_2 = 0$, $a_1 = 0$, dan $a_0 = 0$.
 
@@ -883,7 +880,6 @@ Sebagai contoh, misalkan kita memilih polinomial $x^3 + x + 1$. Ini memang tidak
 
 Mari kita lihat contoh operasi kedua dengan menggunakan polinomial $x^3 + x + 1$ sebagai pembagi untuk mengilustrasikan cara kerjanya. Misalkan Anda mengalikan elemen $x^2 + 1$ dengan $x^2 + x$ dalam himpunan **S**. Maka, kita perlu menghitung ekspresi $[(x^2 + 1) \cdot (x^2 + x)] \mod x^3 + x + 1$. Hal ini dapat disederhanakan sebagai berikut:
 
-
 - $[(x^2 + 1) \cdot (x^2 + x)] \mod x^3 + x + 1 =$
 - $[x^2 \cdot x^2 + x^2 \cdot x + 1 \cdot x^2 + 1 \cdot x] \mod x^3 + x + 1 =$
 - $[x^4 + x^3 + x^2 + x] \mod x^3 + x + 1$
@@ -891,7 +887,6 @@ Mari kita lihat contoh operasi kedua dengan menggunakan polinomial $x^3 + x + 1$
 Kita tahu bahwa $[x^4 + x^3 + x^2 + x] \mod x^3 + x + 1$ dapat dikurangi karena dividen memiliki derajat yang lebih tinggi (4) daripada pembaginya (3).
 
 Sebagai permulaan, Anda dapat melihat bahwa ekspresi $x^3 + x + 1$ berubah menjadi $x^4 + x^3 + x^2 + x$ sebanyak $x$ kali. Anda dapat memverifikasi hal ini dengan mengalikan $x^3 + x + 1$ dengan $x$, yaitu $x^4 + x^2 + x$. Karena suku terakhir memiliki derajat yang sama dengan dividen, yaitu 4, maka kita tahu bahwa cara ini berhasil. Anda dapat menghitung sisa pembagian ini dengan $x$ sebagai berikut:
-
 
 - $[(x^4 + x^3 + x^2 + x) - (x^4 + x^2 + x)] \mod x^3 + x + 1 =$
 - $[x^3] \mod x^3 + x + 1 =$
@@ -1021,7 +1016,6 @@ Pada Bab 2, kita telah mempelajari shift cipher, yang merupakan contoh dari skem
 
 Misalkan sebuah kamus *D* yang menyamakan semua huruf dalam alfabet bahasa Inggris, secara berurutan, dengan himpunan angka $\{0,1,2,\dots,25\}$. Asumsikan satu set pesan yang mungkin **M**. Maka, shift cipher adalah sebuah skema enkripsi yang didefinisikan sebagai berikut:
 
-
 - Pilih secara acak sebuah kunci $k$ dari sekumpulan kunci yang mungkin **K**, di mana **K** = $\{0,1,2,\dots,25\}$
 - Enkripsi pesan $m \in$ **M**, sebagai berikut:
     - Pisahkan $m$ menjadi huruf-hurufnya $m_0, m_1, \ titik, m_i, \ titik, m_l$
@@ -1057,7 +1051,7 @@ Shift cipher merupakan skema enkripsi simetris yang sangat tidak aman, setidakny
 
 Agar skema enkripsi apa pun dapat memenuhi pengertian minimal keamanan, skema tersebut harus memiliki satu set kunci yang memungkinkan, atau **kunci**, yang sangat besar sehingga serangan brute force tidak mungkin dilakukan. Semua skema enkripsi modern memenuhi standar ini. Hal ini dikenal sebagai **prinsip ruang kunci yang cukup**. Prinsip yang sama biasanya berlaku pada berbagai jenis skema kriptografi.
 
-Untuk merasakan ukuran ruang kunci yang sangat besar pada skema enkripsi modern, anggaplah sebuah berkas telah dienkripsi dengan kunci 128-bit menggunakan standar enkripsi tingkat lanjut. Ini berarti penyerang memiliki satu set kunci $2^{128}$ yang harus dia lalui untuk melakukan serangan brute force. Sebuah kesempatan 0.78% untuk berhasil dengan strategi ini akan mengharuskan penyerang untuk mengulang sekitar $2.65 \kali 10^{36}$ kunci.
+Untuk merasakan ukuran ruang kunci yang sangat besar pada skema enkripsi modern, anggaplah sebuah berkas telah dienkripsi dengan kunci 128-bit menggunakan standar enkripsi tingkat lanjut. Ini berarti penyerang memiliki satu set kunci $2^{128}$ yang harus dia lalui untuk melakukan serangan brute force. Sebuah kesempatan 0.78% untuk berhasil dengan strategi ini akan mengharuskan penyerang untuk mengulang sekitar $2.65 \times 10^{36}$ kunci.
 
 Anggaplah kita secara optimis mengasumsikan bahwa seorang penyerang dapat mencoba $10^{16}$ kunci per detik (yaitu 10 kuadriliun kunci per detik). Untuk menguji 0.78% dari semua kunci di ruang kunci, serangannya harus berlangsung selama $2.65 \times 10^{20}$ detik. Ini berarti sekitar 8,4 triliun tahun. Jadi, bahkan serangan brute force oleh musuh yang sangat kuat tidak realistis dengan skema enkripsi 128-bit modern. Ini adalah prinsip ruang kunci yang cukup yang berperan.
 
@@ -1448,29 +1442,19 @@ Kita lanjutkan proses ini hingga kita menghasilkan baris terakhir di bagian bawa
 
 *Tabel 1: Tabel penjadwalan utama*
 
-| Bulat | i | j | | S[0] | S[1] | S[2] | S[3] | S[4] | S[5] | S[6] | S[7] |
-
+| Round   | i   | j   |     | S[0] | S[1] | S[2] | S[3] | S[4] | S[5] | S[6] | S[7] |
 | ------- | --- | --- | --- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+|         |     |     |     |      |      |      |      |      |      |      |      |
+| Initial |     | 0   |     | 0    | 1    | 2    | 3    | 4    | 5    | 6    | 7    |
+| 1       | 0   | 6   |     | 6    | 1    | 2    | 3    | 4    | 5    | 0    | 7    |
+| 2       | 1   | 7   |     | 6    | 7    | 2    | 3    | 4    | 5    | 0    | 1    |
+| 3       | 2   | 2   |     | 6    | 7    | 2    | 3    | 4    | 5    | 0    | 1    |
+| 4       | 3   | 3   |     | 6    | 7    | 2    | 3    | 4    | 5    | 0    | 1    |
+| 5       | 4   | 3   |     | 6    | 7    | 2    | 0    | 3    | 5    | 4    | 1    |
+| 6       | 5   | 6   |     | 6    | 4    | 2    | 0    | 3    | 7    | 5    | 1    |
+| 7       | 6   | 1   |     | 6    | 4    | 2    | 0    | 3    | 7    | 5    | 2    |
+| 8       | 7   | 2   |     | 6    | 4    | 1    | 0    | 3    | 7    | 5    | 2    |
 
-
-
-| Inisial | | 0 | | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
-
-| 1 | 0 | 6 | | 6 | 1 | 2 | 3 | 4 | 5 | 0 | 7 |
-
-| 2 | 1 | 7 | | 6 | 7 | 2 | 3 | 4 | 5 | 0 | 1 |
-
-| 3 | 2 | 2 | | 6 | 7 | 2 | 3 | 4 | 5 | 0 | 1 |
-
-| 4 | 3 | 3 | | 6 | 7 | 2 | 3 | 4 | 5 | 0 | 1 |
-
-| 5 | 4 | 3 | | 6 | 7 | 2 | 0 | 3 | 5 | 4 | 1 |
-
-| 6 | 5 | 6 | | 6 | 4 | 2 | 0 | 3 | 7 | 5 | 1 |
-
-| 7 | 6 | 1 | | 6 | 4 | 2 | 0 | 3 | 7 | 5 | 2 |
-
-| 8 | 7 | 2 | | 6 | 4 | 1 | 0 | 3 | 7 | 5 | 2 |
 
 ### Langkah 4
 
@@ -1499,23 +1483,18 @@ Apa yang terjadi jika kata yang akan dienkripsi lebih panjang dari larik **S**? 
 
 *Tabel 2: Pembuatan aliran kunci*
 
-| i | j | t | Keystream | S[0] | S[1] | S[2] | S[3] | S[4] | S[5] | S[6] | S[7] |
 
+| i   | j   | t   | Keystream | S[0] | S[1] | S[2] | S[3] | S[4] | S[5] | S[6] | S[7] |
 | --- | --- | --- | --------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+|     |     |     |           |      |      |      |      |      |      |      |      |
+|     | 0   |     |           | 6    | 4    | 1    | 0    | 3    | 7    | 5    | 2    |
+| 1   | 4   | 7   | 2         | 6    | 3    | 1    | 0    | 4    | 7    | 5    | 2    |
+| 2   | 5   | 0   | 6         | 6    | 3    | 7    | 0    | 4    | 1    | 5    | 2    |
+| 3   | 5   | 1   | 3         | 6    | 3    | 7    | 1    | 4    | 0    | 5    | 2    |
+| 4   | 1   | 7   | 2         | 6    | 4    | 7    | 1    | 3    | 0    | 5    | 2    |
 
 
-
-| | 0 | | | 6 | 4 | 1 | 0 | 3 | 7 | 5 | 2 |
-
-| 1 | 4 | 7 | 2 | 6 | 3 | 1 | 0 | 4 | 7 | 5 | 2 |
-
-| 2 | 5 | 0 | 6 | 6 | 3 | 7 | 0 | 4 | 1 | 5 | 2 |
-
-| 3 | 5 | 1 | 3 | 6 | 3 | 7 | 1 | 4 | 0 | 5 | 2 |
-
-| 4 | 1 | 7 | 2 | 6 | 4 | 7 | 1 | 3 | 0 | 5 | 2 |
-
-Contoh yang baru saja kita bahas hanyalah sebuah versi sederhana dari stream cipher **RC4**. Stream cipher RC4 yang sebenarnya memiliki larik **S** dengan panjang 256 byte, bukan 8 byte, dan sebuah kunci yang dapat berukuran antara 1 sampai 256 byte, bukan 1 sampai 8 byte. Larik kunci dan aliran kunci kemudian diproduksi dengan mempertimbangkan panjang 256 byte dari larik **S**. Perhitungannya menjadi jauh lebih kompleks, tetapi prinsip-prinsipnya tetap sama. Menggunakan kunci yang sama, [14,48,9], dengan cipher RC4 standar, pesan plaintext "SOUP" dienkripsi sebagai 67 02 ed df dalam format heksadesimal.
+Contoh yang baru saja kita bahas hanyalah sebuah versi sederhana dari stream cipher **RC4**. Stream cipher RC4 yang sebenarnya memiliki larik **S** dengan panjang 256 byte, bukan 8 byte, dan sebuah kunci yang dapat berukuran antara 1 sampai 256 byte, bukan 1 sampai 8 byte. Larik kunci dan aliran kunci kemudian diproduksi dengan mempertimbangkan panjang 256 byte dari larik **S**. Perhitungannya menjadi jauh lebih kompleks, tetapi prinsip-prinsipnya tetap sama. Menggunakan kunci yang sama, 14,48,9, dengan cipher RC4 standar, pesan plaintext "SOUP" dienkripsi sebagai 67 02 ed df dalam format heksadesimal.
 
 Sebuah stream cipher di mana keystream memperbarui secara independen dari pesan plaintext atau ciphertext adalah **synchronous stream cipher**. Aliran kunci hanya bergantung pada kunci. Jelasnya, RC4 adalah sebuah contoh dari sebuah stream cipher sinkron, karena keystream tidak memiliki hubungan dengan plaintext atau ciphertext. Semua cipher stream primitif yang disebutkan di bab sebelumnya, termasuk shift cipher, cipher Vigenère, dan one-time pad, juga merupakan jenis cipher sinkron.
 
@@ -1549,14 +1528,12 @@ Algoritma ekspansi kunci sangat panjang dan kompleks. Mengerjakannya hanya memil
 
 *Gambar 2: Manipulasi $M_1$ dengan sandi Rijndael:*
 
-** Putaran 0:**
+**Putaran 0:**
 
-
-- XOR $M_1 $ dan $K_0 $ untuk menghasilkan $S_0 $
+- XOR $M_1$ dan $K_0$ untuk menghasilkan $S_0$
 
 ---
 **Bulatkan n untuk n = {1,...,9}:**
-
 
 - XOR $S_{n-1}$ dan $K_n$
 - Substitusi Byte
@@ -1566,7 +1543,6 @@ Algoritma ekspansi kunci sangat panjang dan kompleks. Mengerjakannya hanya memil
 
 ---
 **Putaran 10:**
-
 
 - XOR $S_9$ dan $K_{10}$
 - Substitusi Byte
@@ -1579,7 +1555,7 @@ Algoritma ekspansi kunci sangat panjang dan kompleks. Mengerjakannya hanya memil
 Putaran 0 dari sandi Rijndael sangatlah mudah. Larik $S_0$ dihasilkan oleh operasi XOR antara plainteks 128-bit dan kunci privat. Artinya,
 
 
-- $ S_0 = M_1 \ ditambah K_0 $
+- $S_0 = M_1 \ ditambah K_0$
 
 ### Ronde 1
 
@@ -1589,41 +1565,26 @@ Kedua, operasi **substitusi byte** dilakukan pada keadaan $S$ saat ini. Operasi 
 
 *Gambar 3: S-Box Rijndael*
 
-| | 00 | 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 0A | 0B | 0C | 0D | 0E | 0F |
 
+|     | 00  | 01  | 02  | 03  | 04  | 05  | 06  | 07  | 08  | 09  | 0A  | 0B  | 0C  | 0D  | 0E  | 0F  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 00  | 63  | 7C  | 77  | 7B  | F2  | 6B  | 6F  | C5  | 30  | 01  | 67  | 2B  | FE  | D7  | AB  | 76  |
+| 10  | CA  | 82  | C9  | 7D  | FA  | 59  | 47  | F0  | AD  | D4  | A2  | AF  | 9C  | A4  | 72  | C0  |
+| 20  | B7  | FD  | 93  | 26  | 36  | 3F  | F7  | CC  | 34  | A5  | E5  | F1  | 71  | D8  | 31  | 15  |
+| 30  | 04  | C7  | 23  | C3  | 18  | 96  | 05  | 9A  | 07  | 12  | 80  | E2  | EB  | 27  | B2  | 75  |
+| 40  | 09  | 83  | 2C  | 1A  | 1B  | 6E  | 5A  | A0  | 52  | 3B  | D6  | B3  | 29  | E3  | 2F  | 84  |
+| 50  | 53  | D1  | 00  | ED  | 20  | FC  | B1  | 5B  | 6A  | CB  | BE  | 39  | 4A  | 4C  | 58  | CF  |
+| 60  | D0  | EF  | AA  | FB  | 43  | 4D  | 33  | 85  | 45  | F9  | 02  | 7F  | 50  | 3C  | 9F  | A8  |
+| 70  | 51  | A3  | 40  | 8F  | 92  | 9D  | 38  | F5  | BC  | B6  | DA  | 21  | 10  | FF  | F3  | D2  |
+| 80  | CD  | 0C  | 13  | EC  | 5F  | 97  | 44  | 17  | C4  | A7  | 7E  | 3D  | 64  | 5D  | 19  | 73  |
+| 90  | 60  | 81  | 4F  | DC  | 22  | 2A  | 90  | 88  | 46  | EE  | B8  | 14  | DE  | 5E  | 0B  | DB  |
+| A0  | E0  | 32  | 3A  | 0A  | 49  | 06  | 24  | 5C  | C2  | D3  | AC  | 62  | 91  | 95  | E4  | 79  |
+| B0  | E7  | C8  | 37  | 6D  | 8D  | D5  | 4E  | A9  | 6C  | 56  | F4  | EA  | 65  | 7A  | AE  | 08  |
+| C0  | BA  | 78  | 25  | 2E  | 1C  | A6  | B4  | C6  | E8  | DD  | 74  | 1F  | 4B  | BD  | 8B  | 8A  |
+| D0  | 70  | 3E  | B5  | 66  | 48  | 03  | F6  | 0E  | 61  | 35  | 57  | B9  | 86  | C1  | 1D  | 9E  |
+| E0  | E1  | F8  | 98  | 11  | 69  | D9  | 8E  | 94  | 9B  | 1E  | 87  | E9  | CE  | 55  | 28  | DF  |
+| F0  | 8C  | A1  | 89  | 0D  | BF  | E6  | 42  | 68  | 41  | 99  | 2D  | 0F  | B0  | 54  | BB  | 16  |
 
-
-| 00 | 63 | 7C | 77 | 7B | F2 | 6B | 6F | C5 | 30 | 01 | 67 | 2B | FE | D7 | AB | 76 |
-
-| 10 | CA | 82 | C9 | 7D | FA | 59 | 47 | F0 | AD | D4 | A2 | AF | 9C | A4 | 72 | C0 |
-
-| 20 | B7 | FD | 93 | 26 | 36 | 3F | F7 | CC | 34 | A5 | E5 | F1 | 71 | D8 | 31 | 15 |
-
-| 30 | 04 | C7 | 23 | C3 | 18 | 96 | 05 | 9A | 07 | 12 | 80 | E2 | EB | 27 | B2 | 75 |
-
-| 40 | 09 | 83 | 2C | 1A | 1B | 6E | 5A | A0 | 52 | 3B | D6 | B3 | 29 | E3 | 2F | 84 |
-
-| 50 | 53 | D1 | 00 | ED | 20 | FC | B1 | 5B | 6A | CB | BE | 39 | 4A | 4C | 58 | CF |
-
-| 60 | D0 | EF | AA | FB | 43 | 4D | 33 | 85 | 45 | F9 | 02 | 7F | 50 | 3C | 9F | A8 |
-
-| 70 | 51 | A3 | 40 | 8F | 92 | 9D | 38 | F5 | BC | B6 | DA | 21 | 10 | FF | F3 | D2 |
-
-| 80 | CD | 0C | 13 | EC | 5F | 97 | 44 | 17 | C4 | A7 | 7E | 3D | 64 | 5D | 19 | 73 |
-
-| 90 | 60 | 81 | 4F | DC | 22 | 2A | 90 | 88 | 46 | EE | B8 | 14 | DE | 5E | 0B | DB |
-
-| A0 | E0 | 32 | 3A | 0A | 49 | 06 | 24 | 5C | C2 | D3 | AC | 62 | 91 | 95 | E4 | 79 |
-
-| B0 | E7 | C8 | 37 | 6D | 8D | D5 | 4E | A9 | 6C | 56 | F4 | EA | 65 | 7A | AE | 08 |
-
-| C0 | BA | 78 | 25 | 2E | 1C | A6 | B4 | C6 | E8 | DD | 74 | 1F | 4B | BD | 8B | 8A |
-
-| D0 | 70 | 3E | B5 | 66 | 48 | 03 | F6 | 0E | 61 | 35 | 57 | B9 | 86 | C1 | 1D | 9E |
-
-| E0 | E1 | F8 | 98 | 11 | 69 | D9 | 8E | 94 | 9B | 1E | 87 | E9 | CE | 55 | 28 | DF |
-
-| F0 | 8C | A1 | 89 | 0D | BF | E6 | 42 | 68 | 41 | 99 | 2D | 0F | B0 | 54 | BB | 16 |
 
 S-Box ini adalah salah satu tempat di mana aljabar abstrak berperan dalam sandi Rijndael, khususnya **bidang Galois**.
 
@@ -1637,39 +1598,31 @@ Setelah matriks **S** dibuat, keempat baris digeser. Baris pertama tetap sama. B
 
 *Gambar 4: Operasi pergeseran baris*
 
-| F1 | A0 | B1 | 23 |
 
+| F1   | A0   | B1   | 23   |
 |------|------|------|------|
+| 59   | EF   | 09   | 82   |
+| 97   | 01   | B0   | CC   |
+| D4   | 72   | 04   | 21   |
 
-| 59 | EF | 09 | 82 |
-
-| 97 | 01 | B0 | CC |
-
-| D4 | 72 | 04 | 21 |
-
-| F1 | A0 | B1 | 23 |
-
+| F1   | A0   | B1   | 23   |
 |------|------|------|------|
+| EF   | 09   | 82   | 59   |
+| B0   | CC   | 97   | 01   |
+| 21   | D4   | 72   | 04   |
 
-| EF | 09 | 82 | 59 |
-
-| B0 | CC | 97 | 01 |
-
-| 21 | D4 | 72 | 04 |
 
 Pada langkah keempat, **Bidang Galat** muncul lagi. Untuk memulai, setiap kolom matriks **S** dikalikan dengan kolom matriks 4 x 4 yang terlihat pada *Gambar 5*. Namun, alih-alih menjadi perkalian matriks biasa, ini adalah perkalian vektor **modulo polinomial yang tidak dapat direduksi**, $x^8 + x^4 + x^3 + x + 1$. Koefisien vektor yang dihasilkan merepresentasikan bit-bit individual dari sebuah byte.
 
 *Gambar 5: Matriks kolom campuran*
 
-| 02 | 03 | 01 | 01 |
 
+| 02   | 03   | 01   | 01   |
 |------|------|------|------|
+| 01   | 02   | 03   | 01   |
+| 01   | 01   | 02   | 03   |
+| 03   | 01   | 01   | 02   |
 
-| 01 | 02 | 03 | 01 |
-
-| 01 | 01 | 02 | 03 |
-
-| 03 | 01 | 01 | 02 |
 
 Perkalian kolom pertama matriks **S** dengan matriks 4 x 4 di atas menghasilkan hasil pada *Gambar 6*.
 
@@ -1693,14 +1646,14 @@ Setelah kolom pertama diproses, tiga kolom lainnya dari matriks **S** diproses d
 Sebagai langkah terakhir, larik **S** digabungkan dengan tombol bulat lagi dalam operasi **XOR**. Ini menghasilkan keadaan $S_1$. Artinya,
 
 
-- $ S_1 = S \ ditambah K_0 $
+- $S_1 = S \oplus K_0$
 
 ### Ronde 2 sampai 10
 
 Babak 2 sampai 9 hanyalah pengulangan dari babak 1, *mutatis mutandis*. Putaran terakhir terlihat sangat mirip dengan putaran sebelumnya, kecuali bahwa langkah **mix columns** ditiadakan. Artinya, putaran 10 dieksekusi sebagai berikut:
 
 
-- $ S_9 \oplus K_{10}$
+- $S_9 \oplus K_{10}$
 - Substitusi Byte
 - Baris Pergeseran
 - $S_{10} = S \oplus K_{10}$
@@ -1773,6 +1726,7 @@ Pada tahun 1970-an, masalah distribusi kunci dan manajemen kunci telah menarik p
 Setidaknya satu motivasi utama dari usaha mereka adalah pandangan ke depan bahwa komunikasi komputer yang terbuka akan sangat mempengaruhi dunia kita. Seperti yang dicatat oleh Diffie dan Helmann pada tahun 1976,
 
 > Perkembangan jaringan komunikasi yang dikendalikan komputer menjanjikan kontak yang mudah dan murah antara orang atau komputer di belahan dunia yang berlawanan, menggantikan sebagian besar surat dan banyak perjalanan dengan telekomunikasi. Untuk banyak aplikasi, kontak-kontak ini harus dibuat aman dari penyadapan dan penyisipan pesan-pesan yang tidak sah. Namun, saat ini, solusi dari masalah keamanan tertinggal jauh di belakang bidang teknologi komunikasi lainnya. *Kriptografi kontemporer tidak dapat memenuhi persyaratan, karena penggunaannya akan menimbulkan ketidaknyamanan yang parah pada pengguna sistem, sehingga menghilangkan banyak manfaat dari teleproses.* [1]
+
 Kegigihan Diffie, Hellman, dan Merkle membuahkan hasil. Publikasi pertama dari hasil kerja mereka adalah sebuah makalah yang ditulis oleh Diffie dan Helmann pada tahun 1976 yang berjudul "New Directions in Cryptography" Di dalamnya, mereka mempresentasikan dua cara orisinil untuk mengatasi masalah distribusi kunci dan manajemen kunci.
 
 Solusi pertama yang mereka tawarkan adalah *protokol pertukaran kunci jarak jauh*, yaitu seperangkat aturan untuk pertukaran satu atau lebih kunci simetris melalui saluran komunikasi yang tidak aman. Protokol ini sekarang dikenal sebagai *pertukaran kunci Diffie-Helmann* atau *pertukaran kunci Diffie-Helmann-Merkle*. [2]
@@ -1943,7 +1897,7 @@ Fungsi hash yang tahan terhadap tabrakan sangat penting, misalnya, dalam verifik
 
 2.	Selanjutnya, Anda perlu memverifikasi kunci publik yang telah Anda impor. Setidaknya satu langkah yang harus Anda lakukan adalah memverifikasi bahwa public key yang Anda temukan sama dengan yang dipublikasikan di berbagai lokasi lain. Sebagai contoh, Anda dapat melihat halaman web pribadi, halaman Twitter, atau halaman Github dari orang-orang yang kunci publiknya Anda impor. Biasanya perbandingan kunci publik ini dilakukan dengan membandingkan hash pendek dari kunci publik yang dikenal sebagai sidik jari.
 
-3.	Selanjutnya, Anda perlu mengunduh file executable untuk Bitcoin Core dari [situs web] mereka (www.bitcoincore.org). Akan ada paket yang tersedia untuk sistem operasi Linux, Windows, dan MAC.
+3.	Selanjutnya, Anda perlu mengunduh file executable untuk Bitcoin Core dari [situs web](www.bitcoincore.org) mereka. Akan ada paket yang tersedia untuk sistem operasi Linux, Windows, dan MAC.
 
 4.	Selanjutnya, Anda harus mencari dua file rilis. Yang pertama berisi hash SHA-256 resmi untuk eksekusi yang Anda unduh bersama dengan hash dari semua paket lain yang telah dirilis. File rilis lainnya akan berisi tanda tangan dari berbagai kontributor di atas file rilis dengan hash paket. Kedua file rilis ini dapat ditemukan di situs web Bitcoin Core.
 
@@ -2009,15 +1963,13 @@ Sekitar 2.500 tahun yang lalu, matematikawan Yunani, Euclid dari Alexandria, men
 
 Maksud dari bagian terakhir dari pernyataan ini adalah Anda dapat mengambil bilangan bulat bukan prima $N$ yang lebih besar dari 1, dan menuliskannya sebagai perkalian bilangan prima. Di bawah ini adalah beberapa contoh bilangan bulat bukan prima yang dituliskan sebagai hasil perkalian faktor-faktor prima.
 
-
-- $ 18 = 2 \cdot 3 \cdot 3 = 2 \cdot 3^2$
-- $ 84 = 2 \cdot 2 \cdot 3 \cdot 7 = 2 ^ 2 \cdot 3 \cdot 7$
+- $18 = 2 \cdot 3 \cdot 3 = 2 \cdot 3^2$
+- $84 = 2 \cdot 2 \cdot 3 \cdot 7 = 2^2 \cdot 3 \cdot 7$
 - $144 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 3 \cdot 3 = 2^4 \cdot 3^2$
 
 Untuk ketiga bilangan bulat di atas, menghitung faktor prima relatif mudah, bahkan jika Anda hanya diberikan $N$. Anda mulai dengan bilangan prima terkecil, yaitu 2, dan lihat berapa kali bilangan bulat $N$ habis dibagi oleh bilangan tersebut. Kemudian Anda lanjutkan dengan menguji keterbagian $N$ dengan 3, 5, 7, dan seterusnya. Anda melanjutkan proses ini hingga bilangan bulat $N$ Anda dituliskan sebagai hasil kali bilangan prima saja.
 
 Sebagai contoh, ambil bilangan bulat 84. Di bawah ini Anda dapat melihat proses untuk menentukan faktor prima. Pada setiap langkah, kita mengambil faktor prima terkecil yang tersisa (di sebelah kiri) dan menentukan suku sisanya untuk difaktorkan. Kita lanjutkan sampai suku sisanya juga merupakan bilangan prima. Pada setiap langkah, faktorisasi saat ini dari 84 ditampilkan di ujung kanan.
-
 
 - Faktor prima = 2: suku sisa = 42 ($84 = 2 \cdot 42$)
 - Faktor prima = 2: sisa suku = 21 ($84 = 2 \cdot 2 \cdot 21$)
@@ -2028,20 +1980,20 @@ Misalkan sekarang $N$ sangat besar. Seberapa sulitkah menurunkan $N$ menjadi fak
 
 Hal ini sangat bergantung pada $N$. Misalnya, $N$ adalah 50.450.400. Meskipun angka ini terlihat mengintimidasi, perhitungannya tidak terlalu rumit dan dapat dengan mudah dilakukan dengan tangan. Seperti di atas, Anda cukup mulai dengan angka 2 dan lanjutkan ke angka berikutnya. Di bawah ini, Anda dapat melihat hasil dari proses ini dengan cara yang sama seperti di atas.
 
-
-- 2: 25.225.200 ($50.450.400 = 2 \cdot 25.225.200$)
-- 2: 12.612.600 ($50.450.400 = 2^2 \cdot 12.612.600$)
-- 2: 6.306.300 ($50.450.400 = 2^3 \cdot 6.306.300$)
-- 2: 3.153.150 (Rp 50.450.400 = 2^4 \cdot 3.153.150$)
-- 2: 1.576.575 ($50.450.400 = 2^5 \cdot 1.576.575$)
-- 3: 525.525 (Rp 50.450.400 = 2^5 \cdot 3 \cdot 525.525$)
-- 3: 175.175 (Rp 50.450.400 = 2^5 \cdot 3^2 \cdot 175.175$)
-- 5: 35.035 (Rp 50.450.400 = 2^5 \cdot 3^2 \cdot 5 \cdot 35.035$)
-- 5: 7.007 ($50.450.400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7.007$)
-- 7: 1.001 (Rp 50.450.400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7 \cdot 1.001$)
-- 7: 143 ($50.450.400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 143$)
-- 11: 13 ($50.450.400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 11 \cdot 13$)
+- 2: $25,225,200$ ($50,450,400 = 2 \cdot 25,225,200$)
+- 2: $12,612,600$ ($50,450,400 = 2^2 \cdot 12,612,600$)
+- 2: $6,306,300$ ($50,450,400 = 2^3 \cdot 6,306,300$)
+- 2: $3,153,150$ ($50,450,400 = 2^4 \cdot 3,153,150$)
+- 2: $1,576,575$ ($50,450,400 = 2^5 \cdot 1,576,575$)
+- 3: $525,525$ ($50,450,400 = 2^5 \cdot 3 \cdot 525,525$)
+- 3: $175,175$ ($50,450,400 = 2^5 \cdot 3^2 \cdot 175,175$)
+- 5: $35,035$ ($50,450,400 = 2^5 \cdot 3^2 \cdot 5 \cdot 35,035$)
+- 5: $7,007$ ($50,450,400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7,007$)
+- 7: $1,001$ ($50,450,400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7 \cdot 1,001$)
+- 7: $143$ ($50,450,400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 143$)
+- 11: $13$ ($50,450,400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 11 \cdot 13$)
 - Karena 13 adalah bilangan prima, hasilnya adalah $2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 11 \cdot 13$.
+
 
 Mengatasi masalah ini dengan tangan membutuhkan waktu. Komputer, tentu saja, dapat melakukan semua ini dalam sepersekian detik. Bahkan, komputer sering kali dapat memfaktorkan bilangan bulat yang sangat besar dalam sepersekian detik.
 
@@ -2058,7 +2010,7 @@ Misalkan sekarang setelah memilih secara acak bilangan prima $p$ dan $q$, kita m
 
 Misalkan Anda hanya memberikan sebuah komputer dengan nilai $N$, dan memintanya untuk menemukan dua faktor prima 1024 bit dari $N$. Kemungkinan komputer menemukan $p$ dan $q$ sangatlah kecil. Bisa dikatakan mustahil untuk semua tujuan praktis. Hal ini terjadi bahkan jika Anda menggunakan superkomputer atau bahkan jaringan superkomputer.
 
-Sebagai permulaan, anggaplah komputer mencoba untuk menyelesaikan masalah dengan cara menelusuri bilangan 1024 bit, menguji setiap bilangan apakah bilangan tersebut bilangan prima dan apakah bilangan tersebut merupakan faktor dari $N$. Himpunan bilangan prima yang akan diuji adalah sekitar $ 1,265 \cdot 10^{305}$. [2]
+Sebagai permulaan, anggaplah komputer mencoba untuk menyelesaikan masalah dengan cara menelusuri bilangan 1024 bit, menguji setiap bilangan apakah bilangan tersebut bilangan prima dan apakah bilangan tersebut merupakan faktor dari $N$. Himpunan bilangan prima yang akan diuji adalah sekitar $1,265 \cdot 10^{305}$. [2]
 
 Bahkan jika Anda mengambil semua komputer di planet ini dan meminta mereka mencoba menemukan dan menguji bilangan prima 1024-bit dengan cara ini, peluang 1 banding 1 miliar untuk berhasil menemukan faktor prima dari $N$ akan membutuhkan periode perhitungan yang jauh lebih lama daripada usia alam semesta.
 
@@ -2076,7 +2028,7 @@ Oleh karena itu, masalah faktorisasi, dalam keadaan tertentu, dapat diasumsikan 
 
 $$ \frac{2^{1024}}{\ln(2^{1024})} - \frac{2^{1023}}{\ln(2^{1023})} $$
 
-... yang setara dengan sekitar $1,265 \kali 10^{305}$.
+... yang setara dengan sekitar $1,265 \times 10^{305}$.
 
 [3] Hal yang sama juga berlaku untuk masalah logaritma diskrit. Oleh karena itu, mengapa konstruksi asimetris bekerja dengan kunci yang jauh lebih besar daripada konstruksi kriptografi simetris.
 
@@ -2132,7 +2084,8 @@ Dengan kata lain, bilangan bulat 119 memiliki 96 koprimer dalam rentang 1 sampai
 
 Mulai dari sini, mari kita nyatakan himpunan dari coprimes yang menentukan urutan dari $N$ sebagai $C_N$. Untuk contoh kita di mana $N = 119$, himpunan $C_{119}$ terlalu besar untuk dituliskan secara lengkap. Tetapi beberapa elemen-elemennya adalah sebagai berikut:
 
-$$C_{119} = \{1, 2, \ titik 6, 8 \ titik 13, 15, 16, 18, \ titik 33, 35 \ titik 96\}$$
+$$C_{119} = \{1, 2, \dots 6, 8, \dots 13, 15, 16, 18, \dots 33, 35 \dots 96\}$$
+
 
 ### Invertibilitas modulo N
 
@@ -2146,7 +2099,7 @@ Misalkan, sebagai contoh, $a = 5$ dan $N = 11$. Ada banyak bilangan bulat yang d
 
 Meskipun 5 memiliki banyak invers pengurangan modulo 11, Anda dapat menunjukkan bahwa hanya ada satu invers positif dari 5 yang kurang dari 11. Faktanya, ini tidak unik untuk contoh khusus kita, tetapi merupakan hasil umum.
 
-**Proposisi 3**. Jika bilangan bulat $a$ dapat dibalik modulo $N$, maka harus ada satu invers positif dari $a$ yang kurang dari $N$. (Jadi, invers unik dari $a$ ini harus berasal dari himpunan $\{1, \titik-titik, N - 1\}$).
+**Proposisi 3**. Jika bilangan bulat $a$ dapat dibalik modulo $N$, maka harus ada satu invers positif dari $a$ yang kurang dari $N$. (Jadi, invers unik dari $a$ ini harus berasal dari himpunan $\{1, \dots, N - 1\}$).
 
 Mari kita nyatakan kebalikan unik dari $a$ dari **Proposisi 3** sebagai $a^{-1}$. Untuk kasus ketika $a = 5$ dan $N = 11$, Anda dapat melihat bahwa $a^{-1} = 9$, mengingat bahwa $5 \cdot 9 \mod 11 = 45 \mod 11 = 1 \mod 11$.
 
@@ -2172,7 +2125,6 @@ Misalkan $a = 5$ dan $N = 7$. Ini memang merupakan koprimer seperti yang disyara
 
 Teorema Euler sekarang menyatakan bahwa $5^6 \mod 7$ harus sama dengan $1 \mod 7$. Di bawah ini adalah perhitungan yang menunjukkan bahwa hal ini memang benar.
 
-
 - $5^6 \mod 7 = 15.625 \mod 7 = 1 \mod N$
 
 Bilangan bulat 7 dibagi menjadi 15.624 sebanyak 2.233 kali. Oleh karena itu, sisa pembagian 16.625 dengan 7 adalah 1.
@@ -2184,7 +2136,6 @@ Selanjutnya, dengan menggunakan fungsi Phi Euler, **Teorema 2**, Anda dapat memp
 Kami tidak akan menunjukkan mengapa hal ini terjadi. Tetapi cukup perhatikan bahwa Anda telah melihat bukti dari proposisi ini dari fakta bahwa $\phi(p \cdot q) = \phi(p) \cdot \phi(q) = (p - 1) \cdot (q - 1)$ ketika $p$ dan $q$ adalah bilangan-bilangan prima, seperti yang dinyatakan dalam **Proposisi 2**.
 
 Teorema Euler dalam hubungannya dengan Proposisi 5 memiliki implikasi yang penting. Lihat apa yang terjadi, sebagai contoh, pada ekspresi di bawah ini, di mana $a$ dan $N$ adalah koprima.
-
 
 - $a^{2 \cdot \phi(N)} \mod N = a^{\phi(N)} \cdot a^{\phi(N)} \mod N = 1 \cdot 1 \mod N = 1 \mod N$
 - $a^{\phi(N) + 1} \mod N = a^{\phi(N)} \cdot a^1 \mod N = 1 \cdot a^1 \mod N = a \mod N$
@@ -2248,13 +2199,11 @@ Langkah 4 sekarang mengharuskan kita menghitung nilai $d$ sedemikian rupa sehing
 
 Meskipun saya tidak menunjukkan prosedurnya di sini, prosedur ini menghasilkan nilai 7 ketika $e = 103$. Anda dapat memverifikasi bahwa pasangan nilai 103 dan 7 memang memenuhi kondisi umum $e \cdot d \mod \phi(n) = 1$ melalui perhitungan di bawah ini.
 
-
 - $103 \cdot 7 \mod 360 = 721 \mod 360 = 1 \mod 360$
 
 Yang penting, dengan *Proposisi 4*, kita tahu bahwa tidak ada bilangan bulat lain antara 1 dan 360 untuk $d$ yang akan memberikan hasil $103 \cdot d = 1 \mod 360$. Sebagai tambahan, proposisi ini mengimplikasikan bahwa memilih sebuah nilai yang berbeda untuk $e$, akan menghasilkan sebuah nilai unik yang berbeda untuk $d$.
 
 Pada langkah 5 dari masalah RSA, kita harus memilih beberapa bilangan bulat positif $y$ yang merupakan bilangan prima yang lebih kecil dari 403. Misalkan kita menetapkan $y = 2^{103}$. Eksponensial dari 2 dengan 103 menghasilkan hasil di bawah ini.
-
 
 - $2^{103} \mod 403 = 10.141.204.801.825.835.211.973.625.643.008 \mod 403 = 349 \mod 403$
 

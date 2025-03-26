@@ -1992,18 +1992,18 @@ Předpokládejme nyní, že $N$ je velmi velké. Jak obtížné by bylo redukova
 To skutečně závisí na $N$. Předpokládejme například, že $N$ je 50 450 400. I když toto číslo vypadá hrozivě, výpočty nejsou tak složité a lze je snadno provést ručně. Stejně jako výše stačí začít od čísla 2 a postupovat dále. Níže si můžete prohlédnout výsledek tohoto postupu podobným způsobem jako výše.
 
 
-- 2: $25,225,200$ (50,450,400 USD = $2 \cdot 25,225,200$ USD)
-- 2: $12,612,600$ (50,450,400 USD = $2^2 \cdot 12,612,600$)
-- 2: $6,306,300$ (50,450,400 USD = $2^3 \cdot 6,306,300$)
-- 2: $3,153,150$ (50,450,400 USD = $2^4 \cdot 3,153,150$)
-- 2: $1,576,575$ (50,450,400 USD = $2^5 \cdot 1,576,575$)
-- 3: $525,525$ (50,450,400 USD = $2^5 \cdot 3 \cdot 525,525$)
-- 3: $175,175$ (50,450,400 USD = $2^5 \cdot 3^2 \cdot 175,175$)
-- 5: $35,035$ (50,450,400 USD = $2^5 \cdot 3^2 \cdot 5 \cdot 35,035$)
-- 5: $7,007$ (50,450,400 USD = $2^5 \cdot 3^2 \cdot 5^2 \cdot 7,007$)
-- 7: $1,001$ (50,450,400 USD = $2^5 \cdot 3^2 \cdot 5^2 \cdot 7 \cdot 1,001$)
-- 7: $143$ (50,450,400 USD = $2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 143$)
-- 11: $13$ (50,450,400 USD = $2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 11 \cdot 13$)
+- 2: $25,225,200$ (50,450,400  = $2 \cdot 25,225,200$ USD)
+- 2: $12,612,600$ (50,450,400  = $2^2 \cdot 12,612,600$)
+- 2: $6,306,300$ (50,450,400  = $2^3 \cdot 6,306,300$)
+- 2: $3,153,150$ (50,450,400  = $2^4 \cdot 3,153,150$)
+- 2: $1,576,575$ (50,450,400  = $2^5 \cdot 1,576,575$)
+- 3: $525,525$ (50,450,400  = $2^5 \cdot 3 \cdot 525,525$)
+- 3: $175,175$ (50,450,400  = $2^5 \cdot 3^2 \cdot 175,175$)
+- 5: $35,035$ (50,450,400  = $2^5 \cdot 3^2 \cdot 5 \cdot 35,035$)
+- 5: $7,007$ (50,450,400  = $2^5 \cdot 3^2 \cdot 5^2 \cdot 7,007$)
+- 7: $1,001$ (50,450,400  = $2^5 \cdot 3^2 \cdot 5^2 \cdot 7 \cdot 1,001$)
+- 7: $143$ (50,450,400  = $2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 143$)
+- 11: $13$ (50,450,400  = $2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 11 \cdot 13$)
 - Protože 13 je prvočíslo, výsledek je $2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 11 \cdot 13$.
 
 Ruční řešení tohoto problému zabere nějaký čas. Počítač to samozřejmě zvládne za zlomek sekundy. Ve skutečnosti počítač často dokáže faktorizovat i extrémně velká celá čísla za zlomek sekundy.

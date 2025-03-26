@@ -110,7 +110,7 @@ Morris tentò di decifrare i tre testi cifrati per vent'anni. Con la chiave sare
 
 Verso la fine della sua vita, Morriss passò la scatola a un amico nel 1862. Questo amico pubblicò poi un opuscolo nel 1885, con lo pseudonimo di J.B. Ward. L'opuscolo includeva una descrizione della (presunta) storia della scatola, i tre testi cifrati e una soluzione che aveva trovato per il secondo testo cifrato. (A quanto pare, esiste una chiave per ogni testo cifrato, e non una chiave che funziona su tutti e tre i testi cifrati, come sembra aver suggerito Beale nella sua lettera a Morriss)
 
-Il secondo testo cifrato è visibile nella *Figura 2* qui sotto. [La chiave di questo testo cifrato è la Dichiarazione di Indipendenza degli Stati Uniti. La procedura di decrittazione si riduce all'applicazione delle due regole seguenti:
+Il secondo testo cifrato è visibile nella *Figura 2* qui sotto. La chiave di questo testo cifrato è la Dichiarazione di Indipendenza degli Stati Uniti. La procedura di decrittazione si riduce all'applicazione delle due regole seguenti:
 
 
 - Per qualsiasi numero n nel testo cifrato, individuare l'ennesima parola della Dichiarazione d'Indipendenza degli Stati Uniti
@@ -136,7 +136,7 @@ Dopo la decrittazione, il secondo messaggio fornisce il contenuto dettagliato de
 
 Storie colorate come quella dei cifrari di Beale sono ciò che la maggior parte di noi associa alla crittografia. Tuttavia, la crittografia moderna si differenzia per almeno quattro aspetti importanti da questi esempi storici.
 
-In primo luogo, storicamente la crittografia si è occupata solo di **segretezza** (o riservatezza). [I crittogrammi verrebbero creati per garantire che solo alcuni soggetti possano essere a conoscenza delle informazioni contenute nei testi in chiaro, come nel caso dei cifrari di Beale. Affinché uno schema di crittografia serva bene a questo scopo, la decrittazione del testo cifrato deve essere possibile solo se si possiede la chiave.
+In primo luogo, storicamente la crittografia si è occupata solo di **segretezza** (o riservatezza). I crittogrammi verrebbero creati per garantire che solo alcuni soggetti possano essere a conoscenza delle informazioni contenute nei testi in chiaro, come nel caso dei cifrari di Beale. Affinché uno schema di crittografia serva bene a questo scopo, la decrittazione del testo cifrato deve essere possibile solo se si possiede la chiave.
 
 La crittografia moderna si occupa di una gamma di temi più ampia della semplice segretezza. Questi temi includono principalmente (1) l'**integrità del messaggio**, cioè la garanzia che un messaggio non sia stato modificato; (2) l'**autenticità del messaggio**, cioè la garanzia che un messaggio provenga realmente da un determinato mittente; e (3) il **non ripudio**, cioè la garanzia che un mittente non possa falsamente negare in seguito di aver inviato un messaggio. [4]
 
@@ -164,7 +164,7 @@ In particolare, la crittografia moderna è incentrata sulle **prove di sicurezza
 
 In quarto luogo, mentre storicamente la crittografia veniva utilizzata principalmente in ambito militare, nell'era digitale è arrivata a permeare le nostre attività quotidiane. Che si tratti di effettuare operazioni bancarie online, di postare sui social media, di acquistare un prodotto su Amazon con la carta di credito o di dare una mancia in bitcoin a un amico, la crittografia è la conditio sine qua non della nostra era digitale.
 
-Considerati questi quattro aspetti della crittografia moderna, potremmo definire la **crittografia** moderna come la scienza che si occupa dello sviluppo e dell'analisi formale di schemi crittografici per proteggere le informazioni digitali da attacchi avversari. [La sicurezza deve essere intesa in senso lato come la prevenzione di attacchi che danneggiano la segretezza, l'integrità, l'autenticazione e/o il non ripudio delle comunicazioni.
+Considerati questi quattro aspetti della crittografia moderna, potremmo definire la **crittografia** moderna come la scienza che si occupa dello sviluppo e dell'analisi formale di schemi crittografici per proteggere le informazioni digitali da attacchi avversari. La sicurezza deve essere intesa in senso lato come la prevenzione di attacchi che danneggiano la segretezza, l'integrità, l'autenticazione e/o il non ripudio delle comunicazioni.
 
 La crittografia è vista come una sottodisciplina della **cbersicurezza**, che si occupa di prevenire il furto, il danneggiamento e l'uso improprio dei sistemi informatici. Si noti che molti problemi di cybersecurity hanno una connessione minima o parziale con la crittografia.
 
@@ -738,7 +738,7 @@ Ad esempio, supponiamo che $N$ sia $10$. Solo i numeri interi $1$, $3$, $7$ e $9
 
 Nel caso in cui $N$ stesso sia primo, tutti i numeri interi da $1$ a $N - 1$ sono coprimari di $N$. Un gruppo di questo tipo ha quindi un ordine di $N - 1$. Utilizzando la notazione precedente, $\mathbb{Z}^c \mod N$ equivale a $\mathbb{Z}^* \mod N$ quando $N$ è primo. Il gruppo scelto per l'esempio precedente, $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$, è un'istanza particolare di questa classe di gruppi.
 
-Successivamente, la funzione $\phi(N)$ calcola il numero di coprimi fino a un numero $N$, ed è nota come **funzione Phi di Eulero**. [Secondo il **teorema di Eulero**, quando due numeri interi $a$ e $N$ sono coprimi, vale quanto segue:
+Successivamente, la funzione $\phi(N)$ calcola il numero di coprimi fino a un numero $N$, ed è nota come **funzione Phi di Eulero**. Secondo il **teorema di Eulero**, quando due numeri interi $a$ e $N$ sono coprimi, vale quanto segue:
 
 
 - $a^{\phi(N)} \mod N = 1 \mod N$
@@ -1891,11 +1891,11 @@ Una funzione hash $H$ si dice **resistente alle collisioni** se è impossibile t
 
 Le funzioni hash resistenti alle collisioni sono importanti, ad esempio, nella verifica del software. Supponiamo di voler scaricare la versione Windows di Bitcoin Core 0.21.0 (un'applicazione server per l'elaborazione del traffico di rete Bitcoin). I passi principali da compiere per verificare la legittimità del software sono i seguenti:
 
-1.	Per prima cosa è necessario scaricare e importare le chiavi pubbliche di uno o più collaboratori di Bitcoin Core in un software in grado di verificare le firme digitali (ad esempio Kleopetra). È possibile trovare queste chiavi pubbliche [qui] (https://github.com/bitcoin/bitcoin/blob/master/contrib/builder-keys/keys.txt). Si raccomanda di verificare il software Bitcoin Core con le chiavi pubbliche di più collaboratori.
+1.	Per prima cosa è necessario scaricare e importare le chiavi pubbliche di uno o più collaboratori di Bitcoin Core in un software in grado di verificare le firme digitali (ad esempio Kleopetra). È possibile trovare queste chiavi pubbliche [qui](https://github.com/bitcoin/bitcoin/blob/master/contrib/builder-keys/keys.txt). Si raccomanda di verificare il software Bitcoin Core con le chiavi pubbliche di più collaboratori.
 
 2.	Successivamente, è necessario verificare le chiavi pubbliche importate. Almeno uno dei passi da compiere è verificare che le chiavi pubbliche trovate siano le stesse pubblicate in altri luoghi. Ad esempio, si possono consultare le pagine web personali, le pagine Twitter o le pagine Github delle persone di cui si sono importate le chiavi pubbliche. In genere, il confronto tra le chiavi pubbliche viene effettuato confrontando un breve hash della chiave pubblica, noto come impronta digitale.
 
-3.	Successivamente, è necessario scaricare l'eseguibile per Bitcoin Core dal loro [sito web] (www.bitcoincore.org). Sono disponibili pacchetti per i sistemi operativi Linux, Windows e MAC.
+3.	Successivamente, è necessario scaricare l'eseguibile per Bitcoin Core dal loro [sito web](www.bitcoincore.org). Sono disponibili pacchetti per i sistemi operativi Linux, Windows e MAC.
 
 4.	Successivamente, è necessario individuare due file di rilascio. Il primo contiene l'hash SHA-256 ufficiale dell'eseguibile scaricato insieme agli hash di tutti gli altri pacchetti rilasciati. Un altro file di rilascio conterrà le firme dei vari collaboratori sul file di rilascio con gli hash dei pacchetti. Entrambi i file di rilascio si trovano sul sito web di Bitcoin Core.
 

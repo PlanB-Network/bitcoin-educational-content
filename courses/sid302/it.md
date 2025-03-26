@@ -1,6 +1,6 @@
 ---
 name: Elementi essenziali del Liquid Bootcamp
-goal: Acquisire una conoscenza completa della Liquid Network e del progetto Elements e impara a implementare soluzioni avanzate in materia di transazioni riservate, tokenizzazione e architettura della rete decentralizzata.
+goal: Acquisire una conoscenza completa della Liquid Network e del progetto Elements e imparare a implementare soluzioni avanzate in materia di transazioni riservate, tokenizzazione e architettura della rete decentralizzata.
 objectives: 
 
   - Comprendere i fondamenti dell'architettura della rete Liquid e la sua relazione con Bitcoin.

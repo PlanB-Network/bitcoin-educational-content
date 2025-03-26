@@ -53,7 +53,7 @@ Jika Anda benar-benar kesulitan dengan detail formal di bagian buku ini, saya sa
 
 Buku yang paling berpengaruh dalam membentuk hal ini adalah buku Jonathan Katz dan Yehuda Lindell yang berjudul "Pengantar Kriptografi Modern", CRC Press (Boca Raton, FL), 2015. Kursus yang menyertainya tersedia di Coursera yang disebut "Cryptography."
 
-Sumber-sumber tambahan utama yang telah membantu dalam membuat gambaran umum dalam buku ini adalah Simon Singh, _The Code Book_, Fourth Estate (London, 1999); Christof Paar dan Jan Pelzl, _Understanding Cryptography_, Springer (Heidelberg, 2010) dan [kursus yang didasarkan pada buku karya Paar yang berjudul "Introduction to Cryptography"] (https://www.youtube.com/channel/UC1usFRN4LCMcfIV7UjHNuQg); dan Bruce Schneier, Applied Cryptography, 2nd edn, 2015 (Indianapolis, IN: John Wiley & Sons).
+Sumber-sumber tambahan utama yang telah membantu dalam membuat gambaran umum dalam buku ini adalah Simon Singh, _The Code Book_, Fourth Estate (London, 1999); Christof Paar dan Jan Pelzl, _Understanding Cryptography_, Springer (Heidelberg, 2010) dan [kursus yang didasarkan pada buku karya Paar yang berjudul "Introduction to Cryptography"](https://www.youtube.com/channel/UC1usFRN4LCMcfIV7UjHNuQg); dan Bruce Schneier, Applied Cryptography, 2nd edn, 2015 (Indianapolis, IN: John Wiley & Sons).
 
 Saya hanya akan mengutip informasi dan hasil yang sangat spesifik yang saya ambil dari sumber-sumber ini, tetapi saya ingin mengakui hutang budi saya secara umum kepada mereka di sini.
 
@@ -126,7 +126,7 @@ Setelah didekripsi, pesan kedua memberikan rincian isi harta karun tersebut (ema
 
 **Catatan:**
 
-[1] Untuk ringkasan cerita yang baik, lihat Simon Singh, *The Code Book*, Fourth Estate (London, 1999), hal. 82-99. Sebuah film pendek tentang cerita ini dibuat oleh Andrew Allen pada tahun 2010. Anda dapat menemukan film tersebut, "The Thomas Beale Cipher," [di situs webnya] (http://www.thomasbealecipher.com/).
+[1] Untuk ringkasan cerita yang baik, lihat Simon Singh, *The Code Book*, Fourth Estate (London, 1999), hal. 82-99. Sebuah film pendek tentang cerita ini dibuat oleh Andrew Allen pada tahun 2010. Anda dapat menemukan film tersebut, "The Thomas Beale Cipher," [di situs webnya](http://www.thomasbealecipher.com/).
 
 [2] Gambar ini tersedia di halaman Wikipedia untuk sandi Beale.
 
@@ -738,7 +738,7 @@ Sebagai contoh, anggaplah $N$ adalah 10. Hanya bilangan bulat 1, 3, 7, dan 9 yan
 
 Dalam kasus di mana $N$ adalah bilangan prima, semua bilangan bulat dari 1 sampai $N - 1$ adalah koprimer dari $N$. Grup seperti itu, dengan demikian, memiliki urutan $N - 1$. Dengan menggunakan notasi kita sebelumnya, $\mathbb{Z}^c \mod N$ sama dengan $\mathbb{Z}^* \mod N$ ketika $N$ adalah bilangan prima. Grup yang kita pilih untuk contoh sebelumnya, $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$, adalah sebuah contoh khusus dari kelas grup ini.
 
-Selanjutnya, fungsi $\phi(N)$ menghitung jumlah coprimes hingga bilangan $N$, dan dikenal sebagai **fungsi Phi Euler**. [Menurut **Teorema Euler**, setiap kali dua bilangan bulat $a$ dan $N$ adalah koprimer, maka berlaku hal berikut:
+Selanjutnya, fungsi $\phi(N)$ menghitung jumlah coprimes hingga bilangan $N$, dan dikenal sebagai **fungsi Phi Euler**. Menurut **Teorema Euler**, setiap kali dua bilangan bulat $a$ dan $N$ adalah koprimer, maka berlaku hal berikut:
 
 
 - $a^{\phi(N)} \mod N = 1 \mod N$

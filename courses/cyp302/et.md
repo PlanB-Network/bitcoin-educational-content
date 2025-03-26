@@ -126,7 +126,7 @@ Pärast dekrüpteerimist esitatakse teises sõnumis aarde üksikasjalik sisu (ku
 
 **Märkused:**
 
-[1] Hea kokkuvõte loost on esitatud Simon Singh, *The Code Book*, Fourth Estate (London, 1999), lk 82-99. Loo lühifilmi tegi Andrew Allen 2010. aastal. Filmi "The Thomas Beale Cipher" [selle veebisaidilt] (http://www.thomasbealecipher.com/) leiate.
+[1] Hea kokkuvõte loost on esitatud Simon Singh, *The Code Book*, Fourth Estate (London, 1999), lk 82-99. Loo lühifilmi tegi Andrew Allen 2010. aastal. Filmi "The Thomas Beale Cipher" [selle veebisaidilt](http://www.thomasbealecipher.com/) leiate.
 
 [2] See pilt on saadaval Beale'i šifrite Vikipeedia lehel.
 

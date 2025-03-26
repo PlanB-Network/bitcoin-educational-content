@@ -28,7 +28,7 @@ Esta introdução à criptografia procura captar o meio-termo. Embora deva ser r
 
 Este livro oferece uma introdução aprofundada à ciência e à prática da criptografia. Sempre que possível, centra-se na exposição concetual, em vez de formal, do material.
 
-> Este curso é baseado no repositório de [JWBurgers] (https://github.com/JWBurgers/An_Introduction_to_Cryptography). Tudo bem para ele. O conteúdo ainda não está terminado e só está aqui para mostrar como o podemos integrar se o JWburger concordar.
+> Este curso é baseado no repositório de [JWBurgers](https://github.com/JWBurgers/An_Introduction_to_Cryptography). Tudo bem para ele. O conteúdo ainda não está terminado e só está aqui para mostrar como o podemos integrar se o JWburger concordar.
 ### Motivação e objectivos
 
 É difícil encontrar muitos materiais que ofereçam um bom meio-termo no ensino da criptografia.
@@ -53,7 +53,7 @@ Se tiver dificuldades com os pormenores formais destas partes do livro, recomend
 
 O livro mais influente na formação deste foi o _Introduction to Modern Cryptography_ de Jonathan Katz e Yehuda Lindell, CRC Press (Boca Raton, FL), 2015. Um curso de acompanhamento está disponível no Coursera chamado "Cryptography"
 
-As principais fontes adicionais que foram úteis para criar a visão geral deste livro são Simon Singh, _The Code Book_, Fourth Estate (Londres, 1999); Christof Paar e Jan Pelzl, _Understanding Cryptography_, Springer (Heidelberg, 2010) e [um curso baseado no livro de Paar chamado "Introduction to Cryptography"] (https://www.youtube.com/channel/UC1usFRN4LCMcfIV7UjHNuQg); e Bruce Schneier, Applied Cryptography, 2nd edn, 2015 (Indianapolis, IN: John Wiley & Sons).
+As principais fontes adicionais que foram úteis para criar a visão geral deste livro são Simon Singh, _The Code Book_, Fourth Estate (Londres, 1999); Christof Paar e Jan Pelzl, _Understanding Cryptography_, Springer (Heidelberg, 2010) e [um curso baseado no livro de Paar chamado "Introduction to Cryptography"](https://www.youtube.com/channel/UC1usFRN4LCMcfIV7UjHNuQg); e Bruce Schneier, Applied Cryptography, 2nd edn, 2015 (Indianapolis, IN: John Wiley & Sons).
 
 Apenas citarei informações e resultados muito específicos que retiro destas fontes, mas quero reconhecer aqui a minha dívida geral para com elas.
 
@@ -61,7 +61,7 @@ Para os leitores que desejam procurar conhecimentos mais avançados sobre cripto
 
 ### Contribuições
 
-Por favor, consulte [o ficheiro de contribuições no repositório] (https://github.com/JWBurgers/An_Introduction_to_Cryptography/blob/master/Contributions.md) para obter algumas orientações sobre como apoiar o projeto.
+Por favor, consulte [o ficheiro de contribuições no repositório](https://github.com/JWBurgers/An_Introduction_to_Cryptography/blob/master/Contributions.md) para obter algumas orientações sobre como apoiar o projeto.
 
 ### Notação
 
@@ -126,7 +126,7 @@ Após a descodificação, a segunda mensagem fornece o conteúdo detalhado do te
 
 **Notas:**
 
-[1] Para um bom resumo da história, ver Simon Singh, *The Code Book*, Fourth Estate (Londres, 1999), pp. 82-99. Um pequeno filme da história foi realizado por Andrew Allen em 2010. Pode encontrar o filme, "The Thomas Beale Cipher", [no seu sítio Web] (http://www.thomasbealecipher.com/).
+[1] Para um bom resumo da história, ver Simon Singh, *The Code Book*, Fourth Estate (Londres, 1999), pp. 82-99. Um pequeno filme da história foi realizado por Andrew Allen em 2010. Pode encontrar o filme, "The Thomas Beale Cipher", [no seu sítio Web](http://www.thomasbealecipher.com/).
 
 [2] Esta imagem está disponível na página da Wikipédia sobre as cifras de Beale.
 
@@ -136,7 +136,7 @@ Após a descodificação, a segunda mensagem fornece o conteúdo detalhado do te
 
 Histórias coloridas, como a das cifras de Beale, são o que a maioria de nós associa à criptografia. No entanto, a criptografia moderna difere em pelo menos quatro aspectos importantes deste tipo de exemplos históricos.
 
-Em primeiro lugar, historicamente, a criptografia tem-se preocupado apenas com o **secreto** (ou confidencialidade)[3]. [Os textos cifrados seriam criados para garantir que apenas certas partes poderiam ter acesso à informação contida nos textos simples, como no caso das cifras de Beale. Para que um esquema de encriptação sirva bem este propósito, decifrar o texto cifrado só deve ser possível se se tiver a chave.
+Em primeiro lugar, historicamente, a criptografia tem-se preocupado apenas com o **secreto** (ou confidencialidade)[3]. Os textos cifrados seriam criados para garantir que apenas certas partes poderiam ter acesso à informação contida nos textos simples, como no caso das cifras de Beale. Para que um esquema de encriptação sirva bem este propósito, decifrar o texto cifrado só deve ser possível se se tiver a chave.
 
 A criptografia moderna preocupa-se com uma gama mais vasta de temas do que apenas o segredo. Estes temas incluem principalmente (1) **integridade da mensagem**-isto é, garantir que uma mensagem não foi alterada; (2) **autenticidade da mensagem**-isto é, garantir que uma mensagem veio efetivamente de um determinado remetente; e (3) **não repúdio**-isto é, garantir que um remetente não pode negar falsamente mais tarde que enviou uma mensagem. [4]
 
@@ -174,7 +174,7 @@ Por exemplo, os ataques de **phishing** são um problema comum na nossa era mode
 
 **Notas:**
 
-[Para ser exato, as aplicações importantes dos esquemas criptográficos têm sido relacionadas com o segredo. As crianças, por exemplo, utilizam frequentemente esquemas criptográficos simples para se "divertirem". Nestes casos, o segredo não é uma preocupação real.
+Para ser exato, as aplicações importantes dos esquemas criptográficos têm sido relacionadas com o segredo. As crianças, por exemplo, utilizam frequentemente esquemas criptográficos simples para se "divertirem". Nestes casos, o segredo não é uma preocupação real.
 
 [4] Bruce Schneier, *Applied Cryptography*, 2.ª ed., 2015 (Indianapolis, IN: John Wiley & Sons), p. 2.
 
@@ -1046,7 +1046,7 @@ Pode também encontrar os termos **encriptar** ou **decifrar**. Estes termos sã
 
 <chapterId>2d73ef97-26c5-5d11-8815-0ddbe89c8003</chapterId>
 
-A cifra shift é um esquema de encriptação simétrica muito inseguro, pelo menos no mundo moderno[1]. [Um atacante pode simplesmente tentar desencriptar qualquer texto cifrado com todas as 26 chaves possíveis para ver qual o resultado que faz sentido. Este tipo de ataque, em que o atacante está apenas a percorrer as chaves para ver o que funciona, é conhecido como **brute force attack** ou **exhaustive key search**.
+A cifra shift é um esquema de encriptação simétrica muito inseguro, pelo menos no mundo moderno[1]. Um atacante pode simplesmente tentar desencriptar qualquer texto cifrado com todas as 26 chaves possíveis para ver qual o resultado que faz sentido. Este tipo de ataque, em que o atacante está apenas a percorrer as chaves para ver o que funciona, é conhecido como **brute force attack** ou **exhaustive key search**.
 
 Para que qualquer esquema de encriptação cumpra uma noção mínima de segurança, deve ter um conjunto de chaves possíveis, ou **espaço de chaves**, que seja tão grande que os ataques de força bruta sejam inviáveis. Todos os esquemas de encriptação modernos cumprem esta norma. É conhecido como o princípio do **espaço de chaves suficiente**. Um princípio semelhante aplica-se tipicamente em diferentes tipos de esquemas criptográficos.
 
@@ -1252,7 +1252,7 @@ A cifra de bloco AES será explicada em pormenor no *Capítulo 5*.
 
 [5] A importância da encriptação probabilística foi salientada pela primeira vez por Shafi Goldwasser e Silvio Micali, "Probabilistic encryption," _Journal of Computer and System Sciences_, 28 (1984), 270-99.
 
-[6] Ver NSA, "Commercial National Security Algorithm Suite", [https://apps.nsa.gov/iaarchive/programs/iad-initiatives/cnsa-suite.cfm] (https://apps.nsa.gov/iaarchive/programs/iad-initiatives/cnsa-suite.cfm).
+[6] Ver NSA, "Commercial National Security Algorithm Suite", [https://apps.nsa.gov/iaarchive/programs/iad-initiatives/cnsa-suite.cfm](https://apps.nsa.gov/iaarchive/programs/iad-initiatives/cnsa-suite.cfm).
 
 ## Esclarecer a confusão
 
@@ -1771,7 +1771,7 @@ De seguida, passaremos a uma visão geral de alto nível do sigilo e da autentic
 
 Atualmente, parece plausível que um grupo de criptógrafos e matemáticos britânicos que trabalhavam para o Government Communications Headquarters (GCHQ) tenha feito, de forma independente, as descobertas acima mencionadas alguns anos antes. Este grupo era constituído por James Ellis, Clifford Cocks e Malcolm Williamson.
 
-De acordo com os seus próprios relatos e os do GCHQ, foi James Ellis quem primeiro concebeu o conceito de criptografia de chave pública em 1969. Supostamente, Clifford Cocks descobriu depois o sistema criptográfico RSA em 1973 e Malcolm Williamson o conceito de troca de chaves Diffie Helmann em 1974[4]. [No entanto, as suas descobertas só foram reveladas em 1997, dado o carácter secreto do trabalho realizado no GCHQ.
+De acordo com os seus próprios relatos e os do GCHQ, foi James Ellis quem primeiro concebeu o conceito de criptografia de chave pública em 1969. Supostamente, Clifford Cocks descobriu depois o sistema criptográfico RSA em 1973 e Malcolm Williamson o conceito de troca de chaves Diffie Helmann em 1974[4]. No entanto, as suas descobertas só foram reveladas em 1997, dado o carácter secreto do trabalho realizado no GCHQ.
 
 **Notas:**
 
@@ -1899,7 +1899,7 @@ As funções hash resistentes a colisões são importantes, por exemplo, na veri
 
 2.	De seguida, é necessário verificar as chaves públicas que importou. Pelo menos um passo que deve dar é verificar se as chaves públicas que encontrou são as mesmas que foram publicadas em vários outros locais. Pode, por exemplo, consultar as páginas Web pessoais, as páginas do Twitter ou as páginas do Github das pessoas cujas chaves públicas importou. Normalmente, esta comparação de chaves públicas é efectuada através da comparação de um hash curto da chave pública, conhecido como impressão digital.
 
-3.	Em seguida, é necessário descarregar o executável para o Bitcoin Core a partir do seu [website] (www.bitcoincore.org). Haverá pacotes disponíveis para os sistemas operativos Linux, Windows e MAC.
+3.	Em seguida, é necessário descarregar o executável para o Bitcoin Core a partir do seu [website](www.bitcoincore.org). Haverá pacotes disponíveis para os sistemas operativos Linux, Windows e MAC.
 
 4.	A seguir, tem de localizar dois ficheiros de lançamento. O primeiro contém o hash SHA-256 oficial para o executável que descarregou juntamente com os hashes de todos os outros pacotes que foram lançados. Outro ficheiro de lançamento conterá as assinaturas de vários contribuidores sobre o ficheiro de lançamento com os hashes dos pacotes. Ambos os ficheiros de lançamento devem estar localizados no site do Bitcoin Core.
 
@@ -2034,7 +2034,7 @@ $$ \frac{2^{1024}}{\ln(2^{1024})} - \frac{2^{1023}}{\ln(2^{1023})} $$
 
 ...o que equivale a aproximadamente $1,265 \times 10^{305}$.
 
-[O mesmo se aplica aos problemas de logaritmos discretos. É por isso que as construções assimétricas funcionam com chaves muito maiores do que as construções criptográficas simétricas.
+O mesmo se aplica aos problemas de logaritmos discretos. É por isso que as construções assimétricas funcionam com chaves muito maiores do que as construções criptográficas simétricas.
 
 ## Resultados da teoria dos números
 

@@ -1,9 +1,9 @@
-question: Qual è il processo che verifica le transazioni sulla rete Bitcoin?
+question: Come si chiama il processo che verifica le transazioni sulla rete Bitcoin?
 answer: Mining
 wrong_answers:
-  - Vengono dissotterati con uno scavo
-  - Attraverso il raccolto
-  - Con la coltivazione
+  - Digging
+  - Harvesting
+  - Farming
 explanation: |
   Il processo che verifica le transazioni sulla rete Bitcoin si chiama mining. I miner risolvono un problema crittografico e vengono ricompensati con l'emissione di nuovi bitcoin.
 reviewed: vero

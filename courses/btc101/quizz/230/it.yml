@@ -1,7 +1,7 @@
 question: Cosa è possibile effettuare con Lightning Network?
 answer: Transazioni tra individui che non dispongono di un canale di pagamento diretto tra loro.
 wrong_answers:
-  - Creare connessioni acon canali di pagamento diretti e solo con scambi centralizzati.
+  - Creare connessioni con canali di pagamento diretti e solo con scambi centralizzati.
   - Creare connessioni al canale di pagamento che richiedono molteplici conferme per qualsiasi transazione.
   - Stabilire connessioni con canali di pagamento diretti e limitate solo a grandi transazioni.
 explanation: |

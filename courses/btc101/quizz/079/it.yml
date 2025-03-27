@@ -7,5 +7,5 @@ wrong_answers:
 explanation: |
   Se non si è soddisfatti della sicurezza predefinita di un
   wallet Bitcoin, la si può rinforzare aggiungendo una
-  passphrase alla lista di 12/24 parole.
+  passphrase alla mnemonica di 12/24 parole.
 reviewed: vero

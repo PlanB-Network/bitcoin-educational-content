@@ -1,9 +1,9 @@
 question: Come si può rinforzare la sicurezza predefinita in un wallet Bitcoin?
 answer: Aggiungendo una passphrase alla lista di 12/24 parole.
 wrong_answers:
-  - Aggiungendo una seconda chiave privata.
-  - Aggiungendo una seconda chiave pubblica.
-  - Aggiungendo una seconda frase mnemonica.
+  - Aggiungendo una seconda chiave privata alla lista di 12/24 parole.
+  - Aggiungendo una seconda chiave pubblica alla lista di 12/24 parole.
+  - Aggiungendo una seconda frase mnemonica alla lista di 12/24 parole.
 explanation: |
   Se non si è soddisfatti della sicurezza predefinita di un
   wallet Bitcoin, la si può rinforzare aggiungendo una

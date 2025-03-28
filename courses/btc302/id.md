@@ -1749,7 +1749,7 @@ Tentu saja, kita tidak boleh terjebak dalam bentuk pemikiran konspirasi. Namun *
 
 ![image](assets/fr/59.webp)
 
-# Bagian Akhir
+# Mengumpulkan Para Bitcoiner
 
 <partId>62bc2138-c0be-5d39-a341-594690863257</partId>
 

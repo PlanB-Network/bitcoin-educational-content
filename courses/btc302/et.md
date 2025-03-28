@@ -1749,7 +1749,7 @@ Loomulikult ei tohiks me langeda mingisse konspiratiivsesse mõtlemisse. Kuid **
 
 ![image](assets/fr/59.webp)
 
-# Lõpusektsioon
+# Koguda kokku Bitcoineri
 
 <partId>62bc2138-c0be-5d39-a341-594690863257</partId>
 

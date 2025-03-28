@@ -1749,7 +1749,7 @@ Samozřejmě bychom neměli propadat konspiračnímu myšlení. Ale **nic nám n
 
 ![image](assets/fr/59.webp)
 
-# Sekce finále
+# Shromáždit Bitcoinery
 
 <partId>62bc2138-c0be-5d39-a341-594690863257</partId>
 

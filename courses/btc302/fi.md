@@ -1749,7 +1749,7 @@ Meidän ei tietenkään pidä sortua salaliittolaisuuteen. Mikään ei kuitenkaa
 
 ![image](assets/fr/59.webp)
 
-# Lopullinen osio
+# Yhdistää Bitcoinereita
 
 <partId>62bc2138-c0be-5d39-a341-594690863257</partId>
 

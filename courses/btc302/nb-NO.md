@@ -1749,7 +1749,7 @@ Vi skal selvfølgelig ikke henfalle til en form for konspiratorisk tenkning. Men
 
 ![image](assets/fr/59.webp)
 
-# Siste seksjon
+# Samle Bitcoinere
 
 <partId>62bc2138-c0be-5d39-a341-594690863257</partId>
 

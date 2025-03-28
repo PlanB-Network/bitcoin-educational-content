@@ -1242,7 +1242,8 @@ Certo, non dovremmo cadere in una forma di pensiero cospirativo. Ma **nulla ci i
 
 ![image](assets/fr/59.webp)
 
-# Sezione finale
+# Riunire i Bitcoiners
+
 <partId>62bc2138-c0be-5d39-a341-594690863257</partId>
 
 ## Un piano d'azione riassunto per creare la tua comunità Bitcoin

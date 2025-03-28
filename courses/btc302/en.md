@@ -1748,7 +1748,7 @@ Of course, we should not fall into a form of conspiratorial thinking. But **noth
 
 ![image](assets/fr/59.webp)
 
-# Final Section
+# Bringing Bitcoiners Together
 
 <partId>62bc2138-c0be-5d39-a341-594690863257</partId>
 

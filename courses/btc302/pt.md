@@ -1749,7 +1749,7 @@ Evidentemente, não devemos cair numa forma de pensamento conspiratório. Mas **
 
 ![image](assets/fr/59.webp)
 
-# Seção final
+# Reunir os Bitcoiners
 
 <partId>62bc2138-c0be-5d39-a341-594690863257</partId>
 

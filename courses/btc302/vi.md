@@ -1749,7 +1749,7 @@ Tất nhiên, chúng ta không nên rơi vào dạng suy nghĩ theo thuyết âm
 
 ![image](assets/fr/59.webp)
 
-# Phần cuối
+# Tập hợp các Bitcoiner
 
 <partId>62bc2138-c0be-5d39-a341-594690863257</partId>
 

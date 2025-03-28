@@ -4371,7 +4371,7 @@ https://planb.network/tutorials/wallet/mobile/zeus-3e89603c-501d-439c-8691-d4a0d
 
 (नोट: "Custodial" का अनुवाद संदर्भ पर निर्भर करता है। यदि यह किसी संस्था/सेवा द्वारा प्रबंधित वॉलेट्स की बात कर रहा है, तो "संस्थागत" उचित है। वहीं, अगर यह कानूनी/सुरक्षा हिरासत जैसी स्थिति को दर्शाता है, तो "हिरासत वाले" बेहतर होगा।)
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-c4792842-b046-44f9-a6f1-351191b7cc2b
+https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 ## आवश्यक / मूलभूत  
 

@@ -157,17 +157,11 @@ Celkově je tento proces složitý, časově náročný a nákladný, protože b
 ### Srovnání platebních metod
 
 | Způsob platby | Potřebujete autorizaci?           | Doba schválení transakce (pohled obchodníka) | Rychlost vypořádání (úplně vypořádané prostředky) | Konečnost (snadnost zrušení) | Počet zprostředkovatelů | Typické poplatky (pro příjemce) |
-
 | ------------------------------ | ------------------------------- | ----------------------------------------- | ---------------------------------------------- | ---------------------------------------- | ------------------------------ | ---------------------------------- |
-
 | **Cash** | Ne | Okamžité (fyzická výměna) | Okamžité (bez zpoždění vypořádání) | Vysoké (nevratné po zaplacení) | Žádné | Žádné | Žádné |
-
 | **Šek** | Ano (bankovní zúčtování) | Přijetí při vkladu (není zaručeno) | Několik dní (proces zúčtování šeku) | Střední (může propadnout/zastavit se před zúčtováním) | Banka | **Nízké až střední** (bankovní poplatky) |
-
 | **Drátové převody** | Ano (banka/síť) | Potvrzení do několika hodin | Stejný den nebo následující den (vnitrostátní) | Vysoké (obvykle nevratné po odeslání) | Banky, platební sítě | **Střední**(pevné/procentní) |
-
 | **Platba kartami** | Ano (autorizace vydavatelem karty) | Sekundy až minuty (autorizační kód) | Několik dní (mezibankovní zúčtování) | Středně (možnost zpětného účtování) | Vydavatel, akceptant, karetní síť | **Variabilní (1-3 % transakce)** |
-
 | **Digitální peněženky/mobilní platby** | Ano (poskytovatel peněženky/banka) | Sekundy (okamžité potvrzení) | Obvykle 1-2 dny (závisí na zdroji financování) | Střední (možnost vrácení peněz/rozhodnutí o sporu) | Banky, provozovatelé peněženek | **Nízká až střední (různá)** |
 
 ### Omezení stávajících řešení
@@ -175,25 +169,15 @@ Celkově je tento proces složitý, časově náročný a nákladný, protože b
 Tradiční odvětví platebního styku představuje roční ekonomiku v hodnotě přibližně 2 200 miliard dolarů, což je zhruba desetina HDP Spojených států nebo stejná hodnota jako HDP Francie. Vzhledem k tomu, že měny fungují jako povolené sítě, je zde omezená konkurence, takže tato "služba" připomíná spíše daň uvalenou na produktivní ekonomiku. Kromě nákladové zátěže, kterou vytváří, existuje několik dalších omezení, jak je uvedeno níže.
 
 | Omezení | Vysvětlení | Dopad |
-
 | -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
-
 | Vysoké poplatky za platební karty | Mezibankovní poplatky (~0,3 %), síťové poplatky (fixní nebo 0,3-1 %), předplatné terminálů/PSP a bankovní marže (0,5-1,7 %) představují značné náklady - jako globální "daň" pro produktivní odvětví, která dosahuje bilionů dolarů.     | Zvyšuje náklady obchodníků, snižuje marže a potenciálně zvyšuje spotřebitelské ceny.                  |
-
 | Velmi pomalé konečné vypořádání | Vypořádání finančních prostředků může trvat až 5 dní, což zpomaluje tok peněz a celkovou ekonomickou aktivitu.                                                                                                                                | Zpožďuje likviditu obchodníků a snižuje rychlost ekonomického oběhu.                        |
-
 | Podvody | Kanály elektronického obchodování jsou silným terčem podvodů, které přispívají ke značným ztrátám (např. 28 miliard USD). Chargebacky by mohly do roku 2024 celosvětově dosáhnout ~174 miliard USD. Správa těchto sporů spotřebovává čas a způsobuje psychické vypětí. | Zvýšené provozní náklady, složitá opatření pro prevenci podvodů a snížená důvěra zákazníků.       |
-
 | Opuštění košíku | Další bezpečnostní kroky (jednorázové kódy, dvoufaktorové ověřování podle PSD2) přinášejí při placení třecí plochy.                                                                                                                   | Vyšší složitost pokladny vede k častějšímu opouštění košíku a ztrátě prodeje.                       |
-
 | Vysoké minimální částky transakcí | Minimální limity výdajů na kartách mohou nutit obchodníky a spotřebitele k nevýhodným cenovým nebo nákupním podmínkám a odrazovat od transakcí s malou hodnotou.                                                                       | Snížení spokojenosti a flexibility zákazníků, potenciální omezení impulzivních nákupů nebo nákupů s nízkou hodnotou.  |
-
 | Pomalá předběžná autorizace | Současné systémy nedokážou zpracovávat transakce milisekundovou rychlostí ani podporovat nepřetržité platební toky v reálném čase.                                                                                                                   | Omezuje případy použití, které vyžadují okamžité nebo proudové platby, což omezuje inovace a škálovatelnost. |
-
 | Potřeba bankovního/kartového účtu | Přístup k těmto platebním metodám vyžaduje propojený bankovní nebo karetní účet, což automaticky vylučuje ty, kteří takové účty nemají.                                                                                                       | Omezuje finanční začlenění a snižuje přístup nebankovních nebo nedostatečně bankovně zajištěných skupin obyvatelstva.                 |
-
 | Opakované vytváření online účtů | Uživatelé si často musí vytvářet více online účtů, což vede k únavě, snížení pohodlí a většímu vystavení osobních údajů.                                                                                                | Zhoršuje uživatelskou zkušenost, zvyšuje obavy o soukromí a riziko narušení dat.          |
-
 | Devizové poplatky | Absence univerzální zúčtovací jednotky nutí k nákladným převodům měn při přeshraničních transakcích.                                                                                                                              | Přidává další náklady na mezinárodní obchod, čímž se globální transakce stávají méně dostupnými.             |
 
 Stejně jako jsme přešli od placení za minutu hlasových hovorů k téměř bezplatné komunikaci na bázi IP, může vznik otevřenějších a efektivnějších sítí změnit definici plateb, snížit náklady a zprostředkovatele a podpořit nové obchodní modely.
@@ -522,35 +506,20 @@ Bitcoinové ETF vedou s velkým náskokem, pokud jde o **institucionální přij
 Bitcoin nyní hraje na **trhu s "uchovateli hodnoty "**. Z hlediska rozsahu představuje jen kapku v moři: jen asi 1 800 miliard dolarů ve srovnání s 18 000 miliardami dolarů zlata nebo 500 000 miliardami dolarů nemovitostí. Její zhruba 0,1% podíl na trhu jí však dává obrovský prostor pro růst, zejména vzhledem k tomu, že její konkurenti se snaží přilákat nové uživatele.
 
 | Ticker | 1D Flow (v mil. USD) | 1W Flow (v mil. USD) | 1M Flow (v mil. USD) | 3M Flow (v mil. USD) | YTD Flow (v mil. USD) |
-
 | ------- | --------------- | --------------- | --------------- | --------------- | ---------------- |
-
 | **Součet** | +457,19 | +1 507,95 | +2 888,01 | +3 672,29 | **+20 262,94** |
-
 | IBIT | +393,40 | +750,91 | +1 536,47 | +3 821,37 | +22 460,44 |
-
 | FBTC | +14.81 | +372.40 | +627.16 | +458.71 | +10 266.69 |
-
 | ARKB | +11,51 | +163,26 | +295,92 | -3,88 | +2 647,32 |
-
 | BITB | +12,93 | +146,50 | +263,30 | +97,46 | +2 262,69 |
-
 | HODL | +5,75 | +38,77 | +94,54 | +100,39 | +682,03 |
-
 | BRRR | +1,92 | +4,72 | +17,76 | +20,54 | +540,19 |
-
 | EZBC | +11,79 | +17,53 | +39,29 | +47,48 | +439,45 |
-
 | BTC | .00 | -3.13 | +36.59 | +419.18 | +419.18 |
-
 | BTCO | +6,43 | +19,25 | +47,30 | +56,41 | +394,82 |
-
 | BTCW | .00 | +2.84 | +6.04 | +146.69 | +217.47 |
-
 | YBIT | -1,34 | -10,26 | +5,06 | +13,81 | +76,30 |
-
 | DEFI | .00 | .00 | .00 | -2,03 | -1,79 |
-
 | GBTC | .00 | +5.16 | -81.42 | -1503.84 | -20,141.85 |
 
 *20 miliard dolarů za 10 měsíců: ETF na bitcoiny dosáhly za méně než rok toho, co ETF na zlato potřebovaly 5 let. Zdroj: Investiční toky fondů v USD. Bloomberg Terminal, Bloomberg L.P., 2024.*
@@ -792,129 +761,73 @@ Pro zjednodušení rozhodovacího procesu jsme definovali čtyři různé obchod
 #### Profil 1 - Startér
 
 | Atribut | Startér |
-
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-
 | **State of Mind** | "zkouším svou první fyzickou platbu", "beru spropitné za svůj online obsah", "zaměřuji se na velmi malé příjmy" |
-
 | **Frekvence transakcí** | "první transakce za účelem učení", "přijímání plateb jednou za čas"                                                                    |
-
 | **Příklady typů podnikání** | Kreativní ekonomika (tvůrci obsahu, blogy, články atd.), příležitostné tipy, jednorázový osobní prodej produktů, sdružení, jednorázové akce |
-
 | **Typ platby** | Obecně několik centů až několik eur/dolarů; pod ~300 eur/dolarů za položku |
-
 | **Složitost nastavení** | Žádné |
-
 | **Příklad doporučeného řešení** | Správcovská peněženka Lightning, například Wallet of Satoshi, nebo nesprávcovská peněženka, například Phoenix |
-
 | **Prodejní rozhraní** | Jednoduchá peněženka Bitcoin Lightning: aplikace v mobilním telefonu |
-
 | **Rozhraní pro zákazníky** | Platební kód QR pro bitcoiny naskenovaný prostřednictvím osobní peněženky zákazníka |
-
 | **Poplatky** | Zákazník platí poplatky za službu Bitcoin Lightning plus případné poplatky za aplikace |
-
 | **Zařízení na místě prodeje** | Bezplatná aplikace pro chytré telefony nebo možnost fyzického terminálu (např. Bitcoinize) |
-
 | **Správa a role** | Správa jedné aplikace; minimální rozlišení rolí |
-
 | **Účetní exporty** | Základní seznamy historie transakcí |
-
 | **API** | Ne |
 
 #### Profil 2 - The Essential
 
 | Atribut | To podstatné |
-
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-
 | **State of Mind** | "Přijímám Bitcoin ve svém podnikání, ale neočekávám významný objem" |
-
 | **Frekvence transakcí** | Několik transakcí za měsíc |
-
 | **Příklady typů podnikání** | Bary, restaurace, nepravidelný prodej čerstvých nebo přímo získaných produktů, více obchodů pod jedním majitelem, kreativní ekonomika pro umělce |
-
 | **Typ platby** | Obecně v rozmezí od několika eur/dolarů do několika stovek za položku; pod ~300 za položku a pod ~3 000 za měsíc |
-
 | **Složitost nastavení** | Minimální (mobilní aplikace) |
-
 | **Příklad doporučeného řešení** | Swiss Bitcoin Pay |
-
 | **Rozhraní pro obchodníky** | Jednoduchá peněženka Bitcoin Lightning: aplikace v mobilním telefonu; jednoduchá fakturace s minimem údajů |
-
 | **Zákaznické rozhraní** | Bitcoinový platební kód QR, naskenovaný prostřednictvím osobní peněženky zákazníka |
-
 | **Poplatky** | Obvykle <1 % za odeslání na adresu Bitcoin a <1,5 % za převod na fiat |
-
 | **Zařízení na místě prodeje** | Bezplatná aplikace pro chytré telefony nebo možnost fyzického terminálu (např. Bitcoinize) |
-
 | **Správa a role** | Možnost role pouze pro zaměstnance; online ovládací panel pro správu |
-
 | **Účetní exporty** | Export CSV s kompletními údaji o transakci |
-
 | **API** | Ano |
 
 #### Profil 3 - Profesionál
 
 | Atribut | Profesionál |
-
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-
 | **State of Mind** | - Způsob platby jako každý jiný pro můj e-shop - Nebo společná správa pro skupinu podniků připravených na vyšší objemy |
-
 | **Frekvence transakcí** | Více transakcí denně |
-
 | **Příklady typů podnikání** | Elektronické obchody se středním objemem, malá tržiště, skupiny kamenných obchodů (např. Click & Collect), operace malých a středních podniků |
-
 | **Typ platby** | Zpravidla v rozmezí od několika eur/dolarů do několika stovek; není stanoven limit výše platby; méně než 250 000 ročně |
-
 | **Složitost nastavení** | Lehký až plnohodnotný (místní nebo cloudový hosting), často vyžaduje e-shop |
-
 | **Příklad doporučeného řešení** | BTC Pay Server pro e-shop a/nebo fyzické prostředí; ZapRite, Musqet nebo PayWithFlash pro pokladnu, Be-BOP pro integrovaný e-shop |
-
 | **Rozhraní pro obchodníky** | Webové stránky (mobilní i stolní) s možností editace faktur, nákupního košíku a vytváření platebních tlačítek; automatizovaná fakturace s integrací elektronického obchodu |
-
 | **Rozhraní pro zákazníky** | Platební kód QR pro bitcoiny naskenovaný prostřednictvím osobní peněženky zákazníka |
-
 | **Poplatky** | Mix bezplatného backendu s otevřeným zdrojovým kódem a placených poplatků za hosting/službu Lightning; poplatky za front-end zahrnují poplatky za službu Bitcoin Lightning a poplatky za konverzi ve výši <1,5 % |
-
 | **Zařízení na místě prodeje** | Webový obchod, volitelný fyzický displej (např. iPad zobrazující web nebo terminál Bitcoin) |
-
 | **Správa a role** | Plně vybavený obchod s několika rolemi správce; zaměstnanci a zákazníci komunikují se systémem |
-
 | **Účetní exporty** | Export CSV s kompletními údaji o transakci |
-
 | **API** | Ano |
 
 #### Profil 4 - Podnik
 
 | Atribut | Podnik |
-
 | -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-
 | **State of Mind** | - Strategická platební metoda pro firmu - S určitým vývojem pro integraci do platformy služeb podle konkrétních specifikací |
-
 | **Frekvence transakcí** | Neomezené, vysokofrekvenční transakce |
-
 | **Příklady typů podniků** | Středně velké podniky, společnosti poskytující IT služby, velké korporace, velká tržiště |
-
 | **Typ platby** | Jakákoli velikost nebo objem |
-
 | **Složitost nastavení** | Střední až vysoká, v závislosti na výběru architektury |
-
 | **Příklad doporučeného řešení** | Vlastní architektura nebo orchestrace řešení hostovaných v rámci SaaS, případně s využitím služeb LSP (*Lightning Service Provider*) třetích stran |
-
 | **Rozhraní pro obchodníky** | Plně přizpůsobená rozhraní front-end a back-end plně integrovaná do pracovních postupů a procesů podniku |
-
 | **Zákaznické rozhraní** | Od platebního kódu QR v bitcoinech až po plně vlastní uživatelské rozhraní a/nebo integraci rozhraní API |
-
 | **Poplatky** | Kombinace interních poplatků za vývoj a poplatků třetích stran; zákazník platí poplatky za službu Bitcoin Lightning plus případné transakční poplatky od poskytovatelů služeb |
-
 | **Zařízení na místě prodeje** | Řešení na míru pro podnikové prostředí |
-
 | **Management a role** | Plně přizpůsobené role v oblasti prodeje, správy, devops, účetnictví a financí |
-
 | **Účetní exporty** | Plně přizpůsobené účetní exporty |
-
 | **API** | Ano |
 
 V následujících kapitolách se podrobně seznámíme s jednotlivými podnikovými profily a s řešeními, která jsou pro každý z nich šitá na míru.

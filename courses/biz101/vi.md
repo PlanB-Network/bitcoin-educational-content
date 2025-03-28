@@ -22,9 +22,10 @@ Cho dù bạn là **doanh nghiệp nhỏ hay tập đoàn lớn**, việc tích 
 
 <partId>326cf945-5d3f-4d86-8c3e-4d1c35959799</partId>
 
-## Đưa công ty của bạn lên Bitcoin
-
+## Tổng quan về khóa học
 <chapterId>1be42be9-4080-49f5-b5b2-6b531dd55f5f</chapterId>
+
+Chào mừng bạn đến với khóa học BIZ101!
 
 Khởi động hành trình của công ty bạn trên mạng lưới Bitcoin với khóa đào tạo toàn diện này - một cánh cổng để hiểu cách Bitcoin và Lightning Network có thể cách mạng hóa các hoạt động kinh doanh truyền thống. Khóa học này được thiết kế cho các nhà bán lẻ, doanh nhân, nhà quản lý và người ra quyết định của công ty muốn khám phá khả năng thực tế của Bitcoin như một mạng lưới tiền tệ toàn cầu, gốc internet và một phương tiện trao đổi giá trị mạnh mẽ.
 

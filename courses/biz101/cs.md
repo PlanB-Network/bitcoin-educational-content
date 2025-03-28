@@ -22,11 +22,10 @@ Ať už jste **malá firma nebo velká korporace**, integrace Bitcoinu do každo
 
 <partId>326cf945-5d3f-4d86-8c3e-4d1c35959799</partId>
 
-## Zapojte svou společnost do Bitcoinu
-
+## Přehled kurzu
 <chapterId>1be42be9-4080-49f5-b5b2-6b531dd55f5f</chapterId>
 
-Odstartujte cestu své společnosti do sítě Bitcoin s tímto komplexním školením - bránou k pochopení toho, jak Bitcoin a Lightning Network mohou změnit tradiční obchodní operace. Tento kurz je určen pro obchodníky, podnikatele, manažery a osoby s rozhodovací pravomocí ve firmách, kteří chtějí prozkoumat praktické možnosti Bitcoinu jako globální, internetové peněžní sítě a robustního prostředku výměny hodnot.
+Vítejte v kurzu BIZ101! Odstartujte cestu své společnosti do sítě Bitcoin s tímto komplexním školením - bránou k pochopení toho, jak Bitcoin a Lightning Network mohou změnit tradiční obchodní operace. Tento kurz je určen pro obchodníky, podnikatele, manažery a osoby s rozhodovací pravomocí ve firmách, kteří chtějí prozkoumat praktické možnosti Bitcoinu jako globální, internetové peněžní sítě a robustního prostředku výměny hodnot.
 
 V průběhu kurzu se seznámíte se základními principy, díky nimž jsou Bitcoin a Lightning Network výrazně transformativní. Dozvíte se, jak tyto technologie nabízejí spektrum případů použití, od ukládání digitálního kapitálu po rychlé, úsporné a škálovatelné platby, a jak poskytují zásadní zlepšení oproti tradičním měnám a platebním systémům. Kurz BIZ101 propojuje ekonomickou teorii s reálnými aplikacemi a objasňuje, jak decentralizace může snížit závislost na zprostředkovatelích a překonat omezení vlastní starším systémům.
 

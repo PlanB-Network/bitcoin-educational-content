@@ -22,11 +22,10 @@ Olenemata sellest, kas olete **väikeettevõte või suurkorporatsioon**, võib B
 
 <partId>326cf945-5d3f-4d86-8c3e-4d1c35959799</partId>
 
-## Teie ettevõtte pardal on Bitcoin
-
+## Kursuse ülevaade
 <chapterId>1be42be9-4080-49f5-b5b2-6b531dd55f5f</chapterId>
 
-Alustage oma ettevõtte teekonda Bitcoini võrgus selle põhjaliku koolituskursusega - see on värav, mis aitab mõista, kuidas Bitcoin ja Lightning Network võivad muuta traditsioonilisi äritegevusi. See kursus on mõeldud jaemüüjatele, ettevõtjatele, juhtidele ja ettevõtte otsustajatele, kes soovivad uurida Bitcoini kui ülemaailmse, internetipõhise rahavõrgustiku ja jõulise väärtusvahetuse vahendi praktilisi võimalusi.
+Tere tulemast BIZ101 kursusele! Alustage oma ettevõtte teekonda Bitcoini võrgus selle põhjaliku koolituskursusega - see on värav, mis aitab mõista, kuidas Bitcoin ja Lightning Network võivad muuta traditsioonilisi äritegevusi. See kursus on mõeldud jaemüüjatele, ettevõtjatele, juhtidele ja ettevõtte otsustajatele, kes soovivad uurida Bitcoini kui ülemaailmse, internetipõhise rahavõrgustiku ja jõulise väärtusvahetuse vahendi praktilisi võimalusi.
 
 Kursuse käigus tutvustatakse teile põhiprintsiipe, mis muudavad Bitcoini ja Lightning Networki selgelt ümberkujundavaks. Te saate teada, kuidas need tehnoloogiad pakuvad mitmesuguseid kasutusviise, alates digitaalse kapitali säilitamisest kuni kiirete, ökonoomsete ja skaleeritavate makseteni, ning kuidas nad pakuvad kriitilisi täiustusi võrreldes traditsiooniliste valuuta- ja maksesüsteemidega. BIZ101 kursus ühendab majandusteooria tegelike rakendustega, selgitades, kuidas detsentraliseerimine võib vähendada sõltuvust vahendajatest ja ületada vanadele süsteemidele omaseid piiranguid.
 

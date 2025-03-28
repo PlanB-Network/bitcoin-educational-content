@@ -22,9 +22,10 @@ Quer seja uma **pequena empresa ou uma grande corporação**, integrar o Bitcoin
 
 <partId>326cf945-5d3f-4d86-8c3e-4d1c35959799</partId>
 
-## Integrar a sua empresa na Bitcoin
-
+## Visão geral do curso
 <chapterId>1be42be9-4080-49f5-b5b2-6b531dd55f5f</chapterId>
+
+Bem-vindo ao curso BIZ101!
 
 Comece a jornada da sua empresa na rede Bitcoin com este curso de treinamento abrangente - uma porta de entrada para entender como o Bitcoin e a Lightning Network podem revolucionar as operações comerciais tradicionais. Este curso foi concebido para retalhistas, empresários, gestores e decisores empresariais que pretendam explorar as capacidades práticas da Bitcoin como uma rede monetária global, nativa da Internet, e um meio robusto de troca de valores.
 

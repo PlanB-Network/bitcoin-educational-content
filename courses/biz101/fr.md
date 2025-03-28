@@ -22,11 +22,10 @@ Que vous soyez une **petite entreprise ou une grande société**, l'intégration
 
 <partId>326cf945-5d3f-4d86-8c3e-4d1c35959799</partId>
 
-## Lancez votre entreprise sur le bitcoin
-
+## Aperçu du cours
 <chapterId>1be42be9-4080-49f5-b5b2-6b531dd55f5f</chapterId>
 
-Démarrez le voyage de votre entreprise sur le réseau Bitcoin avec ce cours de formation complet - une passerelle pour comprendre comment Bitcoin et le Lightning Network peuvent révolutionner les opérations commerciales traditionnelles. Ce cours est conçu pour les marchands, les entrepreneurs, les gestionnaires et les décideurs d'entreprise qui souhaitent explorer les capacités pratiques de Bitcoin en tant que réseau monétaire mondial natif de l'Internet et en tant que moyen robuste d'échange de valeurs.
+Bienvenue dans le cours BIZ101 ! Démarrez le voyage de votre entreprise sur le réseau Bitcoin avec ce cours complet - une passerelle pour comprendre comment Bitcoin et le Lightning Network peuvent révolutionner les opérations commerciales traditionnelles. Ce cours est conçu pour les marchands, les entrepreneurs, les gestionnaires et les décideurs d'entreprise qui souhaitent explorer les capacités pratiques de Bitcoin en tant que réseau monétaire mondial natif de l'Internet et en tant que moyen robuste d'échange de valeurs.
 
 Tout au long du cours, vous serez initié aux principes fondamentaux qui font de Bitcoin et du Lightning Network des outils de transformation distincts. Vous apprendrez comment ces technologies offrent un éventail de cas d'utilisation, du stockage de capital numérique aux paiements rapides, économiques et évolutifs, et comment elles apportent des améliorations essentielles par rapport à la monnaie traditionnelle et aux systèmes de paiement. Le cours BIZ101 relie la théorie économique aux applications du monde réel, en clarifiant comment la décentralisation peut réduire les dépendances aux intermédiaires et surmonter les limitations inhérentes aux systèmes existants.
 

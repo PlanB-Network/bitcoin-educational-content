@@ -22,11 +22,10 @@ Egal ob Sie ein **kleines Unternehmen oder ein großer Konzern** sind, die Integ
 
 <partId>326cf945-5d3f-4d86-8c3e-4d1c35959799</partId>
 
-## Ihr Unternehmen auf Bitcoin umstellen
-
+## Kursübersicht
 <chapterId>1be42be9-4080-49f5-b5b2-6b531dd55f5f</chapterId>
 
-Starten Sie die Reise Ihres Unternehmens in das Bitcoin-Netzwerk mit diesem umfassenden Trainingskurs - ein Tor zum Verständnis, wie Bitcoin und das Lightning Network die traditionellen Geschäftsabläufe revolutionieren können. Dieser Kurs richtet sich an Einzelhändler, Unternehmer, Manager und Entscheidungsträger in Unternehmen, die die praktischen Möglichkeiten von Bitcoin als globales, internetbasiertes monetäres Netzwerk und robustes Mittel des Wertaustauschs erkunden möchten.
+Willkommen im BIZ101-Kurs! Starten Sie die Reise Ihres Unternehmens in das Bitcoin-Netzwerk mit diesem umfassenden Trainingskurs - ein Tor zum Verständnis, wie Bitcoin und das Lightning Network die traditionellen Geschäftsabläufe revolutionieren können. Dieser Kurs richtet sich an Einzelhändler, Unternehmer, Manager und Entscheidungsträger in Unternehmen, die die praktischen Möglichkeiten von Bitcoin als globales, internetbasiertes monetäres Netzwerk und robustes Mittel des Wertaustauschs erkunden möchten.
 
 Im Laufe des Kurses werden Sie mit den grundlegenden Prinzipien vertraut gemacht, die Bitcoin und das Lightning Network so einzigartig und transformativ machen. Sie werden lernen, wie diese Technologien ein Spektrum von Anwendungsfällen bieten, von der digitalen Kapitalspeicherung bis zu schnellen, wirtschaftlichen und skalierbaren Zahlungen, und wie sie entscheidende Verbesserungen gegenüber traditionellen Währungs- und Zahlungssystemen bieten. Der BIZ101-Kurs verbindet ökonomische Theorie mit realen Anwendungen und verdeutlicht, wie Dezentralisierung die Abhängigkeit von Zwischenhändlern reduzieren und die Einschränkungen bestehender Systeme überwinden kann.
 

@@ -22,11 +22,10 @@ Apakah Anda seorang **bisnis kecil atau perusahaan besar**, mengintegrasikan Bit
 
 <partId>326cf945-5d3f-4d86-8c3e-4d1c35959799</partId>
 
-## Masukkan perusahaan Anda ke Bitcoin
-
+## Ikhtisar Kursus
 <chapterId>1be42be9-4080-49f5-b5b2-6b531dd55f5f</chapterId>
 
-Mulailah perjalanan perusahaan Anda di jaringan Bitcoin dengan kursus pelatihan komprehensif ini - pintu gerbang untuk memahami bagaimana Bitcoin dan Lightning Network dapat merevolusi operasi bisnis tradisional. Kursus ini dirancang untuk pengecer, pengusaha, manajer, dan pengambil keputusan perusahaan yang ingin mengeksplorasi kemampuan praktis Bitcoin sebagai jaringan moneter global yang berasal dari internet dan sarana pertukaran nilai yang kuat.
+Selamat datang di kursus BIZ101! Mulailah perjalanan perusahaan Anda di jaringan Bitcoin dengan kursus pelatihan komprehensif ini - pintu gerbang untuk memahami bagaimana Bitcoin dan Lightning Network dapat merevolusi operasi bisnis tradisional. Kursus ini dirancang untuk pengecer, pengusaha, manajer, dan pengambil keputusan perusahaan yang ingin mengeksplorasi kemampuan praktis Bitcoin sebagai jaringan moneter global yang berasal dari internet dan sarana pertukaran nilai yang kuat.
 
 Selama kursus ini, Anda akan diperkenalkan dengan prinsip-prinsip dasar yang membuat Bitcoin dan Lightning Network menjadi sangat transformatif. Anda akan belajar bagaimana teknologi ini menawarkan spektrum kasus penggunaan, mulai dari penyimpanan modal digital hingga pembayaran yang cepat, ekonomis, dan dapat diskalakan, dan bagaimana teknologi ini memberikan peningkatan penting atas mata uang tradisional dan sistem pembayaran. Kursus BIZ101 menghubungkan teori ekonomi dengan aplikasi dunia nyata, mengklarifikasi bagaimana desentralisasi dapat mengurangi ketergantungan pada perantara dan mengatasi keterbatasan yang melekat pada sistem lama.
 

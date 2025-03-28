@@ -22,9 +22,10 @@ Enten du er en **småbedrift eller et stort konsern**, kan integrering av Bitcoi
 
 <partId>326cf945-5d3f-4d86-8c3e-4d1c35959799</partId>
 
-## Innfør Bitcoin i bedriften din
-
+## Kursoversikt
 <chapterId>1be42be9-4080-49f5-b5b2-6b531dd55f5f</chapterId>
+
+Velkommen til BIZ101-kurset!
 
 Kickstart bedriftens reise i Bitcoin-nettverket med dette omfattende kurset - en inngangsport til å forstå hvordan Bitcoin og Lightning Network kan revolusjonere tradisjonell forretningsdrift. Kurset er utviklet for forhandlere, entreprenører, ledere og beslutningstakere i bedrifter som ønsker å utforske de praktiske mulighetene som ligger i Bitcoin som et globalt, internettbasert pengenettverk og et robust middel for verdiutveksling.
 

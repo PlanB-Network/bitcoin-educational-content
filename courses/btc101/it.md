@@ -21,17 +21,17 @@ Non sono necessarie conoscenze specifiche per iniziare. Infatti, il seguente con
 
 <partId>3cd2ac82-026c-53e1-874a-baf5842adc6d</partId>
 
-## Un salto nell'ignoto
+## Panoramica del corso
 
 <chapterId>27e3fb60-4b50-556b-9e70-c4f5475c121d</chapterId>
 
-### Benvenuti in un nuovo paradigma monetario e tecnologico.
+Benvenuto nel corso BTC101!
 
 Il Bitcoin è una rivoluzione tecnologica e monetaria, capace di farci mettere in discussione il nostro rapporto con il denaro e la società. Infatti, il Bitcoin (indicato come BTC) è una moneta **neutrale** e **decentrata**, cioè non controllata da alcuna entità o istituzione. È un'innovazione che va oltre la semplice "moneta di internet": è sia un protocollo informatico (Bitcoin) che un'unità monetaria (bitcoin).
 
 Il protocollo utilizza tecnologie sottostanti come la crittografia, la comunicazione di rete e la famosa "blockchain", mentre l'unità bitcoin funge da valuta necessaria per il corretto funzionamento di questo protocollo. Nella vita di tutti i giorni, i salvadoregni e i bitcoiners di tutto il mondo utilizzano la valuta bitcoin per acquistare e vendere beni e servizi, affidandosi a questa tecnologia per migliorare la propria vita.
 
-### Un programma di studi completo ma accessibile
+**Un programma di studi completo ma accessibile:**
 
 In questo corso discuteremo alcuni aspetti monetari di Bitcoin, tra cui come acquistare e vendere bitcoin, conservarli in modo sicuro nei portafogli digitali e utilizzarli per le transazioni. Esamineremo anche il ruolo dei minatori, essenziali per la creazione di nuovi bitcoin e per la sicurezza della rete Bitcoin. Infine, esploreremo il futuro di Bitcoin e come la tecnologia Lightning Network possa migliorare le transazioni di Bitcoin.
 
@@ -39,38 +39,39 @@ In questo corso discuteremo alcuni aspetti monetari di Bitcoin, tra cui come acq
 
 È essenziale capire che il Bitcoin è un nuovo sistema monetario che cambia completamente il nostro rapporto con il denaro, quindi imparare a usarlo è una competenza necessaria per chiunque voglia avere il controllo dei propri fondi.
 
-**Sezione 1 - Denaro**
+**Sezione 1 - Introduzione**  
+- Capitolo 1 - Panoramica del corso  
+- Capitolo 2 - La preistoria di Bitcoin  
 
-- Capitolo 1 - Che cos'è il denaro?
-- Capitolo 2 - La moneta Fiat
-- Capitolo 3 - Iperinflazione
-- Capitolo 4 - La politica monetaria della Bitcoin
+**Sezione 2 - Il denaro**  
+- Capitolo 3 - Il denaro attraverso la storia  
+- Capitolo 4 - Monete fiat  
+- Capitolo 5 - L'iperinflazione  
+- Capitolo 6 - 21 milioni di bitcoin  
 
-**Sezione 2 - Portafogli Bitcoin**
+**Sezione 3 - Wallet Bitcoin**  
+- Capitolo 7 - Cos'è un wallet Bitcoin?  
+- Capitolo 8 - Wallet Bitcoin e sicurezza  
+- Capitolo 9 - Configurazione di un wallet  
+- Capitolo 10 - Resistere alla prova del tempo  
 
-- Capitolo 5 - Come funzionano i portafogli Bitcoin?
-- Capitolo 6 - Scelta della sicurezza
-- Capitolo 7 - Impostazione del portafoglio
-- Capitolo 8 - Salvaguardia dal tempo
+**Sezione 4 - Aspetti tecnici di Bitcoin**  
+- Capitolo 11 - Lancio di Bitcoin  
+- Capitolo 12 - Transazioni Bitcoin  
+- Capitolo 13 - Nodi Bitcoin  
+- Capitolo 14 - Minatori  
+- Capitolo 15 - Bitcoin ed ecologia  
 
-**Sezione 3 - Caratteristiche tecniche di Bitcoin**
+**Sezione 5 - Come ottenere bitcoin?**  
+- Capitolo 16 - Bitcoin non dorme mai!  
+- Capitolo 17 - Guadagnare bitcoin lavorando  
+- Capitolo 18 - Risparmiare con Bitcoin  
+- Capitolo 19 - L'iperbitcoinizzazione  
 
-- Capitolo 9 - Che cos'è una transazione?
-- Capitolo 10 - Nodi Bitcoin
-- Capitolo 11 - Minatori
-- Capitolo 12 - Minatori ed ecologia
-
-**Sezione 4 - Risparmio in Bitcoin**
-
-- Capitolo 13 - Prezzo del Bitcoin
-- Capitolo 14 - Come si acquista il Bitcoin?
-- Capitolo 15 - Lavorare per Bitcoin
-- Capitolo 16 - Iper-bitcoinizzazione
-
-**Sezione 5 - Rete di fulmini**
-
-- Capitolo 17 - Introduzione alla rete Lightning
-- Capitolo 18 - Casi d'uso della rete Lightning
+**Sezione 6 - Il futuro di Bitcoin: Lightning Network**  
+- Capitolo 20 - Breve introduzione al Lightning Network  
+- Capitolo 21 - Casi d'uso del Lightning Network  
+- Capitolo 22 - Pillola rossa o pillola blu?  
 
 Prima di introdurre la definizione di denaro e la sua funzione nella società (Capitolo 1), dovremmo partire dalla genesi del Bitcoin. Lanciato nel 2009, il Bitcoin è una tecnologia relativamente nuova e diversa da qualsiasi altra. È quindi normale che non si riesca a capire tutto e subito. Infatti, proprio come quando si impara a usare Internet o a guidare un'automobile, non è necessario conoscere subito tutti i dettagli tecnici: si può iniziare imparando a ricevere, pagare e mettere al sicuro i propri fondi, e poi fare piccoli passi per approfondire lo studio.
 

@@ -21,17 +21,17 @@ Sie brauchen keine besonderen Vorkenntnisse, um loszulegen. Die folgenden Inhalt
 
 <partId>3cd2ac82-026c-53e1-874a-baf5842adc6d</partId>
 
-## Ein Sprung ins Ungewisse
+## Kursüberblick
 
 <chapterId>27e3fb60-4b50-556b-9e70-c4f5475c121d</chapterId>
 
-### Willkommen in einem neuen monetären und technologischen Paradigma.
+Willkommen im Kurs BTC101!
 
 Bitcoin ist eine technologische und monetäre Revolution, die unser Verhältnis zu Geld und Gesellschaft in Frage stellen kann. In der Tat ist Bitcoin (BTC) eine **neutrale** und **dezentrale** Währung, was bedeutet, dass sie von keiner Einrichtung oder Institution kontrolliert wird. Es handelt sich um eine Innovation, die über eine bloße "Internetwährung" hinausgeht: Sie ist sowohl ein Computerprotokoll (Bitcoin) als auch eine Geldeinheit (Bitcoin).
 
 Das Protokoll nutzt zugrundeliegende Technologien wie Kryptografie, Netzwerkkommunikation und die berühmte "Blockchain", während die Bitcoin-Einheit als notwendige Währung für das ordnungsgemäße Funktionieren des Protokolls dient. Im täglichen Leben verwenden Salvadorianer und Bitcoiner auf der ganzen Welt die Bitcoin-Währung, um Waren und Dienstleistungen zu kaufen und zu verkaufen, und verlassen sich auf diese Technologie, um ihr Leben zu verbessern.
 
-### Ein umfassender und dennoch zugänglicher Lehrplan
+**Ein umfassendes, aber zugängliches Studienprogramm:**
 
 In diesem Kurs werden wir einige monetäre Aspekte von Bitcoin besprechen, einschließlich der Frage, wie man Bitcoins kauft und verkauft, sie sicher in digitalen Brieftaschen aufbewahrt und sie für Transaktionen verwendet. Wir werden auch die Rolle der Miner untersuchen, die für die Schaffung neuer Bitcoins und die Sicherung des Bitcoin-Netzwerks unerlässlich sind. Schließlich werden wir die Zukunft von Bitcoin erforschen und wie die Lightning Network-Technologie Bitcoin-Transaktionen verbessern kann.
 
@@ -39,38 +39,39 @@ In diesem Kurs werden wir einige monetäre Aspekte von Bitcoin besprechen, einsc
 
 Es ist wichtig zu verstehen, dass Bitcoin ein neues Geldsystem ist, das unsere Beziehung zum Geld völlig verändert. Daher ist das Erlernen des Umgangs mit Bitcoin eine notwendige Fähigkeit für jeden, der die Kontrolle über sein eigenes Geld haben möchte.
 
-**Abschnitt 1 - Geld**
+**Abschnitt 1 - Einführung**  
+- Kapitel 1 - Kursüberblick  
+- Kapitel 2 - Die Vorgeschichte von Bitcoin  
 
-- Kapitel 1 - Was ist Geld?
-- Kapitel 2 - Fiatgeld
-- Kapitel 3 - Hyperinflation
-- Kapitel 4 - Bitcoin-Geldpolitik
+**Abschnitt 2 - Geld**  
+- Kapitel 3 - Geld im Laufe der Geschichte  
+- Kapitel 4 - Fiat-Währungen  
+- Kapitel 5 - Hyperinflation  
+- Kapitel 6 - 21 Millionen Bitcoins  
 
-**Abschnitt 2 - Bitcoin-Wallets**
+**Abschnitt 3 - Bitcoin-Wallets**  
+- Kapitel 7 - Was ist ein Bitcoin-Wallet?  
+- Kapitel 8 - Bitcoin-Wallets und Sicherheit  
+- Kapitel 9 - Einrichtung eines Wallets  
+- Kapitel 10 - Die Zeit überdauern  
 
-- Kapitel 5 - Wie funktionieren Bitcoin-Wallets?
-- Kapitel 6 - Die Wahl der Sicherheit
-- Kapitel 7 - Einrichten der Brieftasche
-- Kapitel 8 - Schutz vor der Zeit
+**Abschnitt 4 - Die technischen Aspekte von Bitcoin**  
+- Kapitel 11 - Start von Bitcoin  
+- Kapitel 12 - Bitcoin-Transaktionen  
+- Kapitel 13 - Bitcoin-Knoten  
+- Kapitel 14 - Miner  
+- Kapitel 15 - Bitcoin und Ökologie  
 
-**Abschnitt 3 - Technische Merkmale von Bitcoin**
+**Abschnitt 5 - Wie erhält man Bitcoins?**  
+- Kapitel 16 - Bitcoin schläft nie!  
+- Kapitel 17 - Bitcoins durch Arbeit verdienen  
+- Kapitel 18 - Sparen mit Bitcoin  
+- Kapitel 19 - Hyperbitcoinisierung  
 
-- Kapitel 9 - Was ist eine Transaktion?
-- Kapitel 10 - Bitcoin-Knoten
-- Kapitel 11 - Bergleute
-- Kapitel 12 - Bergleute und Ökologie
-
-**Abschnitt 4 - Sparen in Bitcoin**
-
-- Kapitel 13 - Bitcoin-Preis
-- Kapitel 14 - Wie kann man Bitcoin kaufen?
-- Kapitel 15 - Arbeiten für Bitcoin
-- Kapitel 16 - Hyper-Bitcoinisierung
-
-**Abschnitt 5 - Blitz-Netzwerk**
-
-- Kapitel 17 - Einführung in das Lightning-Netzwerk
-- Kapitel 18 - Anwendungsfälle für das Lightning Network
+**Abschnitt 6 - Die Zukunft von Bitcoin: das Lightning Network**  
+- Kapitel 20 - Eine kurze Einführung in das Lightning Network  
+- Kapitel 21 - Anwendungsfälle des Lightning Network  
+- Kapitel 22 - Rote Pille oder blaue Pille?  
 
 Bevor wir die Definition von Geld und seine Funktion in der Gesellschaft vorstellen (Kapitel 1), sollten wir mit der Entstehungsgeschichte von Bitcoin beginnen. Bitcoin wurde 2009 eingeführt und ist eine relativ neue Technologie, die sich von allen anderen unterscheidet. Es ist daher normal, dass man nicht alles auf einmal versteht. Genau wie beim Erlernen der Internetnutzung oder des Autofahrens müssen Sie nicht sofort alle technischen Details kennen: Sie können damit beginnen, zu lernen, wie man Geld empfängt, bezahlt und sichert, und sich dann in kleinen Schritten eingehender damit befassen.
 

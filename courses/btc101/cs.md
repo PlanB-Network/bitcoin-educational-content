@@ -21,17 +21,17 @@ Pro začátek nepotřebujete žádné specifické znalosti. Ve skutečnosti je n
 
 <partId>3cd2ac82-026c-53e1-874a-baf5842adc6d</partId>
 
-## Skok do neznáma
+## Přehled kurzu
 
 <chapterId>27e3fb60-4b50-556b-9e70-c4f5475c121d</chapterId>
 
-### Vítejte v novém měnovém a technologickém paradigmatu.
+Vítejte v kurzu BTC101!
 
 Bitcoin je technologická a peněžní revoluce, která nás může přimět zpochybnit náš vztah k penězům a společnosti. Bitcoin (označovaný jako BTC) je totiž **neutrální** a **decentralizovaná** měna, což znamená, že není kontrolována žádným subjektem ani institucí. Jedná se o inovaci, která přesahuje rámec pouhé "internetové měny": je to jak počítačový protokol (bitcoin), tak peněžní jednotka (bitcoin).
 
 Protokol využívá základní technologie, jako je kryptografie, síťová komunikace a známý "blockchain", zatímco jednotka bitcoin slouží jako nezbytná měna pro správné fungování tohoto protokolu. V každodenním životě používají obyvatelé Salvadoru a bitcoinů po celém světě měnu bitcoin k nákupu a prodeji zboží a služeb a spoléhají na to, že jim tato technologie zlepší život.
 
-### Komplexní a zároveň přístupný učební plán
+**Komplexní, ale přístupný studijní program:**
 
 V tomto kurzu probereme některé peněžní aspekty bitcoinu, včetně toho, jak bitcoiny nakupovat a prodávat, bezpečně je ukládat do digitálních peněženek a používat je k transakcím. Prozkoumáme také úlohu těžařů, kteří jsou nezbytní pro vytváření nových bitcoinů a zabezpečení sítě Bitcoin. Nakonec se budeme zabývat budoucností Bitcoinu a tím, jak může technologie Lightning Network vylepšit bitcoinové transakce.
 
@@ -39,38 +39,39 @@ V tomto kurzu probereme některé peněžní aspekty bitcoinu, včetně toho, ja
 
 Je nutné si uvědomit, že Bitcoin je nový peněžní systém, který zcela mění náš vztah k penězům, takže naučit se ho používat je nezbytnou dovedností pro každého, kdo chce mít kontrolu nad svými vlastními prostředky.
 
-**Díl 1 - Peníze**
+**Sekce 1 - Úvod**  
+- Kapitola 1 - Přehled kurzu  
+- Kapitola 2 - Prehistorie Bitcoinu  
 
-- Kapitola 1 - Co jsou peníze?
-- Kapitola 2 - Fiatové peníze
-- Kapitola 3 - Hyperinflace
-- Kapitola 4 - Měnová politika bitcoinu
+**Sekce 2 - Peníze**  
+- Kapitola 3 - Peníze napříč historií  
+- Kapitola 4 - Fiat měny  
+- Kapitola 5 - Hyperinflace  
+- Kapitola 6 - 21 milionů bitcoinů  
 
-**Část 2 - Bitcoinové peněženky**
+**Sekce 3 - Bitcoinové peněženky**  
+- Kapitola 7 - Co je to bitcoinová peněženka?  
+- Kapitola 8 - Bitcoinové peněženky a bezpečnost  
+- Kapitola 9 - Nastavení peněženky  
+- Kapitola 10 - Překonání zkoušky času  
 
-- Kapitola 5 - Jak fungují peněženky Bitcoin?
-- Kapitola 6 - Výběr zabezpečení
-- Kapitola 7 - Nastavení peněženky
-- Kapitola 8 - Ochrana před časem
+**Sekce 4 - Technické aspekty Bitcoinu**  
+- Kapitola 11 - Spuštění Bitcoinu  
+- Kapitola 12 - Bitcoinové transakce  
+- Kapitola 13 - Bitcoinové uzly  
+- Kapitola 14 - Mineři  
+- Kapitola 15 - Bitcoin a ekologie  
 
-**Odddíl 3 - Technické vlastnosti Bitcoinu**
+**Sekce 5 - Jak získat bitcoiny?**  
+- Kapitola 16 - Bitcoin nikdy nespí!  
+- Kapitola 17 - Získání bitcoinů prací  
+- Kapitola 18 - Spoření s Bitcoinem  
+- Kapitola 19 - Hyperbitcoinizace  
 
-- Kapitola 9 - Co je to transakce?
-- Kapitola 10 - Uzly Bitcoin
-- Kapitola 11 - Horníci
-- Kapitola 12 - Horníci a ekologie
-
-**Část 4 - Ukládání v bitcoinech**
-
-- Kapitola 13 - Cena bitcoinu
-- Kapitola 14 - Jak si koupíte Bitcoin?
-- Kapitola 15 - Práce pro Bitcoin
-- Kapitola 16 - Hyperbitcoinizace
-
-**Odddíl 5 - Síť blesků**
-
-- Kapitola 17 - Úvod do sítě Lightning
-- Kapitola 18 - Případy použití sítě Lightning
+**Sekce 6 - Budoucnost Bitcoinu: Lightning Network**  
+- Kapitola 20 - Stručný úvod do Lightning Network  
+- Kapitola 21 - Případové použití Lightning Network  
+- Kapitola 22 - Červená pilulka nebo modrá pilulka?  
 
 Než se seznámíme s definicí peněz a jejich funkcí ve společnosti (kapitola 1), měli bychom začít od vzniku bitcoinu. Bitcoin, který byl uveden na trh v roce 2009, je relativně nová technologie, která se liší od všech ostatních. Je proto normální, že o něm nepochopíme všechno a najednou. Ve skutečnosti, stejně jako když se učíte používat internet nebo řídit auto, nemusíte hned znát všechny technické detaily: můžete začít tím, že se naučíte přijímat, platit a zabezpečovat své finanční prostředky, a pak po malých krocích studovat hlouběji.
 

@@ -983,13 +983,13 @@ Mặc dù hồ sơ Essential không yêu cầu hệ thống kế toán phức t�
 
 Giải pháp kết hợp phù hợp nhất với hồ sơ của bạn có thể là Swiss Bitcoin Pay:
 
-https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 Một giải pháp dễ triển khai khác, nhưng có nhược điểm là phải bảo vệ 100%, là Open Node:
 
-https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 Nếu bạn đã sẵn sàng để bắt tay vào làm và muốn kiểm soát toàn bộ quy trình, phần mềm BTCPay Server là một lựa chọn tuyệt vời. Tuy nhiên, nhược điểm lớn nhất của BTCPay Server là việc thiết lập và quản lý tốn nhiều thời gian và đòi hỏi một trình độ chuyên môn kỹ thuật nhất định, nhưng bạn có thể làm theo hướng dẫn của chúng tôi:
 
-https://planb.network/tutorials/merchant/merchant/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 Cuối cùng, như một giải pháp bổ sung cho các điểm bán hàng thực tế, bạn có thể cân nhắc thiết lập [Bitcoinize PoS](https://bitcoinize.com/).
 
 ## Chuyên nghiệp

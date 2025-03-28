@@ -1018,7 +1018,7 @@ Jika kita melihat hal-hal dari sudut pandang ini, Reagan menjelaskan kepada kary
 
 Pada intinya, Reagan mengambil dari Bastiat beberapa elemen kunci dari visi liberal masyarakat dan manusia: supremasi masyarakat sipil atas Negara, nilai pilihan dan tanggung jawab individu, pentingnya pengusaha dalam penciptaan kekayaan, pentingnya kerangka hukum yang fleksibel dan minimal, yang memungkinkan kepercayaan dan penghormatan terhadap kontrak, hukum fundamental bahwa kekayaan harus diciptakan sebelum dapat didistribusikan, keinginan untuk memberikan kesempatan kepada semua orang di pasar yang kompetitif…
 
-# Kesimpulan
+# Bagian Akhir
 
 <partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
 

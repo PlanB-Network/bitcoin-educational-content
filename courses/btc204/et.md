@@ -4220,7 +4220,7 @@ Kuna see funktsioon on uus, soovitame olla ettevaatlik ja vältida suurte summad
 
 *Selle vaikimisi makseid käsitleva peatüki koostamiseks kasutasin [vaikimisi makseid selgitavat veebilehte](https://silentpayments.xyz/) ja [BIP352 selgitavat dokumenti](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki).*
 
-# Kokkuvõte
+# Lõpusektsioon
 
 <partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 

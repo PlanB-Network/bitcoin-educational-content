@@ -1749,7 +1749,7 @@ Loomulikult ei tohiks me langeda mingisse konspiratiivsesse mõtlemisse. Kuid **
 
 ![image](assets/fr/59.webp)
 
-# Kokkuvõte
+# Lõpusektsioon
 
 <partId>62bc2138-c0be-5d39-a341-594690863257</partId>
 
@@ -1846,7 +1846,7 @@ Selle saavutamiseks alustame mitmete Prantsuse kogukondade kogemustest, kes on j
 
 Loomulikult on **muudes riikides seadusandlus ja ühenduste toimimine erinev**. Mitmed punktid on siiski väga kasulikud ühingu loomisel või tähtsa ürituse korraldamisel; ja **toovime, et teised bitcoin'id tulevad ja integreerivad selle koolituse spetsiaalselt oma riigi jaoks**.
 
-# Kokkuvõte
+# Lõpusektsioon
 
 <partId>e9bdddf4-54c9-4de9-bbce-c3eade8c32e5</partId>
 

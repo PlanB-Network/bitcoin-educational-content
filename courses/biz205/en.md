@@ -1154,7 +1154,7 @@ Stay tuned—more details coming soon!
 
 https://planb.network/en/courses/c762773a-9017-4129-bc0e-06adf86050ef
 
-# Conclusion
+# Final Section
 <partId>891d2578-3bba-4be4-9ace-e480265a0800</partId>
 
 ## Evaluate this course

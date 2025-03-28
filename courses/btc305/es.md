@@ -2401,7 +2401,7 @@ En esta sección aprendió:
 
 ¿Cómo difiere la configuración en Umbrel de las dos opciones alojadas previas?
 
-# Conclusión
+# Sección final
 
 <partId>d72e6fa5-0870-5f00-9143-9466ed22e2bd</partId>
 

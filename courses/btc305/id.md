@@ -2400,7 +2400,7 @@ Dalam bagian ini Anda telah belajar:
 
 Bagaimana cara pengaturan di Umbrel berbeda dari dua opsi hosted sebelumnya?
 
-# Kesimpulan
+# Bagian Akhir
 
 <partId>d72e6fa5-0870-5f00-9143-9466ed22e2bd</partId>
 

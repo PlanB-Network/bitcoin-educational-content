@@ -1353,7 +1353,7 @@ Satoshi vytvořil Bitcoin v roce 2008 navrhnout změnu finančního systému, pr
 
 Jste připraveni se připojit?
 
-# Závěr
+# Sekce finále
 
 <partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 

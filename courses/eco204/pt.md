@@ -971,7 +971,7 @@ A hiperinflação é um assunto fascinante que foi estudado por meio de diversos
 
 - "Caixas de Moeda para Países em Desenvolvimento: Um Manual" por Steve Hanke e Kurt Schuler. Embora o foco seja nas caixas de moeda, este livro oferece uma perspectiva sobre como evitar situações de hiperinflação.
 
-# Conclusão
+# Seção final
 
 <partId>cb1f4a4b-556a-4e47-a5cc-136be35a1f9a</partId>
 

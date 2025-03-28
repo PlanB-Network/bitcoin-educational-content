@@ -2402,7 +2402,7 @@ Nesta seção, você aprendeu:
 
 Como a configuração no Umbrel difere das duas opções hospedadas anteriormente?
 
-# Conclusão
+# Seção final
 
 <partId>d72e6fa5-0870-5f00-9143-9466ed22e2bd</partId>
 

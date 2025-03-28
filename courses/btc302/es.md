@@ -1749,7 +1749,7 @@ Por supuesto, no debemos caer en una forma de pensamiento conspirativo. Pero **n
 
 ![image](assets/fr/59.webp)
 
-# Conclusión
+# Sección final
 
 <partId>62bc2138-c0be-5d39-a341-594690863257</partId>
 
@@ -1846,7 +1846,7 @@ Para ello, partiremos de la experiencia de varias comunidades francesas que ya h
 
 Por supuesto, **en otros países, la legislación y el funcionamiento de las asociaciones son diferentes**. Sin embargo, varios puntos serán muy útiles para crear una asociación u organizar un evento importante; y **esperamos que otros bitcoiners vengan e integren esta formación específica para su país**.
 
-# Conclusión
+# Sección final
 
 <partId>e9bdddf4-54c9-4de9-bbce-c3eade8c32e5</partId>
 

@@ -1219,7 +1219,7 @@ Elementsのソースコードとウェブサイト(https://github.com/ElementsPr
 
 次のステップは、これまでのすべてのセクションをカバーする累積クイズに挑戦することだ！
 
-# 結論
+# 最終セクション
 
 <partId>d5dbd616-e291-42bc-aae3-6c44599dbd06</partId>
 

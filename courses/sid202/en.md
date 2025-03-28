@@ -1235,7 +1235,7 @@ We've seen that the source code and website for Elements (https://github.com/Ele
 
 The next step is to challenge yourself with a cumulative quiz that covers all previous sections, then to begin your Elements journey…good luck!
 
-# Conclusion
+# Final Section
 
 <partId>d5dbd616-e291-42bc-aae3-6c44599dbd06</partId>
 

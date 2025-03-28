@@ -1430,7 +1430,7 @@ Lopuksi, olitpa sitten pieni kauppias tai vakiintunut yritys, on mahdollista **s
 - Säilytetty Bitcoin (0,19335) näkyy taseessa 7 734 euron arvosta.
 - Realisoitumattomat voitot 5 468 euroa säilytetystä Bitcoinista, jotka on esitetty liitetiedoissa.
 
-# Päätelmä
+# Lopullinen osio
 
 <partId>f6ca8d01-a4f3-449b-ac9f-c5fba9a69178</partId>
 

@@ -2290,7 +2290,7 @@ Tuy nhiên, với việc thêm một chút phức tạp thông minh, bài toán 
 
 [4] Xem ví dụ, Jonathan Katz và Yehuda Lindell, _Introduction to Modern Cryptography_, CRC Press (Boca Raton, FL: 2015), trang 410–32 về mã hóa RSA và trang 444–41 về chữ ký số RSA.
 
-# Phần kết luận
+# Phần cuối
 
 <partId>e538fb79-bf28-40cd-a5c3-badf864d8567</partId>
 

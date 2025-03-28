@@ -1025,7 +1025,7 @@ Jos tarkastelemme asioita tästä näkökulmasta, Reagan selitti GE:n työntekij
 ![kuva](assets/test/143.webp)
 Ytimessään Reagan otti Bastiatilta useita avainelementtejä liberaalin yhteiskunta- ja ihmiskuvan osalta: siviiliyhteiskunnan ensisijaisuus valtioon nähden, valinnan ja yksilöllisen vastuun arvo, yrittäjän merkitys vaurauden luomisessa, joustavan ja minimaalisen lainsäädännön tärkeys, mikä mahdollistaa luottamuksen ja sopimusten kunnioittamisen, peruslaki, jonka mukaan vauraus on luotava ennen kuin sitä voidaan jakaa, halu antaa jokaiselle mahdollisuus kilpailullisilla markkinoilla…
 
-# Yhteenveto
+# Lopullinen osio
 
 <partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
 

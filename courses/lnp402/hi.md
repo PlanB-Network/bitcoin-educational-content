@@ -159,7 +159,7 @@ LN टस्कनी इवेंट का पहला हफ्ता
 
 ![video](https://youtu.be/6VaIVvBKjLY)
 
-# निष्कर्ष
+# अंतिम खंड
 
 <partId>aff1e861-e6a3-58ad-af6a-33ceaedbda99</partId>
 

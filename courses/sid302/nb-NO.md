@@ -98,7 +98,7 @@ Nardo gir en oversikt over Blockstream AMP, en plattform for administrasjon av d
 
 Antonio presenterer Breeze, et SDK med åpen kildekode som er utviklet for desentraliserte transaksjoner på Liquid Network. Han går gjennom funksjonene, inkludert støtte for flerspråklige bindinger og sikre transaksjonsprosesser, samtidig som han understreker målet om å forenkle finansiell teknologi for utviklere
 
-# Konklusjon
+# Siste seksjon
 
 <partId>7ec65e6b-6e63-41b6-92ea-6a13bc77c3ff</partId>
 

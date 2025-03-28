@@ -770,7 +770,7 @@ Ini menetapkan batas atas pada tingkat hash yang dapat dimiliki oleh sebuah mesi
 
 Hasil akhirnya adalah tingkat hash yang lebih tinggi per watt listrik, yang berarti margin keuntungan yang lebih besar untuk penambang. Alasan mengapa mesin tidak didistribusikan dengan jenis perangkat lunak ini adalah karena variansi mesin tidak diinginkan, karena pelanggan ingin tahu persis apa yang mereka dapatkan, sehingga merupakan ide buruk bagi produsen untuk menjual produk yang tidak memiliki kinerja yang konsisten dan dapat diprediksi dari satu mesin ke mesin lainnya. Selain itu, autotuning tingkat chip memerlukan sumber daya pengembangan yang cukup besar, karena kompleks untuk diimplementasikan. Produsen sudah menghabiskan banyak sumber daya mengembangkan firmware mereka sendiri. Ada solusi perangkat lunak yang memungkinkan autotuning, seperti Braiins OS+. Selain meningkatkan kinerja ASIC hingga 20%.
 
-# Kesimpulan
+# Bagian Akhir
 
 <partId>fa42ec0b-b1fd-47f6-8268-6eab684c1d2b</partId>
 

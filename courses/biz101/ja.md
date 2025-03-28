@@ -1432,7 +1432,7 @@ https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45
 - 貸借対照表には、ビットコイン（0.19335）が7,734ユーロで計上されている。
 - 未実現利益は5,468ユーロで、注記に開示されている。
 
-# 結論
+# 最終セクション
 
 <partId>f6ca8d01-a4f3-449b-ac9f-c5fba9a69178</partId>
 

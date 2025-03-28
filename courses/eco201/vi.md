@@ -523,7 +523,7 @@ Quan trọng là phải lưu ý rằng việc chọn lựa dữ liệu một cá
 
 Phương pháp luận là một khía cạnh thiết yếu trong kinh tế học và trong các ngành khoa học xã hội nói chung. Nó ảnh hưởng đến cách đặt ra các câu hỏi, cách hình thành các giả thuyết, và cách diễn giải dữ liệu. Hiểu được sự khác biệt về phương pháp luận giữa các trường phái kinh tế có thể giúp chúng ta đánh giá các quan điểm đa dạng và phát triển ý kiến ​​của riêng mình về các chủ đề đã được thảo luận trong các phần trước.
 
-# Kết luận
+# Phần cuối
 
 <partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
 

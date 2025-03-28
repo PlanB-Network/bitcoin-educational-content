@@ -2410,7 +2410,7 @@ El grupo de Satoshi Fellowship presenta una aplicación de juegos LN utilizando 
 
 El grupo Lighting Walker presenta su solución para un servicio de remesas utilizando MySQL, JavaScript y la API de ZDB.
 
-# Conclusión
+# Sección final
 <partId>a633fb0c-839c-4405-8b77-2377cce79dd7</partId>
 
 ## Reseñas & Valoraciones

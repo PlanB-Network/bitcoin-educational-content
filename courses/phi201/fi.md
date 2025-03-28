@@ -1433,7 +1433,7 @@ Olemme nyt kokeneet kaikki valtiojohtoisuuden muodot, ja ne ovat kaikki epäonni
 Tietyssä mielessä tilanteemme on parempi kuin menneisyydessä. Erilaisten sosialististen, kommunististen ja sosiaalidemokraattisten kokeilujen peräkkäisten epäonnistumisten jälkeen tiedämme tänään, miten erottaa tosiasiat vääristä paremmin kuin eilen. Ja vääriä ideoita voidaan kumota ja korvata tosiasioilla. Kuten Mises sanoi:
 Kaikki, mitä tapahtuu globaalissa yhteiskunnassamme, on ideoiden tulosta. Sekä hyvien että huonojen. Tarpeellista on taistella vääriä ideoita vastaan. (...) Sivilisaatiomme voi selviytyä, ja sen täytyy. Ja se tulee selviytymään parempien ideoiden ansiosta kuin ne, jotka hallitsevat maailmaa tänään; ja nämä paremmat ideat kehittää nouseva sukupolvi.
 (_Talouspolitiikka: Ajatuksia tälle päivälle ja huomiselle_, 1979).
-# Yhteenveto
+# Lopullinen osio
 <partId>df550767-5876-4034-9c6a-31238363e85f</partId>
 ## Arviot & Arvosanat
 <chapterId>b972fd24-47e1-4877-b21d-6451ffdafcdd</chapterId>

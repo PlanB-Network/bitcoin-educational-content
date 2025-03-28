@@ -1353,7 +1353,7 @@ Satoshi schuf Bitcoin im Jahr 2008, um eine Änderung des Finanzsystems durch di
 
 Sind Sie bereit, mitzumachen?
 
-# Schlussfolgerung
+# Abschließender Abschnitt
 
 <partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 

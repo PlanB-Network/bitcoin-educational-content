@@ -934,7 +934,7 @@ Hiperinflasi adalah subjek yang menarik yang telah dipelajari melalui berbagai p
 
 - "Currency Boards for Developing Countries: A Handbook" oleh Steve Hanke dan Kurt Schuler. Meskipun fokusnya adalah pada dewan mata uang, buku ini menawarkan perspektif tentang cara menghindari situasi hiperinflasi.
 
-# Kesimpulan
+# Bagian Akhir
 
 <partId>cb1f4a4b-556a-4e47-a5cc-136be35a1f9a</partId>
 

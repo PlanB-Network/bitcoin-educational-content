@@ -264,7 +264,7 @@ Grup Lightning Walker mempresentasikan solusi mereka untuk Layanan Remitansi men
 
 
 
-# Kesimpulan
+# Bagian Akhir
 <partId>a633fb0c-839c-4405-8b77-2377cce79dd7</partId>
 
 ## Ulasan & Penilaian

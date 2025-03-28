@@ -1637,7 +1637,7 @@ Ať vás toto nově nabyté porozumění posiluje v navigaci v se měnícím sv�
 
 Budoucnost je světlá!
 
-# Závěr
+# Sekce finále
 
 <partId>0d839c56-4b1e-4863-851f-4d508f3e0020</partId>
 

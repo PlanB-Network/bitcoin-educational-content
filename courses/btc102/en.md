@@ -1042,7 +1042,7 @@ I am truly proud that you have reached this stage. I sincerely mean it. What to 
 
 In any case, all our courses are free, and many resources or tutorials are available on our platform to accompany you. Good luck with your studies!
 
-# Conclusion
+# Final Section
 
 <partId>a8425389-4a53-4b57-b9b4-36c1cab12de5</partId>
 

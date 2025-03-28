@@ -514,7 +514,7 @@ Příkladem metodologického rozdílu je postoj zastánců Moderní monetární 
 Je důležité si uvědomit, že cherry-picking, což znamená selektivní výběr dat pro stanovení vztahů mezi proměnnými, je v ekonomii nevědecká a nedůkladná metoda. Například tvorba peněz nutně nezpůsobuje inflaci, a je nutný nuancovanější přístup k pochopení složitých ekonomických mechanismů. Axiomy hrají klíčovou roli v úvahách rakouské ekonomie. Jsou to základní prvky, z nichž lze činit logické dedukce. Je však důležité si uvědomit, že přesné předpovídání budoucnosti v ekonomii je často obtížné kvůli složitosti ekonomických jevů a vrozené nejistotě.
 Metodologie je zásadním aspektem v ekonomii a obecně ve společenských vědách. Ovlivňuje, jak jsou kladeny otázky, formulovány hypotézy a interpretována data. Porozumění metodologickým rozdílům mezi ekonomickými školami myšlení nám může pomoci ocenit rozmanité perspektivy a rozvíjet vlastní názory na témata diskutovaná v předchozích epizodách.
 
-# Závěr
+# Sekce finále
 
 <partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
 

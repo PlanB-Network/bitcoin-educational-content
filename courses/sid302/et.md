@@ -98,7 +98,7 @@ Nardo annab ülevaate Blockstream AMP, platvormi digitaalse vara haldamiseks Liq
 
 Antonio tutvustab Breeze'i, avatud lähtekoodiga SDK-d, mis on mõeldud detsentraliseeritud tehingute tegemiseks Liquid Networkis. Ta käsitleb selle funktsioone, sealhulgas toetust mitmekeelsetele sidumistele ja turvalistele tehinguprotsessidele, rõhutades samas selle eesmärki lihtsustada finantstehnoloogiat arendajate jaoks
 
-# Kokkuvõte
+# Lõpusektsioon
 
 <partId>7ec65e6b-6e63-41b6-92ea-6a13bc77c3ff</partId>
 

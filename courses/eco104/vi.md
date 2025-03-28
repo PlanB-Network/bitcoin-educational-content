@@ -1662,7 +1662,7 @@ Hy vọng rằng sự hiểu biết mới mẻ này sẽ trao quyền cho bạn 
 
 Tương lai tươi sáng!
 
-# Kết luận
+# Phần cuối
 
 <partId>0d839c56-4b1e-4863-851f-4d508f3e0020</partId>
 

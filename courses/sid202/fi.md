@@ -1219,7 +1219,7 @@ Olemme nähneet, että Elementsin lähdekoodia ja verkkosivustoa (https://github
 
 Seuraava askel on haastaa itsesi kumulatiivisella tietokilpailulla, joka kattaa kaikki aiemmat osiot, ja aloittaa sitten Elementtien matka... onnea matkaan!
 
-# Päätelmä
+# Lopullinen osio
 
 <partId>d5dbd616-e291-42bc-aae3-6c44599dbd06</partId>
 

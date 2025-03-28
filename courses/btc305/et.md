@@ -2417,7 +2417,7 @@ Selles jaotises õppisite:
 
 Kuidas erineb seadistamine Umbrelil võrreldes kahe eelneva majutatud võimalusega?
 
-# Järeldus
+# Lõpusektsioon
 
 <partId>d72e6fa5-0870-5f00-9143-9466ed22e2bd</partId>
 

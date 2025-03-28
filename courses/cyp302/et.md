@@ -2287,7 +2287,7 @@ Sellegipoolest saab RSA-probleemi kasutades, lisades sellele veidi tarka keeruku
 
 [4] Vt näiteks Jonathan Katz ja Yehuda Lindell, _Introduction to Modern Cryptography_, CRC Press (Boca Raton, FL: 2015), lk 410-32 RSA krüpteerimise kohta ja lk 444-41 RSA digitaalallkirjade kohta.
 
-# Järeldus
+# Lõpusektsioon
 <partId>e538fb79-bf28-40cd-a5c3-badf864d8567</partId>
 
 ## Ülevaade & Hinnang

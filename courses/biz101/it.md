@@ -1430,7 +1430,7 @@ Infine, che si tratti di un piccolo commerciante o di un'azienda più consolidat
 - Il Bitcoin a nuovo (0,19335) figura nello stato patrimoniale con un valore di 7.734 euro.
 - Plusvalenze non realizzate di 5.468 euro su Bitcoin non distribuito, indicate nelle note finanziarie.
 
-# Conclusione
+# Sezione finale
 
 <partId>f6ca8d01-a4f3-449b-ac9f-c5fba9a69178</partId>
 

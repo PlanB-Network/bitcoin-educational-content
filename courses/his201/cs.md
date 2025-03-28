@@ -1331,7 +1331,7 @@ Zatřetí, Bitcoin rostl organicky. Byl schopen se vyvíjet diskrétně, postupn
 Za čtvrté, Bitcoin byl altruistickým výtvorem. Satoshi Nakamoto nabídl Bitcoin světu. Program uvolnil pod svobodnou licencí. Nehledal slávu, zisk ani moc. Více než rok zajišťoval bezpečnost těžby sítě, aniž by požadoval jakoukoliv kompenzaci. Přestože nahromadil více než milion bitcoinů, nikdy je neutratil. Nakonec zmizel, hlavně kvůli obavám souvisejícím s pozorností, kterou vyvolal případ WikiLeaks, a projekt nechal odpočívat na komunitě, bez jediné dominantní postavy.
 V roce 2011 Satoshi zmizel, ale Bitcoin přežil. Kryptoměna dokonce definitivně vystřelila, jak z mediálního, tak z ekonomického hlediska. Stroj byl spuštěn a nikdo ho nemohl zastavit.
 
-# Závěr
+# Sekce finále
 <partId>89532d9b-af1f-49f3-b87a-b11987e303d5</partId>
 ## Recenze & Hodnocení
 <chapterId>8f27cc89-8759-4a4f-aff2-c1d3d9ecf14e</chapterId>

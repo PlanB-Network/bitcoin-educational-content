@@ -1043,7 +1043,7 @@ Si miramos las cosas desde este ángulo, Reagan explicó a los empleados de GE, 
 ![image](assets/test/143.webp)
 En esencia, Reagan tomó de Bastiat varios elementos clave de una visión liberal de la sociedad y el hombre: la primacía de la sociedad civil sobre el Estado, el valor de la elección y la responsabilidad individual, la importancia del empresario en la creación de riqueza, la importancia de un marco legal flexible y mínimo, que permite la confianza y el respeto por los contratos, la ley fundamental de que la riqueza debe ser creada antes de que pueda ser distribuida, el deseo de dar a todos una oportunidad en mercados competitivos…
 
-# Conclusión
+# Sección final
 
 <partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
 

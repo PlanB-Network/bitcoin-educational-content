@@ -1432,7 +1432,7 @@ Finalmente, quer se trate de um pequeno comerciante ou de uma empresa mais estab
 - O Bitcoin retido (0,19335) aparece no balanço avaliado em 7 734 euros.
 - Ganhos não realizados de €5.468 em Bitcoin retido divulgados em notas financeiras.
 
-# Conclusão
+# Seção final
 
 <partId>f6ca8d01-a4f3-449b-ac9f-c5fba9a69178</partId>
 

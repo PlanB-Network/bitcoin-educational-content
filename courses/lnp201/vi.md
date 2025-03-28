@@ -981,7 +981,7 @@ Chúng ta đã thấy rằng quản lý tính thanh khoản là một thách th�
 
 ![LNP201](assets/en/84.webp)
 
-# Kết luận
+# Phần cuối
 
 <partId>b8715c1c-7ae2-49b7-94c7-35bf85346ad3</partId>
 

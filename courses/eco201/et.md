@@ -516,7 +516,7 @@ Austria majandusteadlased kohtavad sageli raskusi aruteludes teiste mõttekoolid
 Oluline on märkida, et valikuline andmete valimine, et luua seoseid muutujate vahel, on majandusteaduses mitteteaduslik ja ebakorrektne meetod. Näiteks rahaloomine ei põhjusta tingimata inflatsiooni, ja keerukate majandusmehhanismide mõistmiseks on vajalik peenem lähenemine. Aksiioomid mängivad Austria majandusteoorias olulist rolli. Need on fundamentaalsed elemendid, millest saab teha loogilisi järeldusi. Siiski on oluline tunnistada, et majanduse tuleviku täpne ennustamine on sageli keeruline majandusnähtuste keerukuse ja sisemise ebakindluse tõttu.
 Metoodika on majandusteaduses ja üldiselt sotsiaalteadustes oluline aspekt. See mõjutab, kuidas küsimusi esitatakse, hüpoteese sõnastatakse ja andmeid tõlgendatakse. Majanduskoolkondade metoodiliste erinevuste mõistmine võib aidata meil hinnata erinevaid perspektiive ja arendada oma arvamusi eelnevalt arutatud teemadel.
 
-# Järeldus
+# Lõpusektsioon
 
 <partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
 

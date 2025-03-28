@@ -530,7 +530,7 @@ Es importante tener en cuenta que la selección selectiva, que implica elegir se
 
 La metodología es un aspecto esencial en economía y en ciencias sociales en general. Influye en cómo se formulan las preguntas, se formulan las hipótesis y se interpreta los datos. Comprender las diferencias metodológicas entre las escuelas de pensamiento económico puede ayudarnos a apreciar perspectivas diversas y desarrollar nuestras propias opiniones sobre los temas discutidos en episodios anteriores.
 
-# Conclusión
+# Sección final
 
 <partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
 

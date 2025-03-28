@@ -1417,7 +1417,7 @@ Kolmanneksi, Bitcoin kasvoi orgaanisesti. Se pystyi kehittymään hienovaraisest
 Neljänneksi, Bitcoin oli altruistinen luomus. Satoshi Nakamoto tarjosi Bitcoinin maailmalle. Hän julkaisi ohjelman vapaan lisenssin alaisena. Hän ei hakenut mainetta, voittoa eikä valtaa. Hän varmisti verkon louhintaturvallisuuden yli vuoden ajan pyytämättä mitään korvausta. Vaikka hän kerrytti yli miljoona bitcoinia, hän ei koskaan käyttänyt niitä. Lopulta hän katosi, pääasiassa WikiLeaks-tapauksen luoman huomion aiheuttamien pelkojen vuoksi, jättäen projektin lepäämään yhteisön varaan ilman yksittäistä hallitsevaa hahmoa.
 Vuonna 2011 Satoshi katosi, mutta Bitcoin selvisi. Kryptovaluutta otti lopullisesti tuulta alleen sekä mediassa että taloudellisesta näkökulmasta. Kone oli käynnistetty, eikä kukaan voinut pysäyttää sitä.
 
-# Yhteenveto
+# Lopullinen osio
 
 <partId>89532d9b-af1f-49f3-b87a-b11987e303d5</partId>
 

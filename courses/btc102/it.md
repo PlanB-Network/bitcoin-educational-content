@@ -1022,7 +1022,7 @@ Sono davvero orgoglioso che tu abbia raggiunto questo punto. Lo penso sinceramen
 
 In ogni caso, tutti i nostri corsi rimangono gratuiti e molte risorse o tutorial sono disponibili sulla nostra piattaforma per accompagnarti. Buon proseguimento negli studi!## Nota la formazione!
 
-# Conclusione
+# Sezione finale
 
 <partId>a8425389-4a53-4b57-b9b4-36c1cab12de5</partId>
 

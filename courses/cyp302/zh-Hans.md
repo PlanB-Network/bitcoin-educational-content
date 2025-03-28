@@ -2287,7 +2287,7 @@ $$ y^d \mod N = x^{e \cdot d}\mod N = x^{e \cdot d \mod \phi(N)} \mod N = x^{1 \
 
 [4] 例如，参见 Jonathan Katz 和 Yehuda Lindell，《现代密码学入门》，CRC Press (Boca Raton, FL: 2015)，关于 RSA 加密的第 410-32 页和关于 RSA 数字签名的第 444-41 页。
 
-# 结论
+# 最终部分
 
 <partId>e538fb79-bf28-40cd-a5c3-badf864d8567</partId>
 

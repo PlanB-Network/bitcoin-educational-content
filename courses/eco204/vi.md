@@ -953,7 +953,7 @@ Siêu lạm phát là một chủ đề thú vị đã được nghiên cứu qu
 
 - "Currency Boards for Developing Countries: A Handbook" của Steve Hanke và Kurt Schuler. Mặc dù tập trung vào các khung tiền tệ, cuốn sách này cung cấp một góc nhìn về cách phòng tránh tình trạng siêu lạm phát.
 
-# Kết luận
+# Phần cuối
 
 <partId>cb1f4a4b-556a-4e47-a5cc-136be35a1f9a</partId>
 

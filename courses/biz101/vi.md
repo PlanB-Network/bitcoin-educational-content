@@ -1415,7 +1415,7 @@ Cuối cùng, cho dù bạn là một thương gia nhỏ hay một doanh nghiệ
 - Số Bitcoin được giữ lại (0,19335) xuất hiện trên bảng cân đối kế toán có giá trị là 7.734 €.
 - Lợi nhuận chưa thực hiện là 5.468 euro từ số Bitcoin được giữ lại được tiết lộ trong các ghi chú tài chính.
 
-# Phần kết luận
+# Phần cuối
 
 <partId>f6ca8d01-a4f3-449b-ac9f-c5fba9a69178</partId>
 

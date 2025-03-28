@@ -2254,7 +2254,7 @@ Seejärel jätkub aadressi genereerimine sama protsessiga, kasutades toorandmete
 
 Ja nii me jõudsimegi CYP201 kursuse lõppu. Kui leidsite selle kursuse kasuliku olevat, oleksin väga tänulik, kui võtaksite hetke, et anda sellele järgnevas hinnangupeatükis hea hinnang. Julgustan teid jagama seda ka oma lähedastega või sotsiaalvõrgustikes. Lõpuks, kui soovite saada selle kursuse diplomit, saate lõpueksamit teha kohe pärast hinnangupeatükki.
 
-# Kokkuvõte
+# Lõpusektsioon
 
 <partId>58111408-b734-54db-9ea7-0d5b67f99f99</partId>
 

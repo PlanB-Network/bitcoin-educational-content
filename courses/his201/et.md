@@ -1403,7 +1403,7 @@ Teiseks, Bitcoini ei ehitatud ühe päevaga. Isegi pärast tarkvara versiooni 0.
 Kolmandaks, Bitcoin kasvas orgaaniliselt. See suutis areneda diskreetselt, meelitades järk-järgult inimesi. Peaaegu poolteist aastat oli see väga konfidentsiaalne projekt, mida tundsid entusiastid ja uudishimulikud. Alles pärast juuli 2010. aasta slashdottingut hakkas see plahvatuslikult kasvama. Spekulatiivne hullus selle ümber ei hakanud tegelikult peale enne 2011. aastat, kui hind tõusis eksponentsiaalselt 32 dollarini.
 Neljandaks oli Bitcoin altruistlik loomine. Satoshi Nakamoto pakkus Bitcoini maailmale. Ta vabastas programmi vaba litsentsi all. Ta ei otsinud ei kuulsust, kasumit ega võimu. Ta tagas võrgu kaevandamise turvalisuse enam kui aasta vältel, küsimata selle eest mingit kompensatsiooni. Kuigi ta kogus kokku rohkem kui miljon bitcoini, ei kulutanud ta neid kunagi. Lõpuks kadus ta peamiselt seetõttu, et kartis WikiLeaks'i juhtumiga seotud tähelepanu, jättes projekti toetuma kogukonnale, ilma ühe valitseva figuurita. 2011. aastal Satoshi kadus, kuid Bitcoin jäi ellu. Krüptoraha isegi kindlalt hakkas tõusma, nii meedia kui ka majanduslikust vaatenurgast. Masin oli käivitatud ja keegi ei suutnud seda peatada.
 
-# Kokkuvõte
+# Lõpusektsioon
 
 <partId>89532d9b-af1f-49f3-b87a-b11987e303d5</partId>
 

@@ -969,7 +969,7 @@ Viděli jsme, že správa likvidity je na Lightning výzvou, aby se zajistil ply
 
 ![LNP201](assets/en/84.webp)
 
-# Závěr
+# Sekce finále
 
 <partId>b8715c1c-7ae2-49b7-94c7-35bf85346ad3</partId>
 

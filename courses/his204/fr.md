@@ -1090,7 +1090,7 @@ Eli Heckscher, Mercantilism, 2 vols. London: Allen and Unwin. 1935
 34. P. Jolly, Du Pont de Nemours, soldat de la liberté, Paris, P.U.F., 1956
 
 
-# Conclusion
+# Section finale
 <partId>385bffab-aea1-5bcd-9569-62b3f30665b7</partId>
 
 ## Avis & Notes

@@ -2413,7 +2413,7 @@ Tässä osiossa opit:
 
 Miten asennus Umbrelissa eroaa kahdesta aiemmasta isännöidystä vaihtoehdosta?
 
-# Yhteenveto
+# Lopullinen osio
 
 <partId>d72e6fa5-0870-5f00-9143-9466ed22e2bd</partId>
 

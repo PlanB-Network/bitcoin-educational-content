@@ -1350,7 +1350,7 @@ Ketiga, Bitcoin tumbuh secara organik. Ini mampu berkembang secara diam-diam, me
 Keempat, Bitcoin adalah ciptaan yang altruistik. Satoshi Nakamoto menawarkan Bitcoin kepada dunia. Dia merilis program tersebut di bawah lisensi gratis. Dia tidak mencari ketenaran, keuntungan, ataupun kekuasaan. Dia memastikan keamanan penambangan jaringan lebih dari setahun, tanpa meminta kompensasi apapun. Meskipun dia mengumpulkan lebih dari satu juta bitcoin, dia tidak pernah menghabiskannya. Dia akhirnya menghilang, terutama karena kekhawatiran terkait perhatian yang diciptakan oleh kasus WikiLeaks, meninggalkan proyek tersebut untuk bertumpu pada komunitas, tanpa satu figur dominan pun.
 
 Pada tahun 2011, Satoshi menghilang, tetapi Bitcoin bertahan. Mata uang kripto bahkan secara definitif lepas landas, baik dari sudut pandang media maupun ekonomi. Mesin telah diluncurkan dan tidak ada yang bisa menghentikannya.
-# Kesimpulan
+# Bagian Akhir
 <partId>89532d9b-af1f-49f3-b87a-b11987e303d5</partId>
 ## Ulasan & Penilaian
 <chapterId>8f27cc89-8759-4a4f-aff2-c1d3d9ecf14e</chapterId>

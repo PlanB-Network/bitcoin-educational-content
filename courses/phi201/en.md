@@ -1517,7 +1517,7 @@ In a certain sense, our situation is better than in the past. After the successi
 
 (_Economic Policy: Thoughts for Today and Tomorrow_, 1979).
 
-# Conclusion
+# Final Section
 
 <partId>df550767-5876-4034-9c6a-31238363e85f</partId>
 

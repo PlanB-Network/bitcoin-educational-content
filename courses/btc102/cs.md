@@ -1020,7 +1020,7 @@ Jsem opravdu hrdý, že jste dosáhli této fáze. Myslím to upřímně. Co dě
 
 V každém případě jsou všechny naše kurzy zdarma a na naší platformě je k dispozici mnoho zdrojů a tutoriálů, které vás mohou doprovázet. Hodně štěstí ve vašem studiu!
 
-# Závěr
+# Sekce finále
 
 <partId>a8425389-4a53-4b57-b9b4-36c1cab12de5</partId>
 

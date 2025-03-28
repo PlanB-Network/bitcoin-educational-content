@@ -1749,7 +1749,7 @@ Samozřejmě bychom neměli propadat konspiračnímu myšlení. Ale **nic nám n
 
 ![image](assets/fr/59.webp)
 
-# Závěr
+# Sekce finále
 
 <partId>62bc2138-c0be-5d39-a341-594690863257</partId>
 
@@ -1846,7 +1846,7 @@ Abychom toho dosáhli, budeme vycházet ze zkušeností několika francouzských
 
 V jiných zemích se samozřejmě **legislativa a fungování sdružení liší**. Několik bodů však bude velmi užitečných při zakládání sdružení nebo pořádání důležité akce; a **doufáme, že přijdou i další bitcoináři a zařadí toto školení speciálně pro svou zemi**.
 
-# Závěr
+# Sekce finále
 
 <partId>e9bdddf4-54c9-4de9-bbce-c3eade8c32e5</partId>
 

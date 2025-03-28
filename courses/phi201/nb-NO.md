@@ -1426,7 +1426,7 @@ På en måte er vår situasjon bedre enn i fortiden. Etter de påfølgende feile
 Alt som skjer i det globale samfunnet vi lever i, er resultatet av ideer. Det gode og det dårlige. Det som er nødvendig, er å bekjempe falske ideer. (...) Vår sivilisasjon kan overleve, og den må. Og den vil overleve takket være bedre ideer enn de som styrer verden i dag; og disse bedre ideene vil bli utviklet av den oppvoksende generasjonen.
 (_Economic Policy: Thoughts for Today and Tomorrow_, 1979).
 
-# Konklusjon
+# Siste seksjon
 
 <partId>df550767-5876-4034-9c6a-31238363e85f</partId>
 

@@ -134,7 +134,7 @@ Semoga sukses dengan studi Anda.
 
 ![video](https://youtu.be/6VaIVvBKjLY)
 
-# Kesimpulan
+# Bagian Akhir
 <partId>aff1e861-e6a3-58ad-af6a-33ceaedbda99</partId>
 
 

@@ -3901,7 +3901,7 @@ Dự án vẫn đang trong giai đoạn alpha. Do đó, chúng tôi khuyên bạ
 
 Các cơ hội mở ra bởi khả năng tương thích LN-RGB này là rất đáng kể: stablecoin trên Lightning, DEX layer-2, chuyển giao các token có thể thay thế hoặc NFT với chi phí rất thấp... Các chương trước đã phác thảo kiến trúc khái niệm và logic xác thực. Bây giờ bạn đã có cái nhìn thực tế về cách đưa một nút như vậy vào hoạt động, cho các phát triển hoặc thử nghiệm trong tương lai của bạn.
 
-# Phần kết luận
+# Phần cuối
 
 <partId>b0baebfc-d146-5938-849a-f835fafb386f</partId>
 

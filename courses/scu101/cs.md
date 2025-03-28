@@ -501,7 +501,7 @@ Alternativy k rušivým reklamám zahrnují Google DNS, OpenDNS a další nezáv
 
 Jako součást výukového modulu "Security 101" na Découvre Bitcoin Academy jsme také diskutovali o autentizaci Lightning. Tento systém generuje pro každou službu odlišný identifikátor, aniž by bylo nutné poskytovat e-mailovou adresu nebo osobní informace. Je možné mít uživatelem kontrolované decentralizované identity, ale chybí standardizace a normalizace v projektech decentralizované identity. Doporučují se správci balíčků, jako jsou Nuget a Chocolaté, které umožňují stahování open-source softwaru mimo Microsoft Store, aby se předešlo škodlivým útokům. Shrnutí, DNS je pro online bezpečnost zásadní, ale je nutné zůstat ostražitý vůči možným útokům na DNS servery.
 
-# Závěr
+# Sekce finále
 
 <partId>3d8ac4c9-f05b-4133-a40a-6e19d579f05f</partId>
 

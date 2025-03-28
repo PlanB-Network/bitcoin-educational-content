@@ -4220,7 +4220,7 @@ Poiché questa funzione è nuova, vi consigliamo di usare cautela e di evitare d
 
 *Per creare questo capitolo sui pagamenti silenziosi, ho utilizzato [il sito di spiegazione dei pagamenti silenziosi](https://silentpayments.xyz/) e [il documento di spiegazione del BIP352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki)
 
-# Conclusione
+# Sezione finale
 
 <partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 

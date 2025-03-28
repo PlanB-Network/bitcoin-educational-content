@@ -980,7 +980,7 @@ Abbiamo visto che la gestione della liquidità è una sfida su Lightning per gar
 
 ![LNP201](assets/en/84.webp)
 
-# Conclusione
+# Sezione finale
 
 <partId>b8715c1c-7ae2-49b7-94c7-35bf85346ad3</partId>
 

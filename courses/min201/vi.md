@@ -777,7 +777,7 @@ Ngày nay, có một tiến bộ mới trong lĩnh vực phần mềm và firmwa
 
 Kết quả cuối cùng là tốc độ hash cao hơn trên mỗi watt điện năng tiêu thụ, điều này có nghĩa là lợi nhuận lớn hơn cho các thợ đào. Lý do tại sao các máy không được phân phối với loại phần mềm này là vì sự biến động của máy là không mong muốn, vì khách hàng muốn biết chính xác họ đang nhận được cái gì, vì vậy việc bán một sản phẩm không có hiệu suất nhất quán và dự đoán được từ máy này sang máy khác là ý tưởng tồi cho các nhà sản xuất. Ngoài ra, autotuning ở cấp độ chip đòi hỏi nguồn lực phát triển đáng kể, vì nó phức tạp để triển khai. Các nhà sản xuất đã chi rất nhiều nguồn lực để phát triển firmware của riêng họ. Có các giải pháp phần mềm cho phép autotuning, như Braiins OS+, có thể cải thiện hiệu suất ASIC lên đến 20%.
 
-# Kết luận
+# Phần cuối
 
 <partId>fa42ec0b-b1fd-47f6-8268-6eab684c1d2b</partId>
 

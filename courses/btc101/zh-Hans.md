@@ -1353,7 +1353,7 @@ https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 准备好加入了吗？
 
-# 结论
+# 最终部分
 
 <partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 

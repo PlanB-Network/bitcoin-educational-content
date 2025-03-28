@@ -1353,7 +1353,7 @@ Satoshi loi Bitcoinin vuonna 2008 ehdottaakseen rahoitusjärjestelmän muuttamis
 
 Oletko valmis liittymään?
 
-# Päätelmä
+# Lopullinen osio
 
 <partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 

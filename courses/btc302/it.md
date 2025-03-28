@@ -1242,7 +1242,7 @@ Certo, non dovremmo cadere in una forma di pensiero cospirativo. Ma **nulla ci i
 
 ![image](assets/fr/59.webp)
 
-# Conclusione
+# Sezione finale
 <partId>62bc2138-c0be-5d39-a341-594690863257</partId>
 
 ## Un piano d'azione riassunto per creare la tua comunità Bitcoin
@@ -1309,7 +1309,7 @@ Naturalmente, **in altri paesi, la legislazione e il funzionamento delle associa
 
 
 
-# Conclusione
+# Sezione finale
 <partId>e9bdddf4-54c9-4de9-bbce-c3eade8c32e5</partId>
 
 ## Recensioni & Valutazioni

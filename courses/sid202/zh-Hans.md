@@ -1219,7 +1219,7 @@ e1-cli reissueasset <default asset name> <amount>
 
 下一步是挑战自己，做一个涵盖前面所有章节的累积测验，然后开始您的元素之旅......祝您好运！
 
-# 结论
+# 最终部分
 
 <partId>d5dbd616-e291-42bc-aae3-6c44599dbd06</partId>
 

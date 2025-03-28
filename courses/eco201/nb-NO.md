@@ -510,7 +510,7 @@ Et eksempel på metodologisk forskjell er posisjonen til tilhengere av Moderne M
 Det er viktig å merke seg at kirsebærplukking, som innebærer selektivt valg av data for å etablere relasjoner mellom variabler, er en uvitenskapelig og lite grundig metode i økonomi. Pengekreasjon, for eksempel, fører ikke nødvendigvis til inflasjon, og en mer nyansert tilnærming er nødvendig for å forstå komplekse økonomiske mekanismer. Aksiomer spiller en avgjørende rolle i østerriksk økonomisk resonnement. De er grunnleggende elementer som logiske slutninger kan trekkes fra. Det er imidlertid viktig å anerkjenne at nøyaktig forutsigelse av fremtiden i økonomi ofte er vanskelig på grunn av kompleksiteten i økonomiske fenomener og iboende usikkerhet.
 Metodologi er et essensielt aspekt i økonomi og i samfunnsvitenskapene generelt. Det påvirker hvordan spørsmål stilles, hypoteser formuleres, og data tolkes. Å forstå de metodologiske forskjellene mellom økonomiske skoler kan hjelpe oss med å sette pris på ulike perspektiver og utvikle våre egne meninger om temaene diskutert i tidligere episoder.
 
-# Konklusjon
+# Siste seksjon
 
 <partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
 

@@ -98,7 +98,7 @@ Nardo memberikan gambaran umum tentang Blockstream AMP, sebuah platform untuk me
 
 Antonio mempresentasikan Breeze, sebuah SDK sumber terbuka yang dirancang untuk transaksi terdesentralisasi di Jaringan Liquid. Dia membahas fitur-fiturnya, termasuk dukungan untuk binding multi-bahasa dan proses transaksi yang aman, sambil menekankan tujuannya untuk menyederhanakan teknologi keuangan bagi para pengembang
 
-# Kesimpulan
+# Bagian Akhir
 
 <partId>7ec65e6b-6e63-41b6-92ea-6a13bc77c3ff</partId>
 

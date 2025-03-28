@@ -3908,7 +3908,7 @@ O projeto continua na fase alfa. Por conseguinte, recomenda-se vivamente que se 
 
 As oportunidades abertas por esta compatibilidade LN-RGB são consideráveis: stablecoins na Lightning, DEX layer-2, transferência de tokens fungíveis ou NFTs a um custo muito baixo... Os capítulos precedentes apresentaram a arquitetura concetual e a lógica de validação. Agora tem uma visão prática de como colocar um nó deste tipo em funcionamento, para os seus futuros desenvolvimentos ou testes.
 
-# Conclusão
+# Seção final
 
 <partId>b0baebfc-d146-5938-849a-f835fafb386f</partId>
 

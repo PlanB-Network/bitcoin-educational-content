@@ -1432,7 +1432,7 @@ https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45
 - 留存比特币（0.19335）在资产负债表中的价值为 7 734 欧元。
 - 财务附注中披露的保留比特币未实现收益 5 468 欧元。
 
-# 结论
+# 最终部分
 
 <partId>f6ca8d01-a4f3-449b-ac9f-c5fba9a69178</partId>
 

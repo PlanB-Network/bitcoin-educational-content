@@ -1404,7 +1404,7 @@ These fundamental questions for our future must be debated and collectively deci
 
 Are you ready to join?
 
-# निष्कर्ष
+# अंतिम खंड
 
 <partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 

@@ -4220,7 +4220,7 @@ Da diese Funktion neu ist, raten wir Ihnen, Vorsicht walten zu lassen und Silent
 
 *Zur Erstellung dieses Kapitels über stille Zahlungen habe ich [die Website mit Erläuterungen zu stillen Zahlungen] (https://silentpayments.xyz/) und [das Dokument mit Erläuterungen zu BIP352] (https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki) verwendet
 
-# Schlussfolgerung
+# Abschließender Abschnitt
 
 <partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 

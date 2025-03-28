@@ -1430,7 +1430,7 @@ Terakhir, baik Anda seorang pedagang kecil atau bisnis yang sudah mapan, Anda bi
 - Bitcoin yang ditahan (0.19335) muncul di neraca senilai €7,734.
 - Keuntungan yang belum direalisasi sebesar €5.468 dari Bitcoin yang ditahan diungkapkan dalam catatan keuangan.
 
-# Kesimpulan
+# Bagian Akhir
 
 <partId>f6ca8d01-a4f3-449b-ac9f-c5fba9a69178</partId>
 

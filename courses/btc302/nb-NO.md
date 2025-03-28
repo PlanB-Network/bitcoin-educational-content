@@ -1749,7 +1749,7 @@ Vi skal selvfølgelig ikke henfalle til en form for konspiratorisk tenkning. Men
 
 ![image](assets/fr/59.webp)
 
-# Konklusjon
+# Siste seksjon
 
 <partId>62bc2138-c0be-5d39-a341-594690863257</partId>
 
@@ -1846,7 +1846,7 @@ For å oppnå dette vil vi ta utgangspunkt i erfaringene fra flere franske lokal
 
 Selvfølgelig er ** i andre land lovgivningen og driften av foreninger annerledes **. Imidlertid vil flere punkter være veldig nyttige for å opprette en forening eller organisere et viktig arrangement; og ** vi håper at andre bitcoinere vil komme og integrere denne opplæringen spesielt for deres land **.
 
-# Konklusjon
+# Siste seksjon
 
 <partId>e9bdddf4-54c9-4de9-bbce-c3eade8c32e5</partId>
 

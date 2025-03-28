@@ -1405,7 +1405,7 @@ For det tredje, Bitcoin vokste organisk. Det var i stand til å utvikle seg disk
 For det fjerde var Bitcoin en altruistisk skapelse. Satoshi Nakamoto tilbød Bitcoin til verden. Han utga programmet under en fri lisens. Han søkte verken berømmelse, profitt eller makt. Han sikret nettverkets mining-sikkerhet i mer enn et år, uten å be om noen form for kompensasjon. Selv om han akkumulerte mer enn en million bitcoins, brukte han dem aldri. Han forsvant til slutt, hovedsakelig på grunn av frykt relatert til oppmerksomheten skapt av WikiLeaks-saken, og overlot prosjektet til et fellesskap, uten en enkelt dominerende figur.
 I 2011 forsvant Satoshi, men Bitcoin overlevde. Kryptovalutaen tok definitivt av, både fra et medie- og økonomisk synspunkt. Maskinen var i gang, og ingen kunne stoppe den.
 
-# Konklusjon
+# Siste seksjon
 
 <partId>89532d9b-af1f-49f3-b87a-b11987e303d5</partId>
 

@@ -2236,7 +2236,7 @@ La generazione dell'indirizzo segue quindi lo stesso processo, utilizzando la ch
 
 Ed eccoci! Abbiamo raggiunto la fine di questo corso CYP201. Se hai trovato questo corso utile, ti sarei molto grato se potessi dedicare qualche momento per dare una buona valutazione nel capitolo di valutazione seguente. Sentiti libero di condividerlo anche con i tuoi cari o sui tuoi social network. Infine, se desideri ottenere il tuo diploma per questo corso, puoi sostenere l'esame finale subito dopo il capitolo di valutazione.
 
-# Conclusione
+# Sezione finale
 
 <partId>58111408-b734-54db-9ea7-0d5b67f99f99</partId>
 

@@ -132,7 +132,7 @@ Boa sorte com seus estudos.
 
 ![vídeo](https://youtu.be/6VaIVvBKjLY)
 
-# Conclusão
+# Seção final
 <partId>aff1e861-e6a3-58ad-af6a-33ceaedbda99</partId>
 
 

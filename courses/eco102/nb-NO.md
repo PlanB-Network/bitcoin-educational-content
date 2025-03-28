@@ -1034,7 +1034,7 @@ Hvis vi ser på ting fra denne vinkelen, forklarte Reagan til GE-ansatte, fremst
 ![bilde](assets/test/143.webp)
 I bunn og grunn tok Reagan fra Bastiat flere nøkkelelementer av et liberalt syn på samfunn og menneske: primatet til sivilsamfunnet over Staten, verdien av valg og individuelt ansvar, betydningen av entreprenøren i rikdomsskaping, viktigheten av et fleksibelt og minimalt lovverk, som tillater tillit og respekt for kontrakter, den grunnleggende loven om at rikdom må skapes før den kan distribueres, ønsket om å gi alle en sjanse i konkurranseutsatte markeder…
 
-# Konklusjon
+# Siste seksjon
 
 <partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
 

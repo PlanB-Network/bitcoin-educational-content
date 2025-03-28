@@ -1642,7 +1642,7 @@ Semoga pemahaman baru ini memberdayakan Anda untuk menavigasi dunia keuangan yan
 
 Masa Depan Cerah!
 
-# Kesimpulan
+# Bagian Akhir
 
 <partId>0d839c56-4b1e-4863-851f-4d508f3e0020</partId>
 

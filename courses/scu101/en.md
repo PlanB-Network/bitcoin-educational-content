@@ -520,7 +520,7 @@ Alternatives to intrusive advertisements include Google DNS, OpenDNS, and other 
 
 As part of the "Security 101" training module on Découvre Bitcoin Academy, we also discussed Lightning authentication. This system generates a different identifier for each service, without the need to provide an email address or personal information. It is possible to have user-controlled decentralized identities, but there is a lack of standardization and normalization in decentralized identity projects. Package managers such as Nuget and Chocolaté, which allow downloading open-source software outside of the Microsoft Store, are recommended to avoid malicious attacks. In summary, DNS is crucial for online security, but it is necessary to remain vigilant against potential attacks on DNS servers.
 
-# Conclusion
+# Final Section
 
 <partId>3d8ac4c9-f05b-4133-a40a-6e19d579f05f</partId>
 

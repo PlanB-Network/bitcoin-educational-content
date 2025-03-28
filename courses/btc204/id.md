@@ -4220,7 +4220,7 @@ Karena fitur ini masih baru, kami menyarankan Anda untuk berhati-hati dan menghi
 
 *Untuk membuat bab tentang Pembayaran Diam, saya menggunakan [situs penjelasan Pembayaran Diam](https://silentpayments.xyz/) dan [dokumen penjelasan BIP352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki).*
 
-# Kesimpulan
+# Bagian Akhir
 
 <partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 

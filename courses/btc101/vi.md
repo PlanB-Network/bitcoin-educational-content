@@ -1388,7 +1388,7 @@ Satoshi đã tạo ra Bitcoin vào năm 2008 để đề xuất thay đổi hệ
 
 Bạn đã sẵn sàng tham gia chưa?
 
-# Phần kết luận
+# Phần cuối
 
 <partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 

@@ -892,7 +892,7 @@ L'iperinflazione è un argomento affascinante che è stato studiato attraverso v
 
 - "Consigli per le casse di emissione per i paesi in via di sviluppo: una guida" di Steve Hanke e Kurt Schuler. Sebbene il focus sia sulle casse di emissione, questo libro offre una prospettiva su come evitare situazioni di iperinflazione.
 
-# Conclusione
+# Sezione finale
 
 <partId>cb1f4a4b-556a-4e47-a5cc-136be35a1f9a</partId>
 

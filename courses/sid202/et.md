@@ -1219,7 +1219,7 @@ Me nägime, et Elements'i lähtekood ja veebisait (https://github.com/ElementsPr
 
 Järgmine samm on esitada endale väljakutse kumulatiivse viktoriini abil, mis hõlmab kõiki eelnevaid osi, ja seejärel alustada oma Elements reisi... palju õnne!
 
-# Kokkuvõte
+# Lõpusektsioon
 
 <partId>d5dbd616-e291-42bc-aae3-6c44599dbd06</partId>
 

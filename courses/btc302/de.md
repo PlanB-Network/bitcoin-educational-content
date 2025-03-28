@@ -1749,7 +1749,7 @@ Natürlich sollten wir nicht in eine Form von konspirativem Denken verfallen. Ab
 
 ![image](assets/fr/59.webp)
 
-# Schlussfolgerung
+# Abschließender Abschnitt
 
 <partId>62bc2138-c0be-5d39-a341-594690863257</partId>
 
@@ -1846,7 +1846,7 @@ Um dies zu erreichen, werden wir von den Erfahrungen mehrerer französischer Gem
 
 Natürlich sind **in anderen Ländern die Gesetzgebung und die Funktionsweise von Vereinigungen anders**. Einige Punkte werden jedoch sehr hilfreich sein, wenn es darum geht, eine Vereinigung zu gründen oder eine wichtige Veranstaltung zu organisieren; und **wir hoffen, dass andere Bitcoiner kommen und diese Schulung speziell für ihr Land integrieren**.
 
-# Schlussfolgerung
+# Abschließender Abschnitt
 
 <partId>e9bdddf4-54c9-4de9-bbce-c3eade8c32e5</partId>
 

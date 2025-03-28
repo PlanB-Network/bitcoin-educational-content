@@ -3906,7 +3906,7 @@ Projekt zůstává ve fázi alfa. Proto se důrazně doporučuje omezit se na te
 
 Možnosti, které se díky této kompatibilitě LN-RGB otevírají, jsou značné: stablecoiny na Lightningu, DEX layer-2, převod zastupitelných tokenů nebo NFT za velmi nízké náklady... V předchozích kapitolách byla nastíněna koncepční architektura a logika ověřování. Nyní máte praktický pohled na to, jak takový uzel zprovoznit, pro váš budoucí vývoj nebo testy.
 
-# Závěr
+# Sekce finále
 
 <partId>b0baebfc-d146-5938-849a-f835fafb386f</partId>
 

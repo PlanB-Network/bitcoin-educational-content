@@ -1074,7 +1074,7 @@ Je suis vraiment fier que vous ayez atteint ce stade. Je le pense sincèrement. 
 
 Dans tous les cas, toutes nos formations restent gratuites et de nombreuses ressources ou tutoriels sont disponibles sur notre plateforme pour vous accompagner. Bonne continuation dans vos études !## Note la formation !
 
-# Conclusion
+# Section finale
 
 <partId>a8425389-4a53-4b57-b9b4-36c1cab12de5</partId>
 

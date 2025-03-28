@@ -1092,7 +1092,7 @@ L'hyperinflation est un sujet fascinant qui a été étudié à travers divers �
 - "The Hyperinflation Survival Guide: Strategies for American Businesses" par Gerald Swanson
   Un guide pratique sur la manière dont les entreprises peuvent naviguer dans un environnement hyperinflationniste.
 
-# Conclusion
+# Section finale
 
 <partId>cb1f4a4b-556a-4e47-a5cc-136be35a1f9a</partId>
 

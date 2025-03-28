@@ -4220,7 +4220,7 @@ Vzhledem k tomu, že tato funkce je nová, doporučujeme vám, abyste byli opatr
 
 *K vytvoření této kapitoly o tichých platbách jsem použil [stránku s vysvětlením tichých plateb](https://silentpayments.xyz/) a [dokument s vysvětlením BIP352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki).*
 
-# Závěr
+# Sekce finále
 
 <partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 

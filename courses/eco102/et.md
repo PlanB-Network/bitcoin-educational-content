@@ -1043,7 +1043,7 @@ Kui vaadata asju sellest vaatenurgast, selgitas Reagan GE töötajatele, riiklik
 
 Olemuselt võttis Reagan Bastiat'lt mitu liberaalse ühiskonna- ja inimvaate võtmelementi: tsiviilühiskonna primaarsus riigi ees, valiku ja individuaalse vastutuse väärtus, ettevõtja tähtsus rikkuse loomisel, paindliku ja minimaalse õigusraamistiku tähtsus, mis võimaldab usaldust ja lepingute austamist, fundamentaalne seadus, et rikkus tuleb luua enne, kui seda saab jaotada, soov anda kõigile võimalus konkurentsivõimelistel turgudel…
 
-# Kokkuvõte
+# Lõpusektsioon
 
 <partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
 

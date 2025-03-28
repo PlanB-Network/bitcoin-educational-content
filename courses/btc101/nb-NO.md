@@ -1353,7 +1353,7 @@ Satoshi skapte Bitcoin i 2008 for å foreslå en endring av det finansielle syst
 
 Er du klar til å bli med?
 
-# Konklusjon
+# Siste seksjon
 
 <partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 

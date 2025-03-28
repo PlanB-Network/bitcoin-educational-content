@@ -518,7 +518,7 @@ Penting untuk dicatat bahwa cherry-picking, yang melibatkan pemilihan data secar
 
 Metodologi adalah aspek penting dalam ekonomi dan dalam ilmu sosial pada umumnya. Ini mempengaruhi bagaimana pertanyaan diajukan, hipotesis dirumuskan, dan data ditafsirkan. Memahami perbedaan metodologis antara sekolah pemikiran ekonomi dapat membantu kita menghargai perspektif yang beragam dan mengembangkan opini kita sendiri tentang topik yang dibahas dalam episode sebelumnya.
 
-# Kesimpulan
+# Bagian Akhir
 
 <partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
 

@@ -763,7 +763,7 @@ Dette setter en øvre grense for hash rate en maskin kan ha. Autotuning er en pr
 
 Resultatet er en høyere hash rate per watt elektrisitet, noe som betyr større fortjenestemarginer for gruvearbeidere. Grunnen til at maskiner ikke distribueres med denne typen programvare er at maskinvarians er uønsket, ettersom kunder ønsker å vite nøyaktig hva de får, så det er en dårlig idé for produsenter å selge et produkt som ikke har konsekvent og forutsigbar ytelse fra en maskin til en annen. I tillegg krever autotuning på brikkenivå betydelige utviklingsressurser, da det er komplekst å implementere. Produsenter bruker allerede mange ressurser på å utvikle sine egne firmwares. Det finnes programvareløsninger som tillater autotuning, som Braiins OS+. I tillegg til å forbedre ASIC-ytelsen med opptil 20%.
 
-# Konklusjon
+# Siste seksjon
 
 <partId>fa42ec0b-b1fd-47f6-8268-6eab684c1d2b</partId>
 

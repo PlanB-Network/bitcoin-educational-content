@@ -3907,7 +3907,7 @@ Projekt on endiselt alfa-staadiumis. Seetõttu on tungivalt soovitatav piirduda 
 
 LN-RGB ühilduvuse poolt avanevad võimalused on märkimisväärsed: stabiilsed mündid Lightningil, DEX layer-2, asendatavate žetoonide või NFT-de ülekandmine väga väikeste kuludega... Eelmistes peatükkides on kirjeldatud kontseptuaalset arhitektuuri ja valideerimisloogikat. Nüüd on teil praktiline ülevaade sellest, kuidas saada selline sõlme üles ja tööle, teie tulevaste arenduste või testide jaoks.
 
-# Kokkuvõte
+# Lõpusektsioon
 
 <partId>b0baebfc-d146-5938-849a-f835fafb386f</partId>
 

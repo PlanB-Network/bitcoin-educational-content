@@ -1318,7 +1318,7 @@ Satoshi created Bitcoin in 2008 to propose a change the financial system, throug
 
 Are you ready to join?
 
-# Conclusion
+# Final Section
 
 <partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 

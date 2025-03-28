@@ -1633,7 +1633,7 @@ Che questa nuova comprensione vi dia il potere di navigare il mondo in evoluzion
 
 Il Futuro è Luminoso!
 
-# Conclusione
+# Sezione finale
 
 <partId>0d839c56-4b1e-4863-851f-4d508f3e0020</partId>
 

@@ -2403,7 +2403,7 @@ V této sekci jste se naučili:
 
 Jak se nastavení na Umbrelu liší od předchozích dvou hostovaných možností?
 
-# Závěr
+# Sekce finále
 
 <partId>d72e6fa5-0870-5f00-9143-9466ed22e2bd</partId>
 

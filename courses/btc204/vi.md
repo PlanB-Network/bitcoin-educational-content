@@ -4220,7 +4220,7 @@ Vì tính năng này mới nên chúng tôi khuyên bạn nên thận trọng v�
 
 *Để tạo chương này về Thanh toán thầm lặng, tôi đã sử dụng [trang web giải thích về Thanh toán thầm lặng](https://silentpayments.xyz/) và [tài liệu giải thích BIP352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki).*
 
-# Phần kết luận
+# Phần cuối
 
 <partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 

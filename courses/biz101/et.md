@@ -1430,7 +1430,7 @@ Lõpuks, olenemata sellest, kas olete väike kaupmees või väljakujunenud ettev
 - Säilitatud Bitcoin (0,19335) kajastub bilansis 7 734 euro väärtuses.
 - Realiseerimata kasum summas 5468 eurot säilitatud Bitcoinist, mis on esitatud finantsteatistes.
 
-# Kokkuvõte
+# Lõpusektsioon
 
 <partId>f6ca8d01-a4f3-449b-ac9f-c5fba9a69178</partId>
 

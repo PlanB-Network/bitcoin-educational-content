@@ -1303,7 +1303,7 @@ Enfin, que vous soyez un petit commerçant ou une entreprise plus établie, il e
 - Le bitcoin retenu (0,19335) apparaît au bilan pour une valeur de 7 734 €.
 - Gains non réalisés de 5 468 € sur les bitcoins conservés présentés dans les notes financières.
 
-# Conclusion
+# Section finale
 
 <partId>f6ca8d01-a4f3-449b-ac9f-c5fba9a69178</partId>
 

@@ -763,7 +763,7 @@ Tämä asettaa ylärajan koneen hash-nopeudelle. Autotuning on prosessi, jossa a
 
 Lopputuloksena on korkeampi hash-nopeus wattia kohden, mikä tarkoittaa suurempia voittomarginaaleja louhijoille. Syy siihen, miksi koneita ei jaeta tämän tyyppisen ohjelmiston kanssa, on se, että koneiden vaihtelu on epätoivottavaa, koska asiakkaat haluavat tietää tarkalleen, mitä he saavat, joten valmistajille on huono idea myydä tuotetta, jolla ei ole johdonmukaista ja ennustettavaa suorituskykyä koneesta toiseen. Lisäksi sirutason autotuning vaatii huomattavia kehitysresursseja, sillä sen toteuttaminen on monimutkaista. Valmistajat käyttävät jo paljon resursseja kehittäessään omia firmwarejaan. On olemassa ohjelmistoratkaisuja, jotka mahdollistavat autotuningin, kuten Braiins OS+. Lisäksi ASIC-suorituskyvyn parantaminen jopa 20%:lla.
 
-# Yhteenveto
+# Lopullinen osio
 
 <partId>fa42ec0b-b1fd-47f6-8268-6eab684c1d2b</partId>
 

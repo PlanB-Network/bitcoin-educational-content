@@ -4220,7 +4220,7 @@ Koska tämä ominaisuus on uusi, suosittelemme varovaisuutta ja välttämään H
 
 *Tämän hiljaisia maksuja käsittelevän luvun laatimisessa käytin [hiljaisten maksujen selityssivustoa](https://silentpayments.xyz/) ja [BIP352-selitysasiakirjaa](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki).*
 
-# Päätelmä
+# Lopullinen osio
 
 <partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 

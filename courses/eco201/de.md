@@ -528,7 +528,7 @@ Es ist wichtig zu beachten, dass das Cherry-Picking, bei dem selektiv Daten ausg
 
 Methodologie ist ein wesentlicher Aspekt in der Wirtschaft und den Sozialwissenschaften im Allgemeinen. Sie beeinflusst, wie Fragen gestellt, Hypothesen formuliert und Daten interpretiert werden. Das Verständnis der methodologischen Unterschiede zwischen ökonomischen Denkschulen kann uns helfen, vielfältige Perspektiven zu schätzen und unsere eigenen Meinungen zu den in früheren Episoden diskutierten Themen zu entwickeln.
 
-# Fazit
+# Abschließender Abschnitt
 
 <partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
 

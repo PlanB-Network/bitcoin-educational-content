@@ -1623,7 +1623,7 @@ Al concluir este curso, esperamos que apliques el conocimiento adquirido aquí e
 ¡Que este nuevo entendimiento te empodere para navegar el mundo evolutivo de las finanzas con confianza y propósito! ¡La mejor de las suertes en tu camino de crecimiento y descubrimiento!
 ¡El Futuro es Brillante!
 
-# Conclusión
+# Sección final
 
 <partId>0d839c56-4b1e-4863-851f-4d508f3e0020</partId>
 

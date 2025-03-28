@@ -4220,7 +4220,7 @@ sp1qqvhjvsq2vz8zwrw372vuzle7472zup2ql3pz64yn5cpkw5ngv2n6jq4nl8cgm6zmu48yk3eq33ry
 
 *Для создания этой главы о "тихих платежах" я использовал [сайт с пояснениями по "тихим платежам"] (https://silentpayments.xyz/) и [документ с пояснениями по BIP352] (https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki)*
 
-# Заключение
+# Заключительный раздел
 
 <partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 

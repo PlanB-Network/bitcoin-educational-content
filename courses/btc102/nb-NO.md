@@ -1017,7 +1017,7 @@ Jeg er virkelig stolt over at du har nådd dette stadiet. Jeg mener det opprikti
 
 Uansett er alle våre kurs gratis, og mange ressurser eller opplæringer er tilgjengelige på vår plattform for å følge deg. Lykke til med studiene!
 
-# Konklusjon
+# Siste seksjon
 
 <partId>a8425389-4a53-4b57-b9b4-36c1cab12de5</partId>
 

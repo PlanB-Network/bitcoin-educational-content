@@ -4220,7 +4220,7 @@ sp1qqvhjvsq2vz8zwrw372vuzle7472zup2ql3pz64yn5cpkw5ngv2n6jq4nl8cgm6zmu48yk3eq33ry
 
 *为了撰写关于无声支付的这一章，我使用了[无声支付解释网站](https://silentpayments.xyz/) 和[BIP352 解释文件](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki)。*
 
-# 结论
+# 最终部分
 
 <partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 

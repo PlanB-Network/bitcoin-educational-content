@@ -2402,7 +2402,7 @@ In diesem Abschnitt haben Sie gelernt:
 
 Wie unterscheidet sich die Einrichtung auf Umbrel von den vorherigen zwei gehosteten Optionen?
 
-# Schlussfolgerung
+# Abschließender Abschnitt
 
 <partId>d72e6fa5-0870-5f00-9143-9466ed22e2bd</partId>
 

@@ -1364,7 +1364,7 @@ In un certo senso, la nostra situazione è migliore rispetto al passato. Dopo i 
 Tutto ciò che accade nella società globale in cui viviamo è il risultato delle idee. Il bene e il male. Ciò che è necessario è combattere le idee false. (...) La nostra civiltà può sopravvivere, e deve. E sopravviverà grazie a idee migliori rispetto a quelle che governano il mondo oggi; e queste idee migliori saranno sviluppate dalla generazione emergente.
 (_Economic Policy: Thoughts for Today and Tomorrow_, 1979).
 
-# Conclusione
+# Sezione finale
 
 <partId>df550767-5876-4034-9c6a-31238363e85f</partId>
 

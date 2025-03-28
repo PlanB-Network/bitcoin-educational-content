@@ -1355,7 +1355,7 @@ Satoshi lõi Bitcoini 2008. aastal, et teha ettepanek muuta finantssüsteemi val
 
 Kas olete valmis liituma?
 
-# Kokkuvõte
+# Lõpusektsioon
 
 <partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 

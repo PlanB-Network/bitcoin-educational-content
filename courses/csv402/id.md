@@ -3908,7 +3908,7 @@ Proyek ini masih dalam tahap alfa. Oleh karena itu, sangat disarankan agar Anda 
 
 Peluang yang dibuka oleh kompatibilitas LN-RGB ini cukup besar: stablecoin di Lightning, DEX layer-2, transfer token yang dapat dipertukarkan atau NFT dengan biaya yang sangat rendah... Bab-bab sebelumnya telah menguraikan arsitektur konseptual dan logika validasi. Sekarang Anda memiliki pandangan praktis tentang cara membuat node seperti itu aktif dan berjalan, untuk pengembangan atau pengujian di masa mendatang.
 
-# Kesimpulan
+# Bagian Akhir
 
 <partId>b0baebfc-d146-5938-849a-f835fafb386f</partId>
 

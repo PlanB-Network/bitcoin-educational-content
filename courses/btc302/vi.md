@@ -1749,7 +1749,7 @@ Tất nhiên, chúng ta không nên rơi vào dạng suy nghĩ theo thuyết âm
 
 ![image](assets/fr/59.webp)
 
-# Phần kết luận
+# Phần cuối
 
 <partId>62bc2138-c0be-5d39-a341-594690863257</partId>
 
@@ -1846,7 +1846,7 @@ Thông qua đó, **chúng tôi cũng sẽ **trình bày chi tiết một điểm
 
 Tất nhiên, **ở các quốc gia khác, luật pháp và hoạt động của các hiệp hội là khác nhau**. Tuy nhiên, một số điểm sẽ rất hữu ích trong việc thành lập một hiệp hội hoặc tổ chức một sự kiện quan trọng; và **chúng tôi hy vọng rằng những người dùng bitcoin khác sẽ đến và tích hợp khóa đào tạo này dành riêng cho quốc gia của họ**.
 
-# Phần kết luận
+# Phần cuối
 
 <partId>e9bdddf4-54c9-4de9-bbce-c3eade8c32e5</partId>
 

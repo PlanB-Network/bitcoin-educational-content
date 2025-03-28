@@ -1018,7 +1018,7 @@ Olen tõeliselt uhke, et olete jõudnud selle etapini. Ma tõesti mõtlen seda. 
 
 Igal juhul on kõik meie kursused tasuta ja meie platvormil on saadaval palju ressursse või õpetusi, mis teid saadavad. Edu õpingutes!
 
-# Kokkuvõte
+# Lõpusektsioon
 
 <partId>a8425389-4a53-4b57-b9b4-36c1cab12de5</partId>
 

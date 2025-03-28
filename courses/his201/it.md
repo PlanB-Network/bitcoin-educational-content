@@ -1340,7 +1340,7 @@ In secondo luogo, Bitcoin non è stato costruito in un giorno. Anche dopo il ril
 In terzo luogo, Bitcoin è cresciuto organicamente. È stato in grado di svilupparsi discretamente, attirando gradualmente le persone. Per quasi un anno e mezzo, è stato un progetto molto confidenziale, noto agli appassionati e ai curiosi. È stato solo dopo il slashdotting del luglio 2010 che ha iniziato ad esplodere. La frenesia speculativa su di esso non si è realmente impostata fino al 2011, quando il prezzo è aumentato esponenzialmente fino a $32.
 In quarto luogo, Bitcoin è stata una creazione altruistica. Satoshi Nakamoto ha offerto Bitcoin al mondo. Ha rilasciato il programma sotto una licenza libera. Non ha cercato fama, profitto, né potere. Ha garantito la sicurezza del mining della rete per più di un anno, senza chiedere alcuna compensazione. Anche se ha accumulato più di un milione di bitcoin, non li ha mai spesi. Alla fine è scomparso, principalmente a causa delle paure legate all'attenzione generata dal caso WikiLeaks, lasciando il progetto a riposare su una comunità, senza una figura dominante unica.
 Nel 2011, Satoshi è scomparso, ma Bitcoin è sopravvissuto. La criptovaluta ha addirittura decollato definitivamente, sia dal punto di vista mediatico che economico. La macchina era stata avviata e nessuno poteva fermarla.
-# Conclusione
+# Sezione finale
 <partId>89532d9b-af1f-49f3-b87a-b11987e303d5</partId>
 ## Recensioni & Valutazioni
 <chapterId>8f27cc89-8759-4a4f-aff2-c1d3d9ecf14e</chapterId>

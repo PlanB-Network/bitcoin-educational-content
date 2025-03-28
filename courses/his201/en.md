@@ -1470,7 +1470,7 @@ Fourthly, Bitcoin was an altruistic creation. Satoshi Nakamoto offered Bitcoin t
 
 In 2011, Satoshi disappeared, but Bitcoin survived. The cryptocurrency even definitively took off, both from a media and economic viewpoint. The machine was launched and no one could stop it.
 
-# Conclusion
+# Final Section
 <partId>89532d9b-af1f-49f3-b87a-b11987e303d5</partId>
 ## Reviews & Ratings
 <chapterId>8f27cc89-8759-4a4f-aff2-c1d3d9ecf14e</chapterId>

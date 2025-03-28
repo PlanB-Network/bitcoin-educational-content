@@ -2287,7 +2287,7 @@ Likevel kan RSA-problemet brukes til å lage et sikkert krypteringssystem med of
 
 [4] Se for eksempel Jonathan Katz og Yehuda Lindell, _Introduction to Modern Cryptography_, CRC Press (Boca Raton, FL: 2015), s. 410-32 om RSA-kryptering og s. 444-41 om RSA-digitale signaturer.
 
-# Konklusjon
+# Siste seksjon
 
 <partId>e538fb79-bf28-40cd-a5c3-badf864d8567</partId>
 

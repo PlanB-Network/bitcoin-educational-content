@@ -1219,7 +1219,7 @@ Chúng tôi đã thấy rằng mã nguồn và trang web cho Elements (https://g
 
 Bước tiếp theo là thử thách bản thân bằng bài kiểm tra tổng hợp bao gồm tất cả các phần trước, sau đó bắt đầu hành trình Elements của bạn…chúc may mắn!
 
-# Phần kết luận
+# Phần cuối
 
 <partId>d5dbd616-e291-42bc-aae3-6c44599dbd06</partId>
 

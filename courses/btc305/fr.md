@@ -2400,7 +2400,7 @@ Dans cette section, vous avez appris :
 
 Comment la configuration sur Umbrel diffère-t-elle des deux options hébergées précédentes ?
 
-# Conclusion
+# Section finale
 
 <partId>d72e6fa5-0870-5f00-9143-9466ed22e2bd</partId>
 

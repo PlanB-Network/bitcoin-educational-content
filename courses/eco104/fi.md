@@ -1635,7 +1635,7 @@ Toivottavasti tämä uusi ymmärrys valtuuttaa sinut navigoimaan muuttuvassa rah
 
 Tulevaisuus on valoisa!
 
-# Yhteenveto
+# Lopullinen osio
 
 <partId>0d839c56-4b1e-4863-851f-4d508f3e0020</partId>
 

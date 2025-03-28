@@ -548,7 +548,7 @@ Il est important de noter que la sélection des données, qui consiste à choisi
 
 La méthodologie est un aspect essentiel en économie et en sciences sociales en général. Elle influence la façon dont les questions sont posées, les hypothèses sont formulées et les données sont interprétées. Comprendre les différences méthodologiques entre les écoles de pensée économique peut nous aider à apprécier les perspectives diverses et à développer nos propres opinions sur les sujets abordés dans les épisodes précédents.
 
-# Conclusion
+# Section finale
 
 <partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
 

@@ -2374,7 +2374,7 @@ I denne delen lærte du:
 
 Hvordan skiller oppsettet på Umbrel seg fra de to tidligere vertsalternativene?
 
-# Konklusjon
+# Siste seksjon
 
 <partId>d72e6fa5-0870-5f00-9143-9466ed22e2bd</partId>
 

@@ -1022,7 +1022,7 @@ Olen todella ylpeä siitä, että olet saavuttanut tämän vaiheen. Tarkoitan si
 
 Joka tapauksessa kaikki kurssimme ovat ilmaisia, ja monia resursseja tai opetusohjelmia on saatavilla alustallamme saattamaan sinut matkallasi. Onnea opintoihisi!
 
-# Yhteenveto
+# Lopullinen osio
 
 <partId>a8425389-4a53-4b57-b9b4-36c1cab12de5</partId>
 

@@ -1633,7 +1633,7 @@ En un certain sens, notre situation est meilleure que par le passé. Après les 
 >
 > (_Politique économique. Réflexions pour aujourd’hui et pour demain_, 1979).
 
-# Conclusion
+# Section finale
 
 <partId>df550767-5876-4034-9c6a-31238363e85f</partId>
 

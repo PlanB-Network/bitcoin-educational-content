@@ -976,7 +976,7 @@ Wir haben gesehen, dass das Liquiditätsmanagement im Lightning eine Herausforde
 
 ![LNP201](assets/en/84.webp)
 
-# Fazit
+# Abschließender Abschnitt
 
 <partId>b8715c1c-7ae2-49b7-94c7-35bf85346ad3</partId>
 

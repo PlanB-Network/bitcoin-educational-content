@@ -1219,7 +1219,7 @@ Wir haben gesehen, dass der Quellcode und die Website für Elements (https://git
 
 Der nächste Schritt besteht darin, sich selbst mit einem kumulativen Quiz herauszufordern, das alle vorangegangenen Abschnitte abdeckt, und dann Ihre Elements-Reise zu beginnen... viel Glück!
 
-# Schlussfolgerung
+# Abschließender Abschnitt
 
 <partId>d5dbd616-e291-42bc-aae3-6c44599dbd06</partId>
 

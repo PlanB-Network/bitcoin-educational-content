@@ -978,7 +978,7 @@ Olemme nähneet, että likviditeetin hallinta on haaste Lightning-verkossa maksu
 
 ![LNP201](assets/en/84.webp)
 
-# Yhteenveto
+# Lopullinen osio
 
 <partId>b8715c1c-7ae2-49b7-94c7-35bf85346ad3</partId>
 

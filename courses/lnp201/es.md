@@ -974,7 +974,7 @@ Hemos visto que la gestión de liquidez es un desafío en Lightning para asegura
 
 ![LNP201](assets/en/84.webp)
 
-# Conclusión
+# Sección final
 
 <partId>b8715c1c-7ae2-49b7-94c7-35bf85346ad3</partId>
 

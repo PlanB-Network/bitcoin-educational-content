@@ -1563,7 +1563,7 @@ Quatrièmement, Bitcoin a été une création altruiste. Satoshi Nakamoto a offe
 
 En 2011, Satoshi a disparu, mais Bitcoin a survécu. La cryptomonnaie a même définitivement pris son envol, tant du point de vue médiatique qu'économique. La machine était lancée et personne ne pouvait plus l'arrêter.
 
-# Conclusion
+# Section finale
 
 <partId>89532d9b-af1f-49f3-b87a-b11987e303d5</partId>
 

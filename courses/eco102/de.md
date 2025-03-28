@@ -1014,7 +1014,7 @@ Wenn wir die Dinge aus diesem Blickwinkel betrachten, erklärte Reagan den GE-Mi
 ![Bild](assets/test/143.webp)
 Im Wesentlichen übernahm Reagan von Bastiat mehrere Schlüsselelemente einer liberalen Vision von Gesellschaft und Mensch: die Vorrangstellung der Zivilgesellschaft vor dem Staat, den Wert der Wahl und der individuellen Verantwortung, die Bedeutung des Unternehmers bei der Schaffung von Wohlstand, die Wichtigkeit eines flexiblen und minimalen rechtlichen Rahmens, der Vertrauen und Respekt für Verträge ermöglicht, das grundlegende Gesetz, dass Wohlstand geschaffen werden muss, bevor er verteilt werden kann, den Wunsch, jedem eine Chance auf wettbewerbsorientierten Märkten zu geben…
 
-# Fazit
+# Abschließender Abschnitt
 
 <partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
 

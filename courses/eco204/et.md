@@ -925,7 +925,7 @@ Hüperinflatsioon on põnev teema, mida on uuritud läbi erinevate ajalooliste s
 
 - "Valuutakomiteed Arengumaadele: Käsiraamat" autorid Steve Hanke ja Kurt Schuler. Kuigi fookus on valuutakomiteedel, pakub see raamat vaatenurka, kuidas vältida hüperinflatsiooni olukordi.
 
-# Kokkuvõte
+# Lõpusektsioon
 
 <partId>cb1f4a4b-556a-4e47-a5cc-136be35a1f9a</partId>
 

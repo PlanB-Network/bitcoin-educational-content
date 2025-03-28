@@ -2385,7 +2385,7 @@ In questa sezione hai imparato:
 
 In che modo la configurazione su Umbrel differisce dalle precedenti due opzioni ospitate?
 
-# Conclusione
+# Sezione finale
 
 <partId>d72e6fa5-0870-5f00-9143-9466ed22e2bd</partId>
 

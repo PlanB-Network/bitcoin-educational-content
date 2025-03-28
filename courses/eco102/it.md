@@ -940,7 +940,7 @@ Se guardiamo le cose da questa prospettiva, Reagan spiegava ai dipendenti della 
 
 In sostanza, Reagan ha preso da Bastiat diversi elementi chiave di una visione liberale della società e dell'uomo: la primazia della società civile sullo Stato, il valore della scelta e della responsabilità individuale, l'importanza dell'imprenditore nella creazione di ricchezza, l'importanza di un quadro legale flessibile e minimo, che permetta fiducia e rispetto dei contratti, la legge fondamentale che la ricchezza deve essere creata prima di poter essere distribuita, il desiderio di dare a tutti una possibilità nei mercati competitivi…
 
-# Conclusione
+# Sezione finale
 
 <partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
 

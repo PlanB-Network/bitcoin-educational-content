@@ -1625,7 +1625,7 @@ Zum Abschluss dieses Kurses hoffen wir, dass Sie das hier erworbene Wissen auf I
 Möge dieses neu gewonnene Verständnis Sie befähigen, die sich entwickelnde Welt der Finanzen mit Vertrauen und Zielstrebigkeit zu navigieren. Viel Glück auf Ihrem Weg des Wachstums und der Entdeckung!
 Die Zukunft ist hell!
 
-# Fazit
+# Abschließender Abschnitt
 
 <partId>0d839c56-4b1e-4863-851f-4d508f3e0020</partId>
 

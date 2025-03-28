@@ -932,7 +932,7 @@ Hyperinflace je fascinující téma, které bylo studováno prostřednictvím r�
 - "Pád peněz: Hyperinflace v Německu a zničení střední třídy" od Fredericka Taylora. Vyprávění o sociálním a ekonomickém dopadu hyperinflace na německou společnost.
 - "Měnové rady pro rozvojové země: Příručka" od Steve Hanke a Kurta Schuler. Ačkoliv je zaměření na měnové rady, tato kniha nabízí perspektivu, jak se vyhnout situacím hyperinflace.
 
-# Závěr
+# Sekce finále
 
 <partId>cb1f4a4b-556a-4e47-a5cc-136be35a1f9a</partId>
 

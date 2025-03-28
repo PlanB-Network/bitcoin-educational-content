@@ -1429,7 +1429,7 @@ Teatud mõttes on meie olukord parem kui minevikus. Pärast mitmesuguste sotsial
 Kõik, mis toimub meie globaalses ühiskonnas, on ideede tulemus. Nii heade kui halbade. Vajalik on võidelda valede ideedega. (...) Meie tsivilisatsioon võib ellu jääda, ja see peab ellu jääma. Ja see jääb ellu tänu parematele ideedele kui need, mis täna maailma juhivad; ja need paremad ideed arendab välja tõusev põlvkond.
 (_Majanduspoliitika: Mõtteid tänaseks ja homseks_, 1979).
 
-# Kokkuvõte
+# Lõpusektsioon
 
 <partId>df550767-5876-4034-9c6a-31238363e85f</partId>
 

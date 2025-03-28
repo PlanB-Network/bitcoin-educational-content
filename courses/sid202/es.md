@@ -1219,7 +1219,7 @@ Hemos visto que el código fuente y el sitio web de Elements (https://github.com
 
 El siguiente paso es desafiarte a ti mismo con un cuestionario acumulativo que cubra todas las secciones anteriores, y después comenzar tu viaje de Elementos... ¡buena suerte!
 
-# Conclusión
+# Sección final
 
 <partId>d5dbd616-e291-42bc-aae3-6c44599dbd06</partId>
 

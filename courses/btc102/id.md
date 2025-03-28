@@ -1018,7 +1018,7 @@ Saya benar-benar bangga bahwa Anda telah mencapai tahap ini. Saya benar-benar be
 
 Dalam hal apapun, semua kursus kami gratis, dan banyak sumber daya atau tutorial tersedia di platform kami untuk menemani Anda. Semoga berhasil dengan studi Anda!
 
-# Kesimpulan
+# Bagian Akhir
 
 <partId>a8425389-4a53-4b57-b9b4-36c1cab12de5</partId>
 

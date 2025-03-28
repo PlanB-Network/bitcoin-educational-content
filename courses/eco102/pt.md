@@ -1043,7 +1043,7 @@ Se olharmos as coisas sob este ângulo, Reagan explicou aos funcionários da GE,
 ![image](assets/test/143.webp)
 Em essência, Reagan retirou de Bastiat vários elementos-chave de uma visão liberal da sociedade e do homem: a primazia da sociedade civil sobre o Estado, o valor da escolha e da responsabilidade individual, a importância do empreendedor na criação de riqueza, a importância de um quadro legal flexível e mínimo, que permite confiança e respeito pelos contratos, a lei fundamental de que a riqueza deve ser criada antes que possa ser distribuída, o desejo de dar a todos uma chance nos mercados competitivos…
 
-# Conclusão
+# Seção final
 
 <partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
 

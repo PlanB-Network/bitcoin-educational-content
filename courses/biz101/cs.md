@@ -1430,7 +1430,7 @@ A konečně, ať už jste malý obchodník, nebo zavedenější firma, je možn�
 - Zadržené bitcoiny (0,19335) se v rozvaze objevují v hodnotě 7 734 EUR.
 - Nerealizované zisky ve výši 5 468 EUR z ponechaných bitcoinů vykázané ve finančních poznámkách.
 
-# Závěr
+# Sekce finále
 
 <partId>f6ca8d01-a4f3-449b-ac9f-c5fba9a69178</partId>
 

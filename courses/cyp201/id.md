@@ -2210,7 +2210,7 @@ Kemudian, pembuatan alamat mengikuti proses yang sama, menggunakan kunci publik 
 
 Dan itulah! Kita telah mencapai akhir kursus CYP201 ini. Jika Anda merasa kursus ini bermanfaat, saya akan sangat berterima kasih jika Anda bisa meluangkan waktu sejenak untuk memberikannya penilaian yang baik di bab evaluasi berikutnya. Jangan ragu untuk juga membagikannya dengan orang-orang terkasih atau di jejaring sosial Anda. Akhirnya, jika Anda ingin mendapatkan diploma untuk kursus ini, Anda dapat mengikuti ujian akhir tepat setelah bab evaluasi.
 
-# Kesimpulan
+# Bagian Akhir
 
 <partId>58111408-b734-54db-9ea7-0d5b67f99f99</partId>
 

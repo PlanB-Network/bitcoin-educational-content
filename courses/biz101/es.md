@@ -1430,7 +1430,7 @@ Por último, tanto si es un pequeño comerciante como una empresa más estableci
 - Bitcoin retenido (0,19335) aparece en el balance valorado en 7.734 euros.
 - Ganancias no realizadas de 5.468 euros en Bitcoin retenido consignadas en notas financieras.
 
-# Conclusión
+# Sección final
 
 <partId>f6ca8d01-a4f3-449b-ac9f-c5fba9a69178</partId>
 

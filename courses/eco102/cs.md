@@ -1023,7 +1023,7 @@ Pokud se na věci podíváme z tohoto úhlu, vysvětloval Reagan zaměstnancům 
 ![obrázek](assets/test/143.webp)
 Ve své podstatě Reagan převzal od Bastiata několik klíčových prvků liberální vize společnosti a člověka: primát občanské společnosti nad státem, hodnotu volby a individuální odpovědnosti, důležitost podnikatele ve tvorbě bohatství, význam flexibilního a minimálního právního rámce, který umožňuje důvěru a respektování smluv, základní zákon, že bohatství musí být vytvořeno, než může být rozděleno, touhu dát každému šanci na konkurenčních trzích…
 
-# Závěr
+# Sekce finále
 
 <partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
 

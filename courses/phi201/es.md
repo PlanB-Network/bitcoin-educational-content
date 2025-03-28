@@ -1432,7 +1432,7 @@ En cierto sentido, nuestra situación es mejor que en el pasado. Después de los
 Todo lo que sucede en la sociedad global en la que vivimos es el resultado de ideas. Lo bueno y lo malo. Lo necesario es combatir las ideas falsas. (...) Nuestra civilización puede sobrevivir, y debe hacerlo. Y sobrevivirá gracias a ideas mejores que aquellas que gobiernan el mundo hoy; y estas mejores ideas serán desarrolladas por la generación emergente.
 (_Economic Policy: Thoughts for Today and Tomorrow_, 1979).
 
-# Conclusión
+# Sección final
 
 <partId>df550767-5876-4034-9c6a-31238363e85f</partId>
 

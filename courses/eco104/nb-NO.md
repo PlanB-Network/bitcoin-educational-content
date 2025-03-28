@@ -1628,7 +1628,7 @@ Må denne nyfunne forståelsen styrke deg til å navigere den utviklende verdene
 
 Fremtiden er lys!
 
-# Konklusjon
+# Siste seksjon
 
 <partId>0d839c56-4b1e-4863-851f-4d508f3e0020</partId>
 

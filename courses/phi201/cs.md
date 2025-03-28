@@ -1437,7 +1437,7 @@ V jistém smyslu je naše situace lepší než v minulosti. Po postupných selh�
 Vše, co se děje ve světové společnosti, ve které žijeme, je výsledkem nápadů. Těch dobrých i špatných. Je nutné bojovat proti falešným nápadům. (...) Naše civilizace může přežít, a musí. A přežije díky lepším nápadům, než jsou ty, které dnes světem vládnou; a tyto lepší nápady vyvinou příští generace.
 (_Economic Policy: Thoughts for Today and Tomorrow_, 1979).
 
-# Závěr
+# Sekce finále
 
 <partId>df550767-5876-4034-9c6a-31238363e85f</partId>
 

@@ -923,7 +923,7 @@ Hyperinflaatio on kiehtova aihe, jota on tutkittu eri historiallisten tapahtumie
 
 - "Valuuttalautakunnat kehitysmaille: Käsikirja" Steve Hanken ja Kurt Schulerin kirjoittama. Vaikka keskitytään valuuttalautakuntiin, tämä kirja tarjoaa näkökulman hyperinflaatiotilanteiden välttämiseen.
 
-# Yhteenveto
+# Lopullinen osio
 
 <partId>cb1f4a4b-556a-4e47-a5cc-136be35a1f9a</partId>
 

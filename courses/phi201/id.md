@@ -1432,7 +1432,7 @@ Dalam arti tertentu, situasi kita lebih baik daripada di masa lalu. Setelah kega
 Semua yang terjadi dalam masyarakat global tempat kita hidup adalah hasil dari ide-ide. Baik yang baik maupun yang buruk. Yang diperlukan adalah untuk melawan ide-ide palsu. (...) Peradaban kita dapat bertahan, dan harus bertahan. Dan akan bertahan berkat ide-ide yang lebih baik daripada yang menguasai dunia saat ini; dan ide-ide yang lebih baik ini akan dikembangkan oleh generasi yang sedang tumbuh.
 (_Kebijakan Ekonomi: Pemikiran untuk Hari Ini dan Esok_, 1979).
 
-# Kesimpulan
+# Bagian Akhir
 
 <partId>df550767-5876-4034-9c6a-31238363e85f</partId>
 

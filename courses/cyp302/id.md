@@ -2287,7 +2287,7 @@ Akan tetapi, dengan menambahkan sedikit kerumitan, masalah RSA dapat digunakan u
 
 [4] Lihat, sebagai contoh, Jonathan Katz dan Yehuda Lindell, _Introduction to Modern Cryptography_, CRC Press (Boca Raton, FL: 2015), hal. 410-32 mengenai enkripsi RSA dan hal. 444-41 mengenai tanda tangan digital RSA.
 
-# Kesimpulan
+# Bagian Akhir
 
 <partId>e538fb79-bf28-40cd-a5c3-badf864d8567</partId>
 

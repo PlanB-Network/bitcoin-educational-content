@@ -98,7 +98,7 @@ Nardo cung cấp tổng quan về Blockstream AMP, một nền tảng quản lý
 
 Antonio giới thiệu Breeze, một SDK nguồn mở được thiết kế cho các giao dịch phi tập trung trên Liquid Network. Ông đề cập đến các tính năng của nó, bao gồm hỗ trợ cho các ràng buộc đa ngôn ngữ và các quy trình giao dịch an toàn, đồng thời nhấn mạnh mục tiêu đơn giản hóa công nghệ tài chính cho các nhà phát triển
 
-# Phần kết luận
+# Phần cuối
 
 <partId>7ec65e6b-6e63-41b6-92ea-6a13bc77c3ff</partId>
 

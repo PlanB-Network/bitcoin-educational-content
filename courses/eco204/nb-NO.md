@@ -930,7 +930,7 @@ Hyperinflasjon er et fascinerende emne som har blitt studert gjennom ulike histo
 
 - "Valutastyrer for U-land: En Håndbok" av Steve Hanke og Kurt Schuler. Selv om fokuset er på valutastyrer, tilbyr denne boken et perspektiv på hvordan man kan unngå situasjoner med hyperinflasjon.
 
-# Konklusjon
+# Siste seksjon
 
 <partId>cb1f4a4b-556a-4e47-a5cc-136be35a1f9a</partId>
 

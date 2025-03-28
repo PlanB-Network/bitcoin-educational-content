@@ -500,7 +500,7 @@ Det bør også bemerkes at internett er sterkt sentralisert og i stor grad under
 Alternativer til påtrengende annonser inkluderer Google DNS, OpenDNS og andre uavhengige tjenester. Standard DNS-protokollen lar DNS-forespørsler være synlige for internettleverandøren. DOH (DNS over HTTPS) og DOT (DNS over TLS) krypterer DNS-forbindelsen, og gir større personvern og sikkerhet. Disse protokollene brukes mye i bedrifter på grunn av deres forbedrede sikkerhet og støttes nativt av Windows, Android og iPhone. For å bruke DOH og DOT, må et TLS-vertsnavn angis i stedet for en IP-adresse. Gratis DOH- og DOT-leverandører er tilgjengelige på nettet. DOH og DOT forbedrer personvern og sikkerhet ved å unngå "man in the middle"-angrep. Andre nøkkelhensyn
 Som en del av "Security 101" treningsmodulen på Découvre Bitcoin Academy, diskuterte vi også Lightning-autentisering. Dette systemet genererer en forskjellig identifikator for hver tjeneste, uten behov for å oppgi en e-postadresse eller personlig informasjon. Det er mulig å ha brukerkontrollerte desentraliserte identiteter, men det er en mangel på standardisering og normalisering i prosjekter for desentralisert identitet. Pakkebehandlere som Nuget og Chocolaté, som tillater nedlasting av åpen kildekode-programvare utenfor Microsoft Store, anbefales for å unngå ondsinnede angrep. Sammenfattet er DNS avgjørende for online sikkerhet, men det er nødvendig å være årvåken mot potensielle angrep på DNS-servere.
 
-# Konklusjon
+# Siste seksjon
 
 <partId>3d8ac4c9-f05b-4133-a40a-6e19d579f05f</partId>
 

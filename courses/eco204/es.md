@@ -923,7 +923,7 @@ La hiperinflación es un tema fascinante que se ha estudiado a través de divers
 
 - "Juntas monetarias para países en desarrollo: Un manual" por Steve Hanke y Kurt Schuler. Aunque se centra en las juntas de emisión, este libro ofrece una perspectiva sobre cómo evitar situaciones de hiperinflación.
 
-# Conclusión
+# Sección final
 
 <partId>cb1f4a4b-556a-4e47-a5cc-136be35a1f9a</partId>
 

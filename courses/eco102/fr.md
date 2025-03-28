@@ -1223,7 +1223,7 @@ Si nous envisageons les choses sous cet angle, expliquait Reagan aux employés d
 
 En substance, Reagan a retenu de Bastiat quelques éléments clés d’une vision libérale de la société de et de l’homme : le primat de la société civile sur l’État, la valeur du choix et de la responsabilité individuelle, l’importance de l’entrepreneur dans création de richesses, l’importance d’un cadre légal souple et minimal, qui permette la confiance et le respect des contrats, la loi fondamentale qui veut que la richesse soit créée avant d’être répartie, la volonté de donner à chacun sa chance sur des marchés concurrentiels…
 
-# Conclusion
+# Section finale
 
 <partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
 

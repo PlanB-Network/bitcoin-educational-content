@@ -1219,7 +1219,7 @@ Vi har sett at kildekoden og nettstedet for Elements (https://github.com/Element
 
 Neste skritt er å utfordre deg selv med en kumulativ quiz som dekker alle de foregående delene, og deretter kan du begynne din Elements-reise ... lykke til!
 
-# Konklusjon
+# Siste seksjon
 
 <partId>d5dbd616-e291-42bc-aae3-6c44599dbd06</partId>
 

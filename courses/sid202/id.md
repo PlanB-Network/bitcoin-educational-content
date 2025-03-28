@@ -1219,7 +1219,7 @@ Kita telah melihat bahwa kode sumber dan situs web untuk Elements (https://githu
 
 Langkah selanjutnya adalah menantang diri Anda dengan kuis kumulatif yang mencakup semua bagian sebelumnya, kemudian memulai perjalanan Elements Anda...semoga berhasil!
 
-# Kesimpulan
+# Bagian Akhir
 
 <partId>d5dbd616-e291-42bc-aae3-6c44599dbd06</partId>
 

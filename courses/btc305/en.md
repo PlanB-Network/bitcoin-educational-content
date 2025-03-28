@@ -2467,7 +2467,7 @@ In this section you learned:
 
 How does the setup on Umbrel differ from the previous two hosted options?
 
-# Conclusion
+# Final Section
 
 <partId>d72e6fa5-0870-5f00-9143-9466ed22e2bd</partId>
 

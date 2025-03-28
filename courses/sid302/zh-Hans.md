@@ -98,7 +98,7 @@ Nardo 概述了在 Liquid 上管理数字资产的平台 Blockstream AMP。他�
 
 Antonio 介绍了 Breeze，这是一个开源 SDK，专为在 Liquid 网络上进行去中心化交易而设计。他介绍了 Breeze 的功能，包括支持多语言绑定和安全交易流程，同时强调了其为开发者简化金融技术的目标。
 
-# 结论
+# 最终部分
 
 <partId>7ec65e6b-6e63-41b6-92ea-6a13bc77c3ff</partId>
 

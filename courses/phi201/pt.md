@@ -1433,7 +1433,7 @@ Agora experimentamos todas as variantes do estatismo, e todas falharam. Em todo 
 Em certo sentido, nossa situação é melhor do que no passado. Após os sucessivos fracassos de vários experimentos socialistas, comunistas e social-democratas, sabemos hoje como distinguir, melhor do que ontem, ideias verdadeiras de falsas. E ideias falsas podem ser refutadas e substituídas por verdadeiras. Como Mises disse:
 Tudo o que acontece na sociedade global em que vivemos é resultado de ideias. As boas e as ruins. O que é necessário é combater as ideias falsas. (...) Nossa civilização pode sobreviver, e deve. E sobreviverá graças a ideias melhores do que aquelas que governam o mundo hoje; e essas ideias melhores serão desenvolvidas pela geração emergente.
 (_Economic Policy: Thoughts for Today and Tomorrow_, 1979).
-# Conclusão
+# Seção final
 <partId>df550767-5876-4034-9c6a-31238363e85f</partId>
 ## Avaliações & Notas
 <chapterId>b972fd24-47e1-4877-b21d-6451ffdafcdd</chapterId>

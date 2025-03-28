@@ -98,7 +98,7 @@ Nardo tarjoaa yleiskatsauksen Blockstream AMP:stä, joka on alusta digitaalisten
 
 Antonio esittelee Breezen, avoimen lähdekoodin SDK:n, joka on suunniteltu hajautettuihin transaktioihin Liquid Networkissa. Hän käsittelee sen ominaisuuksia, kuten tukea monikielisille sidoksille ja turvallisille transaktioprosesseille, ja korostaa samalla sen tavoitetta yksinkertaistaa rahoitusteknologiaa kehittäjille
 
-# Päätelmä
+# Lopullinen osio
 
 <partId>7ec65e6b-6e63-41b6-92ea-6a13bc77c3ff</partId>
 

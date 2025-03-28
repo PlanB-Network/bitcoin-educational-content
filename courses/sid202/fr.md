@@ -1219,7 +1219,7 @@ Nous avons vu que le code source et le site web d'Elements (https://github.com/E
 
 La prochaine étape consiste à vous lancer un défi en répondant à un questionnaire cumulatif qui couvre toutes les sections précédentes, puis à entamer votre parcours dans le domaine des éléments... bonne chance !
 
-# Conclusion
+# Section finale
 
 <partId>d5dbd616-e291-42bc-aae3-6c44599dbd06</partId>
 

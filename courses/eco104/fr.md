@@ -1623,7 +1623,7 @@ En concluant ce cours, nous espérons que vous appliquerez les connaissances acq
 Puisse cette nouvelle compréhension vous permettre de naviguer dans le monde évolutif de la finance avec confiance et objectif. Bonne chance sur votre chemin de croissance et de découverte !
 L'avenir est radieux !
 
-# Conclusion
+# Section finale
 
 <partId>0d839c56-4b1e-4863-851f-4d508f3e0020</partId>
 

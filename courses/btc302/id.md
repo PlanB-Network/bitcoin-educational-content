@@ -1749,7 +1749,7 @@ Tentu saja, kita tidak boleh terjebak dalam bentuk pemikiran konspirasi. Namun *
 
 ![image](assets/fr/59.webp)
 
-# Kesimpulan
+# Bagian Akhir
 
 <partId>62bc2138-c0be-5d39-a341-594690863257</partId>
 
@@ -1846,7 +1846,7 @@ Untuk mencapai hal ini, kita akan mulai dengan pengalaman beberapa komunitas Pra
 
 Tentu saja, **di negara lain, undang-undang dan operasi asosiasi berbeda**. Namun, beberapa poin akan sangat membantu dalam membuat sebuah asosiasi atau mengorganisir sebuah acara penting; dan **kami berharap bitcoiners lain akan datang dan mengintegrasikan pelatihan ini secara khusus untuk negara mereka**.
 
-# Kesimpulan
+# Bagian Akhir
 
 <partId>e9bdddf4-54c9-4de9-bbce-c3eade8c32e5</partId>
 

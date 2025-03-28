@@ -531,7 +531,7 @@ Um exemplo de diferença metodológica é a posição dos defensores da Teoria M
 
 A metodologia é um aspecto essencial na economia e nas ciências sociais em geral. Ela influencia como as perguntas são feitas, as hipóteses são formuladas e os dados são interpretados. Compreender as diferenças metodológicas entre as escolas de pensamento econômico pode nos ajudar a apreciar perspectivas diversas e desenvolver nossas próprias opiniões sobre os tópicos discutidos nos episódios anteriores.
 
-# Conclusão
+# Seção final
 
 <partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
 

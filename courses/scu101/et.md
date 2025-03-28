@@ -500,7 +500,7 @@ Tuleb märkida, et internet on suuresti tsentraliseeritud ja valdavalt Ameerika 
 
 "Security 101" koolitusmooduli osana Découvre Bitcoin Academy's arutasime ka Lightning autentimist. See süsteem genereerib iga teenuse jaoks erineva identifikaatori, ilma et oleks vaja esitada e-posti aadressi või isiklikku teavet. On võimalik omada kasutaja kontrollitud detsentraliseeritud identiteete, kuid detsentraliseeritud identiteediprojektides puudub standardiseerimine ja normaliseerimine. Soovitatavad on paketihaldurid nagu Nuget ja Chocolaté, mis võimaldavad alla laadida avatud lähtekoodiga tarkvara väljaspool Microsoft Store'i, et vältida pahatahtlikke rünnakuid. Kokkuvõttes on DNS oluline veebiturvalisuse jaoks, kuid on vajalik olla valvas võimalike rünnakute suhtes DNS-serverite vastu.
 
-# Kokkuvõte
+# Lõpusektsioon
 
 <partId>3d8ac4c9-f05b-4133-a40a-6e19d579f05f</partId>
 

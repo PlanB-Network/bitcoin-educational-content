@@ -2308,7 +2308,7 @@ Ensuite, la génération de l’adresse suit le même processus, en utilisant la
 
 Et voilà ! Nous arrivons à la fin de cette formation CYP201. Si ce cours vous a été utile, je vous serais très reconnaissant de prendre quelques instants pour lui attribuer une bonne note dans le chapitre d’évaluation qui suit. N’hésitez pas également à le partager avec vos proches ou sur vos réseaux sociaux. Enfin, si vous souhaitez obtenir votre diplôme pour cette formation, vous pouvez passer l’examen final juste après le chapitre de l'évaluation.
 
-# Conclusion
+# Section finale
 
 <partId>58111408-b734-54db-9ea7-0d5b67f99f99</partId>
 

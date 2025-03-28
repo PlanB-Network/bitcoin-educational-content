@@ -1219,7 +1219,7 @@ Viděli jsme, že zdrojový kód a webové stránky pro Elements (https://github
 
 Dalším krokem bude kumulativní kvíz, který se týká všech předchozích částí, a pak se vydáte na cestu k prvkům... hodně štěstí!
 
-# Závěr
+# Sekce finále
 
 <partId>d5dbd616-e291-42bc-aae3-6c44599dbd06</partId>
 

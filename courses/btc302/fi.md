@@ -1749,7 +1749,7 @@ Meidän ei tietenkään pidä sortua salaliittolaisuuteen. Mikään ei kuitenkaa
 
 ![image](assets/fr/59.webp)
 
-# Päätelmä
+# Lopullinen osio
 
 <partId>62bc2138-c0be-5d39-a341-594690863257</partId>
 
@@ -1846,7 +1846,7 @@ Tätä varten aloitamme useiden ranskalaisten yhteisöjen kokemuksista, jotka ov
 
 Muissa maissa yhdistysten lainsäädäntö ja toiminta ovat luonnollisesti erilaisia**. Useat kohdat ovat kuitenkin erittäin hyödyllisiä yhdistyksen perustamisessa tai tärkeän tapahtuman järjestämisessä, ja **toivomme, että muut bitcoin-aktivistit tulevat paikalle ja integroivat tämän koulutuksen nimenomaan omaan maahansa**.
 
-# Päätelmä
+# Lopullinen osio
 
 <partId>e9bdddf4-54c9-4de9-bbce-c3eade8c32e5</partId>
 

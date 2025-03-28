@@ -2252,7 +2252,7 @@ Sau đó, việc tạo địa chỉ sẽ tiếp tục theo cùng một quy trìn
 
 Và đó là tất cả! Chúng ta đã đến cuối khóa học CYP201. Nếu bạn thấy khóa học này hữu ích, tôi sẽ rất biết ơn nếu bạn có thể dành vài phút để đánh giá cao nó trong chương đánh giá tiếp theo. Đừng ngần ngại chia sẻ nó với người thân yêu của bạn hoặc trên các mạng xã hội của bạn. Cuối cùng, nếu bạn muốn nhận bằng chứng nhận cho khóa học này, bạn có thể tham gia kỳ thi cuối cùng ngay sau chương đánh giá.
 
-# Kết luận
+# Phần cuối
 <partId>58111408-b734-54db-9ea7-0d5b67f99f99</partId>
 
 ## Nhận xét & Đánh giá

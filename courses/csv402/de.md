@@ -3907,7 +3907,7 @@ Das Projekt befindet sich noch in der Alphaphase. Es wird daher dringend empfohl
 
 Die Möglichkeiten, die sich durch diese LN-RGB-Kompatibilität eröffnen, sind beträchtlich: Stablecoins auf Lightning, DEX Layer-2, Übertragung von fungiblen Token oder NFTs zu sehr niedrigen Kosten... In den vorangegangenen Kapiteln wurden die konzeptionelle Architektur und die Validierungslogik skizziert. Jetzt haben Sie einen praktischen Überblick darüber, wie Sie einen solchen Knoten für Ihre zukünftigen Entwicklungen oder Tests zum Laufen bringen können.
 
-# Schlussfolgerung
+# Abschließender Abschnitt
 
 <partId>b0baebfc-d146-5938-849a-f835fafb386f</partId>
 

@@ -4220,7 +4220,7 @@ Siden denne funksjonen er ny, anbefaler vi at du utviser forsiktighet og unngår
 
 *For å lage dette kapittelet om Silent Payments brukte jeg [nettstedet med forklaringer om Silent Payments] (https://silentpayments.xyz/) og [BIP352-forklaringsdokumentet] (https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki)
 
-# Konklusjon
+# Siste seksjon
 
 <partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 

@@ -1430,7 +1430,7 @@ Ob Sie nun ein kleiner Händler oder ein etablierteres Unternehmen sind, es ist 
 - Der einbehaltene Bitcoin (0,19335) erscheint in der Bilanz mit einem Wert von 7.734 €.
 - Nicht realisierte Gewinne in Höhe von 5.468 € aus zurückbehaltenen Bitcoin werden im Anhang ausgewiesen.
 
-# Schlussfolgerung
+# Abschließender Abschnitt
 
 <partId>f6ca8d01-a4f3-449b-ac9f-c5fba9a69178</partId>
 

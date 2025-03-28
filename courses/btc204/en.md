@@ -4220,7 +4220,7 @@ Since this feature is new, we advise you to exercise caution and avoid using Sil
 
 *To create this chapter on Silent Payments, I used [the Silent Payments explanation site](https://silentpayments.xyz/) and [the BIP352 explanation document](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki).*
 
-# Conclusion
+# Final Section
 
 <partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 

@@ -1264,7 +1264,7 @@ Finally, whether you are a small merchant or a more established business, it is 
 
 
 
-# Conclusion
+# Final Section
 <partId>f6ca8d01-a4f3-449b-ac9f-c5fba9a69178</partId>
 
 ## Evaluate this course

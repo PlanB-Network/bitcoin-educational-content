@@ -781,7 +781,7 @@ Isso impõe um limite superior à taxa de hashing que uma máquina pode ter. O a
 
 O resultado final é uma taxa de hashing mais alta por watt de eletricidade, o que significa margens de lucro maiores para os mineradores. A razão pela qual as máquinas não são distribuídas com esse tipo de software é que a variação por máquina não é desejável, pois os clientes querem saber exatamente o que estão obtendo, e, portanto, é uma má ideia para os fabricantes venderem um produto que não tenha desempenho consistente e previsível de uma máquina para outra. Além disso, o ajuste automático por chip requer recursos de desenvolvimento consideráveis, pois é complexo de implementar. Os fabricantes já gastam muitos recursos para desenvolver seus próprios firmwares. Existem soluções de software que permitem implementar o autotuning, como o Braiins OS+. Além de melhorar o desempenho do ASIC em até 20%.
 
-# Conclusão
+# Seção final
 
 <partId>fa42ec0b-b1fd-47f6-8268-6eab684c1d2b</partId>
 

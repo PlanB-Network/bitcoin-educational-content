@@ -2287,7 +2287,7 @@ No entanto, com a adição de um pouco de complexidade inteligente, o problema R
 
 [4] Ver, por exemplo, Jonathan Katz e Yehuda Lindell, _Introduction to Modern Cryptography_, CRC Press (Boca Raton, FL: 2015), pp. 410-32 sobre a encriptação RSA e pp. 444-41 sobre as assinaturas digitais RSA.
 
-# Conclusão
+# Seção final
 
 <partId>e538fb79-bf28-40cd-a5c3-badf864d8567</partId>
 

@@ -1347,7 +1347,7 @@ Bien sûr, il ne faut pas tomber dans une forme de complotisme. Mais **rien ne n
 
 ![image](assets/fr/59.webp)
 
-# Conclusion
+# Rassembler les Bitcoiners
 <partId>62bc2138-c0be-5d39-a341-594690863257</partId>
 
 ## Un plan d'action résumé pour créer sa communauté Bitcoin
@@ -1398,7 +1398,7 @@ Enfin:
 ####
 En un peu moins détaillé, ces 21 minutes de vidéo synthétisent ces étapes:
 ![Tutoriel créer une communauté Bitcoin](https://www.youtube.com/watch?v=EHLAmHHuZd8)
-####
+
 Quoi qu'il en soit, **n'oubliez pas que vous n'êtes pas seul(e) et que les communautés déjà existantes sont là pour vous aider**.
 
 
@@ -1409,7 +1409,7 @@ Lorque l'on tombe dans le terrier du lapin, notre conception de la vie change.
 Cela nous pousse alors à vouloir - au plus profond de nous-même - aller plus loin; à vouloir découvrir ces autres personnes qui font le même travail d'esprit que nous et qui, elles aussi, ont compris.
 Cela nous motive et nous donne encore plus envie d'**apporter notre pierre à l'édifice** , en partageant notre trouvaille: Bitcoin.
 Mais aussi, à **réfléchir au monde de demain, à celui que nous souhaitons construire et aux communautés qui sont entrain de le bâtir**.
-####
+
 **Dans cette longue galerie qu'est la création d'une communauté, il vous faudra faire preuve de motivation, de stratégie, d'abnégation et de temps**. C'est un travail parfois ingrat; et dans cette aventure, il vaut mieux prendre les choses petit à petit pour ne pas se faire du mal.
 **Pensez donc à vous, à vos limites**. Et bien que Bitcoin vous anime peut être nuit et jour, **ne cherchez pas à tout faire seul, sans quoi vous vous épuiserez**.
 
@@ -1424,7 +1424,7 @@ Seul(e), il est vrai que l'on peut rapidement explorer une des nombreuses galeri
 Alors qu'**en créant et/ou en intégrant une communauté de bitcoiners, en partageant et en échangeant avec eux régulièrement, vous avancerez en même temps dans toutes les directions du terrier**.
 
 
-# Conclusion
+# Section finale
 <partId>e9bdddf4-54c9-4de9-bbce-c3eade8c32e5</partId>
 
 ## Avis & Notes

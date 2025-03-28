@@ -557,7 +557,7 @@ It is important to note that cherry-picking, which involves selectively choosing
 
 Methodology is an essential aspect in economics and in social sciences in general. It influences how questions are asked, hypotheses are formulated, and data is interpreted. Understanding the methodological differences between economic schools of thought can help us appreciate diverse perspectives and develop our own opinions on the topics discussed in previous episodes.
 
-# Conclusion
+# Final Section
 
 <partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
 

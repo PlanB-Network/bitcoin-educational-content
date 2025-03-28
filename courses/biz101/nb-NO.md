@@ -1432,7 +1432,7 @@ Til slutt, uansett om du er en liten kjøpmann eller en mer etablert virksomhet,
 - Beholdningen av Bitcoin (0,19335) er oppført i balansen til en verdi av 7 734 euro.
 - Urealiserte gevinster på 5 468 euro på tilbakeholdt Bitcoin er oppgitt i finansielle noter.
 
-# Konklusjon
+# Siste seksjon
 
 <partId>f6ca8d01-a4f3-449b-ac9f-c5fba9a69178</partId>
 

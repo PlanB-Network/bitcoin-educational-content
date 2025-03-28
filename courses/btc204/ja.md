@@ -4220,7 +4220,7 @@ BIP47と同様に、静的アドレス$B$と、$B$から派生した支払いア
 
 *この「サイレント・ペイメント」の章を作るにあたり、[サイレント・ペイメント解説サイト](https://silentpayments.xyz/)と[BIP352解説資料](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki)を利用した*。
 
-# 結論
+# 最終セクション
 
 <partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 

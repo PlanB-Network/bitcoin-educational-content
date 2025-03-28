@@ -1048,9 +1048,6 @@ Aujourd'hui, le bitcoin continue de survivre et de se développer en s'intégran
 
 ![image](assets/en/71.webp)
 
-Pour approfondir ce sujet, je vous recommande notre formation BIZ101 ! Découvrez comment intégrer efficacement le bitcoin dans votre trésorerie d'entreprise, accepter le bitcoin comme moyen de paiement selon le profil de votre organisation et comprendre les exigences fiscales et comptables associées :
-
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 
 ## Obtenir des bitcoins en travaillant
@@ -1090,6 +1087,10 @@ https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4
 https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Solution pour les grandes structures ou les bitcoiners passionnés : Serveur BTCpay
+
+Pour approfondir ce sujet, je vous recommande notre formation BIZ101 ! Découvrez comment intégrer efficacement le bitcoin dans votre trésorerie d'entreprise, accepter le bitcoin comme moyen de paiement selon le profil de votre organisation et comprendre les exigences fiscales et comptables associées :
+
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## Épargner avec Bitcoin
 

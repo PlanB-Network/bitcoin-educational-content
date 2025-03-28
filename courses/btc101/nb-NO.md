@@ -1048,10 +1048,6 @@ I dag fortsetter Bitcoin å overleve og vokse enda mer ved å bli integrert mer 
 
 ![image](assets/en/71.webp)
 
-For å utforske dette emnet videre, anbefaler vi vårt BIZ101-kurs! Oppdag hvordan du effektivt kan integrere bitcoin i selskapets finansforvaltning, akseptere bitcoin som betalingsmiddel i henhold til organisasjonens profil, og forstå tilhørende skatte- og regnskapskrav:
-
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
-
 
 ## Å skaffe Bitcoins ved å jobbe
 
@@ -1090,6 +1086,10 @@ https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4
 https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Løsning for store strukturer eller lidenskapelige bitcoinere: BTCpay Server
+
+For å utforske dette emnet videre, anbefaler vi vårt BIZ101-kurs! Oppdag hvordan du effektivt kan integrere bitcoin i selskapets finansforvaltning, akseptere bitcoin som betalingsmiddel i henhold til organisasjonens profil, og forstå tilhørende skatte- og regnskapskrav:
+
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## Sparer med Bitcoin
 

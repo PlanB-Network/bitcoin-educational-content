@@ -1048,10 +1048,6 @@ Tänapäeval jätkab Bitcoin ellujäämist ja kasvamist veelgi enam, integreerud
 
 ![image](assets/en/71.webp)
 
-Selle teema paremaks mõistmiseks soovitame meie koolitust BIZ101! Avastage, kuidas tõhusalt integreerida bitcoin oma ettevõtte rahandusse, aktsepteerida bitcoin maksevahendina vastavalt teie organisatsiooni profiilile ja mõista sellega seotud maksundus- ja raamatupidamisnõudeid:
-
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
-
 
 ## Bitcoins saamine töötades
 
@@ -1090,6 +1086,10 @@ https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4
 https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Lahendus suurtele struktuuridele või kirglikele bitcoin'ile: BTCpay Server
+
+Selle teema paremaks mõistmiseks soovitame meie koolitust BIZ101! Avastage, kuidas tõhusalt integreerida bitcoin oma ettevõtte rahandusse, aktsepteerida bitcoin maksevahendina vastavalt teie organisatsiooni profiilile ja mõista sellega seotud maksundus- ja raamatupidamisnõudeid:
+
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## Säästmine Bitcoiniga
 

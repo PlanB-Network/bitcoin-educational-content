@@ -1048,9 +1048,6 @@ Nykyään Bitcoin jatkaa selviytymistään ja kasvuaan entisestään integroitum
 
 ![image](assets/en/71.webp)
 
-Tämän aiheen syvällisempään ymmärtämiseen suosittelemme koulutustamme BIZ101! Opi, kuinka voit tehokkaasti integroida bitcoinit yrityksesi kassavirtaan, hyväksyä bitcoin maksutapana organisaatiosi profiilin mukaan ja ymmärtää asiaan liittyvät vero- ja kirjanpitovaatimukset:
-
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 
 ## Bitcoinsin hankkiminen työskentelemällä
@@ -1090,6 +1087,10 @@ https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4
 https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Ratkaisu suurille rakenteille tai intohimoisille bitcoin-asiakkaille: BTCpay Server
+
+Tämän aiheen syvällisempään ymmärtämiseen suosittelemme koulutustamme BIZ101! Opi, kuinka voit tehokkaasti integroida bitcoinit yrityksesi kassavirtaan, hyväksyä bitcoin maksutapana organisaatiosi profiilin mukaan ja ymmärtää asiaan liittyvät vero- ja kirjanpitovaatimukset:
+
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## Säästäminen Bitcoinilla
 

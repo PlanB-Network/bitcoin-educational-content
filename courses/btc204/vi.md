@@ -24,10 +24,11 @@ Hãy tham gia cùng chúng tôi để thay đổi cách sử dụng Bitcoin củ
 
 <partId>e17474a8-8899-4bdb-a7f8-bc52ddb01440</partId>
 
-## Giới thiệu đào tạo
+## Tổng quan về khóa học
 
 <chapterId>08ba1933-f393-4fb5-8279-777d874caedb</chapterId>
 
+Chào mừng bạn đến với khóa học BTC204!
 
 Trong một thế giới mà tính bảo mật của các giao dịch tài chính đang dần trở thành một thứ xa xỉ, việc hiểu và nắm vững các nguyên tắc bảo vệ quyền riêng tư khi sử dụng Bitcoin là điều cần thiết. Khóa đào tạo này cung cấp cho bạn tất cả các chìa khóa, cả lý thuyết và thực hành, để đạt được điều này một cách tự chủ.
 
@@ -45,31 +46,31 @@ Khóa đào tạo này được thiết kế để cung cấp tổng quan toàn 
 
 Mục đích của khóa đào tạo này không phải là để bạn hoàn toàn ẩn danh khi sử dụng Bitcoin, mà là cung cấp cho bạn các công cụ thiết yếu để biết cách bảo vệ tính bảo mật của mình theo mục tiêu cá nhân của bạn. Bạn sẽ có quyền tự do lựa chọn các khái niệm và công cụ được trình bày để phát triển các chiến lược của riêng bạn, phù hợp với các mục tiêu và nhu cầu cụ thể của bạn.
 
-### Phần 1: Định nghĩa và các khái niệm chính
+**Phần 1: Định nghĩa và các khái niệm chính**
 
 Để bắt đầu, chúng ta sẽ xem xét các nguyên tắc cơ bản chi phối hoạt động của Bitcoin, để sau đó chúng ta có thể bình tĩnh giải quyết các khái niệm liên quan đến tính bảo mật. Điều cần thiết là phải nắm vững một số khái niệm cơ bản, chẳng hạn như UTXO, nhận địa chỉ và tập lệnh, trước khi bạn có thể hiểu đầy đủ các khái niệm mà chúng tôi sẽ đề cập trong các phần sau. Chúng tôi cũng sẽ giới thiệu mô hình bảo mật chung của Bitcoin, như được Satoshi Nakamoto tưởng tượng, cho phép chúng ta nắm bắt được các rủi ro và rủi ro liên quan.
 
 ![BTC204](assets/fr/001.webp)
 
-### Phần 2: Hiểu và bảo vệ chống lại phân tích chuỗi
+**Phần 2: Hiểu và bảo vệ chống lại phân tích chuỗi**
 
 Trong phần thứ hai, chúng ta sẽ xem xét các kỹ thuật được các công ty phân tích blockchain sử dụng để theo dõi hoạt động của bạn trên Bitcoin. Hiểu các phương pháp này rất quan trọng để tăng cường bảo vệ quyền riêng tư của bạn. Mục đích của phần này là xem xét các chiến lược của kẻ tấn công để hiểu rõ hơn về các rủi ro và chuẩn bị nền tảng cho các kỹ thuật mà chúng ta sẽ nghiên cứu trong các phần sau. Chúng ta sẽ phân tích các mô hình giao dịch, phương pháp tìm kiếm bên trong và bên ngoài, và các diễn giải có thể có của các mô hình này. Ngoài lý thuyết, chúng ta sẽ tìm hiểu cách sử dụng trình khám phá khối để phân tích chuỗi, thông qua các ví dụ và bài tập thực tế.
 
 ![BTC204](assets/fr/002.webp)
 
-### Phần 3: Nắm vững các biện pháp tốt nhất để bảo vệ quyền riêng tư của bạn
+**Phần 3: Nắm vững các biện pháp tốt nhất để bảo vệ quyền riêng tư của bạn**
 
 Trong phần thứ ba của khóa đào tạo, chúng ta sẽ đi sâu vào vấn đề cốt lõi: thực hành! Mục đích là nắm vững tất cả các phương pháp thực hành tốt nhất cần thiết mà bất kỳ người dùng Bitcoin nào cũng có thể áp dụng. Chúng tôi sẽ đề cập đến việc sử dụng địa chỉ trống, gắn thẻ, hợp nhất, sử dụng các nút hoàn chỉnh cũng như các phương pháp KYC và thu thập. Mục đích là cung cấp cho bạn cái nhìn tổng quan toàn diện về những cạm bẫy cần tránh để thiết lập nền tảng vững chắc trong hành trình bảo vệ quyền riêng tư của chúng ta. Đối với một số phương pháp này, bạn sẽ được hướng dẫn cụ thể về cách triển khai chúng.
 
 ![BTC204](assets/fr/003.webp)
 
-### Phần 4: Hiểu về giao dịch coinjoin
+**Phần 4: Hiểu về giao dịch coinjoin**
 
 Làm sao chúng ta có thể nói về quyền riêng tư trên Bitcoin mà không nhắc đến coinjoin? Trong phần 4, bạn sẽ tìm hiểu tất cả những gì bạn cần biết về phương pháp trộn này. Bạn sẽ tìm hiểu coinjoin là gì, lịch sử và mục tiêu của chúng, cũng như các loại coinjoin khác nhau hiện có. Cuối cùng, đối với người dùng có nhiều kinh nghiệm hơn, chúng ta sẽ xem xét anonset và entropy là gì và cách tính chúng.
 
 ![BTC204](assets/fr/004.webp)
 
-### Phần 5: Hiểu những thách thức của các kỹ thuật bảo mật tiên tiến khác
+**Phần 5: Hiểu những thách thức của các kỹ thuật bảo mật tiên tiến khác**
 
 Trong phần thứ năm, chúng ta sẽ xem xét tất cả các kỹ thuật khác có sẵn để bảo vệ quyền riêng tư của bạn trên Bitcoin, ngoài coinjoin. Trong nhiều năm qua, các nhà phát triển đã thể hiện sự sáng tạo đáng kể trong việc thiết kế các công cụ dành riêng cho quyền riêng tư. Chúng ta sẽ xem xét tất cả các phương pháp này, chẳng hạn như payjoin, giao dịch hợp tác, Coin Swap và Atomic Swap, trình bày chi tiết cách chúng hoạt động, mục tiêu của chúng và bất kỳ điểm yếu nào.
 

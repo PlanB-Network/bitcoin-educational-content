@@ -157,17 +157,11 @@ See pealtnäha lihtne tehing hõlmab tegelikult üle 15 etapi, 7 vahendajat ja v
 ### Võrdlus Makseviisid
 
 | Makseviis | Vajalik autoriseerimine?           | Tehingu kinnitamise aeg (kaupmehe vaade) | Arvelduse kiirus (raha on täielikult tasutud) | Lõplikkus (tagasipööramise lihtsus) | Vahendajate arv | Tüüpilised tasud (makse saajale) |
-
 | ------------------------------ | ------------------------------- | ----------------------------------------- | ---------------------------------------------- | ---------------------------------------- | ------------------------------ | ---------------------------------- |
-
 | **Sularaha** | Ei | Kohene (füüsiline vahetus) | Kohene (arvelduse viivituseta) | Kõrge (pärast maksmist pöördumatu) | Puudub | Puudub | Puudub | Puudub |
-
 | **Tšekid** | Jah (panga arveldus) | Vastuvõtmine hoiustamisel (ei ole garanteeritud) | Mitu päeva (tšeki arveldusprotsess) | Keskmine (võib enne arveldamist katki minna/peatuda) | Pank | **Madal kuni keskmine** (pangatasud) |
-
 | **Traadisiirded** | Jah (pank/võrk) | Kinnitus tundide jooksul | Sama päeva või järgmise päeva (riigisisene) | Kõrge (tavaliselt pöördumatu pärast saatmist) | Pangad, maksevõrgud | **Keskmine**(fikseeritud/protsentuaalne) | **Keskmine**(fikseeritud/protsentuaalne) |
-
 | **Maksekaardid** | Jah (kaardiväljaandja autoriseerimine) | Sekundid kuni minutid (autoriseerimiskood) | Mõned päevad (pankadevaheline arveldus) | Keskmine (tagasipöördumise võimalus) | Väljaandja, kaardivahendaja, kaardivõrgustik | **Variantne (1-3% tehingust)** | |
-
 | **Digitaalsed rahakotid/Mobile Pay** | Jah (rahakotipakkuja/pank) | Sekundid (kohene kinnitus) | Tavaliselt 1-2 päeva (sõltub rahastamisallikast) | Keskmine (tagasimakse/vaidlus võimalik) | Pangad, rahakotioperaatorid | **Madalast keskmiseni (varieerub)** | |
 
 ### Olemasolevate lahenduste piirangud
@@ -175,25 +169,15 @@ See pealtnäha lihtne tehing hõlmab tegelikult üle 15 etapi, 7 vahendajat ja v
 Traditsiooniline makseteenuste sektor esindab aastas ligikaudu 2200 miljardi dollari suurust majandust, mis on ligikaudu kümnendik Ameerika Ühendriikide SKPst või võrdne Prantsusmaa SKPga. Kuna valuutad toimivad lubade alusel, on konkurents piiratud, mistõttu see "teenus" sarnaneb pigem tootlikule majandusele kehtestatud maksuga. Lisaks sellega kaasnevale kulukoormusele on ka mitmeid muid piiranguid, mida on kirjeldatud allpool.
 
 | Piirangud | Selgitus | Mõju |
-
 | -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
-
 | Kõrged kaarditasud | Vahendustasud (~0,3%), võrgutasud (fikseeritud või 0,3%-1%), terminalide/PSP-de liitumised ja pankade marginaalid (0,5%-1,7%) moodustavad kokku märkimisväärsed kulud, mis sarnanevad tootmissektorite globaalse "maksuga", mis ulatub triljonidesse dollaritesse.     | Tõstab kaupmeeste kulusid, vähendades marginaale ja tõstes potentsiaalselt tarbijahindu.                  |
-
 | Väga aeglane lõpparveldus | Raha arveldamine võib võtta kuni 5 päeva, mis aeglustab rahavooge ja üldist majandustegevust.                                                                                                                                | Viivitab kaupmeeste likviidsust ja vähendab majanduskäibe kiirust.                        |
-
 | Pettused | E-kaubanduse kanalid on suurel määral pettuste sihtmärgiks, mis põhjustavad märkimisväärset kahju (nt 28 miljardit dollarit). Tagasipöördumised võivad 2024. aastaks ulatuda ülemaailmselt 174 miljardi dollarini. Nende vaidluste haldamine võtab aega ja põhjustab vaimset koormust. | Suurenenud tegevuskulud, keerulised pettuste ennetamise meetmed ja klientide usalduse vähenemine.       |
-
 | Ostukorvi mahajätmine | Täiendavad turvameetmed (ühekordsed koodid, kahefaktoriline autentimine PSD2 raames) tekitavad hõõrdumist kassas.                                                                                                                   | Suurem keerukus kassast loobumise ja kaotatud müügi tõttu.                       |
-
 | Kõrged minimaalsed tehinguarvud | Kaartide minimaalsed kulutuste piirmäärad võivad sundida kaupmehi ja tarbijaid ebamugavasse hinnakujundusse või ostutingimustesse, mis heidutab väikese väärtusega tehinguid.                                                                       | Vähenenud kliendi rahulolu ja paindlikkus, mis võib piirata impulss- või väheväärtuslikke oste.  |
-
 | Aeglane eelautoriseerimine | Praegused süsteemid ei suuda käsitleda tehinguid millisekundilise kiirusega ega toetada pidevaid reaalajas toimuvaid maksevooge.                                                                                                                   | Piirab kasutusjuhtumeid, mis nõuavad koheseid või jooksvaid makseid, piirates innovatsiooni ja skaleeritavust. |
-
 | Pangakonto/kaardikonto vajadus | Nende makseviiside kasutamiseks on vaja seotud panga- või kaardikontot, mis automaatselt välistab need, kellel puudub selline konto.                                                                                                       | Piirab finantskaasamist, vähendades pangata või pangaga vähekindlustatud elanikkonna juurdepääsu.                 |
-
 | Korduv veebikontode loomine | Kasutajad peavad sageli looma mitu veebikontot, mis põhjustab väsimust, vähendab mugavust ja suurendab isikuandmete avalikustamist.                                                                                                | Halveneb kasutajakogemus, suureneb privaatsusprobleem ja suureneb andmete rikkumise oht.          |
-
 | Valuutatasu | Universaalse arvestusühiku puudumine sunnib piiriüleste tehingute puhul tegema kulukaid valuutakonverteerimisi.                                                                                                                              | Lisab rahvusvahelisele kaubandusele lisakulusid, muutes globaalsed tehingud vähem taskukohaseks.             |
 
 Nii nagu me läksime häälkõnede eest minuti kaupa maksmisest üle peaaegu tasuta IP-põhise side kasutamisele, võib avatumate ja tõhusamate võrkude teke muuta maksete määratlust, vähendades kulusid ja vahendajaid ning soodustades uusi ärimudeleid.
@@ -522,35 +506,20 @@ Bitcoini ETF-id on **institutsioonilise kasutuselevõtu** poolest üle kümne k�
 Bitcoin mängib nüüd "väärtuse säilitamise" **turul**. See on mastaabis vaid tilk ämbris: vaid umbes 1800 miljardit dollarit võrreldes kulla 18 000 miljardi dollariga või kinnisvara 500 000 miljardi dollariga. Kuid tema ligikaudu 0,1%-line turuosa annab talle tohutu kasvuruumi, eriti arvestades, et tema konkurendid võitlevad uute kasutajate ligimeelitamisega.
 
 | Ticker | 1D Flow (M USD) | 1W Flow (M USD) | 1M Flow (M USD) | 3M Flow (M USD) | YTD Flow (M USD) |
-
 | ------- | --------------- | --------------- | --------------- | --------------- | ---------------- |
-
 | **Summa** | +457,19 | +1,507.95 | +2,888.01 | +3,672.29 | **+20,262.94** | **+20,262.94** |
-
 | IBIT | +393,40 | +750,91 | +1 536,47 | +3 821,37 | +22 460,44 | +22 460,44 |
-
 | FBTC | +14,81 | +372,40 | +627,16 | +458,71 | +10 266,69 | +10 266,69 |
-
 | ARKB | +11,51 | +163,26 | +295,92 | -3,88 | +2,647,32 | +2,647,32 |
-
 | BITB | +12,93 | +146,50 | +263,30 | +97,46 | +2,262,69 | +2,262,69 |
-
 | HODL | +5.75 | +38.77 | +94.54 | +100.39 | +682.03 | +682.03 |
-
 | BRRR | +1,92 | +4,72 | +17,76 | +20,54 | +540,19 | +540,19 |
-
 | EZBC | +11,79 | +17,53 | +39,29 | +47,48 | +439,45 | +11,79 | +17,53 | +39,29 | +47,48 | +439,45 |
-
 | BTC | ,00 | -3,13 | +36,59 | +419,18 | +419,18 | +419,18 |
-
 | BTCO | +6,43 | +19,25 | +47,30 | +56,41 | +394,82 | +394,82 |
-
 | BTCW | ,00 | +2,84 | +6,04 | +146,69 | +217,47 | +217,47 |
-
 | YBIT | -1,34 | -10,26 | +5,06 | +13,81 | +76,30 | +76,30 |
-
 | DEFI | .00 | .00 | .00 | .00 | -2.03 | -1.79 |
-
 | GBTC | ,00 | +5,16 | -81,42 | -1503,84 | -20 141,85 | -20 141,85 |
 
 *20 miljardit dollarit 10 kuuga: Bitcoin ETF saavutas vähem kui aastaga selle, mille saavutamine kulla ETF-idel võttis 5 aastat. Allikas: Fondide investeerimisvood USA dollarites. Bloomberg Terminal, Bloomberg L.P., 2024.*
@@ -792,129 +761,73 @@ Otsustamisprotsessi lihtsustamiseks oleme määratlenud neli erinevat äriprofii
 #### Profiil 1 - Starter
 
 | Atribuut | Starter |
-
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-
 | **Mõtteseisund** | "proovin oma esimest füüsilist makset", "võtan jootraha oma veebisisu eest", "sihiks väga väike tulu" |
-
 | **Tehingute sagedus** | "esimene tehing, et õppida", "võtame makse aeg-ajalt"                                                                    |
-
 | **Ettevõttetüübi näited** | Loomemajandus (sisulooja, blogid, artiklid jne), juhuslikud nõuanded, ühekordne isiklik tootemüük, ühendused, ühekordsed üritused |
-
 | **Makse tüüp** | Üldiselt paar senti kuni paar eurot/dollar; alla ~300 euro/dollari eseme kohta |
-
 | **Sätete keerukus** | Puudub | Puudub |
-
 | **Juhendatav lahendus** | Haldatav Lightning rahakott nagu Wallet of Satoshi või mittehaldatav rahakott nagu Phoenix |
-
 | **Merchant Interface** | Lihtne Bitcoin Lightning rahakott: rakendus mobiiltelefonis |
-
 | **Kliendiliides** | Bitcoini QR-maksekood, mis skaneeritakse kliendi isikliku rahakoti kaudu |
-
 | **Tasud** | Klient maksab Bitcoin Lightning tasud pluss kõik kohaldatavad rakendustasud |
-
 | **Müügipunkti seade** | Tasuta nutitelefonirakendus või füüsilise terminali võimalus (nt Bitcoinize) |
-
 | **Haldus ja rollid** | Ühe rakenduse haldamine; minimaalne rollide eristamine |
-
 | **Kontode eksportimine** | Põhilised tehinguajaloo nimekirjad |
-
 | **API** | Ei |
 
 #### Profiil 2 - Oluline
 
 | Atribuut | Oluline |
-
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-
 | **Mõtteseisund** | "Ma aktsepteerin Bitcoini oma äris, kuid ma ei oota märkimisväärset mahtu" |
-
 | **Tehingute sagedus** | Vähesed tehingud kuus |
-
 | **Ettevõttetüübi näited** | Baarid, restoranid, värskete või otse hangitud toodete poolregulaarne müük, mitu kauplust ühe omaniku all, loovmajandus kunstnikele |
-
 | **Makse tüüp** | Üldiselt alates mõnest eurost/dollarist kuni paarisaja euroni objekti kohta; alla ~300 objekti kohta ja alla ~3,000 kuus |
-
 | **Sätete keerukus** | Minimaalne (mobiilirakendus) |
-
 | **Esitav lahendus** | Swiss Bitcoin Pay |
-
 | **Müüja liides** | Lihtne Bitcoin Lightning rahakott: rakendus mobiiltelefonis; lihtne arveldamine minimaalsete üksikasjadega |
-
 | **Kliendiliides** | Bitcoini QR-maksekood, mis skaneeritakse kliendi isikliku rahakoti kaudu |
-
 | **Tasud** | Tavaliselt <1% Bitcoini aadressile saatmisel ja <1,5% fiatiks konverteerimisel |
-
 | **Müügipunkti seade** | Tasuta nutitelefonirakendus või füüsilise terminali võimalus (nt Bitcoinize) |
-
 | **Haldus ja rollid** | Võimalus ainult müügirolliks töötajatele; veebipõhine armatuurlaud haldamiseks |
-
 | **Kontode eksportimine** | CSV eksport koos kõigi tehingu üksikasjadega |
-
 | **API** | Jah | Jah |
 
 #### Profiil 3 - Professionaalne
 
 | Atribuut | Professional |
-
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-
 | **State of Mind** | - Makseviis nagu iga teine minu e-kaubanduse jaoks - Või ühine haldamine ettevõtete grupile, mis on valmis suuremateks mahtudeks |
-
 | **Tehingute sagedus** | Mitu tehingut päevas |
-
 | **Üritustüübi näited** | Mõõduka mahuga e-kaubanduse saidid, väikesed turuplatsid, füüsiliste kaupluste rühmad (nt Click & Collect), VKEde tegevus |
-
 | **Makse tüüp** | Üldiselt alates mõnest eurost/dollarist kuni paarisaja euroni; makse suurus ei ole piiratud; vähem kui 250 000 eurot aastas |
-
 | **Settings Complexity** | Light to fully featured (local or cloud hosting), nõuab sageli e-kaubanduse kauplust |
-
 | **Juhul soovitatud lahendus** | BTC Pay Server e-kaubanduse ja/või füüsilise keskkonna jaoks; ZapRite, Musqet või PayWithFlash kassasüsteemiks, Be-BOP integreeritud e-poe jaoks |
-
 | **Merchant Interface** | Veebileht (mobiil ja desktop) koos arvete redigeerimise, ostukorvivalikute ja maksenuppude loomisega; automatiseeritud arvete koostamine koos e-kaubanduse integratsiooniga |
-
 | **Kliendiliides** | Bitcoini QR-maksekood, mis skaneeritakse kliendi isikliku rahakoti kaudu |
-
 | **Tasud** | Tasuta avatud lähtekoodiga backend ja tasuline Lightning hosting/teenus tasud; front-end tasud sisaldavad Bitcoin Lightning tasusid ja <1,5% konverteerimistasusid |
-
 | **Müügipunkti seade** | Veebipood, valikuline füüsiline ekraan (nt iPad, mis näitab veebilehte või Bitcoini terminali) |
-
 | **Haldus ja rollid** | Täielikult varustatud pood mitme administraatori rolliga; töötajad ja kliendid suhtlevad süsteemiga |
-
 | **Kontode eksportimine** | CSV eksport koos kõigi tehingu üksikasjadega |
-
 | **API** | Jah | Jah |
 
 #### Profiil 4 - Ettevõte
 
 | Atribuut | Ettevõte |
-
 | -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-
 | **Mõtteseisund** | - Ettevõtte jaoks strateegiline makseviis - Mõningase arendusega, et integreerida teenuse platvormi vastavalt spetsiifilistele spetsifikatsioonidele |
-
 | **Tehingute sagedus** | Piiramatu, kõrge sagedusega tehingud |
-
 | **Ettevõttetüübi näited** | Keskmise suurusega ettevõtted, IT-teenuseid pakkuvad ettevõtted, suurettevõtted, suured turuplatsid |
-
 | **Makse tüüp** | Mis tahes suurus või maht |
-
 | **Sätete keerukus** | Keskmine kuni kõrge, sõltuvalt arhitektuuri valikust |
-
 | **Soovitatav lahendus** | SaaS-hostitud lahenduste kohandatud arhitektuur või orkestreerimine, kasutades potentsiaalselt kolmanda osapoole LSP (*Lightning Service Provider*) teenuseid |
-
 | **Merchant Interface** | Täielikult kohandatud front-end ja back-end liidesed, mis on täielikult integreeritud ettevõtte töövoogudesse ja protsessidesse |
-
 | **Kliendiliides** | Alates Bitcoini QR-maksekoodist kuni täielikult kohandatud kasutajaliidese ja/või API-integratsioonini |
-
 | **Tasud** | Sisearenduse ja kolmandate osapoolte tasude kombinatsioon; klient maksab Bitcoin Lightning tasud pluss kõik teenusepakkujate tehingutasud |
-
 | **Müügipunktide seadmed** | Ettevõtte keskkonnale kohandatud lahendused |
-
 | **Juhtkond ja rollid** | Täielikult kohandatud rollid müügi-, haldus-, arendus-, raamatupidamis- ja finantsvaldkonnas |
-
 | **Raamatupidamise eksport** | Täielikult kohandatud raamatupidamiseksport |
-
 | **API** | Jah | Jah |
 
 Järgnevates peatükkides kirjeldame üksikasjalikult iga äriprofiili ja igale neist kohandatud lahendusi.

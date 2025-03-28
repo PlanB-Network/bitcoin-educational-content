@@ -1048,6 +1048,11 @@ https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 ![image](assets/en/71.webp)
 
+为了更深入地了解这个主题，我们推荐我们的 BIZ101 培训课程！了解如何有效地将比特币整合到您的公司财务中，根据您的组织概况接受比特币作为支付方式，并了解相关的税务和会计要求：
+
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+
+
 ## 通过工作获取比特币
 
 <chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>

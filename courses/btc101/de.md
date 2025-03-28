@@ -1048,6 +1048,11 @@ Heute überlebt der Bitcoin und wächst weiter, indem er mehr und mehr in den tr
 
 ![image](assets/en/71.webp)
 
+Um dieses Thema weiter zu vertiefen, empfehlen wir Ihnen unseren Kurs BIZ101! Erfahren Sie, wie Sie Bitcoin effektiv in Ihre Unternehmensfinanzen integrieren, Bitcoin als Zahlungsmittel je nach Profil Ihrer Organisation akzeptieren und die damit verbundenen steuerlichen und buchhalterischen Anforderungen verstehen:
+
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+
+
 ## Bitcoins durch Arbeit erhalten
 
 <chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>

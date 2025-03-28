@@ -1048,6 +1048,11 @@ V současné době bitcoin stále přežívá a ještě více roste díky tomu, 
 
 ![image](assets/en/71.webp)
 
+Pro lepší pochopení tohoto tématu vám doporučujeme naši formaci BIZ101! Objevte, jak efektivně integrovat bitcoin do firemní pokladny, přijímat bitcoin jako platební prostředek podle profilu vaší organizace a porozumět souvisejícím daňovým a účetním požadavkům:
+
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+
+
 ## Získání bitcoinů prací
 
 <chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>

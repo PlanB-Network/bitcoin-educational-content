@@ -1048,6 +1048,11 @@ Oggi il Bitcoin continua a sopravvivere e a crescere, integrandosi sempre di pi√
 
 ![image](assets/en/71.webp)
 
+Per approfondire questo argomento, ti consigliamo la nostra formazione BIZ101! Scopri come integrare efficacemente il bitcoin nella tesoreria della tua azienda, accettare bitcoin come mezzo di pagamento in base al profilo della tua organizzazione e comprendere i requisiti fiscali e contabili associati:
+
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+
+
 ## Ottenere Bitcoin lavorando
 
 <chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>

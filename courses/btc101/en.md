@@ -1018,6 +1018,11 @@ Today, Bitcoin continues to survive and grow even more by being integrated more 
 
 ![image](assets/en/71.webp)
 
+To further explore this topic, we recommend our BIZ101 course! Discover how to effectively integrate bitcoin into your company's treasury, accept bitcoin as a means of payment according to your organization's profile, and understand the related tax and accounting requirements:
+
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+
+
 ## Obtaining Bitcoins by Working
 
 <chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>

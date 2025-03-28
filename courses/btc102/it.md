@@ -23,7 +23,7 @@ Per aiutarti ad iniziare questa avventura, ho creato questo corso gratuito. Solo
 
 <partId>008c49b7-5e17-5973-87f2-ba28429b2697</partId>
 
-## Introduzione al corso BTC102
+## Panoramica del corso
 
 <chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 

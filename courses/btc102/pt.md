@@ -23,7 +23,7 @@ Para ajudá-lo a começar essa jornada, criei este curso gratuito. Apenas Bitcoi
 
 <partId>008c49b7-5e17-5973-87f2-ba28429b2697</partId>
 
-## Introdução ao curso BTC102
+## Visão geral do curso
 
 <chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 

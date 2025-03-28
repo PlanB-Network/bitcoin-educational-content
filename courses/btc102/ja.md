@@ -23,7 +23,7 @@ objectives:
 
 <partId>008c49b7-5e17-5973-87f2-ba28429b2697</partId>
 
-## BTC102コースの紹介
+## コース概要
 
 <chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 

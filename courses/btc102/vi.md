@@ -23,7 +23,7 @@ Những thay đổi về mặt công nghệ và tài chính trong thế giới B
 
 <partId>008c49b7-5e17-5973-87f2-ba28429b2697</partId>
 
-## Giới thiệu về khóa học BTC102
+## Tổng quan về khóa học
 
 <chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 

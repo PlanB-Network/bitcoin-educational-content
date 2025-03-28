@@ -23,7 +23,7 @@ Untuk membantu Anda memulai petualangan ini, saya telah membuat kursus gratis in
 
 <partId>008c49b7-5e17-5973-87f2-ba28429b2697</partId>
 
-## Pengantar ke kursus BTC102
+## Ikhtisar Kursus
 
 <chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 

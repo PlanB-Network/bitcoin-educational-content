@@ -23,7 +23,7 @@ To help you start this adventure, I have created this free course. Only Bitcoin,
 
 <partId>008c49b7-5e17-5973-87f2-ba28429b2697</partId>
 
-## Introduction to BTC102 course
+## Course overview
 
 <chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 

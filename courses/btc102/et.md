@@ -23,7 +23,7 @@ Selleks, et aidata sul seda seiklust alustada, olen loonud selle tasuta kursuse.
 
 <partId>008c49b7-5e17-5973-87f2-ba28429b2697</partId>
 
-## Sissejuhatus BTC102 kursusesse
+## Kursuse ülevaade
 
 <chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 

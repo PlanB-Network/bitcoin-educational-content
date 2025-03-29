@@ -22,14 +22,15 @@ Pengantar kriptografi ini berusaha untuk mengambil jalan tengah. Meskipun relati
 
 <partId>bbed2f46-d64c-5fb5-b892-d726032f2494</partId>
 
-## Deskripsi singkat
+## Ikhtisar Kursus
 
 <chapterId>bb8a8b73-7fb2-50da-bf4e-98996d79887b</chapterId>
+Selamat datang di kursus CYP302!
 
 Buku ini menawarkan sebuah pengenalan mendalam tentang ilmu dan praktik kriptografi. Jika memungkinkan, buku ini berfokus pada konseptual, bukan pada eksposisi formal materi.
 
 > Kursus ini didasarkan pada [repo JWBurgers](https://github.com/JWBurgers/An_Introduction_to_Cryptography). Baiklah. Kontennya belum selesai dan hanya ada di sini untuk menunjukkan bagaimana kami dapat mengintegrasikannya jika JWBurger setuju.
-### Motivasi dan tujuan
+**Motivasi dan tujuan**
 
 Sulit untuk menemukan banyak materi yang menawarkan jalan tengah yang baik dalam pendidikan kriptografi.
 
@@ -37,11 +38,11 @@ Di satu sisi, ada risalah yang panjang dan formal, benar-benar hanya dapat diaks
 
 Pengantar kriptografi ini berusaha untuk mengambil jalan tengah. Meskipun relatif menantang dan mendetail bagi siapa pun yang baru mengenal kriptografi, buku ini bukanlah sebuah risalah dasar yang biasa.
 
-### Audiens target
+**Audiens target**
 
 Dari para pengembang hingga mereka yang ingin tahu secara intelektual, buku ini berguna bagi siapa saja yang menginginkan lebih dari sekadar pemahaman yang dangkal tentang kriptografi. Jika tujuan Anda adalah untuk menguasai bidang kriptografi, maka buku ini juga merupakan titik awal yang baik.
 
-### Panduan membaca
+**Panduan membaca**
 
 Buku ini saat ini berisi tujuh bab: "Apa itu Kriptografi?" (Bab 1), "Dasar-dasar Matematika Kriptografi I" (Bab 2), "Dasar-dasar Matematika Kriptografi II" (Bab 3), "Kriptografi Simetris" (Bab 4), "RC4 dan AES" (Bab 5), "Kriptografi Asimetris" (Bab 6), dan "Kriptosistem RSA" (Bab 7). Bab terakhir, "Kriptografi dalam Praktik," masih akan ditambahkan. Bab ini berfokus pada berbagai aplikasi kriptografi, termasuk keamanan lapisan transport, perutean bawang, dan sistem pertukaran nilai Bitcoin.
 
@@ -49,7 +50,7 @@ Kecuali jika Anda memiliki latar belakang yang kuat dalam matematika, teori bila
 
 Jika Anda benar-benar kesulitan dengan detail formal di bagian buku ini, saya sarankan Anda untuk membacanya pada tingkat yang lebih tinggi untuk pertama kali.
 
-### Ucapan Terima Kasih
+**Ucapan Terima Kasih**
 
 Buku yang paling berpengaruh dalam membentuk hal ini adalah buku Jonathan Katz dan Yehuda Lindell yang berjudul "Pengantar Kriptografi Modern", CRC Press (Boca Raton, FL), 2015. Kursus yang menyertainya tersedia di Coursera yang disebut "Cryptography."
 
@@ -59,11 +60,11 @@ Saya hanya akan mengutip informasi dan hasil yang sangat spesifik yang saya ambi
 
 Bagi para pembaca yang ingin mencari pengetahuan lebih lanjut tentang kriptografi setelah pengenalan ini, saya sangat merekomendasikan buku Katz dan Lindell. Kursus Katz di Coursera agak lebih mudah diakses daripada bukunya.
 
-### Kontribusi
+**Kontribusi**
 
 Silakan lihat [file kontribusi di repositori](https://github.com/JWBurgers/An_Introduction_to_Cryptography/blob/master/Contributions.md) untuk beberapa panduan tentang cara mendukung proyek ini.
 
-### Notasi
+**Notasi**
 
 **Istilah-istilah penting:**
 

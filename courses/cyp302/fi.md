@@ -22,14 +22,15 @@ Tässä johdannossa kryptografiaan pyritään löytämään keskitie. Vaikka sen
 
 <partId>bbed2f46-d64c-5fb5-b892-d726032f2494</partId>
 
-## Lyhyt kuvaus
+## Kurssin yleiskatsaus
 
 <chapterId>bb8a8b73-7fb2-50da-bf4e-98996d79887b</chapterId>
+Tervetuloa CYP302-kurssille!
 
 Tämä kirja tarjoaa syvällisen johdatuksen salakirjoituksen tieteeseen ja käytäntöön. Siinä keskitytään mahdollisuuksien mukaan pikemminkin käsitteelliseen kuin muodolliseen esittelyyn.
 
 > Tämä kurssi perustuu [JWBurgersin repoon](https://github.com/JWBurgers/An_Introduction_to_Cryptography). Kaikki oikein hänelle. Sisältö ei ole vielä valmis ja vain täällä esittelemässä, miten voisimme integroida sen, jos JWburgerin suostuu.
-### Motivaatio ja tavoitteet
+**Motivaatio ja tavoitteet**
 
 On vaikea löytää monia materiaaleja, jotka tarjoaisivat hyvän keskitason kryptografian opetuksessa.
 
@@ -37,11 +38,11 @@ Toisaalta on olemassa pitkiä, muodollisia tutkielmia, jotka ovat oikeastaan vai
 
 Tässä johdannossa kryptografiaan pyritään löytämään keskitie. Vaikka sen pitäisi olla suhteellisen haastava ja yksityiskohtainen kaikille kryptografian aloittelijoille, se ei ole tyypillisen perustavanlaatuisen tutkielman kaninkolo.
 
-### Kohderyhmä
+**Kohderyhmä**
 
 Tämä kirja on hyödyllinen kaikille kehittäjistä älyllisesti uteliaisiin, jotka haluavat kryptografiasta muutakin kuin pintapuolisen ymmärryksen. Jos tavoitteenasi on hallita kryptografian alaa, tämä kirja on myös hyvä lähtökohta.
 
-### Lukemisohjeet
+**Lukemisohjeet**
 
 Kirjassa on tällä hetkellä seitsemän lukua: "(luku 1), "Kryptografian matemaattiset perusteet I" (luku 2), "Kryptografian matemaattiset perusteet II" (luku 3), "Symmetrinen kryptografia" (luku 4), "RC4 ja AES" (luku 5), "Epäsymmetrinen kryptografia" (luku 6) ja "RSA-salausjärjestelmä" (luku 7). Viimeinen luku, "Kryptografia käytännössä", lisätään vielä. Siinä keskitytään erilaisiin kryptografiasovelluksiin, kuten kuljetuskerroksen tietoturvaan, sipulireititykseen ja Bitcoinin arvonvaihtojärjestelmään.
 
@@ -49,7 +50,7 @@ Jos sinulla ei ole vahvaa matemaattista taustaa, numeroteoria on luultavasti tä
 
 Jos sinulla on todella vaikeuksia kirjan näiden osien muodollisten yksityiskohtien kanssa, suosittelen, että tyydyt lukemaan ne korkeatasoisesti ensimmäisellä kerralla.
 
-### Kiitokset
+**Kiitokset**
 
 Vaikuttavin kirja, joka on vaikuttanut tähän, on ollut Jonathan Katzin ja Yehuda Lindellin teos _Introduction to Modern Cryptography_, CRC Press (Boca Raton, FL), 2015. Siihen liittyvä kurssi on saatavilla Courserassa nimellä "Cryptography"
 
@@ -59,11 +60,11 @@ Siteeraan vain hyvin erityisiä tietoja ja tuloksia, jotka olen saanut näistä 
 
 Niille lukijoille, jotka haluavat tämän johdannon jälkeen etsiä syvällisempää tietoa kryptografiasta, suosittelen lämpimästi Katzin ja Lindellin kirjaa. Katzin kurssi Courserassa on hieman helpommin lähestyttävä kuin kirja.
 
-### Maksut
+**Maksut**
 
 Tutustu [arkistossa olevaan contributions-tiedostoon](https://github.com/JWBurgers/An_Introduction_to_Cryptography/blob/master/Contributions.md), josta löydät ohjeita siitä, miten projektia voi tukea.
 
-### Merkintä
+**Merkintä**
 
 **Keskeiset termit:**
 

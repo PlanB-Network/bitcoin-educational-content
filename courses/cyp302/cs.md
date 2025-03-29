@@ -22,14 +22,15 @@ Tento úvod do kryptografie se snaží zachytit střední cestu. Ačkoli by měl
 
 <partId>bbed2f46-d64c-5fb5-b892-d726032f2494</partId>
 
-## Krátký popis
+## Přehled kurzu
 
 <chapterId>bb8a8b73-7fb2-50da-bf4e-98996d79887b</chapterId>
+Vítejte v kurzu CYP302!
 
 Tato kniha nabízí hluboký úvod do vědy a praxe kryptografie. Tam, kde je to možné, se zaměřuje spíše na koncepční než formální výklad látky.
 
 > Tento kurz je založen na [JWBurgers's repo](https://github.com/JWBurgers/An_Introduction_to_Cryptography). Všichni mají pravdu. Obsah ještě není dokončen a je zde pouze pro ukázku, jak bychom jej mohli integrovat, pokud s tím JWburger's bude souhlasit.
-### Motivace a cíle
+**Motivace a cíle**
 
 Je obtížné najít mnoho materiálů, které by ve výuce kryptografie nabízely dobrou střední cestu.
 
@@ -37,11 +38,11 @@ Na jedné straně existují dlouhá, formální pojednání, která jsou příst
 
 Tento úvod do kryptografie se snaží zachytit střední cestu. Ačkoli by měl být pro každého, kdo se s kryptografií teprve seznamuje, poměrně náročný a podrobný, není to králičí nora typického základního pojednání.
 
-### Cílová skupina
+**Cílová skupina**
 
 Tato kniha je užitečná pro všechny, kteří chtějí kryptografii porozumět více než jen povrchně, a to od vývojářů až po intelektuály. Pokud je vaším cílem ovládnout oblast kryptografie, pak je tato kniha také dobrým výchozím bodem.
 
-### Pokyny pro čtení
+**Pokyny pro čtení**
 
 Kniha v současné době obsahuje sedm kapitol: "Co je kryptografie?" (kapitola 1), "Matematické základy kryptografie I" (kapitola 2), "Matematické základy kryptografie II" (kapitola 3), "Symetrická kryptografie" (kapitola 4), "RC4 a AES" (kapitola 5), "Asymetrická kryptografie" (kapitola 6) a "Kryptosystém RSA" (kapitola 7). Závěrečná kapitola "Kryptografie v praxi" bude ještě doplněna. Zaměřuje se na různé kryptografické aplikace, včetně zabezpečení transportní vrstvy, cibulového směrování a systému výměny hodnot Bitcoin.
 
@@ -49,7 +50,7 @@ Pokud nemáte silné matematické vzdělání, je teorie čísel pravděpodobně
 
 Pokud máte s formálními detaily v těchto částech knihy opravdu potíže, doporučuji vám, abyste se napoprvé spokojili s jejich přečtením na vysoké úrovni.
 
-### Poděkování
+**Poděkování**
 
 Nejvlivnější knihou, která se podílela na formování tohoto tématu, byla kniha Jonathana Katze a Yehudy Lindella _Introduction to Modern Cryptography_, CRC Press (Boca Raton, FL), 2015. Na serveru Coursera je k dispozici doprovodný kurz s názvem "Cryptography"
 
@@ -59,11 +60,11 @@ Z těchto zdrojů budu citovat pouze velmi konkrétní informace a výsledky, kt
 
 Těm čtenářům, kteří chtějí po tomto úvodu hledat pokročilejší znalosti o kryptografii, vřele doporučuji knihu Katze a Lindella. Katzův kurz na Coursera je o něco přístupnější než kniha.
 
-### Příspěvky
+**Příspěvky**
 
 Podívejte se prosím na [soubor s příspěvky v úložišti](https://github.com/JWBurgers/An_Introduction_to_Cryptography/blob/master/Contributions.md), kde najdete pokyny, jak projekt podpořit.
 
-### Notový zápis
+**Notový zápis**
 
 **Klíčové pojmy:**
 

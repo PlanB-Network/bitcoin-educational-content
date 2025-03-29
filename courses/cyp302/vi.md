@@ -21,14 +21,15 @@ Phần giới thiệu về mật mã này tìm cách nắm bắt được điể
 
 <partId>bbed2f46-d64c-5fb5-b892-d726032f2494</partId>
 
-## Mô tả ngắn gọn
+## Tổng quan về khóa học
 
 <chapterId>bb8a8b73-7fb2-50da-bf4e-98996d79887b</chapterId>
+Chào mừng bạn đến với khóa học CYP302!
 
 Cuốn sách này cung cấp phần giới thiệu sâu về khoa học và thực hành mật mã. Nếu có thể, cuốn sách tập trung vào khái niệm hơn là trình bày chính thức về tài liệu.
 
 > Khóa học này dựa trên [kho lưu trữ của JWBurgers](https://github.com/JWBurgers/An_Introduction_to_Cryptography). Được thôi. Nội dung vẫn chưa hoàn thiện và chỉ ở đây để giới thiệu cách chúng ta có thể tích hợp nó nếu JWburger đồng ý.
-### Động lực và mục tiêu
+**Động lực và mục tiêu**
 
 Thật khó để tìm được nhiều tài liệu cung cấp giải pháp trung gian tốt cho giáo dục mật mã.
 
@@ -36,11 +37,11 @@ Một mặt, có những chuyên luận dài dòng, chính thức, thực sự c
 
 Phần giới thiệu về mật mã này tìm cách nắm bắt được điểm trung gian. Mặc dù nó có thể khá khó khăn và chi tiết đối với bất kỳ ai mới làm quen với mật mã, nhưng nó không phải là hang thỏ của một chuyên luận cơ bản thông thường.
 
-### Đối tượng mục tiêu
+**Đối tượng mục tiêu**
 
 Từ các nhà phát triển đến những người tò mò về trí tuệ, cuốn sách này hữu ích cho bất kỳ ai muốn hiểu biết sâu hơn về mật mã. Nếu mục tiêu của bạn là nắm vững lĩnh vực mật mã, thì cuốn sách này cũng là một điểm khởi đầu tốt.
 
-### Hướng dẫn đọc
+**Hướng dẫn đọc**
 
 Cuốn sách hiện có bảy chương: "Mật mã là gì?" (Chương 1), "Nền tảng toán học của mật mã I" (Chương 2), "Nền tảng toán học của mật mã II" (Chương 3), "Mật mã đối xứng" (Chương 4), "RC4 và AES" (Chương 5), "Mật mã bất đối xứng" (Chương 6) và "Hệ thống mật mã RSA" (Chương 7). Một chương cuối cùng, "Mật mã trong thực hành", vẫn sẽ được thêm vào. Chương này tập trung vào các ứng dụng mật mã khác nhau, bao gồm bảo mật lớp vận chuyển, định tuyến onion và hệ thống trao đổi giá trị của Bitcoin.
 
@@ -48,7 +49,7 @@ Trừ khi bạn có nền tảng vững chắc về toán học, lý thuyết s�
 
 Nếu bạn thực sự gặp khó khăn với các chi tiết chính thức trong những phần này của cuốn sách, tôi khuyên bạn nên đọc chúng ở cấp độ cao hơn ngay từ lần đầu tiên.
 
-### Lời cảm ơn
+**Lời cảm ơn**
 
 Cuốn sách có ảnh hưởng nhất trong việc định hình lĩnh vực này là _Introduction to Modern Cryptography_ của Jonathan Katz và Yehuda Lindell, CRC Press (Boca Raton, FL), 2015. Một khóa học đi kèm có sẵn trên Coursera có tên là "Cryptography".
 
@@ -58,11 +59,11 @@ Tôi sẽ chỉ trích dẫn những thông tin và kết quả rất cụ thể
 
 Đối với những độc giả muốn tìm hiểu thêm kiến thức nâng cao về mật mã sau phần giới thiệu này, tôi thực sự khuyên bạn nên đọc cuốn sách của Katz và Lindell. Khóa học của Katz trên Coursera dễ tiếp cận hơn so với cuốn sách.
 
-### Đóng góp
+**Đóng góp**
 
 Vui lòng xem [tệp đóng góp trong kho lưu trữ](https://github.com/JWBurgers/An_Introduction_to_Cryptography/blob/master/Contributions.md) để biết một số hướng dẫn về cách hỗ trợ dự án.
 
-### Ký hiệu
+**Ký hiệu**
 
 **Các thuật ngữ chính:**
 

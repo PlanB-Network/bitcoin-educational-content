@@ -22,14 +22,15 @@ Käesolev sissejuhatus krüptograafiasse püüab leida kesktee. Kuigi see peaks 
 
 <partId>bbed2f46-d64c-5fb5-b892-d726032f2494</partId>
 
-## Lühikirjeldus
+## Kursuse ülevaade
 
 <chapterId>bb8a8b73-7fb2-50da-bf4e-98996d79887b</chapterId>
+Tere tulemast kursusele CYP302!
 
 See raamat pakub põhjalikku sissejuhatust krüptograafia teadusse ja praktikasse. Võimaluse korral keskendutakse pigem materjali kontseptuaalsele kui formaalsele eksponeerimisele.
 
 > See kursus põhineb [JWBurgersi repol](https://github.com/JWBurgers/An_Introduction_to_Cryptography). Kõik õigused talle. Sisu ei ole veel valmis ja ainult siin näidata, kuidas me võiksime seda integreerida, kui JWburger on nõus.
-### Motivatsioon ja eesmärgid
+**Motivatsioon ja eesmärgid**
 
 On raske leida palju materjale, mis pakuksid krüptograafiaõppes head keskteed.
 
@@ -37,11 +38,11 @@ On raske leida palju materjale, mis pakuksid krüptograafiaõppes head keskteed.
 
 Käesolev sissejuhatus krüptograafiasse püüab leida kesktee. Kuigi see peaks olema suhteliselt keeruline ja üksikasjalik kõigile krüptograafia algajaile, ei ole see tüüpilise alusdokumendi küülikupea.
 
-### Sihtrühm
+**Sihtrühm**
 
 Alates arendajatest kuni intellektuaalselt uudishimulike inimesteni on see raamat kasulik kõigile, kes soovivad krüptograafiast rohkem kui pealiskaudset arusaamist. Kui teie eesmärk on krüptograafia valdkonnaga tegelemine, siis on see raamat samuti hea lähtepunkt.
 
-### Lugemisjuhised
+**Lugemisjuhised**
 
 Raamatus on praegu seitse peatükki: "Mis on krüptograafia?" (1. peatükk), "Krüptograafia matemaatilised alused I" (2. peatükk), "Krüptograafia matemaatilised alused II" (3. peatükk), "Sümmeetriline krüptograafia" (4. peatükk), "RC4 ja AES" (5. peatükk), "Asümmeetriline krüptograafia" (6. peatükk) ja "RSA krüptosüsteem" (7. peatükk). Lisandub veel viimane peatükk "Krüptograafia praktikas". Selles keskendutakse erinevatele krüptograafilistele rakendustele, sealhulgas transpordikihi turvalisusele, sibulareitingule ja Bitcoini väärtusvahetussüsteemile.
 
@@ -49,7 +50,7 @@ Kui teil ei ole tugevat matemaatilist tausta, on arvuteooria ilmselt kõige rask
 
 Kui teil on tõesti raskusi raamatu nende osade formaalsete üksikasjadega, siis soovitan teil esimesel korral leppida nende kõrgetasemelise lugemisega.
 
-### Tänuavaldused
+**Tänuavaldused**
 
 Kõige mõjukam raamat selle kujundamisel on olnud Jonathan Katzi ja Yehuda Lindelli raamat _Introduction to Modern Cryptography_, CRC Press (Boca Raton, FL), 2015. Coursera's on saadaval sellega kaasnev kursus "Cryptography"
 
@@ -59,11 +60,11 @@ Tsiteerin ainult väga konkreetset teavet ja tulemusi, mida ma nendest allikates
 
 Neile lugejatele, kes soovivad pärast seda sissejuhatust otsida edasijõudnuid teadmisi krüptograafiast, soovitan väga Katzi ja Lindelli raamatut. Katzi kursus Courseras on raamatust mõnevõrra kättesaadavam.
 
-### Panused
+**Panused**
 
 Palun vaadake [repositooriumis olevast panuste failist](https://github.com/JWBurgers/An_Introduction_to_Cryptography/blob/master/Contributions.md) mõningaid juhiseid projekti toetamiseks.
 
-### Märgistus
+**Märgistus**
 
 **Välisterminid:**
 

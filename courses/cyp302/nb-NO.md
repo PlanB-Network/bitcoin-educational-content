@@ -22,14 +22,15 @@ Denne introduksjonen til kryptografi forsøker å finne en mellomting. Selv om d
 
 <partId>bbed2f46-d64c-5fb5-b892-d726032f2494</partId>
 
-## Kort beskrivelse
+## Kursoversikt
 
 <chapterId>bb8a8b73-7fb2-50da-bf4e-98996d79887b</chapterId>
+Velkommen til CYP302-kurset!
 
 Denne boken gir en grundig innføring i vitenskapen om og utøvelsen av kryptografi. Der det er mulig, fokuserer den på konseptuell snarere enn formell fremstilling av materialet.
 
 > Dette kurset er basert på [JWBurgers' repo](https://github.com/JWBurgers/An_Introduction_to_Cryptography). All right til ham. Innholdet er ennå ikke ferdig og er bare her for å vise hvordan vi kan integrere det hvis JWburger er enig.
-### Motivasjon og mål
+**Motivasjon og mål**
 
 Det er vanskelig å finne mye materiale som tilbyr en god mellomting i kryptografiundervisningen.
 
@@ -37,11 +38,11 @@ På den ene siden finnes det lange, formelle avhandlinger som egentlig bare er t
 
 Denne introduksjonen til kryptografi forsøker å finne en mellomting. Selv om den bør være relativt utfordrende og detaljert for alle som er nye i kryptografi, er den ikke et kaninhull av en typisk grunnleggende avhandling.
 
-### Målgruppe
+**Målgruppe**
 
 Denne boken er nyttig for alle som ønsker mer enn en overfladisk forståelse av kryptografi, fra utviklere til intellektuelt nysgjerrige. Hvis målet ditt er å mestre kryptografifaget, er denne boken også et godt utgangspunkt.
 
-### Retningslinjer for lesing
+**Retningslinjer for lesing**
 
 Boken inneholder for tiden syv kapitler: "Hva er kryptografi?" (kapittel 1), "Kryptografiens matematiske grunnlag I" (kapittel 2), "Kryptografiens matematiske grunnlag II" (kapittel 3), "Symmetrisk kryptografi" (kapittel 4), "RC4 og AES" (kapittel 5), "Asymmetrisk kryptografi" (kapittel 6) og "RSA-kryptosystemet" (kapittel 7). Et siste kapittel, "Kryptografi i praksis", vil fortsatt bli lagt til. Det fokuserer på ulike kryptografiske anvendelser, blant annet transportlagssikkerhet, onion routing og Bitcoins verdiutvekslingssystem.
 
@@ -49,7 +50,7 @@ Med mindre du har en sterk bakgrunn i matematikk, er tallteori sannsynligvis det
 
 Hvis du virkelig sliter med de formelle detaljene i disse delene av boken, anbefaler jeg at du nøyer deg med å lese dem på et høyt nivå første gang.
 
-### Erkjennelser
+**Erkjennelser**
 
 Den boken som har hatt størst innflytelse på denne, er Jonathan Katz og Yehuda Lindells _Introduction to Modern Cryptography_, CRC Press (Boca Raton, FL), 2015. Et tilhørende kurs er tilgjengelig på Coursera under tittelen "Cryptography"
 
@@ -59,11 +60,11 @@ Jeg vil bare sitere helt spesifikk informasjon og resultater jeg har hentet fra 
 
 For de leserne som ønsker å oppsøke mer avansert kunnskap om kryptografi etter denne introduksjonen, anbefaler jeg Katz og Lindells bok på det varmeste. Katz' kurs på Coursera er noe mer tilgjengelig enn boken.
 
-### Bidrag
+**Bidrag**
 
 Ta en titt på [bidragsfilen i depotet](https://github.com/JWBurgers/An_Introduction_to_Cryptography/blob/master/Contributions.md) for å finne noen retningslinjer for hvordan du kan støtte prosjektet.
 
-### Notasjon
+**Notasjon**
 
 **Nøkkelord:**
 

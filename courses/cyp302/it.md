@@ -22,14 +22,15 @@ Questa introduzione alla crittografia cerca di cogliere la via di mezzo. Pur ess
 
 <partId>bbed2f46-d64c-5fb5-b892-d726032f2494</partId>
 
-## Breve descrizione
+## Panoramica del corso
 
 <chapterId>bb8a8b73-7fb2-50da-bf4e-98996d79887b</chapterId>
+Benvenuto al corso CYP302!
 
 Questo libro offre un'introduzione approfondita alla scienza e alla pratica della crittografia. Dove possibile, si concentra sull'esposizione concettuale piuttosto che formale del materiale.
 
 > Questo corso è basato sul repo di [JWBurgers](https://github.com/JWBurgers/An_Introduction_to_Cryptography). Tutto a posto per lui. Il contenuto non è ancora finito ed è qui solo per mostrare come potremmo integrarlo se JWburger è d'accordo.
-### Motivazione e obiettivi
+**Motivazione e obiettivi**
 
 È difficile trovare molti materiali che offrano una buona via di mezzo nell'educazione alla crittografia.
 
@@ -37,11 +38,11 @@ Da un lato, ci sono lunghi trattati formali, accessibili solo a chi ha un solido
 
 Questa introduzione alla crittografia cerca di cogliere la via di mezzo. Pur essendo relativamente impegnativa e dettagliata per chiunque sia alle prime armi con la crittografia, non è la tana del coniglio di un tipico trattato di fondamenti.
 
-### Pubblico di riferimento
+**Pubblico di riferimento**
 
 Dagli sviluppatori ai curiosi, questo libro è utile per tutti coloro che desiderano una comprensione più che superficiale della crittografia. Se il vostro obiettivo è quello di padroneggiare il campo della crittografia, questo libro è anche un buon punto di partenza.
 
-### Linee guida per la lettura
+**Linee guida per la lettura**
 
 Il libro contiene attualmente sette capitoli: "Che cos'è la crittografia?" (Capitolo 1), "Fondamenti matematici della crittografia I" (Capitolo 2), "Fondamenti matematici della crittografia II" (Capitolo 3), "Crittografia simmetrica" (Capitolo 4), "RC4 e AES" (Capitolo 5), "Crittografia asimmetrica" (Capitolo 6) e "Il crittosistema RSA" (Capitolo 7). Verrà inoltre aggiunto un capitolo finale, "La crittografia nella pratica". Si concentra su varie applicazioni crittografiche, tra cui la sicurezza del livello di trasporto, il routing a cipolla e il sistema di scambio di valore di Bitcoin.
 
@@ -49,7 +50,7 @@ A meno che non abbiate una solida preparazione matematica, la teoria dei numeri 
 
 Se vi trovate in difficoltà con i dettagli formali di queste parti del libro, vi consiglio di accontentarvi di una lettura di alto livello la prima volta.
 
-### Ringraziamenti
+**Ringraziamenti**
 
 Il libro più influente per la formazione di questo è stato _Introduction to Modern Cryptography_ di Jonathan Katz e Yehuda Lindell, CRC Press (Boca Raton, FL), 2015. Su Coursera è disponibile un corso di accompagnamento intitolato "Cryptography"
 
@@ -59,11 +60,11 @@ Citerò solo le informazioni e i risultati specifici che ho tratto da queste fon
 
 Per i lettori che desiderano approfondire le conoscenze sulla crittografia dopo questa introduzione, consiglio vivamente il libro di Katz e Lindell. Il corso di Katz su Coursera è un po' più accessibile del libro.
 
-### Contributi
+**Contributi**
 
 Si prega di dare un'occhiata a [il file dei contributi nel repository](https://github.com/JWBurgers/An_Introduction_to_Cryptography/blob/master/Contributions.md) per alcune linee guida su come sostenere il progetto.
 
-### Notazione
+**Notazione**
 
 **Termini chiave:**
 

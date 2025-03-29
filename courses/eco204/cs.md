@@ -20,41 +20,24 @@ Zde zdůrazníme trendy a společné vzorce v epizodách hyperinflace v průběh
 
 <partId>6fe4d15d-f6e6-54be-9e04-0a75ac98df8b</partId>
 
-## Úvod
+## Přehled kurzu
 
 <chapterId>9d1aba8d-0485-5020-9863-5de37e6db8e0</chapterId>
 
-Tento program má za cíl poskytnout hluboké porozumění vzniku hyperinflací ve světě ovládaném Fiat měnou a zkoumat jejich významné důsledky. Účastníci budou podrobně prozkoumávat cykly hyperinflace, analyzovat příčiny, spouštěče a historické i současné příklady. Také se budou zabývat hmatatelným dopadem hyperinflací na ekonomiku a každodenní život, studovat důsledky na hodnotu měny, kupní sílu a individuální i kolektivní úspory.
+Vítejte v kurzu ECO204!
 
-Zde zdůrazníme trendy a společné vzorce v epizodách hyperinflace v průběhu historie, zatímco poskytneme účinné a konkrétní strategie, jak se během období hyperinflace chránit. Účastníci budou mít příležitost prozkoumat různé investiční možnosti a finanční obranné mechanismy, získají praktické nástroje a nezbytné znalosti pro klidné navigování v nestabilním ekonomickém klimatu.
+Cílem tohoto kurzu je pomoci vám pochopit hlubší příčiny, mechanismy a důsledky hyperinflací v kontextu fiat měnového systému. Pomocí konkrétních příkladů a historických analýz se naučíte rozpoznávat opakující se vzorce, které předcházejí obdobím hyperinflace, a identifikovat nástroje, jak se proti nim chránit.
 
-### Učební plán
+**Sekce 2: Co je to inflace?**  
+Než se ponoříme do hlavního tématu, vrátíme se k základům: co je to inflace? Tato sekce představí její měnové kořeny, různé typy inflace a jak zapadají do širší ekonomické dynamiky. Je to nezbytný krok k pochopení toho, jak se běžná inflace může změnit v hyperinflaci.
 
-Sekce 1 - Úvod
+**Sekce 3: Co je to hyperinflace?**  
+V této sekci se seznámíte s přesnými definicemi hyperinflace a několika významnými historickými epizodami, včetně Výmarského Německa a Zimbabwe. Budeme analyzovat jejich společné rysy, rozdíly a současné paralely. Objevíte také méně známé případy, jako jsou opakované redenominace v Latinské Americe, a cesty, kterými se některé země dostaly z krize.
 
-- 1.1 - Úvod do kurzu od Rogzy & David
+**Sekce 4: Jak jsme se sem dostali?**  
+Tato část se zaměřuje na pochopení strukturálních mechanismů, které činí hyperinflace možnou, zejména prostřednictvím rozvoje „druhé vrstvy“ měny a role centrálních bank. Budou navrženy doplňkové zdroje pro hlubší porozumění a inspirativní čtení.
 
-Sekce 2 - Co je inflace?
-
-- 2.1 - Monetární jev
-- 2.2 - Typy inflace
-- 2.3 - Deflace
-
-Sekce 3 - Co je hyperinflace?
-
-- 3.1 - Definice
-- 3.2 - Podobnosti mezi Weimarem a Zimbabwe
-- 3.3 - Rozdíly mezi Weimarem a Zimbabwe a současné paralely
-- 3.4 - Redenominace v Latinské Americe
-- 3.5 - Jak se dostat z hyperinflace
-- 3.6 - Prezentace sbírky bankovek z období hyperinflace
-
-Sekce 4 - Jak jsme se sem dostali?
-
-- 4.1 - Vznik druhé vrstvy peněz a centrálních bank
-- 4.2 - Knihy a zdroje
-
-Hodně štěstí!
+A co když se historie měny právě opakuje před našima očima? Posuďte sami v následujících kapitolách!
 
 # Co je inflace?
 

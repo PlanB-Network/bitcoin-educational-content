@@ -81,6 +81,8 @@ Vi er tross alt bare i begynnelsen av innføringen, og vi har passert startfasen
 
 Det viktige poenget her er å forstå denne nye teknologien på en generell måte, så vi håper du liker dette kurset og fortsetter å gjøre fremskritt i dette nye globale monetære paradigmet.
 
+Klar til å dykke ned i den fascinerende verdenen av Bitcoin og forstå alle dets mekanismer? La oss gå!
+
 ## Bitcoins forhistorie
 
 <chapterId>9a94b627-5b69-5d81-9125-f1fa9b0aa6ad</chapterId>

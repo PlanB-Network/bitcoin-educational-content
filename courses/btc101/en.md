@@ -81,6 +81,8 @@ After all, we are only at the beginning stages of its adoption, as we have passe
 
 The important point here is to understand this new technology in a general way, so we hope you enjoy this course and continue to make progress in this new global monetary paradigm.
 
+Ready to dive into the fascinating world of Bitcoin and understand all its inner workings? Let's go!
+
 ## The Prehistory of Bitcoin
 
 <chapterId>9a94b627-5b69-5d81-9125-f1fa9b0aa6ad</chapterId>

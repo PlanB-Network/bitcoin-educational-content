@@ -81,6 +81,8 @@ Loppujen lopuksi olemme vasta sen käyttöönoton alkuvaiheessa, sillä olemme o
 
 Tärkeintä on ymmärtää tätä uutta teknologiaa yleisellä tasolla, joten toivomme, että nautit tästä kurssista ja edistyt edelleen tässä uudessa globaalissa rahaparadigmassa.
 
+Oletko valmis sukeltamaan Bitcoinin kiehtovaan maailmaan ja ymmärtämään sen kaikki toimintamekanismit? Lähdetään liikkeelle!
+
 ## Bitcoinin esihistoria
 
 <chapterId>9a94b627-5b69-5d81-9125-f1fa9b0aa6ad</chapterId>

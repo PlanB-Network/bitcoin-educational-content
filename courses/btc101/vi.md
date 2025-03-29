@@ -81,6 +81,8 @@ Suy cho cùng, chúng ta chỉ mới ở giai đoạn đầu của quá trình �
 
 Điểm quan trọng ở đây là phải hiểu công nghệ mới này một cách tổng quát, vì vậy chúng tôi hy vọng bạn thích khóa học này và tiếp tục đạt được tiến bộ trong mô hình tiền tệ toàn cầu mới này.
 
+Sẵn sàng khám phá thế giới hấp dẫn của Bitcoin và hiểu rõ mọi cơ chế của nó chưa? Đi thôi!
+
 ## Tiền sử của Bitcoin
 
 <chapterId>9a94b627-5b69-5d81-9125-f1fa9b0aa6ad</chapterId>

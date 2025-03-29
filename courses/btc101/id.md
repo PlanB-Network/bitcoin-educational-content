@@ -81,6 +81,8 @@ Bagaimanapun, kita baru berada pada tahap awal pengadopsiannya, karena kita tela
 
 Poin penting di sini adalah untuk memahami teknologi baru ini secara umum, jadi kami harap Anda menikmati kursus ini dan terus membuat kemajuan dalam paradigma moneter global yang baru ini.
 
+Siap menyelami dunia Bitcoin yang menakjubkan dan memahami semua mekanismenya? Ayo mulai!
+
 ## Prasejarah Bitcoin
 
 <chapterId>9a94b627-5b69-5d81-9125-f1fa9b0aa6ad</chapterId>

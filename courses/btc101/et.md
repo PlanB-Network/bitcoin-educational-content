@@ -83,6 +83,8 @@ Lõppude lõpuks oleme alles selle kasutuselevõtu algusjärgus, sest oleme läb
 
 Oluline on mõista seda uut tehnoloogiat üldiselt, nii et loodame, et teile meeldib see kursus ja te jätkate edusamme selles uues globaalses rahaparadigmas.
 
+Kas olete valmis sukelduma Bitcoini põnevasse maailma ja mõistma kõiki selle mehhanisme? Lähme!
+
 ## Bitcoini eelajalugu
 
 <chapterId>9a94b627-5b69-5d81-9125-f1fa9b0aa6ad</chapterId>

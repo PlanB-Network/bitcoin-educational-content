@@ -81,6 +81,8 @@ Afinal, estamos apenas no início da sua adoção, pois já passámos a fase de 
 
 O importante aqui é compreender esta nova tecnologia de uma forma geral, por isso esperamos que goste deste curso e que continue a progredir neste novo paradigma monetário global.
 
+Pronto para mergulhar no fascinante universo do Bitcoin e entender todos os seus mecanismos? Vamos lá!
+
 ## A pré-história do Bitcoin
 
 <chapterId>9a94b627-5b69-5d81-9125-f1fa9b0aa6ad</chapterId>

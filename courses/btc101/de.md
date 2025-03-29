@@ -81,6 +81,8 @@ Schließlich stehen wir erst am Anfang ihrer Einführung, da wir die Startphase 
 
 Das Wichtigste ist, diese neue Technologie allgemein zu verstehen. Wir wünschen Ihnen viel Spaß mit diesem Kurs und hoffen, dass Sie in diesem neuen globalen Währungsparadigma weitere Fortschritte machen.
 
+Bereit, in die faszinierende Welt von Bitcoin einzutauchen und all seine Mechanismen zu verstehen? Los geht's!
+
 ## Die Vorgeschichte von Bitcoin
 
 <chapterId>9a94b627-5b69-5d81-9125-f1fa9b0aa6ad</chapterId>

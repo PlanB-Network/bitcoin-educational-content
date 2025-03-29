@@ -21,6 +21,33 @@ Nautige avastamist!
 
 +++
 
+# Sissejuhatus
+<partId>9da7290a-3895-49a2-93ea-2a6272ca4af4</partId>
+
+## Kursuse ülevaade
+<chapterId>f2e71062-5121-4114-a7f8-27df69884ce8</chapterId>
+
+Tere tulemast kursusele LNP201!
+
+Selle koolituse eesmärk on pakkuda teile põhjalikku tehnilist arusaama Lightning Networkist, mis on kiiremaks ja sageli odavamaks bitcoinitehingute tegemiseks loodud kihivõrk. Avastate järk-järgult selle süsteemi aluspõhimõtted, alates maksekanalite avamisest kuni suunamistehnikate ja likviidsuse juhtimiseni.
+
+**Osa 1: Põhitõed**  
+Alustame üldise sissejuhatusega Lightning Networki, pannes paika olulised alused Bitcoini, selle aadresside, UTXO-de ja tehingute toimimise kohta. See põhialuste ülevaade on hädavajalik, et mõista, kuidas Lightning Network tugineb plokiahela mehhanismidele turvaliseks toimimiseks.
+
+**Osa 2: Kanalite avamine ja sulgemine**  
+Selles osas uurime kanalite avamise protsessi, mis on Lightning Networki nurgakivi. Õpite, kuidas luuakse kohustustehingud, milline roll on tühistamisvõtmetel turvalisuse tagamisel ja kuidas kanaleid saab sulgeda kas koostöös või ühepoolselt. Iga samm selgitatakse täpselt ja tehniliselt, et saaksite aru saada kõigist selle nüanssidest.
+
+**Osa 3: Likviidsusvõrk**  
+Lightning Network ei piirdu ainult üksikute kanalitega; see on tõeline maksevõrk. Näitame, kuidas tehinguid saab vahendussõlmede kaudu HTLC-de abil suunata. Selles osas käsitletakse ka sissetuleva ja väljamineva likviidsuse probleeme.
+
+**Osa 4: Lightning Networki tööriistad**  
+Selles osas tutvustatakse praktilisi tööriistu, nagu *Invoices*, *LNURL* ja *Keysend*. Õpid ka oma kanalite likviidsust haldama, mis on oluline aspekt maksete sujuvuse tagamiseks ja teie Lightning Networki tehingute tõhususe maksimeerimiseks.
+
+**Osa 5: Edasi minemine**  
+Lõpuks lõpetame koolituse, korrates käsitletud mõisteid ja avades tee keerukamatele teemadele neile, kes soovivad oma teadmisi Lightning Networkist edasi arendada.
+
+Kas olete valmis avastama Lightning Networki tehnilisi mehhanisme? Alustame!
+
 # Alused
 
 <partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>

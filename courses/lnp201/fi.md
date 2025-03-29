@@ -21,6 +21,33 @@ Nauti löydöstäsi!
 
 +++
 
+# Johdanto
+<partId>9da7290a-3895-49a2-93ea-2a6272ca4af4</partId>
+
+## Kurssin yleiskatsaus
+<chapterId>f2e71062-5121-4114-a7f8-27df69884ce8</chapterId>
+
+Tervetuloa LNP201-kurssille!
+
+Tämän koulutuksen tavoitteena on tarjota sinulle syvällinen tekninen ymmärrys Lightning Networkista, joka on yläkerroksen verkko, joka on suunniteltu suorittamaan Bitcoin-tapahtumia nopeasti ja usein alhaisemmalla kustannuksella. Tulet vähitellen tutustumaan tämän järjestelmän keskeisiin käsitteisiin, alkaen maksukanavien avaamisesta reititystekniikoihin ja likviditeetin hallintaan.
+
+**Osa 1: Perusteet**  
+Aloitamme yleisellä johdannolla Lightning Networkiin, luomalla perustan Bitcoinille, sen osoitteille, UTXO:ille ja tapahtumien toiminnalle. Tämä peruskatsaus on välttämätön ymmärtääksemme, kuinka Lightning Network toimii turvallisesti luottaen peruslohkoketjun mekanismeihin.
+
+**Osa 2: Kanavien avaaminen ja sulkeminen**  
+Tässä osassa tarkastelemme kanavien avaamisprosessia, joka on Lightning Networkin perusta. Opit, kuinka sitoutumistapahtumat luodaan, mitkä ovat peruutusavainten roolit turvallisuudessa, ja kuinka kanavat voidaan sulkea joko yhteistyössä tai yksipuolisesti. Jokainen vaihe selitetään tarkasti ja teknisesti, jotta ymmärrät kaikki sen yksityiskohdat.
+
+**Osa 3: Likviditeettiverkosto**  
+Lightning Network ei rajoitu vain yksittäisiin kanaviin; se on todellinen maksujärjestelmäverkosto. Näytämme, kuinka tapahtumat voidaan ohjata välittäjien kautta HTLC:iden avulla. Tässä osassa käsitellään myös sisään- ja ulostulevan likviditeetin haasteita.
+
+**Osa 4: Lightning Network -työkalut**  
+Tässä osassa esitellään käytännön työkaluja, kuten *Invoices*, *LNURL* ja *Keysend*. Opit myös hallitsemaan kanaviesi likviditeettiä, joka on tärkeä osa maksujen sujuvuuden varmistamiseksi ja Lightning Network -tapahtumien tehokkuuden maksimoimiseksi.
+
+**Osa 5: Etene pidemmälle**  
+Lopuksi päätämme koulutuksen käsiteltyjen käsitteiden kertauksella ja avaamme tien kehittyneempiin aiheisiin niille, jotka haluavat syventää tietojaan Lightning Networkista.
+
+Oletko valmis oppimaan Lightning Networkin tekniset mekanismit? Aloitetaan!
+
 # Perusteet
 
 <partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>

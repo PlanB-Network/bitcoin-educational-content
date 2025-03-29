@@ -21,6 +21,33 @@ Chúc bạn khám phá thú vị!
 
 +++
 
+# Giới thiệu
+<partId>9da7290a-3895-49a2-93ea-2a6272ca4af4</partId>
+
+## Tổng quan về khóa học
+<chapterId>f2e71062-5121-4114-a7f8-27df69884ce8</chapterId>
+
+Chào mừng bạn đến với khóa học LNP201!
+
+Mục tiêu của khóa học này là cung cấp cho bạn một hiểu biết kỹ thuật sâu sắc về Lightning Network, một mạng lớp phủ được thiết kế để thực hiện các giao dịch bitcoin nhanh chóng và thường với chi phí thấp. Bạn sẽ dần dần khám phá các khái niệm cơ bản điều khiển hệ thống này, từ việc mở các kênh thanh toán đến các kỹ thuật định tuyến và quản lý thanh khoản.
+
+**Phần 1: Các khái niệm cơ bản**  
+Chúng ta sẽ bắt đầu bằng một phần giới thiệu tổng quan về Lightning Network, thiết lập các nguyên tắc cơ bản về Bitcoin, các địa chỉ của nó, UTXO và cách hoạt động của các giao dịch. Phần giới thiệu này rất cần thiết để hiểu cách Lightning Network dựa vào các cơ chế blockchain nền tảng để hoạt động an toàn.
+
+**Phần 2: Mở và đóng các kênh**  
+Trong phần này, chúng ta sẽ khám phá quy trình mở các kênh, một yếu tố cốt lõi của Lightning Network. Bạn sẽ học cách tạo các giao dịch cam kết, vai trò của các khóa thu hồi để đảm bảo an toàn, và cách các kênh có thể được đóng lại một cách hợp tác hoặc đơn phương. Mỗi bước sẽ được giải thích một cách chính xác và kỹ thuật để bạn có thể hiểu được tất cả các chi tiết.
+
+**Phần 3: Mạng lưới thanh khoản**  
+Lightning Network không chỉ giới hạn ở các kênh riêng lẻ; nó là một mạng lưới thanh toán thực sự. Chúng ta sẽ thấy cách các giao dịch có thể được định tuyến qua các nút trung gian bằng cách sử dụng HTLCs. Phần này cũng sẽ giới thiệu bạn với những thách thức về thanh khoản đầu vào và đầu ra.
+
+**Phần 4: Các công cụ của Lightning Network**  
+Phần này trình bày các công cụ thực tế của Lightning Network, chẳng hạn như *Invoices*, *LNURL* và *Keysend*. Bạn cũng sẽ học cách quản lý thanh khoản của các kênh của mình, một khía cạnh quan trọng để đảm bảo sự trôi chảy của các khoản thanh toán và tối ưu hóa hiệu quả các giao dịch của bạn trên Lightning Network.
+
+**Phần 5: Tiến xa hơn**  
+Cuối cùng, chúng ta sẽ kết thúc khóa học bằng cách tóm tắt các khái niệm đã được thảo luận và mở ra con đường đến các chủ đề nâng cao hơn cho những ai muốn hiểu sâu hơn về Lightning Network.
+
+Sẵn sàng khám phá các cơ chế kỹ thuật của Lightning Network? Hãy bắt đầu nào!
+
 # Cơ bản
 
 <partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>

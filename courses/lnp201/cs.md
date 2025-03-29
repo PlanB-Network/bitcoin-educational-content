@@ -21,6 +21,33 @@ Užijte si objevování!
 
 +++
 
+# Úvod
+<partId>9da7290a-3895-49a2-93ea-2a6272ca4af4</partId>
+
+## Přehled kurzu
+<chapterId>f2e71062-5121-4114-a7f8-27df69884ce8</chapterId>
+
+Vítejte v kurzu LNP201!
+
+Tento kurz si klade za cíl poskytnout vám technické pochopení Lightning Network, což je nadstavbová síť navržená pro rychlé a často levnější transakce v bitcoinech. Postupně objevíte základní koncepty, které tento systém řídí, od otevření platebních kanálů až po techniky směrování a správu likvidity.
+
+**Sekce 1: Základy**  
+Začneme obecným úvodem do Lightning Network, přičemž si zopakujeme základní pojmy o Bitcoinu, jeho adresách, UTXO a fungování transakcí. Tento základní přehled je nezbytný pro pochopení, jak Lightning Network využívá mechanismy základní blockchainové sítě k bezpečnému fungování.
+
+**Sekce 2: Otevření a uzavření kanálů**  
+V této části prozkoumáme proces otevírání kanálů, který je základním kamenem Lightning Network. Naučíte se, jak jsou vytvářeny závazkové transakce, jakou roli hrají klíče pro odvolání pro zabezpečení a jak mohou být kanály uzavírány buď společně, nebo jednostranně. Každý krok bude vysvětlen přesně a technicky, aby vám umožnil pochopit všechny jeho jemnosti.
+
+**Sekce 3: Síť likvidity**  
+Lightning Network není jen o jednotlivých kanálech; jedná se o skutečnou platební síť. Ukážeme si, jak mohou být transakce směrovány prostřednictvím mezilehlých uzlů pomocí HTLC. Tato část vás také seznámí s problematikou příchozí a odchozí likvidity.
+
+**Sekce 4: Nástroje Lightning Network**  
+Tato sekce představuje praktické nástroje Lightning Network, jako jsou *Invoices*, *LNURL* a *Keysend*. Naučíte se také, jak spravovat likviditu svých kanálů, což je důležité pro zajištění plynulosti plateb a maximalizaci efektivity vašich transakcí v Lightning Network.
+
+**Sekce 5: Jděte dál**  
+Nakonec uzavřeme kurz shrnutím probraných pojmů a otevřením cesty k pokročilejším tématům pro ty, kteří chtějí dále prohlubovat své znalosti o Lightning Network.
+
+Připraveni objevit technické mechanismy Lightning Network? Pojďme na to!
+
 # Základy
 
 <partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>

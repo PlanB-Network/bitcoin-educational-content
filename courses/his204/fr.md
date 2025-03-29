@@ -18,9 +18,34 @@ Enfin, l’État doit autoriser la libre circulation des marchandises — ce pou
 
 +++
 
+
+# Introduction
+<partId>06d67531-19f1-4f8d-bf8f-77bbcc743672</partId>
+
+## Aperçu du cours
+<chapterId>202db3c6-0320-494d-8057-adc6f6563048</chapterId>
+
+Bienvenue dans le cours HIS204 !
+
+L’objectif de cette formation est d’explorer les origines françaises du concept de laissez-faire, tel qu’il s’est développé au XVIIIe siècle à travers une riche tradition intellectuelle. En retraçant la pensée des premiers économistes français, nous découvrirons les fondements d’une économie politique de la liberté, marquée par la méfiance à l’égard de l’intervention de l’État et la défense d’un ordre naturel favorable au progrès et à la prospérité.
+
+**Section 2 : Les Précurseurs**
+Dans cette première section, nous plongeons dans le contexte historique du tournant des XVIIe et XVIIIe siècles, marqué par les excès de la monarchie absolue et les premiers appels à une gestion plus juste et rationnelle des affaires publiques. À travers les figures de Vauban, Boisguilbert et Cantillon, nous découvrirons des critiques précoces de l’interventionnisme étatique et une première esquisse de ce que deviendra plus tard l’économie politique libérale.
+
+**Section 3 : Les Réformateurs et Penseurs du Début 18e Siècle**
+Cette section s’intéresse à ceux qui, dans les premières décennies du XVIIIe siècle, ont tenté de réformer l’économie française à la lumière de principes nouveaux. De l’abbé de Saint-Pierre au marquis d’Argenson, en passant par Gournay et ses disciples, ces penseurs proposent de démanteler les obstacles corporatistes, de libéraliser les échanges et de promouvoir la concurrence comme moteur du développement. Leurs propositions, souvent audacieuses, préfigurent les grandes idées physiocratiques.
+
+**Section 4 : L'École Physiocratique**
+Cette section est consacrée à l’un des moments culminants de la pensée économique française : l’école physiocratique. Nous étudierons ses origines, ses fondements doctrinaux et ses principales réalisations, en nous concentrant sur des figures comme Quesnay et Dupont de Nemours. C’est ici que le laissez-faire devient un système cohérent, reposant sur l’idée d’un ordre naturel auquel l’État doit se soumettre pour garantir la prospérité de tous.
+
+**Section 5 : Les Lumières et l'Économie Politique**
+Enfin, nous verrons comment la pensée économique libérale se diffuse au sein du mouvement des Lumières. Des figures comme Voltaire, Turgot, Condillac et Condorcet prolongent et enrichissent la tradition du laissez-faire. Leurs écrits forment un pont entre les physiocrates et les générations suivantes, notamment durant la Révolution, où les idées libérales trouvent un nouvel écho.
+
+Prêt à redécouvrir les racines françaises du libéralisme économique ? Allons-y !
+
 # Les Précurseurs
 <partId>91565b10-6010-53cb-a2f4-9c2306c7ef8c</partId>
-## Introduction et contexte historique
+## Contexte historique
 <chapterId>6a5fd101-6dfd-5d77-96c7-9e1aa4a19758</chapterId>
 
 ![](https://youtu.be/tCivmh-SdsA?si=X6NEIManI0BBI0q9)

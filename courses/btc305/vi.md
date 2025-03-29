@@ -24,6 +24,28 @@ Sản phẩm của BTCPay Server Foundation
 
 <partId>59e43fe3-b494-5da6-b4b4-9df5bdf08916</partId>
 
+## Tổng quan về khóa học
+
+<chapterId>785ed2bc-94ae-4962-a26a-edf5742a3c72</chapterId>
+
+Chào mừng bạn đến với khóa học BTC305 về BTCPay Server!
+
+Mục tiêu của khóa học này là hướng dẫn bạn cách cài đặt, cấu hình và sử dụng BTCPay Server trong doanh nghiệp hoặc tổ chức của bạn. BTCPay Server là một giải pháp mã nguồn mở cho phép xử lý các thanh toán bằng bitcoin một cách tự chủ, an toàn và tiết kiệm. Khóa học này chủ yếu dành cho những người dùng nâng cao muốn làm chủ việc tự lưu trữ BTCPay Server để tích hợp hoàn toàn vào các hoạt động hàng ngày của họ.
+
+**Phần 1: Giới thiệu về BTCPay Server**  
+Chúng ta sẽ bắt đầu bằng cách giới thiệu tổng quan về BTCPay Server, bao gồm màn hình đăng nhập, quản lý tài khoản người dùng và tạo một cửa hàng mới. Phần giới thiệu này sẽ giúp bạn hiểu rõ giao diện của BTCPay Server và nắm bắt được các tính năng cơ bản cần thiết để bắt đầu sử dụng công cụ này.
+
+**Phần 2: Giới thiệu về bảo mật khóa Bitcoin**  
+Bảo mật các quỹ bitcoin của bạn là rất quan trọng. Trong phần này, chúng ta sẽ khám phá cách tạo khóa mật mã, cách sử dụng ví phần cứng để bảo vệ các khóa này và cách tương tác với các khóa của bạn thông qua BTCPay Server. Bạn cũng sẽ học cách cấu hình ví Lightning của BTCPay Server để tối ưu hóa các giao dịch của mình.
+
+**Phần 3: Giao diện của BTCPay Server**  
+Phần này sẽ hướng dẫn bạn thông qua giao diện người dùng của BTCPay Server. Bạn sẽ học cách điều hướng bảng điều khiển, cấu hình các cài đặt của cửa hàng và máy chủ, quản lý thanh toán và tận dụng các plugin tích hợp. Mục tiêu là giúp bạn làm quen với các công cụ cần thiết để tùy chỉnh cài đặt theo nhu cầu của bạn.
+
+**Phần 4: Cấu hình BTCPay Server**  
+Cuối cùng, chúng ta sẽ tập trung vào việc cài đặt thực tế BTCPay Server trong các môi trường khác nhau. Cho dù bạn sử dụng LunaNode, Voltage hay một nút Umbrel, bạn sẽ học được các bước cần thiết để triển khai và cấu hình BTCPay Server của mình, đồng thời xem xét các đặc điểm cụ thể của từng môi trường.
+
+Sẵn sàng để làm chủ BTCPay Server và phát triển doanh nghiệp của bạn? Hãy bắt đầu nào!
+
 ## Lời ngợi ca dành cho cha đẻ của Bitcoin và cha đẻ của BTCPay Server
 
 <chapterId>e1fe6294-3c82-5203-9537-779f9087c35a</chapterId>

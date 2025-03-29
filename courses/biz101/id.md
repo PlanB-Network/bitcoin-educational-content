@@ -33,6 +33,8 @@ Kursus ini dimulai dengan pemeriksaan terperinci tentang mata uang konvensional 
 
 Baik Anda mewakili perusahaan kecil maupun perusahaan besar, kursus ini bertujuan untuk membekali Anda dengan pengetahuan untuk mengintegrasikan Bitcoin ke dalam operasi harian Anda, sehingga meningkatkan ketahanan, efisiensi, dan daya saing perusahaan Anda. Karena Bitcoin terus membentuk kembali lanskap ekonomi, memahami teknologi terobosan ini bukan hanya sebuah pilihan, tetapi juga kebutuhan strategis. Bersiaplah untuk terlibat dengan konten yang penuh wawasan, contoh-contoh praktis, dan panduan strategis yang akan membantu Anda menavigasi dan memanfaatkan dunia Bitcoin yang terus berkembang!
 
+Siap menyelami dunia Bitcoin untuk bisnis? Ayo mulai!
+
 # Mata uang, sistem pembayaran, dan Bitcoin
 
 <partId>d9bd0e21-8488-44e0-af55-6d0b934f83c2</partId>

@@ -33,6 +33,8 @@ Kursus algab tavapäraste valuutade ja maksemehhanismide üksikasjaliku uurimise
 
 Olenemata sellest, kas esindate väikeettevõtet või suurt korporatsiooni, on selle kursuse eesmärk anda teile teadmised, et integreerida Bitcoin oma igapäevastesse toimingutesse, suurendades seeläbi teie ettevõtte vastupidavust, tõhusust ja konkurentsieelist. Kuna Bitcoin jätkab majandusmaastiku ümberkujundamist, ei ole nende murranguliste tehnoloogiate mõistmine pelgalt võimalus, vaid strateegiline vajadus. Valmistuge osalema sisuka sisu, praktiliste näidete ja strateegiliste juhiste abil, mis võimaldavad teil Bitcoini arenevas maailmas navigeerida ja seda ära kasutada!
 
+Olete valmis sukelduma ettevõtete jaoks mõeldud Bitcoini maailma? Lähme!
+
 # Valuuta, maksesüsteemid ja Bitcoin
 
 <partId>d9bd0e21-8488-44e0-af55-6d0b934f83c2</partId>

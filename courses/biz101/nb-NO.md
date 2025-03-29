@@ -35,6 +35,8 @@ Kurset begynner med en detaljert gjennomgang av konvensjonelle valutaer og betal
 
 Enten du representerer en liten bedrift eller et stort konsern, har dette kurset som mål å gi deg kunnskapen du trenger for å integrere Bitcoin i den daglige driften, og dermed øke bedriftens motstandskraft, effektivitet og konkurransefortrinn. Etter hvert som Bitcoin fortsetter å omforme det økonomiske landskapet, er det ikke bare et alternativ, men en strategisk nødvendighet å forstå disse banebrytende teknologiene. Gjør deg klar til å engasjere deg med innsiktsfullt innhold, praktiske eksempler og strategisk veiledning som vil gjøre deg i stand til å navigere og utnytte Bitcoins verden i utvikling!
 
+Klar til å dykke ned i Bitcoin-verdenen for bedrifter? La oss gå!
+
 # Valuta, betalingssystemer og Bitcoin
 
 <partId>d9bd0e21-8488-44e0-af55-6d0b934f83c2</partId>

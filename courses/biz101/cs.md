@@ -33,6 +33,8 @@ Kurz začíná podrobným zkoumáním konvenčních měn a platebních mechanism
 
 Ať už zastupujete malý podnik nebo velkou korporaci, cílem tohoto kurzu je vybavit vás znalostmi, které vám umožní začlenit Bitcoin do každodenního provozu, a tím zvýšit odolnost, efektivitu a konkurenční výhodu vaší společnosti. Vzhledem k tomu, že Bitcoin nadále přetváří ekonomické prostředí, není pochopení těchto převratných technologií pouhou možností, ale strategickou nutností. Připravte se na zasvěcený obsah, praktické příklady a strategické pokyny, které vám umožní procházet a využívat rozvíjející se svět Bitcoinu!
 
+Připraveni ponořit se do světa Bitcoinu pro podniky? Jdeme na to!
+
 # Měna, platební systémy a Bitcoin
 
 <partId>d9bd0e21-8488-44e0-af55-6d0b934f83c2</partId>

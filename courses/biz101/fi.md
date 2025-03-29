@@ -33,6 +33,8 @@ Kurssi alkaa perinteisten valuuttojen ja maksumekanismien yksityiskohtaisella ta
 
 Tämän kurssin tavoitteena on antaa sinulle tietoa siitä, miten voit integroida Bitcoinin päivittäiseen toimintaasi ja siten parantaa yrityksesi joustavuutta, tehokkuutta ja kilpailuetua, edustitpa sitten pientä yritystä tai suurta konsernia. Bitcoinin jatkaessa taloudellisen maiseman muokkaamista, näiden uraauurtavien teknologioiden ymmärtäminen ei ole pelkkä vaihtoehto vaan strateginen välttämättömyys. Valmistaudu osallistumaan oivaltavaan sisältöön, käytännön esimerkkeihin ja strategisiin ohjeisiin, joiden avulla voit navigoida ja hyödyntää Bitcoinin kehittyvää maailmaa!
 
+Oletko valmis sukeltamaan yritysten Bitcoin-maailmaan? Lähdetään liikkeelle!
+
 # Valuutta, maksujärjestelmät ja Bitcoin
 
 <partId>d9bd0e21-8488-44e0-af55-6d0b934f83c2</partId>

@@ -35,6 +35,8 @@ O curso começa com uma análise detalhada das moedas convencionais e dos mecani
 
 Quer represente uma pequena empresa ou uma grande corporação, este curso tem como objetivo equipá-lo com os conhecimentos necessários para integrar a Bitcoin nas suas operações diárias, aumentando assim a resiliência, a eficiência e a vantagem competitiva da sua empresa. À medida que a Bitcoin continua a remodelar a paisagem económica, compreender estas tecnologias inovadoras não é apenas uma opção, mas uma necessidade estratégica. Prepare-se para se envolver com conteúdos perspicazes, exemplos práticos e orientações estratégicas que lhe permitirão navegar e tirar partido do mundo em evolução da Bitcoin!
 
+Pronto para mergulhar no mundo do Bitcoin para empresas? Vamos lá!
+
 # Moeda, sistemas de pagamento e Bitcoin
 
 <partId>d9bd0e21-8488-44e0-af55-6d0b934f83c2</partId>

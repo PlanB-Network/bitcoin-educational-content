@@ -33,6 +33,8 @@ Il corso inizia con un esame dettagliato delle valute e dei meccanismi di pagame
 
 Sia che rappresentiate una piccola impresa o una grande società, questo corso mira a fornirvi le conoscenze necessarie per integrare i Bitcoin nelle vostre operazioni quotidiane, migliorando così la resilienza, l'efficienza e il vantaggio competitivo della vostra azienda. Poiché i Bitcoin continuano a ridisegnare il panorama economico, la comprensione di queste tecnologie rivoluzionarie non è solo un'opzione, ma una necessità strategica. Preparatevi a partecipare con contenuti interessanti, esempi pratici e indicazioni strategiche che vi permetteranno di navigare e sfruttare il mondo in evoluzione del Bitcoin!
 
+Pronto a immergerti nel mondo di Bitcoin per le aziende? Andiamo!
+
 # Valuta, sistemi di pagamento e Bitcoin
 
 <partId>d9bd0e21-8488-44e0-af55-6d0b934f83c2</partId>

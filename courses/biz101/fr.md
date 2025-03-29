@@ -33,6 +33,8 @@ Le cours commence par un examen détaillé des monnaies conventionnelles et des 
 
 Que vous représentiez une petite entreprise ou une grande société, ce cours vise à vous fournir les connaissances nécessaires pour intégrer Bitcoin dans vos opérations quotidiennes, améliorant ainsi la résilience, l'efficacité et l'avantage concurrentiel de votre entreprise. Alors que le bitcoin continue de remodeler le paysage économique, la compréhension de ces technologies révolutionnaires n'est pas simplement une option mais une nécessité stratégique. Préparez-vous à vous engager dans un contenu perspicace, des exemples pratiques et des conseils stratégiques qui vous permettront de naviguer et de tirer parti du monde en évolution du bitcoin !
 
+Prêt à plonger dans l'univers de Bitcoin pour les entreprises ? C'est parti !
+
 # Monnaie, systèmes de paiement et Bitcoin
 
 <partId>d9bd0e21-8488-44e0-af55-6d0b934f83c2</partId>

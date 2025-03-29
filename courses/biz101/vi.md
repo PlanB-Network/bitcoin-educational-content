@@ -35,6 +35,8 @@ Khóa học bắt đầu bằng việc kiểm tra chi tiết các loại tiền 
 
 Cho dù bạn đại diện cho một doanh nghiệp nhỏ hay một tập đoàn lớn, khóa học này đều hướng đến mục tiêu trang bị cho bạn kiến thức để tích hợp Bitcoin vào các hoạt động hàng ngày của mình, qua đó nâng cao khả năng phục hồi, hiệu quả và lợi thế cạnh tranh của công ty bạn. Khi Bitcoin tiếp tục định hình lại bối cảnh kinh tế, việc hiểu các công nghệ đột phá này không chỉ là một lựa chọn mà còn là một điều cần thiết về mặt chiến lược. Hãy chuẩn bị tham gia vào nội dung sâu sắc, các ví dụ thực tế và hướng dẫn chiến lược sẽ giúp bạn điều hướng và tận dụng thế giới Bitcoin đang phát triển!
 
+Sẵn sàng khám phá thế giới Bitcoin dành cho doanh nghiệp chưa? Đi thôi!
+
 # Tiền tệ, hệ thống thanh toán và Bitcoin
 
 <partId>d9bd0e21-8488-44e0-af55-6d0b934f83c2</partId>

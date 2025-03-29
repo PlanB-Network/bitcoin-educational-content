@@ -33,6 +33,8 @@ Der Kurs beginnt mit einer detaillierten Untersuchung herkömmlicher Währungen 
 
 Egal, ob Sie ein kleines Unternehmen oder einen großen Konzern vertreten, dieser Kurs zielt darauf ab, Sie mit dem Wissen auszustatten, das Sie benötigen, um Bitcoin in Ihre täglichen Abläufe zu integrieren und dadurch die Widerstandsfähigkeit, die Effizienz und den Wettbewerbsvorteil Ihres Unternehmens zu verbessern. Da Bitcoin weiterhin die wirtschaftliche Landschaft umgestalten wird, ist das Verständnis dieser bahnbrechenden Technologie nicht nur eine Option, sondern eine strategische Notwendigkeit. Bereiten Sie sich auf aufschlussreiche Inhalte, praktische Beispiele und strategische Anleitungen vor, die Sie in die Lage versetzen, die sich entwickelnde Welt des Bitcoin zu navigieren und zu nutzen!
 
+Bereit, in die Welt von Bitcoin für Unternehmen einzutauchen? Los geht's!
+
 # Währung, Zahlungssysteme und Bitcoin
 
 <partId>d9bd0e21-8488-44e0-af55-6d0b934f83c2</partId>

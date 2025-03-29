@@ -20,7 +20,7 @@ Med presentasjoner fra bransjeeksperter dekker kurset emner som Liquid-arkitektu
 
 <partId>9f8a83d5-27e0-4e6d-af12-6cd6eb667291</partId>
 
-## Introduksjon til Liquid Bootcamp
+## Kursoversikt
 
 <chapterId>3192ee7d-255b-4c4f-ba18-e08c5ab98577</chapterId>
 
@@ -32,6 +32,7 @@ Denne bootcampen ble opprinnelig gjennomført som et personlig arrangement, ette
 
 Denne reisen er strukturert for å imøtekomme deltakere med varierende ekspertisenivå, og tilbyr en blanding av teoretisk kunnskap og praktisk erfaring. Ved slutten av denne bootcampen vil du ha en solid forståelse av Liquids arkitektur, integrasjonen med Bitcoin og hvordan du kan bruke de innovative funksjonene til å bygge og optimalisere finansielle løsninger.
 
+Dykk inn i universet av Liquid-sidechain og avslør dets fulle potensial nå!
 # Grunnleggende
 
 <partId>6dd86449-c0f7-4e51-9252-5f135cf019df</partId>

@@ -20,7 +20,7 @@ Với các bài thuyết trình của các chuyên gia trong ngành, khóa học
 
 <partId>9f8a83d5-27e0-4e6d-af12-6cd6eb667291</partId>
 
-## Giới thiệu về Liquid Bootcamp
+## Tổng quan về khóa học
 
 <chapterId>3192ee7d-255b-4c4f-ba18-e08c5ab98577</chapterId>
 
@@ -32,6 +32,7 @@ Bootcamp này ban đầu được tổ chức như một sự kiện trực ti�
 
 Hành trình này được xây dựng để phù hợp với những người tham gia có nhiều trình độ chuyên môn khác nhau, cung cấp sự kết hợp giữa kiến thức lý thuyết và kinh nghiệm thực tế. Đến cuối khóa học này, bạn sẽ có hiểu biết vững chắc về kiến trúc của Liquid, tích hợp với Bitcoin và cách sử dụng các tính năng sáng tạo của Liquid để xây dựng và tối ưu hóa các giải pháp tài chính.
 
+Khám phá thế giới của sidechain Liquid và khai phá mọi tiềm năng của nó ngay bây giờ!
 # Cơ bản
 
 <partId>6dd86449-c0f7-4e51-9252-5f135cf019df</partId>

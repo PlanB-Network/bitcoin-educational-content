@@ -58,7 +58,6 @@ Finalmente, concluiremos el curso recapitulando los conceptos tratados y abriend
 
 ![video es](https://youtu.be/w9y0WsioH2c)
 
-Bienvenido al curso LNP201, que tiene como objetivo explicar el funcionamiento técnico de la Red Lightning.
 
 La Red Lightning es una red de canales de pago construida sobre el protocolo de Bitcoin, con el objetivo de habilitar transacciones rápidas y de bajo costo. Permite la creación de canales de pago entre participantes, dentro de los cuales las transacciones pueden realizarse casi instantáneamente y con comisiones mínimas, sin necesidad de registrar cada transacción individualmente en la blockchain. Así, la Red Lightning busca mejorar la escalabilidad de Bitcoin y hacerlo utilizable para pagos de bajo valor.
 
@@ -948,7 +947,8 @@ En el próximo capítulo, propongo revisar los conceptos más importantes de est
 
 <partId>6bbf107d-a224-5916-9f0c-2b4d30dd0b17</partId>
 
-## Conclusión del Entrenamiento
+## Resumen de la formación
+
 
 <chapterId>a65a571c-561b-5e1c-87bf-494644653c22</chapterId>
 

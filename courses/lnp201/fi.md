@@ -58,8 +58,6 @@ Oletko valmis oppimaan Lightning Networkin tekniset mekanismit? Aloitetaan!
 ![video en](https://youtu.be/QDQ8NG0l3hk)
 
 
-Tervetuloa LNP201-kurssille, jonka tavoitteena on selittää Lightning-verkon tekninen toiminta.
-
 Lightning-verkko on maksukanavien verkosto, joka on rakennettu Bitcoin-protokollan päälle ja jonka tavoitteena on mahdollistaa nopeat ja edulliset siirrot. Se mahdollistaa maksukanavien luomisen osallistujien välille, joiden sisällä siirrot voidaan tehdä lähes välittömästi ja minimaalisin kustannuksin tallentamatta jokaista siirtoa erikseen lohkoketjuun. Näin ollen Lightning-verkko pyrkii parantamaan Bitcoinin skaalautuvuutta ja tekemään siitä käyttökelpoisen pienarvoisiin maksuihin.
 
 Ennen "verkon" aspektin tutkimista on tärkeää ymmärtää Lightningissa maksukanavan käsite, sen toiminta ja erityispiirteet. Tämä on tämän ensimmäisen luvun aihe.
@@ -952,7 +950,8 @@ Seuraavassa luvussa ehdotan tärkeimpien käsitteiden kertausta tästä koulutuk
 
 <partId>6bbf107d-a224-5916-9f0c-2b4d30dd0b17</partId>
 
-## Koulutuksen päätelmä
+## Koulutuksen yhteenveto
+
 
 <chapterId>a65a571c-561b-5e1c-87bf-494644653c22</chapterId>
 ![video en](https://youtu.be/coaskEGRjiU)

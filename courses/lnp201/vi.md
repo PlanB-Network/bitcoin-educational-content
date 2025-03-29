@@ -58,8 +58,6 @@ Sẵn sàng khám phá các cơ chế kỹ thuật của Lightning Network? Hãy
 ![video en](https://youtu.be/QDQ8NG0l3hk)
 
 
-Chào mừng bạn đến với khóa học LNP201, mục tiêu là giải thích về cách thức kỹ thuật của Lightning Network.
-
 Lightning Network là một mạng lưới các kênh thanh toán được xây dựng trên cơ sở giao thức Bitcoin, nhằm mục đích cho phép thực hiện các giao dịch nhanh chóng và với chi phí thấp. Nó cho phép tạo ra các kênh thanh toán giữa các bên tham gia, trong đó các giao dịch có thể được thực hiện gần như ngay lập tức và với phí rất thấp, mà không cần phải ghi lại từng giao dịch riêng lẻ trên blockchain. Như vậy, Lightning Network tìm cách cải thiện khả năng mở rộng của Bitcoin và làm cho nó có thể sử dụng cho các khoản thanh toán giá trị thấp.
 
 Trước khi khám phá "mạng lưới", điều quan trọng là phải hiểu về khái niệm **kênh thanh toán** trên Lightning, cách nó hoạt động và các đặc điểm cụ thể của nó. Đây là chủ đề của chương đầu tiên này.
@@ -955,7 +953,8 @@ Trong chương tiếp theo, tôi đề xuất xem lại các khái niệm quan t
 
 <partId>6bbf107d-a224-5916-9f0c-2b4d30dd0b17</partId>
 
-## Kết Luận Đào Tạo
+## Tóm tắt khóa học
+
 
 <chapterId>a65a571c-561b-5e1c-87bf-494644653c22</chapterId>
 ![video en](https://youtu.be/coaskEGRjiU)

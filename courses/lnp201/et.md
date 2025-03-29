@@ -58,8 +58,6 @@ Kas olete valmis avastama Lightning Networki tehnilisi mehhanisme? Alustame!
 ![video en](https://youtu.be/QDQ8NG0l3hk)
 
 
-Tere tulemast LNP201 kursusele, mille eesmärk on selgitada Lightning Network'i tehnilist toimimist.
-
 Lightning Network on maksekanalite võrk, mis on ehitatud Bitcoin'i protokolli peale, eesmärgiga võimaldada kiireid ja madala tasuga tehinguid. See võimaldab luua maksekanaleid osalejate vahel, mille sees saab tehinguid teha peaaegu koheselt ja minimaalsete tasudega, ilma et iga tehingut oleks vaja eraldi plokiahelas salvestada. Seega püüab Lightning Network parandada Bitcoin'i skaleeritavust ja muuta selle kasutatavaks madala väärtusega maksete jaoks.
 
 Enne "võrgu" aspekti uurimist on oluline mõista Lightning'il maksekanali kontseptsiooni, kuidas see toimib ja selle eripärasid. See on selle esimese peatüki teema.
@@ -949,7 +947,8 @@ Järgmises peatükis pakun üle vaadata selle koolituse kõige olulisemad kontse
 
 <partId>6bbf107d-a224-5916-9f0c-2b4d30dd0b17</partId>
 
-## Koolituse järeldus
+## Koolituse kokkuvõte
+
 
 <chapterId>a65a571c-561b-5e1c-87bf-494644653c22</chapterId>
 ![video en](https://youtu.be/coaskEGRjiU)

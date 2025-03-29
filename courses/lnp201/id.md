@@ -58,8 +58,6 @@ Siap untuk mengungkap mekanisme teknis dari Lightning Network? Mari kita mulai!
 ![video en](https://youtu.be/QDQ8NG0l3hk)
 
 
-Selamat datang di kursus LNP201, yang bertujuan untuk menjelaskan fungsi teknis dari Jaringan Lightning.
-
 Jaringan Lightning adalah jaringan saluran pembayaran yang dibangun di atas protokol Bitcoin, bertujuan untuk memungkinkan transaksi cepat dan biaya rendah. Ini memungkinkan pembuatan saluran pembayaran antar peserta, di mana transaksi dapat dilakukan hampir secara instan dan dengan biaya minimal, tanpa harus mencatat setiap transaksi secara individu di blockchain. Dengan demikian, Jaringan Lightning berusaha untuk meningkatkan skalabilitas Bitcoin dan membuatnya dapat digunakan untuk pembayaran nilai rendah.
 
 Sebelum menjelajahi aspek "jaringan", penting untuk memahami konsep **saluran pembayaran** di Lightning, bagaimana cara kerjanya, dan spesifikasinya. Ini adalah subjek dari bab pertama ini.
@@ -952,7 +950,8 @@ Di bab selanjutnya, saya mengusulkan untuk meninjau konsep-konsep paling penting
 
 <partId>6bbf107d-a224-5916-9f0c-2b4d30dd0b17</partId>
 
-## Kesimpulan Pelatihan
+## Ringkasan Pelatihan
+
 
 <chapterId>a65a571c-561b-5e1c-87bf-494644653c22</chapterId>
 ![video en](https://youtu.be/coaskEGRjiU)

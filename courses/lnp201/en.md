@@ -58,7 +58,6 @@ Ready to uncover the technical mechanisms of the Lightning Network? Let’s dive
 
 ![video en](https://youtu.be/QDQ8NG0l3hk)
 
-Welcome to the LNP201 course, which aims to explain the technical functioning of the Lightning Network.
 
 The Lightning Network is a network of payment channels built on top of the Bitcoin protocol, aiming to enable fast and low-cost transactions. It allows the creation of payment channels between participants, within which transactions can be made almost instantly and with minimal fees, without having to record each transaction individually on the blockchain. Thus, the Lightning Network seeks to improve Bitcoin's scalability and make it usable for low-value payments.
 
@@ -973,7 +972,8 @@ In the next chapter, I propose to review the most important concepts of this tra
 
 <partId>6bbf107d-a224-5916-9f0c-2b4d30dd0b17</partId>
 
-## Training Conclusion
+## Course Summary
+
 
 <chapterId>a65a571c-561b-5e1c-87bf-494644653c22</chapterId>
 

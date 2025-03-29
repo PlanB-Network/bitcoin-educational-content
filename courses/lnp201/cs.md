@@ -58,8 +58,6 @@ Připraveni objevit technické mechanismy Lightning Network? Pojďme na to!
 ![video en](https://youtu.be/QDQ8NG0l3hk)
 
 
-Vítejte v kurzu LNP201, jehož cílem je vysvětlit technické fungování Lightning Network.
-
 Lightning Network je síť platebních kanálů postavená na protokolu Bitcoinu, která má umožnit rychlé a nízkonákladové transakce. Umožňuje vytváření platebních kanálů mezi účastníky, v rámci kterých mohou být transakce prováděny téměř okamžitě a s minimálními poplatky, aniž by bylo nutné zaznamenávat každou transakci jednotlivě na blockchainu. Tímto způsobem se Lightning Network snaží zlepšit škálovatelnost Bitcoinu a učinit jej použitelným pro platby nízké hodnoty.
 
 Před prozkoumáním aspektu "sítě" je důležité pochopit koncept **platebního kanálu** na Lightning, jak funguje a jeho specifika. To je předmětem této první kapitoly.
@@ -943,7 +941,7 @@ V další kapitole navrhuji projít nejdůležitější koncepty tohoto školen�
 
 <partId>6bbf107d-a224-5916-9f0c-2b4d30dd0b17</partId>
 
-## Závěr školení
+## Shrnutí školení
 
 <chapterId>a65a571c-561b-5e1c-87bf-494644653c22</chapterId>
 ![video en](https://youtu.be/coaskEGRjiU)

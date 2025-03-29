@@ -58,8 +58,6 @@ Klar til å oppdage de tekniske mekanismene i Lightning Network? La oss sette i 
 ![video en](https://youtu.be/QDQ8NG0l3hk)
 
 
-Velkommen til LNP201-kurset, som har som mål å forklare den tekniske funksjonen til Lightning Network.
-
 Lightning Network er et nettverk av betalingskanaler bygget på toppen av Bitcoin-protokollen, med mål om å muliggjøre raske og kostnadseffektive transaksjoner. Det tillater opprettelsen av betalingskanaler mellom deltakere, hvor transaksjoner kan gjøres nesten øyeblikkelig og med minimale gebyrer, uten å måtte registrere hver transaksjon individuelt på blockchainen. Dermed søker Lightning Network å forbedre Bitcoins skalerbarhet og gjøre den brukbar for betalinger av lav verdi.
 
 Før vi utforsker "nettverks"-aspektet, er det viktig å forstå konseptet med en **betalingskanal** på Lightning, hvordan den fungerer, og dens spesifikasjoner. Dette er temaet for dette første kapittelet.
@@ -948,7 +946,8 @@ I neste kapittel foreslår jeg å gjennomgå de viktigste konseptene fra denne o
 
 <partId>6bbf107d-a224-5916-9f0c-2b4d30dd0b17</partId>
 
-## Opplæringens Konklusjon
+## Sammendrag av opplæringen
+
 
 <chapterId>a65a571c-561b-5e1c-87bf-494644653c22</chapterId>
 ![video en](https://youtu.be/coaskEGRjiU)

@@ -24,41 +24,30 @@ Se avete bisogno di aiuto per il vostro progetto, è stato creato un gruppo Tele
 
 <partId>a99dc130-3650-563f-8d42-a0b5160af0ab</partId>
 
-## Benvenuti!
+## Panoramica del corso
 
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
-Benvenuti in MINING 201: un'introduzione al mining. Ajelex, Jim & Rogzy sono felici di accompagnarvi nei vostri primi passi concreti in questa nuova industria. Speriamo che il corso vi piaccia e che vi uniate all'avventura del mining casalingo!
+Benvenuto al corso MIN201: Introduzione al mining. Ajelex, Jim & Rogzy sono lieti di guidarti nei tuoi primi passi in questo settore. Speriamo che il corso sia di tuo gradimento e che tu possa iniziare l'avventura del home mining!
 
-### Panoramica del corso
+Questo corso ti porta nel cuore dell'industria del mining di Bitcoin offrendoti una comprensione degli aspetti teorici e pratici. Che tu sia un principiante o abbia già familiarità con l'argomento, questo percorso ti permetterà di comprendere le sfide economiche e tecniche legate al mining, realizzando al contempo un progetto pratico di riutilizzo di un ASIC per il riscaldamento domestico.
 
-In questo corso, la prima sezione sarà dedicata alla teoria del mining con Ajelex. Discuteremo approfonditamente dei vari argomenti legati al mining, il che ci permetterà di comprendere meglio questa industria e le sfide economiche e geopolitiche ad essa legate.
+**Sezione 2: Tutto sul mining**  
+In questa sezione ti forniremo una comprensione approfondita del mining di Bitcoin. Tratteremo il funzionamento tecnico del mining, il suo ruolo nel protocollo Bitcoin e le sue implicazioni economiche e geopolitiche. Scoprirai anche la complessa relazione tra il prezzo del bitcoin e l'hashrate, così come le problematiche legate alla sovranità e alla regolamentazione del settore.
 
-Nella seconda sezione, ci immergeremo in un affascinante caso pratico, imparando a trasformare un vecchio minatore S9 in un riscaldamento ausiliario per la casa. Grazie a guide scritte e video, tutti i passaggi necessari saranno spiegati in dettaglio, garantendo il successo del vostro progetto innovativo.
+**Sezione 3: Home mining e riutilizzo del calore**  
+Passeremo quindi all'applicazione pratica con il concetto di Attakai, che mira a democratizzare l'home mining trasformando i miner S9 usati in dispositivi di riscaldamento domestico. Imparerai come acquistare e modificare un ASIC usato, preparando l'attrezzatura necessaria per le modifiche hardware.
 
-Questo viaggio di apprendimento vi mostrerà che l'industria del mining è più complessa di quanto sembri, offrendo una prospettiva equilibrata sul dibattito ecologico ad essa legato. Un supporto continuo sarà disponibile tramite un gruppo Telegram dedicato agli studenti e tutti i componenti necessari saranno facilmente accessibili sulla nostra piattaforma di e-commerce.
+**Sezione 4: Attakai - Modifica del software di un Antminer S9**  
+Qui imparerai come configurare il tuo Antminer S9 per l'uso domestico. Ti guideremo attraverso i passaggi per configurare un bridge Wi-Fi/Ethernet, resettare il tuo dispositivo, installare BraiinsOS+ e ottimizzarlo per il mining.
 
-### Curriculum:
+**Sezione 5: Attakai - Modifica delle ventole**  
+Per ottimizzare il tuo Antminer S9 come sistema di riscaldamento ausiliario, questa sezione ti insegnerà come sostituire le ventole dell'alimentazione e le ventole principali. Queste modifiche sono essenziali per ridurre il rumore e migliorare l'efficienza termica del dispositivo.
 
-Sezione Teorica:
+**Sezione 6: Attakai - Configurazione**  
+Infine, imparerai come unirti a un pool di mining e ottimizzare le prestazioni del tuo Antminer S9. Scoprirai come raggiungere un'efficienza energetica ottimale e minare i tuoi primi satoshi in modo efficace.
 
-- Spiegazione del mining.
-- L'industria del mining.
-- Le sfumature dell'industria del mining.
-- Il mining nel protocollo bitcoin.
-- Prezzo del bitcoin e hashrate, una correlazione? Sovranità e regolamentazione
-- Intervista a un professionista dell'industria del mining
-
-Sezione Pratica: Attakai
-
-- Introduzione ad Attakai.
-- Guida all'acquisto.
-- Modifica del software di un Antminer S9.
-- Sostituzione delle ventole per ridurre il rumore.
-- Configurazione di una pool.
-- Configurazione di un Antminer S9 con Braiins OS+.
-
-Pronti per iniziare questa avventura affascinante? Tuffiamoci insieme nel mondo affascinante del mining casalingo!
+Pronto a scoprire il mondo del mining di Bitcoin e affrontare la sfida pratica di Attakai? Cominciamo!
 
 # Conoscere tutto sul mining
 

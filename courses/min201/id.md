@@ -24,41 +24,31 @@ Jika Anda memerlukan bantuan dengan pengaturan Anda, sebuah grup Telegram telah 
 
 <partId>a99dc130-3650-563f-8d42-a0b5160af0ab</partId>
 
-## Selamat Datang!
+## Gambaran Umum Kursus
 
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
-Selamat datang di MINING 201: pengantar tentang penambangan. Ajelex, Jim & Rogzy senang menemani Anda dalam langkah konkret pertama Anda di industri baru ini. Kami berharap Anda menikmati kursus ini dan bergabung dalam petualangan penambangan rumahan!
+Selamat datang di kursus MIN201: Pengantar Penambangan. Ajelex, Jim & Rogzy sangat senang untuk membimbing Anda dalam langkah pertama Anda di industri ini. Kami berharap Anda menikmati kursus ini dan memulai petualangan home mining!
 
-### Ikhtisar Kursus
+Pelatihan ini membawa Anda ke inti industri penambangan Bitcoin dengan menawarkan pemahaman tentang aspek teoretis dan praktis. Apakah Anda pemula atau sudah terbiasa dengan topik ini, kursus ini akan membantu Anda memahami tantangan ekonomi dan teknis yang terkait dengan penambangan, sambil menyelesaikan proyek praktis menggunakan ASIC untuk pemanasan rumah.
 
-Dalam kursus ini, bagian pertama akan berfokus pada teori penambangan bersama Ajelex. Kami akan memiliki diskusi mendalam tentang berbagai topik terkait penambangan, yang akan membantu kita lebih memahami industri ini dan isu-isu ekonomi serta geopolitik yang terkait dengannya.
+**Bagian 2: Semua Tentang Penambangan**  
+Di bagian ini, kami akan memberikan pemahaman mendalam tentang penambangan Bitcoin. Kami akan membahas cara kerja teknis penambangan, perannya dalam protokol Bitcoin, serta implikasi ekonominya dan geopolitiknya. Anda juga akan mempelajari hubungan kompleks antara harga bitcoin dan hashrate, serta tantangan terkait kedaulatan dan regulasi dalam industri ini.
 
-Di bagian kedua, kita akan memulai kasus praktis yang menarik, belajar cara mengubah penambang S9 bekas menjadi sistem pemanas rumah. Melalui panduan tertulis dan video, semua langkah yang diperlukan akan dijelaskan secara rinci, memastikan keberhasilan Anda dalam proyek inovatif ini.
+**Bagian 3: Home Mining dan Penggunaan Panas Kembali**  
+Selanjutnya, kami akan mempelajari aplikasi praktis dengan konsep Attakai, yang bertujuan untuk mendemokratisasikan home mining dengan mengubah penambang S9 bekas menjadi perangkat pemanas rumah. Anda akan belajar cara membeli dan memodifikasi ASIC bekas, serta menyiapkan peralatan yang diperlukan untuk modifikasi perangkat keras.
 
-Perjalanan belajar ini akan menunjukkan kepada Anda bahwa industri penambangan lebih kompleks dari yang tampak, menawarkan perspektif seimbang tentang debat ekologis yang terkait dengannya. Bantuan berkelanjutan akan tersedia melalui grup Telegram khusus untuk siswa, dan semua komponen yang diperlukan akan mudah diakses di platform e-commerce kami.
+**Bagian 4: Attakai - Modifikasi Perangkat Lunak Antminer S9**  
+Di sini, Anda akan belajar cara mengonfigurasi Antminer S9 Anda untuk penggunaan di rumah. Kami akan memandu Anda melalui pengaturan jembatan Wi-Fi/Ethernet, mereset perangkat, menginstal BraiinsOS+, dan mengoptimalkannya untuk penambangan.
 
-### Kurikulum:
+**Bagian 5: Attakai - Modifikasi Kipas**  
+Untuk mengoptimalkan Antminer S9 Anda sebagai alat pemanas tambahan, bagian ini akan mengajarkan Anda cara mengganti kipas power supply dan kipas utama. Modifikasi ini sangat penting untuk mengurangi kebisingan dan meningkatkan efisiensi termal perangkat.
 
-Bagian Teoritis:
+**Bagian 6: Attakai - Pengaturan**  
+Terakhir, Anda akan belajar cara bergabung dengan pool penambangan dan mengoptimalkan kinerja Antminer S9 Anda. Anda akan menemukan cara mencapai efisiensi energi optimal dan menambang satoshi pertama Anda secara efektif.
 
-- Penjelasan tentang penambangan.
-- Industri penambangan.
-- Nuansa industri penambangan.
-- Penambangan dalam protokol Bitcoin.
-- Harga Bitcoin dan Hashrate, sebuah Korelasi? Kedaulatan dan Regulasi
-- Wawancara dengan Profesional Industri Penambangan
+Siap untuk menjelajahi dunia penambangan Bitcoin dan menghadapi tantangan praktis dari Attakai? Mari kita mulai!
 
-Bagian Praktis: Attakai
-
-- Pengantar tentang Attakai.
-- Panduan Pembelian.
-- Memodifikasi Perangkat Lunak Antminer S9.
-- Mengganti Kipas untuk Mengurangi Kebisingan.
-- Konfigurasi Pool.
-- Mengonfigurasi Antminer S9 dengan Braiins OS+.
-
-Siap untuk memulai petualangan menarik ini? Mari kita menyelam bersama ke dalam dunia penambangan rumahan yang menarik!
 
 # Semua yang Anda Perlu Tahu Tentang Penambangan
 

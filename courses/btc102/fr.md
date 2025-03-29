@@ -25,7 +25,7 @@ Structuré de façon à vous laisser pleinement maître de votre apprentissage, 
 
 <partId>008c49b7-5e17-5973-87f2-ba28429b2697</partId>
 
-## Présentation de la formation
+## Aperçu du cours
 
 <chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 
@@ -61,7 +61,7 @@ Enfin, la quatrième partie, "Protéger ses héritiers et son patrimoine", abord
 
 À l'issue de cette formation, vous disposerez de toutes les clés pratiques nécessaires pour évoluer sereinement dans l’écosystème Bitcoin et figurer ainsi parmi les utilisateurs les plus avancés !
 
-Bonne chance dans votre parcours !
+Prêt à débuter votre parcours dans le monde de Bitcoin ? Allons-y !  
 
 # Prérequis pour comprendre Bitcoin
 

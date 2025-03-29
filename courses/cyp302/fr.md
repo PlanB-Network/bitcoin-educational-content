@@ -22,15 +22,16 @@ Cette introduction à la cryptographie cherche à se situer à mi-chemin. Bien q
 
 <partId>bbed2f46-d64c-5fb5-b892-d726032f2494</partId>
 
-## Brève description
+## Aperçu du cours
 
 <chapterId>bb8a8b73-7fb2-50da-bf4e-98996d79887b</chapterId>
+Bienvenue dans le cours CYP302 !
 
 Ce livre propose une introduction approfondie à la science et à la pratique de la cryptographie. Dans la mesure du possible, il se concentre sur l'exposition conceptuelle plutôt que formelle de la matière.
 
 > Ce cours est basé sur [le dépôt de JWBurgers](https://github.com/JWBurgers/An_Introduction_to_Cryptography). Les droits d'auteur lui appartiennent. Le contenu n'est pas encore terminé et n'est là que pour montrer comment nous pourrions l'intégrer si JWburger est d'accord.
 
-### Motivation et objectifs
+**Motivation et objectifs**
 
 Il est difficile de trouver beaucoup de matériel qui offre un juste milieu dans l'enseignement de la cryptographie.
 
@@ -38,11 +39,11 @@ D'une part, il existe de longs traités formels qui ne sont accessibles qu'aux p
 
 Cette introduction à la cryptographie cherche à se situer à mi-chemin. Bien qu'elle soit relativement stimulante et détaillée pour toute personne débutant dans le domaine de la cryptographie, elle n'est pas le trou du lapin d'un traité fondamental typique.
 
-### Public cible
+**Public cible**
 
 Des développeurs aux personnes intellectuellement curieuses, ce livre est utile à tous ceux qui veulent plus qu'une compréhension superficielle de la cryptographie. Si votre objectif est de maîtriser le domaine de la cryptographie, ce livre est également un bon point de départ.
 
-### Guide de lecture
+**Guide de lecture**
 
 Le livre contient actuellement sept chapitres : "Qu'est-ce que la cryptographie ?" (partie 2), "Fondements mathématiques de la cryptographie I" (partie 3), "Fondements mathématiques de la cryptographie II" (partie 4), "Cryptographie symétrique" (partie 5), "RC4 et AES" (partie 6), "Cryptographie asymétrique" (partie 7) et "Le système cryptographique RSA" (partie 8). Un dernier chapitre, "La cryptographie en pratique", sera encore ajouté. Il se concentre sur diverses applications cryptographiques, notamment la sécurité de la couche transport, le routage en oignon et le système d'échange de valeur de Bitcoin.
 
@@ -50,7 +51,7 @@ Le livre contient actuellement sept chapitres : "Qu'est-ce que la cryptographie 
 
 Si vous avez vraiment du mal avec les détails formels de ces parties du livre, je vous recommande de vous contenter d'une lecture de haut niveau la première fois.
 
-### Remerciements
+**Remerciements**
 
 L'ouvrage qui a le plus influencé la conception de ce cours est _Introduction to Modern Cryptography_ de Jonathan Katz et Yehuda Lindell, CRC Press (Boca Raton, FL), 2015. Un cours d'accompagnement intitulé "Cryptography" est disponible sur Coursera
 
@@ -60,11 +61,11 @@ Je ne citerai que les informations et les résultats très spécifiques que je t
 
 Pour les lecteurs qui souhaitent acquérir des connaissances plus avancées sur la cryptographie après cette introduction, je recommande vivement le livre de Katz et Lindell. Le cours de Katz sur Coursera est un peu plus accessible que le livre.
 
-### Contributions
+**Contributions**
 
 Veuillez consulter [le fichier des contributions dans le dépôt](https://github.com/JWBurgers/An_Introduction_to_Cryptography/blob/master/Contributions.md) pour obtenir des indications sur la manière de soutenir le projet.
 
-### Notation
+**Notation**
 
 **Termes clés:**
 

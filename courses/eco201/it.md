@@ -16,29 +16,36 @@ Questa scuola di pensiero ha già diversi secoli alle spalle e ha un intero pano
 
 +++
 
-# Introduzione all'ECON
+# Introduzione
 
 <partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>
 
-## Introduzione
+## Panoramica del corso
 
 <chapterId>eae3de7b-cce6-516d-83d9-28fbd582c0ca</chapterId>
 
-Ciao a tutti e benvenuti a Econ 201: Introduzione all'Economia Austriaca.
+Benvenuto nel corso ECO201!
 
-In questo corso offerto da Théo Mogenet, scoprirete questo ramo dell'economia che differisce molto dalla dottrina keynesiana. Fino ad ora, potreste aver imparato che la produzione e la gestione del denaro erano responsabilità delle banche centrali, con l'idea che la stampa di moneta e la spesa promuovono la crescita. Tuttavia, esiste un'altra scuola di pensiero economica: l'economia austriaca. Con oltre 200 anni di ricerca e sviluppo, riflessioni filosofiche e scritti di autori rinomati, questo approccio enfatizza una visione più sobria della crescita e della razionalità umana nella nostra economia.
+In questo corso offerto da Théo Mogenet, scoprirai una scuola di pensiero economico che si distingue fondamentalmente dalla dottrina keynesiana predominante. Fino ad ora, ti potrebbe essere stato insegnato che la gestione della moneta e la politica economica sono principalmente dominio delle banche centrali, con l'idea che la stampa di moneta e la spesa pubblica stimolino la crescita economica. Tuttavia, esiste un approccio alternativo più coerente: **l'Economia Austriaca**.
 
-In realtà, l'economia è un campo estremamente sociale e complesso, composto da una miriade di piccoli attori interconnessi che contribuiscono insieme a formare un insieme coerente. Piuttosto che affrontare questa disciplina attraverso equazioni matematiche, dobbiamo comprenderla dal punto di vista della logica umana e della sociologia. In questo corso, esploreremo i concetti fondamentali dell'economia austriaca. Il vostro insegnante, Théo Mogenet, è un professore appassionato e competente di economia austriaca.
+Con oltre due secoli di ricerca, riflessioni filosofiche e scritti di autori rinomati come Carl Menger, Ludwig von Mises e Friedrich Hayek, questa scuola di pensiero adotta una prospettiva diversa, privilegiando una visione decentralizzata dell'economia, basata sull'individuo e sulla razionalità umana.
 
-Per iniziare, vi offriamo un video bonus che spiegherà come funziona il nostro attuale sistema finanziario. Scoprirete come le banche commerciali e le banche centrali interagiscono e guidano l'economia. Affronteremo i principali attori del nostro mondo finanziario e come questa centralizzazione del potere tra determinate istituzioni economiche possa portare ad abusi e crisi finanziarie.
+L'economia è, in realtà, un campo profondamente sociale e complesso, composto da numerosi attori indipendenti che interagiscono liberamente per formare un insieme coerente. Per comprendere questo sistema dinamico, l'Economia Austriaca privilegia l'analisi qualitativa, basata sulla logica umana, la sociologia e lo studio dei processi di mercato, piuttosto che su equazioni matematiche rigide.
 
-Nella seconda parte di questo corso, esamineremo la differenza tra il keynesianesimo e l'economia austriaca, esplorando le rispettive scuole di pensiero, i metodi di riflessione e gli strumenti che utilizzano per stabilire la verità economica. Studieremo anche la formazione delle crisi economiche. È dovuta all'incompetenza umana, alla manipolazione del mercato o all'euforia collettiva delle persone? Esploreremo come le nostre fasi di crescita, declino, recessione e periodo d'oro siano create dalle emozioni umane.
+In questo corso esplorerai i principi fondamentali di questa scuola di pensiero. Théo Mogenet, il tuo istruttore, è un appassionato sostenitore di questo approccio economico e ti guiderà con competenza attraverso i concetti chiave dell'Economia Austriaca, mostrando come queste idee si applicano particolarmente bene al mondo di Bitcoin.
 
-Questo corso sarà una combinazione di economia e filosofia, con una discussione aperta tra Théo e me. Se avete domande durante questo corso, non esitate a farle nel nostro Discord, di cui troverete il link nella descrizione.
+**Sezione 1: Introduzione a ECON**  
+Inizieremo con un'introduzione generale all'Economia Austriaca, esplorando le sue origini storiche e i fondamenti del suo pensiero. Questa sezione tratta anche concetti essenziali come il denaro, il credito, le banche e le banche centrali. Capirai perché queste istituzioni svolgono un ruolo centrale nel pensiero austriaco, specialmente nella loro critica delle interferenze monetarie.
 
-Ringrazio calorosamente Théo per la realizzazione di questo corso e spero che sia un eccellente insegnante per voi. Ci siamo divertiti molto a realizzare questo contenuto. Questo corso è accessibile a tutti e sarà, penso, essenziale per seguire i nostri futuri corsi più approfonditi sull'economia. Questo corso porrà le basi necessarie per esplorare in modo più dettagliato alcune teorie economiche che toccheremo solo brevemente qui.
+**Sezione 2: Fondamenti teorici**  
+Questa sezione approfondirà i concetti fondamentali dell'Economia Austriaca, come la teoria soggettiva del valore, che spiega perché il valore di un bene non è oggettivo ma dipende dall'utilità percepita da ciascun individuo. Scoprirai anche come il denaro emerga naturalmente come fenomeno sociale, insieme ai concetti di preferenza temporale, interesse e capitale che sono al cuore della teoria del libero mercato austriaco.
 
-Se sei pronto a intraprendere questa avventura, ti invito a cliccare il video bonus sul nostro attuale sistema finanziario. Ora do la parola a Théo. Grazie a lui per la collaborazione con Descoupes Bitcoin per la realizzazione di questo video. Ci vedremo molto presto. Arrivederci!
+**Sezione 3: Prospettive economiche austriache**  
+Qui esploreremo le applicazioni pratiche della teoria austriaca. Imparerai in dettaglio la teoria austriaca del ciclo economico, che spiega come le manipolazioni monetarie provochino boomi artificiali seguiti da recessioni. Vedremo anche perché il calcolo economico è impossibile sotto un sistema socialista e come la metodologia austriaca, basata sulla prasseologia (lo studio dell'azione umana), costituisca un approccio unico e coerente per comprendere i fenomeni economici.
+
+Questo corso è una fusione tra economia e filosofia, animato da una discussione aperta tra Théo e me (Rogzy). Vorrei ringraziare calorosamente Théo Mogenet per la creazione di questo corso. È stato un piacere sviluppare questo contenuto, pensato per essere accessibile a tutti. Questo corso costituisce un'introduzione essenziale e getta le basi per i nostri futuri moduli più avanzati sull'economia.
+
+E se la chiave per comprendere l'economia attuale fosse nascosta in una teoria vecchia di diversi secoli? Scopriamolo insieme!
 
 ## Denaro, Credito, Banche e Banche Centrali
 

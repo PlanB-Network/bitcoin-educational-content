@@ -88,6 +88,8 @@ La notation formelle concerne principalement les variables, les variables aléat
 - Variables aléatoires : Elles sont toujours indiquées par une lettre majuscule (par exemple, "X" ou "Y")
 - Ensembles : Ils sont toujours indiqués par des lettres majuscules en gras (par exemple, **S**)
 
+Prêt à explorer l'univers fascinant de la cryptographie ? C'est parti !
+
 # Qu'est-ce que la cryptographie ?
 
 <partId>48e4d6d5-cd00-5c00-8adb-ae8477ff47c4</partId>

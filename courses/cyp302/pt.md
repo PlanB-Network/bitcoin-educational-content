@@ -87,6 +87,8 @@ A notação formal refere-se principalmente a variáveis, variáveis aleatórias
 - Variáveis aleatórias: São sempre indicadas por uma letra maiúscula (por exemplo, "X" ou "Y")
 - Conjuntos: São sempre indicados por letras maiúsculas e a negrito (por exemplo, **S**)
 
+Pronto para explorar o fascinante universo da criptografia? Vamos lá!
+
 # O que é a criptografia?
 
 <partId>48e4d6d5-cd00-5c00-8adb-ae8477ff47c4</partId>

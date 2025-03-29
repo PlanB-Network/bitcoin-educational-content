@@ -87,6 +87,8 @@ Muodollinen merkintätapa koskee pääasiassa muuttujia, satunnaismuuttujia ja j
 - Satunnaismuuttujat: Muuttujat: Nämä merkitään aina isolla kirjaimella (esim. "X" tai "Y")
 - Sarjat: **S**)
 
+Oletko valmis tutkimaan kryptografian kiehtovaa maailmaa? Lähdetään liikkeelle!
+
 # Mitä on kryptografia?
 
 <partId>48e4d6d5-cd00-5c00-8adb-ae8477ff47c4</partId>

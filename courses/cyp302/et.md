@@ -87,6 +87,8 @@ Formaalne notatsioon käsitleb peamiselt muutujaid, juhuslikke muutujaid ja kogu
 - Juhuslikud muutujad: Need on alati tähistatud suure tähega (nt "X" või "Y")
 - Komplektid: Need on alati tähistatud rasvaste suurtähtedega (nt **S**)
 
+Kas olete valmis uurima krüptograafia põnevat maailma? Lähme!
+
 # Mis on krüptograafia?
 
 <partId>48e4d6d5-cd00-5c00-8adb-ae8477ff47c4</partId>

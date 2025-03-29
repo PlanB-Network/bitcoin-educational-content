@@ -86,6 +86,8 @@ Ký hiệu chính thức chủ yếu liên quan đến các biến, biến ngẫ
 - Biến ngẫu nhiên: Biến này luôn được biểu thị bằng chữ cái viết hoa (ví dụ: "X" hoặc "Y")
 - Bộ: Những bộ này luôn được biểu thị bằng chữ in hoa đậm (ví dụ: **S**)
 
+Sẵn sàng khám phá thế giới hấp dẫn của mật mã học chưa? Đi thôi!
+
 # Mật mã học là gì?
 
 <partId>48e4d6d5-cd00-5c00-8adb-ae8477ff47c4</partId>

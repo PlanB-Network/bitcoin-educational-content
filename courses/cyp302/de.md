@@ -87,6 +87,8 @@ Die formale Notation betrifft hauptsächlich Variablen, Zufallsvariablen und Men
 - Zufallsvariablen: Diese werden immer mit einem Großbuchstaben gekennzeichnet (z. B. "X" oder "Y")
 - Gruppen: Diese sind immer durch fette Großbuchstaben gekennzeichnet (z. B. **S**)
 
+Bereit, die faszinierende Welt der Kryptographie zu erkunden? Los geht's!
+
 # Was ist Kryptographie?
 
 <partId>48e4d6d5-cd00-5c00-8adb-ae8477ff47c4</partId>

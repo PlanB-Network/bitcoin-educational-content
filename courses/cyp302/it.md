@@ -87,6 +87,8 @@ La notazione formale riguarda principalmente variabili, variabili casuali e insi
 - Variabili casuali: Sono sempre indicate con una lettera maiuscola (ad esempio, "X" o "Y")
 - Insiemi: Sono sempre indicati con lettere maiuscole e in grassetto (ad esempio, **S**)
 
+Pronto a esplorare l'affascinante universo della crittografia? Andiamo!
+
 # Che cos'è la crittografia?
 
 <partId>48e4d6d5-cd00-5c00-8adb-ae8477ff47c4</partId>

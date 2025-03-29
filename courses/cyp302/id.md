@@ -87,6 +87,8 @@ Notasi formal terutama berkaitan dengan variabel, variabel acak, dan himpunan.
 - Variabel acak: Variabel ini selalu ditandai dengan huruf besar (misalnya, "X" atau "Y")
 - Set: Ini selalu ditunjukkan dengan huruf tebal, huruf besar (misalnya, **S**)
 
+Siap menjelajahi dunia menarik dari kriptografi? Ayo mulai!
+
 # Apa itu Kriptografi?
 
 <partId>48e4d6d5-cd00-5c00-8adb-ae8477ff47c4</partId>

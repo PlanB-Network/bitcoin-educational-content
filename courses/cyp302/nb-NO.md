@@ -87,6 +87,8 @@ Den formelle notasjonen gjelder hovedsakelig variabler, tilfeldige variabler og 
 - Tilfeldige variabler: Disse angis alltid med en stor bokstav (f.eks. "X" eller "Y")
 - Sett: Disse er alltid angitt med fete, store bokstaver (f.eks. **S**)
 
+Klar til å utforske den fascinerende verdenen av kryptografi? La oss gå!
+
 # Hva er kryptografi?
 
 <partId>48e4d6d5-cd00-5c00-8adb-ae8477ff47c4</partId>

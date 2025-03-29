@@ -92,6 +92,7 @@ The formal notation mainly concerns variables, random variables, and sets.
 * Random variables: These are always indicated by an uppercase letter (e.g., "X" or "Y")
 * Sets: These are always indicated by bold, upper-case letters (e.g., **S**)
 
+Ready to explore the fascinating world of cryptography? Let's go!
 
 # What is Cryptography?
 <partId>48e4d6d5-cd00-5c00-8adb-ae8477ff47c4</partId>

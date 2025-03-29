@@ -87,6 +87,8 @@ Formální zápis se týká především proměnných, náhodných veličin a mn
 - Náhodné proměnné: Jsou vždy označeny velkým písmenem (např. "X" nebo "Y")
 - Sady: Jsou vždy označeny tučnými velkými písmeny (např. **S**)
 
+Připraveni prozkoumat fascinující svět kryptografie? Jdeme na to!
+
 # Co je to kryptografie?
 
 <partId>48e4d6d5-cd00-5c00-8adb-ae8477ff47c4</partId>

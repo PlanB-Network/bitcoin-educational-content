@@ -70,6 +70,8 @@ https://planb.network/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
 - Maxim Orlovsky、Hunter Trujilo 和 Frederico Tenga 在 Lightning Bootcamp 研讨会上的视频；
 - RGB 文件由 [Bitfinex](https://www.bitfinex.com/) 赞助制作。
 
+准备好探索复杂而迷人的RGB世界了吗？让我们开始吧！
+
 # 理论上的 RGB
 
 <partId>80e797ee-3f33-599f-ab82-e82eeee08219</partId>

@@ -69,6 +69,8 @@ Phiên bản viết của khóa đào tạo này được soạn thảo bằng c
 - Video hội thảo của Maxim Orlovsky, Hunter Trujilo và Frederico Tenga tại Lightning Bootcamp;
 - Tài liệu RGB, được tài trợ bởi [Bitfinex](https://www.bitfinex.com/).
 
+Sẵn sàng khám phá thế giới phức tạp và hấp dẫn của RGB chưa? Đi thôi!
+
 # RGB về mặt lý thuyết
 
 <partId>80e797ee-3f33-599f-ab82-e82eeee08219</partId>

@@ -70,6 +70,8 @@ https://planb.network/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
 - Видеозаписи семинара Максима Орловского, Хантера Трухило и Фредерико Тенги на Lightning Bootcamp ;
 - Документация RGB, выпуск которой спонсировала компания [Bitfinex](https://www.bitfinex.com/).
 
+Готовы погрузиться в сложный и увлекательный мир RGB? Вперёд!
+
 # RGB в теории
 
 <partId>80e797ee-3f33-599f-ab82-e82eeee08219</partId>

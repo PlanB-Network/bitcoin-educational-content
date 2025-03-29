@@ -70,6 +70,8 @@ Selle koolituskursuse kirjaliku versiooni koostamisel kasutati 2 peamist allikat
 - Videod Maxim Orlovsky, Hunter Trujilo ja Frederico Tenga seminarist Lightning Bootcampis ;
 - RGB dokumentatsioon, mille koostamist sponsoreeris [Bitfinex](https://www.bitfinex.com/).
 
+Kas olete valmis sukelduma RGB keerukasse ja põnevasse maailma? Lähme!
+
 # RGB teoreetiliselt
 
 <partId>80e797ee-3f33-599f-ab82-e82eeee08219</partId>

@@ -70,6 +70,8 @@ A versão escrita deste curso de formação foi elaborada com base em dois recur
 - Vídeos do seminário de Maxim Orlovsky, Hunter Trujilo e Frederico Tenga no Lightning Bootcamp ;
 - A documentação RGB, cuja produção foi patrocinada pela [Bitfinex] (https://www.bitfinex.com/).
 
+Pronto para mergulhar no universo complexo e fascinante do RGB? Vamos lá!
+
 # RGB em teoria
 
 <partId>80e797ee-3f33-599f-ab82-e82eeee08219</partId>

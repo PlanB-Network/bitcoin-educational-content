@@ -70,6 +70,8 @@ Písemná verze tohoto vzdělávacího kurzu byla vypracována s využitím 2 hl
 - Videa ze semináře Maxima Orlovského, Huntera Trujila a Frederica Tengy na Lightning Bootcampu ;
 - Dokumentace RGB, jejíž výrobu sponzorovala společnost [Bitfinex](https://www.bitfinex.com/).
 
+Připraveni ponořit se do složitého a fascinujícího světa RGB? Jdeme na to!
+
 # Teoreticky RGB
 
 <partId>80e797ee-3f33-599f-ab82-e82eeee08219</partId>

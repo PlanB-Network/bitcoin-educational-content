@@ -21,7 +21,7 @@ Da Renascença ao Iluminismo, o curso examina o surgimento da liberdade, marcado
 
 <partId>e59475e9-3ae4-5e66-a17e-218de0281b06</partId>
 
-## Introdução: Existem apenas duas filosofias políticas
+## Só existem duas filosofias políticas
 
 <chapterId>ffa60c0d-ee2b-575d-a4ac-4e9ccdad396f</chapterId>
 

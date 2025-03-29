@@ -21,7 +21,7 @@ Từ Phục Hưng đến thời kỳ Khai Sáng, khóa học xem xét sự nổi
 
 <partId>e59475e9-3ae4-5e66-a17e-218de0281b06</partId>
 
-## Giới thiệu: Chỉ có hai triết lý chính trị
+## Chỉ có hai triết lý chính trị
 
 <chapterId>ffa60c0d-ee2b-575d-a4ac-4e9ccdad396f</chapterId>
 

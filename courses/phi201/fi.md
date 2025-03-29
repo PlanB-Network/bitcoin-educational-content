@@ -21,7 +21,7 @@ Renessanssista valistukseen kurssi tutkii vapauden nousua, jota leimasivat uskon
 
 <partId>e59475e9-3ae4-5e66-a17e-218de0281b06</partId>
 
-## Johdanto: Vain kaksi poliittista filosofiaa
+## On vain kaksi poliittista filosofiaa
 
 <chapterId>ffa60c0d-ee2b-575d-a4ac-4e9ccdad396f</chapterId>
 

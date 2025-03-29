@@ -21,7 +21,7 @@ De la Renaissance aux Lumières, le cours examine la montée de la liberté, mar
 
 <partId>e59475e9-3ae4-5e66-a17e-218de0281b06</partId>
 
-## Introduction: Il n’y a que deux philosophies politiques
+## Il n’y a que deux philosophies politiques
 
 <chapterId>ffa60c0d-ee2b-575d-a4ac-4e9ccdad396f</chapterId>
 

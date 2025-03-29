@@ -21,7 +21,7 @@ Dalla Rinascita all'Illuminismo, il corso esamina l'ascesa della libertà, segna
 
 <partId>e59475e9-3ae4-5e66-a17e-218de0281b06</partId>
 
-## Introduzione: Esistono solo due filosofie politiche
+## Esistono solo due filosofie politiche
 
 <chapterId>ffa60c0d-ee2b-575d-a4ac-4e9ccdad396f</chapterId>
 

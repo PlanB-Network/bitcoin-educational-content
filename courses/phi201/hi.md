@@ -19,7 +19,7 @@ objectives:
 
 <partId>e59475e9-3ae4-5e66-a17e-218de0281b06</partId>
 
-## परिचय: केवल दो ही राजनीतिक दर्शन होते हैं।
+## केवल दो राजनीतिक दर्शन हैं
 
 <chapterId>ffa60c0d-ee2b-575d-a4ac-4e9ccdad396f</chapterId>
 

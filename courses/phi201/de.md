@@ -21,7 +21,7 @@ Von der Renaissance bis zur Aufklärung untersucht der Kurs den Aufstieg der Fre
 
 <partId>e59475e9-3ae4-5e66-a17e-218de0281b06</partId>
 
-## Einführung: Es gibt nur zwei politische Philosophien
+## Es gibt nur zwei politische Philosophien
 
 <chapterId>ffa60c0d-ee2b-575d-a4ac-4e9ccdad396f</chapterId>
 

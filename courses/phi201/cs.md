@@ -21,7 +21,7 @@ Od renesance po osvícenství kurz zkoumá vzestup svobody, označený nábožen
 
 <partId>e59475e9-3ae4-5e66-a17e-218de0281b06</partId>
 
-## Úvod: Existují pouze dvě politické filozofie
+## Existují pouze dvě politické filozofie
 
 <chapterId>ffa60c0d-ee2b-575d-a4ac-4e9ccdad396f</chapterId>
 

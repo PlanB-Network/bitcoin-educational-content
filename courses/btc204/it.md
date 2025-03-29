@@ -77,6 +77,7 @@ Nella quinta sezione, daremo un'occhiata a tutte le altre tecniche disponibili p
 Analizzeremo anche la privacy a livello di rete di nodi e di diffusione delle transazioni. Discuteremo anche i vari protocolli che sono stati proposti nel corso degli anni per migliorare la privacy degli utenti su Bitcoin, compresi i protocolli di indirizzo statico.
 
 ![BTC204](assets/fr/005.webp)
+Pronto a esplorare i meandri della privacy su Bitcoin? Andiamo!
 
 # Definizioni e concetti chiave
 

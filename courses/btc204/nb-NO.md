@@ -77,6 +77,7 @@ I den femte delen tar vi en titt på alle de andre teknikkene som er tilgjengeli
 Vi ser også på personvern på nettverksnivå med noder og transaksjonsformidling. Vi diskuterer også de ulike protokollene som har blitt foreslått opp gjennom årene for å forbedre brukernes personvern på Bitcoin, inkludert statiske adresseprotokoller.
 
 ![BTC204](assets/fr/005.webp)
+Klar til å utforske de intrikate aspektene ved personvern på Bitcoin? La oss gå!
 
 # Definisjoner og nøkkelbegreper
 

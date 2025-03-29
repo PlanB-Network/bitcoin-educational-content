@@ -77,6 +77,8 @@ Nous aborderons également la confidentialité au niveau du réseau de nœuds et
 
 ![BTC204](assets/fr/005.webp)
 
+Prêt à explorer les méandres de la confidentialité sur Bitcoin ? Allons-y !  
+
 # Définitions et concepts clés
 <partId>b9bbbde3-34c0-4851-83e8-e2ffb029cf31</partId>
 

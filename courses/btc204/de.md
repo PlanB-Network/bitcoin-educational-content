@@ -77,6 +77,7 @@ Im fünften Abschnitt werfen wir einen Blick auf all die anderen Techniken, die 
 Wir werden auch die Privatsphäre auf der Ebene des Netzwerks der Knoten und der Transaktionsverbreitung betrachten. Wir werden auch die verschiedenen Protokolle diskutieren, die im Laufe der Jahre vorgeschlagen wurden, um die Privatsphäre der Nutzer von Bitcoin zu verbessern, einschließlich statischer Adressprotokolle.
 
 ![BTC204](assets/fr/005.webp)
+Bereit, die Tiefen der Privatsphäre bei Bitcoin zu erkunden? Los geht's!
 
 # Definitionen und Schlüsselbegriffe
 

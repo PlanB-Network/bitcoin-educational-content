@@ -77,6 +77,7 @@ Na quinta secção, vamos dar uma vista de olhos a todas as outras técnicas dis
 Também analisaremos a privacidade ao nível da rede de nós e da disseminação de transacções. Também discutiremos os vários protocolos que foram propostos ao longo dos anos para melhorar a privacidade do utilizador na Bitcoin, incluindo protocolos de endereço estático.
 
 ![BTC204](assets/fr/005.webp)
+Pronto para explorar os meandros da privacidade no Bitcoin? Vamos lá!
 
 # Definições e conceitos-chave
 

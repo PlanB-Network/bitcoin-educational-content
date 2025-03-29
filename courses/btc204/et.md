@@ -77,6 +77,7 @@ Viiendas jaotises vaatleme kõiki teisi meetodeid, mis on saadaval teie privaats
 Samuti vaatleme privaatsust sõlmede võrgu ja tehingute levitamise tasandil. Samuti arutame erinevaid protokolle, mida on aastate jooksul pakutud kasutajate privaatsuse suurendamiseks Bitcoinis, sealhulgas staatiliste aadresside protokollid.
 
 ![BTC204](assets/fr/005.webp)
+Kas olete valmis uurima Bitcoini privaatsuse keerdkäike? Lähme!
 
 # Mõisted ja põhimõisted
 

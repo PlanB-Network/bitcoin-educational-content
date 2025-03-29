@@ -77,6 +77,7 @@ Trong phần thứ năm, chúng ta sẽ xem xét tất cả các kỹ thuật kh
 Chúng ta cũng sẽ xem xét quyền riêng tư ở cấp độ mạng lưới các nút và việc phân phối giao dịch. Chúng ta cũng sẽ thảo luận về các giao thức khác nhau đã được đề xuất trong nhiều năm để tăng cường quyền riêng tư của người dùng trên Bitcoin, bao gồm các giao thức địa chỉ tĩnh.
 
 ![BTC204](assets/fr/005.webp)
+Sẵn sàng khám phá những ngóc ngách về quyền riêng tư trên Bitcoin chưa? Đi thôi!
 
 # Định nghĩa và khái niệm chính
 

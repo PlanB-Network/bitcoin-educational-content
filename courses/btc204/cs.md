@@ -77,6 +77,7 @@ V páté části se podíváme na všechny ostatní dostupné techniky ochrany s
 Budeme se také zabývat soukromím na úrovni sítě uzlů a šířením transakcí. Probereme také různé protokoly, které byly v průběhu let navrženy ke zvýšení soukromí uživatelů v Bitcoinu, včetně protokolů statických adres.
 
 ![BTC204](assets/fr/005.webp)
+Připraveni prozkoumat zákoutí soukromí na Bitcoinu? Jdeme na to!
 
 # Definice a klíčové pojmy
 

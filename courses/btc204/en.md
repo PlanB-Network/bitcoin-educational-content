@@ -77,6 +77,7 @@ In the fifth section, we'll take a look at all the other techniques available to
 We'll also look at privacy at the level of the network of nodes and transaction dissemination. We'll also discuss the various protocols that have been proposed over the years to enhance user privacy on Bitcoin, including static address protocols.
 
 ![BTC204](assets/fr/005.webp)
+Ready to explore the intricacies of privacy on Bitcoin? Let's go!
 
 # Definitions and key concepts
 

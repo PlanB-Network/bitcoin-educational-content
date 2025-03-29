@@ -77,6 +77,7 @@ Pada bagian kelima, kita akan melihat semua teknik lain yang tersedia untuk meli
 Kita juga akan melihat privasi pada tingkat jaringan node dan penyebaran transaksi. Kita juga akan mendiskusikan berbagai protokol yang telah diusulkan selama bertahun-tahun untuk meningkatkan privasi pengguna Bitcoin, termasuk protokol alamat statis.
 
 ![BTC204](assets/fr/005.webp)
+Siap menjelajahi seluk-beluk privasi di Bitcoin? Ayo mulai!
 
 # Definisi dan konsep utama
 

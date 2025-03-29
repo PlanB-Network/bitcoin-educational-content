@@ -77,6 +77,7 @@ Viidennessä osiossa tarkastelemme kaikkia muita tekniikoita, joilla voit suojat
 Tarkastelemme myös yksityisyyden suojaa solmujen verkon ja tapahtumien levittämisen tasolla. Keskustelemme myös erilaisista protokollista, joita on vuosien varrella ehdotettu käyttäjien yksityisyyden suojaamiseksi Bitcoinissa, mukaan lukien staattiset osoiteprotokollat.
 
 ![BTC204](assets/fr/005.webp)
+Valmiina tutkimaan Bitcoinin yksityisyyden monimutkaisuuksia? Lähdetään liikkeelle!
 
 # Määritelmät ja keskeiset käsitteet
 

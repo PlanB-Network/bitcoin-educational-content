@@ -26,11 +26,11 @@ Théo; đóng góp
 
 <partId>534ab66c-b0e6-5757-a7dd-6ea04647edf2</partId>
 
-## Giới thiệu khóa học
+## Tổng quan về khóa học
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
-### Mục tiêu: Nâng cấp kỹ năng bảo mật của bạn!
+**Mục tiêu: Nâng cấp kỹ năng bảo mật của bạn!**
 
 Chào mừng mọi người đến với chương trình đào tạo được thiết kế riêng cho bảo mật số. Khóa học này được thiết kế để ai cũng có thể tiếp cận được, vì vậy không yêu phải có kiến thức về khoa học máy tính để tham gia. Mục tiêu chính của chúng tôi là cung cấp cho bạn những kiến thức và kỹ năng cần thiết để khám phá thế giới số một cách an toàn và riêng tư hơn.
 
@@ -46,7 +46,7 @@ Sức khoẻ số của bạn rất quan trọng trong một thế giới ngày 
 Trong khóa học này, chúng tôi không có mục tiêu biến bạn thành một chuyên gia, người ẩn danh hoặc không thể bị xâm phạm, vì điều này là không thể. Thay vào đó, chúng tôi cung cấp cho bạn một số giải pháp đơn giản và dễ tiếp cận để bạn bắt đầu thay đổi thói quen trực tuyến của bản thân và lấy lại quyền kiểm soát chủ quyền số của mình.
 Nếu bạn đang tìm kiếm kỹ năng nâng cao hơn về chủ đề này, các tài nguyên, các hướng dẫn hoặc các khóa học về an ninh mạng khác của chúng tôi đều sẵn sàng phục vụ bạn. Trong khi chờ đợi, dưới đây là một cái nhìn tổng quan về chương trình của chúng ta trong vài giờ tới cùng nhau.
 
-### Phần 1: Tất cả những gì bạn cần biết về duyệt web trực tuyến
+**Phần 1: Tất cả những gì bạn cần biết về duyệt web trực tuyến**
 
 - Chương 1 - Duyệt web trực tuyến
 - Chương 2 - Sử dụng internet một cách an toàn
@@ -55,13 +55,13 @@ Nếu bạn đang tìm kiếm kỹ năng nâng cao hơn về chủ đề này, c
 
 ![](assets/en/1.webp)
 
-### Phần 2: Các thói quen tốt nhất cho việc sử dụng máy tính
+**Phần 2: Các thói quen tốt nhất cho việc sử dụng máy tính**
 
 - Chương 3 - Sử dụng máy tính
 - Chương 4 - Hacking & quản lý sao lưu
   ![](assets/en/1.webp)
 
-### Phần 3: Triển khai giải pháp
+**Phần 3: Triển khai giải pháp**
 
 - Chương 6 - Quản lý email
 - Chương 7 - Trình quản lý mật khẩu
@@ -72,6 +72,7 @@ Trong phần thứ ba này, chúng ta sẽ chuyển sang triển khai các giả
 Đầu tiên, chúng ta sẽ xem cách bảo vệ hộp thư email của bạn, điều này rất quan trọng cho giao tiếp của bạn và đây là nơi thường xuyên bị hacker nhắm đến. Sau đó, chúng ta sẽ giới thiệu bạn với một trình quản lý mật khẩu: một giải pháp thực tế để không còn bị quên hoặc lẫn lộn mật khẩu của bạn trong khi vẫn giữ chúng an toàn. Cuối cùng, chúng ta sẽ thảo luận về một biện pháp bảo mật bổ sung, xác thực hai yếu tố, nó cung cấp thêm một lớp bảo vệ nữa cho tài khoản của bạn. Mọi thứ sẽ được giải thích một cách rõ ràng và dễ tiếp cận.
 ![](assets/en/1.webp)
 
+Sẵn sàng tăng cường bảo mật số của bạn và giành lại quyền kiểm soát dữ liệu của mình chưa? Hãy bắt đầu nào!
 # Tất cả những gì bạn cần biết về duyệt web trực tuyến
 
 <partId>b4b5379a-d8ef-59ae-94d3-a6e88959c149</partId>

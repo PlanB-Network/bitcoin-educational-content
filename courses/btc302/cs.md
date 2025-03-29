@@ -29,9 +29,10 @@ V neposlední řadě bude provedena hlubší reflexe **evoluce komunit z národn
 
 <partId>81318b8f-d316-5787-aa4c-4ec8370ba668</partId>
 
-## Rekontextualizace
+## Přehled kurzu
 
 <chapterId>e8991b82-4966-5e04-8f05-7cae46eacbaa</chapterId>
+Vítejte v kurzu BTC302!
 
 Od roku 2009 se bitcoin dále rozvíjí. To zahrnuje implementaci nových návrhů na vylepšení bitcoinu (BIP), vytváření nových vrstev pro škálování sítě (mimo jiné Lightning Network) a rozvoj mnoha společností a startupů.
 
@@ -60,6 +61,34 @@ Na druhou stranu, jak bychom mohli povzbudit nové lidi, kteří přicházejí p
 ####
 
 U těchto dvou problémů je nejlepším řešením být v terénu a vzdělávat.
+
+Cílem tohoto kurzu je poskytnout vám všechny potřebné nástroje k efektivnímu vytvoření a organizaci komunity nebo meet-upu zaměřeného na Bitcoin. Ať už chcete vybudovat místní iniciativu nebo rozvíjet online skupinu, tento kurz vás konkrétně provede každým krokem procesu, od vytvoření vaší vizuální identity až po pořádání pravidelných akcí, včetně správy vašich komunikačních kanálů.
+
+**Sekce 1 : Úvod**  
+Začneme tím, že si znovu představíme důležitost shromažďování lidí kolem Bitcoinu, ať už se jedná o online komunity nebo místní meet-upy. Zjistíte, proč a kde zahájit svou komunitu a jak definovat jasné cíle, které zajistí její růst a udržitelnost.
+
+**Sekce 2 : Vytvoření jedinečné identity pro svou Bitcoin komunitu**  
+Pro přilákání nových členů a vytvoření pocitu sounáležitosti je důležité vytvořit jedinečnou identitu. Tato sekce vás naučí, jak navrhnout logo, plakát nebo banner, které věrně odrážejí ducha vaší Bitcoin komunity.
+
+**Sekce 3 : Vytváření komunikačních kanálů pro svou Bitcoin komunitu**  
+Komunikace je srdcem každé komunity. Probereme zde různé komunikační kanály, které je třeba upřednostnit, a metody, jak efektivně nastavit skupinu na Telegramu nebo server na Discordu. Diskutovat budeme také o integraci multifunkčních botů pro usnadnění správy vaší komunity.
+
+**Sekce 4 : Spuštění sociálních sítí**  
+Viditelnost je klíčem k rozvoji vaší komunity. Naučíte se, jak vytvořit dedikovaný Twitter profil, navázat spojení s dalšími blízkými meet-upy a využít platformy jako btcmap.org ke zvýšení své viditelnosti a přilákání nových členů.
+
+**Sekce 5 : Organizace Bitcoin meet-upu**  
+Tato sekce se zaměřuje na organizaci meet-upů, od hledání vhodného místa až po samotnou organizaci akce. Budeme se také zabývat způsoby, jak udržet účastníky motivované a zajistit trvalý rozvoj vaší komunity.
+
+**Sekce 6 : Příklady projektů a iniciativ**  
+Abychom šli nad rámec jednoduchých setkání, nabídneme vám v této sekci konkrétní a originální projekty: tematické akce, workshopy, tvorbu vzdělávacích materiálů, místní spolupráce a mnoho dalšího. Naučíte se také, jak vytvořit fyzické a digitální materiály na podporu vaší komunity.
+
+**Sekce 7 : Předvídání budoucnosti**  
+Nakonec se zaměříme na přirozený vývoj vaší komunity. Co dělat, když vaše skupina roste příliš rychle? Jak decentralizovat organizaci? A jak reagovat, pokud se regulatorní prostředí stane nepřátelským? Tato sekce vám pomůže předvídat budoucí výzvy.
+
+**Sekce 8 : Sjednocení Bitcoinerů**  
+Tato poslední sekce se zaměřuje na samotnou podstatu vašeho projektu: sjednocení Bitcoinových nadšenců kolem společné vize. Naučíte se, jak strukturovat svůj přístup k přilákání a udržení nových členů, jak delegovat úkoly v rámci své skupiny a jak svou komunitu udržovat a rozvíjet dlouhodobě.
+
+Připraveni zjistit, jak vybudovat silnou a dynamickou Bitcoin komunitu? Jdeme na to!
 
 ## Proč vytvářet bitcoinovou komunitu nebo meet-up?
 

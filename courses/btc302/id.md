@@ -29,9 +29,10 @@ Akhirnya, refleksi yang lebih dalam akan dilakukan pada **evolusi komunitas dari
 
 <partId>81318b8f-d316-5787-aa4c-4ec8370ba668</partId>
 
-## Rekontekstualisasi
+## Ikhtisar Kursus
 
 <chapterId>e8991b82-4966-5e04-8f05-7cae46eacbaa</chapterId>
+Selamat datang di kursus BTC302!
 
 Sejak tahun 2009, Bitcoin terus berkembang. Hal ini termasuk implementasi Proposal Peningkatan Bitcoin (BIP) baru, pembuatan lapisan baru untuk meningkatkan skala jaringan (antara lain, Lightning Network), dan pengembangan beberapa perusahaan dan perusahaan rintisan.
 
@@ -60,6 +61,34 @@ Di sisi lain, bagaimana kita dapat mendorong orang-orang baru yang tertarik deng
 ####
 
 Untuk kedua masalah ini, solusi terbaik adalah dengan terjun langsung ke lapangan dan melakukan edukasi.
+
+Tujuan dari pelatihan ini adalah untuk memberikan Anda semua kunci yang diperlukan untuk membuat dan mengelola komunitas atau meet-up Bitcoin secara efektif. Apakah Anda ingin membangun inisiatif lokal atau mengembangkan kelompok daring, kursus ini akan memandu Anda secara konkret dalam setiap tahap proses, mulai dari membuat identitas visual Anda hingga mengadakan acara rutin, termasuk mengelola saluran komunikasi Anda.
+
+**Bagian 1 : Pendahuluan**  
+Kita akan mulai dengan mengontekstualisasikan pentingnya mengumpulkan orang-orang di sekitar Bitcoin, baik itu komunitas daring maupun meet-up lokal. Anda akan mengetahui mengapa dan di mana harus memulai komunitas Anda, serta bagaimana mendefinisikan tujuan yang jelas untuk menjamin pertumbuhannya dan keberlanjutannya.
+
+**Bagian 2 : Merancang identitas unik untuk komunitas Bitcoin Anda**  
+Untuk menarik anggota baru dan membangun rasa memiliki, penting untuk membuat identitas yang unik. Bagian ini akan mengajarkan Anda cara mendesain logo, poster, atau spanduk yang secara akurat mencerminkan semangat komunitas Bitcoin Anda.
+
+**Bagian 3 : Membuat saluran komunikasi untuk komunitas Bitcoin Anda**  
+Komunikasi adalah inti dari setiap komunitas. Di sini kita akan membahas berbagai saluran komunikasi yang perlu diutamakan, serta metode untuk mengkonfigurasi grup Telegram atau server Discord secara efektif. Kita juga akan membahas integrasi bot multifungsi untuk mempermudah pengelolaan komunitas Anda.
+
+**Bagian 4 : Meluncurkan media sosial Anda**  
+Visibilitas sangat penting untuk pengembangan komunitas Anda. Anda akan belajar bagaimana membuat profil Twitter khusus, menjalin koneksi dengan meet-up lain di dekat Anda, dan menggunakan platform seperti btcmap.org untuk meningkatkan visibilitas Anda dan menarik anggota baru.
+
+**Bagian 5 : Mengorganisir meet-up Bitcoin**  
+Bagian ini berfokus pada pengorganisasian meet-up, mulai dari mencari tempat yang tepat hingga mengatur acara itu sendiri. Kita juga akan membahas cara mempertahankan partisipan untuk memastikan perkembangan komunitas Anda yang berkelanjutan.
+
+**Bagian 6 : Contoh proyek dan inisiatif**  
+Untuk melampaui sekadar pertemuan, kami akan menawarkan contoh proyek konkret dan orisinal dalam bagian ini: acara tematik, lokakarya, pembuatan konten edukatif, kolaborasi lokal, dan banyak lagi. Anda juga akan belajar bagaimana merancang materi fisik dan digital untuk mempromosikan komunitas Anda.
+
+**Bagian 7 : Mengantisipasi masa depan**  
+Akhirnya, kita akan membahas evolusi alami komunitas Anda. Apa yang harus dilakukan jika grup Anda tumbuh terlalu cepat? Bagaimana mendesentralisasikan organisasi? Dan bagaimana bereaksi jika lingkungan regulasi menjadi bermusuhan? Bagian ini akan membantu Anda mengantisipasi tantangan yang akan datang.
+
+**Bagian 8 : Mengumpulkan para Bitcoiner**  
+Bagian terakhir ini membahas inti dari proyek Anda: menggabungkan para penggemar Bitcoin di sekitar visi bersama. Anda akan belajar bagaimana menyusun pendekatan Anda untuk menarik dan mempertahankan anggota baru, bagaimana mendelegasikan tugas dalam kelompok Anda, dan bagaimana mengembangkan komunitas Anda secara berkelanjutan.
+
+Siap untuk menemukan cara membangun komunitas Bitcoin yang kuat dan dinamis? Mari kita mulai!
 
 ## Mengapa membuat komunitas atau pertemuan bitcoin?
 

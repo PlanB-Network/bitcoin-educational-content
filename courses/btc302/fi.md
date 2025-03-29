@@ -29,9 +29,10 @@ Lopuksi pohditaan syvällisemmin **yhteisöjen kehittymistä kansallisesta näk�
 
 <partId>81318b8f-d316-5787-aa4c-4ec8370ba668</partId>
 
-## Uudelleenkontekstualisointi
+## Kurssin yleiskatsaus
 
 <chapterId>e8991b82-4966-5e04-8f05-7cae46eacbaa</chapterId>
+Tervetuloa BTC302-kurssille!
 
 Vuodesta 2009 lähtien Bitcoin on kehittynyt jatkuvasti. Tähän kuuluu uusien Bitcoin-parannusehdotusten (BIP) toteuttaminen, uusien kerrosten luominen verkon skaalaamiseksi (muun muassa Lightning Network) sekä useiden yritysten ja startup-yritysten kehittäminen.
 
@@ -60,6 +61,34 @@ Toisaalta, miten voisimme rohkaista uusia ihmisiä, joita "kryptovaluuttaekosyst
 ####
 
 Näihin kahteen ongelmaan paras ratkaisu on olla kentällä ja kouluttaa.
+
+Tämän koulutuksen tavoitteena on tarjota sinulle kaikki tarvittavat avaimet Bitcoin-yhteisön tai meet-up-tapahtuman luomiseen ja tehokkaaseen organisointiin. Olipa tavoitteenasi rakentaa paikallinen hanke tai kehittää verkkoyhteisöä, tämä kurssi opastaa sinua konkreettisesti jokaisessa vaiheessa aina visuaalisen identiteetin luomisesta säännöllisten tapahtumien järjestämiseen ja viestintäkanaviesi hallintaan.
+
+**Osio 1 : Johdanto**  
+Aloitamme käsittelemällä Bitcoinin ympärille kokoontumisen merkitystä, oli kyseessä sitten verkkoyhteisöt tai paikalliset meet-upit. Saat tietää, miksi ja missä perustaa oma yhteisösi sekä kuinka määritellä selkeät tavoitteet sen kasvun ja kestävyyden varmistamiseksi.
+
+**Osio 2 : Oman Bitcoin-yhteisön identiteetin suunnitteleminen**  
+Uusien jäsenten houkuttelemiseksi ja yhteenkuuluvuuden tunteen luomiseksi on tärkeää luoda ainutlaatuinen identiteetti. Tässä osiossa opit, kuinka suunnitella logo, juliste tai banneri, jotka heijastavat uskollisesti Bitcoin-yhteisösi henkeä.
+
+**Osio 3 : Viestintäkanavien luominen Bitcoin-yhteisöllesi**  
+Viestintä on jokaisen yhteisön sydän. Käsittelemme tässä osiossa eri viestintäkanavia, jotka kannattaa ottaa käyttöön, sekä menetelmiä Telegram-ryhmän tai Discord-palvelimen tehokkaaseen perustamiseen. Lisäksi keskustelemme monitoimibottien integroinnista, jotka helpottavat yhteisösi hallintaa.
+
+**Osio 4 : Sosiaalisten verkostojen käynnistäminen**  
+Näkyvyys on olennaista yhteisösi kehittämiselle. Opit, kuinka luoda omistettu Twitter-profiili, muodostaa yhteyksiä muihin lähellä oleviin meet-up-ryhmiin ja käyttää alustoja, kuten btcmap.org, näkyvyytesi lisäämiseen ja uusien jäsenten houkuttelemiseen.
+
+**Osio 5 : Bitcoin-meet-up-tapahtuman järjestäminen**  
+Tämä osio keskittyy meet-up-tapahtumien järjestämiseen aina sopivan paikan löytämisestä tapahtuman toteuttamiseen. Tarkastelemme myös keinoja osallistujien sitoutumisen ylläpitämiseksi yhteisösi kestävän kehityksen varmistamiseksi.
+
+**Osio 6 : Projektien ja aloitteiden esimerkit**  
+Pelkkiä tapaamisia pidemmälle meneviksi tarjoamme tässä osiossa konkreettisia ja omaperäisiä projekteja: teematapahtumia, työpajoja, opetusmateriaalien luomista, paikallisia yhteistyöhankkeita ja paljon muuta. Opit myös luomaan fyysisiä ja digitaalisia materiaaleja yhteisösi mainostamiseksi.
+
+**Osio 7 : Tulevaisuuden ennakoiminen**  
+Lopuksi käsittelemme yhteisösi luonnollista kehitystä. Mitä tehdä, jos ryhmäsi kasvaa liian nopeasti? Kuinka hajauttaa organisointia? Ja miten toimia, jos sääntely-ympäristö muuttuu vihamieliseksi? Tämä osio auttaa sinua ennakoimaan tulevia haasteita.
+
+**Osio 8 : Bitcoin-harrastajien yhdistäminen**  
+Tämä viimeinen osio keskittyy projektisi ytimeen: Bitcoin-harrastajien kokoaminen yhteisen vision ympärille. Opit, kuinka jäsentää lähestymistapasi uusien jäsenten houkuttelemiseksi ja sitouttamiseksi, kuinka delegoida tehtäviä ryhmässäsi ja kuinka kasvattaa yhteisöäsi kestävästi.
+
+Oletko valmis oppimaan, kuinka rakentaa vahva ja dynaaminen Bitcoin-yhteisö? Aloitetaan!
 
 ## Miksi luoda Bitcoin-yhteisö tai meet-up?
 

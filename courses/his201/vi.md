@@ -20,11 +20,12 @@ Khóa học này, tất nhiên, tập trung vào hình ảnh của Satoshi Nakam
 # Giới Thiệu
 <partId>41dc2815-c63a-4ce1-9b88-e7b3825e958e</partId>
 
-## Giới Thiệu về Lịch Sử Sự Ra Đời Của Bitcoin
+## Tổng quan về khóa học
 <chapterId>85290407-1aa3-4cb4-890a-aed23441afb7</chapterId>
+Chào mừng bạn đến với khóa học HIS201!
 Khóa học này nhằm mục đích kể cho bạn câu chuyện về sự tạo ra của Bitcoin một cách bạn chưa bao giờ đọc trước đây. Nó thường bị bỏ qua, mặc dù chứa đầy chi tiết thú vị. Chúng tôi sẽ cố gắng mô tả nó trong toàn bộ sự phức tạp của nó, từ sự hình thành của nó bởi Satoshi Nakamoto đến sự biến mất sớm của ông và việc chuyển giao cho cộng đồng.
 
-### Tổng Quan Ngắn Gọn
+**Tổng Quan Ngắn Gọn**
 
 Bitcoin được thiết kế bởi một cá nhân (hoặc một nhóm) sử dụng bí danh Satoshi Nakamoto. Vào ngày 31 tháng 10 năm 2008, ông đã chia sẻ một bản trắng mô tả mô hình của mình qua một danh sách email mờ ám trên Internet. Vào ngày 8 tháng 1 năm 2008, ông đã triển khai khái niệm của mình bằng cách xuất bản mã nguồn của phần mềm và khởi động mạng lưới bằng cách khai thác những khối đầu tiên của chuỗi. Mong muốn thu hút một số lượng người dùng quan trọng, ông đã quảng bá sáng tạo của mình qua các kênh giao tiếp khác nhau.
 
@@ -46,7 +47,7 @@ Sự tạo ra của Bitcoin cũng trong bối cảnh đóng cửa các hệ th�
 
 Cuối cùng, dự án Bitcoin là người kế thừa tinh thần của phong trào cypherpunk, một phong trào của các nhà mật mã học nổi loạn từ những năm 90, những người tìm cách bảo vệ quyền riêng tư và tự do của mọi người trên Internet thông qua việc sử dụng tích cực mật mã học. Bitcoin phù hợp với các dự án như b-money, bit gold, hoặc RPOW được những cá nhân này tưởng tượng vào cuối những năm 90 và đầu những năm 2000. Satoshi Nakamoto đã đề cập đến họ, mặc dù ông không biết về họ trước khi thiết kế Bitcoin và có lẽ không phải là một phần của phong trào ban đầu.
 
-### Đề Cương Khóa Học
+**Đề Cương Khóa Học**
 
 Khóa học này được chia thành bốn phần, tập trung lần lượt vào nguồn gốc của Bitcoin (3 chương), sự xuất hiện chậm rãi của nó (3 chương), sự tăng trưởng ban đầu (3 chương), và sự hình thành của cộng đồng của nó (4 chương). Tổng cộng, nó bao gồm 12 chương như sau (khoảng thời gian liên quan cũng được chỉ định):
 
@@ -64,7 +65,7 @@ Khóa học này được chia thành bốn phần, tập trung lần lượt v�
 - Sự Biến Mất của Satoshi (Tháng 12 năm 2010–Tháng 4 năm 2011)
 - Cộng Đồng Tiếp Quản (Tháng 4 năm 2011–Tháng 9 năm 2011)
 
-### Chi Tiết
+**Chi Tiết**
 
 Tất cả các ngày và thời gian được đưa ra theo múi giờ UTC (tương ứng với Meridian Greenwich) và do đó có thể khác biệt so với ngày tháng ở Mỹ. Có khả năng Satoshi Nakamoto đang ở Hoa Kỳ khi làm việc dự án của mình. Tuy nhiên, Bitcoin là một dự án quốc tế, đặc biệt bao gồm sự đóng góp từ nhà phát triển người Phần Lan Martti Malmi (Múi giờ Đông Âu, UTC+2 / UTC+3), và chúng tôi sẽ do đó tham chiếu đến múi giờ toàn cầu. Như vậy, chúng ta nói rằng việc khởi động mạng chính thức diễn ra vào ngày 9 tháng 1 lúc 2:54 sáng, thay vì ngày 8 tháng 1 lúc 6:54 tối, tương ứng với múi giờ Bờ Đông (Thời gian Thái Bình Dương, UTC-8 / UTC-7).
 
@@ -78,6 +79,7 @@ Nội dung được phần nào chuyển thể từ cuốn sách tiếng Pháp [
 
 Lưu ý rằng cho phiên bản không phải tiếng Anh của khóa học này, hầu hết các trích dẫn đều đến từ tiếng Anh Mỹ và đã được dịch cho dịp này. Thuật ngữ *coin* thường được dịch là "đơn vị" (và không phải là "mảnh") khi nói đến đơn vị tài khoản.
 
+Sẵn sàng khám phá câu chuyện kỳ diệu về sự ra đời của Bitcoin chưa? Vậy thì hãy cùng nhau đắm chìm trong hành trình phi thường này!
 # Nguồn Gốc của Bitcoin
 <partId>25a75ed6-f34b-4c9a-8224-e099a3e774dc</partId>
 

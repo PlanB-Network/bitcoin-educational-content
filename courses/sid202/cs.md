@@ -24,17 +24,32 @@ Připojte se k nám, abyste zvýšili své dovednosti, uvolnili plný potenciál
 
 <partId>8f34de87-6e9a-4e3b-a326-50fc7c1803b3</partId>
 
-## Úvod do kurzů
+## Přehled kurzu
 
 <chapterId>a721398e-7040-4edd-be53-b485ea759fa9</chapterId>
 
 ![Video](https://youtu.be/gkQfnwYLyI0?si=H6cIPhgZaSAwHaHI)
 
-Účelem Elements Academy je představit a vysvětlit klíčové koncepty platformy Elements, na které je Liquid postaven. Na konci kurzu byste měli dobře porozumět hlavním funkcím Elements, jako jsou důvěrné transakce a vydaná aktiva, a procesům spojeným s provozem jádra Elements.
+Vítejte v kurzu SID202!
 
-Každá část bude obsahovat lekce s vysvětlujícím textem a video, které bude zakončeno kvízem. Počet otázek se vztahuje k rozsahu předchozího tématu. Oddíl 10 bude shrnovat obsah kurzu a bude zakončen větším kvízem.
+Cílem *Elements Academy* je představit vám a vysvětlit klíčové koncepty *Elements*, open-source platformy, na které je postavena sidechain Liquid. Po dokončení tohoto kurzu byste měli mít solidní porozumění hlavním funkcím Elements, jako jsou důvěrné transakce a vydané aktiva, a procesům, které se podílejí na fungování Elements Core. Každá část kurzu obsahuje lekce doplněné vysvětlujícími texty a videi, které končí kvízem.
 
-Jakékoli dotazy, žádosti o doplňující informace nebo dotazy týkající se odpovědí na kvízové otázky můžete směřovat na svého učitele Jamese Dorfmana.
+Tento kurz má za cíl naučit vás používat a vyvíjet s platformou Elements s důrazem na síť Liquid. Objevíte, jak tyto technologie mohou zlepšit soukromí, škálovatelnost a funkčnost vašich vývojářských projektů. Ať už jste začátečník nebo zkušený vývojář, tento kurz vám poskytne pevný základ pro zvládnutí základních konceptů Elements a Liquid a jejich praktické aplikace.
+
+**Sekce 1: Úvod**  
+Začneme komplexním přehledem konceptů Elements. Naučíte se, jak byla tato platforma navržena tak, aby poskytovala modulární a flexibilní základ pro vytváření sidechainů, jako je Liquid. Cílem je porozumět struktuře Elements předtím, než se pustíte do konkrétních aplikací.
+
+**Sekce 2: Elements**  
+Tato sekce se zaměří na fungování Elements. Naučíte se, jak nakonfigurovat uzel Elements, provozovat jej v samostatné konfiguraci nebo jako sidechain.
+
+**Sekce 3: Použití Elements - Praktické případy užití**  
+Po zvládnutí teoretických základů se zaměříme na konkrétní aplikace Elements. Dozvíte se, jak provádět důvěrné transakce, vydávat aktiva a spravovat opětovné vydávání aktiv.
+
+**Sekce 4: Federace Elements**  
+Zde se zaměříme na pokročilé mechanismy, včetně federativního podepisování bloků, používání Elements jako sidechainu a vytváření nezávislých blockchainů. Tato sekce vám umožní pochopit, jak zajistit bezpečnost, integritu a interoperabilitu blockchainů založených na Elements.
+
+Připraveni prozkoumat potenciál Elements a sidechainu Liquid? Jdeme na to!
+
 
 ## Přehled prvků
 

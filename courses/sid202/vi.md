@@ -24,17 +24,32 @@ Hãy tham gia cùng chúng tôi để nâng cao kỹ năng của bạn, khai ph�
 
 <partId>8f34de87-6e9a-4e3b-a326-50fc7c1803b3</partId>
 
-## Giới thiệu khóa học
+## Tổng quan về khóa học
 
 <chapterId>a721398e-7040-4edd-be53-b485ea759fa9</chapterId>
 
 ![Video](https://youtu.be/gkQfnwYLyI0?si=H6cIPhgZaSAwHaHI)
 
-Mục đích của Elements Academy là giới thiệu và giải thích các khái niệm chính của Elements, nền tảng mã nguồn mở mà Liquid được xây dựng trên đó. Đến cuối khóa học, bạn sẽ hiểu rõ về các tính năng chính của Elements, chẳng hạn như Giao dịch bí mật và Tài sản đã phát hành, cũng như các quy trình liên quan đến việc chạy Elements Core.
+Chào mừng bạn đến với khóa học SID202!
 
-Mỗi phần sẽ có các bài học với văn bản giải thích và video kết thúc bằng bài kiểm tra. Số lượng câu hỏi liên quan đến quy mô của chủ đề trước đó. Phần 10 sẽ tóm tắt nội dung khóa học và kết thúc bằng bài kiểm tra lớn hơn.
+Mục tiêu của *Elements Academy* là giới thiệu và giải thích các khái niệm chính của *Elements*, nền tảng mã nguồn mở trên đó sidechain Liquid được xây dựng. Sau khi hoàn thành khóa học này, bạn sẽ có một sự hiểu biết vững chắc về các tính năng chính của Elements, như giao dịch bảo mật và tài sản được phát hành, cũng như các quy trình liên quan đến việc vận hành Elements Core. Mỗi phần của khóa học bao gồm các bài học kèm theo văn bản giải thích và video, kết thúc bằng một bài kiểm tra.
 
-Mọi thắc mắc, yêu cầu cung cấp thêm thông tin hoặc thắc mắc về câu trả lời bài kiểm tra có thể liên hệ với giáo viên James Dorfman.
+Khóa học này nhằm mục đích dạy bạn cách sử dụng và phát triển với nền tảng mã nguồn mở Elements, với trọng tâm là mạng Liquid. Bạn sẽ khám phá cách các công nghệ này có thể cải thiện tính riêng tư, khả năng mở rộng và chức năng của các dự án phát triển của bạn. Dù bạn là người mới bắt đầu hay nhà phát triển giàu kinh nghiệm, khóa học này sẽ cung cấp cho bạn nền tảng vững chắc để nắm vững các khái niệm cơ bản của Elements và Liquid cũng như các ứng dụng thực tiễn của chúng.
+
+**Phần 1: Giới thiệu**  
+Chúng ta sẽ bắt đầu với một cái nhìn tổng quan toàn diện về các khái niệm của Elements. Bạn sẽ học cách nền tảng này được thiết kế để cung cấp một nền tảng linh hoạt và có thể tùy chỉnh để tạo ra các sidechain như Liquid. Mục tiêu là hiểu được cấu trúc của Elements trước khi đi sâu vào các ứng dụng thực tiễn của nó.
+
+**Phần 2: Elements**  
+Phần này sẽ tập trung vào cách Elements hoạt động. Bạn sẽ học cách cấu hình một nút Elements, vận hành nó trong chế độ độc lập hoặc sử dụng nó như một sidechain.
+
+**Phần 3: Sử dụng Elements – Các trường hợp thực tiễn**  
+Sau khi nắm vững các nền tảng lý thuyết, chúng ta sẽ thảo luận về các ứng dụng thực tiễn của Elements. Bạn sẽ học cách thực hiện các giao dịch bảo mật, phát hành tài sản và quản lý việc phát hành lại tài sản.
+
+**Phần 4: Liên minh Elements**  
+Ở đây, chúng ta sẽ khám phá các cơ chế nâng cao, bao gồm ký kết khối liên minh, sử dụng Elements như một sidechain, và tạo ra các blockchain độc lập. Phần này sẽ giúp bạn hiểu cách đảm bảo tính bảo mật, toàn vẹn và khả năng tương tác của các blockchain dựa trên Elements.
+
+Sẵn sàng khám phá tiềm năng của Elements và sidechain Liquid chưa? Hãy bắt đầu nào!
+
 
 ## Tổng quan về các yếu tố
 

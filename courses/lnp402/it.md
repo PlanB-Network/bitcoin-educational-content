@@ -22,16 +22,16 @@ Buon corso!
 # Introduzione
 <partId>594ab43f-7216-5326-ab41-f92b85be4581</partId>
 
-## Curriculum del corso e introduzione
+## Panoramica del corso
 <chapterId>36526df2-66a2-58df-8f38-378fb553f08c</chapterId>
 
-### Introduzione
+**Introduzione**
 
 Benvenuto in questo corso avanzato di programmazione sugli SDK. In questa formazione, imparerai le basi di Rust, quindi ti concentrerai su BTC e Rust e concluderai con alcuni esercizi pratici utilizzando gli SDK.
 
 Questa formazione sarà disponibile solo in inglese per ora ed è stata parte di un seminario dal vivo organizzato lo scorso ottobre in Toscana da Fulgure Venture. Il programma dell'evento LIVE può essere trovato di seguito e questa formazione si concentrerà solo sulla prima settimana. La seconda metà era incentrata su RGB e può essere trovata nel corso RGB.
 
-### Insegnanti
+**Insegnanti**
 
 Un grande ringraziamento ai nostri insegnanti che hanno fatto parte di questo programma:
 
@@ -40,7 +40,7 @@ Un grande ringraziamento ai nostri insegnanti che hanno fatto parte di questo pr
 - Gabriel: "Scrivo codice e faccio cose."
 - Jesse de wit: "Appassionato di Lightning network | sviluppatore | Breez"
 
-### Programma del seminario
+**Programma del seminario**
 
 Settimana 1 dell'evento LN Tuscany
 ![image](assets/1.webp)
@@ -48,8 +48,19 @@ Settimana 1 dell'evento LN Tuscany
 Una volta completato questo corso, se sei interessato alla formazione successiva, ecco la seconda parte del programma:
 ![image](assets/2.webp)
 
-Buona fortuna con i tuoi studi.
 
+Questa formazione ti offre l'opportunità di sviluppare le tue competenze di programmazione sul Lightning Network utilizzando Rust e vari SDK. È progettata per sviluppatori con una buona padronanza della programmazione che desiderano approfondire lo sviluppo specifico del Lightning Network. Imparerai le basi del linguaggio Rust, perché è adatto allo sviluppo su Bitcoin, e poi passerai alla pratica utilizzando SDK specializzati.
+
+**Sezione 2: Impara a programmare con Rust**  
+In questa sezione scoprirai i fondamenti di Rust attraverso una serie di capitoli progressivi. Imparerai a scrivere codice in Rust, a comprenderne le specificità e a padroneggiare le sue funzionalità essenziali attraverso sette parti dettagliate. Questo modulo è essenziale per capire perché Rust è un linguaggio privilegiato per lo sviluppo su Bitcoin.
+
+**Sezione 3: Rust & Bitcoin**  
+Qui esploreremo in profondità perché Rust è una scelta rilevante per lo sviluppo su Bitcoin. Scoprirai il suo modello di gestione degli errori, lo strumento UniFFI e i tratti asincroni, elementi fondamentali per la costruzione di software robusto e sicuro.
+
+**Sezione 4: Sviluppo LNP/BP con SDK**  
+Imparerai a sviluppare nodi LN utilizzando vari SDK come Breez SDK e Greenlight per Lipa. Vedrai come implementare applicazioni Lightning Network utilizzando librerie progettate per facilitare lo sviluppo di applicazioni Bitcoin e Lightning.
+
+Pronto a sviluppare le tue competenze sul Lightning Network con Rust? Iniziamo!
 # Impara a programmare con il libro Rust
 <partId>152b58c9-fb33-5d3b-9c15-64919869aa34</partId>
 

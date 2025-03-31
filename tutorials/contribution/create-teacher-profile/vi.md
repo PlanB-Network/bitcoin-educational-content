@@ -78,7 +78,6 @@ Sau đó nhấp vào nút "*Giáo sư mới*".
 
 - Tên hồ sơ giáo viên của bạn (sử dụng tên và họ hoặc bút danh, viết thường);
 - Tên hoặc biệt danh của bạn;
-- Tạo ngẫu nhiên thông tin đăng nhập của bạn;
 - Trang web và hồ sơ của bạn X (tùy chọn);
 - Một chiếc Lightning Address để nhận tiền quyên góp từ độc giả (tùy chọn);
 - Chọn 2 hoặc 3 thẻ từ danh sách;

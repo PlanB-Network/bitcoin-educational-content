@@ -1051,6 +1051,8 @@ btc/ドルのペアは短期的に変動するが、ビットコインは 2100 �
 
 ![image](assets/en/71.webp)
 
+
+
 ## 働いてビットコインを得る
 
 <chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>
@@ -1088,6 +1090,10 @@ https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4
 https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - 大規模な組織や情熱的なビットコイナー向けのソリューション：BTCpay サーバー
+
+このトピックをさらに掘り下げるために、BIZ101トレーニングをお勧めします！ ビットコインを企業の財務に効果的に統合する方法、組織のプロファイルに応じてビットコインを支払い手段として受け入れる方法、関連する税務および会計要件を理解する方法を学びましょう：
+
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## ビットコインで貯蓄
 

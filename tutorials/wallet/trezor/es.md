@@ -78,11 +78,23 @@ A continuación, verás esto:
 
 ![image](assets/9.webp)
 
-En el dispositivo, ve las palabras que se te presentan una por una y escríbelas ORDENADAS y DE FORMA LEGIBLE.
+Su Trezor muestra su frase mnemotécnica de 12 palabras. **Esta frase mnemotécnica proporciona acceso completo y sin restricciones a todos sus bitcoins**. Cualquiera que tenga esta frase puede robar sus fondos, incluso sin acceso físico a su Trezor. La frase de 12 palabras permite restaurar el acceso a sus bitcoins en caso de pérdida, robo o daño de su hardware wallet. Por lo tanto, es muy importante guardarla cuidadosamente y almacenarla en un lugar seguro.
+
+Puede escribirla en el papel de cartón incluido en la caja, o bien, para mayor seguridad, le recomiendo grabarla en un soporte de acero inoxidable para protegerla contra incendios, inundaciones o derrumbes.
+
+Para obtener más información sobre cómo respaldar y gestionar adecuadamente su frase mnemotécnica, le recomiendo encarecidamente que siga este otro tutorial, especialmente si es principiante:
+
+https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 
 ![image](assets/10.webp)
 
-Establece un PIN para bloquear el dispositivo (esto no forma parte de tu semilla, solo sirve para bloquear el dispositivo para que nadie pueda acceder a la semilla que contiene).
+El siguiente paso es configurar su código PIN. El código PIN se utiliza para desbloquear su Trezor. Por lo tanto, sirve como protección contra accesos físicos no autorizados. Este código PIN no participa en la derivación de las claves criptográficas de su cartera. Así, incluso sin acceso a este código PIN, poseer su frase mnemotécnica de 12 o 24 palabras le permitirá recuperar el acceso a sus bitcoins.
+
+Se recomienda elegir un código PIN lo más aleatorio posible. Además, asegúrese de guardar este código en un lugar diferente al de su Trezor (por ejemplo, en un gestor de contraseñas).
+
+Puede elegir un código PIN de hasta 9 dígitos. Le recomiendo que lo haga lo más largo posible.
+
 
 ![image](assets/11.webp)
 
@@ -94,11 +106,21 @@ Nombra tu billetera y haz clic en "Acceder a Suite":
 
 ![image](assets/13.webp)
 
-Es más sencillo crear una billetera sin frase de contraseña, pero es mejor crear una con una frase de contraseña (tu billetera real) y otra sin una frase de contraseña (tu billetera señuelo). Cada vez que accedas al dispositivo a través de Trezor Suite, se te preguntará si deseas "aplicar" la frase de contraseña o no.
+Antes de continuar, puede, si lo desea, agregar una passphrase BIP39. Una passphrase BIP39 es una contraseña opcional que puede elegir libremente y que se agrega a su frase mnemotécnica para mejorar la seguridad de su cartera. Con esta función activada, acceder a su cartera de Bitcoin requerirá tanto la frase mnemotécnica como la passphrase. Sin una u otra, sería imposible recuperar la cartera.
+
+Antes de configurar esta opción en su Trezor, se recomienda encarecidamente leer este artículo para comprender completamente el funcionamiento teórico de la passphrase y evitar errores que podrían resultar en la pérdida de sus bitcoins:
+
+https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
+Para activarla, debe seleccionar la opción "Hidden wallet" y anotarla en el campo correspondiente. Cada vez que acceda a su cartera a través de Trezor Suite, se le preguntará si desea aplicar la passphrase o no.
+
 
 ![image](assets/14.webp)
 
-Seleccioné "Billetera oculta" y escribí una frase de contraseña que inventé "craigwrightisaliarandafraud"
+También es importante hacer una copia de seguridad adecuada de esta passphrase, de la misma manera que la frase mnemotécnica. Perderla equivale a perder el acceso a sus bitcoins. Le desaconsejo encarecidamente que confíe únicamente en su memoria, ya que esto aumenta irrazonablemente el riesgo de pérdida. Lo ideal es anotarla en un soporte físico (papel o metal) separado de la frase mnemotécnica. Evidentemente, esta copia de seguridad debe almacenarse en un lugar diferente al de su frase mnemotécnica para evitar que ambas se comprometan simultáneamente.
+
+Para que sea eficaz, debe elegir una passphrase fuerte, aleatoria, que incluya todo tipo de caracteres y sea suficientemente larga (como una contraseña fuerte).
+
 
 ![image](assets/15.webp)
 

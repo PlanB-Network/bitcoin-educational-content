@@ -160,17 +160,11 @@ Nhìn chung, quá trình này phức tạp, tốn thời gian và tốn kém m�
 ### So sánh các phương thức thanh toán
 
 | Phương thức thanh toán | Cần ủy quyền không? | Thời gian phê duyệt giao dịch (Chế độ xem của người bán) | Tốc độ thanh toán (Tiền đã được thanh toán đầy đủ) | Tính cuối cùng (Dễ đảo ngược) | Số lượng trung gian | Phí thông thường (cho người nhận) |
-
 | ------------------------------ | ------------------------------- | ----------------------------------------- | ---------------------------------------------- | ---------------------------------------- | ------------------------------ | ---------------------------------- |
-
 | **Tiền mặt** | Không | Ngay lập tức (Trao đổi vật lý) | Ngay lập tức (Không chậm trễ thanh toán) | Cao (Không thể đảo ngược sau khi thanh toán) | Không có | Không có |
-
 | **Séc** | Có (Thanh toán qua ngân hàng) | Chấp nhận tại thời điểm gửi tiền (Không đảm bảo) | Vài ngày (Quy trình thanh toán qua séc) | Trung bình (Có thể bị trả lại/Dừng trước khi thanh toán) | Ngân hàng | **Thấp đến trung bình** (Phí ngân hàng) |
-
 | **Chuyển khoản qua ngân hàng** | Có (Ngân hàng/Mạng lưới) | Xác nhận trong vòng vài giờ | Cùng ngày hoặc ngày hôm sau (Trong nước) | Cao (Thông thường không thể hoàn lại sau khi đã gửi) | Ngân hàng, Mạng lưới thanh toán | **Trung bình**(Cố định/Phần trăm) |
-
 | **Thẻ thanh toán** | Có (Ủy quyền của đơn vị phát hành thẻ) | Vài giây đến vài phút (Mã ủy quyền) | Vài ngày (Thanh toán liên ngân hàng) | Trung bình (Có thể hoàn trả) | Đơn vị phát hành, Đơn vị thanh toán, Mạng lưới thẻ | **Thay đổi (1-3% giao dịch)** |
-
 | **Ví điện tử/Thanh toán di động** | Có (Nhà cung cấp ví/Ngân hàng) | Vài giây (Xác nhận ngay lập tức) | Thông thường là 1-2 ngày (Tùy thuộc vào nguồn tiền) | Trung bình (Có thể hoàn tiền/tranh chấp) | Ngân hàng, Nhà điều hành ví | **Thấp đến Trung bình (Thay đổi)** |
 
 ### Những hạn chế của các giải pháp hiện có
@@ -178,25 +172,15 @@ Nhìn chung, quá trình này phức tạp, tốn thời gian và tốn kém m�
 Ngành thanh toán truyền thống đại diện cho nền kinh tế hàng năm khoảng 2.200 tỷ đô la, xấp xỉ một phần mười GDP của Hoa Kỳ hoặc bằng GDP của Pháp. Vì tiền tệ hoạt động như các mạng lưới được cấp phép nên có sự cạnh tranh hạn chế, khiến "dịch vụ" này giống với một loại thuế áp dụng cho nền kinh tế sản xuất hơn. Ngoài gánh nặng chi phí mà nó tạo ra, còn có một số hạn chế khác, như được nêu dưới đây.
 
 | Hạn chế | Giải thích | Tác động |
-
 | -------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
-
 | Phí thẻ cao | Phí trao đổi (~0,3%), phí mạng (cố định hoặc 0,3%-1%), phí thuê bao thiết bị đầu cuối/PSP và biên độ ngân hàng (0,5%-1,7%) cộng lại thành một khoản chi phí đáng kể—giống như một loại “thuế” toàn cầu đối với các ngành sản xuất, lên tới hàng nghìn tỷ đô la. | Làm tăng chi phí của bên bán, giảm biên độ và có khả năng đẩy giá tiêu dùng lên cao. |
-
 | Thanh toán cuối cùng rất chậm | Việc thanh toán có thể mất tới 5 ngày, làm chậm dòng tiền và hoạt động kinh tế nói chung. | Làm chậm thanh khoản cho các thương nhân và làm giảm tốc độ lưu thông kinh tế. |
-
 | Gian lận | Các kênh thương mại điện tử là mục tiêu của gian lận, gây ra tổn thất đáng kể (ví dụ: 28 tỷ đô la). Các khoản hoàn trả có thể lên tới ~174 tỷ đô la trên toàn cầu vào năm 2024. Việc quản lý các tranh chấp này tốn thời gian và gây căng thẳng về mặt tinh thần. | Chi phí hoạt động tăng, các biện pháp phòng ngừa gian lận phức tạp và lòng tin của khách hàng giảm sút. |
-
 | Bỏ giỏ hàng | Các bước bảo mật bổ sung (mã một lần, xác thực hai yếu tố theo PSD2) gây cản trở khi thanh toán. | Độ phức tạp cao hơn khi thanh toán dẫn đến tình trạng bỏ giỏ hàng nhiều hơn và mất doanh số. |
-
 | Số tiền giao dịch tối thiểu cao | Ngưỡng chi tiêu tối thiểu trên thẻ có thể buộc các thương gia và người tiêu dùng phải áp dụng mức giá hoặc điều kiện mua hàng bất tiện, ngăn cản các giao dịch có giá trị nhỏ. | Giảm sự hài lòng và tính linh hoạt của khách hàng, có khả năng hạn chế các giao dịch mua theo cảm tính hoặc giá trị thấp. |
-
 | Ủy quyền trước chậm | Các hệ thống hiện tại không thể xử lý giao dịch ở tốc độ mili giây hoặc hỗ trợ luồng thanh toán liên tục, thời gian thực. | Giới hạn các trường hợp sử dụng yêu cầu thanh toán tức thời hoặc phát trực tuyến, hạn chế khả năng đổi mới và khả năng mở rộng. |
-
 | Cần có tài khoản ngân hàng/thẻ | Việc truy cập vào các phương thức thanh toán này yêu cầu phải có tài khoản ngân hàng hoặc thẻ được liên kết, tự động loại trừ những người không có tài khoản như vậy. | Hạn chế khả năng tiếp cận tài chính, giảm khả năng tiếp cận của những nhóm dân số không có tài khoản ngân hàng hoặc có ít tài khoản ngân hàng. |
-
 | Tạo tài khoản trực tuyến nhiều lần | Người dùng thường phải tạo nhiều tài khoản trực tuyến, dẫn đến mệt mỏi, giảm sự tiện lợi và tăng nguy cơ lộ dữ liệu cá nhân. | Làm giảm trải nghiệm của người dùng, gây lo ngại về quyền riêng tư và tăng nguy cơ vi phạm dữ liệu. |
-
 | Phí ngoại hối (FX) | Việc thiếu một đơn vị tính toán chung buộc phải chuyển đổi tiền tệ tốn kém cho các giao dịch xuyên biên giới. | Làm tăng thêm chi phí cho thương mại quốc tế, khiến các giao dịch toàn cầu trở nên kém khả thi hơn. |
 
 Cũng giống như việc chúng ta chuyển từ việc trả tiền theo phút cho các cuộc gọi thoại sang sử dụng dịch vụ liên lạc dựa trên IP gần như miễn phí, sự xuất hiện của các mạng lưới cởi mở và hiệu quả hơn có thể định nghĩa lại các khoản thanh toán, giảm chi phí và trung gian, đồng thời thúc đẩy các mô hình kinh doanh mới.
@@ -519,37 +503,22 @@ Bitcoin ETF dẫn đầu với biên độ lớn về **việc áp dụng của 
 
 Bitcoin hiện đang đóng vai trò là "kho lưu trữ giá trị" **thị trường**. Nó chỉ là một giọt nước trong xô về mặt quy mô: chỉ khoảng 1.800 tỷ đô la so với 18.000 tỷ đô la của vàng hoặc 500.000 tỷ đô la của bất động sản. Tuy nhiên, thị phần khoảng 0,1% của nó mang lại cho nó không gian tăng trưởng rất lớn, đặc biệt là khi các đối thủ cạnh tranh của nó đang phải vật lộn để thu hút người dùng mới.
 
-| Ticker | Dòng 1D (Triệu USD) | Dòng 1W (Triệu USD) | Dòng 1M (Triệu USD) | Dòng 3M (Triệu USD) | Dòng YTD (Triệu USD) |
-
-| ------- | --------------- | --------------- | --------------- | --------------- | ---------------- |
-
-| **Tổng** | +457,19 | +1.507,95 | +2.888,01 | +3.672,29 | **+20.262,94** |
-
-| IBIT | +393,40 | +750.91 | +1.536,47 | +3.821,37 | +22.460,44 |
-
-| FBTC | +14,81 | +372,40 | +627,16 | +458,71 | +10.266,69 |
-
-| ARKB | +11,51 | +163,26 | +295,92 | -3,88 | +2.647,32 |
-
-| BITB | +12,93 | +146,50 | +263,30 | +97,46 | +2.262,69 |
-
-| HODL | +5,75 | +38,77 | +94,54 | +100,39 | +682.03 |
-
-| BRRR | +1,92 | +4,72 | +17,76 | +20,54 | +540.19 |
-
-| EZBC | +11,79 | +17,53 | +39,29 | +47,48 | +439,45 |
-
-| BTC | .00 | -3.13 | +36.59 | +419.18 | +419.18 |
-
-| BTCO | +6,43 | +19,25 | +47,30 | +56,41 | +394,82 |
-
-| BTCW | .00 | +2.84 | +6.04 | +146.69 | +217.47 |
-
-| YBIT | -1,34 | -10,26 | +5,06 | +13,81 | +76,30 |
-
-| TÀI CHÍNH | .00 | .00 | .00 | -2.03 | -1.79 |
-
-| GBTC | .00 | +5.16 | -81.42 | -1503.84 | -20,141.85 |
+| Ticker   | Dòng 1D (Triệu USD) | Dòng 1W (Triệu USD) | Dòng 1M (Triệu USD) | Dòng 3M (Triệu USD) | Dòng YTD (Triệu USD) |
+| -------- | ------------------- | ------------------- | ------------------- | ------------------- | -------------------- |
+| **Tổng** | +457,19             | +1.507,95           | +2.888,01           | +3.672,29           | **+20.262,94**       |
+| IBIT     | +393,40             | +750.91             | +1.536,47           | +3.821,37           | +22.460,44           |
+| FBTC     | +14,81              | +372,40             | +627,16             | +458,71             | +10.266,69           |
+| ARKB     | +11,51              | +163,26             | +295,92             | -3,88               | +2.647,32            |
+| BITB     | +12,93              | +146,50             | +263,30             | +97,46              | +2.262,69            |
+| HODL     | +5,75               | +38,77              | +94,54              | +100,39             | +682.03              |
+| BRRR     | +1,92               | +4,72               | +17,76              | +20,54              | +540.19              |
+| EZBC     | +11,79              | +17,53              | +39,29              | +47,48              | +439,45              |
+| BTC      | .00                 | -3.13               | +36.59              | +419.18             | +419.18              |
+| BTCO     | +6,43               | +19,25              | +47,30              | +56,41              | +394,82              |
+| BTCW     | .00                 | +2.84               | +6.04               | +146.69             | +217.47              |
+| YBIT     | -1,34               | -10,26              | +5,06               | +13,81              | +76,30               |
+| DEFI     | .00                 | .00                 | .00                 | -2.03               | -1.79                |
+| GBTC     | .00                 | +5.16               | -81.42              | -1503.84            | -20,141.85           |
 
 *20 tỷ đô la trong 10 tháng: Các ETF Bitcoin đã đạt được mục tiêu mà các ETF vàng mất 5 năm để đạt được trong vòng chưa đầy một năm. Nguồn: Dòng tiền đầu tư của quỹ bằng USD. Bloomberg Terminal, Bloomberg L.P., 2024.*
 
@@ -790,129 +759,73 @@ Tư duy của bạn với tư cách là một thương gia cũng rất quan tr�
 #### Hồ sơ 1 – Người khởi đầu
 
 | Thuộc tính | Người khởi đầu |
-
 | -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-
 | **Trạng thái tinh thần** | "thử phương thức thanh toán vật lý đầu tiên", "nhận tiền boa cho nội dung trực tuyến của tôi", "nhắm đến doanh thu rất nhỏ" |
-
 | **Tần suất giao dịch** | "giao dịch đầu tiên để học", "thỉnh thoảng nhận thanh toán" |
-
 | **Ví dụ về loại hình doanh nghiệp** | Nền kinh tế sáng tạo (người sáng tạo nội dung, blog, bài viết, v.v.), tiền boa thỉnh thoảng, bán sản phẩm trực tiếp một lần, hiệp hội, sự kiện một lần |
-
 | **Hình thức thanh toán** | Thông thường là vài xu đến vài euro/đô la; dưới ~300 euro/đô la cho mỗi mặt hàng |
-
 | **Độ phức tạp của cài đặt** | Không có |
-
 | **Ví dụ về giải pháp được đề xuất** | Ví Lightning lưu ký như Wallet of Satoshi hoặc ví không lưu ký như Phoenix |
-
 | **Giao diện thương gia** | Ví Bitcoin Lightning đơn giản: ứng dụng trên điện thoại di động |
-
 | **Giao diện khách hàng** | Mã thanh toán QR Bitcoin, được quét qua ví cá nhân của khách hàng |
-
 | **Phí** | Khách hàng trả phí Bitcoin Lightning cộng với bất kỳ phí ứng dụng nào được áp dụng |
-
 | **Thiết bị điểm bán hàng** | Ứng dụng điện thoại thông minh miễn phí hoặc tùy chọn cho thiết bị đầu cuối vật lý (ví dụ: Bitcoinize) |
-
 | **Quản lý và vai trò** | Quản lý ứng dụng đơn lẻ; phân biệt vai trò tối thiểu |
-
 | **Kế toán xuất khẩu** | Danh sách lịch sử giao dịch cơ bản |
-
 | **API** | Không |
 
 #### Hồ sơ 2 – Thiết yếu
 
 | Thuộc tính | Bản chất |
-
 | -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-
 | **Trạng thái tinh thần** | "Tôi chấp nhận Bitcoin trong doanh nghiệp của mình nhưng tôi không mong đợi khối lượng có ý nghĩa" |
-
 | **Tần suất giao dịch** | Ít giao dịch mỗi tháng |
-
 | **Ví dụ về loại hình doanh nghiệp** | Quán bar, nhà hàng, bán sản phẩm tươi sống hoặc sản phẩm có nguồn gốc trực tiếp, nhiều cửa hàng thuộc một chủ sở hữu, nền kinh tế sáng tạo dành cho nghệ sĩ |
-
 | **Loại thanh toán** | Nói chung dao động từ vài euro/đô la đến vài trăm cho mỗi mặt hàng; dưới ~300 cho mỗi mặt hàng và dưới ~3.000 mỗi tháng |
-
 | **Độ phức tạp của cài đặt** | Tối thiểu (ứng dụng di động) |
-
 | **Ví dụ về giải pháp được đề xuất** | Swiss Bitcoin Pay |
-
 | **Giao diện thương gia** | Ví Bitcoin Lightning đơn giản: ứng dụng trên điện thoại di động; lập hóa đơn đơn giản với thông tin chi tiết tối thiểu |
-
 | **Giao diện khách hàng** | Mã thanh toán QR Bitcoin, được quét qua ví cá nhân của khách hàng |
-
 | **Phí** | Thông thường là <1% khi gửi đến địa chỉ Bitcoin và <1,5% khi chuyển đổi sang tiền pháp định |
-
 | **Thiết bị điểm bán hàng** | Ứng dụng điện thoại thông minh miễn phí hoặc tùy chọn cho thiết bị đầu cuối vật lý (ví dụ: Bitcoinize) |
-
 | **Quản lý và vai trò** | Tùy chọn cho vai trò chỉ bán hàng dành cho nhân viên; bảng điều khiển trực tuyến dành cho quản trị |
-
 | **Xuất kế toán** | Xuất CSV với thông tin chi tiết giao dịch đầy đủ |
-
 | **API** | Có |
 
 #### Hồ sơ 3 – Chuyên gia
 
 | Thuộc tính | Chuyên nghiệp |
-
 | -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-
 | **Trạng thái tinh thần** | - Một phương thức thanh toán giống như bất kỳ phương thức nào khác dành cho thương mại điện tử của tôi - Hoặc quản lý chung cho một nhóm doanh nghiệp sẵn sàng cho khối lượng lớn hơn |
-
 | **Tần suất giao dịch** | Nhiều giao dịch mỗi ngày |
-
 | **Ví dụ về loại hình doanh nghiệp** | Các trang web thương mại điện tử có khối lượng vừa phải, thị trường nhỏ, nhóm cửa hàng vật lý (ví dụ: Click & Collect), hoạt động của SME |
-
 | **Loại thanh toán** | Thường dao động từ vài euro/đô la đến vài trăm; không có giới hạn quy mô thanh toán cố định; dưới 250.000 đô la mỗi năm |
-
 | **Độ phức tạp của cài đặt** | Từ nhẹ đến đầy đủ tính năng (lưu trữ cục bộ hoặc đám mây), thường yêu cầu một cửa hàng thương mại điện tử |
-
 | **Ví dụ về giải pháp được đề xuất** | Máy chủ thanh toán BTC cho thương mại điện tử và/hoặc môi trường vật lý; ZapRite, Musqet hoặc PayWithFlash để thanh toán, Be-BOP cho cửa hàng điện tử tích hợp |
-
 | **Giao diện thương mại** | Trang web (di động và máy tính để bàn) có chức năng chỉnh sửa hóa đơn, tùy chọn giỏ hàng và tạo nút thanh toán; lập hóa đơn tự động với tích hợp thương mại điện tử |
-
 | **Giao diện khách hàng** | Mã thanh toán QR Bitcoin, được quét qua ví cá nhân của khách hàng |
-
 | **Phí** | Kết hợp giữa dịch vụ lưu trữ/dịch vụ mã nguồn mở miễn phí và dịch vụ lưu trữ/dịch vụ Lightning trả phí; phí dịch vụ bao gồm phí Bitcoin Lightning và phí chuyển đổi <1,5% |
-
 | **Thiết bị điểm bán hàng** | Cửa hàng trang web, màn hình vật lý tùy chọn (ví dụ: iPad hiển thị trang web hoặc thiết bị đầu cuối Bitcoin) |
-
 | **Quản lý và vai trò** | Cửa hàng có đầy đủ tính năng với nhiều vai trò quản trị; nhân viên và khách hàng tương tác với hệ thống |
-
 | **Xuất kế toán** | Xuất CSV với thông tin chi tiết giao dịch đầy đủ |
-
 | **API** | Có |
 
 #### Hồ sơ 4 – Doanh nghiệp
 
 | Thuộc tính | Doanh nghiệp |
-
 | -------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-
 | **Trạng thái tinh thần** | - Một phương thức thanh toán chiến lược cho doanh nghiệp - Với một số phát triển để tích hợp vào nền tảng dịch vụ theo các thông số kỹ thuật cụ thể |
-
 | **Tần suất giao dịch** | Giao dịch không giới hạn, tần suất cao |
-
 | **Ví dụ về loại hình doanh nghiệp** | Doanh nghiệp vừa, công ty dịch vụ CNTT, tập đoàn lớn, thị trường lớn |
-
 | **Hình thức thanh toán** | Bất kỳ kích thước hoặc khối lượng nào |
-
 | **Độ phức tạp của cài đặt** | Trung bình đến cao, tùy thuộc vào lựa chọn kiến trúc |
-
 | **Ví dụ về giải pháp được đề xuất** | Kiến trúc hoặc sắp xếp tùy chỉnh các giải pháp lưu trữ SaaS, có khả năng sử dụng dịch vụ LSP (*Nhà cung cấp dịch vụ Lightning*) của bên thứ ba |
-
 | **Giao diện thương gia** | Giao diện front-end và back-end được tùy chỉnh hoàn toàn, tích hợp hoàn toàn vào quy trình và luồng công việc của doanh nghiệp |
-
 | **Giao diện khách hàng** | Từ mã thanh toán QR Bitcoin đến giao diện người dùng hoàn toàn tùy chỉnh và/hoặc tích hợp API |
-
 | **Phí** | Kết hợp giữa phí phát triển nội bộ và phí của bên thứ ba; khách hàng trả phí Bitcoin Lightning cộng với bất kỳ phí giao dịch nào từ nhà cung cấp dịch vụ |
-
 | **Thiết bị điểm bán hàng** | Các giải pháp được thiết kế riêng cho môi trường doanh nghiệp |
-
 | **Quản lý và vai trò** | Các vai trò được tùy chỉnh hoàn toàn trong bán hàng, quản trị, devops, kế toán và tài chính |
-
 | **Xuất kế toán** | Xuất kế toán hoàn toàn tùy chỉnh |
-
 | **API** | Có |
 
 Trong các chương sau, chúng tôi sẽ trình bày chi tiết từng hồ sơ doanh nghiệp và các giải pháp phù hợp với từng doanh nghiệp.
@@ -954,7 +867,7 @@ https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-8405
 https://planb.network/tutorials/wallet/mobile/zeus-3e89603c-501d-439c-8691-d4a0d0de459b
 **Ví LN lưu ký:**
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-c4792842-b046-44f9-a6f1-351191b7cc2b
+https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 ## Điều cốt yếu
 
@@ -986,13 +899,13 @@ Mặc dù hồ sơ Essential không yêu cầu hệ thống kế toán phức t�
 
 Giải pháp kết hợp phù hợp nhất với hồ sơ của bạn có thể là Swiss Bitcoin Pay:
 
-https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 Một giải pháp dễ triển khai khác, nhưng có nhược điểm là phải bảo vệ 100%, là Open Node:
 
-https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 Nếu bạn đã sẵn sàng để bắt tay vào làm và muốn kiểm soát toàn bộ quy trình, phần mềm BTCPay Server là một lựa chọn tuyệt vời. Tuy nhiên, nhược điểm lớn nhất của BTCPay Server là việc thiết lập và quản lý tốn nhiều thời gian và đòi hỏi một trình độ chuyên môn kỹ thuật nhất định, nhưng bạn có thể làm theo hướng dẫn của chúng tôi:
 
-https://planb.network/tutorials/merchant/merchant/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 Cuối cùng, như một giải pháp bổ sung cho các điểm bán hàng thực tế, bạn có thể cân nhắc thiết lập [Bitcoinize PoS](https://bitcoinize.com/).
 
 ## Chuyên nghiệp

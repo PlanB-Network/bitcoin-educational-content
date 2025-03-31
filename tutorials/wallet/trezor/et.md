@@ -78,11 +78,23 @@ Järgmisena näete seda:
 
 ![pilt](assets/9.webp)
 
-Seadmel näete järjest esitatavaid sõnu ükshaaval ja kirjutage need KORRALIKULT ja JÄRJEST üles.
+Teie Trezor kuvab teie 12-sõnalist mnemoonilist fraasi. **See mnemooniline fraas annab täieliku ja piiramatu juurdepääsu kõigile teie bitcoinidele**. Igaüks, kellel on see fraas, võib teie varasid varastada ka ilma füüsilise juurdepääsuta teie Trezorile. 12-sõnaline fraas võimaldab teil taastada juurdepääsu oma bitcoinidele seadme kaotuse, varguse või purunemise korral. Seetõttu on väga oluline see hoolikalt säilitada ja hoida turvalises kohas.
+
+Võite selle üles kirjutada karbis oleva paksu paberi peale või suurema turvalisuse tagamiseks soovitan selle graveerida roostevabast terasest plaadile, et kaitsta seda tulekahjude, üleujutuste või varingute eest.
+
+Lisateabe saamiseks selle kohta, kuidas oma mnemoonilist fraasi õigesti varundada ja hallata, soovitan tungivalt järgida seda teist õpetust, eriti kui olete algaja:
+
+https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 
 ![pilt](assets/10.webp)
 
-Määrake seadme lukustamiseks PIN-kood (see ei ole osa teie seemnest, see on lihtsalt seadme lukustamiseks, et keegi ei pääseks ligi seadmes sisalduvale seemnele).
+Järgmiseks sammuks on PIN-koodi seadistamine. PIN-kood võimaldab teie Trezori avada. Seega pakub see kaitset volitamata füüsilise juurdepääsu eest. See PIN-kood ei osale teie rahakoti krüptograafiliste võtmete tuletamisel. Seega, isegi kui te ei pääse sellele PIN-koodile ligi, võimaldab teie 12- või 24-sõnalise mnemoonilise fraasi omamine teil oma bitcoinidele uuesti juurde pääseda.
+
+Soovitatav on valida võimalikult juhuslik PIN-kood. Samuti veenduge, et salvestate selle koodi erinevasse kohta kui teie Trezor (näiteks paroolihaldurisse).
+
+Võite valida kuni 9 numbrist koosneva PIN-koodi. Soovitan selle teha võimalikult pikaks.
+
 
 ![pilt](assets/11.webp)
 Teil on võimalusi lisada oma rahakotti väärtusetuid münte – ma soovitan seda mitte teha ja hoida ainult Bitcoin'is, nagu ma siin (miks bitcoin) ja siin (miks ainult bitcoin) selgitan.
@@ -92,11 +104,21 @@ Nimeta oma rahakott ja klõpsa "Access Suite":
 
 ![image](assets/13.webp)
 
-Kõige lihtsam on luua rahakott ilma paroolilausega, kuid parim on luua üks paroolilausega (teie päris rahakott) JA üks ilma paroolilausega (teie petterahakott). Iga kord, kui seadmele Trezor Suite kaudu ligi pääsete, küsitakse teilt, kas soovite "rakendada" paroolilauset või mitte.
+Enne jätkamist saate soovi korral lisada BIP39 paroolifraasi. BIP39 paroolifraas on valikuline parool, mille saate vabalt valida ja mis lisatakse teie mnemoonilisele fraasile, et suurendada teie rahakoti turvalisust. Selle funktsiooni aktiveerimisel nõuab juurdepääs teie Bitcoin-rahakotile nii mnemoonilist fraasi kui ka paroolifraasi. Ilma ühe või teiseta poleks võimalik rahakotti taastada.
+
+Enne selle valiku seadistamist oma Trezoris on tungivalt soovitatav lugeda seda artiklit, et täielikult mõista paroolifraasi teoreetilist toimimist ja vältida vigu, mis võivad viia teie bitcoinide kadumiseni:
+
+https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
+Selle aktiveerimiseks tuleb valida valik „Hidden wallet“ ja märkida see vastavasse lahtrisse. Iga kord, kui pääsete oma rahakotile Trezor Suite'i kaudu juurde, küsitakse, kas soovite paroolifraasi rakendada või mitte.
+
 
 ![image](assets/14.webp)
 
-Valisin "Hidden Wallet" ja tippisin välja mõeldud paroolilause "craigwrightisaliarandafraud"
+Samuti on oluline seda paroolifraasi korralikult varundada, samamoodi nagu mnemoonilist fraasi. Selle kaotamine tähendab juurdepääsu kaotamist teie bitcoinidele. Ma soovitan tungivalt mitte tugineda ainult oma mälule, kuna see suurendab ebamõistlikult kaotamise riski. Ideaalne on see üles kirjutada füüsilisele kandjale (paber või metall), mis on mnemoonilisest fraasist eraldatud. See varukoopia tuleks muidugi säilitada teises kohas kui teie mnemooniline fraas, et vältida mõlema samaaegset ohtu.
+
+Et see oleks tõhus, peate valima tugeva, juhusliku paroolifraasi, mis sisaldab kõiki tüüpi märke ja on piisavalt pikk (nagu tugev parool).
+
 
 ![image](assets/15.webp)
 

@@ -1,0 +1,36 @@
+id: 246a47da-eb70-4854-a83f-d9e2bad5aa2a
+
+type: Visual Content
+
+links:
+  download: https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet-meygavox/assets/Meygavox---Bitcoin-recovery-sheet---2025-03-F.pdf
+  view:
+    - en: https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet-meygavox/assets
+    - fr: https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet-meygavox/assets
+    - pt: https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet-meygavox/assets
+    - es: https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet-meygavox/assets
+    - it: https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet-meygavox/assets
+    - de: https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet-meygavox/assets
+    - ja: https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet-meygavox/assets
+    - vi: https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet-meygavox/assets
+    - fi: https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet-meygavox/assets
+    - cs: https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet-meygavox/assets
+    - et: https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet-meygavox/assets
+    - id: https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet-meygavox/assets
+    - nb-NO: https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet-meygavox/assets
+    - ru: https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet-meygavox/assets
+    - zh-Hans: https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet-meygavox/assets
+
+contributor_names:
+  - LoicPandul
+
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-03-22
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0

@@ -33,13 +33,13 @@ Anda tidak perlu menjadi ahli GitHub untuk meninjau konten. Meskipun akan lebih 
 
 Namun, jika Anda tidak terbiasa dengan Git dan GitHub dan ingin mempelajari lebih lanjut, Anda dapat melihat artikel pengantar kami tentang alat bantu ini:
 
-https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 ## 1. Membuat akun
 
 
 - Buat akun di [GitHub](https://github.com/) untuk mulai berkontribusi. Jika Anda menginginkan panduan untuk membuat akun GitHub, kami juga memiliki tutorial terperinci:
 
-https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 - Anda juga memerlukan akun di aplikasi perpesanan [Telegram](https://telegram.org/).
 

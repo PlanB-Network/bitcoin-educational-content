@@ -112,7 +112,4 @@ Antonio氏は、Liquid Network上の分散型トランザクションのため�
 ## 結論
 
 <chapterId>e30a5587-d74b-4360-87fb-bbf3de1b0ba8</chapterId>
-
-コース修了おめでとう！
-
-皆様が学習の旅の節目を無事に迎えられたことに、私たちは感激しています。皆さんの献身的な取り組みにより、プロとしての成長に役立つ貴重な知識とスキルが身につきました。
+<isCourseConclusion>true</isCourseConclusion>

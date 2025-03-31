@@ -1247,7 +1247,4 @@ Dalším krokem bude kumulativní kvíz, který se týká všech předchozích �
 ## Závěr
 
 <chapterId>15f62056-c69c-467e-9565-af48d439a1f5</chapterId>
-
-Gratulujeme k dokončení kurzu!
-
-Jsme nadšeni, že jste úspěšně dosáhli tohoto milníku na své cestě za vzděláním. Díky svému nasazení a angažovanosti jste získali cenné znalosti a dovednosti, které vám dobře poslouží ve vašem profesním rozvoji.
+<isCourseConclusion>true</isCourseConclusion>

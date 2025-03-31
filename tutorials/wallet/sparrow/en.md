@@ -4,7 +4,7 @@ description: Installing, configuring and using Sparrow Wallet
 ---
 ![cover](assets/cover.webp)
 
-Sparrow Wallet is a self-custody Bitcoin portfolio management software developed by Craig Raw. This open-source software is appreciated by bitcoiners for its many features and intuitive Interface.
+Sparrow Wallet is a self-custody Bitcoin wallet management software developed by Craig Raw. This open-source software is appreciated by bitcoiners for its many features and intuitive Interface.
 
 There are two ways to use Sparrow:
 
@@ -176,7 +176,7 @@ The connection is established. A green tick will appear in the bottom right-hand
 
 ### Connecting to an Electrum server 🔵
 
-The final option for connecting is to use a remote Electrum server. This method lets you connect to your node via Tor from another device, and takes advantage of an indexer to browse your portfolios on Sparrow more quickly. It's particularly suitable if you have a node-in-a-box solution like Umbrel or Start9, which allow you to install Electrs with a single click.
+The final option for connecting is to use a remote Electrum server. This method lets you connect to your node via Tor from another device, and takes advantage of an indexer to browse your wallets on Sparrow more quickly. It's particularly suitable if you have a node-in-a-box solution like Umbrel or Start9, which allow you to install Electrs with a single click.
 
 To do this, obtain the Tor `.onion' address of your Electrum server. With Umbrel, for example, you'll find it in the Electrs application.
 
@@ -194,7 +194,7 @@ The connection is confirmed. If you close this window, a blue tick will appear i
 
 ![Image](assets/fr/20.webp)
 
-## Create a hot portfolio
+## Create a hot wallet
 
 Now that Sparrow Wallet is configured to communicate with the Bitcoin network, you're ready to create your first wallet. This section guides you through the creation of a hot wallet, i.e. a wallet whose private keys are stored on your computer. Since your computer is a complex machine connected to the Internet, it presents a very large attack surface. Consequently, a hot wallet should only be used for limited amounts of bitcoins. To store larger amounts, opt for a secure wallet with a Hardware Wallet. If this is what you're looking for, you can skip ahead to the next section.
 
@@ -202,11 +202,11 @@ To create a hot wallet, from the Sparrow Wallet home screen, click on the "*File
 
 ![Image](assets/fr/21.webp)
 
-Enter a name for your portfolio and click on "*Create Wallet*".
+Enter a name for your wallet and click on "*Create Wallet*".
 
 ![Image](assets/fr/22.webp)
 
-At the top of the Interface, you can choose whether to create a "*Single Signature*" or "*Multi Signature*" portfolio. Just below, select the type of script to lock your UTXOs. I recommend you use the latest standard: "*Taproot (P2TR)*".
+At the top of the Interface, you can choose whether to create a "*Single Signature*" or "*Multi Signature*" wallet. Just below, select the type of script to lock your UTXOs. I recommend you use the latest standard: "*Taproot (P2TR)*".
 
 ![Image](assets/fr/23.webp)
 
@@ -214,7 +214,7 @@ Then click on "*New or Imported Software Wallet*".
 
 ![Image](assets/fr/24.webp)
 
-Choose the BIP39 standard, as it is supported by virtually all Bitcoin portfolio software. Next, choose the length of your recovery phrase. Currently, a 12-word phrase is sufficient, as both offer similar security, but the 12-word phrase is simpler to save.
+Choose the BIP39 standard, as it is supported by virtually all Bitcoin wallet software. Next, choose the length of your recovery phrase. Currently, a 12-word phrase is sufficient, as both offer similar security, but the 12-word phrase is simpler to save.
 
 ![Image](assets/fr/25.webp)
 
@@ -242,23 +242,23 @@ Re-enter your 12 words to confirm that they have been saved correctly, then clic
 
 ![Image](assets/fr/28.webp)
 
-Then click on "*Import Keystore*" to generate your portfolio keys from the mnemonic phrase.
+Then click on "*Import Keystore*" to generate your wallet keys from the mnemonic phrase.
 
 ![Image](assets/fr/29.webp)
 
-Click on "*Apply*" to finalize portfolio creation.
+Click on "*Apply*" to finalize wallet creation.
 
 ![Image](assets/fr/30.webp)
 
-Set a strong password to secure access to your Sparrow portfolio. It's a good idea to keep this password in a password manager, so you don't forget it. Note that this password plays no part in the derivation of your keys. It is only used to access your wallet via Sparrow Wallet. So, even without this password, your mnemonic phrase will suffice to access your bitcoins from any BIP39-compatible application.
+Set a strong password to secure access to your Sparrow wallet. It's a good idea to keep this password in a password manager, so you don't forget it. Note that this password plays no part in the derivation of your keys. It is only used to access your wallet via Sparrow Wallet. So, even without this password, your mnemonic phrase will suffice to access your bitcoins from any BIP39-compatible application.
 
 ![Image](assets/fr/31.webp)
 
 Your hot wallet is now created. You can skip to the *Receiving Bitcoins* section of this tutorial if you don't plan to use a Hardware Wallet with Sparrow.
 
-## Managing a cold portfolio
+## Managing a cold wallet
 
-The second way to use Sparrow Wallet is to set it up as a portfolio manager with a Hardware Wallet. In this configuration, the private keys of your Bitcoin wallet remain exclusively on the Hardware Wallet, while Sparrow only accesses the public information. This approach offers a higher level of security than the hot wallets discussed above, as the private keys are kept on a specialized device, often with a secure chip, which is not connected to the Internet and therefore presents a much smaller attack surface than a traditional computer.
+The second way to use Sparrow Wallet is to set it up as a wallet manager with a Hardware Wallet. In this configuration, the private keys of your Bitcoin wallet remain exclusively on the Hardware Wallet, while Sparrow only accesses the public information. This approach offers a higher level of security than the hot wallets discussed above, as the private keys are kept on a specialized device, often with a secure chip, which is not connected to the Internet and therefore presents a much smaller attack surface than a traditional computer.
 
 There are two main ways to connect your Hardware Wallet to Sparrow:
 
@@ -272,15 +272,15 @@ For this tutorial, I'll be using a Ledger Nano S with a cable, but the procedure
 
 Before starting, make sure that the wallet is already configured on your Hardware Wallet. If you're using a wired connection, connect it to your computer via the cable.
 
-To import the so-called "*Keystore*" (the public information needed to manage the portfolio) into Sparrow Wallet, click on the "*File*" tab, then on "*New Wallet*".
+To import the so-called "*Keystore*" (the public information needed to manage the wallet) into Sparrow Wallet, click on the "*File*" tab, then on "*New Wallet*".
 
 ![Image](assets/fr/32.webp)
 
-Name your portfolio and click on "*Create Wallet*". I advise you to enter the name of your Hardware Wallet to identify it easily later.
+Name your wallet and click on "*Create Wallet*". I advise you to enter the name of your Hardware Wallet to identify it easily later.
 
 ![Image](assets/fr/33.webp)
 
-At the top of the Interface, choose between a "*Single Signature*" or "*Multi Signature*" portfolio. For our example, we'll configure a single-sig portfolio.
+At the top of the Interface, choose between a "*Single Signature*" or "*Multi Signature*" wallet. For our example, we'll configure a single-sig wallet.
 
 Just below, select the type of script to lock your UTXOs. If your Hardware Wallet supports it, I suggest you choose "*Taproot (P2TR)*".
 
@@ -302,7 +302,7 @@ Select "*Import Keystore*".
 
 ![Image](assets/fr/38.webp)
 
-Click on "*Apply*" to finalize portfolio creation.
+Click on "*Apply*" to finalize wallet creation.
 
 ![Image](assets/fr/39.webp)
 
@@ -310,7 +310,7 @@ Set a strong password to secure access to your Sparrow wallet. This password wil
 
 ![Image](assets/fr/40.webp)
 
-Your management portfolio is now configured on Sparrow.
+Your management wallet is now configured on Sparrow.
 
 ![Image](assets/fr/41.webp)
 
@@ -370,7 +370,7 @@ Adjust the fee rate according to current market conditions. You can do this by e
 
 ![Image](assets/fr/53.webp)
 
-At the bottom of the Interface, you can choose between "*Efficiency*" and "*Privacy*". In my case, the "*Privacy*" option is not available, as I only have one UTXO in this portfolio. "*Efficiency*" corresponds to a classic transaction, while "*Privacy*" is a Stonewall-type transaction, a transaction structure that reinforces your confidentiality by simulating a mini-CoinJoin, which makes chain analysis more complex.
+At the bottom of the Interface, you can choose between "*Efficiency*" and "*Privacy*". In my case, the "*Privacy*" option is not available, as I only have one UTXO in this wallet. "*Efficiency*" corresponds to a classic transaction, while "*Privacy*" is a Stonewall-type transaction, a transaction structure that reinforces your confidentiality by simulating a mini-CoinJoin, which makes chain analysis more complex.
 
 ![Image](assets/fr/54.webp)
 
@@ -406,24 +406,24 @@ Your transaction is now broadcast and awaiting confirmation.
 
 ![video](https://youtu.be/7QCKSPIq0Ac)
 
-## Managing and configuring portfolios on Sparrow
+## Managing and configuring wallets on Sparrow
 
-In the "*Settings*" tab, you will find detailed information on your portfolio, such as :
+In the "*Settings*" tab, you will find detailed information on your wallet, such as :
 
 - Portfolio type (single-sig or multi-sig) ;
 - Type of script used ;
-- The name you have assigned to the portfolio ;
+- The name you have assigned to the wallet ;
 - Master key imprint;
 - The bypass path ;
 - The account's extended public key.
 
 ![Image](assets/fr/60.webp)
 
-The "*Export*" button allows you to export your portfolio information so that you can use it in other software while retaining the information set up in Sparrow.
+The "*Export*" button allows you to export your wallet information so that you can use it in other software while retaining the information set up in Sparrow.
 
-The "*Add Account*" button lets you add an additional account to your portfolio. An account corresponds to a separate set of inbox addresses. This feature can be useful, for example, if you wish to separate a personal and a business account, with a single mnemonic phrase.
+The "*Add Account*" button lets you add an additional account to your wallet. An account corresponds to a separate set of inbox addresses. This feature can be useful, for example, if you wish to separate a personal and a business account, with a single mnemonic phrase.
 
-The "*Advanced*" button gives access to advanced settings, such as customizing Sparrow's address search and changing the portfolio password.
+The "*Advanced*" button gives access to advanced settings, such as customizing Sparrow's address search and changing the wallet password.
 
 ![Image](assets/fr/61.webp)
 
@@ -431,7 +431,7 @@ When you close Sparrow Wallet, your wallet locks automatically. The next time yo
 
 ![Image](assets/fr/62.webp)
 
-If this window does not open, or if you wish to open another portfolio on Sparrow, click on the "*File*" tab and select "*Open Wallet*".
+If this window does not open, or if you wish to open another wallet on Sparrow, click on the "*File*" tab and select "*Open Wallet*".
 
 ![Image](assets/fr/63.webp)
 
@@ -443,7 +443,7 @@ In the "*File*" menu under "*Settings*", you'll find the Bitcoin network connect
 
 ![Image](assets/fr/65.webp)
 
-The "*View*" tab offers customization options and access to some useful commands, such as "*Refresh Wallet*", which refreshes the transaction search for your portfolio.
+The "*View*" tab offers customization options and access to some useful commands, such as "*Refresh Wallet*", which refreshes the transaction search for your wallet.
 
 ![Image](assets/fr/66.webp)
 
@@ -457,7 +457,7 @@ The "*Tools*" tab groups together several advanced tools, including :
 
 ![Image](assets/fr/67.webp)
 
-You now know all about Sparrow Wallet software, an excellent tool for managing your Bitcoin portfolios on a daily basis.
+You now know all about Sparrow Wallet software, an excellent tool for managing your Bitcoin wallets on a daily basis.
 
 If you found this tutorial useful, I'd be very grateful if you'd leave a green thumb below. Feel free to share it on your social networks. Thank you very much!
 

@@ -27,14 +27,19 @@ Go to [the official Sparrow Wallet download page](https://sparrowwallet.com/down
 It's important to check the integrity and authenticity of the software before installing it. If you don't know how to do this, you'll find a complete tutorial here :
 
 https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 Once Sparrow has been installed, you can skip the initial explanatory screens and go straight to the connection management screen.
 
 ![Image](assets/fr/02.webp)
 
+![video](https://www.youtube.com/watch?v=MyDMvjGFdDE)
+
+
+![video](https://youtu.be/IThaolnDgSo)
+
 ## Connecting to the Bitcoin network
 
 To interact with the Bitcoin network and broadcast your transactions, Sparrow must be connected to a Bitcoin node. There are three main ways to establish this connection:
-
 
 - 🟡 Using a public node, i.e. connecting to a third-party node that allows such connections. If you don't have your own Bitcoin node, this option lets you get started with Sparrow quickly. However, the node you connect to will see all your transactions, which could compromise your confidentiality. Having control over your keys is essential, but having your own node is even better. So use this option only if you're just starting out, while being aware of the risks to your privacy.
 - 🟢 Connecting to a Bitcoin Core node. If you have your own Bitcoin Core node, you can connect it to Sparrow Wallet, either locally if Bitcoin Core is installed on the same machine, or remotely.
@@ -69,7 +74,9 @@ Please note that if you use a pruned Bitcoin Core node, you won't be able to res
 To configure a Bitcoin Core node, you can consult one of the following tutorials, depending on your operating system:
 
 https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+
 https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+
 On Sparrow, go to the "*Bitcoin Core*" tab.
 
 ![Image](assets/fr/07.webp)
@@ -165,6 +172,8 @@ The connection is established. A green tick will appear in the bottom right-hand
 
 ![Image](assets/fr/16.webp)
 
+![video](https://www.youtube.com/watch?v=9Aw6OAXxE_Y)
+
 ### Connecting to an Electrum server 🔵
 
 The final option for connecting is to use a remote Electrum server. This method lets you connect to your node via Tor from another device, and takes advantage of an indexer to browse your portfolios on Sparrow more quickly. It's particularly suitable if you have a node-in-a-box solution like Umbrel or Start9, which allow you to install Electrs with a single click.
@@ -185,7 +194,7 @@ The connection is confirmed. If you close this window, a blue tick will appear i
 
 ![Image](assets/fr/20.webp)
 
-## Create a warm portfolio
+## Create a hot portfolio
 
 Now that Sparrow Wallet is configured to communicate with the Bitcoin network, you're ready to create your first wallet. This section guides you through the creation of a hot wallet, i.e. a wallet whose private keys are stored on your computer. Since your computer is a complex machine connected to the Internet, it presents a very large attack surface. Consequently, a hot wallet should only be used for limited amounts of bitcoins. To store larger amounts, opt for a secure wallet with a Hardware Wallet. If this is what you're looking for, you can skip ahead to the next section.
 
@@ -395,10 +404,11 @@ Your transaction is now broadcast and awaiting confirmation.
 
 ![Image](assets/fr/59.webp)
 
+![video](https://youtu.be/7QCKSPIq0Ac)
+
 ## Managing and configuring portfolios on Sparrow
 
 In the "*Settings*" tab, you will find detailed information on your portfolio, such as :
-
 
 - Portfolio type (single-sig or multi-sig) ;
 - Type of script used ;
@@ -438,7 +448,6 @@ The "*View*" tab offers customization options and access to some useful commands
 ![Image](assets/fr/66.webp)
 
 The "*Tools*" tab groups together several advanced tools, including :
-
 
 - "*Sign/Verify Message*" allows you to prove possession of a receiving address or verify a signature.
 - "*Send To Many*" offers a simplified Interface for performing transactions to multiple receiving addresses at once, which is convenient for batch spending.

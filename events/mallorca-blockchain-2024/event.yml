@@ -1,25 +1,26 @@
 id: 89c6315b-eb35-4e9a-aa98-fb99d3792c73
 start_date: 2024-07-11
 end_date: 2024-07-14
-address_line_1: Templin, Germany
+address_city_country: Templin, Germany
 address_line_2: zwischen, Templin
 address_line_3:
 name: Sommerfest Zitadelle Uckermark
-builder: Mallorca Blockchain
 type: conference
 book_online: false
 book_in_person: false
 price_dollars: 0
-description: A small but a nice Bitcoiner camp, the firewood is there, the lawn is mowed, the grill and the stereo system have been thoroughly checked to make sure they are working properly.
+description: A small but a nice Bitcoiner camp, the firewood is there, the lawn is
+  mowed, the grill and the stereo system have been thoroughly checked to make sure
+  they are working properly.
 language:
   - en
   - de
 links:
   website: https://x.com/ZitadelleUM
   replay_url:
-  live_url :
-tags:
-  - bitcoiner
-  - general
-
+  live_url:
 project_id: 20e43d58-a2ea-4c6f-84c5-7a7a634b7412
+tags:
+  - case-studies
+  - self-sovereignty
+  - user-friendly

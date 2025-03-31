@@ -557,15 +557,18 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 例如，您可以使用麻雀钱包作为热钱包：
 
-https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - 第 2\*\*级，您使用的是实体钱包，并已确保 12/24 个单词列表的安全。这通常被称为 "冷钱包"，因为您的密钥存储在一个未连接互联网的设备上。在这种情况下，您始终需要用设备签署每一笔交易，这使得您的资金在日常使用中不那么容易获取。
 
 例如，您可以使用 Ledger、Satochip 或 Tapsigner：
 
 https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
 https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+
 https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+
 ![image](assets/en/32.webp)
 
 - 第 3 级**，您使用第 1 或第 2 级钱包，但添加了额外的口令。在这种情况下，请注意您需要同时备份 12/24 个单词列表**和\*\*您的口令。理想情况下，这两个信息存储在两个不同的地方。
@@ -573,6 +576,7 @@ https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 进一步了解 BIP39 密码的使用和功能：
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 ![image](assets/en/33.webp)
 
 - 第 4\*\*级，使用一组钱包创建 "多重签名 "钱包，这意味着进行交易需要多重签名。在这种情况下，要注意多重签名的每一部分都应存储在不同的位置。这种方法通常被认为是比特币的高级用途，主要用于管理大额资金和企业用途。
@@ -829,7 +833,7 @@ https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 ![image](assets/en/53.webp)
 
-第二种方案是使用专用硬件，例如配备足够大固态硬盘（约 1TB）的 Raspberry Pi 4。如果你必须购买硬件，这另一种选择的成本会更高，但每年的耗电量却略低于 10,00 欧元。
+第二种方案是使用专用硬件，例如配备足够大固态硬盘（约 2TB）的 Raspberry Pi 4。如果你必须购买硬件，这另一种选择的成本会更高，但每年的耗电量却略低于 10,00 欧元。
 
 从带宽角度看，每 10 分钟一个 1MB 的数据块，大约相当于每月 5GB。
 
@@ -1044,6 +1048,8 @@ https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 ![image](assets/en/71.webp)
 
+
+
 ## 通过工作获取比特币
 
 <chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>
@@ -1074,13 +1080,17 @@ https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 - 简单的在线解决方案：OpenNode
 
-https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - 业余商家的解决方案瑞士比特币支付
 
-https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - 为大型机构或热衷于比特币的用户提供解决方案：BTCpay 服务器
+
+为了更深入地了解这个主题，我们推荐我们的 BIZ101 培训课程！了解如何有效地将比特币整合到您的公司财务中，根据您的组织概况接受比特币作为支付方式，并了解相关的税务和会计要求：
+
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## 用比特币储蓄
 

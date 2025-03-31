@@ -1,0 +1,9 @@
+question: Jaká je hlavní výhoda používání správce hesel?
+answer: Pamatovat si pouze jedno hlavní heslo.
+wrong_answers:
+  - Už nikdy nevytvářet nová hesla.
+  - Pomáhat zapamatovat si všechna hesla pomocí mnemotechnických pomůcek.
+  - Odstranit potřebu mít online účty.
+explanation: |
+  Uživatel si musí pamatovat pouze jedno heslo, aby získal přístup ke všem ostatním.
+reviewed: false

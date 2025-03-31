@@ -1,0 +1,9 @@
+question: What are the main features of a password manager?
+answer: Store, generate, and organize passwords.
+wrong_answers:
+  - Analyze and remove viruses.
+  - Backup and organize personal documents.
+  - Optimize connection speed.
+explanation: |
+  The essential functions include storing, generating, and organizing passwords.
+reviewed: false

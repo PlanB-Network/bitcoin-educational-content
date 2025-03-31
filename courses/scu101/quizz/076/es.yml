@@ -1,0 +1,9 @@
+question: ¿Por qué se recomienda utilizar contraseñas generadas aleatoriamente?
+answer: Para resistir ataques de fuerza bruta.
+wrong_answers:
+  - Para facilitar su memorización.
+  - Para reducir su complejidad.
+  - Para resistir ataques Sybil.
+explanation: |
+  La aleatoriedad hace que las contraseñas sean más difíciles de adivinar mediante prueba y error, fortaleciendo así su seguridad contra ataques de fuerza bruta.
+reviewed: false

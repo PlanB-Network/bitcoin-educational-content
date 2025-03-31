@@ -29,7 +29,9 @@ Greenは非常に使いやすいアプリケーションで、特に初心者に
 このチュートリアルでは、時計専用のポートフォリオを作成することに集中します。Greenの他の使い方については、他の専用チュートリアルをご参照ください：
 
 https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+
 https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+
 ## Blockstream Greenアプリケーションのインストールと設定
 
 最初のステップは、もちろんGreenアプリケーションをダウンロードすることです。アプリケーションストアにアクセスしてください：

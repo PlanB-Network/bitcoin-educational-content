@@ -11,6 +11,7 @@ Peněženky Lightning, stejně jako všechny mobilní peněženky, jsou považov
 Pokud se chcete dozvědět více o síti Lightning a pochopit, jak technicky funguje, doporučuji vám absolvovat tento kurz:
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 V tomto návodu se podíváme na **Lipa**, jednoduchou a efektivní peněženku Lightning vyvinutou ve Švýcarsku.
 
 ## Představujeme společnost Lipa
@@ -91,6 +92,7 @@ Chcete-li zálohovat peněženku, přejděte na kartu "Nastavení" a vyberte mo�
 Další informace o tom, jak správně zálohovat a spravovat fázi obnovení, doporučuji sledovat v tomto dalším návodu, zejména pokud jste začátečníci:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 ## Přijímání bitcoinů
 
 Chcete-li získat bitcoiny, máte dvě možnosti. Chcete-li se k těmto možnostem dostat, vraťte se na domovskou obrazovku a stáhněte obrazovku dolů. Poté můžete buď :

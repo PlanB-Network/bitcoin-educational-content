@@ -5,10 +5,6 @@ links:
   website: https://lipa.swiss/
   twitter: https://x.com/lipa_btc
 
-tags:
-  - offchain
-  - wallets
-
 category: wallet
 
 # Proofreading metadata
@@ -17,6 +13,12 @@ proofreading:
   - language: fr
     last_contribution_date: 2025-02-11
     urgency: 1
-    contributors_id:
+    contributor_names:
       - LoicPandul
     reward:
+tags:
+  - business
+  - adoption
+  - wallets
+contributor_names:
+  - LoicPandul

@@ -25,6 +25,8 @@ Vous n'avez besoin d'aucune connaissance spécifique pour commencer. En effet, l
 
 <chapterId>27e3fb60-4b50-556b-9e70-c4f5475c121d</chapterId>
 
+![Introduction](https://youtu.be/PdiL6_1wbQY)
+
 ### Bienvenue dans un nouveau paradigme monétaire et technologique.
 
 Le bitcoin est une révolution technologique et monétaire, capable de nous faire remettre en question notre rapport à l'argent et à la société. En effet, le bitcoin (appelé BTC) est une monnaie **neutre** et **décentralisée**, c'est-à-dire qu'elle n'est contrôlée par aucune entité ou institution. C'est une innovation qui va au-delà d'une simple "monnaie internet" : c'est à la fois un protocole informatique (le bitcoin) et une unité monétaire (le bitcoin).
@@ -86,6 +88,8 @@ L'important ici est de comprendre cette nouvelle technologie de manière génér
 
 Avant que le terme "bitcoin" ne devienne synonyme de monnaie numérique et de transformation financière, une série d'idées, d'innovations et de mouvements sociaux ont jeté les bases de sa création. Parmi ceux-ci, le mouvement cypherpunk se distingue comme un élément clé de la préhistoire du bitcoin.
 
+![La préhistoire du Bitcoin](https://youtu.be/ljHLhTzrLsw)
+
 ### Cypherpunks : visionnaires du monde numérique
 
 ![image](assets/en/03.webp)
@@ -145,6 +149,8 @@ https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 ## L'argent à travers l'histoire
 
 <chapterId>c838e64d-d59f-5703-8c74-ea5e8c4fdd31</chapterId>
+
+![La monnaie](https://youtu.be/LslJVNCvHhA)
 
 L'évolution de la monnaie est un aspect fascinant de l'histoire de l'humanité qui reflète l'ingéniosité des civilisations à travers les âges pour répondre à des besoins économiques en constante évolution.
 
@@ -274,6 +280,8 @@ Pour comprendre l'impact de l'inflation sur l'épargne, il faut prendre en compt
 - Avec 20 %, vous en perdez presque la moitié en trois ans.
 
 Lorsque l'hyperinflation se produit, il ne s'agit plus de 20 % par an, mais de 20 % par mois, voire, à son apogée, par JOUR. Faire l'expérience d'une inflation de 100 % par jour pendant trois jours est un scénario réaliste qui s'est produit et continue de se produire dans notre monde.
+
+![Les hyperinflation](https://youtu.be/cYKmgflsy_8)
 
 Il est essentiel de comprendre que l'hyperinflation n'est pas le fruit du hasard, du capitalisme ou d'attaques politiques de la part d'opposants. L'hyperinflation est la conséquence directe des mauvaises décisions monétaires prises par les banquiers centraux et les politiciens. Ses séquelles affectent chaque citoyen et même les générations futures. Nous vous invitons à consacrer cinq minutes à la lecture du tableau suivant pour vous rendre compte de l'impact réel de ce phénomène (le cours ECO204 approfondit ce sujet). Comme vous pouvez le constater, aucun pays ni aucune monnaie n'est potentiellement à l'abri.
 
@@ -472,6 +480,8 @@ Dans la section 2, nous allons explorer le stockage et la sécurité des bitcoin
 
 ### Démystifier les portefeuilles Bitcoin
 
+![comprendre les portefeuilles Bitcoin](https://youtu.be/GsnX7qdODK8)
+
 Les portefeuilles permettent d'interagir avec le réseau Bitcoin de trois manières principales :
 
 - Pour recevoir des bitcoins
@@ -532,6 +542,8 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 <chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>
 
+![Choisir sa sécurité](https://youtu.be/qhjEJuJHRf8)
+
 ### Poser les bonnes questions avant de commencer
 
 Lorsque vous possédez des bitcoins, la sécurité de vos fonds est une préoccupation majeure. La meilleure façon de définir un niveau de sécurité adapté à votre situation est de vous poser une série de questions :
@@ -557,15 +569,18 @@ Ci-dessous, nous définirons plusieurs niveaux de sécurité :
 
 Par exemple, vous pouvez utiliser Sparrow Wallet comme hot wallet :
 
-https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - Niveau 2\*\*, vous utilisez un portefeuille physique et vous avez sécurisé votre liste de 12/24 mots. Ce type de portefeuille est souvent appelé "cold Wallet", car vos clés sont stockées sur un appareil qui n'est pas connecté à l'internet. Dans ce cas, vous devrez toujours signer chaque transaction avec votre appareil, ce qui rend vos fonds moins accessibles au quotidien.
 
 Par exemple, vous pouvez utiliser un Ledger, un Satochip ou un Tapsigner :
 
 https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
 https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+
 https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+
 ![image](assets/en/32.webp)
 
 - Niveau 3**, vous utilisez un portefeuille de niveau 1 ou 2, mais vous avez ajouté une phrase de passe supplémentaire. Dans ce cas, vous devez sauvegarder à la fois la liste des 12/24 mots **et\*\* votre phrase de passe. Idéalement, ces deux informations sont stockées dans deux endroits différents.
@@ -573,6 +588,7 @@ https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 Pour en savoir plus sur l'utilisation et le fonctionnement de la phrase de passe BIP39 :
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 ![image](assets/en/33.webp)
 
 - Niveau 4\*\*, vous utilisez un ensemble de portefeuilles pour créer un portefeuille "multisig", ce qui signifie que plusieurs signatures sont nécessaires pour effectuer une transaction. Dans ce cas, il faut savoir que chaque partie de la signature multiple doit être stockée à des endroits différents. Cette approche est souvent considérée comme une utilisation avancée de Bitcoin, principalement pour la gestion de montants importants et pour les entreprises.
@@ -592,6 +608,8 @@ Ceci étant dit, nous pouvons maintenant passer à la section suivante où nous 
 ## Mise en place d'un portefeuille
 
 <chapterId>615519eb-4565-557d-86a0-021badf7616f</chapterId>
+
+![mettre en place un portefeuille](https://youtu.be/2MRRERHm7ZM)
 
 La sécurité de vos bitcoins revêt une importance cruciale, et une simple erreur peut avoir des conséquences désastreuses. C'est pourquoi il est nécessaire de connaître les bonnes pratiques à adopter lors de la création d'un nouveau portefeuille Bitcoin.
 
@@ -638,6 +656,8 @@ https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 <chapterId>f58cd446-c202-5eff-aab7-e61cc40e5c06</chapterId>
 
+![passer l'épreuve du temps](https://youtu.be/p8eZPt_XnwI)
+
 Comme toute forme de richesse, vos bitcoins doivent être protégés contre la perte, le vol et la dégradation, surtout à long terme. La protection de vos bitcoins nécessite quelques connaissances techniques et une compréhension des risques associés, ce qui ouvre la voie à deux stratégies principales : la gravure de vos bitcoins sur une plaque d'acier et l'établissement d'un plan d'héritage.
 
 ### Gravure sur acier
@@ -666,6 +686,8 @@ De même, évitez de donner ouvertement des détails sur votre système de sécu
 
 ### Résumé sur la sécurité des portefeuilles Bitcoin
 
+![Conclusion chapitre 2](https://youtu.be/U28-oh950Dw)
+
 Les portefeuilles bitcoins sont des logiciels qui permettent de stocker des bitcoins et d'effectuer des transactions. Il en existe plusieurs types :
 
 - portefeuilles mobiles ou PC, pratiques pour les petits montants et/ou les dépenses régulières ;
@@ -689,6 +711,8 @@ Maintenant que nous avons abordé les bases des portefeuilles Bitcoin et les mei
 ## Lancement de Bitcoin
 
 <chapterId>b7561082-8943-519d-95d1-a5f60dd2686d</chapterId>
+
+![Lancement de Bitcoin](https://youtu.be/GdeLB39QdUQ)
 
 ### Commençons par un peu d'histoire.
 
@@ -743,6 +767,8 @@ Pour en savoir plus sur les écrits de Satoshi Nakamoto, nous vous recommandons 
 ## Transactions en bitcoins
 
 <chapterId>03482644-5473-590b-975b-b43bb65eac21</chapterId>
+
+![Explication d'une transaction](https://youtu.be/GJlUqtGzxLk)
 
 Une transaction bitcoin est simplement un transfert de propriété de bitcoins par l'utilisation d'une adresse bitcoin. Pour décrire ce processus, présentons deux protagonistes : Alice et Bob. Alice souhaite acquérir des bitcoins, alors que Bob en possède déjà.
 
@@ -802,6 +828,8 @@ Examinons de plus près le fonctionnement d'un nœud Bitcoin.
 
 <chapterId>8533cebc-f799-528b-89df-8d75d4c37f1c</chapterId>
 
+![Les nœuds](https://youtu.be/3vQmDJ4_ooM)
+
 Les nœuds sont un élément fondamental de l'architecture du réseau Bitcoin, car ils remplissent diverses fonctions cruciales :
 
 - Maintien d'une copie de la chaîne de blocs Bitcoin
@@ -829,7 +857,7 @@ Plusieurs options s'offrent à vous lorsque vous souhaitez installer votre propr
 
 ![image](assets/en/53.webp)
 
-Une deuxième option consiste à utiliser un matériel dédié à cet effet, tel qu'un Raspberry Pi 4 équipé d'un disque SSD suffisamment grand (environ 1 To). Cette autre option est plus coûteuse si vous devez acheter le matériel, mais elle représente un peu moins de 10,00 € par an en termes de consommation d'électricité.
+Une deuxième option consiste à utiliser un matériel dédié à cet effet, tel qu'un Raspberry Pi 4 équipé d'un disque SSD suffisamment grand (environ 2 To). Cette autre option est plus coûteuse si vous devez acheter le matériel, mais elle représente un peu moins de 10,00 € par an en termes de consommation d'électricité.
 
 Du point de vue de la largeur de bande, si l'on considère un bloc de 1 Mo toutes les 10 minutes, cela correspond approximativement à 5 Go par mois.
 
@@ -850,6 +878,8 @@ Suite à cette victoire, les nœuds ont activé une mise à jour appelée SegWit
 ## Mineurs
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
+
+![les mineurs](https://youtu.be/Lr5L3uy244w)
 
 **Les mineurs sécurisent le réseau et ajoutent des transactions aux blocs. Ils utilisent de l'électricité grâce à des machines ASIC pour résoudre la preuve de travail du bitcoin**
 
@@ -932,6 +962,8 @@ https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 <chapterId>4b227ae6-443a-5739-b443-60b7931130d9</chapterId>
 
+![Bitcoin & écologie](https://youtu.be/nV2b2xAMfmU)
+
 Dans la section précédente, nous avons compris que la sécurité du protocole Bitcoin repose sur une forte consommation d'énergie pour produire un registre public des transactions sans tiers de confiance. Dans les médias grand public, le coût global de l'énergie est souvent comparé à la consommation d'électricité d'un petit pays. Mais cette comparaison a-t-elle un sens ? Est-il pertinent de comprendre les raisons de ces coûts ?
 
 ### Les coûts énergétiques du bitcoin.
@@ -978,6 +1010,8 @@ Ils ne savent pas que Bitcoin encourage l'utilisation d'énergies vertes. Par ex
 
 ### Bref résumé des caractéristiques techniques du bitcoin
 
+![conclusion chapitre 3](https://youtu.be/gqILoXTUKdc)
+
 Satoshi Nakamoto a publié le protocole Bitcoin en janvier 2009, qui a depuis évolué grâce à une communauté croissante de développeurs, de mineurs et d'utilisateurs de nœuds Bitcoin. En conservant leur propre copie de la blockchain Bitcoin, un registre public de toutes les transactions Bitcoin, ces nœuds peuvent garantir la validité des transactions conformément aux règles de consensus de Bitcoin. Ils veillent notamment à ce que les mineurs produisent des blocs valides, qui contiennent des milliers de transactions en attente.
 
 En moyenne, un bloc est créé toutes les 10 minutes, et le mineur qui trouve un hachage valide pour le bloc suivant est récompensé par le protocole avec un montant défini par les règles de consensus, ainsi qu'avec les frais de transaction de toutes les transactions incluses dans le bloc valide. Le résultat de l'algorithme de hachage (SHA256) pour une entrée donnée étant considéré comme imprévisible, le processus d'extraction consiste à construire de nombreux blocs candidats et à tester si leur hachage est valide ou non. Cependant, pour garantir que le temps moyen entre deux blocs reste constant (~10 minutes) quel que soit le nombre de mineurs et leur puissance de calcul, la difficulté de trouver un hachage valide s'ajuste tous les 2016 blocs, soit environ toutes les 2 semaines. Au fil du temps, les mineurs ont développé des machines SHA256 spécialisées, appelées ASICS, afin d'augmenter le taux de hachage par joule, c'est-à-dire le nombre de tentatives par seconde et par énergie consommée.
@@ -993,6 +1027,8 @@ Ainsi, le protocole Bitcoin est un système monétaire incensurable et imparable
 ## Bitcoin ne dort jamais !
 
 <chapterId>d5e35e41-ea26-5478-8eb9-07daf9dff508</chapterId>
+
+![Bitcoin ne dort jamais](https://youtu.be/7535MAeHzxM)
 
 Le cours du bitcoin est souvent caractérisé par une importante volatilité. Sa valeur peut fluctuer considérablement en fonction des variations du marché ou des phases haussières et baissières, comme tout autre marché financier.
 
@@ -1044,9 +1080,13 @@ Aujourd'hui, le bitcoin continue de survivre et de se développer en s'intégran
 
 ![image](assets/en/71.webp)
 
+
+
 ## Obtenir des bitcoins en travaillant
 
 <chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>
+
+![obtenir des bitcoin en travaillant](https://youtu.be/sHkadVRUQF8)
 
 ### Une économie parallèle se développe
 
@@ -1074,17 +1114,23 @@ Nous aborderons ce sujet en détail dans un autre cours, mais pour rester simple
 
 - Une solution simple en ligne : OpenNode
 
-https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - Solution pour les commerçants amateurs : Swiss Bitcoin Pay
 
-https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Solution pour les grandes structures ou les bitcoiners passionnés : Serveur BTCpay
+
+Pour approfondir ce sujet, je vous recommande notre formation BIZ101 ! Découvrez comment intégrer efficacement le bitcoin dans votre trésorerie d'entreprise, accepter le bitcoin comme moyen de paiement selon le profil de votre organisation et comprendre les exigences fiscales et comptables associées :
+
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## Épargner avec Bitcoin
 
 <chapterId>1d9570c6-5b63-51a6-b87c-7bdb0fc4aa87</chapterId>
+
+![epargne en bitcoin](https://youtu.be/Ir5zzYc95IQ)
 
 ### Un avertissement avant de commencer !
 
@@ -1135,7 +1181,7 @@ Il existe plusieurs façons d'acquérir des bitcoins, chacune étant soumise à 
 
 - Plates-formes DCA
 
-Comme nous l'avons présenté ci-dessus, une méthode courante pour accumuler des bitcoins est le Dollar Cost Averaging (DCA), qui consiste à acheter régulièrement de petites quantités. Plusieurs plateformes proposent ce service, comme celles listées sur notre [page dédiée] (https://planb.network/tutorials/exchange). Outre la simplicité de la mise en place d'un DCA, les retraits vers votre portefeuille sont généralement automatiques, ce qui signifie que vous gardez toujours le contrôle de vos actifs.
+Comme nous l'avons présenté ci-dessus, une méthode courante pour accumuler des bitcoins est le Dollar Cost Averaging (DCA), qui consiste à acheter régulièrement de petites quantités. Plusieurs plateformes proposent ce service, comme celles listées sur notre [page dédiée](https://planb.network/tutorials/exchange). Outre la simplicité de la mise en place d'un DCA, les retraits vers votre portefeuille sont généralement automatiques, ce qui signifie que vous gardez toujours le contrôle de vos actifs.
 
 Aujourd'hui, presque toutes les solutions de DCA sont relativement efficaces et ont des frais presque similaires, de sorte que le choix dépendra davantage de la disponibilité dans votre pays.
 
@@ -1163,7 +1209,9 @@ Il est essentiel de reconnaître que le KYC est un sujet de discussion important
 
 ### Solutions non-KYC
 
-En outre, il existe plusieurs [places de marché] (https://planb.network/tutorials/exchange) où l'on peut acheter et vendre des bitcoins dans le cadre d'un échange de pair à pair. D'une manière générale, vous pouvez prendre en compte les éléments suivants :
+![hyper-bitcoinisation](https://youtu.be/lLxndxrzXR0)
+
+En outre, il existe plusieurs [places de marché](https://planb.network/tutorials/exchange) où l'on peut acheter et vendre des bitcoins dans le cadre d'un échange de pair à pair. D'une manière générale, vous pouvez prendre en compte les éléments suivants :
 
 - DAB Bitcoin
 - Rencontres physiques avec d'autres passionnés de bitcoins
@@ -1206,6 +1254,8 @@ Si vous souhaitez approfondir vos connaissances sur Bitcoin, c'est le bon moment
 ## Une brève introduction au réseau Lightning
 
 <chapterId>b403f1e4-f1ff-572b-a242-9b58cb3736d0</chapterId>
+
+![Le lightning Network](https://youtu.be/HFv3NN4z450)
 
 Maintenant que nous connaissons les bases du protocole Bitcoin, nous allons présenter un réseau de paiement qui utilise le protocole Bitcoin pour permettre des transactions rapides comme l'éclair : Le réseau Lightning !
 
@@ -1251,6 +1301,8 @@ https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 <chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
 
+![cas d'usage du LN](https://youtu.be/_UV2jmQ8TQM)
+
 Comme nous venons de le voir, le protocole Bitcoin, bien que révolutionnaire, est confronté à des défis importants en termes d'évolutivité nécessaire pour traiter toutes nos transactions quotidiennes. Pour résoudre ces problèmes, le Lightning Network a été proposé et s'est depuis développé en plusieurs implémentations différentes, toutes interopérables :
 
 - L'éclairage par le cœur par Blockstream
@@ -1282,6 +1334,8 @@ En conclusion, le Lightning Network ouvre une multitude de cas d'utilisation pas
 ## Pilule rouge ou pilule bleue ?
 
 <chapterId>c81cdb45-6aa9-5462-9835-c4852084b2cc</chapterId>
+
+![pilule rouge](https://youtu.be/nCRVIoyyyck)
 
 Comme Morpheus l'a dit à Néo : "Tu prends la pilule bleue, l'histoire se termine, tu te réveilles dans ton lit et tu crois ce que tu veux croire. Si tu prends la pilule rouge, tu restes au pays des merveilles et je te montre jusqu'où va le terrier du lapin" Êtes-vous prêt à explorer le terrier du bitcoin ? Soyez prudent, car vous pourriez redécouvrir votre liberté financière !
 
@@ -1335,6 +1389,8 @@ Il y a 2,4 milliards de personnes dans le monde qui n'ont pas de compte bancaire
 Le bitcoin est important et ne doit pas être considéré comme un simple jeu de hasard. Il est donc essentiel de continuer à poser des questions sur le bitcoin et ses conséquences sur le monde.
 
 ### Bitcoin : un protocole révolutionnaire
+
+![Conclusion](https://youtu.be/BoZL_D7uLAg)
 
 Comme nous l'avons vu dans le chapitre précédent, le protocole Bitcoin est neutre vis-à-vis de tous ses utilisateurs. Grâce aux règles de consensus et à la cryptographie, nous pouvons enregistrer de manière immuable les transactions dans un grand livre public mondial, garantissant des transferts de valeur monétaire sans tiers de confiance. L'infrastructure de la deuxième couche (et bientôt de la troisième, avec le RGB) est utilisée pour l'évolutivité du réseau et le développement de nouvelles fonctionnalités.
 

@@ -4,154 +4,145 @@ import shutil
 import subprocess
 from pathlib import Path
 from functools import wraps
-from typing import List, Callable, Any, Optional
+from typing import List, Callable, Any, Optional, Set
+from dataclasses import dataclass
 
-# Define base paths
-SCRIPT_DIR = Path(__file__).resolve().parent
-PROJECT_ROOT = SCRIPT_DIR.parent.parent.parent
+@dataclass
+class TranslationConfig:
+    """Configuration class for translation settings."""
+    script_dir: Path = Path(__file__).resolve().parent
+    project_root: Path = script_dir.parent.parent.parent
+    excluded_subfolders: Set[str] = frozenset({'his204', 'biz221'})  
+    to_en_dir: Path = script_dir / "translate-to-en"
+    from_en_dir: Path = script_dir / "translate-from-en"
 
-def redirect_output_to_file(filepath: Path) -> Callable:
-    """Decorator to redirect function output to a file."""
-    def decorator(func: Callable) -> Callable:
-        @wraps(func)
-        def wrapper(*args: Any, **kwargs: Any) -> Any:
-            original_stdout = sys.stdout
-            with open(filepath, 'w') as f:
-                sys.stdout = f
-                result = func(*args, **kwargs)
-            sys.stdout = original_stdout
-            return result
-        return wrapper
-    return decorator
-
-def get_supported_languages() -> List[str]:
-    """Get list of supported languages from btc101 course directory."""
-    directory = PROJECT_ROOT / "courses" / "lnp201"
-    supported_languages = []
-
-    if directory.exists():
-        for filename in os.listdir(directory):
-            if filename.endswith(".md") and filename != "en.md":
-                supported_languages.append(filename.split(".")[0])
-    else:
-        print("Directory does not exist.")
-
-    return supported_languages
-
-def content_exist(filenames: List[str], lang: str) -> bool:
-    """Check if content exists for a specific language in given filenames."""
-    return any(f.endswith(f"{lang}.md") or f.endswith(f"{lang}.yml") for f in filenames)
-
-def create_txt_to_en_from(lang: str) -> None:
-    """Create a list of files that need translation from given language to English."""
-    base_dir = PROJECT_ROOT / "courses"
-    output_file = SCRIPT_DIR / "translate-to-en" / f"{lang}.txt"
-    file_written = False
-
-    with open(output_file, "w") as yml_file:
-        for dirpath, dirnames, filenames in os.walk(base_dir):
-            for filename in filenames:
-                if filename.startswith(f"{lang}.") and not content_exist(filenames, 'en'): 
-                    file_path = Path(dirpath) / filename
-                    relative_path = os.path.relpath(file_path, SCRIPT_DIR)
-
-                    yml_file.write(f"{relative_path}\n")
-                    file_written = True
-
-    if not file_written:
-        output_file.unlink(missing_ok=True)
-        print(f"No need to translate from {lang}")
-
-def create_txt_from_en_to(lang: str) -> None:
-    """Create a list of files that need translation from English to given language."""
-    base_dir = PROJECT_ROOT / "courses"
-    output_file = SCRIPT_DIR / "translate-from-en" / f"{lang}.txt"
-    file_written = False
-
-    with open(output_file, "w") as yml_file:
-        for dirpath, dirnames, filenames in os.walk(base_dir):
-            for filename in filenames:
-                if filename.startswith(f"en.") and not content_exist(filenames, lang): 
-                    file_path = Path(dirpath) / filename
-
-                    relative_path = os.path.relpath(file_path, SCRIPT_DIR)
-
-
-                    yml_file.write(f"{relative_path}\n")
-                    file_written = True
-
-    if not file_written:
-        output_file.unlink(missing_ok=True)
-        print(f"No need to translate from en to {lang}")
-
-def translate_file(input_file: str, target_lang: str) -> None:
-    """Translate a single file using translation_controller."""
-    try:
-        translation_controller = SCRIPT_DIR.parent / "translation_controller.py"
-        command = ["python3", str(translation_controller), input_file, target_lang]
-        subprocess.run(command, check=True)
-        print(f"Translated {input_file} to {target_lang}")
-    except subprocess.CalledProcessError as e:
-        print(f"Error translating {input_file}: {e}")
-
-def process_translation_list(list_file: Path) -> None:
-    """Process a list of files for translation."""
-    if not list_file.exists():
-        return
-
-    with open(list_file, 'r') as f:
-        files = f.readlines()
-        
-    for file_path in files:
-        file_path = file_path.strip()
-        if file_path:
-            if "translate-to-en" in str(list_file):
-                translate_file(file_path, 'en')
-            else:
-                lang = list_file.stem
-                translate_file(file_path, lang)
-
-def ensure_directory_exists(directory: Path) -> None:
-    """Create directory if it doesn't exist."""
-    if not directory.exists():
-        directory.mkdir(parents=True, exist_ok=True)
-        print(f"Created directory: {directory}")
-
-def cleanup_temp_directories() -> None:
-    """Remove temporary translation directories."""
-    temp_dirs = [
-        SCRIPT_DIR / "translate-to-en",
-        SCRIPT_DIR / "translate-from-en"
-    ]
-    for dir_path in temp_dirs:
-        if dir_path.exists():
-            shutil.rmtree(dir_path)
-            print(f"Removed temporary directory: {dir_path}")
-
-def main() -> None:
-    """Execute the course translation workflow."""
-    languages = get_supported_languages()
-    ensure_directory_exists(SCRIPT_DIR / "translate-to-en")
-    ensure_directory_exists(SCRIPT_DIR / "translate-from-en")
+class TranslationManager:
+    """Manages the translation process for course content."""
     
-    # First pass: translate all non-English content to English
-    for lang in languages:
-        create_txt_to_en_from(lang)
-        to_en_list = SCRIPT_DIR / "translate-to-en" / f"{lang}.txt"
-        if to_en_list.exists():
-            print(f"\nProcessing translations from {lang} to English")
-            process_translation_list(to_en_list)
+    def __init__(self, config: TranslationConfig):
+        self.config = config
+        self.setup_directories()
 
-    # Second pass: translate English content to other languages
-    for lang in languages:
-        create_txt_from_en_to(lang)
-        from_en_list = SCRIPT_DIR / "translate-from-en" / f"{lang}.txt"
-        if from_en_list.exists():
-            print(f"\nProcessing translations from English to {lang}")
-            process_translation_list(from_en_list)
+    def setup_directories(self) -> None:
+        """Initialize required directories."""
+        self.config.to_en_dir.mkdir(parents=True, exist_ok=True)
+        self.config.from_en_dir.mkdir(parents=True, exist_ok=True)
 
-    cleanup_temp_directories()
-    print("Course translation process completed!")
+    def cleanup(self) -> None:
+        """Remove temporary translation directories."""
+        shutil.rmtree(self.config.to_en_dir, ignore_errors=True)
+        shutil.rmtree(self.config.from_en_dir, ignore_errors=True)
+        print("Cleaned up temporary directories")
+
+    def get_supported_languages(self) -> List[str]:
+        """Get list of supported languages from course directory."""
+        directory = self.config.project_root / "courses" / "lnp201"
+        if not directory.exists():
+            print("Course directory does not exist")
+            return []
+        
+        return [
+            filename.split(".")[0]
+            for filename in os.listdir(directory)
+            if filename.endswith(".md") and filename != "en.md"
+        ]
+
+    def is_excluded_path(self, path: str) -> bool:
+        """Check if path contains any excluded subfolder."""
+        path_parts = Path(path).parts
+        return any(excluded in path_parts for excluded in self.config.excluded_subfolders)
+
+    def content_exists(self, filenames: List[str], lang: str) -> bool:
+        """Check if content exists for a specific language."""
+        return any(f.endswith(f"{lang}.md") or f.endswith(f"{lang}.yml") for f in filenames)
+
+    def create_translation_list(self, source_lang: str, target_lang: str) -> None:
+        """Create list of files needing translation."""
+        base_dir = self.config.project_root / "courses"
+        output_dir = (self.config.to_en_dir if target_lang == 'en' 
+                     else self.config.from_en_dir)
+        output_file = output_dir / f"{source_lang if target_lang == 'en' else target_lang}.txt"
+        file_written = False
+
+        with open(output_file, "w") as f:
+            for dirpath, _, filenames in os.walk(base_dir):
+                if self.is_excluded_path(dirpath):
+                    continue
+                
+                for filename in filenames:
+                    if (filename.startswith(f"{source_lang}.") and 
+                        not self.content_exists(filenames, target_lang)):
+                        file_path = Path(dirpath) / filename
+                        relative_path = os.path.relpath(file_path, self.config.script_dir)
+                        f.write(f"{relative_path}\n")
+                        file_written = True
+
+        if not file_written:
+            output_file.unlink(missing_ok=True)
+            print(f"No translations needed from {source_lang} to {target_lang}")
+
+    def translate_file(self, input_file: str, target_lang: str) -> None:
+        """Translate a single file."""
+        try:
+            translation_controller = self.config.script_dir.parent / "translation_controller.py"
+            command = ["python3", str(translation_controller), input_file, target_lang]
+            subprocess.run(command, check=True)
+            print(f"Translated {input_file} to {target_lang}")
+        except subprocess.CalledProcessError as e:
+            print(f"Error translating {input_file}: {e}")
+
+    def process_translation_list(self, list_file: Path) -> None:
+        """Process a list of files for translation."""
+        if not list_file.exists():
+            return
+
+        with open(list_file, 'r') as f:
+            files = [line.strip() for line in f if line.strip()]
+        
+        for file_path in files:
+            if "translate-to-en" in str(list_file):
+                self.translate_file(file_path, 'en')
+            else:
+                self.translate_file(file_path, list_file.stem)
+
+    def run_translation_workflow(self) -> None:
+        """Execute the complete translation workflow."""
+        print(f"Excluded subfolders: {self.config.excluded_subfolders}")
+        languages = self.get_supported_languages()
+        
+        if not languages:
+            print("No languages to process")
+            return
+
+        print(f"Processing languages: {languages}")
+
+        # First pass: non-English to English
+        for lang in languages:
+            print(f"\nProcessing {lang} -> English translations")
+            self.create_translation_list(lang, 'en')
+            to_en_list = self.config.to_en_dir / f"{lang}.txt"
+            if to_en_list.exists():
+                self.process_translation_list(to_en_list)
+
+        # Second pass: English to other languages
+        for lang in languages:
+            print(f"\nProcessing English -> {lang} translations")
+            self.create_translation_list('en', lang)
+            from_en_list = self.config.from_en_dir / f"{lang}.txt"
+            if from_en_list.exists():
+                self.process_translation_list(from_en_list)
+
+def main():
+    """Main entry point."""
+    try:
+        config = TranslationConfig()
+        translator = TranslationManager(config)
+        translator.run_translation_workflow()
+    except Exception as e:
+        print(f"Error during translation: {e}")
+    finally:
+        translator.cleanup()
+        print("Translation process completed!")
 
 if __name__ == "__main__":
     main()

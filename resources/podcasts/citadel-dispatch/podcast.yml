@@ -8,8 +8,8 @@ links:
   twitter: https://twitter.com/citadeldispatch
 description: |
   An interactive show about bitcoin and freedom tech.
+contributor_names:
+  - Rogzy-DB
 tags:
-  - bitcoin
-  - technology
-contributors:
-  - rabbit-hole
+  - cypherpunk
+  - self-sovereignty

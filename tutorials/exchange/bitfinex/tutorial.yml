@@ -1,17 +1,11 @@
 id: dc306d39-bd96-4ab9-a278-a322316716db
 
-builder: Bitfinex
-
-tags:
-  - investment
-  - finance
 
 category: centralized
 
 level: beginner
 
-credits:
-  professor: pretty-private
+professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
 
 # Proofreading metadata
 
@@ -21,90 +15,94 @@ proofreading:
   - language: fr
     last_contribution_date: 2025-02-08
     urgency: 1
-    contributors_id:
+    contributor_names:
       - LoicPandul
-    reward: 0.46
+    reward: 0.67
 
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 1.75
 
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.93
+    contributor_names:
+    reward: 1.34
 
   - language: en
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.93
+    contributor_names:
+    reward: 1.34
 
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 1.34
 
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 1.75
 
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 1.75
 
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 2.17
 
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 1.34
 
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 2.58
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 1.75
 
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.93
+    contributor_names:
+    reward: 1.34
 
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 1.75
 
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.93
+    contributor_names:
+    reward: 2.58
 
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 2.17
+tags:
+  - guides
+  - investment
+  - user-friendly

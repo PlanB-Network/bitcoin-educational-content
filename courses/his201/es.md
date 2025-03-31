@@ -1213,14 +1213,6 @@ Este aspecto misterioso que rodea al creador de Bitcoin fue bien resumido por Ha
 >
 > ¿Qué significa la S?"
 
-## Reseñas & Valoraciones
-<chapterId>73825805-29e2-54bf-a8c3-62614b52fbef</chapterId>
-<isCourseReview>true</isCourseReview>
-
-## Examen Final
-<chapterId>39e43ec2-5b38-5174-882a-c1f7d284b9e6</chapterId>
-<isCourseExam>true</isCourseExam>
-
 ## La Comunidad se hace cargo
 <chapterId>16c5e6d6-2412-48c6-9687-6af92cf0d89a</chapterId>
 

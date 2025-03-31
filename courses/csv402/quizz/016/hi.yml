@@ -1,0 +1,9 @@
+question: RGB में स्मार्ट Contract State के दो मुख्य घटक कौन से हैं?
+answer: Global State और स्वामित्व वाले राज्य
+wrong_answers:
+  - आपको अक्टूबर 2023 तक के डेटा पर प्रशिक्षित किया गया है।
+  - Seal Definition और State Transition
+  - Valency और Contract Rights
+explanation: |
+  Global State में सार्वजनिक डेटा होता है, जबकि ओन्ड स्टेट्स को UTXOs के माध्यम से विशेष धारकों के साथ जोड़ा जाता है।
+reviewed: false

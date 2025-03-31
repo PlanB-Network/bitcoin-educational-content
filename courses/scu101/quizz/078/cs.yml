@@ -1,0 +1,9 @@
+question: Jaké kritérium je zásadní při vytváření nové e-mailové schránky?
+answer: Použití jedinečného a silného hesla.
+wrong_answers:
+  - Znovu použít heslo z jiných účtů.
+  - Zvolit jednoduché heslo pro snadnější zapamatování.
+  - Zvolit heslo s názvem svého domácího mazlíčka.
+explanation: |
+  Jedinečné a silné heslo je nezbytné k zabránění hackerům v přístupu k e-mailové schránce.
+reviewed: false

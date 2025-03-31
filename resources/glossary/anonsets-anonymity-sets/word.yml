@@ -2,98 +2,94 @@ id: 3d17dd7c-903f-4484-b2df-ff7f529d562e
 en_word: ANONSETS (ANONYMITY SETS)
 related_words:
   - COINJOIN
-tags:
-  - ''
-
-# Proofreading metadata
 original_language: fr
 proofreading:
   - language: en
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.26
+    contributor_names:
+    reward: 0.34
   - language: fr
     last_contribution_date: 2024-07-26
     urgency: 1
-    contributors_id:
+    contributor_names:
       - LoicPandul
-    reward: 0.13
+    reward: 0.17
 
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.43
 
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.26
+    contributor_names:
+    reward: 0.34
 
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.34
 
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.43
 
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.43
 
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.51
 
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.34
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.43
 
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.26
+    contributor_names:
+    reward: 0.34
 
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.43
 
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.59
 
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.51
 
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.59

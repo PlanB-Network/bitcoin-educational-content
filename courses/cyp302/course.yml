@@ -4,13 +4,12 @@ subtopic: cryptography
 level: advanced
 hours: 16
 
-professors:
-  - myth-initial
-
-contributors:
-  - rabbit-hole
-  - another-satoshi
-  - pretty-private
+professors_id:
+  - 73994a8a-c74c-4692-b22b-b5cc2a6fff40
+contributor_names:
+  - Rogzy-DB
+  - Asi0Flammeus
+  - LoicPandul
 published_at: 2023-10-28
 
 # Proofreading metadata
@@ -19,90 +18,95 @@ proofreading:
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
-    reward: 33.62
+    reward: 50.41
 
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 134.4
 
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 67.25
+    contributor_names:
+    reward: 100.82
 
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 100.82
 
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 134.4
 
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 134.4
 
   - language: fr
-    last_contribution_date:
+    last_contribution_date: 2025-03-25
     urgency: 1
-    contributors_id:
-    reward: 67.25
+    contributor_names:
+      - LoicPandul
+    reward: 0
 
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 167.97
 
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 100.82
 
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 201.55
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 134.4
 
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 67.25
+    contributor_names:
+    reward: 100.82
 
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 134.4
 
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 201.55
 
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 167.97
+tags:
+  - deep-dive
+  - historical
+  - technical-analysis

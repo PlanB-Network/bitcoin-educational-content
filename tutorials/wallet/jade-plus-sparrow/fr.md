@@ -313,7 +313,7 @@ Commencez par télécharger et installer Sparrow Wallet [depuis le site officiel
 
 Assurez-vous de vérifier l'authenticité et l'intégrité du logiciel avant l'installation. Si vous ne savez pas comment procéder, vous pouvez consulter ce tutoriel :
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Une fois Sparrow Wallet ouvert, cliquez sur l'onglet "*File*", puis sur "*New Wallet*".
 
@@ -432,3 +432,4 @@ Félicitations, vous savez dorénavant comment configurer et utiliser le Jade Pl
 Pour aller plus loin, je vous recommande de consulter cet autre tutoriel sur le Jade Plus, où nous le configurons en Bluetooth avec l'application mobile Green :
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+

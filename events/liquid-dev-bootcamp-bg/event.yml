@@ -1,0 +1,19 @@
+id: a8120c17-c859-4edd-ac3a-b61343541c6e
+start_date: 2025-05-17 08:00:00
+end_date: 2025-05-18 15:00:00
+timezone: Europe/Sofia
+address_city_country: Plovdiv, Bulgaria
+address_line_2: Plovdiv University
+name: Liquid Developer Bootcamp Bulgaria
+builder: Blockstream
+type: course
+description: Since the Blocksize War, years of prudent research and development have built a strong foundation for Bitcoin's second layer. With the groundwork laid, let us now build the applications and financial tools needed for self-sovereign money to reach the masses. The Lightning and Liquid networks, once merely novel concepts, are now thriving protocols. Each layer-2 solution fills an important complementary role and extends Bitcoin's capabilities without sacrificing Bitcoin as hard money and a deflationary store of value.
+language:
+  - en
+links:
+  website: https://liquid.net/bootcamp
+project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
+tags:
+  - development
+  - layers
+  - software

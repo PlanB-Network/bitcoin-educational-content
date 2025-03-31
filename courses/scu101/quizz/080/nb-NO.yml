@@ -1,0 +1,9 @@
+question: Hvorfor anbefales det å opprette to separate e-postadresser?
+answer: For å skille generell kommunikasjon fra kontogjenoppretting.
+wrong_answers:
+  - For å skille jobbkommunikasjon fra personlig kommunikasjon.
+  - For å opprette flere kontoer og øke synligheten på nettet.
+  - For å motta mer spam.
+explanation: |
+  Å skille e-postadresser bidrar til å redusere risiko og beskytte tilgangen til kritiske kontoer bedre.
+reviewed: false

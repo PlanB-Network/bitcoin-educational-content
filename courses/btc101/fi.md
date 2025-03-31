@@ -557,15 +557,18 @@ Seuraavassa määritellään useita turvallisuustasoja:
 
 Voit esimerkiksi käyttää Sparrow-lompakkoa kuumana lompakkona:
 
-https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - Taso 2\*\*, käytät fyysistä lompakkoa ja olet varmistanut 12/24 sanan luettelon. Sitä kutsutaan usein "kylmäksi lompakoksi", koska avaimesi on tallennettu laitteeseen, joka ei ole yhteydessä internetiin. Tässä tapauksessa sinun on aina allekirjoitettava jokainen maksutapahtuma laitteellasi, jolloin varojesi päivittäinen saatavuus heikkenee.
 
 Voit käyttää esimerkiksi Ledgeriä, Satochipiä tai Tapsigneria:
 
 https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
 https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+
 https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+
 ![image](assets/en/32.webp)
 
 - Taso 3**, käytät tason 1 tai 2 lompakkoa, mutta olet lisännyt ylimääräisen salasanan. Tässä tapauksessa sinun on otettava varmuuskopio sekä 12/24 sanan luettelosta **että\*\* tunnuslauseestasi. Ihannetapauksessa nämä kaksi tietoa tallennetaan kahteen eri paikkaan.
@@ -573,6 +576,7 @@ https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 Saat lisätietoja BIP39-salasanan käytöstä ja toiminnasta:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 ![image](assets/en/33.webp)
 
 - Taso 4\*\*, käytät useita lompakoita luodaksesi "multisig"-lompakon, mikä tarkoittaa, että tapahtuman suorittamiseen tarvitaan useita allekirjoituksia. Tässä tapauksessa on huomioitava, että multisigin jokainen osa on tallennettava eri paikkoihin. Tätä lähestymistapaa pidetään usein Bitcoinin edistyneenä käyttönä, lähinnä suurten määrien hallintaan ja yrityskäyttöön.
@@ -829,7 +833,7 @@ Kun haluat asentaa oman solmun, käytettävissä on useita vaihtoehtoja, joiden 
 
 ![image](assets/en/53.webp)
 
-Toinen vaihtoehto on käyttää tähän tarkoitukseen tarkoitettua laitteistoa, kuten Raspberry Pi 4:ää, jossa on riittävän suuri SSD-levy (noin ~1TB). Tämä toinen vaihtoehto on kalliimpi, jos joudut ostamaan laitteiston, mutta sähkönkulutuksen osalta se on hieman alle 10,00 euroa vuodessa.
+Toinen vaihtoehto on käyttää tähän tarkoitukseen tarkoitettua laitteistoa, kuten Raspberry Pi 4:ää, jossa on riittävän suuri SSD-levy (noin ~2TB). Tämä toinen vaihtoehto on kalliimpi, jos joudut ostamaan laitteiston, mutta sähkönkulutuksen osalta se on hieman alle 10,00 euroa vuodessa.
 
 Kaistanleveyden näkökulmasta katsottuna, kun otetaan huomioon 1 1MB:n lohko 10 minuutin välein, se vastaa noin 5GB kuukaudessa.
 
@@ -1044,6 +1048,8 @@ Nykyään Bitcoin jatkaa selviytymistään ja kasvuaan entisestään integroitum
 
 ![image](assets/en/71.webp)
 
+
+
 ## Bitcoinsin hankkiminen työskentelemällä
 
 <chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>
@@ -1074,13 +1080,17 @@ Käsittelemme tätä aihetta yksityiskohtaisesti toisella kurssilla, mutta yksin
 
 - Yksinkertainen online-ratkaisu: OpenNode
 
-https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - Ratkaisu amatöörikauppiaille: Bitcoin Pay
 
-https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Ratkaisu suurille rakenteille tai intohimoisille bitcoin-asiakkaille: BTCpay Server
+
+Tämän aiheen syvällisempään ymmärtämiseen suosittelemme koulutustamme BIZ101! Opi, kuinka voit tehokkaasti integroida bitcoinit yrityksesi kassavirtaan, hyväksyä bitcoin maksutapana organisaatiosi profiilin mukaan ja ymmärtää asiaan liittyvät vero- ja kirjanpitovaatimukset:
+
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## Säästäminen Bitcoinilla
 

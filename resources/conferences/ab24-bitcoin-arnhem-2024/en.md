@@ -5,84 +5,116 @@ description: Adopting Bitcoin Arnhem conference to celebrate the 10 year anniver
 
 # Main Stage
 
-## From Fear to Hope | Gerardo Linares, Evelyn Lemus
+## From Fear to Hope
 
 ![video](https://youtu.be/6L82StHm-As)
 
-## Bitcoin and Human Rights | Anita Posch
+Speakers: Gerardo Linares, Evelyn Lemus
+
+## Bitcoin and Human Rights
 
 ![video](https://youtu.be/hmfFEvXYKQo)
 
-## The Goal of Bitcoin | Panel Discussion
+Speaker: Anita Posch
 
-![video](https://youtu.be/a__1pOiVRro)
-
-## The Story of Bitcoin Ekasi | Hermann Vivier
-
-![video](https://youtu.be/kW5O0kyHwd0)
-
-## Pockets of wasted energy | Janet Maingi
+## Pockets of wasted energy
 
 ![video](https://youtu.be/CXLMtQkjYHQ)
 
-## Fiat the system vs Bitcoin the tool | Rigel Walshe
+Speaker: Janet Maingi
 
-![video](https://youtu.be/JrIm_jA6hqA)
+## The Story of Bitcoin Ekasi
 
-## Bitcoin and Weaponisation | Bota Jardemailie
+![video](https://youtu.be/kW5O0kyHwd0)
+
+Speaker: Hermann Vivier
+
+
+## Bitcoin and Weaponisation of Banking
 
 ![video](https://youtu.be/9NMDfhkoLKE)
 
-## How To Secure Your Seed Phrase | Ruben Middelhoven
+Speaker: Bota Jardemailie
 
-![video](https://youtu.be/gBOhlfa7EX8)
-
-## Living On A Bitcoin Standard | Ben de Waal
-
-![video](https://youtu.be/UWzByZbdigU)
-
-## Upcoming L2 Systems | Peter Todd
-
-![video](https://youtu.be/UBItdSfSpGQ)
-
-## Setting up a Circular Bitcoin Economy | Hermann Vivier, Gerardo Linares
-
-![video](https://youtu.be/TKuYQHenhD8)
-
-## AML Regulations and Financial Freedom | Panel Discussion
+## Panel: AML Regulations and Financial Freedom
 
 ![video](https://youtu.be/XPVYOVo_cXM)
 
-## The Biggest Secret Worldwide Bank Fraud Revealed | Hester Bais
+## The Block Size War
+
+![video](https://youtu.be/8HcmSYCfuQQ)
+
+Speaker: Aaron van Wirdum
+
+## Living On A Bitcoin Standard
+
+![video](https://youtu.be/UWzByZbdigU)
+
+Speaker: Ben de Waal
+
+## Upcoming L2 Systems
+
+![video](https://youtu.be/UBItdSfSpGQ)
+
+Speaker: Peter Todd
+
+
+## The Biggest Secret Worldwide Bank Fraud Revealed
 
 ![video](https://youtu.be/kWcldz3C3SU)
 
+Speaker: Hester Bais
+
+## Fiat the system vs Bitcoin the tool
+
+![video](https://youtu.be/JrIm_jA6hqA)
+
+Speaker: Rigel Walshe
+
+## Panel: The Goal of Bitcoin
+
+![video](https://youtu.be/a__1pOiVRro)
+
 # Arnhem Stage
 
-## Professional Cannabis Farmer And Bitcoin Advocate | Eric V Stacks
-
-![video](https://youtu.be/SC_bYcNIUQU)
-
-## Exploring The Multi-faced World Of Bitcoin Mining | Fireside-chat
-
-![video](https://youtu.be/qGTz8V7SubA)
-
-## The Evolution Of Non-custodial & Custodial Solutions And Their Global Impact | Panel Discussion
-
-![video](https://youtu.be/IkHSDDJp3ig)
-
-## Designing Bitcoin: Crafting User Experiences For Global Adoption | Panel Discussion
+## Panel on Designing Bitcoin: Crafting UX For Adoption
 
 ![video](https://youtu.be/D_2dfbxExxU)
 
-## Become a Shadowy Supertagger | Nathan Day
+## Become a Shadowy Supertagger
 
 ![video](https://youtu.be/KqT8UeD27DM)
 
-## Bitcoin Education For The Next Generation | Sam de Waal & Arnold Hubach
+Speaker: Nathan Day
+
+## Panel: Non-custodial & Custodial Solutions And Their Global Impact
+
+![video](https://youtu.be/IkHSDDJp3ig)
+
+## Bitcoin Education For The Next Generation
 
 ![video](https://youtu.be/QhhLLJvrJz8)
 
-## The Block Size War | Aaron van Wirdum
+Speakers: Sam de Waal & Arnold Hubach
 
-![video](https://youtu.be/8HcmSYCfuQQ)
+## Setting up a Circular Bitcoin Economy
+
+![video](https://youtu.be/TKuYQHenhD8)
+
+Speakers: Hermann Vivier, Gerardo Linares
+
+## How To Secure Your Seed Phrase
+
+![video](https://youtu.be/gBOhlfa7EX8)
+
+Speaker: Ruben Middelhoven
+
+## Exploring The Multi-faced World Of Bitcoin Mining
+
+![video](https://youtu.be/qGTz8V7SubA)
+
+## Professional Cannabis Farmer And Bitcoin Advocate
+
+![video](https://youtu.be/SC_bYcNIUQU)
+
+Speaker: Eric V Stacks

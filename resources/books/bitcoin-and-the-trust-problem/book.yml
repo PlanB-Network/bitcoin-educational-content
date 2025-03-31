@@ -1,90 +1,88 @@
 id: b3411a81-6594-488b-bf61-85d00b3482b0
 author: Karo Zagorus
 level: intermediate
-tags:
-  - bitcoin
-  - society
-  - economics
-  - technology
-  - privacy
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.48
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.29
+    contributor_names:
+    reward: 0.38
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
-    reward: 0.14
+    reward: 0.19
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.38
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.48
   - language: fr
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.29
+    contributor_names:
+    reward: 0.38
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.38
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.67
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.29
+    contributor_names:
+    reward: 0.38
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.48
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.67
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.57
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.57
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.48
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.48
+tags:
+  - adoption
+  - high-level
+  - self-sovereignty
+contributor_names:
+  - Rogzy-DB

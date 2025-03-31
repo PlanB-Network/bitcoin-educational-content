@@ -7,8 +7,9 @@ links:
   twitter: https://twitter.com/Afrique_Bitcoin/
 description: |
   Discussions avec celles et ceux qui contribuent à l'hyperbitcoinisation en Afrique. @PrinceDonK
+contributor_names:
+  - Rogzy-DB
 tags:
-  - bitcoin
-  - afrique
-contributors:
-  - rabbit-hole
+  - adoption
+  - case-studies
+  - business

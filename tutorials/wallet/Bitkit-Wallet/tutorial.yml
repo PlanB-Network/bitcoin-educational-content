@@ -1,20 +1,11 @@
 id: a7224674-85c4-4045-9baf-37018d89550c
-builder: Synonym
 
 level: beginner
 
 category: mobile
 
-tags:
-  - wallet
-  - lightning-network
-  - self-custodial
-  - open-source
-  - on-chain
-
-credits:
-  professor: casual-chaos
-  link: https://help.bitkit.to
+professor_id: 6308f931-4e97-401c-87b0-fe2d3159501c
+credit_link: https://help.bitkit.to
 
 # Proofreading metadata
 project_id: 86dbcf83-e4ea-4dbe-be90-b92f73eaa526
@@ -23,78 +14,82 @@ proofreading:
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
-    reward: 0.16
+    reward: 0.22
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.55
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.32
+    contributor_names:
+    reward: 0.44
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.77
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.55
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.66
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.55
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.55
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.32
+    contributor_names:
+    reward: 0.44
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.44
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.66
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.44
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.77
   - language: fr
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.32
+    contributor_names:
+    reward: 0.44
 
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.55
+tags:
+  - wallets
+  - guides
+  - lightning

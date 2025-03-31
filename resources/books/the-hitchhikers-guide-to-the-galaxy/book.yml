@@ -1,86 +1,88 @@
 id: 91cf7e80-6b0b-4a06-bb19-a48718d949f4
 author: Douglas Adams
 level: beginner
-tags:
-  - sience fiction
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.2
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.15
+    contributor_names:
+    reward: 0.18
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
-    reward: 0.08
+    reward: 0.09
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.18
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.2
   - language: fr
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.15
+    contributor_names:
+    reward: 0.18
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.18
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.25
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.15
+    contributor_names:
+    reward: 0.18
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.2
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.25
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.23
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.23
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.2
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.2
+tags:
+  - easy-explain
+  - user-friendly
+  - high-level
+contributor_names:
+  - Rogzy-DB

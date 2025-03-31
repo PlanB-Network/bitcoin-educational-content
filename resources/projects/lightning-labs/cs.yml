@@ -4,5 +4,3 @@ description: |
   Jedním z jejich hlavních produktů je Lightning Terminal, uživatelsky přívětivé rozhraní, které zjednodušuje správu Lightning uzlu. Tento nástroj nabízí webové řídicí panel, prohlížeč sítě a sadu nástrojů pro správu likvidity, což usnadňuje provádění transakcí s Bitcoiny ve velkém objemu a okamžitě s minimálními poplatky.
 
   Kromě Lightning Terminalu Lightning Labs také poskytuje řadu ověřitelných, nezajištěných finančních služeb založených na Lightning Network, čímž překlenuje propast mezi open-source softwarem a finančními aplikacemi Bitcoinu nové generace.
-contributors:
-  - rabbit-hole

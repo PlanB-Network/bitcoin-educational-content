@@ -8,7 +8,9 @@ links:
   website: https://www.mrobnoxious.com/
 description: |
   I’m Peter McCormack. I have questions.
+contributor_names:
+  - PaoloFoti
 tags:
-  - finance
-contributors:
-  - hunt-wood
+  - historical
+  - high-level
+  - adoption

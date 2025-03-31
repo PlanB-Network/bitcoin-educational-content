@@ -4,12 +4,11 @@ subtopic: economy
 level: beginner
 hours: 5
 
-professors:
-  - rebel-space
-
-contributors:
-  - rabbit-hole
-  - another-satoshi
+professors_id:
+  - 1a2d2e86-4f52-4b7c-b2c6-17f165a3d5d7
+contributor_names:
+  - Rogzy-DB
+  - Asi0Flammeus
 
 published_at: 2024-07-16
 # Proofreading metadata
@@ -18,83 +17,87 @@ proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 22.47
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 11.28
+    contributor_names:
+    reward: 16.88
   - language: en
     last_contribution_date: 2024-11-28
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Bitpreto
-    reward: 5.64
+    reward: 8.44
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 16.88
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 22.47
   - language: fr
     last_contribution_date: 2024-11-28
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Bitpreto
-    reward: 5.64
+    reward: 8.44
   - language: it
     last_contribution_date: 2024-11-16
     urgency: 1
-    contributors_id:
+    contributor_names:
       - TinF0ilHat1
     reward: 8.44
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 33.65
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 11.28
+    contributor_names:
+    reward: 16.88
   - language: ru
     last_contribution_date: 2024-11-16
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Reshetenko
     reward: 11.23
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 33.65
 
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 22.47
 
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 28.06
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 22.47
 
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 28.06
+tags:
+  - finance
+  - historical
+  - deep-dive

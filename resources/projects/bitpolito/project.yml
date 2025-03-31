@@ -1,7 +1,7 @@
 id: fe9e6942-1c42-4e4d-a32c-819f6070a748
 name: BitPolito
 category: communities
-address_line_1: Turin, Italy
+address_city_country: Turin, Italy
 address_line_2: Corso Castelfidardo, 39, 10129
 address_line_3:
 language:
@@ -13,88 +13,89 @@ links:
   youtube: https://www.youtube.com/@BitPolito
   instagram: https://www.instagram.com/bitpolito/?hl=it
 
-tags:
-  - bitcoin-only
-  - education
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.43
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.27
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
     reward: 0.13
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.35
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.43
   - language: fr
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.27
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.35
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.6
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.27
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.43
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.6
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.52
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.52
 
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.43
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.43
+tags:
+  - development
+  - decentralization
+  - user-friendly
+contributor_names:
+  - Rogzy-DB

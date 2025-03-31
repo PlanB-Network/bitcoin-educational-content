@@ -145,7 +145,7 @@ Wenn Sie eine andere Software als Sparrow verwenden, wie Electrum, um Ihre Samou
 - Premix: `m/84'/0'/2147483645'`
 - Postmix: `m/84'/0'/2147483646'`
 
-Sie haben jetzt Zugang zu Ihren Bitcoins auf Sparrow. Wenn Sie Hilfe bei der Verwendung von Sparrow Wallet benötigen, können Sie auch [unser spezielles Tutorial](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607) auschecken.
+Sie haben jetzt Zugang zu Ihren Bitcoins auf Sparrow. Wenn Sie Hilfe bei der Verwendung von Sparrow Wallet benötigen, können Sie auch [unser spezielles Tutorial](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d) auschecken.
 
 Ich empfehle auch, die Labels, die Sie mit Ihren UTXOs auf Samourai verknüpft hatten, manuell zu importieren. Dies ermöglicht Ihnen später eine effektive Kontrolle über Ihre Coins auf Sparrow.
 
@@ -201,7 +201,7 @@ Wenn Sie eine andere Software wie Electrum verwenden, um Ihre Samourai-Wallet wi
 - Premix: `m/84'/0'/2147483645'`
 - Postmix: `m/84'/0'/2147483646'`
 
-Sie haben jetzt Zugang zu Ihren Bitcoins auf Sparrow. Wenn Sie Hilfe bei der Verwendung von Sparrow Wallet benötigen, können Sie auch [unser spezielles Tutorial](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607) konsultieren.
+Sie haben jetzt Zugang zu Ihren Bitcoins auf Sparrow. Wenn Sie Hilfe bei der Verwendung von Sparrow Wallet benötigen, können Sie auch [unser spezielles Tutorial](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d) konsultieren.
 
 Ich empfehle auch, die Labels, die Sie mit Ihren UTXOs auf Samourai verknüpft hatten, manuell zu importieren. Dies ermöglicht Ihnen später eine effektive Kontrolle über Ihre Coins auf Sparrow.
 

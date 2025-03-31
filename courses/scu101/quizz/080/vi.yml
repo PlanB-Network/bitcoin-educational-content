@@ -1,0 +1,9 @@
+question: Tại sao nên tạo hai địa chỉ email riêng biệt?
+answer: Để tách biệt giao tiếp chung với khôi phục tài khoản.
+wrong_answers:
+  - Để phân tách giao tiếp công việc và cá nhân.
+  - Để tạo nhiều tài khoản và tăng khả năng hiển thị trực tuyến.
+  - Để nhận nhiều thư rác hơn.
+explanation: |
+  Việc tách biệt địa chỉ email giúp giảm thiểu rủi ro và bảo vệ tốt hơn quyền truy cập vào các tài khoản quan trọng.
+reviewed: false

@@ -1,88 +1,88 @@
 id: 20573779-a7f7-4971-92f5-c398183f51f8
 author: Rod A.Beckstrom
 level: intermediate
-tags:
-  - business
-  - management
-  - leadership
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.39
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.24
+    contributor_names:
+    reward: 0.31
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
-    reward: 0.12
+    reward: 0.16
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.31
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.39
   - language: fr
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.24
+    contributor_names:
+    reward: 0.31
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.31
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.53
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.24
+    contributor_names:
+    reward: 0.31
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.39
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.53
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.46
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.46
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.39
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.39
+tags:
+  - decentralization
+  - case-studies
+  - high-level
+contributor_names:
+  - Rogzy-DB

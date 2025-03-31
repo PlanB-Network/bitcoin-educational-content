@@ -15,7 +15,6 @@ With Nakamochi, anyone can set up and operate a node from home, enabling full pr
 - Opening Channels and Making Transactions in the Lightning Network
 
 
-
 ## What is Nakamochi and How Does It Work?
 
 Nakamochi is a Bitcoin-only full node that supports both the Bitcoin and Lightning networks. It includes an integrated Bitcoin and Lightning wallet, enabling users to run a secure, self-sovereign Bitcoin node while benefiting from the Lightning Network’s speed and low transaction costs.
@@ -30,21 +29,25 @@ Your Nakamochi node is managed via a mobile app, [BitBanana (Android)](https://b
 1. Connect Nakamochi to power and Wi-Fi.
 2. Click on **"Setup New Wallet"** and securely store your 24-word recovery phrase.
 3. Use a node management app (Zeus or BitBanana) to connect to your Nakamochi:
-   - Open the app and scan the QR code displayed on your Nakamochi.
-4. For added security, set a PIN code on your device.
+4. Open the app and scan the QR code displayed on your Nakamochi.
+5. For added security, set a PIN code on your device.
 
-![Connect to power and write down your 24-word seed phrase](assets/en/01.webp)
+![image](assets/en/01.webp)
+_Connect to power and write down your 24-word seed phrase_
 
-![Wait until the Blockchain has caught up](assets/en/02.webp)
+![image](assets/en/02.webp)
+_Wait until the Blockchain has caught up_
 
-![Set up new wallet in Lightning Tab](assets/en/03.webp)
+![image](assets/en/03.webp)
+_Set up new wallet in Lightning Tab_
 
-![Scan QR Code with Node Management App](assets/en/04.webp)
+![image](assets/en/04.webp)
+_Scan QR Code with Node Management App_
 
-![For additional safety set a PIN code](asset/en/05.webp)
+![image](asset/en/05.webp)
+_For additional safety set a PIN code_
 
-_Note: Allow your Nakamochi node to sync with the blockchain. This process may take some time depending on your internet connection._
-
+**Note:** _Allow your Nakamochi node to sync with the blockchain. This process may take some time depending on your internet connection._
 
 
 ## About the Lightning Network
@@ -54,13 +57,11 @@ By operating off-chain, Lightning is designed to scale, supporting thousands of 
 Privacy is another advantage, as transactions on Lightning are routed through private payment channels rather than being recorded directly on the blockchain. This ensures a more discreet way to transact while maintaining Bitcoin’s robust security.
 
 
-
 #### Payment Channels Explained
 
 The Lightning Network operates through payment channels, which are connections between two parties allowing multiple transactions without interacting directly with the blockchain. When a channel is open, the balance between the two parties is updated on this second-layer Lightning solution for every transaction, ensuring fast, low-cost payments. Only the channel's opening and closing are recorded on-chain, reducing congestion on the Bitcoin blockchain.This design ensures scalability and privacy, as individual transactions remain unrecorded on the public ledger.
 
 **Example:** Alice and Bob open a channel by committing Bitcoin to it. Alice sends Bitcoins to Bob, and their off-chain balances update instantly without an on-chain record. If Alice then pays Charlie, and Alice has no direct channel to Charlie, the payment can be routed through Bob’s channel to reach Charlie. Routing through intermediary nodes ensures payments even without direct connections, making the network highly efficient.
-
 
 
 ## Opening Channels and Making Transactions in the Lightning Network
@@ -75,10 +76,10 @@ Once your Nakamochi is set up and connected to a node management app, you can be
 4. Enter the locked amount (choose with your peer or use the minimum fixed amount for well-known nodes).
 5. Click on **“Open Channel”**.
 
-![ZEUS Screenshot](asset/en/06.webp)
+![image](asset/en/06.webp)
+_ZEUS Screenshot_
 
-
-For more information: [Channels | Zeus Documentation](https://zeusln.app)
+For more information: [Channels | Zeus Documentation](https://docs.zeusln.app/)
 
 ### Opening Channels on BitBanana (Android):
 
@@ -88,7 +89,8 @@ For more information: [Channels | Zeus Documentation](https://zeusln.app)
 4. Scan or paste the pubkey.
 5. Enter the locked amount (choose with your peer or use the minimum fixed amount for well-known nodes).
 
-![Bitbanana Screenshot](asset/en/07.webp)
+![image](asset/en/07.webp)
+_Bitbanana Screenshot_
 
 For more information: [BitBanana](https://bitbanana.com)
 
@@ -97,8 +99,7 @@ If you no longer need a channel, you can close it. This action settles the final
 Generally, we recommend leaving channels open to reduce costs and increase network reliability and efficiency. By keeping channels open, you minimize on-chain transaction fees, avoid downtime for channel reconnections, and maintain a stable routing capacity for seamless payment processing. This approach fosters a robust and resilient network while enhancing overall user experience and reducing operational overhead.
 
 
-
 ### Useful Links
 
 - [About Nakamochi](https://nakamochi.io/)
-- [Subscribe to Our Newsletter](https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)
+- [Subscribe to Nakamochi's Newsletter](https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)

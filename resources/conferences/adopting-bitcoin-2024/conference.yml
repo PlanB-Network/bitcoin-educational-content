@@ -1,24 +1,24 @@
 id: 10960745-a7eb-48f9-a74d-2b316f572e5b
 year: 2024-11
 name: Adopting Bitcoin 2024
-builder: Adopting Bitcoin
 location: Nuevo Cuscatlan, El Salvador
 language:
   - en
   - es
 links:
   twitter: https://x.com/AdoptingBTC
-  website: https://www.adoptingbitcoin.org/
-tags:
-  - adoption
-  - business
-  - self-sovereignty
+  website: https://sv24.adoptingbitcoin.org/
 project_id: 3ece7cc0-6893-4ace-ba4a-a015c2c382d1
 original_language: en
 proofreading:
   - language: en
-    last_contribution_date: "2024-12-12"
+    last_contribution_date: "2025-03-04"
     urgency: 0
-    contributors_id:
-      - jramos0
+    contributor_names:
+      - PaoloFoti
     reward: 0.05
+tags:
+  - adoption
+  - future-outlook
+  - business
+

@@ -8,7 +8,9 @@ link:
 language: fr
 description: |
   Entrepreneur - Author - Bitcoin expert & speaker 
+contributor_names:
+  - PaoloFoti
 tags:
-  - finance
-contributors:
-  - hunt-wood
+  - business
+  - development
+  - evaluation

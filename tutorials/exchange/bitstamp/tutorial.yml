@@ -1,93 +1,91 @@
 id: 5a36c896-bff5-46d7-b505-ff069c3ac47c
-builder: Bitstamp
 
 level: intermediate
 
 category: centralized
 
-tags:
-  - multi-coin
-  - full KYC
-
-# Proofreading metadata
 project_id: c028a416-60f5-4522-ae7e-5a3fdbb50c2a
 original_language: en
 proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.26
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.18
+    contributor_names:
+    reward: 0.22
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
-    reward: 0.09
+    reward: 0.11
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.22
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.26
   - language: fr
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.18
+    contributor_names:
+    reward: 0.22
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.22
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.34
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.18
+    contributor_names:
+    reward: 0.22
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.26
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.34
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.26
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.3
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.3
 
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.26
+tags:
+  - guides
+  - user-friendly
+  - business

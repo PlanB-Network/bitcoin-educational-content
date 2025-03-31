@@ -1,24 +1,17 @@
 id: 656b5d44-1da6-4675-9652-f098c767b3dc
 year: 2015
 name: Bitcoin TLV 2015
-builder: Israeli Bitcoin Association
 location: Tel Aviv, Israel
 language:
   - he
 links:
   website: https://bitcoin.org.il/
-tags:
-  - Bitcoiner
-  - General
-
-
-# Proofreading metadata
 project_id: a3d80e75-8ea0-4133-807a-27578d5c62a5
 original_language: en
 proofreading:
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 0
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
     reward: 0.05

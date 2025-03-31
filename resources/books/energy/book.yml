@@ -1,90 +1,90 @@
 id: 7438036e-33f4-49a4-900d-821e957c70cd
 author: Richard Rhodes
 level: beginner
-tags:
-  - science
-  - history
-  - environment
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.23
+    contributor_names:
+    reward: 0.29
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
-    reward: 0.11
+    reward: 0.15
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.29
   - language: fr
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.23
+    contributor_names:
+    reward: 0.29
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.29
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.49
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.23
+    contributor_names:
+    reward: 0.29
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.36
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.49
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.42
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.42
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.36
 
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.36
 
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.36
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.36
+tags:
+  - historical
+  - technical-analysis
+  - deep-dive
+contributor_names:
+  - Rogzy-DB

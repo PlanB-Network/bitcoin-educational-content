@@ -1353,7 +1353,7 @@ A konečně, ať už jste malý obchodník, nebo zavedenější firma, je možn�
 
 <chapterId>0fe8c49e-b7f8-46f7-9c42-b8a9a99a7b46</chapterId>
 
-<isCourseReview>pravdivé</isCourseReview>
+<isCourseReview>true</isCourseReview>
 
 ## Závěrečná zkouška
 
@@ -1365,4 +1365,4 @@ A konečně, ať už jste malý obchodník, nebo zavedenější firma, je možn�
 
 <chapterId>5503c23e-3a90-4a23-8d89-75e3cc1ee53e</chapterId>
 
-<isCourseConclusion>pravdivý</isCourseConclusion>
+<isCourseConclusion>true</isCourseConclusion>

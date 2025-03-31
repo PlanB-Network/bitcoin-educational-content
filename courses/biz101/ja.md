@@ -1362,16 +1362,16 @@ https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45
 
 <chapterId>0fe8c49e-b7f8-46f7-9c42-b8a9a99a7b46</chapterId>
 
-<isCourseReview>真</isCourseReview>。
+<isCourseReview>true</isCourseReview>
 
 ## 最終試験
 
 <chapterId>40a0f18c-bdc9-45b2-8dea-15f7e574230e</chapterId>
 
-<isCourseExam>真</isCourseExam>。
+<isCourseExam>true</isCourseExam>
 
 ## 結論
 
 <chapterId>5503c23e-3a90-4a23-8d89-75e3cc1ee53e</chapterId>
 
-<isCourseConclusion>真</isCourseConclusion>。
+<isCourseConclusion>true</isCourseConclusion>

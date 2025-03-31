@@ -4242,4 +4242,4 @@ Karena fitur ini masih baru, kami menyarankan Anda untuk berhati-hati dan menghi
 
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>
 
-<isCourseConclusion>benar</isCourseConclusion>
+<isCourseConclusion>true</isCourseConclusion>

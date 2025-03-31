@@ -107,7 +107,7 @@ Antonio 介绍了 Breeze，这是一个开源 SDK，专为在 Liquid 网络上�
 
 <chapterId>e5f6348c-e207-40ae-8fef-6a068a6bf741</chapterId>
 
-<isCourseReview>真</isCourseReview>。
+<isCourseReview>true</isCourseReview>
 
 ## 结论
 

@@ -107,7 +107,7 @@ Antonio氏は、Liquid Network上の分散型トランザクションのため�
 
 <chapterId>e5f6348c-e207-40ae-8fef-6a068a6bf741</chapterId>
 
-<isCourseReview>真</isCourseReview>。
+<isCourseReview>true</isCourseReview>
 
 ## 結論
 

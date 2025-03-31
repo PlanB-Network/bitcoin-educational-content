@@ -1370,7 +1370,7 @@ Satoshi creó Bitcoin en 2008 para proponer un cambio del sistema financiero, a 
 
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 
-<isCourseReview>verdadero</isCourseReview>
+<isCourseReview>true</isCourseReview>
 
 ## Examen final
 

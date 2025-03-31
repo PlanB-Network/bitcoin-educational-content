@@ -1242,7 +1242,7 @@ e1-cli reissueasset <default asset name> <amount>
 
 <chapterId>beae23bd-2fd1-49fe-8f38-ed169acde51d</chapterId>
 
-<isCourseReview>true</isCourseReview
+<isCourseReview>true</isCourseReview>
 
 ## Заключение
 

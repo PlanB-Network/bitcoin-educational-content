@@ -4230,7 +4230,7 @@ Vzhledem k tomu, že tato funkce je nová, doporučujeme vám, abyste byli opatr
 
 <chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
 
-<isCourseReview>pravdivé</isCourseReview>
+<isCourseReview>true</isCourseReview>
 
 ## Závěrečná zkouška
 
@@ -4242,4 +4242,4 @@ Vzhledem k tomu, že tato funkce je nová, doporučujeme vám, abyste byli opatr
 
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>
 
-<isCourseConclusion>pravdivý</isCourseConclusion>
+<isCourseConclusion>true</isCourseConclusion>

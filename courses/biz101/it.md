@@ -1365,7 +1365,7 @@ Infine, che si tratti di un piccolo commerciante o di un'azienda più consolidat
 
 <chapterId>40a0f18c-bdc9-45b2-8dea-15f7e574230e</chapterId>
 
-<isCourseExam>vero</isCourseExam>
+<isCourseExam>true</isCourseExam>
 
 ## Conclusione
 

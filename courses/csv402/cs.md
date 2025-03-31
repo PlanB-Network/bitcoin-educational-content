@@ -3916,7 +3916,7 @@ Možnosti, které se díky této kompatibilitě LN-RGB otevírají, jsou značn�
 
 <chapterId>0217e8b0-942a-5fee-bd91-9a866551eff3</chapterId>
 
-<isCourseReview>pravdivé</isCourseReview>
+<isCourseReview>true</isCourseReview>
 
 ## Závěr
 

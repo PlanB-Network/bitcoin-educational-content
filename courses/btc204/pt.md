@@ -4236,10 +4236,10 @@ Uma vez que esta funcionalidade é nova, aconselhamos-te a ter cuidado e a evita
 
 <chapterId>e803d394-e3c1-5816-a6b4-a69a2472019c</chapterId>
 
-<isCourseExam>verdadeiro</isCourseExam>
+<isCourseExam>true</isCourseExam>
 
 ## Conclusão
 
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>
 
-<isCourseConclusion>verdadeiro</isCourseConclusion>
+<isCourseConclusion>true</isCourseConclusion>

@@ -1883,10 +1883,10 @@ V jiných zemích se samozřejmě **legislativa a fungování sdružení liší*
 
 <chapterId>08a35d2a-204b-519a-9bb1-588665a037fa</chapterId>
 
-<isCourseReview>pravdivé</isCourseReview>
+<isCourseReview>true</isCourseReview>
 
 ## Závěr
 
 <chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
 
-<isCourseConclusion>pravdivý</isCourseConclusion>
+<isCourseConclusion>true</isCourseConclusion>

@@ -1242,7 +1242,7 @@ Dalším krokem bude kumulativní kvíz, který se týká všech předchozích �
 
 <chapterId>beae23bd-2fd1-49fe-8f38-ed169acde51d</chapterId>
 
-<isCourseReview>pravdivé</isCourseReview>
+<isCourseReview>true</isCourseReview>
 
 ## Závěr
 

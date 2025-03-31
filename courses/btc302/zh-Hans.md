@@ -1883,10 +1883,10 @@ b) **不要把自己局限于比特币爱好者，而要主动接近新来者，
 
 <chapterId>08a35d2a-204b-519a-9bb1-588665a037fa</chapterId>
 
-<isCourseReview>真</isCourseReview>。
+<isCourseReview>true</isCourseReview>
 
 ## 结论
 
 <chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
 
-<isCourseConclusion>true</isCourseConclusion>（是课程结论）。
+<isCourseConclusion>true</isCourseConclusion>

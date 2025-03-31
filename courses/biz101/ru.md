@@ -1362,13 +1362,13 @@ https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45
 
 <chapterId>0fe8c49e-b7f8-46f7-9c42-b8a9a99a7b46</chapterId>
 
-<isCourseReview>true</isCourseReview
+<isCourseReview>true</isCourseReview>
 
 ## Итоговый экзамен
 
 <chapterId>40a0f18c-bdc9-45b2-8dea-15f7e574230e</chapterId>
 
-<isCourseExam>true</isCourseExam
+<isCourseExam>true</isCourseExam>
 
 ## Заключение
 

@@ -4236,7 +4236,7 @@ Poiché questa funzione è nuova, vi consigliamo di usare cautela e di evitare d
 
 <chapterId>e803d394-e3c1-5816-a6b4-a69a2472019c</chapterId>
 
-<isCourseExam>vero</isCourseExam>
+<isCourseExam>true</isCourseExam>
 
 ## Conclusione
 

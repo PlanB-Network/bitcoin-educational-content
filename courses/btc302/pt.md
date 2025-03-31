@@ -1889,4 +1889,4 @@ Naturalmente, **noutros países, a legislação e o funcionamento das associaç�
 
 <chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
 
-<isCourseConclusion>verdadeiro</isCourseConclusion>
+<isCourseConclusion>true</isCourseConclusion>

@@ -107,7 +107,7 @@ Antonio představuje Breeze, open-source SDK určené pro decentralizované tran
 
 <chapterId>e5f6348c-e207-40ae-8fef-6a068a6bf741</chapterId>
 
-<isCourseReview>pravdivé</isCourseReview>
+<isCourseReview>true</isCourseReview>
 
 ## Závěr
 

@@ -1242,7 +1242,7 @@ Elementsのソースコードとウェブサイト(https://github.com/ElementsPr
 
 <chapterId>beae23bd-2fd1-49fe-8f38-ed169acde51d</chapterId>
 
-<isCourseReview>真</isCourseReview>。
+<isCourseReview>true</isCourseReview>
 
 ## 結論
 

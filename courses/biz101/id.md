@@ -1370,4 +1370,4 @@ Terakhir, baik Anda seorang pedagang kecil atau bisnis yang sudah mapan, Anda bi
 
 <chapterId>5503c23e-3a90-4a23-8d89-75e3cc1ee53e</chapterId>
 
-<isCourseConclusion>benar</isCourseConclusion>
+<isCourseConclusion>true</isCourseConclusion>

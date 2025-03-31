@@ -4230,16 +4230,16 @@ BIP47と同様に、静的アドレス$B$と、$B$から派生した支払いア
 
 <chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
 
-<isCourseReview>真</isCourseReview>。
+<isCourseReview>true</isCourseReview>
 
 ## 最終試験
 
 <chapterId>e803d394-e3c1-5816-a6b4-a69a2472019c</chapterId>
 
-<isCourseExam>真</isCourseExam>。
+<isCourseExam>true</isCourseExam>
 
 ## 結論
 
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>
 
-<isCourseConclusion>真</isCourseConclusion>。
+<isCourseConclusion>true</isCourseConclusion>

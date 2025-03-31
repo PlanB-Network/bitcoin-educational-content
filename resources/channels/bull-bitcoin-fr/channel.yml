@@ -6,8 +6,9 @@ links:
   trailer: https://youtu.be/4dIz3YPToBk
 description: |
   Interviews, podcasts et actualités sur le Bitcoin.
+contributor_names:
+  - PaoloFoti
 tags:
-  - protocols
   - market-trends
-contributors:
-  - hunt-wood
+  - adoption
+  - user-friendly

@@ -1,7 +1,2 @@
 description: |
-  Alby es una extensión de navegador versátil diseñada para simplificar las transacciones y las interacciones de Bitcoin en la Red Lightning. Con una interfaz fácil de usar, proporciona una plataforma segura para administrar billeteras, habilitar transacciones y explorar tecnologías emergentes como Nostr.
-
-  Alby simplifica la monetización de contenido y proporciona una experiencia sin interrupciones para los desarrolladores, lo que la convierte en una solución integral para diversas necesidades de Bitcoin.
-contributors:
-  - rabbit-hole
-  - another-satoshi
+  Alby está empoderando a consumidores y desarrolladores con herramientas de pago en bitcoin fáciles de usar utilizando la lightning network en todas partes: en la web, en aplicaciones móviles y en el mundo real. Con Alby Hub, los usuarios obtienen una potente billetera lightning auto-custodiada que se conecta fácilmente a varias aplicaciones. La extensión del navegador Alby permite una interacción fluida con sitios web, facilitando pagos y verificación de identidad directamente desde el navegador. Para los usuarios móviles, Alby Go ofrece una billetera fácil de usar para gestionar transacciones sobre la marcha. Además, Alby proporciona APIs para integrar pagos en bitcoin en cualquier aplicación e interactuar programáticamente con billeteras lightning de bitcoin.

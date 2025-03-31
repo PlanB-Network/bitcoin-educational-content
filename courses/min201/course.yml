@@ -4,11 +4,10 @@ subtopic: mining
 level: intermediate
 hours: 6
 
-professors:
-  - case-memory
-  - diamond-jar
-  - rabbit-hole
-
+professors_id:
+  - 03cb7507-ad65-4848-88f8-bfa72e2b67f8
+  - e320ccda-be59-492b-a81b-243d9acb592f
+  - 2e1b5182-567e-453a-af29-36009340ff02
 published_at: 2023-05-17
 # Proofreading metadata
 original_language: fr
@@ -16,80 +15,84 @@ proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 33.73
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 16.91
+    contributor_names:
+    reward: 25.32
   - language: en
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 16.91
+    contributor_names:
+    reward: 25.32
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 25.32
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 33.73
   - language: fr
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
-    reward: 8.46
+    reward: 12.66
   - language: it
     last_contribution_date: 2024-07-18
     urgency: 1
-    contributors_id:
+    contributor_names:
       - TinF0ilHat1
     reward: 12.66
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 50.54
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 16.91
+    contributor_names:
+    reward: 25.32
   - language: ru
     last_contribution_date: 2024-11-16
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Reshetenko
     reward: 16.86
   - language: vi
     last_contribution_date: 2024-11-16
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Henry-Da0
     reward: 25.27
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 33.73
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 42.14
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 42.14
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 33.73
+tags:
+  - mining
+  - DIY
+  - guides

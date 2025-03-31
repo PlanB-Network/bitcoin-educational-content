@@ -1,0 +1,26 @@
+id: 1bcf15fe-f4a7-4225-b85c-0829ea5ec4e2
+test_only: true
+start_date: 2027-01-08  12:00:00
+end_date: 2027-01-08 19:00:00
+timezone: Europe/Prague
+address_city_country: Prague, Czech Republic
+name: TEST - Free hybrid
+type: workshop
+book_online: true
+book_in_person: true
+price_dollars: 0
+available_seats: 20
+is_gdpr_compliance: false
+custom_tc_disclaimer: 
+description: .
+language:
+  - en
+links:
+  website: https://www.planbtest.network
+  replay_url:
+  live_url:
+project_id: cd62a137-baad-4133-b90d-711963e510c7
+tags:
+  - lightning
+  - node
+  - protocols

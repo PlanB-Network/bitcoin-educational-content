@@ -36,7 +36,7 @@ Le cours est composé de 3 sous-éléments différents qui sont :
 - Chapitre, défini par le niveau `## ` et utile pour séparer le contenu de la partie en plusieurs pages comme sur le réseau PlanB où chaque chapitre est affiché sur sa propre page
 - Section, définie par le niveau `### ` et utile pour séparer le chapitre en sous-sujet pour plus de clarté
 
-Ces trois objets sont utilisés pour créer le curriculum sur la plateforme PBN. Voici un exemple pour [BTC101](https://planb.network/fr/courses/btc101)
+Ces trois objets sont utilisés pour créer le curriculum sur la plateforme PBN. Voici un exemple pour [BTC101](https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966)
 
 ![Curriculum BTC 101](./assets/fr/btc101-curriculum.webp)
 

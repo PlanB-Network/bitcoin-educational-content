@@ -2,11 +2,10 @@ id: 9fc5d410-ab82-41fb-ac6c-ec5095dec420
 start_date: 2024-11-14 22:00:00
 end_date: 2024-11-15 02:00:00
 timezone: America/El_Salvador
-address_line_1: San Salvador, El Salvador
+address_city_country: San Salvador, El Salvador
 address_line_2:
 address_line_3:
 name: Bitcoin Educators Unconference
-builder: Adopting Bitcoin
 type: meetup
 book_online: false
 book_in_person: false
@@ -18,8 +17,8 @@ links:
   website: https://sv24.adoptingbitcoin.org/satellite-events
   replay_url:
   live_url:
-tags:
-  - decentralization
-  - adoption
-
 project_id: 3ece7cc0-6893-4ace-ba4a-a015c2c382d1
+tags:
+  - adoption
+  - user-friendly
+  - easy-explain

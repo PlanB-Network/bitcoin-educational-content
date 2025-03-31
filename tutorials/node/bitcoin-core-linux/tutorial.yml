@@ -1,14 +1,7 @@
 id: 568c13a6-8746-4d63-8e95-f4a61c5ae0ed
-builder: Bitcoin Core
 
-credits:
-  professor: write-school
-  link: https://agora256.com/configuration-tor-bitcoin-core/
-
-tags:
-  - node
-  - privacy
-  - infrastructure
+professor_id: 8260ed86-de30-468b-88bc-6ed4140a24e2
+credit_link: https://agora256.com/configuration-tor-bitcoin-core/
 
 category: bitcoin
 
@@ -21,78 +14,82 @@ proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 5.37
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2.73
+    contributor_names:
+    reward: 4.05
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
-    reward: 1.37
+    reward: 2.03
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 4.05
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 5.37
   - language: fr
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2.73
+    contributor_names:
+    reward: 4.05
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 4.05
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 8.0
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2.73
+    contributor_names:
+    reward: 4.05
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 5.37
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 8.0
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 5.37
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 6.68
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 6.68
 
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 5.37
+tags:
+  - node
+  - guides
+  - software

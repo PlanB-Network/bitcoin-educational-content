@@ -1,9 +1,9 @@
 ---
-name: Lugano PlanB Forum 2022
-description: Lugano’s Plan ₿ is a joint initiative between the City of Lugano and Tether to accelerate the use of and leverage bitcoin technology as the foundation to transform the city’s financial infrastructure. The plan will scale blockchain and Bitcoin throughout the city to positively impact all facets of daily life for the residents of Lugano. From small transactions with local merchants to larger efforts – such as paying annual taxes – blockchain will serve as the foundation for the city’s financial exchanges and operate as a FIAT currency. 
+name: Lugano Plan ₿ Forum 2022
+description: Lugano’s Plan ₿ is a joint initiative between the City of Lugano and Tether to accelerate the use of and leverage bitcoin technology as the foundation to transform the city’s financial infrastructure. The plan will scale blockchain and Bitcoin throughout the city to positively impact all facets of daily life for the residents of Lugano. From small transactions with local merchants to larger efforts – such as paying annual taxes – blockchain will serve as the foundation for the city’s financial exchanges and operate as a FIAT currency.
 ---
 
-# main Stage
+# Main Stage
 
 ## How Bitcoin Mining Incentivizes Renewable Energy Build Out (PANEL)
 
@@ -23,7 +23,7 @@ Jaran Mellerud discuss how Bitcoin mining incentivizes renewable energy build ou
 
 Antoni Martin (Co-founder at Polygon ID & Polygon Hermez), Sandeep Nailwal (Co-founder at Polygon) and Amit Pradhan (Executive Chairman at Rainfall) discuss how blockchain and decentralization enable a more equitable world moderated by Irina Heaver.
 
-## Bitcoin as a Tool for Financial Freedom 
+## Bitcoin as a Tool for Financial Freedom
 
 ![video](https://youtu.be/BUcX_6ECW50?si=7h9g1fstHdA3caCl)
 
@@ -43,7 +43,7 @@ discuss Bitcoin and Stablecoins moderated by Stacy Herbert (Founder at El Zonte 
 
 Max Keiser (Founder at El Zonte Capital) about conquering time and space with Bitcoin.
 
-##  Cryptopayments in Commerce 
+##  Cryptopayments in Commerce
 
 ![video](https://youtu.be/xVpUAvDFP6E?si=w25WAkkcRx8bAwVB)
 
@@ -80,7 +80,7 @@ Author Jimmy Song discusses how fiat ruins everything.
 
 Obi Nwosu (CEO, Board member at Fedi, ₿trust and Gridless Compute) discusses how the global south will empower Bitcoin.
 
-## Impact of Regulation on Open-Source Software 
+## Impact of Regulation on Open-Source Software
 
 ![video](https://youtu.be/IrA8RLF0qg8?si=4FAYTUcxF1FRaaxA)
 
@@ -96,7 +96,7 @@ Michele Foletti (Mayor of the City of Lugano), Paolo Ardoino (CTO at Tether & Bi
 
 ![video](https://youtu.be/-SAh2vBySrc?si=LTBrf69R4BPTAVol)
 
-John Carvalho (CEO at Synonym) from WAGMI Stage 
+John Carvalho (CEO at Synonym) from WAGMI Stage
 
 ## Special Announcement
 
@@ -110,7 +110,7 @@ Michele Foletti (Mayor of the City of Lugano) and Milena Mayorga (Ambassador of 
 
 Ali Pourdad (CEO at Quantfury Trading) discusses inequality in the financial markets.
 
-## Investing in Bitcoin Companies 
+## Investing in Bitcoin Companies
 
 ![video](https://youtu.be/_OoafzxFpHA?si=7yPv_QCxwCCVQrHp)
 
@@ -128,7 +128,7 @@ Patrick Zahnd (Co-Founder and CEO at lipa), Ben Cousens (Chief Strategy Officer 
 
 Milena Mayorga (Ambassador of El Salvador to the United States of America), Indira Kempis (Mexican Senator), Filip Karageorgevitch (Prince of Serbia)and Pietro Poretti (Director of the Economic Development Division at City of Lugano) discuss nation-state Bitcoin adoption moderated by Samson Mow (CEO at Pixelmatic, JAN3).
 
-## The Next Decade in Bitcoin and Stablecoin Adoption 
+## The Next Decade in Bitcoin and Stablecoin Adoption
 
 ![video](https://youtu.be/OdaGLJfBiRc?si=bzGWJD5yb5YzZX0_)
 
@@ -140,7 +140,7 @@ Gabor Gurbacs (Director at VanEck/MVIS) discuss the next decade in Bitcoin and s
 
 Paolo Ardoino (CEO at Tether, Bitfinex, Holepunch), Mathias Buus (CEO at Holepunch) and John Carvalho (CEO Synonym) discuss the future of peer to peer credit moderated.
 
-## The Attack on Julian Assange is an Attack on Freedom of Speech 
+## The Attack on Julian Assange is an Attack on Freedom of Speech
 
 ![video](https://youtu.be/FaFrE9jWPq4?si=hBVNO34mUPoCT12Y)
 
@@ -158,7 +158,7 @@ Willy Woo (Co-founder at Crest Fund) discuss the long ark of Bitcoin adoption.
 
 Max Keidun (CEO at Debifi) discusses why Bitcoin is a super collateral.
 
-# UTXO room 
+# UTXO room
 
 ## A Pre-History of Bitcoin
 
@@ -214,9 +214,9 @@ Matthias Koller (Co-Founder & Business Development at Pocket Bitcoin)
 
 Federico Tenga’s masterclass from UTXO Room
 
-# Hal Finney room 
+# Hal Finney room
 
-## Bitcoin Custody and Security 
+## Bitcoin Custody and Security
 
 ![video](https://youtu.be/LTMAEN6wR8o?si=vKFK6QZtRmSJXS1q)
 
@@ -265,7 +265,7 @@ Ivan Kirilov’s masterclass (Chief Executive Officer at Total Technologies)
 
 Adrian Pauli (Co-Founder and Chief Technology Officer at lipa) and Bastian Feder (Co-Founder and Chief Information Officer at lipa)
 
-## Providing Liquidity in Volatile Markets: Challenges and Rewards 
+## Providing Liquidity in Volatile Markets: Challenges and Rewards
 
 ![video](https://youtu.be/U3ISY7fRGPk?si=L-F01DQN5WS3SZtB)
 
@@ -283,4 +283,3 @@ Reza Bandegi's masterclass (Chief Technology Officer at Synonym, Lightning at Bi
 ![video](https://youtu.be/hWMtUGjyaCY?si=uHhNlltg-omzL0Ps)
 
 Victor Ammer's masterclass (Chief Executive Officer at Ammer Group)
-

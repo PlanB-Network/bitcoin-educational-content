@@ -1,88 +1,88 @@
 id: 6ce8270c-2b18-4f66-8f85-ee7bf1c3946e
 author: Sean Ellis
 level: intermediate
-tags:
-  - business
-  - marketing
-  - growth hacking
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.35
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.23
+    contributor_names:
+    reward: 0.29
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
-    reward: 0.11
+    reward: 0.15
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.29
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.35
   - language: fr
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.23
+    contributor_names:
+    reward: 0.29
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.29
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.48
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.23
+    contributor_names:
+    reward: 0.29
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.35
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.48
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.42
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.42
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.35
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.35
+tags:
+  - business
+  - use-case
+  - case-studies
+contributor_names:
+  - Rogzy-DB

@@ -1,24 +1,21 @@
 id: 063fdd71-2795-434b-a649-d86af45d3aed
 year: 2014-05
 name: Bitcoin 2014
-builder: Bitcoin Foundation
 location: Amsterdam, Netherland
 language:
   - en
 links:
   twitter: https://twitter.com/Bitcoin2014
-tags:
-  - International
-  - All Public
-  - General
-
-# Proofreading metadata
 project_id: fd832594-924b-4fc0-a7b6-6a400aed3033
 original_language: en
 proofreading:
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 0
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
     reward: 0.05
+tags:
+  - historical
+  - adoption
+  - legacy

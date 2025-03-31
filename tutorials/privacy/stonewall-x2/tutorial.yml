@@ -1,17 +1,10 @@
 id: 05120280-f6f9-4e14-9fb8-c9e603f73e5b
-builder: Samourai
-
-tags:
-  - privacy
-  - cahoots
-  - Samourai
 
 category: on-chain
 
 level: advanced
 
-credits:
-  professor: pretty-private
+professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
 
 # Proofreading metadata
 project_id: f8ab03d0-0308-4ac1-a223-9c8e7600ff63
@@ -20,79 +13,83 @@ proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 7.3
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3.7
+    contributor_names:
+    reward: 5.5
   - language: en
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3.7
+    contributor_names:
+    reward: 5.5
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 5.5
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 7.3
   - language: fr
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
-    reward: 1.85
+    reward: 2.75
   - language: it
     last_contribution_date: 2024-09-24
     urgency: 1
-    contributors_id:
+    contributor_names:
       - TinF0ilHat1
     reward: 2.75
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 10.9
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3.7
+    contributor_names:
+    reward: 5.5
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 7.3
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 10.9
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 7.3
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 9.1
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 9.1
 
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 7.3
+tags:
+  - privacy
+  - wallets
+  - guides

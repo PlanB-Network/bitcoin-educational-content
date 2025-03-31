@@ -140,5 +140,5 @@ https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b
 
 我还建议你看看 GnuPG 的这篇教程，其中介绍了如何在安装软件前检查其完整性和真实性。这是一种重要的做法，尤其是在安装 Liana 或 Sparrow 等投资组合管理软件时：
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 

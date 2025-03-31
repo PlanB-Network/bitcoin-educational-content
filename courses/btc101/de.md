@@ -557,15 +557,18 @@ Im Folgenden werden wir verschiedene Sicherheitsstufen definieren:
 
 Sie können zum Beispiel Sparrow Wallet als Hot Wallet verwenden:
 
-https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - Stufe 2\*\*: Sie verwenden eine physische Geldbörse und haben Ihre Liste mit 12/24 Wörtern gesichert. Sie wird oft als "Cold Wallet" bezeichnet, weil Ihre Schlüssel auf einem Gerät gespeichert sind, das nicht mit dem Internet verbunden ist. In diesem Fall müssen Sie jede Transaktion immer mit Ihrem Gerät unterschreiben, was den täglichen Zugriff auf Ihr Geld erschwert.
 
 Sie könnten zum Beispiel ein Ledger, einen Satochip oder einen Tapsigner verwenden:
 
 https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
 https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+
 https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+
 ![image](assets/en/32.webp)
 
 - Stufe 3**: Sie verwenden eine Brieftasche der Stufe 1 oder 2, haben aber eine zusätzliche Passphrase hinzugefügt. In diesem Fall müssen Sie sowohl die Liste der 12/24 Wörter **als auch\*\* Ihre Passphrase sichern. Idealerweise werden diese beiden Informationen an zwei verschiedenen Orten gespeichert.
@@ -573,6 +576,7 @@ https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 Um mehr über die Verwendung und Funktionsweise des BIP39-Passphrases zu erfahren:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 ![image](assets/en/33.webp)
 
 - Stufe 4\*\*: Sie verwenden eine Reihe von Brieftaschen, um eine "Multisig"-Brieftasche zu erstellen, was bedeutet, dass mehrere Signaturen erforderlich sind, um eine Transaktion durchzuführen. In diesem Fall ist zu beachten, dass jeder Teil der Multisig an verschiedenen Orten gespeichert werden sollte. Dieser Ansatz wird oft als fortschrittliche Nutzung von Bitcoin angesehen, vor allem für die Verwaltung großer Beträge und für Unternehmenszwecke.
@@ -829,7 +833,7 @@ Es gibt mehrere Optionen, wenn Sie Ihren eigenen Knotenpunkt installieren möcht
 
 ![image](assets/en/53.webp)
 
-Eine zweite Möglichkeit ist die Verwendung einer speziellen Hardware für diesen Zweck, z. B. eines Raspberry Pi 4 mit einer ausreichend großen SSD (ca. 1 TB). Diese andere Option ist zwar teurer, wenn Sie die Hardware kaufen müssen, aber der Stromverbrauch liegt bei etwas weniger als 10,00 € pro Jahr.
+Eine zweite Möglichkeit ist die Verwendung einer speziellen Hardware für diesen Zweck, z. B. eines Raspberry Pi 4 mit einer ausreichend großen SSD (ca. 2 TB). Diese andere Option ist zwar teurer, wenn Sie die Hardware kaufen müssen, aber der Stromverbrauch liegt bei etwas weniger als 10,00 € pro Jahr.
 
 Aus Sicht der Bandbreite entspricht ein Block von 1 MB alle 10 Minuten ungefähr 5 GB pro Monat.
 
@@ -1044,6 +1048,8 @@ Heute überlebt der Bitcoin und wächst weiter, indem er mehr und mehr in den tr
 
 ![image](assets/en/71.webp)
 
+
+
 ## Bitcoins durch Arbeit erhalten
 
 <chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>
@@ -1074,13 +1080,17 @@ Wir werden dieses Thema in einem anderen Kurs ausführlich behandeln, aber um es
 
 - Einfache Online-Lösung: OpenNode
 
-https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - Lösung für Hobby-Händler: Swiss Bitcoin Pay
 
-https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Lösung für große Strukturen oder passionierte Bitcoiner: BTCpay Server
+
+Um dieses Thema weiter zu vertiefen, empfehlen wir Ihnen unseren Kurs BIZ101! Erfahren Sie, wie Sie Bitcoin effektiv in Ihre Unternehmensfinanzen integrieren, Bitcoin als Zahlungsmittel je nach Profil Ihrer Organisation akzeptieren und die damit verbundenen steuerlichen und buchhalterischen Anforderungen verstehen:
+
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## Sparen mit Bitcoin
 

@@ -88,7 +88,7 @@ These cryptographic hash functions have several essential characteristics that m
 
 #### 1. Irreversibility (preimage resistance):
 
-Irreversibility means that it is easy to calculate the hash from the input information, but the inverse calculation, that is, finding the input from the hash, is practically impossible. This property makes hash functions perfect for creating unique digital fingerprints without compromising the original information. This characteristic is often referred to as a one-way function or a "_trap door function_".
+Irreversibility means that it is easy to compute the hash from the input information, but the inverse calculation, i.e., finding the input from the hash, is practically impossible. This property makes hash functions perfect for creating unique digital fingerprints without compromising the original information.
 
 In the given example, obtaining the hash `24f1b9…` by knowing the input "_PlanB_" is simple and quick. However, finding the message "_PlanB_" by only knowing `24f1b9…` is impossible.
 
@@ -2210,13 +2210,13 @@ To convert a value into a _bech32_ character using this table, simply locate the
 By mapping all our values, we obtain the following address:
 
 ```
-qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 All that remains is to add the HRP `bc`, which indicates that it is an address for the Bitcoin mainnet, as well as the separator `1`, to obtain the complete receiving address:
 
 ```
-bc1qn7qnytxgsc3v5nxt9ff2y83g3pe849942stydj
+bc1qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 ```
 
 The particularity of this _bech32_ alphabet is that it includes all alphanumeric characters except for `1`, `b`, `i`, and `o` to avoid visual confusion between similar characters, especially during their entry or reading by humans.

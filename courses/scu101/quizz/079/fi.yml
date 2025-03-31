@@ -1,0 +1,9 @@
+question: Mitä etua tarjoaa turvallinen sähköpostipalvelu, kuten ProtonMail?
+answer: Yksityisyyden suoja ja parannettu turvallisuus.
+wrong_answers:
+  - Yksinkertaisempi käyttöliittymä aloittelijoille.
+  - Toimintojen vähentäminen hyökkäyspinnan pienentämiseksi.
+  - Algoritmin integrointi sähköpostien automaattiseen luomiseen.
+explanation: |
+  ProtonMail erottuu vahvasta yksityisyydensuojasta ja parannetuista turvatoimista.
+reviewed: false

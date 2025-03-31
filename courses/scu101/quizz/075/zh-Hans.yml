@@ -1,0 +1,9 @@
+question: 什么特性定义了一个好的密码？
+answer: 长度足够、复杂且唯一。
+wrong_answers:
+  - 短、小、易记。
+  - 基于个人信息。
+  - 所有账户使用相同的密码。
+explanation: |
+  一个好的密码应该足够长、复杂，并且不应重复使用。
+reviewed: false

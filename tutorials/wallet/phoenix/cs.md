@@ -1,190 +1,182 @@
 ---
 name: Phoenix
-
-description: Nastavení vaší peněženky Phoenix
+description: Instalace a používání aplikace Phoenix Wallet
 ---
+![cover](assets/cover.webp)
 
-![phoenix](assets/cover.webp)
+Phoenix je samostatná peněženka a uzel Lightning vyvinutý francouzskou společností ACINQ, která se specializuje na softwarová řešení založená na technologii Lightning. Na rozdíl od custodial Lightning peněženek, jako je například Wallet of Satoshi, kde jsou bitcoiny v držení třetí strany, Phoenix umožňuje uživatelům ponechat si plnou kontrolu nad svými soukromými klíči.
 
-## Úvod
+Phoenix funguje jako skutečný Lightning uzel integrovaný do vašeho telefonu, který automaticky otevře kanál s Lightning uzlem ACINQ. Aplikace je založena na Lightning-KMP, multiplatformní implementaci Lightning Network v jazyce Kotlin, optimalizované pro mobilní peněženky. Na rozdíl od jiných Lightning uzlů Phoenix výrazně zjednodušuje správu. Uživatel nemusí spravovat otevírání a zavírání kanálů, provozovat Bitcoin uzel nebo spravovat likviditu v síti Lightning. Phoenix se o všechny tyto technické operace stará na pozadí.
 
-Phoenix je nevlastnická lightning peněženka vytvořená týmem Acinq, který stojí za implementací Lightning Eclair.
+Tato aplikace kombinuje snadné používání a pohodlí mobilních peněženek Lightning s bezpečností a suverenitou skutečného osobního uzlu Lightning. Phoenix umožňuje bezpečně, efektivně a autonomně používat síť Lightning a zároveň využívat plynulé a intuitivní uživatelské prostředí.
 
-Mějte na paměti, že Phoenix je mobilní aplikace zaměřená na Lightning platby, ale podporuje i platby na řetězci prostřednictvím integrovaných swapů. To znamená, že jakýkoliv vklad na řetězci do Phoenixu, bude okamžitě převeden do Lightning kanálu.
+Na oplátku jsou účtovány určité poplatky:
 
-Pokud také chcete poslat na adresu na řetězci, Phoenix provede swap interně z vašeho LN kanálu na cílovou adresu na řetězci. Buďte si vědomi, že všechny tyto swapy mají svou cenu, protože zahrnují poplatek na řetězci.
 
-Níže v sekci "Průvodce začátkem" vás provedeme procesem nastavení a také vysvětlíme více o tom, jak spravovat likviditu lightning s Phoenixem.
+- Odeslání přes Lightning stojí 0,4 % z částky plus 4 sats ;
+- Pokud je pro příjem prostřednictvím služby Lightning potřeba hotovost, účtuje se 1 % z částky;
+- Otevření každého kanálu stojí 1000 satelitů.
 
-## Důležité zdroje
-- Oficiální webová stránka Phoenix - [https://phoenix.acinq.co](https://phoenix.acinq.co)
-- Dokumentace / FAQ stránka - [https://phoenix.acinq.co/faq](https://phoenix.acinq.co/faq)
-- [Github stránka](https://github.com/ACINQ/phoenix/) | [Stránka Github Releases](https://github.com/ACINQ/phoenix/releases) (přímé stažení apk)
-- [Podpora a diskuse](https://github.com/ACINQ/phoenix/discussions)
-- [Blog Acinq](https://acinq.co/blog) - oznámení
+Podle mého názoru představuje Phoenix vynikající mezistupeň mezi portfolii Lightning v úschově a ruční správou uzlu Lightning. Tato aplikace je stejně vhodná pro začátečníky i pokročilé uživatele, kteří se raději nechtějí zabývat detaily správy vlastního LND nebo jádra Lightning. Pojďme zjistit, jak ji používat!
 
-## Video návod
+![Image](assets/fr/01.webp)
 
-![Phoenix: Bitcoin Lightning Wallet Tutorial](https://youtu.be/cbtAmevYpdM?si=zctujxtI0hI-jKpC)
+## Instalace aplikace
 
-## Průvodce začátkem
+Přejděte do obchodu s aplikacemi a nainstalujte si aplikaci Phoenix :
 
-Zde je krok za krokem návod, jak začít s Phoenixem, nastavit, provádět / přijímat platby, spravovat likviditu, proces zálohování / obnovy.
 
-### Stažení & Nastavení
-Phoenix si můžete stáhnout a nainstalovat z: [App Store](https://apps.apple.com/us/app/phoenix-wallet/id1544097028) | [Google Play Store](https://play.google.com/store/apps/details?id=fr.acinq.phoenix.mainnet) | [Přímé stažení apk](https://github.com/ACINQ/phoenix/releases)
+- V [Obchodě Google Play](https://play.google.com/store/apps/details?id=fr.acinq.phoenix.mainnet);
+- V [App Store](https://apps.apple.com/fr/app/phoenix-wallet/id1544097028?l=en-GB).
 
-Postupujte podle instrukcí začínajících na úvodní obrazovce, krok za krokem.
+![Image](assets/fr/02.webp)
 
-![](assets/screenshot2.webp)
+Aplikaci můžete také nainstalovat [pomocí souboru apk v jejich úložišti GitHub](https://github.com/ACINQ/phoenix/releases).
 
-Budete informováni o automatickém vytváření lightning kanálů.
-Od verze v2.0 je to velká aktualizace, která přináší "splicing" do Phoenixu:
-- jediný dynamický kanál,
-- žádný 1% poplatek za příchozí likviditu
-- lepší předvídatelnost a kontrola
-- trustless swapy
+![Image](assets/fr/03.webp)
 
-Pro více detailů se podívejte na [příspěvek na blogu Phoenix](https://acinq.co/blog/phoenix-splicing-update), zejména na nový model poplatků.
+## Vytvoření portfolia
 
-![](assets/screenshot3.webp)
+Po spuštění aplikace klikněte na tlačítko "*Další*" pro přeskočení prezentace a poté na "*Spustit*".
 
-### Rychlý průvodce likviditou
+![Image](assets/fr/04.webp)
 
-Jakmile tedy do této peněženky přijmete / vložíte satoshi, automaticky se otevřou kanály s uzlem ACINQ. Obvykle bude velikost kanálů o něco větší než částka, kterou jste vložili. Takže vždy budete mít nový kanál pro každý vklad, kromě případů, kdy jste kanál zcela nevyčerpali a přijmete menší platbu, která bude doplněna.
+Vyberte možnost "*Vytvořit novou peněženku*".
 
-Pro likviditu Phoenix Lightning bychom navrhli následující scénář:
+![Image](assets/fr/05.webp)
 
-S novou verzí v0.2.0 přichází nová funkce LN splicing. To znamená, že odteď se už nebudete muset zabývat spoustou nových malých kanálů pro každou přijatou platbu.
+A to je vše, vaše peněženka Lightning a uzel jsou nyní vytvořeny.
 
-Pokud nebude dostatek příchozí likvidity, Phoenix zvětší velikost vašeho počátečního kanálu, ale to stále znamená poplatek na řetězci. Tento poplatek můžete stejně nastavit v nastavení Phoenixu, možnosti platby a poplatky.
-Doporučujeme začít používat Phoenix s velkým kanálem, jako je 1-3-5M sats. Vaše poplatky za commit budou v porovnání s velikostí kanálu nepatrné a příliš vás neovlivní. Také místo placení 4-5krát (nebo kolikrát jen budete vkládat malé částky) minimálního poplatku 3000 sats za každý vklad, zaplatíte pouze jednou poplatek za otevření kanálu.
-Pokud začnete z tohoto kanálu utrácet, neutraťte vše, protože Phoenix ho zavře.
+![Image](assets/fr/06.webp)
 
-Pokud v kanálu necháte nějaké sats a provedete další doplnění z jiné LN peněženky / zdroje vkladu, máme dvě situace k zvážení:
-- s novou částkou vkladu větší než je kapacita vašeho kanálu, Phoenix přizpůsobí velikost kanálu a vy zaplatíte extra poplatek.
-- s novou částkou vkladu menší než je kapacita vašeho kanálu, nebudou žádné poplatky.
+## Uložit mnemotechnickou frázi
 
-Takže se snažte nastavit kapacitu vašeho počátečního kanálu podle vašich osobních potřeb pro utrácení. Utrácení a doplňování v rámci limitů kanálu již nezpůsobí žádné další poplatky a zkušenost s používáním této aplikace peněženky bude plynulá.
+Než začneme, musíme si uložit naši mnemotechnickou frázi o 12 slovech. Tato fráze vám umožní úplný a neomezený přístup ke všem vašim bitcoinům. Kdokoli, kdo tuto frázi vlastní, může vaše prostředky ukrást, a to i bez fyzického přístupu k vašemu telefonu.
 
-### Záloha
-Na následující obrazovce budete informováni, že aplikace Phoenix vygeneruje frázi seed jako zálohu pro vaši peněženku. Později tyto seed slova MUSÍTE uložit na bezpečné místo!
+Fráze o 12 slovech obnoví přístup k bitcoinům v případě ztráty, krádeže nebo rozbití telefonu. Je proto velmi důležité ji pečlivě uložit a uložit na bezpečném místě.
 
-![](assets/screenshot4.webp)
+Můžete ho napsat na papír nebo pro větší bezpečnost vyrýt na nerezovou ocel, která ho ochrání před požárem, povodní nebo zřícením. Volba média pro mnemotechnickou pomůcku bude záviset na vaší bezpečnostní strategii, ale pokud používáte Fénix jako výdajové portfolio obsahující mírné částky, měl by papír stačit.
 
-Následující obrazovka ukazuje, zda chcete vytvořit novou peněženku nebo obnovit předchozí peněženku z fráze seed.
+Pro více informací o správném způsobu ukládání a správy mnemotechnických frází vřele doporučuji sledovat tento další návod, zejména pokud jste začátečníci:
 
-![](assets/screenshot5.webp)
+https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-Jakmile je nová peněženka vytvořena, budete upozorněni, že byste měli provést zálohu fráze seed. Klikněte na tlačítko "Zálohovat peněženku".
+Klikněte na zprávu zobrazenou v horní části rozhraní "*Uložit peněženku...*".
 
-![](assets/screenshot6.webp)
+![Image](assets/fr/07.webp)
 
-Budete upozorněni, že tyto slova z fráze seed jsou velmi důležitá a citlivá a měli byste je udržovat v soukromí.
+Poté klikněte na "*Uložit mou peněženku*".
 
-![](assets/screenshot7.webp)
+![Image](assets/fr/08.webp)
 
-Tato seed slova MUSÍTE uložit na bezpečné místo, jako je správce hesel ([KeePass](https://keepass.info/) nebo [Bitwarden](https://bitwarden.com/)), přičemž databázi tohoto správce hesel uchovávejte na offline USB šifrovaném disku pro úplnou bezpečnost.
+Poté klikněte na "*Zobrazit můj klíč*" a uložte svou mnemotechnickou frázi na fyzické médium.
 
-![](assets/screenshot8.webp)
+![Image](assets/fr/09.webp)
 
-### Přijímání plateb
+Zaškrtnutím dvou políček v dolní části rozhraní potvrďte, že zálohování bylo úspěšně dokončeno.
 
-Předtím, než začnete přijímat, prosím, přečtěte si předchozí kapitolu "Rychlý průvodce likviditou".
+![Image](assets/fr/10.webp)
 
-Takže nyní jste připraveni přijímat sats do vaší peněženky Phoenix!
+## Nastavení aplikace
 
-![](assets/screenshot9.webp)
+Před provedením prvních transakcí můžete upravit nastavení kliknutím na ikonu ozubeného kolečka v levém dolním rohu rozhraní.
 
-Pro přijetí platby v Phoenixu máte následující možnosti:
-- použitím zobrazeného QR kódu, který představuje "prázdnou" Lightning fakturu
-- úpravou Lightning faktury (viz tlačítko úprav pod QR kódem), kde můžete přidat částku sats, přidat komentář zobrazený plátci
-- použitím / skenováním QR kódu LNURL-withdraw
-- generováním on-chain Bitcoinové adresy z vaší peněženky Phoenix. Pamatujte, že tato platba bude "převedena" na nový Lightning kanál (pokud jste ještě žádný neotevřeli) nebo na změnu velikosti stávajícího Lightning kanálu.
+![Image](assets/fr/11.webp)
 
-![](assets/screenshot10.webp)
+V nabídce "*Zobrazení*" můžete zvolit téma aplikace, nominální hodnotu bitcoinu a místní fiat měnu.
 
-Obrazovka zobrazená pro úpravu nové Lightning faktury a generování nového QR kódu pro ni:
+![Image](assets/fr/12.webp)
 
-![](assets/screenshot11.webp)
+V části "*Možnosti platby*" najdete různá pokročilá nastavení pro platby Lightning. Výchozí nastavení můžete ponechat.
 
-Toto je obrazovka, kde můžete generovat on-chain BTC adresu a bude vás informováno, že platba na tuto adresu bude "převedena" na lightning likviditu a zahrne nějaké poplatky.
+![Image](assets/fr/13.webp)
 
-![](assets/screenshot12.webp)
+V části "*Správa kanálů*" nastavte maximální poplatek, který jste ochotni zaplatit při otevření kanálu Lightning.
 
-Jakmile byla platba provedena, zobrazí se obrazovka s potvrzením, vše hotovo!
+![Image](assets/fr/14.webp)
 
-![](assets/screenshot13.webp)
-Volitelně můžete ke každé přijaté platbě přidat osobní poznámku. Tyto poznámky nejsou uloženy nikde jinde, jsou uchovávány pouze ve vašem zařízení. Pokud obnovíte svou peněženku Phoenix, tyto poznámky nebudou obnoveny. Tato funkce je užitečná pro sledování vašich odeslaných a přijatých plateb.
-![](assets/screenshot14.webp)
+V nabídce "*Řízení přístupu*" důrazně doporučuji aktivovat systém ověřování pro zabezpečení přístupu k aplikaci v telefonu. Tím zabráníte tomu, aby kdokoli s přístupem k vašemu odemčenému telefonu získal přístup k aplikaci Phoenix a ukradl vaše bitcoiny.
 
-### Odesílání plateb
+![Image](assets/fr/15.webp)
 
-Odeslání plateb je poměrně jednoduchý proces, stačí kliknout na tlačítko na hlavní obrazovce "Odeslat"
+V nabídce "*Electrum server*", pokud máte server Electrs, můžete jej připojit k vysílání transakcí.
 
-![](assets/screenshot15.webp)
+![Image](assets/fr/16.webp)
 
-Budete vyzváni, abyste povolili aplikaci Phoenix přístup k fotoaparátu zařízení, aby bylo možné skenovat QR kódy.
+Chcete-li zvýšit důvěrnost svých připojení, povolte připojení přes Tor v nabídce "*Tor*". Přestože používání Toru může mírně zpomalit platby a vyžaduje, aby byla aplikace Phoenix při příjmu otevřena v popředí, výrazně zvyšuje vaše soukromí.
 
-![](assets/screenshot16.webp)
+![Image](assets/fr/17.webp)
 
-Na obrazovce platby máte 3 možnosti:
-- naskenovat QR kód z faktury příjemce Lightning / LNURL
-- ručně zadat (vložit), vstup Lightning Address nebo kód LNURL-pay
-- načíst QR obrázek z lokálního disku
+## Příjem bitcoinů v řetězci
 
-![](assets/screenshot17.webp)
+Při prvním použití máte možnost nabít peněženku Phoenix penězi v řetězci. Tento první vklad můžete provést také přímo z Lightningu (viz další část), ale v obou případech se za otevření prvního kanálu platí další poplatky.
 
-Jak můžete vidět na této obrazovce, požadavek na platbu byl naskenován a detaily jsou již vyplněny. Stačí jen stisknout tlačítko "Zaplatit".
+Klikněte na tlačítko "*Přijmout*".
 
-![](assets/screenshot18.webp)
+![Image](assets/fr/18.webp)
 
-Jakmile je platba odeslána a potvrzena, zobrazí se obrazovka s potvrzením s krátkými detaily platby, včetně zaplaceného poplatku. Pokud chcete vidět více detailů o platbě, klikněte na tlačítko "Detaily".
+Přejetím QR kódu doprava se zobrazí adresa pro příjem bitcoinů. Pošlete na ni částku, kterou si přejete vložit do Phoenixu.
 
-![](assets/screenshot19.webp)
+![Image](assets/fr/19.webp)
 
-Na obrazovce s detaily můžete vidět technické detaily platby, včetně: hash platby a požadavek, preimage, cílový uzel a dobu trvání. Někdy jsou tyto detaily užitečné pro sledování plateb, ladění nebo identifikaci konkrétní platby s příjemcem.
+Částka přijatá v řetězci se nejprve zobrazí jako čekající na vyřízení v rámci zůstatku vašeho portfolia. Potrvá 3 potvrzení, než budou prostředky k dispozici k použití.
 
-![](assets/screenshot20.webp)
+![Image](assets/fr/20.webp)
 
-### Nastavení
+Po obdržení prostředků vám společnost Phoenix automaticky otevře kanál Lightning. Nyní můžete posílat a přijímat bitcoiny prostřednictvím sítě Lightning.
 
-V menu Nastavení není moc co dělat, Phoenix jde cestou jednoduchosti. Ale jeden důležitý aspekt zde je menu pro správu platebních kanálů a poplatků, kde si můžete nastavit požadované úrovně poplatků. Mějte na paměti, že v prostředí s vysokými poplatky v mempoolu byste neměli používat velmi nízké poplatky, jinak vaše platby a otevírání kanálů budou narušeny a/nebo selžou.
+![Image](assets/fr/21.webp)
 
-Další možnosti v menu Nastavení:
-- Zobrazení - pro přepnutí na různé barevné motivy
-- Electrum server - pro kontrolu stavu serveru Electrum, ke kterému jste připojeni, nebo specifikovat jeden
-- Tor - pokud chcete používat Phoenix za sítí Tor
-- Nastavení přístupu aplikace - nastavit oprávnění pro Phoenix k určitým službám zařízení
-- Fráze pro obnovu - pokud chcete zkontrolovat slova semínka a/nebo provést novou zálohu
-- Seznam kanálů - zobrazit stav vašich Lightning kanálů a dostupnou likviditu (vstup/výstup)
-- Logy - zobrazit logy pro ladění
-- Zavřít všechny kanály - Nebezpečná možnost, která by měla být použita POUZE v případě, že chcete trvale ukončit provoz vašeho uzlu Phoenix a získat zpět prostředky na vaši onchain adresu. Tuto adresu lze později načíst pomocí peněženky Electrum s použitím vaší fráze pro obnovu Phoenix.
+## Příjem bitcoinů přes Lightning
 
-![](assets/screenshot21.webp)
+Chcete-li přijímat satelity prostřednictvím sítě Lightning, klikněte na tlačítko "*Přijímat*".
 
-### Reset
+![Image](assets/fr/22.webp)
 
-Pokud se ocitnete v situaci, kdy vaše aplikace Phoneix má problémy (nevykonává platby, nepřipojuje se k serverům Electrum, nemůže přijímat platby) nebo jednoduše chcete přesunout ji na jiné zařízení, MUSÍTE si být jisti dvěma aspekty:
-- máte zálohu vaší fráze pro obnovu
-- zastavte aplikaci ve vašem zařízení - přejděte na detaily aplikace a vynuťte zastavení služby
-- odinstalujte ji ze starého zařízení, pokud ji chcete přesunout na nové
-- NESPUŠTĚJTE stejnou peněženku Phoenix na více zařízeních!
+Phoenix vygeneruje fakturu Lightning. Můžete ji buď naskenovat, nebo poslat osobě, která si přeje převést saty na vás.
 
-![](assets/screenshot22.webp)
+![Image](assets/fr/23.webp)
 
-Jakmile ji znovu nainstalujete nebo nainstalujete na nová zařízení, klikněte na tlačítko "Obnovit" a postupujte podle pokynů
+Kliknutím na tlačítko "*Upravit*" můžete přidat popis, který bude plátce na faktuře vidět, a definovat konkrétní částku, kterou musí plátce odeslat.
 
-![](assets/screenshot23.webp)
-Nemůžete použít jiný typ seedu, který byl generován z jiných peněženkových aplikací. [Zde naleznete více informací](https://walletsrecovery.org/) o dalších typech peněženek, jejich typech seedu a cestě derivace. Ne všechny jsou kompatibilní!
-![](assets/screenshot24.webp)
+![Image](assets/fr/24.webp)
 
-Musíte zadat slova seedu, která jste předtím uložili, jedno po druhém, ve specifickém pořadí. Jakmile dokončíte zadávání 12 slov, klikněte na tlačítko "Importovat" a hotovo.
+Výše uvedené klasické faktury lze použít pouze jednou. Pro možnost opakované platby můžete použít svůj opakovaně použitelný QR kód, který je součástí nabídky BOLT12.
 
-![](assets/screenshot25.webp)
+![Image](assets/fr/25.webp)
 
-Během několika okamžiků uvidíte zobrazený váš předchozí zůstatek. Také se vám zobrazí upozornění na zálohování vašeho seedu. Pokud jste to již udělali, můžete jít do menu a vybrat "Zálohu jsem uložil".
+Po uhrazení faktury nebo nabídky BOLT12 se transakce objeví ve vaší bleskové peněžence.
 
-![](assets/screenshot26.webp)
+![Image](assets/fr/26.webp)
 
-Hotovo! Příjemné bleskové transakce!
+## Odesílání bitcoinů přes Lightning
+
+Nyní, když máte sats v systému Phoenix, jste připraveni provádět platby prostřednictvím sítě Lightning Network. Začněte kliknutím na tlačítko "*Odeslat*".
+
+![Image](assets/fr/27.webp)
+
+Máte k dispozici několik možností. Kliknutím na "*Scan QR code*" můžete naskenovat fakturu Lightning, nabídku BOLT12 nebo dokonce přijímací adresu pro platbu v řetězci.
+
+![Image](assets/fr/28.webp)
+
+Tyto informace můžete také zadat ručně pomocí klávesnice do pole v horní části rozhraní nebo zadat adresu Lightning (BOLT12 nebo LNURL). Informace můžete také vložit přímo pomocí tlačítka "*Vložit*".
+
+![Image](assets/fr/29.webp)
+
+V tomto příkladu jsem naskenoval fakturu na 10 000 sátů. Pro provedení platby stačí kliknout na "*Platit*".
+
+![Image](assets/fr/30.webp)
+
+Transakce je dokončena.
+
+![Image](assets/fr/31.webp)
+
+Gratulujeme, nyní víte, jak konfigurovat a používat aplikaci Phoenix. Pokud pro vás byl tento návod užitečný, budu vám vděčný, když mi níže zanecháte zelený palec. Neváhejte tento článek sdílet na svých sociálních sítích. Děkujeme za sdílení!
+
+Chcete-li se posunout o krok dál, podívejte se na tento návod na Alby Hub, další inovativní a snadno použitelné řešení pro spuštění vlastního uzlu Lightning:
+
+https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+
+Chcete-li se dozvědět více o technickém fungování sítě Lightning Network, najdete vynikající bezplatné školení Fanise Michalakise na téma Plan ₿ Network :
+
+https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

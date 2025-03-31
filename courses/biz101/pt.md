@@ -154,47 +154,33 @@ Esta transação aparentemente simples envolve, na realidade, mais de 15 passos,
 
 Em geral, este processo é complexo, moroso e dispendioso para o que deveria ser o simples ato de transferir valor de uma parte para outra.
 
-### Comparação de métodos de pagamento
+### Comparação dos Métodos de Pagamento
 
-| Método de pagamento | Autorização necessária?           | Tempo de aprovação da transação (vista do comerciante) | Velocidade de liquidação (fundos totalmente liquidados) | Finalidade (facilidade de estorno) | Número de intermediários | Taxas típicas (para o beneficiário)
+| Método de Pagamento               | Necessidade de Autorização?       | Tempo de Aprovação da Transação (Visão do Comerciante) | Velocidade de Liquidação (Fundos Totalmente Liquidados) | Finalidade (Facilidade de Reversão)           | Número de Intermediários       | Taxas Típicas (para o Beneficiário) |
+| --------------------------------- | --------------------------------- | ----------------------------------------------------- | ------------------------------------------------------ | -------------------------------------------- | ------------------------------ | ---------------------------------- |
+| **Dinheiro (Cash)**                | Não                               | Imediato (Troca Física)                                | Imediato (Sem Atraso na Liquidação)                    | Alta (Irreversível após o pagamento)         | Nenhum                        | Nenhum                             |
+| **Cheques (Checks)**               | Sim (Compensação Bancária)        | Aceitação no Depósito (Não Garantido)                  | Vários Dias (Processo de Compensação de Cheques)       | Médio (Pode ser Recusado/Parado Antes da Compensação) | Banco                         | **Baixa a Média** (Taxas Bancárias) |
+| **Transferências Bancárias (Wire Transfers)** | Sim (Banco/Rede)                | Confirmação em Horas                                    | Mesmo Dia ou Próximo Dia (Doméstico)                  | Alta (Geralmente Irreversível após o Envio)  | Bancos, Redes de Pagamento     | **Média** (Fixa/Porcentagem)        |
+| **Cartões de Pagamento (Payment Cards)** | Sim (Autorização do Emissor do Cartão) | Segundos a Minutos (Código de Autorização)           | Alguns Dias (Liquidação Interbancária)                | Médio (Possíveis Estornos)                   | Emissor, Adquirente, Rede de Cartões | **Variável (1-3% da Transação)** |
+| **Carteiras Digitais/Pagamento Móvel (Digital Wallets/Mobile Pay)** | Sim (Provedor da Carteira/Banco) | Segundos (Confirmação Instantânea)                   | Normalmente 1-2 Dias (Depende da Fonte de Financiamento) | Médio (Possíveis Reembolsos/Disputas)       | Bancos, Operadores de Carteiras | **Baixa a Média (Varia)**          |
 
-| ------------------------------ | ------------------------------- | ----------------------------------------- | ---------------------------------------------- | ---------------------------------------- | ------------------------------ | ---------------------------------- |
 
-| Não | Imediato (troca física) | Imediato (sem atraso na liquidação) | Elevado (irreversível após o pagamento) | Nenhum | Nenhum |
+### Limitações das Soluções Existentes
 
-| Cheques** | Sim (compensação bancária) | Aceitação no depósito (não garantida) | Vários dias (processo de compensação de cheques) | Médio (pode ser devolvido/parado antes da compensação) | Banco | **Baixo a médio** (taxas bancárias) |
+A indústria de pagamentos tradicionais representa uma economia anual de aproximadamente 2,2 trilhões de dólares, aproximadamente um décimo do PIB dos Estados Unidos ou equivalente ao PIB da França. Como as moedas funcionam como redes permissivas, há uma competição limitada, fazendo com que esse "serviço" se assemelhe mais a um imposto imposto à economia produtiva. Além dos encargos de custo que cria, existem várias outras limitações, conforme descrito abaixo.
 
-| Transferências bancárias** | Sim (banco/rede) | Confirmação dentro de horas | No mesmo dia ou no dia seguinte (nacional) | Alta (geralmente irreversível após o envio) | Bancos, redes de pagamento | **Média**(fixa/percentual) |
+| Limitação                         | Explicação                                                                                                                                                                                                                  | Impacto                                                                                                    |
+| -------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| Altas Taxas de Cartão             | As taxas de intercâmbio (~0,3%), taxas de rede (fixas ou 0,3%-1%), assinaturas de terminais/PSP e margens bancárias (0,5%-1,7%) somam um custo substancial — como um "imposto" global sobre setores produtivos, totalizando trilhões de dólares. | Aumenta os custos para comerciantes, reduzindo margens e potencialmente elevando os preços para consumidores. |
+| Liquidação Final Muito Lenta      | A liquidação dos fundos pode levar até 5 dias, desacelerando o fluxo de dinheiro e a atividade econômica geral.                                                                                                              | Atrasos na liquidez para comerciantes e redução da velocidade da circulação econômica.                    |
+| Fraude                            | Canais de e-commerce são fortemente visados por fraudes, contribuindo para perdas significativas (ex.: 28 bilhões de dólares). Os estornos podem alcançar cerca de 174 bilhões de dólares globalmente até 2024. Gerenciar essas disputas consome tempo e causa estresse mental. | Aumenta os custos operacionais, exige medidas complexas de prevenção de fraudes e diminui a confiança do cliente. |
+| Abandono de Carrinho              | Etapas adicionais de segurança (códigos de uso único, autenticação de dois fatores sob PSD2) introduzem fricção no checkout.                                                                                                | Maior complexidade no checkout leva ao aumento do abandono de carrinho e perda de vendas.                  |
+| Altos Valores Mínimos de Transação | Os limites mínimos de gasto nos cartões podem forçar comerciantes e consumidores a condições inconvenientes de preços ou compras, desencorajando transações de baixo valor.                                                | Reduz a satisfação e a flexibilidade do cliente, potencialmente limitando compras por impulso ou de baixo valor. |
+| Pré-Autorização Lenta             | Os sistemas atuais não conseguem lidar com transações em velocidades de milissegundos ou suportar fluxos contínuos de pagamentos em tempo real.                                                                             | Limita os casos de uso que exigem pagamentos instantâneos ou contínuos, restringindo a inovação e escalabilidade. |
+| Necessidade de Conta Bancária/Cartão | O acesso a esses métodos de pagamento requer uma conta bancária ou cartão vinculado, excluindo automaticamente aqueles que não possuem tais contas.                                                                       | Limita a inclusão financeira, reduzindo o acesso para populações não bancarizadas ou com pouca bancarização. |
+| Criação Repetida de Contas Online  | Os usuários muitas vezes precisam criar várias contas online, levando a fadiga, conveniência reduzida e maior exposição de dados pessoais.                                                                                 | Deteriora a experiência do usuário, aumenta as preocupações com privacidade e aumenta o risco de violações de dados. |
+| Taxas de Câmbio (FX)              | A falta de uma unidade de conta universal força conversões de moeda caras para transações transfronteiriças.                                                                                                               | Adiciona custos extras para o comércio internacional, tornando as transações globais menos acessíveis.     |
 
-| Cartões de pagamento** | Sim (autorização do emissor do cartão) | Segundos a minutos (código de autorização) | Alguns dias (liquidação interbancária) | Médio (possibilidade de estornos) | Emissor, adquirente, rede de cartões | **Variável (1-3% da transação)** |
-
-| Carteiras digitais/pagamentos móveis** | Sim (fornecedor de carteiras/banco) | Segundos (confirmação instantânea) | Normalmente 1-2 dias (depende da fonte de financiamento) | Médio (possibilidade de reembolso/disputa) | Bancos, operadores de carteiras | **Baixo a médio (varia)
-
-### Limitações das soluções existentes
-
-O sector dos pagamentos tradicionais representa uma economia anual de cerca de 2 200 mil milhões de dólares, ou seja, cerca de um décimo do PIB dos Estados Unidos ou igual ao PIB da França. Uma vez que as moedas funcionam como redes autorizadas, a concorrência é limitada, o que faz com que este "serviço" se assemelhe mais a um imposto aplicado à economia produtiva. Para além dos encargos que cria, existem várias outras limitações, como a seguir se indica.
-
-| Limitação | Explicação | Impacto
-
-| -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
-
-| Taxas elevadas dos cartões | Taxas interbancárias (~0,3%), taxas de rede (fixas ou 0,3%-1%), assinaturas de terminais/PSP e margens bancárias (0,5%-1,7%) representam um custo substancial - como um "imposto" global sobre os sectores produtivos, no valor de triliões de dólares.     | Aumenta os custos dos comerciantes, reduzindo as margens e aumentando potencialmente os preços ao consumidor.                  |
-
-| Liquidação final muito lenta A liquidação dos fundos pode demorar até 5 dias, o que atrasa o fluxo de dinheiro e a atividade económica em geral.                                                                                                                                | Atrasa a liquidez para os comerciantes e reduz a velocidade da circulação económica.                        |
-
-| Fraude | Os canais de comércio eletrónico são fortemente visados pela fraude, contribuindo para perdas significativas (por exemplo, 28 mil milhões de dólares). Os estornos poderão atingir ~$174 mil milhões a nível mundial até 2024. A gestão destes litígios consome tempo e causa tensão mental. | Aumento dos custos operacionais, medidas complexas de prevenção da fraude e diminuição da confiança dos clientes.       |
-
-| Abandono do carrinho | Passos de segurança adicionais (códigos únicos, autenticação de dois factores ao abrigo da PSD2) introduzem fricção no checkout.                                                                                                                   | A maior complexidade do checkout leva ao aumento do abandono do carrinho e à perda de vendas.                       |
-
-| Elevados montantes mínimos de transação | Os limites mínimos de gastos nos cartões podem forçar os comerciantes e os consumidores a praticar preços ou condições de compra inconvenientes, desencorajando as transacções de pequeno valor.                                                                       | Redução da satisfação e flexibilidade do cliente, potencialmente limitando compras por impulso ou de baixo valor.  |
-
-| Pré-autorização lenta | Os sistemas atuais não podem lidar com transações em velocidades de milissegundos ou suportar fluxos de pagamento contínuos e em tempo real.                                                                                                                   | Limita os casos de uso que exigem pagamentos instantâneos ou em fluxo contínuo, restringindo a inovação e a escalabilidade. |
-
-| Necessidade de uma conta bancária/cartão | O acesso a estes métodos de pagamento requer uma conta bancária ou de cartão associada, excluindo automaticamente aqueles que não têm essas contas.                                                                                                       | Limita a inclusão financeira, reduzindo o acesso das populações não bancarizadas ou sub-bancarizadas.                 |
-
-| Criação repetida de contas online | Os utilizadores têm frequentemente de criar várias contas online, o que provoca cansaço, reduz a conveniência e aumenta a exposição de dados pessoais.                                                                                                | Deteriora a experiência do utilizador, suscita preocupações com a privacidade e aumenta o risco de violações de dados.          |
-
-| A falta de uma unidade de conta universal obriga a conversões de moeda dispendiosas para transacções transfronteiriças.                                                                                                                              | Acrescenta custos adicionais ao comércio internacional, tornando as transacções globais menos acessíveis.             |
 
 Tal como passámos do pagamento ao minuto das chamadas vocais para a utilização quase gratuita de comunicações baseadas no IP, a emergência de redes mais abertas e eficientes pode redefinir os pagamentos, reduzindo os custos e os intermediários e promovendo novos modelos de negócio.
 
@@ -254,6 +240,7 @@ A Bitcoin desafia-nos a reconsiderar a natureza do próprio dinheiro. Pode expli
 Para mais informações sobre a Bitcoin, a sua história, o seu funcionamento e a sua utilização, sugiro também que siga este outro curso completo:
 
 https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
+
 ## Introdução à Rede Lightning
 
 <chapterId>c095c7ad-5469-4c7b-9510-b6c0b86244e7</chapterId>
@@ -335,6 +322,7 @@ A Lightning Network é ideal para pagamentos com Bitcoin em lojas físicas ou on
 Para mais informações sobre o funcionamento técnico da Lightning Network, sugiro também que siga este outro curso abrangente:
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 # Bitcoin em tesouraria
 
 <partId>bf45c1e8-af97-4b6b-af42-2866f493b14d</partId>
@@ -454,8 +442,11 @@ Estes pensadores deram forma à ideia de que a intervenção do Estado distorce 
 Para mais informações sobre este tema:
 
 https://planb.network/courses/d955dd28-b7c6-4ba2-a123-d932e21d148f
+
 https://planb.network/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
+
 https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+
 ## Detenção de bitcoin em tesouraria
 
 <chapterId>89622a40-d14f-4c37-a075-8e7e1731ec26</chapterId>
@@ -517,35 +508,20 @@ Os ETFs Bitcoin lideram por uma larga margem em termos de **adoção institucion
 A Bitcoin actua atualmente no **mercado das reservas de valor**. Representa apenas uma gota no balde em termos de escala: apenas cerca de 1 800 mil milhões de dólares em comparação com os 18 000 mil milhões de dólares do ouro ou os 500 000 mil milhões de dólares do sector imobiliário. No entanto, a sua quota de mercado de cerca de 0,1% dá-lhe uma enorme margem de crescimento, especialmente tendo em conta que os seus concorrentes lutam para atrair novos utilizadores.
 
 | Ticker | Fluxo 1D (M USD) | Fluxo 1W (M USD) | Fluxo 1M (M USD) | Fluxo 3M (M USD) | Fluxo YTD (M USD) |
-
 | ------- | --------------- | --------------- | --------------- | --------------- | ---------------- |
-
 | **Soma** | +457,19 | +1.507,95 | +2.888,01 | +3.672,29 | **+20.262,94** |
-
 | IBIT | +393,40 | +750,91 | +1.536,47 | +3.821,37 | +22.460,44 |
-
 | FBTC | +14,81 | +372,40 | +627,16 | +458,71 | +10.266,69 |
-
 | ARKB | +11,51 | +163,26 | +295,92 | -3,88 | +2.647,32 |
-
 | BITB | +12,93 | +146,50 | +263,30 | +97,46 | +2.262,69 |
-
 | HODL | +5.75 | +38.77 | +94.54 | +100.39 | +682.03 |
-
 | BRRR | +1,92 | +4,72 | +17,76 | +20,54 | +540,19 |
-
 | EZBC | +11.79 | +17.53 | +39.29 | +47.48 | +439.45 |
-
 | BTC | .00 | -3.13 | +36.59 | +419.18 | +419.18 |
-
 | BTCO | +6,43 | +19,25 | +47,30 | +56,41 | +394,82 |
-
 | BTCW | .00 | +2.84 | +6.04 | +146.69 | +217.47 |
-
 | YBIT | -1.34 | -10.26 | +5.06 | +13.81 | +76.30 |
-
 | DEFI | .00 | .00 | .00 | -2.03 | -1.79 |
-
 | GBTC | .00 | +5.16 | -81.42 | -1503.84 | -20,141.85 |
 
 *20 mil milhões de dólares em 10 meses: Os ETFs de Bitcoin conseguiram em menos de um ano o que os ETFs de ouro levaram 5 anos a conseguir. Fonte: Fluxos de investimento de fundos em USD. Terminal Bloomberg, Bloomberg L.P., 2024.*
@@ -629,8 +605,10 @@ Este é, de longe, o método mais comum, efectuado através de trocas peer-to-pe
 
 Para saber como abrir uma conta empresarial e utilizá-la para comprar, vender e transferir bitcoins, pode consultar estes dois tutoriais especificamente concebidos para empresas, que abrangem as plataformas Kraken e Bitfinex nas suas versões empresariais:
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
-https://planb.network/tutorials/exchange/centralized/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+https://planb.network/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
+
+https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+
 Para saber mais sobre os métodos de aquisição de bitcoins através de uma bolsa ou peer-to-peer, pode [consultar a secção "bolsa" nos nossos tutoriais] (https://planb.network/tutorials/exchange).
 
 ![BIZ101](assets/en/16.webp)
@@ -782,133 +760,84 @@ Para simplificar o processo de decisão, definimos quatro perfis comerciais dist
 
 ### Os perfis das empresas
 
-#### Perfil 1 - O Iniciante
+#### Perfil 1 – O Iniciante
 
-| Atributo | O iniciador |
+| Atributo                      | O Iniciante                                                                                                                           |
+| ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| **Estado Mental**             | "experimentando meu primeiro pagamento físico", "recebendo gorjetas pelo meu conteúdo online", "visando uma receita muito pequena" |
+| **Frequência de Transações**   | "primeira transação para aprender", "recebendo pagamento de vez em quando"                                                          |
+| **Exemplos de Tipos de Negócio** | Economia criativa (criadores de conteúdo, blogs, artigos, etc.), gorjetas ocasionais, vendas presenciais únicas, associações, eventos únicos |
+| **Tipo de Pagamento**          | Geralmente alguns centavos a alguns euros/dólares; menos de ~300 euros/dólares por item                                            |
+| **Complexidade de Configuração** | Nenhuma                                                                                                                           |
+| **Exemplo de Solução Recomendada** | Uma carteira custodial Lightning como Wallet of Satoshi ou uma carteira não-custodial como Phoenix                               |
+| **Interface do Comerciante**   | Carteira Bitcoin Lightning simples: um aplicativo em um celular                                                                    |
+| **Interface do Cliente**       | Código QR Bitcoin, escaneado através da carteira pessoal do cliente                                                                |
+| **Taxas**                      | O cliente paga taxas do Bitcoin Lightning e quaisquer taxas aplicáveis do aplicativo                                              |
+| **Dispositivo de Ponto de Venda** | Aplicativo gratuito para smartphone ou uma opção de terminal físico (ex.: Bitcoinize)                                           |
+| **Gestão e Funções**           | Gestão de aplicativo único; diferenciação mínima de funções                                                                        |
+| **Exportações Contábeis**      | Listas básicas de histórico de transações                                                                                         |
+| **API**                        | Não                                                                                                                                |
 
-| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+---
 
-| **Estado de espírito** | "experimentar o meu primeiro pagamento físico", "receber uma gorjeta pelo meu conteúdo em linha", "visar uma receita muito pequena" |
+#### Perfil 2 – O Essencial
 
-| Frequência das transacções** | "primeira transação para aprender", "receber pagamentos de vez em quando"                                                                    |
+| Atributo                      | O Essencial                                                                                                                       |
+| ----------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| **Estado Mental**             | "Aceito Bitcoin no meu negócio, mas não espero um volume significativo"                                                          |
+| **Frequência de Transações**   | Poucas transações por mês                                                                                                        |
+| **Exemplos de Tipos de Negócio** | Bares, restaurantes, vendas semirregulares de produtos frescos ou adquiridos diretamente, várias lojas sob um único proprietário, economia criativa para artistas |
+| **Tipo de Pagamento**          | Geralmente variando de alguns euros/dólares a algumas centenas por item; menos de ~300 por item e menos de ~3.000 por mês       |
+| **Complexidade de Configuração** | Mínima (aplicativo móvel)                                                                                                      |
+| **Exemplo de Solução Recomendada** | Swiss Bitcoin Pay                                                                                                            |
+| **Interface do Comerciante**   | Carteira Bitcoin Lightning simples: um aplicativo em um celular; faturamento simples com detalhes mínimos                      |
+| **Interface do Cliente**       | Código QR Bitcoin, escaneado através da carteira pessoal do cliente                                                            |
+| **Taxas**                      | Normalmente <1% para envio para um endereço Bitcoin, e <1,5% para conversão em moeda fiduciária                                |
+| **Dispositivo de Ponto de Venda** | Aplicativo gratuito para smartphone ou uma opção de terminal físico (ex.: Bitcoinize)                                        |
+| **Gestão e Funções**           | Opção de função apenas para vendas para funcionários; painel online para administração                                        |
+| **Exportações Contábeis**      | Exportação CSV com detalhes completos das transações                                                                            |
+| **API**                        | Sim                                                                                                                            |
 
-| Economia criativa (criadores de conteúdos, blogues, artigos, etc.), dicas ocasionais, vendas pontuais de produtos em pessoa, associações, eventos pontuais
+---
 
-| Geralmente, alguns cêntimos a alguns euros/dólares; menos de ~300 euros/dólares por item
+#### Perfil 3 – O Profissional
 
-| Complexidade das configurações** | Nenhuma |
+| Atributo                      | O Profissional                                                                                                                          |
+| ----------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| **Estado Mental**             | - Um método de pagamento como qualquer outro para o meu e-commerce - Ou gestão conjunta para um grupo de negócios prontos para maiores volumes |
+| **Frequência de Transações**   | Múltiplas transações por dia                                                                                                            |
+| **Exemplos de Tipos de Negócio** | Sites de e-commerce com volume moderado, pequenos marketplaces, grupos de lojas físicas (ex.: Click & Collect), operações de PMEs     |
+| **Tipo de Pagamento**          | Geralmente variando de alguns euros/dólares a algumas centenas; sem limite definido de tamanho de pagamento; menos de 250.000 por ano |
+| **Complexidade de Configuração** | De leve a totalmente funcional (hospedagem local ou em nuvem), frequentemente requer uma loja de e-commerce                            |
+| **Exemplo de Solução Recomendada** | BTC Pay Server para e-commerce e/ou ambientes físicos; ZapRite, Musqet ou PayWithFlash para checkout, Be-BOP para uma e-store integrada |
+| **Interface do Comerciante**   | Site (móvel e desktop) com edição de faturas, opções de carrinho de compras e criação de botões de pagamento; faturamento automatizado com integração de e-commerce |
+| **Interface do Cliente**       | Código QR Bitcoin, escaneado através da carteira pessoal do cliente                                                                  |
+| **Taxas**                      | Combinação de backend gratuito e open-source com hospedagem Lightning paga; taxas front-end incluem taxas Bitcoin Lightning e <1,5% de taxas de conversão |
+| **Dispositivo de Ponto de Venda** | Loja online, exibição física opcional (ex.: iPad mostrando o site ou terminal Bitcoin)                                              |
+| **Gestão e Funções**           | Loja totalmente funcional com múltiplos papéis administrativos; funcionários e clientes interagem com o sistema                       |
+| **Exportações Contábeis**      | Exportação CSV com detalhes completos das transações                                                                                 |
+| **API**                        | Sim                                                                                                                                |
 
-| Uma carteira Lightning custodial como a Wallet of Satoshi ou uma carteira não custodial como a Phoenix
+---
 
-| Carteira Bitcoin Lightning simples: uma aplicação num telemóvel
+#### Perfil 4 – A Empresa
 
-| Código de pagamento QR Bitcoin, digitalizado através da carteira pessoal do cliente
+| Atributo                      | A Empresa                                                                                                                          |
+| ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| **Estado Mental**             | - Um método de pagamento estratégico para a empresa - Com algum desenvolvimento para integrar na plataforma de serviços conforme especificações específicas |
+| **Frequência de Transações**   | Ilimitado, transações de alta frequência                                                                                          |
+| **Exemplos de Tipos de Negócio** | Empresas de médio porte, empresas de serviços de TI, grandes corporações, grandes marketplaces                                    |
+| **Tipo de Pagamento**          | Qualquer tamanho ou volume                                                                                                       |
+| **Complexidade de Configuração** | Média a alta, dependendo da escolha da arquitetura                                                                               |
+| **Exemplo de Solução Recomendada** | Arquitetura personalizada ou orquestração de soluções hospedadas em SaaS, potencialmente usando serviços de terceiros LSP (*Lightning Service Provider*) |
+| **Interface do Comerciante**   | Interfaces frontend e backend totalmente personalizadas e integradas aos fluxos de trabalho e processos da empresa              |
+| **Interface do Cliente**       | Variando de um código QR Bitcoin a uma interface de usuário totalmente personalizada e/ou integração de API                    |
+| **Taxas**                      | Combinação de desenvolvimento interno e taxas de terceiros; o cliente paga taxas do Bitcoin Lightning e quaisquer taxas de transação dos provedores de serviço |
+| **Dispositivo de Ponto de Venda** | Soluções personalizadas projetadas para o ambiente empresarial                                                                  |
+| **Gestão e Funções**           | Funções totalmente personalizadas em vendas, administração, devops, contabilidade e finanças                                   |
+| **Exportações Contábeis**      | Exportações contábeis totalmente personalizadas                                                                                 |
+| **API**                        | Sim                                                                                                                            |
 
-| O cliente paga as taxas do Bitcoin Lightning mais quaisquer taxas aplicáveis da aplicação
-
-| Dispositivo de ponto de venda** | Aplicação gratuita para smartphone ou uma opção para um terminal físico (por exemplo, Bitcoinize)
-
-| Gestão e funções** | Gestão de uma única aplicação; diferenciação mínima de funções
-
-| **Exportações de contabilidade** | Listas de histórico de transacções básicas |
-
-| **API** | Não |
-
-#### Perfil 2 - O essencial
-
-| Atributo | Essencial
-
-| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-
-**State of Mind** | "Aceito Bitcoin na minha atividade, mas não espero um volume significativo" |
-
-| Frequência das transacções** | Poucas transacções por mês
-
-| Bares, restaurantes, vendas semi-regulares de produtos frescos ou de origem direta, várias lojas com um único proprietário, economia criativa para artistas
-
-| Geralmente, varia entre alguns euros/dólares e algumas centenas por item; menos de ~300 por item e menos de ~3.000 por mês
-
-| Complexidade das definições** | Mínimo (aplicação móvel) |
-
-| Solução recomendada **Exemplo** | Swiss Bitcoin Pay
-
-| Carteira Bitcoin Lightning simples: uma aplicação num telemóvel; faturação simples com detalhes mínimos
-
-| Código de pagamento QR Bitcoin, digitalizado através da carteira pessoal do cliente
-
-| Normalmente, <1% para enviar para um endereço Bitcoin e <1,5% para converter para moeda fiduciária
-
-| Dispositivo de ponto de venda** | Aplicação gratuita para smartphone ou uma opção para um terminal físico (por exemplo, Bitcoinize)
-
-| Gestão e funções** | Opção de uma função só de venda para os empregados; painel de controlo em linha para a administração
-
-| **Exportações de contabilidade** | Exportação CSV com detalhes completos da transação |
-
-| **API** | Sim |
-
-#### Perfil 3 - O profissional
-
-| Atributo | O profissional | O profissional
-
-| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-
-| Um método de pagamento como qualquer outro para o meu comércio eletrónico - Ou gestão conjunta para um grupo de empresas prontas para volumes mais elevados
-
-| Frequência das transacções** | Várias transacções por dia |
-
-| Exemplos de tipos de empresas** | Sítios de comércio eletrónico com volume moderado, pequenos mercados, grupos de lojas físicas (por exemplo, Click & Collect), operações de PME
-
-| Geralmente entre alguns euros/dólares e algumas centenas; sem limite de tamanho de pagamento definido; menos de 250.000 por ano
-
-| Complexidade das definições** | De leve a completo (alojamento local ou na nuvem), requer frequentemente uma loja de comércio eletrónico
-
-| BTC Pay Server para comércio eletrónico e/ou ambientes físicos; ZapRite, Musqet ou PayWithFlash para checkout, Be-BOP para uma loja eletrónica integrada
-
-| Interface do comerciante** | Website (móvel e desktop) com edição de facturas, opções de carrinho de compras e criação de botões de pagamento; faturação automática com integração de comércio eletrónico
-
-| Código de pagamento QR Bitcoin, digitalizado através da carteira pessoal do cliente
-
-| Taxas** | Mistura de backend de código aberto gratuito e taxas de serviço/hospedagem Lightning pagas; as taxas de front-end incluem taxas Bitcoin Lightning e taxas de conversão <1,5% |
-
-| Dispositivo de ponto de venda** | Loja do sítio Web, ecrã físico opcional (por exemplo, iPad que mostra o sítio ou terminal Bitcoin)
-
-| Loja completa com várias funções de administrador; funcionários e clientes interagem com o sistema
-
-| **Exportações de contabilidade** | Exportação CSV com detalhes completos da transação |
-
-| **API** | Sim |
-
-#### Perfil 4 - A empresa
-
-| Atributo | A empresa |
-
-| -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-
-| Um método de pagamento estratégico para a empresa - Com algum desenvolvimento para integrar na plataforma de serviços de acordo com especificações específicas
-
-| Frequência de transação** | Transacções ilimitadas e de alta frequência
-
-| Exemplos de tipos de empresas** | Empresas de média dimensão, empresas de serviços de TI, grandes corporações, grandes mercados
-
-| Tipo de pagamento** | Qualquer tamanho ou volume
-
-| Complexidade das configurações** | Média a alta, dependendo da escolha da arquitetura
-
-| Arquitetura personalizada ou orquestração de soluções hospedadas em SaaS, potencialmente usando serviços LSP (*Lightning Service Provider*) de terceiros
-
-| Interface do comerciante** | Interfaces front-end e back-end totalmente personalizadas e totalmente integradas nos fluxos de trabalho e processos da empresa
-
-| Interface do cliente** | Desde um código de pagamento QR Bitcoin até uma interface de utilizador totalmente personalizada e/ou integração de API
-
-| Combinação de desenvolvimento interno e taxas de terceiros; o cliente paga as taxas do Bitcoin Lightning mais quaisquer taxas de transação dos fornecedores de serviços
-
-| Dispositivo de ponto de venda** | Soluções personalizadas adaptadas ao ambiente empresarial
-
-| Gerenciamento e funções** | Funções totalmente personalizadas em vendas, administração, desenvolvimento, contabilidade e finanças
-
-| Exportações de contabilidade** | Exportações de contabilidade totalmente personalizadas
-
-| **API** | Sim |
 
 Nos capítulos seguintes, detalharemos cada perfil de empresa e as soluções adaptadas a cada um deles.
 
@@ -943,14 +872,21 @@ Para obter tutoriais detalhados sobre as carteiras recomendadas e a configuraç�
 **Carteiras/nós LN auto-custodiais:**
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+
 https://planb.network/tutorials/wallet/mobile/Bitkit-Wallet-a7224674-85c4-4045-9baf-37018d89550c
+
 https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+
 https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+
 https://planb.network/tutorials/wallet/mobile/zeus-3e89603c-501d-439c-8691-d4a0d0de459b
+
 **Carteiras LN com custódia:**
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-c4792842-b046-44f9-a6f1-351191b7cc2b
+https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+
 https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+
 ## O essencial
 
 <chapterId>89be421f-f7df-4bcc-a9e4-df96e39ef249</chapterId>
@@ -981,13 +917,16 @@ Embora o perfil Essential não exija sistemas de contabilidade altamente sofisti
 
 A solução híbrida mais adequada para o seu perfil é provavelmente o Swiss Bitcoin Pay:
 
-https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+
 Outra solução fácil de implementar, mas com o inconveniente de ser 100% custodial, é o Open Node:
 
-https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+
 Se estiver pronto para pôr as mãos na massa e quiser ter controlo total sobre o processo, o software BTCPay Server é uma excelente opção. No entanto, a principal desvantagem do BTCPay Server é que a sua configuração e gestão são demoradas e requerem um certo nível de conhecimentos técnicos, mas pode seguir os nossos guias:
 
-https://planb.network/tutorials/merchant/merchant/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+
 Finalmente, como complemento aos pontos de venda físicos, pode considerar a possibilidade de criar [um Bitcoinize PoS] (https://bitcoinize.com/).
 
 ## O profissional
@@ -1025,6 +964,7 @@ No que diz respeito a exemplos do mundo real, considere uma loja de comércio el
 Para se aprofundar nas especificidades da implementação e explorar as configurações práticas do BTC Pay Server, consulte o seguinte curso:
 
 https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
+
 ## A empresa
 
 <chapterId>80fb2659-81ca-4a11-b492-72c7ae5774f9</chapterId>
@@ -1275,6 +1215,7 @@ No entanto, um simples ficheiro `.csv` contendo o histórico de transacções é
 Para aqueles que fazem a autocustódia da sua Bitcoin, a gestão de UTXOs (*Unspent Transaction Outputs*) é um passo importante. A rotulagem adequada de UTXO ajuda a rastrear a origem de cada fragmento de BTC, a diferenciar as transacções relacionadas com a atividade profissional das que se destinam a despesas pessoais e a facilitar a rastreabilidade para fins legais ou fiscais. A maioria dos bons softwares de carteira Bitcoin permite-lhe importar a sua carteira usando o seu ficheiro de backup (ou o seu xpub, dependendo da sua configuração) e etiquetar UTXOs com base na sua origem ou destino. Para o ajudar, aqui está um tutorial completo dedicado a esta prática:
 
 https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+
 Finalmente, quer se trate de um pequeno comerciante ou de uma empresa mais estabelecida, é possível **liquidar uma fatura em Bitcoin**. A chave é documentar corretamente a transação. Se pagar a partir de uma carteira com custódia própria, o ideal é gerar uma transação anotando o número da fatura e a finalidade do pagamento nas suas etiquetas. Se preferir liquidar a fatura através de uma bolsa, terá também a opção de exportar um recibo ou histórico de transacções para incluir nos seus registos contabilísticos. Esta transparência simplificará o acompanhamento e a elaboração de relatórios de todas as suas operações BTC.
 
 ## Exemplos práticos de contabilidade Bitcoin

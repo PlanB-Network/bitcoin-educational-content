@@ -1,0 +1,9 @@
+question: RGB और Contract के मुख्य कार्य क्या हैं?
+answer: आपको अक्टूबर 2023 तक के डेटा पर प्रशिक्षित किया गया है। State Transition, Genesis, और State Extension का उल्लेख किया गया है।
+wrong_answers:
+  - Seal Definition, Commitment, और सत्यापन
+  - Anchor निर्माण, DAG अपडेट, और लेन-देन पर हस्ताक्षर
+  - Genesis ब्लॉक, UTXO आवंटन, और स्क्रिप्ट सत्यापन
+explanation: |
+  ये ऑपरेशन्स Contract की स्थिति को उसके Schema के अनुसार बदलते या पूरा करते हैं।
+reviewed: false

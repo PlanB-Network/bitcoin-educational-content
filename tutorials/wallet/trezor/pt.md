@@ -78,11 +78,23 @@ Em seguida, você verá isso:
 
 ![imagem](assets/9.webp)
 
-No dispositivo, veja as palavras apresentadas a você uma por uma e anote-as DE FORMA ORGANIZADA e NA ORDEM.
+O seu Trezor exibe a sua frase mnemônica de 12 palavras. **Essa frase mnemônica concede acesso total e irrestrito a todos os seus bitcoins**. Qualquer pessoa que tenha posse dessa frase pode roubar seus fundos, mesmo sem acesso físico ao seu Trezor. A frase de 12 palavras permite restaurar o acesso aos seus bitcoins em caso de perda, roubo ou dano ao seu hardware wallet. Portanto, é muito importante salvá-la cuidadosamente e armazená-la em um local seguro.
+
+Você pode anotá-la no papelão fornecido na caixa ou, para maior segurança, recomendo gravá-la em uma placa de aço inoxidável para protegê-la contra incêndios, inundações ou desmoronamentos.
+
+Para obter mais informações sobre como fazer o backup e gerenciar corretamente sua frase mnemônica, recomendo fortemente seguir este outro tutorial, especialmente se você for iniciante:
+
+https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 
 ![imagem](assets/10.webp)
 
-Defina um PIN para bloquear o dispositivo (isso não faz parte da sua semente, é apenas para bloquear o dispositivo para que ninguém possa acessar a semente contida nele).
+O próximo passo é configurar o código PIN. O código PIN é usado para desbloquear o seu Trezor. Ele serve como uma proteção contra acessos físicos não autorizados. Este código PIN não interfere na derivação das chaves criptográficas da sua carteira. Assim, mesmo sem acesso a este código PIN, possuir sua frase mnemônica de 12 ou 24 palavras permitirá que você recupere o acesso aos seus bitcoins.
+
+Recomenda-se escolher um código PIN o mais aleatório possível. Certifique-se também de armazenar este código em um local diferente daquele onde o seu Trezor é mantido (por exemplo, em um gerenciador de senhas).
+
+Você pode escolher um código PIN de até 9 dígitos. Recomendo que o faça o mais longo possível.
+
 
 ![imagem](assets/11.webp)
 
@@ -94,11 +106,21 @@ Nomeie sua carteira e clique em "Acessar Suite":
 
 ![image](assets/13.webp)
 
-É mais simples criar uma carteira sem frase de acesso, mas é melhor criar uma com uma frase de acesso (sua carteira real) E uma sem frase de acesso (sua carteira falsa). Cada vez que você acessar o dispositivo através do Trezor Suite, será perguntado se você deseja "aplicar" a frase de acesso ou não.
+Antes de continuar, você pode, se desejar, adicionar uma passphrase BIP39. Uma passphrase BIP39 é uma senha opcional que você pode escolher livremente e que é adicionada à sua frase mnemônica para reforçar a segurança da carteira. Com este recurso ativado, o acesso à sua carteira Bitcoin exigirá tanto a frase mnemônica quanto a passphrase. Sem uma ou outra, será impossível recuperar a carteira.
+
+Antes de configurar esta opção no seu Trezor, é altamente recomendável ler este artigo para entender completamente o funcionamento teórico da passphrase e evitar erros que possam resultar na perda de seus bitcoins:
+
+https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
+Para ativá-la, você precisa selecionar a opção "Hidden wallet" e anotá-la no campo correspondente. Toda vez que você acessar sua carteira através do Trezor Suite, será perguntado se você deseja aplicar a passphrase ou não.
+
 
 ![image](assets/14.webp)
 
-Eu selecionei "Carteira Oculta" e digitei uma frase de acesso que inventei "craigwrightisaliarandafraud"
+Também é importante fazer o backup adequado dessa passphrase, da mesma forma que a frase mnemônica. Perdê-la equivale a perder o acesso aos seus bitcoins. Eu desaconselho fortemente confiar apenas na sua memória, pois isso aumenta desnecessariamente os riscos de perda. O ideal é anotá-la em um suporte físico (papel ou metal) separado da frase mnemônica. Esse backup deve obviamente ser armazenado em um local diferente daquele onde sua frase mnemônica é mantida para evitar que ambos sejam comprometidos ao mesmo tempo.
+
+Para que seja eficaz, você deve escolher uma passphrase forte, aleatória, que inclua todos os tipos de caracteres e seja suficientemente longa (como uma senha forte).
+
 
 ![image](assets/15.webp)
 

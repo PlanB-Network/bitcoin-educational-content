@@ -12,7 +12,7 @@ Con Nakamochi, chiunque può creare e gestire un nodo da casa, consentendo una t
 - Che cos'è il Nakamochi e come funziona?
 - Impostazione di Nakamochi
 - Informazioni sulla rete Lightning
-- Apertura di canali e transazioni nella rete Lightning
+- Aprire canali ed effettuare transazioni nella rete Lightning
 
 ## Che cos'è il Nakamochi e come funziona?
 
@@ -30,22 +30,31 @@ Il vostro nodo Nakamochi è gestito tramite un'applicazione mobile, [BitBanana (
 
 3. Utilizzare un'applicazione di gestione dei nodi (Zeus o BitBanana) per connettersi al proprio Nakamochi:
 
+4. Aprire l'applicazione e scansionare il codice QR visualizzato sul Nakamochi.
 
-   - Aprire l'applicazione e scansionare il codice QR visualizzato sul Nakamochi.
+5. Per maggiore sicurezza, impostare un codice PIN sul dispositivo.
 
-4. Per maggiore sicurezza, impostare un codice PIN sul dispositivo.
+![image](assets/en/01.webp)
 
-![Connect to power and write down your 24-word seed phrase](assets/en/01.webp)
+collegatevi all'alimentazione e scrivete la vostra frase-seme di 24 parole
 
-![Wait until the Blockchain has caught up](assets/en/02.webp)
+![image](assets/en/02.webp)
 
-![Set up new wallet in Lightning Tab](assets/en/03.webp)
+aspettate che la Blockchain si metta al passo con i tempi
 
-![Scan QR Code with Node Management App](assets/en/04.webp)
+![image](assets/en/03.webp)
 
-![For additional safety set a PIN code](asset/en/05.webp)
+imposta un nuovo portafoglio nella scheda Lightning
 
-nota: consentire al nodo Nakamochi di sincronizzarsi con la blockchain. Questo processo potrebbe richiedere un po' di tempo, a seconda della connessione a Internet
+![image](assets/en/04.webp)
+
+scansione del codice QR con l'app di gestione dei nodi
+
+![image](asset/en/05.webp)
+
+per una maggiore sicurezza, impostare un codice PIN
+
+**Nota:** _Permettere al nodo Nakamochi di sincronizzarsi con la blockchain. Questo processo potrebbe richiedere un po' di tempo a seconda della connessione a Internet
 
 ## Informazioni sulla rete Lightning
 
@@ -77,9 +86,11 @@ Una volta che il vostro Nakamochi è stato configurato e collegato a un'app di g
 
 5. Fare clic su **"Aprire un canale "**.
 
-![ZEUS Screenshot](asset/en/06.webp)
+![image](asset/en/06.webp)
 
-Per maggiori informazioni: [Canali | Documentazione Zeus](https://zeusln.app)
+schermata ZEUS
+
+Per maggiori informazioni: [Canali | Documentazione Zeus](https://docs.zeusln.app/)
 
 ### Apertura dei canali su BitBanana (Android):
 
@@ -93,7 +104,9 @@ Per maggiori informazioni: [Canali | Documentazione Zeus](https://zeusln.app)
 
 5. Immettere l'importo bloccato (scegliere con il peer o utilizzare l'importo minimo fisso per i nodi noti).
 
-![Bitbanana Screenshot](asset/en/07.webp)
+![image](asset/en/07.webp)
+
+schermata di Bitbanana
 
 Per maggiori informazioni: [BitBanana](https://bitbanana.com)
 
@@ -107,4 +120,4 @@ In generale, si consiglia di lasciare aperti i canali per ridurre i costi e aume
 
 
 - [Su Nakamochi](https://nakamochi.io/)
-- [Iscriviti alla nostra newsletter](https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)
+- [Iscriviti alla newsletter di Nakamochi](https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)

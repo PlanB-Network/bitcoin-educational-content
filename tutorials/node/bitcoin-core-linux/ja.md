@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Core Node (linux)
+name: Bitcoin Core (Linux)
 description: Bitcoin Coreを使って自分自身のノードを運用する
 ---
 
@@ -119,3 +119,4 @@ Bitcoin CoreをTorネットワークのみを使用してピアと接続する�
 > - Tor configuration guide by Jon Atack
 
 いつものように、質問があればAgora256コミュニティで共有してください。私たちは一緒に学び、今日よりも明日より良くなります！
+

@@ -14,7 +14,9 @@ description: |
   Bitcoin-only newsletter with Bitcoin news and analysis. Something in some ways
   different from Bitcoin Therapist, but the author, Jordan, writes banger emails
   (you will be in good hands).
+contributor_names:
+  - PaoloFoti
 tags:
-  - easy-explain
-contributors:
-  - hunt-wood
+  - user-friendly
+  - market-trends
+  - update

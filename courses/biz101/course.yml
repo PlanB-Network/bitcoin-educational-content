@@ -4,11 +4,10 @@ subtopic: bitcoin
 level: beginner
 hours: 5
 
-professors:
-  - network-pill
-
-contributors:
-  - pretty-private
+professors_id:
+  - 5a52397f-0148-4e4c-b489-e67578be1b7e
+contributor_names:
+  - LoicPandul
 
 
 published_at: 2025-01-15
@@ -19,90 +18,94 @@ proofreading:
   - language: en
     last_contribution_date: 2024-12-18
     urgency: 1
-    contributors_id:
+    contributor_names:
       - NetworkEffect
-    reward: 5.87
+    reward: 8.79
 
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 23.4
 
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 11.75
+    contributor_names:
+    reward: 17.57
 
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 17.57
 
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 23.4
 
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 23.4
 
   - language: fr
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 11.75
+    contributor_names:
+    reward: 17.57
 
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 29.22
 
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 17.57
 
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 35.04
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 23.4
 
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 11.75
+    contributor_names:
+    reward: 17.57
 
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 23.4
 
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 35.04
 
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 29.22
+tags:
+  - business
+  - adoption
+  - wallets

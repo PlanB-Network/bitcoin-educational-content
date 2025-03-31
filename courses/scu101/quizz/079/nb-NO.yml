@@ -1,0 +1,9 @@
+question: Hvilken fordel gir en sikker e-postleverandør som ProtonMail?
+answer: Beskyttelse av personvern og økt sikkerhet.
+wrong_answers:
+  - En enklere grensesnitt for nybegynnere.
+  - Reduksjon av funksjoner for å minimere angrepsflaten.
+  - Integrering av en algoritme for automatisk generering av e-poster.
+explanation: |
+  ProtonMail skiller seg ut med sin personvernpolitikk og forsterkede sikkerhetstiltak.
+reviewed: false

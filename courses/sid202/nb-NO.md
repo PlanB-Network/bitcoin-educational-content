@@ -1232,7 +1232,4 @@ Neste skritt er å utfordre deg selv med en kumulativ quiz som dekker alle de fo
 ## Konklusjon
 
 <chapterId>15f62056-c69c-467e-9565-af48d439a1f5</chapterId>
-
-Gratulerer med fullført kurs!
-
-Vi er glade for at du har nådd denne milepælen i din læringsreise. Gjennom ditt engasjement har du tilegnet deg verdifull kunnskap og ferdigheter som du vil ha god nytte av i din videre profesjonelle utvikling.
+<isCourseConclusion>true</isCourseConclusion>

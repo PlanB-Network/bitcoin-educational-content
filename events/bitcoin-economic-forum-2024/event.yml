@@ -1,11 +1,10 @@
 id: a56da7d2-4900-44c1-8cb3-a55734b64c3d
 start_date: 2024-05-18
 end_date: 2024-05-20
-address_line_1: Bretagne, France
+address_city_country: Bretagne, France
 address_line_2:
 address_line_3:
 name: Bitcoin Economic Forum 2024
-builder: Breizh Bitcoin
 type: conference
 book_online: false
 book_in_person: false
@@ -16,9 +15,9 @@ language:
 links:
   website: https://www.breizhbitcoin.com/
   replay_url:
-  live_url :
-tags:
-  - bitcoiner
-  - General
-
+  live_url:
 project_id: 8ac2bfcc-7d12-4d9f-b85e-ac03eff327c9
+tags:
+  - finance
+  - market-trends
+  - business

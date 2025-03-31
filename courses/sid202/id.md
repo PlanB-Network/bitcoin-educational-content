@@ -1232,7 +1232,4 @@ Langkah selanjutnya adalah menantang diri Anda dengan kuis kumulatif yang mencak
 ## Kesimpulan
 
 <chapterId>15f62056-c69c-467e-9565-af48d439a1f5</chapterId>
-
-Selamat telah menyelesaikan kursus ini!
-
-Kami sangat senang bahwa Anda telah berhasil mencapai tonggak penting dalam perjalanan pembelajaran Anda. Melalui dedikasi dan keterlibatan Anda, Anda telah memperoleh pengetahuan dan keterampilan yang berharga yang akan berguna bagi Anda dalam pengembangan profesional Anda.
+<isCourseConclusion>true</isCourseConclusion>

@@ -141,5 +141,5 @@ Hvis du fant denne opplæringen nyttig, ville jeg være takknemlig hvis du legge
 
 Jeg anbefaler også at du tar en titt på denne veiledningen om GnuPG, som forklarer hvordan du sjekker integriteten og autentisiteten til programvaren din før du installerer den. Dette er en viktig praksis, spesielt når du installerer programvare for porteføljeforvaltning som Liana eller Sparrow :
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 

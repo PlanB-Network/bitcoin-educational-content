@@ -1,11 +1,10 @@
 id: 88b30384-3867-416c-91ca-ff3df66a1ca6
 start_date: 2024-11-09
 end_date: 2024-11-11
-address_line_1: Annecy, France
+address_city_country: Annecy, France
 address_line_2:
 address_line_3:
 name: B-only 2024
-builder: B-Only
 type: conference
 book_online: false
 book_in_person: false
@@ -16,9 +15,9 @@ language:
 links:
   website: https://b-only.org/
   replay_url:
-  live_url :
-tags:
-  - bitcoiner
-  - General
-
+  live_url:
 project_id: a0d135dd-3161-430f-b7c3-4807641dadaf
+tags:
+  - adoption
+  - technical-analysis
+  - use-case

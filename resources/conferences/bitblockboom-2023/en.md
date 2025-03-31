@@ -1,6 +1,6 @@
 ---
 name: BitBlockBoom 2023
-description: The BitBlockBoom! is a bitcoin conference. To put it in simple terms this conference is only for people who are interested in Bitcoin. Attendees range from people highly known and heavily involved in Bitcoin, to people who are just trying to learn what bitcoin is all about. You will not find anyone shilling shitcoins or NFTs. This is a True Bitcoin Conference. BitBlockBoom has created a wonderful atmosphere to meet and discuss bitcoin with the speakers and other bitcoiners. 
+description: The BitBlockBoom! is a bitcoin conference. To put it in simple terms this conference is only for people who are interested in Bitcoin. Attendees range from people highly known and heavily involved in Bitcoin, to people who are just trying to learn what bitcoin is all about. You will not find anyone shilling shitcoins or NFTs. This is a True Bitcoin Conference. BitBlockBoom has created a wonderful atmosphere to meet and discuss bitcoin with the speakers and other bitcoiners.
 ---
 
 # Main Stage
@@ -17,7 +17,7 @@ Speaker: Guy Swann
 
 Speakers: Pierre and Morgen Rochard
 
-## Bitcoin Companies: Moving the Future to the Present 
+## Bitcoin Companies: Moving the Future to the Present
 
 ![video](https://youtu.be/CK2Nm5a-sRk)
 
@@ -65,7 +65,7 @@ Speaker: Nik Bhatia
 
 Speaker: Natalie Brunell
 
-## How Did Satoshi Think of Bitcoin? 
+## How Did Satoshi Think of Bitcoin?
 
 ![video](https://youtu.be/i4BwNrxgNrU)
 
@@ -118,3 +118,13 @@ Speaker: Parker Lewis
 ![video](https://youtu.be/dE60M_xUSU4)
 
 Panelists: Mark Moss, James Lavish, Preston Pysh, Natalie Brunnell
+
+# Full Day Live Streams
+
+## Conference Day 1
+
+![video](https://youtu.be/sbFmY4FElXY)
+
+## Conference Day 2
+
+![video](https://youtu.be/CfzQCX2yXk4)

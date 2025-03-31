@@ -6,6 +6,3 @@ description: |
   Le processus pour commencer à trader est simple. Les utilisateurs s'engagent dans un contrat, et Hodl Hodl génère une adresse d'escrow multisig unique. Le vendeur dépose des bitcoins en garantie directement depuis son portefeuille, et l'acheteur paie le vendeur selon la méthode de paiement convenue. Enfin, le vendeur libère les bitcoins de l'escrow directement vers le portefeuille de l'acheteur, complétant le contrat.
 
   Hodl Hodl vous permet de créer une offre selon vos propres termes, de fixer votre prix, d'utiliser plusieurs méthodes de paiement et de mettre en place une valeur de stop-loss. Les frais transparents de la plateforme sont répartis entre l'acheteur et le vendeur et sont déduits du montant de BTC. Avec Hodl Hodl, vous pouvez trader à l'échelle mondiale, en utilisant n'importe quel système de paiement, pour n'importe quelle devise.
-contributors:
-  - rabbit-hole
-  - another-satoshi

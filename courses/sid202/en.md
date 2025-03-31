@@ -1247,6 +1247,4 @@ The next step is to challenge yourself with a cumulative quiz that covers all pr
 ## Conclusion
 
 <chapterId>15f62056-c69c-467e-9565-af48d439a1f5</chapterId>
-Congratulations on completing this course!
-
-We're thrilled that you've successfully reached this milestone in your learning journey. Through your dedication and engagement, you've gained valuable knowledge and skills that will serve you well in your professional development.
+<isCourseConclusion>true</isCourseConclusion>

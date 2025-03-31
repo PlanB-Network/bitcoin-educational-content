@@ -15,29 +15,21 @@ Jade Plus能够以多种方式被使用：通过USB-C有线连接使用，在"*�
 Jade Plus钱包与大多数投资组合管理软件兼容。以下是撰写本文时（2025 年 1 月）与Jade Plus兼容的钱包列表：
 
 | 台式电脑 | 手机 | USB | 蓝牙 | 二维码 | JadeLink | 管理软件
-
 | ------------------- | ------- | ------ | --- | ----------- | --- | -------- |
-
-| Blockstream Green | 🟢 | 🟢 | 🟢 (手机) | 🟢 | 🔴 | 🔴
-
-| Liana | 🟢 | 🔴 | 🟢 | 🔴 | 🔴 | 🔴
-
-| Sparrow | | 🟢 | 🔴 | 🟢 | 🔴 | 🟢 | 🟢 | 🟢 | 🟢
-
-Nunchuk | | 🟢 | 🟢 | 🔴 | 🔴 | 🟢 | 🟢 | 🟢 | 🟢
-
-| 🟢 | 🔴 | 🔴 | 🟢 | 🟢 | 🟢
-
-| BlueWallet | | 🟢 | 🟢 | 🔴 | 🔴 | 🟢 | 🟢 | 🟢 | 🟢
-
-
-
-| Keeper | 🔴 | 🟢 | 🔴 | 🟢 | 🔴 | 🔴
+| Blockstream Green | 🟢 | 🟢 | 🟢 (手机) | 🟢 | 🔴 | 🔴 |
+| Liana | 🟢 | 🔴 | 🟢 | 🔴 | 🔴 | 🔴 |
+| Sparrow | | 🟢 | 🔴 | 🟢 | 🔴 | 🟢 | 🟢 | 🟢 | 🟢 |
+Nunchuk | | 🟢 | 🟢 | 🔴 | 🔴 | 🟢 | 🟢 | 🟢 | 🟢 |
+| 🟢 | 🔴 | 🔴 | 🟢 | 🟢 | 🟢 |
+| BlueWallet | | 🟢 | 🟢 | 🔴 | 🔴 | 🟢 | 🟢 | 🟢 | 🟢 |
+| Keeper | 🔴 | 🟢 | 🔴 | 🟢 | 🔴 | 🔴 |
 
 在本教程中，我们将通过蓝牙连接设置并使用Jade Plus与Blockstream的Green Wallet移动应用程序。这种设置非常适合初学者。如果您正在寻找更高级的方法，我建议您月的本教程（点击以下链接），将在二维码模式下使用Jade Plus和Sparrow钱包：
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+
 ## Jade Plus安全模式
+
 
 Jade Plus采用一种基于"虚拟安全元素"的安全模式，由"盲谕（blind oracle）"实现。具体而言，该机制将用户选择的PIN码、Jade上的一个秘密和Oracle（由 Blockstream 维护的服务器）持有的一个秘密结合起来，创建一个分布在两个实体上的AES-256密钥。在启动过程中，ECDH交换会确保与Oracle的通信安全，并对硬件钱包上的恢复短语进行加密。在实际操作中，如果要访问种子来签署交易，就需要访问.NET Framework：
 
@@ -109,7 +101,9 @@ Jade Plus采用一种基于"虚拟安全元素"的安全模式，由"盲谕（bl
 如果您想要了解相关的保存和管理记忆短语的正确方法的更多信息，我推荐大家阅读另一篇教程，尤其是初学者：
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 ***显而易见，您绝对不能在互联网上分享这些文字，就像我在本教程中的做法一样。本作品集样本将仅在Testnet上使用，并将在教程结束时被删除。
+
 
 点击屏幕右侧的箭头以显示以下单词。
 
@@ -124,10 +118,13 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 在本教程中，我们将使用Green Wallet应用程序来管理Jade Plus上托管的钱包。这种方法非常适合初学者。如果您想要更详细地管理比特币钱包，也可以使用Sparrow钱包，我们将在另一篇教程中介绍：
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+
 为了了解安装和设置Blockstream Green应用程序的说明，请参阅本教程的第一部分：
 
 https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+
 进入Blockstream Green应用程序后，点击"*配置新投资组合（Configure a new portfolio）*"按钮。
+
 
 ![JADE-PLUS-GREEN](assets/fr/13.webp)
 
@@ -204,6 +201,7 @@ PIN码可以解锁您的Jade。因此，它可以防止未经授权的访问。�
 为了了解与"*2FA*"选项有关的更多信息，请参阅本教程：
 
 https://planb.network/tutorials/wallet/mobile/blockstream-green-2FA-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
+
 您的账户已创建。
 
 ![JADE-PLUS-GREEN](assets/fr/30.webp)
@@ -229,6 +227,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-green-2FA-37397d5c-5c2
 在您收到钱包中的第一笔比特币之前，**我非常建议您进行一次清空恢复测试**。记下一些参考信息，例如您的xpub或第一个接收地址，然后在Green应用程序和Jade增强版上删除您的钱包，此时钱包还是空的（"选项（Options）-> 设备（Device）-> 出厂重置（Factory Reset）"）。然后尝试使用记忆短语的纸质备份恢复钱包。检查还原后生成的cookie信息是否与您最初写下的信息一致。如果吻合，您就可以放心，您的纸质备份是可靠的。如果您想要了解有关如何进行测试恢复的更多信息，请参阅本教程 ：
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+
 ## 接收比特币
 
 现在，您的比特币钱包已经设置好了，您已经准备好，您可以接收您的第一笔比特币了！点击Green应用程序上的"*接收（Receive）*"按钮即可。

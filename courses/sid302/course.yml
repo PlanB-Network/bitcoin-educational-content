@@ -6,6 +6,10 @@ hours: 8
 
 professors_id:
   - 7668500c-ed9e-44f2-bdbf-b05a66415742
+
+contributor_names:
+  - LoicPandul
+
 published_at: 2025-01-15
 # Proofreading metadata
 original_language: en

@@ -1,0 +1,9 @@
+question: Bastiat 所描述的兩種掠奪形式是什麼？
+answer: 合法掠奪與非法掠奪
+wrong_answers:
+  - 道德掠奪與不道德掠奪
+  - 內部掠奪與外部掠奪
+  - 掠奪貨物和掠奪服務
+explanation: |
+  Bastiat 區分了合法掠奪與非法掠奪，前者由法律定義，通常由國家行使（如稅收），後者發生在法律框架之外，如盜竊或攻擊。
+reviewed: false

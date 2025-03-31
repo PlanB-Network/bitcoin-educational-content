@@ -1,0 +1,8 @@
+question: 2010 年 7 月 11 日在 Slashdot 上介紹 Bitcoin 的 Teppy 管理哪項接受 Bitcoin 的服務？
+answer: MMORPG 沙漠中的故事
+wrong_answers:
+  - VPN Mullvad
+  - VoIP 服務 Link2VoIP
+  - 網頁寄存服務 Vekja.net
+  This one [started](https: //bitcointalk.org/index.php?topic=30.msg1159#msg1159) to accept Bitcoin on May 19.
+reviewed: false

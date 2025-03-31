@@ -1,0 +1,12 @@
+question: Bitcoin 網路中使用者、節點或礦工數量減少的潛在風險是什麼？
+answer: 這可能會削弱網路，增加集中化的風險和易受攻擊的程度。
+wrong_answers:
+  - 它可能會提高 Bitcoin 的價格。
+  - 這會降低交易速度以及 Mining 的難度。
+  - 它可以增加 Mining 的難度和易受攻擊的程度，同時降低集中化的風險。
+explanation: |
+  使用者、節點或礦工數量的減少可能導致
+  削弱 Bitcoin 網路。這可能會增加
+  集中化，使網路更容易受到
+  攻擊。
+reviewed: true

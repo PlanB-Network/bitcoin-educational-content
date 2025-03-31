@@ -1,0 +1,9 @@
+question: 如何實現企業 Bitcoin 系統與 ERP 軟體之間的即時資料同步？
+answer: API
+wrong_answers:
+  - CSV 檔案
+  - 批次上傳
+  - 電子郵件報告
+explanation: |
+  API 允許持續、即時的整合。
+reviewed: false

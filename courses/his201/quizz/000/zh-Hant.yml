@@ -1,0 +1,9 @@
+question: 非對稱密碼學在哪一年被正式發現？
+answer: 1976
+wrong_answers:
+  - 1676
+  - 1776
+  - 1876
+explanation: |
+  它是由來自史丹福大學的兩位密碼學家 Whitfield Diffie 和 Martin Hellman 在 1976 年 11 月發表的一篇論文中提出的。
+reviewed: false

@@ -1,0 +1,11 @@
+question: 私密金鑰在 Bitcoin 交易中扮演什麼角色？
+answer: 它們用於簽署和授權交易。
+wrong_answers:
+  - 它們用於驗證交易的真實性。
+  - 它們用來加密交易資料。
+  - 這些資訊會公開分享，以提高透明度。
+explanation: |
+  私密金鑰是 Bitcoin 交易的重要組成部分。
+  它們用於簽署和授權交易，提供證明
+  的 Ownership，並確保只有所有者才能使用其 Bitcoin。
+reviewed: true

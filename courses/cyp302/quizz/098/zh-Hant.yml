@@ -1,0 +1,9 @@
+question: MAC 如何協助防止攻擊者竄改訊息？
+answer: 藉由驗證所接收的訊息未被竄改
+wrong_answers:
+  - 防止暴力攻擊
+  - 隱藏訊息內容
+  - 透過自動封鎖可疑訊息
+explanation: |
+  MAC 可讓收件者透過以共用秘鑰產生的標籤來驗證訊息未被修改，這限制了篡改的可能性。
+reviewed: false

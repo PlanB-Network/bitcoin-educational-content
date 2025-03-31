@@ -1,0 +1,9 @@
+question: 什麼是異步串流加密？
+answer: 加密的金鑰流同時取決於先前加密文字的金鑰和 Elements
+wrong_answers:
+  - 每次使用都會產生隨機金鑰串流的加密方式
+  - 每次訊息都必須變更金鑰的加密方式
+  - 密鑰流只取決於初始密鑰的加密方式
+explanation: |
+  異步串流加密是一種加密方式，其中金鑰串流會受到加密文字的金鑰和 Elements 的影響。
+reviewed: false

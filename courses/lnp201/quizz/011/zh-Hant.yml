@@ -1,0 +1,9 @@
+question: 為什麼 Alice 在發佈存款交易之前先建立提款交易？
+answer: 在鮑勃出現問題時取回她的資金
+wrong_answers:
+  - 透過每次交易增加通道的容量
+  - 要在開啟後立即執行 Lightning 交易
+  - 允許 Bob 直接使用資金
+explanation: |
+  如果鮑勃發生問題，愛麗絲會建立一個提款交易來取回她的資金，從而確保她的存款安全。
+reviewed: false

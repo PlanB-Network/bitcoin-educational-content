@@ -1,0 +1,9 @@
+question: Satoshi Nakamoto 在 Bitcoin 白皮書中明確提到了哪個電子貨幣概念？
+answer: b-money (Wei Dai)
+wrong_answers:
+  - 比特金 (Nick Szabo)
+  - RPOW (Hal Finney)
+  - eCash (David Chaum)
+explanation: |
+  這是第一個參考資料。這是 Satoshi 在 2008 年 8 月與 Wei Dai 交換意見後新增的。
+reviewed: false

@@ -1,0 +1,9 @@
+question: AluVM 在 RGB 協定中的主要角色是什麼？
+answer: 在虛擬機器環境中執行腳本和 Contract 作業
+wrong_answers:
+  - 在虛擬機器環境中分析 Bitcoin On-Chain 交易
+  - 虛擬機器環境中 RGB 使用者的 generate 公開金鑰
+  - 在虛擬機器環境中優化公共 Blockchain 驗證
+explanation: |
+  AluVM 專為 Smart contract 驗證與 RGB 架構內的分散式運算而設計。
+reviewed: false

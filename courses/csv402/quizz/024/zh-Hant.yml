@@ -1,0 +1,9 @@
+question: RGB 中的什麼機制允許在單一 Bitcoin 交易中組合多個轉換？
+answer: Transition Bundle
+wrong_answers:
+  - Seal 聚合
+  - 多 Commitment 樹
+  - 州合併
+explanation: |
+  一個 Transition Bundle 是一組 RGB 狀態轉換（屬於同一個 Contract），這些轉換都涉及到同一個 Bitcoin Witness Transaction。
+reviewed: false

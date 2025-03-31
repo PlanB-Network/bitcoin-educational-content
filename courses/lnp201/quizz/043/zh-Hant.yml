@@ -1,0 +1,9 @@
+question: 為了方便路由，Bob 可以在 Invoice 中包含哪些資訊？
+answer: 具有足夠流動性的附近渠道或存在私人渠道
+wrong_answers:
+  - 中間節點的私密金鑰
+  - 所有網路頻道的完整地圖
+  - 每個通道可用流動資金的確實數量
+explanation: |
+  透過指出附近具有流動性的頻道或揭露私人頻道，Bob 可幫助 Alice 選擇成功機率較高的路徑。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Thomas Paine 的書名是什麼？
+answer: 常識。
+wrong_answers:
+  - 獨特的感覺。
+  - 共同利益。
+  - 以上答案都不對。
+explanation: |
+  Thomas Paine 的著作名為《常識》（Common Sense，法文為 Le sens commun），是一本極具影響力的小冊子，主張美國獨立，譴責英國暴政，在動員殖民者方面發揮了關鍵作用。
+reviewed: false

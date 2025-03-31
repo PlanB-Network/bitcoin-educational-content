@@ -1,0 +1,9 @@
+question: 使用何種編碼來表示 SegWit v0 位址？
+answer: bech32
+wrong_answers:
+  - base58check
+  - bech32m
+  - base64
+explanation: |
+  SegWit v0 位址（例如 P2WPKH 和 P2WSH 的位址）使用 SegWit 引入的 bech32 編碼。
+reviewed: false

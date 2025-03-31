@@ -1,0 +1,9 @@
+question: 衍生路徑深度 1 的索引 /84'/ 表示什麼？
+answer: P2WPKH 標準 (SegWit v0)
+wrong_answers:
+  - P2TR 標準 (SegWit v1)
+  - A Bitcoin Testnet 貨幣
+  - A Bitcoin Mainnet 貨幣
+explanation: |
+  索引 /84'/ 定義在 BIP84 中，表示使用 SegWit v0 標準與深度 1 的 P2WPKH 位址（即衍生目標的位址）。
+reviewed: false

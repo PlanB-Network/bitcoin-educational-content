@@ -1,0 +1,9 @@
+question: 與 zpub 前綴相關的鑰匙類型是什麼？
+answer: Mainnet 上 SegWit V0 的擴充公開金鑰
+wrong_answers:
+  - Mainnet 上 SegWit V1 的擴充私密金鑰
+  - Testnet 上 Legacy 的擴充公開金鑰
+  - Testnet 上的 SegWit V2 擴充公開金鑰
+explanation: |
+  zpub 前綴表示 Mainnet 上 SegWit V0 腳本的擴充公開金鑰。
+reviewed: false

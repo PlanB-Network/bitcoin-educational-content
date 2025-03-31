@@ -1,0 +1,9 @@
+question: 哪個函數用來計算小於 N 且與 N 同素的整數的數目？
+answer: Euler 的 Phi 函數
+wrong_answers:
+  - Euler 的伽瑪函數
+  - Euler 的 Sigma 函數
+  - Dirichlet 的 Beta 函數
+explanation: |
+  Euler 的 Phi 函數決定小於 N 且與 N 同素的整數數目，這是基於素數的密碼學理論的核心概念。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Bitcoin-development 郵件列表是在哪一天建立的？
+answer: 2011 年 6 月 12 日
+wrong_answers:
+  - 2011 年 1 月 13 日
+  - 2011 年 3 月 7 日
+  - 2011 年 9 月 19 日
+explanation: |
+  它是由開發人員 Jeff Garzik 建立的，它允許正式討論要對 Bitcoin 進行的變更。
+reviewed: false

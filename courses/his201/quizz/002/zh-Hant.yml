@@ -1,0 +1,9 @@
+question: eCash 電子貨幣模式基於什麼流程？
+answer: 盲簽名
+wrong_answers:
+  - 團體簽名
+  - 環狀簽名
+  - 閾值簽名
+explanation: |
+  eCash 以盲簽程序為基礎，允許簽名者在看不到簽名內容的情況下簽名。
+reviewed: false

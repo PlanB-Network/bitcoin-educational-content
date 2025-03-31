@@ -1,0 +1,11 @@
+question: Hashrate 在 Bitcoin 網路中測量什麼？
+answer: 每秒的計算
+wrong_answers:
+  - 每秒的交易次數
+  - 作用中節點的數量
+  - 網路的耗電量
+explanation: |
+  Bitcoin 網路中的 Hashrate 測量
+  每秒可執行的計算。它是一個關鍵
+  網路健康與安全的指標。
+reviewed: true

@@ -1,0 +1,9 @@
+question: 在 Lightning Network 上，Commitment 交易的主要風險是什麼？
+answer: 發佈舊交易以回收更多資金
+wrong_answers:
+  - 忘記簽署 Commitment Transaction
+  - 意外將資金傳送至另一個通道
+  - 以不適當的時間鎖封鎖交易
+explanation: |
+  主要的風險是當事人可能會企圖透過公布舊的 Commitment Transaction 來作弊，這可能會讓他們取回不再擁有的資金。
+reviewed: false

@@ -1,0 +1,9 @@
+question: MAC 如何讓 Alice 驗證訊息確實是來自 Bob？
+answer: 透過檢查產生的標籤是否與 Bob 傳送的標籤相符
+wrong_answers:
+  - 透過解密訊息來判斷它是否可讀
+  - 透過比較訊息與標籤的大小
+  - 透過驗證寄件者的 IP Address
+explanation: |
+  Alice 使用共用秘鑰來 generate 收到的訊息中的標籤。如果這個標籤與 Bob 傳送的相符，她就知道訊息是真實且完整的。
+reviewed: false

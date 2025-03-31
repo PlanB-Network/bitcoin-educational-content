@@ -1,0 +1,9 @@
+question: LSP 在企業 Bitcoin 付款中扮演什麼角色？
+answer: 在 Lightning 上管理大量交易
+wrong_answers:
+  - 儲存 Lightning Wallet 的私密金鑰
+  - 列印 Lightning 發票
+  - 在 Lightning 上手動處理退款
+explanation: |
+  LSP 在 Lightning 上處理複雜且大量的作業。
+reviewed: false

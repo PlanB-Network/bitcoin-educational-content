@@ -1,0 +1,9 @@
+question: Schnorr 的何種屬性允許將多個公開金鑰合併為一個？
+answer: 鍵集合
+wrong_answers:
+  - 批次驗證
+  - 可塑性
+  - 簽名壓實
+explanation: |
+  Schnorr 允許將多個公開密碼匙聚合為單一密碼匙。
+reviewed: false

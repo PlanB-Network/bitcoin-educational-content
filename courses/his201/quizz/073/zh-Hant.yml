@@ -1,0 +1,9 @@
+question: 哪個美國聯邦情報單位於 2011 年 4 月邀請 Gavin Andresen 在幾個月後發表 Bitcoin？
+answer: 中情局
+wrong_answers:
+  - 聯邦調查局
+  - 美國國家安全局
+  - 藥物管理局
+explanation: |
+  更明確地說，是 In-Q-Tel，一家由 CIA 管理的美國風險投資基金，但訪問確實是在 CIA 總部進行的。
+reviewed: false

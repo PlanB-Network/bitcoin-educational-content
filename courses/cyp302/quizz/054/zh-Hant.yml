@@ -1,0 +1,9 @@
+question: 有限域中用於密碼學的主要代數結構類型是什麼？
+answer: 不可還原多项式
+wrong_answers:
+  - 方陣
+  - 隨機向量
+  - 立方根
+explanation: |
+  在密碼學中，秩為 2^m 的有限字段通常使用不可還原多项式來確保字段定義明確，且所有的操作都是可能的。
+reviewed: false

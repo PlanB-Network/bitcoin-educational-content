@@ -1,99 +1,94 @@
 id: 902db648-8b03-4561-966f-6ff5f88072aa
-builder: Lightning Labs
 
-credits:
-  professor: valley-egg
-  link: https://grunch.dev/guides/lapp/
+professor_id: 32334703-651c-4f2c-b835-71a3e19e2f01
+credit_link: https://grunch.dev/guides/lapp/
 
 level: advanced
 
 category: lightning-network
 
-tags:
-  - open-source
-  - self-custodial
-  - lightning
-  - LND
-
-# Proofreading metadata
 project_id: db7cc106-432c-4571-a66a-1f68d024bca4
 original_language: en
 proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 7.92
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 4.01
+    contributor_names:
+    reward: 5.97
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
-    reward: 2.01
+    reward: 2.98
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 5.97
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 7.92
   - language: fr
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 4.01
+    contributor_names:
+    reward: 5.97
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 5.97
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 11.83
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 4.01
+    contributor_names:
+    reward: 5.97
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 7.92
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 11.83
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 7.92
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 9.88
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 9.88
 
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 7.92
+tags:
+  - development
+  - lightning
+  - guides

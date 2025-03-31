@@ -1,0 +1,9 @@
+question: Qual è la principale differenza tra trattare il Bitcoin come un asset digitale e trattarlo come una valuta in contabilità?
+answer: In quanto asset digitale, è necessario tenere traccia della base di costo di ogni transazione e dei guadagni/perdite, mentre se fosse trattato come una valuta, le rivalutazioni sarebbero più semplici e meno frequenti.
+wrong_answers:
+  - Se trattato come un bene digitale, è completamente esente da qualsiasi imposta.
+  - Se trattata come una moneta, non è necessario registrare le transazioni.
+  - Trattarla come una valuta richiede il passaggio immediato a un nuovo software di contabilità.
+explanation: |
+  Il trattamento degli asset digitali comporta tipicamente il calcolo delle plusvalenze o delle minusvalenze su ogni transazione, aggiungendo complessità. Se il Bitcoin fosse contabilizzato come una valuta, sarebbe più semplice: basterebbe aggiornare periodicamente il valore fiat, come si fa per le altre valute.
+reviewed: false

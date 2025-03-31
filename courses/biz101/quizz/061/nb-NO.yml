@@ -1,0 +1,9 @@
+question: Hva bruker Essential-profilen for å hjelpe de ansatte med å behandle betalinger ved kassen?
+answer: Opprettelse av en meny med varepriser i PoS-appen
+wrong_answers:
+  - En manuell reskontrobok for registrering av salg
+  - Et papirfakturasystem for hver transaksjon
+  - Et automatisk bokføringssystem for transaksjoner fra PoS
+explanation: |
+  PoS-appen i Essential-profilen gjør det mulig for de ansatte å velge varer fra en forhåndsinnstilt meny, noe som effektiviserer faktureringsprosessen.
+reviewed: false

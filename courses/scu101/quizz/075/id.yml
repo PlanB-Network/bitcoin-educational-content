@@ -1,0 +1,9 @@
+question: Karakteristik apa yang mendefinisikan kata sandi yang baik?
+answer: Panjang, kompleks, dan unik.
+wrong_answers:
+  - Pendek, sederhana, dan mudah diingat.
+  - Berdasarkan informasi pribadi.
+  - Identik untuk semua akun.
+explanation: |
+  Kata sandi yang baik harus cukup panjang, kompleks, dan tidak boleh digunakan kembali.
+reviewed: false

@@ -1,0 +1,21 @@
+id: 392c4a6b-05e5-4660-8ce5-1637436659c7
+year: 2023-09
+name: Watch Out 2023
+location: Spain
+language:
+  - es
+links:
+  website: https://wobitcoin.org/
+  twitter: https://twitter.com/Wo_Bitcoin
+project_id: 326fd972-4807-4f01-974d-f8bfa9bfee6a
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2024-09-01
+    urgency: 0
+    contributor_names:
+      - Asi0Flammeus
+    reward: 0.05
+tags:
+  - adoption
+  - user-friendly

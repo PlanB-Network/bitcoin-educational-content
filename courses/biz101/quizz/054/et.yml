@@ -1,0 +1,9 @@
+question: Milline järgmistest tarkvaradest ei ole Bitcoini raamatupidamislahendused?
+answer: Sparrow
+wrong_answers:
+  - CoinTracker
+  - Koinly
+  - ZenLedger
+explanation: |
+  Sparrow ei ole Bitcoini raamatupidamislahendused, samas kui teised on (see on Bitcoini rahakoti tarkvara).
+reviewed: false

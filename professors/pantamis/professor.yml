@@ -1,3 +1,4 @@
+id: b04a2719-7745-4bd4-aec7-e23431f4db40
 name: Théo Pantamis
 
 contributor_id: zero-shock
@@ -11,11 +12,9 @@ company: LN Markets
 tips:
   silent_payment: sp1qblabla2
 
-tags:
-  - privacy
-  - lightning-network
-  - cryptography
-
 affiliations:
-  - DécouvreBitcoin
-  - LN Markets
+  - 77f56919-1875-45ab-8c4c-b8fb26b021de
+  - eb67d966-e019-4b62-8ac3-1b7e1ae83e1c
+tags:
+  - network-security
+  - consensus

@@ -1,0 +1,9 @@
+question: 定义 RGB 合同的四个组成部分是什么？
+answer: 创世纪、模式、接口和接口实现
+wrong_answers:
+  - 创世纪、模式、过渡和接口实施
+  - 起源、界面、过渡和扩展
+  - 创世纪、界面、界面实现和扩展
+explanation: |
+  RGB 合同由四个不同的要素组成：创世纪、模式、接口和接口实现。
+reviewed: false

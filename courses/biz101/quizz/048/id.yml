@@ -1,0 +1,9 @@
+question: Apa fungsi utama dari sistem pembayaran tradisional?
+answer: Untuk memungkinkan transfer dana antara dua pihak
+wrong_answers:
+  - Untuk menciptakan mata uang global tunggal yang diatur oleh otoritas pusat
+  - Untuk memfasilitasi perdagangan internasional
+  - Membatasi transfer dana hanya untuk penukaran uang tunai secara langsung
+explanation: |
+  Sistem pembayaran tradisional menyediakan mekanisme dan infrastruktur untuk mentransfer dana antara pembayar dan penerima pembayaran baik dalam konteks lokal maupun internasional.
+reviewed: false

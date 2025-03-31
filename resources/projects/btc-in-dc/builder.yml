@@ -1,4 +1,5 @@
-id: 07101def-af0f-4c32-90f0-efb9ac2df79b
+id: c0952532-1754-4597-9c5d-a10b5eb399d3
+
 name: BTC in DC
 category: conference
 
@@ -6,16 +7,11 @@ links:
   website: https://btcindc.com/
   twitter: https://x.com/btcindc_
 
-tags:
-  - adoption
-  - regulation
-  - business
-
 original_language: en
 proofreading:
   - language: en
     last_contribution_date: 2025-02-07
     urgency: 1
-    contributors_id:
+    contributor_names:
       - jramos0
-    reward: 0
+    reward: 0.09

@@ -7,8 +7,10 @@ links:
 description: |
   Notre but est de permettre à chacun de comprendre Bitcoin, au travers de formations, interviews et tutoriels 100% gratuits.
   Nous explorons ici les aspects techniques, financiers et philosophiques de Bitcoin.
+contributor_names:
+  - Asi0Flammeus
+project_id: 77f56919-1875-45ab-8c4c-b8fb26b021de
 tags:
   - guides
+  - finance
   - user-friendly
-contributors:
-  - another-satoshi

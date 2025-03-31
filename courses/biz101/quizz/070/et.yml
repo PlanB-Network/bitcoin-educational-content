@@ -1,0 +1,9 @@
+question: Milliseid täiustatud funktsioone nõuavad tavaliselt Professional-profiili ettevõtted?
+answer: Täiustatud aruandluse armatuurlauad ja mitu haldusrolli
+wrong_answers:
+  - Põhitehingute registreerimine ja standardsed kviitungid
+  - Lihtne rahakoti integreerimine ja QR-koodi genereerimine
+  - Automaatne konverteerimine fiat'iks ilma aruandlusvõimalusteta
+explanation: |
+  Professionaalsed ettevõtted vajavad kohandatavaid arveid, keerukat aruandlust ja rollide haldamist, mis sobivad nende keeruliste töövoogudega.
+reviewed: false

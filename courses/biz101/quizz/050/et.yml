@@ -1,0 +1,9 @@
+question: Mille poolest erineb krediitkaarditehing tavaliselt lihtsast sularahatehingust?
+answer: See hõlmab mitmeid vahendajaid
+wrong_answers:
+  - See toimub koheselt ilma vahendaja kaasamiseta
+  - See nõuab ainult füüsilist valuutavahetust
+  - See nõuab, et mõlemad pooled toodavad identset kaupa
+explanation: |
+  Erinevalt sularahast, mida vahetatakse kohe, läbivad krediitkaarditehingud mitmeid etappe, mis hõlmavad panku, kaardivõrgustikke ja kliiringuprotsesse, mille tulemuseks on viivitused ja lisakulud.
+reviewed: false

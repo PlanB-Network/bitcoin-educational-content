@@ -1,0 +1,9 @@
+question: Jaká je hlavní funkce měny?
+answer: Působit jako zprostředkovatel, který zjednodušuje směnu hodnot
+wrong_answers:
+  - Uložení vnitřní hodnoty ve fyzické podobě
+  - Úplně nahradit barterový obchod přímou směnou zboží za zboží
+  - Centralizovat všechny hospodářské transakce prostřednictvím jediného orgánu
+explanation: |
+  Měna zjednodušuje obchod tím, že slouží jako společný prostředek, který omezuje složitou síť směnných kurzů potřebných v barterovém systému, a tím usnadňuje transakce.
+reviewed: false

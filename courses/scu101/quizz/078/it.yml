@@ -1,0 +1,9 @@
+question: Qual è il criterio fondamentale nella creazione di un nuovo account email?
+answer: Usare una password unica e sicura.
+wrong_answers:
+  - Riutilizzare la password di altri account.
+  - Scegliere una password semplice per facilitarne la memorizzazione.
+  - Scegliere una password con il nome del proprio animale domestico.
+explanation: |
+  Una password unica e sicura è essenziale per impedire agli hacker di accedere all'account email.
+reviewed: false

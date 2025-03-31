@@ -1,18 +1,11 @@
 id: 62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
-builder: Get Alby
-
-tags:
-  - lightning
-  - wallets
-  - node
 
 category: lightning-network
 
 level: intermediate
 
-credits:
-  professor: pretty-private
+professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
 
 # Proofreading metadata
 
@@ -22,90 +15,94 @@ proofreading:
   - language: fr
     last_contribution_date: 2024-12-03
     urgency: 1
-    contributors_id:
+    contributor_names:
       - LoicPandul
-    reward: 1.7
+    reward: 2.52
 
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 6.69
 
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3.4
+    contributor_names:
+    reward: 5.04
 
   - language: en
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3.4
+    contributor_names:
+    reward: 5.04
 
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 5.04
 
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 6.69
 
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 6.69
 
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 8.34
 
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 5.04
 
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 9.99
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 6.69
 
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3.4
+    contributor_names:
+    reward: 5.04
 
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 6.69
 
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 9.99
 
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 8.34
+tags:
+  - lightning
+  - node
+  - guides

@@ -27,7 +27,7 @@ Il diagramma seguente illustra il funzionamento di un portafoglio con due percor
 Questa operazione consente di impostare varie configurazioni, tra cui :
 
 
-- Un piano di successione (o eredità) che consente agli eredi di recuperare i fondi in caso di morte dell'utente. Per maggiori informazioni su questo argomento, si consiglia la lettura della [parte 4](https://planb.network/courses/btc102/233c88d3-2e8e-5eba-ac06-efe67a209038) del corso BTC102.
+- Un piano di successione (o eredità) che consente agli eredi di recuperare i fondi in caso di morte dell'utente. Per maggiori informazioni su questo argomento, si consiglia la lettura della [parte 4](https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) del corso BTC102.
 - Un backup rinforzato con un tempo di ripristino, che offre all'utente la possibilità di utilizzare il proprio portafoglio senza dover conservare la frase segreta corrispondente e rischiare di vederselo rubare, ad esempio durante un furto.
 - Una rete di sicurezza per le persone che iniziano a utilizzare i Bitcoin: esse gestiranno il proprio portafoglio e il loro "tutore" (un parente, ad esempio) si riserverà il diritto di recuperare i loro fondi dopo un determinato periodo.
 - Uno schema di firma multiparte (*multisig*) con requisiti ridotti nel tempo, per far fronte alla scomparsa di uno o più partecipanti, come ad esempio i soci di un'azienda.
@@ -63,7 +63,8 @@ Visitate il sito ufficiale di Wizardsardine e scaricate Liana all'indirizzo http
 
 Per sapere come verificare manualmente l'autenticità e l'integrità del software prima dell'installazione, vi consigliamo di consultare questo tutorial:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 Installare il software sul computer e avviarlo. Scegliere l'opzione "*Crea un nuovo portafoglio Liana*" per configurare il portafoglio.
 
 ![Accueil Liana](assets/fr/03.webp)
@@ -192,7 +193,8 @@ Una volta inviati i fondi, la transazione appare nella schermata principale (pri
 
 Per comprendere meglio il modello di rappresentazione UTXO utilizzato in Bitcoin, è possibile consultare la prima parte del corso sulla riservatezza in Bitcoin scritto da Loïc Morel :
 
-https://planb.network/courses/btc204
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+
 ## Spese correnti
 
 La spesa corrente è la situazione normale per l'utilizzo di Liana. L'invio di bitcoin con la chiave master funziona come in tutti i portafogli Bitcoin classici, come Electrum o Sparrow.
@@ -303,18 +305,6 @@ La transazione dovrebbe apparire nella schermata principale. Una volta confermat
 
 ![Écran principal après récupération](assets/fr/45.webp)
 
-## Video
-
-Se volete saperne di più su Liana, ci sono alcuni contenuti video che vi daranno un'idea più chiara del suo funzionamento. Ecco un video di presentazione di Liana con Kévin Loaec e Antoine Poinsot:
-
-![Vidéo de présentation avec Kévin Loaec et Antoine Poinsot](https://youtu.be/siuLmQo1lM8)
-
-Ed ecco un tutorial su come usare Liana, con Antoine Poinsot:
-
-![Vidéo-tutoriel avec Antoine Poinsot](https://youtu.be/JrG4WMVPZDQ)
-
-Le manipolazioni mostrate in quest'ultima sono simili a quelle presentate in questa esercitazione.
-
 ## Bonus: analisi dei descrittori
 
 Il descrittore è una stringa di caratteri leggibili dall'uomo che descrive in modo esaustivo un insieme di indirizzi. Combina una serie di informazioni essenziali per il recupero delle parti (UTXO) di un portafoglio avanzato. Il modo in cui il descrittore è scritto si basa su [Miniscript syntax](https://bitbox.swiss/blog/understanding-bitcoin-miniscript-part-2/), il linguaggio di scripting sviluppato da Andrew Poelstra, Pieter Wuille e Sanket Kanjalkar nel 2019.
@@ -350,4 +340,4 @@ Gli script creati da questo portfolio avranno la seguente forma:
 
 Poiché la sicurezza del vostro portafoglio Bitcoin dipende anche dalla comprensione del suo funzionamento, vi suggerisco di studiare a fondo i meccanismi dei portafogli deterministici e gerarchici seguendo questo corso di formazione gratuito su Plan ₿ Network :
 
-https://planb.network/courses/cyp201
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

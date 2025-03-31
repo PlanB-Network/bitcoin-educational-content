@@ -1,0 +1,9 @@
+question: Wie unterscheidet sich eine Kreditkartentransaktion typischerweise von einer einfachen Bargeldtransaktion?
+answer: Es sind mehrere Vermittler beteiligt
+wrong_answers:
+  - Es geschieht sofort und ohne Zwischenschaltung eines Vermittlers
+  - Sie erfordert nur den physischen Umtausch von Geld
+  - Sie schreibt vor, dass beide Parteien identische Waren produzieren
+explanation: |
+  Im Gegensatz zu Bargeld, das sofort ausgetauscht wird, durchlaufen Kreditkartentransaktionen eine Reihe von Schritten, an denen Banken, Kartennetze und Clearingverfahren beteiligt sind, was zu Verzögerungen und zusätzlichen Kosten führt.
+reviewed: false

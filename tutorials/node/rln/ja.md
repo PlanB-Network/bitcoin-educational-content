@@ -31,7 +31,8 @@ RGBコントラクトは、進化型ステートマシンのような構造に�
 
 RGBプロトコルがどのように機能するかについてもっと学ぶには、この包括的なトレーニングコースを受講することをお勧めする：
 
-https://planb.network/courses/csv402
+https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+
 ## RGB対応Lightningノード搭載
 
 rgb-lightning-node`バイナリをコンパイルしてインストールするには、まずリポジトリとそのサブモジュールをクローンし、：
@@ -371,4 +372,4 @@ curl -X 'GET' \
 
 また、LNP/BP協会が開発したRGB CLIツールを使ってRGB契約を作成する方法を説明した、この別のチュートリアルもお勧めする：
 
-https://planb.network/tutorials/node/rgb/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4
+https://planb.network/tutorials/node/others/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4

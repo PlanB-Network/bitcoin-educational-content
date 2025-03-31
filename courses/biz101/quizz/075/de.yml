@@ -1,0 +1,9 @@
+question: Was ist das Hauptziel von Bitcoin-Zahlungsimplementierungen auf Unternehmensebene?
+answer: Bitcoin-Zahlungen vollständig in die Kernprozesse des Unternehmens zu integrieren
+wrong_answers:
+  - Mit Bitcoin in kleinem Maßstab experimentieren
+  - Verwendung von Bitcoin für Marketingzwecke
+  - Bitcoin ohne Integration in andere Systeme zu akzeptieren
+explanation: |
+  Unternehmenslösungen zielen darauf ab, Bitcoin-Zahlungen mit zentralen Geschäftsabläufen und -systemen in Einklang zu bringen.
+reviewed: false

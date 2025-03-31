@@ -1,20 +1,12 @@
 id: f1efee68-930f-4d88-b3ac-f7d879eb54ea
 
-builder: ElysiumLab
-
-tags:
-  - wallets
-  - keys
-  - lightning
-  - self-sovereignty
 
 category: mobile
 
 level: beginner
 
-credits:
-  professor: green-day
-  link: https://elysiumlab.io
+professor_id: f11a148f-63d8-4b02-8fb4-ac6130c41cb1
+credit_link: https://elysiumlab.io
 
 
 project_id: 05e19923-64c7-43d8-b85c-1384334f7b4c
@@ -24,90 +16,94 @@ proofreading:
   - language: en
     last_contribution_date: 2025-02-04
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
-    reward: 0.32
+    reward: 0.46
 
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 1.2
 
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.65
+    contributor_names:
+    reward: 0.92
 
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.92
 
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 1.2
 
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 1.2
 
   - language: fr
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.65
+    contributor_names:
+    reward: 0.92
 
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 1.47
 
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.92
 
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 1.75
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 1.2
 
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.65
+    contributor_names:
+    reward: 0.92
 
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 1.2
 
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 1.75
 
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 1.47
+tags:
+  - wallets
+  - guides
+  - user-friendly

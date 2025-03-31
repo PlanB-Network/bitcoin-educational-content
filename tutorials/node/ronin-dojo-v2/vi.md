@@ -210,7 +210,7 @@ Một khi bạn đến trang chủ RoninUI, bạn sẽ được yêu cầu bắt
 
 ![lets start](assets/notext/25.webp)
 
-Tại giai đoạn này, RoninUI sẽ cung cấp cho bạn mật khẩu gốc `root password`. Điều cần thiết là phải giữ nó an toàn. Bạn có thể chọn sao lưu vật lý, trên giấy, hoặc lưu nó trong một [trình quản lý mật khẩu](https://planb.network/courses/secu101/4/2).
+Tại giai đoạn này, RoninUI sẽ cung cấp cho bạn mật khẩu gốc `root password`. Điều cần thiết là phải giữ nó an toàn. Bạn có thể chọn sao lưu vật lý, trên giấy, hoặc lưu nó trong một [trình quản lý mật khẩu](https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f).
 
 ![root password](assets/notext/26.webp)
 
@@ -324,6 +324,7 @@ Một hướng dẫn chi tiết đang được chuẩn bị để hướng dẫn
 Để hiểu sâu hơn về trộn coin và cách sử dụng nó trên Bitcoin, tôi cũng mời bạn tham khảo bài viết khác: Hiểu và sử dụng trộn coin trên Bitcoin - Understanding and using coinjoin on Bitcoin, nơi tôi chi tiết hoá mọi thứ bạn cần biết về kỹ thuật này.
 
 https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 ### Sử dụng công cụ Whirlpool Stat Tool (WST)
 
 Sau khi thực hiện trộn coin với Whirlpool, việc đánh giá chính xác mức độ riêng tư đạt được cho các UTXO đã trộn của bạn là điều rất hữu ích. Để làm điều này, bạn có thể sử dụng công cụ Python *Whirlpool Stat Tool*. Công cụ này cho phép bạn đo cả điểm số tương lai (prospective) và hồi tưởng (retrospective) của các UTXO của bạn, trong khi phân tích tốc độ khuếch tán của chúng trong pool.

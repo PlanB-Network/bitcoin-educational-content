@@ -27,10 +27,11 @@ Liana 以比特币的可编程性为基础，创建了一个先进的钱包。�
 通过该操作，您可以设置各种配置，包括 ：
 
 
-- 继承计划，使继承人能够在用户去世后能够收回资金。对于此主题的更多信息，我们建议您阅读BTC102课程的 [第4部分](https://planb.network/courses/btc102/233c88d3-2e8e-5eba-ac06-efe67a209038)。
+- 继承计划，使继承人能够在用户去世后能够收回资金。对于此主题的更多信息，我们建议您阅读BTC102课程的 [第4部分](https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038))。
 - 有恢复时间的强化备份，让用户可以使用自己的钱包，而无需保留相应的密语，也不必冒钱包被盗的风险（例如，在入室盗窃的情况下）。
 - 为刚开始使用比特币的人提供一个安全保障：他们将管理自己的钱包，而他们的 "监护人"（例如亲戚）将在经过一段给定的时间后获得收回资金的权利。
 - 多方签名方案（*multisig*），其要求将随着时间的推移放宽，以应对一个或多个参与者（如公司的合作伙伴）失联或退出的情况。
+
 
 Liana的最大优势在于它采用的一种标准化的方式，在用于日常支出的主钥匙丢失的情况下，保证资金的回收。这对资金的安全保管来说是一个巨大的创新，因为资金的安全保管充满风险，尤其是如果您对这方面不甚了解的话。因此，Liana可以鼓励最厌恶风险的用户停止使用托管机构（如交易所平台）来保管他们的资金，并重新获得资金的所有权，这也符合比特币的赛弗朋克精神。
 
@@ -63,8 +64,10 @@ https://planb.network/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9
 
 为了了解如何在安装前手动验证软件的真实性和完整性，我们建议您阅读本教程：
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 在机器上安装软件并启动。选择"*Create a new Liana wallet（创建一个新Liana钱包）*"选项以配置您的钱包。
+
 
 ![Accueil Liana](assets/fr/03.webp)
 
@@ -193,8 +196,11 @@ address)*"。屏幕上会出现一个新地址。它比传统投资组合的地�
 
 要更好地理解比特币中使用的UTXO模型，您可以先阅读Loïc Morel撰写的比特币保密性课程的第一部分：
 
-https://planb.network/courses/btc204
+
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+
 ## 当前支出
+
 
 当前支出是使用 Liana 的正常情况。使用主密钥发送比特币与所有经典比特币钱包（如 Electrum 或 Sparrow）一样有效。
 
@@ -304,17 +310,6 @@ wsh(or_d(pk([3689a8e7/48'/0'/0'/2']xpub6FKYNH4XbbdADV98yTVxgZZrtB4eE2tiUPreEv5iJ
 
 ![Écran principal après récupération](assets/fr/45.webp)
 
-## 视频
-
-如果您想要了解关于Liana的更多信息，一些视频内容可以让您更清楚地了解它是如何工作的。下面是Kévin Loaec和Antoine Poinsot介绍Liana的视频：
-
-![Vidéo de présentation avec Kévin Loaec et Antoine Poinsot](https://youtu.be/siuLmQo1lM8)
-
-下面是Antoine Poinsot介绍如何使用Liana的教程：
-
-![Vidéo-tutoriel avec Antoine Poinsot](https://youtu.be/JrG4WMVPZDQ)
-
-后者显示的操作与本教程中介绍的类似。
 
 ## 奖励：描述符分析
 
@@ -351,4 +346,5 @@ wsh(or_d(pk([3689a8e7/48'/0'/0'/2']xpub6FKYNH4XbbdADV98yTVxgZZrtB4eE2tiUPreEv5iJ
 
 由于比特币钱包的安全性也取决于您对其工作原理的理解，我建议您参加以下Plan ₿ Network的免费培训课程，深入学习确定性钱包和分层钱包的机制：
 
-https://planb.network/courses/cyp201
+
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

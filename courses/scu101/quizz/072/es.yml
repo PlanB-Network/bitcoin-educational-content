@@ -1,0 +1,9 @@
+question: ¿Qué es un gestor de contraseñas?
+answer: Una herramienta que almacena, genera y gestiona contraseñas.
+wrong_answers:
+  - Un software antivirus contra ataques de hackers.
+  - Un servicio de mensajería segura.
+  - Una herramienta de respaldo de datos de identidad personal.
+explanation: |
+  El gestor de contraseñas centraliza el almacenamiento y la creación de contraseñas.
+reviewed: false

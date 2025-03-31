@@ -211,7 +211,7 @@ RoninUI:n kotisivulla sinua pyydetään aloittamaan asetusten määrittäminen. 
 
 ![lets start](assets/notext/25.webp)
 
-Tässä vaiheessa RoninUI esittelee sinulle `root` salasanasi. On olennaista pitää se turvassa. Voit valita fyysisen varmuuskopion, paperille, tai tallentaa sen [salasananhallintaohjelmaan](https://planb.network/courses/secu101/4/2).
+Tässä vaiheessa RoninUI esittelee sinulle `root` salasanasi. On olennaista pitää se turvassa. Voit valita fyysisen varmuuskopion, paperille, tai tallentaa sen [salasananhallintaohjelmaan](https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f).
 
 ![root password](assets/notext/26.webp)
 
@@ -323,6 +323,7 @@ Yksityiskohtainen opas on valmisteilla, joka opastaa sinut askel askeleelta läp
 Syvemmän ymmärryksen saamiseksi coinjoinista ja sen käytöstä Bitcoinissa, kutsun sinut myös tutustumaan tähän toiseen artikkeliin: Ymmärtäminen ja coinjoinin käyttö Bitcoinissa, jossa kerron kaiken mitä sinun tarvitsee tietää tästä tekniikasta.
 
 https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 ### Whirlpool Stat Toolin (WST) käyttö
 
 Suoritettuasi coinjoineja Whirlpoolin kanssa, on hyödyllistä arvioida tarkasti saavutettu yksityisyyden taso sekoitetuille UTXO:illesi. Tätä varten voit käyttää Python-työkalua *Whirlpool Stat Tool*. Tämä työkalu mahdollistaa sekä tulevien että menneiden anonset-pisteiden mittaamisen, samalla kun se analysoi niiden leviämistä altaassa.

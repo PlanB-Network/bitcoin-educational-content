@@ -5,7 +5,7 @@ description: Malgré la crise du COVID et la tempête Alex, la première éditio
 
 # Main Stage
 
-## Ouverture 
+## Ouverture
 
 ![live replay](https://youtu.be/uSieq0_cCgA?si=1HhSaK_f16fQRPqZ)
 
@@ -25,26 +25,30 @@ Speaker: Yorick De Mombyne
 
 ## Une révolution économique
 
-![live replay](https://youtu.be/HPHwDMWOx3s?si=5wI4j6l7BjntdBsX)
+![live replay](https://youtu.be/HPHwDMWOx3s)
+
+Speakers: Simon Polrot, Benoit Huguet, Adli Takkal Bataille, Raphaël Bloch
 
 ## Pourquoi est ce que les principales idées reçues sur Bitcoin sont fausses
 
-![live replay](https://youtu.be/kS1sLE_Cn9E?si=cah7aBsaoceWl9sS)
+![live replay](https://youtu.be/kS1sLE_Cn9E)
 
-Speaker: Sebastien Gouspillou
+Speakers: Sebastien Gouspillou, Gilles Cadignan
 
 ## Pourquoi Bitcoin est une réserve de valeur
 
-![live replay](https://youtu.be/KuCwfM6aL_c?si=pH80cHROwmGIVk9J)
+![live replay](https://youtu.be/KuCwfM6aL_c)
 
 Speaker: Pierre Ronchard
 
 ## StackinSat
 
-![live replay](https://youtu.be/OUA0Avwr_kI?si=fLBOd61Cg8gnb730)
+![live replay](https://youtu.be/OUA0Avwr_kI)
+
+Speakers: Jonathan Herscovici, Josselin Tonnellier, Raphaël Bloch
 
 ## Ledger
 
 ![live replay](https://youtu.be/w5ZalvFcP-M?si=5EYUX7KjKUhdkZUu)
 
-Speaker: Pascal gauthier
+Speaker: Pascal Gauthier

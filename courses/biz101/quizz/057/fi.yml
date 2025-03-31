@@ -1,0 +1,9 @@
+question: Miksi on tärkeää seurata fiat-arvoa kunkin Bitcoin-tapahtuman hetkellä?
+answer: Tarkan kirjanpidon ja verojen noudattamisen varmistaminen
+wrong_answers:
+  - Lompakon saldon automaattinen lisääminen
+  - Mahdollistaa reaaliaikaisen markkinakaupan suoraan lompakosta käsin
+  - Verkon perimien transaktiomaksujen alentaminen
+explanation: |
+  Fiat-arvon seuraaminen auttaa yrityksiä hoitamaan kirjanpitoa Bitcoinin hinnan vaihteluiden kanssa.
+reviewed: false

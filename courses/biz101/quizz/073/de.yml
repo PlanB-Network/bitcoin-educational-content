@@ -1,0 +1,9 @@
+question: Was ermöglicht den Echtzeit-Datenabgleich zwischen Enterprise Bitcoin-Systemen und ERP-Software?
+answer: APIs
+wrong_answers:
+  - CSV-Dateien
+  - Batch-Uploads
+  - E-Mail-Berichte
+explanation: |
+  APIs ermöglichen eine kontinuierliche Integration in Echtzeit.
+reviewed: false

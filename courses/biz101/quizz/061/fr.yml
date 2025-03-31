@@ -1,0 +1,9 @@
+question: Qu'utilise le profil "Essential" pour aider les employés à traiter les paiements au point de vente ?
+answer: La création d'un menu avec les prix des articles sur l'application PoS
+wrong_answers:
+  - Un livre de comptes manuel pour l'enregistrement des ventes
+  - Un système de factures papier pour chaque transaction
+  - Un système d'enregistrement comptable automatique pour les transactions effectuées à partir du point de vente
+explanation: |
+  L'application PoS du profil Essential permet aux employés de sélectionner des articles à partir d'un menu préétabli, ce qui simplifie le processus de facturation.
+reviewed: false

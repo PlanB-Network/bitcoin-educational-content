@@ -1,0 +1,9 @@
+question: Mikä skenaario kuvaa parhaiten Essential-profiilin käyttöä Bitcoin-maksuissa?
+answer: Ravintola, joka hyväksyy muutaman Bitcoin-maksun kuukaudessa
+wrong_answers:
+  - Monikansallinen yritys, joka käsittelee tuhansia liiketoimia päivittäin
+  - Itsenäinen freelancer, joka hyväksyy maksun laskuistaan bitcoineina
+  - Korkean taajuuden Bitcoin-kaupankäyntipiste
+explanation: |
+  Essential-profiili on suunnattu pienille ja keskisuurille yrityksille, joilla on vain vähän Bitcoin-tapahtumia, kuten ravintola.
+reviewed: false

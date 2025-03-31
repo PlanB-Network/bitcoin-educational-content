@@ -37,6 +37,7 @@ electrum | 🟢 | 🔴 | 🟢 | 🔴 | 🔴 | 🔴 | 🔴 | 🔴 |
 Neste tutorial, vamos configurar e utilizar o Jade Plus com a aplicação móvel Green Wallet da Blockstream através de uma ligação Bluetooth. Esta configuração é ideal para principiantes. Se estiver à procura de uma abordagem mais avançada, recomendo que dê uma vista de olhos a este tutorial onde utilizamos o Jade Plus com a Sparrow Wallet no modo de códigos QR:
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+
 ## O modelo de segurança Jade Plus
 
 O Jade Plus utiliza um modelo de segurança baseado num "elemento seguro virtual", materializado por um "oráculo cego". Em termos concretos, este mecanismo combina o PIN escolhido pelo utilizador, um segredo alojado no Jade e um segredo detido pelo oráculo (um servidor mantido pela Blockstream), para criar uma chave AES-256 distribuída por duas entidades. Durante a iniciação, uma troca de ECDH protege a comunicação com o oráculo e encripta a frase de recuperação na carteira de hardware. Em termos práticos, quando se pretende aceder à seed para assinar transacções, é necessário aceder ao :
@@ -109,6 +110,7 @@ Pode gravá-lo no cartão fornecido na caixa ou, para maior segurança, recomend
 Para mais informações sobre a forma correta de guardar e gerir a sua frase mnemónica, recomendo vivamente que siga este outro tutorial, especialmente se for um principiante:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 ***Obviamente, nunca devem partilhar estas palavras na Internet, como eu faço neste tutorial. Este exemplo de portefólio será utilizado apenas na Testnet e será eliminado no final do tutorial
 
 Clique na seta à direita do ecrã para visualizar as seguintes palavras.
@@ -124,9 +126,11 @@ Depois de ter guardado a sua frase, o Jade Plus pede-lhe que a confirme. Selecio
 Neste tutorial, vamos utilizar a aplicação Green Wallet para gerir a carteira alojada no Jade Plus. Este método é particularmente adequado para iniciantes. Se quiser gerir a sua carteira Bitcoin mais detalhadamente, também pode usar a Sparrow Wallet, que será abordada num tutorial separado:
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+
 Para obter instruções sobre como instalar e configurar a aplicação Blockstream Green, consulte a primeira parte deste outro tutorial:
 
 https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+
 Uma vez na aplicação Blockstream Green, clique no botão "*Configurar uma nova carteira*".
 
 ![JADE-PLUS-GREEN](assets/fr/13.webp)
@@ -204,6 +208,7 @@ Escolha "*Standard*" se pretender criar uma carteira clássica de assinatura ún
 Para mais informações sobre a opção "*2FA*", pode seguir este outro tutorial:
 
 https://planb.network/tutorials/wallet/mobile/blockstream-green-2FA-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
+
 A sua conta foi criada.
 
 ![JADE-PLUS-GREEN](assets/fr/30.webp)
@@ -229,6 +234,7 @@ O seu Jade é desbloqueado através do "elemento seguro virtual" da Blockstream 
 Antes de receberes os teus primeiros bitcoins na tua carteira, **aconselho-te vivamente a fazeres um teste de recuperação vazio**. Tome nota de algumas informações de referência, como o seu xpub ou o primeiro endereço de receção, depois apague a sua carteira na aplicação Green e no Jade Plus enquanto ainda está vazia (`Opções -> Dispositivo -> Factory Reset`). Em seguida, tente restaurar a sua carteira utilizando as suas cópias de segurança em papel da frase mnemónica. Verifica se a informação do cookie gerada após o restauro corresponde à que escreveste originalmente. Se corresponder, pode ter a certeza de que as suas cópias de segurança em papel são fiáveis. Para saber mais sobre como efetuar um teste de recuperação, consulte este outro tutorial :
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+
 ## Receber bitcoins
 
 Agora que a tua carteira Bitcoin está configurada, estás pronto para receber os teus primeiros sats! Basta clicar no botão "*Receber*" na aplicação Green.

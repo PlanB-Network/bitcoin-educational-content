@@ -1,0 +1,9 @@
+question: Comment les systèmes d'entreprise mettent-ils automatiquement à jour l'inventaire ?
+answer: Par le biais de déclencheurs de flux de travail
+wrong_answers:
+  - Mises à jour manuelles
+  - Chargements en fin de journée
+  - Rapports programmés
+explanation: |
+  Les déclencheurs de flux de travail mettent à jour les systèmes en temps réel.
+reviewed: false

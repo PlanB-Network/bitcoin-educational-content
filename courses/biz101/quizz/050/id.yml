@@ -1,0 +1,9 @@
+question: Apa perbedaan transaksi kartu kredit dengan transaksi tunai biasa?
+answer: Ini melibatkan banyak perantara
+wrong_answers:
+  - Ini terjadi secara instan tanpa keterlibatan perantara
+  - Ini hanya membutuhkan pertukaran mata uang secara fisik
+  - Ini mengamanatkan bahwa kedua belah pihak memproduksi barang yang sama
+explanation: |
+  Tidak seperti uang tunai, yang dapat langsung ditukarkan, transaksi kartu kredit harus melalui serangkaian tahapan yang melibatkan bank, jaringan kartu, dan proses kliring, yang mengakibatkan penundaan dan biaya tambahan.
+reviewed: false

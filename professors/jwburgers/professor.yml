@@ -1,3 +1,4 @@
+id: 73994a8a-c74c-4692-b22b-b5cc2a6fff40
 name: Jan-Willem Burgers
 
 contributor_id: myth-initial
@@ -6,9 +7,9 @@ links:
   twitter: https://twitter.com/jwburgers
   github: https://github.com/JWBurgers
 
-tags:
-  - cryptography
-  - bitcoin
-
 tips:
   lightning_address: JW@getalby.com
+tags:
+  - guides
+  - finance
+  - investment

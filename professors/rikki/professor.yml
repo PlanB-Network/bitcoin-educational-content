@@ -1,4 +1,5 @@
-name: Rikki 
+id: b0bcf23e-3ac9-49dc-846d-3979306c6368
+name: Rikki
 
 contributor_id: kangaroo-junk
 
@@ -7,8 +8,6 @@ links:
   website: https://linktr.ee/bitcoinexplorers
 
 tags:
-  - activist
-  - youtuber
-
-
-
+  - adoption
+  - user-friendly
+  - guides

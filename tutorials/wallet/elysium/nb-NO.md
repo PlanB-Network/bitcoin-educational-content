@@ -2,57 +2,33 @@
 name: Elysium lommebok
 description: Oppsett og bruk av Elysium Wallet
 ---
-![cover-elysium](assets/cover.webp)
+![image](assets/cover.webp)
 
 Elysium Wallet er den første programvarelommeboken som ikke er frihetsberøvende, fra det sveitsiske oppstartsselskapet Elysium Labs.
 
-Takket være det innovative nøkkelhåndteringssystemet kan du få tilgang til de digitale eiendelene dine ved hjelp av elementer som er en del av hverdagen: brukernavn, passnøkkel, passord eller passordkode.
-
-Det stemmer: Det er ikke lenger strengt tatt nødvendig å bruke en Seed Phrase for å få tilgang til de digitale eiendelene dine.
-
-Denne forenklingen kan akselerere spredningen av Bitcoin over hele verden.
+Takket være det innovative nøkkelhåndteringssystemet kan du få tilgang til de digitale eiendelene dine ved hjelp av elementer som er en del av hverdagen: brukernavn, passnøkkel, passord eller passordkode. Det stemmer: Det er ikke lenger strengt tatt nødvendig å bruke en Seed Phrase for å få tilgang til de digitale eiendelene dine. Denne forenklingen kan sette fart på spredningen av Bitcoin over hele verden.
 
 ## Hvordan åpne en konto?
 
-Last ned Elysium Wallet-appen fra Apple Store eller Google Play.
+Last ned Elysium Wallet-appen fra Apple Store eller Google Play, og åpne deretter Elysium Wallet-appen som du lastet ned på enheten din. Trykk på "Opprett en ny lommebok", og da vises skjermbildet med vilkår og betingelser for bruk. For å godta og fortsette med opprettelsen av kontoen din, trykk på "Start oppsett", og skriv deretter inn brukernavnet ditt; vær oppmerksom på at profilbildet kan tilpasses: velg et fra alternativene som tilbys, ved å ta et bilde eller laste opp et bilde fra enheten din. Når du har valgt, trykker du på "Fortsett".
 
-Åpne Elysium Wallet-appen som du har lastet ned på enheten din.
+![image](assets/en/02.webp)
 
-Trykk på "Opprett en ny lommebok".
+Elysium skiller seg ut med sin innovative flerfaktoralgoritme, som kombinerer Passkey, PassCode og PassWord. PassKeys er obligatoriske. Med dem kan du autentisere deg raskt og sikkert ved hjelp av enhetens innebygde sikkerhetsfunksjoner, for eksempel Face ID eller fingeravtrykksskanning. De er det viktigste beskyttelseslaget ditt, og sørger for rask og sikker tilgang.
 
-Et skjermbilde med vilkår og betingelser for bruk vises.
+![image](assets/en/03.webp)
 
-Trykk på "Start oppsett" for å godta og fortsette med opprettelsen av kontoen din.
+Velg det andre nivået: PassCode eller PassWord; deretter må du velge et andre sikkerhetsnivå:
 
-Skriv inn brukernavnet ditt.
-
-Profilbildet kan tilpasses: Velg et av alternativene som tilbys, ved å ta et bilde eller laste opp et bilde fra enheten din.
-
-Når du har valgt, trykker du på "Fortsett".
-
-![Open](assets/open.webp)
-
-Elysium skiller seg ut med sin innovative flerfaktoralgoritme, som kombinerer Passkey, PassCode og PassWord.
-
-PassKeys er obligatoriske.
-
-De lar deg autentisere deg raskt og sikkert ved hjelp av enhetens innebygde sikkerhetsfunksjoner, for eksempel Face ID eller fingeravtrykksskanning.
-
-De er det viktigste beskyttelseslaget ditt, og sørger for rask og sikker tilgang.
-
-![Passkey](assets/passkey.webp)
-
-Velg ditt andre nivå: PassCode eller PassWord
-
-Deretter må du velge et annet sikkerhetsnivå:
 
 - PassCode: 6-sifret kode som er lett å huske. Perfekt for å legge til et ekstra lag med beskyttelse.
 - Passord: Opprett et sterkt passord på minst 8 tegn for å øke sikkerheten ytterligere.
+
 Du må bruke Passkeys sammen med en PassCode eller PassWord.
 
-![secondfactor](assets/secondfactor.webp)
+![image](assets/en/04.webp)
 
-Merk: For å opprette kontoen din trenger du minst to faktorer, hvorav den ene må være passordet.
+**For å opprette kontoen din trenger du minst to faktorer, hvorav den ene må være passordet.
 
 For å øke sikkerheten ytterligere kan du legge til et tredje lag med beskyttelse (Passkey + PassCode + PassWord).
 
@@ -64,7 +40,7 @@ Hvis du har valgt PassCode som den andre faktoren, kan du legge til PassWord som
 
 Du kan legge til den tredje sikkerhetsfaktoren under installasjonsfasen (se bilder) eller senere ved å gå til Innstillinger > Forbedre sikkerhet.
 
-![thirdfactor](assets/thirdfactor.webp)
+![image](assets/en/05.webp)
 
 Men hvis du glemmer en av faktorene, må du være oppmerksom på det:
 
@@ -76,73 +52,67 @@ Vi anbefaler på det sterkeste at du konfigurerer alle tre faktorene fra begynne
 
 ## Hvordan mottar jeg en transaksjon?
 
-Trinn 1: Åpne Elysium-appen og gå til hovedmenyen. Trykk på "Mottak".
+Åpne Elysium-appen og gå til hovedmenyen, og trykk deretter på "Motta".
 
-![receive1](assets/receive1.webp)
+![image](assets/en/06.webp)
 
 Nå velger du kjeden du vil motta betaling på (Bitcoin eller Polygon), og du kan ganske enkelt dele QR-koden til Elysium-lommeboken din med personen som trenger å betale deg, så tar de seg av resten.
 
 ## Hvordan motta en transaksjon i Lightning Network?
 
-TRINN 1: Ved å trykke på "Be om betaling" ber du om en Bitcoin-betaling via Lightning Network.
+**Trinn 1:** Ved å trykke på "Be om betaling" ber du om en Bitcoin-betaling via Lightning Network.
 
-![requestpayment1](assets/requestpayment1.webp)
+![image](assets/en/07.webp)
 
-Trinn 2: Angi beløpet du vil be om, velg valutaen du vil motta, og legg til en beskrivelse hvis det er nødvendig.
+**Trinn 2:** Angi beløpet du vil be om, velg valutaen du vil motta, og legg til en beskrivelse hvis det er nødvendig.
 
-![requestpayment2](assets/requestpayment2.webp)
+![image](assets/en/08.webp)
 
-Merk: Det er et lite gebyr for den første Lightning Network (LN)-betalingen for å åpne LN-kanalen. Etter dette er alle påfølgende betalinger gratis.
+**Merk:** Det er en liten avgift for den første Lightning Network (LN)-betalingen for å åpne LN-kanalen. Etter det er alle påfølgende betalinger gratis.
 
 ## Hvordan sender jeg en transaksjon?
 
-TRINN 1: Gå til hovedmenyen og trykk på "Send".
+**Trinn 1:** Gå til hovedmenyen og trykk på "Send".
 
-![send1](assets/send1.webp)
+![image](assets/en/09.webp)
 
-TRINN 2: Skann mottakerens QR-kode fra Elysium Wallet for å lagre kontakten automatisk i adresseboken din.
+**Trinn 2:** Skann mottakerens QR-kode fra Elysium Wallet for å lagre kontakten automatisk i adresseboken din. Alternativt kan du kopiere adressen manuelt og lime den inn i mottakerfeltet. Når du har valgt mottakeren eller lagt dem til i adresseboken, trykker du på "Send betaling".
 
-Alternativt kan du kopiere adressen manuelt og lime den inn i mottakerfeltet.
-
-Når du har valgt mottakeren eller lagt vedkommende til i adresseboken, trykker du på "Send betaling".
-
-![payment1](assets/payment1.webp)
+![image](assets/en/10.webp)
 
 Har du allerede kontakten? Velg den direkte fra adresseboken.
 
-![addressbook1](assets/addressbook1.webp)
+![image](assets/en/11.webp)
 
-TRINN 3: Angi beløpet du vil sende, og velg eiendelen du vil overføre.
+**Trinn 3:** Angi beløpet du vil sende, og velg eiendelen du vil overføre.
 
 For BTC-transaksjoner kan du velge ønsket nettverkshastighet og avgifter (som vist i det tredje bildet)
 
-![payment2](assets/payment2.webp)
+![image](assets/en/12.webp)
 
 Transaksjonen din har blitt sendt inn! Du kan enkelt sjekke den oppdaterte saldoen og transaksjonsstatusen til Elysium Wallet.
 
-## Hvordan sender jeg en transaksjon i Lightning Network (LN)?
+## Hvordan sender jeg en transaksjon i Lightning Network?
 
-TRINN 1: Trykk på "Skann" for å åpne skanneren.
+![image](assets/en/13.webp)
 
-TRINN 2: Skann LN QR-koden for betaling.
+**Trinn 1:** Trykk på "Scan" for å åpne skanneren.
 
-TRINN3: Gå gjennom betalingsopplysningene og bekreft at alt er riktig.
+**Trinn 2:** Skann LN QR-koden for betaling.
 
-TRINN4: Trykk på "Bekreft" for å fullføre transaksjonen.
+**Trinn 3:** Gå gjennom betalingsopplysningene og bekreft at alt er korrekt.
 
-![paymentLN1](assets/paymentLN1.webp)
+**Trinn 4:** Trykk på "Bekreft" for å fullføre transaksjonen.
 
 ## Hvordan se Seed Phrase?
 
 Gå til hovedmenyen og trykk på "Hub". Velg Innstillinger og trykk på "Pakk ut privat nøkkel".
 
-![extract1](assets/extract1.webp)
+![image](assets/en/14.webp)
 
-Logg inn med passordet ditt, og skriv inn passordet og/eller passordet ditt.
+Logg inn med passordet ditt, og skriv inn passordet og/eller passordet ditt. Seed-frasen vises i 24 ords format.
 
-Frøfrasen vises i 24 ords format.
-
-![seed1](assets/seed1.webp)
+![image](assets/en/15.webp)
 
 Ikke del den med noen!
 
@@ -150,9 +120,7 @@ Ikke del den med noen!
 
 Trenger du hjelp med Elysium Wallet? Vi er her for å hjelpe deg!
 
-Last ned appen.
-
-Slik kan du kontakte kundestøtteteamet vårt direkte fra appen:
+Last ned appen, og her kan du se hvordan du kan kontakte kundestøtteteamet vårt direkte fra appen:
 
 1. Gå til Hub
 
@@ -160,12 +128,12 @@ Slik kan du kontakte kundestøtteteamet vårt direkte fra appen:
 
 3. Velg Hjelp
 
-![help1](assets/help1.webp)
+![image](assets/en/16.webp)
 
 Du får opp et skjema der du kan beskrive problemet du opplever.
 
 Når du har sendt inn en forespørsel, vil teamet vårt svare så snart som mulig med en løsning!
 
-Hvis du vil rapportere en feil eller gi oss tilbakemeldinger, klikker du på widgeten på hjemmesiden:
+Hvis du vil rapportere en feil eller gi oss tilbakemeldinger, klikker du på widgeten på startsiden:
 
-![help2](assets/help2.webp)
+![image](assets/en/17.webp)

@@ -1,0 +1,9 @@
+question: Consignment में RGB के अंदर क्या होता है?
+answer: संक्रमण को सत्यापित करने के लिए ग्राहक-पक्षीय डेटा की आवश्यकता होती है।
+wrong_answers:
+  - Bitcoin का पूरा प्रतिलिपि Blockchain
+  - Bitcoin की सार्वजनिक प्रतिबद्धताओं की सूची
+  - State Transition प्रतिभागियों की सार्वजनिक कुंजियाँ
+explanation: |
+  Consignment में RGB की जानकारी शामिल होती है, जिससे प्राप्तकर्ता Contract के नियमों के अनुसार State Transition को सत्यापित कर सकता है।
+reviewed: false

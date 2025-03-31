@@ -1,18 +1,11 @@
 id: 37397d5c-5c27-44ad-a27a-c9ceac8c9df9
 
-builder: Blockstream
-
-tags:
-  - wallets
-  - software
-  - keys
 
 category: mobile
 
 level: intermediate
 
-credits:
-  professor: pretty-private
+professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
 
 # Proofreading metadata
 
@@ -22,90 +15,94 @@ proofreading:
   - language: fr
     last_contribution_date: 2024-11-26
     urgency: 1
-    contributors_id:
+    contributor_names:
       - LoicPandul
-    reward: 1.75
+    reward: 2.6
 
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 6.89
 
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3.5
+    contributor_names:
+    reward: 5.2
 
   - language: en
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3.5
+    contributor_names:
+    reward: 5.2
 
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 5.2
 
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 6.89
 
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 6.89
 
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 8.59
 
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 5.2
 
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 10.29
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 6.89
 
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 3.5
+    contributor_names:
+    reward: 5.2
 
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 6.89
 
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 10.29
 
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 8.59
+tags:
+  - wallets
+  - guides
+  - good-practice

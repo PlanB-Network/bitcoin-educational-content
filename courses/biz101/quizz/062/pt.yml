@@ -1,0 +1,9 @@
+question: Que solução alternativa ao Swiss Bitcoin Pay para aceitar pagamentos em Bitcoin para o perfil Essential é 100% custodial?
+answer: Nó aberto
+wrong_answers:
+  - Servidor BTCPay
+  - Bitcoinize PoS
+  - Carteira Phoenix
+explanation: |
+  O Open Node é caracterizado como uma solução totalmente custodial, diferente da natureza híbrida do Swiss Bitcoin Pay.
+reviewed: false

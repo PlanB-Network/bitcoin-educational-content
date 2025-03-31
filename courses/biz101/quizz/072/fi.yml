@@ -1,0 +1,9 @@
+question: Miten Enterprise-järjestelmät päivittävät varaston automaattisesti?
+answer: Työnkulun laukaisimien avulla
+wrong_answers:
+  - Manuaaliset päivitykset
+  - Päivän lopun lataukset
+  - Ajastetut raportit
+explanation: |
+  Työnkulun käynnistimet päivittävät järjestelmiä reaaliaikaisesti.
+reviewed: false

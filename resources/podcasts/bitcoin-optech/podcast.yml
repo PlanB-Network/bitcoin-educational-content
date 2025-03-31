@@ -1,3 +1,4 @@
+id: 2a24f06c-d72b-49d2-9d86-ffdc13b3ed1f
 name: Bitcoin Optech
 host: Bitcoin Optech
 language: en
@@ -7,8 +8,9 @@ links:
   website: https://bitcoinops.org/en/podcast/
 description: |
   We provide weekly newsletters, workshops, case studies, and research for the #Bitcoin community.
+contributor_names:
+  - Rogzy-DB
 tags:
-  - bitcoin
-  - technology
-contributors:
-  - rabbit-hole
+  - case-studies
+  - good-practice
+  - technical-analysis

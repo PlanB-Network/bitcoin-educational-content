@@ -1,0 +1,9 @@
+question: What does the Essential profile use to help employees process payments at the PoS?
+answer: The creation of a menu with item prices on the PoS app
+wrong_answers:
+  - A manual ledger book for recording sales
+  - A paper invoice system for each transaction
+  - An automatic accounting record system for transactions from the PoS
+explanation: |
+  The PoS app in the Essential profile enables employees to select items from a pre-set menu, streamlining the billing process.
+reviewed: false

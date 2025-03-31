@@ -1,0 +1,9 @@
+question: Quali caratteristiche definiscono una buona password?
+answer: Lunga, complessa e unica.
+wrong_answers:
+  - Corta, semplice e facile da ricordare.
+  - Basata su informazioni personali.
+  - Identica per tutti gli account.
+explanation: |
+  Una buona password deve essere sufficientemente lunga, complessa e non deve essere riutilizzata.
+reviewed: false

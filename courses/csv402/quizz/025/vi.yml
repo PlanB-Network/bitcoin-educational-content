@@ -1,0 +1,9 @@
+question: Bốn thành phần nào xác định hợp đồng RGB?
+answer: Genesis, Schema, Interface và Interface Implementation
+wrong_answers:
+  - Genesis, Schema, Transition và Interface Implementation
+  - Genesis, Giao diện, Chuyển đổi và Mở rộng
+  - Genesis, Giao diện, Triển khai và Mở rộng Giao diện
+explanation: |
+  Hợp đồng RGB bao gồm bốn thành phần riêng biệt; Genesis, Schema, Interface và Interface Implementation.
+reviewed: false

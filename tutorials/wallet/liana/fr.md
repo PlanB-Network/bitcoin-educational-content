@@ -26,7 +26,7 @@ Le schéma ci-dessous illustre le fonctionnement d'un portefeuille doté de deux
 
 Ce fonctionnement permet de mettre en place diverses configurations, dont notamment :
 
-- Un plan de succession (ou d'héritage), permettant aux héritiers de récupérer les fonds dans le cas du décès de l'utilisateur. Si vous voulez avoir plus d'informations sur le sujet, nous vous conseillons de lire la [partie 4](https://planb.network/courses/btc102/233c88d3-2e8e-5eba-ac06-efe67a209038) du cours BTC102.
+- Un plan de succession (ou d'héritage), permettant aux héritiers de récupérer les fonds dans le cas du décès de l'utilisateur. Si vous voulez avoir plus d'informations sur le sujet, nous vous conseillons de lire la [partie 4](https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) du cours BTC102.
 
 - Une sauvegarde renforcée avec un délai de récupération, donnant à l'utilisateur la possibilité de se servir de son portefeuille sans avoir à garder la phrase secrète correspondante et risquer de se la faire voler, lors d'un cambriolage par exemple.
 
@@ -66,7 +66,7 @@ Rendez-vous sur le site officiel de Wizardsardine et téléchargez Liana à l'ad
 
 Pour savoir comment vérifier manuellement l'authenticité et l'intégrité d'un logiciel avant son installation, nous vous recommandons de consulter ce tutoriel :
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Installez le logiciel sur votre machine et lancez-le. Choisissez l'option « *Create a new Liana wallet* » pour configurer votre portefeuille.
 
@@ -195,7 +195,7 @@ Vous pouvez vérifier l'état du délai d'expiration des fonds en allant dans l'
 
 Pour saisir un peu mieux ce qu'est le modèle de représentation par UTXO utilisé dans Bitcoin, vous pouvez consulter la première partie du cours sur la confidentialité dans Bitcoin rédigé par Loïc Morel :
 
-https://planb.network/courses/btc204
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ## Dépense courante
 
@@ -353,4 +353,5 @@ Les scripts créés par ce portefeuille auront ainsi la forme suivante :
 
 Puisque la sécurité de votre portefeuille Bitcoin dépend aussi de votre compréhension de son fonctionnement, je vous suggère d'étudier en profondeur les mécanismes des portefeuilles déterministes et hiérarchiques en suivant cette formation gratuite sur Plan ₿ Network :
 
-https://planb.network/courses/cyp201
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+

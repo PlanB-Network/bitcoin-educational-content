@@ -1,0 +1,9 @@
+question: 哪种类型的企业最有可能使用简单的 csv 文件进行会计核算？
+answer: 小型企业
+wrong_answers:
+  - 大型跨国公司
+  - 主要金融机构
+  - 高频交易平台
+explanation: |
+  大多数小型企业都受益于 csv 导出的简单性和足够的详细性。
+reviewed: false

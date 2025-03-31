@@ -11,7 +11,7 @@ description: Guide complet pour utiliser Peach et échanger des bitcoins en P2P
 
 Les échanges de pair-à-pair (P2P) sans KYC sont essentiels pour préserver la confidentialité et l'autonomie financière des utilisateurs. Ils permettent des transactions directes entre individus sans nécessiter de vérification d'identité, ce qui est crucial pour ceux qui valorisent la vie privée. Pour une compréhension plus approfondie des concepts théoriques, consultez le cours BTC204 :
 
-https://planb.network/courses/btc204
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### 1. Qu'est-ce que Peach ?
 
@@ -34,7 +34,7 @@ Pour rappel un hash est une donnée rendue méconnaissable, similaire à un chif
 
 *Pour plus d'explication sur le hachage, vous pouvez suivre sur ce cours :*
 
-https://planb.network/courses/cyp201
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 **Qui peut voir mes détails de paiement ?**
 

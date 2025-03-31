@@ -1,3 +1,4 @@
+id: ec80adca-f123-47c2-8ae6-47efc33030e6
 name: What is Money
 host: Robert Breedlove
 language: en
@@ -7,8 +8,9 @@ links:
   twitter: https://twitter.com/Breedlove22
 description: |
   "What is Money?" is the rabbit that leads us down the proverbial rabbit hole. It is the most important question for finding truth in the world. In this podcast, we will pursue this "rabbit" by engaging in a diversity of deep conversations with deep thinkers from different walks of life.
+contributor_names:
+  - Rogzy-DB
 tags:
-  - bitcoin
-  - economy
-contributors:
-  - rabbit-hole
+  - finance
+  - historical
+  - deep-dive

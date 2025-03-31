@@ -27,7 +27,7 @@ O diagrama abaixo ilustra o funcionamento de uma carteira com duas trajectórias
 Esta operação permite-lhe definir várias configurações, incluindo :
 
 
-- Um plano de sucessão (ou herança), que permite aos herdeiros recuperar os fundos em caso de morte do utilizador. Para mais informações sobre este assunto, recomendamos a leitura da [parte 4](https://planb.network/courses/btc102/233c88d3-2e8e-5eba-ac06-efe67a209038) do curso BTC102.
+- Um plano de sucessão (ou herança), que permite aos herdeiros recuperar os fundos em caso de morte do utilizador. Para mais informações sobre este assunto, recomendamos a leitura da [parte 4](https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) do curso BTC102.
 - Uma cópia de segurança reforçada com um tempo de recuperação, dando ao utilizador a possibilidade de utilizar a sua carteira sem ter de guardar a frase secreta correspondente e correr o risco de a ver roubada, por exemplo, durante um assalto.
 - Uma rede de segurança para as pessoas que se iniciam na utilização da Bitcoin: gerem a sua própria carteira e o seu "tutor" (um familiar, por exemplo) reserva-se o direito de recuperar os seus fundos após um determinado período.
 - Um sistema de assinatura multipartidário (*multisig*) com requisitos reduzidos ao longo do tempo, para fazer face ao desaparecimento de um ou mais participantes, como os sócios de uma empresa.
@@ -63,7 +63,8 @@ Visite o sítio Web oficial da Wizardsardine e transfira o Liana em https://wiza
 
 Para saber como verificar manualmente a autenticidade e a integridade do software antes da instalação, recomendamos que consulte este tutorial :
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 Instale o software na sua máquina e inicie-o. Escolha a opção "*Criar uma nova carteira Liana*" para configurar a sua carteira.
 
 ![Accueil Liana](assets/fr/03.webp)
@@ -192,7 +193,8 @@ Pode verificar o estado de expiração dos seus fundos acedendo ao separador "*M
 
 Para compreender melhor o modelo de representação UTXO utilizado na Bitcoin, pode consultar a primeira parte do curso sobre confidencialidade na Bitcoin escrito por Loïc Morel :
 
-https://planb.network/courses/btc204
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+
 ## Despesas correntes
 
 As despesas correntes são a situação normal para usar o Liana. O envio de bitcoins com a chave mestra funciona como em todas as carteiras Bitcoin clássicas como Electrum ou Sparrow.
@@ -303,18 +305,6 @@ A transação deve aparecer no ecrã principal. Uma vez confirmada, a recuperaç
 
 ![Écran principal après récupération](assets/fr/45.webp)
 
-## Vídeos
-
-Se quiser saber mais sobre o Liana, há alguns conteúdos de vídeo que lhe darão uma ideia mais clara do seu funcionamento. Aqui está um vídeo de apresentação do Liana com Kévin Loaec e Antoine Poinsot :
-
-![Vidéo de présentation avec Kévin Loaec et Antoine Poinsot](https://youtu.be/siuLmQo1lM8)
-
-E aqui está um tutorial sobre como utilizar o Liana, com Antoine Poinsot :
-
-![Vidéo-tutoriel avec Antoine Poinsot](https://youtu.be/JrG4WMVPZDQ)
-
-As manipulações apresentadas neste último são semelhantes às apresentadas neste tutorial.
-
 ## Bónus: análise de descritores
 
 O descritor é uma cadeia de caracteres legível por humanos que descreve exaustivamente um conjunto de endereços. Combina uma série de informações essenciais para recuperar as partes (UTXO) de uma carteira avançada. A forma como o descritor é escrito baseia-se na [Miniscript syntax] (https://bitbox.swiss/blog/understanding-bitcoin-miniscript-part-2/), a linguagem de scripting desenvolvida por Andrew Poelstra, Pieter Wuille e Sanket Kanjalkar em 2019.
@@ -350,4 +340,4 @@ Os guiões criados por este portefólio terão a seguinte forma:
 
 Uma vez que a segurança da sua carteira Bitcoin também depende da sua compreensão de como ela funciona, sugiro que estude os mecanismos das carteiras determinísticas e hierárquicas em profundidade, fazendo este curso de formação gratuito sobre Plan ₿ Network :
 
-https://planb.network/courses/cyp201
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

@@ -1,0 +1,9 @@
+question: What is the main goal of the specialized Bitcoin accounting tools?
+answer: To simplify the automatic collection and processing of Bitcoin-related data
+wrong_answers:
+  - To enhance the security of Bitcoin private keys
+  - To facilitate direct trading of Bitcoin on decentralized exchanges for businesses
+  - To set up a PoS system for accepting Bitcoin payments
+explanation: |
+  These tools are designed to automate data collection, format conversion, tax calculation, and transaction categorization.
+reviewed: false

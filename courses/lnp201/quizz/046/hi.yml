@@ -1,0 +1,9 @@
+question: Lightning Invoice में, "lnbc" का मतलब है "Lightning Network Bitcoin". यह एक प्रीफिक्स है जो यह दर्शाता है कि यह एक बिटकॉइन से संबंधित लेन-देन है जो लाइटनिंग नेटवर्क पर हो रहा है।
+answer: यह Bitcoin से Blockchain पर एक लाइटनिंग लेन-देन को दर्शाता है।
+wrong_answers:
+  - Invoice केवल Bitcoin और Testnet पर ही मान्य है।
+  - Invoice को bech32 में एन्कोड किया गया है।
+  - यह एक On-Chain लेन-देन है।
+explanation: |
+  उपसर्ग lnbc यह दर्शाता है कि Invoice का उपयोग Bitcoin नेटवर्क पर एक लाइटनिंग लेन-देन के लिए किया जा रहा है, न कि किसी अन्य नेटवर्क पर।
+reviewed: false

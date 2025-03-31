@@ -1,0 +1,9 @@
+question: Per quale tipo di azienda è più probabile che un semplice file csv sia sufficiente per la contabilità?
+answer: Piccole imprese
+wrong_answers:
+  - Grandi multinazionali
+  - Principali istituzioni finanziarie
+  - Piattaforme di trading ad alta frequenza
+explanation: |
+  La maggior parte delle piccole imprese trae vantaggio dalla semplicità e dai dettagli sufficienti forniti da un'esportazione in csv.
+reviewed: false

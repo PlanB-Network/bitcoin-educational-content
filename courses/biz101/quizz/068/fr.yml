@@ -1,0 +1,9 @@
+question: Comment BTC Pay Server peut-il être déployé dans un environnement professionnel ?
+answer: Sur site ou via un hébergement en nuage
+wrong_answers:
+  - Exclusivement sur des appliances matérielles dédiées
+  - Par le biais d'un service tiers entièrement externalisé
+  - En tant qu'application mobile
+explanation: |
+  La flexibilité du déploiement de BTC Pay Server sur site ou dans le nuage permet aux entreprises de choisir la configuration qui correspond le mieux à leurs besoins opérationnels.
+reviewed: false

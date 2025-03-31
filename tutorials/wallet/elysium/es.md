@@ -2,57 +2,33 @@
 name: Cartera Elysium
 description: Configuración y uso de Elysium Wallet
 ---
-![cover-elysium](assets/cover.webp)
+![image](assets/cover.webp)
 
 Elysium Wallet es el primer monedero de software no custodial de la startup suiza Elysium Labs.
 
-Gracias al innovador sistema de gestión de claves, puedes acceder a tus activos digitales utilizando elementos que forman parte de la vida cotidiana: tu nombre de usuario, clave de acceso, contraseña o código de acceso.
-
-Así es: ya no es estrictamente necesario utilizar una Frase Semilla para recuperar el acceso a sus activos digitales.
-
-Esta simplificación podría acelerar la difusión de Bitcoin en todo el mundo.
+Gracias al innovador sistema de gestión de claves, puede acceder a sus activos digitales utilizando elementos que forman parte de la vida cotidiana: su nombre de usuario, clave de acceso, contraseña o código de acceso. Así es: ya no es estrictamente necesario utilizar una Frase Semilla para volver a acceder a sus activos digitales. Esta simplificación podría acelerar la difusión de Bitcoin en todo el mundo.
 
 ## ¿Cómo abrir una cuenta?
 
-Descarga la aplicación Elysium Wallet en Apple Store o Google Play.
+Descargue la aplicación Elysium Wallet desde Apple Store o Google Play, a continuación, abra la aplicación Elysium Wallet que ha descargado en su dispositivo. Pulse en "Crear un nuevo monedero", en ese momento, aparecerá la pantalla de términos y condiciones de uso. Para aceptar y proceder a la creación de su cuenta, pulse en "Comenzar configuración", a continuación introduzca su nombre de usuario; tenga en cuenta que la foto de perfil es personalizable: elija una de las opciones proporcionadas, haciendo una foto o subiendo una imagen desde su dispositivo. Cuando haya elegido, pulse "Continuar".
 
-Abre la aplicación Elysium Wallet que descargaste en tu dispositivo.
+![image](assets/en/02.webp)
 
-Pulse sobre "Crear un nuevo monedero".
+Elysium destaca por su innovador algoritmo multifactor, que combina Passkey, PassCode y PassWord. Las PassKeys son obligatorias. Te permiten autenticarte de forma rápida y segura utilizando las funciones de seguridad integradas en tu dispositivo, como Face ID o el escaneo de huellas dactilares. Son tu principal capa de protección, ya que garantizan un acceso rápido y seguro.
 
-Aparecerá una pantalla con las condiciones de uso.
+![image](assets/en/03.webp)
 
-Para aceptar y proceder a la creación de su cuenta, pulse "Iniciar configuración".
+Elija su segundo nivel: PassCode o PassWord; a continuación, deberá elegir un segundo nivel de seguridad:
 
-Introduce tu nombre de usuario.
-
-La imagen de perfil es personalizable: elige una de las opciones que se ofrecen, haciendo una foto o subiendo una imagen desde tu dispositivo.
-
-Cuando haya elegido, pulse "Continuar".
-
-![Open](assets/open.webp)
-
-Elysium destaca por su innovador algoritmo multifactor, que combina Passkey, PassCode y PassWord.
-
-Las PassKeys son obligatorias.
-
-Te permiten autenticarte de forma rápida y segura utilizando las funciones de seguridad integradas en tu dispositivo, como Face ID o el escaneo de huellas dactilares.
-
-Son su principal capa de protección, ya que garantizan un acceso rápido y seguro.
-
-![Passkey](assets/passkey.webp)
-
-Elija su segundo nivel: PassCode o PassWord
-
-A continuación, deberá elegir un segundo nivel de seguridad:
 
 - PassCode: código de 6 dígitos fácil de recordar. Perfecto para añadir una capa adicional de protección.
 - Contraseña: Crea una contraseña segura de al menos 8 caracteres, lo que añade aún más seguridad.
+
 Debe utilizar Passkeys junto con un PassCode o PassWord.
 
-![secondfactor](assets/secondfactor.webp)
+![image](assets/en/04.webp)
 
-Nota: Para configurar su cuenta, necesita al menos 2 factores, uno de los cuales debe ser la Passkey.
+**Nota:** Para configurar su cuenta, necesita al menos 2 factores, uno de los cuales debe ser la Passkey.
 
 Para aumentar aún más la seguridad, puede añadir una tercera capa de protección (Passkey + PassCode + PassWord).
 
@@ -64,7 +40,7 @@ Si ha elegido PassCode como segundo factor, puede añadir PassWord como tercera 
 
 Puedes añadir el tercer factor de seguridad durante la fase de configuración (ver imágenes) o más tarde yendo a Configuración > Mejorar la seguridad.
 
-![thirdfactor](assets/thirdfactor.webp)
+![image](assets/en/05.webp)
 
 No obstante, si olvida alguno de los factores, téngalo en cuenta:
 
@@ -76,73 +52,67 @@ Recomendamos encarecidamente configurar los tres factores desde el principio par
 
 ## ¿Cómo recibir una transacción?
 
-Paso 1: Abre la aplicación Elysium y ve al menú principal. Pulsa "Recibir".
+Abre la aplicación Elysium, ve al menú principal y toca "Recibir".
 
-![receive1](assets/receive1.webp)
+![image](assets/en/06.webp)
 
 Ahora, selecciona la cadena en la que quieres recibir el pago (Bitcoin o Polygon) y simplemente comparte el código QR de tu monedero Elysium con la persona que necesita pagarte, ellos se encargarán del resto.
 
 ## ¿Cómo recibir una transacción en Lightning Network?
 
-PASO 1: Al pulsar "Solicitar pago" usted solicita un pago en Bitcoin a través de Lightning Network.
+**Paso 1:** Al pulsar "Solicitar pago" usted solicita un pago Bitcoin a través de Lightning Network.
 
-![requestpayment1](assets/requestpayment1.webp)
+![image](assets/en/07.webp)
 
-Paso 2: Introduzca el importe que desea solicitar, seleccione la moneda que desea recibir y añada una descripción si es necesario.
+**Paso 2:** Introduzca el importe que desea solicitar, seleccione la moneda que desea recibir y añada una descripción si es necesario.
 
-![requestpayment2](assets/requestpayment2.webp)
+![image](assets/en/08.webp)
 
-Nota: Hay una pequeña comisión por el primer pago Lightning Network (LN) para abrir el canal LN. Después, todos los pagos posteriores son gratuitos.
+**Nota:** Hay una pequeña comisión por el primer pago Lightning Network (LN) para abrir el canal LN. Después de eso, todos los pagos posteriores son gratuitos.
 
 ## ¿Cómo enviar una transacción?
 
-PASO 1: Vaya al menú principal y pulse "Enviar".
+**Paso 1:** Vaya al menú principal y pulse "Enviar".
 
-![send1](assets/send1.webp)
+![image](assets/en/09.webp)
 
-PASO 2: Escanea el código QR del destinatario desde su Elysium Wallet para guardar automáticamente su contacto en tu agenda.
+**Paso 2:** Escanea el código QR del destinatario desde su Elysium Wallet para guardar automáticamente su contacto en tu libreta de direcciones. Alternativamente, copia manualmente su dirección y pégala en el campo del destinatario. Tras seleccionar el destinatario o añadirlo a tu libreta de direcciones, pulsa "Enviar pago".
 
-También puede copiar manualmente su dirección y pegarla en el campo del destinatario.
-
-Tras seleccionar el destinatario o añadirlo a su agenda, pulse "Enviar pago".
-
-![payment1](assets/payment1.webp)
+![image](assets/en/10.webp)
 
 ¿Ya tienes el contacto? Elígelo directamente de la agenda.
 
-![addressbook1](assets/addressbook1.webp)
+![image](assets/en/11.webp)
 
-PASO 3: Introduzca el importe que desea enviar y seleccione el activo que desea transferir.
+**Paso 3:** Introduzca el importe que desea enviar y seleccione el activo que desea transferir.
 
 Para las transacciones de BTC, puede seleccionar la velocidad de red y las tarifas que prefiera (como se muestra en la tercera imagen)
 
-![payment2](assets/payment2.webp)
+![image](assets/en/12.webp)
 
 ¡Su transacción ha sido enviada! Puedes comprobar fácilmente el saldo actualizado de tu Elysium Wallet y el estado de la transacción.
 
-## ¿Cómo enviar una transacción en Lightning Network (LN)?
+## ¿Cómo enviar una transacción en Lightning Network?
 
-PASO 1: Pulse "Escanear" para abrir el escáner.
+![image](assets/en/13.webp)
 
-PASO 2: Escanee el código QR de LN para pagar.
+**Paso 1:** Pulse "Escanear" para abrir el escáner.
 
-PASO3: Revise los detalles del pago y confirme que todo es correcto.
+**Paso 2:** Escanee el código QR de LN para pagar.
 
-PASO 4: Pulse "Confirmar" para completar la transacción.
+**Paso 3:** Revise los detalles del pago y confirme que todo es correcto.
 
-![paymentLN1](assets/paymentLN1.webp)
+**Paso 4:** Pulse "Confirmar" para completar la transacción.
 
 ## ¿Cómo ver la frase semilla?
 
 Ve al menú principal y toca "Hub". Selecciona Ajustes y toca "Extraer clave privada".
 
-![extract1](assets/extract1.webp)
+![image](assets/en/14.webp)
 
-Conéctese con su clave de acceso e introduzca su contraseña y/o código de acceso.
+Conéctese con su clave de acceso e introduzca su contraseña y/o código de acceso. La frase semilla se mostrará en formato de 24 palabras.
 
-La frase semilla se mostrará en formato de 24 palabras.
-
-![seed1](assets/seed1.webp)
+![image](assets/en/15.webp)
 
 ¡No lo compartas con nadie!
 
@@ -150,9 +120,7 @@ La frase semilla se mostrará en formato de 24 palabras.
 
 ¿Necesitas ayuda con Elysium Wallet? Estamos aquí para ayudarte
 
-Descarga la aplicación.
-
-Así es como puede ponerse en contacto con nuestro equipo de atención al cliente directamente desde la aplicación:
+Descárguese la aplicación y, a continuación, le indicamos cómo puede ponerse en contacto con nuestro equipo de atención al cliente directamente desde la aplicación:
 
 1. Ir a Hub
 
@@ -160,7 +128,7 @@ Así es como puede ponerse en contacto con nuestro equipo de atención al client
 
 3. Seleccione Ayuda
 
-![help1](assets/help1.webp)
+![image](assets/en/16.webp)
 
 Aparecerá un formulario en el que podrá describir el problema que está experimentando.
 
@@ -168,4 +136,4 @@ Una vez enviado, nuestro equipo le responderá lo antes posible con una solució
 
 Para informar de un error o hacernos llegar sus comentarios, haga clic en el widget de la página de inicio:
 
-![ayuda2](assets/help2.webp)
+![image](assets/en/17.webp)

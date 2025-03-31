@@ -1,0 +1,9 @@
+question: Jaká je hlavní funkce tradičních platebních systémů?
+answer: Umožnit převod finančních prostředků mezi dvěma stranami
+wrong_answers:
+  - Vytvořit jednotnou globální měnu regulovanou centrálním orgánem
+  - Usnadnění mezinárodního obchodu
+  - Omezení převodů finančních prostředků pouze na osobní výměnu hotovosti
+explanation: |
+  Tradiční platební systémy poskytují mechanismy a infrastrukturu pro převod finančních prostředků mezi plátci a příjemci v místním i mezinárodním kontextu.
+reviewed: false

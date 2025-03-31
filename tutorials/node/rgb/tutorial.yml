@@ -1,16 +1,9 @@
 id: cf4bd4df-d8ae-4a88-aaab-0335785c46f1
-builder: LNP BP
 
-credits:
-  professor: valley-egg
-  link: https://grunch.dev/blog/
+professor_id: 32334703-651c-4f2c-b835-71a3e19e2f01
+credit_link: https://grunch.dev/blog/
 
-tags:
-  - node
-  - privacy
-  - infrastructure
-
-category: rgb
+category: others
 
 level: advanced
 
@@ -21,78 +14,82 @@ proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 12.15
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 6.13
+    contributor_names:
+    reward: 9.14
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
-    reward: 3.06
+    reward: 4.57
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 9.14
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 12.15
   - language: fr
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 6.13
+    contributor_names:
+    reward: 9.14
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 9.14
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 18.18
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 6.13
+    contributor_names:
+    reward: 9.14
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 12.15
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 18.18
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 12.15
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 15.17
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 15.17
 
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 12.15
+tags:
+  - protocols
+  - smart-contracts
+  - sidechains

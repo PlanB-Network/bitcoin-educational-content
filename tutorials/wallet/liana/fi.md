@@ -27,7 +27,7 @@ Alla oleva kaavio havainnollistaa sellaisen salkun toimintaa, jossa on kaksi men
 Tämän toiminnon avulla voit määrittää erilaisia kokoonpanoja, kuten :
 
 
-- Perintösuunnitelma, jonka avulla perilliset voivat periä varat takaisin käyttäjän kuollessa. Jos haluat lisätietoja tästä aiheesta, suosittelemme BTC102-kurssin [osa 4](https://planb.network/courses/btc102/233c88d3-2e8e-5eba-ac06-efe67a209038) lukemista.
+- Perintösuunnitelma, jonka avulla perilliset voivat periä varat takaisin käyttäjän kuollessa. Jos haluat lisätietoja tästä aiheesta, suosittelemme BTC102-kurssin [osa 4](https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) lukemista.
 - Vahvistettu varmuuskopio, jossa on palautumisaika, jolloin käyttäjä voi käyttää lompakkoaan ilman, että hänen tarvitsee säilyttää vastaavaa salaista lausetta ja ottaa riskin, että se varastetaan esimerkiksi murtovarkauden aikana.
 - Turvaverkko ihmisille, jotka aloittavat Bitcoinin käytön: he hallinnoivat omaa lompakkoaan, ja heidän "holhoojansa" (esimerkiksi sukulainen) pidättää itselleen oikeuden periä heidän varansa takaisin tietyn ajan kuluttua.
 - Monen osapuolen allekirjoitusjärjestelmä (*multisig*), jonka vaatimuksia vähennetään ajan myötä, jotta voidaan selviytyä yhden tai useamman osallistujan, esimerkiksi yrityksen yhteistyökumppanien, katoamisesta.
@@ -63,7 +63,8 @@ Käy virallisella Wizardsardine-sivustolla ja lataa Liana osoitteessa https://wi
 
 Jos haluat tietää, miten ohjelmiston aitous ja eheys voidaan tarkistaa manuaalisesti ennen asennusta, suosittelemme tutustumaan tähän ohjeeseen :
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 Asenna ohjelmisto koneellesi ja käynnistä se. Valitse "*Luo uusi Liana-lompakko*" -vaihtoehto määrittääksesi lompakkosi.
 
 ![Accueil Liana](assets/fr/03.webp)
@@ -192,7 +193,8 @@ Voit tarkistaa varojesi vanhentumistilan siirtymällä "*Coins*"-välilehdelle. 
 
 Jos haluat ymmärtää paremmin Bitcoinissa käytettyä UTXO-edustusmallia, voit tutustua Loïc Morelin kirjoittaman Bitcoinin luottamuksellisuutta käsittelevän kurssin ensimmäiseen osaan:
 
-https://planb.network/courses/btc204
+https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+
 ## Juoksevat menot
 
 Nykyiset menot ovat normaali tilanne Lianan käytössä. Bitcoinien lähettäminen pääavaimella toimii kuten kaikissa klassisissa Bitcoin-lompakoissa, kuten Electrumissa tai Sparrowissa.
@@ -303,18 +305,6 @@ Tapahtuman pitäisi näkyä päänäytöllä. Kun se on vahvistettu, palautus on
 
 ![Écran principal après récupération](assets/fr/45.webp)
 
-## Videot
-
-Jos haluat tietää enemmän Lanasta, voit tutustua videosisältöön, jonka avulla saat selkeämmän käsityksen sen toiminnasta. Tässä on videoesittely Lianasta, jossa ovat mukana Kévin Loaec ja Antoine Poinsot :
-
-![Vidéo de présentation avec Kévin Loaec et Antoine Poinsot](https://youtu.be/siuLmQo1lM8)
-
-Ja tässä on Antoine Poinsot'n opetusohjelma Lianan käytöstä:
-
-![Vidéo-tutoriel avec Antoine Poinsot](https://youtu.be/JrG4WMVPZDQ)
-
-Jälkimmäisessä esitetyt manipulaatiot ovat samanlaisia kuin tässä opetusohjelmassa esitetyt.
-
 ## Bonus: kuvaaja-analyysi
 
 Kuvaaja on ihmisen luettavissa oleva merkkijono, joka kuvaa tyhjentävästi joukon osoitteita. Siinä yhdistyvät useat olennaiset tiedot, joita tarvitaan kehittyneen salkun osien (UTXO) hakemiseen. Kuvaajan kirjoitustapa perustuu Andrew Poelstran, Pieter Wuillen ja Sanket Kanjalkarin vuonna 2019 kehittämään skriptikieleen [Miniscript syntax] (https://bitbox.swiss/blog/understanding-bitcoin-miniscript-part-2/).
@@ -350,4 +340,4 @@ Tämän salkun luomat skriptit ovat seuraavanlaisia:
 
 Koska Bitcoin-lompakkosi turvallisuus riippuu myös siitä, ymmärrätkö, miten se toimii, suosittelen, että opiskelet determinististen ja hierarkkisten lompakoiden mekanismeja syvällisesti osallistumalla tälle ilmaiselle koulutuskurssille Plan ₿ Network :
 
-https://planb.network/courses/cyp201
+https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

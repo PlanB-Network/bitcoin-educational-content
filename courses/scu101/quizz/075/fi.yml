@@ -1,0 +1,9 @@
+question: Mitkä ominaisuudet määrittelevät hyvän salasanan?
+answer: Pitkä, monimutkainen ja ainutlaatuinen.
+wrong_answers:
+  - Lyhyt, yksinkertainen ja helppo muistaa.
+  - Perustuu henkilökohtaisiin tietoihin.
+  - Sama kaikille tileille.
+explanation: |
+  Hyvän salasanan tulee olla riittävän pitkä, monimutkainen eikä sitä tulisi käyttää uudelleen.
+reviewed: false

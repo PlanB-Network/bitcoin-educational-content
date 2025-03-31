@@ -1,0 +1,9 @@
+question: Mikä vaihtoehtoinen ratkaisu mainitaan yrityksille, jotka haluavat kaiken kattavan verkkokauppaympäristön?
+answer: Be-BOP
+wrong_answers:
+  - Phoenix
+  - Avoin solmu
+  - Sveitsin Bitcoin Pay
+explanation: |
+  Be-BOP on vaihtoehto niille, jotka haluavat integroidun verkkokaupan, joka helpottaa Bitcoin-maksuja.
+reviewed: false

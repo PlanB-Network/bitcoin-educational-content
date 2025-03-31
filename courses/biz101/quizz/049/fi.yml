@@ -1,0 +1,9 @@
+question: Mikä on paperirahan tärkein etu perinteisissä maksujärjestelmissä käytettäviin kolikoihin verrattuna?
+answer: Lisääntynyt siirrettävyys ja tehokkuus
+wrong_answers:
+  - Jalometallien avulla parannettu itseisarvo
+  - Jokaisen tapahtuman automaattinen todentaminen
+  - Väärennösriskien täydellinen poistaminen
+explanation: |
+  Koska paperiraha oli kevyttä ja helpompaa kuljettaa kuin kolikot, se mahdollisti tehokkaamman pitkän matkan kaupan ja vähensi logistisia haasteita.
+reviewed: false

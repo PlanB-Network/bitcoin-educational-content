@@ -6,9 +6,8 @@ links:
   trailer: https://youtu.be/t3fqo9B0-sA
 description: |
   Este canal es: BITCOIN, NO CRIPTO. ⚡ btcandres@zeuspay.com no es mi email. Es para recibir sats por Lightning Network.
+contributor_names:
+  - PaoloFoti
 tags:
-  - keys
-  - risks
-  - easy-explain
-contributors:
-  - hunt-wood
+  - lightning
+  - user-friendly

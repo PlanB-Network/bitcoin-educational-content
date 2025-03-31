@@ -1,0 +1,9 @@
+question: Hvilken viktig fordel har papirpenger fremfor mynter i tradisjonelle betalingssystemer?
+answer: Økt portabilitet og effektivitet
+wrong_answers:
+  - Økt egenverdi gjennom edle metaller
+  - Automatisk verifisering av hver transaksjon
+  - Fullstendig eliminering av risikoen for forfalskninger
+explanation: |
+  Papirpenger, som var lettere og enklere å transportere enn mynter, muliggjorde mer effektiv langdistansehandel og reduserte de logistiske utfordringene.
+reviewed: false

@@ -7,22 +7,16 @@ description: Découvrez et installez Umbrel - Votre noeud bitcoin et votre serve
 
 ## Introduction
 
-Umbrel est un système d'exploitation open source qui transforme votre ordinateur en un serveur domestique personnel et privé. Il vous permet d'héberger facilement vos propres services et applications, tout en gardant le contrôle total de vos données.
+### Qu'est-ce qu'un nœud Bitcoin ?
 
-### Une plateforme complète
+Un nœud Bitcoin est un ordinateur qui participe au réseau Bitcoin en exécutant le logiciel Bitcoin Core. Son rôle est essentiel pour le fonctionnement et la sécurité du réseau :
 
-Avec son interface utilisateur élégante et intuitive, Umbrel rend accessible à tous l'auto-hébergement de services comme :
+- **Stockage de la blockchain** : Il maintient une copie complète et à jour de la blockchain Bitcoin
+- **Vérification des transactions** : Il valide chaque transaction et bloc selon les règles du protocole
+- **Diffusion des informations** : Il partage les nouvelles transactions et blocs avec les autres nœuds
+- **Participation au consensus** : Il contribue à l'application des règles du réseau
 
-- Stockage de fichiers dans le cloud
-- Streaming multimédia
-- VPN personnel
-- Gestionnaire de mots de passe
-- Un nœud Bitcoin complet
-- Et bien d'autres applications
-
-### Pourquoi exécuter un nœud Bitcoin ?
-
-L'une des applications les plus populaires d'Umbrel est son nœud Bitcoin. Exécuter votre propre nœud Bitcoin est une étape cruciale vers la souveraineté financière, offrant plusieurs avantages essentiels :
+Exécuter votre propre nœud Bitcoin est une étape cruciale vers la souveraineté financière, offrant plusieurs avantages essentiels :
 
 - **Confidentialité** : Diffusez vos transactions sans révéler vos informations à des tiers
 - **Résistance à la censure** : Personne ne peut vous empêcher d'utiliser Bitcoin
@@ -30,31 +24,76 @@ L'une des applications les plus populaires d'Umbrel est son nœud Bitcoin. Exéc
 - **Participation au consensus** : Contribuez à l'application des règles du réseau Bitcoin
 - **Soutien au réseau** : Devenez un participant actif dans la distribution et la décentralisation du réseau
 
+### Umbrel : Une solution simple pour exécuter un nœud Bitcoin
+
+Umbrel est un système d'exploitation open source qui simplifie l'installation et la gestion d'un nœud Bitcoin. Il transforme également votre ordinateur en un serveur domestique personnel et privé, permettant d'héberger facilement :
+
+- Un nœud Bitcoin complet
+- Des applications Bitcoin essentielles (Electrs, Mempool.space)
+- D'autres services personnels (stockage cloud, streaming, VPN, etc.)
+
+Avec son interface utilisateur élégante et intuitive, Umbrel rend accessible à tous l'auto-hébergement de services, tout en gardant le contrôle total de vos données.
+
 ## Options d'installation d'Umbrel
 
-### Solution clé en main : Umbrel Home
+Umbrel propose deux façons principales d'utiliser leur solution : une option clé en main (Umbrel Home) et une version open source gratuite (UmbrelOS).
 
-UmbrelOS est conçu initialement pour Umbrel Home, qui offre :
+![Comparaison Umbrel Home et UmbrelOS](assets/fr/22.webp)
+
+### Umbrel Home : La solution clé en main
+
+Umbrel Home est un serveur domestique pré-configuré, spécialement conçu pour une expérience optimale. Cette solution matérielle tout-en-un comprend :
+
+**Caractéristiques matérielles**
+- Processeur performant optimisé pour le self-hosting
+- Stockage SSD haute vitesse pré-installé
+- Système de refroidissement silencieux
+- Design compact et élégant
+- Ports USB et Ethernet intégrés
+
+**Avantages exclusifs**
+- Installation plug-and-play : branchez et c'est parti
+- Support premium avec assistance dédiée
+- Mises à jour automatiques garanties
+- Assistant de migration intégré
+- Garantie matérielle complète
 - Support complet de toutes les fonctionnalités
-- Support du stockage externe
-- Assistant de migration
-- Support premium
-- Installation plug-and-play
 
-Pour plus d'informations sur Umbrel Home, visitez [le site officiel](https://umbrel.com/umbrel-home).
+**Prix** : 399€ (prix susceptible de varier selon les périodes)
 
-### Installation DIY (Do It Yourself)
+### UmbrelOS : La version open source
 
-Si vous préférez installer Umbrel sur votre propre matériel, plusieurs options s'offrent à vous :
+UmbrelOS est la version gratuite et open source du système d'exploitation Umbrel. Cette solution flexible vous permet d'utiliser votre propre matériel tout en bénéficiant des fonctionnalités essentielles d'Umbrel.
 
-- **Raspberry Pi 5** : Solution populaire et abordable, idéale pour débuter
-- **Système x86** : Pour une installation sur PC ou serveur standard
-- **Machine virtuelle** : Pour tester ou utiliser sur une infrastructure existante
+**Avantages**
+- Totalement gratuit
+- Code source ouvert et vérifiable
+- Liberté de choix du matériel
+- Possibilité de personnalisation avancée
 
-Liens d'installation pour chaque option :
-- [Guide d'installation Raspberry Pi 5](https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-a-Raspberry-Pi-5)
-- [Guide d'installation système x86](https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-x86-Systems) 
-- [Guide d'installation machine virtuelle](https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-a-Linux-VM)
+**Plateformes supportées**
+- Raspberry Pi 5 : Solution populaire et abordable
+- Systèmes x86 : Pour PC ou serveur standard
+- Machine virtuelle : Pour tester ou utiliser sur infrastructure existante
+
+**Limitations**
+- Support communautaire uniquement
+- Certaines fonctionnalités avancées réservées à Umbrel Home
+- Configuration initiale plus technique
+- Performances dépendantes du matériel choisi
+
+Cette version est idéale pour :
+- Les utilisateurs techniques
+- Ceux qui possèdent déjà du matériel compatible
+- Les personnes souhaitant apprendre et expérimenter
+- Les développeurs voulant contribuer au projet
+
+Liens d'installation officiels :
+- [Installation sur Raspberry Pi 5](https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-a-Raspberry-Pi-5)
+- [Installation sur système x86](https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-x86-Systems) 
+- [Installation sur machine virtuelle](https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-a-Linux-VM)
+
+Dans ce tutoriel, nous nous concentrerons sur l'installation d'UmbrelOS sur un Raspberry Pi 5, mais les principes de base restent similaires pour d'autres plateformes.
 
 ## Installation d'Umbrel OS sur Raspberry Pi 5
 
@@ -171,6 +210,69 @@ Une fois votre Umbrel démarré et accessible via votre navigateur, suivez ces �
 ![Installation Mempool](assets/fr/15.webp)
 - Interface de visualisation de la blockchain
 - Permet de suivre les transactions et les blocs en temps réel
+
+## Suivre une transaction avec Mempool.space
+
+Mempool.space est un explorateur de blockchain open source qui offre une visualisation en temps réel du réseau Bitcoin. Il vous permet de suivre vos transactions et de comprendre comment fonctionne la propagation des transactions sur le réseau.
+
+### Comprendre le mempool et les confirmations
+
+Le "mempool" (memory pool) est comme une salle d'attente virtuelle où toutes les transactions Bitcoin non confirmées sont stockées avant d'être incluses dans un bloc. Voici le parcours d'une transaction :
+
+1. **Diffusion** : Lorsque vous envoyez une transaction, elle est d'abord diffusée sur le réseau Bitcoin
+2. **Attente dans le mempool** : Elle attend d'être sélectionnée par un mineur en fonction de ses frais
+3. **Première confirmation** : Un mineur l'inclut dans un bloc (1ère confirmation)
+4. **Confirmations supplémentaires** : Chaque nouveau bloc miné après celui contenant votre transaction ajoute une confirmation
+
+Le nombre de confirmations recommandé dépend du montant :
+- Pour les petits montants : 1-2 confirmations peuvent suffire
+- Pour les montants importants : 6 confirmations sont généralement considérées comme très sûres
+- Pour les très gros montants : Certains attendent jusqu'à 30 confirmations
+
+### Explorer l'interface de Mempool.space
+
+1. **La page d'accueil** vous présente une vue d'ensemble du réseau Bitcoin :
+   - Les blocs récemment minés
+   - Les estimations de frais pour différentes priorités
+   - L'état actuel du mempool
+
+![Page d'accueil de Mempool.space avec visualisation des blocs et estimations de frais](assets/fr/23.webp)
+
+2. **Recherche d'une transaction** : Pour suivre une transaction spécifique, collez son identifiant (TXID) dans la barre de recherche en haut de la page.
+
+![Recherche d'une transaction dans Mempool.space](assets/fr/24.webp)
+
+### Analyser les détails d'une transaction
+
+Une fois votre transaction trouvée, Mempool.space vous présente une analyse complète :
+
+1. **Informations essentielles** :
+   - Statut (confirmée ou non)
+   - Frais payés (en sats/vB)
+   - Estimation du délai de confirmation
+
+![Détails des frais et statut de la transaction](assets/fr/25.webp)
+
+2. **Structure de la transaction** :
+   - Représentation visuelle des entrées et sorties
+   - Liste détaillée des adresses impliquées
+   - Montants transférés
+
+3. **Données techniques** :
+   - Poids de la transaction
+   - Taille virtuelle
+   - Format et version utilisés
+   - Autres métadonnées spécifiques
+
+![Informations techniques et structure des entrées/sorties](assets/fr/26.webp)
+
+### Avantages d'utiliser Mempool.space sur Umbrel
+
+1. **Confidentialité** : Vos requêtes passent par votre propre nœud
+2. **Indépendance** : Pas besoin de faire confiance à un service tiers
+3. **Fiabilité** : Accès aux données même en cas de panne des explorateurs publics
+
+Grâce à cette application, vous pouvez surveiller efficacement vos transactions, comprendre comment les frais affectent la vitesse de confirmation, et obtenir une meilleure compréhension du fonctionnement du réseau Bitcoin.
 
 ## Connexion d'un wallet Bitcoin à votre nœud
 

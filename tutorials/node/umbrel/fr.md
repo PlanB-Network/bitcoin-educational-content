@@ -34,7 +34,7 @@ L'une des applications les plus populaires d'Umbrel est son nœud Bitcoin. Exéc
 
 ### Solution clé en main : Umbrel Home
 
-UmbrelOS est conçu initialement pour l'Umbrel Home, qui offre :
+UmbrelOS est conçu initialement pour Umbrel Home, qui offre :
 - Support complet de toutes les fonctionnalités
 - Support du stockage externe
 - Assistant de Migration

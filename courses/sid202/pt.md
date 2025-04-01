@@ -1232,7 +1232,4 @@ O próximo passo é desafiar-se a si próprio com um questionário cumulativo qu
 ## Conclusão
 
 <chapterId>15f62056-c69c-467e-9565-af48d439a1f5</chapterId>
-
-Parabéns por ter concluído este curso!
-
-Estamos muito satisfeitos por ter alcançado com sucesso este marco na sua jornada de aprendizagem. Através da sua dedicação e empenho, adquiriu conhecimentos e competências valiosos que lhe serão úteis no seu desenvolvimento profissional.
+<isCourseConclusion>true</isCourseConclusion>

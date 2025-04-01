@@ -33,13 +33,13 @@ Sie müssen kein GitHub-Experte sein, um Inhalte zu überprüfen. Obwohl es imme
 
 Wenn Sie jedoch mit Git und GitHub nicht vertraut sind und mehr darüber erfahren möchten, können Sie sich unseren Einführungsartikel über diese Tools ansehen:
 
-https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 ## 1. Ein Konto erstellen
 
 
 - Erstellen Sie ein Konto auf [GitHub] (https://github.com/), um Beiträge zu leisten. Wenn Sie eine Anleitung zur Erstellung Ihres GitHub-Kontos benötigen, finden Sie hier eine ausführliche Anleitung:
 
-https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 - Sie benötigen außerdem ein Konto bei der Messaging-App [Telegram] (https://telegram.org/).
 

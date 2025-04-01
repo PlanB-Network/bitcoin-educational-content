@@ -102,7 +102,4 @@ Antonio presents Breeze, an open-source SDK designed for decentralized transacti
 ## Conclusion
 
 <chapterId>e30a5587-d74b-4360-87fb-bbf3de1b0ba8</chapterId>
-
-Congratulations on completing this course!
-
-We're thrilled that you've successfully reached this milestone in your learning journey. Through your dedication and engagement, you've gained valuable knowledge and skills that will serve you well in your professional development.
+<isCourseConclusion>true</isCourseConclusion>

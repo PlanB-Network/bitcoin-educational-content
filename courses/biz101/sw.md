@@ -230,14 +230,14 @@ Bitcoin inatupa changamoto ya kufikiria upya asili ya pesa yenyewe. Unaweza kuel
 **KITAMBULISHO CHA Bitcoin**
 
 
-- Umri:** Miaka 15 (Januari 3, 2009)
-- Thamani ya kila siku ya Exchange:** $10 bilioni (> CAC40)
-- Mtaji wa soko:** $1.8 trilioni (> Meta, Visa, Silver ; < Apple, Google, Gold)
-- Watumiaji:** ~100 hadi milioni 200 (1-2% ya idadi ya watu duniani)
-- Tete:** Kimsingi hakuna (1 Bitcoin = 1 Bitcoin), juu sana nje (katika ubadilishanaji wa sarafu ya fiat)
-- Utendaji:** Muamala wa kwanza kwa $0.0009; sasa $100,000 (x100 milioni)
-- Upatikanaji wa Mtandao (uptime):** 100% tangu 2013
-- Imetangazwa kuwa amekufa au kukosolewa:** Mara moja kwa mwezi
+- **Umri:** Miaka 15 (Januari 3, 2009)
+- **Thamani ya kila siku ya Exchange:** $10 bilioni (> CAC40)
+- **Mtaji wa soko:** $1.8 trilioni (> Meta, Visa, Silver ; < Apple, Google, Gold)
+- **Watumiaji:** ~100 hadi milioni 200 (1-2% ya idadi ya watu duniani)
+- **Tete:** Kimsingi hakuna (1 Bitcoin = 1 Bitcoin), juu sana nje (katika ubadilishanaji wa sarafu ya fiat)
+- **Utendaji:** Muamala wa kwanza kwa $0.0009; sasa $100,000 (x100 milioni)
+- **Upatikanaji wa Mtandao (uptime):** 100% tangu 2013
+- **Imetangazwa kuwa amekufa au kukosolewa:** Mara moja kwa mwezi
 
 **Ajabu ya Ushirikiano wa Kibinadamu:**
 
@@ -258,7 +258,7 @@ https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 <chapterId>c095c7ad-5469-4c7b-9510-b6c0b86244e7</chapterId>
 
-**LIGHTNING NETWORK CTNI NINI?**
+**LIGHTNING NETWORK NINI?**
 
 Lightning Network ni **itifaki na mtandao** unaowezesha miamala ya Bitcoin yenye mwingiliano mdogo na Blockchain kuu ya Bitcoin. Hivi ndivyo inavyofanya kazi:
 
@@ -288,42 +288,42 @@ lightning network huwezesha ubadilishaji wa thamani papo hapo kwa kasi ya mwanga
 - Ada za chini:** Gharama za chini zaidi ikilinganishwa na mitandao ya benki ya kawaida.
 - Urahisi wa kuasili:** Biashara zinaweza kuweka mipangilio haraka ili kukubali malipo ya umeme kwa kutumia programu mahiri tu au kitufe cha kulipa kwenye tovuti yao.
 
-Miundombinu ya Umeme hupita mifumo ya kawaida ya malipo katika suala la kasi, gharama na ufanisi wa nishati. Kwa kuongezeka kwa uasili wa mfanyabiashara, kasi itaongezeka: ikiwa malipo yanaweza kupita mtandao uliofungwa wa benki, kwa nini uendelee kutoa asilimia kubwa ya mapato kwa wapatanishi wa leo?
+Miundombinu ya Lightning hupita mifumo ya kawaida ya malipo katika suala la kasi, gharama na ufanisi wa nishati. Kwa kuongezeka kwa uasili wa mfanyabiashara, kasi itaongezeka: ikiwa malipo yanaweza kupita mtandao uliofungwa wa benki, kwa nini uendelee kutoa asilimia kubwa ya mapato kwa wapatanishi wa leo?
 
 **Kesi za Matumizi Isiyo na Kikomo:**
 
-Maombi ya umeme yanaenea zaidi ya ada na kasi ya chini. Kwa kutoa reli ya malipo ya bure na ya papo hapo, inafungua fursa nyingi katika uchumi wote.
+Maombi ya Lightning yanaenea zaidi ya ada na kasi ya chini. Kwa kutoa reli ya malipo ya bure na ya papo hapo, inafungua fursa nyingi katika uchumi wote.
 
 **Kukuza Uwezo wa Bitcoin wa Exchange:**
 
-Umeme huongeza jukumu la Bitcoin kama "kati ya Exchange." Kwa kuongeza mzunguko na uhuru wa shughuli, inaimarisha kazi ya msingi ya fedha: kuwezesha ubadilishanaji wa kiuchumi na uundaji wa thamani kwa washiriki wote.
+Lightning huongeza jukumu la Bitcoin kama "kati ya Exchange." Kwa kuongeza mzunguko na uhuru wa shughuli, inaimarisha kazi ya msingi ya fedha: kuwezesha ubadilishanaji wa kiuchumi na uundaji wa thamani kwa washiriki wote.
 
-Kuinuka kwa siku zijazo kwa "uchumi wa mashine mahiri" kutahitaji mfumo wa malipo wa haraka sana, wa masafa ya juu, kiwango cha kiufundi kinachoweza kufikiwa na Umeme pekee. Hii itawezesha uundaji wa bidhaa na huduma zaidi. Kadiri Supply ya Bitcoin inavyosalia kuwa ndogo, uwezo wa kununua wa kila kitengo utaongezeka. Bitcoin na Umeme huimarika pamoja huku mitandao yao ikipanuka.
+Kuinuka kwa siku zijazo kwa "uchumi wa mashine mahiri" kutahitaji mfumo wa malipo wa haraka sana, wa masafa ya juu, kiwango cha kiufundi kinachoweza kufikiwa na Lightning pekee. Hii itawezesha uundaji wa bidhaa na huduma zaidi. Kadiri usambazaji wa Bitcoin unavyosalia kuwa ndogo, uwezo wa kununua wa kila kitengo utaongezeka. Bitcoin na Lightning huimarika pamoja huku mitandao yao ikipanuka.
 
-Umeme hutoa taswira ya siku zijazo ambapo biashara zote ambazo zimekuwa za mtandao pia zitakuwa za Bitcoin.
+Lightning hutoa taswira ya siku zijazo ambapo biashara zote ambazo zimekuwa za mtandao pia zitakuwa za Bitcoin.
 
-**Malipo ya Bitcoin kwa Umeme: Kesi ya Kawaida ya Utumiaji wa Muuzaji**
+**Malipo ya Bitcoin kwa Lightning: Kesi ya Kawaida ya Utumiaji wa Muuzaji**
 
 Lightning Network ni bora kwa malipo ya Bitcoin katika maduka ya kimwili au ya mtandaoni kutokana na kasi yake na mwisho wa malipo.
 
 
-- Kasi:** Umeme (~500ms hadi sekunde chache) ni haraka sana kuliko mtandao mkuu wa Bitcoin, ambapo miamala inaweza kuchukua kama dakika 30 kuthibitisha. Kwa ununuzi mkubwa (zaidi ya $1,000), mtandao mkuu wa Bitcoin bado unaweza kupendelewa, kwani kasi sio muhimu sana. Hata hivyo, maelezo haya mara nyingi hufichwa kutoka kwa mtumiaji wa kawaida, kwani programu hushughulikia maamuzi haya chinichini.
-- Mwisho:** Mara tu malipo yanapofanywa kwa Umeme, ni ya mwisho. Hakuna uwezekano wa kurudisha malipo kwa wahusika wengine au mizozo inayohusiana na ulaghai.
-- Ada:** Ada za muamala kwenye Lightning Network ni ndogo na hulipwa na mtumiaji, si mfanyabiashara. Wauzaji hutozwa tu ada ikiwa baadaye watahitaji kuhamisha Bitcoin yao hadi mtandao au huduma nyingine.
+- **Kasi:** Lightning (~500ms hadi sekunde chache) ni haraka sana kuliko mtandao mkuu wa Bitcoin, ambapo miamala inaweza kuchukua kama dakika 30 kuthibitisha. Kwa ununuzi mkubwa (zaidi ya $1,000), mtandao mkuu wa Bitcoin bado unaweza kupendelewa, kwani kasi sio muhimu sana. Hata hivyo, maelezo haya mara nyingi hufichwa kutoka kwa mtumiaji wa kawaida, kwani programu hushughulikia maamuzi haya chinichini.
+- **Mwisho:** Mara tu malipo yanapofanywa kwa Umeme, ni ya mwisho. Hakuna uwezekano wa kurudisha malipo kwa wahusika wengine au mizozo inayohusiana na ulaghai.
+- **Ada:** Ada za muamala kwenye Lightning Network ni ndogo na hulipwa na mtumiaji, si mfanyabiashara. Wauzaji hutozwa tu ada ikiwa baadaye watahitaji kuhamisha Bitcoin yao hadi mtandao au huduma nyingine.
 
-**KITAMBULISHO CHA UMEME**
+**KITAMBULISHO CHA LIGHTNING**
 
 
 - Uvumbuzi:** 2015
 - Uzinduzi:** 2016
 - Umri:** Miaka 7 (muamala wa kwanza: Desemba 28, 2017)
 - Uwezo wa kiufundi wa mtandao:** kwa kiwango kikubwa inaweza kushughulikia miamala ya papo hapo mara 1,000 zaidi ya mifumo ya kitamaduni.
-- Saizi za miamala:** Huanzia kubwa hadi mara 1,000 ndogo kuliko mifumo ya kitamaduni.
-- Kasi ya muamala:** Hadi mara 100 haraka zaidi.
-- Ada:** Hadi 90% chini.
-- Mwisho wa malipo:** Karibu-papo hapo (mara nyingi ~ milisekunde 500, wakati mwingine sekunde chache).
-- Matumizi ya nishati:** ~8% ya mfumo wa jadi wa fedha duniani.
-- Sifa:**
+- **Saizi za miamala:** Huanzia kubwa hadi mara 1,000 ndogo kuliko mifumo ya kitamaduni.
+- **Kasi ya muamala:** Hadi mara 100 haraka zaidi.
+- **Ada:** Hadi 90% chini.
+- **Mwisho wa malipo:** Karibu-papo hapo (mara nyingi ~ milisekunde 500, wakati mwingine sekunde chache).
+- **Matumizi ya nishati:** ~8% ya mfumo wa jadi wa fedha duniani.
+- **Sifa:**
     - Rika-kwa-rika
     - Universal
     - Haina ruhusa

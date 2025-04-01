@@ -585,10 +585,10 @@ Katika hali hii ya pili, kuoanisha mitazamo tofauti inakuwa muhimu, kwani kwa ki
 Hivi sasa, hali ya mmiliki wengi anayefanya uamuzi ndiye mwakilishi zaidi kati ya kampuni zinazoshikilia Bitcoin. Hapa kuna mifano michache halisi:
 
 
-- Wataalamu wa kujitegemea**: Washauri, wahudumu wa afya, au wanasheria wanaowekeza sehemu ya hazina yao ya muda mrefu katika Bitcoin. Kwa ujumla, wataalamu hawa tayari wana akiba au akaunti za amana za muda na mapato kidogo.
-- Watendaji wa sekta ya teknolojia**: Mtendaji ambaye aliuza kampuni yao na kuwekeza sehemu ya mapato kutoka kwa kampuni yao ya kibinafsi hadi Bitcoin miaka michache iliyopita. Leo, wanafurahia hali nzuri ya kifedha na kuwekeza tena katika biashara mpya.
-- Wamiliki wa biashara ndogo sana** : Wajasiriamali katika huduma, kilimo, au tasnia ya ufundi ambao wameelewa uwezo wa Bitcoin na kuitengea sehemu ya hazina yao. Motisha yao kuu iko katika utofauti na uhuru unaotoa
-- Kampuni zinazouzwa hadharani** kama vile MicroStrategy zimeweka kielelezo kwa kubadilisha sehemu kubwa ya hazina yao ya shirika kuwa Bitcoin, kuonyesha mabadiliko ya kimataifa katika mikakati ya ugawaji wa mtaji wa shirika. Kufikia msimu wa 2024, kampuni zingine nyingi zilifuata mkondo huo, na kuhalalisha zaidi mwelekeo huu.
+- **Wataalamu wa kujitegemea**: Washauri, wahudumu wa afya, au wanasheria wanaowekeza sehemu ya hazina yao ya muda mrefu katika Bitcoin. Kwa ujumla, wataalamu hawa tayari wana akiba au akaunti za amana za muda na mapato kidogo.
+- **Watendaji wa sekta ya teknolojia**: Mtendaji ambaye aliuza kampuni yao na kuwekeza sehemu ya mapato kutoka kwa kampuni yao ya kibinafsi hadi Bitcoin miaka michache iliyopita. Leo, wanafurahia hali nzuri ya kifedha na kuwekeza tena katika biashara mpya.
+- **Wamiliki wa biashara ndogo sana** : Wajasiriamali katika huduma, kilimo, au tasnia ya ufundi ambao wameelewa uwezo wa Bitcoin na kuitengea sehemu ya hazina yao. Motisha yao kuu iko katika utofauti na uhuru unaotoa
+- **Kampuni zinazouzwa hadharani** kama vile MicroStrategy zimeweka kielelezo kwa kubadilisha sehemu kubwa ya hazina yao ya shirika kuwa Bitcoin, kuonyesha mabadiliko ya kimataifa katika mikakati ya ugawaji wa mtaji wa shirika. Kufikia msimu wa 2024, kampuni zingine nyingi zilifuata mkondo huo, na kuhalalisha zaidi mwelekeo huu.
 
 ### Ushuru wa Bitcoin unaoshikiliwa na wafanyabiashara
 
@@ -616,14 +616,14 @@ Kuna njia tatu za kupata Bitcoin:
 Kwa kuwa Bitcoin hufanya kazi kama njia ya Exchange, inawezekana kuwazia uchumi wa mduara. Ingawa hii bado ni ya kawaida leo, biashara zaidi na zaidi zinaanza kukubali malipo ya Bitcoin—kwa nini si yako? (Angalia sura yetu inayofuata)
 
 
-- Mining Bitcoin:**
+- **Mining Bitcoin:**
 
 Hii inahusisha kupata zawadi kutokana na uendeshaji wa mashine za Mining. Kwa biashara zisizo maalum, hii inasalia kuwa ndogo. Unaweza kushiriki kupitia waamuzi ambao watakuuzia au kukukodisha komputa, mtandao na matengenezo. Ikiwa unamiliki mashine, unaweza kuzihesabu kama mali zinazoweza kupunguzwa thamani. Kwa kiwango kikubwa, utahitaji kuhesabu kwa uangalifu mapato ya uwekezaji kwa sababu soko lina ushindani mkubwa na linahitaji matarajio mazuri ya gharama, hasa umeme.
 
 Ili kupata maelezo zaidi kuhusu mbinu za Mining, unaweza [kupata sehemu ya "Mining" katika mafunzo yetu](https://planb.network/tutorials/Mining).
 
 
-- Kununua Bitcoin:**
+- **Kununua Bitcoin:**
 
 Hii ndiyo njia iliyozoeleka zaidi, inayofanywa kupitia ubadilishanaji kati ya wenzao au, kwa kawaida, kwenye majukwaa maalum ya biashara. Lakini wakati wa kupata Bitcoin kama mali ya hazina ya shirika, ni lazima kampuni zifuate viwango thabiti vya udhibiti na taratibu za Know-Your-Customer (KYC). Wanapoinunua kwenye mifumo maalum ya biashara, kwa kawaida biashara huhitajika kutoa maelezo ya kina ya kampuni, ikiwa ni pamoja na hati za utambulisho, taarifa za fedha na uthibitisho wa Address, ili kukidhi mahitaji ya KYC na ya kupinga ulanguzi wa pesa (AML).
 

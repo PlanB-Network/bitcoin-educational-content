@@ -9,7 +9,7 @@ objectifs:
 ---
 # Protégez votre vie privée sur Bitcoin
 
-Dans un monde où la confidentialité des transactions financières devient progressivement un luxe, comprendre et maîtriser les principes de protection de la vie privée dans son utilisation de Bitcoin est essentiel. Cette formation vous donne toutes les clés, à la fois théoriques et pratiques, pour y parvenir de manière autonome.
+Dans un monde où la confidentialité des transactions financières devient progressivement un luxe,  comprendre et maîtriser les principes de protection de la vie privée dans son utilisation de Bitcoin est essentiel. Cette formation vous donne toutes les clés, à la fois théoriques et pratiques, pour y parvenir de manière autonome.
 
 Aujourd'hui, sur Bitcoin, des sociétés sont spécialisées dans l'analyse on-chain. Leur cœur de métier consiste précisément à s'immiscer dans votre sphère privée, afin de compromettre la confidentialité de vos transactions. Dans les faits, le "droit à la vie privée" sur Bitcoin n’existe pas. Il vous revient donc à vous, utilisateur, de faire valoir vos droits naturels et de protéger la confidentialité de vos transactions, car personne ne va le faire à votre place. 
 

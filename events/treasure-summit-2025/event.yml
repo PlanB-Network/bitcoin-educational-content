@@ -11,6 +11,7 @@ language:
   - en
 links:
   website: https://lu.ma/61kly0km
+project_id: a1b2c3d4-1234-4a56-9abc-123456789abc
 tags:
   - proof-of-work
   - user-friendly

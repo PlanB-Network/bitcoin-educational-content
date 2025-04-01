@@ -440,8 +440,8 @@ Bitcoin inatoa njia ya kukusanya na kuhifadhi mtaji kwa muda mrefu bila mmomonyo
 **Wachumi Wengine Wenye Ushawishi**
 
 
-- Milton Friedman**: Ingawa hakuhusishwa moja kwa moja na Shule ya Austria, Friedman aliunga mkono mawazo mengi ya utetezi wa soko na huria. Sera yake ya ufadhili inatofautiana na mawazo ya Austria lakini inashiriki ukosoaji wao wa kuingilia serikali kupindukia katika uchumi.
-- Frédéric Bastiat**: Mwanauchumi Mfaransa wa karne ya 19, Bastiat alishawishi Shule ya Austria kwa kazi zake kuhusu biashara huria na matokeo yasiyoonekana ya sera za kiuchumi. Insha yake _Kinachoonekana na Kisichoonekana_ ni maandishi ya msingi ya uliberali wa kiuchumi.
+- **Milton Friedman**: Ingawa hakuhusishwa moja kwa moja na Shule ya Austria, Friedman aliunga mkono mawazo mengi ya utetezi wa soko na huria. Sera yake ya ufadhili inatofautiana na mawazo ya Austria lakini inashiriki ukosoaji wao wa kuingilia serikali kupindukia katika uchumi.
+- **Frédéric Bastiat**: Mwanauchumi Mfaransa wa karne ya 19, Bastiat alishawishi Shule ya Austria kwa kazi zake kuhusu biashara huria na matokeo yasiyoonekana ya sera za kiuchumi. Insha yake _Kinachoonekana na Kisichoonekana_ ni maandishi ya msingi ya uliberali wa kiuchumi.
 
 ![BIZ101](assets/en/06.webp)
 
@@ -467,7 +467,7 @@ Hazina ni mahali ambapo mtu huweka vitu vya thamani. Kampuni yenye afya ina mtaj
 Kwa muda mrefu sana, kampuni zingine hutumia mali zisizo halali kama mali isiyohamishika bila kutambua hatari fulani:
 
 
-- Illiquidity katika tukio la mgogoro
+-Illiquidity  katika tukio la mgogoro
 - Hatimaye mapato ya chini mara tu ada zinapokatwa
 - Rejesho ambayo haipiti kasi ya mfumuko wa bei halisi, ile ya fedha Supply (~7% kwa mwaka, tazama hapa chini)
 - Hatari iliyofichwa kwamba mali isiyohamishika inapoteza sehemu ya utendakazi wake wa "akiba" kwa manufaa ya mali kama vile Bitcoin. Kama matokeo, inaweza kurudi karibu na "thamani ya matumizi" yake: kutoa makazi.
@@ -670,12 +670,12 @@ Ufunguo huu wa kriptografia ni nambari kubwa sana ya nasibu. Ili kurahisisha mat
 Hii inasababisha suala la ulinzi: kushikilia Bitcoin kunamaanisha kushikilia funguo. Labda unazishikilia wewe mwenyewe, au unakabidhi jukumu hilo kwa mtu wa tatu. Pia kuna ufumbuzi wa kati. Wacha tuangalie hali zinazojulikana zaidi:
 
 
-- Kujitunza:**
+- **Kujitunza:**
 
 Hili ndilo chaguo linalopendekezwa na wapenzi wa kweli wa Bitcoin, kwani inalingana na muundo wa asili wa Bitcoin. Unafanya kama benki yako mwenyewe: hakuna hatari ya mtu mwingine kukulaghai, lakini una jukumu la kupata funguo. Una ufikiaji kamili wa pesa zako 24/7. Katika mazingira ya biashara, ikiwa watu wengi wanaweza kuhitaji kufanya miamala, utahitaji zana na taratibu zinazofaa ili kudhibiti ufikiaji na usalama.
 
 
-- Ulezi wa Mtu wa Tatu:**
+- **Ulezi wa Mtu wa Tatu:**
 
 Kwa mfano, Exchange au huduma ya ununuzi inaweza kukufungulia akaunti, kubadilisha sarafu yako ya jadi hadi Bitcoin, na kuishikilia kwa niaba yako kwa kutumia mifumo yao ya usalama. Huduma nyingi kama hizo hukuruhusu kuondoa bitcoins zako kwa Wallet ambapo wewe pekee unashikilia ufunguo. Mpaka ufanye hivyo, humiliki bitcoins kweli; unategemea ahadi yao ya kukulipa. Hii inahusisha kusawazisha hatari za usalama (zao dhidi ya yako) na hatari ya wenzao (zinaweza kushindwa au kutoweka). Baadhi ya biashara hupata hili kuwa linakubalika, ingawa halishauriwi kwa uhifadhi wa muda mrefu au kwa 100% ya mgao wako. Huduma za uhifadhi zinaweza pia kutoza ada za uhifadhi.
 
@@ -697,7 +697,7 @@ Ukichagua "karatasi Bitcoin," utageukia taasisi za fedha kama vile benki au maso
 Ukichagua kununua Bitcoin halisi kupitia soko (Exchange) au wakala, una aina kadhaa kuu:
 
 
-- Jukwaa Kubwa za Kimataifa au Nje:**
+- **Jukwaa Kubwa za Kimataifa au Nje:**
 
 Mifano ni pamoja na Kraken, Coinbase, au Binance, iliyotumiwa kihistoria na watu wengi. Wengine wamekumbana na masuala, na ni vigumu kutoa pendekezo wazi. Kipande cha ushauri: ikiwa unazitumia, usiondoke bitcoins zako huko kwa muda mrefu zaidi kuliko lazima.
 

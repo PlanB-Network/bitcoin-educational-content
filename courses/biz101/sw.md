@@ -715,12 +715,12 @@ Kwa mfano, nchini Ufaransa majukwaa kama Paymium (Exchange) au BullBitcoin (dala
 Zaidi ya ada na kasi ya utekelezaji—ambayo haijalishi sana ikiwa unafikiria muda mrefu (miaka kadhaa)—biashara inapaswa pia kuzingatia:
 
 
-- Mtumiaji Interface:** Je, jukwaa linafaa kwa watumiaji?
+- **kiolesura cha mtumiaji:** Je, jukwaa linafaa kwa watumiaji?
 - Vipengele vya Uhasibu:** Kwa uchache, uwezo wa kuhamisha historia ya muamala katika umbizo la .CSV.
-- Ulinzi na Usalama:** Je, jukwaa linashikilia bitcoins kwa niaba yako, au linahamisha Ownership kwako? Mipangilio yao ya usalama ni nini? Je, wana "kufuli za kujiondoa" au vikwazo vingine vya uondoaji?
-- Usaidizi kwa Wateja:** Ubora, usikivu, na usaidizi unaobinafsishwa, hasa unapoanza.
+- **Ulinzi na Usalama:** Je, jukwaa linashikilia bitcoins kwa niaba yako, au linahamisha Ownership kwako? Mipangilio yao ya usalama ni nini? Je, wana "kufuli za kujiondoa" au vikwazo vingine vya uondoaji?
+- **Usaidizi kwa Wateja:** Ubora, usikivu, na usaidizi unaobinafsishwa, hasa unapoanza.
 - Sifa na Maadili:** Uaminifu na maadili ya jukwaa.
-- Usaidizi kwa Ununuzi Unaorudiwa:** Ikiwa unapanga kukusanya Bitcoin baada ya muda na ununuzi ulioratibiwa.
+- **Usaidizi kwa Ununuzi Unaorudiwa:** Ikiwa unapanga kukusanya Bitcoin baada ya muda na ununuzi ulioratibiwa.
 
 # Masuluhisho ya malipo ya Bitcoin yaliyolengwa kwa kila biashara
 
@@ -741,32 +741,32 @@ Bitcoin ni miundombinu ya uaminifu, ambayo maombi yake ya kwanza ni kuondoa wapa
 Sasa, fikiria mtazamo wa biashara ya vitendo ambayo shughuli yake ya msingi haina uhusiano wowote na Bitcoin. Kwa nini ingechagua kukubali malipo ya Bitcoin?
 
 
-- Kujenga Hazina ya Bitcoin:**
+- **Kujenga Hazina ya Bitcoin:**
 
 Tazama nakala yetu ya awali juu ya kununua Bitcoin. Iwe ni kwa sababu ya kutiwa hatiani au kama mkakati wa utofauti, baadhi ya wataalamu huchagua kukubali malipo ya Bitcoin. Baadhi ya Wanabiashara wa Bitcoin wanasema kwamba kadiri kampuni inavyokuwa na mwelekeo mdogo wa kifedha—maana haina wakati wala zana za kujihusisha na ujanja changamano wa kifedha—**ndivyo inavyokuwa muhimu zaidi kwa biashara hiyo kulipwa kwa njia ngumu zaidi ya pesa inayopatikana**. Kwa kufanya hivyo, husawazisha uwanja, kuwezesha hata biashara ndogo ndogo, zinazobanwa na wakati kuhifadhi thamani bila kujihusisha na michezo ya kifedha.
 
 
-- Kufikia Demografia Mpya:**
+- **Kufikia Demografia Mpya:**
 
 Idadi ya watumiaji wa Bitcoin inakua, na wana uwezo mkubwa wa kununua. Kwa kawaida watavutia biashara zinazokubali sarafu zao. Zaidi ya hayo, kwa kuwa hii ni sarafu ya kwanza ya kimataifa, ya asili ya mtandao, unaweza pia kuvutia wateja wa kimataifa wanaopitia.
 
 
-- Kuongezeka kwa Mwonekano:**
+- **Kuongezeka kwa Mwonekano:**
 
 Kwa kuorodhesha biashara yako kwenye majukwaa kama vile BTCmap.org, kwa mfano. Ni biashara chache tu zinazokubali Bitcoin kwa sasa, kwa hivyo maneno ya mdomo hufanya kazi kwa faida yako. Pia hukuweka tofauti na washindani wako.
 
 
-- Ada za Chini:**
+- **Ada za Chini:**
 
 Malipo ya papo hapo ya Bitcoin hufanyika kupitia Lightning Network. ** Ada ni ndogo na hulipwa na mnunuzi **. Hakuna ada za mwisho za malipo, hakuna hitilafu za uidhinishaji wa malipo, na hakuna ulaghai. Kwa kulinganisha, sekta ya malipo (kadi, vituo, uhamisho, PSPs, n.k.) hugharimu takriban $2.2 trilioni kwa mwaka duniani kote. Ongeza kwenye malipo hayo na ulaghai, na kwa jumla, karibu moja ya kumi ya Pato la Taifa la Marekani "hupunguzwa" kutoka kwa biashara zenye tija duniani kote ili tu kuhamisha thamani. Bila kujali biashara yako, ada za kifedha ni mzigo ambao unapaswa kuboreshwa, na wakati mwingine, ada za juu zinaweza kukandamiza aina fulani za biashara.
 
 
-- Uhuru na Kutokuwa na Ruhusa, 24/7:**
+- **Uhuru na Kutokuwa na Ruhusa, 24/7:**
 
 Hakuna haja ya kuomba ruhusa ya kutumia Bitcoin. Mtu yeyote anaweza kushiriki katika uchumi ndani ya dakika chache kwa kutumia programu ya simu mahiri. Unaweza kutuma au kupokea malipo kutoka kwa mtu yeyote—mtu binafsi au biashara—wakati wowote, bila vikwazo vya kuratibu au ucheleweshaji.
 
 
-- Tumia Mtandao wa Bitcoin kwa Manufaa Yake:**
+- **Tumia Mtandao wa Bitcoin kwa Manufaa Yake:**
 
 Huhitajiki kuweka malipo yako katika fomu ya Bitcoin—hasa ikiwa unahitaji kulipa wasambazaji au kutuma VAT. Huduma fulani zinaweza kubadilisha malipo yote au sehemu ya malipo yako ya Bitcoin kuwa sarafu utakayochagua (k.m., euro hadi IBAN yako) kwa ada. Katika hali hii, manufaa ya kukubali Bitcoin yanaweza kuwa katika kuvutia watumiaji wapya au katika manufaa ya ndani ya Bitcoin (kama vile ada za chini, uendeshaji wa saa moja na usiku, na hakuna hatari ya ulaghai au malipo nyuma).
 
@@ -800,9 +800,9 @@ Ili kurahisisha mchakato wa kufanya maamuzi, tumefafanua wasifu nne tofauti za b
 
 | **Mfano Suluhisho Linalopendekezwa** | Umeme wa ulinzi Wallet kama Wallet ya Satoshi au Wallet isiyo na kizuizi kama Phoenix |
 
-| **Mfanyabiashara Interface** | Rahisi Bitcoin Umeme Wallet: programu kwenye simu ya mkononi |
+| **kiolesura cha mfanyabiashara** | Rahisi Bitcoin Umeme Wallet: programu kwenye simu ya mkononi |
 
-| **Mteja Interface** | Msimbo wa malipo wa Bitcoin QR, umechanganuliwa kupitia nambari ya kibinafsi ya mteja Wallet |
+| **kiolesura cha mteja** | Msimbo wa malipo wa Bitcoin QR, umechanganuliwa kupitia nambari ya kibinafsi ya mteja Wallet |
 
 | **Ada** | Mteja hulipa ada za Bitcoin za Umeme pamoja na ada zozote zinazotumika za programu |
 
@@ -832,9 +832,9 @@ Ili kurahisisha mchakato wa kufanya maamuzi, tumefafanua wasifu nne tofauti za b
 
 | **Mfano Suluhisho Linalopendekezwa** | Uswisi Bitcoin Pay |
 
-| **Mfanyabiashara Interface** | Rahisi Bitcoin Umeme Wallet: programu kwenye simu ya mkononi; ankara rahisi na maelezo machache |
+| **kiolesura cha mfanyabiashara** | Rahisi Bitcoin lighting Wallet: programu kwenye simu ya mkononi; ankara rahisi na maelezo machache |
 
-| **Mteja Interface** | Msimbo wa malipo wa Bitcoin QR, umechanganuliwa kupitia nambari ya kibinafsi ya mteja Wallet |
+| **kiolesura cha mteja** | Msimbo wa malipo wa Bitcoin QR, umechanganuliwa kupitia nambari ya kibinafsi ya  Wallet |
 
 | **Ada** | Kwa kawaida <1% ya kutumwa kwa Bitcoin Address, na <1.5% kwa kugeuza kuwa fiat |
 
@@ -866,7 +866,7 @@ Ili kurahisisha mchakato wa kufanya maamuzi, tumefafanua wasifu nne tofauti za b
 
 | **Mfanyabiashara Interface** | Tovuti (ya rununu na kompyuta ya mezani) iliyo na uhariri wa Invoice, chaguzi za rukwama za ununuzi, na uundaji wa vitufe vya malipo; ankara otomatiki na ushirikiano wa e-commerce |
 
-| **Mteja Interface** | Msimbo wa malipo wa Bitcoin QR, umechanganuliwa kupitia nambari ya kibinafsi ya mteja Wallet |
+| **kiolesura cha mteja** | Msimbo wa malipo wa Bitcoin QR, umechanganuliwa kupitia nambari ya kibinafsi ya Wallet ya mteja |
 
 | **Ada** | Mchanganyiko wa mazingira ya asili bila malipo na ada zinazolipishwa za upangishaji wa Umeme/huduma; ada za mwisho ni pamoja na ada za umeme za Bitcoin na <1.5% ya ada za ubadilishaji |
 
@@ -896,7 +896,7 @@ Ili kurahisisha mchakato wa kufanya maamuzi, tumefafanua wasifu nne tofauti za b
 
 | **Mfano Suluhisho Linalopendekezwa** | Usanifu au upangaji maalum wa suluhu zinazopangishwa na SaaS, zinazoweza kutumia huduma za wengine za LSP (*Mtoa Huduma ya Umeme*) |
 
-| **Mfanyabiashara Interface** | Miingiliano iliyobinafsishwa kikamilifu ya mbele na ya nyuma iliyojumuishwa kikamilifu katika mtiririko wa kazi na michakato ya biashara |
+| **kiolesura cha mfanyabiashara** | Miingiliano iliyobinafsishwa kikamilifu ya mbele na ya nyuma iliyojumuishwa kikamilifu katika mtiririko wa kazi na michakato ya biashara |
 
 | **Mteja Interface** | Kuanzia msimbo wa malipo wa Bitcoin QR hadi UI maalum kabisa na/au muunganisho wa API |
 

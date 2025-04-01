@@ -66,7 +66,7 @@ Michael explique comment les technologies multicouches, notamment Liquid, Lightn
 
 ![Video](https://youtu.be/6wNeHQBlhA4)
 
-Bozza couvre la structure fédérée du réseau Liquid et ses composants techniques. Les sujets abordés incluent les innovations testées sur Liquid, telles que les signatures Schnorr et les scripts Simplicity, ainsi que les compromis liés à l'utilisation de solutions de niveau 2.
+Bozza couvre la structure fédérée du réseau Liquid et ses composants techniques. Les sujets abordés incluent les innovations testées sur Liquid, telles que les signatures Schnorr et les scripts Simplicity, ainsi que les compromis liés à l'utilisation de solutions de Layers 2.
 
 ## Écosystème et marchés des capitaux
 

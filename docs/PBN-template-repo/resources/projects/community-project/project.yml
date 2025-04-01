@@ -1,9 +1,13 @@
-## Community Builder Characteristic
+## Community Project Characteristic
 
-# Complete name of the builder
-name: Community Builder Complete name
+# UUID of the project
+# generate a random uuid v4
+id: d0670bd1-5326-4551-8c3f-ddcef5af490c
 
-# Define Builder category
+# Complete name of the project
+name: Community Project Complete name
+
+# Define Project category
 # Can only be communities
 category: communities
 
@@ -25,10 +29,20 @@ language:
 # links
 # list releated online presence like twitter and/or website
 links:
-  website: https://stackharder.com
-  twitter: https://twitter.com/stackharder
+  website: https://planb.network
+  twitter:
   Github: https://github.com/DecouvreBitcoin/sovereign-university-data
   youtube: https://www.youtube.com/@PlanBNetwork
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: YYYY-MM-DD
+    urgency: # leave as empty
+    contributor_names:
+      - author_github_username #insert your github username
+    reward: # leave as empty
 
 # tags
 # List the associated tags to the author
@@ -36,3 +50,8 @@ links:
 tags:
   - finance
   - education
+
+# Your Github Username
+# Still unsure if that goes here or on the lang files, check needed
+#contributor_names:
+#  - Asi0Flammeus

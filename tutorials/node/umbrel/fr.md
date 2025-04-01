@@ -227,7 +227,6 @@ Le "mempool" (memory pool) est comme une salle d'attente virtuelle où toutes le
 Le nombre de confirmations recommandé dépend du montant :
 - Pour les petits montants : 1-2 confirmations peuvent suffire
 - Pour les montants importants : 6 confirmations sont généralement considérées comme très sûres
-- Pour les très gros montants : Certains attendent jusqu'à 30 confirmations
 
 ### Explorer l'interface de Mempool.space
 

@@ -246,9 +246,9 @@ Bitcoin inatupa changamoto ya kufikiria upya asili ya pesa yenyewe. Unaweza kuel
 - Chombo cha kisheria:** Hakuna
 - Mkurugenzi Mtendaji:** Hakuna
 - Uwekezaji wa mtaji wa mradi:** Hakuna
-- Uuzaji:** Hakuna
-- R&D:** Inaendeshwa kwa kujitolea
-- Utawala:** Na watumiaji
+- **Uuzaji:** Hakuna
+- **R&D:** Inaendeshwa kwa kujitolea
+- **Utawala:** Na watumiaji
 - Muundo bunifu wa kiuchumi:** Uundaji wa vitalu unafadhiliwa na ada za ununuzi (kulingana na mnada)
 
 Kwa habari zaidi juu ya Bitcoin, historia yake, jinsi inavyofanya kazi, na matumizi yake, ninapendekeza pia kufuata kozi hii nyingine ya kina:
@@ -258,16 +258,16 @@ https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 <chapterId>c095c7ad-5469-4c7b-9510-b6c0b86244e7</chapterId>
 
-**UMEME NI NINI?**
+**LIGHTNING NETWORK CTNI NINI?**
 
 Lightning Network ni **itifaki na mtandao** unaowezesha miamala ya Bitcoin yenye mwingiliano mdogo na Blockchain kuu ya Bitcoin. Hivi ndivyo inavyofanya kazi:
 
 
-- Usanidi wa awali:** Pesa zimefungwa (zimebanwa) kwenye Blockchain kuu ili kuanzisha njia ya malipo kati ya wahusika 2.
-- Mtandao wa malipo:** Mtandao wa njia za malipo kati ya wahusika mbalimbali huunda mtandao wa malipo (uelekezaji na muunganisho).
-- Shughuli za off-chain:** Miamala hufanyika kati ya wahusika lakini **haijachapishwa mara moja** kwenye Bitcoin kuu ya Blockchain (**"off-chain"**).
-- Malipo ya On-Chain:** **Salio la mwisho** la miamala ya kituo pekee ndilo linalochapishwa kwenye Bitcoin kuu Blockchain (**"On-Chain**"), kuruhusu miamala mingi kufanyika kwa sasa. Ufungaji huu wa malipo mengi hupunguza msongamano na hivyo kupunguza ada ikilinganishwa na kufanya miamala mingi ya On-Chain.
-- Kufungwa kwa kituo:** Mtumiaji anaweza kufunga chaneli yake wakati wowote na kudai tena Bitcoin yake kwa kuchapisha hali ya hivi punde ya malipo. Hii ndiyo kanuni ya miamala kuwa **"inayoweza kuchapishwa" wakati wowote lakini "haijachapishwa"** hadi itakapohitajika. Njia ya kutoka (kufungwa kwa idhaa) inaweza kuwa ya upande mmoja (iliyoamuliwa na mhusika yeyote kati ya 2 wakati wowote) au kuamuliwa pande zote (kusababisha ada za chini za On-Chain)
+- **Usanidi wa awali:** Pesa zimefungwa (zimebanwa) kwenye Blockchain kuu ili kuanzisha njia ya malipo kati ya wahusika 2.
+- **Mtandao wa malipo:** Mtandao wa njia za malipo kati ya wahusika mbalimbali huunda mtandao wa malipo (uelekezaji na muunganisho).
+- **Shughuli za off-chain:** Miamala hufanyika kati ya wahusika lakini **haijachapishwa mara moja** kwenye Bitcoin kuu ya Blockchain (**"off-chain"**).
+- **Malipo ya On-Chain:** **Salio la mwisho** la miamala ya kituo pekee ndilo linalochapishwa kwenye Bitcoin kuu Blockchain (**"On-Chain**"), kuruhusu miamala mingi kufanyika kwa sasa. Ufungaji huu wa malipo mengi hupunguza msongamano na hivyo kupunguza ada ikilinganishwa na kufanya miamala mingi ya On-Chain.
+- **Kufungwa kwa kituo:** Mtumiaji anaweza kufunga chaneli yake wakati wowote na kudai tena Bitcoin yake kwa kuchapisha hali ya hivi punde ya malipo. Hii ndiyo kanuni ya miamala kuwa **"inayoweza kuchapishwa" wakati wowote lakini "haijachapishwa"** hadi itakapohitajika. Njia ya kutoka (kufungwa kwa idhaa) inaweza kuwa ya upande mmoja (iliyoamuliwa na mhusika yeyote kati ya 2 wakati wowote) au kuamuliwa pande zote (kusababisha ada za chini za On-Chain)
 
 ![BIZ101](assets/en/04.webp)
 
@@ -277,14 +277,14 @@ Mbinu hii huepuka ucheleweshaji na utata wa kufanya kila shughuli moja kwa moja 
 
 Itifaki huunda **mtandao** wa mashine ambapo vituo vinaunda mfumo wa malipo wa wote. Nodi hizi zinaweza kuendeshwa kwa uhuru na watu binafsi au biashara, na kuifanya mtandao wazi kabisa.
 
-Lightning Network inawezesha thamani ya papo hapo Exchange kwa kasi ya mwanga. Ni kama itifaki ya barua pepe inayotumika kwa malipo: mtandao wa malipo wa kizazi kijacho. Inabadilisha kwa kiasi kikubwa jinsi "fedha" inavyosonga, na kuifanya kuwa ya bure na ya haraka kama utumaji wa data kwenye mtandao.
+lightning network huwezesha ubadilishaji wa thamani papo hapo kwa kasi ya mwanga.Ni kama itifaki ya barua pepe inayotumika kwa malipo: mtandao wa malipo wa kizazi kijacho. Inabadilisha kwa kiasi kikubwa jinsi "fedha" inavyosonga, na kuifanya kuwa ya bure na ya haraka kama utumaji wa data kwenye mtandao.
 
 ![BIZ101](assets/en/12.webp)
 
 **Faida Muhimu:**
 
 
-- Kasi:** Shughuli za papo hapo.
+- **Kasi:** Shughuli za papo hapo.
 - Ada za chini:** Gharama za chini zaidi ikilinganishwa na mitandao ya benki ya kawaida.
 - Urahisi wa kuasili:** Biashara zinaweza kuweka mipangilio haraka ili kukubali malipo ya umeme kwa kutumia programu mahiri tu au kitufe cha kulipa kwenye tovuti yao.
 

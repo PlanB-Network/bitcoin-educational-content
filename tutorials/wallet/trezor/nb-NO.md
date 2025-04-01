@@ -78,11 +78,23 @@ Deretter vil du se dette:
 
 ![image](assets/9.webp)
 
-På enheten, se ordene som presenteres for deg ett etter ett og skriv dem ned PENT og I REKKEFØLGE.
+Din Trezor viser din 12-ords minnefrase. **Denne minnefrasen gir full og ubegrenset tilgang til alle dine bitcoins**. Enhver som har tilgang til denne frasen kan stjele midlene dine, selv uten fysisk tilgang til din Trezor. 12-ords frasen lar deg gjenopprette tilgangen til dine bitcoins i tilfelle tap, tyveri eller skade på din hardware-lommebok. Derfor er det svært viktig å lagre den nøye og oppbevare den på et trygt sted.
+
+Du kan skrive den ned på pappkortet som følger med i esken, eller for ekstra sikkerhet anbefaler jeg at du graverer den på en rustfri stålplate for å beskytte den mot brann, flom eller kollaps.
+
+For mer informasjon om hvordan du riktig sikkerhetskopierer og administrerer din minnefrase, anbefaler jeg sterkt å følge denne andre veiledningen, spesielt hvis du er nybegynner:
+
+https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 
 ![image](assets/10.webp)
 
-Sett en PIN for å låse enheten (dette er ikke en del av frøet ditt, det er bare for å låse enheten slik at ingen kan få tilgang til frøet som er inne).
+Neste trinn er å sette opp PIN-koden. PIN-koden brukes til å låse opp din Trezor. Den fungerer som beskyttelse mot uautorisert fysisk tilgang. Denne PIN-koden spiller ingen rolle i utledning av de kryptografiske nøklene til lommeboken din. Dermed, selv uten tilgang til denne PIN-koden, vil det å eie din 12- eller 24-ords minnefrase tillate deg å gjenvinne tilgang til dine bitcoins.
+
+Det anbefales å velge en PIN-kode som er så tilfeldig som mulig. Sørg også for å lagre denne koden et annet sted enn der du oppbevarer din Trezor (for eksempel i en passordbehandler).
+
+Du kan velge en PIN-kode med opptil 9 sifre. Jeg anbefaler å gjøre den så lang som mulig.
+
 
 ![image](assets/11.webp)
 Du har muligheter til å legge til shitcoins i lommeboken din – jeg oppfordrer deg til ikke å gjøre det, og kun spare i Bitcoin, som jeg forklarer her (hvorfor bitcoin) og her (hvorfor kun bitcoin).
@@ -92,11 +104,20 @@ Navngi lommeboken din, og klikk på "Access Suite":
 
 ![bilde](assets/13.webp)
 
-Det enkleste er å opprette en lommebok uten passfrase, men det beste er å opprette en med passfrase (din ekte lommebok) OG en uten passfrase (din lokkelommebok). Hver gang du får tilgang til enheten gjennom Trezor Suite, vil du bli spurt om du vil "bruke" passfrasen eller ikke.
+Før du fortsetter, kan du, hvis du ønsker det, legge til en BIP39-passfrase. En BIP39-passfrase er et valgfritt passord som du kan velge fritt, og som legges til din mnemoniske frase for å styrke sikkerheten til lommeboken. Med denne funksjonen aktivert vil tilgang til din Bitcoin-lommebok kreve både den mnemoniske frasen og passfrasen. Uten en av dem vil det være umulig å gjenopprette lommeboken.
+
+Før du konfigurerer dette alternativet på din Trezor, anbefales det sterkt å lese denne artikkelen for å fullt ut forstå hvordan passfrasen fungerer i teorien, og unngå feil som kan føre til tap av dine bitcoins:
+
+https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
+For å aktivere det, må du velge alternativet "Hidden wallet" og notere det i det tilsvarende feltet. Hver gang du får tilgang til lommeboken din via Trezor Suite, vil du bli spurt om du ønsker å bruke passfrasen eller ikke.
+
 
 ![bilde](assets/14.webp)
 
-Jeg valgte "Hidden Wallet" og skrev inn en passfrase som jeg fant på "craigwrightisaliarandafraud"
+Det er også viktig å sikkerhetskopiere denne passfrasen riktig, på samme måte som din mnemoniske frase. Å miste den tilsvarer å miste tilgangen til dine bitcoins. Jeg anbefaler sterkt å ikke stole utelukkende på hukommelsen din, da dette urimelig øker risikoen for tap. Ideelt sett bør du skrive den ned på et fysisk medium (papir eller metall) adskilt fra den mnemoniske frasen. Denne sikkerhetskopien bør selvfølgelig lagres et annet sted enn din mnemoniske frase for å unngå at begge blir kompromittert samtidig.
+
+For at den skal være effektiv, må du velge en sterk, tilfeldig passfrase som inkluderer alle typer tegn og er tilstrekkelig lang (som et sterkt passord).
 
 ![bilde](assets/15.webp)
 

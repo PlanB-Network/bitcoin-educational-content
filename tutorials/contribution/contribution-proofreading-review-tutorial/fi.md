@@ -33,13 +33,13 @@ Sinun ei tarvitse olla GitHub-asiantuntija arvioidaksesi sisältöä. Vaikka on 
 
 Jos Git ja GitHub eivät kuitenkaan ole sinulle tuttuja ja haluat oppia lisää, voit tutustua näitä työkaluja käsittelevään johdantoartikkeliin:
 
-https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 ## 1. Luo tili
 
 
 - Luo tili [GitHubissa](https://github.com/) aloittaaksesi osallistumisen. Jos haluat ohjeita GitHub-tilin luomiseen, meillä on myös yksityiskohtainen ohje:
 
-https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 - Tarvitset myös tilin viestisovellukseen [Telegram](https://telegram.org/).
 

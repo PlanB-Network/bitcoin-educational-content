@@ -6,14 +6,11 @@ import customtkinter as ctk
 from tkinter import messagebox, filedialog
 from PIL import Image
 from gui.footer import create_footer
-from utils.constants import BIP39_WORDS
 from utils.data_loader import load_allowed_tags
 from utils.file_ops import (
     create_directory,
     write_file,
     process_profile_image,
-    generate_random_contributor_id,
-    check_contributor_id,
     create_professor_yaml,
     create_language_yaml
 )
@@ -54,14 +51,6 @@ class ProfessorPage(ctk.CTkFrame):
         ctk.CTkLabel(self, text="Last Name (optional):", font=("Arial", 14)).grid(row=row, column=2, sticky="w", padx=10)
         self.last_name_var = ctk.StringVar(value=professor_data.get("last_name", ""))
         ctk.CTkEntry(self, textvariable=self.last_name_var, width=200, font=("Arial", 14, "bold")).grid(row=row, column=3, padx=10, pady=5, sticky="ew")
-        row += 1
-        
-        # Random Contributor ID with re-roll functionality
-        ctk.CTkLabel(self, text="Random Contributor ID:", font=("Arial", 14)).grid(row=row, column=0, sticky="w", padx=10)
-        initial_contrib = professor_data.get("prof_contrib", generate_random_contributor_id())
-        self.prof_contrib_var = ctk.StringVar(value=initial_contrib)
-        ctk.CTkEntry(self, textvariable=self.prof_contrib_var, width=200, font=("Arial", 14, "bold")).grid(row=row, column=1, padx=10, pady=5, sticky="ew")
-        ctk.CTkButton(self, text="Re-roll", command=self.roll_contributor_id, width=100, font=("Arial", 14, "bold")).grid(row=row, column=2, padx=10, pady=5)
         row += 1
         
         # Optional website and Twitter inputs
@@ -129,7 +118,7 @@ class ProfessorPage(ctk.CTkFrame):
             self.bio_textbox.insert("1.0", professor_data.get("bio"))
         row += 1
         
-        ctk.CTkLabel(self, text="Short bio (optional):", font=("Arial", 14)).grid(row=row, column=0, sticky="w", padx=10)
+        ctk.CTkLabel(self, text="Short bio:", font=("Arial", 14)).grid(row=row, column=0, sticky="w", padx=10)
         self.short_bio_var = ctk.StringVar(value=professor_data.get("short_bio", ""))
         ctk.CTkEntry(self, textvariable=self.short_bio_var, width=400, font=("Arial", 14, "bold")).grid(row=row, column=1, columnspan=3, padx=10, pady=5, sticky="ew")
         row += 1
@@ -142,16 +131,6 @@ class ProfessorPage(ctk.CTkFrame):
    
         create_footer(self)
 
-    def generate_random_contributor_id(self):
-        words = random.sample(BIP39_WORDS, 2)
-        return f"{words[0]}-{words[1]}"
-   
-    def roll_contributor_id(self):
-        self.prof_contrib_var.set(self.generate_random_contributor_id())
-   
-    def check_contributor_id(self, contributor_id):
-        valid, msg = check_contributor_id(self.base_path, contributor_id)
-        return valid, msg
    
     def update_tag1_suggestions(self, event=None):
         allowed = load_allowed_tags(self.base_path)
@@ -200,7 +179,6 @@ class ProfessorPage(ctk.CTkFrame):
             "folder_name": self.folder_name_var.get(),
             "first_name": self.first_name_var.get(),
             "last_name": self.last_name_var.get(),
-            "prof_contrib": self.prof_contrib_var.get(),
             "website": self.website_var.get(),
             "twitter": self.twitter_var.get(),
             "lightning": self.lightning_var.get(),
@@ -228,12 +206,6 @@ class ProfessorPage(ctk.CTkFrame):
        
         if not self.first_name_var.get().strip():
             messagebox.showerror("Error", "Please enter a first name or a pseudo.")
-            return
-       
-        contributor_id = self.prof_contrib_var.get().strip()
-        valid, error_msg = self.check_contributor_id(contributor_id)
-        if not valid:
-            messagebox.showerror("Error", error_msg)
             return
        
         tags = [t.strip() for t in [self.tag1_var.get(), self.tag2_var.get(), self.tag3_var.get()] if t.strip()]
@@ -279,7 +251,7 @@ class ProfessorPage(ctk.CTkFrame):
             full_name = first_name if not last_name else f"{first_name} {last_name}"
 
             yaml_content = create_professor_yaml(
-                full_name, contributor_id,
+                full_name,
                 website=self.website_var.get().strip(),
                 twitter=self.twitter_var.get().strip(),
                 lightning=self.lightning_var.get().strip(),

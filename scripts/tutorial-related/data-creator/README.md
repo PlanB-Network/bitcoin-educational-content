@@ -1,13 +1,19 @@
-This Python script runs a GUI where the tutorial writer can easily select the parameters for a new tutorial and then automatically generate all the required folders and files, allowing him to focus solely on what matters: writing the tutorial.
+Python app designed to create resources locally on your clone of the Plan ₿ Network data repo. It automatically generates and correctly places all the files and necessary metadata, following the latest guidelines from the data team.
+
+Supports adding:
+- A new tutorial;
+- A new professor profile;
+- A new project.
+
+App maintained by Loïc Morel.
 
 ## Features
 
 - Allows easy customization of the metadata for the new tutorial.
-- Automatically generates `tutorial.yml` and `.md` files with a new UUID.
+- Automatically generates `tutorial.yml`, `professor.yml`, `project.yml` and `.md` files with a new UUID.
 - Creates the correct folder structure automatically.
 - Saves recurring inputs (local path, language, GitHub ID, professor ID) in a JSON file so you don’t need to re-enter them next time.
-- **Note:** The builder's information is now handled differently. Instead of entering a builder's name, you must enter the builder's **Project ID** (UUID). The script will verify this UUID in the `resources/builders` folder and, if found, display the builder’s name for confirmation.
-- From now on, there is a function to search for the builder by name and automatically return the correct `projectId`.
+- Function to search for the project, prof and tags by name and automatically return the correct `UUID` or tag.
 - A modern GUI built with CustomTkinter.
 
 I have integrated the `appdirs` library to manage user-specific configuration. In practice, the JSON settings file (which stores recurring inputs like your local path, language, GitHub ID, and professor ID) is saved in a directory dedicated to the user, outside of the repository clone (for example, under `%LOCALAPPDATA%` or `%APPDATA%` on Windows, and in `~/.config/` on Linux). This ensures that even if you execute the script directly from your repository clone, your personal configuration is not tracked by Git. And you will also be able to get my script updates directly by updating your clone.
@@ -15,10 +21,10 @@ I have integrated the `appdirs` library to manage user-specific configuration. I
 ## Requirements
 
 - Python 3.8+
-- `CustomTkinter` and `appdirs` libraries. Install with:
+- Install the dependencies :
 
 ```bash
-pip install customtkinter appdirs
+pip install -r requirements.txt
 ````
 
 ## How to Use
@@ -27,36 +33,13 @@ pip install customtkinter appdirs
 2. Run the script:
 
 ```bash
-python new-tutorial-creation.py
+python3 main.py
 ```
 
-3. Fill in the fields in the GUI:
-    
-    - **Local path:** Your local path to the `/tutorials` folder (e.g., `.../bitcoin-educational-content/tutorials/`).
-    - **Language:** Select the language in which you will write the tutorial. Use "_Main languages_" for English, French, Italian, or Spanish; otherwise, select "_Other languages_".
-    - **Category/Subcategory/Difficulty:** Choose the category, subcategory, and difficulty level for your tutorial.
-    - **Folder name:** Enter the folder name for your tutorial. This will also form part of the tutorial's URL, so use only lowercase letters, numbers, and hyphens.
-    - **Builder name:** Type the beginning of the builder's name to search for it and select it from the dropdown menu. Its `projectId` will automatically be filled in the field below. You can also enter it manually.
-    - **Project ID:** **Enter the builder's Project ID (UUID).** The application will search in the `resources/builders` folder (located at the same level as your `/tutorials` folder) for a builder with this UUID.
-        - If found, the builder’s name will be displayed for confirmation.
-        - If not found, you will receive a warning and can choose to continue anyway or cancel.
-    - **Tags:** Choose 2 or 3 tags.
-    - **Contributor's GitHub ID and PBN professor's ID:** Enter your GitHub ID and your internal professor ID.
+3. Fill in the required fields on the homepage, then click on a button corresponding to the resource you want to create.  
 
-4. Click **"Create Tutorial"** to generate the folder structure and files.
+4. Fill in the specific fields requested for your resource, then click the "Create..." button to generate the necessary files and structure.  
+
+For projects and professors, there’s nothing else to do. Everything is created by the app, so you can proceed with a PR. For tutorials, only the document templates are created. You will need to write the tutorial and place the images in the appropriate folder before making the PR.
 
 Upon closing, the software automatically saves your recurring inputs (local path, language, GitHub ID, professor ID) in a JSON file.
-
-The GUI uses the default light and blue theme of CustomTkinter. You can switch to dark mode by clicking the "_Toggle Theme_" button.
-
-## Files Generated
-
-```
-local_tutorials_path/
-├── category_name/
-    ├── tutorial_name/
-        ├── assets/
-        │   └── [language_code]/
-        ├── tutorial.yml
-        └── [language_code].md
-```

@@ -2,7 +2,6 @@
 name: Creating a Bitcoin Community or Meet-up
 goal: Easily create and organize a Bitcoin community or meet-up
 objectives: 
-
   - Learn how to create a Bitcoin community and/or meet-up?
   - Building a visual and digital identity for your community, and what tools to start with?
   - Set annual goals for your community

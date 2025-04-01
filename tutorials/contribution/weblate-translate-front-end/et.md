@@ -14,7 +14,7 @@ Selles õpetuses näitame teile, kuidas saate hõlpsasti kaasa aidata meie veebi
 
 Õppesisu tõlkimiseks kasutame [tehisintellekti](https://github.com/Asi0Flammeus/LLM-Translator). Seejärel kutsume nendes failides olevate võimalike vigade parandamiseks korrektoreid üles andma oma panuse. Kui soovite mõnda sisu korrektuurida, vaadake järgmist juhendmaterjali:
 
-https://planb.network/tutorials/contribution/content/content-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
 Kui aga olete huvitatud veebilehe staatiliste elementide (välja arvatud õppesisu) tõlkimisest, siis olete õiges kohas! Frontend'i tõhusaks tõlkimiseks kasutame tööriista Weblate, mida on väga lihtne kasutada ja mis hõlbustab tõlkimisele lähenemist.
 
 Kui soovite lisada Plan ₿ Network'ile täiesti uue keele, võtke kindlasti ühendust Plan ₿ Network'i meeskonnaga meie [Telegrami grupi](https://t.me/PlanBNetwork_ContentBuilder) kaudu. Kui teil ei ole telegrammi, võite saata e-kirja aadressil mari@planb.network. Kirjuta kindlasti väike tutvustus selle kohta, kes sa oled ja milliseid keeli sa räägid.

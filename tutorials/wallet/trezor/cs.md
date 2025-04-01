@@ -78,11 +78,23 @@ Dále uvidíte toto:
 
 ![image](assets/9.webp)
 
-Na zařízení si poznamenejte slova, která se vám jedno po druhém zobrazují, PEČLIVĚ a VE SPRÁVNÉM POŘADÍ.
+Váš Trezor vám zobrazí vaši mnemotechnickou frázi složenou z 12 slov. **Tato mnemotechnická fráze poskytuje plný a neomezený přístup ke všem vašim bitcoinům**. Každý, kdo tuto frázi získá, může vaše prostředky odcizit, i když nemá fyzický přístup k vašemu Trezoru. Tato 12slovná fráze umožňuje obnovit přístup k vašim bitcoinům v případě ztráty, krádeže nebo poškození vašeho hardwarového peněženky. Je proto velmi důležité ji pečlivě uložit a uchovávat na bezpečném místě.
+
+Můžete ji zapsat na kartonový papír dodaný v balení, nebo pro vyšší bezpečnost doporučuji ji vyrýt na nerezový ocelový podklad, aby byla chráněna proti požárům, povodním nebo zřícení.
+
+Pro více informací o správném způsobu zálohování a správy vaší mnemotechnické fráze vám důrazně doporučuji sledovat tento další návod, zejména pokud jste začátečník:
+
+https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 
 ![image](assets/10.webp)
 
-Nastavte PIN pro uzamčení zařízení (to není součást vašeho seedu, je to jen pro uzamčení zařízení, aby do něj nikdo nemohl získat přístup k seedu uvnitř).
+Následuje krok nastavení PIN kódu. PIN kód slouží k odemknutí vašeho Trezoru. Jedná se tedy o ochranu proti neoprávněnému fyzickému přístupu. Tento PIN kód však nehraje roli při odvozování kryptografických klíčů vaší peněženky. To znamená, že i bez přístupu k tomuto PIN kódu vám vlastnictví vaší mnemotechnické fráze složené z 12 nebo 24 slov umožní znovu získat přístup k vašim bitcoinům.
+
+Doporučuje se zvolit co nejvíce náhodný PIN kód. Ujistěte se také, že tento PIN kód uložíte na jiné místo než váš Trezor (například v správci hesel).
+
+Můžete si zvolit PIN kód až o 9 číslicích. Doporučuji, aby byl co nejdelší.
+
 
 ![image](assets/11.webp)
 Máte možnost přidat do své peněženky shitcoiny – naléhavě vás žádám, abyste to nedělali, a šetřili pouze v Bitcoinu, jak vysvětluji zde (proč bitcoin) a zde (proč pouze bitcoin).
@@ -92,11 +104,21 @@ Pojmenujte svou peněženku a klikněte na „Přístup k Suite“:
 
 ![image](assets/13.webp)
 
-Nejjednodušší je vytvořit peněženku bez heslové fráze, ale nejlepší je vytvořit jednu s heslovou frází (vaše skutečná peněženka) A jednu bez heslové fráze (vaše návnadová peněženka). Při každém přístupu k zařízení prostřednictvím Trezor Suite budete dotázáni, zda chcete heslovou frázi „použít“ nebo ne.
+Než budete pokračovat, můžete, pokud chcete, přidat passphrase BIP39. Passphrase BIP39 je volitelné heslo, které si můžete libovolně zvolit a které se přidává k vaší mnemotechnické frázi, aby se zvýšila bezpečnost vaší peněženky. S aktivovanou touto funkcí bude přístup k vaší Bitcoin peněžence vyžadovat jak mnemotechnickou frázi, tak passphrase. Bez jedné nebo druhé nebude možné peněženku obnovit.
+
+Před nastavením této možnosti na vašem Trezoru se důrazně doporučuje přečíst si tento článek, abyste dobře pochopili teoretické fungování passphrase a předešli chybám, které by mohly vést ke ztrátě vašich bitcoinů:
+
+https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
+Pro její aktivaci je třeba vybrat možnost „Hidden wallet“ a poznamenat si ji do příslušného pole. Pokaždé, když budete přistupovat ke své peněžence prostřednictvím Trezor Suite, bude vám položena otázka, zda chcete passphrase použít nebo ne.
+
 
 ![image](assets/14.webp)
 
-Vybral jsem „Skrytou peněženku“ a zadal heslovou frázi, kterou jsem si vymyslel „craigwrightisaliarandafraud“
+Je také důležité dobře zálohovat tuto passphrase, stejně jako mnemotechnickou frázi. Její ztráta se rovná ztrátě přístupu k bitcoinům. Důrazně vám nedoporučuji spoléhat se pouze na zapamatování této passphrase, protože to neúměrně zvyšuje riziko její ztráty. Ideální je zapsat si ji na fyzický nosič (papír nebo kov) oddělený od mnemotechnické fráze. Tuto zálohu je samozřejmě nutné uložit na jiném místě než mnemotechnickou frázi, aby nebyly ohroženy současně.
+
+Aby byla efektivní, musíte si vybrat silnou, náhodnou passphrase, která zahrnuje všechny typy znaků a je dostatečně dlouhá (jako silné heslo).
+
 
 ![image](assets/15.webp)
 

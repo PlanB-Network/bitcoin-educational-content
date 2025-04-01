@@ -1,0 +1,11 @@
+question: Lightning Network का Bitcoin के संदर्भ में क्या मतलब है?
+answer: दूसरी Layer तकनीक Bitcoin की एक पूरी नई दृष्टि लेकर आती है।
+wrong_answers:
+  - Bitcoin खनिकों का एक नेटवर्क।
+  - एक नए प्रकार का Bitcoin।
+  - Bitcoin ट्रेडिंग प्लेटफॉर्म।
+explanation: |
+  Lightning Network एक Layer 2 भुगतान प्रोटोकॉल है जो इस पर काम करता है।
+  Blockchain आधारित क्रिप्टोकरेंसी (जैसे Bitcoin) के शीर्ष पर। इसे सक्षम बनाने के लिए डिज़ाइन किया गया है।
+  भाग लेने वाले नोड्स के बीच तेज़ लेन-देन।
+reviewed: false

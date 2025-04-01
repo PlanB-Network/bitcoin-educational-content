@@ -78,11 +78,22 @@ Seuraavaksi näet tämän:
 
 ![image](assets/9.webp)
 
-Laitteessa, katso sinulle yksi kerrallaan esitetyt sanat ja kirjoita ne SIISTISTI ja JÄRJESTYKSESSÄ.
+Trezorisi näyttää 12-sanaisen muistisanalauseesi. **Tämä muistisanalause antaa täyden ja rajoittamattoman pääsyn kaikkiin bitcoineihisi**. Kuka tahansa, jolla on hallussaan tämä lause, voi varastaa varasi ilman fyysistä pääsyä Trezoriisi. 12-sanaisen lauseen avulla voit palauttaa pääsyn bitcoineihisi, jos laitteesi katoaa, varastetaan tai rikkoutuu. Siksi on erittäin tärkeää tallentaa se huolellisesti ja säilyttää turvallisessa paikassa.
+
+Voit kirjoittaa sen pakkauksen mukana toimitettuun kartonkipaperiin tai turvallisuuden parantamiseksi suosittelen kaivertamaan sen ruostumattomaan teräkseen, jotta se olisi suojattu tulipaloilta, tulvilta tai sortumisilta.
+
+Lisätietoja siitä, kuinka varmuuskopioida ja hallita muistisanalauseesi oikein, suosittelen lämpimästi seuraamaan tätä muuta ohjetta, erityisesti jos olet aloittelija:
+
+https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 
 ![image](assets/10.webp)
 
-Aseta PIN-koodi lukitaksesi laitteen (tämä ei ole osa siementäsi, se on vain lukitaksesi laitteen, jotta kukaan ei pääse käsiksi sen sisällä olevaan siemeneen).
+Seuraava vaihe on PIN-koodin määrittäminen. PIN-koodi tarvitaan Trezorin avaamiseen. Se toimii suojana luvattomalta fyysiseltä pääsyltä. Tämä PIN-koodi ei osallistu lompakkosi kryptografisten avainten johdannaisiin. Näin ollen, vaikka et pääsisi tähän PIN-koodiin, omistamalla 12 tai 24 sanan muistisanalauseen voit silti palauttaa pääsyn bitcoineihisi.
+
+On suositeltavaa valita mahdollisimman satunnainen PIN-koodi. Varmista myös, että säilytät tämän koodin erillisessä paikassa Trezoristasi (esimerkiksi salasanojen hallintaohjelmassa).
+
+Voit valita PIN-koodin, jossa on enintään 9 numeroa. Suosittelen, että teet siitä mahdollisimman pitkän.
 
 ![image](assets/11.webp)
 Sinulla on vaihtoehtoja lisätä shitcoineja lompakkoosi – kehotan sinua olemaan tekemättä niin ja säästämään vain Bitcoiniin, kuten selitän täällä (miksi bitcoin) ja täällä (miksi vain bitcoin).
@@ -92,11 +103,21 @@ Nimeä lompakkosi ja klikkaa "Access Suite":
 
 ![kuva](assets/13.webp)
 
-Yksinkertaisinta on luoda lompakko ilman salasanaa, mutta parasta on luoda yksi salasanalla (oikea lompakkosi) JA yksi ilman salasanaa (harhautuslompakkosi). Joka kerta, kun käytät laitetta Trezor Suiten kautta, sinulta kysytään, haluatko "soveltaa" salasanaa vai ei.
+Ennen kuin jatkat, voit halutessasi lisätä BIP39-passphrasen. BIP39-passphrase on valinnainen salasana, jonka voit vapaasti valita, ja se lisätään muistisanalauseeseesi parantaaksesi lompakkosi turvallisuutta. Tämän ominaisuuden ollessa käytössä Bitcoin-lompakkosi käyttö edellyttää sekä muistisanalauseen että passphrasen. Ilman jompaa kumpaa olisi mahdotonta palauttaa lompakkoa.
+
+Ennen tämän vaihtoehdon määrittämistä Trezorissasi on erittäin suositeltavaa lukea tämä artikkeli, jotta ymmärrät passphrasen teoreettisen toiminnan täysin ja vältyt virheiltä, jotka voivat johtaa bitcoiniesi menettämiseen:
+
+https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
+Sen aktivoimiseksi sinun täytyy valita "Hidden wallet" -vaihtoehto ja merkitä se vastaavaan kenttään. Joka kerta, kun käytät lompakkoasi Trezor Suite:n kautta, sinulta kysytään, haluatko käyttää passphrasea vai ei.
+
 
 ![kuva](assets/14.webp)
 
-Valitsin "Hidden Wallet" ja kirjoitin keksimäni salasanan "craigwrightisaliarandafraud"
+On myös tärkeää varmuuskopioida tämä passphrase samalla tavalla kuin muistisanalause. Sen menettäminen tarkoittaa bitcoinien menettämistä. En suosittele luottamaan pelkästään muistiisi, koska tämä lisää kohtuutonta riskiä sen menettämisestä. Ihanteellisesti sinun tulisi kirjoittaa se ylös fyysiselle alustalle (paperille tai metallille), joka on erillään muistisanalauseesta. Tämä varmuuskopio tulisi tietysti säilyttää eri paikassa kuin muistisanalause, jotta molemmat eivät vaarantuisi samanaikaisesti.
+
+Jotta se olisi tehokas, sinun tulee valita vahva, satunnainen passphrase, joka sisältää kaikki merkkityypit ja on riittävän pitkä (kuten vahva salasana).
+
 
 ![kuva](assets/15.webp)
 

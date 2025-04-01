@@ -1048,6 +1048,8 @@ Oggi il Bitcoin continua a sopravvivere e a crescere, integrandosi sempre di pi√
 
 ![image](assets/en/71.webp)
 
+
+
 ## Ottenere Bitcoin lavorando
 
 <chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>
@@ -1085,6 +1087,10 @@ https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4
 https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Soluzione per grandi strutture o appassionati di bitcoiners: Server BTCpay
+
+Per approfondire questo argomento, ti consigliamo la nostra formazione BIZ101! Scopri come integrare efficacemente il bitcoin nella tesoreria della tua azienda, accettare bitcoin come mezzo di pagamento in base al profilo della tua organizzazione e comprendere i requisiti fiscali e contabili associati:
+
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## Risparmiare con i Bitcoin
 

@@ -626,7 +626,7 @@ Liker et retweeter sur les réseaux sociaux les posts des autres communautés pe
 ####
 En parallèle, il est évidemment possible de **proposer aux organisateurs de meet-ups et aux bitcoiners ayant créé une communauté de se réunir deux ou trois fois dans l'année en visio afin de faire un point sur l'évolution des projets nationaux et des communautés associées. Cela peut également se faire lors des événements physiques**, l'objectif étant simple: écouter le ressenti de chacun, discuter de l'évolution des communautés présentes, mais aussi partager des idées et projets qui ont aboutis, de proposer des solutions lorsque cela est nécessaire, etc. Un bilan écrit de cette réunion peut même être partagé après cette "réunion" aux organisateurs(rices) des communautés de votre pays qui n'étaient pas présent(e)s.
 
-## [Btcmap.org](https://btcmap.org/)
+## BTC Map
 <chapterId>365f43d4-7b2c-5961-a184-157b8c1a0116</chapterId>
 
 À ce stade, votre communauté est déjà lancée. Il ne reste plus qu'à attendre l'arrivée de nouvelles personnes intéressées dans l'optique de la développer.

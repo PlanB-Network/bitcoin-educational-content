@@ -14,7 +14,7 @@ Tässä opetusohjelmassa näytämme sinulle, miten voit helposti osallistua sivu
 
 Koulutussisällön kääntämiseen käytämme [tekoälyä] (https://github.com/Asi0Flammeus/LLM-Translator). Tämän jälkeen pyydämme oikolukijoita osallistumaan tiedostojen mahdollisten virheiden korjaamiseen. Jos haluat oikolukea jotakin sisältöä, tutustu seuraavaan ohjeeseen:
 
-https://planb.network/tutorials/contribution/content/content-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
 Toisaalta, jos olet kiinnostunut kääntämään verkkosivuston staattisia elementtejä (lukuun ottamatta opetussisältöä), olet oikeassa paikassa! Etusivun tehokkaaseen kääntämiseen käytämme Weblate-työkalua, joka on erittäin helppokäyttöinen ja helpottaa kääntämistä.
 
 Jos haluat lisätä kokonaan uuden kielen Plan ₿ Network, ota yhteyttä Plan ₿ Network -tiimiin [Telegram-ryhmässä](https://t.me/PlanBNetwork_ContentBuilder). Jos sinulla ei ole telegramia, voit lähettää sähköpostia osoitteeseen mari@planb.network. Muista kirjoittaa pieni esittely siitä, kuka olet ja mitä kieliä puhut.

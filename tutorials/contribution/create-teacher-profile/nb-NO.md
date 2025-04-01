@@ -78,7 +78,6 @@ Fyll ut den nødvendige informasjonen (vær oppmerksom på at all denne informas
 
 - Navn på lærerfilen (bruk for- og etternavn eller et pseudonym, med små bokstaver) ;
 - Ditt navn eller kallenavn ;
-- Tilfeldig generering av påloggingen din ;
 - Ditt nettsted og din profil X (valgfritt) ;
 - En Lightning Address for å motta donasjoner fra leserne (valgfritt) ;
 - Velg 2 eller 3 tagger fra listen;

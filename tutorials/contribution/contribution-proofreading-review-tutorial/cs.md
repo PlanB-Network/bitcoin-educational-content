@@ -33,13 +33,13 @@ K recenzování obsahu nemusíte být odborníkem na GitHub. I když je vždy le
 
 Pokud však Git a GitHub neznáte a chcete se dozvědět více, můžete se podívat na náš úvodní článek o těchto nástrojích:
 
-https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 ## 1. Vytvoření účtu
 
 
 - Vytvořte si účet na [GitHub](https://github.com/) a začněte přispívat. Pokud chcete získat návod k vytvoření účtu GitHub, máme pro vás také podrobný návod:
 
-https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 - Budete také potřebovat účet v aplikaci pro zasílání zpráv [Telegram](https://telegram.org/).
 

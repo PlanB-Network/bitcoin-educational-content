@@ -1231,7 +1231,4 @@ Bước tiếp theo là thử thách bản thân bằng bài kiểm tra tổng h
 ## Phần kết luận
 
 <chapterId>15f62056-c69c-467e-9565-af48d439a1f5</chapterId>
-
-Xin chúc mừng vì đã hoàn thành khóa học này!
-
-Chúng tôi rất vui mừng khi bạn đã đạt được cột mốc này trong hành trình học tập của mình. Nhờ sự tận tâm và cam kết, bạn đã có được kiến thức và kỹ năng giá trị giúp ích cho sự phát triển nghề nghiệp của bạn.
+<isCourseConclusion>true</isCourseConclusion>

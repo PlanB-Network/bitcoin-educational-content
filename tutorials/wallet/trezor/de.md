@@ -78,11 +78,23 @@ Als nächstes sehen Sie dies:
 
 ![image](assets/9.webp)
 
-Auf dem Gerät sehen Sie die Ihnen nacheinander präsentierten Wörter und schreiben sie ORDENTLICH und IN DER REIHENFOLGE auf.
+Ihr Trezor zeigt Ihnen Ihre 12-Wörter-Mnemonik an. **Diese Mnemonik gewährt vollen und uneingeschränkten Zugang zu all Ihren Bitcoins**. Jeder, der im Besitz dieser Mnemonik ist, kann Ihre Gelder stehlen, auch ohne physischen Zugang zu Ihrem Trezor. Die 12-Wörter-Mnemonik ermöglicht es, den Zugang zu Ihren Bitcoins wiederherzustellen, falls Ihr Hardware-Wallet verloren geht, gestohlen wird oder beschädigt wird. Daher ist es sehr wichtig, diese sicher zu sichern und an einem sicheren Ort aufzubewahren.
+
+Sie können sie auf das mitgelieferte Kartonpapier schreiben oder, für mehr Sicherheit, empfehle ich, sie auf eine Edelstahlplatte zu gravieren, um sie vor Brand, Überschwemmung oder Einsturz zu schützen.
+
+Für weitere Informationen zum richtigen Sichern und Verwalten Ihrer Mnemonik empfehle ich dringend, dieses Tutorial zu befolgen, insbesondere wenn Sie ein Anfänger sind:
+
+https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 
 ![image](assets/10.webp)
 
-Legen Sie eine PIN fest, um das Gerät zu sperren (dies ist kein Teil Ihres Seeds, sondern dient nur dazu, das Gerät zu sperren, damit niemand auf den darin enthaltenen Seed zugreifen kann).
+Der nächste Schritt ist die Einrichtung des PIN-Codes. Der PIN-Code dient zum Entsperren Ihres Trezors. Er bietet somit Schutz vor unbefugtem physischen Zugriff. Dieser PIN-Code ist jedoch nicht an der Ableitung der kryptografischen Schlüssel Ihrer Wallet beteiligt. Das bedeutet, dass selbst ohne Zugriff auf diesen PIN-Code der Besitz Ihrer 12- oder 24-Wörter-Mnemonik Ihnen den Zugriff auf Ihre Bitcoins ermöglicht.
+
+Es wird empfohlen, einen möglichst zufälligen PIN-Code zu wählen. Stellen Sie außerdem sicher, dass dieser Code an einem anderen Ort als Ihrem Trezor gespeichert wird (zum Beispiel in einem Passwortmanager).
+
+Sie können einen PIN-Code mit bis zu 9 Ziffern wählen. Ich empfehle, ihn so lang wie möglich zu machen.
+
 
 ![image](assets/11.webp)
 
@@ -94,11 +106,21 @@ Gib deiner Wallet einen Namen und klicke auf "Access Suite":
 
 ![image](assets/13.webp)
 
-Am einfachsten ist es, eine Wallet ohne Passphrase zu erstellen, aber es ist am besten, eine mit Passphrase (deine echte Wallet) und eine ohne Passphrase (deine Tarn-Wallet) zu erstellen. Jedes Mal, wenn du über Trezor Suite auf das Gerät zugreifst, wirst du gefragt, ob du die Passphrase "anwenden" möchtest oder nicht.
+Bevor Sie fortfahren, können Sie, wenn Sie möchten, eine BIP39-Passphrase hinzufügen. Eine BIP39-Passphrase ist ein optionales Passwort, das Sie frei wählen können und das zu Ihrer mnemonischen Phrase hinzugefügt wird, um die Sicherheit Ihrer Wallet zu erhöhen. Mit dieser aktivierten Funktion erfordert der Zugriff auf Ihre Bitcoin-Wallet sowohl die mnemonische Phrase als auch die Passphrase. Ohne eines der beiden wäre es unmöglich, die Wallet wiederherzustellen.
+
+Bevor Sie diese Option auf Ihrem Trezor einrichten, wird dringend empfohlen, diesen Artikel zu lesen, um das theoretische Funktionieren der Passphrase vollständig zu verstehen und Fehler zu vermeiden, die zum Verlust Ihrer Bitcoins führen könnten:
+
+https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
+Um diese Funktion zu aktivieren, müssen Sie die Option „Hidden wallet“ auswählen und diese in das entsprechende Feld eintragen. Jedes Mal, wenn Sie auf Ihre Wallet über Trezor Suite zugreifen, werden Sie gefragt, ob Sie die Passphrase anwenden möchten oder nicht.
+
 
 ![image](assets/14.webp)
 
-Ich habe "Hidden Wallet" ausgewählt und eine Passphrase eingegeben, die ich mir ausgedacht habe: "craigwrightisaliarandafraud"
+Es ist auch wichtig, diese Passphrase genauso sorgfältig zu sichern wie die mnemonische Phrase. Ihr Verlust entspricht dem Verlust des Zugriffs auf Ihre Bitcoins. Ich rate dringend davon ab, sich ausschließlich auf Ihr Gedächtnis zu verlassen, da dies das Risiko eines Verlustes erheblich erhöht. Am besten notieren Sie sie auf einem physischen Träger (Papier oder Metall), der getrennt von der mnemonischen Phrase aufbewahrt wird. Diese Sicherung sollte natürlich an einem anderen Ort aufbewahrt werden als Ihre mnemonische Phrase, um zu verhindern, dass beide gleichzeitig kompromittiert werden.
+
+Um wirksam zu sein, sollten Sie eine starke, zufällige Passphrase wählen, die alle Zeichentypen umfasst und ausreichend lang ist (wie ein starkes Passwort).
+
 
 ![image](assets/15.webp)
 

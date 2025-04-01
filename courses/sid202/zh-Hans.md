@@ -1232,7 +1232,4 @@ e1-cli reissueasset <default asset name> <amount>
 ## 结论
 
 <chapterId>15f62056-c69c-467e-9565-af48d439a1f5</chapterId>
-
-祝贺您完成本课程！
-
-我们很高兴您已经成功达到了学习旅程中的这一里程碑。通过您的努力和参与，您获得了宝贵的知识和技能，这将对您的职业发展大有裨益。
+<isCourseConclusion>true</isCourseConclusion>

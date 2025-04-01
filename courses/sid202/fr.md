@@ -1232,7 +1232,4 @@ La prochaine étape consiste à vous lancer un défi en répondant à un questio
 ## Conclusion
 
 <chapterId>15f62056-c69c-467e-9565-af48d439a1f5</chapterId>
-
-Félicitations pour avoir suivi ce cours !
-
-Nous sommes ravis que vous ayez franchi avec succès cette étape de votre parcours d'apprentissage. Grâce à votre dévouement et à votre engagement, vous avez acquis des connaissances et des compétences précieuses qui vous seront utiles dans votre développement professionnel.
+<isCourseConclusion>true</isCourseConclusion>

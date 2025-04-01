@@ -1,12 +1,12 @@
 ---
 name: Liquid Bootcamp Essentials
-goal: Acquérir une compréhension globale du réseau Liquid et du projet Elements, et apprendre à mettre en œuvre des solutions avancées en matière de transactions confidentielles, de symbolisation et d'architecture de réseau décentralisé.
+goal: Acquérir une compréhension globale du réseau Liquid et du projet Elements, et apprendre à mettre en œuvre des solutions avancées en matière de transactions confidentielles, de tokenisation et d'architecture de réseau décentralisé.
 objectives: 
 
-  - Comprendre les principes fondamentaux de l'architecture liquide et sa relation avec le bitcoin.
+  - Comprendre les principes fondamentaux de l'architecture du réseau Liquid et sa relation avec le bitcoin.
   - Apprendre à configurer et à utiliser les nœuds Liquid à l'aide du logiciel Elements.
   - Étudier l'utilisation de transactions confidentielles et l'émission d'actifs sur le réseau Liquid.
-  - Comprendre les aspects commerciaux et techniques du liquide pour les applications sur les marchés des capitaux.
+  - Comprendre les aspects commerciaux et techniques du réseau Liquid pour les applications sur les marchés des capitaux.
 
 ---
 # Introduction au réseau Liquid
@@ -28,7 +28,7 @@ Bienvenue au Liquid Bootcamp, une formation complète conçue pour vous doter de
 
 Tout au long du camp d'entraînement, vous explorerez les applications pratiques du réseau Liquid, de la mise en place et de l'exploitation des nœuds à la compréhension de son utilisation dans les marchés de capitaux de Bitcoin et de la tokenisation. Grâce aux présentations d'experts de l'industrie, vous aurez également un aperçu des sujets avancés tels que les HTLC, le SDK Breeze et le projet Blockstream AMP.
 
-Ce camp d'entraînement était à l'origine organisé en personne, selon un programme structuré (comme le montre l'image) conçu pour des sessions en direct. Cependant, pour cette adaptation du cours, le contenu a été réorganisé pour mieux convenir à un format en ligne et faciliter la compréhension des étudiants. Le nouvel ordre assure une progression logique entre les concepts fondamentaux et les sujets plus techniques et avancés, maximisant ainsi l'expérience d'apprentissage.
+Ce camp d'entraînement était à l'origine organisé en présentiel, selon un programme structuré (comme le montre l'image) conçu pour des sessions en direct. Cependant, pour cette adaptation du cours, le contenu a été réorganisé pour mieux convenir à un format en ligne et faciliter la compréhension des étudiants. Le nouvel ordre assure une progression logique entre les concepts fondamentaux et les sujets plus techniques et avancés, maximisant ainsi l'expérience d'apprentissage.
 
 Cette formation est structurée de manière à pouvoir accueillir des participants ayant des niveaux d'expertise variés, en offrant un mélange de connaissances théoriques et d'expériences pratiques. A la fin de ce bootcamp, vous aurez une solide compréhension de l'architecture de Liquid, de son intégration avec Bitcoin, et de la manière d'utiliser ses fonctionnalités innovantes pour construire et optimiser des solutions financières.
 
@@ -111,4 +111,7 @@ Antonio présente Breeze, un SDK open-source conçu pour les transactions décen
 ## Conclusion
 
 <chapterId>e30a5587-d74b-4360-87fb-bbf3de1b0ba8</chapterId>
-<isCourseConclusion>true</isCourseConclusion>
+
+Félicitations pour avoir suivi ce cours !
+
+Nous sommes ravis que vous ayez franchi avec succès cette étape de votre parcours d'apprentissage. Grâce à votre dévouement et à votre engagement, vous avez acquis des connaissances et des compétences précieuses qui vous seront utiles dans votre développement professionnel.

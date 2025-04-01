@@ -9,7 +9,7 @@ description: Découvrez et installez Umbrel - Votre noeud bitcoin et votre serve
 
 ### Qu'est-ce qu'un nœud Bitcoin ?
 
-Un nœud Bitcoin est un ordinateur qui participe au réseau Bitcoin en exécutant le logiciel Bitcoin Core. Son rôle est essentiel pour le fonctionnement et la sécurité du réseau :
+Un nœud Bitcoin est un ordinateur qui participe au réseau Bitcoin en exécutant le logiciel Bitcoin Core ou un client alternatif. Son rôle est essentiel pour le fonctionnement et la sécurité du réseau :
 
 - **Stockage de la blockchain** : Il maintient une copie complète et à jour de la blockchain Bitcoin
 - **Vérification des transactions** : Il valide chaque transaction et bloc selon les règles du protocole

@@ -1,6 +1,6 @@
 ---
-name: La confidentialité sur Bitcoin
-goal: Comprendre et maîtriser les principes de la protection de la vie privée dans l'utilisation de Bitcoin
+nom: La confidentialité sur Bitcoin
+but: Comprendre et maîtriser les principes de la protection de la vie privée dans l'utilisation de Bitcoin
 objectifs:
   - Définir les notions théoriques nécessaires à la compréhension des enjeux de la protection de la vie privée 
   - Savoir identifier et mitiger les risques liés à la perte de confidentialité de l'utilisateur de Bitcoin 

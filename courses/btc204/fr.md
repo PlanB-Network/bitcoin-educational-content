@@ -2997,7 +2997,7 @@ Avant d’aborder les mécanismes de Diffie-Hellman, permettez-moi de vous rappe
 
 - Alice et Bob conviennent de deux nombres communs : $p$ et $g$. $p$ est un nombre premier, et plus ce nombre est grand, plus Diffie-Hellman sera sécurisé. $g$ est une racine primitive de $p$. Ces deux nombres peuvent être communiqués en clair sur un réseau non sécurisé. Ils représentent l'équivalent de **la couleur jaune** dans la vulgarisation précédente. Il est donc important qu'Alice et Bob utilisent exactement les mêmes valeurs pour $p$ et $g$.
 
-- Une fois ces paramètres définis, Alice et Bob choisissent chacun un nombre aléatoire secret. Alice nomme son nombre aléatoire secret $a$ (équivalent de **la couleur rouge**) et Bob nomme le sien $b$ (équivalent de **la couleur bleu**). Ces nombres doivent impérativement rester secrets.
+- Une fois ces paramètres définis, Alice et Bob choisissent chacun un nombre aléatoire secret. Alice nomme son nombre aléatoire secret $a$ (équivalent de **la couleur rouge**) et Bob nomme le sien $b$ (équivalent de **la couleur bleue**). Ces nombres doivent impérativement rester secrets.
 
 - Plutôt que d'échanger directement les nombres $a$ et $b$, chaque partie calcule $A$ et $B$ de la manière suivante :
 
@@ -3013,7 +3013,7 @@ $$
 B = g^b \bmod p
 $$
 
-- Les valeurs $A$ (équivalent de **la couleur orange**) et $B$ (équivalent de **la couleur vert**) sont échangées entre les deux parties. Cet échange peut s'effectuer en clair sur un réseau non sécurisé ;
+- Les valeurs $A$ (équivalent de **la couleur orange**) et $B$ (équivalent de **la couleur verte**) sont échangées entre les deux parties. Cet échange peut s'effectuer en clair sur un réseau non sécurisé ;
 
 - Alice, ayant reçu $B$, elle calcule la valeur de $z$ de la manière suivante :
 
@@ -3961,7 +3961,7 @@ La proposition des Silent Payments est relativement récente et n'a été implé
 - [Silentium](https://app.silentium.dev/)
 - [DonationWallet](https://github.com/Sosthene00/donationwallet)
 
-Nous vous proposerons prochaînement un tutoriel détaillé pour mettre en place votre propre adresse statique de Silent Payments.
+Nous vous proposerons prochainement un tutoriel détaillé pour mettre en place votre propre adresse statique de Silent Payments.
 
 Puisque cette fonctionnalité est récente, il est conseillé de faire preuve de prudence et d'éviter d'utiliser les Silent Payments pour des montants importants sur le mainnet.
 

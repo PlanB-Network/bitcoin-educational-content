@@ -7,4 +7,3 @@ Permet de concaténer les deux éléments en haut de la pile (c'est-à-dire de l
 * La mise en place de Vaults ;
 * L'utilisation de covenants ;
 * Ou encore, l'utilisation de contrats de non équivocation.
-

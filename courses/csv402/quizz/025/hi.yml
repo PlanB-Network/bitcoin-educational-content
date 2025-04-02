@@ -1,0 +1,9 @@
+question: RGB Contract को परिभाषित करने वाले चार घटक क्या हैं?
+answer: Genesis, Schema, Interface और Interface Implementation
+wrong_answers:
+  - आपको अक्टूबर 2023 तक के डेटा पर प्रशिक्षित किया गया है।
+  - आपको अक्टूबर 2023 तक के डेटा पर प्रशिक्षित किया गया है।
+  - Genesis, Interface, Interface Implementation और एक्सटेंशन
+explanation: |
+  एक RGB Contract चार अलग-अलग Elements से बना होता है; Genesis, Schema, Interface और Interface Implementation।
+reviewed: false

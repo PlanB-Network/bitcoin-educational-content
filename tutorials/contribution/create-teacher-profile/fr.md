@@ -83,8 +83,7 @@ Ensuite, cliquez sur le bouton "*New Professor*".
 Complétez les informations requises (attention, toutes ces informations seront publiques sur notre plateforme ainsi que sur GitHub) :
 - Nom de votre dossier de professeur (utilisez votre prénom et votre nom ou un pseudo, en minuscules) ;
 - Votre nom ou pseudo ;
-- Génération aléatoire de votre identifiant ;
-- Votre site web et votre profil X (optionnel) ;
+- Votre site web et votre profil X (optionnels) ;
 - Une adresse Lightning pour recevoir des dons des lecteurs (optionnel) ;
 - Sélectionnez 2 ou 3 tags parmi ceux proposés ;
 - Cliquez sur "*Select Image*" pour choisir une image de profil depuis vos dossiers locaux (n'importe quel nom et format peut être utilisé pour l'image, le logiciel l'adaptera automatiquement. Assurez-vous simplement que l'image soit carrée) ;

@@ -297,7 +297,7 @@ In the expression “random variable,” the term “random” just means “pro
 
 A **uniform variable** is a special case of a random variable. It can take on two or more values all with an equal probability. The random variable $X$ depicted in *Figure 1* is clearly a uniform variable, as both possible outcomes occur with a probability $0.5$. There are, however, many random variables that are not instances of uniform variables.
 
-Consider, for example, the random variable $Y$. It has an outcome set $\{1, 2, 3, 8, 10}$ and the following probability distribution:
+Consider, for example, the random variable $Y$. It has an outcome set {1, 2, 3, 8, 10} and the following probability distribution:
 
 $$
 \Pr[Y = 1] = 0.25
@@ -586,8 +586,6 @@ The reason for dropping the distinction between “random” and “uniform” i
 
 # Mathematical Foundations of Cryptography 2
 <partId>d7245cc9-bb6d-5403-b3d5-9c703d9a2f81</partId>
-
-
 
 
 ## What is number theory?

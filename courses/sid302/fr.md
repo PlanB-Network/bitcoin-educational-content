@@ -111,7 +111,4 @@ Antonio présente Breeze, un SDK open-source conçu pour les transactions décen
 ## Conclusion
 
 <chapterId>e30a5587-d74b-4360-87fb-bbf3de1b0ba8</chapterId>
-
-Félicitations pour avoir suivi ce cours !
-
-Nous sommes ravis que vous ayez franchi avec succès cette étape de votre parcours d'apprentissage. Grâce à votre dévouement et à votre engagement, vous avez acquis des connaissances et des compétences précieuses qui vous seront utiles dans votre développement professionnel.
+<isCourseConclusion>true</isCourseConclusion>

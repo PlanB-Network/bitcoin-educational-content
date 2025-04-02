@@ -1,24 +1,25 @@
 # generate a random uuid v4
-id: ef222a06-cd58-454a-8982-3d8d809aca0a
+id: d2bd90b2-929a-4b1e-9bfb-359863cc08f0
 
 # complete title of the content, don't forget the ".."
-title: "Satoshi's First News"
+title: "title_of_the_movie"
 
 # write the full name of (all) the author(s)
-author: John Doe
+author: Jane Doe
 
-# Define the difficulty of the newsletter
-# Choose between beginner, intermediate, advanced, expert
-level: intermediate
+publication_year: 2009
 
-# when the newsletter has started
-publication_date: YYYY-MM-DD
+# duration is expressed in minutes
+duration: 60
 
-link:
-  - website: https://newsletter_link_here.com
-
+# language of original audio of the content
 # Insert 2-digits ISO 639 language code (e.g. en for English, es for Spanish, th for Thai, etc...)
 language: en
+
+# all the movies posted here must be legit, most of them will be published on hosted services like YouTube, but this is not a rule
+links:
+  platform: https://youtu.be/AxbZq8Zmd88
+  trailer: https://youtu.be/AxbZq8Zmd88
 
 description: |
   Write like
@@ -32,9 +33,9 @@ contributor_names:
   - author1_github_username #insert your github username
 
 # Tags
-# List the associated tags to the newsletter
+# List the associated tags to the podcast
 # The list of tags is composed of 51 items that can be found here (bitcoin-education-content/docs/50-planb-tags.md)
 tags:
-  - market-trends
-  - onchain
-  - investment
+  - cypherpunk
+  - future-outlook
+  - high-level

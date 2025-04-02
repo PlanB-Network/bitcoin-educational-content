@@ -9,7 +9,7 @@ title: "This is an awesome title"
 publication_year: 2009
 
 # cover
-# Assign the corresponding cover file. This is for translated cover
+# Assign the corresponding cover file for the language. This is for translated cover
 cover: cover_en.webp
 
 # original
@@ -19,14 +19,6 @@ original: true
 # description
 # Write a description of the book
 description: |
-  This a description of this fake awesome book. The description can be as long as you want. 
-  It can also be on multiple lines, like I'm doing right now. 
+  This a description of this fake awesome book. The description can be as long as you want.
+  It can also be on multiple lines, like I'm doing right now.
   Awesome, isn't?
-
-# contributors
-# List who is/are the contributors who help format, review,
-# translate the course.
-# They are identified by their UUID
-# Currently, there are no shared record of these UUIDs
-contributor_names:
-  - Asi0Flammeus

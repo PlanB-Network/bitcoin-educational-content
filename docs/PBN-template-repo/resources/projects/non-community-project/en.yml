@@ -1,18 +1,9 @@
-## Language Specific characteristic's of builders
+## Language Specific characteristic's of projects
 
 # description
-# Write a description of the book
+# Write a description of the project
 description: |
   This is used to describe the builder in couple of sentences.
-  And it can span multiple lines 
-  just like 
+  And it can span multiple lines
+  just like
   this
-
-
-# contributors
-# List who is/are the contributors who help format, review,
-# translate the course.
-# They are identified by their UUID
-# Currently, there are no shared record of these UUIDs   
-contributor_names:
-  - Asi0Flammeus

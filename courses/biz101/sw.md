@@ -131,11 +131,11 @@ Mifumo ya malipo ni mbinu na miundomsingi inayowezesha uhamishaji wa fedha kati 
 **Matumizi katika B2C na B2B:**
 
 
-- B2C (Biashara-kwa-Mtumiaji):**
+- **B2C (Biashara-kwa-Mtumiaji):**
     - Wateja mara nyingi hutumia pesa taslimu, kadi na pochi za kidijitali kwa ununuzi wa kila siku—kama vile mboga, ununuzi mtandaoni au huduma kama vile usafiri wa gari.
     - Kasi, urahisi, na ada za chini (kwa watumiaji) mara nyingi ni vipaumbele muhimu.
     - Malipo ya kielektroniki na ya simu ya mkononi yanazidi kuwa maarufu katika nafasi hii kwa sababu ya urahisi wa matumizi.
-- B2B (Biashara-kwa-Biashara):**
+- **B2B (Biashara-kwa-Biashara):**
     - Biashara kwa kawaida hutegemea uhamisho wa kielektroniki, hundi na mifumo ya ankara kwa ajili ya kulipa wasambazaji, kulipa bili kubwa au kushughulikia malipo ya mara kwa mara.
     - Mara nyingi huzingatia ufuatiliaji, uhifadhi wa hati na uwezo wa kushughulikia thamani kubwa zaidi za miamala.
     - Matumizi ya kadi yapo lakini huwa si ya kawaida kwa sababu ya ada ya juu na vikwazo vya ununuzi. Masuluhisho ya kidijitali kama vile mifumo ya malipo iliyojumuishwa yanaibuka ili kurahisisha na kuweka kiotomatiki michakato ya kupokewa/kulipwa.
@@ -156,45 +156,31 @@ Kwa ujumla, mchakato huu ni ngumu, unatumia wakati, na ni wa gharama kubwa kwa k
 
 ### Njia za Kulinganisha za Malipo
 
-| Njia ya Malipo | Idhini Inahitajika?           | Muda wa Kuidhinisha Muamala (Mwonekano wa Muamala) | Kasi ya Ulipaji (Fedha Zimetulia Kabisa) | Mwisho (Urahisi wa Kugeuza) | Idadi ya Waamuzi | Ada za Kawaida (kwa Anayelipwa) |
 
-| ------------------------------ | ------------------------------- | ---------------------------------------- | -------------------------------------------- | --------------------------------------- | ------------------------------ | --------------------------------- |
+| Njia ya Malipo                | Inahitaji Idhini?               | Muda wa Kupitishwa kwa Muamala (Mtazamo wa Muuzaji) | Kasi ya Malipo (Fedha Zimekamilika)            | Ukamilifu (Urahisi wa Kubatilisha)       | Idadi ya Wanaohusika          | Ada za Kawaida (kwa Mpokeaji)     |
+| ----------------------------- | ------------------------------- | -------------------------------------------------- | ---------------------------------------------- | ---------------------------------------- | ----------------------------- | --------------------------------- |
+| **Fedha Taslimu**            | Hapana                          | Mara Moja (Kubadilishana Kimwili)                  | Mara Moja (Hakuna Ucheleweshaji)               | Juu (Haiwezi Kurudishwa Baada ya Kulipa) | Hakuna                        | Hakuna                            |
+| **Hundi**                    | Ndiyo (Benki Kuthibitisha)      | Kukubaliwa Wakati wa Kuweka (Sio Hakikisho)        | Siku Kadhaa (Mchakato wa Kuthibitisha Hundi)   | Wastani (Inaweza Kukataliwa Kabla)       | Benki                         | **Chini hadi Wastani** (Ada za Benki) |
+| **Uhawilishaji wa Fedha**    | Ndiyo (Benki/Mtandao)           | Uthibitisho Ndani ya Masaa                         | Siku Hiyo au Siku Inayofuata (Ndani ya Nchi)   | Juu (Kawaida Haiwezi Kubatilishwa)       | Benki, Mitandao ya Malipo     | **Wastani** (Kiasi Maalum/Asilimia) |
+| **Kadi za Malipo**           | Ndiyo (Idhini ya Mtoaji Kadi)   | Sekunde hadi Dakika (Msimbo wa Idhini)             | Siku Chache (Malipo Kati ya Benki)             | Wastani (Chargebacks Zinawezekana)       | Mtoaji, Mpokeaji, Mtandao wa Kadi | **Inabadilika (1-3% ya Muamala)** |
+| **Mikoba ya Dijitali/Malipo ya Simu** | Ndiyo (Mtoa Huduma/Benki) | Sekunde (Uthibitisho wa Haraka)                  | Kawaida Siku 1-2 (Kutegemea Chanzo cha Fedha)  | Wastani (Kurudisha/Mgogoro Unawezekana)  | Benki, Waendeshaji wa Mikoba  | **Chini hadi Wastani (Inatofautiana)** |
 
-| **Fedha** | Hapana | Papo Hapo (Exchange ya Kimwili) | Hapo Hapo (Hakuna Ucheleweshaji wa Suluhu) | Juu (Haibadilishwi Mara Imelipwa) | Hakuna | Hakuna |
-
-| **Cheki** | Ndiyo (Usafishaji wa Benki) | Kukubalika kwa Amana (Haijahakikishwa) | Siku Kadhaa (Angalia Mchakato wa Kusafisha) | Wastani (Unaweza Kuruka/Kuacha Kabla ya Kusafisha) | Benki | **Chini hadi Kati** (Ada za Benki) |
-
-| **Uhamisho wa Waya** | Ndiyo (Benki/Mtandao) | Uthibitisho Ndani ya Saa | Siku-Same au Siku Inayofuata (Ya Ndani) | Juu (Kawaida Haibadiliki Mara Inapotumwa) | Benki, Mitandao ya Malipo | **Wastani**(Isiyobadilika/Asilimia) |
-
-| **Kadi za Malipo** | Ndiyo (Uidhinishaji wa Mtoa Kadi) | Sekunde hadi Dakika (Msimbo wa Uidhinishaji) | Siku Chache (Interbank Settlement) | Wastani (Malipo Yanawezekana) | Mtoaji, Mpataji, Mtandao wa Kadi | **Inayoweza Kubadilika (1-3% ya Muamala)** |
-
-| **Pochi za Kidijitali/Malipo ya Simu** | Ndiyo (Mtoa Huduma/Benki ya Wallet) | Sekunde (Uthibitisho wa Papo hapo) | Kwa kawaida Siku 1-2 (Inategemea Chanzo cha Ufadhili) | Wastani (Rejesha/Mzozo Unawezekana) | Benki, Waendeshaji wa Wallet | **Chini hadi Kati (Inatofautiana)** |
 
 ### Mapungufu ya suluhisho zilizopo
 
 Sekta ya malipo ya jadi inawakilisha uchumi wa kila mwaka wa takriban dola bilioni 2,200, takriban moja ya kumi ya Pato la Taifa la Marekani au sawa na Pato la Taifa la Ufaransa. Kwa sababu sarafu hufanya kazi kama mitandao iliyoidhinishwa, kuna ushindani mdogo, na kufanya "huduma" hii kuwa sawa na kodi inayotozwa kwa uchumi wenye tija. Mbali na mizigo ya gharama ambayo inaunda, kuna mapungufu mengine kadhaa, kama ilivyoainishwa hapa chini.
 
-| Kizuizi | Ufafanuzi | Athari |
-
-| ------------------------------- | ----------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
-
-| Ada ya Kadi ya Juu | Ada za ubadilishaji (~0.3%), ada za mtandao (zisizobadilika au 0.3% -1%), usajili wa terminal/PSP, na ukingo wa benki (0.5% -1.7%) huongeza hadi gharama kubwa—kama vile "kodi" ya kimataifa kwenye sekta za uzalishaji, inayofikia matrilioni ya dola.     | Huongeza gharama za wauzaji, kupunguza viwango vya juu na uwezekano wa kuongeza bei za watumiaji.                  |
-
-| Suluhu ya Mwisho ya Polepole sana | Ulipaji wa fedha unaweza kuchukua hadi siku 5, kupunguza kasi ya mtiririko wa fedha na shughuli za kiuchumi kwa ujumla.                                                                                                                                | Huchelewesha ukwasi kwa wafanyabiashara na kupunguza kasi ya mzunguko wa kiuchumi.                        |
-
-| Ulaghai | Vituo vya biashara ya mtandao vinalengwa sana na ulaghai, na hivyo kuchangia hasara kubwa (k.m., dola bilioni 28). Malipo yanaweza kufikia ~$174 bilioni duniani kote kufikia 2024. Kudhibiti mizozo hii kunatumia muda na kusababisha mkazo wa kiakili. | Kuongezeka kwa gharama za uendeshaji, hatua tata za kuzuia ulaghai, na kupungua kwa imani ya wateja.       |
-
-| Kutelekezwa kwa Mkokoteni | Hatua za ziada za usalama (misimbo ya mara moja, uthibitishaji wa vipengele viwili chini ya PSD2) huanzisha msuguano wakati wa kulipa.                                                                                                                   | Utata wa juu wa ulipaji husababisha kuongezeka kwa kuachwa kwa mikokoteni na kupoteza mauzo.                       |
-
-| Kiasi cha Chini cha Juu cha Muamala | Kiwango cha chini cha matumizi kwenye kadi kinaweza kuwalazimisha wafanyabiashara na watumiaji katika hali ngumu za bei au ununuzi, hivyo basi kukatisha shughuli za malipo ya bei ndogo.                                                                       | Kupungua kwa kuridhika kwa wateja na kubadilika, kunaweza kuzuia ununuzi wa msukumo au wa bei ya chini.  |
-
-| Uidhinishaji wa Mapema wa polepole | Mifumo ya sasa haiwezi kushughulikia miamala kwa kasi ya milisekunde au kuauni mtiririko wa malipo unaoendelea, wa wakati halisi.                                                                                                                   | Vikomo vya matumizi vinavyohitaji malipo ya papo hapo au ya kutiririsha, yanayozuia uvumbuzi na ukubwa. |
-
-| Haja ya Akaunti ya Benki/Kadi | Ufikiaji wa njia hizi za malipo unahitaji akaunti iliyounganishwa ya benki au kadi, bila kujumuisha zile zisizo na akaunti kama hizo kiotomatiki.                                                                                                       | Inapunguza ujumuishaji wa kifedha, kupunguza ufikiaji kwa watu ambao hawajaweka benki au wasio na benki.                 |
-
-| Uundaji wa Akaunti Mtandaoni unaorudiwa | Watumiaji mara nyingi lazima waunde akaunti nyingi mtandaoni, na kusababisha uchovu, kupunguza urahisi, na kuongezeka kwa ufichuzi wa data ya kibinafsi.                                                                                                | Hudhoofisha utumiaji, huongeza wasiwasi wa faragha, na huongeza hatari ya ukiukaji wa data.          |
-
-| Ada za Kigeni za Exchange (FX) | Ukosefu wa kitengo cha jumla cha akaunti hulazimisha ubadilishaji wa sarafu za gharama kubwa kwa miamala ya kuvuka mipaka.                                                                                                                              | Huongeza gharama za ziada kwa biashara ya kimataifa, na kufanya miamala ya kimataifa kuwa nafuu.             |
+| Upungufu                           | Maelezo                                                                                                                                                                                                                              | Athari                                                                                                 |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
+| Ada za Juu za Kadi                 | Ada za ubadilishanaji (~0.3%), ada za mtandao (kiasi maalum au 0.3%-1%), usajili wa mitambo/PSP, na faida za benki (0.5%-1.7%) zinaongezeka kuwa gharama kubwa—kama "kodi" ya kimataifa kwenye sekta za uzalishaji, ikiwa trilioni. | Inapandisha gharama za wafanyabiashara, kupunguza faida na inaweza kusababisha kupanda kwa bei za bidhaa. |
+| Malipo ya Mwisho Polepole Sana     | Malipo ya fedha yanaweza kuchukua hadi siku 5, kupunguza mzunguko wa pesa na shughuli za kiuchumi kwa jumla.                                                                                                                         | Inachelewa ukwasi kwa wafanyabiashara na kupunguza kasi ya mzunguko wa uchumi.                        |
+| Ulaghai                            | Njia za biashara mtandaoni zinakabiliwa sana na ulaghai, kuchangia hasara kubwa (k.m., dola bilioni 28). Marejesho yanaweza kufikia ~dola bilioni 174 duniani kote ifikapo 2024. Kusimamia migogoro hii kunatumia muda na kusababisha msongo. | Gharama za uendeshaji zimeongezeka, hatua ngumu za kuzuia ulaghai, na kupungua kwa imani ya wateja.    |
+| Kuacha Bidhaa kwenye Kikapu        | Hatua za ziada za usalama (misimbo ya mara moja, uthibitishaji wa vipengele viwili chini ya PSD2) huleta ugumu wakati wa kulipa.                                                                                                     | Ugumu wa kulipa husababisha kuongezeka kwa kuacha bidhaa kwenye vikapu na kupoteza mauzo.             |
+| Viwango vya Juu vya Muamala        | Viwango vya chini vya matumizi kwenye kadi vinaweza kulazimisha wafanyabiashara na watumiaji katika bei isiyofaa au hali za ununuzi, kukatisha tamaa miamala ya thamani ndogo.                                                        | Kupungua kwa kuridhika kwa wateja na urahisi, inaweza kupunguza ununuzi wa ghafla au wa thamani ndogo. |
+| Idhini ya Awali Polepole           | Mifumo ya sasa haiwezi kushughulikia miamala kwa kasi ya milisekunde au kusaidia mtiririko wa malipo wa moja kwa moja, wakati halisi.                                                                                                | Inapunguza matumizi yanayohitaji malipo ya haraka au ya mtiririko, ikizuia ubunifu na upanuzi.        |
+| Haja ya Akaunti ya Benki/Kadi      | Upatikanaji wa njia hizi za malipo unahitaji akaunti ya benki au kadi iliyounganishwa, moja kwa moja ikiwatenga wale wasio na akaunti hizo.                                                                                          | Inapunguza ushirikishwaji wa kifedha, ikipunguza upatikanaji kwa watu wasio na benki.                 |
+| Kuunda Akaunti za Mtandaoni Mara kwa Mara | Watumiaji mara nyingi lazima waunde akaunti nyingi za mtandaoni, kusababisha uchovu, kupunguza urahisi, na kuongeza uwekaji wazi wa data ya kibinafsi.                                                                            | Inaharibu uzoefu wa mtumiaji, inaibua wasiwasi wa faragha, na inaongeza hatari ya uvujaji wa data.    |
+| Ada za Ubadilishaji wa Fedha za Kigeni | Ukosefu wa kipimo cha jumla cha akaunti hulazimisha ubadilishaji wa gharama ya fedha kwa miamala ya kimataifa.                                                                                                                      | Inaongeza gharama za ziada kwa biashara za kimataifa, ikifanya miamala ya kimataifa kuwa gharama zaidi. |
 
 Kama vile tulivyohama kutoka kwa kulipa kwa dakika kwa simu za sauti hadi kutumia karibu mawasiliano yasiyolipishwa ya msingi wa IP, kuibuka kwa mitandao iliyo wazi na bora kunaweza kufafanua upya malipo, kupunguza gharama na waamuzi, na kukuza miundo mipya ya biashara.
 
@@ -207,9 +193,9 @@ Kama vile tulivyohama kutoka kwa kulipa kwa dakika kwa simu za sauti hadi kutumi
 Bitcoin ni **mfumo wa sarafu ya kidijitali kati ya wenzao wa Exchange** (fedha za kielektroniki). Neno "Bitcoin" linamaanisha vipengele vifuatavyo:
 
 
-- Itifaki ya kompyuta** inayowezesha thamani ya Exchange kwenye mtandao bila wapatanishi, bila kuhitaji kibali, na kwa jina bandia. Inatumia kanuni za hali ya juu za kriptografia.
-- Mtandao halisi** wa mashine zilizounganishwa kwenye mtandao (nodi, wachimba migodi, n.k.) zinazoendeshwa na watu binafsi na biashara, zinazounda mfumo wa kugawanyika (bila mamlaka kuu au sehemu moja ya udhibiti).
-- Kitengo cha akaunti** ndani ya mfumo. Hakutakuwa na zaidi ya bitcoins milioni 21 kuwepo. Kila Bitcoin inaweza kugawanywa katika vitengo milioni 100 vinavyoitwa "satoshis," vinavyoitwa kwa heshima ya muundaji wake asiyejulikana.
+- **Itifaki ya kompyuta** inayowezesha thamani ya Exchange kwenye mtandao bila wapatanishi, bila kuhitaji kibali, na kwa jina bandia. Inatumia kanuni za hali ya juu za kriptografia.
+- **Mtandao halisi** wa mashine zilizounganishwa kwenye mtandao (nodi, wachimba migodi, n.k.) zinazoendeshwa na watu binafsi na biashara, zinazounda mfumo wa kugawanyika (bila mamlaka kuu au sehemu moja ya udhibiti).
+- **Kitengo cha akaunti** ndani ya mfumo. Hakutakuwa na zaidi ya bitcoins milioni 21 kuwepo. Kila Bitcoin inaweza kugawanywa katika vitengo milioni 100 vinavyoitwa "satoshis," vinavyoitwa kwa heshima ya muundaji wake asiyejulikana.
 
 Kwa pamoja wanafanya ya Bitcoin kuwa **rasilimali inayomilikiwa** na sarafu ya kidijitali **bila mtoaji**. Ownership inalindwa pekee kwa kushikilia **ufunguo wa siri wa faragha**, kutoa udhibiti kamili **bila wapatanishi au watu wengine wanaoaminika**. Inapohamishwa, Ownership **mwisho** ni mara moja: mmiliki mpya anaimiliki kikamilifu bila kutegemea mamlaka kuu kwa ulinzi au ubadilishaji. Miamala **haibadiliki**—ikirekodiwa kwenye Blockchain, haiwezi kubadilishwa au kufutwa.
 
@@ -243,13 +229,13 @@ Bitcoin inatupa changamoto ya kufikiria upya asili ya pesa yenyewe. Unaweza kuel
 
 
 - **chanzo-wazi** kabisa
-- Chombo cha kisheria:** Hakuna
-- Mkurugenzi Mtendaji:** Hakuna
-- Uwekezaji wa mtaji wa mradi:** Hakuna
+- **Chombo cha kisheria:** Hakuna
+- **Mkurugenzi Mtendaji:** Hakuna
+- **Uwekezaji wa mtaji wa mradi:** Hakuna
 - **Uuzaji:** Hakuna
 - **R&D:** Inaendeshwa kwa kujitolea
 - **Utawala:** Na watumiaji
-- Muundo bunifu wa kiuchumi:** Uundaji wa vitalu unafadhiliwa na ada za ununuzi (kulingana na mnada)
+- **Muundo bunifu wa kiuchumi:** Uundaji wa vitalu unafadhiliwa na ada za ununuzi (kulingana na mnada)
 
 Kwa habari zaidi juu ya Bitcoin, historia yake, jinsi inavyofanya kazi, na matumizi yake, ninapendekeza pia kufuata kozi hii nyingine ya kina:
 
@@ -314,10 +300,10 @@ Lightning Network ni bora kwa malipo ya Bitcoin katika maduka ya kimwili au ya m
 **KITAMBULISHO CHA LIGHTNING**
 
 
-- Uvumbuzi:** 2015
-- Uzinduzi:** 2016
-- Umri:** Miaka 7 (muamala wa kwanza: Desemba 28, 2017)
-- Uwezo wa kiufundi wa mtandao:** kwa kiwango kikubwa inaweza kushughulikia miamala ya papo hapo mara 1,000 zaidi ya mifumo ya kitamaduni.
+- **Uvumbuzi:** 2015
+- **Uzinduzi:** 2016
+- **Umri:** Miaka 7 (muamala wa kwanza: Desemba 28, 2017)
+- **Uwezo wa kiufundi wa mtandao:** kwa kiwango kikubwa inaweza kushughulikia miamala ya papo hapo mara 1,000 zaidi ya mifumo ya kitamaduni.
 - **Saizi za miamala:** Huanzia kubwa hadi mara 1,000 ndogo kuliko mifumo ya kitamaduni.
 - **Kasi ya muamala:** Hadi mara 100 haraka zaidi.
 - **Ada:** Hadi 90% chini.
@@ -432,10 +418,10 @@ Bitcoin inatoa njia ya kukusanya na kuhifadhi mtaji kwa muda mrefu bila mmomonyo
 **Takwimu Muhimu za Shule ya Austria**
 
 
-- Carl Menger**: Mwanzilishi wa Shule ya Austrian, Menger alianzisha nadharia ya thamani ya kibinafsi, ambayo inasisitiza kwamba thamani ya bidhaa inategemea mapendekezo ya mtu binafsi badala ya gharama za uzalishaji.
-- Ludwig von Mises**: Msingi wa Shule ya Austria, Mises alianzisha prakseolojia (nadharia ya matendo ya binadamu) na kuandika _Human Action_, uhakiki wa kina wa ujamaa na mipango kuu.
-- Friedrich Hayek**: Mwanafunzi wa Mises, Hayek alishinda Tuzo ya Nobel ya Uchumi mwaka wa 1974 kwa kazi yake juu ya maarifa yaliyogatuliwa na kubadilika kwa soko. Katika kitabu chake _The Road to Serfdom_, alikosoa vikali udhibiti wa serikali kuu.
-- Murray Rothbard**: Mwanafunzi wa Mises na mtetezi shupavu wa uhuru, Rothbard alianzisha nadharia ya ubepari wa anarcho, akifikiria jamii isiyo na utaifa inayotawaliwa na mikataba ya hiari. Kitabu chake _Man, Economy, and State_ ni kazi ya kina katika uchumi wa Austria.
+- **Carl Menger**: Mwanzilishi wa Shule ya Austrian, Menger alianzisha nadharia ya thamani ya kibinafsi, ambayo inasisitiza kwamba thamani ya bidhaa inategemea mapendekezo ya mtu binafsi badala ya gharama za uzalishaji.
+- **Ludwig von Mises**: Msingi wa Shule ya Austria, Mises alianzisha prakseolojia (nadharia ya matendo ya binadamu) na kuandika _Human Action_, uhakiki wa kina wa ujamaa na mipango kuu.
+- **Friedrich Hayek**: Mwanafunzi wa Mises, Hayek alishinda Tuzo ya Nobel ya Uchumi mwaka wa 1974 kwa kazi yake juu ya maarifa yaliyogatuliwa na kubadilika kwa soko. Katika kitabu chake _The Road to Serfdom_, alikosoa vikali udhibiti wa serikali kuu.
+- **Murray Rothbard**: Mwanafunzi wa Mises na mtetezi shupavu wa uhuru, Rothbard alianzisha nadharia ya ubepari wa anarcho, akifikiria jamii isiyo na utaifa inayotawaliwa na mikataba ya hiari. Kitabu chake _Man, Economy, and State_ ni kazi ya kina katika uchumi wa Austria.
 
 **Wachumi Wengine Wenye Ushawishi**
 
@@ -456,6 +442,7 @@ Kwa habari zaidi juu ya mada hii:
 https://planb.network/courses/d955dd28-b7c6-4ba2-a123-d932e21d148f
 https://planb.network/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
 https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+
 ## Kushikilia Bitcoin kwenye hazina
 
 <chapterId>89622a40-d14f-4c37-a075-8e7e1731ec26</chapterId>
@@ -516,37 +503,23 @@ ETF za Bitcoin zinaongoza kwa tofauti kubwa katika suala la **kupitishwa kwa taa
 
 Bitcoin sasa inacheza katika "duka la thamani" **soko**. Inawakilisha tu kushuka kwa ndoo kwa kiwango: karibu dola bilioni 1,800 ikilinganishwa na dhahabu ya $ 18,000 bilioni au $ 500,000 ya mali isiyohamishika. Walakini, soko lake la takriban 0.1% linaipa nafasi kubwa ya ukuaji, haswa ikizingatiwa kuwa washindani wake wanatatizika kuvutia watumiaji wapya.
 
-| Ticker | Mtiririko wa 1D (M USD) | Mtiririko wa 1W (M USD) | Mtiririko wa 1M (M USD) | Mtiririko wa 3M (M USD) | Mtiririko wa YTD (M USD) |
 
+| Ticker  | Mtiririko wa 1D (M USD) | Mtiririko wa 1W (M USD) | Mtiririko wa 1M (M USD) | Mtiririko wa 3M (M USD) | Mtiririko wa YTD (M USD) |
 | ------- | --------------- | --------------- | --------------- | --------------- | ---------------- |
-
-| **Jumla** | +457.19 | +1,507.95 | +2,888.01 | +3,672.29 | **+20,262.94** |
-
-| IBI | +393.40 | +750.91 | +1,536.47 | +3,821.37 | +22,460.44 |
-
-| FBTC | +14.81 | +372.40 | +627.16 | +458.71 | +10,266.69 |
-
-| ARKB | +11.51 | +163.26 | +295.92 | -3.88 | +2,647.32 |
-
-| BITB | +12.93 | +146.50 | +263.30 | +97.46 | +2,262.69 |
-
-| HODL | +5.75 | +38.77 | +94.54 | +100.39 | +682.03 |
-
-| BRRR | +1.92 | +4.72 | +17.76 | +20.54 | +540.19 |
-
-| EZBC | +11.79 | +17.53 | +39.29 | +47.48 | +439.45 |
-
-| BTC | .00 | -3.13 | +36.59 | +419.18 | +419.18 |
-
-| BTCO | +6.43 | +19.25 | +47.30 | +56.41 | +394.82 |
-
-| BTCW | .00 | +2.84 | +6.04 | +146.69 | +217.47 |
-
-| YBIT | -1.34 | -10.26 | +5.06 | +13.81 | +76.30 |
-
-| DEFI | .00 | .00 | .00 | -2.03 | -1.79 |
-
-| GBTC | .00 | +5.16 | -81.42 | -1503.84 | -20,141.85 |
+| **Jumla** | +457.19         | +1,507.95       | +2,888.01       | +3,672.29       | **+20,262.94**   |
+| IBIT    | +393.40         | +750.91         | +1,536.47       | +3,821.37       | +22,460.44       |
+| FBTC    | +14.81          | +372.40         | +627.16         | +458.71         | +10,266.69       |
+| ARKB    | +11.51          | +163.26         | +295.92         | -3.88           | +2,647.32        |
+| BITB    | +12.93          | +146.50         | +263.30         | +97.46          | +2,262.69        |
+| HODL    | +5.75           | +38.77          | +94.54          | +100.39         | +682.03          |
+| BRRR    | +1.92           | +4.72           | +17.76          | +20.54          | +540.19          |
+| EZBC    | +11.79          | +17.53          | +39.29          | +47.48          | +439.45          |
+| BTC     | .00             | -3.13           | +36.59          | +419.18         | +419.18          |
+| BTCO    | +6.43           | +19.25          | +47.30          | +56.41          | +394.82          |
+| BTCW    | .00             | +2.84           | +6.04           | +146.69         | +217.47          |
+| YBIT    | -1.34           | -10.26          | +5.06           | +13.81          | +76.30           |
+| DEFI    | .00             | .00             | .00             | -2.03           | -1.79            |
+| GBTC    | .00             | +5.16           | -81.42          | -1503.84        | -20,141.85       |
 
 *Dola bilioni 20 katika miezi 10: ETF za Bitcoin ziliafikiwa chini ya mwaka mmoja kile ambacho ETF za dhahabu zilichukua miaka 5 kukamilisha. Chanzo: Uwekezaji wa Mfuko unapita kwa USD. Bloomberg Terminal, Bloomberg L.P., 2024.*
 
@@ -580,7 +553,7 @@ Tukumbuke kwamba mtaji wake wa chini kabisa wa soko, ikilinganishwa na mali nyin
 
 **Mchakato wa kufanya maamuzi** wa kuwekeza kwenye Bitcoin utaathiriwa pakubwa na nafasi yako ndani ya kampuni. Ikiwa wewe ni **mmiliki wa wengi, uko huru** kutenga fedha za ziada za hazina kulingana na uamuzi wako mwenyewe. Kinyume chake, ikiwa wewe ni mshirika au mbia ndani ya muundo wa pamoja wa kufanya maamuzi, utahitaji kupitia mashauri ya pamoja, ambayo yanaweza kutatiza mambo.
 
-Katika hali hii ya pili, kuoanisha mitazamo tofauti inakuwa muhimu, kwani kwa kiasi kikubwa **inategemea uelewa wa kila mdau kuhusu mali ya Bitcoin**. Kama msemo unavyosema: "Bitcoin ni kila kitu ambacho watu hawajui kuhusu kompyuta pamoja na kila kitu ambacho hawaelewi kuhusu pesa." Hata kama mshirika mmoja amefanya jitihada za kuelewa kikamilifu Bitcoin, kuwasilisha ujuzi huu kwa wengine kunaweza kuwa changamoto. Katika hali kama hizi, ** inashauriwa kuleta rasilimali ya nje ** ili kuepuka kuwa na wazo lililohusishwa kwa karibu sana na mtu mmoja, ambayo inaweza upinzani wa generate.
+Katika hali hii ya pili, kuoanisha mitazamo tofauti inakuwa muhimu, kwani kwa kiasi kikubwa **inategemea uelewa wa kila mdau kuhusu mali ya Bitcoin**. Kama msemo unavyosema: "Bitcoin ni kila kitu ambacho watu hawajui kuhusu kompyuta pamoja na kila kitu ambacho hawaelewi kuhusu pesa." Hata kama mshirika mmoja amefanya jitihada za kuelewa kikamilifu Bitcoin, kuwasilisha ujuzi huu kwa wengine kunaweza kuwa changamoto. Katika hali kama hizi, **inashauriwa kuleta rasilimali ya nje** ili kuepuka kuwa na wazo lililohusishwa kwa karibu sana na mtu mmoja, ambayo inaweza upinzani wa generate.
 
 Hivi sasa, hali ya mmiliki wengi anayefanya uamuzi ndiye mwakilishi zaidi kati ya kampuni zinazoshikilia Bitcoin. Hapa kuna mifano michache halisi:
 
@@ -611,7 +584,7 @@ Kuna njia tatu za kupata Bitcoin:
 ![BIZ101](assets/en/09.webp)
 
 
-- Katika Exchange kwa bidhaa au huduma:**
+- **Katika Exchange kwa bidhaa au huduma:**
 
 Kwa kuwa Bitcoin hufanya kazi kama njia ya Exchange, inawezekana kuwazia uchumi wa mduara. Ingawa hii bado ni ya kawaida leo, biashara zaidi na zaidi zinaanza kukubali malipo ya Bitcoin—kwa nini si yako? (Angalia sura yetu inayofuata)
 
@@ -784,131 +757,74 @@ Ili kurahisisha mchakato wa kufanya maamuzi, tumefafanua wasifu nne tofauti za b
 
 #### Profaili 1 - Mwanzilishi
 
-| Sifa | Mwanzilishi |
-
-| ------------------------------- | ---------------------------------------------------------------- ---------------------------------------------------------------- |
-
-| **Hali ya Akili** | "kujaribu malipo yangu ya kwanza", "kuchukua kidokezo kwa maudhui yangu ya mtandaoni", "kulenga mapato madogo sana" |
-
-| **Marudio ya Muamala** | "muamala wa kwanza ili kujifunza", "kuchukua malipo mara moja baada ya muda" |
-
-| **Mifano ya Aina ya Biashara** | Uchumi bunifu (waundaji wa maudhui, blogu, makala, n.k.), vidokezo vya mara kwa mara, mauzo ya bidhaa za mtu mmoja mmoja, miungano, matukio ya mara moja |
-
-| **Aina ya Malipo** | Kwa ujumla senti chache kwa euro / dola chache; chini ya ~ euro 300/dola kwa kila bidhaa |
-
-| **Utata wa Mipangilio** | Hakuna |
-
-| **Mfano Suluhisho Linalopendekezwa** | Umeme wa ulinzi Wallet kama Wallet ya Satoshi au Wallet isiyo na kizuizi kama Phoenix |
-
-| **kiolesura cha mfanyabiashara** | Rahisi Bitcoin Umeme Wallet: programu kwenye simu ya mkononi |
-
-| **kiolesura cha mteja** | Msimbo wa malipo wa Bitcoin QR, umechanganuliwa kupitia nambari ya kibinafsi ya mteja Wallet |
-
-| **Ada** | Mteja hulipa ada za Bitcoin za Umeme pamoja na ada zozote zinazotumika za programu |
-
-| **Njia ya Kuuza Kifaa** | Programu ya simu mahiri isiyolipishwa au chaguo la kituo halisi (k.m. Bitcoinize) |
-
-| **Usimamizi na Majukumu** | Usimamizi wa programu moja; utofautishaji mdogo wa jukumu |
-
-| **Uhasibu wa Mauzo ya Nje** | Orodha msingi za historia ya miamala |
-
-| **API** | Hapana |
+| Sifa                            | Mwanzo                                                                                                                                       |
+| ------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Hali ya Akili**              | "kujaribu malipo yangu ya kwanza ya kimwili", "kupokea tip kwa maudhui yangu ya mtandaoni", "lengo la mapato madogo sana"                   |
+| **Mzunguko wa Miamala**        | "muamala wa kwanza ili kujifunza", "kupokea malipo mara moja kwa muda"                                                                      |
+| **Mifano ya Aina ya Biashara** | Uchumi wa ubunifu (waundaji wa maudhui, blogu, makala, n.k.), tip za mara kwa mara, mauzo ya mara moja ya bidhaa ana kwa ana, vyama, matukio ya mara moja |
+| **Aina ya Malipo**             | Kwa kawaida senti chache hadi euro/dola chache; chini ya ~euro/dola 300 kwa bidhaa                                                          |
+| **Ugumu wa Mipangilio**        | Hakuna                                                                                                                                       |
+| **Mfano wa Suluhisho Linalofaa** | Pochi ya Lightning ya uhifadhi kama Wallet of Satoshi au pochi isiyo na uhifadhi kama Phoenix                                                |
+| **Kiolesura cha Muuzaji**      | Pochi rahisi ya Bitcoin Lightning: programu kwenye simu ya mkononi                                                                           |
+| **Kiolesura cha Mteja**        | Msimbo wa malipo wa QR wa Bitcoin, unasomwa kupitia pochi ya kibinafsi ya mteja                                                             |
+| **Ada**                         | Mteja analipa ada za Bitcoin Lightning pamoja na ada zozote za programu zinazotumika                                                         |
+| **Kifaa cha Malipo**           | Programu ya bure ya simu janja au chaguo la kituo cha kimwili (k.m. Bitcoinize)                                                              |
+| **Usimamizi na Majukumu**      | Usimamizi wa programu moja; tofauti ndogo za majukumu                                                                                        |
+| **Hamisha za Uhasibu**         | Orodha za msingi za historia ya miamala                                                                                                      |
+| **API**                         | Hapana                                                                                                                                       |
 
 #### Profaili 2 - Muhimu
 
-| Sifa | Muhimu |
-
-| ------------------------------- | ---------------------------------------------------------------- ---------------------------------------------------------------- |
-
-| **Hali ya Akili** | "Ninakubali Bitcoin katika biashara yangu lakini sitarajii kiasi cha maana" |
-
-| **Marudio ya Muamala** | Shughuli chache kwa mwezi |
-
-| **Mifano ya Aina ya Biashara** | Baa, mikahawa, mauzo ya mara kwa mara ya bidhaa safi au zinazotoka moja kwa moja, maduka mengi chini ya mmiliki mmoja, uchumi wa ubunifu kwa wasanii |
-
-| **Aina ya Malipo** | Kwa ujumla kuanzia euro/dola chache hadi mia chache kwa kila kitu; chini ya ~ 300 kwa kila bidhaa na chini ya ~ 3,000 kwa mwezi |
-
-| **Utata wa Mipangilio** | Ndogo (programu ya simu) |
-
-| **Mfano Suluhisho Linalopendekezwa** | Uswisi Bitcoin Pay |
-
-| **kiolesura cha mfanyabiashara** | Rahisi Bitcoin lighting Wallet: programu kwenye simu ya mkononi; ankara rahisi na maelezo machache |
-
-| **kiolesura cha mteja** | Msimbo wa malipo wa Bitcoin QR, umechanganuliwa kupitia nambari ya kibinafsi ya  Wallet |
-
-| **Ada** | Kwa kawaida <1% ya kutumwa kwa Bitcoin Address, na <1.5% kwa kugeuza kuwa fiat |
-
-| **Njia ya Kuuza Kifaa** | Programu ya simu mahiri isiyolipishwa au chaguo la kituo halisi (k.m. Bitcoinize) |
-
-| **Usimamizi na Majukumu** | Chaguo la jukumu la kuuza tu kwa wafanyikazi; dashibodi ya mtandaoni ya usimamizi |
-
-| **Uhasibu wa Mauzo ya Nje** | Usafirishaji wa CSV na maelezo kamili ya muamala |
-
-| **API** | Ndiyo |
+| Sifa                            | Muhimu                                                                                                                                        |
+| ------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Hali ya Akili**              | "Ninakubali Bitcoin katika biashara yangu lakini sitarajii kiasi kikubwa cha maana"                                                           |
+| **Mzunguko wa Miamala**        | Miamala michache kwa mwezi                                                                                                                    |
+| **Mifano ya Aina ya Biashara** | Baa, mikahawa, mauzo ya mara kwa mara ya bidhaa safi au zinazotoka moja kwa moja, maduka kadhaa chini ya mmiliki mmoja, uchumi wa ubunifu kwa wasanii |
+| **Aina ya Malipo**             | Kwa kawaida kuanzia euro/dola chache hadi mamia chache kwa bidhaa; chini ya ~300 kwa bidhaa na chini ya ~3,000 kwa mwezi                      |
+| **Ugumu wa Mipangilio**        | Mdogo (programu ya mkononi)                                                                                                                   |
+| **Mfano wa Suluhisho Linalofaa** | Swiss Bitcoin Pay                                                                                                                             |
+| **Kiolesura cha Muuzaji**      | Pochi rahisi ya Bitcoin Lightning: programu kwenye simu ya mkononi; ankara rahisi zenye maelezo machache                                       |
+| **Kiolesura cha Mteja**        | Msimbo wa malipo wa QR wa Bitcoin, unasomwa kupitia pochi ya kibinafsi ya mteja                                                              |
+| **Ada**                         | Kwa kawaida <1% kwa kutuma kwa anwani ya Bitcoin, na <1.5% kwa kubadilisha kuwa fiat                                                          |
+| **Kifaa cha Malipo**           | Programu ya bure ya simu janja au chaguo la kituo cha kimwili (k.m. Bitcoinize)                                                               |
+| **Usimamizi na Majukumu**      | Chaguo la jukumu la kuuza-tu kwa wafanyakazi; dashibodi ya mtandaoni kwa utawala                                                              |
+| **Hamisha za Uhasibu**         | Hamisha ya CSV ikiwa na maelezo kamili ya miamala                                                                                             |
+| **API**                         | Ndiyo                                                                                                                                         |
 
 #### Profaili 3 - Mtaalamu
 
-| Sifa | Mtaalamu |
-
-| ------------------------------- | --------------------------------------------------------------------- --------------------------------------------------------------------- |
-
-| **Hali ya Akili** | - Njia ya malipo kama nyingine yoyote kwa biashara yangu ya kielektroniki - Au usimamizi wa pamoja wa kikundi cha biashara kilicho tayari kwa viwango vya juu |
-
-| **Marudio ya Muamala** | Shughuli nyingi kwa siku |
-
-| **Mifano ya Aina ya Biashara** | Tovuti za biashara ya mtandaoni zenye kiasi cha wastani, soko ndogo, vikundi vya maduka halisi (k.m., Bofya na Kusanya), shughuli za SME |
-
-| **Aina ya Malipo** | Kwa ujumla kuanzia euro/dola chache hadi mia chache; hakuna kikomo cha ukubwa wa malipo uliowekwa; chini ya 250,000 kwa mwaka |
-
-| **Utata wa Mipangilio** | Nyepesi ili kuangaziwa kikamilifu (upangishaji wa ndani au wa wingu), mara nyingi huhitaji mbele ya duka la e-commerce |
-
-| **Mfano Suluhisho Linalopendekezwa** | Seva ya Malipo ya BTC kwa biashara ya mtandaoni na/au mazingira halisi; ZapRite, Musqet au PayWithFlash kwa malipo, Be-BOP kwa duka la kielektroniki lililojumuishwa |
-
-| **Mfanyabiashara Interface** | Tovuti (ya rununu na kompyuta ya mezani) iliyo na uhariri wa Invoice, chaguzi za rukwama za ununuzi, na uundaji wa vitufe vya malipo; ankara otomatiki na ushirikiano wa e-commerce |
-
-| **kiolesura cha mteja** | Msimbo wa malipo wa Bitcoin QR, umechanganuliwa kupitia nambari ya kibinafsi ya Wallet ya mteja |
-
-| **Ada** | Mchanganyiko wa mazingira ya asili bila malipo na ada zinazolipishwa za upangishaji wa Umeme/huduma; ada za mwisho ni pamoja na ada za umeme za Bitcoin na <1.5% ya ada za ubadilishaji |
-
-| **Njia ya Kuuza Kifaa** | Duka la tovuti, onyesho halisi la hiari (k.m. iPad inayoonyesha tovuti au terminal ya Bitcoin) |
-
-| **Usimamizi na Majukumu** | Duka lililoangaziwa kikamilifu na majukumu mengi ya msimamizi; wafanyakazi na wateja huingiliana na mfumo |
-
-| **Uhasibu wa Mauzo ya Nje** | Usafirishaji wa CSV na maelezo kamili ya muamala |
-
-| **API** | Ndiyo |
-
+| Sifa                            | Mtaalamu                                                                                                                                                    |
+| ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Hali ya Akili**              | - Njia ya malipo kama nyingine yoyote kwa biashara yangu ya mtandaoni - Au usimamizi wa pamoja kwa kikundi cha biashara zinazotayari kwa kiasi kikubwa      |
+| **Mzunguko wa Miamala**        | Miamala kadhaa kwa siku                                                                                                                                     |
+| **Mifano ya Aina ya Biashara** | Tovuti za biashara mtandaoni zenye kiasi wastani, masoko madogo, vikundi vya maduka ya kimwili (k.m., Click & Collect), shughuli za SME                     |
+| **Aina ya Malipo**             | Kwa kawaida kuanzia euro/dola chache hadi mamia chache; hakuna kikomo cha ukubwa wa malipo; chini ya 250,000 kwa mwaka                                      |
+| **Ugumu wa Mipangilio**        | Rahisi hadi yenye vipengele vyote (uhifadhi wa mtaa au wingu), mara nyingi inahitaji wajihi ya biashara mtandaoni                                           |
+| **Mfano wa Suluhisho Linalofaa** | BTC Pay Server kwa biashara mtandaoni na/au mazingira ya kimwili; ZapRite, Musqet au PayWithFlash kwa malipo, Be-BOP kwa duka la mtandaoni la jumuishi      |
+| **Kiolesura cha Muuzaji**      | Tovuti (simu na kompyuta) ikiwa na uhariri wa ankara, chaguo za kikapu cha ununuzi, na uundaji wa kitufe cha malipo; ankara otomatiki na ujumuishaji wa biashara mtandaoni |
+| **Kiolesura cha Mteja**        | Msimbo wa malipo wa QR wa Bitcoin, unasomwa kupitia pochi ya kibinafsi ya mteja                                                                             |
+| **Ada**                         | Mchanganyiko wa backend ya chanzo wazi ya bure na ada za malipo za Lightning/huduma; ada za front-end ni pamoja na ada za Bitcoin Lightning na <1.5% ada za ubadilishaji |
+| **Kifaa cha Malipo**           | Duka la tovuti, onyesho la kimwili la hiari (k.m. iPad inayoonyesha tovuti au kituo cha Bitcoin)                                                             |
+| **Usimamizi na Majukumu**      | Duka lililojaa vipengele vyote na majukumu mengi ya utawala; wafanyakazi na wateja wanahusiana na mfumo                                                      |
+| **Hamisha za Uhasibu**         | Hamisha ya CSV ikiwa na maelezo kamili ya miamala                                                                                                            |
+| **API**                         | Ndiyo                                                                                                                                                        |
 #### Profaili 4 - Biashara
 
-| Sifa | Biashara |
-
-| ------------------------------- | ----------------------------------------------------------------- ----------------------------------------------------------------- |
-
-| **Hali ya Akili** | - Mbinu ya kimkakati ya malipo ya biashara - Pamoja na maendeleo fulani ya kuunganishwa kwenye jukwaa la huduma kulingana na vipimo maalum |
-
-| **Marudio ya Muamala** | Uamala usio na kikomo, wa masafa ya juu |
-
-| **Mifano ya Aina ya Biashara** | Biashara za ukubwa wa kati, kampuni za huduma za IT, mashirika makubwa, soko kuu |
-
-| **Aina ya Malipo** | Ukubwa wowote au kiasi |
-
-| **Utata wa Mipangilio** | Kati hadi juu, kulingana na uchaguzi wa usanifu |
-
-| **Mfano Suluhisho Linalopendekezwa** | Usanifu au upangaji maalum wa suluhu zinazopangishwa na SaaS, zinazoweza kutumia huduma za wengine za LSP (*Mtoa Huduma ya Umeme*) |
-
-| **kiolesura cha mfanyabiashara** | Miingiliano iliyobinafsishwa kikamilifu ya mbele na ya nyuma iliyojumuishwa kikamilifu katika mtiririko wa kazi na michakato ya biashara |
-
-| **Mteja Interface** | Kuanzia msimbo wa malipo wa Bitcoin QR hadi UI maalum kabisa na/au muunganisho wa API |
-
-| **Ada** | Mchanganyiko wa maendeleo ya ndani na ada za mtu wa tatu; mteja hulipa ada za Umeme za Bitcoin pamoja na ada zozote za miamala kutoka kwa watoa huduma |
-
-| **Njia ya Kuuza Kifaa** | Suluhisho zilizoundwa maalum kulingana na mazingira ya biashara |
-
-| **Usimamizi na Majukumu** | Majukumu yaliyobinafsishwa kikamilifu katika mauzo, utawala, wapendaji, uhasibu, na fedha |
-
-| **Uhasibu wa Mauzo ya Nje** | Usafirishaji wa uhasibu uliobinafsishwa kikamilifu |
-
-| **API** | Ndiyo |
+| Sifa                            | Biashara                                                                                                                                                    |
+| ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Hali ya Akili**              | - Njia ya malipo kama nyingine yoyote kwa biashara yangu ya mtandaoni - Au usimamizi wa pamoja kwa kikundi cha biashara zinazotayari kwa kiasi kikubwa      |
+| **Mzunguko wa Miamala**        | Miamala kadhaa kwa siku                                                                                                                                     |
+| **Mifano ya Aina ya Biashara** | Tovuti za biashara mtandaoni zenye kiasi wastani, masoko madogo, vikundi vya maduka ya kimwili (k.m., Click & Collect), shughuli za SME                     |
+| **Aina ya Malipo**             | Kwa kawaida kuanzia euro/dola chache hadi mamia chache; hakuna kikomo cha ukubwa wa malipo; chini ya 250,000 kwa mwaka                                      |
+| **Ugumu wa Mipangilio**        | Rahisi hadi yenye vipengele vyote (uhifadhi wa mtaa au wingu), mara nyingi inahitaji wajihi ya biashara mtandaoni                                           |
+| **Mfano wa Suluhisho Linalofaa** | BTC Pay Server kwa biashara mtandaoni na/au mazingira ya kimwili; ZapRite, Musqet au PayWithFlash kwa malipo, Be-BOP kwa duka la mtandaoni la jumuishi      |
+| **Kiolesura cha Muuzaji**      | Tovuti (simu na kompyuta) ikiwa na uhariri wa ankara, chaguo za kikapu cha ununuzi, na uundaji wa kitufe cha malipo; ankara otomatiki na ujumuishaji wa biashara mtandaoni |
+| **Kiolesura cha Mteja**        | Msimbo wa malipo wa QR wa Bitcoin, unasomwa kupitia pochi ya kibinafsi ya mteja                                                                             |
+| **Ada**                         | Mchanganyiko wa backend ya chanzo wazi ya bure na ada za malipo za Lightning/huduma; ada za front-end ni pamoja na ada za Bitcoin Lightning na <1.5% ada za ubadilishaji |
+| **Kifaa cha Malipo**           | Duka la tovuti, onyesho la kimwili la hiari (k.m. iPad inayoonyesha tovuti au kituo cha Bitcoin)                                                             |
+| **Usimamizi na Majukumu**      | Duka lililojaa vipengele vyote na majukumu mengi ya utawala; wafanyakazi na wateja wanahusiana na mfumo                                                      |
+| **Hamisha za Uhasibu**         | Hamisha ya CSV ikiwa na maelezo kamili ya miamala                                                                                                            |
+| **API**                         | Ndiyo                                                                                                                                                        |
 
 Katika sura zifuatazo, tutaeleza kwa kina kila wasifu wa biashara na masuluhisho yanayolenga kila moja yao.
 
@@ -947,10 +863,12 @@ https://planb.network/tutorials/wallet/mobile/Bitkit-Wallet-a7224674-85c4-4045-9
 https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 https://planb.network/tutorials/wallet/mobile/zeus-3e89603c-501d-439c-8691-d4a0d0de459b
+
 **Pochi za LN za uhifadhi:**
 
 https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-c4792842-b046-44f9-a6f1-351191b7cc2b
 https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+
 ## Muhimu
 
 <chapterId>89be421f-f7df-4bcc-a9e4-df96e39ef249</chapterId>
@@ -1288,12 +1206,12 @@ Hatimaye, kama wewe ni mfanyabiashara mdogo au biashara iliyoanzishwa zaidi, ina
 **Mfano**:
 
 
-- Kiwango cha ubadilishaji cha Bitcoin**: 1 Bitcoin = €40,000.
-- Muamala wa 1**: Mteja hununua keki nyingi kwa €20.
+- **Kiwango cha ubadilishaji cha Bitcoin**: 1 Bitcoin = €40,000.
+- **Muamala wa 1**: Mteja hununua keki nyingi kwa €20.
     - Bitcoin sawa: (20 / 40,000) = 0.0005 Bitcoin = Satoshi 50,000.
     - Ada ya ubadilishaji: 1.5% (€20 × 0.015) = €0.30.
     - Jumla iliyopokelewa: €20 - €0.30 = €19.70.
-- Muamala wa 2**: Mteja hununua kahawa kwa €5.
+- **Muamala wa 2**: Mteja hununua kahawa kwa €5.
     - Bitcoin sawa: (5 / 40,000) = 0.000125 Bitcoin = 12,500 Satoshis.
     - Ada ya ubadilishaji: 1.5% (€5 × 0.015) = €0.075.
     - Jumla iliyopokelewa: €5 - €0.075 = €4.93.
@@ -1301,9 +1219,9 @@ Hatimaye, kama wewe ni mfanyabiashara mdogo au biashara iliyoanzishwa zaidi, ina
 **Muhtasari wa Miamala**:
 
 
-- Jumla ya Mauzo**: €25.
-- Ada ya Jumla**: €0.375.
-- Euro Net Zimepokelewa**: €24.625.
+- **Jumla ya Mauzo**: €25.
+- **Ada ya Jumla**: €0.375.
+- **Euro Net Zimepokelewa**: €24.625.
 
 **Madhara ya Uhasibu**:
 
@@ -1319,8 +1237,8 @@ Hatimaye, kama wewe ni mfanyabiashara mdogo au biashara iliyoanzishwa zaidi, ina
 **Mfano**:
 
 
-- Kiwango cha ubadilishaji cha Bitcoin**: 1 Bitcoin = €40,000.
-- Muamala kutoka kwa mteja**: Mteja hununua maandazi kwa €50.
+- **Kiwango cha ubadilishaji cha Bitcoin**: 1 Bitcoin = €40,000.
+- **Muamala kutoka kwa mteja**: Mteja hununua maandazi kwa €50.
     - Bitcoin sawa: (50 / 40,000) = 0.00125 Bitcoin = 125,000 Satoshis.
     - Uongofu (50%): €25 yenye thamani ya Bitcoin = 0.000625 Bitcoin = 62,500 Satoshi.
         - Ada ya ubadilishaji: 1.5% (€25 × 0.015) = €0.375.
@@ -1330,10 +1248,10 @@ Hatimaye, kama wewe ni mfanyabiashara mdogo au biashara iliyoanzishwa zaidi, ina
 **Muhtasari**:
 
 
-- Jumla ya Mauzo**: €50.
-- Ada**: €0.375.
-- Euro Net Zimepokelewa**: €24.625.
-- Bitcoin Imebakia**: Satoshi 62,500.
+- **Jumla ya Mauzo**: €50.
+- **Ada**: €0.375.
+- **Euro Net Zimepokelewa**: €24.625.
+- **Bitcoin Imebakia**: Satoshi 62,500.
 
 **Madhara ya Uhasibu**:
 
@@ -1350,10 +1268,10 @@ Hatimaye, kama wewe ni mfanyabiashara mdogo au biashara iliyoanzishwa zaidi, ina
 **Mfano**:
 
 
-- Kiwango cha ubadilishaji cha Bitcoin kwa Malipo**: 1 Bitcoin = €30,000.
-- Muamala kutoka kwa mteja**: Mteja hulipia huduma zenye thamani ya €3,000.
+- **Kiwango cha ubadilishaji cha Bitcoin kwa Malipo**: 1 Bitcoin = €30,000.
+- **Muamala kutoka kwa mteja**: Mteja hulipia huduma zenye thamani ya €3,000.
     - Bitcoin sawa: (3,000 / 30,000) = 0.1 Bitcoin = Satoshi 10,000,000.
-- Uthamini wa Mwisho wa Mwaka**:
+- **Uthamini wa Mwisho wa Mwaka**:
     - Kiwango cha ubadilishaji cha Bitcoin Mwishoni mwa Mwaka: 1 Bitcoin = €35,000.
     - Tathmini ya Bitcoin Holding: 0.1 Bitcoin × €35,000 = €3,500.
     - Faida Isiyowezekana: €3,500 - €3,000 = €500.
@@ -1362,8 +1280,8 @@ Hatimaye, kama wewe ni mfanyabiashara mdogo au biashara iliyoanzishwa zaidi, ina
 
 
 - **Jumla ya Mapato Yanayotambuliwa**: €3,000.
-- Bitcoin Holding**: 0.1 Bitcoin yenye thamani ya €3,500 kwenye salio.
-- Faida Isiyowezekana**: €500 iliyofichuliwa katika noti za fedha lakini haijatambuliwa kama mapato.
+- **Bitcoin Holding**: 0.1 Bitcoin yenye thamani ya €3,500 kwenye salio.
+- **Faida Isiyowezekana**: €500 iliyofichuliwa katika noti za fedha lakini haijatambuliwa kama mapato.
 
 **Madhara ya Uhasibu**:
 
@@ -1379,16 +1297,16 @@ Hatimaye, kama wewe ni mfanyabiashara mdogo au biashara iliyoanzishwa zaidi, ina
 **Mfano**:
 
 
-- Bitcoin Ununuzi kutoka kwa wateja**:
+- **Bitcoin Ununuzi kutoka kwa wateja**:
     - Nunua 1: €2,000 kwa €20,000/BTC = 0.1 Bitcoin = 10,000,000 Satoshis.
     - Nunua 2: €3,000 kwa €25,000/BTC = 0.12 Bitcoin = 12,000,000 Satoshis.
     - Ununuzi wa 3: €5,000 kwa €30,000/BTC = 0.1667 Bitcoin = 16,670,000 Satoshis.
     - Jumla ya Bitcoin Iliyofanyika**: 0.3867 Bitcoin = 38,670,000 Satoshis.
-- Uthamini wa Mwisho wa Mwaka**:
+- **Uthamini wa Mwisho wa Mwaka**:
     - Bei ya Bitcoin Mwishoni mwa Mwaka: €40,000/BTC.
     - Jumla ya Thamani: 0.3867 Bitcoin × €40,000 = €15,468.
     - Faida Isiyowezekana: €15,468 - €10,000 (gharama ya jumla) = €5,468.
-- Uuzaji wa 50% ya Bitcoin**:
+- **Uuzaji wa 50% ya Bitcoin**:
     - Bitcoin Inauzwa: 0.19335 Bitcoin.
     - Mapato ya Mauzo: 0.19335 Bitcoin × €40,000 = €7,734.
     - Msingi wa Gharama (Wastani wa Uzito):

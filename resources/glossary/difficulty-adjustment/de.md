@@ -6,8 +6,6 @@ Die Schwierigkeitsanpassung ist ein periodischer Prozess, der das Schwierigkeits
 
 $$N = A \cdot \left(\frac{T}{1,209,600}\right)$$
 
-&nbsp;
-
 Wo:
 
 

@@ -1,0 +1,15 @@
+question: Ni tofauti gani kuu kati ya kuvinjari kwa kibinafsi na kutumia mtandao wa TOR?
+answer: Tor hufunika IP ya mtumiaji Address, huku kuvinjari kwa Faragha haifanyi hivyo.
+wrong_answers:
+  - Kuvinjari kwa faragha na TOR ni kitu kimoja.
+  - Kuvinjari kwa faragha hufunika IP ya mtumiaji Address, wakati TOR haifanyi hivyo.
+  - TOR huacha ufuatiliaji wa karibu kwenye kompyuta yako, wakati kuvinjari kwa faragha hakufanyi.
+explanation: |
+  Kuvinjari kwa faragha ni kipengele kinachozuia mtandao
+  vivinjari kutoka kwa kuhifadhi historia ya kuvinjari, mtandao wa muda
+  faili, data ya fomu, vidakuzi, na majina ya watumiaji na nywila.
+  Hata hivyo, haifichi kuvinjari kutoka kwa mtandao wako
+  mtoa huduma. Kwa upande mwingine, mtandao wa TOR hutoa
+  kutokujulikana kwa kuficha IP ya mtumiaji Address na kuruhusu
+  upatikanaji wa Darknet.
+reviewed: true

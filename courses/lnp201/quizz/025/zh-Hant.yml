@@ -1,0 +1,8 @@
+question: 在 Lightning Network 上關閉頻道的三種方法是什麼？
+answer: 合作關閉、強制關閉、作弊關閉
+wrong_answers:
+  - 快速閉合、慢速閉合、雙簽名閉合
+  - 安全關閉、自動關閉、資金損失關閉
+  - 直接關閉、間接關閉、有索賠的關閉
+  There are three methods: cooperative closure where the parties agree, forced closure without a response from one party, and closure with cheating where a party attempts to publish an old transaction.
+reviewed: false

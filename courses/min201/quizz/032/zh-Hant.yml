@@ -1,0 +1,11 @@
+question: Bitcoin 網路中的礦工獎勵是什麼？
+answer: 新的比特幣和交易費用。
+wrong_answers:
+  - 只有新的 bitcoins。
+  - 只有交易費用。
+  - 礦工沒有獎金。
+explanation: |
+  Bitcoin 網路中的礦工可獲得新的
+  比特幣和交易費用，作為他們驗證
+  並建立區塊。
+reviewed: true

@@ -1,0 +1,15 @@
+question: Je, ni faida gani kuu ya kumiliki kifaa chako cha Mining?
+answer: Kupata bitcoins bikira.
+wrong_answers:
+  - Kuepuka hitaji la kununua Bitcoin moja kwa moja.
+  - Kupata faida kutokana na kuuza vifaa baadaye.
+  - Kuepuka haja ya kuwaamini wachimbaji madini wengine.
+explanation: |
+  Kumiliki vifaa vyako vya Mining kunatoa faida kubwa
+  faida. Mbali na kuridhika binafsi ya
+  kuchangia kikamilifu usalama wa Bitcoin
+  mtandao na kuona zawadi zikianguka kwenye Wallet yako, huko
+  ni kipengele cha kuvutia cha bitcoins za bikira. Hizi ni
+  bitcoins zilizochimbwa hivi karibuni ambazo hazijawahi kutumika na kuwa nazo
+  hakuna historia iliyoambatanishwa nao.
+reviewed: true

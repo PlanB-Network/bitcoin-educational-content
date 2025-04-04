@@ -1,0 +1,9 @@
+question: Je, ni muundo gani wa malipo yaliyorahisishwa kwenye Bitcoin?
+answer: UTXO 1 au zaidi katika pembejeo na UTXO 2 katika matokeo.
+wrong_answers:
+  - 1 UTXO katika pembejeo na 1 UTXO katika pato
+  - UTXO kadhaa katika pembejeo na 1 UTXO katika pato
+  - UTXO 5 katika pembejeo na UTXO 5 katika matokeo
+explanation: |
+  Katika malipo yaliyorahisishwa, mtumiaji hutumia UTXO moja au zaidi kama pembejeo ili kutimiza katika matokeo malipo ya UTXO na mabadiliko ya UTXO (hivyo UTXO 2).
+reviewed: false

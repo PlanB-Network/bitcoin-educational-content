@@ -1,0 +1,9 @@
+question: 為什麼 SHA256 會對輸入的訊息進行預處理？
+answer: 為了確保 512 位元的長度倍數
+wrong_answers:
+  - 驗證訊息的完整性
+  - 在散列之前加密資料
+  - 要增加產生的雜湊大小
+explanation: |
+  預處理會透過加入填充位元及二進位表示其長度來調整訊息長度。
+reviewed: false

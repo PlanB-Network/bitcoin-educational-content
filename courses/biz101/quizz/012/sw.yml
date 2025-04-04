@@ -1,0 +1,9 @@
+question: Kwa nini Lightning Network inaweza kulinganishwa na "barua pepe ya malipo"?
+answer: Kwa sababu huwezesha thamani isiyo na mshono, ya kimataifa, na isiyo na ruhusa ya Exchange kwa urahisi kama kutuma ujumbe.
+wrong_answers:
+  - Kwa sababu hutuma malipo kupitia watoa huduma wa kawaida wa barua pepe.
+  - Kwa sababu inafanya kazi tu ikiwa imeambatishwa kwa barua pepe za kawaida.
+  - Kwa sababu huhifadhi mizani ya mtumiaji katika mwili wa barua pepe.
+explanation: |
+  Kama vile barua pepe zilivyobadilisha mawasiliano kwa kuondoa wapatanishi na kuwezesha mtu yeyote kutuma ujumbe duniani kote, Lightning Network hurahisisha na kuharakisha miamala, na kufanya uhamishaji wa thamani kuwa usio na msuguano na kufikiwa kama barua pepe.
+reviewed: false

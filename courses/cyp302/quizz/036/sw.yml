@@ -1,0 +1,9 @@
+question: Inamaanisha nini kwa nambari mbili kuwa coprime?
+answer: Kigawanyiko chao kikubwa zaidi ni sawa na 1
+wrong_answers:
+  - Jumla yao ni idadi sawa
+  - Wote wawili ni sawa
+  - Hawana vigawanyiko vya kawaida isipokuwa 1 na wao wenyewe
+explanation: |
+  Nambari mbili ni coprime ikiwa kigawanyo chao kikuu cha kawaida ni 1, kumaanisha kuwa hazishiriki mambo yoyote kuu, sifa muhimu katika cryptography.
+reviewed: false

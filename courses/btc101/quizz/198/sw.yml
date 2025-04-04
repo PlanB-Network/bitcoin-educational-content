@@ -1,0 +1,10 @@
+question: Je, ni kitu gani unapaswa kuwa nacho kabla ya kununua Bitcoin?
+answer: Wallet salama.
+wrong_answers:
+  - Salama ya kimwili.
+  - Akaunti ya benki.
+  - Kadi ya mkopo.
+explanation: |
+  Maandishi ya kozi yanataja kwamba kabla ya kununua Bitcoin, wewe
+  inapaswa kuwa na Wallet salama ambapo utahifadhi funguo zako.
+reviewed: true

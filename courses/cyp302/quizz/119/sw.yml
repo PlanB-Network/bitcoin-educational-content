@@ -1,0 +1,8 @@
+question: Kwa nini usimbaji fiche wa AES katika hali ya ECB haupendekezwi kwa matumizi salama?
+answer: Husababisha usimbaji fiche wa kubainisha
+wrong_answers:
+  - Inahitaji ufunguo wa zaidi ya biti 128
+  - Ni polepole sana kwa programu nyingi za kisasa
+  - Hairuhusu kugawanya maandishi katika vizuizi 128-bit
+explanation: |
+  Hali ya ECB haipendekezwi kwa sababu hutoa usimbaji fiche wa kubainisha, kumaanisha kuwa vizuizi vinavyofanana vya maandishi wazi vitatoa vizuizi sawa vya maandishi ya siri, ambayo yanaweza kutumiwa kukisia maelezo kuhusu maandishi wazi.

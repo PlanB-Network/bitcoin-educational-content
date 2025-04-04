@@ -1,0 +1,10 @@
+question: Je, malipo ya Mining hupunguzwa mara ngapi?
+answer: Kila vitalu 210,000.
+wrong_answers:
+  - Kila vitalu 120,000.
+  - Kila vitalu 540,000.
+  - Kila vitalu 2,100,000.
+explanation: |
+  Zawadi ya Mining imepangwa kupunguza nusu kila 210,000
+  blocks, which is approximately every four years: an event
+reviewed: true

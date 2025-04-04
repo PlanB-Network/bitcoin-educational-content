@@ -1,0 +1,13 @@
+question: Je, ni matumizi gani yanayopendekezwa ya Multisig Wallet?
+answer: Kuhifadhi kiasi kikubwa kwa matumizi ya ushirika.
+wrong_answers:
+  - Kuhifadhi kiasi kidogo kwa matumizi ya kibinafsi.
+  - Kuhifadhi kiasi cha wastani kwa matumizi yasiyo ya faida.
+  - Kuhifadhi gharama za kila siku kwa matumizi ya mtu binafsi.
+explanation: |
+  Multisig Wallet inapendekezwa kwa kuhifadhi kiasi kikubwa
+  na kwa matumizi ya kampuni kwa sababu inahitaji nyingi
+  saini za kufanya shughuli. Utaratibu huu unaongeza
+  ziada ya Layer ya usalama, kwa sababu mtu mmoja hawezi
+  kufanya shughuli bila idhini ya wengine.
+reviewed: true

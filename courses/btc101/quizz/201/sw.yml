@@ -1,0 +1,12 @@
+question: Madhumuni ya kanuni za KYC ni nini?
+answer: Ili kupambana na ufadhili wa ugaidi, ukwepaji kodi, na utakatishaji fedha.
+wrong_answers:
+  - Ili kuongeza bei ya Bitcoin na kumfanya mtumiaji alipe kodi zaidi.
+  - Ili kudhibiti Supply ya Bitcoin.
+  - Ili kuzuia watu kununua Bitcoin.
+explanation: |
+  Maandishi ya kozi yanaeleza kuwa Jua Mteja Wako (KYC)
+  kanuni zinahitaji watumiaji kutoa kitambulisho kwa
+  kupambana na ufadhili wa ugaidi, ukwepaji kodi, na pesa
+  ufujaji.
+reviewed: true

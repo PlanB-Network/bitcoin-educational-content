@@ -1,0 +1,9 @@
+question: UTXO ni nini katika muktadha wa Bitcoin?
+answer: Kipande cha bitcoins ambazo hazijatumika zinazohusiana na hati
+wrong_answers:
+  - Muamala uliothibitishwa kikamilifu kwenye Blockchain
+  - Ufunguo wa umma unaozalisha anwani za Bitcoin
+  - Kiasi cha Bitcoin imegawanywa katika sehemu nyingi
+explanation: |
+  UTXO, au Pato la Muamala Usiotumika, ni pato la muamala ambalo halijatumika, linalowakilisha kiasi fulani cha bitcoins ambazo mmiliki anaweza kutumia.
+reviewed: false

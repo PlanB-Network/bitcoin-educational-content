@@ -1,0 +1,9 @@
+question: Je, ni suluhu gani mbadala kwa Bitcoin Pay ya Uswizi ya kukubali malipo ya Bitcoin kwa Wasifu Muhimu ambalo linadhibitiwa kwa 100%?
+answer: Fungua Node
+wrong_answers:
+  - Seva ya BTPay
+  - Bitcoinize PoS
+  - Phoenix Wallet
+explanation: |
+  Open Node ina sifa ya kuwa suluhu iliyodhibitiwa kikamilifu, tofauti na asili ya mseto ya Uswizi Bitcoin Pay.
+reviewed: false

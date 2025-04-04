@@ -1,0 +1,9 @@
+question: Je, ni aina gani kuu ya muundo wa aljebra unaotumika katika sehemu zenye kikomo kwa usimbaji fiche?
+answer: Polynomia zisizoweza kupunguzwa
+wrong_answers:
+  - Matrices ya mraba
+  - Vekta za nasibu
+  - Mizizi ya ujazo
+explanation: |
+  Katika kriptografia, sehemu zenye kikomo za mpangilio 2^m mara nyingi hutumia polimanomia zisizoweza kupunguzwa ili kuhakikisha kuwa sehemu hiyo imefafanuliwa vyema na kwamba utendakazi wote unawezekana.
+reviewed: false

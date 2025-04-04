@@ -1,0 +1,9 @@
+question: 時間鎖在 HTLC 的運作中扮演什麼角色？
+answer: 它提供了在取消前完成付款的時限
+wrong_answers:
+  - 它增加了所用通道的容量
+  - 它為交易增加了 Layer 隱私權
+  - 它對每個中介節點收取額外費用
+explanation: |
+  時間鎖規定了完成 HTLC 的時限，如果交易不成功，可在此期限後取消付款，以收回資金。
+reviewed: false

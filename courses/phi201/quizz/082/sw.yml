@@ -1,0 +1,9 @@
+question: Ni tofauti gani kuu kati ya Mapinduzi ya Amerika na Mapinduzi ya Ufaransa?
+answer: Mapinduzi ya Marekani yalisababisha kuundwa kwa utawala wa sheria uliowekwa madarakani, wakati Mapinduzi ya Ufaransa yalisababisha kipindi cha Ugaidi na udikteta.
+wrong_answers:
+  - Mapinduzi ya Marekani yaliongozwa na mawazo ya Kutaalamika, wakati Mapinduzi ya Ufaransa yaliongozwa na mawazo ya kidini.
+  - Mapinduzi ya Marekani yaliongozwa na wakoloni, wakati Mapinduzi ya Ufaransa yaliongozwa na wakuu.
+  - Mapinduzi ya Marekani yalikuwa ya muda mrefu, wakati Mapinduzi ya Ufaransa yalikuwa mafupi.
+explanation: |
+  Mapinduzi ya Marekani yalisababisha mfumo wa madaraka na dhabiti ulioegemezwa kwenye utawala wa sheria, ambapo Mapinduzi ya Ufaransa yalishuka haraka katika Ugaidi na udikteta kutokana na migawanyiko ya ndani na kuunganishwa kwa mamlaka.
+reviewed: false

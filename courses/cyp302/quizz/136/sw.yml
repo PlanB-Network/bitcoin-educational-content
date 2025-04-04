@@ -1,0 +1,9 @@
+question: Je, huduma ya mtandaoni huthibitishaje nenosiri bila kulihifadhi moja kwa moja?
+answer: Kwa kulinganisha Hash ya nenosiri lililoingizwa na lililo kwenye hifadhidata
+wrong_answers:
+  - Kwa kusimbua nenosiri lililohifadhiwa ili kulithibitisha
+  - Kwa kutumia ufunguo wa umma ili kuthibitisha utambulisho
+  - Kwa kulinganisha nenosiri moja kwa moja na lile la watumiaji wengine
+explanation: |
+  Huduma huzalisha Hash ya nenosiri lililoingizwa na kuilinganisha na iliyohifadhiwa, bila hata moja kwa moja kuhifadhi nenosiri, na hivyo kuhakikisha usalama ulioongezeka.
+reviewed: false

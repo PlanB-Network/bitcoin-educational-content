@@ -1,0 +1,13 @@
+question: Je, ni matokeo gani ya baadaye ya kupungua kwa viwango vya riba kutokana na ongezeko la mkopo kulingana na Nadharia ya Austria ya Mzunguko wa Biashara?
+answer: Uchumi unaingia kwenye mdororo; bei ya mali hushuka, mishahara halisi hupungua, bei za watumiaji hushuka, na hesabu huongezeka.
+wrong_answers:
+  - Uchumi unaingia kwa kasi; bei za mali hupanda, mishahara halisi huongezeka, bei za watumiaji hupanda, na hesabu hupungua.
+  - Uchumi unaingia kwenye mdororo; bei ya mali inabakia sawa, mishahara halisi inabaki sawa, bei za watumiaji zinabaki sawa, na hesabu inabaki sawa.
+  - Uchumi unaingia kwenye deflation; bei ya mali hushuka, mishahara halisi huongezeka, bei za watumiaji hupungua, na hesabu huongezeka.
+explanation: |
+  Kulingana na Nadharia ya Austria ya Mzunguko wa Biashara, wakati kuna
+  kupungua kwa viwango vya riba kutokana na ongezeko la mikopo, uchumi unaingia a
+  kushuka kwa uchumi; bei ya mali hushuka, mishahara halisi hupungua, bei za watumiaji hushuka, na hesabu
+  hukusanya. Hii ni kwa sababu kupungua kwa viwango vya riba husababisha mgao usio sahihi
+  ya mtaji, ambayo hatimaye husababisha kushuka kwa uchumi.
+reviewed: true

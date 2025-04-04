@@ -1,0 +1,9 @@
+question: Je, ni vipengele vipi vilivyomo katika RGB Consignment ambavyo Bob (mpokeaji) hupokea kwa Contract?
+answer: Genesis, Schema, Interface na Interface Implementation
+wrong_answers:
+  - Genesis, Schema, Mpito na Upanuzi
+  - Schema, Interface, Sahihi na PSBT
+  - Genesis, Interface, PSBT na Historia
+explanation: |
+  Consignment ya RGB Contract inajumuisha Genesis, Schema, Interface na Interface Implementation, ambayo hutoa data zote zinazohitajika ili kuthibitisha Contract.
+reviewed: false

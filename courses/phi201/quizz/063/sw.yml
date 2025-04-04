@@ -1,0 +1,9 @@
+question: Je, Kanisa la zama za kati lilikuwa na mtazamo gani kuhusu mikopo yenye riba?
+answer: Iliwakataza.
+wrong_answers:
+  - Iliwatia moyo.
+  - Iliwavumilia katika hali fulani.
+  - Hakuwa na maoni juu ya jambo hilo.
+explanation: |
+  Kanisa la enzi za kati lilikataza mikopo yenye riba, ikichukulia zoea hili kuwa dhambi ya riba, kwani liliona kuwa ni kinyume cha maadili kupata faida kutokana na mkopo kwa kudai zaidi ya kiasi cha awali.
+reviewed: false

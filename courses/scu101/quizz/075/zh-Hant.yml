@@ -1,0 +1,9 @@
+question: 好的密碼有哪些特徵？
+answer: 悠長、複雜、獨特。
+wrong_answers:
+  - 短、簡、易記。
+  - 基於個人資訊。
+  - 所有帳戶相同。
+explanation: |
+  一個好的密碼應該有足夠的長度和複雜性，而且不應該被重複使用。
+reviewed: false

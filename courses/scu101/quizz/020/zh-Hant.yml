@@ -1,0 +1,11 @@
+question: Windows 內建的防毒軟體是什麼？
+answer: Windows Defender
+wrong_answers:
+  - 卡巴斯基
+  - 諾頓
+  - McAfee
+explanation: |
+  Windows Defender 是 Windows 內建的防毒軟體。它
+  是保護系統的安全有效解決方案
+  免受威脅。
+reviewed: true

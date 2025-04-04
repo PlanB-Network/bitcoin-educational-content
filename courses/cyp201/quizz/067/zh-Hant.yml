@@ -1,0 +1,9 @@
+question: 索引在派生子鍵時的目的是什麼？
+answer: 區分同胞鍵對
+wrong_answers:
+  - 識別金鑰的性質 (公用或私人)
+  - 指定金鑰的安全層級
+  - 增加額外的 Layer 安全性
+explanation: |
+  索引允許區分從同一個父索引對衍生出來的子索引鍵。
+reviewed: false

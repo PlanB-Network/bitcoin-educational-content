@@ -1,0 +1,9 @@
+question: Je, madhumuni makuu ya kandarasi mahiri katika mazingira ya RGB ni yapi?
+answer: Tekeleza mikataba ya kiotomatiki ya Bitcoin bila sajili ya kati
+wrong_answers:
+  - Kuwezesha uundaji wa sajili za kati za Bitcoin
+  - Toa Interface ya umma kwa miamala yote ya Bitcoin
+  - Kurahisisha utekelezaji wa tokeni za ERC-20 kwenye Bitcoin
+explanation: |
+  Mikataba mahiri ya RGB huwezesha uwekaji wa mikataba kiotomatiki huku ikiepuka utumiaji wa rejista za kati, zikitegemea Bitcoin kwa nanga za siri.
+reviewed: false

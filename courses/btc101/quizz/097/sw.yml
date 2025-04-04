@@ -1,0 +1,11 @@
+question: Nini kitatokea ikiwa ufunguo wako wa faragha utafichuliwa kwa mtu wa tatu?
+answer: Mtu wa tatu anaweza kutumia bitcoins zako.
+wrong_answers:
+  - Mtu wa tatu anaweza tu kuona historia yako ya muamala.
+  - Mtu wa tatu anaweza kubadilisha ufunguo wako wa faragha.
+  - Mtu wa tatu anaweza kufikia maelezo yako ya kibinafsi.
+explanation: |
+  Ikiwa ufunguo wako wa kibinafsi umefunuliwa kwa mtu wa tatu, faili ya
+  fedha zinazohusiana si salama tena, kwa sababu binafsi
+  key huwaruhusu kufikia pesa zako.
+reviewed: true

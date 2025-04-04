@@ -1,0 +1,9 @@
+question: Je, ni mahitaji gani ya msingi ya maunzi ili wasifu wa Starter ukubali malipo ya Bitcoin?
+answer: Simu mahiri
+wrong_answers:
+  - Bitcoin Miner ASIC
+  - Sehemu ya Hardware Wallet
+  - Seva inayojiendesha yenyewe
+explanation: |
+  Wasifu wa Starter unahitaji tu smartphone au kompyuta kibao iliyo na Umeme Wallet, na kuifanya kuwa suluhisho nyepesi.
+reviewed: false

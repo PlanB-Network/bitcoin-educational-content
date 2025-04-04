@@ -1,0 +1,9 @@
+question: Ni nini hufanyika ikiwa ufunguo wa 7 unatumiwa kusimba neno CAT?
+answer: Neno linakuwa JHA
+wrong_answers:
+  - Neno linakuwa JBA
+  - Neno linakuwa JHB
+  - Neno linakuwa ZHA
+explanation: |
+  Kwa ufunguo wa 7, kila herufi ya neno CAT inabadilishwa na nafasi 7 katika alfabeti, ambayo hutoa neno lililosimbwa kwa njia fiche JHA.
+reviewed: false

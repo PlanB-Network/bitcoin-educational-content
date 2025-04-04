@@ -1,0 +1,9 @@
+question: Kwenye RGB, kwa nini inashauriwa kutumia Tapret badala ya Opret kwa ahadi?
+answer: Ili kupunguza mwonekano na kuepuka udhibiti
+wrong_answers:
+  - Ili kupunguza gharama za manunuzi
+  - Kwa sababu OP_RETURN haiendani na Umeme
+  - Ili kuongeza ukubwa wa ahadi
+explanation: |
+  Tapret hukuruhusu kujumuisha ahadi kwa busara, tofauti na OP_RETURN, ambayo huzifanya zionekane mara moja na chini ya udhibiti.
+reviewed: false

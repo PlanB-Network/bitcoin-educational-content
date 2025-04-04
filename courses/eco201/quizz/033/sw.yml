@@ -1,0 +1,14 @@
+question: Kuna uhusiano gani kati ya akiba na kiwango cha maisha kulingana na wachumi wa Austria?
+answer: Kadiri tunavyoweka akiba, ndivyo tutakavyoweza kukusanya mtaji zaidi, ambao utatufanya kuwa faida ya tija na kutoa bidhaa nyingi zaidi. Kwa hivyo, kiwango cha juu cha maisha kinapatikana.
+wrong_answers:
+  - Kadiri tunavyoweka akiba, ndivyo kiwango chetu cha maisha kinavyopungua.
+  - Hakuna uhusiano kati ya akiba na kiwango cha maisha.
+  - Kadiri tunavyoweka akiba kidogo, ndivyo kiwango chetu cha maisha kinavyokuwa juu.
+explanation: |
+  Wanauchumi wa Austria wanaona kuwa kupunguzwa kwa upendeleo wa wakati ni
+  mahali pa kuanzia kwa mzunguko mzuri wa akiba → bidhaa nyingi za mtaji
+  → tija zaidi → bidhaa zaidi = kiwango cha juu cha maisha → upendeleo wa muda wa chini.
+  Hivyo, kadiri tunavyoweka akiba, ndivyo tutakavyoweza kukusanya mtaji zaidi,
+  ambayo nayo itatafsiri kuwa faida ya tija ikitoa bidhaa nyingi zaidi.
+  Hii inaongoza kwa kiwango cha juu cha maisha.
+reviewed: true

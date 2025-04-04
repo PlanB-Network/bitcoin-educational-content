@@ -1,0 +1,9 @@
+question: Je, ilikuwa nini athari ya usambazaji na masuala muhimu ya usimamizi kabla ya miaka ya 1970?
+answer: Walipunguza usalama na ufanisi wa mawasiliano ya kiwango kikubwa
+wrong_answers:
+  - Walizuia uwasilishaji wa ujumbe uliosimbwa kwa njia fiche kwenye mitandao ya umma
+  - Walihitaji funguo za umma kwa kila ujumbe
+  - Waliamuru matumizi ya kriptografia ya homomorphic
+explanation: |
+  Kabla ya miaka ya 1970, masuala ya usambazaji na usimamizi muhimu yalifanya iwe vigumu kupata mawasiliano kwa kiwango kikubwa, hivyo kuzuia maendeleo ya programu za kisasa kama vile ununuzi mtandaoni.
+reviewed: false

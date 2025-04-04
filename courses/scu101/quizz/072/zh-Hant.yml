@@ -1,0 +1,9 @@
+question: 什麼是密碼管理器？
+answer: 儲存、產生及管理密碼的工具。
+wrong_answers:
+  - 防駭客攻擊的防毒軟體。
+  - 安全的電子郵件服務。
+  - 個人身分資料的備份工具。
+explanation: |
+  密碼管理器集中儲存和建立密碼。
+reviewed: false

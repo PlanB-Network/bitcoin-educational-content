@@ -1,0 +1,9 @@
+question: RGB Contract Operation ipi inaunda hali mpya bila kufunga Seal?
+answer: State Extension
+wrong_answers:
+  - State Transition
+  - Genesis
+  - Uanzishaji wa Valency
+explanation: |
+  State Extension inakuwezesha kuunda hali mpya au haki (Valencies), bila Seal kufungwa mara moja.
+reviewed: false

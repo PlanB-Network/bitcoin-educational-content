@@ -1,0 +1,9 @@
+question: Ni dhana gani ya pesa za kielektroniki iliyotajwa kwa uwazi na Satoshi Nakamoto kwenye karatasi nyeupe ya Bitcoin?
+answer: b-pesa (Wei Dai)
+wrong_answers:
+  - dhahabu kidogo (Nick Szabo)
+  - RPOW (Hal Finney)
+  - eCash (David Chaum)
+explanation: |
+  Hii ilikuwa kumbukumbu ya kwanza. Iliongezwa na Satoshi mnamo Agosti 2008 kufuatia kubadilishana kwake na Wei Dai.
+reviewed: false

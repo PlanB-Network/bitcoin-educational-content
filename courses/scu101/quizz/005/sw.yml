@@ -1,0 +1,11 @@
+question: Kwa nini inashauriwa kuepuka kivinjari cha Google Chrome?
+answer: Kutokana na wafuatiliaji wake.
+wrong_answers:
+  - Kwa sababu sio salama.
+  - Kwa sababu sio rahisi kutumia.
+  - Kwa sababu haitumii viendelezi.
+explanation: |
+  Kivinjari cha Google Chrome kinajulikana kwa wafuatiliaji wake, ambao wanaweza
+  kukusanya data kuhusu shughuli zako mtandaoni. Hii inaweza kuwa a
+  wasiwasi wa faragha kwa baadhi ya watumiaji.
+reviewed: true

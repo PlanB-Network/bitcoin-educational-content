@@ -1,0 +1,9 @@
+question: 可以與基本 sighash 標誌結合的修改器是什麼？
+answer: 嘆息_任何人都可以付費
+wrong_answers:
+  - 嘆息_無輸出
+  - 所有參與者
+  - 嘆息_非標準
+explanation: |
+  SIGHASH_ANYONECANPAY 會修改 sighash 標誌，使其只涵蓋單一輸入，而保留其他可修改的部分。
+reviewed: false

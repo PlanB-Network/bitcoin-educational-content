@@ -1,0 +1,9 @@
+question: 歷史上哪種金屬被視為貨幣的標準參考？
+answer: 黃金
+wrong_answers:
+  - 銀色
+  - 銅
+  - 銅色
+explanation: |
+  由於黃金的稀缺性、耐用性和普遍認可的價值，使其成為貨幣系統的穩定基礎，因此黃金在歷史上一直是標準貨幣。
+reviewed: false

@@ -157,44 +157,28 @@ Secara keseluruhan, proses ini rumit, memakan waktu, dan mahal untuk hal yang se
 ### Metode Pembayaran Perbandingan
 
 | Metode Pembayaran | Otorisasi yang Dibutuhkan?           | Waktu Persetujuan Transaksi (Tampilan Pedagang) | Kecepatan Penyelesaian (Dana Sepenuhnya Diselesaikan) | Finalitas (Kemudahan Pengembalian Dana) | Jumlah Perantara | Biaya Umum (untuk Penerima Pembayaran) |
-
 | ------------------------------ | ------------------------------- | ----------------------------------------- | ---------------------------------------------- | ---------------------------------------- | ------------------------------ | ---------------------------------- |
-
 | **Tunai** | Tidak ada | Segera (Pertukaran Fisik) | Segera (Tanpa Penundaan Penyelesaian) | Tinggi (Tidak Dapat Dipulihkan Setelah Dibayar) | Tidak ada | Tidak ada
-
 | Cek ** Cek** | Ya (Kliring Bank) | Penerimaan di Setoran (Tidak Dijamin) | Beberapa Hari (Proses Kliring Cek) | Sedang (Dapat Memantul/Berhenti Sebelum Kliring) | Bank ** Rendah hingga Sedang** (Biaya Bank) |
-
 | **Transfer Bank** | Ya (Bank/Jaringan) | Konfirmasi Dalam Beberapa Jam | Hari yang Sama atau Hari Berikutnya (Domestik) | Tinggi (Biasanya Tidak Dapat Dipulihkan Setelah Dikirim) | Bank, Jaringan Pembayaran | **Sedang** (Tetap/Persentase) |
-
 | **Kartu Pembayaran** | Ya (Otorisasi Penerbit Kartu) | Detik hingga Menit (Kode Otorisasi) | Beberapa Hari (Penyelesaian Antar Bank) | Sedang (Kemungkinan Tagihan Kembali) | Penerbit, Acquirer, Jaringan Kartu | **Berubah-ubah (1-3% dari Transaksi)** |
-
 | **Dompet Digital/Pembayaran Seluler** | Ya (Penyedia Dompet/Bank) | Detik (Konfirmasi Instan) | Biasanya 1-2 Hari (Tergantung Sumber Pendanaan) | Sedang (Pengembalian Dana/Perselisihan Mungkin Terjadi) | Bank, Operator Dompet | **Rendah hingga Sedang (Bervariasi)** |
 
 ### Keterbatasan solusi yang ada saat ini
 
 Industri pembayaran tradisional mewakili ekonomi tahunan sekitar 2.200 miliar dolar, kira-kira sepersepuluh dari PDB Amerika Serikat atau sama dengan PDB Perancis. Karena mata uang berfungsi sebagai jaringan yang memiliki izin, maka persaingannya terbatas, sehingga "layanan" ini lebih mirip dengan pajak yang dikenakan pada ekonomi produktif. Selain beban biaya yang ditimbulkannya, ada beberapa keterbatasan lain, seperti yang diuraikan di bawah ini.
 
-| Batasan | Penjelasan | Dampak | Dampak
-
-| -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
-
-| Biaya Kartu Tinggi | Biaya pertukaran (~0,3%), biaya jaringan (tetap atau 0,3%-1%), langganan terminal/PSP, dan margin bank (0,5%-1,7%) menambah biaya yang cukup besar-seperti "pajak" global terhadap sektor produktif, yang jumlahnya mencapai triliunan dolar.     | Meningkatkan biaya pedagang, mengurangi margin, dan berpotensi menaikkan harga konsumen.                  |
-
-| Penyelesaian Akhir Sangat Lambat | Penyelesaian dana dapat memakan waktu hingga 5 hari, memperlambat aliran uang dan aktivitas ekonomi secara keseluruhan.                                                                                                                                | Menunda likuiditas untuk pedagang dan mengurangi kecepatan sirkulasi ekonomi.                        |
-
-| Penipuan | Saluran e-commerce sangat ditargetkan oleh penipuan, yang berkontribusi pada kerugian yang signifikan (misalnya, $28 miliar). Tagihan balik dapat mencapai ~$174 miliar secara global pada tahun 2024. Mengelola perselisihan ini menghabiskan waktu dan menyebabkan ketegangan mental. | Meningkatnya biaya operasional, langkah-langkah pencegahan penipuan yang rumit, dan berkurangnya kepercayaan pelanggan.       |
-
-| Pengabaian Keranjang | Langkah-langkah keamanan tambahan (kode satu kali, otentikasi dua faktor di bawah PSD2) menimbulkan gesekan pada saat pembayaran.                                                                                                                   | Kompleksitas checkout yang lebih tinggi menyebabkan peningkatan pengabaian keranjang dan kehilangan penjualan.                       |
-
-| Jumlah Transaksi Minimum yang Tinggi | Ambang batas pembelanjaan minimum pada kartu dapat memaksa merchant dan konsumen ke dalam kondisi penetapan harga atau pembelian yang tidak nyaman, sehingga menghambat transaksi bernilai kecil.                                                                       | Mengurangi kepuasan dan fleksibilitas pelanggan, sehingga berpotensi membatasi pembelian impulsif atau bernilai rendah.  |
-
-| Pra-Otorisasi Lambat | Sistem saat ini tidak dapat menangani transaksi dengan kecepatan milidetik atau mendukung aliran pembayaran yang terus menerus dan real-time.                                                                                                                   | Membatasi kasus penggunaan yang membutuhkan pembayaran instan atau streaming, sehingga membatasi inovasi dan skalabilitas. |
-
-| Kebutuhan akan Rekening Bank/Kartu | Akses ke metode pembayaran ini membutuhkan rekening bank atau kartu yang terhubung, yang secara otomatis mengecualikan mereka yang tidak memiliki rekening tersebut.                                                                                                       | Membatasi inklusi keuangan, mengurangi akses bagi populasi yang tidak memiliki rekening bank atau yang tidak memiliki rekening bank.                 |
-
-| Pembuatan Akun Online Berulang | Pengguna sering kali harus membuat beberapa akun online, yang menyebabkan kelelahan, berkurangnya kenyamanan, dan meningkatnya eksposur data pribadi.                                                                                                | Memburuknya pengalaman pengguna, menimbulkan masalah privasi, dan meningkatkan risiko pelanggaran data.          |
-
-| Biaya Valuta Asing (Valas) | Kurangnya unit akun universal menyebabkan konversi mata uang yang mahal untuk transaksi lintas batas.                                                                                                                              | Menambah biaya tambahan untuk perdagangan internasional, sehingga transaksi global menjadi kurang terjangkau.             |
+| Batasan                                        | Penjelasan                                                                                                                                                                               | Dampak                                                                                              |
+| --------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| Biaya Kartu Tinggi                            | Biaya pertukaran (~0,3%), biaya jaringan (tetap atau 0,3%-1%), langganan terminal/PSP, dan margin bank (0,5%-1,7%) menambah biaya yang cukup besar-seperti "pajak" global terhadap sektor produktif, yang jumlahnya mencapai triliunan dolar.     | Meningkatkan biaya pedagang, mengurangi margin, dan berpotensi menaikkan harga konsumen.               |
+| Penyelesaian Akhir Sangat Lambat              | Penyelesaian dana dapat memakan waktu hingga 5 hari, memperlambat aliran uang dan aktivitas ekonomi secara keseluruhan.                                                                                                                                | Menunda likuiditas untuk pedagang dan mengurangi kecepatan sirkulasi ekonomi.                        |
+| Penipuan                                       | Saluran e-commerce sangat ditargetkan oleh penipuan, yang berkontribusi pada kerugian yang signifikan (misalnya, $28 miliar). Tagihan balik dapat mencapai ~$174 miliar secara global pada tahun 2024. Mengelola perselisihan ini menghabiskan waktu dan menyebabkan ketegangan mental. | Meningkatnya biaya operasional, langkah-langkah pencegahan penipuan yang rumit, dan berkurangnya kepercayaan pelanggan.       |
+| Pengabaian Keranjang                           | Langkah-langkah keamanan tambahan (kode satu kali, otentikasi dua faktor di bawah PSD2) menimbulkan gesekan pada saat pembayaran.                                                                                                                   | Kompleksitas checkout yang lebih tinggi menyebabkan peningkatan pengabaian keranjang dan kehilangan penjualan.                       |
+| Jumlah Transaksi Minimum yang Tinggi          | Ambang batas pembelanjaan minimum pada kartu dapat memaksa merchant dan konsumen ke dalam kondisi penetapan harga atau pembelian yang tidak nyaman, sehingga menghambat transaksi bernilai kecil.                                                                       | Mengurangi kepuasan dan fleksibilitas pelanggan, sehingga berpotensi membatasi pembelian impulsif atau bernilai rendah.  |
+| Pra-Otorisasi Lambat                          | Sistem saat ini tidak dapat menangani transaksi dengan kecepatan milidetik atau mendukung aliran pembayaran yang terus menerus dan real-time.                                                                                                                   | Membatasi kasus penggunaan yang membutuhkan pembayaran instan atau streaming, sehingga membatasi inovasi dan skalabilitas. |
+| Kebutuhan akan Rekening Bank/Kartu            | Akses ke metode pembayaran ini membutuhkan rekening bank atau kartu yang terhubung, yang secara otomatis mengecualikan mereka yang tidak memiliki rekening tersebut.                                                                                                       | Membatasi inklusi keuangan, mengurangi akses bagi populasi yang tidak memiliki rekening bank atau yang tidak memiliki rekening bank.                 |
+| Pembuatan Akun Online Berulang                | Pengguna sering kali harus membuat beberapa akun online, yang menyebabkan kelelahan, berkurangnya kenyamanan, dan meningkatnya eksposur data pribadi.                                                                                                | Memburuknya pengalaman pengguna, menimbulkan masalah privasi, dan meningkatkan risiko pelanggaran data.          |
+| Biaya Valuta Asing (Valas)                    | Kurangnya unit akun universal menyebabkan konversi mata uang yang mahal untuk transaksi lintas batas.                                                                                                                              | Menambah biaya tambahan untuk perdagangan internasional, sehingga transaksi global menjadi kurang terjangkau.             |
 
 Sama seperti kita beralih dari membayar per menit untuk panggilan suara menjadi menggunakan komunikasi berbasis IP yang hampir gratis, kemunculan jaringan yang lebih terbuka dan efisien dapat mengubah pembayaran, mengurangi biaya dan perantara, dan mendorong model bisnis baru.
 
@@ -521,37 +505,23 @@ ETF Bitcoin memimpin dengan selisih yang lebar dalam hal **adopsi institusional*
 
 Bitcoin sekarang bermain di pasar "penyimpan nilai". Bitcoin hanya mewakili setetes air dalam ember dalam hal skala: hanya sekitar $1.800 miliar dibandingkan dengan emas yang mencapai $18.000 miliar atau real estat yang mencapai $500.000 miliar. Namun, pangsa pasarnya yang hanya sekitar 0,1% memberikan ruang yang sangat besar untuk pertumbuhan, terutama karena para pesaingnya kesulitan untuk menarik pengguna baru.
 
-| Ticker | Aliran 1D (M USD) | Aliran 1W (M USD) | Aliran 1M (M USD) | Aliran 3M (M USD) | Aliran YTD (M USD)
+| Ticker | Aliran 1D (M USD) | Aliran 1W (M USD) | Aliran 1M (M USD) | Aliran 3M (M USD) | Aliran YTD (M USD) |
+| ------ | ----------------- | ----------------- | ----------------- | ----------------- | ------------------ |
+| **Jumlah** | +457.19 | +1,507.95 | +2,888.01 | +3,672.29 | **+20,262.94** |
+| IBIT   | +393.40           | +750.91           | +1,536.47         | +3,821.37         | +22,460.44         |
+| FBTC   | +14.81            | +372.40           | +627.16           | +458.71           | +10,266.69         |
+| ARKB   | +11.51            | +163.26           | +295.92           | -3.88             | +2,647.32          |
+| BITB   | +12.93            | +146.50           | +263.30           | +97.46            | +2,262.69          |
+| HODL   | +5.75             | +38.77            | +94.54            | +100.39           | +682.03            |
+| BRRR   | +1.92             | +4.72             | +17.76            | +20.54            | +540.19            |
+| EZBC   | +11.79            | +17.53            | +39.29            | +47.48            | +439.45            |
+| BTC    | .00               | -3.13             | +36.59            | +419.18           | +419.18            |
+| BTCO   | +6.43             | +19.25            | +47.30            | +56.41            | +394.82            |
+| BTCW   | .00               | +2.84             | +6.04             | +146.69           | +217.47            |
+| YBIT   | -1.34             | -10.26            | +5.06             | +13.81            | +76.30             |
+| DEFI   | .00               | .00               | .00               | -2.03             | -1.79              |
+| GBTC   | .00               | +5.16             | -81.42            | -1503.84          | -20,141.85         |
 
-| ------- | --------------- | --------------- | --------------- | --------------- | ---------------- |
-
-| **Jumlah** | +457.19 | +1,507.95 | +2,888.01 | +3,672.29 | **+20,262.94** | |
-
-| IBIT | +393.40 | +750.91 | +1,536.47 | +3,821.37 | +22,460.44 |
-
-| FBTC | +14.81 | +372.40 | +627.16 | +458.71 | +10,266.69 |
-
-| ARKB | +11.51 | +163.26 | +295.92 | -3.88 | +2,647.32 |
-
-| BITB | +12.93 | +146.50 | +263.30 | +97.46 | +2,262.69 |
-
-| HODL | +5.75 | +38.77 | +94.54 | +100.39 | +682.03 |
-
-| BRRR | +1.92 | +4.72 | +17.76 | +20.54 | +540.19 |
-
-| EZBC | +11.79 | +17.53 | +39.29 | +47.48 | +439.45 |
-
-| BTC | .00 | -3.13 | +36.59 | +419.18 | +419.18 |
-
-| BTCO | +6.43 | +19.25 | +47.30 | +56.41 | +394.82 |
-
-| BTCW | .00 | +2.84 | +6.04 | +146.69 | +217.47 |
-
-| YBIT | -1.34 | -10.26 | +5.06 | +13.81 | +76.30 |
-
-| DEFI | .00 | .00 | .00 | -2.03 | -1.79 |
-
-| GBTC | .00 | +5.16 | -81.42 | -1503.84 | -20,141.85 |
 
 *$20 miliar dalam 10 bulan: ETF Bitcoin mencapai dalam waktu kurang dari satu tahun apa yang dicapai oleh ETF emas selama 5 tahun. Sumber: Arus investasi dana dalam USD. Terminal Bloomberg, Bloomberg L.P., 2024.*
 
@@ -789,133 +759,81 @@ Untuk menyederhanakan proses pengambilan keputusan, kami telah menetapkan empat 
 
 ### Profil bisnis
 
-#### Profil 1 - Sang Pemula
+#### Profil 1 – Pemula
 
-atribut | Atribut | Pemula |
-
+| Atribut                          | Pemula                                                                                                                                    |
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Keadaan Pikiran**              | "mencoba pembayaran fisik pertama saya", "menerima tip untuk konten online saya", "menargetkan pendapatan yang sangat kecil"               |
+| **Frekuensi Transaksi**          | "transaksi pertama untuk belajar", "menerima pembayaran sesekali"                                                                           |
+| **Contoh Jenis Bisnis**          | Ekonomi kreatif (pencipta konten, blog, artikel, dll.), tip sesekali, penjualan produk langsung satu kali, asosiasi, acara satu kali        |
+| **Jenis Pembayaran**             | Umumnya hanya beberapa sen hingga beberapa euro/dolar; di bawah ~300 euro/dolar per item                                                   |
+| **Kompleksitas Pengaturan**      | Tidak ada                                                                                                                                |
+| **Contoh Solusi yang Direkomendasikan** | Dompet Lightning kustodian seperti Wallet of Satoshi atau dompet non-kustodian seperti Phoenix                                            |
+| **Antarmuka Pedagang**           | Dompet Lightning Bitcoin sederhana: aplikasi di ponsel                                                                                   |
+| **Antarmuka Pelanggan**          | Kode pembayaran QR Bitcoin, dipindai melalui dompet pribadi pelanggan                                                                      |
+| **Biaya**                        | Pelanggan membayar biaya Lightning Bitcoin ditambah biaya aplikasi yang berlaku                                                          |
+| **Perangkat Point of Sale**      | Aplikasi smartphone gratis atau opsi untuk terminal fisik (misalnya Bitcoinize)                                                           |
+| **Manajemen dan Peran**          | Manajemen aplikasi tunggal; diferensiasi peran minimal                                                                                    |
+| **Ekspor Akuntansi**             | Daftar riwayat transaksi dasar                                                                                                             |
+| **API**                          | Tidak                                                                                                                                     |
 
-| "mencoba pembayaran fisik pertama saya", "menerima tip untuk konten online saya", "menargetkan pendapatan yang sangat kecil"
 
-| **Frekuensi Transaksi** | "transaksi pertama untuk belajar", "menerima pembayaran sesekali"                                                                    
+#### Profil 2 – Dasar
 
-| Contoh Jenis Bisnis ** ** Ekonomi kreatif (pembuat konten, blog, artikel, dll.), tips sesekali, penjualan produk secara langsung, asosiasi, acara satu kali
+| Atribut                          | Dasar                                                                                                                                       |
+| -------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Keadaan Pikiran**              | "Saya menerima Bitcoin di bisnis saya tetapi tidak mengharapkan volume yang signifikan"                                                     |
+| **Frekuensi Transaksi**          | Beberapa transaksi per bulan                                                                                                               |
+| **Contoh Jenis Bisnis**          | Bar, restoran, penjualan semi-reguler produk segar atau dari sumber langsung, beberapa toko di bawah satu pemilik, ekonomi kreatif untuk artis |
+| **Jenis Pembayaran**             | Umumnya berkisar dari beberapa euro/dolar hingga beberapa ratus per item; di bawah ~300 per item dan di bawah ~3.000 per bulan              |
+| **Kompleksitas Pengaturan**      | Minimal (aplikasi seluler)                                                                                                                  |
+| **Contoh Solusi yang Direkomendasikan** | Swiss Bitcoin Pay                                                                                                                         |
+| **Antarmuka Pedagang**           | Dompet Lightning Bitcoin sederhana: aplikasi di ponsel; faktur sederhana dengan detail minimal                                             |
+| **Antarmuka Pelanggan**          | Kode pembayaran QR Bitcoin, dipindai melalui dompet pribadi pelanggan                                                                       |
+| **Biaya**                        | Biasanya <1% untuk mengirim ke alamat Bitcoin, dan <1,5% untuk mengonversi ke fiat                                                          |
+| **Perangkat Point of Sale**      | Aplikasi smartphone gratis atau opsi untuk terminal fisik (misalnya Bitcoinize)                                                            |
+| **Manajemen dan Peran**          | Opsi peran khusus untuk penjualan bagi karyawan; dasbor online untuk administrasi                                                          |
+| **Ekspor Akuntansi**             | Ekspor CSV dengan detail transaksi lengkap                                                                                                 |
+| **API**                          | Ya                                                                                                                                          |
 
-| Jenis Pembayaran** | Umumnya beberapa sen hingga beberapa euro/dolar; di bawah ~300 euro/dolar per item
 
-| **Kompleksitas Pengaturan** | Tidak ada |
+#### Profil 3 – Profesional
 
-| Contoh Solusi yang Direkomendasikan** | Dompet Lightning kustodian seperti Wallet of Satoshi atau dompet non-kustodian seperti Phoenix
-
-| ** Antarmuka Pedagang** | Dompet Bitcoin Lightning sederhana: aplikasi di ponsel |
-
-| Antarmuka Pelanggan ** ** Kode pembayaran QR Bitcoin, dipindai melalui dompet pribadi pelanggan
-
-| Biaya** | Pelanggan membayar biaya Bitcoin Lightning ditambah biaya aplikasi yang berlaku
-
-| Perangkat Penjualan** | Aplikasi ponsel pintar gratis atau opsi untuk terminal fisik (mis. Bitcoinize)
-
-| Manajemen dan Peran** | Manajemen aplikasi tunggal; diferensiasi peran yang minimal
-
-| **Akuntansi Ekspor** | Daftar riwayat transaksi dasar |
-
-| **API** | Tidak |
-
-#### Profil 2 - Yang Penting
-
-atribut | Atribut | Hal yang Penting |
-
-| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-
-| "Saya menerima Bitcoin dalam bisnis saya, tetapi saya tidak mengharapkan volume yang berarti" | "Saya menerima Bitcoin dalam bisnis saya, tetapi saya tidak mengharapkan volume yang berarti
-
-**Frekuensi Transaksi** **Sedikit transaksi per bulan **Sedikit transaksi per bulan
-
-| **Contoh Jenis Bisnis** | Bar, restoran, penjualan semi-reguler produk segar atau produk yang diperoleh secara langsung, beberapa toko di bawah satu pemilik, ekonomi kreatif untuk seniman
-
-| Jenis Pembayaran** | Umumnya berkisar antara beberapa euro/dolar hingga beberapa ratus per item; di bawah ~300 per item dan di bawah ~3.000 per bulan
-
-| Kompleksitas Pengaturan** | Minimal (aplikasi seluler) | Minimal (aplikasi seluler)
-
-| Contoh Solusi yang Direkomendasikan** | Swiss Bitcoin Pay |
-
-| Antarmuka Pedagang ** ** Dompet Bitcoin Lightning sederhana: aplikasi di ponsel; faktur sederhana dengan detail minimal
-
-| Antarmuka Pelanggan ** ** Kode pembayaran QR Bitcoin, dipindai melalui dompet pribadi pelanggan
-
-**Biaya** | Biasanya <1% untuk mengirim ke alamat Bitcoin, dan <1,5% untuk mengonversi ke fiat
-
-| Perangkat Penjualan** | Aplikasi ponsel pintar gratis atau opsi untuk terminal fisik (mis. Bitcoinize)
-
-| Manajemen dan Peran** | Opsi untuk peran khusus penjualan bagi karyawan; dasbor online untuk administrasi
-
-| Ekspor Akuntansi ** Ekspor CSV dengan detail transaksi lengkap
-
-| **API** | Ya |
-
-#### Profil 3 - Profesional
-
-| Atribut | Atribut | Profesional
-
-| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-
-| Metode pembayaran seperti metode pembayaran lainnya untuk e-commerce saya - Atau manajemen bersama untuk sekelompok bisnis yang siap untuk volume yang lebih tinggi
-
-**Frekuensi Transaksi** **Beberapa transaksi per hari **Beberapa transaksi per hari
-
-| **Contoh Jenis Bisnis** | Situs e-commerce dengan volume sedang, pasar kecil, kelompok toko fisik (misalnya, Click & Collect), operasi UKM
-
-| Jenis Pembayaran** | Umumnya berkisar antara beberapa euro/dolar hingga beberapa ratus; tidak ada batas jumlah pembayaran yang ditetapkan; kurang dari 250.000 per tahun
-
-| Kompleksitas Pengaturan** | Ringan hingga berfitur lengkap (hosting lokal atau cloud), sering kali membutuhkan etalase e-commerce
-
-| Contoh Solusi yang Direkomendasikan** | BTC Pay Server untuk e-commerce dan/atau lingkungan fisik; ZapRite, Musqet atau PayWithFlash untuk pembayaran, Be-BOP untuk toko elektronik terintegrasi
-
-| Antarmuka Pedagang ** ** Situs web (seluler dan desktop) dengan pengeditan faktur, opsi keranjang belanja, dan pembuatan tombol pembayaran; faktur otomatis dengan integrasi e-commerce
-
-| Antarmuka Pelanggan ** ** Kode pembayaran QR Bitcoin, dipindai melalui dompet pribadi pelanggan
-
-**Biaya** | Perpaduan antara backend open-source gratis dan biaya hosting/layanan Lightning berbayar; biaya front-end termasuk biaya Bitcoin Lightning dan biaya konversi <1,5%
-
-| Perangkat Penjualan** | Toko situs web, tampilan fisik opsional (mis. iPad yang menampilkan situs atau terminal Bitcoin)
-
-| Manajemen dan Peran** | Toko berfitur lengkap dengan beberapa peran admin; karyawan dan pelanggan berinteraksi dengan sistem
-
-| Ekspor Akuntansi ** Ekspor CSV dengan detail transaksi lengkap
-
-| **API** | Ya |
-
-#### Profil 4 - Perusahaan
-
-| Atribut | Perusahaan | Perusahaan
-
+| Atribut                          | Profesional                                                                                                                                    |
 | -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Keadaan Pikiran**              | - Metode pembayaran seperti yang lain untuk e-commerce saya - Atau manajemen bersama untuk sekelompok bisnis yang siap untuk volume yang lebih besar |
+| **Frekuensi Transaksi**          | Beberapa transaksi per hari                                                                                                                    |
+| **Contoh Jenis Bisnis**          | Situs e-commerce dengan volume moderat, pasar kecil, kelompok toko fisik (misalnya, Click & Collect), operasi UKM                              |
+| **Jenis Pembayaran**             | Umumnya berkisar dari beberapa euro/dolar hingga beberapa ratus; tidak ada batasan ukuran pembayaran; kurang dari 250.000 per tahun            |
+| **Kompleksitas Pengaturan**      | Dari ringan hingga fitur lengkap (hosting lokal atau cloud), sering kali membutuhkan etalase e-commerce                                       |
+| **Contoh Solusi yang Direkomendasikan** | BTC Pay Server untuk e-commerce dan/atau lingkungan fisik; ZapRite, Musqet, atau PayWithFlash untuk checkout, Be-BOP untuk toko e-store terintegrasi |
+| **Antarmuka Pedagang**           | Situs web (seluler dan desktop) dengan pengeditan faktur, opsi keranjang belanja, dan pembuatan tombol pembayaran; faktur otomatis dengan integrasi e-commerce |
+| **Antarmuka Pelanggan**          | Kode pembayaran QR Bitcoin, dipindai melalui dompet pribadi pelanggan                                                                           |
+| **Biaya**                        | Campuran dari backend sumber terbuka gratis dan biaya hosting/pelayanan Lightning berbayar; biaya front-end termasuk biaya Lightning Bitcoin dan biaya konversi <1,5% |
+| **Perangkat Point of Sale**      | Toko situs web, tampilan fisik opsional (misalnya, iPad yang menampilkan situs atau terminal Bitcoin)                                          |
+| **Manajemen dan Peran**          | Toko lengkap dengan berbagai peran admin; karyawan dan pelanggan berinteraksi dengan sistem                                                   |
+| **Ekspor Akuntansi**             | Ekspor CSV dengan detail transaksi lengkap                                                                                                     |
+| **API**                          | Ya                                                                                                                                              |
 
-| Metode pembayaran yang strategis untuk bisnis - Dengan beberapa pengembangan untuk diintegrasikan ke dalam platform layanan sesuai spesifikasi tertentu
 
-| Frekuensi Transaksi** | Frekuensi transaksi tak terbatas dan berfrekuensi tinggi
+#### Profil 4 – Perusahaan
 
-| **Contoh Jenis Bisnis** | Perusahaan menengah, perusahaan layanan TI, perusahaan besar, pasar utama |
+| Atribut                          | Perusahaan                                                                                                                                      |
+| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Keadaan Pikiran**              | - Metode pembayaran strategis untuk bisnis - Dengan beberapa pengembangan untuk mengintegrasikan ke platform layanan sesuai dengan spesifikasi tertentu |
+| **Frekuensi Transaksi**          | Tidak terbatas, transaksi frekuensi tinggi                                                                                                        |
+| **Contoh Jenis Bisnis**          | Perusahaan menengah, perusahaan layanan TI, korporasi besar, pasar utama                                                                         |
+| **Jenis Pembayaran**             | Ukuran atau volume apapun                                                                                                                        |
+| **Kompleksitas Pengaturan**      | Menengah hingga tinggi, tergantung pada pilihan arsitektur                                                                                      |
+| **Contoh Solusi yang Direkomendasikan** | Arsitektur yang disesuaikan atau orkestrasi dari solusi yang di-hosting SaaS, yang mungkin menggunakan layanan LSP (*Lightning Service Provider*)  |
+| **Antarmuka Pedagang**           | Antarmuka front-end dan back-end yang sepenuhnya disesuaikan dan terintegrasi dengan alur kerja dan proses bisnis                                |
+| **Antarmuka Pelanggan**          | Mulai dari kode pembayaran QR Bitcoin hingga UI kustom sepenuhnya dan/atau integrasi API                                                        |
+| **Biaya**                        | Kombinasi pengembangan internal dan biaya dari pihak ketiga; pelanggan membayar biaya Lightning Bitcoin plus biaya transaksi dari penyedia layanan |
+| **Perangkat Point of Sale**      | Solusi yang dirancang khusus yang disesuaikan dengan lingkungan perusahaan                                                                       |
+| **Manajemen dan Peran**          | Peran yang sepenuhnya disesuaikan mencakup penjualan, administrasi, devops, akuntansi, dan keuangan                                              |
+| **Ekspor Akuntansi**             | Ekspor akuntansi yang sepenuhnya disesuaikan                                                                                                     |
+| **API**                          | Ya                                                                                                                                              |
 
-| Jenis Pembayaran** | Ukuran atau volume apa pun |
-
-| Kompleksitas Pengaturan** | Sedang hingga tinggi, tergantung pada pilihan arsitekturnya
-
-| Contoh Solusi yang Direkomendasikan** | Arsitektur atau orkestrasi yang dibuat khusus untuk solusi yang dihosting SaaS, berpotensi menggunakan layanan LSP (*Lightning Service Provider*) pihak ketiga
-
-| Antarmuka Pedagang ** ** Antarmuka Pedagang** ** Antarmuka front-end dan back-end yang sepenuhnya disesuaikan dan terintegrasi sepenuhnya ke dalam alur kerja dan proses bisnis
-
-| Antarmuka Pelanggan** *** Mulai dari kode pembayaran Bitcoin QR hingga UI dan/atau integrasi API yang sepenuhnya disesuaikan
-
-| Biaya ** Kombinasi pengembangan internal dan biaya pihak ketiga; pelanggan membayar biaya Bitcoin Lightning ditambah biaya transaksi dari penyedia layanan
-
-| Perangkat Point of Sale** | Solusi yang dirancang khusus yang disesuaikan dengan lingkungan perusahaan
-
-| Manajemen dan Peran** | Peran yang sepenuhnya disesuaikan di seluruh bagian penjualan, administrasi, pengembangan, akuntansi, dan keuangan
-
-| Ekspor Akuntansi ** Ekspor Akuntansi ** Ekspor akuntansi yang disesuaikan sepenuhnya
-
-| **API** | Ya |
 
 Pada bab-bab berikutnya, kami akan merinci setiap profil bisnis dan solusi yang disesuaikan dengan masing-masing profil bisnis tersebut.
 
@@ -961,7 +879,7 @@ https://planb.network/tutorials/wallet/mobile/zeus-3e89603c-501d-439c-8691-d4a0d
 
 **Dompet LN Kustodian:**
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-c4792842-b046-44f9-a6f1-351191b7cc2b
+https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 

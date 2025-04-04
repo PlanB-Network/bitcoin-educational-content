@@ -1,0 +1,12 @@
+question: Ni faida gani moja ya sarafu ya chuma kuliko pesa za bidhaa?
+answer: Ilikuwa ya kudumu zaidi
+wrong_answers:
+  - Ilikuwa na thamani ya juu zaidi ya asili
+  - Ilikuwa rahisi kusafirisha
+  - Haikuwa na tabia ya kughushi
+explanation: |
+   Pesa za chuma, haswa dhahabu na fedha, zilikuwa za kudumu zaidi kuliko pesa za bidhaa.
+   Metali za thamani haziwezekani kuharibika kwa wakati, na kuzifanya kuwa bora
+   uhifadhi wa muda mrefu wa thamani. Uimara huu pia ulichangia manufaa yao kama
+   wastani wa Exchange, kitengo cha akaunti, na hifadhi ya thamani.
+reviewed: true

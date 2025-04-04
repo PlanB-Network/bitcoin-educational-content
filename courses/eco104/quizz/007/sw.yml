@@ -1,0 +1,17 @@
+question: Je, kuna madhara gani ya kuchapisha pesa zaidi kwenye uwezo wa ununuzi wa sarafu?
+answer: Kuzorota kwa uwezo wa ununuzi wa sarafu
+wrong_answers:
+  - Kuongezeka kwa uwezo wa ununuzi wa sarafu
+  - Hakuna athari
+  - Pesa zaidi = uwezo mkubwa wa ununuzi
+explanation: |
+  Wakati benki kuu zinaamua kuchapisha pesa, haziwezi tu kuunda thamani zaidi.
+  Ili pesa hii mpya iliyochapishwa kuwa na thamani ya kitu, thamani yake lazima itoke kwenye
+  wamiliki wa fedha za awali.
+  Fikiria pesa Supply kama pizza, na fikiria ikiwa imekatwa vipande vinne.
+  Kuongeza pesa kwa Supply mara mbili haitakuwa sawa na kuongeza mara mbili ya kiasi cha pizza.
+  Badala yake, itakuwa sawa na kukata vipande hivyo vinne kwa nusu ili kuunda
+  vipande nane. Hatujapata pizza yoyote ya ziada. Tuna vipande zaidi tu,
+  kila ndogo kwa ukubwa. Kwa hivyo, tunapochapisha pesa zaidi, tunapunguza thamani ya pesa
+  ambayo tayari iko.
+reviewed: true

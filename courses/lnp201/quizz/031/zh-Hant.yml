@@ -1,0 +1,9 @@
+question: 什麼限制 Lightning Network 的間接付款金額？
+answer: 所選路徑的通道中可用的最小流動性
+wrong_answers:
+  - 涉及的中介節點數量
+  - Lightning Network 的總容量
+  - 每個節點設定的路由費
+explanation: |
+  間接付款所能轉移的最高金額取決於所使用通道的最低流動性，因為每個通道都必須調整雙方的資金。
+reviewed: false

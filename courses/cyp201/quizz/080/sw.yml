@@ -1,0 +1,9 @@
+question: Ni usimbaji gani unaotumika kuwakilisha anwani za SegWit v0?
+answer: beki32
+wrong_answers:
+  - msingi58angalia
+  - bech32m
+  - msingi 64
+explanation: |
+  Anwani za SegWit v0, kama vile zile za P2WPKH na P2WSH, tumia usimbaji wa bech32 unaoletwa na SegWit.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni ukubwa gani wa kawaida wa kizuizi kwa usimbaji fiche wa block cipher?
+answer: 64, 128, 192, au biti 256
+wrong_answers:
+  - 8, 16, 32, au biti 64
+  - 4, 8, 16, au 32 bits
+  - 256, 512, 1024, au biti 2048
+explanation: |
+  Zuia misimbo huchakata data katika vizuizi vya ukubwa usiobadilika, kwa kawaida 64, 128, 192, au biti 256, ili kuhakikisha usalama wa juu zaidi na uadilifu wa usimbaji fiche.
+reviewed: false

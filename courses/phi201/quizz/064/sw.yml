@@ -1,0 +1,9 @@
+question: Kulingana na Jacques Le Goff, ni lini wazo la maslahi halali lilitolewa kwanza nadharia?
+answer: Katika karne ya 13.
+wrong_answers:
+  - Katika karne ya 11.
+  - Katika karne ya 12.
+  - Katika karne ya 14.
+explanation: |
+  Jacques Le Goff anaweka nadharia ya kwanza ya maslahi halali katika karne ya 13, ambapo wazo hili liliibuka katika muktadha wa tafakari ya kitheolojia na kiuchumi juu ya matumizi ya pesa na mazoea ya kibiashara.
+reviewed: false

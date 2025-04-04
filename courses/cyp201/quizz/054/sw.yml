@@ -1,0 +1,9 @@
+question: Je, ni jukumu gani kuu la passphrase katika Bitcoin HD Wallet?
+answer: Kurekebisha utokaji wa ufunguo ili kuimarisha usalama
+wrong_answers:
+  - Simbua miamala inayosubiri
+  - generate UTXO za Wallet
+  - Linda ufikiaji wa Wallet ukitumia kitambulisho cha uso
+explanation: |
+  passphrase hufanya kazi kama kipengele cha pili cha usalama, ikibadilisha chimbuko kuu la seed ili kuzuia ufikiaji wa Wallet ikiwa kifungu cha Mnemonic kitaathiriwa.
+reviewed: false

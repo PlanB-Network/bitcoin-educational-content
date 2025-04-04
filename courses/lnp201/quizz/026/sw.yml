@@ -1,0 +1,9 @@
+question: Ni njia gani ya kufunga chaneli ambayo ni ya kiuchumi na ya haraka zaidi?
+answer: Kufungwa kwa ushirika
+wrong_answers:
+  - Kufungwa kwa lazima
+  - Kufungwa kwa kudanganya
+  - Hakuna zaidi ya kiuchumi na ya haraka
+explanation: |
+  Kufunga vyama vya ushirika ndiyo njia ya haraka na ya kiuchumi zaidi kwa sababu pande zote mbili zinakubali kufunga njia, kurekebisha ada kulingana na hali ya soko.
+reviewed: false

@@ -78,11 +78,22 @@ Successivamente, vedrai questo:
 
 ![image](assets/9.webp)
 
-Sul dispositivo, vedi le parole presentate una per una e scrivile ORDINATAMENTE e NELL'ORDINE.
+Il tuo Trezor mostra la tua frase mnemonica di 12 parole. **Questa frase mnemonica garantisce l'accesso completo e illimitato a tutti i tuoi bitcoin**. Chiunque sia in possesso di questa frase può sottrarre i tuoi fondi, anche senza accesso fisico al tuo Trezor. La frase di 12 parole consente di ripristinare l'accesso ai tuoi bitcoin in caso di perdita, furto o danneggiamento del tuo hardware wallet. È quindi molto importante conservarla con cura e custodirla in un luogo sicuro.
+
+Puoi scriverla sul cartoncino fornito nella confezione oppure, per maggiore sicurezza, ti consiglio di inciderla su un supporto in acciaio inossidabile per proteggerla da incendi, inondazioni o crolli.
+
+Per maggiori informazioni su come eseguire correttamente il backup e gestire la tua frase mnemonica, ti consiglio vivamente di seguire questo altro tutorial, specialmente se sei un principiante:
+
+https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 
 ![image](assets/10.webp)
 
-Imposta un PIN per bloccare il dispositivo (questo non fa parte del tuo seed, serve solo per bloccare il dispositivo in modo che nessuno possa accedere al seed contenuto all'interno).
+Il prossimo passo è impostare il codice PIN. Il codice PIN serve per sbloccare il tuo Trezor. È quindi una protezione contro accessi fisici non autorizzati. Questo codice PIN non interviene nella derivazione delle chiavi crittografiche del tuo portafoglio. Quindi, anche senza accesso a questo codice PIN, possedere la tua frase mnemonica di 12 o 24 parole ti permetterà di recuperare l'accesso ai tuoi bitcoin.
+
+Si consiglia di scegliere un codice PIN il più casuale possibile. Assicurati inoltre di salvare questo codice in un luogo diverso da quello in cui conservi il tuo Trezor (ad esempio, in un gestore di password).
+
+Puoi scegliere un codice PIN fino a 9 cifre. Ti consiglio di farlo il più lungo possibile.
 
 ![image](assets/11.webp)
 
@@ -94,11 +105,21 @@ Dai un nome al tuo portafoglio e clicca su "Access Suite":
 
 ![image](assets/13.webp)
 
-È più semplice creare un portafoglio senza frase di accesso, ma è meglio crearne uno con una frase di accesso (il tuo vero portafoglio) E uno senza frase di accesso (il tuo portafoglio fittizio). Ogni volta che accedi al dispositivo tramite Trezor Suite, ti verrà chiesto se vuoi "applicare" la frase di accesso o meno.
+Prima di continuare, è possibile, se lo si desidera, aggiungere una passphrase BIP39. Una passphrase BIP39 è una password opzionale che è possibile scegliere liberamente e che viene aggiunta alla frase mnemonica per aumentare la sicurezza del portafoglio. Con questa funzione attivata, l'accesso al tuo portafoglio Bitcoin richiederà sia la frase mnemonica che la passphrase. Senza l'una o l'altra, sarebbe impossibile recuperare il portafoglio.
+
+Prima di configurare questa opzione sul tuo Trezor, è fortemente consigliato leggere questo articolo per comprendere appieno il funzionamento teorico della passphrase ed evitare errori che potrebbero comportare la perdita dei tuoi bitcoin:
+
+https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
+Per attivarla, è necessario selezionare l'opzione "Hidden wallet" e annotarla nel campo corrispondente. Ogni volta che accederai al tuo portafoglio tramite Trezor Suite, ti verrà chiesto se desideri applicare la passphrase o meno.
+
 
 ![image](assets/14.webp)
 
-Ho selezionato "Hidden Wallet" e ho digitato una frase di accesso che ho inventato "craigwrightisaliarandafraud"
+È anche importante eseguire un backup corretto di questa passphrase, allo stesso modo della frase mnemonica. Perderla equivale a perdere l'accesso ai tuoi bitcoin. Sconsiglio vivamente di fare affidamento esclusivamente sulla tua memoria, poiché ciò aumenta irragionevolmente il rischio di perdita. Idealmente, dovresti annotarla su un supporto fisico (carta o metallo) separato dalla frase mnemonica. Ovviamente, questo backup deve essere conservato in un luogo diverso da quello in cui è conservata la frase mnemonica per evitare che entrambi vengano compromessi contemporaneamente.
+
+Per essere efficace, devi scegliere una passphrase forte, casuale, che includa tutti i tipi di caratteri e sia sufficientemente lunga (come una password robusta).
+
 
 ![image](assets/15.webp)
 

@@ -1,0 +1,9 @@
+question: 哪個 Bitcoin 標準引進了分層式確定性錢包？
+answer: BIP32
+wrong_answers:
+  - BIP39
+  - BIP44
+  - BIP141
+explanation: |
+  BIP32 定義了 HD 錢包的操作，允許從 seed 分層衍生私密金鑰。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni nini asili ya shida ya uainishaji ambayo inasimamia usalama wa mifumo ya siri ya asymmetric kama RSA?
+answer: Kuweka nambari katika mambo mawili makubwa sana
+wrong_answers:
+  - Kutenganisha nambari katika vipengele vinavyofuatana vya 2
+  - Kupunguza nambari hadi vigawanyiko vyake vidogo zaidi
+  - Kuzidisha nambari mbili kuu ili kupata bidhaa
+explanation: |
+  Usalama wa RSA unatokana na ugumu wa kuainisha idadi kubwa (bidhaa ya nambari kuu mbili) katika mambo yake makuu mawili, kazi ambayo karibu haiwezekani bila ufunguo wa kibinafsi.
+reviewed: false

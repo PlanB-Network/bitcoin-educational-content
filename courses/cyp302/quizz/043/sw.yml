@@ -1,0 +1,9 @@
+question: Ni aina gani ya kikundi kimsingi hutumia kriptografia?
+answer: Vikundi vilivyofafanuliwa kwa nambari kamili au Elements iliyofafanuliwa na nambari kamili
+wrong_answers:
+  - Vikundi vya nambari changamano au Elements vilivyoelezewa na nambari changamano
+  - Vikundi vya mabadiliko ya kijiometri au Elements iliyoelezwa na mabadiliko ya kijiometri
+  - Vikundi vya nambari za busara au Elements iliyoelezewa na nambari za busara
+explanation: |
+  Cryptography hutumia vikundi kulingana na nambari kamili, au Elements inayofafanuliwa na nambari kamili kama vile vidokezo kwenye mkunjo wa duaradufu, kwa usimbaji fiche na utendakazi wa kutia sahihi.
+reviewed: false

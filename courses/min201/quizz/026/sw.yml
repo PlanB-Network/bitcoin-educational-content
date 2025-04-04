@@ -1,0 +1,12 @@
+question: Je, ni jukumu gani la nodi katika mtandao wa Bitcoin?
+answer: Nodi hudumisha uadilifu kwa kuthibitisha na kuthibitisha miamala na vizuizi.
+wrong_answers:
+  - Nodi huunda na kuhalalisha vizuizi.
+  - Nodi huthibitisha miamala pekee.
+  - Nodes hazina jukumu katika mtandao wa Bitcoin.
+explanation: |
+  Katika mtandao wa Bitcoin, nodi hudumisha uadilifu wa
+  mtandao kwa kuthibitisha na kuthibitisha miamala na
+  vitalu. Kizuizi kisicho sahihi au cha ulaghai kitakataliwa
+  kwa nodi, kuhifadhi usalama wa mtandao.
+reviewed: true

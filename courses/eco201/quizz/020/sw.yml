@@ -1,0 +1,13 @@
+question: Kulingana na wanauchumi wa Austria, ni nini matokeo ya watu binafsi waliobobea katika kazi zao na kushiriki katika kubadilishana?
+answer: Watu binafsi huwa bora kila wakati.
+wrong_answers:
+  - Watu binafsi daima huwa mbaya zaidi.
+  - Hakuna mabadiliko katika hali ya mtu binafsi.
+  - Matokeo hutofautiana kulingana na mtu binafsi.
+explanation: |
+  Kulingana na wanauchumi wa Austria, matokeo ya watu binafsi
+  maalumu kwa kazi zao na kushiriki katika kubadilishana ni
+  kwamba wao daima ni bora zaidi. Hii ni kwa sababu
+  utaalamu na Exchange kuruhusu watu binafsi kuongeza
+  matumizi yao subjective.
+reviewed: true

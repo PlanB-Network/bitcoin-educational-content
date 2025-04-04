@@ -1,0 +1,9 @@
+question: 在 Starter profile 中考量哪兩種 Wallet 類型？
+answer: 託管和非託管的閃電錢包
+wrong_answers:
+  - Hot 和 Cold 儲存 Bitcoin 錢包
+  - Multisig 和紙質 Bitcoin 皮夾
+  - 硬體與大腦 Lightning 錢包
+explanation: |
+  Starter profile 使用託管或非託管 Lightning wallets。
+reviewed: false

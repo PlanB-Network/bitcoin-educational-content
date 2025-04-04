@@ -156,45 +156,31 @@ Alt i alt er denne prosessen innviklet, tidkrevende og kostbar for det som burde
 
 ### Sammenligning av betalingsmetoder
 
-| Betalingsmåte | Autorisasjon nødvendig?           transaksjonsgodkjenningstid (forhandlervisning) | Oppgjørshastighet (full oppgjørshastighet) | Endelighet (enkel reversering) | Antall mellommenn | Typiske gebyrer (til betalingsmottaker) | Antall betalingsformidlere | Typiske gebyrer (til betalingsmottaker)
+| Betalingsmetode                 | Kreves autorisasjon?             | Transaksjonsgodkjenningstid (Fra selgers perspektiv) | Oppgjørshastighet (Fullstendig oppgjør av midler)       | Endelighet (Lett å reversere)              | Antall mellommenn           | Typiske gebyrer (til mottaker)         |
+| ------------------------------ | -------------------------------- | --------------------------------------------------- | ----------------------------------------------------- | ---------------------------------------- | ---------------------------- | ------------------------------------- |
+| **Kontanter (Cash)**            | Nei                             | Umiddelbar (Fysisk utveksling)                      | Umiddelbar (Ingen forsinkelse i oppgjør)               | Høy (Irreversibel når betalt)            | Ingen                       | Ingen                                  |
+| **Sjekker (Checks)**            | Ja (Bankavregning)               | Aksept ved innskudd (Ikke garantert)                | Flere dager (Sjekkbehandlingsprosess)                 | Middels (Kan avvises/Stoppe før avregning) | Bank                       | **Lav til middels** (Bankgebyrer)     |
+| **Bankoverføringer (Wire Transfers)** | Ja (Bank/Nettsystem)           | Bekreftelse innen timer                            | Samme dag eller neste dag (Innenlands)                | Høy (Vanligvis irreversibel når sendt)    | Banker, Betalingsnettverk    | **Middels** (Fast/Prosentbasert)      |
+| **Betalingskort (Payment Cards)** | Ja (Kortutsteder autorisasjon)   | Sekunder til minutter (Autorisasjonskode)           | Noen få dager (Mellombankoppgjør)                     | Middels (Mulige tilbakeføringer)          | Utsteder, Innbetalingsmottaker, Kortnettverk | **Variabel (1-3% av transaksjonen)** |
+| **Digitale lommebøker/Mobilbetaling (Digital Wallets/Mobile Pay)** | Ja (Lommebokleverandør/Bank) | Sekunder (Umiddelbar bekreftelse)                   | Vanligvis 1-2 dager (Avhenger av finansieringskilde)  | Middels (Mulige refusjoner/Tvist)         | Banker, Lommebokoperatører   | **Lav til middels (Varierer)**        |
 
-| ------------------------------ | ------------------------------- | ----------------------------------------- | ---------------------------------------------- | ---------------------------------------- | ------------------------------ | ---------------------------------- |
-
-| **Kontanter** | Nei | Umiddelbar (fysisk veksling) | Umiddelbar (ingen oppgjørsforsinkelse) | Høy (irreversibel når betalt) | Ingen | Ingen | Ingen |
-
-| Sjekker** | Ja (bankclearing) | Godkjennelse ved innskudd (ikke garantert) | Flere dager (sjekkklareringsprosess) | Middels (kan prelle av/stoppe før clearing) | Bank | **Lav til middels** (bankgebyrer) | **Lav til middels** (bankgebyrer)
-
-| Overføringer** | Ja (bank/nettverk) | Bekreftelse innen få timer | Samme dag eller neste dag (innenlands) | Høy (vanligvis irreversibel når den er sendt) | Banker, betalingsnettverk | **Middels** (fast/prosentvis) |
-
-| Betalingskort** | Ja (kortutsteders autorisasjon) | Sekunder til minutter (autorisasjonskode) | Noen få dager (interbankoppgjør) | Middels (tilbakeføringer mulig) | Kortutsteder, kortinnløser, kortnettverk | **Variabel (1-3 % av transaksjonen)** | **Variabel (1-3 % av transaksjonen)
-
-| **Digitale lommebøker/Mobile Pay** | Ja (lommebokleverandør/bank) | Sekunder (øyeblikkelig bekreftelse) | Vanligvis 1-2 dager (avhenger av finansieringskilde) | Middels (tilbakebetaling/tvist mulig) | Banker, lommebokoperatører | **Lav til middels (varierer)** | | Lommebokoperatører
 
 ### Begrensninger ved eksisterende løsninger
 
-Den tradisjonelle betalingsbransjen representerer en årlig økonomi på ca. 2 200 milliarder dollar, omtrent en tiendedel av USAs BNP eller like mye som Frankrikes BNP. Fordi valutaer fungerer som autoriserte nettverk, er det begrenset konkurranse, noe som gjør denne "tjenesten" mer lik en skatt som pålegges den produktive økonomien. I tillegg til de kostnadsbyrdene det skaper, er det flere andre begrensninger, som skissert nedenfor.
+Den tradisjonelle betalingsindustrien representerer en årlig økonomi på omtrent 2200 milliarder dollar, omtrent en tidel av USAs BNP eller likt med Frankrikes BNP. Fordi valutaer fungerer som tillatte nettverk, er konkurransen begrenset, noe som gjør denne "tjenesten" mer som en skatt som pålegges den produktive økonomien. I tillegg til de kostnadsbyrder det skaper, er det flere andre begrensninger som beskrevet nedenfor.
 
-| Begrensning | Forklaring | Konsekvenser
+| Begrensning                     | Forklaring                                                                                                                                                                                                                     | Innvirkning                                                                                             |
+| -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| Høye kortgebyrer                 | Interbankgebyrer (~0,3%), nettverksgebyrer (faste eller 0,3%-1%), terminal/PSP-abonnementer og bankmarginer (0,5%-1,7%) utgjør en betydelig kostnad—som en global "skatt" på produktive sektorer som utgjør billioner av dollar. | Øker kostnadene for selgere, reduserer marginer og kan potensielt øke forbrukerpriser.                   |
+| Veldig langsomt endelig oppgjør  | Oppgjør av midler kan ta opptil 5 dager, noe som bremser pengestrømmen og den generelle økonomiske aktiviteten.                                                                                                               | Forsinker likviditet for selgere og reduserer hastigheten på økonomisk sirkulasjon.                     |
+| Svindel                         | E-handelskanaler er sterkt utsatt for svindel, noe som bidrar til betydelige tap (f.eks. 28 milliarder dollar). Tilbakeføringer kan nå rundt 174 milliarder dollar globalt innen 2024. Å håndtere disse tvistene tar tid og forårsaker mental belastning. | Økte driftskostnader, komplekse tiltak for å forhindre svindel, og svekket kundetillit.                   |
+| Forlatte handlekurver            | Ytterligere sikkerhetstiltak (engangskoder, tofaktorautentisering under PSD2) skaper friksjon ved utsjekking.                                                                                                                 | Høyere kompleksitet ved utsjekking fører til økte forlatte handlekurver og tapte salg.                   |
+| Høye minimumstransaksjonsbeløp   | Minimumsbeløp for bruk av kort kan tvinge selgere og forbrukere til upraktiske prissettings- eller kjøpsbetingelser, og avskrekke småverdihandler.                                                                               | Redusert kundetilfredshet og fleksibilitet, potensielt begrensende for impulskjøp eller lavverdikjøp.    |
+| Langsom forhåndsautorisasjon     | Nåværende systemer kan ikke håndtere transaksjoner på millisekundnivå eller støtte kontinuerlige, sanntids betalingsstrømmer.                                                                                                 | Begrenser bruksområder som krever øyeblikkelige eller strømmende betalinger, og hindrer innovasjon og skalerbarhet. |
+| Behov for en bank-/kortkonto     | Tilgang til disse betalingsmetodene krever en koblet bank- eller kortkonto, noe som automatisk ekskluderer de som ikke har slike kontoer.                                                                                         | Begrenser finansiell inkludering og reduserer tilgang for ubankede eller underbankede befolkninger.      |
+| Gjentatt opprettelse av nettbaserte kontoer | Brukere må ofte opprette flere nettbaserte kontoer, noe som fører til tretthet, redusert bekvemmelighet og økt eksponering av personopplysninger.                                                                              | Forverrer brukeropplevelsen, øker personvernbekymringer og øker risikoen for datainnbrudd.               |
+| Valutavekslingsgebyrer (FX)      | Mangelen på en universell regneenhet tvinger til kostbare valutakonverteringer for grenseoverskridende transaksjoner.                                                                                                            | Legger til ekstra kostnader for internasjonal handel, og gjør globale transaksjoner mindre tilgjengelige. |
 
-| -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
-
-| Høye kortgebyrer | Utvekslingsgebyrer (~0,3 %), nettverksgebyrer (faste eller 0,3 %-1 %), terminal-/PSP-abonnementer og bankmarginer (0,5 %-1,7 %) utgjør til sammen en betydelig kostnad - som en global "skatt" på produktive sektorer, som beløper seg til billioner av dollar.     | Øker forhandlernes kostnader, reduserer marginene og kan føre til høyere forbrukerpriser.                  |
-
-| Svært tregt sluttoppgjør | Det kan ta opptil fem dager å gjøre opp penger, noe som bremser pengestrømmen og den generelle økonomiske aktiviteten.                                                                                                                                | Forsinker likviditeten for selgere og reduserer hastigheten på den økonomiske sirkulasjonen.                        |
-
-| Svindel | E-handelskanaler er sterkt utsatt for svindel, noe som bidrar til betydelige tap (f.eks. 28 milliarder dollar). Tilbakeføringer kan komme opp i ~174 milliarder dollar globalt innen 2024. Håndteringen av disse tvistene er tidkrevende og mentalt belastende. | Økte driftskostnader, komplekse svindelforebyggende tiltak og svekket tillit hos kundene.       |
-
-| Flere sikkerhetstrinn (engangskoder, tofaktorautentisering i henhold til PSD2) skaper friksjon i kassen.                                                                                                                   | Økt kompleksitet i kassen fører til at flere forlater handlekurven og taper salg.                       |
-
-| Høye minimumsbeløp for transaksjoner | Minimumsbeløp på kort kan tvinge forhandlere og forbrukere inn i upraktiske pris- eller kjøpsbetingelser, noe som motvirker transaksjoner med små verdier.                                                                       | Redusert kundetilfredshet og fleksibilitet, noe som kan begrense impulskjøp eller kjøp av lav verdi.  |
-
-| Treg forhåndsgodkjenning | Dagens systemer kan ikke håndtere transaksjoner i millisekundshastighet eller støtte kontinuerlige betalingsstrømmer i sanntid.                                                                                                                   | Dette begrenser bruksområder som krever øyeblikkelige eller direkte betalinger, noe som begrenser innovasjon og skalerbarhet. |
-
-| Behov for en bank- eller kortkonto | Tilgang til disse betalingsmåtene krever en tilknyttet bank- eller kortkonto, noe som automatisk ekskluderer dem som ikke har en slik konto.                                                                                                       | Begrenset finansiell inkludering, noe som reduserer tilgangen for personer som ikke har bankkonto eller er underfinansiert.                 |
-
-| Gjentatt opprettelse av kontoer på nettet | Brukerne må ofte opprette flere kontoer på nettet, noe som fører til utmattelse, redusert brukervennlighet og økt eksponering av personopplysninger.                                                                                                | Forringer brukeropplevelsen, øker bekymringene for personvernet og øker risikoen for datainnbrudd.          |
-
-| Valutagebyr | Mangelen på en universell regningsenhet tvinger frem kostbare valutaomregninger ved transaksjoner på tvers av landegrensene.                                                                                                                              | Det gir ekstra kostnader for internasjonal handel, noe som gjør globale transaksjoner mindre overkommelige.             |
 
 På samme måte som vi gikk fra å betale per minutt for telefonsamtaler til å bruke nesten gratis IP-basert kommunikasjon, kan fremveksten av mer åpne og effektive nettverk omdefinere betalinger, redusere kostnader og mellomledd og fremme nye forretningsmodeller.
 
@@ -521,37 +507,22 @@ Bitcoin-ETF-er leder med god margin når det gjelder **institusjonell adopsjon**
 
 Bitcoin spiller nå i "store of value"-markedet**. Det representerer bare en dråpe i havet når det gjelder skala: bare ca. 1 800 milliarder dollar sammenlignet med gullets 18 000 milliarder dollar eller eiendomsmeglingens 500 000 milliarder dollar. Med en markedsandel på rundt 0,1 % har de imidlertid et enormt rom for vekst, spesielt med tanke på at konkurrentene sliter med å tiltrekke seg nye brukere.
 
-| Ticker | 1D Flow (M USD) | 1W Flow (M USD) | 1M Flow (M USD) | 3M Flow (M USD) | YTD Flow (M USD) |
-
+| Ticker  | 1D Flyt (M USD) | 1W Flyt (M USD) | 1M Flyt (M USD) | 3M Flyt (M USD) | YTD Flyt (M USD) |
 | ------- | --------------- | --------------- | --------------- | --------------- | ---------------- |
-
-| **Sum** | +457,19 | +1 507,95 | +2 888,01 | +3 672,29 | **+20 262,94** | | **Sum** | +457,19 | +1 507,95 | +2 888,01 | +3 672,29 | **+20 262,94
-
-| IBIT | +393,40 | +750,91 | +1 536,47 | +3 821,37 | +22 460,44 | | IBIT | +393,40 | +750,91 | +1 536,47 | +3 821,37 | +22 460,44 | IBIT
-
-| FBTC | +14,81 | +372,40 | +627,16 | +458,71 | +10 266,69 | | +10 266,69
-
-| ARKB | +11,51 | +163,26 | +295,92 | -3,88 | +2 647,32 | | +11,51 | +163,26 | +295,92 | -3,88 | +2 647,32 | | +11,51 | +11,51 | +163,26 | +295,92 | -3,88 | +2 647,32
-
-| BITB | +12,93 | +146,50 | +263,30 | +97,46 | +2 262,69 | | | +12,93 | +146,50 | +263,30 | +97,46 | +2 262,69
-
-| HODL | +5,75 | +38,77 | +94,54 | +100,39 | +682,03 | | +682,03
-
-| BRRR | +1,92 | +4,72 | +17,76 | +20,54 | +540,19 | | +540,19
-
-| EZBC | +11,79 | +17,53 | +39,29 | +47,48 | +439,45 | | EZBC | +11,79 | +17,53 | +39,29 | +47,48 | +439,45 |
-
-| BTC | .00 | -3,13 | +36,59 | +419,18 | +419,18 | | +419,18 |
-
-| BTCO | +6,43 | +19,25 | +47,30 | +56,41 | +394,82 | | | BTCO | +6,43 | +19,25 | +47,30 | +56,41 | +394,82 | | BTCO
-
-| BTCW | .00 | +2,84 | +6,04 | +146,69 | +217,47 | | BTCW | .00 | +2,84 | +6,04 | +146,69 | +217,47 | BTCW
-
-| YBIT | -1,34 | -10,26 | +5,06 | +13,81 | +76,30 | | +76,30
-
-| DEFI | .00 | .00 | .00 | .00 | -2.03 | -1.79 | | -2.03 | -1.79 | -2.03 | -1.79
-
-| GBTC | .00 | +5,16 | -81,42 | -1503,84 | -20 141,85 | | GBTC | .00 | +5,16 | -81,42 | -1503,84 | -20 141,85 |
+| **Sum** | +457,19         | +1 507,95       | +2 888,01       | +3 672,29       | **+20 262,94**   |
+| IBIT    | +393,40         | +750,91         | +1 536,47       | +3 821,37       | +22 460,44       |
+| FBTC    | +14,81          | +372,40         | +627,16         | +458,71         | +10 266,69       |
+| ARKB    | +11,51          | +163,26         | +295,92         | -3,88           | +2 647,32        |
+| BITB    | +12,93          | +146,50         | +263,30         | +97,46          | +2 262,69        |
+| HODL    | +5,75           | +38,77          | +94,54          | +100,39         | +682,03          |
+| BRRR    | +1,92           | +4,72           | +17,76          | +20,54          | +540,19          |
+| EZBC    | +11,79          | +17,53          | +39,29          | +47,48          | +439,45          |
+| BTC     | .00             | -3,13           | +36,59          | +419,18         | +419,18          |
+| BTCO    | +6,43           | +19,25          | +47,30          | +56,41          | +394,82          |
+| BTCW    | .00             | +2,84           | +6,04           | +146,69         | +217,47          |
+| YBIT    | -1,34           | -10,26          | +5,06           | +13,81          | +76,30           |
+| DEFI    | .00             | .00             | .00             | -2,03           | -1,79            |
+| GBTC    | .00             | +5,16           | -81,42          | -1 503,84       | -20 141,85       |
 
 *20 milliarder dollar på 10 måneder: Bitcoin-ETF-er oppnådde på mindre enn ett år det samme som gull-ETF-er brukte fem år på å oppnå. Kilde: Kilde: Fondets investeringsstrømmer i USD. Bloomberg Terminal, Bloomberg L.P., 2024*
 
@@ -789,133 +760,80 @@ For å forenkle beslutningsprosessen har vi definert fire forskjellige forretnin
 
 ### Virksomhetsprofilene
 
-#### Profil 1 - Forretten
+#### Profil 1 – Nybegynneren
 
-| Attributt | Forrett | Forrett
+| Attributt                      | Nybegynneren                                                                                                                      |
+| ------------------------------ | --------------------------------------------------------------------------------------------------------------------------------- |
+| **Sinnstilstand**              | "prøver min første fysiske betaling", "tar imot tips for mitt nettkinnhold", "sikter mot svært liten inntekt"                      |
+| **Transaksjonsfrekvens**       | "første transaksjon for å lære", "tar betaling en gang i blant"                                                                   |
+| **Eksempler på virksomhetstyper** | Kreativ økonomi (innholdsprodusenter, blogger, artikler osv.), sporadiske tips, enkeltstående salg av produkter ansikt-til-ansikt, foreninger, enkeltstående arrangementer |
+| **Betalingstype**              | Vanligvis noen få cent til noen få euro/dollar; under ~300 euro/dollar per vare                                                   |
+| **Kompleksitet i innstillinger** | Ingen                                                                                                                            |
+| **Anbefalt løsning**           | En custodial Lightning-lommebok som Wallet of Satoshi eller en ikke-custodial lommebok som Phoenix                              |
+| **Selgergrensesnitt**          | Enkel Bitcoin Lightning-lommebok: en app på en mobiltelefon                                                                       |
+| **Kundegrensesnitt**           | Bitcoin QR betalingskode, skannet via kundens personlige lommebok                                                                |
+| **Gebyrer**                    | Kunden betaler Bitcoin Lightning-gebyrer samt eventuelle app-gebyrer                                                            |
+| **POS-enhet**                  | Gratis smarttelefonapp eller et alternativ for en fysisk terminal (f.eks. Bitcoinize)                                          |
+| **Administrasjon og roller**   | Administrasjon av én app; minimal rolledifferensiering                                                                           |
+| **Regnskapseksport**           | Enkle transaksjonslogglister                                                                                                     |
+| **API**                        | Nei                                                                                                                              |
 
-| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
 
-| **State of Mind** | "prøver min første fysiske betaling", "tar imot tips for nettinnholdet mitt", "sikter mot svært små inntekter" | | "tar imot tips for nettinnholdet mitt
+#### Profil 2 – Det Essensielle
 
-| **Transaksjonsfrekvens** | "første transaksjon for å lære", "tar betaling en gang i blant"                                                                    |
+| Attributt                      | Det Essensielle                                                                                                               |
+| ------------------------------ | --------------------------------------------------------------------------------------------------------------------------- |
+| **Sinnstilstand**              | "Jeg aksepterer Bitcoin i min virksomhet, men forventer ikke betydelig volum"                                                |
+| **Transaksjonsfrekvens**       | Få transaksjoner per måned                                                                                                   |
+| **Eksempler på virksomhetstyper** | Barer, restauranter, semi-regelmessige salg av ferske eller direkte anskaffede produkter, flere butikker under én eier, kreativ økonomi for kunstnere |
+| **Betalingstype**              | Vanligvis fra noen få euro/dollar til noen få hundre per vare; under ~300 per vare og under ~3,000 per måned                |
+| **Kompleksitet i innstillinger** | Minimal (mobilapp)                                                                                                          |
+| **Anbefalt løsning**           | Swiss Bitcoin Pay                                                                                                           |
+| **Selgergrensesnitt**          | Enkel Bitcoin Lightning-lommebok: en app på en mobiltelefon; enkel fakturering med minimale detaljer                       |
+| **Kundegrensesnitt**           | Bitcoin QR betalingskode, skannet via kundens personlige lommebok                                                          |
+| **Gebyrer**                    | Vanligvis <1% for sending til en Bitcoin-adresse, og <1,5% for konvertering til fiat                                        |
+| **POS-enhet**                  | Gratis smarttelefonapp eller et alternativ for en fysisk terminal (f.eks. Bitcoinize)                                      |
+| **Administrasjon og roller**   | Mulighet for en salgsrolle kun for ansatte; nettbasert dashbord for administrasjon                                          |
+| **Regnskapseksport**           | CSV-eksport med fullstendige transaksjonsdetaljer                                                                            |
+| **API**                        | Ja                                                                                                                          |
 
-| Eksempler på virksomhetstyper** | Kreativ økonomi (innholdsskapere, blogger, artikler osv.), sporadiske tips, enkeltstående personlig produktsalg, foreninger, enkeltstående arrangementer
 
-| Betalingstype** | Vanligvis noen få cent til noen få euro/dollar; under ~300 euro/dollar per vare
+#### Profil 3 – Profesjonell
 
-**Innstillingskompleksitet** | Ingen | Ingen
+| Attributt                      | Profesjonell                                                                                                                     |
+| ------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
+| **Sinnstilstand**              | - En betalingsmetode som alle andre for min e-handel - Eller felles administrasjon for en gruppe virksomheter som er klare for høyere volumer |
+| **Transaksjonsfrekvens**       | Flere transaksjoner per dag                                                                                                       |
+| **Eksempler på virksomhetstyper** | E-handelsnettsteder med moderat volum, små markedsplasser, grupper av fysiske butikker (f.eks. Click & Collect), SMB-operasjoner     |
+| **Betalingstype**              | Vanligvis fra noen få euro/dollar til noen hundre; ingen fastsatt betalingsgrense; under 250,000 per år                          |
+| **Kompleksitet i innstillinger** | Fra lett til fullstendig funksjonell (lokal eller skybasert hosting), krever ofte en e-handelsplattform                        |
+| **Anbefalt løsning**           | BTC Pay Server for e-handel og/eller fysiske miljøer; ZapRite, Musqet eller PayWithFlash for kassen, Be-BOP for integrert e-butikk |
+| **Selgergrensesnitt**          | Nettside (mobil og desktop) med faktura-redigering, handlekurvvalg og opprettelse av betalingsknapp; automatisert fakturering med e-handelsintegrasjon |
+| **Kundegrensesnitt**           | Bitcoin QR betalingskode, skannet via kundens personlige lommebok                                                              |
+| **Gebyrer**                    | Kombinasjon av gratis open-source backend og betalt Lightning-hosting/tjenestegebyrer; frontend-gebyrer inkluderer Bitcoin Lightning-gebyrer og <1.5% konverteringsgebyrer |
+| **POS-enhet**                  | Nettbutikk, valgfri fysisk skjerm (f.eks. iPad som viser nettstedet eller Bitcoin-terminal)                                    |
+| **Administrasjon og roller**   | Fullt utstyrt butikk med flere administrasjonsroller; ansatte og kunder interagerer med systemet                                |
+| **Regnskapseksport**           | CSV-eksport med fullstendige transaksjonsdetaljer                                                                              |
+| **API**                        | Ja                                                                                                                             |
 
-**Eksempel på anbefalt løsning** | En depotbasert Lightning-lommebok som Wallet of Satoshi eller en ikke-depotbasert lommebok som Phoenix
 
-**Merchant Interface** | Enkel Bitcoin Lightning-lommebok: en app på en mobiltelefon |
+#### Profil 4 – Foretaket
 
-**Kundegrensesnitt** | Bitcoin QR-betalingskode, skannet via kundens personlige lommebok
-
-| Kunden betaler Bitcoin Lightning-avgifter pluss eventuelle app-avgifter
-
-**Point of Sale Device** | Gratis smarttelefonapp eller et alternativ for en fysisk terminal (f.eks. Bitcoinize) | **Point of Sale Device
-
-**Ledelse og roller** | Administrasjon av én app; minimal rolledifferensiering
-
-**Eksport av regnskap** | Grunnleggende transaksjonshistorikklister
-
-| **API** | Nei
-
-#### Profil 2 - Det essensielle
-
-| Attributt | The Essential
-
-| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-
-| "Jeg aksepterer Bitcoin i min virksomhet, men jeg forventer ikke et meningsfylt volum"
-
-| Transaksjonsfrekvens** | Få transaksjoner per måned | Få transaksjoner per måned
-
-| Barer, restauranter, semi-regelmessig salg av ferske eller direkte innkjøpte produkter, flere butikker under én eier, kreativ økonomi for kunstnere
-
-** Betalingstype** | Vanligvis fra noen få euro/dollar til noen få hundre per vare; under ~300 per vare og under ~3 000 per måned
-
-| Innstillingskompleksitet** | Minimal (mobilapp) | Minimal (mobilapp)
-
-**Eksempel på anbefalt løsning** | Swiss Bitcoin Pay | | Swiss Bitcoin Pay
-
-**Merchant Interface** | Enkel Bitcoin Lightning-lommebok: en app på en mobiltelefon; enkel fakturering med minimalt med detaljer
-
-**Kundegrensesnitt** | Bitcoin QR-betalingskode, skannet via kundens personlige lommebok
-
-| Vanligvis <1 % for å sende til en Bitcoin-adresse, og <1,5 % for å konvertere til fiat
-
-**Point of Sale Device** | Gratis smarttelefonapp eller et alternativ for en fysisk terminal (f.eks. Bitcoinize) | **Point of Sale Device
-
-**Ledelse og roller** | Mulighet for en rolle som kun selger for ansatte; nettbasert dashbord for administrasjon
-
-** Regnskapseksport** | CSV-eksport med fullstendige transaksjonsdetaljer
-
-| **API** | Ja
-
-#### Profil 3 - Den profesjonelle
-
-| Attributt | Den profesjonelle
-
-| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-
-| En betalingsmetode som alle andre for min e-handel - Eller felles administrasjon for en gruppe virksomheter som er klare for større volumer | - En betalingsmetode som alle andre for min e-handel
-
-| Transaksjonsfrekvens** | Flere transaksjoner per dag | Flere transaksjoner per dag
-
-| Eksempler på virksomhetstyper** | E-handelsnettsteder med moderat volum, små markedsplasser, grupper av fysiske butikker (f.eks. Click & Collect), SMB-virksomhet
-
-** Betalingstype** | Vanligvis fra noen få euro/dollar til noen få hundre; ingen fastsatt grense for betalingsstørrelse; mindre enn 250 000 per år
-
-| Innstillingskompleksitet** | Lett til fullverdig (lokal eller skybasert hosting), krever ofte en e-handelsbutikk
-
-**Eksempel på anbefalt løsning** | BTC Pay Server for e-handel og/eller fysiske miljøer; ZapRite, Musqet eller PayWithFlash for kassa, Be-BOP for en integrert e-butikk
-
-**Merchant Interface** | Nettsted (mobil og PC) med fakturaredigering, handlekurvalternativer og oppretting av betalingsknapp; automatisert fakturering med e-handelsintegrasjon
-
-**Kundegrensesnitt** | Bitcoin QR-betalingskode, skannet via kundens personlige lommebok
-
-| **Gebyrer** | Blanding av gratis backend med åpen kildekode og betalte Lightning-hosting-/tjenesteavgifter; front-end-avgifter inkluderer Bitcoin Lightning-avgifter og <1,5 % konverteringsgebyrer |
-
-**Point of Sale Device** | Nettbutikk, valgfri fysisk skjerm (f.eks. iPad som viser nettstedet eller Bitcoin-terminal)
-
-**Ledelse og roller** | Fullt utstyrt butikk med flere administratorroller; ansatte og kunder samhandler med systemet
-
-** Regnskapseksport** | CSV-eksport med fullstendige transaksjonsdetaljer
-
-| **API** | Ja
-
-#### Profil 4 - Bedriften
-
-| Attributt | The Enterprise | The Enterprise
-
-| -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-
-| En strategisk betalingsmåte for virksomheten - Med noe utvikling for å integrere i tjenesteplattformen i henhold til spesifikke spesifikasjoner - Med noe utvikling for å integrere i tjenesteplattformen i henhold til spesifikke spesifikasjoner
-
-**Transaksjonsfrekvens** | Ubegrenset, høyfrekvente transaksjoner
-
-| Eksempler på virksomhetstyper** | Mellomstore bedrifter, IT-tjenesteselskaper, store selskaper, store markedsplasser
-
-| Betalingstype** | Alle størrelser eller volumer
-
-| Innstillingskompleksitet** | Middels til høy, avhengig av valg av arkitektur
-
-**Eksempel på anbefalt løsning** | Skreddersydd arkitektur eller orkestrering av SaaS-hostede løsninger, potensielt ved hjelp av tredjeparts LSP-tjenester (*Lightning Service Provider*)
-
-**Merchant Interface** | Fullt tilpassede frontend- og backend-grensesnitt som er fullt integrert i virksomhetens arbeidsflyter og prosesser
-
-**Kundegrensesnitt** | Alt fra en Bitcoin QR-betalingskode til et fullstendig tilpasset brukergrensesnitt og/eller API-integrasjon
-
-| Kombinasjon av interne utviklings- og tredjepartsgebyrer; kunden betaler Bitcoin Lightning-gebyrer pluss eventuelle transaksjonsgebyrer fra tjenesteleverandører
-
-**Point of Sale Device** | Skreddersydde løsninger tilpasset bedriftsmiljøet | **Point of Sale Device** | Skreddersydde løsninger tilpasset bedriftsmiljøet
-
-**Ledelse og roller** | Fullt tilpassede roller på tvers av salg, administrasjon, devops, regnskap og økonomi
-
-** Regnskapseksport** | Fullt tilpasset regnskapseksport
-
-| **API** | Ja
+| Attributt                      | Foretaket                                                                                                                            |
+| ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------- |
+| **Sinnstilstand**              | - En strategisk betalingsmetode for virksomheten - Med noe utvikling for å integrere i tjenesteplattformen i henhold til spesifikke krav |
+| **Transaksjonsfrekvens**       | Ubegrenset, høyfrekvente transaksjoner                                                                                              |
+| **Eksempler på virksomhetstyper** | Mellomstore bedrifter, IT-tjenesteselskaper, store selskaper, større markedsplasser                                                |
+| **Betalingstype**              | Alle størrelser eller volum                                                                                                        |
+| **Kompleksitet i innstillinger** | Medium til høy, avhengig av valg av arkitektur                                                                                     |
+| **Anbefalt løsning**           | Skreddersydd arkitektur eller orkestrering av SaaS-hostede løsninger, potensielt bruk av tredjeparts LSP (*Lightning Service Provider*) tjenester |
+| **Selgergrensesnitt**          | Fullstendig tilpassede frontend- og backend-grensesnitt integrert i bedriftens arbeidsflyt og prosesser                              |
+| **Kundegrensesnitt**           | Alt fra en Bitcoin QR betalingskode til en fullstendig tilpasset brukergrensesnitt og/eller API-integrasjon                        |
+| **Gebyrer**                    | Kombinasjon av intern utvikling og tredjepartsgebyrer; kunden betaler Bitcoin Lightning-gebyrer samt eventuelle transaksjonsgebyrer fra tjenesteleverandører |
+| **POS-enhet**                  | Skreddersydde løsninger tilpasset bedriftsmiljøet                                                                                 |
+| **Administrasjon og roller**   | Fullstendig tilpassede roller på tvers av salg, administrasjon, devops, regnskap og økonomi                                       |
+| **Regnskapseksport**           | Fullstendig tilpassede regnskapseksporter                                                                                         |
+| **API**                        | Ja                                                                                                                               |
 
 I de følgende kapitlene vil vi gå nærmere inn på hver enkelt virksomhetsprofil og de løsningene som er skreddersydd for hver av dem.
 
@@ -961,7 +879,7 @@ https://planb.network/tutorials/wallet/mobile/zeus-3e89603c-501d-439c-8691-d4a0d
 
 **Frihetsberøvende LN-lommebøker:**
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-c4792842-b046-44f9-a6f1-351191b7cc2b
+https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 

@@ -1,0 +1,8 @@
+question: Ni hatua gani kati ya zifuatazo zinaweza kuwasaidia wale wanaotaka kutumia Bitcoin katika maisha ya kila siku?
+answer: Kuwa na orodha ya wafanyabiashara wote wanaokubali Bitcoin.
+wrong_answers:
+  - Ongeza bei ya Bitcoin.
+  - Punguza idadi ya Bitcoins.
+  - Punguza matumizi ya Bitcoin.
+explanation: >-
+reviewed: true

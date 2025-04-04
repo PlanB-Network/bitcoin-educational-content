@@ -1,0 +1,10 @@
+question: 網路安全中有哪些方面需要定期監控？
+answer: 威脅的不斷演進
+wrong_answers:
+  - 股票市場
+  - 天氣
+  - 新聞
+explanation: |
+  本章提到威脅的不斷演變
+  網路安全需要定期監控。
+reviewed: true

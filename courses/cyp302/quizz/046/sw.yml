@@ -1,0 +1,9 @@
+question: Je, ni chaguo gani la kukokotoa linalotumika kukokotoa nambari kamili chini ya N ambazo ziko na N?
+answer: Kazi ya Phi ya Euler
+wrong_answers:
+  - Kitendaji cha Gamma cha Euler
+  - Kitendaji cha Sigma cha Euler
+  - Kazi ya Beta ya Dirichlet
+explanation: |
+  Chaguo za kukokotoa za Euler za Phi huamua idadi ya nambari kamili chini ya N ambazo ni coprime na N, dhana kuu katika nadharia za kriptografia kulingana na nambari kuu.
+reviewed: false

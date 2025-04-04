@@ -1,0 +1,9 @@
+question: Je, ni katika kazi gani maarufu ya kiuchumi ambayo Henri Hazlitt anapitia tena mfano wa dirisha lililovunjika la Bastiat?
+answer: Uchumi katika Somo Moja
+wrong_answers:
+  - 49 Masomo katika Uchumi
+  - Freakonomics
+  - Sanaa ya Uchumi
+explanation: |
+  Henri Hazlitt, katika Uchumi katika Somo Moja, anatumia mfano wa dirisha uliovunjika ili kuonyesha matokeo yaliyofichika ya sera za kiuchumi.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Je, jambo kuu linapaswa kuwa nini unapomiliki Bitcoin?
+answer: Usalama wa fedha zako.
+wrong_answers:
+  - Thamani ya Bitcoin katika masharti ya dola.
+  - Uhalali wa kumiliki bitcoins.
+  - Ruhusa ya kutumia pesa zako.
+explanation: |
+  Unapomiliki bitcoins, jambo la msingi ni usalama
+  ya fedha zako. Hii ni kwa sababu Bitcoin, kama aina nyingine yoyote
+  ya fedha, inaweza kuibiwa au kupotea ikiwa haijalindwa ipasavyo.
+reviewed: true

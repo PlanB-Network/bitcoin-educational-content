@@ -1,0 +1,11 @@
+question: Je! ni sifa gani kuu ya mbinu ya stacker kwa uwekezaji wa Bitcoin?
+answer: Uthabiti na shirika lisilo na dosari
+wrong_answers:
+  - Ubinafsi na kubadilika
+  - Hatari kubwa na malipo ya juu
+  - Uwekezaji wa muda mfupi na mapato ya haraka
+explanation: |
+  Mbinu ya stacker kwa uwekezaji wa Bitcoin ina sifa ya uthabiti
+  na shirika lisilo na dosari. Wanapanga uwekezaji wao kwa uangalifu na wamepangwa
+  katika kutekeleza mpango wao wa Wastani wa Gharama ya Dola (DCA).
+reviewed: false

@@ -1,0 +1,9 @@
+question: 在 Bitcoin 的情況下，HMAC 使用的 Hash 功能是什麼？
+answer: SHA512
+wrong_answers:
+  - SHA256
+  - RIPEMD160
+  - HASH160
+explanation: |
+  HMAC 使用 SHA512 產生安全的 512 位元 Hash。
+reviewed: false

@@ -1,0 +1,9 @@
+question: 根據 Bastiat，國家再分配會導致什麼結果？
+answer: 客戶至上
+wrong_answers:
+  - 長期社會和平
+  - 平等機會的改善
+  - 可持續刺激經濟
+explanation: |
+  對 Bastiat 來說，再分配會造成經濟扭曲，助長階級主義，而非解決不平等問題。
+reviewed: false

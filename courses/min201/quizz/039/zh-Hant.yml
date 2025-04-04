@@ -1,0 +1,14 @@
+question: Mining 對網路有什麼潛在的壞處？
+answer: 如果沒有足夠的財務獎勵，礦工很難繼續支持網路
+wrong_answers:
+  - 可導致 Bitcoin 價格下降
+  - 可導致網路的 Hashrate 增加
+  - 可能會導致網路中的活動節點數量減少
+explanation: |
+  網絡的 Mining 是一項崇高的倡議，它
+  有助於安全和權力下放
+  Bitcoin 網路。但是，如果沒有足夠的資金
+  誘因，礦工可能難以繼續
+  支援網路，尤其是當它們的運作速度達到
+  損失。
+reviewed: true

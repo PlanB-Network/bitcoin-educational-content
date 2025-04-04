@@ -1,0 +1,9 @@
+question: E-dhahabu ilikuwa nini?
+answer: Sarafu ya kidijitali inayoungwa mkono na kiasi sawa cha dhahabu iliyohifadhiwa kwenye ghala
+wrong_answers:
+  - Kitengo cha sarafu katika Ulimwengu wa Ulimwengu wa Warcraft
+  - Dhana ya sarafu ya kidijitali ambayo utoaji wake ulitokana na Proof of Work
+  - Mfumo wa mtandaoni wa Exchange wa vito vya dhahabu
+explanation: |
+  Mfumo huo ulianzishwa na Douglas Jackson na Barry Downey mnamo 1996 na ulipatikana kwa kivinjari rahisi cha wavuti.
+reviewed: false

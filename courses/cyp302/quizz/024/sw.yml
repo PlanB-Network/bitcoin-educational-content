@@ -1,0 +1,9 @@
+question: Thamani ya 42 mod 2 ni nini?
+answer: 0
+wrong_answers:
+  - 1
+  - 2
+  - 42
+explanation: |
+  Kwa kugawanya 42 kwa 2, iliyobaki ni sifuri, kwa hivyo 42 mod 2 ni sawa na 0.
+reviewed: false

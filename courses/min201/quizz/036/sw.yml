@@ -1,0 +1,13 @@
+question: Je, kuna uhusiano gani kati ya gharama ya uzalishaji wa Bitcoin na bei yake ya soko?
+answer: Gharama ya Bitcoin inaweza kwa ujumla sawia na bei yake
+wrong_answers:
+  - Gharama ya Bitcoin inalingana na bei yake
+  - Gharama ya Bitcoin ni fasta, ndani ya uwiano fulani, kwa bei yake
+  - Gharama ya Bitcoin daima ni ya juu kuliko bei yake
+explanation: |
+  Gharama ya Bitcoin, ambayo inahusiana na umeme
+  zinahitajika kuendesha mashine Mining, inaweza ujumla kuwa
+  kulingana na bei yake. Uhusiano huu hutoa
+  uelewa bora wa kushuka kwa bei na siku zijazo
+  matarajio.
+reviewed: true

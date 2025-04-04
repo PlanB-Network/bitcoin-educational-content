@@ -1,0 +1,9 @@
+question: Ni mbinu gani husaidia kulinda dhidi ya hatari ya ufuatiliaji inayosababishwa na KYC?
+answer: CoinJoin shughuli
+wrong_answers:
+  - Matumizi ya VPN
+  - Matumizi ya Full node
+  - Uthibitishaji kupitia Proof of Work
+explanation: |
+  Sarafu zina athari ya kuvunja historia ya sarafu, ambayo hukusaidia kukabiliana na hatari ya kufuatilia inayohusishwa na KYC.
+reviewed: false

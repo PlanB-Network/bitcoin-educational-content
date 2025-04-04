@@ -2,7 +2,6 @@
 name: The RGB protocol, from theory to practice
 goal: Acquire the skills needed to understand and use RGB
 objectives: 
-
   - Understand the fundamental concepts of the RGB protocol
   - Master the principles of client-side validation and Bitcoin commitments
   - Learn how to create, manage and transfer RGB contracts

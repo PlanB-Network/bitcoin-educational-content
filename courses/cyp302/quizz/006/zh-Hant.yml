@@ -1,0 +1,9 @@
+question: 哪個概念與對稱或非對稱密碼方案無關？
+answer: Hash 功能
+wrong_answers:
+  - 公鑰和私鑰對
+  - 非對稱密碼學
+  - 對稱密碼學
+explanation: |
+  Hash 函式是現代密碼學的重要組成部分，但與公開金鑰、私人金鑰不同，Hash 函式並非特別與對稱或非對稱方案相關。
+reviewed: false

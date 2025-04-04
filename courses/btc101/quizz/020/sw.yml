@@ -1,0 +1,12 @@
+question: Je, ni sifa kuu ya sarafu ufanisi?
+answer: Inayo fungi, Inayoonekana, Liquid.
+wrong_answers:
+  - Yenye Kung'aa, Inagawanyika, Inaharibika.
+  - Fungible, Haigawanyiki, Liquid.
+  - Isiyo ya kuvu, Inayogawanyika, Liquid.
+explanation: |
+  Sarafu inayofaa lazima iweze kufungika (inayoweza kubadilishwa
+  bila hasara ya thamani), kugawanywa (kutenganishwa kuwa ndogo
+  sehemu za kuwezesha shughuli za ujazo tofauti), na
+  Liquid (inaweza kubadilishwa kwa urahisi kuwa bidhaa au huduma).
+reviewed: true

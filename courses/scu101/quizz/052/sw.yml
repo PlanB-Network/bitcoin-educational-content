@@ -1,0 +1,12 @@
+question: Kwa nini tokeni za maunzi, kama vile funguo za USB au kadi mahiri, zinazingatiwa kutoa usalama kamili kwa 2FA?
+answer: Zina generate ufunguo wa kipekee wa kibinafsi kwa kila tovuti na huthibitisha URL kabla ya kuruhusu muunganisho.
+wrong_answers:
+  - Ni vigumu kuiba, lakini wezi wakifaulu watatoa siri kutoka kwa kifaa kwa urahisi.
+  - Wana generate nenosiri moja pekee ambalo litatumika kwa kila tovuti na kuthibitisha URL kabla ya kuruhusu muunganisho.
+  - Ni teknolojia mpya na ya gharama kubwa, kwa hivyo lazima ziwe bora zaidi.
+explanation: |
+  Tokeni za vifaa hutoa usalama bora kwa sababu wao
+  generate ufunguo wa kipekee wa kibinafsi kwa kila tovuti na uthibitishe
+  URL kabla ya kuruhusu muunganisho. Hii inafanya sana
+  vigumu kwa mdukuzi kupata ufikiaji ambao haujaidhinishwa.
+reviewed: true

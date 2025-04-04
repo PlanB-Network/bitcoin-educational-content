@@ -1,0 +1,9 @@
+question: Lightning Network 的主要目標是什麼？
+answer: 提高 Bitcoin 的可擴展性，以實現快速、低成本的支付
+wrong_answers:
+  - 取消 Bitcoin Blockchain 的交易費用
+  - 為高價值付款創建 Bitcoin 的替代方案
+  - 簡化不同加密貨幣之間的交換
+explanation: |
+  Lightning Network 旨在透過 off-chain 支付通道實現快速且低成本的交易，從而增強 Bitcoin 的可擴展性。
+reviewed: false

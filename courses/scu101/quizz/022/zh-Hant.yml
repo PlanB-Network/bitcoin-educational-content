@@ -1,0 +1,12 @@
+question: 將 USB 鑰匙插入電腦時，建議的做法是什麼？
+answer: 請勿插入不明或可疑的 USB 鑰匙。
+wrong_answers:
+  - 插入任何 USB 鑰匙，無需檢查。
+  - 插入 USB 密鑰前，請務必格式化。
+  - 插入 USB 密鑰，然後檢查病毒。
+explanation: |
+  插入未知或可疑的 USB 鑰匙可能會暴露
+  惡意程式會自動啟動
+  插入時。一旦插入 USB 鑰匙，檢查 USB 鑰匙將毫無用處。
+  已插入。
+reviewed: true

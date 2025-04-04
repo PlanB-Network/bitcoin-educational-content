@@ -1,0 +1,9 @@
+question: 在七月 Mt. Gox 出現之前，哪項於 2010 年 3 月創建的 Exchange 服務最受歡迎？
+answer: Bitcoin 市場
+wrong_answers:
+  - BitcoinFX
+  - 比特幣交易所
+  - 我的比特幣
+explanation: |
+  這是一個使用 PayPal 的點對點市場，於 2010 年 3 月 16 日由一個名為 dwdollar 的人推出，是 Mt.
+reviewed: false

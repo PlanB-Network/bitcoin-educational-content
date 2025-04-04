@@ -1,0 +1,9 @@
+question: Je, Bastiat anatoa hitimisho gani kutokana na athari za uharibifu kwenye uchumi?
+answer: Ni hatari kwa uchumi
+wrong_answers:
+  - Ni manufaa kwa uchumi
+  - Ni neutral kwa uchumi
+  - Inategemea hali ya uchumi
+explanation: |
+  Bastiat anaonyesha kwamba uharibifu ni mzigo wa kiuchumi kwa sababu huelekeza rasilimali za thamani na hauleti thamani ya ziada.
+reviewed: false

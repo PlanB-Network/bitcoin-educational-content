@@ -133,7 +133,12 @@ I feltet "Contributor's GitHub ID" skriver du inn GitHub-brukernavnet ditt.
 
 ![DATA-CREATOR-PY](assets/fr/40.webp)
 
-I feltet "PBN professor's ID" skriver du inn identifikatoren din ved hjelp av ord fra BIP39-listen, slik den vises på [din professorprofil] (https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors).
+Deretter må du fylle ut professorprofilen din. Det finnes flere alternativer:
+- Skriv inn de første bokstavene i navnet ditt i feltet "Professor Name". Navnet ditt vil da vises i rullegardinlisten "Prof. Suggestions" nedenfor. Velg det ved å klikke på det;
+- Alternativt kan du klikke direkte på rullegardinlisten "Prof. Suggestions" og velge professorens navn.
+
+Denne handlingen vil automatisk fylle inn din professor-UUID i det tilsvarende feltet.
+
 
 ![DATA-CREATOR-PY](assets/fr/41.webp)
 
@@ -214,73 +219,90 @@ bitcoin-educational-content/
 Fyll ut filen `tutorial.yml` ved å kopiere følgende mal:
 
 ```
-id:
-project_id:
+id: 
+
+project_id: 
+
 tags:
--
--
--
-category:
-level:
-credits:
-professor:
+  - 
+  - 
+  - 
+
+category: 
+
+level: 
+
+professor_id:
+
 # Proofreading metadata
+
 original_language:
 proofreading:
-- language:
-last_contribution_date:
-urgency:
-contributors_id:
--
-reward:
+  - language: 
+    last_contribution_date:
+    urgency:
+    contributor_names:
+      - 
+    reward:
 ```
 
-Her er detaljene for de obligatoriske feltene:
+Her er de obligatoriske feltene:
 
+- **id** : En UUID (_Universally Unique Identifier_) som unikt identifiserer veiledningen. Du kan generere den med [et nettbasert verktøy](https://www.uuidgenerator.net/version4). Det eneste kravet er at denne UUID-en er tilfeldig for å unngå konflikter med en annen UUID på plattformen;
 
-- id**: En UUID (_Universally Unique Identifier_) for å identifisere opplæringen på en unik måte. Du kan generere den med [et nettbasert verktøy] (https://www.uuidgenerator.net/version4). Det eneste kravet er at denne UUID-en skal være tilfeldig for å unngå konflikt med en annen UUID på plattformen;
-- prosjekt_id**: UUID-en til selskapet eller organisasjonen som står bak verktøyet som presenteres i opplæringen [fra listen over prosjekter] (https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Hvis du for eksempel lager en veiledning om programvaren Sparrow Wallet, kan du finne denne `project_id` i følgende fil: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Denne informasjonen er lagt til i YAML-filen i opplæringen din fordi Plan ₿ Network vedlikeholder en database over alle selskaper og organisasjoner som opererer på Bitcoin eller relaterte prosjekter. Ved å legge til `project_id` for enheten som er relatert til opplæringen din, oppretter du en kobling mellom de to elementene;
-- tagger**: 2 eller 3 relevante nøkkelord relatert til innholdet i opplæringen, valgt utelukkende [fra listen over tagger i Plan ₿ Network] (https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
-- kategori**: Underkategorien som tilsvarer innholdet i opplæringen, i henhold til strukturen på Plan ₿ Network-nettstedet (for eksempel for lommebøker: `desktop`, `hardware`, `mobile`, `backup`);
-- nivå**: Vanskelighetsgraden for opplæringen, blant annet:
-    - `begynner`
-    - "mellomliggende
-    - `avansert`
-    - `ekspert`
-- professor**: Ditt `contributor_id` (BIP39-ord) slik det vises på [din professorprofil] (https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
-- original_language**: Originalspråket for opplæringen (for eksempel `fr`, `en` osv.);
-- korrekturlesing**: Informasjon om korrekturlesingsprosessen. Fyll ut den første delen, ettersom korrekturlesing av din egen veiledning teller som en første validering:
-    - språk**: Språkkode for korrekturlesingen (for eksempel `fr`, `en`, osv.).
-    - siste_bidrag_dato**: Dagens dato.
-    - haster**: La stå tomt.
-    - contributors_id**: GitHub-ID-en din.
-    - belønning**: La stå tomt.
+- **project_id** : UUID-en til selskapet eller organisasjonen bak verktøyet som presenteres i veiledningen [fra prosjektlisten](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). For eksempel, hvis du lager en veiledning om Green Wallet-programvaren, kan du finne denne `project_id` i følgende fil: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Denne informasjonen legges til i YAML-filen til veiledningen din fordi Plan ₿ Network vedlikeholder en database over alle selskaper og organisasjoner som opererer på Bitcoin eller relaterte prosjekter. Ved å legge til `project_id` tilknyttet veiledningen din, oppretter du en kobling mellom de to elementene;
 
-Hvis du vil ha mer informasjon om professoridentifikatoren, kan du se den tilhørende veiledningen:
+- **tags** : 2 eller 3 relevante stikkord relatert til veiledningens innhold, valgt utelukkende [fra Plan ₿ Network tag-listen](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+
+- **category** : Underkategorien som tilsvarer innholdet i veiledningen, i henhold til strukturen på Plan ₿ Network-nettstedet (for eksempel for lommebøker: `desktop`, `hardware`, `mobile`, `backup`);
+
+- **level** : Vanskelighetsnivået for veiledningen, valgt blant:
+    - `beginner`
+    - `intermediate`
+    - `advanced`
+    - `expert`
+
+- **professor_id** : Din `professor_id` (UUID) som vist på [din professorprofil](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
+
+- **original_language** : Det opprinnelige språket for veiledningen (f.eks. `fr`, `en`, etc.);
+
+- **proofreading** : Informasjon om korrekturprosessen. Fullfør den første delen, da korrekturlesing av din egen veiledning regnes som en første validering:
+    - **language** : Språkkoden for korrekturlesing (f.eks. `fr`, `en`, etc.).
+    - **last_contribution_date** : Dagens dato.
+    - **urgency** : 1
+    - **contributor_names** : Din GitHub-ID.
+    - **reward** : 0
+
+For mer informasjon om lærer-ID-en din, se den tilhørende veiledningen :
 
 https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
-Her er et eksempel på en ferdig `tutorial.yml`-fil for en opplæring om Blockstream Green-lommeboken:
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
+
 project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
+
 tags:
-- wallets
-- software
-- keys
+  - wallets
+  - software
+  - keys
+
 category: mobile
+
 level: beginner
-credits:
-professor: pretty-private
+
+professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
+
 # Proofreading metadata
+
 original_language: fr
 proofreading:
-- language: fr
-last_contribution_date: 2024-11-20
-urgency: 1
-contributors_id:
-- LoicPandul
-reward: 0
+  - language: fr
+    last_contribution_date: 2024-11-20
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0
 ```
 
 Når du er ferdig med å endre filen `tutorial.yml`, lagrer du dokumentet ved å klikke på `File > Save`:

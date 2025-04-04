@@ -1,0 +1,8 @@
+question: Wachimbaji madini huthibitisha vipi shughuli na kuzijumuisha kwenye block?
+answer: Kupitia mchakato wa Proof of Work.
+wrong_answers:
+  - Kupitia mchakato wa Uthibitisho wa hisa.
+  - Kupitia mchakato wa Uthibitisho wa mamlaka.
+  - Kupitia mchakato wa Uthibitisho wa kuchoma.
+explanation: >-
+reviewed: true

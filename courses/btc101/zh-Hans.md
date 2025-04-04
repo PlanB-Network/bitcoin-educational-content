@@ -1048,6 +1048,8 @@ https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 ![image](assets/en/71.webp)
 
+
+
 ## 通过工作获取比特币
 
 <chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>
@@ -1085,6 +1087,10 @@ https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4
 https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - 为大型机构或热衷于比特币的用户提供解决方案：BTCpay 服务器
+
+为了更深入地了解这个主题，我们推荐我们的 BIZ101 培训课程！了解如何有效地将比特币整合到您的公司财务中，根据您的组织概况接受比特币作为支付方式，并了解相关的税务和会计要求：
+
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## 用比特币储蓄
 

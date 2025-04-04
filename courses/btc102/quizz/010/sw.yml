@@ -1,0 +1,11 @@
+question: 2FA inawakilisha nini?
+answer: Uthibitishaji wa Mambo Mbili
+wrong_answers:
+  - Uidhinishaji wa Mambo Mbili
+  - Uthibitishaji wa Vipengele Mbili
+  - Uthibitishaji wa Kazi Mbili
+explanation: |
+  2FA inasimamia Uthibitishaji wa Mambo Mbili. Inatoa nyongeza
+  Layer
+  ya usalama kwa akaunti zako nyeti zaidi.'
+reviewed: false

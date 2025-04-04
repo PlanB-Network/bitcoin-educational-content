@@ -1,0 +1,11 @@
+id: 9d41aa32-5818-40b5-b471-011a8d230a68
+en_word: BIP0125
+related_words: ["RBF (REPLACE-BY-FEE)"]
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-03-04
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0

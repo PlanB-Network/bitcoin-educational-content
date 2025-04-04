@@ -1,0 +1,9 @@
+question: HMAC ni nini?
+answer: Msimbo wa uthibitishaji wa ujumbe kulingana na chaguo za kukokotoa za Hash
+wrong_answers:
+  - Kanuni ya usimbaji fiche isiyolingana kulingana na chaguo za kukokotoa za Hash
+  - Kanuni ya usimbaji fiche isiyolinganishwa kulingana na Diffie-Hellman
+  - Msimbo wa uthibitishaji wa ujumbe kulingana na Diffie-Hellman
+explanation: |
+  HMAC ni msimbo wa uthibitishaji wa ujumbe unaotumia chaguo za kukokotoa za Hash, kama vile SHA-256, kuunda lebo inayothibitisha uadilifu na uhalisi wa ujumbe.
+reviewed: false

@@ -1,0 +1,10 @@
+question: Ni hatua gani tatu za msingi katika mpango wa MAC?
+answer: Uzalishaji muhimu, utengenezaji wa lebo, uthibitishaji
+wrong_answers:
+  - Usimbaji fiche, usimbuaji, usambazaji
+  - Uzalishaji wa ufunguo wa umma, usimbaji fiche wa ufunguo wa kibinafsi, uthibitishaji
+  - Hashing ya ujumbe, usimbaji wa lebo, usambazaji wa lebo
+  A MAC scheme consists of three main steps: generating a secret key, producing a tag for the message, and verifying that the received message and its tag match.
+explanation: |
+
+reviewed: false

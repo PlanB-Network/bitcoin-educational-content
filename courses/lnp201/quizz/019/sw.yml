@@ -1,0 +1,9 @@
+question: Je, mfumo wa Commitment Transaction unawahakikishia nini washiriki wa kituo cha Umeme?
+answer: Kwamba kila mmoja anaweza kurejesha pesa zake kwa kuchapisha muamala wa mwisho uliotiwa saini
+wrong_answers:
+  - Kwamba shughuli zinaonekana kwenye Bitcoin Blockchain
+  - Kwamba uwezo wa kituo huongezeka kwa kila shughuli
+  - Ada hizo zinagawanywa kati ya washiriki wawili
+explanation: |
+  Shughuli za Commitment zilizotiwa saini huhakikisha kwamba kila mshiriki anaweza kurejesha pesa zake kwa kuchapisha toleo jipya zaidi iwapo kituo kitafungwa.
+reviewed: false

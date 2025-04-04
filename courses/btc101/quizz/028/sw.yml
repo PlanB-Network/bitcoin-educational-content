@@ -1,0 +1,13 @@
+question: Je, njia ya mageuzi ya sarafu ya leo ni ipi?
+answer: Jiwe mbichi -> Sarafu -> Noti -> Kadi ya benki -> Blockchain -> Lightning Network
+wrong_answers:
+  - Jiwe mbichi -> Sarafu -> Noti -> Blockchain -> Lightning Network
+  - Jiwe mbichi -> Sarafu -> Noti -> Kadi ya benki -> Lightning Network
+  - Jiwe mbichi -> Sarafu -> Kadi ya benki -> Noti -> Blockchain -> Lightning Network
+explanation: |
+  Sarafu ni teknolojia ambayo imebadilika kulingana na wakati,
+  kuanzia kuwakilishwa na mawe mabichi, kubadilisha
+  kwenye sarafu za metali, kisha kwenye noti, kadi za benki, na
+  hatimaye katika mitandao ya rika-kwa-rika kwa matumizi ya
+  Bitcoin Blockchain na Lightning Network.
+reviewed: true

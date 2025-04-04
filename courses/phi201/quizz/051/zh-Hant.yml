@@ -1,0 +1,10 @@
+question: 根據聖奧古斯丁的說法，世界上共存的兩座城市是什麼？
+answer: 上帝之城與地上之城。
+wrong_answers:
+  - 人類之城與眾神之城。
+  - 聖人之城與罪人之城。
+  - 大學城與天使之城。
+  Saint Augustine describes two cities coexisting in the world: the City of God, oriented towards God and the spiritual life, and the Earthly City, centered on human concerns and material matters, each following distinct objectives.
+explanation: |
+
+reviewed: false

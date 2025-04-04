@@ -1,0 +1,11 @@
+question: 法定貨幣導致中央控制的一個原因是什麼？
+answer: 它允許政府控制貨幣 Supply 和利率。
+wrong_answers:
+  - 它由黃金和白銀等實物商品支持。
+  - 它可以抵抗通貨膨脹。
+  - 它鼓勵分散式金融系統。
+explanation: |
+  法定貨幣賦予政府控制貨幣的權力 Supply 和
+  利率，使其能夠影響經濟活動，並導致
+  集中控制。
+reviewed: true

@@ -1,0 +1,9 @@
+question: 智能 Contract State 在 RGB 中的兩個主要組成部分是什麼？
+answer: Global State 和擁有國
+wrong_answers:
+  - Commitment 和 Genesis
+  - Seal Definition 和 State Transition
+  - Valency 和 Contract Rights
+explanation: |
+  Global State 包含公開資料，而 Owned States 則透過 UTXOs 與特定持有者相關聯。
+reviewed: false

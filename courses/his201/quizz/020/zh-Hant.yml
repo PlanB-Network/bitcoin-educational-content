@@ -1,0 +1,9 @@
+question: Satoshi Nakamoto 在最初設計 Bitcoin 時的主要靈感是什麼？
+answer: eCash (David Chaum)
+wrong_answers:
+  - b-money (Wei Dai)
+  - 比特金 (Nick Szabo)
+  - RPOW (Hal Finney)
+explanation: |
+  儘管 b-money、bit gold 和 RPOW 的模式非常相似，但這並不是 Satoshi 的主要靈感來源，因為他在 2008 年 8 月之前根本不知道這些模式。
+reviewed: false

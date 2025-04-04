@@ -8,6 +8,6 @@ explanation: >-
   L'aggiustamento della difficoltà nel mining di Bitcoin è progettato per garantire che
   il tempo necessario per minare un blocco rimanga approssimativamente costante, indipendentemente dalla
   potenza computazionale totale della rete. Adegua la difficoltà del problema matematico
-  che i minatori devono risolvere, basandosi sul numero di minatori che partecipano alla
+  che i miner devono risolvere, basandosi sul numero di miner che partecipano alla
   rete.
 reviewed: true

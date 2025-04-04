@@ -1,0 +1,9 @@
+question: Je, ninawezaje kuleta "NonInflatableAsset.RGB" Schema kwenye Stash ya ndani?
+answer: RGB kuagiza schemata/NonInflatableAssets.RGB
+wrong_answers:
+  - RGB agiza Schema/NonInflatableAssets.RGB
+  - RGB clone schemata/NonInflatableAssets.RGB
+  - RGB clone Schema/NonInflatableAssets.RGB
+explanation: |
+  Schema iliyokusanywa inaingizwa kwenye Stash ya ndani kwa kutumia amri ya "RGB import schemata/NonInflatableAssets.RGB".
+reviewed: false

@@ -1,0 +1,11 @@
+question: 有人可以複製 Bitcoin 代碼嗎？
+answer: 是，但您無法複製 Bitcoin 網路的值
+wrong_answers:
+  - 是的，您也可以複製 Bitcoin 網路的值
+  - 否，您可以複製 Bitcoin 網路的值。
+  - 不是，因為 Bitcoin 代碼是封閉源碼
+explanation: |
+  雖然 Bitcoin 的程式碼是開放原始碼，可以複製、
+  Bitcoin 的值並非源自其代碼。它源自於
+  其使用者網路以及長久以來所建立的信任與採用。
+reviewed: true

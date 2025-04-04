@@ -1,0 +1,9 @@
+question: Je, Msimbo wa Uthibitishaji wa Ujumbe (MAC) unahakikisha nini katika mpango wa kriptografia?
+answer: Uadilifu na ukweli wa ujumbe
+wrong_answers:
+  - Usiri wa ujumbe
+  - Mfinyazo wa ujumbe
+  - Ubadilishaji wa ujumbe kuwa mfumo wa jozi
+explanation: |
+  Msimbo wa Uthibitishaji wa Ujumbe (MAC) hutumiwa kuhakikisha kuwa ujumbe haujabadilishwa na kwamba unatoka kwa mtumaji anayedhaniwa.
+reviewed: false

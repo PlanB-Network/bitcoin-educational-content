@@ -1,0 +1,9 @@
+question: Lightning Network 上的賣方必須主要管理哪種類型的流動資金才能接受付款？
+answer: 流入的流動資金
+wrong_answers:
+  - 流出的流動資金
+  - 高總頻道容量
+  - 高 On-Chain 平衡
+explanation: |
+  為了接收付款，賣方需要有流入的流動資金，也就是說在通道的另一端必須有資金，他們才能接受付款。
+reviewed: false

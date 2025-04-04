@@ -1,0 +1,9 @@
+question: Ingizo katika muamala ni nini?
+answer: Marejeleo ya UTXO ambayo haijatumika hapo awali.
+wrong_answers:
+  - Ishara ya uthibitisho kutoka kwa wachimbaji.
+  - Kizuizi kipya kimeongezwa kwa Blockchain.
+  - Nambari ya kuthibitisha ili kulinda muamala.
+explanation: |
+  Kila ingizo la muamala ni marejeleo ya UTXO, kumaanisha matokeo ya shughuli ya awali.
+reviewed: false

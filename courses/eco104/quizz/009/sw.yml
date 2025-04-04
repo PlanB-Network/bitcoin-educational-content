@@ -1,0 +1,9 @@
+question: Je, kuna umuhimu gani wa nukuu ya The Times 03/Jan/2009 Chansela anayekaribia kupata dhamana ya pili kwa benki katika kitalu cha kwanza cha Bitcoin?
+answer: Inaangazia uwezo wa mfumo wetu wa kifedha kushirikisha hasara
+wrong_answers:
+  - Inaashiria uthamini wa Satoshi kwa gazeti la The Times
+  - Inatoa mfano mzuri wa jinsi uokoaji ulivyonufaisha jamii yetu
+  - Inatuonyesha uwezo wa Bitcoin wa kuhifadhi ujumbe katika Blockchain
+  This is a reference to a Times newspaper [article](https: //www.thetimes.co.uk/article/chancellor-alistair-darling-on-brink-of-second-bailout-for-banks-n9l382mn62h) reflecting Satoshi’s
+explanation: |
+reviewed: true

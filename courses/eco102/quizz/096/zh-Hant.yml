@@ -1,0 +1,9 @@
+question: Bastiat 認為消極正義的特徵是什麼？
+answer: 防止某些人的權利被其他人篡奪。
+wrong_answers:
+  - 什麼都不做，讓爭端自行解決。
+  - 對雙方的權利都不利。
+  - 造成個人權利與集體權利的不平衡。
+explanation: |
+  Bastiat 認為，消極正義包括防止篡奪權利，因此只限於保護自然權利，而不會強加於個人的積極行動。
+reviewed: false

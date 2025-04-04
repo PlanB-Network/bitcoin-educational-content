@@ -1,0 +1,12 @@
+question: Kwa nini haipendekezi kutumia viendelezi vya kivinjari kwa kujaza nenosiri moja kwa moja?
+answer: Zinaweza kumfanya mtumiaji aathiriwe zaidi na mashambulizi ya hadaa, kuongeza eneo la uvamizi, na kupunguza kasi ya utendakazi wa kivinjari.
+wrong_answers:
+  - Wao ni vigumu kutumia.
+  - Hazioani na vivinjari vyote.
+  - Wanahitaji nafasi nyingi za kuhifadhi.
+explanation: |
+  Viendelezi vya kivinjari vya kujaza nenosiri kiotomatiki vinaweza kutengeneza
+  mtumiaji anaweza kuathiriwa zaidi na mashambulizi ya hadaa. Wao pia
+  huwa na kuongeza uso wa mashambulizi na inaweza kupunguza kasi
+  utendaji wa kivinjari, hivyo kuwasilisha hatari kubwa.
+reviewed: true

@@ -1,0 +1,12 @@
+question: Je, ni Hash halali katika muktadha wa kuzuia Mining kwenye mtandao wa Bitcoin?
+answer: Alama ya kipekee ya vidole inayohusishwa na kizuizi, inayojumuisha herufi 256.
+wrong_answers:
+  - Msimbo wa kipekee unaotumiwa kufikia kizuizi.
+  - Nenosiri la kipekee linalohitajika kuchimba kizuizi.
+  - Kitambulisho cha kipekee cha Miner ambao walichimba kizuizi.
+explanation: |
+  Katika mazingira ya kuzuia Mining katika mtandao wa Bitcoin, a
+  Hash halali ni alama ya kidole ya kipekee inayohusishwa na
+  block, inayojumuisha herufi 256. Uhalali wa hii
+  Hash inategemea ugumu wa mtandao wa Bitcoin.
+reviewed: true

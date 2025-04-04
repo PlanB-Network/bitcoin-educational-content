@@ -1,0 +1,11 @@
+question: Madhumuni ya nodi katika mtandao wa Bitcoin ni nini?
+answer: Kudumisha na kulinda Blockchain
+wrong_answers:
+  - Ili kushughulikia shughuli
+  - Kupendekeza na kutekeleza mabadiliko kwenye Bitcoin codebase
+  - Kushindana na wachimbaji wengine
+explanation: |
+  Nodi ni muhimu kwa uadilifu na usalama wa mtandao wa Bitcoin.
+  Wanatumika kama walinda lango wa mfumo, kuhakikisha kwamba shughuli
+  huchakatwa kwa usahihi na kwa mujibu wa sheria.
+reviewed: true

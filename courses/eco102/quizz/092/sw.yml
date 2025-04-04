@@ -1,0 +1,8 @@
+question: Ikiwa mali ni taasisi iliyoanzishwa kwa wosia wa jumla, kama Rousseau anavyoamini, matokeo yake ni nini?
+answer: Mbunge anaweza kupanga, kurekebisha, au hata kufuta mali
+wrong_answers:
+  - Mbunge basi anafungwa na mkataba huu na hawezi kugusa mali
+  - Jenerali hatataka kamwe kugusa mali
+  - Mbunge anatakiwa kulinda mali bila ubaguzi
+explanation: |
+  Kulingana na Rousseau, kwa kuwa mali inatokana na wosia wa jumla, inaweza kurekebishwa au kufutwa na mbunge kwa mujibu wa wosia huo.

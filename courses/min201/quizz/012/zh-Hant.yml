@@ -1,0 +1,14 @@
+question: Mining pool 如何運作，為何需要？
+answer: Mining pool 是一群結合運算資源以增加 Mining 機會的礦工。這種合作是必要的，因為一台孤立的小型 Mining 機器要與業界巨頭競爭，成功機會降低到可忽略不计的程度。透過集合在一起，礦工可以結合他們的運算能力，更頻繁的找到區塊，然後根據每個 Miner 對池的貢獻按比例分配獎勵。
+wrong_answers:
+  - Mining pool 是一群共用同一台 Mining 機器的礦工，以增加 Mining 的機會。這種合作是必要的，因為一台 Mining 機器只能開採有限數量的 Bitcoin。
+  - Mining pool 是一群共用相同 Mining 軟體的礦工，以增加 Mining 的機會。這種合作是必要的，因為不同的 Mining 軟體有不同的效率。
+  - Mining pool 是一群共用相同 Mining 位置的礦工，以增加 Mining 的機會。這種合作是必要的，因為 Mining 作業的位置會影響 Mining 的效率。
+explanation: |
+  本章說明 Mining pool 是一組
+  礦工結合他們的計算資源，以增加
+  其 Mining 的機會。這種合作是必要的
+  因為一台孤立的小型 Mining 機器正在競爭
+  對抗業界巨頭，使其成功機會降至
+  可忽略不計。
+reviewed: true

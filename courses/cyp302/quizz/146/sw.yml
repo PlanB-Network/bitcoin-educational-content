@@ -1,0 +1,9 @@
+question: Je, ni hali gani ya nambari kamili a kuwa na modulo kinyume cha N?
+answer: a na N lazima iwe coprime
+wrong_answers:
+  - N lazima iwe sawa
+  - lazima iwe isiyo ya kawaida
+  - lazima iwe nambari kuu
+explanation: |
+  Nambari kamili a ina modulo kinyume ikiwa na ikiwa tu ni coprime, kumaanisha kigawanyiko chao kikuu cha kawaida ni 1.
+reviewed: false

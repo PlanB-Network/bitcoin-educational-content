@@ -1,0 +1,11 @@
+question: Je, ni jukumu gani la kuweka akiba wakati wa kutokuwa na uhakika?
+answer: Akiba hutumika kama suluhisho dhidi ya kutokuwa na uhakika, kutoa akiba ya kifedha ili kudhibiti hali zisizotarajiwa.
+wrong_answers:
+  - Akiba si lazima wakati wa kutokuwa na uhakika.
+  - Akiba hutumiwa kuchochea uchumi wakati wa kutokuwa na uhakika.
+  - Akiba hutumiwa kulipa madeni wakati wa kutokuwa na uhakika.
+explanation: |
+  Akiba daima imekuwa suluhisho dhidi ya kutokuwa na uhakika. Kuwa na kifedha
+  hifadhi za kusimamia hali zisizotarajiwa huchangia amani ya akili na kuimarisha
+  mshikamano wa kijamii.
+reviewed: false

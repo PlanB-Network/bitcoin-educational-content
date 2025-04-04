@@ -1,0 +1,9 @@
+question: Commitment Transaction katika chaneli ya Umeme inaonyesha nini?
+answer: Mgawanyo mpya wa fedha kati ya pande hizo mbili
+wrong_answers:
+  - Jumla ya idadi ya miamala iliyofanywa
+  - Kiasi cha ada za kulipwa kwa shughuli hiyo
+  - Ufunguzi wa kituo kipya cha malipo
+explanation: |
+  Commitment Transaction inawakilisha mgawanyo wa sasa wa fedha katika chaneli baada ya kila shughuli ya Umeme, lakini haichapishwi kwenye Blockchain mradi tu chaneli ibaki wazi.
+reviewed: false

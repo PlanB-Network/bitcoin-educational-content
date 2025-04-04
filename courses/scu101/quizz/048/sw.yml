@@ -1,0 +1,12 @@
+question: Ni ipi kati ya zifuatazo ni njia nzuri na salama katika uthibitishaji wa 2FA?
+answer: Msimbo unaozalishwa na programu kama vile Kithibitishaji cha Google au Authy.
+wrong_answers:
+  - Simu au msimbo wa SMS kwa mwenye akaunti
+  - Barua pepe iliyo na msimbo wa dakika 10 unaoisha muda ndani yake kwa mwenye akaunti
+  - Barua iliyotumwa nyumbani kwa mwenye akaunti Address
+explanation: |
+  Hatua ya pili katika 2FA inaweza kuwa msimbo wa muda uliotumwa kupitia
+  SMS, barua pepe, msimbo unaozalishwa na programu, au a
+  ufunguo wa usalama wa kimwili. Walakini, sio njia hii yote
+  kuruhusu sisi kuweka kiwango sawa cha usalama.
+reviewed: true

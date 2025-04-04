@@ -1,0 +1,13 @@
+question: Je, hali ya Bitcoin huko El Salvador ikoje?
+answer: Zabuni halali.
+wrong_answers:
+  - Imehalalishwa.
+  - Haijulikani.
+  - Isiyodhibitiwa.
+explanation: |
+  Maandishi ya kozi yanataja kuwa baadhi ya nchi zimepiga marufuku
+  na kuharamisha matumizi ya Bitcoin, na kuongeza
+  utata wa kupitishwa kwa Bitcoin kulingana na tamaduni, enzi, na
+  mataifa. Hata hivyo, El Salvador ilikuwa jasiri vya kutosha kuikubali
+  kama zabuni halali.
+reviewed: true

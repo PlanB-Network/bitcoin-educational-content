@@ -1,0 +1,9 @@
+question: Je, ni mchanganyiko gani wa vitendaji vya Hash hutumika kwa alama za vidole fupi za generate katika Bitcoin?
+answer: HASH160
+wrong_answers:
+  - SHA512-SHA256
+  - HASH256
+  - SHA160
+explanation: |
+  HASH160 inachanganya alama za vidole SHA256 na RIPEMD160 hadi generate 160-bit, haswa kwa anwani za Bitcoin.
+reviewed: false

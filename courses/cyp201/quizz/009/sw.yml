@@ -1,0 +1,9 @@
+question: Je, ni ujenzi gani unaotumiwa na SHA256 kusindika ujumbe wa urefu wa kiholela?
+answer: Ujenzi wa Merkle-Damgård
+wrong_answers:
+  - Ujenzi wa Euclidean
+  - Ujenzi wa Rivest-Shamir-Adleman
+  - Ujenzi wa Knuth-Morris-Pratt
+explanation: |
+  Ujenzi wa Merkle-Damgård huruhusu kubadilisha kitendakazi cha mgandamizo kuwa kitendakazi cha Hash kwa ujumbe wa urefu tofauti.
+reviewed: false

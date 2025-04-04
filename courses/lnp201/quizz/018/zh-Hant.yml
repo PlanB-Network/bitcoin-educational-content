@@ -1,0 +1,9 @@
+question: 每次傳輸後，如何建立新的通道狀態？
+answer: 使用更新的分佈建立新的 Commitment Transaction
+wrong_answers:
+  - 在每次轉帳後刊登 On-Chain 交易
+  - 透過增加通道的總容量
+  - 透過每次交易後關閉及重新開啟通道
+explanation: |
+  通道內的每筆交易都會以新的 Commitment Transaction 更新通道的狀態，反映兩個參與者之間目前的資金分佈。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni wapi Nick Szabo aliwasilisha wazo lake la dhahabu kidogo mnamo 1998?
+answer: Orodha ya barua ya libtech-l
+wrong_answers:
+  - Orodha ya barua za cypherpunks
+  - Orodha ya barua pepe ya Cryptography
+  - Orodha ya barua za extropians
+explanation: |
+  Hii ilikuwa orodha yake ya kibinafsi ya barua pepe, ambayo ilijumuisha cypherpunks kama vile Wei Dai na Hal Finney, na wanauchumi kama Larry White na George Selgin.
+reviewed: false

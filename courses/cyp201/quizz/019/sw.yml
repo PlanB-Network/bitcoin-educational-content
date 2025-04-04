@@ -1,0 +1,9 @@
+question: Ni operesheni gani ya kihesabu iliyo msingi wa usalama wa kriptografia ya mviringo wa mviringo?
+answer: Tatizo tofauti la logarithm
+wrong_answers:
+  - Uainishaji wa nambari kuu
+  - Uhesabuji wa mabaki ya quadratic
+  - Tatizo la mchemraba tofauti
+explanation: |
+  Usalama wa kriptografia ya mduara duara unatokana na ugumu wa kutatua tatizo la logarithmu tofauti kwenye mipingo hii.
+reviewed: false

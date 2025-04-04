@@ -1,0 +1,9 @@
+question: Je! ni jukumu gani kuu la nodi ya kutuma katika kuelekeza kwenye Lightning Network?
+answer: Kuhesabu njia kamili kwa mpokeaji
+wrong_answers:
+  - Hifadhi taarifa ya ukwasi wa chaneli zote za mtandao
+  - Amua ada za ununuzi kwa kila nodi ya kati
+  - Wasiliana moja kwa moja na nodi zote za kati
+explanation: |
+  Nodi ya kutuma inawajibika kuhesabu njia nzima kwa mpokeaji, kwani nodi za kati zinajua tu jirani zao wa karibu.
+reviewed: false

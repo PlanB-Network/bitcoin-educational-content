@@ -1,0 +1,9 @@
+question: Ni jinsi gani block cipher inaweza kubadilishwa kuwa cipher mkondo?
+answer: Kwa kutumia hali kama OFB kwamba generate mtiririko muhimu kutoka kwa block cipher
+wrong_answers:
+  - Kwa kugawanya maandishi katika baiti na kusimba kwa njia fiche moja baada ya nyingine
+  - Kwa kutumia pedi kwenye ujumbe kabla ya usimbaji fiche
+  - Kwa kuongeza urefu wa ufunguo kwa kila kizuizi kilichosimbwa
+explanation: |
+  Njia kama OFB huruhusu block cipher kufanya kazi kama misimbo ya mtiririko kwa kutoa mtiririko muhimu, ambao hutumiwa kwa kila sehemu ya maandishi wazi.
+reviewed: false

@@ -1,0 +1,10 @@
+question: Kwa nini Bitcoin inachukuliwa kuwa aina mpya ya pesa?
+answer: Kwa sababu ni pesa za kidijitali zisizo na huluki kuu.
+wrong_answers:
+  - Kwa sababu ni sarafu ya kidijitali inayoungwa mkono na dhahabu.
+  - Kwa sababu ni sarafu inayohitaji benki ya Blockchain.
+  - Kwa sababu Hifadhi ya Shirikisho inasema hivyo.
+explanation: |
+  Bitcoin inaweza kutazamwa kama aina mpya ya pesa, inapoibuka
+  kutoka kwa mtandao wa rika-kwa-rika bila huluki kuu.
+reviewed: true

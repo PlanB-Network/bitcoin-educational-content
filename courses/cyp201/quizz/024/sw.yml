@@ -1,0 +1,9 @@
+question: Ni ukubwa gani wa ufunguo mbichi wa kibinafsi unaotumiwa kwenye Bitcoin?
+answer: 256 bits
+wrong_answers:
+  - 128 bits
+  - Biti 512
+  - Biti 1024
+explanation: |
+  Ufunguo wa kibinafsi katika Bitcoin ni nambari kamili ya 256-bit, inayohakikisha nafasi muhimu ya kutosha ili kuhakikisha usalama.
+reviewed: false

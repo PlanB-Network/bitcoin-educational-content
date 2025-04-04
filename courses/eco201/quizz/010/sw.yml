@@ -1,0 +1,13 @@
+question: Benki ya akiba ya sehemu ni nini?
+answer: Huduma ya benki ya akiba ya sehemu ndogo ni utaratibu wa benki ambapo benki hazitakiwi kushikilia akiba nyingi kadri zinavyopokea katika amana, hivyo kuziruhusu kuunda uwezo mpya wa kununua wakati wa kutoa mikopo.
+wrong_answers:
+  - Benki ya akiba ya sehemu ni utaratibu wa benki ambapo benki zinatakiwa kuwa na akiba zaidi ya zinavyopokea katika amana.
+  - Benki ya akiba ya sehemu ni utaratibu wa benki ambapo benki haziruhusiwi kutoa mikopo.
+  - Benki ya akiba ya sehemu ni utaratibu wa benki ambapo benki zinahitajika kushikilia kiasi sawa cha akiba kama wanapokea katika amana.
+explanation: |
+  Benki ya akiba ya sehemu ni mfumo ambao benki zinashikilia
+  sehemu tu ya fedha za walioweka akiba,
+  kuwakopesha wengine. Mfumo huu unaruhusu benki kuunda
+  fedha mpya katika mfumo wa mikopo, ambayo huongeza jumla
+  fedha Supply katika uchumi.
+reviewed: true

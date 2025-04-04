@@ -1,0 +1,9 @@
+question: Jina la msimbo wa kwanza ulioandikwa wa sheria ya Kirumi ni nini?
+answer: Sheria ya Majedwali Kumi na Mbili
+wrong_answers:
+  - Kanuni ya Hammurabi
+  - Digest
+  - Maagizo ya Justinian
+explanation: |
+  Sheria ya Majedwali Kumi na Mbili ndiyo msimbo wa kwanza ulioandikwa wa sheria ya Kirumi, iliyoundwa ili kurasimisha sheria na kuhakikisha usawa wa kisheria miongoni mwa raia kwa kufanya sheria ipatikane kwa wote.
+reviewed: false

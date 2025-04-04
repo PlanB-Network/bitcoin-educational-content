@@ -1,0 +1,10 @@
+question: Ni ipi kati ya zifuatazo SI moja ya kazi tatu muhimu za pesa?
+answer: Chanzo cha Nishati
+wrong_answers:
+  - Hifadhi ya Thamani
+  - Kati ya Exchange
+  - Kitengo cha Akaunti
+explanation: |
+  Kazi tatu muhimu za pesa ni ghala la thamani, kati ya Exchange,
+  na kitengo cha hesabu. Chanzo cha nishati sio kazi ya pesa.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Je, operesheni ya kubadilisha baiti (S-Box) ina jukumu gani katika usimbaji fiche wa AES?
+answer: Inaleta mkanganyiko kwa kubadilisha kila baiti na nyingine
+wrong_answers:
+  - Inahakikisha uadilifu kwa kuangalia baiti za ujumbe
+  - Inachanganya safuwima ili kuongeza usambaaji
+  - Inagawanya maandishi wazi katika vizuizi 128-bit
+explanation: |
+  Operesheni ya kubadilisha baiti (S-Box) katika AES huleta mkanganyiko kwa kubadilisha kila baiti na thamani tofauti kulingana na jedwali, na kufanya maandishi yaliyosimbwa kuwa magumu zaidi kuchanganua.
+reviewed: false

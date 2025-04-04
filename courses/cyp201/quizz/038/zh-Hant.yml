@@ -1,0 +1,9 @@
+question: 為什麼不建議重複使用 Bitcoin Address？
+answer: 它有助於第三方追蹤交易
+wrong_answers:
+  - 它會因為 Nonce 而揭露私密金鑰。
+  - 它使交易變得更昂貴
+  - 它會使數位簽章失效
+explanation: |
+  重複使用 Address 可讓觀察者輕易將不同的交易連結至相同使用者，損害他們的隱私。
+reviewed: false

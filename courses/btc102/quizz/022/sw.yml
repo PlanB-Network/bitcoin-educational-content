@@ -1,0 +1,11 @@
+question: Kuna tofauti gani kati ya biashara na uwekezaji katika muktadha wa Bitcoin?
+answer: Biashara inahusisha mikataba ya muda mfupi na hatari kubwa, wakati uwekezaji unahusisha kununua BTC kwa muda mfupi hadi wa kati na hatari ndogo.
+wrong_answers:
+  - Biashara inahusisha kununua BTC kwa muda mfupi hadi wa kati, wakati uwekezaji unahusisha mikataba ya muda mfupi na hatari kubwa.
+  - Biashara inahusisha kununua BTC kwa muda mrefu, wakati uwekezaji unahusisha mikataba ya muda mfupi na hatari kubwa.
+  - Biashara inahusisha kununua BTC kwa muda mfupi hadi wa kati, wakati uwekezaji unahusisha kununua BTC kwa muda mrefu.
+explanation: |
+  Katika muktadha wa Bitcoin, biashara inahusisha mikataba ya muda mfupi na
+  hatari kubwa, wakati kuwekeza kunahusisha kununua BTC kwa muda mfupi hadi wa kati na mdogo
+  hatari.
+reviewed: false

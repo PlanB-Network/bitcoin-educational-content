@@ -1,0 +1,12 @@
+question: Ni hatari gani inayoweza kutokea ya kupungua kwa idadi ya watumiaji, nodi, au wachimbaji katika mtandao wa Bitcoin?
+answer: Inaweza kudhoofisha mtandao, na kuongeza hatari ya kuunganishwa na kuathiriwa na mashambulizi.
+wrong_answers:
+  - Inaweza kuongeza bei ya Bitcoin.
+  - Inaweza kupunguza kasi ya ununuzi na ugumu wa Mining.
+  - Inaweza kuongeza ugumu wa Mining na uwezekano wa kushambuliwa, huku ikipunguza hatari ya kuwekwa kati.
+explanation: |
+  Kupungua kwa idadi ya watumiaji, nodi, au wachimbaji kunaweza
+  kudhoofisha mtandao wa Bitcoin. Hii inaweza kuongeza hatari ya
+  centralization na kufanya mtandao kuwa katika hatari zaidi
+  mashambulizi.
+reviewed: true

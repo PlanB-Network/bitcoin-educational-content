@@ -1,0 +1,10 @@
+question: Je, ni njia gani kuu mbili zilizotumiwa kihistoria kuongeza pesa za Supply?
+answer: Uchapishaji wa Fedha na Kupunguza Maudhui ya Metali
+wrong_answers:
+  - Uchapishaji wa Fedha na Ongezeko la Maudhui ya Metali
+  - Kupunguza Fedha na Kuongezeka kwa Maudhui ya Metali
+  - Kupunguza Fedha na Kupunguza Maudhui ya Metali
+explanation: |
+  Kihistoria, kumekuwa na njia kuu mbili za kuongeza pesa
+  Supply; Uchapishaji wa Fedha na Upunguzaji wa Maudhui ya Metali.'
+reviewed: false

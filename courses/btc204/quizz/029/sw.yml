@@ -1,0 +1,9 @@
+question: Kati ya njia hizi 4 za kupata bitcoins, ni ipi ambayo inakuweka wazi kwa hatari ya utambulisho muhimu?
+answer: Kununua katika P2P na fedha taslimu
+wrong_answers:
+  - Kununua kupitia jukwaa linalodhibitiwa bila KYC
+  - Kununua kupitia jukwaa linalodhibitiwa na KYC
+  - Kununua kupitia PayPal kupitia jukwaa la P2P la ulinganifu
+explanation: |
+  Kununua bitcoins rika-kwa-rika kwa pesa taslimu ndiyo njia inayokuweka wazi angalau kwa hatari za utambulisho muhimu kwa sababu hauhitaji kupitia kampuni iliyodhibitiwa na haiachi alama yoyote katika mfumo wa benki. Aidha, njia hii kwa ujumla haihitaji ufichuaji wa taarifa za kibinafsi.
+reviewed: false

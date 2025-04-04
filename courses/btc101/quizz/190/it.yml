@@ -1,9 +1,9 @@
 question: Cos'è l'AMF?
 answer: Autorité des Marchés Financiers.
 wrong_answers:
-  - Fondo Monetario Americano.
-  - Associazione delle Strutture Minerarie.
-  - Flusso di Denaro Automatizzato.
+  - American Monetary Fund.
+  - Association of Mining Facilities.
+  - Automated Money Flow.
 explanation: |
   L'AMF, o Autorité des Marchés Financiers, è un'organizzazione francese che regola le piattaforme dove possono essere acquistati i bitcoin.
 reviewed: vero

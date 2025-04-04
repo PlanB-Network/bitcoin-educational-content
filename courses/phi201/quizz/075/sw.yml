@@ -1,0 +1,9 @@
+question: Jina la kitabu cha Adam Smith ni nini?
+answer: Uchunguzi wa Asili na Sababu za Utajiri wa Mataifa.
+wrong_answers:
+  - Uchunguzi wa Asili na Roho ya Utajiri wa Mataifa.
+  - Uchunguzi wa Asili na Asili ya Utajiri wa Mataifa.
+  - Uchunguzi wa Sababu na Chimbuko la Utajiri wa Mataifa.
+explanation: |
+  Kichwa kamili cha kitabu cha Adam Smith, An Inquiry into the Nature and Causes of the Wealth of Nations, kinaangazia uchanganuzi wake wa mambo yanayochangia ustawi wa kiuchumi, akichunguza taratibu za uzalishaji na usambazaji wa mali.
+reviewed: false

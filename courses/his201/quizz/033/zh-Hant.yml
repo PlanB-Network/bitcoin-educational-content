@@ -1,0 +1,10 @@
+question: 來自 2009 年的哪位 Miner 在 2013 年把電腦丟到垃圾場，失去了所有的 bitcoins？
+answer: James Howells
+wrong_answers:
+  - Dustin Trammell
+  - Martti Malmi
+  - 新自由標準
+  This British engineer had generated 8,000 bitcoins with his computer between February and April 2009. His case was [publicized](https: //www.theguardian.com/technology/2013/nov/27/hard-drive-bitcoin-landfill-site) by the Guardian.
+explanation: |
+
+reviewed: false

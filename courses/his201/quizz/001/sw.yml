@@ -1,0 +1,9 @@
+question: Ni waandishi gani wa maandishi waliunda mfumo wa siri wa RSA mnamo 1978?
+answer: Ronald Rivest, Adi Shamir, na Leonard Adleman
+wrong_answers:
+  - Whitfield Diffie, Martin Hellman, na Ralph Merkle
+  - Marc Girault, Guillaume Poupard, na Jacques Stern
+  - Alfred Menezes, Minghua Qu, na Scott Vanstone
+explanation: |
+  Rivest, Shamir, na Adleman walitaja algoriti ya RSA kwa kutumia herufi zao tatu za mwanzo.
+reviewed: false

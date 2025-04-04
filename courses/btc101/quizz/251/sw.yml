@@ -1,0 +1,8 @@
+question: Ni lipi mojawapo ya masuala makuu yanayohusiana na udhibiti?
+answer: Inaweza kuharibu uhuru wa kujieleza na haki ya kukusanyika.
+wrong_answers:
+  - Inaweza kusababisha kutekelezwa kwa uhuru wa kujieleza.
+  - Inaweza kusababisha msaada zaidi kwa haki ya mkusanyiko.
+  - Inaweza kusababisha kupungua kwa uvumbuzi.
+explanation: >-
+reviewed: true

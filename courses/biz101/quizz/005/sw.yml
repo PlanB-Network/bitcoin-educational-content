@@ -1,0 +1,9 @@
+question: Je, ni sifa gani inayobainisha ya Bitcoin kama mtandao wa sarafu?
+answer: Ni kama pesa taslimu na hauhitaji mamlaka kuu au mpatanishi kwa shughuli.
+wrong_answers:
+  - Inaweza tu kufanya kazi ikiwa imeidhinishwa na wakala wa serikali.
+  - Inatoa vitengo vipya vya sarafu kwa ombi la mtumiaji yeyote.
+  - Inahitaji benki kuthibitisha na kusuluhisha kila shughuli.
+explanation: |
+  Bitcoin hufanya kazi kama mtandao uliogatuliwa, kuruhusu mtu yeyote kushiriki bila ruhusa. Miamala inaidhinishwa na nodi na wachimbaji, sio na mamlaka kuu.
+reviewed: false

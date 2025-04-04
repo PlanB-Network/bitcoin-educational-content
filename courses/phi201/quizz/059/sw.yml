@@ -1,0 +1,9 @@
+question: Ni kwa msingi gani ambapo wanazuoni wa Shule ya Salamanca walibishana kwamba watu wa kiasili walikuwa na haki za ardhi zao?
+answer: Sheria ya asili.
+wrong_answers:
+  - Haki ya Kimungu.
+  - Haki ya washindi.
+  - Sheria ya kimataifa.
+explanation: |
+  Wanazuoni wa Shule ya Salamanca walidai kwamba watu wa kiasili walikuwa na haki za ardhi zao kwa kuzingatia sheria ya asili, ikizingatiwa kwamba wanadamu wote wana haki za kimsingi bila imani ya kidini au ushindi.
+reviewed: false

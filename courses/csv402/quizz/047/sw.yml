@@ -1,0 +1,9 @@
+question: Je, ni teknolojia gani inayoweza kutumika kuunganisha matoleo tofauti ya Stash iwapo kutatokea hitilafu?
+answer: CRDT
+wrong_answers:
+  - HTLC
+  - Single-Use Seal
+  - Rudia Kulingana na logi
+explanation: |
+  CRDTs huhakikisha uwiano wa data kwa kuwezesha matoleo mengi ya Stash kuunganishwa bila migongano ya upande wa mteja.
+reviewed: false

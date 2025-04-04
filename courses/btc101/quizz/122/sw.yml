@@ -1,0 +1,9 @@
+question: Je, upatikanaji wa Bitcoin mtandaoni umekuwaje tangu 2009?
+answer: 99.988%.
+wrong_answers:
+  - 100%.
+  - 90.009%.
+  - 80.17%.
+explanation: |
+  Upatikanaji mtandaoni wa Bitcoin ni 99.988% tangu 2009.
+reviewed: true

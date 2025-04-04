@@ -1,0 +1,12 @@
+question: Ni upi ukosoaji mkuu wa ufafanuzi wa Cagan wa mfumuko wa bei?
+answer: Kiwango cha 50% ni cha kiholela na hakijumuishi vipindi fulani vya mfumuko wa bei wa juu
+wrong_answers:
+  - Ufafanuzi huo ni mpana sana na unajumuisha vipindi vingi vya mfumuko wa bei
+  - Ufafanuzi huo umepitwa na wakati na hautumiki kwa uchumi wa kisasa
+  - Ufafanuzi hauzingatii athari za mfumuko wa bei kwenye uchumi
+explanation: |
+  Wakosoaji wa ufafanuzi wa Cagan, kama vile Bernholz, wanasema kuwa 50%
+  kizingiti
+  ni ya kiholela na haijumuishi vipindi fulani vya mfumuko wa bei wa juu ambavyo vina sawa
+  sifa za ubora kama vipindi vya mfumuko wa bei.
+reviewed: false

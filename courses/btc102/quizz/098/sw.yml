@@ -1,0 +1,10 @@
+question: Je, ni baadhi ya pochi ambazo Bitcoiner mwenye paranoid anaweza kutumia?
+answer: Samourai Wallet kwa Hot Wallet, Coldcard na/au seed Signer kwa Cold Wallet
+wrong_answers:
+  - Coinbase Wallet kwa Hot Wallet, Ledger kwa Cold Wallet
+  - Binance Wallet kwa Hot Wallet, Trezor kwa Cold Wallet
+  - PayPal kwa Hot Wallet, akaunti ya benki ya Cold Wallet
+explanation: |
+  Sura inataja Samourai Wallet kwa Hot Wallet na Coldcard na/au
+  seed Signer kwa Cold Wallet kama pochi ambayo Bitcoiner paranoid anaweza kutumia.
+reviewed: false

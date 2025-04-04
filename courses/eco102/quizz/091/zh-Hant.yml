@@ -1,0 +1,8 @@
+question: 對 Bastiat 來說，財產權是由立法創造，還是先於立法？
+answer: 立法之前
+wrong_answers:
+  - 由立法創立
+  - 由社會 Contract
+  - 取決於整體意志
+explanation: |
+  Bastiat 認為財產權是一種先於法律的自然權利，法律只應該確保財產權的防衛。

@@ -1,0 +1,9 @@
+question: phusis 和 nomos 有何不同？
+answer: Phusis 是自然法則，nomos 是人類法律。
+wrong_answers:
+  - Phusis 是神的律法，Nomos 是人的律法。
+  - Phusis 是弱者的法律，Nomos 是強者的法律。
+  - Phusis 是古代的法律，Nomos 是現代的法律。
+explanation: |
+  在希臘哲學中，phusis 指的是自然法則或自然界固有的、不受人類行為影響的法則，而 nomos 指的是人類法律，由社會創造以規範社群生活。
+reviewed: false

@@ -1,10 +1,10 @@
-question: Qual è un'alternativa consigliata all'uso della carta per memorizzare la tua frase mnemonica?
+question: Qual è un'alternativa consigliata all'uso della carta per memorizzare la frase mnemonica?
 answer: Inciderla su una piastra metallica.
 wrong_answers:
   - Memorizzarla in un file digitale.
   - Scriverla su una lavagna.
-  - Salvarla come contatto nel tuo telefono.
+  - Salvarla come contatto nel telefono.
 explanation: |
-  Una delle alternative consigliate alla carta per memorizzare
-  la tua frase mnemonica è inciderla su una piastra metallica. Questa
-  soluzione è più duratura e resistente.
+  Una delle alternative alla carta, consigliata per memorizzare
+  la frase mnemonica, è inciderla su una piastra metallica. Questa
+  soluzione è più stabile e resistente.

@@ -1,0 +1,9 @@
+question: Ni nini entropy katika muktadha wa cryptography?
+answer: Kipimo cha kutotabirika kinachohusishwa na mchakato wa nasibu
+wrong_answers:
+  - Mbinu ya kusimba data nyeti
+  - Algorithm ya kuhesabu funguo za umma
+  - Mbinu ya ukandamizaji wa data
+explanation: |
+  Katika cryptography, entropy hubainisha kiwango cha kutokuwa na uhakika au machafuko katika chanzo nasibu, muhimu kwa ajili ya kuzalisha funguo salama.
+reviewed: false

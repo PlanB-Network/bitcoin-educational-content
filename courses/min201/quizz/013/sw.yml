@@ -1,0 +1,13 @@
+question: Je, udhibiti na ushuru wa umeme huathirije Bitcoin Mining?
+answer: Udhibiti na ushuru wa umeme una ushawishi mkubwa kwa Bitcoin Mining. Wachimbaji madini wanatafuta mara kwa mara umeme wa bei ya chini ili kuongeza faida yao. Kwa hiyo, gharama kubwa ya umeme katika mikoa fulani haivutii wachimbaji kwenye mikoa hii. Wachimbaji wa madini huwa na mwelekeo wa kuelekea maeneo yenye ushuru mdogo wa umeme, mara nyingi katika nchi zinazoibuka au nchi zilizo na ziada ya nishati.
+wrong_answers:
+  - Udhibiti na ushuru wa umeme huathiri Bitcoin Mining kwa kuamua aina ya mashine za Mining zinazoweza kutumika.
+  - Udhibiti na ushuru wa umeme huathiri Bitcoin Mining kwa kuamua aina ya programu ya Mining inayoweza kutumika.
+  - Udhibiti na ushuru wa umeme huathiri Bitcoin Mining kwa kuamua ukubwa wa Mining pool inayoweza kuundwa.
+explanation: |
+  Sura hiyo inaeleza kuwa udhibiti na umeme
+  ushuru una ushawishi mkubwa kwa Bitcoin Mining.
+  Wachimbaji wa madini wanatafuta kila wakati umeme wa bei ya chini
+  kuongeza faida zao, na kwa hiyo huwa na mvuto
+  kuelekea mikoa yenye ushuru mdogo wa umeme.
+reviewed: true

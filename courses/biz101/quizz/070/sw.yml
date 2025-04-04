@@ -1,0 +1,9 @@
+question: Je, ni vipengele vipi vya kina ambavyo kwa kawaida vinadaiwa na biashara za wasifu wa Kitaalamu?
+answer: Dashibodi za kuripoti za hali ya juu na majukumu mengi ya usimamizi
+wrong_answers:
+  - Rekodi za kimsingi za muamala na risiti za kawaida
+  - Ujumuishaji rahisi wa Wallet na utengenezaji wa msimbo wa QR
+  - Ubadilishaji wa kiotomatiki kuwa fiat bila chaguzi zozote za kuripoti
+explanation: |
+  Biashara za kitaaluma zinahitaji ankara zinazoweza kugeuzwa kukufaa, kuripoti kwa hali ya juu, na usimamizi wa majukumu ili kuendana na utiririshaji wao changamano.
+reviewed: false

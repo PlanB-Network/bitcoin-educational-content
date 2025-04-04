@@ -1,0 +1,11 @@
+question: Je, ni sababu gani kuu kwa nini uchumi uliopangwa serikali kuu utakabiliwa na mgao wa mtaji usioepukika?
+answer: Hakuna bei za soko au kufilisika ili kufichua na kusahihisha mgao usio sahihi.
+wrong_answers:
+  - Wapangaji wa kati hawana ufanisi.
+  - Wapangaji wa kati hawana taarifa za kutosha.
+  - Wapangaji wa kati hawana motisha ya kutenga rasilimali kwa ufanisi.
+explanation: |
+  Katika uchumi uliopangwa serikali kuu, hakuna bei za soko au kufilisika
+  kufichua na kusahihisha mgao usio sahihi. Matokeo yake, makosa yatajilimbikiza hadi
+  ubadhirifu unadhihirika kwa kudorora kwa hali ya maisha.
+reviewed: true

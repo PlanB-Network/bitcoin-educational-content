@@ -1,0 +1,11 @@
+question: Je, ni tarehe gani ujumbe wa mwisho wa faragha unaojulikana wa Satoshi Nakamoto kupitia barua pepe?
+answer: Aprili 23, 2011.
+wrong_answers:
+  - Desemba 12, 2010.
+  - Januari 8, 2009.
+  - Oktoba 31, 2008.
+explanation: |
+  Tarehe ya ujumbe wa faragha wa mwisho wa Satoshi
+  Nakamoto kupitia barua pepe ni Aprili 23, 2011. Ilitumwa kwa
+  msanidi programu Mike Hearn.
+reviewed: true

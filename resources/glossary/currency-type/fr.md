@@ -8,6 +8,3 @@ Dans le cadre des portefeuilles déterministes et hiérarchiques (HD), le type d
 * Litecoin : `0x80000002` ;
 * Dogecoin : `0x80000003` ;
 * Ethereum : `0x8000003c`...
-
-![](../../dictionnaire/assets/21.webp)
-

@@ -1,0 +1,9 @@
+question: 哪種服務可以在擷取資金 On-Chain 的同時，將流動資金移至通道的對面？
+answer: 迴圈輸出
+wrong_answers:
+  - Keysend
+  - LNURL
+  - 硬幣交換
+explanation: |
+  Lightning Labs 的 Loop Out 服務可將資金從 Lightning 通道轉移到 On-Chain Blockchain，從而優化接收能力，同時在主鏈上取回比特幣。
+reviewed: false

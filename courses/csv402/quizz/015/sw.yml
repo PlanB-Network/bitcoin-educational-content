@@ -1,0 +1,9 @@
+question: Je, ni dhana gani ya kihistoria ambayo RGB inatumika kwa ulimwengu wa kidijitali?
+answer: Vyombo vya kubeba
+wrong_answers:
+  - Hifadhidata za kati
+  - Mitandao ya rika-kwa-rika bila uthibitisho
+  - Fungua rejista zinazoweza kufikiwa na wote
+explanation: |
+  RGB hubadilisha wazo la vyombo vya kubeba hadi dijiti.
+reviewed: false

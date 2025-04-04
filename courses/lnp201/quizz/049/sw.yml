@@ -1,0 +1,9 @@
+question: Je, kazi ya msingi ya Umeme Invoice ni ipi?
+answer: Omba malipo kutoka kwa nodi ya kutuma
+wrong_answers:
+  - Tuma pesa bila muamala wa On-Chain
+  - Washa HTLC kwenye kituo
+  - Fungua chaneli mpya ya Umeme
+explanation: |
+  Umeme Invoice ni ombi la malipo, linalotumwa na nodi ya kupokea kwenye nodi ya kutuma ili kuanzisha malipo kwenye Lightning Network.
+reviewed: false

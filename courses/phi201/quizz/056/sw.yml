@@ -1,0 +1,9 @@
+question: Je, ni upeo gani wa mapinduzi ya kimaadili yanayoletwa na Biblia?
+answer: Majibu mengine yote ni sahihi.
+wrong_answers:
+  - Inaleta dhana mpya ya haki inayojikita kwenye usawa na huruma.
+  - Inachangamoto ya kukubalika kwa mateso na inahimiza hatua ya kupunguza.
+  - Inaweka msingi wa umoja wa kimaadili unaotambua thamani sawa ya kila mwanadamu.
+explanation: |
+  Biblia ilianzisha mapinduzi ya kimaadili kwa kupendekeza dhana za haki zenye msingi wa usawa na huruma, kuthamini hatua dhidi ya mateso, na kuweka misingi ya ulimwengu mzima wa maadili ambapo kila mtu ana heshima ya ndani.
+reviewed: false

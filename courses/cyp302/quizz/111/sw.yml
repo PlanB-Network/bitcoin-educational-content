@@ -1,0 +1,9 @@
+question: Usimbaji fiche wa mkondo usiolingana ni nini?
+answer: Usimbaji fiche ambao mtiririko wake wa ufunguo unategemea ufunguo na Elements ya maandishi yaliyosimbwa kwa njia fiche hapo awali
+wrong_answers:
+  - Usimbaji fiche ambao hutoa mtiririko wa ufunguo nasibu kwa kila matumizi
+  - Usimbaji fiche ambapo ufunguo lazima ubadilishwe kwa kila ujumbe
+  - Usimbaji fiche ambao mtiririko wake muhimu unategemea tu ufunguo wa mwanzo
+explanation: |
+  Usimbaji fiche wa mtiririko usiolingana ni aina ya usimbaji fiche ambapo mtiririko wa ufunguo huathiriwa na ufunguo na Elements ya maandishi yaliyosimbwa.
+reviewed: false

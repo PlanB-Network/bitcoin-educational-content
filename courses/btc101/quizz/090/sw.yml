@@ -1,0 +1,13 @@
+question: Je, ni matumizi gani yanayopendekezwa ya simu ya mkononi ya Wallet?
+answer: Kuhifadhi gharama za kila siku.
+wrong_answers:
+  - Kuhifadhi akiba ya muda mrefu.
+  - Kuhifadhi akiba ya muda wa kati.
+  - Kuhifadhi kiasi kikubwa.
+explanation: |
+  Wallet ya rununu inapendekezwa kwa gharama za kila siku kwa sababu
+  ni rahisi kufanya shughuli nayo. Hata hivyo, ni
+  haipendekezi kwa kuhifadhi kiasi kikubwa au kwa
+  akiba ya muda mrefu kwa sababu inaweza kuwa hatarini
+  vitisho mtandaoni.
+reviewed: true

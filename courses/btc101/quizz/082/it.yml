@@ -1,5 +1,5 @@
-question: Qual è la tecnologia utilizzata per spendere fondi in modo sicuro utilizzando un Portafoglio Bitcoin?
-answer: Crittografia a curve ellittiche.
+question: Qual è la tecnologia utilizzata per spendere fondi in modo sicuro utilizzando un wallet Bitcoin?
+answer: Crittografia a curva ellittica.
 wrong_answers:
   - Crittografia simmetrica.
   - Crittografia quantistica.

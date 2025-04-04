@@ -1,0 +1,9 @@
+question: Kulingana na mwanafalsafa Mroma Seneca, furaha inatia ndani nini?
+answer: Mazoezi ya wema
+wrong_answers:
+  - Utajiri
+  - Raha
+  - Yote ya hapo juu
+explanation: |
+  Kwa Seneca, furaha ya kweli iko katika mazoezi ya wema, ambayo inaruhusu mtu kuishi kwa mujibu wa sababu na kufikia amani ya ndani ya kudumu, bila kujitegemea raha au mali.
+reviewed: false

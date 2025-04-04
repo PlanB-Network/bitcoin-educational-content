@@ -1,0 +1,13 @@
+question: Je, ni ipi mojawapo ya manufaa ya Lightning Network kwa waundaji wa maudhui?
+answer: Watahamasishwa kutoa maudhui bora ili kudumisha usikivu wa watumiaji.
+wrong_answers:
+  - Wangeweza kutoza zaidi kwa maudhui yao.
+  - Wangeweza kufikia hadhira pana zaidi.
+  - Wangeweza kutoa maudhui kwa haraka zaidi ili kudumisha usikivu wa watumiaji.
+explanation: |
+  Kwa Lightning Network, waundaji wa maudhui watakuwa
+  kuhamasishwa kutoa maudhui bora ya kuhifadhi
+  umakini wa watumiaji. Watumiaji, kwa upande wake, wangelipa tu
+  maudhui wanayotumia, hivyo basi kuondoa usajili wa mapema
+  ada.
+reviewed: true

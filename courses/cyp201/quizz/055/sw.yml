@@ -1,0 +1,10 @@
+question: Je, pato la kitendakazi cha HMAC-SHA512 linatumika kwa sehemu ngapi kwa seed imegawanywa katika?
+answer: Sehemu mbili za bits 256
+wrong_answers:
+  - Sehemu moja ya biti 512
+  - Sehemu tatu za bits 170
+  - Sehemu nne za bits 128
+  The output of HMAC-SHA512 is divided into two parts: the master private key (256 bits) and the master chain code (256 bits).
+explanation: |
+
+reviewed: false

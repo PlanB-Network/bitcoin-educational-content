@@ -1,0 +1,9 @@
+question: Ni nini kinachotofautisha mpango wa kisasa wa cryptography kutoka kwa mpango rahisi wa usimbuaji?
+answer: Uhakikisho wa uadilifu wa ujumbe na uhalisi
+wrong_answers:
+  - Matumizi ya ufunguo mmoja wa siri
+  - Ugatuaji wa ufunguo
+  - Kutokutambulisha kwa ujumbe
+explanation: |
+  Usimbaji fiche wa kisasa ni pamoja na mipango inayopita zaidi ya usiri ili kuhakikisha uadilifu na uhalisi, na pia kutokataa, tofauti na mifumo rahisi ya usimbaji fiche.
+reviewed: false

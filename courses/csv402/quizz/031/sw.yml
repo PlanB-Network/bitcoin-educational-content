@@ -1,0 +1,9 @@
+question: Je! ninaweza kufanya nini na Invoice katika uhamishaji wa RGB?
+answer: Onyesha aina ya muamala, kiasi cha mali zinazohitajika na Seal Definition ya mpokeaji.
+wrong_answers:
+  - Unda Genesis mpya ya kipengee
+  - generate mpya Schema kurekebisha kipengee Business Logic
+  - Kujenga PSBT kuchukua nafasi ya shughuli ya Bitcoin
+explanation: |
+  Invoice inatumika kumfahamisha mtoaji wa shughuli ya aina ya operesheni, kiasi cha mali zinazopaswa kuhamishwa na lengwa (Seal Definition).
+reviewed: false

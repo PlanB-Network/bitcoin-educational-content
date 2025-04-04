@@ -1,0 +1,9 @@
+question: 什麼構成 RGB 中的 Anchor？
+answer: transaction ID、MPC、DBC 和額外交易證明
+wrong_answers:
+  - Genesis、Seal Definition 和 Transition Bundle
+  - Contract Schema、Business Logic 和 Owned State
+  - 簽名、交易 Hash 和 Pedersen commitment
+explanation: |
+  Anchor 包含證明 Bitcoin 交易中包含唯一 Commitment 所需的資料。
+reviewed: false

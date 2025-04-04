@@ -1,0 +1,9 @@
+question: Kwa nini aina za hati ambazo hazitumiwi sana zinaweza kutambulika kwa urahisi zaidi kuliko hati zinazotumiwa sana?
+answer: Kwa sababu kundi la miamala iliyo na aina sawa ya hati ni ndogo.
+wrong_answers:
+  - Kwa sababu zinahitaji uthibitisho zaidi na wachimbaji.
+  - Kwa sababu wanatumia algoriti dhaifu za usimbaji fiche.
+  - Kwa sababu mara nyingi hukataliwa na nodi za mtandao za Bitcoin.
+explanation: |
+  Ikiwa jumla ya kundi la miamala iliyo na aina sawa ya hati ambayo tumejificha ni ndogo, tunaweza kutambulika kwa urahisi zaidi kuliko katika kundi kubwa sana la miamala.
+reviewed: false

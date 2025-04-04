@@ -1,0 +1,8 @@
+question: Proof of Work (POW) ni nini?
+answer: Ni makubaliano ya usalama ya itifaki ya Bitcoin.
+wrong_answers:
+  - Ni mchakato wa kuunda bitcoins mpya.
+  - Ni njia ya kuthibitisha shughuli za Bitcoin.
+  - Ni algorithm inayotumika kuchimba bitcoins.
+explanation: >-
+reviewed: true

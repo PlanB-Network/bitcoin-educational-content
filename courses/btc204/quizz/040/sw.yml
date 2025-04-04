@@ -1,0 +1,10 @@
+question: Kwa nini bitcoins hununuliwa kupitia kubadilishana kwa P2P mara nyingi ni ghali zaidi kuliko zile zinazonunuliwa kwenye majukwaa yaliyodhibitiwa?
+answer: Hatari za ziada, ada za muamala na malipo ya faragha.
+wrong_answers:
+  - Kutetereka kwa soko, hatari za matumizi maradufu, na kufuata sheria.
+  - Ada za usajili, chaguo chache na muda mrefu wa uthibitishaji.
+  - Ada za usajili, kanuni kali na usalama mdogo.
+  Bitcoins sold on P2P platforms are generally more expensive than those from regulated platforms. This markup is due to several factors: the seller takes on more risks, they also have to cover additional costs, and the exchange offers the buyer a higher level of privacy.
+explanation: |
+
+reviewed: false

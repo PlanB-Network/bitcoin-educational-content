@@ -1,0 +1,11 @@
+question: Je, ni nini nafasi ya wachimbaji katika mtandao wa Bitcoin?
+answer: Kurekodi shughuli zilizoenezwa katika Bitcoin Blockchain
+wrong_answers:
+  - Ili kuunda bitcoins mpya
+  - Ili kudhibiti thamani ya bitcoins
+  - Ili kuthibitisha utambulisho wa watumiaji wa Bitcoin
+explanation: |
+  Wachimbaji madini katika mtandao wa Bitcoin wanawajibika kurekodi miamala
+  ambazo zimeenezwa kwenye mtandao hadi kwenye Bitcoin Blockchain. Hii inahakikisha
+  mwisho wa shughuli.
+reviewed: false

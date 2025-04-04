@@ -1,0 +1,12 @@
+question: Madhumuni ya majaribio ya kuhadaa ili kupata maelezo ya kibinafsi ni nini?
+answer: Ili kutoa taarifa nyeti kama vile vitambulisho na manenosiri yako.
+wrong_answers:
+  - Ili kukutumia barua pepe taka.
+  - Ili kukuuzia bidhaa au huduma.
+  - Ili kukualika kwa matukio au mitandao.
+explanation: |
+  Majaribio ya hadaa yanalenga kupata nyeti
+  habari kama vile vitambulisho na nywila zako. Wadukuzi
+  tumia mbinu mbalimbali kama vile barua pepe za ulaghai ili kukuhadaa
+  katika kufichua habari zako.
+reviewed: true

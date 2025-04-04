@@ -1,0 +1,13 @@
+question: Je, ni faida gani kuu ya ASIC katika muktadha wa Bitcoin Mining?
+answer: Wanaweza kufanya aina moja maalum ya hesabu kwa ufanisi sana
+wrong_answers:
+  - Wanaweza kufanya mahesabu mengi ya aina tofauti
+  - Wanatumia umeme kidogo kuliko CPU
+  - Wao ni nafuu zaidi kuliko CPU
+explanation: |
+  ASICs ni chips, kulinganishwa na Chip CPU, hata hivyo, wao
+  hutengenezwa kutekeleza aina moja tu maalum ya
+  hesabu kwa njia ya ufanisi zaidi iwezekanavyo. Katika kesi hiyo
+  ya Bitcoin ASICs, zimeundwa kwa ajili ya kukokotoa
+  algorithm ya SHA256.
+reviewed: true

@@ -1,0 +1,11 @@
+question: Ni nini moja ya sifa kuu za Bitcoin?
+answer: Inaweza kubadilishwa popote duniani bila idhini yoyote kutoka kwa chombo chochote.
+wrong_answers:
+  - Inaweza tu kutumiwa na kikundi kilichochaguliwa cha watu.
+  - Inahitaji idhini kutoka kwa mamlaka kuu ili kutumika.
+  - Inaweza kutumika tu katika nchi fulani.
+explanation: |
+  Maandishi yanataja kuwa Bitcoin ni jina bandia na inaweza kuwa
+  kubadilishana popote duniani bila idhini
+  wa chombo chochote.
+reviewed: true

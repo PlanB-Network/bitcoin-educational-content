@@ -1,0 +1,10 @@
+question: Je, kukadiria kiwango cha Hash cha mwanachama wa ushirika kupitia sehemu ya Proof of Work kunahusisha nini?
+answer: Kurejesha uthibitisho wa kazi ya kiwango cha chini kuliko ugumu wa mtandao unaotolewa na hasher
+wrong_answers:
+  - Kurejesha chapa ya stempu ikiwa ni pamoja na baiti ya kwanza ya kila block Hash inayozalishwa na hasher
+  - Kurejesha bili ya umeme ya hasher kila mwezi
+  - Kurejesha uthibitisho wa kazi uliotolewa kwenye mtandao wa ugumu wa chini, kama BitDNS
+  This simple method was proposed by ribuck, Nils Schneider, and Gavin Andresen [on the forum](https: //bitcointalk.org/index.php?topic=1458.msg16951#msg16951) on October 14, 2010. ()
+explanation: |
+
+reviewed: false

@@ -1,0 +1,8 @@
+question: Hashrate ni nini?
+answer: Idadi ya mahesabu ya Hash ambayo kifaa cha Mining kinaweza kufanya kwa sekunde kutatua Proof of Work.
+wrong_answers:
+  - Kasi ambayo kifaa cha Mining kinaweza kutatua Proof of Work.
+  - Jumla ya wachimbaji madini katika mtandao wa Bitcoin.
+  - Jumla ya bitcoins kuchimbwa kwa kufanya idadi fulani ya majaribio kwa sekunde kutatua Proof of Work.
+explanation: >-
+reviewed: true

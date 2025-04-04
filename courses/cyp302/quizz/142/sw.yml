@@ -1,0 +1,9 @@
+question: Je! jina la shida ni nini ambapo ni rahisi kukokotoa matokeo kwa mwelekeo mmoja lakini karibu haiwezekani kugeuza?
+answer: Utendaji wa njia moja
+wrong_answers:
+  - Kitendaji cha mstari
+  - Kitendaji cha kielelezo
+  - Chaguo la kukokotoa linaloweza kutenduliwa
+explanation: |
+  Vitendaji vya njia moja huruhusu ukokotoaji wa haraka katika mwelekeo mmoja, lakini hufanya utatuzi wa kinyume hauwezekani, kwa hivyo matumizi yao katika kriptografia.
+reviewed: false

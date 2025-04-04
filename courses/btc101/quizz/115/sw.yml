@@ -1,0 +1,11 @@
+question: Nani alikuwa mtu wa kwanza kujiunga na mtandao wa Bitcoin baada ya Satoshi Nakamoto?
+answer: Hal Finney.
+wrong_answers:
+  - Laszlo Hanyecz.
+  - Phil Champagne.
+  - Rogzy.
+explanation: |
+  Hal Finney alikuwa mtu wa kwanza kujiunga na mtandao wa Bitcoin
+  baada ya Satoshi Nakamoto mwenyewe. Hata alitweet Running
+  Bitcoin kuashiria hafla hiyo.
+reviewed: true

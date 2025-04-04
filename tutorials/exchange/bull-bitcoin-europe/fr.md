@@ -48,7 +48,7 @@ Scannez le QR code avec votre application d'authentification, saisissez le code 
 
 Si vous n'êtes pas familiarisé avec l'utilisation des applications d'authentification pour le 2FA, je vous recommande de consulter ce tutoriel sur l'application Authy :
 
-https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Entrez votre mot de passe pour confirmer.
 
@@ -197,3 +197,4 @@ Vous savez maintenant comment acheter et vendre du bitcoin facilement avec Bull 
 Je vous conseille également de découvrir cet autre tutoriel complet pour apprendre à gérer votre phrase mnémonique de la bonne manière :
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+

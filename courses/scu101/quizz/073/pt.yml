@@ -1,0 +1,9 @@
+question: Qual é a principal vantagem de usar um gerenciador de senhas?
+answer: Lembrar apenas uma senha mestre.
+wrong_answers:
+  - Nunca mais criar novas senhas.
+  - Ajudar a memorizar todas as senhas usando técnicas mnemônicas.
+  - Eliminar a necessidade de ter contas online.
+explanation: |
+  O usuário só precisa lembrar uma única senha para acessar todas as outras.
+reviewed: false

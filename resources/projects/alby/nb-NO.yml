@@ -1,6 +1,2 @@
 description: |
-  Alby er en allsidig nettleserutvidelse designet for å strømlinjeforme Bitcoin-transaksjoner og interaksjoner på Lightning Network. Med et brukervennlig grensesnitt, tilbyr den en sikker plattform for å håndtere lommebøker, muliggjøre transaksjoner og utforske fremvoksende teknologier som Nostr.
-
-  Alby forenkler monetisering av innhold og tilbyr en sømløs opplevelse for utviklere, noe som gjør det til en altomfattende løsning for diverse Bitcoin-behov.
-contributors:
-  - rabbit-hole
+  Alby gir forbrukere og utviklere brukervennlige bitcoin-betalingsverktøy ved å bruke Lightning-nettverket overalt: på nettet, i mobilapper og i den virkelige verden. Med Alby Hub får brukere en kraftig, selvforvaltet Lightning-lommebok som kobles sømløst til forskjellige apper. Alby-nettleserutvidelsen tillater smidig interaksjon med nettsider, og muliggjør betalinger og identitetsverifisering direkte i nettleseren. For mobilbrukere tilbyr Alby Go en brukervennlig lommebok for å administrere transaksjoner på farten. I tillegg gir Alby API-er for å integrere bitcoin-betalinger i enhver app og programmere interaksjoner med bitcoin Lightning-lommebøker.

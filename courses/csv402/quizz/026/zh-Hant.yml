@@ -1,0 +1,9 @@
+question: 在 RGB 架構中，Interface Implementation 的目的是什麼？
+answer: 將 Schema 欄位對應到 Interface 中定義的名稱
+wrong_answers:
+  - 編譯 AluVM 腳本進行驗證
+  - 定義 Contract 的全局狀態和所有狀態
+  - 儲存用戶端加密證明
+explanation: |
+  Interface Implementation 在 Schema 的 Business Logic 與 Interface 可讀取的簡報之間建立連結。
+reviewed: false

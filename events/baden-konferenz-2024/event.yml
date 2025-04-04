@@ -2,11 +2,10 @@ id: 25ebfcab-d5fa-4b8f-80cc-d2f0f7018fe4
 start_date: 2024-12-07 08:00:00
 end_date: 2024-12-07 16:00:00
 timezone: Europe/Zurich
-address_line_1: Wiesenstrasse 32, Baden, Switzerland
+address_city_country: Wiesenstrasse 32, Baden, Switzerland
 address_line_2: BBB Martinsberg, Wiesenstrasse 32, 5400 Baden, Switzerland
 address_line_3:
 name: Bitcoin Baden Konferenz
-builder: Verein Bitcoin Baden
 type: conference
 book_online: false
 book_in_person: false
@@ -18,9 +17,8 @@ links:
   website: https://bitcoinbaden.ch/
   replay_url:
   live_url:
-tags:
-  - decentralization
-  - scalability
-  - adoption
-
 project_id: daade592-daa0-43fc-a01e-b00836b4f857
+tags:
+  - adoption
+  - case-studies
+  - user-friendly

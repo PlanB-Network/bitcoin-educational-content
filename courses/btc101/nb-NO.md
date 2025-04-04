@@ -557,15 +557,18 @@ Nedenfor definerer vi flere sikkerhetsnivåer:
 
 Du kan for eksempel bruke Sparrow Wallet som en varm lommebok:
 
-https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - På nivå 2\*\* bruker du en fysisk lommebok, og du har sikret listen din med 12/24 ord. Dette kalles ofte "cold Wallet" fordi nøklene dine er lagret på en enhet som ikke er koblet til internett. I dette tilfellet må du alltid signere hver transaksjon med enheten din, noe som gjør midlene dine mindre tilgjengelige på daglig basis.
 
 Du kan for eksempel bruke en Ledger, en Satochip eller en Tapsigner:
 
 https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
 https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+
 https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+
 ![image](assets/en/32.webp)
 
 - Nivå 3**, du bruker en lommebok på nivå 1 eller 2, men du har lagt til en ekstra passordfrase. I dette tilfellet må du være oppmerksom på at du må ta sikkerhetskopi av både listen med 12/24 ord **og\*\* passordfrasen din. Ideelt sett lagres disse to delene av informasjonen på to forskjellige steder.
@@ -573,6 +576,7 @@ https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 Hvis du vil vite mer om hvordan BIP39-passordet brukes og fungerer:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 ![image](assets/en/33.webp)
 
 - På nivå 4\*\* bruker du et sett med lommebøker til å opprette en "multisig"-lommebok, noe som betyr at det kreves flere signaturer for å gjennomføre en transaksjon. I dette tilfellet må du være oppmerksom på at hver del av multisignaturen bør lagres på forskjellige steder. Denne tilnærmingen anses ofte som en avansert bruk av Bitcoin, først og fremst for å administrere store beløp og for bedriftsformål.
@@ -829,7 +833,7 @@ Det er flere alternativer tilgjengelig når du ønsker å installere din egen no
 
 ![image](assets/en/53.webp)
 
-Et annet alternativ er å bruke en dedikert maskinvare til dette formålet, for eksempel en Raspberry Pi 4 med en tilstrekkelig stor SSD (ca. 1 TB). Dette alternativet er dyrere hvis du må kjøpe maskinvaren, men det utgjør litt mindre enn € 10,00 per år når det gjelder strømforbruk.
+Et annet alternativ er å bruke en dedikert maskinvare til dette formålet, for eksempel en Raspberry Pi 4 med en tilstrekkelig stor SSD (ca. 2 TB). Dette alternativet er dyrere hvis du må kjøpe maskinvaren, men det utgjør litt mindre enn € 10,00 per år når det gjelder strømforbruk.
 
 Fra et båndbreddeperspektiv, med en blokk på 1 MB hvert 10. minutt, tilsvarer det omtrent 5 GB per måned.
 
@@ -1044,6 +1048,7 @@ I dag fortsetter Bitcoin å overleve og vokse enda mer ved å bli integrert mer 
 
 ![image](assets/en/71.webp)
 
+
 ## Å skaffe Bitcoins ved å jobbe
 
 <chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>
@@ -1074,13 +1079,17 @@ Vi kommer til å gå nærmere inn på dette temaet i et annet kurs, men for å h
 
 - Enkel løsning på nett: OpenNode
 
-https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - Løsning for amatørselgere: Sveitsisk Bitcoin Pay
 
-https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Løsning for store strukturer eller lidenskapelige bitcoinere: BTCpay Server
+
+For å utforske dette emnet videre, anbefaler vi vårt BIZ101-kurs! Oppdag hvordan du effektivt kan integrere bitcoin i selskapets finansforvaltning, akseptere bitcoin som betalingsmiddel i henhold til organisasjonens profil, og forstå tilhørende skatte- og regnskapskrav:
+
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## Sparer med Bitcoin
 
@@ -1135,7 +1144,7 @@ Det finnes flere måter å anskaffe bitcoins på, og hver av dem er underlagt si
 
 - DCA-plattformer
 
-Som vi introduserte ovenfor, er en vanlig metode for å akkumulere bitcoins Dollar Cost Averaging (DCA), som innebærer regelmessig kjøp av små beløp. Flere plattformer tilbyr denne tjenesten, for eksempel de som er oppført på vår [dedikerte side] (https://planb.network/tutorials/exchange). I tillegg til at det er enkelt å sette opp en DCA, er uttak til lommeboken din vanligvis automatiske, noe som betyr at du alltid vil ha kontroll over eiendelene dine.
+Som vi introduserte ovenfor, er en vanlig metode for å akkumulere bitcoins Dollar Cost Averaging (DCA), som innebærer regelmessig kjøp av små beløp. Flere plattformer tilbyr denne tjenesten, for eksempel de som er oppført på vår [dedikerte side](https://planb.network/tutorials/exchange). I tillegg til at det er enkelt å sette opp en DCA, er uttak til lommeboken din vanligvis automatiske, noe som betyr at du alltid vil ha kontroll over eiendelene dine.
 
 I dag er nesten alle DCA-løsninger relativt effektive og har nesten like gebyrer, så valget vil avhenge mer av tilgjengeligheten i ditt land.
 
@@ -1163,7 +1172,7 @@ Det er viktig å erkjenne at KYC er et viktig diskusjonstema i Bitcoin-bransjen.
 
 ### Ikke-KYC løsninger
 
-I tillegg finnes det flere [markedsplasser] (https://planb.network/tutorials/exchange) hvor du kan kjøpe og selge bitcoins i en peer-to-peer-utveksling. Generelt bør du vurdere følgende:
+I tillegg finnes det flere [markedsplasser](https://planb.network/tutorials/exchange) hvor du kan kjøpe og selge bitcoins i en peer-to-peer-utveksling. Generelt bør du vurdere følgende:
 
 - Bitcoin-minibanker
 - Fysiske møter med andre bitcoin-entusiaster

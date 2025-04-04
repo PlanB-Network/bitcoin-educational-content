@@ -1,0 +1,9 @@
+question: Je, ukosoaji wa Hayek wa ujamaa ni upi?
+answer: Anakosoa njia zinazotumiwa na ujamaa kufikia malengo yake, kama vile upangaji mkuu na uondoaji wa mali ya kibinafsi.
+wrong_answers:
+  - Anakataa malengo ya ujamaa kama vile haki na usawa.
+  - Anafikiri kwamba ujamaa ni fundisho la kale kupita kiasi.
+  - Hakuna kati ya zilizo hapo juu.
+explanation: |
+  Hayek anakosoa ujamaa sio kwa malengo yake, lakini kwa njia zake, kama vile upangaji mkuu na kukomesha mali ya kibinafsi, ambayo anaona ni hatari kwa uhuru wa mtu binafsi na ufanisi wa kiuchumi.
+reviewed: false

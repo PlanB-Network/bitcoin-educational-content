@@ -1,0 +1,9 @@
+question: Katika usimbaji fiche wa zamu, ni nini matokeo ya neno DOG na ufunguo wa 17?
+answer: UFX
+wrong_answers:
+  - ZKH
+  - TPG
+  - UVW
+explanation: |
+  Kwa mabadiliko ya 17 katika alfabeti, D inakuwa U, O inakuwa F, na G inakuwa X. Kwa hiyo, neno lililosimbwa ni UFX.
+reviewed: false

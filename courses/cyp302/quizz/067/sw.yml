@@ -1,0 +1,9 @@
+question: Je! ni nini hufanyika ikiwa mshambuliaji anakatiza ujumbe uliosimbwa kwa njia fiche katika mpango mzuri wa usimbaji fiche linganifu?
+answer: Hawapaswi kujifunza chochote muhimu kuhusu ujumbe asilia
+wrong_answers:
+  - Wanaweza kusimbua ujumbe kila wakati bila ufunguo
+  - Wanapaswa kuwa na uwezo wa kusimbua kwa kutumia ufunguo wa umma
+  - Wanapaswa kuwa na uwezo wa kukisia maudhui ya ujumbe
+explanation: |
+  Katika mpango uliobuniwa vyema wa usimbaji fiche linganifu, mvamizi anayeingilia ujumbe uliosimbwa hapaswi kuwa na uwezo wa kupata taarifa muhimu kuhusu maudhui ya ujumbe bila ufunguo wa kusimbua.
+reviewed: false

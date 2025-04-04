@@ -1,0 +1,12 @@
+question: Kwa nini ni muhimu kubadilisha hatua kwa hatua manenosiri yako ya zamani na yale yaliyotolewa na msimamizi wa nenosiri?
+answer: Nywila zinazozalishwa na kidhibiti nenosiri ni imara na ndefu, na kutoa usalama zaidi.
+wrong_answers:
+  - Manenosiri ya zamani yanafutwa kiotomatiki na kidhibiti cha nenosiri.
+  - Vidhibiti vya nenosiri vinaweza tu kuhifadhi idadi ndogo ya manenosiri.
+  - Vidhibiti vya nenosiri vinahitaji manenosiri yote kuzalishwa nao.
+explanation: |
+  Nywila zinazozalishwa na msimamizi wa nenosiri ni nguvu na
+  tena, kutoa usalama zaidi. Kwa kubadilisha hatua kwa hatua yako
+  nywila za zamani na hizi, unaweza kuimarisha usalama wa
+  akaunti zako za mtandaoni.
+reviewed: true

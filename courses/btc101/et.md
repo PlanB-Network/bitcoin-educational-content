@@ -557,15 +557,18 @@ Järgnevalt määratleme mitu turvataset:
 
 Näiteks võite kasutada Sparrow rahakotti kuuma rahakotina:
 
-https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - Tase 2\*\*, te kasutate füüsilist rahakotti ja olete kindlustanud oma nimekirja 12/24 sõnaga. Seda nimetatakse sageli "külmaks rahakotiks", sest teie võtmeid hoitakse seadmes, mis ei ole ühendatud internetti. Sellisel juhul peate alati iga tehingu oma seadmega allkirjastama, mis muudab teie raha igapäevaselt vähem kättesaadavaks.
 
 Näiteks võite kasutada Ledgerit, Satochipi või Tapsignerit:
 
 https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
 https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+
 https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+
 ![image](assets/en/32.webp)
 
 - Tase 3**, te kasutate 1. või 2. taseme rahakotti, kuid lisate täiendava salasõna. Sellisel juhul arvestage, et peate varundama nii 12/24 sõna nimekirja **ja\*\* oma salasõna. Ideaaljuhul on need kaks teavet salvestatud kahes erinevas kohas.
@@ -573,6 +576,7 @@ https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 Et saada rohkem teavet BIP39 salasõna kasutamise ja toimimise kohta:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 ![image](assets/en/33.webp)
 
 - Tase 4\*\*, te kasutate rahakottide kogumit, et luua "multisig" rahakott, mis tähendab, et tehingu tegemiseks on vaja mitut allkirja. Sellisel juhul tuleb arvestada, et multisigituse iga osa tuleks salvestada eri kohtadesse. Seda lähenemisviisi peetakse sageli Bitcoini täiustatud kasutuseks, eelkõige suurte summade haldamiseks ja ettevõtte jaoks.
@@ -829,7 +833,7 @@ Kui soovite oma sõlme paigaldada, on saadaval mitu võimalust, mille hoolduskul
 
 ![image](assets/en/53.webp)
 
-Teine võimalus on kasutada selleks otstarbeks spetsiaalset riistvara, näiteks Raspberry Pi 4 koos piisavalt suure SSD-plaadiga (umbes ~1TB). See teine võimalus on kallim, kui riistvara tuleb osta, kuid elektritarbimise poolest moodustab see veidi vähem kui 10,00 eurot aastas.
+Teine võimalus on kasutada selleks otstarbeks spetsiaalset riistvara, näiteks Raspberry Pi 4 koos piisavalt suure SSD-plaadiga (umbes ~2TB). See teine võimalus on kallim, kui riistvara tuleb osta, kuid elektritarbimise poolest moodustab see veidi vähem kui 10,00 eurot aastas.
 
 Kui võtta arvesse 1 plokk 1 MB iga 10 minuti tagant, vastab see umbes 5 GB-le kuus.
 
@@ -1044,6 +1048,7 @@ Tänapäeval jätkab Bitcoin ellujäämist ja kasvamist veelgi enam, integreerud
 
 ![image](assets/en/71.webp)
 
+
 ## Bitcoins saamine töötades
 
 <chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>
@@ -1074,13 +1079,17 @@ Me käsitleme seda teemat üksikasjalikult mõnel teisel kursusel, kuid et asi o
 
 - Lihtne veebipõhine lahendus: OpenNode
 
-https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - Lahendus amatöörkaupmeestele: Šveitsi Bitcoin Pay
 
-https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Lahendus suurtele struktuuridele või kirglikele bitcoin'ile: BTCpay Server
+
+Selle teema paremaks mõistmiseks soovitame meie koolitust BIZ101! Avastage, kuidas tõhusalt integreerida bitcoin oma ettevõtte rahandusse, aktsepteerida bitcoin maksevahendina vastavalt teie organisatsiooni profiilile ja mõista sellega seotud maksundus- ja raamatupidamisnõudeid:
+
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## Säästmine Bitcoiniga
 

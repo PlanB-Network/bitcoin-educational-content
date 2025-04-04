@@ -8,8 +8,9 @@ links:
   twitter: https://twitter.com/citizenbitcoin
 description: |
   Podcasting the dawn of the Bitcoin Renaissance.
+contributor_names:
+  - Rogzy-DB
 tags:
-  - bitcoin
-  - economy
-contributors:
-  - rabbit-hole
+  - high-level
+  - adoption
+  - historical

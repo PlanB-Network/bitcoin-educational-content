@@ -1,0 +1,9 @@
+question: Kulingana na Keynes, serikali inapaswa kuchukua jukumu gani katika uchumi?
+answer: Jukumu tendaji kwa kuchochea mahitaji ya kukuza uchumi
+wrong_answers:
+  - Jukumu ndogo kuruhusu soko kudhibiti uchumi
+  - Jukumu lisiloegemea upande wowote bila kuingilia mifumo ya soko
+  - Jukumu la kimsingi la kifedha kusawazisha bajeti
+explanation: |
+  Keynes alisema kuwa serikali inapaswa kuingilia kati kikamilifu ili kuchochea mahitaji, haswa wakati wa mdororo wa uchumi, ili kukuza uchumi na kufidia mapungufu ya soko.
+reviewed: false

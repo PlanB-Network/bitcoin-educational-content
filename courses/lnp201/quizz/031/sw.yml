@@ -1,0 +1,9 @@
+question: Je, ni kikomo gani cha malipo yasiyo ya moja kwa moja kwenye Lightning Network?
+answer: Ukwasi mdogo zaidi unaopatikana katika chaneli ya njia iliyochaguliwa
+wrong_answers:
+  - Idadi ya nodi za kati zinazohusika
+  - Jumla ya uwezo wa Lightning Network
+  - Ada za uelekezaji zilizowekwa na kila nodi
+explanation: |
+  Kiwango cha juu zaidi ambacho malipo yasiyo ya moja kwa moja yanaweza kuhamisha kinategemea kiwango cha chini kabisa cha fedha kinachopatikana katika chaneli zinazotumika, kwa kuwa kila kituo lazima kirekebishe fedha kwa kila upande.
+reviewed: false

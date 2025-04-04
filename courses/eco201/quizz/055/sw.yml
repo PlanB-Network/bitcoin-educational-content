@@ -1,0 +1,10 @@
+question: Ni nini jukumu la axioms katika hoja za kiuchumi za Austria?
+answer: Axioms ni msingi wa Elements ambapo makato ya kimantiki yanaweza kufanywa.
+wrong_answers:
+  - Axioms haifai katika mawazo ya kiuchumi ya Austria.
+  - Axioms hutumiwa kuanzisha uhusiano kati ya vigezo kulingana na data ya majaribio.
+  - Axioms hutumiwa kuthibitisha au kukanusha hypotheses kupitia majaribio ya muda.
+explanation: |
+  Katika hoja za kiuchumi za Austria, axioms huchukua jukumu muhimu. Wao ni
+  Elements ya msingi ambayo makato ya kimantiki yanaweza kufanywa.
+reviewed: true

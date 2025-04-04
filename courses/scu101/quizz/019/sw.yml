@@ -1,0 +1,11 @@
+question: Kwa nini ni muhimu kusasisha mara kwa mara mfumo wa uendeshaji na programu?
+answer: Ili kulinda dhidi ya vitisho na udhaifu mpya.
+wrong_answers:
+  - Kufanya mashine kuwa ya kizamani.
+  - Ili kupunguza kasi ya mashine.
+  - Ili kubadilisha mtumiaji Interface.
+explanation: |
+  Masasisho ya mara kwa mara ni muhimu ili kulinda mfumo kutoka
+  vitisho na udhaifu mpya. Hazikusudiwa
+  fanya mashine kuwa ya kizamani au polepole.
+reviewed: true

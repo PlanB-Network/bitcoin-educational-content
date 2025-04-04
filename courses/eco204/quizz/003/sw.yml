@@ -1,0 +1,13 @@
+question: Je, ni mkakati gani uliotumiwa na Marekani mwaka 1933-1934 kushusha thamani ya dola?
+answer: Serikali ilikamata dhahabu za wananchi, kisha kubadili sheria za mchezo kwa kutathmini thamani ya dhahabu ili kunufaisha hazina na kuwatia hasara wale ambao awali walibadilisha dhahabu zao kwa noti.
+wrong_answers:
+  - Serikali iliongeza Supply ya dhahabu, kisha ikabadilisha sheria za mchezo kwa kupunguza thamani ya dhahabu ili kufaidika na hazina na kuwakosesha faida wale ambao awali walibadilisha dhahabu yao kwa noti.
+  - Serikali ilikamata dhahabu za wananchi, kisha kubadili sheria za mchezo kwa kushusha thamani ya dhahabu ili kunufaisha hazina na kuwakosesha faida wale ambao awali walibadilisha dhahabu zao kwa noti.
+  - Serikali iliongeza Supply ya dhahabu, kisha ikabadilisha sheria za mchezo kwa kutathmini thamani ya dhahabu ili kunufaisha hazina na kuwakosesha faida wale ambao awali walikuwa wamebadilisha dhahabu yao kwa noti.
+explanation: |
+  Mnamo 1933, serikali ya Amerika ilikamata dhahabu ya raia. Kisha mwaka wa 1934, wao
+  ilithaminisha bei ya dhahabu hadi $35 kwa wakia, badala ya $20.67. Kimsingi,
+  serikali ilishusha thamani ya dola ambayo watu walikuwa wanamiliki. Kwa kununua dhahabu kutoka kwa idadi ya watu
+  kwa $20.67 kwa wakia mwaka wa 1933, na kisha kutathmini bei ya dhahabu katika 1934, serikali.
+  ilipata faida kubwa huku ikishusha thamani ya akiba ya raia wake.'
+reviewed: false

@@ -2,17 +2,17 @@ id: 64d64648-1e29-44cd-9363-dd7ab0f46265
 start_date: 2024-11-22 09:00:00
 end_date: 2024-11-22 11:00:00
 timezone: Asia/Makassar
-address_line_1: Kuta Utara, Bali, Indonesia
+address_city_country: Kuta Utara, Bali, Indonesia
 address_line_2: Jalan Kayu Manis, Canggu, Kec. Kuta Utara
 address_line_3:
 name: BitDevs Bali Meetup
-builder: Bitcoin House Bali
 type: meetup
 book_online: false
 book_in_person: true
 price_dollars: 0
 available_seats: 100
-description: Join our monthly session and learn and connect with bitcoin developers from Indonesia and all over the globe.
+description: Join our monthly session and learn and connect with bitcoin developers
+  from Indonesia and all over the globe.
 language:
   - in
   - en
@@ -20,8 +20,8 @@ links:
   website: https://www.eventbrite.com/e/bitdevs-bali-meetup-tickets-1002169103767
   replay_url:
   live_url:
-tags:
-  - proof-of-work
-  - onchain
-  - lightning
 project_id: 254c1311-7974-447f-95f9-ebf10104cec7
+tags:
+  - development
+  - user-friendly
+  - adoption

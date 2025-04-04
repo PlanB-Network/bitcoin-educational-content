@@ -1,0 +1,9 @@
+question: Madhumuni ya Interface Implementation katika usanifu wa RGB ni nini?
+answer: Ramani sehemu za Schema kwa majina yaliyofafanuliwa katika Interface
+wrong_answers:
+  - Kusanya hati za AluVM kwa uthibitisho
+  - Kufafanua majimbo ya kimataifa na majimbo inayomilikiwa ya Contract
+  - Kuhifadhi uthibitisho wa siri wa upande wa mteja
+explanation: |
+  Interface Implementation inaanzisha kiungo kati ya Business Logic ya Schema na wasilisho linaloweza kusomeka na Interface.
+reviewed: false

@@ -30,22 +30,31 @@ Nút Nakamochi của bạn được quản lý thông qua ứng dụng di độn
 
 3. Sử dụng ứng dụng quản lý nút (Zeus hoặc BitBanana) để kết nối với Nakamochi của bạn:
 
+4. Mở ứng dụng và quét mã QR hiển thị trên Nakamochi của bạn.
 
-   - Mở ứng dụng và quét mã QR hiển thị trên Nakamochi của bạn.
+5. Để tăng cường bảo mật, hãy đặt mã PIN trên thiết bị của bạn.
 
-4. Để tăng cường bảo mật, hãy đặt mã PIN trên thiết bị của bạn.
+![image](assets/en/01.webp)
 
-![Connect to power and write down your 24-word seed phrase](assets/en/01.webp)
+_Kết nối với nguồn điện và viết ra cụm từ hạt giống gồm 24 từ của bạn_
 
-![Wait until the Blockchain has caught up](assets/en/02.webp)
+![image](assets/en/02.webp)
 
-![Set up new wallet in Lightning Tab](assets/en/03.webp)
+_Chờ cho đến khi Blockchain bắt kịp_
 
-![Scan QR Code with Node Management App](assets/en/04.webp)
+![image](assets/en/03.webp)
 
-![For additional safety set a PIN code](asset/en/05.webp)
+_Thiết lập ví mới trong Lightning Tab_
 
-_Lưu ý: Cho phép nút Nakamochi của bạn đồng bộ với blockchain. Quá trình này có thể mất một thời gian tùy thuộc vào kết nối internet của bạn._
+![image](assets/en/04.webp)
+
+_Quét mã QR bằng ứng dụng Node Management_
+
+![image](asset/en/05.webp)
+
+_Để an toàn hơn, hãy đặt mã PIN_
+
+**Lưu ý:** _Cho phép nút Nakamochi của bạn đồng bộ với blockchain. Quá trình này có thể mất một thời gian tùy thuộc vào kết nối internet của bạn._
 
 ## Về Mạng lưới Lightning
 
@@ -77,9 +86,11 @@ Sau khi Nakamochi của bạn được thiết lập và kết nối với ứng
 
 5. Nhấp vào **“Mở kênh”**.
 
-![ZEUS Screenshot](asset/en/06.webp)
+![image](asset/en/06.webp)
 
-Để biết thêm thông tin: [Kênh | Tài liệu Zeus](https://zeusln.app)
+_Ảnh chụp màn hình ZEUS_
+
+Để biết thêm thông tin: [Kênh | Tài liệu Zeus](https://docs.zeusln.app/)
 
 ### Mở kênh trên BitBanana (Android):
 
@@ -93,13 +104,15 @@ Sau khi Nakamochi của bạn được thiết lập và kết nối với ứng
 
 5. Nhập số tiền bị khóa (chọn cùng với bạn bè hoặc sử dụng số tiền cố định tối thiểu cho các nút nổi tiếng).
 
-![Bitbanana Screenshot](asset/en/07.webp)
+![image](asset/en/07.webp)
+
+_Ảnh chụp màn hình Bitbanana_
 
 Để biết thêm thông tin: [BitBanana](https://bitbanana.com)
 
-Khi kênh của bạn mở, các khoản thanh toán có thể được định tuyến qua kênh đó đến những người tham gia khác trong mạng. Số dư được điều chỉnh ngoài chuỗi, đảm bảo giao dịch gần như ngay lập tức và chỉ phải chịu mức phí tối thiểu.
+Khi kênh của bạn mở, các khoản thanh toán có thể được định tuyến qua kênh đó đến những người tham gia khác trong mạng. Số dư được điều chỉnh ngoài chuỗi, đảm bảo giao dịch gần như ngay lập tức và chỉ phải trả phí tối thiểu.
 
-Nếu bạn không còn cần kênh nữa, bạn có thể đóng kênh. Hành động này giải quyết số dư cuối cùng giữa bạn và đối tác của bạn và ghi lại trên chuỗi. Lý tưởng nhất là cả hai bên đều đồng ý và trực tuyến để "đóng hợp tác" (phí nhanh hơn và ít hơn so với "đóng bắt buộc" với đối tác không phản hồi/ngoại tuyến).
+Nếu bạn không còn cần kênh nữa, bạn có thể đóng kênh đó. Hành động này sẽ giải quyết số dư cuối cùng giữa bạn và đối tác của bạn và ghi lại trên chuỗi. Lý tưởng nhất là cả hai bên đều đồng ý và trực tuyến để "đóng hợp tác" (phí nhanh hơn và ít hơn so với "đóng bắt buộc" với đối tác không phản hồi/ngoại tuyến).
 
 Nhìn chung, chúng tôi khuyên bạn nên để các kênh mở để giảm chi phí và tăng độ tin cậy cũng như hiệu quả của mạng. Bằng cách giữ các kênh mở, bạn giảm thiểu phí giao dịch trên chuỗi, tránh thời gian chết để kết nối lại kênh và duy trì khả năng định tuyến ổn định để xử lý thanh toán liền mạch. Cách tiếp cận này thúc đẩy mạng lưới mạnh mẽ và linh hoạt đồng thời nâng cao trải nghiệm người dùng tổng thể và giảm chi phí hoạt động.
 
@@ -107,4 +120,4 @@ Nhìn chung, chúng tôi khuyên bạn nên để các kênh mở để giảm c
 
 
 - [Giới thiệu về Nakamochi](https://nakamochi.io/)
-- [Đăng ký nhận bản tin của chúng tôi](https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)
+- [Đăng ký nhận Bản tin của Nakamochi](https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)

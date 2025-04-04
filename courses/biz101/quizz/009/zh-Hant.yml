@@ -1,0 +1,9 @@
+question: 建立在 Bitcoin 之上的 Lightning Network 的主要目的是什麼？
+answer: 以最少的 On-Chain 互動，實現更快速、近乎即時的付款。
+wrong_answers:
+  - 完全取代 Bitcoin 的 Blockchain，並在本機儲存所有交易。
+  - 提供由單一實體控制的許可網路。
+  - 減緩交易速度，以確保政府仍可完全追蹤交易。
+explanation: |
+  Lightning Network 是「第二 Layer」協定，可讓參與者建立付款通道、交易 off-chain，並只在 Bitcoin Blockchain 上結算最終的淨餘額。此設計可達到更快的速度和更低的成本。
+reviewed: false

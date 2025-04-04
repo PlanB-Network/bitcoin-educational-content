@@ -1,0 +1,9 @@
+question: Je, tovuti ya Have I Been Pwned inakuruhusu kufanya nini?
+answer: Angalia ikiwa barua pepe ya Address imeathiriwa.
+wrong_answers:
+  - generate nywila mpya kali na nasibu.
+  - Unda kikasha salama cha barua pepe.
+  - Sawazisha akaunti za barua pepe kwa matumizi rahisi.
+explanation: |
+  Tovuti hii husaidia kugundua ukiukaji wa data na kuthibitisha usalama wa barua pepe ya Address.
+reviewed: false

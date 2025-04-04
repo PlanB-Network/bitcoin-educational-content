@@ -1,0 +1,9 @@
+question: Ni ukubwa gani wa jumla wa ufunguo uliopanuliwa na cheki?
+answer: 82 ka
+wrong_answers:
+  - 78 baiti
+  - 64 ka
+  - 128 ka
+explanation: |
+  Ufunguo uliopanuliwa ni baiti 78 bila hundi na ka 82 pamoja na cheki.
+reviewed: false

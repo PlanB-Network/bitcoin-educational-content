@@ -2,18 +2,17 @@ id: 38f7bf58-11ad-4acd-b3c2-2c4d19620605
 start_date: 2025-05-05 16:00:00
 end_date: 2025-05-08 22:00:00
 timezone: US/Eastern
-address_line_1: Orlando, Florida
+address_city_country: Orlando, Florida
 name: Microstrategy World 2025
-builder: MicroStrategy
 type: conference
-description: Welcome to MicroStrategy World 2025, the premier event for AI and BI innovators!
+description: Welcome to MicroStrategy World 2025, the premier event for AI and BI
+  innovators!
 language:
   - en
 links:
   website: https://www.microstrategy.com/world25
+project_id: 78d93809-a51d-4775-8aa3-e9cd2fb11e7f
 tags:
   - business
-  - development
-  - finance
-
-project_id: 78d93809-a51d-4775-8aa3-e9cd2fb11e7f
+  - investment
+  - future-outlook

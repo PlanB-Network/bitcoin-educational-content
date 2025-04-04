@@ -1,0 +1,9 @@
+question: Wafalme walitumia njia gani kuthibitisha mamlaka yao dhidi ya Kanisa?
+answer: Majibu mengine yote ni sahihi.
+wrong_answers:
+  - Ukuzaji wa kifaa cha serikali kuu na chenye nguvu.
+  - Uundaji wa mifumo yao ya kisheria na ya kifedha.
+  - Kuinua majeshi na kupigana vita dhidi ya Kanisa.
+explanation: |
+  Ili kuthibitisha mamlaka yao dhidi ya Kanisa, wafalme waliimarisha mamlaka yao kwa kuweka serikali katikati, kuanzisha mifumo yao ya kisheria na ya kifedha, na wakati mwingine kwa kupeleka majeshi ili kupinga ushawishi wa kikanisa.
+reviewed: false

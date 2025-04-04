@@ -1,0 +1,10 @@
+question: Je! ni baadhi ya ujuzi unaohitajika katika usalama wa mtandao?
+answer: Uchambuzi wa kumbukumbu, majibu ya tukio
+wrong_answers:
+  - Ubunifu wa picha, uhariri wa video
+  - Uuzaji, uuzaji
+  - Kupika, kuoka
+explanation: |
+  Sura inataja uchambuzi wa kumbukumbu na majibu ya tukio kama
+  baadhi ya ujuzi unaohitajika katika usalama wa mtandao.
+reviewed: true

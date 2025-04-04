@@ -1,0 +1,11 @@
+question: Je, ni lini Bitcoin ilitumiwa kununua bidhaa halisi?
+answer: Wakati Laszlo Hanyecz alinunua pizza 2 kwa 10,000 BTC.
+wrong_answers:
+  - Wakati Hal Finney alinunua gari kwa 100,000 BTC.
+  - Wakati Satoshi Nakamoto alinunua nyumba kwa 1,000,000,000 BTC.
+  - Hakuna chaguzi zingine.
+explanation: |
+  Mara ya kwanza ambayo Bitcoin ilitumiwa kununua kimwili
+  bidhaa ilikuwa wakati Laszlo Hanyecz alinunua pizza 2 kwa 10,000
+  BTC, mnamo 2010/05/22 ambayo sasa inajulikana kama Siku ya Pizza
+reviewed: true

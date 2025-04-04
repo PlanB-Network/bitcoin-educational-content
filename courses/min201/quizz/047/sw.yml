@@ -1,0 +1,13 @@
+question: Je, ni hatari gani kuu inayohusishwa na kuwekeza katika makampuni ambayo yanauza maunzi ya Mining na kudhibiti mashine katika maeneo ya bei nafuu ya nishati?
+answer: Masuala ya Nguvu ya Supply na kushindwa kwa mashine kunaweza kuwaacha wawekezaji bila nguvu, wakiwa na vifaa vya gharama kubwa ambavyo hawavidhibiti.
+wrong_answers:
+  - Kampuni zinaweza kufilisika na wawekezaji kupoteza pesa zao.
+  - Kampuni zinaweza kuwa za ulaghai na wawekezaji wanaweza kupoteza pesa zao.
+  - Huenda kampuni zisiweze kuuza bitcoins zilizochimbwa na wawekezaji wanaweza kupoteza pesa zao.
+explanation: |
+  Hatari kuu inayohusishwa na kuwekeza katika makampuni ambayo
+  kuuza vifaa vya Mining na kudhibiti mashine kwa gharama ya chini
+  nishati maeneo ni kwamba nguvu Supply masuala na mashine
+  kushindwa kunaweza kuwaacha wawekezaji bila nguvu, kwa gharama kubwa
+  vifaa ambavyo havidhibiti.
+reviewed: true

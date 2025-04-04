@@ -1,0 +1,9 @@
+question: Nini maana ya pesa ya fiat?
+answer: Fiat money ni sarafu ambayo ina thamani kwa sababu serikali inaidumisha na watu wana imani na thamani yake, badala ya kuungwa mkono na bidhaa halisi kama dhahabu.
+wrong_answers:
+  - Fiat money ni sarafu inayoungwa mkono na bidhaa halisi, kama vile dhahabu au fedha, ambayo ina maana kwamba thamani yake inahusishwa moja kwa moja na thamani ya bidhaa hiyo.
+  - Fiat money ni aina ya cryptocurrency inayofanya kazi kwenye mtandao uliogatuliwa, kuruhusu miamala kati ya wenzao bila kuhitaji mamlaka kuu.
+  - Fiat money ni fedha ambayo haina thamani ya ndani na haiwezi kutumika kwa shughuli, na kuifanya kuwa haina thamani katika uchumi.
+explanation: |
+  Fedha ya Fiat imeanzishwa kama zabuni halali kwa amri ya serikali, na thamani yake haitokani na bidhaa yoyote ya kimwili.
+reviewed: true

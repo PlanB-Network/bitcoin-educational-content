@@ -1,0 +1,9 @@
+question: Nani aligundua dhana ya Proof of Work?
+answer: Cynthia Dwork na Moni Naor
+wrong_answers:
+  - Markus Jakobsson na Ari Juels
+  - Adam Nyuma
+  - Satoshi Nakamoto
+explanation: |
+  Walielezea dhana hiyo mwaka wa 1992. Markus Jakobsson na Ari Juels waliunda neno Proof of Work. Adam Back baadaye alipitisha dhana ya Hashcash.
+reviewed: false

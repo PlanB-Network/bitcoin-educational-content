@@ -2,7 +2,7 @@
 name: Nakamochi
 description: Node Running Made Easy - Comment configurer et utiliser Nakamochi Bitcoin et Lightning node.
 ---
-Gérer son propre nœud Bitcoin et Lightning ne doit plus être une tâche complexe réservée aux experts techniques. Traditionnellement, la mise en place et la gestion des nœuds exigeaient des connaissances approfondies en cryptographie, en réseau et en développement de logiciels. Nakamochi change cela en rendant les nœuds accessibles à tous, quel que soit le bagage technique.
+L'exploitation de votre propre nœud Bitcoin et Lightning ne doit plus être une tâche complexe réservée aux experts techniques. Traditionnellement, la mise en place et la gestion des nœuds exigeaient des connaissances approfondies en cryptographie, en réseau et en développement de logiciels. Nakamochi change cela en rendant les nœuds accessibles à tous, quel que soit le bagage technique.
 
 Avec Nakamochi, n'importe qui peut mettre en place et exploiter un nœud depuis son domicile, ce qui permet une totale confidentialité et une indépendance financière. L'exploitation d'un nœud complet permet non seulement de sécuriser ses propres transactions, mais aussi de contribuer à la solidité du réseau Bitcoin. Un réseau Bitcoin décentralisé et résistant repose sur une large distribution de nœuds pour garantir sa sécurité et son indépendance.
 
@@ -30,22 +30,31 @@ Votre nœud Nakamochi est géré via une application mobile, [BitBanana (Android
 
 3. Utilisez une application de gestion de nœuds (Zeus ou BitBanana) pour vous connecter à votre Nakamochi :
 
+4. Ouvrez l'application et scannez le code QR affiché sur votre Nakamochi.
 
-   - Ouvrez l'application et scannez le code QR affiché sur votre Nakamochi.
+5. Pour plus de sécurité, définissez un code PIN sur votre appareil.
 
-4. Pour plus de sécurité, définissez un code PIN sur votre appareil.
+![image](assets/en/01.webp)
 
-![Connect to power and write down your 24-word seed phrase](assets/en/01.webp)
+connectez-vous à l'électricité et écrivez votre phrase-clé de 24 mots
 
-![Wait until the Blockchain has caught up](assets/en/02.webp)
+![image](assets/en/02.webp)
 
-![Set up new wallet in Lightning Tab](assets/en/03.webp)
+attendez que la blockchain ait rattrapé son retard
 
-![Scan QR Code with Node Management App](assets/en/04.webp)
+![image](assets/en/03.webp)
 
-![For additional safety set a PIN code](asset/en/05.webp)
+créer un nouveau portefeuille dans l'onglet "Lightning"
 
-note : Permettez à votre nœud Nakamochi de se synchroniser avec la blockchain. Ce processus peut prendre un certain temps en fonction de votre connexion Internet
+![image](assets/en/04.webp)
+
+scanner le code QR avec l'application de gestion des nœuds
+
+![image](asset/en/05.webp)
+
+pour une plus grande sécurité, définissez un code PIN
+
+**Note:** _Autorisez votre nœud Nakamochi à se synchroniser avec la blockchain. Ce processus peut prendre un certain temps en fonction de votre connexion internet
 
 ## À propos du réseau Lightning
 
@@ -77,9 +86,11 @@ Une fois votre Nakamochi configuré et connecté à une application de gestion d
 
 5. Cliquez sur **"Open Channel "**.
 
-![ZEUS Screenshot](asset/en/06.webp)
+![image](asset/en/06.webp)
 
-Pour plus d'informations : [Canaux | Documentation Zeus](https://zeusln.app)
+capture d'écran de ZEUS
+
+Pour plus d'informations : [Canaux | Documentation Zeus](https://docs.zeusln.app/)
 
 ### Ouverture de chaînes sur BitBanana (Android) :
 
@@ -93,7 +104,9 @@ Pour plus d'informations : [Canaux | Documentation Zeus](https://zeusln.app)
 
 5. Saisissez le montant bloqué (choisissez avec votre homologue ou utilisez le montant fixe minimum pour les nœuds bien connus).
 
-![Bitbanana Screenshot](asset/en/07.webp)
+![image](asset/en/07.webp)
+
+capture d'écran de Bitbanana
 
 Pour plus d'informations : [BitBanana] (https://bitbanana.com)
 
@@ -107,4 +120,4 @@ En règle générale, nous recommandons de laisser les canaux ouverts afin de r�
 
 
 - [A propos de Nakamochi](https://nakamochi.io/)
-- [S'abonner à notre lettre d'information] (https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)
+- [S'abonner à la lettre d'information de Nakamochi] (https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)

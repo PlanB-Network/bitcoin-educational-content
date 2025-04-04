@@ -1,88 +1,88 @@
 id: 0236ca32-260b-450e-b8b4-4c78e0211fa0
 author: Andy Edstrom
 level: intermediate
-tags:
-  - finance
-  - bitcoin
-  - economy
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.36
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.23
+    contributor_names:
+    reward: 0.3
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
-    reward: 0.12
+    reward: 0.15
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.3
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.36
   - language: fr
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.23
+    contributor_names:
+    reward: 0.3
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.3
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.49
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.23
+    contributor_names:
+    reward: 0.3
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.36
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.49
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.43
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.43
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.36
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.36
+tags:
+  - investment
+  - adoption
+  - market-trends
+contributor_names:
+  - Rogzy-DB

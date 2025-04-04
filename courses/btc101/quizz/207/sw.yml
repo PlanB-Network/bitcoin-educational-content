@@ -1,0 +1,8 @@
+question: Je, ni ipi mojawapo ya hatari zinazoweza kutokea za kuacha Bitcoin yako kwenye jukwaa la Exchange?
+answer: Hatari za udukuzi na kuzuia fedha.
+wrong_answers:
+  - Hatari ya jukwaa kuongeza bei ya Bitcoin.
+  - Hatari ya jukwaa kudhibiti Supply ya Bitcoin.
+  - Hatari ya Bitcoin kuzidiwa kwa bei na cryptocurrency.
+explanation: >-
+reviewed: true

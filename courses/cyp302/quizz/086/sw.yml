@@ -1,0 +1,8 @@
+question: Je, ni dosari gani kuu ya njia ya ECB na block cipher?
+answer: Ni ya kubainisha na inaweza kufichua ruwaza katika data
+wrong_answers:
+  - Inahitaji funguo za urefu tofauti
+  - Haifanyi kazi na ujumbe zaidi ya biti 128
+  - Haifanyi kazi na ujumbe zaidi ya biti 256
+  The ECB method (Electronic Code Book) is deterministic: identical blocks of data are encrypted in the same way, which allows patterns to be detected in the encrypted text.
+reviewed: false

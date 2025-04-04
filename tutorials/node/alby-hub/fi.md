@@ -4,15 +4,15 @@ description: Miten käynnistät helposti oman Lightning-solmun?
 ---
 ![cover](assets/cover.webp)
 
-Alby Hub on suosituimman Lightning-verkkolaajennuksen takana olevan Alby-yrityksen uusin ohjelmisto. Alby Hub on helppokäyttöinen käyttöliittymä Lightning-solmujen hallintaan.
+Alby Hub on Alby-yhtiön uusin avoimen lähdekoodin ohjelmisto, joka tunnetaan suositusta Lightning-verkkolaajennuksesta. Alby Hub on itsehallinnollinen lompakko, jossa on helpoin käyttää Lightning-solmua, joka on käytettävissä mistä tahansa integroitumaan kymmenien sovellusten kanssa. Alby Hub on helppokäyttöinen käyttöliittymä Lightning-solmujen hallintaan.
 
-Tässä oppaassa tarkastelemme eri tapoja käyttää Alby Hubia oman Lightning-solmun hallintaan ja miten se liitetään Alby Go:hon, Albyn mobiilisovellukseen. Näin voit viettää satelliitteja liikkeellä ja hallita solmua itsenäisesti.
+Tässä opetusohjelmassa tarkastelemme eri tapoja käyttää Alby Hubia ja kuinka yhdistää se Alby Go -sovellukseen, Albyn mobiilisovellukseen tai Alby-selainlaajennukseen. Tämä mahdollistaa satoshiesi käyttämisen liikkeellä ollessasi, samalla kun hallitset solmuasi itsenäisesti.
 
 ![ALBY HUB](assets/fr/01.webp)
 
 ## Mikä on Alby Hub?
 
-Vuonna 2024 Alby teki strategisen muutoksen. Vuosien ajan he ovat tarjonneet erilaisia työkaluja, jotka liittyvät Bitcoiniin ja Lightning-verkkoon, mukaan lukien ikoninen Alby-laajennus, jonka avulla voit ylläpitää Lightning-lompakkoa, huoltajaa tai muuta. Vuonna 2025 he aikovat kuitenkin lopettaa jaetun säilytyslompakkopalvelunsa ja keskittyä yksinomaan itse säilytysratkaisuihin. Alby Hubista tulee Alby-ekosysteemin uusi lippulaivatyökalu. Tämän ohjelmiston avulla käyttäjät voivat helposti hallita omaa Lightning-solmua ja säilyttää samalla avaintensa omistusoikeuden (self-custody).
+Alby Hubista on tulossa Alby-ekosysteemin uusi lippulaivatyökalu. Tämä ohjelmisto mahdollistaa käyttäjille oman itsehallittavan lompakon helpon hallinnan integroidulla Lightning-solmulla samalla säilyttäen avaintensa omistuksen (itsehallinta).
 
 Alby Hub on erittäin mukautuva työkalu. Se pystyy vastaamaan sekä aloittelijoiden että edistyneiden käyttäjien tarpeisiin. Aloittelijat voivat käyttää sitä helposti oikean Lightning-solmun omatoimiseen käyttöön ilman, että heidän tarvitsee perehtyä taustalla olevaan monimutkaisuuteen. Kokeneemmille käyttäjille Alby Hubia voidaan käyttää täydellisenä käyttöliittymänä olemassa olevan Lightning-solmun edistyneeseen hallintaan.
 
@@ -21,12 +21,11 @@ Alby Hub on saatavana neljässä eri kokoonpanossa tarpeidesi mukaan:
 
 - Alby Hub Cloud :**
 
-Aloittelijoille ihanteellinen ensimmäinen vaihtoehto on Alby-pilvivaihtoehto. Sen avulla voit ottaa Lightning-solmun käyttöön suoraan Alby-hallitulla palvelimella, johon pääset Alby Hub -käyttöliittymän kautta. Vaikka Alby hallinnoi palvelinta, säilytät itsellesi määräysvallan varoistasi, sillä avaimesi salataan vain sinun tuntemallasi salasanalla. Avaimesi on kuitenkin säilytettävä purettuna RAM-muistissa, jotta solmu voi toimia, mikä teoriassa altistaa ne riskille, jos joku pääsee fyysisesti käsiksi palvelimeen. Se on mielenkiintoinen kompromissi aloittelijoille, mutta on tärkeää olla tietoinen riskeistä.
+Ihanteellinen aloittelijoille, tämä ensimmäinen vaihtoehto on Albyn pilvivaihtoehto. Se mahdollistaa Hubin käyttöönoton suoraan Albyn hallinnoimalla palvelimella, johon pääsee Alby Hub -käyttöliittymän kautta. Vaikka Alby hallinnoi palvelinta, säilytät suvereniteetin varoihisi, koska avaimesi on salattu salasanalla, jonka vain sinä tiedät. Avaimet on kuitenkin pidettävä salauksenpurkamattomina RAM-muistissa, jotta solmu voi toimia, mikä teoreettisesti altistaa ne riskille, jos joku pääsee fyysisesti palvelimelle. Tämä on mielenkiintoinen kompromissi aloittelijoille, mutta on tärkeää olla tietoinen riskeistä.
 
 Tämän vaihtoehdon suurimpana etuna on, että saat Lightning-solmun toimimaan 24/7 ilman, että sinun tarvitsee itse hallinnoida isännöintiä. Lisäksi Lightning-solmusi varmuuskopiot ovat yksinkertaisempia ja automatisoituja verrattuna itse isännöityihin vaihtoehtoihin, joissa sinun on itse hallinnoitava kanavien varmuuskopioita.
 
-Alby tarjoaa tätä palvelua 21 000 satelliitilla kuukaudessa (joulukuun 2024 hinta, voi muuttua, [tarkista heidän hinnoittelunsa](https://albyhub.com/#pricing)). Maksu vähennetään automaattisesti solmusta Albyn lähettämällä Lightning-laskulla. Tämä tapahtuu NWC-yhteyden kautta, joka määrittää solmusi maksamaan automaattisesti Albyn tilaukseen liittyvät laskut.
-
+Alby Cloud on maksullinen palvelu [Tarkista heidän hinnoittelunsa](https://albyhub.com/#pricing) saadaksesi lisätietoja. Maksu vähennetään automaattisesti lompakostasi Albyn antaman Lightning-laskun kautta. Tämä tapahtuu NWC-yhteyden kautta, joka konfiguroi solmusi maksamaan automaattisesti Albyn tilaukseesi liittyvät laskut.
 
 - Alby Hub olemassa olevalla solmulla :**
 
@@ -35,7 +34,7 @@ Jos sinulla on jo solmu isännöitynä esimerkiksi Umbrelissa tai Start9:ssä, A
 
 - Alby Hub paikallinen :**
 
-On myös mahdollista asentaa Alby Hub ja solmu suoraan tietokoneeseen, mutta tämä vaihtoehto on vähemmän käytännöllinen, koska tietokoneen on oltava koko ajan aktiivinen, jotta Lightning-solmua voidaan käyttää etänä. Tämä vaihtoehto voi kuitenkin sopia erityistarpeisiisi.
+On myös mahdollista asentaa Alby Hub suoraan tietokoneellesi, vaikka tämä vaihtoehto on vähemmän käytännöllinen, koska tietokoneesi on oltava jatkuvasti aktiivinen, jotta Lightning-solmuun voidaan etäyhteydellä päästä. Tämä vaihtoehto voi kuitenkin sopia erityistarpeisiisi.
 
 
 - Alby Hub henkilökohtaisella palvelimella :**
@@ -76,7 +75,7 @@ Napsauta uudelleen "*Jatka*".
 
 ## Pilvi hosting vaihtoehto
 
-Tämän jälkeen sinun on valittava joko itse isännöity vaihtoehto, jossa isännöit Lightning-solmua omalla laitteistollasi, tai maksullinen vaihtoehto, jossa käytät Albyn pilveä. Aloitan selittämällä, miten edetään pilvipalveluvaihtoehdossa (huomaa, että tämä on maksullinen vaihtoehto, katso yksityiskohdat edellisestä osiosta).
+Sinun täytyy sitten valita itse isännöidyn vaihtoehdon, jossa asennat Alby Hubin omaan laitteeseesi, tai premium-vaihtoehtojen välillä. Aloitan selittämällä, kuinka edetä Pro Cloud -vaihtoehdolla (huomaa, että tämä on maksullinen vaihtoehto, katso yksityiskohdat edellisestä osasta).
 
 Napsauta "*Upgrade*".
 
@@ -94,7 +93,8 @@ Odota hetki, kun solmusi luodaan.
 
 ![ALBY HUB](assets/fr/12.webp)
 
-Siinä kaikki, Alby Hub on nyt konfiguroitu. Seuraavassa osiossa näytän, miten Alby Hub asennetaan olemassa olevaan solmuun. Jos sinun ei tarvitse, voit siirtyä seuraavaan osioon ja määrittää solmun.
+Ja siinä kaikki, Alby Hub on nyt määritetty. Seuraavassa osiossa näytän, kuinka asennat Alby Hubin olemassa olevaan solmuun. Jos sinulla ei ole vielä Lightning-solmua, voit siirtyä suoraan seuraavaan osioon konfiguroidaksesi Alby Hubin Alby Cloudissa.
+
 
 ![ALBY HUB](assets/fr/13.webp)
 
@@ -128,7 +128,7 @@ Napsauta "*Aloita*"-painiketta.
 
 Alby Hub pyytää sinua valitsemaan salasanan. Tämä salasana on erittäin tärkeä, sillä sitä käytetään lompakkosi salaamiseen. Maksullisessa pilviversiossa avaimesi tallennetaan Alby-palvelimelle, salataan tällä salasanalla, jonka vain sinä tiedät, ja puretaan sitten ja tallennetaan vain RAM-muistiin, jotta transaktiot voidaan tarvittaessa allekirjoittaa.
 
-Siksi on tärkeää valita vahva salasana. Kuka tahansa, jolla on tämä salasana, voi mahdollisesti päästä solmuun. Varmista, että teet myös yhden tai useamman fyysisen varmuuskopion tästä salasanasta paperille tai vielä parempi metallinpalalle lisäturvallisuuden vuoksi. **Jos kadotat tämän salasanan, on mahdotonta saada takaisin pääsyä bitcoineihisi**, koska Albylla ei ole mitään keinoa palauttaa sitä. Tämän salasanan menettäminen tarkoittaa bitcoinien menettämistä.
+On siis olennaista valita vahva salasana. Jokainen, jolla on tämä salasana, voi mahdollisesti saada pääsyn solmuusi. Varmista myös, että teet yhden tai useamman fyysisen varmuuskopion tästä salasanasta paperille tai vielä parempi, metallilevyyn lisäturvallisuuden takaamiseksi.
 
 Kun olet valinnut ja tallentanut salasanasi huolellisesti, klikkaa "*Luo salasana*".
 
@@ -138,7 +138,7 @@ Sinulla on nyt pääsy Lightning-solmuun.
 
 ![ALBY HUB](assets/fr/20.webp)
 
-Ensimmäiseksi sinun on tallennettava palautuslauseke, josta avaimesi on johdettu. Tämän lausekkeen avulla voit palauttaa pääsyn ketjussa olevaan lompakkoosi ja kanaviesi viimeisimmän tilan ansiosta myös Lightningin satsisi. Voit tehdä tämän napsauttamalla "*Asetukset*".
+Ensimmäinen toimenpide on tallentaa palautuslauseesi, josta avaimesi johdetaan. Voit tehdä tämän napsauttamalla "Asetukset". Tämä lause mahdollistaa lompakon palauttamisen, jos olet ottanut käyttöön automaattiset varmuuskopiot.
 
 ![ALBY HUB](assets/fr/21.webp)
 
@@ -156,22 +156,19 @@ Kun olet tallentanut lauseen, vahvista tallennus ruudulla ja napsauta "*Jatka*".
 
 ## Miten voin palauttaa pääsyn bitcoineihini?
 
-Ennen kuin lähetät varoja solmupisteeseesi, on tärkeää ymmärtää, miten ne voidaan palauttaa ongelman sattuessa ja mitä tietoja palautukseen tarvitaan. Prosessi vaihtelee palautettavien varojen luonteen ja solmun isännöintitilan mukaan.
+Ennen kuin lähetät varoja Alby Hubiisi, on tärkeää ymmärtää, kuinka ne voidaan palauttaa ongelmatilanteessa, sekä mitä tietoja tätä palautusta varten tarvitaan. Prosessi vaihtelee palautettavien varojen luonteen ja solmun isännöintitavan mukaan.
 
-Maksullisille pilvipalvelun käyttäjille bitcoinien täydellinen palauttaminen edellyttää kolmea olennaista osatekijää:
+Maksullisten pilvipalvelun käyttäjille täydellinen bitcoinien palautus vaatii kolme olennaista elementtiä:
 
+- Palautuslauseesi;
+- Pääsy Alby-tilillesi automatisoitujen varmuuskopioiden noutamiseksi.
 
-- Toipumislauseesi;
-- Salasanasi (solmun salasana) ;
-- Pääsy Alby-tilillesi, josta voit hakea Lightning-kanavien viimeisimmän tilan.
+Jos jompikumpi näistä kahdesta tiedosta puuttuu, bitcoiniesi täydellinen palautus on mahdotonta.
 
-Jos mitään näistä kolmesta tiedosta ei ole saatavilla, on mahdotonta saada bitcoinejasi takaisin kokonaisuudessaan.
+Niille, jotka käyttävät Alby Hubia omalla laitteellaan, palautusprosessi on dokumentoitu [täällä](https://guides.getalby.com/user-guide/alby-account-and-browser-extension/alby-hub/backups-and-recover#alby-hub-self-hosted-with-an-alby-account).
 
-Omia solmujaan ylläpitäville käyttäjille palautusprosessi on samanlainen kuin minkä tahansa Lightning-solmun palautusprosessi. Tarvitset :
+Jos olet asentanut Alby Hubin olemassa olevaan solmuun, sinun tulee noudattaa kyseisen solmun käyttöjärjestelmän palautusprosessia. Esimerkiksi: Umbrel tarjoaa [vaihtoehdon](https://github.com/getumbrel/umbrel/blob/2b266036f62a1594aa60a8a3be30cfb8656e755f/scripts/backup/README.md) salata Lightning-kanaviesi viimeisimmän tilan ja tallentaa sen dynaamisesti ja anonyymisti Torin kautta. Huomaa, että vain Alby:n automaattiset varmuuskopiot mahdollistavat Hubisi täydellisen palauttamisen ilman, että kanavia tarvitsee sulkea.
 
-
-- Toipumislauseesi;
-- Lightning-kanavien viimeisin tila. Näiden tietojen suojaamiseksi Umbrel tarjoaa [vaihtoehdon](https://github.com/getumbrel/umbrel/blob/2b266036f62a1594aa60a8a3be30cfb8656e755f/scripts/backup/README.md) niiden salaamiseen ja tallentamiseen dynaamisesti ja anonyymisti Torin kautta.
 
 ## Osta ensimmäinen Lightning-kanava
 
@@ -255,6 +252,13 @@ Uusi kanavasi näkyy nyt "*Solmu*"-välilehdellä.
 
 ![ALBY HUB](assets/fr/42.webp)
 
+## Solmun hallinta
+
+Lightning-kanavien hallinta on helpompaa kuin luulet. Alby Hubin avulla voit siirtää satseja kulutussaldosi ja on-chain saldosi välillä. Näin voit lisätä käyttö- tai vastaanottokapasiteettia.
+
+![ALBY HUB](assets/fr/66.webp)
+
+
 ## Yhdistä kulusovellus
 
 Nyt kun sinulla on toimiva Lightning-solmu, voit käyttää sitä vastaanottamaan ja käyttämään satelliitteja päivittäin. Vaikka Alby Hubin verkkokäyttöliittymä on kätevä solmun hallinnointiin, se ei ole ihanteellinen nopeiden transaktioiden tekemiseen liikkeellä ollessa. Tätä varten käytämme älypuhelimeemme asennettua Lightning-lompakkosovellusta.
@@ -279,15 +283,14 @@ Kun sovellus on käynnistetty, napsauta "*Connect Wallet*".
 
 ![ALBY HUB](assets/fr/46.webp)
 
-Napsauta Alby Hubin "*Yhteydet*"-välilehdellä "*Lisää yhteys*".
+Alby Hubissasi, App Store -osiossa, löydä “Alby Go” ja klikkaa “Connect”  
+![ALBY HUB](assets/fr/47.webp)  
+Klikkaa “Connect with One-Tab Connections”. Tämä mahdollistaa Alby Hubin yhdistämisen muihin sovelluksiin yhdellä napsautuksella Alby Go:n avulla.  
 
-![ALBY HUB](assets/fr/47.webp)
+![ALBY HUB](assets/fr/48.webp)  
 
-Anna tälle yhteydelle nimi, jotta se on helppo tunnistaa keskittimessäsi, ja valitse sovellukselle myönnettävät käyttöoikeudet. Omassa tapauksessani valitsin "*Full Access*", jotta minulla on täysi pääsy Lightning-solmuni varoihin älypuhelimestani, mutta voit myös rajoittaa pääsyä maksimibudjetilla, valita sallitut ominaisuudet tai asettaa näille oikeuksille voimassaolon päättymispäivän. Kun olet määrittänyt oikeudet, napsauta "*Next*".
+Alby Hub luo sitten salaisen avaimen yhteyden muodostamiseksi Alby Go hon.
 
-![ALBY HUB](assets/fr/48.webp)
-
-Alby Hub luo sitten salaisuuden yhteyden muodostamiseksi.
 
 ![ALBY HUB](assets/fr/49.webp)
 
@@ -299,7 +302,8 @@ Napsauta "Valmis*".
 
 ![ALBY HUB](assets/fr/51.webp)
 
-Nyt sinulla on etäkäyttöoikeus Lightning-solmuun älypuhelimellasi, joten voit helposti käyttää ja vastaanottaa satelliitteja liikkeellä joka päivä.
+Sinulla on nyt etäyhteys Alby Hubin ylläpitämään Lightning-solmuusi älypuhelimestasi, mikä tekee satoshien lähettämisestä ja vastaanottamisesta liikkeellä ollessa helppoa joka päivä.
+
 
 ![ALBY HUB](assets/fr/52.webp)
 

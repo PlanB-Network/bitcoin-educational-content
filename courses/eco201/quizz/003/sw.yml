@@ -1,0 +1,11 @@
+question: Ni nini husababisha migogoro ya kiuchumi kulingana na kozi?
+answer: Migogoro ya kiuchumi inaweza kuwa kutokana na uzembe wa binadamu, ghiliba ya soko, au furaha ya pamoja ya watu.
+wrong_answers:
+  - Migogoro ya kiuchumi inatokana tu na udanganyifu wa soko.
+  - Migogoro ya kiuchumi ni kwa sababu tu ya kutokuwa na uwezo wa mwanadamu.
+  - Migogoro ya kiuchumi inatokana tu na furaha ya pamoja ya watu.
+explanation: |
+  Sura inataja kwamba kozi itachunguza jinsi gani
+  migogoro ya kiuchumi inaweza kuwa kutokana na uzembe wa binadamu, soko
+  udanganyifu, au furaha ya pamoja ya watu.
+reviewed: true

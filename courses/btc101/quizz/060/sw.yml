@@ -1,0 +1,11 @@
+question: Je, mchakato wa kuthibitisha miamala kwenye mtandao wa Bitcoin unaitwaje?
+answer: Mining
+wrong_answers:
+  - Kuchimba
+  - Kuvuna
+  - Kilimo
+explanation: |
+  Mchakato unaothibitisha miamala kwenye Bitcoin
+  mtandao unaitwa Mining. Wachimbaji madini hufanya maandishi ya siri
+  kazi na wanalipwa kwa utoaji wa bitcoins mpya.
+reviewed: true

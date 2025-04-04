@@ -4,7 +4,7 @@ description: Snadné spuštění uzlu - Jak nastavit a používat uzel Nakamochi
 ---
 Provozování vlastního uzlu Bitcoin a Lightning už nemusí být složitý úkol omezený na technické experty. Zřizování a správa uzlů tradičně vyžadovaly hluboké znalosti kryptografie, sítí a vývoje softwaru. Nakamochi to mění tím, že uzly zpřístupňuje všem bez ohledu na technické zázemí.
 
-S Nakamochi si může kdokoli zřídit a provozovat uzel z domova, což mu umožní plné soukromí a finanční nezávislost. Provozování plnohodnotného uzlu nejen zabezpečuje vlastní transakce, ale také přispívá k síle sítě Bitcoin. Decentralizovaná a odolná síť Bitcoin spoléhá na široké rozložení uzlů, které zajišťuje její bezpečnost a nezávislost.
+Díky službě Nakamochi si může každý zřídit a provozovat uzel z domova, což mu umožní plné soukromí a finanční nezávislost. Provozování plnohodnotného uzlu nejen zabezpečuje vlastní transakce, ale také přispívá k síle sítě Bitcoin. Decentralizovaná a odolná síť Bitcoin spoléhá na široké rozložení uzlů, které zajišťuje její bezpečnost a nezávislost.
 
 ### Obsah
 
@@ -30,22 +30,31 @@ Váš uzel Nakamochi je spravován prostřednictvím mobilní aplikace [BitBanan
 
 3. K připojení k zařízení Nakamochi použijte aplikaci pro správu uzlů (Zeus nebo BitBanana):
 
+4. Otevřete aplikaci a naskenujte QR kód zobrazený na zařízení Nakamochi.
 
-   - Otevřete aplikaci a naskenujte QR kód zobrazený na zařízení Nakamochi.
+5. Pro zvýšení bezpečnosti nastavte v zařízení kód PIN.
 
-4. Pro zvýšení bezpečnosti nastavte v zařízení kód PIN.
+![image](assets/en/01.webp)
 
-![Connect to power and write down your 24-word seed phrase](assets/en/01.webp)
+_Connect to power and write down your 24-word seed phrase_ (Připojte se k napájení a zapište si svou 24slovnou frázi)
 
-![Wait until the Blockchain has caught up](assets/en/02.webp)
+![image](assets/en/02.webp)
 
-![Set up new wallet in Lightning Tab](assets/en/03.webp)
+_Počkejte, až Blockchain dožene_
 
-![Scan QR Code with Node Management App](assets/en/04.webp)
+![image](assets/en/03.webp)
 
-![For additional safety set a PIN code](asset/en/05.webp)
+_Nastavení nové peněženky na kartě Lightning_
 
-_Poznámka: Povolte uzlu Nakamochi synchronizaci s blockchainem. Tento proces může trvat nějakou dobu v závislosti na vašem internetovém připojení._
+![image](assets/en/04.webp)
+
+_Skenování QR kódu pomocí aplikace pro správu uzlů_
+
+![image](asset/en/05.webp)
+
+_Pro větší bezpečnost nastavte kód PIN_
+
+**Poznámka:** _Povolte uzlu Nakamochi synchronizaci s blockchainem. Tento proces může trvat nějakou dobu v závislosti na vašem internetovém připojení._
 
 ## O síti Lightning Network
 
@@ -77,9 +86,11 @@ Jakmile je vaše zařízení Nakamochi nastaveno a připojeno k aplikaci pro spr
 
 5. Klikněte na **"Otevřít kanál "**.
 
-![ZEUS Screenshot](asset/en/06.webp)
+![image](asset/en/06.webp)
 
-Další informace: [Kanály | Dokumentace Zeus](https://zeusln.app)
+_ZEUS Screenshot_
+
+Další informace: [Kanály | Dokumentace Zeus](https://docs.zeusln.app/)
 
 ### Otevření kanálů na BitBanana (Android):
 
@@ -93,7 +104,9 @@ Další informace: [Kanály | Dokumentace Zeus](https://zeusln.app)
 
 5. Zadejte uzamčenou částku (vyberte si ji společně s partnerem nebo použijte minimální pevnou částku pro známé uzly).
 
-![Bitbanana Screenshot](asset/en/07.webp)
+![image](asset/en/07.webp)
+
+_Bitbanana Snímek obrazovky_
 
 Další informace: [BitBanana](https://bitbanana.com)
 
@@ -107,4 +120,4 @@ Obecně doporučujeme ponechat kanály otevřené, aby se snížily náklady a z
 
 
 - [O Nakamochi](https://nakamochi.io/)
-- [Přihlásit se k odběru novinek](https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)
+- [Přihlásit se k odběru novinek Nakamochi](https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)

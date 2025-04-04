@@ -1,0 +1,13 @@
+question: Je, ni hasara gani inayoweza kutokea ya sarafu za kidijitali za benki kuu (CBDCs)?
+answer: Wanaweza kuzuia uhuru wa kifedha wa watu binafsi na kuwezesha matumizi mabaya ya kimabavu.
+wrong_answers:
+  - Wanaweza kusababisha kupungua kwa pesa Supply.
+  - Wanaweza kusababisha kupungua kwa thamani ya Bitcoin.
+  - Wanaweza kusababisha kupungua kwa thamani ya dhahabu.
+explanation: |
+  Sarafu za kidijitali za benki kuu (CBDCs) zinaweza uwezekano
+  kuzuia uhuru wa kifedha wa watu binafsi na kuwezesha
+  unyanyasaji wa kimabavu. Hii ni kwa sababu wangetoa a
+  uchumi uliopangwa zaidi na serikali kuu, na benki kuu
+  kuwa na udhibiti zaidi juu ya pesa Supply.
+reviewed: true

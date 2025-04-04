@@ -1,0 +1,9 @@
+question: Bastiat 認為國家應該履行哪些職能？
+answer: 內部安全、外部安全與正義
+wrong_answers:
+  - 監管、再分配與正義
+  - 安全、正義與公平
+  - 教育、健康與正義
+explanation: |
+  Bastiat 主張國家的角色只限於內外安全與正義的功能，以保護個人的自然權利。
+reviewed: false

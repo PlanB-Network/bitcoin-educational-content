@@ -1,0 +1,13 @@
+question: Multisig Wallet ni nini?
+answer: Seti ya pochi inayohitaji saini nyingi ili kufanya muamala.
+wrong_answers:
+  - Wallet inayohitaji saini moja ili kufanya muamala.
+  - Wallet ambayo haihitaji saini ili kufanya muamala.
+  - Wallet ambayo inahitaji saini halisi ili kufanya shughuli.
+explanation: |
+  Multisig Wallet ni aina ya Bitcoin Wallet ambayo inahitaji
+  sahihi nyingi ili kufanya shughuli. Hii inaongeza
+  ziada Layer ya usalama, kama ina maana kwamba mtu mmoja
+  haiwezi kufanya shughuli bila idhini ya
+  wengine.
+reviewed: true

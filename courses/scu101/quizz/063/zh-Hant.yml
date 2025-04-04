@@ -1,0 +1,11 @@
+question: 網路安全中使用的密碼技術有哪些方面？
+answer: SSL/TLS、對稱/非對稱加密
+wrong_answers:
+  - RSA、DSA、ECC
+  - AES、DES、3DES
+  - md5、sha-1、sha-256
+explanation: |
+  本章列出 SSL/TLS 和對稱/非對稱
+  加密是密碼學中使用的一些方面。
+  網路安全。
+reviewed: true

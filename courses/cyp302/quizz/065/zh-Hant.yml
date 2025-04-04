@@ -1,0 +1,8 @@
+question: 對稱加密方案的三個基本組成部分是什麼？
+answer: 金鑰產生演算法、加密演算法及解密演算法
+wrong_answers:
+  - 散列演算法、公開金鑰和驗證演算法
+  - 公用金鑰、私人金鑰和解密演算法
+  - 加密演算法、公開金鑰和私人金鑰
+  A symmetric encryption scheme consists of three elements: a key generation algorithm, an encryption algorithm, and a decryption algorithm. They all use the same key.
+reviewed: false

@@ -7,13 +7,12 @@ links:
   twitter: https://twitter.com/BitcoinQ_A
   website: https://bitcoiner.guide/
 
-tags:
-  - economy
-  - history
-
 affiliations:
-  - Foundation devices
-
+  - 42c3b7db-f6b4-4ad2-a755-e82d6fdc3e6b
 tips:
   lightning_address: qna@tips.bitcoiner.guide
   paynym: +BQA
+tags:
+  - guides
+  - self-sovereignty
+  - user-friendly

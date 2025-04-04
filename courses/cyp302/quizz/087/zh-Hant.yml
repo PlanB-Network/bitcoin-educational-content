@@ -1,0 +1,9 @@
+question: 哪種區塊密碼方法使用初始化向量並建立概率加密？
+answer: CBC (密碼區塊鏈結)
+wrong_answers:
+  - ECB (電子代碼簿)
+  - AES-128
+  - SHA-256
+explanation: |
+  CBC 方法使用初始化向量，並在每個明文區塊和前一個加密區塊之間應用 XOR，使得加密具有概率性，比 ECB 更安全。
+reviewed: false

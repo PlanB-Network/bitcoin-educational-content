@@ -1,0 +1,9 @@
+question: Kwa nini nadharia ya nambari ni muhimu sana katika ufunguo wa ufunguo wa umma?
+answer: Inatoa misingi muhimu ya hisabati kwa shughuli za usimbuaji na usimbuaji.
+wrong_answers:
+  - Inatoa misingi muhimu ya hisabati kwa shughuli za hashing.
+  - Ni muhimu kwa ajili ya kuundwa kwa mitandao ya neural.
+  - Inaruhusu kuhesabu shughuli katika mfumo wa jozi pekee.
+explanation: |
+  Nadharia ya nambari ni muhimu katika usimbaji fiche wa ufunguo wa umma kwa sababu inasaidia muundo wa algoriti kulingana na sifa za nambari kamili, kuwezesha utendakazi wa usimbaji fiche na usimbuaji.
+reviewed: false

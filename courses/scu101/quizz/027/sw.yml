@@ -1,0 +1,12 @@
+question: Ni sababu gani ya msingi ya kutolipa wadukuzi katika kesi ya ransomware au aina nyingine za mashambulizi?
+answer: Kulipa fidia hakuhakikishii urejeshaji wa data yako na kunaweza kuwahimiza wahalifu wa mtandaoni kuendelea na shughuli zao hasidi.
+wrong_answers:
+  - Kulipa fidia ni kinyume cha sheria na kunaweza kuwahimiza wahalifu wa mtandao kuendelea na shughuli zao mbaya.
+  - Kulipa fidia hakuhakikishi urejeshaji wa data yako na kunaweza kuwahimiza wadukuzi kuomba pesa zaidi baada ya malipo ya awali.
+  - Kulipa fidia kunaweza kuwahimiza wahalifu wa mtandao kuendelea na shughuli zao hasidi kwa kuwa njia ya kulipa kwa kawaida haiwezi kutafutwa.
+explanation: |
+  Kulipa fidia hakuhakikishii kwamba utapata yako
+  data nyuma. Aidha, inawahimiza wahalifu wa mtandao
+  kuendelea na shughuli zao ovu kama wao kuona kama a
+  mradi wa faida.
+reviewed: true

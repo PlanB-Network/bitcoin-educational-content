@@ -1,0 +1,9 @@
+question: What advantage does a secure email provider like ProtonMail offer?
+answer: Privacy protection and enhanced security.
+wrong_answers:
+  - Simpler interface for beginners.
+  - Reduction in features to minimize attack surface.
+  - Integration of an algorithm to automatically generate your emails.
+explanation: |
+  ProtonMail stands out for its privacy policy and strengthened security measures.
+reviewed: false

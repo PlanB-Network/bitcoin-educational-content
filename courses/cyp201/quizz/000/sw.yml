@@ -1,0 +1,9 @@
+question: Je, kazi kuu ya kazi ya Hash ni ipi?
+answer: Inabadilisha maelezo ya urefu wa kiholela kuwa alama ya kidole ya saizi isiyobadilika
+wrong_answers:
+  - Husimba ujumbe kwa njia fiche ili kuwafanya kutosomeka
+  - Inatumika tu kuthibitisha uadilifu wa programu ya Bitcoin
+  - Inazalisha funguo za kibinafsi za pochi za Bitcoin
+explanation: |
+  Chaguo za kukokotoa za Hash hubadilisha data ya ukubwa wowote kuwa Hash ya saizi isiyobadilika, muhimu kwa programu nyingi katika Bitcoin.
+reviewed: false

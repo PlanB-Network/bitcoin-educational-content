@@ -1,0 +1,9 @@
+question: 訊息驗證碼 (MAC) 的主要功能是什麼？
+answer: 確保訊息的真實性和完整性
+wrong_answers:
+  - 加密訊息以確保機密性
+  - 防止訊息攔截
+  - 每次通訊的 generate 私密金鑰
+explanation: |
+  MAC 是一種加密方案，可驗證訊息是否真正來自合法的傳送者，且未被竄改，從而確保訊息的真實性和完整性。
+reviewed: false

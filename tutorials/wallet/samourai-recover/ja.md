@@ -146,7 +146,7 @@ Sparrow以外のソフトウェア、例えばElectrumを使用してSamouraiウ
 - Premix：`m/84'/0'/2147483645'`
 - Postmix：`m/84'/0'/2147483646'`
 
-これで、Sparrow上であなたのビットコインにアクセスできるようになりました。Sparrow Walletの使用方法について助けが必要な場合は、[専用のチュートリアル](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607)もチェックしてみてください。
+これで、Sparrow上であなたのビットコインにアクセスできるようになりました。Sparrow Walletの使用方法について助けが必要な場合は、[専用のチュートリアル](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)もチェックしてみてください。
 
 また、SamouraiであなたのUTXOに関連付けられたラベルを手動でインポートすることをお勧めします。これにより、その後のSparrowで効果的なコインコントロールを実行できます。
 
@@ -202,7 +202,7 @@ SamouraiウォレットをElectrumなどの別のソフトウェアで復旧す�
 - Premix: `m/84'/0'/2147483645'`
 - Postmix: `m/84'/0'/2147483646'`
 
-これで、Sparrow上でビットコインにアクセスできるようになりました。Sparrow Walletの使用方法について助けが必要な場合は、[専用のチュートリアル](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607)も参照してください。
+これで、Sparrow上でビットコインにアクセスできるようになりました。Sparrow Walletの使用方法について助けが必要な場合は、[専用のチュートリアル](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)も参照してください。
 
 また、SamouraiでUTXOsに関連付けたラベルを手動でインポートすることをお勧めします。これにより、その後のSparrowで効果的なコインコントロールを実行できます。
 

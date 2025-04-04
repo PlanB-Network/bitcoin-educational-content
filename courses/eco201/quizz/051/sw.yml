@@ -1,0 +1,11 @@
+question: Ni ipi mojawapo ya mihimili ya kimsingi katika uchumi wa Austria?
+answer: Mojawapo ya mihimili ya kimsingi ni mapendeleo chanya ya wakati, ambayo yanatokana na chaguo la mtu binafsi la bidhaa au huduma leo badala ya kesho.
+wrong_answers:
+  - Moja ya mihimili ya kimsingi ni uwekaji holela wa viwango vya riba.
+  - Mojawapo ya mihimili ya kimsingi ni utegemezi wa data ya majaribio.
+  - Moja ya misemo ya msingi ni matumizi ya majaribio ya muda ili kuthibitisha au
+explanation: |
+  Katika uchumi wa Austria, mojawapo ya dhana za msingi ni wakati mzuri
+  mapendeleo, ambayo yanategemea chaguo la mtu binafsi la bidhaa au huduma leo badala yake
+  kuliko kesho, kwa sababu ya kutokuwa na hakika juu ya siku zijazo.
+reviewed: true

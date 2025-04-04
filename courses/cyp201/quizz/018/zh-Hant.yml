@@ -1,0 +1,9 @@
+question: 為什麼 Bitcoin 沒有使用橢圓曲線 secp256r1？
+answer: 有可能避免走後門
+wrong_answers:
+  - 因為速度太慢
+  - 因為它不是標準化的
+  - 因為它需要專門的硬體
+explanation: |
+  Satoshi Nakamoto 很可能偏好 secp256k1 曲線，因為 secp256r1 的參數可能包含隱藏的漏洞。
+reviewed: false

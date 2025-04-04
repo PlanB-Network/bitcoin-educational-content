@@ -1,0 +1,9 @@
+question: Kwa nini inashauriwa kutumia manenosiri yaliyotolewa bila mpangilio?
+answer: Ili kupinga mashambulizi ya nguvu ya kikatili.
+wrong_answers:
+  - Ili kuwafanya kuwa rahisi kukumbuka.
+  - Ili kupunguza utata wao.
+  - Ili kupinga mashambulizi ya Sybil.
+explanation: |
+  Kufanya bila mpangilio hufanya manenosiri kuwa magumu kukisia kupitia jaribio na hitilafu, na hivyo kuimarisha usalama wao dhidi ya mashambulizi ya kikatili.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni sifa gani hufafanua nenosiri nzuri?
+answer: Muda mrefu, ngumu, na wa kipekee.
+wrong_answers:
+  - Mfupi, rahisi na rahisi kukumbuka.
+  - Kulingana na maelezo ya kibinafsi.
+  - Sawa kwa akaunti zote.
+explanation: |
+  Nenosiri zuri linapaswa kuwa refu vya kutosha, changamano, na lisitumike tena.
+reviewed: false

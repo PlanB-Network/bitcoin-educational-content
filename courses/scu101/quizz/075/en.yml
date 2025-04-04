@@ -1,0 +1,9 @@
+question: What characteristics define a good password?
+answer: Long, complex, and unique.
+wrong_answers:
+  - Short, simple, and easy to remember.
+  - Based on personal information.
+  - Identical for all accounts.
+explanation: |
+  A good password should be sufficiently long, complex, and should not be reused.
+reviewed: false

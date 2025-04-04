@@ -1,0 +1,9 @@
+question: 在生成 SegWit v0 Address 的過程中，應用 HASH160 之前的步驟是什麼？
+answer: 公開金鑰的壓縮
+wrong_answers:
+  - 加入校驗和
+  - 轉換為 bech32 格式
+  - base58check 中的編碼
+explanation: |
+  公開金鑰在通過 HASH160 Hash 功能之前，必須先經過壓縮以縮小其大小。
+reviewed: false

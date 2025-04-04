@@ -1,0 +1,13 @@
+question: Je, kuna uwezekano gani wa upande wa chini wa Mining kwa faida?
+answer: Inaweza kusababisha kuunganishwa kwa nguvu ya hashing na inaweza pia kuwa na athari kubwa ya mazingira
+wrong_answers:
+  - Inaweza kusababisha kupungua kwa bei ya Bitcoin
+  - Inaweza kusababisha kupungua kwa Hashrate ya mtandao
+  - Inaweza kusababisha kupungua kwa idadi ya nodes zinazofanya kazi kwenye mtandao
+explanation: |
+  Mining kwa faida inaweza kusababisha centralization ya hashing
+  nguvu ikiwa ni makampuni machache tu makubwa yanayoweza kumudu kuwekeza
+  vifaa vya juu vya Mining. Kwa kuongeza, nishati
+  matumizi ya Mining kwa faida inaweza kuwa muhimu
+  athari za mazingira kulingana na chanzo cha nishati.
+reviewed: true

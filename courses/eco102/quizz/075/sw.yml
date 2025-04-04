@@ -1,0 +1,9 @@
+question: Je, kutowajibika kwa benki kuliruhusiwa vipi?
+answer: Kwa dhamana ya kwamba hasara itaunganishwa katika kesi ya kufilisika kwa sababu ya kuchukua hatari bila kujali
+wrong_answers:
+  - Kwa ukosefu wa kanuni dhidi ya kuchukua hatari bila kujali
+  - Kwa kupunguzwa kwa udhibiti wa miaka ya 90
+  - Kwa mfumo wa kibepari
+explanation: |
+  Bastiat anaelezea kuwa ahadi ya kuunganishwa kwa hasara inahimiza benki kuchukua hatari nyingi, kwani zinahakikishiwa kuokolewa ikiwa itashindwa, ambayo inakuza kutowajibika.
+reviewed: false

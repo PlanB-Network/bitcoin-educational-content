@@ -1,0 +1,9 @@
+question: Kwa nini UTXO mara nyingi hulinganishwa na noti?
+answer: Lazima zitumike kwa ukamilifu
+wrong_answers:
+  - Wanaweza kutumika mara kadhaa hadi kumalizika
+  - Zinatumika tu katika shughuli fulani mahususi
+  - Wanawakilisha kiasi kidogo cha fasta cha bitcoins
+explanation: |
+  Kama noti, UTXO lazima itumike kabisa katika muamala, na ziada yoyote inarudishwa kwa mtumaji kama mabadiliko.
+reviewed: false

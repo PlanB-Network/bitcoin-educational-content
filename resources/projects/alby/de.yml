@@ -1,7 +1,2 @@
 description: |
-  Alby ist eine vielseitige Browser-Erweiterung, die entworfen wurde, um Bitcoin-Transaktionen und Interaktionen im Lightning-Netzwerk zu optimieren. Mit einer benutzerfreundlichen Oberfläche bietet es eine sichere Plattform für das Verwalten von Wallets, das Aktivieren von Transaktionen und das Erkunden aufkommender Technologien wie Nostr.
-
-  Alby vereinfacht die Monetarisierung von Inhalten und bietet Entwicklern eine nahtlose Erfahrung, was es zu einer allumfassenden Lösung für verschiedene Bitcoin-Bedürfnisse macht.
-contributors:
-  - rabbit-hole
-  - another-satoshi
+  Alby bietet Verbrauchern und Entwicklern benutzerfreundliche Bitcoin-Zahlungstools unter Verwendung des Lightning-Netzwerks überall: im Web, in mobilen Apps und in der realen Welt. Mit Alby Hub erhalten Nutzer eine leistungsstarke, selbstverwaltete Lightning-Wallet, die sich mühelos mit verschiedenen Apps verbindet. Die Alby Browser-Erweiterung ermöglicht eine nahtlose Interaktion mit Webseiten, erleichtert Zahlungen und Identitätsverifizierung direkt im Browser. Für mobile Nutzer bietet Alby Go eine benutzerfreundliche Wallet zur Verwaltung von Transaktionen unterwegs. Darüber hinaus stellt Alby APIs bereit, um Bitcoin-Zahlungen in jede App zu integrieren und programmatisch mit Bitcoin Lightning-Wallets zu interagieren.

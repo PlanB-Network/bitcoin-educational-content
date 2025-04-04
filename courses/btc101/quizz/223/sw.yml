@@ -1,0 +1,11 @@
+question: Blockchain trilemma ni nini?
+answer: Itifaki kulingana na Blockchain inaweza kukidhi vigezo viwili pekee kati ya ugatuaji, usalama na upanuzi.
+wrong_answers:
+  - Itifaki kulingana na Blockchain inaweza kukidhi moja tu kati ya vigezo vya ugatuaji, usalama na upanuzi.
+  - Itifaki kulingana na Blockchain inaweza kukidhi vigezo vyote vya ugatuaji, usalama na upanuzi.
+  - Itifaki kulingana na Blockchain haiwezi kukidhi vigezo vyovyote vya ugatuaji, usalama na upanuzi.
+explanation: |
+  Trilemma ya Blockchain inarejelea changamoto ambayo a
+  itifaki kulingana na Blockchain inaweza kukidhi vigezo viwili tu kati ya
+  ugatuaji, usalama na upanuzi.
+reviewed: true

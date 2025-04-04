@@ -1,0 +1,9 @@
+question: 在 Slashdot 上介紹 Bitcoin 之後的一週，Bitcoin 的價格有什麼變化？
+answer: 從 $0.008 到 $0.08
+wrong_answers:
+  - 從 $0.001 到 $0.008
+  - 從 $0.08 到 $0.50
+  - 從 0.5 美元到 1 美元
+explanation: |
+  這種變化相當於十倍的增長！Hash 比率也經歷了類似的激增。
+reviewed: false

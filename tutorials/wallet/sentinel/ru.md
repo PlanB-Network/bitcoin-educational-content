@@ -48,7 +48,7 @@ _Этот учебник предоставляется только для об
 
 Dojo, разработанный командой Samourai, это полноценная версия узла Bitcoin, которую можно установить отдельно или добавить одним кликом к решениям типа node-in-box, таким как [Umbrel](https://umbrel.com/) и [RoninDojo](https://ronindojo.io/).
 
-[**-> Узнайте, как установить RoninDojo v2 на Raspberry Pi.**](https://planb.network/fr/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8)
+[**-> Узнайте, как установить RoninDojo v2 на Raspberry Pi.**](https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8)
 
 Если у вас есть свой Dojo, вы можете подключить его на этом этапе. Таким образом, вы получите максимальный уровень конфиденциальности при проверке информации о транзакциях в сети Bitcoin.
 

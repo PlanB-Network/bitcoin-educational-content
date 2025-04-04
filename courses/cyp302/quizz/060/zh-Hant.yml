@@ -1,0 +1,9 @@
+question: 哪個答案代表密碼學的兩個主要分支之一？
+answer: 對稱密碼學
+wrong_answers:
+  - 密碼學
+  - 同態加密
+  - 密碼分析
+explanation: |
+  對稱密碼學是密碼學的一個主要分支，涉及使用單一金鑰加密和解密訊息的加密方案。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Sifa ya mkondo katika kriptografia ni nini?
+answer: Usimbaji fiche linganifu unaozalisha mtiririko wa funguo zenye urefu sawa na ujumbe
+wrong_answers:
+  - Usimbaji fiche usiolinganishwa kulingana na nambari kuu
+  - Usimbaji fiche unaotumia vitufe vingi tofauti vya kusimbua
+  - Usimbaji fiche unaogawanya ujumbe katika vizuizi vya data
+explanation: |
+  Cipher ya mtiririko ni usimbaji fiche linganifu ambapo mtiririko wa funguo zenye urefu sawa na ujumbe huunganishwa na mwisho ili kutoa maandishi yaliyosimbwa.
+reviewed: false

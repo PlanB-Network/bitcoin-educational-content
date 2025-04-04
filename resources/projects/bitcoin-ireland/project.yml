@@ -1,0 +1,22 @@
+id: 6bf543a6-638f-4467-839e-78b596a77381
+name: Bitcoin Ireland
+category: conference
+
+links:
+  website: https://www.bitcoinireland.eu/home
+  twitter: https://x.com/BitcoinconfIRL
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-02-26
+    urgency: 1
+    contributor_names:
+      - jramos0
+    reward: 0
+tags:
+  - use-case
+  - adoption
+  - business
+contributor_names:
+  - Asi0Flammeus

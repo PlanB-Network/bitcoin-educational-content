@@ -1,0 +1,9 @@
+question: 128 位元的熵的校驗和是多少位元？
+answer: 4 位元
+wrong_answers:
+  - 8 位元
+  - 16 位元
+  - 6 位元
+explanation: |
+  校驗和的長度使用公式 CS = ENT / 32 計算，對於 128 位元的熵，等於 4 位元。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Was ist ein Passwort-Manager?
+answer: Ein Tool, das Passwörter speichert, generiert und verwaltet.
+wrong_answers:
+  - Eine Antivirensoftware gegen Hackerangriffe.
+  - Ein sicherer E-Mail-Dienst.
+  - Ein Tool zur Sicherung persönlicher Identitätsdaten.
+explanation: |
+  Der Passwort-Manager zentralisiert die Speicherung und Erstellung von Passwörtern.
+reviewed: false

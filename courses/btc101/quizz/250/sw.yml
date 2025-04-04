@@ -1,0 +1,8 @@
+question: Ni nini kinachoweza kuwa wasiwasi kuu kuhusu mfumo wa benki?
+answer: Sheria za mchezo wa benki sio wazi na zinaeleweka kwa wote.
+wrong_answers:
+  - Mfumo wa benki ni rahisi sana kuelewa.
+  - Mfumo wa benki ni wazi sana.
+  - Mfumo wa benki umegawanywa sana.
+explanation: >-
+reviewed: true

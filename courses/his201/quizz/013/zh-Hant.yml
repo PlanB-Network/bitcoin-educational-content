@@ -1,0 +1,8 @@
+question: Satoshi Nakamoto 在 Bitcoin 白皮書中引用了哪些研究人員在認證時間戳記方面的工作？
+answer: Stuart Haber 和 Scott Stornetta
+wrong_answers:
+  - Leslie Lamport、Robert Shostak 和 Marshall Pease
+  - Cynthia Dwork 和 Moni Naor
+  - Ronald Rivest 和 Adi Shamir
+  Three papers by Haber and Stornetta from the 90s were cited in the white paper. They are known for creating [the first timestamped blockchain](https: //www.vice.com/en/article/j5nzx4/what-was-the-first-blockchain), published in the New York Times starting in 1992.
+reviewed: false

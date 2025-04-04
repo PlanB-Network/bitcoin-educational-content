@@ -1,0 +1,9 @@
+question: Ni hatua gani inayotangulia utumiaji wa HASH160 katika utengenezaji wa SegWit v0 Address?
+answer: Ukandamizaji wa ufunguo wa umma
+wrong_answers:
+  - Kuongeza checksum
+  - Ubadilishaji hadi umbizo la bech32
+  - Usimbaji katika base58check
+explanation: |
+  Ufunguo wa umma lazima ubandikwe ili kupunguza ukubwa wake kabla ya kupitia kitendakazi cha HASH160 Hash.
+reviewed: false

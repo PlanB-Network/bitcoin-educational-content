@@ -1,0 +1,9 @@
+question: Kuna tofauti gani kati ya kutumia algorithm ya Salsa20 na ufunguo wa 128-bit na ufunguo wa 256-bit?
+answer: Urefu wa ufunguo huathiri idadi ya miduara katika algorithm.
+wrong_answers:
+  - Urefu wa ufunguo hubadilisha aina ya usimbaji fiche.
+  - Ufunguo wa biti 128 hutumiwa kwa usimbaji fiche wa mtiririko na ufunguo wa biti 256 kwa usimbaji fiche wa kuzuia.
+  - Urefu wa ufunguo hauna athari katika Salsa20.
+explanation: |
+  Katika mpango wa usimbuaji wa ulinganifu wa Salsa20, urefu wa ufunguo (bits 128 au 256) huathiri idadi ya duru katika algorithm, bila kubadilisha msingi wa algorithm yenyewe.
+reviewed: false

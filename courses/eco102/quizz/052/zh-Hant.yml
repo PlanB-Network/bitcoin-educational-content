@@ -1,0 +1,9 @@
+question: 巴斯蒂亞從破壞對經濟的影響得出什麼結論？
+answer: 對經濟有害
+wrong_answers:
+  - 對經濟有利
+  - 對經濟無影響
+  - 這取決於經濟狀況
+explanation: |
+  Bastiat 證明，破壞是一種經濟負擔，因為它轉移了珍貴的資源，卻沒有創造任何附加價值。
+reviewed: false

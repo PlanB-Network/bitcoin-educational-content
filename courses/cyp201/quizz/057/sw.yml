@@ -1,0 +1,9 @@
+question: Je, ni ukubwa gani wa seed unaozalishwa na PBKDF2?
+answer: Biti 512
+wrong_answers:
+  - 128 bits
+  - 256 bits
+  - Inabadilika kulingana na urefu wa maneno ya Mnemonic
+explanation: |
+  Bila kujali urefu wa maneno ya Mnemonic, PBKDF2 daima huzalisha seed ya 512-bit.
+reviewed: false

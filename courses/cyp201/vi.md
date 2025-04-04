@@ -87,7 +87,7 @@ Những hàm băm mật mã này có một số đặc điểm thiết yếu là
 
 #### 1. Khả năng không thể đảo ngược (kháng ảnh trước):
 
-Khả năng không thể đảo ngược có nghĩa là việc tính toán băm từ thông tin đầu vào là dễ dàng, nhưng phép tính ngược lại, tức là tìm thông tin đầu vào từ băm, là gần như không thể. Tính chất này làm cho hàm băm hoàn hảo cho việc tạo ra các dấu vân tay số duy nhất mà không làm lộ thông tin gốc. Đặc điểm này thường được gọi là một hàm một chiều hoặc "_hàm cửa bẫy_".
+Tính không thể đảo ngược có nghĩa là rất dễ tính toán hàm băm từ thông tin đầu vào, nhưng phép tính ngược lại, tức là tìm đầu vào từ hàm băm, là hầu như không thể. Tính chất này khiến các hàm băm trở nên hoàn hảo để tạo dấu vân tay kỹ thuật số độc nhất mà không làm lộ thông tin gốc.
 
 Trong ví dụ đã cho, việc thu được băm `24f1b9…` bằng cách biết đầu vào "_PlanB_" là đơn giản và nhanh chóng. Tuy nhiên, việc tìm ra thông điệp "_PlanB_" chỉ bằng cách biết `24f1b9…` là không thể.
 
@@ -1275,6 +1275,7 @@ Một cụm từ gồm 12 từ, cũng cung cấp 128 bit bảo mật, vì vậy 
 Để tìm hiểu thêm và biết cách tạo một cụm từ ghi nhớ thử nghiệm một cách thủ công, tôi khuyên bạn nên khám phá hướng dẫn này:
 
 https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
+
 Trước khi tiếp tục với việc phát sinh ví từ cụm từ ghi nhớ này, tôi sẽ giới thiệu cho bạn, trong chương tiếp theo, về cụm từ BIP39, vì nó đóng vai trò trong quá trình phát sinh, và nó ở cùng một cấp độ với cụm từ ghi nhớ.
 ## Cụm từ bí mật
 <chapterId>6a51b397-f3b5-5084-b151-cef94bc9b93f</chapterId>

@@ -1,0 +1,13 @@
+question: Ni nini kinachozuia kila mtu kutumia Bitcoin Wallet sawa?
+answer: Watu tofauti wanahitaji kesi tofauti za matumizi.
+wrong_answers:
+  - Ni ghali kutumia Bitcoin Wallet.
+  - Ni kinyume cha sheria kutumia Bitcoin Wallet.
+  - Watu hawatakubali kamwe juu ya jina la Wallet kama hilo.
+explanation: |
+  Ingawa mtu mmoja anaweza kutanguliza usalama, mwingine anaweza
+  thamini urafiki wa mtumiaji au vipengele maalum. Kwa hivyo, a
+  Bitcoin Wallet moja inaweza isitoshe ya kila mtu
+  mahitaji, na kuifanya kuwa muhimu kwa Wallet nyingi
+  chaguzi kuwepo.
+reviewed: true

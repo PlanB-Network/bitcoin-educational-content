@@ -6,7 +6,7 @@ description: Passin määrittäminen ja käyttö Envoy-sovelluksen kanssa
 
 Envoy on Foundationin kehittämä Bitcoin-lompakon hallintasovellus. Se on erityisesti suunniteltu käytettäväksi Passport-laitelompakon kanssa.
 
-Passport "*Batch 2*", jonka esittelemme tässä oppaassa Envoy-sovelluksen kanssa, on "*Founder's Edition*" -version seuraaja. Siinä on ensiluokkainen muotoilu, teräväpiirtovärinäyttö ja ergonominen fyysinen näppäimistö. Se toimii "*Air-Gap*"-tilassa, joka varmistaa, että lompakkosi yksityiset avaimet pysyvät täysin eristettyinä, ja vaihdot ovat mahdollisia MicroSD-kortin tai QR-koodien kautta. Laitteessa on irrotettava 1200 mAh:n akku.
+Passport "*Batch 2*", jota esittelemme tässä oppaassa yhdessä Envoy-sovelluksen kanssa, on "*Founder's Edition*"-version seuraaja. Se erottuu premium-muotoilullaan, korkearesoluutioisella värinäytöllään ja ergonomisella fyysisellä näppäimistöllään. Se toimii "*Air-Gap*"-tilassa, mikä varmistaa, että lompakkosi yksityiset avaimet pysyvät täysin eristettyinä, ja tiedonsiirto tapahtuu MicroSD-kortin tai QR-koodien kautta. Laitteessa on irrotettava ja ladattava Nokia BL-5C akku, jonka kapasiteetti on 1200 mAh. Tämä vakiomalliakku on helposti vaihdettavissa, koska BL-5C-mallia on laajalti saatavilla kaupoista.
 
 Liitettävyyden osalta Passportissa on MicroSD-portti, USB-C-portti latausta varten ja takakamera QR-koodien skannausta varten.
 
@@ -23,6 +23,7 @@ Tässä aloittelijoille ja keskitason käyttäjille suunnatussa oppaassa opimme,
 Jos olet edistynyt käyttäjä ja haluat tutustua monimutkaisempiin ominaisuuksiin, suosittelen tutustumaan tähän toiseen opetusohjelmaan, jossa konfiguroimme Passportin ja Sparrow Walletin :
 
 https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+
 ## Passin avaaminen
 
 Kun saat passisi, varmista, että laatikko ja pahvipakkauksen sinetti ovat ehjät, jotta voit varmistaa, ettei pakettia ole avattu. Laitteen aitouden ja koskemattomuuden ohjelmistovarmennus suoritetaan myös laitteen käyttöönoton yhteydessä.
@@ -169,7 +170,8 @@ Käytä tähän Passport-pakkauksen mukana toimitettua MicroSD-korttia (tai tois
 
 Ennen kuin asennat sen laitteeseesi, suosittelemme, että tarkistat ladatun laiteohjelmiston aitouden ja eheyden. Jos tarvitset apua tässä, katso tätä ohjetta :
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 ### Envoy-sovelluksen avulla
 
 Toinen, yksinkertaisempi vaihtoehto on käyttää suoraan Envoy-sovellusta. Napsauta "*Download Firmware*".
@@ -253,6 +255,7 @@ Napsauta vahvistuspainiketta nähdäksesi muistisääntösi.
 Jos haluat lisätietoa siitä, miten muistisääntöjä tallennetaan ja hallitaan oikein, suosittelen seuraamaan tätä toista opetusohjelmaa, varsinkin jos olet aloittelija:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 näitä sanoja ei tietenkään saa koskaan jakaa internetissä, kuten minä teen tässä ohjeessa. Tätä esimerkkisalkkua käytetään vain Testnetissä, ja se poistetaan opetusohjelman päätyttyä.**_
 
 Tee fyysinen varmuuskopio tästä lauseesta.

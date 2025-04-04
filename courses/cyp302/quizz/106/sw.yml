@@ -1,0 +1,9 @@
+question: Ni utaratibu gani unazuia mashambulizi ya kutafakari katika mawasiliano salama?
+answer: Kuongeza kitambulisho cha kipekee kwa kila mshiriki
+wrong_answers:
+  - Kuongeza urefu wa ufunguo
+  - Kutumia vitufe vingi kwa kila ujumbe
+  - Kuongeza ufunguo wa ziada katika kila ujumbe
+explanation: |
+  Kuongeza kitambulisho cha kipekee kwa kila mshiriki katika ujumbe uliosimbwa kwa njia fiche huzuia mashambulizi ya kiakisi, kwani huruhusu kutofautisha asili ya ujumbe.
+reviewed: false

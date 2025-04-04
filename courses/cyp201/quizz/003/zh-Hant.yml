@@ -1,0 +1,9 @@
+question: SHA256 和 RIPEMD160 的主要差異是什麼？
+answer: RIPEMD160 產生的切細值比 SHA256 更短
+wrong_answers:
+  - SHA256 已經過時，不像 RIPEMD160
+  - RIPEMD160 僅在 Proof-of-Work 機制中使用
+  - SHA256 從不與其他散列函數結合
+explanation: |
+  RIPEMD160 產生 160 位元切細值，而 SHA256 則產生 256 位元切細值。
+reviewed: false

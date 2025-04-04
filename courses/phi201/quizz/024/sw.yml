@@ -1,0 +1,9 @@
+question: Je, maono ya Rothbard kuhusu jamii huru ni yapi?
+answer: Jamii ambayo hakuna uwezekano wa uchokozi wa kulazimisha dhidi ya mtu au mali ya mtu binafsi.
+wrong_answers:
+  - Jamii ambayo serikali inadhibiti vipengele vichache tu vya maisha ya kiuchumi na kijamii.
+  - Jamii ambayo watu binafsi wako huru kufanya chochote wanachotaka bila vikwazo vyovyote.
+  - Jamii ambayo nguvu inasambazwa sawasawa kati ya tabaka zote za kijamii.
+explanation: |
+  Rothbard anafafanua jamii huru kama mahali ambapo hakuna uchokozi wa kulazimishwa unaruhusiwa dhidi ya mtu au mali, hivyo basi kutetea uhuru mkali ambao unakataa uingiliaji kati wa serikali katika maisha ya mtu binafsi.
+reviewed: false

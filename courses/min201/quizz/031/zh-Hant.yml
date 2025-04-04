@@ -1,0 +1,13 @@
+question: Bitcoin 的基本使命是什麼？
+answer: 成為抗檢查價值的 Exchange 網路。
+wrong_answers:
+  - 取代傳統貨幣。
+  - 使交易匿名。
+  - 創造新的投資形式。
+explanation: |
+  Bitcoin 的基本使命是成為一個
+  抗檢查值 Exchange 網路。Bitcoin
+  社區不斷努力強化
+  分銷、抵制審查和反脆弱
+  的網路。
+reviewed: true

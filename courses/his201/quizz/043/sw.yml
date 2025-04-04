@@ -1,0 +1,9 @@
+question: Bitcoin Faucet iliyoundwa mnamo Juni 2010 na Gavin Andresen ilitoa nini?
+answer: Bitcoins
+wrong_answers:
+  - Vocha za ununuzi
+  - Mapunguzo ya ada kwa Soko la Bitcoin
+  - Nafasi ya kuchimba block
+explanation: |
+  Huduma hii hapo awali ilisambaza bitcoins 5 kwa kila ombi, ili kuruhusu watu kujaribu mfumo. Kiasi hiki kilipunguzwa kwa muda, na Faucet ilifungwa mnamo 2012.
+reviewed: false

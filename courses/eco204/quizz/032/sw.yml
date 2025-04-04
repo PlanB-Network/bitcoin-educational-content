@@ -1,0 +1,11 @@
+question: Ni nini madhumuni ya Notgeld wakati wa mzozo wa kiuchumi nchini Ujerumani?
+answer: Iliundwa kwa Address uhaba wa sarafu ya kawaida.
+wrong_answers:
+  - Ilitumika kulipa fidia za vita.
+  - Ilikuwa ni aina ya maandamano dhidi ya serikali.
+  - Ilikuwa ni njia ya kuchochea uchumi.
+explanation: |
+  Ikikabiliana na mzozo wa kifedha na kiuchumi, Ujerumani ilikimbilia Notgeld
+  (pesa za dharura). Vidokezo hivi, vilivyochapishwa na miji au makampuni fulani, viliundwa
+  kwa Address uhaba wa sarafu ya kawaida.
+reviewed: false

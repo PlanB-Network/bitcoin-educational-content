@@ -2,11 +2,10 @@ id: 897a2040-2cf1-4a40-add6-056356731a7a
 start_date: 2024-12-09 06:00:00
 end_date: 2024-12-10 14:00:00
 timezone: Asia/Dubai
-address_line_1: Abu Dhabi, United Arab Emirates
+address_city_country: Abu Dhabi, United Arab Emirates
 address_line_2:
 address_line_3:
 name: Bitcoin Mena 2024
-builder: The Bitcoin Conference
 type: conference
 book_online: false
 book_in_person: false
@@ -18,7 +17,8 @@ links:
   website: https://b.tc/conference/mena
   replay_url:
   live_url:
-tags:
-  - bitcoiner
-  - General
 project_id: 77d117fc-a2b1-4e2c-8442-ea00ff8cf70a
+tags:
+  - adoption
+  - business
+  - future-outlook

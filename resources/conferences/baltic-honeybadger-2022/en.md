@@ -1,9 +1,31 @@
 ---
-name: Honey Badger 2022
+name: Baltic Honeybadger 2022
 description: The most OG Bitcoin conference in the world
 ---
 
-# Main Stage 
+# Main Stage
+
+## Stream Day 1
+
+![video](https://youtu.be/zp1B_i4JlXc)
+
+## Stream Day 2, Part 1
+
+![video](https://youtu.be/-cUMLo847FQ)
+
+## Stream Day 2, Part 2
+
+![video](https://youtu.be/3WG7uAQ5R9Y)
+
+## Stream Day 2, Part 3
+
+![video](https://youtu.be/lBkDhLIR80s)
+
+## Stream Day 2, Part 4
+
+![video](https://youtu.be/Hdx5qUvYcgA)
+
+# UTXO Room
 
 ## Building a (less evil) bank, UnCommunist, Deploying Specter Desktop
 
@@ -16,11 +38,11 @@ Timestamps:
 - 29:30 - Aleks Svetski - To Communist or UnCommunist
 - 01:01:00 - Kim -  Deploying Specter Desktop - Mechanism, not Policy
 
-## Hardware wallets" by BitBox
+## Hardware wallets: mind the (air)gap
 
 ![video](https://youtu.be/UdNxecnAcF8)
 
-Speaker: Douglas Bakkum
+Speaker: Douglas Bakkum (BitBox)
 
 ## Emerging markets panel
 
@@ -98,7 +120,7 @@ Speaker: Gigi
 
 Speaker: Rahim Taghizadegan
 
-## CoinJoin 
+## CoinJoin
 
 ![video](https://youtu.be/VObs-SkwaBk)
 
@@ -149,4 +171,4 @@ Timestamps:
 ![video](https://youtu.be/hFRkUuECAd0)
 
 Jestopher - Open Markets for Lightning Liquidity.
-Steph - Building on a Bitcoin standard. 
+Steph - Building on a Bitcoin standard.

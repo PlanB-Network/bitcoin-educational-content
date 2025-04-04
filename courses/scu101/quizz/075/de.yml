@@ -1,0 +1,9 @@
+question: Welche Eigenschaften definieren ein gutes Passwort?
+answer: Lang, komplex und einzigartig.
+wrong_answers:
+  - Kurz, einfach und leicht zu merken.
+  - Basierend auf persönlichen Informationen.
+  - Identisch für alle Konten.
+explanation: |
+  Ein gutes Passwort sollte ausreichend lang, komplex sein und nicht wiederverwendet werden.
+reviewed: false

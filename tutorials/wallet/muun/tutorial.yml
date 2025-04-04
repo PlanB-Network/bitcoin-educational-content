@@ -1,17 +1,11 @@
 id: 111b56b0-4872-4130-ad2e-e58f8363451d
-builder: Muun
 
 level: beginner
 
 category: mobile
 
-tags:
-  - lightning-network
-  - self-custodial
-
-credits:
-  professor: write-school
-  link: https://agora256.com/muun-wallet-guide-dutilisation-complet/
+professor_id: 8260ed86-de30-468b-88bc-6ed4140a24e2
+credit_link: https://agora256.com/muun-wallet-guide-dutilisation-complet/
 
 # Proofreading metadata
 project_id: a1533596-4113-4c41-bcf2-cb53b0c3e39f
@@ -20,79 +14,83 @@ proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 4.45
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2.27
+    contributor_names:
+    reward: 3.36
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
-    reward: 1.14
+    reward: 1.68
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 3.36
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 4.45
   - language: fr
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2.27
+    contributor_names:
+    reward: 3.36
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 3.36
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 6.62
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2.27
+    contributor_names:
+    reward: 3.36
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 4.45
   - language: vi
     last_contribution_date: 2024-09-24
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Henry-Da0
     reward: 3.31
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 4.45
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 5.53
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 5.53
 
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 4.45
+tags:
+  - guides
+  - wallets
+  - user-friendly

@@ -1,0 +1,9 @@
+question: Je, ni nini kilikuwa cha kipekee kuhusu RPOW ikilinganishwa na dhana nyingine za sarafu ya kidijitali kama vile eCash, b-pesa, na dhahabu kidogo?
+answer: Ilitegemea seva ya uwazi
+wrong_answers:
+  - Ilitumia Proof of Work
+  - Sehemu yake ya akaunti haikuungwa mkono na chochote
+  - Watumiaji walishikilia noti za dijitali za madhehebu maalum badala ya akaunti
+explanation: |
+  Ilitumia Proof of Work kama b-pesa na dhahabu kidogo. Hakukuwa na msaada kama katika dhahabu kidogo. Kama vile eCash (na kama Bitcoin baadaye), RPOW iliruhusu uhifadhi wa noti mahususi za kidijitali, badala ya akaunti, na ilikuwa katika hali hii kwa usiri kiasi.
+reviewed: false

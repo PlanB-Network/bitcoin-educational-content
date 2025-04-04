@@ -1,0 +1,13 @@
+question: Mtandao wa TOR ni nini?
+answer: Mtandao ambao hutoa kutokujulikana kwa kuficha IP ya mtumiaji Address na kuruhusu ufikiaji wa Darknet.
+wrong_answers:
+  - Mtandao unaolinda kifaa chako dhidi ya virusi na programu zingine hasidi.
+  - Mtandao unaoficha shughuli zako za mtandaoni kutoka kwa mtoa huduma wako wa mtandao.
+  - Mtandao unaokuruhusu kuvinjari mtandao haraka zaidi.
+explanation: |
+  Mtandao wa TOR (The Onion Router) ni mtandao unaotoa
+  kutokujulikana kwa kuficha IP ya mtumiaji Address na kuruhusu
+  upatikanaji wa Darknet. Inatumiwa na waandishi wa habari, uhuru
+  wanaharakati, na wengine wanaotaka kuepuka udhibiti
+  nchi za kimabavu.
+reviewed: true

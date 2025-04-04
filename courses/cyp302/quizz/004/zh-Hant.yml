@@ -1,0 +1,9 @@
+question: 其他 Beale 密碼仍無法破譯的主要原因是什麼？
+answer: 這些密碼的關鍵仍是未知的
+wrong_answers:
+  - 加密文本太舊了
+  - 盒子還沒來得及破譯就遺失了
+  - 研究人員缺乏可靠的歷史文件
+explanation: |
+  其他 Beale 密碼從未被破譯，因為儘管經過無數次的嘗試，讀取它們所需的鑰匙仍然未知。
+reviewed: false

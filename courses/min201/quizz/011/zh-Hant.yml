@@ -1,0 +1,12 @@
+question: 在 Bitcoin 中討論了哪些對抗 Mining 集中化的策略？
+answer: 在 Bitcoin 中討論的對抗 Mining 集中化的策略包括 Home Mining、Stratum V2 通訊協定、開放 Mining 軟體的來源，以及行動者和地域的多樣化。
+wrong_answers:
+  - 在 Bitcoin 中討論的對抗 Mining 集中化的策略包括增加區塊大小、實施權益證明，以及建立一個中央機構來監督 Mining。
+  - Bitcoin 中討論的對抗 Mining 集中化的策略包括減少 Block reward、實施交易費，以及開徵 Mining 稅。
+  - 在 Bitcoin 中討論的對抗 Mining 集中化的策略包括增加 Mining 的難度、實施 Mining 上限以及建立 Mining 抽獎。
+explanation: |
+  本章討論了幾項對抗 Mining 的策略
+  集中在 Bitcoin，包括 Home Mining，the
+  Stratum V2 通訊協定、開放 Mining 軟體來源，以及
+  行動者和地域的多樣化。
+reviewed: true

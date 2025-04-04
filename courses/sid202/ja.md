@@ -1232,7 +1232,4 @@ Elementsのソースコードとウェブサイト(https://github.com/ElementsPr
 ## 結論
 
 <chapterId>15f62056-c69c-467e-9565-af48d439a1f5</chapterId>
-
-コース修了おめでとう！
-
-皆様が学習の旅の節目を無事に迎えられたことに、私たちは感激しています。皆さんの献身的な取り組みにより、プロとしての成長に役立つ貴重な知識とスキルが身につきました。
+<isCourseConclusion>true</isCourseConclusion>

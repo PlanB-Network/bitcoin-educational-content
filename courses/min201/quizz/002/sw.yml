@@ -1,0 +1,16 @@
+question: Ni tofauti gani kuu kati ya CPU na ASIC katika muktadha wa Bitcoin Mining?
+answer: CPU inaweza kufanya hesabu nyingi za aina tofauti bila kuboreshwa haswa kwa aina moja ya hesabu, ambapo ASIC inaweza kufanya hesabu ya aina moja tu, lakini kwa ufanisi sana.
+wrong_answers:
+  - CPU ina matumizi bora ya nishati kuliko ASIC
+  - ASIC inaweza kutumika zaidi kuliko CPU
+  - CPU inaweza kufanya hesabu ya aina moja tu, ilhali ASIC inaweza kufanya hesabu nyingi za aina tofauti.
+explanation: |
+  ASICs ni chips, kulinganishwa na Chip CPU, hata hivyo, wao
+  hutengenezwa kutekeleza aina moja tu maalum ya
+  hesabu kwa njia ya ufanisi zaidi iwezekanavyo. Katika nyingine
+  maneno, CPU ina uwezo wa kutekeleza wingi wa
+  aina tofauti za mahesabu bila kuwa maalum
+  iliyoboreshwa kwa aina moja ya hesabu au nyingine, ambapo
+  ASIC itaweza kufanya aina moja tu ya
+  hesabu, lakini kwa ufanisi sana.
+reviewed: true

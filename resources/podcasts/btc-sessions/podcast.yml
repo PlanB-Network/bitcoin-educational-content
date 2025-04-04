@@ -8,8 +8,9 @@ links:
   twitter: https://x.com/BTCsessions
 description: |
   Get your dose of Bitcoin with weekly news roundups and "Why Are We Bullish" panel shows featuring Bitcoiners from around the world!
+contributor_names:
+  - PaoloFoti
 tags:
+  - adoption
   - market-trends
-  - easy-explain
-contributors:
-  - hunt-wood
+  - investment

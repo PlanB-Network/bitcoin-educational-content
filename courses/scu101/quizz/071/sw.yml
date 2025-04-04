@@ -1,0 +1,13 @@
+question: Je, ni mazoezi gani yanayopendekezwa ya kudhibiti nenosiri kuu la kidhibiti nenosiri?
+answer: Iandike kwenye karatasi na kuiweka mahali pa siri na salama.
+wrong_answers:
+  - Ihifadhi kwenye barua pepe yako.
+  - Tumia nenosiri sawa kwa akaunti zote.
+  - Ikariri.
+explanation: |
+  Inashauriwa kuandika nenosiri kuu la a
+  meneja wa nenosiri kwenye karatasi, lakini inapaswa kuwekwa katika a
+  eneo lililofichwa na salama. Hii ni kwa sababu ikiwa Hard
+  gari ni encrypted na kompyuta imefungwa, password
+  haitapatikana, hata katika kesi ya wizi.
+reviewed: true

@@ -1,0 +1,11 @@
+question: Kwa nini uzoefu wa vitendo ni muhimu katika usalama wa mtandao?
+answer: Inakuruhusu kutumia maarifa yako ya kinadharia katika hali za ulimwengu halisi
+wrong_answers:
+  - Ni sharti kwa kazi zote za usalama wa mtandao
+  - Ni muhimu zaidi kuliko ujuzi wa kitaaluma
+  - Ndiyo njia pekee ya kujifunza kuhusu usalama wa mtandao
+explanation: |
+  Sura inasisitiza umuhimu wa vitendo
+  uzoefu kwani hukuruhusu kutumia nadharia yako
+  maarifa katika hali halisi ya ulimwengu.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Ni hatari gani kuu ya kutumia PRNG iliyoundwa vibaya kwa generate entropy?
+answer: Funguo za kibinafsi zinaweza kukisiwa na mshambuliaji
+wrong_answers:
+  - Kishazi cha Mnemonic kinaweza kuwa na maneno yasiyo sahihi
+  - Sahihi za kidijitali zitakuwa batili
+  - Anwani za Bitcoin zitakuwa hazioani na mtandao
+explanation: |
+  PRNG iliyoundwa vibaya inaweza kutoa mfuatano unaoweza kutabirika, na kufanya funguo kuwa hatarini zaidi kwa mashambulizi.
+reviewed: false

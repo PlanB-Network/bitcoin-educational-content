@@ -1,0 +1,9 @@
+question: Je, kumekuwa na matokeo gani ya uwazi wa kiuchumi, kulingana na mawazo ya Cobden, juu ya umaskini wa kimataifa katika kipindi cha miaka 20 iliyopita?
+answer: Umaskini umepungua kwa nusu
+wrong_answers:
+  - Umaskini uliongezeka kwa 10%
+  - Umaskini ulibaki kuwa thabiti
+  - Umaskini ulipungua kwa 20%
+explanation: |
+  Cobden alitetea uwazi wa kiuchumi kama njia ya kupunguza umaskini, na matokeo ya kisasa yanaonyesha kupungua kwa kiasi kikubwa, hasa katika nchi zilizo wazi kwa biashara.
+reviewed: false

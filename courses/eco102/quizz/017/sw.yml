@@ -1,0 +1,9 @@
+question: Kwa Bastiat, uchumi wa kisiasa ni nini?
+answer: Nadharia ya Exchange
+wrong_answers:
+  - Nadharia ya thamani
+  - Nadharia ya utajiri
+  - Nadharia ya nguvu ya ununuzi
+explanation: |
+  Bastiat anafafanua uchumi wa kisiasa kama nadharia ya Exchange.
+reviewed: false

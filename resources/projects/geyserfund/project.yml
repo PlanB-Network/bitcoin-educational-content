@@ -6,16 +6,17 @@ links:
   website: https://geyser.fund/
   twitter: https://x.com/geyserfund
 
-tags:
-  - use-case
-  - decentralization
-  - proof-of-work
-
 original_language: en
 proofreading:
   - language: en
     last_contribution_date: 2025-02-18
     urgency: 1
-    contributors_id:
+    contributor_names:
       - jramos0
     reward: 0
+tags:
+  - investment
+  - finance
+  - business
+contributor_names:
+  - Asi0Flammeus

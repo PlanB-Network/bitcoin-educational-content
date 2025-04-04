@@ -1,0 +1,12 @@
+question: Wachimbaji wa Bitcoin wanawezaje kusaidia katika kudhibiti ziada ya nishati na kuleta utulivu wa gridi za umeme?
+answer: Wachimbaji wa Bitcoin wanaweza kunyonya ziada ya nishati, kufanya kazi kama buffer inayoweza kunyumbulika, kurekebisha mahitaji badala ya Supply. Katika ulimwengu ambapo uzalishaji wa umeme kutoka kwa vyanzo vinavyoweza kurejeshwa (zisizoweza kudhibitiwa) unaongezeka mara kwa mara, wachimbaji wanaweza kuwa na jukumu muhimu katika kuhakikisha uwiano wa gridi zetu za nguvu, huku wakinufaika na umeme wa bei nafuu au wa ziada ili kuendesha shughuli zao za Mining.
+wrong_answers:
+  - Wachimbaji wa Bitcoin wanaweza kusaidia katika kudhibiti ziada ya nishati kwa kuhifadhi nishati ya ziada kwenye betri.
+  - Wachimbaji wa Bitcoin wanaweza kusaidia katika kudhibiti ziada ya nishati kwa kuuza nishati ya ziada kwenye gridi ya taifa.
+  - Wachimbaji wa Bitcoin wanaweza kusaidia katika kudhibiti ziada ya nishati kwa kubadilisha nishati ya ziada kuwa joto.
+explanation: |
+  Sura hiyo inaeleza kuwa wachimbaji wa Bitcoin wanaweza kunyonya nishati
+  ziada, inafanya kazi kama bafa inayoweza kunyumbulika, kurekebisha mahitaji
+  badala ya Supply. Hii inaweza kusaidia katika kudhibiti nishati
+  ziada na kuimarisha gridi za nguvu.
+reviewed: true

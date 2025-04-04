@@ -1,0 +1,12 @@
+question: Je, ni mbinu gani zinazopendekezwa za usalama bora zenye uthibitishaji thabiti?
+answer: Tumia barua pepe salama ya Address, kidhibiti salama cha nenosiri, na utumie 2FA kwa kutumia YubiKeys.
+wrong_answers:
+  - Tumia nenosiri la kawaida kwa akaunti zote, na uepuke 2FA
+  - Tumia nenosiri rahisi na utegemee data ya kibayometriki kwa 2FA
+  - Tumia barua pepe salama ya Address, lakini epuka wasimamizi wa nenosiri na 2FA
+explanation: |
+  Kwa usalama bora, inashauriwa kutumia salama
+  barua pepe Address, kidhibiti salama cha nenosiri, na upitishe 2FA
+  kwa kutumia YubiKeys. Pia ni vyema kununua mbili
+  YubiKeys kutarajia hasara au wizi.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Je! ni mtindo gani wa faragha wa mfumo wa benki?
+answer: Ni benki pekee inayoweza kufikia maelezo ya muamala.
+wrong_answers:
+  - Shughuli hizo ni za umma, lakini utambulisho wa watumiaji haujulikani.
+  - Malipo hayajulikani na yamefichwa kwa kila mtu, ikiwa ni pamoja na benki.
+  - Serikali pekee ndizo zinazoweza kufikia maelezo ya muamala.
+explanation: |
+  Katika mfumo wa kitamaduni, kila akaunti ya benki imeunganishwa na utambulisho. Walakini, mtiririko wa habari umekatwa kati ya benki na uwanja wa umma.
+reviewed: false

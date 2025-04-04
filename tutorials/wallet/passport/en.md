@@ -6,7 +6,7 @@ description: Configuring and using the Passport hardware wallet in manual mode
 
 The Passport is a Bitcoin-only hardware wallet, designed by Foundation Devices, an American company founded in April 2020 in Boston.
 
-The Passport "*Batch 2*" we present in this tutorial is the successor to the "*Founder's Edition*". It features a premium design, a high-definition color screen and an ergonomic physical keyboard. It operates in "*Air-Gap*" mode, ensuring that your wallet's private keys remain totally isolated, with exchanges possible via a MicroSD card or QR codes. The device includes a removable 1200 mAh battery.
+The Passport "*Batch 2*" presented in this tutorial is the successor to the "*Founder's Edition*". It stands out with its premium design, high-definition color screen, and ergonomic physical keyboard. It operates in "*Air-Gap*" mode, ensuring that your wallet's private keys remain completely isolated, with communication possible via a MicroSD card or QR codes. The device is equipped with a removable, rechargeable Nokia BL-5C battery with a capacity of 1200 mAh. This non-proprietary battery can be easily replaced, as the BL-5C model is widely available in stores.
 
 As for connectivity, the Passport is equipped with a MicroSD port, a USB-C port for charging, and a rear camera for scanning QR codes.
 
@@ -21,6 +21,7 @@ To manage your secure wallet on a Passport, you have several options. This hardw
 If you're a beginner, the easiest option is to use your Passport with the native Envoy application, developed by Foundation. To find out how to use Envoy with your Passport, check out this other tutorial :
 
 https://planb.network/tutorials/wallet/mobile/envoy-3ae5d6c7-623b-45b3-bb34-abcf9572b7cb
+
 ## Unboxing the Passport
 
 When you receive your Passport, make sure the box and seal on the carton are intact to confirm that the package has not been opened. A software verification of the device's authenticity and integrity will also be carried out when it is set up.
@@ -138,7 +139,8 @@ To do this, use the MicroSD card included in your Passport box (or another one),
 
 Before installing it on your device, we strongly advise you to check the authenticity and integrity of the downloaded firmware. If you need help with this, consult this tutorial :
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 After checking the `.bin` file, place it on your MicroSD, then insert it into the Passport. The Passport file explorer will open. Select the file `vN.N.N-passport.bin`.
 
 ![Image](assets/fr/22.webp)
@@ -165,7 +167,7 @@ Now it's time to create a new Bitcoin wallet. Click on the confirmation button.
 
 ![Image](assets/fr/27.webp)
 
-To create a new portfolio, click on "*Create New Seed*".
+To create a new wallet, click on "*Create New Seed*".
 
 ![Image](assets/fr/28.webp)
 
@@ -187,7 +189,7 @@ Enter your "*Backup Code*" to confirm that you have saved it correctly.
 
 ![Image](assets/fr/32.webp)
 
-If a MicroSD has been inserted, the encrypted backup of your portfolio has been saved there.
+If a MicroSD has been inserted, the encrypted backup of your wallet has been saved there.
 
 ![Image](assets/fr/33.webp)
 
@@ -204,7 +206,8 @@ Click on the confirmation button to see your mnemonic phrase.
 For more information on the proper way to save and manage your mnemonic phrase, I highly recommend following this other tutorial, especially if you're a beginner:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
-of course, you must never share these words on the Internet, as I'm doing in this tutorial. This sample portfolio will be used only on Testnet and will be deleted at the end of the tutorial.**_
+
+of course, you must never share these words on the Internet, as I'm doing in this tutorial. This sample wallet will be used only on Testnet and will be deleted at the end of the tutorial.**_
 
 Make a physical backup of this sentence.
 
@@ -231,7 +234,7 @@ In the "*Account*" menu, you'll find the main features of your Bitcoin wallet. Y
 
 ![Image](assets/fr/37.webp)
 
-The "*Account Tools*" submenu offers options such as verifying an address, signing a message, or consulting the addresses in your portfolio.
+The "*Account Tools*" submenu offers options such as verifying an address, signing a message, or consulting the addresses in your wallet.
 
 ![Image](assets/fr/38.webp)
 
@@ -241,7 +244,7 @@ In the "*Manage Account*" submenu, you can connect your Bitcoin wallet to a wall
 
 ### More" menu
 
-In the "*More*" menu, you can create a new account in your portfolio, linked to the same mnemonic phrase.
+In the "*More*" menu, you can create a new account in your wallet, linked to the same mnemonic phrase.
 
 ![Image](assets/fr/40.webp)
 
@@ -259,7 +262,7 @@ The "*Device*" submenu gives you options for customizing screen brightness, sett
 
 ![Image](assets/fr/43.webp)
 
-The "*Backup*" submenu lets you export your encrypted portfolio backup, check the validity of an existing backup, or look up your "*Backup Code*" again.
+The "*Backup*" submenu lets you export your encrypted wallet backup, check the validity of an existing backup, or look up your "*Backup Code*" again.
 
 ![Image](assets/fr/44.webp)
 
@@ -290,6 +293,7 @@ Before continuing, if you wish, you can add a BIP39 passphrase. A BIP39 passphra
 Before configuring this option on your Passport, it is strongly recommended that you read this article to fully understand the theoretical operation of the passphrase and avoid errors that could lead to the loss of your bitcoins:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 To activate it, go to the "*More*" menu and click on "*Enter Passphrase*".
 
 ![Image](assets/fr/50.webp)
@@ -311,6 +315,7 @@ Each time you unlock, after writing down the passphrase, check on this confirmat
 Before you receive your first bitcoins on your wallet, **I strongly advise you to perform an empty recovery test**. Make a note of some reference information, such as your xpub or first receiving address, then delete your wallet on the Passport while it's still empty (`Settings -> Advanced -> Erase Passport`). Then try to restore your wallet using your paper backups of the mnemonic phrase and any passphrase. Check that the cookie information generated after the restore matches the one you originally wrote down. If it does, you can rest assured that your paper backups are reliable. To find out more about how to carry out a test recovery, please consult this other tutorial :
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+
 ![Image](assets/fr/53.webp)
 
 ## Configuring the wallet on Sparrow Wallet
@@ -323,7 +328,8 @@ Start by downloading and installing Sparrow Wallet [from the official website](h
 
 Be sure to check the authenticity and integrity of the software before installation. If you don't know how to do this, please consult this tutorial:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 Once Sparrow Wallet is open, click on the "*File*" tab, then on "*New Wallet*".
 
 ![Image](assets/fr/55.webp)
@@ -390,7 +396,7 @@ Now that your Passport is set up, you're ready to receive your first sats on you
 
 ![Image](assets/fr/70.webp)
 
-Sparrow will display the first blank receipt address in your portfolio. You can add a label.
+Sparrow will display the first blank receipt address in your wallet. You can add a label.
 
 ![Image](assets/fr/71.webp)
 

@@ -1,0 +1,15 @@
+question: Kulingana na Pamela Morgan katika Upangaji wa Urithi wa Cryptoasset, ni nini malengo ya mpango wa mali isiyohamishika?
+answer: Ili kuhakikisha kwamba warithi wako wanaweza kumiliki mali yako ya crypto kwa wakati unaofaa, lakini sio hapo awali; Punguza hatari na uwezekano wa mtu kuiba mali yako ya crypto kabla ya kukabidhiwa kwa wapendwa wako; Wape wapendwa wako chaguo la kushikilia mali kwa usalama, ikiwa wanataka; Epuka migogoro kati ya warithi wako na uzuie masuala ya kisheria iwezekanavyo.
+wrong_answers:
+  - Ili kuhakikisha kwamba warithi wako wanaweza kumiliki mali yako ya crypto mara tu baada ya kifo chako; Kuongeza hatari na uwezekano wa mtu kuiba mali yako ya crypto kabla ya kukabidhiwa kwa wapendwa wako; Kulazimisha wapendwa wako kushikilia kwa usalama mali; Ili kuunda migogoro kati ya warithi wako na kusababisha masuala ya kisheria.
+  - Kuhakikisha kwamba warithi wako wanaweza kumiliki mali yako ya crypto kabla ya kifo chako; Ili kupunguza hatari na uwezekano wa mtu kuiba mali yako ya crypto baada ya kukabidhiwa kwa wapendwa wako; Kuwapa wapendwa wako chaguo la kushikilia mali bila usalama; Ili kuepuka migogoro kati ya warithi wako na kusababisha masuala ya kisheria.
+  - Ili kuhakikisha kwamba warithi wako wanaweza kumiliki mali yako ya crypto baada ya kifo chako; Kuongeza hatari na uwezekano wa mtu kuiba mali yako ya crypto baada ya kukabidhiwa kwa wapendwa wako; Kulazimisha wapendwa wako kushikilia mali bila usalama; Ili kuunda migogoro kati ya warithi wako na kuzuia masuala ya kisheria.
+explanation: |
+  Malengo ya mpango wa mali isiyohamishika, kama ilivyoelezwa na Pamela Morgan katika Cryptoasset
+  Upangaji wa Mirathi, ni kuhakikisha kwamba warithi wako wanaweza kuchukua milki yako
+  mali ya crypto kwa wakati unaofaa, lakini sio hapo awali; ili kupunguza hatari na uwezekano
+  ya mtu anayeiba mali yako ya crypto kabla ya kukabidhiwa kwa mpendwa wako
+  wale; kuwapa wapendwa wako chaguo la kushikilia mali kwa usalama, ikiwa
+  wanataka; na kuepusha migongano baina ya warithi wako na kuzuia masuala ya kisheria sana
+  iwezekanavyo.
+reviewed: false

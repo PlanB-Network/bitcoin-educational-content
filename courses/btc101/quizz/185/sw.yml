@@ -1,0 +1,8 @@
+question: Kwa kulinganisha na sarafu ya fiat, Bitcoin inachukuliwaje?
+answer: Kama uchumi sambamba.
+wrong_answers:
+  - Kama uchumi badala.
+  - Kama uchumi wa viwanda.
+  - Kama uchumi wa juu.
+explanation: >-
+reviewed: true

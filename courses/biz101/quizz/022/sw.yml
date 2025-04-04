@@ -1,0 +1,9 @@
+question: Ni nini kinachopendekezwa kwa ujumla wakati wa kugawa sehemu ya hazina ya kampuni kwa Bitcoin?
+answer: Wekeza tu ukwasi wa ziada ambao hautahitaji kwa miaka kadhaa na udumishe upeo wa muda wa angalau miaka minne.
+wrong_answers:
+  - Tumia pesa zote za uendeshaji mara moja bila kuzingatia mahitaji ya ukwasi.
+  - Lengo la kununua na kuuza ndani ya wiki chache ili kuongeza faida ya muda mfupi.
+  - Wekeza tu wakati unahitaji mkopo wa haraka wa muda mfupi ili kufidia gharama.
+explanation: |
+  Kwa sababu bei ya Bitcoin inaweza kuwa tete kwa muda mfupi, ni busara kutumia fedha ambazo huhitaji mara moja na kushikilia kwa angalau miaka minne. Mbinu hii hulainisha hali tete na huongeza uwezekano wa kutambua uthamini wa thamani wa muda mrefu.
+reviewed: false

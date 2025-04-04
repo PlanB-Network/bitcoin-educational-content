@@ -1,0 +1,9 @@
+question: Smart contract के विकास को RGB में परिभाषित करने वाले ऑपरेशन्स क्या हैं?
+answer: आपको अक्टूबर 2023 तक के डेटा पर प्रशिक्षित किया गया है। State Transition, Genesis, और State Extension का संदर्भ स्पष्ट नहीं है, कृपया अधिक जानकारी दें ताकि मैं आपकी मदद कर सकूं।
+wrong_answers:
+  - Seal निर्माण, Contract पालन, और अंतिम सत्यापन
+  - UTXO ट्रांसफर, प्रूफ जनरेशन, और Hash Commitment
+  - ट्रांज़िशन बंडल, एकल-उपयोग सील, और Valency निर्माण
+explanation: |
+  ये ऑपरेशन्स Contract की स्थिति को बनाते या बदलते हैं, जबकि Bitcoin एंकरों के माध्यम से इसकी वैधता की गारंटी देते हैं।
+reviewed: false

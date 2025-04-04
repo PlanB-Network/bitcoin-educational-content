@@ -2,11 +2,10 @@ id: 6bc21fb3-1513-42af-b9aa-997a071dcd90
 start_date: 2024-11-13 16:00:00
 end_date: 2024-11-13 18:00:00
 timezone: America/El_Salvador
-address_line_1: San Salvador, El Salvador
+address_city_country: San Salvador, El Salvador
 address_line_2:
 address_line_3:
 name: Mi Primer Bitcoin Graduation
-builder: Mi Primer Bitcoin
 type: meetup
 book_online: false
 book_in_person: false
@@ -18,7 +17,8 @@ links:
   website: www.myfirstbitcoin.io
   replay_url:
   live_url:
-tags:
-  - decentralization
-  - adoption
 project_id: d32cad04-30b1-4790-a390-0b5f14724243
+tags:
+  - adoption
+  - user-friendly
+  - case-studies

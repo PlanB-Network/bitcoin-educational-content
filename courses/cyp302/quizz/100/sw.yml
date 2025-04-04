@@ -1,0 +1,9 @@
+question: Je! ni jukumu gani la Nonce katika mpango wa usimbaji uliothibitishwa?
+answer: Hakikisha kwamba kila ujumbe una lebo ya kipekee ili kuzuia marudio
+wrong_answers:
+  - Tambua mtumaji wa ujumbe
+  - Unda ufunguo wa kusimbua kwa muda
+  - Ongeza Layer ya ziada ya usimbaji fiche
+explanation: |
+  Katika mpango wa usimbaji ulioidhinishwa, Nonce inatumika kuhakikisha kuwa kila ujumbe una lebo ya kipekee, na hivyo kuimarisha usalama kwa kuzuia marudio.
+reviewed: false

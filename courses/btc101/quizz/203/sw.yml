@@ -1,0 +1,11 @@
+question: Unapaswa kufanya nini baada ya kununua Bitcoin kwenye jukwaa la Exchange?
+answer: Ondoa bitcoins na uzitume kwa Wallet yako.
+wrong_answers:
+  - Acha bitcoins kwenye jukwaa.
+  - Uza bitcoins mara moja.
+  - Hamisha bitcoins kwenye jukwaa lingine la Exchange.
+explanation: |
+  Maandishi ya kozi yanashauri kwamba baada ya kununua Bitcoin, moja
+  lazima iondoe UTXO mara moja kutoka kwa majukwaa ya Exchange
+  ili kupunguza hatari za udukuzi na kuzuia fedha.
+reviewed: true

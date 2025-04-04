@@ -1,6 +1,2 @@
 description: |
-  Alby on mitmekülgne brauserilaiendus, mis on loodud Bitcoin'i tehingute ja Lightning Network'iga suhtlemise lihtsustamiseks. Kasutajasõbraliku liidesega pakub see turvalist platvormi rahakottide haldamiseks, tehingute võimaldamiseks ja selliste uute tehnoloogiate nagu Nostr uurimiseks.
-
-  Alby lihtsustab sisu monetiseerimist ja pakub arendajatele sujuvat kogemust, muutes selle mitmekülgseks lahenduseks erinevatele Bitcoin'i vajadustele.
-contributors:
-  - rabbit-hole
+  Alby pakub tarbijatele ja arendajatele hõlpsasti kasutatavaid bitcoinimaksete tööriistu, kasutades lightning networki kõikjal: veebis, mobiilirakendustes ja reaalses maailmas. Alby Hubiga saavad kasutajad võimsa, isehallatava lightning rahakoti, mis ühendub vaevata erinevate rakendustega. Alby brauserilaiend võimaldab sujuvat suhtlust veebisaitidega, hõlbustades makseid ja identiteedi kinnitamist otse brauseris. Mobiilikasutajatele pakub Alby Go kasutajasõbralikku rahakotti, millega saab tehinguid hallata liikvel olles. Lisaks pakub Alby API-sid bitcoinimaksete integreerimiseks mis tahes rakendusse ja programmiks suhtlemiseks bitcoin lightning rahakottidega.

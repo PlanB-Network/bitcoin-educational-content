@@ -1,0 +1,9 @@
+question: Kikundi cha abelian ni nini?
+answer: Kikundi ambacho operesheni ni ya kubadilisha
+wrong_answers:
+  - Kikundi ambacho kina jenereta ya kipekee
+  - Kikundi kilichopunguzwa kwa nambari kamili
+  - Kikundi kisicho na kipengele cha upande wowote
+explanation: |
+  Kikundi cha abelian ni kikundi ambacho mpangilio wa Elements katika operesheni hauathiri matokeo, kumaanisha kuwa inazingatia mawasiliano.
+reviewed: false

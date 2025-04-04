@@ -30,22 +30,31 @@ Node Nakamochi Anda dikelola melalui aplikasi seluler, [BitBanana (Android)] (ht
 
 3. Gunakan aplikasi manajemen node (Zeus atau BitBanana) untuk menyambungkan ke Nakamochi Anda:
 
+4. Buka aplikasi dan pindai kode QR yang ditampilkan pada Nakamochi Anda.
 
-   - Buka aplikasi dan pindai kode QR yang ditampilkan pada Nakamochi Anda.
+5. Untuk keamanan tambahan, tetapkan kode PIN pada perangkat Anda.
 
-4. Untuk keamanan tambahan, tetapkan kode PIN pada perangkat Anda.
+![image](assets/en/01.webp)
 
-![Connect to power and write down your 24-word seed phrase](assets/en/01.webp)
+hubungkan ke daya dan tuliskan frasa benih 24 kata Anda_
 
-![Wait until the Blockchain has caught up](assets/en/02.webp)
+![image](assets/en/02.webp)
 
-![Set up new wallet in Lightning Tab](assets/en/03.webp)
+tunggu sampai Blockchain berhasil mengejar ketertinggalannya
 
-![Scan QR Code with Node Management App](assets/en/04.webp)
+![image](assets/en/03.webp)
 
-![For additional safety set a PIN code](asset/en/05.webp)
+mengatur dompet baru di Tab Lightning_
 
-catatan: Izinkan node Nakamochi Anda untuk melakukan sinkronisasi dengan blockchain. Proses ini mungkin membutuhkan waktu, tergantung pada koneksi internet Anda._
+![image](assets/en/04.webp)
+
+pindai Kode QR dengan Aplikasi Manajemen Node_
+
+![image](asset/en/05.webp)
+
+untuk keamanan tambahan, tetapkan kode PIN_
+
+**Catatan:** _Izinkan node Nakamochi Anda untuk melakukan sinkronisasi dengan blockchain. Proses ini mungkin membutuhkan waktu, tergantung pada koneksi internet Anda._
 
 ## Tentang Jaringan Lightning
 
@@ -77,9 +86,11 @@ Setelah Nakamochi Anda diatur dan terhubung ke aplikasi manajemen node, Anda dap
 
 5. Klik **"Buka Saluran "**.
 
-![ZEUS Screenshot](asset/en/06.webp)
+![image](asset/en/06.webp)
 
-Untuk informasi lebih lanjut: [Saluran | Dokumentasi Zeus](https://zeusln.app)
+tangkapan Layar _ZEUS_
+
+Untuk informasi lebih lanjut: [Saluran | Dokumentasi Zeus](https://docs.zeusln.app/)
 
 ### Membuka Saluran di BitBanana (Android):
 
@@ -93,7 +104,9 @@ Untuk informasi lebih lanjut: [Saluran | Dokumentasi Zeus](https://zeusln.app)
 
 5. Masukkan jumlah yang dikunci (pilih dengan rekan Anda atau gunakan jumlah tetap minimum untuk node yang terkenal).
 
-![Bitbanana Screenshot](asset/en/07.webp)
+![image](asset/en/07.webp)
+
+tangkapan Layar Bitbanana
 
 Untuk informasi lebih lanjut: [BitBanana](https://bitbanana.com)
 
@@ -107,4 +120,4 @@ Secara umum, kami menyarankan untuk membiarkan saluran tetap terbuka untuk mengu
 
 
 - [Tentang Nakamochi](https://nakamochi.io/)
-- [Berlangganan Buletin Kami](https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)
+- [Berlangganan Buletin Nakamochi](https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)

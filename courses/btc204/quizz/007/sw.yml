@@ -1,0 +1,9 @@
+question: Je, muamala ni nini?
+answer: Ni hatua ya kutumia UTXO nyingi kama pembejeo.
+wrong_answers:
+  - Ni hatua ya kuunda UTXO nyingi kama matokeo.
+  - Ni kitendo cha kuchanganya anwani nyingi hadi moja.
+  - Ni kitendo cha kuchanganya vizuizi vingi kwenye Blockchain.
+explanation: |
+  Wakati mtumiaji hana UTXO yoyote kubwa kuliko au sawa na kiasi anachotaka kutuma, lazima atumie UTXO zao kadhaa ili kukidhi matokeo. Zoezi hili linaitwa kuunganisha.
+reviewed: false

@@ -173,7 +173,7 @@ Det finnes mange alternativer for å bruke Whirlpool. Den første jeg vil introd
 ### Installer Sparrow Wallet
 For å begynne, vil du åpenbart trenge Sparrow Wallet-programvaren. Du kan direkte laste den ned fra [det offisielle nettstedet](https://sparrowwallet.com/download/) eller på [deres GitHub](https://github.com/sparrowwallet/sparrow/releases).
 
-Før du installerer programvaren, vil det være viktig å verifisere signaturen og integriteten til den nedlastede kjørbare filen. Hvis du ønsker flere detaljer om installasjonsprosessen og verifisering av Sparrow-programvaren, anbefaler jeg deg å lese denne andre opplæringen: *[The Sparrow Wallet Guides](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607)*
+Før du installerer programvaren, vil det være viktig å verifisere signaturen og integriteten til den nedlastede kjørbare filen. Hvis du ønsker flere detaljer om installasjonsprosessen og verifisering av Sparrow-programvaren, anbefaler jeg deg å lese denne andre opplæringen: *[The Sparrow Wallet Guides](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)*
 
 ### Opprett en programvarelommebok
 Etter å ha installert programvaren, må du fortsette med å opprette en Bitcoin-lommebok. Det er viktig å merke seg at for å delta i coinjoins, er bruken av en programvarelommebok (også kalt en "hot wallet") essensiell. Derfor **vil det ikke være mulig å utføre coinjoins med en lommebok sikret av en maskinvarelommebok**.
@@ -340,7 +340,7 @@ Videre må du være forsiktig med å håndtere doxxic endring, endringen som ikk
 Detaljerte veiledninger om implementering av disse forskjellige teknikkene vil snart bli tilbudt på PlanB Network.
 
 **Tilleggsressurser:**
-[Sparrow Wallet Video Tutorial](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607)
+[Sparrow Wallet Video Tutorial](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
 [Samourai Wallet Video Tutorial](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
 - [Samourai Wallet Dokumentasjon - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [Twitter-tråd om CoinJoins](https://twitter.com/SamouraiWallet/status/1489220847336308739);

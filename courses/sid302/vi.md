@@ -110,7 +110,4 @@ Antonio giới thiệu Breeze, một SDK nguồn mở được thiết kế cho 
 ## Phần kết luận
 
 <chapterId>e30a5587-d74b-4360-87fb-bbf3de1b0ba8</chapterId>
-
-Xin chúc mừng vì đã hoàn thành khóa học này!
-
-Chúng tôi rất vui mừng khi bạn đã đạt được cột mốc này trong hành trình học tập của mình. Nhờ sự tận tâm và cam kết, bạn đã có được kiến thức và kỹ năng giá trị giúp ích cho sự phát triển nghề nghiệp của bạn.
+<isCourseConclusion>true</isCourseConclusion>

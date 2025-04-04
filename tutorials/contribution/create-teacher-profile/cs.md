@@ -78,7 +78,6 @@ Vyplňte požadované informace (upozorňujeme, že všechny tyto informace budo
 
 - Název souboru učitele (použijte své jméno a příjmení nebo pseudonym, malá písmena) ;
 - Vaše jméno nebo přezdívka ;
-- Náhodné generování přihlašovacích údajů ;
 - Vaše webové stránky a profil X (nepovinné) ;
 - Blesk Address pro příjem darů od čtenářů (nepovinné) ;
 - Ze seznamu vyberte 2 nebo 3 značky;

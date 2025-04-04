@@ -33,13 +33,13 @@ Du trenger ikke å være en GitHub-ekspert for å vurdere innhold. Selv om det a
 
 Men hvis du ikke er kjent med Git og GitHub og ønsker å lære mer, kan du ta en titt på vår introduksjonsartikkel om disse verktøyene:
 
-https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 ## 1. Opprett en konto
 
 
 - Opprett en konto på [GitHub] (https://github.com/) for å begynne å bidra. Hvis du vil ha veiledning om hvordan du oppretter en GitHub-konto, har vi også en detaljert veiledning:
 
-https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 - Du trenger også en konto på meldingsappen [Telegram] (https://telegram.org/).
 

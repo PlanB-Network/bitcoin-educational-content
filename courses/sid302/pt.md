@@ -111,7 +111,4 @@ Antonio apresenta o Breeze, um SDK de código aberto projetado para transações
 ## Conclusão
 
 <chapterId>e30a5587-d74b-4360-87fb-bbf3de1b0ba8</chapterId>
-
-Parabéns por ter concluído este curso!
-
-Estamos muito satisfeitos por ter alcançado com sucesso este marco na sua jornada de aprendizagem. Através da sua dedicação e empenho, adquiriu conhecimentos e competências valiosos que lhe serão úteis no seu desenvolvimento profissional.
+<isCourseConclusion>true</isCourseConclusion>

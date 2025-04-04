@@ -1232,7 +1232,4 @@ Il passo successivo è quello di sfidare se stessi con un quiz cumulativo che co
 ## Conclusione
 
 <chapterId>15f62056-c69c-467e-9565-af48d439a1f5</chapterId>
-
-Congratulazioni per aver completato questo corso!
-
-Siamo entusiasti che abbiate raggiunto con successo questa pietra miliare nel vostro percorso di apprendimento. Grazie alla vostra dedizione e al vostro impegno, avete acquisito conoscenze e competenze preziose che vi saranno utili nel vostro sviluppo professionale.
+<isCourseConclusion>true</isCourseConclusion>

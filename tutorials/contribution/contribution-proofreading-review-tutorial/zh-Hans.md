@@ -33,13 +33,13 @@ Plan ₿网络从根本上说是多语言的，因为我们的目标是让全世
 
 不过，如果你对 Git 和 GitHub 不熟悉，想了解更多信息，可以查看我们关于这些工具的介绍文章：
 
-https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 ## 1.创建账户
 
 
 - 在 [GitHub](https://github.com/) 上创建账户，开始贡献。如果您需要创建 GitHub 账户的指导，我们也有详细的教程：
 
-https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 - 您还需要一个信息应用程序 [Telegram](https://telegram.org/) 的账户。
 

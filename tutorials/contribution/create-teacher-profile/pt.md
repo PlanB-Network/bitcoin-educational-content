@@ -78,7 +78,6 @@ Preencha as informações necessárias (tenha em atenção que todas estas infor
 
 - Nome do seu dossier de professor (utilize o seu nome e apelido ou um pseudónimo, em minúsculas) ;
 - O seu nome ou alcunha ;
-- Geração aleatória do seu login ;
 - O seu sítio Web e perfil X (facultativo) ;
 - Um Lightning Address para receber donativos dos leitores (opcional) ;
 - Selecione 2 ou 3 etiquetas da lista;

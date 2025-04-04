@@ -6,8 +6,6 @@ Raskuste kohandamine on perioodiline protsess, mis määrab uuesti kindlaks Bitc
 
 $$N = A \cdot \left(\frac{T}{1,209,600}\right)$$$
 
-&nbsp;
-
 Kus:
 
 

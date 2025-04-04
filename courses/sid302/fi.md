@@ -111,7 +111,4 @@ Antonio esittelee Breezen, avoimen lähdekoodin SDK:n, joka on suunniteltu hajau
 ## Päätelmä
 
 <chapterId>e30a5587-d74b-4360-87fb-bbf3de1b0ba8</chapterId>
-
-Onnittelut tämän kurssin suorittamisesta!
-
-Olemme innoissamme siitä, että olet saavuttanut tämän virstanpylvään oppimismatkallasi. Olet saanut omistautumisesi ja sitoutumisesi ansiosta arvokkaita tietoja ja taitoja, jotka auttavat sinua ammatillisessa kehityksessäsi.
+<isCourseConclusion>true</isCourseConclusion>

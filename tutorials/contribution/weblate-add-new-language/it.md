@@ -8,7 +8,7 @@ La missione di Plan ₿ Network è quella di fornire risorse educative di prima 
 
 Attualmente il nostro sito web offre una vasta gamma di lingue, e stiamo lavorando per aggiungerne altre. Per migliorare il processo di traduzione del nostro frontend, utilizziamo lo strumento Weblate, che ci aiuta a collaborare e a gestire le traduzioni in modo efficiente.
 
-Se la vostra lingua non è ancora disponibile sul nostro sito e volete aggiungerla, questo tutorial fa per voi!
+Se la tua lingua non è ancora disponibile sul nostro sito e vuoi aggiungerla, questo tutorial fa per te!
 
 Innanzitutto, assicuratevi di contattare il team di Plan ₿ Network tramite il nostro [gruppo Telegram] (https://t.me/PlanBNetwork_ContentBuilder). Se non avete Telegram, potete inviare un'e-mail a mari@planb.network. Assicuratevi di scrivere una piccola presentazione su chi siete e sulle lingue che parlate.
 

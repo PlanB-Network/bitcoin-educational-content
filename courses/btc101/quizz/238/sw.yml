@@ -1,0 +1,8 @@
+question: Je, ni dhana gani ya utiririshaji wa pesa katika muktadha wa Lightning Network?
+answer: Kufanya malipo madogo yanayoendelea, ya wakati halisi.
+wrong_answers:
+  - Kubadilisha Bitcoin kuwa pesa taslimu mahali halisi kwa kutumia ATM.
+  - Kutiririsha maudhui ya sauti au video kwa Bitcoin.
+  - Kuunda bitcoins mpya kupitia shughuli za Mining zinazotokea kwa wakati halisi.
+explanation: >-
+reviewed: true

@@ -1,0 +1,9 @@
+question: RGB आर्किटेक्चर में Interface Implementation का उद्देश्य क्या है?
+answer: Schema के फील्ड्स को Interface में परिभाषित नामों से मिलाएं।
+wrong_answers:
+  - AluVM स्क्रिप्ट्स को सत्यापन के लिए संकलित करें।
+  - Contract के वैश्विक राज्यों और स्वामित्व वाले राज्यों को परिभाषित करने के लिए
+  - क्लाइंट-साइड क्रिप्टोग्राफिक प्रमाणों को संग्रहीत करने के लिए
+explanation: |
+  Interface Implementation, Schema के Business Logic और Interface द्वारा पढ़ी जा सकने वाली प्रस्तुति के बीच संबंध स्थापित करता है।
+reviewed: false

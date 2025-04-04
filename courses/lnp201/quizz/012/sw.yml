@@ -1,0 +1,9 @@
+question: Je, chaneli ya umeme inafunguliwa lini rasmi?
+answer: Wakati shughuli ya amana imethibitishwa kwenye Bitcoin Blockchain
+wrong_answers:
+  - Mara tu funguo za umma zinabadilishwa kati ya washiriki
+  - Wakati shughuli ya uondoaji imesainiwa na pande zote mbili
+  - Mara tu Address ya 2/2 ya saini nyingi inapoundwa
+explanation: |
+  Kituo kinachukuliwa kuwa kimefunguliwa mara tu muamala wa amana unapojumuishwa kwenye kizuizi cha Bitcoin na kufikia idadi fulani ya uthibitishaji.
+reviewed: false

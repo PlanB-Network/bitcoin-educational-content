@@ -1,0 +1,9 @@
+question: Schema ina jukumu gani katika RGB?
+answer: Fafanua vigezo vya Contract, sheria na Business Logic
+wrong_answers:
+  - Hifadhi mizigo iliyobadilishwa kati ya washiriki
+  - Kuthibitisha Ahadi za Pedersen kwenye miamala ya Bitcoin
+  - Unda Ufafanuzi wa Seal kwa kila UTXO
+explanation: |
+  Schema huunda hali ya Contract na huamua mabadiliko yanayoruhusiwa na masharti ya uthibitishaji.
+reviewed: false

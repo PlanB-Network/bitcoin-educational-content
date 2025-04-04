@@ -1,0 +1,9 @@
+question: 什麼數學概念是 Diffie-Hellman 密鑰 Exchange 的基礎？
+answer: 有後門的單向函數
+wrong_answers:
+  - 逆指數函數
+  - 加密 Hash 演算法
+  - 簡化的模組分割
+explanation: |
+  Diffie-Hellman 依賴單向函數，這個函數很容易在單向計算，但如果沒有稱為後門的秘密資訊，幾乎不可能反向計算。
+reviewed: false

@@ -1,0 +1,8 @@
+question: Je, ni faida gani kuu ya Bitcoin kwa watu wanaoishi chini ya ukandamizaji wa kifedha au tawala za kidikteta?
+answer: Kuwa na nafasi ya kuepuka udhibiti na vikwazo vya benki.
+wrong_answers:
+  - Kwa kutumia sarafu thabiti ambayo ina thamani isiyobadilika.
+  - Inaruhusu miamala isiyojulikana.
+  - Kupata faida kubwa kwenye uwekezaji.
+explanation: >-
+reviewed: true

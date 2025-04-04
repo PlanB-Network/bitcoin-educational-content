@@ -1,0 +1,12 @@
+question: Je, ni nini nafasi ya wachimbaji katika mtandao wa Bitcoin?
+answer: Wachimbaji wana jukumu muhimu katika kuthibitisha na kuunda vitalu.
+wrong_answers:
+  - Wachimbaji huidhinisha shughuli pekee.
+  - Wachimbaji hudhibiti bei ya Bitcoin.
+  - Wachimbaji hawana jukumu katika mtandao wa Bitcoin.
+explanation: |
+  Wachimbaji wana jukumu muhimu katika mtandao wa Bitcoin na
+  kuthibitisha na kuunda vitalu. Wanaimarisha mtandao
+  dhidi ya udhibiti kwa kutumia umeme kukokotoa
+  Proof of Work kwa Bitcoin.
+reviewed: true

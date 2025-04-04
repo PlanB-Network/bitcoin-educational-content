@@ -1,0 +1,9 @@
+question: HTLC 在 Lightning Network 中的主要目標是什麼？
+answer: 透過中介節點實現安全支付轉帳，而無需信任中介節點
+wrong_answers:
+  - 減少每次透過中介節點付款的交易費用
+  - 增加每個付款管道的容量
+  - 在所有網路節點與其信任的節點之間建立直接連線
+explanation: |
+  HTLC (Hashed Time-Locked Contracts，散列時間鎖定合約) 可確保每個中介節點在轉移付款時不會保留資金，因為只有完成交易直到最終收款人時才能解鎖資金。
+reviewed: false

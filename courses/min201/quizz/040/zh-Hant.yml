@@ -1,0 +1,11 @@
+question: Mining 為 Bitcoin 建立了什麼？
+answer: 底價
+wrong_answers:
+  - 最高價格
+  - 固定價格
+  - 可變價格
+explanation: |
+  Mining 為 Bitcoin 設定了底價，低於此價格時
+  礦工將虧本出售。Mining 的成本
+  顯著影響 Bitcoin 的價格。
+reviewed: true

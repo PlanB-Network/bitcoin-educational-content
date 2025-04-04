@@ -1,0 +1,9 @@
+question: 哪個索引代表衍生路徑中帳戶的外部鏈？
+answer: /0/
+wrong_answers:
+  - /1/
+  - /0'/
+  - /2/
+explanation: |
+  外部鏈由衍生路徑深度 4 的索引 /0/ 來識別。
+reviewed: false

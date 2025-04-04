@@ -1,0 +1,9 @@
+question: Madhumuni ya operesheni ya safu za zamu katika AES ni nini?
+answer: Kuongeza uenezaji kwa kupanga upya baiti kwenye jedwali la serikali
+wrong_answers:
+  - Hakikisha kwamba kila kizuizi kina urefu sawa
+  - Tumia ufunguo wa siri kwa kila safu ya jedwali la serikali
+  - Tambulisha mkanganyiko wa ziada kwa kubadilisha baiti
+explanation: |
+  Uendeshaji wa safu mlalo za zamu katika AES hupanga upya baiti katika jedwali la serikali ili kueneza taarifa, na hivyo kuongeza usambaaji.
+reviewed: false

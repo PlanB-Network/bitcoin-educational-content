@@ -1,0 +1,9 @@
+question: Ni tofauti gani kuu kati ya SHA256 na RIPEMD160?
+answer: RIPEMD160 hutoa heshi fupi kuliko SHA256
+wrong_answers:
+  - SHA256 imepitwa na wakati tofauti na RIPEMD160
+  - RIPEMD160 hutumiwa tu katika utaratibu wa Proof-of-Work
+  - SHA256 kamwe haijaunganishwa na vitendaji vingine vya hashing
+explanation: |
+  RIPEMD160 inazalisha heshi 160-bit, wakati SHA256 inazalisha heshi 256-bit.
+reviewed: false

@@ -1,0 +1,9 @@
+question: RGB State Transition」在 Lightning Network 的背景下代表什麼？
+answer: 更新的 RGB 資產分配整合到 Commitment 交易中
+wrong_answers:
+  - Multisig 2/2 onchain 的新狀態
+  - 更新的 RGB 資產配置已整合至資金交易中
+  - On-Chain 驗證腳本由 HTLC 取代
+explanation: |
+  RGB State Transition 使用 Commitment 交易更新通道中 RGB 資產的分佈。
+reviewed: false

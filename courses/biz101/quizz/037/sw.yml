@@ -1,0 +1,9 @@
+question: Je, ni faida gani kuu ya mfumo ikolojia wa malipo wa Bitcoin katika suala la kubadilisha kati ya suluhu?
+answer: Ni rahisi kubadilisha watoa huduma au kuboresha zana, kwa sababu viwango vya Bitcoin vilivyo wazi, vinavyoweza kushirikiana vinaruhusu uhamishaji wa fedha usio na mshono.
+wrong_answers:
+  - Mtoa huduma anapochaguliwa, biashara haiwezi kamwe kubadili hadi suluhisho lingine.
+  - Suluhu za Bitcoin ni za umiliki na zimefungwa kwa muuzaji mmoja.
+  - Kubadilisha watoa huduma kunahitaji idhini ya serikali na mchakato mrefu wa kisheria.
+explanation: |
+  Kwa kuwa Bitcoin imeundwa kwa kutumia itifaki zilizo wazi, wafanyabiashara wako huru kuhamisha fedha zao au kupitisha masuluhisho mapya kadiri wanavyokua au mahitaji yao yanabadilika. Unyumbulifu huu huhakikisha biashara zinaweza kuchagua zana bora zaidi bila kufuli kwa wachuuzi.
+reviewed: false

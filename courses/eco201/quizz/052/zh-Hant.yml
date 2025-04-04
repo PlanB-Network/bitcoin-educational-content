@@ -1,0 +1,11 @@
+question: 現代貨幣理論 (Modern Monetary Theory, MMT) 的倡議者對印鈔機的立場是什麼？
+answer: MMT 主張者支持印鈔票來達到政治目標。
+wrong_answers:
+  - MMT 主張者在任何情況下都反對印鈔。
+  - MMT 主張者認為印鈔應該由中央銀行控制。
+  - MMT 主張者認為，由於通貨膨脹的風險，應該避免印鈔。
+explanation: |
+  現代貨幣理論 (MMT) 主張者支持印鈔機
+  以達到政治目標，利用 2008 至 2019 年間沒有通貨膨脹的情況
+  作為參數。
+reviewed: true

@@ -1,13 +1,13 @@
 question: Cos'è un hot wallet?
-answer: Un portafoglio Bitcoin sul tuo telefono o computer connesso a Internet.
+answer: Un wallet Bitcoin installato su un telefono o computer connesso a Internet.
 wrong_answers:
-  - Un portafoglio che è fisicamente caldo al tatto.
-  - Un portafoglio che è popolare tra gli utenti Bitcoin.
-  - Un portafoglio che è consigliato per conservare grandi quantità di bitcoin.
+  - Un wallet che è fisicamente caldo al tatto.
+  - Un wallet che è popolare tra gli utenti Bitcoin.
+  - Un wallet consigliato per conservare grandi quantità di bitcoin.
 explanation: |
-  Un hot wallet è un termine usato per descrivere un portafoglio Bitcoin
+  Hot wallet è un termine usato per descrivere un wallet Bitcoin
   che è conservato su un dispositivo con accesso a Internet, come un
   telefono o un computer. In questo modo, è facile effettuare
-  transazioni, ma significa anche che il portafoglio è
+  transazioni, ma significa anche che il wallet è
   potenzialmente vulnerabile a minacce online.
 reviewed: true

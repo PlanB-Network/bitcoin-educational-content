@@ -1,0 +1,8 @@
+question: Je, ni ipi mojawapo ya sababu zinazofanya Bitcoin kupata viputo vingi vya kubahatisha?
+answer: Kwa sababu ya Supply yake ndogo pamoja na mahitaji makubwa.
+wrong_answers:
+  - Kwa sababu Bitcoin haitumiki popote.
+  - Kwa sababu Bitcoin ni Bubble ambayo itatoweka.
+  - Kwa sababu Bitcoin haiko chini ya mizunguko ya kiuchumi.
+explanation: >-
+reviewed: true

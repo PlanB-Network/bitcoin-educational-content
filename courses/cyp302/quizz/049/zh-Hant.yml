@@ -1,0 +1,9 @@
+question: 哪一種群組因其能透過指數運算 generate 所有 Elements 而對公開金鑰密碼術特別重要？
+answer: 環狀群組
+wrong_answers:
+  - 非阿贝尔群
+  - 無限群組
+  - 複數群
+explanation: |
+  在密碼學中，循環群組是不可或缺的，因為它們允許使用單一元素 (稱為產生器) 的幂级数來產生群組的所有 Elements。
+reviewed: false

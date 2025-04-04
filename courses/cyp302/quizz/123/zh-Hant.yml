@@ -1,0 +1,9 @@
+question: 如果 Jim's Sporting Goods 對所有客戶使用相同的鑰匙對，會產生什麼問題？
+answer: 任何客戶都可以存取他人的通訊
+wrong_answers:
+  - 鑰匙會變得太大
+  - 通訊速度會減慢
+  - 客戶每次購買都必須更換鑰匙
+explanation: |
+  如果每個人都使用相同的金鑰，Jim's Sporting Goods 就會損害機密性和完整性，因為每個客戶都有可能存取其他客戶的資料。
+reviewed: false

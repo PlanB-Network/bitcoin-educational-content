@@ -1,0 +1,13 @@
+question: 在 Bitcoin Mining 的背景下，Attakai 的原則是什麼？
+answer: Attakai 原則是指對 Bitcoin Mining 產生的熱量進行生產性利用。
+wrong_answers:
+  - Attakai 原則是指使用 Bitcoin Mining 的可再生能源。
+  - Attakai 的原則是指在 Bitcoin Mining 中使用先進的冷卻系統。
+  - Attakai 的原則是指在 Bitcoin Mining 中使用低耗能的硬體。
+explanation: |
+  Attakai 原則是指
+  通過生產性使用 Mining 來分散
+  產生的熱量。這一概念表明，能源密集型
+  機構可受益於
+  礦工為他們的設施取暖。
+reviewed: true

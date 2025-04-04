@@ -1,0 +1,9 @@
+question: Ufunguo wa umma unahesabiwaje kutoka kwa ufunguo wa kibinafsi?
+answer: Kwa kutumia kuzidisha kwa scalar kwenye curve ya duaradufu
+wrong_answers:
+  - Kwa kutumia Hash kwenye ufunguo wa kibinafsi
+  - Kupitia usimbaji fiche wa asymmetric
+  - Kwa kuongeza mara kwa mara ya maadili ya nambari
+explanation: |
+  Ufunguo wa umma unapatikana kwa kuzidisha kwa ufunguo wa kibinafsi kwa uhakika wa jenereta G kwenye curve ya mviringo.
+reviewed: false

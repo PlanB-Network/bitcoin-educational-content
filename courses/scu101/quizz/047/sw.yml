@@ -1,0 +1,12 @@
+question: Madhumuni ya kutekeleza 2FA ni nini?
+answer: Ili kulinda akaunti zako za mtandaoni dhidi ya ufikiaji usioidhinishwa.
+wrong_answers:
+  - Ili iwe vigumu kwako kufikia akaunti yako mwenyewe
+  - Ili kufuatilia shughuli zako mtandaoni
+  - Ili kuongeza kasi ya muunganisho wako wa intaneti
+explanation: |
+  2FA inaongeza Layer ya ziada ya usalama kwenye mtandao wako
+  hesabu. Hata kama mdukuzi atapata nenosiri lako, atapata
+  hutaweza kufikia akaunti yako bila ya pili
+  kipengele cha uthibitishaji.
+reviewed: true

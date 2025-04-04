@@ -1,0 +1,9 @@
+question: 在兩個參與者之間開啟 Lightning 通道的第一步是什麼？
+answer: 包含金額和公開金鑰的 Exchange 訊息
+wrong_answers:
+  - 立即在 Blockchain 上公佈存款交易
+  - 建立 2/2 多重簽章 Address，無需事先建立 Exchange
+  - 在公開金鑰的 Exchange 之前簽署提款交易
+explanation: |
+  通道的開啟從雙方之間的 Exchange 訊息開始，雙方會分享希望承諾的金額和公開金鑰。
+reviewed: false

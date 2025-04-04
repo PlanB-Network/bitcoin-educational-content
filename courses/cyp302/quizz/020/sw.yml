@@ -1,0 +1,9 @@
+question: Operesheni ya modulo inawakilisha nini katika hisabati?
+answer: Salio la mgawanyiko
+wrong_answers:
+  - Mgawo wa mgawanyiko
+  - Mara mbili nambari ya kuanzia
+  - Nambari inayogawanyika bila salio
+explanation: |
+  Uendeshaji wa modulo unahusisha kubainisha salio la mgawanyiko, kwa mfano, 25 mod 4 ni sawa na 1 kwa sababu sehemu iliyosalia ni 1.
+reviewed: false

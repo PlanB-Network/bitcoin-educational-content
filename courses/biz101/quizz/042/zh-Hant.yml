@@ -1,0 +1,9 @@
+question: 在大多數司法管轄區，當處理 Bitcoin 時，什麼會觸發應課稅事件？
+answer: 出售、交易或使用 Bitcoin 作為付款通常會觸發應課稅事件。
+wrong_answers:
+  - 只是無限期地持有 Bitcoin，而不進行任何交易。
+  - 備份您的 Bitcoin Wallet 或按鍵。
+  - 線上檢視 Bitcoin 價格。
+explanation: |
+  通常情況下，當企業處置或使用其 Bitcoin 時會發生應課稅事件，而不僅僅是持有 Bitcoin。每次出售或 Exchange Bitcoin 以換取商品、服務或法定貨幣，都會產生 generate 應課稅收益或虧損。
+reviewed: false

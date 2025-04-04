@@ -1,0 +1,9 @@
+question: Je, ni jukumu gani la ada za uelekezaji katika Lightning Network?
+answer: Kuhamasisha nodi za mpatanishi kutoa ukwasi wao kwa uhamishaji wa malipo
+wrong_answers:
+  - Ili kupunguza idadi ya miamala kwenye mtandao
+  - Ili kuhakikisha kuwa kila kituo kina fedha za kutosha
+  - Ili kuhesabu kiotomatiki njia fupi zaidi
+explanation: |
+  Ada za uelekezaji hutumika kufidia nodi za kati zinazotuma malipo kwa kutoa ukwasi wao ili kuwezesha uhamishaji wa fedha kwenye mtandao.
+reviewed: false

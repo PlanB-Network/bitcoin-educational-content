@@ -1,0 +1,9 @@
+question: Ni nini huwezesha usawazishaji wa data wa wakati halisi kati ya mifumo ya Enterprise Bitcoin na programu ya ERP?
+answer: API
+wrong_answers:
+  - Faili za CSV
+  - Upakiaji wa kundi
+  - Ripoti za barua pepe
+explanation: |
+  API huruhusu muunganisho unaoendelea, wa wakati halisi.
+reviewed: false

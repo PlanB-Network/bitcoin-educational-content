@@ -1,0 +1,10 @@
+question: Je, kuna washiriki wangapi katika pembejeo katika shughuli ya PayJoin?
+answer: 2
+wrong_answers:
+  - 1
+  - 3
+  - 0
+  There are 2 participants: the payer and the recipient of the payment.
+explanation: |
+
+reviewed: false

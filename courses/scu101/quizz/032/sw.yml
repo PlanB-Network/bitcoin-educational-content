@@ -1,0 +1,12 @@
+question: Ransomware ni nini?
+answer: Aina ya programu hasidi ambayo husimba data ya mtumiaji kwa njia fiche na kudai fidia ili kusimbua.
+wrong_answers:
+  - Aina ya programu ya kingavirusi ambayo ina uwezo wa kusafisha akiba ya kompyuta na vidakuzi kwa malipo ya ada ya mara moja.
+  - aina ya programu kutumika kwa ajili ya kurejesha data, ni kuwa kawaida kabisa katika Ulaya siku hizi.
+  - Aina ya programu inayotumika kuhifadhi nakala ya data, kwa kawaida hufanya nakala moja kila baada ya siku 7.
+explanation: |
+  Ransomware ni aina ya programu hasidi ambayo husimba kwa njia fiche
+  data ya mtumiaji na kudai fidia ili kusimbua. Ni
+  inazidi kuwa ya kawaida na inaweza kuwa shida sana
+  kwa kampuni au mtu binafsi.
+reviewed: true

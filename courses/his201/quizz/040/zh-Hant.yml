@@ -1,0 +1,9 @@
+question: Satoshi Nakamoto 總共開採了多少比特幣（約數）？
+answer: 1,100,000
+wrong_answers:
+  - 11,000,000
+  - 110,000
+  - 11,000
+explanation: |
+   根據 Whale Alert 在 2020 年發表的一份研究報告，Satoshi 擁有 1,122,693 枚比特幣。Satoshi 在 2010 年 5 月停止了他的 Mining 活動。
+reviewed: false

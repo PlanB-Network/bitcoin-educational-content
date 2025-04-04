@@ -1,11 +1,11 @@
-question: Qual è un modo per testare personalmente la Lightning Network?
+question: Qual è un modo per testare personalmente Lightning Network?
 answer: Provando l'applicazione per podcast chiamata Fountain.
 wrong_answers:
   - Minando Bitcoin con un computer personale.
   - Acquistando Bitcoin dalla banca.
   - Creando una nuova criptovaluta.
 explanation: >-
-  Un modo per testare personalmente la Lightning Network è provare l'applicazione
-  per podcast Fountain, che ti permette di essere ricompensato con alcuni sats
-  ascoltando i tuoi podcast preferiti.
+  Un modo per testare personalmente Lightning Network è provare l'applicazione
+  per podcast Fountain, che permette di essere ricompensati con alcuni sats
+  ascoltando i podcast preferiti.
 reviewed: true

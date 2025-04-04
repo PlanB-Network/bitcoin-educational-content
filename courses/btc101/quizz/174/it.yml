@@ -1,4 +1,4 @@
-question: Quali sono i costi tipici per un minatore?
+question: Quali sono i costi tipici per un miner?
 answer: Consumo di elettricità e acquisto di hardware.
 wrong_answers:
   - Solo acquisto di hardware.
@@ -6,5 +6,5 @@ wrong_answers:
   - Consumo di elettricità e commissioni sulle transazioni.
 explanation: >-
   Il mining di Bitcoin richiede una notevole potenza computazionale, che a sua volta consuma elettricità.
-  Inoltre, i minatori devono investire in hardware specializzato per minare efficacemente.
+  Inoltre, i miner devono investire in hardware specializzato per minare efficacemente.
 reviewed: false

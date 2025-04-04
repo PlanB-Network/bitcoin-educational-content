@@ -1,0 +1,13 @@
+question: Je, lengo kuu la kuundwa kwa Bitcoin ni lipi?
+answer: Kutenganisha serikali na pesa.
+wrong_answers:
+  - Ili kuondokana na kiwango cha dhahabu.
+  - Kufanya miamala haraka na kwa bei nafuu.
+  - Kufanya kila mtu kuwa tajiri.
+explanation: |
+  Bitcoin iliundwa kwa lengo la kutenganisha Jimbo
+  kutoka kwa pesa. Ni majibu ya changamoto za kimfumo za
+  mfumo wa sasa wa fedha, ambapo Serikali ina kamili
+  kudhibiti juu ya pesa Supply na inaweza kuibadilisha kuwa yake
+  faida mwenyewe.
+reviewed: true

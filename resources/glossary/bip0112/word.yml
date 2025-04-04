@@ -1,0 +1,11 @@
+id: b08cc3c9-5e06-441f-8e20-e3347433b8ca
+en_word: BIP0112
+related_words: ["OP_CHECKSEQUENCEVERIFY (0XB2)"]
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-03-04
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0

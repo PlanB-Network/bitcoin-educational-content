@@ -1,0 +1,9 @@
+question: Ni maoni gani potofu ambayo masomo ya kitamaduni hutegemea kulingana na Bastiat?
+answer: Wazo la mbunge kuwa muweza wa yote
+wrong_answers:
+  - Nadharia ya Plato ya Mawazo
+  - Wazo la sababu ya mwisho
+  - Wazo la jamii ya kikaboni
+explanation: |
+  Bastiat anaikosoa elimu ya kitambo kwa kutilia mkazo wazo kwamba mbunge ni muweza wa yote na lazima atengeneze jamii, mtazamo kinyume na kanuni zake za uhuru wa mtu binafsi.
+reviewed: false

@@ -1,0 +1,9 @@
+question: PBKDF2 在 Bitcoin 中使用的迭代次數是多少？
+answer: 2048
+wrong_answers:
+  - 1024
+  - 4096
+  - 512
+explanation: |
+  PBKDF2 重複 HMAC-SHA512 程序 2048 次，以加強安全性。
+reviewed: false

@@ -1,0 +1,9 @@
+question: 2011 年 8 月 1 日，Bitcoin 論壇移至哪個網域名稱？
+answer: bitcointalk.org
+wrong_answers:
+  - forum.Bitcoin.org
+  - bitcoinforum.org
+  - bitco.in/forum
+explanation: |
+  在5月17日被移到forum.Bitcoin.org後，從8月1日開始改用bitcointalk.org的網址。多年來，它被稱為BitcoinTalk。
+reviewed: false

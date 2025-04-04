@@ -1,0 +1,9 @@
+question: 誰在 2011 年 3 月製作了第一個關於 Bitcoin 的高品質影片？
+answer: Stefan Thomas
+wrong_answers:
+  - Mike Hearn
+  - Christian Decker
+  - Bruce Wagner
+explanation: |
+  這段影片名為「什麼是 Bitcoin」，由社群集資製作而成。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Je, jukumu la seed katika Bitcoin HD Wallet ni nini?
+answer: Kutumika kama mahali pa kuanzia kwa upataji wa funguo zote
+wrong_answers:
+  - Hifadhi miamala ya Wallet
+  - Moja kwa moja generate ufunguo mkuu wa umma
+  - Hakikisha usiri wa muamala
+explanation: |
+  seed ni mlolongo wa 512-bit unaotokana na maneno ya Mnemonic na passphrase. Inaunda msingi wa funguo zote katika Wallet.
+reviewed: false

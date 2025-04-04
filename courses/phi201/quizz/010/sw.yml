@@ -1,0 +1,9 @@
+question: Ni nini kinachozingatiwa mara nyingi katika vitabu vya kiada vya historia ya jadi?
+answer: Ushindi wa kijeshi na wasifu wa viongozi
+wrong_answers:
+  - Ukuzaji wa mawazo na harakati za kifalsafa
+  - Mapigano ya uhuru na haki za mtu binafsi
+  - Maendeleo ya kisayansi na kiteknolojia
+explanation: |
+  Katika vitabu vya kiada vya historia ya jadi, mkazo mara nyingi huwekwa kwenye ushindi wa kijeshi na wasifu wa viongozi, na hivyo kupuuza athari za mawazo, harakati za kijamii, na maendeleo katika maeneo mengine.
+reviewed: false

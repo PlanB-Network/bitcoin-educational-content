@@ -1,0 +1,9 @@
+question: Je, lengo kuu la zana maalum za uhasibu za Bitcoin ni nini?
+answer: Ili kurahisisha ukusanyaji na usindikaji otomatiki wa data inayohusiana na Bitcoin
+wrong_answers:
+  - Ili kuimarisha usalama wa funguo za kibinafsi za Bitcoin
+  - Ili kuwezesha biashara ya moja kwa moja ya Bitcoin kwenye ubadilishanaji wa madaraka kwa biashara
+  - Kuweka mfumo wa PoS wa kukubali malipo ya Bitcoin
+explanation: |
+  Zana hizi zimeundwa kufanyia ukusanyaji data kiotomatiki, ubadilishaji wa umbizo, ukokotoaji wa kodi na uainishaji wa shughuli.
+reviewed: false

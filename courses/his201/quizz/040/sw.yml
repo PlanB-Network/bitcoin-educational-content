@@ -1,0 +1,9 @@
+question: Ni bitcoins ngapi (takriban) Satoshi Nakamoto mgodi kwa jumla?
+answer: 1,100,000
+wrong_answers:
+  - 11,000,000
+  - 110,000
+  - 11,000
+explanation: |
+   bitcoins 1,122,693 kulingana na utafiti wa Whale Alert iliyochapishwa mnamo 2020. Satoshi ilisitisha shughuli zake za Mining mnamo Mei 2010.
+reviewed: false

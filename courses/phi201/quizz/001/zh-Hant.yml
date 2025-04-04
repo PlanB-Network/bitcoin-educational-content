@@ -1,0 +1,10 @@
+question: 歷史與哲學之間有何差異？
+answer: 所有其他答案
+wrong_answers:
+  - 歷史描述過去，而哲學判斷過去
+  - 歷史是事實，而哲學是規範
+  - 歷史著重於事件，而哲學則著重於概念
+  The difference between history and philosophy lies in their respective approaches: history concentrates on describing and analyzing past events, while philosophy seeks to judge, interpret, and establish norms based on abstract concepts.
+explanation: |
+
+reviewed: false

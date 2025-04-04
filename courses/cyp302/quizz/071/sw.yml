@@ -1,0 +1,8 @@
+question: Usimbaji fiche hufanyaje kazi katika shift cipher?
+answer: Kwa kutoa ufunguo kutoka kwa kila herufi iliyosimbwa kwa njia fiche na kutumia modulo 26
+wrong_answers:
+  - Kwa kutoa ufunguo kutoka kwa kila herufi iliyosimbwa na kutumia modulo 20
+  - Kwa kuzidisha ufunguo kwa kila herufi iliyosimbwa
+  - Kwa kugawanya ufunguo kutoka kwa kila herufi iliyosimbwa na kutumia modulo 27
+explanation: |
+  Katika shifti ya misimbo, usimbuaji unafanywa kwa kutoa ufunguo kutoka kwa kila herufi iliyosimbwa, kisha kutumia modulo 26 ili kurudi kwenye maandishi asili. Moduli ya 26 inaruhusu kurudi mwanzo wa alfabeti baada ya herufi Z.

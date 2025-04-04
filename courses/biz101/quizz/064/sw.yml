@@ -1,0 +1,9 @@
+question: Ni kipengele gani kinachofanya suluhisho la Uswizi la Bitcoin Pay lifae hasa biashara ndogo ndogo katika wasifu Muhimu?
+answer: Programu ya PoS ifaayo kwa watumiaji
+wrong_answers:
+  - Vipengele vya juu vya biashara ya sarafu nyingi
+  - Usimamizi wa saini nyingi za Wallet
+  - Ujumuishaji kamili wa uchanganuzi wa Blockchain
+explanation: |
+  Uswizi Bitcoin Pay imeundwa kwa PoS Interface iliyonyooka ambayo hurahisisha shughuli za kila siku.
+reviewed: false

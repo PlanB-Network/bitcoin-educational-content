@@ -1,0 +1,11 @@
+question: Ni gharama gani ya kuendesha nodi ya Bitcoin kwenye Raspberry Pi 4 kwa suala la matumizi ya umeme kwa mwaka (kama 2023)?
+answer: Chini kidogo ya 10€ kwa mwaka.
+wrong_answers:
+  - Zaidi kidogo ya 50 € kwa mwaka.
+  - Chini kidogo ya 100€ kwa mwaka.
+  - Karibu € 200 kwa mwaka.
+explanation: |
+  Kuendesha nodi ya Bitcoin kwenye Raspberry Pi 4 kunagharimu kidogo
+  chini ya 10€ kwa mwaka katika suala la matumizi ya umeme
+  hadi 2023.
+reviewed: true

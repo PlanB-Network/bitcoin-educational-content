@@ -1,0 +1,9 @@
+question: Ni sifa gani kuu ya kazi ya kriptografia ya Hash?
+answer: Inazalisha pato la urefu usiobadilika kwa pembejeo yoyote, bila kujali ukubwa wake.
+wrong_answers:
+  - Husimba data kwa njia fiche kwa kutumia kitufe cha ulinganifu.
+  - Inazalisha pato la kutofautiana kulingana na urefu wa pembejeo.
+  - Inasimbua ujumbe kwa kutumia ufunguo wa umma.
+explanation: |
+  Chaguo za kukokotoa za Hash hutengeneza Hash ya urefu usiobadilika, haijalishi ukubwa wa ingizo.
+reviewed: false

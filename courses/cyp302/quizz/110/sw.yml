@@ -1,0 +1,9 @@
+question: Ni nini kinachofanya RC4 kuwa hatarini leo licha ya umaarufu wake wa zamani?
+answer: Udhaifu ulioandikwa vyema katika kizazi kikuu cha mkondo
+wrong_answers:
+  - Ufunguo mfupi sana wa kuhakikisha usalama
+  - Kutokuwa na uwezo wa kufanya kazi na maandishi marefu
+  - Sharti la kutumia ufunguo wa umma pamoja na ufunguo wa faragha
+explanation: |
+  RC4 ina udhaifu mkubwa katika uzalishaji muhimu wa mtiririko, ambao huweka usimbaji fiche kwenye mashambulizi, hivyo basi kuachwa kwake taratibu katika itifaki za usalama za kisasa.
+reviewed: false

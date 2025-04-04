@@ -1,0 +1,9 @@
+question: Kwa nini wanakemia hutumia nadharia ya kikundi?
+answer: Kuainisha maumbo ya molekuli
+wrong_answers:
+  - Kuchambua vifungo vya kemikali
+  - Kuhesabu molekuli ya molekuli
+  - Kutabiri athari za kemikali
+explanation: |
+  Nadharia ya kikundi inaruhusu wanakemia kuainisha maumbo ya molekuli kulingana na ulinganifu wao, ambayo husaidia katika kuelewa sifa zao za kimuundo.
+reviewed: false

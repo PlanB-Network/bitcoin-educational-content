@@ -1,0 +1,12 @@
+question: Ni faida gani kuu ya sarafu ya fiat?
+answer: Wanaweza kugawanywa kwa urahisi.
+wrong_answers:
+  - Wanadhibitiwa na chama kikuu.
+  - Hazisafirishwi kwa urahisi.
+  - Zinafaa kushikilia thamani kwa muda wote.
+explanation: |
+  Fedha za Fiat, kama vile dola na euro, ni nyingi sana
+  Liquid na inaweza kusafirishwa kwa urahisi kwa sababu sasa ni nyingi
+  kidigitali. Walakini, thamani yao inaharibiwa kila wakati
+  mfumuko wa bei wa fedha.
+reviewed: true

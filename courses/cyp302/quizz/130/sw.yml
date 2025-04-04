@@ -1,0 +1,9 @@
+question: Mamlaka za cheti zina jukumu gani katika mchakato wa usambazaji wa ufunguo wa umma?
+answer: Wanatoa vyeti vinavyohakikisha uhalisi wa funguo za umma
+wrong_answers:
+  - Wao generate funguo binafsi kwa watumiaji
+  - Wanahifadhi funguo za umma kwa watumiaji wote
+  - Wanahakikisha usimbaji fiche wa ujumbe kati ya watumiaji
+explanation: |
+  Mamlaka ya cheti hutoa vyeti vinavyounganisha ufunguo wa umma kwa mmiliki wake, hivyo kuruhusu watumiaji kuthibitisha uhalisi wa funguo za umma wanazotumia.
+reviewed: false

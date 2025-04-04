@@ -1,0 +1,12 @@
+question: Je, ni mazoezi gani yanayopendekezwa wakati wa kuingiza ufunguo wa USB kwenye kompyuta yako?
+answer: Usiweke vitufe vya USB visivyojulikana au vinavyoshukiwa.
+wrong_answers:
+  - Ingiza ufunguo wowote wa USB bila kuangalia.
+  - Fomati kitufe cha USB kila wakati kabla ya kuingiza.
+  - Ingiza ufunguo wa USB na kisha uangalie virusi.
+explanation: |
+  Kuingiza vitufe vya USB visivyojulikana au vinavyoshukiwa kunaweza kufichua
+  mfumo kwa programu hasidi ambazo zinaweza kuzindua kiotomatiki
+  juu ya kuingizwa. Kuangalia ufunguo wa USB hakutakuwa na maana mara moja
+  imeingizwa.
+reviewed: true

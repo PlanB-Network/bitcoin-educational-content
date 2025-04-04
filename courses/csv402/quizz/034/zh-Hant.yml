@@ -1,0 +1,9 @@
+question: Bob (接收者) 從 Alice (付款者) 收到 Terminal Consignment 後，會執行什麼動作？
+answer: 檢查 State Transition 的有效性並簽署
+wrong_answers:
+  - 修改 Contract Schema 並傳送給 Alice
+  - 為新作業建立 Invoice
+  - 簽署 Alice 的 PSBT，並在鏈上分發
+explanation: |
+  Bob 檢查 Consignment，確定轉換符合規則，然後簽名確認同意。
+reviewed: false

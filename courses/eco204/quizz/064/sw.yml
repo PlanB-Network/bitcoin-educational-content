@@ -1,0 +1,11 @@
+question: Wafua dhahabu walikuwa na jukumu gani katika karne ya 13 Italia?
+answer: Walitoa bili za Exchange katika Exchange kwa maua yaliyowekwa
+wrong_answers:
+  - Waliunda soko la kwanza la hisa
+  - Walianzisha dhana ya thamani ya wakati wa pesa
+  - Walizuia ufikiaji wa Mto Scheldt
+explanation: |
+  Katika karne ya 13 Italia, wafua dhahabu walitoa bili za Exchange katika Exchange
+  kwa florins zilizowekwa. Maua haya ya maua yaliwekwa kwa uangalifu katika vaults zao, na kutengeneza
+  Layer ya kwanza ya pesa, wakati bili za Exchange ziliunda Layer ya pili.'
+reviewed: false

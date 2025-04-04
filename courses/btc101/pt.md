@@ -1048,6 +1048,7 @@ Atualmente, a Bitcoin continua a sobreviver e a crescer ainda mais, sendo cada v
 
 ![image](assets/en/71.webp)
 
+
 ## Obter Bitcoins através do trabalho
 
 <chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>
@@ -1085,6 +1086,10 @@ https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4
 https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Solução para grandes estruturas ou bitcoiners apaixonados: Servidor BTCpay
+
+Para aprofundar este assunto, recomendamos o nosso treinamento BIZ101! Descubra como integrar efetivamente o bitcoin no caixa da sua empresa, aceitar bitcoin como meio de pagamento de acordo com o perfil da sua organização e entender os requisitos fiscais e contábeis relacionados:
+
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## Poupar com Bitcoin
 
@@ -1139,7 +1144,7 @@ Existem várias formas de adquirir bitcoins, cada uma sujeita ao seu próprio co
 
 - Plataformas DCA
 
-Como introduzimos acima, um método comum para acumular bitcoins é o Dollar Cost Averaging (DCA), que envolve a compra regular de pequenas quantidades. Várias plataformas oferecem este serviço, como as listadas na nossa [página dedicada] (https://planb.network/tutorials/exchange). Para além da simplicidade da configuração de uma DCA, os levantamentos para a sua carteira são geralmente automáticos, o que significa que terá sempre controlo sobre os seus activos.
+Como introduzimos acima, um método comum para acumular bitcoins é o Dollar Cost Averaging (DCA), que envolve a compra regular de pequenas quantidades. Várias plataformas oferecem este serviço, como as listadas na nossa [página dedicada](https://planb.network/tutorials/exchange). Para além da simplicidade da configuração de uma DCA, os levantamentos para a sua carteira são geralmente automáticos, o que significa que terá sempre controlo sobre os seus activos.
 
 Atualmente, quase todas as soluções DCA são relativamente eficientes e têm taxas quase semelhantes, pelo que a escolha dependerá mais da disponibilidade no seu país.
 

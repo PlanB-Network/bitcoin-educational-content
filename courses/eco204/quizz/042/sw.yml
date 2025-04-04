@@ -1,0 +1,11 @@
+question: Je! ni sarafu gani ya Argentina kabla ya 1826?
+answer: Dola ya Uhispania.
+wrong_answers:
+  - Peso ya Argentina.
+  - Peso moneda nacional.
+  - Peso halisi.
+explanation: |
+  Kabla ya 1826, Argentina ilitumia dola ya Uhispania. Baada ya uhuru wake
+  mnamo 1816, ilianzisha sarafu yake mwenyewe kulingana na halisi ya Uhispania, na kusababisha
+  kuundwa kwa sarafu sawa.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Je, ni ipi mojawapo ya faida zinazoweza kutokea za kukubali teknolojia mpya kama vile Bitcoin?
+answer: Inaweza generate uchumi mkubwa wa kiwango duniani kote.
+wrong_answers:
+  - Inaweza kusababisha kuporomoka kwa uchumi wa dunia.
+  - Inaweza kusababisha kupungua kwa akili ya mwanadamu.
+  - Inaweza kusababisha kuondolewa kwa kazi zote.
+explanation: >-
+reviewed: true

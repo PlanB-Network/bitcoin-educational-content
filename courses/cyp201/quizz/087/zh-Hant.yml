@@ -1,0 +1,9 @@
+question: 與 SegWit v0 位址相比，SegWit v1 (P2TR) 位址有何獨特之處？
+answer: 他們直接使用 Address 中的原始公開金鑰。
+wrong_answers:
+  - 它們以 base58check 編碼。
+  - 它們需要兩個簽名才有效。
+  - 他們在 Address 中使用公開金鑰 Hash。
+explanation: |
+  SegWit v1 (P2TR) 位址不使用公開金鑰的 Hash，而是直接使用 Taproot 公開金鑰。
+reviewed: false

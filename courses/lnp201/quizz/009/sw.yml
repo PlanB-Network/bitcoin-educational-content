@@ -1,0 +1,9 @@
+question: Katika shughuli ya Bitcoin, hati ya kufunga hufanya nini?
+answer: Inaweka masharti maalum ya kutumia fedha zinazohusiana
+wrong_answers:
+  - Inatuma pesa kiotomatiki kwa anwani nyingi
+  - Huamua thamani ya UTXO itakayoundwa
+  - Inafunga fedha kwa muda ili kuzuia matumizi makubwa
+explanation: |
+  Hati ya kufunga inaweka masharti, kama vile kutia sahihi kwa ufunguo wa faragha, ili kufungua na kutumia fedha katika shughuli ya ununuzi.
+reviewed: false

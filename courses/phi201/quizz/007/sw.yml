@@ -1,0 +1,9 @@
+question: Je, ni aina gani mbili za uporaji zilizoelezewa na Bastiat?
+answer: Uporaji halali na uporaji haramu
+wrong_answers:
+  - Uporaji wa maadili na uporaji usio wa kiadili
+  - Nyara za ndani na nyara za nje
+  - Uporaji wa bidhaa na uporaji wa huduma
+explanation: |
+  Bastiat hutofautisha kati ya uporaji wa kisheria, ambao unafafanuliwa na sheria na mara nyingi hutekelezwa na serikali (kama vile kodi), na uporaji haramu, ambao hutokea nje ya mfumo wa kisheria, kama vile wizi au kushambuliwa.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Kwa nini dhahabu haiwezi kufanya vyema katika ulimwengu wa utandawazi na kidijitali?
+answer: Kwa sababu inahitaji huluki kuu kuifanya iweze kugawanywa na kubadilishana kwa urahisi.
+wrong_answers:
+  - Kwa sababu haina thamani ya kutosha.
+  - Kwa sababu si nadra kutosha.
+  - Kwa sababu inamomonyoka kwa muda.
+explanation: |
+  Dhahabu haiwezi kuendelea katika ulimwengu wa utandawazi na kidijitali
+  kwa sababu inahitaji huluki kuu kuifanya igawanywe na
+  kubadilishana kwa urahisi. Hii inafanya kuwa chini ya vitendo kutumia katika
+  ulimwengu ambapo miamala inazidi kuwa ya kidijitali na
+  kugatuliwa.
+reviewed: true

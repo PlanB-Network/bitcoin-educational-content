@@ -1,0 +1,11 @@
+question: Inamaanisha nini kwa mtu mzuri kuwa na mshahara mkubwa?
+answer: Inapaswa kutamaniwa na watu wengi iwezekanavyo, mara nyingi.
+wrong_answers:
+  - Inapaswa kuhitajika na watu wachache, mara nyingi.
+  - Inapaswa kutamaniwa na watu wengi iwezekanavyo, wakati fulani.
+  - Inapaswa kutamaniwa na watu wachache, wakati fulani.
+explanation: |
+  Nzuri yenye mishahara ya juu ni ile inayohitajika sana
+  na inaweza kubadilishwa kwa urahisi kwa bidhaa au huduma zingine.
+  Hii inafanya kuwa inafaa kutumika kama pesa.
+reviewed: true

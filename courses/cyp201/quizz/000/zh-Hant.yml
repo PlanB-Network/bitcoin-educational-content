@@ -1,0 +1,9 @@
+question: Hash 函式的主要功能是什麼？
+answer: 它可將任意長度的資訊轉換成固定大小的指紋
+wrong_answers:
+  - 它會加密訊息，使其無法讀取
+  - 僅用於驗證 Bitcoin 軟體的完整性
+  - 它為 Bitcoin 錢包產生私密金鑰
+explanation: |
+  Hash 函式可將任何大小的資料轉換為固定大小的 Hash，這對 Bitcoin 中的許多應用程式而言至關重要。
+reviewed: false

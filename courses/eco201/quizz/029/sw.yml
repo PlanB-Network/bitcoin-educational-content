@@ -1,0 +1,17 @@
+question: Ni nini dhana ya upendeleo wa wakati?
+answer: Upendeleo wa wakati ni tathmini ya kibinafsi ya thamani ya bidhaa za siku zijazo ikilinganishwa na bidhaa za sasa. Mengine yote yakiwa sawa, bidhaa za sasa zinapendelewa kiasili kuliko bidhaa za siku zijazo.
+wrong_answers:
+  - Upendeleo wa wakati ni tathmini ya lengo la thamani ya bidhaa za baadaye ikilinganishwa na bidhaa za sasa.
+  - Upendeleo wa wakati ni upendeleo wa asili wa bidhaa za baadaye kuliko bidhaa za sasa.
+  - Upendeleo wa wakati ni tathmini ya kibinafsi ya thamani ya bidhaa za sasa ikilinganishwa na bidhaa za siku zijazo.
+explanation: |
+  Upendeleo wa wakati ni tathmini ya kibinafsi ya thamani
+  ya bidhaa za baadaye ikilinganishwa na bidhaa za sasa. Kwa kuwa sisi ni
+  hufa, na wakati ujao daima hauna uhakika, sisi kwa kawaida
+  wanapendelea kupata nzuri sasa badala ya baadaye.
+  Ingawa upendeleo wa wakati unaweza kutofautiana kati ya watu binafsi, kwa sababu
+  kwa maelfu ya mambo kama vile utamaduni, mali, elimu,
+  fiziolojia, nk, upendeleo wa wakati huwa mzuri kila wakati,
+  ikimaanisha kuwa vitu vyote ni sawa, tunathamini sasa kila wakati
+  bidhaa zaidi ya bidhaa za baadaye.
+reviewed: true

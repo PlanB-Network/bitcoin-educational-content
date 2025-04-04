@@ -1,0 +1,9 @@
+question: The Times 03/Jan/2009 Chancellor on brink of second bailout for banks in the first Bitcoin block 這句話的意義何在？
+answer: 它突顯了我們的金融體系將損失社會化的能力
+wrong_answers:
+  - 這表示 Satoshi 對《時報》的讚賞
+  - 它提供了一個很好的例子，說明救助如何造福了我們的社會
+  - 它向我們展示了 Bitcoin 在 Blockchain 中儲存訊息的能力。
+  This is a reference to a Times newspaper [article](https: //www.thetimes.co.uk/article/chancellor-alistair-darling-on-brink-of-second-bailout-for-banks-n9l382mn62h) reflecting Satoshi’s
+explanation: |
+reviewed: true

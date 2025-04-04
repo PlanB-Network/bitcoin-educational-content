@@ -1,0 +1,9 @@
+question: Ni katika hali gani tunaweza kusema kwamba matukio mawili ni huru?
+answer: Uwezekano wa moja hauathiri uwezekano wa nyingine
+wrong_answers:
+  - Matukio haya mawili daima hutokea wakati huo huo
+  - Wao ni pande kipekee
+  - Uwezekano wao wa pamoja ni sawa na uwezekano mkubwa zaidi wa hizo mbili
+explanation: |
+  Matukio mawili ni huru ikiwa uwezekano wa moja haubadilishi uwezekano wa nyingine, kama vile droo ya bahati nasibu isiyo na ushawishi juu ya hali ya hewa ya siku inayofuata.
+reviewed: false

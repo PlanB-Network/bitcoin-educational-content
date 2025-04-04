@@ -1,0 +1,10 @@
+question: 網路安全中使用的程式語言有哪些？
+answer: Python、C、Java
+wrong_answers:
+  - HTML、CSS、JavaScript
+  - Swift、Kotlin、Ruby
+  - PHP、Perl、Lua
+explanation: |
+  該章節將 Python、C 和 Java 列為一些
+  用於網路安全的程式語言。
+reviewed: true

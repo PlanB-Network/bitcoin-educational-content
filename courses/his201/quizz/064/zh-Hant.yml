@@ -1,0 +1,10 @@
+question: 以法語發表的第一篇介紹 Bitcoin 的文章的作者是誰？
+answer: Lucien Grondin (grondilu)
+wrong_answers:
+  - Lionel Dricot (Ploum)
+  - Amaury Séchet (deadalnix)
+  - David François (davout)
+  It was a [text](https: //linuxfr.org/news/connaissez-vous-les-bitcoins) published on September 30, 2010, on LinuxFr.org titled Do you know about bitcoins?.
+explanation: |
+
+reviewed: false

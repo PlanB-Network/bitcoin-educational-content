@@ -1,0 +1,9 @@
+question: 哪個數學領域提供數學理論的現代工具？
+answer: 抽象代數
+wrong_answers:
+  - 幾何學
+  - 統計資料
+  - 複雜分析
+explanation: |
+  抽象代數作為數學的一門分支學科，提供了能夠分析和理解數理中使用的數的屬性的數學結構。
+reviewed: false

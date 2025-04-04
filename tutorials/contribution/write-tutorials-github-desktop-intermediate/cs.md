@@ -133,7 +133,12 @@ Do pole "ID GitHub přispěvatele" zadejte své uživatelské jméno GitHub.
 
 ![DATA-CREATOR-PY](assets/fr/40.webp)
 
-Do pole "PBN professor's ID" zadejte svůj identifikátor pomocí slov ze seznamu BIP39, jak je uveden na [vašem profilu profesora](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors).
+Dále je nutné vyplnit váš profil profesora. K tomu máte několik možností:
+- Zadejte první písmena svého jména do pole "Professor Name". Vaše jméno se pak objeví v rozbalovací nabídce "Prof. Suggestions" umístěné níže. Vyberte jej kliknutím na něj;
+- Nebo můžete přímo kliknout na rozbalovací nabídku "Prof. Suggestions" a vybrat své profesorské jméno.
+
+Tato akce automaticky vyplní vaše UUID profesora do odpovídajícího pole.
+
 
 ![DATA-CREATOR-PY](assets/fr/41.webp)
 
@@ -213,75 +218,94 @@ bitcoin-educational-content/
 
 Vyplňte soubor `tutorial.yml` zkopírováním následující šablony:
 
+
 ```
-id:
-project_id:
+id: 
+
+project_id: 
+
 tags:
--
--
--
-category:
-level:
-credits:
-professor:
+  - 
+  - 
+  - 
+
+category: 
+
+level: 
+
+professor_id:
+
 # Proofreading metadata
+
 original_language:
 proofreading:
-- language:
-last_contribution_date:
-urgency:
-contributors_id:
--
-reward:
+  - language: 
+    last_contribution_date:
+    urgency:
+    contributor_names:
+      - 
+    reward:
 ```
 
-Zde jsou uvedeny podrobnosti o povinných polích:
+Zde jsou povinná pole:
 
+- **id** : UUID (_Universally Unique Identifier_) umožňující jedinečně identifikovat tutoriál. Můžete jej vygenerovat pomocí [online nástroje](https://www.uuidgenerator.net/version4). Jedinou podmínkou je, aby toto UUID bylo náhodné, aby se zabránilo konfliktu s jiným UUID na platformě;
 
-- id**: UUID (_Universally Unique Identifier_), který slouží k jednoznačné identifikaci výukového programu. Můžete jej vygenerovat pomocí [online nástroje](https://www.uuidgenerator.net/version4). Jediným požadavkem je, aby tento UUID byl náhodný, aby nedošlo ke konfliktu s jiným UUID na platformě;
-- project_id**: UUID společnosti nebo organizace, která stojí za nástrojem prezentovaným v tutoriálu [ze seznamu projektů](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Pokud například vytváříte výukový program o softwaru Sparrow Wallet, najdete toto `project_id` v následujícím souboru: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Tato informace je přidána do souboru YAML vašeho výukového programu, protože síť Plan ₿ udržuje databázi všech společností a organizací působících v oblasti Bitcoinu nebo souvisejících projektů. Přidáním `project_id` subjektu souvisejícího s vaším tutoriálem vytvoříte spojení mezi těmito dvěma prvky;
-- tagy**: 2 nebo 3 relevantní klíčová slova související s obsahem výukového programu, vybraná výhradně [ze seznamu značek sítě Plan ₿](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
-- kategorie**: Podkategorie odpovídající obsahu výukového programu podle struktury webu sítě Plan ₿ (například pro peněženky: `desktop`, `hardware`, `mobil`, `zálohování`);
-- úroveň**: Úroveň obtížnosti výukového programu, mezi:
-    - `začátečník`
+- **project_id** : UUID společnosti nebo organizace stojící za nástrojem popsaným v tutoriálu [ze seznamu projektů](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Například pokud vytváříte tutoriál o softwaru Green Wallet, můžete najít `project_id` v následujícím souboru: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Tato informace je přidána do YAML souboru vašeho tutoriálu, protože Plan ₿ Network udržuje databázi všech společností a organizací působících na Bitcoinu nebo souvisejících projektech. Přidáním `project_id` subjektu spojeného s vaším tutoriálem vytváříte vazbu mezi těmito dvěma prvky;
+
+- **tags** : 2 nebo 3 relevantní klíčová slova související s obsahem tutoriálu, vybraná výhradně [ze seznamu značek Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+
+- **category** : Podkategorie odpovídající obsahu tutoriálu podle struktury stránky Plan ₿ Network (například pro peněženky: `desktop`, `hardware`, `mobile`, `backup`);
+
+- **level** : Úroveň obtížnosti tutoriálu, vybraná z následujících možností:
+    - `beginner`
     - `intermediate`
-    - `pokročilý`
+    - `advanced`
     - `expert`
-- profesor**: (slova BIP39), jak je zobrazeno na [vašem profilu profesora](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
-- original_language**: Původní jazyk výukového programu (například `fr`, `en` atd.);
-- korektury**: Informace o procesu korektur. Vyplňte první část, protože korektura vlastního výukového materiálu se počítá jako první ověření:
-    - jazyk**: Kód jazyka korektury (například `fr`, `en` atd.).
-    - last_contribution_date**: Dnešní datum.
-    - naléhavost**: Nevyplňujte.
-    - přispěvatelé_id**: Vaše GitHub ID.
-    - odměna**: Nevyplňujte.
 
-Další podrobnosti o identifikátoru profesora naleznete v příslušném výukovém kurzu:
+- **professor_id** : Vaše `professor_id` (UUID), jak je zobrazeno na [vašem profesorském profilu](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
+
+- **original_language** : Původní jazyk tutoriálu (například `fr`, `en`, atd.);
+
+- **proofreading** : Informace o procesu korektury. Vyplňte první část, protože korektura vlastního tutoriálu se počítá jako první ověření:
+    - **language** : Kód jazyka korektury (například `fr`, `en`, atd.).
+    - **last_contribution_date** : Datum dne.
+    - **urgency** : 1
+    - **contributor_names** : Vaše GitHub ID.
+    - **reward** : 0
+
+Další podrobnosti o ID učitele naleznete v příslušném výukovém kurzu :
 
 https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
-Zde je příklad vyplněného souboru `tutorial.yml` pro výukový program o peněžence Blockstream Green:
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
+
 project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
+
 tags:
-- wallets
-- software
-- keys
+  - wallets
+  - software
+  - keys
+
 category: mobile
+
 level: beginner
-credits:
-professor: pretty-private
+
+professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
+
 # Proofreading metadata
+
 original_language: fr
 proofreading:
-- language: fr
-last_contribution_date: 2024-11-20
-urgency: 1
-contributors_id:
-- LoicPandul
-reward: 0
+  - language: fr
+    last_contribution_date: 2024-11-20
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0
 ```
+
 
 Po dokončení úprav souboru `tutorial.yml` uložte dokument kliknutím na `Soubor > Uložit`:
 

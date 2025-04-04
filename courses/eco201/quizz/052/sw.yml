@@ -1,0 +1,11 @@
+question: Je, ni nafasi gani ya watetezi wa Nadharia ya Kisasa ya Fedha (MMT) kuhusiana na uchapishaji wa pesa?
+answer: Mawakili wa MMT wanaunga mkono uchapishaji wa pesa ili kufikia malengo ya kisiasa.
+wrong_answers:
+  - Mawakili wa MMT wanapinga uchapishaji wa pesa kwa hali yoyote.
+  - Mawakili wa MMT wanaamini kuwa uchapishaji wa pesa unapaswa kudhibitiwa na benki kuu.
+  - Mawakili wa MMT wanaamini kuwa uchapishaji wa pesa unapaswa kuepukwa kutokana na hatari ya mfumuko wa bei.
+explanation: |
+  Watetezi wa Nadharia ya Kisasa ya Fedha (MMT) wanaunga mkono uchapishaji wa pesa
+  kufikia malengo ya kisiasa, kwa kutumia kutokuwepo kwa mfumuko wa bei kati ya 2008 na 2019
+  kama hoja.
+reviewed: true

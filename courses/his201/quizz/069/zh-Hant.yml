@@ -1,0 +1,10 @@
+question: Bitcoin 開發人員會在哪裡進行較非正式的技術討論？
+answer: 在 IRC 頻道上\#Bitcoin-dev
+wrong_answers:
+  - 在論壇的特別區
+  - 在 Bitcoin-development 郵件列表上
+  - 在 subreddit r/Bitcoin 上
+  This was [created](https: //mmalmi.github.io/satoshi/#email-27) in August 2009 by Martti Malmi. It gained some popularity after the slashdotting in July 2010.
+explanation: |
+
+reviewed: false

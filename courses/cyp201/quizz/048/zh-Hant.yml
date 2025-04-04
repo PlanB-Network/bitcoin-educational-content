@@ -1,0 +1,9 @@
+question: 為什麼 24 個字的 Mnemonic 詞組經常被認為是 Bitcoin Wallet 的多餘詞組呢？
+answer: 衍生金鑰僅提供 128 位元的安全性
+wrong_answers:
+  - 軟體不支援 24 字短語
+  - 它不允許衍生公開金鑰
+  - 較短的詞組沒有標準化
+explanation: |
+  雖然 24 個字的詞組可提供 256 位元的安全性，但衍生出的 Bitcoin 私密金鑰只能保證 128 位元的安全性，因此沒有必要多加。
+reviewed: false

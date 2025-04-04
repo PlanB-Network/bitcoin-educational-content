@@ -1,0 +1,9 @@
+question: Je, ni faida gani moja ya kuanza kidogo unapokubali malipo ya Bitcoin mara ya kwanza?
+answer: Huruhusu biashara kujifunza kutokana na miamala michache ya awali na hatua kwa hatua kuhamia kwenye masuluhisho ya kisasa zaidi iwapo mahitaji ya wateja yataongezeka.
+wrong_answers:
+  - Inalazimisha biashara kutumia masuluhisho ya kujilinda pekee mara moja.
+  - Inazuia biashara kuboresha au kubadilisha watoa huduma baadaye.
+  - Inahitaji kampuni kukubali Bitcoin kutoka kwa kila mteja kabla ya kuelewa mchakato.
+explanation: |
+  Kuanzia na mbinu rahisi, ya kuanzia huwezesha biashara kupata uzoefu wa vitendo bila hatari kubwa. Ikiwa nia ya malipo ya Bitcoin itathibitishwa, kampuni inaweza kuboresha miundombinu yake na kuunganisha zana za juu zaidi.
+reviewed: false

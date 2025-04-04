@@ -1,0 +1,12 @@
+question: Je, ni baadhi ya mikakati gani iliyojadiliwa ili kupambana na uwekaji kati wa Mining katika Bitcoin?
+answer: Mikakati iliyojadiliwa ili kupambana na uwekaji kati wa Mining katika Bitcoin ni pamoja na Home Mining, itifaki ya Stratum V2, programu huria ya Mining, na mseto wa waigizaji na jiografia.
+wrong_answers:
+  - Mikakati iliyojadiliwa ili kupambana na uwekaji kati wa Mining katika Bitcoin ni pamoja na kuongeza ukubwa wa vitalu, kutekeleza uthibitisho wa hisa, na kuunda mamlaka kuu ya kusimamia Mining.
+  - Mikakati iliyojadiliwa ili kukabiliana na uwekaji kati wa Mining katika Bitcoin ni pamoja na kupunguza Block reward, kutekeleza ada ya muamala, na kuunda kodi ya Mining.
+  - Mikakati iliyojadiliwa ili kupambana na uwekaji kati wa Mining katika Bitcoin ni pamoja na kuongeza ugumu wa Mining, kutekeleza kofia ya Mining, na kuunda bahati nasibu ya Mining.
+explanation: |
+  Sura inajadili mikakati kadhaa ya kupambana na Mining
+  centralization katika Bitcoin, ikiwa ni pamoja na Nyumbani Mining, the
+  Itifaki ya Stratum V2, programu huria ya Mining, na
+  mseto wa waigizaji na jiografia.
+reviewed: true

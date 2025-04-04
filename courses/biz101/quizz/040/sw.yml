@@ -1,0 +1,9 @@
+question: Kwa nini biashara inaweza kuchagua kushikilia Bitcoin kama uwekezaji wa muda mrefu kwenye mizania yake?
+answer: Kwa sababu inaweza kutumika kama hifadhi ya thamani, uwezekano wa kuthamini kwa muda na kutoa ua dhidi ya mfumuko wa bei.
+wrong_answers:
+  - Kwa sababu inahakikisha kuondolewa mara moja kwa ushuru wote unaohusiana na sarafu.
+  - Kwa sababu inahitajika kwa viwango vya kimataifa vya uhasibu.
+  - Kwa sababu Bitcoin hutoa faida iliyohakikishwa bila hatari yoyote.
+explanation: |
+  Baadhi ya makampuni yanaona Bitcoin kama rasilimali ya kimkakati ya muda mrefu inayoweza kuhifadhi au kukua thamani, kulinda dhidi ya udhalilishaji wa sarafu za jadi na kubadilisha hazina zao.
+reviewed: false

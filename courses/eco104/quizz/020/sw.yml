@@ -1,0 +1,12 @@
+question: Je, sarafu tofauti tofauti za Tether huchangiaje uhuru wa kifedha kwa watu binafsi katika uchumi usio imara?
+answer: Kwa kutoa ufikiaji wa sarafu na viwango thabiti vya Exchange
+wrong_answers:
+  - Kwa kuondoa hitaji la pesa za kimwili
+  - Kwa kutoa viwango vya juu vya riba kwenye akiba
+  - Kwa kuwezesha miamala ya kimataifa ya papo hapo
+explanation: |
+  Sarafu mbalimbali za sarafu za Tether zimewekwa kwenye mali dhabiti kama vile Marekani
+  dola au dhahabu. Uthabiti huu unaruhusu watu binafsi katika uchumi usio thabiti
+  kuhamisha fedha zao katika sarafu ambayo si chini ya sawa
+  viwango vya mfumuko wa bei, kuwasaidia kudumisha thamani ya akiba zao.
+reviewed: true

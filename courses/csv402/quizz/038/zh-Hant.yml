@@ -1,0 +1,9 @@
+question: 在用於發行資產的 YAML 檔案中，哪個欄位定義發行的代幣總數？
+answer: 已發行供貨
+wrong_answers:
+  - 資產擁有者
+  - 規格
+  - 數量
+explanation: |
+  YAML 檔案中的 "issuedSupply "欄位定義 Contract 發行的代幣總量。
+reviewed: false

@@ -1,0 +1,9 @@
+question: 時間鎖如何防止 Commitment 交易中的作弊行為？
+answer: 它可以防止違規方立即取回資金
+wrong_answers:
+  - 它會自動將資金退還給作弊者
+  - 如果有人嘗試作弊，它會取消交易
+  - 它會阻止使用撤銷金鑰
+explanation: |
+  時間鎖會延遲作弊者無法取回資金的時間，讓對方有機會回應。
+reviewed: false

@@ -1,0 +1,9 @@
+question: 定義 RGB Contract 的四個元件是什麼？
+answer: Genesis、Schema、Interface 和 Interface Implementation
+wrong_answers:
+  - Genesis、Schema、過渡和 Interface Implementation
+  - Genesis、Interface、過渡與延伸
+  - Genesis、Interface、Interface Implementation 和擴展區
+explanation: |
+  一個 RGB Contract 由四個不同的 Elements 組成；Genesis、Schema、Interface 和 Interface Implementation。
+reviewed: false

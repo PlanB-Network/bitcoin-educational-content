@@ -1,0 +1,11 @@
+question: Je, kuna uhusiano gani wa ndani kati ya upanuzi wa fedha na mfumuko wa bei kama alivyosema Milton Friedman?
+answer: Mfumuko wa bei daima na kila mahali ni jambo la kifedha.
+wrong_answers:
+  - Mfumuko wa bei daima na kila mahali ni jambo la kifedha.
+  - Mfumuko wa bei siku zote na kila mahali ni jambo la kisiasa.
+  - Mfumuko wa bei daima na kila mahali ni jambo la kijamii.
+explanation: |
+  Milton Friedman, mwanauchumi mashuhuri, alisema kwa umaarufu kuwa Mfumuko wa bei
+  daima na kila mahali ni jambo la kifedha. Kauli hii inaangazia mambo ya ndani
+  uhusiano kati ya upanuzi wa fedha na mfumuko wa bei.
+reviewed: false

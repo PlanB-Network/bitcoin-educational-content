@@ -1,0 +1,11 @@
+question: Je, ni hali gani ya kuasili Bitcoin kama ilivyoelezwa katika kozi hii?
+answer: Virusi.
+wrong_answers:
+  - Polepole na thabiti.
+  - Haraka na isiyoweza kudhibitiwa.
+  - Mara kwa mara na haitabiriki.
+explanation: |
+  Nakala ya kozi inaelezea kupitishwa kwa Bitcoin kama virusi,
+  kupendekeza kwamba inaenea kwa haraka na kwa upana kutoka kwa moja
+  mtu kwa mwingine, kama virusi, lakini nzuri.
+reviewed: true

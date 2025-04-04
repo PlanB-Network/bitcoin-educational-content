@@ -1,0 +1,10 @@
+question: 具有二元運算的集合 S 必須滿足什麼基本條件才能成為群組？
+answer: 關閉條件
+wrong_answers:
+  - 換向條件
+  - 對稱條件
+  - 分佈性條件
+  A set S with a binary operation must satisfy several conditions to form a group, and the first is the closure condition: the operation between two elements of S must yield an element of S.
+explanation: |
+
+reviewed: false

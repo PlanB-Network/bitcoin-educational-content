@@ -1,0 +1,9 @@
+question: Satoshi Nakamoto 離任後，將網站 (也包括論壇和 wiki) 的控制權轉給了誰？
+answer: Martti Malmi
+wrong_answers:
+  - Gavin Andresen
+  - Hal Finney
+  - Mike Hearn
+explanation: |
+  他沒有時間管理，很快就將任務委派出去。網站和論壇由 Theymos 和 Cøbra 接管。
+reviewed: false

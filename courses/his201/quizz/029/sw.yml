@@ -1,0 +1,8 @@
+question: Mwanachama mwanzilishi wa cypherpunks, John Gilmore, alikosoa nini katika uvumbuzi wa Satoshi Nakamoto mnamo Januari 2009?
+answer: Bitcoin inachafua sayari
+wrong_answers:
+  - Bitcoin hurahisisha ukwepaji kodi
+  - Bitcoin inaweza kushambuliwa na Sybil
+  - Bitcoin ni deflationary
+  He [criticized](https: //www.metzdowd.com/pipermail/cryptography/2009-January/015042.html) Bitcoin for consuming electricity and generating carbon dioxide (a greenhouse gas).
+reviewed: false

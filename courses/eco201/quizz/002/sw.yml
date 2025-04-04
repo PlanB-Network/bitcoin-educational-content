@@ -1,0 +1,11 @@
+question: Mwalimu wa kozi hiyo ni nani?
+answer: Théo Mogenet
+wrong_answers:
+  - Théo Boloré
+  - Descoupes Bitcoin
+  - Hakuna kati ya zilizo hapo juu
+explanation: |
+  Sura inataja kuwa mwalimu wa kozi hiyo ni
+  Théo Mogenet, profesa mwenye shauku na uwezo wa
+  uchumi wa Austria.
+reviewed: true

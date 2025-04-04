@@ -1,0 +1,12 @@
+question: Ni nini sababu kuu ya mfumuko wa bei ambayo uundaji upya haufanyi Address?
+answer: upanuzi wa fedha Supply.
+wrong_answers:
+  - Kupungua kwa fedha Supply.
+  - Kuongezeka kwa mahitaji ya bidhaa na huduma.
+  - Kupungua kwa mahitaji ya bidhaa na huduma.
+explanation: |
+  Chanzo kikuu cha mfumuko wa bei ni upanuzi wa fedha Supply.
+  Kuunda upya ni hatua ya kawaida inayochukuliwa na serikali wakati wa mfumko wa bei,
+  lakini haisuluhishi tatizo hili la msingi. Ni njia pekee ya kubadilisha jina la sarafu
+  na kuondoa sufuri.'
+reviewed: false

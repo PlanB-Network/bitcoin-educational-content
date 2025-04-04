@@ -1,0 +1,9 @@
+question: Ni maelezo gani muhimu ya malipo yanapaswa kuandikwa kwa kila muamala wa Bitcoin?
+answer: Tarehe, kiasi, thamani sawa ya fiat, na anwani zinazohusiana
+wrong_answers:
+  - transaction ID, ada ya mtandao, na Address ya mfanyabiashara
+  - Tarehe, kiwango cha Exchange, aina ya Wallet, na eneo la kijiografia
+  - Nambari ya kuzuia Bitcoin, Timestamp, na hati iliyotumiwa
+explanation: |
+  Kuhifadhi maelezo haya huhakikisha uwazi na kusaidia wahasibu katika kutofautisha mtiririko unaoingia na unaotoka.
+reviewed: false

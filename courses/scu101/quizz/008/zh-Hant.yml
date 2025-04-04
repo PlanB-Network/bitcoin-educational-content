@@ -1,0 +1,13 @@
+question: 什麼是 TOR 網路？
+answer: 透過遮蔽使用者的 IP Address 並允許存取 Darknet 來提供匿名性的網路。
+wrong_answers:
+  - 可保護您的裝置免受病毒和其他惡意軟體侵襲的網路。
+  - 一個可以隱藏您的線上活動，不讓您的網際網路服務供應商知道的網路。
+  - 可讓您更快速瀏覽網際網路的網路。
+explanation: |
+  TOR (The Onion Router) 網路是一個提供
+  透過遮蔽使用者的 IP Address 來實現匿名性，並允許
+  存取暗網。它被記者、自由
+  活動人士，以及其他希望逃避審查的人。
+  專制國家。
+reviewed: true

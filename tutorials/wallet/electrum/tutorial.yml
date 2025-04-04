@@ -1,18 +1,11 @@
 id: efec9166-46b5-4937-8cee-6bc310975177
-builder: Electrum
 
 level: advanced
 
 category: desktop
 
-tags:
-  - self-custodial
-  - open-source
-  - privacy
-
-credits:
-  Professor: rebuild-kiss
-  link: https://armantheparman.com/electrum/
+professor_id: 614eb46b-3cca-46ef-b9ae-e726849e6d1d
+credit_link: https://armantheparman.com/electrum/
 
 # Proofreading metadata
 project_id: 45198444-27c2-4fc1-a761-eb321093642f
@@ -21,79 +14,83 @@ proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 37.77
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 18.94
+    contributor_names:
+    reward: 28.36
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
-    reward: 9.47
+    reward: 14.18
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 28.36
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 37.77
   - language: fr
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 18.94
+    contributor_names:
+    reward: 28.36
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 28.36
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 56.61
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 18.94
+    contributor_names:
+    reward: 28.36
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 37.77
   - language: vi
     last_contribution_date: 2024-11-16
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Henry-Da0
     reward: 28.31
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 37.77
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 47.19
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 47.19
 
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 37.77
+tags:
+  - wallets
+  - guides
+  - technical-analysis

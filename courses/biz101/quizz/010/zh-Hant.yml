@@ -1,0 +1,9 @@
+question: Lightning Network 如何幫助降低 Bitcoin 交易的費用？
+answer: 透過進行大部分交易 off-chain，並僅在主 Blockchain 上公佈通道結算交易。
+wrong_answers:
+  - 從付款中移除所有加密驗證。
+  - 將控制權集中在一個大型支付中心。
+  - 要求商家預先支付所有網路成本。
+explanation: |
+  由於 Lightning 交易發生在 off-chain，因此只有最終的通道狀態會在 Bitcoin Blockchain 上結算。這可避免進行許多 On-Chain 交易，從而減少擁塞，進而降低費用。
+reviewed: false

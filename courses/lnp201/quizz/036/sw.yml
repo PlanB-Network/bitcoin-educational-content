@@ -1,0 +1,9 @@
+question: Ni sharti gani lazima litimizwe kwa mpokeaji wa HTLC kupokea pesa?
+answer: Ni lazima watoe siri (preimage) ili kufungua malipo.
+wrong_answers:
+  - Ni lazima wakubali ada za uelekezaji za kila nodi ya kati.
+  - Ni lazima watie sahihi Commitment Transaction mpya.
+  - Ni lazima wangojee muda wa kufunga muda uishe kabla ya kurejesha pesa.
+explanation: |
+  Ili kupokea fedha katika HTLC, mpokeaji lazima atoe siri maalum ambayo inaruhusu kufungua malipo yanayolindwa na Hash.
+reviewed: false

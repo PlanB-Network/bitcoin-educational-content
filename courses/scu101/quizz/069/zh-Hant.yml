@@ -1,0 +1,14 @@
+question: 使用 DOH (DNS over HTTPS) 和 DOT (DNS over TLS) 有什麼優點？
+answer: 它們會加密 DNS 連線，提供更大的隱私和安全性，並避免中間人攻擊。
+wrong_answers:
+  - 它們可加快網際網路連線速度。
+  - 他們會封鎖所有廣告。
+  - 它們允許存取被封鎖的網站。
+explanation: |
+  DOH (DNS over HTTPS) 和 DOT (DNS over TLS) 加密 DNS
+  連接，提供更大的隱私性和安全性。這些
+  通訊協定在企業中廣泛使用，因為其
+  增強的安全性，並由 Windows 原生支援、
+  Android 和 iPhone。它們透過以下方式改善隱私和安全性
+  避免中間人攻擊。
+reviewed: true

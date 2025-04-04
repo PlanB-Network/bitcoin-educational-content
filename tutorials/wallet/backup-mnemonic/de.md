@@ -85,9 +85,11 @@ Sie können Ihr Backup auch mit zusätzlichen Informationen zu Ihrer Brieftasche
 Wenn Sie hingegen eine Passphrase verwenden, achten Sie darauf, dass Sie diese nicht auf demselben Medium wie Ihre Eselsbrücke notieren. Die Passphrase dient dazu, Ihre Brieftasche im Falle eines Diebstahls zu schützen. Weitere Informationen über die Verwendung einer Passphrase finden Sie in dieser ergänzenden Anleitung:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 Sobald Sie Ihre mnemonische Phrase auf einem physischen Medium gespeichert haben, sollten Sie unbedingt einen Wiederherstellungstest durchführen, während Ihre neu erstellte Brieftasche noch leer ist. Dieser Test besteht darin, dass Sie eine Beispielinformation aufschreiben, die leere Brieftasche absichtlich löschen und dann versuchen, sie nur mit Ihrer physischen Sicherung der mnemonischen Phrase wiederherzustellen. So können Sie überprüfen, ob Ihre Sicherung vollständig und frei von Eingabefehlern ist. Außerdem können Sie sich so mit dem Wiederherstellungsprozess vertraut machen. Auf diese Weise sind Sie besser vorbereitet, wenn Sie in Zukunft eine Wiederherstellung durchführen müssen, und vermeiden den Stress eines ersten Versuchs in einer realen Situation. Weitere Informationen zur Durchführung dieses Tests finden Sie in diesem anderen Lernprogramm:
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+
 Schließlich stellt sich noch die Frage nach der Anzahl der Sicherungen. Diese Entscheidung hängt ganz von Ihrer persönlichen Situation ab. Wenn Sie die Anzahl der Kopien begrenzen, indem Sie z. B. Ihren Merksatz nur einmal auf einen Datenträger schreiben, verringert sich zwar das Diebstahlrisiko, aber das Verlustrisiko steigt. Umgekehrt verringert die Anfertigung mehrerer Kopien das Verlustrisiko, erhöht aber das Diebstahlsrisiko. Es liegt also an Ihnen, das richtige Gleichgewicht für Ihre Bedürfnisse zu finden und die Anzahl der Kopien zu bestimmen, die Sie für am besten geeignet halten.
 
 ## Lagerung
@@ -117,4 +119,5 @@ Um einen Schritt weiter zu gehen und Ihre Sicherheitsstrategie weiter zu stärke
 Deshalb lade ich Sie ein, den kostenlosen CYP201-Kurs zu besuchen, der vom Plan ₿ Network angeboten wird. Dieser Kurs erklärt detailliert die Funktionsweise von Bitcoin-Wallets und ermöglicht es Ihnen, die technischen Aspekte zu beherrschen, die für die effektive Sicherung Ihrer Gelder unerlässlich sind:
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+
 Wenn Sie diese Anleitung nützlich fanden, wäre ich Ihnen dankbar, wenn Sie unten einen grünen Daumen hinterlassen würden. Sie können diesen Artikel auch gerne in Ihren sozialen Netzwerken teilen. Ich danke Ihnen sehr!

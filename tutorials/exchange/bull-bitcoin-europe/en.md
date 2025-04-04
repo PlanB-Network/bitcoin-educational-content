@@ -48,7 +48,8 @@ Scan the QR code with your authentication application, enter the 6-digit code an
 
 If you're not familiar with using authentication applications for the 2FA, I recommend you take a look at this tutorial on the Authy application:
 
-https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+
 Enter your password to confirm.
 
 ![BULL](assets/fr/09.webp)
@@ -125,6 +126,7 @@ Enter the amount you wish to purchase. You'll also need to choose how you want t
 If you're not familiar with using Bitcoin, Lightning or Liquid wallets, I suggest you take our dedicated training course:
 
 https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+
 You can also explore [our detailed tutorials on the best Bitcoin wallets](https://planb.network/tutorials/wallet).
 
 Then confirm your purchase by clicking on "*Confirm Buy*".
@@ -138,7 +140,7 @@ For my part, having opted for a withdrawal via Lightning, I have three options f
 - By providing my Lightning address ;
 - By providing an invoice for the amount of the purchase.
 
-The LNURL method is the simplest. It is available in most Lightning portfolios, such as Phoenix, where you simply select "*Receive*" then "*Scan*".
+The LNURL method is the simplest. It is available in most Lightning wallets, such as Phoenix, where you simply select "*Receive*" then "*Scan*".
 
 ![BULL](assets/fr/24.webp)
 

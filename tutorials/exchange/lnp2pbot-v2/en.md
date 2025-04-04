@@ -9,6 +9,7 @@ description: Complete guide to LNP2PBot and P2P bitcoin trading
 KYC-free peer-to-peer (P2P) exchanges are essential for preserving users' confidentiality and financial autonomy. They enable direct transactions between individuals without the need for identity verification, which is crucial for those who value privacy. For a more in-depth understanding of the theoretical concepts, take a look at the BTC204 course:
 
 https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+
 Buying and selling bitcoin peer-to-peer (P2P) is one of the most private methods of acquiring or disposing of bitcoins. LNP2PBot is an open source Telegram bot that facilitates P2P exchanges on the Lightning network, enabling fast, low-cost, KYC-free transactions.
 
 ### Why use Lnp2pbot?
@@ -39,7 +40,7 @@ To use Lnp2pbot, you will need :
 
 Start by installing a compatible Lightning wallet. Here are our detailed recommendations:
 
-**Recommended portfolios**
+**Recommended wallets**
 
 
 - [Breez](https://breez.technology)**:
@@ -74,16 +75,17 @@ https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 Below is the link to the tutorial for this wallet:
 
 https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
-**Important notes on other portfolios**
 
-⚠️ **Important**: Before selling sats, make sure your portfolio supports "hold" invoices, which are used by the bot as an escrow system.
+**Important notes on other wallets**
+
+⚠️ **Important**: Before selling sats, make sure your wallet supports "hold" invoices, which are used by the bot as an escrow system.
 
 
 - Wallet of Satoshi**: Works well for receiving sats, but can have delays in updating the balance if a sale is cancelled.
 - Muun**: Not recommended as payments may fail due to bot routing fee limits (maximum 0.2%).
 - Aqua**: Works to receive sats, but can have long delays (up to 48 hours) for balance updates in the event of a sale cancellation.
 
-💡 **Tip**: For optimum experience, opt for recommended portfolios (Breez, Phoenix or Blixt).
+💡 **Tip**: For optimum experience, opt for recommended wallets (Breez, Phoenix or Blixt).
 
 ⚠️ **Important**: Don't forget to save your recovery phrases in a safe place.
 

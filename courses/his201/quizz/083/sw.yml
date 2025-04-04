@@ -1,0 +1,9 @@
+question: Je, ni bei gani ya juu zaidi ambayo Bitcoin ilifikia Juni 2011?
+answer: $32
+wrong_answers:
+  - $1
+  - $3
+  - $8
+explanation: |
+  Mnamo tarehe 8 Juni, bei ya Bitcoin ilifikia kiwango cha juu cha kihistoria cha $32 kwenye Mt. Gox. Walakini, ilianguka haraka baada ya hapo.
+reviewed: false

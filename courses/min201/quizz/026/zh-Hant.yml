@@ -1,0 +1,12 @@
+question: 節點在 Bitcoin 網路中扮演什麼角色？
+answer: 節點透過驗證和確認交易及區塊來維持完整性。
+wrong_answers:
+  - 節點建立並驗證區塊。
+  - 節點只會驗證交易。
+  - 節點在 Bitcoin 網路中沒有任何作用。
+explanation: |
+  在 Bitcoin 網路中，節點會維持
+  透過驗證及核實交易和
+  區塊。錯誤或欺詐的區塊將被拒絕。
+  節點，以維護網路的安全性。
+reviewed: true

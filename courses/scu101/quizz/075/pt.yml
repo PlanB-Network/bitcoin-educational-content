@@ -1,0 +1,9 @@
+question: Quais características definem uma boa senha?
+answer: Longa, complexa e única.
+wrong_answers:
+  - Curta, simples e fácil de lembrar.
+  - Baseada em informações pessoais.
+  - Idêntica para todas as contas.
+explanation: |
+  Uma boa senha deve ser suficientemente longa, complexa e não deve ser reutilizada.
+reviewed: false

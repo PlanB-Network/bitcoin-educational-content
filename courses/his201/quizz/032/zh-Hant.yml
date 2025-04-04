@@ -1,0 +1,9 @@
+question: 2009 年協助 Satoshi 進行專案溝通，特別是管理 Bitcoin 網站和論壇的年輕芬蘭人叫什麼名字？
+answer: Martti Malmi
+wrong_answers:
+  - Mike Hearn
+  - Gavin Andresen
+  - RPOW
+explanation: |
+  他在 2009 年 4 月聯絡 Satoshi。Satoshi 立即委派他為網站撰寫常見問題與簡報。Martti Malmi 成為 Satoshi 的得力助手超過一年。
+reviewed: false

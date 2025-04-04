@@ -1,0 +1,9 @@
+question: Neno kueneza linamaanisha nini katika muktadha wa usimbaji fiche wa AES?
+answer: Mabadiliko katika maandishi ya wazi husababisha mabadiliko makubwa katika maandishi
+wrong_answers:
+  - Nakala ya siri daima ni ya urefu sawa
+  - Byte muhimu zinasambazwa sawasawa
+  - Taarifa nyeti huchambuliwa katika kila sehemu ya maandishi ya siri
+explanation: |
+  Kueneza kunamaanisha kuwa badiliko dogo katika maandishi wazi husababisha badiliko kubwa katika maandishi, na kufanya iwe vigumu kwa mshambulizi kubaini maandishi wazi.
+reviewed: false

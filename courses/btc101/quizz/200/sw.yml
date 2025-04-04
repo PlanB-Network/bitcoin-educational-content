@@ -1,0 +1,12 @@
+question: Ununuzi wa hiari ni nini?
+answer: Kununua Bitcoin mara moja ili kupata mfiduo.
+wrong_answers:
+  - Kununua Bitcoin kwa vipindi vya kawaida.
+  - Kununua Bitcoin tu wakati bei inashuka.
+  - Kununua Bitcoin tu wakati bei inapanda.
+explanation: |
+  Nakala ya kozi inaelezea kuwa ununuzi wa moja kwa moja ni
+  hutumika kupata mfiduo mara moja kwa Bitcoin. Kwa mfano,
+  inaweza kumaanisha kununua wakati wa ajali au kuchukua faida
+  bonasi.
+reviewed: true

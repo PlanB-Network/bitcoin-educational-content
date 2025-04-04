@@ -1,0 +1,9 @@
+question: Lightning Network 如何允許向未直接連接的節點發送資金？
+answer: 透過中介節點路由付款
+wrong_answers:
+  - 透過在每個節點之間使用 On-Chain 交易
+  - 透過自動建立臨時通道
+  - 透過多重簽章地址直接寄送資金
+explanation: |
+  Lightning Network 可讓付款透過數個中介節點進行路由，而無需在寄件者和收件者之間建立直接通道。
+reviewed: false

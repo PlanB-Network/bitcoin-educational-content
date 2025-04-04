@@ -1,0 +1,13 @@
+question: Carl Menger 的邊際價值理論與 Leon Walras 和 William Stanley Jevons 的邊際價值理論有什麼根本性的差異？
+answer: Menger 的理論主要是主觀的，而 Walras 和 Jevons 則認為價值是客觀且可量測的現象。
+wrong_answers:
+  - Menger 的理論主要是客觀的，而 Walras 和 Jevons 則認為價值是一種主觀且無法測量的現象。
+  - Menger 的理論是以勞動價值理論為基礎，而 Walras 和 Jevons 則認為價值是以生產中使用的土地數量為基礎。
+  - Menger 的理論是以生理學家的土地價值理論為基礎，而 Walras 和 Jevons 則認為價值是以生產所使用的勞動力為基礎。
+explanation: |
+  根據本章所述，門格的邊際價值理論
+  是主觀的，這意味著它是基於個人的
+  他們對於從某種商品或服務中所能獲得的效用的感知。
+  服務。另一方面，Walras 和 Jevons 認為
+  價值是一種客觀且可量測的現象。
+reviewed: true

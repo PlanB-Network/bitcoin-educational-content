@@ -1,0 +1,9 @@
+question: Bastiat 認為法學家的原則是什麼？
+answer: 這是法律優先於財產的原則
+wrong_answers:
+  - 這是財產優先於法律的原則
+  - 這是法律面前人人平等的原則
+  - 這是不受國家干預的財產權
+explanation: |
+  對 Bastiat 而言，法學家的原則與經濟學家的原則相反，將法律置於財產之前，他批評這個立場有可能造成不公平。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Client-side Validation ni nini katika itifaki ya RGB?
+answer: Uthibitishaji wa ndani wa data ya Contract na mabadiliko
+wrong_answers:
+  - Kutekeleza mikataba mahiri moja kwa moja kwenye Bitcoin Blockchain
+  - Matumizi ya kipekee ya nodi za kati ili kuthibitisha miamala
+  - Uwekaji upya kiotomatiki wa historia za Contract katika tukio la hitilafu
+explanation: |
+  Client-side Validation huwezesha kila mshiriki kuthibitisha kwa kujitegemea kwamba data iliyopokelewa inatii sheria zilizofafanuliwa na RGB Contract.
+reviewed: false

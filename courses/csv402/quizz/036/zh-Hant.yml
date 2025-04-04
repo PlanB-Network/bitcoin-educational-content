@@ -1,0 +1,9 @@
+question: Stash 的作用是什麼？
+answer: 在本機保留所有用戶端資料
+wrong_answers:
+  - 自動在 Blockchain 上發佈交易
+  - 編輯並儲存所有生成的發票
+  - 管理 Bitcoin 私密金鑰
+explanation: |
+  Stash 是使用者在本機儲存一個或多個 RGB 契約的用戶端資料集，以便執行 Client-side Validation。
+reviewed: false

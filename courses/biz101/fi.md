@@ -157,17 +157,11 @@ Kaiken kaikkiaan tämä prosessi on monimutkainen, aikaa vievä ja kallis, vaikk
 ### Vertailu maksutavat
 
 | Maksutapa | Valtuutus tarvitaan?           | Tapahtuman hyväksymisaika (kauppiasnäkymä) | Selvitysnopeus (varat on maksettu kokonaan) | Lopullisuus (peruutuksen helppous) | Välittäjien lukumäärä | Tyypilliset maksut (maksunsaajalle) |
-
 | ------------------------------ | ------------------------------- | ----------------------------------------- | ---------------------------------------------- | ---------------------------------------- | ------------------------------ | ---------------------------------- |
-
 | **Cash** | Ei | Välitön (fyysinen vaihto) | Välitön (ei maksuviivettä) | Korkea (peruuttamaton maksun jälkeen) | Ei mitään | Ei mitään | Ei mitään | Ei mitään |
-
 | **Sekit** | Kyllä (pankkiselvitys) | Hyväksyminen talletuksen yhteydessä (ei taattu) | Useita päiviä (sekkien selvitysprosessi) | Keskisuuri (voi olla katteeton/pysähtyä ennen selvitystä) | Pankki | **Matalasta keskisuuriin** (pankkimaksut) |
-
 | **Lankasiirrot** | Kyllä (pankki/verkko) | Vahvistus tuntien sisällä | Samana tai seuraavana päivänä (kotimaassa) | Korkea (yleensä peruuttamaton lähetyksen jälkeen) | Pankit, maksuverkot | **Keskikokoinen**(kiinteä/prosenttiosuus) | **Keskikokoinen**(kiinteä/prosenttiosuus) |
-
 | **Maksukortit** | Kyllä (kortin myöntäjän valtuutus) | Sekunnista minuutteihin (valtuutuskoodi) | Muutama päivä (pankkien välinen selvitys) | Keskisuuri (takaisinkirjaukset mahdollisia) | Kortin myöntäjä, korttitapahtumien hyväksyjä, korttiverkosto | **Muuttuva (1-3 % tapahtumasta)** | |
-
 | **Digitaaliset lompakot/Mobile Pay** | Kyllä (lompakkopalveluntarjoaja/pankki) | Sekuntia (välitön vahvistus) | Tyypillisesti 1-2 päivää (riippuu rahoituslähteestä) | Keskisuuri (palautus/riitojen ratkaiseminen mahdollista) | Pankit, lompakko-operaattorit | **Matalasta keskisuuriin (vaihtelee)** | |
 
 ### Nykyisten ratkaisujen rajoitukset
@@ -175,25 +169,15 @@ Kaiken kaikkiaan tämä prosessi on monimutkainen, aikaa vievä ja kallis, vaikk
 Perinteisen maksualan vuotuinen taloudellinen arvo on noin 2 200 miljardia dollaria, mikä vastaa noin kymmenesosaa Yhdysvaltojen BKT:stä tai yhtä paljon kuin Ranskan BKT. Koska valuutat toimivat luvanvaraisina verkostoina, kilpailu on vähäistä, mikä tekee tästä "palvelusta" pikemminkin tuotantotaloudelle määrätyn veron kaltaisen. Sen aiheuttamien kustannusrasitteiden lisäksi on useita muita rajoituksia, jotka on esitetty jäljempänä.
 
 | Rajoitus | Selitys | Vaikutus |
-
 | -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
-
 | Korkeat korttimaksut | Pankkien välitysmaksut (~0,3 %), verkkomaksut (kiinteät tai 0,3-1 %), päätelaitteiden/PSP:n tilaukset ja pankkien marginaalit (0,5-1,7 %) muodostavat huomattavat kustannukset, jotka muistuttavat tuotantosektoreiden globaalia "veroa", jonka määrä on triljoonia dollareita.     | Nostaa kauppiaiden kustannuksia, pienentää marginaaleja ja mahdollisesti nostaa kuluttajahintoja.                  |
-
 | Erittäin hidas lopputilitys | Varojen maksaminen voi kestää jopa 5 päivää, mikä hidastaa rahavirtaa ja yleistä taloudellista toimintaa.                                                                                                                                | Viivästyttää kauppiaiden likviditeettiä ja hidastaa talouskiertoa.                        |
-
 | Petokset | Sähköisen kaupankäynnin kanavat joutuvat voimakkaasti petosten kohteeksi, mikä aiheuttaa merkittäviä tappioita (esim. 28 miljardia dollaria). Takaisinkytkennät voivat nousta maailmanlaajuisesti 174 miljardiin dollariin vuoteen 2024 mennessä. Näiden riitojen hallinta vie aikaa ja aiheuttaa henkistä rasitusta. | Lisääntyneet toimintakustannukset, monimutkaiset petostentorjuntatoimenpiteet ja asiakkaiden luottamuksen heikkeneminen.       |
-
 | Ostoskorin hylkääminen | Lisäturvavaiheet (kertakäyttökoodit, PSD2:n mukainen kaksitekijätodennus) lisäävät kitkaa kassalla.                                                                                                                   | Suurempi monimutkaisuus johtaa ostoskorin hylkäämiseen ja menetettyyn myyntiin.                       |
-
 | Korkeat vähimmäistapahtumamäärät | Korttien vähimmäiskäyttörajat voivat pakottaa kauppiaat ja kuluttajat hankaliin hinnoittelu- tai ostoehtoihin, mikä vähentää pienen arvon tapahtumia.                                                                       | Asiakkaiden tyytyväisyys ja joustavuus vähenevät, mikä saattaa rajoittaa heräteostoksia tai vähäarvoisia ostoksia.  |
-
 | Hidas ennakkolupien myöntäminen | Nykyiset järjestelmät eivät pysty käsittelemään maksutapahtumia millisekuntien nopeudella tai tukemaan jatkuvia reaaliaikaisia maksuvirtoja.                                                                                                                   | Rajoittaa käyttötapauksia, jotka edellyttävät välittömiä tai suoratoistomaksuja, mikä rajoittaa innovointia ja skaalautuvuutta. |
-
 | Pankki- tai korttitilin tarve | Näiden maksutapojen käyttö edellyttää pankki- tai korttitiliä, joten ne, joilla ei ole tällaista tiliä, suljetaan automaattisesti pois.                                                                                                       | Rajoittaa taloudellista osallisuutta, mikä vähentää pankkitoiminnan ulkopuolelle jäävien tai pankkitoiminnan ulkopuolelle jäävien väestöryhmien mahdollisuuksia käyttää näitä maksuvälineitä.                 |
-
 | Toistuva verkkotilien luominen | Käyttäjien on usein luotava useita verkkotilejä, mikä väsyttää, vähentää käyttömukavuutta ja lisää henkilötietojen altistumista.                                                                                                | Huonontaa käyttäjäkokemusta, herättää huolta yksityisyydestä ja lisää tietomurtojen riskiä.          |
-
 | Valuuttamaksut | Universaalin laskentayksikön puuttuminen pakottaa kalliisiin valuuttamuunnoksiin rajatylittävissä liiketoimissa.                                                                                                                              | Lisää lisäkustannuksia kansainväliseen kaupankäyntiin, mikä tekee globaaleista liiketoimista vähemmän edullisia.             |
 
 Aivan kuten siirryimme minuuttihinnoittelusta äänipuheluista lähes maksuttomaan IP-pohjaiseen viestintään, avoimempien ja tehokkaampien verkkojen syntyminen voi määritellä maksamisen uudelleen, vähentää kustannuksia ja välikäsiä ja edistää uusia liiketoimintamalleja.
@@ -254,6 +238,7 @@ Bitcoin haastaa meidät miettimään uudelleen itse rahan luonnetta. Voisitteko 
 Jos haluat lisätietoa Bitcoinista, sen historiasta, toiminnasta ja käytöstä, suosittelen myös tämän kattavan kurssin seuraamista:
 
 https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
+
 ## Lightning-verkon esittely
 
 <chapterId>c095c7ad-5469-4c7b-9510-b6c0b86244e7</chapterId>
@@ -335,6 +320,7 @@ Lightning Network on ihanteellinen Bitcoin-maksuihin fyysisissä tai verkkokaupo
 Jos haluat lisätietoa Lightning Networkin teknisestä toiminnasta, suosittelen myös tämän toisen kattavan kurssin seuraamista:
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 # Bitcoin valtionkassaan
 
 <partId>bf45c1e8-af97-4b6b-af42-2866f493b14d</partId>
@@ -454,8 +440,11 @@ Nämä ajattelijat muokkasivat ajatusta siitä, että valtion väliintulo väär
 Lisätietoja tästä aiheesta:
 
 https://planb.network/courses/d955dd28-b7c6-4ba2-a123-d932e21d148f
+
 https://planb.network/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
+
 https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+
 ## Bitcoinin hallussapito valtionkassaan
 
 <chapterId>89622a40-d14f-4c37-a075-8e7e1731ec26</chapterId>
@@ -517,35 +506,20 @@ Bitcoin-ETF:t johtavat suurella marginaalilla **instituutioiden hyväksynnän** 
 Bitcoin toimii nyt "arvosäilön" **markkinoilla**. Se on mittakaavassa vain pisara ämpärissä: vain noin 1 800 miljardia dollaria verrattuna kullan 18 000 miljardiin dollariin tai kiinteistöjen 500 000 miljardiin dollariin. Sen noin 0,1 prosentin markkinaosuus antaa sille kuitenkin valtavat kasvumahdollisuudet, varsinkin kun otetaan huomioon, että sen kilpailijoilla on vaikeuksia houkutella uusia käyttäjiä.
 
 | Ticker | 1D Virta (M USD) | 1W Virta (M USD) | 1M Virta (M USD) | 3M Virta (M USD) | YTD Virta (M USD) |
-
 | ------- | --------------- | --------------- | --------------- | --------------- | ---------------- |
-
 | **Summa** | +457,19 | +1 507,95 | +2 888,01 | +3 672,29 | **+20 262,94** | **+20 262,94** |
-
 | IBIT | +393,40 | +750,91 | +1 536,47 | +3 821,37 | +22 460,44 | +22 460,44 |
-
 | FBTC | +14,81 | +372,40 | +627,16 | +458,71 | +10.266,69 |
-
 | ARKB | +11,51 | +163,26 | +295,92 | -3,88 | +2.647,32 | +2.647,32 |
-
 | BITB | +12,93 | +146,50 | +263,30 | +97,46 | +2.262,69 | +2.262,69 |
-
 | HODL | +5.75 | +38.77 | +94.54 | +100.39 | +682.03 | +682.03 |
-
 | BRRR | +1,92 | +4,72 | +17,76 | +20,54 | +540,19 | +540,19 |
-
 | EZBC | +11,79 | +17,53 | +39,29 | +47,48 | +439,45 | +11,79 | +17,53 | +39,29 | +47,48 | +439,45 |
-
 | BTC | ,00 | -3,13 | +36,59 | +419,18 | +419,18 | +419,18 |
-
 | BTCO | +6,43 | +19,25 | +47,30 | +56,41 | +394,82 | +394,82 |
-
 | BTCW | ,00 | +2,84 | +6,04 | +146,69 | +217,47 | +217,47 |
-
 | YBIT | -1,34 | -10,26 | +5,06 | +13,81 | +76,30 | +5,06 | +13,81 | +76,30 |
-
 | DEFI | .00 | .00 | .00 | .00 | -2.03 | -1.79 |
-
 | GBTC | ,00 | +5,16 | -81,42 | -1503,84 | -20.141,85 |
 
 *20 miljardia dollaria 10 kuukaudessa: Bitcoin-ETF:t saavuttivat alle vuodessa sen, mihin kulta-ETF:llä meni 5 vuotta. Lähde: ETF-rahastot (ETF-rahastot): Rahastojen sijoitusvirrat USD:nä. Bloomberg Terminal, Bloomberg L.P., 2024.*
@@ -629,8 +603,10 @@ Tämä on ylivoimaisesti yleisin menetelmä, ja se tapahtuu joko vertaisverkkop�
 
 Jos haluat oppia, miten avata yritystili ja käyttää sitä bitcoinien ostamiseen, myymiseen ja siirtämiseen, voit tutustua näihin kahteen erityisesti yrityksille suunnattuun opetusohjelmaan, jotka kattavat Kraken- ja Bitfinex-alustojen yritysversiot:
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
-https://planb.network/tutorials/exchange/centralized/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+https://planb.network/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
+
+https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+
 Jos haluat lisätietoja menetelmistä, joilla bitcoineja voi hankkia pörssin tai vertaisverkon kautta, voit [tutustua opetusohjelmiemme "exchange"-osioon](https://planb.network/tutorials/exchange).
 
 ![BIZ101](assets/en/16.webp)
@@ -785,129 +761,73 @@ Päätöksentekoprosessin yksinkertaistamiseksi olemme määritelleet neljä eri
 #### Profiili 1 - Aloittaja
 
 | Attribuutti | Aloittaja |
-
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-
 | **Mielentila** | "yritän ensimmäistä fyysistä maksua", "otan vinkin verkkosisällöstäni", "tavoittelen hyvin pieniä tuloja" | |
-
 | **Transaktioiden tiheys** | "ensimmäinen transaktio oppimista varten", "maksun ottaminen silloin tällöin"                                                                    |
-
 | **Yritystyyppi Esimerkkejä** | Luova talous (sisällöntuottajat, blogit, artikkelit jne.), satunnaiset vinkit, kertaluonteinen henkilökohtainen tuotemyynti, yhdistykset, kertaluonteiset tapahtumat |
-
 | **Maksutyyppi** | Yleensä muutamasta sentistä muutamaan euroon/dollariin; alle ~300 euroa/dollaria per tuote |
-
 | **Asetusten monimutkaisuus** | Ei mitään |
-
 | **Esimerkki suositeltavasta ratkaisusta** | Satoshi Wallet of Satoshin kaltainen Lightning-lompakko tai Phoenixin kaltainen muu lompakko |
-
 | **Merchant Interface** | Yksinkertainen Bitcoin Lightning -lompakko: sovellus matkapuhelimeen |
-
 | **Asiakasliittymä** | Bitcoin QR-maksukoodi, joka skannataan asiakkaan henkilökohtaisen lompakon kautta |
-
 | **Maksut** | Asiakas maksaa Bitcoin Lightning -maksut sekä mahdolliset sovellusmaksut |
-
 | **Myyntipisteen laite** | Ilmainen älypuhelinsovellus tai vaihtoehto fyysiselle päätelaitteelle (esim. Bitcoinize) |
-
 | **Hallinta ja roolit** | Yhden sovelluksen hallinta; roolien erottelu minimaalinen |
-
 | **Tilinpäätösvientejä** | Tapahtumahistorian perusluettelot |
-
 | **API** | Ei |
 
 #### Profiili 2 - Olennainen
 
 | Attribuutti | The Essential |
-
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-
 | **Mielentila** | "Hyväksyn Bitcoinin liiketoiminnassani, mutta en odota merkittävää volyymia" | |
-
 | **Transaktioiden tiheys** | Muutama transaktio kuukaudessa |
-
 | **Yritystyyppi Esimerkkejä** | Baarit, ravintolat, tuoretuotteiden tai suoraan tuotettujen tuotteiden puolisäännöllinen myynti, useat myymälät yhden omistajan alaisuudessa, taiteilijoiden luova talous |
-
 | **Maksutyyppi** | Yleensä muutamasta eurosta/dollarista muutamaan sataan per tuote; alle ~300 per tuote ja alle ~3,000 per kuukausi |
-
 | **Asetusten monimutkaisuus** | Minimaalinen (mobiilisovellus) |
-
 | **Esimerkki suositellusta ratkaisusta** | Swiss Bitcoin Pay |
-
 | **Merchant Interface** | Yksinkertainen Bitcoin Lightning -lompakko: sovellus matkapuhelimessa; yksinkertainen laskutus minimaalisilla yksityiskohdilla |
-
 | **Asiakasliittymä** | Bitcoin QR-maksukoodi, joka skannataan asiakkaan henkilökohtaisen lompakon kautta |
-
 | **Palkkiot** | Tyypillisesti <1 % lähetettäessä Bitcoin-osoitteeseen ja <1,5 % muunnettaessa fiatiksi |
-
 | **Myyntipisteen laite** | Ilmainen älypuhelinsovellus tai vaihtoehto fyysiselle päätelaitteelle (esim. Bitcoinize) |
-
 | **Hallinto ja roolit** | Mahdollisuus vain myyntirooliin työntekijöille; hallintoa varten onlinekäyttöinen kojelauta |
-
 | **Tilinpäätöstietojen vienti** | CSV-vienti täydellisine tapahtumatietoineen |
-
 | **API** | Kyllä |
 
 #### Profiili 3 - Ammattilainen
 
 | Attribuutti | Ammattilainen |
-
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-
 | **Mielentila** | - Maksutapa kuin mikä tahansa muu verkkokaupassani - Tai yhteishallinta yritysryhmälle, joka on valmis suurempiin volyymeihin |
-
 | **Tapahtumien tiheys** | Useita tapahtumia päivässä |
-
 | **Yritystyyppi Esimerkkejä** | Kohtalaisen suuret sähköisen kaupankäynnin sivustot, pienet markkinapaikat, fyysisten myymälöiden ryhmät (esim. Click & Collect), pk-yritykset |
-
 | **Maksutyyppi** | Yleensä muutamasta eurosta/dollarista muutamaan sataan; maksun suuruutta ei ole määritelty; alle 250 000 vuodessa |
-
 | **Asetusten monimutkaisuus** | Kevyestä täysin varusteltuun (paikallinen tai pilvi hosting), vaatii usein sähköisen kaupankäynnin |
-
 | **Esimerkki suositeltavasta ratkaisusta** | BTC Pay Server sähköiseen kaupankäyntiin ja/tai fyysisiin ympäristöihin; ZapRite, Musqet tai PayWithFlash kassalle, Be-BOP integroituun verkkokauppaan |
-
 | **Merchant Interface** | Verkkosivusto (mobiili ja työpöytä), jossa on laskujen muokkaus, ostoskorivaihtoehdot ja maksupainikkeiden luominen; automaattinen laskutus sähköisen kaupankäynnin integroinnilla |
-
 | **Asiakasliittymä** | Bitcoin QR-maksukoodi, joka skannataan asiakkaan henkilökohtaisen lompakon kautta |
-
 | **Maksut** | Sekoitus ilmaista avoimen lähdekoodin backendiä ja maksullisia Lightning-hostaus-/palvelumaksuja; front-end-maksut sisältävät Bitcoin Lightning -maksut ja <1,5 %:n muuntopalkkiot |
-
 | **Myyntipisteen laite** | Verkkokauppa, valinnainen fyysinen näyttö (esim. iPad, joka näyttää sivuston tai Bitcoin-päätteen) |
-
 | **Hallinta ja roolit** | Täysin varusteltu myymälä, jossa on useita ylläpitäjärooleja; työntekijät ja asiakkaat ovat vuorovaikutuksessa järjestelmän kanssa | |
-
 | **Tilinpäätöstietojen vienti** | CSV-vienti täydellisine tapahtumatietoineen |
-
 | **API** | Kyllä |
 
 #### Profiili 4 - Yritys
 
 | Attribuutti | Yritys |
-
 | -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-
 | **Mielentila** | - Strateginen maksutapa liiketoiminnalle - Joitakin kehitystoimia palvelualustaan integroimiseksi erityispiirteiden mukaisesti | |
-
 | **Transaktiotaajuus** | Rajoittamattomat, korkeataajuiset transaktiot |
-
 | **Yritystyyppi Esimerkkejä** | Keskisuuret yritykset, IT-palveluyritykset, suuryritykset, suuret markkinapaikat | |
-
 | **Maksutyyppi** | Mikä tahansa koko tai määrä |
-
 | **Asetusten monimutkaisuus** | Arkkitehtuurivalinnasta riippuen keskitaso tai korkea |
-
 | **Esimerkki suositeltavasta ratkaisusta** | SaaS-hostattujen ratkaisujen räätälöity arkkitehtuuri tai orkestrointi, mahdollisesti kolmannen osapuolen LSP-palveluja (*Lightning Service Provider*) käyttäen |
-
 | **Merchant Interface** | Täysin räätälöidyt front-end- ja back-end-käyttöliittymät, jotka on täysin integroitu yrityksen työnkulkuihin ja prosesseihin |
-
 | **Asiakasliittymä** | Vaihtelee Bitcoin QR-maksukoodista täysin räätälöityyn käyttöliittymään ja/tai API-integraatioon |
-
 | **Maksut** | Sisäisen kehityksen ja kolmansien osapuolten maksujen yhdistelmä; asiakas maksaa Bitcoin Lightning -maksut sekä palveluntarjoajien mahdolliset transaktiomaksut |
-
 | **Myyntipisteen laite** | Yritysympäristöön räätälöidyt räätälöidyt ratkaisut |
-
 | **Hallinto ja roolit** | Täysin räätälöidyt roolit myynnissä, hallinnossa, devopsissa, kirjanpidossa ja taloushallinnossa | |
-
 | **Kirjanpidon vienti** | Täysin räätälöity kirjanpidon vienti |
-
 | **API** | Kyllä |
 
 Seuraavissa luvuissa kuvaamme yksityiskohtaisesti kutakin liiketoimintaprofiilia ja kuhunkin niistä räätälöityjä ratkaisuja.
@@ -943,14 +863,21 @@ Yksityiskohtaiset oppaat suositelluista lompakoista ja perusasetuksista löydät
 **Self-custodial LN-lompakot/solmut:**
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+
 https://planb.network/tutorials/wallet/mobile/Bitkit-Wallet-a7224674-85c4-4045-9baf-37018d89550c
+
 https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+
 https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+
 https://planb.network/tutorials/wallet/mobile/zeus-3e89603c-501d-439c-8691-d4a0d0de459b
+
 **Huoltajina toimivat LN-lompakot:**
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-c4792842-b046-44f9-a6f1-351191b7cc2b
+https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+
 https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+
 ## Olennainen
 
 <chapterId>89be421f-f7df-4bcc-a9e4-df96e39ef249</chapterId>
@@ -981,13 +908,16 @@ Vaikka Essential-profiili ei vaadi erittäin kehittyneitä kirjanpitojärjestelm
 
 Profiilisi kannalta sopivin hybridiratkaisu on todennäköisesti Swiss Bitcoin Pay:
 
-https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+
 Toinen helposti toteutettavissa oleva ratkaisu, jonka haittapuolena on kuitenkin se, että se on 100-prosenttisesti säilytyspalvelu, on Open Node:
 
-https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+
 Jos olet valmis likaamaan kätesi ja haluat hallita prosessia täysin, BTCPay Server -ohjelmisto on erinomainen vaihtoehto. BTCPay Serverin suurin haittapuoli on kuitenkin se, että sen asennus ja hallinta ovat aikaa vieviä ja vaativat tiettyä teknistä asiantuntemusta, mutta voit seurata oppaitamme:
 
-https://planb.network/tutorials/merchant/merchant/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+
 Fyysisten myyntipisteiden täydennykseksi voisit harkita [Bitcoinize PoS](https://bitcoinize.com/) -palvelun perustamista.
 
 ## Ammattilainen
@@ -1025,6 +955,7 @@ Kun on kyse käytännön esimerkistä, mieti keskikokoista verkkokauppaa, joka o
 Jos haluat syventyä toteutuksen yksityiskohtiin ja tutustua BTC Pay Serverin käytännön konfiguraatioihin, käy seuraava kurssi:
 
 https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
+
 ## Yritys
 
 <chapterId>80fb2659-81ca-4a11-b492-72c7ae5774f9</chapterId>
@@ -1275,6 +1206,7 @@ Useimmille pienille yrityksille riittää kuitenkin usein pelkkä tapahtumahisto
 Niille, jotka säilyttävät Bitcoininsa itse, UTXO:n (*Unspent Transaction Outputs*) hallinta on tärkeä askel. UTXO:n asianmukainen merkitseminen auttaa jäljittämään kunkin BTC-palan alkuperän, erottamaan ammatilliseen toimintaan liittyvät transaktiot henkilökohtaisiin kuluihin liittyvistä transaktioista ja helpottamaan jäljitettävyyttä oikeudellisia tai verotuksellisia tarkoituksia varten. Useimmissa hyvissä Bitcoin-lompakko-ohjelmistoissa voit tuoda lompakkosi käyttämällä varmuuskopiotiedostoa (tai xpubia, asetuksestasi riippuen) ja merkitä UTXO:t niiden alkuperän tai määränpään perusteella. Avuksesi tässä on täydellinen opetusohjelma, joka on omistettu tälle käytännölle:
 
 https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+
 Lopuksi, olitpa sitten pieni kauppias tai vakiintunut yritys, on mahdollista **selvittää lasku Bitcoinilla**. Tärkeintä on dokumentoida transaktio asianmukaisesti. Jos maksat omasta lompakosta, on ihanteellista luoda tapahtuma, johon merkitään laskun numero ja maksun tarkoitus tarroissa. Jos maksat laskun mieluummin vaihdon kautta, sinulla on myös mahdollisuus viedä kuitti tai tapahtumahistoria kirjanpitoon. Tämä läpinäkyvyys yksinkertaistaa kaikkien BTC-toimintojesi seurantaa ja raportointia.
 
 ## Käytännön Bitcoin-tilinpäätösesimerkkejä

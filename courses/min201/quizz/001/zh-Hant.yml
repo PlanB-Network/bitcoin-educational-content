@@ -1,0 +1,14 @@
+question: 在 Bitcoin 網路中，難度調整機制的目的是什麼？
+answer: 確保平均每 10 分鐘挖掘一次區塊
+wrong_answers:
+  - 隨時間增加 Mining 的難度
+  - 隨著時間的推移降低 Mining 的難度
+  - 為了確保同一個 Miner 不會挖掘連續的區塊
+explanation: |
+  難度調節是在邏輯過程中的一個關鍵機制。
+  Bitcoin 網路的運作，確保區塊
+  平均每 10 分鐘挖掘一次。此調整
+  機制可確保新區塊的 Mining 時間
+  隨著時間的推移保持不變，不論
+  或網路的整體運算能力。
+reviewed: true

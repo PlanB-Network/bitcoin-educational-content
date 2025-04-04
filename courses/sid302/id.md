@@ -111,7 +111,4 @@ Antonio mempresentasikan Breeze, sebuah SDK sumber terbuka yang dirancang untuk 
 ## Kesimpulan
 
 <chapterId>e30a5587-d74b-4360-87fb-bbf3de1b0ba8</chapterId>
-
-Selamat telah menyelesaikan kursus ini!
-
-Kami sangat senang bahwa Anda telah berhasil mencapai tonggak penting dalam perjalanan pembelajaran Anda. Melalui dedikasi dan keterlibatan Anda, Anda telah memperoleh pengetahuan dan keterampilan yang berharga yang akan berguna bagi Anda dalam pengembangan profesional Anda.
+<isCourseConclusion>true</isCourseConclusion>

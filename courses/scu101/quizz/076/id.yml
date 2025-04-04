@@ -1,0 +1,9 @@
+question: Mengapa disarankan menggunakan kata sandi yang dihasilkan secara acak?
+answer: Untuk melawan serangan brute-force.
+wrong_answers:
+  - Untuk memudahkan pengingatannya.
+  - Untuk mengurangi kompleksitasnya.
+  - Untuk melawan serangan Sybil.
+explanation: |
+  Keacakan membuat kata sandi lebih sulit ditebak melalui percobaan, sehingga meningkatkan keamanannya terhadap serangan brute-force.
+reviewed: false

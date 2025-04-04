@@ -1,0 +1,9 @@
+question: Je, Lightning Network inasaidia vipi kupunguza ada za miamala ya Bitcoin?
+answer: Kwa kufanya shughuli nyingi za off-chain na kuchapisha shughuli za utatuzi wa kituo pekee kwenye Blockchain kuu.
+wrong_answers:
+  - Kwa kuondoa uthibitishaji wote wa kriptografia kutoka kwa malipo.
+  - Kwa kuweka udhibiti kati katika kitovu kimoja kikubwa cha malipo.
+  - Kwa kuwataka wafanyabiashara kulipa gharama zote za mtandao mapema.
+explanation: |
+  Kwa kuwa miamala ya Umeme hutokea off-chain, ni majimbo ya mwisho pekee ndiyo yanatatuliwa kwenye Bitcoin Blockchain. Hii inapunguza msongamano na hivyo kupunguza ada kwa kuepuka kufanya miamala mingi ya On-Chain.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 如果 Bob 在通道關閉期間偵測到 Alice 企圖作弊，他可以怎麼做？
+answer: 使用撤銷金鑰收回所有資金
+wrong_answers:
+  - 取消愛麗絲的 Commitment Transaction
+  - 永久關閉頻道，且無法選擇重新開啟
+  - 只領取可用資金的一半
+explanation: |
+  在作弊的情況下，Bob 可以使用撤銷金鑰從通道中收回所有資金，從而懲罰 Alice 的企圖。
+reviewed: false

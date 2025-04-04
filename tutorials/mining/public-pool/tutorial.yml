@@ -1,16 +1,10 @@
 id: 42b9e1b5-722d-471d-b1e3-9ca758065be1
-builder: Public Pool
 
-category: pools
-
-tags:
-  - mining
-  - Pool
+category: pool
 
 level: advanced
 
-credits:
-  professor: case-memory
+professor_id: 03cb7507-ad65-4848-88f8-bfa72e2b67f8
 
 # Proofreading metadata
 project_id: 9891d4f8-e1c3-4156-a1f1-eeaf5ee39e4d
@@ -19,79 +13,82 @@ proofreading:
   - language: fr
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
-    reward: 0.63
+    reward: 0.92
 
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 2.43
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 1.26
+    contributor_names:
+    reward: 1.84
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 3.59
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 2.43
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 3.01
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 2.43
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 2.43
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 1.26
+    contributor_names:
+    reward: 1.84
   - language: en
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 1.26
+    contributor_names:
+    reward: 1.84
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 1.84
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 3.01
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 1.84
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 3.59
 
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 2.43
+tags:
+  - mining
+  - guides

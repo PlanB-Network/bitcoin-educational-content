@@ -1,0 +1,9 @@
+question: 在 RGB 轉移過程中，Terminal Consignment 的目的是什麼？
+answer: 提供國家過渡歷史
+wrong_answers:
+  - 驗證 Genesis Contract
+  - 刪除舊的過渡
+  - generate 一個用於轉移的新 Schema
+explanation: |
+  Terminal Consignment 收集 Contract 的歷史記錄，以證明迄今為止轉移資產的合法性。
+reviewed: false

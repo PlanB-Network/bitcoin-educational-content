@@ -2,19 +2,18 @@ id: 1b157dfe-c39e-4e22-aa6d-0b4b52641dbc
 start_date: 2025-08-28 03:00:00
 end_date: 2025-08-29 13:00:00
 timezone: Asia/Hong_Kong
-address_line_1: Hong Kong
+address_city_country: Hong Kong
 name: Bitcoin Asia 2025
-builder: The Bitcoin Conference
 type: conference
-description: The main stage will welcome thousands of bitcoiners and feature hard-hitting keynotes and panels from the biggest names in bitcoin and beyond.
+description: The main stage will welcome thousands of bitcoiners and feature hard-hitting
+  keynotes and panels from the biggest names in bitcoin and beyond.
 language:
   - en
   - zh-hans
 links:
   website: https://b.tc/conference/asia
-tags:
-  - business
-  - legacy
-  - investment
-  - innovation
 project_id: 77d117fc-a2b1-4e2c-8442-ea00ff8cf70a
+tags:
+  - future-outlook
+  - adoption
+  - business

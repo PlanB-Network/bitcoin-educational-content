@@ -1,0 +1,11 @@
+question: Je, ni changamoto gani kuu inayohusishwa na Bitcoin Mining?
+answer: Sekta ya Mining ina ushindani mkubwa na tete, na matukio yasiyotarajiwa yanaweza kutatiza utendakazi wa Mining.
+wrong_answers:
+  - Changamoto kuu ni kupata chanzo cha uhakika cha umeme.
+  - Changamoto kuu ni kupata mahali salama pa kuhifadhi bitcoins zilizochimbwa.
+  - Changamoto kuu ni kutafuta mnunuzi wa bitcoins zilizochimbwa.
+explanation: |
+  Changamoto kuu inayohusishwa na Bitcoin Mining ni hiyo
+  tasnia ya Mining ina ushindani mkubwa na tete,
+  na matukio yasiyotarajiwa yanaweza kuharibu uendeshaji wa Mining.
+reviewed: true

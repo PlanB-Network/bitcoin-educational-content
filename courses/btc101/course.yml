@@ -20,20 +20,19 @@ level: beginner
 # complete the whole course
 hours: 7
 
+# teaching_format
+# Choose between self_paced, professor_led
+teaching_format: self_paced
+
 # professors
 # List who is/are the professor(s)
 # They are identified by their UUID
 # See /professors folder for examples
-professors:
-  - rabbit-hole
-
-# contributors
-# List who is/are the contributors who help format, review,
-# translate the course.
-# They are identified by their UUID
-# Currently, there are no shared record of these UUIDs
-contributors:
-  - another-satoshi
+professors_id:
+  - 2e1b5182-567e-453a-af29-36009340ff02
+project_id: 77f56919-1875-45ab-8c4c-b8fb26b021de
+contributor_names:
+  - Asi0Flammeus
 
 published_at: 2023-04-29
 # Proofreading metadata
@@ -42,85 +41,89 @@ proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 21.72
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 10.91
+    contributor_names:
+    reward: 16.31
   - language: en
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 10.91
+    contributor_names:
+    reward: 16.31
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 16.31
   - language: fi
     last_contribution_date: 2024-04-02
     urgency: 1
-    contributors_id:
+    contributor_names:
       - KryptoKeskus
     reward: 10.86
   - language: fr
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
-    reward: 5.45
+    reward: 8.16
   - language: it
     last_contribution_date: 2023-10-10
     urgency: 1
-    contributors_id:
+    contributor_names:
       - TinF0ilHat1
     reward: 8.16
   - language: ja
     last_contribution_date: 2023-12-03
     urgency: 1
-    contributors_id:
+    contributor_names:
       - yutaro21jp
     reward: 16.26
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 10.91
+    contributor_names:
+    reward: 16.31
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Reshetenko
     reward: 10.86
   - language: vi
     last_contribution_date: 2024-05-05
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Henry-Da0
     reward: 16.26
   - language: et
     last_contribution_date: 2024-09-24
     urgency: 1
-    contributors_id:
+    contributor_names:
       - taneltheplanet
     reward: 10.86
   - language: id
     last_contribution_date: 2024-09-24
     urgency: 1
-    contributors_id:
+    contributor_names:
       - AraleB
     reward: 13.56
   - language: zh-Hans
     last_contribution_date: 2024-09-24
     urgency: 1
-    contributors_id:
+    contributor_names:
       - MilankovicProtocol
     reward: 13.56
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 21.72
+tags:
+  - user-friendly
+  - wallets
+  - high-level

@@ -1,11 +1,11 @@
-question: Qual è uno degli aspetti da considerare nella scelta di una piattaforma DCA?
-answer: La disponibilità nel tuo paese.
+question: Qual è uno degli aspetti da considerare nella scelta di Piano di Accumulo Costante?
+answer: La disponibilità nel proprio paese.
 wrong_answers:
   - Il colore del logo della piattaforma.
   - Il numero di utenti sulla piattaforma.
   - L'età della piattaforma.
 explanation: |
   Questo testo del corso menziona che, nella scelta di una
-  piattaforma DCA, la decisione giusta dipenderà maggiormente
-  dalla sua disponibilità nel tuo paese.
+  piattaforma PAC, la decisione giusta dipenderà maggiormente
+  dalla sua disponibilità nel proprio paese.
 reviewed: true

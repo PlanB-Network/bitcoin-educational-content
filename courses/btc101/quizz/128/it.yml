@@ -1,5 +1,5 @@
 question: Quando si crea un piano di eredità, cosa non è necessario includere?
-answer: Il nome del portafoglio Bitcoin che si usa solitamente.
+answer: Il nome del wallet Bitcoin che si usa solitamente.
 wrong_answers:
   - Una lettera scritta a mano che elenca i tuoi beni.
   - Una descrizione di come accedere ai tuoi fondi.
@@ -7,5 +7,5 @@ wrong_answers:
 explanation: |
   Creare un piano di eredità è un passo cruciale per assicurare che i tuoi bitcoin saranno gestiti correttamente dopo la tua morte.
   Questo piano può includere una lettera scritta a mano che elenca i tuoi beni,
-  i metodi di accesso, e le informazioni di contatto delle persone di fiducia da contattare.
+  i metodi di accesso e i recapiti delle persone di fiducia da contattare.
 reviewed: true

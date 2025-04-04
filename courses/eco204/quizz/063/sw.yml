@@ -1,0 +1,11 @@
+question: Je, ni mkakati gani uliotumiwa na Waholanzi kukomesha ukuu wa Antwerp kama kituo cha kiuchumi cha kimataifa?
+answer: Walizuia ufikiaji wa Mto Scheldt
+wrong_answers:
+  - Walianzisha dhana ya thamani ya wakati wa pesa
+  - Walitoa sarafu yao wenyewe
+  - Waliunda soko la kwanza la hisa
+explanation: |
+  Waholanzi waliweza kumaliza ukuu wa Antwerp kama uchumi wa kimataifa
+  katikati kwa kuzuia ufikiaji wa Mto Scheldt. Mkakati huu ulikuwa sehemu ya kubwa zaidi
+  harakati za kihistoria, uasi wa ombaomba.'
+reviewed: false

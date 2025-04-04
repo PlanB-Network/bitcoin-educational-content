@@ -1,0 +1,11 @@
+question: Kusudi la kukusanya bitcoins polepole ni nini?
+answer: Ili kuruhusu mkakati wako wa uwekezaji kutekelezwa kwa wakati.
+wrong_answers:
+  - Ili kuchimba Bitcoins mpya.
+  - Kufanya biashara ya Bitcoins.
+  - Kubadilisha Bitcoins kuwa cryptocurrensets nyingine.
+explanation: |
+  Kukusanya bitcoins polepole ni mkakati unaoruhusu uwekezaji wako
+  kufunua baada ya muda. Haitumiki kwa Mining Bitcoins mpya, biashara ya Bitcoins, au
+  kubadilisha Bitcoins kuwa cryptocurrensets nyingine.
+reviewed: false

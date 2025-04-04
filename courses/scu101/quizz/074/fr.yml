@@ -1,0 +1,9 @@
+question: Quelles sont les principales fonctionnalités d'un gestionnaire de mots de passe ?
+answer: Stocker, générer et organiser les mots de passe.
+wrong_answers:
+  - Analyser et supprimer des virus.
+  - Sauvegarder et organiser des documents personnels.
+  - Optimiser la vitesse de connexion.
+explanation: |
+  Les fonctions essentielles incluent le stockage, la génération et l'organisation des mots de passe.
+reviewed: false

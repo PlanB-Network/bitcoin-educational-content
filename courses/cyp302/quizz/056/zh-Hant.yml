@@ -1,0 +1,9 @@
+question: 什麼類型的代數結構是抽象代數的基礎？
+answer: 集團
+wrong_answers:
+  - 現場
+  - 環
+  - 矩陣
+explanation: |
+  群是抽象代數所依據的基本代數結構，由一組 Elements 和尊重某些屬性的二元運算所定義。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni tofauti gani kati ya phusis na nomos?
+answer: Phusis ni sheria ya asili, nomos ni sheria ya binadamu.
+wrong_answers:
+  - Phusis ni sheria ya miungu, nomos ni sheria ya wanadamu.
+  - Phusis ni sheria ya wanyonge, nomos ni sheria ya wenye nguvu.
+  - Phusis ni sheria ya zamani, nomos ni sheria ya nyakati za kisasa.
+explanation: |
+  Katika falsafa ya Kigiriki, phusis inarejelea sheria za asili au zile za asili, zisizo na vitendo vya mwanadamu, wakati nomos inarejelea sheria za wanadamu, iliyoundwa na jamii kudhibiti maisha katika jamii.
+reviewed: false

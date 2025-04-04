@@ -1,94 +1,109 @@
-id: 7e9a77c0-013d-4f8e-a811-408b71dc7607
-builder: Sparrow
+id: c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
-level: advanced
+project_id: 9b3cac51-1dd2-4333-83dc-dc1d3a972595
+
+tags:
+  - wallets
+  - guides
+  - user-friendly
 
 category: desktop
 
-tags:
-  - self-custodial
-  - open-source
-  - privacy
+level: intermediate
+
+professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
 
 # Proofreading metadata
-project_id: 9b3cac51-1dd2-4333-83dc-dc1d3a972595
-original_language: en
+
+original_language: fr
 proofreading:
+  - language: fr
+    last_contribution_date: 2025-02-24
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 3.7
+
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 1.46
+    contributor_names:
+    reward:
+
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.78
+    contributor_names:
+    reward:
+
   - language: en
-    last_contribution_date: 2024-09-01
+    last_contribution_date:
     urgency: 1
-    contributors_id:
-      - Asi0Flammeus
-    reward: 0.39
+    contributor_names:
+    reward:
+
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 1.12
-  - language: fi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 1.46
-  - language: fr
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.78
-  - language: it
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 1.12
-  - language: ja
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2.14
-  - language: pt
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 0.78
-  - language: ru
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 1.46
-  - language: vi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2.14
+    contributor_names:
+    reward:
+
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 1.46
+    contributor_names:
+    reward:
+
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward:
+
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 1.8
-  - language: zh-Hans
+    contributor_names:
+    reward:
+
+  - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 1.8
+    contributor_names:
+    reward:
 
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward:
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 1.46
+    contributor_names:
+    reward:
+
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward:
+
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward:
+
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward:
+
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward:

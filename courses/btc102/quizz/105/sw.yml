@@ -1,0 +1,10 @@
+question: Je, ni hatua gani ya pili katika kuunda mpango wa urithi kulingana na sura?
+answer: Fanya hesabu rahisi na ya haraka.
+wrong_answers:
+  - Andika barua.
+  - Chagua watu wanaofaa kuwasaidia warithi wako.
+  - Kuajiri wakili.
+explanation: |
+  Hatua ya pili katika kuunda mpango wa urithi, kama inavyopendekezwa katika
+  sura, ni kufanya hesabu rahisi na ya haraka.
+reviewed: false

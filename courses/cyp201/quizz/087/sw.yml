@@ -1,0 +1,9 @@
+question: Je, ni kipengele gani cha kipekee cha anwani za SegWit v1 (P2TR) ikilinganishwa na anwani za SegWit v0?
+answer: Wanatumia moja kwa moja ufunguo mbichi wa umma kwenye Address.
+wrong_answers:
+  - Zimesimbwa katika base58check.
+  - Zinahitaji saini mbili kuwa halali.
+  - Wanatumia kitufe cha umma cha Hash kwenye Address.
+explanation: |
+  Anwani za SegWit v1 (P2TR) hazitumii Hash ya ufunguo wa umma, lakini moja kwa moja ufunguo wa umma wa Taproot.
+reviewed: false

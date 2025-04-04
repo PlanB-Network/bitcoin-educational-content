@@ -1,0 +1,10 @@
+question: Ni mswada gani wa juu zaidi wa madhehebu nchini Brazili kabla ya kufanywa upya kwa mara ya mwisho mwaka wa 1994?
+answer: 500,000
+wrong_answers:
+  - 1,000,000
+  - 250,000
+  - 100,000
+explanation: |
+  Mswada wa juu zaidi wa madhehebu nchini Brazil ulifikia 500,000, na wa mwisho
+  urekebishaji upya mwaka wa 1994 ulifanyika kwa kiwango cha 2,750 hadi 1.'
+reviewed: false

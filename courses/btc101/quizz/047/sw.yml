@@ -1,0 +1,12 @@
+question: Je! mfumuko wa bei ni nini?
+answer: Kuongezeka kwa kasi kwa wingi wa fedha.
+wrong_answers:
+  - Ongezeko ndogo la misa ya fedha.
+  - Kupungua kwa kasi kwa wingi wa fedha.
+  - Kupungua kidogo kwa misa ya fedha.
+explanation: |
+  Mfumuko wa bei ni hali ya kifedha inayojulikana na a
+  ongezeko kubwa la mfumuko wa bei kupitia uchapishaji wa fedha
+  na mamlaka, ambayo husababisha hasara kamili ya
+  kujiamini katika sarafu.
+reviewed: true

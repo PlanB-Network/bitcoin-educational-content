@@ -1,0 +1,11 @@
+question: Je, ni kashfa gani ya kawaida inayohusiana na michango ya mtandaoni katika sekta ya crypto?
+answer: Ofa zinazodai kuongeza mara mbili au kuzidisha bitcoins unazotuma.
+wrong_answers:
+  - Inatoa madai ya kuongeza mara mbili au kuzidisha bidhaa zako halisi.
+  - Ofa zinazodai kuongeza mara mbili au kuzidisha sarafu yako ya fiat.
+  - Inatoa kudai kuongeza mara mbili au kuzidisha bidhaa za programu yako.
+explanation: |
+  Mfano wa kawaida wa aina hii ya ulaghai ni ofa inayodai kuongezeka maradufu
+  au zidisha bitcoins unazotuma. Ni muhimu kuelewa kwamba hakuna
+  suluhisho la uchawi kuwa tajiri mara moja.
+reviewed: false

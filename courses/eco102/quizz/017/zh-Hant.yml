@@ -1,0 +1,9 @@
+question: 對 Bastiat 而言，何謂政治經濟學？
+answer: Exchange 理論
+wrong_answers:
+  - 價值理論
+  - 財富理論
+  - 購買力理論
+explanation: |
+  Bastiat 將政治經濟學定義為 Exchange 理論。
+reviewed: false

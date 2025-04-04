@@ -1,0 +1,9 @@
+question: 建議 Essential profile 企業使用的主要付款解決方案是什麼？
+answer: 瑞士 Bitcoin 薪資
+wrong_answers:
+  - 開放式節點
+  - BTCPay 伺服器
+  - 比特幣化 PoS
+explanation: |
+  我們強調 Swiss Bitcoin Pay 是 Essential profile 的建議解決方案，兼顧簡易性與安全性。
+reviewed: false

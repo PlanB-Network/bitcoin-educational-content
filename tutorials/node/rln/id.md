@@ -32,6 +32,7 @@ Kontrak RGB terstruktur seperti mesin status evolusioner. Dimulai dengan Genesis
 Untuk mempelajari lebih lanjut mengenai cara kerja protokol RGB, saya sarankan Anda mengikuti kursus pelatihan komprehensif ini:
 
 https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+
 ## Pemasangan simpul Lightning yang kompatibel dengan RGB
 
 Untuk mengkompilasi dan menginstal biner `rgb-lightning-node`, kita mulai dengan mengkloning repositori dan sub-modulnya, lalu kita jalankan berkas :
@@ -371,4 +372,4 @@ Jika Anda merasa tutorial ini bermanfaat, saya akan sangat berterima kasih jika 
 
 Saya juga merekomendasikan tutorial lain yang menjelaskan cara menggunakan alat bantu RGB CLI yang dikembangkan oleh asosiasi LNP/BP untuk membuat kontrak RGB:
 
-https://planb.network/tutorials/node/rgb/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4
+https://planb.network/tutorials/node/others/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4

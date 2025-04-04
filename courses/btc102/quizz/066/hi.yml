@@ -1,0 +1,10 @@
+question: होडलर के लिए शुरू करने के लिए अनुशंसित Wallet क्या है?
+answer: Cold, Wallet जैसे Bitbox02, Trezor, या Ledger।
+wrong_answers:
+  - Hot Wallet मोबाइल ऐप।
+  - Wallet एक भौतिक वस्तु है।
+  - एक पेपर Wallet।
+explanation: |
+  एक होडलर के लिए, यह सलाह दी जाती है कि वे Cold Wallet जैसे Bitbox02 से शुरुआत करें।
+  Trezor या Ledger। ये उपकरण बिटकॉइन की लंबी अवधि के लिए सुरक्षा प्रदान करते हैं।
+reviewed: false

@@ -1,0 +1,9 @@
+question: Je, matumizi maradufu yanazuiwaje kwenye Bitcoin?
+answer: Kupitia utangazaji wa umma wa shughuli zote za mfumo.
+wrong_answers:
+  - Kwa kuthibitisha utambulisho wa watumiaji kabla ya kila muamala.
+  - Kwa kukagua mara kwa mara shughuli za wakaguzi.
+  - Kwa kupunguza idadi ya miamala kwa kila mtumiaji.
+explanation: |
+  Ili kuthibitisha kutokuwepo kwa shughuli, na hivyo kuepuka matumizi mara mbili, ni muhimu kwa kila mtumiaji kuwa na ufahamu wa shughuli zote zilizopita.
+reviewed: false

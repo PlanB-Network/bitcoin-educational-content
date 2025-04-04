@@ -1,0 +1,10 @@
+question: Je, mradi wa DigiCash ulikuwa nini?
+answer: Jaribio la kuunda pesa za kielektroniki zisizojulikana na David Chaum.
+wrong_answers:
+  - Mradi wa kuunda Wallet ya kidijitali kwa Bitcoin.
+  - Jaribio la kuweka pesa taslimu zote kidijitali na Hifadhi ya Shirikisho.
+  - Mradi wa kuunda cryptocurrency kulingana na Bitcoin.
+explanation: |
+  David Chaum alianzisha dhana ya elektroniki isiyojulikana
+  pesa na mradi wake DigiCash katika miaka ya 1980.
+reviewed: true

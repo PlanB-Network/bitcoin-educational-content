@@ -30,22 +30,31 @@ O seu nó Nakamochi é gerido através de uma aplicação móvel, [BitBanana (An
 
 3. Use um aplicativo de gerenciamento de nós (Zeus ou BitBanana) para se conectar ao seu Nakamochi:
 
+4. Abra a aplicação e leia o código QR apresentado na sua Nakamochi.
 
-   - Abra a aplicação e leia o código QR apresentado na sua Nakamochi.
+5. Para maior segurança, defina um código PIN no seu dispositivo.
 
-4. Para maior segurança, defina um código PIN no seu dispositivo.
+![image](assets/en/01.webp)
 
-![Connect to power and write down your 24-word seed phrase](assets/en/01.webp)
+_Ligue-se à corrente e escreva a sua frase-semente de 24 palavras_
 
-![Wait until the Blockchain has caught up](assets/en/02.webp)
+![image](assets/en/02.webp)
 
-![Set up new wallet in Lightning Tab](assets/en/03.webp)
+_Espere até que a cadeia de blocos esteja a par_
 
-![Scan QR Code with Node Management App](assets/en/04.webp)
+![image](assets/en/03.webp)
 
-![For additional safety set a PIN code](asset/en/05.webp)
+_Configurar nova carteira no separador Relâmpago_
 
-nota: Permite que o teu nó Nakamochi se sincronize com a blockchain. Este processo pode demorar algum tempo, dependendo da tua ligação à Internet
+![image](assets/en/04.webp)
+
+_Scan QR Code with Node Management App_
+
+![image](asset/en/05.webp)
+
+_Para maior segurança, definir um código PIN_
+
+**Nota:** _Permite que o teu nó Nakamochi sincronize com a blockchain. Este processo pode demorar algum tempo, dependendo da tua ligação à Internet
 
 ## Sobre a Lightning Network
 
@@ -77,9 +86,11 @@ Assim que a sua Nakamochi estiver configurada e ligada a uma aplicação de gest
 
 5. Clique em **"Abrir canal "**.
 
-![ZEUS Screenshot](asset/en/06.webp)
+![image](asset/en/06.webp)
 
-Para obter mais informações: [Channels | Zeus Documentation](https://zeusln.app)
+captura de ecrã de _ZEUS_
+
+Para obter mais informações: [Channels | Zeus Documentation](https://docs.zeusln.app/)
 
 ### Abrir canais na BitBanana (Android):
 
@@ -93,7 +104,9 @@ Para obter mais informações: [Channels | Zeus Documentation](https://zeusln.ap
 
 5. Introduza o montante bloqueado (escolha com o seu par ou utilize o montante fixo mínimo para nós bem conhecidos).
 
-![Bitbanana Screenshot](asset/en/07.webp)
+![image](asset/en/07.webp)
+
+captura de ecrã de Bitbanana_
 
 Para mais informações: [BitBanana](https://bitbanana.com)
 
@@ -107,4 +120,4 @@ Geralmente, recomendamos que deixe os canais abertos para reduzir os custos e au
 
 
 - [Sobre Nakamochi](https://nakamochi.io/)
-- [Subscrever a nossa newsletter] (https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)
+- [Subscrever a newsletter da Nakamochi] (https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)

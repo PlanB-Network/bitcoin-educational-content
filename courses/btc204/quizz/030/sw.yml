@@ -1,0 +1,9 @@
+question: Je, lengo la heuristics ya muamala wa ndani ni nini?
+answer: Ili kutambua Exchange.
+wrong_answers:
+  - Ili kutambua miamala ya ulaghai katika muda halisi.
+  - Ili kutambua mifumo ya shughuli.
+  - Ili kutambua kundi linalomilikiwa na huluki moja.
+explanation: |
+  Heuristics ya ndani huturuhusu kutambua Exchange kwa lengo la kumtazama mtumiaji katika shughuli zinazofuata.
+reviewed: false

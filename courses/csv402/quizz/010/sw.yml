@@ -1,0 +1,9 @@
+question: Je, jukumu kuu la AluVM katika itifaki ya RGB ni lipi?
+answer: Tekeleza hati na shughuli za Contract katika mazingira ya mashine pepe
+wrong_answers:
+  - Changanua miamala ya Bitcoin On-Chain katika mazingira ya mashine pepe
+  - Vifunguo vya umma vya generate kwa watumiaji wa RGB katika mazingira ya mashine pepe
+  - Kuboresha uthibitishaji wa umma wa Blockchain katika mazingira ya mashine pepe
+explanation: |
+  AluVM imeundwa kwa ajili ya uthibitishaji wa Smart contract na kompyuta iliyosambazwa ndani ya mfumo wa RGB.
+reviewed: false

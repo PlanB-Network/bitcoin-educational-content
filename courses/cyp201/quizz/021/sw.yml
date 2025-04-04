@@ -1,0 +1,9 @@
+question: Ni nini sifa kuu ya kuzidisha kwa scalar kwenye curve za mviringo?
+answer: Utendaji wa njia moja
+wrong_answers:
+  - Inaweza kutenduliwa kwa urahisi
+  - Kulingana na factorization ya idadi kuu
+  - Muda mrefu sana kuhesabu
+explanation: |
+  Kuzidisha kwa scalar kwenye mikunjo ya duaradufu ni kazi ya njia moja, inayofanya kutowezekana kupata ufunguo wa faragha kutoka kwa ufunguo wa umma.
+reviewed: false

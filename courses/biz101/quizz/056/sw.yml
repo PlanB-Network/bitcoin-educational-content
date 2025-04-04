@@ -1,0 +1,9 @@
+question: Je, Wallet isiyo na kizuizi inatofautiana vipi katika utendakazi kwa watumiaji wa Starter?
+answer: Humpa mmiliki wa biashara udhibiti kamili wa funguo za faragha
+wrong_answers:
+  - Inaweza kubadilisha bitcoins kiotomatiki kuwa sarafu ya fiat
+  - Haihitaji taratibu za chelezo au hatua za usalama
+  - Inasimamia shughuli zote kupitia huduma ya wahusika wengine
+explanation: |
+  Pochi zisizo na dhamana huweka udhibiti wa funguo za kibinafsi na miamala mikononi mwa mtumiaji.
+reviewed: false

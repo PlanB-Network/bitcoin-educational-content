@@ -1,0 +1,9 @@
+question: 為什麼路由器必須在其通道中維持良好的流動性分佈？
+answer: 為了最大化它可以路由的付款數量
+wrong_answers:
+  - 減少交易費用
+  - 避免開闢新的通路
+  - 要限制使用 Bitcoin Blockchain
+explanation: |
+  路由器的目的是盡可能多地路由付款以收取費用，這就需要在通道兩側有良好的流動性分佈，以確保路由能力。
+reviewed: false

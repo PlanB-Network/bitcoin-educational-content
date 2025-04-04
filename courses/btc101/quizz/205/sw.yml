@@ -1,0 +1,8 @@
+question: Ni ipi mojawapo ya sababu kwa nini unapaswa kuunganisha UTXO zako kwenye pochi mara kwa mara?
+answer: Ili kuepuka ada zisizohitajika wakati wa shughuli.
+wrong_answers:
+  - Ili kuongeza thamani ya bitcoins zako.
+  - Ili kuzuia bitcoins zako zisiibiwe.
+  - Ili kuhakikisha bitcoins zako zinapatikana kila wakati.
+explanation: >-
+reviewed: true

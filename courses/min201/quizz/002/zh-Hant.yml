@@ -1,0 +1,16 @@
+question: 在 Bitcoin Mining 的情況下，CPU 與 ASIC 的主要差異是什麼？
+answer: CPU 可以執行多種不同類型的計算，但不會針對某種類型的計算進行特別優化，而 ASIC 只能執行一種類型的計算，但效率非常高
+wrong_answers:
+  - CPU 比 ASIC 更節能
+  - ASIC 比 CPU 更為多樣化
+  - CPU 只能執行一種類型的計算，而 ASIC 可以執行多種不同類型的計算
+explanation: |
+  ASIC 是一種晶片，可與 CPU 晶片媲美，但它們
+  是為了執行一種特定類型的
+  以最有效率的方式進行計算。在其他
+  換言之，CPU 能夠執行多種
+  不同類型的計算，而無需特別
+  針對某種類型的計算進行了最佳化，而
+  ASIC 只能執行一種類型的
+  計算，但非常有效率。
+reviewed: true

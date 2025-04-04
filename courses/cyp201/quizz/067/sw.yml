@@ -1,0 +1,9 @@
+question: Madhumuni ya faharasa ni nini katika kupata funguo za watoto?
+answer: Tofautisha jozi muhimu za ndugu
+wrong_answers:
+  - Tambua asili ya ufunguo (wa umma au wa faragha)
+  - Bainisha kiwango cha usalama cha ufunguo
+  - Ongeza Layer ya ziada ya usalama
+explanation: |
+  Faharasa inaruhusu kutofautisha vitufe vya watoto vinavyotokana na jozi ya wazazi sawa.
+reviewed: false

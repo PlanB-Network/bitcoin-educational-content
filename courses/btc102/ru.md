@@ -730,7 +730,7 @@ https://planb.network/tutorials/exchange/centralized/bull-bitcoin-60a58596-e54c-
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-c4792842-b046-44f9-a6f1-351191b7cc2b
+https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
@@ -794,7 +794,7 @@ https://planb.network/tutorials/wallet/hardware/seed-signer-ee2c284a-0e23-49a4-b
 
 Покупка без KYC между частными лицами: 
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028
+https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
 https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
@@ -822,6 +822,9 @@ https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f
 
 В менталитете параноидального человека осторожность, безопасность и анонимность имеют первостепенное значение. Эти приоритеты диктуют обдуманный и продуманный подход к использованию Биткойна, способствуя самодостаточности и осторожности. Параноидальный человек готов инвестировать время и усилия для обеспечения безопасности и конфиденциальности своих биткойнов, умело перемещаясь по экосистеме, чтобы избежать ненужного внимания. Хотя для некоторых это может показаться чрезмерной осторожностью, параноидальный человек считает свою добросовестность и внимание к деталям необходимыми для успешного и безопасного участия в мире Биткойна.
 
+# Защита наследников и имущества
+
+<partId>0b8a9528-719b-4a2d-bd50-1e173a896570</partId>
 
 ## Создание плана наследования
 <chapterId>233c88d3-2e8e-5eba-ac06-efe67a209038</chapterId>

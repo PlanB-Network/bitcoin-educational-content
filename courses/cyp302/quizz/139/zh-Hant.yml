@@ -1,0 +1,9 @@
+question: 加密 Hash 函數的主要特徵是什麼？
+answer: 對於任何輸入，不論其大小，它都會產生固定長度的輸出。
+wrong_answers:
+  - 它使用對稱金鑰加密資料。
+  - 它會根據輸入的長度產生可變的輸出。
+  - 它使用公開金鑰來解密訊息。
+explanation: |
+  無論輸入的大小為何，Hash 函式都會產生固定長度的 Hash。
+reviewed: false

@@ -6,8 +6,9 @@ links:
   trailer: https://youtu.be/agcjVCh5n6o
 description: |
   La 1ère pédagogie sur mesure du Bitcoin
+contributor_names:
+  - PaoloFoti
 tags:
-  - adoption
   - guides
-contributors:
-  - hunt-wood
+  - user-friendly
+  - easy-explain

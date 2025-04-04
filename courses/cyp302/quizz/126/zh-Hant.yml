@@ -1,0 +1,9 @@
+question: Diffie-Hellman 金鑰 Exchange 通訊協定允許什麼？
+answer: 它允許雙方透過共用公開資訊來建立共同的秘密金鑰。
+wrong_answers:
+  - 它允許每次會話使用當面秘密金鑰 Exchange。
+  - 它允許使用公開金鑰進行加密，並使用私人金鑰進行解密。
+  - 它允許電子貨幣 Exchange。
+explanation: |
+  Diffie-Hellman 通訊協定可讓雙方公開分享資訊，同時確保只有雙方能 generate 共同的金鑰，以保障未來交換的安全。
+reviewed: false

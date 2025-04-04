@@ -1,0 +1,9 @@
+question: 具有有限數量 Elements 的欄位稱為什麼？
+answer: 伽羅域
+wrong_answers:
+  - 乘法域
+  - 對稱場
+  - 向量場
+explanation: |
+  有限字段也稱為 Galois 字段，以數學家 Évariste Galois 命名，在現代密碼學中是不可或缺的。
+reviewed: false

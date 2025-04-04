@@ -1,0 +1,9 @@
+question: 是誰在 2010 年 7 月 18 日，也就是 Bitcoin 大 slashdot 爆發後的一個星期，創建了 Mt.Gox Exchange 平台？
+answer: Jed McCaleb
+wrong_answers:
+  - Mark Karpelès
+  - Martti Malmi
+  - Gavin Andresen
+explanation: |
+  他意念一動就創造了這個有效率的市場，因為他意識到在 Exchange 中以美元取得 Bitcoin 是多麼困難（尤其是在 Bitcoin Market 上）。
+reviewed: false

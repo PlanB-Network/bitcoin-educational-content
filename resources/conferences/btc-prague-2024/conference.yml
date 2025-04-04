@@ -1,0 +1,23 @@
+id: 67163600-efb8-40b8-822d-a1a3b745786e
+year: 2024-06
+name: BTC Prague 2024
+location: Prague, Czech Republic
+language:
+  - en
+  - cz
+links:
+  twitter: https://x.com/BTCPrague
+  website: https://btcprague.com/
+project_id: 0726adb9-4d45-4e5c-af2c-0a26db29d9b3
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: "2025-03-04"
+    urgency: 0
+    contributor_names:
+      - PaoloFoti
+    reward: 0.05
+tags:
+  - adoption
+  - future-outlook
+  - business

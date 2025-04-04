@@ -11,6 +11,7 @@ Lightning wallets, like all mobile wallets, are considered "hot" wallets because
 If you would like to learn more about the Lightning network and understand how it works technically, I recommend you take this course:
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 In this tutorial, we'll be taking a look at **Lipa**, a simple and effective Lightning wallet developed in Switzerland.
 
 ## Introducing Lipa
@@ -39,8 +40,8 @@ The Android version is currently under development and will be available soon.
 Once you've launched the application, you'll arrive on the home screen, which offers you two options:
 
 
-- Create a new portfolio
-- Restore an existing portfolio from a backup
+- Create a new wallet
+- Restore an existing wallet from a backup
 
 Once you've chosen your option, the application prompts you to enable notifications. This step is important, as notifications are necessary for :
 
@@ -82,7 +83,7 @@ This gesture reveals additional functions such as :
 - Creating Lightning invoices to receive bitcoins
 - Lightning invoice payment
 
-## Save your portfolio
+## Save your wallet
 
 To back up your wallet, go to the "Settings" tab and select "Recovery phrase". Lipa uses a recovery phrase which it is essential to write down carefully on a physical medium (paper, metal). This phrase is the only way to recover your funds if your phone is lost or stolen. To validate your backup, the application will ask you to confirm 3 random words from your phrase.
 
@@ -91,6 +92,7 @@ To back up your wallet, go to the "Settings" tab and select "Recovery phrase". L
 For more information on how to properly back up and manage your recovery phrase, I highly recommend following this other tutorial, especially if you're a beginner:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 ## Receive bitcoins
 
 To receive bitcoins, you have two options. To access these options, return to the home screen and pull down the screen. Then you can either :

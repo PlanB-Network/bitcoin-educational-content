@@ -1,0 +1,9 @@
+question: Ni saizi gani ya block inayotumiwa na SHA512 katika HMAC?
+answer: 128 ka
+wrong_answers:
+  - 64 ka
+  - 256 ka
+  - 1024 ka
+explanation: |
+  SHA512 hutumia vitalu vya 128-byte, ambayo ni sawa na bits 1024, kwa mahesabu yake.
+reviewed: false

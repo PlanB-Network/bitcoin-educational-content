@@ -1,0 +1,9 @@
+question: Ni amri gani inayosafirisha Contract kutoka Stash hadi faili ya nje?
+answer: Hamisha RGB '<ContractId>' myContractPBN.RGB
+wrong_answers:
+  - Pakua RGB '<ContractId>' myContractPBN.RGB
+  - RGB dampo '<ContractId>' myContractPBN.RGB
+  - Toleo la RGB '<ContractId>' myContractPBN.RGB
+explanation: |
+  Amri ya "RGB export" inatumika kutoa Contract kutoka Stash na kuihifadhi kama faili kwa ajili ya kushiriki kwa urahisi.
+reviewed: false

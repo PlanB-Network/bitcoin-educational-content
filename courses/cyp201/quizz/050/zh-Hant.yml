@@ -1,0 +1,9 @@
+question: 保護 passphrase 的良好作法是什麼？
+answer: 保存在與 Mnemonic 短語不同的獨立實體媒體上
+wrong_answers:
+  - 只背誦而不記下來
+  - 保存在與 Mnemonic 短語相同的實體媒體上
+  - 記錄在 Google Drive 等數位媒體上
+explanation: |
+  passphrase 必須與 Mnemonic 短語分開保存，以防止兩者同時被盜。
+reviewed: false

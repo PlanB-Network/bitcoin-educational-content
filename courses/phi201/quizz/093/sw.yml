@@ -1,0 +1,9 @@
+question: Je, mtazamo wa Tocqueville kuhusu haki ya kufanya kazi ni upi?
+answer: Tocqueville inapinga haki ya kufanya kazi na inahofia kwamba inaweza kusababisha takwimu na kupoteza uhuru wa mtu binafsi.
+wrong_answers:
+  - Tocqueville inaunga mkono haki ya kufanya kazi na inaamini kwamba Serikali inapaswa kuwahakikishia raia wote kazi nzuri.
+  - Tocqueville anafikiri kwamba haki ya kufanya kazi ni kanuni adhimu lakini ni vigumu kuitekeleza ipasavyo na kwa haki.
+  - Tocqueville haisemi wazi msimamo wake juu ya haki ya kufanya kazi.
+explanation: |
+  Tocqueville inapinga haki ya kufanya kazi, ikihofia kwamba jukumu hili lililopewa Serikali linaweza kusababisha uingiliaji kati kupita kiasi na kupunguzwa kwa uhuru wa mtu binafsi, kwa kupendelea udhibiti wa serikali kuu.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Je, ni sababu gani moja inayofanya iwe vigumu kwa mamlaka za kifedha kudhibiti Bitcoin?
+answer: Inafanya kazi kwa kiwango cha kimataifa, masaa 24 kwa siku, siku 7 kwa wiki.
+wrong_answers:
+  - Inadhibitiwa na mamlaka kuu.
+  - Haitumiki popote duniani.
+  - Ni rahisi kughushi.
+explanation: >-
+reviewed: true

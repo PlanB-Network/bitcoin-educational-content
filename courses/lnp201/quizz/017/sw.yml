@@ -1,0 +1,9 @@
+question: Nini kitatokea ikiwa Bob atamtumia Alice Invoice kwa satoshi 30,000?
+answer: Alice anaunda Commitment Transaction kuhamisha satoshi 30,000 kwa Bob katika chaneli.
+wrong_answers:
+  - Ni lazima Alice afungue kituo kipya ili kufanya uhamisho huu.
+  - Bob anapokea moja kwa moja satoshi 30,000 kwenye Wallet yake.
+  - Invoice inalipwa kupitia muamala wa On-Chain kwenye Bitcoin.
+explanation: |
+  Wakati Bob anatuma Invoice kwa Alice, huunda na kusaini Commitment Transaction mpya ili kurekebisha usambazaji wa fedha, na hivyo kuhamisha satoshi 30,000 kwenye chaneli.
+reviewed: false

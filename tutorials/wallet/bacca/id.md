@@ -141,5 +141,5 @@ Jika Anda merasa tutorial ini bermanfaat, saya akan sangat berterima kasih jika 
 Saya juga menyarankan Anda untuk melihat tutorial tentang GnuPG ini, yang menjelaskan cara memeriksa integritas dan keaslian perangkat lunak Anda sebelum menginstalnya. Ini adalah praktik penting, terutama ketika menginstal perangkat lunak manajemen portofolio seperti Liana atau Sparrow :
 
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 

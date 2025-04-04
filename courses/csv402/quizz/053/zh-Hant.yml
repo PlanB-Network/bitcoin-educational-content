@@ -1,0 +1,9 @@
+question: RGB 如何為 DEX Layer-2 鋪路？
+answer: 透過 Lightning 通道和原子交換啟用 off-chain 資產的 Exchange
+wrong_answers:
+  - 透過使用集中式 Exchange 來處理所有 RGB 交易
+  - 透過 On-Chain 智慧型契約實現資產的 Exchange
+  - 透過原子交換啟用跨 Blockchain 資產 Exchange
+explanation: |
+  透過 Lightning 通道進行原子交換和交換的能力提供了創建分散式 DEX 的可能性，而不會有 On-Chain 交易所的缺點。
+reviewed: false

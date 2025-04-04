@@ -1,11 +1,11 @@
-question: Qual è lo scopo di un portafoglio Bitcoin?
-answer: Conservare le chiavi private per effettuare transazioni in bitcoin.
+question: Qual è lo scopo di un wallet Bitcoin?
+answer: Conservare le chiavi private per effettuare transazioni Bitcoin.
 wrong_answers:
   - Utilizzare le risorse del dispositivo per minare bitcoin.
   - Acquistare bitcoin tramite la chiave pubblica.
   - Conservare i bitcoin su un dispositivo.
 explanation: |
-  I portafogli Bitcoin sono un tipo di software utilizzato per
-  conservare le chiavi private che ti permettono di effettuare transazioni
-  con i tuoi bitcoin.
+  I wallet Bitcoin sono un tipo di software utilizzato per
+  conservare le chiavi private, le quali permettono di effettuare transazioni
+  Bitcoin.
 reviewed: true

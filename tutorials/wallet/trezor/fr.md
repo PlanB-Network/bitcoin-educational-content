@@ -78,11 +78,22 @@ Ensuite, vous verrez ceci :
 
 ![image](assets/9.webp)
 
-Sur l'appareil, voyez les mots qui vous sont présentés un par un et notez-les SOIGNEUSEMENT et DANS L'ORDRE.
+Votre Trezor vous affiche votre phrase mnémonique de 12 mots. **Cette phrase mnémonique donne un accès complet et non restreint à tous vos bitcoins**. N'importe qui en possession de cette phrase peut subtiliser vos fonds, même sans accès physique à votre Trezor. La phrase de 12 mots permet de restaurer l'accès à vos bitcoins en cas de perte, vol ou casse de votre hardware wallet. Il est donc très important de la sauvegarder soigneusement et de la stocker dans un endroit sécurisé.
+
+Vous pouvez l'inscrire sur le papier cartonné fourni dans la boite, ou bien pour plus de sécurité, je vous recommande de la graver sur un support en acier inoxydable afin de la protéger contre les risques d'incendies, d'inondations ou d'écroulements.
+
+Pour plus d'informations sur la manière adéquate de sauvegarder et de gérer votre phrase mnémonique, je vous recommande vivement de suivre cet autre tutoriel, particulièrement si vous êtes débutant :
+
+https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 
 ![image](assets/10.webp)
 
-Définissez un code PIN pour verrouiller l'appareil (ce n'est pas une partie de votre graine, c'est simplement pour verrouiller l'appareil afin que personne ne puisse accéder à la graine qu'il contient).
+Vient ensuite l'étape du code PIN. Le code PIN permet de déverrouiller votre Trezor. C'est donc une protection contre les accès physiques non autorisés. Ce code PIN n'intervient pas dans la dérivation des clés cryptographiques de votre portefeuille. Ainsi, même sans accès à ce code PIN, la possession de votre phrase mnémonique de 12 ou 24 mots vous permettra de retrouver l'accès à vos bitcoins.
+
+Il est recommandé de choisir un code PIN le plus aléatoire possible. Assurez-vous également de sauvegarder ce code dans un lieu distinct de celui où est stocké votre Trezor (par exemple, dans un gestionnaire de mot de passe).
+
+Vous pouvez choisir un code PIN jusqu'à 9 chiffres. Je vous conseille de le faire le plus long possible.
 
 ![image](assets/11.webp)
 
@@ -94,19 +105,26 @@ Nommez votre portefeuille et cliquez sur "Accéder à la suite":
 
 ![image](assets/13.webp)
 
-Il est plus simple de créer un portefeuille sans phrase secrète, mais il est préférable d'en créer un avec une phrase secrète (votre vrai portefeuille) ET un sans phrase secrète (votre portefeuille leurre). Chaque fois que vous accédez au dispositif via Trezor Suite, on vous demandera si vous souhaitez "appliquer" la phrase secrète ou non.
+Avant de continuer, vous pouvez, si vous le souhaitez, ajouter une passphrase BIP39. Une passphrase BIP39 est un mot de passe optionnel que vous pouvez choisir librement, et qui vient s'ajouter à votre phrase mnémonique pour renforcer la sécurité du portefeuille. Avec cette fonctionnalité activée, l'accès à votre portefeuille Bitcoin nécessitera à la fois la phrase mnémonique et la passphrase. Sans l'une ou l'autre, il serait impossible de récupérer le portefeuille.
+
+Avant de configurer cette option sur votre Trezor, il est fortement recommandé de lire cet article pour bien comprendre le fonctionnement théorique de la passphrase et éviter les erreurs qui pourraient entraîner la perte de vos bitcoins :
+
+https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
+Pour l'activer il faut sélectionner l'option "Hidden wallet" et la noter dans la case correspondante. Chaque fois que vous accéderez à votre portefeuille via Trezor Suite, on vous demandera si vous souhaitez appliquer la passphrase ou non.
+
 
 ![image](assets/14.webp)
 
-J'ai sélectionné "Portefeuille caché" et j'ai saisi une phrase secrète que j'ai inventée "craigwrightisaliarandafraud"
+Il est également important de bien sauvegarder cette passphrase, de la même manière que la phrase mnémonique. La perdre revient à perdre l’accès aux bitcoins. Je vous déconseille fortement de la retenir uniquement de tête, car cela augmente irraisonnablement les risques de perte. L’idéal est de la noter sur un support physique (en papier ou en métal) séparé de la phrase mnémonique. Cette sauvegarde devra évidemment être stockée dans un lieu différent de celui où est stockée votre phrase mnémonique pour éviter que les deux soient compromis simultanément.
+
+Pour qu'elle soit efficace, vous devez choisir une passphrase forte, aléatoire, incluant tous les types de caractères et suffisamment longue (comme un mot de passe fort).
 
 ![image](assets/15.webp)
 
-J'aime le fait qu'il soit appelé un portefeuille "caché", car cela explique en partie comment fonctionnent les phrases secrètes.
+Confirmez la passphrase sur le dispositif.
 
-Confirmez la phrase secrète sur le dispositif.
-
-Étant donné que ce portefeuille est vide, on m'a demandé de confirmer que la phrase secrète est correcte:
+Étant donné que ce portefeuille est vide, on m'a demandé de confirmer que la passphrase est correcte:
 
 ![image](assets/16.webp)
 

@@ -1,0 +1,14 @@
+question: 未來關於 Bitcoin 區塊空間使用的疑慮是什麼？
+answer: 未來的顧慮是，隨著 Lightning Network 的預期成長，以及隨之而來的航道開放與關閉的增加，Bitcoin 區塊的空間將變得越來越有價值。
+wrong_answers:
+  - 未來的顧慮是 Bitcoin 區塊的規模會變得太大，無法管理。
+  - 未來的顧慮是 Bitcoin 區塊的數量會超過網路的容量。
+  - 未來的顧慮是 Bitcoin 區塊的複雜度將會增加，使其難以處理。
+explanation: |
+  隨著 Lightning Network 和
+  渠道的開放和關閉隨之增加，空間
+  Bitcoin 區塊的價值將與日俱增。這
+  這引起了關於合法使用區塊
+  空間，並關注來自 Blockchain 的垃圾郵件。
+  被視為非必要的交易。
+reviewed: true

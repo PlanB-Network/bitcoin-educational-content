@@ -1,0 +1,9 @@
+question: 巴斯蒂亞認為盧梭是哪個政治運動的先驅？
+answer: 社會主義
+wrong_answers:
+  - 共產主義
+  - 互助
+  - 無政府主義
+explanation: |
+  Bastiat 認為盧梭是社會主義的先驅，因為他對社會採取集體方式，個人必須服從於整體意志。
+reviewed: false

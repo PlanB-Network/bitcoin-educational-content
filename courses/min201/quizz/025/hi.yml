@@ -1,0 +1,11 @@
+question: Bitcoin नेटवर्क के बेस Layer को अक्सर किस नाम से जाना जाता है?
+answer: निपटान Layer
+wrong_answers:
+  - लेन-देन Layer
+  - सुरक्षा Layer
+  - सहमति Layer
+explanation: |
+  Bitcoin नेटवर्क का बेस Layer, जिसे लाइटनिंग...
+  नेटवर्क भुगतान चैनल खोलने और बंद करने के लिए निर्भर करता है।
+  को अक्सर निपटान Layer के रूप में जाना जाता है।
+reviewed: true

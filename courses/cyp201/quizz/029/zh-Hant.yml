@@ -1,0 +1,9 @@
+question: Bitcoin 發射時使用的是哪一種數位簽章演算法？
+answer: ECDSA
+wrong_answers:
+  - Schnorr
+  - RSA
+  - HMAC
+explanation: |
+  在 2021 年引入 Schnorr 簽署之前，Bitcoin 最初使用的是 ECDSA（一種基於橢圓曲線的簽署協定）。
+reviewed: false

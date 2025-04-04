@@ -1,25 +1,18 @@
 id: 827b90cd-17ef-49d2-a13c-2e021b60f8fb
 year: 2018
 name: Breaking Bitcoin 2018
-builder: Breaking Bitcoin
 location: Lisbon, Portugal
 language:
   - en
 links:
-  website: https://breaking-bitcoin.com/
+  website: https://building-on-bitcoin.com/
   twitter: https://twitter.com/breakingbitcoin
-tags:
-  - Bitcoiner
-  - technical
-  - security
-
-# Proofreading metadata
 project_id: eef8c3d4-2ec8-4f8d-9fd5-b146191ae52d
 original_language: en
 proofreading:
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 0
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
     reward: 0.05

@@ -1,0 +1,13 @@
+question: Ni hatari gani inayoweza kutokea ya kuunganishwa kwa utengenezaji wa vifaa vya Mining nchini Uchina?
+answer: Kukataa kuuza nje mashine za Mining au mkusanyiko wa Hashrate kwa shambulio linalowezekana la 51%.
+wrong_answers:
+  - China inaweza kuhodhi mtandao wa Bitcoin.
+  - China inaweza kudhibiti bei ya Bitcoin.
+  - China inaweza kupiga marufuku Bitcoin Mining.
+explanation: |
+  Uwekaji kati wa utengenezaji wa vifaa vya Mining nchini Uchina
+  inaleta hatari kwa mtandao wa Bitcoin. Ikiwa China itakataa
+  kuuza nje mashine za Mining au hujilimbikiza Hashrate kwa a
+  uwezekano 51% mashambulizi, inaweza kutishia usalama na
+  ugatuaji wa mtandao.
+reviewed: true

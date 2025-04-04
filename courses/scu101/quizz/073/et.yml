@@ -1,0 +1,9 @@
+question: Mis on paroolihalduri kasutamise peamine eelis?
+answer: Mäletada ainult ühte peaparooli.
+wrong_answers:
+  - Mitte kunagi enam uusi paroole luua.
+  - Aidata kõiki paroole meelde jätta mnemotehnika abil.
+  - Kaotada vajadus veebikontode järele.
+explanation: |
+  Kasutaja peab meeles pidama ainult ühe parooli, et pääseda ligi kõigile teistele.
+reviewed: false

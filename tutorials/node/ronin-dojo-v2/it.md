@@ -326,6 +326,7 @@ Un tutorial dettagliato è in preparazione per guidarti passo dopo passo attrave
 Per una comprensione più approfondita del coinjoin e del suo utilizzo su Bitcoin, ti invito anche a consultare questo altro articolo: Understanding and using coinjoin on Bitcoin, dove dettaglio tutto ciò che devi sapere su questa tecnica.
 
 https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 ### Utilizzo di Whirlpool Stat Tool (WST)
 
 Dopo aver eseguito coinjoins con Whirlpool, è utile valutare con precisione il livello di privacy raggiunto per i tuoi UTXO mixati. Per fare ciò, puoi utilizzare lo strumento Python *Whirlpool Stat Tool*. Questo strumento ti permette di misurare sia i punteggi prospettici che retrospettivi dei tuoi UTXO, analizzando al contempo il loro tasso di diffusione nella pool.

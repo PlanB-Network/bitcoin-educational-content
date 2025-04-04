@@ -1,0 +1,12 @@
+question: 16 世紀在 Antwerp Stock Exchange 推出的期票有何獨特之處？
+answer: 它們印有名字和到期日
+wrong_answers:
+  - 它們是黃金做的
+  - 由阿姆斯特丹銀行發行
+  - 它們可兌換為弗羅林
+explanation: |
+  安特衛普股票 Exchange 推出了印有以下名稱的期票
+  和到期日。這使得它們很難在到期日之前 Exchange。然而、
+  Exchange 引入了在到期前貼現這些票據的做法。
+  日期，使其更加 Liquid，並引入貨幣時間價值的概念。
+reviewed: false

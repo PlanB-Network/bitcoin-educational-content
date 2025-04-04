@@ -1,0 +1,9 @@
+question: Katika uwanja wenye kikomo, ni nini jukumu la polynomial isiyoweza kupunguzwa?
+answer: Bainisha shughuli za kuzidisha kwenye uwanja
+wrong_answers:
+  - Bainisha kinyume cha nyongeza cha kila kipengele
+  - Hakikisha kufungwa kwa uwanja
+  - Amua utambulisho wa kuzidisha
+explanation: |
+  Polinomia zisizoweza kupunguzwa hutumika kupanga kuzidisha katika sehemu zenye kikomo, kuhakikisha kwamba kila kipengele kinasalia ndani ya uwanja.
+reviewed: false

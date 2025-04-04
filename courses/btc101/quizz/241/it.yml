@@ -1,13 +1,12 @@
-question: Cos'è una piattaforma DCA?
+question: Cos'è una piattaforma PAC (o DCA, Piano di Accumulo Costante)?
 answer: Un servizio che consente agli utenti di investire un importo fisso di denaro in un asset a intervalli regolari.
 wrong_answers:
   - Un tipo di exchange di criptovalute che permette solo il trading di Bitcoin.
   - Un servizio finanziario che fornisce prestiti agli investitori per il trading con margine.
   - Uno strumento software che traccia i prezzi delle azioni in tempo reale senza alcuna funzionalità di investimento.
 explanation: |
-  Una piattaforma DCA si riferisce a una piattaforma che facilita
-  il Dollar-Cost Averaging (DCA), una strategia di investimento dove
-  un individuo investe un importo fisso di denaro in un
-  particolare asset a intervalli regolari, indipendentemente dal
-  prezzo dell'asset.
+  Una piattaforma PAC (o DCA) si riferisce a una piattaforma che facilita
+  il Piano di Accumulo Costante (PAC) (o Dollar-Cost Averaging, DCA), una strategia di investimento
+  dove un individuo investe un importo fisso di denaro in un particolare asset 
+  a intervalli regolari, indipendentemente dal prezzo dell'asset.
 reviewed: true

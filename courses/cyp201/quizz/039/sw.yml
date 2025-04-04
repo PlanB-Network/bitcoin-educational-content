@@ -1,0 +1,9 @@
+question: Je, ni jukumu gani kuu la Bitcoin Wallet?
+answer: Dhibiti na uhifadhi funguo za faragha
+wrong_answers:
+  - Hifadhi bitcoins za mtumiaji
+  - Hakikisha usiri wa miamala kiotomatiki
+  - generate bitcoins kwa kila mtumiaji
+explanation: |
+  Bitcoin Wallet haihifadhi bitcoins moja kwa moja lakini inasimamia funguo za kibinafsi zinazohitajika ili kufungua UTXO zinazowakilisha bitcoins.
+reviewed: false

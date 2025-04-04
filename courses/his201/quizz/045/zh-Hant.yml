@@ -1,0 +1,9 @@
+question: 2010 年 7 月，為 Bitcoin 的知名度做出重大貢獻的網站名稱是什麼？
+answer: 虛擬辦公室
+wrong_answers:
+  - 黑客新聞
+  - 堆疊溢出
+  - Reddit
+explanation: |
+  2010 年 7 月 11 日，Teppy 撰寫的 Bitcoin 簡報發表在這個熱門網站，引發大量使用者湧入。
+reviewed: false

@@ -1,0 +1,10 @@
+question: 根據 Philip Cagan 的定義，惡性通貨膨脹的臨界值是多少？
+answer: 每月通膨率超過 50
+wrong_answers:
+  - 每月通膨率超過 40
+  - 每月通膨率超過 60
+  - 每月通膨率超過 70
+explanation: |
+  根據 Philip Cagan 的定義，惡性通貨膨脹開始於每月
+  通貨膨脹率超過 50%。
+reviewed: false

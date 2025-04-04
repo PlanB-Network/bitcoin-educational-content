@@ -1,0 +1,9 @@
+question: Kulingana na Adam Smith, kwa nini soko linafanya kazi?
+answer: Kwa sababu inategemea maslahi binafsi
+wrong_answers:
+  - Kwa sababu inadhibitiwa
+  - Kwa sababu ni wema
+  - Kwa sababu inafuatiliwa na serikali
+explanation: |
+  Kwa Adam Smith, soko hufanya kazi kwa sababu kila mtu anatenda kwa maslahi yake binafsi, ambayo kwa kawaida huzalisha ustawi wa pamoja.
+reviewed: false

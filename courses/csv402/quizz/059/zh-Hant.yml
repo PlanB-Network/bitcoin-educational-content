@@ -1,0 +1,9 @@
+question: 在 RGB Lightning 節點環境中，RGB 代理伺服器的功能是什麼？
+answer: 促進 Exchange 的 RGB 貨運
+wrong_answers:
+  - 為節點提供開啟通道的公開金鑰
+  - 保留 RGB 狀態轉換的歷史記錄
+  - 避免 RGB 代幣的重複股票代號
+explanation: |
+  RGB 代理伺服器透過扮演中介角色，簡化 Lightning 參與者之間的 RGB 交貨通訊，讓使用者體驗更順暢，與目前使用 Bitcoin 和 Lightning 時的體驗接近。
+reviewed: false

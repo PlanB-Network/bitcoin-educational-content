@@ -1,0 +1,9 @@
+question: 滿足換元條件的群稱為什麼？
+answer: 非等邊群
+wrong_answers:
+  - 封閉式群組
+  - 關聯群
+  - 逆群
+explanation: |
+  非等邊群或換元群是二元運算中 Elements 的順序不影響結果的群。這表示對於任何 a 和 b，a ∘ b = b ∘ a。
+reviewed: false

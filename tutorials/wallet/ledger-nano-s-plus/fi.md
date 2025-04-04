@@ -49,7 +49,7 @@ Tätä opasta varten tarvitset 2 ohjelmistosovellusta: Ledger Live -sovelluksen 
 
 ![NANO S PLUS LEDGER](assets/notext/03.webp)
 Näiden kahden ohjelmiston osalta suosittelen vahvasti sekä niiden aitouden (GnuPG:n avulla) että niiden eheyden (hashin kautta) tarkistamista ennen niiden asentamista koneellesi. Jos et ole varma, miten tämä tehdään, voit seurata tätä toista opasta:
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Kuinka alustaa Ledger Nano?
 

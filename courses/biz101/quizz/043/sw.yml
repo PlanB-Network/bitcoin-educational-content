@@ -1,0 +1,9 @@
+question: Bitcoin inakuruhusu kufanya nini bila waamuzi?
+answer: Thamani ya Exchange kwenye Mtandao
+wrong_answers:
+  - Unda programu za kati
+  - Pata mikopo ya benki
+  - Hifadhi data ya kibinafsi
+explanation: |
+  Bitcoin huwezesha Exchange ya thamani kwenye Mtandao bila waamuzi kupitia itifaki yake ya rika-kwa-rika.
+reviewed: false

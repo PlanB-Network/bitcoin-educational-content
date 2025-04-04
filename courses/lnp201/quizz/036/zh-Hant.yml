@@ -1,0 +1,9 @@
+question: HTLC 的接受者必須符合什麼條件才能獲得資金？
+answer: 他們必須提供一個秘密（預設影像）來解鎖付款。
+wrong_answers:
+  - 它們必須接受每個中介節點的路由費用。
+  - 他們必須簽署新的 Commitment Transaction。
+  - 他們必須等待時間鎖到期後才能取回資金。
+explanation: |
+  要接收 HTLC 中的資金，收款人必須提供特定的秘密，才能解鎖 Hash 所保證的付款。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Je, ni shughuli gani kuu za RGB Contract?
+answer: State Transition, Genesis, na State Extension
+wrong_answers:
+  - Seal Definition, Commitment, na Uthibitishaji
+  - Uundaji wa Anchor, Usasishaji wa DAG, na Uwekaji Sahihi wa Muamala
+  - Kizuizi cha Genesis, Mgao wa UTXO, na Uthibitishaji wa Hati
+explanation: |
+  Shughuli hizi hurekebisha au kukamilisha hali ya Contract kulingana na Schema yake.
+reviewed: false

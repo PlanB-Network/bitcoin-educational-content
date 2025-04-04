@@ -1,0 +1,9 @@
+question: 現代密碼方案的安全性證明不包括哪個步驟？
+answer: 設定使用者 Interface
+wrong_answers:
+  - 說明安全定義
+  - 數學複雜性假設
+  - 安全的數學證明
+explanation: |
+  現代密碼學的安全性證明著重於目標和數學假設，排除了使用者 Interface 等與密碼安全性無關的方面。
+reviewed: false

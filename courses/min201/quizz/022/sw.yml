@@ -1,0 +1,11 @@
+question: Wachimbaji wa madini watategemea nini kwa fidia baada ya bitcoins zote milioni 21 kuundwa?
+answer: Wachimbaji madini watategemea tu ada za miamala kwa ajili ya fidia.
+wrong_answers:
+  - Wachimbaji wa madini watategemea tu malipo ya vitalu kwa ajili ya fidia.
+  - Wachimbaji madini watategemea tu uthibitisho wa miamala kwa ajili ya fidia.
+  - Wachimbaji madini watategemea tu ada za mtandao kwa ajili ya fidia.
+explanation: |
+  Kufikia 2140, hakuna bitcoins mpya zitaundwa. Katika hatua hii,
+  wachimbaji wa madini watategemea tu ada za miamala
+  fidia.
+reviewed: true

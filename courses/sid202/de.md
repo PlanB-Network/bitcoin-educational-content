@@ -1232,7 +1232,4 @@ Der nächste Schritt besteht darin, sich selbst mit einem kumulativen Quiz herau
 ## Schlussfolgerung
 
 <chapterId>15f62056-c69c-467e-9565-af48d439a1f5</chapterId>
-
-Herzlichen Glückwunsch zum Abschluss dieses Kurses!
-
-Wir freuen uns sehr, dass Sie diesen Meilenstein auf Ihrer Lernreise erfolgreich erreicht haben. Durch Ihren Einsatz und Ihr Engagement haben Sie wertvolle Kenntnisse und Fähigkeiten erworben, die Ihnen in Ihrer beruflichen Entwicklung von großem Nutzen sein werden.
+<isCourseConclusion>true</isCourseConclusion>

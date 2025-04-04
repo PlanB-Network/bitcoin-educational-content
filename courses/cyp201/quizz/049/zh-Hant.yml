@@ -1,0 +1,9 @@
+question: Bitcoin HD Wallet 中的 Mnemonic 詞組有何作用？
+answer: 要確定地推導出所有金鑰
+wrong_answers:
+  - 直接簽署交易
+  - 要加密 Bitcoin 位址
+  - 至 generate a Hash 的 UTXOs
+explanation: |
+  Mnemonic 詞組允許在 Wallet 中推導出所有私密金鑰和公開金鑰，因此有助於備份和恢復。
+reviewed: false

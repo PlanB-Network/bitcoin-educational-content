@@ -1,0 +1,9 @@
+question: Katika kikundi cha mzunguko, ni nini neno la kipengele ambacho kinaweza generate nyingine zote za Elements kupitia udhihirisho?
+answer: Jenereta
+wrong_answers:
+  - Kizidishi
+  - A coprime
+  - kinyume
+explanation: |
+  Jenereta ni kipengele katika kikundi cha mzunguko ambacho, kwa njia ya ufafanuzi, kinaweza kuzalisha Elements nyingine zote za kikundi.
+reviewed: false

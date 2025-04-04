@@ -1,0 +1,9 @@
+question: Kwa nini kufungwa kwa kulazimishwa sio kuhitajika sana?
+answer: Ni polepole na ada zinaweza kuwa zisizofaa
+wrong_answers:
+  - Inahitaji idhini kutoka kwa Satoshi Nakamoto
+  - Inalazimisha burudani ya kituo baadaye
+  - Inazuia matumizi ya ufunguo wa kufuta
+explanation: |
+  Kufunga kwa kulazimishwa hakupendezi sana kwa sababu kunajumuisha kufunga muda, ambayo inapunguza kasi ya mchakato, na huenda ada zisifae kwani ziliwekwa wakati kituo kiliundwa.
+reviewed: false

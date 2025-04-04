@@ -1,0 +1,10 @@
+question: Je, ni sifa gani moja ya mtumiaji wa Bitcoin ambaye ni rahisi kubadilika na kubadilika?
+answer: Wako tayari kutumia suluhu na majukwaa mbalimbali ili kukidhi mahitaji yao yanayobadilika kila mara.
+wrong_answers:
+  - Wanatumia aina moja tu ya Bitcoin Wallet.
+  - Wanatumia Bitcoin pekee kwa uwekezaji wa muda mrefu.
+  - Wanatumia Bitcoin pekee kwenye jukwaa moja la Exchange.
+explanation: |
+  Watumiaji wa Bitcoin wanaobadilika na kubadilika wako tayari kutumia aina mbalimbali za
+  suluhisho na majukwaa ili kukidhi mahitaji yao, ambayo yanaweza kubadilika kwa wakati.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni nini chanzo kikuu cha mkanganyiko kati ya maneno block cipher na stream cipher?
+answer: Wakati mwingine misimbo ya kuzuia hueleweka kama algoriti kwa kutumia njia za kuzuia kama vile ECB au CBC.
+wrong_answers:
+  - Sifa za mtiririko daima hazina usalama zaidi kuliko misimbo ya kuzuia.
+  - Block ciphers hufanya kazi kwa moja kwa wakati mmoja.
+  - Sifa za mtiririko zinahitaji pedi kila wakati.
+explanation: |
+  Kuchanganyikiwa kunatokea kutokana na ukweli kwamba wengine huchukulia tu herufi za kuzuia kama algoriti zinazotumia njia mahususi za kuzuia, ilhali kwa uhalisia, zinaweza kujumuisha mifumo ya usimbaji fiche kama vile modi ya OFB.
+reviewed: false

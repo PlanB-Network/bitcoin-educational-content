@@ -6,8 +6,6 @@ Penyesuaian tingkat kesulitan adalah sebuah proses periodik yang mendefinisikan 
 
 $$N = A \cdot \left(\frac{T}{1.209.600}\right)$$
 
-&nbsp;
-
 Dimana:
 
 

@@ -581,7 +581,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 उदाहरण के लिए, आप Sparrow Wallet को एक हॉट वॉलेट के रूप में उपयोग कर सकते हैं:
 
-https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - स्तर 2**, आप एक भौतिक वॉलेट का उपयोग करते हैं, और आपने अपनी 12/24 शब्दों की सूची को सुरक्षित कर लिया है। इसे अक्सर "कोल्ड वॉलेट" कहा जाता है क्योंकि आपकी कुंजियाँ एक ऐसे उपकरण पर संग्रहीत होती हैं जो इंटरनेट से जुड़ा नहीं होता है। इस मामले में, आपको हर लेन-देन को अपने उपकरण से हस्ताक्षरित करने की आवश्यकता होगी, जो आपके धन को दैनिक आधार पर कम सुलभ बनाता है।
 
@@ -1123,11 +1123,11 @@ https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 - सरल ऑनलाइन समाधान: OpenNode
 
-https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - शौकिया व्यापारियों के लिए समाधान: स्विस बिटकॉइन पे
 
-https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - बड़े संरचनाओं या उत्साही बिटकॉइनर्स के लिए समाधान: BTCpay सर्वर
 

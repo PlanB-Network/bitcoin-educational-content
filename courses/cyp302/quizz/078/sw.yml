@@ -1,0 +1,9 @@
+question: Je, shambulio la nguvu ya kikatili linamaanisha nini?
+answer: Kujaribu funguo zote zinazowezekana hadi haki ipatikane
+wrong_answers:
+  - Kubadilisha maandishi ili kuifanya isieleweke
+  - Kutumia ufunguo wa umma kusimbua ujumbe
+  - Kupiga kompyuta sana Hard ili kuilazimisha kutoa ufunguo wa siri
+explanation: |
+  Mashambulizi ya kikatili yanahusisha kupima kwa utaratibu vitufe vyote vinavyowezekana ili kusimbua ujumbe uliosimbwa.
+reviewed: false

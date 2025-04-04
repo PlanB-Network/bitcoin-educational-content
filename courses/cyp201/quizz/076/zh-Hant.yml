@@ -1,0 +1,9 @@
+question: 描述符中的 /<0;1>/* 符號對應的是什麼？
+answer: 至外部和內部連鎖依序衍生
+wrong_answers:
+  - 至排序的多重簽章 Address
+  - 對於衍生路徑的校驗和
+  - 至硬化衍生路徑
+explanation: |
+  符號 /<0;1>/* 表示描述符可以為外部 (0) 和內部 (1) 鏈路提供 generate 位址，並透過通配符 (*) 依序衍生。
+reviewed: false

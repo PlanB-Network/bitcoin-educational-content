@@ -1,0 +1,8 @@
+question: Nani alikuwa wa kwanza kutekeleza Mining na kitengo cha usindikaji wa michoro (GPU) mnamo 2010?
+answer: Laszlo Hanyecz
+wrong_answers:
+  - MoshiTooMuch
+  - SanaaForz
+  - Nils Schneider
+  In April 2010, he used the OpenCL environment to involve the GPU in bitcoin mining. On May 10, he [published](https: //bitcointalk.org/index.php?topic=124.msg1100#msg1100) his executable on the forum.
+reviewed: false

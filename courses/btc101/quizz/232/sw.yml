@@ -1,0 +1,8 @@
+question: Saizi ya block ni kubwa kiasi gani katika itifaki ya Bitcoin?
+answer: 1MB.
+wrong_answers:
+  - 0.5MB.
+  - 2MB.
+  - 3MB.
+explanation: >-
+reviewed: true

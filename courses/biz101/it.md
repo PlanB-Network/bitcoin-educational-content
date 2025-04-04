@@ -157,44 +157,29 @@ Nel complesso, questo processo è intricato, lungo e costoso per quello che dovr
 ### Metodi di pagamento a confronto
 
 | Metodo di pagamento | Autorizzazione necessaria?           | Tempo di approvazione della transazione (vista dall'esercente) | Velocità di regolamento (fondi completamente regolati) | Finalità (facilità di storno) | Numero di intermediari | Commissioni tipiche (al beneficiario) |
-
 | ------------------------------ | ------------------------------- | ----------------------------------------- | ---------------------------------------------- | ---------------------------------------- | ------------------------------ | ---------------------------------- |
-
 | **Cash** | No | Immediato (scambio fisico) | Immediato (nessun ritardo di liquidazione) | Alto (irreversibile una volta pagato) | Nessuno | Nessuno | Nessuno
-
 | **Assegni** | Sì (compensazione bancaria) | Accettazione al momento del deposito (non garantita) | Diversi giorni (processo di compensazione dell'assegno) | Medio (può essere respinto/arrestato prima della compensazione) | Banca | **Da basso a medio** (commissioni bancarie) |
-
 | **Trasferimenti via cavo** | Sì (Banca/Rete) | Conferma entro poche ore | Stesso giorno o giorno successivo (nazionale) | Alto (di solito irreversibile una volta inviato) | Banche, Reti di pagamento | **Medio**(Fisso/Percentuale) |
-
 | **Carte di pagamento** | Sì (Autorizzazione dell'emittente della carta) | Da secondi a minuti (Codice di autorizzazione) | Alcuni giorni (Regolamento interbancario) | Medio (Possibilità di addebiti) | Emittente, Acquirer, Rete di carte | **Variabile (1-3% della transazione)** |
-
 | **Portafogli digitali/Mobile Pay** | Sì (Provider di Portafoglio/Banca) | Secondi (Conferma istantanea) | In genere 1-2 giorni (Dipende dalla fonte di finanziamento) | Medio (Possibilità di rimborso/diffida) | Banche, Operatori di Portafoglio | **Da basso a medio (Varia)** |
 
 ### Limiti delle soluzioni esistenti
 
 L'industria dei pagamenti tradizionali rappresenta un'economia annuale di circa 2.200 miliardi di dollari, circa un decimo del PIL degli Stati Uniti o pari al PIL della Francia. Poiché le valute funzionano come reti autorizzate, la concorrenza è limitata, rendendo questo "servizio" più simile a una tassa imposta all'economia produttiva. Oltre agli oneri di costo che crea, ci sono diverse altre limitazioni, come illustrato di seguito.
 
-| Limitazione, spiegazione, impatto..
+| Limitazione                      | Spiegazione                                                                                                                                                                                                                          | Impatto                                                                                                  |
+| -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| Commissioni elevate sulle carte  | Le commissioni di interscambio (~0,3%), le commissioni di rete (fisse o 0,3%-1%), gli abbonamenti ai terminali/PSP e i margini bancari (0,5%-1,7%) si sommano a un costo sostanziale, simile a una "tassa" globale sui settori produttivi, che ammonta a trilioni di dollari. | Aumenta i costi per i commercianti, riducendo i margini e potenzialmente aumentando i prezzi al consumo. |
+| Liquidazione finale molto lenta   | La liquidazione dei fondi può richiedere fino a 5 giorni, rallentando il flusso di denaro e l'attività economica complessiva.                                                                                                        | Rallenta la liquidità per i commercianti e riduce la velocità della circolazione economica.             |
+| Frodi                            | I canali di e-commerce sono fortemente mirati dalle frodi, contribuendo a perdite significative (ad esempio, 28 miliardi di dollari). I chargeback potrebbero raggiungere circa 174 miliardi di dollari a livello globale entro il 2024. Gestire queste controversie consuma tempo e provoca stress mentale. | Aumenta i costi operativi, rende necessarie misure complesse di prevenzione delle frodi e diminuisce la fiducia dei clienti. |
+| Abbandono del carrello           | I passaggi di sicurezza aggiuntivi (codici monouso, autenticazione a due fattori ai sensi del PSD2) introducono attriti al momento del pagamento.                                                                                   | La maggiore complessità del checkout porta a un aumento dell'abbandono del carrello e a vendite perse.   |
+| Importi minimi di transazione elevati | Le soglie minime di spesa sulle carte possono costringere i commercianti e i consumatori a condizioni di prezzo o di acquisto scomode, scoraggiando le transazioni di piccolo valore.                                            | Riduce la soddisfazione del cliente e la flessibilità, limitando potenzialmente gli acquisti d'impulso o di basso valore. |
+| Pre-autorizzazione lenta         | I sistemi attuali non possono gestire transazioni a velocità di millisecondi o supportare flussi di pagamento continui e in tempo reale.                                                                                             | Limita i casi d'uso che richiedono pagamenti istantanei o in streaming, ostacolando innovazione e scalabilità. |
+| Necessità di un conto bancario/carta | L'accesso a questi metodi di pagamento richiede un conto bancario o una carta collegata, escludendo automaticamente coloro che non dispongono di tali conti.                                                                      | Limita l'inclusione finanziaria, riducendo l'accesso per le popolazioni non bancarizzate o sottobancarizzate. |
+| Creazione ripetuta di account online | Gli utenti devono spesso creare più account online, portando a stanchezza, ridotta convenienza e maggiore esposizione dei dati personali.                                                                                         | Deteriora l'esperienza utente, aumenta i problemi di privacy e incrementa il rischio di violazioni dei dati. |
+| Commissioni di cambio valuta (FX) | La mancanza di un'unità di conto universale impone costosi cambi di valuta per le transazioni transfrontaliere.                                                                                                                     | Aggiunge costi extra per il commercio internazionale, rendendo meno accessibili le transazioni globali.   |
 
-| -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
-
-| Commissioni di interscambio (~0,3%), commissioni di rete (fisse o 0,3%-1%), abbonamenti a terminali/PSP e margini bancari (0,5%-1,7%) si sommano a un costo sostanziale, simile a una "tassa" globale sui settori produttivi, pari a trilioni di dollari.     | Aumenta i costi degli esercenti, riducendo i margini e potenzialmente aumentando i prezzi al consumo.                  |
-
-| Il regolamento dei fondi può richiedere fino a 5 giorni, rallentando il flusso di denaro e l'attività economica complessiva.                                                                                                                                | Ritarda la liquidità per i commercianti e riduce la velocità della circolazione economica.                        |
-
-| Frodi | I canali di e-commerce sono fortemente bersagliati dalle frodi, che contribuiscono a perdite significative (ad esempio, 28 miliardi di dollari). I chargeback potrebbero raggiungere ~174 miliardi di dollari a livello globale entro il 2024. La gestione di queste controversie richiede tempo e stress mentale. | Aumento dei costi operativi, complesse misure di prevenzione delle frodi e diminuzione della fiducia dei clienti.       |
-
-| Abbandono del carrello | I passaggi di sicurezza aggiuntivi (codici una tantum, autenticazione a due fattori secondo la PSD2) introducono attriti al momento del checkout.                                                                                                                   | Una maggiore complessità del checkout porta all'abbandono del carrello e alla perdita di vendite.                       |
-
-| Soglie minime di spesa sulle carte possono costringere commercianti e consumatori a condizioni di prezzo o di acquisto scomode, scoraggiando le transazioni di piccolo valore.                                                                       | Riducono la soddisfazione e la flessibilità dei clienti, limitando potenzialmente gli acquisti d'impulso o di basso valore.  |
-
-| I sistemi attuali non sono in grado di gestire transazioni alla velocità di un millisecondo o di supportare flussi di pagamento continui e in tempo reale.                                                                                                                   | Limita i casi d'uso che richiedono pagamenti istantanei o in streaming, limitando l'innovazione e la scalabilità. |
-
-| L'accesso a questi metodi di pagamento richiede un conto bancario o una carta collegata, escludendo automaticamente coloro che ne sono sprovvisti.                                                                                                       | Limita l'inclusione finanziaria, riducendo l'accesso alle popolazioni non bancarizzate o sottobanco.                 |
-
-| Creazione ripetuta di account online | Gli utenti devono spesso creare più account online, con conseguente stanchezza, minore comodità e maggiore esposizione dei dati personali.                                                                                                | Peggiora l'esperienza dell'utente, solleva problemi di privacy e aumenta il rischio di violazione dei dati.          |
-
-| La mancanza di un'unità di conto universale costringe a costose conversioni di valuta per le transazioni transfrontaliere.                                                                                                                              | Aggiunge costi aggiuntivi al commercio internazionale, rendendo le transazioni globali meno convenienti.             |
 
 Così come siamo passati dal pagamento al minuto delle chiamate vocali all'utilizzo quasi gratuito delle comunicazioni su IP, l'emergere di reti più aperte ed efficienti può ridefinire i pagamenti, riducendo i costi e gli intermediari e favorendo nuovi modelli di business.
 
@@ -521,37 +506,23 @@ Gli ETF Bitcoin sono in testa con un ampio margine in termini di **adozione isti
 
 Il Bitcoin ora gioca nel **mercato** degli "store of value". Rappresenta solo una goccia nel mare in termini di scala: appena 1.800 miliardi di dollari rispetto ai 18.000 miliardi di dollari dell'oro o ai 500.000 miliardi di dollari del settore immobiliare. Tuttavia, la sua quota di mercato dello 0,1% circa le offre un enorme spazio di crescita, soprattutto se si considera che i suoi concorrenti faticano ad attirare nuovi utenti.
 
-| Ticker | 1D Flusso (M USD) | 1W Flusso (M USD) | 1M Flusso (M USD) | 3M Flusso (M USD) | YTD Flusso (M USD) |
+| Ticker  | Flusso 1D (M USD) | Flusso 1W (M USD) | Flusso 1M (M USD) | Flusso 3M (M USD) | Flusso YTD (M USD) |
+| ------- | ----------------- | ----------------- | ----------------- | ----------------- | ------------------ |
+| **Somma** | +457,19          | +1.507,95         | +2.888,01         | +3.672,29         | **+20.262,94**     |
+| IBIT    | +393,40            | +750,91           | +1.536,47         | +3.821,37         | +22.460,44         |
+| FBTC    | +14,81             | +372,40           | +627,16           | +458,71           | +10.266,69         |
+| ARKB    | +11,51             | +163,26           | +295,92           | -3,88             | +2.647,32          |
+| BITB    | +12,93             | +146,50           | +263,30           | +97,46            | +2.262,69          |
+| HODL    | +5,75              | +38,77            | +94,54            | +100,39           | +682,03            |
+| BRRR    | +1,92              | +4,72             | +17,76            | +20,54            | +540,19            |
+| EZBC    | +11,79             | +17,53            | +39,29            | +47,48            | +439,45            |
+| BTC     | .00                | -3,13             | +36,59            | +419,18           | +419,18            |
+| BTCO    | +6,43              | +19,25            | +47,30            | +56,41            | +394,82            |
+| BTCW    | .00                | +2,84             | +6,04             | +146,69           | +217,47            |
+| YBIT    | -1,34              | -10,26            | +5,06             | +13,81            | +76,30             |
+| DEFI    | .00                | .00               | .00               | -2,03             | -1,79              |
+| GBTC    | .00                | +5,16             | -81,42            | -1503,84          | -20.141,85         |
 
-| ------- | --------------- | --------------- | --------------- | --------------- | ---------------- |
-
-| **Somma** | +457,19 | +1.507,95 | +2.888,01 | +3.672,29 | **+20.262,94** |
-
-| IBIT | +393,40 | +750,91 | +1.536,47 | +3.821,37 | +22.460,44 |
-
-| FBTC | +14,81 | +372,40 | +627,16 | +458,71 | +10.266,69 |
-
-| ARKB | +11,51 | +163,26 | +295,92 | -3,88 | +2.647,32 |
-
-| BITB | +12,93 | +146,50 | +263,30 | +97,46 | +2.262,69 |
-
-| HODL | +5,75 | +38,77 | +94,54 | +100,39 | +682,03 |
-
-| BRRR | +1,92 | +4,72 | +17,76 | +20,54 | +540,19 |
-
-| EZBC | +11,79 | +17,53 | +39,29 | +47,48 | +439,45 |
-
-| BTC | .00 | -3.13 | +36.59 | +419.18 | +419.18 |
-
-| BTCO | +6,43 | +19,25 | +47,30 | +56,41 | +394,82 |
-
-| BTCW | .00 | +2,84 | +6,04 | +146,69 | +217,47 |
-
-| YBIT | -1,34 | -10,26 | +5,06 | +13,81 | +76,30 |
-
-dEFI | .00 | .00 | .00 | .00 | -2.03 | -1.79 |
-
-| GBTC | .00 | +5,16 | -81,42 | -1503,84 | -20.141,85 |
 
 *20 miliardi di dollari in 10 mesi: Gli ETF sul Bitcoin hanno raggiunto in meno di un anno quello che gli ETF sull'oro hanno impiegato 5 anni. Fonte: Flussi di investimento dei fondi in USD. Bloomberg Terminal, Bloomberg L.P., 2024.*
 
@@ -789,133 +760,81 @@ Per semplificare il processo decisionale, abbiamo definito quattro profili azien
 
 ### I profili aziendali
 
-#### Profilo 1 - Lo starter
+#### Profilo 1 – Il Principiante
 
-| Attributo | L'avviamento
+| Attributo                        | Il Principiante                                                                                                                              |
+| -------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Stato Mentale**                | "sto provando il mio primo pagamento fisico", "accettando una mancia per i miei contenuti online", "puntando a entrate molto piccole"       |
+| **Frequenza delle Transazioni**  | "prima transazione per imparare", "accettare pagamenti occasionalmente"                                                                      |
+| **Esempi di Tipi di Attività**    | Economia creativa (creatori di contenuti, blog, articoli, ecc.), mance occasionali, vendite di prodotti una tantum di persona, associazioni, eventi una tantum |
+| **Tipo di Pagamento**            | Generalmente pochi centesimi fino a pochi euro/dollari; sotto i ~300 euro/dollari per articolo                                               |
+| **Complessità delle Impostazioni**| Nessuna                                                                                                                                      |
+| **Soluzione Consigliata**        | Un wallet Lightning custodial come Wallet of Satoshi o un wallet non custodial come Phoenix                                                 |
+| **Interfaccia del Commerciante** | Wallet Lightning Bitcoin semplice: un'app su un telefono cellulare                                                                          |
+| **Interfaccia del Cliente**      | Codice QR di pagamento Bitcoin, scansionato tramite il wallet personale del cliente                                                         |
+| **Commissioni**                  | Il cliente paga le commissioni di Lightning Bitcoin più eventuali commissioni applicabili dell'app                                         |
+| **Dispositivo POS**              | App gratuita per smartphone o opzione per un terminale fisico (es. Bitcoinize)                                                              |
+| **Gestione e Ruoli**             | Gestione di un'unica app; differenziazione minima dei ruoli                                                                                 |
+| **Esportazioni Contabili**       | Elenchi di cronologia delle transazioni di base                                                                                            |
+| **API**                          | No                                                                                                                                           |
 
+
+#### Profilo 2 – L’Essenziale
+
+| Attributo                        | L’Essenziale                                                                                                                               |
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Stato Mentale**                | "Accetto Bitcoin nella mia attività ma non mi aspetto un volume significativo"                                                           |
+| **Frequenza delle Transazioni**  | Poche transazioni al mese                                                                                                                 |
+| **Esempi di Tipi di Attività**    | Bar, ristoranti, vendite semi-regolari di prodotti freschi o di origine diretta, più negozi sotto un unico proprietario, economia creativa per artisti |
+| **Tipo di Pagamento**            | Generalmente da pochi euro/dollari a poche centinaia per articolo; meno di ~300 per articolo e meno di ~3.000 al mese                     |
+| **Complessità delle Impostazioni**| Minima (app mobile)                                                                                                                       |
+| **Soluzione Consigliata**        | Swiss Bitcoin Pay                                                                                                                         |
+| **Interfaccia del Commerciante** | Wallet Lightning Bitcoin semplice: un'app su un telefono cellulare; fatturazione semplice con dettagli minimi                            |
+| **Interfaccia del Cliente**      | Codice QR di pagamento Bitcoin, scansionato tramite il wallet personale del cliente                                                     |
+| **Commissioni**                  | Tipicamente <1% per inviare a un indirizzo Bitcoin e <1,5% per convertire in fiat                                                       |
+| **Dispositivo POS**              | App gratuita per smartphone o opzione per un terminale fisico (es. Bitcoinize)                                                          |
+| **Gestione e Ruoli**             | Opzione per un ruolo esclusivo di vendita per i dipendenti; dashboard online per l'amministrazione                                      |
+| **Esportazioni Contabili**       | Esportazione CSV con dettagli completi delle transazioni                                                                                |
+| **API**                          | Sì                                                                                                                                       |
 
-**Stato d'animo** | "provare il mio primo pagamento fisico", "accettare una mancia per i miei contenuti online", "puntare a entrate molto piccole" |
 
-| **Frequenza delle transazioni** | "prima transazione per imparare", "pagamento una volta ogni tanto"                                                                    |
+#### Profilo 3 – Il Professionista
 
-| Esempi di tipi di business** | Economia creativa (creatori di contenuti, blog, articoli, ecc.), consigli occasionali, vendita di prodotti di persona una tantum, associazioni, eventi una tantum
+| Attributo                        | Il Professionista                                                                                                                          |
+| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Stato Mentale**                | - Un metodo di pagamento come qualsiasi altro per il mio e-commerce - O gestione congiunta per un gruppo di attività pronte per volumi maggiori |
+| **Frequenza delle Transazioni**  | Più transazioni al giorno                                                                                                                  |
+| **Esempi di Tipi di Attività**    | Siti e-commerce con volume moderato, piccoli marketplace, gruppi di negozi fisici (es. Click & Collect), operazioni di PMI                 |
+| **Tipo di Pagamento**            | Generalmente da pochi euro/dollari a poche centinaia; nessun limite fisso di dimensione del pagamento; meno di 250.000 all'anno            |
+| **Complessità delle Impostazioni**| Da leggere a completamente equipaggiate (hosting locale o cloud), spesso richiede uno store e-commerce                                      |
+| **Soluzione Consigliata**        | BTC Pay Server per e-commerce e/o ambienti fisici; ZapRite, Musqet o PayWithFlash per il checkout, Be-BOP per uno store integrato           |
+| **Interfaccia del Commerciante** | Sito web (mobile e desktop) con modifica delle fatture, opzioni di carrello e creazione di pulsanti di pagamento; fatturazione automatica con integrazione e-commerce |
+| **Interfaccia del Cliente**      | Codice QR di pagamento Bitcoin, scansionato tramite il wallet personale del cliente                                                       |
+| **Commissioni**                  | Mix di backend open-source gratuito e hosting/servizi Lightning a pagamento; le commissioni frontend includono commissioni Lightning Bitcoin e commissioni di conversione <1,5% |
+| **Dispositivo POS**              | Negozio online, display fisico opzionale (es. iPad che mostra il sito o terminale Bitcoin)                                               |
+| **Gestione e Ruoli**             | Negozio completo con più ruoli amministrativi; dipendenti e clienti interagiscono con il sistema                                          |
+| **Esportazioni Contabili**       | Esportazione CSV con dettagli completi delle transazioni                                                                                 |
+| **API**                          | Sì                                                                                                                                       |
 
-| **Tipo di pagamento** | In genere da pochi centesimi a pochi euro/dollari; sotto i ~300 euro/dollari per articolo |
 
-| **Complessività delle impostazioni** | Nessuno |
+#### Profilo 4 – L’Impresa
 
-| Un portafoglio Lightning custodiale come Wallet of Satoshi o un portafoglio non custodiale come Phoenix
+| Attributo                        | L’Impresa                                                                                                                                   |
+| -------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Stato Mentale**                | - Un metodo di pagamento strategico per l’azienda - Con uno sviluppo specifico per l’integrazione nella piattaforma di servizi come da specifiche |
+| **Frequenza delle Transazioni**  | Illimitate, transazioni ad alta frequenza                                                                                                   |
+| **Esempi di Tipi di Attività**    | Imprese di medie dimensioni, aziende di servizi IT, grandi corporazioni, marketplace importanti                                             |
+| **Tipo di Pagamento**            | Qualsiasi dimensione o volume                                                                                                               |
+| **Complessità delle Impostazioni**| Media-alta, a seconda della scelta dell’architettura                                                                                        |
+| **Soluzione Consigliata**        | Architettura personalizzata o orchestrazione di soluzioni SaaS, potenzialmente utilizzando servizi di LSP (*Lightning Service Provider*)    |
+| **Interfaccia del Commerciante** | Interfacce front-end e back-end completamente personalizzate e integrate nei flussi di lavoro e nei processi aziendali                       |
+| **Interfaccia del Cliente**      | Da un codice QR Bitcoin a un'interfaccia utente completamente personalizzata e/o integrazione API                                          |
+| **Commissioni**                  | Combinazione di sviluppo interno e commissioni di terze parti; il cliente paga le commissioni Lightning Bitcoin più eventuali commissioni di transazione dei fornitori di servizi |
+| **Dispositivo POS**              | Soluzioni su misura progettate per l’ambiente aziendale                                                                                    |
+| **Gestione e Ruoli**             | Ruoli completamente personalizzati per vendite, amministrazione, devops, contabilità e finanza                                             |
+| **Esportazioni Contabili**       | Esportazioni contabili completamente personalizzate                                                                                        |
+| **API**                          | Sì                                                                                                                                          |
 
-| **Interfaccia commerciante** | Portafoglio semplice Bitcoin Lightning: un'applicazione su un telefono cellulare |
-
-| **Interfaccia cliente** | Codice di pagamento Bitcoin QR, scansionato tramite il portafoglio personale del cliente |
-
-| **Tasse** | Il cliente paga le spese di Bitcoin Lightning più le eventuali spese per l'applicazione
-
-| Dispositivo per il punto vendita** | Applicazione gratuita per smartphone o opzione per un terminale fisico (ad es. Bitcoinize)
-
-| Gestione e ruoli** | Gestione di un'unica app; differenziazione minima dei ruoli
-
-| **Esportazioni contabili** | Elenchi di base della cronologia delle transazioni |
-
-**API** | No |
-
-#### Profilo 2 - L'essenziale
-
-| Attributo | L'essenziale
-
-| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-
-**State of Mind** | "Accetto Bitcoin nella mia attività, ma non mi aspetto un volume significativo" |
-
-| Frequenza di transazione** | Poche transazioni al mese
-
-| Bar, ristoranti, vendita semi-regolare di prodotti freschi o di provenienza diretta, negozi multipli con un unico proprietario, economia creativa per artisti
-
-| Generalmente si va da pochi euro/dollari a qualche centinaio per articolo; sotto i ~300 per articolo e sotto i ~3.000 al mese
-
-**Complessità delle impostazioni** | Minima (applicazione mobile) |
-
-**Soluzione consigliata di esempio** | Swiss Bitcoin Pay |
-
-| **Interfaccia per il commerciante** | Semplice portafoglio Bitcoin Lightning: un'app sul cellulare; semplice fatturazione con dettagli minimi
-
-| **Interfaccia cliente** | Codice di pagamento Bitcoin QR, scansionato tramite il portafoglio personale del cliente |
-
-| In genere <1% per l'invio a un indirizzo Bitcoin, e <1,5% per la conversione in fiat
-
-| Dispositivo per il punto vendita** | Applicazione gratuita per smartphone o opzione per un terminale fisico (ad es. Bitcoinize)
-
-| **Gestione e ruoli** | Possibilità di un ruolo di sola vendita per i dipendenti; dashboard online per l'amministrazione |
-
-| Esportazione CSV con tutti i dettagli delle transazioni
-
-**API** | Sì |
-
-#### Profilo 3 - Il professionista
-
-| Attributo | Il Professionista |
-
-| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-
-| Un metodo di pagamento come un altro per il mio e-commerce - O una gestione congiunta per un gruppo di aziende pronte a volumi più elevati
-
-| Frequenza delle transazioni** | Più transazioni al giorno
-
-| Esempi di tipi di aziende** | Siti di e-commerce con un volume moderato, piccoli marketplace, gruppi di negozi fisici (ad esempio, Click & Collect), attività di PMI
-
-| Generalmente si va da pochi euro/dollari a qualche centinaio; non c'è un limite fisso di pagamenti; meno di 250.000 all'anno
-
-| **Complessità delle impostazioni** | Da leggero a completo (hosting locale o cloud), spesso richiede un negozio di e-commerce
-
-**Esempio di soluzione consigliata** | BTC Pay Server per l'e-commerce e/o gli ambienti fisici; ZapRite, Musqet o PayWithFlash per il checkout, Be-BOP per un e-store integrato
-
-| Interfaccia per il commerciante** | Sito web (mobile e desktop) con modifica delle fatture, opzioni per il carrello della spesa e creazione di pulsanti di pagamento; fatturazione automatizzata con integrazione dell'e-commerce
-
-| **Interfaccia cliente** | Codice di pagamento Bitcoin QR, scansionato tramite il portafoglio personale del cliente |
-
-**Tasse** | Mix di backend open-source gratuito e di hosting/servizi Lightning a pagamento; le spese di front-end includono le spese di Bitcoin Lightning e le spese di conversione <1,5% |
-
-| Dispositivo per il punto vendita** | Negozio sul sito web, display fisico opzionale (ad es. iPad che mostra il sito o terminale Bitcoin)
-
-| **Gestione e ruoli** | Negozio completo con ruoli di amministrazione multipli; dipendenti e clienti interagiscono con il sistema |
-
-| Esportazione CSV con tutti i dettagli delle transazioni
-
-**API** | Sì |
-
-#### Profilo 4 - L'impresa
-
-| Attributo | L'impresa |
-
-| -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-
-| Un metodo di pagamento strategico per l'azienda - Con un po' di sviluppo per integrarlo nella piattaforma di servizi secondo le specifiche
-
-| Frequenza delle transazioni** | Illimitata, transazioni ad alta frequenza
-
-**Esempi di tipi di aziende** | Medie imprese, società di servizi IT, grandi aziende, grandi marketplace |
-
-**Tipo di pagamento** | Qualsiasi dimensione o volume |
-
-| **Complesso delle impostazioni** | Da medio ad alto, a seconda della scelta dell'architettura |
-
-| Architettura personalizzata o orchestrazione di soluzioni ospitate in SaaS, potenzialmente utilizzando servizi LSP (*Lightning Service Provider*) di terze parti
-
-| Interfacce front-end e back-end completamente personalizzate e completamente integrate nei flussi di lavoro e nei processi aziendali
-
-**Interfaccia cliente** | Che va da un codice di pagamento Bitcoin QR a un'interfaccia utente completamente personalizzata e/o all'integrazione di API
-
-| Il cliente paga le commissioni di Bitcoin Lightning più eventuali commissioni di transazione da parte dei fornitori di servizi
-
-| Dispositivo per il punto vendita** | Soluzioni progettate su misura per l'ambiente aziendale
-
-**Gestione e ruoli** | Ruoli completamente personalizzati per le vendite, l'amministrazione, il devops, la contabilità e la finanza
-
-**Esportazioni contabili** | Esportazioni contabili completamente personalizzate
-
-**API** | Sì |
 
 Nei capitoli successivi, illustreremo nel dettaglio ogni profilo aziendale e le soluzioni adatte a ciascuno di essi.
 
@@ -961,7 +880,7 @@ https://planb.network/tutorials/wallet/mobile/zeus-3e89603c-501d-439c-8691-d4a0d
 
 **Portafogli LN custodiali:**
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-c4792842-b046-44f9-a6f1-351191b7cc2b
+https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 

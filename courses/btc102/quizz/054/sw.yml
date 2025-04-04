@@ -1,0 +1,10 @@
+question: Ni nani aliyeanzisha wazo la barabara kuu ya Bitcoin?
+answer: Andreas Antonopoulos
+wrong_answers:
+  - Satoshi Nakamoto
+  - Elon Musk
+  - Vitalik Buterin
+explanation: |
+  Andreas Antonopoulos, mtetezi na mwalimu anayejulikana wa Bitcoin, alitambulishwa
+  wazo la barabara kuu ya Bitcoin.
+reviewed: false

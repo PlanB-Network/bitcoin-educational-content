@@ -1,0 +1,9 @@
+question: Kwa nini kipanga njia lazima kidumishe usambazaji mzuri wa ukwasi katika chaneli zake?
+answer: Ili kuongeza idadi ya malipo ambayo inaweza kuelekeza
+wrong_answers:
+  - Ili kupunguza ada za manunuzi
+  - Ili kuepuka kufungua njia mpya
+  - Ili kupunguza matumizi ya Bitcoin Blockchain
+explanation: |
+  Kipanga njia kinalenga kuelekeza malipo mengi iwezekanavyo ili kukusanya ada, ambayo inahitaji usambazaji mzuri wa ukwasi katika pande zote za chaneli ili kuhakikisha uwezo wa kuelekeza.
+reviewed: false

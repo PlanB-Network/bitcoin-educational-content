@@ -1,0 +1,9 @@
+question: Kati ya majibu yafuatayo, ni yupi si sehemu ya kategoria 3 kuu za heuristics na sifa zinazotumiwa katika uchanganuzi wa mnyororo?
+answer: Mifano ya cryptography.
+wrong_answers:
+  - Miundo ya muamala.
+  - Heuristics ya muamala wa ndani.
+  - Heuristics ya shughuli za nje.
+explanation: |
+  Heuristics inayotumika katika uchanganuzi wa minyororo inaweza kugawanywa katika vikundi vitatu; mifumo ya muamala (au miundo ya muamala), kanuni za muamala wa ndani, na utabiri wa muamala wa nje.
+reviewed: false

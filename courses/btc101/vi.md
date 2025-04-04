@@ -1076,6 +1076,7 @@ Ngày nay, Bitcoin tiếp tục tồn tại và phát triển hơn nữa bằng 
 
 ![image](assets/en/71.webp)
 
+
 ## Nhận Bitcoin bằng cách làm việc
 
 <chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>
@@ -1114,6 +1115,11 @@ https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4
 https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Giải pháp cho các công trình lớn hoặc những người đam mê bitcoin: Máy chủ BTCpay
+
+Để tìm hiểu sâu hơn về chủ đề này, chúng tôi khuyên bạn nên tham gia khóa học BIZ101 của chúng tôi! Khám phá cách tích hợp hiệu quả bitcoin vào ngân quỹ công ty của bạn, chấp nhận bitcoin như một phương thức thanh toán theo hồ sơ của tổ chức và hiểu các yêu cầu về thuế và kế toán liên quan:
+
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+
 
 ## Tiết kiệm với Bitcoin
 

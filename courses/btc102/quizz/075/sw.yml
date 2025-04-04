@@ -1,0 +1,11 @@
+question: Je, ni suluhisho gani bora la kuanza kufichuliwa na Bitcoin bila kuwa na mtaji muhimu wa awali?
+answer: Kuunda mpango wa Wastani wa Gharama ya Dola (DCA).
+wrong_answers:
+  - Kununua kiasi kikubwa cha Bitcoin mara moja
+  - Kuuza bidhaa au huduma katika Bitcoin
+  - Kujihusisha katika mfumo ikolojia wa Bitcoin
+explanation: |
+  Kuunda mpango wa Wastani wa Gharama ya Dola (DCA) ndio suluhisho bora zaidi la kuanza
+  kupata mfiduo wa Bitcoin bila kuwa na mtaji muhimu wa awali. Hii inaruhusu
+  stacker kununua kidogo kidogo kila wiki, bila kujali kiasi.
+reviewed: false

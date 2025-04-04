@@ -1,0 +1,9 @@
+question: Ni nini jukumu la kanuni ya Kerckhoff katika cryptography?
+answer: Ili kuhakikisha kuwa usalama unategemea ufunguo wa siri, sio usiri wa mpango
+wrong_answers:
+  - Ili kuhakikisha kuwa usalama unategemea usiri wa mpango, sio ufunguo wa siri
+  - Ili kuhitaji ufunguo mrefu sana wa usimbaji fiche
+  - Ili kuhakikisha kuwa kila ujumbe una ufunguo wa kipekee
+explanation: |
+  Kwa mujibu wa kanuni ya Kerckhoff, usalama wa mfumo wa cryptographic unapaswa kutegemea tu ufunguo wa siri, na si kwa usiri wa algorithm yenyewe.
+reviewed: false

@@ -1,0 +1,10 @@
+question: Ni nini athari ya mfumuko wa bei wa 2% kwenye nguvu ya ununuzi kwa miaka 5?
+answer: Unapoteza 10% ya uwezo wako wa kununua.
+wrong_answers:
+  - Unapoteza 2% ya uwezo wako wa kununua.
+  - Unapoteza 5% ya uwezo wako wa kununua.
+  - Unapoteza 20% ya uwezo wako wa kununua.
+explanation: |
+  Kwa mfumuko wa bei wa 2%, unapoteza 2% ya uwezo wako wa kununua
+  kila mwaka, ambayo ni sawa na 10% zaidi ya miaka 5.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Je, jukumu la LNURL katika miamala ya umeme ni nini?
+answer: Ili kurahisisha mwingiliano kati ya nodi na programu za Umeme
+wrong_answers:
+  - Kuwezesha kuundwa kwa chaneli kwa kila malipo
+  - Hakikisha usiri wa taarifa za malipo
+  - Kokotoa ada za muamala kiotomatiki
+explanation: |
+  LNURL ni itifaki ya mawasiliano iliyoundwa ili kurahisisha mwingiliano, kama vile uondoaji na malipo, kati ya nodi na programu za umeme.
+reviewed: false

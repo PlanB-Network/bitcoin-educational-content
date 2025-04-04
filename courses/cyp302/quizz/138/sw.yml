@@ -1,0 +1,9 @@
+question: Je, kipengele cha Hash lazima kiwe na mali gani ili kuhakikisha usalama wakati wa uthibitishaji wa programu?
+answer: Upinzani wa mgongano
+wrong_answers:
+  - Ugeuzaji
+  - Uendeshaji na funguo za asymmetric
+  - Uzalishaji wa wakati halisi
+explanation: |
+  Upinzani wa mgongano huhakikisha kuwa haiwezekani kupata pembejeo mbili tofauti zinazozalisha Hash sawa, ambayo ni muhimu kwa kuthibitisha kuwa programu haijaingiliwa.
+reviewed: false

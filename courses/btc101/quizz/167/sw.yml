@@ -1,0 +1,13 @@
+question: Je, ni suala gani kuu la mfumo wa sasa wa fedha kuhusiana na mazingira?
+answer: Inahimiza matumizi ya kupita kiasi na deni.
+wrong_answers:
+  - Inakuza matumizi ya mafuta ya mafuta.
+  - Haiwekezi katika nishati mbadala.
+  - Haidhibiti uzalishaji wa bidhaa.
+explanation: |
+  Mfumo wa sasa wa kifedha unakosolewa kwa kutia moyo
+  matumizi ya kupita kiasi na deni, ambayo inaleta mbaya
+  matatizo ya mazingira. Hii ni kwa sababu ya ufikiaji rahisi
+  mikopo, utoaji wa fedha na benki, na matumizi ya
+  benki ya hifadhi ya sehemu.
+reviewed: true

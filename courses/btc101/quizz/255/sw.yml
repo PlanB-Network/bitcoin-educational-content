@@ -1,0 +1,10 @@
+question: Je, ni sababu gani kuu kwa nini Bitcoin iliundwa?
+answer: Kupendekeza mabadiliko ya mfumo wa fedha.
+wrong_answers:
+  - Kupendekeza kuondolewa kwa pesa.
+  - Kupendekeza kuundwa kwa aina mpya ya teknolojia ya AI.
+  - Kupendekeza udhibiti wa idadi ya watu duniani.
+explanation: |
+  Maandishi yanataja kuwa Satoshi Nakamoto iliunda Bitcoin ndani
+  2008 kupendekeza mabadiliko ya mfumo wa fedha.
+reviewed: true

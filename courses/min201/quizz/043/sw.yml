@@ -1,0 +1,14 @@
+question: Nini maana ya msemo Si Hashrate yako, si malipo yako katika muktadha wa Bitcoin Mining?
+answer: Ikiwa hutadhibiti Hashrate, hutadhibiti zawadi za Mining.
+wrong_answers:
+  - Ikiwa huna Hashrate ya juu, huwezi kupata tuzo yoyote.
+  - Ikiwa humiliki Bitcoin, hutapata thawabu yoyote.
+  - Ikiwa huna mashine ya Mining, huwezi kupata thawabu yoyote.
+explanation: |
+  Msemo Si Hashrate yako, si malipo yako ni sawa
+  kwa msemo unaojulikana katika ulimwengu wa sarafu-fiche,
+  Sio funguo zako, sio Bitcoins zako. Ina maana kwamba ikiwa utafanya
+  si kudhibiti Hashrate, huna kudhibiti Mining
+  tuzo. Hii ni kwa sababu thawabu kutoka kwa Mining ni
+  sawia moja kwa moja na Hashrate.
+reviewed: true

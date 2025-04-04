@@ -1,0 +1,11 @@
+question: Je, ni kanuni gani kuu ya kujilinda dhidi ya barua pepe za ulaghai?
+answer: Angalia kwa makini jina kamili la mtumaji pamoja na asili ya barua pepe.
+wrong_answers:
+  - Jibu barua pepe zinazotiliwa shaka kila wakati.
+  - Fungua viambatisho vyote vya barua pepe ili kuangalia maudhui yake.
+  - Shiriki maelezo yako ya kibinafsi na watumaji wanaojulikana pekee.
+explanation: |
+  Sheria kuu ya kujilinda dhidi ya barua pepe za ulaghai
+  ni kuangalia kwa uangalifu jina kamili la mtumaji pia
+  kama asili ya barua pepe. Unapokuwa na shaka, ifute!
+reviewed: true

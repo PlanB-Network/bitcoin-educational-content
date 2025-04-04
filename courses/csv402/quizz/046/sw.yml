@@ -1,0 +1,9 @@
+question: Ni kiwango gani cha RGB kinakuruhusu kuunda mali ya kipekee au "NFTs"?
+answer: RGB21
+wrong_answers:
+  - RGB20
+  - RGB25
+  - RGB30
+explanation: |
+  Kiwango cha RGB21 kimeundwa ili kudhibiti vipengee vya kipekee, kuwezesha metadata ya kibinafsi kuhusishwa na NFTs.
+reviewed: false

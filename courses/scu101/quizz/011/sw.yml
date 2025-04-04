@@ -1,0 +1,12 @@
+question: Madhumuni ya itifaki ya HTTPS ni nini?
+answer: Husimba data kwenye tovuti ili kuhakikisha usalama wa Exchange kati ya mtumiaji na tovuti.
+wrong_answers:
+  - Huruhusu watumiaji kukwepa vikwazo vya kijiografia linapokuja suala la kulipa kupitia benki au kadi ya mkopo.
+  - Inaruhusu watumiaji kuzuia matangazo ya mtandaoni kwa kiasi.
+  - Inaruhusu watumiaji kufikia mtandao bila kutumia vitambulisho vya kibinafsi.
+explanation: |
+  Itifaki ya HTTPS inatumika kusimba data kwenye tovuti,
+  kuhakikisha kuwa data inabadilishwa kati ya mtumiaji na
+  tovuti ni salama. Hii husaidia kulinda dhidi ya wahusika wengine
+  kukatiza data.
+reviewed: true

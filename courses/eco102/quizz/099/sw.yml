@@ -1,0 +1,9 @@
+question: Je, ni jukumu gani la Serikali katika mfumo wa uhuru wa asili kulingana na Bastiat?
+answer: Kulinda haki za asili, kama vile uhai, uhuru na mali.
+wrong_answers:
+  - Kugawanya tena mali kwa usawa zaidi.
+  - Kuweka maadili kupitia sheria.
+  - Kudhibiti na kudhibiti nyanja zote za jamii.
+explanation: |
+  Ndani ya mfumo wa uhuru wa asili, Bastiat anaamini kwamba Serikali inapaswa kuingilia kati tu kulinda haki za asili za watu binafsi, bila kuingilia uchaguzi wao wa kibinafsi au wa kiuchumi.
+reviewed: false

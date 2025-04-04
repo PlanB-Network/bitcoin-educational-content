@@ -1,0 +1,9 @@
+question: 用來計算 Mnemonic 詞組校驗和的 Hash 函式是什麼？
+answer: SHA256
+wrong_answers:
+  - RIPEMD160
+  - SHA512
+  - HASH256
+explanation: |
+  Mnemonic 詞組的校驗和是在熵上應用簡單的 SHA256 Hash 計算出來的。
+reviewed: false

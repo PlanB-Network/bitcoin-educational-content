@@ -1,0 +1,9 @@
+question: Ikiwa katika muamala rahisi wa malipo Address sawa inatumika katika ingizo na kwenye mojawapo ya matokeo 2, ni matokeo gani ambayo yanawezekana kuwakilisha mabadiliko?
+answer: Ile iliyo na Address sawa na ingizo.
+wrong_answers:
+  - Ile iliyo na Address ya hivi karibuni.
+  - Ile iliyo na Address tofauti na ingizo.
+  - Ile iliyo na Address isiyojulikana.
+explanation: |
+  Ikiwa utumiaji tena wa Address utatokea ndani ya shughuli hiyo hiyo, ni busara kudhani kuwa mtumiaji bado ana UTXO inayohusishwa. Kwa hivyo, matokeo na Address sawa na ingizo kuna uwezekano wa mabadiliko.
+reviewed: false

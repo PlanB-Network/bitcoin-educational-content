@@ -1,0 +1,12 @@
+question: Ni tishio gani linalowezekana la kutumia programu iliyovunjika ambayo haiwezi kusasishwa?
+answer: Kuwasili kwa virusi wakati wa upakuaji wake haramu na utumiaji usio salama dhidi ya aina mpya za shambulio.
+wrong_answers:
+  - Programu itaacha kufanya kazi baada ya kipindi fulani.
+  - Programu haitakuwa na vipengele vipya.
+  - Programu itatumia rasilimali zaidi za mfumo.
+explanation: |
+  Programu iliyopasuka ambayo haiwezi kusasishwa inawakilisha mara mbili
+  tishio linalowezekana. Inaweza kuleta virusi wakati usio halali
+  pakua kutoka kwa tovuti inayotiliwa shaka na inaweza kuwa isiyo salama
+  dhidi ya aina mpya za mashambulizi.
+reviewed: true

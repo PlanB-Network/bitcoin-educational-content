@@ -1,0 +1,9 @@
+question: HD Wallet 中擴充按鍵的主要功能是什麼？
+answer: 允許子鑰匙的衍生
+wrong_answers:
+  - 儲存 Wallet 的交易
+  - 直接 generate UTXOs
+  - 加密公開金鑰
+explanation: |
+  擴充金鑰結合了金鑰 (私人或公開) 與相關的鏈碼，也就是衍生子金鑰所需的兩個 Elements。
+reviewed: false

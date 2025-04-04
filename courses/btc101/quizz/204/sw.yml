@@ -1,0 +1,11 @@
+question: Je, ni jambo gani mojawapo unapaswa kuzingatia unapochagua jukwaa la DCA?
+answer: Upatikanaji katika nchi yako.
+wrong_answers:
+  - Rangi ya nembo ya jukwaa.
+  - Idadi ya watumiaji kwenye jukwaa.
+  - Umri wa jukwaa.
+explanation: |
+  Maandishi haya ya kozi yanataja hilo wakati wa kuchagua DCA
+  jukwaa, chaguo sahihi itategemea zaidi juu yake
+  upatikanaji katika nchi yako.
+reviewed: true

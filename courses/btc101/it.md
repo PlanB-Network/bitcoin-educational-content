@@ -1085,6 +1085,11 @@ https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b0
 
 - Soluzione per grandi strutture o appassionati bitcoiner: BTCpay Server
 
+
+Per approfondire questo argomento, ti consigliamo la nostra formazione BIZ101! Scopri come integrare efficacemente il bitcoin nella tesoreria della tua azienda, accettare bitcoin come mezzo di pagamento in base al profilo della tua organizzazione e comprendere i requisiti fiscali e contabili associati:
+
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+
 ## Risparmiare in Bitcoin
 
 <chapterId>1d9570c6-5b63-51a6-b87c-7bdb0fc4aa87</chapterId>
@@ -1125,6 +1130,8 @@ Una strategia graduale prevede acquisti ricorrenti, ovvero l'acquisto di piccole
 ![image](assets/en/74.webp)
 
 **Fate attenzione agli UTXO**: Ricordatevi di consolidare di tanto in tanto gli UTXO nei vostri wallet. Questa pratica è essenziale per gestire efficacemente i vostri bitcoin ed evitare inutili commissioni durante le transazioni.
+
+Un [UTXO](https://planb.network/en/resources/glossary/utxo) è un output di una transazione che non è ancora stato speso, ovvero non è stato utilizzato come input per una nuova transazione. Consolidarli significa unire più UTXO di piccole dimensioni per formarne uno più grande, in modo da diminuire il "peso" della transazione, e quindi pagare meno commissioni.
 
 - Acquisto spontaneo
 

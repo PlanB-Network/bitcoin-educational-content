@@ -1,0 +1,9 @@
+question: Ni nini usawa wa XOR na operesheni ya modulo?
+answer: XOR ni sawa na operesheni ya modulo 2 kwenye biti
+wrong_answers:
+  - XOR ni sawa na modulo ya kawaida ya kutoa 3
+  - XOR ni sawa na operesheni ya modulo 7 kwenye biti
+  - XOR ni kinyume cha nyongeza
+explanation: |
+  Operesheni ya XOR inaweza kuonekana kama nyongeza ya bits na modulo 2, na kufanya matokeo kufanana.
+reviewed: false

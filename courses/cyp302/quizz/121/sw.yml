@@ -1,0 +1,9 @@
+question: Suala kuu la usimamizi ni nini?
+answer: Utata wa kupata na kuhifadhi jozi ya funguo kwa kila mteja
+wrong_answers:
+  - Kutowezekana kwa kufanya upya funguo zilizopotea na wateja
+  - Haja ya kusimbua kila ufunguo kabla ya kutumiwa na mteja
+  - Umuhimu wa kusambaza funguo kwa kila mawasiliano
+explanation: |
+  Suala kuu la usimamizi liko katika ugumu wa kuhifadhi na kupata jozi ya funguo kwa kila mtumiaji, haswa wakati idadi ya wateja inafikia mamilioni.
+reviewed: false

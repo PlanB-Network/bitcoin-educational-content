@@ -1,0 +1,9 @@
+question: Kanuni ya Kerckhoff inawezeshaje usalama wa mifumo wazi kama Linux?
+answer: Inaruhusu uthibitishaji wa umma wa udhaifu unaowezekana
+wrong_answers:
+  - Inafanya algoriti za usimbaji fiche zisionekane
+  - Inapunguza idadi ya watumiaji wanaowezekana
+  - Inahakikisha matumizi ya funguo za kipekee
+explanation: |
+  Kanuni ya Kerckhoff huwezesha uthibitishaji hadharani wa dosari za usalama, kama ilivyo kwa mifumo huria, ambayo hufanya mifumo kutegemewa zaidi kupitia uwazi. Usalama unahakikishwa na ufunguo pekee, si kwa mchakato wa usimbaji fiche wenyewe.
+reviewed: false

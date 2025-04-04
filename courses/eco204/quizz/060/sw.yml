@@ -1,0 +1,12 @@
+question: Ni sababu gani kuu ya kuundwa kwa Benki ya Uingereza?
+answer: Ili kufadhili vita mwishoni mwa karne ya 17
+wrong_answers:
+  - Ili kutoa sarafu yake mwenyewe
+  - Kushindana na Benki ya Amsterdam
+  - Ili kudhibiti soko la hisa
+explanation: |
+  Benki ya Uingereza iliundwa mwishoni mwa karne ya 17 na
+  ya
+  motisha kuu ya kufadhili vita. Iliweka amana kwa amri na kushushwa daraja
+  benki za kibinafsi kwa nafasi ya sekondari katika mfumo wa fedha.
+reviewed: false

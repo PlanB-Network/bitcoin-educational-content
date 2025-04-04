@@ -1,0 +1,9 @@
+question: 描述符中的前綴 `wpkh` 是什麼意思？
+answer: Pay-to-Witness-PubKey-Hash
+wrong_answers:
+  - Pay-to-PubKey
+  - Pay-to-Script-Hash
+  - 見證手稿 Hash
+explanation: |
+  前綴 `wpkh` 表示使用 Pay-to-Witness-Public-Key-Hash 位址的 SegWit v0 指令碼。
+reviewed: false

@@ -1,0 +1,13 @@
+question: Je, ni njia gani moja ambayo Bitcoin imejiunganisha zaidi katika soko la jadi?
+answer: Kuwasili kwa Bitcoin ETFs.
+wrong_answers:
+  - Kupigwa marufuku kwa Bitcoin.
+  - Kutoweka kwa sarafu zote za siri.
+  - Uundaji wa Bitcoin.
+explanation: |
+  Bitcoin inaendelea kuishi na kukua zaidi kwa
+  kujiunganisha zaidi na zaidi katika jadi
+  soko. Kuwasili kwa Bitcoin ETFs, udhibiti wazi zaidi,
+  na upataji bora wa zana za kuhifadhi unahimiza hili pekee
+  mwenendo.
+reviewed: true

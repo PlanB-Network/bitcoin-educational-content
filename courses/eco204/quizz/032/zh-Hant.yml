@@ -1,0 +1,11 @@
+question: 在德國經濟危機期間，Notgeld 的目的是什麼？
+answer: 其設計目的是為了 Address 共同貨幣的短缺。
+wrong_answers:
+  - 它被用來支付戰爭賠款。
+  - 這是一種抗議政府的形式。
+  - 這是刺激經濟的方法。
+explanation: |
+  面對貨幣和經濟危機，德國求助於 Notgeld
+  (緊急救鈔）。這些由城市或某些公司印製的鈔票旨在
+  以 Address 共同貨幣短缺。
+reviewed: false

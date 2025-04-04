@@ -1,0 +1,11 @@
+question: Je, ni hasara gani kuu ya kutumia kidhibiti cha nenosiri kinachojipangisha mwenyewe?
+answer: Inahitaji maarifa ya kiufundi zaidi kutumia.
+wrong_answers:
+  - Ni ghali zaidi kuliko huduma za mtu wa tatu.
+  - Haitoi vipengele vingi kama huduma za wahusika wengine.
+  - Sio salama kama huduma za wahusika wengine.
+explanation: |
+  Kidhibiti cha nenosiri kilichopangishwa kibinafsi kinahitaji kiufundi zaidi
+  maarifa ya kutumia, kwani unahitaji kusanidi na kudhibiti yako mwenyewe
+  seva. Walakini, inaweza kutoa udhibiti zaidi na usalama.
+reviewed: true

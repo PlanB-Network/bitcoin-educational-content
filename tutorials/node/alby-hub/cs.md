@@ -4,15 +4,15 @@ description: Jak snadno spustíte vlastní uzel Lightning?
 ---
 ![cover](assets/cover.webp)
 
-Alby Hub je nejnovější software od společnosti Alby, která stojí za populárním webovým rozšířením Lightning. Alby Hub je snadno použitelné rozhraní pro správu uzlů Lightning.
+Alby Hub je nejnovější open-source software od Alby, společnosti stojící za populárním rozšířením Lightning webu. Alby Hub je peněženka s vlastním úschovným řešením s nejjednodušším použitím Lightning uzlu, přístupná odkudkoli pro integraci s desítkami aplikací. Alby Hub je snadno použitelný rozhraní pro správu Lightning uzlů.
 
-V tomto tutoriálu se podíváme na různé způsoby, jak používat Alby Hub ke správě vlastního uzlu Lightning a jak jej propojit s mobilní aplikací Alby Go. To vám umožní trávit saty na cestách a zároveň být při správě svého uzlu autonomní.
+V tomto návodu se podíváme na různé způsoby použití Alby Hubu, jak jej připojit k Alby Go, mobilní aplikaci Alby nebo k rozšíření Alby Browser Extension. To vám umožní utrácet vaše saty na cestách, zatímco si zachováte autonomii ve správě vašeho uzlu.
 
 ![ALBY HUB](assets/fr/01.webp)
 
 ## Co je Alby Hub?
 
-V roce 2024 společnost Alby zaznamenala strategický posun. Po léta nabízela řadu nástrojů spojených s Bitcoinem a Lightning Network, včetně ikonického rozšíření Alby, které umožňuje provozovat Lightning peněženku, ať už depozitní nebo jinou. V roce 2025 však plánují ukončit službu sdílené úschovné peněženky a zaměřit se výhradně na řešení pro vlastní úschovu. Novým stěžejním nástrojem v ekosystému Alby má být Alby Hub. Tento software umožňuje uživatelům snadno spravovat vlastní uzel Lightning a zároveň si ponechat vlastnictví svých klíčů (self-custody).
+Alby Hub má být novým vlajkovým nástrojem v ekosystému Alby. Tento software umožňuje uživatelům snadno spravovat vlastní peněženku s vlastním úschovným řešením s integrovaným Lightning uzlem, přičemž si zachovávají vlastnictví svých klíčů (self-custody).
 
 Alby Hub je vysoce přizpůsobivý nástroj. Dokáže uspokojit potřeby začátečníků i pokročilých uživatelů. Začátečníci jej využijí ke snadnému samostatnému ovládání skutečného uzlu Lightning, aniž by se museli zabývat základní složitostí. Zkušenější uživatelé mohou Alby Hub využít jako kompletní rozhraní pro pokročilou správu stávajícího uzlu Lightning.
 
@@ -21,11 +21,11 @@ V závislosti na vašich potřebách je Alby Hub k dispozici ve 4 konfiguracích
 
 - Alby Hub Cloud :**
 
-Tato první možnost je ideální pro začátečníky, je to možnost Alby cloud. Umožňuje nasadit uzel Lightning přímo na server spravovaný společností Alby, který je přístupný přes rozhraní Alby Hub. Přestože server spravuje společnost Alby, zachováváte si nad svými prostředky svrchovanost, protože vaše klíče jsou šifrovány pomocí hesla, které znáte pouze vy. Vaše klíče však musí zůstat dešifrované v paměti RAM, aby uzel mohl fungovat, což je teoreticky vystavuje riziku, pokud někdo fyzicky získá přístup k serveru. Pro začátečníky je to zajímavý kompromis, ale je důležité si uvědomit rizika.
+Ideální pro začátečníky, tato první možnost je cloudová možnost Alby. Umožňuje vám nasadit Hub přímo na server spravovaný společností Alby, přístupný prostřednictvím vašeho rozhraní Alby Hub. Ačkoli Alby spravuje server, nad svými prostředky si zachováváte suverenitu, protože vaše klíče jsou šifrovány pomocí hesla známého pouze vám. Nicméně vaše klíče musí zůstat dešifrované v paměti RAM, aby uzel mohl fungovat, což je teoreticky vystavuje riziku, pokud někdo fyzicky přistoupí k serveru. Je to zajímavý kompromis pro začátečníky, ale je důležité si být vědom rizik.
 
 Hlavní výhodou této možnosti je, že máte uzel Lightning v provozu 24 hodin denně, 7 dní v týdnu, aniž byste museli sami spravovat hosting. Zálohování uzlu Lightning je navíc zjednodušené a automatizované ve srovnání s možnostmi s vlastním hostingem, kde musíte zálohování kanálů spravovat sami.
 
-Společnost Alby nabízí tuto službu za 21 000 satelitů měsíčně (sazba za prosinec 2024, může se změnit, [zkontrolujte jejich ceny](https://albyhub.com/#pricing)). Poplatek je automaticky odečítán z vašeho uzlu prostřednictvím faktury Lightning vystavené společností Alby. To se provádí prostřednictvím připojení NWC, které konfiguruje váš uzel tak, aby automaticky platil faktury společnosti Alby související s vaším předplatným.
+Alby Cloud je placená služba [Podívejte se na jejich ceny](https://albyhub.com/#pricing) pro více podrobností. Poplatek je automaticky odečítán z vaší peněženky prostřednictvím Lightning faktury vystavené společností Alby. To se provádí prostřednictvím NWC připojení, které nakonfiguruje váš uzel tak, aby automaticky platil faktury Alby související s vaším předplatným.
 
 
 - Alby Hub s existujícím uzlem :**
@@ -35,7 +35,7 @@ Pokud již máte uzel umístěný například na platformě Umbrel nebo Start9, 
 
 - Místní centrum Alby Hub :**
 
-Rozbočovač Alby Hub a uzel je možné nainstalovat také přímo do počítače, ačkoli tato možnost je méně praktická, protože počítač musí zůstat neustále aktivní, aby bylo možné k uzlu Lightning přistupovat na dálku. Tato alternativa však může být vhodná pro vaše specifické potřeby.
+Je také možné nainstalovat Alby Hub přímo na váš počítač, i když tato možnost je méně praktická, protože váš počítač musí zůstat neustále aktivní, aby bylo možné vzdáleně přistupovat k Lightning uzlu. Tato alternativa však může být vhodná pro vaše specifické potřeby.
 
 
 - Alby Hub na osobním serveru :**
@@ -76,7 +76,7 @@ Znovu klikněte na tlačítko "*Pokračovat*".
 
 ## Možnost hostování v cloudu
 
-Poté si budete muset vybrat mezi možností vlastního hostování, kdy hostujete uzel Lightning na vlastním hardwaru, a placenou možností s využitím cloudu společnosti Alby. Začnu vysvětlením, jak postupovat u možnosti Cloud (upozorňuji, že se jedná o placenou možnost, podrobnosti viz předchozí část).
+Poté si budete muset vybrat mezi možností samohostování, kde nainstalujete Alby Hub na své vlastní zařízení, nebo prémiovými možnostmi. Začnu tím, že vysvětlím, jak postupovat s možností Pro Cloud (poznámka: toto je placená možnost, podrobnosti viz předchozí část).
 
 Klikněte na "*Upgrade*".
 
@@ -94,7 +94,8 @@ Počkejte několik okamžiků, než se uzel vytvoří.
 
 ![ALBY HUB](assets/fr/12.webp)
 
-A to je vše, váš Alby Hub je nyní nakonfigurován. V další části vám ukážu, jak nainstalovat Alby Hub na existující uzel. Pokud to nepotřebujete, můžete přejít k další části a uzel nakonfigurovat.
+A to je vše, váš Alby Hub je nyní nakonfigurován. V další části vám ukážu, jak nainstalovat Alby Hub na stávající uzel. Pokud ještě nemáte Lightning uzel, můžete přejít přímo na další část a nakonfigurovat Alby Hub na Alby Cloud.
+
 
 ![ALBY HUB](assets/fr/13.webp)
 
@@ -128,7 +129,7 @@ Klikněte na tlačítko "*Začít*".
 
 Alby Hub vás poté vyzve ke zvolení hesla. Toto heslo je velmi důležité, protože bude použito k zašifrování vaší peněženky. V placené cloudové verzi jsou vaše klíče uloženy na serveru Alby, zašifrovány tímto heslem, které znáte pouze vy, a poté dešifrovány a uloženy pouze v paměti RAM, aby bylo možné v případě potřeby podepisovat transakce.
 
-Proto je nutné zvolit silné heslo. Kdokoli s tímto heslem může potenciálně získat přístup k vašemu uzlu. Ujistěte se, že jste si také vytvořili jednu nebo více fyzických záloh tohoto hesla na kus papíru nebo ještě lépe na kus kovu pro větší bezpečnost. **Pokud toto heslo ztratíte, bude nemožné obnovit přístup k vašim bitcoinům**, protože Alby nemá možnost ho obnovit. Ztráta tohoto hesla znamená ztrátu vašich bitcoinů.
+Je tedy nezbytné zvolit silné heslo. Každý, kdo má toto heslo, by potenciálně mohl získat přístup k vašemu uzlu. Ujistěte se, že si také vytvoříte jednu nebo více fyzických záloh tohoto hesla na kus papíru, nebo ještě lépe na kus kovu pro zvýšenou bezpečnost.
 
 Po pečlivém výběru a uložení hesla klikněte na "*Vytvořit heslo*".
 
@@ -138,7 +139,7 @@ Nyní máte přístup k uzlu Lightning.
 
 ![ALBY HUB](assets/fr/20.webp)
 
-Nejdříve je třeba uložit frázi pro obnovení, ze které jsou odvozeny klíče. Tato fráze vám umožní obnovit přístup k vaší onchain peněžence a s posledním stavem vašich kanálů i k vašim sats na Lightningu. Chcete-li tak učinit, klikněte na "*Nastavení*".
+Prvním krokem je uložit svou obnovovací frázi, ze které jsou odvozeny vaše klíče. Chcete-li to provést, klikněte na "Nastavení". Tato fráze vám umožňuje obnovit přístup k vaší peněžence, pokud jste povolili automatické zálohy.
 
 ![ALBY HUB](assets/fr/21.webp)
 
@@ -156,22 +157,18 @@ Po uložení fráze zaškrtněte políčko pro potvrzení jejího uložení a kl
 
 ## Jak mohu obnovit přístup ke svým bitcoinům?
 
-Před odesláním finančních prostředků do uzlu je důležité pochopit, jak je v případě problému získat zpět a jaké informace jsou k tomu potřeba. Postup se liší podle povahy prostředků, které mají být obnoveny, a podle režimu hostování vašeho uzlu.
+Před odesláním prostředků do vašeho Alby Hubu je důležité pochopit, jak je v případě problému obnovit, a jaké informace jsou pro tuto obnovu potřeba. Proces se liší v závislosti na povaze prostředků, které mají být obnoveny, a na způsobu hostování vašeho uzlu.
 
-Pro uživatele placeného cloudu vyžaduje úplné obnovení bitcoinů tři základní prvky:
+Pro uživatele placené cloudové služby je kompletní obnova vašich bitcoinů možná pouze při splnění tří nezbytných prvků:
 
+- Vaše obnovovací fráze;
+- Přístup k vašemu Alby účtu pro získání automatických záloh.
 
-- Vaše fráze pro zotavení;
-- Vaše heslo (heslo používané pro váš uzel) ;
-- Přístup k účtu Alby, abyste získali aktuální stav svých kanálů Lightning.
+Pokud chybí kterákoli z těchto dvou informací, nebude možné vaše bitcoiny plně obnovit.
 
-Absence kterékoli z těchto tří informací by znemožnila získat vaše bitcoiny zpět v plné výši.
+Pro ty, kteří provozují Alby Hub na vlastním zařízení, je proces obnovy zdokumentován [zde](https://guides.getalby.com/user-guide/alby-account-and-browser-extension/alby-hub/backups-and-recover#alby-hub-self-hosted-with-an-alby-account).
 
-V případě hostitelů vlastního uzlu je proces obnovení stejný jako u jakéhokoli uzlu Lightning. Budete potřebovat :
-
-
-- Vaše fráze pro zotavení;
-- Nejnovější stav vašich kanálů Lightning. Pro zabezpečení těchto informací nabízí společnost Umbrel [možnost](https://github.com/getumbrel/umbrel/blob/2b266036f62a1594aa60a8a3be30cfb8656e755f/scripts/backup/README.md) jejich šifrování a dynamické a anonymní ukládání prostřednictvím sítě Tor.
+Pokud jste nainstalovali Alby Hub na existující uzel, musíte postupovat podle procesu obnovy příslušného operačního systému uzlu. Například: Umbrel nabízí [možnost](https://github.com/getumbrel/umbrel/blob/2b266036f62a1594aa60a8a3be30cfb8656e755f/scripts/backup/README.md) šifrování posledního stavu vašich Lightning kanálů a jejich dynamické a anonymní uložení přes Tor. Mějte na paměti, že pouze automatické zálohy od Alby vám umožňují plně obnovit váš Hub bez uzavření jakýchkoli kanálů.
 
 ## Zakupte si svůj první kanál Lightning
 
@@ -255,6 +252,12 @@ Váš nový kanál se nyní zobrazí na kartě "*Uzel*".
 
 ![ALBY HUB](assets/fr/42.webp)
 
+## Správa uzlu
+
+Správa vašich Lightning kanálů je jednodušší, než si myslíte. Alby Hub vám umožňuje přenášet saty mezi vaším výdajovým zůstatkem a vaším on-chain zůstatkem. Takto můžete zvýšit kapacitu pro výdaje nebo přijímání.
+
+![ALBY HUB](assets/fr/66.webp)
+
 ## Připojení aplikace pro výpočet výdajů
 
 Nyní, když máte funkční uzel Lightning, můžete jej používat ke každodennímu přijímání a utrácení satelitů. Webové rozhraní Alby Hub je sice praktické pro správu uzlu, ale není ideální pro provádění rychlých transakcí na cestách. K tomu budeme používat aplikaci Lightning wallet nainstalovanou v chytrém telefonu.
@@ -279,15 +282,14 @@ Po spuštění aplikace klikněte na "*Připojit peněženku*".
 
 ![ALBY HUB](assets/fr/46.webp)
 
-V centru Alby klikněte na kartě "*Připojení*" na možnost "*Přidat připojení*".
+Ve vašem Alby Hubu, v sekci App Store, najděte „Alby Go“ a klikněte na „Connect“  
+![ALBY HUB](assets/fr/47.webp)  
+Klikněte na „Connect with One-Tab Connections“. To vám umožní propojit váš Alby Hub jedním kliknutím s dalšími aplikacemi pomocí Alby Go.  
 
-![ALBY HUB](assets/fr/47.webp)
+![ALBY HUB](assets/fr/48.webp)  
 
-Pojmenujte toto připojení, abyste ho mohli snadno identifikovat ve svém rozbočovači, a vyberte oprávnění, která chcete aplikaci udělit. V mém případě jsem zvolil možnost "*Plný přístup*", abych měl plný přístup k prostředkům svého uzlu Lightning z chytrého telefonu, ale můžete také omezit přístup maximálním rozpočtem, vybrat povolené funkce nebo nastavit datum vypršení platnosti těchto oprávnění. Po konfiguraci klikněte na tlačítko "*Další*".
+Alby Hub poté vygeneruje tajný klíč pro vytvoření spojení s Alby Go.
 
-![ALBY HUB](assets/fr/48.webp)
-
-Rozbočovač Alby Hub poté vygeneruje tajný kód pro navázání spojení.
 
 ![ALBY HUB](assets/fr/49.webp)
 
@@ -299,7 +301,8 @@ Klikněte na "Finish*".
 
 ![ALBY HUB](assets/fr/51.webp)
 
-Nyní máte vzdálený přístup ke svému uzlu Lightning ze svého chytrého telefonu, takže můžete snadno vydávat a přijímat satelity každý den na cestách.
+Nyní máte vzdálený přístup ke svému Lightning uzlu napájenému Alby Hubem ze svého smartphonu, což usnadňuje každodenní utrácení a přijímání satů na cestách.
+
 
 ![ALBY HUB](assets/fr/52.webp)
 

@@ -1,0 +1,9 @@
+question: 像 ProtonMail 這樣的安全電子郵件供應商提供什麼優勢？
+answer: 隱私保護和增強的安全性。
+wrong_answers:
+  - 適合初學者的簡單 Interface。
+  - 減少功能以降低攻擊面。
+  - 整合演算法，自動 generate 您的電子郵件。
+explanation: |
+  ProtonMail 因其隱私權政策和強化的安全措施而脫穎而出。
+reviewed: false

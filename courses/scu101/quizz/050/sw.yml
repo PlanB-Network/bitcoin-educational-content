@@ -1,0 +1,11 @@
+question: Je, kuna faida gani ya manenosiri ya mara moja (HOTP na TOTP) juu ya SMS kwa 2FA?
+answer: Zinahitaji hesabu ya kriptografia na huhifadhiwa ndani badala ya kumbukumbu.
+wrong_answers:
+  - Zinahitaji hesabu ya kriptografia na huhifadhiwa kwenye kumbukumbu badala ya ndani.
+  - Hazihitaji hesabu ya kriptografia na huhifadhiwa ndani na kwenye kumbukumbu.
+  - Ni rahisi kukumbuka na kwa haraka kuandika.
+explanation: |
+  Manenosiri ya mara moja (HOTP na TOTP) ni salama kuliko SMS
+  kwa sababu zinahitaji hesabu ya kriptografia na ni
+  kuhifadhiwa ndani badala ya kumbukumbu.
+reviewed: true

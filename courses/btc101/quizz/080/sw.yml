@@ -1,0 +1,13 @@
+question: Kuna uwezekano gani wa mtu kubahatisha orodha yako ya maneno 12 au 24 kwa bahati mbaya katika Bitcoin Wallet?
+answer: Astronomic ya chini.
+wrong_answers:
+  - Juu.
+  - Wastani.
+  - Nguvu.
+explanation: |
+  Shukrani kwa cryptography kutumika kuunda Wallet, the
+  uwezekano wa mtu kubahatisha orodha yako kwa bahati mbaya
+  Maneno 12 au 24 ni ya chini kiastronomia. Ni kama kutafuta
+  nambari inayofaa kati ya 1 na $2^256$, ambayo ni karibu
+  sawa na kupata atomi iliyofafanuliwa katika Ulimwengu.
+reviewed: true

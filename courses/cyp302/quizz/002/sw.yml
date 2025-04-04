@@ -1,0 +1,9 @@
+question: Je, ni umahususi gani wa maandishi matatu yaliyosimbwa kwa njia fiche yaliyomo kwenye kisanduku?
+answer: Zina nambari zilizotenganishwa na koma
+wrong_answers:
+  - Zote zimeandikwa kwa herufi za kawaida
+  - Wanatumia alama zisizojulikana
+  - Zimeandikwa kwa lugha nyingi
+explanation: |
+  Maandishi matatu yaliyosimbwa kwa njia fiche yana msururu wa nambari zilizotenganishwa na koma, zinazohitaji ufunguo usimbuliwe.
+reviewed: false

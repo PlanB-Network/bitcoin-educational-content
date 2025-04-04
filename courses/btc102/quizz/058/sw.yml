@@ -1,0 +1,12 @@
+question: Inamaanisha nini ikiwa huna ufunguo wa faragha wa Bitcoin Wallet yako?
+answer: Mtu wa tatu anawajibika kwa usalama wa bitcoins zako
+wrong_answers:
+  - Umepoteza bitcoins zako zote
+  - Huwezi tena kufanya miamala na bitcoins zako
+  - Bitcoins zako hubadilishwa kiotomatiki kuwa cryptocurrency nyingine
+explanation: |
+  Ikiwa huna ufunguo wa faragha wa Bitcoin Wallet yako, inamaanisha
+  mtu wa tatu anawajibika kwa usalama wa bitcoins zako. Wao ni chini
+  kwa hatari sawa na majukwaa ya Exchange kama vile udukuzi, ukamataji, udhibiti, au
+  kufilisika.
+reviewed: false

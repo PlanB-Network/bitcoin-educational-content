@@ -1,0 +1,9 @@
+question: Ni udanganyifu gani kuhusu usalama wa njia za mawasiliano katika ulimwengu wa kisasa?
+answer: Kuamini kuwa kulinda chaneli huzuia uingiliaji
+wrong_answers:
+  - Kufikiri kwamba mitandao ya wireless haifai
+  - Kuamini kwamba cryptography sio lazima kwa mawasiliano ya ndani
+  - Ikizingatiwa kuwa mashirika ya kitaifa pekee yanaweza kuingilia data
+explanation: |
+  Ni udanganyifu kufikiri kwamba kulinda tu chaneli kimwili inatosha kuhakikisha usiri, kwani sehemu nyingi za udukuzi husalia kufikiwa, hasa kwa mawasiliano yasiyotumia waya.
+reviewed: false

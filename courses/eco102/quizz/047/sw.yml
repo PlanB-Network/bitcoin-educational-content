@@ -1,0 +1,9 @@
+question: Je, Bastiat anaanzishaje uhusiano kati ya ulimbikizaji wa mtaji na hali ya maisha ya wafanyakazi?
+answer: Kuongezeka kwa uzalishaji husababisha kupungua kwa bei na kuongezeka kwa mishahara.
+wrong_answers:
+  - Mtaji unaruhusu ufadhili wa miradi ya kijamii na uboreshaji wa huduma za umma.
+  - Wafanyakazi wenyewe wanakuwa mabepari na kugawana faida.
+  - Mtaji unaruhusu kupunguza utegemezi kwa waajiri.
+explanation: |
+  Bastiat anasema kuwa mlimbikizo wa mtaji huongeza uzalishaji, unaosababisha kupungua kwa bei na ongezeko la mishahara, na hivyo kuboresha hali ya maisha.
+reviewed: false

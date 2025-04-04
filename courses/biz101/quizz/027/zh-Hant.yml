@@ -1,0 +1,9 @@
+question: 在取得 Bitcoin 時，有關保管權的建議做法是什麼？
+answer: 在初次購買後，考慮自我保管解決方案，讓企業真正控制其資產。
+wrong_answers:
+  - 在任何情況下，切勿從 Exchange 中抽出 Bitcoin。
+  - 在未審查安全措施的情況下，永遠信任單一保管人。
+  - 使用簡單的密碼將所有 Bitcoin 儲存在公開網站上
+explanation: |
+  購買 Bitcoin 後，將其轉移到自我託管的 Wallet 可確保企業直接控制其資金。雖然第三方保管人可能很方便，但自我保管符合 Bitcoin 的財務主權原則。
+reviewed: false

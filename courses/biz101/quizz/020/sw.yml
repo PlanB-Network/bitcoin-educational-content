@@ -1,0 +1,9 @@
+question: Je, ni "mfumko wa bei uliofichwa" katika muktadha wa mfumo wa fedha unaotegemea deni?
+answer: Ni ongezeko la pesa Supply (karibu 7% kwa mwaka) ambayo hupunguza sehemu yako ya thamani ya jumla ikiwa hutawekeza au kukuza mali ipasavyo.
+wrong_answers:
+  - Ni neno rasmi la kiuchumi kwa viwango maalum vya riba.
+  - Inarejelea nambari za mfumuko wa bei ambazo hazijachapishwa na benki kuu.
+  - Inamaanisha kuwa bei hazipandi kamwe, hata pesa Supply inapopanuka.
+explanation: |
+  Mfumuko wa bei uliofichwa hutokea wakati fedha za Supply zinapanua, kupunguza uwezo wa ununuzi wa akiba. Ikiwa biashara haitawekeza kikamilifu au kulinda utajiri wake, inaweza kupoteza thamani kwa njia hii tulivu ya upunguzaji wa pesa.
+reviewed: false

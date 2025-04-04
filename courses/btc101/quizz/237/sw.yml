@@ -1,0 +1,8 @@
+question: Je, Lightning Network inaweza kubadilisha vipi miundo ya biashara iliyopo katika tasnia ya mchezo wa video?
+answer: Inaruhusu wachezaji kuweka pesa kidogo sana wakati wa kucheza michezo.
+wrong_answers:
+  - Inaruhusu wachezaji kuchimba Bitcoin wakati wa kucheza michezo.
+  - Huruhusu wasanidi wa mchezo kukubali Bitcoin kama malipo ya michezo yao.
+  - Huruhusu wachezaji kununua vitu vya ndani ya mchezo na Bitcoin.
+explanation: >-
+reviewed: true

@@ -1,0 +1,9 @@
+question: Kulingana na Aristotle, uhuru ni nini?
+answer: Utii wa sheria ya jiji
+wrong_answers:
+  - Kutokuwepo kwa kizuizi chochote
+  - Nguvu ya kufanya chochote mtu anachotaka
+  - Majibu mengine yote ni sahihi.
+explanation: |
+  Kwa Aristotle, uhuru unajumuisha kutii sheria za jiji, kwa vile hizi zimewekwa kwa manufaa ya wote. Uhuru wa kweli unapatikana ndani ya mfumo wa uraia na ushiriki katika maisha ya kisiasa.
+reviewed: false

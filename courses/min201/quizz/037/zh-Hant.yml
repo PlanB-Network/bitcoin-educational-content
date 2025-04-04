@@ -1,0 +1,13 @@
+question: Mining 賺錢的潛在缺點是什麼？
+answer: 它可能導致散列權力的集中化，也可能對環境造成重大影響
+wrong_answers:
+  - 可導致 Bitcoin 價格下降
+  - 可能會導致網路的 Hashrate 降低
+  - 可能會導致網路中的活動節點數量減少
+explanation: |
+  Mining 為了獲取利潤，可能會導致散列集中化
+  如果只有少數大公司有能力投資於
+  高端 Mining 設備。此外，能源
+  以獲利為目的的 Mining 消費可能會產生重大影響。
+  環境影響取決於能源。
+reviewed: true

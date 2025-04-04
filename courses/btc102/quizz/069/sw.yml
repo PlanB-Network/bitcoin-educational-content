@@ -1,0 +1,10 @@
+question: Ni nini sababu kuu ya Hodler kuamini katika thamani ya muda mrefu ya Bitcoin?
+answer: Wanaamini kuwa Bitcoin itatumika sana na kwa hivyo ni chache zaidi.
+wrong_answers:
+  - Wanaamini kuwa Bitcoin itabadilishwa na cryptocurrency nyingine.
+  - Wanaamini kuwa thamani ya Bitcoin itapungua kwa wakati.
+  - Wanaamini kuwa Bitcoin ni uwekezaji wa muda mfupi.
+explanation: |
+  A Hodler anaamini katika thamani ya muda mrefu ya Bitcoin kwa sababu wanafikiri
+  itatumika kwa wingi zaidi na hivyo kuwa adimu zaidi katika siku zijazo.
+reviewed: false

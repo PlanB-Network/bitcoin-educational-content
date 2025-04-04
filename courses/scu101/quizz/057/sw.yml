@@ -1,0 +1,12 @@
+question: Je, ni faida gani mojawapo ya kuhudhuria makongamano na warsha za usalama wa mtandao?
+answer: Inakuruhusu kujenga miunganisho na wataalamu wa tasnia
+wrong_answers:
+  - Ni sharti kwa kazi zote za usalama wa mtandao
+  - Inahakikisha kazi katika usalama wa mtandao
+  - Ndiyo njia pekee ya kujifunza kuhusu usalama wa mtandao
+explanation: |
+  Sura inataja kuwa kuhudhuria usalama wa mtandao
+  mikutano na warsha sio tu inakuwezesha kujifunza lakini
+  pia hukusaidia kujenga miunganisho na tasnia
+  wataalamu.
+reviewed: true

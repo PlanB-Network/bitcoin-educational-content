@@ -1,0 +1,9 @@
+question: 在 RGB 中，當 Single-Use Seal 關閉時，Commitment 在哪裡？
+answer: 在交易支出輸出點的輸出中
+wrong_answers:
+  - 在輸入的交易花費出點
+  - 在交易支出點的Sig腳本中
+  - 在交易的見證中，花費出點
+explanation: |
+  Commitment 插入到花費定義 Single-Use Seal 的出點的交易輸出中。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Katika maeneo mengi ya mamlaka, ni nini huanzisha tukio linalotozwa ushuru unaposhughulika na Bitcoin?
+answer: Kuuza, kufanya biashara, au kutumia Bitcoin kama malipo mara nyingi huanzisha tukio linalotozwa kodi.
+wrong_answers:
+  - Kushikilia tu Bitcoin kwa muda usiojulikana bila miamala yoyote.
+  - Inahifadhi nakala za Bitcoin Wallet au funguo zako.
+  - Kuangalia bei ya Bitcoin mtandaoni.
+explanation: |
+  Kwa kawaida, tukio linalotozwa ushuru hutokea wakati biashara inatupa au kutumia Bitcoin yake, si kwa kuishikilia tu. Kila mauzo au Exchange ya Bitcoin ya bidhaa, huduma, au sarafu ya fiat inaweza kupata faida au hasara ya generate.
+reviewed: false

@@ -1,6 +1,6 @@
-id: baed661d-5db9-44ac-8338-c4639dd4cf5a
+id: e7f10f81-6715-4637-840f-6add4e154e48
 en_word: BITCOIN KNOTS
-related_words: []
+related_words: 
 original_language: fr
 proofreading:
   - language: en
@@ -9,7 +9,7 @@ proofreading:
     contributor_names:
     reward: 0.14
   - language: fr
-    last_contribution_date: 2024-07-26
+    last_contribution_date: 2025-03-04
     urgency: 1
     contributor_names:
       - LoicPandul

@@ -1232,7 +1232,4 @@ Järgmine samm on esitada endale väljakutse kumulatiivse viktoriini abil, mis h
 ## Kokkuvõte
 
 <chapterId>15f62056-c69c-467e-9565-af48d439a1f5</chapterId>
-
-Palju õnne selle kursuse lõpetamise puhul!
-
-Oleme väga rõõmsad, et olete oma õppimise teekonnal edukalt selle verstapostini jõudnud. Tänu oma pühendumusele ja pühendumusele olete omandanud väärtuslikke teadmisi ja oskusi, mis aitavad teil oma ametialases arengus hästi edasi liikuda.
+<isCourseConclusion>true</isCourseConclusion>

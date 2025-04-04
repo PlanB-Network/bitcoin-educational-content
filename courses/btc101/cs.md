@@ -1048,6 +1048,8 @@ V současné době bitcoin stále přežívá a ještě více roste díky tomu, 
 
 ![image](assets/en/71.webp)
 
+
+
 ## Získání bitcoinů prací
 
 <chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>
@@ -1085,6 +1087,10 @@ https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4
 https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Řešení pro velké struktury nebo vášnivé bitcoinery: BTCpay Server
+
+Pro lepší pochopení tohoto tématu vám doporučujeme naši formaci BIZ101! Objevte, jak efektivně integrovat bitcoin do firemní pokladny, přijímat bitcoin jako platební prostředek podle profilu vaší organizace a porozumět souvisejícím daňovým a účetním požadavkům:
+
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## Spoření s Bitcoinem
 

@@ -20,6 +20,10 @@ level: beginner
 # complete the whole course
 hours: 7
 
+# teaching_format
+# Choose between self_paced, professor_led
+teaching_format: self_paced
+
 # professors
 # List who is/are the professor(s)
 # They are identified by their UUID

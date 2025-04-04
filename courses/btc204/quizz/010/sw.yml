@@ -1,0 +1,9 @@
+question: Je, ni vigezo gani 3 vya msingi vinavyomruhusu mtu kuhakikisha kwamba anaweza kuzitumia baadaye?
+answer: Sarafu lazima iwe safi, halisi, na haipaswi kutumiwa mara mbili.
+wrong_answers:
+  - Sarafu lazima iwe ya zamani, nadra, na katika hali nzuri.
+  - Sarafu lazima ikubalike kwa wote, iwe halali na iwekwe benki.
+  - Sarafu lazima iidhinishwe na serikali, iliyosajiliwa, na ya kudumu.
+explanation: |
+  Mtu yeyote mwenye busara anayetaka kukubali sarafu, iwe ya dijitali au ya kimwili, huhakikisha kwamba haibadilishwi, kwamba ni sarafu halisi, na kwamba haiwezi kutumiwa tena na mtoaji.
+reviewed: false

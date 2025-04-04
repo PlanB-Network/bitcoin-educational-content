@@ -1,0 +1,13 @@
+question: Je, ni lengo gani la jumuiya ya Bitcoin katika suala la usimamizi wa mtandao?
+answer: Kuimarisha usambazaji, upinzani wa udhibiti, na kupambana na udhaifu wa mtandao.
+wrong_answers:
+  - Ili kuongeza bei ya Bitcoin.
+  - Kufanya miamala kwa haraka zaidi.
+  - Ili kuongeza ugumu wa Mining.
+explanation: |
+  Jumuiya ya Bitcoin inajitahidi daima kuimarisha
+  usambazaji, upinzani wa udhibiti, na kupambana na udhaifu
+  ya mtandao. Hii inaendana na msingi wa Bitcoin
+  dhamira ya kuwa thamani inayostahimili udhibiti Exchange
+  mtandao.
+reviewed: true

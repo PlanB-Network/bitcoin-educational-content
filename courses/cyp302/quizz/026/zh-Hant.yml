@@ -1,0 +1,9 @@
+question: XOR 與 modulo 運算的等效性是什麼？
+answer: XOR 等於位元上的模 2 運算
+wrong_answers:
+  - XOR 等於經典的模 3 減法
+  - XOR 等於位元上的模 7 運算
+  - XOR 是加法的逆運算
+explanation: |
+  XOR 運算可以看成是位元與模為 2 的加法，使得結果完全相同。
+reviewed: false

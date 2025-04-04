@@ -1,0 +1,9 @@
+question: 運行與 RGB 相容的 Lightning 節點需要哪些主要元件？
+answer: 一台 bitcoind、一台索引器和一台 RGB 代理伺服器
+wrong_answers:
+  - 一個 Lightning 節點、一個索引器和一個 IPFS 伺服器
+  - RGB 移動 Wallet、RGB 代理伺服器和 bitcoind
+  - Web 用戶端、索引器和 RGB 代理伺服器
+explanation: |
+  要運行一個啟用 RGB 的 Lightning 節點，您需要一個 bitcoind 節點來與 Bitcoin Blockchain 進行互動，一個索引器來挖掘 On-Chain 交易，以及一個 RGB 代理伺服器來促進同行之間的 Exchange 交託。
+reviewed: false

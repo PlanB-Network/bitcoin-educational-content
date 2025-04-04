@@ -1,0 +1,12 @@
+question: Je, kozi hii inaelezeaje Bitcoin?
+answer: Somo la fani nyingi.
+wrong_answers:
+  - Somo rahisi.
+  - Somo la kimwili.
+  - Somo la nidhamu moja.
+explanation: |
+  Bitcoin inaelezewa kama somo la fani nyingi kwa sababu
+  inazua maswali kuhusiana na nyanja mbalimbali, ikiwa ni pamoja na
+  kriptografia, nadharia ya mchezo, uchumi na sera ya fedha,
+  sayansi ya kompyuta, falsafa, nishati, sheria, na kanuni.
+reviewed: true

@@ -1,0 +1,13 @@
+question: Je, ni wasiwasi gani mkuu wa Kuingia kwa Kutumia Moja kwa Moja (SSO) inayotolewa na makampuni makubwa ya mtandao?
+answer: Inaleta matatizo katika suala la upatikanaji na hatari za udhibiti.
+wrong_answers:
+  - Ni vigumu kutumia.
+  - Inahitaji nafasi nyingi za kuhifadhi.
+  - Haioani na tovuti zote.
+explanation: |
+  Ishara-Kuwasha Moja (SSO) inayotolewa na kampuni kubwa za mtandao ina pozi
+  matatizo katika suala la upatikanaji na hatari za udhibiti.
+  Hii ni kwa sababu ikiwa mtoa huduma wa SSO atapata hitilafu
+  au kuamua kumzuia mtumiaji, mtumiaji anaweza kupoteza ufikiaji
+  huduma zote zinazotumia SSO hiyo kwa uthibitishaji.
+reviewed: true

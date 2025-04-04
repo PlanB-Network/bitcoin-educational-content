@@ -557,7 +557,7 @@ Nedenfor definerer vi flere sikkerhetsnivåer:
 
 Du kan for eksempel bruke Sparrow Wallet som en varm lommebok:
 
-https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - På nivå 2\*\* bruker du en fysisk lommebok, og du har sikret listen din med 12/24 ord. Dette kalles ofte "cold Wallet" fordi nøklene dine er lagret på en enhet som ikke er koblet til internett. I dette tilfellet må du alltid signere hver transaksjon med enheten din, noe som gjør midlene dine mindre tilgjengelige på daglig basis.
 
@@ -1048,6 +1048,7 @@ I dag fortsetter Bitcoin å overleve og vokse enda mer ved å bli integrert mer 
 
 ![image](assets/en/71.webp)
 
+
 ## Å skaffe Bitcoins ved å jobbe
 
 <chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>
@@ -1078,13 +1079,17 @@ Vi kommer til å gå nærmere inn på dette temaet i et annet kurs, men for å h
 
 - Enkel løsning på nett: OpenNode
 
-https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - Løsning for amatørselgere: Sveitsisk Bitcoin Pay
 
-https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Løsning for store strukturer eller lidenskapelige bitcoinere: BTCpay Server
+
+For å utforske dette emnet videre, anbefaler vi vårt BIZ101-kurs! Oppdag hvordan du effektivt kan integrere bitcoin i selskapets finansforvaltning, akseptere bitcoin som betalingsmiddel i henhold til organisasjonens profil, og forstå tilhørende skatte- og regnskapskrav:
+
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## Sparer med Bitcoin
 
@@ -1139,7 +1144,7 @@ Det finnes flere måter å anskaffe bitcoins på, og hver av dem er underlagt si
 
 - DCA-plattformer
 
-Som vi introduserte ovenfor, er en vanlig metode for å akkumulere bitcoins Dollar Cost Averaging (DCA), som innebærer regelmessig kjøp av små beløp. Flere plattformer tilbyr denne tjenesten, for eksempel de som er oppført på vår [dedikerte side] (https://planb.network/tutorials/exchange). I tillegg til at det er enkelt å sette opp en DCA, er uttak til lommeboken din vanligvis automatiske, noe som betyr at du alltid vil ha kontroll over eiendelene dine.
+Som vi introduserte ovenfor, er en vanlig metode for å akkumulere bitcoins Dollar Cost Averaging (DCA), som innebærer regelmessig kjøp av små beløp. Flere plattformer tilbyr denne tjenesten, for eksempel de som er oppført på vår [dedikerte side](https://planb.network/tutorials/exchange). I tillegg til at det er enkelt å sette opp en DCA, er uttak til lommeboken din vanligvis automatiske, noe som betyr at du alltid vil ha kontroll over eiendelene dine.
 
 I dag er nesten alle DCA-løsninger relativt effektive og har nesten like gebyrer, så valget vil avhenge mer av tilgjengeligheten i ditt land.
 
@@ -1167,7 +1172,7 @@ Det er viktig å erkjenne at KYC er et viktig diskusjonstema i Bitcoin-bransjen.
 
 ### Ikke-KYC løsninger
 
-I tillegg finnes det flere [markedsplasser] (https://planb.network/tutorials/exchange) hvor du kan kjøpe og selge bitcoins i en peer-to-peer-utveksling. Generelt bør du vurdere følgende:
+I tillegg finnes det flere [markedsplasser](https://planb.network/tutorials/exchange) hvor du kan kjøpe og selge bitcoins i en peer-to-peer-utveksling. Generelt bør du vurdere følgende:
 
 - Bitcoin-minibanker
 - Fysiske møter med andre bitcoin-entusiaster

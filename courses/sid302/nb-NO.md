@@ -111,7 +111,4 @@ Antonio presenterer Breeze, et SDK med åpen kildekode som er utviklet for desen
 ## Konklusjon
 
 <chapterId>e30a5587-d74b-4360-87fb-bbf3de1b0ba8</chapterId>
-
-Gratulerer med fullført kurs!
-
-Vi er glade for at du har nådd denne milepælen i din læringsreise. Gjennom ditt engasjement har du tilegnet deg verdifull kunnskap og ferdigheter som du vil ha god nytte av i din videre profesjonelle utvikling.
+<isCourseConclusion>true</isCourseConclusion>

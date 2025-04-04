@@ -1,0 +1,9 @@
+question: Kuna tofauti gani kati ya ufunguo wa kawaida wa mtoto na ufunguo mgumu wa mtoto?
+answer: Ufunguo mgumu wa mtoto unahitaji ufunguo wa faragha wa mzazi ili uutoe.
+wrong_answers:
+  - Ufunguo wa kawaida wa mtoto hauwezi kutoka kwa funguo za umma.
+  - Kitufe kigumu cha mtoto hutumia faharasa isiyo ya kawaida.
+  - Ufunguo wa kawaida wa mtoto ni salama zaidi kuliko ufunguo mgumu wa mtoto.
+explanation: |
+  Ufunguo wa kawaida wa mtoto unaweza kutolewa kutoka kwa ufunguo wa umma wa mzazi, tofauti na ufunguo mgumu wa mtoto ambao unahitaji ufunguo wa faragha wa mzazi.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mabadiliko yanawakilisha nini katika muamala?
+answer: Toleo ambalo linarudi kwa mtumaji asili wa muamala.
+wrong_answers:
+  - Ada inayochukuliwa na mtandao wa Bitcoin.
+  - Toleo lililotumwa kwa mpokeaji wa muamala.
+  - Bonasi itakayotolewa kwa mtumaji kwa miamala ya haraka.
+explanation: |
+  Mabadiliko ni matokeo ambayo yanawakilisha sehemu ya pembejeo ambayo haijatumiwa kutimiza malipo, na hivyo kurudi kwa mtumaji asili wa muamala.
+reviewed: false

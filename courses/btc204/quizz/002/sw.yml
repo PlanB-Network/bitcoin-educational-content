@@ -1,0 +1,9 @@
+question: Je! ni hatua gani ya muamala wa Bitcoin kwenye pembejeo za UTXO?
+answer: Inazitumia kukidhi matokeo.
+wrong_answers:
+  - Inaziweka kwenye kumbukumbu katika Blockchain kwa marejeleo ya baadaye.
+  - Huzisimba kwa njia fiche ili kulinda muamala.
+  - Huzinakili ili kuunda UTXO mpya.
+explanation: |
+  UTXO za pembejeo katika muamala hutumiwa ili kufadhili matokeo. Ni, kwa njia fulani, chanzo cha pesa.
+reviewed: false

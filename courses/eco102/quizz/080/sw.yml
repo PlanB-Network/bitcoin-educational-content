@@ -1,0 +1,8 @@
+question: Kwa Frédéric Bastiat, je, uovu una jukumu katika historia ya mwanadamu?
+answer: Ndiyo, uovu si uhalisi dhahiri tu bali pia una jukumu la kutekeleza katika historia na katika matendo ya mwanadamu.
+wrong_answers:
+  - La, ni lazima uovu uondolewe ili kukomesha kuteseka kwa wanadamu.
+  - Hapana, uovu sio shida, kwa sababu wazo la uhuru haliwezi kuzuiwa nalo.
+  - Hapana, ni muhimu kutokubali uovu kuwa ukweli.
+explanation: |
+  Kwa Bastiat, uovu sio tu ukweli usioepukika lakini pia ni kipengele ambacho kina jukumu maalum katika mageuzi ya binadamu na kijamii, kwani inaruhusu watu binafsi kujifunza na maendeleo.

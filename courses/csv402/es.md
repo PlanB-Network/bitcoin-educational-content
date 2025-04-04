@@ -311,15 +311,11 @@ La siguiente comparación ayuda a comprender este principio:
 - Sello de tiempo (blockchain)**: Al insertar este hash en la blockchain, también demostramos que lo conocimos en un momento preciso (el de la inclusión en un bloque);
 - Precinto de un solo uso**: Con los sellos de un solo uso, vamos un paso más allá haciendo que el compromiso sea único. Con un único hash, se pueden crear varios compromisos contradictorios en paralelo (el problema del médico que anuncia "*Es un niño*" a la familia y "*Es una niña*" en su diario personal). El sello de un solo uso elimina esta posibilidad conectando el compromiso a un medio de prueba de publicación, como la blockchain de Bitcoin, de modo que un gasto de UTXO sella definitivamente el compromiso. Una vez gastado, el mismo UTXO no puede volver a gastarse para sustituir el compromiso.
 
-| Sellos de un solo uso Marcas de tiempo Compromiso simple (digest/hash) Sellos de un solo uso
-
-| -------------------------------------------------------------------------------- | ------------------------------- | ---------- | ---------------- |
-
-| La publicación del compromiso no revela el mensaje | Sí | Sí | Sí | Sí
-
-| Prueba de la fecha del compromiso / existencia del mensaje antes de una fecha determinada | Imposible | Posible | Posible | Posible
-
-| Prueba de que no puede existir otro compromiso alternativo | Imposible | Posible |
+|                                                                                  | Compromiso simple (digest/hash) | Timestamps | Sellos de un solo uso |
+| -------------------------------------------------------------------------------- | ------------------------------- | ---------- | ---------------------- |
+| La publicación del compromiso no revela el mensaje                              | Sí                              | Sí         | Sí                     |
+| Prueba de la fecha del compromiso / existencia del mensaje antes de una fecha  | Imposible                       | Posible    | Posible                |
+| Prueba de que no puede existir ningún otro compromiso alternativo               | Imposible                       | Imposible  | Posible                 |
 
 Los precintos de un solo uso funcionan en tres etapas principales:
 
@@ -461,17 +457,12 @@ Mientras trabajábamos en RGB, identificamos al menos 4 formas diferentes de imp
 - Defina el sello mediante el valor de una clave pública y ciérrelo en un _input_ ;
 - Defina el sello mediante un _punto de salida_, y ciérrelo en un _punto de entrada_.
 
-| Definición del precinto | Cierre del precinto | Requisitos adicionales | Aplicación principal | Posibles esquemas de compromiso
-
-| ------------- | ------------------------- | --------------------- | ----------------------------------------------------------------- | ---------------------------- | ------------------------------ |
-
-| P2(W)PKH | Ninguno por el momento | Keytweak, taptweak, opret |
-
-| TxO2 | Salida de transacciones | Requiere compromisos deterministas en Bitcoin | RGBv1 (universal) | Keytweak, tapret, opret |
-
-| PkI | Valor de clave pública | Entrada de transacciones | Taproot only & not compatible with Legacy wallets | Identidades basadas en Bitcoin | Sigtweak, witweak |
-
-| TxO1 | Salida de transacciones | Entrada de transacciones | Sólo Taproot & no compatible con billeteras Legacy | Ninguna por el momento | Sigtweak, witweak |
+| Nombre del esquema | Definición del sello     | Cierre del sello        | Requisitos adicionales                                         | Aplicación principal        | Esquemas de compromiso posibles |
+| ------------------ | ------------------------ | ----------------------- | -------------------------------------------------------------- | --------------------------- | -------------------------------- |
+| PkO                | Valor de la clave pública | Salida de transacción   | P2(W)PKH                                                       | Ninguna por el momento      | Keytweak, taptweak, opret       |
+| TxO2               | Salida de transacción     | Salida de transacción   | Requiere compromisos deterministas en Bitcoin                  | RGBv1 (universal)           | Keytweak, tapret, opret         |
+| PkI                | Valor de la clave pública | Entrada de transacción  | Solo Taproot & no compatible con carteras legacy               | Identidades basadas en Bitcoin | Sigtweak, witweak              |
+| TxO1               | Salida de transacción     | Entrada de transacción  | Solo Taproot & no compatible con carteras legacy               | Ninguna por el momento      | Sigtweak, witweak               |
 
 No entraremos en detalle en cada una de estas configuraciones, ya que en RGB hemos optado por utilizar **un _outpoint_ como definición del sello**, y situar el _commitment_ en la salida de la transacción gastando este _outpoint_. Por lo tanto, podemos introducir los siguientes conceptos para la secuela:
 
@@ -741,79 +732,56 @@ Cuando iniciamos RGB, revisamos todos estos métodos para determinar dónde y c�
 - Dificultad de aplicación y mantenimiento ;
 - Confidencialidad y resistencia a la censura.
 
-| Dimensionamiento en la cadena | Dimensionamiento en el lado del cliente | Integración de la cartera | Compatibilidad con hardware | Compatibilidad con Lightning | Compatibilidad con Taproot |
+| Método                                            | Rastro y tamaño on-chain | Tamaño en cliente | Integración de monederos | Compatibilidad de hardware | Compatibilidad Lightning | Compatibilidad Taproot |
+| ------------------------------------------------- | ----------------------- | ----------------- | ------------------------ | ------------------------- | ---------------------- | --------------------- |
+| Keytweak (P2C determinista)                      | 🟢                      | 🟡                 | 🔴                         | 🟠                         | 🔴 BOLT, 🔴 Bifrost     | 🟠 Taproot, 🟢 MuSig  |
+| Sigtweak (S2C determinista)                      | 🟢                      | 🟢                 | 🟠                         | 🔴                         | 🔴 BOLT, 🔴 Bifrost     | 🟠 Taproot, 🔴 MuSig  |
+| Opret (OP_RETURN)                                | 🔴                      | 🟢                 | 🟢                         | 🟠                         | 🔴 BOLT, 🟠 Bifrost     | -                     |
+| Algoritmo Tapret: nodo superior izquierdo        | 🟠                      | 🔴                 | 🟠                         | 🟢                         | 🔴 BOLT, 🟢 Bifrost     | 🟢 Taproot, 🟢 MuSig  |
+| Algoritmo Tapret #4: cualquier nodo + prueba     | 🟢                      | 🟠                 | 🟠                         | 🟢                         | 🔴 BOLT, 🟢 Bifrost     | 🟢 Taproot, 🟢 MuSig  |
 
-| --------------------------------------------------- | ------------------------ | ------------------ | ----------------------------- | ------------------------ | ----------------------- | --------------------- |
+| Esquema de compromiso determinista                            | Estándar       | Costo en la cadena                                                                                                     | Tamaño de la prueba en el cliente                                                                               |
+| ------------------------------------------------------------- | -------------- | --------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| Keytweak (P2C determinista)                                   | LNPBP-1, 2     | 0 bytes                                                                                                               | 33 bytes (clave no modificada)                                                                                   |
+| Sigtweak (S2C determinista)                                   | WIP (LNPBP-39) | 0 bytes                                                                                                               | 0 bytes                                                                                                          |
+| Opret (OP_RETURN)                                             | -              | 36 (v)bytes (TxOut adicional)                                                                                         | 0 bytes                                                                                                          |
+| Algoritmo Tapret: nodo superior izquierdo                     | LNPBP-6        | 32 bytes en el testigo (8 vbytes) en cualquier multisig n-of-m y gasto a través de la ruta de script                | 0 bytes en scriptless scripts taproot ~270 bytes en un caso de script único, ~128 bytes si hay múltiples scripts |
+| Algoritmo Tapret #4: cualquier nodo + prueba de unicidad      | LNPBP-6        | 32 bytes en el testigo (8 vbytes) para casos de script único, 0 bytes en el testigo en la mayoría de los otros casos | 0 bytes en scriptless scripts taproot, 65 bytes hasta que el Taptree tenga una docena de scripts                 |
 
-| Keytweak (deterministic P2C) | 🟢 | 🟡 | 🔴 | 🟠 | 🔴 BOLT, 🔴 Bifrost | 🟠 Taproot, 🟢 MuSig |
-
-| Sigtweak (S2C determinista) | 🟢 | 🟠 | 🔴 | 🔴 BOLT, 🔴 Bifrost | 🟠 Taproot, 🔴 MuSig |
-
-| Opret (OP_RETURN) | 🔴 | 🟢 | 🟢 | 🟠 | 🔴 BOLT, 🟠 Bifrost | - | |
-
-| Algoritmo Tapret: nodo superior izquierdo | 🟠 | 🔴 | 🟠 | 🟢 | 🔴 BOLT, 🟢 Bifrost | 🟢 Taproot, 🟢 MuSig |
-
-| Algoritmo Tapret #4: cualquier nodo + prueba | 🟢 | 🟠 | 🟢 | 🔴 BOLT, 🟢 Bifrost | 🟢 Taproot, 🟢 MuSig |
-
-| Esquema de compromiso determinista | Estándar | Coste en la cadena | Tamaño de las pruebas del lado del cliente |
-
-| ------------------------------------------------------------- | -------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-
-| LNPBP-1, 2 0 bytes 33 bytes (clave sin ajustar)
-
-| Sigtweak (deterministic S2C) | WIP (LNPBP-39) | 0 bytes | 0 bytes |
-
-| Opret (OP_RETURN) | - | 36 (v)bytes (TxOut adicional) | 0 bytes |
-
-| Algoritmo Tapret: nodo superior izquierdo | LNPBP-6 | 32 bytes en testigo (8 vbytes) en cualquier multisig n-de-m y gastar por ruta de script | 0 bytes en scripts taproot scriptless ~270 bytes en un caso de script único, ~128 bytes si más de un script |
-
-| Algoritmo Tapret #4: cualquier nodo + prueba de unicidad | LNPBP-6 | 32 bytes en el testigo (8 vbytes) para casos de un único script, 0 bytes en el testigo en la mayoría de los demás casos | 0 bytes en scripts sin script taproot, 65 bytes hasta que el Taptree tenga una docena de scripts |
-
-| Capa | Coste de la cadena (bytes/vbytes) | Coste de la cadena (bytes/vbytes) | Coste de la cadena (bytes/vbytes) | Coste de la cadena (bytes/vbytes) | Coste de la cadena (bytes/vbytes) | Coste del lado del cliente (bytes) | Coste del lado del cliente (bytes) | Coste del lado del cliente (bytes) | Coste del lado del cliente (bytes) | Coste del lado del cliente (bytes) |
-
+| Capa                           | Costo on-chain (bytes/vbytes) | Costo on-chain (bytes/vbytes) | Costo on-chain (bytes/vbytes) | Costo on-chain (bytes/vbytes) | Costo on-chain (bytes/vbytes) | Costo lado cliente (bytes) | Costo lado cliente (bytes) | Costo lado cliente (bytes) | Costo lado cliente (bytes) | Costo lado cliente (bytes) |
 | ------------------------------ | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- | ------------------------ | ------------------------ | ------------------------ | ------------------------ | ------------------------ |
+| **Tipo**                       | **Tapret**                   | **Tapret #4**                | **Keytweak**                 | **Sigtweak**                 | **Opret**                    | **Tapret**               | **Tapret #4**            | **Keytweak**             | **Sigtweak**             | **Opret**                |
+| Single-sig                     | 0                            | 0                            | 0                            | 0                            | 32                           | 0                        | 0                        | 32                       | 0?                       | 0                        |
+| MuSig (n-of-n)                 | 0                            | 0                            | 0                            | 0                            | 32                           | 0                        | 0                        | 32                       | ? > 0                    | 0                        |
+| Multi-sig 2-de-3               | 32/8                         | 32/8 o 0                     | 0                            | n/a                          | 32                           | ~270                     | 65                       | 32                       | n/a                      | 0                        |
+| Multi-sig 3-de-5               | 32/8                         | 32/8 o 0                     | 0                            | n/a                          | 32                           | ~340                     | 65                       | 32                       | n/a                      | 0                        |
+| Multi-sig 2-de-3 con timeouts  | 32/8                         | 0                            | 0                            | n/a                          | 32                           | 64                       | 65                       | 32                       | n/a                      | 0                        |
 
-| **Type** | **Tapret** | **Tapret #4** | **Keytweak** | **Sigtweak** | **Opret** | **Tapret** | **Tapret #4** | **Keytweak** | **Sigtweak** | **Opret** |
 
-| Single-sig | 0 | 0 | 0 | 0 | 32 | 0 | 0 | 32 | 0? | 0 | 0 |
-
-| MuSig (n-de-n) | 0 | 0 | 0 | 32 | 0 | 0 | 32 | ? > 0 | 0 |
-
-| Multi-sig 2-de-3 | 32/8 | 32/8 o 0 | 0 n/a | 32 | ~270 | 65 | 32 | n/a | 0 |
-
-| Multi-sig 3-de-5 | 32/8 | 32/8 o 0 | 0 n/a | 32 | ~340 | 65 | 32 | n/a | 0 |
-
-| Multi-sig 2-de-3 con tiempos de espera | 32/8 | 0 | 0 n/a | 32 | 64 | 65 | 32 | n/a | 0 | 0
-
-| Capa | Coste en cadena (vbytes) | Coste en cadena (vbytes) | Coste en cadena (vbytes) | Coste en el lado del cliente (bytes) | Coste en el lado del cliente (bytes) |
-
+| Capa                            | Costo on-chain (vbytes) | Costo on-chain (vbytes) | Costo on-chain (vbytes) | Costo lado cliente (bytes) | Costo lado cliente (bytes) |
 | -------------------------------- | ---------------------- | ---------------------- | ---------------------- | ------------------------ | ------------------------ |
+| **Tipo**                         | **Base**               | **Tapret #2**          | **Tapret #4**          | **Tapret #2**            | **Tapret #4**            |
+| MuSig (n-of-n)                   | 16.5                   | 0                      | 0                      | 0                        | 0                        |
+| FROST (n-of-m)                   | ?                      | 0                      | 0                      | 0                        | 0                        |
+| Multi_a (n-of-m)                 | 1+16n+8m               | 8                      | 8                      | 33 * m                   | 65                       |
+| Rama MuSig / Multi_a (n-of-m)     | 1+16n+8n+8xlog(n)      | 8                      | 0                      | 64                       | 65                       |
+| Con timeouts (n-of-m)            | 1+16n+8n+8xlog(n)      | 8                      | 0                      | 64                       | 65                       |
 
-| **Tipo** | **Base** | **Tapret #2** | **Tapret #4** | **Tapret #2** | **Tapret #4** |
+| Método                                   | Privacidad y escalabilidad | Interoperabilidad | Compatibilidad | Portabilidad | Complejidad |
+| ---------------------------------------- | ------------------------- | ---------------- | ------------- | ----------- | ---------- |
+| Keytweak (P2C determinista)              | 🟢                         | 🔴               | 🔴            | 🟡          | 🟡         |
+| Sigtweak (S2C determinista)              | 🟢                         | 🔴               | 🔴            | 🟢          | 🔴         |
+| Opret (OP_RETURN)                         | 🔴                         | 🟠               | 🔴            | 🟢          | 🟢         |
+| Algo Tapret: Nodo superior izquierdo      | 🟠                         | 🟢               | 🟢            | 🔴          | 🟠         |
+| Algo Tapret #4: Cualquier nodo + prueba  | 🟢                         | 🟢               | 🟢            | 🟠          | 🔴         |
 
-| MuSig (n-de-n) | 16,5 | 0 | 0 | 0 | 0 | 0
 
-| FROST (n-de-m) | ? | 0 | 0 | 0 | 0 |
 
-| Multi_a (n-de-m) | 1+16n+8m | 8 | 8 | 33 * m | 65 |
 
-| MuSig rama / Multi_a (n-de-m) | 1+16n+8n+8xlog(n) | 8 | 0 | 64 | 65 |
 
-| Con tiempos de espera (n-de-m) | 1+16n+8n+8xlog(n) | 8 | 0 | 64 | 65 |
 
-| Método | Confidencialidad y escalabilidad | Interoperabilidad | Compatibilidad | Portabilidad | Complejidad
 
-| ----------------------------------------- | ------------------------------ | ---------------- | ------------- | ----------- | ---------- |
 
-| Keytweak (deterministic P2C) | 🟢 | 🔴 | 🔴 | 🟡 | 🟡 | 🟡
-
-| Sigtweak (S2C determinista) | 🟢 | 🔴 | 🔴 | 🟢 | 🔴 | 🔴 |
-
-| Opret (OP_RETURN) | 🔴 | 🟠 | 🔴 | 🟢 | 🟢 | 🟢
-
-| Algo Tapret: nodo superior izquierdo | 🟠 | 🟢 | 🔴 | 🟠 | 🟠
-
-| Algo Tapret #4: Cualquier nodo + prueba | 🟢 | 🟢 | 🟠 | 🔴 |
 
 En el transcurso del estudio, quedó claro que ninguno de los esquemas de compromiso era totalmente compatible con el actual estándar Lightning (que no emplea Taproot, _muSig2_ ni soporte adicional de _commitment_). Se está intentando modificar la construcción de canales de Lightning (*BiFrost*) para permitir la inserción de compromisos RGB. Esta es otra área en la que necesitamos revisar la estructura de la transacción, las claves y la forma en que se firman las actualizaciones del canal.
 
@@ -1401,19 +1369,14 @@ Si, en el contrato, un elemento de estado no se define como mutable o acumulativ
 
 La tabla siguiente ilustra cómo cada tipo de Operación de contrato puede manipular (o no) el Estado global y el Estado propio:
 
-| Génesis | Extensión de estado | Transición de estado |
+|                              | Génesis | Extensión de Estado | Transición de Estado |
+| ---------------------------- | :-----: | :-----------------: | :------------------: |
+| **Adición de Global State**  |    +    |         -         |          +          |
+| **Mutación de Global State** |   n/a   |         -         |          +          |
+| **Adición de Owned State**   |    +    |         -         |          +          |
+| **Mutación de Owned State**  |   n/a   |        No         |          +          |
+| **Adición de Valencies**     |    +    |         +         |          +          |
 
-| ---------------------------- | :-----: | :-------------: | :--------------: |
-
-| **Añadir Estado Global** | + | - | + |
-
-| n/a | - | + | **Mutación del Estado Global** | - | + |
-
-| **Añadir Estado Propio** | + | - | + |
-
-| **Mutación de Estado Propio** | n/a | No | + |
-
-| **Añadir Valencias** | + | + | + | + |
 
 **`+`** : acción posible si el Esquema del contrato lo permite.
 
@@ -1421,15 +1384,12 @@ La tabla siguiente ilustra cómo cada tipo de Operación de contrato puede manip
 
 Además, el ámbito temporal y los derechos de actualización de cada tipo de datos pueden distinguirse en la siguiente tabla:
 
-| Metadatos | Estado Global | Estado Propio |
+|                                 | Metadatos                                | Estado Global                                 | Estado Propietario                                                                                        |
+| ------------------------------- | ---------------------------------------- | --------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| **Alcance**                     | Definido para una única operación de contrato | Definido globalmente para el contrato       | Definido para cada sello (*Assignment*)                                                                  |
+| **¿Quién puede actualizarlo?**  | No actualizable (datos efímeros)        | Operación emitida por los actores (emisor, etc.) | Depende del poseedor legítimo que tiene el sello (quien puede gastarlo en una transacción posterior)     |
+| **Alcance temporal**            | Solo para la operación actual           | El estado se establece al final de la operación | El estado se define antes de la operación (por la *Seal Definition* de la operación anterior)           |
 
-| ------------------------------- | ---------------------------------------- | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-
-| Definido para una única Operación de Contrato | Definido globalmente para el contrato | Definido para cada sello (*Asignación*) | Definido para una única Operación de Contrato | Definido globalmente para el contrato | Definido para cada sello (*Asignación*) | Definido para cada contrato
-
-| No actualizable (datos efímeros) | Transacción emitida por actores (emisor, etc.) | Depende del titular legítimo del sello (el que puede gastarlo en una transacción posterior) | Transacción emitida por actores (emisor, etc.) | Depende del titular legítimo del sello (el que puede gastarlo en una transacción posterior) | Transacción emitida por actores (emisor, etc.)
-
-| El estado se define antes de la operación (por la *Seal Definition* de la operación anterior) | El estado se establece al final de la operación
 
 ### Estado mundial
 
@@ -1545,17 +1505,13 @@ Attachments        | |     Tagged Hash      | | <========== | | File Hash | | Me
 +--------------------------+             +---------------------------------------+
 ```
 
-| **Declarativo** | **Fungible** | **Estructurado** | **Anexos** |
+| **Elemento**        | **Declarativo**  | **Fungible**                         | **Estructurado**               | **Adjuntos**                   |
+| ------------------- | -------------- | ------------------------------------ | ----------------------------- | ----------------------------- |
+| **Datos**          | Ninguno        | Entero de 64 bits firmado o sin firmar | Cualquier tipo de datos estrictos | Cualquier archivo             |
+| **Tipo de info**   | Ninguno        | Firmado o sin firmar                 | Tipos estrictos                | Tipo MIME                      |
+| **Privacidad**     | No requerida   | Pedersen commitment                   | Hash con blinding              | Identificador de archivo hasheado |
+| **Límites de tamaño** | N/A        | 256 bytes                             | Hasta 64 KB                     | Hasta ~500 GB                  |
 
-| --------------------- | -------------- | ------------------------------------ | ----------------------------- | ---------------------------- |
-
-| Ninguno | Entero con signo o sin signo de 64 bits | Cualquier tipo de dato estricto | Cualquier archivo |
-
-| Tipo de información** | Ninguno | Con signo o sin signo | Tipos estrictos | Tipo MIME |
-
-| Compromiso de Pedersen | Hashing con cegamiento | Hashed file ID
-
-| Límites de tamaño** | N/A | 256 bytes | Hasta 64 KB | Hasta ~500 Gb |
 
 ### Entradas
 
@@ -2000,17 +1956,13 @@ Es importante tener en cuenta que para que un monedero pueda gestionar un activo
 
 Para ayudar a aclarar estas nociones, he aquí una tabla resumen que compara los componentes de un contrato RGB con conceptos ya conocidos en la programación orientada a objetos (POO) o en el ecosistema Ethereum:
 
-| Componente de Contrato RGB | Significado | Equivalente OOP | Equivalente Ethereum |
+| Componente del contrato RGB  | Significado                          | Equivalente OOP                            | Equivalente en Ethereum           |
+| ---------------------------- | ----------------------------------- | ------------------------------------------ | --------------------------------- |
+| **Genesis**                  | Estado inicial del contrato        | Constructor de clase                      | Constructor del contrato          |
+| **Schema**                   | Lógica de negocio del contrato     | Clase                                     | Contrato                          |
+| **Interface**                | Semántica del contrato             | Interfaz (Java) / trait (Rust) / protocolo (Swift) | Estándar ERC                     |
+| **Interface Implementation** | Mapeo de la semántica y la lógica  | Impl (Rust) / Implements (Java)           | Application Binary Interface (ABI) |
 
-| ---------------------------- | --------------------------------------- | -------------------------------------------------- | ---------------------------------- |
-
-| Constructor de clase | Constructor de contrato | Estado inicial del contrato
-
-| Clase | Lógica empresarial contractual
-
-| Semántica contractual | Interfaz (Java) / rasgo (Rust) / protocolo (Swift) | Norma ERC |
-
-| Application Binary Interface (ABI) | Impl (Rust) / Implements (Java) | Mapeo de semántica y lógica
 
 La columna de la izquierda muestra los elementos específicos del protocolo RGB. La columna central muestra la función concreta de cada componente. A continuación, en la columna "Equivalente OOP", encontramos el término equivalente en programación orientada a objetos:
 

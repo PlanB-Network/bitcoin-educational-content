@@ -1,0 +1,9 @@
+question: Je, madhumuni ya Sheria kulingana na Bastiat yanapaswa kuwa nini?
+answer: Ili kukomesha uporaji wote.
+wrong_answers:
+  - Ili kusawazisha uhusiano wa nguvu.
+  - Kwa generate vifungo vya kijamii.
+  - Kukuza usawa kupitia haki za ugawaji upya.
+explanation: |
+  Kwa Bastiat, Sheria inapaswa kulinda tu haki za asili kwa kuzuia aina yoyote ya uporaji, hivyo kuhakikisha haki ya haki kwa wote.
+reviewed: false

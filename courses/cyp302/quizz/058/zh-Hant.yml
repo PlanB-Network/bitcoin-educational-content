@@ -1,0 +1,9 @@
+question: 化學家為何要使用群理論？
+answer: 將分子的形狀分類
+wrong_answers:
+  - 分析化學鍵
+  - 計算分子質量
+  - 預測化學反應
+explanation: |
+  群理論可讓化學家根據分子的對稱性對分子形狀進行分類，這有助於理解分子的結構特性。
+reviewed: false

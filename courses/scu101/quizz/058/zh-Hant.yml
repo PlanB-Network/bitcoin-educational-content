@@ -1,0 +1,10 @@
+question: 網路安全使用的工具有哪些？
+answer: Wireshark、Metasploit、Nmap
+wrong_answers:
+  - Photoshop、Illustrator、InDesign
+  - Excel、PowerPoint、Word
+  - AutoCAD、SolidWorks、Revit
+explanation: |
+  本章列出了一些 Wireshark、Metasploit 和 Nmap
+  的網路安全工具。
+reviewed: true

@@ -1,0 +1,9 @@
+question: Kwa nini usimbaji fiche wa shift unazingatiwa kuwa usimbaji fiche linganifu?
+answer: Kwa sababu ufunguo huo hutumiwa kwa usimbaji fiche na usimbuaji
+wrong_answers:
+  - Kwa sababu hutumia funguo mbili, za umma na za faragha
+  - Kwa sababu inasimbua bila kutumia kitufe
+  - Kwa sababu ufunguo hutofautiana kwa kila usimbaji fiche
+explanation: |
+  Usimbaji fiche wa Shift huchukuliwa kuwa usimbaji linganifu kwa sababu hutumia ufunguo sawa kusimba na kusimbua ujumbe, hivyo basi kuhakikisha usiri kati ya wahusika wanaoshiriki ufunguo huu.
+reviewed: false

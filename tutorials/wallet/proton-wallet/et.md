@@ -14,7 +14,7 @@ Selle rahakoti eripära on võimalus saata bitcoine, kasutades saaja e-posti aad
 
 Proton Walleti kasutamiseks on vaja Proton-kontot. Selle saate luua tasuta, järgides selle Proton-postkasti loomisele pühendatud õpetuse esimesi samme (ainult jaotis "*Proton-konto loomine*"). Kui teie konto on loodud, võite jätkata selle õpetuse ülejäänud osaga.
 
-https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Ühendage Proton Walletiga
 

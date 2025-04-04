@@ -1,0 +1,9 @@
+question: Ni hatari gani iliyoripotiwa na ArtForz mnamo Julai 28, 2010, iliruhusu matumizi ya bitcoins kutoka kwa Address yoyote kwa kutumia hati mahususi?
+answer: Hitilafu 1 ya KURUDISHA
+wrong_answers:
+  - Hitilafu ya thamani iliyozidi
+  - Hitilafu ya OP_NOP
+  - Mdudu wa LSHIFT
+explanation: |
+  dosari haikutumiwa. Satoshi ilijumuisha urekebishaji haraka katika programu na ilipendekeza watumiaji wote kuboresha.
+reviewed: false

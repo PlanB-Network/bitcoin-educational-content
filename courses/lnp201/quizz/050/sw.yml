@@ -1,0 +1,9 @@
+question: Kwa nini muuzaji anaweza kufanya malipo ya uwongo katika kituo?
+answer: Ili kuhamisha ukwasi kwa upande mwingine
+wrong_answers:
+  - Ili kupunguza ada za uelekezaji
+  - Kuongeza uwezo wa jumla wa chaneli zao
+  - Kufunga fedha kwa muda mrefu
+explanation: |
+  Kwa kufanya malipo ya uwongo, muuzaji huhamisha ukwasi kutoka upande wake hadi upande mwingine wa kituo, na hivyo basi kuongeza uwezo unaoingia wa kupokea malipo.
+reviewed: false

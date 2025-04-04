@@ -1,0 +1,9 @@
+question: Kwa nini mifano ya kriptografia mara nyingi hutumia wahusika Alice na Bob?
+answer: Ili kuonyesha kanuni za kriptografia kwa njia iliyorahisishwa
+wrong_answers:
+  - Kwa sababu Alice na Bob ni maneno ya kiufundi katika cryptography
+  - Kwa sababu ni majina ya kawaida duniani
+  - Kwa sababu wanawakilisha mifumo ya kompyuta
+explanation: |
+  Alice na Bob hutumiwa sana katika usimbaji fiche kama herufi za kubuniwa ili kuonyesha ubadilishanaji wa ujumbe na kanuni za kriptografia katika muktadha uliorahisishwa na wa mpangilio.
+reviewed: false

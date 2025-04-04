@@ -557,7 +557,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 Например, вы можете использовать Sparrow Wallet в качестве горячего кошелька:
 
-https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - Уровень 2\*\*, вы используете физический кошелек и защитили свой список из 12/24 слов. Его часто называют "холодным кошельком", поскольку ваши ключи хранятся на устройстве, не подключенном к интернету. В этом случае вам придется подписывать каждую транзакцию с помощью своего устройства, что делает ваши средства менее доступными на ежедневной основе.
 
@@ -1078,13 +1078,17 @@ https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 - Простое онлайн-решение: OpenNode
 
-https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - Решение для торговцев-любителей: Swiss Bitcoin Pay
 
-https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Решение для крупных структур или увлеченных биткоинщиков: Сервер BTCpay
+
+Чтобы подробнее изучить эту тему, мы рекомендуем наш курс BIZ101! Узнайте, как эффективно интегрировать биткоин в казначейство вашей компании, принимать биткоин в качестве платежного средства в соответствии с профилем вашей организации и понимать связанные с этим налоговые и бухгалтерские требования:
+
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## Экономия с помощью биткойна
 

@@ -1,0 +1,9 @@
+question: Bitcoin 通訊協定使用哪一種橢圓曲線？
+answer: secp256k1
+wrong_answers:
+  - secp256r1
+  - ed25519
+  - P-384
+explanation: |
+  Bitcoin 使用由等式 y² = x³ + 7 定義的 secp256k1 曲線進行加密運算。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Dhana ya eCash ya David Chaum ilitekelezwa mwaka gani?
+answer: 1994
+wrong_answers:
+  - 1993
+  - 1995
+  - 1996
+explanation: |
+  Ilitekelezwa kwa mara ya kwanza na cypherpunks mnamo Februari, kabla ya kujaribiwa na DigiCash kupitia utoaji wa CyberBucks mnamo Oktoba.
+reviewed: false

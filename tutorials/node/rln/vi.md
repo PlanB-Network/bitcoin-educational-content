@@ -372,4 +372,4 @@ If you found this tutorial useful, I'd be very grateful if you put a green thumb
 
 I also recommend this other tutorial in which I explain how to use the RGB CLI tool developed by the LNP/BP association to create an RGB contract:
 
-https://planb.network/tutorials/node/rgb/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4
+https://planb.network/tutorials/node/others/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4

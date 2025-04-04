@@ -1,0 +1,11 @@
+question: Bitcoin inatoa nini kwa kila mtu binafsi?
+answer: Nafasi ya kutoka kwa mfumo wa jadi wa kifedha
+wrong_answers:
+  - Nafasi ya kuwa tajiri haraka
+  - Nafasi ya kuwekeza katika hisa
+  - Nafasi ya kufungua akaunti ya benki
+explanation: |
+  Sura hiyo inasema kwamba Bitcoin inampa kila mtu nafasi ya kuondoka
+  mfumo wa fedha wa jadi. Ni chaguo la kimaadili ambalo kila mtu anaweza
+  inabidi kufanya siku moja.
+reviewed: false

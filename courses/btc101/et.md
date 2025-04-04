@@ -557,7 +557,7 @@ Järgnevalt määratleme mitu turvataset:
 
 Näiteks võite kasutada Sparrow rahakotti kuuma rahakotina:
 
-https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - Tase 2\*\*, te kasutate füüsilist rahakotti ja olete kindlustanud oma nimekirja 12/24 sõnaga. Seda nimetatakse sageli "külmaks rahakotiks", sest teie võtmeid hoitakse seadmes, mis ei ole ühendatud internetti. Sellisel juhul peate alati iga tehingu oma seadmega allkirjastama, mis muudab teie raha igapäevaselt vähem kättesaadavaks.
 
@@ -1048,6 +1048,7 @@ Tänapäeval jätkab Bitcoin ellujäämist ja kasvamist veelgi enam, integreerud
 
 ![image](assets/en/71.webp)
 
+
 ## Bitcoins saamine töötades
 
 <chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>
@@ -1078,13 +1079,17 @@ Me käsitleme seda teemat üksikasjalikult mõnel teisel kursusel, kuid et asi o
 
 - Lihtne veebipõhine lahendus: OpenNode
 
-https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - Lahendus amatöörkaupmeestele: Šveitsi Bitcoin Pay
 
-https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Lahendus suurtele struktuuridele või kirglikele bitcoin'ile: BTCpay Server
+
+Selle teema paremaks mõistmiseks soovitame meie koolitust BIZ101! Avastage, kuidas tõhusalt integreerida bitcoin oma ettevõtte rahandusse, aktsepteerida bitcoin maksevahendina vastavalt teie organisatsiooni profiilile ja mõista sellega seotud maksundus- ja raamatupidamisnõudeid:
+
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## Säästmine Bitcoiniga
 

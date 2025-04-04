@@ -1,0 +1,14 @@
+question: Je, ni aina gani kuu za stablecoins zilizotajwa katika maandishi?
+answer: sarafu zinazoungwa mkono na Fiat, zinazoungwa mkono na bidhaa na algoriti.
+wrong_answers:
+  - Digital na kimwili stablecoins
+  - stablecoins ya kati na madaraka
+  - Stablecoins zinazoungwa mkono na benki na stablecoins zinazoungwa mkono na watu binafsi
+explanation: |
+  Katika sura zilizopita tumeona aina tatu kuu za sarafu za sarafu;
+  stablecoins zinazoungwa mkono na fiat, ambazo zinaungwa mkono na sarafu za jadi
+  kama dola ya Marekani; stablecoins zinazoungwa mkono na bidhaa, ambazo zinaungwa mkono na
+  bidhaa kama dhahabu au mafuta; na stablecoins za algorithmic, ambazo zinategemea
+  juu ya seti ya sheria au algoriti ili kudumisha thamani yao. Hata hivyo,
+  inabainisha kuwa mafanikio ya algorithmic stablecoins bado hayajaingia sokoni.
+reviewed: true

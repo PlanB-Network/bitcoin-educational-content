@@ -1,0 +1,9 @@
+question: Schema 在 RGB 中扮演什麼角色？
+answer: 定義 Contract 變數、規則和 Business Logic
+wrong_answers:
+  - 參與者之間交換的商店託運物品
+  - 驗證 Bitcoin 交易的 Pedersen 承諾
+  - 為每個 UTXO 建立 Seal 定義
+explanation: |
+  Schema 結構 Contract 的狀態，並決定允許的轉換和驗證條件。
+reviewed: false

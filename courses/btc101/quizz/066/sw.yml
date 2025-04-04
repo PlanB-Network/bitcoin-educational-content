@@ -1,0 +1,12 @@
+question: Je, ni mwaka gani uliotabiriwa kuwa uumbaji wa bitcoins utakoma?
+answer: 2140
+wrong_answers:
+  - 2050
+  - 2030
+  - 2200
+explanation: |
+  Kutokana na utaratibu wa Halving, inaweza kuwa kihisabati
+  alitabiri kuwa uundaji wa bitcoins utakoma mnamo 2140,
+  wakati jumla ya idadi ya bitcoins inafikia kikomo chake cha 21
+  milioni.
+reviewed: true

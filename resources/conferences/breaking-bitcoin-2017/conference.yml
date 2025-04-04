@@ -1,7 +1,6 @@
 id: e4404614-fed7-43c0-9933-1c72395be547
 year: 2017-09
 name: Breaking Bitcoin 2017
-builder: Breaking Bitcoin
 location: Paris, France
 language:
   - en
@@ -14,6 +13,6 @@ proofreading:
   - language: en
     last_contribution_date: 2025-03-04
     urgency: 0
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
     reward: 0.05

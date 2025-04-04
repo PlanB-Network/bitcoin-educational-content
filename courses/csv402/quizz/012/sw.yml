@@ -1,0 +1,9 @@
+question: Assignment ni nini katika itifaki ya RGB?
+answer: Pato ambalo hurekebisha, kusasisha au kuunda sifa katika hali ya Contract
+wrong_answers:
+  - Commitment ya kipekee ya kriptografia iliyohifadhiwa katika shughuli ya Bitcoin
+  - Muamala wa Bitcoin uliotiwa saini kiasi kabla ya uthibitishaji wa mwisho
+  - Sasisho la umma la Global State
+explanation: |
+  Assignment inachanganya Seal Definition na Owned State kuwakilisha sehemu iliyotengwa ya jimbo.
+reviewed: false

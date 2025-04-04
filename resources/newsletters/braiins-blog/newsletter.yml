@@ -14,8 +14,9 @@ description: |
   related to the Braiins' ecosystem and available resources. Among them, Braiins
   has published book-report articles to present their handbooks that dive into
   both mining and general Bitcoin knowledge.
-contributors:
-  - hunt-wood
+contributor_names:
+  - PaoloFoti
+project_id: 9c8ef98b-a33c-4ccc-8d72-43299a47887b
 tags:
   - mining
   - technical-analysis

@@ -1,0 +1,11 @@
+question: Je! ni njia gani isiyo ya KYC ya kununua au kuuza bitcoins?
+answer: Kutumia suluhu za rika-kwa-rika kama vile Peach.
+wrong_answers:
+  - Kwa kutumia Hot Wallet.
+  - Kwa kutumia Cold Wallet.
+  - Kwa kutumia Hardware Wallet.
+explanation: |
+  KYC, au Mjue Mteja Wako, ni mchakato ambao biashara hutumia kuthibitisha
+  utambulisho wa wateja wao. Mbinu zisizo za KYC, kama vile suluhu za rika-kwa-rika,
+  kuruhusu watumiaji kununua au kuuza bitcoins bila kutoa taarifa za kibinafsi.
+reviewed: false

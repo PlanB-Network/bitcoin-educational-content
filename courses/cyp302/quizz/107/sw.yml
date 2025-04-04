@@ -1,0 +1,9 @@
+question: Shambulio la kutafakari ni nini katika kikao cha mawasiliano?
+answer: Mshambulizi anatuma tena kwa Alice ujumbe ambao walinasa kati ya Alice na Bob
+wrong_answers:
+  - Mshambulizi anageuza mpangilio wa ujumbe katika mawasiliano
+  - Mshambulizi hutuma ujumbe uliorekebishwa bila lebo
+  - Mshambulizi hutumia ujumbe wa zamani kuunda mpya
+explanation: |
+  Katika shambulio la kutafakari, mshambuliaji anakatiza ujumbe kutoka kwa Alice kwenda kwa Bob na kutuma ujumbe sawa kwa Alice, na kusababisha mkanganyiko katika kipindi.
+reviewed: false

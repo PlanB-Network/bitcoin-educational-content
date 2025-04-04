@@ -557,7 +557,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 例えば、Sparrow Wallet をホットウォレットとして使うことができる：
 
-https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - レベル 2\*\*では、物理的なウォレットを使用し、12/24 ワードのリストを確保します。あなたの鍵はインターネットに接続されていないデバイスに保存されるため、しばしば「コールドウォレット」と呼ばれます。この場合、取引のたびにデバイスで署名する必要があるため、日常的に資金にアクセスしにくくなります。
 
@@ -1048,6 +1048,8 @@ btc/ドルのペアは短期的に変動するが、ビットコインは 2100 �
 
 ![image](assets/en/71.webp)
 
+
+
 ## 働いてビットコインを得る
 
 <chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>
@@ -1078,13 +1080,17 @@ btc/ドルのペアは短期的に変動するが、ビットコインは 2100 �
 
 - シンプルなオンラインソリューションオープンノード
 
-https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - アマチュアのためのソリューション：スイス・ビットコイン・ペイ
 
-https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - 大規模な組織や情熱的なビットコイナー向けのソリューション：BTCpay サーバー
+
+このトピックをさらに掘り下げるために、BIZ101トレーニングをお勧めします！ ビットコインを企業の財務に効果的に統合する方法、組織のプロファイルに応じてビットコインを支払い手段として受け入れる方法、関連する税務および会計要件を理解する方法を学びましょう：
+
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## ビットコインで貯蓄
 

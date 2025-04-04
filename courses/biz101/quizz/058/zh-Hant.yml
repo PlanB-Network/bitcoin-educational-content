@@ -1,0 +1,9 @@
+question: 使用保管 Wallet 的 Starter profile 有什麼好處？
+answer: 減少技術責任
+wrong_answers:
+  - 加強對私密金鑰的控制
+  - 加強隱私權，交易完全自主
+  - 免除交易費用
+explanation: |
+  保管式錢包管理私人金鑰，減輕使用者的技術負擔。
+reviewed: false

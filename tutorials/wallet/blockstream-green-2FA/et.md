@@ -148,7 +148,7 @@ Klõpsake rohelisel nupul "*Kõrgendage oma konto turvalisust, lisades 2FA*".
 
 Seejärel saate valida autentimismeetodi, et pääseda ligi oma 2/2 multisignaali teisele võtmele. Selles õpetuses kasutame autentimisrakendust. Kui te ei ole seda tüüpi rakendusega tuttav, soovitan teil tutvuda meie õpetusega Authy :
 
-https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Valige "*Autentikaatorirakendus*".
 

@@ -1,351 +1,346 @@
 ---
-name: The RGB protocol, from theory to practice
-goal: Acquire the skills needed to understand and use RGB
+name: Giao thức RGB, từ lý thuyết đến thực hành
+goal: Có được các kỹ năng cần thiết để hiểu và sử dụng RGB
 objectives: 
 
-  - Understand the fundamental concepts of the RGB protocol
-  - Master the principles of client-side validation and Bitcoin commitments
-  - Learn how to create, manage and transfer RGB contracts
-  - How to operate an RGB-compatible Lightning node
+  - Hiểu các khái niệm cơ bản của giao thức RGB
+  - Nắm vững các nguyên tắc xác thực phía khách hàng và cam kết Bitcoin
+  - Tìm hiểu cách tạo, quản lý và chuyển giao hợp đồng RGB
+  - Cách vận hành nút Lightning tương thích RGB
 
 ---
-# Discovering the RGB protocol
+# Khám phá giao thức RGB
 
-Dive into the world of RGB, a protocol designed to implement and enforce digital rights, in the form of contracts and assets, based on the consensus rules and operations of the Bitcoin blockchain. This comprehensive training course guides you through the technical and practical foundations of RGB, from the concepts of "Client-side Validation" and "Single-use Seals", to the implementation of advanced smart contracts.
+Khám phá thế giới RGB, một giao thức được thiết kế để triển khai và thực thi các quyền kỹ thuật số, dưới dạng hợp đồng và tài sản, dựa trên các quy tắc đồng thuận và hoạt động của chuỗi khối Bitcoin. Khóa đào tạo toàn diện này hướng dẫn bạn qua các nền tảng kỹ thuật và thực tế của RGB, từ các khái niệm về "Xác thực phía máy khách" và "Con dấu sử dụng một lần", đến việc triển khai các hợp đồng thông minh nâng cao.
 
-Through a structured, step-by-step program, you'll discover the mechanisms of client-side validation, deterministic commitments on Bitcoin and interaction patterns between users. Learn how to create, manage and transfer RGB tokens on Bitcoin or the Lightning Network.
+Thông qua chương trình từng bước có cấu trúc, bạn sẽ khám phá ra các cơ chế xác thực phía máy khách, các cam kết xác định trên Bitcoin và các mẫu tương tác giữa người dùng. Tìm hiểu cách tạo, quản lý và chuyển token RGB trên Bitcoin hoặc Lightning Network.
 
-Whether you're a developer, Bitcoin enthusiast, or simply curious to learn more about this technology, this training course will provide you with the tools and knowledge you need to master RGB and build innovative solutions on Bitcoin.
+Cho dù bạn là nhà phát triển, người đam mê Bitcoin hay chỉ đơn giản là tò mò muốn tìm hiểu thêm về công nghệ này, khóa đào tạo này sẽ cung cấp cho bạn các công cụ và kiến thức cần thiết để làm chủ RGB và xây dựng các giải pháp sáng tạo trên Bitcoin.
 
-The course is based on a live seminar organized by Fulgur'Ventures and taught by three renowned teachers and RGB experts.
+Khóa học dựa trên hội thảo trực tiếp do Fulgur'Ventures tổ chức và được giảng dạy bởi ba giáo viên và chuyên gia RGB nổi tiếng.
 
 +++
-# Introduction
+# Giới thiệu
 
 <partId>c6f7a70f-d894-595f-8c0a-b54759778839</partId>
 
-## Course presentation
+## Bài thuyết trình khóa học
 
 <chapterId>cf2f087b-6c6b-5037-8f98-94fc9f1d7f46</chapterId>
 
-Hello everyone, and welcome to this training course dedicated to RGB, a client-side validated smart contract system running on Bitcoin and the Lightning Network. The structure of this course is designed to enable in-depth exploration of this complex subject. Here's how the course is organized:
+Xin chào mọi người và chào mừng đến với khóa đào tạo này dành riêng cho RGB, một hệ thống hợp đồng thông minh được xác thực phía máy khách chạy trên Bitcoin và Lightning Network. Cấu trúc của khóa học này được thiết kế để cho phép khám phá sâu hơn về chủ đề phức tạp này. Sau đây là cách tổ chức khóa học:
 
-**Section 1: Theory
+**Phần 1: Lý thuyết
 
-The first section is dedicated to the theoretical concepts needed to understand the fundamentals of client-side validation and RGB. As you'll discover in this course, RGB introduces a host of technical concepts not usually seen in Bitcoin. In this section, you'll also find a glossary providing definitions for all terms specific to the RGB protocol.
+Phần đầu tiên dành riêng cho các khái niệm lý thuyết cần thiết để hiểu các nguyên tắc cơ bản của xác thực phía máy khách và RGB. Như bạn sẽ khám phá trong khóa học này, RGB giới thiệu một loạt các khái niệm kỹ thuật thường không thấy trong Bitcoin. Trong phần này, bạn cũng sẽ tìm thấy một bảng chú giải thuật ngữ cung cấp các định nghĩa cho tất cả các thuật ngữ cụ thể cho giao thức RGB.
 
-**Section 2: Practice
+**Phần 2: Thực hành
 
-The second section will focus on the application of the theoretical concepts seen in section 1. We'll learn how to create and manipulate RGB contracts. We'll also see how to program with these tools. These first two sections are presented by Maxim Orlovsky.
+Phần thứ hai sẽ tập trung vào việc áp dụng các khái niệm lý thuyết được thấy trong phần 1. Chúng ta sẽ học cách tạo và thao tác các hợp đồng RGB. Chúng ta cũng sẽ xem cách lập trình bằng các công cụ này. Hai phần đầu tiên này được trình bày bởi Maxim Orlovsky.
 
-**Section 3: Applications
+**Mục 3: Ứng dụng
 
-The final section is led by other speakers who present concrete RGB-based applications, to highlight real-life use cases.
+Phần cuối cùng do các diễn giả khác trình bày về các ứng dụng cụ thể dựa trên RGB để làm nổi bật các trường hợp sử dụng thực tế.
 
 ---
-This training course originally grew out of a two-week advanced development bootcamp in Viareggio, Tuscany, organized by [Fulgur'Ventures](https://fulgur.ventures/). The first week, focused on Rust and SDKs, can be found in this other course:
+Khóa đào tạo này ban đầu phát triển từ trại huấn luyện phát triển nâng cao kéo dài hai tuần tại Viareggio, Tuscany, do [Fulgur'Ventures](https://fulgur.ventures/) tổ chức. Tuần đầu tiên, tập trung vào Rust và SDK, có thể được tìm thấy trong khóa học khác này:
 
 https://planb.network/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
+Trong khóa học này, chúng ta sẽ tập trung vào tuần thứ hai của trại huấn luyện, tập trung vào RGB.
 
-In this course, we focus on the second week of the bootcamp, which focuses on RGB.
-
-**Week 1 - LNP402:**
+**Tuần 1 - LNP402:**
 
 ![RGB-Bitcoin](assets/fr/001.webp)
 
-**Week 2 - Current training CSV402:**
+**Tuần 2 - Chương trình đào tạo hiện tại CSV402:**
 
 ![RGB-Bitcoin](assets/fr/002.webp)
 
-Many thanks to the organizers of these live courses and to the 3 teachers who took part:
+Xin chân thành cảm ơn những người tổ chức các khóa học trực tiếp này và 3 giáo viên đã tham gia:
 
 
-- Maxim Orlovsky: *Ex Tenebrae sententia sapiens dominabitur astris. Cypher, AI, robotics, transhumanism. Creator of RGB, Prime, Radiant and lnp_bp, mycitadel_io & cyphernet_io* ;
-- Hunter Trujilo: *Developer, Rust, Bitcoin, Lightning, RGB* ;
-- Federico Tenga: *I'm doing my bit to turn the world into a cypherpunk dystopia. Currently working on RGB at Bitfinex*.
+- Maxim Orlovsky: *Ex Tenebrae senentia sapiens dominabitur astris. Cypher, AI, robot, thuyết xuyên nhân loại. Người tạo ra RGB, Prime, Radiant và lnp_bp, mycitadel_io & cyphernet_io* ;
+- Hunter Trujilo: *Nhà phát triển, Rust, Bitcoin, Lightning, RGB* ;
+- Federico Tenga: *Tôi đang góp sức biến thế giới thành một thế giới phi thực tế của cypherpunk. Hiện đang làm việc về RGB tại Bitfinex*.
 
-The written version of this training course was drafted using 2 main resources:
+Phiên bản viết của khóa đào tạo này được soạn thảo bằng cách sử dụng 2 nguồn chính:
 
 
-- Videos of Maxim Orlovsky, Hunter Trujilo and Frederico Tenga's seminar at Lightning Bootcamp ;
-- The RGB documentation, the production of which was sponsored by [Bitfinex](https://www.bitfinex.com/).
+- Video hội thảo của Maxim Orlovsky, Hunter Trujilo và Frederico Tenga tại Lightning Bootcamp;
+- Tài liệu RGB, được tài trợ bởi [Bitfinex](https://www.bitfinex.com/).
 
-# RGB in theory
+# RGB về mặt lý thuyết
 
 <partId>80e797ee-3f33-599f-ab82-e82eeee08219</partId>
 
-## Introduction to distributed computing concepts
+## Giới thiệu về các khái niệm điện toán phân tán
 
 <chapterId>f52f8af5-5d7c-588b-b56d-99b97176204b</chapterId>
 
 ![video](https://youtu.be/AF2XbifPGXM)
 
-RGB is a protocol designed to apply and enforce digital rights (in the form of contracts and assets) in a scalable and confidential way, based on the consensus rules and operations of the Bitcoin blockchain. The aim of this first chapter is to present the basic concepts and terminology around the RGB protocol, highlighting in particular its close links with basic distributed computing concepts such as Client-side Validation and Single-use Seals.
+RGB là một giao thức được thiết kế để áp dụng và thực thi các quyền kỹ thuật số (dưới dạng hợp đồng và tài sản) theo cách có thể mở rộng và bảo mật, dựa trên các quy tắc đồng thuận và hoạt động của chuỗi khối Bitcoin. Mục đích của chương đầu tiên này là trình bày các khái niệm và thuật ngữ cơ bản xung quanh giao thức RGB, đặc biệt nhấn mạnh mối liên hệ chặt chẽ của nó với các khái niệm điện toán phân tán cơ bản như Xác thực phía máy khách và Dấu niêm phong sử dụng một lần.
 
-In this chapter, we explore the fundamentals of **distributed consensus systems** and see how RGB fits into this family of technologies. We'll also introduce the main principles that help us understand why RGB aims to be extensible and independent of Bitcoin's own consensus mechanism, while relying on it when necessary.
+Trong chương này, chúng ta sẽ khám phá những điều cơ bản của **hệ thống đồng thuận phân tán** và xem RGB phù hợp với họ công nghệ này như thế nào. Chúng tôi cũng sẽ giới thiệu các nguyên tắc chính giúp chúng ta hiểu lý do tại sao RGB hướng đến mục tiêu mở rộng và độc lập với cơ chế đồng thuận của Bitcoin, đồng thời dựa vào nó khi cần thiết.
 
-### Introduction
+### Giới thiệu
 
-Distributed computing, a specific branch of computer science, studies the protocols used to circulate and process information on a network of nodes. Together, these nodes and the protocol rules constitute what is known as a distributed system. Among the essential properties that characterize such a system are :
-
-
-- The **capability of independent verification and validation** of certain data by each node;
-- The possibility for nodes to construct (depending on the protocol) a complete or partial view of the information. These views are the **states** of the distributed system;
-- The **chronological order** of operations, so that data is reliably time-stamped and there is a consensus on the sequence of events (sequence of states).
-
-In particular, the notion of **consensus** in a distributed system covers two aspects:
+Điện toán phân tán, một nhánh cụ thể của khoa học máy tính, nghiên cứu các giao thức được sử dụng để lưu thông và xử lý thông tin trên một mạng lưới các nút. Cùng nhau, các nút này và các quy tắc giao thức tạo nên cái được gọi là hệ thống phân tán. Trong số các thuộc tính thiết yếu đặc trưng cho một hệ thống như vậy là:
 
 
-- Recognition of the validity** of state changes (according to protocol rules);
-- The **agreement on the order** of these state changes, which makes it impossible to rewrite or reverse validated operations a posteriori (this is also known in Bitcoin as "double-spend protection").
+- **Khả năng xác minh và xác thực độc lập** của một số dữ liệu nhất định bởi mỗi nút;
+- Khả năng cho các nút xây dựng (tùy thuộc vào giao thức) chế độ xem toàn bộ hoặc một phần thông tin. Các chế độ xem này là **trạng thái** của hệ thống phân tán;
+- **Thứ tự thời gian** của các hoạt động, để dữ liệu được đóng dấu thời gian một cách đáng tin cậy và có sự đồng thuận về trình tự các sự kiện (trình tự trạng thái).
 
-The first functional, permission-free implementation of a distributed consensus mechanism was introduced by Satoshi Nakamoto with Bitcoin, thanks to the combined use of a blockchain data structure and a Proof-of-Work (PoW) algorithm. In this system, the credibility of the block history depends on the computing power devoted to it by the nodes (miners). Bitcoin is therefore a major and historic example of a distributed consensus system open to all (*permissionless*).
+Đặc biệt, khái niệm **sự đồng thuận** trong hệ thống phân tán bao gồm hai khía cạnh:
 
-In the world of blockchain and distributed computing, we can distinguish two fundamental paradigms: ***blockchain*** in the traditional sense, and ***state channels***, the best example of which in production is the Lightning Network. The blockchain is defined as a register of chronologically ordered events, replicated by consensus within an open, permission-free network. State channels, on the other hand, are peer-to-peer channels that enable two (or more) participants to maintain an updated state off-chain, using the blockchain only when opening and closing these channels.
 
-In the context of Bitcoin, you're no doubt familiar with the principles of mining, decentralization and finality of transactions on the blockchain, as well as how payment channels work. With RGB, we're introducing a new paradigm called **Client-side Validation**, which, unlike blockchain or Lightning, consists in locally (client-side) storing and validating the state transitions of a smart contract. This also differs from other "DeFi" techniques (_rollups_, _plasma_, _ARK_, etc.), in that Client-side Validation relies on the blockchain to prevent double-spending and to have a time-stamping system, while keeping the register of off-chain states and transitions, only with the participants concerned.
+- Việc công nhận tính hợp lệ** của các thay đổi trạng thái (theo các quy tắc giao thức);
+- **Thỏa thuận về thứ tự** của các thay đổi trạng thái này khiến việc viết lại hoặc đảo ngược các hoạt động đã xác thực sau đó trở nên không thể (điều này cũng được gọi trong Bitcoin là "bảo vệ chi tiêu gấp đôi").
+
+Việc triển khai chức năng đầu tiên, không cần cấp phép của cơ chế đồng thuận phân tán đã được Satoshi Nakamoto giới thiệu với Bitcoin, nhờ vào việc sử dụng kết hợp cấu trúc dữ liệu blockchain và thuật toán Proof-of-Work (PoW). Trong hệ thống này, độ tin cậy của lịch sử khối phụ thuộc vào sức mạnh tính toán dành cho nó bởi các nút (thợ đào). Do đó, Bitcoin là một ví dụ quan trọng và mang tính lịch sử về hệ thống đồng thuận phân tán mở cho tất cả mọi người (*không cần cấp phép*).
+
+Trong thế giới blockchain và điện toán phân tán, chúng ta có thể phân biệt hai mô hình cơ bản: ***blockchain*** theo nghĩa truyền thống và ***state channels***, ví dụ tốt nhất về mô hình này trong sản xuất là Lightning Network. Blockchain được định nghĩa là một sổ đăng ký các sự kiện theo thứ tự thời gian, được sao chép bằng sự đồng thuận trong một mạng mở, không cần cấp phép. Mặt khác, state channels là các kênh ngang hàng cho phép hai (hoặc nhiều) người tham gia duy trì trạng thái được cập nhật ngoài chuỗi, chỉ sử dụng blockchain khi mở và đóng các kênh này.
+
+Trong bối cảnh của Bitcoin, chắc hẳn bạn đã quen thuộc với các nguyên tắc khai thác, phi tập trung và tính cuối cùng của các giao dịch trên blockchain, cũng như cách thức hoạt động của các kênh thanh toán. Với RGB, chúng tôi giới thiệu một mô hình mới có tên là **Xác thực phía máy khách**, không giống như blockchain hay Lightning, bao gồm việc lưu trữ và xác thực cục bộ (phía máy khách) các chuyển đổi trạng thái của hợp đồng thông minh. Điều này cũng khác với các kỹ thuật "DeFi" khác (_rollups_, _plasma_, _ARK_, v.v.), ở chỗ Xác thực phía máy khách dựa vào blockchain để ngăn chặn chi tiêu gấp đôi và có hệ thống đóng dấu thời gian, đồng thời giữ sổ đăng ký các trạng thái và chuyển đổi ngoài chuỗi, chỉ với những người tham gia có liên quan.
 
 ![RGB-Bitcoin](assets/fr/003.webp)
 
-Later on, we'll also introduce an important term: the notion of "**stash**", which refers to the set of client-side data required to preserve the state of a contract, as this data is not replicated globally across the network. Finally, we'll look at the rationale behind RGB, a protocol that takes advantage of Client-side Validation, and why it complements existing approaches (blockchain and state channels).
+Sau này, chúng tôi cũng sẽ giới thiệu một thuật ngữ quan trọng: khái niệm "**stash**", ám chỉ tập hợp dữ liệu phía máy khách cần thiết để duy trì trạng thái của hợp đồng, vì dữ liệu này không được sao chép toàn cầu trên toàn mạng. Cuối cùng, chúng ta sẽ xem xét cơ sở lý luận đằng sau RGB, một giao thức tận dụng Xác thực phía máy khách và lý do tại sao nó bổ sung cho các phương pháp tiếp cận hiện có (chuỗi khối và kênh trạng thái).
 
-### Trilemmas in distributed computing
+### Bộ ba vấn đề trong điện toán phân tán
 
-To understand how Client-side Validation and RGB address problems not solved by blockchain and Lightning, let's discover 3 major "trilemmas" in distributed computing:
-
-
-- Scalability, Decentralization, Privacy** ;
-- CAP** Theorem (Consistency, Availability, Partition Tolerance) ;
-- CIA** trilemma (Confidentiality, Integrity, Availability).
-
-#### 1. Scalability, decentralization and confidentiality
+Để hiểu cách Xác thực phía máy khách và RGB giải quyết các vấn đề chưa được blockchain và Lightning giải quyết, chúng ta hãy cùng khám phá 3 "bộ ba" chính trong điện toán phân tán:
 
 
-- Blockchain (Bitcoin)**
+- Khả năng mở rộng, Phân quyền, Quyền riêng tư** ;
+- Định lý CAP** (Tính nhất quán, Tính khả dụng, Độ dung sai phân vùng);
+- Bộ ba nguy hiểm của CIA** (Bảo mật, Toàn vẹn, Khả dụng).
 
-Blockchain is highly decentralized, but not very scalable. What's more, since everything is in a global, public register, confidentiality is limited. We can try to improve confidentiality with zero-knowledge technologies (confidential transactions, mimblewimble schemes, etc.), but the public chain cannot hide the transaction graph.
-
-
-- Lightning/State channels**
-
-State channels (as with the Lightning Network) are more scalable and more private than blockchain, as transactions take place off-chain. However, the obligation to publicly announce certain elements (funding transactions, network topology) and the monitoring of network traffic can partly compromise confidentiality. Decentralization also suffers: routing is cash-intensive, and major nodes can become centralization points. This is precisely the phenomenon we're beginning to see on Lightning.
+#### 1. Khả năng mở rộng, phân cấp và bảo mật
 
 
-- Client-side Validation (RGB)**
+- Chuỗi khối (Bitcoin)**
 
-This new paradigm is even more scalable and more confidential, because not only can we integrate zero-disclosure proof-of-knowledge techniques, but there is no global graph of transactions, since nobody holds the entire register. On the other hand, it also implies a certain compromise on decentralization: the issuer of a smart contract can have a central role (like a "contract deployer" in Ethereum). However, unlike blockchain, with Client-side Validation, you only store and validate the contracts you're interested in, which improves scalability by avoiding the need to download and verify all existing states.
+Blockchain có tính phi tập trung cao, nhưng không có khả năng mở rộng. Hơn nữa, vì mọi thứ đều nằm trong sổ đăng ký công khai toàn cầu nên tính bảo mật bị hạn chế. Chúng ta có thể thử cải thiện tính bảo mật bằng các công nghệ không kiến thức (giao dịch bí mật, chương trình mimblewimble, v.v.), nhưng chuỗi công khai không thể ẩn biểu đồ giao dịch.
+
+
+- Kênh Lightning/State**
+
+Các kênh trạng thái (như với Lightning Network) có khả năng mở rộng hơn và riêng tư hơn blockchain, vì các giao dịch diễn ra ngoài chuỗi. Tuy nhiên, nghĩa vụ công bố công khai một số yếu tố nhất định (giao dịch tài trợ, cấu trúc mạng) và việc giám sát lưu lượng mạng có thể làm giảm tính bảo mật. Sự phi tập trung cũng bị ảnh hưởng: định tuyến tốn nhiều tiền mặt và các nút chính có thể trở thành điểm tập trung. Đây chính xác là hiện tượng mà chúng ta bắt đầu thấy trên Lightning.
+
+
+- Xác thực phía máy khách (RGB)**
+
+Mô hình mới này thậm chí còn có khả năng mở rộng và bảo mật hơn, vì chúng ta không chỉ có thể tích hợp các kỹ thuật bằng chứng kiến thức không tiết lộ mà còn không có biểu đồ giao dịch toàn cầu, vì không ai nắm giữ toàn bộ sổ đăng ký. Mặt khác, nó cũng ngụ ý một sự thỏa hiệp nhất định về tính phi tập trung: bên phát hành hợp đồng thông minh có thể có vai trò trung tâm (giống như "bên triển khai hợp đồng" trong Ethereum). Tuy nhiên, không giống như blockchain, với Xác thực phía máy khách, bạn chỉ lưu trữ và xác thực các hợp đồng mà bạn quan tâm, điều này cải thiện khả năng mở rộng bằng cách tránh nhu cầu tải xuống và xác minh tất cả các trạng thái hiện có.
 
 ![RGB-Bitcoin](assets/fr/004.webp)
 
-#### 2. CAP Theorem (Consistency, Availability, Partition tolerance)
+#### 2. Định lý CAP (Tính nhất quán, Tính khả dụng, Dung sai phân vùng)
 
-The CAP theorem emphasizes that it is impossible for a distributed system to simultaneously satisfy consistency (*Consistency*), availability (*Availability*) and partition tolerance (*Partition tolerance*).
-
-
-- Blockchain**
-
-The blockchain favors consistency and availability, but doesn't do well with network partitioning: if you can't see a block, you can't act and have the same view as the whole network.
+Định lý CAP nhấn mạnh rằng một hệ thống phân tán không thể đồng thời thỏa mãn tính nhất quán (*Tính nhất quán*), tính khả dụng (*Tính khả dụng*) và dung sai phân vùng (*Dung sai phân vùng*).
 
 
-- Lightning** (in French)
+- Chuỗi khối**
 
-A system of state channels has availability and partitioning tolerance (since two nodes can remain connected to each other even if the network is fragmented), but overall consistency depends on the opening and closing of channels on the blockchain.
+Blockchain ưu tiên tính nhất quán và khả dụng, nhưng lại không hiệu quả với phân vùng mạng: nếu bạn không thể nhìn thấy một khối, bạn không thể hành động và có cùng góc nhìn với toàn bộ mạng.
 
 
-- Client-side Validation (RGB)**
+- Tia chớp** (bằng tiếng Pháp)
 
-A system like RGB offers consistency (each participant validates its data locally, without ambiguity) and partitioning tolerance (you keep your data autonomously), but does not guarantee global availability (everyone has to make sure they have the relevant pieces of history, and some participants may not publish anything or stop sharing certain information).
+Hệ thống kênh trạng thái có tính khả dụng và khả năng phân vùng (vì hai nút vẫn có thể kết nối với nhau ngay cả khi mạng bị phân mảnh), nhưng tính nhất quán tổng thể phụ thuộc vào việc mở và đóng các kênh trên chuỗi khối.
+
+
+- Xác thực phía máy khách (RGB)**
+
+Một hệ thống như RGB cung cấp tính nhất quán (mỗi người tham gia xác thực dữ liệu của mình tại địa phương, không có sự mơ hồ) và khả năng phân vùng (bạn lưu trữ dữ liệu của mình một cách tự chủ), nhưng không đảm bảo tính khả dụng toàn cầu (mọi người phải đảm bảo rằng họ có các phần lịch sử có liên quan và một số người tham gia có thể không công bố bất cứ điều gì hoặc ngừng chia sẻ một số thông tin nhất định).
 
 ![RGB-Bitcoin](assets/fr/005.webp)
 
-#### 3. CIA trilemma (Confidentiality, Integrity, Availability)
+#### 3. Bộ ba CIA (Bảo mật, Chính trực, Sẵn sàng)
 
-This trilemma reminds us that confidentiality, integrity and availability cannot all be optimized at the same time. Blockchain, Lightning and Client-side Validation fall differently into this balance. The idea is that no single system can provide everything; it is necessary to combine several approaches (blockchain's time-stamping, Lightning's synchronous approach, and local validation with RGB) to obtain a coherent package offering good guarantees in each dimension.
+Bộ ba này nhắc nhở chúng ta rằng tính bảo mật, tính toàn vẹn và tính khả dụng không thể được tối ưu hóa cùng một lúc. Blockchain, Lightning và Xác thực phía máy khách nằm ở những vị trí khác nhau trong sự cân bằng này. Ý tưởng là không có hệ thống đơn lẻ nào có thể cung cấp mọi thứ; cần phải kết hợp một số phương pháp (đóng dấu thời gian của blockchain, phương pháp đồng bộ của Lightning và xác thực cục bộ với RGB) để có được một gói thống nhất cung cấp các đảm bảo tốt trong từng chiều.
 
 ![RGB-Bitcoin](assets/fr/006.webp)
 
-### The role of blockchain and the notion of sharding
+### Vai trò của blockchain và khái niệm phân mảnh
 
-The blockchain (in this case, Bitcoin) serves primarily as a _time-stamping_ mechanism and protection against double spending. Instead of inserting the complete data of a smart contract or decentralized system, we simply include **cryptographic commitments** (_commitments_) to transactions (in the sense of Client-side Validation, which we'll call "state transitions"). Thus :
-
-
-- We free the blockchain from a large amount of data and logic;
-- Each user stores only the history required for his own portion of the contract (his "*shard*"), rather than replicating the global state.
-
-Sharding is a concept that originated in distributed databases (e.g. MySQL for social networks such as Facebook or Twitter). To solve the problem of data volume and synchronization latencies, the database is segmented into _shards_ (USA, Europe, Asia, etc.). Each segment is locally consistent and only partially synchronized with the others.
-
-For RGB-type smart contracts, we shard according to the contracts themselves. Each contract is an independent _shard_. For example, if you only hold USDT tokens, you don't have to store or validate the entire history of another token like USDC. On Bitcoin, the blockchain doesn't do _sharding_: you have a global set of UTXOs. With Client-side Validation, each participant retains only the contract data it holds or uses.
-
-We can therefore imagine the ecosystem as follows:
+Blockchain (trong trường hợp này là Bitcoin) chủ yếu đóng vai trò là cơ chế _đóng dấu thời gian_ và bảo vệ chống lại việc chi tiêu gấp đôi. Thay vì chèn toàn bộ dữ liệu của hợp đồng thông minh hoặc hệ thống phi tập trung, chúng tôi chỉ cần đưa **cam kết mật mã** (_cam kết_) vào các giao dịch (theo nghĩa Xác thực phía máy khách, mà chúng tôi sẽ gọi là "chuyển đổi trạng thái"). Do đó:
 
 
-- The blockchain (Bitcoin)** as a foundation that ensures complete replication of a minimal register and serves as a time-stamping layer;
-- The Lightning Network** for fast, confidential transactions, still based on the security and final settlement of the Bitcoin blockchain;
-- RGB and Client-side Validation** to add more complex smart contract logic, without cluttering up the blockchain or losing confidentiality.
+- Chúng tôi giải phóng blockchain khỏi lượng lớn dữ liệu và logic;
+- Mỗi người dùng chỉ lưu trữ lịch sử cần thiết cho phần hợp đồng của riêng mình ("*mảnh*" của người đó), thay vì sao chép trạng thái toàn cầu.
+
+Phân mảnh là một khái niệm có nguồn gốc từ cơ sở dữ liệu phân tán (ví dụ: MySQL cho các mạng xã hội như Facebook hoặc Twitter). Để giải quyết vấn đề về khối lượng dữ liệu và độ trễ đồng bộ hóa, cơ sở dữ liệu được phân đoạn thành các _shards_ (Hoa Kỳ, Châu Âu, Châu Á, v.v.). Mỗi phân đoạn đều nhất quán cục bộ và chỉ được đồng bộ hóa một phần với các phân đoạn khác.
+
+Đối với các hợp đồng thông minh loại RGB, chúng tôi phân mảnh theo chính các hợp đồng. Mỗi hợp đồng là một _shard_ độc lập. Ví dụ, nếu bạn chỉ giữ token USDT, bạn không phải lưu trữ hoặc xác thực toàn bộ lịch sử của một token khác như USDC. Trên Bitcoin, blockchain không thực hiện _sharding_: bạn có một tập hợp UTXO toàn cầu. Với Xác thực phía máy khách, mỗi người tham gia chỉ giữ lại dữ liệu hợp đồng mà họ giữ hoặc sử dụng.
+
+Do đó, chúng ta có thể hình dung hệ sinh thái như sau:
+
+
+- Blockchain (Bitcoin)** là nền tảng đảm bảo sao chép hoàn toàn một sổ đăng ký tối thiểu và đóng vai trò là lớp đóng dấu thời gian;
+- Mạng lưới Lightning** cho các giao dịch nhanh chóng, bảo mật, vẫn dựa trên tính bảo mật và thanh toán cuối cùng của chuỗi khối Bitcoin;
+- Xác thực phía máy khách và RGB** để thêm logic hợp đồng thông minh phức tạp hơn mà không làm lộn xộn blockchain hoặc mất tính bảo mật.
 
 ![RGB-Bitcoin](assets/fr/007.webp)
 
-These three elements form a triangular whole, rather than a linear stack of "layer 2", "layer 3" and so on. Lightning can connect directly to Bitcoin, or be associated with Bitcoin transactions that incorporate RGB data. Similarly, a "BiFi" use (finance on Bitcoin) can compose with the blockchain, with Lightning and with RGB according to needs for confidentiality, scalability or contract logic.
+Ba yếu tố này tạo thành một tổng thể hình tam giác, thay vì một chồng tuyến tính của "lớp 2", "lớp 3" v.v. Lightning có thể kết nối trực tiếp với Bitcoin hoặc được liên kết với các giao dịch Bitcoin kết hợp dữ liệu RGB. Tương tự như vậy, một ứng dụng "BiFi" (tài chính trên Bitcoin) có thể kết hợp với blockchain, với Lightning và với RGB theo nhu cầu về tính bảo mật, khả năng mở rộng hoặc logic hợp đồng.
 
 ![RGB-Bitcoin](assets/fr/008.webp)
 
-### The notion of state transitions
+### Khái niệm về chuyển đổi trạng thái
 
-In any distributed system, the aim of the validation mechanism is to be able to **determine the validity and chronological order of state changes**. The aim is to verify that the protocol rules have been respected, and to prove that these state changes follow one another in a definitive, unassailable order.
+Trong bất kỳ hệ thống phân tán nào, mục đích của cơ chế xác thực là có thể **xác định tính hợp lệ và thứ tự thời gian của các thay đổi trạng thái**. Mục đích là để xác minh rằng các quy tắc giao thức đã được tôn trọng và chứng minh rằng các thay đổi trạng thái này theo sau nhau theo thứ tự xác định, không thể chối cãi.
 
-To understand how this validation works in the context of **Bitcoin** and, more generally, to grasp the philosophy behind Client-side Validation, let's first take a look back at the mechanisms of the Bitcoin blockchain, before seeing how Client-side Validation differs from them and what optimizations it makes possible.
+Để hiểu cách thức xác thực này hoạt động trong bối cảnh của **Bitcoin** và nói chung là để nắm bắt triết lý đằng sau Xác thực phía máy khách, trước tiên chúng ta hãy cùng nhìn lại các cơ chế của chuỗi khối Bitcoin, trước khi xem Xác thực phía máy khách khác với các cơ chế đó như thế nào và nó có thể tối ưu hóa những gì.
 
 ![RGB-Bitcoin](assets/fr/009.webp)
 
-In the case of the Bitcoin blockchain, transaction validation is based on a simple rule:
+Trong trường hợp của chuỗi khối Bitcoin, việc xác thực giao dịch dựa trên một quy tắc đơn giản:
 
 
-- All network nodes download every block and transaction;
-- They validate these transactions to verify the correct evolution of the UTXO set (all unspent outputs);
-- They store this data (in the form of blocks) so that the history can be replayed if necessary.
+- Tất cả các nút mạng tải xuống mọi khối và giao dịch;
+- Họ xác thực các giao dịch này để xác minh sự tiến hóa chính xác của bộ UTXO (tất cả các đầu ra chưa sử dụng);
+- Họ lưu trữ dữ liệu này (dưới dạng khối) để có thể phát lại lịch sử nếu cần.
 
 ![RGB-Bitcoin](assets/fr/010.webp)
 
-However, this model has two major drawbacks:
+Tuy nhiên, mô hình này có hai nhược điểm lớn:
 
 
-- Scalability**: since each node must process, verify and archive everyone's transactions, there is an obvious limit to transaction capacity, linked in particular to the maximum block size (1 MB on average over 10 minutes for Bitcoin, excluding cookies);
-- Privacy**: everything is broadcast and stored publicly (amounts, destination addresses, etc.), which limits the confidentiality of exchanges.
+- Khả năng mở rộng**: vì mỗi nút phải xử lý, xác minh và lưu trữ các giao dịch của mọi người nên có giới hạn rõ ràng về khả năng giao dịch, liên quan cụ thể đến kích thước khối tối đa (trung bình 1 MB trong 10 phút đối với Bitcoin, không bao gồm cookie);
+- Quyền riêng tư**: mọi thứ đều được phát sóng và lưu trữ công khai (số lượng, địa chỉ đích, v.v.), điều này hạn chế tính bảo mật của các giao dịch.
 
 ![RGB-Bitcoin](assets/fr/012.webp)
 
-In practice, this model works for Bitcoin as a base layer (Layer 1), but may become insufficient for more complex uses that simultaneously require high transaction throughput and a certain degree of confidentiality.
+Trên thực tế, mô hình này hoạt động như một lớp cơ sở cho Bitcoin (Lớp 1), nhưng có thể không đủ cho những mục đích sử dụng phức tạp hơn, đồng thời yêu cầu thông lượng giao dịch cao và mức độ bảo mật nhất định.
 
-Client-side Validation is based on the opposite idea: rather than requiring the entire network to validate and store all transactions, each participant (client) will validate only the part of the history that concerns him or her:
+Xác thực phía máy khách dựa trên ý tưởng ngược lại: thay vì yêu cầu toàn bộ mạng xác thực và lưu trữ tất cả các giao dịch, mỗi người tham gia (máy khách) sẽ chỉ xác thực phần lịch sử liên quan đến mình:
 
 
-- When a person receives an asset (or any other digital property), they only need to know and verify the chain of operations (state transitions) that lead to that asset and prove its legitimacy;
-- This sequence of operations, from the ***Genesis*** (initial issue) to the most recent transaction, forms an acyclic directed graph (DAG) or shard, i.e. a fraction of the overall history.
+- Khi một người nhận được tài sản (hoặc bất kỳ tài sản kỹ thuật số nào khác), họ chỉ cần biết và xác minh chuỗi hoạt động (chuyển đổi trạng thái) dẫn đến tài sản đó và chứng minh tính hợp pháp của nó;
+- Chuỗi hoạt động này, từ ***Genesis*** (vấn đề ban đầu) đến giao dịch gần đây nhất, tạo thành một đồ thị có hướng phi chu trình (DAG) hoặc phân đoạn, tức là một phần của toàn bộ lịch sử.
 
 ![RGB-Bitcoin](assets/fr/013.webp)
 
-At the same time, so that the rest of the network (or more precisely, the underlying layer, such as Bitcoin) can lock in the final state without seeing the details of this data, Client-side Validation relies on the notion of ***commitment***.
+Đồng thời, để phần còn lại của mạng (hay chính xác hơn là lớp cơ sở, chẳng hạn như Bitcoin) có thể khóa ở trạng thái cuối cùng mà không cần xem thông tin chi tiết về dữ liệu này, Xác thực phía máy khách dựa trên khái niệm ***cam kết***.
 
-A *commitment* is a cryptographic commitment, typically a _hash_ (SHA-256 for example) inserted into a Bitcoin transaction, which proves that private data has been included, without revealing this data.
+*Cam kết* là một cam kết mật mã, thường là _băm_ (ví dụ SHA-256) được chèn vào giao dịch Bitcoin, chứng minh rằng dữ liệu riêng tư đã được đưa vào mà không tiết lộ dữ liệu này.
 
-Thanks to these _commitments_, we can prove:
-
-
-- The existence of information (since it is committed to a hash) ;
-- The anteriority of this information (because it is anchored and time-stamped in the blockchain, with a date and block order).
-
-The exact content, however, is not revealed, thus preserving its confidentiality.
-
-In concrete terms, here's how an RGB state transition works:
+Nhờ những _cam kết_ này, chúng ta có thể chứng minh:
 
 
-- You prepare a new state transition (e.g. the transfer of an RGB token);
-- You generate a cryptographic commitment to this transition and insert it into a Bitcoin transaction (these commitments are called "*anchors*" in the RGB protocol);
-- The counterparty (the recipient) retrieves the customer-side history associated with this asset and validates end-to-end consistency, from the genesis of the smart contract to the transition you transmit to it.
+- Sự tồn tại của thông tin (vì nó được cam kết với hàm băm);
+- Tính ưu tiên của thông tin này (vì nó được neo và đóng dấu thời gian trong chuỗi khối, với ngày tháng và thứ tự khối).
+
+Tuy nhiên, nội dung chính xác không được tiết lộ, do đó vẫn giữ được tính bảo mật.
+
+Nói một cách cụ thể, quá trình chuyển đổi trạng thái RGB diễn ra như sau:
+
+
+- Bạn chuẩn bị một quá trình chuyển đổi trạng thái mới (ví dụ: chuyển mã thông báo RGB);
+- Bạn tạo một cam kết mật mã cho quá trình chuyển đổi này và chèn nó vào giao dịch Bitcoin (những cam kết này được gọi là "*mỏ neo*" trong giao thức RGB);
+- Bên đối tác (bên nhận) sẽ truy xuất lịch sử phía khách hàng liên quan đến tài sản này và xác thực tính nhất quán từ đầu đến cuối, từ khi hợp đồng thông minh được hình thành cho đến quá trình chuyển đổi mà bạn truyền tải đến hợp đồng.
 
 ![RGB-Bitcoin](assets/fr/014.webp)
 
-Client-side Validation offers two major benefits:
+Xác thực phía máy khách mang lại hai lợi ích chính:
 
 
-- Scalability:**
+- Khả năng mở rộng:**
 
-The commitments (*commitments*) included in the blockchain are small (of the order of a few dozen bytes). This ensures that block space is not saturated, as only the hash needs to be included. It also enables the off-chain protocol to evolve, as each user only has to store his or her history fragment (his or her _stash_).
+Các cam kết (*cam kết*) được đưa vào blockchain là nhỏ (khoảng vài chục byte). Điều này đảm bảo rằng không gian khối không bị bão hòa, vì chỉ cần bao gồm hàm băm. Nó cũng cho phép giao thức ngoài chuỗi phát triển, vì mỗi người dùng chỉ phải lưu trữ đoạn lịch sử của mình (_stash_ của mình).
 
 
-- Privacy :**
+- Sự riêng tư :**
 
-Transactions themselves (i.e. their detailed content) are not published on-chain. Only their fingerprints (*hash*) are. Thus, amounts, addresses and contract logic remain private, and the receiver can verify, locally, the validity of his shard by inspecting all previous transitions. There is no reason for the receiver to make this data public, except in the event of a dispute or where proof is required.
+Bản thân các giao dịch (tức là nội dung chi tiết của chúng) không được công bố trên chuỗi. Chỉ có dấu vân tay của chúng (*băm*) là được công bố. Do đó, số tiền, địa chỉ và logic hợp đồng vẫn được giữ riêng tư và người nhận có thể xác minh, cục bộ, tính hợp lệ của phân đoạn của mình bằng cách kiểm tra tất cả các lần chuyển đổi trước đó. Không có lý do gì để người nhận công khai dữ liệu này, ngoại trừ trong trường hợp có tranh chấp hoặc khi cần bằng chứng.
 
-In a system like RGB, multiple state transitions from different contracts (or different assets) can be aggregated into a single Bitcoin transaction via a single _commitment_. This mechanism establishes a deterministic, time-stamped link between the on-chain transaction and the off-chain data (the client-side validated transitions), and enables multiple shards to be simultaneously recorded in a single anchor point, further reducing the on-chain cost and footprint.
+Trong một hệ thống như RGB, nhiều trạng thái chuyển đổi từ các hợp đồng khác nhau (hoặc các tài sản khác nhau) có thể được tổng hợp thành một giao dịch Bitcoin duy nhất thông qua một _cam kết_ duy nhất. Cơ chế này thiết lập một liên kết xác định, có dấu thời gian giữa giao dịch trên chuỗi và dữ liệu ngoài chuỗi (các chuyển đổi được xác thực phía máy khách) và cho phép nhiều phân đoạn được ghi đồng thời trong một điểm neo duy nhất, giúp giảm thêm chi phí và dấu chân trên chuỗi.
 
-In practice, when this Bitcoin transaction is validated, it permanently "locks" the state of the underlying contracts, since it becomes impossible to modify the hash already inscribed in the blockchain.
+Trên thực tế, khi giao dịch Bitcoin này được xác thực, nó sẽ "khóa" vĩnh viễn trạng thái của các hợp đồng cơ bản, vì không thể sửa đổi hàm băm đã được ghi trong chuỗi khối.
 
 ![RGB-Bitcoin](assets/fr/015.webp)
 
-### The stash concept
+### Khái niệm cất giấu
 
-A **stash** is the set of client-side data that a participant must absolutely retain to maintain the integrity and history of an RGB smart contract. Unlike a Lightning channel, where certain states can be reconstructed locally from shared information, the stash of an RGB contract is not replicated elsewhere: if you lose it, no one will be able to restore it to you, as you are responsible for your share of the history. This is why you need to adopt a system with reliable backup procedures in RGB.
+**Stash** là tập hợp dữ liệu phía máy khách mà người tham gia phải giữ lại hoàn toàn để duy trì tính toàn vẹn và lịch sử của hợp đồng thông minh RGB. Không giống như kênh Lightning, nơi một số trạng thái nhất định có thể được tái tạo cục bộ từ thông tin được chia sẻ, stash của hợp đồng RGB không được sao chép ở nơi khác: nếu bạn mất nó, sẽ không ai có thể khôi phục lại cho bạn, vì bạn chịu trách nhiệm về phần lịch sử của mình. Đây là lý do tại sao bạn cần áp dụng một hệ thống có quy trình sao lưu đáng tin cậy trong RGB.
 
 ![RGB-Bitcoin](assets/fr/016.webp)
 
-### Single-use Seal: origins and operation
+### Con dấu dùng một lần: nguồn gốc và hoạt động
 
-When accepting an asset such as a currency, two guarantees are essential:
+Khi chấp nhận một tài sản như tiền tệ, có hai đảm bảo cần thiết:
 
 
-- The authenticity of the item received;
-- The uniqueness of the item received, to avoid double expenses.
+- Tính xác thực của sản phẩm nhận được;
+- Tính độc đáo của sản phẩm nhận được để tránh chi phí gấp đôi.
 
-For physical assets, such as a banknote, physical presence is enough to prove that it has not been duplicated. However, in the digital world, where assets are purely informational, this verification is more complex, as information can easily multiply and be duplicated.
+Đối với tài sản vật chất, chẳng hạn như tiền giấy, sự hiện diện vật lý là đủ để chứng minh rằng nó không bị sao chép. Tuy nhiên, trong thế giới kỹ thuật số, nơi tài sản hoàn toàn mang tính thông tin, việc xác minh này phức tạp hơn vì thông tin có thể dễ dàng nhân lên và bị sao chép.
 
-As we saw earlier, the sender's revelation of the history of state transitions enables us to ensure the authenticity of an RGB token. By having access to all transactions since the genesis transaction, we can confirm the token's authenticity. This principle is similar to that of Bitcoin, where the history of coins can be traced back to the original coinbase transaction to verify their validity. However, unlike Bitcoin, this history of state transitions in RGB is private and kept on the client side.
+Như chúng ta đã thấy trước đó, việc người gửi tiết lộ lịch sử chuyển đổi trạng thái cho phép chúng ta đảm bảo tính xác thực của mã thông báo RGB. Bằng cách truy cập vào tất cả các giao dịch kể từ giao dịch genesis, chúng ta có thể xác nhận tính xác thực của mã thông báo. Nguyên tắc này tương tự như nguyên tắc của Bitcoin, trong đó lịch sử của các đồng tiền có thể được truy ngược lại giao dịch coinbase ban đầu để xác minh tính hợp lệ của chúng. Tuy nhiên, không giống như Bitcoin, lịch sử chuyển đổi trạng thái trong RGB này là riêng tư và được lưu giữ ở phía máy khách.
 
-To prevent double-spending of RGB tokens, we use a mechanism called "**Single-use Seal**". This system ensures that each token, once used, cannot be fraudulently reused a second time.
+Để ngăn chặn việc chi tiêu hai lần token RGB, chúng tôi sử dụng một cơ chế có tên là "**Single-use Seal**". Hệ thống này đảm bảo rằng mỗi token, sau khi đã sử dụng, không thể được sử dụng lại một cách gian lận lần thứ hai.
 
-Single-use Seals are cryptographic primitives, proposed in 2016 by Peter Todd, akin to the concept of physical seals: once a seal has been placed on a container, it becomes impossible to open or modify it without irreversibly breaking the seal.
+Con dấu sử dụng một lần là nguyên mẫu mật mã, được Peter Todd đề xuất vào năm 2016, tương tự như khái niệm con dấu vật lý: một khi con dấu đã được đóng vào thùng chứa, thì không thể mở hoặc sửa đổi nó mà không làm vỡ con dấu đó vĩnh viễn.
 
 ![RGB-Bitcoin](assets/fr/018.webp)
 
-This approach, transposed to the digital world, makes it possible to prove that a sequence of events has indeed taken place, and that it can no longer be altered a posteriori. Single-use Seals thus go beyond the simple logic of `hash + timestamp`, adding the notion of a seal that can be closed **only once**.
+Cách tiếp cận này, được chuyển sang thế giới kỹ thuật số, giúp chứng minh rằng một chuỗi sự kiện thực sự đã diễn ra và không thể thay đổi nó sau đó nữa. Do đó, Dấu niêm phong dùng một lần vượt ra ngoài logic đơn giản của `băm + dấu thời gian`, bổ sung thêm khái niệm về một dấu niêm phong chỉ có thể đóng **một lần**.
 
 ![RGB-Bitcoin](assets/fr/017.webp)
 
-For Single-use Seals to work, you need a publication proof medium capable of proving the existence or absence of a publication, and difficult (if not impossible) to falsify once the information has been disseminated. A **blockchain** (like Bitcoin) can fill this role, as can a paper newspaper with a public circulation, for example. The idea is as follows:
+Để Con dấu sử dụng một lần có hiệu quả, bạn cần một phương tiện chứng minh xuất bản có khả năng chứng minh sự tồn tại hoặc không tồn tại của một ấn phẩm, và khó (nếu không muốn nói là không thể) làm giả một khi thông tin đã được phổ biến. Một **chuỗi khối** (như Bitcoin) có thể đảm nhiệm vai trò này, cũng như một tờ báo giấy có lưu hành công khai chẳng hạn. Ý tưởng như sau:
 
 
-- We want to prove that a certain commitment on a message `h(m)` has been published to an audience without revealing the content of the message `m` ;
-- We want to prove that no other competing `h(m')` message commitment has been published in place of `h(m)` ;
-- We also want to be able to check that message `m` exists before a certain date.
+- Chúng tôi muốn chứng minh rằng một cam kết nhất định về tin nhắn `h(m)` đã được công bố cho người nghe mà không tiết lộ nội dung của tin nhắn `m`;
+- Chúng tôi muốn chứng minh rằng không có cam kết tin nhắn `h(m')` cạnh tranh nào khác được công bố thay cho `h(m)`;
+- Chúng tôi cũng muốn kiểm tra xem tin nhắn `m` có tồn tại trước một ngày cụ thể hay không.
 
-A blockchain lends itself ideally to this role: as soon as a transaction is included in a block, the whole network has the same unfalsifiable proof of its existence and content (at least in part, since the _commitment_ can hide the details while proving the authenticity of the message).
+Blockchain thực sự phù hợp với vai trò này: ngay khi một giao dịch được đưa vào một khối, toàn bộ mạng sẽ có cùng bằng chứng không thể xác thực về sự tồn tại và nội dung của giao dịch đó (ít nhất là một phần, vì _cam kết_ có thể ẩn các chi tiết trong khi chứng minh tính xác thực của thông điệp).
 
-A Single-use Seal can therefore be seen as a formal promise to publish a message (still unknown at this stage) once and only once, in a way that can be verified by all interested parties.
+Do đó, Con dấu sử dụng một lần có thể được coi là lời hứa chính thức về việc công bố một thông điệp (vẫn chưa được biết đến ở giai đoạn này) một lần và chỉ một lần duy nhất, theo cách mà tất cả các bên quan tâm có thể xác minh được.
 
-Unlike simple _commitments_ (hash) or timestamps, which attest to a date of existence, a Single-use Seal offers the additional guarantee that **no alternative commitment** can coexist: you can't close the same seal twice, or attempt to replace the sealed message.
+Không giống như _cam kết_ đơn giản (băm) hoặc dấu thời gian, chứng thực ngày tồn tại, Dấu niêm phong dùng một lần cung cấp thêm sự đảm bảo rằng **không có cam kết thay thế nào** có thể cùng tồn tại: bạn không thể đóng cùng một dấu niêm phong hai lần hoặc cố gắng thay thế tin nhắn đã niêm phong.
 
-The following comparison helps to understand this principle:
+So sánh sau đây giúp hiểu rõ hơn nguyên tắc này:
 
 
-- Cryptographic commitment (hash)**: With a hash function, you can commit to a piece of data (a number) by publishing its hash. The data remains secret until you reveal the pre-image, but you can prove that you knew it in advance;
-- Timestamp (blockchain)**: By inserting this hash in the blockchain, we also prove that we knew it at a precise moment (that of inclusion in a block);
-- Single-use Seal**: With single-use seals, we go one step further by making the commitment unique. With a single hash, you can create several contradictory commitments in parallel (the problem of the doctor who announces "*It's a boy*" to the family and "*It's a girl*" in his personal diary). The Single-use Seal eliminates this possibility by connecting the commitment to a proof-of-publication medium, such as the Bitcoin blockchain, so that an expenditure of UTXO definitively seals the commitment. Once spent, the same UTXO cannot be re-spent to replace the commitment.
+- Cam kết mật mã (băm)**: Với hàm băm, bạn có thể cam kết với một phần dữ liệu (một số) bằng cách công bố băm của nó. Dữ liệu vẫn được giữ bí mật cho đến khi bạn tiết lộ hình ảnh trước, nhưng bạn có thể chứng minh rằng bạn đã biết trước;
+- Dấu thời gian (chuỗi khối)**: Bằng cách chèn hàm băm này vào chuỗi khối, chúng tôi cũng chứng minh rằng chúng tôi biết nó tại một thời điểm chính xác (thời điểm đưa vào khối);
+- Dấu niêm phong dùng một lần**: Với dấu niêm phong dùng một lần, chúng tôi tiến thêm một bước nữa bằng cách làm cho cam kết trở nên duy nhất. Với một băm duy nhất, bạn có thể tạo ra một số cam kết trái ngược nhau song song (vấn đề của bác sĩ thông báo "*Là con trai*" với gia đình và "*Là con gái*" trong nhật ký cá nhân của mình). Dấu niêm phong dùng một lần loại bỏ khả năng này bằng cách kết nối cam kết với phương tiện chứng minh công bố, chẳng hạn như chuỗi khối Bitcoin, để việc chi tiêu UTXO sẽ niêm phong cam kết một cách chắc chắn. Sau khi chi tiêu, cùng một UTXO không thể được chi tiêu lại để thay thế cam kết.
 
-| Single-use Seals | Timestamps | Simple commitment (digest/hash) | Single-use Seals |
-
+|                                                                                  | Cam kết đơn giản (tóm tắt/băm) | Dấu thời gian | Con dấu dùng một lần |
 | -------------------------------------------------------------------------------- | ------------------------------- | ---------- | ---------------- |
+| Việc công bố cam kết không tiết lộ thông điệp                                   | Có                              | Có         | Có               |
+| Chứng minh ngày cam kết / sự tồn tại của thông điệp trước một ngày nhất định    | Không thể                       | Có thể     | Có thể          |
+| Chứng minh rằng không có cam kết thay thế nào có thể tồn tại                    | Không thể                       | Không thể  | Có thể          | |
 
-| Publication of the commitment does not reveal the message | Yes | Yes | Yes | Yes
+Con dấu dùng một lần hoạt động theo ba giai đoạn chính:
 
-| Proof of date of commitment / existence of message before a certain date | Impossible | Possible | Possible | Possible
-
-| Proof that no other alternative commitment can exist | Impossible | Possible |
-
-Single-use Seals work in three main stages:
-
-**Seal Definition :**
+**Định nghĩa của Seal:**
 
 
-- Alice defines in advance the rules for publishing the seal (when, where and how the message will be published);
-- Bob accepts or acknowledges these conditions.
+- Alice xác định trước các quy tắc để công bố con dấu (khi nào, ở đâu và bằng cách nào thông điệp sẽ được công bố);
+- Bob chấp nhận hoặc thừa nhận những điều kiện này.
 
 ![RGB-Bitcoin](assets/fr/021.webp)
 
-**Seal Closing :**
+**Đóng kín :**
 
 
-- At runtime, Alice closes the seal by publishing the actual message (usually in the form of a _commitment_, e.g. a hash);
-- It also provides a **witness** (cryptographic proof) proving that the seal is closed and irrevocable.
+- Khi chạy, Alice đóng dấu bằng cách xuất bản thông báo thực tế (thường ở dạng _cam kết_, ví dụ như hàm băm);
+- Nó cũng cung cấp một **bằng chứng** (bằng chứng mật mã) chứng minh rằng con dấu đã được đóng và không thể hủy ngang.
 
 ![RGB-Bitcoin](assets/fr/019.webp)
 
-**Seal Verification :**
+**Xác minh con dấu :**
 
 
-- Once the seal is closed, Bob can no longer open it: he can only check that it has been closed;
-- Bob collects the seal, the **witness** and the message (or his commitment) to make sure that everything matches and that there are no competing seals or different versions.
+- Sau khi niêm phong được đóng lại, Bob không thể mở nó ra nữa: anh ta chỉ có thể kiểm tra xem nó đã được đóng chưa;
+- Bob thu thập con dấu, **nhân chứng** và thông điệp (hoặc cam kết của anh ấy) để đảm bảo rằng mọi thứ đều khớp nhau và không có con dấu cạnh tranh hoặc phiên bản khác nhau.
 
-The process can be summarized as follows:
+Quá trình này có thể được tóm tắt như sau:
 
 ```txt
 # Défini par Alice, validé ou accepté par Bob
@@ -356,271 +351,267 @@ witness <- Close(seal, message)
 bool <- Verify(seal, witness, message)
 ```
 
-Client-side validation, however, goes one step further: if the definition of a seal itself remains outside the blockchain, it is possible (in theory) for someone to challenge the existence or legitimacy of the seal in question. To overcome this problem, a chain of interlocking Single-use Seals is used:
+Tuy nhiên, xác thực phía máy khách tiến xa hơn một bước nữa: nếu định nghĩa về con dấu nằm ngoài chuỗi khối, về mặt lý thuyết, có thể ai đó sẽ thách thức sự tồn tại hoặc tính hợp pháp của con dấu đang được đề cập. Để khắc phục vấn đề này, một chuỗi Con dấu sử dụng một lần liên kết được sử dụng:
 
 
-- Each closed seal contains the definition of the following seal;
-- We register these closures (with their _commitments_) within the blockchain (in a Bitcoin transaction);
-- Thus, any attempt to modify a previous seal would contradict the history embedded in Bitcoin.
+- Mỗi con dấu đóng chứa định nghĩa của con dấu sau;
+- Chúng tôi ghi lại các lần đóng này (cùng với _cam kết_ của chúng) trong chuỗi khối (trong giao dịch Bitcoin);
+- Vì vậy, bất kỳ nỗ lực nào nhằm sửa đổi con dấu trước đó đều sẽ mâu thuẫn với lịch sử có trong Bitcoin.
 
-This is precisely what the RGB system does:
-
-
-- Published messages are _commitments_ to client-side validated data;
-- The seal definition is associated with a Bitcoin UTXO ;
-- The seal closes when this UTXO is spent or when a new output is credited to the same commitment;
-- The transaction chain that spends these UTXOs corresponds to the proof of publication: every transition or change of state on RGB is thus anchored in Bitcoin.
-
-To sum up:
+Đây chính xác là những gì hệ thống RGB thực hiện:
 
 
-- The _seal definition_ is the UTXO you intend to seal a future commitment;
-- The _seal closing_ occurs when you spend this UTXO, creating a transaction that contains the commitment;
-- The _witness_ is the transaction itself, which proves that you have closed the seal with this content;
-- You can't prove that a seal hasn't been closed (you can't be absolutely sure that a UTXO hasn't already been spent or won't be spent in a block you haven't seen yet), but you can prove that it has indeed been closed.
+- Các thông điệp được xuất bản là _cam kết_ đối với dữ liệu đã được xác thực ở phía máy khách;
+- Định nghĩa con dấu có liên quan đến Bitcoin UTXO;
+- Con dấu đóng lại khi UTXO này được chi tiêu hoặc khi một đầu ra mới được ghi có vào cùng một cam kết;
+- Chuỗi giao dịch sử dụng các UTXO này tương ứng với bằng chứng công bố: mọi quá trình chuyển đổi hoặc thay đổi trạng thái trên RGB đều được neo trong Bitcoin.
 
-This uniqueness is important for Client-side Validation: when you validate a state transition, you check that it corresponds to a unique UTXO, not previously spent in a competing commitment. This is what guarantees the absence of double spending in off-chain smart contracts.
+Tóm lại:
 
-### Multiple commitments and roots
 
-An RGB smart contract may need to spend several Single-use Seals (several UTXOs) simultaneously. What's more, a single Bitcoin transaction may reference several distinct contracts, each sealing its own state transition. This requires a **multi-commitment** mechanism to prove, deterministically and uniquely, that none of the commitments exists in duplicate. This is where the notion of **anchor** comes into play in RGB: a special structure linking a Bitcoin transaction and one or more client-side commitments (state transitions), each potentially belonging to a different contract. We'll take a closer look at this concept in the next chapter.
+- _Định nghĩa con dấu_ là UTXO mà bạn dự định đóng dấu một cam kết trong tương lai;
+- _Đóng dấu_ xảy ra khi bạn chi tiêu UTXO này, tạo ra một giao dịch chứa cam kết;
+- _Chứng cứ_ chính là giao dịch đó, chứng minh rằng bạn đã đóng dấu có nội dung này;
+- Bạn không thể chứng minh rằng con dấu chưa được đóng (bạn không thể hoàn toàn chắc chắn rằng UTXO chưa được chi tiêu hoặc sẽ không được chi tiêu trong khối mà bạn chưa nhìn thấy), nhưng bạn có thể chứng minh rằng nó thực sự đã được đóng.
+
+Tính duy nhất này rất quan trọng đối với Xác thực phía máy khách: khi bạn xác thực quá trình chuyển đổi trạng thái, bạn kiểm tra xem nó có tương ứng với UTXO duy nhất, chưa từng được chi tiêu trong cam kết cạnh tranh hay không. Đây là điều đảm bảo không có chi tiêu gấp đôi trong các hợp đồng thông minh ngoài chuỗi.
+
+### Nhiều cam kết và gốc rễ
+
+Một hợp đồng thông minh RGB có thể cần sử dụng nhiều Dấu niêm phong sử dụng một lần (nhiều UTXO) cùng một lúc. Hơn nữa, một giao dịch Bitcoin đơn lẻ có thể tham chiếu đến nhiều hợp đồng riêng biệt, mỗi hợp đồng niêm phong trạng thái chuyển đổi riêng của nó. Điều này đòi hỏi một cơ chế **đa cam kết** để chứng minh, một cách xác định và duy nhất, rằng không có cam kết nào tồn tại trùng lặp. Đây là nơi khái niệm **mỏ neo** phát huy tác dụng trong RGB: một cấu trúc đặc biệt liên kết một giao dịch Bitcoin và một hoặc nhiều cam kết phía máy khách (chuyển đổi trạng thái), mỗi cam kết có khả năng thuộc về một hợp đồng khác nhau. Chúng ta sẽ xem xét kỹ hơn khái niệm này trong chương tiếp theo.
 
 ![RGB-Bitcoin](assets/fr/023.webp)
 
-Two of the project's main GitHub repositories (under the LNPBP organization) group together the basic implementations of these concepts studied in the first chapter:
+Hai kho lưu trữ GitHub chính của dự án (thuộc tổ chức LNPBP) nhóm các triển khai cơ bản của các khái niệm đã nghiên cứu trong chương đầu tiên:
 
 
-- client_side_validation** : Contains Rust primitives for local validation ;
-- single_use_seals**: Implements the logic to define and close these seals securely.
+- client_side_validation**: Chứa các nguyên hàm Rust để xác thực cục bộ;
+- single_use_seals**: Triển khai logic để xác định và đóng các niêm phong này một cách an toàn.
 
 ![RGB-Bitcoin](assets/fr/020.webp)
 
-Note that these software bricks are Bitcoin agnostic; in theory, they could be applied to any other proof-of-publication medium (another registry, a journal, etc.). In practice, RGB relies on Bitcoin for its robustness and broad consensus.
+Lưu ý rằng các khối phần mềm này không phụ thuộc vào Bitcoin; về mặt lý thuyết, chúng có thể được áp dụng cho bất kỳ phương tiện chứng minh xuất bản nào khác (một sổ đăng ký khác, một tạp chí, v.v.). Trên thực tế, RGB dựa vào Bitcoin vì tính mạnh mẽ và sự đồng thuận rộng rãi của nó.
 
 ![RGB-Bitcoin](assets/fr/021.webp)
 
-### Questions from the public
+### Câu hỏi từ công chúng
 
-#### Towards wider use of Single-use Seals
+#### Hướng tới việc sử dụng rộng rãi hơn các con dấu dùng một lần
 
-Peter Todd also created the _Open Timestamps_ protocol, and the Single-use Seal concept is a natural extension of these ideas. Beyond RGB, other use cases can be envisaged, such as the construction of _sidechains_ without resorting to _merge mining_ or drivechain-related proposals like BIP300. Any system requiring a single commitment can, in principle, exploit this cryptographic primitive. Today, RGB is the first major full-scale implementation.
+Peter Todd cũng đã tạo ra giao thức _Open Timestamps_ và khái niệm Single-use Seal là sự mở rộng tự nhiên của những ý tưởng này. Ngoài RGB, có thể hình dung ra các trường hợp sử dụng khác, chẳng hạn như việc xây dựng _sidechains_ mà không cần dùng đến _merge mining_ hoặc các đề xuất liên quan đến drivechain như BIP300. Về nguyên tắc, bất kỳ hệ thống nào yêu cầu một cam kết duy nhất đều có thể khai thác nguyên thủy mật mã này. Ngày nay, RGB là triển khai toàn diện lớn đầu tiên.
 
-#### Data availability problems
+#### Các vấn đề về tính khả dụng của dữ liệu
 
-Since in Client-side Validation, each user stores his or her own part of the history, data availability is not guaranteed globally. If a contract issuer withholds or revokes certain information, you may be unaware of the actual evolution of the offer. In some cases (such as stablecoins), the issuer is expected to maintain public data to prove the volume in circulation, but there is no technical obligation to do so. It is therefore possible to design deliberately opaque contracts with unlimited supply, which raises questions of trust.
+Vì trong Xác thực phía máy khách, mỗi người dùng lưu trữ phần lịch sử của riêng mình, nên tính khả dụng của dữ liệu không được đảm bảo trên toàn cầu. Nếu bên phát hành hợp đồng giữ lại hoặc thu hồi một số thông tin nhất định, bạn có thể không biết về sự phát triển thực tế của ưu đãi. Trong một số trường hợp (chẳng hạn như stablecoin), bên phát hành được kỳ vọng sẽ duy trì dữ liệu công khai để chứng minh khối lượng đang lưu hành, nhưng không có nghĩa vụ kỹ thuật nào phải làm như vậy. Do đó, có thể thiết kế các hợp đồng cố tình không minh bạch với nguồn cung không giới hạn, điều này đặt ra câu hỏi về lòng tin.
 
-#### Sharding and contract isolation
+#### Phân mảnh và cô lập hợp đồng
 
-Each contract represents an isolated _shard_: USDT and USDC, for example, do not have to share their histories. Atomic swaps are still possible, but this does not involve merging their registers. Everything is done by cryptographic commitment, without disclosing the entire history graph to each participant.
+Mỗi hợp đồng đại diện cho một _shard_ riêng biệt: USDT và USDC, ví dụ, không phải chia sẻ lịch sử của chúng. Hoán đổi nguyên tử vẫn có thể thực hiện được, nhưng điều này không liên quan đến việc hợp nhất sổ đăng ký của chúng. Mọi thứ đều được thực hiện bằng cam kết mật mã, mà không tiết lộ toàn bộ biểu đồ lịch sử cho từng người tham gia.
 
-### Conclusion
+### Phần kết luận
 
-We've seen where the concept of Client-side Validation fits in with blockchain and _state channels_, how it responds to distributed computing trilemmas, and how it leverages the Bitcoin blockchain uniquely to avoid double-spending and for *time-stamping*. The idea is based on the notion of **Single-use Seal**, enabling the creation of unique commitments that you can't re-spend at will. In this way, each participant uploads only the history that is strictly necessary, increasing the scalability and confidentiality of smart contracts while retaining the security of Bitcoin as a backdrop.
+Chúng ta đã thấy khái niệm Xác thực phía máy khách phù hợp với blockchain và _kênh trạng thái_ như thế nào, cách nó phản ứng với bộ ba điện toán phân tán và cách nó tận dụng blockchain Bitcoin một cách độc đáo để tránh chi tiêu gấp đôi và để *đóng dấu thời gian*. Ý tưởng này dựa trên khái niệm **Dấu niêm phong sử dụng một lần**, cho phép tạo ra các cam kết duy nhất mà bạn không thể chi tiêu lại theo ý muốn. Theo cách này, mỗi người tham gia chỉ tải lên lịch sử thực sự cần thiết, tăng khả năng mở rộng và tính bảo mật của hợp đồng thông minh trong khi vẫn giữ được tính bảo mật của Bitcoin làm nền tảng.
 
-The next step will be to explain in more detail how this Single-use Seal mechanism is applied in Bitcoin (via UTXOs), how anchors are created and validated, and then how complete smart contracts are built in RGB. In particular, we'll look at the issue of multiple commitments, the technical challenge of proving that a Bitcoin transaction simultaneously seals multiple state transitions in different contracts, without introducing vulnerabilities or double commitments.
+Bước tiếp theo sẽ là giải thích chi tiết hơn về cách cơ chế Single-use Seal này được áp dụng trong Bitcoin (thông qua UTXO), cách tạo và xác thực các neo, sau đó là cách xây dựng hợp đồng thông minh hoàn chỉnh trong RGB. Cụ thể, chúng ta sẽ xem xét vấn đề về nhiều cam kết, thách thức kỹ thuật trong việc chứng minh rằng một giao dịch Bitcoin đồng thời niêm phong nhiều trạng thái chuyển đổi trong các hợp đồng khác nhau, mà không gây ra lỗ hổng hoặc cam kết kép.
 
-Before diving into the more technical details of the second chapter, feel free to reread the key definitions (Client-side Validation, Single-use Seal, anchors, etc.) and keep in mind the overall logic: we're looking to reconcile the strengths of the Bitcoin blockchain (security, decentralization, time-stamping) with those of off-chain solutions (speed, confidentiality, scalability), and this is precisely what RGB and Client-side Validation are trying to achieve.
+Trước khi đi sâu vào các chi tiết kỹ thuật hơn của chương thứ hai, bạn có thể thoải mái đọc lại các định nghĩa chính (Xác thực phía máy khách, Dấu niêm phong dùng một lần, mỏ neo, v.v.) và ghi nhớ logic chung: chúng tôi đang tìm cách dung hòa các điểm mạnh của chuỗi khối Bitcoin (bảo mật, phi tập trung, đóng dấu thời gian) với các giải pháp ngoài chuỗi (tốc độ, tính bảo mật, khả năng mở rộng) và đây chính xác là những gì RGB và Xác thực phía máy khách đang cố gắng đạt được.
 
-## The commitment layer
+## Lớp cam kết
 
 <chapterId>cc2fe85a-9cc7-5b8c-a00a-c0a867241061</chapterId>
 
 ![video](https://youtu.be/FS6PDprWl5Q)
 
-In this chapter, we'll look at the implementation of Client-side Validation and Single-use Seals within the Bitcoin blockchain. We'll present the main principles of RGB's **commitment layer** (layer 1), with a particular focus on the **TxO2** scheme, which RGB uses to define and close a seal in a Bitcoin transaction. Next, we'll discuss two important points that haven't yet been covered in detail:
+Trong chương này, chúng ta sẽ xem xét việc triển khai Xác thực phía máy khách và Dấu niêm phong sử dụng một lần trong chuỗi khối Bitcoin. Chúng tôi sẽ trình bày các nguyên tắc chính của **lớp cam kết** (lớp 1) của RGB, đặc biệt tập trung vào lược đồ **TxO2** mà RGB sử dụng để xác định và đóng dấu niêm phong trong giao dịch Bitcoin. Tiếp theo, chúng ta sẽ thảo luận về hai điểm quan trọng chưa được đề cập chi tiết:
 
 
-- The _deterministic Bitcoin commitments_;
-- Multi-protocol commitments.
+- _Những cam kết mang tính quyết định của Bitcoin_;
+- Cam kết đa giao thức.
 
-It is the combination of these concepts that enables us to superimpose several systems or contracts on top of a single UTXO and therefore a single blockchain.
+Sự kết hợp của những khái niệm này cho phép chúng ta chồng nhiều hệ thống hoặc hợp đồng lên một UTXO duy nhất và do đó là một blockchain duy nhất.
 
-It should be remembered that the cryptographic operations described can be applied, in absolute terms, to other blockchains or publishing media, but Bitcoin's characteristics (in terms of decentralization, resistance to censorship and openness to all) make it the ideal foundation for developing advanced programmability such as that required by **RGB**.
+Cần nhớ rằng các hoạt động mã hóa được mô tả có thể được áp dụng, theo nghĩa tuyệt đối, cho các blockchain hoặc phương tiện xuất bản khác, nhưng các đặc điểm của Bitcoin (về mặt phi tập trung, chống kiểm duyệt và cởi mở với tất cả mọi người) khiến nó trở thành nền tảng lý tưởng để phát triển khả năng lập trình nâng cao như khả năng mà **RGB** yêu cầu.
 
-### Commitment schemes in Bitcoin and their use by RGB
+### Các chương trình cam kết trong Bitcoin và việc sử dụng chúng của RGB
 
-As we saw in the first chapter of the course, Single-use Seals are a general concept: we make a promise to include a commitment (_commitment_) in a specific location of a transaction, and this location acts like a seal that we close on a message. However, on the Bitcoin blockchain, there are several options for choosing where to place this _commitment_.
+Như chúng ta đã thấy trong chương đầu tiên của khóa học, Dấu niêm phong dùng một lần là một khái niệm chung: chúng ta hứa sẽ đưa cam kết (_cam kết_) vào một vị trí cụ thể của giao dịch và vị trí này hoạt động như một dấu niêm phong mà chúng ta đóng trên một thông điệp. Tuy nhiên, trên chuỗi khối Bitcoin, có một số tùy chọn để chọn nơi đặt _cam kết_ này.
 
-To understand the logic, let's recall the basic principle: to close a _single-use seal_, we spend the sealed area by inserting the _commitment_ on a given message. In Bitcoin, this can be done in a number of ways:
-
-
-- Use a public key or address**
-
-We can decide that a specific public key or address is the _single-use seal_. As soon as this key or address appears on-chain in a transaction, it means that the seal is closed with a certain message.
+Để hiểu logic, chúng ta hãy nhớ lại nguyên tắc cơ bản: để đóng _con dấu sử dụng một lần_, chúng ta sử dụng vùng đã niêm phong bằng cách chèn _cam kết_ vào một thông điệp nhất định. Trong Bitcoin, điều này có thể được thực hiện theo một số cách:
 
 
-- Use a Bitcoin** transaction output
+- Sử dụng khóa công khai hoặc địa chỉ**
 
-This means that a _single-use seal_ is defined as a precise _outpoint_ (a TXID + output number pair). As soon as this _outpoint_ is spent, the seal is closed.
-
-While working on RGB, we identified at least 4 different ways to implement these seals on Bitcoin:
+Chúng ta có thể quyết định rằng một khóa công khai hoặc địa chỉ cụ thể là _con dấu sử dụng một lần_. Ngay khi khóa hoặc địa chỉ này xuất hiện trên chuỗi trong một giao dịch, điều đó có nghĩa là con dấu được đóng lại bằng một thông báo nhất định.
 
 
-- Define the seal via a public key, and close it in an _output_ ;
-- Define the seal with an _outpoint_ and close it with an _output_ ;
-- Define the seal via the value of a public key, and close it in a _input_ ;
-- Define the seal via an _outpoint_, and close it in an _input_.
+- Sử dụng đầu ra giao dịch Bitcoin**
 
-| Seal definition | Seal closure | Additional requirements | Main application | Possible engagement schemes |
+Điều này có nghĩa là _con dấu sử dụng một lần_ được định nghĩa là _outpoint_ chính xác (một cặp TXID + số đầu ra). Ngay khi _outpoint_ này được sử dụng hết, con dấu sẽ được đóng lại.
 
-| ------------- | ------------------------- | --------------------- | ----------------------------------------------------------------- | ---------------------------- | ------------------------------ |
-
-| P2(W)PKH | None at present | Keytweak, taptweak, opret |
-
-| TxO2 | Transaction output | Transaction output | Requires deterministic commitments on Bitcoin | RGBv1 (universal) | Keytweak, tapret, opret |
-
-| PkI | Public key value | Transaction entry | Taproot only & not compatible with Legacy wallets | Bitcoin-based identities | Sigtweak, witweak |
-
-| TxO1 | Transaction output | Transaction input | Taproot only & not compatible with Legacy wallets | None at present | Sigtweak, witweak |
-
-We won't go into detail about each of these configurations, as in RGB we've chosen to use **an _outpoint_ as the definition of the seal**, and to place the _commitment_ in the output of the transaction spending this _outpoint_. We can therefore introduce the following concepts for the sequel:
+Trong khi làm việc trên RGB, chúng tôi đã xác định được ít nhất 4 cách khác nhau để triển khai các con dấu này trên Bitcoin:
 
 
-- "Seal definition "** : A given _outpoint_ (identified by TXID + output no.) ;
-- "Seal closing "**: The transaction that spends this _outpoint_, in which a _commitment_ is added to a message.
+- Xác định con dấu thông qua khóa công khai và đóng nó trong _output_;
+- Xác định dấu niêm phong bằng _outpoint_ và đóng nó bằng _output_;
+- Xác định con dấu thông qua giá trị của khóa công khai và đóng nó trong _input_;
+- Xác định dấu niêm phong thông qua _outpoint_ và đóng nó trong _input_.
 
-This scheme has been selected for its compatibility with RGB architecture, but other configurations could be useful for different uses.
+| Tên sơ đồ    | Định nghĩa niêm phong      | Đóng niêm phong       | Yêu cầu bổ sung                                                | Ứng dụng chính               | Các sơ đồ cam kết có thể có   |
+| ------------ | ------------------------- | --------------------- | -------------------------------------------------------------- | ---------------------------- | ------------------------------ |
+| PkO          | Giá trị của khóa công khai | Đầu ra giao dịch      | P2(W)PKH                                                       | Hiện tại chưa có             | Keytweak, taptweak, opret      |
+| TxO2         | Đầu ra giao dịch          | Đầu ra giao dịch      | Yêu cầu các cam kết xác định trên Bitcoin                      | RGBv1 (phổ quát)             | Keytweak, tapret, opret        |
+| PkI          | Giá trị của khóa công khai | Đầu vào giao dịch     | Chỉ hỗ trợ Taproot & không tương thích với ví Legacy          | Danh tính dựa trên Bitcoin   | Sigtweak, witweak              |
+| TxO1         | Đầu ra giao dịch          | Đầu vào giao dịch     | Chỉ hỗ trợ Taproot & không tương thích với ví Legacy          | Hiện tại chưa có             | Sigtweak, witweak              |
 
-The "O2" in "TxO2" reminds us that both definition and closure are based on the expenditure (or creation) of a transaction output.
 
-### TxO2 diagram example
+Chúng tôi sẽ không đi sâu vào từng cấu hình này, vì trong RGB, chúng tôi đã chọn sử dụng **một _outpoint_ làm định nghĩa của seal** và đặt _commitment_ vào đầu ra của giao dịch chi tiêu _outpoint_ này. Do đó, chúng tôi có thể giới thiệu các khái niệm sau cho phần tiếp theo:
 
-As a reminder, defining a _single-use seal_ does not necessarily require publishing an on-chain transaction. It's enough for Alice, for example, to already have an unspent UTXO. She can decide: "This _outpoint_ (already existing) is now my seal". She notes this locally (_client-side_), and until this UTXO is spent, the seal is considered open.
+
+- "Định nghĩa con dấu "**: Một _điểm ra_ nhất định (được xác định bởi TXID + số đầu ra) ;
+- "Đóng dấu"**: Giao dịch chi tiêu _outpoint_ này, trong đó _cam kết_ được thêm vào tin nhắn.
+
+Sơ đồ này được chọn vì tính tương thích của nó với kiến trúc RGB, nhưng các cấu hình khác có thể hữu ích cho những mục đích sử dụng khác nhau.
+
+"O2" trong "TxO2" nhắc nhở chúng ta rằng cả định nghĩa và đóng đều dựa trên chi phí (hoặc tạo ra) của đầu ra giao dịch.
+
+### Ví dụ về sơ đồ TxO2
+
+Xin nhắc lại, việc xác định _con dấu sử dụng một lần_ không nhất thiết phải yêu cầu công bố giao dịch trên chuỗi. Ví dụ, đối với Alice, chỉ cần có một UTXO chưa sử dụng là đủ. Cô ấy có thể quyết định: "_Điểm ra_ này (đã tồn tại) hiện là con dấu của tôi". Cô ấy ghi chú điều này tại địa phương (_phía máy khách_) và cho đến khi UTXO này được sử dụng, con dấu được coi là mở.
 
 ![RGB-Bitcoin](assets/fr/024.webp)
 
-On the day it wants to close the seal (to signal an event, or to anchor a particular message), it spends this UTXO in a new transaction (this transaction is often called the "_witness transaction_" (unrelated to _segwit_, it's just the term we give it). This new transaction will contain the _commitment_ to the message.
+Vào ngày muốn đóng dấu (để báo hiệu một sự kiện hoặc neo một thông điệp cụ thể), nó sẽ sử dụng UTXO này trong một giao dịch mới (giao dịch này thường được gọi là "_giao dịch chứng kiến_" (không liên quan đến _segwit_, đó chỉ là thuật ngữ chúng tôi đặt cho nó). Giao dịch mới này sẽ chứa _cam kết_ cho thông điệp.
 
 ![RGB-Bitcoin](assets/fr/025.webp)
 
-Note that in this example :
+Lưu ý rằng trong ví dụ này:
 
 
-- No one but Bob (or the people to whom Alice chooses to reveal the full proof) will know that a certain message is hidden in this transaction;
-- Everyone can see that the _outpoint_ has been spent, but only Bob holds the proof that the message is actually anchored in the transaction.
+- Không ai ngoài Bob (hoặc những người mà Alice chọn tiết lộ toàn bộ bằng chứng) biết rằng có một thông điệp nhất định được ẩn trong giao dịch này;
+- Mọi người đều có thể thấy rằng _outpoint_ đã được chi tiêu, nhưng chỉ có Bob mới nắm giữ bằng chứng cho thấy thông điệp thực sự được neo trong giao dịch.
 
-To illustrate this TxO2 scheme, we can use a _single-use seal_ as a mechanism for revoking a PGP key. Instead of publishing a revocation certificate on servers, Alice can say: "This Bitcoin output, if spent, means that my PGP key is revoked".
+Để minh họa cho sơ đồ TxO2 này, chúng ta có thể sử dụng _con dấu sử dụng một lần_ làm cơ chế để thu hồi khóa PGP. Thay vì công bố chứng chỉ thu hồi trên máy chủ, Alice có thể nói: "Đầu ra Bitcoin này, nếu được chi tiêu, có nghĩa là khóa PGP của tôi đã bị thu hồi".
 
-Alice therefore has a specific UTXO, to which a certain state or data (known only to her) is associated locally (on the client side).
+Do đó, Alice có một UTXO cụ thể, trong đó một trạng thái hoặc dữ liệu nhất định (chỉ cô ấy biết) được liên kết cục bộ (ở phía máy khách).
 
-Alice informs Bob that if this UTXO is spent, a particular event will be deemed to have occurred. From the outside, all we see is a Bitcoin transaction; but Bob knows that this expenditure has a hidden meaning.
+Alice thông báo cho Bob rằng nếu UTXO này được chi tiêu, một sự kiện cụ thể sẽ được coi là đã xảy ra. Từ bên ngoài, tất cả những gì chúng ta thấy là một giao dịch Bitcoin; nhưng Bob biết rằng khoản chi tiêu này có một ý nghĩa ẩn.
 
 ![RGB-Bitcoin](assets/fr/026.webp)
 
-As Alice spends this UTXO, she closes the seal on a message indicating her new key, or simply the revocation of the old one. In this way, anyone monitoring on-chain will see that the UTXO is spent, but only those with the full proof will know that it is precisely the revocation of the PGP key.
+Khi Alice sử dụng UTXO này, cô ấy đóng niêm phong trên một thông báo cho biết khóa mới của mình hoặc đơn giản là thu hồi khóa cũ. Theo cách này, bất kỳ ai theo dõi on-chain sẽ thấy UTXO đã được sử dụng, nhưng chỉ những người có bằng chứng đầy đủ mới biết rằng đó chính xác là việc thu hồi khóa PGP.
 
 ![RGB-Bitcoin](assets/fr/027.webp)
 
-In order for Bob or anyone else involved to check the hidden message, Alice must provide him with off-chain information.
+Để Bob hoặc bất kỳ ai khác có liên quan có thể kiểm tra tin nhắn ẩn, Alice phải cung cấp cho anh ta thông tin ngoài chuỗi.
 
 ![RGB-Bitcoin](assets/fr/028.webp)
 
-Alice must therefore provide Bob with :
+Do đó, Alice phải cung cấp cho Bob:
 
 
-- The message itself (for example, the new PGP key) ;
-- Cryptographic proof that the message was involved in the transaction (known as _extra transaction proof_ or _anchor_).
+- Bản thân thông báo (ví dụ: khóa PGP mới);
+- Bằng chứng mật mã chứng minh rằng tin nhắn có liên quan đến giao dịch (được gọi là _bằng chứng giao dịch bổ sung_ hoặc _mỏ neo_).
 
 ![RGB-Bitcoin](assets/fr/029.webp)
 
-Third parties don't have this information. They only see that a UTXO has been spent. Confidentiality is therefore assured.
+Bên thứ ba không có thông tin này. Họ chỉ thấy rằng UTXO đã được chi tiêu. Do đó, tính bảo mật được đảm bảo.
 
-To clarify the structure, let's summarize the process in two transactions:
+Để làm rõ cấu trúc, chúng ta hãy tóm tắt quy trình thành hai giao dịch:
 
 
-- Transaction 1**: This contains the _seal definition_, i.e. the _outpoint_ that will serve as the seal.
+- Giao dịch 1**: Giao dịch này chứa _định nghĩa dấu niêm phong_, tức là _điểm ra_ sẽ đóng vai trò là dấu niêm phong.
 
 ![RGB-Bitcoin](assets/fr/031.webp)
 
 
-- Transaction 2**: Spends this _outpoint_. This closes the seal and, in the same transaction, inserts the _commitment_ on the message.
+- Giao dịch 2**: Chi tiêu _outpoint_ này. Thao tác này đóng dấu và, trong cùng giao dịch, chèn _cam kết_ vào tin nhắn.
 
 ![RGB-Bitcoin](assets/fr/033.webp)
 
-We therefore call the second transaction the "_witness transaction_".
+Do đó, chúng tôi gọi giao dịch thứ hai là "_giao dịch chứng kiến_".
 
-To illustrate this from another angle, we can represent two layers:
+Để minh họa điều này từ một góc độ khác, chúng ta có thể biểu diễn hai lớp:
 
 
-- The top layer (blockchain, public)**: everyone sees the transaction and knows that a _outpoint_ has been spent;
-- The lower layer (client-side, private)** : only Alice (or the person concerned) knows that this expense corresponds to such and such a message, via the cryptographic proof and the message she keeps locally.
+- Lớp trên cùng (chuỗi khối, công khai)**: mọi người đều thấy giao dịch và biết rằng _điểm ra_ đã được chi tiêu;
+- Lớp dưới (phía máy khách, riêng tư)**: chỉ Alice (hoặc người có liên quan) biết rằng khoản chi này tương ứng với thông điệp này thông qua bằng chứng mật mã và thông điệp mà cô ấy lưu giữ cục bộ.
 
 ![RGB-Bitcoin](assets/fr/034.webp)
 
-But when closing the seal, the question arises as to where the _commitment_ should be inserted
+Nhưng khi đóng dấu, câu hỏi đặt ra là nên chèn _cam kết_ vào đâu
 
-In the previous section, we briefly mentioned how the Client-side Validation model can be applied to RGB and other systems. Here, we tackle the part about **deterministic Bitcoin commitments** and how to integrate them into a transaction. The idea is to understand why we are trying to insert a single commitment into the _witness transaction_, and above all how to ensure that there can be no other undisclosed competing commitments.
+Trong phần trước, chúng tôi đã đề cập ngắn gọn về cách mô hình Xác thực phía máy khách có thể được áp dụng cho RGB và các hệ thống khác. Ở đây, chúng tôi giải quyết phần về **cam kết Bitcoin xác định** và cách tích hợp chúng vào giao dịch. Ý tưởng là để hiểu lý do tại sao chúng tôi cố gắng chèn một cam kết duy nhất vào _giao dịch chứng kiến_ và trên hết là cách đảm bảo rằng không có cam kết cạnh tranh nào khác không được tiết lộ.
 
-### Commitment locations in a transaction
+### Vị trí cam kết trong một giao dịch
 
-When you give someone proof that a certain message is embedded in a transaction, you need to be able to guarantee that there isn't another form of commitment (a second, hidden message) in the same transaction that hasn't been revealed to you. For client-side validation to remain robust, you need a **deterministic** mechanism for placing a single _commitment_ in the transaction that closes the _single-use seal_.
+Khi bạn cung cấp cho ai đó bằng chứng rằng một thông điệp nhất định được nhúng trong giao dịch, bạn cần có khả năng đảm bảo rằng không có hình thức cam kết nào khác (một thông điệp ẩn thứ hai) trong cùng một giao dịch mà bạn chưa được tiết lộ. Để xác thực phía máy khách vẫn mạnh mẽ, bạn cần một cơ chế **xác định** để đặt một _cam kết_ duy nhất trong giao dịch đóng _dấu niêm phong sử dụng một lần_.
 
-The _witness transaction_ spends the famous UTXO (or _seal definition_) and this expenditure corresponds to the closing of the seal. Technically speaking, we know that each outpoint can only be spent once. This is precisely what underpins Bitcoin's resistance to double spending. But the spending transaction may have several _inputs_, several _outputs_, or be composed in a complex way (coinjoins, Lightning channels, etc.). We therefore need to clearly define where to insert the _commitment_ in this structure, unambiguously and uniformly.
+_Giao dịch chứng kiến_ chi tiêu UTXO nổi tiếng (hoặc _định nghĩa con dấu_) và khoản chi tiêu này tương ứng với việc đóng con dấu. Về mặt kỹ thuật, chúng ta biết rằng mỗi điểm ra chỉ có thể được chi tiêu một lần. Đây chính xác là điều củng cố khả năng chống lại chi tiêu gấp đôi của Bitcoin. Nhưng giao dịch chi tiêu có thể có nhiều _đầu vào_, nhiều _đầu ra_ hoặc được tạo thành theo cách phức tạp (coinjoin, kênh Lightning, v.v.). Do đó, chúng ta cần xác định rõ ràng nơi chèn _cam kết_ vào cấu trúc này, một cách rõ ràng và thống nhất.
 
-Whatever the method (PkO, TxO2, etc.), the _commitment_ can be inserted :
+Bất kể phương pháp nào (PkO, TxO2, v.v.), _cam kết_ đều có thể được chèn vào:
 
 
-- In an Input** via :
-    - Sigtweak** (modifies the `r` component of the ECDSA signature, similar to the "Sign-to-contract" principle) ;
-    - Witweak** (the transaction's _segregated witness_ data is modified).
-- In an Output** via :
-    - Keytweak** (the recipient's public key is "tweaked" with the message) ;
-    - Opret** (the message is placed in a non-spendable output `OP_RETURN`) ;
-    - Tapret** (or _Taptweak_), which relies on taproot to insert commitment into the script part of a taproot key, thus modifying the public key deterministically.
+- Trong Đầu vào** qua:
+    - Sigtweak** (sửa đổi thành phần `r` của chữ ký ECDSA, tương tự như nguyên tắc "Ký hợp đồng");
+    - Witweak** (dữ liệu chứng thực _được phân tách_ của giao dịch được sửa đổi).
+- Trong Đầu ra** thông qua:
+    - Keytweak** (khóa công khai của người nhận được "điều chỉnh" bằng tin nhắn);
+    - Opret** (tin nhắn được đặt trong đầu ra không thể chi tiêu `OP_RETURN`);
+    - Tapret** (hay _Taptweak_), dựa vào taproot để chèn cam kết vào phần tập lệnh của khóa taproot, do đó sửa đổi khóa công khai một cách xác định.
 
 ![RGB-Bitcoin](assets/fr/035.webp)
 
-Here are the details of each method:
+Sau đây là thông tin chi tiết về từng phương pháp:
 
 ![RGB-Bitcoin](assets/fr/038.webp)
 
-***Sig tweak (sign-to-contract) :***
+***Điều chỉnh chữ ký (ký hợp đồng) :***
 
-An earlier scheme involved exploiting the random part of a signature (ECDSA or Schnorr) to embed the _commitment_: this is the technique known as "**Sign-to-contract**". You replace the randomly generated nonce with a hash containing the data. In this way, the signature implicitly reveals your commitment, without any additional space in the transaction. This approach has a number of advantages:
-
-
-- No on-chain overload (you use the same place as the basic nonce);
-- In theory, this can be quite discrete, as the nonce is initially a random datum.
-
-However, 2 major drawbacks have emerged:
+Một kế hoạch trước đó liên quan đến việc khai thác phần ngẫu nhiên của chữ ký (ECDSA hoặc Schnorr) để nhúng _cam kết_: đây là kỹ thuật được gọi là "**Sign-to-contract**". Bạn thay thế nonce được tạo ngẫu nhiên bằng hàm băm chứa dữ liệu. Theo cách này, chữ ký ngầm tiết lộ cam kết của bạn, mà không cần bất kỳ khoảng trống bổ sung nào trong giao dịch. Cách tiếp cận này có một số lợi thế:
 
 
-- Multisig before Taproot: when you have several signatories, you need to decide which signature will carry the _commitment_. Signatures can be ordered differently, and if a signatory refuses, you lose control over the outcome of the _commitment_;
-- MuSig and the shared nonce: with Schnorr multisig (*MuSig*), nonce generation is a multiparty algorithm, and it becomes virtually impossible to tweak the nonce individually.
+- Không có tình trạng quá tải trên chuỗi (bạn sử dụng cùng một vị trí như nonce cơ bản);
+- Về mặt lý thuyết, điều này có thể khá rời rạc vì nonce ban đầu là một dữ liệu ngẫu nhiên.
 
-In practice, **sig tweak** is also not very compatible with existing hardware (hardware wallets) and formats (Lightning, etc.). So this great idea is hard to put into practice.
-
-***Key tweak (pay-to-contract) :***
-
-The **key tweak** takes up the historical concept of _pay-to-contract_. We take the public key `X` and tweak it by adding the value `H(message)`. Specifically, if `X = x * G` and `h = H(message)`, then the new key will be `X' = X + h * G`. This tweaked key hides the commitment to the `message`. The holder of the original private key can, by adding `h` to his private key `x`, prove that he has the key to spend the output. In theory, this is elegant, because :
+Tuy nhiên, 2 nhược điểm lớn đã xuất hiện:
 
 
-- The _commitment_ is entered without adding any additional fields;
-- You don't store any additional on-chain data.
+- Multisig trước Taproot: khi bạn có nhiều người ký, bạn cần quyết định chữ ký nào sẽ mang _cam kết_. Chữ ký có thể được sắp xếp theo thứ tự khác nhau và nếu một người ký từ chối, bạn sẽ mất quyền kiểm soát kết quả của _cam kết_;
+- MuSig và nonce được chia sẻ: với Schnorr multisig (*MuSig*), việc tạo nonce là một thuật toán đa bên và việc điều chỉnh nonce riêng lẻ trở nên hầu như không thể.
 
-In practice, however, we come up against the following difficulties:
+Trên thực tế, **sig tweak** cũng không tương thích lắm với phần cứng hiện có (ví phần cứng) và định dạng (Lightning, v.v.). Vì vậy, ý tưởng tuyệt vời này khó có thể đưa vào thực tế.
 
+***Điều chỉnh chính (trả tiền theo hợp đồng) :***
 
-- Wallets no longer recognize the standard public key, since it has been "tweaked", so they can't easily associate UTXO with your usual key;
-- Hardware wallets are not designed to sign with a key that is not derived from their standard derivation;
-- You need to adapt your scripts, descriptors, etc.
-
-In the context of RGB, this path was envisaged until 2021, but it proved too complicated to make it work with current standards and infrastructure.
-
-***Witness tweak :***
-
-Another idea, which certain protocols such as _inscriptions Ordinals_ have put into practice, is to place the data directly in the `witness` section of the transaction (hence the expression "witness tweak"). However, this method :
+**Điều chỉnh khóa** sử dụng khái niệm lịch sử về _pay-to-contract_. Chúng tôi lấy khóa công khai `X` và điều chỉnh nó bằng cách thêm giá trị `H(message)`. Cụ thể, nếu `X = x * G` và `h = H(message)`, thì khóa mới sẽ là `X' = X + h * G`. Khóa điều chỉnh này ẩn cam kết với `message`. Người giữ khóa riêng ban đầu có thể, bằng cách thêm `h` vào khóa riêng `x` của mình, chứng minh rằng anh ta có khóa để chi tiêu đầu ra. Về mặt lý thuyết, điều này rất thanh lịch, bởi vì:
 
 
-- Makes engagement immediately visible (you literally paste raw data into the witness);
-- May be subject to censorship (miners or nodes may refuse to relay if it is too large or any other arbitrary characteristic);
-- Consumes space in the blocks, contrary to RGB's objective of discretion and lightness.
+- _Cam kết_ được nhập mà không cần thêm bất kỳ trường bổ sung nào;
+- Bạn không lưu trữ bất kỳ dữ liệu bổ sung nào trên chuỗi.
 
-In addition, witness is designed to be prunable in certain contexts, which can make having robust proofs more complicated.
+Tuy nhiên, trên thực tế, chúng ta gặp phải những khó khăn sau:
 
-***Open-return (opret) :***
 
-Very simple in its operation, an `OP_RETURN` allows you to store a hash or message in a special field of the transaction. But it's immediately detectable: everyone sees that there's a _commitment_ in the transaction, and it can be censored or discarded, as well as adding extra output. Since this increases transparency and size, it's considered less satisfactory from the point of view of a Client-side Validation solution.
+- Ví không còn nhận dạng được khóa công khai chuẩn nữa vì nó đã bị "điều chỉnh", do đó chúng không thể dễ dàng liên kết UTXO với khóa thông thường của bạn;
+- Ví phần cứng không được thiết kế để ký bằng khóa không có nguồn gốc từ khóa chuẩn của chúng;
+- Bạn cần phải điều chỉnh kịch bản, mô tả, v.v. của mình.
+
+Trong bối cảnh RGB, con đường này được hình dung cho đến năm 2021, nhưng nó tỏ ra quá phức tạp để có thể hoạt động với các tiêu chuẩn và cơ sở hạ tầng hiện tại.
+
+***Điều chỉnh nhân chứng :***
+
+Một ý tưởng khác, mà một số giao thức như _inscriptions Ordinals_ đã đưa vào thực hành, là đặt dữ liệu trực tiếp vào phần `witness` của giao dịch (do đó có cụm từ "witness tweak"). Tuy nhiên, phương pháp này:
+
+
+- Làm cho sự tương tác được nhìn thấy ngay lập tức (bạn thực sự dán dữ liệu thô vào nhân chứng);
+- Có thể bị kiểm duyệt (thợ đào hoặc nút có thể từ chối chuyển tiếp nếu nó quá lớn hoặc có bất kỳ đặc điểm tùy ý nào khác);
+- Chiếm không gian trong các khối, trái với mục tiêu kín đáo và nhẹ nhàng của RGB.
+
+Ngoài ra, witness được thiết kế để có thể cắt xén trong một số bối cảnh nhất định, điều này có thể khiến việc có được bằng chứng mạnh mẽ trở nên phức tạp hơn.
+
+***Trả lời mở (opret) :***
+
+Rất đơn giản trong hoạt động của nó, `OP_RETURN` cho phép bạn lưu trữ một hàm băm hoặc tin nhắn trong một trường đặc biệt của giao dịch. Nhưng nó có thể phát hiện ngay lập tức: mọi người đều thấy rằng có một _cam kết_ trong giao dịch và nó có thể bị kiểm duyệt hoặc loại bỏ, cũng như thêm đầu ra bổ sung. Vì điều này làm tăng tính minh bạch và kích thước, nên nó được coi là ít thỏa đáng hơn theo quan điểm của giải pháp Xác thực phía Máy khách.
 
 ```txt
 34-byte_Opret_Commitment =
@@ -631,11 +622,11 @@ OP_RETURN   OP_PUSHBYTE_32   <mpc::Commitment>
 
 ### Tapret
 
-The final option is the use of **Taproot** (introduced with BIP341) with the *Tapret* scheme. *Tapret* is a more complex form of deterministic commitment, which brings improvements in terms of footprint on the blockchain and confidentiality for contract operations. The main idea is to hide the commitment in the `Script Path Spend` part of a [taproot transaction](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki).
+Tùy chọn cuối cùng là sử dụng **Taproot** (được giới thiệu với BIP341) với sơ đồ *Tapret*. *Tapret* là một hình thức cam kết xác định phức tạp hơn, mang lại những cải tiến về dấu chân trên blockchain và tính bảo mật cho các hoạt động hợp đồng. Ý tưởng chính là ẩn cam kết trong phần `Script Path Spend` của [giao dịch taproot](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki).
 
 ![RGB-Bitcoin](assets/fr/036.webp)
 
-Before describing how the commitment is inserted into a taproot transaction, let's look at the **exact form** of the commitment, which must **imperatively** correspond to a 64-byte string [constructed](https://github.com/BP-WG/bp-core/blob/master/dbc/src/tapret/mod.rs#L179-L196) as follows:
+Trước khi mô tả cách cam kết được chèn vào giao dịch taproot, chúng ta hãy xem **hình thức chính xác** của cam kết, **bắt buộc** phải tương ứng với chuỗi 64 byte [được xây dựng](https://github.com/BP-WG/bp-core/blob/master/dbc/src/tapret/mod.rs#L179-L196) như sau:
 
 ```txt
 64-byte_Tapret_Commitment =
@@ -647,584 +638,555 @@ TAPRET_SCRIPT_COMMITMENT_PREFIX = 31 bytes                    MPC commitment + N
 ```
 
 
-- The 29 bytes `OP_RESERVED`, followed by `OP_RETURN`, then `OP_PUSHBYTE_33`, form the 31-byte _prefix_ part;
-- Next comes a 32-byte _commitment_ (usually the Merkle root from **MPC**), to which we add 1 byte of **Nonce** (a total of 33 bytes for this second part).
+- 29 byte `OP_RESERVED`, theo sau là `OP_RETURN`, rồi `OP_PUSHBYTE_33`, tạo thành phần _prefix_ 31 byte;
+- Tiếp theo là _cam kết_ 32 byte (thường là gốc Merkle từ **MPC**), chúng ta thêm 1 byte **Nonce** (tổng cộng là 33 byte cho phần thứ hai này).
 
-So the 64-byte `Tapret` method looks like an `Opret` to which we've prefixed 29 bytes of `OP_RESERVED` and added an extra byte as a Nonce.
+Vì vậy, phương thức `Tapret` 64 byte trông giống như `Opret` mà chúng ta đã thêm tiền tố 29 byte `OP_RESERVED` và thêm một byte bổ sung làm Nonce.
 
-To maintain flexibility in terms of implementation, confidentiality and scaling, the Tapret scheme takes into account various use cases, depending on requirements:
+Để duy trì tính linh hoạt về mặt triển khai, tính bảo mật và khả năng mở rộng, chương trình Tapret sẽ tính đến nhiều trường hợp sử dụng khác nhau, tùy thuộc vào yêu cầu:
 
 
-- Unique incorporation of a Tapret commitment into a taproot transaction without a pre-existing Script Path structure;
-- Integration of a Tapret commitment into a Taproot transaction already equipped with a Script Path.
+- Việc kết hợp duy nhất cam kết Tapret vào giao dịch taproot mà không có cấu trúc Script Path có sẵn;
+- Tích hợp cam kết Tapret vào giao dịch Taproot đã được trang bị Đường dẫn tập lệnh.
 
-Let's take a closer look at each of these two scenarios.
+Chúng ta hãy xem xét kỹ hơn từng tình huống trong hai tình huống này.
 
-#### Tapret incorporation without existing Script Path
+#### Kết hợp Tapret mà không có Script Path hiện có
 
-In this first case, we start from a taproot output key (*Taproot Output Key*) `Q` which contains only the internal public key `P` *(Internal Key*), with no associated script path (*Script Path*) :
+Trong trường hợp đầu tiên này, chúng ta bắt đầu từ khóa đầu ra taproot (*Khóa đầu ra Taproot*) `Q` chỉ chứa khóa công khai nội bộ `P` *(Khóa nội bộ*), không có đường dẫn tập lệnh liên quan (*Đường dẫn tập lệnh*):
 
 ![RGB-Bitcoin](assets/fr/047.webp)
 
 
-- `P`: the internal public key for the _Key Path Spend_.
-- `G`: the generating point of the elliptic curve [secp256k1](https://en.bitcoin.it/wiki/Secp256k1).
-- t = tH_TWEAK(P)` is the tweak factor, calculated via a _tagged hash_ (e.g. `SHA-256(SHA-256(TapTweak) || P)`), in accordance with [BIP86](https://github.com/bitcoin/bips/blob/master/bip-0086.mediawiki#address-derivation). This proves that there is no hidden script.
+- `P`: khóa công khai nội bộ cho _Key Path Spend_.
+- `G`: điểm tạo nên đường cong elip [secp256k1](https://en.bitcoin.it/wiki/Secp256k1).
+- t = tH_TWEAK(P)` là hệ số điều chỉnh, được tính toán thông qua _băm được gắn thẻ_ (ví dụ: `SHA-256(SHA-256(TapTweak) || P)`), theo [BIP86](https://github.com/bitcoin/bips/blob/master/bip-0086.mediawiki#address-derivation). Điều này chứng tỏ không có tập lệnh ẩn nào.
 
-To include a **Tapret** commitment, add a **Script Path Spend** with a **unique script**, as follows:
+Để bao gồm cam kết **Tapret**, hãy thêm **Chi tiêu đường dẫn tập lệnh** với **tập lệnh duy nhất**, như sau:
 
 ![RGB-Bitcoin](assets/fr/048.webp)
 
 
-- t = tH_TWEAK(P || Script_root)` then becomes the new tweak factor, including the **Script_root**.
-- `Script_root = tH_BRANCH(64-byte_Tapret_Commitment)` represents the root of this **script**, which is simply a hash of type `SHA-256(SHA-256(TapBranch) || 64-byte_Tapret_Commitment)`.
+- t = tH_TWEAK(P || Script_root)` sau đó trở thành hệ số điều chỉnh mới, bao gồm **Script_root**.
+- `Script_root = tH_BRANCH(64-byte_Tapret_Commitment)` biểu thị gốc của **script** này, về cơ bản là một hàm băm có kiểu `SHA-256(SHA-256(TapBranch) || 64-byte_Tapret_Commitment)`.
 
-The proof of inclusion and uniqueness in the taproot tree here boils down to the single internal public key `P`.
+Bằng chứng về tính bao gồm và tính duy nhất trong cây rễ cái ở đây được tóm gọn lại bằng khóa công khai nội bộ duy nhất `P`.
 
-#### Tapret integration into a pre-existing Script Path
+#### Tích hợp Tapret vào Script Path đã có sẵn
 
-The second scenario concerns a more complex `Q` taproot** output, which already contains several scripts. For example, we have a tree of 3 scripts:
+Kịch bản thứ hai liên quan đến đầu ra `Q` taproot** phức tạp hơn, vốn đã chứa một số tập lệnh. Ví dụ, chúng ta có một cây gồm 3 tập lệnh:
 
 ![RGB-Bitcoin](assets/fr/049.webp)
 
 
-- tH_LEAF(x)` designates the normalized tagged hash function of a leaf script.
-- a, B, C` represent scripts already included in the taproot structure.
+- tH_LEAF(x)` chỉ định hàm băm được gắn thẻ chuẩn hóa của một tập lệnh lá.
+- a, B, C` biểu diễn các tập lệnh đã có trong cấu trúc taproot.
 
-To add the Tapret commitment, we need to insert an *unspendable script* at the first level of the tree, shifting the existing scripts one level down. Visually, the tree becomes :
+Để thêm cam kết Tapret, chúng ta cần chèn một *tập lệnh không thể chi tiêu* ở cấp độ đầu tiên của cây, dịch chuyển các tập lệnh hiện có xuống một cấp độ. Về mặt trực quan, cây trở thành:
 
 ![RGB-Bitcoin](assets/fr/050.webp)
 
 
-- tHABC` represents the tagged hash of the top level grouping `A, B, C`.
-- tHT` represents the hash of the script corresponding to the 64-byte `Tapret`.
+- tHABC` biểu thị băm được gắn thẻ của nhóm cấp cao nhất `A, B, C`.
+- tHT` biểu thị hàm băm của tập lệnh tương ứng với `Tapret` 64 byte.
 
-According to taproot rules, each branch/leaf must be combined according to a lexicographical hash order. There are two possible cases:
+Theo quy tắc rễ cọc, mỗi nhánh/lá phải được kết hợp theo thứ tự băm từ điển. Có hai trường hợp có thể xảy ra:
 
 
-- `tHT` > `tHABC`: the Tapret commitment moves to the right of the tree. The uniqueness proof only needs `tHABC` and `P` ;
-- tHT` < `tHABC`**: the Tapret commitment is placed on the left. To prove that there is no other Tapret commitment on the right, `tHAB` and `tHC` must be revealed to demonstrate the absence of any other such script.
+- `tHT` > `tHABC`: cam kết Tapret di chuyển sang bên phải của cây. Bằng chứng duy nhất chỉ cần `tHABC` và `P`;
+- tHT` < `tHABC`**: cam kết Tapret được đặt ở bên trái. Để chứng minh rằng không có cam kết Tapret nào khác ở bên phải, `tHAB` và `tHC` phải được tiết lộ để chứng minh sự vắng mặt của bất kỳ tập lệnh nào khác như vậy.
 
-Visual example for the first case (`tHABC < tHT`):
+Ví dụ trực quan cho trường hợp đầu tiên (`tHABC < tHT`):
 
 ![RGB-Bitcoin](assets/fr/051.webp)
 
-Example for the second case (`tHABC > tHT`):
+Ví dụ cho trường hợp thứ hai (`tHABC > tHT`):
 
 ![RGB-Bitcoin](assets/fr/052.webp)
 
-#### Optimization with the nonce
+#### Tối ưu hóa với nonce
 
-To improve confidentiality, we can "mine" (a more accurate term would be "bruteforcing") the value of the `<Nonce>` (the last byte of the 64-byte `Tapret`) in an attempt to obtain a hash `tHT` such that `tHABC < tHT`. In this case, the commitment is placed on the right, saving the user from having to divulge the entire contents of existing scripts to prove the Tapret's uniqueness.
+Để cải thiện tính bảo mật, chúng ta có thể "khai thác" (một thuật ngữ chính xác hơn sẽ là "bruteforce") giá trị của `<Nonce>` (byte cuối cùng của `Tapret` 64 byte) trong nỗ lực để có được hàm băm `tHT` sao cho `tHABC < tHT`. Trong trường hợp này, cam kết được đặt ở bên phải, giúp người dùng không phải tiết lộ toàn bộ nội dung của các tập lệnh hiện có để chứng minh tính duy nhất của Tapret.
 
-In summary, the `Tapret` offers a discrete and deterministic way of incorporating a commitment into a taproot transaction, while respecting the requirement for uniqueness and unambiguity essential to RGB's Client-side Validation and Single-use Seal logic.
+Tóm lại, `Tapret` cung cấp một cách riêng biệt và xác định để kết hợp cam kết vào giao dịch taproot, đồng thời tôn trọng yêu cầu về tính duy nhất và rõ ràng cần thiết cho logic Xác thực phía máy khách và Dấu niêm phong sử dụng một lần của RGB.
 
-#### Valid exits
+#### Lối thoát hợp lệ
 
-For RGB commitment transactions, the main requirement for a valid Bitcoin commitment scheme is as follows: The transaction (*witness transaction*) must provably contain a single commitment. This requirement makes it impossible to construct an alternative history for client-side validated data within the same transaction. This means that the message around which the _single-use seal_ closes is unique.
+Đối với các giao dịch cam kết RGB, yêu cầu chính đối với một chương trình cam kết Bitcoin hợp lệ như sau: Giao dịch (*giao dịch chứng kiến*) phải chứng minh được là chứa một cam kết duy nhất. Yêu cầu này khiến không thể xây dựng lịch sử thay thế cho dữ liệu được xác thực phía máy khách trong cùng một giao dịch. Điều này có nghĩa là thông điệp xung quanh _dấu niêm phong sử dụng một lần_ là duy nhất.
 
-To satisfy this principle, and regardless of the number of outputs in a transaction, we require that **one and only one output** can contain a commitment (*commitment*). For each of the schemes used (*Opret* or *Tapret*), the only valid outputs that can contain an RGB _commitment_ are :
-
-
-- The first output `OP_RETURN` (if present) for the *Opret* scheme;
-- The first taproot output (if present) for the *Tapret* scheme.
-
-Note that it is quite possible for a transaction to contain a single `Opret` commitment and a single `Tapret` commitment in two separate outputs. Thanks to the deterministic nature of Seal Definition, these two commitments then correspond to two distinct pieces of data validated on the client side.
-
-### Analysis and practical choices in RGB
-
-When we started RGB, we reviewed all these methods to determine where and how to place a _commitment_ in a transaction in a deterministic way. We defined some criteria:
+Để đáp ứng nguyên tắc này, và bất kể số lượng đầu ra trong một giao dịch, chúng tôi yêu cầu **một và chỉ một đầu ra** có thể chứa một cam kết (*cam kết*). Đối với mỗi lược đồ được sử dụng (*Opret* hoặc *Tapret*), các đầu ra hợp lệ duy nhất có thể chứa một _cam kết_ RGB là:
 
 
-- Compatibility with different scenarios (e.g. multisig, Lightning, hardware wallets, etc.);
-- Impact on on-chain space ;
-- Difficulty of implementation and maintenance ;
-- Confidentiality and resistance to censorship.
+- Đầu ra đầu tiên `OP_RETURN` (nếu có) cho lược đồ *Opret*;
+- Đầu ra rễ cái đầu tiên (nếu có) cho lược đồ *Tapret*.
 
-| Trace and on-chain sizing | Client-side sizing | Portfolio integration | Hardware compatibility | Lightning compatibility | Taproot compatibility |
+Lưu ý rằng một giao dịch hoàn toàn có thể chứa một cam kết `Opret` và một cam kết `Tapret` trong hai đầu ra riêng biệt. Nhờ bản chất xác định của Seal Definition, hai cam kết này sau đó tương ứng với hai phần dữ liệu riêng biệt được xác thực ở phía máy khách.
 
-| --------------------------------------------------- | ------------------------ | ------------------ | ----------------------------- | ------------------------ | ----------------------- | --------------------- |
+### Phân tích và lựa chọn thực tế trong RGB
 
-| Keytweak (deterministic P2C) | 🟢 | 🟡 | 🔴 | 🟠 | 🔴 BOLT, 🔴 Bifrost | 🟠 Taproot, 🟢 MuSig |
+Khi chúng tôi bắt đầu RGB, chúng tôi đã xem xét tất cả các phương pháp này để xác định nơi và cách đặt _cam kết_ trong giao dịch theo cách xác định. Chúng tôi đã xác định một số tiêu chí:
 
-| Sigtweak (deterministic S2C) | 🟢 | 🟠 | 🔴 | 🔴 BOLT, 🔴 Bifrost | 🟠 Taproot, 🔴 MuSig |
 
-| Opret (OP_RETURN) | 🔴 | 🟢 | 🟢 | 🟠 | 🔴 BOLT, 🟠 Bifrost | - |
+- Khả năng tương thích với nhiều tình huống khác nhau (ví dụ: đa chữ ký, Lightning, ví phần cứng, v.v.);
+- Tác động đến không gian trên chuỗi;
+- Khó khăn trong việc triển khai và bảo trì;
+- Tính bảo mật và chống kiểm duyệt.
 
-| Tapret algorithm: top-left node | 🟠 | 🔴 | 🟠 | 🟢 | 🔴 BOLT, 🟢 Bifrost | 🟢 Taproot, 🟢 MuSig |
 
-| Tapret algorithm #4: any node + proof | 🟢 | 🟠 | 🟢 | 🔴 BOLT, 🟢 Bifrost | 🟢 Taproot, 🟢 MuSig |
+| Phương pháp                                        | Dấu vết và kích thước on-chain | Kích thước phía client | Tích hợp ví | Tương thích phần cứng | Tương thích Lightning | Tương thích Taproot |
+| -------------------------------------------------- | ------------------------------ | ---------------------- | ------------- | ---------------------- | ---------------------- | ---------------------- |
+| Keytweak (P2C xác định)                            | 🟢                              | 🟡                       | 🔴                          | 🟠                        | 🔴 BOLT, 🔴 Bifrost     | 🟠 Taproot, 🟢 MuSig  |
+| Sigtweak (S2C xác định)                            | 🟢                              | 🟢                       | 🟠                          | 🔴                        | 🔴 BOLT, 🔴 Bifrost     | 🟠 Taproot, 🔴 MuSig  |
+| Opret (OP_RETURN)                                  | 🔴                              | 🟢                       | 🟢                          | 🟠                        | 🔴 BOLT, 🟠 Bifrost     | -                     |
+| Thuật toán Tapret : nút trên cùng bên trái        | 🟠                              | 🔴                       | 🟠                          | 🟢                        | 🔴 BOLT, 🟢 Bifrost     | 🟢 Taproot, 🟢 MuSig  |
+| Thuật toán Tapret #4 : bất kỳ nút nào + bằng chứng | 🟢                              | 🟠                       | 🟠                          | 🟢                        | 🔴 BOLT, 🟢 Bifrost     | 🟢 Taproot, 🟢 MuSig  |
 
-| Deterministic commitment scheme | Standard | On-chain cost | Size of customer-side evidence |
+| Lược đồ cam kết xác định                              | Tiêu chuẩn    | Chi phí on-chain                                                                                                          | Kích thước bằng chứng phía client                                                                                     |
+| ------------------------------------------------------ | ------------- | ------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------- |
+| Keytweak (P2C xác định)                               | LNPBP-1, 2    | 0 bytes                                                                                                                  | 33 bytes (khóa chưa chỉnh sửa)                                                                                       |
+| Sigtweak (S2C xác định)                               | WIP (LNPBP-39)| 0 bytes                                                                                                                  | 0 bytes                                                                                                              |
+| Opret (OP_RETURN)                                     | -             | 36 (v)bytes (TxOut bổ sung)                                                                                             | 0 bytes                                                                                                              |
+| Thuật toán Tapret : nút trên cùng bên trái           | LNPBP-6       | 32 bytes trong nhân chứng (8 vbytes) trên bất kỳ multisig n-of-m nào và chi tiêu theo đường dẫn script                 | 0 bytes trên scriptless scripts taproot ~270 bytes trong trường hợp script duy nhất, ~128 bytes nếu có nhiều script |
+| Thuật toán Tapret #4 : bất kỳ nút nào + bằng chứng   | LNPBP-6       | 32 bytes trong nhân chứng (8 vbytes) cho các trường hợp script duy nhất, 0 bytes trong nhân chứng trong hầu hết các trường hợp khác | 0 bytes trên scriptless scripts taproot, 65 bytes cho đến khi Taptree có khoảng một chục script                      |
 
-| ------------------------------------------------------------- | -------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-
-| Keytweak (deterministic P2C) | LNPBP-1, 2 | 0 bytes | 33 bytes (untweaked key) |
-
-| Sigtweak (deterministic S2C) | WIP (LNPBP-39) | 0 bytes | 0 bytes |
-
-| Opret (OP_RETURN) | - | 36 (v)bytes (TxOut additional) | 0 bytes |
-
-| Tapret algorithm: top-left node | LNPBP-6 | 32 bytes in witness (8 vbytes) on any n-of-m multisig and spend per script path | 0 bytes on taproot scriptless scripts ~270 bytes in a single script case, ~128 bytes if more than one script |
-
-| Tapret algorithm #4: any node + proof of uniqueness | LNPBP-6 | 32 bytes in the witness (8 vbytes) for single script cases, 0 bytes in the witness in most other cases | 0 bytes on taproot scriptless scripts, 65 bytes until the Taptree has a dozen scripts |
-
-| Layer | On-chain cost (bytes/vbytes) | On-chain cost (bytes/vbytes) | On-chain cost (bytes/vbytes) | On-chain cost (bytes/vbytes) | On-chain cost (bytes/vbytes) | Client-side cost (bytes) | Client-side cost (bytes) | Client-side cost (bytes) | Client-side cost (bytes) | Client-side cost (bytes) |
-
+| Lớp                          | Chi phí on-chain (bytes/vbytes) | Chi phí on-chain (bytes/vbytes) | Chi phí on-chain (bytes/vbytes) | Chi phí on-chain (bytes/vbytes) | Chi phí on-chain (bytes/vbytes) | Chi phí phía client (bytes) | Chi phí phía client (bytes) | Chi phí phía client (bytes) | Chi phí phía client (bytes) | Chi phí phía client (bytes) |
 | ------------------------------ | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- | ------------------------ | ------------------------ | ------------------------ | ------------------------ | ------------------------ |
+| **Loại**                       | **Tapret**                   | **Tapret #4**                | **Keytweak**                 | **Sigtweak**                 | **Opret**                    | **Tapret**               | **Tapret #4**            | **Keytweak**             | **Sigtweak**             | **Opret**                |
+| Single-sig                     | 0                            | 0                            | 0                            | 0                            | 32                           | 0                        | 0                        | 32                       | 0?                       | 0                        |
+| MuSig (n-of-n)                 | 0                            | 0                            | 0                            | 0                            | 32                           | 0                        | 0                        | 32                       | ? > 0                    | 0                        |
+| Multi-sig 2-of-3               | 32/8                         | 32/8 hoặc 0                   | 0                            | n/a                          | 32                           | ~270                     | 65                       | 32                       | n/a                      | 0                        |
+| Multi-sig 3-of-5               | 32/8                         | 32/8 hoặc 0                   | 0                            | n/a                          | 32                           | ~340                     | 65                       | 32                       | n/a                      | 0                        |
+| Multi-sig 2-of-3 với timeouts  | 32/8                         | 0                            | 0                            | n/a                          | 32                           | 64                       | 65                       | 32                       | n/a                      | 0                        |
 
-| **Type** | **Tapret** | **Tapret #4** | **Keytweak** | **Sigtweak** | **Opret** | **Tapret** | **Tapret #4** | **Keytweak** | **Sigtweak** | **Opret** |
-
-| Single-sig | 0 | 0 | 0 | 0 | 32 | 0 | 0 | 32 | 0? | 0 | 0 |
-
-| MuSig (n-of-n) | 0 | 0 | 0 | 32 | 0 | 0 | 32 | ? > 0 | 0 |
-
-| Multi-sig 2-of-3 | 32/8 | 32/8 or 0 | 0 n/a | 32 | ~270 | 65 | 32 | n/a | 0 |
-
-| Multi-sig 3-of-5 | 32/8 | 32/8 or 0 | 0 n/a | 32 | ~340 | 65 | 32 | n/a | 0 |
-
-| Multi-sig 2-of-3 with timeouts | 32/8 | 0 | 0 n/a | 32 | 64 | 65 | 32 | n/a | 0 | 0
-
-| Layer | Cost on-chain (vbytes) | Cost on-chain (vbytes) | Cost on-chain (vbytes) | Cost on client side (bytes) | Cost on client side (bytes) |
-
+| Lớp                              | Chi phí on-chain (vbytes) | Chi phí on-chain (vbytes) | Chi phí on-chain (vbytes) | Chi phí phía client (bytes) | Chi phí phía client (bytes) |
 | -------------------------------- | ---------------------- | ---------------------- | ---------------------- | ------------------------ | ------------------------ |
+| **Loại**                         | **Cơ bản**             | **Tapret #2**          | **Tapret #4**          | **Tapret #2**            | **Tapret #4**            |
+| MuSig (n-of-n)                   | 16.5                   | 0                      | 0                      | 0                        | 0                        |
+| FROST (n-of-m)                   | ?                      | 0                      | 0                      | 0                        | 0                        |
+| Multi_a (n-of-m)                 | 1+16n+8m               | 8                      | 8                      | 33 * m                   | 65                       |
+| Nhánh MuSig / Multi_a (n-of-m)   | 1+16n+8n+8xlog(n)      | 8                      | 0                      | 64                       | 65                       |
+| Với timeouts (n-of-m)            | 1+16n+8n+8xlog(n)      | 8                      | 0                      | 64                       | 65                       |
 
-| **Type** | **Base** | **Tapret #2** | **Tapret #4** | **Tapret #2** | **Tapret #4** |
-
-| MuSig (n-of-n) | 16.5 | 0 | 0 | 0 | 0 | 0
-
-| FROST (n-of-m) | ? | 0 | 0 | 0 | 0 |
-
-| Multi_a (n-of-m) | 1+16n+8m | 8 | 8 | 33 * m | 65 |
-
-| MuSig branch / Multi_a (n-of-m) | 1+16n+8n+8xlog(n) | 8 | 0 | 64 | 65 |
-
-| With timeouts (n-of-m) | 1+16n+8n+8xlog(n) | 8 | 0 | 64 | 65 |
-
-| Method | Confidentiality and scalability | Interoperability | Compatibility | Portability | Complexity |
-
-| ----------------------------------------- | ------------------------------ | ---------------- | ------------- | ----------- | ---------- |
-
-| Keytweak (deterministic P2C) | 🟢 | 🔴 | 🔴 | 🟡 | 🟡 |
-
-| Sigtweak (deterministic S2C) | 🟢 | 🔴 | 🔴 | 🟢 | 🔴 |
-
-| Opret (OP_RETURN) | 🔴 | 🟠 | 🔴 | 🟢 | 🟢 |
-
-| Algo Tapret: top-left node | 🟠 | 🟢 | 🔴 | 🟠 |
-
-| Algo Tapret #4: Any node + proof | 🟢 | 🟢 | 🟠 | 🔴 |
-
-In the course of the study, it became clear that none of the commitment schemes was fully compatible with the current Lightning standard (which does not employ Taproot, _muSig2_ or additional _commitment_ support). Efforts are underway to modify Lightning's channel construction (*BiFrost*) to allow the insertion of RGB commitments. This is another area where we need to review the transaction structure, the keys and the way in which channel updates are signed.
-
-The analysis showed that, in fact, other methods (key tweak, sig tweak, witness tweak, etc.) presented other forms of complication:
+| Phương pháp                                 | Bảo mật và khả năng mở rộng | Tính tương tác | Tương thích | Di động | Độ phức tạp |
+| ------------------------------------------- | -------------------------- | -------------- | ----------- | ------- | ----------- |
+| Keytweak (P2C xác định)                     | 🟢                         | 🔴             | 🔴          | 🟡      | 🟡         |
+| Sigtweak (S2C xác định)                     | 🟢                         | 🔴             | 🔴          | 🟢      | 🔴         |
+| Opret (OP_RETURN)                           | 🔴                         | 🟠             | 🔴          | 🟢      | 🟢         |
+| Thuật toán Tapret : nút trên cùng bên trái  | 🟠                         | 🟢             | 🟢          | 🔴      | 🟠         |
+| Thuật toán Tapret #4 : Nút bất kỳ + bằng chứng | 🟢                         | 🟢             | 🟢          | 🟠      | 🔴         |
 
 
-- Either we have a large on-chain volume;
-- Either there is a radical incompatibility with the existing wallet code;
-- Either the solution is not viable in non-cooperative multisig.
 
-For RGB, two methods in particular stand out: ***Opret*** and ***Tapret***, both classified as "Transaction Output", and compatible with the TxO2 mode used by the protocol.
+Trong quá trình nghiên cứu, rõ ràng là không có chương trình cam kết nào hoàn toàn tương thích với tiêu chuẩn Lightning hiện tại (không sử dụng Taproot, _muSig2_ hoặc hỗ trợ _cam kết_ bổ sung). Các nỗ lực đang được tiến hành để sửa đổi cấu trúc kênh của Lightning (*BiFrost*) để cho phép chèn các cam kết RGB. Đây là một lĩnh vực khác mà chúng ta cần xem xét lại cấu trúc giao dịch, các khóa và cách thức ký các bản cập nhật kênh.
 
-### Multi Protocol Commitments - MPC
-
-In this section, we look at how **RGB** handles the aggregation of multiple contracts (or, more precisely, their _transition bundles_) within a single commitment (*commitment*) recorded in a Bitcoin transaction via a deterministic scheme (according to `Opret` or `Tapret`). To achieve this, the order of Merkelization of the various contracts takes place in a structure called **MPC Tree** (_Multi Protocol Commitment Tree_). In this section, we'll look at the construction of this MPC Tree, how to obtain its root, and how multiple contracts can share the same transaction confidentially and unambiguously.
-
-Multi Protocol Commitment (MPC) is designed to meet two needs:
+Phân tích cho thấy, trên thực tế, các phương pháp khác (điều chỉnh khóa, điều chỉnh chữ ký, điều chỉnh chứng kiến, v.v.) còn gây ra những dạng phức tạp khác:
 
 
-- The construction of the `mpc::Commitment` hash: this will be included in the Bitcoin blockchain according to an `Opret` or `Tapret` scheme, and must reflect all the state changes to be validated;
-- Simultaneous storage of multiple contracts in a single _commitment_, enabling separate updates on multiple assets or RGB contracts to be managed in a single Bitcoin transaction.
+- Hoặc là chúng ta có khối lượng giao dịch lớn trên chuỗi;
+- Hoặc là có sự không tương thích cơ bản với mã ví hiện tại;
+- Hoặc giải pháp này không khả thi trong đa chữ ký không hợp tác.
 
-In concrete terms, each _transition bundle_ belongs to a particular contract. All this information is inserted into a **MPC Tree**, whose root (`mpc::Root`) is then hashed again to give the `mpc::Commitment`. It is this last hash that is placed in the Bitcoin transaction (_witness transaction_), according to the deterministic method chosen.
+Đối với RGB, có hai phương pháp đặc biệt nổi bật: ***Opret*** và ***Tapret***, cả hai đều được phân loại là "Đầu ra giao dịch" và tương thích với chế độ TxO2 mà giao thức sử dụng.
+
+### Cam kết đa giao thức - MPC
+
+Trong phần này, chúng ta sẽ xem xét cách **RGB** xử lý việc tổng hợp nhiều hợp đồng (hay chính xác hơn là _các bó chuyển tiếp_ của chúng) trong một cam kết duy nhất (*cam kết*) được ghi lại trong giao dịch Bitcoin thông qua một lược đồ xác định (theo `Opret` hoặc `Tapret`). Để đạt được điều này, thứ tự Merkelization của các hợp đồng khác nhau diễn ra trong một cấu trúc được gọi là **MPC Tree** (_Multi Protocol Commitment Tree_). Trong phần này, chúng ta sẽ xem xét cách xây dựng MPC Tree này, cách lấy gốc của nó và cách nhiều hợp đồng có thể chia sẻ cùng một giao dịch một cách bảo mật và rõ ràng.
+
+Cam kết đa giao thức (MPC) được thiết kế để đáp ứng hai nhu cầu:
+
+
+- Việc xây dựng hàm băm `mpc::Commitment`: hàm băm này sẽ được đưa vào chuỗi khối Bitcoin theo lược đồ `Opret` hoặc `Tapret` và phải phản ánh tất cả các thay đổi trạng thái cần được xác thực;
+- Lưu trữ đồng thời nhiều hợp đồng trong một _cam kết_ duy nhất, cho phép quản lý các bản cập nhật riêng biệt trên nhiều tài sản hoặc hợp đồng RGB trong một giao dịch Bitcoin duy nhất.
+
+Cụ thể, mỗi _gói chuyển tiếp_ thuộc về một hợp đồng cụ thể. Tất cả thông tin này được chèn vào **MPC Tree**, gốc của nó (`mpc::Root`) sau đó được băm lại để đưa ra `mpc::Commitment`. Chính hàm băm cuối cùng này được đặt trong giao dịch Bitcoin (_giao dịch chứng kiến_), theo phương pháp xác định đã chọn.
 
 ![RGB-Bitcoin](assets/fr/042.webp)
 
-#### MPC Root Hash
+#### Băm gốc MPC
 
-The value actually written on-chain (in `Opret` or `Tapret`) is called `mpc::Commitment`. This is calculated in the form of [BIP-341](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki), according to the formula :
+Giá trị thực sự được viết trên chuỗi (trong `Opret` hoặc `Tapret`) được gọi là `mpc::Commitment`. Giá trị này được tính theo dạng [BIP-341](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki), theo công thức:
 
 ```txt
 mpc::Commitment = SHA-256(SHA-256(mpc_tag) || SHA-256(mpc_tag) || depth || cofactor || mpc::Root )
 ```
 
-where :
+Ở đâu :
 
 
-- `mpc_tag` is a tag: `urn:ubideco:mpc:commitment#2024-01-31`, chosen according to [RGB tagging conventions](https://github.com/RGB-WG/rgb-core/blob/master/doc/Commitments.md);
-- `depth` (1 byte) indicates the depth of the *MPC Tree* ;
-- cofactor` (16 bits, in Little Endian) is a parameter used to promote the uniqueness of the positions assigned to each contract in the tree;
-- `mpc::Root` is the root of *MPC Tree*, calculated according to the process described in the next section.
+- `mpc_tag` là thẻ: `urn:ubideco:mpc:commitment#2024-01-31`, được chọn theo [quy ước gắn thẻ RGB](https://github.com/RGB-WG/rgb-core/blob/master/doc/Commitments.md);
+- `depth` (1 byte) biểu thị độ sâu của *Cây MPC*;
+- cofactor` (16 bit, theo kiểu Little Endian) là một tham số được sử dụng để thúc đẩy tính duy nhất của các vị trí được chỉ định cho mỗi hợp đồng trong cây;
+- `mpc::Root` là gốc của *Cây MPC*, được tính toán theo quy trình được mô tả trong phần tiếp theo.
 
 ![RGB-Bitcoin](assets/fr/044.webp)
 
-#### MPC Tree construction
+#### Xây dựng cây MPC
 
-To build this MPC Tree, we need to ensure that each contract corresponds to a unique leaf position. Suppose we have :
+Để xây dựng Cây MPC này, chúng ta cần đảm bảo rằng mỗi hợp đồng tương ứng với một vị trí lá duy nhất. Giả sử chúng ta có:
 
 
-- c` contracts to be included, indexed by `i` in `i = {0,1,..,C-1}` ;
-- For each contract `c_i`, we have an identifier `ContractId(i) = c_i`.
+- c` hợp đồng được bao gồm, được lập chỉ mục bởi `i` trong `i = {0,1,..,C-1}`;
+- Đối với mỗi hợp đồng `c_i`, chúng ta có một mã định danh `ContractId(i) = c_i`.
 
-We then construct a tree of width `w` and depth `d` such that `2^d = w`, with `w > C`, so that each contract can be placed in a separate _leaf_. The position `pos(c_i)` of each contract in the tree is determined by :
+Sau đó, chúng ta xây dựng một cây có chiều rộng `w` và chiều sâu `d` sao cho `2^d = w`, với `w > C`, sao cho mỗi hợp đồng có thể được đặt trong một _lá_ riêng biệt. Vị trí `pos(c_i)` của mỗi hợp đồng trong cây được xác định bởi:
 
 ```txt
 pos(c_i) = c_i mod (w - cofactor)
 ```
 
-where `cofactor` is an integer that increases the probability of obtaining distinct positions for each contract. In practice, construction follows an iterative process:
+trong đó `cofactor` là một số nguyên làm tăng khả năng đạt được các vị trí riêng biệt cho mỗi hợp đồng. Trong thực tế, xây dựng tuân theo một quy trình lặp lại:
 
 
-- We start from a minimum depth (`d=3` by convention to hide the exact number of contracts);
-- We try different `cofactors` (up to `w/2`, or a maximum of 500 for performance reasons);
-- If we fail to position all contracts without collision, we increment `d` and start again.
+- Chúng tôi bắt đầu từ độ sâu tối thiểu (`d=3` theo quy ước để ẩn số lượng hợp đồng chính xác);
+- Chúng tôi thử nhiều `cofactor` khác nhau (lên đến `w/2` hoặc tối đa 500 vì lý do hiệu suất);
+- Nếu chúng ta không thể định vị tất cả các hợp đồng mà không có va chạm, chúng ta sẽ tăng `d` và bắt đầu lại.
 
-The aim is to avoid trees that are too tall, while keeping the risk of collision to a minimum. Note that the collision phenomenon follows a random distribution logic, linked to the [Anniversary Paradox](https://en.wikipedia.org/wiki/Birthday_problem).
+Mục đích là tránh những cây quá cao, đồng thời giảm thiểu nguy cơ va chạm ở mức tối thiểu. Lưu ý rằng hiện tượng va chạm tuân theo logic phân phối ngẫu nhiên, liên quan đến [Nghịch lý kỷ niệm](https://en.wikipedia.org/wiki/Birthday_problem).
 
-#### Inhabited leaves
+#### Lá có người ở
 
-Once `C` distinct positions `pos(c_i)` have been obtained for contracts `i = {0,1,..,C-1}`, each sheet is filled with a hash function (*tagged hash*):
+Sau khi `C` các vị trí riêng biệt `pos(c_i)` đã được xác định cho các hợp đồng `i = {0,1,..,C-1}`, mỗi trang tính được điền bằng một hàm băm (*được gắn thẻ băm*):
 
 ```txt
 tH_MPC_LEAF(c_i) = SHA-256(SHA-256(merkle_tag) || SHA-256(merkle_tag) || 0x10 || c_i || BundleId(c_i))
 ```
 
-where :
+Ở đâu :
 
 
-- `merkle_tag = urn:ubideco:merkle:node#2024-01-31`, is always chosen according to the Merkle conventions of RGB ;
-- `0x10` identifies a _contract leaf_ ;
-- `c_i` is the 32-byte contract identifier (derived from the Genesis hash);
-- bundleId(c_i)` is a 32-byte hash describing the set of `State Transitions` relative to `c_i` (gathered into a *Transition Bundle*).
+- `merkle_tag = urn:ubideco:merkle:node#2024-01-31`, luôn được chọn theo quy ước Merkle của RGB;
+- `0x10` xác định một _lá hợp đồng_;
+- `c_i` là mã định danh hợp đồng 32 byte (được lấy từ hàm băm Genesis);
+- bundleId(c_i)` là hàm băm 32 byte mô tả tập hợp `Chuyển đổi trạng thái` liên quan đến `c_i` (được tập hợp thành *Gói chuyển đổi*).
 
-#### Uninhabited leaves
+#### Lá không có người ở
 
-The remaining leaves, not assigned to a contract (i.e. `w - C` leaves), are filled with a "dummy" value (_entropy leaf_) :
+Các lá còn lại, không được gán cho hợp đồng (tức là các lá `w - C`), được điền bằng giá trị "giả" (_lá entropy_):
 
 ```txt
 tH_MPC_LEAF(j) = SHA-256(SHA-256(merkle_tag) || SHA-256(merkle_tag) || 0x11 || entropy || j )
 ```
 
-where :
+Ở đâu :
 
 
-- `merkle_tag = urn:ubideco:merkle:node#2024-01-31`, is always chosen according to the Merkle conventions of RGB ;
-- `0x11` denotes an _entropy leaf_ ;
-- `entropy` is a random value of 64 bytes, chosen by the person building the tree;
-- `j` is the position (in 32 bits Little Endian) of this leaf in the tree.
+- `merkle_tag = urn:ubideco:merkle:node#2024-01-31`, luôn được chọn theo quy ước Merkle của RGB;
+- `0x11` biểu thị một _lá entropy_;
+- `entropy` là giá trị ngẫu nhiên 64 byte, do người xây dựng cây chọn;
+- `j` là vị trí (theo kiểu Little Endian 32 bit) của lá này trong cây.
 
-#### MPC nodes
+#### Các nút MPC
 
-After generating the `w` leaves (inhabited or not), we proceed to merkelization. Any internal nodes are hashed as follows:
+Sau khi tạo ra các lá `w` (có người ở hoặc không), chúng ta tiến hành merkelization. Bất kỳ nút bên trong nào cũng được băm như sau:
 
 ```txt
 tH_MPC_BRANCH(tH1 || tH2) = SHA-256(SHA-256(merkle_tag) || SHA-256(merkle_tag) || b || d || w || tH1 || tH2)
 ```
 
-where :
+Ở đâu :
 
 
-- `merkle_tag = urn:ubideco:merkle:node#2024-01-31`, is always chosen according to the Merkle conventions of RGB ;
-- b` is the _branching factor_ (8 bits). Most often, `b=0x02` because the tree is binary and complete;
-- d` is the depth of the node in the tree;
-- `w` is the tree width (in 256-bit Little Endian binary);
-- tH1` and `tH2` are the hashes of the child nodes (or leaves), already calculated as shown above.
+- `merkle_tag = urn:ubideco:merkle:node#2024-01-31`, luôn được chọn theo quy ước Merkle của RGB;
+- b` là _hệ số phân nhánh_ (8 bit). Thông thường, `b=0x02` vì cây là nhị phân và đầy đủ;
+- d` là độ sâu của nút trong cây;
+- `w` là chiều rộng của cây (theo hệ nhị phân Little Endian 256-bit);
+- tH1` và `tH2` là các giá trị băm của các nút con (hoặc nút lá), đã được tính toán như hiển thị ở trên.
 
-Progressing in this way, we obtain the root `mpc::Root`. We can then calculate `mpc::Commitment` (as explained above) and insert it on-chain.
+Tiến triển theo cách này, chúng ta có được gốc `mpc::Root`. Sau đó, chúng ta có thể tính toán `mpc::Commitment` (như đã giải thích ở trên) và chèn nó vào chuỗi.
 
-To illustrate this, let's imagine an example where `C=3` (three contracts). Their positions are assumed to be `pos(c_0)=7`, `pos(c_1)=4`, `pos(c_2)=2`. The other leaves (positions 0, 1, 3, 5, 6) are _entropy leaves_. The diagram below shows the sequence of hashes to the root with :
+Để minh họa điều này, hãy tưởng tượng một ví dụ trong đó `C=3` (ba hợp đồng). Các vị trí của chúng được cho là `pos(c_0)=7`, `pos(c_1)=4`, `pos(c_2)=2`. Các lá khác (vị trí 0, 1, 3, 5, 6) là _lá entropy_. Sơ đồ bên dưới hiển thị trình tự băm đến gốc với:
 
 
-- `BUNDLE_i` which represents `BundleId(c_i)` ;
-- `tH_MPC_LEAF(A)` and so on, which represent leaves (some for contracts, others for entropy) ;
-- Each branch `tH_MPC_BRANCH(...)` combines the hashes of its two children.
+- `BUNDLE_i` biểu diễn `BundleId(c_i)`;
+- `tH_MPC_LEAF(A)`, v.v., biểu diễn các lá (một số biểu diễn hợp đồng, một số biểu diễn entropy);
+- Mỗi nhánh `tH_MPC_BRANCH(...)` kết hợp các giá trị băm của hai nhánh con của nó.
 
-The final result is the **mpc::Root**, then the `mpc::Commitment`.
+Kết quả cuối cùng là **mpc::Root**, sau đó là `mpc::Commitment`.
 
 ![RGB-Bitcoin](assets/fr/053.webp)
 
-#### MPC shaft check
+#### Kiểm tra trục MPC
 
-When a verifier wishes to ensure that a `c_i` contract (and its `BundleId`) is included in the final `mpc::Commitment`, he simply receives a Merkle proof. This proof indicates the nodes needed to trace the leaves (in this case, `c_i`'s _contract leaf_) back to the root. There's no need to disclose the entire *MPC Tree*: this protects the confidentiality of other contracts.
+Khi một người xác minh muốn đảm bảo rằng một hợp đồng `c_i` (và `BundleId`) được bao gồm trong `mpc::Commitment` cuối cùng, anh ta chỉ cần nhận được một bằng chứng Merkle. Bằng chứng này chỉ ra các nút cần thiết để theo dõi các lá (trong trường hợp này là _contract leaf_ của `c_i`) trở lại gốc. Không cần phải tiết lộ toàn bộ *MPC Tree*: điều này bảo vệ tính bảo mật của các hợp đồng khác.
 
-In the example, a `c_2` verifier only needs an intermediate hash (`tH_MPC_LEAF(D)`), two `tH_MPC_BRANCH(...)`, the `pos(c_2)` position proof and the `cofactor` value. It can then locally reconstruct the root, then recalculate the `mpc::Commitment` and compare it to the one written in the Bitcoin transaction (within `Opret` or `Tapret`).
+Trong ví dụ, trình xác minh `c_2` chỉ cần một hàm băm trung gian (`tH_MPC_LEAF(D)`), hai `tH_MPC_BRANCH(...)`, bằng chứng vị trí `pos(c_2)` và giá trị `cofactor`. Sau đó, nó có thể tái tạo gốc cục bộ, sau đó tính toán lại `mpc::Commitment` và so sánh với giá trị được viết trong giao dịch Bitcoin (trong `Opret` hoặc `Tapret`).
 
 ![RGB-Bitcoin](assets/fr/054.webp)
 
-This mechanism ensures that :
+Cơ chế này đảm bảo rằng:
 
 
-- The status relative to `c_2` is indeed included in the aggregate information block (client-side);
-- No one can build an alternative history with the same transaction, because the on-chain _commitment_ points to a single MPC root.
+- Trạng thái liên quan đến `c_2` thực sự được bao gồm trong khối thông tin tổng hợp (phía máy khách);
+- Không ai có thể xây dựng lịch sử thay thế với cùng một giao dịch, vì _cam kết_ trên chuỗi trỏ đến một gốc MPC duy nhất.
 
-#### Summary of the MPC structure
+#### Tóm tắt về cấu trúc MPC
 
-Multi Protocol Commitment* (MPC) is the principle that enables RGB to aggregate multiple contracts into a single Bitcoin transaction, while maintaining the uniqueness of commitments and confidentiality vis-à-vis other participants. Thanks to the deterministic construction of the tree, each contract is assigned a unique position, and the presence of "dummy" leaves (*Entropy Leaves*) partially masks the total number of contracts participating in the transaction.
+Multi Protocol Commitment* (MPC) là nguyên tắc cho phép RGB tổng hợp nhiều hợp đồng thành một giao dịch Bitcoin duy nhất, đồng thời duy trì tính duy nhất của các cam kết và tính bảo mật đối với những người tham gia khác. Nhờ vào cấu trúc xác định của cây, mỗi hợp đồng được chỉ định một vị trí duy nhất và sự hiện diện của các lá "giả" (*Entropy Leaves*) che giấu một phần tổng số hợp đồng tham gia vào giao dịch.
 
-The entire Merkle tree is never stored on the client. We simply generate a _Merkle path_ for each contract concerned, to be transmitted to the recipient (who can then validate the commitment). In some cases, you may have several assets that have passed through the same UTXO. You can then merge several _Merkle paths_ into a so-called _multi-protocol commitment block_, to avoid duplicating too much data.
+Toàn bộ cây Merkle không bao giờ được lưu trữ trên máy khách. Chúng tôi chỉ tạo một _đường dẫn Merkle_ cho mỗi hợp đồng liên quan, để truyền đến người nhận (người sau đó có thể xác thực cam kết). Trong một số trường hợp, bạn có thể có một số tài sản đã đi qua cùng một UTXO. Sau đó, bạn có thể hợp nhất một số _đường dẫn Merkle_ thành một khối cam kết đa giao thức được gọi là _khối cam kết đa giao thức_, để tránh trùng lặp quá nhiều dữ liệu.
 
-Each _Merkle proof_ is therefore lightweight, especially as the tree depth will not exceed 32 in RGB. There's also a notion of "Merkle block", which retains more information (cross-section, entropy, etc.), useful for combining or separating several branches.
+Do đó, mỗi _Merkle proof_ đều nhẹ, đặc biệt là khi độ sâu của cây không vượt quá 32 trong RGB. Ngoài ra còn có khái niệm "khối Merkle", lưu giữ nhiều thông tin hơn (mặt cắt ngang, entropy, v.v.), hữu ích cho việc kết hợp hoặc tách nhiều nhánh.
 
-That's why it took so long to finalize RGB. We had the overall vision from 2019: putting everything on client-side, circulating tokens off-chain. But for details like sharding for multiple contracts, the structure of the Merkle tree, how to handle collisions and merge proofs... all this required iterations.
+Đó là lý do tại sao phải mất nhiều thời gian để hoàn thiện RGB. Chúng tôi đã có tầm nhìn chung từ năm 2019: đưa mọi thứ lên phía máy khách, lưu hành token ngoài chuỗi. Nhưng đối với các chi tiết như phân mảnh cho nhiều hợp đồng, cấu trúc của cây Merkle, cách xử lý va chạm và hợp nhất bằng chứng... tất cả những điều này đều cần phải lặp lại.
 
-### Anchors: a global assembly
+### Mỏ neo: một hội đồng toàn cầu
 
-Following on from the construction of our commitments (`Opret` or `Tapret`) and our MPC (*Multi Protocol Commitment*), we need to address the notion of **Anchor** in the RGB protocol. An Anchor is a client-side validated structure that brings together the elements needed to verify that a Bitcoin commitment actually contains specific contractual information. In other words, an Anchor summarizes all the data needed to validate the _commitments_ described above.
+Tiếp theo sau việc xây dựng các cam kết của chúng tôi (`Opret` hoặc `Tapret`) và MPC (*Cam kết đa giao thức*), chúng tôi cần giải quyết khái niệm **Mỏ neo** trong giao thức RGB. Mỏ neo là một cấu trúc được xác thực ở phía máy khách, tập hợp các yếu tố cần thiết để xác minh rằng cam kết Bitcoin thực sự chứa thông tin hợp đồng cụ thể. Nói cách khác, Mỏ neo tóm tắt tất cả dữ liệu cần thiết để xác thực _cam kết_ được mô tả ở trên.
 
-An Anchor consists of three ordered fields:
-
-
-- `Txid`
-- `MPC Proof`
-- extra Transaction Proof - ETP
-
-Each of these fields plays a part in the validation process, whether it's a matter of reconstructing the underlying Bitcoin transaction or proving the existence of a hidden commitment (particularly in the case of `Tapret`).
-
-#### TxId
-
-The `Txid` field corresponds to the 32-byte identifier of the Bitcoin transaction containing the `Opret` or `Tapret` commitment.
-
-In theory, it would be possible to find this `Txid` by tracing the chain of state transitions which themselves point to each witness transaction, following the logic of Single-use Seals. However, to facilitate and accelerate verification, this `Txid` is simply included in the Anchor, thus saving the validator from having to go back through the entire off-chain history.
-
-#### MPC Proof
-
-The second field, `MPC Proof`, refers to the proof that this particular contract (e.g. `c_i`) is included in the _Multi Protocol Commitment_. It is a combination of :
+Một Anchor bao gồm ba trường được sắp xếp theo thứ tự:
 
 
-- `pos_i`, the position of this contract in the MPC tree;
-- cofactor`, the value defined to resolve position collisions;
-- the `Merkle Proof`, i.e. the set of nodes and hashes used to reconstruct the MPC root and verify that the contract identifier and its `Transition Bundle` are committed to the root.
+- `Xiết`
+- `Bằng chứng MPC`
+- Bằng chứng giao dịch bổ sung - ETP
 
-This mechanism was described in the previous section on building the *MPC Tree*, where each contract obtains a unique leaf thanks to the :
+Mỗi trường này đều đóng một vai trò trong quá trình xác thực, cho dù đó là vấn đề tái cấu trúc giao dịch Bitcoin cơ bản hay chứng minh sự tồn tại của một cam kết ẩn (đặc biệt là trong trường hợp của `Tapret`).
+
+#### Mã số Tx
+
+Trường `Txid` tương ứng với mã định danh 32 byte của giao dịch Bitcoin có chứa cam kết `Opret` hoặc `Tapret`.
+
+Về mặt lý thuyết, có thể tìm thấy `Txid` này bằng cách theo dõi chuỗi các chuyển đổi trạng thái mà bản thân chúng trỏ đến từng giao dịch chứng kiến, theo logic của Single-use Seals. Tuy nhiên, để tạo điều kiện và đẩy nhanh quá trình xác minh, `Txid` này chỉ đơn giản được đưa vào Anchor, do đó giúp trình xác thực không phải quay lại toàn bộ lịch sử ngoài chuỗi.
+
+#### Bằng chứng MPC
+
+Trường thứ hai, `MPC Proof`, đề cập đến bằng chứng cho thấy hợp đồng cụ thể này (ví dụ: `c_i`) được bao gồm trong _Multi Protocol Commitment_. Đây là sự kết hợp của:
+
+
+- `pos_i`, vị trí của hợp đồng này trong cây MPC;
+- cofactor`, giá trị được xác định để giải quyết xung đột vị trí;
+- `Merkle Proof`, tức là tập hợp các nút và hàm băm được sử dụng để tái tạo gốc MPC và xác minh rằng mã định danh hợp đồng và `Transition Bundle` của nó đã được cam kết với gốc.
+
+Cơ chế này đã được mô tả trong phần trước về việc xây dựng *Cây MPC*, trong đó mỗi hợp đồng có một nhánh duy nhất nhờ vào:
 
 ```txt
 pos(c_i) = c_i mod (w - cofactor)
 ```
 
-Then, a deterministic merkelization scheme is used to aggregate all the leaves (contracts + entropy). In the end, the `MPC Proof` allows the root to be reconstructed locally and compared with the `mpc::Commitment` included on-chain.
+Sau đó, một lược đồ merkelization xác định được sử dụng để tổng hợp tất cả các lá (hợp đồng + entropy). Cuối cùng, `MPC Proof` cho phép gốc được tái tạo cục bộ và so sánh với `mpc::Commitment` được bao gồm trên chuỗi.
 
-#### Extra Transaction Proof - ETP
+#### Bằng chứng giao dịch bổ sung - ETP
 
-The third field, the **ETP**, depends on the type of commitment used. If the commitment is of type `Opret`, no additional proof is required. The validator inspects the first `OP_RETURN` output of the transaction and finds the `mpc::Commitment` directly there.
+Trường thứ ba, **ETP**, phụ thuộc vào loại cam kết được sử dụng. Nếu cam kết thuộc loại `Opret`, không cần thêm bằng chứng nào. Trình xác thực kiểm tra đầu ra `OP_RETURN` đầu tiên của giao dịch và tìm `mpc::Commitment` trực tiếp tại đó.
 
-**If the commitment is of type `Tapret`**, an additional proof called *Extra Transaction Proof - ETP* must be provided. It contains :
+**Nếu cam kết thuộc loại `Tapret`**, phải cung cấp một bằng chứng bổ sung có tên là *Bằng chứng giao dịch bổ sung - ETP*. Bằng chứng này bao gồm:
 
 
-- The internal public key (`P`) of the taproot output in which the *commitment* is embedded;
-- The partner nodes of the `Script Path Spend` (when the Tapret *commitment* is inserted in a script), in order to prove the exact location of this script in the taproot tree:
- - If the `Tapret` *commitment* is on the right-hand branch, we reveal the left-hand node (e.g. `tHABC`),
- - If the `Tapret` *commitment* is on the left, you need to disclose 2 nodes (e.g. `tHAB` and `tHC`) to prove that no other *commitment* is present on the right-hand side.
-- The `nonce` may be used to "mine" the best configuration, allowing the *commitment* to be placed on the right of the tree (proof optimization).
+- Khóa công khai nội bộ (`P`) của đầu ra taproot trong đó *cam kết* được nhúng vào;
+- Các nút đối tác của `Script Path Spend` (khi *cam kết* Tapret được chèn vào một tập lệnh), để chứng minh vị trí chính xác của tập lệnh này trong cây gốc:
+ - Nếu `Tapret` *cam kết* nằm ở nhánh bên phải, chúng tôi sẽ hiển thị nút bên trái (ví dụ: `tHABC`),
+ - Nếu *cam kết* `Tapret` nằm ở bên trái, bạn cần phải tiết lộ 2 nút (ví dụ: `tHAB` và `tHC`) để chứng minh rằng không có *cam kết* nào khác nằm ở phía bên phải.
+- `Nonce` có thể được sử dụng để "khai thác" cấu hình tốt nhất, cho phép *cam kết* được đặt ở bên phải của cây (tối ưu hóa bằng chứng).
 
-This additional proof is essential because, unlike `Opret`, the `Tapret` commitment is integrated into the structure of a taproot script, which requires revealing part of the taproot tree in order to correctly validate the location of the *commitment*.
+Bằng chứng bổ sung này rất cần thiết vì, không giống như `Opret`, cam kết `Tapret` được tích hợp vào cấu trúc của tập lệnh taproot, yêu cầu tiết lộ một phần của cây taproot để xác thực chính xác vị trí của *cam kết*.
 
 ![RGB-Bitcoin](assets/fr/045.webp)
 
-The **Anchors** therefore encapsulate all the information required to validate a Bitcoin commitment in the context of RGB. They indicate both the relevant transaction (`Txid`) and the proof of contract positioning (`MPC Proof`), while managing the additional proof (`ETP`) in the case of `Tapret`. In this way, an Anchor protects the integrity and uniqueness of the off-chain state by ensuring that the same transaction cannot be reinterpreted for other contractual data.
+Do đó, **Anchors** bao gồm tất cả thông tin cần thiết để xác thực cam kết Bitcoin trong bối cảnh RGB. Chúng chỉ ra cả giao dịch có liên quan (`Txid`) và bằng chứng định vị hợp đồng (`MPC Proof`), đồng thời quản lý bằng chứng bổ sung (`ETP`) trong trường hợp `Tapret`. Theo cách này, Anchor bảo vệ tính toàn vẹn và tính duy nhất của trạng thái ngoài chuỗi bằng cách đảm bảo rằng cùng một giao dịch không thể được diễn giải lại cho dữ liệu hợp đồng khác.
 
-### Conclusion
+### Phần kết luận
 
-In this chapter, we cover :
+Trong chương này, chúng tôi sẽ đề cập đến:
 
 
-- How to apply the Single-use Seals concept in Bitcoin (in particular via a _outpoint_);
-- The various methods for deterministically inserting a _commitment_ into a transaction (Sig tweak, Key tweak, witness tweak, op_return, Taproot/Tapret) ;
-- The reasons why RGB focuses on Tapret commitments ;
-- Multi-contract management via _multi-protocol commitments_, essential if you don't want to expose an entire state or other contracts when you want to prove a specific point;
-- We've also seen the role of _Anchors_, which bring everything together (transaction TXID, Merkle tree proof and Taproot proof) in a single package.
+- Cách áp dụng khái niệm Con dấu dùng một lần vào Bitcoin (đặc biệt là thông qua _outpoint_);
+- Các phương pháp khác nhau để chèn _cam kết_ một cách xác định vào giao dịch (Điều chỉnh chữ ký, Điều chỉnh khóa, Điều chỉnh chứng thực, op_return, Taproot/Tapret);
+- Lý do RGB tập trung vào các cam kết của Tapret;
+- Quản lý nhiều hợp đồng thông qua _cam kết đa giao thức_, điều cần thiết nếu bạn không muốn tiết lộ toàn bộ trạng thái hoặc các hợp đồng khác khi bạn muốn chứng minh một điểm cụ thể;
+- Chúng ta cũng đã thấy vai trò của _Anchors_, giúp kết hợp mọi thứ lại với nhau (TXID giao dịch, bằng chứng cây Merkle và bằng chứng Taproot) trong một gói duy nhất.
 
-In practice, the technical implementation is divided between several dedicated Rust _crates_ (in _client_side_validation_, _commit-verify_, _bp_core_, etc.). The fundamental notions are there:
+Trong thực tế, việc triển khai kỹ thuật được chia thành nhiều _crates_ Rust chuyên dụng (trong _client_side_validation_, _commit-verify_, _bp_core_, v.v.). Các khái niệm cơ bản nằm ở đó:
 
 ![RGB-Bitcoin](assets/fr/046.webp)
 
-In the next chapter, we'll look at the purely off-chain component of RGB, namely contract logic. We'll see how RGB contracts, organized as partially replicated _finite state machines_, achieve much higher expressiveness than Bitcoin scripts, while preserving the confidentiality of their data.
+Trong chương tiếp theo, chúng ta sẽ xem xét thành phần hoàn toàn ngoài chuỗi của RGB, cụ thể là logic hợp đồng. Chúng ta sẽ xem cách các hợp đồng RGB, được tổ chức như _máy trạng thái hữu hạn_ được sao chép một phần, đạt được khả năng biểu đạt cao hơn nhiều so với các tập lệnh Bitcoin, trong khi vẫn bảo toàn tính bảo mật của dữ liệu.
 
-## Introduction to smart contracts and their states
+## Giới thiệu về hợp đồng thông minh và trạng thái của chúng
 
 <chapterId>04a9569f-3563-5382-bf53-0c7069343ba0</chapterId>
 
 ![video](https://youtu.be/tmAVdyXGmj4)
 
-In this and the next chapter, we'll look at the notion of **smart contract** within the RGB environment and explore the different ways in which these contracts can define and evolve their *state*. We'll see why the RGB architecture, using the ordered sequence of Single-use Seals, makes it possible to execute various types of ***Contract Operations*** in a scalable way and without going through a centralized registry. We'll also look at the fundamental role of ***Business Logic*** in framing the evolution of the contract state.
+Trong chương này và chương tiếp theo, chúng ta sẽ xem xét khái niệm **hợp đồng thông minh** trong môi trường RGB và khám phá những cách khác nhau mà các hợp đồng này có thể xác định và phát triển *trạng thái* của chúng. Chúng ta sẽ xem lý do tại sao kiến trúc RGB, sử dụng trình tự có thứ tự của Dấu niêm phong sử dụng một lần, giúp thực hiện nhiều loại ***Hoạt động hợp đồng*** theo cách có thể mở rộng và không cần thông qua sổ đăng ký tập trung. Chúng ta cũng sẽ xem xét vai trò cơ bản của ***Logic kinh doanh*** trong việc định hình sự phát triển của trạng thái hợp đồng.
 
-### Smart contracts and digital bearer rights
+### Hợp đồng thông minh và quyền sở hữu kỹ thuật số
 
-RGB's aim is to provide an infrastructure for implementing smart contracts on Bitcoin. By "smart contract" we mean an agreement between several parties that is automatically and computationally enforced, without human intervention to enforce the clauses. In other words, the law of the contract is enforced by the software, not by a trusted third party.
+Mục tiêu của RGB là cung cấp cơ sở hạ tầng để triển khai hợp đồng thông minh trên Bitcoin. Theo "hợp đồng thông minh", chúng tôi muốn nói đến một thỏa thuận giữa nhiều bên được thực thi tự động và tính toán, không cần sự can thiệp của con người để thực thi các điều khoản. Nói cách khác, luật của hợp đồng được thực thi bởi phần mềm, không phải bởi bên thứ ba đáng tin cậy.
 
-This automation raises the question of decentralization: how can we free ourselves from a centralized registry (e.g. a central platform or database) to manage ownership and contract performance? The original idea, taken up by RGB, is to return to a mode of ownership known as "bearer instruments". Historically, certain securities (bonds, shares, etc.) were issued in bearer form, enabling anyone who physically possessed the document to enforce his or her rights.
+Tự động hóa này đặt ra câu hỏi về sự phân cấp: làm thế nào chúng ta có thể giải phóng bản thân khỏi một sổ đăng ký tập trung (ví dụ: một nền tảng trung tâm hoặc cơ sở dữ liệu) để quản lý quyền sở hữu và hiệu suất hợp đồng? Ý tưởng ban đầu, được RGB đưa ra, là quay trở lại chế độ sở hữu được gọi là "công cụ mang tên". Theo truyền thống, một số chứng khoán nhất định (trái phiếu, cổ phiếu, v.v.) được phát hành dưới dạng mang tên, cho phép bất kỳ ai sở hữu tài liệu thực tế thực thi các quyền của mình.
 
 ![RGB-Bitcoin](assets/fr/055.webp)
 
-RGB applies this concept to the digital world: rights (and obligations) are encapsulated in data that is manipulated off-chain, and the status of this data is validated by the participants themselves. This allows, a priori, a much greater degree of confidentiality and independence than that offered by other approaches based on public registers.
+RGB áp dụng khái niệm này vào thế giới kỹ thuật số: quyền (và nghĩa vụ) được đóng gói trong dữ liệu được xử lý ngoài chuỗi và trạng thái của dữ liệu này được xác thực bởi chính những người tham gia. Điều này cho phép, trước tiên, mức độ bảo mật và độc lập cao hơn nhiều so với các phương pháp tiếp cận khác dựa trên sổ đăng ký công khai.
 
-### Introduction to Smart Contract RGB status
+### Giới thiệu về trạng thái RGB của Hợp đồng thông minh
 
-A smart contract in RGB can be seen as a state machine, defined by :
+Hợp đồng thông minh trong RGB có thể được coi như một máy trạng thái, được định nghĩa bởi:
 
 
-- A **State**, i.e. the set of information reflecting the current configuration of the contract;
-- A **Business Logic** (set of rules), which describes under what conditions and by whom the state can be modified.
+- **Trạng thái**, tức là tập hợp thông tin phản ánh cấu hình hiện tại của hợp đồng;
+- **Logic kinh doanh** (bộ quy tắc), mô tả trạng thái có thể được sửa đổi trong điều kiện nào và bởi ai.
 
 ![RGB-Bitcoin](assets/fr/056.webp)
 
-It's important to understand that these contracts are not limited to the simple transfer of tokens. They can embody a wide variety of applications: from traditional assets (tokens, stocks, bonds) to more complex mechanics (usage rights, commercial terms, etc.). Unlike other blockchains, where the contract code is accessible and executable by all, RGB's approach compartmentalizes access and knowledge of the contract to participants ("***contract participants***"). There are several roles:
+Điều quan trọng là phải hiểu rằng các hợp đồng này không chỉ giới hạn ở việc chuyển giao token đơn giản. Chúng có thể bao gồm nhiều ứng dụng khác nhau: từ tài sản truyền thống (token, cổ phiếu, trái phiếu) đến các cơ chế phức tạp hơn (quyền sử dụng, điều khoản thương mại, v.v.). Không giống như các blockchain khác, nơi mã hợp đồng có thể truy cập và thực thi được bởi tất cả mọi người, cách tiếp cận của RGB phân chia quyền truy cập và kiến thức về hợp đồng cho những người tham gia ("***người tham gia hợp đồng***"). Có một số vai trò:
 
 
-- The issuer** or creator of the contract, who defines the Genesis of the contract and its initial variables;
-- Parties with rights** (*ownership*) or other enforcement capabilities ;
-- Observers**, potentially limited to seeing certain information, but who cannot trigger modifications.
+- Người phát hành** hoặc người tạo ra hợp đồng, người xác định Nguồn gốc của hợp đồng và các biến ban đầu của nó;
+- Các bên có quyền** (*quyền sở hữu*) hoặc năng lực thực thi khác;
+- Người quan sát**, có khả năng chỉ nhìn thấy một số thông tin nhất định nhưng không thể kích hoạt sửa đổi.
 
-This separation of roles contributes to censorship resistance, by ensuring that only authorized persons can interact with the contractual state. It also gives RGB the ability to scale horizontally: the majority of validations take place outside the blockchain, and only cryptographic anchors (the *commitments*) are inscribed on Bitcoin.
+Sự tách biệt vai trò này góp phần vào khả năng chống kiểm duyệt, bằng cách đảm bảo rằng chỉ những người được ủy quyền mới có thể tương tác với trạng thái hợp đồng. Nó cũng cung cấp cho RGB khả năng mở rộng theo chiều ngang: phần lớn các xác thực diễn ra bên ngoài blockchain và chỉ các neo mật mã (các *cam kết*) được ghi trên Bitcoin.
 
-### Status and Business Logic in RGB
+### Trạng thái và Logic kinh doanh trong RGB
 
-From a practical point of view, the contract's **Business Logic** takes the form of rules and scripts, defined in what RGB calls a **Schema**. The Schema encodes :
-
-
-- State structure (which fields are public? Which fields are owned by which parties?
-- Validity conditions (what must be checked before authorizing a state update?) ;
-- Authorizations (who can initiate a *State Transition*? Who can only observe?).
-
-At the same time, the **Contract State** often breaks down into two components:
+Theo quan điểm thực tế, **Logic kinh doanh** của hợp đồng có dạng các quy tắc và tập lệnh, được định nghĩa trong cái mà RGB gọi là **Sơ đồ**. Sơ đồ mã hóa:
 
 
-- A **Global State**: public part, potentially observable by all (depending on configuration);
-- Owned States**: private parts, allocated specifically to owners via UTXOs referenced in the contract logic.
+- Cấu trúc nhà nước (lĩnh vực nào là công? Lĩnh vực nào thuộc sở hữu của bên nào?
+- Điều kiện hợp lệ (cần kiểm tra những gì trước khi cho phép cập nhật trạng thái?);
+- Quyền hạn (ai có thể khởi tạo *Chuyển đổi trạng thái*? Ai chỉ có thể quan sát?).
 
-As we'll see in the following chapters, any status update (*Contract Operation*) must dock to a Bitcoin _commitment_ (via `Opret` or `Tapret`) and comply with the *Business Logic* scripts to be considered valid.
-
-### Contract Operations: creation and evolution of the State
-
-In the RGB universe, a ***Contract Operation*** is any event that changes the contract from a **old state** to a **new state**. These operations follow the following logic:
+Đồng thời, **Trạng thái hợp đồng** thường được chia thành hai thành phần:
 
 
-- We take note of the current status of the contract;
-- We apply the rule or operation (a ***State Transition***, a ***Genesis*** if it's the very first state, or a ***State Extension*** if there's a public *valency* to retrigger);
-- We anchor the modification via a new _commitment_ on the blockchain, closing one _single-use seal_ and creating another ;
-- The rights holders concerned validate locally (*client-side*) that the transition conforms to the *Schema* and that the associated Bitcoin transaction is registered on-chain.
+- **Nhà nước toàn cầu**: phần công khai, có khả năng được tất cả mọi người quan sát (tùy thuộc vào cấu hình);
+- Trạng thái sở hữu**: các phần riêng tư, được phân bổ cụ thể cho chủ sở hữu thông qua UTXO được tham chiếu trong logic hợp đồng.
+
+Như chúng ta sẽ thấy trong các chương sau, bất kỳ cập nhật trạng thái nào (*Hoạt động hợp đồng*) phải gắn vào _cam kết_ Bitcoin (thông qua `Opret` hoặc `Tapret`) và tuân thủ các tập lệnh *Logic kinh doanh* để được coi là hợp lệ.
+
+### Hoạt động hợp đồng: sự hình thành và phát triển của Nhà nước
+
+Trong vũ trụ RGB, ***Hoạt động hợp đồng*** là bất kỳ sự kiện nào thay đổi hợp đồng từ **trạng thái cũ** sang **trạng thái mới**. Các hoạt động này tuân theo logic sau:
+
+
+- Chúng tôi ghi nhận tình trạng hiện tại của hợp đồng;
+- Chúng tôi áp dụng quy tắc hoặc hoạt động (một ***Chuyển đổi trạng thái***, một ***Khởi tạo*** nếu đó là trạng thái đầu tiên hoặc một ***Mở rộng trạng thái*** nếu có *hóa trị* công khai để kích hoạt lại);
+- Chúng tôi neo sự thay đổi thông qua một _cam kết_ mới trên chuỗi khối, đóng một _con dấu sử dụng một lần_ và tạo một con dấu khác;
+- Người nắm giữ bản quyền liên quan xác thực cục bộ (*phía máy khách*) rằng quá trình chuyển đổi tuân thủ *Sơ đồ* và giao dịch Bitcoin liên quan được đăng ký trên chuỗi.
 
 ![RGB-Bitcoin](assets/fr/057.webp)
 
-The end result is an updated contract, now with a different state. This transition does not require the entire Bitcoin network to be concerned with the details, since only a small cryptographic fingerprint (the _commitment_) is recorded in the blockchain. The sequence of Single-use Seals prevents any double-spending or double-use of the State.
+Kết quả cuối cùng là một hợp đồng được cập nhật, giờ đây với một trạng thái khác. Quá trình chuyển đổi này không yêu cầu toàn bộ mạng lưới Bitcoin phải quan tâm đến các chi tiết, vì chỉ có một dấu vân tay mật mã nhỏ (_cam kết_) được ghi lại trong chuỗi khối. Chuỗi Dấu niêm phong sử dụng một lần ngăn chặn bất kỳ hành vi chi tiêu gấp đôi hoặc sử dụng gấp đôi nào của Nhà nước.
 
-### Operations chain: from Genesis to Terminal State
+### Chuỗi hoạt động: từ Genesis đến Terminal State
 
-To put this into perspective, an RGB smart contract starts with a **Genesis**, the very first state. Thereafter, various Contract Operations follow one another, forming a DAG (*Directed Acyclic Graph*) of operations:
+Để hiểu rõ hơn, một hợp đồng thông minh RGB bắt đầu bằng **Genesis**, trạng thái đầu tiên. Sau đó, nhiều Hoạt động hợp đồng khác nhau sẽ theo sau nhau, tạo thành DAG (*Đồ thị không có chu trình có hướng*) của các hoạt động:
 
 
-- Each transition is based on a previous state (or several, in the case of convergent transitions);
-- The chronological order is guaranteed by the inclusion of each transition in a Bitcoin anchor, time-stamped and unalterable thanks to consensus by Proof-of-Work ;
-- When no more operations are in progress, a **Terminal State** is reached: the most recent and complete state of the contract.
+- Mỗi quá trình chuyển đổi đều dựa trên một trạng thái trước đó (hoặc nhiều trạng thái, trong trường hợp chuyển đổi hội tụ);
+- Thứ tự thời gian được đảm bảo bằng cách đưa từng quá trình chuyển đổi vào một mỏ neo Bitcoin, có dấu thời gian và không thể thay đổi nhờ sự đồng thuận của Proof-of-Work;
+- Khi không còn hoạt động nào đang diễn ra, sẽ đạt đến **Trạng thái cuối**: trạng thái gần đây nhất và hoàn chỉnh nhất của hợp đồng.
 
 ![RGB-Bitcoin](assets/fr/012.webp)
 
-This DAG topology (instead of a simple linear chain) reflects the possibility that different parts of the contract may evolve in parallel, as long as they do not contradict each other. RGB then takes care of avoiding any inconsistencies by *client-side* verification of each participant involved.
+Cấu trúc DAG này (thay vì chuỗi tuyến tính đơn giản) phản ánh khả năng các phần khác nhau của hợp đồng có thể phát triển song song, miễn là chúng không mâu thuẫn với nhau. Sau đó, RGB sẽ xử lý để tránh mọi sự không nhất quán bằng cách xác minh *phía máy khách* của từng bên tham gia.
 
-### Summary
+### Bản tóm tắt
 
-Smart contracts in RGB introduce a model of digital bearer instruments, decentralized but anchored in Bitcoin for time-stamping and guaranteeing the order of transactions. Automated execution of these contracts is based on :
+Hợp đồng thông minh trong RGB giới thiệu một mô hình công cụ mang kỹ thuật số, phi tập trung nhưng được neo trong Bitcoin để đóng dấu thời gian và đảm bảo thứ tự giao dịch. Việc thực hiện tự động các hợp đồng này dựa trên:
 
 
-- A **Contract State*, indicating the current configuration of the contract (rights, balances, variables, etc.);
-- A **Business Logic** (*Schema*), defining which transitions are allowed and how they must be validated;
-- Contract Operations**, which update this state step by step, thanks to commitments anchored in Bitcoin transactions.
+- **Trạng thái hợp đồng*, biểu thị cấu hình hiện tại của hợp đồng (quyền, số dư, biến số, v.v.);
+- **Logic kinh doanh** (*Sơ đồ*), xác định những chuyển đổi nào được phép và cách chúng phải được xác thực;
+- Hoạt động hợp đồng**, cập nhật trạng thái này từng bước, nhờ vào các cam kết được neo trong các giao dịch Bitcoin.
 
-In the next chapter, we'll go into more detail about the concrete representation of these ***states*** and ***state transitions*** at the off-chain level, and how they relate to the UTXOs and Single-use Seals embedded in Bitcoin. This will be an opportunity to see how RGB's internal mechanics, based on client-side validation, manage to maintain the consistency of smart contracts while preserving data confidentiality.
+Trong chương tiếp theo, chúng ta sẽ đi sâu hơn vào cách thể hiện cụ thể của các ***trạng thái*** và ***chuyển đổi trạng thái*** này ở cấp độ ngoài chuỗi và cách chúng liên quan đến UTXO và Dấu niêm phong sử dụng một lần được nhúng trong Bitcoin. Đây sẽ là cơ hội để xem cách cơ chế nội bộ của RGB, dựa trên xác thực phía máy khách, quản lý để duy trì tính nhất quán của hợp đồng thông minh trong khi vẫn bảo toàn tính bảo mật của dữ liệu.
 
-## RGB contract operations
+## Hoạt động hợp đồng RGB
 
 <chapterId>78c44e88-50c4-5ec4-befe-456c1a9f080b</chapterId>
 
 ![video](https://youtu.be/lUTjeuM0oTA)
 
-In this chapter, we'll look at how operations in smart contracts and state transitions work, again within the RGB protocol. The aim will also be to understand how several participants cooperate to transfer ownership of an asset.
+Trong chương này, chúng ta sẽ xem xét cách thức hoạt động của các hoạt động trong hợp đồng thông minh và chuyển đổi trạng thái, một lần nữa trong giao thức RGB. Mục đích cũng sẽ là hiểu cách một số người tham gia hợp tác để chuyển giao quyền sở hữu một tài sản.
 
-### State transitions and their mechanics
+### Chuyển đổi trạng thái và cơ chế của chúng
 
-The general principle is still that of Client-side Validation, where state data is held by the owner and validated by the recipient. However, the specificity here with RGB lies in the fact that Bob, as recipient, asks Alice to incorporate certain information into the contract data in order to have real control over the asset received, via a hidden reference to one of his UTXOs.
+Nguyên tắc chung vẫn là Xác thực phía máy khách, trong đó dữ liệu trạng thái được chủ sở hữu nắm giữ và được người nhận xác thực. Tuy nhiên, tính đặc thù ở đây với RGB nằm ở chỗ Bob, với tư cách là người nhận, yêu cầu Alice kết hợp một số thông tin nhất định vào dữ liệu hợp đồng để có quyền kiểm soát thực sự đối với tài sản đã nhận, thông qua một tham chiếu ẩn đến một trong các UTXO của anh ta.
 
-To illustrate the process of a *State Transition* (which is one of the fundamental ***Contract Operations*** in RGB), let's take a step-by-step example of an asset transfer between Alice and Bob:
+Để minh họa quá trình *Chuyển đổi trạng thái* (là một trong những ***Hoạt động hợp đồng*** cơ bản trong RGB), chúng ta hãy xem ví dụ từng bước về việc chuyển giao tài sản giữa Alice và Bob:
 
-**Initial situation:**
+**Tình hình ban đầu:**
 
-Alice has a ***stash RGB*** of locally validated data (*client-side*). This stash refers to one of her UTXOs on Bitcoin. This means that a _seal definition_ in this data points to a UTXO belonging to Alice. The idea is to enable her to transfer certain digital rights linked to an asset (e.g. RGB tokens) to Bob.
+Alice có ***stash RGB*** dữ liệu được xác thực cục bộ (*client-side*). Stash này đề cập đến một trong những UTXO của cô ấy trên Bitcoin. Điều này có nghĩa là _định nghĩa dấu_ trong dữ liệu này trỏ đến một UTXO thuộc về Alice. Ý tưởng là cho phép cô ấy chuyển một số quyền kỹ thuật số được liên kết với một tài sản (ví dụ: mã thông báo RGB) cho Bob.
 
 ![RGB-Bitcoin](assets/fr/058.webp)
 
-**Bob also has UTXOs :**
+**Bob cũng có UTXO :**
 
-Bob, on the other hand, has at least one UTXO of his own, with no direct link to Alice's. In the event that Bob has no UTXO, it is still possible to make the transfer to him using the *witness transaction* itself: the output of this transaction will then include the commitment (_commitment_) and implicitly associate ownership of the new contract with Bob.
+Mặt khác, Bob có ít nhất một UTXO của riêng mình, không có liên kết trực tiếp nào đến UTXO của Alice. Trong trường hợp Bob không có UTXO, vẫn có thể thực hiện chuyển giao cho anh ta bằng chính *giao dịch chứng kiến*: đầu ra của giao dịch này sau đó sẽ bao gồm cam kết (_cam kết_) và ngầm liên kết quyền sở hữu hợp đồng mới với Bob.
 
 ![RGB-Bitcoin](assets/fr/059.webp)
 
-**Construction of the new property (*New State*) :**
+**Xây dựng cơ sở mới (*Tiểu bang mới*) :**
 
-Bob sends Alice information encoded in the form of an ***invoice*** (we'll go into more detail on invoice construction in later chapters), asking her to create a new state that conforms to the rules of the contract. This state will include a new *seal definition* pointing to one of Bob's UTXOs. In this way, Bob is given ownership of the assets defined in this new state, for example a certain amount of RGB tokens.
+Bob gửi cho Alice thông tin được mã hóa dưới dạng ***hóa đơn*** (chúng ta sẽ đi sâu hơn vào việc xây dựng hóa đơn trong các chương sau), yêu cầu cô ấy tạo một trạng thái mới tuân thủ các quy tắc của hợp đồng. Trạng thái này sẽ bao gồm một *định nghĩa dấu niêm phong* mới trỏ đến một trong các UTXO của Bob. Theo cách này, Bob được trao quyền sở hữu các tài sản được xác định trong trạng thái mới này, ví dụ như một số lượng token RGB nhất định.
 
 ![RGB-Bitcoin](assets/fr/060.webp)
 
-**Preparation of the sample transaction:**
+**Chuẩn bị mẫu giao dịch:**
 
-Alice then creates a Bitcoin transaction spending the UTXO referenced in the previous seal (the one that legitimized her as the holder). In the output of this transaction, a *commitment* (via `Opret` or `Tapret`) is inserted to anchor the new RGB state. The `Opret` or `Tapret` commitments are derived from a *MPC tree* (as seen in previous chapters), which can aggregate several transitions from different contracts.
+Sau đó, Alice tạo một giao dịch Bitcoin chi tiêu UTXO được tham chiếu trong con dấu trước đó (con dấu hợp pháp hóa cô ấy là người nắm giữ). Trong đầu ra của giao dịch này, một *cam kết* (thông qua `Opret` hoặc `Tapret`) được chèn vào để neo trạng thái RGB mới. Các cam kết `Opret` hoặc `Tapret` được lấy từ một *cây MPC* (như đã thấy trong các chương trước), có thể tổng hợp một số chuyển đổi từ các hợp đồng khác nhau.
 
-**Transmission of *Consignment* to Bob:**
+**Chuyển *Lệnh gửi* cho Bob:**
 
-Before broadcasting the transaction, Alice sends Bob a ***Consignment*** containing all the necessary *client-side* data (his *stash*) and the new state information in Bob's favor. At this point, Bob applies the RGB consensus rules:
+Trước khi phát sóng giao dịch, Alice gửi cho Bob một ***Consignment*** chứa tất cả dữ liệu *phía máy khách* cần thiết (*kho lưu trữ* của anh ấy) và thông tin trạng thái mới có lợi cho Bob. Tại thời điểm này, Bob áp dụng các quy tắc đồng thuận RGB:
 
 
-- It validates all the RGB data contained in the *Consignment*, including the new state which grants it ownership of the asset;
-- Relying on the *Anchors* included in the *Consignment*, it verifies the chronology of witness transactions (from Genesis to the most recent transition) and validates the corresponding commitments in the blockchain.
+- Nó xác thực tất cả dữ liệu RGB có trong *Giao dịch*, bao gồm trạng thái mới cấp cho nó quyền sở hữu tài sản;
+- Dựa trên *Mỏ neo* có trong *Khoản ký gửi*, nó xác minh trình tự thời gian của các giao dịch chứng kiến (từ Genesis đến quá trình chuyển đổi gần đây nhất) và xác thực các cam kết tương ứng trong chuỗi khối.
 
-**Transition completion:**
+**Hoàn tất quá trình chuyển đổi:**
 
-If Bob is satisfied, he may give his approval (for example, by signing the *consignment*). Alice can then broadcast the prepared sample transaction. Once confirmed, this closes the seal previously held by Alice and formalizes ownership by Bob. Anti-double-spending security is then based on the same mechanism as in Bitcoin: the UTXO is spent, proving that Alice can no longer reuse it.
+Nếu Bob hài lòng, anh ta có thể chấp thuận (ví dụ, bằng cách ký *giao dịch ký gửi*). Sau đó, Alice có thể phát giao dịch mẫu đã chuẩn bị. Sau khi xác nhận, giao dịch này sẽ đóng dấu niêm phong trước đó do Alice nắm giữ và chính thức hóa quyền sở hữu của Bob. Bảo mật chống chi tiêu gấp đôi sau đó dựa trên cùng một cơ chế như trong Bitcoin: UTXO được chi tiêu, chứng minh rằng Alice không thể sử dụng lại nó nữa.
 
 ![RGB-Bitcoin](assets/fr/061.webp)
 
-The new state now references Bob's UTXO, giving Bob the ownership previously held by Alice. The Bitcoin output where the RGB data is anchored becomes the irrevocable proof of the transfer of ownership.
+Trạng thái mới hiện tham chiếu đến UTXO của Bob, trao cho Bob quyền sở hữu trước đó do Alice nắm giữ. Đầu ra Bitcoin nơi dữ liệu RGB được neo trở thành bằng chứng không thể hủy ngang về việc chuyển giao quyền sở hữu.
 
-An example of a minimal DAG (*Directed Acyclic Graph*) comprising two contract operations (a **Genesis** then a ***State Transition***) can illustrate how the RGB state (*client-side* layer, in red) connects to the Bitcoin blockchain (*Commitment* layer, in orange).
+Một ví dụ về DAG tối thiểu (*Đồ thị không có chu trình có hướng*) bao gồm hai hoạt động hợp đồng (một **Genesis** sau đó là ***Chuyển đổi trạng thái***) có thể minh họa cách trạng thái RGB (lớp *phía máy khách*, màu đỏ) kết nối với chuỗi khối Bitcoin (lớp *Cam kết*, màu cam).
 
 ![RGB-Bitcoin](assets/fr/062.webp)
 
-It shows that a Genesis defines a seal (*seal definition*), then a *State Transition* closes this seal to create a new one in another UTXO.
+Điều này cho thấy Genesis định nghĩa một con dấu (*định nghĩa con dấu*), sau đó *Chuyển đổi trạng thái* đóng con dấu này lại để tạo một con dấu mới trong UTXO khác.
 
-In this context, here are a few reminders of terminology:
+Trong bối cảnh này, sau đây là một số lời nhắc nhở về thuật ngữ:
 
 
-- An ***Assignment*** combines :
-    - A ***Seal Definition*** (which points to a UTXO);
-    - Owned States**, i.e. data linked to ownership (for example, the quantity of tokens transferred).
-- A **Global State** brings together the general properties of the contract, visible to all, and ensuring the global consistency of evolutions.
+- Một ***Bài tập*** kết hợp:
+    - ***Định nghĩa về Seal*** (trỏ đến UTXO);
+    - Các quốc gia sở hữu**, tức là dữ liệu được liên kết với quyền sở hữu (ví dụ: số lượng mã thông báo được chuyển nhượng).
+- **Nhà nước toàn cầu** tập hợp các đặc tính chung của hợp đồng, có thể nhìn thấy được đối với tất cả mọi người và đảm bảo tính nhất quán toàn cầu của quá trình phát triển.
 
-State Transitions**, described in the previous chapter, are the main form of contract operation. They refer to one or more previous states (from Genesis or another State Transition) and update them to a new state.
+Chuyển đổi trạng thái**, được mô tả trong chương trước, là hình thức chính của hoạt động hợp đồng. Chúng tham chiếu đến một hoặc nhiều trạng thái trước đó (từ Genesis hoặc một Chuyển đổi trạng thái khác) và cập nhật chúng thành trạng thái mới.
 
 ![RGB-Bitcoin](assets/fr/063.webp)
 
-This diagram shows how, in a *State Transition Bundle*, several seals can be closed in a single sample transaction, while simultaneously opening new seals. Indeed, an interesting feature of the RGB protocol is its ability to scale: several transitions can be aggregated into a Transition Bundle, each aggregation being associated with a distinct leaf of the *MPC tree* (a unique bundle identifier). Thanks to the *Deterministic Bitcoin Commitment* (DBC) mechanism, the entire message is inserted into a `Tapret` or `Opret` output, while closing previous seals and possibly defining new ones. The `Anchor* serves as a direct link between the commitment stored in the blockchain and the client-side validation structure (*client-side*).
+Sơ đồ này cho thấy cách thức, trong một *State Transition Bundle*, một số seal có thể được đóng trong một giao dịch mẫu duy nhất, đồng thời mở các seal mới. Thật vậy, một tính năng thú vị của giao thức RGB là khả năng mở rộng quy mô của nó: một số transition có thể được tổng hợp thành một Transition Bundle, mỗi tổng hợp được liên kết với một lá riêng biệt của *cây MPC* (một mã định danh bundle duy nhất). Nhờ cơ chế *Deterministic Bitcoin Commitment* (DBC), toàn bộ thông báo được chèn vào đầu ra `Tapret` hoặc `Opret`, đồng thời đóng các seal trước đó và có thể xác định seal mới. `Anchor* đóng vai trò là liên kết trực tiếp giữa cam kết được lưu trữ trong blockchain và cấu trúc xác thực phía máy khách (*client-side*).
 
-In the following chapters, we'll look at all the components and processes involved in building and validating a State Transition. Most of these elements are part of the RGB consensus, implemented in the **RGB Core Library**.
+Trong các chương sau, chúng ta sẽ xem xét tất cả các thành phần và quy trình liên quan đến việc xây dựng và xác thực Chuyển đổi trạng thái. Hầu hết các thành phần này là một phần của sự đồng thuận RGB, được triển khai trong **Thư viện lõi RGB**.
 
-### Transition Bundle
+### Gói chuyển tiếp
 
-On RGB, it is possible to bundle different State Transitions belonging to the same contract (i.e. sharing the same **ContractId**, derived from the Genesis **OpId**). In the simplest case, as between Alice and Bob in the example above, a **Transition Bundle** contains just one transition. But support for multi-payer operations (such as coinjoins, Lightning channel openings, etc.) means that several users can combine their State Transitions in a single bundle.
+Trên RGB, có thể đóng gói các Chuyển đổi trạng thái khác nhau thuộc cùng một hợp đồng (tức là chia sẻ cùng **ContractId**, bắt nguồn từ **OpId** Genesis). Trong trường hợp đơn giản nhất, như giữa Alice và Bob trong ví dụ trên, **Gói chuyển đổi** chỉ chứa một chuyển đổi. Nhưng hỗ trợ cho các hoạt động của nhiều bên thanh toán (như coinjoin, mở kênh Lightning, v.v.) có nghĩa là một số người dùng có thể kết hợp các Chuyển đổi trạng thái của họ trong một gói duy nhất.
 
-Once collected, these transitions are anchored (by the MPC + DBC mechanism) in a single Bitcoin transaction:
+Sau khi thu thập, các chuyển đổi này được neo (bằng cơ chế MPC + DBC) trong một giao dịch Bitcoin duy nhất:
 
 
-- Each State Transition is hashed and grouped into a Transition Bundle ;
-- The Transition Bundle is itself hashed and inserted into the MPC tree leaf corresponding to this contract (a BundleId);
-- The MPC tree is finally engaged via `Opret` or `Tapret` in the witness transaction, which thus closes the consumed seals and defines the new seals.
+- Mỗi Chuyển đổi Trạng thái được băm và nhóm thành một Gói Chuyển đổi;
+- Gói chuyển tiếp được băm và chèn vào nhánh cây MPC tương ứng với hợp đồng này (BundleId);
+- Cuối cùng, cây MPC được kích hoạt thông qua `Opret` hoặc `Tapret` trong giao dịch chứng kiến, do đó đóng các con dấu đã sử dụng và xác định các con dấu mới.
 
-Technically speaking, the **BundleId** inserted in the MPC sheet is obtained from a tagged hash applied to the strict serialization of the bundle's *InputMap* field:
+Về mặt kỹ thuật, **BundleId** được chèn vào bảng tính MPC được lấy từ hàm băm được gắn thẻ áp dụng cho quá trình tuần tự hóa nghiêm ngặt của trường *InputMap* của bundle:
 
 ```txt
 BundleId = SHA256( SHA256(bundle_tag) || SHA256(bundle_tag) || InputMap )
 ```
 
-In which `bundle_tag = urn:lnp-bp:rgb:bundle#2024-02-03` for example.
+Trong đó `bundle_tag = urn:lnp-bp:rgb:bundle#2024-02-03` chẳng hạn.
 
-The *InputMap* is a data structure which lists, for each input `i` of the sample transaction, the reference to the *OpId* of the corresponding State Transition. For example:
+*InputMap* là một cấu trúc dữ liệu liệt kê, đối với mỗi đầu vào `i` của giao dịch mẫu, tham chiếu đến *OpId* của Chuyển đổi trạng thái tương ứng. Ví dụ:
 
 ```txt
 InputMap =
@@ -1236,60 +1198,60 @@ MapElement1                MapElement2                       MapElementN
 ```
 
 
-- `N` is the total number of entries in the transaction that refer to an `OpId`;
-- opId(input_j)` is the operation identifier of one of the State Transitions present in the bundle.
+- `N` là tổng số mục nhập trong giao dịch tham chiếu đến `OpId`;
+- opId(input_j)` là mã định danh hoạt động của một trong các Chuyển đổi trạng thái có trong gói.
 
-By referencing each entry only once and in an orderly fashion, we prevent the same seal from being spent twice in two simultaneous State Transitions.
+Bằng cách tham chiếu mỗi mục nhập chỉ một lần và theo thứ tự, chúng tôi ngăn chặn việc cùng một con dấu được sử dụng hai lần trong hai Chuyển đổi trạng thái đồng thời.
 
-### State Generation and Active State
+### Tạo trạng thái và trạng thái hoạt động
 
-State Transitions can therefore be used to transfer ownership of an asset from one person to another. However, they are not the only possible operations in the RGB protocol. The protocol defines three **Contract Operations** :
+Do đó, Chuyển đổi trạng thái có thể được sử dụng để chuyển quyền sở hữu tài sản từ người này sang người khác. Tuy nhiên, chúng không phải là hoạt động duy nhất có thể có trong giao thức RGB. Giao thức định nghĩa ba **Hoạt động hợp đồng**:
 
 
-- State Transition** ;
-- Genesis** ;
-- State Extension**.
+- Chuyển đổi trạng thái** ;
+- Sáng thế** ;
+- Mở rộng của tiểu bang**.
 
-Among these, **Genesis** and **State Extension** are sometimes called "*State Generation operations*", because they create new states without immediately closing any. This is a very important point: **Genesis** and **State Extension** do not involve closing a seal. Rather, they define a new seal, which must then be spent by a subsequent **State Transition** to be truly validated in the blockchain history.
+Trong số này, **Genesis** và **State Extension** đôi khi được gọi là "*State Generation operations*", vì chúng tạo ra các trạng thái mới mà không đóng ngay lập tức bất kỳ trạng thái nào. Đây là một điểm rất quan trọng: **Genesis** và **State Extension** không liên quan đến việc đóng một con dấu. Thay vào đó, chúng định nghĩa một con dấu mới, sau đó phải được sử dụng bởi **State Transition** tiếp theo để thực sự được xác thực trong lịch sử blockchain.
 
 ![RGB-Bitcoin](assets/fr/064.webp)
 
-The **Active State** of a contract is often defined as the set of latest states resulting from the history (the DAG) of transactions, starting with the Genesis and following all anchors in the Bitcoin blockchain. Any old states that are already obsolete (i.e. attached to spent UTXOs) are no longer considered active, but remain essential for checking the consistency of the history.
+**Trạng thái hoạt động** của hợp đồng thường được định nghĩa là tập hợp các trạng thái mới nhất xuất phát từ lịch sử (DAG) của các giao dịch, bắt đầu từ Genesis và theo sau tất cả các neo trong chuỗi khối Bitcoin. Bất kỳ trạng thái cũ nào đã lỗi thời (tức là được gắn vào UTXO đã sử dụng) không còn được coi là hoạt động nữa, nhưng vẫn cần thiết để kiểm tra tính nhất quán của lịch sử.
 
-### Genesis
+### Sáng thế
 
-The Genesis is the starting point of every RGB contract. It is created by the contract issuer and defines the initial parameters, in accordance with the **Schema**. In the case of an RGB token, the Genesis may specify, for example :
-
-
-- The number of tokens originally created and their owners;
-- Total possible issue ceiling ;
-- Any re-issue rules, and which participants are eligible.
-
-Being the first transaction in the contract, the Genesis does not reference any previous state, nor does it close any seal. However, to appear in the history and be validated, the Genesis must be **consumed** (closed) by a first State Transition (often a scan/auto-spend transaction to the issuer itself, or the initial distribution to users).
-
-### State Extension
-
-State Extensions** offer an original feature for smart contracts. They make it possible to redeem certain digital rights (*Valencies*) provided for in the contract definition, without immediately closing the seal. Most often, this concerns :
+Genesis là điểm khởi đầu của mọi hợp đồng RGB. Nó được tạo ra bởi bên phát hành hợp đồng và xác định các tham số ban đầu, theo **Schema**. Trong trường hợp của một mã thông báo RGB, Genesis có thể chỉ định, ví dụ:
 
 
-- Distributed token issues;
-- Asset swap mechanisms ;
-- Conditional reissues (which may include the destruction of other assets, etc.).
+- Số lượng token ban đầu được tạo ra và chủ sở hữu của chúng;
+- Tổng số trần phát hành có thể có;
+- Bất kỳ quy tắc tái ban hành nào và những người tham gia nào đủ điều kiện.
 
-Technically speaking, a State Extension references a *Redeem* (a particular type of RGB input) that corresponds to a *Valency* defined previously (for example, in Genesis or another State Transition). It defines a new seal, available to the person or condition benefiting from it. For this seal to become effective, it must be spent by a subsequent State Transition.
+Là giao dịch đầu tiên trong hợp đồng, Genesis không tham chiếu đến bất kỳ trạng thái nào trước đó, cũng không đóng bất kỳ con dấu nào. Tuy nhiên, để xuất hiện trong lịch sử và được xác thực, Genesis phải được **tiêu thụ** (đóng) bởi một Chuyển đổi trạng thái đầu tiên (thường là giao dịch quét/tự động chi tiêu cho chính bên phát hành hoặc phân phối ban đầu cho người dùng).
+
+### Mở rộng nhà nước
+
+State Extensions** cung cấp một tính năng gốc cho hợp đồng thông minh. Chúng giúp có thể mua lại một số quyền kỹ thuật số (*Valencies*) được quy định trong định nghĩa hợp đồng mà không cần đóng dấu ngay lập tức. Thông thường, điều này liên quan đến:
+
+
+- Phát hành token phân tán;
+- Cơ chế hoán đổi tài sản;
+- Phát hành lại có điều kiện (có thể bao gồm việc phá hủy các tài sản khác, v.v.).
+
+Về mặt kỹ thuật, một State Extension tham chiếu đến một *Redeem* (một loại đầu vào RGB cụ thể) tương ứng với một *Valency* được định nghĩa trước đó (ví dụ, trong Genesis hoặc một State Transition khác). Nó định nghĩa một con dấu mới, có sẵn cho người hoặc tình trạng được hưởng lợi từ nó. Để con dấu này có hiệu lực, nó phải được sử dụng bởi một State Transition tiếp theo.
 
 ![RGB-Bitcoin](assets/fr/065.webp)
 
-For example: the Genesis creates a right of issue (*Valency*). This can be exercised by an authorized actor, who then builds a State Extension :
+Ví dụ: Genesis tạo ra quyền phát hành (*Valency*). Quyền này có thể được thực hiện bởi một tác nhân được ủy quyền, sau đó xây dựng một State Extension:
 
 
-- It refers to the Valency (redeem);
-- It creates a new *assignment* (new *Owned State* data) pointing to a UTXO ;
-- A future State Transition, issued by the owner of this new UTXO, will actually transfer or distribute the newly issued tokens.
+- Nó ám chỉ đến sự cứu chuộc;
+- Nó tạo ra một *nhiệm vụ* mới (dữ liệu *Trạng thái sở hữu* mới) trỏ tới UTXO;
+- Chuyển đổi trạng thái trong tương lai do chủ sở hữu UTXO mới này phát hành sẽ thực sự chuyển hoặc phân phối các mã thông báo mới được phát hành.
 
-### Components of a Contract Operation
+### Các thành phần của một hoạt động hợp đồng
 
-I'd now like to take a detailed look at each of the constituent elements of a **Contract Operation** in RGB. A Contract Operation is the action which modifies the state of a contract, and which is validated on the client side, in a deterministic way, by the legitimate recipient. In particular, we'll see how the Contract Operation takes into account, on the one hand, the **old state** (*Old State*) of the contract, and on the other, the definition of a **new state** (*New State*).
+Bây giờ tôi muốn xem xét chi tiết từng thành phần cấu thành của **Hoạt động hợp đồng** trong RGB. Hoạt động hợp đồng là hành động sửa đổi trạng thái của hợp đồng và được xác thực ở phía máy khách, theo cách xác định, bởi người nhận hợp pháp. Cụ thể, chúng ta sẽ xem Hoạt động hợp đồng tính đến, một mặt, **trạng thái cũ** (*Trạng thái cũ*) của hợp đồng và mặt khác, định nghĩa về **trạng thái mới** (*Trạng thái mới*).
 
 ```txt
 +---------------------------------------------------------------------------------------------------------------------+
@@ -1343,179 +1305,171 @@ I'd now like to take a detailed look at each of the constituent elements of a **
 +---------------------------------------------------------------------------------------------------------------------+
 ```
 
-If we look at the diagram above, we can see that a Contract Operation includes elements referring to the **New State** and others referring to the updated **Old State**.
+Nếu chúng ta nhìn vào sơ đồ trên, chúng ta có thể thấy rằng Hoạt động hợp đồng bao gồm các thành phần tham chiếu đến **Trạng thái mới** và các thành phần khác tham chiếu đến **Trạng thái cũ** đã cập nhật.
 
-The elements of the **New State** are :
-
-
-- Assignments**, in which are defined :
- - The **Seal Definition**;
- - The **Owned State**.
-- The **Global State**, which can be modified or enriched ;
-- Valencies**, possibly defined in a State Transition or Genesis.
-
-The **Old State** is referenced via :
+Các yếu tố của **Nhà nước mới** là:
 
 
-- Inputs**, which point to *Assignments* of previous state transitions (not present in Genesis);
-- Redeems**, which refer to previously defined Valencies (only in State Extensions).
+- Bài tập**, trong đó được định nghĩa:
+ - **Định nghĩa về hải cẩu**;
+ - **Nhà nước sở hữu**.
+- **Nhà nước toàn cầu** có thể được sửa đổi hoặc làm giàu;
+- Các giá trị**, có thể được xác định trong Chuyển đổi trạng thái hoặc Khởi nguyên.
 
-In addition, a Contract Operation includes more general fields specific to the operation:
-
-
-- ffv` (*Fast-forward version*): 2-byte integer indicating the contract version;
-- transitionType` or ExtensionType`: 16-bit integer specifying the Transition or Extension type, according to the business logic;
-- `ContractId`: 32-byte number referring to the *OpId* of the contract Genesis. Included in Transitions and Extensions, but not in Genesis ;
-- schemaId: present only in Genesis, this is the 32-byte hash representing the structure (*Schema*) of the contract;
-- testnet`: Boolean indicating whether you are on the Testnet or Mainnet network. Genesis only;
-- altlayers1`: variable identifying the alternative layer (sidechain or other) used to anchor data in addition to Bitcoin. Only present in Genesis ;
-- metadata": field which can store temporary information, useful for validating a complex contract, but which must not be recorded in the final status history.
-
-Finally, all these fields are condensed by a customized hashing process, to produce a unique fingerprint, the `OpId`. This `OpId` is then integrated into the Transition Bundle, enabling it to be authenticated and validated within the protocol.
-
-Each *Contract Operation* is therefore identified by a 32-byte hash named `OpId`. This hash is calculated by a SHA256 hash of all the elements making up the operation. In other words, each *Contract Operation* has its own cryptographic commitment, which includes all the data needed to verify the authenticity and consistency of the operation.
-
-An RGB contract is then identified by a `ContractId`, derived from the Genesis `OpId` (since there is no pre-Genesis operation). In concrete terms, we take the Genesis `OpId`, reverse the byte order and apply a Base58 encoding. This encoding makes the `ContractId` easier to handle and recognize.
-
-### Status update methods and rules
-
-The **Contract State** represents the set of information that the RGB protocol must track for a given contract. It is composed of :
+**Trạng thái cũ** được tham chiếu qua:
 
 
-- A single Global State**: this is the public, global part of the contract, visible to all;
-- One or more Owned States**: each Owned State is associated with a unique seal (and therefore a UTXO on Bitcoin). A distinction is made between :
-    - The **public** Owned States,
-    - The **private** Owned States.
+- Đầu vào**, trỏ tới *Các nhiệm vụ* của các quá trình chuyển đổi trạng thái trước đó (không có trong Genesis);
+- Đổi thưởng**, ám chỉ đến các Giá trị được xác định trước đó (chỉ có trong Phần mở rộng của tiểu bang).
+
+Ngoài ra, Hoạt động theo hợp đồng bao gồm các trường tổng quát hơn cụ thể cho hoạt động đó:
+
+
+- ffv` (*Phiên bản chuyển tiếp nhanh*): số nguyên 2 byte biểu thị phiên bản hợp đồng;
+- transitionType` hoặc ExtensionType`: số nguyên 16 bit chỉ định loại Transition hoặc Extension, theo logic nghiệp vụ;
+- `ContractId`: số 32 byte tham chiếu đến *OpId* của hợp đồng Genesis. Bao gồm trong Transitions and Extensions, nhưng không có trong Genesis;
+- schemaId: chỉ có trong Genesis, đây là mã băm 32 byte biểu diễn cấu trúc (*Schema*) của hợp đồng;
+- testnet`: Boolean cho biết bạn đang ở trên mạng Testnet hay Mainnet. Chỉ Genesis;
+- altlayers1`: biến xác định lớp thay thế (sidechain hoặc lớp khác) được sử dụng để neo dữ liệu ngoài Bitcoin. Chỉ có trong Genesis;
+- "siêu dữ liệu": trường có thể lưu trữ thông tin tạm thời, hữu ích cho việc xác thực hợp đồng phức tạp, nhưng không được ghi lại trong lịch sử trạng thái cuối cùng.
+
+Cuối cùng, tất cả các trường này được cô đọng lại bằng một quy trình băm tùy chỉnh, để tạo ra một dấu vân tay duy nhất, `OpId`. `OpId` này sau đó được tích hợp vào Transition Bundle, cho phép nó được xác thực và xác thực trong giao thức.
+
+Do đó, mỗi *Contract Operation* được xác định bằng một hàm băm 32 byte có tên là `OpId`. Hàm băm này được tính toán bằng hàm băm SHA256 của tất cả các thành phần tạo nên hoạt động. Nói cách khác, mỗi *Contract Operation* có cam kết mật mã riêng, bao gồm tất cả dữ liệu cần thiết để xác minh tính xác thực và tính nhất quán của hoạt động.
+
+Sau đó, hợp đồng RGB được xác định bằng `ContractId`, bắt nguồn từ Genesis `OpId` (vì không có hoạt động nào trước Genesis). Cụ thể, chúng tôi lấy Genesis `OpId`, đảo ngược thứ tự byte và áp dụng mã hóa Base58. Mã hóa này giúp `ContractId` dễ xử lý và nhận dạng hơn.
+
+### Phương pháp và quy tắc cập nhật trạng thái
+
+**Trạng thái hợp đồng** biểu thị tập hợp thông tin mà giao thức RGB phải theo dõi cho một hợp đồng nhất định. Nó bao gồm:
+
+
+- Một quốc gia toàn cầu duy nhất**: đây là phần công khai, toàn cầu của hợp đồng, tất cả mọi người đều có thể nhìn thấy;
+- Một hoặc nhiều Bang sở hữu**: mỗi Bang sở hữu được liên kết với một con dấu duy nhất (và do đó là UTXO trên Bitcoin). Có sự phân biệt giữa:
+    - Các tiểu bang **công** sở hữu,
+    - Các quốc gia **do tư nhân** sở hữu.
 
 ![RGB-Bitcoin](assets/fr/066.webp)
 
-The *Global State* is directly included in the *Contract Operation* as a single block. The *Owned States* are defined in each *Assignment*, alongside the *Seal Definition*.
+*Nhà nước toàn cầu* được bao gồm trực tiếp trong *Hoạt động hợp đồng* dưới dạng một khối duy nhất. *Các nhà nước sở hữu* được định nghĩa trong mỗi *Giao nhiệm*, cùng với *Định nghĩa con dấu*.
 
-A major feature of RGB is the way in which the Global State and Owned States are modified. There are generally two types of behavior:
-
-
-- Mutable**: when a state element is described as mutable, each new operation replaces the previous state with a new state. The old data is then considered obsolete;
-- Accumulating**: when a state element is defined as accumulating, each new operation adds new information to the previous state, without overwriting it. The result is a kind of accumulated history.
-
-If, in the contract, a state element is not defined as mutable or cumulative, this element will remain empty for subsequent operations (in other words, there are no new versions for this field). It's the contract Schema (i.e. the coded business logic) that determines whether a state (Global or Owned) is mutable, cumulative or fixed. Once the Genesis has been defined, these properties can only be modified if the contract itself allows it, for example via a specific State Extension.
-
-The table below illustrates how each type of Contract Operation can manipulate (or not) the Global State and the Owned State:
-
-| Genesis | State Extension | State Transition |
-
-| ---------------------------- | :-----: | :-------------: | :--------------: |
-
-| **Add Global State** | + | - | + |
-
-| n/a | - | + | **Mutation of Global State** | - | + |
-
-| **Add Owned State** | + | - | + |
-
-| **Mutation of Owned State** | n/a | No | + |
-
-| **Add Valencies** | + | + | + | + |
-
-**`+`** : action possible if the contract's Schema allows it.
-
-**`-`**: the operation must be confirmed by a subsequent State Transition (the State Extension alone does not close the Single-use Seal).
-
-In addition, the temporal scope and update rights of each type of data can be distinguished in the following table:
-
-| Metadata | Global State | Owned State |
-
-| ------------------------------- | ---------------------------------------- | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-
-| Defined for a single Contract Operation | Defined globally for the contract | Defined for each seal (*Assignment*) | Defined for a single Contract Operation | Defined globally for the contract | Defined for each seal (*Assignment*) | Defined for each seal (*Assignment*) | Defined for each contract
-
-| Non-actualizable (ephemeral data) | Transaction issued by actors (issuer, etc.) | Depends on the rightful holder of the seal (the one who can spend it in a subsequent transaction) |
-
-| The state is defined before the operation (by the *Seal Definition* of the previous operation) | The state is established at the end of the operation | The state is established at the end of the operation | The state is defined before the operation (by the *Seal Definition* of the previous operation) | The state is established at the end of the operation | The state is defined before the operation (by the *Seal Definition* of the previous operation)
-
-### Global State
-
-The Global State is often described as "nobody owns, everybody knows". It contains general information about the contract, which is publicly visible. For example, in a token-issuing contract, it potentially contains :
+Một tính năng chính của RGB là cách mà Global State và Owned State được sửa đổi. Nhìn chung có hai loại hành vi:
 
 
-- The ticker (symbolic abbreviation of the token): `ticker` ;
-- The full name of the token: `name` ;
-- Precision (number of decimal places): `precision` ;
-- Initial offer (and/or maximum token limit): `issuedSupply` ;
-- Issue date: `created` ;
-- Legal data or other public information: `data`.
+- Có thể thay đổi**: khi một phần tử trạng thái được mô tả là có thể thay đổi, mỗi thao tác mới sẽ thay thế trạng thái trước đó bằng một trạng thái mới. Dữ liệu cũ sau đó được coi là lỗi thời;
+- Tích lũy**: khi một phần tử trạng thái được định nghĩa là tích lũy, mỗi thao tác mới sẽ thêm thông tin mới vào trạng thái trước đó mà không ghi đè lên. Kết quả là một loại lịch sử tích lũy.
 
-This Global State can be placed on public resources (websites, IPFS, Nostr, Torrent, etc.) and distributed to the community. Also, the economic incentive (the need to hold and transfer these tokens, etc.) naturally drives contract users to maintain and propagate this data themselves.
+Nếu trong hợp đồng, một phần tử trạng thái không được định nghĩa là có thể thay đổi hoặc tích lũy, phần tử này sẽ vẫn trống cho các hoạt động tiếp theo (nói cách khác, không có phiên bản mới nào cho trường này). Chính Sơ đồ hợp đồng (tức là logic kinh doanh được mã hóa) sẽ xác định xem trạng thái (Toàn cục hoặc Sở hữu) có thể thay đổi, tích lũy hay cố định. Sau khi Genesis đã được định nghĩa, các thuộc tính này chỉ có thể được sửa đổi nếu bản thân hợp đồng cho phép, ví dụ thông qua một Phần mở rộng trạng thái cụ thể.
 
-### Assignments
+Bảng dưới đây minh họa cách mỗi loại Hoạt động hợp đồng có thể thao túng (hoặc không) Trạng thái toàn cầu và Trạng thái sở hữu:
 
-The *Assignment* is the basic structure for defining :
+|                              | Genesis | Mở rộng trạng thái | Chuyển đổi trạng thái |
+| ---------------------------- | :-----: | :---------------: | :------------------: |
+| **Thêm Global State**        |    +    |        -         |        +           |
+| **Thay đổi Global State**    |   n/a   |        -         |        +           |
+| **Thêm Owned State**         |    +    |        -         |        +           |
+| **Thay đổi Owned State**     |   n/a   |       Không      |        +           |
+| **Thêm Valencies**           |    +    |        +         |        +           |
 
 
-- The seal (*Seal Definition*), which points to a specific UTXO;
-- The *Owned State*, i.e. the property or data associated with this seal.
+**`+`** : hành động có thể thực hiện nếu Sơ đồ hợp đồng cho phép.
 
-An *Assignment* can be seen as the analogue of a Bitcoin transaction output, but with more flexibility. Herein lies the logic of property transfer: the *Assignment* associates a particular type of asset or right (`AssignmentType`) with a seal. Whoever possesses the private key of the UTXO linked to this seal (or whoever can spend this UTXO) is considered the owner of this *Owned State*.
+**`-`**: hoạt động phải được xác nhận bằng Chuyển đổi trạng thái tiếp theo (Chỉ riêng Mở rộng trạng thái không đóng Dấu niêm phong sử dụng một lần).
 
-One of RGB's great strengths lies in the ability to reveal (*reveal*) or hide (*conceal*) the *Seal Definition* and *Owned State* fields at will. This offers a powerful combination of confidentiality and selectivity. For example, you can prove that a transition is valid without disclosing all the data, by providing the revealed version to the person who has to validate it, while third parties only see the hidden version (a hash). In practice, the `OpId` of a transition is always calculated from the *concealed* data.
+Ngoài ra, phạm vi thời gian và quyền cập nhật của từng loại dữ liệu có thể được phân biệt trong bảng sau:
+
+|                                 | Metadata                                  | Trạng thái toàn cục                           | Trạng thái sở hữu                                                                                              |
+| ------------------------------- | ---------------------------------------- | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| **Phạm vi**                     | Được xác định cho một thao tác hợp đồng duy nhất | Được xác định toàn cục cho hợp đồng         | Được xác định cho từng niêm phong (*Assignment*)                                                              |
+| **Ai có thể cập nhật?**         | Không thể cập nhật lại (dữ liệu tạm thời) | Thao tác do các tác nhân phát hành (issuer, v.v.) | Phụ thuộc vào chủ sở hữu hợp pháp của niêm phong (người có thể chi tiêu nó trong một giao dịch tiếp theo)  |
+| **Phạm vi thời gian**           | Chỉ trong thao tác hiện tại              | Trạng thái được thiết lập sau khi thao tác hoàn tất | Trạng thái được xác định trước thao tác (bởi *Seal Definition* của thao tác trước đó)                        |
+
+
+### Nhà nước toàn cầu
+
+Global State thường được mô tả là "không ai sở hữu, mọi người đều biết". Nó chứa thông tin chung về hợp đồng, được công khai. Ví dụ, trong hợp đồng phát hành token, nó có khả năng chứa:
+
+
+- Ký hiệu (viết tắt tượng trưng của mã thông báo): `ticker` ;
+- Tên đầy đủ của mã thông báo: `name`;
+- Độ chính xác (số chữ số thập phân): `precision` ;
+- Đề nghị ban đầu (và/hoặc giới hạn mã thông báo tối đa): `issuedSupply`;
+- Ngày phát hành: `created` ;
+- Dữ liệu pháp lý hoặc thông tin công khai khác: `dữ liệu`.
+
+Global State này có thể được đặt trên các nguồn công cộng (trang web, IPFS, Nostr, Torrent, v.v.) và phân phối cho cộng đồng. Ngoài ra, động lực kinh tế (nhu cầu nắm giữ và chuyển các mã thông báo này, v.v.) tự nhiên thúc đẩy người dùng hợp đồng tự duy trì và truyền bá dữ liệu này.
+
+### Bài tập
+
+*Bài tập* là cấu trúc cơ bản để xác định:
+
+
+- Con dấu (*Định nghĩa con dấu*), trỏ đến một UTXO cụ thể;
+- *Trạng thái sở hữu*, tức là tài sản hoặc dữ liệu liên quan đến con dấu này.
+
+*Assignment* có thể được xem như tương tự như đầu ra giao dịch Bitcoin, nhưng linh hoạt hơn. Ở đây nằm ở logic chuyển nhượng tài sản: *Assignment* liên kết một loại tài sản hoặc quyền cụ thể (`AssignmentType`) với một con dấu. Bất kỳ ai sở hữu khóa riêng của UTXO được liên kết với con dấu này (hoặc bất kỳ ai có thể chi tiêu UTXO này) đều được coi là chủ sở hữu của *Owned State* này.
+
+Một trong những điểm mạnh lớn của RGB nằm ở khả năng hiển thị (*tiết lộ*) hoặc ẩn (*giấu*) các trường *Seal Definition* và *Owned State* theo ý muốn. Điều này mang lại sự kết hợp mạnh mẽ giữa tính bảo mật và tính chọn lọc. Ví dụ, bạn có thể chứng minh rằng một quá trình chuyển đổi là hợp lệ mà không cần tiết lộ toàn bộ dữ liệu, bằng cách cung cấp phiên bản đã tiết lộ cho người phải xác thực, trong khi bên thứ ba chỉ nhìn thấy phiên bản ẩn (một hàm băm). Trong thực tế, `OpId` của một quá trình chuyển đổi luôn được tính toán từ dữ liệu *bị ẩn*.
 
 ![RGB-Bitcoin](assets/fr/067.webp)
 
-#### Seal Definition
+#### Định nghĩa con dấu
 
-The *Seal Definition*, in its revealed form, has four basic fields: `txptr`, `vout`, `blinding` and `method` :
+*Định nghĩa về Seal*, ở dạng được tiết lộ, có bốn trường cơ bản: `txptr`, `vout`, `blinding` và `method`:
 
 
-- txptr**: this is a reference to a UTXO on Bitcoin :
-    - In the case of a **Genesis seal**, it points directly to an existing UTXO (the one associated with the Genesis);
-    - In the case of a **Graph seal**, we can have :
-        - A simple `txid`, if pointing to a specific UTXO,
-        - Or a `WitnessTx`, which designates a self-reference: the seal points to the transaction itself. This is particularly useful when no external UTXO is available, for example in Lightning channel opening transactions, or if the recipient has no UTXO.
-- vout** : the output number of the transaction indicated by `txptr`. Present only for a standard Graph seal (not for `WitnessTx`);
-- blinding**: a random number of 8 bytes, to reinforce confidentiality and prevent brute force attempts on the UTXO's identity;
-- method** : indicates the anchoring method used (`Tapret` or `Opret`).
+- txptr**: đây là tham chiếu đến UTXO trên Bitcoin:
+    - Trong trường hợp của **con dấu Genesis**, nó trỏ trực tiếp đến một UTXO hiện có (con dấu liên quan đến Genesis);
+    - Trong trường hợp của **Graph seal**, chúng ta có thể có:
+        - Một `txid` đơn giản, nếu trỏ đến một UTXO cụ thể,
+        - Hoặc `WitnessTx`, chỉ định tham chiếu tự thân: con dấu trỏ đến chính giao dịch. Điều này đặc biệt hữu ích khi không có UTXO bên ngoài nào khả dụng, ví dụ như trong các giao dịch mở kênh Lightning hoặc nếu người nhận không có UTXO.
+- vout**: số đầu ra của giao dịch được chỉ định bởi `txptr`. Chỉ có trong dấu Graph chuẩn (không có trong `WitnessTx`);
+- blinding**: một số ngẫu nhiên gồm 8 byte, để tăng cường tính bảo mật và ngăn chặn các nỗ lực tấn công bằng vũ lực vào danh tính của UTXO;
+- phương pháp**: biểu thị phương pháp neo được sử dụng (`Tapret` hoặc `Opret`).
 
-The *concealed* form of the Seal Definition is a SHA256 hash (tagged) of the concatenation of these 4 fields, with a tag specific to RGB.
+Dạng *ẩn* của Định nghĩa Dấu niêm phong là hàm băm SHA256 (được gắn thẻ) của phép nối 4 trường này, với một thẻ cụ thể cho RGB.
 
 ![RGB-Bitcoin](assets/fr/068.webp)
 
-#### Owned States
+#### Các tiểu bang sở hữu
 
-The second component of *Assignment* is the Owned State. Unlike the Global State, it can exist in public or private form:
-
-
-- Public Owned State**: everyone knows the data associated with the seal. For example, a public image;
-- Private Owned State**: the data is hidden, known only to the owner (and potentially the validator if necessary). For example, the number of tokens held.
-
-RGB defines four possible state types (*StateTypes*) for an Owned State:
+Thành phần thứ hai của *Assignment* là Owned State. Không giống như Global State, nó có thể tồn tại ở dạng công khai hoặc riêng tư:
 
 
-- Declarative**: contains no numerical data, just a declarative right (e.g. a right to vote). The hidden and revealed forms are identical;
-- Fungible**: represents a fungible quantity (like tokens). In revealed form, we have `amount` and `blinding`. In hidden form, we have a single *Pedersen commitment* which hides the amount and the blinding;
-- Structured**: stores structured data (up to 64 kB). In revealed form, it's the data blob. In hidden form, it's a tagged hash of this blob:
+- Nhà nước công sở**: mọi người đều biết dữ liệu liên quan đến con dấu. Ví dụ, hình ảnh công cộng;
+- Nhà nước tư nhân**: dữ liệu được ẩn, chỉ chủ sở hữu (và có thể là người xác thực nếu cần) mới biết. Ví dụ: số lượng mã thông báo được nắm giữ.
+
+RGB định nghĩa bốn loại trạng thái có thể có (*StateTypes*) cho một Trạng thái sở hữu:
+
+
+- Khai báo**: không chứa dữ liệu số, chỉ có quyền khai báo (ví dụ: quyền bỏ phiếu). Các hình thức ẩn và hiển thị là giống hệt nhau;
+- Fungible**: biểu thị một số lượng có thể thay thế (như token). Ở dạng được tiết lộ, chúng ta có `amount` và `blinding`. Ở dạng ẩn, chúng ta có một *Pedersen commit* duy nhất ẩn số lượng và blinding;
+- Structured**: lưu trữ dữ liệu có cấu trúc (tối đa 64 kB). Ở dạng hiển thị, đó là blob dữ liệu. Ở dạng ẩn, đó là băm được gắn thẻ của blob này:
 
 ```txt
 SHA-256(SHA-256(tag_data) || SHA-256(tag_data) || blob)
 ```
 
-With, for example :
+Với ví dụ như:
 
 ```txt
 tag_data = urn:lnp-bp:rgb:state-data#2024-02-12
 ```
 
 
-- Attachments**: links a file (audio, image, binary, etc.) to the Owned State, storing the file hash `file_hash`, the MIME type `media type` and a cryptographic salt `salt`. The file itself is hosted elsewhere. In hidden form, it is a hash tagged with the three preceding data items:
+- Tệp đính kèm**: liên kết một tệp (âm thanh, hình ảnh, nhị phân, v.v.) với Trạng thái sở hữu, lưu trữ tệp băm `file_hash`, loại MIME `media type` và một muối mật mã `salt`. Bản thân tệp được lưu trữ ở nơi khác. Ở dạng ẩn, nó là một băm được gắn thẻ với ba mục dữ liệu trước đó:
 
 ```txt
 SHA-256(SHA-256(tag_attachment) || SHA-256(tag_attachment) || file_hash || media_type || salt)
 ```
 
-With, for example :
+Với ví dụ như:
 
 ```txt
 tag_attachment = urn:rgb:state-attach#2024-02-12
 ```
 
-To summarize, here are the 4 possible types of state in the public and hidden form:
+Tóm lại, sau đây là 4 loại trạng thái có thể có ở dạng công khai và ẩn:
 
 ```txt
 State                      Concealed form                              Revealed form
@@ -1545,571 +1499,562 @@ Attachments        | |     Tagged Hash      | | <========== | | File Hash | | Me
 +--------------------------+             +---------------------------------------+
 ```
 
-| **Declarative** | **Fungible** | **Structured** | **Attachments** |
-
+| **Thành phần**        | **Khai báo**   | **Có thể thay thế**                  | **Có cấu trúc**                | **Tệp đính kèm**             |
 | --------------------- | -------------- | ------------------------------------ | ----------------------------- | ---------------------------- |
-
-| None | 64-bit signed or unsigned integer | Any strict data type | Any file |
-
-| Info type** | None | Signed or unsigned | Strict types | MIME type |
-
-| Pedersen commitment | Hashing with blinding | Hashed file ID
-
-| Size limits** | N/A | 256 bytes | Up to 64 KB | Up to ~500 Gb |
-
-### Inputs
-
-The Inputs of a *Contract Operation* refer to the *Assignments* that are being spent in this new operation. An Input indicates :
+| **Dữ liệu**          | Không có       | Số nguyên có dấu hoặc không dấu 64 bit | Bất kỳ loại dữ liệu nghiêm ngặt nào | Bất kỳ tệp nào               |
+| **Loại thông tin**   | Không có       | Có dấu hoặc không dấu                 | Loại nghiêm ngặt               | Loại MIME                    |
+| **Bảo mật**         | Không yêu cầu  | Cam kết Pedersen                     | Băm với blinding               | Định danh tệp được băm       |
+| **Giới hạn kích thước** | N/A           | 256 byte                             | Tối đa 64 KB                   | Tối đa ~500 GB               |
 
 
-- prevOpId` : the identifier (`OpId`) of the previous operation where the *Assignment* was located;
-- assignmentType` : the type of *Assignment* (for example, `assetOwner` for a token) ;
-- `Index`: the index of the *Assignment* in the list associated with the previous `OpId`, determined after a lexicographic sorting of the hidden seals.
+### Đầu vào
 
-Inputs never appear in Genesis, since there are no previous Assignments. Nor do they appear in State Extensions (because State Extensions don't close seals; rather, they redefine new seals based on Valencies).
-
-When we have Owned States of type `Fungible`, the validation logic (via the AluVM script provided in the Schema) checks the consistency of the sums: the sum of incoming tokens (*Inputs*) must be equal to the sum of outgoing tokens (in the new *Assignments*).
-
-### Metadata
-
-The **Metadata** field can be up to 64 KiB and is used to include temporary data useful for validation, but not integrated into the permanent state of the contract. For example, intermediate calculation variables for complex scripts can be stored here. This space is not intended to be stored in the global history, which is why it is outside the scope of Owned States or Global State.
-
-### Valencies
-
-Valencies** are an original RGB protocol mechanism. They can be found in Genesis, State Transitions or State Extensions. They represent numerical rights that can be activated by a State Extension (via *Redeems*), then finalized by a subsequent Transition. Each Valency is identified by a `ValencyType` (16 bits). Its semantics (reissue right, token swap, burn right, etc.) are defined in the Schema.
-
-In concrete terms, we could imagine a Genesis defining a "right to reissue" valency. A State Extension will consume it (*Redeem*) if certain conditions are met, in order to introduce a new quantity of tokens. Then, a State Transition emanating from the holder of the seal thus created can transfer these new tokens.
-
-### Redeems
-
-Redeems are the Valency equivalent of Inputs for Assignments. They only appear in State Extensions, as this is where a previously defined Valency is activated. A Redeem consists of two fields:
+Đầu vào của *Hoạt động hợp đồng* đề cập đến *Các nhiệm vụ* đang được chi tiêu trong hoạt động mới này. Đầu vào chỉ ra:
 
 
-- `PrevOpId` : the `OpId` of the operation where the Valency was specified;
-- `ValencyType`: the type of Valency you wish to activate (each `ValencyType` can only be used once by State Extension).
+- prevOpId`: mã định danh (`OpId`) của hoạt động trước đó nơi *Bài tập* được đặt;
+- assignmentType`: loại *Assignment* (ví dụ: `assetOwner` cho một mã thông báo);
+- `Index`: chỉ mục của *Bài tập* trong danh sách liên kết với `OpId` trước đó, được xác định sau khi sắp xếp theo thứ tự từ điển các con dấu ẩn.
 
-Example: a Redeem can correspond to a CoinSwap execution, depending on what was coded in the Valency.
+Đầu vào không bao giờ xuất hiện trong Genesis vì không có Assignments trước đó. Chúng cũng không xuất hiện trong State Extensions (vì State Extensions không đóng các con dấu; thay vào đó, chúng xác định lại các con dấu mới dựa trên Valencies).
 
-### RGB status characteristics
+Khi chúng ta có các Trạng thái sở hữu thuộc loại `Fungible`, logic xác thực (thông qua tập lệnh AluVM được cung cấp trong Sơ đồ) sẽ kiểm tra tính nhất quán của các tổng: tổng các mã thông báo đến (*Đầu vào*) phải bằng tổng các mã thông báo đi (trong *Gán* mới).
 
-We're now going to take a look at several fundamental state characteristics in RGB. In particular, we'll look at :
+### Siêu dữ liệu
 
+Trường **Siêu dữ liệu** có thể lên đến 64 KiB và được sử dụng để bao gồm dữ liệu tạm thời hữu ích cho việc xác thực, nhưng không được tích hợp vào trạng thái cố định của hợp đồng. Ví dụ, các biến tính toán trung gian cho các tập lệnh phức tạp có thể được lưu trữ tại đây. Không gian này không được dự định lưu trữ trong lịch sử toàn cầu, đó là lý do tại sao nó nằm ngoài phạm vi của Owned States hoặc Global State.
 
-- The **Strict Type System**, which imposes a precise and typed organization of data;
-- The importance of separating **validation** from **ownership** ;
-- The **consensus evolution** system in RGB, which includes the notions of *fast-forward* and *push-back*.
+### Hóa trị
 
-As always, bear in mind that everything to do with contract status is validated on the client side according to consensus rules set out in the protocol, and whose ultimate cryptographic reference is anchored in Bitcoin transactions.
+Valencies** là cơ chế giao thức RGB gốc. Chúng có thể được tìm thấy trong Genesis, State Transitions hoặc State Extensions. Chúng đại diện cho các quyền số có thể được kích hoạt bởi State Extension (thông qua *Redeems*), sau đó được hoàn thiện bằng Transition tiếp theo. Mỗi Valency được xác định bằng `ValencyType` (16 bit). Ngữ nghĩa của nó (quyền tái phát hành, hoán đổi token, quyền ghi, v.v.) được định nghĩa trong Schema.
 
-#### Strict Type System
+Cụ thể hơn, chúng ta có thể tưởng tượng Genesis định nghĩa "quyền tái phát hành" giá trị. Một State Extension sẽ tiêu thụ nó (*Đổi*) nếu đáp ứng được một số điều kiện nhất định, để giới thiệu một lượng token mới. Sau đó, một State Transition phát sinh từ người nắm giữ con dấu được tạo ra như vậy có thể chuyển những token mới này.
 
-RGB uses a *Strict Type System* and a deterministic serialization mode (*Strict Encoding*). This organization is designed to guarantee perfect reproducibility and precision in the definition, handling and validation of contract data.
+### Đổi thưởng
 
-In many programming environments (JSON, YAML...), the data structure can be flexible, even too permissive. In RGB, on the other hand, the Structure and Types of each field are defined with explicit constraints. For example :
-
-
-- Each variable has a specific type (for example, an 8-bit unsigned integer `u8`, or a 16-bit signed integer, etc.);
-- Types can be composed (nested types). This means you can define a type based on other types (e.g. an aggregate type containing a `u8` field, a `bool` field, etc.);
-- Collections can also be specified: lists (*list*), sets (*set*) or dictionaries (*map*), with a deterministic order of progression;
-- Each field is bounded (*lower bound* / *upper bound*). We also impose limits on the number of elements in collections (containment);
-- Data is byte-aligned and serialization is strictly defined and unambiguous.
-
-Thanks to this strict encoding protocol :
+Redeem là Valency tương đương với Inputs for Assignments. Chúng chỉ xuất hiện trong State Extensions, vì đây là nơi Valency được xác định trước đó được kích hoạt. Redeem bao gồm hai trường:
 
 
-- The order of the fields is always the same, regardless of the implementation or programming language used;
-- The hashes calculated on the same data set are therefore reproducible and identical (strictly deterministic *commitments*);
-- Boundaries prevent uncontrolled growth in data size (e.g. too many fields);
-- This form of encoding facilitates cryptographic verification, as each participant knows exactly how to serialize and hash the data.
+- `PrevOpId`: `OpId` của hoạt động trong đó Valency được chỉ định;
+- `ValencyType`: loại Valency bạn muốn kích hoạt (mỗi `ValencyType` chỉ có thể được sử dụng một lần bởi State Extension).
 
-In practice, the structure (*Schema*) and the resulting code (*Interface* and associated logic) are compiled. A descriptive language is used to define the contract (types, fields, rules) and generate a strict binary format. When compiled, the result is :
+Ví dụ: Redeem có thể tương ứng với lệnh thực thi CoinSwap, tùy thuộc vào thông tin được mã hóa trong Valency.
+
+### Đặc điểm trạng thái RGB
+
+Bây giờ chúng ta sẽ xem xét một số đặc điểm trạng thái cơ bản trong RGB. Cụ thể, chúng ta sẽ xem xét:
 
 
-- A *Memory Layout* for each field;
-- Semantic identifiers (which indicate whether changing a variable name has an impact on the logic, even if the memory structure remains the same).
+- **Hệ thống kiểu dữ liệu nghiêm ngặt** áp dụng cách tổ chức dữ liệu chính xác và có kiểu dữ liệu;
+- Tầm quan trọng của việc tách biệt **xác thực** khỏi **quyền sở hữu**;
+- Hệ thống **tiến hóa đồng thuận** trong RGB, bao gồm các khái niệm *tua nhanh* và *đẩy lùi*.
 
-The strict type system also enables precise monitoring of changes: any modification to the structure (even a change of field name) is detectable and can lead to a change in the overall footprint.
+Như thường lệ, hãy nhớ rằng mọi thứ liên quan đến trạng thái hợp đồng đều được xác thực ở phía máy khách theo các quy tắc đồng thuận được nêu trong giao thức và có tham chiếu mật mã cuối cùng được neo trong các giao dịch Bitcoin.
 
-Finally, each compilation produces a fingerprint, a cryptographic identifier that attests to the exact version of the code (data, rules, validation). For example, an identifier of the form :
+#### Hệ thống kiểu nghiêm ngặt
+
+RGB sử dụng *Hệ thống kiểu nghiêm ngặt* và chế độ tuần tự hóa xác định (*Mã hóa nghiêm ngặt*). Tổ chức này được thiết kế để đảm bảo khả năng tái tạo và độ chính xác hoàn hảo trong việc định nghĩa, xử lý và xác thực dữ liệu hợp đồng.
+
+Trong nhiều môi trường lập trình (JSON, YAML...), cấu trúc dữ liệu có thể linh hoạt, thậm chí là quá dễ dãi. Ngược lại, trong RGB, Cấu trúc và Kiểu của mỗi trường được xác định với các ràng buộc rõ ràng. Ví dụ:
+
+
+- Mỗi biến có một kiểu cụ thể (ví dụ, số nguyên không dấu 8 bit `u8`, hoặc số nguyên có dấu 16 bit, v.v.);
+- Các kiểu có thể được tạo thành (các kiểu lồng nhau). Điều này có nghĩa là bạn có thể định nghĩa một kiểu dựa trên các kiểu khác (ví dụ: một kiểu tổng hợp chứa trường `u8`, trường `bool`, v.v.);
+- Bộ sưu tập cũng có thể được chỉ định: danh sách (*list*), tập hợp (*set*) hoặc từ điển (*map*), với thứ tự tiến triển xác định;
+- Mỗi trường được giới hạn (*giới hạn dưới* / *giới hạn trên*). Chúng tôi cũng áp đặt giới hạn cho số lượng phần tử trong các bộ sưu tập (giới hạn);
+- Dữ liệu được căn chỉnh theo byte và quá trình tuần tự hóa được xác định nghiêm ngặt và rõ ràng.
+
+Nhờ vào giao thức mã hóa nghiêm ngặt này:
+
+
+- Thứ tự các trường luôn giống nhau, bất kể cách triển khai hoặc ngôn ngữ lập trình được sử dụng;
+- Do đó, các hàm băm được tính toán trên cùng một tập dữ liệu có thể tái tạo được và giống hệt nhau (cam kết *hoàn toàn xác định*);
+- Các ranh giới ngăn chặn sự tăng trưởng không kiểm soát về kích thước dữ liệu (ví dụ: quá nhiều trường);
+- Hình thức mã hóa này tạo điều kiện thuận lợi cho việc xác minh mật mã, vì mỗi người tham gia đều biết chính xác cách tuần tự hóa và băm dữ liệu.
+
+Trong thực tế, cấu trúc (*Schema*) và mã kết quả (*Interface* và logic liên quan) được biên dịch. Một ngôn ngữ mô tả được sử dụng để xác định hợp đồng (kiểu, trường, quy tắc) và tạo ra một định dạng nhị phân nghiêm ngặt. Khi biên dịch, kết quả là:
+
+
+- *Bố cục bộ nhớ* cho mỗi trường;
+- Định danh ngữ nghĩa (chỉ ra liệu việc thay đổi tên biến có ảnh hưởng đến logic hay không, ngay cả khi cấu trúc bộ nhớ vẫn giữ nguyên).
+
+Hệ thống kiểu nghiêm ngặt cũng cho phép theo dõi chính xác các thay đổi: bất kỳ sửa đổi nào đối với cấu trúc (kể cả thay đổi tên trường) đều có thể phát hiện được và có thể dẫn đến thay đổi trong dấu chân tổng thể.
+
+Cuối cùng, mỗi biên dịch tạo ra một dấu vân tay, một mã định danh mật mã chứng thực phiên bản chính xác của mã (dữ liệu, quy tắc, xác thực). Ví dụ, một mã định danh có dạng:
 
 ```txt
 BEiLYE-am9WhTW1-oK8cpvw4-FEMtzMrf-mKocuGZn-qWK6YF#ginger-parking-nirvana
 ```
 
-This makes it possible to manage consensus or implementation updates, while ensuring detailed traceability of the versions used in the network.
+Điều này giúp quản lý sự đồng thuận hoặc cập nhật triển khai, đồng thời đảm bảo khả năng truy xuất chi tiết các phiên bản được sử dụng trong mạng.
 
-To prevent the state of an RGB contract from becoming too cumbersome to validate on the client side, a consensus rule imposes a maximum size of `2^16` bytes (64 Kio) for any data involved in validation calculations. This applies to each variable or structure: no more than 65536 bytes, or the equivalent in numbers (32768 16-bit integers, etc.). This also applies to collections (lists, sets, maps), which may not exceed `2^16` elements.
+Để ngăn chặn trạng thái của hợp đồng RGB trở nên quá phức tạp để xác thực ở phía máy khách, một quy tắc đồng thuận áp đặt kích thước tối đa là `2^16` byte (64 Kio) cho bất kỳ dữ liệu nào liên quan đến tính toán xác thực. Điều này áp dụng cho mỗi biến hoặc cấu trúc: không quá 65536 byte hoặc tương đương về số (32768 số nguyên 16 bit, v.v.). Điều này cũng áp dụng cho các bộ sưu tập (danh sách, tập hợp, bản đồ), không được vượt quá `2^16` phần tử.
 
-This limit guarantees :
-
-
-- Controls the maximum size of data to be manipulated during a state transition;
-- Compatibility with the virtual machine (*AluVM*) used to run the validation scripts.
-
-#### The Validation != Ownership paradigm
-
-One of RGB's major innovations is the strict separation between two concepts:
+Giới hạn này đảm bảo:
 
 
-- Validation**: checking that a state transition respects the rules of the contract (business logic, history, etc.);
-- The **ownership** (ownership, or control): the fact of owning the Bitcoin UTXO that allows the Single-use Seal to be spent (or closed), and thus the state transition to take place.
+- Kiểm soát kích thước tối đa của dữ liệu được xử lý trong quá trình chuyển đổi trạng thái;
+- Khả năng tương thích với máy ảo (*AluVM*) được sử dụng để chạy các tập lệnh xác thực.
 
-Validation** takes place at the level of the RGB software stack (libraries, *commitments* protocol, etc.). Its role is to ensure that the internal rules of the contract (amounts, permissions, etc.) are respected. Observers or other participants can also validate the data history.
+#### Mô hình Xác thực != Quyền sở hữu
 
-Ownership**, on the other hand, relies entirely on Bitcoin's security. Owning the private key of a UTXO means controlling the ability to launch a new transition (closing the Single-use Seal). So, even if someone can see or validate the data, they can't change the state if they don't own the UTXO concerned.
+Một trong những cải tiến lớn của RGB là sự tách biệt chặt chẽ giữa hai khái niệm:
+
+
+- Xác thực**: kiểm tra xem quá trình chuyển đổi trạng thái có tuân thủ các quy tắc của hợp đồng hay không (logic nghiệp vụ, lịch sử, v.v.);
+- **Quyền sở hữu** (quyền sở hữu hoặc quyền kiểm soát): thực tế sở hữu Bitcoin UTXO cho phép Con dấu sử dụng một lần được chi tiêu (hoặc đóng) và do đó quá trình chuyển đổi trạng thái diễn ra.
+
+Xác thực** diễn ra ở cấp độ ngăn xếp phần mềm RGB (thư viện, giao thức *cam kết*, v.v.). Vai trò của nó là đảm bảo các quy tắc nội bộ của hợp đồng (số lượng, quyền, v.v.) được tôn trọng. Người quan sát hoặc những người tham gia khác cũng có thể xác thực lịch sử dữ liệu.
+
+Mặt khác, quyền sở hữu** hoàn toàn phụ thuộc vào tính bảo mật của Bitcoin. Sở hữu khóa riêng của UTXO có nghĩa là kiểm soát khả năng khởi chạy một quá trình chuyển đổi mới (đóng Dấu sử dụng một lần). Vì vậy, ngay cả khi ai đó có thể xem hoặc xác thực dữ liệu, họ cũng không thể thay đổi trạng thái nếu họ không sở hữu UTXO liên quan.
 
 ![RGB-Bitcoin](assets/fr/069.webp)
 
-This approach limits the classic vulnerabilities encountered in more complex blockchains (where all the code of a smart contract is public and modifiable by anyone, which has sometimes led to hacks). On RGB, an attacker cannot simply interact with the on-chain state, as the right to act on the state (*ownership*) is protected by the Bitcoin layer.
+Cách tiếp cận này hạn chế các lỗ hổng cổ điển gặp phải trong các blockchain phức tạp hơn (nơi tất cả mã của hợp đồng thông minh đều công khai và có thể được bất kỳ ai sửa đổi, điều này đôi khi dẫn đến các vụ hack). Trên RGB, kẻ tấn công không thể chỉ tương tác với trạng thái trên chuỗi, vì quyền hành động trên trạng thái (*quyền sở hữu*) được bảo vệ bởi lớp Bitcoin.
 
-What's more, this decoupling allows RGB to integrate naturally with the Lightning Network. Lightning channels can be used to engage and move RGB assets without engaging on-chain *commitments* every time. We'll take a closer look at this integration of RGB on Lightning in later chapters of the course.
+Hơn nữa, việc tách rời này cho phép RGB tích hợp tự nhiên với Lightning Network. Các kênh Lightning có thể được sử dụng để tham gia và di chuyển các tài sản RGB mà không cần tham gia *cam kết* trên chuỗi mọi lúc. Chúng ta sẽ xem xét kỹ hơn về việc tích hợp RGB trên Lightning này trong các chương sau của khóa học.
 
-#### Consensus developments in RGB
+#### Sự phát triển đồng thuận trong RGB
 
-In addition to semantic code versioning, RGB includes a system for evolving or updating a contract's consensus rules over time. There are two main forms of evolution:
-
-
-- Fast-forward**
-- Push-back** (in French)
-
-A fast-forward occurs when a previously invalid rule becomes valid. For example, if the contract evolves to allow a new type of `AssignmentType` or a new field :
+Ngoài phiên bản mã ngữ nghĩa, RGB bao gồm một hệ thống để phát triển hoặc cập nhật các quy tắc đồng thuận của hợp đồng theo thời gian. Có hai hình thức phát triển chính:
 
 
-- This cannot be compared to a classic blockchain hardfork, as RGB works in client-side validation and does not affect the overall compatibility of the blockchain ;
-- In practical terms, this type of change is indicated by the `Ffv` (*fast-forward version*) field in the contract operation;
-- Current holders are not harmed: their status remains valid;
-- New beneficiaries (or new users), on the other hand, need to update their software (their wallet) to recognize the new rules.
+- Chuyển tiếp nhanh**
+- Đẩy lùi** (bằng tiếng Pháp)
 
-A push-back means that a previously valid rule becomes invalid. It is therefore a "hardening" of the rules, but not strictly speaking a softfork:
+Chuyển tiếp nhanh xảy ra khi một quy tắc trước đây không hợp lệ trở thành hợp lệ. Ví dụ, nếu hợp đồng phát triển để cho phép một loại `AssignmentType` mới hoặc một trường mới:
 
 
-- Existing holders may be impacted (they could find themselves with assets rendered obsolete or invalid in the new version);
-- We can consider that we are in fact creating a new protocol: whoever adopts the new rule departs from the old one;
-- The issuer may decide to re-issue assets in this new protocol, forcing users to maintain two separate wallets (one for the old protocol, the other for the new), if they want to manage both versions.
+- Điều này không thể so sánh với hardfork blockchain cổ điển vì RGB hoạt động trong quá trình xác thực phía máy khách và không ảnh hưởng đến khả năng tương thích tổng thể của blockchain;
+- Trên thực tế, loại thay đổi này được biểu thị bằng trường `Ffv` (*phiên bản tua nhanh*) trong hoạt động hợp đồng;
+- Người sở hữu thẻ hiện tại không bị ảnh hưởng: tình trạng của họ vẫn có giá trị;
+- Mặt khác, người thụ hưởng mới (hoặc người dùng mới) cần cập nhật phần mềm (ví của họ) để nhận ra các quy tắc mới.
 
-In this chapter on RGB contract operations, we've explored the fundamental principles underlying this protocol. As you will have noticed, the inherent complexity of the RGB protocol requires the use of many technical terms. So, in the next chapter, I'll provide you with a glossary that will summarize all the concepts covered in this first theoretical part, with definitions of all the technical terms relating to RGB. Then, in the next section, we'll take a practical look at the definition and implementation of RGB contracts.
+Đẩy lùi có nghĩa là một quy tắc hợp lệ trước đó trở nên không hợp lệ. Do đó, đây là một "sự cứng rắn" của các quy tắc, nhưng không hoàn toàn là một softfork:
 
-## RGB Glossary
+
+- Những người nắm giữ hiện tại có thể bị ảnh hưởng (họ có thể thấy tài sản của mình trở nên lỗi thời hoặc không hợp lệ trong phiên bản mới);
+- Chúng ta có thể coi rằng thực tế chúng ta đang tạo ra một giao thức mới: bất kỳ ai áp dụng quy tắc mới đều rời khỏi quy tắc cũ;
+- Bên phát hành có thể quyết định phát hành lại tài sản theo giao thức mới này, buộc người dùng phải duy trì hai ví riêng biệt (một cho giao thức cũ, một cho giao thức mới) nếu họ muốn quản lý cả hai phiên bản.
+
+Trong chương này về các hoạt động của hợp đồng RGB, chúng ta đã khám phá các nguyên tắc cơ bản làm nền tảng cho giao thức này. Như bạn đã thấy, tính phức tạp vốn có của giao thức RGB đòi hỏi phải sử dụng nhiều thuật ngữ kỹ thuật. Vì vậy, trong chương tiếp theo, tôi sẽ cung cấp cho bạn một bảng thuật ngữ tóm tắt tất cả các khái niệm được đề cập trong phần lý thuyết đầu tiên này, với các định nghĩa của tất cả các thuật ngữ kỹ thuật liên quan đến RGB. Sau đó, trong phần tiếp theo, chúng ta sẽ xem xét thực tế về định nghĩa và triển khai hợp đồng RGB.
+
+## Thuật ngữ RGB
 
 <chapterId>545e16a4-3cca-44a3-9fd5-dbc5868abf97</chapterId>
 
-If you need to come back to this short glossary of important technical terms used in the RGB world (listed in alphabetical order), you'll find it useful. This chapter isn't essential if you've already understood everything we've covered in the first section.
+Nếu bạn cần quay lại bảng chú giải thuật ngữ kỹ thuật quan trọng này được sử dụng trong thế giới RGB (được liệt kê theo thứ tự bảng chữ cái), bạn sẽ thấy nó hữu ích. Chương này không cần thiết nếu bạn đã hiểu mọi thứ chúng tôi đã đề cập trong phần đầu tiên.
 
 #### AluVM
 
-The abbreviation AluVM stands for "_Algorithmic logic unit Virtual Machine_", a register-based virtual machine designed for smart contract validation and distributed computing. It is used (but not exclusively reserved) for the validation of RGB contracts. Scripts or operations included in an RGB contract can thus be executed in the AluVM environment.
+Từ viết tắt AluVM là viết tắt của "_Algorithmic logic unit Virtual Machine_", một máy ảo dựa trên thanh ghi được thiết kế để xác thực hợp đồng thông minh và tính toán phân tán. Nó được sử dụng (nhưng không dành riêng) để xác thực hợp đồng RGB. Do đó, các tập lệnh hoặc hoạt động có trong hợp đồng RGB có thể được thực thi trong môi trường AluVM.
 
-For further information: [AluVM official website](https://www.aluvm.org/)
+Để biết thêm thông tin: [Trang web chính thức của AluVM](https://www.aluvm.org/)
 
-#### Anchor
+#### Neo
 
-An Anchor represents a set of client-side data used to prove the inclusion of a unique _commitment_ in a transaction. In the RGB protocol, an Anchor consists of the following elements:
-
-
-- The Bitcoin transaction identifier (TXID) of the **witness transaction** ;
-- The **Multi Protocol Commitment (MPC)** ;
-- The **Deterministic Bitcoin Commitment (DBC)**;
-- The **Extra Transaction Proof (ETP)** if the **Tapret** commitment mechanism is used (see the section dedicated to this model).
-
-An Anchor therefore serves to establish a verifiable link between a specific Bitcoin transaction and private data validated by the RGB protocol. It guarantees that these data are indeed included in the blockchain, without their exact content being publicly exposed.
-
-#### Assignment
-
-In RGB's logic, an Assignment is the equivalent of a transaction output that modifies, updates or creates certain properties within the state of a contract. An Assignment comprises two elements:
+Anchor biểu thị một tập hợp dữ liệu phía máy khách được sử dụng để chứng minh việc bao gồm một _cam kết_ duy nhất trong một giao dịch. Trong giao thức RGB, Anchor bao gồm các thành phần sau:
 
 
-- A **Seal Definition** (reference to a specific UTXO) ;
-- An **Owned State** (data describing the state associated with this new owner).
+- Mã định danh giao dịch Bitcoin (TXID) của **giao dịch chứng kiến**;
+- **Cam kết đa giao thức (MPC)**;
+- **Cam kết Bitcoin tất định (DBC)**;
+- **Bằng chứng giao dịch bổ sung (ETP)** nếu cơ chế cam kết **Tapret** được sử dụng (xem phần dành riêng cho mô hình này).
 
-An Assignment therefore indicates that a portion of the state (for example, an asset) is now allocated to a particular holder, identified via a Single-use Seal linked to a UTXO.
+Do đó, Anchor có chức năng thiết lập liên kết có thể xác minh giữa giao dịch Bitcoin cụ thể và dữ liệu riêng tư được xác thực bởi giao thức RGB. Nó đảm bảo rằng dữ liệu này thực sự được đưa vào blockchain mà không tiết lộ nội dung chính xác của chúng cho công chúng.
 
-#### Business Logic
+#### Phân công
 
-The Business Logic groups together all the rules and internal operations of a contract, described by its **schema** (i.e. the structure of the contract itself). It dictates how the state of the contract can evolve, and under what conditions.
+Trong logic của RGB, Assignment tương đương với đầu ra giao dịch sửa đổi, cập nhật hoặc tạo ra các thuộc tính nhất định trong trạng thái của hợp đồng. Assignment bao gồm hai thành phần:
 
-#### Client-side Validation
 
-Client-side Validation refers to the process by which each party (client) verifies a set of data exchanged privately, according to the rules of a protocol. In the case of RGB, this exchanged data is grouped together in what are known as **consignments**. Unlike the Bitcoin protocol, which requires all transactions to be published on-chain, RGB allows only _commitments_ (anchored in Bitcoin) to be stored in public, while the essential contract information (transitions, attestations, proofs) remains off-chain, shared only between the users concerned.
+- **Định nghĩa về con dấu** (tham chiếu đến UTXO cụ thể);
+- **Tiểu bang sở hữu** (dữ liệu mô tả tiểu bang liên quan đến chủ sở hữu mới này).
 
-#### Commitment
+Do đó, một Nhiệm vụ chỉ ra rằng một phần của tiểu bang (ví dụ: tài sản) hiện được phân bổ cho một người nắm giữ cụ thể, được xác định thông qua Con dấu sử dụng một lần được liên kết với UTXO.
 
-A Commitment (in the cryptographic sense) is a mathematical object, denoted `C`, derived deterministically from an operation on structured data `m` (the message) and a random value `r`. We write :
+#### Logic kinh doanh
+
+Logic kinh doanh nhóm tất cả các quy tắc và hoạt động nội bộ của một hợp đồng, được mô tả bằng **sơ đồ** của nó (tức là cấu trúc của chính hợp đồng). Nó chỉ ra cách trạng thái của hợp đồng có thể phát triển và trong những điều kiện nào.
+
+#### Xác thực phía máy khách
+
+Xác thực phía máy khách đề cập đến quá trình mà mỗi bên (máy khách) xác minh một tập hợp dữ liệu được trao đổi riêng tư, theo các quy tắc của một giao thức. Trong trường hợp RGB, dữ liệu được trao đổi này được nhóm lại với nhau trong cái được gọi là **giao dịch**. Không giống như giao thức Bitcoin, yêu cầu tất cả các giao dịch phải được công bố trên chuỗi, RGB chỉ cho phép _cam kết_ (được neo trong Bitcoin) được lưu trữ công khai, trong khi thông tin hợp đồng thiết yếu (chuyển đổi, xác nhận, bằng chứng) vẫn nằm ngoài chuỗi, chỉ được chia sẻ giữa những người dùng có liên quan.
+
+#### Sự cam kết
+
+Cam kết (theo nghĩa mật mã) là một đối tượng toán học, được ký hiệu là `C`, được suy ra một cách xác định từ một phép toán trên dữ liệu có cấu trúc `m` (thông điệp) và một giá trị ngẫu nhiên `r`. Chúng ta viết:
 
 $$
 C = \text{commit}(m, r)
 $$
 
-This mechanism comprises two main operations:
+Cơ chế này bao gồm hai hoạt động chính:
 
 
-- Commit**: a cryptographic function is applied to a message `m` and a random number `r` to produce `C` ;
-- Verify**: we use `C`, the `m` message and the `r` value to check that this commitment is correct. The function returns `True` or `False`.
+- Cam kết**: một hàm mật mã được áp dụng cho một thông điệp `m` và một số ngẫu nhiên `r` để tạo ra `C`;
+- Xác minh**: chúng ta sử dụng `C`, thông báo `m` và giá trị `r` để kiểm tra xem cam kết này có đúng không. Hàm trả về `True` hoặc `False`.
 
-A commitment must respect two properties:
+Một cam kết phải tôn trọng hai đặc tính:
 
 
-- Binding**: it must be impossible to find two different messages producing the same `C` :
+- Ràng buộc**: không thể tìm thấy hai thông báo khác nhau tạo ra cùng một `C`:
 
 $$
 m' : \, | \, : m' \neq m \quad \text{and} \quad r' : \, | \, : r' \neq r \quad
 $$
 
-Such as :
+Chẳng hạn như :
 
 $$
 \text{verify}(m, r, C) = \text{verify}(m', r', C) \rightarrow \text{True}
 $$
 
 
-- Hiding**: knowledge of `C` must not reveal the contents of `m`.
+- Ẩn**: kiến thức về `C` không được tiết lộ nội dung của `m`.
 
-In the RGB protocol, a commitment is included in a Bitcoin transaction to prove the existence of a certain piece of information at a given time, without revealing the information itself.
+Trong giao thức RGB, một cam kết sẽ được đưa vào giao dịch Bitcoin để chứng minh sự tồn tại của một thông tin nhất định tại một thời điểm nhất định mà không tiết lộ thông tin đó.
 
-#### Consignment
+#### Gửi hàng
 
-A **Consignment** groups together the data exchanged between the parties, subject to Client-side Validation in RGB. There are two main categories of consignment:
-
-
-- Contract Consignment**: supplied by the *issuer* (contract issuer), it includes initialization information such as Schema, Genesis, Interface and Interface Implementation.
-- Transfer Consignment**: supplied by the paying party (*payer*). It contains the entire history of state transitions leading up to the terminal consignment (i.e. the final state received by the payer).
-
-These consignments are not recorded publicly on the blockchain; they are exchanged directly between the parties concerned via the communication channel of their choice.
-
-#### Contract
-
-A Contract is a set of rights executed digitally between several actors via the RGB protocol. It has an active state and a business logic, defined by a Schema, which specifies which operations are authorized (transfers, extensions, etc.). The state of a contract, as well as its validity rules, are expressed in the Schema. At any given time, the contract evolves only in accordance with what is permitted by this Schema and by validation scripts (run, for example, in AluVM).
-
-#### Contract Operation
-
-A Contract Operation is a contract status update performed according to Schema rules. The following operations exist in RGB:
+**Consignment** nhóm các dữ liệu được trao đổi giữa các bên, tùy thuộc vào Xác thực phía máy khách trong RGB. Có hai loại chính của lô hàng:
 
 
-- State Transition** ;
-- Genesis** ;
-- State Extension**.
+- Hợp đồng ký gửi**: do *bên phát hành* (bên phát hành hợp đồng) cung cấp, bao gồm thông tin khởi tạo như Sơ đồ, Nguồn gốc, Giao diện và Triển khai giao diện.
+- Chuyển giao hàng hóa**: do bên thanh toán (*người thanh toán*) cung cấp. Nó chứa toàn bộ lịch sử chuyển đổi trạng thái dẫn đến việc chuyển giao hàng hóa cuối cùng (tức là trạng thái cuối cùng mà người thanh toán nhận được).
 
-Each operation modifies the state by adding or replacing certain data (Global State, Owned State...).
+Những lô hàng này không được ghi lại công khai trên blockchain; chúng được trao đổi trực tiếp giữa các bên liên quan thông qua kênh liên lạc mà họ lựa chọn.
 
-#### Contract Participant
+#### Hợp đồng
 
-A Contract Participant is an actor who takes part in operations relating to the contract. In RGB, a distinction is made between :
+Hợp đồng là một tập hợp các quyền được thực hiện kỹ thuật số giữa một số tác nhân thông qua giao thức RGB. Hợp đồng có trạng thái hoạt động và logic nghiệp vụ, được xác định bởi Sơ đồ, chỉ rõ các hoạt động nào được ủy quyền (chuyển nhượng, mở rộng, v.v.). Trạng thái của hợp đồng, cũng như các quy tắc hợp lệ của nó, được thể hiện trong Sơ đồ. Tại bất kỳ thời điểm nào, hợp đồng chỉ phát triển theo những gì được phép bởi Sơ đồ này và bởi các tập lệnh xác thực (chạy, ví dụ, trong AluVM).
 
+#### Hoạt động hợp đồng
 
-- The issuer of the contract, which creates the Genesis (the origin of the contract);
-- The contract parties, i.e. the holders of rights to the state of the contract;
-- Public parties, who can build State Extensions if the contract offers Valencies accessible to the public.
-
-#### Contract Rights
-
-Contract Rights refer to the various rights that can be exercised by those involved in an RGB contract. They fall into several categories:
+Hoạt động hợp đồng là cập nhật trạng thái hợp đồng được thực hiện theo quy tắc Schema. Các hoạt động sau tồn tại trong RGB:
 
 
-- Ownership rights**, associated with the ownership of a particular UTXO (via a _Seal Definition_);
-- Executive rights**, i.e. the ability to build one or more transitions (State Transitions) in accordance with the Schema ;
-- Public rights**, when the Schema authorizes certain public uses, for example the creation of a State Extension via the redemption of a Valency.
+- Chuyển đổi trạng thái** ;
+- Sáng thế** ;
+- Mở rộng của tiểu bang**.
 
-#### Contract State
+Mỗi thao tác sẽ sửa đổi trạng thái bằng cách thêm hoặc thay thế dữ liệu nhất định (Trạng thái toàn cục, Trạng thái sở hữu...).
 
-The Contract State corresponds to the current state of a contract at a given moment. It can be made up of both public and private data, reflecting the state of the contract. RGB distinguishes between :
+#### Người tham gia hợp đồng
 
-
-- The **Global State**, which includes the contract's public properties (set up in Genesis or added via authorized updates);
-- Owned States**, which belong to specific owners, identified by their UTXOs.
-
-#### Deterministic Bitcoin Commitment - DBC
-
-Deterministic Bitcoin Commitment (DBC) is the set of rules used to provably and uniquely register a _commitment_ in a Bitcoin transaction. In the RGB protocol, there are two main forms of DBC:
+Người tham gia hợp đồng là một diễn viên tham gia vào các hoạt động liên quan đến hợp đồng. Trong RGB, có sự phân biệt giữa:
 
 
-- Opret**
+- Người phát hành hợp đồng, là người tạo ra Genesis (nguồn gốc của hợp đồng);
+- Các bên tham gia hợp đồng, tức là những người nắm giữ quyền đối với trạng thái của hợp đồng;
+- Các bên công cộng có thể xây dựng các phần mở rộng của Nhà nước nếu hợp đồng cung cấp Valencies cho công chúng.
+
+#### Quyền hợp đồng
+
+Quyền hợp đồng đề cập đến các quyền khác nhau mà những người tham gia vào hợp đồng RGB có thể thực hiện. Chúng thuộc một số loại:
+
+
+- Quyền sở hữu**, liên quan đến quyền sở hữu của một UTXO cụ thể (thông qua _Định nghĩa con dấu_);
+- Quyền hành pháp**, tức là khả năng xây dựng một hoặc nhiều quá trình chuyển đổi (Chuyển đổi trạng thái) theo Sơ đồ;
+- Quyền công cộng**, khi Sơ đồ cho phép một số mục đích sử dụng công cộng nhất định, ví dụ như việc tạo Phần mở rộng trạng thái thông qua việc đổi một Valency.
+
+#### Trạng thái hợp đồng
+
+Trạng thái hợp đồng tương ứng với trạng thái hiện tại của hợp đồng tại một thời điểm nhất định. Nó có thể bao gồm cả dữ liệu công khai và riêng tư, phản ánh trạng thái của hợp đồng. RGB phân biệt giữa:
+
+
+- **Trạng thái toàn cầu**, bao gồm các thuộc tính công khai của hợp đồng (được thiết lập trong Genesis hoặc được thêm vào thông qua các bản cập nhật được ủy quyền);
+- Các tiểu bang sở hữu**, thuộc về chủ sở hữu cụ thể, được xác định bằng UTXO của họ.
+
+#### Cam kết Bitcoin xác định - DBC
+
+Cam kết Bitcoin xác định (DBC) là tập hợp các quy tắc được sử dụng để chứng minh và đăng ký duy nhất một _cam kết_ trong giao dịch Bitcoin. Trong giao thức RGB, có hai dạng chính của DBC:
+
+
+- Hoạt động**
 - Tapret**
 
-These mechanisms define precisely how the _commitment_ is encoded in the output or structure of a Bitcoin transaction, to ensure that this commitment is deterministically traceable and verifiable.
+Các cơ chế này xác định chính xác cách _cam kết_ được mã hóa trong đầu ra hoặc cấu trúc của giao dịch Bitcoin, để đảm bảo rằng cam kết này có thể theo dõi và xác minh được một cách chắc chắn.
 
-#### Directed Acyclic Graph - DAG
+#### Đồ thị có hướng phi chu trình - DAG
 
-A DAG (or *Acyclic Guided Graph*) is a cycle-free graph, enabling topological scheduling. Blockchains, like the _shards_ of RGB contracts, can be represented by DAGs.
+DAG (hay *Acyclic Guided Graph*) là đồ thị không có chu kỳ, cho phép lập lịch tôpô. Blockchain, giống như _shards_ của hợp đồng RGB, có thể được biểu diễn bằng DAG.
 
-For further information: [Directed Acyclic Graph](https://en.wikipedia.org/wiki/Directed_acyclic_graph)
+Để biết thêm thông tin: [Đồ thị có hướng không theo chu trình](https://en.wikipedia.org/wiki/Directed_acyclic_graph)
 
-#### Engraving
+#### Khắc
 
-Engraving is an optional data string that successive owners of a contract can enter into the contract history. This feature exists, for example, in the **RGB21** interface and enables commemorative or descriptive information to be added to the contract history.
+Khắc là một chuỗi dữ liệu tùy chọn mà những người sở hữu hợp đồng kế tiếp có thể nhập vào lịch sử hợp đồng. Tính năng này tồn tại, ví dụ, trong giao diện **RGB21** và cho phép thêm thông tin kỷ niệm hoặc mô tả vào lịch sử hợp đồng.
 
-#### Extra Transaction Proof - ETP
+#### Bằng chứng giao dịch bổ sung - ETP
 
-The ETP (*Extra Transaction Proof*) is the part of the Anchor that contains the additional data required to validate a **Tapret** *commitment* (in the context of _taproot_). It includes, among other things, the taproot script's internal public key (_internal PubKey_) and information specific to the _Script Path Spend_.
+ETP (*Bằng chứng giao dịch bổ sung*) là phần của Anchor chứa dữ liệu bổ sung cần thiết để xác thực **Tapret** *cam kết* (trong bối cảnh của _taproot_). Nó bao gồm, trong số những thứ khác, khóa công khai nội bộ của tập lệnh taproot (_internal PubKey_) và thông tin cụ thể cho _Script Path Spend_.
 
-#### Genesis
+#### Sáng thế
 
-Genesis refers to the set of data, governed by a Schema, that forms the initial state of any contract in RGB. It can be compared to Bitcoin's _Genesis Block_ concept, or to the Coinbase transaction concept, but here at the _client-side_ and RGB token level.
+Genesis đề cập đến tập hợp dữ liệu, được quản lý bởi một Schema, tạo thành trạng thái ban đầu của bất kỳ hợp đồng nào trong RGB. Nó có thể được so sánh với khái niệm _Genesis Block_ của Bitcoin hoặc với khái niệm giao dịch Coinbase, nhưng ở đây ở cấp độ _client-side_ và mã thông báo RGB.
 
-#### Global State
+#### Nhà nước toàn cầu
 
-The Global State is the set of public properties contained in the Contract State. It is defined at Genesis and, depending on the contract rules, can be updated by authorized transitions. Unlike Owned States, the Global State does not belong to a particular entity; it is closer to a public registry within the contract.
+Global State là tập hợp các thuộc tính công khai có trong Contract State. Nó được định nghĩa tại Genesis và tùy thuộc vào các quy tắc hợp đồng, có thể được cập nhật bằng các chuyển đổi được ủy quyền. Không giống như Owned States, Global State không thuộc về một thực thể cụ thể; nó gần giống với một sổ đăng ký công khai trong hợp đồng.
 
-#### Interface
+#### Giao diện
 
-The Interface is the set of instructions used to decode the binary data compiled in a Schema or in contract operations and their states, in order to make them readable for the user or his wallet. It acts as an interpretation layer.
+Giao diện là tập hợp các hướng dẫn được sử dụng để giải mã dữ liệu nhị phân được biên dịch trong Sơ đồ hoặc trong các hoạt động hợp đồng và trạng thái của chúng, để làm cho chúng có thể đọc được đối với người dùng hoặc ví của họ. Nó hoạt động như một lớp diễn giải.
 
-#### Interface Implementation
+#### Triển khai giao diện
 
-Interface Implementation is the set of declarations that link an **Interface** to a **Schema**. It enables the semantic translation performed by the Interface itself, so that the raw data of a contract can be understood by the user or the software involved (the wallets).
+Triển khai Giao diện là tập hợp các khai báo liên kết **Giao diện** với **Schema**. Nó cho phép dịch ngữ nghĩa do chính Giao diện thực hiện, để người dùng hoặc phần mềm liên quan (ví) có thể hiểu được dữ liệu thô của hợp đồng.
 
-#### Invoice
+#### Hóa đơn
 
-An Invoice takes the form of a URL encoded in [base58](https://en.wikipedia.org/wiki/Binary-to-text_encoding#Base58), which embeds the data necessary for the construction of a **State Transition** (by the payer). In other words, it's an invoice enabling the counterparty (*payer*) to create the corresponding transition to transfer the asset or update the state of the contract.
+Hóa đơn có dạng URL được mã hóa trong [base58](https://en.wikipedia.org/wiki/Binary-to-text_encoding#Base58), trong đó nhúng dữ liệu cần thiết để xây dựng **Chuyển đổi trạng thái** (bởi bên thanh toán). Nói cách khác, đó là hóa đơn cho phép bên đối tác (*bên thanh toán*) tạo chuyển đổi tương ứng để chuyển giao tài sản hoặc cập nhật trạng thái của hợp đồng.
 
-#### Lightning Network
+#### Mạng lưới sét
 
-The Lightning Network is a decentralized network of payment channels (or _state channels_) on Bitcoin, made up of 2/2 multi-signature wallets. It enables fast, low-cost _off-chain_ transactions, while relying on Bitcoin's Layer 1 for arbitration (or closure) when necessary.
+Lightning Network là mạng lưới phi tập trung các kênh thanh toán (hoặc _kênh trạng thái_) trên Bitcoin, bao gồm 2/2 ví đa chữ ký. Nó cho phép giao dịch _ngoài chuỗi_ nhanh chóng, chi phí thấp, đồng thời dựa vào Lớp 1 của Bitcoin để phân xử (hoặc đóng) khi cần thiết.
 
-For more information on how Lightning works, I recommend you take this other course:
+Để biết thêm thông tin về cách thức hoạt động của Lightning, tôi khuyên bạn nên tham gia khóa học khác này:
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+#### Cam kết đa giao thức - MPC
 
-#### Multi Protocol Commitment - MPC
+Multi Protocol Commitment (MPC) đề cập đến cấu trúc cây Merkle được sử dụng trong RGB để bao gồm, trong một giao dịch Bitcoin duy nhất, một số **Transition Bundle** từ các hợp đồng khác nhau. Ý tưởng là nhóm lại với nhau một số cam kết (có khả năng tương ứng với các hợp đồng khác nhau hoặc các tài sản khác nhau) trong một điểm neo duy nhất để tối ưu hóa việc chiếm dụng không gian khối.
 
-Multi Protocol Commitment (MPC) refers to the Merkle tree structure used in RGB to include, within a single Bitcoin transaction, several **Transition Bundles** from different contracts. The idea is to group together several commitments (potentially corresponding to different contracts or different assets) in a single anchor point in order to optimize the occupation of block space.
+#### Nhà nước sở hữu
 
-#### Owned State
+Một Bang sở hữu là một phần của một Bang hợp đồng được bao gồm trong một Chuyển nhượng và liên kết với một người nắm giữ cụ thể (thông qua một Dấu niêm phong dùng một lần trỏ đến một UTXO). Ví dụ, điều này đại diện cho một tài sản kỹ thuật số hoặc một quyền hợp đồng cụ thể được giao cho người đó.
 
-An Owned State is the part of a Contract State that is enclosed in an Assignment and associated with a particular holder (via a Single-use Seal pointing to a UTXO). This represents, for example, a digital asset or a specific contractual right assigned to that person.
+#### Quyền sở hữu
 
-#### Ownership
+Quyền sở hữu đề cập đến khả năng kiểm soát và chi tiêu UTXO được tham chiếu bởi Định nghĩa về Dấu niêm phong. Khi một Trạng thái sở hữu được liên kết với một UTXO, chủ sở hữu của UTXO này có quyền, có khả năng, chuyển nhượng hoặc phát triển trạng thái liên quan, theo các quy tắc của hợp đồng.
 
-Ownership refers to the ability to control and spend a UTXO referenced by a Seal Definition. When an Owned State is linked to a UTXO, the owner of this UTXO has the right, potentially, to transfer or evolve the associated state, according to the rules of the contract.
+#### Giao dịch Bitcoin đã ký một phần - PSBT
 
-#### Partially Signed Bitcoin Transaction - PSBT
+PSBT (_Giao dịch Bitcoin đã ký một phần_) là giao dịch Bitcoin chưa được ký đầy đủ. Nó có thể được chia sẻ giữa nhiều thực thể, mỗi thực thể có thể thêm hoặc xác minh một số yếu tố nhất định (chữ ký, tập lệnh...), cho đến khi giao dịch được coi là sẵn sàng để phân phối trên chuỗi.
 
-A PSBT (_Partially Signed Bitcoin Transaction_) is a Bitcoin transaction that is not yet fully signed. It can be shared between several entities, each of which can add or verify certain elements (signatures, scripts...), until the transaction is deemed ready for on-chain distribution.
+Để biết thêm thông tin: [BIP-0174](https://github.com/bitcoin/bips/blob/master/bip-0174.mediawiki)
 
-For further information: [BIP-0174](https://github.com/bitcoin/bips/blob/master/bip-0174.mediawiki)
+#### Cam kết của Pedersen
 
-#### Pedersen commitment
+Cam kết Pedersen là một loại cam kết mật mã có đặc tính là **đồng cấu** đối với phép toán cộng. Điều này có nghĩa là có thể xác thực tổng của hai cam kết mà không tiết lộ các giá trị riêng lẻ.
 
-A Pedersen commitment is a type of cryptographic commitment with the property of being **homomorphic** with respect to the addition operation. This means that it is possible to validate the sum of two commitments without revealing the individual values.
-
-Formally, if :
+Về mặt hình thức, nếu:
 
 $$
 C1=\text{commit}(m1,r1) \quad C2=\text{commit}(m2,r2)
 $$
 
-then :
+sau đó :
 
 $$
 C3=C1⋅C2=\text{commit}(m1+m2, r1+r2)
 $$
 
-This property is useful, for example, for concealing the amounts of tokens exchanged, while still being able to verify the totals.
+Thuộc tính này hữu ích trong việc che giấu số lượng mã thông báo được trao đổi, trong khi vẫn có thể xác minh tổng số.
 
-Further information: [Pedersen commitment](https://link.springer.com/chapter/10.1007/3-540-46766-1_9)
+Thông tin thêm: [Cam kết của Pedersen](https://link.springer.com/chapter/10.1007/3-540-46766-1_9)
 
-#### Redeem
+#### Chuộc lại
 
-In a State Extension, a Redeem refers to the action of reclaiming (or exploiting) a previously declared **Valency**. As a Valency is a public right, the Redeem allows an authorized participant to claim a specific contract state extension.
+Trong phần Mở rộng của Tiểu bang, một lệnh Đổi thưởng đề cập đến hành động đòi lại (hoặc khai thác) một **Valency** đã được tuyên bố trước đó. Vì Valency là quyền công cộng, lệnh Đổi thưởng cho phép người tham gia được ủy quyền yêu cầu một phần mở rộng của tiểu bang hợp đồng cụ thể.
 
-#### Schema
+#### Sơ đồ
 
-A Schema in RGB is a declarative piece of code describing the set of variables, rules and business logic (*Business Logic*) that govern the operation of a contract. The Schema defines the state structure, the types of transitions allowed and the validation conditions.
+Schema trong RGB là một đoạn mã khai báo mô tả tập hợp các biến, quy tắc và logic nghiệp vụ (*Logic nghiệp vụ*) chi phối hoạt động của hợp đồng. Schema xác định cấu trúc trạng thái, các loại chuyển đổi được phép và các điều kiện xác thực.
 
-#### Seal Definition
+#### Định nghĩa con dấu
 
-The Seal Definition is the part of an Assignment that associates the _commitment_ with a UTXO owned by the new holder. In other words, it indicates where the condition is located (in which UTXO), and establishes ownership of an asset or right.
+Định nghĩa Seal là một phần của Assignment liên kết _cam kết_ với UTXO do người nắm giữ mới sở hữu. Nói cách khác, nó chỉ ra vị trí của điều kiện (trong UTXO nào) và thiết lập quyền sở hữu tài sản hoặc quyền.
 
-#### Shard
+#### Mảnh vỡ
 
-A Shard represents a branch in the DAG of the State Transitions history of an RGB contract. In other words, it is a coherent subset of the contract's overall history, corresponding, for example, to the sequence of transitions required to prove the validity of a given asset since the _Genesis_.
+Shard đại diện cho một nhánh trong DAG của lịch sử Chuyển đổi trạng thái của hợp đồng RGB. Nói cách khác, đó là một tập hợp con mạch lạc của lịch sử tổng thể của hợp đồng, tương ứng, ví dụ, với trình tự chuyển đổi cần thiết để chứng minh tính hợp lệ của một tài sản nhất định kể từ _Genesis_.
 
-#### Single-use Seal
+#### Con dấu dùng một lần
 
-A Single-use Seal is a cryptographic promise of commitment to an as yet unknown message, which will be revealed only once in the future and must be known by all members of a specific audience. The aim is to prevent the creation of multiple competing commitments for the same seal.
+Con dấu sử dụng một lần là lời hứa mật mã cam kết với một thông điệp chưa được biết đến, sẽ chỉ được tiết lộ một lần trong tương lai và phải được tất cả các thành viên của một đối tượng cụ thể biết. Mục đích là để ngăn chặn việc tạo ra nhiều cam kết cạnh tranh cho cùng một con dấu.
 
-#### Stash
+#### Cất giữ
 
-The Stash is the set of client-side data that a user stores for one or more RGB contracts, for the purpose of validation (*Client-side Validation*). This includes transition history, consignments, proofs of validity, etc. Each holder retains only the parts of the history they need (*shards*).
+Stash là tập hợp dữ liệu phía máy khách mà người dùng lưu trữ cho một hoặc nhiều hợp đồng RGB, nhằm mục đích xác thực (*Xác thực phía máy khách*). Bao gồm lịch sử chuyển đổi, lô hàng, bằng chứng về tính hợp lệ, v.v. Mỗi người giữ chỉ giữ lại các phần lịch sử mà họ cần (*phân đoạn*).
 
-#### State Extension
+#### Mở rộng nhà nước
 
-A State Extension is a contract operation used to re-trigger state updates by redeeming previously declared **Valencies**. To be effective, a State Extension must then be closed by a State Transition (which updates the final state of the contract).
+State Extension là một hoạt động hợp đồng được sử dụng để kích hoạt lại các bản cập nhật trạng thái bằng cách đổi **Valencies** đã khai báo trước đó. Để có hiệu lực, State Extension sau đó phải được đóng lại bằng State Transition (cập nhật trạng thái cuối cùng của hợp đồng).
 
-#### State Transition
+#### Chuyển đổi trạng thái
 
-State Transition is the operation that changes the state of an RGB contract to a new state. It can modify Global State and/or Owned State data. In practice, each transition is verified by Schema rules and anchored in the Bitcoin blockchain via a _commitment_.
+State Transition là hoạt động thay đổi trạng thái của hợp đồng RGB sang trạng thái mới. Nó có thể sửa đổi dữ liệu Global State và/hoặc Owned State. Trong thực tế, mỗi lần chuyển đổi được xác minh bằng các quy tắc Schema và được neo trong chuỗi khối Bitcoin thông qua _cam kết_.
 
-#### Taproot
+#### Rễ cái
 
-Refers to Bitcoin's Segwit v1 transaction format, introduced by [BIP341](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki) and [BIP342](https://github.com/bitcoin/bips/blob/master/bip-0342.mediawiki). Taproot improves the confidentiality and flexibility of scripts, in particular by making transactions more compact and harder to distinguish from one another.
+Đề cập đến định dạng giao dịch Segwit v1 của Bitcoin, được giới thiệu bởi [BIP341](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki) và [BIP342](https://github.com/bitcoin/bips/blob/master/bip-0342.mediawiki). Taproot cải thiện tính bảo mật và tính linh hoạt của các tập lệnh, đặc biệt là bằng cách làm cho các giao dịch nhỏ gọn hơn và khó phân biệt với nhau hơn.
 
-#### Terminal Consignment - Consignment Endpoint
+#### Ký gửi đầu cuối - Điểm cuối ký gửi
 
-The Terminal Consignment (or _Consignment Endpoint_) is a *transfer consignment* containing the final state of the contract, including the State Transition created from the recipient's Invoice (*payee*). It is therefore the endpoint of a transfer, with the necessary data to prove that ownership or state has been transferred.
+Ký gửi cuối cùng (hoặc _Điểm cuối ký gửi_) là *ký gửi chuyển nhượng* chứa trạng thái cuối cùng của hợp đồng, bao gồm Chuyển đổi trạng thái được tạo từ Hóa đơn của người nhận (*người nhận thanh toán*). Do đó, đây là điểm cuối của một giao dịch chuyển nhượng, với dữ liệu cần thiết để chứng minh rằng quyền sở hữu hoặc trạng thái đã được chuyển nhượng.
 
-#### Transition Bundle
+#### Gói chuyển tiếp
 
-A Transition Bundle is a set of RGB State Transitions (belonging to the same contract) that are all engaged in the same ***witness transaction*** Bitcoin. This makes it possible to bundle several updates or transfers into a single on-chain anchor.
+Transition Bundle là một tập hợp các RGB State Transitions (thuộc cùng một hợp đồng) đều tham gia vào cùng một ***giao dịch chứng kiến*** Bitcoin. Điều này giúp có thể đóng gói nhiều bản cập nhật hoặc chuyển giao thành một neo trên chuỗi duy nhất.
 
 #### UTXO
 
-A Bitcoin UTXO (*Unspent Transaction Output*) is defined by the hash of a transaction and the output index (*vout*). It is also sometimes called an _outpoint_. In the RGB protocol, reference to an UTXO (via a **Seal Definition**) enables the location of the **Owned State**, i.e. the property held on the blockchain.
+Bitcoin UTXO (*Unspent Transaction Output*) được định nghĩa bằng hàm băm của giao dịch và chỉ số đầu ra (*vout*). Đôi khi nó cũng được gọi là _outpoint_. Trong giao thức RGB, tham chiếu đến UTXO (thông qua **Seal Definition**) cho phép xác định vị trí của **Owned State**, tức là tài sản được giữ trên blockchain.
 
-#### Valency
+#### Hóa trị
 
-A Valency is a public right which does not require state storage as such, but which can be redeemed via a **State Extension**. It is therefore a form of possibility open to all (or certain players), declared in the logic of the contract, in order to carry out a particular extension at a later date.
+Valency là quyền công cộng không yêu cầu lưu trữ trạng thái như vậy, nhưng có thể được mua lại thông qua **Gia hạn trạng thái**. Do đó, đây là một hình thức khả năng mở cho tất cả (hoặc một số người chơi nhất định), được tuyên bố trong logic của hợp đồng, để thực hiện một gia hạn cụ thể vào một ngày sau đó.
 
-#### Witness Transaction
+#### Giao dịch chứng kiến
 
-The Witness Transaction is the Bitcoin transaction that closes the Single-use Seal around a message containing a Multi Protocol Commitment (MPC). This transaction spends a UTXO or creates one, so as to seal the commitment linked to the RGB protocol. It acts as an on-chain proof that the state has been set at a specific point in time.
+Giao dịch chứng kiến là giao dịch Bitcoin đóng Dấu niêm phong sử dụng một lần xung quanh một thông điệp có chứa Cam kết đa giao thức (MPC). Giao dịch này sử dụng UTXO hoặc tạo một UTXO để niêm phong cam kết được liên kết với giao thức RGB. Nó hoạt động như một bằng chứng trên chuỗi cho thấy trạng thái đã được thiết lập tại một thời điểm cụ thể.
 
-# Programming on RGB
+# Lập trình trên RGB
 
 <partId>148a7436-d079-56d9-be08-aaa4c14c6b3a</partId>
 
-## Implementing RGB contracts
+## Triển khai hợp đồng RGB
 
 <chapterId>8333ea5f-51c7-5dd5-b1d7-47d491e58e51</chapterId>
 
 ![video](https://youtu.be/Uo1UoxiImsI)
 
-In this chapter, we'll take a closer look at how an RGB contract is defined and implemented. We'll see what the components of an RGB contract are, what their roles are and how they are constructed.
+Trong chương này, chúng ta sẽ xem xét kỹ hơn cách hợp đồng RGB được định nghĩa và triển khai. Chúng ta sẽ xem các thành phần của hợp đồng RGB là gì, vai trò của chúng là gì và chúng được xây dựng như thế nào.
 
-### The components of an RGB contract
+### Các thành phần của hợp đồng RGB
 
-So far, we've already discussed the **Genesis**, which represents the starting point of a contract, and we've seen how it fits in with the logic of a *Contract Operation* and the state of the protocol. The complete definition of an RGB contract, however, is not limited to the Genesis alone: it involves three complementary components which, together, form the heart of the implementation.
+Cho đến nay, chúng ta đã thảo luận về **Genesis**, đại diện cho điểm khởi đầu của một hợp đồng và chúng ta đã thấy nó phù hợp như thế nào với logic của một *Contract Operation* và trạng thái của giao thức. Tuy nhiên, định nghĩa đầy đủ về hợp đồng RGB không chỉ giới hạn ở Genesis: nó bao gồm ba thành phần bổ sung, cùng nhau tạo thành cốt lõi của việc triển khai.
 
-The first component is called the **Schema**. This is a file describing the fundamental structure and business logic (*business logic*) of the contract. It specifies the data types used, the validation rules, the operations permitted (e.g. initial token issuance, transfers, special conditions, etc.) - in short, the general framework that dictates how the contract works.
+Thành phần đầu tiên được gọi là **Schema**. Đây là tệp mô tả cấu trúc cơ bản và logic nghiệp vụ (*logic nghiệp vụ*) của hợp đồng. Nó chỉ định các kiểu dữ liệu được sử dụng, các quy tắc xác thực, các hoạt động được phép (ví dụ: phát hành mã thông báo ban đầu, chuyển nhượng, điều kiện đặc biệt, v.v.) - nói tóm lại, là khuôn khổ chung chỉ định cách thức hoạt động của hợp đồng.
 
-The second component is the **Interface**. It focuses on how users (and by extension, portfolio software) will interact with this contract. It describes the semantics, i.e. the readable representation of the various fields and actions. So, while the Schema defines how the contract works technically, the Interface defines how to present and expose these functionalities: method names, data display, etc.
+Thành phần thứ hai là **Giao diện**. Nó tập trung vào cách người dùng (và theo nghĩa mở rộng, phần mềm danh mục đầu tư) sẽ tương tác với hợp đồng này. Nó mô tả ngữ nghĩa, tức là biểu diễn dễ đọc của các trường và hành động khác nhau. Vì vậy, trong khi Sơ đồ xác định cách hợp đồng hoạt động về mặt kỹ thuật, Giao diện xác định cách trình bày và hiển thị các chức năng này: tên phương thức, hiển thị dữ liệu, v.v.
 
-The third component is the **Interface Implementation**, which complements the previous two by acting as a kind of bridge between the Schema and the Interface. In other words, it associates the semantics expressed by the Interface with the underlying rules defined in the Schema. It is this implementation that will manage, for example, the conversion between a parameter entered in the wallet and the binary structure imposed by the protocol, or the compilation of validation rules in machine language.
+Thành phần thứ ba là **Triển khai Giao diện**, bổ sung cho hai thành phần trước bằng cách hoạt động như một loại cầu nối giữa Sơ đồ và Giao diện. Nói cách khác, nó liên kết ngữ nghĩa được thể hiện bởi Giao diện với các quy tắc cơ bản được xác định trong Sơ đồ. Chính triển khai này sẽ quản lý, ví dụ, việc chuyển đổi giữa một tham số được nhập vào ví và cấu trúc nhị phân do giao thức áp đặt hoặc việc biên dịch các quy tắc xác thực trong ngôn ngữ máy.
 
-This modularity is an interesting feature of RGB, as it allows different groups of developers to work separately on these aspects (*Schema*, *Interface*, *Implementation*), as long as they follow the protocol's consensus rules.
+Tính mô-đun này là một tính năng thú vị của RGB vì nó cho phép các nhóm nhà phát triển khác nhau làm việc riêng biệt trên các khía cạnh này (*Sơ đồ*, *Giao diện*, *Triển khai*), miễn là họ tuân theo các quy tắc đồng thuận của giao thức.
 
-To sum up, each contract consists of :
+Tóm lại, mỗi hợp đồng bao gồm:
 
 
-- Genesis**, which is the initial state of the contract (and can be likened to a special transaction defining the first ownership of an asset, a right, or any other parameterizable data);
-- Schema**, which describes the contract's business logic (data types, validation rules, etc.);
-- Interface**, which provides a semantic layer for both wallets and human users, clarifying the reading and execution of transactions;
-- Implementation** interface, which bridges the gap between business logic and presentation, to ensure that contract definition is consistent with the user experience.
+- Genesis**, là trạng thái ban đầu của hợp đồng (và có thể được ví như một giao dịch đặc biệt xác định quyền sở hữu đầu tiên của một tài sản, một quyền hoặc bất kỳ dữ liệu tham số hóa nào khác);
+- Schema**, mô tả logic kinh doanh của hợp đồng (kiểu dữ liệu, quy tắc xác thực, v.v.);
+- Giao diện**, cung cấp lớp ngữ nghĩa cho cả ví và người dùng, làm rõ việc đọc và thực hiện giao dịch;
+- Giao diện triển khai**, thu hẹp khoảng cách giữa logic kinh doanh và cách trình bày, để đảm bảo định nghĩa hợp đồng nhất quán với trải nghiệm của người dùng.
 
 ![RGB-Bitcoin](assets/fr/070.webp)
 
-It's important to note that for a wallet to manage an RGB asset (be it a fungible token or a right of any kind), it must have all these elements compiled: *Schema*, *Interface*, *Interface Implementation* and *Genesis*. This is transmitted via a ***contract consignment***, i.e. a data package containing everything needed to validate the client-side contract.
+Điều quan trọng cần lưu ý là để ví quản lý tài sản RGB (cho dù là mã thông báo có thể thay thế hay quyền nào đó), ví phải có tất cả các yếu tố sau được biên dịch: *Schema*, *Interface*, *Interface Implementation* và *Genesis*. Điều này được truyền qua ***hợp đồng ký gửi***, tức là một gói dữ liệu chứa mọi thứ cần thiết để xác thực hợp đồng phía máy khách.
 
-To help clarify these notions, here is a summary table comparing the components of an RGB contract with concepts already known either in object-oriented programming (OOP) or in the Ethereum ecosystem:
+Để giúp làm rõ những khái niệm này, sau đây là bảng tóm tắt so sánh các thành phần của hợp đồng RGB với các khái niệm đã biết trong lập trình hướng đối tượng (OOP) hoặc trong hệ sinh thái Ethereum:
 
-| RGB Contract Component | Meaning | OOP Equivalent | Ethereum Equivalent |
-
-| ---------------------------- | --------------------------------------- | -------------------------------------------------- | ---------------------------------- |
-
-| Class constructor | Contract constructor | Initial state of the contract
-
-| Class | Contract business logic
-
-| Contract semantics | Interface (Java) / trait (Rust) / protocol (Swift) | ERC Standard |
-
-| Application Binary Interface (ABI) | Impl (Rust) / Implements (Java) | Mapping of semantics and logic
-
-The left-hand column shows the elements specific to the RGB protocol. The middle column shows the concrete function of each component. Then, in the "OOP equivalent" column, we find the equivalent term in object-oriented programming:
+| Thành phần hợp đồng RGB     | Ý nghĩa                                  | Tương đương OOP                                   | Tương đương Ethereum               |
+| --------------------------- | --------------------------------------- | ------------------------------------------------ | ---------------------------------- |
+| **Genesis**                 | Trạng thái ban đầu của hợp đồng         | Class constructor                                | Contract constructor               |
+| **Schema**                  | Logic nghiệp vụ của hợp đồng            | Class                                            | Contract                           |
+| **Interface**               | Ngữ nghĩa của hợp đồng                  | Interface (Java) / trait (Rust) / protocol (Swift) | ERC Standard                       |
+| **Interface Implementation**| Ánh xạ ngữ nghĩa và logic              | Impl (Rust) / Implements (Java)                  | Application Binary Interface (ABI) |
 
 
-- The **Genesis** plays a role similar to that of a *Class constructor*: this is where the state of the contract is initialized;
-- The **Schema** is the description of a class, i.e. the definition of its properties, methods and underlying logic;
-- The **Interface** corresponds to *interfaces* (Java), *traits* (Rust) or *protocols* (Swift): these are the public definitions of functions, events, fields... ;
-- The **Interface Implementation** corresponds to *Impl* in Rust or *Implements* in Java, where we specify how the code will actually execute the methods announced in the interface.
-
-In the Ethereum context, the Genesis is closer to the *contract constructor*, the Schema to the contract definition, the Interface to a standard such as ERC-20 or ERC-721, and the Interface Implementation to the ABI (*Application Binary Interface*), which specifies the format of interactions with the contract.
-
-The advantage of RGB's modularity also lies in the fact that different stakeholders can write, for example, their own Interface Implementation, as long as they respect the logic of the *Schema* and the semantics of the *Interface*. Thus, an issuer could develop a new, more user-friendly front-end (Interface), without modifying the logic of the contract, or conversely, one could extend the Schema to add functionality, and provide a new version of the adapted Interface Implementation, while the old implementations would remain valid for basic functionality.
-
-When we compile a new contract, we generate a Genesis (the first step in issuing or distributing the asset), as well as its components (Schema, Interface, Interface Implementation). After this, the contract is fully operational and can be propagated to wallets and users. This method, where Genesis is combined with these three components, guarantees a high degree of customization (each contract can have its own logic), decentralization (everyone can contribute to a given component), and security (validation remains strictly defined by the protocol, without depending on arbitrary on-chain code as is often the case on other blockchains).
-
-I'd now like to take a closer look at each of these components: the **Schema**, the **Interface** and the **Interface Implementation**.
-
-### Schema
-
-In the previous section, we saw that in the RGB ecosystem, a contract is made up of several elements: the Genesis, which establishes the initial state, and several other complementary components. The purpose of the Schema is to declaratively describe all the business logic of the contract, i.e. the data structure, the types used, the permitted operations and their conditions. It is therefore a very important element in making a contract operational on the client side, since each participant (a wallet, for example) must check that the state transitions it receives conform to the logic defined in the Schema.
-
-A Schema can be likened to a "class" in object-oriented programming (OOP). Generally speaking, it serves as a model defining the components of a contract, such as :
+Cột bên trái hiển thị các thành phần cụ thể cho giao thức RGB. Cột giữa hiển thị chức năng cụ thể của từng thành phần. Sau đó, trong cột "OOP tương đương", chúng ta tìm thấy thuật ngữ tương đương trong lập trình hướng đối tượng:
 
 
-- The different types of Owned States and Assignments ;
-- Valencies, i.e. special rights that can be triggered (*redeemed*) for certain operations;
-- Global State fields, which describe global, public and shared properties of the contract;
-- The Genesis structure (the very first operation that activates the contract) ;
-- The permitted forms of State Transitions and State Extensions, and how these operations can modify the ;
-- Metadata associated with each operation, to store temporary or additional information;
-- Rules that determine how internal contract data can evolve (for example, whether a field is mutable or cumulative);
-- Sequences of operations considered valid: for example, an order of transitions to be respected or a set of logical conditions to be satisfied.
+- **Genesis** đóng vai trò tương tự như *Hàm tạo lớp*: đây là nơi trạng thái của hợp đồng được khởi tạo;
+- **Schema** là mô tả về một lớp, tức là định nghĩa về các thuộc tính, phương thức và logic cơ bản của lớp đó;
+- **Giao diện** tương ứng với *giao diện* (Java), *đặc điểm* (Rust) hoặc *giao thức* (Swift): đây là các định nghĩa công khai về hàm, sự kiện, trường... ;
+- **Triển khai Giao diện** tương ứng với *Impl* trong Rust hoặc *Triển khai* trong Java, trong đó chúng ta chỉ định cách mã thực sự thực thi các phương thức được thông báo trong giao diện.
+
+Trong bối cảnh Ethereum, Genesis gần hơn với *trình xây dựng hợp đồng*, Schema gần hơn với định nghĩa hợp đồng, Giao diện gần hơn với tiêu chuẩn như ERC-20 hoặc ERC-721 và Triển khai giao diện gần hơn với ABI (*Giao diện nhị phân ứng dụng*), chỉ định định dạng tương tác với hợp đồng.
+
+Ưu điểm của tính mô-đun của RGB cũng nằm ở thực tế là các bên liên quan khác nhau có thể viết, ví dụ, Giao diện triển khai của riêng họ, miễn là họ tôn trọng logic của *Schema* và ngữ nghĩa của *Giao diện*. Do đó, bên phát hành có thể phát triển một giao diện người dùng mới, thân thiện hơn (Giao diện), mà không cần sửa đổi logic của hợp đồng hoặc ngược lại, người ta có thể mở rộng Giao diện để thêm chức năng và cung cấp phiên bản mới của Giao diện triển khai đã điều chỉnh, trong khi các triển khai cũ vẫn có hiệu lực đối với chức năng cơ bản.
+
+Khi chúng tôi biên soạn một hợp đồng mới, chúng tôi tạo ra Genesis (bước đầu tiên trong việc phát hành hoặc phân phối tài sản), cũng như các thành phần của nó (Schema, Interface, Interface Implementation). Sau đó, hợp đồng hoạt động đầy đủ và có thể được truyền bá đến ví và người dùng. Phương pháp này, trong đó Genesis được kết hợp với ba thành phần này, đảm bảo mức độ tùy chỉnh cao (mỗi hợp đồng có thể có logic riêng), phi tập trung (mọi người có thể đóng góp vào một thành phần nhất định) và bảo mật (xác thực vẫn được xác định nghiêm ngặt bởi giao thức, mà không phụ thuộc vào mã chuỗi tùy ý như thường xảy ra trên các blockchain khác).
+
+Bây giờ tôi muốn xem xét kỹ hơn từng thành phần này: **Sơ đồ**, **Giao diện** và **Triển khai giao diện**.
+
+### Sơ đồ
+
+Trong phần trước, chúng ta đã thấy rằng trong hệ sinh thái RGB, một hợp đồng được tạo thành từ một số thành phần: Genesis, thiết lập trạng thái ban đầu và một số thành phần bổ sung khác. Mục đích của Schema là mô tả một cách khai báo tất cả logic kinh doanh của hợp đồng, tức là cấu trúc dữ liệu, các kiểu được sử dụng, các hoạt động được phép và các điều kiện của chúng. Do đó, đây là một thành phần rất quan trọng trong việc đưa hợp đồng vào hoạt động ở phía máy khách, vì mỗi bên tham gia (ví dụ như ví) phải kiểm tra xem các chuyển đổi trạng thái mà họ nhận được có tuân thủ logic được xác định trong Schema hay không.
+
+Schema có thể được ví như một "lớp" trong lập trình hướng đối tượng (OOP). Nói chung, nó đóng vai trò như một mô hình xác định các thành phần của hợp đồng, chẳng hạn như:
+
+
+- Các loại Nhà nước sở hữu và Quyền chuyển nhượng khác nhau;
+- Quyền lợi, tức là các quyền đặc biệt có thể được kích hoạt (*đổi lại*) cho một số hoạt động nhất định;
+- Các trường Trạng thái toàn cầu, mô tả các thuộc tính toàn cầu, công khai và được chia sẻ của hợp đồng;
+- Cấu trúc Genesis (hoạt động đầu tiên kích hoạt hợp đồng);
+- Các hình thức được phép của Chuyển đổi trạng thái và Mở rộng trạng thái, và cách thức các hoạt động này có thể sửa đổi;
+- Siêu dữ liệu liên quan đến từng hoạt động, để lưu trữ thông tin tạm thời hoặc bổ sung;
+- Các quy tắc xác định cách dữ liệu hợp đồng nội bộ có thể phát triển (ví dụ: liệu một trường có thể thay đổi hay tích lũy);
+- Trình tự các hoạt động được coi là hợp lệ: ví dụ, thứ tự chuyển tiếp cần được tôn trọng hoặc một tập hợp các điều kiện logic cần được đáp ứng.
 
 ![RGB-Bitcoin](assets/fr/071.webp)
 
-When the *issuer* of an asset on RGB publishes a contract, it provides the Genesis and Schema associated with it. Users or wallets who wish to interact with the asset retrieve this Schema to understand the logic behind the contract, and to be able to verify later that the transitions they will participate in are legitimate.
+Khi *bên phát hành* một tài sản trên RGB công bố hợp đồng, bên này sẽ cung cấp Genesis và Schema liên quan đến hợp đồng đó. Người dùng hoặc ví muốn tương tác với tài sản sẽ lấy Schema này để hiểu logic đằng sau hợp đồng và sau đó có thể xác minh rằng các quá trình chuyển đổi mà họ sẽ tham gia là hợp lệ.
 
-The first step, for anyone receiving information about an RGB asset (e.g. a token transfer), is to validate this information against the Schema. This involves using the Schema compilation to :
-
-
-- Check that Owned States, Assignments and other elements are correctly defined and that they respect the imposed types (the so-called *strict type system*);
-- Check that transition rules (validation scripts) are satisfied. These scripts can be run via AluVM, which is present on the client side and is responsible for validating the consistency of business logic (transfer amount, special conditions, etc.).
-
-In practice, Schema is not executable code, as can be seen in blockchains that store on-chain code (EVM on Ethereum). On the contrary, RGB separates business logic (declarative) from executable code on the blockchain (which is limited to cryptographic anchors). Thus, the Schema determines the rules, but the application of these rules takes place outside the blockchain, at each participant's site, according to the Client-side Validation principle.
-
-A Schema must be compiled before it can be used by RGB applications. This compilation produces a binary file (e.g. `.rgb`) or an encrypted binary file (`.rgba`). When the wallet imports this file, it knows :
+Bước đầu tiên, đối với bất kỳ ai nhận thông tin về tài sản RGB (ví dụ: chuyển giao mã thông báo), là xác thực thông tin này với Schema. Điều này liên quan đến việc sử dụng biên dịch Schema để:
 
 
-- What each data type (integers, structures, arrays...) looks like thanks to the strict type system ;
-- How Genesis should be structured (to understand asset initialization);
-- The different types of operations (State Transitions, State Extensions) and how they can modify state ;
-- The scripting rules (introduced in the Schema) that the AluVM engine will apply to check the validity of operations.
+- Kiểm tra xem các Trạng thái sở hữu, Nhiệm vụ và các phần tử khác có được định nghĩa đúng không và chúng có tôn trọng các kiểu áp đặt hay không (cái gọi là *hệ thống kiểu nghiêm ngặt*);
+- Kiểm tra xem các quy tắc chuyển tiếp (tập lệnh xác thực) có được đáp ứng không. Các tập lệnh này có thể được chạy thông qua AluVM, có ở phía máy khách và chịu trách nhiệm xác thực tính nhất quán của logic kinh doanh (số tiền chuyển, điều kiện đặc biệt, v.v.).
 
-As explained in previous chapters, the *strict type system* gives us a stable, deterministic encoding format: all variables, whether Owned States, Global States or Valencies, are described precisely (size, lower and upper bounds if necessary, signed or unsigned type, etc.). It is also possible to define nested structures, for example to support complex use cases.
+Trên thực tế, Schema không phải là mã thực thi, như có thể thấy trong các blockchain lưu trữ mã trên chuỗi (EVM trên Ethereum). Ngược lại, RGB tách logic kinh doanh (khai báo) khỏi mã thực thi trên blockchain (chỉ giới hạn ở các neo mật mã). Do đó, Schema xác định các quy tắc, nhưng việc áp dụng các quy tắc này diễn ra bên ngoài blockchain, tại trang web của mỗi người tham gia, theo nguyên tắc Xác thực phía máy khách.
 
-Optionally, the Schema can reference a root `SchemaId`, which facilitates the reuse of an existing basic structure (a template). In this way, you can evolve a contract or create variations (e.g. a new type of token) from an already proven template. This modularity avoids the need to recreate entire contracts, and encourages the standardization of best practices.
-
-Another important point is that the logic of state evolution (transfers, updates, etc.) is described in the Schema in the form of scripts, rules and conditions. So, if the contract designer wishes to authorize a reissue or impose a burn mechanism (destruction of tokens), he can specify the corresponding scripts for AluVM in the validation part of the Schema.
-
-#### Difference from programmable on-chain blockchains
-
-Unlike systems like Ethereum, where the smart contract code (executable) is written into the blockchain itself, RGB stores the contract (its logic) off-chain, in the form of a compiled declarative document. This implies that :
+Schema phải được biên dịch trước khi có thể được các ứng dụng RGB sử dụng. Biên dịch này tạo ra một tệp nhị phân (ví dụ: `.rgb`) hoặc một tệp nhị phân được mã hóa (`.rgba`). Khi ví nhập tệp này, nó biết:
 
 
-- There is no Turing-complete VM running in every node of the Bitcoin network. The rules of an RGB contract are not executed on the blockchain, but in each user who wishes to validate a state;
-- Contract data does not pollute the blockchain: only cryptographic evidence (*commitments*) is embedded in Bitcoin transactions (via `Tapret` or `Opret`);
-- The Schema can be updated or declined (*fast-forward*, *push-back*, etc.), without requiring a fork on the Bitcoin blockchain. Wallets simply need to import the new Schema and adapt to consensus changes.
+- Mỗi kiểu dữ liệu (số nguyên, cấu trúc, mảng...) trông như thế nào nhờ hệ thống kiểu nghiêm ngặt;
+- Genesis nên được cấu trúc như thế nào (để hiểu về việc khởi tạo tài sản);
+- Các loại hoạt động khác nhau (Chuyển đổi trạng thái, Mở rộng trạng thái) và cách chúng có thể sửa đổi trạng thái;
+- Các quy tắc viết kịch bản (được giới thiệu trong Sơ đồ) mà công cụ AluVM sẽ áp dụng để kiểm tra tính hợp lệ của các hoạt động.
 
-#### Use by the issuer and by users
+Như đã giải thích trong các chương trước, *hệ thống kiểu nghiêm ngặt* cung cấp cho chúng ta một định dạng mã hóa ổn định, xác định: tất cả các biến, cho dù là Owned States, Global State hay Valencies, đều được mô tả chính xác (kích thước, giới hạn dưới và trên nếu cần, kiểu có dấu hoặc không dấu, v.v.). Cũng có thể định nghĩa các cấu trúc lồng nhau, ví dụ để hỗ trợ các trường hợp sử dụng phức tạp.
 
-When a *issuer* creates an asset (for example, a non-inflationary fungible token), it prepares :
+Tùy chọn, Schema có thể tham chiếu đến gốc `SchemaId`, giúp tái sử dụng cấu trúc cơ bản hiện có (mẫu). Theo cách này, bạn có thể phát triển hợp đồng hoặc tạo các biến thể (ví dụ: loại mã thông báo mới) từ mẫu đã được chứng minh. Tính mô-đun này tránh nhu cầu tạo lại toàn bộ hợp đồng và khuyến khích chuẩn hóa các phương pháp hay nhất.
 
+Một điểm quan trọng khác là logic của quá trình tiến hóa trạng thái (chuyển giao, cập nhật, v.v.) được mô tả trong Sơ đồ dưới dạng các tập lệnh, quy tắc và điều kiện. Vì vậy, nếu nhà thiết kế hợp đồng muốn ủy quyền phát hành lại hoặc áp dụng cơ chế ghi (hủy mã thông báo), anh ta có thể chỉ định các tập lệnh tương ứng cho AluVM trong phần xác thực của Sơ đồ.
 
-- A Schema describing the rules of emission, transfer, etc. ;
-- A Genesis adapted to this Schema (with the total number of tokens issued, the identity of the initial owner, any special Valencies for reissue, etc.).
+#### Sự khác biệt so với blockchain có thể lập trình trên chuỗi
 
-It then makes the compiled Schema (a `.rgb` file) available to users, so that anyone receiving a transfer of this token can check the consistency of the operation locally. Without this Schema, a user would not be able to interpret the status data or check that it complies with the contract rules.
-
-So when a new wallet wants to support an asset, it simply needs to integrate the relevant Schema. This mechanism makes it possible to add compatibility to new RGB asset types, without invasively changing the wallet's software base: all that's required is to import the Schema binary and understand its structure.
-
-The Schema defines the business logic in RGB. It lists the evolution rules of a contract, the structure of its data (Owned States, Global State, Valencies) and the associated validation scripts (executable by AluVM). Thanks to this declarative document, the definition of a contract (compiled file) is clearly separated from the actual execution of the rules (client-side). This decoupling gives RGB great flexibility, enabling a wide range of use cases (fungible tokens, NFT, more sophisticated contracts) while avoiding the complexity and flaws typical of programmable on-chain blockchains.
-
-#### Schema example
-
-Let's take a look at a concrete example of Schema for an RGB contract. This is an extract in Rust from the file `nia.rs` (initials for "*Non-Inflatable Assets*"), which defines a model for fungible tokens that cannot be reissued beyond their initial supply (a non-inflationary asset). This type of token can be seen as the equivalent, in the RGB universe, of the ERC20 on Ethereum, i.e. fungible tokens that respect certain basic rules (e.g. on transfers, supply initialization, etc.).
-
-Before diving into the code, it's worth recalling the general structure of an RGB Schema. There is a series of declarations framing :
+Không giống như các hệ thống như Ethereum, nơi mã hợp đồng thông minh (có thể thực thi) được viết vào chính blockchain, RGB lưu trữ hợp đồng (logic của nó) ngoài chuỗi, dưới dạng một tài liệu khai báo được biên dịch. Điều này ngụ ý rằng:
 
 
-- A possible `SchemaId` indicating the use of another basic Schema as a template;
-- The **Global States** and **Owned States** (with their strict types) ;
-- Valencies** (if any);
-- The **Operations** (Genesis, State Transitions, State Extensions) that can reference these states and valencies;
-- The **Strict Type System** used to describe and validate data;
-- Validation scripts** (run via AluVM).
+- Không có VM Turing-complete nào chạy trong mọi nút của mạng Bitcoin. Các quy tắc của hợp đồng RGB không được thực thi trên blockchain, mà ở mỗi người dùng muốn xác thực trạng thái;
+- Dữ liệu hợp đồng không làm ô nhiễm blockchain: chỉ có bằng chứng mật mã (*cam kết*) được nhúng trong các giao dịch Bitcoin (thông qua `Tapret` hoặc `Opret`);
+- Có thể cập nhật hoặc từ chối Schema (*chuyển tiếp nhanh*, *đẩy lùi*, v.v.) mà không cần phải phân nhánh trên chuỗi khối Bitcoin. Ví chỉ cần nhập Schema mới và thích ứng với những thay đổi đồng thuận.
+
+#### Sử dụng bởi bên phát hành và người dùng
+
+Khi một *bên phát hành* tạo ra một tài sản (ví dụ: một mã thông báo có thể thay thế không lạm phát), bên đó sẽ chuẩn bị:
+
+
+- Sơ đồ mô tả các quy tắc phát xạ, truyền tải, v.v.;
+- Genesis được điều chỉnh theo Sơ đồ này (có tổng số mã thông báo đã phát hành, danh tính của chủ sở hữu ban đầu, bất kỳ Valencies đặc biệt nào để phát hành lại, v.v.).
+
+Sau đó, nó cung cấp Schema đã biên dịch (tệp `.rgb`) cho người dùng, để bất kỳ ai nhận được chuyển giao mã thông báo này đều có thể kiểm tra tính nhất quán của hoạt động cục bộ. Nếu không có Schema này, người dùng sẽ không thể diễn giải dữ liệu trạng thái hoặc kiểm tra xem nó có tuân thủ các quy tắc hợp đồng hay không.
+
+Vì vậy, khi một ví mới muốn hỗ trợ một tài sản, nó chỉ cần tích hợp Schema có liên quan. Cơ chế này giúp có thể thêm khả năng tương thích vào các loại tài sản RGB mới mà không cần thay đổi cơ sở phần mềm của ví: tất cả những gì cần thiết là nhập nhị phân Schema và hiểu cấu trúc của nó.
+
+Schema định nghĩa logic kinh doanh trong RGB. Nó liệt kê các quy tắc tiến hóa của hợp đồng, cấu trúc dữ liệu của hợp đồng (Trạng thái sở hữu, Trạng thái toàn cục, Giá trị) và các tập lệnh xác thực liên quan (có thể thực thi bởi AluVM). Nhờ tài liệu khai báo này, định nghĩa của hợp đồng (tệp đã biên dịch) được tách biệt rõ ràng khỏi việc thực thi thực tế các quy tắc (phía máy khách). Sự tách biệt này mang lại cho RGB tính linh hoạt tuyệt vời, cho phép sử dụng nhiều trường hợp (mã thông báo có thể thay thế, NFT, hợp đồng phức tạp hơn) đồng thời tránh được sự phức tạp và các lỗi thường gặp của các chuỗi khối lập trình trên chuỗi.
+
+#### Ví dụ về sơ đồ
+
+Hãy cùng xem một ví dụ cụ thể về Schema cho hợp đồng RGB. Đây là một trích xuất trong Rust từ tệp `nia.rs` (chữ viết tắt của "*Non-Inflatable Assets*"), định nghĩa một mô hình cho các token có thể thay thế không thể được phát hành lại sau khi cung cấp ban đầu của chúng (một tài sản không lạm phát). Loại token này có thể được coi là tương đương, trong vũ trụ RGB, của ERC20 trên Ethereum, tức là các token có thể thay thế tuân thủ một số quy tắc cơ bản nhất định (ví dụ: về chuyển nhượng, khởi tạo cung cấp, v.v.).
+
+Trước khi đi sâu vào mã, chúng ta nên nhớ lại cấu trúc chung của RGB Schema. Có một loạt các khai báo đóng khung:
+
+
+- `SchemaId` có thể chỉ ra việc sử dụng một Schema cơ bản khác làm mẫu;
+- **Các quốc gia toàn cầu** và **Các quốc gia sở hữu** (với các loại nghiêm ngặt của chúng);
+- Hóa trị** (nếu có);
+- Các **Hoạt động** (Khởi tạo, Chuyển đổi trạng thái, Mở rộng trạng thái) có thể tham chiếu đến các trạng thái và hóa trị này;
+- **Hệ thống kiểu nghiêm ngặt** được sử dụng để mô tả và xác thực dữ liệu;
+- Tập lệnh xác thực** (chạy qua AluVM).
 
 ![RGB-Bitcoin](assets/fr/072.webp)
 
-The code below shows the complete definition of the Rust Schema. We will comment it part by part, following the annotations (1) to (9) below:
+Mã bên dưới hiển thị định nghĩa đầy đủ của Rust Schema. Chúng tôi sẽ bình luận từng phần, theo các chú thích (1) đến (9) bên dưới:
 
 ```rust
 // ===== PART 1: Function Header and SubSchema =====
@@ -2176,193 +2121,193 @@ EntryPoint::ValidateTransition(TS_TRANSFER) => LibSite::with(FN_TRANSFER_OFFSET,
 ```
 
 
-- (1) - Function header and SubSchema**
+- (1) - Tiêu đề hàm và SubSchema**
 
-The `nia_schema()` function returns a `SubSchema`, indicating that this Schema can partially inherit from a more generic schema. In the RGB ecosystem, this flexibility makes it possible to reuse certain standard elements of a master schema, and then define rules specific to the contract in question. Here, we choose not to enable inheritance, since `subset_of` will be `None`.
-
-
-- (2) - General properties: ffv, subset_of, type_system**
-
-The `ffv` property corresponds to the *fast-forward* version of the contract. A value of `zero!()` here indicates that we are at version 0 or the initial version of this schema. If you later wish to add new functionalities (new type of operation, etc.), you can increment this version to indicate a consensus change.
-
-The `subset_of: None` property confirms the absence of inheritance. The `type_system` field refers to the strict type system already defined in the `types` library. This line indicates that all data used by the contract uses the strict serialization implementation provided by the library in question.
+Hàm `nia_schema()` trả về `SubSchema`, cho biết Schema này có thể kế thừa một phần từ một schema chung hơn. Trong hệ sinh thái RGB, tính linh hoạt này giúp có thể tái sử dụng một số thành phần chuẩn của một schema chính, sau đó xác định các quy tắc cụ thể cho hợp đồng đang xét. Ở đây, chúng tôi chọn không cho phép kế thừa, vì `subset_of` sẽ là `None`.
 
 
-- (3) - Global States
+- (2) - Thuộc tính chung: ffv, subset_of, type_system**
 
-In the `global_types` block, we declare four elements. We use the key, such as `GS_NOMINAL` or `GS_ISSUED_SUPPLY`, to reference them later:
+Thuộc tính `ffv` tương ứng với phiên bản *chuyển tiếp nhanh* của hợp đồng. Giá trị `zero!()` ở đây cho biết chúng ta đang ở phiên bản 0 hoặc phiên bản ban đầu của lược đồ này. Nếu sau này bạn muốn thêm các chức năng mới (loại hoạt động mới, v.v.), bạn có thể tăng phiên bản này để chỉ ra sự thay đổi đồng thuận.
 
-
-- `GS_NOMINAL` refers to a `DivisibleAssetSpec` type, which describes various fields of the created token (full name, ticker, precision...);
-- `GS_DATA` represents general data, such as a disclaimer, metadata, or other text;
-- `GS_TIMESTAMP` refers to an issue date;
-- `GS_ISSUED_SUPPLY` sets the total supply, i.e. the maximum number of tokens that can be created.
-
-The keyword `once(...)` means that each of these fields can only appear once.
+Thuộc tính `subset_of: None` xác nhận không có sự kế thừa. Trường `type_system` tham chiếu đến hệ thống kiểu nghiêm ngặt đã được xác định trong thư viện `types`. Dòng này chỉ ra rằng tất cả dữ liệu được hợp đồng sử dụng đều sử dụng triển khai tuần tự hóa nghiêm ngặt do thư viện đang đề cập cung cấp.
 
 
-- (4) - Owned Types
+- (3) - Các quốc gia toàn cầu
 
-In `owned_types`, we declare `OS_ASSET`, which describes a fungible state. We use `StateSchema::Fungible(FungibleType::Unsigned64Bit)`, indicating that the quantity of assets (tokens) is stored as a 64-bit unsigned integer. Thus, any transaction will send a certain amount of units of this token, which will be validated according to this strictly typed numerical structure.
-
-
-- (5) - Valencies**
-
-We indicate `valency_types: none!()`, which means that there are no Valencies in this schema, in other words no special or extra rights (such as reissue, conditional burn, etc.). If a schema included any, they would be declared in this section.
+Trong khối `global_types`, chúng ta khai báo bốn phần tử. Chúng ta sử dụng khóa, chẳng hạn như `GS_NOMINAL` hoặc `GS_ISSUED_SUPPLY`, để tham chiếu chúng sau:
 
 
-- (6) - Genesis: first operations
+- `GS_NOMINAL` đề cập đến kiểu `DivisibleAssetSpec`, mô tả nhiều trường khác nhau của mã thông báo được tạo (tên đầy đủ, mã chứng khoán, độ chính xác...);
+- `GS_DATA` biểu thị dữ liệu chung, chẳng hạn như tuyên bố từ chối trách nhiệm, siêu dữ liệu hoặc văn bản khác;
+- `GS_TIMESTAMP` đề cập đến ngày phát hành;
+- `GS_ISSUED_SUPPLY` thiết lập tổng nguồn cung, tức là số lượng mã thông báo tối đa có thể được tạo.
 
-Here we enter the part that declares Contract Operations. The Genesis is described by :
-
-
-- The absence of `metadata` (field `metadata: Ty::<SemId>::UNIT.id(None)`) ;
-- Global States which must be present once each (`Once`);
-- An Assignments list where `OS_ASSET` must appear `OnceOrMore`. This means that Genesis requires at least one `OS_ASSET` Assignment (an initial holder);
-- No Valency : `valencies: none!()`.
-
-This is how we limit the definition of the initial token issue: we must declare the supply issued (`GS_ISSUED_SUPPLY`), plus at least one holder (an Owned State of type `OS_ASSET`).
+Từ khóa `once(...)` có nghĩa là mỗi trường này chỉ có thể xuất hiện một lần.
 
 
-- (7) - Extensions
+- (4) - Các loại sở hữu
 
-The `extensions: none!()` field indicates that no State Extension is foreseen in this contract. This means that there is no operation to redeem a digital right (Valency) or to perform a state extension before a Transition. Everything is done via Genesis or State Transitions.
-
-
-- (8) - Transitions: TS_TRANSFER
-
-In `transitions`, we define the `TS_TRANSFER` type of operation. We explain that :
+Trong `owned_types`, chúng tôi khai báo `OS_ASSET`, mô tả trạng thái có thể thay thế. Chúng tôi sử dụng `StateSchema::Fungible(FungibleType::Unsigned64Bit)`, chỉ ra rằng số lượng tài sản (mã thông báo) được lưu trữ dưới dạng số nguyên không dấu 64 bit. Do đó, bất kỳ giao dịch nào cũng sẽ gửi một số lượng đơn vị nhất định của mã thông báo này, sẽ được xác thực theo cấu trúc số được gõ nghiêm ngặt này.
 
 
-- It has no metadata;
-- It does not modify the Global State (which is already defined in Genesis);
-- It takes one or more `OS_ASSETs` as inputs. This means it must spend existing Owned States;
-- It creates (`assignments`) at least one new `OS_ASSET` (in other words, the recipient or recipients receive tokens) ;
-- It generates no new Valency.
+- (5) - Hóa trị**
 
-This models the behavior of a basic transfer, which consumes tokens on a UTXO, then creates new Owned States in favor of the recipients, and thus preserves the equality of the total amount between inputs and outputs.
+Chúng tôi chỉ ra `valency_types: none!()`, nghĩa là không có Valencies nào trong lược đồ này, nói cách khác là không có quyền đặc biệt hoặc quyền bổ sung (như phát hành lại, ghi có điều kiện, v.v.). Nếu lược đồ bao gồm bất kỳ quyền nào, chúng sẽ được khai báo trong phần này.
 
 
-- (9) - AluVM script and Entry Points** (in French)
+- (6) - Sáng thế: hoạt động đầu tiên
 
-Finally, we declare an AluVM script (`Script::AluVM(AluScript { ... })`). This script contains :
-
-
-- One or more external libraries (`libs`) to be used during validation;
-- Entry points pointing to function offsets in the AluVM code, corresponding to validation of the Genesis (`ValidateGenesis`) and each declared Transition (`ValidateTransition(TS_TRANSFER)`).
-
-This validation code is responsible for applying business logic. For example, it will check :
+Ở đây chúng ta nhập phần khai báo Contract Operations. Genesis được mô tả bởi:
 
 
-- That the `GS_ISSUED_SUPPLY` is not exceeded during Genesis ;
-- That the sum of `inputs` (tokens spent) equals the sum of `assignments` (tokens received) for `TS_TRANSFER`.
+- Không có `siêu dữ liệu` (trường `siêu dữ liệu: Ty::<SemId>::UNIT.id(None)`) ;
+- Các trạng thái toàn cầu phải xuất hiện một lần (`Một lần`);
+- Danh sách Assignments trong đó `OS_ASSET` phải xuất hiện `OnceOrMore`. Điều này có nghĩa là Genesis yêu cầu ít nhất một Assignment `OS_ASSET` (một chủ sở hữu ban đầu);
+- Không có giá trị: `valencies: none!()`.
 
-If these rules are not respected, the transition will be considered invalid.
-
-This example of a "*Non Inflatable Fungible Asset*" Schema gives us a better understanding of the structure of a simple RGB fungible token contract. We can clearly see the separation between data description (Global and Owned States), operation declaration (Genesis, Transitions, Extensions) and validation implementation (AluVM scripts). Thanks to this model, a token behaves like a classic fungible token, but remains validated on the client side and does not depend on the on-chain infrastructure to execute its code. Only cryptographic commitments are anchored in the Bitcoin blockchain.
-
-### Interface
-
-The interface is the layer designed to make a contract readable and manipulable, both by users (human reading) and by portfolios (software reading). The Interface therefore plays a role comparable to that of an interface in an object-oriented programming language (Java, Rust trait, etc.), in that it exposes and clarifies the functional structure of a contract, without necessarily revealing the internal details of the business logic.
-
-Unlike Schema, which is purely declarative and compiled into a binary file that is difficult to use as is, Interface provides the reading keys needed to :
+Đây là cách chúng ta giới hạn định nghĩa về vấn đề mã thông báo ban đầu: chúng ta phải khai báo nguồn cung đã phát hành (`GS_ISSUED_SUPPLY`), cộng với ít nhất một người nắm giữ (Trạng thái sở hữu có kiểu `OS_ASSET`).
 
 
-- List and describe the Global States and Owned States included in the contract;
-- Access the names and values of each field, so that they can be displayed (e.g. for a token, find out its ticker, maximum amount, etc.);
-- Interpret and construct Contract Operations (Genesis, State Transition, or State Extension) by associating data with understandable names (e.g., perform a transfer by clearly specifying "amount" rather than a binary identifier).
+- (7) - Phần mở rộng
+
+Trường `extensions: none!()` chỉ ra rằng không có State Extension nào được dự kiến trong hợp đồng này. Điều này có nghĩa là không có hoạt động nào để mua lại quyền kỹ thuật số (Valency) hoặc thực hiện mở rộng trạng thái trước khi Chuyển đổi. Mọi thứ đều được thực hiện thông qua Genesis hoặc State Transitions.
+
+
+- (8) - Chuyển tiếp: TS_TRANSFER
+
+Trong `transitions`, chúng tôi định nghĩa loại hoạt động `TS_TRANSFER`. Chúng tôi giải thích rằng:
+
+
+- Nó không có siêu dữ liệu;
+- Nó không sửa đổi Trạng thái toàn cầu (đã được định nghĩa trong Genesis);
+- Nó lấy một hoặc nhiều `OS_ASSETs` làm đầu vào. Điều này có nghĩa là nó phải sử dụng các Owned States hiện có;
+- Nó tạo ra (`assignments`) ít nhất một `OS_ASSET` mới (nói cách khác, người nhận hoặc những người nhận sẽ nhận được mã thông báo);
+- Nó không tạo ra hóa trị mới.
+
+Mô hình này mô phỏng hành vi của một giao dịch chuyển tiền cơ bản, trong đó sử dụng mã thông báo trên UTXO, sau đó tạo ra các Trạng thái sở hữu mới có lợi cho người nhận và do đó bảo toàn tính bình đẳng của tổng số tiền giữa đầu vào và đầu ra.
+
+
+- (9) - Tập lệnh AluVM và Điểm vào** (bằng tiếng Pháp)
+
+Cuối cùng, chúng ta khai báo một tập lệnh AluVM (`Script::AluVM(AluScript { ... })`). Tập lệnh này chứa:
+
+
+- Một hoặc nhiều thư viện bên ngoài (`libs`) được sử dụng trong quá trình xác thực;
+- Điểm vào trỏ đến các vị trí bù trừ chức năng trong mã AluVM, tương ứng với xác thực Genesis (`ValidateGenesis`) và mỗi Transition được khai báo (`ValidateTransition(TS_TRANSFER)`).
+
+Mã xác thực này chịu trách nhiệm áp dụng logic kinh doanh. Ví dụ, nó sẽ kiểm tra:
+
+
+- Không vượt quá `GS_ISSUED_SUPPLY` trong Genesis;
+- Tổng số `đầu vào` (mã thông báo đã chi) bằng tổng số `nhiệm vụ` (mã thông báo đã nhận) cho `TS_TRANSFER`.
+
+Nếu không tuân thủ các quy tắc này, quá trình chuyển đổi sẽ bị coi là không hợp lệ.
+
+Ví dụ này về Sơ đồ "*Non Inflatable Fungible Asset*" giúp chúng ta hiểu rõ hơn về cấu trúc của hợp đồng token có thể thay thế RGB đơn giản. Chúng ta có thể thấy rõ sự tách biệt giữa mô tả dữ liệu (Trạng thái toàn cục và trạng thái sở hữu), khai báo hoạt động (Genesis, Transitions, Extensions) và triển khai xác thực (tập lệnh AluVM). Nhờ mô hình này, một token hoạt động giống như một token có thể thay thế cổ điển, nhưng vẫn được xác thực ở phía máy khách và không phụ thuộc vào cơ sở hạ tầng trên chuỗi để thực thi mã của nó. Chỉ có các cam kết mật mã được neo trong chuỗi khối Bitcoin.
+
+### Giao diện
+
+Giao diện là lớp được thiết kế để làm cho hợp đồng có thể đọc được và thao tác được, cả bởi người dùng (đọc bằng con người) và bởi danh mục đầu tư (đọc bằng phần mềm). Do đó, Giao diện đóng vai trò tương đương với giao diện trong ngôn ngữ lập trình hướng đối tượng (Java, Rust, v.v.), ở chỗ nó phơi bày và làm rõ cấu trúc chức năng của hợp đồng, mà không nhất thiết phải tiết lộ các chi tiết bên trong của logic kinh doanh.
+
+Không giống như Schema, chỉ mang tính khai báo và được biên dịch thành tệp nhị phân khó sử dụng, Interface cung cấp các khóa đọc cần thiết để:
+
+
+- Liệt kê và mô tả các quốc gia toàn cầu và các quốc gia sở hữu có trong hợp đồng;
+- Truy cập tên và giá trị của từng trường để có thể hiển thị chúng (ví dụ: đối với một mã thông báo, hãy tìm mã hiệu, số tiền tối đa, v.v.);
+- Diễn giải và xây dựng các Hoạt động Hợp đồng (Khởi tạo, Chuyển đổi Trạng thái hoặc Mở rộng Trạng thái) bằng cách liên kết dữ liệu với tên dễ hiểu (ví dụ: thực hiện chuyển giao bằng cách chỉ định rõ ràng "số lượng" thay vì mã định danh nhị phân).
 
 ![RGB-Bitcoin](assets/fr/073.webp)
 
-Thanks to the Interface, you can, for example, write code in a wallet which, instead of manipulating fields, directly manipulates labels such as "number of tokens", "asset name", etc. This way, managing a contract becomes more intuitive. In this way, contract management becomes more intuitive.
+Nhờ Giao diện, bạn có thể, ví dụ, viết mã trong ví, thay vì thao tác các trường, trực tiếp thao tác các nhãn như "số lượng mã thông báo", "tên tài sản", v.v. Theo cách này, việc quản lý hợp đồng trở nên trực quan hơn. Theo cách này, việc quản lý hợp đồng trở nên trực quan hơn.
 
-#### General operation
+#### Hoạt động chung
 
-This method has many advantages:
-
-
-- Standardization:**
-
-The same type of contract can be supported by a standard Interface, shared between several wallet implementations. This facilitates compatibility and code reuse.
+Phương pháp này có nhiều ưu điểm:
 
 
-- Clear separation between Schema and Interface:**
+- Chuẩn hóa:**
 
-In RGB design, Schema (business logic) and Interface (presentation and manipulation) are two independent entities. The developers who write the contract logic can concentrate on the Schema, without worrying about ergonomics or data representation, while another team (or the same team, but on a different timeline) can develop the Interface.
-
-
-- Flexible evolution:**
-
-The Interface can be modified or added to after the asset has been issued, without having to change the contract itself. This is a major difference from some on-chain smart contract systems, where the Interface (often mixed with the execution code) is frozen in the blockchain.
+Cùng một loại hợp đồng có thể được hỗ trợ bởi Giao diện chuẩn, được chia sẻ giữa nhiều triển khai ví. Điều này tạo điều kiện cho khả năng tương thích và tái sử dụng mã.
 
 
-- Multi-interface capability
+- Phân tách rõ ràng giữa Schema và Interface:**
 
-The same contract could be exposed through different Interfaces adapted to distinct needs: a simple Interface for the end-user, another more advanced one for the issuer who needs to manage complex configuration operations. The wallet can then choose which Interface to import, depending on its use.
+Trong thiết kế RGB, Schema (logic nghiệp vụ) và Interface (trình bày và thao tác) là hai thực thể độc lập. Các nhà phát triển viết logic hợp đồng có thể tập trung vào Schema mà không cần lo lắng về công thái học hoặc biểu diễn dữ liệu, trong khi một nhóm khác (hoặc cùng một nhóm, nhưng trên một mốc thời gian khác) có thể phát triển Interface.
+
+
+- Tiến hóa linh hoạt:**
+
+Giao diện có thể được sửa đổi hoặc thêm vào sau khi tài sản đã được phát hành, mà không cần phải thay đổi bản thân hợp đồng. Đây là một sự khác biệt lớn so với một số hệ thống hợp đồng thông minh trên chuỗi, trong đó Giao diện (thường được trộn với mã thực thi) bị đóng băng trong chuỗi khối.
+
+
+- Khả năng đa giao diện
+
+Cùng một hợp đồng có thể được đưa ra thông qua các Giao diện khác nhau được điều chỉnh theo nhu cầu riêng biệt: một Giao diện đơn giản cho người dùng cuối, một Giao diện khác tiên tiến hơn cho bên phát hành cần quản lý các hoạt động cấu hình phức tạp. Sau đó, ví có thể chọn Giao diện nào để nhập, tùy thuộc vào mục đích sử dụng.
 
 ![RGB-Bitcoin](assets/fr/074.webp)
 
-In practice, when the wallet retrieves an RGB contract (via a `.rgb` or `.rgba` file), it also imports the associated Interface, which is also compiled. At runtime, the wallet can, for example :
+Trên thực tế, khi ví lấy hợp đồng RGB (thông qua tệp `.rgb` hoặc `.rgba`), nó cũng nhập Giao diện liên quan, cũng được biên dịch. Khi chạy, ví có thể, ví dụ:
 
 
-- Browse the list of states and read their names, to display Ticker, Initial Amount, Issue Date, etc. on the user interface, rather than an unreadable numeric identifier;
-- Build an operation (such as a transfer) using explicit parameter names: instead of writing `assignments { OS_ASSET => 1 }`, it can offer the user an "Amount" field in a form, and translate this information into the strictly typed fields expected by the contract.
+- Duyệt danh sách các tiểu bang và đọc tên của chúng để hiển thị Mã chứng khoán, Số tiền ban đầu, Ngày phát hành, v.v. trên giao diện người dùng, thay vì mã số không thể đọc được;
+- Xây dựng một hoạt động (như chuyển khoản) bằng cách sử dụng tên tham số rõ ràng: thay vì viết `assignments { OS_ASSET => 1 }`, nó có thể cung cấp cho người dùng trường "Số tiền" trong biểu mẫu và dịch thông tin này thành các trường được gõ chặt chẽ theo yêu cầu của hợp đồng.
 
-#### Difference from Ethereum and other systems
+#### Sự khác biệt giữa Ethereum và các hệ thống khác
 
-On Ethereum, the Interface (described via the ABI, *Application Binary Interface*) is generally derived from on-chain stored code (the smart contract). It can be costly or complicated to modify a specific part of the interface without touching the contract itself. However, RGB is based on an entirely off-chain logic, with data anchored in *commitments* on Bitcoin. This design makes it possible to modify the Interface (or its implementation) without impacting the fundamental security of the contract, as the validation of the business rules remains in the Schema and the referenced AluVM code.
+Trên Ethereum, Giao diện (được mô tả qua ABI, *Giao diện nhị phân ứng dụng*) thường được bắt nguồn từ mã được lưu trữ trên chuỗi (hợp đồng thông minh). Có thể tốn kém hoặc phức tạp khi sửa đổi một phần cụ thể của giao diện mà không động đến chính hợp đồng. Tuy nhiên, RGB dựa trên logic hoàn toàn ngoài chuỗi, với dữ liệu được neo trong *cam kết* trên Bitcoin. Thiết kế này giúp có thể sửa đổi Giao diện (hoặc việc triển khai của nó) mà không ảnh hưởng đến tính bảo mật cơ bản của hợp đồng, vì việc xác thực các quy tắc kinh doanh vẫn nằm trong Sơ đồ và mã AluVM được tham chiếu.
 
-#### Interface compilation
+#### Biên dịch giao diện
 
-As with Schema, the Interface is defined in source code (often in Rust) and compiled into a `.rgb` or `.rgba` file. This binary file contains all the information required by the wallet to :
-
-
-- Identify fields by name ;
-- Link each field (and its value) to the strict system type defined in the contract;
-- Know the different operations allowed and how to build them.
-
-Once the Interface has been imported, the wallet can correctly display the contract and propose interactions to the user.
-
-### Interfaces standardized by the LNP/BP association
-
-In the RGB ecosystem, an Interface is used to give a readable and manipulable meaning to the data and operations of a contract. The Interface thus complements the Schema, which describes the business logic internally (strict types, validation scripts, etc.). In this section, we'll take a look at the standard Interfaces developed by the LNP/BP association for common contract types (fungible tokens, NFT, etc.).
-
-As a reminder, the idea is that each Interface describes how to display and manipulate a contract on the wallet side, clearly naming the fields (such as `spec`, `ticker`, `issuedSupply`...) and defining the possible operations (such as `Transfer`, `Burn`, `Rename`...). Several Interfaces are already operational, but there will be more and more in the future.
-
-#### Some ready-to-use interfaces
-
-**RGB20** is the Interface for fungible assets, which can be compared to Ethereum's ERC20 standard. However, it goes a step further, offering more extensive functionality:
+Giống như Schema, Giao diện được định nghĩa trong mã nguồn (thường là Rust) và được biên dịch thành tệp `.rgb` hoặc `.rgba`. Tệp nhị phân này chứa tất cả thông tin mà ví yêu cầu để:
 
 
-- For example, the ability to rename the asset (change of *ticker* or full name) after it has been issued, or to adjust its precision (*stock splits*);
-- It can also describe mechanisms for secondary reissuance (limited or unlimited) and for burn and then replacement, in order to authorize the issuer to destroy and then recreate assets under certain conditions;
+- Xác định các trường theo tên;
+- Liên kết từng trường (và giá trị của trường đó) với loại hệ thống nghiêm ngặt được xác định trong hợp đồng;
+- Biết các hoạt động khác nhau được phép và cách thực hiện chúng.
 
-For example, the RGB20 Interface can be linked to the **Non-Inflatable Asset (NIA) scheme**, which imposes a non-inflatable initial supply, or to other more advanced schemes as required.
+Sau khi Giao diện được nhập, ví có thể hiển thị chính xác hợp đồng và đề xuất các tương tác cho người dùng.
 
-**RGB21** concerns NFT-type contracts, or more broadly, any unique digital content, such as the representation of digital media (images, music, etc.). In addition to describing the issue and transfer of a single asset, it includes features such as :
+### Giao diện được chuẩn hóa bởi hiệp hội LNP/BP
 
+Trong hệ sinh thái RGB, Giao diện được sử dụng để cung cấp ý nghĩa có thể đọc và thao tác được cho dữ liệu và hoạt động của hợp đồng. Do đó, Giao diện bổ sung cho Sơ đồ, mô tả logic kinh doanh nội bộ (các kiểu nghiêm ngặt, tập lệnh xác thực, v.v.). Trong phần này, chúng ta sẽ xem xét các Giao diện chuẩn do hiệp hội LNP/BP phát triển cho các loại hợp đồng phổ biến (mã thông báo có thể thay thế, NFT, v.v.).
 
-- Integrated support for direct inclusion of a file (up to 16 MB) in the contract (for client-side retrieval);
-- The possibility for the owner to enter a "*engraving*" in the history to prove past ownership of an NFT.
+Xin nhắc lại, ý tưởng là mỗi Giao diện mô tả cách hiển thị và thao tác hợp đồng ở phía ví, đặt tên rõ ràng cho các trường (như `spec`, `ticker`, `issuedSupply`...) và xác định các thao tác có thể thực hiện (như `Transfer`, `Burn`, `Rename`...). Một số Giao diện đã hoạt động, nhưng sẽ có nhiều hơn nữa trong tương lai.
 
-**RGB25** is a hybrid standard combining fungible and non-fungible aspects. It is designed for partially fungible assets, such as real estate tokenization, where you want to split up a property while retaining a link to a single root asset (in other words, you have fungible pieces of a house, linked to a non-fungible house). Technically, this interface can be linked to the **Collectible Fungible Asset* (CFA)** schema, which takes into account the notion of splitting while tracing the original asset.
+#### Một số giao diện sẵn sàng sử dụng
 
-#### Interfaces under development
-
-Other Interfaces are planned for more specialized uses, but are not yet available:
+**RGB20** là Giao diện cho các tài sản có thể thay thế, có thể so sánh với tiêu chuẩn ERC20 của Ethereum. Tuy nhiên, nó tiến xa hơn một bước, cung cấp chức năng mở rộng hơn:
 
 
-- RGB22**, dedicated to digital identities, to manage identifiers and on-chain profiles in the RGB ecosystem;
-- RGB23**, for advanced time stamping, using some of the ideas of *Opentimestamps*, but with traceability features;
-- RGB24**, which aims for the equivalent of a decentralized domain name system (DNS) similar to the *Ethereum Name Service* ;
-- RGB26**, designed to manage DAOs (*Decentralized Autonomous Organization*) in a more complex format (governance, voting, etc.);
-- RGB30**, very similar to RGB20 but with the particularity of taking into account decentralized initial issuance and using State Extensions. This would be used for assets whose re-issuance is managed by several entities, or subject to finer conditions.
+- Ví dụ, khả năng đổi tên tài sản (thay đổi *mã chứng khoán* hoặc tên đầy đủ) sau khi phát hành hoặc điều chỉnh độ chính xác của tài sản (*chia tách cổ phiếu*);
+- Nó cũng có thể mô tả các cơ chế tái phát hành thứ cấp (có giới hạn hoặc không giới hạn) và để đốt rồi thay thế, nhằm cho phép bên phát hành phá hủy rồi tái tạo tài sản trong những điều kiện nhất định;
 
-Of course, depending on the date on which you consult this course, these interfaces may already be operational and accessible.
+Ví dụ, Giao diện RGB20 có thể được liên kết với chương trình **Tài sản không thể bơm hơi (NIA)**, áp dụng nguồn cung ban đầu không thể bơm hơi hoặc với các chương trình tiên tiến hơn khác nếu cần.
 
-#### Interface example
+**RGB21** liên quan đến các hợp đồng loại NFT hoặc rộng hơn là bất kỳ nội dung kỹ thuật số độc đáo nào, chẳng hạn như biểu diễn phương tiện kỹ thuật số (hình ảnh, nhạc, v.v.). Ngoài việc mô tả vấn đề phát hành và chuyển giao một tài sản duy nhất, nó còn bao gồm các tính năng như:
 
-This Rust code snippet shows a [RGB20](https://github.com/RGB-WG/rgb-std/blob/master/src/interface/rgb20.rs) Interface (fungible asset). This code is taken from the `rgb20.rs` file in the standard RGB library. Let's take a look at it to understand the structure of an Interface and how it provides a bridge between, on the one hand, the business logic (defined in the Schema) and, on the other, the functionalities exposed to wallets and users.
+
+- Hỗ trợ tích hợp để đưa trực tiếp tệp (tối đa 16 MB) vào hợp đồng (để truy xuất ở phía máy khách);
+- Chủ sở hữu có thể nhập "*khắc*" vào lịch sử để chứng minh quyền sở hữu trước đây của NFT.
+
+**RGB25** là một tiêu chuẩn lai kết hợp các khía cạnh có thể thay thế và không thể thay thế. Nó được thiết kế cho các tài sản có thể thay thế một phần, chẳng hạn như mã hóa bất động sản, nơi bạn muốn chia nhỏ một tài sản trong khi vẫn giữ liên kết đến một tài sản gốc duy nhất (nói cách khác, bạn có các phần có thể thay thế của một ngôi nhà, được liên kết đến một ngôi nhà không thể thay thế). Về mặt kỹ thuật, giao diện này có thể được liên kết với lược đồ **Tài sản có thể thay thế sưu tầm* (CFA)**, có tính đến khái niệm chia nhỏ trong khi theo dõi tài sản gốc.
+
+#### Giao diện đang được phát triển
+
+Các Giao diện khác được lên kế hoạch cho mục đích sử dụng chuyên biệt hơn nhưng hiện chưa có sẵn:
+
+
+- RGB22**, dành riêng cho danh tính kỹ thuật số, để quản lý các mã định danh và hồ sơ trên chuỗi trong hệ sinh thái RGB;
+- RGB23**, để đóng dấu thời gian nâng cao, sử dụng một số ý tưởng của *Opentimestamps*, nhưng có các tính năng truy xuất nguồn gốc;
+- RGB24**, hướng tới mục tiêu tương đương với hệ thống tên miền phi tập trung (DNS) tương tự như *Ethereum Name Service*;
+- RGB26**, được thiết kế để quản lý DAO (*Tổ chức tự trị phi tập trung*) theo định dạng phức tạp hơn (quản trị, bỏ phiếu, v.v.);
+- RGB30**, rất giống với RGB20 nhưng có đặc điểm là tính đến việc phát hành ban đầu phi tập trung và sử dụng State Extensions. Điều này sẽ được sử dụng cho các tài sản mà việc phát hành lại được quản lý bởi nhiều thực thể hoặc tuân theo các điều kiện tinh vi hơn.
+
+Tất nhiên, tùy thuộc vào ngày bạn tham khảo khóa học này, các giao diện này có thể đã hoạt động và có thể truy cập được.
+
+#### Ví dụ về giao diện
+
+Đoạn mã Rust này hiển thị Giao diện [RGB20](https://github.com/RGB-WG/rgb-std/blob/master/src/interface/rgb20.rs) (tài sản có thể thay thế). Mã này được lấy từ tệp `rgb20.rs` trong thư viện RGB chuẩn. Chúng ta hãy xem xét nó để hiểu cấu trúc của Giao diện và cách nó cung cấp cầu nối giữa, một mặt, logic kinh doanh (được xác định trong Sơ đồ) và mặt khác, các chức năng được cung cấp cho ví và người dùng.
 
 ```rust
 // ...
@@ -2529,78 +2474,78 @@ type_system: types.type_system(),
 }
 ```
 
-In this interface, we notice similarities with the Schema structure: we find a declaration of Global State, Owned States, Contract Operations (Genesis and Transitions), as well as error handling. But the Interface focuses on the presentation and manipulation of these elements for a wallet or any other application.
+Trong giao diện này, chúng ta nhận thấy những điểm tương đồng với cấu trúc Schema: chúng ta tìm thấy một tuyên bố về Global State, Owned States, Contract Operations (Genesis và Transitions), cũng như xử lý lỗi. Nhưng Interface tập trung vào việc trình bày và thao tác các thành phần này cho ví hoặc bất kỳ ứng dụng nào khác.
 
-The difference with Schema lies in the nature of the types. Schema uses strict types (such as `FungibleType::Unsigned64Bit`) and more technical identifiers. The Interface uses field names, macros (`fname!()`, `tn!()`), and references to argument classes (`ArgSpec`, `OwnedIface::Rights`...). The aim here is to facilitate the functional understanding and organization of elements for the wallet.
+Sự khác biệt với Schema nằm ở bản chất của các kiểu. Schema sử dụng các kiểu nghiêm ngặt (như `FungibleType::Unsigned64Bit`) và các định danh kỹ thuật hơn. Giao diện sử dụng tên trường, macro (`fname!()`, `tn!()`) và tham chiếu đến các lớp đối số (`ArgSpec`, `OwnedIface::Rights`...). Mục đích ở đây là tạo điều kiện thuận lợi cho việc hiểu chức năng và tổ chức các thành phần cho ví.
 
-In addition, the Interface can introduce additional functionality to the basic Schema (e.g. management of a `burnEpoch` right), as long as this remains consistent with the final validated client-side logic. The AluVM "script" section in the Schema will ensure cryptographic validity, while the Interface describes how the user (or wallet) interacts with these states and transitions.
+Ngoài ra, Giao diện có thể giới thiệu chức năng bổ sung cho Sơ đồ cơ bản (ví dụ: quản lý quyền `burnEpoch`), miễn là điều này vẫn nhất quán với logic phía máy khách đã được xác thực cuối cùng. Phần "script" AluVM trong Sơ đồ sẽ đảm bảo tính hợp lệ về mặt mật mã, trong khi Giao diện mô tả cách người dùng (hoặc ví) tương tác với các trạng thái và chuyển đổi này.
 
-#### Global State and Assignments
+#### Trạng thái toàn cầu và nhiệm vụ
 
-In the `global_state` section, we find fields such as `spec` (asset description), `data`, `created`, `issuedSupply`, `burnedSupply`, `replacedSupply`. These are fields that the wallet can read and present. For example:
-
-
-- `spec` will display the token configuration;
-- `issuedSupply` or `burnedSupply` give us the total number of tokens issued or burned, etc.
-
-In the `assignments` section, we define various roles or rights. For example:
+Trong phần `global_state`, chúng ta tìm thấy các trường như `spec` (mô tả tài sản), `data`, `created`, `issuedSupply`, `burnedSupply`, `replacedSupply`. Đây là các trường mà ví có thể đọc và hiển thị. Ví dụ:
 
 
-- `assetOwner` corresponds to the holding of tokens (it is the fungible *Owned State*) ;
-- `burnRight` corresponds to the ability to burn tokens ;
-- updateRight` corresponds to the right to rename the asset.
+- `spec` sẽ hiển thị cấu hình mã thông báo;
+- `issuedSupply` hoặc `burnedSupply` cung cấp cho chúng ta tổng số token đã phát hành hoặc đã đốt, v.v.
 
-The `public` or `private` keyword (e.g. `AssignIface::public(...)`) indicates whether these states are visible (`public`) or confidential (`private`). As for `Req::NoneOrMore`, `Req::Optional`, they indicate the expected occurrence.
-
-#### Genesis and transitions
-
-The `genesis` part describes how the asset is initialized:
+Trong phần `assignments`, chúng tôi định nghĩa nhiều vai trò hoặc quyền khác nhau. Ví dụ:
 
 
-- The `spec`, `data`, `created`, `issuedSupply` fields are mandatory (`ArgSpec::required()`) ;
-- Assignments such as `assetOwner` can be present in multiple copies (`ArgSpec::many()`), allowing tokens to be distributed to multiple initial holders;
-- Fields such as `inflationAllowance` or `burnEpoch` may (or may not) be included in Genesis.
+- `assetOwner` tương ứng với việc nắm giữ các mã thông báo (đó là *Trạng thái sở hữu* có thể thay thế);
+- `burnRight` tương ứng với khả năng đốt token;
+- updateRight` tương ứng với quyền đổi tên tài sản.
 
-Then, for each Transition (`Transfer`, `Issue`, `Burn`...), the Interface defines which fields the operation expects as input, which fields the operation will produce as output, and any errors that may occur. For example:
+Từ khóa `public` hoặc `private` (ví dụ: `AssignIface::public(...)`) chỉ ra liệu các trạng thái này có thể nhìn thấy (`public`) hay bí mật (`private`). Đối với `Req::NoneOrMore`, `Req::Optional`, chúng chỉ ra sự kiện dự kiến.
 
-**Transition :**
+#### Sáng thế và chuyển tiếp
 
-
-- Inputs : `previous` → must be an `assetOwner` ;
-- Assignments : `beneficiary` → will be a new `assetOwner` ;
-- Error: `NON_EQUAL_AMOUNTS` (the wallet will thus be able to handle cases where the input sum does not correspond to the output sum).
-
-**Transition `Issue` :**
+Phần `genesis` mô tả cách khởi tạo tài sản:
 
 
-- Optional (`optional: true`), as additional emission is not necessarily activated;
-- Inputs: `used` → an `inflationAllowance`, i.e. permission to add more tokens ;
-- Assignments: `beneficiary` (new tokens received) and `future` (remaining `inflationAllowance`) ;
-- Possible errors: `SUPPLY_MISMATCH`, `ISSUE_EXCEEDS_ALLOWANCE`, etc.
+- Các trường `spec`, `data`, `created`, `issuedSupply` là bắt buộc (`ArgSpec::required()`) ;
+- Các nhiệm vụ như `assetOwner` có thể xuất hiện ở nhiều bản sao (`ArgSpec::many()`), cho phép phân phối mã thông báo cho nhiều người nắm giữ ban đầu;
+- Các trường như `inflationAllowance` hoặc `burnEpoch` có thể (hoặc không thể) được bao gồm trong Genesis.
 
-**Burn transition :**
+Sau đó, đối với mỗi Chuyển đổi (`Chuyển`, `Phát hành`, `Đốt`...), Giao diện xác định các trường mà hoạt động mong đợi là đầu vào, các trường mà hoạt động sẽ tạo ra là đầu ra và bất kỳ lỗi nào có thể xảy ra. Ví dụ:
+
+**Chuyển tiếp :**
 
 
-- Inputs : `used` → a `burnRight` ;
-- Globals : `burnedSupply` required ;
-- Assignments: `future` → a possible continuation of the `burnRight` if we haven't burned everything ;
-- Errors: `SUPPLY_MISMATCH`, `INVALID_PROOF`, `INSUFFICIENT_COVERAGE`.
+- Đầu vào: `previous` → phải là `assetOwner`;
+- Nhiệm vụ: `người thụ hưởng` → sẽ là `chủ sở hữu tài sản` mới;
+- Lỗi: `NON_EQUAL_AMOUNTS` (do đó, ví sẽ có thể xử lý các trường hợp tổng đầu vào không tương ứng với tổng đầu ra).
 
-Each operation is therefore described in a way that is readable for a wallet. This makes it possible to display a graphical interface where the user can clearly see: "You have the right to burn. Would you like to burn a certain amount? The code knows to fill in a `burnedSupply` field and check that the `burnRight` is valid.
+**Vấn đề chuyển tiếp:**
 
-To sum up, it's important to bear in mind that an Interface, however complete, does not by itself define the internal logic of the contract. The heart of the work is done by the **Schema**, which includes strict types, Genesis structure, transitions and so on. The Interface simply exposes these elements in a more intuitive and named way, for use in an application.
 
-Thanks to RGB's modularity, the Interface can be upgraded (for example, by adding a `Rename` transition, correcting the display of a field, etc.) without having to rewrite the entire contract. Users of this Interface can then benefit immediately from these improvements, as soon as they update the `.rgb` or `.rgba` file.
+- Tùy chọn (`tùy chọn: đúng`), vì phát xạ bổ sung không nhất thiết phải được kích hoạt;
+- Đầu vào: `used` → `inflationAllowance`, tức là quyền thêm nhiều mã thông báo hơn;
+- Nhiệm vụ: `beneficiary` (nhận được mã thông báo mới) và `future` (`inflationAllowance` còn lại);
+- Các lỗi có thể xảy ra: `SUPPLY_MISMATCH`, `ISSUE_EXCEEDS_ALLOWANCE`, v.v.
 
-But once you've declared an Interface, you need to link it to the corresponding Schema. This is done via the ***Interface Implementation***, which specifies how to map each named field (such as `fname!("assetOwner")`) to the strict ID (such as `OS_ASSET`) defined in the Schema. This ensures, for example, that when a wallet manipulates a `burnRight` field, this is the state which, in the Schema, describes the ability to burn tokens.
+**Chuyển đổi quá trình đốt cháy :**
 
-### Interface Implementation
 
-In the RGB architecture, we have seen that each component (Schema, Interface, etc.) can be developed and compiled independently. However, there's still one indispensable element that links these different building blocks together: the ***Interface Implementation***. This is what explicitly maps the identifiers or fields defined in the Schema (on the business logic side) to the names declared in the Interface (on the presentation and user interaction side). So when a wallet loads a contract, it can understand exactly which field corresponds to what, and how an operation named in the Interface relates to the logic of the Schema.
+- Đầu vào: `used` → a `burnRight` ;
+- Toàn cục: `burnedSupply` là bắt buộc;
+- Bài tập: `future` → có thể tiếp tục `burnRight` nếu chúng ta chưa đốt cháy mọi thứ;
+- Lỗi: `SUPPLY_MISMATCH`, `INVALID_PROOF`, `INSUFFICIENT_COVERAGE`.
 
-An important point is that Interface Implementation is not necessarily intended to expose all Schema functionalities, nor all Interface fields: it can be limited to a subset. In practice, this makes it possible to restrict or filter certain aspects of the Schema. For example, you could have a Schema with four types of operation, but an Implementation Interface that maps only two of them in a given context. Conversely, if an Interface proposes additional endpoints, we can choose not to implement them here.
+Do đó, mỗi hoạt động được mô tả theo cách có thể đọc được đối với ví. Điều này giúp có thể hiển thị giao diện đồ họa, nơi người dùng có thể thấy rõ: "Bạn có quyền đốt. Bạn có muốn đốt một số tiền nhất định không? Mã biết điền vào trường `burnedSupply` và kiểm tra xem `burnRight` có hợp lệ không.
 
-Here's a classic example of Interface Implementation, where we associate a *Non-Inflatable Asset* (NIA) Schema with the RGB20 Interface:
+Tóm lại, điều quan trọng cần lưu ý là một Giao diện, dù hoàn chỉnh đến đâu, cũng không tự nó xác định được logic bên trong của hợp đồng. Trọng tâm của công việc được thực hiện bởi **Schema**, bao gồm các kiểu nghiêm ngặt, cấu trúc Genesis, chuyển tiếp, v.v. Giao diện chỉ đơn giản là trình bày các thành phần này theo cách trực quan hơn và được đặt tên, để sử dụng trong một ứng dụng.
+
+Nhờ tính mô-đun của RGB, Giao diện có thể được nâng cấp (ví dụ, bằng cách thêm chuyển đổi `Đổi tên`, sửa lỗi hiển thị của một trường, v.v.) mà không cần phải viết lại toàn bộ hợp đồng. Người dùng Giao diện này sau đó có thể hưởng lợi ngay từ những cải tiến này, ngay khi họ cập nhật tệp `.rgb` hoặc `.rgba`.
+
+Nhưng sau khi bạn đã khai báo một Giao diện, bạn cần liên kết nó với Sơ đồ tương ứng. Điều này được thực hiện thông qua ***Triển khai Giao diện***, chỉ định cách ánh xạ từng trường được đặt tên (chẳng hạn như `fname!("assetOwner")`) với ID nghiêm ngặt (chẳng hạn như `OS_ASSET`) được định nghĩa trong Sơ đồ. Điều này đảm bảo, ví dụ, rằng khi một ví thao tác với trường `burnRight`, thì đây là trạng thái, trong Sơ đồ, mô tả khả năng ghi mã thông báo.
+
+### Triển khai giao diện
+
+Trong kiến trúc RGB, chúng ta đã thấy rằng mỗi thành phần (Schema, Interface, v.v.) có thể được phát triển và biên dịch độc lập. Tuy nhiên, vẫn còn một thành phần không thể thiếu liên kết các khối xây dựng khác nhau này lại với nhau: ***Interface Implementation***. Đây là thành phần ánh xạ rõ ràng các định danh hoặc trường được xác định trong Schema (ở phía logic nghiệp vụ) với các tên được khai báo trong Interface (ở phía trình bày và tương tác của người dùng). Vì vậy, khi ví tải hợp đồng, nó có thể hiểu chính xác trường nào tương ứng với trường nào và cách một hoạt động được đặt tên trong Interface liên quan đến logic của Schema.
+
+Một điểm quan trọng là Interface Implementation không nhất thiết có ý định phơi bày tất cả các chức năng của Schema, cũng như tất cả các trường Interface: nó có thể bị giới hạn ở một tập hợp con. Trong thực tế, điều này giúp hạn chế hoặc lọc một số khía cạnh nhất định của Schema. Ví dụ, bạn có thể có một Schema với bốn loại hoạt động, nhưng một Implementation Interface chỉ ánh xạ hai trong số chúng trong một ngữ cảnh nhất định. Ngược lại, nếu một Interface đề xuất các điểm cuối bổ sung, chúng ta có thể chọn không triển khai chúng ở đây.
+
+Sau đây là một ví dụ điển hình về Triển khai Giao diện, trong đó chúng ta liên kết Sơ đồ *Tài sản không thể bơm phồng* (NIA) với Giao diện RGB20:
 
 ```rust
 fn nia_rgb20() -> IfaceImpl {
@@ -2629,142 +2574,142 @@ extensions: none!(),
 }
 ```
 
-In this Implementation Interface :
+Trong Giao diện triển khai này:
 
 
-- We explicitly reference the Schema, via `nia_schema()`, and the Interface, via `Rgb20::iface()`. The calls `schema.schema_id()` and `iface.iface_id()` are used to anchor the Interface Implementation on the compile side (this associates the cryptographic identifiers of these two components);
-- A mapping is established between Schema elements and Interface elements. For example, the `GS_NOMINAL` field in the Schema is linked to the string `"spec"` on the Interface side (`NamedField::with(GS_NOMINAL, fname!("spec"))`). We do the same for operations, such as `TS_TRANSFER`, which we link to `"Transfer"` in the Interface... ;
-- We can see that there are no valencies (`valencies: none!()`) or extensions (`extensions: none!()`), reflecting the fact that this NIA contract doesn't use these features.
+- Chúng tôi tham chiếu rõ ràng đến Schema, thông qua `nia_schema()`, và Interface, thông qua `Rgb20::iface()`. Các lệnh gọi `schema.schema_id()` và `iface.iface_id()` được sử dụng để neo Interface Implementation vào phía biên dịch (điều này liên kết các định danh mật mã của hai thành phần này);
+- Một ánh xạ được thiết lập giữa các phần tử Schema và các phần tử Interface. Ví dụ, trường `GS_NOMINAL` trong Schema được liên kết với chuỗi `"spec"` ở phía Interface (`NamedField::with(GS_NOMINAL, fname!("spec"))`). Chúng tôi thực hiện tương tự đối với các hoạt động, chẳng hạn như `TS_TRANSFER`, mà chúng tôi liên kết với `"Transfer"` trong Interface... ;
+- Chúng ta có thể thấy rằng không có hóa trị (`valencies: none!()`) hoặc phần mở rộng (`extensions: none!()`), phản ánh thực tế là hợp đồng NIA này không sử dụng các tính năng này.
 
-The result after compilation is a separate `.rgb` or `.rgba` file, to be imported into the wallet in addition to the Schema and Interface. Thus, the software knows how to concretely connect this NIA contract (whose logic is described by its Schema) to the "RGB20" Interface (which provides human names and an interaction mode for fungible tokens), applying this Interface Implementation as a gateway between the two.
+Kết quả sau khi biên dịch là một tệp `.rgb` hoặc `.rgba` riêng biệt, được nhập vào ví ngoài Schema và Interface. Do đó, phần mềm biết cách kết nối cụ thể hợp đồng NIA này (có logic được mô tả bởi Schema) với Giao diện "RGB20" (cung cấp tên người và chế độ tương tác cho các token có thể thay thế), áp dụng Triển khai Giao diện này làm cổng giữa hai giao diện.
 
-#### Why separate Interface Implementation?
+#### Tại sao phải tách biệt việc triển khai giao diện?
 
-Separation enhances flexibility. A single Schema could have several distinct Interface Implementations, each mapping a different set of functionalities. What's more, the Interface Implementation itself can evolve or be rewritten without requiring a change in either the Schema or the Interface. This retains RGB's principle of modularity: each component (Schema, Interface, Interface Implementation) can be versioned and updated independently, as long as the compatibility rules imposed by the protocol are respected (same identifiers, consistency of types, etc.).
+Phân tách tăng cường tính linh hoạt. Một Schema đơn lẻ có thể có một số Interface Implementation riêng biệt, mỗi Interface ánh xạ một tập hợp các chức năng khác nhau. Hơn nữa, Interface Implementation có thể tự phát triển hoặc được viết lại mà không cần thay đổi Schema hoặc Interface. Điều này giữ nguyên nguyên tắc mô-đun của RGB: mỗi thành phần (Schema, Interface, Interface Implementation) có thể được phiên bản hóa và cập nhật độc lập, miễn là các quy tắc tương thích do giao thức áp đặt được tôn trọng (cùng một định danh, tính nhất quán của các loại, v.v.).
 
-In concrete use, when the wallet loads a contract, it must :
-
-
-- Load the compiled **Schema** (to know the structure of the business logic) ;
-- Load compiled **Interface** (to understand names and user-side operations) ;
-- Load compiled **Interface Implementation** (to link Schema logic to Interface names, operation by operation, field by field).
-
-This modular architecture makes possible use scenarios such as :
+Trong quá trình sử dụng cụ thể, khi ví tải hợp đồng, ví phải:
 
 
-- Limit certain operations for certain users: offer a partial Implementation Interface that only gives access to basic transfers, without offering burn or update functions, for example;
-- Change presentation: design an Interface Implementation that renames a field in the Interface or maps it differently, without altering the basis of the contract;
-- Support multiple schemes: a wallet can load multiple Interface Implementations for the same Interface type, to handle different schemes (different token logics), provided their structure is compatible.
+- Tải **Schema** đã biên dịch (để biết cấu trúc của logic nghiệp vụ);
+- Tải **Giao diện** đã biên dịch (để hiểu tên và hoạt động phía người dùng);
+- Tải **Triển khai giao diện** đã biên dịch (để liên kết logic Sơ đồ với tên Giao diện, từng thao tác, từng trường).
 
-In the next chapter, we'll look at how a contract transfer works, and how RGB invoices are generated.
+Kiến trúc mô-đun này có thể thực hiện được các tình huống sử dụng như:
 
-## Contract transfers
+
+- Giới hạn một số thao tác nhất định đối với một số người dùng nhất định: cung cấp Giao diện triển khai một phần chỉ cung cấp quyền truy cập vào các bản chuyển giao cơ bản mà không cung cấp chức năng ghi hoặc cập nhật, ví dụ;
+- Thay đổi cách trình bày: thiết kế một Triển khai Giao diện đổi tên một trường trong Giao diện hoặc ánh xạ nó theo cách khác mà không làm thay đổi cơ sở của hợp đồng;
+- Hỗ trợ nhiều lược đồ: ví có thể tải nhiều Triển khai Giao diện cho cùng một loại Giao diện để xử lý các lược đồ khác nhau (logic mã thông báo khác nhau), miễn là cấu trúc của chúng tương thích.
+
+Ở chương tiếp theo, chúng ta sẽ xem xét cách thức chuyển nhượng hợp đồng và cách tạo hóa đơn RGB.
+
+## Chuyển nhượng hợp đồng
 
 <chapterId>f043a307-d420-5752-b0d7-ebfd845802c0</chapterId>
 
 ![video](https://youtu.be/sVoKIi-1XbY)
 
-In this chapter, we're going to analyze the process of a contract transfer in the RGB ecosystem. To illustrate this, we'll take a look at Alice and Bob, our usual protagonists, who wish to exchange an RGB asset. We'll also show some command excerpts from the `rgb` command-line tool, to see how it works in practice.
+Trong chương này, chúng ta sẽ phân tích quá trình chuyển giao hợp đồng trong hệ sinh thái RGB. Để minh họa cho điều này, chúng ta sẽ xem xét Alice và Bob, những nhân vật chính thường thấy của chúng ta, những người muốn trao đổi một tài sản RGB. Chúng ta cũng sẽ trình bày một số trích đoạn lệnh từ công cụ dòng lệnh `rgb`, để xem nó hoạt động như thế nào trong thực tế.
 
-### Understanding RGB contract transfer
+### Hiểu về chuyển giao hợp đồng RGB
 
-Let's take an example of a transfer between Alice and Bob. In this example, we assume that Bob is just starting to use RGB, while Alice already holds RGB assets in her wallet. We'll see how Bob sets up his environment, imports the relevant contract, then requests a transfer from Alice, and finally how Alice carries out the actual transaction on the Bitcoin blockchain.
+Hãy lấy ví dụ về giao dịch chuyển tiền giữa Alice và Bob. Trong ví dụ này, chúng ta giả sử Bob mới bắt đầu sử dụng RGB, trong khi Alice đã nắm giữ tài sản RGB trong ví của mình. Chúng ta sẽ xem Bob thiết lập môi trường của mình như thế nào, nhập hợp đồng có liên quan, sau đó yêu cầu chuyển tiền từ Alice và cuối cùng là cách Alice thực hiện giao dịch thực tế trên chuỗi khối Bitcoin.
 
-#### 1) Installing the RGB wallet
+#### 1) Cài đặt ví RGB
 
-First of all, Bob needs to install an RGB wallet, i.e. software compatible with the protocol. This does not contain any contracts at the outset. Bob will also need :
-
-
-- A Bitcoin wallet to manage your UTXOs;
-- A connection to a Bitcoin node (or to an Electrum server), so that you can identify your UTXOs and propagate your transactions on the network.
-
-As a reminder, **Owned States** in RGB refer to Bitcoin UTXOs. We must therefore always be able to manage and spend UTXOs in a Bitcoin transaction that incorporates cryptographic commitments (`Tapret` or `Opret`) pointing to RGB data.
-
-#### 2) Contract information acquisition
-
-Bob then needs to retrieve the contract data he's interested in. This data can circulate via any channel: website, e-mail, messaging application... In practice, they are grouped together in a ***consignment***, i.e. a small packet of data containing :
+Trước hết, Bob cần cài đặt ví RGB, tức là phần mềm tương thích với giao thức. Ví này không chứa bất kỳ hợp đồng nào ngay từ đầu. Bob cũng sẽ cần:
 
 
-- The **Genesis**, which defines the initial state of the contract;
-- The **Schema**, which describes the business logic (strict types, validation scripts, etc.);
-- The **Interface**, which defines the presentation layer (field names, accessible operations);
-- The **Interface Implementation**, which concretely links the Schema to the Interface.
+- Ví Bitcoin để quản lý UTXO của bạn;
+- Kết nối tới một nút Bitcoin (hoặc tới máy chủ Electrum) để bạn có thể xác định UTXO của mình và truyền bá các giao dịch trên mạng.
+
+Xin nhắc lại, **Các tiểu bang sở hữu** trong RGB ám chỉ Bitcoin UTXO. Do đó, chúng ta phải luôn có thể quản lý và chi tiêu UTXO trong giao dịch Bitcoin kết hợp các cam kết mật mã (`Tapret` hoặc `Opret`) trỏ đến dữ liệu RGB.
+
+#### 2) Thu thập thông tin hợp đồng
+
+Sau đó, Bob cần lấy dữ liệu hợp đồng mà anh ấy quan tâm. Dữ liệu này có thể lưu hành qua bất kỳ kênh nào: trang web, email, ứng dụng nhắn tin... Trong thực tế, chúng được nhóm lại với nhau trong một ***lô hàng***, tức là một gói dữ liệu nhỏ chứa:
+
+
+- **Genesis**, xác định trạng thái ban đầu của hợp đồng;
+- **Sơ đồ** mô tả logic kinh doanh (kiểu nghiêm ngặt, tập lệnh xác thực, v.v.);
+- **Giao diện**, xác định lớp trình bày (tên trường, thao tác có thể truy cập);
+- **Triển khai Giao diện**, liên kết cụ thể Sơ đồ với Giao diện.
 
 ![RGB-Bitcoin](assets/fr/075.webp)
 
-The total size is often of the order of a few kilobytes, as each component generally weighs less than 200 bytes. It may also be possible to broadcast this consignment in Base58, via censorship-resistant channels (like Nostr or via the Lightning Network, for example), or as a QR code.
+Tổng kích thước thường vào khoảng vài kilobyte, vì mỗi thành phần thường nặng dưới 200 byte. Cũng có thể phát sóng lô hàng này trong Base58, qua các kênh chống kiểm duyệt (như Nostr hoặc qua Lightning Network, chẳng hạn) hoặc dưới dạng mã QR.
 
-#### 3) Contract import and validation
+#### 3) Nhập khẩu và xác nhận hợp đồng
 
-Once Bob has received the consignment, he imports it into his RGB wallet. This will then :
-
-
-- Check that the Genesis and Schema are valid;
-- Load Interface and Interface Implementation ;
-- Update your client-side data stash.
-
-Bob can now see the asset in his wallet (even if he doesn't own it yet) and understand what fields are available, what operations are possible... He then needs to contact a person who actually owns the asset to be transferred. In our example, this is Alice.
-
-The process of discovering who holds a certain RGB asset is similar to finding a Bitcoin payer. The details of this connection depend on the use (marketplaces, private chat channels, invoicing, sale of goods and services, salary...).
-
-#### 4) Issuing an invoice
-
-To initiate the transfer of an RGB asset, Bob must first issue an invoice. This invoice is used to :
+Sau khi Bob nhận được lô hàng, anh ấy nhập nó vào ví RGB của mình. Sau đó, điều này sẽ:
 
 
-- Tell Alice the type of operation to be performed (for example, a `Transfer` from an RGB20 interface);
-- Provide Alice with Bob's *seal definition* (i.e. the UTXO where he wishes to receive the asset);
-- Specify the quantity of active ingredient required (e.g. 100 units).
+- Kiểm tra xem Genesis và Schema có hợp lệ không;
+- Tải giao diện và triển khai giao diện;
+- Cập nhật kho dữ liệu phía máy khách của bạn.
 
-Bob uses the `rgb` tool on the command line. Suppose he wants 100 units of a token whose `ContractId` is known, wants to rely on `Tapret`, and specifies its UTXO (`456e3..dfe1:0`) :
+Bây giờ Bob có thể thấy tài sản trong ví của mình (ngay cả khi anh ấy chưa sở hữu nó) và hiểu được những trường nào có sẵn, những thao tác nào có thể thực hiện... Sau đó, anh ấy cần liên hệ với một người thực sự sở hữu tài sản để chuyển nhượng. Trong ví dụ của chúng tôi, đó là Alice.
+
+Quá trình khám phá ai nắm giữ một tài sản RGB nhất định cũng tương tự như việc tìm người trả tiền Bitcoin. Chi tiết về kết nối này phụ thuộc vào mục đích sử dụng (thị trường, kênh trò chuyện riêng tư, lập hóa đơn, bán hàng hóa và dịch vụ, lương...).
+
+#### 4) Phát hành hóa đơn
+
+Để bắt đầu chuyển giao tài sản RGB, trước tiên Bob phải xuất hóa đơn. Hóa đơn này được sử dụng để:
+
+
+- Cho Alice biết loại thao tác cần thực hiện (ví dụ: `Chuyển` từ giao diện RGB20);
+- Cung cấp cho Alice *định nghĩa con dấu* của Bob (tức là UTXO nơi anh ấy muốn nhận tài sản);
+- Chỉ định số lượng thành phần hoạt tính cần thiết (ví dụ: 100 đơn vị).
+
+Bob sử dụng công cụ `rgb` trên dòng lệnh. Giả sử anh ấy muốn 100 đơn vị mã thông báo có `ContractId` được biết đến, muốn dựa vào `Tapret` và chỉ định UTXO của nó (`456e3..dfe1:0`):
 
 ```bash
 bob$ rgb invoice RGB20 100 <ContractId> tapret1st:456e3..dfe1:0
 ```
 
-We'll take a closer look at the structure of RGB invoices at the end of this chapter.
+Chúng ta sẽ xem xét kỹ hơn cấu trúc của hóa đơn RGB ở cuối chương này.
 
-#### 5) Invoice transmission
+#### 5) Truyền hóa đơn
 
-The generated invoice (e.g. as URL: `rgb:2WBcas9.../RGB20/100+utxob:...`) contains all the information Alice needs to prepare the transfer. As with the consignment, it can be encoded compactly (Base58 or another format) and sent via a messaging application, e-mail, Nostr...
+Hóa đơn được tạo (ví dụ như URL: `rgb:2WBcas9.../RGB20/100+utxob:...`) chứa tất cả thông tin mà Alice cần để chuẩn bị chuyển khoản. Cũng giống như lô hàng, nó có thể được mã hóa nhỏ gọn (Base58 hoặc định dạng khác) và được gửi qua ứng dụng nhắn tin, email, Nostr...
 
 ![RGB-Bitcoin](assets/fr/076.webp)
 
-#### 6) Transaction preparation on the Alice side
+#### 6) Chuẩn bị giao dịch ở phía Alice
 
-Alice receives Bob's invoice. In her RGB wallet, she has a stash containing the asset to be transferred. To spend the UTXO containing the asset, she must first generate a PSBT (*Partially Signed Bitcoin Transaction*), i.e. an incomplete Bitcoin transaction, using the UTXO she has:
+Alice nhận được hóa đơn của Bob. Trong ví RGB của cô ấy, cô ấy có một kho chứa tài sản cần chuyển. Để chi tiêu UTXO chứa tài sản, trước tiên cô ấy phải tạo PSBT (*Giao dịch Bitcoin đã ký một phần*), tức là một giao dịch Bitcoin chưa hoàn thành, sử dụng UTXO mà cô ấy có:
 
 ```bash
 alice$ wallet construct tx.psbt
 ```
 
-This basic transaction (unsigned for the moment) will be used to anchor the cryptographic commitment linked to the transfer to Bob. Alice's UTXO will thus be spent, and in the output, we'll place the `Tapret` or `Opret` commitment for Bob.
+Giao dịch cơ bản này (chưa được ký vào lúc này) sẽ được sử dụng để neo cam kết mật mã được liên kết với giao dịch chuyển tiền cho Bob. Do đó, UTXO của Alice sẽ được chi tiêu và trong đầu ra, chúng tôi sẽ đặt cam kết `Tapret` hoặc `Opret` cho Bob.
 
-#### 7) Generation of transfer consignment
+#### 7) Tạo lô hàng chuyển nhượng
 
-Next, Alice builds the ***terminal consignment*** (sometimes called "transfer consignment") via the command :
+Tiếp theo, Alice xây dựng ***lô hàng đầu cuối*** (đôi khi được gọi là "lô hàng chuyển giao") thông qua lệnh:
 
 ```bash
 alice$ rgb transfer tx.psbt <invoice> consignment.rgb
 ```
 
-This new `consignment.rgb` file contains :
+Tệp `consignment.rgb` mới này chứa:
 
 
-- The complete history of State Transitions required to validate the asset up to the present time (since Genesis);
-- The new State Transition that transfers assets from Alice to Bob, according to the invoice Bob has issued;
-- The incomplete Bitcoin transaction (*witness transaction*) (`tx.psbt`), which spends Alice's Single-use Seal, modified to include the cryptographic commitment to Bob.
+- Toàn bộ lịch sử Chuyển đổi trạng thái cần thiết để xác thực tài sản cho đến thời điểm hiện tại (kể từ Genesis);
+- Quá trình chuyển đổi trạng thái mới chuyển tài sản từ Alice sang Bob theo hóa đơn mà Bob đã phát hành;
+- Giao dịch Bitcoin chưa hoàn tất (*giao dịch chứng kiến*) (`tx.psbt`), trong đó chi tiêu Con dấu sử dụng một lần của Alice, đã được sửa đổi để bao gồm cam kết mật mã với Bob.
 
-At this stage, the transaction is not yet broadcast on the Bitcoin network. The consignment is larger than a basic consignment, as it includes the entire history (*proof chain*) to prove the asset's legitimacy.
+Ở giai đoạn này, giao dịch vẫn chưa được phát trên mạng Bitcoin. Lô hàng lớn hơn lô hàng cơ bản vì nó bao gồm toàn bộ lịch sử (*chuỗi bằng chứng*) để chứng minh tính hợp pháp của tài sản.
 
-#### 8) Bob checks and accepts the consignment
+#### 8) Bob kiểm tra và chấp nhận lô hàng
 
-Alice transmits this **terminal consignment** to Bob. Bob will then :
+Alice chuyển **hàng gửi cuối cùng** này cho Bob. Sau đó Bob sẽ:
 
 
-- Check the validity of the State Transition (ensure that the history is consistent, that contract rules are respected, etc.);
-- Add it to your local stash;
-- Possibly generate a signature (`sig:...`) on the consignment, to prove that it has been examined and approved (sometimes called a "*payslip*").
+- Kiểm tra tính hợp lệ của Chuyển đổi trạng thái (đảm bảo lịch sử nhất quán, các quy tắc hợp đồng được tôn trọng, v.v.);
+- Thêm nó vào kho dự trữ địa phương của bạn;
+- Có thể tạo chữ ký (`sig:...`) trên lô hàng để chứng minh rằng lô hàng đã được kiểm tra và chấp thuận (đôi khi được gọi là "*phiếu lương*").
 
 ```bash
 bob$ rgb accept consignment.rgb
@@ -2773,24 +2718,24 @@ sig:DbwzvSu4BZU81jEpE9FVZ3xjcyuTKWWy2gmdnaxtACrS
 
 ![RGB-Bitcoin](assets/fr/077.webp)
 
-#### 9) Option: Bob sends confirmation back to Alice (*payslip*)
+#### 9) Tùy chọn: Bob gửi xác nhận lại cho Alice (*phiếu lương*)
 
-If Bob wishes, he can send this signature back to Alice. This indicates:
-
-
-- That it recognizes the transition as valid;
-- That he agrees to the Bitcoin transaction being broadcast.
-
-This is not compulsory, but it can provide Alice with the assurance that there will be no subsequent disputes over the transfer.
-
-#### 10) Alice signs and publishes the transaction
-
-Alice can then :
+Nếu Bob muốn, anh ta có thể gửi chữ ký này trở lại cho Alice. Điều này cho biết:
 
 
-- Check Bob's signature (`rgb check <sig>`) ;
-- Sign the *witness transaction* which is still a PSBT (`wallet sign`) ;
-- Publish the witness transaction on the Bitcoin network (`-publish`).
+- Rằng nó công nhận sự chuyển đổi là hợp lệ;
+- Rằng anh ấy đồng ý cho phát sóng giao dịch Bitcoin.
+
+Điều này không bắt buộc, nhưng nó có thể giúp Alice đảm bảo rằng sẽ không có tranh chấp nào xảy ra sau này về việc chuyển nhượng.
+
+#### 10) Alice ký và công bố giao dịch
+
+Sau đó Alice có thể:
+
+
+- Kiểm tra chữ ký của Bob (`rgb check <sig>`);
+- Ký vào *giao dịch chứng kiến* vẫn là PSBT (`ký hiệu ví`);
+- Công bố giao dịch chứng kiến trên mạng Bitcoin (`-publish`).
 
 ```bash
 alice$ rgb check <sig>
@@ -2799,216 +2744,216 @@ alice$ wallet sign —publish tx.psbt
 
 ![RGB-Bitcoin](assets/fr/078.webp)
 
-Once confirmed, this transaction marks the conclusion of the transfer. Bob becomes the new owner of the asset: he now has an Owned State pointing to the UTXO he controls, proven by the presence of the commitment in the transaction.
+Sau khi xác nhận, giao dịch này đánh dấu kết thúc quá trình chuyển nhượng. Bob trở thành chủ sở hữu mới của tài sản: giờ đây anh ta có một Trạng thái sở hữu trỏ đến UTXO mà anh ta kiểm soát, được chứng minh bằng sự hiện diện của cam kết trong giao dịch.
 
-To summarize, here is the complete transfer process:
+Tóm lại, đây là toàn bộ quá trình chuyển giao:
 
 ![RGB-Bitcoin](assets/fr/079.webp)
 
-### Advantages of RGB transfers
+### Ưu điểm của chuyển đổi RGB
 
 
-- Confidentiality** :
+- Bảo mật** :
 
-Only Alice and Bob have access to all State Transition data. They exchange this information outside the blockchain, via consignments. The cryptographic commitments in the Bitcoin transaction do not reveal the type of asset or the amount, which guarantees far greater confidentiality than other on-chain token systems.
-
-
-- Customer-side validation** :
-
-Bob can check the consistency of the transfer by comparing the *consignment* with the *anchors* in the Bitcoin blockchain. He does not need third-party validation. Alice doesn't have to publish the full history on the blockchain, which reduces the load on the base protocol and improves confidentiality.
+Chỉ có Alice và Bob có quyền truy cập vào tất cả dữ liệu Chuyển đổi trạng thái. Họ trao đổi thông tin này bên ngoài blockchain, thông qua các lô hàng. Các cam kết mật mã trong giao dịch Bitcoin không tiết lộ loại tài sản hoặc số lượng, điều này đảm bảo tính bảo mật cao hơn nhiều so với các hệ thống mã thông báo trên chuỗi khác.
 
 
-- Simplified atomicity** :
+- Xác thực phía khách hàng**:
 
-Complex exchanges (atomic swaps between BTC and an RGB asset, for example) can be carried out within a single transaction, avoiding the need for HTLC or PTLC scripts. If the agreement is not broadcast, everyone can reuse their UTXOs in other ways.
-
-### Transfer summary diagram
-
-Before looking at the invoices in more detail, here's a summary diagram of the overall flow of an RGB transfer:
+Bob có thể kiểm tra tính nhất quán của giao dịch chuyển tiền bằng cách so sánh *giao dịch ký gửi* với *mỏ neo* trong chuỗi khối Bitcoin. Anh ấy không cần xác thực của bên thứ ba. Alice không phải công bố toàn bộ lịch sử trên chuỗi khối, điều này làm giảm tải cho giao thức cơ sở và cải thiện tính bảo mật.
 
 
-- Bob installs an RGB wallet and obtains the initial contract consignment;
-- Bob issues an invoice mentioning the UTXO where to receive the asset;
-- Alice receives the invoice, builds the PSBT and generates the terminal consignment;
-- Bob accepts it, checks, adds the data to his stash, and signs (*payslip*) if necessary;
-- Alice publishes the transaction on the Bitcoin network;
-- Confirmation of the transaction makes the transfer official.
+- Nguyên tử đơn giản hóa**:
+
+Các trao đổi phức tạp (ví dụ như hoán đổi nguyên tử giữa BTC và tài sản RGB) có thể được thực hiện trong một giao dịch duy nhất, tránh nhu cầu về các tập lệnh HTLC hoặc PTLC. Nếu thỏa thuận không được phát sóng, mọi người có thể sử dụng lại UTXO của họ theo những cách khác.
+
+### Biểu đồ tóm tắt chuyển giao
+
+Trước khi xem xét chi tiết các hóa đơn, đây là sơ đồ tóm tắt về luồng tổng thể của quá trình chuyển RGB:
+
+
+- Bob cài đặt ví RGB và nhận được hợp đồng ký gửi ban đầu;
+- Bob xuất hóa đơn ghi rõ UTXO nơi nhận tài sản;
+- Alice nhận hóa đơn, xây dựng PSBT và tạo lô hàng đầu cuối;
+- Bob chấp nhận, kiểm tra, thêm dữ liệu vào kho lưu trữ của mình và ký (*phiếu lương*) nếu cần thiết;
+- Alice công bố giao dịch trên mạng Bitcoin;
+- Việc xác nhận giao dịch sẽ chính thức chuyển nhượng.
 
 ![RGB-Bitcoin](assets/fr/080.webp)
 
-The transfer illustrates all the power and flexibility of the RGB protocol: a private exchange, validated on the client side, anchored minimally and discreetly on the Bitcoin blockchain, and retaining the best of the protocol's security (no risk of double-spending). This makes RGB a promising ecosystem for value transfers that are more confidential and scalable than on-chain programmable blockchains.
+Việc chuyển tiền minh họa cho tất cả sức mạnh và tính linh hoạt của giao thức RGB: một sàn giao dịch riêng tư, được xác thực ở phía máy khách, được neo tối thiểu và kín đáo trên blockchain Bitcoin, và vẫn giữ được tính bảo mật tốt nhất của giao thức (không có nguy cơ chi tiêu gấp đôi). Điều này khiến RGB trở thành một hệ sinh thái đầy hứa hẹn cho các giao dịch giá trị bảo mật và có khả năng mở rộng hơn so với các blockchain lập trình trên chuỗi.
 
-### Invoices RGB
+### Hóa đơn RGB
 
-In this section, we'll explain in detail how **invoices** work in the RGB ecosystem and how they enable operations (in particular transfers) to be carried out with a contract. First, we'll look at the identifiers used, then at how they are encoded, and finally at the structure of an invoice expressed as a URL (a format that's handy enough for use in wallets).
+Trong phần này, chúng tôi sẽ giải thích chi tiết cách **hóa đơn** hoạt động trong hệ sinh thái RGB và cách chúng cho phép các hoạt động (đặc biệt là chuyển khoản) được thực hiện bằng hợp đồng. Trước tiên, chúng ta sẽ xem xét các mã định danh được sử dụng, sau đó là cách chúng được mã hóa và cuối cùng là cấu trúc của hóa đơn được thể hiện dưới dạng URL (một định dạng đủ tiện dụng để sử dụng trong ví).
 
-#### Identifiers and encoding
+#### Mã định danh và mã hóa
 
-A unique identifier is defined for each of the following elements:
-
-
-- An RGB contract;
-- Its Schema (business logic) ;
-- Its Interface and Interface Implementation ;
-- Its assets (tokens, NFT, etc.),
-
-This uniqueness is very important, as each component of the system must be distinguishable. For example, a contract X must not be confused with another contract Y, and two different interfaces (RGB20 vs. RGB21, for example) must have distinct identifiers.
-
-To make these identifiers both efficient (small size) and readable, we use :
+Một mã định danh duy nhất được xác định cho mỗi phần tử sau:
 
 
-- Base58 encoding, which avoids the use of confusing characters (e.g. `0` and the letter `O`) and provides relatively short strings;
-- A prefix indicating the nature of the identifier, usually in the form of `rgb:` or a similar URN.
+- Hợp đồng RGB;
+- Sơ đồ của nó (logic kinh doanh);
+- Giao diện và triển khai giao diện của nó;
+- Tài sản của nó (mã thông báo, NFT, v.v.),
 
-For example, a `ContractId` could be represented by something like :
+Tính duy nhất này rất quan trọng vì mỗi thành phần của hệ thống phải có thể phân biệt được. Ví dụ, hợp đồng X không được nhầm lẫn với hợp đồng Y khác và hai giao diện khác nhau (ví dụ: RGB20 so với RGB21) phải có mã định danh riêng biệt.
+
+Để làm cho các mã định danh này vừa hiệu quả (kích thước nhỏ) vừa dễ đọc, chúng tôi sử dụng:
+
+
+- Mã hóa Base58, tránh sử dụng các ký tự gây nhầm lẫn (ví dụ: `0` và chữ `O`) và cung cấp các chuỗi tương đối ngắn;
+- Tiền tố biểu thị bản chất của mã định danh, thường ở dạng `rgb:` hoặc URN tương tự.
+
+Ví dụ, `ContractId` có thể được biểu diễn bằng nội dung như sau:
 
 ```txt
 rgb:2WBcas9-yjzEvGufY-9GEgnyMj7-beMNMWA8r-sPHtV1nPU-TMsGMQX
 ```
 
-The `rgb:` prefix confirms that this is an RGB identifier, and not an HTTP link or other protocol. Thanks to this prefix, wallets are able to interpret the string correctly.
+Tiền tố `rgb:` xác nhận rằng đây là mã định danh RGB chứ không phải liên kết HTTP hoặc giao thức khác. Nhờ tiền tố này, ví có thể diễn giải chuỗi chính xác.
 
-#### Identifier segmentation
+#### Phân đoạn định danh
 
-RGB identifiers are often quite long, as the underlying (cryptographic) security may require fields of 256 bits or more. To facilitate human reading and verification, we *chunk* these strings into several blocks separated by a hyphen (`-`). So, instead of having a long, uninterrupted string of characters, we divide it into shorter blocks. This practice is common for credit card or telephone numbers, and it also applies here for ease of verification. So, for example, a user or partner can be told: "*Please check that the third block is `9GEgnyMj7`*", rather than having to compare the whole thing at once. The last block is often used as a **checksum**, in order to have an error or typos detection system.
+Mã định danh RGB thường khá dài vì bảo mật (mật mã) cơ bản có thể yêu cầu các trường 256 bit trở lên. Để tạo điều kiện cho con người đọc và xác minh, chúng tôi *chunk* các chuỗi này thành nhiều khối được phân tách bằng dấu gạch nối (`-`). Vì vậy, thay vì có một chuỗi ký tự dài, không bị gián đoạn, chúng tôi chia nó thành các khối ngắn hơn. Thực hành này phổ biến đối với thẻ tín dụng hoặc số điện thoại và cũng áp dụng ở đây để dễ xác minh. Vì vậy, ví dụ, người dùng hoặc đối tác có thể được yêu cầu: "*Vui lòng kiểm tra xem khối thứ ba có phải là `9GEgnyMj7`* không", thay vì phải so sánh toàn bộ cùng một lúc. Khối cuối cùng thường được sử dụng làm **tổng kiểm** để có hệ thống phát hiện lỗi hoặc lỗi đánh máy.
 
-As an example, a `ContractId` in base58 encoded and segmented could be :
+Ví dụ, `ContractId` được mã hóa và phân đoạn theo chuẩn base58 có thể là:
 
 ```txt
 2WBcas9-yjzEvGufY-9GEgnyMj7-beMNMWA8r-sPHtV1nPU-TMsGMQX
 ```
 
-Each of the dashes breaks the string into sections. This does not affect the semantics of the code, only its presentation.
+Mỗi dấu gạch ngang chia chuỗi thành các phần. Điều này không ảnh hưởng đến ngữ nghĩa của mã, chỉ ảnh hưởng đến cách trình bày.
 
-#### Using URLs for invoices
+#### Sử dụng URL cho hóa đơn
 
-An RGB invoice is presented as a URL. This means that it can be clicked or scanned (as a QR code), and a wallet can directly interpret it to carry out a transaction. This simplicity of interaction differs from some other systems where you have to copy and paste various pieces of data into different fields in the software.
+Hóa đơn RGB được trình bày dưới dạng URL. Điều này có nghĩa là có thể nhấp hoặc quét (dưới dạng mã QR) và ví có thể trực tiếp diễn giải để thực hiện giao dịch. Sự đơn giản trong tương tác này khác với một số hệ thống khác, nơi bạn phải sao chép và dán nhiều phần dữ liệu khác nhau vào các trường khác nhau trong phần mềm.
 
-An invoice for a fungible token (e.g. an RGB20 token) might look like this:
+Hóa đơn cho một mã thông báo có thể thay thế (ví dụ: mã thông báo RGB20) có thể trông như thế này:
 
 ```txt
 rgb:2WBcas9-yjzEvGufY-9GEgnyMj7-beMNMWA8r-sPHtV1nPU-TMsGMQX/RGB20/100+utxob:egXsFnw-5Eud7WKYn-7DVQvcPbc-rR69YmgmG-veacwmUFo-uMFKFb
 ```
 
-Let's analyze this URL:
+Hãy cùng phân tích URL này:
 
 
-- `rgb:`** (prefix): indicates a link invoking the RGB protocol (analogous to `http:` or `bitcoin:` in other contexts);
-- `2WBcas9-yjzEvGufY-9GEgnyMj7-beMNMWA8r-sPHtV1nPU-TMsGMQX`**: represents the `ContractId` of the token you want to manipulate;
-- `/RGB20/100`**: indicates that the `RGB20` interface is used and that 100 units of the asset are requested. The syntax is: `/Interface/amount` ;
-- `+utxob:`**: specifies that information about the recipient UTXO (or, more precisely, the definition of the Single-use Seal) is added;
-- `egXsFnw-5Eud7WKYn-7DVQvcPbc-rR69YmgmG-veacwmUFo-uMFKFb`**: this is the *blinded* UTXO (or seal definition). In other words, Bob has masked his exact UTXO, so the sender (Alice) doesn't know what the exact address is. She only knows that there is a valid seal referring to a UTXO controlled by Bob.
+- `rgb:`** (tiền tố): biểu thị liên kết gọi giao thức RGB (tương tự như `http:` hoặc `bitcoin:` trong các ngữ cảnh khác);
+- `2WBcas9-yjzEvGufY-9GEgnyMj7-beMNMWA8r-sPHtV1nPU-TMsGMQX`**: biểu thị `ContractId` của mã thông báo mà bạn muốn thao tác;
+- `/RGB20/100`**: chỉ ra rằng giao diện `RGB20` được sử dụng và 100 đơn vị tài sản được yêu cầu. Cú pháp là: `/Interface/amount` ;
+- `+utxob:`**: chỉ định rằng thông tin về UTXO của người nhận (hay chính xác hơn là định nghĩa về Con dấu sử dụng một lần) được thêm vào;
+- `egXsFnw-5Eud7WKYn-7DVQvcPbc-rR69YmgmG-veacwmUFo-uMFKFb`**: đây là UTXO (hoặc định nghĩa niêm phong) *bị che giấu*. Nói cách khác, Bob đã che giấu UTXO chính xác của mình, vì vậy người gửi (Alice) không biết địa chỉ chính xác là gì. Cô ấy chỉ biết rằng có một niêm phong hợp lệ tham chiếu đến UTXO do Bob kiểm soát.
 
-The fact that everything fits into a single URL makes life easier for the user: a simple click or scan in the wallet, and the operation is ready to be executed.
+Thực tế là mọi thứ đều nằm trong một URL duy nhất giúp người dùng dễ dàng hơn: chỉ cần nhấp chuột hoặc quét vào ví là giao dịch đã sẵn sàng để thực hiện.
 
-One could imagine systems where a simple ticker (e.g. `USDT`) is used instead of the `ContractId`. However, this would raise major problems of trust and security: a ticker is not a unique reference (several contracts could claim to be called `USDT`). With RGB, we want a unique, unambiguous cryptographic identifier. Hence the adoption of the 256-bit string, encoded in base58 and segmented. The user knows that he is manipulating precisely the contract whose ID is `2WBcas9-yjz...` and not any other.
+Người ta có thể tưởng tượng ra các hệ thống mà một mã đơn giản (ví dụ: `USDT`) được sử dụng thay cho `ContractId`. Tuy nhiên, điều này sẽ gây ra các vấn đề lớn về lòng tin và bảo mật: mã không phải là một tham chiếu duy nhất (một số hợp đồng có thể tuyên bố được gọi là `USDT`). Với RGB, chúng ta muốn có một mã định danh mật mã duy nhất, rõ ràng. Do đó, việc áp dụng chuỗi 256 bit, được mã hóa theo cơ số 58 và được phân đoạn. Người dùng biết rằng mình đang thao tác chính xác hợp đồng có ID là `2WBcas9-yjz...` chứ không phải bất kỳ hợp đồng nào khác.
 
-#### Additional URL parameters
+#### Tham số URL bổ sung
 
-You can also add additional parameters to the URL, in the same way as with HTTP, such as :
+Bạn cũng có thể thêm các tham số bổ sung vào URL theo cách tương tự như với HTTP, chẳng hạn như:
 
 ```txt
 rgb:2WBcas9-yjzEvGufY-9GEgnyMj7-beMNMWA8r-sPHtV1nPU-TMsGMQX/RGB20/100+utxob:egXsFnw-5Eud7WKYn-7DVQvcPbc-rR69YmgmG-veacwmUFo-uMFKFb?sig=6kzbKKffP6xftkxn9UP8gWqiC41W16wYKE5CYaVhmEve
 ```
 
 
-- `?sig=...`: represents, for example, a signature associated with the invoice, which some wallets can verify;
-- If a wallet does not manage this signature, it simply ignores this parameter.
+- `?sig=...`: ví dụ, biểu thị chữ ký liên quan đến hóa đơn, một số ví có thể xác minh chữ ký này;
+- Nếu ví không quản lý chữ ký này, nó sẽ bỏ qua tham số này.
 
-Let's take the case of an NFT via the RGB21 interface. For example, we could have :
+Hãy lấy trường hợp của NFT thông qua giao diện RGB21. Ví dụ, chúng ta có thể có:
 
 ```txt
 rgb:7BKsac8-beMNMWA8r-3GEprtFh7-bjzEvGufY-aNLuU4nSN-MRsLOIK/RGB21/DbwzvSu-4BZU81jEp-E9FVZ3xj-cyuTKWWy-2gmdnaxt-ACrS+utxob:egXsFnw-5Eud7WKYn-7DVQvcPbc-rR69YmgmG-veacwmUFo-uMFKFb
 ```
 
-Here we see :
+Ở đây chúng ta thấy:
 
 
-- `rgb:`**: URL prefix ;
-- `7BKsac8-beMNMWA8r-3GEprtFh7-bjzEvGufY-aNLuU4nSN-MRsLOIK`**: Contract ID (NFT) ;
-- rGB21**: interface for non-fungible assets (NFT) ;
-- `DbwzvSu-4BZU81jEp-...`**: an explicit reference to the unique part of the NFT, for example a hash of the data blob (media, metadata...) ;
-- `+utxob:egXsFnw-...`**: the seal definition.
+- `rgb:`**: Tiền tố URL;
+- `7BKsac8-beMNMWA8r-3GEprtFh7-bjzEvGufY-aNLuU4nSN-MRsLOIK`**: Mã hợp đồng (NFT);
+- rGB21**: giao diện cho tài sản không thể thay thế (NFT);
+- `DbwzvSu-4BZU81jEp-...`**: tham chiếu rõ ràng đến phần duy nhất của NFT, ví dụ như hàm băm của blob dữ liệu (phương tiện, siêu dữ liệu...);
+- `+utxob:egXsFnw-...`**: định nghĩa con dấu.
 
-The idea is the same: transmit a unique link that the wallet can interpret, clearly identifying the unique asset to be transferred.
+Ý tưởng thì giống nhau: truyền một liên kết duy nhất mà ví có thể hiểu được, xác định rõ ràng tài sản duy nhất cần chuyển.
 
-#### Other operations via URL
+#### Các hoạt động khác thông qua URL
 
-RGB URLs aren't just used to request a transfer. They can also encode more advanced operations, such as issuing new tokens (*issuance*). For example:
+URL RGB không chỉ được sử dụng để yêu cầu chuyển giao. Chúng cũng có thể mã hóa các hoạt động nâng cao hơn, chẳng hạn như phát hành mã thông báo mới (*phát hành*). Ví dụ:
 
 ```txt
 rgb:2WBcas9-yjzEvGufY-9GEgnyMj7-beMNMWA8r-sPHtV1nPU-TMsGMQX/RGB20/issue/100000+utxob:egXsFnw-5Eud7WKYn-7DVQvcPbc-rR69YmgmG-veacwmUFo-uMFKFb
 ```
 
-Here we find :
+Ở đây chúng ta tìm thấy:
 
 
-- `rgb:` : protocol ;
-- `2WBcas9-...`: Contract ID ;
-- `/RGB20/issue/100000`: indicates that you want to invoke the "*Issue*" transition to create an additional 100,000 tokens;
-- `+utxob:`: the seal definition.
+- `rgb:` : giao thức ;
+- `2WBcas9-...`: ID hợp đồng;
+- `/RGB20/issue/100000`: cho biết bạn muốn gọi quá trình chuyển đổi "*Issue*" để tạo thêm 100.000 mã thông báo;
+- `+utxob:`: định nghĩa con dấu.
 
-For example, the wallet might read: "I have been asked to carry out an `issue` operation from the `RGB20` interface, on such and such a contract, for 100,000 units, for the benefit of such and such a Single-use Seal.*"
+Ví dụ, ví có thể ghi: "Tôi được yêu cầu thực hiện một hoạt động `phát hành` từ giao diện `RGB20`, theo hợp đồng này, cho 100.000 đơn vị, vì lợi ích của Con dấu dùng một lần này.*"
 
-Now that we've looked at the main elements of RGB programming, I'll take you through the next chapter on how to draw up an RGB contract.
+Bây giờ chúng ta đã xem xét các yếu tố chính của lập trình RGB, tôi sẽ hướng dẫn bạn chương tiếp theo về cách soạn thảo hợp đồng RGB.
 
-## Drafting smart contracts
+## Soạn thảo hợp đồng thông minh
 
 <chapterId>0e0a645c-0049-588d-8965-b8c536590cc9</chapterId>
 
 ![video](https://youtu.be/GRwS-NvWF3I)
 
-In this chapter, we'll take a step-by-step approach to writing a contract, using the command-line tool `rgb`. The aim is to show how to install and manipulate the CLI, compile a **Schema**, import the **Interface** and the **Interface Implementation**, then issue (*issue*) an asset. We'll also look at the underlying logic, including compilation and state validation. By the end of this chapter, you should be able to reproduce the process and create your own RGB contracts.
+Trong chương này, chúng ta sẽ thực hiện từng bước để viết hợp đồng, sử dụng công cụ dòng lệnh `rgb`. Mục đích là để chỉ cách cài đặt và thao tác CLI, biên dịch **Schema**, nhập **Interface** và **Interface Implementation**, sau đó phát hành (*issue*) một tài sản. Chúng ta cũng sẽ xem xét logic cơ bản, bao gồm biên dịch và xác thực trạng thái. Đến cuối chương này, bạn sẽ có thể tái tạo quy trình và tạo hợp đồng RGB của riêng mình.
 
-As a reminder, the internal logic of RGB is based on Rust libraries that you, as developers, can import into your projects to manage the Client-side Validation part. In addition, the LNP/BP Association team is working on bindings for other languages, but this has not yet been finalized. In addition, other entities such as Bitfinex are developing their own integration stacks (we'll talk about these in the last 2 chapters of the course). For the time being, therefore, the `rgb` CLI is the official reference, even if it remains relatively unpolished.
+Xin nhắc lại, logic nội bộ của RGB dựa trên các thư viện Rust mà bạn, với tư cách là nhà phát triển, có thể nhập vào các dự án của mình để quản lý phần Xác thực phía máy khách. Ngoài ra, nhóm Hiệp hội LNP/BP đang làm việc trên các ràng buộc cho các ngôn ngữ khác, nhưng điều này vẫn chưa được hoàn thiện. Ngoài ra, các thực thể khác như Bitfinex đang phát triển các ngăn xếp tích hợp của riêng họ (chúng ta sẽ nói về những điều này trong 2 chương cuối của khóa học). Do đó, hiện tại, CLI `rgb` là tài liệu tham khảo chính thức, ngay cả khi nó vẫn tương đối chưa được trau chuốt.
 
-### Installation and presentation of the rgb tool
+### Cài đặt và trình bày công cụ rgb
 
-The main command is simply called `rgb`. It is designed to be reminiscent of `git`, with a set of sub-commands for manipulating contracts, invoking them, issuing assets and so on. Bitcoin Wallet is not currently integrated, but will be in an imminent version (0.11). This next version will enable users to create and manage their wallets (via descriptors) directly from `rgb`, including PSBT generation, compatibility with external hardware (e.g. a hardware wallet) for signing, and interoperability with software such as Sparrow. This will simplify the entire asset issuance and transfer scenario.
+Lệnh chính chỉ đơn giản được gọi là `rgb`. Nó được thiết kế để gợi nhớ đến `git`, với một tập hợp các lệnh phụ để thao tác hợp đồng, gọi chúng, phát hành tài sản, v.v. Ví Bitcoin hiện chưa được tích hợp, nhưng sẽ có trong phiên bản sắp tới (0.11). Phiên bản tiếp theo này sẽ cho phép người dùng tạo và quản lý ví của họ (thông qua các mô tả) trực tiếp từ `rgb`, bao gồm tạo PSBT, khả năng tương thích với phần cứng bên ngoài (ví dụ: ví phần cứng) để ký và khả năng tương tác với phần mềm như Sparrow. Điều này sẽ đơn giản hóa toàn bộ kịch bản phát hành và chuyển giao tài sản.
 
-#### Installation via Cargo
+#### Cài đặt qua Cargo
 
-We install the tool in Rust with :
+Chúng tôi cài đặt công cụ trong Rust bằng:
 
 ```bash
 cargo install rgb-contracts --all-features
 ```
 
-(Note: the crate is called `rgb-contracts`, and the installed command will be named `rgb`. If a crate named `rgb` already existed, there could have been a collision, hence the name)
+(Lưu ý: crate được gọi là `rgb-contracts` và lệnh được cài đặt sẽ được đặt tên là `rgb`. Nếu một crate có tên `rgb` đã tồn tại, có thể đã xảy ra va chạm, do đó có tên như vậy)
 
-The installation compiles a large number of dependencies (e.g. command parsing, Electrum integration, zero-knowledge proofs management, etc.).
+Quá trình cài đặt biên dịch một số lượng lớn các phụ thuộc (ví dụ: phân tích lệnh, tích hợp Electrum, quản lý bằng chứng không kiến thức, v.v.).
 
-Once installation is complete, the :
+Sau khi cài đặt hoàn tất,:
 
 ```bash
 rgb
 ```
 
-Running `rgb` (without arguments) displays a list of available sub-commands, such as `interfaces`, `schema`, `import`, `export`, `issue`, `invoice`, `transfer`, etc. You can change the local storage directory (a stash that holds all logs, schematics and implementations), choose the network (testnet, mainnet) or configure your Electrum server.
+Chạy `rgb` (không có đối số) sẽ hiển thị danh sách các lệnh phụ có sẵn, chẳng hạn như `interfaces`, `schema`, `import`, `export`, `issue`, `invoice`, `transfer`, v.v. Bạn có thể thay đổi thư mục lưu trữ cục bộ (nơi lưu trữ tất cả nhật ký, sơ đồ và triển khai), chọn mạng (testnet, mainnet) hoặc cấu hình máy chủ Electrum của bạn.
 
 ![RGB-Bitcoin](assets/fr/081.webp)
 
-#### First overview of controls
+#### Tổng quan đầu tiên về các điều khiển
 
-When you run the following command, you'll see that an `RGB20` interface is already integrated by default:
+Khi bạn chạy lệnh sau, bạn sẽ thấy giao diện `RGB20` đã được tích hợp theo mặc định:
 
 ```bash
 rgb interfaces
 ```
 
-If this interface is not integrated, clone the :
+Nếu giao diện này không được tích hợp, hãy sao chép:
 
 ```bash
 git clone https://github.com/RGB-WG/rgb-interfaces
 ```
 
-Compile it:
+Biên dịch nó:
 
 ```bash
 cargo run
 ```
 
-Then import the interface of your choice:
+Sau đó nhập giao diện bạn chọn:
 
 ```bash
 rgb import interfaces/RGB20.rgb
@@ -3016,13 +2961,13 @@ rgb import interfaces/RGB20.rgb
 
 ![RGB-Bitcoin](assets/fr/082.webp)
 
-On the other hand, we are told that no schema has yet been imported into the software. Nor is there a contract in the stash. To see it, run the command :
+Mặt khác, chúng tôi được thông báo rằng chưa có lược đồ nào được nhập vào phần mềm. Cũng không có hợp đồng nào trong stash. Để xem, hãy chạy lệnh:
 
 ```bash
 rgb schemata
 ```
 
-You can then clone the repository to retrieve certain schematics:
+Sau đó, bạn có thể sao chép kho lưu trữ để lấy một số sơ đồ nhất định:
 
 ```bash
 git clone https://github.com/RGB-WG/rgb-schemata
@@ -3030,18 +2975,18 @@ git clone https://github.com/RGB-WG/rgb-schemata
 
 ![RGB-Bitcoin](assets/fr/083.webp)
 
-This repository contains, in its `src/` directory, several Rust files (for example `nia.rs`) which define schemas (NIA for "*Non Inflatable Asset*", UDA for "*Unique Digital Asset*", etc.). To compile, you can then run :
+Kho lưu trữ này chứa, trong thư mục `src/` của nó, một số tệp Rust (ví dụ `nia.rs`) định nghĩa các lược đồ (NIA cho "*Non Inflatable Asset*", UDA cho "*Unique Digital Asset*", v.v.). Để biên dịch, sau đó bạn có thể chạy:
 
 ```bash
 cd rgb-schemata
 cargo run
 ```
 
-This generates several `.rgb` and `.rgba` files corresponding to the compiled schematics. For example, you'll find `NonInflatableAsset.rgb`.
+Điều này tạo ra một số tệp `.rgb` và `.rgba` tương ứng với sơ đồ đã biên dịch. Ví dụ, bạn sẽ tìm thấy `NonInflatableAsset.rgb`.
 
-#### Importing Schema and Interface Implementation
+#### Nhập Sơ đồ và Triển khai Giao diện
 
-You can now import the schematic into `rgb` :
+Bây giờ bạn có thể nhập sơ đồ vào `rgb`:
 
 ```bash
 rgb import schemata/NonInflatableAssets.rgb
@@ -3049,31 +2994,31 @@ rgb import schemata/NonInflatableAssets.rgb
 
 ![RGB-Bitcoin](assets/fr/084.webp)
 
-This adds it to the local stash. If we run the following command, we see that the schema now appears:
+Điều này thêm nó vào stash cục bộ. Nếu chúng ta chạy lệnh sau, chúng ta thấy rằng sơ đồ hiện xuất hiện:
 
 ```bash
 rgb schemata
 ```
 
-### Contract creation (issuing)
+### Tạo hợp đồng (phát hành)
 
-There are two approaches to creating a new asset:
-
-
-- Either we use a script or code in Rust that builds a Contract by populating schema fields (global state, Owned States, etc.) and produces a `.rgb` or `.rgba` file;
-- Or use the `issue` sub-command directly, with a YAML (or TOML) file describing the token's properties.
-
-You can find examples in Rust in the `examples` folder, which illustrate how you build a `ContractBuilder`, fill in the `global state` (asset name, ticker, supply, date, etc.), define the Owned State (to which UTXO it is assigned), then compile all this into a *contract consignment* that you can export, validate and import into a stash.
-
-The other way is to manually edit a YAML file to customize the `ticker`, the `name`, the `supply`, and so on. Suppose the file is called `RGB20-demo.yaml`. You can specify :
+Có hai cách để tạo ra một tài sản mới:
 
 
-- `spec`: ticker, name, precision ;
-- `terms`: a field for legal notices ;
-- `issuedSupply` : the amount of token issued ;
-- `assignments`: indicates the Single-use Seal (*seal definition*) and the quantity unlocked.
+- Chúng ta có thể sử dụng một tập lệnh hoặc mã trong Rust để xây dựng Hợp đồng bằng cách điền vào các trường lược đồ (trạng thái toàn cục, Trạng thái sở hữu, v.v.) và tạo ra tệp `.rgb` hoặc `.rgba`;
+- Hoặc sử dụng trực tiếp lệnh phụ `issue`, với tệp YAML (hoặc TOML) mô tả thuộc tính của mã thông báo.
 
-Here is an example of a YAML file to create:
+Bạn có thể tìm thấy các ví dụ trong Rust trong thư mục `examples`, minh họa cách bạn xây dựng `ContractBuilder`, điền vào `global state` (tên tài sản, mã chứng khoán, nguồn cung, ngày, v.v.), xác định Owned State (UTXO được gán cho tài sản đó), sau đó biên dịch tất cả những thông tin này thành một *hợp đồng ký gửi* mà bạn có thể xuất, xác thực và nhập vào một kho lưu trữ.
+
+Cách khác là chỉnh sửa thủ công tệp YAML để tùy chỉnh `ticker`, `name`, `supply`, v.v. Giả sử tệp có tên là `RGB20-demo.yaml`. Bạn có thể chỉ định:
+
+
+- `spec`: mã hiệu, tên, độ chính xác;
+- `điều khoản`: một trường dành cho các thông báo pháp lý;
+- `issuedSupply`: số lượng mã thông báo được phát hành;
+- `assignments`: biểu thị Con dấu sử dụng một lần (*định nghĩa con dấu*) và số lượng đã mở khóa.
+
+Sau đây là ví dụ về tệp YAML cần tạo:
 
 ```yaml
 interface: RGB20Fixed
@@ -3096,7 +3041,7 @@ amount: 100000000 # this is 1 million (we have two digits for cents)
 
 ![RGB-Bitcoin](assets/fr/085.webp)
 
-Then simply run the command :
+Sau đó chỉ cần chạy lệnh:
 
 ```bash
 rgb issue '<SchemaID>' ssi:<Issuer> rgb20-demo.yaml
@@ -3104,19 +3049,19 @@ rgb issue '<SchemaID>' ssi:<Issuer> rgb20-demo.yaml
 
 ![RGB-Bitcoin](assets/fr/086.webp)
 
-In my case, the unique schema identifier (to be enclosed in single quotes) is `RDYhMTR!9gv8Y2GLv9UNBEK1hcrCmdLDFk9Qd5fnO8k` and I haven't put any issuer. So my order is :
+Trong trường hợp của tôi, định danh lược đồ duy nhất (được đặt trong dấu ngoặc đơn) là `RDYhMTR!9gv8Y2GLv9UNBEK1hcrCmdLDFk9Qd5fnO8k` và tôi chưa đặt bất kỳ đơn vị phát hành nào. Vì vậy, đơn hàng của tôi là:
 
 ```txt
 rgb issue 'RDYhMTR!9gv8Y2GLv9UNBEK1hcrCmdLDFk9Qd5fnO8k' ssi:anonymous rgb20-demo.yaml
 ```
 
-If you don't know the schema ID, run the command :
+Nếu bạn không biết ID lược đồ, hãy chạy lệnh:
 
 ```bash
 rgb schemata
 ```
 
-The CLI replies that a new contract has been issued and added to the stash. If we type the following command, we see that there is now an additional contract, corresponding to the one just issued:
+CLI trả lời rằng một hợp đồng mới đã được phát hành và thêm vào stash. Nếu chúng ta nhập lệnh sau, chúng ta thấy rằng bây giờ có một hợp đồng bổ sung, tương ứng với hợp đồng vừa được phát hành:
 
 ```bash
 rgb contracts
@@ -3124,7 +3069,7 @@ rgb contracts
 
 ![RGB-Bitcoin](assets/fr/087.webp)
 
-Then, the next command displays the global states (name, ticker, supply...) and the list of Owned States, i.e. allocations (for example, 1 million `PBN` tokens defined in UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
+Sau đó, lệnh tiếp theo sẽ hiển thị các trạng thái toàn cầu (tên, mã chứng khoán, nguồn cung...) và danh sách các Trạng thái sở hữu, tức là các phân bổ (ví dụ: 1 triệu mã thông báo `PBN` được xác định trong UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
 
 ```bash
 rgb state '<ContractId>'
@@ -3132,9 +3077,9 @@ rgb state '<ContractId>'
 
 ![RGB-Bitcoin](assets/fr/088.webp)
 
-### Export, import and validation
+### Xuất, nhập và xác thực
 
-To share this contract with other users, it can be exported from the stash to a :
+Để chia sẻ hợp đồng này với những người dùng khác, bạn có thể xuất hợp đồng từ kho lưu trữ sang:
 
 ```bash
 rgb export '<ContractId>' myContractPBN.rgb
@@ -3142,23 +3087,23 @@ rgb export '<ContractId>' myContractPBN.rgb
 
 ![RGB-Bitcoin](assets/fr/089.webp)
 
-The `myContractPBN.rgb` file can be passed on to another user, who can add it to his stash with the command :
+Tệp `myContractPBN.rgb` có thể được chuyển cho người dùng khác, người này có thể thêm tệp này vào kho lưu trữ của mình bằng lệnh:
 
 ```bash
 rgb import myContractPBN.rgb
 ```
 
-On import, if it's a simple *contract consignment*, we'll get an "`Importing consignment rgb`" message. If it's a larger *state transition consignment*, the command will be different (`rgb accept`).
+Khi nhập, nếu đó là *hợp đồng ký gửi* đơn giản, chúng ta sẽ nhận được thông báo "`Nhập ký gửi rgb`". Nếu đó là *chuyển tiếp trạng thái ký gửi* lớn hơn, lệnh sẽ khác (`rgb accept`).
 
-To ensure validity, you can also use the local validation function. For example, you could run :
+Để đảm bảo tính hợp lệ, bạn cũng có thể sử dụng hàm xác thực cục bộ. Ví dụ, bạn có thể chạy:
 
 ```bash
 rgb validate myContract.rgb
 ```
 
-#### Stash usage, verification and display
+#### Sử dụng, xác minh và hiển thị Stash
 
-As a reminder, the stash is a local inventory of schemas, interfaces, implementations and contracts (Genesis + transitions). Each time you run "import", you add an element to the stash. This stash can be viewed in detail with the command :
+Xin nhắc lại, stash là một kho lưu trữ cục bộ các lược đồ, giao diện, triển khai và hợp đồng (Genesis + transitions). Mỗi lần bạn chạy "import", bạn thêm một phần tử vào stash. Có thể xem stash này chi tiết bằng lệnh:
 
 ```bash
 rgb dump
@@ -3166,38 +3111,38 @@ rgb dump
 
 ![RGB-Bitcoin](assets/fr/090.webp)
 
-This will generate a folder with details of the entire stash.
+Thao tác này sẽ tạo ra một thư mục chứa thông tin chi tiết về toàn bộ kho lưu trữ.
 
-### Transfer and PSBT
+### Chuyển và PSBT
 
-To carry out a transfer, you'll need to manipulate a local Bitcoin wallet to manage the `Tapret` or `Opret` commitments.
+Để thực hiện giao dịch chuyển tiền, bạn sẽ cần phải thao tác với ví Bitcoin cục bộ để quản lý các cam kết `Tapret` hoặc `Opret`.
 
-#### Generate an invoice
+#### Tạo hóa đơn
 
-In most cases, interaction between the participants in a contract (e.g. Alice and Bob) takes place via the generation of an invoice. If Alice wants Bob to execute something (a token transfer, a reissue, an action in a DAO, etc.), Alice creates an invoice detailing her instructions to Bob. So we have :
+Trong hầu hết các trường hợp, tương tác giữa những người tham gia hợp đồng (ví dụ: Alice và Bob) diễn ra thông qua việc tạo hóa đơn. Nếu Alice muốn Bob thực hiện một việc gì đó (chuyển token, phát hành lại, hành động trong DAO, v.v.), Alice sẽ tạo hóa đơn nêu chi tiết hướng dẫn của cô ấy cho Bob. Vì vậy, chúng ta có:
 
 
-- Alice** (the issuer of the invoice) ;
-- Bob** (who receives and executes the invoice).
+- Alice** (người phát hành hóa đơn);
+- Bob** (người nhận và thực hiện hóa đơn).
 
-Unlike other ecosystems, an RGB invoice is not limited to the notion of payment. It can embed any request linked to the contract: revoke a key, vote, create an engraving (*engraving*) on an NFT, etc. The corresponding operation can be described in the contract interface. The corresponding operation can be described in the contract interface.
+Không giống như các hệ sinh thái khác, hóa đơn RGB không giới hạn ở khái niệm thanh toán. Nó có thể nhúng bất kỳ yêu cầu nào được liên kết với hợp đồng: thu hồi khóa, bỏ phiếu, tạo bản khắc (*khắc*) trên NFT, v.v. Hoạt động tương ứng có thể được mô tả trong giao diện hợp đồng. Hoạt động tương ứng có thể được mô tả trong giao diện hợp đồng.
 
-The following command generates an RGB invoice:
+Lệnh sau đây tạo ra hóa đơn RGB:
 
 ```bash
 $ rgb invoice $CONTRACT -i $INTERFACE $ACTION $STATE $SEAL
 ```
 
-With :
+Với :
 
 
-- `$CONTRACT`: Contract identifier (*ContractId*) ;
-- `$INTERFACE`: the interface to be used (e.g. `RGB20`) ;
-- `$ACTION`: the name of the operation specified in the interface (for a simple fungible token transfer, this could be "Transfer"). If the interface already provides a default action, you don't need to enter it again here;
-- `$STATE`: the status data to be transferred (for example, an amount of tokens if a fungible token is transferred);
-- `$SEAL`: the beneficiary's (Alice's) Single-use Seal, i.e. an explicit reference to an UTXO. Bob will use this info to build the witness transaction, and the corresponding output will then belong to Alice (in *blinded UTXO* or unencrypted form).
+- `$CONTRACT`: Mã định danh hợp đồng (*ContractId*);
+- `$INTERFACE`: giao diện sẽ được sử dụng (ví dụ: `RGB20`);
+- `$ACTION`: tên của hoạt động được chỉ định trong giao diện (đối với một chuyển giao token có thể thay thế đơn giản, có thể là "Chuyển"). Nếu giao diện đã cung cấp một hành động mặc định, bạn không cần phải nhập lại ở đây;
+- `$STATE`: dữ liệu trạng thái được chuyển (ví dụ: số lượng mã thông báo nếu mã thông báo có thể thay thế được chuyển);
+- `$SEAL`: Con dấu sử dụng một lần của người thụ hưởng (Alice), tức là một tham chiếu rõ ràng đến UTXO. Bob sẽ sử dụng thông tin này để xây dựng giao dịch chứng kiến và đầu ra tương ứng sau đó sẽ thuộc về Alice (ở dạng *UTXO ẩn* hoặc không được mã hóa).
 
-For example, with the following commands
+Ví dụ, với các lệnh sau
 
 ```bash
 alice$ CONTRACT='iZgIN9EL-2H21UgQ-x!A3uJc-WwXhCSm-$9Lwcc1-v!mUkKY'
@@ -3205,422 +3150,421 @@ alice$ MY_UTXO=4960acc21c175c551af84114541eace09c14d3a1bb184809f7b80916f57f9ef8:
 alice$ rgb invoice $CONTRACT -i RGB20 --amount 100 $MY_UTXO
 ```
 
-The CLI will generate an invoice like :
+CLI sẽ tạo ra hóa đơn như sau:
 
 ```bash
 rgb:iZgIN9EL-2H21UgQ-x!A3uJc-WwXhCSm-$9Lwcc1-v!mUkKY/RGB20/100+utxob:zlVS28Rb-...
 ```
 
-It can be transmitted to Bob via any channel (text, QR code, etc.).
+Nó có thể được truyền tới Bob qua bất kỳ kênh nào (văn bản, mã QR, v.v.).
 
-#### Making a transfer
+#### Thực hiện chuyển khoản
 
-To transfer from this invoice :
+Để chuyển từ hóa đơn này:
 
 
-- Bob (who holds the tokens in his stash) has a Bitcoin wallet. He needs to prepare a Bitcoin transaction (in the form of a PSBT, e.g. `tx.psbt`) which spends the UTXOs where the required RGB tokens are located, plus one UTXO for currency (exchange) ;
-- Bob executes the following command:
+- Bob (người giữ token trong kho của mình) có một ví Bitcoin. Anh ta cần chuẩn bị một giao dịch Bitcoin (dưới dạng PSBT, ví dụ: `tx.psbt`) để chi tiêu UTXO tại nơi có token RGB cần thiết, cộng với một UTXO để đổi tiền (trao đổi);
+- Bob thực hiện lệnh sau:
 
 ```bash
 bob$ rgb transfer tx.psbt $INVOICE consignment.rgb
 ```
 
 
-- This generates a `consignment.rgb` file which contains :
- - The transition history proving to Alice that the tokens are genuine;
- - The new transition that transfers tokens to Alice's Single-use Seal ;
- - A witness transaction (unsigned).
-- Bob sends this `consignment.rgb` file to Alice (by e-mail, a sharing server or an RGB-RPC protocol, Storm, etc.);
-- Alice receives `consignment.rgb` and accepts it in its own stash :
+- Điều này tạo ra một tệp `consignment.rgb` chứa:
+ - Lịch sử chuyển đổi chứng minh với Alice rằng các mã thông báo là chính hãng;
+ - Quá trình chuyển đổi mới chuyển mã thông báo sang Con dấu dùng một lần của Alice;
+ - Giao dịch có người chứng kiến (chưa ký).
+- Bob gửi tệp `consignment.rgb` này cho Alice (qua e-mail, máy chủ chia sẻ hoặc giao thức RGB-RPC, Storm, v.v.);
+- Alice nhận được `consignment.rgb` và chấp nhận nó trong kho lưu trữ riêng của nó:
 
 ```bash
 alice$ rgb accept consignment.rgb
 ```
 
 
-- The CLI checks the validity of the transition and adds it to Alice's stash. If invalid, the command fails with detailed error messages. Otherwise, it succeeds, and reports that the sample transaction has not yet been broadcast on the Bitcoin network (Bob is waiting for Alice's green light);
-- By way of confirmation, the `accept` command returns a signature (*payslip*) which Alice can send to Bob to show him that she has validated the *consignment* ;
-- Bob can then sign and publish (`--publish`) his Bitcoin transaction:
+- CLI kiểm tra tính hợp lệ của quá trình chuyển đổi và thêm nó vào kho lưu trữ của Alice. Nếu không hợp lệ, lệnh sẽ không thành công với thông báo lỗi chi tiết. Nếu không, lệnh sẽ thành công và báo cáo rằng giao dịch mẫu vẫn chưa được phát trên mạng Bitcoin (Bob đang chờ đèn xanh của Alice);
+- Để xác nhận, lệnh `accept` trả về một chữ ký (*phiếu lương*) mà Alice có thể gửi cho Bob để cho anh ta thấy rằng cô ấy đã xác thực *lệnh gửi*;
+- Sau đó, Bob có thể ký và công bố (`--publish`) giao dịch Bitcoin của mình:
 
 ```bash
 bob$ rgb check <sig> && wallet sign --publish tx.psbt
 ```
 
 
-- As soon as this transaction is confirmed on-chain, ownership of the asset is considered transferred to Alice. Alice's wallet, monitoring the transaction's mining, sees the new Owned State appear in its stash.
+- Ngay khi giao dịch này được xác nhận trên chuỗi, quyền sở hữu tài sản được coi là đã chuyển cho Alice. Ví của Alice, theo dõi quá trình khai thác của giao dịch, thấy Trạng thái sở hữu mới xuất hiện trong kho lưu trữ của nó.
 
-In the next chapter, we'll take a closer look at integrating RGB into the Lightning Network.
+Ở chương tiếp theo, chúng ta sẽ xem xét kỹ hơn cách tích hợp RGB vào Lightning Network.
 
-## RGB on the Lightning Network
+## RGB trên Mạng Lightning
 
 <chapterId>0962980a-8f94-5d0f-9cd0-43d7f884a01d</chapterId>
 
 ![video](https://youtu.be/mqCupTlDbA0)
 
-In this chapter, I propose to examine how RGB can be used within the Lightning Network, to integrate and move RGB assets (tokens, NFTs, etc.) via off-chain payment channels.
+Trong chương này, tôi đề xuất xem xét cách RGB có thể được sử dụng trong Lightning Network để tích hợp và di chuyển tài sản RGB (mã thông báo, NFT, v.v.) thông qua các kênh thanh toán ngoài chuỗi.
 
-The basic idea is that the RGB state transition (*State Transition*) can be committed to a Bitcoin transaction which, in turn, can remain off-chain until the Lightning channel is closed. So, each time the channel is updated, a new RGB state transition can be incorporated into the new committing transaction, which then invalidates the old transition. In this way, Lightning channels can be used to transfer RGB assets, and can be routed in the same way as conventional Lightning payments.
+Ý tưởng cơ bản là quá trình chuyển đổi trạng thái RGB (*Chuyển đổi trạng thái*) có thể được cam kết với một giao dịch Bitcoin, sau đó có thể vẫn nằm ngoài chuỗi cho đến khi kênh Lightning đóng lại. Vì vậy, mỗi lần kênh được cập nhật, một quá trình chuyển đổi trạng thái RGB mới có thể được kết hợp vào giao dịch cam kết mới, sau đó vô hiệu hóa quá trình chuyển đổi cũ. Theo cách này, các kênh Lightning có thể được sử dụng để chuyển tài sản RGB và có thể được định tuyến theo cùng một cách như các khoản thanh toán Lightning thông thường.
 
-### Channel creation and funding
+### Tạo kênh và tài trợ
 
-To create a Lightning channel that carries RGB assets, we need two elements:
+Để tạo kênh Lightning mang nội dung RGB, chúng ta cần hai thành phần:
 
 
-- Bitcoin funding to create the channel's 2/2 multisig (the basic UTXO for the channel);
-- RGB funding, which sends assets to the same multisig.
+- Tài trợ Bitcoin để tạo ra đa chữ ký 2/2 của kênh (UTXO cơ bản cho kênh);
+- Nguồn tài trợ RGB, gửi tài sản đến cùng một tổ chức đa chữ ký.
 
-In Bitcoin terms, the funding transaction must exist to define the reference UTXO, even if it only contains a small amount of sats (it's just a matter of each output in future commitment transactions remaining above the dust limit all the same). For example, Alice may decide to provide 10k sats and 500 USDT (issued as an RGB asset). On the funding transaction, we add a commitment (`Opret` or `Tapret`) which anchors the RGB state transition.
+Theo thuật ngữ Bitcoin, giao dịch tài trợ phải tồn tại để xác định UTXO tham chiếu, ngay cả khi nó chỉ chứa một lượng nhỏ sats (chỉ là vấn đề của mỗi đầu ra trong các giao dịch cam kết trong tương lai vẫn ở trên giới hạn bụi). Ví dụ, Alice có thể quyết định cung cấp 10k sats và 500 USDT (được phát hành dưới dạng tài sản RGB). Trong giao dịch tài trợ, chúng tôi thêm một cam kết (`Opret` hoặc `Tapret`) neo giữ quá trình chuyển đổi trạng thái RGB.
 
 ![RGB-Bitcoin](assets/fr/091.webp)
 
-Once the funding transaction has been prepared (but not yet broadcast), commitment transactions are created so that either party can close the channel unilaterally at any time. These transactions resemble Lightning's classic commitment transactions, except that we add an additional output containing the RGB anchor (OP_RETURN or Taproot) linked to the new state transition.
+Sau khi giao dịch tài trợ đã được chuẩn bị (nhưng chưa phát sóng), các giao dịch cam kết được tạo ra để bất kỳ bên nào cũng có thể đóng kênh một cách đơn phương bất kỳ lúc nào. Các giao dịch này giống với các giao dịch cam kết cổ điển của Lightning, ngoại trừ việc chúng tôi thêm một đầu ra bổ sung chứa neo RGB (OP_RETURN hoặc Taproot) được liên kết với quá trình chuyển đổi trạng thái mới.
 
-The RGB state transition then moves the assets from the 2/2 multisig of the funding to the outputs of the commitment transaction. The advantage of this process is that the security of the RGB state exactly matches Lightning's punitive mechanics: if Bob broadcasts an old channel state, Alice can punish him and spend the output, in order to recover both the sats and the RGB tokens. The incentive is therefore even stronger than in a Lightning channel without RGB assets, since an attacker can lose not only sats, but also the channel's RGB assets.
+Sau đó, quá trình chuyển đổi trạng thái RGB di chuyển tài sản từ 2/2 multisig của nguồn tài trợ đến đầu ra của giao dịch cam kết. Ưu điểm của quá trình này là tính bảo mật của trạng thái RGB khớp chính xác với cơ chế trừng phạt của Lightning: nếu Bob phát một trạng thái kênh cũ, Alice có thể trừng phạt anh ta và chi tiêu đầu ra, để khôi phục cả sats và mã thông báo RGB. Do đó, động cơ thậm chí còn mạnh hơn trong kênh Lightning không có tài sản RGB, vì kẻ tấn công có thể mất không chỉ sats mà còn cả tài sản RGB của kênh.
 
-A commitment transaction signed by Alice and sent to Bob would therefore look like this:
+Do đó, giao dịch cam kết do Alice ký và gửi cho Bob sẽ trông như thế này:
 
 ![RGB-Bitcoin](assets/fr/092.webp)
 
-And the accompanying commitment transaction, signed by Bob and sent to Alice, will look like this:
+Và giao dịch cam kết đi kèm, được Bob ký và gửi cho Alice, sẽ như thế này:
 
 ![RGB-Bitcoin](assets/fr/093.webp)
 
-### Channel update
+### Cập nhật kênh
 
-When a payment occurs between two channel participants (or they wish to change the asset allocation), they create a new pair of commitment transactions. The amount in sats on each output may or may not remain unchanged, depending on the implementation, as its main role is to enable the construction of valid UTXOs. On the other hand, the OP_RETURN (or Taproot) output must be modified to contain the new RGB anchor, representing the new distribution of assets in the channel.
+Khi thanh toán xảy ra giữa hai bên tham gia kênh (hoặc họ muốn thay đổi phân bổ tài sản), họ tạo một cặp giao dịch cam kết mới. Số lượng sats trên mỗi đầu ra có thể không thay đổi hoặc không, tùy thuộc vào cách triển khai, vì vai trò chính của nó là cho phép xây dựng UTXO hợp lệ. Mặt khác, đầu ra OP_RETURN (hoặc Taproot) phải được sửa đổi để chứa neo RGB mới, biểu thị phân phối tài sản mới trong kênh.
 
-For example, if Alice transfers 30 USDT to Bob in the channel, the new state transition will reflect a balance of 400 USDT for Alice and 100 USDT for Bob. The commit transaction is added to (or modified by) the OP_RETURN/Taproot anchor to include this transition. Note that, from RGB's point of view, the input to the transition remains the initial multisig (where on-chain assets are actually allocated until the channel closes). Only the RGB outputs (allocations) change, depending on the redistribution decided upon.
+Ví dụ, nếu Alice chuyển 30 USDT cho Bob trong kênh, quá trình chuyển đổi trạng thái mới sẽ phản ánh số dư là 400 USDT cho Alice và 100 USDT cho Bob. Giao dịch cam kết được thêm vào (hoặc sửa đổi bởi) neo OP_RETURN/Taproot để bao gồm quá trình chuyển đổi này. Lưu ý rằng, theo quan điểm của RGB, đầu vào cho quá trình chuyển đổi vẫn là đa chữ ký ban đầu (nơi các tài sản trên chuỗi thực sự được phân bổ cho đến khi kênh đóng). Chỉ có đầu ra RGB (phân bổ) thay đổi, tùy thuộc vào việc phân phối lại được quyết định.
 
-The commitment transaction signed by Alice, ready to be distributed by Bob :
+Giao dịch cam kết được Alice ký, sẵn sàng để Bob phân phối:
 
 ![RGB-Bitcoin](assets/fr/094.webp)
 
-The commitment transaction signed by Bob, ready to be distributed by Alice :
+Giao dịch cam kết được Bob ký, sẵn sàng để Alice phân phối:
 
 ![RGB-Bitcoin](assets/fr/095.webp)
 
-### HTLC management
+### Quản lý HTLC
 
-In reality, the Lightning Network enables payments to be routed via multiple channels, using HTLCs (*Hashed Time-Locked Contracts*). It's the same with RGB: for every payment in transit through the channel, an HTLC output is added to the committing transaction, and an RGB allocation linked to this HTLC. Thus, whoever spends the HTLC output (thanks to the secret or after expiry of the timelock) recovers both the sats and the associated RGB assets. On the other hand, you obviously need to have enough cash on the road in terms of both sats and RGB assets.
+Trên thực tế, Lightning Network cho phép thanh toán được định tuyến qua nhiều kênh, sử dụng HTLC (*Hợp đồng khóa thời gian băm*). RGB cũng vậy: đối với mọi khoản thanh toán đang chuyển qua kênh, một đầu ra HTLC được thêm vào giao dịch cam kết và một phân bổ RGB được liên kết với HTLC này. Do đó, bất kỳ ai chi tiêu đầu ra HTLC (nhờ bí mật hoặc sau khi hết thời gian khóa) đều thu hồi được cả sats và tài sản RGB liên quan. Mặt khác, rõ ràng là bạn cần phải có đủ tiền mặt trên đường về cả sats và tài sản RGB.
 
 ![RGB-Bitcoin](assets/fr/096.webp)
 
-The operation of RGB on Lightning must therefore be considered in parallel with that of the Lightning Network itself. If you'd like to delve deeper into this subject, I highly recommend you take a look at this other comprehensive training course:
+Do đó, hoạt động của RGB trên Lightning phải được xem xét song song với hoạt động của chính Lightning Network. Nếu bạn muốn tìm hiểu sâu hơn về chủ đề này, tôi thực sự khuyên bạn nên xem khóa đào tạo toàn diện khác này:
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+### Bản đồ mã RGB
 
-### RGB code map
-
-Finally, before moving on to the next section, I'd like to give you an overview of the code used in RGB. The protocol is based on a set of Rust libraries and open source specifications. Here's an overview of the main repositories and crates:
+Cuối cùng, trước khi chuyển sang phần tiếp theo, tôi muốn cung cấp cho bạn tổng quan về mã được sử dụng trong RGB. Giao thức này dựa trên một tập hợp các thư viện Rust và thông số kỹ thuật nguồn mở. Sau đây là tổng quan về các kho lưu trữ và thùng chính:
 
 ![RGB-Bitcoin](assets/fr/097.webp)
 
-#### Client-side Validation
+#### Xác thực phía máy khách
 
 
-- Repository**: [client_side_validation](https://github.com/LNP-BP/client_side_validation)
-- Crates** : [client_side_validation](https://crates.io/crates/client_side_validation), [single_use_seals](https://crates.io/crates/single_use_seals)
+- Kho lưu trữ**: [client_side_validation](https://github.com/LNP-BP/client_side_validation)
+- Thùng**: [client_side_validation](https://crates.io/crates/client_side_validation), [single_use_seals](https://crates.io/crates/single_use_seals)
 
-Management of off-chain validation and Single-use Seals logic.
+Quản lý xác thực ngoài chuỗi và logic Con dấu sử dụng một lần.
 
-#### Deterministic Bitcoin Commitments (DBC)
-
-
-- Repository**: [bp-core](https://github.com/BP-WG/bp-core)
-- Crate**: [bp-dbc](https://crates.io/crates/bp-dbc)
-
-Management of deterministic anchoring in Bitcoin transactions (Tapret, OP_RETURN, etc.).
-
-#### Multi Protocol Commitment (MPC)
+#### Cam kết Bitcoin xác định (DBC)
 
 
-- Repository**: [client_side_validation](https://github.com/LNP-BP/client_side_validation)
+- Kho lưu trữ**: [bp-core](https://github.com/BP-WG/bp-core)
+- Thùng**: [bp-dbc](https://crates.io/crates/bp-dbc)
+
+Quản lý neo xác định trong các giao dịch Bitcoin (Tapret, OP_RETURN, v.v.).
+
+#### Cam kết đa giao thức (MPC)
+
+
+- Kho lưu trữ**: [client_side_validation](https://github.com/LNP-BP/client_side_validation)
 - Crate** : [commit_verify](https://crates.io/crates/commit_verify)
 
-Multiple engagement combinations and integration with different protocols.
+Nhiều sự kết hợp tương tác và tích hợp với các giao thức khác nhau.
 
-#### Strict Types & Strict Encoding
-
-
-- Specifications**: [website strict-types.org](https://www.strict-types.org/)
-- Repositories**: [strict-types](https://github.com/strict-types/strict-types), [strict-encoding](https://github.com/strict-types/strict-encoding)
-- Crates** : [strict_types](https://crates.io/crates/strict_types), [strict_encoding](https://crates.io/crates/strict_encoding)
-
-The strict typing system and deterministic serialization used for client-side validation.
-
-#### RGB Core
+#### Các loại nghiêm ngặt & Mã hóa nghiêm ngặt
 
 
-- Repository**: [rgb-core](https://github.com/RGB-WG/rgb-core)
-- Crate**: [rgb-core](https://crates.io/crates/rgb-core)
+- Thông số kỹ thuật**: [trang web strict-types.org](https://www.strict-types.org/)
+- Kho lưu trữ**: [strict-types](https://github.com/strict-types/strict-types), [strict-encoding](https://github.com/strict-types/strict-encoding)
+- Thùng**: [strict_types](https://crates.io/crates/strict_types), [strict_encoding](https://crates.io/crates/strict_encoding)
 
-The core of the protocol, which encompasses the main logic of RGB validation.
+Hệ thống gõ nghiêm ngặt và tuần tự hóa xác định được sử dụng để xác thực phía máy khách.
 
-#### RGB Standard Library & Wallet
-
-
-- Repository**: [rgb-std](https://github.com/RGB-WG/rgb-std)
-- Crate** : [rgb-std](https://crates.io/crates/rgb-std)
-
-Standard implementations, stash and wallet management.
-
-#### RGB CLI
+#### Lõi RGB
 
 
-- Repository**: [rgb](https://github.com/RGB-WG/rgb)
-- Crates**: [rgb-cli](https://crates.io/crates/rgb-cli), [rgb-wallet](https://crates.io/crates/rgb-wallet)
+- Kho lưu trữ**: [rgb-core](https://github.com/RGB-WG/rgb-core)
+- Thùng**: [rgb-core](https://crates.io/crates/rgb-core)
 
-The `rgb` CLI and crate wallet, for command-line manipulation of contracts.
+Cốt lõi của giao thức bao gồm logic chính của xác thực RGB.
 
-#### RGB Schema
+#### Thư viện chuẩn RGB & Ví
 
 
-- Repository**: [rgb-schemata](https://github.com/RGB-WG/rgb-schemata/)
+- Kho lưu trữ**: [rgb-std](https://github.com/RGB-WG/rgb-std)
+- Thùng**: [rgb-std](https://crates.io/crates/rgb-std)
 
-Contains examples of schemas (NIA, UDA, etc.) and their implementations.
+Triển khai chuẩn, quản lý kho lưu trữ và ví.
+
+#### Giao diện dòng lệnh RGB
+
+
+- Kho lưu trữ**: [rgb](https://github.com/RGB-WG/rgb)
+- Thùng**: [rgb-cli](https://crates.io/crates/rgb-cli), [rgb-wallet](https://crates.io/crates/rgb-wallet)
+
+`rgb` CLI và ví crate để thao tác hợp đồng bằng dòng lệnh.
+
+#### Sơ đồ RGB
+
+
+- Kho lưu trữ**: [rgb-schemata](https://github.com/RGB-WG/rgb-schemata/)
+
+Bao gồm các ví dụ về lược đồ (NIA, UDA, v.v.) và cách triển khai của chúng.
 
 #### ALuVM
 
 
-- Info** : [aluvm.org](https://www.aluvm.org/)
-- Repositories**: [aluvm-spec](https://github.com/AluVM/aluvm-spec), [alure](https://github.com/AluVM/alure)
-- Crates**: [aluvm](https://crates.io/crates/aluvm), [aluasm](https://crates.io/crates/aluasm)
+- Thông tin**: [aluvm.org](https://www.aluvm.org/)
+- Kho lưu trữ**: [aluvm-spec](https://github.com/AluVM/aluvm-spec), [alure](https://github.com/AluVM/alure)
+- Thùng**: [aluvm](https://crates.io/crates/aluvm), [aluasm](https://crates.io/crates/aluasm)
 
-Registry-based virtual machine used to run validation scripts.
+Máy ảo dựa trên sổ đăng ký được sử dụng để chạy các tập lệnh xác thực.
 
-#### Bitcoin Protocol - BP
-
-
-- Repositories** : [bp-core](https://github.com/BP-WG/bp-core), [bp-std](https://github.com/BP-WG/bp-std), [bp-wallet](https://github.com/BP-WG/bp-wallet)
-
-Add-ons to support the Bitcoin protocol (transactions, bypasses, etc.).
-
-#### Ubiquitous Deterministic Computing - UBIDECO
+#### Giao thức Bitcoin - BP
 
 
-- Repository**: [UBIDECO](https://github.com/UBIDECO)
+- Kho lưu trữ**: [bp-core](https://github.com/BP-WG/bp-core), [bp-std](https://github.com/BP-WG/bp-std), [bp-wallet](https://github.com/BP-WG/bp-wallet)
 
-Ecosystem linked to open-source deterministic developments.
+Tiện ích bổ sung hỗ trợ giao thức Bitcoin (giao dịch, bỏ qua, v.v.).
 
-# Building on RGB
+#### Máy tính xác định phổ biến - UBIDECO
+
+
+- Kho lưu trữ**: [UBIDECO](https://github.com/UBIDECO)
+
+Hệ sinh thái liên kết với các phát triển mang tính quyết định nguồn mở.
+
+# Xây dựng trên RGB
 
 <partId>3b4b0d66-0c1b-505a-b5ca-4b2e57dd73c2</partId>
 
-## DIBA and the Bitmask project
+## DIBA và dự án Bitmask
 
 <chapterId>dc92a5e8-ed93-5a3f-bcd0-d433932842f4</chapterId>
 
 ![video](https://youtu.be/nbUtV8GOR_U)
 
-This final section of the course is based on presentations made by various speakers at the RGB bootcamp. It includes testimonials and reflections on RGB and its ecosystem, as well as presentations of tools and projects based on the protocol. This first chapter is moderated by Hunter Beast, and the next two by Frederico Tenga.
+Phần cuối cùng của khóa học này dựa trên các bài thuyết trình của nhiều diễn giả khác nhau tại trại huấn luyện RGB. Nó bao gồm các lời chứng thực và suy ngẫm về RGB và hệ sinh thái của nó, cũng như các bài thuyết trình về các công cụ và dự án dựa trên giao thức. Chương đầu tiên này được điều hành bởi Hunter Beast, và hai chương tiếp theo do Frederico Tenga điều hành.
 
-### From JavaScript to Rust, and into the Bitcoin ecosystem
+### Từ JavaScript đến Rust và vào hệ sinh thái Bitcoin
 
-At first, Hunter Beast worked mainly in JavaScript. Then he discovered **Rust**, whose syntax seemed unappealing and frustrating at first. However, he came to appreciate the power of the language, the control over memory (*heap* and *stack*), and the security and performance that come with it. He emphasizes that Rust is an excellent training ground for in-depth understanding of how a computer works.
+Lúc đầu, Hunter Beast chủ yếu làm việc với JavaScript. Sau đó, anh ấy phát hiện ra **Rust**, cú pháp của nó có vẻ không hấp dẫn và gây khó chịu lúc đầu. Tuy nhiên, anh ấy đã đánh giá cao sức mạnh của ngôn ngữ, khả năng kiểm soát bộ nhớ (*heap* và *stack*), cũng như tính bảo mật và hiệu suất đi kèm với nó. Anh ấy nhấn mạnh rằng Rust là một nền tảng đào tạo tuyệt vời để hiểu sâu hơn về cách máy tính hoạt động.
 
-Hunter Beast recounts his background in various projects in the *altcoin* ecosystem, such as Ethereum (with Solidity, TypeScript, etc.), and later Filecoin. He explains that he was initially impressed by some of the protocols, but ended up feeling disillusioned by most of them, not least because of their tokenomics. He denounces the dubious financial incentives, the inflationary creation of tokens that dilutes investors, and the potentially exploitative aspect of these projects. So he ended up adopting a **Bitcoin maximalist** stance, not least because some people opened his eyes to Bitcoin's sounder economic mechanisms, and to the robustness of this system.
+Hunter Beast kể lại lý lịch của mình trong nhiều dự án khác nhau trong hệ sinh thái *altcoin*, chẳng hạn như Ethereum (với Solidity, TypeScript, v.v.), và sau đó là Filecoin. Ông giải thích rằng ban đầu ông ấn tượng với một số giao thức, nhưng cuối cùng lại cảm thấy thất vọng với hầu hết chúng, một phần là do tokenomics của chúng. Ông lên án các động cơ tài chính đáng ngờ, việc tạo ra các token lạm phát làm loãng các nhà đầu tư và khía cạnh có khả năng khai thác của các dự án này. Vì vậy, cuối cùng ông đã áp dụng lập trường **Bitcoin tối đa**, một phần là do một số người đã mở mắt ông ra với các cơ chế kinh tế lành mạnh hơn của Bitcoin và sự mạnh mẽ của hệ thống này.
 
-### The appeal of RGB and building on layers
+### Sự hấp dẫn của RGB và xây dựng trên các lớp
 
-What definitively convinced him of Bitcoin's relevance, in his words, was the discovery of RGB and the concept of layers. He believes that existing functionalities on other blockchains could be reproduced on higher layers, above Bitcoin, without altering the basic protocol.
+Theo lời ông, điều chắc chắn thuyết phục ông về sự liên quan của Bitcoin là việc khám phá ra RGB và khái niệm về các lớp. Ông tin rằng các chức năng hiện có trên các blockchain khác có thể được tái tạo trên các lớp cao hơn, trên Bitcoin, mà không cần thay đổi giao thức cơ bản.
 
-In February 2022, he joined **DIBA** to work specifically on RGB, and in particular on the **Bitmask** wallet. At the time, Bitmask was still at version 0.01 and was running RGB at version 0.4, only for the management of single tokens. He notes that this was less self-custody-oriented than today, as the logic was partly server-based. Since then, the architecture has evolved towards this model, much appreciated by bitcoiners.
+Vào tháng 2 năm 2022, anh ấy đã tham gia **DIBA** để làm việc cụ thể về RGB, và đặc biệt là về ví **Bitmask**. Vào thời điểm đó, Bitmask vẫn đang ở phiên bản 0.01 và đang chạy RGB ở phiên bản 0.4, chỉ để quản lý các mã thông báo đơn lẻ. Anh ấy lưu ý rằng điều này ít hướng đến việc tự lưu ký hơn so với ngày nay, vì logic một phần dựa trên máy chủ. Kể từ đó, kiến trúc đã phát triển theo hướng mô hình này, được những người dùng bitcoin đánh giá cao.
 
-### The foundations of the RGB protocol
+### Nền tảng của giao thức RGB
 
-The **RGB** protocol is the most recent and most advanced embodiment of the _colored coins_ concept, already explored around 2012-2013. At the time, several teams were looking to associate different bitcoin value on UTXOs, which led to multiple scattered implementations. This lack of standardization and the low demand at the time prevented these solutions from gaining a lasting foothold.
+Giao thức **RGB** là hiện thân mới nhất và tiên tiến nhất của khái niệm _tiền xu màu_, đã được khám phá vào khoảng năm 2012-2013. Vào thời điểm đó, một số nhóm đang tìm cách liên kết các giá trị bitcoin khác nhau trên UTXO, dẫn đến nhiều triển khai rải rác. Việc thiếu chuẩn hóa này và nhu cầu thấp vào thời điểm đó đã ngăn cản các giải pháp này có được chỗ đứng lâu dài.
 
-Today, RGB stands out for its conceptual robustness and unified specifications via the LNP/BP association. The principle is based on client-side validation. The Bitcoin blockchain only stores cryptographic commitments (_commitments_, via Taproot or OP_RETURN), while the majority of data (contract definitions, transfer histories, etc.) is stored by the users concerned. In this way, the storage load is distributed and the confidentiality of exchanges is reinforced, without weighing down the blockchain. This approach enables the creation of fungible assets (**RGB20** standard) or unique assets (**RGB21** standard), within a modular and scalable framework.
+Ngày nay, RGB nổi bật với tính mạnh mẽ về mặt khái niệm và các thông số kỹ thuật thống nhất thông qua liên kết LNP/BP. Nguyên tắc này dựa trên xác thực phía máy khách. Chuỗi khối Bitcoin chỉ lưu trữ các cam kết mật mã (_cam kết_, thông qua Taproot hoặc OP_RETURN), trong khi phần lớn dữ liệu (định nghĩa hợp đồng, lịch sử chuyển nhượng, v.v.) được lưu trữ bởi người dùng liên quan. Theo cách này, tải lưu trữ được phân bổ và tính bảo mật của các giao dịch được tăng cường, mà không làm giảm khối lượng công việc. Cách tiếp cận này cho phép tạo ra các tài sản có thể thay thế (**chuẩn RGB20**) hoặc các tài sản duy nhất (**chuẩn RGB21**), trong một khuôn khổ có thể mở rộng và mô-đun.
 
-### The token function (RGB20) and unique assets (RGB21)
+### Chức năng mã thông báo (RGB20) và tài sản duy nhất (RGB21)
 
-With **RGB20**, we define a fungible token on Bitcoin. The issuer chooses a _supply_, a _precision_, and creates a _contract_ in which he can then make transfers. Each transfer is referenced to a Bitcoin UTXO, which acts as a *Single-use Seal*. This logic ensures that the user will not be able to spend the same asset twice, since only the person capable of spending the UTXO actually holds the key to update the state of the client-side contract.
+Với **RGB20**, chúng tôi định nghĩa một token có thể thay thế trên Bitcoin. Người phát hành chọn một _nguồn cung_, một _độ chính xác_ và tạo ra một _hợp đồng_ trong đó anh ta có thể thực hiện chuyển khoản. Mỗi lần chuyển khoản được tham chiếu đến một Bitcoin UTXO, hoạt động như một *Dấu niêm phong sử dụng một lần*. Logic này đảm bảo rằng người dùng sẽ không thể chi tiêu cùng một tài sản hai lần, vì chỉ người có khả năng chi tiêu UTXO mới thực sự nắm giữ khóa để cập nhật trạng thái của hợp đồng phía máy khách.
 
-**RGB21** targets unique assets (or "NFT"). The asset has a supply of 1, and can be associated with metadata (image file, audio, etc.) described via a specific field. Unlike NFTs on public blockchains, data and their MIME identifiers can remain private, distributed peer-to-peer at the owner's discretion.
+**RGB21** nhắm mục tiêu đến các tài sản duy nhất (hoặc "NFT"). Tài sản có nguồn cung là 1 và có thể được liên kết với siêu dữ liệu (tệp hình ảnh, âm thanh, v.v.) được mô tả thông qua một trường cụ thể. Không giống như NFT trên blockchain công khai, dữ liệu và mã định danh MIME của chúng có thể vẫn riêng tư, được phân phối ngang hàng theo quyết định của chủ sở hữu.
 
-### The Bitmask solution: a wallet for RGB
+### Giải pháp Bitmask: ví cho RGB
 
-To exploit RGB's capabilities in practice, the **DIBA** project has designed a wallet called [Bitmask](https://bitmask.app/). The idea is to provide a non-custodial, Taproot-based tool, accessible as a web application or browser extension. Bitmask manages both RGB20 and RGB21 assets, and integrates various security mechanisms:
-
-
-- The core code is written in Rust, then compiled in WebAssembly to run in a JavaScript environment (React);
-- Keys are generated locally, then stored encrypted locally ;
-- State data (stash) is held in memory, serialized and encrypted via the **Carbonado** library, which performs compression, error correction, encryption and stream verification using Blake3.
-
-Thanks to this architecture, all asset transactions take place on the client side. From the outside, the Bitcoin transaction is nothing more than a classic Taproot spending transaction, which nobody would suspect is also carrying a transfer of fungible tokens or NFTs. The absence of on-chain overloading (no publicly stored metadata) guarantees a certain degree of discretion and makes it easier to resist possible censorship attempts.
-
-### Security and distributed architecture
-
-Insofar as the RGB protocol requires each participant to retain its transaction history (to prove the validity of the transfers it receives), the question of storage arises. Bitmask proposes to serialize this stash locally, then send it to several servers or clouds (optional). The data remains encrypted by the user via **Carbonado**, so a server cannot read it. In the event of partial corruption, the error correction layer can reconstitute the content.
-
-The use of CRDT (_Conflict-free replicated data type_) enables different versions of the stash to be merged, should they diverge. Everyone is free to host this data wherever they wish, as no single full node carries all the information linked to the asset. This exactly reflects the *Client-side Validation* philosophy, where each owner is responsible for storing evidence of the validity of their RGB asset.
-
-### Towards a broader ecosystem: marketplace, interoperability and new functions
-
-The company behind Bitmask is not limiting itself to the simple development of a wallet. DIBA intends to develop :
+Để khai thác khả năng của RGB trong thực tế, dự án **DIBA** đã thiết kế một ví có tên là [Bitmask](https://bitmask.app/). Ý tưởng là cung cấp một công cụ không lưu ký, dựa trên Taproot, có thể truy cập dưới dạng ứng dụng web hoặc tiện ích mở rộng của trình duyệt. Bitmask quản lý cả tài sản RGB20 và RGB21 và tích hợp nhiều cơ chế bảo mật khác nhau:
 
 
-- A **marketplace** for exchanging tokens, particularly in **RGB21** form;
-- Compatibility with other wallets (such as *Iris Wallet*);
-- Transfer batching** techniques, i.e. the possibility of including several successive RGB transfers in a single transaction.
+- Mã cốt lõi được viết bằng Rust, sau đó được biên dịch trong WebAssembly để chạy trong môi trường JavaScript (React);
+- Khóa được tạo cục bộ, sau đó được lưu trữ dưới dạng mã hóa cục bộ;
+- Dữ liệu trạng thái (stash) được lưu trong bộ nhớ, được tuần tự hóa và mã hóa thông qua thư viện **Carbonado**, thực hiện nén, sửa lỗi, mã hóa và xác minh luồng bằng Blake3.
 
-At the same time, we're working on **WebBTC** or **WebLN** (standards enabling websites to ask the wallet to sign Bitcoin or Lightning transactions), as well as on the ability to "teleburn" Ordinals entries (if we want to repatriate Ordinals to a more discreet and flexible RGB format).
+Nhờ kiến trúc này, tất cả các giao dịch tài sản đều diễn ra ở phía máy khách. Nhìn từ bên ngoài, giao dịch Bitcoin không gì khác hơn là một giao dịch chi tiêu Taproot cổ điển, mà không ai ngờ rằng cũng mang theo một giao dịch chuyển nhượng token hoặc NFT. Việc không có quá tải trên chuỗi (không có siêu dữ liệu được lưu trữ công khai) đảm bảo một mức độ tùy ý nhất định và giúp chống lại các nỗ lực kiểm duyệt có thể xảy ra dễ dàng hơn.
 
-### Conclusion
+### Bảo mật và kiến trúc phân tán
 
-The whole process shows how the RGB ecosystem can be deployed and made accessible to end-users through robust technical solutions. The transition from an altcoin perspective to a more Bitcoin-centric vision, coupled with the discovery of *Client-side Validation*, illustrates a fairly logical path: we understand that it is possible to implement various functionalities (fungible tokens, NFT, smart contracts...) without forking the blockchain, simply by taking advantage of cryptographic commitments on Taproot transactions or OP_RETURNs.
+Trong chừng mực giao thức RGB yêu cầu mỗi người tham gia phải giữ lại lịch sử giao dịch của mình (để chứng minh tính hợp lệ của các giao dịch mà họ nhận được), thì vấn đề lưu trữ sẽ nảy sinh. Bitmask đề xuất tuần tự hóa kho lưu trữ này cục bộ, sau đó gửi đến một số máy chủ hoặc đám mây (tùy chọn). Dữ liệu vẫn được người dùng mã hóa thông qua **Carbonado**, do đó máy chủ không thể đọc được. Trong trường hợp bị hỏng một phần, lớp sửa lỗi có thể tái tạo nội dung.
 
-The **Bitmask** wallet is part of this approach: on the blockchain side, all you see is an ordinary Bitcoin transaction; on the user side, you manipulate a web interface where you create, exchange and store all kinds of off-chain assets. This model clearly dissociates the monetary infrastructure (Bitcoin) from the issuing and transfer logic (RGB), while ensuring a high level of confidentiality and better scalability.
+Việc sử dụng CRDT (_Kiểu dữ liệu sao chép không xung đột_) cho phép hợp nhất các phiên bản khác nhau của stash, nếu chúng khác nhau. Mọi người đều có thể tự do lưu trữ dữ liệu này ở bất kỳ đâu họ muốn, vì không có nút đầy đủ nào mang tất cả thông tin được liên kết với tài sản. Điều này phản ánh chính xác triết lý *Xác thực phía máy khách*, trong đó mỗi chủ sở hữu có trách nhiệm lưu trữ bằng chứng về tính hợp lệ của tài sản RGB của họ.
 
-## Bitfinex's work on RGB
+### Hướng tới một hệ sinh thái rộng lớn hơn: thị trường, khả năng tương tác và các chức năng mới
+
+Công ty đứng sau Bitmask không giới hạn mình chỉ phát triển ví đơn thuần. DIBA có ý định phát triển:
+
+
+- Một **thị trường** để trao đổi mã thông báo, đặc biệt là ở dạng **RGB21**;
+- Khả năng tương thích với các ví khác (như *Ví Iris*);
+- Kỹ thuật chuyển hàng loạt**, tức là khả năng bao gồm nhiều lần chuyển RGB liên tiếp trong một giao dịch duy nhất.
+
+Đồng thời, chúng tôi đang nghiên cứu **WebBTC** hoặc **WebLN** (các tiêu chuẩn cho phép các trang web yêu cầu ví ký các giao dịch Bitcoin hoặc Lightning), cũng như khả năng "teleburn" các mục Ordinals (nếu chúng tôi muốn hồi hương Ordinals sang định dạng RGB linh hoạt và kín đáo hơn).
+
+### Phần kết luận
+
+Toàn bộ quá trình cho thấy hệ sinh thái RGB có thể được triển khai và cung cấp cho người dùng cuối thông qua các giải pháp kỹ thuật mạnh mẽ như thế nào. Sự chuyển đổi từ góc nhìn altcoin sang tầm nhìn tập trung hơn vào Bitcoin, cùng với việc khám phá ra *Xác thực phía máy khách*, minh họa cho một con đường khá hợp lý: chúng tôi hiểu rằng có thể triển khai nhiều chức năng khác nhau (token có thể thay thế, NFT, hợp đồng thông minh...) mà không cần phân nhánh blockchain, chỉ cần tận dụng các cam kết mật mã trên các giao dịch Taproot hoặc OP_RETURN.
+
+Ví **Bitmask** là một phần của phương pháp này: về phía blockchain, tất cả những gì bạn thấy là một giao dịch Bitcoin thông thường; về phía người dùng, bạn thao tác một giao diện web nơi bạn tạo, trao đổi và lưu trữ mọi loại tài sản ngoài chuỗi. Mô hình này rõ ràng tách biệt cơ sở hạ tầng tiền tệ (Bitcoin) khỏi logic phát hành và chuyển giao (RGB), đồng thời đảm bảo mức độ bảo mật cao và khả năng mở rộng tốt hơn.
+
+## Công trình của Bitfinex trên RGB
 
 <chapterId>d4d80e07-5eac-5b29-a93a-123180e97047</chapterId>
 
 ![vidéo](https://youtu.be/5iAhsgCSL3U)
 
-In this chapter, based on a presentation by Frederico Tenga, we look at a set of tools and projects created by the Bitfinex team dedicated to RGB, with the aim of fostering the emergence of a rich and diverse ecosystem around this protocol. The team's initial aim is not to release a specific commercial product, but rather to provide software building blocks, contribute to the RGB protocol itself, and propose concrete implementation references such as a mobile wallet (*Iris Wallet*) or an RGB-compatible Lightning node.
+Trong chương này, dựa trên bài thuyết trình của Frederico Tenga, chúng ta sẽ xem xét một bộ công cụ và dự án do nhóm Bitfinex tạo ra dành riêng cho RGB, với mục đích thúc đẩy sự xuất hiện của một hệ sinh thái phong phú và đa dạng xung quanh giao thức này. Mục tiêu ban đầu của nhóm không phải là phát hành một sản phẩm thương mại cụ thể, mà là cung cấp các khối xây dựng phần mềm, đóng góp cho chính giao thức RGB và đề xuất các tham chiếu triển khai cụ thể như ví di động (*Iris Wallet*) hoặc nút Lightning tương thích với RGB.
 
-### Background and objectives
+### Bối cảnh và mục tiêu
 
-Since around 2022, the Bitfinex RGB team has been concentrating on developing the technology stack that enables RGB to be exploited and tested efficiently. Several contributions have been made:
-
-
-- Participation in source code and protocol specifications, including writing enhancement proposals, fixing bugs, etc;
-- Tools for developers to simplify the integration of RGB in their applications;
-- Design of a mobile wallet named [Iris](https://iriswallet.com/) to experiment and illustrate best practices for using RGB ;
-- Creation of a customized Lightning node, capable of managing channels with RGB assets;
-- Supporting other teams building solutions on RGB, to encourage diversity and a strong ecosystem.
-
-This approach aims to cover the entire chain of needs: from the low-level library (*[RGBlib](https://github.com/RGB-Tools/rgb-lib)*), enabling the implementation of a wallet, to the production aspect (a Lightning node, a wallet for Android, etc.).
-
-### The RGBlib library: simplifying the development of RGB applications
-
-An important point in democratizing the creation of RGB wallets and applications is to make available an abstraction simple enough so that developers don't have to learn everything about the protocol's internal logic. This is precisely the aim of **RGBlib**, written in Rust.
-
-RGBlib acts as a bridge between the highly flexible (but sometimes complex) requirements of RGB that we have been able to study in previous chapters, and the concrete needs of an application developer. In other words, a wallet (or service) wishing to manage token transfers, asset issuance, verification, etc., can rely on RGBlib without knowing every cryptographic detail or every customizable RGB parameter.
-
-The bookshop offers :
+Kể từ khoảng năm 2022, nhóm Bitfinex RGB đã tập trung vào việc phát triển công nghệ cho phép RGB được khai thác và thử nghiệm hiệu quả. Một số đóng góp đã được thực hiện:
 
 
-- Turnkey functions for issuing (_issuance_) assets (fungible or not);
-- The ability to transfer (send/receive) assets by manipulating simple objects (addresses, amounts, UTXOs, etc.);
-- A mechanism for storing and loading the status information (*consignments*) required for Client-side Validation.
+- Tham gia vào mã nguồn và thông số kỹ thuật giao thức, bao gồm viết đề xuất cải tiến, sửa lỗi, v.v.;
+- Công cụ dành cho nhà phát triển để đơn giản hóa việc tích hợp RGB vào ứng dụng của họ;
+- Thiết kế ví di động có tên [Iris](https://iriswallet.com/) để thử nghiệm và minh họa các phương pháp hay nhất khi sử dụng RGB;
+- Tạo một nút Lightning tùy chỉnh, có khả năng quản lý các kênh có nội dung RGB;
+- Hỗ trợ các nhóm khác xây dựng giải pháp trên RGB để khuyến khích sự đa dạng và hệ sinh thái mạnh mẽ.
 
-RGBlib therefore relies on complex notions specific to RGB (Client-side Validation, Tapret/Opret anchors), but encapsulates them so that the final application doesn't have to reprogram everything or make risky decisions. What's more, RGBlib is already binded in several languages (Kotlin and Python), opening the door to uses beyond a simple Rust universe.
+Phương pháp này nhằm mục đích đáp ứng toàn bộ chuỗi nhu cầu: từ thư viện cấp thấp (*[RGBlib](https://github.com/RGB-Tools/rgb-lib)*), cho phép triển khai ví, đến khía cạnh sản xuất (nút Lightning, ví cho Android, v.v.).
 
-### Iris Wallet: an example of an RGB wallet on Android
+### Thư viện RGBlib: đơn giản hóa việc phát triển các ứng dụng RGB
 
-To prove the effectiveness of RGBlib, the Bitfinex team has developed **Iris Wallet**, exclusively on Android at this stage. It's a mobile wallet that illustrates a user experience similar to that of an ordinary Bitcoin wallet: you can issue an asset, send it, receive it, and view its history, while remaining on a self-custody model.
+Một điểm quan trọng trong việc dân chủ hóa việc tạo ra ví RGB và các ứng dụng là tạo ra một sự trừu tượng đủ đơn giản để các nhà phát triển không phải học mọi thứ về logic bên trong của giao thức. Đây chính xác là mục đích của **RGBlib**, được viết bằng Rust.
 
-Iris has a number of interesting features:
+RGBlib đóng vai trò là cầu nối giữa các yêu cầu rất linh hoạt (nhưng đôi khi phức tạp) của RGB mà chúng ta đã có thể nghiên cứu trong các chương trước và các nhu cầu cụ thể của nhà phát triển ứng dụng. Nói cách khác, một ví (hoặc dịch vụ) muốn quản lý việc chuyển token, phát hành tài sản, xác minh, v.v., có thể dựa vào RGBlib mà không cần biết mọi chi tiết mật mã hoặc mọi tham số RGB có thể tùy chỉnh.
 
-**Using an Electrum server:**
-
-Like any wallet, Iris needs to know about transaction confirmations on the blockchain. Rather than embedding a complete node, Iris defaults to an Electrum server maintained by the Bitfinex team. Users can, however, configure their own server or another third-party service. In this way, Bitcoin transactions can be validated and information retrieved (indexing) in a modular way.
-
-**The RGB proxy server:**
-
-Unlike Bitcoin, RGB requires the exchange of off-chain metadata (*consignments*) between sender and receiver. To simplify this process, Iris offers a solution where communication takes place via a proxy server. The receiving wallet generates an *invoice* that mentions where the sender should send the *client-side* data. By default, the URL points to a proxy hosted by the Bitfinex team, but you can change this proxy (or host your own). The idea is to return to a familiar user experience where the recipient displays a QR code, and the sender scans this code for the transaction, without any complex additional manipulations.
-
-**Continuous backup:**
-
-In a strictly Bitcoin context, backing up your seed is generally sufficient (although these days we recommend backing up the seed and descriptors instead). With RGB, this isn't enough: you also need to keep the local history (the *consignments*) proving that you really do own an RGB asset. Each time you receive a receipt, the device stores new data, which is essential for subsequent spending. Iris automatically manages an encrypted backup in the user's Google Drive. This requires no special trust in Google, as the backup is encrypted, and more robust options (such as a personal server) are planned for the future to avoid any risk of censorship or deletion by a third-party operator.
-
-**Other features:**
+Hiệu sách cung cấp:
 
 
-- Create a faucet to quickly test or distribute tokens for experimentation or promotion;
-- A certification system (currently centralized) to distinguish a legitimate token from a fake one copying a famous ticker. In the future, this certification may become more decentralized (via DNS or other mechanisms).
+- Chức năng chìa khóa trao tay để phát hành (_phát hành_) tài sản (có thể thay thế hoặc không);
+- Khả năng chuyển giao (gửi/nhận) tài sản bằng cách thao tác các đối tượng đơn giản (địa chỉ, số tiền, UTXO, v.v.);
+- Một cơ chế lưu trữ và tải thông tin trạng thái (*hàng gửi*) cần thiết cho Xác thực phía Máy khách.
 
-All in all, Iris offers a user experience close to that of a classic Bitcoin wallet, masking the additional complexity (stash management, *consignment* history, etc.) thanks to RGBlib and the use of a proxy server.
+Do đó, RGBlib dựa vào các khái niệm phức tạp dành riêng cho RGB (Xác thực phía máy khách, các neo Tapret/Opret), nhưng đóng gói chúng để ứng dụng cuối cùng không phải lập trình lại mọi thứ hoặc đưa ra quyết định rủi ro. Hơn nữa, RGBlib đã được liên kết trong một số ngôn ngữ (Kotlin và Python), mở ra cánh cửa cho các ứng dụng vượt ra ngoài vũ trụ Rust đơn giản.
 
-### Proxy server and user experience
+### Ví Iris: một ví dụ về ví RGB trên Android
 
-The proxy server introduced above deserves to be detailed, as it is the key to a smooth user experience. Instead of the sender having to manually transmit the *consignments* to the recipient, the RGB transaction takes place in the background via a :
+Để chứng minh tính hiệu quả của RGBlib, nhóm Bitfinex đã phát triển **Iris Wallet**, độc quyền trên Android ở giai đoạn này. Đây là ví di động minh họa trải nghiệm người dùng tương tự như ví Bitcoin thông thường: bạn có thể phát hành tài sản, gửi, nhận và xem lịch sử của tài sản đó, trong khi vẫn duy trì mô hình tự lưu ký.
 
+Iris có một số đặc điểm thú vị:
 
-- The recipient generates an *invoice* (containing, among other things, the proxy address);
-- The sender sends (via an HTTP request) a transition project (the *consignment*) to the proxy ;
-- The recipient retrieves this project, executes the *client-side* validation locally;
-- The recipient then publishes, via the proxy, the acceptance (or possibly rejection) of the state transition ;
-- The sender can view the validation status and, if accepted, broadcast the Bitcoin transaction finalizing the transfer.
+**Sử dụng máy chủ Electrum:**
 
-In this way, the wallet behaves almost like a normal wallet. The user is unaware of all the intermediate steps. Admittedly, the current proxy is neither encrypted nor authenticated (which leaves concerns about confidentiality and integrity), but these improvements are possible in later versions. The proxy concept remains extremely useful for recreating the "I send a QR code, you scan to pay" experience.
+Giống như bất kỳ ví nào, Iris cần biết về xác nhận giao dịch trên blockchain. Thay vì nhúng một nút hoàn chỉnh, Iris mặc định là máy chủ Electrum do nhóm Bitfinex duy trì. Tuy nhiên, người dùng có thể cấu hình máy chủ của riêng họ hoặc dịch vụ của bên thứ ba khác. Theo cách này, các giao dịch Bitcoin có thể được xác thực và thông tin được truy xuất (lập chỉ mục) theo cách mô-đun.
 
-### RGB integration on the Lightning Network
+**Máy chủ proxy RGB:**
 
-Another key focus of the Bitfinex team's work is to make the Lightning Network compatible with RGB assets. The aim is to enable Lightning channels in USDT (or any other token), and to benefit from the same advantages as bitcoin on Lightning (near-instantaneous transactions, routing, etc.). In concrete terms, this involves creating a Lightning node modified to :
+Không giống như Bitcoin, RGB yêu cầu trao đổi siêu dữ liệu ngoài chuỗi (*giao dịch ký gửi*) giữa người gửi và người nhận. Để đơn giản hóa quy trình này, Iris cung cấp một giải pháp trong đó giao tiếp diễn ra thông qua máy chủ proxy. Ví nhận tạo ra một *hóa đơn* đề cập đến nơi người gửi nên gửi dữ liệu *phía máy khách*. Theo mặc định, URL trỏ đến proxy do nhóm Bitfinex lưu trữ, nhưng bạn có thể thay đổi proxy này (hoặc lưu trữ proxy của riêng bạn). Ý tưởng là quay lại trải nghiệm người dùng quen thuộc, trong đó người nhận hiển thị mã QR và người gửi quét mã này để thực hiện giao dịch mà không cần bất kỳ thao tác bổ sung phức tạp nào.
 
+**Sao lưu liên tục:**
 
-- Open a channel by placing not only satoshis, but also one or more RGB assets in the funding UTXO multisig ;
-- Generate Lightning commitment transactions (Bitcoin side) accompanied by corresponding RGB state transitions. Each time the channel is updated, an RGB transition redefines the asset distribution in the Lightning outputs;
-- Enable unilateral closure, where the asset is retrieved in an exclusive UTXO, in compliance with Lightning Network rules (HTLC, timelock, punishment, etc.).
+Trong bối cảnh Bitcoin nghiêm ngặt, việc sao lưu hạt giống của bạn thường là đủ (mặc dù hiện nay chúng tôi khuyên bạn nên sao lưu hạt giống và các mô tả thay thế). Với RGB, điều này là không đủ: bạn cũng cần lưu giữ lịch sử cục bộ (các *lô hàng*) để chứng minh rằng bạn thực sự sở hữu một tài sản RGB. Mỗi lần bạn nhận được biên lai, thiết bị sẽ lưu trữ dữ liệu mới, dữ liệu này rất cần thiết cho việc chi tiêu sau này. Iris tự động quản lý bản sao lưu được mã hóa trong Google Drive của người dùng. Điều này không yêu cầu sự tin tưởng đặc biệt nào vào Google, vì bản sao lưu được mã hóa và các tùy chọn mạnh mẽ hơn (như máy chủ cá nhân) được lên kế hoạch cho tương lai để tránh mọi rủi ro kiểm duyệt hoặc xóa bởi bên thứ ba.
 
-This solution, dubbed "**RGB Lightning Node**", uses LDK (*Lightning Dev Kit*) as a base, and adds the mechanisms needed to inject RGB tokens into the channels. Lightning commitments retain the classic structure (puncturable outputs, timelock...), and in addition anchor an RGB state transition (via `Opret` or `Tapret`). For the user, this opens the way to Lightning channels in stablecoins or in any other asset emitted via RGB.
-
-### DEX potential and impact on Bitcoin
-
-Once several assets are managed via Lightning, it becomes possible to imagine an **atomic exchange** on a single Lightning routing path, using the same logic of secrets and timelocks. For example, user A holds bitcoin on one Lightning channel, and user B holds USDT RGB on another Lightning channel. They can build a path linking their two channels and simultaneously exchange BTC for USDT, without the need for trust. This is nothing more than an **atomic swap** taking place in several hops, making outside participants almost oblivious to the fact that they are making a trade, not just a routing. This approach offers :
+**Các tính năng khác:**
 
 
-- Very low latency, as everything remains off-chain on Lightning.
-- A superior **privacy**: nobody knows it's a trade, and not a normal routing ;
-- Avoiding frontrunning, a recurring problem for on-chain DEX ;
-- Reduced costs (you don't pay blockspace, just Lightning routing fees).
+- Tạo một vòi để nhanh chóng kiểm tra hoặc phân phối mã thông báo để thử nghiệm hoặc quảng bá;
+- Một hệ thống chứng nhận (hiện đang tập trung) để phân biệt một mã thông báo hợp lệ với một mã thông báo giả mạo sao chép một mã thông báo nổi tiếng. Trong tương lai, chứng nhận này có thể trở nên phi tập trung hơn (thông qua DNS hoặc các cơ chế khác).
 
-We can then imagine an ecosystem where Lightning nodes offer swap prices (by providing liquidity). Each node, if it wishes, can play the role of _market maker_, buying and selling various assets on Lightning. This prospect of a _layer-2_ DEX reinforces the idea that it is not necessary to fork or use third-party blockchains to obtain decentralized asset exchanges.
+Nhìn chung, Iris cung cấp trải nghiệm người dùng gần giống với ví Bitcoin cổ điển, ẩn đi sự phức tạp bổ sung (quản lý kho, lịch sử *ký gửi*, v.v.) nhờ RGBlib và việc sử dụng máy chủ proxy.
 
-The impact on Bitcoin could be positive: Lightning's infrastructure (nodes, channels and services) would be more fully utilized thanks to the volumes generated by these *stablecoins*, derivatives and other tokens. Merchants interested in USDT payments on Lightning would mechanically discover BTC payments on Lightning (managed by the same stack). The maintenance and financing of the Lightning Network infrastructure could also benefit from the multiplication of these non-BTC flows, which would indirectly benefit Bitcoin users.
+### Máy chủ proxy và trải nghiệm của người dùng
 
-### Conclusion and resources
-
-The Bitfinex team dedicated to RGB illustrates, through its work, the diversity of what can be done on top of the protocol. On the one hand, there's RGBlib, a library that facilitates the design of wallets and applications. On the other, we have Iris Wallet, a practical demonstration on Android of a neat end-user interface. Finally, the integration of RGB with Lightning shows that stablecoin channels are possible, and opens the way to a potential decentralized DEX on Lightning.
-
-This approach remains largely experimental and continues to evolve: the RGBlib library is being refined as we go along, Iris Wallet is receiving regular enhancements, and the dedicated Lightning node is not yet a mainstream Lightning client.
-
-For those who wish to learn more or contribute, several resources are available, including :
+Máy chủ proxy được giới thiệu ở trên xứng đáng được trình bày chi tiết, vì nó là chìa khóa cho trải nghiệm người dùng mượt mà. Thay vì người gửi phải truyền thủ công *hàng gửi* cho người nhận, giao dịch RGB diễn ra ở chế độ nền thông qua:
 
 
-- [GitHub RGB Tools repositories](https://github.com/RGB-Tools);
-- [An information site dedicated to Iris Wallet](https://iriswallet.com/) to test the wallet on Android.
+- Người nhận tạo một *hóa đơn* (có chứa nhiều thông tin, trong đó có địa chỉ proxy);
+- Người gửi gửi (thông qua yêu cầu HTTP) một dự án chuyển tiếp (*lệnh gửi*) đến proxy;
+- Người nhận lấy dự án này, thực hiện xác thực *phía máy khách* cục bộ;
+- Sau đó, người nhận sẽ công bố, thông qua proxy, việc chấp nhận (hoặc có thể là từ chối) quá trình chuyển đổi trạng thái;
+- Người gửi có thể xem trạng thái xác thực và nếu được chấp nhận, có thể phát giao dịch Bitcoin để hoàn tất việc chuyển tiền.
 
-In the next chapter, we'll take a closer look at how to launch an RGB Lightning node.
+Theo cách này, ví hoạt động gần giống như một ví thông thường. Người dùng không biết tất cả các bước trung gian. Phải thừa nhận rằng, proxy hiện tại không được mã hóa hoặc xác thực (điều này gây ra mối lo ngại về tính bảo mật và tính toàn vẹn), nhưng những cải tiến này có thể thực hiện được trong các phiên bản sau. Khái niệm proxy vẫn cực kỳ hữu ích để tái tạo trải nghiệm "Tôi gửi mã QR, bạn quét để thanh toán".
 
-## RLN - RGB Lightning Node
+### Tích hợp RGB trên Mạng Lightning
+
+Một trọng tâm chính khác trong công việc của nhóm Bitfinex là làm cho Lightning Network tương thích với các tài sản RGB. Mục đích là cho phép các kênh Lightning trong USDT (hoặc bất kỳ mã thông báo nào khác) và hưởng lợi từ những lợi thế tương tự như bitcoin trên Lightning (giao dịch gần như tức thời, định tuyến, v.v.). Cụ thể, điều này liên quan đến việc tạo ra một nút Lightning được sửa đổi thành:
+
+
+- Mở một kênh bằng cách đặt không chỉ satoshi mà còn một hoặc nhiều tài sản RGB vào UTXO đa chữ ký tài trợ;
+- Tạo giao dịch cam kết Lightning (phía Bitcoin) kèm theo các chuyển đổi trạng thái RGB tương ứng. Mỗi lần kênh được cập nhật, một chuyển đổi RGB sẽ xác định lại phân phối tài sản trong đầu ra Lightning;
+- Cho phép đóng đơn phương, trong đó tài sản được truy xuất trong UTXO độc quyền, tuân thủ các quy tắc của Lightning Network (HTLC, khóa thời gian, hình phạt, v.v.).
+
+Giải pháp này, được gọi là "**RGB Lightning Node**", sử dụng LDK (*Lightning Dev Kit*) làm cơ sở và thêm các cơ chế cần thiết để đưa token RGB vào các kênh. Các cam kết Lightning vẫn giữ nguyên cấu trúc cổ điển (đầu ra có thể chấm điểm, khóa thời gian...), và ngoài ra còn neo chuyển đổi trạng thái RGB (thông qua `Opret` hoặc `Tapret`). Đối với người dùng, điều này mở đường cho các kênh Lightning trong stablecoin hoặc bất kỳ tài sản nào khác được phát ra thông qua RGB.
+
+### Tiềm năng và tác động của DEX lên Bitcoin
+
+Khi một số tài sản được quản lý thông qua Lightning, có thể hình dung ra một **trao đổi nguyên tử** trên một đường dẫn định tuyến Lightning duy nhất, sử dụng cùng một logic về bí mật và khóa thời gian. Ví dụ, người dùng A giữ bitcoin trên một kênh Lightning và người dùng B giữ USDT RGB trên một kênh Lightning khác. Họ có thể xây dựng một đường dẫn liên kết hai kênh của họ và đồng thời trao đổi BTC lấy USDT mà không cần phải tin tưởng. Đây không gì khác hơn là một **hoán đổi nguyên tử** diễn ra trong một số bước nhảy, khiến những người tham gia bên ngoài gần như không biết rằng họ đang thực hiện một giao dịch, không chỉ là một định tuyến. Cách tiếp cận này cung cấp:
+
+
+- Độ trễ rất thấp vì mọi thứ đều nằm ngoài chuỗi trên Lightning.
+- **Quyền riêng tư** cao hơn: không ai biết đó là giao dịch chứ không phải là tuyến đường bình thường;
+- Tránh chạy trước, một vấn đề thường gặp đối với DEX trên chuỗi;
+- Giảm chi phí (bạn không phải trả phí blockspace, chỉ phải trả phí định tuyến Lightning).
+
+Sau đó, chúng ta có thể hình dung một hệ sinh thái nơi các nút Lightning cung cấp giá hoán đổi (bằng cách cung cấp thanh khoản). Mỗi nút, nếu muốn, có thể đóng vai trò là _nhà tạo lập thị trường_, mua và bán nhiều loại tài sản khác nhau trên Lightning. Triển vọng về _lớp-2_ DEX này củng cố ý tưởng rằng không cần phải phân nhánh hoặc sử dụng blockchain của bên thứ ba để có được các sàn giao dịch tài sản phi tập trung.
+
+Tác động lên Bitcoin có thể là tích cực: Cơ sở hạ tầng của Lightning (các nút, kênh và dịch vụ) sẽ được sử dụng đầy đủ hơn nhờ vào khối lượng được tạo ra bởi các *stablecoin*, các sản phẩm phái sinh và các token khác. Các thương gia quan tâm đến thanh toán bằng USDT trên Lightning sẽ tự động khám phá ra các khoản thanh toán bằng BTC trên Lightning (do cùng một ngăn xếp quản lý). Việc bảo trì và tài trợ cho cơ sở hạ tầng của Lightning Network cũng có thể được hưởng lợi từ việc nhân lên các luồng không phải BTC này, điều này sẽ gián tiếp mang lại lợi ích cho người dùng Bitcoin.
+
+### Kết luận và tài nguyên
+
+Nhóm Bitfinex dành riêng cho RGB minh họa, thông qua công việc của mình, sự đa dạng của những gì có thể được thực hiện trên giao thức. Một mặt, có RGBlib, một thư viện tạo điều kiện thuận lợi cho việc thiết kế ví và ứng dụng. Mặt khác, chúng ta có Iris Wallet, một bản trình diễn thực tế trên Android về giao diện người dùng cuối gọn gàng. Cuối cùng, việc tích hợp RGB với Lightning cho thấy các kênh stablecoin là khả thi và mở đường cho một DEX phi tập trung tiềm năng trên Lightning.
+
+Cách tiếp cận này phần lớn vẫn đang trong giai đoạn thử nghiệm và tiếp tục phát triển: thư viện RGBlib đang được cải tiến trong quá trình thực hiện, Iris Wallet đang nhận được những cải tiến thường xuyên và nút Lightning chuyên dụng vẫn chưa phải là máy khách Lightning chính thống.
+
+Đối với những người muốn tìm hiểu thêm hoặc đóng góp, có một số tài nguyên có sẵn, bao gồm:
+
+
+- [Kho lưu trữ Công cụ RGB của GitHub](https://github.com/RGB-Tools);
+- [Trang thông tin dành riêng cho Iris Wallet](https://iriswallet.com/) để thử nghiệm ví trên Android.
+
+Ở chương tiếp theo, chúng ta sẽ xem xét kỹ hơn cách khởi chạy một nút RGB Lightning.
+
+## RLN - Nút RGB Lightning
 
 <chapterId>ecaabe32-20ba-5f8c-8ca1-a3f095792958</chapterId>
 
 ![vidéo](https://youtu.be/piQQH4Q2nr0)
 
-In this final chapter, Frederico Tenga takes you step-by-step through setting up a Lightning RGB node on a Regtest environment, and shows you how to create RGB tokens on it. By launching two separate nodes, you'll also discover how to open a Lightning channel between them and exchange RGB assets.
+Trong chương cuối cùng này, Frederico Tenga sẽ hướng dẫn bạn từng bước thiết lập một nút Lightning RGB trên môi trường Regtest và chỉ cho bạn cách tạo mã thông báo RGB trên đó. Bằng cách khởi chạy hai nút riêng biệt, bạn cũng sẽ khám phá cách mở kênh Lightning giữa chúng và trao đổi tài sản RGB.
 
-This video serves as a tutorial, similar to what we covered in a previous chapter, but specifically focused on Lightning this time!
+Video này đóng vai trò như một bài hướng dẫn, tương tự như nội dung chúng tôi đã đề cập trong chương trước, nhưng lần này tập trung cụ thể vào Lightning!
 
-The main resource for this video is the Github repository [RGB Lightning Node](https://github.com/RGB-Tools/rgb-lightning-node), which makes it easy for you to launch this configuration in Regtest.
+Tài nguyên chính cho video này là kho lưu trữ Github [RGB Lightning Node](https://github.com/RGB-Tools/rgb-lightning-node), giúp bạn dễ dàng khởi chạy cấu hình này trong Regtest.
 
-### Deploying an RGB-compatible Lightning node
+### Triển khai một nút Lightning tương thích với RGB
 
-The process takes up and puts into practice all the concepts covered in the previous chapters:
-
-
-- The idea that **UTXO** blocked on a 2/2 multisig of a Lightning channel can receive not only bitcoins, but also be a Single-use Seal of RGB assets (fungible or not) ;
-- The addition, in each Lightning engagement transaction, of an output (`Tapret` or `Opret`) dedicated to anchoring the RGB state transition;
-- The associated infrastructure (bitcoind/indexer/proxy) to validate Bitcoin transactions and exchange *client-side* data.
-
-### Introducing rgb-lightning-node
-
-The **`rgb-lightning-node`** project is a Rust daemon based on an `rust-lightning` (LDK) fork modified to take into account the existence of RGB assets in a channel. When a channel is opened, the presence of assets can be specified, and each time the channel state is updated, an RGB transition is created, reflecting the distribution of the asset in the Lightning outputs. This enables :
+Quá trình này tiếp thu và đưa vào thực hành tất cả các khái niệm đã đề cập trong các chương trước:
 
 
-- Open Lightning channels in USDT, for example;
-- Route these tokens through the network, provided the routing paths have sufficient liquidity;
-- Exploit Lightning's punishment and timelock logic without modification: simply anchor the RGB transition in an additional output of the commitment transaction.
+- Ý tưởng rằng **UTXO** bị chặn trên kênh Lightning đa chữ ký 2/2 không chỉ có thể nhận được bitcoin mà còn có thể là Con dấu sử dụng một lần của tài sản RGB (có thể thay thế hoặc không);
+- Việc bổ sung, trong mỗi giao dịch tương tác Lightning, một đầu ra (`Tapret` hoặc `Opret`) dành riêng cho việc neo chuyển đổi trạng thái RGB;
+- Cơ sở hạ tầng liên quan (bitcoind/indexer/proxy) để xác thực các giao dịch Bitcoin và trao đổi dữ liệu *phía máy khách*.
 
-The code is still at the alpha stage: we recommend using it in **regtest** or on the **testnet** only.
+### Giới thiệu rgb-lightning-node
 
-### Node installation
+Dự án **`rgb-lightning-node`** là một daemon Rust dựa trên nhánh `rust-lightning` (LDK) được sửa đổi để tính đến sự tồn tại của các tài sản RGB trong một kênh. Khi một kênh được mở, sự hiện diện của các tài sản có thể được chỉ định và mỗi lần trạng thái kênh được cập nhật, một chuyển đổi RGB được tạo ra, phản ánh sự phân phối của tài sản trong các đầu ra Lightning. Điều này cho phép:
 
-To compile and install the `rgb-lightning-node` binary, we start by cloning the repository and its sub-modules, then we run the :
+
+- Mở kênh Lightning bằng USDT, ví dụ;
+- Định tuyến các mã thông báo này qua mạng, với điều kiện các đường dẫn định tuyến có đủ tính thanh khoản;
+- Khai thác logic khóa thời gian và trừng phạt của Lightning mà không cần sửa đổi: chỉ cần neo chuyển đổi RGB trong đầu ra bổ sung của giao dịch cam kết.
+
+Mã này vẫn đang ở giai đoạn alpha: chúng tôi khuyên bạn chỉ nên sử dụng nó trong **regtest** hoặc trên **testnet**.
+
+### Cài đặt nút
+
+Để biên dịch và cài đặt nhị phân `rgb-lightning-node`, chúng ta bắt đầu bằng cách sao chép kho lưu trữ và các mô-đun con của nó, sau đó chúng ta chạy:
 
 ```bash
 git clone https://github.com/RGB-Tools/rgb-lightning-node --recurse-submodules --shallow-submodules
@@ -3629,10 +3573,10 @@ git clone https://github.com/RGB-Tools/rgb-lightning-node --recurse-submodules -
 ![RGB-Bitcoin](assets/fr/098.webp)
 
 
-- The `--recurse-submodules` option also clones the necessary sub-devices (including the modified version of `rust-lightning`);
-- The `--shallow-submodules` option restricts the depth of the clone to speed up downloading, while still providing access to essential commits.
+- Tùy chọn `--recurse-submodules` cũng sao chép các thiết bị phụ cần thiết (bao gồm cả phiên bản đã sửa đổi của `rust-lightning`);
+- Tùy chọn `--shallow-submodules` hạn chế độ sâu của bản sao để tăng tốc độ tải xuống, đồng thời vẫn cung cấp quyền truy cập vào các cam kết cần thiết.
 
-From the project root, run the following command to compile and install the binary :
+Từ thư mục gốc của dự án, chạy lệnh sau để biên dịch và cài đặt tệp nhị phân:
 
 ```bash
 cargo install --locked --debug --path .
@@ -3641,55 +3585,55 @@ cargo install --locked --debug --path .
 ![RGB-Bitcoin](assets/fr/099.webp)
 
 
-- `--locked` ensures that the version of dependencies is strictly respected;
-- `--debug` is not compulsory, but can help you focus (you can use `--release` if you prefer) ;
-- `--path .` tells `cargo install` to install from the current directory.
+- `--locked` đảm bảo rằng phiên bản của các phụ thuộc được tôn trọng nghiêm ngặt;
+- `--debug` không bắt buộc, nhưng có thể giúp bạn tập trung (bạn có thể sử dụng `--release` nếu thích);
+- `--path .` yêu cầu `cargo install` cài đặt từ thư mục hiện tại.
 
-At the end of this command, an `rgb-lightning-node` executable will be available in your `$CARGO_HOME/bin/`. Make sure this path is in your `$PATH` so you can invoke the command from any directory.
+Vào cuối lệnh này, một tệp thực thi `rgb-lightning-node` sẽ có trong `$CARGO_HOME/bin/` của bạn. Đảm bảo đường dẫn này nằm trong `$PATH` của bạn để bạn có thể gọi lệnh từ bất kỳ thư mục nào.
 
-### Performance requirements
+### Yêu cầu về hiệu suất
 
-To function, the `rgb-lightning-node` daemon requires the presence and configuration of :
-
-
-- A `bitcoind`** node
-
-Each RLN instance will need to communicate with `bitcoind` to broadcast and monitor its on-chain transactions. Authentication (login/password) and URL (host/port) will need to be provided to the daemon.
+Để hoạt động, daemon `rgb-lightning-node` yêu cầu sự hiện diện và cấu hình của:
 
 
-- An indexer** (Electrum or Esplora)
+- Một nút `bitcoind`**
 
-The daemon must be able to list and explore on-chain transactions, in particular to find the UTXO on which an asset has been anchored. You'll need to specify the URL of your Electrum server or Esplora.
+Mỗi phiên bản RLN sẽ cần giao tiếp với `bitcoind` để phát và giám sát các giao dịch trên chuỗi của nó. Xác thực (đăng nhập/mật khẩu) và URL (máy chủ/cổng) sẽ cần được cung cấp cho daemon.
 
 
-- An RGB** proxy
+- Người lập chỉ mục** (Electrum hoặc Esplora)
 
-As seen in previous chapters, the **proxy server** is a component (optional, but highly recommended) to simplify the exchange of *consignments* between Lightning peers. Once again, a URL must be specified.
+Daemon phải có khả năng liệt kê và khám phá các giao dịch trên chuỗi, đặc biệt là tìm UTXO mà tài sản đã được neo vào. Bạn sẽ cần chỉ định URL của máy chủ Electrum hoặc Esplora.
 
-IDs and URLs are entered when the daemon is _unlocked_ via the API. More on this later.
 
-### Regtest launch
+- Một proxy RGB**
 
-For simple use, there's a `regtest.sh` script that automatically starts, via Docker, a set of services: `bitcoind`, `electrs` (indexer), `rgb-proxy-server`.
+Như đã thấy trong các chương trước, **máy chủ proxy** là một thành phần (tùy chọn, nhưng được khuyến khích) để đơn giản hóa việc trao đổi *giao dịch* giữa các đối tác Lightning. Một lần nữa, phải chỉ định URL.
+
+ID và URL được nhập khi daemon được _mở khóa_ thông qua API. Thông tin chi tiết về điều này sẽ được nêu sau.
+
+### Ra mắt Regtest
+
+Để sử dụng đơn giản, có một tập lệnh `regtest.sh` tự động khởi động một tập hợp các dịch vụ thông qua Docker: `bitcoind`, `electrs` (bộ lập chỉ mục), `rgb-proxy-server`.
 
 ![RGB-Bitcoin](assets/fr/100.webp)
 
-This allows you to launch a local, isolated, pre-configured environment. It creates and destroys containers and data directories on each reboot. We'll begin by starting the :
+Điều này cho phép bạn khởi chạy một môi trường cục bộ, bị cô lập, được cấu hình trước. Nó tạo và hủy các container và thư mục dữ liệu sau mỗi lần khởi động lại. Chúng ta sẽ bắt đầu bằng cách khởi động:
 
 ```bash
 ./regtest.sh start
 ```
 
-This script will :
+Tập lệnh này sẽ:
 
 
-- Create a `docker/` directory to store ;
-- Run `bitcoind` in regtest, as well as the indexer `electrs` and the `rgb-proxy-server` ;
-- Wait until everything is ready to use.
+- Tạo thư mục `docker/` để lưu trữ;
+- Chạy `bitcoind` trong regtest, cũng như trình lập chỉ mục `electrs` và `rgb-proxy-server`;
+- Chờ cho đến khi mọi thứ đã sẵn sàng để sử dụng.
 
 ![RGB-Bitcoin](assets/fr/101.webp)
 
-Next, we'll launch several RLN nodes. In separate shells, run, for example (to launch 3 RLN nodes) :
+Tiếp theo, chúng ta sẽ khởi chạy một số nút RLN. Trong các shell riêng biệt, hãy chạy, ví dụ (để khởi chạy 3 nút RLN):
 
 ```bash
 # 1st shell
@@ -3706,28 +3650,28 @@ rgb-lightning-node dataldk2/ --daemon-listening-port 3003 \
 ![RGB-Bitcoin](assets/fr/102.webp)
 
 
-- The `--network regtest` parameter indicates the use of the regtest configuration;
-- `--daemon-listening-port` indicates on which REST port the Lightning node will listen for API calls (JSON);
-- `--ldk-peer-listening-port` specifies which Lightning p2p port to listen on;
-- `dataldk0/`, `dataldk1/` are the paths to the storage directories (each node stores its info separately).
+- Tham số `--network regtest` chỉ ra việc sử dụng cấu hình regtest;
+- `--daemon-listening-port` chỉ ra cổng REST nào mà nút Lightning sẽ lắng nghe các lệnh gọi API (JSON);
+- `--ldk-peer-listening-port` chỉ định cổng Lightning p2p nào sẽ được lắng nghe;
+- `dataldk0/`, `dataldk1/` là các đường dẫn đến các thư mục lưu trữ (mỗi nút lưu trữ thông tin riêng biệt).
 
-You can also run commands on your RLN nodes from your browser:
+Bạn cũng có thể chạy lệnh trên các nút RLN của mình từ trình duyệt:
 
 ```url
 https://rgb-tools.github.io/rgb-lightning-node/
 ```
 
-For a node to open a channel, it must first have bitcoins on an address generated with the following command (for node n°1, for example):
+Để một nút mở kênh, trước tiên nó phải có bitcoin trên địa chỉ được tạo bằng lệnh sau (ví dụ: đối với nút số 1):
 
 ```bash
 curl -X POST http://localhost:3001/address
 ```
 
-The answer will provide you with an address.
+Câu trả lời sẽ cung cấp cho bạn địa chỉ.
 
 ![RGB-Bitcoin](assets/fr/103.webp)
 
-On the `bitcoind` Regtest, we're going to mine a few bitcoins. Run :
+Trên Regtest `bitcoind`, chúng ta sẽ đào một vài bitcoin. Chạy:
 
 ```bash
 ./regtest.sh mine 101
@@ -3735,7 +3679,7 @@ On the `bitcoind` Regtest, we're going to mine a few bitcoins. Run :
 
 ![RGB-Bitcoin](assets/fr/104.webp)
 
-Send funds to the node address generated above:
+Gửi tiền đến địa chỉ nút được tạo ở trên:
 
 ```bash
 ./regtest.sh sendtoaddress <address> <amount>
@@ -3743,7 +3687,7 @@ Send funds to the node address generated above:
 
 ![RGB-Bitcoin](assets/fr/105.webp)
 
-Then mine a block to confirm the transaction:
+Sau đó đào một khối để xác nhận giao dịch:
 
 ```bash
 ./regtest.sh mine 1
@@ -3751,9 +3695,9 @@ Then mine a block to confirm the transaction:
 
 ![RGB-Bitcoin](assets/fr/106.webp)
 
-### Testnet launch (without Docker)
+### Ra mắt Testnet (không có Docker)
 
-If you want to test a more realistic scenario, you can launch 3 RLN nodes on the Testnet rather than in Regtest, pointing to public services :
+Nếu bạn muốn thử nghiệm một kịch bản thực tế hơn, bạn có thể khởi chạy 3 nút RLN trên Testnet thay vì trong Regtest, trỏ đến các dịch vụ công cộng:
 
 ```bash
 rgb-lightning-node dataldk0/ --daemon-listening-port 3001 \
@@ -3764,7 +3708,7 @@ rgb-lightning-node dataldk2/ --daemon-listening-port 3003 \
 --ldk-peer-listening-port 9737 --network testnet
 ```
 
-By default, if no configuration is found, the daemon will try to use the :
+Theo mặc định, nếu không tìm thấy cấu hình nào, daemon sẽ thử sử dụng:
 
 
 - `bitcoind_rpc_host`: `electrum.iriswallet.com`
@@ -3772,17 +3716,17 @@ By default, if no configuration is found, the daemon will try to use the :
 - indexer_url`: `ssl://electrum.iriswallet.com:50013`
 - `proxy_endpoint`: `rpcs://proxy.iriswallet.com/0.2/json-rpc`
 
-With login :
+Với đăng nhập:
 
 
-- `bitcoind_rpc_username`: `user`
-- `bitcoind_rpc_username`: `password`
+- `bitcoind_rpc_username`: `người dùng`
+- `bitcoind_rpc_username`: `mật khẩu`
 
-You can also customize these elements via the `init`/`unlock` API.
+Bạn cũng có thể tùy chỉnh các thành phần này thông qua API `init`/`unlock`.
 
-### Issuing an RGB token
+### Phát hành mã thông báo RGB
 
-To issue a token, we'll start by creating "colorable" UTXOs:
+Để phát hành mã thông báo, chúng ta sẽ bắt đầu bằng cách tạo UTXO "có thể tô màu":
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3798,13 +3742,13 @@ http://localhost:3001/createutxos
 
 ![RGB-Bitcoin](assets/fr/107.webp)
 
-You can, of course, adapt the order. To confirm the transaction, we mine a :
+Tất nhiên, bạn có thể điều chỉnh thứ tự. Để xác nhận giao dịch, chúng tôi khai thác:
 
 ```bash
 ./regtest.sh mine 1
 ```
 
-We can now create an RGB asset. The command will depend on the type of asset you wish to create and its parameters. Here I'm creating a NIA (*Non Inflatable Asset*) token named "PBN" with a supply of 1000 units. The `precision` allows you to define the divisibility of the units.
+Bây giờ chúng ta có thể tạo một tài sản RGB. Lệnh sẽ phụ thuộc vào loại tài sản bạn muốn tạo và các tham số của nó. Ở đây tôi đang tạo một mã thông báo NIA (*Tài sản không thể bơm phồng*) có tên là "PBN" với nguồn cung là 1000 đơn vị. `precision` cho phép bạn xác định khả năng chia hết của các đơn vị.
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3821,7 +3765,7 @@ http://localhost:3001/issueassetnia
 
 ![RGB-Bitcoin](assets/fr/108.webp)
 
-The response includes the ID of the newly created asset. Remember to note this identifier. In my case, it's :
+Phản hồi bao gồm ID của tài sản mới được tạo. Hãy nhớ ghi lại mã định danh này. Trong trường hợp của tôi, đó là:
 
 ```txt
 rgb:fc7fMj5S-8yz!vIl-260BEhU-Hj1skvM-ZHcjfyz-RTcWc10
@@ -3829,11 +3773,11 @@ rgb:fc7fMj5S-8yz!vIl-260BEhU-Hj1skvM-ZHcjfyz-RTcWc10
 
 ![RGB-Bitcoin](assets/fr/109.webp)
 
-You can then transfer it on-chain, or allocate it in a Lightning channel. That's exactly what we're going to do in the next section.
+Sau đó, bạn có thể chuyển nó trên chuỗi hoặc phân bổ nó trong kênh Lightning. Đó chính xác là những gì chúng ta sẽ làm trong phần tiếp theo.
 
-### Opening a channel and transferring an RGB asset
+### Mở kênh và chuyển tài sản RGB
 
-You must first connect your node to a peer on the Lightning network using the `/connectpeer` command. In my example, I control both nodes. So I'll retrieve the public key of my second Lightning node with this command:
+Trước tiên, bạn phải kết nối nút của mình với một nút ngang hàng trên mạng Lightning bằng lệnh `/connectpeer`. Trong ví dụ của tôi, tôi kiểm soát cả hai nút. Vì vậy, tôi sẽ lấy khóa công khai của nút Lightning thứ hai của mình bằng lệnh này:
 
 ```bash
 curl -X 'GET' \
@@ -3841,7 +3785,7 @@ curl -X 'GET' \
 -H 'accept: application/json'
 ```
 
-The command returns the public key of my node n°2 :
+Lệnh trả về khóa công khai của nút số 2 của tôi:
 
 ```txt
 031e81e4c5c6b6a50cbf5d85b15dad720fec92c62e84bafb34088f0488e00a8e94
@@ -3849,7 +3793,7 @@ The command returns the public key of my node n°2 :
 
 ![RGB-Bitcoin](assets/fr/110.webp)
 
-Next, we'll open the channel by specifying the relevant asset (`PBN`). The `/openchannel` command lets you define the size of the channel in satoshis and opt to include the RGB asset. It depends on what you want to create, but in my case, the command is :
+Tiếp theo, chúng ta sẽ mở kênh bằng cách chỉ định tài sản có liên quan (`PBN`). Lệnh `/openchannel` cho phép bạn xác định kích thước của kênh theo satoshi và chọn bao gồm tài sản RGB. Tùy thuộc vào những gì bạn muốn tạo, nhưng trong trường hợp của tôi, lệnh là:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3868,19 +3812,19 @@ curl -X POST -H "Content-Type: application/json" \
 http://localhost:3001/openchannel
 ```
 
-Find out more here:
+Tìm hiểu thêm tại đây:
 
 
-- `peer_pubkey_and_opt_addr`: Identifier of the peer we wish to connect to (the public key we found earlier);
-- `capacity_sat`: Total channel capacity in satoshis ;
-- `push_msat`: Amount in millisatoshis initially transferred to the peer when the channel is opened (here I immediately transfer 10,000 sats so that he can make an RGB transfer later) ;
-- `asset_amount`: Amount of RGB assets to be committed to the channel ;
-- `asset_id` : Unique identifier of the RGB asset engaged in the channel;
-- `public`: Indicates whether the channel should be made public for routing on the network.
+- `peer_pubkey_and_opt_addr`: Mã định danh của đối tác mà chúng ta muốn kết nối (khóa công khai mà chúng ta đã tìm thấy trước đó);
+- `capacity_sat`: Tổng dung lượng kênh tính bằng satoshi;
+- `push_msat`: Số lượng tính bằng millisatoshi ban đầu được chuyển cho đối tác khi kênh được mở (ở đây tôi chuyển ngay 10.000 sats để đối tác có thể thực hiện chuyển RGB sau);
+- `asset_amount`: Số lượng tài sản RGB được cam kết với kênh;
+- `asset_id`: Mã định danh duy nhất của tài sản RGB được sử dụng trong kênh;
+- `public`: Chỉ ra liệu kênh có nên được công khai để định tuyến trên mạng hay không.
 
 ![RGB-Bitcoin](assets/fr/111.webp)
 
-To confirm the transaction, 6 blocks are mined:
+Để xác nhận giao dịch, 6 khối được khai thác:
 
 ```bash
 ./regtest.sh mine 6
@@ -3888,7 +3832,7 @@ To confirm the transaction, 6 blocks are mined:
 
 ![RGB-Bitcoin](assets/fr/112.webp)
 
-The Lightning channel is now open and also contains 500 `PBN` tokens on node n°1's side. If node n°2 wishes to receive `PBN` tokens, it must generate an invoice. Here's how to do it:
+Kênh Lightning hiện đã mở và cũng chứa 500 token `PBN` ở phía nút n°1. Nếu nút n°2 muốn nhận token `PBN`, nó phải tạo hóa đơn. Sau đây là cách thực hiện:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3901,15 +3845,15 @@ curl -X POST -H "Content-Type: application/json" \
 http://localhost:3002/lninvoice
 ```
 
-With :
+Với :
 
 
-- `amt_msat`: Invoice amount in millisatoshis (minimum 3000 sats) ;
-- `expiry_sec` : Invoice expiry time in seconds ;
-- `asset_id` : Identifier of the RGB asset associated with the invoice ;
-- `asset_amount`: Amount of RGB asset to be transferred with this invoice.
+- `amt_msat`: Số tiền hóa đơn tính bằng millisatoshi (tối thiểu 3000 sats);
+- `expiry_sec`: Thời gian hết hạn của hóa đơn tính bằng giây;
+- `asset_id`: Mã định danh của tài sản RGB được liên kết với hóa đơn;
+- `asset_amount`: Số lượng tài sản RGB sẽ được chuyển cùng với hóa đơn này.
 
-In response, you will get an RGB invoice (as described in previous chapters):
+Đáp lại, bạn sẽ nhận được hóa đơn RGB (như đã mô tả ở các chương trước):
 
 ```txt
 lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87eykx96zt47e5pz8sfz8qp28fgpp5jksvqtleryhvwr299qdz96qxzm24augy5agkdhltudk463lt9dassp5d6n0sqgl0c4gx52fdmutrdtqamt0y4xuz2rcgel4hpjwne08gmls9qyysgqcqpcxqzdylz5wfnkywnxvvmkvnt2x4fj6wre0gshvjtv95ervvzzg4592t2gdgchx6mkf5k45jrrdfn8j73d2f2xx4mrxycq7qzry4v4jan6uxhhacyqa4gn6plggwpq9j74tu74f2zsamtz6ymt600p8su4c4ap9g9d8ku2x3wdh6fuc8fd8pff2yzpjrf24ys3cltca9fgqut6gzj
@@ -3917,7 +3861,7 @@ lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87e
 
 ![RGB-Bitcoin](assets/fr/113.webp)
 
-We will now pay this invoice from the first node, which holds the necessary cash with the `PBN` token:
+Bây giờ chúng ta sẽ thanh toán hóa đơn này từ nút đầu tiên, nơi lưu trữ số tiền mặt cần thiết bằng mã thông báo `PBN`:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3929,7 +3873,7 @@ http://localhost:3001/sendpayment
 
 ![RGB-Bitcoin](assets/fr/114.webp)
 
-Payment has been made. This can be verified by executing the command :
+Thanh toán đã được thực hiện. Điều này có thể được xác minh bằng cách thực hiện lệnh:
 
 ```bash
 curl -X 'GET' \
@@ -3939,35 +3883,34 @@ curl -X 'GET' \
 
 ![RGB-Bitcoin](assets/fr/115.webp)
 
-Here's how to deploy a Lightning node modified to carry RGB assets. This demonstration is based on :
+Sau đây là cách triển khai một nút Lightning được sửa đổi để mang theo các tài sản RGB. Bản trình diễn này dựa trên:
 
 
-- A regtest environment (via `./regtest.sh`) or testnet ;
-- A Lightning node (`rgb-lightning-node`) based on a `bitcoind`, an indexer and an `rgb-proxy-server` ;
-- A series of JSON REST APIs for opening/closing channels, issuing tokens, transferring assets via Lightning, etc.
+- Môi trường regtest (thông qua `./regtest.sh`) hoặc testnet;
+- Một nút Lightning (`rgb-lightning-node`) dựa trên `bitcoind`, một trình lập chỉ mục và một `rgb-proxy-server`;
+- Một loạt các API REST JSON để mở/đóng kênh, phát hành mã thông báo, chuyển giao tài sản qua Lightning, v.v.
 
-Thanks to this process :
+Nhờ vào quá trình này:
 
 
-- Lightning engagement transactions include an additional output (OP_RETURN or Taproot) with the anchoring of an RGB transition;
-- Transfers are made in exactly the same way as traditional Lightning payments, but with the addition of an RGB token;
-- Multiple RLN nodes can be linked to route and experiment with payments across multiple nodes, provided there is sufficient liquidity in both bitcoins and asset RGB on the path.
+- Các giao dịch tương tác sét bao gồm một đầu ra bổ sung (OP_RETURN hoặc Taproot) với việc neo chuyển đổi RGB;
+- Việc chuyển tiền được thực hiện theo cách hoàn toàn giống với phương thức thanh toán Lightning truyền thống, nhưng có thêm mã thông báo RGB;
+- Nhiều nút RLN có thể được liên kết để định tuyến và thử nghiệm thanh toán trên nhiều nút, với điều kiện có đủ thanh khoản bằng cả bitcoin và tài sản RGB trên đường dẫn.
 
-The project remains in the alpha stage. It is therefore strongly recommended that you limit yourself to test environments (regtest, testnet).
+Dự án vẫn đang trong giai đoạn alpha. Do đó, chúng tôi khuyên bạn nên giới hạn bản thân trong các môi trường thử nghiệm (regtest, testnet).
 
-The opportunities opened up by this LN-RGB compatibility are considerable: stablecoins on Lightning, DEX layer-2, transfer of fungible tokens or NFTs at very low cost... The previous chapters have outlined the conceptual architecture and validation logic. Now you have a practical view of how to get such a node up and running, for your future developments or tests.
+Các cơ hội mở ra bởi khả năng tương thích LN-RGB này là rất đáng kể: stablecoin trên Lightning, DEX layer-2, chuyển giao các token có thể thay thế hoặc NFT với chi phí rất thấp... Các chương trước đã phác thảo kiến trúc khái niệm và logic xác thực. Bây giờ bạn đã có cái nhìn thực tế về cách đưa một nút như vậy vào hoạt động, cho các phát triển hoặc thử nghiệm trong tương lai của bạn.
 
-# Conclusion
+# Phần kết luận
 
 <partId>b0baebfc-d146-5938-849a-f835fafb386f</partId>
 
-## Reviews & Ratings
+## Đánh giá & Xếp hạng
 
 <chapterId>0217e8b0-942a-5fee-bd91-9a866551eff3</chapterId>
 
 <isCourseReview>true</isCourseReview>
-
-## Conclusion
+## Phần kết luận
 
 <chapterId>0309536d-c336-56a0-869e-a8395ed8d9ae</chapterId>
 

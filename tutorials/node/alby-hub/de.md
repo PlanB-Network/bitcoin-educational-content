@@ -4,15 +4,16 @@ description: Wie können Sie Ihren eigenen Lightning-Knoten einfach starten?
 ---
 ![cover](assets/cover.webp)
 
-Alby Hub ist die neueste Software von Alby, dem Unternehmen hinter der beliebten Lightning-Web-Erweiterung. Alby Hub ist eine einfach zu bedienende Schnittstelle für die Verwaltung von Lightning-Knoten.
+Alby Hub ist die neueste Open-Source-Software von Alby, dem Unternehmen hinter der beliebten Lightning-Weberweiterung. Alby Hub ist eine selbstverwaltete Wallet mit dem benutzerfreundlichsten Lightning-Knoten, der von überall aus zugänglich ist, um mit Dutzenden von Apps integriert zu werden. Alby Hub ist eine benutzerfreundliche Oberfläche zur Verwaltung von Lightning-Knoten.
 
-In diesem Tutorial werden wir uns verschiedene Möglichkeiten ansehen, wie Sie Alby Hub nutzen können, um Ihren eigenen Lightning-Knoten zu verwalten, und wie Sie ihn mit Alby Go, der mobilen App von Alby, verbinden können. So können Sie Ihre Sats unterwegs ausgeben und gleichzeitig Ihren Knoten autonom verwalten.
+In diesem Tutorial werden wir uns verschiedene Möglichkeiten ansehen, wie man Alby Hub verwendet, wie man es mit Alby Go, der mobilen App von Alby, oder der Alby Browser-Erweiterung verbindet. Dies ermöglicht es Ihnen, Ihre Sats unterwegs auszugeben, während Sie die Verwaltung Ihres Knotens autonom gestalten.
+
 
 ![ALBY HUB](assets/fr/01.webp)
 
 ## Was ist Alby Hub?
 
-Im Jahr 2024 hat Alby einen strategischen Wechsel vollzogen. Seit Jahren bietet das Unternehmen eine Reihe von Tools im Zusammenhang mit Bitcoin und dem Lightning Network an, darunter die ikonische Alby-Erweiterung, mit der Sie eine Lightning-Wallet betreiben können, ob mit oder ohne Verwahrung. Für das Jahr 2025 ist jedoch geplant, den Service für gemeinsam verwahrte Wallets einzustellen und sich ausschließlich auf Lösungen zur Selbstverwahrung zu konzentrieren. Alby Hub wird das neue Flaggschiff im Alby-Ökosystem sein. Diese Software ermöglicht es den Nutzern, ihren eigenen Lightning-Knoten zu verwalten und gleichzeitig das Eigentum an ihren Schlüsseln zu behalten (Selbstverwahrung).
+Alby Hub soll das neue Flaggschiff-Tool im Alby-Ökosystem werden. Diese Software ermöglicht es Benutzern, ihre eigene selbstverwaltete Wallet mit einem integrierten Lightning-Knoten einfach zu verwalten, während sie weiterhin die Kontrolle über ihre Schlüssel behalten (self-custody).
 
 Alby Hub ist ein äußerst anpassungsfähiges Werkzeug. Es kann sowohl die Bedürfnisse von Anfängern als auch von fortgeschrittenen Nutzern erfüllen. Einsteiger können damit einen echten Lightning-Knoten problemlos selbst betreiben, ohne sich mit der zugrundeliegenden Komplexität auseinandersetzen zu müssen. Für erfahrenere Benutzer kann Alby Hub als vollständige Schnittstelle für die erweiterte Verwaltung eines bestehenden Lightning-Knotens verwendet werden.
 
@@ -21,11 +22,11 @@ Je nach Bedarf ist der Alby Hub in 4 Konfigurationen erhältlich:
 
 - Alby Hub Cloud :**
 
-Die erste Option ist die Alby-Cloud-Option, die sich ideal für Einsteiger eignet. Sie ermöglicht es Ihnen, einen Lightning-Knoten direkt auf einem von Alby verwalteten Server einzurichten, auf den Sie über Ihre Alby Hub-Schnittstelle zugreifen können. Obwohl Alby den Server verwaltet, behalten Sie die Hoheit über Ihre Mittel, da Ihre Schlüssel mit einem nur Ihnen bekannten Passwort verschlüsselt werden. Allerdings müssen Ihre Schlüssel im RAM entschlüsselt bleiben, damit der Knoten funktioniert, was theoretisch ein Risiko darstellt, wenn jemand physisch auf den Server zugreift. Es ist ein interessanter Kompromiss für Anfänger, aber es ist wichtig, sich der Risiken bewusst zu sein.
+Ideal für Anfänger ist diese erste Option die Alby-Cloud-Option. Sie ermöglicht es Ihnen, einen Hub direkt auf einem von Alby verwalteten Server bereitzustellen, der über Ihre Alby Hub-Oberfläche zugänglich ist. Obwohl Alby den Server verwaltet, behalten Sie die Souveränität über Ihre Gelder, da Ihre Schlüssel mit einem nur Ihnen bekannten Passwort verschlüsselt werden. Allerdings müssen Ihre Schlüssel im RAM entschlüsselt bleiben, damit der Knoten funktioniert, was sie theoretisch einem Risiko aussetzt, wenn jemand physischen Zugriff auf den Server hat. Es ist ein interessanter Kompromiss für Anfänger, aber es ist wichtig, sich der Risiken bewusst zu sein.
 
 Der große Vorteil dieser Option ist, dass Sie einen Lightning-Knoten rund um die Uhr betreiben können, ohne das Hosting selbst verwalten zu müssen. Darüber hinaus sind die Backups Ihres Lightning-Knotens vereinfacht und automatisiert, im Vergleich zu selbst gehosteten Optionen, bei denen Sie die Channel-Backups selbst verwalten müssen.
 
-Alby bietet diesen Dienst für 21.000 Sats pro Monat an (Tarif vom Dezember 2024, Änderungen vorbehalten, [prüfen Sie die Preise] (https://albyhub.com/#pricing)). Die Gebühr wird automatisch von Ihrem Knotenpunkt über eine von Alby ausgestellte Lightning-Rechnung abgebucht. Dies geschieht über eine NWC-Verbindung, die Ihren Knoten so konfiguriert, dass er die Rechnungen von Alby für Ihr Abonnement automatisch bezahlt.
+Alby Cloud ist ein kostenpflichtiger Dienst [Überprüfen Sie ihre Preise](https://albyhub.com/#pricing) für weitere Details. Die Gebühr wird automatisch aus Ihrer Wallet über eine von Alby ausgestellte Lightning-Rechnung abgezogen. Dies geschieht über eine NWC-Verbindung, die Ihren Knoten so konfiguriert, dass Alby-Rechnungen im Zusammenhang mit Ihrem Abonnement automatisch bezahlt werden.
 
 
 - Alby Hub mit einem bestehenden Knotenpunkt :**
@@ -35,12 +36,12 @@ Wenn Sie bereits einen Knoten haben, der z.B. auf Umbrel oder Start9 gehostet wi
 
 - Alby Hub lokal :**
 
-Es ist auch möglich, Alby Hub und Ihren Knoten direkt auf Ihrem PC zu installieren, obwohl diese Option weniger praktisch ist, da Ihr PC immer aktiv bleiben muss, um auf den Lightning-Knoten aus der Ferne zugreifen zu können. Diese Alternative kann jedoch für Ihre speziellen Anforderungen geeignet sein.
+Es ist auch möglich, Alby Hub direkt auf Ihrem PC zu installieren, obwohl diese Option weniger praktisch ist, da Ihr PC jederzeit aktiv bleiben muss, um aus der Ferne auf den Lightning-Knoten zuzugreifen. Diese Alternative könnte jedoch für Ihre spezifischen Bedürfnisse geeignet sein.
 
 
 - Alby Hub auf einem persönlichen Server :**
 
-Für fortgeschrittene Benutzer kann Alby Hub mit einem einfachen Befehl auf einem persönlichen Server installiert werden. Diese Option wird in diesem Lernprogramm nicht behandelt, aber Sie können eine spezielle Anleitung [auf Alby's GitHub] finden (https://github.com/getAlby/hub?tab=readme-ov-file#docker).
+Für fortgeschrittene Benutzer kann Alby Hub mit einem einfachen Befehl auf einem persönlichen Server installiert werden. Diese Option wird in diesem Lernprogramm nicht behandelt, aber Sie können eine spezielle Anleitung [auf Alby's GitHub finden](https://github.com/getAlby/hub?tab=readme-ov-file#docker).
 
 Dieses Tutorial konzentriert sich hauptsächlich auf die Schnittstelle, die unabhängig von der gewählten Option gleich ist. Wir werden uns auch ansehen, wie man Alby Hub mit der kostenpflichtigen Cloud-Option und dann mit der Node-in-Box-Option (Umbrel oder Start9) einsetzt.
 
@@ -76,7 +77,7 @@ Klicken Sie erneut auf "*Fortfahren*".
 
 ## Die Option des Cloud-Hostings
 
-Sie haben dann die Wahl zwischen einer selbst gehosteten Option, bei der Sie einen Lightning-Knoten auf Ihrer eigenen Hardware hosten, oder der kostenpflichtigen Option, bei der Sie die Cloud von Alby nutzen. Ich erkläre Ihnen zunächst, wie Sie bei der Cloud-Option vorgehen (beachten Sie, dass es sich hierbei um eine kostenpflichtige Option handelt, siehe Details im vorherigen Abschnitt).
+Sie müssen sich dann zwischen einer selbstgehosteten Option, bei der Sie Alby Hub auf Ihrem eigenen Gerät installieren, oder Premium-Optionen entscheiden. Ich werde damit beginnen, zu erklären, wie man mit der Pro Cloud-Option fortfährt (beachten Sie, dass dies eine kostenpflichtige Option ist, siehe Details im vorherigen Abschnitt).
 
 Klicken Sie auf "*Upgrade*".
 
@@ -94,7 +95,8 @@ Warten Sie einige Augenblicke, während Ihr Knoten erstellt wird.
 
 ![ALBY HUB](assets/fr/12.webp)
 
-Und das war's, Ihr Alby Hub ist jetzt konfiguriert. Im nächsten Abschnitt zeige ich Ihnen, wie Sie Alby Hub auf einem bestehenden Knoten installieren. Wenn Sie das nicht brauchen, können Sie zum nächsten Abschnitt übergehen, um Ihren Knoten zu konfigurieren.
+Und das war's, Ihr Alby Hub ist jetzt konfiguriert. Im nächsten Abschnitt zeige ich Ihnen, wie Sie Alby Hub auf einem bestehenden Knoten installieren. Wenn Sie noch keinen Lightning-Knoten haben, können Sie direkt zum nächsten Abschnitt springen, um Alby Hub auf Alby Cloud zu konfigurieren.
+
 
 ![ALBY HUB](assets/fr/13.webp)
 
@@ -128,7 +130,8 @@ Klicken Sie auf die Schaltfläche "*Get Started*".
 
 Alby Hub wird Sie dann auffordern, ein Passwort zu wählen. Dieses Passwort ist sehr wichtig, da es zur Verschlüsselung Ihrer Brieftasche verwendet wird. In der kostenpflichtigen Cloud-Version werden Ihre Schlüssel auf dem Alby-Server gespeichert, mit diesem Passwort, das nur Sie kennen, verschlüsselt und dann entschlüsselt und nur im RAM gespeichert, um Transaktionen bei Bedarf zu signieren.
 
-Es ist daher wichtig, ein sicheres Passwort zu wählen. Jeder, der dieses Passwort kennt, könnte sich Zugang zu Ihrem Knoten verschaffen. Stellen Sie sicher, dass Sie auch eine oder mehrere physische Sicherungen dieses Passworts auf einem Stück Papier oder besser noch auf einem Stück Metall für zusätzliche Sicherheit machen. **Wenn Sie dieses Passwort verlieren, ist es unmöglich, den Zugang zu Ihren Bitcoins wiederzuerlangen**, da Alby keine Möglichkeit hat, es zurückzusetzen. Der Verlust dieses Passworts bedeutet den Verlust Ihrer Bitcoins.
+Es ist daher unerlässlich, ein starkes Passwort zu wählen. Jeder, der dieses Passwort kennt, könnte potenziell Zugriff auf Ihren Knoten erlangen. Stellen Sie sicher, dass Sie auch ein oder mehrere physische Backups dieses Passworts auf einem Blatt Papier oder, noch besser, auf einem Metallstück für zusätzliche Sicherheit erstellen.
+
 
 Nachdem Sie Ihr Passwort sorgfältig ausgewählt und gespeichert haben, klicken Sie auf "*Passwort erstellen*".
 
@@ -138,7 +141,7 @@ Sie haben nun Zugriff auf Ihren Lightning-Knoten.
 
 ![ALBY HUB](assets/fr/20.webp)
 
-Die erste Maßnahme, die Sie ergreifen müssen, ist das Speichern Ihrer Wiederherstellungsphrase, von der Ihre Schlüssel abgeleitet sind. Mit dieser Phrase können Sie den Zugang zu Ihrer Onchain-Brieftasche und, mit dem neuesten Stand Ihrer Kanäle, Ihre Sats auf Lightning wiederherstellen. Klicken Sie dazu auf "*Einstellungen*".
+Die erste Aktion besteht darin, Ihre Wiederherstellungsphrase zu speichern, aus der Ihre Schlüssel abgeleitet werden. Klicken Sie dazu auf "Einstellungen". Diese Phrase ermöglicht Ihnen den Zugriff auf Ihre Wallet wiederherzustellen, wenn Sie automatische Backups aktiviert haben.
 
 ![ALBY HUB](assets/fr/21.webp)
 
@@ -156,22 +159,18 @@ Wenn Sie die Phrase gespeichert haben, markieren Sie das Kästchen, um zu bestä
 
 ## Wie kann ich den Zugriff auf meine Bitcoins wiederherstellen?
 
-Bevor Sie Gelder an Ihren Knotenpunkt senden, sollten Sie sich darüber informieren, wie Sie diese im Falle eines Problems zurückerhalten können und welche Informationen für diese Rückerstattung erforderlich sind. Das Verfahren variiert je nach Art der wiederherzustellenden Mittel und dem Hosting-Modus Ihres Knotens.
+Bevor Sie Gelder an Ihren Alby Hub senden, ist es wichtig zu verstehen, wie diese im Falle eines Problems wiederhergestellt werden können und welche Informationen dafür erforderlich sind. Der Prozess variiert je nach Art der wiederherzustellenden Gelder und der Hosting-Methode Ihres Knotens.
 
-Für zahlende Cloud-Nutzer sind für die vollständige Wiederherstellung ihrer Bitcoins drei wesentliche Elemente erforderlich:
+Für zahlende Cloud-Nutzer ist die vollständige Wiederherstellung Ihrer Bitcoins nur möglich, wenn Sie drei wesentliche Elemente haben:
 
+- Ihre Wiederherstellungsphrase;
+- Zugriff auf Ihr Alby-Konto, um die automatischen Backups abzurufen.
 
-- Ihre Genesungsphrase;
-- Ihr Passwort (das für Ihren Knoten verwendete) ;
-- Zugang zu Ihrem Alby-Konto, um den aktuellen Status Ihrer Lightning-Kanäle abzurufen.
+Das Fehlen einer dieser beiden Informationen würde es unmöglich machen, Ihre Bitcoins vollständig wiederherzustellen.
 
-Das Fehlen einer dieser 3 Informationen würde es unmöglich machen, Ihre Bitcoins in vollem Umfang wiederzuerlangen.
+Für diejenigen, die Alby Hub auf ihrem eigenen Gerät betreiben, ist der Wiederherstellungsprozess [hier dokumentiert](https://guides.getalby.com/user-guide/alby-account-and-browser-extension/alby-hub/backups-and-recover#alby-hub-self-hosted-with-an-alby-account).
 
-Für diejenigen, die ihren eigenen Knoten hosten, ist der Wiederherstellungsprozess identisch mit dem für jeden Lightning-Knoten. Sie benötigen :
-
-
-- Ihre Genesungsphrase;
-- Der aktuelle Status deiner Lightning-Kanäle. Um diese Informationen zu sichern, bietet Umbrel [eine Option](https://github.com/getumbrel/umbrel/blob/2b266036f62a1594aa60a8a3be30cfb8656e755f/scripts/backup/README.md), um sie zu verschlüsseln und dynamisch und anonym über Tor zu speichern.
+Wenn Sie Alby Hub auf einem bestehenden Knoten installiert haben, müssen Sie den Wiederherstellungsprozess des jeweiligen Knotens-Betriebssystems befolgen. Zum Beispiel bietet Umbrel [eine Option](https://github.com/getumbrel/umbrel/blob/2b266036f62a1594aa60a8a3be30cfb8656e755f/scripts/backup/README.md), um den neuesten Status Ihrer Lightning-Kanäle zu verschlüsseln und ihn dynamisch und anonym über Tor zu speichern. Beachten Sie, dass nur die automatischen Backups von Alby es Ihnen ermöglichen, Ihren Hub vollständig wiederherzustellen, ohne irgendwelche Kanäle zu schließen.
 
 ## Kaufen Sie Ihren ersten Lightning-Kanal
 
@@ -255,6 +254,13 @@ Ihr neuer Kanal wird nun auf der Registerkarte "*Knoten*" angezeigt.
 
 ![ALBY HUB](assets/fr/42.webp)
 
+## Knotenverwaltung
+
+Das Verwalten Ihrer Lightning-Kanäle ist einfacher, als Sie denken. Alby Hub ermöglicht es Ihnen, Sats zwischen Ihrem Ausgabesaldo und Ihrem On-Chain-Saldo zu übertragen. So können Sie Ihre Ausgaben- oder Empfangskapazität erhöhen.
+
+![ALBY HUB](assets/fr/66.webp)
+
+
 ## Verbinden Sie eine Kostenanwendung
 
 Jetzt, wo Sie einen funktionierenden Lightning-Knoten haben, können Sie ihn nutzen, um täglich Sats zu empfangen und auszugeben. Die Weboberfläche von Alby Hub ist zwar praktisch für die Verwaltung Ihres Knotens, aber nicht ideal, um unterwegs schnelle Transaktionen durchzuführen. Hierfür werden wir eine Lightning-Wallet-App verwenden, die auf unserem Smartphone installiert ist.
@@ -279,15 +285,14 @@ Wenn die Anwendung gestartet wird, klicken Sie auf "*Connect Wallet*".
 
 ![ALBY HUB](assets/fr/46.webp)
 
-Klicken Sie in Ihrem Alby Hub unter der Registerkarte "*Verbindungen*" auf "*Verbindung hinzufügen*".
+In Ihrem Alby Hub, im App Store, finden Sie „Alby Go“ und klicken Sie auf „Connect“  
+![ALBY HUB](assets/fr/47.webp)  
+Klicken Sie auf „Connect with One-Tab Connections“. Dies ermöglicht es Ihnen, Ihren Alby Hub mit einem Klick mit anderen Apps zu verbinden, die Alby Go verwenden.  
 
-![ALBY HUB](assets/fr/47.webp)
+![ALBY HUB](assets/fr/48.webp)  
 
-Benennen Sie diese Verbindung, um sie in Ihrem Hub leicht identifizieren zu können, und wählen Sie die Berechtigungen, die Sie der Anwendung gewähren möchten. In meinem Fall wähle ich "*Voller Zugriff*", um von meinem Smartphone aus vollen Zugriff auf die Gelder meines Lightning-Knotens zu haben. Sie können den Zugriff aber auch durch ein maximales Budget begrenzen, die erlaubten Funktionen auswählen oder ein Ablaufdatum für diese Berechtigungen festlegen. Nach der Konfiguration klicken Sie auf "*Weiter*".
+Alby Hub wird dann ein Geheimnis generieren, um die Verbindung zu Alby Go herzustellen.
 
-![ALBY HUB](assets/fr/48.webp)
-
-Alby Hub generiert dann ein Geheimnis, um die Verbindung herzustellen.
 
 ![ALBY HUB](assets/fr/49.webp)
 
@@ -299,7 +304,8 @@ Klicken Sie auf "Fertigstellen*".
 
 ![ALBY HUB](assets/fr/51.webp)
 
-Sie haben jetzt von Ihrem Smartphone aus Fernzugriff auf Ihren Lightning-Knoten, so dass Sie jeden Tag unterwegs Sats ausgeben und empfangen können.
+Sie haben jetzt Fernzugriff auf Ihren von Alby Hub betriebenen Lightning-Knoten von Ihrem Smartphone aus, was es Ihnen erleichtert, jeden Tag unterwegs Sats zu senden und zu empfangen.
+
 
 ![ALBY HUB](assets/fr/52.webp)
 

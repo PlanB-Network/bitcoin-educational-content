@@ -557,7 +557,7 @@ De seguida, definimos vários níveis de segurança:
 
 Por exemplo, pode utilizar a Sparrow Wallet como uma hot wallet:
 
-https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - Nível 2\*\*, utiliza uma carteira física e protegeu a sua lista de 12/24 palavras. É muitas vezes referido como "cold wallet" (carteira fria) porque as suas chaves são armazenadas num dispositivo que não está ligado à Internet. Neste caso, terá sempre de assinar cada transação com o seu dispositivo, o que torna os seus fundos menos acessíveis no dia a dia.
 
@@ -1048,6 +1048,7 @@ Atualmente, a Bitcoin continua a sobreviver e a crescer ainda mais, sendo cada v
 
 ![image](assets/en/71.webp)
 
+
 ## Obter Bitcoins através do trabalho
 
 <chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>
@@ -1078,13 +1079,17 @@ Abordaremos este tópico em pormenor noutro curso, mas para simplificar, podemos
 
 - Solução simples em linha: OpenNode
 
-https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - Solução para comerciantes amadores: Swiss Bitcoin Pay
 
-https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Solução para grandes estruturas ou bitcoiners apaixonados: Servidor BTCpay
+
+Para aprofundar este assunto, recomendamos o nosso treinamento BIZ101! Descubra como integrar efetivamente o bitcoin no caixa da sua empresa, aceitar bitcoin como meio de pagamento de acordo com o perfil da sua organização e entender os requisitos fiscais e contábeis relacionados:
+
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## Poupar com Bitcoin
 
@@ -1139,7 +1144,7 @@ Existem várias formas de adquirir bitcoins, cada uma sujeita ao seu próprio co
 
 - Plataformas DCA
 
-Como introduzimos acima, um método comum para acumular bitcoins é o Dollar Cost Averaging (DCA), que envolve a compra regular de pequenas quantidades. Várias plataformas oferecem este serviço, como as listadas na nossa [página dedicada] (https://planb.network/tutorials/exchange). Para além da simplicidade da configuração de uma DCA, os levantamentos para a sua carteira são geralmente automáticos, o que significa que terá sempre controlo sobre os seus activos.
+Como introduzimos acima, um método comum para acumular bitcoins é o Dollar Cost Averaging (DCA), que envolve a compra regular de pequenas quantidades. Várias plataformas oferecem este serviço, como as listadas na nossa [página dedicada](https://planb.network/tutorials/exchange). Para além da simplicidade da configuração de uma DCA, os levantamentos para a sua carteira são geralmente automáticos, o que significa que terá sempre controlo sobre os seus activos.
 
 Atualmente, quase todas as soluções DCA são relativamente eficientes e têm taxas quase semelhantes, pelo que a escolha dependerá mais da disponibilidade no seu país.
 

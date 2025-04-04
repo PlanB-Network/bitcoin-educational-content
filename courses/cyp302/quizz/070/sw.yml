@@ -1,0 +1,9 @@
+question: Ni aina gani ya usimbaji fiche ni usimbaji fiche wa shift?
+answer: Sifa mbadala ya herufi moja
+wrong_answers:
+  - Neno la msimbo wa kibali
+  - Sifa mbadala ya polyalfabeti
+  - Sifa ya asymmetric
+explanation: |
+  Usimbaji fiche wa Shift ni mfano wa herufi mbadala ya herufi moja, ambapo kila herufi katika ujumbe huhamishwa kwa idadi isiyobadilika ya nafasi katika alfabeti.
+reviewed: false

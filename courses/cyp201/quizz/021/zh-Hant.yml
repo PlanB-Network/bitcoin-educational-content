@@ -1,0 +1,9 @@
+question: 橢圓曲線上的標量乘法的主要特徵是什麼？
+answer: 單向功能
+wrong_answers:
+  - 易於翻轉
+  - 以質數因數化為基礎
+  - 計算時間非常長
+explanation: |
+  橢圓曲線上的等式相乘是單向函數，因此不可能從公開金鑰擷取私人金鑰。
+reviewed: false

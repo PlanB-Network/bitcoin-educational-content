@@ -1,0 +1,8 @@
+question: Je, Bastiat anatumia dhana gani kuelezea itikadi ya ugawaji upya wa kulazimishwa na uporaji wa kisheria?
+answer: ujamaa
+wrong_answers:
+  - jamhuri
+  - uhafidhina
+  - uliberali
+explanation: |
+  Bastiat anaukosoa ujamaa kwa tabia yake ya kutumia sheria kulazimisha ugawaji upya, ambao anauchukulia kama uporaji wa kisheria.

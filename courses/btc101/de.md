@@ -557,7 +557,7 @@ Im Folgenden werden wir verschiedene Sicherheitsstufen definieren:
 
 Sie können zum Beispiel Sparrow Wallet als Hot Wallet verwenden:
 
-https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - Stufe 2\*\*: Sie verwenden eine physische Geldbörse und haben Ihre Liste mit 12/24 Wörtern gesichert. Sie wird oft als "Cold Wallet" bezeichnet, weil Ihre Schlüssel auf einem Gerät gespeichert sind, das nicht mit dem Internet verbunden ist. In diesem Fall müssen Sie jede Transaktion immer mit Ihrem Gerät unterschreiben, was den täglichen Zugriff auf Ihr Geld erschwert.
 
@@ -1048,6 +1048,8 @@ Heute überlebt der Bitcoin und wächst weiter, indem er mehr und mehr in den tr
 
 ![image](assets/en/71.webp)
 
+
+
 ## Bitcoins durch Arbeit erhalten
 
 <chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>
@@ -1078,13 +1080,17 @@ Wir werden dieses Thema in einem anderen Kurs ausführlich behandeln, aber um es
 
 - Einfache Online-Lösung: OpenNode
 
-https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - Lösung für Hobby-Händler: Swiss Bitcoin Pay
 
-https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Lösung für große Strukturen oder passionierte Bitcoiner: BTCpay Server
+
+Um dieses Thema weiter zu vertiefen, empfehlen wir Ihnen unseren Kurs BIZ101! Erfahren Sie, wie Sie Bitcoin effektiv in Ihre Unternehmensfinanzen integrieren, Bitcoin als Zahlungsmittel je nach Profil Ihrer Organisation akzeptieren und die damit verbundenen steuerlichen und buchhalterischen Anforderungen verstehen:
+
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## Sparen mit Bitcoin
 

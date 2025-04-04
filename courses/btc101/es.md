@@ -557,7 +557,7 @@ A continuación definiremos varios niveles de seguridad:
 
 Por ejemplo, puede utilizar Sparrow Wallet como cartera caliente:
 
-https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - Nivel 2\*\*, utilizas un monedero físico y has asegurado tu lista de 12/24 palabras. A menudo se denomina "monedero frío" porque tus claves se almacenan en un dispositivo que no está conectado a Internet. En este caso, siempre tendrás que firmar cada transacción con tu dispositivo, lo que hace que tus fondos sean menos accesibles a diario.
 
@@ -1048,6 +1048,8 @@ Hoy en día, Bitcoin sigue sobreviviendo y creciendo aún más al integrarse cad
 
 ![image](assets/en/71.webp)
 
+
+
 ## Obtener Bitcoins trabajando
 
 <chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>
@@ -1078,13 +1080,17 @@ Trataremos este tema en detalle en otro curso, pero para simplificarlo, podemos 
 
 - Solución en línea sencilla: OpenNode
 
-https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - Solución para comerciantes aficionados: Swiss Bitcoin Pay
 
-https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Solución para grandes estructuras o bitcoiners apasionados: Servidor BTCpay
+
+Para profundizar en este tema, le recomendamos nuestra formación BIZ101. Descubra cómo integrar eficazmente bitcoin en la tesorería de su empresa, aceptar bitcoin como medio de pago según el perfil de su organización y comprender los requisitos fiscales y contables asociados:
+
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## Ahorrar con Bitcoin
 

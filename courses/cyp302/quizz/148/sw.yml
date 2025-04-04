@@ -1,0 +1,9 @@
+question: Ni chaguo gani la kukokotoa linalotumika kukokotoa idadi ya nambari kamili hadi nambari N jumla?
+answer: Kazi ya Phi ya Euler
+wrong_answers:
+  - Kitendaji cha logarithmic
+  - Kitendaji cha Gamma cha Euler
+  - Kazi ya Gauss
+explanation: |
+  Chaguo za kukokotoa za Phi ya Euler (au chaguo za kukokotoa totient) hutumika kukokotoa idadi ya nakala za nambari kamili N, haswa kwa nambari kamili zisizo za msingi.
+reviewed: false

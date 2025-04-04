@@ -1,0 +1,10 @@
+question: Kiwango cha mfumuko wa bei nchini Ujerumani mnamo Oktoba 1923 kilikuwa kipi?
+answer: 29.50%.
+wrong_answers:
+  - 200.9%.
+  - 50.51%.
+  - 25.98%.
+explanation: |
+  Mwezi uliokuwa na kiwango cha juu zaidi cha mfumuko wa bei nchini Ujerumani ulikuwa
+  Oktoba 1923, kilele cha 29.50%.
+reviewed: true

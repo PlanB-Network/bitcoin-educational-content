@@ -557,7 +557,7 @@ Di bawah ini, kami akan mendefinisikan beberapa tingkat keamanan:
 
 Misalnya, Anda dapat menggunakan Sparrow Wallet sebagai hot wallet:
 
-https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - Level 2\*\*, Anda menggunakan dompet fisik, dan Anda telah mengamankan daftar 12/24 kata. Ini sering disebut sebagai "Dompet dingin" karena kunci Anda disimpan di perangkat yang tidak terhubung ke internet. Dalam hal ini, Anda harus selalu menandatangani setiap transaksi dengan perangkat Anda, yang membuat dana Anda tidak dapat diakses setiap hari.
 
@@ -1048,6 +1048,7 @@ Saat ini, Bitcoin terus bertahan dan semakin berkembang dengan semakin diintegra
 
 ![image](assets/en/71.webp)
 
+
 ## Mendapatkan Bitcoin dengan Bekerja
 
 <chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>
@@ -1078,13 +1079,17 @@ Kami akan membahas topik ini secara rinci dalam kursus lain, tetapi untuk memper
 
 - Solusi online yang sederhana: OpenNode
 
-https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - Solusi untuk pedagang amatir: Pembayaran Bitcoin Swiss
 
-https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Solusi untuk struktur besar atau pengguna bitcoin yang bersemangat: Server BTCpay
+
+Untuk mempelajari lebih lanjut tentang topik ini, kami merekomendasikan pelatihan kami BIZ101! Temukan cara mengintegrasikan bitcoin secara efektif ke dalam kas perusahaan Anda, menerima bitcoin sebagai alat pembayaran sesuai dengan profil organisasi Anda, dan memahami persyaratan pajak dan akuntansi terkait:
+
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## Menabung dengan Bitcoin
 
@@ -1139,7 +1144,7 @@ Ada beberapa cara untuk mendapatkan bitcoin, masing-masing tunduk pada peraturan
 
 - Platform DCA
 
-Seperti yang telah kami perkenalkan di atas, metode umum untuk mengumpulkan bitcoin adalah Dollar Cost Averaging (DCA), yang melibatkan pembelian dalam jumlah kecil secara teratur. Beberapa platform menawarkan layanan ini, seperti yang tercantum di [halaman khusus] kami (https://planb.network/tutorials/exchange). Selain kemudahan dalam menyiapkan DCA, penarikan ke dompet Anda umumnya dilakukan secara otomatis, yang berarti Anda akan selalu memiliki kendali atas aset Anda.
+Seperti yang telah kami perkenalkan di atas, metode umum untuk mengumpulkan bitcoin adalah Dollar Cost Averaging (DCA), yang melibatkan pembelian dalam jumlah kecil secara teratur. Beberapa platform menawarkan layanan ini, seperti yang tercantum di [halaman khusus](https://planb.network/tutorials/exchange). Selain kemudahan dalam menyiapkan DCA, penarikan ke dompet Anda umumnya dilakukan secara otomatis, yang berarti Anda akan selalu memiliki kendali atas aset Anda.
 
 Saat ini, hampir semua solusi DCA relatif efisien dan memiliki biaya yang hampir sama, sehingga pilihannya akan lebih bergantung pada ketersediaan di negara Anda.
 

@@ -1,0 +1,9 @@
+question: Bitcoin Address 在交易中的主要作用是什麼？
+answer: 鎖定腳本中的 UTXOsPubKey
+wrong_answers:
+  - 解鎖腳本中的 UTXOsSig
+  - 交易結束的信號
+  - 識別確認區塊
+explanation: |
+  在 scriptPubKey 中嵌入一個 Bitcoin Address 來鎖定 UTXO。它決定了解鎖資金的必要條件。
+reviewed: false

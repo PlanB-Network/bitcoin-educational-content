@@ -1,0 +1,11 @@
+question: Bitcoin 網路的基礎 Layer 通常被稱為什麼？
+answer: 和解 Layer
+wrong_answers:
+  - 交易 Layer
+  - 安全 Layer
+  - 共識 Layer
+explanation: |
+  Bitcoin 網路的基地台 Layer，Lightning
+  開啟和關閉付款通道所依賴的網路、
+  通常被稱為結算 Layer。
+reviewed: true

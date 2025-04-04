@@ -787,7 +787,7 @@ Pada bagian pertama, kita dapat melihat bahwa:
 
 - `ln` menunjukkan bahwa ini adalah transaksi Lightning.
 - `bc` menunjukkan bahwa jaringan Lightning berada di blockchain Bitcoin (dan bukan di testnet atau di Litecoin).
-- `100u` menunjukkan jumlah faktur, dinyatakan dalam **mikrosatoshis** (`u` berarti "mikro"), yang di sini sama dengan 10.000 sats.
+- `100u` menunjukkan jumlah faktur, dinyatakan dalam **mikrobitcoins** (`u` berarti "mikro"), yang di sini sama dengan 10.000 sats.
 
 Untuk menunjukkan jumlah pembayaran, ini dinyatakan dalam sub-unit bitcoin. Berikut adalah unit yang digunakan:
 

@@ -1,0 +1,14 @@
+question: Tatizo la Majenerali wa Byzantine ni nini?
+answer: Ni tatizo la kuratibu taarifa katika mfumo ambapo wahusika mbalimbali hawawezi kuaminiwa.
+wrong_answers:
+  - Ni tatizo la kuthibitisha miamala katika mtandao uliogatuliwa.
+  - Ni tatizo la kuzuia matumizi maradufu katika sarafu ya kidijitali.
+  - Ni tatizo la kudumisha makubaliano katika mtandao wa kati.
+explanation: |
+  Tatizo la Majenerali wa Byzantine ni tatizo la kawaida
+  kompyuta iliyosambazwa, ambayo inahusisha kufikia makubaliano
+  katika mtandao ambapo baadhi ya nodi zinaweza kuwa na hitilafu au
+  hasidi. Bitcoin hutatua tatizo hili kwa kutumia a
+  Blockchain kulingana na Proof of Work, ambayo inahakikisha kuwa yote
+  nodi zinakubaliana juu ya hali ya historia ya muamala.
+reviewed: true

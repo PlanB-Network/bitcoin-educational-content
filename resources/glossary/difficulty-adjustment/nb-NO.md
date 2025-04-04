@@ -6,8 +6,6 @@ Vanskelighetsjustering er en periodisk prosess som omdefinerer vanskelighetsmål
 
 $$N = A \cdot \left(\frac{T}{1,209,600}\right)$$$
 
-&nbsp;
-
 Hvor?
 
 

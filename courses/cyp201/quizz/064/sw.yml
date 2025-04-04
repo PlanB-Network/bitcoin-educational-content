@@ -1,0 +1,9 @@
+question: Ni kazi gani kuu ya ufunguo uliopanuliwa katika HD Wallet?
+answer: Ili kuruhusu kupatikana kwa funguo za watoto
+wrong_answers:
+  - Hifadhi miamala ya Wallet
+  - Moja kwa moja generate UTXOs
+  - Simba funguo za umma
+explanation: |
+  Ufunguo uliopanuliwa unachanganya ufunguo (wa faragha au wa umma) na msimbo wa mnyororo unaohusishwa, yaani, Elements mbili zinazohitajika ili kupata funguo za watoto.
+reviewed: false

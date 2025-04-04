@@ -1,0 +1,9 @@
+question: 為什麼追蹤每次 Bitcoin 交易時的法定貨幣價值很重要？
+answer: 確保準確記帳及符合稅務規定
+wrong_answers:
+  - 要自動增加 Wallet 平衡
+  - 直接從 Wallet 進行即時市場交易
+  - 降低網路徵收的交易費用
+explanation: |
+  追蹤法定貨幣價值有助於企業在 Bitcoin 價格波動時管理簿記。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni zana gani kuu ya kiuchumi iliyopendekezwa na Keynes ili kuchochea uchumi?
+answer: Ongezeko la matumizi ya umma
+wrong_answers:
+  - Kupunguzwa kwa ushuru
+  - Ukombozi wa soko
+  - Kuongezeka kwa mauzo ya nje
+explanation: |
+  Keynes alitetea kuongeza matumizi ya umma ili kuchochea mahitaji ya jumla, hasa wakati wa mdororo wa uchumi, ili kupunguza ukosefu wa ajira na kuanzisha ukuaji wa uchumi.
+reviewed: false

@@ -53,7 +53,7 @@ Pilih kata sandi yang kuat untuk mengamankan akses ke akun Anda, lalu klik "*Lan
 
 Untuk pengelolaan kata sandi yang aman setiap hari, penggunaan pengelola kata sandi sangat dianjurkan. Pada Plan ₿ Network, Anda akan menemukan beberapa tutorial tentang solusi terbaik yang ada, seperti Bitwarden:
 
-https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Anda kemudian akan diminta untuk memverifikasi identitas Anda (KYC). Sesuai dengan peraturan Prancis, Anda akan diminta untuk memberikan informasi pribadi dan bukti identitas. Isi kotak dengan nama belakang, nama depan, dan tanggal lahir Anda.
 

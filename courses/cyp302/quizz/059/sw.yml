@@ -1,0 +1,9 @@
+question: Ni mtaalamu gani wa hisabati wa Ufaransa aliyeanzisha dhana ya vikundi katika karne ya 19?
+answer: Évariste Galois
+wrong_answers:
+  - Henri Poincaré
+  - Pierre-Simon Laplace
+  - Joseph Fourier
+explanation: |
+  Évariste Galois alianzisha nadharia ya kikundi ili kusoma masuluhisho ya milinganyo ya polinomia ya shahada ya juu kuliko tano.
+reviewed: false

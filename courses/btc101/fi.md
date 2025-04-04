@@ -557,7 +557,7 @@ Seuraavassa määritellään useita turvallisuustasoja:
 
 Voit esimerkiksi käyttää Sparrow-lompakkoa kuumana lompakkona:
 
-https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - Taso 2\*\*, käytät fyysistä lompakkoa ja olet varmistanut 12/24 sanan luettelon. Sitä kutsutaan usein "kylmäksi lompakoksi", koska avaimesi on tallennettu laitteeseen, joka ei ole yhteydessä internetiin. Tässä tapauksessa sinun on aina allekirjoitettava jokainen maksutapahtuma laitteellasi, jolloin varojesi päivittäinen saatavuus heikkenee.
 
@@ -1048,6 +1048,8 @@ Nykyään Bitcoin jatkaa selviytymistään ja kasvuaan entisestään integroitum
 
 ![image](assets/en/71.webp)
 
+
+
 ## Bitcoinsin hankkiminen työskentelemällä
 
 <chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>
@@ -1078,13 +1080,17 @@ Käsittelemme tätä aihetta yksityiskohtaisesti toisella kurssilla, mutta yksin
 
 - Yksinkertainen online-ratkaisu: OpenNode
 
-https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - Ratkaisu amatöörikauppiaille: Bitcoin Pay
 
-https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Ratkaisu suurille rakenteille tai intohimoisille bitcoin-asiakkaille: BTCpay Server
+
+Tämän aiheen syvällisempään ymmärtämiseen suosittelemme koulutustamme BIZ101! Opi, kuinka voit tehokkaasti integroida bitcoinit yrityksesi kassavirtaan, hyväksyä bitcoin maksutapana organisaatiosi profiilin mukaan ja ymmärtää asiaan liittyvät vero- ja kirjanpitovaatimukset:
+
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## Säästäminen Bitcoinilla
 

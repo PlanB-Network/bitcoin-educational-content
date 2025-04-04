@@ -1,0 +1,9 @@
+question: Ni nani aliyeunda jukwaa la Mt. Gox Exchange mnamo Julai 18, 2010, wiki moja baada ya ufyekaji mkubwa wa Bitcoin?
+answer: Jed McCaleb
+wrong_answers:
+  - Mark Karpeles
+  - Marti Malmi
+  - Gavin Andresen
+explanation: |
+  Aliunda soko hili la ufanisi kwa haraka, akigundua jinsi ilivyokuwa vigumu kupata Bitcoin katika Exchange kwa dola (hasa kwenye Soko la Bitcoin).
+reviewed: false

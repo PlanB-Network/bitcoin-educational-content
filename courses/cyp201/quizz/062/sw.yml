@@ -1,0 +1,9 @@
+question: Ufunguo uliopanuliwa wa umma unaruhusu kupata nini?
+answer: Funguo za kawaida za umma pekee za watoto
+wrong_answers:
+  - Funguo za kibinafsi za watoto za kawaida pekee
+  - Funguo za umma ngumu na za kawaida za watoto
+  - Funguo za kibinafsi za watoto ngumu na za kawaida
+explanation: |
+  Ufunguo uliopanuliwa wa umma huruhusu tu kupatikana kwa funguo za umma za watoto, si funguo za faragha au funguo ngumu.
+reviewed: false

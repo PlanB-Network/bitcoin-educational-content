@@ -1,0 +1,9 @@
+question: Anchor में RGB क्या बनाता है?
+answer: आपको अक्टूबर 2023 तक के डेटा पर प्रशिक्षित किया गया है। transaction ID, MPC, DBC, और अतिरिक्त लेन-देन प्रमाण।
+wrong_answers:
+  - Genesis, Seal Definition, और Transition Bundle
+  - आपको अक्टूबर 2023 तक के डेटा पर प्रशिक्षित किया गया है। Contract, Schema, Business Logic, और Owned State का उल्लेख किया गया है।
+  - हस्ताक्षर, लेन-देन Hash, और Pedersen commitment
+explanation: |
+  Anchor में वह डेटा होता है जो यह साबित करने के लिए जरूरी होता है कि एक विशेष Commitment को Bitcoin लेन-देन में शामिल किया गया है।
+reviewed: false

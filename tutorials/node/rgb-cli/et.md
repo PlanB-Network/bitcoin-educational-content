@@ -309,4 +309,4 @@ Te teate nüüd, kuidas RGB-lepingut sõlmida ja üle kanda. Kui leidsite selle 
 
 Soovitan ka seda teist õpetust, kus ma selgitan, kuidas käivitada RGB-ühilduv Lightning-sõlm, et vahetada märgid peaaegu koheselt:
 
-https://planb.network/tutorials/node/rgb/rln-ffc02528-329b-4e16-bd83-873d0299feea
+https://planb.network/tutorials/node/others/rln-ffc02528-329b-4e16-bd83-873d0299feea

@@ -1,0 +1,12 @@
+question: Je, ni faida gani kuu ya kutumia kidhibiti nenosiri?
+answer: Inakusaidia kuunda manenosiri thabiti na kuyakumbuka, kwa hivyo sio lazima.
+wrong_answers:
+  - Inakuingiza kiotomatiki kwenye akaunti zako za mtandaoni.
+  - Inalinda kompyuta yako kutoka kwa virusi.
+  - Huhifadhi manenosiri yako yote katika sehemu moja, na kuifanya iwe rahisi kupatikana.
+explanation: |
+  Kidhibiti cha nenosiri hukusaidia kuunda nenosiri thabiti na
+  wakumbuke, kwa hivyo sio lazima. Inahifadhi yako yote
+  nywila kwa njia salama na hutengeneza nywila zenye nguvu
+  kwa ajili yako.
+reviewed: true

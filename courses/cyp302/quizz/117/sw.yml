@@ -1,0 +1,9 @@
+question: Je! Sehemu za Galois hutumiwa katika hatua gani ya usimbaji fiche wa AES?
+answer: Kwa ubadilishaji wa byte na uendeshaji wa MixColumns
+wrong_answers:
+  - Katika kizazi cha ufunguo wa kibinafsi
+  - Wakati wa kugawanya maandishi katika vizuizi 128-bit
+  - Katika kila hatua ya operesheni ya XOR
+explanation: |
+  Sehemu za Galois hutumiwa badala ya baiti kukokotoa kinyume kizidishi na katika operesheni ya MixColumns kutekeleza kuzidisha modulo ya polinomia isiyoweza kupunguzwa.
+reviewed: false

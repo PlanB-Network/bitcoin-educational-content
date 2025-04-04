@@ -10,10 +10,12 @@ proofreading:
   - language: en
     last_contribution_date: 2025-01-29
     urgency: 1
-    contributors_id:
+    contributor_names:
       - hunt-wood
     reward: 0.11
 tags:
   - business
   - use-case
   - adoption
+contributor_names:
+  - PaoloFoti

@@ -142,5 +142,5 @@ Baccaは、あなたのLedgerが本物かどうかをお知らせします。本
 また、GnuPGのチュートリアルでは、ソフトウェアをインストールする前に、そのソフトウェアの完全性と真正性をチェックする方法について説明していますので、こちらもご覧になることをお勧めします。これは、特にLianaやSparrowのようなポートフォリオ管理ソフトウェアをインストールする際に重要な習慣です：
 
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 

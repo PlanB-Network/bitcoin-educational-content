@@ -1,0 +1,9 @@
+question: Kulingana na maandishi, ni tofauti gani ya kimsingi kati ya nadharia za Contract na nadharia za soko?
+answer: Nadharia za Contract hutafuta maelewano ya kijamii kupitia shurutisho la serikali, huku nadharia za soko huruhusu maslahi ya mtu binafsi kuoanishwa zenyewe.
+wrong_answers:
+  - Nadharia za Contract zinatumika kwa jamii za zamani huku nadharia za soko zinatumika kwa jamii za kisasa.
+  - Nadharia za Contract zinahusu mgawanyo wa mali ilhali nadharia za soko zinahusu uzalishaji wa bidhaa na huduma.
+  - Nadharia za Contract zinalindwa na wanafiziokrati huku nadharia za soko zikilindwa na wanabiashara.
+explanation: |
+  Nadharia za Contract huona maelewano ya kijamii kama yalivyowekwa na serikali, ilhali nadharia za soko huzingatia kwamba maslahi ya mtu binafsi, kwa kuingiliana kwa uhuru, hutengeneza moja kwa moja usawa wa kijamii.
+reviewed: false

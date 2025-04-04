@@ -1,0 +1,9 @@
+question: Jina la kijana Finn ambaye alisaidia Satoshi kwa mawasiliano kuhusu mradi wake mwaka 2009, hasa kwa kusimamia tovuti ya Bitcoin na jukwaa lilikuwa nani?
+answer: Marti Malmi
+wrong_answers:
+  - Mike Hearn
+  - Gavin Andresen
+  - RPOW
+explanation: |
+  Aliwasiliana na Satoshi mnamo Aprili 2009. Satoshi mara moja ilimpa kazi ya kuandika Maswali Yanayoulizwa Mara kwa Mara na uwasilishaji wa tovuti. Martti Malmi alikuwa mtu wa mkono wa kulia wa Satoshi kwa zaidi ya mwaka mmoja.
+reviewed: false

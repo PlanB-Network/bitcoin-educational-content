@@ -9,6 +9,4 @@ Structure de données dans le système Bitcoin. Un bloc contient un ensemble de 
 * L'horodatage du bloc ;
 * La cible de difficulté ;
 * Le nonce.
-
 Pour être valide, un bloc doit disposer d'un entête qui, une fois haché avec `SHA256d`, produit un condensat inférieur ou égal à la cible de difficulté.
-

@@ -1,0 +1,11 @@
+question: Kusudi kuu la sasisho la programu ni nini?
+answer: Ili kurekebisha hitilafu na kuboresha usalama wa programu yako
+wrong_answers:
+  - Ili kuongeza vipengele vipya
+  - Ili kubadilisha programu Interface
+  - Ili kuongeza saizi ya programu
+explanation: |
+  Ingawa masasisho ya programu mara nyingi huja na vipengele vipya, madhumuni yao kuu
+  ni kurekebisha hitilafu na kuboresha usalama wa programu. Hii ni muhimu kutunza
+  kompyuta yako katika hali bora ya kufanya kazi.
+reviewed: false

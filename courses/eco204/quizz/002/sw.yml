@@ -1,0 +1,11 @@
+question: Ni nini tafsiri ya mfumuko wa bei kwa mujibu wa Robert?
+answer: Mfumuko wa bei ni ongezeko la kupita kiasi katika njia za malipo na kusababisha kupanda kwa bei na kushuka kwa thamani ya sarafu.
+wrong_answers:
+  - Mfumuko wa bei ni kupungua kwa njia za malipo na kusababisha kupanda kwa bei na kushuka kwa thamani ya sarafu.
+  - Mfumuko wa bei ni ongezeko la kupita kiasi katika njia za malipo na kusababisha kupungua kwa bei na kushuka kwa thamani ya sarafu.
+  - Mfumuko wa bei ni ongezeko la kupita kiasi katika njia za malipo na kusababisha kupanda kwa bei na kuthaminiwa kwa sarafu.
+explanation: |
+  Kulingana na Robert, mfumuko wa bei unafafanuliwa kama ongezeko la kupita kiasi
+  vyombo vya malipo (noti, mtaji) na kusababisha kupanda kwa bei na kushuka kwa thamani
+  ya sarafu.
+reviewed: false

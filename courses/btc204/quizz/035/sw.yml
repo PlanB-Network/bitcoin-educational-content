@@ -1,0 +1,9 @@
+question: Nani aligundua urithi wa utumiaji tena wa Address?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - Vitalik Buterin
+  - Hal Finney
+  - Gavin Andresen
+explanation: |
+  Mtu wa kwanza kujadili dhana hii alikuwa Satoshi Nakamoto katika sehemu ya 10 ya Karatasi Nyeupe ya Bitcoin.
+reviewed: false

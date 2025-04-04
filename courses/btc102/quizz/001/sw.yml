@@ -1,0 +1,11 @@
+question: Je, ni kashfa gani ya kawaida inayohusiana na mashindano ya mtandaoni au michango katika sekta ya crypto?
+answer: Matangazo yanayoahidi bitcoins za bure.
+wrong_answers:
+  - Matangazo ya kuahidi bidhaa za kimwili.
+  - Matangazo yanayoahidi sarafu ya bure ya fiat.
+  - Matangazo ya kuahidi programu ya bure.
+explanation: |
+  Ulaghai unaohusiana na mashindano ya mtandaoni au michango ni ya kawaida sana katika
+  sekta ya crypto. Matangazo yanayoahidi bitcoins za bure mara nyingi hutumiwa kudanganya
+  watumiaji wasio na uzoefu.
+reviewed: false

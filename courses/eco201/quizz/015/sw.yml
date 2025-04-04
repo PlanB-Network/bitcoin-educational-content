@@ -1,0 +1,12 @@
+question: Kulingana na Carl Menger, kwa nini Exchange ya hiari kati ya watu wawili hufanyika?
+answer: Kila chama kinaamini itaongeza matumizi yao ya kibinafsi.
+wrong_answers:
+  - Kila chama kinaamini kitapunguza matumizi yao ya kibinafsi.
+  - Kila chama kinaamini kitadumisha matumizi yao ya kibinafsi.
+  - Kila chama kinaamini kuwa hakitakuwa na athari kwa matumizi yao ya kibinafsi.
+explanation: |
+  Menger anakisia kuwa Exchange ya hiari kati ya mbili
+  watu binafsi hufanyika kwa sababu kila chama kinaamini itakuwa
+  kuongeza matumizi yao ya kibinafsi. Hii ina maana kwamba kila mmoja
+  chama kinaamini watakuwa bora zaidi baada ya Exchange.
+reviewed: true

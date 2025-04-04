@@ -1,0 +1,9 @@
+question: Zana kama Zaprite na Musqet zina jukumu gani katika suluhisho la malipo ya Kitaalamu?
+answer: Wanaboresha hali ya malipo
+wrong_answers:
+  - Wanashughulikia ubadilishaji wa sarafu nyingi na malipo ya fiat
+  - Zinalenga katika kusimba data ya muamala kwa njia fiche na kudhibiti funguo za faragha
+  - Zinatumika kama mifumo ya msingi ya POS
+explanation: |
+  Zaprite na Musqet huongeza uboreshaji wa ubinafsishaji na kuripoti kwa mchakato wa kulipa, inayosaidia muundo msingi wa malipo.
+reviewed: false

@@ -1,0 +1,10 @@
+question: Satoshi Nakamoto ilipotea lini?
+answer: Mwaka 2010
+wrong_answers:
+  - Mwaka 2008
+  - Mwaka 2009
+  - Mnamo 2023
+explanation: |
+  Satoshi Nakamoto ilipotea mnamo 2010, ikiacha uumbaji wake
+  mikononi mwa jamii.
+reviewed: true

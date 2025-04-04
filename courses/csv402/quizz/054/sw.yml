@@ -1,0 +1,9 @@
+question: RGBlib ni nini katika mfumo ikolojia wa RGB?
+answer: Maktaba ya kuunda programu zinazosimamia mali ya RGB
+wrong_answers:
+  - Android Wallet iliyoundwa kwa usimamizi wa mali ya RGB
+  - Mteja mbadala wa itifaki ya RGB
+  - Tovuti ya kuonyesha RGB NFTs
+explanation: |
+  RGBlib inatoa Interface iliyorahisishwa kwa wasanidi programu, inayowawezesha kudhibiti utoaji, uhamisho na uthibitishaji wa mali ya RGB bila kulazimika kufahamu maelezo yote ya kiufundi.
+reviewed: false

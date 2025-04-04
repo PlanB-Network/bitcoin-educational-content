@@ -1,0 +1,8 @@
+question: Je, ni kazi gani ya kurekebisha ugumu katika mtandao wa Bitcoin?
+answer: Inahakikisha kuwa kizuizi kinaongezwa kwa Blockchain takriban kila dakika kumi.
+wrong_answers:
+  - Huamua bei ya Bitcoin.
+  - Inasimamia idadi ya bitcoins ambazo zinaweza kuchimbwa katika Blockchain.
+  - Inaamua ukubwa wa block.
+explanation: >-
+reviewed: true

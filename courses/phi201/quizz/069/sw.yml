@@ -1,0 +1,9 @@
+question: Je, mtazamo wa Turgot kuelekea ukweli wa kidini ulikuwa upi?
+answer: Ukweli wa kidini ni suala la dhamiri ya mtu binafsi na hauwezi kulazimishwa na mamlaka yoyote.
+wrong_answers:
+  - Ukweli wa kidini unahusiana na inategemea utamaduni na enzi ambayo mtu anaishi.
+  - Ukweli wa kidini hauwezi kufikiwa na mwanadamu na hauwezi kuwa mada ya uhakika wowote.
+  - Ukweli wa kidini lazima uamuliwe na nguvu za kisiasa na kuwekwa kwa raia wote.
+explanation: |
+  Turgot aliona ukweli wa kidini kuwa jambo la kibinafsi linalohusu dhamiri ya mtu binafsi, akisisitiza kwamba mamlaka haina haki ya kulazimisha imani ya kidini kwa mtu mmoja-mmoja.
+reviewed: false

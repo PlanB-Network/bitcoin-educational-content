@@ -557,7 +557,7 @@ Di seguito definiremo diversi livelli di sicurezza:
 
 Ad esempio, è possibile utilizzare Sparrow Wallet come portafoglio caldo:
 
-https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - Livello 2\*\*, si utilizza un portafoglio fisico e si è protetto l'elenco di 12/24 parole. Viene spesso definito "portafoglio freddo" perché le chiavi sono memorizzate su un dispositivo non connesso a Internet. In questo caso, dovrete sempre firmare ogni transazione con il vostro dispositivo, il che rende i vostri fondi meno accessibili su base giornaliera.
 
@@ -1048,6 +1048,8 @@ Oggi il Bitcoin continua a sopravvivere e a crescere, integrandosi sempre di pi�
 
 ![image](assets/en/71.webp)
 
+
+
 ## Ottenere Bitcoin lavorando
 
 <chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>
@@ -1078,13 +1080,17 @@ Tratteremo questo argomento in dettaglio in un altro corso, ma per non complicar
 
 - Una semplice soluzione online: OpenNode
 
-https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - Soluzione per commercianti dilettanti: Swiss Bitcoin Pay
 
-https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Soluzione per grandi strutture o appassionati di bitcoiners: Server BTCpay
+
+Per approfondire questo argomento, ti consigliamo la nostra formazione BIZ101! Scopri come integrare efficacemente il bitcoin nella tesoreria della tua azienda, accettare bitcoin come mezzo di pagamento in base al profilo della tua organizzazione e comprendere i requisiti fiscali e contabili associati:
+
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## Risparmiare con i Bitcoin
 

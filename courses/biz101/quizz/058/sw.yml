@@ -1,0 +1,9 @@
+question: Je, ni faida gani moja ya kutumia Wallet iliyohifadhiwa kwa wasifu wa Starter?
+answer: Kupunguzwa kwa majukumu ya kiufundi
+wrong_answers:
+  - Kuongezeka kwa udhibiti wa funguo za kibinafsi
+  - Faragha iliyoimarishwa na uhuru kamili juu ya miamala
+  - Kuondolewa kwa ada za muamala
+explanation: |
+  Pochi za uhifadhi hudhibiti funguo za kibinafsi, kupunguza mizigo ya kiufundi kwa watumiaji.
+reviewed: false

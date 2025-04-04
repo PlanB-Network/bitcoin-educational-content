@@ -1,0 +1,9 @@
+question: Ni nini kinachofanya msingi wa kimwili wa mawasiliano mengi katika ulimwengu ulioendelea?
+answer: Mitandao ya kebo ya fiber optic
+wrong_answers:
+  - Satelaiti kwa kila muunganisho
+  - Kebo za coaxial pekee
+  - Waya za shaba pekee
+explanation: |
+  Mawasiliano mengi ya kisasa yanategemea mitandao ya kebo za fibre optic, ambayo huhakikisha ubadilishanaji wa data wa kasi ya juu, ingawa baadhi ya matumizi ya satelaiti na nyaya za koaxial husalia.
+reviewed: false

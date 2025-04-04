@@ -1,0 +1,11 @@
+question: Je, ni sifa gani kuu ya Hodler katika muktadha wa uwekezaji wa Bitcoin?
+answer: Wanashikilia Bitcoin kwa muda mrefu.
+wrong_answers:
+  - Mara nyingi hufanya biashara ya Bitcoin.
+  - Wanawekeza tu katika Bitcoin wakati bei iko chini.
+  - Wanauza Bitcoin mara tu bei inapoongezeka.
+explanation: |
+  Hodler, katika muktadha wa uwekezaji wa Bitcoin, ni mtu anayeshikilia
+  Bitcoin kwa muda mrefu, kuweka dau kuwa matumizi na uhaba wake utaongezeka zaidi
+  wakati.
+reviewed: false

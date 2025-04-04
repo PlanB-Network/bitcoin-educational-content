@@ -1,0 +1,8 @@
+question: Je, mtandao wa Bitcoin unahakikishaje kuwa ni gharama kubwa sana kutenda kwa nia mbaya ndani ya itifaki ya Bitcoin?
+answer: Kupitia sheria za itifaki na motisha za kiuchumi.
+wrong_answers:
+  - Kupitia udhibiti mkali na uangalizi.
+  - Kupitia matumizi ya hatua za juu za usalama.
+  - Kupitia tishio la kuchukuliwa hatua za kisheria.
+explanation: >-
+reviewed: true

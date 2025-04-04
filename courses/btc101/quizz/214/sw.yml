@@ -1,0 +1,12 @@
+question: Milton Friedman alitabiri nini mnamo 1999?
+answer: Maendeleo ya e-cash ya kuaminika.
+wrong_answers:
+  - Uharibifu wa pesa za kimwili.
+  - Kuongezeka kwa Bitcoin.
+  - Mwisho wa udhibiti wa serikali juu ya pesa.
+explanation: |
+  Milton Friedman, mwanauchumi mashuhuri, alitabiri mnamo 1999
+  kwamba e-cash yenye kutegemeka ingetengenezwa hivi karibuni, njia
+  ambapo kwenye mtandao unaweza kuhamisha fedha kutoka A hadi B,
+  bila A kujua B au kinyume chake.
+reviewed: true

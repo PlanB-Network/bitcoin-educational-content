@@ -1,0 +1,14 @@
+question: Je, ni vipimo gani vitatu vya sadfa mbili za tatizo la kutaka?
+answer: Ya anga, ya muda, na ya kibinafsi.
+wrong_answers:
+  - Ya anga, ya muda, na ya kibinafsi.
+  - Nafasi, baina ya muda, na baina ya watu.
+  - Interspatial, temporal, na baina ya watu.
+explanation: |
+  bahati mbaya mara mbili ya tatizo anataka inahusu
+  ugumu wa kubadilishana ambapo pande zote mbili zinahitaji kumiliki
+  kitu ambacho wengine wanatamani kwa wakati mmoja na mahali.
+  Tatizo hili lina pande tatu; anga (sehemu moja),
+  ya muda (wakati huo huo), na ya kibinafsi (tamaa ya pamoja ya
+  bidhaa za kila mmoja).
+reviewed: true

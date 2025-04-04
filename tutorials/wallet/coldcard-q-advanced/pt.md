@@ -247,4 +247,4 @@ Se achou este tutorial útil, ficaria muito grato se deixasse um polegar verde a
 
 Recomendo também este outro tutorial, no qual discutimos a utilização de um concorrente direto do CCQ, o Ledger Flex :
 
-https://planb.network/fr/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

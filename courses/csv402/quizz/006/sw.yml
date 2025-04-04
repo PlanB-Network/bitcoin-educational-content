@@ -1,0 +1,9 @@
+question: Katika RGB, Commitment iko wapi wakati Single-Use Seal imefungwa?
+answer: Katika matokeo ya shughuli ya matumizi outpoint
+wrong_answers:
+  - Katika pembejeo ya shughuli matumizi outpoint
+  - Katika hati yaSig ya shughuli inayotumia muhtasari
+  - Katika Shahidi wa shughuli ya matumizi ya outpoint
+explanation: |
+  Commitment imeingizwa kwenye matokeo ya shughuli ambayo hutumia sehemu ya kufafanua Single-Use Seal.
+reviewed: false

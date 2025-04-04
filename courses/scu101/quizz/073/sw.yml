@@ -1,0 +1,9 @@
+question: Je, ni faida gani kuu ya kutumia kidhibiti nenosiri?
+answer: Kumbuka nenosiri kuu moja tu.
+wrong_answers:
+  - Haitengenezi tena manenosiri mapya.
+  - Kusaidia kukariri manenosiri yote kwa kutumia mbinu za Mnemonic.
+  - Kuondoa hitaji la akaunti za mtandaoni.
+explanation: |
+  Mtumiaji anahitaji tu kukumbuka nenosiri moja ili kufikia mengine yote.
+reviewed: false

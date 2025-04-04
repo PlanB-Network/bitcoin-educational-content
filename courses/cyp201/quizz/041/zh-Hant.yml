@@ -1,0 +1,9 @@
+question: 使用設計不良的 PRNG 來 generate 熵的主要風險是什麼？
+answer: 私人密碼匙可能被攻擊者猜中
+wrong_answers:
+  - Mnemonic 詞組可能包含錯誤的字詞
+  - 數位簽章將變得無效
+  - Bitcoin 位址與網路不相容
+explanation: |
+  設計不良的 PRNG 可能會產生可預測的序列，使得金鑰更容易受到攻擊。
+reviewed: false

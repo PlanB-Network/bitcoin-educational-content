@@ -1,0 +1,9 @@
+question: 認證加密方案的主要目標是什麼？
+answer: 確保通訊的機密性和真實性
+wrong_answers:
+  - 以安全的方式使用 generate 金鑰
+  - 取代密碼交換中的 MAC
+  - 自動解密攔截的訊息
+explanation: |
+  認證加密方案結合了加密和認證碼 (MAC)，以保證訊息的機密性和真實性。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Je, uhisani wa uwongo unachangiaje upotoshaji wa sheria kulingana na Bastiat?
+answer: Kwa sababu kwa kweli inategemea msururu wa haki za uwongo ambazo mtu mwingine atalipia.
+wrong_answers:
+  - Kwa sababu inataka kulazimisha kila mtu kuwa mzuri.
+  - Kwa sababu inaweka misanthropes madarakani.
+  - Kwa sababu inajumuisha mshikamano wa hiari.
+explanation: |
+  Ufadhili wa uwongo huunda haki za bandia ambazo hutafsiriwa kuwa majukumu waliyowekewa wengine, hivyo basi kupotosha sheria kuwa chombo cha uporaji badala ya kulinda haki za asili.
+reviewed: false

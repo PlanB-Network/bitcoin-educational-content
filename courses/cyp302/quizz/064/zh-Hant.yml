@@ -1,0 +1,9 @@
+question: 在加密方案中，訊息驗證碼 (MAC) 可確保什麼？
+answer: 訊息的完整性與真實性
+wrong_answers:
+  - 訊息的保密性
+  - 訊息的壓縮
+  - 將訊息轉換為二進位
+explanation: |
+  訊息驗證碼 (Message Authentication Code, MAC) 用來確保訊息未被竄改，而且確實是來自假定的寄件者。
+reviewed: false

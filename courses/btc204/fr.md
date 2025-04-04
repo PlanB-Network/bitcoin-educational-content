@@ -1,17 +1,17 @@
 ---
-nom: La confidentialité sur Bitcoin
-but: Comprendre et maîtriser les principes de la protection de la vie privée dans l'utilisation de Bitcoin
-objectifs:
+name: La confidentialité sur Bitcoin
+goal: Comprendre et maîtriser les principes de la protection de la vie privée dans l'utilisation de Bitcoin
+objectives:
   - Définir les notions théoriques nécessaires à la compréhension des enjeux de la protection de la vie privée 
   - Savoir identifier et mitiger les risques liés à la perte de confidentialité de l'utilisateur de Bitcoin 
   - Utiliser des méthodes et des outils pour protéger sa vie privée sur Bitcoin 
-  - Comprendre les méthodes de l'analyse on-chain et développer des stratégies de défense
+  - Comprendre les méthodes de l'analyse de chaîne et développer des stratégies de défense
 ---
 # Protégez votre vie privée sur Bitcoin
 
 Dans un monde où la confidentialité des transactions financières devient progressivement un luxe, comprendre et maîtriser les principes de protection de la vie privée dans son utilisation de Bitcoin est essentiel. Cette formation vous donne toutes les clés, à la fois théoriques et pratiques, pour y parvenir de manière autonome.
 
-Aujourd'hui, sur Bitcoin, des sociétés sont spécialisées dans l'analyse on-chain. Leur cœur de métier consiste précisément à s'immiscer dans votre sphère privée, afin de compromettre la confidentialité de vos transactions. Dans les faits, le "droit à la vie privée" sur Bitcoin n’existe pas. Il vous revient donc à vous, utilisateur, de faire valoir vos droits naturels et de protéger la confidentialité de vos transactions, car personne ne va le faire à votre place. 
+Aujourd'hui, sur Bitcoin, des sociétés sont spécialisées dans l'analyse de chaîne. Leur cœur de métier consiste précisément à s'ingérer dans votre sphère privée, afin de compromettre la confidentialité de vos transactions. Dans les faits, le "droit à la vie privée" sur Bitcoin n’existe pas. Il vous revient donc à vous, utilisateur, de faire valoir vos droits naturels et de protéger la confidentialité de vos transactions, car personne ne va le faire à votre place. 
 
 Cette formation se présente comme un parcours complet et généraliste. Chaque notion technique est abordée dans le détail et appuyée par des schémas explicatifs. Le but est de rendre les connaissances accessibles à tous. BTC204 est donc abordable pour les utilisateurs débutants et intermédiaires. Cette formation offre également une valeur ajoutée aux bitcoiners les plus aguerris, puisque nous approfondissons certains concepts techniques souvent méconnus.
 
@@ -29,11 +29,11 @@ Rejoignez-nous pour transformer votre utilisation de Bitcoin et devenir un utili
 
 Dans un monde où la confidentialité des transactions financières devient progressivement un luxe, comprendre et maîtriser les principes de protection de la vie privée dans son utilisation de Bitcoin est essentiel. Cette formation vous donne toutes les clés, à la fois théoriques et pratiques, pour y parvenir de manière autonome.
 
-Aujourd'hui, sur Bitcoin, des sociétés sont spécialisées dans l'analyse on-chain. Leur cœur de métier consiste précisément à s'immiscer dans votre sphère privée, afin de compromettre la confidentialité de vos transactions. Dans les faits, le "droit à la vie privée" sur Bitcoin n’existe pas. Il vous revient donc à vous, utilisateur, de faire valoir vos droits naturels et de protéger la confidentialité de vos transactions, car personne ne va le faire à votre place.
+Aujourd'hui, sur Bitcoin, des sociétés sont spécialisées dans l'analyse de chaîne. Leur cœur de métier consiste précisément à s'ingérer dans votre sphère privée, afin de compromettre la confidentialité de vos transactions. Dans les faits, le "droit à la vie privée" sur Bitcoin n’existe pas. Il vous revient donc à vous, utilisateur, de faire valoir vos droits naturels et de protéger la confidentialité de vos transactions, car personne ne va le faire à votre place.
 
 Bitcoin n'est pas là que pour le "Number Go Up" et la conservation de la valeur de l'épargne. De par ses caractéristiques uniques et son histoire, c'est avant tout l'outil de la contre-économie. Grâce à cette invention formidable, vous pouvez librement disposer de votre argent, le dépenser et l'accumuler, sans que quiconque puisse vous en empêcher. 
 
-Bitcoin offre une échappatoire pacifique au joug des États, vous permettant de jouir pleinement de vos droits naturels, qui ne sauraient être remis en cause par les lois établies. Grâce à l'invention de Satoshi Nakamoto, vous avez le pouvoir d'imposer le respect de votre propriété privée et de retrouver la liberté d'être aux commandes.
+Bitcoin offre une échappatoire pacifique au joug des États, vous permettant de jouir pleinement de vos droits naturels, qui ne sauraient être remis en cause par les lois établies. Grâce à l'invention de Satoshi Nakamoto, vous avez le pouvoir d'imposer le respect de votre propriété privée et de retrouver la liberté de contracter.
 
 Toutefois, Bitcoin n'est pas anonyme par défaut, ce qui peut représenter un risque pour les individus engagés dans la contre-économie, en particulier dans des nations sous régime despotique. Mais ce n'est pas le seul danger. Étant donné que le bitcoin est un actif de valeur et incensurable, il peut susciter la convoitise de voleurs. Ainsi, protéger sa vie privée devient également une question de sécurité : cela peut vous aider à prévenir les piratages informatiques et les agressions physiques.
 
@@ -49,9 +49,9 @@ Pour commencer, nous allons réviser ensemble les principes fondamentaux qui ré
 
 ![BTC204](assets/fr/001.webp)
 
-### Section 2 : Comprendre l'analyse on-chain et savoir s'en protéger
+### Section 2 : Comprendre l'analyse de chaîne et savoir s'en protéger
 
-Dans la deuxième section, nous étudions les techniques employées par les entreprises d'analyse on-chain pour détecter les traces de votre activité sur Bitcoin. Comprendre ces méthodes est crucial pour renforcer la protection de votre confidentialité. Cette partie a pour objectif d'examiner les stratégies des attaquants pour mieux appréhender les risques et préparer le terrain pour les techniques que nous étudierons dans les sections suivantes. Nous analyserons les modèles de transactions (patterns), les heuristiques internes et externes, ainsi que les interprétations vraisemblables de ces modèles. En plus d'un volet théorique, nous apprendrons à utiliser un explorateur de bloc pour faire de l'analyse on-chain, à travers des exemples pratiques et des exercices.
+Dans la deuxième section, nous étudions les techniques employées par les entreprises d'analyse de chaîne pour détecter les traces de votre activité sur Bitcoin. Comprendre ces méthodes est crucial pour renforcer la protection de votre confidentialité. Cette partie a pour objectif d'examiner les stratégies des attaquants pour mieux appréhender les risques et préparer le terrain pour les techniques que nous étudierons dans les sections suivantes. Nous analyserons les modèles de transactions (patterns), les heuristiques internes et externes, ainsi que les interprétations vraisemblables de ces modèles. En plus d'un volet théorique, nous apprendrons à utiliser un explorateur de bloc pour faire de l'analyse de chaîne, à travers des exemples pratiques et des exercices.
 
 ![BTC204](assets/fr/002.webp)
 
@@ -213,7 +213,7 @@ Quant à la partie liée aux frais de transaction, bien qu'elle représente éga
 
 Tout d'abord, le modèle d'UTXO influence directement les frais de transaction sur Bitcoin. La capacité de chaque bloc étant limitée, les mineurs favorisent les transactions qui offrent les meilleurs frais au regard de la place qu'elles vont prendre dans le bloc. En effet, plus une transaction inclut d'UTXOs en inputs et en outputs, plus elle est lourde, et donc nécessite des frais plus élevés. C'est une des raisons pour lesquelles on essaie souvent de réduire le nombre d'UTXOs dans notre portefeuille, ce qui peut par ailleurs affecter la confidentialité, un sujet que nous aborderons en détail dans la troisième partie de cette formation.
 
-Ensuite, comme mentionné dans les parties précédentes, les pièces sur Bitcoin sont essentiellement une chaîne d'UTXOs. Chaque transaction crée ainsi un lien entre un UTXO passé et un futur UTXO. Les UTXOs permettent donc de suivre explicitement le chemin des bitcoins depuis leur création jusqu'à leur dépense actuelle. Cette transparence peut être perçue positivement, car elle permet à chaque utilisateur de s'assurer de l'authenticité des bitcoins reçus. Cependant, c'est aussi sur ce principe de traçabilité et d'auditabilité que repose l'analyse on-chain, une pratique visant à compromettre votre confidentialité. Nous étudierons en profondeur cette pratique dans la deuxième partie de la formation.
+Ensuite, comme mentionné dans les parties précédentes, les pièces sur Bitcoin sont essentiellement une chaîne d'UTXOs. Chaque transaction crée ainsi un lien entre un UTXO passé et un futur UTXO. Les UTXOs permettent donc de suivre explicitement le chemin des bitcoins depuis leur création jusqu'à leur dépense actuelle. Cette transparence peut être perçue positivement, car elle permet à chaque utilisateur de s'assurer de l'authenticité des bitcoins reçus. Cependant, c'est aussi sur ce principe de traçabilité et d'auditabilité que repose l'analyse de chaîne, une pratique visant à compromettre votre confidentialité. Nous étudierons en profondeur cette pratique dans la deuxième partie de la formation.
 
 ## Le modèle de confidentialité de Bitcoin
 <chapterId>769d8963-3ed5-4094-b21d-9203c7d9e465</chapterId>
@@ -279,36 +279,36 @@ Par exemple, si vous achetez une baguette chez le boulanger en payant en BTC, vo
 
 ![BTC204](assets/fr/025.webp)
 
-Mais puisque les transactions Bitcoin sont rendues publiques, il devient tout de même possible d'établir des liens entre elles pour en déduire des renseignements sur les parties impliquées. Cette activité constitue même une spécialité en soi que l'on appelle "analyse on-chain". Dans la partie suivante de la formation, je vous invite à explorer les fondamentaux de l'analyse on-chain afin de comprendre comment vos bitcoins sont tracés et de mieux savoir s'en défendre.
+Mais puisque les transactions Bitcoin sont rendues publiques, il devient tout de même possible d'établir des liens entre elles pour en déduire des renseignements sur les parties impliquées. Cette activité constitue même une spécialité en soi que l'on appelle "analyse de chaîne". Dans la partie suivante de la formation, je vous invite à explorer les fondamentaux de l'analyse de chaîne afin de comprendre comment vos bitcoins sont tracés et de mieux savoir s'en défendre.
 
-# Comprendre l'analyse on-chain et savoir s'en protéger
+# Comprendre l'analyse de chaîne et savoir s'en protéger
 <partId>4739371e-9fef-45b0-bcaa-b7a4df6b4470</partId>
 
-## C'est quoi l'analyse on-chain sur Bitcoin ?
+## C'est quoi l'analyse de chaîne sur Bitcoin ?
 <chapterId>7d198ba6-4af2-4f24-86cb-3c79cb25627e</chapterId>
 
 ![La confidentialité sur Bitcoin](https://youtu.be/PtAUOGgHEAY?feature=shared)
 
 ### Définition et fonctionnement
 
-L’analyse on-chain est une pratique qui regroupe toutes les méthodes permettant de remonter les flux de bitcoins sur la blockchain. De façon générale, l’analyse on-chain s’appuie sur l’observation de caractéristiques sur des échantillons de transactions antérieures. Elle consiste ensuite à repérer ces mêmes caractéristiques sur une transaction que l’on souhaite analyser, et à en déduire des interprétations vraisemblables. Cette méthode de résolution de problème à partir d’une approche pratique, pour trouver une solution suffisamment bonne, c’est ce que l’on appelle une "heuristique".
+L’analyse de chaîne est une pratique qui regroupe toutes les méthodes permettant de remonter les flux de bitcoins sur la blockchain. De façon générale, l’analyse de chaîne s’appuie sur l’observation de caractéristiques sur des échantillons de transactions antérieures. Elle consiste ensuite à repérer ces mêmes caractéristiques sur une transaction que l’on souhaite analyser, et à en déduire des interprétations vraisemblables. Cette méthode de résolution de problème à partir d’une approche pratique, pour trouver une solution suffisamment bonne, c’est ce que l’on appelle une "heuristique".
 
-Pour vulgariser, l’analyse on-chain se fait en trois grandes étapes :
+Pour vulgariser, l’analyse de chaîne se fait en trois grandes étapes :
 1. **L'observation de la blockchain ;**
 2. **Le repérage de caractéristiques connues ;**
 3. **La déduction d’hypothèses.**
 
 ![BTC204](assets/fr/026.webp)
 
-L'analyse on-chain peut être effectuée par n'importe qui. Il suffit d'avoir accès aux informations publiques de la blockchain via un nœud complet pour observer les mouvements des transactions et émettre des hypothèses. Il existe également des outils gratuits qui facilitent cette analyse, comme le site [OXT.me](https://oxt.me/) que nous explorerons en détail dans les deux derniers chapitres de cette partie. Toutefois, le principal risque pour la confidentialité provient des entreprises spécialisées dans l'analyse on-chain. Ces sociétés ont fait passer l'analyse on-chain à une échelle industrielle et vendent leurs services à des institutions financières ou des gouvernements. Parmi ces entreprises, Chainalysis est sûrement la plus connue.
+L'analyse de chaîne peut être effectuée par n'importe qui. Il suffit d'avoir accès aux informations publiques de la blockchain via un nœud complet pour observer les mouvements des transactions et émettre des hypothèses. Il existe également des outils gratuits qui facilitent cette analyse, comme le site [OXT.me](https://oxt.me/) que nous explorerons en détail dans les deux derniers chapitres de cette partie. Toutefois, le principal risque pour la confidentialité provient des entreprises spécialisées dans l'analyse de chaîne. Ces sociétés ont fait passer l'analyse de chaîne à une échelle industrielle et vendent leurs services à des institutions financières ou des gouvernements. Parmi ces entreprises, Chainalysis est sûrement la plus connue.
 
-### Les objectifs de l'analyse on-chain
+### Les objectifs de l'analyse de chaîne
 
-Un des objectifs de l’analyse on-chain consiste à regrouper diverses activités sur Bitcoin en vue de déterminer l'unicité de l'utilisateur les ayant effectuées. Par la suite, il sera possible de tenter de rattacher ce faisceau d'activités à une identité réelle.
+Un des objectifs de l’analyse de chaîne consiste à regrouper diverses activités sur Bitcoin en vue de déterminer l'unicité de l'utilisateur les ayant effectuées. Par la suite, il sera possible de tenter de rattacher ce faisceau d'activités à une identité réelle.
 
 ![BTC204](assets/fr/027.webp)
 
-Rappelez-vous du chapitre précédent. Je vous ai expliqué pourquoi le modèle de confidentialité de Bitcoin reposait originellement sur la séparation entre l’identité de l’utilisateur et ses transactions. Il serait donc tentant de penser que l'analyse on-chain s'avère inutile, puisque même si l'on parvient à regrouper des activités on-chain, on ne peut pas les associer à une identité réelle. 
+Rappelez-vous du chapitre précédent. Je vous ai expliqué pourquoi le modèle de confidentialité de Bitcoin reposait originellement sur la séparation entre l’identité de l’utilisateur et ses transactions. Il serait donc tentant de penser que l'analyse de chaîne s'avère inutile, puisque même si l'on parvient à regrouper des activités on-chain, on ne peut pas les associer à une identité réelle. 
 
 Théoriquement, cette affirmation est exacte. Dans la première partie de cette formation, nous avons vu que l'on emploie des paires de clés cryptographiques pour établir des conditions sur les UTXO. Par essence, ces paires de clés ne divulguent aucune information sur l’identité de leurs détenteurs. Ainsi, même si l'on réussit à regrouper les activités associées à différentes paires de clés, cela ne nous renseigne en rien sur l'entité à l'origine de ces activités.
 
@@ -322,34 +322,34 @@ Ces points d'entrée sont quasiment inévitables dans l'usage de Bitcoin. Bien q
 
 ![BTC204](assets/fr/029.webp)
 
-### Se défendre face à l'analyse on-chain
+### Se défendre face à l'analyse de chaîne
 
-Ainsi, il faut également pouvoir faire face à l’analyse on-chain dans notre utilisation de Bitcoin. En procédant de la sorte, nous pouvons minimiser l'agrégation de nos activités et limiter l’impact d’un point d’entrée sur notre vie privée. 
+Ainsi, il faut également pouvoir faire face à l’analyse de chaîne dans notre utilisation de Bitcoin. En procédant de la sorte, nous pouvons minimiser l'agrégation de nos activités et limiter l’impact d’un point d’entrée sur notre vie privée. 
 
 ![BTC204](assets/fr/030.webp)
 
-Justement, pour mieux contrecarrer l'analyse on-chain, quelle meilleure approche que de s'initier aux méthodes employées dans l’analyse on-chain ? Si vous souhaitez savoir comment améliorer votre confidentialité sur Bitcoin, vous devez comprendre ces méthodes. Cela vous permettra de mieux appréhender les techniques comme le coinjoin ou le payjoin (techniques que nous étudierons dans les dernières parties de la formation), et de réduire les erreurs que vous pourriez faire.
+Justement, pour mieux contrecarrer l'analyse de chaîne, quelle meilleure approche que de s'initier aux méthodes employées dans l’analyse de chaîne ? Si vous souhaitez savoir comment améliorer votre confidentialité sur Bitcoin, vous devez comprendre ces méthodes. Cela vous permettra de mieux appréhender les techniques comme le coinjoin ou le payjoin (techniques que nous étudierons dans les dernières parties de la formation), et de réduire les erreurs que vous pourriez faire.
 
 https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
 https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
-En cela, nous pouvons faire une analogie avec la cryptographie et la cryptanalyse. Un bon cryptographe est avant tout un bon cryptanalyste. Pour imaginer un nouvel algorithme de chiffrement, il faut savoir quelles sont les attaques auxquelles il devra faire face, et également étudier pourquoi les algorithmes précédents ont été cassés. Le même principe s'applique à la confidentialité sur Bitcoin. Comprendre les méthodes de l'analyse on-chain est la clé pour s'en prémunir. C’est pour cette raison que je vous propose une partie entière sur l'analyse on-chain dans cette formation.
+En cela, nous pouvons faire une analogie avec la cryptographie et la cryptanalyse. Un bon cryptographe est avant tout un bon cryptanalyste. Pour imaginer un nouvel algorithme de chiffrement, il faut savoir quelles sont les attaques auxquelles il devra faire face, et également étudier pourquoi les algorithmes précédents ont été cassés. Le même principe s'applique à la confidentialité sur Bitcoin. Comprendre les méthodes de l'analyse de chaîne est la clé pour s'en prémunir. C’est pour cette raison que je vous propose une partie entière sur l'analyse de chaîne dans cette formation.
 
-### Les méthodes de l'analyse on-chain
+### Les méthodes de l'analyse de chaîne
 
-Il est important de comprendre que l'analyse on-chain n'est pas une science exacte. Elle repose sur des heuristiques dérivées d'observations antérieures ou d’interprétations logiques. Ces règles permettent d'obtenir des résultats assez fiables, mais jamais d'une précision absolue. En d'autres termes, **l'analyse on-chain implique toujours une dimension de probabilité dans les conclusions émises**. Par exemple, on pourra estimer avec plus ou moins de certitude que deux adresses appartiennent à une même entité, mais une certitude totale sera toujours hors de portée.
+Il est important de comprendre que l'analyse de chaîne n'est pas une science exacte. Elle repose sur des heuristiques dérivées d'observations antérieures ou d’interprétations logiques. Ces règles permettent d'obtenir des résultats assez fiables, mais jamais d'une précision absolue. En d'autres termes, **l'analyse de chaîne implique toujours une dimension de probabilité dans les conclusions émises**. Par exemple, on pourra estimer avec plus ou moins de certitude que deux adresses appartiennent à une même entité, mais une certitude totale sera toujours hors de portée.
 
-Tout l’objectif de l'analyse on-chain réside précisément dans l'agrégation de diverses heuristiques en vue de minimiser le risque d'erreur. Il s'agit en quelque sorte d'une accumulation de preuves qui nous permet de nous approcher davantage de la réalité.
+Tout l’objectif de l'analyse de chaîne réside précisément dans l'agrégation de diverses heuristiques en vue de minimiser le risque d'erreur. Il s'agit en quelque sorte d'une accumulation de preuves qui nous permet de nous approcher davantage de la réalité.
 
 Ces fameuses heuristiques peuvent être regroupées en différentes catégories que nous allons détailler ensemble :
 - **Les patterns de transaction (ou modèles de transaction) ;**
 - **Les heuristiques internes à la transaction ;**
 - **Les heuristiques externes à la transaction.**
 
-### Satoshi Nakamoto et l'analyse on-chain
+### Satoshi Nakamoto et l'analyse de chaîne
 
-Notons que les deux premières heuristiques d'analyse on-chain ont été découvertes par Satoshi Nakamoto lui-même. Il en parle dans la partie 10 du White Paper de Bitcoin. Ce sont :
+Notons que les deux premières heuristiques d'analyse de chaîne ont été découvertes par Satoshi Nakamoto lui-même. Il en parle dans la partie 10 du White Paper de Bitcoin. Ce sont :
 - la CIOH (*Common Input Ownership Heuristic*) ;
 - et la réutilisation d’adresse.
 
@@ -357,7 +357,7 @@ Notons que les deux premières heuristiques d'analyse on-chain ont été découv
 
 Source : S. Nakamoto, "Bitcoin: A Peer-to-Peer Electronic Cash System", https://bitcoin.org/bitcoin.pdf, 2009.
 
-Nous verrons dans les chapitres suivants en quoi elles consistent, mais il est déjà intéressant de noter que ces deux heuristiques conservent toujours une prééminence dans l’analyse on-chain aujourd’hui.
+Nous verrons dans les chapitres suivants en quoi elles consistent, mais il est déjà intéressant de noter que ces deux heuristiques conservent toujours une prééminence dans l’analyse de chaîne aujourd’hui.
 
 ## Les patterns de transactions
 <chapterId>d365a101-2d37-46a5-bfb9-3c51e37bf96b</chapterId>
@@ -370,7 +370,7 @@ En d’autres termes, nous allons uniquement regarder le nombre d’UTXO en inpu
 
 ![BTC204](assets/fr/032.webp)
 
-Dans cette partie, nous allons découvrir ensemble les principaux modèles de transactions que l'on peut rencontrer en analyse on-chain, et pour chaque modèle, je vous donnerai l'interprétation vraisemblable de sa structure, ainsi qu'un exemple concret.
+Dans cette partie, nous allons découvrir ensemble les principaux modèles de transactions que l'on peut rencontrer en analyse de chaîne, et pour chaque modèle, je vous donnerai l'interprétation vraisemblable de sa structure, ainsi qu'un exemple concret.
 
 ### L’envoi simple (ou le paiement simple)
 
@@ -406,7 +406,7 @@ Ce deuxième modèle se caractérise par la consommation d’un seul UTXO en ent
 
 L’interprétation de ce modèle est que nous sommes en présence d’un auto-transfert. L’utilisateur s’est transféré ses bitcoins à lui-même, sur une autre adresse lui appartenant. Puisqu’aucun change n'existe sur la transaction, il est très peu plausible que l’on soit en présence d’un paiement. En effet, lorsqu'un paiement est effectué, il est presque impossible que le payeur dispose d'un UTXO correspondant exactement au montant requis par le vendeur, en plus des frais de transaction. En général, le payeur est donc obligé de produire un output de change.
 
-Nous savons alors que l’utilisateur observé est vraisemblablement encore en possession de cet UTXO. Dans le cadre d'une analyse on-chain, si nous savons que l'UTXO utilisé en input de la transaction appartient à Alice, on peut supposer que l'UTXO en output lui appartient également. Ce qui deviendra intéressant par la suite, c'est de trouver des heuristiques internes à la transaction qui pourraient renforcer cette hypothèse (nous étudierons ces heuristiques dans le chapitre 3.3).
+Nous savons alors que l’utilisateur observé est vraisemblablement encore en possession de cet UTXO. Dans le cadre d'une analyse de chaîne, si nous savons que l'UTXO utilisé en input de la transaction appartient à Alice, on peut supposer que l'UTXO en output lui appartient également. Ce qui deviendra intéressant par la suite, c'est de trouver des heuristiques internes à la transaction qui pourraient renforcer cette hypothèse (nous étudierons ces heuristiques dans le chapitre 3.3).
 
 Par exemple, voici une transaction Bitcoin qui adopte le pattern du balayage :
 
@@ -444,7 +444,7 @@ Par exemple, voici une transaction Bitcoin qui adopte le pattern de la consolida
 
 Source : [Mempool.space](https://mempool.space/fr/tx/77c16914211e237a9bd51a7ce0b1a7368631caed515fe51b081d220590589e94)
 
-Dans le cadre d'une analyse on-chain, ce modèle peut révéler beaucoup d'informations. Par exemple, si l'on sait que l'un des inputs appartient à Alice, on peut supposer que tous les autres inputs et l'output de cette transaction lui appartiennent également. Cette hypothèse permettrait alors de remonter la chaîne de transactions antérieures pour découvrir et analyser d'autres transactions vraisemblablement associées à Alice.
+Dans le cadre d'une analyse de chaîne, ce modèle peut révéler beaucoup d'informations. Par exemple, si l'on sait que l'un des inputs appartient à Alice, on peut supposer que tous les autres inputs et l'output de cette transaction lui appartiennent également. Cette hypothèse permettrait alors de remonter la chaîne de transactions antérieures pour découvrir et analyser d'autres transactions vraisemblablement associées à Alice.
 
 ![BTC204](assets/fr/039.webp)
 
@@ -643,7 +643,7 @@ Par exemple, on va pouvoir identifier que l’utilisateur tracé envoie systéma
 
 ![BTC204](assets/fr/057.webp)
 
-Comme le précise [@LaurentMT](https://twitter.com/LaurentMT) dans le [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) (un podcast francophone), l'utilité des empreintes de portefeuille dans l'analyse on-chain s'accroît de manière significative avec le temps. En effet, le nombre croissant de types de scripts et le déploiement progressif de plus en plus important de ces nouvelles fonctionnalités par les logiciels de portefeuille accentuent les différences. Il arrive même que l'on puisse identifier avec exactitude le logiciel employé par l'entité tracée. Il faut donc comprendre que l’étude de l’empreinte d'un portefeuille s'avère particulièrement pertinente pour les transactions récentes, davantage que pour celles initiées au début des années 2010.
+Comme le précise [@LaurentMT](https://twitter.com/LaurentMT) dans le [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) (un podcast francophone), l'utilité des empreintes de portefeuille dans l'analyse de chaîne s'accroît de manière significative avec le temps. En effet, le nombre croissant de types de scripts et le déploiement progressif de plus en plus important de ces nouvelles fonctionnalités par les logiciels de portefeuille accentuent les différences. Il arrive même que l'on puisse identifier avec exactitude le logiciel employé par l'entité tracée. Il faut donc comprendre que l’étude de l’empreinte d'un portefeuille s'avère particulièrement pertinente pour les transactions récentes, davantage que pour celles initiées au début des années 2010.
 
 Pour résumer, une empreinte peut être n’importe quelle pratique spécifique, réalisée automatiquement par le portefeuille ou manuellement par l’utilisateur, que l’on pourra retrouver sur d’autres transactions pour nous aider dans notre analyse.
 
@@ -667,7 +667,7 @@ La CIOH a été découverte par Satoshi Nakamoto. Il en parle dans la partie 10 
 
 ![BTC204](assets/fr/061.webp)
 
-Il est particulièrement fascinant de constater que Satoshi Nakamoto, avant même le lancement officiel de Bitcoin, avait déjà identifié les deux principales vulnérabilités en matière de confidentialité pour les utilisateurs, à savoir la CIOH et la réutilisation d'adresse. Une telle clairvoyance est assez remarquable, car ces deux heuristiques demeurent, encore aujourd’hui, les plus utiles dans l'analyse on-chain.
+Il est particulièrement fascinant de constater que Satoshi Nakamoto, avant même le lancement officiel de Bitcoin, avait déjà identifié les deux principales vulnérabilités en matière de confidentialité pour les utilisateurs, à savoir la CIOH et la réutilisation d'adresse. Une telle clairvoyance est assez remarquable, car ces deux heuristiques demeurent, encore aujourd’hui, les plus utiles dans l'analyse de chaîne.
 
 Pour vous donner un exemple, voici une transaction sur laquelle nous pouvons vraisemblablement appliquer la CIOH :
 
@@ -681,21 +681,21 @@ Source : [Mempool.space](https://mempool.space/tx/20618e63b6eed056263fa52a2282c8
 
 ### Les données offchain
 
-Évidemment, l’analyse on-chain ne se limite pas exclusivement à des données on-chain. Toute donnée issue d'une analyse antérieure ou accessible sur internet peut également être utilisée pour affiner une analyse.
+Évidemment, l’analyse de chaîne ne se limite pas exclusivement à des données on-chain. Toute donnée issue d'une analyse antérieure ou accessible sur internet peut également être utilisée pour affiner une analyse.
 
-Par exemple, si l'on observe que les transactions tracées sont systématiquement diffusées depuis le même nœud Bitcoin et que l'on parvient à identifier son adresse IP, il est possible que l'on puisse repérer d'autres transactions de la même entité, en plus de partiellement déterminer l'identité de l'émetteur. Bien que cette pratique ne soit pas facilement réalisable, car elle nécessite d'opérer de nombreux nœuds, il est possible que certaines entreprises spécialisées dans l'analyse on-chain l'emploient.
+Par exemple, si l'on observe que les transactions tracées sont systématiquement diffusées depuis le même nœud Bitcoin et que l'on parvient à identifier son adresse IP, il est possible que l'on puisse repérer d'autres transactions de la même entité, en plus de partiellement déterminer l'identité de l'émetteur. Bien que cette pratique ne soit pas facilement réalisable, car elle nécessite d'opérer de nombreux nœuds, il est possible que certaines entreprises spécialisées dans l'analyse de chaîne l'emploient.
 
-L'analyste a aussi la possibilité de s’appuyer sur des analyses préalablement rendues open-source, ou bien sur ses propres analyses antérieures. Peut-être que l’on va pouvoir trouver une sortie qui pointe vers un cluster d’adresses que l’on avait déjà identifié. Parfois, il est aussi possible de s'appuyer sur des sorties qui pointent vers une plateforme d'échange, les adresses de ces entreprises étant généralement connues.
+L'analyste a aussi la possibilité de s’appuyer sur des analyses préalablement rendues open-source, ou bien sur ses propres analyses antérieures. Peut-être que l’on va pouvoir trouver une sortie qui pointe vers un cluster d’adresses que l’on avait déjà identifiées. Parfois, il est aussi possible de s'appuyer sur des sorties qui pointent vers une plateforme d'échange, les adresses de ces entreprises étant généralement connues.
 
 De la même manière, on peut réaliser une analyse par élimination. Par exemple, si lors de l'analyse d'une transaction comportant deux outputs, l'une d'elles se rattache à un cluster d'adresses déjà connu, mais distinct de l'entité que l'on trace, alors on peut interpréter que l'autre sortie représente vraisemblablement le change.
 
-L’analyse on-chain inclut aussi une partie d’OSINT (*Open Source Intelligence*) un peu plus généraliste avec des recherches sur internet. C’est pour cette raison que l’on déconseille de publier des adresses de réception directement sur les réseaux sociaux ou sur un site web, que ce soit sous pseudo ou non.
+L’analyse de chaîne inclut aussi une partie d’OSINT (*Open Source Intelligence*) un peu plus généraliste avec des recherches sur internet. C’est pour cette raison que l’on déconseille de publier des adresses de réception directement sur les réseaux sociaux ou sur un site web, que ce soit sous pseudo ou non.
 
 ![BTC204](assets/fr/063.webp)
 
 ### Les modèles temporels
 
-On y pense moins, mais certains comportements humains sont reconnaissables on-chain. Celui qui est le plus utile dans une analyse, c’est peut-être votre rythme de sommeil ! Et oui, lorsque vous dormez, à priori, vous ne diffusez pas de transactions Bitcoin. Or, vous dormez généralement à peu près aux mêmes horaires. Il est donc courant d’utiliser des analyses temporelles dans l’analyse on-chain. Il s'agit tout simplement du recensement des heures auxquelles les transactions d'une entité donnée sont diffusées au réseau Bitcoin. L’analyse de ces modèles temporels nous permet de déduire de nombreuses informations.
+On y pense moins, mais certains comportements humains sont reconnaissables on-chain. Celui qui est le plus utile dans une analyse, c’est peut-être votre rythme de sommeil ! Et oui, lorsque vous dormez, à priori, vous ne diffusez pas de transactions Bitcoin. Or, vous dormez généralement à peu près aux mêmes horaires. Il est donc courant d’utiliser des analyses temporelles dans l’analyse de chaîne. Il s'agit tout simplement du recensement des heures auxquelles les transactions d'une entité donnée sont diffusées au réseau Bitcoin. L’analyse de ces modèles temporels nous permet de déduire de nombreuses informations.
 
 Tout d’abord, une analyse temporelle permet parfois d’identifier la nature de l’entité tracée. Si l’on observe que les transactions sont diffusées de manière constante sur 24 heures, alors cela va trahir une forte activité économique. L’entité derrière ces transactions est vraisemblablement une entreprise, potentiellement internationale et peut-être avec des procédures automatisées en interne.
 
@@ -726,11 +726,11 @@ Dans un registre différent, c'est également une analyse temporelle de ce type 
 
 Dans ce dernier chapitre, nous allons appliquer concrètement les concepts que nous avons étudiés jusqu'ici. Je vais vous présenter des exemples de transactions Bitcoin réelles, et vous devrez en extraire les informations que je vous demande. 
 
-Idéalement, pour faire ces exercices, l'utilisation d'un outil professionnel d'analyse on-chain serait préférable. Cependant, depuis l'arrestation des créateurs de Samourai Wallet, le seul outil gratuit d'analyse OXT.me n'est plus disponible. Nous allons donc opter pour un explorateur de blocs classique pour ces exercices. Je vous recommande d'utiliser [Mempool.space](https://mempool.space/) pour ses nombreuses fonctionnalités et sa gamme d'outils d'analyse on-chain, mais vous pouvez également opter pour un autre explorateur tel que [Bitcoin Explorer](https://bitcoinexplorer.org/).
+Idéalement, pour faire ces exercices, l'utilisation d'un outil professionnel d'analyse de chaîne serait préférable. Cependant, depuis l'arrestation des créateurs de Samourai Wallet, le seul outil gratuit d'analyse OXT.me n'est plus disponible. Nous allons donc opter pour un explorateur de blocs classique pour ces exercices. Je vous recommande d'utiliser [Mempool.space](https://mempool.space/) pour ses nombreuses fonctionnalités et sa gamme d'outils d'analyse de chaîne, mais vous pouvez également opter pour un autre explorateur tel que [Bitcoin Explorer](https://bitcoinexplorer.org/).
 
 Pour commencer, je vais vous présenter les exercices. Utilisez votre explorateur de blocs pour les réaliser et notez vos réponses sur une feuille de papier. Ensuite, à la fin de ce chapitre, je vous fournirai les réponses afin que vous puissiez vérifier et corriger vos résultats.
 
-*Les transactions sélectionnées pour ces exercices ont été choisies uniquement pour leurs caractéristiques d'une manière quelque peu aléatoire. Ce chapitre est destiné uniquement à des fins éducatives et informatives. Je tiens à préciser que je ne soutiens ni n'encourage l'utilisation de ces outils à des fins malveillantes. L'objectif est de vous enseigner comment vous protéger contre l'analyse on-chain, et non de mener des analyses pour exposer des informations privées d'autres personnes.*
+*Les transactions sélectionnées pour ces exercices ont été choisies uniquement pour leurs caractéristiques d'une manière quelque peu aléatoire. Ce chapitre est destiné uniquement à des fins éducatives et informatives. Je tiens à préciser que je ne soutiens ni n'encourage l'utilisation de ces outils à des fins malveillantes. L'objectif est de vous enseigner comment vous protéger contre l'analyse de chaîne, et non de mener des analyses pour exposer des informations privées d'autres personnes.*
 
 ### Exercice 1
 
@@ -983,9 +983,9 @@ L'analyse de cette transaction révèle 5 inputs et un seul output, ce qui sembl
 
 ___
 
-*Pour la rédaction de cette partie 3 sur l'analyse on-chain, je me suis appuyé sur les ressources suivantes :*
+*Pour la rédaction de cette partie 3 sur l'analyse de chaîne, je me suis appuyé sur les ressources suivantes :*
 - *La série de quatre articles nommée : [Understanding Bitcoin Privacy with OXT](https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923), produite par Samourai Wallet en 2021 ;*
-- *Les différents rapports d’[OXT Research](https://medium.com/oxt-research), ainsi que leur outil gratuit d’analyse on-chain (qui n'est plus disponible pour le moment suite à l'arrestation des fondateurs de Samourai Wallet) ;*
+- *Les différents rapports d’[OXT Research](https://medium.com/oxt-research), ainsi que leur outil gratuit d’analyse de chaîne (qui n'est plus disponible pour le moment suite à l'arrestation des fondateurs de Samourai Wallet) ;*
 - *Plus largement, mes connaissances proviennent des différents tweets et contenus de [@LaurentMT](https://twitter.com/LaurentMT) et de [@ErgoBTC](https://twitter.com/ErgoBTC) ;*
 - *Le [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) auquel j’ai participé en compagnie de [@louneskmt](https://twitter.com/louneskmt), [@TheoPantamis](https://twitter.com/TheoPantamis), [@Sosthene___](https://twitter.com/Sosthene___) et [@LaurentMT](https://twitter.com/LaurentMT).*
 
@@ -1079,7 +1079,7 @@ Lorsque différents ScriptPubKey contiennent la même adresse de réception, il 
 
 Source : S. Nakamoto, "Bitcoin: A Peer-to-Peer Electronic Cash System", https://bitcoin.org/bitcoin.pdf, 2009.
 
-L'objectif recherché par Satoshi dans cette phrase était de créer un pare-feu supplémentaire en cas d'association entre l'identité de l'utilisateur et une paire de clés sur Bitcoin, afin d'éviter que l'intégralité de son activité soit reliée publiquement à son identité. Aujourd'hui, avec la prolifération des sociétés d'analyse on-chain et les réglementations sur le KYC, l'utilisation d'adresses uniques n'est plus un "pare-feu additionnel", mais une pratique indispensable pour quiconque souhaite préserver minimum sa vie privée.
+L'objectif recherché par Satoshi dans cette phrase était de créer un pare-feu supplémentaire en cas d'association entre l'identité de l'utilisateur et une paire de clés sur Bitcoin, afin d'éviter que l'intégralité de son activité soit reliée publiquement à son identité. Aujourd'hui, avec la prolifération des sociétés d'analyse de chaîne et les réglementations sur le KYC, l'utilisation d'adresses uniques n'est plus un "pare-feu additionnel", mais une pratique indispensable pour quiconque souhaite préserver minimum sa vie privée.
 
 Lorsque vous réutilisez une adresse, vous créez un lien presque indéniable entre l'ensemble des transactions associées à cette adresse. Bien que cela ne mette pas directement en danger vos fonds, car la cryptographie sur les courbes elliptiques garantit la sécurité de vos clés privées, cela facilite la surveillance de vos activités. En effet, quiconque dispose d'un nœud peut observer les transactions et les soldes des adresses, compromettant ainsi totalement votre anonymat.
 
@@ -1087,7 +1087,7 @@ Lorsque vous réutilisez une adresse, vous créez un lien presque indéniable en
 
 Pour illustrer ce point, prenons l'exemple de Bob, un utilisateur qui achète régulièrement des bitcoins par petites sommes en DCA et les envoie toujours sur la même adresse. Après deux ans, cette adresse contient une quantité substantielle de bitcoins. Si Bob utilise cette adresse pour effectuer un paiement chez un commerçant du coin, ce dernier pourra voir l'ensemble des fonds associés et en déduire la richesse de Bob. Cela peut donc entraîner des risques de sécurité personnelle, notamment des tentatives de vol ou d'extorsion. Si Bob avait utilisé une adresse vierge pour réceptionner chaque achat périodique, il aurait dévoilé infiniment moins d'informations à son commerçant.
 
-En analyse on-chain, on différencie 2 types de réutilisations d'adresse :
+En analyse de chaîne, on différencie 2 types de réutilisations d'adresse :
 - La réutilisation externe ;
 - La réutilisation interne à une transaction.
 
@@ -1122,7 +1122,7 @@ Si vous avez besoin d'un identifiant statique pour recevoir des paiements, comme
 
 ![La confidentialité sur Bitcoin](https://youtu.be/EhF0AlTv-uY?feature=shared)
 
-Comme nous avons pu le découvrir dans la partie sur l'analyse on-chain, il existe une multitude d'heuristiques et de patterns qui peuvent être utilisés pour déduire des informations sur une transaction. En tant qu'utilisateur, il est important d'avoir connaissance de ces techniques pour mieux s'en protéger.
+Comme nous avons pu le découvrir dans la partie sur l'analyse de chaîne, il existe une multitude d'heuristiques et de patterns qui peuvent être utilisés pour déduire des informations sur une transaction. En tant qu'utilisateur, il est important d'avoir connaissance de ces techniques pour mieux s'en protéger.
 
 Cela implique notamment une gestion rigoureuse de votre portefeuille en self-custody, ce qui passe par la connaissance de l'origine de vos UTXOs, ainsi que par une sélection réfléchie des UTXOs à consommer lors de paiements. Cette gestion efficace du portefeuille s'appuie sur deux fonctionnalités importantes des bons portefeuilles Bitcoin : l'étiquetage et le coin control.
 
@@ -1233,11 +1233,11 @@ Cette procédure n'est pas sans risques pour la confidentialité et la sécurit�
 
 ### La facilitation du traçage on-chain
 
-Le premier risque associé au KYC est qu'il offre un point d'entrée privilégié pour une analyse on-chain. Comme nous l'avons vu dans la partie précédente, les analystes peuvent regrouper et suivre les activités sur la blockchain en utilisant des patterns de transactions et des heuristiques. Une fois qu'ils ont réussi à clusteriser l'activité on-chain d'un utilisateur, il suffit de trouver un seul point d'entrée parmi toutes ses transactions et toutes ses clés pour compromettre entièrement sa confidentialité.
+Le premier risque associé au KYC est qu'il offre un point d'entrée privilégié pour une analyse de chaîne. Comme nous l'avons vu dans la partie précédente, les analystes peuvent regrouper et suivre les activités sur la blockchain en utilisant des patterns de transactions et des heuristiques. Une fois qu'ils ont réussi à clusteriser l'activité on-chain d'un utilisateur, il suffit de trouver un seul point d'entrée parmi toutes ses transactions et toutes ses clés pour compromettre entièrement sa confidentialité.
 
 ![BTC204](assets/fr/078.webp)
 
-Lorsque vous effectuez un KYC, vous fournissez un point d'entrée de très grande qualité pour une analyse on-chain, car vous associez vos adresses de réception utilisées lors du retrait de vos bitcoins d'une plateforme d'échange à votre identité complète et vérifiée. En théorie, ces informations ne sont connues que par l'entreprise à laquelle vous les avez fournies, mais, comme nous le verrons plus loin, le risque de fuite de données est réel. De plus, le simple fait qu'une entreprise détient ces informations peut être problématique, même si elle ne les partage pas.
+Lorsque vous effectuez un KYC, vous fournissez un point d'entrée de très grande qualité pour une analyse de chaîne, car vous associez vos adresses de réception utilisées lors du retrait de vos bitcoins d'une plateforme d'échange à votre identité complète et vérifiée. En théorie, ces informations ne sont connues que par l'entreprise à laquelle vous les avez fournies, mais, comme nous le verrons plus loin, le risque de fuite de données est réel. De plus, le simple fait qu'une entreprise détient ces informations peut être problématique, même si elle ne les partage pas.
 
 Ainsi, si vous ne prenez pas d'autres mesures pour limiter le regroupement de vos activités sur la blockchain, toute personne ayant connaissance de ce point d'entrée qu'est le KYC peut potentiellement relier toute votre activité sur Bitcoin à votre identité. Du point de vue de cette entreprise, votre utilisation de Bitcoin perd donc toute confidentialité. 
 
@@ -1281,7 +1281,7 @@ Outre les risques spécifiques liés à Bitcoin, il faut également considérer 
 
 Il est important de déconstruire certaines idées reçues sur le KYC que l’on retrouve fréquemment sur Twitter ou dans nos échanges entre bitcoiners.
 
-Tout d'abord, il est inexact de penser que protéger sa confidentialité pour des bitcoins acquis via KYC est inutile. Les outils et méthodes de confidentialité sur Bitcoin sont variés et servent des objectifs différents. L'utilisation de transactions coinjoin sur des bitcoins issus de KYC, par exemple, n'est pas une mauvaise idée. Bien sûr, il est nécessaire d'être prudent avec les plateformes d'échange régulées pour éviter le gel ou le bannissement de son compte, mais d'un point de vue strictement technique, ces pratiques ne sont pas incompatibles. Le coinjoin a pour effet de casser l'historique d'une pièce, ce qui vous aide ainsi à contrecarrer certains risques d'analyse on-chain associés au KYC. Bien qu'il ne supprime pas tous les risques, cela représente déjà un bénéfice significatif. 
+Tout d'abord, il est inexact de penser que protéger sa confidentialité pour des bitcoins acquis via KYC est inutile. Les outils et méthodes de confidentialité sur Bitcoin sont variés et servent des objectifs différents. L'utilisation de transactions coinjoin sur des bitcoins issus de KYC, par exemple, n'est pas une mauvaise idée. Bien sûr, il est nécessaire d'être prudent avec les plateformes d'échange régulées pour éviter le gel ou le bannissement de son compte, mais d'un point de vue strictement technique, ces pratiques ne sont pas incompatibles. Le coinjoin a pour effet de casser l'historique d'une pièce, ce qui vous aide ainsi à contrecarrer certains risques d'analyse de chaîne associés au KYC. Bien qu'il ne supprime pas tous les risques, cela représente déjà un bénéfice significatif. 
 
 ![BTC204](assets/fr/080.webp)
 
@@ -1506,7 +1506,7 @@ Dans cet exemple, il serait donc judicieux de conserver une valeur minimale de 9
 
 ### La consolidation et la CIOH
 
-Une des heuristiques les plus utilisées en analyse on-chain est la CIOH (*Common Input Ownership Heuristic*), qui permet d'émettre l'hypothèse que tous les inputs d'une transaction Bitcoin appartiennent à une même entité. Justement, le principe même de la consolidation est de consommer plusieurs UTXOs en inputs et de créer un seul UTXO en output. La consolidation permet donc d'appliquer la CIOH.
+Une des heuristiques les plus utilisées en analyse de chaîne est la CIOH (*Common Input Ownership Heuristic*), qui permet d'émettre l'hypothèse que tous les inputs d'une transaction Bitcoin appartiennent à une même entité. Justement, le principe même de la consolidation est de consommer plusieurs UTXOs en inputs et de créer un seul UTXO en output. La consolidation permet donc d'appliquer la CIOH.
 
 ![BTC204](assets/fr/097.webp)
 
@@ -1559,7 +1559,7 @@ Vous l'aurez compris, dans un souci de confidentialité et plus largement de sou
 
 Plus largement, il est important de comprendre les heuristiques dont nous avons parlé dans la partie précédente, afin de mieux les éviter ou les tromper. Adopter une série de bonnes pratiques peut s'avérer bénéfique, même si elles ne sont pas indispensables. Elles offrent une couche supplémentaire de protection qui peut s'avérer importante pour maintenir une bonne confidentialité lors de votre utilisation de Bitcoin.
 
-Le premier conseil que je pourrais donner est de vous fondre dans la foule la plus dense. Sur Bitcoin, cela implique d'utiliser les modèles de scripts les plus adoptés. Par exemple, les scripts P2WSH, souvent utilisés pour les configurations multisig SegWit V0, sont très peu fréquents. Ils ne vous permettent pas de vous cacher dans un grand ensemble d'anonymat. C'est pareil pour les vieux modèles comme P2PKH ou P2SH. Bien qu'ils soient largement présents dans les flux d'UTXO, ils sont de moins en moins utilisés pour les nouvelles transactions. 
+Le premier conseil que je pourrais donner est de vous fondre dans la foule la plus dense. Sur Bitcoin, cela implique d'utiliser les modèles de scripts les plus adoptés. Par exemple, les scripts P2WSH, souvent utilisés pour les configurations multisig SegWit V0, sont très peu fréquents. Ils ne vous permettent pas de vous cacher dans un grand ensemble d'anonymat. C'est pareil pour les vieux modèles comme P2PKH ou P2SH. Bien qu'ils soient largement présents dans l'UTXO set, ils sont de moins en moins utilisés pour les nouvelles transactions. 
 
 De manière générale, il est plus prudent de se tourner vers le standard de script le plus récent, à condition qu'il soit suffisamment adopté. Ainsi, si en 2022, je vous aurais déconseillé d'utiliser du P2TR (Taproot) du fait de sa faible adoption, en 2024, je vous recommanderais plutôt d'opter pour ce type de script, ou à défaut, pour du script SegWit V0, car le nombre de transactions utilisant P2TR commence à représenter une part très importante.
 
@@ -1597,7 +1597,7 @@ Comme nous l'avons vu dans les premières parties de cette formation, les transa
 
 Ainsi, la confidentialité sur Bitcoin est mise à mal lorsque des observateurs extérieurs parviennent à associer des UTXOs spécifiques à des utilisateurs identifiés. Une fois cette association établie, il devient possible de tracer leurs transactions et d'analyser l'historique de leurs bitcoins. Le coinjoin est justement une technique développée pour casser la traçabilité des UTXOs, afin d'offrir une certaine couche de confidentialité aux utilisateurs de Bitcoin au niveau des transactions.
 
-Les coinjoins renforcent la confidentialité des utilisateurs de Bitcoin en complexifiant l'analyse on-chain pour les observateurs externes. Leur structure permet de fusionner plusieurs pièces de différents utilisateurs en une unique transaction, brouillant ainsi les pistes et rendant difficile la détermination des liens entre les adresses en inputs et en outputs.
+Les coinjoins renforcent la confidentialité des utilisateurs de Bitcoin en complexifiant l'analyse de chaîne pour les observateurs externes. Leur structure permet de fusionner plusieurs pièces de différents utilisateurs en une unique transaction, brouillant ainsi les pistes et rendant difficile la détermination des liens entre les adresses en inputs et en outputs.
 
 Il est important de comprendre que l'objectif d'une transaction coinjoin est de rompre l'historique d'une pièce. Cette technique ne confère pas un anonymat permanent ni ne bloque définitivement le traçage des bitcoins, contrairement à ce que l'on peut penser. Le coinjoin vise uniquement à casser l'historique au point où la transaction coinjoin est effectuée. Toutefois, avant et après cette opération, la pièce reste soumise aux mêmes risques en termes de confidentialité.
 
@@ -1661,7 +1661,7 @@ Dans le domaine général des mathématiques, le mixage se réfère à la propri
 
 En revanche, il est important de distinguer le coinjoin des mélangeurs. Un mélangeur est un service où les utilisateurs envoient leurs bitcoins pour être mélangés. Ces services étaient populaires durant les années 2010, mais leur usage a décliné en raison de deux inconvénients majeurs par rapport au coinjoin :
 - Ils requièrent que l'utilisateur cède la garde de ses fonds durant le processus de mélange, ce qui expose à des risques de vol ;
-- Il n'existe aucune assurance que le mélangeur n'enregistre pas les détails des transactions, voire ne vende pas ces informations à des entreprises d'analyse on-chain.
+- Il n'existe aucune assurance que le mélangeur n'enregistre pas les détails des transactions, voire ne vende pas ces informations à des entreprises d'analyse de chaîne.
 
 ![BTC204](assets/fr/115.webp)
 
@@ -1844,7 +1844,7 @@ Cette politique contraste avec celle de Whirlpool, où les frais restent fixes, 
 
 Avec l'arrêt de ce coordinateur principal, les utilisateurs doivent désormais se connecter à de nouveaux coordinateurs indépendants. Ce changement soulève des préoccupations : d'une part, les nouveaux coordinateurs pourraient ne pas avoir suffisamment de liquidités, réduisant ainsi l'efficacité des coinjoins en termes de confidentialité. D'autre part, il y a le risque de tomber sur un coordinateur malveillant. Cette situation ajoute de nouveaux risques non négligeables pour ceux cherchant à utiliser Wabisabi.
 
-Au-delà des questions techniques, la décision de zkSNACKs, la société derrière Wasabi, d'utiliser les services d'une société d'analyse on-chain pour filtrer les participants aux coinjoins pose de sérieuses questions éthiques et stratégiques. L'idée initiale était d'empêcher l'utilisation des coinjoins sur Wasabi par des criminels, une démarche qui peut sembler légitime. Toutefois, cela soulève un paradoxe : payer des frais à un coordinateur, dont la mission principale est de renforcer la confidentialité des utilisateurs, pour qu'il finance ensuite une entreprise dont le but est de compromettre cette même confidentialité.
+Au-delà des questions techniques, la décision de zkSNACKs, la société derrière Wasabi, d'utiliser les services d'une société d'analyse de chaîne pour filtrer les participants aux coinjoins pose de sérieuses questions éthiques et stratégiques. L'idée initiale était d'empêcher l'utilisation des coinjoins sur Wasabi par des criminels, une démarche qui peut sembler légitime. Toutefois, cela soulève un paradoxe : payer des frais à un coordinateur, dont la mission principale est de renforcer la confidentialité des utilisateurs, pour qu'il finance ensuite une entreprise dont le but est de compromettre cette même confidentialité.
 
 Plus préoccupant encore, ce principe de filtrage contraste radicalement avec la philosophie de Bitcoin visant à offrir un système financier ouvert et incensurable. Bien qu'il puisse sembler justifié de vouloir exclure les activités criminelles, ce filtrage pourrait également toucher des individus dont les actions, bien que classées comme illégales dans certains contextes, pourraient être moralement justifiables ou socialement bénéfiques. L'exemple d'Edward Snowden illustre parfaitement cette dichotomie : considéré comme un criminel par certains gouvernements pour ses révélations, il est vu par d'autres comme un lanceur d'alerte qui a agi dans l'intérêt public. Cette complexité souligne le danger potentiel d'un filtrage qui, bien que partant d'une bonne intention, peut finalement porter atteinte aux droits et à la sécurité des utilisateurs légitimes. J'aurais pu également citer les activistes et les journalistes qui sont persécutés sous certains régimes autoritaires.
 
@@ -2030,7 +2030,7 @@ Il est également déconseillé de transférer vos UTXOs postmix vers un portefe
 
 Comme pour toute transaction Bitcoin, il convient également de ne pas réutiliser les adresses de réception. Chaque nouvelle transaction doit être reçue sur une nouvelle adresse vierge.
 
-La solution la plus simple et la plus sûre consiste à laisser vos UTXOs mixés au repos dans leur compte **postmix**, en les laissant se remixer et en ne les touchant que pour les dépenser. Les portefeuilles Samourai et Sparrow disposent de protections supplémentaires contre tous ces risques liés à l'analyse on-chain. Ces protections vous permettent d'éviter de faire des erreurs.
+La solution la plus simple et la plus sûre consiste à laisser vos UTXOs mixés au repos dans leur compte **postmix**, en les laissant se remixer et en ne les touchant que pour les dépenser. Les portefeuilles Samourai et Sparrow disposent de protections supplémentaires contre tous ces risques liés à l'analyse de chaîne. Ces protections vous permettent d'éviter de faire des erreurs.
 
 ### Comment bien gérer ses changes toxiques ?
 
@@ -2166,7 +2166,7 @@ Un coinjoin Whirlpool Surge Cycle 8x8 présente lui $9\,934\,563$ interprétatio
 
 Dans le contexte général de la cryptographie et de l'information, l'entropie est une mesure quantitative de l'incertitude ou de l'imprévisibilité associée à une source de données ou à un processus aléatoire. Autrement dit, l'entropie est une façon de mesurer à quel point une information est difficile à prévoir ou à deviner.
 
-Dans le contexte spécifique de l'analyse on-chain, l'entropie est également le nom d'un indicateur, dérivé de l'entropie de Shannon et [inventé par LaurentMT](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf), qui peut être calculé sur une transaction Bitcoin.
+Dans le contexte spécifique de l'analyse de chaîne, l'entropie est également le nom d'un indicateur, dérivé de l'entropie de Shannon et [inventé par LaurentMT](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf), qui peut être calculé sur une transaction Bitcoin.
 
 Lorsqu'une transaction présente un nombre élevé d'interprétations possibles, il est souvent plus pertinent de se référer à son entropie. Cet indicateur permet de mesurer le manque de connaissance des analystes sur la configuration exacte de la transaction. Autrement dit, plus l'entropie est élevée, plus la tâche d'identification des flux de bitcoins entre les inputs et outputs devient difficile pour les analystes.
 
@@ -2377,11 +2377,11 @@ https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6
 
 ![La confidentialité sur Bitcoin](https://youtu.be/e4i66QXWCvs?feature=shared)
 
-Le coinjoin représente actuellement la méthode la plus efficace pour introduire de l'incertitude dans le traçage des pièces lors d'une analyse on-chain. Comme nous avons vu dans les chapitres précédents, pour obtenir un mixage performant, il faut que les inputs et les outputs présentent la plus grande homogénéité possible. De plus, il est important que les pièces soient intégrées dans un groupe aussi vaste que possible pour maximiser les anonsets. Ainsi, pour que les coinjoins soient efficaces, ils doivent impliquer un grand nombre de pièces uniformes. Cette multitude d'exigences fait que les transactions coinjoin ont une structure très rigide : les montants sont fixés à l'avance et tous les participants doivent s'y conformer pour garantir l'uniformité du processus. De plus, les coinjoins requièrent une synchronisation entre tous les participants et le coordinateur lors de la construction de la transaction.
+Le coinjoin représente actuellement la méthode la plus efficace pour introduire de l'incertitude dans le traçage des pièces lors d'une analyse de chaîne. Comme nous avons vu dans les chapitres précédents, pour obtenir un mixage performant, il faut que les inputs et les outputs présentent la plus grande homogénéité possible. De plus, il est important que les pièces soient intégrées dans un groupe aussi vaste que possible pour maximiser les anonsets. Ainsi, pour que les coinjoins soient efficaces, ils doivent impliquer un grand nombre de pièces uniformes. Cette multitude d'exigences fait que les transactions coinjoin ont une structure très rigide : les montants sont fixés à l'avance et tous les participants doivent s'y conformer pour garantir l'uniformité du processus. De plus, les coinjoins requièrent une synchronisation entre tous les participants et le coordinateur lors de la construction de la transaction.
 
 Ces exigences rendent le coinjoin peu adapté aux paiements directs. Par exemple, si vous possédez une pièce de 1M sats dans une pool de coinjoin, l'utiliser directement comme un paiement serait complexe. Cela nécessiterait une synchronisation avec les autres participants et le coordinateur pour construire la transaction collaborative précisément au moment où vous devez effectuer un paiement, et le montant de l'achat devrait correspondre exactement à la valeur de votre pièce, ce qui est pratiquement irréalisable. La transaction coinjoin est donc par nature une transaction collaborative de balayage, c'est-à-dire que ce sont généralement les mêmes propriétaires des inputs que l'on retrouve en outputs.
 
-Pourtant, il serait intéressant de disposer de structures de transactions qui permettent de réaliser des paiements de manière pratique, tout en introduisant du doute dans l'analyse on-chain. C'est précisément ce que nous allons étudier dans ce chapitre et le suivant.
+Pourtant, il serait intéressant de disposer de structures de transactions qui permettent de réaliser des paiements de manière pratique, tout en introduisant du doute dans l'analyse de chaîne. C'est précisément ce que nous allons étudier dans ce chapitre et le suivant.
 
 ### C'est quoi une transaction payjoin ?
 
@@ -2405,15 +2405,15 @@ Dans cet exemple, Bob le boulanger introduit 15 000 sats en input et ressort ave
 
 La transaction payjoin remplit deux objectifs qui permettent aux utilisateurs d'améliorer la confidentialité de leur paiement. 
 
-Tout d'abord, le payjoin vise à induire en erreur un observateur extérieur en créant un leurre dans l'analyse on-chain. Ceci est rendu possible grâce à l'heuristique CIOH (*Common Input Ownership Heuristic*). Comme nous l'avons vu dans la partie 3, habituellement, lorsqu'une transaction sur la blockchain présente plusieurs inputs, on suppose que tous ces inputs appartiennent à une même entité ou à un même utilisateur.
+Tout d'abord, le payjoin vise à induire en erreur un observateur extérieur en créant un leurre dans l'analyse de chaîne. Ceci est rendu possible grâce à l'heuristique CIOH (*Common Input Ownership Heuristic*). Comme nous l'avons vu dans la partie 3, habituellement, lorsqu'une transaction sur la blockchain présente plusieurs inputs, on suppose que tous ces inputs appartiennent à une même entité ou à un même utilisateur.
 
-Ainsi, lorsqu'un analyste examine une transaction payjoin, il est amené à croire que tous les inputs proviennent d'une même personne. Toutefois, cette perception est erronée, car le destinataire du paiement contribue également aux inputs aux côtés du payeur réel. L'analyse on-chain est donc déviée vers une interprétation qui se révèle être fausse.
+Ainsi, lorsqu'un analyste examine une transaction payjoin, il est amené à croire que tous les inputs proviennent d'une même personne. Toutefois, cette perception est erronée, car le destinataire du paiement contribue également aux inputs aux côtés du payeur réel. L'analyse de chaîne est donc déviée vers une interprétation qui se révèle être fausse.
 
 Reprenons notre exemple de transaction payjoin pour le paiement d'une baguette :
 
 ![BTC204](assets/fr/166.webp)
 
-En voyant cette transaction sur la blockchain, un observateur extérieur qui suit les heuristiques habituelles de l'analyse on-chain en fera l'interprétation suivante : "*Alice a fusionné 2 UTXOs en inputs de la transaction afin de payer 19 000 sats à Bob*".
+En voyant cette transaction sur la blockchain, un observateur extérieur qui suit les heuristiques habituelles de l'analyse de chaîne en fera l'interprétation suivante : "*Alice a fusionné 2 UTXOs en inputs de la transaction afin de payer 19 000 sats à Bob*".
 
 ![BTC204](assets/fr/167.webp)
 
@@ -2455,7 +2455,7 @@ L'implémentation de payjoin la plus avancée était seulement les Stowaway sur 
 
 La difficulté d'utilisation du payjoin réside dans sa dépendance vis-à-vis de la participation du commerçant. En tant que client, l'utilisation d'un payjoin est impossible si le commerçant ne le prend pas en charge. Cela ajoute une difficulté supplémentaire lors d'un achat : non seulement il est compliqué de trouver des commerçants acceptant le bitcoin, mais si l'on cherche en plus ceux qui supportent les payjoins, cela devient encore plus compliqué.
 
-Une solution serait d'utiliser des structures transactionnelles qui introduisent de l'ambiguïté dans l'analyse on-chain sans nécessiter la coopération du destinataire. Cela nous permettrait d'améliorer la confidentialité de nos paiements sans dépendre de la participation active des commerçants. C'est justement ce que nous allons étudier dans le prochain chapitre.
+Une solution serait d'utiliser des structures transactionnelles qui introduisent de l'ambiguïté dans l'analyse de chaîne sans nécessiter la coopération du destinataire. Cela nous permettrait d'améliorer la confidentialité de nos paiements sans dépendre de la participation active des commerçants. C'est justement ce que nous allons étudier dans le prochain chapitre.
 
 https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62
 
@@ -2488,13 +2488,13 @@ Dans cet exemple, j'ai intentionnellement négligé les frais de minage afin de 
 
 ### Quels sont les objectifs d'une transaction Stonewall ?
 
-La structure Stonewall ajoute énormément d'entropie à la transaction et vient brouiller les pistes de l'analyse on-chain. Vue de l'extérieur, une telle transaction peut être interprétée comme un mini-coinjoin entre deux personnes. Mais en réalité, il s'agit d'un paiement. Cette méthode génère donc des incertitudes dans l'analyse on-chain, voire oriente vers de fausses pistes.
+La structure Stonewall ajoute énormément d'entropie à la transaction et vient brouiller les pistes de l'analyse de chaîne. Vue de l'extérieur, une telle transaction peut être interprétée comme un mini-coinjoin entre deux personnes. Mais en réalité, il s'agit d'un paiement. Cette méthode génère donc des incertitudes dans l'analyse de chaîne, voire oriente vers de fausses pistes.
 
 Reprenons l'exemple d'Alice chez Bob le boulanger. La transaction sur la blockchain se présenterait ainsi :
 
 ![BTC204](assets/fr/174.webp)
 
-Un observateur extérieur qui s'appuie sur les heuristiques courantes d'analyse on-chain pourrait conclure à tort que "*deux personnes ont réalisé un petit coinjoin, avec un UTXO chacun en input et deux UTXOs chacun en output*". L'analyse de cette transaction de l'extérieur ne conduit pas à l'application de la CIOH, car la présence de deux outputs de même montant suggère un pattern de coinjoin. D'un point de vue extérieur, la CIOH n'est donc pas applicable dans ce cas spécifique.
+Un observateur extérieur qui s'appuie sur les heuristiques courantes d'analyse de chaîne pourrait conclure à tort que "*deux personnes ont réalisé un petit coinjoin, avec un UTXO chacun en input et deux UTXOs chacun en output*". L'analyse de cette transaction de l'extérieur ne conduit pas à l'application de la CIOH, car la présence de deux outputs de même montant suggère un pattern de coinjoin. D'un point de vue extérieur, la CIOH n'est donc pas applicable dans ce cas spécifique.
 
 ![BTC204](assets/fr/175.webp)
 
@@ -2525,13 +2525,13 @@ Dans cet exemple, j'ai intentionnellement négligé les frais afin de faciliter 
 
 ### Quels sont les objectifs d'une transaction Stonewall x2 ?
 
-Comme la structure Stonewall, la structure Stonewall x2 ajoute énormément d'entropie à la transaction et vient brouiller les pistes de l'analyse on-chain. Vue de l'extérieur, une telle transaction peut être interprétée comme un petit coinjoin entre deux personnes. Mais en réalité, il s'agit d'un paiement. Cette méthode génère donc des incertitudes dans l'analyse on-chain, voire oriente vers de fausses pistes.
+Comme la structure Stonewall, la structure Stonewall x2 ajoute énormément d'entropie à la transaction et vient brouiller les pistes de l'analyse de chaîne. Vue de l'extérieur, une telle transaction peut être interprétée comme un petit coinjoin entre deux personnes. Mais en réalité, il s'agit d'un paiement. Cette méthode génère donc des incertitudes dans l'analyse de chaîne, voire oriente vers de fausses pistes.
 
 Reprenons l'exemple d'Alice, Bob le Boulanger et Charles. La transaction sur la blockchain se présenterait ainsi :
 
 ![BTC204](assets/fr/178.webp)
 
-Un observateur extérieur qui s'appuie sur les heuristiques courantes d'analyse on-chain pourrait conclure à tort que "*Alice et Charles ont réalisé un petit coinjoin, avec un UTXO chacun en input et deux UTXOs chacun en output*". Encore une fois, l'analyse de cette transaction de l'extérieur ne conduit pas à l'application de la CIOH, car la présence de deux outputs de même montant suggère un pattern de coinjoin. D'un point de vue extérieur, la CIOH n'est donc pas applicable dans ce cas spécifique.
+Un observateur extérieur qui s'appuie sur les heuristiques courantes d'analyse de chaîne pourrait conclure à tort que "*Alice et Charles ont réalisé un petit coinjoin, avec un UTXO chacun en input et deux UTXOs chacun en output*". Encore une fois, l'analyse de cette transaction de l'extérieur ne conduit pas à l'application de la CIOH, car la présence de deux outputs de même montant suggère un pattern de coinjoin. D'un point de vue extérieur, la CIOH n'est donc pas applicable dans ce cas spécifique.
 
 ![BTC204](assets/fr/179.webp)
 
@@ -2583,9 +2583,9 @@ https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14
 
 ![La confidentialité sur Bitcoin](https://youtu.be/TfOsnqXtJ8g?feature=shared)
 
-L'utilisation de structures de transactions Bitcoin qui ajoutent de l'ambiguïté dans l'analyse on-chain, telles que le coinjoin, est particulièrement bénéfique pour la protection de la vie privée. Cependant, comme nous l'avons évoqué dans le chapitre sur les payjoins, les transactions coinjoins sont naturellement identifiables sur la chaîne. Rappelez-vous l'analogie que nous avions établie entre le chiffrement et les coinjoins : lorsqu'on chiffre un fichier, une tierce personne qui découvre ce fichier chiffré ne peut pas accéder à son contenu, mais elle peut clairement identifier qu'il y a eu une modification du fichier pour en cacher son contenu. Il en va de même pour le coinjoin : lorsqu'un analyste examine une transaction coinjoin, bien qu'il ne puisse pas établir de liens directs entre les inputs et les outputs (et inversement), il peut néanmoins reconnaître que la transaction observée est un coinjoin.
+L'utilisation de structures de transactions Bitcoin qui ajoutent de l'ambiguïté dans l'analyse de chaîne, telles que le coinjoin, est particulièrement bénéfique pour la protection de la vie privée. Cependant, comme nous l'avons évoqué dans le chapitre sur les payjoins, les transactions coinjoins sont naturellement identifiables sur la chaîne. Rappelez-vous l'analogie que nous avions établie entre le chiffrement et les coinjoins : lorsqu'on chiffre un fichier, une tierce personne qui découvre ce fichier chiffré ne peut pas accéder à son contenu, mais elle peut clairement identifier qu'il y a eu une modification du fichier pour en cacher son contenu. Il en va de même pour le coinjoin : lorsqu'un analyste examine une transaction coinjoin, bien qu'il ne puisse pas établir de liens directs entre les inputs et les outputs (et inversement), il peut néanmoins reconnaître que la transaction observée est un coinjoin.
 
-Selon l'usage que vous envisagez pour votre pièce après des cycles de coinjoins, le fait qu'elle ait subi ce processus peut être problématique. Par exemple, si vous prévoyez de vendre votre pièce sur une plateforme d'échange régulée, mais qu'elle a récemment subi un coinjoin, l'outil d'analyse on-chain de la plateforme détectera ce fait. La plateforme pourrait alors refuser d'accepter votre UTXO ayant subi un coinjoin, ou même exiger des explications de votre part, avec le risque de voir votre compte suspendu ou vos fonds gelés. Dans certains cas, la plateforme peut également signaler votre comportement aux autorités étatiques (c'est, par exemple, ce que demande TRACFIN aux PSAN en France).
+Selon l'usage que vous envisagez pour votre pièce après des cycles de coinjoins, le fait qu'elle ait subi ce processus peut être problématique. Par exemple, si vous prévoyez de vendre votre pièce sur une plateforme d'échange régulée, mais qu'elle a récemment subi un coinjoin, l'outil d'analyse de chaîne de la plateforme détectera ce fait. La plateforme pourrait alors refuser d'accepter votre UTXO ayant subi un coinjoin, ou même exiger des explications de votre part, avec le risque de voir votre compte suspendu ou vos fonds gelés. Dans certains cas, la plateforme peut également signaler votre comportement aux autorités étatiques (c'est, par exemple, ce que demande TRACFIN aux PSAN en France).
 
 ![BTC204](assets/fr/184.webp)
 
@@ -2605,13 +2605,13 @@ Après cet enchaînement de transactions, l'outil ricochet achemine finalement l
 
 ![BTC204](assets/fr/187.webp)
 
-L'objectif est de créer de la distance affectant la fongibilité de la pièce, tel qu'une transaction coinjoin, et l'acte final de dépense qui pourrait rejeter cette pièce en raison de son passé. Ainsi, les outils d'analyse on-chain pourraient conclure qu'il y a probablement eu un changement de propriétaire après l'événement, et considérer que cette pièce est fongible. Dans le cas d'un coinjoin, les outils d'analyse on-chain pourraient alors supposer que ce n'est pas la même personne qui a envoyé les bitcoins et réalisé le coinjoin, et qu'il est donc inutile d'entamer des actions à l'encontre de l'envoyeur.
+L'objectif est de créer de la distance affectant la fongibilité de la pièce, tel qu'une transaction coinjoin, et l'acte final de dépense qui pourrait rejeter cette pièce en raison de son passé. Ainsi, les outils d'analyse de chaîne pourraient conclure qu'il y a probablement eu un changement de propriétaire après l'événement, et considérer que cette pièce est fongible. Dans le cas d'un coinjoin, les outils d'analyse de chaîne pourraient alors supposer que ce n'est pas la même personne qui a envoyé les bitcoins et réalisé le coinjoin, et qu'il est donc inutile d'entamer des actions à l'encontre de l'envoyeur.
 
 ![BTC204](assets/fr/188.webp)
 
 ### Pourquoi cela fonctionne ?
 
-Face à cette méthode du ricochet, on pourrait imaginer que les logiciels d'analyse on-chain approfondissent leur examen au-delà de quatre rebonds. Toutefois, ces plateformes se heurtent à un dilemme dans l'optimisation du seuil de détection. Elles doivent établir un nombre limite de sauts après lequel elles admettent qu'un changement de propriété a vraisemblablement eu lieu et que le lien avec un événement antérieur (comme un coinjoin) doit être ignoré.
+Face à cette méthode du ricochet, on pourrait imaginer que les logiciels d'analyse de chaîne approfondissent leur examen au-delà de quatre rebonds. Toutefois, ces plateformes se heurtent à un dilemme dans l'optimisation du seuil de détection. Elles doivent établir un nombre limite de sauts après lequel elles admettent qu'un changement de propriété a vraisemblablement eu lieu et que le lien avec un événement antérieur (comme un coinjoin) doit être ignoré.
 
 ![BTC204](assets/fr/189.webp)
 
@@ -2634,7 +2634,7 @@ L'idée de cette méthode du ricochet provient initialement des équipes de Samo
 ![BTC204](assets/fr/190.webp)
 
 L'application Samourai propose deux variantes de ricochet :
-- Le ricochet renforcé, ou "livraison échelonnée", qui offre l'avantage de répartir les frais de service Samourai sur les cinq transactions successives. Cette option assure également que chaque transaction soit diffusée à un moment distinct et inscrite dans un bloc différent, ce qui permet d'imiter le plus fidèlement possible le comportement d'un changement de propriétaire. Bien que plus lente, cette méthode est préférable pour ceux qui ne sont pas pressés, car elle maximise l'efficacité du ricochet en renforçant sa résistance face à l'analyse on-chain ;
+- Le ricochet renforcé, ou "livraison échelonnée", qui offre l'avantage de répartir les frais de service Samourai sur les cinq transactions successives. Cette option assure également que chaque transaction soit diffusée à un moment distinct et inscrite dans un bloc différent, ce qui permet d'imiter le plus fidèlement possible le comportement d'un changement de propriétaire. Bien que plus lente, cette méthode est préférable pour ceux qui ne sont pas pressés, car elle maximise l'efficacité du ricochet en renforçant sa résistance face à l'analyse de chaîne ;
 
 ![BTC204](assets/fr/191.webp)
 
@@ -2743,9 +2743,9 @@ Enfin, lorsqu'un échange atomique implique des bitcoins on-chain et des bitcoin
 
 ### Est-ce vraiment utile ?
 
-Les transferts secrets de propriété, tels que les coinswaps et les atomic swaps, ont l'avantage de tromper les heuristiques d'analyse on-chain. Ces méthodes peuvent laisser penser que les transactions impliquent le même utilisateur, alors que la propriété réelle a changé de mains. Toutefois, le principal inconvénient de ces méthodes est qu'elles sont très risquées sans l'utilisation d'une technique supplémentaire pour casser l'historique de la pièce.
+Les transferts secrets de propriété, tels que les coinswaps et les atomic swaps, ont l'avantage de tromper les heuristiques d'analyse de chaîne. Ces méthodes peuvent laisser penser que les transactions impliquent le même utilisateur, alors que la propriété réelle a changé de mains. Toutefois, le principal inconvénient de ces méthodes est qu'elles sont très risquées sans l'utilisation d'une technique supplémentaire pour casser l'historique de la pièce.
 
-En effet, lorsqu'Alice réalise un coinswap ou un atomic swap avec Bob, elle échange la possession de ses bitcoins avec ceux de Bob. Dans le cas de l'atomic swap, l'échange inclut un altcoin, mais le principe reste le même. Ainsi, Alice se retrouve avec la pièce $B$ et Bob avec la pièce $A$. Cela ajoute du doute dans l'analyse on-chain, mais l'historique des pièces reste traçable. Si un analyste examine la pièce $A$, il peut remonter jusqu'aux activités antérieures d'Alice, et vice versa pour la pièce $B$.
+En effet, lorsqu'Alice réalise un coinswap ou un atomic swap avec Bob, elle échange la possession de ses bitcoins avec ceux de Bob. Dans le cas de l'atomic swap, l'échange inclut un altcoin, mais le principe reste le même. Ainsi, Alice se retrouve avec la pièce $B$ et Bob avec la pièce $A$. Cela ajoute du doute dans l'analyse de chaîne, mais l'historique des pièces reste traçable. Si un analyste examine la pièce $A$, il peut remonter jusqu'aux activités antérieures d'Alice, et vice versa pour la pièce $B$.
 
 ![BTC204](assets/fr/199.webp)
 
@@ -2776,7 +2776,7 @@ Dans la partie 4, nous avons abordé l'importance d'utiliser un nœud complet po
 
 Une manière d'éviter les différentes attaques par désanonymisation est d'utiliser la proposition Dandelion. Ce protocole de diffusion a été formalisé dans le BIP156, mais il n'a jamais été implémenté sur Bitcoin.
 
-L'idée de Dandelion est d'améliorer la confidentialité du routage des transactions dans le réseau Bitcoin pour contrer différentes formes d'attaques. Son objectif principal est de cacher le nœud source qui a initialement diffusé une transaction sur le réseau. La divulgation de ce nœud pourrait permettre de lier une transaction Bitcoin à une adresse IP spécifique (si le nœud opère sur le clearnet), ce qui pourrait offrir un point d'entrée pour une analyse on-chain. 
+L'idée de Dandelion est d'améliorer la confidentialité du routage des transactions dans le réseau Bitcoin pour contrer différentes formes d'attaques. Son objectif principal est de cacher le nœud source qui a initialement diffusé une transaction sur le réseau. La divulgation de ce nœud pourrait permettre de lier une transaction Bitcoin à une adresse IP spécifique (si le nœud opère sur le clearnet), ce qui pourrait offrir un point d'entrée pour une analyse de chaîne. 
 
 Cette association entre une activité sur Bitcoin et une adresse IP représente un risque considérable pour la confidentialité de l'utilisateur. En effet, de nombreuses entités sont en mesure de relier facilement une adresse IP à une identité personnelle. Cela inclut notamment les gouvernements et les fournisseurs d'accès Internet. De plus, cette information peut devenir publiquement accessible, par exemple, si votre adresse IP et vos données personnelles sont fuitées lorsque la base de données d'un site web est piratée.
 
@@ -3167,7 +3167,7 @@ Le code de paiement, en soi, ne présente pas un risque direct pour la confident
 
 En effet, le code de paiement n'est pas utilisé pour dériver directement les adresses recevant les paiements BIP47. Ces adresses sont plutôt générées via l'application d'ECDH entre les clés dérivées des codes de paiement des deux parties concernées.
 
-Ainsi, un code de paiement en lui-même n'entraîne pas directement une perte de confidentialité puisque seule l'adresse de notification est dérivée de celui-ci. Bien que cette adresse puisse révéler certaines informations, elle ne permet normalement pas de découvrir les parties avec lesquelles vous réalisez des transactions, à moins d'une analyse on-chain approfondie. En effet, si l'expéditeur utilise des UTXOs qui peuvent être reliés à son identité pour effectuer la transaction de notification, alors il devient possible de déduire que son identité est probablement liée à des paiements BIP47 vers votre code de paiement. Cela ne révélera pas les transactions sous-jacentes, mais indiquera leur vraisemblable existence.
+Ainsi, un code de paiement en lui-même n'entraîne pas directement une perte de confidentialité puisque seule l'adresse de notification est dérivée de celui-ci. Bien que cette adresse puisse révéler certaines informations, elle ne permet normalement pas de découvrir les parties avec lesquelles vous réalisez des transactions, à moins d'une analyse de chaîne approfondie. En effet, si l'expéditeur utilise des UTXOs qui peuvent être reliés à son identité pour effectuer la transaction de notification, alors il devient possible de déduire que son identité est probablement liée à des paiements BIP47 vers votre code de paiement. Cela ne révélera pas les transactions sous-jacentes, mais indiquera leur vraisemblable existence.
 
 Il est donc essentiel de maintenir cette séparation stricte entre les codes de paiements des utilisateurs. Dans cet objectif, l'étape de communication initiale du code est un moment risqué pour la confidentialité du paiement, mais obligatoire pour le bon fonctionnement du protocole. Si l'un des codes de paiement peut être obtenu publiquement (comme sur un site web), le second code, celui de l'expéditeur, ne doit en aucun cas être relié au premier.
 
@@ -3183,7 +3183,7 @@ Dans le schéma ci-dessous, les traits oranges indiquent les points où le flux 
 
 ![BTC204](assets/fr/225.webp)
 
-En réalité, dans le modèle de confidentialité traditionnel de Bitcoin, il est souvent complexe de dissocier complètement le flux d'informations entre la paire de clés et l'utilisateur, surtout lors de transactions à distance. Par exemple, dans le cadre d'une campagne de donation, le bénéficiaire doit inévitablement divulguer une adresse ou une clé publique via son site web ou ses réseaux sociaux. L'emploi correct du BIP47, notamment avec la transaction de notification, permet de contourner ce problème grâce à l'ECDH et à la couche de chiffrement que nous étudierons plus loin.
+En réalité, dans le modèle de confidentialité traditionnel de Bitcoin, il est souvent complexe de dissocier complètement le flux d'informations entre la paire de clés et l'utilisateur, surtout lors de transactions à distance. Par exemple, dans le cadre d'une campagne de donation, le bénéficiaire doit inévitablement divulguer une adresse ou une clé publique via son site web ou ses réseaux sociaux. L'emploi correct du BIP47, notamment avec la transaction de notification, permet de contourner ce problème grâce à l'ECDHE et à la couche de chiffrement que nous étudierons plus loin.
 
 Bien sûr, le modèle de confidentialité classique de Bitcoin s'observe toujours pour les clés publiques éphémères, qui sont dérivées de l'association des deux codes de paiement. Les deux modèles sont en fait complémentaires. Ce que je veux souligner ici, c'est que contrairement à l'usage habituel d'une clé publique pour recevoir des bitcoins, le code de paiement peut être lié à une identité spécifique, car l'information "_Alice effectue une transaction avec Bob_" est rompue à une autre étape. Le code de paiement sert à générer les adresses de paiement, mais en se basant uniquement sur l'observation de la blockchain, il est impossible de lier une transaction de paiement BIP47 aux codes de paiement utilisés pour l'exécuter, sauf si les UTXOs impliqués étaient déjà liés à une identité précédemment et que les utilisateurs ont associé leurs codes de paiement à leurs identités respectives.
 
@@ -3634,7 +3634,7 @@ Avant de commencer, il est important de préciser que les Silent Payments repose
 
 La décision de limiter les Silent Payments exclusivement à Taproot est motivée par deux raisons principales :
 - Premièrement, cela facilite considérablement l'implémentation et les futures mises à jour dans les logiciels de portefeuille, puisqu'un seul standard est à respecter ;
-- Deuxièmement, cette approche contribue à améliorer l'anonset des utilisateurs en les incitant à ne pas se répartir entre différents types de scripts, qui génèrent des empreintes de portefeuilles distinctes en analyse on-chain (pour plus d'informations sur ce concept, je vous invite à consulter le chapitre 4 de la partie 2).
+- Deuxièmement, cette approche contribue à améliorer l'anonset des utilisateurs en les incitant à ne pas se répartir entre différents types de scripts, qui génèrent des empreintes de portefeuilles distinctes en analyse de chaîne (pour plus d'informations sur ce concept, je vous invite à consulter le chapitre 4 de la partie 2).
 
 ### Dérivation naïve d'une clé publique de Silent Payments
 

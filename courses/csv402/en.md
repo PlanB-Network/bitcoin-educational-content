@@ -30,15 +30,15 @@ The course is based on a live seminar organized by Fulgur'Ventures and taught by
 
 Hello everyone, and welcome to this training course dedicated to RGB, a client-side validated smart contract system running on Bitcoin and the Lightning Network. The structure of this course is designed to enable in-depth exploration of this complex subject. Here's how the course is organized:
 
-**Section 1: Theory
+**Section 1: Theory**
 
 The first section is dedicated to the theoretical concepts needed to understand the fundamentals of client-side validation and RGB. As you'll discover in this course, RGB introduces a host of technical concepts not usually seen in Bitcoin. In this section, you'll also find a glossary providing definitions for all terms specific to the RGB protocol.
 
-**Section 2: Practice
+**Section 2: Practice**
 
 The second section will focus on the application of the theoretical concepts seen in section 1. We'll learn how to create and manipulate RGB contracts. We'll also see how to program with these tools. These first two sections are presented by Maxim Orlovsky.
 
-**Section 3: Applications
+**Section 3: Applications**
 
 The final section is led by other speakers who present concrete RGB-based applications, to highlight real-life use cases.
 
@@ -85,7 +85,7 @@ In this chapter, we explore the fundamentals of **distributed consensus systems*
 
 ### Introduction
 
-Distributed computing, a specific branch of computer science, studies the protocols used to circulate and process information on a network of nodes. Together, these nodes and the protocol rules constitute what is known as a distributed system. Among the essential properties that characterize such a system are :
+Distributed computing, a specific branch of computer science, studies the protocols used to circulate and process information on a network of nodes. Together, these nodes and the protocol rules constitute what is known as a distributed system. Among the essential properties that characterize such a system , some are :
 
 
 - The **capability of independent verification and validation** of certain data by each node;
@@ -95,14 +95,14 @@ Distributed computing, a specific branch of computer science, studies the protoc
 In particular, the notion of **consensus** in a distributed system covers two aspects:
 
 
-- Recognition of the validity** of state changes (according to protocol rules);
+- **Recognition of the validity** of state changes (according to protocol rules);
 - The **agreement on the order** of these state changes, which makes it impossible to rewrite or reverse validated operations a posteriori (this is also known in Bitcoin as "double-spend protection").
 
 The first functional, permission-free implementation of a distributed consensus mechanism was introduced by Satoshi Nakamoto with Bitcoin, thanks to the combined use of a blockchain data structure and a Proof-of-Work (PoW) algorithm. In this system, the credibility of the block history depends on the computing power devoted to it by the nodes (miners). Bitcoin is therefore a major and historic example of a distributed consensus system open to all (*permissionless*).
 
 In the world of blockchain and distributed computing, we can distinguish two fundamental paradigms: ***blockchain*** in the traditional sense, and ***state channels***, the best example of which in production is the Lightning Network. The blockchain is defined as a register of chronologically ordered events, replicated by consensus within an open, permission-free network. State channels, on the other hand, are peer-to-peer channels that enable two (or more) participants to maintain an updated state off-chain, using the blockchain only when opening and closing these channels.
 
-In the context of Bitcoin, you're no doubt familiar with the principles of mining, decentralization and finality of transactions on the blockchain, as well as how payment channels work. With RGB, we're introducing a new paradigm called **Client-side Validation**, which, unlike blockchain or Lightning, consists in locally (client-side) storing and validating the state transitions of a smart contract. This also differs from other "DeFi" techniques (_rollups_, _plasma_, _ARK_, etc.), in that Client-side Validation relies on the blockchain to prevent double-spending and to have a time-stamping system, while keeping the register of off-chain states and transitions, only with the participants concerned.
+In the context of Bitcoin, you're no doubt familiar with the principles of mining, decentralization and finality of transactions on the blockchain, as well as how payment channels work. With RGB, we're introducing a new paradigm called **Client-side Validation**, which, unlike blockchain or Lightning, consists in locally (client-side) storing and validating the state transitions of a smart contract. This also differs from other "DeFi" techniques (_rollups_, _plasma_, _ARK_, etc.), where the Client-side Validation relies on the blockchain to prevent double-spending and to have a time-stamping system, while keeping the register of off-chain states and transitions, only with the participants concerned.
 
 ![RGB-Bitcoin](assets/fr/003.webp)
 
@@ -113,24 +113,24 @@ Later on, we'll also introduce an important term: the notion of "**stash**", whi
 To understand how Client-side Validation and RGB address problems not solved by blockchain and Lightning, let's discover 3 major "trilemmas" in distributed computing:
 
 
-- Scalability, Decentralization, Privacy** ;
-- CAP** Theorem (Consistency, Availability, Partition Tolerance) ;
-- CIA** trilemma (Confidentiality, Integrity, Availability).
+- **Scalability, Decentralization, Privacy** ;
+- **CAP** Theorem (Consistency, Availability, Partition Tolerance) ;
+- **CIA** trilemma (Confidentiality, Integrity, Availability).
 
 #### 1. Scalability, decentralization and confidentiality
 
 
-- Blockchain (Bitcoin)**
+- **Blockchain (Bitcoin)**
 
 Blockchain is highly decentralized, but not very scalable. What's more, since everything is in a global, public register, confidentiality is limited. We can try to improve confidentiality with zero-knowledge technologies (confidential transactions, mimblewimble schemes, etc.), but the public chain cannot hide the transaction graph.
 
 
-- Lightning/State channels**
+- **Lightning/State channels**
 
 State channels (as with the Lightning Network) are more scalable and more private than blockchain, as transactions take place off-chain. However, the obligation to publicly announce certain elements (funding transactions, network topology) and the monitoring of network traffic can partly compromise confidentiality. Decentralization also suffers: routing is cash-intensive, and major nodes can become centralization points. This is precisely the phenomenon we're beginning to see on Lightning.
 
 
-- Client-side Validation (RGB)**
+- **Client-side Validation (RGB)**
 
 This new paradigm is even more scalable and more confidential, because not only can we integrate zero-disclosure proof-of-knowledge techniques, but there is no global graph of transactions, since nobody holds the entire register. On the other hand, it also implies a certain compromise on decentralization: the issuer of a smart contract can have a central role (like a "contract deployer" in Ethereum). However, unlike blockchain, with Client-side Validation, you only store and validate the contracts you're interested in, which improves scalability by avoiding the need to download and verify all existing states.
 
@@ -138,20 +138,20 @@ This new paradigm is even more scalable and more confidential, because not only 
 
 #### 2. CAP Theorem (Consistency, Availability, Partition tolerance)
 
-The CAP theorem emphasizes that it is impossible for a distributed system to simultaneously satisfy consistency (*Consistency*), availability (*Availability*) and partition tolerance (*Partition tolerance*).
+The CAP theorem emphasizes that it is impossible for a distributed system to simultaneously satisfy *Consistency*,*Availability* and *Partition tolerance*.
 
 
-- Blockchain**
+- **Blockchain**
 
 The blockchain favors consistency and availability, but doesn't do well with network partitioning: if you can't see a block, you can't act and have the same view as the whole network.
 
 
-- Lightning** (in French)
+- **Lightning**
 
 A system of state channels has availability and partitioning tolerance (since two nodes can remain connected to each other even if the network is fragmented), but overall consistency depends on the opening and closing of channels on the blockchain.
 
 
-- Client-side Validation (RGB)**
+- **Client-side Validation (RGB)**
 
 A system like RGB offers consistency (each participant validates its data locally, without ambiguity) and partitioning tolerance (you keep your data autonomously), but does not guarantee global availability (everyone has to make sure they have the relevant pieces of history, and some participants may not publish anything or stop sharing certain information).
 
@@ -165,7 +165,7 @@ This trilemma reminds us that confidentiality, integrity and availability cannot
 
 ### The role of blockchain and the notion of sharding
 
-The blockchain (in this case, Bitcoin) serves primarily as a _time-stamping_ mechanism and protection against double spending. Instead of inserting the complete data of a smart contract or decentralized system, we simply include **cryptographic commitments** (_commitments_) to transactions (in the sense of Client-side Validation, which we'll call "state transitions"). Thus :
+The blockchain (in this case, Bitcoin) serves primarily as a _time-stamping_ mechanism and protection against double spending. Instead of inserting the complete data of a smart contract or decentralized system, we simply include **cryptographic commitments** to transactions (in the sense of Client-side Validation, which we'll call "state transitions"). Thus :
 
 
 - We free the blockchain from a large amount of data and logic;
@@ -178,13 +178,13 @@ For RGB-type smart contracts, we shard according to the contracts themselves. Ea
 We can therefore imagine the ecosystem as follows:
 
 
-- The blockchain (Bitcoin)** as a foundation that ensures complete replication of a minimal register and serves as a time-stamping layer;
-- The Lightning Network** for fast, confidential transactions, still based on the security and final settlement of the Bitcoin blockchain;
-- RGB and Client-side Validation** to add more complex smart contract logic, without cluttering up the blockchain or losing confidentiality.
+- **The blockchain (Bitcoin)** as a foundation that ensures complete replication of a minimal register and serves as a time-stamping layer;
+- **The Lightning Network** for fast, confidential transactions, still based on the security and final settlement of the Bitcoin blockchain;
+- **RGB and Client-side Validation** to add more complex smart contract logic, without cluttering up the blockchain or losing confidentiality.
 
 ![RGB-Bitcoin](assets/fr/007.webp)
 
-These three elements form a triangular whole, rather than a linear stack of "layer 2", "layer 3" and so on. Lightning can connect directly to Bitcoin, or be associated with Bitcoin transactions that incorporate RGB data. Similarly, a "BiFi" use (finance on Bitcoin) can compose with the blockchain, with Lightning and with RGB according to needs for confidentiality, scalability or contract logic.
+These three elements form a triangular whole, rather than a linear stack of "layer 2", "layer 3" and so on. Lightning can connect directly to Bitcoin, or be associated with Bitcoin transactions that incorporate RGB data. Similarly, a "BiFi" (finance on Bitcoin) can compose with the blockchain, with Lightning and with RGB according to needs for confidentiality, scalability or contract logic.
 
 ![RGB-Bitcoin](assets/fr/008.webp)
 
@@ -208,8 +208,8 @@ In the case of the Bitcoin blockchain, transaction validation is based on a simp
 However, this model has two major drawbacks:
 
 
-- Scalability**: since each node must process, verify and archive everyone's transactions, there is an obvious limit to transaction capacity, linked in particular to the maximum block size (1 MB on average over 10 minutes for Bitcoin, excluding cookies);
-- Privacy**: everything is broadcast and stored publicly (amounts, destination addresses, etc.), which limits the confidentiality of exchanges.
+- **Scalability**: since each node must process, verify and archive everyone's transactions, there is an obvious limit to transaction capacity, linked in particular to the maximum block size (1 MB on average over 10 minutes for Bitcoin, excluding cookies);
+- **Privacy**: everything is broadcast and stored publicly (amounts, destination addresses, etc.), which limits the confidentiality of exchanges.
 
 ![RGB-Bitcoin](assets/fr/012.webp)
 
@@ -247,12 +247,12 @@ In concrete terms, here's how an RGB state transition works:
 Client-side Validation offers two major benefits:
 
 
-- Scalability:**
+- **Scalability:**
 
-The commitments (*commitments*) included in the blockchain are small (of the order of a few dozen bytes). This ensures that block space is not saturated, as only the hash needs to be included. It also enables the off-chain protocol to evolve, as each user only has to store his or her history fragment (his or her _stash_).
+The *commitments* included in the blockchain are small (of the order of a few dozen bytes). This ensures that block space is not saturated, as only the hash needs to be included. It also enables the off-chain protocol to evolve, as each user only has to store his or her history fragment (his or her _stash_).
 
 
-- Privacy :**
+- **Privacy :**
 
 Transactions themselves (i.e. their detailed content) are not published on-chain. Only their fingerprints (*hash*) are. Thus, amounts, addresses and contract logic remain private, and the receiver can verify, locally, the validity of his shard by inspecting all previous transitions. There is no reason for the receiver to make this data public, except in the event of a dispute or where proof is required.
 
@@ -290,7 +290,7 @@ This approach, transposed to the digital world, makes it possible to prove that 
 
 ![RGB-Bitcoin](assets/fr/017.webp)
 
-For Single-use Seals to work, you need a publication proof medium capable of proving the existence or absence of a publication, and difficult (if not impossible) to falsify once the information has been disseminated. A **blockchain** (like Bitcoin) can fill this role, as can a paper newspaper with a public circulation, for example. The idea is as follows:
+For Single-use Seals to work, you need a publication proof medium capable of proving the existence or absence of a publication, and difficult (if not impossible) to falsify once the information has been disseminated. A **blockchain** (like Bitcoin) can fill this role, as can a paper newspaper with a public circulation do, as an example. The idea is as follows:
 
 
 - We want to prove that a certain commitment on a message `h(m)` has been published to an audience without revealing the content of the message `m` ;
@@ -306,19 +306,15 @@ Unlike simple _commitments_ (hash) or timestamps, which attest to a date of exis
 The following comparison helps to understand this principle:
 
 
-- Cryptographic commitment (hash)**: With a hash function, you can commit to a piece of data (a number) by publishing its hash. The data remains secret until you reveal the pre-image, but you can prove that you knew it in advance;
-- Timestamp (blockchain)**: By inserting this hash in the blockchain, we also prove that we knew it at a precise moment (that of inclusion in a block);
-- Single-use Seal**: With single-use seals, we go one step further by making the commitment unique. With a single hash, you can create several contradictory commitments in parallel (the problem of the doctor who announces "*It's a boy*" to the family and "*It's a girl*" in his personal diary). The Single-use Seal eliminates this possibility by connecting the commitment to a proof-of-publication medium, such as the Bitcoin blockchain, so that an expenditure of UTXO definitively seals the commitment. Once spent, the same UTXO cannot be re-spent to replace the commitment.
+- **Cryptographic commitment (hash)**: With a hash function, you can commit to a piece of data (a number) by publishing its hash. The data remains secret until you reveal the pre-image, but you can prove that you knew it in advance;
+- **Timestamp (blockchain)**: By inserting this hash in the blockchain, we also prove that we knew it at a precise moment (that of inclusion in a block);
+- **Single-use Seal**: With single-use seals, we go one step further by making the commitment unique. With a single hash, you can create several contradictory commitments in parallel (the problem of the doctor who announces "*It's a boy*" to the family and "*It's a girl*" in his personal diary). The Single-use Seal eliminates this possibility by connecting the commitment to a proof-of-publication medium, such as the Bitcoin blockchain, so that an expenditure of UTXO definitively seals the commitment. Once spent, the same UTXO cannot be re-spent to replace the commitment.
 
-| Single-use Seals | Timestamps | Simple commitment (digest/hash) | Single-use Seals |
-
-| -------------------------------------------------------------------------------- | ------------------------------- | ---------- | ---------------- |
-
-| Publication of the commitment does not reveal the message | Yes | Yes | Yes | Yes
-
-| Proof of date of commitment / existence of message before a certain date | Impossible | Possible | Possible | Possible
-
-| Proof that no other alternative commitment can exist | Impossible | Possible |
+| Single-use Seals                                                         | Timestamps | Simple commitment (digest/hash) | Single-use Seals |
+| ------------------------------------------------------------------------ | ---------- | ------------------------------- | ---------------- |
+| Publication of the commitment does not reveal the message                | Yes        | Yes                             | Yes              |
+| Proof of date of commitment / existence of message before a certain date | Possible   | Impossible                      | Possible         |
+| Proof that no other alternative commitment can exist                     | Impossible | Impossible                      | Possible         |
 
 Single-use Seals work in three main stages:
 
@@ -389,8 +385,8 @@ An RGB smart contract may need to spend several Single-use Seals (several UTXOs)
 Two of the project's main GitHub repositories (under the LNPBP organization) group together the basic implementations of these concepts studied in the first chapter:
 
 
-- client_side_validation** : Contains Rust primitives for local validation ;
-- single_use_seals**: Implements the logic to define and close these seals securely.
+- **client_side_validation** : Contains Rust primitives for local validation ;
+- **single_use_seals**: Implements the logic to define and close these seals securely.
 
 ![RGB-Bitcoin](assets/fr/020.webp)
 
@@ -443,12 +439,12 @@ As we saw in the first chapter of the course, Single-use Seals are a general con
 To understand the logic, let's recall the basic principle: to close a _single-use seal_, we spend the sealed area by inserting the _commitment_ on a given message. In Bitcoin, this can be done in a number of ways:
 
 
-- Use a public key or address**
+- **Use a public key or address**
 
 We can decide that a specific public key or address is the _single-use seal_. As soon as this key or address appears on-chain in a transaction, it means that the seal is closed with a certain message.
 
 
-- Use a Bitcoin** transaction output
+- Use a **Bitcoin** transaction output
 
 This means that a _single-use seal_ is defined as a precise _outpoint_ (a TXID + output number pair). As soon as this _outpoint_ is spent, the seal is closed.
 
@@ -460,23 +456,18 @@ While working on RGB, we identified at least 4 different ways to implement these
 - Define the seal via the value of a public key, and close it in a _input_ ;
 - Define the seal via an _outpoint_, and close it in an _input_.
 
-| Seal definition | Seal closure | Additional requirements | Main application | Possible engagement schemes |
-
-| ------------- | ------------------------- | --------------------- | ----------------------------------------------------------------- | ---------------------------- | ------------------------------ |
-
-| P2(W)PKH | None at present | Keytweak, taptweak, opret |
-
-| TxO2 | Transaction output | Transaction output | Requires deterministic commitments on Bitcoin | RGBv1 (universal) | Keytweak, tapret, opret |
-
-| PkI | Public key value | Transaction entry | Taproot only & not compatible with Legacy wallets | Bitcoin-based identities | Sigtweak, witweak |
-
-| TxO1 | Transaction output | Transaction input | Taproot only & not compatible with Legacy wallets | None at present | Sigtweak, witweak |
+| Schema Name | Seal definition    | Seal closure       | Additional requirements                           | Main application         | Possible engagement schemes |
+| ----------- | ------------------ | ------------------ | ------------------------------------------------- | ------------------------ | --------------------------- |
+| Pk0         | Public key value   | Transaction output | P2(W)PKH                                          | none at the moment       | Keytweak, taptweak, opret   |
+| Tx02        | Transaction output | Transaction output | Requires deterministic commitments on Bitcoin     | RGBv1 (universal)        | Keytweak, tapret, opret     |
+| Pkl         | Public key value   | Transaction intput | Taproot only & not compatible with legacy wallets | Bitcoin-based identities | Sigtweak, witweak           |
+| Tx01        | Transaction output | Transaction intput | Taproot only & not compatible with legacy wallets | None at the moment       | Sigtweak, witweak           |
 
 We won't go into detail about each of these configurations, as in RGB we've chosen to use **an _outpoint_ as the definition of the seal**, and to place the _commitment_ in the output of the transaction spending this _outpoint_. We can therefore introduce the following concepts for the sequel:
 
 
-- "Seal definition "** : A given _outpoint_ (identified by TXID + output no.) ;
-- "Seal closing "**: The transaction that spends this _outpoint_, in which a _commitment_ is added to a message.
+- **"Seal definition "** : A given _outpoint_ (identified by TXID + output no.) ;
+- **"Seal closing "**: The transaction that spends this _outpoint_, in which a _commitment_ is added to a message.
 
 This scheme has been selected for its compatibility with RGB architecture, but other configurations could be useful for different uses.
 
@@ -527,12 +518,12 @@ Third parties don't have this information. They only see that a UTXO has been sp
 To clarify the structure, let's summarize the process in two transactions:
 
 
-- Transaction 1**: This contains the _seal definition_, i.e. the _outpoint_ that will serve as the seal.
+- **Transaction 1**: This contains the _seal definition_, i.e. the _outpoint_ that will serve as the seal.
 
 ![RGB-Bitcoin](assets/fr/031.webp)
 
 
-- Transaction 2**: Spends this _outpoint_. This closes the seal and, in the same transaction, inserts the _commitment_ on the message.
+- **Transaction 2**: Spends this _outpoint_. This closes the seal and, in the same transaction, inserts the _commitment_ on the message.
 
 ![RGB-Bitcoin](assets/fr/033.webp)
 
@@ -541,12 +532,12 @@ We therefore call the second transaction the "_witness transaction_".
 To illustrate this from another angle, we can represent two layers:
 
 
-- The top layer (blockchain, public)**: everyone sees the transaction and knows that a _outpoint_ has been spent;
-- The lower layer (client-side, private)** : only Alice (or the person concerned) knows that this expense corresponds to such and such a message, via the cryptographic proof and the message she keeps locally.
+- **The top layer (blockchain, public)**: everyone sees the transaction and knows that a _outpoint_ has been spent;
+- **The lower layer (client-side, private)** : only Alice (or the person concerned) knows that this expense corresponds to such and such a message, via the cryptographic proof and the message she keeps locally.
 
 ![RGB-Bitcoin](assets/fr/034.webp)
 
-But when closing the seal, the question arises as to where the _commitment_ should be inserted
+But when closing the seal, the question arises as to where the _commitment_ should be inserted.
 
 In the previous section, we briefly mentioned how the Client-side Validation model can be applied to RGB and other systems. Here, we tackle the part about **deterministic Bitcoin commitments** and how to integrate them into a transaction. The idea is to understand why we are trying to insert a single commitment into the _witness transaction_, and above all how to ensure that there can be no other undisclosed competing commitments.
 
@@ -559,13 +550,13 @@ The _witness transaction_ spends the famous UTXO (or _seal definition_) and this
 Whatever the method (PkO, TxO2, etc.), the _commitment_ can be inserted :
 
 
-- In an Input** via :
-    - Sigtweak** (modifies the `r` component of the ECDSA signature, similar to the "Sign-to-contract" principle) ;
-    - Witweak** (the transaction's _segregated witness_ data is modified).
-- In an Output** via :
-    - Keytweak** (the recipient's public key is "tweaked" with the message) ;
-    - Opret** (the message is placed in a non-spendable output `OP_RETURN`) ;
-    - Tapret** (or _Taptweak_), which relies on taproot to insert commitment into the script part of a taproot key, thus modifying the public key deterministically.
+- In an **Input** via :
+    - **Sigtweak** (modifies the `r` component of the ECDSA signature, similar to the "Sign-to-contract" principle) ;
+    - **Witweak** (the transaction's _segregated witness_ data is modified).
+- In an **Output** via :
+    - **Keytweak** (the recipient's public key is "tweaked" with the message) ;
+    - **Opret** (the message is placed in a non-spendable output `OP_RETURN`) ;
+    - **Tapret** (or _Taptweak_), which relies on taproot to insert commitment into the script part of a taproot key, thus modifying the public key deterministically.
 
 ![RGB-Bitcoin](assets/fr/035.webp)
 
@@ -668,41 +659,41 @@ In this first case, we start from a taproot output key (*Taproot Output Key*) `Q
 
 - `P`: the internal public key for the _Key Path Spend_.
 - `G`: the generating point of the elliptic curve [secp256k1](https://en.bitcoin.it/wiki/Secp256k1).
-- t = tH_TWEAK(P)` is the tweak factor, calculated via a _tagged hash_ (e.g. `SHA-256(SHA-256(TapTweak) || P)`), in accordance with [BIP86](https://github.com/bitcoin/bips/blob/master/bip-0086.mediawiki#address-derivation). This proves that there is no hidden script.
+-`t = tH_TWEAK(P)` is the tweak factor, calculated via a _tagged hash_ (e.g. `SHA-256(SHA-256(TapTweak) || P)`), in accordance with [BIP86](https://github.com/bitcoin/bips/blob/master/bip-0086.mediawiki#address-derivation). This proves that there is no hidden script.
 
 To include a **Tapret** commitment, add a **Script Path Spend** with a **unique script**, as follows:
 
 ![RGB-Bitcoin](assets/fr/048.webp)
 
 
-- t = tH_TWEAK(P || Script_root)` then becomes the new tweak factor, including the **Script_root**.
+- `t = tH_TWEAK(P || Script_root)` then becomes the new tweak factor, including the **Script_root**.
 - `Script_root = tH_BRANCH(64-byte_Tapret_Commitment)` represents the root of this **script**, which is simply a hash of type `SHA-256(SHA-256(TapBranch) || 64-byte_Tapret_Commitment)`.
 
 The proof of inclusion and uniqueness in the taproot tree here boils down to the single internal public key `P`.
 
 #### Tapret integration into a pre-existing Script Path
 
-The second scenario concerns a more complex `Q` taproot** output, which already contains several scripts. For example, we have a tree of 3 scripts:
+The second scenario concerns a more complex `Q` **taproot** output, which already contains several scripts. For example, we have a tree of 3 scripts:
 
 ![RGB-Bitcoin](assets/fr/049.webp)
 
 
-- tH_LEAF(x)` designates the normalized tagged hash function of a leaf script.
-- a, B, C` represent scripts already included in the taproot structure.
+- `tH_LEAF(x)` designates the normalized tagged hash function of a leaf script.
+- `A, B, C` represent scripts already included in the taproot structure.
 
 To add the Tapret commitment, we need to insert an *unspendable script* at the first level of the tree, shifting the existing scripts one level down. Visually, the tree becomes :
 
 ![RGB-Bitcoin](assets/fr/050.webp)
 
 
-- tHABC` represents the tagged hash of the top level grouping `A, B, C`.
-- tHT` represents the hash of the script corresponding to the 64-byte `Tapret`.
+- `tHABC` represents the tagged hash of the top level grouping `A, B, C`.
+- `tHT` represents the hash of the script corresponding to the 64-byte `Tapret`.
 
 According to taproot rules, each branch/leaf must be combined according to a lexicographical hash order. There are two possible cases:
 
 
-- `tHT` > `tHABC`: the Tapret commitment moves to the right of the tree. The uniqueness proof only needs `tHABC` and `P` ;
-- tHT` < `tHABC`**: the Tapret commitment is placed on the left. To prove that there is no other Tapret commitment on the right, `tHAB` and `tHC` must be revealed to demonstrate the absence of any other such script.
+- **`tHT` > `tHABC`**: the Tapret commitment moves to the right of the tree. The uniqueness proof only needs `tHABC` and `P` ;
+- **`tHT` < `tHABC`**: the Tapret commitment is placed on the left. To prove that there is no other Tapret commitment on the right, `tHAB` and `tHC` must be revealed to demonstrate the absence of any other such script.
 
 Visual example for the first case (`tHABC < tHT`):
 
@@ -722,7 +713,7 @@ In summary, the `Tapret` offers a discrete and deterministic way of incorporatin
 
 For RGB commitment transactions, the main requirement for a valid Bitcoin commitment scheme is as follows: The transaction (*witness transaction*) must provably contain a single commitment. This requirement makes it impossible to construct an alternative history for client-side validated data within the same transaction. This means that the message around which the _single-use seal_ closes is unique.
 
-To satisfy this principle, and regardless of the number of outputs in a transaction, we require that **one and only one output** can contain a commitment (*commitment*). For each of the schemes used (*Opret* or *Tapret*), the only valid outputs that can contain an RGB _commitment_ are :
+To satisfy this principle, and regardless of the number of outputs in a transaction, we require that **one and only one output** can contain a commitment. For each of the schemes used (*Opret* or *Tapret*), the only valid outputs that can contain an RGB _commitment_ are :
 
 
 - The first output `OP_RETURN` (if present) for the *Opret* scheme;
@@ -740,80 +731,47 @@ When we started RGB, we reviewed all these methods to determine where and how to
 - Difficulty of implementation and maintenance ;
 - Confidentiality and resistance to censorship.
 
-| Trace and on-chain sizing | Client-side sizing | Portfolio integration | Hardware compatibility | Lightning compatibility | Taproot compatibility |
+| Trace and on-chain sizing             | Client-side sizing | Portfolio integration | Hardware compatibility | Lightning compatibility | Taproot compatibility |                      |
+| ------------------------------------- | ------------------ | --------------------- | ---------------------- | ----------------------- | --------------------- | -------------------- |
+| Keytweak (deterministic P2C)          | 🟢                 | 🟡                    | 🔴                     | 🟠                      | 🔴 BOLT, 🔴 Bifrost   | 🟠 Taproot, 🟢 MuSig |
+| Sigtweak (deterministic S2C)          | 🟢                 | 🟠                    | 🔴                     | 🔴 BOLT, 🔴 Bifrost     | 🟠 Taproot, 🔴 MuSig  |                      |
+| Opret (OP_RETURN)                     | 🔴                 | 🟢                    | 🟢                     | 🟠                      | 🔴 BOLT, 🟠 Bifrost   | -                    |
+| Tapret algorithm: top-left node       | 🟠                 | 🔴                    | 🟠                     | 🟢                      | 🔴 BOLT, 🟢 Bifrost   | 🟢 Taproot, 🟢 MuSig |
+| Tapret algorithm #4: any node + proof | 🟢                 | 🟠                    | 🟢                     | 🔴 BOLT, 🟢 Bifrost     | 🟢 Taproot, 🟢 MuSig  |                      |
 
-| --------------------------------------------------- | ------------------------ | ------------------ | ----------------------------- | ------------------------ | ----------------------- | --------------------- |
+| Deterministic commitment scheme                     | Standard       | On-chain cost                                                                                          | Size of customer-side evidence                                                                               |
+| --------------------------------------------------- | -------------- | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ |
+| Keytweak (deterministic P2C)                        | LNPBP-1, 2     | 0 bytes                                                                                                | 33 bytes (untweaked key)                                                                                     |
+| Sigtweak (deterministic S2C)                        | WIP (LNPBP-39) | 0 bytes                                                                                                | 0 bytes                                                                                                      |
+| Opret (OP_RETURN)                                   | -              | 36 (v)bytes (TxOut additional)                                                                         | 0 bytes                                                                                                      |
+| Tapret algorithm: top-left node                     | LNPBP-6        | 32 bytes in witness (8 vbytes) on any n-of-m multisig and spend per script path                        | 0 bytes on taproot scriptless scripts ~270 bytes in a single script case, ~128 bytes if more than one script |
+| Tapret algorithm #4: any node + proof of uniqueness | LNPBP-6        | 32 bytes in the witness (8 vbytes) for single script cases, 0 bytes in the witness in most other cases | 0 bytes on taproot scriptless scripts, 65 bytes until the Taptree has a dozen scripts                        |
 
-| Keytweak (deterministic P2C) | 🟢 | 🟡 | 🔴 | 🟠 | 🔴 BOLT, 🔴 Bifrost | 🟠 Taproot, 🟢 MuSig |
+| Layer                          | On-chain cost (bytes/vbytes) | On-chain cost (bytes/vbytes) | On-chain cost (bytes/vbytes) | On-chain cost (bytes/vbytes) | On-chain cost (bytes/vbytes) | Client-side cost (bytes) | Client-side cost (bytes) | Client-side cost (bytes) | Client-side cost (bytes) | Client-side cost (bytes) |     |
+| ------------------------------ | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- | ------------------------ | ------------------------ | ------------------------ | ------------------------ | ------------------------ | --- |
+| **Type**                       | **Tapret**                   | **Tapret #4**                | **Keytweak**                 | **Sigtweak**                 | **Opret**                    | **Tapret**               | **Tapret #4**            | **Keytweak**             | **Sigtweak**             | **Opret**                |     |
+| Single-sig                     | 0                            | 0                            | 0                            | 0                            | 32                           | 0                        | 0                        | 32                       | 0?                       | 0                        | 0   |
+| MuSig (n-of-n)                 | 0                            | 0                            | 0                            | 32                           | 0                            | 0                        | 32                       | ? > 0                    | 0                        |                          |     |
+| Multi-sig 2-of-3               | 32/8                         | 32/8 or 0                    | 0 n/a                        | 32                           | ~270                         | 65                       | 32                       | n/a                      | 0                        |                          |     |
+| Multi-sig 3-of-5               | 32/8                         | 32/8 or 0                    | 0 n/a                        | 32                           | ~340                         | 65                       | 32                       | n/a                      | 0                        |                          |     |
+| Multi-sig 2-of-3 with timeouts | 32/8                         | 0                            | 0 n/a                        | 32                           | 64                           | 65                       | 32                       | n/a                      | 0                        | 0                        |     |
 
-| Sigtweak (deterministic S2C) | 🟢 | 🟠 | 🔴 | 🔴 BOLT, 🔴 Bifrost | 🟠 Taproot, 🔴 MuSig |
+| Layer                           | Cost on-chain (vbytes) | Cost on-chain (vbytes) | Cost on-chain (vbytes) | Cost on client side (bytes) | Cost on client side (bytes) |     |
+| ------------------------------- | ---------------------- | ---------------------- | ---------------------- | --------------------------- | --------------------------- | --- |
+| **Type**                        | **Base**               | **Tapret #2**          | **Tapret #4**          | **Tapret #2**               | **Tapret #4**               |     |
+| MuSig (n-of-n)                  | 16.5                   | 0                      | 0                      | 0                           | 0                           | 0   |
+| FROST (n-of-m)                  | ?                      | 0                      | 0                      | 0                           | 0                           |     |
+| Multi_a (n-of-m)                | 1+16n+8m               | 8                      | 8                      | 33 * m                      | 65                          |     |
+| MuSig branch / Multi_a (n-of-m) | 1+16n+8n+8xlog(n)      | 8                      | 0                      | 64                          | 65                          |     |
+| With timeouts (n-of-m)          | 1+16n+8n+8xlog(n)      | 8                      | 0                      | 64                          | 65                          |     |
 
-| Opret (OP_RETURN) | 🔴 | 🟢 | 🟢 | 🟠 | 🔴 BOLT, 🟠 Bifrost | - |
-
-| Tapret algorithm: top-left node | 🟠 | 🔴 | 🟠 | 🟢 | 🔴 BOLT, 🟢 Bifrost | 🟢 Taproot, 🟢 MuSig |
-
-| Tapret algorithm #4: any node + proof | 🟢 | 🟠 | 🟢 | 🔴 BOLT, 🟢 Bifrost | 🟢 Taproot, 🟢 MuSig |
-
-| Deterministic commitment scheme | Standard | On-chain cost | Size of customer-side evidence |
-
-| ------------------------------------------------------------- | -------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-
-| Keytweak (deterministic P2C) | LNPBP-1, 2 | 0 bytes | 33 bytes (untweaked key) |
-
-| Sigtweak (deterministic S2C) | WIP (LNPBP-39) | 0 bytes | 0 bytes |
-
-| Opret (OP_RETURN) | - | 36 (v)bytes (TxOut additional) | 0 bytes |
-
-| Tapret algorithm: top-left node | LNPBP-6 | 32 bytes in witness (8 vbytes) on any n-of-m multisig and spend per script path | 0 bytes on taproot scriptless scripts ~270 bytes in a single script case, ~128 bytes if more than one script |
-
-| Tapret algorithm #4: any node + proof of uniqueness | LNPBP-6 | 32 bytes in the witness (8 vbytes) for single script cases, 0 bytes in the witness in most other cases | 0 bytes on taproot scriptless scripts, 65 bytes until the Taptree has a dozen scripts |
-
-| Layer | On-chain cost (bytes/vbytes) | On-chain cost (bytes/vbytes) | On-chain cost (bytes/vbytes) | On-chain cost (bytes/vbytes) | On-chain cost (bytes/vbytes) | Client-side cost (bytes) | Client-side cost (bytes) | Client-side cost (bytes) | Client-side cost (bytes) | Client-side cost (bytes) |
-
-| ------------------------------ | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- | ------------------------ | ------------------------ | ------------------------ | ------------------------ | ------------------------ |
-
-| **Type** | **Tapret** | **Tapret #4** | **Keytweak** | **Sigtweak** | **Opret** | **Tapret** | **Tapret #4** | **Keytweak** | **Sigtweak** | **Opret** |
-
-| Single-sig | 0 | 0 | 0 | 0 | 32 | 0 | 0 | 32 | 0? | 0 | 0 |
-
-| MuSig (n-of-n) | 0 | 0 | 0 | 32 | 0 | 0 | 32 | ? > 0 | 0 |
-
-| Multi-sig 2-of-3 | 32/8 | 32/8 or 0 | 0 n/a | 32 | ~270 | 65 | 32 | n/a | 0 |
-
-| Multi-sig 3-of-5 | 32/8 | 32/8 or 0 | 0 n/a | 32 | ~340 | 65 | 32 | n/a | 0 |
-
-| Multi-sig 2-of-3 with timeouts | 32/8 | 0 | 0 n/a | 32 | 64 | 65 | 32 | n/a | 0 | 0
-
-| Layer | Cost on-chain (vbytes) | Cost on-chain (vbytes) | Cost on-chain (vbytes) | Cost on client side (bytes) | Cost on client side (bytes) |
-
-| -------------------------------- | ---------------------- | ---------------------- | ---------------------- | ------------------------ | ------------------------ |
-
-| **Type** | **Base** | **Tapret #2** | **Tapret #4** | **Tapret #2** | **Tapret #4** |
-
-| MuSig (n-of-n) | 16.5 | 0 | 0 | 0 | 0 | 0
-
-| FROST (n-of-m) | ? | 0 | 0 | 0 | 0 |
-
-| Multi_a (n-of-m) | 1+16n+8m | 8 | 8 | 33 * m | 65 |
-
-| MuSig branch / Multi_a (n-of-m) | 1+16n+8n+8xlog(n) | 8 | 0 | 64 | 65 |
-
-| With timeouts (n-of-m) | 1+16n+8n+8xlog(n) | 8 | 0 | 64 | 65 |
-
-| Method | Confidentiality and scalability | Interoperability | Compatibility | Portability | Complexity |
-
-| ----------------------------------------- | ------------------------------ | ---------------- | ------------- | ----------- | ---------- |
-
-| Keytweak (deterministic P2C) | 🟢 | 🔴 | 🔴 | 🟡 | 🟡 |
-
-| Sigtweak (deterministic S2C) | 🟢 | 🔴 | 🔴 | 🟢 | 🔴 |
-
-| Opret (OP_RETURN) | 🔴 | 🟠 | 🔴 | 🟢 | 🟢 |
-
-| Algo Tapret: top-left node | 🟠 | 🟢 | 🔴 | 🟠 |
-
-| Algo Tapret #4: Any node + proof | 🟢 | 🟢 | 🟠 | 🔴 |
-
+| Method                           | Confidentiality and scalability | Interoperability | Compatibility | Portability | Complexity |
+| -------------------------------- | ------------------------------- | ---------------- | ------------- | ----------- | ---------- |
+| Keytweak (deterministic P2C)     | 🟢                              | 🔴               | 🔴            | 🟡          | 🟡         |
+| Sigtweak (deterministic S2C)     | 🟢                              | 🔴               | 🔴            | 🟢          | 🔴         |
+| Opret (OP_RETURN)                | 🔴                              | 🟠               | 🔴            | 🟢          | 🟢         |
+| Algo Tapret: top-left node       | 🟠                              | 🟢               | 🔴            | 🟠          |            |
+| Algo Tapret #4: Any node + proof | 🟢                              | 🟢               | 🟠            | 🔴          |            |
 In the course of the study, it became clear that none of the commitment schemes was fully compatible with the current Lightning standard (which does not employ Taproot, _muSig2_ or additional _commitment_ support). Efforts are underway to modify Lightning's channel construction (*BiFrost*) to allow the insertion of RGB commitments. This is another area where we need to review the transaction structure, the keys and the way in which channel updates are signed.
 
 The analysis showed that, in fact, other methods (key tweak, sig tweak, witness tweak, etc.) presented other forms of complication:

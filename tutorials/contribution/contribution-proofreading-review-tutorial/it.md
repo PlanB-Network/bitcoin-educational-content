@@ -6,9 +6,9 @@ description: Come partecipare alla revisione dei contenuti didattici di Plan ₿
 
 ## In sintesi
 
-Se vuoi partecipare al proofreading o alla correzione di contenuti per Plan ₿ Network, unisciti al [nostro gruppo Telegram](https://t.me/PlanBNetwork_ContentBuilder) dedicato ai contributi. Presentati brevemente, poi specifica il contenuto che vorresti revisionare e la lingua. Apportate le vostre correzioni su un ramo funzionante e inviate un PR una volta completata la revisione.
+Se vuoi partecipare al proofreading o alla correzione di contenuti per Plan ₿ Network, unisciti al [nostro gruppo Telegram](https://t.me/PlanBNetwork_ContentBuilder) dedicato ai contributi. Presentati brevemente, poi specifica il contenuto che vorresti revisionare e la lingua. Apporta le tue correzioni su un "branch" funzionante e invia un PR una volta completata la revisione.
 
-Se non avete capito la parte precedente, non preoccupatevi: questo tutorial è per voi!
+Se non hai capito la parte precedente, non preoccuparti: questo tutorial è per te!
 
 ---
 ## Che cos'è Plan ₿ Network?

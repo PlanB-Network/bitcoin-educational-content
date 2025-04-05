@@ -5,4 +5,6 @@ wrong_answers:
   - dwdollar
   - MoshiTooMuch
   This service was rudimentary: exchanges were negotiated via email, and payments were made through PayPal. The exchange rate was based on the mining costs of NewLibertyStandard himself.
+explanation: |
+
 reviewed: false

@@ -5,4 +5,6 @@ wrong_answers:
   - Hali ya ulinganifu
   - Hali ya usambazaji
   A set S with a binary operation must satisfy several conditions to form a group, and the first is the closure condition: the operation between two elements of S must yield an element of S.
+explanation: |
+
 reviewed: false

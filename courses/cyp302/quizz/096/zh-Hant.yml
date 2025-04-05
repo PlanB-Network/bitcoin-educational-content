@@ -5,4 +5,6 @@ wrong_answers:
   - 公開金鑰產生、私人金鑰加密、驗證
   - 訊息散列、標籤加密、標籤分佈
   A MAC scheme consists of three main steps: generating a secret key, producing a tag for the message, and verifying that the received message and its tag match.
+explanation: |
+
 reviewed: false

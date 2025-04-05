@@ -5,4 +5,6 @@ wrong_answers:
   - Ufunguo wa umma, ufunguo wa faragha, na algoriti ya kusimbua
   - Kanuni ya usimbaji fiche, ufunguo wa umma na ufunguo wa faragha
   A symmetric encryption scheme consists of three elements: a key generation algorithm, an encryption algorithm, and a decryption algorithm. They all use the same key.
+explanation: |
+
 reviewed: false

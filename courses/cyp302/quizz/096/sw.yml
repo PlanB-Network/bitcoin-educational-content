@@ -5,4 +5,6 @@ wrong_answers:
   - Uzalishaji wa ufunguo wa umma, usimbaji fiche wa ufunguo wa kibinafsi, uthibitishaji
   - Hashing ya ujumbe, usimbaji wa lebo, usambazaji wa lebo
   A MAC scheme consists of three main steps: generating a secret key, producing a tag for the message, and verifying that the received message and its tag match.
+explanation: |
+
 reviewed: false

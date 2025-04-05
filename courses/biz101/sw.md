@@ -826,12 +826,7 @@ Wasifu wa Starter umeundwa kwa ajili ya biashara, watayarishi na watu binafsi am
 ![BIZ101-profiles](assets/en/18.webp)
 
 Mojawapo ya vipengele muhimu vya wasifu huu ni kuzingatia malipo ya kiwango cha chini ambacho mara chache huzidi euro mia chache au dola kwa mwezi. Kiwango hiki cha kawaida kinaifanya kuwa chaguo bora kwa mtu yeyote anayetaka kujaribu soko na Bitcoin, bila ugumu uliopo katika usambazaji wa kiwango cha juu. Zaidi ya hayo, inaruhusu kujifunza kwa vitendo mara moja; kwa kuwa kuna shinikizo chache za uendeshaji na vigingi vidogo vya fedha, makosa yanaweza kuzuiwa, na masomo hujifunza haraka. Kuanzia wasanii ambao huuza ufundi uliotengenezwa kwa mikono katika maonyesho ya wikendi hadi vikundi visivyo vya faida ambavyo vinakubali michango ya mara moja, watumiaji katika kitengo hiki mara nyingi husisitiza ufikivu na urahisi wa kutumia juu ya utendakazi wa hali ya juu.
-# Défini par Alice, validé ou accepté par Bob
-seal <- Define()
-# Fermeture du sceau par Alice avec le message
-witness <- Close(seal, message)
-# Vérification par Bob
-bool <- Verify(seal, witness, message)
+
 Mipangilio miwili ya kawaida ya Wallet kwa wasifu wa Starter inahusisha kuamua kati ya suluhu za ulezi na zisizo za ulezi. Wallet ya ulinzi (kama vile Wallet ya Satoshi au Blink) huruhusu huduma ya watu wengine kudhibiti funguo za faragha na uendeshaji wa nyuma, na hivyo kupunguza majukumu ya kiufundi kwa mtumiaji. Mpangilio huu unawavutia sana wale wanaothamini urahisi zaidi na wanaotaka kuabiri kwa urahisi iwezekanavyo. Kwa upande mwingine, pochi za umeme zisizo na kizuizi (kama vile Phoenix au Breez) huweka funguo za faragha na udhibiti kamili mikononi mwa mmiliki wa biashara, hivyo kutoa uhuru na faragha zaidi katika Exchange kwa juhudi zaidi za awali. Vyovyote vile, violesura vya kisasa kwa kawaida vinafaa mtumiaji hivi kwamba mtu yeyote anaweza kushughulikia kazi muhimu (kutengeneza msimbo wa QR, kuweka kiasi cha malipo, na kuthibitisha miamala) ndani ya dakika chache.
 
 ![BIZ101-profiles](assets/en/19.webp)
@@ -853,14 +848,19 @@ Kwa mafunzo ya kina kuhusu pochi zinazopendekezwa na usanidi msingi, tafadhali s
 **Pochi/nodi za kujilinda za LN:**
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+
 https://planb.network/tutorials/wallet/mobile/Bitkit-Wallet-a7224674-85c4-4045-9baf-37018d89550c
+
 https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+
 https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+
 https://planb.network/tutorials/wallet/mobile/zeus-3e89603c-501d-439c-8691-d4a0d0de459b
 
 **Pochi za LN za uhifadhi:**
 
 https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-c4792842-b046-44f9-a6f1-351191b7cc2b
+
 https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
 ## Muhimu

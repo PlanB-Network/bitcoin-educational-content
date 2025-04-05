@@ -5,4 +5,6 @@ wrong_answers:
   - Haifanyi kazi na ujumbe zaidi ya biti 128
   - Haifanyi kazi na ujumbe zaidi ya biti 256
   The ECB method (Electronic Code Book) is deterministic: identical blocks of data are encrypted in the same way, which allows patterns to be detected in the encrypted text.
+explanation: |
+
 reviewed: false

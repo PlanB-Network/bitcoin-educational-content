@@ -5,4 +5,6 @@ wrong_answers:
   - 每月檢索齋主的電費帳單
   - 擷取在低難度網路（如 BitDNS）上產生的工作證明
   This simple method was proposed by ribuck, Nils Schneider, and Gavin Andresen [on the forum](https: //bitcointalk.org/index.php?topic=1458.msg16951#msg16951) on October 14, 2010. ()
+explanation: |
+
 reviewed: false

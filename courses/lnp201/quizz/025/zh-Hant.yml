@@ -5,4 +5,6 @@ wrong_answers:
   - 安全關閉、自動關閉、資金損失關閉
   - 直接關閉、間接關閉、有索賠的關閉
   There are three methods: cooperative closure where the parties agree, forced closure without a response from one party, and closure with cheating where a party attempts to publish an old transaction.
+explanation: |
+
 reviewed: false

@@ -5,4 +5,6 @@ wrong_answers:
   - 公用金鑰、私人金鑰和解密演算法
   - 加密演算法、公開金鑰和私人金鑰
   A symmetric encryption scheme consists of three elements: a key generation algorithm, an encryption algorithm, and a decryption algorithm. They all use the same key.
+explanation: |
+
 reviewed: false

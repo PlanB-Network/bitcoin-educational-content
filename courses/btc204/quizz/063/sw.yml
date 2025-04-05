@@ -5,4 +5,6 @@ wrong_answers:
   - Ufuatiliaji wa muda na utumiaji tena wa Address.
   - Utumiaji tena wa Address na kiungo kati ya pembejeo / utambulisho na mwangalizi wa nje.
   Two risks need to be considered when selecting coins: the possibility for the payment recipient to link a part of your identity to the UTXOs used as inputs and the ability of an external observer to establish links between all the UTXOs consumed as inputs (CIOH).
+explanation: |
+
 reviewed: false

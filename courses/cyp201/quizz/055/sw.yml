@@ -5,4 +5,6 @@ wrong_answers:
   - Sehemu tatu za bits 170
   - Sehemu nne za bits 128
   The output of HMAC-SHA512 is divided into two parts: the master private key (256 bits) and the master chain code (256 bits).
+explanation: |
+
 reviewed: false

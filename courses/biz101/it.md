@@ -1001,7 +1001,7 @@ I commercianti di domani abbracceranno questa innovazione, offrendo ai clienti u
 
 <partId>d49d7595-a189-4e2b-bd60-c19e8e717aa2</partId>
 
-## Principi essenziali per la contabilità aziendale
+## Principi essenziali per la contabilità aziendale in bitcoin
 
 <chapterId>84063061-ffdb-4b1f-b20b-588ffb146877</chapterId>
 
@@ -1017,7 +1017,6 @@ La **conseguenza più importante** da tenere a mente è che, nella maggior parte
 
 Un altro aspetto della contabilità in bitcoin è la differenziazione tra due tipi di plusvalenze:
 
-
 - **Guadagni/perdite latenti**: guadagni o perdite non realizzati basati sul valore dei bitcoin detenuti alla fine di un periodo contabile.
   
 - **Guadagni/perdite effettivi**: guadagni o perdite realizzati quando i bitcoin vengono venduti o scambiati durante l'anno fiscale.
@@ -1026,7 +1025,6 @@ Questi calcoli dipendono in larga misura dal fatto che i bitcoin siano detenuti 
 
 La contabilità per le aziende che detengono dei bitcoin è piuttosto complessa perché ogni transazione deve essere meticolosamente monitorata per calcolare i profitti o le perdite realizzate o non realizzate. Per ogni vendita effettuata accettando dei bitcoin come forma di pagamento, o ogni volta che si acquista o si vendono dei bitcoin, è necessario registrare:
 
-
 - il tempo specifico
 - il prezzo di vendita (in valuta fiat)
 - il prezzo di costo dei bitcoin (il prezzo al quale i bitcoin sono stati inizialmente acquistati).
@@ -1034,7 +1032,6 @@ La contabilità per le aziende che detengono dei bitcoin è piuttosto complessa 
 In questo modo sarà possibile calcolare la differenza per determinare il profitto o la perdita.
 
 **Esempio**: Un'azienda acquista 1 BTC a 30.000 dollari. Successivamente, vende 0,5 BTC a 20.000 dollari. Per calcolare il profitto o la perdita, l'azienda deve:
-
 
 - Aver registrato l'ora, il prezzo di costo fiat e la quantità dei bitcoin acquistati
 - Aver registrato l'ora, il prezzo di vendita fiat e la quantità dei bitcoin venduta
@@ -1050,14 +1047,12 @@ Se i bitcoin fossero trattati come una valuta, le aziende lo gestirebbero come q
 
 **Esempio aggiornato se i bitcoin fosse riconosciuti come moneta**:
 
-
 - Un'azienda detiene 1 BTC quando i bitcoin valgono 30.000 dollari. Successivamente, l'azienda utilizza 0,5 BTC per un pagamento quando i bitcoin valgono 40.000 dollari.
-- L'azienda non calcola l'utile o la perdita realizzati. La transazione viene invece registrata come:
+- L'azienda **non** calcola l'utile o la perdita realizzati. La transazione viene invece registrata come:
     - Pagamento: 20.000 dollari (0,5 BTC × 40.000 dollari).
     - Saldo dei bitcoin rimanenti: 0.5 BTC, che ora valgono 20.000 dollari (aggiornato al tasso di cambio attuale).
 
 **Il vantaggio principale se i bitcoin fossero riconosciuto come valuta**
-
 
 - L'azienda deve solo aggiustare periodicamente l'equivalente in fiat delle sue disponibilità in bitcoin (ad esempio, per i rapporti mensili o annuali), proprio come per gli euro, gli yen o le altre valute che detiene.
 - Questo elimina la necessità di tracciare i costi a livello di transazione e semplifica la contabilità, soprattutto per le aziende con frequenti transazioni in bitcoin.
@@ -1083,13 +1078,11 @@ Il riconoscimento legale e il trattamento dei bitcoin variano a seconda della gi
 
 Nella maggior parte dei Paesi, i bitcoin sono classificati come attività digitali e il loro trattamento è regolato da norme contabili generali. Le imprese devono contabilizzare le transazioni in bitcoin come segue:
 
-
 - **Registrazione delle plusvalenze/minusvalenze**: le imprese devono contabilizzare le plusvalenze e le minusvalenze realizzate nei loro risultati finanziari.
 - **Valutazione dei guadagni/perdite latenti**: i guadagni o le perdite non realizzati devono spesso essere dichiarati, ma possono non avere un impatto diretto sul reddito imponibile.
 - **Conformità agli standard contabili**: le aziende devono integrare le transazioni i bitcoin nelle pratiche contabili standard, garantendo trasparenza e accuratezza.
 
 L'approccio alla contabilità dei bitcoin varia a seconda della geografia:
-
 
 - **Stati Uniti**: l'IRS classifica i bitcoin come **proprietà, simile ad azioni, obbligazioni o immobili**. Questa classificazione significa che qualsiasi transazione che coinvolga la criptovaluta, come guadagnare, vendere, scambiare o anche usare per fare acquisti, può creare un evento imponibile e i guadagni sono soggetti all'imposta sulle plusvalenze.
 - **Unione Europea**: gli Stati membri generalmente trattano i bitcoin come un'attività speculativa piuttosto che come una valuta funzionale. Pertanto i guadagni sono spesso soggetti all'imposta sulle plusvalenze.
@@ -1101,7 +1094,6 @@ L'approccio alla contabilità dei bitcoin varia a seconda della geografia:
 
 Il rapido ritmo dell'innovazione delle criptovalute spesso supera i quadri normativi. Da quando i bitcoin sono stati riconosciuti come asset digitale, le normative globali sono state aggiornate in modo incrementale, ma le lacune rimangono:
 
-
 - **Mancanza di giurisprudenza**: pochi casi legali hanno chiarito specifiche pratiche contabili, lasciando spazio all'interpretazione.
 - **Dibattiti in corso**: questioni come il trattamento fiscale delle perdite latenti rimangono irrisolte in molte giurisdizioni.
 - **Complessità transfrontaliera**: le aziende che operano a livello internazionale devono affrontare sfide per conciliare i diversi standard contabili nazionali.
@@ -1112,13 +1104,11 @@ Nonostante queste sfide, le posizioni proattive di molti Paesi forniscono una so
 
 La classificazione dei bitcoin nei bilanci varia a seconda della giurisdizione e dipende dall'uso che se ne intende fare all'interno di un'azienda. In linea di massima, i bitcoin sono trattati come un'attività digitale, simile al magazzino, all'investimento o alla valuta, ma con caratteristiche uniche che ne influenzano il trattamento contabile.
 
-
 - **Bene digitale o bene immateriale**: molte giurisdizioni, tra cui la Francia e l'Unione Europea, classificano i bitcoin come beni digitali o immateriali piuttosto che come una valuta legale. Questa classificazione impone alle imprese di contabilizzare i bitcoin in modo diverso rispetto alle valute fiat.
 - **Inventario**: se l'attività principale di un'azienda consiste nella negoziazione di bitcoin, come nel caso degli exchange di criptovalute o dei broker, i bitcoin sono classificati come inventario. In questo caso, la valutazione segue i principi contabili delle scorte.
 - **Investimento finanziario**: le aziende che detengono dei bitcoin come attività a lungo termine possono classificarlo come investimento finanziario. Ad esempio, negli Stati Uniti, le aziende potrebbero contabilizzare i bitcoin secondo le linee guida del Financial Accounting Standards Board (FASB), riconoscendo le svalutazioni quando i valori di mercato diminuiscono.
 
 **Implicazioni della classificazione**:
-
 
 - Le partecipazioni a lungo termine richiedono spesso test di svalutazione e ammortamento.
 - Le attività di trading attivo o legate ai pagamenti richiedono un monitoraggio costante dei guadagni e delle perdite realizzati e non realizzati.
@@ -1126,7 +1116,6 @@ La classificazione dei bitcoin nei bilanci varia a seconda della giurisdizione e
 ### Metodi di valutazione
 
 I metodi di valutazione sono tecniche contabili utilizzate per determinare la base di costo dei bitcoin, essenziale per calcolare con precisione i guadagni o le perdite durante le transazioni. In generale, è meglio **mantenere nel sistema contabile un valore sempre aggiornato dei costi correnti dei bitcoin posseduti**. Ciò garantisce la trasparenza, la conformità alle normative fiscali e impedisce di rimanere indietro quando è necessario eseguire i calcoli.
-
 
 - **First In, First Out (FIFO)**: comune in giurisdizioni come l'Australia e l'India, questo metodo valuta i bitcoin in base al primo costo di acquisizione. Questo metodo può diventare piuttosto **complicato** in quanto può richiedere di tenere traccia di ogni frazione di bitcoin separatamente quando si verifica una vendita.
 - **Costo medio ponderato (WAC)**: spesso preferito per le transazioni ad alto volume grazie alla sua **semplicità**, come si vede in paesi come gli Stati Uniti.
@@ -1139,13 +1128,11 @@ I rivenditori devono registrare per ogni transazione il tasso di cambio tra i bi
 
 Le aziende devono assicurarsi che gli strumenti di **pagamento** che utilizzano offrano la possibilità di:
 
-
 - generare una fattura con l'importo fiat locale (euro, dollari, sterline), l'IVA o altre imposte locali, l'equivalente in bitcoin, la data e l'ora, il tasso di cambio bitcoin e la fonte di cambio, ecc
 - esportare tutte le ricevute di pagamento, almeno in formato `.csv`, con tutte le informazioni di cui sopra, in modo che il commercialista possa elaborarle facilmente
 - idealmente avere una registrazione del valore aggiornato del costo-base per i bitcoin correnti detenuti in tesoreria.
 
 ### Sfide
-
 
 - **Volatilità**: il prezzo dei bitcoin fluttua in modo significativo, creando difficoltà nella valutazione delle partecipazioni e nella previsione dei risultati finanziari futuri.
 - **Controllo normativo**: in paesi come la Cina, lo stato di restrizione dei bitcoin ne limita l'uso come attività di tesoreria.
@@ -1157,16 +1144,7 @@ Le aziende devono assicurarsi che gli strumenti di **pagamento** che utilizzano 
 
 <chapterId>e7b31be5-1176-4835-944e-3cba1b7040fa</chapterId>
 
-Quando un'azienda decide di integrare Bitcoin nella propria contabilità, vari strumenti e software specializzati semplificano la raccolta e l'elaborazione dei dati. Tra le soluzioni più note vi sono:
-- [CoinTracker](https://www.cointracker.io/);
-- [Waltio](https://www.waltio.com/);
-- [Cryptio](https://cryptio.co/);
-- [Koinly](https://koinly.io/);
-- [TokenTax](https://tokentax.co/);
-- [ZenLedger](https://zenledger.io/).
-
-Queste piattaforme si concentrano principalmente su quattro aspetti:
-
+Quando un'azienda decide di integrare Bitcoin nella propria contabilità, vari strumenti e software specializzati semplificano la raccolta e l'elaborazione dei dati. Tra le soluzioni più note vi sono: [CoinTracker](https://www.cointracker.io/),[Waltio](https://www.waltio.com/), [Cryptio](https://cryptio.co/),[Koinly](https://koinly.io/), [TokenTax](https://tokentax.co/), and [ZenLedger](https://zenledger.io/). Queste piattaforme si concentrano principalmente su quattro aspetti:
 
 - raccolta automatica dei dati;
 - conversione di questi dati in formati compatibili con i software di contabilità più generali (QuickBooks, Xero, ERP);
@@ -1182,6 +1160,7 @@ Tuttavia, un semplice file `.csv` contenente la cronologia delle transazioni è 
 Per chi custodisce autonomamente i propri bitcoin, la gestione degli UTXO (*Unspent Transaction Outputs*) è un passo importante. Una corretta etichettatura degli UTXO aiuta a tracciare l'origine di ogni frammento di BTC, a differenziare le transazioni legate all'attività professionale da quelle per spese personali e a facilitare la tracciabilità a fini legali o fiscali. La maggior parte dei buoni software per portafogli Bitcoin consente di importare il portafoglio utilizzando il file di backup (o l'xpub, a seconda della configurazione) e di etichettare gli UTXO in base alla loro origine o destinazione. Per aiutarvi, ecco un tutorial completo dedicato a questa pratica:
 
 https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+
 Infine, che si tratti di un piccolo commerciante o di un'azienda più consolidata, è possibile **regolare una fattura in bitcoin**. Il segreto è documentare correttamente la transazione. Se si paga da un wallet non-custodial, è ideale generare una transazione annotando il numero della fattura e lo scopo del pagamento nelle proprie etichette. Se preferite saldare la fattura tramite uno scambio, avrete anche la possibilità di esportare una ricevuta o la cronologia della transazione da includere nei vostri registri contabili. Questa trasparenza semplificherà la tracciabilità e la rendicontazione di tutte le operazioni BTC.
 
 ## Esempi pratici di contabilità in bitcoin
@@ -1193,7 +1172,6 @@ Infine, che si tratti di un piccolo commerciante o di un'azienda più consolidat
 **Scenario**: una piccola panetteria accetta i bitcoin come metodo di pagamento, ma converte immediatamente tutti i bitcoin ricevuti in euro per evitare l'esposizione alla volatilità delle criptovalute.
 
 **Esempio**:
-
 
 - **Tasso di conversione dei bitcoin**: 1 bitcoin = 40.000 euro.
 - **Operazione 1**: il cliente acquista più pasticcini per 20 euro.
@@ -1207,13 +1185,11 @@ Infine, che si tratti di un piccolo commerciante o di un'azienda più consolidat
 
 **Riepilogo delle transazioni**:
 
-
 - **Vendite totali**: 25 euro.
 - **Totale commissione di conversione**: 0,375 euro.
 - **Euro netti ricevuti**: 24,625 euro.
 
 **Implicazioni contabili**:
-
 
 - Registrare le vendite totali (25 euro) come ricavi.
 - Dedurre le spese di conversione (0,375 euro) come spesa.
@@ -1225,7 +1201,6 @@ Infine, che si tratti di un piccolo commerciante o di un'azienda più consolidat
 
 **Esempio**:
 
-
 - **Tasso di conversione dei bitcoin**: 1 bitcoin = 40.000 euro.
 - **Transazione da parte del cliente**: Il cliente acquista pasticcini per 50 euro.
     - Equivalente in bitcoin: (50 / 40.000) = 0,00125 bitcoin = 125.000 satoshi.
@@ -1236,14 +1211,12 @@ Infine, che si tratti di un piccolo commerciante o di un'azienda più consolidat
 
 **Riepilogo**:
 
-
 - **Totale vendite**: 50 euro.
 - **Totale commissione di conversione***: 0,375 euro.
 - **Euro netti ricevuti**: 24,625 euro.
 - **I bitcoin trattenuti**: 62.500 satoshi.
 
 **Implicazioni contabili**:
-
 
 - Registrare le vendite totali (50 euro) come ricavi.
 - Dedurre le spese di conversione (0,375 euro) come spesa.
@@ -1256,7 +1229,6 @@ Infine, che si tratti di un piccolo commerciante o di un'azienda più consolidat
 
 **Esempio**:
 
-
 - **Tasso di conversione dei bitcoin al momento del pagamento**: 1 bitcoin = 30.000 euro.
 - **Transazione da parte del cliente**: ll cliente paga per servizi del valore di 3.000 euro.
     - Equivalente in bitcoin: (3.000 / 30.000) = 0,1 bitcoin = 10.000.000 di satoshi.
@@ -1267,13 +1239,11 @@ Infine, che si tratti di un piccolo commerciante o di un'azienda più consolidat
 
 **Riepilogo**:
 
-
 - **Totale ricavi riconosciuti**: 3.000 euro.
 - **Partecipazione in bitcoin**: 0.1 bitcoin valutato a 3.500 euro sul bilancio.
 - **Utili non realizzati**: 500 euro indicati nelle note finanziarie ma non realizzati come ricavi.
 
 **Implicazioni contabili**:
-
 
 - Registrare le entrate (3.000 euro) al momento della prestazione.
 - I bitcoin (0,1) ha mantenuto un valore di 3.500 euro nel bilancio.
@@ -1285,16 +1255,17 @@ Infine, che si tratti di un piccolo commerciante o di un'azienda più consolidat
 
 **Esempio**:
 
-
 - **Acquisti di Bitcoin da parte dei clienti**:
     - Acquisto 1: 2.000 euro a 20.000 €/BTC = 0,1 bitcoin = 10.000.000 satoshi.
     - Acquisto 2: 3.000 euro a 25.000 €/BTC = 0,12 bitcoin = 12.000.000 satoshi.
     - Acquisto 3: 5.000 euro a 30.000 €/BTC = 0,1667 bitcoin = 16.670.000 satoshi.
     - **Totale Bitcoin detenuti**: 0.3867 bitcoin = 38.670.000 satoshi.
+  
 - **Valutazione di fine anno**:
     - Prezzo dei bitcoin a fine anno: 40.000 €/BTC.
     - Valore totale: 0,3867 bitcoin × 40.000 euro = 15.468 euro.
     - Guadagno non realizzato: 15.468 euro - 10.000 euro (costo totale) = 5.468 euro.
+
 - **Vendita del 50% dei bitcoin**:
     - I bitcoin venduti: 0,19335 bitcoin.
     - Ricavo della vendita: 0.19335 bitcoin × 40.000 euro = 7.734 euro.
@@ -1306,13 +1277,11 @@ Infine, che si tratti di un piccolo commerciante o di un'azienda più consolidat
 
 **Riepilogo**:
 
-
 - **I bitcoin rimanenti**: 0.19335 bitcoin per un valore di 7.734 euro (a 40.000 €/BTC).
 - **Utili realizzati**: 2.735 euro inclusi nel conto economico.
 - **Utili non realizzati**: 5.468 euro indicati nelle note finanziarie (compreso il valore non realizzato dei bitcoin residui).
 
 **Implicazioni contabili**:
-
 
 - Registrare il ricavato della vendita (7.734 euro) come reddito.
 - Dedurre il costo dei bitcoin venduti (4.999 euro) per calcolare il guadagno realizzato.

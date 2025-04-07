@@ -672,7 +672,9 @@ In den vorherigen Kapiteln haben wir gesehen, wie man die Kanäle anderer Knoten
 
 ### Das Problem des Routings im Lightning
 
-Wie wir gesehen haben, ist es im Lightning das zahlungssendende Knoten, das die komplette Route zum Empfänger berechnen muss, weil wir ein Zwiebel-Routing-System verwenden. Die Zwischenknoten kennen weder den Ausgangspunkt noch das endgültige Ziel. Sie wissen nur, woher die Zahlung kommt und an welchen Knoten sie als nächstes übertragen werden muss. Das bedeutet, dass das sendende Knoten eine dynamische lokale Topologie des Netzwerks aufrechterhalten muss, mit den vorhandenen Lightning-Knoten und den Kanälen zwischen jedem, unter Berücksichtigung von Öffnungen, Schließungen und Statusaktualisierungen.
+Wie wir gesehen haben, ist es im Lightning-Netzwerk der zahlungssendende Knoten, der die komplette Route zum Empfänger berechnen muss – denn es wird ein Onion-Routing-System verwendet. Die Zwischenknoten kennen weder den Ursprung noch das endgültige Ziel der Zahlung. Sie wissen nur, woher die Zahlung kommt und an welchen Knoten sie als Nächstes weitergeleitet werden muss.
+
+Das bedeutet, dass der sendende Knoten eine dynamische lokale Topologie des Netzwerks aufrechterhalten muss – mit allen bekannten Lightning-Knoten und den Kanälen dazwischen, unter Berücksichtigung von Öffnungen, Schließungen und Statusaktualisierungen.
 
 ![LNP201](assets/en/61.webp)
 Selbst mit dieser Topologie des Lightning-Netzwerks gibt es wesentliche Informationen für das Routing, die dem sendenden Knoten nicht zugänglich sind, nämlich die genaue Verteilung der Liquidität in den Kanälen zu einem bestimmten Zeitpunkt. Tatsächlich zeigt jeder Kanal nur seine **gesamte Kapazität** an, aber die interne Verteilung der Mittel ist nur den beiden teilnehmenden Knoten bekannt. Dies stellt Herausforderungen für ein effizientes Routing dar, da der Erfolg der Zahlung insbesondere davon abhängt, ob ihr Betrag geringer ist als die niedrigste Liquidität auf der gewählten Route. Die Liquiditäten sind jedoch nicht alle für das sendende Knoten sichtbar.

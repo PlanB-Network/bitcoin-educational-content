@@ -1,19 +1,19 @@
 ---
 name: Elementi essenziali del Liquid Bootcamp
-goal: Acquisire una conoscenza completa della rete Liquid e del progetto Elements e imparare a implementare soluzioni avanzate in materia di transazioni riservate, tokenizzazione e architettura di rete decentralizzata.
+goal: Acquisisci una conoscenza completa della Liquid Network e del progetto Elements e impara a implementare soluzioni avanzate in materia di transazioni riservate, tokenizzazione e architettura di rete decentralizzata.
 objectives: 
 
-  - Comprendere i fondamenti dell'architettura liquida e la sua relazione con Bitcoin.
+  - Comprendere i fondamenti della Liquid Network e la sua relazione con Bitcoin.
   - Imparare a configurare e gestire i nodi Liquid utilizzando il software Elements.
-  - Esplorare l'uso di transazioni riservate e l'emissione di attività sulla rete Liquid.
-  - Cogliere gli aspetti commerciali e tecnici di Liquid per le applicazioni nei mercati dei capitali.
+  - Esplorare l'uso delle transazioni riservate e l'emissione di asset sulla Liquid Network.
+  - Apprendere gli aspetti commerciali e tecnici di Liquid per le applicazioni nei mercati finanziari.
 
 ---
 # Introduzione alla rete Liquid
 
-Intraprendete un viaggio educativo progettato per fornire una comprensione profonda della rete Liquid e del progetto Elements. Questo bootcamp combina teoria e pratica per insegnare i fondamenti tecnici, architettonici e commerciali necessari per implementare e sfruttare le funzionalità di Liquid. Dalle transazioni riservate alla progettazione dell'ecosistema, questo corso è ideale per coloro che desiderano ampliare le proprie conoscenze sugli strumenti avanzati dell'ecosistema Bitcoin.
+Inizia un percorso educativo progettato per fornire una comprensione profonda della Liquid Network e del progetto Elements. Questo bootcamp combina teoria e pratica per insegnarti i fondamenti tecnici, architettonici e commerciali necessari per implementare e sfruttare le funzionalità di Liquid. Dalle transazioni riservate alla progettazione dell'ecosistema, questo corso è ideale per coloro che desiderano ampliare le proprie conoscenze sugli strumenti avanzati dell'ecosistema Bitcoin.
 
-Con presentazioni di esperti del settore, il corso copre argomenti quali l'architettura di Liquid, le applicazioni di tokenizzazione, i concetti tecnici di Elements e casi d'uso innovativi come l'SDK Breeze. Progettato per essere accessibile a principianti e utenti intermedi, il corso offre valore anche agli sviluppatori esperti che cercano di padroneggiare Liquid come piattaforma per ottimizzare i loro progetti.
+Con presentazioni da parte di esperti del settore, il corso copre argomenti come l'architettura di Liquid, le applicazioni di tokenizzazione, i concetti tecnici di Elements e casi d'uso innovativi come Breeze SDK. Progettato per essere accessibile sia ai principianti che agli utenti intermedi, il corso offre valore anche agli sviluppatori esperti che desiderano padroneggiare Liquid come piattaforma per ottimizzare i loro progetti.
 
 +++
 # Introduzione
@@ -111,4 +111,5 @@ Antonio presenta Breeze, un SDK open-source progettato per le transazioni decent
 ## Conclusione
 
 <chapterId>e30a5587-d74b-4360-87fb-bbf3de1b0ba8</chapterId>
+
 <isCourseConclusion>true</isCourseConclusion>

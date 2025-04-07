@@ -1,0 +1,13 @@
+question: Je, ni faida gani kuu ya dhahabu kama sarafu?
+answer: Ni incredibly kudumu.
+wrong_answers:
+  - Inaweza kugawanywa kwa urahisi au kusafirishwa kwa umbali mrefu.
+  - Inaweza kuthibitishwa kwa urahisi.
+  - Haidhibitiwi na serikali.
+explanation: |
+  Ingawa haiwezi kugawanywa kwa urahisi au kusafirishwa
+  umbali mrefu, dhahabu ni nyenzo ya kudumu sana, ambayo
+  huifanya kuwa hifadhi nzuri ya thamani. Sarafu za dhahabu zilitumika kama a
+  fedha katika siku za nyuma, lakini hawangeweza kutumika sawa
+  madhumuni katika enzi ya kisasa ya kidijitali.
+reviewed: true

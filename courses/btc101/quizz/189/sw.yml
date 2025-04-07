@@ -1,0 +1,8 @@
+question: Bitcoin hutatuaje Shida ya Majenerali wa Byzantine?
+answer: Kupitia matumizi ya Blockchain kulingana na Proof of Work yenye ugumu wa kuelea.
+wrong_answers:
+  - Kupitia matumizi ya saini za kidijitali.
+  - Kupitia matumizi ya Ledger ya umma.
+  - Kupitia utumiaji wa Uthibitisho wa algorithm ya Wadau.
+explanation: >-
+reviewed: true

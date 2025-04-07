@@ -1,0 +1,14 @@
+question: Je! ni zawadi gani ya sasa ya Mining katika mtandao wa Bitcoin?
+answer: Uundaji wa bitcoins mpya na ada za manunuzi
+wrong_answers:
+  - Uundaji wa bitcoins mpya pekee
+  - Ada za muamala pekee
+  - Uundaji wa bitcoins mpya, ada za ununuzi, na bonasi kwa Miner ya haraka zaidi
+explanation: |
+  Zawadi ya sasa ya Mining katika mtandao wa Bitcoin ni
+  mara mbili. Inajumuisha kuundwa kwa bitcoins mpya, ambayo
+  imepungua kutoka bitcoins 50 kila dakika kumi mwanzoni
+  hadi bitcoins 6.25 leo (2023). Pia inajumuisha shughuli
+  ada, au ada za Mining, kutokana na miamala ambayo Miner
+  huchagua kujumuisha kwenye kizuizi chao.
+reviewed: true

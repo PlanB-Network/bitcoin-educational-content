@@ -1,0 +1,12 @@
+question: Ni njia gani moja ya kuthibitisha kuwa uko kwenye tovuti unayonuia kutembelea?
+answer: Angalia URL na kufuli ndogo kwenye upau wa Address.
+wrong_answers:
+  - Angalia idadi ya matangazo kwenye tovuti.
+  - Angalia kasi ya tovuti.
+  - Angalia mpango wa rangi wa tovuti.
+explanation: |
+  Kuangalia URLs na kufuli ndogo kwenye upau wa Address
+  ni njia mojawapo ya kuthibitisha kuwa uko kwenye tovuti unayokusudia
+  kutembelea. Kifuli kinaonyesha kuwa tovuti inatumia
+  Itifaki ya HTTPS, ambayo husimba data kwa njia salama ya Exchange.
+reviewed: true

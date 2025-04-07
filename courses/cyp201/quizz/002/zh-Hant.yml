@@ -1,0 +1,9 @@
+question: 當訊息輕微改變時，Hash 功能的哪個屬性會完全改變？
+answer: 雪崩效應
+wrong_answers:
+  - 抗撞性
+  - 第二預成像阻抗
+  - 長度
+explanation: |
+  輸入的微小變化會導致 Hash 發生劇烈變化，這就是所謂的雪崩效應。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Je, ni muundo gani unaohakikisha uthabiti wa muda wa mabadiliko katika RGB?
+answer: A DAG (Directed Acyclic Graph)
+wrong_answers:
+  - Mlolongo rahisi wa mstari
+  - Mtandao unaobadilika wa rika-kwa-rika
+  - Mti wa binary kwa UTXOs
+explanation: |
+  DAG huwezesha mabadiliko ya serikali kupangwa, huku ikiruhusu mageuzi sambamba bila kutofautiana.
+reviewed: false

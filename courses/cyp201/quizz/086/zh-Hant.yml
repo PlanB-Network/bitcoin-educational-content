@@ -1,0 +1,9 @@
+question: 如何計算以 bech32 編碼的 SegWit v0 位址的校驗和？
+answer: 使用 BCH 代碼
+wrong_answers:
+  - 應用 HASH256 兩次
+  - 透過新增 RIPEMD160 Hash
+  - 直接以 base64 編碼
+explanation: |
+  Bech32 位址使用 BCH 碼來計算校驗和。
+reviewed: false

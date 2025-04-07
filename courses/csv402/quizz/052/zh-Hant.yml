@@ -1,0 +1,9 @@
+question: RGB 通訊協定中的 Client-side Validation 是什麼？
+answer: Contract 數據和轉換的本地驗證
+wrong_answers:
+  - 直接在 Bitcoin Blockchain 上執行智慧型契約
+  - 獨家使用集中式節點來驗證交易
+  - 出現差異時自動重設 Contract 歷史記錄
+explanation: |
+  Client-side Validation 可讓每位參與者獨立驗證收到的資料是否符合 RGB Contract 定義的規則。
+reviewed: false

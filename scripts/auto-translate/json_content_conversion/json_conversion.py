@@ -11,13 +11,13 @@ class JsonConverter:
         self.is_yml = file_path.endswith('.yml')
         self.file_path = file_path
         
-        # MD specific states
+        
         self.in_yaml = False
         self.in_snippet = False
         self.in_equation = False
         self.current_block: List[str] = []
         
-        # Storage
+        
         self.output: List[Dict[str, Any]] = []
 
     def get_indent_level(self, line: str) -> int:
@@ -51,120 +51,174 @@ class JsonConverter:
             for line in content.splitlines():
                 self.process_md_line(line)
 
+
+
+
     def process_yml_file(self, content: str) -> None:
-        """Process YAML file content"""
+        """Process YAML file content (Revised Logic)"""
         lines = content.splitlines()
-        current_key = None
-        list_items = []
-        multiline_content = []
-        base_indent = 0
-        is_multiline = False
-        list_indent = 0
-        
-        for i, line in enumerate(lines):
-            if not line.strip():
-                continue
-
-            indent = self.get_indent_level(line)
+        i = 0
+        while i < len(lines):
+            line = lines[i]
             stripped_line = line.strip()
+            indent = self.get_indent_level(line)
 
-            # Check if this is a new key
+            if not stripped_line:
+                i += 1
+                continue 
+
+            
+            
+            
             if ':' in stripped_line and not stripped_line.startswith('-'):
-                # Save previous content if exists
-                if current_key:
-                    if list_items:
-                        # Get the actual list indent from the first list item
-                        for next_line in lines[i-len(list_items):i]:
-                            if next_line.strip().startswith('-'):
-                                list_indent = self.get_indent_level(next_line)
-                                break
+                try:
+                    key, value = stripped_line.split(':', 1)
+                    key = key.strip()
+                    value_stripped = value.strip()
+                    base_indent = indent 
+
+                    
+                    if value_stripped == '|':
+                        multiline_raw_lines = []
+                        content_indent = -1 
+                        
+                        
+                        block_index = i + 1
+                        while block_index < len(lines):
+                            block_line = lines[block_index]
+                            block_indent = self.get_indent_level(block_line)
+                            block_stripped = block_line.strip()
+
+                            
+                            if block_stripped and block_indent <= base_indent:
+                                break 
+                            
+                            
+                            if content_indent == -1 and block_stripped:
+                                content_indent = block_indent
+
+                            
+                            multiline_raw_lines.append(block_line)
+                            block_index += 1
+                        
+                        
+                        processed_content_lines = []
+                        if content_indent != -1:
+                             
+                             actual_content_indent = max(content_indent, base_indent + 1) if content_indent > base_indent else base_indent + 2
+
+                             for ml_line in multiline_raw_lines:
+                                 
+                                 if len(ml_line) >= actual_content_indent:
+                                     processed_content_lines.append(ml_line[actual_content_indent:])
+                                 else: 
+                                     processed_content_lines.append(ml_line.lstrip(' ')) 
+                        
+                        single_string_content = '\n'.join(processed_content_lines)
+
                         self.output.append({
                             'type': 'yml_property',
-                            'key': current_key,
-                            'content': list_items,
-                            'indent': base_indent,
-                            'is_list': True,
-                            'list_indent': list_indent,
-                            'translate': self.detector.should_translate_property(current_key)
-                        })
-                        list_items = []
-                    elif multiline_content:
-                        # Find content indent by looking at first non-empty line after pipe
-                        content_indent = 0
-                        for next_line in lines[i-len(multiline_content):i]:
-                            if next_line.strip():
-                                content_indent = self.get_indent_level(next_line)
-                                break
-                        self.output.append({
-                            'type': 'yml_property',
-                            'key': current_key,
-                            'content': multiline_content,
+                            'key': key,
+                            'content': single_string_content, 
                             'indent': base_indent,
                             'is_multiline': True,
-                            'content_indent': content_indent,
-                            'translate': self.detector.should_translate_property(current_key)
+                            'content_indent': actual_content_indent if content_indent != -1 else base_indent + 2, 
+                            'translate': self.detector.should_translate_property(key)
                         })
-                        multiline_content = []
+                        
+                        i = block_index 
+                        continue 
 
-                key, value = stripped_line.split(':', 1)
-                current_key = key.strip()
-                value = value.strip()
-                base_indent = indent  # Store original indent for this key
+                    
+                    
+                    elif value_stripped == '' or value_stripped == '[]':
+                        is_list = False
+                        list_items = []
+                        list_indent = -1
+                        
+                        
+                        block_index = i + 1
+                        if block_index < len(lines):
+                            next_line = lines[block_index]
+                            next_indent = self.get_indent_level(next_line)
+                            next_stripped = next_line.strip()
+
+                            
+                            if next_stripped.startswith('-') and next_indent > base_indent:
+                                is_list = True
+                                list_indent = next_indent
+                                
+                                
+                                while block_index < len(lines):
+                                    list_line = lines[block_index]
+                                    list_line_indent = self.get_indent_level(list_line)
+                                    list_line_stripped = list_line.strip()
+
+                                    
+                                    if not list_line_stripped.startswith('-') or list_line_indent != list_indent:
+                                         
+                                         if list_line_stripped and list_line_indent <= base_indent:
+                                             break
+                                         
+                                         
+                                         break 
+
+                                    list_items.append(list_line_stripped[1:].strip())
+                                    block_index += 1
+                        
+                        
+                        if is_list:
+                            self.output.append({
+                                'type': 'yml_property',
+                                'key': key,
+                                'content': list_items, 
+                                'indent': base_indent,
+                                'is_list': True,
+                                'list_indent': list_indent,
+                                'translate': self.detector.should_translate_property(key) 
+                            })
+                            i = block_index 
+                            continue
+                        else:
+                            
+                             self.output.append({
+                                'type': 'yml_property',
+                                'key': key,
+                                'content': None, 
+                                'indent': base_indent,
+                                'translate': self.detector.should_translate_property(key)
+                            })
+                             i += 1 
+                             continue
+
+                    
+                    else:
+                        self.output.append({
+                            'type': 'yml_property',
+                            'key': key,
+                            'content': value_stripped,
+                            'indent': base_indent,
+                            'translate': self.detector.should_translate_property(key)
+                        })
+                        i += 1 
+                        continue
                 
-                # Check if it's a multiline value with pipe
-                if value == '|':
-                    is_multiline = True
-                    continue
-                elif value:
-                    self.output.append({
-                        'type': 'yml_property',
-                        'key': current_key,
-                        'content': value,
-                        'indent': indent,  # Use actual indent from file
-                        'translate': self.detector.should_translate_property(current_key)
-                    })
-                    current_key = None
-                is_multiline = False
+                except ValueError:
+                     
+                     print(f"Warning: Skipping line with unexpected colon format: {line}")
+                     i += 1
+                     continue
 
-            # Handle list items
-            elif stripped_line.startswith('-'):
-                if not list_items:  # First item in list
-                    list_indent = indent  # Store the actual indent of first list item
-                list_items.append(stripped_line[1:].strip())
+            
+            else:
+                
+                
+                print(f"Warning: Skipping non-key definition line: {line}")
+                i += 1
+                
+        
 
-            # Handle multiline content
-            elif is_multiline and current_key:
-                if line.strip():  # Skip empty lines
-                    multiline_content.append(line.strip())
 
-        # Handle last property
-        if current_key:
-            if list_items:
-                self.output.append({
-                    'type': 'yml_property',
-                    'key': current_key,
-                    'content': list_items,
-                    'indent': base_indent,
-                    'is_list': True,
-                    'list_indent': list_indent,
-                    'translate': self.detector.should_translate_property(current_key)
-                })
-            elif multiline_content:
-                # Find content indent for last multiline block
-                content_indent = 0
-                for line in reversed(lines):
-                    if line.strip():
-                        content_indent = self.get_indent_level(line)
-                        break
-                self.output.append({
-                    'type': 'yml_property',
-                    'key': current_key,
-                    'content': multiline_content,
-                    'indent': base_indent,
-                    'is_multiline': True,
-                    'content_indent': content_indent,
-                    'translate': self.detector.should_translate_property(current_key)
-                })
 
     def process_md_line(self, line: str) -> None:
         """Process a single line from a Markdown file"""
@@ -173,7 +227,7 @@ class JsonConverter:
         if not line:
             return
             
-        # Check for delimiters first
+        
         delimiter_type, meta = self.detector.get_delimiter_info(line)
         if delimiter_type:
             if delimiter_type == 'snippet':
@@ -217,12 +271,12 @@ class JsonConverter:
                         self.current_block = []
                 return
 
-        # Handle block content
+        
         if self.in_snippet or self.in_equation:
             self.current_block.append(line)
             return
 
-        # Handle YAML header in markdown files
+        
         if line == '---':
             self.in_yaml = not self.in_yaml
             self.output.append({
@@ -253,7 +307,7 @@ class JsonConverter:
                 })
                 return
 
-        # Handle regular content
+        
         obj_type = self.detector.detect_object_type(line)
         translate = self.detector.should_translate_property(obj_type)
         
@@ -303,21 +357,21 @@ class JsonConverter:
                 key = obj['key']
                 
                 if obj.get('is_list', False):
-                    # Handle list property
+                    
                     output_lines.append(f"{indent}{key}:")
                     list_indent = ' ' * obj.get('list_indent', obj['indent'] + 2)
                     for item in obj['content']:
                         output_lines.append(f"{list_indent}- {item}")
                 
                 elif obj.get('is_multiline', False):
-                    # Handle multiline property
+                    
                     output_lines.append(f"{indent}{key}: |")
                     content_indent = ' ' * obj.get('content_indent', obj['indent'] + 2)
                     for line in obj['content']:
                         output_lines.append(f"{content_indent}{line}")
                 
                 else:
-                    # Handle simple property
+                    
                     content = obj['content'] if obj['content'] is not None else ''
                     if obj.get('key') == 'objectives' and not content:
                         output_lines.append(f"{indent}objectives:")
@@ -356,7 +410,7 @@ class JsonConverter:
             else:
                 output_lines.append(obj['content'])
         
-        # Clean up trailing empty lines
+        
         while output_lines and not output_lines[-1]:
             output_lines.pop()
             

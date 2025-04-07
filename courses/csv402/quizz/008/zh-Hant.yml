@@ -1,0 +1,9 @@
+question: 確定性 Bitcoin 承諾的主要目的是什麼？
+answer: 確保在交易中插入單一 Commitment
+wrong_answers:
+  - 簡化 Bitcoin 交易結構
+  - 降低 RGB 交易成本
+  - 優化 RGB 多重簽章的產生
+explanation: |
+  Bitcoin 確定性承諾保證單一 Commitment 插入到交易中，以避免隱藏的競爭承諾。
+reviewed: false

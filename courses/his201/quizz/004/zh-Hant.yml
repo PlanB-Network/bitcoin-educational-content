@@ -1,0 +1,9 @@
+question: David Chaum 的 eCash 概念是在哪一年實現的？
+answer: 1994
+wrong_answers:
+  - 1993
+  - 1995
+  - 1996
+explanation: |
+  它是由 cypherpunks 在二月首次實施，然後由 DigiCash 在十月透過發行 CyberBucks 進行試用。
+reviewed: false

@@ -1,0 +1,9 @@
+question: 何時在 Bitcoin Blockchain 上發佈 Commitment Transaction？
+answer: 最後當通道關閉時
+wrong_answers:
+  - 通道中每次傳輸後立即
+  - 在每次新的 Commitment Transaction
+  - 可用資金用盡時
+explanation: |
+  每次分配變更時，都會建立 Commitment 交易並簽署，但只有在通道關閉的情況下，這些交易才會最終在 Blockchain 上公佈。
+reviewed: false

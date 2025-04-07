@@ -1,0 +1,9 @@
+question: Kwa nini usimbaji fiche ulioidhinishwa unastahimili mashambulizi ya maandishi yaliyochaguliwa?
+answer: Kwa sababu urekebishaji wowote wa maandishi ya siri na mvamizi hufanya lebo hiyo kuwa batili
+wrong_answers:
+  - Kwa sababu hutumia algoriti moja ya usimbaji fiche
+  - Kwa sababu urekebishaji wowote wa maandishi ya siri na mvamizi hufanya ufunguo kuwa batili
+  - Kwa sababu husimba ujumbe tu bila lebo
+explanation: |
+  Mpango wa usimbaji ulioidhinishwa umeundwa ili kugundua marekebisho ya maandishi ya siri, ambayo hufanya lebo kuwa batili iwapo kuna majaribio ya kuchezea na kuhakikisha upinzani dhidi ya mashambulizi ya maandishi yaliyochaguliwa.
+reviewed: false

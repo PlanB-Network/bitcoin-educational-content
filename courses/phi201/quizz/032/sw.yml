@@ -1,0 +1,9 @@
+question: Je, ni uvumbuzi gani mkuu wa Sheria ya Majedwali Kumi na Mbili katika suala la kulinda haki za mtu binafsi?
+answer: Inafafanua wazi haki za mali na masharti ya uhamisho wao.
+wrong_answers:
+  - Inatoa haki ya kupiga kura kwa wageni wote.
+  - Inaanzisha mfumo wa haki ya kurejesha.
+  - Inahakikisha uhuru wa kusema na wa dini.
+explanation: |
+  Sheria ya Majedwali Kumi na Mbili ilibuniwa kwa kuweka sheria wazi za mali na uhamisho wake, hivyo kutoa msingi thabiti wa kisheria wa kulinda haki za mtu binafsi na kupunguza matumizi mabaya ya madaraka katika masuala ya umiliki.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni nini athari ya shughuli ya Bitcoin kwenye UTXO katika matokeo?
+answer: Inaziunda kwa kutumia UTXO zinazotumiwa katika pembejeo.
+wrong_answers:
+  - Inazitumia kukidhi pembejeo.
+  - Huzisimba kwa njia fiche ili kuficha jina la mpokeaji.
+  - Inazigawanya kwa muda kwa uthibitishaji.
+explanation: |
+  UTXO katika matokeo ya shughuli huundwa kwa kutumia UTXO katika pembejeo. Ni, kwa njia, marudio ya pesa.
+reviewed: false

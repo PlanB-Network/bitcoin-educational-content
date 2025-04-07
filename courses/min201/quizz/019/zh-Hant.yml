@@ -1,0 +1,12 @@
+question: 在 Bitcoin Mining 的背景下，Lightning Network 的意義何在？
+answer: Lightning Network 有可能大幅降低交易費用，從而影響礦工的收入。
+wrong_answers:
+  - Lightning Network 增加了區塊大小，從而提高了礦工的收入。
+  - Lightning Network 降低了 Bitcoin Mining 的能耗。
+  - Lightning Network 可提高 Bitcoin Mining 的速度。
+explanation: |
+  Lightning Network 可實現快速且低成本的
+  主 Bitcoin 鏈之外的交易。這有
+  有可能大幅降低交易費用、
+  這可能會影響礦工的收入。
+reviewed: true

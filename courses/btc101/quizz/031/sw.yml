@@ -1,0 +1,13 @@
+question: Ni ipi kati ya zifuatazo ambayo sio faida ya Bitcoin kama sarafu?
+answer: Inatumika kulipa kodi.
+wrong_answers:
+  - Inagawanyika.
+  - Inasafirishwa.
+  - Haina ruhusa.
+explanation: |
+  Bitcoin, kutokana na sifa zake kama vile mgawanyiko wake,
+  uthibitisho, kipengele cha chini cha ruhusa na usafiri,
+  inatoa duka bora la thamani. Aidha, kama upande wowote
+  sarafu ya mtandaoni, inawakilisha njia nzuri ya Exchange
+  ambayo haijui mipaka.
+reviewed: true

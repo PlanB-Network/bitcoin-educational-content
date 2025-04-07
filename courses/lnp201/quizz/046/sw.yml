@@ -1,0 +1,9 @@
+question: Katika Umeme Invoice, kiambishi awali lnbc katika sehemu inayoweza kusomeka na binadamu inamaanisha nini?
+answer: Inaonyesha shughuli ya Umeme kwenye Bitcoin Blockchain
+wrong_answers:
+  - Kwamba Invoice ni halali tu kwenye Bitcoin Testnet
+  - Kwamba Invoice imesimbwa katika bech32
+  - Kwamba ni shughuli ya On-Chain
+explanation: |
+  Kiambishi awali lnbc kinaashiria kuwa Invoice ni ya shughuli ya Umeme kwenye mtandao wa Bitcoin, na sio kwenye mtandao mwingine.
+reviewed: false

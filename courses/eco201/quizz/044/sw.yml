@@ -1,0 +1,11 @@
+question: Nini nafasi ya wajasiriamali na wanahisa katika uchumi wa kibepari kwa mujibu wa Mises?
+answer: Wanatenga mtaji katika tasnia tofauti, na hivyo kutengeneza bei ambazo hutumika kama pembejeo katika hesabu za kiuchumi za wasimamizi.
+wrong_answers:
+  - Wanawajibika kuunda kazi mpya.
+  - Wana jukumu la kuongeza utajiri wa taifa.
+  - Wana jukumu la kudhibiti Supply ya pesa katika uchumi.
+explanation: |
+  Mises alisisitiza umuhimu wa wajasiriamali na wanahisa,
+  ambao, kama wamiliki wa njia za uzalishaji, hutenga mtaji katika tasnia tofauti,
+  na hivyo kutengeneza bei ambazo hutumika kama pembejeo katika hesabu za kiuchumi za wasimamizi.
+reviewed: true

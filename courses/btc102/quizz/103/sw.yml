@@ -1,0 +1,14 @@
+question: Je, ni maoni gani potofu ya kawaida kuhusu kuunda mpango wa urithi kulingana na Pamela Morgan katika Upangaji wa Urithi wa Cryptoasset?
+answer: Nahitaji kuajiri wakili; Ninahitaji kumwamini mtu wa tatu; Kupanga kutafanya mali yangu iwe rahisi kuiba; Thamani ya cryptocurrency yangu ni ya chini sana kuweza kupangwa; Warithi wangu watahesabu kila kitu peke yao; Yote hii inaweza kufanyika kwa Smart contract rahisi.
+wrong_answers:
+  - Sihitaji kuajiri wakili; Sihitaji kumwamini mtu wa tatu; Kupanga kutafanya mali yangu Hard kuiba; Thamani ya cryptocurrency yangu ni ya juu sana kuweza kupangwa; Warithi wangu hawatabaini kila kitu wao wenyewe; Yote haya hayawezi kufanywa na Smart contract rahisi.
+  - Nahitaji kuajiri wakili; Ninahitaji kumwamini mtu wa tatu; Kupanga kutafanya mali yangu Hard kuiba; Thamani ya cryptocurrency yangu ni ya juu sana kuweza kupangwa; Warithi wangu watahesabu kila kitu peke yao; Yote haya hayawezi kufanywa na Smart contract rahisi.
+  - Sihitaji kuajiri wakili; Sihitaji kumwamini mtu wa tatu; Kupanga kutafanya mali yangu iwe rahisi kuiba; Thamani ya cryptocurrency yangu iko chini sana kuweza kupangwa; Warithi wangu hawatabaini kila kitu wao wenyewe; Yote hii inaweza kufanyika kwa Smart contract rahisi.
+explanation: |
+  Dhana potofu za kawaida kuhusu kuunda mpango wa urithi, kama ilivyoelezwa
+  na Pamela Morgan katika Upangaji wa Urithi wa Cryptoasset, ni kwamba unahitaji kuajiri
+  mwanasheria; unahitaji kumwamini mtu wa tatu; kupanga kutafanya mali yako iwe rahisi
+  kuiba; thamani ya cryptocurrency yako ni ya chini sana kuweza kupangwa; warithi wako watapata
+  tambua kila kitu peke yao; na yote haya yanaweza kufanywa kwa busara rahisi
+  Contract.
+reviewed: false

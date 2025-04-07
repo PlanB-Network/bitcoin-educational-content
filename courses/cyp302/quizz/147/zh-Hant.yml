@@ -1,0 +1,9 @@
+question: 如果整數 N 是兩個素數 p 和 q 的乘積，如何計算 N 的階？
+answer: (p - 1) * (q - 1)
+wrong_answers:
+  - (p * q) - 1
+  - p + q
+  - (p - 1) + (q - 1)
+explanation: |
+  對於 N 相等於兩個素數 p 和 q 的乘積，N 的冪計算為 (p - 1) * (q - 1)。
+reviewed: false

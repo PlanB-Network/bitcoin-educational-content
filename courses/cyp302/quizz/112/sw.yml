@@ -1,0 +1,9 @@
+question: Kwa nini RC4 imeainishwa kama cipher ya mtiririko inayosawazishwa?
+answer: Mtiririko muhimu hautegemei maandishi wazi na maandishi ya siri
+wrong_answers:
+  - Mtiririko muhimu unategemea thamani za maandishi ya awali ya msimbo
+  - Maandishi ya wazi lazima yaunganishwe kwenye mkondo muhimu
+  - Inatumia mtiririko muhimu kulingana na maandishi wazi pekee
+explanation: |
+  RC4 ni misimbo ya mtiririko inayosawazishwa kwa sababu utiririshaji wake muhimu unategemea tu ufunguo wa mwanzo na si maandishi wazi au maandishi ya siri, kuhakikisha uhuru wa mtiririko huu kutoka kwa ujumbe.
+reviewed: false

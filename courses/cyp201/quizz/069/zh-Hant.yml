@@ -1,0 +1,9 @@
+question: 鏈碼在子鑰匙的推導中主要扮演什麼角色？
+answer: 引入額外的熵源
+wrong_answers:
+  - 識別層級深度
+  - 儲存子鍵的索引
+  - 確保與 Bitcoin 通訊協定相容
+explanation: |
+  鏈碼用來為每個衍生金鑰引入額外且獨特的熵源。
+reviewed: false

@@ -1,0 +1,10 @@
+question: Ni nini athari ya mfumuko wa bei wa 20% kwenye nguvu ya ununuzi kwa miaka 3?
+answer: Unapoteza 50% ya uwezo wako wa kununua.
+wrong_answers:
+  - Unapoteza 100% ya uwezo wako wa kununua.
+  - Unapoteza 60% ya uwezo wako wa kununua.
+  - Unapoteza 30% ya uwezo wako wa kununua.
+explanation: |
+  Kwa mfumuko wa bei wa 20%, unapoteza karibu nusu ya ununuzi wako
+  nguvu katika miaka 3.
+reviewed: true

@@ -1,0 +1,9 @@
+question: 密碼管理器的主要功能是什麼？
+answer: 儲存、generate 及整理密碼。
+wrong_answers:
+  - 分析並移除病毒。
+  - 備份和整理個人文件。
+  - 最佳化連線速度。
+explanation: |
+  基本功能包括儲存、產生和組織密碼。
+reviewed: false

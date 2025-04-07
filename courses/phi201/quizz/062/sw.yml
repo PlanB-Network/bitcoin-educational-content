@@ -1,0 +1,9 @@
+question: Je, Biblia ilikuwa na mtazamo gani kuhusu kukopesha kwa riba?
+answer: Ilikatazwa.
+wrong_answers:
+  - Ilitia moyo.
+  - Ilivumilia katika baadhi ya matukio.
+  - Hakuwa na maoni juu ya jambo hilo.
+explanation: |
+  Biblia inakataza kukopesha kwa riba, hasa katika Agano la Kale, ambapo kukopeshana kwa riba miongoni mwa wanajamii kunaonekana kuwa ni kinyume cha maadili na kinyume na maadili ya mshikamano.
+reviewed: false

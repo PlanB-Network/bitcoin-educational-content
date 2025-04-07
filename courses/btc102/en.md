@@ -31,6 +31,7 @@ Structured to give you full control over your learning, this course lets you cha
 Welcome to BTC102! You may already have taken the BTC101 training course and discovered the fundamental theoretical concepts that make Bitcoin a major technological revolution. With BTC102, it's time to get down to business: this training course has been specially designed to help you put your personal Bitcoin plan into practice. Over the next few chapters, we'll be taking you step-by-step through the process of **obtaining your first bitcoins**, **securing** them efficiently and successfully entering this rapidly expanding ecosystem.
 
 https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
+
 Despite being in existence for over 16 years, the Bitcoin industry remains young, dynamic and profoundly free. Indeed, its underlying protocol, which is entirely decentralized and impossible to control completely by any central authority, allows this ecosystem to develop naturally and organically. While this freedom fosters an incredible wave of innovation and opportunity, it also exposes its users to certain risks, including scams, common mistakes and pitfalls linked to a lack of knowledge. The main aim of this training course is to help you navigate this new ecosystem safely and serenely.
 
 To this end, the BTC102 training course is structured into several sections, each dealing with an essential aspect of your personal journey with Bitcoin :
@@ -104,7 +105,6 @@ Financial pyramids and Ponzi schemes are among the most common scams in the cryp
 ![BTC102-Bitcoin](assets/fr/003.webp)
 
 These scams usually feature :
-
 
 - Unrealistic promises of guaranteed returns (e.g. 20% guaranteed return);
 - Delays or difficulties in withdrawing your invested funds;
@@ -188,7 +188,6 @@ Influencers will sometimes suggest that you join paid private groups, where they
 
 Faced with this reality, here are a few good practices to adopt to avoid the traps set by these influencers:
 
-
 - Be extremely cautious about any recommendation to buy a cryptocurrency**. An honest and knowledgeable person will never urge you to rush into buying an asset without encouraging you to do your own research ;
 - Paid trading and investment courses are not necessarily synonymous with quality**. Often, they present risky or simplistic techniques that are freely available elsewhere on the Internet;
 - Bear in mind that there is no miracle method** for easily copying someone else's trading and achieving exactly the same results. Every investment strategy depends on personal context, specific knowledge, timing and a host of other factors that are impossible to reproduce identically;
@@ -201,7 +200,6 @@ The best protection is personal education, well-placed skepticism and, above all
 ### How to avoid scams
 
 **Here are a few tips to help you avoid online scams:**
-
 
 - Never trust blindly: "*Don't trust, verify*" ;
 - Beware of returns that are too high or guaranteed;
@@ -243,9 +241,11 @@ Similarly, the use of a reliable antivirus is highly recommended. On Windows, Wi
 In addition to these points, beware of downloads from dubious sites or universal download portals. When you need software, go for the official source. This drastically reduces the risk of malware being embedded in what you think is a legitimate file. Another good practice is to always check the authenticity and integrity of any software before installing it on your machine. If you don't know how to do this, we have a tutorial dedicated to the subject :
 
 https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 Finally, remember to back up your data regularly. An external hard disk (or SSD) will enable you to keep a duplicate of your important files. This will save you a lot of grief in the event of a sudden breakdown, hacking or operating error. If you prefer online solutions, there are secure services like Proton Drive.
 
 https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+
 A generally recommended backup strategy is the "3-2-1" rule. It aims to protect your data against accidental loss, computer attacks or natural disasters. This rule implies keeping a minimum of **3 copies** of your important data, stored on at least **2 different media** (e.g. local hard disk and cloud storage), while always keeping **1 copy off-site** (physically removed from your main location). This method ensures that your data remains resilient.
 
 ![BTC102-Bitcoin](assets/fr/013.webp)
@@ -324,6 +324,7 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 - Encrypt** your files with tools like Bitlocker (Windows) or VeraCrypt (multi-platform).
 
 https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+
 ### Step by step
 
 IT security can seem like a huge undertaking. Many beginners give up on the idea of implementing everything at once, because they consider the task too complex. To avoid this problem, tackle each tool step by step, progressively. For example, start by installing a password manager, give yourself a few weeks to familiarize yourself with it, then move on to the next step: activating 2FA on a first account, etc.
@@ -1080,6 +1081,7 @@ Finally, accepting Bitcoin is also an excellent marketing strategy. It positions
 If you'd like to learn more about integrating Bitcoin into businesses, whether as a means of payment, a cash investment or both, we have a first-year training course specially designed for you:
 
 https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+
 Bitcoin as a currency continues to gain ground, with increasing adoption in many sectors. The rise of Lightning Network has also significantly reduced transaction costs and accelerated payments, making Bitcoin even more attractive to merchants.
 
 We're now at a stage where everyone can get involved in the Bitcoin ecosystem. Whether using it in everyday life, integrating it into a business, participating in education, contributing to the development of code or innovating through new uses, Bitcoin has become an unstoppable phenomenon.
@@ -1518,6 +1520,7 @@ A few recommendations:
 To keep track of your Bitcoin portfolio more easily, there are tools available for setting up a "watch-only" Wallet. Using your wallet's public keys, you can monitor your transactions and balances, for example via a mobile application, without compromising the security of your private keys, which remain stored exclusively on your Hardware Wallet.
 
 https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+
 The hodler's investment plan is therefore based on a simple but rigorous strategy: buy, secure, forget. His main challenge is not technical, since portfolio configuration is fairly straightforward, but psychological: resist the temptation to sell too soon, and don't let yourself be influenced by market volatility.
 
 ![BTC102-Bitcoin](assets/fr/075.webp)
@@ -1799,6 +1802,7 @@ https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-8905
 If the active user makes frequent use of the Lightning Network, it might also make sense to manage his own LND, LDK or Core-Lightning node and take charge of opening and closing his channels. This will enable him to be independent in his use of the Lightning Network and potentially reduce the fees associated with his daily transactions, compared to using automatically managed Lightning nodes like Phoenix, or even worse, custodial Lightning wallets.
 
 https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+
 #### 3. Regular acquisition of bitcoins
 
 An active user must maintain a balance between his savings and his stock of bitcoins that can be used on a daily basis.
@@ -1860,6 +1864,7 @@ To facilitate spending in bitcoins, a number of tools are also available, includ
 As we're in a transitional period where not all the merchants we need on a daily basis accept BTC yet, there are some tricks up our sleeve that may seem rudimentary, but are proving very useful. For example, buying gift cards in bitcoins is a practical option offered by several providers such as Bitrefill, Coinsbee, or The Bitcoin Company.
 
 https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+
 #### 5. Technology watch and flexibility
 
 The Bitcoin protocol, overlay systems such as Lightning Network and the entire application layer linked to these ecosystems are evolving rapidly. An active user must therefore :
@@ -1957,6 +1962,7 @@ https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-8905
 - A Lightning** node for day-to-day spending, with full control over the process, including channel opening and management, while remaining independent in its use of Lightning.
 
 https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+
 ![BTC102-Bitcoin](assets/fr/090.webp)
 
 Paranoid users will also opt for advanced tools to secure their portfolios. To manage his mnemonic phrases, he will opt for metal supports accompanied by sealed opaque envelopes, to protect against natural disasters and to regularly check that no one has accessed his phrases.

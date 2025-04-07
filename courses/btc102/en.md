@@ -81,8 +81,8 @@ The Bitcoin ecosystem and its environment are still relatively young and, depend
 Before going any further, it's important to make a clear distinction between two distinct universes:
 
 
-- The Bitcoin** industry, focused on sound money, strong decentralization, resilience, privacy and individual sovereignty. The Bitcoin protocol is developed with a long-term approach and represents a stable value, existing since 2009, and benefiting from the serious work of a large community of developers.
-- The much larger cryptocurrency industry**, which includes tens of thousands of different projects, each with its own token. This industry is more oriented towards rapid innovation, fads and short-term financial speculation. Projects are often centralized and insecure, and many offer no real value, despite their aggressive marketing.
+- **The Bitcoin** industry, focused on sound money, strong decentralization, resilience, privacy and individual sovereignty. The Bitcoin protocol is developed with a long-term approach and represents a stable value, existing since 2009, and benefiting from the serious work of a large community of developers.
+- **The much larger cryptocurrency industry**, which includes tens of thousands of different projects, each with its own token. This industry is more oriented towards rapid innovation, fads and short-term financial speculation. Projects are often centralized and insecure, and many offer no real value, despite their aggressive marketing.
 
 ![BTC102-Bitcoin](assets/fr/001.webp)
 
@@ -256,7 +256,6 @@ The number one reason why so many people are hacked is the weakness of their pas
 
 A password manager lets you :
 
-
 - Store all your passwords in encrypted form;
 - Automatically generate long, random, unique and complex identifiers;
 - To have only one master password to remember for access to all the others.
@@ -309,7 +308,6 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 
 Essential steps to preserve your online privacy also include :
 
-
 - The use of **encrypted messaging** such as Signal, SimpleX or Session ;
 - The use of more privacy-friendly browsers, such as Firefox, Brave or Tor (for enhanced anonymity);
 
@@ -321,7 +319,7 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 
-- Encrypt** your files with tools like Bitlocker (Windows) or VeraCrypt (multi-platform).
+- **Encrypt** your files with tools like Bitlocker (Windows) or VeraCrypt (multi-platform).
 
 https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
@@ -353,7 +351,6 @@ In this chapter, I offer some practical advice and general guidance for those em
 
 Here are the main tips that we will go over together:
 
-
 - Beware of Shitcoins and other useless cryptocurrencies;
 - Invest only what you are prepared to lose;
 - Understand the distinction between trading and investing;
@@ -370,19 +367,17 @@ The Bitcoin universe is accessible to all, but that doesn't mean you should ente
 
 **Technological errors:**
 
-
-- Losing your wallet's seed:** Your seed (or mnemonic phrase) is a series of 12 or 24 words that allow you to recover access to your bitcoins. If you lose this phrase, you permanently lose access to your funds;
-- Storing your bitcoins on a third-party platform:** Keeping your bitcoins on an exchange platform means you don't actually own your bitcoins. This exposes you to risks such as piracy, bankruptcy or confiscation;
-- Neglecting confidentiality:** Protecting your privacy must be part of your security strategy. Publicly exposing the amount of bitcoins you possess can attract the attention of ill-intentioned individuals;
-- Insufficient online security:** A lack of basic precautions can leave your devices vulnerable to hacking and cause major losses.
+- **Losing your wallet's seed:** Your seed (or mnemonic phrase) is a series of 12 or 24 words that allow you to recover access to your bitcoins. If you lose this phrase, you permanently lose access to your funds;
+- **Storing your bitcoins on a third-party platform:** Keeping your bitcoins on an exchange platform means you don't actually own your bitcoins. This exposes you to risks such as piracy, bankruptcy or confiscation;
+- **Neglecting confidentiality:** Protecting your privacy must be part of your security strategy. Publicly exposing the amount of bitcoins you possess can attract the attention of ill-intentioned individuals;
+- **Insufficient online security:** A lack of basic precautions can leave your devices vulnerable to hacking and cause major losses.
 
 **Financial errors:**
 
-
-- Invest more than you can afford to lose:** Never invest by going into debt or with money earmarked for essential expenses;
-- Ignoring the difference between trading and long-term investing:** Trading is a risky business that requires a lot of time and advanced technical skills. Long-term investment is better suited to beginners;
-- Forget the tax implications:** Each country has its own tax rules concerning Bitcoin. Ignoring these rules can expose you to significant financial losses;
-- Giving in to FOMO (*Fear Of Missing Out*):** Buying impulsively because you're afraid of missing an opportunity often leads to buying at the worst possible time.
+- **Invest more than you can afford to lose:** Never invest by going into debt or with money earmarked for essential expenses;
+- **Ignoring the difference between trading and long-term investing:** Trading is a risky business that requires a lot of time and advanced technical skills. Long-term investment is better suited to beginners;
+- **Forget the tax implications:** Each country has its own tax rules concerning Bitcoin. Ignoring these rules can expose you to significant financial losses;
+- **Giving in to FOMO (*Fear Of Missing Out*):** Buying impulsively because you're afraid of missing an opportunity often leads to buying at the worst possible time.
 
 ![BTC102-Bitcoin](assets/fr/019.webp)
 
@@ -452,18 +447,15 @@ Before making any major transactions, we strongly recommend that you seek profes
 
 The world of Bitcoin is often associated with clichés among the general public, such as the idea of getting rich quickly through trading. But there are three different approaches, each with its own requirements and risks.
 
-
-- Trading :**
+- **Trading :**
 
 You shouldn't be trading. Trading is carried out over short periods, sometimes using leverage. Traders seek to exploit price movements, often volatile, to make quick profits. A solid technical background (graphical analysis, risk management, etc.) and resistance to stress are essential; most beginners fail for lack of experience or rigorous methods. Keeping up with the market can be complex, and requires a full-time commitment. As Warren Buffet once said: "If you're not prepared to hold a stock for 10 years, don't even think about holding it for 10 minutes".
 
-
-- Investment:**
+- **Investment:**
 
 The investor adopts a medium to long time horizon, without recourse to leverage. He seeks to acquire Bitcoin by betting on the evolution of its value over months or even years. The risk remains, as the price may fluctuate, but the approach is generally calmer and better suited to the majority of the general public, who do not wish to devote daily hours to monitoring the markets.
 
-
-- Holding (HODL) :**
+- **Holding (HODL) :**
 
 "*HODL*" is a humorous distortion of "*hold*", which has become emblematic in the Bitcoin community. The "*hodlers*" hold their BTC for the very long term, sometimes ten years or more, in the belief that Bitcoin will increase in value as its adoption progresses. This strategy requires a strong belief in Bitcoin's potential and a relative indifference to passing market shocks.
 
@@ -492,10 +484,9 @@ To take things a step further, there are shows like ***The Investors Podcast*** 
 
 Finally, keep in mind a few simple but essential principles:
 
-
-- Rule #1**: Never invest more than you can afford to lose. In other words, don't put your financial security at risk for a volatile asset.
-- Rule n°2**: Don't blindly rely on market trends or miracle advice. Avoid what's fashionable. Instead, focus on making progress by making rational decisions. When in doubt, take the night off and discuss it with those closest to you. It's better to take your time than to rush. The best strategy is to take things one step at a time.
-- Rule 3**: Develop a long-term plan and vision. Patience, consistency and discipline often pay off better than short-term excitement. Plan ahead and don't take too many risks. The aim is to avoid fatal failures while accumulating successes.
+- **Rule n°1**: Never invest more than you can afford to lose. In other words, don't put your financial security at risk for a volatile asset.
+- **Rule n°2**: Don't blindly rely on market trends or miracle advice. Avoid what's fashionable. Instead, focus on making progress by making rational decisions. When in doubt, take the night off and discuss it with those closest to you. It's better to take your time than to rush. The best strategy is to take things one step at a time.
+- **Rule n°3**: Develop a long-term plan and vision. Patience, consistency and discipline often pay off better than short-term excitement. Plan ahead and don't take too many risks. The aim is to avoid fatal failures while accumulating successes.
 
 By applying these precepts, you'll be able to approach investing in a more serene and thoughtful way. Despite Bitcoin's volatility and sometimes bewildering appearance, this technology has undeniable potential, provided you approach it with caution and realism. Take the time to reinforce your knowledge, adjust your strategy if necessary and, above all, remember that it's better to progress slowly but surely, rather than give in to impatience or fear of missing an opportunity.
 
@@ -534,6 +525,7 @@ The idea of an electronic currency that is not based on a central entity, like B
 The economic context was not insignificant: at the end of 2008, the planet was undergoing a financial crisis of considerable proportions, linked to the collapse of the American real estate market caused by the bursting of the subprime bubble and growing mistrust of the banking sector. In the first block of Blockchain Bitcoin (*Genesis block*), Satoshi Nakamoto even left a message referring to the crisis:
 
 > The Times 03/Jan/2009 Chancellor on brink of second bailout for banks
+
 ![BTC102-Bitcoin](assets/fr/034.webp)
 
 Many see this as a reference to Bitcoin's ambition: to offer a trusted system of value transfer **without intermediaries**, governed by transparent rules, and not by the often opaque decisions of central banks or governments.
@@ -650,7 +642,6 @@ Why is Bitcoin so important? That's the central question of this course. Whether
 
 Barack Obama once described Bitcoin as "the Swiss bank in your pocket". Indeed, Bitcoin offers the same opportunities to everyone, regardless of your status. Whether you're a teenager, a president, a protester in Hong Kong, or a "gilet jaune" in France, everyone has equal access to the same protocol and tools:
 
-
 - Free, unlimited account creation (on Bitcoin, we don't really talk about "accounts" but rather "portfolios").
 - Send money anywhere, to anyone.
 - No need for ID or administrative formalities.
@@ -699,10 +690,9 @@ Growing economic inequalities throughout the world have always been fertile grou
 
 But in a world where the state can exercise total control over assets and transactions, what are the real options available for sheltering your savings?
 
-
-- Bank accounts** can be frozen in an instant, seized by government order or emptied by abusive currency restrictions.
-- Gold**, although it has served as a store of value for millennia, is difficult to divide, complex to transport and difficult to use in an immediate crisis.
-- Cash**, though anonymous, is bulky, vulnerable to confiscation and, above all, constantly losing value through inflation.
+- **Bank accounts** can be frozen in an instant, seized by government order or emptied by abusive currency restrictions.
+- **Gold**, although it has served as a store of value for millennia, is difficult to divide, complex to transport and difficult to use in an immediate crisis.
+- **Cash**, though anonymous, is bulky, vulnerable to confiscation and, above all, constantly losing value through inflation.
 
 Bitcoin provides a unique solution to all these problems. By enabling everyone to store and transfer their wealth in digital, decentralized form, it offers an unprecedented means of financial protection. No authority can prohibit access, or restrict use, as long as the user holds his or her own private keys. Thanks to its non-confiscable nature, Bitcoin enables millions of people living under oppressive regimes to escape the surveillance and arbitrary sanctions of governments. Today, almost half the world's population lives under authoritarian or anti-freedom governments: these people need Bitcoin more than anyone.
 
@@ -732,9 +722,8 @@ In the past, gold fulfilled this role as a bulwark against uncontrolled money cr
 
 If you have money in a bank account, you should know that it no longer really belongs to you. In reality, this money is a loan from you to your bank, which uses it as it sees fit to finance its own operations. This model is based on the public's blind trust in banking institutions, but it entails major risks:
 
-
-- If your bank fails**, your money can disappear. Despite bank guarantee mechanisms, history has shown that these protections are not always enough in the event of a systemic crisis.
-- If your bank decides to restrict access to your funds**, you may find yourself unable to withdraw or use your own money, as has been observed on several occasions in recent economic crises (Greece, Lebanon, Argentina...) or during protest movements (truckers in Canada).
+- **If your bank fails**, your money can disappear. Despite bank guarantee mechanisms, history has shown that these protections are not always enough in the event of a systemic crisis.
+- **If your bank decides to restrict access to your funds**, you may find yourself unable to withdraw or use your own money, as has been observed on several occasions in recent economic crises (Greece, Lebanon, Argentina...) or during protest movements (truckers in Canada).
 
 Bitcoin, on the other hand, is an open, neutral and incorruptible system. Its rules are set once and for all by consensus, and apply uniformly to all network participants.
 
@@ -792,19 +781,19 @@ However, among this myriad of dubious projects, a tiny minority are genuinely tr
 
 To date, one thing is certain: Bitcoin remains the only truly decentralized, censorship-resistant digital currency with growing global adoption. Unlike altcoins, it is not backed by centralized corporations or subject to the arbitrary decisions of a small group of developers or investors. Bitcoin is the only project that justifies thousands of hours of research, development and continuous improvement.
 
-| Characteristic | Bitcoin | Altcoins (99.9% of them) |
-| --------------------- | ------------------------ | ----------------------------- |
-| **Liquidity** | High | Low |
-| (Real) adoption  | Worldwide and growing | Very limited |
-| Team | Decentralized and robust | Centralized and opaque |
-| Reputation | Solid and worldwide reputation | Variable and often dubious |
-| Infrastructure | Stable and secure | Unstable and vulnerable |
-| Decentralization | Yes | Rarely |
-| Scam ? | No | Very likely | 
-| Real utility ? | Yes | Debatable |
+| Feature               | Bitcoin                  | Altcoins (99.9% of them)       |
+| ---------------------|--------------------------|--------------------------------|
+| **Liquidity**         | High                     | Low                            |
+| **Adoption (actual)** | Global and growing       | Very limited                   |
+| **Team**              | Decentralized and robust | Centralized and opaque         |
+| **Reputation**        | Strong and global        | Varies, often questionable     |
+| **Infrastructure**    | Stable and secure        | Unstable and vulnerable        |
+| **Decentralization**  | Yes                      | Rarely                         |
+| **Scam?**             | No                       | Very likely                    |
+| **Real utility?**     | Yes                      | Debatable                      |
+
 
 **Don't fall for some misleading claims:**
-
 
 - "Blockchain, not Bitcoin"
 - "XRP is the new Bitcoin"
@@ -820,13 +809,13 @@ Following the ICO bubble of 2017, many institutional players began to take an in
 
 At the same time, technology giants are trying to impose their own financial solutions. Facebook, for example, launched its stablecoin project, Libra, aimed at creating a digital currency backed by a basket of currencies. However, this project met with strong regulatory opposition and was eventually abandoned.
 
-|Features|Bitcoin|Altcoins|Facebook-Coin|FedCoin|
-|---|---|---|---|---|
-|**Public**|Yes|Variable|No|No|
-|**Ouvert**|Yes|Variable|No|No|
-|**Borderless**|Yes|Variable|No|No|
-|**Neutral**|Yes|Variable|No|No|
-|**Censorship resistant** |Yes|Variable|No|No|
+| Feature                    | Bitcoin | Altcoins | Facebook-Coin | FedCoin |
+|---------------------------|---------|----------|---------------|---------|
+| **Public**                | Yes     | Varies   | No            | No      |
+| **Open**                  | Yes     | Varies   | No            | No      |
+| **Borderless**            | Yes     | Varies   | No            | No      |
+| **Neutral**               | Yes     | Varies   | No            | No      |
+| **Censorship-resistant**  | Yes     | Varies   | No            | No      |
 
 While these initiatives claim to rival Bitcoin, they remain fundamentally centralized. Designed to respect local regulations and offer total control to issuers, they guarantee neither financial sovereignty nor user confidentiality. These digital currencies will only intensify mass financial surveillance, further limiting the economic freedom of individuals.
 
@@ -856,7 +845,6 @@ At the same time, these same banks are investing heavily in the research and dev
 
 Exchange platforms play an important role in the Bitcoin ecosystem, facilitating the conversion between state currencies and bitcoins. They enable users to buy, sell and sometimes exchange bitcoins for other digital assets. Each platform has its own specific features, and it's essential to choose the one that suits your needs while minimizing risk. Here are a few criteria to consider before using a platform:
 
-
 - a solid reputation for safety ;
 - sufficient liquidity to ensure rapid trading without major price fluctuations;
 - responsive and efficient customer service;
@@ -872,7 +860,6 @@ Exchange platforms that are registered and comply with local regulations general
 
 However, there are alternatives for acquiring bitcoins without undergoing KYC:
 
-
 - P2P buying platforms such as Bisq, Robosat, LNP2PBot, Peach, HODL HODL, etc. ;
 - Live purchases for cash, for example at local Bitcoin meetups;
 - Regulated buying platforms without KYC, which are rare but available in some countries;
@@ -882,8 +869,7 @@ However, there are alternatives for acquiring bitcoins without undergoing KYC:
 
 There are several types of platforms, each serving a specific purpose:
 
-
-- Peer-to-peer exchange platforms (P2P)**
+- **Peer-to-peer exchange platforms (P2P)**
 
 These platforms enable bitcoins to be bought and sold directly between users, without a centralized intermediary. They offer greater confidentiality, not least because they operate without KYC. It is possible to find local sellers with whom to carry out transactions in person or via various online payment methods (SEPA, Revolut, Wise...).
 
@@ -899,7 +885,7 @@ https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9
 
 https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
-- Bitcoin-only** exchange platforms
+- **Bitcoin-only exchange platforms**
 
 These platforms take a user-friendly approach, offering a simple, transparent service. They are Bitcoin-only. They often set up solutions enabling bitcoins to be purchased via a **Dollar-Cost Averaging (DCA)** and offer automatic withdrawals to a personal wallet. They are particularly suited to beginners looking to accumulate bitcoins in a progressive and secure way. Examples: Relai, Bull Bitcoin, StackinSat, Bitstack...
 
@@ -911,7 +897,7 @@ https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d
 
 https://planb.network/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
 
-- Generalist or trading-oriented exchange platforms**
+- **Generalist or trading-oriented exchange platforms**
 
 These platforms allow you to buy Bitcoin, but also to trade cryptocurrencies using advanced tools such as leverage and derivative contracts. Obviously, we advise you not to trade and simply buy your bitcoins and then withdraw them from the platform. Trading is a risky game and not suitable for those simply looking to accumulate bitcoins for the long term.
 
@@ -925,12 +911,11 @@ https://planb.network/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-
 
 Exchange platforms are not secure wallets. By leaving your bitcoins on a Exchange, you are taking a considerable risk. There are several scenarios in which your funds could be lost:
 
+- **Piracy**: Many bitcoins have been stolen from compromised platforms (e.g. MtGox);
+- **Government seizure**: A government can shut down a platform and freeze its users' funds;
+- **Bankruptcy or fraud**: Many platforms have disappeared with their customers' money (e.g. FTX).
 
-- Piracy**: Many bitcoins have been stolen from compromised platforms (e.g. MtGox);
-- Government seizure**: A government can shut down a platform and freeze its users' funds;
-- Bankruptcy or fraud**: Many platforms have disappeared with their customers' money (e.g. FTX).
-
-The golden rule is simple: **If you don't own your private keys, you don't really own your bitcoins ** Always withdraw your funds to a personal wallet as soon as possible is the only way to ensure total sovereignty over your money.
+The golden rule is simple: **If you don't own your private keys, you don't really own your bitcoins**. Always withdraw your funds to a personal wallet as soon as possible is the only way to ensure total sovereignty over your money.
 
 ### Wallets, mining and development: the pillars of the ecosystem
 
@@ -938,16 +923,13 @@ The golden rule is simple: **If you don't own your private keys, you don't reall
 
 Bitcoins are secured with what's known as a wallet, a specialized piece of software that stores and manages the private keys that unlock a user's bitcoins. This can be a dedicated hardware device, software installed on a computer or smartphone, or even a simple piece of paper with a key written on it. These wallets provide the link between your bitcoins and the outside world, making them easy to use on a day-to-day basis.
 
-Each portfolio has its own characteristics that influence its level of security and use:
-
-
-- confidentiality ;
-- safety ;
-- eASE OF USE ;
+Each wallet has specific characteristics that influence its level of security and usage:  
+- privacy;  
+- security;  
+- ease of use;  
 - cost.
 
 The Bitcoin portfolio industry is structured into several distinct categories:
-
 
 - Hardware wallet creators. These companies develop hardware devices dedicated to the secure storage of private keys. Some solutions are open-source, while others offer devices with different functionalities and levels of security. Major players include Ledger, Trezor, Coinkite, Foundation and Shiftcrypto.
 - Software wallet creators. These are companies or independent developers who design software wallets for mobiles and computers. These solutions vary in terms of security and ease of use. Some examples: Sparrow, Wizard Sardine, Galoy, Synonym, Blockstream...
@@ -963,10 +945,9 @@ In the early days of Bitcoin, mining was an individual activity, often carried o
 
 The mining industry is divided into several categories of players:
 
-
-- Mining hardware manufacturers** (e.g. Bitmain). These companies design and produce ASIC (*Application-Specific Integrated Circuits*), ultra-specialized chips dedicated to Bitcoin mining;
-- Mining pools**. This is a group of miners who pool their computing power to increase their chances of validating blocks. Given the increasing difficulty of mining, this collaboration makes the rewards more regular and predictable. When a block is found, the reward (mined bitcoins and transaction fees) is distributed among members according to their contribution. This system reduces the variance of earnings and ensures greater financial stability for miners. Some examples: Foundry USA, AntPool, F2Pool, MARA Pool, Braiins Pool...
-- Miners**. These are the operators who use machines and software to secure the network and generate blocks. A distinction is made between small independent miners, using hardware such as S9s, and large industrial farms, such as Galaxy, which have huge dedicated infrastructures.
+- **Mining hardware manufacturers** (e.g. Bitmain). These companies design and produce ASIC (*Application-Specific Integrated Circuits*), ultra-specialized chips dedicated to Bitcoin mining;
+- **Mining pools**. This is a group of miners who pool their computing power to increase their chances of validating blocks. Given the increasing difficulty of mining, this collaboration makes the rewards more regular and predictable. When a block is found, the reward (mined bitcoins and transaction fees) is distributed among members according to their contribution. This system reduces the variance of earnings and ensures greater financial stability for miners. Some examples: Foundry USA, AntPool, F2Pool, MARA Pool, Braiins Pool...
+- **Miners**. These are the operators who use machines and software to secure the network and generate blocks. A distinction is made between small independent miners, using hardware such as S9s, and large industrial farms, such as Galaxy, which have huge dedicated infrastructures.
 
 Mining is a field in its own right, raising complex technical, economic and energy issues. For those wishing to delve deeper, our MIN201 course offers a detailed study of the subject:
 
@@ -977,7 +958,6 @@ https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 The Bitcoin Core majority client is an open-source project. Its code is publicly accessible on GitHub: [https://github.com/Bitcoin/Bitcoin](https://github.com/Bitcoin/Bitcoin). The entire evolution of the protocol, from updates to technical discussions, is transparently documented. Users are free to examine the code and choose whether or not to adopt the proposed updates.
 
 The Bitcoin development ecosystem can be divided into several categories of contributors:
-
 
 - Bitcoin Core developers, who develop and maintain the main client. Among these are the maintainers, who hold the keys to managing the repository. In 2025, there are five of them: Hennadii Stepanov, Michael Ford, Ava Chow, Gloria Zhao and Ryan Ofsky. Then there are the contributors who propose modifications, which are examined by the maintainers.
 - Developers of ancillary protocols, who design complementary solutions such as Lightning Network or RGB.
@@ -1007,8 +987,7 @@ The layered approach allows Bitcoin to be enhanced without directly modifying it
 
 Among the main overlay systems enriching the Bitcoin ecosystem are :
 
-
-- Lightning Network**:
+- **Lightning Network**:
 
 A second-layer solution invented by Thaddeus Dryja and Joseph Poon in 2016 that enables payments with almost instant finality and generally low cost. Lightning enables the creation of payment channels between users, within which transactions can be carried out almost instantaneously and with minimal fees, without having to register each transaction individually on the Blockchain. Channels can remain open almost indefinitely, requiring transactions on the Blockchain only when they are opened and closed. Lightning Network is designed to improve the scalability of Bitcoin and make it possible to use it for low-value payments requiring rapid finality.
 
@@ -1020,7 +999,7 @@ If you'd like to learn more about the theoretical workings of Lightning, we offe
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-- Sidechains** :
+- **Sidechains** :
 
 These are blockchains designed to operate in parallel with Bitcoin's main Blockchain. The two blockchains are connected using a bilateral anchor that ensures that the asset circulating on the Sidechain retains the same value as the Bitcoin on the main chain. The Sidechain has its own consensus mechanism, which may be independent or based in part on that of the main chain.
 
@@ -1032,7 +1011,7 @@ To deepen your knowledge of the Sidechain Liquid, we offer a third-year training
 
 https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
-- RGB** :
+- **RGB** :
 
 This is a decentralized, confidential smart contract system designed to work with Bitcoin and Lightning Network. This protocol works on a client-side validation model and separates the storage of contract state from Blockchain, so that only cryptographic commitments are kept on it. In this way, the complete state history is kept outside the chain, enabling greater scalability and confidentiality. RGB enables the creation of complex contracts to store tokens, NFTs, decentralized identities or DeFi solutions, directly on top of Bitcoin or Lightning.
 
@@ -1126,12 +1105,11 @@ There is no one-size-fits-all approach to acquiring and managing BTC. Each user 
 
 There are several factors to consider when determining the best strategy for acquiring and storing your bitcoins:
 
-
-- The amount you want to invest**: Are you buying a small sum to discover Bitcoin without taking any significant risk, or are you considering a larger investment intended to be held over the long term?
-- Your investment frequency**: Do you want to buy all at once and secure your funds immediately, or do you prefer to spread your purchases over a long period, using strategies like *Dollar-Cost Averaging* (DCA) to smooth your purchase price and minimize the impact of volatility?
-- What you want to do with your bitcoins**: do you want to keep them as long-term savings, use them as a means of daily payment, or both at the same time?
-- Your sensitivity to privacy**: Do you agree to provide personal information and go through centralized platforms to acquire your bitcoins, or do you prefer more privacy-friendly methods, such as peer-to-peer exchanges without KYC?
-- Your geographical, legal and personal context**: Depending on your country of residence, access to certain exchange platforms may be restricted, and tax or regulatory obligations may influence your choices regarding the storage and use of Bitcoin.
+- **The amount you want to invest**: Are you buying a small sum to discover Bitcoin without taking any significant risk, or are you considering a larger investment intended to be held over the long term?
+- **Your investment frequency**: Do you want to buy all at once and secure your funds immediately, or do you prefer to spread your purchases over a long period, using strategies like *Dollar-Cost Averaging* (DCA) to smooth your purchase price and minimize the impact of volatility?
+- **What you want to do with your bitcoins**: do you want to keep them as long-term savings, use them as a means of daily payment, or both at the same time?
+- **Your sensitivity to privacy**: Do you agree to provide personal information and go through centralized platforms to acquire your bitcoins, or do you prefer more privacy-friendly methods, such as peer-to-peer exchanges without KYC?
+- **Your geographical, legal and personal context**: Depending on your country of residence, access to certain exchange platforms may be restricted, and tax or regulatory obligations may influence your choices regarding the storage and use of Bitcoin.
 
 Each of these factors has a direct impact on the solutions best suited to your profile. Some will prefer simplicity and speed via regulated services, while others will opt for more autonomous and confidential methods.
 
@@ -1149,12 +1127,11 @@ Determining the best strategy for acquiring and securing your bitcoins requires 
 
 The level of security you need depends on the specific threats you may face. Identifying these risks will help you choose the most appropriate tools and strategies. Among the main threats to consider are :
 
-
-- Hacking**: If you're unfamiliar with cybersecurity or use vulnerable devices, you could be a target for online attacks. Secure offline storage may be recommended.
-- Physical attack**: Unfortunately, it's not uncommon for bitcoiners to be targeted by physical attacks, whether through burglary, robbery or even kidnapping. Although this risk remains relatively rare and mainly concerns well-known personalities at the moment, it is important to take it into account from the outset in your security strategy.
-- Natural disasters**: If you live in an area prone to fires, floods or other extreme weather events, it's important to consider a suitable backup solution that protects your private keys.
-- Government confiscation**: If your country applies strict or unstable financial regulations, you could face restrictions on buying or using your bitcoins. In this case, solutions favoring confidentiality and self-custody should be preferred.
-- Loss of memory or information** : Private key management relies on the ability to store and retrieve information. If you think you may be vulnerable to memory loss or any other health problem, it's important to adopt reliable backup solutions, and even involve a trusted person in your security plan.
+- **Hacking**: If you're unfamiliar with cybersecurity or use vulnerable devices, you could be a target for online attacks. Secure offline storage may be recommended.
+- **Physical attack**: Unfortunately, it's not uncommon for bitcoiners to be targeted by physical attacks, whether through burglary, robbery or even kidnapping. Although this risk remains relatively rare and mainly concerns well-known personalities at the moment, it is important to take it into account from the outset in your security strategy.
+- **Natural disasters**: If you live in an area prone to fires, floods or other extreme weather events, it's important to consider a suitable backup solution that protects your private keys.
+- **Government confiscation**: If your country applies strict or unstable financial regulations, you could face restrictions on buying or using your bitcoins. In this case, solutions favoring confidentiality and self-custody should be preferred.
+- **Loss of memory or information** : Private key management relies on the ability to store and retrieve information. If you think you may be vulnerable to memory loss or any other health problem, it's important to adopt reliable backup solutions, and even involve a trusted person in your security plan.
 
 To better understand your vulnerabilities, rate each risk on a scale from 0 (low) to 10 (high). This analysis will help you to identify priority threats and put in place the appropriate protection measures.
 
@@ -1176,16 +1153,14 @@ How important is protecting your privacy? Some acquisition methods require you t
 
 Your strategy for managing and storing bitcoins also depends on how you intend to use them. It's important to clarify this aspect from the outset.
 
-
-- Long-term savings**: You buy bitcoins for investment purposes and don't plan to use them in the short term. You should therefore opt for highly secure storage and solutions that minimize the risk of unauthorized access.
-- Progressive accumulation**: You regularly invest small amounts in bitcoins, without seeking to speculate in the short term. In this case, an automated DCA solution combined with a secure portfolio is an effective approach.
-- Day-to-day expenses**: You use your bitcoins as a means of payment. In this case, it's best to combine an easy-to-access mobile wallet for day-to-day transactions (surely with Lightning) with more secure storage for your savings.
-- Preparing for retirement or passing on your wealth**: You want to store your bitcoins so that you can pass them on to your loved ones at a later date. Strategies such as Multisig with timelock or specific inheritance plans can be put in place to ensure that your funds are neither lost nor accessed too early.
+- **Long-term savings**: You buy bitcoins for investment purposes and don't plan to use them in the short term. You should therefore opt for highly secure storage and solutions that minimize the risk of unauthorized access.
+- **Progressive accumulation**: You regularly invest small amounts in bitcoins, without seeking to speculate in the short term. In this case, an automated DCA solution combined with a secure portfolio is an effective approach.
+- **Day-to-day expenses**: You use your bitcoins as a means of payment. In this case, it's best to combine an easy-to-access mobile wallet for day-to-day transactions (surely with Lightning) with more secure storage for your savings.
+- **Preparing for retirement or passing on your wealth**: You want to store your bitcoins so that you can pass them on to your loved ones at a later date. Strategies such as Multisig with timelock or specific inheritance plans can be put in place to ensure that your funds are neither lost nor accessed too early.
 
 Based on these criteria, you'll be able to choose the best solutions for buying, securing and using your bitcoins in the best way for you.
 
 To simplify this process, it can be broken down into four main elements:
-
 
 - Your Bitcoin portfolio ;
 - Your security strategy ;
@@ -1208,12 +1183,10 @@ These solutions also include portfolios that support Lightning Network, such as 
 
 **Advantages** :
 
-
 - Ease of use and fast access to funds for day-to-day payments or mobile use;
 - Integration with Lightning Network for fast, low-cost transactions
 
 **Disadvantages** :
-
 
 - Exposure to the risk of hacking, as private keys are stored on a device connected to the Internet and with a very large attack surface.
 
@@ -1225,11 +1198,9 @@ Hardware wallets are physical devices designed to generate and store your privat
 
 **Advantages** :
 
-
 - Offline storage of private keys, reducing the risk of unauthorized access.
 
 **Disadvantages** :
-
 
 - Longer transaction process, as it requires physical validation on the device;
 - Higher initial acquisition cost than a software portfolio.
@@ -1242,13 +1213,11 @@ Multi-signature wallets require several private keys to authorize a transaction.
 
 **Advantages** :
 
-
 - Enhanced security: even if a key is compromised, funds remain protected;
 - Protection against theft or physical assault;
 - Key management can be shared between several people or locations.
 
 **Disadvantages** :
-
 
 - More complex to set up and more demanding to manage ;
 - May require coordination between several parties to complete a transaction;
@@ -1263,11 +1232,9 @@ Some people choose to store their bitcoins via third-party services, such as exc
 
 **Advantages** :
 
-
 - Ease of use, because there's no need to manage security yourself.
 
 **Disadvantages** :
-
 
 - You don't actually own your bitcoins and are therefore exposed to the risk of loss in the event of bankruptcy, scam, seizure, freezing... (examples: FTX, MtGox...);
 - Potentially high costs ;
@@ -1281,7 +1248,6 @@ That's why we don't recommend these solutions, even for beginners. It's better t
 ![BTC102-Bitcoin](assets/fr/068.webp)
 
 This choice of portfolio and security method depends on the amount stored, your level of expertise and perceived threats. But a hybrid approach can also make sense:
-
 
 - Use a Hot Wallet cell phone or Lightning wallet for everyday transactions;
 - Use a Hardware Wallet to secure the majority of your bitcoins, which are your long-term savings.
@@ -1306,14 +1272,12 @@ Regulated platforms generally require identity verification before authorizing t
 
 **Advantages** :
 
-
 - Simple purchasing process, often suitable for beginners;
 - Possibility of purchasing large amounts at once;
 - Access to additional services (DCA, automatic conversion, easy fiat withdrawal) ;
 - High liquidity and low bid/ask spread.
 
 **Disadvantages** :
-
 
 - Can be expensive in conversion and withdrawal fees;
 - Some platforms are quite complicated to use and can lose you in the middle of advanced trading features and shitcoins;
@@ -1331,23 +1295,20 @@ So it's important to understand that undergoing KYC is not a trivial step. It's 
 
 Buying bitcoins without disclosing your identity is an alternative for those who value their privacy. This approach can be based on several methods:
 
-
-- Peer-to-peer (P2P) between private individuals**: Buying directly in cash from a person you trust (friends, family, local network, meetups...) avoids official registration of the transaction and bypasses the banking system. This is undoubtedly the best way to acquire or sell bitcoins, even if it involves risks of aggression, since we're talking about a physical exchange.
-- Platforms specialized in P2P**: Platforms such as Bisq, RoboSats and Peach facilitate exchanges between private individuals without the need for identity verification, using escrow systems to secure transactions. These platforms still present a risk of theft in the event of non-cooperation on the part of the peer, although this risk is reduced thanks to escrow systems.
-- Bitcoin Automated Teller Machines (ATMs)**: Some ATMs allow you to buy bitcoins in cash, although fees are generally high and some require identification above a certain amount.
-- KYC-free exchange platforms**: Some platforms, notably in Switzerland, allow the purchase of small quantities of bitcoins without the need for identity verification.
-- Mining**: It is entirely possible for an individual to participate in Bitcoin mining. Older or smaller machines are accessible and can offer an unconventional method of acquiring bitcoins without going through KYC. By joining a mining pool, you can earn regular income, even with limited equipment. For more information, [check out our mining tutorials](https://planb.network/tutorials/Mining).
-- Payments / Salary in bitcoins**: If you run a business, you can accept payments in bitcoins. If you're an employee, depending on the jurisdiction and type of company you work for, it may be possible to ask to be paid in bitcoins. These options allow you to acquire bitcoins without KYC.
+- **Peer-to-peer (P2P) between private individuals**: Buying directly in cash from a person you trust (friends, family, local network, meetups...) avoids official registration of the transaction and bypasses the banking system. This is undoubtedly the best way to acquire or sell bitcoins, even if it involves risks of aggression, since we're talking about a physical exchange.
+- **Platforms specialized in P2P**: Platforms such as Bisq, RoboSats and Peach facilitate exchanges between private individuals without the need for identity verification, using escrow systems to secure transactions. These platforms still present a risk of theft in the event of non-cooperation on the part of the peer, although this risk is reduced thanks to escrow systems.
+- **Bitcoin Automated Teller Machines (ATMs)**: Some ATMs allow you to buy bitcoins in cash, although fees are generally high and some require identification above a certain amount.
+- **KYC-free exchange platforms**: Some platforms, notably in Switzerland, allow the purchase of small quantities of bitcoins without the need for identity verification.
+- **Mining**: It is entirely possible for an individual to participate in Bitcoin mining. Older or smaller machines are accessible and can offer an unconventional method of acquiring bitcoins without going through KYC. By joining a mining pool, you can earn regular income, even with limited equipment. For more information, [check out our mining tutorials](https://planb.network/tutorials/Mining).
+- **Payments / Salary in bitcoins**: If you run a business, you can accept payments in bitcoins. If you're an employee, depending on the jurisdiction and type of company you work for, it may be possible to ask to be paid in bitcoins. These options allow you to acquire bitcoins without KYC.
 
 **Advantages** :
-
 
 - Depending on the method you choose, your privacy is protected to a greater or lesser extent by limiting the possible links between your identity and your activity on Bitcoin ;
 - Reduces the risk of censorship, freezing of funds or state interference;
 - Access to Bitcoin even in strictly regulated environments.
 
 **Disadvantages** :
-
 
 - Process often more complex than KYC platforms;
 - Lower liquidity and transaction volumes ;
@@ -1364,7 +1325,6 @@ The hodler is an investor who buys Bitcoin with a long-term vision and does not 
 
 Preferred strategy :
 
-
 - Purchase via a KYC or non-KYC platform depending on the degree of confidentiality required;
 - Storage on a Hardware Wallet or via a multi-signature solution for enhanced security;
 - No frequent transactions, so little interaction with the Bitcoin ecosystem.
@@ -1376,7 +1336,6 @@ The hodler views Bitcoin as a store-of-value asset, adopting a posture akin to t
 The stacker is a user who adopts a progressive accumulation approach. He regularly buys bitcoins in small quantities, often via a *Dollar-Cost Averaging* (DCA) strategy. His aim is to smooth out his purchase price over the long term and minimize the impact of volatility.
 
 Preferred strategy :
-
 
 - Automated purchase via a KYC platform offering a DCA option;
 - Regular transfer of funds to a Hardware Wallet for secure storage ;
@@ -1390,7 +1349,6 @@ The active user sees Bitcoin primarily as a medium of exchange and not just as a
 
 Preferred strategy :
 
-
 - Using a Hot Wallet on a cell phone or computer for daily transactions ;
 - Using Lightning Network for fast, low-cost payments ;
 - Hybrid management between a mobile wallet for expenses and a Hardware Wallet for savings;
@@ -1403,7 +1361,6 @@ The active user may be an entrepreneur, a freelancer or simply someone living in
 The paranoid is an advanced user who attaches great importance to confidentiality and security. He sees Bitcoin as a tool for individual emancipation and wants to minimize his exposure to trusted third parties and regulations as much as possible.
 
 Preferred strategy :
-
 
 - Acquisition exclusively through non-KYC channels;
 - Reinforced portfolios with passphrase BIP39 and multi-signature solutions ;
@@ -1498,7 +1455,6 @@ An aspect often overlooked is the transfer of bitcoins in the event of incapacit
 
 Action plan :
 
-
 - Draw up a detailed guide explaining how to access funds in the event of incapacity;
 - Use a multi-signature solution to guarantee secure access while reducing the risk of accidental loss;
 - Entrust part of the information to a trusted person.
@@ -1510,7 +1466,6 @@ We'll go into more detail on this specific point in the last section of the cour
 The hodler takes a long-term view, which means resisting market fluctuations and not panicking during bearish corrections or sharp rises.
 
 A few recommendations:
-
 
 - Periodically check the status of the portfolio, but avoid too-frequent consultations, which can lead to impulsive decisions;
 - Do not sell under the pressure of down cycles, Bitcoin works in cycles, and corrections are normal in a market ;
@@ -1529,12 +1484,11 @@ The hodler's investment plan is therefore based on a simple but rigorous strateg
 
 If you recognize yourself in these personality traits, you're probably a natural Hodler:
 
-
-- Patience**: A hodler is exceptionally patient. He's prepared to hold on to his bitcoins for years, even decades, unperturbed by the day-to-day fluctuations of the market. He understands that Bitcoin moves in cycles, and he doesn't panic when the price falls sharply. He knows that corrections are normal, and that the value of Bitcoin is not measured over a few months, but over the long term;
-- Long-term vision** : Hodler has a vision that goes beyond short-term financial gain. He believes in the structural growth of Bitcoin and its gradual worldwide adoption. He believes that, despite volatility, the adoption of Bitcoin is following an upward trajectory, marked by phases of expansion and consolidation. He sees Bitcoin as a sustainable asset, a bulwark for his savings against inflation and a shift in the monetary paradigm;
-- Self-discipline**: One of Hodler's essential qualities is his mental discipline. Paradoxically, his greatest challenge is not to act, but to do nothing. He must resist the temptation to sell during spectacular price rises, or to panic during crashes. The hodler knows that Bitcoin has been through many down cycles, and that those who hold on to their bitcoins over the long term are often those who benefit most;
-- Emotional resilience** : The Bitcoin market is unpredictable and marked by sometimes violent corrections. Yet the hodler doesn't give in to panic. He has integrated the idea that Bitcoin can lose 50% or more of its value in a matter of weeks, without this calling into question its fundamental potential. He has the ability to withstand emotional pressure, and his composure enables him to maintain a rational vision, even in times of uncertainty;
-- Belief in technology**: The Hodler doesn't see Bitcoin as a mere speculative asset. He believes in the technology and its potential to disrupt the monetary system. His commitment often goes beyond the financial aspect: he sees Bitcoin as an alternative to the traditional banking system, a resilient and apolitical currency capable of bringing greater freedom and independence to individuals.
+- **Patience**: A hodler is exceptionally patient. He's prepared to hold on to his bitcoins for years, even decades, unperturbed by the day-to-day fluctuations of the market. He understands that Bitcoin moves in cycles, and he doesn't panic when the price falls sharply. He knows that corrections are normal, and that the value of Bitcoin is not measured over a few months, but over the long term;
+- **Long-term vision** : Hodler has a vision that goes beyond short-term financial gain. He believes in the structural growth of Bitcoin and its gradual worldwide adoption. He believes that, despite volatility, the adoption of Bitcoin is following an upward trajectory, marked by phases of expansion and consolidation. He sees Bitcoin as a sustainable asset, a bulwark for his savings against inflation and a shift in the monetary paradigm;
+- **Self-discipline**: One of Hodler's essential qualities is his mental discipline. Paradoxically, his greatest challenge is not to act, but to do nothing. He must resist the temptation to sell during spectacular price rises, or to panic during crashes. The hodler knows that Bitcoin has been through many down cycles, and that those who hold on to their bitcoins over the long term are often those who benefit most;
+- **Emotional resilience** : The Bitcoin market is unpredictable and marked by sometimes violent corrections. Yet the hodler doesn't give in to panic. He has integrated the idea that Bitcoin can lose 50% or more of its value in a matter of weeks, without this calling into question its fundamental potential. He has the ability to withstand emotional pressure, and his composure enables him to maintain a rational vision, even in times of uncertainty;
+- **Belief in technology**: The Hodler doesn't see Bitcoin as a mere speculative asset. He believes in the technology and its potential to disrupt the monetary system. His commitment often goes beyond the financial aspect: he sees Bitcoin as an alternative to the traditional banking system, a resilient and apolitical currency capable of bringing greater freedom and independence to individuals.
 
 ![BTC102-Bitcoin](assets/fr/072.webp)
 
@@ -1556,11 +1510,10 @@ Stacking is a particularly effective investment method for people wishing to red
 
 The advantages of stacking :
 
-
-- Reduced volatility**: By buying on a recurring basis, the stacker reduces the impact of volatility on his overall investment, since he automatically buys more units when prices are low and fewer when they are high. This smoothes the average purchase price and reduces the stress associated with fluctuations.
-- Affordability**: You don't need a lot of capital to start with. It's possible to start with as little as €10 a month to get the hang of things, and then increase the DCA amount at a later date.
-- Discipline and automation** : Stacking allows you to accumulate without being influenced by market emotions. Automated purchasing greatly reduces the risk of irrational decision-making.
-- Ideal strategy for the long term**: By investing gradually, the stacker maximizes his chances of capturing bullish cycles while mitigating risks on corrections.
+- **Reduced volatility**: By buying on a recurring basis, the stacker reduces the impact of volatility on his overall investment, since he automatically buys more units when prices are low and fewer when they are high. This smoothes the average purchase price and reduces the stress associated with fluctuations.
+- **Affordability**: You don't need a lot of capital to start with. It's possible to start with as little as €10 a month to get the hang of things, and then increase the DCA amount at a later date.
+- **Discipline and automation** : Stacking allows you to accumulate without being influenced by market emotions. Automated purchasing greatly reduces the risk of irrational decision-making.
+- **Ideal strategy for the long term**: By investing gradually, the stacker maximizes his chances of capturing bullish cycles while mitigating risks on corrections.
 
 This method is **particularly suitable for beginners**, as it allows you to enter Bitcoin without worrying about price and without trying to anticipate market movements (a common mistake among new investors).
 
@@ -1572,8 +1525,7 @@ The stacker's objective is to establish a sustainable, automated and secure stra
 
 A stacker needs to be both easy to use and secure over the long term. The choice of portfolio is therefore an important step.
 
-
-- Hot Wallet** : Ideal for beginners, a mobile or PC-based Wallet makes it easy to receive your first satoshis and make payments as needed. This solution is suitable for small amounts only. The stacker could consider using a Lightning wallet, but the management of On-Chain wallets on these applications is generally less efficient. I would therefore recommend using a genuine On-Chain portfolio software. Examples: Green Wallet, Blue Wallet, Sparrow Wallet...
+- **Hot Wallet** : Ideal for beginners, a mobile or PC-based Wallet makes it easy to receive your first satoshis and make payments as needed. This solution is suitable for small amounts only. The stacker could consider using a Lightning wallet, but the management of On-Chain wallets on these applications is generally less efficient. I would therefore recommend using a genuine On-Chain portfolio software. Examples: Green Wallet, Blue Wallet, Sparrow Wallet...
 
 https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
@@ -1592,7 +1544,7 @@ https://planb.network/tutorials/wallet/desktop/proton-wallet-0bee0bba-ab62-4db0-
 https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 
-- Hardware Wallet**: As accumulation progresses, it becomes important to secure funds on a cold wallet to minimize the risk of theft. A serious stacker regularly transfers funds from his hot wallet to a Hardware Wallet. Examples: Bitbox02, Trezor, Ledger, Coldcard, Jade...
+- **Hardware Wallet**: As accumulation progresses, it becomes important to secure funds on a cold wallet to minimize the risk of theft. A serious stacker regularly transfers funds from his hot wallet to a Hardware Wallet. Examples: Bitbox02, Trezor, Ledger, Coldcard, Jade...
 
 https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
@@ -1614,9 +1566,8 @@ The simplest strategy for the stacker is to use a hot wallet in combination with
 
 Dollar-Cost Averaging* (DCA) is an investment strategy that involves buying fractions of BTC at regular intervals, regardless of price. To effectively structure a DCA purchase plan, 2 elements need to be determined:
 
-
-- Purchase frequency**: Do you want to buy every week, every two weeks, or every month? This choice depends on your financial situation and long-term objectives. But it's still advisable to opt for a frequency that's not too short, to avoid the multiplication of UTXOs of very small amounts, which could pose problems for optimizing transaction fees in the future.
-- The purchase amount**: Your accumulation budget should be determined according to your savings capacity and the portion of your assets you wish to allocate to the Bitcoin. You need to adopt a realistic approach to avoid overestimating your investment capacity and putting yourself in financial difficulty. The most important aspect of a DCA strategy is not the amount invested in each cycle, but consistency over the long term. It's better to invest a moderate amount on a regular basis over several years than to force yourself to buy too large sums on an irregular basis, which could affect your financial equilibrium. Of course, this amount can change over time as your investment capacity evolves.
+- **Purchase frequency**: Do you want to buy every week, every two weeks, or every month? This choice depends on your financial situation and long-term objectives. But it's still advisable to opt for a frequency that's not too short, to avoid the multiplication of UTXOs of very small amounts, which could pose problems for optimizing transaction fees in the future.
+- **The purchase amount**: Your accumulation budget should be determined according to your savings capacity and the portion of your assets you wish to allocate to the Bitcoin. You need to adopt a realistic approach to avoid overestimating your investment capacity and putting yourself in financial difficulty. The most important aspect of a DCA strategy is not the amount invested in each cycle, but consistency over the long term. It's better to invest a moderate amount on a regular basis over several years than to force yourself to buy too large sums on an irregular basis, which could affect your financial equilibrium. Of course, this amount can change over time as your investment capacity evolves.
 
 Next, you have two options for setting up your CAD: to automate it or not. Nowadays, most regulated trading platforms offer the possibility of setting up an automated ACH. All you need is enough fiat currency in your account, and the platform will automatically execute your buy order according to the parameters you have defined. There are also a growing number of platforms specializing in ACH automation, offering additional services such as automatic withdrawal to your self-custody wallet or rounding off your daily expenses. If you use a regulated platform, I strongly advise you to automate your ACH for greater day-to-day peace of mind.
 
@@ -1664,7 +1615,6 @@ Like the hodler, the stacker takes a long-term view, which means it has to withs
 
 A few recommendations:
 
-
 - Periodically check the status of portfolios, but avoid too-frequent consultations, which can lead to impulsive decisions;
 - Do not sell under the pressure of bearish cycles, Bitcoin works in cycles, and corrections are normal in a market ;
 - Keep abreast of Bitcoin developments (especially technical ones), without being influenced by the traditional media, which often feeds fear during market downturns;
@@ -1680,12 +1630,11 @@ https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3b
 
 The stacker's strategy is based on several essential qualities that enable him to maintain investment consistency, while avoiding the pitfalls of emotions and market fluctuations.
 
-
-- Organization**: Rigorous financial management and clear planning are essential to maintain recurring purchases without disrupting your personal budget. Stackers must ensure that their accumulation plan is viable over several years.
-- Rigor and discipline**: Stacking means sticking to your investment plan without giving in to emotion. Abruptly changing your strategy in response to sudden market movements can undermine the effectiveness of stacking. Regularity takes precedence over impulsive adjustments. However, it is still possible to make reasonable adjustments, especially if your investment capacity increases.
-- Patience**: The benefits of stacking are not immediately apparent. This strategy works over long cycles, sometimes several years, before offering tangible results. Those who succeed are those who know how to wait, without letting short-term volatility get in the way.
-- Financial knowledge**: Understanding the basics of DCA, risk management and Bitcoin market fundamentals means you can approach investing with peace of mind. An informed stacker is less prone to doubts and irrational decisions in times of high volatility.
-- Long-term vision**: A stacker has a strong belief in the technological potential of Bitcoin. His focus is not on short-term fluctuations, but on the gradual growth of his portfolio over the years.
+- **Organization**: Rigorous financial management and clear planning are essential to maintain recurring purchases without disrupting your personal budget. Stackers must ensure that their accumulation plan is viable over several years.
+- **Rigor and discipline**: Stacking means sticking to your investment plan without giving in to emotion. Abruptly changing your strategy in response to sudden market movements can undermine the effectiveness of stacking. Regularity takes precedence over impulsive adjustments. However, it is still possible to make reasonable adjustments, especially if your investment capacity increases.
+- **Patience**: The benefits of stacking are not immediately apparent. This strategy works over long cycles, sometimes several years, before offering tangible results. Those who succeed are those who know how to wait, without letting short-term volatility get in the way.
+- **Financial knowledge**: Understanding the basics of DCA, risk management and Bitcoin market fundamentals means you can approach investing with peace of mind. An informed stacker is less prone to doubts and irrational decisions in times of high volatility.
+- **Long-term vision**: A stacker has a strong belief in the technological potential of Bitcoin. His focus is not on short-term fluctuations, but on the gradual growth of his portfolio over the years.
 
 ![BTC102-Bitcoin](assets/fr/079.webp)
 
@@ -1703,18 +1652,15 @@ Becoming an active user of Bitcoin means making the choice to integrate this cur
 
 Everyday use of Bitcoin offers several significant advantages, both individually and collectively:
 
-
-- Directly support the Bitcoin ecosystem by participating in its gradual adoption** :
+- **Directly support the Bitcoin ecosystem by participating in its gradual adoption** :
 
 Each transaction reinforces the use of Bitcoin as a currency and encourages more merchants and services to accept it. It's also important to understand that using Bitcoin as a medium of exchange is tantamount to an act of voting. Indeed, a currency's usefulness derives directly from its ability to facilitate trade rather than barter. If it is not accepted by any trader, it is objectively worthless. The greater the number of goods and services available for purchase with a currency, the more useful that currency is to a given individual. By using the Bitcoin as a means of payment, you choose to spend your money with a merchant who accepts it. You thus direct economic value towards this merchant instead of another. As a result, the merchant who accepts the Bitcoin may see his profits increase thanks to your transaction, while his competitor may see his decrease. On the scale of a group of people, this act leads to wider and wider acceptance of BTC by merchants, and can lead to the natural disappearance of those who refuse to accept it. This creates a virtuous circle that can be initiated by merchants and consumers alike.
 
-
-- Take advantage of the unique properties of Bitcoin** :
+- **Take advantage of the unique properties of Bitcoin** :
 
 Bitcoin has a number of interesting features, such as the speed of transactions thanks to Lightning Network, and the absence of censorship, financial supervision and seigniorage. Indeed, Bitcoin's value proposition stems from its ability to remove government control of the money supply and censorship of transactions. If these features translate into benefits for your personal situation, then you may want to consider adopting the active user profile.
 
-
-- A better understanding of technology** :
+- **A better understanding of technology** :
 
 Active use of Bitcoin allows you to gain hands-on experience, familiarize yourself with wallets and explore advanced concepts such as payment privacy or UTXO management. By choosing to use Bitcoin on a daily basis, you will inevitably acquire new knowledge.
 
@@ -1731,7 +1677,6 @@ Adopting Bitcoin as a daily payment method requires a well-structured approach. 
 #### 1. Clear separation of portfolios
 
 Active users should use 2 different types of wallet to optimize both the security and convenience of their transactions:
-
 
 - A cold portfolio (Hardware Wallet) to secure your long-term savings.
 
@@ -1811,7 +1756,6 @@ An active user must maintain a balance between his savings and his stock of bitc
 
 There are several ways of acquiring Bitcoin, depending on the level of confidentiality required:
 
-
 - Classic purchase via a regulated platform such as Bitfinex or Bull Bitcoin, ideal for topping up your cold wallet ;
 
 https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
@@ -1829,7 +1773,6 @@ https://planb.network/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-
 https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
 https://planb.network/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
-
 
 - Non-KYC acquisition via peer-to-peer solutions such as Peach, Robosats or Bitcoin ATMs, enabling you to feed your portfolio without disclosing personal information;
 
@@ -1869,7 +1812,6 @@ https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465
 
 The Bitcoin protocol, overlay systems such as Lightning Network and the entire application layer linked to these ecosystems are evolving rapidly. An active user must therefore :
 
-
 - Keep abreast of new solutions that make everyday adoption easier;
 - Regularly test new tools and services to improve the user experience;
 - Adjust its strategy in line with technological advances and market trends.
@@ -1878,11 +1820,10 @@ The Bitcoin protocol, overlay systems such as Lightning Network and the entire a
 
 Are you cut out to be an active Bitcoin user? Here are the essential features:
 
-
-- Pragmatism and Commitment:** You are motivated to make Bitcoin part of your daily life and actively participate in the growth of its ecosystem. You are aware of both the benefits and the challenges involved.
-- Technical skills:** You have a good understanding or are ready to acquire in-depth skills in the operation of the Bitcoin and Lightning Network portfolios. You are comfortable with advanced technical concepts such as UTXO management.
-- Flexibility and adaptability:** You're ready to test different solutions, change tools and adjust your practices according to the rapid evolution of the Bitcoin ecosystem and your day-to-day needs.
-- Financial discipline:** You are rigorous in managing your spending and saving Bitcoin. You understand the importance of clearly separating your funds for day-to-day use from those set aside for long-term savings.
+- **Pragmatism and Commitment:** You are motivated to make Bitcoin part of your daily life and actively participate in the growth of its ecosystem. You are aware of both the benefits and the challenges involved.
+- **Technical skills:** You have a good understanding or are ready to acquire in-depth skills in the operation of the Bitcoin and Lightning Network portfolios. You are comfortable with advanced technical concepts such as UTXO management.
+- **Flexibility and adaptability:** You're ready to test different solutions, change tools and adjust your practices according to the rapid evolution of the Bitcoin ecosystem and your day-to-day needs.
+- **Financial discipline:** You are rigorous in managing your spending and saving Bitcoin. You understand the importance of clearly separating your funds for day-to-day use from those set aside for long-term savings.
 
 ![BTC102-Bitcoin](assets/fr/082.webp)
 
@@ -1904,12 +1845,11 @@ For him, every interaction with Bitcoin must be designed to minimize the traces 
 
 An approach focused on confidentiality and security offers several advantages for you:
 
-
-- Preserve your financial independence**: avoid surveillance and censorship by banks, governments and centralized platforms.
-- Minimize the risk of confiscation**: in the event of economic repression or political instability, it is more difficult for a third party to identify and seize the paranoid's funds.
-- Reduce your exposure to external threats**: physical computer attacks often target individuals whose identities are associated with large sums of money. Protecting your confidentiality also means improving your security.
-- Avoid financial discrimination**: some governments or companies apply arbitrary restrictions on transactions based on the user's identity or past actions. Staying confidential protects you from these unfair practices.
-- Respecting the fundamental principle of Bitcoin**: Bitcoin was designed to be an open, censorship-resistant currency. By maximizing its confidentiality, we fully embrace the original spirit of the project.
+- **Preserve your financial independence**: avoid surveillance and censorship by banks, governments and centralized platforms.
+- **Minimize the risk of confiscation**: in the event of economic repression or political instability, it is more difficult for a third party to identify and seize the paranoid's funds.
+- **Reduce your exposure to external threats**: physical computer attacks often target individuals whose identities are associated with large sums of money. Protecting your confidentiality also means improving your security.
+- **Avoid financial discrimination**: some governments or companies apply arbitrary restrictions on transactions based on the user's identity or past actions. Staying confidential protects you from these unfair practices.
+- **Respecting the fundamental principle of Bitcoin**: Bitcoin was designed to be an open, censorship-resistant currency. By maximizing its confidentiality, we fully embrace the original spirit of the project.
 
 Far from being a simple character trait, paranoia here represents a rational approach to the real risks associated with digital security, surveillance, theft and other malicious attacks. This type of user recognizes the need to be constantly vigilant and proactive in preserving their privacy in an increasingly surveilled environment, in order to protect their personal security too.
 
@@ -1925,8 +1865,7 @@ The paranoid approach is based on a strict strategy aimed at preserving anonymit
 
 A paranoid never mixes his funds according to their origin and use. He adopts a compartmentalized management of his bitcoins using several distinct wallets:
 
-
-- A cold wallet (air-gapped and/or DIY)** for long-term bitcoin storage. The paranoid user will prefer advanced, open-source solutions, such as Jade, Coldcard, SeedSigner, Portal or Passport... If possible, he'll buy his Hardware Wallet anonymously, either in cash or bitcoins in a specialized physical store, or by ordering it online from a specialized store offering anonymous locker delivery options and payment in bitcoins. In France, for example, [Bitcoin Bazar](https://bitcoinbazar.fr/) offers this type of service. Check your own country for such stores.
+- **A cold wallet (air-gapped and/or DIY)** for long-term bitcoin storage. The paranoid user will prefer advanced, open-source solutions, such as Jade, Coldcard, SeedSigner, Portal or Passport... If possible, he'll buy his Hardware Wallet anonymously, either in cash or bitcoins in a specialized physical store, or by ordering it online from a specialized store offering anonymous locker delivery options and payment in bitcoins. In France, for example, [Bitcoin Bazar](https://bitcoinbazar.fr/) offers this type of service. Check your own country for such stores.
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
@@ -1936,7 +1875,7 @@ https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866
 
 https://planb.network/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
 
-- A hot wallet for everyday transactions**, featuring advanced privacy tools such as Ashigaru, Wasabi Wallet or Sparrow Wallet. These tools offer numerous privacy options, including mini-CoinJoin spending transactions, payjoins, potentially CoinJoin tools, coin control, UTXO tagging, or the ability to connect via your own Bitcoin node.
+- **A hot wallet for everyday transactions**, featuring advanced privacy tools such as Ashigaru, Wasabi Wallet or Sparrow Wallet. These tools offer numerous privacy options, including mini-CoinJoin spending transactions, payjoins, potentially CoinJoin tools, coin control, UTXO tagging, or the ability to connect via your own Bitcoin node.
 
 https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
@@ -1945,7 +1884,7 @@ https://planb.network/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-80
 ![BTC102-Bitcoin](assets/fr/089.webp)
 
 
-- A Bitcoin node** to avoid dependence on public nodes and guarantee total control over your transactions. Having your own Bitcoin node protects the confidentiality of transactions when they are broadcast, eliminates the need to trust a third party for Blockchain Bitcoin data, prevents censorship of your transactions, and lets you participate in defining the system's standardization and consensus rules. This makes it an indispensable tool for the paranoid user, and, more generally, for any sufficiently experienced Bitcoin user.
+- **A Bitcoin node** to avoid dependence on public nodes and guarantee total control over your transactions. Having your own Bitcoin node protects the confidentiality of transactions when they are broadcast, eliminates the need to trust a third party for Blockchain Bitcoin data, prevents censorship of your transactions, and lets you participate in defining the system's standardization and consensus rules. This makes it an indispensable tool for the paranoid user, and, more generally, for any sufficiently experienced Bitcoin user.
 
 https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
@@ -1959,7 +1898,7 @@ https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112c
 
 https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
 
-- A Lightning** node for day-to-day spending, with full control over the process, including channel opening and management, while remaining independent in its use of Lightning.
+- **A Lightning** node for day-to-day spending, with full control over the process, including channel opening and management, while remaining independent in its use of Lightning.
 
 https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
@@ -1982,7 +1921,6 @@ https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14
 The paranoid will obviously have an inheritance plan for his bitcoins, but this will be explained in more detail in the next section of the course.
 
 More broadly, the paranoid user adopts a responsible, advanced approach to computing. They prefer secure, open-source and privacy-friendly tools for :
-
 
 - Its operating systems, both on its phone and on its computer;
 
@@ -2012,7 +1950,6 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
-
 - Data management tools.
 
 https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
@@ -2028,7 +1965,6 @@ https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 #### 2. Buying bitcoins anonymously
 
 One of the major objectives of the paranoid is to acquire his bitcoins without going through a KYC platform, in order to avoid any link between his identity and his onchain activities. To achieve this, he favors several solutions:
-
 
 - P2P buying platforms such as Bisq, Robosat, LNP2PBot, Peach, HODL HODL, etc. ;
 
@@ -2064,12 +2000,11 @@ The paranoid systematically avoids the use of centralized exchange platforms to 
 
 Even after an anonymous acquisition, bitcoins can be traced on the Blockchain if they are not properly managed. The paranoid adopts several strategies to protect his privacy:
 
-
-- Avoid address reuse**, either manually or using advanced tools such as Silent Payments or BIP47 ;
-- Label your UTXOs** ;
-- Practice corner control when spending** ;
-- Avoid consolidation of UTXOs** ;
-- Use transaction structures that protect confidentiality**: coinjoins, payjoins, ricochets, and mini-payment coinjoins...
+- **Avoid address reuse**, either manually or using advanced tools such as Silent Payments or BIP47 ;
+- **Label your UTXOs** ;
+- **Practice corner control when spending** ;
+- **Avoid consolidation of UTXOs** ;
+- **Use transaction structures that protect confidentiality**: coinjoins, payjoins, ricochets, and mini-payment coinjoins...
 
 The paranoid user has also familiarized himself with the basics of chain analysis. He knows the patterns and heuristics used by chain analysis companies to better protect himself.
 
@@ -2081,7 +2016,6 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 The Bitcoin protocol, overlay systems such as Lightning Network, and the entire application layer linked to these ecosystems are evolving rapidly. A paranoid user must therefore :
 
-
 - Keep abreast of new solutions, including new privacy protection techniques;
 - Regularly test new tools and services to improve the user experience;
 - Regularly test the robustness of your system, including hardware wallet operation and updates, node operation and updates, and mnemonic phrase opaque envelopes;
@@ -2091,12 +2025,11 @@ The Bitcoin protocol, overlay systems such as Lightning Network, and the entire 
 
 Adopting a paranoid strategy is no trivial matter. It requires a great deal of rigor, constant discipline and time investment to master the tools and best practices of confidentiality. Is this profile for you? Here are the characteristics of the paranoid bitcoiner:
 
-
-- Vigilant and secure**: You attach paramount importance to your privacy and are prepared to take extra precautions to prevent any leakage of personal information. You view financial scrutiny as a threat and seek to protect yourself from interference.
-- Independent**: You don't want to depend on any intermediary to store, manage or transfer your bitcoins. You're ready to host your own Bitcoin and Lightning node, use complex wallets and manage your own backups and private keys.
-- Distrustful**: You refuse to use KYC platforms and prefer anonymous P2P acquisition methods, even if this means paying a premium on the price. You know that any personal data shared could be used against you.
-- Erudite and rigorous**: You are passionate about cybersecurity and privacy protection technologies. You take the time to study existing solutions, try out tools, learn about best practices and apply strict methods to limit the risk of error.
-- Pragmatic and reasoned**: You know that absolute anonymity is almost impossible to achieve, but you seek to minimize your exposure while striking a balance between confidentiality, security and ease of use. You continually adapt your approach to new threats and technological developments.
+- **Vigilant and secure**: You attach paramount importance to your privacy and are prepared to take extra precautions to prevent any leakage of personal information. You view financial scrutiny as a threat and seek to protect yourself from interference.
+- **Independent**: You don't want to depend on any intermediary to store, manage or transfer your bitcoins. You're ready to host your own Bitcoin and Lightning node, use complex wallets and manage your own backups and private keys.
+- **Distrustful**: You refuse to use KYC platforms and prefer anonymous P2P acquisition methods, even if this means paying a premium on the price. You know that any personal data shared could be used against you.
+- **Erudite and rigorous**: You are passionate about cybersecurity and privacy protection technologies. You take the time to study existing solutions, try out tools, learn about best practices and apply strict methods to limit the risk of error.
+- **Pragmatic and reasoned**: You know that absolute anonymity is almost impossible to achieve, but you seek to minimize your exposure while striking a balance between confidentiality, security and ease of use. You continually adapt your approach to new threats and technological developments.
 
 If you recognize yourself in these traits, then this strategy is probably for you. The path is demanding and requires constant effort, but it guarantees total financial sovereignty and enhanced security against the risks of surveillance, seizure or traceability of your funds.
 
@@ -2122,7 +2055,6 @@ Let's imagine a brutal but realistic scenario. A sudden accident, an unforeseen 
 
 You then have two choices:
 
-
 - Anticipate by creating a clear and structured plan that will allow your loved ones to access your bitcoins in a simple and secure way;
 - Do nothing, hoping they'll figure it out for themselves. But if they make a mistake, lose access to a portfolio or accidentally send the funds to the wrong address, your assets are gone forever.
 
@@ -2131,7 +2063,6 @@ Taking 15 minutes to 1 hour to put an estate plan in place can make all the diff
 ### Objectives of a Bitcoin succession plan
 
 Pamela Morgan, in her book *[Cryptoasset Inheritance Planning](https://www.amazon.com/gp/product/1947910116/)*, defines 4 essential objectives for a good inheritance plan:
-
 
 - Guarantee that your heirs can recover your bitcoins in due course, but not before;
 - Minimize the risk of theft or compromise before bitcoins are handed over;
@@ -2149,7 +2080,6 @@ The following chapter is directly inspired by the work of [Pamela Morgan](https:
 To illustrate the development of a Bitcoin succession plan, we'll follow the journey of Cedric, a typical Bitcoin user, who needs to organize the transfer of his estate in the event of unforeseen circumstances.
 
 Profile:
-
 
 - Long-term investor who does not trade frequently;
 - Holder of a Hardware Wallet and a mobile wallet for occasional use;
@@ -2169,7 +2099,6 @@ Take 30 minutes of your time. Not for yourself, but for those who depend on you.
 
 Make sure you have a calm, distraction-free environment, then gather these few tools:
 
-
 - 4 to 5 sheets of white paper ;
 - Pen;
 - 2 envelopes ;
@@ -2182,13 +2111,12 @@ Make sure you have a calm, distraction-free environment, then gather these few t
 
 Many people put off this step because of false beliefs that prevent them from taking action. Here are some common ideas cited by Pamela Morgan in _Cryptoasset Inheritance Planning_ (page 18):
 
-
-- "*I need to hire a lawyer.*"** → **FALSE**. A lawyer can be useful for legal aspects, but a Bitcoin technical legacy plan can be implemented without one. The key is to have clear, accessible instructions;
-- "*I need to trust a third party.*"** → **False**. Your plan can be designed to minimize the trust required, by dividing information between several parties or using multi-signature solutions, with or without timelock ;
-- "*Planning will make my assets easy to steal.*"** → **False**. A well-thought-out approach protects against theft attempts while ensuring that your heirs can safely recover your funds. However, it should be noted that there is no magic solution: an inheritance plan inevitably involves an increased risk of theft, depending on the information disclosed therein. We'll take a closer look at this later;
-- "*The value of my bitcoins is too small to plan.*"** → **False**. Whatever the amount, it's best to plan ahead. Your loved ones probably don't know how much you've saved in bitcoins, and that's fine. But in the event of a problem, won't they try to get them back since they don't know the amount? What I mean is, even if you only have €100 in BTC and your loved ones are aware of your investment, they'll want to get those funds back when you die. So it's a good idea to make it easy for them, to avoid giving them false hope about the amount or leaving them searching in vain for something that might not exist. What's more, Bitcoin is a rare asset, and its value can potentially increase considerably over the years;
-- "*My heirs will find out everything for themselves.*"** → **False**. Bitcoin is not a conventional bank account. Without specific instructions, your loved ones may never be able to access your funds, or may only be able to find a portion of them. Unlike bank accounts, where financial institutions or notaries contact relatives in the event of death, no intermediary will notify your family of the existence of your Bitcoin portfolio. It is therefore up to you to mention it explicitly in your inheritance plan;
-- "*A smart contract can handle anything.*"** → **FALSE**. A Smart contract like a Multisig portfolio with timelock can be a piece of the puzzle, but it will never replace well-structured planning, especially for people unfamiliar with Bitcoin. The two are complementary.
+- **"*I need to hire a lawyer.*"** → **FALSE**. A lawyer can be useful for legal aspects, but a Bitcoin technical legacy plan can be implemented without one. The key is to have clear, accessible instructions;
+- **"*I need to trust a third party.*"** → **False**. Your plan can be designed to minimize the trust required, by dividing information between several parties or using multi-signature solutions, with or without timelock ;
+- **"*Planning will make my assets easy to steal.*"** → **False**. A well-thought-out approach protects against theft attempts while ensuring that your heirs can safely recover your funds. However, it should be noted that there is no magic solution: an inheritance plan inevitably involves an increased risk of theft, depending on the information disclosed therein. We'll take a closer look at this later;
+- **"*The value of my bitcoins is too small to plan.*"** → **False**. Whatever the amount, it's best to plan ahead. Your loved ones probably don't know how much you've saved in bitcoins, and that's fine. But in the event of a problem, won't they try to get them back since they don't know the amount? What I mean is, even if you only have €100 in BTC and your loved ones are aware of your investment, they'll want to get those funds back when you die. So it's a good idea to make it easy for them, to avoid giving them false hope about the amount or leaving them searching in vain for something that might not exist. What's more, Bitcoin is a rare asset, and its value can potentially increase considerably over the years;
+- **"*My heirs will find out everything for themselves.*"** → **False**. Bitcoin is not a conventional bank account. Without specific instructions, your loved ones may never be able to access your funds, or may only be able to find a portion of them. Unlike bank accounts, where financial institutions or notaries contact relatives in the event of death, no intermediary will notify your family of the existence of your Bitcoin portfolio. It is therefore up to you to mention it explicitly in your inheritance plan;
+- **"*A smart contract can handle anything.*"** → **FALSE**. A Smart contract like a Multisig portfolio with timelock can be a piece of the puzzle, but it will never replace well-structured planning, especially for people unfamiliar with Bitcoin. The two are complementary.
 
 Now is the time to act. Take these 30 minutes and put your legacy plan in place. It's a simple step, but one that can make all the difference for your loved ones.
 
@@ -2196,12 +2124,10 @@ Now is the time to act. Take these 30 minutes and put your legacy plan in place.
 
 When it comes to passing on a bitcoin legacy, your loved ones will probably be unfamiliar with private key management or wallet recovery. They will need outside help, from competent and trusted people. Ideally, you should choose at least 2 different people:
 
-
-- A trusted relative**, who will ensure that your plan is carried out properly. He or she doesn't necessarily need to have in-depth knowledge of Bitcoin, but should be someone your heirs can rely on;
-- An experienced Bitcoin** user, who can provide technical assistance in fund recovery, portfolio management and process understanding.
+- **A trusted relative**, who will ensure that your plan is carried out properly. He or she doesn't necessarily need to have in-depth knowledge of Bitcoin, but should be someone your heirs can rely on;
+- **An experienced Bitcoin** user, who can provide technical assistance in fund recovery, portfolio management and process understanding.
 
 The people selected should never have direct access to your private keys (or mnemonic phrase), but they should be able to :
-
 
 - Guide your heirs in recovering and securing funds;
 - Explain the basic principles of Bitcoin portfolios, recovery phrases and transactions;
@@ -2209,12 +2135,12 @@ The people selected should never have direct access to your private keys (or mne
 
 On the sheet of paper that will become your Bitcoin legacy plan, draw up this comparative table of potential people, assessing their level of trust, their knowledge of Bitcoin, and their means of contact. For example:
 
-| Person | Confidence Level | Bitcoin Skills | Contact Means | Note| 
-| --------------------- | ------------------- | ------------------- | --- | ---| 
-| My Brother Bob | High | Low |Phone & e-mail | Bob doesn't know Bitcoin, but he's 100% reliable. He can make sure the process runs smoothly. |
-| My cousin Nathan | Big | Medium | Phone & Instagram | He's got the basics on Bitcoin and will guide my heirs. He knows the plan. No. 1 to talk to if you need help. |
-| Ricco (Bitcoiner friend) | Medium | Very large | Twitter, mail and photo | Very technically proficient, but should never have access to funds. Contact for technical assistance |
-| Youtubeur Bitcoin | Basse | Grande | Chaîne YouTube | Source of information for training, but cannot intervene directly. |
+| Person               | Trust Level     | Bitcoin Knowledge   | Contact Methods         | Note                                                                                                                   |
+|----------------------|-----------------|----------------------|--------------------------|------------------------------------------------------------------------------------------------------------------------|
+| My brother Bob       | Very high       | Low                  | Phone & email            | Bob doesn’t know Bitcoin well, but he’s 100% reliable. He can ensure the process goes smoothly.                        |
+| My cousin Nathan     | High            | Medium               | Phone & Instagram        | Has some Bitcoin knowledge and can guide my heirs. Aware of the plan. #1 to talk to in case of need.                   |
+| Ricco (Bitcoiner friend) | Medium      | Very high            | Twitter, email & photo   | Very technically skilled, but should never have access to the funds. To be contacted for technical support.            |
+| Bitcoin YouTuber     | Low             | High                 | YouTube channel          | Good information source for learning, but cannot intervene directly.                                                   |
 
 If you don't have any reliable or competent relatives, you might also consider using a professional, such as a Bitcoin inheritance lawyer, or an estate planning service. The key is to ensure that your heirs have access to reliable technical assistance, while preserving the security and confidentiality of your funds.
 
@@ -2226,11 +2152,10 @@ The aim here is not to immediately improve your security, but simply to list you
 
 Think about all the places where you own bitcoins or fiat currencies associated with Bitcoin. This may include:
 
-
-- Exchange platforms**: Accounts with BTC or fiat funds linked to your bitcoin purchases;
-- Mobile or desktop hot wallets**: Applications installed on your phone, used for current transactions;
-- Hardware wallets** : Physical devices securing your private keys offline ;
-- Other solutions**: Multisig, paper wallets, specially stored private keys, etc.
+- **Exchange platforms**: Accounts with BTC or fiat funds linked to your bitcoin purchases;
+- **Mobile or desktop hot wallets**: Applications installed on your phone, used for current transactions;
+- **Hardware wallets** : Physical devices securing your private keys offline ;
+- **Other solutions**: Multisig, paper wallets, specially stored private keys, etc.
 
 Use a table to structure this inventory. The idea is not to store this document online, but to keep it in a secure place in paper form. For example:
 
@@ -2251,7 +2176,6 @@ Once this assessment has been made, it will be much easier to identify weak poin
 It's important that your estate plan is clear, legible and secure. To achieve this, write a letter in ink on paper, and avoid digital documents that could be compromised. This letter is neither a will nor a legal declaration, but a practical guide to help your loved ones recover your bitcoins without risk.
 
 The letter should be simple, direct and contain the following essential elements:
-
 
 - An introduction explaining the nature of the assets to be recovered;
 - Trusted contacts who can assist your heirs in the recovery process;
@@ -2274,7 +2198,6 @@ If you're reading this letter, it's because I'm no longer here. First of all, pl
 
 I have designated several people who can help you understand Bitcoin and recover my assets. They should never have direct access to the funds, but they can guide you through the process:
 
-
 - My brother Bob; +33 6 00 00 00 00; bobmybrother@supermail.com. You can trust Bob to help you through this process. Although he's not the most technically adept on Bitcoin, he's the right person to question everything and exercise caution to ensure your safe success.
 - My cousin Nathan; +33 6 00 00 00 00; nathandelacroix@supermail.com. It was Nathan who introduced me to Bitcoin. He's very knowledgeable about computers and will be able to answer most of your questions. He also owns a few fractions of bitcoins and will be able to guide you technically. You've already seen him several times at family gatherings, and I've included a photo of him here.
 - Ricco; @RiccoSuperBitcoiner on Twitter; ricco425@supermail.com. I've worked closely with Ricco for many years. You've never met him, so make sure you're talking to the right person by asking "*What's Cedric's dog's name*". If he answers "*12*", that's fine. Ricco is a very friendly and knowledgeable expert on Bitcoin. He'll answer all your questions and you can trust his judgement about bitcoin security. Don't be afraid to contact him, but never give him direct access to the fund.
@@ -2286,7 +2209,6 @@ Contact all these people and cross-check their opinions before making important 
 
 Here's a precise inventory of my assets, their location and access methods.
 
-
 - I use my phone (Samsung Galaxy S8) to access my Samourai wallet. The mnemonic to restore the wallet is saved in two copies: one is stored in the bank safe, the other at Uncle Bob's house. The PIN code needed to unlock both my phone and the wallet is stored at my home and at my grandmother's.
 - I am accessing the Bitfinex online exchange platform via my Dell 2018 computer. It is possible that bitcoins or dollars are still there. To retrieve these funds, you will need to either contact Bitfinex directly or try to access my account. (*Be careful, this may be illegal - check your local legislation*).
 - I have secured access to my online accounts using a password manager. A backup of this password manager is stored in the bank's safe. My Bitfinex account is also protected by two-factor authentication, accessible either via my phone (Samsung Galaxy S8, Authy app), or thanks to the backup code I've kept at home.
@@ -2296,12 +2218,11 @@ Take all necessary precautions before handling these funds. Never divulge the co
 
 #### 3. Safety precautions and instructions
 
-
-- Don't rush ** Take time to learn before you act. Bitcoin is safe when used correctly.
-- Never give the 24-word sentence to just one person ** If someone asks you for full access, beware.
-- Don't connect my wallets to an unknown computer ** Use a secure environment, offline if possible.
-- Beware of scams ** There are many scams surrounding the Bitcoin. Only trust the people mentioned in this letter.
-- Save everything you do** Take notes, record milestones and protect access.
+- **Don't rush**. Take time to learn before you act. Bitcoin is safe when used correctly.
+- **Never give the 24-word sentence to just one person**. If someone asks you for full access, beware.
+- **Don't connect my wallets to an unknown computer**. Use a secure environment, offline if possible.
+- **Beware of scams**. There are many scams surrounding the Bitcoin. Only trust the people mentioned in this letter.
+- **Save everything you do**. Take notes, record milestones and protect access.
 
 #### 4. Legal information and final message
 
@@ -2325,7 +2246,6 @@ Finally, the problem of the inheritance plan is similar to that of security stra
 ### Step 4: Check and store the letter
 
 Before concluding, make sure you have included :
-
 
 - A clear list of trusted contacts;
 - A detailed inventory of assets and their locations;
@@ -2390,7 +2310,6 @@ In that case, take the time to watch Bitcoin evolve, refine your strategy and st
 
 Your journey doesn't end here. Bitcoin is an ever-evolving world, and there's always more to discover. Here are a few directions you might want to explore to deepen your understanding of Bitcoin:
 
-
 - To strengthen your IT security, start with the first-year course SEC101 :
 
 https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
@@ -2423,10 +2342,9 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Bitcoin is more than just a financial asset, it's also a technological and philosophical movement. Depending on your profile and skills, you can contribute to the ecosystem in different ways:
 
-
-- Educate and raise awareness**: Help your loved ones understand Bitcoin, share your knowledge and take part in local discussions;
-- Develop tools and applications**: If you have technical skills, contributing to open-source tools is a great way to bring value to Bitcoin ;
-- Join a local community**: Participate in events, meetups and forums to meet other bitcoiners and exchange views on the latest developments.
+- **Educate and raise awareness**: Help your loved ones understand Bitcoin, share your knowledge and take part in local discussions;
+- **Develop tools and applications**: If you have technical skills, contributing to open-source tools is a great way to bring value to Bitcoin ;
+- **Join a local community**: Participate in events, meetups and forums to meet other bitcoiners and exchange views on the latest developments.
 
 Naturally, if you'd like to contribute to public education on Bitcoin, your help would be greatly appreciated on Plan ₿ Network. Our educational resources are open-source, hosted on GitHub, and we're always looking for contributors to help proofread and improve content in the various languages we offer, in exchange for a few satoshis! Whether immediately or for later in your Bitcoin journey, feel free to join [our Telegram group for contributors](https://t.me/PlanBNetwork_ContentBuilder) of Plan ₿ Network.
 

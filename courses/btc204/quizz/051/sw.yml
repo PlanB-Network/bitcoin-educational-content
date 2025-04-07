@@ -1,0 +1,10 @@
+question: Je, kuna hasara gani ya Malipo ya Kimya ukilinganisha na BIP47?
+answer: Mpokeaji lazima achanganue karibu Blockchain nzima.
+wrong_answers:
+  - Wao generate ada ya juu ya muamala kwa mtumaji.
+  - Wanapunguza idadi ya shughuli zinazowezekana.
+  - Hawajulikani sana.
+explanation: |
+  Katika Exchange kwa kutaja shughuli ya arifa, ni lazima mpokeaji achanganue miamala yote ya Bitcoin ambayo inatii kiwango ili kujaribu kupata malipo yanayoelekezwa kwao.
+  
+reviewed: false

@@ -1,0 +1,8 @@
+question: Bitcoin 的採用曲線類似於什麼？
+answer: S 型曲線。
+wrong_answers:
+  - U 型曲線。
+  - V 型曲線。
+  - W 型曲線。
+explanation: >-
+reviewed: true

@@ -1,0 +1,9 @@
+question: W jaki sposób zapobiega się podwójnym wydatkom na Bitcoin?
+answer: Poprzez publiczną transmisję wszystkich transakcji systemowych.
+wrong_answers:
+  - Weryfikując tożsamość użytkowników przed każdą transakcją.
+  - Poprzez okresowy przegląd transakcji przez audytorów.
+  - Ograniczając liczbę transakcji na użytkownika.
+explanation: |
+  Aby potwierdzić brak transakcji, a tym samym uniknąć podwójnych wydatków, każdy użytkownik musi być świadomy wszystkich wcześniejszych transakcji.
+reviewed: false

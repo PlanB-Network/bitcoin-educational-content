@@ -1,0 +1,12 @@
+question: Jaka jest główna różnica między ekonomistami austriackimi a ekonomistami keynesistowskimi lub monetarystycznymi pod względem ich metod analizy?
+answer: Podczas gdy austriacy rozumują na podstawie podstawowych aksjomatów, ekonomiści keynesowscy lub monetarni mają tendencję do polegania na danych empirycznych.
+wrong_answers:
+  - Ekonomiści austriaccy opierają się na danych empirycznych, podczas gdy ekonomiści keynesowscy lub monetarni rozumują na podstawie podstawowych aksjomatów.
+  - Austriaccy ekonomiści i keynesiści lub monetaryści stosują te same metody analizy.
+  - Austriaccy ekonomiści polegają na polityce rządu, podczas gdy keynesiści lub monetaryści polegają na siłach rynkowych.
+explanation: |
+  Główną różnicą między austriackimi ekonomistami a keynesistami czy monetarystami
+  ekonomistów pod względem ich metod analizy jest to, że podczas gdy Austriacy rozumują
+  z podstawowych aksjomatów, z których można wyciągać logiczne wnioski, ekonomiści keynesowscy lub
+  ekonomiści keynesistowscy lub monetarni mają tendencję do polegania na danych empirycznych w celu ustalenia ogólnych praw ekonomicznych.
+reviewed: true

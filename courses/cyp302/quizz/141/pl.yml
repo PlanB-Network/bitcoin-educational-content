@@ -1,0 +1,9 @@
+question: Dlaczego faktoryzacja iloczynu dwóch bardzo dużych liczb pierwszych jest uważana za trudny problem?
+answer: Ponieważ wymaga to zaporowej ilości czasu obliczeniowego nawet dla superkomputerów.
+wrong_answers:
+  - Ponieważ wymaga klucza publicznego dla każdego czynnika.
+  - Ponieważ obejmuje tylko podstawowe operacje obliczeniowe.
+  - Ponieważ zależy to od mnożenia, a nie dzielenia.
+explanation: |
+  Faktoryzacja ogromnej liczby, iloczynu dwóch dużych liczb pierwszych, wymaga mocy obliczeniowej przekraczającej możliwości obecnych komputerów, co czyni to zadanie praktycznie niewykonalnym.
+reviewed: false

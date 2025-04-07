@@ -1,0 +1,11 @@
+question: 本課程對 Bitcoin 的學習進度有何啟示？
+answer: 一下子吸收所有東西是很複雜的，所以請慢慢來。
+wrong_answers:
+  - 一次學會所有東西是很容易的。
+  - 要了解 Bitcoin 的一切是不可能的。
+  - 沒有必要了解 Bitcoin 的一切。
+explanation: |
+  本課程建議，Bitcoin 有許多值得探索的地方。
+  Bitcoin 的探索範圍非常廣泛，要一次過吸收所有內容是很複雜的
+  所以應該慢慢來。
+reviewed: true

@@ -1,0 +1,9 @@
+question: Jakie są dwa główne składniki inteligentnego Contract State w RGB?
+answer: Global State i stany posiadane
+wrong_answers:
+  - Commitment i Genesis
+  - Seal Definition i State Transition
+  - Valency i Contract Rights
+explanation: |
+  Global State zawiera dane publiczne, podczas gdy Stany Własne są powiązane z konkretnymi posiadaczami za pośrednictwem UTXO.
+reviewed: false

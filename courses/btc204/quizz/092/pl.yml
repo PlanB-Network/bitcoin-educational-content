@@ -1,0 +1,10 @@
+question: Jak nazywa się konto używane dla UTXO, które nie mogą wejść do puli Whirlpool CoinJoin?
+answer: Konto Doxxic change.
+wrong_answers:
+  - Konto Postmix.
+  - Konto Premix.
+  - Konto depozytowe.
+explanation: |
+  Zmiana, która nie mogła dołączyć do puli, jest izolowana na koncie "doxxic change", aby zapewnić ścisłe oddzielenie od innych UTXO w Wallet.
+  
+reviewed: false

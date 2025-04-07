@@ -1,0 +1,11 @@
+question: Jakie znaczenie ma niedobór Bitcoin?
+answer: Na świecie będzie tylko 21 milionów bitcoinów i nigdy więcej
+wrong_answers:
+  - Wartość Bitcoin zawsze będzie wzrastać
+  - Bitcoin jest trudny do wydobycia
+  - Liczba transakcji Bitcoin jest ograniczona
+explanation: |
+  Niedobór Bitcoin odnosi się do faktu, że kiedykolwiek będzie tylko 21 milionów bitcoinów
+  milionów bitcoinów. Ta cecha, podobnie jak w przypadku złota, zapobiega rozcieńczaniu
+  Bitcoin poprzez nadmierne drukowanie pieniędzy.
+reviewed: false

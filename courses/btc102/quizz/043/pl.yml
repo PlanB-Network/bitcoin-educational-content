@@ -1,0 +1,11 @@
+question: Jaki jest główny powód, dla którego rządy i banki centralne badają możliwość stworzenia cyfrowej wersji swojej waluty fiducjarnej?
+answer: Zapewnienie kontroli i zgodności z lokalnymi przepisami
+wrong_answers:
+  - Aby konkurować z Bitcoin
+  - Zapewnienie ochrony prywatności
+  - Zwiększenie masowego nadzoru
+explanation: |
+  Treść rozdziału wyjaśnia, że chociaż projekty te twierdzą, że konkurują
+  z Bitcoin, pozostają scentralizowane w celu zapewnienia kontroli i zgodności z lokalnymi przepisami
+  lokalnymi przepisami.
+reviewed: false

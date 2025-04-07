@@ -1,0 +1,9 @@
+question: Jaki tytuł nosi książka Thomasa Paine'a?
+answer: Zdrowy rozsądek.
+wrong_answers:
+  - Wyjątkowy sens.
+  - Wspólne dobro.
+  - Żadna z powyższych odpowiedzi nie jest prawidłowa.
+explanation: |
+  Książka Thomasa Paine'a, zatytułowana Common Sense (po francusku Le sens commun), to wpływowy pamflet, który opowiadał się za niepodległością Ameryki i potępiał brytyjską tyranię, odgrywając kluczową rolę w mobilizacji kolonistów.
+reviewed: false

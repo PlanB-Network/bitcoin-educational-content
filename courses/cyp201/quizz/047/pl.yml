@@ -1,0 +1,9 @@
+question: Jaki jest rozmiar w bitach segmentu binarnego używanego do tworzenia każdego słowa Mnemonic?
+answer: 11 bitów
+wrong_answers:
+  - 8 bitów
+  - 16 bitów
+  - 10 bitów
+explanation: |
+  Każdy 11-bitowy segment odpowiada słowu ze standardowej listy 2048 słów w BIP39.
+reviewed: false

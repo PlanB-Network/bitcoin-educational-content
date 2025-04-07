@@ -1,0 +1,9 @@
+question: Jon Matonis 所經營的部落格名稱是什麼，該部落格涵蓋數位貨幣（包括 2010 年 3 月的 Bitcoin）？
+answer: 貨幣的未來
+wrong_answers:
+  - 經典經濟研究
+  - 返回現金
+  - 中本研究所
+explanation: |
+  他在 2010 年 3 月 13 日與 Satoshi 交換電子郵件後，發表了 [第一篇關於 Bitcoin 的文章](https: //themonetaryfuture.blogspot.com/2010/03/Bitcoin-peer-to-peer-electronic-cash.html) 。
+reviewed: false

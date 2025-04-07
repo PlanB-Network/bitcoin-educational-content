@@ -1,0 +1,8 @@
+question: Bitcoin Mining 中難度調整的目的是什麼？
+answer: 它會根據參與者人數重新平衡全球 Mining 遊戲。
+wrong_answers:
+  - 它會增加 Mining 的獎勵。
+  - 它會減少流通中的比特幣數量。
+  - 它增加了 Bitcoin 網路的安全性。
+explanation: >-
+reviewed: true

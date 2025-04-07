@@ -1,0 +1,10 @@
+question: 什麼是 Bitcoin 交易中的 OP_RETURN？
+answer: 標記輸出為無效並允許資料儲存的操作碼。
+wrong_answers:
+  - 驗證 Bitcoin 交易中簽章有效性的操作碼。
+  - 一個操作碼，包含一個超連結到儲存在 IPFS 上的檔案。
+  - 從 Bitcoin Blockchain 刪除交易的指令。
+explanation: |
+  OP_RETURN 是表示腳本無效的操作碼，使其包含的輸出變成可證明不可使用。因此，網路節點可以從其 UTXO 設定中移除此輸出。OP_RETURN 通常用來記錄 Blockchain 中的任意資料。
+  
+reviewed: false

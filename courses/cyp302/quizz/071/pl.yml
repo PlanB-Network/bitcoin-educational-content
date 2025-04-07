@@ -1,0 +1,8 @@
+question: Jak działa deszyfrowanie w szyfrze przestawieniowym?
+answer: Odejmując klucz od każdej zaszyfrowanej litery i stosując modulo 26
+wrong_answers:
+  - Odejmując klucz od każdej zaszyfrowanej litery i stosując modulo 20
+  - Mnożąc klucz przez każdą zaszyfrowaną literę
+  - Dzieląc klucz z każdej zaszyfrowanej litery i stosując modulo 27
+explanation: |
+  W szyfrze przestawieniowym deszyfrowanie odbywa się poprzez odjęcie klucza od każdej zaszyfrowanej litery, a następnie zastosowanie modulo 26 w celu powrotu do oryginalnego tekstu. Modulo 26 pozwala na powrót do początku alfabetu po literze Z.

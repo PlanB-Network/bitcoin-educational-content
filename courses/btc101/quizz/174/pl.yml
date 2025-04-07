@@ -1,0 +1,8 @@
+question: Jakie są typowe koszty Miner?
+answer: Zużycie energii elektrycznej i zakup sprzętu.
+wrong_answers:
+  - Tylko zakup sprzętu.
+  - Opłaty transakcyjne.
+  - Zużycie energii elektrycznej i opłaty transakcyjne.
+explanation: >-
+reviewed: false

@@ -1,0 +1,13 @@
+question: Jakie są potencjalne wady walut cyfrowych banku centralnego (CBDC)?
+answer: Mogą one ograniczać wolność finansową jednostek i ułatwiać autorytarne nadużycia.
+wrong_answers:
+  - Mogą one doprowadzić do spadku Supply.
+  - Mogą one prowadzić do spadku wartości Bitcoin.
+  - Mogą one prowadzić do spadku wartości złota.
+explanation: |
+  Waluty cyfrowe banku centralnego (CBDC) mogą potencjalnie
+  ograniczać wolność finansową jednostek i ułatwiać
+  autorytarne nadużycia. Wynika to z faktu, że oferowałyby one
+  bardziej centralnie planowaną gospodarkę, z bankiem centralnym
+  miałby jeszcze większą kontrolę nad pieniądzem Supply.
+reviewed: true

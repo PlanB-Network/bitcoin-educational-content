@@ -1,0 +1,9 @@
+question: Która operacja jest zwykle używana do łączenia strumienia klucza i wiadomości w szyfrze strumieniowym?
+answer: XOR
+wrong_answers:
+  - Mnożenie
+  - Modułowa zmiana biegów
+  - Zastępowanie każdej litery
+explanation: |
+  W szyfrze strumieniowym operacja XOR jest zwykle używana do łączenia strumienia klucza z wiadomością, ponieważ jest prosta i odwracalna.
+reviewed: false

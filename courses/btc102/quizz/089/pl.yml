@@ -1,0 +1,11 @@
+question: Jaka jest jedna cecha charakterystyczna użytkownika Bitcoin, który jest kompetentny technologicznie?
+answer: Dobrze rozumieją technologie, w tym portfele Hot i Cold Bitcoin oraz Lightning Network.
+wrong_answers:
+  - Używają Bitcoin tylko do inwestycji długoterminowych.
+  - Używają Bitcoin tylko do codziennych transakcji.
+  - Używają tylko Bitcoin na platformach Exchange.
+explanation: |
+  Kompetentni technologicznie użytkownicy Bitcoin rozumieją zaangażowane technologie
+  w transakcje Bitcoin, w tym różne rodzaje portfeli i sieć Lightning
+  Network.
+reviewed: false

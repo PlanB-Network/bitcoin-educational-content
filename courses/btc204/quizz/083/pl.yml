@@ -1,0 +1,10 @@
+question: Dlaczego koordynator nie może zmodyfikować transakcji CoinJoin po zebraniu podpisów od wszystkich uczestników?
+answer: Jego modyfikacja spowodowałaby unieważnienie transakcji.
+wrong_answers:
+  - Nie mają oni dostępu do adresów odbiorczych uczestników.
+  - Podpisy są szyfrowane.
+  - Transakcja została już wyemitowana w sieci Bitcoin.
+explanation: |
+  Gdy uczestnicy podpiszą całą transakcję, po upewnieniu się, że wszystko jest poprawne, koordynator nie może już modyfikować tej transakcji, w tym danych wyjściowych, bez jej unieważnienia, ponieważ podpis obejmuje całą transakcję.
+  
+reviewed: false

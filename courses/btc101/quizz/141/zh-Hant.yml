@@ -1,0 +1,11 @@
+question: 在 Raspberry Pi 4 上運行一個 Bitcoin 節點的每年耗電成本是多少（截至 2023 年）？
+answer: 每年少於 10 歐元。
+wrong_answers:
+  - 每年超過 50 歐元。
+  - 每年少於 100 歐元。
+  - 每年約 200 歐元。
+explanation: |
+  在 Raspberry Pi 4 上運行一個 Bitcoin 節點，每年的耗電量略低於 10 歐元。
+  每年的耗電量不到 10 歐元
+  截至 2023 年。
+reviewed: true

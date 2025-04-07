@@ -1,0 +1,13 @@
+question: Jak regulacje i taryfy energii elektrycznej wpływają na Bitcoin Mining?
+answer: Regulacje i taryfy za energię elektryczną mają znaczący wpływ na Bitcoin Mining. Górnicy nieustannie poszukują taniej energii elektrycznej, aby zmaksymalizować swoje zyski. Dlatego też wysokie koszty energii elektrycznej w niektórych regionach nie przyciągają górników do tych regionów. Górnicy dążą do regionów o niskich taryfach energii elektrycznej, często w krajach wschodzących lub krajach z nadwyżkami energii.
+wrong_answers:
+  - Regulacje i taryfy za energię elektryczną wpływają na Bitcoin Mining, określając rodzaj maszyn Mining, które mogą być używane.
+  - Regulacje i taryfy za energię elektryczną wpływają na Bitcoin Mining poprzez określenie rodzaju oprogramowania Mining, które może być używane.
+  - Regulacje i taryfy energii elektrycznej wpływają na Bitcoin Mining, określając wielkość Mining pool, który może zostać utworzony.
+explanation: |
+  W rozdziale wyjaśniono, że regulacje i taryfy
+  mają znaczący wpływ na Bitcoin Mining.
+  Górnicy nieustannie poszukują taniej energii elektrycznej, aby
+  zmaksymalizować swoje zyski, a zatem mają tendencję do ciążenia
+  w kierunku regionów o niskich taryfach energii elektrycznej.
+reviewed: true

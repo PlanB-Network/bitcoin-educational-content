@@ -1,0 +1,8 @@
+question: Jaka jest główna funkcja deskryptorów skryptu wyjściowego?
+answer: Aby w pełni opisać skrypt wyjściowy i dostarczyć informacji potrzebnych do przywrócenia Wallet
+wrong_answers:
+  - Automatycznie generate adresy z wieloma podpisami
+  - Zastąpienie frazy Mnemonic w kopiach zapasowych Wallet
+  - Uproszczenie obliczeń podpisów cyfrowych
+explanation: |
+  Deskryptory zawierają wszystkie informacje niezbędne do śledzenia konkretnego skryptu, w tym ścieżkę derywacji i użyte klucze, ale nie frazę odzyskiwania.

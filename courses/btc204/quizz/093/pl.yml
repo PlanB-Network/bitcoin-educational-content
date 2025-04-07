@@ -1,0 +1,10 @@
+question: Jaka jest główna rola transakcji Tx0 w Whirlpool?
+answer: Aby wyrównać UTXO.
+wrong_answers:
+  - Aby wykonać pierwszy miks.
+  - Aby usunąć UTXO z puli.
+  - Aby wydać mieszane UTXO.
+explanation: |
+  Tx0 ma na celu przygotowanie i wyrównanie UTXO dla CoinJoin, poprzez podzielenie ich na jednostki odpowiadające ilości wybranej puli, w celu zapewnienia jednorodności mieszania.
+  
+reviewed: false

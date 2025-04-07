@@ -1,0 +1,9 @@
+question: Jaki jest główny cel klasycznej kryptografii, który jest nadal obecny we współczesnej kryptografii?
+answer: Poufność wiadomości
+wrong_answers:
+  - Uproszczenie wiadomości
+  - Powtarzanie wiadomości
+  - Automatyzacja wysyłania wiadomości
+explanation: |
+  Klasyczna kryptografia koncentrowała się przede wszystkim na poufności i cel ten pozostaje kluczowy w nowoczesnej kryptografii, chociaż dodano inne tematy, takie jak integralność i autentyczność.
+reviewed: false

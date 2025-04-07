@@ -1,0 +1,13 @@
+question: Jaka jest podstawowa misja Bitcoin?
+answer: Być odporną na cenzurę siecią Exchange.
+wrong_answers:
+  - Aby zastąpić tradycyjne waluty.
+  - Aby transakcje były anonimowe.
+  - Stworzenie nowej formy inwestycji.
+explanation: |
+  Podstawową misją Bitcoin jest bycie siecią
+  odporną na cenzurę wartością sieci Exchange. Społeczność Bitcoin
+  nieustannie dąży do wzmocnienia
+  dystrybucji, odporności na cenzurę i antykruchości sieci
+  sieci.
+reviewed: true

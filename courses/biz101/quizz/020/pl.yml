@@ -1,0 +1,9 @@
+question: Czym jest "ukryta inflacja" w kontekście systemu monetarnego opartego na długu?
+answer: To wzrost Supply (około 7% rocznie) zmniejsza udział w ogólnej wartości, jeśli odpowiednio nie inwestujesz lub nie zwiększasz aktywów.
+wrong_answers:
+  - Jest to oficjalny termin ekonomiczny określający stałe stopy procentowe.
+  - Odnosi się do danych o inflacji niepublikowanych przez banki centralne.
+  - Oznacza to, że ceny nigdy nie rosną, nawet gdy pieniądze Supply rosną.
+explanation: |
+  Ukryta inflacja występuje, gdy pieniądz Supply rozszerza się, zmniejszając siłę nabywczą oszczędności. Jeśli firma nie inwestuje proaktywnie lub nie chroni swojego majątku, ryzykuje utratę wartości w wyniku tej cichej formy rozwodnienia monetarnego.
+reviewed: false

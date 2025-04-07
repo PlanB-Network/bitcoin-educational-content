@@ -1,0 +1,10 @@
+question: 在購買 Bitcoin 之前，您應該準備什麼？
+answer: 安全的 Wallet。
+wrong_answers:
+  - 實體保險箱。
+  - 銀行帳戶。
+  - 一張信用卡。
+explanation: |
+  課程中提到，在購買 Bitcoin 之前，您應該有一個安全的 Wallet 來存放鑰匙。
+  應該有一個安全的 Wallet 來存放鑰匙。
+reviewed: true

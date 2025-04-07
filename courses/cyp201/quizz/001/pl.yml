@@ -1,0 +1,9 @@
+question: Która właściwość gwarantuje, że pobranie danych wejściowych Hash jest obliczeniowo niemożliwe?
+answer: Odporność na obraz wstępny
+wrong_answers:
+  - Odporność na kolizje
+  - Efekt lawiny
+  - Druga odporność na obraz wstępny
+explanation: |
+  Odporność na preimage zapewnia, że praktycznie niemożliwe jest znalezienie oryginalnej wiadomości z jej Hash.
+reviewed: false

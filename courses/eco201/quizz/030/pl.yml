@@ -1,0 +1,18 @@
+question: Jaki jest wpływ sekwencyjnego charakteru ludzkich działań na działalność produkcyjną?
+answer: Każdy objazd produkcyjny, tj. każde wydłużenie struktury produkcyjnej, wymaga wcześniejszego zapisania.
+wrong_answers:
+  - Sekwencyjny charakter ludzkich działań nie ma wpływu na działalność produkcyjną.
+  - Sekwencyjny charakter ludzkiego działania oznacza, że czynności produkcyjne muszą być wykonywane w określonej kolejności.
+  - Sekwencyjny charakter ludzkiego działania oznacza, że czynności produkcyjne muszą być wykonywane jednocześnie.
+explanation: |
+  Ze względu na sekwencyjny charakter ludzkich działań, jednostki
+  muszą dokonywać wyborów międzyokresowych - decyzji równoważących
+  równoważące natychmiastowe potrzeby z przyszłymi celami. Wybory te wpływają na
+  na sekwencję działań, które można podjąć, ponieważ krótkoterminowe decyzje
+  decyzje są podporządkowane celom długoterminowym. W kategoriach
+  produkcji oznacza to, że każdy objazd w procesie produkcji, tj. wydłużenie struktury
+  w procesie produkcji, tj. wydłużenie struktury produkcji,
+  wymaga wcześniejszych oszczędności. Zasoby muszą zostać odłożone teraz, aby
+  utrzymać jednostkę w czasie potrzebnym na
+  dłuższej, bardziej produktywnej ścieżki.
+reviewed: true

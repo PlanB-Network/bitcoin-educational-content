@@ -1,0 +1,13 @@
+question: Dlaczego bezpieczniej jest korzystać z europejskich dostawców punktów dostępowych Wi-Fi, takich jak SNCF?
+answer: Nie powinny one odsprzedawać danych dotyczących połączeń użytkowników ze względu na przepisy RODO.
+wrong_answers:
+  - Zapewniają szybsze prędkości Internetu w porównaniu do amerykańskich dostawców.
+  - Często pozwalają one użytkownikom ominąć ograniczenia geograficzne.
+  - Blokują one reklamy online, jeśli użytkownik został zidentyfikowany jako obywatel europejski.
+explanation: |
+  W Unii Europejskiej ochrona danych jest regulowana przez
+  Ogólne rozporządzenie o ochronie danych (RODO). W związku z tym,
+  Europejscy dostawcy punktów dostępowych Wi-Fi, tacy jak SNCF, nie
+  nie odsprzedają danych o połączeniach użytkowników, co czyni je bezpieczniejszymi z punktu widzenia
+  perspektywy prywatności.
+reviewed: true

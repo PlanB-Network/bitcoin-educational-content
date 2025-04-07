@@ -1,0 +1,13 @@
+question: Jaki jest główny cel stojący za stworzeniem Bitcoin?
+answer: Oddzielić państwo od pieniędzy.
+wrong_answers:
+  - Aby wyeliminować standard złota.
+  - Aby transakcje były szybsze i tańsze.
+  - Aby wszyscy byli bogaci.
+explanation: |
+  Bitcoin został stworzony w celu oddzielenia państwa od pieniędzy
+  od pieniędzy. Jest to odpowiedź na systemowe wyzwania obecnego systemu finansowego
+  obecnego systemu finansowego, w którym państwo ma pełną kontrolę nad pieniędzmi
+  pełną kontrolę nad pieniądzem Supply i może nim manipulować na swoją korzyść
+  na swoją korzyść.
+reviewed: true

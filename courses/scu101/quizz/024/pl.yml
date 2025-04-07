@@ -1,0 +1,11 @@
+question: Jakie są rozwiązania w zakresie szyfrowania danych w różnych systemach operacyjnych?
+answer: BitLocker dla systemu Windows, LUKS dla systemu Linux i wbudowana opcja dla komputerów Mac.
+wrong_answers:
+  - BitLocker dla systemu Linux, LUKS dla komputerów Mac i wbudowana opcja dla systemu Windows.
+  - BitLocker dla komputerów Mac, LUKS dla systemu Windows i wbudowana opcja dla systemu Linux.
+  - LUKS dla wszystkich systemów operacyjnych.
+explanation: |
+  Różne systemy operacyjne mają różne rozwiązania dla
+  szyfrowania danych. BitLocker jest przeznaczony dla systemu Windows, LUKS dla systemu
+  Linux, a Mac ma wbudowaną opcję szyfrowania danych.
+reviewed: true

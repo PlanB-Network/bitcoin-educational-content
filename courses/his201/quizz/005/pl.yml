@@ -1,0 +1,9 @@
+question: Który ekonomista stwierdził w 1999 roku, że jedyną rzeczą, której brakuje, ale która wkrótce zostanie opracowana, jest niezawodna elektroniczna gotówka?
+answer: Milton Friedman
+wrong_answers:
+  - Friedrich Hayek
+  - Murray Rothbard
+  - Paul Krugman
+explanation: |
+  Laureat Nagrody Nobla w dziedzinie ekonomii i założyciel Szkoły Chicagowskiej, wygłosił tę prognozę przy mikrofonie fundacji National Taxpayers Union. [micro](https: //www.youtube.com/watch?v=mlwxdyLnMXM&t=872s)
+reviewed: false

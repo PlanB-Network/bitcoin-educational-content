@@ -116,7 +116,7 @@ NB. Si consiglia di effettuare la revisione nella finestra del codice, con il co
 ![REVIEW](assets/fr/14.webp)
 
 
-- Seleziona il branch che contiene i tuoi progressi (cfr. \**A\**), individua il tuo file di contenuto (cfr. \**B\**), quindi fate clic sull'icona della matita per continuare la revisione.
+- Seleziona il branch che contiene i tuoi progressi (cfr. \**A\**), individua il tuo file di contenuto (cfr. \**B\**), quindi fai clic sull'icona della matita per continuare la revisione.
 
 ![REVIEW](assets/fr/15.webp)
 
@@ -141,8 +141,8 @@ NB. Si consiglia di effettuare la revisione nella finestra del codice, con il co
 - Gli strumenti LLM possono tradurre letteralmente alcune parole relative a Bitcoin, come Lightning Network, che diventerebbe "Rete Fulmine" in italiano. In casi come questo, è consigliabile mantenere il termine originale in inglese per una maggiore chiarezza, a meno che le regole grammaticali della tua lingua non impongano la traduzione di ogni singola parola.
 - Se trovi delle citazioni, assicurati di fare delle ricerche online per trovare la traduzione corretta nella tua lingua.
 - NON tradurre le parole statiche all'inizio del testo, che vengono utilizzate per descrivere il suo contenuto: "name", "description", "objectives".
-- Se nel testo trovi "Plan ₿ Network", lascialo in questa forma originale. Non tradurre la parola "plan" o la parola "network". Inoltre, NON utilizzare l'articolo "IL" quando presenti Plan ₿ Network, e consideralo come un marchio. Lo stesso vale per "B-CERT", "BIZ SCHOOL", "TECH SCHOOL", che dovranno rimanere nella forma originale.
-- Fai attenzione a punteggiatura strana come `\*\*\`, che potrebbe indicare un errore nella visualizzazione del grassetto **. Controlla sempre il testo originale in inglese per vedere se è previsto un testo in grassetto. Puoi trovare ulteriori informazioni sul linguaggio markdown [qui](https://www.markdownguide.org/basic-syntax/).
+- Se nel testo trovi "Plan ₿ Network", lascialo in questa forma originale. Non tradurre la parola "plan" o la parola "network". Inoltre, NON utilizzare l'articolo "IL" quando presenti Plan ₿ Network, e consideralo come un marchio. Lo stesso vale per "B-CERT", "BIZ SCHOOL", "TECH SCHOOL", che dovranno mantenere questa forma originale.
+- Fai attenzione a punteggiature strane come `\*\*\`, che potrebbero indicare un errore nella visualizzazione del grassetto **. Controlla sempre il testo originale in inglese per vedere se è previsto un testo in grassetto. Puoi trovare ulteriori informazioni sul linguaggio markdown [qui](https://www.markdownguide.org/basic-syntax/).
 - Quando hai finito la tua revisione, puoi tornare alla issue iniziale aperta dal coordinatore, commentare con "Proofreading done" e inserire il link della tua PR.
 
 7. In attesa di revisione

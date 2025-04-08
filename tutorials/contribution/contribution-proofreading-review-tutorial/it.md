@@ -93,44 +93,44 @@ NB. Si consiglia di effettuare la revisione nella finestra del codice, con il co
 
 
 - Inserisci un messaggio descrittivo per le tue modifiche (cfr. \**A\**).
-- Se necessario, aggiungi più contesto nella descrizione (cfr. \**B\**).
+- Se necessario, aggiungi più dettagli nella descrizione (cfr. \**B\**).
 - Clicca sul pulsante "Propose changes" (cfr. \**C\**).
 
 ![REVIEW](assets/fr/08.webp)
 
 
-- Se questo non è il tuo primo contributo, GitHub yi chiederà di creare un nuovo branch. Non devi mai fare un commit direttamente sul branch principale `dev`. Se hai gia effettuato dei commit (salvataggi) su un branch di lavoro esistente, seleziona quello. Altrimenti, scegli l'opzione "Create a new branch" per crearne uno nuovo.
+- Se questo non è il tuo primo contributo, GitHub ti chiederà di creare un nuovo branch. Non devi mai fare un commit (salvataggio) direttamente sul branch principale `dev`. Se hai gia effettuato dei commit su un branch di lavoro esistente, seleziona quello. Altrimenti, scegli l'opzione "Create a new branch" per crearne uno nuovo.
 
 ![REVIEW](assets/fr/13.webp)
 
 
-- Accederai quindi a una pagina che riassume tutte le modifiche apportate. Scorrendola, potrai vedere le modifiche precise: le voci eliminate appaiono in rosso, mentre quelle aggiunte in verde.
+- Accederai poi ad una pagina che riassume tutte le modifiche apportate. Scorrendola, potrai vedere le modifiche precise: le voci eliminate appaiono in rosso, mentre quelle aggiunte in verde.
 
 ![REVIEW](assets/fr/09.webp)
 
 
 - Se non hai completato la tua revisione e desideri continuare il lavoro in un secondo momento, è sufficiente uscire.
 - Dal momento in cui è stato fatto un "commit changes", le modifiche vengono salvate sul tuo fork GitHub.
-- Per riprendere il lavoro, accedi alla tua repository dei contenuti di Plan ₿ Network del tuo fork tramite il tuo profilo GitHub.
+- Per riprendere il lavoro, accedi alla repository dei contenuti di Plan ₿ Network del tuo fork, tramite il tuo profilo GitHub.
 
 ![REVIEW](assets/fr/14.webp)
 
 
-- Selezionate il ramo che contiene i vostri progressi (cfr. \**A\**), individuate il vostro file di contenuto (cfr. \**B\**), quindi fate clic sull'icona della matita per continuare la revisione.
+- Seleziona il branch che contiene i tuoi progressi (cfr. \**A\**), individua il tuo file di contenuto (cfr. \**B\**), quindi fate clic sull'icona della matita per continuare la revisione.
 
 ![REVIEW](assets/fr/15.webp)
 
-## 5. Creare una PR con il ramo dedicato
+## 5. Creare una PR con il branch dedicato
 
 
-- Se tutto sembra a posto e le modifiche sono state completate, fare clic sul pulsante verde "Create Pull Request".
+- Se tutto ti sembra a posto e le modifiche sono state completate, fai clic sul pulsante verde "Create Pull Request".
 
 ![REVIEW](assets/fr/10.webp)
 
 
-- Si arriva quindi alla pagina PR. Una richiesta di pull è una richiesta di invio di modifiche apportate a un ramo di un repository remoto per la revisione e l'eventuale fusione nel ramo principale.
-- Aggiungete un titolo e una breve descrizione alla vostra PR. Il titolo deve corrispondere al tema su cui si sta lavorando. Ad esempio, se il titolo del numero è `[TRANSLATION] Course CYP201 - FR`, usate lo stesso titolo per la vostra PR (cfr. \**A\**). Nella descrizione, menzionate il problema associato usando il suo numero, preceduto da "Chiude". Questo chiuderà automaticamente il problema una volta che la PR sarà unita (cfr. \**B\**).
-- Se tutto sembra a posto, fare clic sul pulsante verde "Create Pull Request" (cfr. \**C\**).
+- A questo punto arrivi alla pagina PR. Una Pull Request è una richiesta di sottoporre le modifiche apportate su un branch di un repository remoto per la revisione e l'eventuale integrazione nel ramo principale.
+- Aggiungi un titolo e una breve descrizione alla tua PR. Il titolo deve corrispondere alla issue su cui si sta lavorando. Ad esempio, se il titolo della issue è `[TRANSLATION] Course CYP201 - FR`, usate lo stesso titolo per la vostra PR (cfr. \**A\**). Nella descrizione, menzionate il problema associato usando il suo numero, preceduto da "Closes". In questo modo la issue verrà chiusa automaticamente una volta che la PR sarà accettata e integrata (cfr. \**B\**).
+- Se tutto ti sembra a posto, fai clic sul pulsante verde "Create Pull Request" (cfr. \**C\**).
 
 ![REVIEW](assets/fr/11.webp)
 

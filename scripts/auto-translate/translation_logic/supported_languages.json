@@ -55,7 +55,6 @@
       "translator": "openai",
       "code_translator": "Modern Hindi",
       "custom_prompt": "इस अंग्रेज़ी पाठ का हिंदी अनुवाद सरल, प्रवाहपूर्ण और बोलचाल की भाषा में करें"
-
     },
     {
       "code": "id",
@@ -92,6 +91,12 @@
       "name": "Portuguese",
       "translator": "deepl",
       "code_translator": "PT-PT"
+    },
+    {
+      "code": "rn",
+      "name": "Rundi",
+      "translator": "google",
+      "code_translator": "RN"
     },
     {
       "code": "ro",

@@ -70,6 +70,8 @@ https://planb.network/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
 - ライトニング・ブートキャンプでのマキシム・オルロフスキー、ハンター・トゥルージロ、フレデリコ・テンガのセミナーのビデオ；
 - RGBドキュメントは、[Bitfinex](https://www.bitfinex.com/)がスポンサーとなって制作された。
 
+複雑で魅力的なRGBの世界に飛び込む準備はできましたか？さあ、始めましょう！
+
 # 理論上のRGB
 
 <partId>80e797ee-3f33-599f-ab82-e82eeee08219</partId>
@@ -3920,10 +3922,10 @@ curl -X 'GET' \
 
 <chapterId>0217e8b0-942a-5fee-bd91-9a866551eff3</chapterId>
 
-<isCourseReview>true</isCourseReview>。
+<isCourseReview>true</isCourseReview>
 
 ## まとめ
 
 <chapterId>0309536d-c336-56a0-869e-a8395ed8d9ae</chapterId>
 
-<isCourseConclusion>真</isCourseConclusion>。
+<isCourseConclusion>true</isCourseConclusion>

@@ -21,12 +21,13 @@ Tämä kurssi keskittyy tietenkin Satoshi Nakamoton hahmoon, jonka sanat ja teot
 
 <partId>41dc2815-c63a-4ce1-9b88-e7b3825e958e</partId>
 
-## Bitcoinin luomisen historian johdanto
+## Kurssin yleiskatsaus
 
 <chapterId>85290407-1aa3-4cb4-890a-aed23441afb7</chapterId>
+Tervetuloa HIS201-kurssille!
 Tämän kurssin tavoitteena on kertoa sinulle Bitcoinin luomisen tarina tavalla, jota et ole koskaan aiemmin lukenut. Se on usein sivuutettu, vaikka se onkin täynnä kiehtovia yksityiskohtia. Pyrimme kuvaamaan sitä kaikessa monimutkaisuudessaan, alkaen sen suunnittelusta Satoshi Nakamoton toimesta, hänen varhaiseen katoamiseensa ja yhteisölle siirtymiseen.
 
-### Lyhyt yleiskatsaus
+**Lyhyt yleiskatsaus**
 
 Bitcoin suunniteltiin yksilön (tai ryhmän) toimesta, joka käytti nimimerkkiä Satoshi Nakamoto. Lokakuun 31. päivänä 2008 hän jakoi valkoisen kirjan, jossa kuvasi mallinsa, erään obskuurin sähköpostilistan kautta Internetissä. Tammikuun 8. päivänä 2008 hän toteutti konseptinsa julkaisemalla ohjelmiston lähdekoodin ja käynnistämällä verkon louhimalla ketjun ensimmäiset lohkot. Hän pyrki houkuttelemaan kriittisen määrän käyttäjiä mainostamalla luomustaan eri viestintäkanavissa.
 
@@ -48,7 +49,7 @@ Bitcoinin luominen oli myös kontekstissa valtion yksityisten valuuttajärjestel
 
 Lopulta Bitcoin-projekti on kyberpunk-liikkeen perintö, 90-luvun kapinallisten kryptografien liike, jotka pyrkivät säilyttämään ihmisten yksityisyyden ja vapauden Internetissä proaktiivisen kryptografian käytön kautta. Bitcoin on linjassa projektien, kuten b-money, bit gold tai RPOW, kanssa, joita nämä henkilöt kuvittelivat 90-luvun lopulla ja 2000-luvun alussa. Satoshi Nakamoto mainitsi ne, vaikka hän ei ollut tietoinen niistä ennen Bitcoinin suunnittelua ja todennäköisesti ei ollut alkuperäisen liikkeen jäsen.
 
-### Kurssin Rakenne
+**Kurssin Rakenne**
 
 Tämä kurssi on jaettu neljään osaan, jotka keskittyvät vastaavasti Bitcoinin alkuperään (3 lukua), sen hitaaseen esiinmarssiin (3 lukua), sen alkunousuun (3 lukua) ja sen yhteisön muodostumiseen (4 lukua). Yhteensä se sisältää 12 lukua, jotka ovat seuraavat (kyseinen ajanjakso on myös määritelty):
 
@@ -66,7 +67,7 @@ Tämä kurssi on jaettu neljään osaan, jotka keskittyvät vastaavasti Bitcoini
 - Satoshin Katoaminen (joulukuu 2010–huhtikuu 2011)
 - Yhteisö Ottaa Ohjat (huhtikuu 2011–syyskuu 2011)
 
-### Yksityiskohdat
+**Yksityiskohdat**
 
 Kaikki päivämäärät ja ajat on annettu UTC-aikavyöhykkeen mukaan (vastaa Greenwichin meridiaania) ja voivat siten erota Amerikan päivämääristä. On todennäköistä, että Satoshi Nakamoto oli Yhdysvalloissa työskennellessään projektinsa parissa. Bitcoin on kuitenkin kansainvälinen projekti, johon on merkittävästi osallistunut myös suomalainen kehittäjä Martti Malmi (Itä-Euroopan aika, UTC+2 / UTC+3), ja siksi viittaamme universaaliin aikavyöhykkeeseen. Näin ollen sanomme, että pääverkon virallinen käynnistys tapahtui 9. tammikuuta kello 2:54, eikä 8. tammikuuta kello 18:54, mikä vastaa Itärannikon aikavyöhykettä (Tyynenmeren aika, UTC-8 / UTC-7).
 
@@ -80,6 +81,7 @@ Sisältö on osittain mukautettu ranskalaisesta kirjasta [_L'Élégance de Bitco
 
 Huomaa, että tämän kurssin ei-englanninkielisissä versioissa useimmat lainaukset ovat amerikanenglannista ja ne on käännetty tilaisuuden tullen. Termi _coin_ on yleensä käännetty "yksikkö" (eikä "kappale"), kun se viittaa tilikauden yksikköön.
 
+Oletko valmis tutkimaan Bitcoinin uskomatonta syntytarinaa? Sukelletaanpa yhdessä tähän poikkeukselliseen kertomukseen!
 # Bitcoinin Alkuperä
 
 <partId>25a75ed6-f34b-4c9a-8224-e099a3e774dc</partId>
@@ -1417,7 +1419,7 @@ Kolmanneksi, Bitcoin kasvoi orgaanisesti. Se pystyi kehittymään hienovaraisest
 Neljänneksi, Bitcoin oli altruistinen luomus. Satoshi Nakamoto tarjosi Bitcoinin maailmalle. Hän julkaisi ohjelman vapaan lisenssin alaisena. Hän ei hakenut mainetta, voittoa eikä valtaa. Hän varmisti verkon louhintaturvallisuuden yli vuoden ajan pyytämättä mitään korvausta. Vaikka hän kerrytti yli miljoona bitcoinia, hän ei koskaan käyttänyt niitä. Lopulta hän katosi, pääasiassa WikiLeaks-tapauksen luoman huomion aiheuttamien pelkojen vuoksi, jättäen projektin lepäämään yhteisön varaan ilman yksittäistä hallitsevaa hahmoa.
 Vuonna 2011 Satoshi katosi, mutta Bitcoin selvisi. Kryptovaluutta otti lopullisesti tuulta alleen sekä mediassa että taloudellisesta näkökulmasta. Kone oli käynnistetty, eikä kukaan voinut pysäyttää sitä.
 
-# Yhteenveto
+# Lopullinen osio
 
 <partId>89532d9b-af1f-49f3-b87a-b11987e303d5</partId>
 

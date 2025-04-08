@@ -2362,7 +2362,7 @@ Once again, congratulations on a job well done. Remember that my primary objecti
 
 Good luck with your Bitcoin adventure!
 
-# Conclusion
+# Final Section
 
 <partId>a8425389-4a53-4b57-b9b4-36c1cab12de5</partId>
 

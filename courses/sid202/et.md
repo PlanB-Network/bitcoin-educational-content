@@ -24,17 +24,32 @@ Liitu meiega, et tõsta oma oskusi, avada Liquid'i ja Elements'i täielik potent
 
 <partId>8f34de87-6e9a-4e3b-a326-50fc7c1803b3</partId>
 
-## Kursused Sissejuhatus
+## Kursuse ülevaade
 
 <chapterId>a721398e-7040-4edd-be53-b485ea759fa9</chapterId>
 
 ![Video](https://youtu.be/gkQfnwYLyI0?si=H6cIPhgZaSAwHaHI)
 
-Elements Academy eesmärk on tutvustada ja selgitada Elements'i, avatud lähtekoodiga platvormi, millele Liquid on ehitatud, põhimõisteid. Kursuse lõpuks peaks teil olema hea arusaam Elements'i peamistest funktsioonidest, näiteks konfidentsiaalsetest tehingutest ja väljastatud varadest, ning Elements Core'i käitamisega seotud protsessidest.
+Tere tulemast kursusele SID202!
 
-Igas osas on õppetunnid koos selgitava tekstiga ja video, mis lõpeb viktoriiniga. Küsimuste arv on seotud eelneva teema mahuga. 10. jagu võtab kursuse sisu kokku ja lõpeb suurema viktoriiniga.
+*Elements Academy* eesmärk on tutvustada ja selgitada *Elements* platvormi põhimõisteid, mis on avatud lähtekoodiga platvorm, millele on ehitatud Liquid sidechain. Selle kursuse lõpuks peaksite mõistma Elements'i peamisi funktsioone, nagu konfidentsiaalsed tehingud ja väljastatud varad, samuti Elements Core'i tööprotsesse. Iga kursuse osa sisaldab õppetunde koos selgitavate tekstide ja videodega ning lõpeb viktoriiniga.
 
-Kõik küsimused, lisateabe taotlused või päringud viktoriini vastuste kohta võite suunata oma õpetajale James Dorfmanile.
+Selle koolituse eesmärk on õpetada teile, kuidas kasutada ja arendada Elements platvormil, keskendudes Liquid võrgule. Saate teada, kuidas need tehnoloogiad võivad parandada teie arendusprojektide privaatsust, mastaapsust ja funktsionaalsust. Olgu tegu algaja või kogenud arendajaga, see kursus pakub tugeva aluse Elements'i ja Liquid'i põhimõistete ning nende praktiliste rakenduste omandamiseks.
+
+**Osa 1: Sissejuhatus**  
+Alustame Elements'i mõistete põhjaliku ülevaatega. Saate teada, kuidas see platvorm on loodud pakkuma modulaarset ja paindlikku alust selliste sidechainide loomisel nagu Liquid. Eesmärk on mõista Elements'i struktuuri enne selle praktiliste rakenduste juurde liikumist.
+
+**Osa 2: Elements**  
+See osa keskendub Elements'i toimimisele. Õpid seadistama Elements sõlme, kasutama seda autonoomses režiimis või kui sidechainina.
+
+**Osa 3: Elements'i kasutamine - Praktilised juhtumid**  
+Kui teoreetilised alused on selged, käsitleme Elements'i praktilisi rakendusi. Saate teada, kuidas sooritada konfidentsiaalseid tehinguid, väljastada varasid ja hallata varade uuesti väljastamist.
+
+**Osa 4: Elements'i Föderatsioon**  
+Siin uurime edasijõudnud mehhanisme, sealhulgas föderatiivset plokkide allkirjastamist, Elements'i kasutamist sidechainina ja iseseisvate plokiahelate loomist. See osa aitab teil mõista, kuidas tagada Elements'i põhjal ehitatud plokiahelate turvalisus, terviklikkus ja koostalitlusvõime.
+
+Oled valmis avastama Elements'i ja Liquid sidechain'i potentsiaali? Alustame!
+
 
 ## Elementide ülevaade
 
@@ -1219,7 +1234,7 @@ Me nägime, et Elements'i lähtekood ja veebisait (https://github.com/ElementsPr
 
 Järgmine samm on esitada endale väljakutse kumulatiivse viktoriini abil, mis hõlmab kõiki eelnevaid osi, ja seejärel alustada oma Elements reisi... palju õnne!
 
-# Kokkuvõte
+# Lõpusektsioon
 
 <partId>d5dbd616-e291-42bc-aae3-6c44599dbd06</partId>
 

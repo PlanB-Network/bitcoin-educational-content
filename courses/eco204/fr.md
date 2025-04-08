@@ -20,40 +20,24 @@ Ici nous mettrons en lumière les tendances et les motifs communs dans les épis
 
 <partId>6fe4d15d-f6e6-54be-9e04-0a75ac98df8b</partId>
 
-## Introduction
+## Aperçu du cours
 
 <chapterId>9d1aba8d-0485-5020-9863-5de37e6db8e0</chapterId>
 
-Ce programme vise à offrir une compréhension profonde de l’émergence des hyperinflations dans un monde dominé par la monnaie Fiat et d’examiner leurs conséquences considérables. Les participants exploreront en détail les cycles hyperinflationnistes, en analysant les causes, les déclencheurs et les exemples historiques et contemporains. Ils se pencheront également sur l'impact tangible des hyperinflations sur l'économie et la vie quotidienne, étudiant les répercussions sur la valeur de la monnaie, le pouvoir d'achat, et l'épargne individuelle et collective.
+Bienvenu dans le cours ECO204 !
 
-Ici nous mettrons en lumière les tendances et les motifs communs dans les épisodes d’hyperinflation à travers l'histoire, tout en fournissant des stratégies efficaces et concrètes pour se protéger en période d’hyperinflation. Les participants auront l'opportunité d'explorer diverses options d’investissement et mécanismes de défense financière, acquérant ainsi des outils pratiques et des connaissances essentielles pour naviguer sereinement dans un climat économique instable.
+L'objectif de ce cours est de vous permettre de comprendre les causes profondes, les mécanismes et les conséquences des hyperinflations dans le contexte d’un système monétaire fiat. En vous appuyant sur des exemples concrets et des analyses historiques, vous apprendrez à reconnaître les schémas récurrents qui précèdent les périodes d’hyperinflation, et à identifier les leviers d’action pour vous en protéger.
 
-### Curriculum
+**Section 2 : Qu’est-ce que l’inflation ?**  
+Avant d’entrer dans le vif du sujet, nous reviendrons sur les bases : qu’est-ce que l’inflation ? Cette section présentera ses origines monétaires, les différents types d’inflation existants et la manière dont ils s’inscrivent dans une dynamique économique plus large. C'est une étape indispensable pour comprendre comment l’inflation ordinaire peut dégénérer en hyperinflation.
 
-Section 1 - Introduction
+**Section 3 : Qu’est-ce que l’hyperinflation ?**  
+Dans cette section, vous étudierez les définitions précises de l’hyperinflation ainsi que plusieurs épisodes historiques marquants, dont l’Allemagne de Weimar et le Zimbabwe. Nous analyserons leurs points communs, leurs différences et les parallèles contemporains. Vous découvrirez aussi des cas moins connus, comme les redénominations successives en Amérique latine, et les voies de sortie observées dans certains pays.
 
-- 1.1 - Introduction du cours par Rogzy & David
+**Section 4 : Comment en sommes-nous arrivés là ?**  
+Cette partie vise à comprendre les mécanismes structurels qui rendent les hyperinflations possibles, notamment à travers le développement de la "deuxième couche" monétaire et le rôle des banques centrales. Des ressources complémentaires seront proposées pour aller plus loin, avec des suggestions de lectures enrichissantes.
 
-Section 2 - Qu’est-ce que l’inflation ?
-
-- 2.1 - Un phénomène monétaire
-- 2.2 - Les types d’inflation
-
-Section 3 - Qu’est-ce que l’hyperinflation ?
-
-- 3.1 - Les définitions
-- 3.2 - Weimar vs Zimbabwe similitudes
-- 3.3 - Weimar vs Zimbabwe différences et parallèle contemporains
-- 3.4 - Les redénominations en Amérique Latine
-- 3.5 - Comment sortir de l’hyperinflation
-- 3.6 - Présentation de la collection de billets d’hyperinflation
-
-Section 4 - Comment en sommes nous arrivés là ?
-
-- 4.1 - L’émergence de la deuxième couche de la monnaie et des banques centrales
-- 4.2 - Livres et ressources
-
-Bonne chance !
+Et si l’histoire monétaire était en train de se répéter sous nos yeux ? À vous d’en juger dans les chapitres qui suivent !
 
 # Qu’est-ce que l’inflation ?
 
@@ -1092,7 +1076,7 @@ L'hyperinflation est un sujet fascinant qui a été étudié à travers divers �
 - "The Hyperinflation Survival Guide: Strategies for American Businesses" par Gerald Swanson
   Un guide pratique sur la manière dont les entreprises peuvent naviguer dans un environnement hyperinflationniste.
 
-# Conclusion
+# Section finale
 
 <partId>cb1f4a4b-556a-4e47-a5cc-136be35a1f9a</partId>
 

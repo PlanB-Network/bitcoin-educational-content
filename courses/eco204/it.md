@@ -20,39 +20,24 @@ Qui metteremo in luce le tendenze e i modelli comuni negli episodi di iperinflaz
 
 <partId>6fe4d15d-f6e6-54be-9e04-0a75ac98df8b</partId>
 
-## Introduzione
+## Panoramica del corso
 
 <chapterId>9d1aba8d-0485-5020-9863-5de37e6db8e0</chapterId>
 
-Questo programma mira a offrire una comprensione approfondita dell'emergere delle iperinflazioni in un mondo dominato dalla moneta Fiat e ad esaminarne le considerevoli conseguenze. I partecipanti esploreranno in dettaglio i cicli iperinflazionistici, analizzando le cause, i fattori scatenanti e gli esempi storici e contemporanei. Esamineranno anche l'impatto tangibile delle iperinflazioni sull'economia e sulla vita quotidiana, studiando le ripercussioni sul valore della moneta, il potere d'acquisto e il risparmio individuale e collettivo.
+Benvenuto nel corso ECO204!
 
-Qui metteremo in luce le tendenze e i modelli comuni negli episodi di iperinflazione nel corso della storia, fornendo al contempo strategie efficaci e concrete per proteggersi durante un periodo di iperinflazione. I partecipanti avranno l'opportunità di esplorare diverse opzioni di investimento e meccanismi di difesa finanziaria, acquisendo strumenti pratici e conoscenze essenziali per navigare serenamente in un clima economico instabile.
+L'obiettivo di questo corso è di aiutarti a comprendere le cause profonde, i meccanismi e le conseguenze delle iperinflazioni nel contesto di un sistema monetario fiat. Attraverso esempi concreti e analisi storiche, imparerai a riconoscere i modelli ricorrenti che precedono i periodi di iperinflazione e a identificare gli strumenti per proteggerti da essa.
 
-### Curriculum
+**Sezione 2: Cos'è l'inflazione?**  
+Prima di entrare nel vivo dell'argomento, torneremo alle basi: cos'è l'inflazione? Questa sezione presenterà le sue origini monetarie, i diversi tipi di inflazione e come si inseriscono in una dinamica economica più ampia. Questo è un passaggio indispensabile per comprendere come l'inflazione ordinaria possa degenerare in iperinflazione.
 
-Sezione 1 - Introduzione
+**Sezione 3: Cos'è l'iperinflazione?**  
+In questa sezione esaminerai le definizioni precise dell'iperinflazione e diversi episodi storici significativi, tra cui la Germania di Weimar e lo Zimbabwe. Analizzeremo i loro punti comuni, le loro differenze e i paralleli contemporanei. Scoprirai anche casi meno noti, come le successive ridominazioni in America Latina, e i percorsi di uscita osservati in alcuni paesi.
 
-- 1.1 - Introduzione al corso da Rogzy & David
+**Sezione 4: Come siamo arrivati qui?**  
+Questa parte mira a comprendere i meccanismi strutturali che rendono possibile l'iperinflazione, in particolare attraverso lo sviluppo del "secondo strato" monetario e il ruolo delle banche centrali. Saranno fornite risorse complementari e suggerimenti di lettura per un approfondimento ulteriore.
 
-Sezione 2 - Cos'è l'inflazione?
-
-- 2.1 - Un fenomeno monetario
-- 2.2 - I tipi di inflazione
-- 2.3 - La deflazione
-  Sezione 3 - Cos'è l'iperinflazione?
-- 3.1 - Le definizioni
-- 3.2 - Similitudini tra Weimar e Zimbabwe
-- 3.3 - Differenze e parallelismi contemporanei tra Weimar e Zimbabwe
-- 3.4 - Le riconversioni in America Latina
-- 3.5 - Come uscire dall'iperinflazione
-- 3.6 - Presentazione della collezione di banconote di iperinflazione
-
-Sezione 4 - Come siamo arrivati a questo punto?
-
-- 4.1 - L'emergere del secondo strato della moneta e delle banche centrali
-- 4.2 - Libri e risorse
-
-Buona fortuna!
+E se la storia monetaria si stesse ripetendo davanti ai nostri occhi? Giudicalo tu nei capitoli che seguono!
 
 # Cos'è l'inflazione?
 
@@ -892,7 +877,7 @@ L'iperinflazione è un argomento affascinante che è stato studiato attraverso v
 
 - "Consigli per le casse di emissione per i paesi in via di sviluppo: una guida" di Steve Hanke e Kurt Schuler. Sebbene il focus sia sulle casse di emissione, questo libro offre una prospettiva su come evitare situazioni di iperinflazione.
 
-# Conclusione
+# Sezione finale
 
 <partId>cb1f4a4b-556a-4e47-a5cc-136be35a1f9a</partId>
 

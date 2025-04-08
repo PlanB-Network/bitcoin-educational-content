@@ -20,7 +20,7 @@ Con presentaciones a cargo de expertos del sector, el curso abarca temas como la
 
 <partId>9f8a83d5-27e0-4e6d-af12-6cd6eb667291</partId>
 
-## Introducción a Liquid Bootcamp
+## Descripción del curso
 
 <chapterId>3192ee7d-255b-4c4f-ba18-e08c5ab98577</chapterId>
 
@@ -32,6 +32,7 @@ Este bootcamp se realizó originalmente como un evento presencial, siguiendo un 
 
 Esta jornada está estructurada para dar cabida a participantes con distintos niveles de experiencia, ofreciendo una mezcla de conocimientos teóricos y experiencia práctica. Al final de este bootcamp, usted tendrá una sólida comprensión de la arquitectura de Liquid, su integración con Bitcoin, y cómo utilizar sus características innovadoras para construir y optimizar soluciones financieras.
 
+¡Sumérgete en el universo de la sidechain Liquid y revela todo su potencial ahora mismo!
 # Fundamentos
 
 <partId>6dd86449-c0f7-4e51-9252-5f135cf019df</partId>
@@ -98,7 +99,7 @@ Nardo ofrece una visión general de Blockstream AMP, una plataforma para gestion
 
 Antonio presenta Breeze, un SDK de código abierto diseñado para transacciones descentralizadas en la red Liquid. Explica sus características, incluida la compatibilidad con enlaces multilingües y procesos de transacción seguros, al tiempo que hace hincapié en su objetivo de simplificar la tecnología financiera para los desarrolladores
 
-# Conclusión
+# Sección final
 
 <partId>7ec65e6b-6e63-41b6-92ea-6a13bc77c3ff</partId>
 

@@ -24,17 +24,32 @@ Tule mukaan kehittämään taitojasi, vapauttamaan Liquidin ja Elementsin koko p
 
 <partId>8f34de87-6e9a-4e3b-a326-50fc7c1803b3</partId>
 
-## Kurssit Johdanto
+## Kurssin yleiskatsaus
 
 <chapterId>a721398e-7040-4edd-be53-b485ea759fa9</chapterId>
 
 ![Video](https://youtu.be/gkQfnwYLyI0?si=H6cIPhgZaSAwHaHI)
 
-Elements Academyn tarkoituksena on esitellä ja selittää Liquidin perustana olevan avoimen lähdekoodin Elements-alustan keskeiset käsitteet. Kurssin loppuun mennessä sinulla pitäisi olla hyvä käsitys Elementsin tärkeimmistä ominaisuuksista, kuten Confidential Transactions ja Issued Assets, sekä Elements Coren käyttämiseen liittyvistä prosesseista.
+Tervetuloa kurssille SID202!
 
-Jokaisessa osiossa on oppitunteja, joissa on selittävä teksti ja video, joka päättyy tietokilpailuun. Kysymysten määrä liittyy edeltävän aiheen laajuuteen. Osiossa 10 tehdään yhteenveto kurssin sisällöstä ja se päättyy suurempaan tietokilpailuun.
+*Elements Academy* -kurssin tavoitteena on esitellä ja selittää *Elements*-alustan keskeisiä käsitteitä, joka on avoimen lähdekoodin alusta, jonka päälle Liquid-sidechain on rakennettu. Kurssin lopussa sinun tulisi hallita Elementsin pääominaisuudet, kuten luottamukselliset tapahtumat ja liikkeeseen lasketut omaisuuserät, sekä Elements Core -toiminnan prosessit. Jokainen kurssin osa sisältää oppitunteja, joissa on selittäviä tekstejä ja videoita, ja jotka päättyvät kyselyyn.
 
-Kaikki kysymykset, lisätietopyynnöt tai kyselyiden vastauksia koskevat kysymykset voit osoittaa opettajallesi James Dorfmanille.
+Tämän kurssin tarkoituksena on opettaa sinua käyttämään ja kehittämään Elements-alustalla keskittyen Liquid-verkkoon. Saat selville, kuinka nämä teknologiat voivat parantaa yksityisyyttä, skaalautuvuutta ja toiminnallisuutta kehitysprojekteissasi. Olitpa aloittelija tai kokenut kehittäjä, tämä kurssi tarjoaa sinulle vahvan perustan Elementsin ja Liquidin peruskäsitteiden sekä niiden käytännön sovellusten hallintaan.
+
+**Osa 1: Johdanto**  
+Aloitamme kattavalla katsauksella Elements-käsitteisiin. Opit, kuinka tämä alusta on suunniteltu tarjoamaan modulaarinen ja joustava perusta sellaisille sidechaineille kuten Liquid. Tavoitteena on ymmärtää Elementsin rakenne ennen käytännön sovellusten tarkastelua.
+
+**Osa 2: Elements**  
+Tässä osiossa keskitytään Elementsin toimintaan. Opit konfiguroimaan Elements-solmun, käyttämään sitä itsenäisessä tilassa tai sidechainina.
+
+**Osa 3: Elementsin käyttö - Käytännön esimerkit**  
+Kun teoreettiset perusteet ovat hallinnassa, käsittelemme Elementsin käytännön sovelluksia. Opit suorittamaan luottamuksellisia tapahtumia, laskemaan liikkeelle omaisuuseriä ja hallitsemaan omaisuuserien uudelleenliikkeellelaskua.
+
+**Osa 4: Elementsin liittouma**  
+Tässä osiossa käsitellään kehittyneitä mekanismeja, mukaan lukien liittoutuneiden lohkojen allekirjoitukset, Elementsin käyttöä sidechainina ja itsenäisten lohkoketjujen luomista. Tämä osio auttaa ymmärtämään, kuinka varmistaa Elementsiin perustuvien lohkoketjujen turvallisuus, eheys ja yhteentoimivuus.
+
+Oletko valmis tutkimaan Elementsin ja Liquid-sidechainin potentiaalia? Aloitetaan!
+
 
 ## Elementtien yleiskatsaus
 
@@ -1219,7 +1234,7 @@ Olemme nähneet, että Elementsin lähdekoodia ja verkkosivustoa (https://github
 
 Seuraava askel on haastaa itsesi kumulatiivisella tietokilpailulla, joka kattaa kaikki aiemmat osiot, ja aloittaa sitten Elementtien matka... onnea matkaan!
 
-# Päätelmä
+# Lopullinen osio
 
 <partId>d5dbd616-e291-42bc-aae3-6c44599dbd06</partId>
 

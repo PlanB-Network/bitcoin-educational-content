@@ -20,7 +20,7 @@ Kursusel käsitletakse tööstuse ekspertide ettekannetega selliseid teemasid na
 
 <partId>9f8a83d5-27e0-4e6d-af12-6cd6eb667291</partId>
 
-## Sissejuhatus Liquid Bootcamp'ile
+## Kursuse ülevaade
 
 <chapterId>3192ee7d-255b-4c4f-ba18-e08c5ab98577</chapterId>
 
@@ -32,6 +32,7 @@ Algselt viidi see algselt läbi isikliku üritusena, järgides struktureeritud a
 
 See reis on üles ehitatud nii, et see sobiks erineva tasemega osalejatele, pakkudes teoreetiliste teadmiste ja praktiliste kogemuste segu. Selle alglaagri lõpuks on teil kindel arusaam Liquid'i arhitektuurist, selle integreerimisest Bitcoiniga ning sellest, kuidas kasutada selle uuenduslikke funktsioone finantslahenduste loomiseks ja optimeerimiseks.
 
+Sukeldu Liquid-sidechaini maailma ja avasta selle täielik potentsiaal kohe!
 # Põhitõed
 
 <partId>6dd86449-c0f7-4e51-9252-5f135cf019df</partId>
@@ -98,7 +99,7 @@ Nardo annab ülevaate Blockstream AMP, platvormi digitaalse vara haldamiseks Liq
 
 Antonio tutvustab Breeze'i, avatud lähtekoodiga SDK-d, mis on mõeldud detsentraliseeritud tehingute tegemiseks Liquid Networkis. Ta käsitleb selle funktsioone, sealhulgas toetust mitmekeelsetele sidumistele ja turvalistele tehinguprotsessidele, rõhutades samas selle eesmärki lihtsustada finantstehnoloogiat arendajate jaoks
 
-# Kokkuvõte
+# Lõpusektsioon
 
 <partId>7ec65e6b-6e63-41b6-92ea-6a13bc77c3ff</partId>
 

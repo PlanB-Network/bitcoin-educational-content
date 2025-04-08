@@ -26,13 +26,13 @@ Théo; Contribution
 
 <partId>534ab66c-b0e6-5757-a7dd-6ea04647edf2</partId>
 
-## Introduction du cours
+## Aperçu du cours
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
 ![introduction](https://youtu.be/DqLf72XBJUg)
 
-### Objectif : remise à jour !
+**Objectif : remise à jour !**
 
 Bienvenue à tous dans ce programme d'enseignement consacré à la sécurité numérique. Cette formation est conçue pour être accessible à tous, aucun prérequis en informatique n'est donc nécessaire. Notre objectif principal est de vous fournir les connaissances et les compétences nécessaires pour naviguer de manière plus sûre et plus privée dans le monde numérique.
 
@@ -50,7 +50,7 @@ Dans cette formation, nous ne cherchons pas à vous rendre expert, anonyme ou in
 
 Si vous cherchez des compétences plus avancées sur le sujet, nos ressources, tutoriels ou autres formations sur la cybersécurité sont là pour vous. En attendant, voici un petit aperçu de notre programme lors de ces prochaines heures ensemble.
 
-### Section 1: Tout savoir sur la navigation en ligne
+**Section 1: Tout savoir sur la navigation en ligne**
 
 - Chapitre 1 - Navigation en ligne
 - Chapitre 2 - Utiliser internet en sécurité
@@ -58,7 +58,7 @@ Si vous cherchez des compétences plus avancées sur le sujet, nos ressources, t
 Pour commencer, nous discuterons de l'importance du choix d'un navigateur web et de ses implications en matière de sécurité. Nous explorerons ensuite les spécificités des navigateurs, notamment en ce qui concerne la gestion des cookies. Nous verrons également comment garantir une navigation plus sécurisée et anonyme, grâce à des outils tels que TOR. Par la suite, nous mettrons l'accent sur l'utilisation des VPN pour renforcer la protection de vos données. Enfin, nous terminerons par des recommandations concernant l'utilisation sécurisée des connexions WiFi.
 ![navigation en ligne](assets/fr/1.webp)
 
-### Section 2: Les bonnes pratiques d'utilisation de l'ordinateur
+**Section 2: Les bonnes pratiques d'utilisation de l'ordinateur**
 
 - Chapitre 3 - Utilisation de l’ordinateur
 - Chapitre 4 - Hack & gestion de back-up
@@ -66,7 +66,7 @@ Pour commencer, nous discuterons de l'importance du choix d'un navigateur web et
 Dans cette section, nous aborderons trois domaines clés de la sécurité informatique. Premièrement, nous explorerons les différents systèmes d'exploitation : Mac, PC et Linux, en soulignant leurs spécificités et leurs points forts. Ensuite, nous nous pencherons sur les méthodes pour se protéger efficacement des tentatives de piratage et renforcer la sécurité de vos appareils. Enfin, nous mettrons l'accent sur l'importance de protéger et de sauvegarder régulièrement vos données pour prévenir toute perte ou ransomware.
 ![utilisation PC](assets/fr/2.webp)
 
-### Section 3: Mise en place des solutions.
+**Section 3: Mise en place des solutions.**
 
 - Chapitre 6 - Gestion de la boîte mail
 - Chapitre 7 - Gestionnaire de mots de passe
@@ -77,12 +77,13 @@ Dans cette troisième section pratique, nous allons passer à la pratique avec l
 D'abord, nous verrons comment protéger votre boîte mail, essentielle pour vos communications et souvent ciblée par les pirates. Ensuite, nous vous présenterons ce qu'est un gestionnaire de mots de passe : une solution pratique pour ne plus oublier ou mélanger vos mots de passe tout en les gardant sécurisés. Enfin, nous évoquerons une mesure de sécurité supplémentaire, l'authentification à deux facteurs, qui ajoute une couche de protection à vos comptes. Tout sera expliqué de manière claire et accessible.
 ![solutions](assets/fr/3.webp)
 
-### Section Bonus: Interview avec Pantamis et Renaud
+**Section Bonus: Interview avec Pantamis et Renaud**
 
 En bonus, nous vous proposons une interview exclusive avec Pantamis et Renaud, nos experts en sécurité numérique. Ils partageront leurs connaissances approfondies et leurs conseils supplémentaires pour renforcer votre hygiène numérique. l'idée est d'en apprendre davantage auprès de ces professionnels expérimentés.
 
 Ce programme de formation est offert gratuitement sous une licence redistribuable CC BY SA. Nous tenons à exprimer notre gratitude envers nos Patreons et notre équipe de tournage pour leur soutien indispensable dans la réalisation de cette formation. Nous remercions également tous nos donateurs et soutiens qui nous permettent de continuer à produire du contenu éducatif gratuit mondialement.
 
+Prêt à renforcer votre sécurité numérique et reprendre le contrôle de vos données ? Allons-y !
 # Tout savoir sur la navigation en ligne
 
 <partId>b4b5379a-d8ef-59ae-94d3-a6e88959c149</partId>
@@ -557,7 +558,7 @@ Autres considérations clés
 
 Dans le cadre du module de formation "Sécurité 101" de Découvre Bitcoin sur l'Académie, nous avons également discuté de l'authentification Lightning. Ce système génère un identifiant différent par service, sans nécessité de renseigner une adresse email ou des informations personnelles. Il est possible d'avoir des identités décentralisées contrôlées par l'utilisateur, mais il manque de normalisation et de standardisation dans les projets d'identité décentralisée. Les gestionnaires de paquets tels que Nuget et Chocolaté, qui permettent de télécharger des logiciels open source en dehors du Microsoft Store, sont recommandés pour éviter les attaques malveillantes. En somme, le DNS est crucial pour la sécurité en ligne, mais il est nécessaire de rester vigilant face aux attaques potentielles sur les serveurs DNS.
 
-# Conclusion
+# Section finale
 
 <partId>3d8ac4c9-f05b-4133-a40a-6e19d579f05f</partId>
 

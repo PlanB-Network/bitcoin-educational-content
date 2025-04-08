@@ -271,7 +271,7 @@ Le groupe Lighting Walker présente sa solution pour un service de transfert d'a
 
 
 
-# Conclusion
+# Section finale
 <partId>a633fb0c-839c-4405-8b77-2377cce79dd7</partId>
 
 ## Avis & Notes

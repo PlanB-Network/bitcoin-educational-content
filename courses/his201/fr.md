@@ -20,12 +20,13 @@ Ce cours est bien évidemment centré sur la figure de Satoshi Nakamoto dont vou
 # Introduction
 <partId>41dc2815-c63a-4ce1-9b88-e7b3825e958e</partId>
 
-## Introduction à l'histoire de la création de Bitcoin
+## Aperçu du cours
 <chapterId>85290407-1aa3-4cb4-890a-aed23441afb7</chapterId>
+Bienvenue dans le cours HIS201 !
 
 Ce cours vise à vous raconter l'histoire de la création de Bitcoin comme vous ne l'avez jamais lue ailleurs. Celle-ci est trop souvent méconnue, bien qu'elle regorge de détails fascinants. Nous nous attacherons ainsi à la décrire dans toute sa complexité, de la conception par Satoshi Nakamoto à sa disparition précoce et à la prise de relai par la communauté.
 
-### Petit aperçu
+**Petit aperçu**
 
 Bitcoin a été conçu par un individu (ou un groupe) utilisant le pseudonyme de Satoshi Nakamoto. Le 31 octobre 2008, ce dernier a partagé un livre blanc décrivant son modèle via une obscure liste de diffusion de courrier électronique sur Internet. Le 8 janvier 2008, il a mis en application son concept en publiant le code source du logiciel et en lançant le réseau par le minage des premiers blocs de la chaîne. Soucieux d'attirer un nombre critique d'utilisateurs, il a fait la promotion de sa création sur divers canaux de communication.
 
@@ -48,7 +49,7 @@ La création de Bitcoin s'inscrivait également dans un contexte de fermeture é
 
 Le projet Bitcoin est enfin l'héritier de l'éthos du mouvement des cypherpunks, un mouvement de cryptographes rebelles des années 90, qui cherchaient à préserver la confidentialité et la liberté des gens sur Internet par l'utilisation proactive de la cryptographie. Bitcoin s'inscrit dans la continuité des projets comme b-money, bit gold ou encore RPOW imaginés par ces individus à la fin des années 90 et au début des années 2000. Satoshi Nakamoto y a ainsi fait mention, bien qu'il n'en avait pas connaissance avant de concevoir Bitcoin et qu'il ne faisait probablement pas partie du mouvement d'origine.
 
-### Plan du cours
+**Plan du cours**
 
 Ce cours est divisé en quatre parties, qui s'intéressent respectivement aux origines de Bitcoin (3 chapitres), à sa lente émergence (3 chapitres), à son essor initial (3 chapitres) et à la formation de sa communauté (4 chapitres). Au total, il comprend 12 chapitres qui sont les suivants (on précise également la période concernée) :
 
@@ -66,7 +67,7 @@ Ce cours est divisé en quatre parties, qui s'intéressent respectivement aux or
 - La disparition de Satoshi (déc. 2010–avr. 2011)
 - La prise de relai de la communauté (avr. 2011–sept. 2011)
 
-### Précisions
+**Précisions**
 
 Toutes les dates et les heures sont données selon le fuseau horaire UTC (correspondant au méridien de Greenwich) et peuvent ainsi différer des dates américaines. Il est vraisemblable que Satoshi Nakamoto se trouvait aux États-Unis lorsqu'il travaillait sur son projet. Toutefois, Bitcoin est un projet international, auquel a notamment contribué le développeur finlandais Martti Malmi (heure d'Europe de l'Est, UTC+2 / UTC+3), et nous nous référerons donc au fuseau universel. Ainsi, nous dirons que le lancement effectif du réseau principal a eu lieu le 9 janvier à 2 heures 54 du matin, plutôt que le 8 janvier à 18 heures 54, qui correspond au fuseau horaire de la côte Est (heure du pacifique, UTC-8 / UTC-7).
 
@@ -80,6 +81,7 @@ Le contenu est partiellement adapté du livre [*L'Élégance de Bitcoin*](https:
 
 La plupart des citations proviennent de l'anglais américain et ont été traduites pour l'occasion. Le terme *coin* est généralement traduit par « unité » (et non par « pièce ») quand il désigne l'unité de compte.
 
+Prêt à explorer l'incroyable saga de la création de Bitcoin ? Alors, plongeons ensemble dans cette histoire hors du commun !
 # Aux origines de Bitcoin
 <partId>25a75ed6-f34b-4c9a-8224-e099a3e774dc</partId>
 
@@ -1563,7 +1565,7 @@ Quatrièmement, Bitcoin a été une création altruiste. Satoshi Nakamoto a offe
 
 En 2011, Satoshi a disparu, mais Bitcoin a survécu. La cryptomonnaie a même définitivement pris son envol, tant du point de vue médiatique qu'économique. La machine était lancée et personne ne pouvait plus l'arrêter.
 
-# Conclusion
+# Section finale
 
 <partId>89532d9b-af1f-49f3-b87a-b11987e303d5</partId>
 

@@ -22,17 +22,18 @@ Che siate una **piccola impresa o una grande azienda**, integrare Bitcoin nelle 
 
 <partId>326cf945-5d3f-4d86-8c3e-4d1c35959799</partId>
 
-## La vostra azienda è pronta per il Bitcoin
-
+## Panoramica del corso
 <chapterId>1be42be9-4080-49f5-b5b2-6b531dd55f5f</chapterId>
 
-Date il via al viaggio della vostra azienda nella rete Bitcoin con questo corso di formazione completo, che vi permetterà di capire come Bitcoin e la Lightning Network possano rivoluzionare le operazioni commerciali tradizionali. Questo corso è pensato per rivenditori, imprenditori, manager e responsabili aziendali che desiderano esplorare le capacità pratiche di Bitcoin come rete monetaria globale e nativa di Internet e come solido mezzo di scambio di valore.
+Benvenuto al corso BIZ101! Date il via al viaggio della vostra azienda nella rete Bitcoin con questo corso di formazione completo, che vi permetterà di capire come Bitcoin e la Lightning Network possano rivoluzionare le operazioni commerciali tradizionali. Questo corso è pensato per rivenditori, imprenditori, manager e responsabili aziendali che desiderano esplorare le capacità pratiche di Bitcoin come rete monetaria globale e nativa di Internet e come solido mezzo di scambio di valore.
 
 Nel corso del corso verranno introdotti i principi fondamentali che rendono Bitcoin e la Lightning Network decisamente trasformativi. Imparerete come queste tecnologie offrano uno spettro di casi d'uso, dall'immagazzinamento di capitale digitale ai pagamenti veloci, economici e scalabili, e come forniscano miglioramenti critici rispetto alla valuta e ai sistemi di pagamento tradizionali. Il corso BIZ101 collega la teoria economica con le applicazioni del mondo reale, chiarendo come la decentralizzazione possa ridurre la dipendenza dagli intermediari e superare i limiti insiti nei sistemi tradizionali.
 
 Il corso inizia con un esame dettagliato delle valute e dei meccanismi di pagamento convenzionali, gettando le basi per esplorare come la moneta funzioni come una rete per consentire il commercio, il risparmio e la specializzazione economica. Successivamente, ci addentreremo nella tecnologia alla base di Bitcoin e nelle innovazioni introdotte dalla Lightning Network, rivelando il loro ruolo nel facilitare le transazioni senza soluzione di continuità, sicure e quasi istantanee che possono servire alle aziende di tutte le dimensioni. Poi ci immergeremo nelle sezioni pratiche di questo corso, iniziando con una parte sulla detenzione di bitcoin come tesoreria, seguita da una parte finale sull'accettazione di bitcoin come mezzo di pagamento.
 
 Sia che rappresentiate una piccola impresa o una grande società, questo corso mira a fornirvi le conoscenze necessarie per integrare i Bitcoin nelle vostre operazioni quotidiane, migliorando così la resilienza, l'efficienza e il vantaggio competitivo della vostra azienda. Poiché i Bitcoin continuano a ridisegnare il panorama economico, la comprensione di queste tecnologie rivoluzionarie non è solo un'opzione, ma una necessità strategica. Preparatevi a partecipare con contenuti interessanti, esempi pratici e indicazioni strategiche che vi permetteranno di navigare e sfruttare il mondo in evoluzione del Bitcoin!
+
+Pronto a immergerti nel mondo di Bitcoin per le aziende? Andiamo!
 
 # Valuta, sistemi di pagamento e Bitcoin
 
@@ -1350,7 +1351,7 @@ Infine, che si tratti di un piccolo commerciante o di un'azienda più consolidat
 - Il Bitcoin a nuovo (0,19335) figura nello stato patrimoniale con un valore di 7.734 euro.
 - Plusvalenze non realizzate di 5.468 euro su Bitcoin non distribuito, indicate nelle note finanziarie.
 
-# Conclusione
+# Sezione finale
 
 <partId>f6ca8d01-a4f3-449b-ac9f-c5fba9a69178</partId>
 
@@ -1364,7 +1365,7 @@ Infine, che si tratti di un piccolo commerciante o di un'azienda più consolidat
 
 <chapterId>40a0f18c-bdc9-45b2-8dea-15f7e574230e</chapterId>
 
-<isCourseExam>vero</isCourseExam>
+<isCourseExam>true</isCourseExam>
 
 ## Conclusione
 

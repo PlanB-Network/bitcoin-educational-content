@@ -22,16 +22,16 @@ Užijte si kurz!
 # Úvod
 <partId>594ab43f-7216-5326-ab41-f92b85be4581</partId>
 
-## Program kurzu & úvod
+## Přehled kurzu
 <chapterId>36526df2-66a2-58df-8f38-378fb553f08c</chapterId>
 
-### Úvod
+**Úvod**
 
 Vítejte v tomto pokročilém programovacím kurzu na SDK. V tomto školení se naučíte základy Rustu, poté se zaměříte na BTC & Rust a zakončíte některými praktickými cvičeními s použitím SDK.
 
 Toto školení bude prozatím k dispozici pouze v angličtině a bylo součástí živého semináře organizovaného minulý říjen v Toskánsku společností Fulgure Venture. Program ŽIVÉ události najdete níže a toto školení se zaměří pouze na první týden. Druhá polovina byla zaměřena na RGB a lze ji najít v kurzu RGB.
 
-### Učitelé
+**Učitelé**
 
 Velké díky našim učitelům, kteří byli součástí tohoto programu:
 
@@ -40,7 +40,7 @@ Velké díky našim učitelům, kteří byli součástí tohoto programu:
 - Gabriel: "Píšu kód a dělám věci."
 - Jesse de Wit: "Nadšenec do Lightning network | vývojář | Breez"
 
-### Plán semináře
+**Plán semináře**
 
 1. týden události LN Tuscany
 ![obrázek](assets/1.webp)
@@ -48,8 +48,19 @@ Velké díky našim učitelům, kteří byli součástí tohoto programu:
 Jakmile dokončíte tento kurz, pokud máte zájem o další školení, zde je druhá část plánu:
 ![obrázek](assets/2.webp)
 
-Hodně štěstí ve studiu.
 
+Toto školení vám nabízí příležitost rozvíjet své programátorské dovednosti v rámci Lightning Network pomocí jazyka Rust a různých SDK. Je určeno pro vývojáře, kteří již dobře ovládají programování a chtějí se ponořit do vývoje specifického pro Lightning Network. Naučíte se základy jazyka Rust, proč je vhodný pro vývoj na Bitcoinu, a poté přejdete k praktickému použití specializovaných SDK.
+
+**Sekce 2: Naučte se programovat v Rustu**  
+V této části objevíte základní principy jazyka Rust prostřednictvím série postupných kapitol. Naučíte se psát kód v Rustu, porozumět jeho specifikům a zvládnout jeho klíčové funkce v sedmi podrobných částech. Tento modul je klíčový pro pochopení, proč je Rust preferovaným jazykem pro vývoj na Bitcoinu.
+
+**Sekce 3: Rust & Bitcoin**  
+Zde podrobně prozkoumáme, proč je Rust relevantní volbou pro vývoj na Bitcoinu. Objevíte jeho model zpracování chyb, nástroj UniFFI a asynchronní traits – klíčové prvky pro tvorbu robustního a bezpečného softwaru.
+
+**Sekce 4: Vývoj LNP/BP pomocí SDK**  
+Naučíte se zde vyvíjet LN uzly s využitím různých SDK, jako jsou Breez SDK a Greenlight pro Lipa. Uvidíte, jak implementovat Lightning Network aplikace pomocí knihoven navržených pro usnadnění vývoje aplikací na Bitcoinu a Lightningu.
+
+Připraveni rozvíjet své dovednosti v Lightning Network s Rustem? Jdeme na to!
 # Naučte se kódovat s knihou Rust
 <partId>152b58c9-fb33-5d3b-9c15-64919869aa34</partId>
 
@@ -134,7 +145,7 @@ Hodně štěstí ve studiu.
 
 ![video](https://youtu.be/6VaIVvBKjLY)
 
-# Závěr
+# Sekce finále
 <partId>aff1e861-e6a3-58ad-af6a-33ceaedbda99</partId>
 
 

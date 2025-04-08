@@ -263,7 +263,7 @@ Satoshi Fellowship 小组展示了一个使用 LnBits 和 MongoDB、Poetry、Nod
 Lightning Walker 小组展示了他们使用 MySQL、JavaScript 和 ZDB 的 API 的汇款服务解决方案。
 
 
-# 结论
+# 最终部分
 <partId>a633fb0c-839c-4405-8b77-2377cce79dd7</partId>
 
 ## 评价 & 评分

@@ -22,17 +22,18 @@ Olitpa sitten **pieni yritys tai suuryritys**, Bitcoinin integroiminen päivitt�
 
 <partId>326cf945-5d3f-4d86-8c3e-4d1c35959799</partId>
 
-## Ota yrityksesi mukaan Bitcoiniin
-
+## Kurssin yleiskatsaus
 <chapterId>1be42be9-4080-49f5-b5b2-6b531dd55f5f</chapterId>
 
-Aloita yrityksesi matka Bitcoin-verkkoon tällä kattavalla koulutuskurssilla, joka on portti sen ymmärtämiseen, miten Bitcoin ja Lightning Network voivat mullistaa perinteisen liiketoiminnan. Tämä kurssi on tarkoitettu vähittäiskauppiaille, yrittäjille, johtajille ja yritysten päätöksentekijöille, jotka haluavat tutustua Bitcoinin käytännön mahdollisuuksiin globaalina, internetin kotoperäisenä rahaverkkona ja vankkana arvonvaihtovälineenä.
+Tervetuloa BIZ101-kurssille! Aloita yrityksesi matka Bitcoin-verkkoon tällä kattavalla koulutuskurssilla, joka on portti sen ymmärtämiseen, miten Bitcoin ja Lightning Network voivat mullistaa perinteisen liiketoiminnan. Tämä kurssi on tarkoitettu vähittäiskauppiaille, yrittäjille, johtajille ja yritysten päätöksentekijöille, jotka haluavat tutustua Bitcoinin käytännön mahdollisuuksiin globaalina, internetin kotoperäisenä rahaverkkona ja vankkana arvonvaihtovälineenä.
 
 Kurssin aikana tutustut niihin perusperiaatteisiin, jotka tekevät Bitcoinista ja Lightning Networkista erityisen mullistavia. Opit, miten nämä teknologiat tarjoavat erilaisia käyttötapoja digitaalisen pääoman varastoinnista nopeisiin, taloudellisiin ja skaalautuviin maksuihin ja miten ne tarjoavat ratkaisevia parannuksia perinteisiin valuutta- ja maksujärjestelmiin verrattuna. BIZ101-kurssilla yhdistetään talousteoria ja reaalimaailman sovellukset ja selvitetään, miten hajauttamisella voidaan vähentää riippuvuutta välittäjistä ja voittaa vanhoihin järjestelmiin liittyvät rajoitukset.
 
 Kurssi alkaa perinteisten valuuttojen ja maksumekanismien yksityiskohtaisella tarkastelulla ja luo pohjan tutkimalla, miten raha toimii verkostona, joka mahdollistaa kaupankäynnin, säästämisen ja taloudellisen erikoistumisen. Tämän jälkeen syvennytään Bitcoinin taustalla olevaan teknologiaan ja Lightning Networkin tuomiin innovaatioihin ja paljastetaan niiden rooli saumattomien, turvallisten ja lähes välittömien transaktioiden mahdollistajana, jotka voivat palvella kaikenkokoisia yrityksiä. Sitten sukellamme tämän kurssin käytännön osioihin, alkaen bitcoinien hallussapitoa kassavaroina käsittelevästä osasta, jota seuraa viimeinen osa bitcoinien hyväksymisestä maksuvälineenä.
 
 Tämän kurssin tavoitteena on antaa sinulle tietoa siitä, miten voit integroida Bitcoinin päivittäiseen toimintaasi ja siten parantaa yrityksesi joustavuutta, tehokkuutta ja kilpailuetua, edustitpa sitten pientä yritystä tai suurta konsernia. Bitcoinin jatkaessa taloudellisen maiseman muokkaamista, näiden uraauurtavien teknologioiden ymmärtäminen ei ole pelkkä vaihtoehto vaan strateginen välttämättömyys. Valmistaudu osallistumaan oivaltavaan sisältöön, käytännön esimerkkeihin ja strategisiin ohjeisiin, joiden avulla voit navigoida ja hyödyntää Bitcoinin kehittyvää maailmaa!
+
+Oletko valmis sukeltamaan yritysten Bitcoin-maailmaan? Lähdetään liikkeelle!
 
 # Valuutta, maksujärjestelmät ja Bitcoin
 
@@ -1344,7 +1345,7 @@ Lopuksi, olitpa sitten pieni kauppias tai vakiintunut yritys, on mahdollista **s
 - Säilytetty Bitcoin (0,19335) näkyy taseessa 7 734 euron arvosta.
 - Realisoitumattomat voitot 5 468 euroa säilytetystä Bitcoinista, jotka on esitetty liitetiedoissa.
 
-# Päätelmä
+# Lopullinen osio
 
 <partId>f6ca8d01-a4f3-449b-ac9f-c5fba9a69178</partId>
 

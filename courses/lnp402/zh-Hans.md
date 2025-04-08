@@ -23,17 +23,17 @@ objectives:
 
 <partId>594ab43f-7216-5326-ab41-f92b85be4581</partId>
 
-## 课程大纲与介绍
+## 课程概述
 
 <chapterId>36526df2-66a2-58df-8f38-378fb553f08c</chapterId>
 
-### 介绍
+**介绍**
 
 欢迎参加这个关于SDKs的高级编程课程。在这个培训中，您将学习Rust的基础知识，然后专注于BTC & Rust，并以使用SDKs的一些实践练习结束。
 
 这个培训目前只提供英文版本，是去年10月在托斯卡纳由Fulgure Venture组织的现场研讨会的一部分。LIVE活动的程序可以在下面找到，这个培训将只关注第一周。下半部分针对的是RGB，可以在RGB课程中找到。
 
-### 教师
+**教师**
 
 非常感谢参与这个项目的教师们：
 
@@ -42,7 +42,7 @@ objectives:
 - Gabriel：“我写代码做事情。”
 - Jesse de wit：“Lightning网络爱好者 | 开发者 | Breez”
 
-### 研讨会日程
+**研讨会日程**
 
 LN托斯卡纳活动的第一周
 ![image](assets/1.webp)
@@ -50,8 +50,20 @@ LN托斯卡纳活动的第一周
 一旦您完成了这个课程，如果您对后续培训感兴趣，这里是日程的第二部分：
 ![image](assets/2.webp)
 
-祝您学习顺利。
 
+
+本培训为您提供了使用 Rust 和各种 SDK 在 Lightning Network 上开发编程技能的机会。它专为已经具备良好编程技能的开发人员设计，旨在深入探索 Lightning Network 的专门开发。您将学习 Rust 语言的基础知识，了解为什么它适合用于 Bitcoin 的开发，然后通过专用的 SDK 进行实践操作。
+
+**第 2 节：学习用 Rust 编程**  
+在这一部分中，您将通过一系列渐进的章节了解 Rust 的基础知识。您将学习如何用 Rust 编写代码，理解其特性，并在七个详细的部分中掌握其核心功能。这个模块对于理解为什么 Rust 是 Bitcoin 开发中首选语言至关重要。
+
+**第 3 节：Rust 与 Bitcoin**  
+在这里，我们将深入探讨为什么 Rust 是适用于 Bitcoin 开发的相关选择。您将了解其错误处理模型、UniFFI 工具，以及异步特性，这些都是构建健壮和安全软件的关键要素。
+
+**第 4 节：使用 SDK 进行 LNP/BP 开发**  
+在这一部分中，您将学习如何使用各种 SDK（如用于 Lipa 的 Breez SDK 和 Greenlight）来开发 LN 节点。您将看到如何利用专为简化 Bitcoin 和 Lightning 应用开发而设计的库来实现 Lightning Network 应用程序。
+
+准备好用 Rust 提升您的 Lightning Network 技能了吗？让我们开始吧！
 # 通过rust书学习如何编码
 
 <partId>152b58c9-fb33-5d3b-9c15-64919869aa34</partId>
@@ -153,7 +165,7 @@ LN托斯卡纳活动的第一周
 
 ![video](https://youtu.be/6VaIVvBKjLY)
 
-# 结论
+# 最终部分
 
 <partId>aff1e861-e6a3-58ad-af6a-33ceaedbda99</partId>
 

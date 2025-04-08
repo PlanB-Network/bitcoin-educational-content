@@ -23,6 +23,28 @@ Produced by BTCPay Server Foundation
 
 <partId>59e43fe3-b494-5da6-b4b4-9df5bdf08916</partId>
 
+## Course Overview
+
+<chapterId>785ed2bc-94ae-4962-a26a-edf5742a3c72</chapterId>
+
+Welcome to the BTC305 course on BTCPay Server!
+
+The goal of this training is to teach you how to install, configure, and use BTCPay Server within your business or organization. BTCPay Server is an open-source solution that allows you to process bitcoin payments autonomously, securely, and cost-effectively. This course is primarily aimed at advanced users who want to master self-hosting BTCPay Server for full integration into their daily operations.
+
+**Section 1: Introduction to BTCPay Server**  
+We will begin with a general presentation of BTCPay Server, including the login screen, user account management, and the creation of a new store. This introduction will help you understand the BTCPay Server interface and grasp the basic features needed to start using this tool.
+
+**Section 2: Introduction to Securing Bitcoin Keys**  
+The security of your bitcoin funds is very important. In this section, we will explore the generation of cryptographic keys, the use of hardware wallets to secure these keys, and how to interact with your keys via BTCPay Server. You will also learn how to configure a BTCPay Server Lightning wallet to optimize your transactions.
+
+**Section 3: BTCPay Server Interface**  
+This part will guide you through the BTCPay Server user interface. You will learn how to navigate the dashboard, configure store and server settings, manage payments, and take advantage of integrated plugins. The goal is to familiarize you with the tools needed to customize your installation according to your needs.
+
+**Section 4: Configuring BTCPay Server**  
+Finally, we will focus on the practical installation of BTCPay Server in various environments. Whether you are using LunaNode, Voltage, or an Umbrel node, you will learn the essential steps to deploy and configure your BTCPay Server, taking into account the specifics of each environment.
+
+Ready to master BTCPay Server and grow your business? Let's go!
+
 ## Critical acclaim for Author’s Bitcoin and BTCPay Server
 
 <chapterId>e1fe6294-3c82-5203-9537-779f9087c35a</chapterId>
@@ -2467,7 +2489,7 @@ In this section you learned:
 
 How does the setup on Umbrel differ from the previous two hosted options?
 
-# Conclusion
+# Final Section
 
 <partId>d72e6fa5-0870-5f00-9143-9466ed22e2bd</partId>
 

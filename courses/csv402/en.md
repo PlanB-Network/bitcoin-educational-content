@@ -69,6 +69,8 @@ The written version of this training course was drafted using 2 main resources:
 - Videos of Maxim Orlovsky, Hunter Trujilo and Frederico Tenga's seminar at Lightning Bootcamp ;
 - The RGB documentation, the production of which was sponsored by [Bitfinex](https://www.bitfinex.com/).
 
+Ready to dive into the complex and fascinating world of RGB? Let's go!
+
 # RGB in theory
 
 <partId>80e797ee-3f33-599f-ab82-e82eeee08219</partId>
@@ -3907,7 +3909,7 @@ The project remains in the alpha stage. It is therefore strongly recommended tha
 
 The opportunities opened up by this LN-RGB compatibility are considerable: stablecoins on Lightning, DEX layer-2, transfer of fungible tokens or NFTs at very low cost... The previous chapters have outlined the conceptual architecture and validation logic. Now you have a practical view of how to get such a node up and running, for your future developments or tests.
 
-# Conclusion
+# Final Section
 
 <partId>b0baebfc-d146-5938-849a-f835fafb386f</partId>
 

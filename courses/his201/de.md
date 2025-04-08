@@ -20,11 +20,12 @@ Dieser Kurs konzentriert sich natürlich auf die Figur von Satoshi Nakamoto, des
 # Einführung
 <partId>41dc2815-c63a-4ce1-9b88-e7b3825e958e</partId>
 
-## Einführung in die Geschichte der Entstehung von Bitcoin
+## Kursübersicht
 <chapterId>85290407-1aa3-4cb4-890a-aed23441afb7</chapterId>
+Willkommen im Kurs HIS201!
 Dieser Kurs zielt darauf ab, Ihnen die Geschichte der Entstehung von Bitcoin auf eine Weise zu erzählen, wie Sie sie noch nie zuvor gelesen haben. Sie wird oft übersehen, obwohl sie mit faszinierenden Details gefüllt ist. Wir werden uns bemühen, sie in all ihrer Komplexität zu beschreiben, von ihrer Konzeption durch Satoshi Nakamoto bis zu seinem frühen Verschwinden und der Übergabe an die Gemeinschaft.
 
-### Kurzübersicht
+**Kurzübersicht**
 
 Bitcoin wurde von einer Einzelperson (oder einer Gruppe) unter dem Pseudonym Satoshi Nakamoto entworfen. Am 31. Oktober 2008 teilte er ein Whitepaper, das sein Modell beschrieb, über eine obskure E-Mail-Mailingliste im Internet mit. Am 8. Januar 2008 implementierte er sein Konzept, indem er den Quellcode der Software veröffentlichte und das Netzwerk startete, indem er die ersten Blöcke der Kette minete. Um eine kritische Anzahl von Nutzern anzuziehen, bewarb er seine Schöpfung über verschiedene Kommunikationskanäle.
 
@@ -46,7 +47,7 @@ Die Schaffung von Bitcoin stand auch im Kontext der staatlichen Schließung priv
 
 Schließlich ist das Bitcoin-Projekt der Erbe des Ethos der Cypherpunk-Bewegung, einer Bewegung von rebellischen Kryptographen aus den 90ern, die darauf abzielten, die Privatsphäre und Freiheit der Menschen im Internet durch den proaktiven Einsatz von Kryptographie zu bewahren. Bitcoin steht in Einklang mit Projekten wie b-money, bit gold oder RPOW, die von diesen Personen am Ende der 90er und Anfang der 2000er Jahre vorgestellt wurden. Satoshi Nakamoto erwähnte sie, obwohl er vor der Gestaltung von Bitcoin nicht von ihnen wusste und wahrscheinlich nicht Teil der ursprünglichen Bewegung war.
 
-### Kursübersicht
+**Kursübersicht**
 
 Dieser Kurs ist in vier Teile gegliedert, die sich jeweils auf die Ursprünge von Bitcoin (3 Kapitel), sein langsames Auftauchen (3 Kapitel), seinen anfänglichen Aufstieg (3 Kapitel) und die Bildung seiner Gemeinschaft (4 Kapitel) konzentrieren. Insgesamt umfasst er 12 Kapitel, die wie folgt sind (der betreffende Zeitraum ist ebenfalls angegeben):
 
@@ -63,7 +64,7 @@ Dieser Kurs ist in vier Teile gegliedert, die sich jeweils auf die Ursprünge vo
 - Das Verschwinden von Satoshi (Dez. 2010–Apr. 2011)
 - Die Gemeinschaft übernimmt (Apr. 2011–Sept. 2011)
 
-### Details
+**Details**
 
 Alle Daten und Zeiten sind gemäß der UTC-Zeitzone (entsprechend dem Greenwich-Meridian) angegeben und können sich daher von amerikanischen Daten unterscheiden. Es ist wahrscheinlich, dass Satoshi Nakamoto sich in den Vereinigten Staaten aufhielt, als er an seinem Projekt arbeitete. Bitcoin ist jedoch ein internationales Projekt, zu dem unter anderem Beiträge des finnischen Entwicklers Martti Malmi (Osteuropäische Zeit, UTC+2 / UTC+3) gehören, und wir beziehen uns daher auf die universelle Zeitzone. So sagen wir, dass der effektive Start des Hauptnetzwerks am 9. Januar um 2:54 Uhr morgens stattfand, anstatt am 8. Januar um 18:54 Uhr, was der Zeitzone der Ostküste (Pazifische Zeit, UTC-8 / UTC-7) entspricht.
 
@@ -77,6 +78,7 @@ Der Inhalt ist teilweise dem französischen Buch [*L'Élégance de Bitcoin*](htt
 
 Beachten Sie, dass für die nicht-englische Version dieses Kurses die meisten Zitate aus dem amerikanischen Englisch stammen und für die Gelegenheit übersetzt wurden. Der Begriff *coin* wird allgemein als "Einheit" (und nicht als "Stück") übersetzt, wenn er sich auf die Rechnungseinheit bezieht.
 
+Bereit, die unglaubliche Entstehungsgeschichte von Bitcoin zu erkunden? Dann tauchen wir gemeinsam ein in diese außergewöhnliche Geschichte!
 # Die Ursprünge von Bitcoin
 <partId>25a75ed6-f34b-4c9a-8224-e099a3e774dc</partId>
 

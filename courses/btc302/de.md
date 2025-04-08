@@ -29,9 +29,10 @@ Schließlich wird die **Entwicklung der Gemeinschaften aus nationaler Sicht**, a
 
 <partId>81318b8f-d316-5787-aa4c-4ec8370ba668</partId>
 
-## Neukontextualisierung
+## Kursübersicht
 
 <chapterId>e8991b82-4966-5e04-8f05-7cae46eacbaa</chapterId>
+Willkommen im Kurs BTC302!
 
 Seit 2009 hat sich Bitcoin weiter entwickelt. Dazu gehören die Umsetzung neuer Bitcoin-Verbesserungsvorschläge (BIPs), die Schaffung neuer Schichten zur Skalierung des Netzwerks (u.a. Lightning Network) und die Entwicklung mehrerer Unternehmen und Startups.
 
@@ -60,6 +61,34 @@ Wie könnten wir andererseits neue Leute, die von den Gewinnen im "Kryptowährun
 ####
 
 Die beste Lösung für diese beiden Probleme ist es, vor Ort zu sein und aufzuklären.
+
+Das Ziel dieses Kurses ist es, Ihnen alle notwendigen Werkzeuge an die Hand zu geben, um eine Bitcoin-Community oder ein Bitcoin-Meet-up effektiv zu erstellen und zu organisieren. Egal, ob Sie eine lokale Initiative aufbauen oder eine Online-Gruppe entwickeln möchten, dieser Kurs wird Sie konkret durch jeden Schritt des Prozesses führen, von der Erstellung Ihrer visuellen Identität bis hin zur Organisation regelmäßiger Veranstaltungen, einschließlich der Verwaltung Ihrer Kommunikationskanäle.
+
+**Abschnitt 1 : Einführung**  
+Wir beginnen mit der Kontextualisierung der Bedeutung, Menschen um Bitcoin herum zu versammeln, sei es in Online-Communities oder bei lokalen Meet-ups. Sie werden erfahren, warum und wo Sie Ihre Community starten sollten und wie Sie klare Ziele definieren, um deren Wachstum und Nachhaltigkeit zu gewährleisten.
+
+**Abschnitt 2 : Eine eigene Identität für Ihre Bitcoin-Community gestalten**  
+Um neue Mitglieder anzuziehen und ein Zugehörigkeitsgefühl zu schaffen, ist es wichtig, eine einzigartige Identität zu entwickeln. Dieser Abschnitt zeigt Ihnen, wie Sie ein Logo, ein Poster oder ein Banner erstellen, das den Geist Ihrer Bitcoin-Community treffend widerspiegelt.
+
+**Abschnitt 3 : Kommunikationskanäle für Ihre Bitcoin-Community erstellen**  
+Kommunikation ist das Herzstück jeder Community. Wir werden hier die verschiedenen bevorzugten Kommunikationskanäle besprechen und Methoden zur effektiven Einrichtung einer Telegram-Gruppe oder eines Discord-Servers erläutern. Auch die Integration von Multifunktions-Bots zur Erleichterung der Verwaltung Ihrer Community wird behandelt.
+
+**Abschnitt 4 : Soziale Netzwerke starten**  
+Sichtbarkeit ist entscheidend für die Entwicklung Ihrer Community. Sie lernen, wie Sie ein eigenes Twitter-Profil erstellen, Verbindungen mit anderen nahegelegenen Meet-ups herstellen und Plattformen wie btcmap.org nutzen, um Ihre Sichtbarkeit zu erhöhen und neue Mitglieder anzuziehen.
+
+**Abschnitt 5 : Ein Bitcoin-Meet-up organisieren**  
+Dieser Abschnitt konzentriert sich auf die Organisation von Meet-ups, von der Suche nach einem geeigneten Ort bis zur Durchführung der Veranstaltung selbst. Wir werden auch Möglichkeiten zur Teilnehmerbindung untersuchen, um ein nachhaltiges Wachstum Ihrer Community zu gewährleisten.
+
+**Abschnitt 6 : Beispiele für Projekte und Initiativen**  
+Um über einfache Treffen hinauszugehen, bieten wir Ihnen in diesem Abschnitt konkrete und originelle Projektbeispiele: thematische Veranstaltungen, Workshops, Erstellung von Bildungseinheiten, lokale Kooperationen und vieles mehr. Sie werden auch lernen, wie man physische und digitale Materialien zur Förderung Ihrer Community erstellt.
+
+**Abschnitt 7 : Die Zukunft antizipieren**  
+Zum Abschluss werden wir den natürlichen Entwicklungsprozess Ihrer Community ansprechen. Was tun, wenn Ihre Gruppe zu schnell wächst? Wie lässt sich die Organisation dezentralisieren? Und wie reagiert man, wenn das regulatorische Umfeld feindlich wird? Dieser Abschnitt hilft Ihnen, zukünftige Herausforderungen zu antizipieren.
+
+**Abschnitt 8 : Die Bitcoiners vereinen**  
+Dieser letzte Abschnitt konzentriert sich auf das eigentliche Ziel Ihres Projekts: Bitcoin-Enthusiasten um eine gemeinsame Vision zu vereinen. Sie lernen, wie Sie Ihren Ansatz strukturieren, um neue Mitglieder zu gewinnen und zu halten, Aufgaben innerhalb Ihrer Gruppe zu delegieren und Ihre Community auf nachhaltige Weise weiterzuentwickeln.
+
+Bereit zu erfahren, wie man eine starke und dynamische Bitcoin-Community aufbaut? Los geht’s!
 
 ## Warum sollte man eine Bitcoin-Community oder ein Treffen einrichten?
 
@@ -1749,7 +1778,7 @@ Natürlich sollten wir nicht in eine Form von konspirativem Denken verfallen. Ab
 
 ![image](assets/fr/59.webp)
 
-# Schlussfolgerung
+# Bitcoiners zusammenbringen
 
 <partId>62bc2138-c0be-5d39-a341-594690863257</partId>
 
@@ -1846,7 +1875,7 @@ Um dies zu erreichen, werden wir von den Erfahrungen mehrerer französischer Gem
 
 Natürlich sind **in anderen Ländern die Gesetzgebung und die Funktionsweise von Vereinigungen anders**. Einige Punkte werden jedoch sehr hilfreich sein, wenn es darum geht, eine Vereinigung zu gründen oder eine wichtige Veranstaltung zu organisieren; und **wir hoffen, dass andere Bitcoiner kommen und diese Schulung speziell für ihr Land integrieren**.
 
-# Schlussfolgerung
+# Abschließender Abschnitt
 
 <partId>e9bdddf4-54c9-4de9-bbce-c3eade8c32e5</partId>
 

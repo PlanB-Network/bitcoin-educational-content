@@ -2365,7 +2365,7 @@ Encore une fois, bravo pour tout ce chemin parcouru. Rappelez-vous que mon objec
 
 Bonne continuation dans votre aventure avec Bitcoin !
 
-# Conclusion
+# Section finale
 
 <partId>a8425389-4a53-4b57-b9b4-36c1cab12de5</partId>
 

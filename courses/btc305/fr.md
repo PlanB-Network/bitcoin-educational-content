@@ -23,6 +23,28 @@ Produit par la Fondation BTCPay Server
 
 <partId>59e43fe3-b494-5da6-b4b4-9df5bdf08916</partId>
 
+## Aperçu du cours
+
+<chapterId>785ed2bc-94ae-4962-a26a-edf5742a3c72</chapterId>
+
+Bienvenue dans le cours BTC305 sur BTC Pay Server !
+
+L'objectif de cette formation est de vous apprendre à installer, configurer et utiliser BTCPay Server au sein de votre entreprise ou association. BTCPay Server est une solution open-source permettant de traiter des paiements en bitcoins de manière autonome, sécurisée et économique. Ce cours s'adresse principalement aux utilisateurs avancés souhaitant maîtriser l'auto-hébergement de BTCPay Server pour une intégration complète dans leur activité quotidienne.
+
+**Section 1 : Présentation de BTCPay Server**  
+Nous débuterons par une présentation générale de BTCPay Server, avec l'écran de connexion, la gestion des comptes utilisateurs et la création d'une nouvelle boutique. Cette introduction vous permettra de comprendre l'interface de BTCPay Server et d'appréhender les fonctionnalités de base pour commencer à utiliser cet outil.
+
+**Section 2 : Introduction à la sécurisation des clés Bitcoin**  
+La sécurité de vos fonds en bitcoins est très importante. Dans cette section, nous explorerons la génération des clés cryptographiques, l'utilisation de hardware wallets pour sécuriser ces clés, ainsi que la manière d'interagir avec vos clés via BTCPay Server. Vous découvrirez également comment configurer un portefeuille Lightning BTCPay Server pour optimiser vos transactions.
+
+**Section 3 : Interface de BTCPay Server**  
+Cette partie vous guidera à travers l'interface utilisateur de BTCPay Server. Vous apprendrez à naviguer dans le tableau de bord, à configurer les paramètres du magasin et du serveur, à gérer les paiements, et à tirer parti des plugins intégrés. L'objectif est de vous familiariser avec les outils nécessaires pour personnaliser votre installation selon vos besoins.
+
+**Section 4 : Configuration de BTCPay Server**  
+Enfin, nous nous concentrerons sur l'installation pratique de BTCPay Server dans divers environnements. Que vous utilisiez LunaNode, Voltage ou un nœud Umbrel, vous apprendrez les étapes essentielles pour déployer et configurer votre serveur BTCPay, en tenant compte des spécificités de chaque environnement.
+
+Prêt à maîtriser BTCPay Server pour développer votre entreprise ? Allons-y !
+
 ## Acclamations critiques pour l'œuvre de l'auteur sur Bitcoin et BTCPay Server
 
 <chapterId>e1fe6294-3c82-5203-9537-779f9087c35a</chapterId>
@@ -2400,7 +2422,7 @@ Dans cette section, vous avez appris :
 
 Comment la configuration sur Umbrel diffère-t-elle des deux options hébergées précédentes ?
 
-# Conclusion
+# Section finale
 
 <partId>d72e6fa5-0870-5f00-9143-9466ed22e2bd</partId>
 

@@ -20,40 +20,25 @@ Aqui, destacaremos as tendências e padrões comuns nos episódios de hiperinfla
 
 <partId>6fe4d15d-f6e6-54be-9e04-0a75ac98df8b</partId>
 
-## Introdução
+## Visão Geral do Curso
 
 <chapterId>9d1aba8d-0485-5020-9863-5de37e6db8e0</chapterId>
 
-Este programa tem como objetivo oferecer uma compreensão profunda da emergência das hiperinflações em um mundo dominado pela moeda Fiat e examinar suas consequências consideráveis. Os participantes explorarão em detalhes os ciclos hiperinflacionários, analisando as causas, os gatilhos e os exemplos históricos e contemporâneos. Eles também examinarão o impacto tangível das hiperinflações na economia e na vida cotidiana, estudando as repercussões sobre o valor da moeda, o poder de compra e a poupança individual e coletiva.
+Bem-vindo ao curso ECO204!
 
-Aqui, destacaremos as tendências e padrões comuns nos episódios de hiperinflação ao longo da história, ao mesmo tempo em que fornecemos estratégias eficazes e concretas para se proteger durante períodos de hiperinflação. Os participantes terão a oportunidade de explorar diversas opções de investimento e mecanismos de defesa financeira, adquirindo assim ferramentas práticas e conhecimentos essenciais para navegar tranquilamente em um ambiente econômico instável.
+O objetivo deste curso é ajudá-lo a entender as causas profundas, os mecanismos e as consequências da hiperinflação no contexto de um sistema monetário fiat. Por meio de exemplos concretos e análises históricas, você aprenderá a reconhecer os padrões recorrentes que precedem períodos de hiperinflação e a identificar as ações necessárias para se proteger.
 
-### Currículo
+**Seção 2: O que é inflação?**  
+Antes de entrar no tema principal, vamos revisar os conceitos básicos: o que é inflação? Esta seção apresentará suas origens monetárias, os diferentes tipos de inflação existentes e como eles se inserem em uma dinâmica econômica mais ampla. Este é um passo essencial para entender como a inflação comum pode evoluir para hiperinflação.
 
-Seção 1 - Introdução
+**Seção 3: O que é hiperinflação?**  
+Nesta seção, você estudará definições precisas de hiperinflação e vários episódios históricos importantes, incluindo a Alemanha de Weimar e o Zimbábue. Analisaremos seus pontos em comum, suas diferenças e os paralelos contemporâneos. Você também descobrirá casos menos conhecidos, como as sucessivas revalorizações monetárias na América Latina, e os caminhos adotados por alguns países para sair da crise.
 
-- 1.1 - Introdução ao curso por Rogzy & David
+**Seção 4: Como chegamos até aqui?**  
+Esta parte visa entender os mecanismos estruturais que tornam possível a hiperinflação, especialmente por meio do desenvolvimento da "segunda camada" monetária e do papel dos bancos centrais. Serão fornecidos recursos complementares e sugestões de leitura para um estudo mais aprofundado.
 
-Seção 2 - O que é inflação?
+E se a história monetária estivesse se repetindo diante de nossos olhos? Descubra nos capítulos que seguem!
 
-- 2.1 - Um fenômeno monetário
-- 2.2 - Os tipos de inflação
-
-Seção 3 - O que é hiperinflação?
-
-- 3.1 - As definições
-- 3.2 - Weimar vs Zimbábue semelhanças
-- 3.3 - Weimar vs Zimbábue diferenças e paralelos contemporâneos
-- 3.4 - As redenominações na América Latina
-- 3.5 - Como sair da hiperinflação
-- 3.6 - Apresentação da coleção de notas de hiperinflação
-
-Seção 4 - Como chegamos aqui?
-
-- 4.1 - A emergência da segunda camada do dinheiro e dos bancos centrais
-- 4.2 - Livros e recursos
-
-Boa sorte!
 
 # O que é inflação?
 
@@ -971,7 +956,7 @@ A hiperinflação é um assunto fascinante que foi estudado por meio de diversos
 
 - "Caixas de Moeda para Países em Desenvolvimento: Um Manual" por Steve Hanke e Kurt Schuler. Embora o foco seja nas caixas de moeda, este livro oferece uma perspectiva sobre como evitar situações de hiperinflação.
 
-# Conclusão
+# Seção final
 
 <partId>cb1f4a4b-556a-4e47-a5cc-136be35a1f9a</partId>
 

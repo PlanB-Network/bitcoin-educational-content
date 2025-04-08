@@ -1,9 +1,0 @@
-question: "Seal Definition" ni nini katika muktadha wa RGB Assignment?
-answer: Marejeleo ya UTXO ambayo huanzisha Ownership ya Owned State
-wrong_answers:
-  - Upangaji wa data unaobadilishwa kati ya wahusika, kulingana na Client-side Validation
-  - Kukusanya mikataba katika msimbo wa off-chain unaoweza kutekelezeka
-  - Tawi la DAG la historia ya State Transition
-explanation: |
-  "Seal Definition" inaunganisha UTXO na sehemu maalum ya Contract State, ikihakikisha ugawaji sahihi wa haki au mali.
-reviewed: false

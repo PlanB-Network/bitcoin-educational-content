@@ -17,11 +17,43 @@ Từ Phục Hưng đến thời kỳ Khai Sáng, khóa học xem xét sự nổi
 
 +++
 
+# Giới thiệu
+
+<partId>6edada19-3af3-411b-8483-3fe45cfe1c54</partId>
+
+## Tổng quan về khóa học
+
+<chapterId>14d810d3-883c-4f5c-8593-f532530e7b7a</chapterId>
+
+Chào mừng bạn đến với khóa học PHI201!
+
+Khóa học này mời bạn khám phá sự tiến hóa của tự do qua lịch sử bằng cách phân tích các trường phái tư tưởng lớn đã định hình nó. Bạn sẽ khám phá cách khái niệm tự do được xây dựng qua các thế kỷ, dù là trong sự đối lập hay hợp tác với quyền lực, qua một hành trình lịch sử từ Thời cổ đại đến các cuộc tranh luận đương đại.
+
+**Phần 1: Tự do hay quyền lực**  
+Chúng ta sẽ bắt đầu với một cái nhìn tổng quan về hai triết lý chính trị lớn đã đánh dấu lịch sử: tự do và quyền lực. Phần này sẽ xem xét các quan điểm của các nhà tư tưởng như Frédéric Bastiat về sản xuất đối lập với sự tước đoạt, Lord Acton người xem tự do là động lực của lịch sử, Karl Marx với lý thuyết đấu tranh giai cấp, và Murray Rothbard người đặt Nhà nước đối lập với xã hội. Phần giới thiệu khái niệm này sẽ cung cấp một khuôn khổ phân tích cho các giai đoạn lịch sử.
+
+**Phần 2: Nguồn gốc của tự do: Thời cổ đại**  
+Tại đây, chúng ta sẽ quay lại cội nguồn của tư duy triết học với người Hy Lạp, những người phát minh ra lý trí phê phán, và người La Mã, những người đặt nền móng cho luật pháp hiện đại. Chúng ta cũng sẽ xem xét sự sụp đổ của La Mã như một khoảnh khắc quan trọng đã tái định nghĩa tổ chức chính trị và xã hội xung quanh khái niệm tự do.
+
+**Phần 3: Nguồn gốc của tự do: Thời Trung Cổ**  
+Thời Trung Cổ thường bị xem là một thời kỳ đen tối, nhưng chúng ta sẽ khám phá rằng thực tế nó đã đặt nền móng cho tự do hiện đại. Chúng ta sẽ nghiên cứu sự khẳng định của tự do con người, các cuộc tranh luận giữa lý trí và đức tin, sự ra đời của nhà nước chủ quyền, đạo đức Kinh Thánh đề cao cá nhân, và những hình thức đầu tiên của chủ nghĩa tư bản xuất hiện trong thời kỳ này.
+
+**Phần 4: Sự trỗi dậy của tự do: Từ Phục hưng đến Khai sáng**  
+Phần này sẽ tập trung vào sự xuất hiện của sự khoan dung tôn giáo và tự do kinh tế, những thứ được phát triển mạnh mẽ trong thời kỳ Phục hưng và Khai sáng. Chúng ta cũng sẽ phân tích tầm quan trọng của năm 1776, đánh dấu một bước ngoặt quan trọng với các sự kiện then chốt cho thế giới tự do, trước khi đi sâu vào thời kỳ của các cuộc cách mạng đã định nghĩa lại chính khái niệm tự do.
+
+**Phần 5: Đỉnh cao và suy thoái: Từ thế kỷ XIX đến thế kỷ XX**  
+Chúng ta sẽ tiếp tục nghiên cứu những biến động của thế kỷ XIX và XX, làm nổi bật những điểm mạnh và điểm yếu của dân chủ, những chỉ trích của chủ nghĩa Marx đối với chủ nghĩa tư bản, và phản hồi của trường phái Áo đối với những chỉ trích này. Chúng ta cũng sẽ khám phá những cảnh báo về nguy cơ của chủ nghĩa tập thể thông qua các tác phẩm quan trọng như "Con đường tới chế độ nô lệ".
+
+**Phần 6: Sự trỗi dậy của Nhà nước Phúc lợi trong thế kỷ XX**  
+Cuối cùng, phần này sẽ xem xét cách mà Nhà nước Phúc lợi dần dần vượt qua các ý tưởng về tự do kinh tế, đặc biệt là qua chiến thắng của Keynes và sự từ bỏ tiêu chuẩn vàng. Chúng ta sẽ kết thúc bằng cách nhấn mạnh tầm quan trọng của ý tưởng trong việc ảnh hưởng đến dòng chảy của lịch sử và vai trò mà tự do vẫn còn đóng trong các xã hội hiện đại của chúng ta.
+
+Sẵn sàng để khám phá cuộc hành trình triết học độc đáo này trong việc tìm kiếm tự do? Hãy bắt đầu nào!
+
 # Tự do hay Quyền lực
 
 <partId>e59475e9-3ae4-5e66-a17e-218de0281b06</partId>
 
-## Giới thiệu: Chỉ có hai triết lý chính trị
+## Chỉ có hai triết lý chính trị
 
 <chapterId>ffa60c0d-ee2b-575d-a4ac-4e9ccdad396f</chapterId>
 
@@ -1454,7 +1486,7 @@ Nhưng trái với những gì các nhà tiên tri về ngày tận thế tuyên
 > Chúng ta đã nếm trải tất cả các biến thể của chủ nghĩa nhà nước, và tất cả đều đã thất bại. Ở khắp nơi trên thế giới phương Tây vào đầu thế kỷ 20, các nhà lãnh đạo doanh nghiệp, chính trị gia, và trí thức đã bắt đầu kêu gọi một hệ thống kinh tế hỗn hợp "mới", với sự thống trị của nhà nước, thay thế cho sự tự do tương đối của thế kỷ trước. Những phương thuốc mới, hấp dẫn ngay từ cái nhìn đầu tiên, như Chủ nghĩa Xã hội, nhà nước tập quyền, nhà nước phúc lợi - chiến tranh, v.v., đã được thử nghiệm và tất cả đều đã rõ ràng thất bại. Những lập luận ủng hộ Chủ nghĩa Xã hội và kế hoạch hoá nhà nước giờ đây xuất hiện như là những lời kêu gọi cho một hệ thống già cỗi, kiệt quệ, và thất bại. Còn lại gì để thử ngoài tự do?
 Ở một khía cạnh nào đó, tình hình hiện tại của chúng ta tốt hơn so với quá khứ. Sau những thất bại liên tiếp của các thí nghiệm xã hội chủ nghĩa, cộng sản và xã hội dân chủ, ngày nay, chúng ta biết cách phân biệt ý tưởng đúng từ ý tưởng sai tốt hơn này hôm qua. Và các ý tưởng sai có thể bị bác bỏ và thay thế bằng ý tưởng đúng. Như Mises đã nói:
 > Tất cả mọi thứ xảy ra trong xã hội toàn cầu mà chúng ta đang sống đều là kết quả của các ý tưởng. Cả tốt lẫn xấu. Điều cần thiết là phải chống lại những ý tưởng sai lầm. (...) Nền văn minh của chúng ta có thể tồn tại, và nó phải tồn tại. Và nó sẽ tồn tại nhờ vào những ý tưởng tốt đẹp hơn so với những ý tưởng đang chi phối thế giới ngày nay; và những ý tưởng tốt đẹp hơn này sẽ được phát triển bởi thế hệ tương lai. (_Chính sách kinh tế: Những suy tư cho hôm nay và ngày mai - Economic Policy: Thoughts for Today and Tomorrow_, 1979)
-# Kết luận
+# Phần cuối
 <partId>df550767-5876-4034-9c6a-31238363e85f</partId>
 ## Nhận xét & Đánh giá
 <chapterId>b972fd24-47e1-4877-b21d-6451ffdafcdd</chapterId>

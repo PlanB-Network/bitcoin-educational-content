@@ -70,6 +70,8 @@ https://planb.network/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
 - Maxim Orlovsky、Hunter Trujilo 和 Frederico Tenga 在 Lightning Bootcamp 研讨会上的视频；
 - RGB 文件由 [Bitfinex](https://www.bitfinex.com/) 赞助制作。
 
+准备好探索复杂而迷人的RGB世界了吗？让我们开始吧！
+
 # 理论上的 RGB
 
 <partId>80e797ee-3f33-599f-ab82-e82eeee08219</partId>
@@ -3905,7 +3907,7 @@ curl -X 'GET' \
 
 这种 LN-RGB 兼容性带来的机遇相当可观：闪电上的稳定币、DEX layer-2、可替代代币或 NFT 的低成本转移......前面几章概述了概念架构和验证逻辑。现在，您可以从实际角度了解如何启动并运行这样一个节点，以用于未来的开发或测试。
 
-# 结论
+# 最终部分
 
 <partId>b0baebfc-d146-5938-849a-f835fafb386f</partId>
 
@@ -3914,7 +3916,7 @@ curl -X 'GET' \
 
 <chapterId>0217e8b0-942a-5fee-bd91-9a866551eff3</chapterId>
 
-<isCourseReview>真</isCourseReview>。
+<isCourseReview>true</isCourseReview>
 
 ## 结论
 

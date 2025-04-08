@@ -24,17 +24,32 @@ Bli med oss for å heve kompetansen din, frigjøre det fulle potensialet til Liq
 
 <partId>8f34de87-6e9a-4e3b-a326-50fc7c1803b3</partId>
 
-## Kurs Introduksjon
+## Kursoversikt
 
 <chapterId>a721398e-7040-4edd-be53-b485ea759fa9</chapterId>
 
 ![Video](https://youtu.be/gkQfnwYLyI0?si=H6cIPhgZaSAwHaHI)
 
-Formålet med Elements Academy er å introdusere og forklare nøkkelbegrepene i Elements, åpen kildekode-plattformen som Liquid er bygget på. Ved slutten av kurset skal du ha en god forståelse av hovedfunksjonene i Elements, for eksempel Confidential Transactions og Issued Assets, og prosessene som er involvert i driften av Elements Core.
+Velkommen til kurset SID202!
 
-Hver del vil ha leksjoner med forklarende tekst og en video som avsluttes med en quiz. Antall spørsmål er relatert til størrelsen på det foregående emnet. Del 10 oppsummerer kursets innhold og avsluttes med en større quiz.
+Målet med *Elements Academy* er å presentere og forklare de viktigste konseptene i *Elements*, den open-source plattformen som Liquid-sidechainen er bygget på. Ved slutten av dette kurset skal du ha en solid forståelse av Elements’ hovedfunksjoner, som konfidensielle transaksjoner og utstedte aktiva, samt prosessene som er involvert i driften av Elements Core. Hver del av kurset inkluderer leksjoner med forklarende tekster og videoer, som avsluttes med en quiz.
 
-Eventuelle spørsmål, forespørsler om ytterligere informasjon eller spørsmål om quizsvarene kan rettes til læreren din, James Dorfman.
+Denne opplæringen har som mål å lære deg hvordan du bruker og utvikler med open-source-plattformen Elements, med fokus på Liquid-nettverket. Du vil oppdage hvordan disse teknologiene kan forbedre personvern, skalerbarhet og funksjonalitet i dine utviklingsprosjekter. Enten du er nybegynner eller erfaren utvikler, vil dette kurset gi deg et solid fundament for å mestre de grunnleggende konseptene i Elements og Liquid, samt deres praktiske anvendelser.
+
+**Seksjon 1: Introduksjon**  
+Vi starter med en omfattende oversikt over Elements-konseptene. Du vil lære hvordan denne plattformen ble designet for å tilby et modulært og fleksibelt grunnlag for å lage sidechains som Liquid. Målet er å forstå strukturen til Elements før vi dykker ned i de praktiske bruksområdene.
+
+**Seksjon 2: Elements**  
+Denne seksjonen vil fokusere på hvordan Elements fungerer. Du vil lære hvordan du konfigurerer en Elements-node, opererer den i selvstendig modus, eller bruker den som en sidechain.
+
+**Seksjon 3: Bruk av Elements – Praktiske eksempler**  
+Når du har mestret de teoretiske grunnlagene, vil vi dekke praktiske anvendelser av Elements. Du vil lære hvordan du utfører konfidensielle transaksjoner, utsteder aktiva, og håndterer gjenutstedelse av aktiva.
+
+**Seksjon 4: Elements Federation**  
+Her vil vi utforske avanserte mekanismer, inkludert føderert blokk-signering, bruk av Elements som en sidechain, og opprettelse av uavhengige blokkjeder. Denne delen vil hjelpe deg å forstå hvordan du sikrer sikkerhet, integritet og interoperabilitet i Elements-baserte blokkjeder.
+
+Klar til å utforske potensialet til Elements og Liquid-sidechainen? La oss starte!
+
 
 ## Oversikt over elementer
 
@@ -1219,7 +1234,7 @@ Vi har sett at kildekoden og nettstedet for Elements (https://github.com/Element
 
 Neste skritt er å utfordre deg selv med en kumulativ quiz som dekker alle de foregående delene, og deretter kan du begynne din Elements-reise ... lykke til!
 
-# Konklusjon
+# Siste seksjon
 
 <partId>d5dbd616-e291-42bc-aae3-6c44599dbd06</partId>
 

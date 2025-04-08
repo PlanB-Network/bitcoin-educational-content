@@ -24,41 +24,31 @@ Kui vajate oma seadistusega abi, on õpilastele loodud Telegrami grupp ja kõik 
 
 <partId>a99dc130-3650-563f-8d42-a0b5160af0ab</partId>
 
-## Tere tulemast!
+## Kursuse ülevaade
 
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
-Tere tulemast MINING 201: kaevandamisele sissejuhatusesse. Ajelex, Jim & Rogzy on põnevil, et saata teid teie esimestel konkreetsetel sammudel selles uues tööstuses. Loodame, et naudite kursust ja liitute kodukaevandamise seiklusega!
+Tere tulemast kursusele MIN201: Sissejuhatus kaevandamisse. Ajelex, Jim & Rogzy on rõõmsad, et saavad teid juhendada teie esimestel sammudel selles valdkonnas. Loodame, et naudite kursust ja asute home mining seiklusele!
 
-### Kursuse Ülevaade
+See koolitus viib teid Bitcoini kaevandamise tööstuse südamesse, pakkudes teoreetilisi ja praktilisi teadmisi. Olenemata sellest, kas olete algaja või juba teema kohta teadlik, aitab see kursus teil mõista kaevandamise majanduslikke ja tehnilisi aspekte ning viia ellu praktiline projekt ASIC-seadme taaskasutamiseks kodukütteks.
 
-Sellel kursusel keskendub esimene osa kaevandamise teooriale koos Ajelexiga. Meil on põhjalikud arutelud erinevatel kaevandamisega seotud teemadel, mis aitavad meil paremini mõista seda tööstust ja sellega seotud majanduslikke ja geopoliitilisi küsimusi.
+**Osa 2: Kõik kaevandamisest**  
+Selles osas pakume teile põhjalikku arusaamist Bitcoini kaevandamisest. Käsitleme kaevandamise tehnilist toimimist, selle rolli Bitcoini protokollis ja majanduslikke ja geopoliitilisi mõjusid. Samuti uurite keerulist suhet Bitcoini hinna ja hashrate vahel ning suveräänsuse ja regulatsiooniga seotud küsimusi selles valdkonnas.
 
-Teises osas asume põnevale praktilisele juhtumile, õppides, kuidas muuta kasutatud S9 kaevur koduseks küttesüsteemiks. Kirjalike juhendite ja videote kaudu selgitatakse kõiki vajalikke samme, tagades teie edu selles uuenduslikus projektis.
+**Osa 3: Home-mining ja soojuse taaskasutamine**  
+Seejärel süveneme praktilisse rakendusse Attakai kontseptsiooni kaudu, mille eesmärk on demokratiseerida home-mining, muutes kasutatud S9 kaevandajad kodukütte seadmeteks. Õpid, kuidas osta ja muuta kasutatud ASIC-seadet, valmistades samal ajal ette vajaliku varustuse riistvara modifikatsioonide jaoks.
 
-See õppereis näitab teile, et kaevandamistööstus on keerulisem, kui paistab, pakkudes tasakaalustatud vaadet sellega seotud ökoloogilisele debatile. Pidev abi on saadaval õpilastele mõeldud Telegrami grupi kaudu ja kõik vajalikud komponendid on kergesti kättesaadavad meie e-kaubanduse platvormil.
+**Osa 4: Attakai - Antminer S9 tarkvara muutmine**  
+Siin õpid, kuidas oma Antminer S9 koduseks kasutamiseks konfigureerida. Juhendame teid läbi Wi-Fi/Ethernet bridge'i seadistamise, seadme lähtestamise, BraiinsOS+ installimise ja selle optimaalseks kaevandamiseks seadistamise.
 
-### Õppekava:
+**Osa 5: Attakai - Ventilaatorite muutmine**  
+Selleks, et optimeerida oma Antminer S9 kasutamist lisakütteseadmena, õpetab see osa teid, kuidas vahetada toiteventilaatorid ja peamised ventilaatorid. Need muudatused on hädavajalikud müra vähendamiseks ja seadme termilise tõhususe parandamiseks.
 
-Teoreetiline osa:
+**Osa 6: Attakai - Seadistamine**  
+Lõpuks õpid, kuidas liituda kaevandamis-pooliga ja optimeerida oma Antminer S9 jõudlust. Avastad, kuidas saavutada optimaalne energiakasutuse tõhusus ja tõhusalt oma esimesi satoshisid kaevandada.
 
-- Kaevandamise selgitus.
-- Kaevandamistööstus.
-- Kaevandamistööstuse nüansid.
-- Kaevandamine Bitcoin protokollis.
-- Bitcoini hind ja hashrate, korrelatsioon? Suveräänsus ja regulatsioon
-- Intervjuu kaevandamistööstuse professionaaliga
+Kas olete valmis avastama Bitcoini kaevandamise maailma ja läbima praktilise Attakai väljakutse? Alustame!
 
-Praktiline osa: Attakai
-
-- Attakai tutvustus.
-- Ostujuhend.
-- Antminer S9 tarkvara muutmine.
-- Ventilaatorite vahetamine müra vähendamiseks.
-- Basseini konfiguratsioon.
-- Antminer S9 konfigureerimine Braiins OS+ abil.
-
-Valmis sukelduma sellesse põnevasse seiklusse? Sukeldugem koos kodukaevandamise huvitavasse maailma!
 
 # Kõik, mida pead teadma kaevandamisest
 
@@ -768,7 +758,7 @@ See seab ülemise piiri masina hashimiskiirusele. Autotuning on protsess, kus al
 
 Lõpptulemuseks on suurem hashimiskiirus vati kohta, mis tähendab kaevuritele suuremaid kasumimarginaale. Põhjus, miks masinaid ei jaotata sellise tarkvaraga, on see, et masinate varieeruvus on ebasoovitav, kuna kliendid soovivad täpselt teada, mida nad saavad, seega on tootjate jaoks halb mõte müüa toodet, millel ei ole ühelt masinalt teisele järjepidevat ja etteaimatavat jõudlust. Lisaks nõuab kiibi tasemel autotuning märkimisväärseid arendusressursse, kuna selle rakendamine on keeruline. Tootjad kulutavad juba palju ressursse oma püsivara arendamisele. On olemas tarkvaralahendusi, mis võimaldavad autotuningut, nagu näiteks Braiins OS+. Lisaks ASIC-i jõudluse parandamisele kuni 20%.
 
-# Kokkuvõte
+# Lõpusektsioon
 
 <partId>fa42ec0b-b1fd-47f6-8268-6eab684c1d2b</partId>
 

@@ -24,10 +24,11 @@ Liitu meiega, et muuta oma Bitcoini kasutamine ja saada teadlikuks kasutajaks, k
 
 <partId>e17474a8-8899-4bdb-a7f8-bc52ddb01440</partId>
 
-## Koolituse sissejuhatus
+## Kursuse ülevaade
 
 <chapterId>08ba1933-f393-4fb5-8279-777d874caedb</chapterId>
 
+Tere tulemast kursusele BTC204!
 
 Maailmas, kus finantstehingute konfidentsiaalsus muutub järk-järgult luksuseks, on Bitcoini kasutamisel oluline mõista ja omandada eraelu puutumatuse kaitse põhimõtteid. See koolituskursus annab teile kõik võtmed, nii teoreetilised kui ka praktilised, et seda iseseisvalt saavutada.
 
@@ -45,37 +46,38 @@ Selle koolituskursuse eesmärk on anda põhjalik üldine ülevaade Bitcoini konf
 
 Selle koolituskursuse eesmärk ei ole muuta teid Bitcoini kasutamisel täiesti anonüümseks, vaid pigem anda teile olulised vahendid, et teaksite, kuidas kaitsta oma konfidentsiaalsust vastavalt oma isiklikele eesmärkidele. Teil on vabadus valida esitatud kontseptsioonide ja vahendite hulgast, et töötada välja oma strateegiad, mis on kohandatud teie konkreetsetele eesmärkidele ja vajadustele.
 
-### 1. jagu: Mõisted ja põhimõisted
+**1. jagu: Mõisted ja põhimõisted**
 
 Alustuseks vaatame üle Bitcoini toimimise põhiprintsiibid, et seejärel saaksime rahulikult käsitleda konfidentsiaalsusega seotud mõisteid. On oluline omandada mõned põhimõisted, nagu UTXO, aadresside vastuvõtmine ja skriptide koostamine, enne kui saate täielikult mõista mõisteid, mida käsitleme järgmistes osades. Tutvustame ka Bitcoini üldist konfidentsiaalsusmudelit, nagu Satoshi Nakamoto seda ette kujutas, mis võimaldab meil mõista sellega seotud panuseid ja riske.
 
 ![BTC204](assets/fr/001.webp)
 
-### 2. jagu: Arusaamine ja kaitse ahelanalüüsi vastu
+**2. jagu: Arusaamine ja kaitse ahelanalüüsi vastu**
 
 Teises jaotises vaatleme tehnikaid, mida plokiahela analüüsiga tegelevad ettevõtted kasutavad teie tegevuse jälgimiseks Bitcoinis. Nende meetodite mõistmine on teie eraelu puutumatuse kaitse tugevdamiseks ülioluline. Selle osa eesmärk on uurida ründajate strateegiaid, et paremini mõista riske ja valmistada ette pinnast tehnikatele, mida uurime järgmistes osades. Analüüsime tehingumustreid, sisemisi ja väliseid heuristilisi võtteid ning nende mustrite tõenäolisi tõlgendusi. Lisaks teooriale õpime praktiliste näidete ja harjutuste kaudu, kuidas kasutada ahelate analüüsiks plokkide otsijat.
 
 ![BTC204](assets/fr/002.webp)
 
-### 3. jagu: Parimate tavade omandamine eraelu puutumatuse kaitsmiseks
+**3. jagu: Parimate tavade omandamine eraelu puutumatuse kaitsmiseks**
 
 Meie koolituskursuse kolmandas osas läheme asja juurde: praktika! Eesmärk on omandada kõik olulised parimad tavad, mis peaksid saama iga Bitcoini kasutaja jaoks loomulikuks refleksiks. Me käsitleme tühjade aadresside kasutamist, märgistamist, konsolideerimist, terviklike sõlmede kasutamist, samuti KYC- ja omandamismeetodeid. Eesmärgiks on anda teile põhjalik ülevaade lõksudest, mida vältida, et luua kindel alus meie püüdlustes kaitsta privaatsust. Mõnede nende tavade puhul juhatatakse teid konkreetse õpetuse juurde, kuidas neid rakendada.
 
 ![BTC204](assets/fr/003.webp)
 
-### 4. jagu: Coinjoin-tehingute mõistmine
+**4. jagu: Coinjoin-tehingute mõistmine**
 
 Kuidas me saame rääkida Bitcoini privaatsusest, ilma et mainiksime coinjoins'i? Jaotises 4 leiate kõik, mida selle segamismeetodi kohta teada peate. Saate teada, mis on coinjoinid, nende ajalugu ja eesmärgid, samuti erinevad olemasolevad coinjoini tüübid. Lõpuks vaatame kogenumatele kasutajatele, mis on anonsetid ja entroopia ning kuidas neid arvutada.
 
 ![BTC204](assets/fr/004.webp)
 
-### 5. jagu: Teiste täiustatud konfidentsiaalsustehnikate probleemide mõistmine
+**5. jagu: Teiste täiustatud konfidentsiaalsustehnikate probleemide mõistmine**
 
 Viiendas jaotises vaatleme kõiki teisi meetodeid, mis on saadaval teie privaatsuse kaitsmiseks Bitcoinis, välja arvatud coinjoin. Aastate jooksul on arendajad näidanud märkimisväärset loovust privaatsusele pühendatud vahendite väljatöötamisel. Vaatleme kõiki neid meetodeid, nagu payjoin, ühistehingud, Coin Swap ja Atomic Swap, kirjeldades üksikasjalikult nende toimimist, eesmärke ja võimalikke nõrkusi.
 
 Samuti vaatleme privaatsust sõlmede võrgu ja tehingute levitamise tasandil. Samuti arutame erinevaid protokolle, mida on aastate jooksul pakutud kasutajate privaatsuse suurendamiseks Bitcoinis, sealhulgas staatiliste aadresside protokollid.
 
 ![BTC204](assets/fr/005.webp)
+Kas olete valmis uurima Bitcoini privaatsuse keerdkäike? Lähme!
 
 # Mõisted ja põhimõisted
 
@@ -4220,7 +4222,7 @@ Kuna see funktsioon on uus, soovitame olla ettevaatlik ja vältida suurte summad
 
 *Selle vaikimisi makseid käsitleva peatüki koostamiseks kasutasin [vaikimisi makseid selgitavat veebilehte](https://silentpayments.xyz/) ja [BIP352 selgitavat dokumenti](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki).*
 
-# Kokkuvõte
+# Lõpusektsioon
 
 <partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 

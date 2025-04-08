@@ -21,6 +21,33 @@ Nikmati penemuan Anda!
 
 +++
 
+# Pendahuluan
+<partId>9da7290a-3895-49a2-93ea-2a6272ca4af4</partId>
+
+## Gambaran Umum Kursus
+<chapterId>f2e71062-5121-4114-a7f8-27df69884ce8</chapterId>
+
+Selamat datang di kursus LNP201!
+
+Pelatihan ini bertujuan untuk memberi Anda pemahaman teknis mendalam tentang Lightning Network, jaringan lapisan tambahan yang dirancang untuk memfasilitasi transaksi bitcoin dengan cepat dan seringkali dengan biaya lebih rendah. Anda akan secara bertahap menemukan konsep-konsep mendasar yang mengatur sistem ini, mulai dari membuka saluran pembayaran hingga teknik routing dan manajemen likuiditas.
+
+**Bagian 1: Dasar-Dasar**  
+Kita akan memulai dengan pengenalan umum tentang Lightning Network, dengan menjelaskan dasar-dasar penting tentang Bitcoin, alamatnya, UTXO, dan cara kerja transaksi. Tinjauan dasar ini sangat penting untuk memahami bagaimana Lightning Network bergantung pada mekanisme blockchain dasar untuk beroperasi dengan aman.
+
+**Bagian 2: Pembukaan dan Penutupan Saluran**  
+Di bagian ini, kita akan menjelajahi proses pembukaan saluran, yang merupakan landasan dari Lightning Network. Anda akan belajar bagaimana transaksi komitmen dibuat, peran kunci revokasi untuk keamanan, dan bagaimana saluran dapat ditutup baik secara kolaboratif maupun sepihak. Setiap langkah akan dijelaskan dengan tepat dan teknis untuk memastikan Anda memahami semua detailnya.
+
+**Bagian 3: Jaringan Likuiditas**  
+Lightning Network tidak terbatas pada saluran individual; ini adalah jaringan pembayaran nyata. Kita akan melihat bagaimana transaksi dapat diteruskan melalui node perantara menggunakan HTLC. Bagian ini juga akan memperkenalkan Anda pada tantangan likuiditas masuk dan keluar.
+
+**Bagian 4: Alat-Alat Lightning Network**  
+Bagian ini memperkenalkan alat praktis dari Lightning Network, seperti *Invoices*, *LNURL*, dan *Keysend*. Anda juga akan belajar cara mengelola likuiditas saluran Anda, aspek penting untuk memastikan kelancaran pembayaran dan memaksimalkan efisiensi transaksi Anda di Lightning.
+
+**Bagian 5: Melangkah Lebih Jauh**  
+Akhirnya, kita akan menyimpulkan pelatihan dengan merangkum konsep-konsep yang telah dibahas dan membuka jalan untuk topik-topik yang lebih maju bagi mereka yang ingin memperdalam pengetahuan mereka tentang Lightning Network.
+
+Siap untuk mengungkap mekanisme teknis dari Lightning Network? Mari kita mulai!
+
 # Dasar-Dasar
 
 <partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>
@@ -30,8 +57,6 @@ Nikmati penemuan Anda!
 <chapterId>df6230ae-ff35-56ea-8651-8e65580730a8</chapterId>
 ![video en](https://youtu.be/QDQ8NG0l3hk)
 
-
-Selamat datang di kursus LNP201, yang bertujuan untuk menjelaskan fungsi teknis dari Jaringan Lightning.
 
 Jaringan Lightning adalah jaringan saluran pembayaran yang dibangun di atas protokol Bitcoin, bertujuan untuk memungkinkan transaksi cepat dan biaya rendah. Ini memungkinkan pembuatan saluran pembayaran antar peserta, di mana transaksi dapat dilakukan hampir secara instan dan dengan biaya minimal, tanpa harus mencatat setiap transaksi secara individu di blockchain. Dengan demikian, Jaringan Lightning berusaha untuk meningkatkan skalabilitas Bitcoin dan membuatnya dapat digunakan untuk pembayaran nilai rendah.
 
@@ -925,7 +950,8 @@ Di bab selanjutnya, saya mengusulkan untuk meninjau konsep-konsep paling penting
 
 <partId>6bbf107d-a224-5916-9f0c-2b4d30dd0b17</partId>
 
-## Kesimpulan Pelatihan
+## Ringkasan Pelatihan
+
 
 <chapterId>a65a571c-561b-5e1c-87bf-494644653c22</chapterId>
 ![video en](https://youtu.be/coaskEGRjiU)
@@ -977,7 +1003,7 @@ Kita telah melihat bahwa manajemen likuiditas adalah tantangan di Lightning untu
 
 ![LNP201](assets/en/84.webp)
 
-# Kesimpulan
+# Bagian Akhir
 
 <partId>b8715c1c-7ae2-49b7-94c7-35bf85346ad3</partId>
 

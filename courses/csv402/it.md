@@ -70,6 +70,8 @@ La versione scritta di questo corso di formazione è stata redatta utilizzando d
 - Video del seminario di Maxim Orlovsky, Hunter Trujilo e Frederico Tenga al Lightning Bootcamp ;
 - La documentazione RGB, la cui produzione è stata sponsorizzata da [Bitfinex](https://www.bitfinex.com/).
 
+Pronto a immergerti nell'universo complesso e affascinante di RGB? Andiamo!
+
 # RGB in teoria
 
 <partId>80e797ee-3f33-599f-ab82-e82eeee08219</partId>
@@ -3910,7 +3912,7 @@ Il progetto rimane in fase alfa. Si raccomanda pertanto di limitarsi agli ambien
 
 Le opportunità aperte da questa compatibilità LN-RGB sono notevoli: monete stabili su Lightning, DEX layer-2, trasferimento di gettoni fungibili o NFT a costi molto bassi... I capitoli precedenti hanno delineato l'architettura concettuale e la logica di validazione. Ora avete una visione pratica di come ottenere un nodo di questo tipo e farlo funzionare, per i vostri futuri sviluppi o test.
 
-# Conclusione
+# Sezione finale
 
 <partId>b0baebfc-d146-5938-849a-f835fafb386f</partId>
 

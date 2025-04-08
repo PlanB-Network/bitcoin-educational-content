@@ -29,9 +29,10 @@ Til slutt vil det bli gjennomført en dypere refleksjon om **utviklingen av loka
 
 <partId>81318b8f-d316-5787-aa4c-4ec8370ba668</partId>
 
-## Rekontekstualisering
+## Kursoversikt
 
 <chapterId>e8991b82-4966-5e04-8f05-7cae46eacbaa</chapterId>
+Velkommen til BTC302-kurset!
 
 Siden 2009 har Bitcoin fortsatt å utvikle seg. Dette inkluderer implementeringen av nye Bitcoin Improvement Proposals (BIPs), opprettelsen av nye lag for å skalere nettverket (blant annet Lightning Network), og utviklingen av flere selskaper og oppstartsbedrifter.
 
@@ -60,6 +61,34 @@ På den annen side, hvordan kan vi oppmuntre nye mennesker som kommer tiltrukket
 ####
 
 For disse to problemene er den beste løsningen å være ute i felten og drive opplæring.
+
+Målet med denne opplæringen er å gi deg alle nødvendige verktøy for å effektivt opprette og organisere et Bitcoin-fellesskap eller en meet-up. Enten du ønsker å bygge en lokal initiativ eller utvikle en nettbasert gruppe, vil dette kurset veilede deg konkret gjennom hvert trinn i prosessen, fra å lage din visuelle identitet til å arrangere regelmessige arrangementer, inkludert administrasjon av dine kommunikasjonskanaler.
+
+**Seksjon 1 : Introduksjon**  
+Vi starter med å sette i kontekst viktigheten av å samle mennesker rundt Bitcoin, enten det er gjennom nettbaserte fellesskap eller lokale meet-ups. Du vil oppdage hvorfor og hvor du bør starte ditt fellesskap, samt hvordan du definerer klare mål for å sikre vekst og bærekraft.
+
+**Seksjon 2 : Designe en unik identitet for ditt Bitcoin-fellesskap**  
+For å tiltrekke nye medlemmer og etablere en følelse av tilhørighet, er det viktig å skape en unik identitet. Denne seksjonen vil lære deg hvordan du designer en logo, en plakat eller et banner som trofast reflekterer ånden til ditt Bitcoin-fellesskap.
+
+**Seksjon 3 : Opprette kommunikasjonskanaler for ditt Bitcoin-fellesskap**  
+Kommunikasjon er kjernen i hvert fellesskap. Vi vil her diskutere de forskjellige kommunikasjonskanalene som bør prioriteres, samt metodene for å konfigurere en Telegram-gruppe eller en Discord-server effektivt. Vi vil også diskutere integrering av multifunksjonelle bots for å lette administrasjonen av ditt fellesskap.
+
+**Seksjon 4 : Starte sosiale nettverk**  
+Synlighet er avgjørende for utviklingen av ditt fellesskap. Du vil lære hvordan du oppretter en dedikert Twitter-profil, etablerer forbindelser med andre meet-ups i nærheten av deg, og bruker plattformer som btcmap.org for å øke din synlighet og tiltrekke nye medlemmer.
+
+**Seksjon 5 : Organisere en Bitcoin meet-up**  
+Denne seksjonen fokuserer på organisering av meet-ups, fra å finne et passende sted til å organisere selve arrangementet. Vi vil også se på måter å beholde deltakernes engasjement for å sikre en bærekraftig utvikling av ditt fellesskap.
+
+**Seksjon 6 : Eksempler på prosjekter og initiativer**  
+For å gå utover enkle møter, vil vi i denne seksjonen tilby konkrete og originale eksempler på prosjekter: temabaserte arrangementer, workshops, opprettelse av utdanningsinnhold, lokale samarbeid og mye mer. Du vil også lære å utforme fysiske og digitale materialer for å promotere ditt fellesskap.
+
+**Seksjon 7 : Forutse fremtiden**  
+Til slutt vil vi ta opp den naturlige utviklingen av ditt fellesskap. Hva gjør du hvis gruppen din vokser for raskt? Hvordan desentralisere organisasjonen? Og hvordan reagere hvis det regulatoriske miljøet blir fiendtlig? Denne seksjonen vil hjelpe deg med å forutse kommende utfordringer.
+
+**Seksjon 8 : Samle Bitcoiners**  
+Denne siste seksjonen handler om essensen av prosjektet ditt: å samle Bitcoin-entusiaster rundt en felles visjon. Du vil lære hvordan du strukturerer tilnærmingen din for å tiltrekke og beholde nye medlemmer, hvordan delegere oppgaver innen gruppen din, og hvordan få ditt fellesskap til å vokse på en bærekraftig måte.
+
+Klar til å finne ut hvordan du bygger et sterkt og dynamisk Bitcoin-fellesskap? La oss starte!
 
 ## Hvorfor opprette et bitcoin-fellesskap eller møteplass?
 
@@ -1749,7 +1778,7 @@ Vi skal selvfølgelig ikke henfalle til en form for konspiratorisk tenkning. Men
 
 ![image](assets/fr/59.webp)
 
-# Konklusjon
+# Samle Bitcoinere
 
 <partId>62bc2138-c0be-5d39-a341-594690863257</partId>
 
@@ -1846,7 +1875,7 @@ For å oppnå dette vil vi ta utgangspunkt i erfaringene fra flere franske lokal
 
 Selvfølgelig er ** i andre land lovgivningen og driften av foreninger annerledes **. Imidlertid vil flere punkter være veldig nyttige for å opprette en forening eller organisere et viktig arrangement; og ** vi håper at andre bitcoinere vil komme og integrere denne opplæringen spesielt for deres land **.
 
-# Konklusjon
+# Siste seksjon
 
 <partId>e9bdddf4-54c9-4de9-bbce-c3eade8c32e5</partId>
 

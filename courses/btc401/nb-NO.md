@@ -2396,7 +2396,7 @@ Gruppen Satoshi's Fellowship presenterer en LN spillapp ved bruk av LnBits og Mo
 
 Lightning Walker-gruppen presenterer sin løsning for Remittance Service ved bruk av MySQL, JavaScript og ZDB's API.
 
-# Konklusjon
+# Siste seksjon
 <partId>a633fb0c-839c-4405-8b77-2377cce79dd7</partId>
 
 ## Vurderinger & Karakterer

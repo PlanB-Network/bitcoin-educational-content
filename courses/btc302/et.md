@@ -29,9 +29,10 @@ Lõpuks arutletakse põhjalikumalt kogukondade **evolutsiooni üle riiklikust va
 
 <partId>81318b8f-d316-5787-aa4c-4ec8370ba668</partId>
 
-## Rekonekstualiseerimine
+## Kursuse ülevaade
 
 <chapterId>e8991b82-4966-5e04-8f05-7cae46eacbaa</chapterId>
+Tere tulemast kursusele BTC302!
 
 Alates 2009. aastast on Bitcoini areng jätkunud. See hõlmab uute Bitcoini parendusettepanekute (BIP) rakendamist, uute kihtide loomist võrgu skaleerimiseks (muu hulgas Lightning Network) ning mitmete ettevõtete ja idufirmade arengut.
 
@@ -60,6 +61,34 @@ Teisest küljest, kuidas me võiksime julgustada uusi inimesi, kes saabuvad "kr�
 ####
 
 Nende kahe probleemi puhul on parim lahendus olla kohapeal ja harida.
+
+Selle koolituse eesmärk on pakkuda teile kõiki vajalikke võtmeid, et luua ja korraldada tõhusalt Bitcoin'i kogukonda või meet-up'i. Olenemata sellest, kas soovite luua kohaliku algatuse või arendada veebipõhist gruppi, juhendab see kursus teid konkreetselt igas etapis, alates visuaalse identiteedi loomisest kuni regulaarsete ürituste korraldamiseni, sealhulgas teie suhtluskanalite haldamine.
+
+**Jaotis 1 : Sissejuhatus**  
+Alustame sellest, et kontekstualiseerime vajaduse koguda inimesi Bitcoin'i ümber, olgu see siis veebikogukondades või kohalikel meet-up'idel. Saate teada, miks ja kus oma kogukonda alustada ning kuidas seada selgeid eesmärke, et tagada selle kasv ja jätkusuutlikkus.
+
+**Jaotis 2 : Oma Bitcoin'i kogukonna identiteedi kujundamine**  
+Uute liikmete ligimeelitamiseks ja kuuluvustunde loomiseks on oluline luua ainulaadne identiteet. Selles jaotises õpite, kuidas kujundada logo, plakat või bänner, mis peegeldab teie Bitcoin'i kogukonna vaimu.
+
+**Jaotis 3 : Suhtluskanalite loomine oma Bitcoin'i kogukonnale**  
+Suhtlus on iga kogukonna süda. Siin käsitleme erinevaid eelistatavaid suhtluskanaleid ning meetodeid Telegrami grupi või Discord serveri tõhusaks seadistamiseks. Räägime ka multifunktsionaalsete botide integreerimisest, et hõlbustada teie kogukonna haldamist.
+
+**Jaotis 4 : Sotsiaalvõrgustike käivitamine**  
+Nähtavus on teie kogukonna arendamisel oluline. Õpite, kuidas luua spetsiaalne Twitteri profiil, luua ühendusi teiste lähedal asuvate meet-up'idega ja kasutada selliseid platvorme nagu btcmap.org, et suurendada oma nähtavust ja meelitada uusi liikmeid.
+
+**Jaotis 5 : Bitcoin'i meet-up'i korraldamine**  
+See jaotis keskendub meet-up'ide korraldamisele, alates sobiva koha leidmisest kuni ürituse enda korraldamiseni. Uurime ka osalejate pühendumise säilitamise viise, et tagada teie kogukonna jätkusuutlik areng.
+
+**Jaotis 6 : Projektide ja algatuste näited**  
+Et minna kaugemale lihtsalt kohtumistest, pakume selles jaotises konkreetseid ja originaalseid projektinäiteid: temaatilised üritused, töötoad, haridusmaterjalide loomine, kohalikud koostööd ja palju muud. Õpite ka, kuidas luua oma kogukonna reklaamimiseks füüsilisi ja digitaalseid materjale.
+
+**Jaotis 7 : Tuleviku ettevalmistamine**  
+Lõpuks käsitleme teie kogukonna loomulikku arengut. Mida teha, kui teie grupp kasvab liiga kiiresti? Kuidas detsentraliseerida korraldamine? Ja kuidas reageerida, kui regulatiivne keskkond muutub vaenulikuks? See jaotis aitab teil tulevasi väljakutseid ette näha.
+
+**Jaotis 8 : Bitcoin'i entusiastide ühendamine**  
+Viimane jaotis keskendub teie projekti põhiolemusele: Bitcoin'i entusiastide ühendamine ühise visiooni ümber. Õpite, kuidas oma lähenemist struktureerida, et meelitada ja säilitada uusi liikmeid, kuidas oma grupis ülesandeid delegeerida ja kuidas oma kogukonda jätkusuutlikult kasvatada.
+
+Oled valmis avastama, kuidas luua tugev ja dünaamiline Bitcoin'i kogukond? Alustame!
 
 ## Miks luua bitcoin kogukond või kohtumine?
 
@@ -1749,7 +1778,7 @@ Loomulikult ei tohiks me langeda mingisse konspiratiivsesse mõtlemisse. Kuid **
 
 ![image](assets/fr/59.webp)
 
-# Kokkuvõte
+# Koguda kokku Bitcoineri
 
 <partId>62bc2138-c0be-5d39-a341-594690863257</partId>
 
@@ -1846,7 +1875,7 @@ Selle saavutamiseks alustame mitmete Prantsuse kogukondade kogemustest, kes on j
 
 Loomulikult on **muudes riikides seadusandlus ja ühenduste toimimine erinev**. Mitmed punktid on siiski väga kasulikud ühingu loomisel või tähtsa ürituse korraldamisel; ja **toovime, et teised bitcoin'id tulevad ja integreerivad selle koolituse spetsiaalselt oma riigi jaoks**.
 
-# Kokkuvõte
+# Lõpusektsioon
 
 <partId>e9bdddf4-54c9-4de9-bbce-c3eade8c32e5</partId>
 

@@ -136,27 +136,27 @@ NB. Si consiglia di effettuare la revisione nella finestra del codice, con il co
 
 6. Regole da seguire durante il proofreading dei contenuti
 
-- Prima di iniziare una nuova revisione, annuncialo nel [gruppo Telegram](https://t.me/PlanBNetwork_ContentBuilder) o informa il tuo coordinatore di Plan ₿ Network. Apriranno una [issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues), dove puoi commentare che stai iniziando il lavoro.
-- È importante controllare sempre la versione originale in inglese (o francese) del corso/tutorial durante la revisione. Sentiti libero di apportare modifiche per migliorare la fluidità, ma non cambiare il significato originale complessivo.
-- Gli strumenti LLM possono tradurre letteralmente alcune parole relative a Bitcoin, come Lightning Network, che diventerebbe "Rete Fulmine" in italiano. In casi come questo, è consigliabile utilizzare la parola originale in inglese per una maggiore chiarezza, a meno che le regole della tua lingua non ti impongano di tradurre ogni singola parola.
-- Se trovi citazioni, assicurati di fare delle ricerche online per trovare la traduzione corretta nella tua lingua.
+- Prima di iniziare una nuova revisione, annuncialo nel [gruppo Telegram](https://t.me/PlanBNetwork_ContentBuilder) o informa il tuo coordinatore di Plan ₿ Network. Verrà aperta una [issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues), dove potrai commentare per comunicare che stai iniziando il lavoro.
+- È importante controllare sempre la versione originale in inglese (o francese) del corso/tutorial durante la revisione. Sentiti libero di apportare modifiche per migliorare la fluidità, ma non cambiare il significato complessivo del testo.
+- Gli strumenti LLM possono tradurre letteralmente alcune parole relative a Bitcoin, come Lightning Network, che diventerebbe "Rete Fulmine" in italiano. In casi come questo, è consigliabile mantenere il termine originale in inglese per una maggiore chiarezza, a meno che le regole grammaticali della tua lingua non impongano la traduzione di ogni singola parola.
+- Se trovi delle citazioni, assicurati di fare delle ricerche online per trovare la traduzione corretta nella tua lingua.
 - NON tradurre le parole statiche all'inizio del testo, che vengono utilizzate per descrivere il suo contenuto: "name", "description", "objectives".
-- Se trovi "Plan ₿ Network" nel testo, lascialo in questa forma originale. Non tradurre la parola "plan" o la parola "network". Inoltre, NON utilizzare l'articolo "IL" quando presenti Plan ₿ Network, e consideralo come un marchio. Lo stesso vale per "B-CERT", "BIZ SCHOOL", "TECH SCHOOL", che dovrebbero essere mantenuti anche nella forma originale.
-- Fai attenzione a punteggiatura strana come `\*\*\`, che potrebbe rappresentare una cattiva resa del simbolo in grassetto **. Controlla sempre il testo originale in inglese per vedere se è previsto un testo in grassetto. Puoi trovare ulteriori informazioni sul linguaggio markdown [qui](https://www.markdownguide.org/basic-syntax/).
+- Se nel testo trovi "Plan ₿ Network", lascialo in questa forma originale. Non tradurre la parola "plan" o la parola "network". Inoltre, NON utilizzare l'articolo "IL" quando presenti Plan ₿ Network, e consideralo come un marchio. Lo stesso vale per "B-CERT", "BIZ SCHOOL", "TECH SCHOOL", che dovranno rimanere nella forma originale.
+- Fai attenzione a punteggiatura strana come `\*\*\`, che potrebbe indicare un errore nella visualizzazione del grassetto **. Controlla sempre il testo originale in inglese per vedere se è previsto un testo in grassetto. Puoi trovare ulteriori informazioni sul linguaggio markdown [qui](https://www.markdownguide.org/basic-syntax/).
 - Quando hai finito la tua revisione, puoi tornare alla issue iniziale aperta dal coordinatore, commentare con "Proofreading done" e inserire il link della tua PR.
 
-7. Attendere la revisione degli admin
+7. In attesa di revisione
 
 
-- Congratulazioni, la tua PR è stata inviata! È possibile seguirne l'avanzamento nella scheda "Richieste di modifica" del [repository GitHub di Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/pulls):
+- Congratulazioni, la tua PR è stata inviata! puoi seguirne l'avanzamento nella sezione "Pull requests" del [repository GitHub di Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/pulls):
 
 ![REVIEW](assets/fr/12.webp)
 
 
-- Grazie mille per il vostro contributo! Dopo l'approvazione, un membro del team di Plan ₿ Network vi contatterà per inviare la vostra ricompensa. \**I pagamenti vengono effettuati esclusivamente tramite la rete Lightning\**.
-- Se volete ricominciare, tornate al punto 2 e inviate un nuovo messaggio nel gruppo Telegram per continuare a contribuire ad altri contenuti. Assicuratevi di sincronizzare il vostro fork prima di creare un nuovo ramo di lavoro. Per farlo, andate nella homepage del vostro fork, selezionate il ramo principale chiamato `dev` (cfr. \**A\**), quindi fate clic sul pulsante "Sync fork" (cfr. \**B\**). Se sono disponibili aggiornamenti per il vostro fork, apparirà il pulsante "Update branch". È sufficiente fare clic su di esso per eseguire l'aggiornamento.
+- Grazie mille per il tuo contributo! Dopo l'approvazione, un membro del team di Plan ₿ Network ti contatterà per inviati la tua ricompensa. \**I pagamenti vengono effettuati esclusivamente tramite la rete Lightning\**.
+- Se vuoi contribuire di nuovo, torna al punto 2 e invia un nuovo messaggio nel gruppo Telegram per iniziare a lavorare su un altro contenuto. Assicurati di sincronizzare il tuo fork prima di creare un nuovo ramo di lavoro. Per farlo, vai nella homepage del tuo fork, seleziona il branch principale chiamato `dev` (cfr. \**A\**), quindi fai clic sul pulsante "Sync fork" (cfr. \**B\**). Se sono disponibili aggiornamenti per il tuo fork, apparirà un pulsante "Update branch". Ti basterà cliccarlo per eseguire l'aggiornamento.
 
 ![REVIEW](assets/fr/16.webp)
 
 
-- Se avete osservazioni, domande o commenti su questo progetto, sentitevi liberi di inviare un DM [al gruppo Telegram dei collaboratori](https://t.me/PlanBNetwork_ContentBuilder).
+- Se hai osservazioni, domande o commenti su questo progetto, sentiti libero di inviare un DM [al gruppo Telegram dei collaboratori](https://t.me/PlanBNetwork_ContentBuilder).

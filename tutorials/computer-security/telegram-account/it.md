@@ -5,16 +5,14 @@ description: Messaggi e molto di più, su mobile e desktop
 ![cover](assets/cover.webp)
 
 ## Perché Telegram
-Telegram è ben più di una app di messaggistica e va oltre il concetto di social.
-Rispetto a molti suoi competitor ha tante caratteristiche che lo rendono uno strumento da saper usare. 
+Telegram è ben più di una app di messaggistica e va oltre il concetto di social. Rispetto a molti suoi competitor ha tante caratteristiche che lo rendono uno strumento da saper usare. 
 
 Oltre a scambiare messaggi, con Telegram puoi effettuare chiamate video e vocali, editare o cancellare i messaggi sebbene già inviati, scambiare file pesanti senza limiti di spazio e tanto altro. Speriamo che questo tutorial ti possa aiutare rendendone semplice la conoscenza e, soprattutto, unirti alle numerose community di bitcoiner presenti su Telegram.
 
 ## Telegram mobile
 Nonostante Telegram sia disponibile dagli store ufficiali, il consiglio è sempre lo stesso: scaricare dal sito dello sviluppatore, una buona abitudine per chi, come te, sta facendo un percorso attento alla privacy.
 
-Con il browser del tuo telefono, vai sul sito [telegram.org](https://telegram.org).
-Puoi scegliere la lingua preferita, ma io ti consiglio di proseguire in inglese, quindi scegli _Telegram for Android_
+Con il browser del tuo telefono, vai sul sito [telegram.org](https://telegram.org). Puoi scegliere la lingua preferita, ma io ti consiglio di proseguire in inglese, quindi scegli _Telegram for Android_
 
 ![image](assets/en/01.webp)
 
@@ -22,8 +20,7 @@ Nella pagina successiva troverai alcuni consigli utili per scaricare il file `.a
 
 ![image](assets/en/02.webp)
 
-Il tuo sistema operativo Android stock potrebbe tentare di scoraggiare un download diretto, comunicandoti che il file potrebbe essere dannoso.
-Tu scegli _Download anyway_.
+Il tuo sistema operativo Android stock potrebbe tentare di scoraggiare un download diretto, comunicandoti che il file potrebbe essere dannoso. Tu scegli _Download anyway_.
 
 ![image](assets/en/03.webp)
 
@@ -44,8 +41,7 @@ dopodiché aprilo dal tuo telefono e scegli _Start Messaging_.
 ![image](assets/en/07.webp)
 
 
-Come ogni buona app di messaggistica VoIP, anche il funzionamento di Telegram si basa su una linea telefonica funzionante.
-Per iniziare devi immettere il tuo numero di telefono: Telegram manderà un SMS di verifica con un codice OTP.
+Come ogni buona app di messaggistica VoIP, anche il funzionamento di Telegram si basa su una linea telefonica funzionante. Per iniziare devi immettere il tuo numero di telefono: Telegram manderà un SMS di verifica con un codice OTP.
 
 ![image](assets/en/08.webp)
 
@@ -61,10 +57,9 @@ Telegram è ora pienamente funzionante su mobile, possiamo passare alle prime im
 
 ## Configurazione dello username
 
-Lo username di Telegram - a volte denominato anche `handle` - è molto più che un vezzo.
-L'handle è infatti **univoco per ogni utente**.
-Su Telegram è facile incontrare impostori che scrivono in privato facendo credere di essere chi non sono.
-Ogni utente può cascare nel tranello e rivelare informazioni personali credendo di chiacchierare con un contatto di cui ha completa fiducia. **Vedremo che proprio l'handle è la migliore difesa per mitigare questo tipo di pericoli**.
+Lo username di Telegram - a volte denominato anche `handle` - è molto più che un vezzo. L'handle è infatti **univoco per ogni utente**.
+
+Su Telegram è facile incontrare impostori che scrivono in privato facendo credere di essere chi non sono. Ogni utente può cascare nel tranello e rivelare informazioni personali credendo di chiacchierare con un contatto di cui ha completa fiducia. **Vedremo che proprio l'handle è la migliore difesa per mitigare questo tipo di pericoli**.
 
 Dal menu principale, scegli _My Profile_.
 
@@ -118,8 +113,8 @@ Abbi cura di impostare:
 - _Calls_ "My Contacts"
 -  _Invites_ "Nobody"
   
-accorgimenti che ti eviteranno di esporre il tuo numero di telefono, così da non ricevere chiamate indesiderate o venire aggiunto a tua insaputa a gruppi di dubbia provenienza.
-In seguito potrai aggiustare tutti gli altri parametri come meglio desideri.
+Si tratta di accorgimenti che eviteranno di esporre il tuo numero di telefono, così da non ricevere chiamate indesiderate o essere aggiunto a tua insaputa a gruppi di dubbia provenienza. In seguito potrai aggiustare tutti gli altri parametri come meglio desideri.
+
 Ora che il tuo account Telegram è impostato e hai guadagnato un minimo di riservatezza, puoi iniziare ad usarlo.
 
 ## Aggiungere contatti e chat
@@ -143,6 +138,7 @@ Dopodiché i contatti appariranno nella schermata principale.
 
 
 Cliccando sull'icona con il pennino, in basso a destra, si attiva la schermata per aggiungere altri contatti, ma non solo.
+
 Telegram offre la possibilità di cercare **Gruppi** tematici, che ricordano molto i forum in cui diversi utenti si riuniscono per parlare di un argomento specifico, oppure i **Canali**, solitamente usati come mezzi di informazione dove solo gli amministratori possono postare e i follower fruire dei contenuti.
 
 ![image](assets/en/44.webp)
@@ -170,8 +166,7 @@ Di default tutti, dai singoli utenti ai canali tematici, sono identificati dall'
 
 ### Funzioni avanzate per i messaggi
 
-Telegram ti permette di usare funzioni avanzate uniche, quando si tratta di scambiare messaggi.
-Entra in una chat e clicca sullo sfondo, a fianco di uno qualunque dei messaggi di un altro mittente.
+Telegram ti permette di usare funzioni avanzate uniche, quando si tratta di scambiare messaggi. Entra in una chat e clicca sullo sfondo, a fianco di uno qualunque dei messaggi di un altro mittente.
 
 Compaiono una serie di opzioni con cui puoi:
 - appuntare i messaggi (_pin_ **A**) per una ricerca rapida di quelli importanti;
@@ -192,8 +187,7 @@ Puoi inoltre allegare file di grandi dimensioni, scambiando media "pesanti" agev
 
 Tra le tante e incredibili caratteristiche di Telegram, c'è anche un cloud personale che - al momento in cui scriviamo - è **illimitato**.
 
-Stiamo parlando dei famosi "Messaggi Salvati", o _Saved Messages_ di Telegram.
-È una chat in cui puoi inviarti quasi **(1)** qualunque tipo di informazione, per esempio passare dei file da PC a mobile e viceversa.
+Stiamo parlando dei famosi "Messaggi Salvati", o _Saved Messages_ di Telegram. È una chat in cui puoi inviarti quasi **(1)** qualunque tipo di informazione, per esempio passare dei file da PC a mobile e viceversa.
 
 Per accedere ai _Messaggi Salvati_ del tuo account, vai nel menu principale e seleziona la relativa voce tra le opzioni che compaiono nella schermata.
 
@@ -209,12 +203,12 @@ La chat compare in primo piano, pronta per essere utilizzata.
 **(1)** _Non usare il cloud di Telegram per informazioni riservate quali password, pin, mnemoniche e dati di questo genere_.
 ***
 
-## Schedulare i messaggi o invio silenzioso
+## Programmare i messaggi ed invio silenzioso
 
-Altre utili funzionalità avanzate permettono di inviare messaggi rispettando la privacy dei destinatari, scegliendo tra l'invio in modalità silenziosa, o posticipare l'arrivo del messaggio in orario e giorno consoni.
+Altre utili funzionalità avanzate permettono di inviare messaggi rispettando la privacy dei destinatari, scegliendo tra l'invio in modalità silenziosa, e la programmazione del messaggio in orari e giorni appropriati.
 
 Tutto ciò che devi fare è scrivere il messaggio ma, anziché inviarlo subito, tieni premuta l'icona dell'invio per qualche secondo. Quello che di solito diventa un messaggio inviato, lascia il posto ad una nuova schermata in cui potrai scegliere tra:
-- schedulare il messaggio (data e ora)
+- programmare il messaggio (data e ora)
 - mandare solo quando il contatto è online
 - inviare silenziosamente, per non attivare le notifiche del destinatario.
 
@@ -222,8 +216,7 @@ Tutto ciò che devi fare è scrivere il messaggio ma, anziché inviarlo subito, 
 
 ### Liberare la cache del tuo telefono
 
-Un'altra utile pratica, per tenere efficiente il tuo telefono, è quella di liberare la cache di Telegram, di tanto in tanto.
-A seconda di quanti gruppi e canali segui, infatti, le informazioni e i media in arrivo da queste fonti potrebbero accumularsi nella cache, rendendo il tuo telefono lento.
+Un'altra utile pratica, per tenere efficiente il tuo telefono, è quella di liberare la cache di Telegram, di tanto in tanto. A seconda di quanti gruppi e canali segui, infatti, le informazioni e i media in arrivo da queste fonti potrebbero accumularsi nella cache, rendendo il tuo telefono lento.
 
 Entra di nuovo nei menu principali, cliccando le tre barrette in alto a destra e scegli di nuovo _My Profile_. Stavolta, però, seleziona i 3 pallini in altro a destra.
 
@@ -242,7 +235,7 @@ Tra le opzioni, scegli appunto _Clear Cache_.
 ![image](assets/en/25.webp)
 
 
-Il dispositivo inizia a quantificare mega/giga di spazio utilizzato. Quando ha finito, compare il tasto _Clear Cache_.
+Il dispositivo inizia a quantificare lo spazio di archiviazione utilizzato. Una volta terminato il calcolo, comparirà il tasto _Clear Cache_.
 
 ![image](assets/en/26.webp)
 
@@ -258,12 +251,11 @@ Puoi vedere nella foto che segue dove trovare questa impostazione.
 ![image](assets/en/28.webp)
 
 
-
 ## Telegram desktop
 
 Telegram si può utilizzare dal tuo computer, in modo che sia sincronizzato con l'account visualizzato dal telefono. Puoi scegliere di non scaricare l'applicazione e di usarlo solo via web. Tale versione, tuttavia, ha delle limitazioni rispetto a quella eseguita sul computer, pertanto ti consiglio di fare download ed installazione per sfruttare al meglio questo potente strumento.
-Tutte le opzioni viste fin qui con il modello mobile, si possono sfruttare nello stesso identico modo dal tuo computer.
-Anche per questa installazione vai sul sito ufficiale [telegram.org](https://telegram.org). Dalla homepage scegli _Telegram for PC/Linux_.
+
+Tutte le opzioni viste fin qui con il modello mobile, si possono sfruttare nello stesso identico modo dal tuo computer. Anche per questa installazione vai sul sito ufficiale [telegram.org](https://telegram.org). Dalla homepage scegli _Telegram for PC/Linux_.
 
 ![image](assets/en/15.webp)
 
@@ -328,5 +320,4 @@ Nell'immagine seguente puoi vedere come far partire una call di gruppo usando Te
 
 ### Considerazioni finali
 
-Ora che hai letto tutto questo tutorial, sei perfettamente in grado di scegliere come utilizzare Telegram, senza farti influenzare dal rumore generato dall'hype dei suoi utenti, o dal mainstream.
-Puoi iniziare con un approccio blando per poi scoprire come sfruttare al meglio, per le tue personali esigenze, questa app di messaggistica.
+Ora che hai letto tutto questo tutorial, sei perfettamente in grado di scegliere come utilizzare Telegram, senza farti influenzare dal rumore generato dall'hype dei suoi utenti, o dal mainstream. Puoi iniziare con un approccio blando per poi scoprire come sfruttare al meglio, per le tue personali esigenze, questa app di messaggistica.

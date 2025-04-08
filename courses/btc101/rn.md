@@ -8,7 +8,6 @@ objectives:
   - Ugire ugutahura rusangi kw'ubuhinga bwa Blockchain
   - Menya neza iciyumviro ca Lightning Network.
   - Gutahura ingaruka za Bitcoin ku vyerekeye politike n’imibano.
-
 ---
 
 # Urugendo rwawe rwa mbere rwa Bitcoin

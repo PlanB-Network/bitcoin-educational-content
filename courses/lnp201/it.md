@@ -31,19 +31,19 @@ Buona scoperta!
 ![video en](https://youtu.be/QDQ8NG0l3hk)
 
 
-Benvenuto al corso LNP201, che mira a spiegare il funzionamento tecnico della Lightning Network.
+Benvenuto al corso LNP201, che mira a spiegare il funzionamento tecnico di Lightning Network.
 
-La Lightning Network è una rete di canali di pagamento costruita sopra il protocollo Bitcoin, con l'obiettivo di abilitare transazioni veloci e a basso costo. Consente la creazione di canali di pagamento tra i partecipanti, all'interno dei quali le transazioni possono essere effettuate quasi istantaneamente e con commissioni minime, senza dover registrare ogni transazione individualmente sulla blockchain. Così, la Lightning Network cerca di migliorare la scalabilità di Bitcoin e renderlo utilizzabile per pagamenti di basso valore.
+Lightning Network è una rete di canali di pagamento costruita sopra il protocollo Bitcoin, con l'obiettivo di abilitare transazioni veloci e a basso costo. Consente la creazione di canali di pagamento tra i partecipanti, all'interno dei quali le transazioni possono essere effettuate quasi istantaneamente e con commissioni minime, senza dover registrare ogni transazione individualmente sulla blockchain. Così, Lightning Network cerca di migliorare la scalabilità di Bitcoin e renderlo utilizzabile per pagamenti di basso valore.
 
-Prima di esplorare l'aspetto "rete", è importante comprendere il concetto di **canale di pagamento** su Lightning, come funziona e le sue specificità. Questo è l'argomento di questo primo capitolo.
+Prima di esplorare l'aspetto di "rete", è importante comprendere il concetto di **canale di pagamento** su Lightning, come funziona e le sue specificità. Questo è l'argomento di questo primo capitolo.
 
 ### Il Concetto di Canale di Pagamento
 
-Un canale di pagamento consente a due parti, qui **Alice** e **Bob**, di scambiare fondi sulla Lightning Network. Ogni protagonista ha un nodo, simboleggiato da un cerchio, e il canale tra loro è rappresentato da un segmento di linea.
+Un canale di pagamento consente a due parti, esempio **Alice** e **Bob**, di scambiare fondi tramite Lightning Network. Ogni protagonista ha un nodo, simboleggiato da un cerchio, e il canale tra loro è rappresentato da un segmento di linea.
 
 ![LNP201](assets/en/01.webp)
 
-Nel nostro esempio, Alice ha 100.000 satoshi dalla sua parte del canale, e Bob ne ha 30.000, per un totale di 130.000 satoshi, che costituisce la **capacità del canale**.
+Nel nostro esempio, Alice ha 100.000 satoshi dalla sua parte del canale, e Bob ne ha 30.000, per un totale di 130.000 satoshi, che costituiscono la **capacità del canale**.
 
 **Ma cos'è un satoshi?**
 
@@ -61,7 +61,7 @@ Prendiamo l'esempio di una transazione Lightning. Se Alice vuole inviare 40.000 
 
 La **capacità del canale**, fissata a 130.000 satoshi, rimane costante. Ciò che cambia è l'allocazione dei fondi. Questo sistema non permette di inviare più fondi di quanti se ne possiedano. Ad esempio, se Bob volesse rispedire 80.000 satoshi ad Alice, non potrebbe, perché ha solo 70.000.
 
-Un altro modo per immaginare l'allocazione dei fondi è pensare a uno **scorrimento** che indica dove si trovano i fondi nel canale. Inizialmente, con 100.000 satoshi per Alice e 30.000 per Bob, lo scorrimento è logicamente dal lato di Alice. Dopo la transazione di 40.000 satoshi, lo scorrimento si muoverà leggermente verso il lato di Bob, che ora ha 70.000 satoshi.
+Un altro modo per immaginare l'allocazione dei fondi è pensare a un **cursore** che indica dove si trovano i fondi nel canale. Inizialmente, con 100.000 satoshi per Alice e 30.000 per Bob, il cursore è logicamente dal lato di Alice. Dopo la transazione di 40.000 satoshi, il cursore si muoverà leggermente verso il lato di Bob, che ora ha 70.000 satoshi.
 
 ![LNP201](assets/en/04.webp)
 
@@ -78,9 +78,9 @@ Ciò che è importante capire è che la capacità fissa del canale limita l'impo
 
 - La capacità di un canale è fissa e determina l'importo massimo che può essere inviato in una singola transazione.
 - I fondi in un canale sono distribuiti tra i due partecipanti, e ciascuno può inviare all'altro solo i fondi che possiede dal suo lato.
-- La Lightning Network consente quindi lo scambio rapido ed efficiente di fondi, rispettando le limitazioni imposte dalla capacità dei canali.
+- Lightning Network consente quindi lo scambio rapido ed efficiente di fondi, rispettando le limitazioni imposte dalla capacità dei canali.
 
-Questo è la fine di questo primo capitolo, dove abbiamo gettato le basi per la Lightning Network. Nei prossimi capitoli, vedremo come aprire un canale e approfondiremo i concetti qui discussi.
+Questa è la fine del primo capitolo, dove abbiamo gettato le basi per Lightning Network. Nei prossimi capitoli, vedremo come aprire un canale e approfondiremo i concetti qui discussi.
 
 ## Bitcoin, Indirizzi, UTXO e Transazioni
 

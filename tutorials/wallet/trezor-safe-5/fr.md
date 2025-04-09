@@ -37,11 +37,9 @@ Le contenu de la boîte inclut :
 - Une pochette contenant des papiers cartonnés pour noter votre phrase mnémonique, des autocollants, et une notice ;
 - Un câble USB-C vers USB-C.
 
-02
-
 À l'ouverture, votre Trezor Safe 5 devrait être protégé par un plastique de protection et le port USB-C doit être sécurisé par un sceau holographique. Assurez-vous de sa présence.
 
-03
+02
 
 La navigation sur l'appareil est assez intuitive :
 - Touchez la moitié inférieure de l'écran pour avancer ;
@@ -58,7 +56,7 @@ Vous aurez également besoin du logiciel Trezor Suite pour configurer le Safe 5,
 
 [Téléchargez Trezor Suite depuis le site officiel.](https://trezor.io/trezor-suite)
 
-04
+03
 
 Pour ces deux logiciels, je vous recommande fortement de vérifier à la fois leur authenticité (avec GnuPG) et leur intégrité (via le hash) avant de les installer sur votre machine. Si vous ne savez pas comment le faire, vous pouvez suivre cet autre tutoriel :
 
@@ -68,61 +66,61 @@ https://planb.network/tutorials/computer-security/data/integrity-authenticity-21
 
 Branchez votre Safe 5 à votre ordinateur où Trezor Suite et Sparrow Wallet sont déjà installés.
 
-05
+04
 
 Ouvrez Trezor Suite, puis cliquez sur "Set up my Trezor".
 
-06
+05
 
 Sélectionnez "Bitcoin-only firmware", puis cliquez sur "Install Bitcoin-only".
 
-07
+06
 
 Trezor Suite va alors procéder à l'installation du firmware sur votre Safe 5. Patientez pendant l'installation.
 
-08
+07
 
 Cliquez sur "Continue".
 
-09
+08
 
 Procédez ensuite au test d'authenticité pour vous assurer que votre hardware wallet n'est pas faux ou compromis.
 
-10
+09
 
 Sur votre Safe 5, appuyez sur l'écran pour confirmer.
 
-11
+10
 
 Si votre Trezor est authentique, un message de confirmation apparaîtra dans Trezor Suite.
 
-12
+11
 
 Vous pouvez ensuite passer les fenêtres avec les instructions de base d'utilisation.
 
-13
+12
 
 ## Création d'un portefeuille Bitcoin
 
 Sur Trezor Suite, cliquez sur le bouton "Create new wallet".
 
-14
+13
 
 Pour créer un portefeuille standard BIP39, commencez par sélectionner "Legacy wallet backup types" dans le menu déroulant, puis choisissez entre une phrase mnémonique de 12 ou 24 mots (12 mots étant actuellement recommandés). Cela vous permettra de créer un portefeuille single-sig classique. Je vous conseille d'opter pour des paramètres conformes au BIP39 ici, afin de faciliter la récupération et d'éviter d'être restreint à un environnement spécifique. Pour finaliser, cliquez sur "Create wallet".
 
-15
+14
 
 Acceptez les conditions d'utilisation sur le hardware wallet.
 
-16
+15
 
 Maintenez une pression sur l'écran pour créer un nouveau portefeuille.
 
-17
+16
 
 Dans Trezor Suite, cliquez sur "Continue to backup".
 
-18
+17
 
 Le logiciel vous fournit des instructions sur la manière de gérer votre phrase mnémonique.
 
@@ -134,7 +132,7 @@ Vous pouvez l'inscrire sur le papier cartonné fourni dans la boite, ou bien pou
 
 Validez les instructions, puis cliquez sur le bouton "Create wallet backup".
 
-19
+18
 
 Le Safe 5 va créer votre phrase mnémonique en utilisant son générateur de nombres aléatoires. Assurez-vous de ne pas être observé durant cette opération. Notez les mots fournis sur l'écran sur le support physique de votre choix. Selon votre stratégie de sécurisation, vous pouvez envisager de réaliser plusieurs copies physiques complètes de la phrase (mais surtout, ne la divisez pas). Il est important de conserver les mots numérotés et dans l'ordre séquentiel.
 
@@ -144,19 +142,19 @@ Pour plus d'informations sur la manière adéquate de sauvegarder et de gérer v
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-20
+19
 
 Pour passer aux mots suivants, cliquez sur le bas de l'écran. Vous pouvez revenir en arrière en glissant vers le bas. Une fois tous les mots notés, restez appuyé sur l'écran pour passer à l'étape suivante.
 
-21
+20
 
 Sélectionnez les mots de votre phrase mnémonique en fonction de leur ordre pour confirmer que vous les avez correctement notés.
 
-22
+21
 
 Une fois cette procédure de vérification terminée, cliquez sur l'écran pour continuer.
 
-23
+22
 
 ## Mise en place du code PIN
 
@@ -164,33 +162,33 @@ Vient ensuite l'étape du code PIN. Le code PIN permet de déverrouiller votre T
 
 Sur Trezor Suite, cliquez sur "Continue to PIN", puis sur le bouton "Set PIN".
 
-24
+23
 
 Confirmez sur le Safe 5.
 
-25
+24
 
 Il est recommandé de choisir un code PIN le plus aléatoire possible. Assurez-vous également de sauvegarder ce code dans un lieu distinct de celui où est stocké votre Trezor (par exemple, dans un gestionnaire de mot de passe). Vous avez la possibilité de définir un code PIN composé de 8 à 50 chiffres. Je vous recommande de choisir un code PIN aussi long que possible pour renforcer la sécurité.
 
 Utilisez le clavier tactile pour renseigner votre PIN.
 
-26
+25
 
 Une fois terminé, cliquez sur la coche verte en bas à droite, puis confirmez votre PIN une seconde fois.
 
-27
+26
 
 Votre code PIN a bien été enregistré.
 
-28
+27
 
 Sur Trezor Suite, cliquez sur le bouton "Complete setup".
 
-29
+28
 
 La configuration de votre Safe 5 est désormais terminée. Si vous le souhaitez, vous pouvez modifier le nom et la page d'accueil de votre hardware wallet.
 
-30
+29
 
 Nous n'aurons plus besoin du logiciel Trezor Suite, sauf pour effectuer des mises à jour régulières du firmware de votre hardware wallet, ou bien si vous souhaitez faire un test de récupération. Nous allons maintenant utiliser Sparrow pour gérer le portefeuille, car ce logiciel est parfaitement adapté pour une utilisation Bitcoin-only.
 
@@ -204,39 +202,39 @@ https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7
 
 Cliquez sur l'onglet "File", puis sur "New Wallet".
 
-31
+30
 
 Nommez votre portefeuille, puis cliquez sur "Create Wallet".
 
-32
+31
 
 Dans le menu déroulant "Script Type", sélectionnez le type de script qui sera utilisé pour sécuriser vos bitcoins. Je vous recommande d'opter pour "Taproot", ou à défaut, "Native SegWit".
 
-33
+32
 
 Cliquez sur le bouton "Connected Hardware Wallet". Votre Safe 5 doit évidemment être connecté à l'ordinateur et déverrouillé.
 
 Lorsque vous connectez votre Safe 5 à un ordinateur avec Sparrow Wallet ouvert, on vous proposera de saisir une passphrase BIP39 sur l'écran du hardware wallet. Cette option avancée sera abordée dans un futur tutoriel. Pour l'instant, vous pouvez simplement cliquez sur la coche verte en haut à droite pour confirmer que vous souhaitez utiliser une passphrase vide (c'est-à-dire sans passphrase). Pour éviter que votre Trezor ne vous demande de saisir une passphrase à chaque démarrage, allez dans Trezor Suite, accédez aux paramètres, et modifiez l'option dans "Device" > "Wallet default" pour la régler sur "Standard" au lieu de "Passphrase".
 
-34
+33
 
 Cliquez sur le bouton "Scan". Votre Safe 5 devrait apparaitre. Cliquez sur "Import Keystore".
 
-35
+34
 
 Vous pouvez maintenant voir les détails de votre portefeuille, y compris la clé publique étendue de votre premier compte. Cliquez sur le bouton "Apply" pour finaliser la création du portefeuille.
 
-36
+35
 
 Choisissez un mot de passe fort pour sécuriser l'accès à Sparrow Wallet. Ce mot de passe assurera la sécurité de l'accès aux données de votre portefeuille sur Sparrow, ce qui permet de protéger vos clés publiques, vos adresses, vos labels et l'historique de vos transactions contre tout accès non autorisé.
 
 Je vous conseille de sauvegarder ce mot de passe dans un gestionnaire de mots de passe pour ne pas l'oublier.
 
-37
+36
 
 Et voilà, votre portefeuille est bien importé sur Sparrow Wallet !
 
-38
+37
 
 Avant de recevoir vos premiers bitcoins sur votre portefeuille, **je vous conseille vivement de réaliser un test de récupération à vide**. Notez une information de référence, telle que votre xpub, puis réinitialisez votre Trezor Safe 5 tant que le portefeuille est encore vide. Ensuite, essayez de restaurer votre portefeuille sur le Trezor en utilisant vos sauvegardes papier. Vérifiez que la xpub générée après la restauration correspond à celle que vous aviez notée initialement. Si c'est le cas, vous pouvez être assuré que vos sauvegardes papier sont fiables.
 
@@ -248,77 +246,77 @@ https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 
 Sur Sparrow, cliquez sur l'onglet "Receive".
 
-39
+38
 
 Avant d'utiliser l'adresse proposée par Sparrow Wallet, vérifiez-la sur l'écran de votre Trezor. Cette pratique vous permet de confirmer que l'adresse affichée sur Sparrow n'est pas frauduleuse et que le hardware wallet détient bien la clé privée nécessaire pour dépenser ultérieurement les bitcoins sécurisés avec cette adresse. Cela vous permet d'éviter plusieurs types d'attaques.
 
 Pour effectuer cette vérification, cliquez sur le bouton "Display Address".
 
-40
+39
 
 Vérifiez que l'adresse affichée sur votre Trezor correspond à celle indiquée sur Sparrow Wallet. Il est également recommandé de réaliser cette vérification juste avant de communiquer votre adresse à l'envoyeur, afin d'être sûr de sa validité. Vous pouvez appuyer sur l'écran pour confirmer.
 
-41
+40
 
 Vous pouvez ensuite ajouter un "Label" pour décrire la source des bitcoins qui seront sécurisés avec cette adresse. C'est une bonne pratique qui vous permet de mieux gérer vos UTXOs.
 
-42
+41
 
 Vous pouvez ensuite utiliser cette adresse pour recevoir des bitcoins.
 
-43
+42
 
 ## Comment envoyer des bitcoins avec le Trezor Safe 5 ?
 
 Maintenant que vous avez reçu vos premiers sats sur votre portefeuille sécurisé avec le Safe 5, vous pouvez également les dépenser ! Connectez votre Trezor à votre ordinateur, déverrouillez-le à l'aide du code PIN, lancez Sparrow Wallet, puis allez dans l'onglet "Send" pour construire une nouvelle transaction.
 
-44
+43
 
 Si vous souhaitez faire du *Coin Control*, c'est-à-dire choisir spécifiquement quels UTXOs consommer dans la transaction, rendez-vous dans l'onglet "UTXOs". Sélectionnez les UTXOs que vous souhaitez dépenser, puis cliquez sur "Send Selected". Vous serez redirigé vers le même écran de l'onglet "Send", mais avec vos UTXOs déjà sélectionnés pour la transaction.
 
-45
+44
 
 Entrez l'adresse de destination. Vous pouvez également entrer plusieurs adresses en cliquant sur le bouton "+ Add".
 
-46
+45
 
 Notez un "Label" pour vous souvenir de l'objet de cette dépense.
 
-47
+46
 
 Choisissez le montant envoyé à cette adresse.
 
-48
+47
 
 Ajustez le taux de frais de votre transaction en fonction du marché du moment. Vous pouvez par exemple utiliser [mempool.space](https://mempool.space/) pour choisir un taux de frais adapté.
 
 Assurez-vous que tous les paramètres de votre transaction sont corrects, puis cliquez sur "Create Transaction".
 
-49
+48
 
 Si tout vous convient, cliquez sur "Finalize Transaction for Signing".
 
-50
+49
 
 Cliquez sur "Sign".
 
-51
+50
 
 Cliquez sur "Sign" à côté de votre Trezor Safe 5.
 
-52
+51
 
 Vérifiez les paramètres de la transaction sur l'écran de votre hardware wallet, notamment l'adresse de réception du destinataire, le montant envoyé et le montant des frais. Une fois la transaction vérifiée sur le Trezor, maintenez une pression sur l'écran pour la signer.
 
-53
+52
 
 Votre transaction est désormais signée. Vérifiez une dernière fois que tout vous convient, puis cliquez sur "Broadcast Transaction" pour la diffuser sur le réseau Bitcoin.
 
-54
+53
 
 Vous pouvez la retrouver dans l'onglet "Transactions" de Sparrow Wallet.
 
-55
+54
 
 Félicitations, vous êtes maintenant au point sur l'utilisation de base du Trezor Safe 5 avec Sparrow Wallet ! Dans un prochain tutoriel, nous verrons comment utiliser un hardware wallet Trezor avec une passphrase BIP39 pour renforcer sa sécurité.
 

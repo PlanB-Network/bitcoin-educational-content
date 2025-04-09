@@ -1,21 +1,21 @@
 ---
 name: Introduzione Teorica a Lightning Network
-goal: Scoprire la Lightning Network da una prospettiva tecnica
+goal: Scoprire Lightning Network da una prospettiva tecnica
 objectives:
   - Comprendere il funzionamento dei canali della rete.
   - Familiarizzare con i termini HTLC, LNURL e UTXO.
-  - Assimilare la gestione della liquidità e le commissioni della LNN.
-  - Riconoscere la Lightning Network come una rete.
-  - Comprendere gli usi teorici della Lightning Network.
+  - Assimilare la gestione della liquidità e le commissioni di LN.
+  - Riconoscere Lightning Network come una rete.
+  - Comprendere gli usi teorici di Lightning Network.
 ---
 
 # Un Viaggio nel Secondo Strato di Bitcoin
 
-Immergiti nel cuore della Lightning Network, un sistema essenziale per il futuro delle transazioni Bitcoin. LNP201 è un corso teorico sul funzionamento tecnico della Lightning. Rivela le fondamenta e i meccanismi di questa rete di secondo livello, progettata per rendere i pagamenti Bitcoin veloci, economici e scalabili.
+Immergiti nel cuore di Lightning Network, un sistema essenziale per il futuro delle transazioni Bitcoin. LNP201 è un corso teorico sul funzionamento tecnico di Lightning. Rivela le fondamenta e i meccanismi di questa rete di secondo livello, progettata per rendere i pagamenti Bitcoin veloci, economici e scalabili.
 
 Grazie alla sua rete di canali di pagamento, Lightning consente transazioni rapide e sicure senza registrare ogni scambio sulla blockchain di Bitcoin. Nei vari capitoli, imparerai come funzionano l'apertura, la gestione e la chiusura dei canali, come i pagamenti vengono instradati attraverso nodi intermedi in modo sicuro minimizzando la necessità di fiducia, e come gestire la liquidità. Scoprirai cosa sono le transazioni di impegno, gli HTLC, le chiavi di revoca, i meccanismi di punizione, il routing a cipolla e le fatture.
 
-Sia che tu sia un principiante di Bitcoin o un utente più esperto, questo corso fornirà informazioni preziose per comprendere e utilizzare la Lightning Network. Anche se copriremo alcuni fondamenti del funzionamento di Bitcoin nelle prime parti, è essenziale padroneggiare le basi dell'invenzione di Satoshi prima di immergersi in LNP201.
+Sia che tu sia un principiante di Bitcoin o un utente più esperto, questo corso fornirà informazioni preziose per comprendere e utilizzare Lightning Network. Anche se copriremo alcuni fondamenti del funzionamento di Bitcoin nelle prime parti, è essenziale padroneggiare le basi dell'invenzione di Satoshi prima di immergersi in LNP201.
 
 Buona scoperta!
 
@@ -25,7 +25,7 @@ Buona scoperta!
 
 <partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>
 
-## Comprendere la Lightning Network
+## Comprendere Lightning Network
 
 <chapterId>df6230ae-ff35-56ea-8651-8e65580730a8</chapterId>
 ![video en](https://youtu.be/QDQ8NG0l3hk)

@@ -87,7 +87,7 @@ Questa è la fine del primo capitolo, dove abbiamo gettato le basi per Lightning
 <chapterId>0cfb7e6b-96f0-508b-9210-90bc1e28649d</chapterId>
 ![video en](https://youtu.be/U9l5IVriCss)
 
-Questo capitolo è un po' speciale poiché non sarà dedicato direttamente a Lightning, ma a Bitcoin. Infatti, la Lightning Network è uno strato aggiuntivo su Bitcoin. È quindi essenziale comprendere alcuni concetti fondamentali di Bitcoin per afferrare correttamente il funzionamento di Lightning nei capitoli successivi. In questo capitolo, esamineremo le basi degli indirizzi di ricezione di Bitcoin, gli UTXO, così come il funzionamento delle transazioni Bitcoin.
+Questo capitolo è un po' speciale poiché non sarà dedicato direttamente a Lightning, ma a Bitcoin. Infatti, Lightning Network è uno strato aggiuntivo su Bitcoin. È quindi essenziale comprendere alcuni concetti fondamentali di Bitcoin per afferrare correttamente il funzionamento di Lightning nei capitoli successivi. In questo capitolo, esamineremo le basi degli indirizzi di ricezione di Bitcoin, gli UTXO, così come il funzionamento delle transazioni Bitcoin.
 
 ### Indirizzi Bitcoin, Chiavi Private e Chiavi Pubbliche
 
@@ -101,7 +101,7 @@ La chiave privata è un elemento segreto che **non dovrebbe mai essere condiviso
 
 ### Transazioni Bitcoin: Invio di Fondi e Script
 
-Su Bitcoin, una transazione comporta l'invio di fondi da un indirizzo all'altro. Prendiamo l'esempio di Alice che invia 0,002 Bitcoin a Bob. Alice utilizza la chiave privata associata al suo indirizzo per **firmare** la transazione, dimostrando così di essere effettivamente in grado di spendere questi fondi. Ma cosa succede esattamente dietro questa transazione? I fondi su un indirizzo Bitcoin sono bloccati da uno **script**, una sorta di mini-programma che impone certe condizioni per spendere i fondi.
+Su Bitcoin, una transazione comporta l'invio di fondi da un indirizzo all'altro. Prendiamo l'esempio di Alice che invia 0,002 bitcoin a Bob. Alice utilizza la chiave privata associata al suo indirizzo per **firmare** la transazione, dimostrando così di essere effettivamente in grado di spendere questi fondi. Ma cosa succede esattamente dietro questa transazione? I fondi su un indirizzo Bitcoin sono bloccati da uno **script**, una sorta di mini-programma che impone certe condizioni per spendere i fondi.
 
 Lo script più comune richiede una firma con la chiave privata associata all'indirizzo. Quando Alice firma una transazione con la sua chiave privata, lei **sblocca lo script** che blocca i fondi, e questi possono quindi essere trasferiti. Il trasferimento di fondi comporta l'aggiunta di un nuovo script a questi fondi, stabilendo che per spenderli questa volta, sarà richiesta la firma della chiave privata di **Bob**.
 
@@ -109,11 +109,11 @@ Lo script più comune richiede una firma con la chiave privata associata all'ind
 
 ### UTXO: Output di Transazione Non Spesi
 
-Su Bitcoin, ciò che effettivamente scambiamo non sono direttamente bitcoin, ma **UTXO** (_Unspent Transaction Outputs_), ovvero "output di transazione non spesi".
+Su Bitcoin, ciò che effettivamente scambiamo non sono direttamente i bitcoin, ma **UTXO** (_Unspent Transaction Outputs_), ovvero "gli output di transazione non spesi".
 
 Un UTXO è una porzione di bitcoin che può avere qualsiasi valore, ad esempio, **2.000 bitcoin**, **8 bitcoin**, o anche **8.000 satoshi**. Ogni UTXO è bloccato da uno script, e per spenderlo, si devono soddisfare le condizioni dello script, spesso una firma con la chiave privata corrispondente a un dato indirizzo di ricezione.
 
-Gli UTXO non possono essere divisi. Ogni volta che vengono utilizzati per spendere l'importo in bitcoin che rappresentano, deve essere fatto nella sua interezza. È un po' come una banconota: se hai una banconota da 10€ e devi al panettiere 5€, non puoi semplicemente tagliare la banconota a metà. Devi dargli la banconota da 10€, e lui ti darà 5€ di resto. Questo è esattamente lo stesso principio per gli UTXO su Bitcoin! Ad esempio, quando Alice sblocca uno script con la sua chiave privata, sblocca l'intero UTXO. Se desidera inviare solo una parte dei fondi rappresentati da questo UTXO a Bob, può "frammentarlo" in più piccoli. Invierà quindi 0,0015 BTC a Bob e invierà il resto, 0,0005 BTC, a un **indirizzo di resto**.
+Gli UTXO non possono essere divisi. Ogni volta che vengono utilizzati per spendere l'importo in bitcoin che rappresentano, devono essere usati nella loro totalità. È un po' come una banconota: se hai una banconota da 10€ e devi al panettiere 5€, non puoi semplicemente tagliare la banconota a metà. Devi dargli la banconota da 10€, e lui ti darà 5€ di resto. Questo è esattamente lo stesso principio per gli UTXO su Bitcoin! Ad esempio, quando Alice sblocca uno script con la sua chiave privata, sblocca l'intero UTXO. Se desidera inviare solo una parte dei fondi rappresentati da questo UTXO a Bob, può "frammentarlo" in parti più piccole. Invierà quindi 0,0015 BTC a Bob e invierà il resto, 0,0005 BTC, a un **indirizzo di resto**.
 
 Ecco un esempio di una transazione con 2 output:
 
@@ -124,7 +124,7 @@ Ecco un esempio di una transazione con 2 output:
 
 ### Indirizzi Multi-firma
 
-Oltre agli indirizzi semplici generati da una singola chiave pubblica, è possibile creare **indirizzi multi-firma** da più chiavi pubbliche. Un caso particolarmente interessante per la Lightning Network è l'**indirizzo multi-firma 2/2**, generato da due chiavi pubbliche:
+Oltre agli indirizzi semplici generati da una singola chiave pubblica, è possibile creare **indirizzi multi-firma** costituiti da più chiavi pubbliche. Un caso particolarmente interessante per Lightning Network è l'**indirizzo multi-firma 2/2**, generato da due chiavi pubbliche:
 
 ![LNP201](assets/en/07.webp)
 
@@ -132,16 +132,16 @@ Per spendere i fondi bloccati con questo indirizzo multi-firma 2/2, è necessari
 
 ![LNP201](assets/en/08.webp)
 
-Questo tipo di indirizzo rappresenta precisamente sulla blockchain di Bitcoin i canali di pagamento sulla Lightning Network.
+Questo tipo di indirizzo rappresenta precisamente sulla blockchain di Bitcoin i canali di pagamento su Lightning Network.
 
 **Cosa dovresti ricordare da questo capitolo?**
 
 - Un **indirizzo Bitcoin** deriva da una chiave pubblica, che a sua volta deriva da una chiave privata.
 - I fondi su Bitcoin sono bloccati da **script**, e per spendere questi fondi, è necessario soddisfare lo script, che generalmente comporta la fornitura di una firma con la corrispondente chiave privata.
 - Gli **UTXO** sono porzioni di bitcoin bloccate da script, e ogni transazione su Bitcoin consiste nello sbloccare un UTXO e poi crearne uno o più nuovi in cambio.
-- Gli **indirizzi multi-firma 2/2** richiedono la firma di due chiavi private per spendere i fondi. Questi indirizzi specifici sono utilizzati nel contesto della Lightning per creare canali di pagamento.
+- Gli **indirizzi multi-firma 2/2** richiedono la firma di due chiavi private per spendere i fondi. Questi indirizzi specifici sono utilizzati nel contesto di Lightning per creare canali di pagamento.
 
-Questo capitolo su Bitcoin ci ha permesso di rivedere alcune nozioni essenziali per quanto segue. Nel prossimo capitolo, scopriremo specificamente come funziona l'apertura dei canali sulla Lightning Network.
+Questo capitolo su Bitcoin ci ha permesso di rivedere alcune nozioni essenziali per quanto segue. Nel prossimo capitolo, scopriremo specificamente come funziona l'apertura dei canali su Lightning Network.
 
 # Apertura e Chiusura dei Canali
 

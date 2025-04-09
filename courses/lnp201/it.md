@@ -240,9 +240,10 @@ Prendiamo un esempio con Alice che invia 30.000 satoshi a Bob:
 - **Inizialmente**: Alice ha 130.000 satoshi.
 - **Dopo la transazione**: Alice ha 100.000 satoshi, e Bob 30.000 satoshi.
   Per convalidare questo trasferimento, Alice e Bob creano una nuova **transazione Bitcoin non pubblicata** che invierebbe **100.000 satoshi ad Alice** e **30.000 satoshi a Bob** dall'indirizzo multisignature. Entrambe le parti costruiscono questa transazione indipendentemente, ma con gli stessi dati (importi e indirizzi). Una volta costruita, ciascuno firma la transazione e scambia la propria firma con l'altro. Questo permette a entrambe le parti di pubblicare la transazione in qualsiasi momento, se necessario, per recuperare la propria quota del canale sulla blockchain principale di Bitcoin.
+  
   ![LNP201](assets/en/19.webp)
 
-### Processo di Trasferimento: La Fattura
+### Processo di Trasferimento: La Fattura (Invoice)
 
 Quando Bob desidera ricevere fondi, invia ad Alice una **_fattura_** per 30.000 satoshi. Alice procede quindi a pagare questa fattura avviando il trasferimento all'interno del canale. Come abbiamo visto, questo processo si basa sulla creazione e firma di una nuova **transazione di impegno**.
 
@@ -263,7 +264,8 @@ Ancora una volta, questa transazione non viene pubblicata sulla blockchain ma pu
 
 In sintesi, quando i fondi vengono trasferiti all'interno di un canale Lightning:
 
-- Alice e Bob creano una nuova **transazione di impegno**, che riflette la nuova distribuzione dei fondi. - Questa transazione Bitcoin è **firmata** da entrambe le parti, ma **non pubblicata** sulla blockchain di Bitcoin finché il canale rimane aperto.
+- Alice e Bob creano una nuova **transazione di impegno**, che riflette la nuova distribuzione dei fondi.
+- Questa transazione Bitcoin è **firmata** da entrambe le parti, ma **non pubblicata** sulla blockchain di Bitcoin finché il canale rimane aperto.
 - Le transazioni di impegno assicurano che ciascun partecipante possa recuperare i propri fondi in qualsiasi momento sulla blockchain di Bitcoin pubblicando l'ultima transazione firmata.
 
 Tuttavia, questo sistema presenta una potenziale falla, che affronteremo nel prossimo capitolo. Vedremo come ciascun partecipante può proteggersi contro un tentativo di truffa da parte dell'altra parte.
@@ -272,6 +274,7 @@ Tuttavia, questo sistema presenta una potenziale falla, che affronteremo nel pro
 
 <chapterId>f2f61e5b-badb-5947-9a81-7aa530b44e59</chapterId>
 ![video en](https://youtu.be/veCs39uVFUk)
+
 In questo capitolo, approfondiremo il funzionamento delle transazioni sulla Lightning Network discutendo i meccanismi in atto per proteggersi dalle truffe, assicurando che ciascuna parte rispetti le regole all'interno di un canale.
 
 ### Promemoria: Transazioni di Impegno

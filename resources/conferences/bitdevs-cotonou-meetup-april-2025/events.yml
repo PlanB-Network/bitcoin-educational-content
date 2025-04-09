@@ -1,0 +1,20 @@
+id: 26dfb452-926f-428e-822c-0077b1826500
+start_date: 2025-04-19 16:00:00
+end_date: 2025-04-19 18:00:00
+timezone: Africa/Porto-Novo
+address_line_1: J Reside, Cotonou, Benin
+address_line_2: 
+address_line_3: 
+name: Bitdevs Cotonou Meetup April 2025
+builder: Bitdevs Cotonou
+type: meetup
+description: Bitdevs Meetup for Developers who would like to learn and build on Bitcoin in Cotonou, Benin
+language: 
+  - fr
+  - en
+links:
+  website: bitdevscotonou.org
+tags: 
+  - adoption
+  - proof-of-work
+  - development

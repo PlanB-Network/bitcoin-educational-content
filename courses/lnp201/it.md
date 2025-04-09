@@ -153,7 +153,7 @@ Questo capitolo su Bitcoin ci ha permesso di rivedere alcune nozioni essenziali 
 ![video en](https://youtu.be/Ty80WuN5X-g)
 
 
-In questo capitolo, vedremo più precisamente come aprire un canale di pagamento sulla Lightning Network e capire il collegamento tra questa operazione e il sistema Bitcoin sottostante.
+In questo capitolo, vedremo più precisamente come aprire un canale di pagamento su Lightning Network e capire il collegamento tra questa operazione e il sistema Bitcoin sottostante.
 
 ### Canali Lightning
 
@@ -163,13 +163,14 @@ Come abbiamo visto nel primo capitolo, un **canale di pagamento** su Lightning p
 
 ### Livelli di Scambio di Informazioni
 
-È cruciale distinguere chiaramente i diversi livelli di scambio sulla Lightning Network:
+È cruciale distinguere chiaramente i diversi livelli di scambio su Lightning Network:
 
 - **Comunicazioni peer-to-peer (protocollo Lightning)**: Questi sono i messaggi che i nodi Lightning inviano l'uno all'altro per comunicare. Rappresenteremo questi messaggi con linee tratteggiate nere nei nostri diagrammi.
 - **Canali di pagamento (protocollo Lightning)**: Questi sono i percorsi per lo scambio di fondi su Lightning, che rappresenteremo con linee nere continue.
 - **Transazioni Bitcoin (protocollo Bitcoin)**: Queste sono le transazioni effettuate onchain, che rappresenteremo con linee arancioni.
 
 ![LNP201](assets/en/10.webp)
+
 È importante notare che un nodo Lightning può comunicare tramite il protocollo P2P senza aprire un canale, ma per scambiare fondi, è necessario un canale.
 
 ### Passaggi per Aprire un Canale Lightning
@@ -178,7 +179,7 @@ Come abbiamo visto nel primo capitolo, un **canale di pagamento** su Lightning p
 
 ![LNP201](assets/en/11.webp)
 
-- **Creazione dell'indirizzo multisignature**: Con queste due chiavi pubbliche, Alice crea un **indirizzo multisignature 2/2**, il che significa che i fondi che verranno successivamente depositati su questo indirizzo richiederanno entrambe le firme (di Alice e di Bob) per essere spesi.
+- **Creazione dell'indirizzo multi-firme**: Con queste due chiavi pubbliche, Alice crea un **indirizzo multi-firme 2/2**, il che significa che i fondi che verranno successivamente depositati su questo indirizzo richiederanno entrambe le firme (di Alice e di Bob) per essere spesi.
 
 ![LNP201](assets/en/12.webp)
 
@@ -186,7 +187,7 @@ Come abbiamo visto nel primo capitolo, un **canale di pagamento** su Lightning p
 
 ![LNP201](assets/en/13.webp)
 
-- **Transazione di prelievo**: Prima di pubblicare la transazione di deposito, Alice costruisce una transazione di prelievo in modo da poter recuperare i suoi fondi in caso di problemi con Bob. Infatti, una volta che Alice pubblica la transazione di deposito, i suoi satoshi saranno bloccati su un indirizzo multisignature 2/2 che richiede entrambe le sue firme e quella di Bob per essere sbloccato. Alice si protegge da questo rischio di perdita costruendo la transazione di prelievo che le permette di recuperare i suoi fondi.
+- **Transazione di prelievo**: Prima di pubblicare la transazione di deposito, Alice costruisce una transazione di prelievo in modo da poter recuperare i suoi fondi in caso di problemi con Bob. Infatti, una volta che Alice pubblica la transazione di deposito, i suoi satoshi saranno bloccati su un indirizzo multisignature 2/2 che richiede entrambe le firme e quella sua e quella di Bob per essere sbloccato. Alice si protegge da questo rischio di perdita costruendo la transazione di prelievo che le permette di recuperare i suoi fondi.
 
 ![LNP201](assets/en/14.webp)
 

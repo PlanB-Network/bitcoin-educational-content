@@ -1,7 +1,7 @@
 # generate a random uuid v4
 id: 5dba9b01-7c15-40cb-a470-06baa228ac64
 
-# Complete name of the Conference
+# Complete name of the content
 # with year to avoid duplication
 name: Adopting Bitcoin 2021
 

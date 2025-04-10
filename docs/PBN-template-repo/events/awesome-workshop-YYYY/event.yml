@@ -12,7 +12,8 @@ timezone: Europe/Zurich
 
 # event location
 # this line is the most important
-address_city_country: Palazzo dei Congressi, Lugano, Switzerland
+# if this contain an error the event location is wrongly displayed on the map
+address_city_country: Palazzo dei Congressi, Lugano, 6900, Switzerland
 # additional location lines
 address_line_2: 2nd floor
 address_line_3: Room No. 7

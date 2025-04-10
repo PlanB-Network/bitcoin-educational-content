@@ -1,7 +1,7 @@
 ---
 Naziv: Bitkoin za preduzeća
-Cilj: Naučite osnove plaćanja i čuvanja vrednosti kako biste integrisali svoju kompaniju sa Bitkoinom
-objectives: 
+Svrha: Naučite osnove plaćanja i čuvanja vrednosti kako biste integrisali svoju kompaniju sa Bitkoinom
+Ciljevi: 
 
   - Bitkoin kao nova valuta i poslovni alat
   - Razumeti zašto i kako preduzeće može držati Bitkoin u trezoru ili ga koristiti za plaćanja

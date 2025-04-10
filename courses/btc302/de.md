@@ -3,11 +3,11 @@ name: Gründung einer Bitcoin-Community oder eines Treffens
 goal: Einfaches Erstellen und Organisieren einer Bitcoin-Community oder eines Treffens
 objectives: 
 
-  - Erfahren Sie, wie Sie eine Bitcoin-Community und/oder ein Bitcoin-Treffen aufbauen können?
-  - Aufbau einer visuellen und digitalen Identität für Ihre Gemeinschaft, und mit welchen Tools sollte man beginnen?
-  - Setzen Sie jährliche Ziele für Ihre Gemeinde
-  - Definieren Sie Projekte und Initiativen für Ihre Gemeinde
-  - Verstehen Sie, wie wichtig es ist, die zukünftige Entwicklung einer Gemeinschaft zu antizipieren?
+  - Erfahren Sie, wie Sie eine Bitcoin-Community und/oder ein Bitcoin-Treffen aufbauen können.
+  - Aufbau einer visuellen und digitalen Identität für Ihre Community, und mit welchen Tools sie beginnen sollten.
+  - Setzen Sie jährliche Ziele für Ihre Community.
+  - Definieren Sie Projekte und Initiativen für Ihre Community.
+  - Verstehen Sie, wie wichtig es ist, die zukünftige Entwicklung einer Community zu antizipieren?
 
 ---
 # Der erste Schritt zur Einführung von Bitcoin
@@ -34,17 +34,17 @@ Schließlich wird die **Entwicklung der Gemeinschaften aus nationaler Sicht**, a
 <chapterId>e8991b82-4966-5e04-8f05-7cae46eacbaa</chapterId>
 Willkommen im Kurs BTC302!
 
-Seit 2009 hat sich Bitcoin weiter entwickelt. Dazu gehören die Umsetzung neuer Bitcoin-Verbesserungsvorschläge (BIPs), die Schaffung neuer Schichten zur Skalierung des Netzwerks (u.a. Lightning Network) und die Entwicklung mehrerer Unternehmen und Startups.
+Seit 2009 hat sich Bitcoin stetig weiterentwickelt. Dazu gehören die Umsetzung neuer Bitcoin-Verbesserungsvorschläge (BIPs), der Aufbau zusätzlicher Schichten zur Skalierung des Netzwerks (u. a. das Lightning Network) sowie die Entstehung zahlreicher Unternehmen und Startups.
 
-Die Entwicklung ist auch auf der Handelskette sichtbar, insbesondere an der wachsenden Zahl von Transaktionen.
+Die Entwicklung ist auch on-chain sichtbar, insbesondere an der wachsenden Zahl von Transaktionen.
 
-So wird geschätzt, dass zwischen dem 1. Januar 2018 und dem 1. Januar 2024 die Anzahl der Transaktionen auf der Bitcoin-Hauptschicht [um 66,2 Prozent] (https://dune.com/queries/3375917/5663935) gestiegen ist, während zwischen August 2021 und August 2023 die Anzahl der öffentlichen Transaktionen auf dem Lightning-Overlay [um 1212 Prozent] (https://river.com/learn/files/river-lightning-report-2023.pdf) gestiegen ist.
+Zwischen dem 1. Januar 2018 und dem 1. Januar 2024 ist die Anzahl der Transaktionen auf der Bitcoin-Base-Layer um 66,2 % gestiegen, während die Anzahl der öffentlichen Transaktionen im Lightning-Netzwerk zwischen August 2021 und August 2023 um 1212 % zugenommen hat.
 
 Diese statistische Sichtweise steht natürlich in engem Zusammenhang damit:
 
 
-- das wachsende [Interesse an der Verwendung von Bitcoin durch viele Einzelpersonen](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin) auf der ganzen Welt, mit dem Ziel, sich vom Bankensystem zu emanzipieren und/oder eine Währung zu verwenden, die weniger volatil oder weniger abgewertet ist als die eigene, wie im Fall der Bevölkerung im Libanon, Syrien, Ägypten, Argentinien usw;
-- wertzuwachs im Laufe der Zeit, so dass er durch seine monetäre Emission zu einem Wertaufbewahrungsmittel und einer langfristigen Anlage wird.
+- das wachsende Interesse an der Verwendung von Bitcoin durch viele Einzelpersonen(https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin) auf der ganzen Welt, mit dem Ziel, sich vom Bankensystem zu emanzipieren und/oder eine Währung zu verwenden, die weniger volatil oder weniger abgewertet ist als die eigene, wie im Fall der Bevölkerung im Libanon, Syrien, Ägypten, Argentinien usw;
+- Wertzuwachs im Laufe der Zeit, so dass er durch seine monetäre Emission zu einem Wertaufbewahrungsmittel und einer langfristigen Anlage wird.
 - die weitere Entwicklung des spekulativen Kryptowährungsmarktes, insbesondere in den Jahren 2017/2018 und 2020/2021;
 - dass bitcoin immer häufiger in den Medien auftaucht.
 
@@ -96,7 +96,7 @@ Bereit zu erfahren, wie man eine starke und dynamische Bitcoin-Community aufbaut
 
 ### Was ist der Unterschied zwischen einer Gemeinschaft und einem Treffen?
 
-Obwohl es im Bitcoin-Ökosystem keine spezifische Definition für diese beiden Begriffe gibt, kann man eine Community als eine Ansammlung von mehreren Personen betrachten, die eine gemeinsame Leidenschaft(en) teilen und mehr oder weniger regelmäßig miteinander kommunizieren.
+Obwohl es im Bitcoin-Ökosystem keine spezifische Definition für diese beiden Begriffe gibt, kann man eine Community als eine Ansammlung von mehreren Personen betrachten, die eine oder mehrere gemeinsame Leidenschaft(en) teilen und mehr oder weniger regelmäßig miteinander kommunizieren.
 
 Parallel dazu ist ein Meet-up eine Veranstaltung, die von (und für) diese Gemeinschaft mit einem bestimmten Ziel organisiert wird. Es findet in der Regel statt, sobald die entsprechende Gemeinschaft gegründet wurde.
 
@@ -120,9 +120,9 @@ Auf der anderen Seite kann eine Bitcoin-Community auch offenere Ziele verfolgen,
 
 2. wie es funktioniert;
 
-3. was sie für unsere Gesellschaft bedeutet;
+3. was es für unsere Gesellschaft bedeutet;
 
-4. den unbegründeten und/oder irreführenden Unsinn, den einige Persönlichkeiten und Medien zu verbreiten versuchen;
+4. den unbegründeten und/oder irreführenden Unsinn, den einige Persönlichkeiten und Medien zu verbreiten versuchen zu korrigieren
 
 5. seine wichtigsten Unterschiede zu anderen Kryptowährungen.
 
@@ -150,7 +150,7 @@ Für Bitcoin-Enthusiasten können die Treffen daher eine **günstige Zeit für D
 
 ####
 
-Darüber hinaus können diese Veranstaltungen auch die Ankündigung von Bitcoin-bezogenen Projekten erleichtern, eine Gelegenheit sein, Ausrüstung oder Bücher auszuleihen, einen Dokumentarfilm vorzuführen; aber auch für eine Konferenz oder einen Workshop zu einem bestimmten Thema. Wir werden dies in Teil 6/8 dieses Kurses mit dem Titel "[Beispiele für Projekte und Initiativen](LINK)" ausführlicher diskutieren.
+Darüber hinaus können diese Veranstaltungen auch die Ankündigung von Bitcoin-bezogenen Projekten erleichtern, eine Gelegenheit sein, Equipment oder Bücher auszuleihen, einen Dokumentarfilm vorzuführen; aber auch für eine Konferenz oder einen Workshop zu einem bestimmten Thema. Wir werden dies in Teil 6/8 dieses Kurses mit dem Titel "[Beispiele für Projekte und Initiativen](LINK)" ausführlicher diskutieren.
 
 ####
 
@@ -207,7 +207,7 @@ In diesem Sinne könnte Ihnen die folgende "Konvention" bei der Entscheidungsfin
 
 Aber es steht Ihnen natürlich völlig frei, das zu tun, was Sie für richtig halten.
 
-Wenn jedoch eine Bitcoin-Gemeinschaft zwar existiert, aber nicht aktiv ist, könnte es sinnvoller sein, sie zu übernehmen und neu zu entfachen, indem man zum Beispiel mit ihren ehemaligen Schöpfern Kontakt aufnimmt, um Zugang zu den früher genutzten Kommunikationskanälen und sozialen Netzwerken zu erhalten.
+Wenn jedoch eine Bitcoin-Gemeinschaft zwar existiert, aber nicht aktiv ist, könnte es sinnvoller sein, sie zu übernehmen und neu zu entfachen, indem man zum Beispiel mit ihren ehemaligen Gründern Kontakt aufnimmt, um Zugang zu den früher genutzten Kommunikationskanälen und sozialen Netzwerken zu erhalten.
 
 Umgekehrt, wenn sich eine alte Bitcoin-Gemeinschaft - sagen wir mal - "weiterentwickelt" hat, Ihre Werte nicht mehr teilt und Sie nicht die Motivation oder Zeit haben, sie zu überzeugen, ist eine Abspaltung immer möglich.
 
@@ -221,7 +221,7 @@ Um Ihnen dabei zu helfen, haben wir im Folgenden einige Gedanken aufgelistet, di
 
 ####
 
-1. **Warum habe ich als Bitcoiner diese Gemeinschaft gegründet?** Um mein Wissen zu teilen? Zu erziehen? Um von anderen zu lernen? Um andere Gleichgesinnte zu treffen? Um mich in das Ökosystem einzubringen? Um Fachleute zu treffen? Einfach um Bier zu trinken und neue Freunde zu finden?
+1. **Warum habe ich als Bitcoiner diese Gemeinschaft gegründet?** Um mein Wissen zu teilen? Zu lehren? Um von anderen zu lernen? Um andere Gleichgesinnte zu treffen? Um mich in das Ökosystem einzubringen? Um Fachleute zu treffen? Einfach um Bier zu trinken und neue Freunde zu finden?
 
 Je nachdem, was Sie antworten, werden Ihre Positionierung und Ihre Beweggründe natürlich unterschiedlich sein.
 
@@ -253,7 +253,7 @@ Je nach den behandelten Themen (z. B. Fachvorträge oder Handarbeits-Workshops) 
 
 Diese viel weitergehende Frage kann bei der Gründung Ihrer Gemeinschaft berücksichtigt werden.
 
-Wenn Sie eine vereinte, engagierte Gemeinschaft von motivierten Bitcoinern** aufbauen wollen, die so viele Menschen wie möglich in ihrem Umfeld aufklären und anstecken wollen, dann werden Sie das brauchen:
+Wenn Sie eine vereinte, engagierte Gemeinschaft von motivierten Bitcoinern** aufbauen wollen, die so viele Menschen wie möglich in ihrem Umfeld aufklären und anstecken wollen, dann werden Sie folgendes brauchen:
 
 
 - einerseits **auf bestehende Gemeinschaften zuzugehen**, mit dem Ziel, auf ein umfangreicheres Informationsangebot zuzugreifen, Zugang zu einer Vielzahl von Links und Open-Source-Ressourcen zu haben, die wiederverwendet werden können, aber auch, um Hilfe zu erhalten, wenn man sie braucht; * andererseits **sich selbst zu organisieren - und damit Aufgaben zu verteilen - innerhalb Ihrer Gemeinschaft, um gemeinsam voranzukommen**.
@@ -300,7 +300,7 @@ Zum Beispiel **in Frankreich heißen die fünfzig Gemeinschaften, die sich dort 
 
 In Deutschland hat die Initiative "Einundzwanzig" dazu geführt, dass fast alle deutschsprachigen Gemeinschaften "Einundzwanzig [CITTÀ]" heißen, während in Italien die Initiative "Satoshi Spritz" - die Initiatorin der meisten der aktuellen italienischen Gemeinschaften - ihre Gemeinschaften "Satoshi Spritz [CITTÀ]" nennt **Jede Gemeinschaft hat also ihre eigene Identität in Bezug auf ihre Herkunftsstadt, aber auch in Bezug auf die globale Identität ihres Landes**.
 
-Obwohl es Ihnen also durchaus möglich ist, eine neue französische Gemeinschaft mit dem von Ihnen gewünschten Namen zu gründen, **ist es in unserem Land sinnvoller, sie "Bitcoin [CITY]" oder "[CITY] Bitcoin "** zu nennen.
+Obwohl es Ihnen also durchaus möglich ist, eine neue französische Gemeinschaft mit dem von Ihnen gewünschten Namen zu gründen, **ist es in Frankreich sinnvoller, sie "Bitcoin [CITY]" oder "[CITY] Bitcoin "** zu nennen.
 
 ####
 
@@ -369,19 +369,19 @@ Um Ihnen eine genauere Anleitung an die Hand zu geben, bieten wir Ihnen im Folge
 Hier stehen Ihnen auch einige vorgefertigte, vervielfältigbare und bearbeitbare Dateien zur Verfügung, die wir mit unserem Verband Bitcoin Lille verwenden:
 
 
-- plakat zur Ankündigung des Treffens** (für soziale Netzwerke und in A4 oder A3 gedruckt): [Link](https://www.canva.com/design/DAGBvBXFJ8A/92-j_toeLU8QbVAD0NwoAA/edit?utm_content=DAGBvBXFJ8A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- Plakat zur Ankündigung des Treffens** (für soziale Netzwerke und in A4 oder A3 gedruckt): [Link](https://www.canva.com/design/DAGBvBXFJ8A/92-j_toeLU8QbVAD0NwoAA/edit?utm_content=DAGBvBXFJ8A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ![immagine](assets/fr/10.webp)
 
 
-- poster zur Ankündigung der gemeinsamen Veranstaltung** (für soziale Netzwerke und in A4 oder A3 gedruckt): [Link](https://www.canva.com/design/DAGBvG3rNCc/oXtNR9pduRs22AqclG4O2g/edit?utm_content=DAGBvG3rNCc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-- werbebanner für einige soziale Netzwerke**: [Link](https://www.canva.com/design/DAGBvOXyNqw/iSJG9PbIQHgGWHz5PhlXSQ/edit?utm_content=DAGBvOXyNqw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-- wettbewerbsausschreibung**:[link](https://www.canva.com/design/DAGBvIjuA_w/YzSUXzOmbNV9oCma9mluOw/edit?utm_content=DAGBvIjuA_w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- Poster zur Ankündigung der gemeinsamen Veranstaltung** (für soziale Netzwerke und in A4 oder A3 gedruckt): [Link](https://www.canva.com/design/DAGBvG3rNCc/oXtNR9pduRs22AqclG4O2g/edit?utm_content=DAGBvG3rNCc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- Werbebanner für einige soziale Netzwerke**: [Link](https://www.canva.com/design/DAGBvOXyNqw/iSJG9PbIQHgGWHz5PhlXSQ/edit?utm_content=DAGBvOXyNqw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- Wettbewerbsausschreibung**:[link](https://www.canva.com/design/DAGBvIjuA_w/YzSUXzOmbNV9oCma9mluOw/edit?utm_content=DAGBvIjuA_w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ![immagine](assets/fr/11.webp)
 
 
-- papier** aus unserer Bibliothek, das in A4 während der Sitzungen ausliegt: [Link](https://www.canva.com/design/DAGBvPqL7N4/LmUItfsysypRLSOFOzBXcQ/edit?utm_content=DAGBvPqL7N4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- Papier** aus unserer Bibliothek, das in A4 während der Sitzungen ausliegt: [Link](https://www.canva.com/design/DAGBvPqL7N4/LmUItfsysypRLSOFOzBXcQ/edit?utm_content=DAGBvPqL7N4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 - PowerPoint-Präsentation** "Chapter 2 - Understanding Bitcoin Transactions," von @ProfEduStream: [link](https://www.canva.com/design/DAFsEcnOro8/Mz9FYdTGhsvozZOe0Y9jtw/edit?utm_content=DAFsEcnOro8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 - Handout** "21 Gründe, Bitcoin zu verwenden", geschrieben von @ProfEduStream: [link](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
@@ -476,7 +476,7 @@ In diesem Sinne ist es **bei der Auswahl der Kommunikationskanäle am sinnvollst
 
 ####
 
-**Im Falle Frankreichs (und der französischsprachigen Welt im Allgemeinen) ist der wichtigste Kommunikationskanal Telegram**. Mehr als 90 % der französischen Treffen verfügen über ein solches Programm: es ist ein "Must-have" Als nächstes **ist das wichtigste soziale Netzwerk, das von den Gemeinschaften genutzt wird, Twitter** (70 % der französischen Treffen); ein soziales Netzwerk, in dem die meisten Bitcoiner präsent sind. Darüber hinaus haben fast 30 % der französischen Treffen (sowie alle kanadischen Treffen) ein bezahltes Konto bei der App **Meetup**. Dies kann in der Tat eine hervorragende Möglichkeit sein, Veranstaltungen außerhalb des Bitcoin-Ökosystems bekannt zu machen. Schließlich haben 30 % der französischen Treffen auch eine **Webseite**; und 10 % haben einen **Discord**-Server und ein **NOSTR**-Konto.
+**Im Falle Frankreichs (und der französischsprachigen Welt im Allgemeinen) ist der wichtigste Kommunikationskanal Telegram**. Mehr als 90 % der französischen Treffen verfügen über ein solches Programm: es ist ein "Must-have" Als nächstes **ist das wichtigste soziale Netzwerk, das von den Gemeinschaften genutzt wird, Twitter** (70 % der französischen Treffen); ein soziales Netzwerk, in dem die meisten Bitcoiner präsent sind. Darüber hinaus haben fast 30 % der französischen Treffen (sowie alle kanadischen Treffen) ein bezahltes Konto bei der App **Meetup**. Dies kann in der Tat eine hervorragende Möglichkeit sein, Veranstaltungen außerhalb des Bitcoin-Ökosystems bekannt zu machen. Schließlich haben 30 % der französischen Treffen auch eine **Webseite**; und 10 % haben einen **Discord**-Server und ein **NOSTR**-Account.
 
 ####
 
@@ -540,11 +540,11 @@ Um bekannte Beispiele wie Messenger- oder WhatsApp-Gruppen zu nennen: Jeder, der
 Die Administratoren dieses Kanals können dann:
 
 
-- nachrichten persönlich veröffentlichen;
-- fix** die wichtigsten;
-- umfragen** veröffentlichen (sehr nützlich für die Wahl des Termins der nächsten Sitzung, wenn diese noch nicht regelmäßig stattfindet, d.h. wenn sich die Gemeinschaft noch in der Entwicklung befindet);
+- Nachrichten persönlich veröffentlichen;
+- die wichtigsten Nachrichten anpinnen.;
+- Umfragen** veröffentlichen (sehr nützlich für die Wahl des Termins der nächsten Sitzung, wenn diese noch nicht regelmäßig stattfindet, d.h. wenn sich die Gemeinschaft noch in der Entwicklung befindet);
 - einen **angepassten Einladungslink** erstellen (solange die Gruppe "öffentlich" und nicht "privat" ist, was in den Einstellungen zu definieren ist. Es ist auch sehr praktisch, einen eigenen Telegram-Einladungslink zu haben, der wie folgt aussieht: t.me/Bitcoin[CITY]);
-- berechtigungen, Administratoren und Mitglieder hinzufügen oder entfernen**;
+- Berechtigungen, Administratoren und Mitglieder hinzufügen oder entfernen**;
 - Fügen Sie der Telegram-Gruppe ein "Profilbild "** hinzu (z. B. Ihr Community-Logo) **und ändern Sie ihren Namen**.
 
 ####
@@ -553,7 +553,7 @@ Anleitung zum Erstellen einer Telegram-Gruppe:
 
 ![Tutorial canale Telegram](https://www.youtube.com/watch?v=u1BuxEsmFuA)
 
-Ein Hinweis: Wie bereits erwähnt, wurde das obige Tutorial auf einem Computer mit der "Telegram+" APK erstellt. Allerdings ist es jetzt sehr einfach, eine Telegram-Gruppe auf einem Telefon zu erstellen.
+Ein Hinweis: Wie bereits erwähnt, wurde das obige Tutorial auf einem Computer mit der "Telegram+" APK erstellt. Allerdings ist es jetzt sehr einfach, eine Telegram-Gruppe auf einem Smartphone zu erstellen.
 
 Sie brauchen also nicht mehr "Telegram+" herunterzuladen, um diese Aufgabe zu erfüllen; es sei denn, Sie möchten die Privatsphäre-Einstellungen Ihrer Gruppe erforschen.
 
@@ -563,7 +563,7 @@ Der Nachteil einer Telegram-Gruppe ist, dass bei mehreren hundert Mitgliedern di
 
 Hierfür gibt es mehrere Lösungen:
 
-1. **Wichtige Nachrichten als Administrator** reparieren, damit alle davon erfahren (einmal mit dem Finger auf die betreffende Nachricht drücken, dann "Reparieren" wählen);
+1. **Wichtige Nachrichten als Administrator anpinnen, damit alle darüber benachrichtigt werden (einfach die entsprechende Nachricht antippen und dann „Anpinnen“ auswählen);
 
 2. schlagen Sie vor, dass Ihre Gemeinschaft **einen Discord-Server** mit verschiedenen Kommunikationskanälen nutzt, die jeder stumm schalten kann, wenn er möchte;
 
@@ -577,7 +577,7 @@ Es ist einfach **eine Telegram-Gruppe, in der verschiedene "Themen "** integrier
 
 Es kann auch ein **"Allgemeines "** Thema eingerichtet werden, in dem alle Mitglieder diskutieren können.
 
-Schließlich können **spezifische Themen** (Bergbau, Projektentwicklung, bevorstehende Konferenz usw.) hinzugefügt werden.
+Schließlich können **spezifische Themen** (Mining, Projektentwicklung, bevorstehende Konferenzen usw.) hinzugefügt werden.
 
 Es liegt an Ihnen, es nach Ihren Wünschen zu modifizieren; ähnlich wie zum Beispiel bei der Bitcoin Meet-up Supergroup in Abidjan.
 
@@ -593,9 +593,9 @@ Anleitung zum Erstellen einer Telegram-Supergruppe:
 
 ![Tutorial supergruppo Telegram](https://www.youtube.com/watch?v=GWVqpjBtg-U)
 
-Hinweis: Wie oben erwähnt, wurde das obige Tutorial auf einem Computer mit der "Telegram+" APK erstellt. Allerdings ist es jetzt sehr einfach, eine Telegram-Supergruppe auf einem Telefon zu erstellen.
+Hinweis: Wie oben erwähnt, wurde das obige Tutorial auf einem Computer mit der "Telegram+" APK erstellt. Allerdings ist es jetzt sehr einfach, eine Telegram-Supergruppe auf einem Smartphone zu erstellen.
 
-Erstellen Sie dazu einfach eine Telegram-Gruppe und klicken Sie dann in den Einstellungen auf die Schaltfläche "Themen", um einige hinzuzufügen. Sobald die Änderung bestätigt wurde, erscheint eine Liste mit Themen, die Sie nach Belieben bearbeiten können.
+Erstellen Sie dazu einfach eine Telegram-Gruppe und klicken Sie dann in den Einstellungen auf die Schaltfläche „Themen“, um dort verschiedene Diskussionsbereiche hinzuzufügen. Sobald die Änderung bestätigt wurde, erscheint eine Liste dieser Themen, die Sie nach Belieben umbenennen, hinzufügen oder löschen können.
 
 Sie brauchen "Telegram+" nicht mehr herunterzuladen, um diese Vorgänge auszuführen, es sei denn, Sie möchten die Privatsphäre-Einstellungen Ihrer Supergruppe erforschen.
 
@@ -605,15 +605,15 @@ Sie brauchen "Telegram+" nicht mehr herunterzuladen, um diese Vorgänge auszufü
 
 Nachdem Sie nun Ihre Telegram-Gruppe (oder Supergruppe) erstellt haben, ist es an der Zeit, **über Berechtigungen und Moderation** nachzudenken. Und natürlich steht es jeder Gemeinschaft frei, das zu tun, was sie für richtig hält!
 
-Erfahrungsgemäß ist es jedoch vorzuziehen, **den Mitgliedern die Berechtigung zu entziehen**:
+Erfahrungsgemäß ist es jedoch vorzuziehen, **den Mitgliedern die folgenden Berechtigungen zu entziehen**:
 
 
 - eine Umfrage senden**;
-- dateien senden** (im Falle eines Virus);
+- Dateien senden** (im Falle eines Virus);
 - senden von Sprachnachrichten**;
-- benutzer hinzufügen** (für den Fall, dass ein Bot die Gruppe betritt);
-- nachrichten fixieren**;
-- informationen zum Austausch bearbeiten**.
+- Benutzer hinzufügen** (für den Fall, dass ein Bot der Gruppe beitritt);
+- Nachrichten fixieren**;
+- Informationen zum Austausch bearbeiten**.
 
 Es ist auch **sehr empfehlenswert, eine Beschreibung Ihres Treffens zu verfassen, wenn Sie die Gruppe oder Supergruppe auf Telegram** erstellen, da diese für jeden, der beitreten möchte, sichtbar ist. Sie könnte zum Beispiel lauten:
 
@@ -630,7 +630,7 @@ Im obigen Bild sehen wir auch, dass der Einladungslink von den Administratoren d
 
 Als Nächstes kann es unter "Gruppeneinstellungen" von Bedeutung sein, **die Option "Neue Mitglieder genehmigen "** zu aktivieren.
 
-Tatsächlich gab es einen Fall, in dem die Telegram-Gruppe einer Bitcoin-Gemeinschaft von mehreren Tausend gefälschten Konten angegriffen wurde, die der Gruppe mit dem Ziel beitreten wollten, sie zu spammen und zu zerstören. Neben der Möglichkeit, pornografische Fake-Accounts zu entfernen, die Ihrer Gruppe beitreten wollen, wird Sie die **Aktivierung der Mitgliederfreigabe definitiv vor einem Spam-ähnlichen Angriff** bewahren.
+Tatsächlich gab es einen Fall, in dem die Telegram-Gruppe einer Bitcoin-Gemeinschaft von mehreren Tausend Fake-Accounts angegriffen wurde, die der Gruppe mit dem Ziel beitreten wollten, sie zu spammen und zu zerstören. Neben der Möglichkeit, pornografische Fake-Accounts zu entfernen, die Ihrer Gruppe beitreten wollen, wird Sie die **Aktivierung der Mitgliederfreigabe definitiv vor einem Spam-ähnlichen Angriff** bewahren.
 
 Schließlich kann im Bereich "Administratoren" eine "Aggressive Anti-Spam"-Funktion hinzugefügt werden, die automatisch Nachrichten löscht, die als solche angesehen werden. Dies ist jedoch nicht unbedingt erforderlich.
 

@@ -1035,65 +1035,65 @@ Na ovom nivou, sveobuhvatni cilj nije samo prihvatiti Bitkoin, već to učiniti 
 
 U okviru preduzeća, operativna složenost postaje posebno izražena. Velika korporacija može morati da prilagodi više odeljenja (prodaja, marketing, devops, finansije i računovodstvo) od kojih svako ima različite odgovornosti i zahteve za podacima. U ovom scenariju, Bitkoin platforma za plaćanje mora ponuditi veoma detaljno upravljanje ulogama, omogućavajući svakom odeljenju pristup tačno onim funkcijama koje su relevantne za njihove zadatke, uz očuvanje rigorozne kontrole nad bezbednošću i integritetom podataka. Jednako je bitna i sposobnost prilagođavanja tokova rada: na primer, dolazna plaćanja mogu pokrenuti ažuriranja u sistemima inventara, poslati automatske obaveštenja menadžerima prodaje i ažurirati Ledger unose za finansijski tim, sve u realnom vremenu. Uređaji na prodajnim mestima su često prilagođeni preduzetničkom okruženju, sa prilagođenim softverskim interfejsima koji odgovaraju brendiranju i operativnim potrebama kompanije.
 
-**Bezbednost** je od suštinskog značaja za preduzeća na nivou velikih korporacija. Veliki obim transakcija i potencijalno velike sume Bitkoin zahtevaju robusnu infrastrukturu sposobnu da se brani od zlonamernih napada ili pretnji iznutra. Najbolje prakse često uključuju višestruki potpis sa vremenskim zaključavanjem trezorskih konfiguracija, pažljivo revidirane baze koda i strogo pridržavanje relevantnih regulatornih okvira. Štaviše, usklađenost sa lokalnim i međunarodnim finansijskim propisima može biti ključna za očuvanje reputacije korporacije i licence za rad.
+**Bezbednost** je od suštinskog značaja za preduzeća na nivou velikih korporacija. Veliki obim transakcija i potencijalno velike sume bitkoina zahtevaju robusnu infrastrukturu sposobnu da se brani od zlonamernih napada ili pretnji iznutra. Najbolje prakse često uključuju višestruki potpis sa vremenskim zaključavanjem trezorskih konfiguracija, pažljivo revidirane baze koda i strogo pridržavanje relevantnih regulatornih okvira. Štaviše, usklađenost sa lokalnim i međunarodnim finansijskim propisima može biti ključna za očuvanje reputacije korporacije i licence za rad.
 
 **Prilagođeni razvoj** uključen u kreiranje ili integraciju Bitkoin rešenja za plaćanje na nivou preduzeća prevazilazi kodiranje nekoliko funkcija aplikacije. Obično zahteva arhitektonsko projektovanje, temeljne test protokole i strukturirano uvođenje koje može obuhvatiti više faza (početni pilot programi, ograničeni tržišni testovi i konačno globalno uvođenje).
 
-Na računovodstvenom planu, transakcije visoke frekvencije zahtevaju **potpuno prilagođene eksporte** i ponekad sinhronizaciju u realnom vremenu sa softverom za korporativne finansije. Velike kompanije mogu se oslanjati na rešenja za planiranje resursa preduzeća (ERP) kao što su SAP ili Oracle, koja, zauzvrat, moraju Interface besprekorno sa Bitkoin podacima o plaćanju. Da bi se to omogućilo, API-ji izabrane platforme moraju biti sofisticirani i fleksibilni, dajući IT timovima slobodu da kreiraju prilagođene kontrolne table za izveštavanje, implementiraju automatizovane procese usklađivanja i generate dnevne ili čak satne finansijske preglede.
+Na računovodstvenom planu, transakcije visoke učestalosti zahtevaju **potpuno prilagođene izvoze podataka** i ponekad sinhronizaciju u realnom vremenu sa softverom za korporativne finansije. Velike kompanije mogu se oslanjati na rešenja za planiranje resursa preduzeća (ERP) kao što su SAP ili Oracle, koja, zauzvrat, moraju besprekorno da se povežu sa podacima o Bitkoin plaćanjima. Da bi se to omogućilo, API-ji izabrane platforme moraju biti sofisticirani i fleksibilni, dajući IT timovima slobodu da kreiraju prilagođene kontrolne table za izveštavanje, implementiraju automatizovane procese usklađivanja i generate dnevne ili čak časovne finansijske preglede.
 
-Tipičan scenario za preduzeće može uključivati veliku e-commerce platformu koja svakodnevno prima hiljade transakcija. Osim što samo navodi Bitkoin kao opciju plaćanja, ova platforma može prilagoditi svaki aspekt korisničkog iskustva, od toga kako Bitkoin tok plaćanja izgleda na vebsajtu okrenutom ka korisnicima do toga kako se povraćaji, povrati sredstava ili rešavanje sporova upravljaju u pozadini. Posvećeni devops tim, u saradnji sa finansijskim i pravnim odeljenjima, nadgledao bi tekuće održavanje, sigurnosne zakrpe i ažuriranja usklađenosti. Ako kompanija odluči da zadrži deo svojih prihoda od Bitkoin, interni trezorski sistem bi pratio Bitkoin sredstva firme zajedno sa rezervama tradicionalne valute.
+Tipičan scenario za preduzeće može uključivati veliku e-commerce platformu koja svakodnevno prima hiljade transakcija. Osim što samo navodi Bitkoin kao opciju plaćanja, ova platforma može prilagoditi svaki aspekt korisničkog iskustva, od toga kako Bitkoin tok plaćanja izgleda na vebsajtu okrenutom ka korisnicima do toga kako se povrati, povraćaji sredstava ili rešavanje sporova u pozadini. Posvećeni developerski tim, u saradnji sa finansijskim i pravnim odeljenjima, nadgledao bi tekuće održavanje, sigurnosne zakrpe i ažuriranja usklađenosti. Ako kompanija odluči da zadrži deo svojih prihoda od bitkoina, interni trezorski sistem bi pratio bitkoin sredstva firme zajedno sa rezervama tradicionalne valute.
 
-Kako bi se osiguralo glatko i sigurno uvođenje na nivou preduzeća, većina organizacija angažuje specijalizovane pružaoce usluga ili interne razvojne timove sa iskustvom u integracijama Bitkoin i Lightning Network. Proces obično počinje detaljnom procenom potreba (koja pokriva tehničku infrastrukturu, zahteve za usklađenošću i željeno korisničko iskustvo) nakon čega sledi dizajniranje arhitekture koja može da podnese veliki obim protoka. U zavisnosti od obima projekta, možete se osloniti na multidisciplinarni tim sastavljen od finansijskih kontrolora, analitičara bezbednosti i softverskih inženjera. Alternativno, sve veći broj specijalizovanih konsultantskih firmi može vas voditi od početne konceptualizacije do konačnog uvođenja, pomažući u zadacima kao što su procena SaaS-hostovanih rešenja, konfigurisanje *Lightning Service Providers* i prilagođavanje korisničkih interfejsa. Partnerstvom sa stručnjacima iz domena, preduzeća mogu smanjiti rizike povezane sa implementacijom plaćanja velikih razmera i postići rešenje koje je ne samo robusno i usklađeno, već i dovoljno fleksibilno da omogući budući rast.
+Kako bi se osiguralo glatko i sigurno uvođenje na nivou preduzeća, većina organizacija angažuje specijalizovane pružaoce usluga ili interne razvojne timove sa iskustvom u integracijama Bitkoina i Lightning mreže. Proces obično počinje detaljnom procenom potreba (koja obuhvata tehničku infrastrukturu, zahteve za usklađenošću i željeno korisničko iskustvo) nakon čega sledi dizajniranje arhitekture koja može da podnese veliki obim protoka. U zavisnosti od obima projekta, možete se osloniti na multidisciplinarni tim sastavljen od finansijskih kontrolora, analitičara bezbednosti i softverskih inženjera. Alternativno, sve veći broj specijalizovanih konsultantskih firmi može vas voditi od početne konceptualizacije do konačnog uvođenja, pomažući u zadacima kao što su procena SaaS-hostovanih rešenja, konfigurisanje *Lightning Service Providers* i prilagođavanje korisničkih interfejsa. Partnerstvom sa stručnjacima iz domena, preduzeća mogu smanjiti rizike povezane sa implementacijom plaćanja velikih razmera i postići rešenje koje je ne samo robusno i usklađeno, već i dovoljno fleksibilno da omogući budući rast.
 
-## Bitkoin rešenja za plaćanje: Opcije i Trendovi
+## Rešenja za Bitkoin plaćanja: Opcije i Trendovi
 
 <chapterId>59ff43a1-98e2-4a81-af3e-9654bdd60952</chapterId>
 
-Uvek postoje kompromisi za svaku kategoriju rešenja. Na primer, u početnoj "probnoj fazi," predloženi novčanici su dizajnirani da budu što jednostavniji u smislu korisničkog Interface, ali su hostovani (**skrbnički**). To znači da sredstva kontroliše pružalac aplikacije. Međutim, etos Bitkoin podstiče prelazak ka punom Ownership sredstava od strane korisnika (**samostalno skrbništvo**). U ovom slučaju, preporučuje se nadogradnja na sledeću kategoriju čim se ostvare prve prodaje—u suštini, kada se potvrdi da imate kupce spremne da plate u Bitkoin.
+Uvek postoje kompromisi za svaku kategoriju rešenja. Na primer, u početnoj "probnoj fazi," predloženi novčanici su dizajnirani da budu što jednostavniji u smislu korisničkog interfejsa, ali su hostovani (**skrbnički**). To znači da sredstva kontroliše pružalac aplikacije. Međutim, etos Bitkoin podstiče prelazak ka punom vlasništvu sredstava od strane korisnika (**samostalno skrbništvo**). U ovom slučaju, preporučuje se nadogradnja na sledeću kategoriju čim se obave prve prodaje—u suštini, kada se potvrdi da imate kupce spremne da plate u bitkoinu.
 
-Jedna od ključnih prednosti Bitkoin je mogućnost premeštanja sredstava po želji, što čini **veoma lakim promenu provajdera** ili komponenti vašeg rešenja. Pored toga, sve aplikacije i rešenja se brzo razvijaju. Na primer, razmislite o Bitkoinize, koji sada nudi fizički terminal za prodajno mesto (POS) koji se integriše sa mnogim aplikacijama na tržištu, rešenje koje nije postojalo pre samo nekoliko meseci.
+Jedna od ključnih prednosti bitkoina je mogućnost premeštanja sredstava po želji, što čini **promenu provajdera veoma lakom** ili komponenti Vašeg rešenja. Pored toga, sve aplikacije i rešenja se brzo razvijaju. Na primer, razmislite o Bitcoinize, koji sada nudi fizički terminal za prodajna mesta (POS) koji se integriše sa mnogim aplikacijama na tržištu, rešenje koje nije postojalo pre samo nekoliko meseci.
 
-### Tražite rešenje za kreiranje prodavnice i prihvatanje tradicionalnih i Bitkoin plaćanja?
+### Tražite rešenje za kreiranje prodavnice i prihvatanje tradicionalnih i bitkoin plaćanja?
 
 Ako počinjete od nule—bez prodavnice, softvera za upravljanje proizvodima i sistema za prodajna mesta (POS)—imate nekoliko opcija:
 
 
-- Outsourcing:** Možete angažovati spoljne saradnike za kreiranje veb-sajta sa opcijama kupovine, a zatim dodati Bitkoin mogućnosti plaćanja uz tradicionalna rešenja u prodavnici.
+- Outsourcing:** Možete angažovati spoljne saradnike za kreiranje veb-sajta sa opcijama kupovine, a zatim dodati mogućnost za bitkoin plaćanja uz tradicionalna rešenja u prodavnici.
 - Jednostavna rešenja:** Alternativno, možete koristiti platforme kao što je Accessing.app da to uradite sami. Ključne prednosti uključuju:
     - Brzo i povoljno postavljanje online ili fizičke prodavnice.
     - Pogodno za sezonske poslove, događaje, restorane ili maloprodajne radnje.
     - Definisanje i upravljanje proizvodima za fizičku i online prodaju.
     - Obrada fiat plaćanja (npr. evri, dolari) putem vašeg sopstvenog Stripe naloga.
-    - Bitkoin obrada plaćanja putem vašeg vlastitog SwissBitkoinPay naloga.
+    - Obrada bitkoin plaćanja putem vašeg vlastitog SwissBitkoinPay naloga.
 
 ### Kako napreduje usvajanje Lightning plaćanja?
 
-Iako Lightning Network nudi superiornu efikasnost i niže naknade, njegova primena je još u ranoj fazi. Umesto fokusiranja na trenutna ograničenja, vredi se prisetiti kako su se odvijale istorijske transformacije infrastrukture:
+Iako Lightning mreža nudi superiornu efikasnost i niže naknade, njena primena je još u ranoj fazi. Umesto fokusiranja na trenutna ograničenja, vredi se prisetiti kako su se odvijale istorijske transformacije infrastrukture:
 
 
 - Kada su se automobili prvi put pojavili, nije bilo dovoljno automobila da bi se opravdala izgradnja puteva, niti dovoljno puteva da bi se opravdalo posedovanje automobila.
 - Kada je uvedena električna energija, nije bilo dovoljno korisnika da bi se opravdala izgradnja elektroenergetskih mreža, a nije bilo dovoljno mreža da bi privukle korisnike.
 
-Nove infrastrukture uspevaju jer su efikasnije, a rani usvojitelji se pridružuju jer ostvaruju opipljive koristi. Evo zapažanja o Lightning Network u 2024:
+Nove infrastrukture uspevaju jer su efikasnije, a rani usvojitelji se pridružuju jer ostvaruju opipljive koristi. Evo zapažanja o Lightning mreži u 2024.:
 
 
-- Ultra-fast Transactions:** Transakcije su često gotovo trenutne (<500ms) i imaju izuzetno nisku stopu neuspeha.
-- Profesionalizacija mreže:** Veći igrači osiguravaju likvidnost širom mreže, dok su pojedinci uglavnom prestali sa rutiranjem plaćanja i sada uglavnom upravljaju "ivica čvorovima."
-- Poboljšano korisničko iskustvo:** Mobilne aplikacije za individualne korisnike su značajno poboljšane. Funkcije kao što su spajanje, statični Bolt12 računi i plaćanja bez potvrde (0-conf) su široko dostupne, čineći interakcije besprekornim. Problemi interoperabilnosti (npr. prisilna zatvaranja) više nisu glavne brige.
+- Ultra-brze transakcije:** Transakcije su često gotovo trenutne (<500ms) i imaju izuzetno nisku stopu neuspeha.
+- Profesionalizacija mreže:** Veći igrači osiguravaju likvidnost širom mreže, dok su pojedinci uglavnom prestali sa usmeravanjem plaćanja i sada uglavnom upravljaju "čvorovima".
+- Poboljšano korisničko iskustvo:** Mobilne aplikacije za individualne korisnike su značajno poboljšane. Funkcije kao što su spajanje, statične Bolt12 fakture i plaćanja bez potvrde (0-conf) su široko dostupne, čineći interakcije besprekornim. Problemi sa interoperabilnošću (npr. prisilna zatvaranja) više nisu glavne brige.
 - Poboljšano upravljanje čvorovima i kanalima:** I pojedinačna i profesionalna rešenja su napredovala. Na primer, BTC Pay Server sada podržava brojne dodatke za povezivanje sa drugim provajderima (PSP-ovima, on/off rampama, itd.). Novi provajderi infrastrukture, kao što su LightSpark i Alby Hub, takođe ulaze u proizvodnju.
-- Rast usvajanja od strane trgovaca:** Trgovci poput BitRefill-a izveštavaju o porastu Bitkoin plaćanja među svojim aktivnim korisnicima, uz jasan pomak ka Bitkoin u odnosu na Lightning. Pored toga, ultra-niske naknade Lightning-a čine ga preferiranim izborom za mala plaćanja (prosečno €32 po transakciji).
+- Rast usvajanja od strane trgovaca:** Trgovci poput BitRefill-a izveštavaju o porastu bitkoin plaćanja među svojim aktivnim korisnicima, uz jasan pomak ka Bitkoin mreži u odnosu na Lightning. Pored toga, ultra-niske naknade Lightning-a čine ga preferiranim izborom za mala plaćanja (prosečno €32 po transakciji).
 
 ![BIZ101-profiles](assets/en/30.webp)
 
 *[Izvor: BTC Map](https://btcmap.org/)*
 
 
-- Mreže Metrike:** Ukupan broj kanala i Bitkoin zaključan na Lightning ostaje stabilan, sa približno 20,000 čvorova, 5,200 BTC, i 60,000 kanala. Međutim, ovo odražava samo deo mreže i ukazuje na rotaciju među učesnicima, sa manje pojedinaca i više profesionalaca koji učestvuju.
-- Munja kao most između mreža:** Efikasnost i dostupnost Lightning Network već su ga pozicionirali kao most ka drugim međusobno povezanim mrežama (npr. FediMint, Liquid, itd.).
+- Metrike mreže:** Ukupan broj kanala i bitkoina zaključan na Lightning mreži ostaje stabilan, sa približno 20,000 čvorova (nodova), 5,200 BTC, i 60,000 kanala. Međutim, ovo odražava samo deo mreže i ukazuje na rotaciju među učesnicima, sa manje pojedinaca i više profesionalaca koji učestvuju.
+- Lightning kao most između mreža:** Efikasnost i dostupnost Lightning mreže već su je pozicionirali kao most ka drugim međusobno povezanim mrežama (npr. FediMint, Liquid, itd.).
 
-**Povratak Wallet**
+**Povratak novčanika**
 
-Bitkoin i Lightning Network završavaju **digitalnu Wallet revoluciju**. Novi veb servisi sada omogućavaju **transakcije bez potrebe za kreiranjem naloga**—vaš Wallet postaje vaš identitet! Sa protokolima kao što su **Nostr Wallet Connect (NWC)** i **LN-URL-AUTH**, novčanici mogu besprekorno autentifikovati korisnike i omogućiti transakcije bez tradicionalnih naloga. Prošla su vremena zamora od naloga za jednostavne kupovine ili pretplate. Nema više potrebe za pružanjem ličnih ili platnih informacija koje bi mogle biti hakovane i prodate na dark vebu, na šta nas prečesto podsećaju nedavni događaji.
+Bitkoin i Lightning mreža dovršavaju **digitalnu revoluciju novčanika**. Novi veb servisi sada omogućavaju **transakcije bez potrebe za kreiranjem naloga**—vaš novčanik postaje vaš identitet! Sa protokolima kao što su **Nostr Wallet Connect (NWC)** i **LN-URL-AUTH**, novčanici mogu besprekorno autentifikovati korisnike i omogućiti transakcije bez tradicionalnih naloga. Prošla su vremena zamaranja kreiranjem naloga za jednostavne kupovine ili pretplate. Nema više potrebe za pružanjem ličnih ili platnih informacija koje bi mogle biti hakovane i prodate na dark vebu, na šta nas prečesto podsećaju nedavni događaji.
 
 ![BIZ101](assets/en/10.webp)
 
@@ -1103,162 +1103,162 @@ Trgovci sutrašnjice će prihvatiti ovu inovaciju, nudeći kupcima sigurnije, je
 
 <partId>d49d7595-a189-4e2b-bd60-c19e8e717aa2</partId>
 
-## Osnovni Principi za Računovodstvo Bitkoin u Poslovanju
+## Osnovni Principi za Računovodstveni tretman Bitkoina u Poslovanju
 
 <chapterId>84063061-ffdb-4b1f-b20b-588ffb146877</chapterId>
 
 Sledeći sadržaj je namenjen isključivo u obrazovne svrhe i ne treba ga smatrati finansijskim ili računovodstvenim savetom. Preduzećima i pojedincima se snažno preporučuje da se posavetuju sa kvalifikovanim računovođom ili pravnim stručnjakom koji je upoznat sa propisima o kriptovalutama u njihovoj specifičnoj jurisdikciji pre nego što preduzmu bilo kakvu akciju.
 
-### Bitkoin Računovodstveni Ključni Koncepti
+### Računovodstveni Ključni Koncepti Računovodstvenog Tretmana Bitkoina 
 
 **Svaka Bitkoin transakcija mora biti evidentirana i može dovesti do oporezivog događaja**
 
-Globalno, Bitkoin se često klasifikuje ne kao valuta, već kao digitalna imovina. Ova razlika značajno utiče na to kako se Bitkoin evidentira u poslovanju, utičući na poreske obaveze, finansijsko izveštavanje i zahteve za usklađenost. Poslovanja koja prihvataju Bitkoin kao način plaćanja ili ga koriste kao alat za trezor moraju razumeti ove regulatorne nijanse.
+Globalno, Bitkoin se često klasifikuje ne kao valuta, već kao digitalna imovina. Ova razlika značajno utiče na to kako se Bitkoin evidentira u poslovanju, utičući na poreske obaveze, finansijsko izveštavanje i zahteve za usklađenost. Poslovanja koja prihvataju Bitkoin kao način plaćanja ili ga koriste kao alat za čuvanje vrednosti moraju razumeti ove regulatorne nijanse.
 
 Najvažnija posledica koju treba imati na umu je da, u većini jurisdikcija, zarađivanje, prodaja, trgovina ili korišćenje Bitkoin za kupovinu obično stvara **oporezivi događaj** i dobici podležu porezu na kapitalnu dobit.
 
-Još jedan aspekt računovodstva Bitkoin je razlikovanje između dve vrste kapitalnih dobitaka:
+Još jedan aspekt računovodstva važan za Bitkoin je razlikovanje između dve vrste kapitalnih dobitaka:
 
 
-- Latentne Dobiti/Gubici:** Nerealizovane dobiti ili gubici zasnovani na vrednosti Bitkoin držanoj na kraju računovodstvenog perioda.
+- Latentni Dobici/Gubici:** Nerealizovane dobici ili gubici zasnovani na vrednosti Bitkoina koji se drži na kraju računovodstvenog perioda.
 - Efektivni Dobici/Gubici:** Realizovani dobici ili gubici kada se Bitkoin proda ili zameni tokom fiskalne godine.
 
 Ove kalkulacije u velikoj meri zavise od toga da li se Bitkoin drži za dugoročna ulaganja ili za kratkoročnu operativnu upotrebu. Pored toga, preduzeća moraju uskladiti svoje računovodstvene prakse sa lokalnim poreskim strukturama, jer se propisi značajno razlikuju po zemljama.
 
-Računovodstvo za preduzeća koja drže Bitkoin je donekle zamorno jer svaka transakcija mora biti pažljivo praćena kako bi se izračunali ostvareni ili nerealizovani profiti ili gubici. Za svaku prodaju koju obavite prihvatanjem Bitkoin kao oblika plaćanja, ili svaki put kada kupujete ili prodajete Bitkoin, potrebno je zabeležiti:
+Računovodstvo za preduzeća koja drže Bitkoin je donekle zamorno jer svaka transakcija mora biti pažljivo praćena kako bi se izračunali realizovani ili nerealizovani profiti ili gubici. Za svaku prodaju koju obavite prihvatanjem bitkoina kao oblika plaćanja, ili svaki put kada kupujete ili prodajete bitkoin, potrebno je zabeležiti:
 
 
-- specifično vreme
-- prodajna cena (u fiat valuti)
-- cena koštanja Bitkoin (cena po kojoj je Bitkoin prvobitno nabavljen).
+- tačno vreme
+- prodajnu cena (u fiat valuti)
+- cena bitkoina (cena po kojoj je bitkoin prvobitno kupljen).
 
 Ovo će vam kasnije omogućiti da izračunate razliku kako biste utvrdili profit ili gubitak.
 
-**Primer:** Poslovanje kupuje 1 BTC za $30,000. Kasnije, prodaje 0.5 BTC za $20,000. Da bi izračunali profit ili gubitak, poslovanje mora:
+**Primer:** Preduzeće kupuje 1 BTC za $30,000. Kasnije, prodaje 0.5 BTC za $20,000. Da bi izračunali profit ili gubitak, preduzeće mora:
 
 
-- Zabeleženo je vreme, fiat cena koštanja i količina Bitkoin koja je nabavljena.
-- Zabeleženo je vreme, cena prodaje fiat-a i količina prodatog Bitkoin
-- Odredite cenu Bitkoin prodatog: 0.5 BTC: $30,000 ÷ 2 = $15,000.
-- Uporedite prodajnu cenu sa nabavnom cenom: $20,000 (prodajna cena) - $15,000 (nabavna cena) = $5,000 profit.
-- Ažurirajte Bitkoin posede sa novom nabavnom cenom.
+- Zabeležiti vreme, fiat cenu koštanja i količinu kupljenog bitkoina
+- Zabeležiti vreme, fiat prodajnu cenu i količinu prodatog bitkoina
+- Odrediti cenu prodatog bitkoina: 0.5 BTC: $30,000 ÷ 2 = $15,000
+- Uporediti prodajnu cenu sa nabavnom cenom: $20,000 (prodajna cena) - $15,000 (nabavna cena) = $5,000 profit.
+- Ažurirati stanje bitcoina sa novom cenom koštanja.
 
-Ovaj proces se mora ponoviti za svaku transakciju, a promenljiva priroda cene Bitkoin čini vođenje evidencije još zamršenijim.
+Ovaj proces se mora ponoviti za svaku transakciju, a promenljiva priroda cene bitkoina čini vođenje evidencije još zamršenijim.
 
-**Kako bi funkcionisalo kada bi Bitkoin bila valuta?**
+**Kako bi funkcionisalo kada bi bitkoin bio valuta?**
 
-Ako bi se Bitkoin tretirao kao valuta, preduzeća bi ga upravljala kao bilo koju drugu valutu u svom računovodstvenom sistemu. Umesto praćenja osnovice troškova i ostvarenih/neostvarenih profita za svaku transakciju, posedi Bitkoin bi jednostavno bili evidentirani na valutnom računu. Na kraju svakog izveštajnog perioda, vrednost svih valutnih sredstava, uključujući Bitkoin, bila bi konvertovana u računovodstvenu valutu (npr. USD ili EUR) koristeći trenutni kurs Exchange.
+Ako bi se bitkoin tretirao kao valuta, preduzeća bi ga koristila kao bilo koju drugu valutu u svom računovodstvenom sistemu. Umesto praćenja osnovne cene i realizovanih/nerealizovanih profita za svaku transakciju, stanje bitkoina bi jednostavno bilo evidentirano na valutnom računu. Na kraju svakog izveštajnog perioda, vrednost svih valutnih sredstava, uključujući bitkoin, bila bi konvertovana u računovodstvenu valutu (npr. USD ili EUR) koristeći trenutni kurs.
 
-**Ažurirani primer ako je Bitkoin prepoznat kao valuta:**
+**Ažurirani primer ako je bitkoin prepoznat kao valuta:**
 
 
-- Poslovanje drži 1 BTC kada Bitkoin vredi $30,000. Kasnije, poslovanje koristi 0.5 BTC za plaćanje kada Bitkoin vredi $40,000.
-- Poslovanje **ne** obračunava ostvareni profit ili gubitak. Umesto toga, transakcija se beleži kao:
+- Preduzeće drži 1 BTC kada bitkoin vredi $30,000. Kasnije, preduzeće koristi 0.5 BTC za plaćanje kada bitkoin vredi $40,000.
+- Preduzeće **ne** obračunava ostvareni profit ili gubitak. Umesto toga, transakcija se beleži kao:
     - Plaćanje: $20,000 (0.5 BTC × $40,000).
-    - Preostali Bitkoin saldo: 0.5 BTC, sada vredi $20,000 (ažurirano po trenutnom Exchange kursu).
+    - Preostali bitkoin saldo: 0.5 BTC, sada vredi $20,000 (ažurirano po trenutnom kursu).
 
-**Ključna prednost ako bi Bitkoin bio priznat kao valuta:**
-
-
-- Poslovanje treba samo periodično da prilagođava fiat ekvivalent svojih Bitkoin sredstava (npr. za mesečne ili godišnje izveštaje), baš kao i za evre, jene ili druge valute koje poseduje.
-- Ovo eliminiše potrebu za praćenjem troškova na nivou transakcija i pojednostavljuje računovodstvo, posebno za preduzeća sa čestim Bitkoin transakcijama.
-
-Ovaj pristup bi učinio računovodstvo za Bitkoin daleko jednostavnijim, smanjio administrativne terete i uskladio se sa tretmanom drugih valuta, pod pretpostavkom da bi Bitkoin bio u potpunosti priznat kao takav u pravnim i regulatornim terminima. Još nismo tamo.
-
-### Razlike između pojedinačnog i korporativnog Bitkoin računovodstva
-
-Pravni i računovodstveni tretman Bitkoin značajno se razlikuje između pojedinaca i korporacija. Za pojedince, dobici od transakcija Bitkoin mogu biti podložni porezu na dohodak, često po višoj stopi. Nasuprot tome, korporacije mogu imati koristi od potencijalno nižih stopa poreza na dobit, ali moraju se pridržavati strožih standarda knjigovodstva.
-
-Za preduzeća Bitkoin može biti klasifikovan pod različitim računima u zavisnosti od njegove namene:
+**Ključna prednost ako bi bitkoin bio priznat kao valuta:**
 
 
-- Fiksna imovina:** Za Bitkoin držan dugoročno kao strateška investicija.
-- Zalihe:** Za Bitkoin korišćen u proizvodnim procesima (retka upotreba, na primer, ovo je slučaj za profesionalne trgovce).
-- Gotovina ili trezorski računi:** Za Bitkoin koji se drži kao Liquid imovina, prvenstveno za operativne transakcije ili kratkoročno upravljanje trezorom.
+- Preduzeće treba samo periodično da prilagođava fiat ekvivalent svojih Bitkoin sredstava (npr. za mesečne ili godišnje izveštaje), baš kao i za evre, jene ili druge valute koje poseduje.
+- Ovo eliminiše potrebu za praćenjem osnovne cene na nivou transakcija i pojednostavljuje računovodstvo, posebno za preduzeća sa čestim bitkoin transakcijama.
+
+Ovaj pristup bi učinio računovodstvo za bitkoin daleko jednostavnijim, smanjio administrativne terete i uskladio se sa tretmanom drugih valuta, pod pretpostavkom da bi bitkoin bio u potpunosti priznat kao takav u pravnim i regulatornim terminima. Još nismo stigli do toga.
+
+### Razlike između Bitkoin računovodstva za pojedince i korporacije
+
+Pravni i računovodstveni tretman Bitkoin značajno se razlikuje između pojedinaca i korporacija. Za pojedince, dobici od bitkoin transakcija mogu biti podložni porezu na dobit, često po višoj stopi. Nasuprot tome, korporacije mogu imati koristi od potencijalno nižih stopa poreza na dobit, ali moraju se pridržavati strožih standarda knjigovodstva.
+
+Za preduzeća Bitkoin može biti klasifikovan pod različitim računima glavne knjige u zavisnosti od njegove namene:
+
+
+- Fiksna imovina:** Za bitkoin koji se drži dugoročno kao strateška investicija.
+- Zalihe:** Za Bitkoin koji se koristi u proizvodnim procesima (retka upotreba, na primer, ovo je slučaj kod profesionalnih trgovaca).
+- Gotovina ili računi:** Za Bitkoin koji se drži kao likvidna imovina, prvenstveno za operativne transakcije ili kratkoročno upravljanje sredstvima.
 
 Izbor klasifikacije zavisi od aktivnosti i strategije kompanije, sa implikacijama na finansijsko izveštavanje i poreske obaveze. Uvek proverite lokalne propise, jer se ove klasifikacije mogu razlikovati po zemljama.
 
 ### Pravni okvir
 
-Pravno priznavanje i tretman Bitkoin variraju u zavisnosti od jurisdikcije. Neke zemlje, kao što je El Salvador, priznale su Bitkoin kao zakonsko sredstvo plaćanja, što pojednostavljuje njegovu upotrebu u transakcijama, ali komplikuje međunarodno finansijsko izveštavanje. Druge tretiraju Bitkoin kao digitalnu imovinu podložnu specifičnim poreskim i računovodstvenim pravilima.
+Pravno priznavanje i tretman bitkoina variraju u zavisnosti od jurisdikcije. Neke zemlje, kao što je El Salvador, priznale su bitkoin kao zakonsko sredstvo plaćanja, što pojednostavljuje njegovu upotrebu u transakcijama, ali komplikuje međunarodno finansijsko izveštavanje. Druge zemlje tretiraju bitkoin kao digitalnu imovinu podložnu specifičnim poreskim i računovodstvenim pravilima.
 
-U većini zemalja, Bitkoin je kategorizovan kao digitalna imovina, a njegovo tretiranje je regulisano opštim računovodstvenim standardima. Preduzeća moraju evidentirati transakcije sa Bitkoin na sledeći način:
+U većini zemalja, bitkoin je kategorizovan kao digitalna imovina, a njegovo tretiranje je regulisano opštim računovodstvenim standardima. Preduzeća moraju evidentirati bitkoin transakcije na sledeći način:
 
 
 - Evidentiranje kapitalnih dobitaka/gubitaka:** Preduzeća moraju evidentirati ostvarene dobitke ili gubitke u svojim finansijskim rezultatima.
-- Procene Latentne Dobiti/Gubici:** Nerealizovane dobiti ili gubici često moraju biti prijavljeni, ali možda neće direktno uticati na oporezivi prihod.
-- Usklađenost sa računovodstvenim standardima:** Preduzeća moraju integrisati Bitkoin transakcije u standardne knjigovodstvene prakse, osiguravajući transparentnost i tačnost.
+- Procene Latentne Dobiti/Gubici:** Nerealizovani dobici ili gubici često moraju biti prijavljeni, ali možda neće direktno uticati na oporezivi prihod.
+- Usklađenost sa računovodstvenim standardima:** Preduzeća moraju integrisati bitkoin transakcije u standardne knjigovodstvene prakse, osiguravajući transparentnost i tačnost.
 
-Pristup računovodstvu Bitkoin varira u zavisnosti od geografije:
+Pristup računovodstva bitkoinu varira u zavisnosti od geografije:
 
 
-- Sjedinjene Američke Države:** Poreska uprava klasifikuje Bitkoin kao **imovinu, slično akcijama, obveznicama ili nekretninama**. Ova klasifikacija znači da bilo koja transakcija koja uključuje kriptovalutu, kao što je zarađivanje, prodaja, trgovanje ili čak korišćenje za kupovinu, može stvoriti oporezivi događaj i dobici podležu porezu na kapitalnu dobit.
-- Evropska unija:** Države članice generalno tretiraju Bitkoin kao spekulativnu imovinu, a ne kao funkcionalnu valutu. Stoga su dobici često podložni porezu na kapitalnu dobit.
-- Azija:** Zemlje poput Singapura i Japana usvojile su progresivne regulatorne okvire, tretirajući Bitkoin transakcije povoljno u specifičnim kontekstima. Ali Bitkoin se generalno računa kao **nematerijalna imovina**, i meri se po fer vrednosti na datum izveštavanja, sa promenama priznatim u dobiti ili gubitku.
+- Sjedinjene Američke Države:** Poreska uprava (IRS) klasifikuje Bitkoin kao **imovinu, slično akcijama, obveznicama ili nekretninama**. Ova klasifikacija znači da bilo koja transakcija koja uključuje kriptovalutu, kao što je zarađivanje, prodaja, trgovanje ili čak korišćenje za kupovinu, može stvoriti oporezivi događaj i dobici podležu porezu na kapitalnu dobit.
+- Evropska unija:** Države članice generalno tretiraju bitkoin kao spekulativnu imovinu, a ne kao funkcionalnu valutu. Stoga su dobici često podložni porezu na kapitalnu dobit.
+- Azija:** Zemlje poput Singapura i Japana usvojile su progresivne regulatorne okvire, tretirajući Bitkoin transakcije povoljno u specifičnim kontekstima. Međutim, Bitkoin se generalno računa kao **nematerijalna imovina**, i meri se po fer vrednosti na datum izveštavanja, sa promenama priznatim u dobitku ili gubitku.
 
 Važno je razumeti propise u zemlji u kojoj poslujete i prilagoditi svoje računovodstvene prakse u skladu s tim.
 
 ### Izazovi u evoluciji regulative
 
-Brzi tempo inovacija u kriptovalutama često nadmašuje regulatorne okvire. Od priznavanja Bitkoin kao digitalnog sredstva, globalni propisi su doživeli postepena ažuriranja, ali praznine i dalje postoje:
+Brzi tempo inovacija u kriptovalutama često nadmašuje regulatorne okvire. Od priznavanja bitkoina kao digitalne imovine, globalni propisi su doživeli postepena ažuriranja, ali praznine i dalje postoje:
 
 
 - Nedostatak Jurisprudencije:** Malo pravnih slučajeva je razjasnilo specifične računovodstvene prakse, ostavljajući prostor za interpretaciju.
 - Aktuelne debate:** Pitanja kao što je poreski tretman latentnih gubitaka ostaju nerešena u mnogim jurisdikcijama.
 - Kompleksnost prekograničnog poslovanja:** Kompanije koje posluju na međunarodnom nivou suočavaju se sa izazovima usklađivanja različitih nacionalnih računovodstvenih standarda.
 
-Uprkos ovim izazovima, proaktivni stavovi mnogih zemalja pružaju solidnu osnovu za preduzeća da uključe Bitkoin u svoje operacije. Kontinuirana ažuriranja i međunarodna harmonizacija biće od suštinskog značaja za složenosti koje se pojavljuju kod Address u računovodstvu kriptovaluta.
+Uprkos ovim izazovima, proaktivni stavovi mnogih zemalja pružaju solidnu osnovu za preduzeća da uključe bitkoin u svoje poslovanje. Kontinuirana ažuriranja i međunarodna harmonizacija biće od suštinskog značaja za rešavanje složenosti koje se pojavljuju računovodstvu kriptovaluta.
 
-### Klasifikacija Bitkoin u finansijskim izveštajima
+### Klasifikacija Bitkoina u finansijskim izveštajima
 
-Klasifikacija Bitkoin u finansijskim izveštajima varira u zavisnosti od jurisdikcije i zavisi od njegove namene unutar poslovanja. Uopšteno, Bitkoin se tretira kao digitalna imovina, slično inventaru, investiciji ili valuti, ali sa jedinstvenim karakteristikama koje utiču na njegov računovodstveni tretman.
+Klasifikacija Bitkoin u finansijskim izveštajima varira u zavisnosti od jurisdikcije i zavisi od njegove namene unutar preduzeća. Generalno, bitkoin se tretira kao digitalna imovina, slična zalihama, investicijama ili valutama, ali sa jedinstvenim karakteristikama koje utiču na njegov računovodstveni tretman.
 
 
-- Digitalna imovina ili nematerijalna imovina**: Mnoge jurisdikcije, uključujući Francusku i Evropsku uniju, klasifikuju Bitkoin kao digitalnu ili nematerijalnu imovinu, a ne kao zakonsko sredstvo plaćanja. Ova klasifikacija zahteva od preduzeća da Bitkoin računovodstveno tretiraju drugačije nego fiat valute.
-- Inventar**: Ako osnovna delatnost preduzeća uključuje trgovinu Bitkoin, kao što su kripto berze ili brokeri, Bitkoin se klasifikuje kao inventar. U ovom slučaju, vrednovanje prati računovodstvene standarde za inventar.
-- Finansijsko ulaganje**: Kompanije koje drže Bitkoin kao dugoročni resurs mogu ga klasifikovati kao finansijsko ulaganje. Na primer, u Sjedinjenim Američkim Državama, preduzeća bi mogla računati Bitkoin prema smernicama Odbora za finansijske računovodstvene standarde (FASB), prepoznajući umanjenja kada tržišne vrednosti opadnu.
+- Digitalna imovina ili nematerijalna imovina**: Mnoge jurisdikcije, uključujući Francusku i Evropsku uniju, klasifikuju bitkoin kao digitalnu ili nematerijalnu imovinu, a ne kao zakonsko sredstvo plaćanja. Ova klasifikacija zahteva od preduzeća da bitkoin evidentiraju drugačije nego fiat valute.
+- Zalihe**: Ako osnovna delatnost preduzeća uključuje trgovinu bitkoinom, kao što su kripto berze ili brokeri, bitkoin se klasifikuje kao zalihe. U ovom slučaju, vrednovanje se vrši prema računovodstvenim standardima za zalihe.
+- Finansijska investicija**: Kompanije koje drže Bitkoin kao dugoročnu imovinu mogu ga klasifikovati kao finansijsku investiciju. Na primer, u Sjedinjenim Američkim Državama, preduzeća bi mogla evidentirati bitkoin prema smernicama Odbora za finansijske računovodstvene standarde (FASB), priznajući umanjenja kada tržišne vrednosti opadnu.
 
 **Implikacije klasifikacije :**
 
 
 - Dugoročna ulaganja često zahtevaju testiranje umanjenja vrednosti i amortizaciju.
-- Aktivno trgovanje ili aktivnosti povezane s plaćanjem zahtevaju stalno praćenje ostvarenih i neostvarenih dobitaka i gubitaka.
+- Aktivno trgovanje ili aktivnosti povezane s plaćanjem zahtevaju stalno praćenje ealizovanih i nerealizovanih dobitaka i gubitaka.
 
 ### Metode vrednovanja
 
-Metode vrednovanja su računovodstvene tehnike koje se koriste za određivanje osnovice troškova Bitkoin, što je ključno za tačno izračunavanje dobitaka ili gubitaka tokom transakcija. Uopšteno, najbolje je **održavati uvek ažuriranu vrednost troškova trenutnih zaliha Bitkoin** u računovodstvenom sistemu. Ovo osigurava transparentnost, usklađenost sa poreskim propisima i sprečava zaostajanje kada je potrebno izvršiti proračune.
+Metode vrednovanja su računovodstvene tehnike koje se koriste za određivanje osnovne cene bitkoina, što je ključno za tačno izračunavanje dobitaka ili gubitaka tokom transakcija. Generalno, najbolje je **održavati uvek ažuriranu vrednost troškova trenutnih zaliha bitkoin sredstava** u računovodstvenom sistemu. Ovo osigurava transparentnost, usklađenost sa poreskim propisima i sprečava zaostajanje kada je potrebno izvršiti proračune.
 
 
-- First In, First Out (FIFO)**: Uobičajeno u jurisdikcijama kao što su Australija i Indija, ova metoda vrednuje Bitkoin na osnovu najranije nabavne cene. Ovo može postati prilično **kompleksno** jer može zahtevati praćenje svake frakcije Bitkoin zasebno kada dođe do prodaje.
-- Ponderisani prosečni trošak (WAC)**: Često se preferira za transakcije velikog obima zbog njegove **jednostavnosti**, kao što se vidi u zemljama poput Sjedinjenih Američkih Država.
+- First In, First Out (FIFO)- Prvi ulaz, prvi izlaz**: Uobičajena metoda u jurisdikcijama kao što su Australija i Indija, ova metoda vrednuje bitkoin na osnovu najranije nabavne cene. Ovo može postati prilično **kompleksno** jer može zahtevati praćenje svake frakcije bitkoina zasebno kada dođe do prodaje.
+- Ponderisana prosečna cena (WAC)**: Često se preferira za transakcije velikog obima zbog svoje **jednostavnosti**, kao što je slučaj u zemljama poput Sjedinjenih Američkih Država.
 
-Preporučuje se da se vodi detaljna radna sveska za praćenje troškova Bitkoin **od trenutka kada kompanija počne da kupuje Bitkoin ili ga prihvata kao plaćanje** kako bi se osiguralo tačno i organizovano vođenje evidencije. Samo ta razmatranja treba da budu prioritet pri izboru softverskog rešenja za prihvatanje plaćanja Bitkoin ili za kupovinu Bitkoin.
+Preporučuje se da se vodi detaljna evidencija za praćenje troškova bitkoina **od trenutka kada kompanija počne da kupuje bitkoin ili ga prihvata kao plaćanje** kako bi se osiguralo tačno i organizovano vođenje evidencije. Samo ta razmatranja treba da budu prioritet pri izboru softverskog rešenja za prihvatanje plaćanja bitkoinom ili za kupovinu bitkoina.
 
-### Računovodstvo transakcija u maloprodaji i e-trgovini
+### Računovodstvo za transakcije u maloprodaji i e-trgovini
 
-Trgovci moraju zabeležiti za svaku transakciju kurs Bitkoin-prema-fijatu Exchange. Na primer, u mnogim zemljama, preduzeća koriste kurs Exchange u trenutku prodaje za izračunavanje PDV-a.
+Trgovci moraju zabeležiti za svaku transakciju kurs bitkoina-prema-fijatu. Na primer, u mnogim zemljama, preduzeća koriste kurs u trenutku prodaje za izračunavanje PDV-a.
 
 Preduzeća moraju osigurati da alati za **Plaćanje** koje koriste omogućavaju:
 
 
-- generate i Invoice sa lokalnim iznosom u fiat valuti (euro, dolari, funte), koji uključuje PDV ili druge lokalne poreze, ekvivalent denominovan u Bitkoin, datum i vreme, kurs Bitkoin Exchange i izvor Exchange itd.
-- izvezi sve priznanice o uplati, najmanje u .csv formatu, sa svim gore navedenim informacijama, tako da ih računovođa može lako obraditi
-- idealno imati evidenciju ažurirane vrednosti osnovice troškova za trenutni Bitkoin koji se drži u trezoru
+- generisanje fakture sa lokalnim iznosom u fiat valuti (euro, dolar, funta), koji uključuje PDV ili druge lokalne poreze, ekvivalent denominovan u bitkoinu, datumom i vremenom, kursom bitkoina i izvorom kursa itd.
+- izvoz svih potvrda o plaćanju, najmanje u .csv formatu, sa svim gore navedenim informacijama, tako da ih računovođa može lako obraditi
+- idealno vođenje evidencije o ažuriranoj vrednosti osnovne cene za trenutni bitkoin koji se drži u posedu
 
 ### Izazovi
 
 
-- Volatilnost**: Cena Bitkoin značajno varira, stvarajući poteškoće u proceni vrednosti imovine i predviđanju budućih finansijskih ishoda.
-- Regulatorni nadzor**: U zemljama poput Kine, ograničeni status Bitkoin ograničava njegovu upotrebu kao trezorskog sredstva.
-- Regulatory Uncertainty** : Regulatorni pejzaž koji se razvija za Bitkoin često ostavlja preduzeća u neizvesnosti. Na primer, promene u poreskim politikama, kao što su one u Indiji ili Sjedinjenim Američkim Državama, mogu preko noći uticati na računovodstvene prakse.
-- Rizici lošeg upravljanja** : Nepravilna klasifikacija ili neuspeh u praćenju Bitkoin transakcija može dovesti do problema sa usklađenošću, kazni ili oštećenja reputacije.
-- Rizici ponovne kvalifikacije**: Održavanje značajnog dela trezora kompanije u Bitkoin izlaže poslovanje potencijalnim gubicima usled pada cena. Ovo može imati ozbiljne posledice, naročito ako se takvi padovi dogode kada su dospele isplate dobavljačima, zaposlenima ili porezi. Pored toga, vlasnik kompanije može biti odgovoran, što može rezultirati kaznama ili drugim pravnim problemima, kao što su optužbe za zloupotrebu imovine kompanije.
+- Volatilnost**: Cena bitkoina značajno varira, stvarajući poteškoće u proceni vrednosti imovine i predviđanju budućih finansijskih ishoda.
+- Regulatorni nadzor**: U zemljama poput Kine, ograničeni status bitkoina ograničava njegovu upotrebu kao sredstva za čuvanje vrednosti.
+- Regulatorna neizvesnost:** : Evoluirajući regulatorni pejzaž bitkoina često ostavlja preduzeća u neizvesnosti. Na primer, promene u poreskim politikama, kao što su one u Indiji ili Sjedinjenim Američkim Državama, mogu preko noći uticati na računovodstvene prakse.
+- Rizici lošeg upravljanja** : Nepravilna klasifikacija ili neuspeh u praćenju bitkoin transakcija može dovesti do problema sa usklađenošću, kazni ili oštećenja reputacije.
+- Rizici ponovne kvalifikacije**: Održavanje značajnog dela sredstava kompanije u bitkoinu izlaže preduzeće potencijalnim gubicima usled pada cena. Ovo može imati ozbiljne posledice, naročito ako se takvi padovi dogode kada su dospele isplate dobavljačima, zaposlenima ili porezi. Pored toga, vlasnik kompanije može biti odgovoran, što može rezultirati kaznama ili drugim pravnim problemima, kao što su optužbe za zloupotrebu imovine kompanije.
 
 ## Računovodstveni alati i softver
 
 <chapterId>e7b31be5-1176-4835-944e-3cba1b7040fa</chapterId>
 
-Kada kompanija odluči da integriše Bitkoin u svoje računovodstvo, razni alati i specijalizovani softver pojednostavljuju prikupljanje i obradu podataka. Među najpoznatijim rešenjima su [CoinTracker](https://www.cointracker.io/), [Waltio](https://www.waltio.com/), [Cryptio](https://cryptio.co/), [Koinly](https://koinly.io/), [TokenTax](https://tokentax.co/), i [ZenLedger](https://zenledger.io/). Ove platforme se prvenstveno fokusiraju na četiri aspekta:
+Kada kompanija odluči da integriše bitkoin u svoje računovodstvo, razni alati i specijalizovani softver pojednostavljuju prikupljanje i obradu podataka. Među najpoznatijim rešenjima su [CoinTracker](https://www.cointracker.io/), [Waltio](https://www.waltio.com/), [Cryptio](https://cryptio.co/), [Koinly](https://koinly.io/), [TokenTax](https://tokentax.co/), i [ZenLedger](https://zenledger.io/). Ove platforme se prvenstveno fokusiraju na četiri aspekta:
 
 
 - automatsko prikupljanje podataka;
@@ -1270,25 +1270,25 @@ Oni su često mudar dodatak za velike organizacije sa više novčanika i sredsta
 
 ![BIZ101](assets/en/31.webp)
 
-Međutim, jednostavna `.csv` datoteka koja sadrži istoriju transakcija često je dovoljna za većinu malih preduzeća. Cilj je dokumentovati, za svaku uplatu, datum, iznos, ekvivalentnu vrednost u evrima/dolarima i relevantne Bitkoin adrese. Velika većina Bitkoin rešenja za plaćanje (BTC Pay Server, Swiss Bitkoin Pay, itd.) ili Exchange platformi (Bitfinex, Kraken, Coinbase, itd.) već nudi mehanizam za izvoz istorije transakcija. Pružanjem ove datoteke računovođi, postaje moguće pojednostaviti unos podataka i jasno razlikovati dolazne i odlazne tokove povezane sa Bitkoin.
+Međutim, jednostavna `.csv` datoteka koja sadrži istoriju transakcija često je dovoljna za većinu malih preduzeća. Cilj je dokumentovati, za svaku uplatu, datum, iznos, ekvivalentnu vrednost u evrima/dolarima i relevantne bitkoin adrese. Velika većina bitkoin rešenja za plaćanje (BTC Pay Server, Swiss Bitkoin Pay, itd.) ili platformi poput menjačnica (Bitfinex, Kraken, Coinbase, itd.) već nudi mehanizam za izvoz istorije transakcija. Pružanjem ove datoteke računovođi, postaje moguće pojednostaviti unos podataka i jasno razlikovati dolazne i odlazne tokove povezane sa bitkoinom.
 
-Za one koji sami čuvaju svoj Bitkoin, upravljanje UTXO-ima (*Unspent Transaction Outputs*) je važan korak. Pravilno označavanje UTXO pomaže u praćenju porekla svakog BTC fragmenta, razlikovanju transakcija vezanih za profesionalne aktivnosti od onih za lične troškove, i olakšava praćenje u pravne ili poreske svrhe. Većina dobrog Bitkoin Wallet softvera omogućava vam da uvezete svoj Wallet koristeći vašu rezervnu datoteku (ili vaš xpub, u zavisnosti od vašeg podešavanja) i označite UTXO-e na osnovu njihovog porekla ili odredišta. Da bismo vam pomogli, ovde je kompletan vodič posvećen ovoj praksi:
+Za one koji sami čuvaju svoj bitkoin, upravljanje UTXO-ima (*Unspent Transaction Outputs-Nepotrošenim izlazima transakcija*) je važan korak. Pravilno označavanje UTXO pomaže u praćenju porekla svakog BTC fragmenta, razlikovanju transakcija vezanih za profesionalne aktivnosti od onih za lične troškove, i olakšava praćenje u pravne ili poreske svrhe. Većina dobrog softvera za bitkoin novčanik omogućava vam da uvezete svoj novčanik koristeći vašu rezervnu datoteku (ili vaš xpub, u zavisnosti od vašeg podešavanja) i označite UTXO-e na osnovu njihovog porekla ili odredišta. Da bismo Vam pomogli, ovde je kompletan vodič posvećen ovoj praksi:
 
 https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
-Konačno, bilo da ste mali trgovac ili već etablirani biznis, moguće je **izmiriti Invoice u Bitkoin**. Ključ je pravilno dokumentovati transakciju. Ako plaćate iz samostalnog čuvanja Wallet, idealno je generate transakciju uz beleženje broja Invoice i svrhe plaćanja u vašim oznakama. Ako više volite da izmirite Invoice putem Exchange, takođe ćete imati opciju da izvezete račun ili istoriju transakcija kako biste ih uključili u vaše knjigovodstvene evidencije. Ova transparentnost će pojednostaviti praćenje i izveštavanje svih vaših BTC operacija.
+Konačno, bilo da ste mali trgovac ili već etablirano preduzeće, moguće je **platiti fakturu u bitkoinu**. Ključ je pravilno dokumentovati transakciju. Ako plaćate iz novčanika koji sami čuvate, idealno je generisati transakciju sa napomenom broja fakture i svrhe plaćanja u vašim oznakama. Ako više volite da izmirite fakturu putem menjačnice, takođe ćete imati opciju da izvezete potvrdu ili istoriju transakcija kako biste ih uključili u svoje knjigovodstvene evidencije. Ova transparentnost će pojednostaviti praćenje i izveštavanje svih vaših BTC operacija.
 
-## Praktični primeri računovodstva Bitkoin
+## Praktični primeri bitkoin računovodstva
 
 <chapterId>763f6f20-9181-495a-bf7d-b405899e65ec</chapterId>
 
-### Use Case 1: Maloprodajna prodavnica konvertuje Bitkoin uplate u evre
+### Studija slučaja 1: Maloprodajna prodavnica konvertuje bitkoin uplate u evre
 
-**Scenario**: Mala pekara prihvata Bitkoin kao način plaćanja, ali odmah konvertuje sve primljene Bitkoin u evre kako bi izbegla izloženost volatilnosti kriptovaluta.
+**Scenario**: Mala pekara prihvata bitkoin kao način plaćanja, ali odmah konvertuje sve primljene bitkoin u evre kako bi izbegla izloženost volatilnosti kriptovaluta.
 
 **Primer**:
 
 
-- Bitkoin Conversion Rate**: 1 Bitkoin = €40,000.
+- Kurs konverzije bitkoina**: 1 Bitkoin = €40,000.
 - Transakcija 1**: Kupac kupuje više peciva za €20.
     - Bitkoin ekvivalent: (20 / 40,000) = 0.0005 Bitkoin = 50,000 Satošija.
     - Naknada za konverziju: 1.5% (€20 × 0.015) = €0.30.
@@ -1308,24 +1308,24 @@ Konačno, bilo da ste mali trgovac ili već etablirani biznis, moguće je **izmi
 **Računovodstvene implikacije**:
 
 
-- Evidentiraj ukupnu prodaju (€25) kao prihod.
+- Evidentirajte ukupnu prodaju (€25) kao prihod.
 - Odbijte naknade za konverziju (€0.375) kao trošak.
-- Na bilansu stanja se ne pojavljuju Bitkoin sredstva jer su svi iznosi odmah konvertovani.
+- Na bilansu stanja se ne pojavljuju bitkoin sredstva jer su svi iznosi odmah konvertovani.
 
-### Use Case 2: Maloprodajna prodavnica zadržava 50% Bitkoin uplata
+### Studija slučaja 2: Maloprodajna prodavnica zadržava 50% bitkoin uplata
 
-**Scenario**: Ista pekara odlučuje da zadrži 50% Bitkoin uplata kao trezorsku imovinu, dok preostalih 50% konvertuje u evre.
+**Scenario**: Ista pekara odlučuje da zadrži 50% bitkoin uplata kao sredstvo za čuvanje vrednosti, dok preostalih 50% konvertuje u evre.
 
 **Primer**:
 
 
-- Bitkoin Conversion Rate**: 1 Bitkoin = €40,000.
+- Kurs konverzije bitkoina**: 1 Bitkoin = €40,000.
 - Transakcija od kupca**: Kupac kupuje peciva za €50.
     - Bitkoin ekvivalent: (50 / 40,000) = 0.00125 Bitkoin = 125,000 Satošija.
     - Konverzija (50%): €25 vrednosti Bitkoin = 0.000625 Bitkoin = 62,500 Satošija.
         - Naknada za konverziju: 1.5% (€25 × 0.015) = €0.375.
         - Neto primljeno u evrima: €25 - €0.375 = €24.625.
-    - Zadržano u Bitkoin (50%): 62,500 Satošija = 0.000625 Bitkoin.
+    - Zadržano u bitkoinu (50%): 62,500 Satošija = 0.000625 bitkoina.
 
 **Rezime**:
 
@@ -1333,84 +1333,84 @@ Konačno, bilo da ste mali trgovac ili već etablirani biznis, moguće je **izmi
 - Ukupna prodaja**: €50.
 - Naknade**: €0.375.
 - Neto primljeni evri**: €24.625.
-- Bitkoin Zadržano**: 62,500 Satošija.
+- Zadržan bitkoin**: 62,500 Satošija.
 
 **Računovodstvene implikacije**:
 
 
-- Evidentiraj ukupnu prodaju (€50) kao prihod.
+- Evidentirajte ukupnu prodaju (€50) kao prihod.
 - Odbijte naknade za konverziju (€0.375) kao trošak.
-- Zadržano Bitkoin (62,500 Satošija) pojavljuje se na bilansu stanja kao digitalna imovina.
-- Nerealizovani Dobitak: ako je procena Bitkoin na kraju fiskalne godine viša ili niža, doći će do nerealizovanog dobitka ili gubitka koji će biti objavljen u finansijskim beleškama, ali neće biti realizovan kao prihod.
+- Zadržani bitkoin (62,500 Satošija) pojavljuje se na bilansu stanja kao digitalna imovina.
+- Nerealizovani dobitak/gubitak: ako je vrednost bitkoina na kraju fiskalne godine viša ili niža, biće evidentiran nerealizovani dobitak ili gubitak koji će biti objavljen u finansijskim napomenama, ali neće biti realizovan kao prihod.
 
-### Studija slučaja 3: Profesionalna usluga zadržavanja Bitkoin za dugoročno ulaganje
+### Studija slučaja 3: Profesionalna usluga zadržavanja bitkoina za dugoročno ulaganje
 
-**Scenario**: Freelance grafički dizajner prihvata Bitkoin kao plaćanje i zadržava sve primljene Bitkoin kao dugoročnu investiciju.
+**Scenario**: Freelance grafički dizajner prihvata bitkoin kao plaćanje i zadržava sve primljene bitkoine kao dugoročnu investiciju.
 
 **Primer**:
 
 
-- Bitkoin Conversion Rate at Payment**: 1 Bitkoin = €30,000.
+- Kurs bitkoina u trenutku plaćanja**: 1 Bitkoin = €30,000.
 - Transakcija od kupca**: Klijent plaća za usluge u vrednosti od €3,000.
     - Bitkoin ekvivalent: (3,000 / 30,000) = 0.1 Bitkoin = 10,000,000 Satošija.
 - Godišnja procena vrednosti**:
-    - Stopa konverzije Bitkoin na kraju godine: 1 Bitkoin = €35,000.
-    - Vrednovanje Bitkoin Holding: 0.1 Bitkoin × €35,000 = €3,500.
+    - Kurs bitkoina na kraju godine: 1 Bitkoin = €35,000.
+    - Procena vrednosti bitkoin imovine: 0.1 Bitkoin × €35,000 = €3,500.
     - Nerealizovani dobitak: €3,500 - €3,000 = €500.
 
 **Rezime**:
 
 
 - Ukupni priznati prihod**: €3,000.
-- Bitkoin Holding**: 0.1 Bitkoin vrednovano na €3,500 na bilansu stanja.
-- Nerealizovani dobitak**: €500 prikazano u finansijskim napomenama, ali nije realizovano kao prihod.
+- Zadržani bitkoin**: 0.1 bitkoin vrednovan na €3,500 u bilansu stanja.
+- Nerealizovani dobitak**: €500 prikazan u finansijskim napomenama, ali nije realizovano kao prihod.
 
 **Računovodstvene implikacije**:
 
 
-- Evidentiraj prihod (€3,000) u trenutku pružanja usluge.
-- Bitkoin zadržan (0.1) vrednovan na €3,500 u bilansu stanja.
+- Evidentirajte prihod (€3,000) u trenutku pružanja usluge.
+- Zadržan bitkoin (0.1) vrednovan na €3,500 u bilansu stanja.
 - Nerealizovani dobici se prate, ali nisu uključeni u izveštaje o dobiti/gubitku.
 
-### Use Case 4: Vlasnik preduzeća prodaje 50% Bitkoin nakon povećanja cene
+### Studija slučaja 4: Vlasnik preduzeća prodaje 50% bitkoina nakon povećanja cene
 
-**Scenario**: Vlasnik preduzeća obavlja tri kupovine Bitkoin tokom godine, drži Bitkoin kao imovinu i prodaje 50% nakon značajnog povećanja cene.
+**Scenario**: Vlasnik preduzeća obavlja tri kupovine bitkoina tokom godine, drži bitkoin kao imovinu i prodaje 50% nakon značajnog povećanja cene.
 
 **Primer**:
 
 
-- Bitkoin Kupovine od kupaca**:
+- Bitkoin kupovine od kupaca**:
     - Kupovina 1: €2,000 po €20,000/BTC = 0.1 Bitkoin = 10,000,000 Satošija.
     - Kupovina 2: €3,000 po €25,000/BTC = 0.12 Bitkoin = 12,000,000 Satošija.
     - Kupovina 3: €5,000 po €30,000/BTC = 0.1667 Bitkoin = 16,670,000 Satošija.
-    - Ukupno Bitkoin Držano**: 0.3867 Bitkoin = 38,670,000 Satošija.
+    - Ukupno zadržani bitkoin**: 0.3867 Bitkoin = 38,670,000 Satošija.
 - Godišnja procena vrednosti**:
-    - Cena Bitkoin na kraju godine: €40,000/BTC.
+    - Cena bitkoina na kraju godine: €40,000/BTC.
     - Ukupna vrednost: 0.3867 Bitkoin × €40,000 = €15,468.
     - Nerealizovani dobitak: €15,468 - €10,000 (ukupni trošak) = €5,468.
-- Prodaja 50% Bitkoin**:
-    - Bitkoin Prodat: 0.19335 Bitkoin.
+- Prodaja 50% bitkoina**:
+    - Prodat bitkoin : 0.19335 bitkoin.
     - Prihodi od prodaje: 0.19335 Bitkoin × €40,000 = €7,734.
     - Osnovica troškova (ponderisani prosek):
         - Ukupni trošak: €2,000 + €3,000 + €5,000 = €10,000.
-        - Prosečna ponderisana cena: €10,000 / 0.3867 Bitkoin = €25,850/BTC.
-        - Trošak prodatog Bitkoin: 0.19335 Bitkoin × €25,850 = €4,999.
-    - Ostvareni Dobitak: €7,734 - €4,999 = €2,735.
+        - Prosečna ponderisana cena: €10,000 / 0.3867 bitkoin = €25,850/BTC.
+        - Trošak prodatog bitkoina: 0.19335 bitkoin × €25,850 = €4,999.
+    - Realizovani dobitak: €7,734 - €4,999 = €2,735.
 
 **Rezime**:
 
 
-- Bitkoin Preostalo**: 0.19335 Bitkoin procenjeno na €7,734 (pri €40,000/BTC).
-- Ostvareni Dobitak**: €2,735 uključen u bilans uspeha.
-- Nerealizovani Dobitak**: €5,468 prikazano u finansijskim beleškama (uključujući nerealizovanu vrednost preostalog Bitkoin).
+- Preostali bitkoin**: 0.19335 bitkoin procenjeno na €7,734 (pri €40,000/BTC).
+- Realizovani dobitak**: €2,735 uključen u bilans uspeha.
+- Nerealizovani dobitak**: €5,468 prikazano u finansijskim napomenama (uključujući nerealizovanu vrednost preostalog bitkoina).
 
 **Računovodstvene implikacije**:
 
 
 - Evidentirajte prihod od prodaje (€7,734) kao prihod.
-- Oduzmite trošak Bitkoin prodatog (€4,999) da biste izračunali ostvareni dobitak.
-- Zadržano Bitkoin (0.19335) pojavljuje se na bilansu stanja vrednovano na €7,734.
-- Nerealizovani dobici od €5,468 na zadržanom Bitkoin objavljeni u finansijskim beleškama.
+- Oduzmite trošak prodatog bitkoina (€4,999) da biste izračunali realizovanog dobitka.
+- Preostali bitkoin (0.19335) prikazati u bilansu stanja vrednovan na €7,734.
+- Nerealizovani dobici od €5,468 na zadržanom bitkoin objavljeni u finansijskim beleškama.
 
 # Zaključak
 

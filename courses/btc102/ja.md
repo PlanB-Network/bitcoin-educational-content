@@ -967,3 +967,4 @@ _暗号資産の相続計画、所有者のための簡単なガイド、Pamela 
 
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
 <isCourseConclusion>true</isCourseConclusion>
+

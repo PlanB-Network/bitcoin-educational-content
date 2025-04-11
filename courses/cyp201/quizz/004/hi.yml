@@ -1,0 +1,9 @@
+question: Hash के कौन से फंक्शन कॉम्बिनेशन का इस्तेमाल generate के शॉर्टर फिंगरप्रिंट्स को Bitcoin में करने के लिए किया जाता है?
+answer: हैश160
+wrong_answers:
+  - SHA512-SHA256
+  - HASH256
+  - शा160
+explanation: |
+  HASH160, SHA256 और RIPEMD160 को मिलाकर generate के 160-बिट फिंगरप्रिंट बनाता है, खासकर Bitcoin एड्रेस के लिए।
+reviewed: false

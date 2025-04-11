@@ -52,10 +52,8 @@
     {
       "code": "hi",
       "name": "Hindi",
-      "translator": "openai",
-      "code_translator": "Modern Hindi",
-      "custom_prompt": "इस अंग्रेज़ी पाठ का हिंदी अनुवाद सरल, प्रवाहपूर्ण और बोलचाल की भाषा में करें"
-
+      "translator": "deepseek",
+      "code_translator": "Colloquial Hindi"
     },
     {
       "code": "id",

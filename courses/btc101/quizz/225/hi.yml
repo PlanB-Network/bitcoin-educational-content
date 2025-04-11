@@ -1,0 +1,10 @@
+question: Lightning Network पहली बार कब वैलिडेट और इम्प्लीमेंट किया गया था?
+answer: 2017
+wrong_answers:
+  - 2015
+  - 2016
+  - 2018
+explanation: |
+  जीडब्ल्यू-1 को पहली बार मान्य किया गया और लागू किया गया
+  2017 में।
+reviewed: true

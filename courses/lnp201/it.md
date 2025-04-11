@@ -275,7 +275,7 @@ Tuttavia, questo sistema presenta una potenziale falla, che affronteremo nel pro
 <chapterId>f2f61e5b-badb-5947-9a81-7aa530b44e59</chapterId>
 ![video en](https://youtu.be/veCs39uVFUk)
 
-In questo capitolo, approfondiremo il funzionamento delle transazioni sulla Lightning Network discutendo i meccanismi in atto per proteggersi dalle truffe, assicurando che ciascuna parte rispetti le regole all'interno di un canale.
+In questo capitolo, approfondiremo il funzionamento delle transazioni su Lightning Network discutendo i meccanismi in atto per proteggersi dalle truffe, assicurando che ciascuna parte rispetti le regole all'interno di un canale.
 
 ### Promemoria: Transazioni di Impegno
 
@@ -304,12 +304,12 @@ Ancora peggio, Alice potrebbe pubblicare la primissima transazione di prelievo, 
 
 ### Soluzione: Chiave di Revoca e Timelock
 
-Per prevenire questo tipo di truffa da parte di Alice, sulla Lightning Network, vengono aggiunti **meccanismi di sicurezza** alle transazioni di impegno:
+Per prevenire questo tipo di truffa da parte di Alice, su Lightning Network, vengono aggiunti **meccanismi di sicurezza** alle transazioni di impegno:
 
 - **Il timelock**: Ogni transazione di impegno include un timelock per i fondi di Alice. Il timelock è una primitiva di smart contract che stabilisce una condizione temporale che deve essere soddisfatta affinché una transazione possa essere aggiunta a un blocco. Ciò significa che Alice non può recuperare i suoi fondi fino a quando non sia passato un certo numero di blocchi, se pubblica una delle transazioni di impegno. Questo timelock inizia ad applicarsi dalla conferma della transazione di impegno. La sua durata è generalmente proporzionale alla dimensione del canale, ma può anche essere configurata manualmente.
-- **Chiave di Revoca**: I fondi di Alice possono anche essere spesi immediatamente da Bob se possiede la **chiave di revoca**. Questa chiave consiste in un segreto detenuto da Alice e un segreto detenuto da Bob. Nota che questo segreto è diverso per ogni transazione di impegno.
-   Grazie a questi 2 meccanismi combinati, Bob ha il tempo di rilevare il tentativo di Alice di barare, e di punirla recuperando il suo output con la chiave di revoca, il che per Bob significa recuperare tutti i fondi del canale. La nostra nuova transazione di impegno ora apparirà così:
-   ![LNP201](assets/en/25.webp)
+- **Chiave di Revoca**: I fondi di Alice possono anche essere spesi immediatamente da Bob se possiede la **chiave di revoca**. Questa chiave consiste in un segreto detenuto da Alice e un segreto detenuto da Bob. Nota che questo segreto è diverso per ogni transazione di impegno. Grazie a questi 2 meccanismi combinati, Bob ha il tempo di rilevare il tentativo di Alice di barare, e di punirla recuperando il suo output con la chiave di revoca, il che per Bob significa recuperare tutti i fondi del canale. La nostra nuova transazione di impegno ora apparirà così:
+
+![LNP201](assets/en/25.webp)
 
 Analizziamo insieme il funzionamento di questo meccanismo.
 
@@ -318,7 +318,7 @@ Analizziamo insieme il funzionamento di questo meccanismo.
 Quando Alice e Bob aggiornano lo stato del canale con una nuova transazione Lightning, scambiano in anticipo i rispettivi **segreti** per la precedente transazione di impegno (quella che diventerà obsoleta e potrebbe permettere a uno di loro di barare). Questo significa che, nel nuovo stato del canale:
 
 - Alice e Bob hanno una nuova transazione di impegno che rappresenta l'attuale distribuzione dei fondi dopo la transazione Lightning.
-- Ognuno ha il segreto dell'altro per la transazione precedente, il che permette loro di usare la chiave di revoca solo se uno di loro prova a barare pubblicando una transazione con uno stato vecchio nei mempool dei nodi Bitcoin. Infatti, per punire l'altra parte, è necessario detenere entrambi i segreti e l'altra transazione di impegno, che include l'input firmato. Senza questa transazione, la chiave di revoca da sola è inutile. L'unico modo per ottenere questa transazione è recuperarla dai mempool (nelle transazioni in attesa di conferma) o nelle transazioni confermate sulla blockchain durante il timelock, il che dimostra che l'altra parte sta cercando di barare, intenzionalmente o meno.
+- Ognuno ha il segreto dell'altro per la transazione precedente, il che permette loro di usare la chiave di revoca solo se uno di loro prova a barare pubblicando una transazione con uno stato vecchio nella mempool dei nodi Bitcoin. Infatti, per punire l'altra parte, è necessario detenere entrambi i segreti e l'altra transazione di impegno, che include l'input firmato. Senza questa transazione, la chiave di revoca da sola è inutile. L'unico modo per ottenere questa transazione è recuperarla dalla mempool (nelle transazioni in attesa di conferma) o nelle transazioni confermate sulla blockchain durante il timelock, il che dimostra che l'altra parte sta cercando di barare, intenzionalmente o meno.
 
 Prendiamo un esempio per capire bene questo processo:
 
@@ -342,9 +342,10 @@ Anche se, in questo caso, Bob non ha interesse economico a cercare di barare, se
 
 **Cosa dovresti ricavare da questo capitolo?**
 
-Le **transazioni di impegno** sulla Lightning Network includono meccanismi di sicurezza che riducono sia il rischio di barare sia gli incentivi a farlo. Prima di firmare una nuova transazione di impegno, Alice e Bob scambiano i rispettivi **segreti** per le precedenti transazioni di impegno. Se Alice prova a pubblicare una vecchia transazione di impegno, Bob può usare la **chiave di revoca** per recuperare tutti i fondi prima che Alice possa (perché è bloccata dal timelock), il che la punisce per aver tentato di barare.
+Le **transazioni di impegno** su Lightning Network includono meccanismi di sicurezza che riducono sia il rischio di barare sia gli incentivi a farlo. Prima di firmare una nuova transazione di impegno, Alice e Bob scambiano i rispettivi **segreti** per le precedenti transazioni di impegno. Se Alice prova a pubblicare una vecchia transazione di impegno, Bob può usare la **chiave di revoca** per recuperare tutti i fondi prima che Alice possa (perché è bloccata dal timelock), il che la punisce per aver tentato di barare.
 
-Questo sistema di sicurezza garantisce che i partecipanti aderiscano alle regole della Lightning Network, e non possano trarre profitto dalla pubblicazione di vecchie transazioni di impegno.
+Questo sistema di sicurezza garantisce che i partecipanti aderiscano alle regole di Lightning Network, e non possano trarre profitto dalla pubblicazione di vecchie transazioni di impegno.
+
 A questo punto della formazione, ora sai come vengono aperti i canali Lightning e come funzionano le transazioni all'interno di questi canali. Nel prossimo capitolo, scopriremo i diversi modi per chiudere un canale e recuperare i tuoi bitcoin sulla blockchain principale.
 
 ## Chiusura del Canale

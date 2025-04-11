@@ -1,9 +1,0 @@
-question: Was ist die Rolle des Master-Chain-Codes bei der hierarchischen Organisation und Ableitung der HD-Wallet?
-answer: Er spielt eine wichtige Rolle bei der Wiederherstellung des Portfolios aus dem Seed.
-wrong_answers:
-  - Er wird verwendet, um den Seed zu generieren.
-  - Er wird verwendet, um Kinderschlüssel abzuleiten.
-  - Er wird verwendet, um die Wallet zu verschlüsseln.
-explanation: |
-  Der Master-Chain-Code ist unerlässlich für die Wiederherstellung des Portfolios aus dem Seed. Alle aus demselben Seed abgeleiteten Schlüssel haben denselben Master-Chain-Code.
-reviewed: false

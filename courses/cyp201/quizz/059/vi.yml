@@ -1,9 +1,8 @@
-question: Mục đích của hàm băm SHA-256 trong việc tạo ra một số ngẫu nhiên tốt là gì?
-answer: Nó giảm một khối thông tin ban đầu rất lớn xuống còn 256 bit.
+question: Vai trò của hạt giống trong ví HD Bitcoin là gì?
+answer: Đóng vai trò là điểm xuất phát để suy ra tất cả các khóa
 wrong_answers:
-  - Nó tăng kích thước của thông tin ban đầu.
-  - Nó mã hóa thông tin ban đầu.
-  - Nó xác minh tính xác thực của thông tin ban đầu.
+  - Lưu trữ các giao dịch của ví
+  - Trực tiếp tạo ra khóa công khai chính
+  - Đảm bảo tính bảo mật của giao dịch
 explanation: |
-  Hàm băm SHA-256 được sử dụng để giảm một khối thông tin ban đầu rất lớn xuống còn 256 bit. Quá trình này giúp tạo ra một số ngẫu nhiên tốt, điều này rất quan trọng cho việc bảo mật khóa riêng và giao dịch Bitcoin.
-reviewed: false
+  Hạt giống là một chuỗi 512-bit được suy ra từ cụm từ ghi nhớ và cụm từ mật khẩu. Nó tạo thành cơ sở cho tất cả các khóa trong ví.

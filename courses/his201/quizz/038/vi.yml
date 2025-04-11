@@ -1,0 +1,9 @@
+question: Tên của ứng dụng quản lý đầu tiên cho phép sử dụng Bitcoin một cách đơn giản trên di động được tạo ra vào tháng 4 năm 2010 là gì?
+answer: MyBitcoin
+wrong_answers:
+  - Bitcoin Wallet
+  - BTC 2 PSC
+  - Privacy Shark
+explanation: |
+  Nó được [quảng cáo](https: //bitcointalk.org/index.php?topic=30.msg1035#msg1035) trên diễn đàn vào ngày 30 tháng 4 năm 2010, bởi một người tên là komoto.
+reviewed: false

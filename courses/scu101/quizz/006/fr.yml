@@ -1,9 +1,12 @@
-question: Qu'est-ce que les cookies dans le contexte de la navigation en ligne ?
+question: Quels sont les cookies dans le contexte de la navigation en ligne ?
 answer: Des fichiers créés par les sites web pour stocker des informations sur votre appareil.
 wrong_answers:
-  - De petits morceaux de données envoyés depuis un site web et stockés sur l'ordinateur de l'utilisateur par le navigateur web de l'utilisateur.
-  - Des programmes qui suivent votre activité en ligne.
-  - Des virus qui peuvent endommager votre appareil.
+  - Petits morceaux de données envoyés par un site web et stockés sur l'ordinateur de l'utilisateur par le navigateur web de l'utilisateur.
+  - Programmes qui suivent votre activité en ligne.
+  - Virus pouvant endommager votre appareil.
 explanation: |
-  Dans le contexte de la navigation en ligne, les cookies sont des fichiers créés par les sites web pour stocker des informations sur votre appareil. Ils sont utilisés pour se souvenir de vos préférences, de vos informations de connexion et d'autres données afin d'améliorer votre expérience de navigation.
-reviewed: false
+  Dans le contexte de la navigation en ligne, les cookies sont des fichiers
+  créés par les sites web pour stocker des informations sur votre appareil.
+  Ils sont utilisés pour se souvenir de vos préférences, de vos informations de connexion,
+  et d'autres données pour améliorer votre expérience de navigation.
+reviewed: true

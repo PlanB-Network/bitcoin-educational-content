@@ -1,0 +1,9 @@
+question: 2011年9月に、Bitcoinの改善を調整することを目的としたBitcoin Improvement Proposalsシステムを開始したのは誰ですか？
+answer: Amir Taaki
+wrong_answers:
+  - Gavin Andresen
+  - Jeff Garzik
+  - Nils Schneider
+explanation: |
+  このシステムは、Pythonプログラミング言語に特有のPython Enhancement Proposals (PEP)をモデルにしています。
+reviewed: false

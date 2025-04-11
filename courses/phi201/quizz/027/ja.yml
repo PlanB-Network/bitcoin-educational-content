@@ -1,0 +1,9 @@
+question: 「phusis」と「nomos」の違いは何ですか？
+answer: Phusisは自然の法則であり、nomosは人間の法則です。
+wrong_answers:
+  - Phusisは神々の法則であり、nomosは人間の法則です。
+  - Phusisは弱者の法則であり、nomosは強者の法則です。
+  - Phusisは古代の法則であり、nomosは近代の法則です。
+explanation: |
+  ギリシャ哲学において、「phusis」は自然に固有の、人間の行動とは独立した自然法則を指します。一方、「nomos」は社会が共同生活を規制するために作り出した人間の法則を指します。
+reviewed: false

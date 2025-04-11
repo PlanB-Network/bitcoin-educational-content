@@ -1,0 +1,9 @@
+question: Apa tujuan menggunakan dompet umpan dengan kata sandi?
+answer: Untuk mensimulasikan dompet dengan jumlah kecil dalam kasus paksaan fisik
+wrong_answers:
+  - Menambahkan cadangan otomatis transaksi
+  - Menghasilkan frasa mnemonik tambahan
+  - Melindungi UTXO dari pengeluaran ganda
+explanation: |
+  Dompet umpan digunakan untuk mengalihkan perhatian penyerang dengan memberikan akses ke dompet yang berisi jumlah bitcoin yang kecil.
+ditinjau: false

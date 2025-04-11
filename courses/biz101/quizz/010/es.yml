@@ -1,0 +1,9 @@
+question: ¿Cómo ayuda la Lightning Network a reducir las comisiones de las transacciones de Bitcoin?
+answer: Realizando la mayoría de las transacciones fuera de la cadena y publicando sólo las transacciones de liquidación del canal en la cadena de bloques principal.
+wrong_answers:
+  - Eliminando toda verificación criptográfica de los pagos.
+  - Centralizando el control en un gran centro de pagos.
+  - Exigiendo a los comerciantes que paguen todos los costes de la red por adelantado.
+explanation: |
+  Dado que las transacciones Lightning se realizan fuera de la cadena, sólo los estados finales del canal se liquidan en la cadena de bloques de Bitcoin. Esto reduce la congestión y, por tanto, las comisiones al evitar realizar muchas transacciones en la cadena.
+reviewed: false

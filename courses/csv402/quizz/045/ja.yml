@@ -1,0 +1,9 @@
+question: 互換性のあるトークンを定義するために使用されるRGB標準はどれですか？
+answer: RGB20
+wrong_answers:
+  - RGB21
+  - RGB22
+  - RGB25
+explanation: |
+  RGB20は、RGBプロトコル上でカンジブル・トークンを作成・管理するために使用される標準です。
+reviewed: false

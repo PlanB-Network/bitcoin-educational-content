@@ -1,0 +1,9 @@
+question: En quoi un portefeuille non gardien diffère-t-il en termes de fonctionnalité pour les utilisateurs de Starter ?
+answer: Il donne au propriétaire de l'entreprise le contrôle total des clés privées
+wrong_answers:
+  - Il peut convertir automatiquement des bitcoins en monnaie fiduciaire
+  - Il ne nécessite pas de procédures de sauvegarde ni de mesures de sécurité
+  - Il gère toutes les transactions par l'intermédiaire d'un service tiers
+explanation: |
+  Les portefeuilles non conservateurs placent le contrôle des clés privées et des transactions entièrement entre les mains de l'utilisateur.
+reviewed: false

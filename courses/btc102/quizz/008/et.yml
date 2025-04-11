@@ -1,0 +1,8 @@
+question: Mis on tarkvarauuenduse peamine eesmärk?
+answer: Parandada vigu ja tõsta tarkvara turvalisust
+wrong_answers:
+  - Lisada uusi funktsioone
+  - Muuta tarkvara liidest
+  - Suurendada tarkvara suurust
+explanation: |
+  Kuigi tarkvarauuendused toovad tihti kaasa uusi funktsioone, on nende peamine eesmärk parandada vigu ja tõsta tarkvara turvalisust. See on oluline, et hoida teie arvuti optimaalses töökorras.

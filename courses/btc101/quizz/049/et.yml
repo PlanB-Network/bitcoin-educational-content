@@ -1,0 +1,9 @@
+question: Mis on hüperinflatsiooni esimene faas?
+answer: Usalduse kaotus
+wrong_answers:
+  - Valuuta kokkukukkumine & hinnatõus
+  - Raha trükkimise nõiaring
+  - Uue valuuta teke
+explanation: |
+  Hüperinflatsiooni esimene faas on usalduse kaotus valuuta vastu.
+reviewed: true

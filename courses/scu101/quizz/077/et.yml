@@ -1,0 +1,9 @@
+question: Miks on oluline turvata oma postkasti?
+answer: Sest see võimaldab teil parooli taastada
+wrong_answers:
+- Sest see on uudistelehtede saamiseks.
+- Sest see sisaldab teie kõigi salasõnade
+- Sest see sisaldab teie pangandat
+explanation: Postkasti on kesknepunkt, mille kaudu saab pääsuda salasõnu ja mitme
+  kontole kahjustada, kui see on rikutud.
+reviewed: false

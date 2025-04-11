@@ -1,0 +1,9 @@
+question: Quali sono i due tipi di portafoglio considerati nel profilo Starter?
+answer: Portafogli Lightning custodiali e non custodiali
+wrong_answers:
+  - Portafogli Bitcoin a caldo e a freddo
+  - Portafogli Bitcoin multisig e cartacei
+  - Hardware e cervello Portafogli Lightning
+explanation: |
+  Il profilo Starter utilizza portafogli Lightning con o senza custodia.
+reviewed: false

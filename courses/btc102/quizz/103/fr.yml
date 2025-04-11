@@ -1,4 +1,4 @@
-question: Quelles sont les idées fausses courantes sur la création d'un plan de succession selon Pamela Morgan dans "Cryptoasset Inheritance Planning" ?
+question: Quelles sont les idées fausses courantes sur la création d'un plan de succession selon Pamela Morgan dans Cryptoasset Inheritance Planning ?
 answer: J'ai besoin d'engager un avocat ; Je dois faire confiance à un tiers ; Planifier rendra mes actifs faciles à voler ; La valeur de ma cryptomonnaie est trop faible pour être planifiée ; Mes héritiers résoudront tout seuls ; Tout cela peut être fait avec un simple contrat intelligent.
 wrong_answers:
   - Je n'ai pas besoin d'engager un avocat ; Je n'ai pas besoin de faire confiance à un tiers ; Planifier rendra mes actifs difficiles à voler ; La valeur de ma cryptomonnaie est trop élevée pour être planifiée ; Mes héritiers ne résoudront pas tout seuls ; Tout cela ne peut pas être fait avec un simple contrat intelligent.
@@ -6,7 +6,7 @@ wrong_answers:
   - Je n'ai pas besoin d'engager un avocat ; Je n'ai pas besoin de faire confiance à un tiers ; Planifier rendra mes actifs faciles à voler ; La valeur de ma cryptomonnaie est trop faible pour être planifiée ; Mes héritiers ne résoudront pas tout seuls ; Tout cela peut être fait avec un simple contrat intelligent.
 explanation: |
   Les idées fausses courantes sur la création d'un plan de succession, comme indiqué
-  par Pamela Morgan dans "Cryptoasset Inheritance Planning", sont que vous devez engager
+  par Pamela Morgan dans Cryptoasset Inheritance Planning, sont que vous devez engager
   un avocat ; vous devez faire confiance à un tiers ; planifier rendra vos actifs faciles à
   voler ; la valeur de votre cryptomonnaie est trop faible pour être planifiée ; vos héritiers
   résoudront tout seuls ; et tout cela peut être fait avec un simple contrat intelligent.

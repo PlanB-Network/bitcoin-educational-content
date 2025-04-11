@@ -1,9 +1,8 @@
-question: ¿Qué es la liquidez de un canal en la Red Lightning?
-answer: La cantidad de satoshis que se pueden transferir a través del canal.
+question: ¿Qué tipo de liquidez debe gestionar principalmente un vendedor en la Red Lightning para aceptar pagos?
+answer: Liquidez entrante
 wrong_answers:
-  - El número de transacciones que se pueden realizar a través del canal.
-  - La velocidad a la que se pueden realizar transacciones a través del canal.
-  - El costo de realizar una transacción a través del canal.
+  - Liquidez saliente
+  - Una alta capacidad total del canal
+  - Un alto saldo en cadena
 explanation: |
-  En la Red Lightning, la liquidez de un canal se refiere a la cantidad de satoshis que se pueden transferir a través del canal. La liquidez de estos canales no se puede transferir a otros canales de liquidez.
-reviewed: false
+  Para recibir pagos, un vendedor necesita tener liquidez entrante, lo que significa que los fondos deben estar disponibles en el lado opuesto del canal para que puedan aceptar pagos.

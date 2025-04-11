@@ -1,12 +1,12 @@
 question: What is the main risk of using a custodial service to store your bitcoins?
-answer: The trusted third party can restrict your access to your funds at any time
+answer: The trusted third party can restrict your access to your funds at any time.
 wrong_answers:
-  - The trusted third party can increase the value of your bitcoins at any time
-  - The trusted third party can decrease the value of your bitcoins at any time
-  - The trusted third party can't duplicate your bitcoins at any time
+  - The trusted third party can increase the value of your bitcoins at any time.
+  - The trusted third party can decrease the value of your bitcoins at any time.
+  - The trusted third party can't duplicate your bitcoins at any time.
 explanation: >-
   When you use a custodial service to store your bitcoins, you are not
   the sole holder of your bitcoins. This means that the trusted third party can restrict
   your access to your funds at any time, giving you the same level of financial sovereignty
-  as with the traditional banking system.
+  as the traditional banking system.
 reviewed: true

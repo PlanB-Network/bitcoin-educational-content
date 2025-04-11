@@ -1,0 +1,8 @@
+question: Qual é a principal razão pela qual os outros cifrões de Beale permanecem indecifrados?
+answer: A chave para esses cifrões ainda é desconhecida
+wrong_answers:
+  - Os textos criptografados são muito antigos
+  - A caixa foi perdida antes que pudesse ser decifrada
+  - Pesquisadores carecem de documentos históricos confiáveis
+explanation: |
+  Os outros cifrões de Beale nunca foram decifrados porque a chave necessária para lê-los permanece desconhecida, apesar de inúmeras tentativas.

@@ -1,0 +1,9 @@
+---
+term: CIFRE
+
+---
+Una comunità informale e internazionale di individui che promuove l'uso della crittografia come mezzo per garantire le libertà individuali su Internet. I cypherpunk sostengono il diritto fondamentale degli individui a proteggere la propria privacy, soprattutto in un contesto di crescente sorveglianza statale e di sfruttamento dei dati da parte di entità private. Il loro nome deriva dalle parole inglesi *cypher*, che significa "codice segreto", e *punk*. È un gioco di parole con il termine *cyberpunk*, che descrive un genere letterario che descrive un futuro distopico in cui la tecnologia all'avanguardia si intreccia con il vizio e il crimine in una società in decadenza.
+
+Il movimento cypherpunk risale ai primi anni Novanta, quando gruppi di crittografi, programmatori e libertari iniziarono a discutere le implicazioni politiche della crittografia durante i loro primi incontri nella Silicon Valley. Una figura chiave all'interno della comunità fu Tim May, che nel 1988 scrisse il *Manifesto anarchico della crittografia*, un testo fondamentale del movimento. Tra i momenti chiave della storia dei cypherpunks c'è stata la creazione, nel 1992, della "Cypherpunks mailing list", una lista di distribuzione di e-mail che ha facilitato queste discussioni. Anche la pubblicazione del *Manifesto dei cypherpunk* di Eric Hughes nel 1993, un documento che delinea gli obiettivi e le azioni dei cypherpunk, è stato un evento significativo.
+
+L'idea di una moneta elettronica che non si affida a un'entità centrale, come il Bitcoin, è radicata nella filosofia dei cypherpunk. La creazione di Bitcoin è spesso considerata uno dei principali risultati di questa visione, insieme a PGP, Tor e WikiLeaks.

@@ -1,0 +1,11 @@
+question: Mis võib olla liiga kiire devalveerimise või usalduse kaotuse tagajärg füüsilises valuutas?
+answer: See võib viia hüperinflatsioonini.
+wrong_answers:
+  - See võib viia deflatsioonini.
+  - See võib viia stabiilse majanduseni.
+  - See võib viia valuuta väärtuse tõusuni.
+explanation: |
+  Liiga kiire devalveerimine või usalduse kaotus füüsilises valuutas
+  võib viia hüperinflatsioonini. See on olukord, kus kaupade ja teenuste hinnad
+  tõusevad äärmiselt kiiresti, tihti viies majandusliku ebastabiilsuseni.
+reviewed: true

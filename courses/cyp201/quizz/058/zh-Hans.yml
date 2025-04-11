@@ -1,0 +1,8 @@
+question: 用于从助记词短语中派生种子的函数是什么？
+answer: PBKDF2 与 HMAC-SHA512
+wrong_answers:
+  - 仅SHA256
+  - 双重SHA256
+  - AES-256
+explanation: |
+  种子是通过使用PBKDF2函数与HMAC-SHA512和2048次迭代，从助记词短语和密码短语中生成的。

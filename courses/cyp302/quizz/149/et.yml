@@ -1,0 +1,9 @@
+question: Mis on täisarvu definitsioon, kui see on teise täisarvuga vastastikku algarvuline?
+answer: Täisarv, mille suurim ühistegur teise täisarvuga on 1
+wrong_answers:
+  - Täisarv, mis jagub teise täisarvuga ilma jäägita
+  - Täisarv, mis on algarv
+  - Täisarv, mis on suurem kui teine
+explanation: |
+  Täisarv on teise täisarvuga vastastikku algarvuline, kui nende suurim ühistegur on 1, mis tähendab, et neil ei ole ühtegi muud ühist tegurit.
+reviewed: false

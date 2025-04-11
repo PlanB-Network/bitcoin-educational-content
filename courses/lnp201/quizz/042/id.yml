@@ -1,0 +1,8 @@
+question: Kriteria apa yang dapat membantu sebuah node memilih rute pembayaran yang efisien?
+answer: Probabilitas keberhasilan berdasarkan kapasitas total dari saluran-saluran tersebut
+wrong_answers:
+  - Jarak geografis antara node-node tersebut
+  - Kehadiran node dengan tingkat biaya yang rendah
+  - Jumlah pembayaran yang dilakukan oleh node tujuan
+explanation: |
+  Kapasitas total dari saluran-saluran tersebut dapat menunjukkan probabilitas keberhasilan yang lebih tinggi, karena ini menunjukkan ketersediaan likuiditas yang lebih besar untuk transaksi.

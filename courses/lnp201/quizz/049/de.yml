@@ -1,9 +1,9 @@
-question: Welche Rolle spielen Lightning Network-Knoten in einer Transaktion?
-answer: Sie berechnen eine Gebühr dafür, dass sie sich bereit erklären, zur Weiterleitung der Transaktion verwendet zu werden.
+question: Was ist die Hauptfunktion einer Lightning-Rechnung?
+answer: Eine Zahlung vom sendenden Knoten anfordern
 wrong_answers:
-  - Sie erleichtern die Transaktion ohne Gebühren.
-  - Sie initiieren die Transaktion.
-  - Sie sind die endgültigen Empfänger der Transaktion.
+  - Gelder ohne eine On-Chain-Transaktion senden
+  - HTLCs auf einem Kanal aktivieren
+  - Einen neuen Lightning-Kanal öffnen
 explanation: |
-  Im Lightning Network berechnen Knoten eine Gebühr dafür, dass sie sich bereit erklären, zur Weiterleitung der Transaktion verwendet zu werden. Diese Gebühr variiert je nachdem, wo sich die Liquidität befindet.
+  Eine Lightning-Rechnung ist eine Zahlungsanforderung, die vom empfangenden Knoten an den sendenden Knoten übermittelt wird, um eine Zahlung im Lightning-Netzwerk zu initiieren.
 reviewed: false

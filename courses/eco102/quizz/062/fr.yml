@@ -1,0 +1,9 @@
+question: Selon Laffer, qu'arrive-t-il aux recettes fiscales lorsque l'on augmente excessivement les taux d'imposition ?
+answer: Elles diminuent
+wrong_answers:
+  - Elles augmentent
+  - Elles restent stables
+  - Elles fluctuent de manière imprévisible
+explanation: |
+  Selon la courbe de Laffer, une augmentation excessive des taux d'imposition entraîne une diminution des recettes fiscales car elle décourage le travail, l'investissement et la production.
+reviewed: false

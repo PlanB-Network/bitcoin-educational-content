@@ -1,0 +1,5 @@
+---
+term: ATTACK SURFACE
+
+---
+Označuje celkový počet potenciálních vstupních bodů, které může útočník využít k získání přístupu do systému. Útočná plocha zahrnuje všechna rozhraní, služby, porty, protokoly a další komunikační vektory, které mohou být vystaveny útoku. Rozšířený povrch útoku zvyšuje zranitelnost, a tím činí systém náchylnějším k napadení. Zmenšení povrchu útoku je správný bezpečnostní postup, který zahrnuje zakázání nepotřebných služeb. Například v kontextu Bitcoinu mají hardwarové peněženky mnohem menší útočný povrch než softwarové peněženky. Izolují totiž klíče na zařízení nepřipojeném k internetu a mají jen velmi málo rozhraní a služeb. Naproti tomu softwarové peněženky jsou nainstalovány na univerzálních počítačích, které mají mnohem větší plochu pro útoky vzhledem k množství funkcí a síťových připojení, které podporují.

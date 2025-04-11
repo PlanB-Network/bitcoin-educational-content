@@ -1,10 +1,12 @@
-question: In quale anno avverrà il settimo dimezzamento?
+question: In quale anno avverrà il settimo halving?
 answer: 2036
 wrong_answers:
   - 2032
   - 2028
   - 2048
 explanation: |
-  Il settimo dimezzamento dovrebbe avvenire nel 2036 e il numero stimato di bitcoin in circolazione sarà di 20.835.937,5 btc, ovvero il 99,22% dell'offerta totale.
-  bitcoin in circolazione.
-reviewed: false
+  Il settimo halving dovrebbe avvenire nel 2036, e il numero stimato
+  di bitcoin in circolazione sarà di 20.835.937,5,
+  che corrisponderà approssimativamente al 99,22% dell'offerta
+  totale.
+reviewed: vero

@@ -1,0 +1,9 @@
+question: Bagaimana protokol Bitcoin memastikan bahwa waktu rata-rata antara dua blok tetap konstan?
+answer: Kesulitan menemukan hash yang valid disesuaikan setiap 2016 blok
+wrong_answers:
+  - Jumlah penambang diatur
+  - Ukuran blok disesuaikan
+  - Hadiah untuk menemukan hash yang valid ditingkatkan
+explanation: >-
+  Protokol Bitcoin memastikan bahwa waktu rata-rata antara dua blok tetap konstan dengan menyesuaikan kesulitan menemukan hash yang valid setiap 2016 blok. Hal ini terjadi terlepas dari jumlah penambang dan kekuatan komputasi mereka.
+reviewed: false

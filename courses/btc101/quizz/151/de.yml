@@ -1,11 +1,11 @@
 question: Was ist der Proof of Work (POW)?
-answer: Es handelt sich um den Sicherheitskonsens des Bitcoin-Protokolls.
+answer: Es ist der Sicherheitskonsens des Bitcoin-Protokolls.
 wrong_answers:
-  - Es ist der Prozess der Erzeugung neuer Bitcoins.
-  - Es ist die Methode zur Überprüfung von Bitcoin-Transaktionen.
-  - Es ist der Algorithmus, der zum Mining von Bitcoins verwendet wird.
-explanation: |
+  - Es ist der Prozess der Erstellung neuer Bitcoins.
+  - Es ist die Methode zur Verifizierung von Bitcoin-Transaktionen.
+  - Es ist der Algorithmus, der zum Minen von Bitcoins verwendet wird.
+explanation: >-
   Der Proof of Work ist ein Konsensalgorithmus, der im Bitcoin-Netzwerk verwendet wird,
-  um Transaktionen zu validieren und neue Blöcke zu erstellen. Dabei müssen Miner komplexe
-  mathematische Probleme lösen, um die Sicherheit und Integrität des Netzwerks zu gewährleisten.
-reviewed: false
+  um Transaktionen zu validieren und neue Blöcke zu erstellen. Er erfordert von den Minern,
+  komplexe mathematische Probleme zu lösen, was die Sicherheit und Integrität des Netzwerks gewährleistet.
+reviewed: true

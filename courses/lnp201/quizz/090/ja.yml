@@ -1,9 +1,0 @@
-question: Lightning Networkで受信容量を増やす一つの方法は何ですか？
-answer: 支払いを行う
-wrong_answers:
-  - チャネルを開く
-  - 他のノードに接続する
-  - 両側の流動性のバランスを維持する
-explanation: |
-  Lightning Networkで受信容量を増やす一つの方法は、支払いを行うことです。例えば、ある理由で100,000を支払った場合、今では100,000を受け取ることができます。
-reviewed: false

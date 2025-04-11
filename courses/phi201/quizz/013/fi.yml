@@ -1,0 +1,9 @@
+question: Mikä on Lord Actonin vapauden määritelmä?
+answer: Valta toimia oman omatunnon mukaan, jopa enemmistön mielipidettä vastaan
+wrong_answers:
+  - Kyky tehdä mitä tahansa haluaa
+  - Kaikenlaisen rajoitteen puuttuminen
+  - Suoja ulkoisia hyökkäyksiä vastaan
+explanation: |
+  Lord Acton määrittelee vapauden valtana toimia oman omatunnon mukaan, korostaen yksilön kykyä tehdä henkilökohtaisia päätöksiä, jopa silloin kun ne ovat enemmistön mielipidettä vastaan.
+reviewed: false

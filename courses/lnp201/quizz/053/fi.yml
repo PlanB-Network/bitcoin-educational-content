@@ -1,9 +1,8 @@
-question: Mikä on Lightning-verkko?
-answer: Maksukanavien verkosto.
+question: Miksi reitittimen on ylläpidettävä hyvää likviditeetin jakautumista kanavissaan?
+answer: Maksimoidakseen sen kautta reititettävien maksujen määrän
 wrong_answers:
-  - Eräänlainen kryptovaluutta.
-  - Lohkoketjuteknologia.
-  - Digitaalinen lompakko Bitcoinille.
+  - Vähentääkseen transaktiomaksuja
+  - Välttääkseen uusien kanavien avaamisen
+  - Rajoittaakseen Bitcoin-lohkoketjun käyttöä
 explanation: |
-  Lightning-verkko on maksukanavien verkosto. Tuhannet vertaiset omilla likviditeettikanavillaan ovat yhteydessä toisiinsa, ja näin ollen mahdollistavat transaktioiden suorittamisen yhteydettömien vertaisten välillä.
-reviewed: false
+  Reitittimen tavoitteena on reitittää mahdollisimman monta maksua kerätäkseen maksuja, mikä vaatii hyvän likviditeetin jakautumisen molemmille puolille kanavia varmistaakseen reitityskapasiteetin.

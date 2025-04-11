@@ -1,0 +1,12 @@
+question: Mis on üks võimalikest Lightning Network'i rakendustest igapäevaelus?
+answer: Kohene arveldamine kaubanduses
+wrong_answers:
+  - Uute Bitcoinide kaevandamine
+  - Uute krüptovaluutade loomine
+  - Bitcoini väärtuse suurendamine
+explanation: >-
+  Lightning Network avab ukse laiale valikule potentsiaalsetele
+  rakendustele
+  Bitcoinile, mis olid varem kättesaamatud seoses vajadusega
+  tagada Bitcoini turvalisus ja detsentraliseeritus. Nende igapäevaelu rakenduste seas võime mainida koheseid arveldusi kaubanduses.
+reviewed: false

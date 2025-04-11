@@ -1,0 +1,9 @@
+question: 哪個 sighash 標誌可以透過涵蓋單一輸入和所有輸出來進行集資？
+answer: sighash_all | sighash_anyonecanpay
+wrong_answers:
+  - sighash_none | sighash_anyonecanpay
+  - sighash_single | sighash_anyonecanpay
+  - SIGHASH_ALL
+explanation: |
+  SIGHASH_ALL 與 SIGHASH_ANYONECANPAY 相結合，可以在不修改輸出的情況下增加輸入。
+reviewed: false

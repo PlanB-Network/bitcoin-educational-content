@@ -1,0 +1,5 @@
+---
+term: HD (HIERARCHISCH-DETERMINISTISCH)
+
+---
+Bezieht sich auf eine Bitcoin-Wallet, die eine einzigartige Information (den Seed) verwendet, um eine Vielzahl von öffentlichen und privaten Schlüsselpaaren in einer sequentiellen und reproduzierbaren Weise zu erzeugen. Diese Methode der Schlüsselverwaltung wird durch den BIP32-Standard definiert. Der Hauptvorteil von HD-Wallets besteht darin, dass sie es den Nutzern ermöglichen, eine Vielzahl verschiedener Schlüsselpaare zu haben, insbesondere um die Wiederverwendung von Adressen zu vermeiden, und gleichzeitig in der Lage sind, alle Schlüsselpaare aus einer einzigen Information zu generieren. Diese Struktur wird als hierarchisch bezeichnet, weil sie die Erstellung einer baumartigen Organisation mehrerer Schlüssel und Adressen aus einem einzigen Seed ermöglicht. Und sie ist deterministisch in dem Sinne, dass jeder Seed immer dieselbe Abfolge von Schlüsseln in jeder Brieftasche erzeugt, die diesem System entspricht.

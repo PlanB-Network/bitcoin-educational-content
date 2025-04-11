@@ -1,9 +1,8 @@
-question: O que é a semente no contexto da HD Wallet?
-answer: Uma sequência alfanumérica de 512 bits que serve como base para derivar as chaves da carteira.
+question: Qual etapa precede a aplicação do HASH160 na geração de um endereço SegWit v0?
+answer: A compressão da chave pública
 wrong_answers:
-  - Uma senha usada para proteger a carteira.
-  - Um identificador único para a carteira.
-  - Um código usado para gerar a frase mnemônica.
+  - Adicionando o checksum
+  - Conversão para o formato bech32
+  - Codificação em base58check
 explanation: |
-  A semente é uma sequência alfanumérica de 512 bits que serve como base para derivar as chaves da carteira. Ela é obtida usando a função pbkdf2 com a frase mnemônica e a senha.
-reviewed: false
+  A chave pública deve ser comprimida para reduzir seu tamanho antes de passar pela função de hash HASH160.

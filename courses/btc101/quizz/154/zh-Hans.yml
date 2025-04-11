@@ -1,0 +1,9 @@
+question: ASIC在比特币挖矿中扮演什么角色？
+answer: ASIC是专门设计用于在挖矿过程中应用SHA256算法的机器。
+wrong_answers:
+  - ASIC用于验证比特币交易。
+  - ASIC用于创建新的比特币。
+  - ASIC用于保护比特币网络。
+explanation: >-
+  ASIC（特定应用集成电路）是专门为比特币挖矿设计的专用硬件。它们经过优化，以执行SHA256哈希函数，这是矿工在工作证明中必须解决的数学问题。
+reviewed: false

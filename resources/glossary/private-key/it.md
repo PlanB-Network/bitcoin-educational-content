@@ -1,0 +1,9 @@
+---
+term: CHIAVE PRIVATA
+
+---
+La chiave privata è un elemento fondamentale della crittografia asimmetrica. È un numero (256 bit nel contesto di Bitcoin) che rappresenta un segreto crittografico. Questa chiave viene utilizzata per firmare digitalmente le transazioni e dimostrare la proprietà di una chiave pubblica Bitcoin (e, per estensione, di un indirizzo di ricezione) soddisfacendo una `scriptPubKey`. Pertanto, le chiavi private consentono di spendere bitcoin sbloccando gli UTXO associati alla corrispondente chiave pubblica. Le chiavi private devono essere mantenute strettamente riservate, poiché la loro divulgazione potrebbe consentire a terzi malintenzionati di assumere il controllo dei fondi associati.
+
+Nel sistema Bitcoin, la chiave privata è collegata a una chiave pubblica attraverso un algoritmo di firma digitale che utilizza curve ellittiche (ECDSA o Schnorr). La chiave pubblica è derivata dalla chiave privata, ma l'inverso è praticamente impossibile da ottenere a causa della difficoltà computazionale insita nella risoluzione del problema matematico sottostante (il problema del logaritmo discreto). La chiave pubblica viene generalmente utilizzata per generare un indirizzo Bitcoin, che viene utilizzato per bloccare i bitcoin tramite uno script. In crittografia, le chiavi private sono spesso numeri casuali o pseudocasuali. Nel contesto specifico dei portafogli deterministici e gerarchici di Bitcoin, le chiavi private sono derivate in modo deterministico dal seme. Le chiavi private vengono spesso confuse con il seme o con la frase di recupero (mnemonica). Tuttavia, questi elementi sono distinti.
+
+> *In inglese, una chiave privata è chiamata "private key" Questo termine è talvolta abbreviato in "privkey" o "PV"

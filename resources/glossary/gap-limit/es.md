@@ -1,0 +1,9 @@
+---
+term: GAP LÍMITE
+
+---
+Parámetro utilizado en el software del monedero Bitcoin para determinar el número máximo de direcciones consecutivas no utilizadas que se deben generar antes de detener la búsqueda de transacciones adicionales. A menudo es necesario ajustar este parámetro cuando se recupera un monedero para asegurar que se encuentran todas las transacciones. Un Límite de Brecha insuficiente podría resultar en la pérdida de algunas transacciones si las direcciones fueron omitidas durante las fases de derivación. Aumentar el Gap Limit permite al monedero buscar más en la secuencia de direcciones, para recuperar todas las transacciones asociadas.
+
+De hecho, un solo `xpub` puede derivar teóricamente más de 4.000 millones de direcciones receptoras (tanto direcciones internas como externas). Sin embargo, el software de monedero no puede derivar y comprobar todas ellas para su uso sin incurrir en un enorme coste operativo. Por lo tanto, proceden por orden de índice, ya que éste es normalmente el orden en el que todos los software de monedero generan las direcciones. El software registra cada dirección utilizada antes de pasar a la siguiente, y detiene su búsqueda cuando encuentra un número de direcciones consecutivamente vacías. Este número es lo que se denomina Límite de Huecos.
+
+Si, por ejemplo, el Límite de Huecos está fijado en `20`, y la dirección `m/84'/0'/0'/0/15/` está vacía, el monedero obtendrá direcciones hasta `m/84'/0'/0'/0/34/`. Si este intervalo de direcciones permanece sin utilizar, la búsqueda se detiene ahí. Por consiguiente, en este ejemplo no se detectaría una transacción con la dirección `m/84'/0'/0'/0/40/`.

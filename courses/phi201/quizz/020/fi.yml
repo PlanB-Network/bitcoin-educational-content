@@ -1,0 +1,9 @@
+question: Mikä on Murray Rothbardin mukaan historian liikkeellepaneva voima?
+answer: Sosiaalisen voiman ja valtion voiman välinen konflikti
+wrong_answers:
+  - Taistelu sosiaalisten luokkien välillä
+  - Tieteellinen ja teknologinen kehitys
+  - Kaikki muut vastaukset ovat oikein.
+explanation: |
+  Murray Rothbard väittää, että todellinen voima historiallisten tapahtumien ja sosiaalisten kehitysten takana on konflikti sosiaalisen voiman, joka edustaa yhteistyötä ja tuotantoa, sekä valtion voiman, joka pyrkii hallitsemaan ja hyödyntämään, välillä.
+reviewed: false

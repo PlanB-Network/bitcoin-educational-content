@@ -1,0 +1,5 @@
+---
+term: LIQUID NETWORK
+
+---
+Blockstreamin kehittämä Bitcoin-sivuketju, joka mahdollistaa nopeat ja luottamukselliset transaktiot. Toisin kuin Bitcoinin päälohkoketju, Liquid käyttää konsensusmekanismia, joka perustuu federaatioon (valittu ryhmä solmujen ylläpitäjiä, yleensä Bitcoiniin liittyviä yrityksiä), ja korvaa siten Nakamoton konsensusmekanismin. Tämä lähestymistapa nopeuttaa huomattavasti transaktioita ja vähentää kustannuksia ja tarjoaa samalla kehittyneempiä ominaisuuksia. Liquid mahdollistaa myös digitaalisen omaisuuden, kuten muita kryptovaluuttoja edustavien tokenien, liikkeeseenlaskun. Liquidissa olevat bitcoinit, jotka tunnetaan nimellä L-BTC, on sidottu BTC:hen kaksisuuntaisella peg-järjestelmällä, joka perustuu osaan federaatiosta. Tämän federaation osallistujia kutsutaan "funktionaareiksi", ja he voivat toimia sekä "vahtimestareina" että "lohkon allekirjoittajina"

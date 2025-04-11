@@ -1,14 +1,9 @@
-question:
-  Does the capacity of a Lightning payment channel limit the total number
-  of transactions or the total volume of Bitcoin that can be transmitted through the
-  channel?
-answer: This is false
+question: How does a 2/2 multisignature address work in Bitcoin?
+answer: It requires two signatures to unlock and spend the funds.
 wrong_answers:
-  - This is true
-  - This is only true in some cases
-  - It depends on the Bitcoin network
+  - It allows spending the funds with just one of the two keys.
+  - It authorizes transactions only in specific cases of locking.
+  - It is used only to send funds to public addresses.
 explanation: |
-  Although the capacity of a Lightning payment channel is fixed, this does
-  not limit the total number of transactions or the total volume of Bitcoin that can
-  be transmitted through the channel.
+  A 2/2 multisignature address requires the signatures of both parties involved for the funds to be spent, which is used for the security of Lightning channels.
 reviewed: false

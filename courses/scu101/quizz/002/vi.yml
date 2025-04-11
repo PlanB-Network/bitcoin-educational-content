@@ -1,4 +1,4 @@
-question: Tại sao lại được khuyến nghị tải phần mềm từ trang web chính thức của nhà xuất bản thay vì từ các trang web chung?
+question: Tại sao lại được khuyến nghị tải phần mềm từ trang web chính thức của nhà xuất bản thay vì các trang web chung?
 answer: Để đảm bảo phần mềm không chứa phần mềm độc hại.
 wrong_answers:
   - Để hỗ trợ tài chính cho nhà xuất bản.
@@ -6,4 +6,4 @@ wrong_answers:
   - Bởi vì phần mềm trên các trang web chung thường lỗi thời.
 explanation: |
   Việc tải phần mềm từ trang web chính thức của nhà xuất bản đảm bảo rằng bạn đang nhận được phiên bản hợp pháp của phần mềm, không chứa bất kỳ phần mềm độc hại nào có thể gây hại cho thiết bị của bạn hoặc đánh cắp dữ liệu của bạn.
-reviewed: false
+reviewed: true

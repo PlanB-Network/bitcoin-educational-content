@@ -1,0 +1,9 @@
+question: Mis on SegWit v1 (P2TR) aadresside ainulaadne omadus võrreldes SegWit v0 aadressidega?
+answer: Nad kasutavad aadressis otse toorest avalikku võtit.
+wrong_answers:
+  - Need on kodeeritud base58check formaadis.
+  - Nende kehtivuseks on vaja kahte allkirja.
+  - Nad kasutavad aadressis avaliku võtme räsi.
+explanation: |
+  SegWit v1 (P2TR) aadressid ei kasuta avaliku võtme räsi, vaid otse Taproot avalikku võtit.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jak nainstaluji nástroj rgb prostřednictvím služby Cargo?
+answer: cargo install rgb-contracts --all-features
+wrong_answers:
+  - cargo install rgb --features all
+  - cargo install rgb-bitcoin --all
+  - cargo build rgb-lightning --release
+explanation: |
+  Instalace se provádí příkazem "cargo install rgb-contracts --all-features", přičemž bedna se jmenuje "rgb-contracts" a instaluje nástroj rgb.
+reviewed: false

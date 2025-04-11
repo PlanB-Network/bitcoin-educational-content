@@ -1,0 +1,12 @@
+question: Apa itu perbankan cadangan fraksional?
+answer: Perbankan cadangan fraksional adalah praktik perbankan di mana bank tidak diwajibkan untuk menyimpan cadangan sebanyak yang mereka terima dalam bentuk deposit, memungkinkan mereka untuk menciptakan daya beli baru saat memberikan pinjaman.
+wrong_answers:
+  - Perbankan cadangan fraksional adalah praktik perbankan di mana bank diwajibkan untuk menyimpan lebih banyak cadangan daripada yang mereka terima dalam bentuk deposit.
+  - Perbankan cadangan fraksional adalah praktik perbankan di mana bank tidak diizinkan untuk memberikan pinjaman.
+  - Perbankan cadangan fraksional adalah praktik perbankan di mana bank diwajibkan untuk menyimpan jumlah cadangan yang sama persis dengan yang mereka terima dalam bentuk deposit.
+explanation: |
+  Perbankan cadangan fraksional adalah sistem di mana bank hanya menyimpan sebagian kecil
+  dari dana deposan mereka sebagai cadangan, meminjamkan sisanya. Sistem ini memungkinkan
+  bank untuk menciptakan uang baru dalam bentuk pinjaman, yang meningkatkan total pasokan uang
+  dalam ekonomi.
+reviewed: false

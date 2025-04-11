@@ -1,9 +1,9 @@
-question: Quel est le nombre approximatif de nœuds répartis dans le monde en septembre 2023 ?
-answer: 45 000 nœuds
+question: Quel est le nombre approximatif de nœuds répartis à travers le monde en septembre 2023 ?
+answer: 45 000 nœuds.
 wrong_answers:
-  - 10 000 nœuds
-  - 100 000 nœuds
-  - 500 000 nœuds
-explanation: |
-  En septembre 2023, il y a environ 45 000 nœuds répartis dans le monde.
-reviewed: false
+  - 10 000 nœuds.
+  - 100 000 nœuds.
+  - 500 000 nœuds.
+explanation: >-
+  En septembre 2023, il y a environ 45 000 nœuds répartis à travers le monde.
+reviewed: true

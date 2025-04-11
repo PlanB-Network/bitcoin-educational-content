@@ -1,0 +1,9 @@
+question: ¿Por qué es importante rastrear el valor fiat en el momento de cada transacción de Bitcoin?
+answer: Garantizar la exactitud de la contabilidad y el cumplimiento de las obligaciones fiscales
+wrong_answers:
+  - Para aumentar automáticamente el saldo del monedero
+  - Permitir operar en el mercado en tiempo real directamente desde el monedero
+  - Para reducir las comisiones de transacción impuestas por la red
+explanation: |
+  El seguimiento del valor fiduciario ayuda a las empresas a gestionar la contabilidad con precios fluctuantes de Bitcoin.
+reviewed: false

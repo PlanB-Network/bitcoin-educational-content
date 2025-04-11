@@ -1,9 +1,11 @@
-question: Quelle est une solution simple pour protéger vos données contre les attaques de ransomware ?
-answer: Effectuez régulièrement des sauvegardes de vos données importantes sur un périphérique de stockage externe ou un service de stockage en ligne sécurisé.
+question: Quelle est une solution simple pour protéger vos données contre les attaques par rançongiciel ?
+answer: Sauvegardez régulièrement vos données importantes sur un dispositif de stockage externe ou un service de stockage en ligne sécurisé.
 wrong_answers:
-  - Installez plusieurs logiciels antivirus sur votre ordinateur.
-  - Changez régulièrement votre ordinateur.
-  - Utilisez un réseau Wi-Fi public.
+  - Installez plusieurs logiciels antivirus sur votre ordinateur et effectuez des analyses périodiques.
+  - Changez régulièrement d'ordinateur ou réinstallez votre système d'exploitation (OS).
+  - Vous pouvez utiliser un réseau Wi-Fi public si vous n'avez rien à cacher sur votre appareil.
 explanation: |
-  Effectuer régulièrement des sauvegardes de vos données vous permet de récupérer vos données en cas d'attaque informatique ou de défaillance matérielle sans perdre d'informations cruciales.
-reviewed: false
+  Sauvegarder régulièrement vos données vous permet de récupérer vos
+  données en cas d'attaque cybernétique ou de défaillance matérielle
+  sans perdre d'informations cruciales.
+reviewed: true

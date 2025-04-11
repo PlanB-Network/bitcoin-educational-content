@@ -1,0 +1,11 @@
+question: Jaký je hlavní cíl techniky ricochet?
+
+answer: Rozmazat stopy minulosti mince
+
+wrong_answers:
+  - Zvýšit potenciální anonset transakcí
+  - Zvýšit entropii transakce
+  - V budoucnu platit méně na poplatcích za transakce
+
+explanation: |
+  Cílem ricochetu je simulovat změnu vlastnictví Bitcoinové mince za účelem obnovení její zaměnitelnosti tím, že se rozmazají její minulé stopy.

@@ -1,0 +1,9 @@
+question: Apa tujuan Implementasi Antarmuka dalam arsitektur RGB?
+answer: Memetakan bidang Skema ke nama yang ditentukan di Antarmuka
+wrong_answers:
+  - Mengkompilasi skrip AluVM untuk validasi
+  - Untuk menentukan status global dan status yang dimiliki dalam kontrak
+  - Untuk menyimpan bukti kriptografi sisi klien
+explanation: |
+  Implementasi Antarmuka menetapkan hubungan antara logika bisnis Skema dan presentasi yang dapat dibaca oleh Antarmuka.
+reviewed: false

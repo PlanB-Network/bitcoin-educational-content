@@ -1,9 +1,13 @@
 question: Qu'est-ce que le réseau TOR ?
-answer: Un réseau qui offre l'anonymat en masquant l'adresse IP de l'utilisateur et en permettant l'accès au Darknet.
+answer: Un réseau qui offre l'anonymat en masquant l'adresse IP de l'utilisateur et permettant l'accès au Darknet.
 wrong_answers:
   - Un réseau qui protège votre appareil contre les virus et autres logiciels malveillants.
   - Un réseau qui cache votre activité en ligne à votre fournisseur d'accès internet.
   - Un réseau qui vous permet de naviguer sur internet plus rapidement.
 explanation: |
-  Le réseau TOR (The Onion Router) est un réseau qui offre l'anonymat en masquant l'adresse IP de l'utilisateur et en permettant l'accès au Darknet. Il est utilisé par des journalistes, des militants de la liberté et d'autres personnes souhaitant échapper à la censure dans des pays autoritaires.
-reviewed: false
+  Le réseau TOR (The Onion Router) est un réseau qui offre
+  l'anonymat en masquant l'adresse IP de l'utilisateur et permettant
+  l'accès au Darknet. Il est utilisé par des journalistes, des militants
+  de la liberté, et d'autres personnes souhaitant échapper à la censure dans
+  des pays autoritaires.
+reviewed: true

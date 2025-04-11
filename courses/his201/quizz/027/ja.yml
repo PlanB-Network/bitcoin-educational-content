@@ -1,0 +1,8 @@
+question: 2009年1月のビットコイン創世記ブロックに含まれていたイギリスの新聞の見出しは何ですか？
+answer: タイムズ
+wrong_answers:
+  - ガーディアン
+  - インデペンデント
+  - テレグラフ
+explanation: |
+  正確な刻印は「The Times 03/Jan/2009 Chancellor on brink of second bailout for banks」でした。

@@ -1,9 +1,0 @@
-question: Jaký je hlavní důvod pro použití přijímací adresy místo veřejného klíče u Bitcoinových transakcí?
-answer: Sníží velikost informace o veřejném klíči.
-wrong_answers:
-  - Umožňuje reverzi z adresy na veřejný klíč.
-  - Ušetří místo v blocích.
-  - Je snazší si zapamatovat než veřejný klíč.
-explanation: |
-  Hlavním důvodem pro použití přijímací adresy místo veřejného klíče u Bitcoinových transakcí je snížení velikosti informace o veřejném klíči, která původně činí 512 bitů. Nejedná se o ušetření místa v blocích, ale o zjednodušení dat transakce.
-reviewed: false

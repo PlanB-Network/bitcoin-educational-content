@@ -1,9 +1,13 @@
-question: Qual è il principale rischio associato agli investimenti in aziende che vendono hardware per l'estrazione mineraria e gestiscono le macchine in luoghi con energia a basso costo?
-answer: I problemi di alimentazione e i guasti delle macchine possono lasciare gli investitori impotenti, con attrezzature costose che non controllano.
+question: Qual è il principale rischio associato all'investimento in aziende che vendono hardware per il mining e gestiscono le macchine in luoghi con energia a basso costo?
+answer: Problemi di fornitura energetica e guasti alle macchine possono lasciare gli investitori impotenti, con attrezzature costose che non possono controllare.
 wrong_answers:
   - Le aziende potrebbero fallire e gli investitori potrebbero perdere i loro soldi.
-  - Le aziende potrebbero essere truffe e gli investitori potrebbero perdere i loro soldi.
+  - Le aziende potrebbero essere delle truffe e gli investitori potrebbero perdere i loro soldi.
   - Le aziende potrebbero non essere in grado di vendere i bitcoin estratti e gli investitori potrebbero perdere i loro soldi.
 explanation: |
-  Il principale rischio associato agli investimenti in aziende che vendono hardware per l'estrazione mineraria e gestiscono le macchine in luoghi con energia a basso costo è che i problemi di alimentazione e i guasti delle macchine possono lasciare gli investitori impotenti, con attrezzature costose che non controllano.
-reviewed: false
+  Il principale rischio associato all'investimento in aziende che
+  vendono hardware per il mining e gestiscono le macchine in luoghi
+  con energia a basso costo è che problemi di fornitura energetica e
+  guasti alle macchine possono lasciare gli investitori impotenti, con
+  attrezzature costose che non possono controllare.
+reviewed: true

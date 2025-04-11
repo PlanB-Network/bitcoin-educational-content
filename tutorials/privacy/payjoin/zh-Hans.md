@@ -41,9 +41,9 @@ Payjoin交易有两个目的，允许用户增强他们支付的隐私性。
 ![Payjoin交易的错误解释示意图](assets/en/3.webp)
 这种解释显然是不正确的，因为如你所知，这两个输入UTXOs并不属于同一个人。此外，实际的支付价值不是`19,000 sats`，而是`4,000 sats`。因此，外部观察者的分析被引向了一个错误的结论，确保了利益相关者的保密性。![payjoin交易图解](assets/en/1.webp)
 如果您想分析一个真实的Payjoin交易，这里有一个我在测试网上进行的交易：[8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c](https://mempool.space/fr/testnet/tx/8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c)
-[**-> 探索我们的教程，了解如何使用Samourai Wallet进行Payjoin**](https://planb.network/tutorials/privacy/payjoin-samourai-wallet)
+[**-> 探索我们的教程，了解如何使用Samourai Wallet进行Payjoin**](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)
 
-[**-> 探索我们的教程，了解如何使用Sparrow Wallet进行Payjoin**](https://planb.network/tutorials/privacy/payjoin-sparrow-wallet)
+[**-> 探索我们的教程，了解如何使用Sparrow Wallet进行Payjoin**](https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62)
 
 **外部资源：**
 - https://docs.samourai.io/en/spend-tools#stowaway;

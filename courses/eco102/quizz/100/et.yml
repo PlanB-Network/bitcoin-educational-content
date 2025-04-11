@@ -1,0 +1,9 @@
+question: Bastiati järgi, kes tagab riigi elatusvahendid?
+answer: Riigi elatusvahendid tagavad kodanikud
+wrong_answers:
+  - Kodanikud elatuvad riigist
+  - Riik tagab rahvuse elatusvahendid
+  - Huviühendused tagavad riigi elatusvahendid
+explanation: |
+  Bastiat väidab, et kodanikud toetavad riiki läbi rikkuse loomise, mitte vastupidi.
+reviewed: false

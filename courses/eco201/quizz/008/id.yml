@@ -1,0 +1,12 @@
+question: Apa itu Efek Cantillon?
+answer: Efek Cantillon merujuk pada prinsip ekonomi bahwa ketika uang baru diciptakan, awalnya menguntungkan mereka yang paling dekat dengan sumber uang tersebut, dengan mengorbankan mereka yang lebih jauh.
+wrong_answers:
+  - Efek Cantillon merujuk pada prinsip ekonomi bahwa ketika uang baru diciptakan, itu sama-sama menguntungkan semua orang dalam ekonomi.
+  - Efek Cantillon merujuk pada prinsip ekonomi bahwa ketika uang baru diciptakan, awalnya menguntungkan mereka yang paling jauh dari sumber uang tersebut, dengan mengorbankan mereka yang lebih dekat.
+  - Efek Cantillon merujuk pada prinsip ekonomi bahwa ketika uang baru diciptakan, itu tidak memiliki dampak pada distribusi kekayaan dalam ekonomi.
+explanation: |
+  Efek Cantillon, yang dinamai setelah ekonom abad ke-18 Richard Cantillon,
+  menjelaskan bagaimana distribusi uang baru dalam sebuah ekonomi dapat menyebabkan disparitas kekayaan.
+  Mereka yang paling dekat dengan sumber uang baru (seperti bankir dan pemilik aset)
+  mendapatkan manfaat pertama dan paling signifikan, sementara mereka yang lebih jauh (seperti pekerja rata-rata dan penabung) melihat manfaat yang lebih sedikit atau bahkan efek negatif karena inflasi.
+reviewed: false

@@ -1,10 +1,11 @@
 question: Jak často je odměna za těžbu snížena na polovinu?
-answer: Každých 210 000 bloků
+answer: Každých 210 000 bloků.
 wrong_answers:
-  - Každých 120 000 bloků
-  - Každých 540 000 bloků
-  - Každých 2 100 000 bloků
+  - Každých 120 000 bloků.
+  - Každých 540 000 bloků.
+  - Každých 2 100 000 bloků.
 explanation: |
-  Odměna za těžbu je naprogramována tak, aby se každých 210 000 bloků snížila na polovinu, což
-  odpovídá přibližně každým čtyřem letům, událost známá jako "halving".
-reviewed: false
+  Odměna za těžbu je naprogramována tak, aby se každých 210 000
+  bloků snížila na polovinu, což je přibližně každé čtyři roky: událost
+  známá jako halving.
+reviewed: true

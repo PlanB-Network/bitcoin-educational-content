@@ -1,0 +1,9 @@
+question: What is the primary payment solution recommended for Essential profile businesses?
+answer: Swiss Bitcoin Pay
+wrong_answers:
+  - Open Node
+  - BTCPay Server
+  - Bitcoinize PoS
+explanation: |
+  We highlights Swiss Bitcoin Pay as the recommended solution for an Essential profile, balancing simplicity and security.
+reviewed: false

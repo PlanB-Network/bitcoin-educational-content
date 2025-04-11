@@ -1,9 +1,14 @@
-question: Quel est un bon point de départ pour une carrière dans la cybersécurité?
-answer: Une solide formation en informatique, en systèmes d'information ou dans un domaine connexe
+question: Quel est un bon point de départ pour une carrière dans la cybersécurité d'un point de vue académique ?
+answer: Une solide formation en informatique, systèmes d'information, ou un domaine connexe
 wrong_answers:
   - Un diplôme en arts et sciences humaines
   - Un diplôme en gestion d'entreprise
   - Un diplôme en éducation physique
 explanation: |
-  Le chapitre mentionne qu'une solide formation en informatique, en systèmes d'information ou dans un domaine connexe est souvent le point de départ idéal pour une carrière dans la cybersécurité.
-reviewed: false
+  Le chapitre mentionne qu'une solide formation en informatique,
+  systèmes d'information, ou un domaine connexe est souvent
+  le point de départ idéal pour une carrière dans la
+  cybersécurité d'un point de vue académique. systèmes d'information, ou un domaine connexe est
+  souvent le point de départ idéal pour une carrière dans
+  la cybersécurité.
+reviewed: true

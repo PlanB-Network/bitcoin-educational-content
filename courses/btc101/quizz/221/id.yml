@@ -1,0 +1,11 @@
+question: Apa itu Jaringan Lightning?
+answer: Sebuah jaringan pembayaran yang menggunakan protokol Bitcoin untuk memungkinkan transaksi super cepat.
+wrong_answers:
+  - Sebuah jenis cryptocurrency baru.
+  - Teknologi blockchain yang terpisah dari Bitcoin.
+  - Sebuah metode untuk menambang Bitcoin.
+explanation: >-
+  Jaringan Lightning adalah sebuah jaringan pembayaran yang menggunakan protokol Bitcoin
+  untuk memungkinkan transaksi cepat. Ini bukan sebuah cryptocurrency terpisah atau metode untuk
+  menambang Bitcoin.
+reviewed: false

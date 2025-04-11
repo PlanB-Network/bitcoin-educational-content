@@ -1,9 +1,9 @@
-question: Was ist die Hauptfunktion einer Bitcoin-Wallet?
-answer: Es handelt sich um eine Sammlung von privaten kryptografischen Schlüsseln, die von einem einzigen Master-Schlüssel abgeleitet werden.
+question: Warum wird eine 24-Wort-Mnemonic-Phrase oft als überflüssig für ein Bitcoin-Wallet angesehen?
+answer: Die abgeleiteten Schlüssel bieten nur 128 Bit an Sicherheit
 wrong_answers:
-  - Es ist ein physisches Gerät, das Kryptowährungen speichert.
-  - Es ist eine digitale Plattform zum Kauf und Verkauf von Kryptowährungen.
-  - Es ist eine Software, die neue Bitcoins schürft.
+  - Die Software unterstützt keine 24-Wort-Phrasen
+  - Es erlaubt nicht die Ableitung von öffentlichen Schlüsseln
+  - Kürzere Phrasen sind nicht standardisiert
 explanation: |
-  Eine Bitcoin-Wallet, speziell eine Hierarchisch Deterministische Wallet (HD-Wallet), ist eine Sammlung von privaten kryptografischen Schlüsseln, die von einem einzigen Master-Schlüssel abgeleitet werden. Diese Schlüssel sind für den Besitz von Kryptowährungen unerlässlich.
+  Obwohl eine 24-Wort-Phrase 256 Bit an Sicherheit bietet, garantieren die daraus abgeleiteten Bitcoin-Privatschlüssel nur 128 Bit an Sicherheit, was den Überschuss unnötig macht.
 reviewed: false

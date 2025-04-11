@@ -1,0 +1,8 @@
+question: Bastiatin mukaan mikä on pahin ryöstön muoto?
+answer: Verot ja monopolit
+wrong_answers:
+  - Yksilön toiseen yksilöön kohdistama varkaus
+  - Sodat ja valloitukset
+  - Kaikki ryöstön muodot ovat yhtä pahoja
+explanation: |
+  Bastiat pitää veroja ja monopoleja pahimpana ryöstön muotona, koska ne ovat valtion legitimoimia, johtaen systemaattiseen yksilöiden resurssien ja vapauksien omimiseen usein julkisen edun varjolla.

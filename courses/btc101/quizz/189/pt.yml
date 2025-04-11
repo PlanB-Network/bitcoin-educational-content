@@ -1,9 +1,14 @@
-question: Qual país tornou o Bitcoin moeda de curso legal desde 2021?
-answer: El Salvador
+question: Como o Bitcoin resolve o Problema dos Generais Bizantinos?
+answer: Por meio do uso de uma blockchain baseada em Prova de Trabalho com uma dificuldade flutuante.
 wrong_answers:
-  - França
-  - Estados Unidos
-  - China
-explanation: |
-  El Salvador tornou o Bitcoin moeda de curso legal desde 2021, contribuindo para o desenvolvimento da economia do Bitcoin na região.
-reviewed: false
+  - Por meio do uso de assinaturas digitais.
+  - Por meio do uso de um livro-razão público.
+  - Por meio do uso de um algoritmo de Prova de Participação.
+explanation: >-
+  O Problema dos Generais Bizantinos é um problema clássico em
+  computação distribuída, que envolve alcançar consenso
+  em uma rede onde alguns dos nós podem ser defeituosos ou
+  maliciosos. O Bitcoin resolve este problema por meio do uso de uma
+  blockchain baseada em Prova de Trabalho, o que garante que todos
+  os nós concordem com o estado do histórico de transações.
+reviewed: true

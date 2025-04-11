@@ -1,0 +1,13 @@
+question: Hvilket mellomliggende tiltak kan tas for å skjule tilkoblinger når du ikke bruker din egen Bitcoin-node?
+
+answer: Bruk av Tor.
+
+wrong_answers:
+  - Bruk av en brannmur.
+  - Bruk av en kryptert lommebok.
+  - Bruk av en dobbel lommebok.
+
+explanation: |
+  For å begrense risikoen for å bli observert, er en mellomløsning å bruke lommebokprogramvare som lar deg skjule tilkoblingene dine via Tor.
+
+reviewed: false

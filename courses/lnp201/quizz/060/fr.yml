@@ -1,9 +1,0 @@
-question: Quel est le but du secret S généré par Bob?
-answer: Il est utilisé pour déverrouiller les HTLCs mis en place par Alice et Susie.
-wrong_answers:
-  - Il est utilisé pour calculer le hash r.
-  - Il est utilisé pour créer un nouveau HTLC.
-  - Il est utilisé pour fermer le canal.
-explanation: |
-  Bob génère un secret S et calcule le hash r. Ce secret est utilisé pour déverrouiller les HTLCs mis en place par Alice et Susie.
-reviewed: false

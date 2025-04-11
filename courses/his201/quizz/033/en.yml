@@ -1,0 +1,9 @@
+question: Which miner from 2009 lost all of his bitcoins by throwing his computer away at the dump in 2013?
+answer: James Howells
+wrong_answers:
+  - Dustin Trammell
+  - Martti Malmi
+  - NewLibertyStandard
+explanation: |
+  This British engineer had generated 8,000 bitcoins with his computer between February and April 2009. His case was [publicized](https: //www.theguardian.com/technology/2013/nov/27/hard-drive-bitcoin-landfill-site) by the Guardian.
+reviewed: false

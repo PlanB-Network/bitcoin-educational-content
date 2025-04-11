@@ -1,9 +1,11 @@
-question: Was ist eine Möglichkeit, die Verwendung von Bitcoin bei alltäglichen Transaktionen zu erleichtern?
-answer: Liste alle Händler auf, die Bitcoin akzeptieren.
+question: Welche der folgenden Maßnahmen kann denen helfen, die Bitcoin im Alltag nutzen möchten?
+answer: Eine Liste aller Händler haben, die Bitcoin akzeptieren.
 wrong_answers:
-  - Erhöhe den Preis von Bitcoin
-  - Verringere die Anzahl der Bitcoins
-  - Begrenze die Verwendung von Bitcoin
-explanation: |
-  Eine Möglichkeit, die Verwendung von Bitcoin bei alltäglichen Transaktionen zu erleichtern, besteht darin, alle Händler aufzulisten, die Bitcoin akzeptieren. Dies kann über Plattformen wie BTCMap erfolgen.
-reviewed: false
+  - Den Preis von Bitcoin erhöhen.
+  - Die Anzahl der Bitcoins verringern.
+  - Die Nutzung von Bitcoin einschränken.
+explanation: >-
+  Eine Möglichkeit, die Nutzung von Bitcoin im täglichen Geschäftsverkehr zu erleichtern,
+  besteht darin, alle Händler aufzulisten, die Bitcoin akzeptieren. Dies kann über Plattformen
+  wie BTCMap erfolgen.
+reviewed: true

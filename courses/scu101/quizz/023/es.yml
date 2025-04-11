@@ -1,9 +1,10 @@
-question: ¿Cuál es la importancia de utilizar una contraseña segura para la seguridad informática?
+question: ¿Cuál es la importancia de usar una contraseña fuerte para la seguridad informática?
 answer: Para prevenir el acceso no autorizado al sistema.
 wrong_answers:
   - Para hacer que el sistema funcione más rápido.
   - Para aumentar la capacidad de almacenamiento.
   - Para mejorar la interfaz de usuario.
 explanation: |
-  Una contraseña segura es crucial para la seguridad informática con el fin de prevenir el acceso no autorizado al sistema.
-reviewed: false
+  Una contraseña fuerte es crucial para la seguridad informática para
+  prevenir el acceso no autorizado al sistema.
+reviewed: true

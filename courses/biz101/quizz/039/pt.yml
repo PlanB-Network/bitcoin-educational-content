@@ -1,0 +1,9 @@
+question: Qual é a principal diferença entre tratar a Bitcoin como um ativo digital e tratá-la como uma moeda na contabilidade?
+answer: Enquanto ativo digital, a base de custos e os ganhos/perdas de cada transação devem ser controlados, ao passo que, se fosse tratado como uma moeda, as reavaliações seriam mais simples e menos frequentes.
+wrong_answers:
+  - Quando tratado como um ativo digital, está completamente isento de todos os impostos.
+  - Quando é tratada como uma moeda, não são necessários registos das transacções.
+  - Tratá-lo como uma moeda exige uma mudança imediata para um novo software de contabilidade.
+explanation: |
+  O tratamento dos activos digitais implica normalmente o cálculo de mais-valias ou menos-valias em cada transação, o que aumenta a complexidade. Se a Bitcoin fosse contabilizada como uma moeda, seria mais simples; bastaria atualizar periodicamente o valor fiduciário, como se faz para as outras moedas.
+reviewed: false

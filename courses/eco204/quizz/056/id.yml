@@ -1,0 +1,10 @@
+question: Berapa nilai tukar awal dolar Zimbabwe ketika pertama kali diperkenalkan pada tahun 1980?
+answer: Dua dolar Zimbabwe bernilai sekitar 1,60 dolar AS
+wrong_answers:
+  - Satu dolar Zimbabwe bernilai sekitar 1 dolar AS
+  - Satu dolar Zimbabwe bernilai sekitar 2 dolar AS
+  - Dua dolar Zimbabwe bernilai sekitar 2 dolar AS
+explanation: |
+  Zimbabwe meraih kemerdekaan pada tahun 1980 dan memperkenalkan dolar Zimbabwe.
+  Awalnya, dua dolar Zimbabwe bernilai sekitar 1,60 dolar AS.
+reviewed: false

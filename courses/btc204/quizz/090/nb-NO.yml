@@ -1,0 +1,11 @@
+question: Hva er unikt med remikser i Whirlpool sammenlignet med andre coinjoin-implementeringer?
+
+answer: De er helt gratis.
+
+wrong_answers:
+  - De krever kun betaling av mining-avgifter.
+  - De er begrenset til én per bruker.
+  - De krever kun betaling av tjenesteavgifter.
+
+explanation: |
+  Whirlpool-remikser er 100 % gratis: ingen ekstra tjenesteavgifter eller mining-avgifter er nødvendige.

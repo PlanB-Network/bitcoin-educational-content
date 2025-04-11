@@ -1,0 +1,8 @@
+question: Hva er modifikatoren som kan kombineres med de grunnleggende sighash-flaggene?
+answer: SIGHASH_ANYONECANPAY
+wrong_answers:
+  - SIGHASH_NOOUTPUT
+  - SIGHASH_ALLPARTICIPANTS
+  - SIGHASH_NONSTANDARD
+explanation: |
+  SIGHASH_ANYONECANPAY modifiserer sighash-flaggene til kun å dekke et enkelt inndata mens resten forblir modifiserbar.

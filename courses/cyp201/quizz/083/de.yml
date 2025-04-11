@@ -1,9 +1,8 @@
-question: Wird empfohlen, eine Passphrase oder mnemonische Phrase für eine Bitcoin-Wallet auswendig zu lernen?
-answer: Nein
+question: Welche Art von Adresse beginnt mit `1` und gehört zum Legacy-Standard?
+answer: P2PKH
 wrong_answers:
-  - Ja
-  - Es hängt von der Länge der Passphrase oder mnemonischen Phrase ab
-  - Es hängt von der Komplexität der Passphrase oder mnemonischen Phrase ab
+  - P2WPKH
+  - P2SH
+  - P2TR
 explanation: |
-  Es wird nicht empfohlen, eine Passphrase oder mnemonische Phrase auswendig zu lernen. Es ist entscheidend, sich um Sicherungskopien der Passphrase zu kümmern, um den Zugriff auf die Wallet nicht zu verlieren.
-reviewed: false
+  P2PKH-Adressen, kodiert in Base58Check, stammen aus dem Legacy-Standard und beginnen mit der Ziffer `1`.

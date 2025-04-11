@@ -1,0 +1,9 @@
+question: Apa yang ditunjukkan oleh indeks /84'/ pada kedalaman 1 dari jalur derivasi?
+answer: Standar P2WPKH (SegWit v0)
+wrong_answers:
+  - Standar P2TR (SegWit v1)
+  - Mata uang Bitcoin testnet
+  - Mata uang Bitcoin mainnet
+explanation: |
+  Indeks /84'/ didefinisikan dalam BIP84 untuk menunjukkan penggunaan standar SegWit v0 dengan alamat P2WPKH pada kedalaman 1 (yang merupakan target derivasi).
+direview: false

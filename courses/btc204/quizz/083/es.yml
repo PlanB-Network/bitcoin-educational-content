@@ -1,0 +1,13 @@
+question: ¿Por qué el coordinador no puede modificar la transacción coinjoin después de recoger las firmas de todos los participantes?
+
+answer: Modificarla invalidaría la transacción.
+
+wrong_answers:
+  - No tienen acceso a las direcciones de recepción de los participantes.
+  - Las firmas están cifradas.
+  - La transacción ya ha sido transmitida en la red Bitcoin.
+
+explanation: |
+  Una vez que los participantes han firmado la transacción completa, después de asegurarse de que todo está correcto, el coordinador ya no puede modificar esta transacción, incluidos los outputs, sin invalidarla, porque la firma cubre la transacción entera.
+
+reviewed: false

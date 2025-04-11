@@ -1,0 +1,9 @@
+question: Co je RGBlib v ekosystému RGB?
+answer: Knihovna pro vytváření aplikací spravujících prostředky RGB
+wrong_answers:
+  - Peněženka pro Android určená pro správu aktiv RGB
+  - Alternativní klient pro protokol RGB
+  - Webová stránka pro zobrazení RGB NFT
+explanation: |
+  RGBlib nabízí zjednodušené rozhraní pro vývojáře, které jim umožňuje spravovat emise, přenos a validaci prostředků RGB, aniž by museli ovládat všechny technické detaily.
+reviewed: false

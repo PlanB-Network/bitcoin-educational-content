@@ -1,0 +1,11 @@
+question: Apa contoh terkenal dari hard fork Bitcoin?
+answer: Bitcoin Cash (BCH)
+wrong_answers:
+  - Ethereum (ETH)
+  - Litecoin (LTC)
+  - Ripple (XRP)
+explanation: |
+  Bitcoin telah mengalami beberapa hard fork seiring waktu, menghasilkan berbagai
+  versi alternatif dari mata uang asli. Contoh terkenal dari penyimpangan ini
+  termasuk Bitcoin Cash (BCH) dan Bitcoin Satoshi Vision (BSV).
+reviewed: false

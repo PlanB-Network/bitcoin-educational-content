@@ -1,63 +1,88 @@
+id: 2dfb3f1b-cbbd-4a1e-8b2f-a5c36cbfecc7
 chapterId: 684e31f9-ebd1-51b6-91c0-1e6a315f1141
 difficulty: intermediate
 duration: 30
 author: DecouvreBitcoin
-tags:
-  - Lightning Network
-  - Bitcoin
-  - Money streaming
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2644
+    contributor_names:
+    reward: 0.2
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2572
+    contributor_names:
+    reward: 0.18
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
-    reward: 1286
+    reward: 0.09
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2608
+    contributor_names:
+    reward: 0.18
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2644
+    contributor_names:
+    reward: 0.2
   - language: fr
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2572
+    contributor_names:
+    reward: 0.18
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2608
+    contributor_names:
+    reward: 0.18
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2716
+    contributor_names:
+    reward: 0.25
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2572
+    contributor_names:
+    reward: 0.18
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2716
+    contributor_names:
+    reward: 0.25
+
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.2
+
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.23
+
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.2
+
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.2
+
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.23

@@ -1,0 +1,8 @@
+question: Por que o RC4 é classificado como uma cifra de fluxo síncrono?
+answer: O fluxo de chave é independente do texto puro e do texto cifrado
+wrong_answers:
+  - O fluxo de chave depende dos valores do texto cifrado anterior
+  - O texto puro deve ser integrado ao fluxo de chave
+  - Usa um fluxo de chave baseado unicamente no texto puro
+explanation: |
+  O RC4 é uma cifra de fluxo síncrono porque seu fluxo de chave depende apenas da chave inicial e não do texto puro ou do texto cifrado, garantindo a independência deste fluxo das mensagens.

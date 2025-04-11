@@ -1,0 +1,5 @@
+---
+term: KARASTATUD TULETAMINE
+
+---
+Lapseliste võtmete genereerimise protsess HD rahakottides. Kaitsetud tuletamine kasutab vanemate privaatvõtit funktsiooni `HMAC-SHA512` sisendina, mis muudab võimatuks vanemate avalike võtmete ja vanemate ahelakoodi põhjal laste avalike võtmete genereerimise. Protsess hõlmab vanema privaatvõtme ja indeksi, mis on suurem või võrdne $2^{31}$, ühendamist, millele järgneb `HMAC-SHA512` rakendamine koos vanema ahelakoodiga. Tulemus jagatakse kaheks osaks: esimesed 256 bitti liidetakse vanemliku privaatvõtme juurde, et saada lapse privaatvõti, ülejäänud 256 bitti moodustavad lapse ahelakoodi. See meetod tagab, et isegi kui laiendatud avalik võti on ohustatud, ei saa seda kasutada laste avalike võtmete tuletamiseks. Standardse tuletamise puhul kasutatakse karastatud tuletamist kõigil tuletamistasanditel kuni kontosügavuseni. Derivatsioonitee märkustes tähistatakse karastatud tuletamist alistroofiga `'` või harvemini `h`.

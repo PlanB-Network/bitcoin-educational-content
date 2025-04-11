@@ -1,9 +1,0 @@
-question: Was ist ein einzigartiges Merkmal der Peach P2P-Lösung?
-answer: Es erfordert keine Kontoerstellung, um zu funktionieren.
-wrong_answers:
-  - Es verwendet ein DAO-System.
-  - Es arbeitet unter TOR.
-  - Es verwendet Multisign zur Konfliktlösung.
-explanation: |
-  Im Kapitel wird erwähnt, dass Peach durch seine Einfachheit hervorsticht und keine Kontoerstellung erfordert, um zu funktionieren.
-reviewed: false

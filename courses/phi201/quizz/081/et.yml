@@ -1,0 +1,8 @@
+question: Mis olid Locke'i järgi riigi peamised eesmärgid?
+answer: Kaitsta üksikisikute elu, vabadust ja vara.
+wrong_answers:
+  - Seaduse jõustamine ja korra hoidmine.
+  - Ühise heaolu ja sotsiaalse õigluse edendamine.
+  - Religiooni ja moraaliväärtuste kaitsmine.
+explanation: |
+  Locke'i jaoks on riigi peamine ülesanne tagada loomuõiguste, eriti elu, vabaduse ja vara turvalisus, et võimaldada üksikisikutel elada rahus ja õitseda.

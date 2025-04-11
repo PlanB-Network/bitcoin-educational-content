@@ -1,0 +1,9 @@
+question: Comment l'irresponsabilité bancaire a-t-elle été permise ?
+answer: Par les garanties que les pertes seront mutualisées en cas de faillite dues à la prise de risque insensée
+wrong_answers:
+  - Par le manque de réglementations contre la prise de risque insensée
+  - Par la déréglementation des années 90
+  - Par le système capitaliste
+explanation: |
+  Bastiat explique que la promesse de mutualisation des pertes incite les banques à prendre des risques excessifs, car elles sont assurées d'être sauvées en cas d'échec, ce qui favorise l'irresponsabilité.
+reviewed: false

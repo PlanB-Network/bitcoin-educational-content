@@ -1,0 +1,9 @@
+question: What is one of the major advantages for merchants using the Lightning Network?  
+answer: Reduced transaction fees  
+wrong_answers:  
+  - Payments guaranteed by banks  
+  - Automatic increase in sales  
+  - Elimination of commercial taxes  
+explanation: |  
+  Transaction fees on the Lightning Network are very low, making it a cost-effective solution for merchants.  
+reviewed: false  

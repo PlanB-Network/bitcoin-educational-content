@@ -1,9 +1,0 @@
-question: ¿Cuál es el propósito de la Profundidad 5 en la estructura de la Cartera HD?
-answer: Se utiliza para recibir direcciones en una cartera estándar.
-wrong_answers:
-  - Se utiliza para derivar claves secundarias para un propósito específico.
-  - Permite la diferenciación de cuentas para diferentes criptomonedas o redes.
-  - Corresponde a las cadenas externas e internas.
-explanation: |
-  En la estructura de la Cartera HD, la Profundidad 5 se utiliza para recibir direcciones en una cartera estándar.
-reviewed: false

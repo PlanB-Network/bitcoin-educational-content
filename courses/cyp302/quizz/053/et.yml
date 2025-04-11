@@ -1,0 +1,9 @@
+question: Mis on välja nimetus, millel on piiratud arv elemente?
+answer: Galois' väli
+wrong_answers:
+  - Korrutusväli
+  - Sümmeetriline väli
+  - Vektorväli
+explanation: |
+  Piiratud arvuga väli on tuntud ka kui Galois' väli, mis on nimetatud matemaatik Évariste Galois' järgi ja on oluline kaasaegses krüptograafias.
+reviewed: false

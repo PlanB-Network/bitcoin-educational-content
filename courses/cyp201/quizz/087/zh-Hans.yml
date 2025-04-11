@@ -1,0 +1,8 @@
+question: 与SegWit v0地址相比，SegWit v1 (P2TR)地址有什么独特功能？
+answer: 它们直接在地址中使用原始公钥。
+wrong_answers:
+  - 它们采用base58check编码。
+  - 它们需要两个签名才能有效。
+  - 它们在地址中使用公钥哈希。
+explanation: |
+  SegWit v1 (P2TR)地址不使用公钥的哈希，而是直接使用Taproot公钥。

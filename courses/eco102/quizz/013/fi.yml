@@ -1,0 +1,8 @@
+question: Mikä on arvon perusta Frédéric Bastiat'n mukaan?
+answer: Hyödyllisyys
+wrong_answers:
+  - Työ
+  - Niukkuus
+  - Kysyntä
+explanation: |
+  Bastiat omaksuu Sayn ajatuksen, että hyödyllisyys on arvon perusta, vastakohtana teorioille, jotka perustuvat työhön tai niukkuuteen.

@@ -1,9 +1,9 @@
 question: 最初に記録されたBitcoin取引は何ですか？
-answer: SatoshiとHal Finneyの間の10 BTCの取引
+answer: Satoshi NakamotoとHal Finneyの間の10 BTCの取引です。
 wrong_answers:
-  - 2枚のピザに対して10,000 BTCの取引
-  - SatoshiとHal Finneyの間の1 BTCの取引
-  - Laszlo HanyeczとHal Finneyの間の10,000 BTCの取引
+  - 2つのピザのための10,000 BTCの取引。
+  - Satoshi NakamotoとHal Finneyの間の1 BTCの取引。
+  - Laszlo HanyeczとHal Finneyの間の10,000 BTCの取引。
 explanation: |
   最初に記録されたBitcoin取引は、Satoshi NakamotoとHal Finneyの間の10 BTCの取引でした。
 reviewed: true

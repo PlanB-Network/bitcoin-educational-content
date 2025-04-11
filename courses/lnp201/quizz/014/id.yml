@@ -1,0 +1,8 @@
+question: Apa langkah terakhir untuk membuka saluran di Lightning Network?
+answer: Mempublikasikan transaksi deposit pada blockchain Bitcoin
+wrong_answers:
+  - Menandatangani transaksi penarikan untuk mengambil kembali dana
+  - Mengirim pesan konfirmasi pembukaan kepada pihak lain
+  - Memverifikasi saldo dana setiap peserta
+explanation: |
+  Langkah terakhir untuk membuka saluran adalah mempublikasikan transaksi deposit pada blockchain, yang secara resmi membuka saluran.

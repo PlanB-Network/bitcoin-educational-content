@@ -1,9 +1,9 @@
-question: Was ist eines der potenziellen Risiken, wenn man seine Bitcoin auf einer Börsenplattform lässt?
-answer: Die Risiken von Hacking und Sperrung der Gelder.
+question: Was ist eines der potenziellen Risiken, Ihre Bitcoins auf einer Handelsplattform zu belassen?
+answer: Die Risiken von Hacking und der Sperrung von Mitteln.
 wrong_answers:
   - Das Risiko, dass die Plattform den Preis von Bitcoin erhöht.
   - Das Risiko, dass die Plattform die Versorgung mit Bitcoin kontrolliert.
-  - Das Risiko, dass die Plattform verhindert, dass Sie mehr Bitcoin kaufen.
-explanation: |
-  Der Text erwähnt, dass das Verlassen Ihrer Bitcoin auf einer Börsenplattform Sie den Risiken von Hacking und Sperrung der Gelder aussetzen kann.
-reviewed: false
+  - Das Risiko, dass Bitcoin im Preis von einer anderen Kryptowährung übertroffen wird.
+explanation: >-
+  Der Text erwähnt, dass das Belassen Ihrer Bitcoins auf einer Handelsplattform Sie den Risiken von Hacking und der Sperrung von Mitteln aussetzt.
+reviewed: true

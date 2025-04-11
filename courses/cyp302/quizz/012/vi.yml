@@ -1,0 +1,11 @@
+question: Ảo tưởng về sự an toàn của các kênh truyền thông trong thế giới hiện đại là gì?
+
+answer: Tin rằng bảo vệ vật lý kênh truyền thông sẽ ngăn chặn việc nghe lén
+
+wrong_answers:
+  - Nghĩ rằng mạng không dây không hiệu quả
+  - Tin rằng mã hóa không cần thiết cho các liên lạc nội bộ
+  - Xem xét chỉ có các cơ quan quốc gia mới có thể nghe lén dữ liệu
+
+explanation:
+  Đó là một ảo tưởng khi nghĩ rằng chỉ cần bảo vệ vật lý kênh truyền thông là đủ để đảm bảo tính bảo mật, vì vẫn còn nhiều điểm có thể bị nghe lén, đặc biệt là đối với các liên lạc không dây.

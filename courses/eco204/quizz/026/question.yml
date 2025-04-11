@@ -1,63 +1,88 @@
+id: 3a39a118-8c9d-449b-9824-47891095fa20
 chapterId: 11eef458-aab8-5c63-8523-264d0ba69f5d
 difficulty: hard
 duration: 45
 author: DecouvreBitcoin
-tags:
-  - Hyperinflation
-  - Economics
-  - Currency devaluation
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2714
+    contributor_names:
+    reward: 0.23
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2607
+    contributor_names:
+    reward: 0.2
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
-    reward: 1303
+    reward: 0.1
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2660
+    contributor_names:
+    reward: 0.2
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2714
+    contributor_names:
+    reward: 0.23
   - language: fr
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2607
+    contributor_names:
+    reward: 0.2
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2660
+    contributor_names:
+    reward: 0.2
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2821
+    contributor_names:
+    reward: 0.29
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2607
+    contributor_names:
+    reward: 0.2
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2821
+    contributor_names:
+    reward: 0.29
+
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.23
+
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.26
+
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.23
+
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.23
+
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.26

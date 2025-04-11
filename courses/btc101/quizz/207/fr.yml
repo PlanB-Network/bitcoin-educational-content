@@ -1,9 +1,10 @@
-question: Quel est l'un des risques potentiels de laisser vos Bitcoins sur une plateforme d'échange ?
+question: Quel est l'un des risques potentiels de laisser vos Bitcoin sur une plateforme d'échange ?
 answer: Les risques de piratage et de blocage des fonds.
 wrong_answers:
   - Le risque que la plateforme augmente le prix du Bitcoin.
   - Le risque que la plateforme contrôle l'offre de Bitcoin.
-  - Le risque que la plateforme vous empêche d'acheter plus de Bitcoin.
-explanation: |
-  Le texte mentionne que laisser vos Bitcoins sur une plateforme d'échange peut vous exposer aux risques de piratage et de blocage des fonds.
-reviewed: false
+  - Le risque que le Bitcoin soit dépassé en prix par une autre cryptomonnaie.
+explanation: >-
+  Le texte mentionne que laisser vos Bitcoin sur une plateforme d'échange peut
+  vous exposer aux risques de piratage et de blocage des fonds.
+reviewed: true

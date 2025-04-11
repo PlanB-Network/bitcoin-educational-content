@@ -1,0 +1,9 @@
+question: Qual desenvolvedor americano identificou um bloco estranho durante o incidente de transbordamento de valor em 15 de agosto de 2010?
+answer: Jeff Garzik
+wrong_answers:
+  - Gavin Andresen
+  - Nils Schneider
+  - Christian Decker
+explanation: |
+  Este bloco, explorando uma falha, criou mais de 184 bilhões de bitcoins.
+reviewed: false

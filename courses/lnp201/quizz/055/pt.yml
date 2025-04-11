@@ -1,9 +1,0 @@
-question: O que acontece com a liquidez de um canal quando uma transação é feita na Rede Lightning?
-answer: A liquidez é redistribuída ao longo da rota entre as duas partes.
-wrong_answers:
-  - A liquidez permanece a mesma.
-  - A liquidez é transferida para outro canal.
-  - A liquidez é aumentada.
-explanation: |
-  Na Rede Lightning, quando uma transação é feita, a liquidez é redistribuída ao longo da rota entre as duas partes.
-reviewed: false

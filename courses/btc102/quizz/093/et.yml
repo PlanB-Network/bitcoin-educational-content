@@ -1,0 +1,10 @@
+question: Mis on paranoiaga Bitcoini kasutaja iseloomulik tunnus?
+answer: Umbusaldus tsentraliseeritud süsteemide ja KYC protsesside vastu
+wrong_answers:
+  - Usaldus tsentraliseeritud süsteemide vastu
+  - Eelistus jagada isiklikku informatsiooni
+  - Huvi puudumine privaatsuse ja turvalisuse vastu
+explanation: |
+  Peatükk kirjeldab paranoiaga Bitcoini kasutajat kui kedagi, kellel on iseloomulik
+  umbusaldus tsentraliseeritud süsteemide ja KYC protsesside vastu.
+reviewed: false

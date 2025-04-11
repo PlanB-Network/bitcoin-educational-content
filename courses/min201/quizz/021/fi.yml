@@ -5,7 +5,5 @@ wrong_answers:
   - Louhintalaite tuottaa enemmän lämpöä kuin yksinkertainen sähkölämmitin.
   - Louhintalaite on halvempi kuin yksinkertainen sähkölämmitin.
 explanation: |
-  Ero louhintalaitteen ja yksinkertaisen sähkölämmittimen käytön välillä piilee siinä,
-  että louhintalaite tarjoaa paitsi lämpöä myös Bitcoin-palkkion. Tämä
-  lisäpalkkio voisi auttaa lievittämään huolia louhintalaitteiden korkeasta energiankulutuksesta.
-reviewed: false
+  Ero louhintalaitteen ja yksinkertaisen sähkölämmittimen käytön välillä piilee siinä, että louhintalaite tarjoaa paitsi lämpöä myös Bitcoin-palkkion. Tämä lisäpalkkio voisi auttaa lieventämään huolia louhintalaitteiden korkeasta energiankulutuksesta.
+reviewed: true

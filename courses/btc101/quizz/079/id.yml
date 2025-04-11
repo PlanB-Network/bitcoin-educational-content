@@ -1,0 +1,10 @@
+question: Bagaimana Anda dapat memperkuat keamanan default dari dompet Bitcoin Anda?
+answer: Dengan menambahkan passphrase ke dompet Bitcoin Anda
+wrong_answers:
+  - Dengan menambahkan kunci privat kedua ke dompet Bitcoin Anda
+  - Dengan menambahkan kunci publik kedua ke dompet Bitcoin Anda
+  - Dengan menambahkan frasa mnemonik kedua ke dompet Bitcoin Anda
+explanation: |
+  Jika Anda tidak puas dengan keamanan default dari dompet Bitcoin Anda,
+  Anda selalu dapat memperkuatnya dengan menambahkan passphrase ke dompet Bitcoin Anda.
+reviewed: true

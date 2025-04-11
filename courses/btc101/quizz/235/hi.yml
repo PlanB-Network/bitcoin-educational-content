@@ -1,0 +1,10 @@
+question: Bitcoin में इस्तेमाल होने वाली Bitcoin की यूनिट क्या है?
+answer: जीडब्ल्यू-2
+wrong_answers:
+  - ब्लॉक
+  - ईथर।
+  - लाइटकॉइन।
+explanation: |
+  Lightning Network सतोशी (जिसे Sats भी कहा जाता है) का इस्तेमाल करता है,
+  जीडब्ल्यू-5 का दशमलव, काम करने के लिए।
+reviewed: true

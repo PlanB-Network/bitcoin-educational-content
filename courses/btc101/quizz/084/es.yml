@@ -1,11 +1,11 @@
-question: ¿Cuál debería ser la principal preocupación cuando tienes bitcoins?
-answer: La seguridad de tus fondos
+question: ¿Cuál debería ser la principal preocupación cuando posees bitcoin?
+answer: La seguridad de tus fondos.
 wrong_answers:
-  - El valor en términos de dólares de tus bitcoins
-  - La legalidad de poseer bitcoins
-  - La autorización para gastar tus bitcoins
+  - El valor del Bitcoin en términos de dólares.
+  - La legalidad de poseer bitcoins.
+  - El permiso para gastar tus fondos.
 explanation: |
-  Cuando tienes bitcoins, la principal preocupación es la seguridad de tus fondos.
-  Esto se debe a que los bitcoins, al igual que cualquier otra forma de moneda, pueden ser robados o perdidos
-  si no se aseguran adecuadamente.
-reviewed: false
+  Cuando posees bitcoins, la preocupación principal es la seguridad
+  de tus fondos. Esto se debe a que el Bitcoin, como cualquier otra forma
+  de moneda, puede ser robado o perdido si no se asegura adecuadamente.
+reviewed: true

@@ -1,9 +1,0 @@
-question: ¿Qué proporcionan los usuarios de Bitcoin al remitente cuando desean recibir bitcoins?
-answer: Una dirección de recepción
-wrong_answers:
-  - Su clave pública
-  - Su clave privada
-  - La contraseña de su billetera de Bitcoin
-explanation: |
-  Cuando un usuario de Bitcoin desea recibir bitcoins, proporciona una dirección de recepción al remitente. Esta dirección es un hash de su clave pública, con un formato específico.
-reviewed: false

@@ -5,7 +5,8 @@ wrong_answers:
   - Turn off the computer and leave it off for a few hours.
   - Delete all files on the computer.
 explanation: |
-  If you detect a virus on your computer, you should disconnect it from
-  the internet to prevent the virus from spreading or communicating with the hacker.
-  Then, perform a full antivirus scan and delete infected files.
-reviewed: false
+  If you detect a virus on your computer, you should
+  disconnect it from the internet to prevent the virus from
+  spreading or communicating with the hacker. Then, perform a
+  full antivirus scan and delete infected files.
+reviewed: true

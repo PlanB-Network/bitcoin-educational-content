@@ -1,0 +1,9 @@
+---
+term: FRASE DE RECUPERACIÓN
+
+---
+Una frase de recuperación, también llamada a veces frase mnemotécnica, frase semilla o frase secreta, es una secuencia compuesta normalmente por 12 o 24 palabras, que se genera de forma pseudoaleatoria a partir de una fuente de entropía. La secuencia pseudoaleatoria se completa siempre con una suma de comprobación. La frase mnemotécnica, junto con una frase de contraseña opcional, se utiliza para derivar de forma determinista todas las claves asociadas a un monedero HD (Determinista Jerárquico). Esto significa que a partir de esta frase, es posible generar y recrear determinísticamente todas las claves privadas y públicas del monedero Bitcoin, y en consecuencia acceder a los fondos asociados al mismo. El propósito de la frase de recuperación es proporcionar un medio de copia de seguridad y recuperación de bitcoins que sea a la vez seguro y fácil de usar.
+
+Es importante guardar esta frase en un lugar seguro, ya que cualquiera que la posea tendría acceso a los fondos del monedero correspondiente. Si se utiliza en el contexto de un monedero tradicional, y sin una frase de contraseña opcional, suele constituir un SPOF (Single Point Of Failure). La frase de recuperación es, por tanto, una codificación de la secuencia pseudoaleatoria y de la suma de comprobación en palabras cotidianas para facilitar su notación y legibilidad por los humanos. Se construye según la norma BIP39, que define y ordena una lista de 2048 palabras utilizadas para esta codificación.
+
+> ► *La lista de 2048 palabras de BIP39 está disponible en varios idiomas, sin embargo, se aconseja utilizar sólo la versión inglesa, ya que es la versión más soportada por el software monedero.*

@@ -1,0 +1,9 @@
+question: Warum ist der persönliche Austausch von Schlüsseln für sichere Online-Kommunikation unpraktisch?
+answer: Es führt zu hohen organisatorischen Kosten und ist ineffizient.
+wrong_answers:
+  - Es macht verschlüsselte Kommunikation unbrauchbar
+  - Es erfordert die Verwendung mehrerer Schlüssel pro Kunde
+  - Es verhindert die Wiederverwendung von Schlüsseln für wiederholte Transaktionen
+explanation: |
+  Der persönliche Austausch von Schlüsseln ist kostspielig und ineffizient, besonders im großen Maßstab, da er Transaktionen verlangsamt und erhebliche logistische Kosten für jeden neuen Kunden verursacht.
+reviewed: false

@@ -5,6 +5,6 @@ wrong_answers:
   - To increase the storage capacity.
   - To improve the user interface.
 explanation: |
-  A strong password is crucial for computer security to prevent unauthorized
-  access to the system.
-reviewed: false
+  A strong password is crucial for computer security to
+  prevent unauthorized access to the system.
+reviewed: true

@@ -1,0 +1,11 @@
+question: Mida tähendab Bitcoini plokiahela muutumatus?
+answer: Seda ei saa aja jooksul muuta
+wrong_answers:
+  - Seda ei saa häkkida
+  - Seda ei saa kopeerida
+  - Seda ei saa kustutada
+explanation: |
+  Bitcoini plokiahela muutumatus tähendab, et kord salvestatud tehingut
+  ei saa muuta ega kustutada. See tagab plokiahela terviklikkuse ja
+  usaldusväärsuse.
+reviewed: false

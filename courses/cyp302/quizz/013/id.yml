@@ -1,0 +1,9 @@
+question: Apa yang menjadi dasar fisik dari sebagian besar komunikasi di dunia maju?
+answer: Jaringan kabel serat optik
+wrong_answers:
+  - Satelit untuk setiap koneksi
+  - Hanya kabel koaksial
+  - Hanya kabel tembaga
+explanation: |
+  Sebagian besar komunikasi modern bergantung pada jaringan kabel serat optik, yang memastikan pertukaran data berkecepatan tinggi, meskipun beberapa penggunaan satelit dan kabel koaksial tetap ada.
+reviewed: false

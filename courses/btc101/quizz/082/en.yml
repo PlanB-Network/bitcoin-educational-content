@@ -1,10 +1,11 @@
-question: What is the technology that is used in Bitcoin Wallet to secure spending funds in the Bitcoin Wallet?
-answer: Elliptic curve cryptography
+question: What is the technology that is used to securely spend funds using a Bitcoin Wallet?
+answer: Elliptic curve cryptography.
 wrong_answers:
-  - Symmetric cryptography
-  - Quantum cryptography
-  - RSA cryptography
+  - Symmetric cryptography.
+  - Quantum cryptography.
+  - RSA cryptography.
 explanation: |
-  Spending Bitcoins requires the owner to use Elliptic Curves to forge a signature
-  for a Bitcoin transaction.
+  Spending Bitcoins requires the owner to use Elliptic Curve
+  Digital Signature Algorithm (ECDSA) to forge a signature
+  for the propagation of a Bitcoin transaction.
 reviewed: true

@@ -1,11 +1,9 @@
-question: Mục đích của Đề xuất Cải tiến Bitcoin (BIPs) là gì?
-answer: Chúng là các đề xuất nâng cấp nhằm tăng cường chức năng và an ninh của ví HD.
+question: Mục đích của cụm từ ghi nhớ trong ví HD Bitcoin là gì?
+answer: Để suy ra một cách có hệ thống tất cả các khóa
 wrong_answers:
-  - Đề xuất nhằm tăng giá trị của Bitcoin.
-  - Đề xuất nhằm thay đổi quy trình khai thác Bitcoin.
-  - Đề xuất nhằm quản lý việc sử dụng Bitcoin.
+  - Để trực tiếp ký các giao dịch
+  - Để mã hóa địa chỉ Bitcoin
+  - Để tạo một băm cho các UTXOs
 explanation: |
-  Đề xuất Cải tiến Bitcoin (BIPs) là các giao thức nhằm mục đích cải thiện
-  chức năng và an ninh của ví HD. Ví dụ, BIP32 đã giới thiệu
-  khái niệm về các khóa được tạo ra một cách có hệ thống và phân cấp.
+  Cụm từ ghi nhớ cho phép suy ra tất cả các khóa riêng tư và công khai trong ví, do đó tạo điều kiện thuận lợi cho việc sao lưu và khôi phục.
 reviewed: false

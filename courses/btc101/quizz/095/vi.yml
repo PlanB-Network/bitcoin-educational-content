@@ -1,12 +1,9 @@
-question: Rủi ro khi sử dụng ví giao dịch là gì?
-answer: Bên thứ ba đáng tin cậy có thể hạn chế quyền truy cập vào quỹ của bạn bất cứ lúc nào
+question: Thuật ngữ hodl có nghĩa là gì?
+answer: Hodl là một thuật ngữ lóng trong cộng đồng tiền mã hóa, có nghĩa là giữ chặt các khoản đầu tư của bạn thay vì bán chúng, đặc biệt là trong thời kỳ biến động của thị trường.
 wrong_answers:
-  - Bên thứ ba đáng tin cậy có thể tăng giá trị của bitcoin của bạn bất cứ lúc nào
-  - Bên thứ ba đáng tin cậy có thể giảm giá trị của bitcoin của bạn bất cứ lúc nào
-  - Bên thứ ba đáng tin cậy có thể cho bitcoin của bạn bất cứ lúc nào
+  - Hodl ám chỉ một loại tiền mã hóa chỉ được sử dụng để giao dịch.
+  - Hodl là một thuật ngữ có nghĩa là bán tất cả tiền mã hóa của bạn với giá cao.
+  - Hodl là một chiến lược giao dịch trong ngày bao gồm việc mua và bán thường xuyên.
 explanation: |
-  Khi bạn sử dụng ví giao dịch, bạn không phải là người duy nhất nắm giữ bitcoin của mình.
-  Điều này có nghĩa là bên thứ ba đáng tin cậy có thể hạn chế quyền truy cập vào quỹ của bạn
-  bất cứ lúc nào, mang lại cho bạn cùng một mức độ chủ quyền tài chính như với hệ thống ngân hàng
-  truyền thống.
-reviewed: false
+  Thuật ngữ hodl bắt nguồn từ một bài đăng bị đánh máy sai trên diễn đàn Bitcoin vào năm 2013. Theo thời gian, hodl đã phát triển thành một chiến lược đầu tư rộng lớn hơn. Nó khuyến khích các nhà đầu tư giữ chặt tiền mã hóa của họ về lâu dài, bất kể những biến động của thị trường.
+reviewed: true

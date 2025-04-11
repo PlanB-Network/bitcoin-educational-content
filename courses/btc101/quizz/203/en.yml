@@ -1,12 +1,11 @@
 question: What should you do after purchasing Bitcoin on an exchange platform?
-answer: Withdraw Bitcoin to your wallet.
+answer: Withdraw bitcoins and send them to your wallet.
 wrong_answers:
-  - Leave it on the platform.
-  - Sell it immediately.
-  - Transfer it to another platform.
-explanation: >-
-  The text advises that after purchasing Bitcoin, it is advisable to
-  immediately
-  withdraw the Bitcoins from the exchange platforms to minimize the risks of hacking
-  and fund blocking.
-reviewed: false
+  - Leave bitcoins on the platform.
+  - Sell bitcoins immediately.
+  - Transfer bitcoins to another exchange platform.
+explanation: |
+  The course text advises that after purchasing Bitcoin, one
+  must immediately withdraw the UTXOs from exchange platforms
+  to minimize the risks of hacking and fund blocking.
+reviewed: true

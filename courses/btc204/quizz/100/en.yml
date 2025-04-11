@@ -1,0 +1,13 @@
+question: What does entropy indicate in the context of chain analysis on Bitcoin?
+
+answer: The lack of knowledge of analysts about the exact configuration of the transaction.
+
+wrong_answers:
+  - The speed at which information about a transaction spreads across the network.
+  - The level of cryptographic security of the digital signatures used in the transaction.
+  - The size of the group of identical UTXOs in which a coin is hidden.
+
+explanation: |
+  Entropy is used to measure the lack of knowledge of analysts about the exact configuration of the transaction. In other words, the higher the entropy, the more difficult it becomes for analysts to identify the flows of bitcoins between inputs and outputs.
+
+reviewed: false

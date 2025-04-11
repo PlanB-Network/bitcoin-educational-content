@@ -1,0 +1,9 @@
+question: ArtForz在2010年7月28日报告的哪个漏洞允许使用特定脚本从任何地址花费比特币？
+answer: 1 RETURN漏洞
+wrong_answers:
+  - 值溢出漏洞
+  - OP_NOP漏洞
+  - LSHIFT漏洞
+explanation: |
+  这个漏洞没有被利用。中本聪迅速在软件中加入了修复，并推荐所有用户升级。
+reviewed: false

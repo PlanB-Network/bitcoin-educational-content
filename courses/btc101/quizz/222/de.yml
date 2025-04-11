@@ -1,9 +1,11 @@
 question: Was ist das Skalierbarkeitsproblem von Bitcoin?
-answer: Die Herausforderung besteht darin, ein monetäres System zu implementieren, das in der Lage ist, eine immer größer werdende Anzahl von Transaktionen pro Sekunde zu ermöglichen, während es angenommen wird.
+answer: Die Herausforderung, ein monetäres System zu implementieren, das in der Lage ist, eine stetig steigende Anzahl von Transaktionen pro Sekunde bereitzustellen, je mehr es angenommen wird.
 wrong_answers:
-  - Die Schwierigkeit, neue Bitcoins zu schürfen.
-  - Die Volatilität des Bitcoin-Preises.
-  - Das Fehlen einer Regulierung für Bitcoin.
-explanation: |
-  Das Skalierbarkeitsproblem bezieht sich auf die Herausforderung, ein monetäres System zu implementieren, das in der Lage ist, eine immer größer werdende Anzahl von Transaktionen pro Sekunde zu ermöglichen, während es angenommen wird.
-reviewed: false
+  - Die Schwierigkeit, neue Bitcoins mit einem im Laufe der Zeit steigenden Wert zu minen.
+  - Die Volatilität des Bitcoin-Preises, die nach jeder Halbierung zunehmen wird.
+  - Der Mangel an Regulierung für Bitcoin, der Transaktionen illegal machen wird.
+explanation: >-
+  Das Skalierbarkeitsproblem bezieht sich auf die Herausforderung, ein monetäres
+  System zu implementieren, das in der Lage ist, eine stetig steigende Anzahl von Transaktionen pro Sekunde
+  bereitzustellen, je mehr es angenommen wird.
+reviewed: true

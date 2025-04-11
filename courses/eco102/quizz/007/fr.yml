@@ -1,0 +1,9 @@
+question: Quelle révolution Frédéric Bastiat a-t-il vécue de près en tant que député ?
+answer: La révolution de 1848
+wrong_answers:
+  - La révolution de 1830
+  - La révolution de 1871
+  - La révolution de 1789
+explanation: |
+  Bastiat vit la révolution de 1848, qui établit la Seconde République et mène à son élection comme député.
+reviewed: false

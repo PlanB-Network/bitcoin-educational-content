@@ -1,11 +1,8 @@
-question: Đóng cưỡng bức là gì?
-answer: Một bên muốn đóng kênh, nhưng bên kia không phản hồi, vì vậy bên đầu tiên công bố giao dịch cam kết gần nhất.
+question: Công nghệ Keysend làm thế nào để cho phép chuyển tiền mà không cần hóa đơn?
+answer: Người gửi tạo ra một bí mật trong các HTLCs để mở khóa quỹ
 wrong_answers:
-  - Cả hai bên đều đồng ý đóng kênh và tạo một giao dịch đóng.
-  - Một bên cố gắng gian lận bằng cách công bố một giao dịch cam kết cũ.
-  - Cả hai bên tranh giành SAT còn lại trong kênh.
+  - Người nhận tạo ra một hash để xác nhận việc chuyển tiền
+  - Việc thanh toán được xác nhận thông qua một kênh trực tiếp giữa người gửi và người nhận
+  - Quỹ được ghi có trực tiếp mà không cần thêm bảo mật
 explanation: |
-  Đóng cưỡng bức xảy ra khi một bên muốn đóng kênh, nhưng
-  bên kia không phản hồi vì họ đang ngoại tuyến. Bên đầu tiên sau đó công bố
-  giao dịch cam kết gần nhất.
-reviewed: false
+  Keysend cho phép người gửi tạo ra một bí mật được nhúng vào trong các HTLCs, cho phép người nhận mở khóa quỹ mà không cần phải phát hành một hóa đơn.

@@ -1,0 +1,9 @@
+question: Operasi apa yang diperlukan untuk menghitung kunci publik Taproot Q?
+answer: Menambahkan tweak tG ke kunci publik P
+wrong_answers:
+  - Mengalikan kunci privat p dengan tweak
+  - Meng-hash kunci publik P dengan SHA256
+  - Menggabungkan tweak t dan kunci publik P
+explanation: |
+  Kunci publik Taproot Q diperoleh dengan menambahkan hasil kali skalar dari tweak t dengan generator G ke kunci publik P.
+ditinjau: false

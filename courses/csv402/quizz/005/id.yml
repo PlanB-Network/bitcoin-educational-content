@@ -1,0 +1,9 @@
+question: Metode apa yang digunakan dalam RGB untuk menentukan segel sekali pakai?
+answer: Titik keluar yang spesifik
+wrong_answers:
+  - Kunci publik tertentu
+  - Alamat Bitcoin tertentu
+  - Kombinasi dari beberapa UTXO
+explanation: |
+  RGB mendefinisikan segel sekali pakai sebagai titik keluar tertentu, yang kemudian dapat ditutup dengan pengeluaran titik keluar ini (TXID + nomor keluaran).
+reviewed: false

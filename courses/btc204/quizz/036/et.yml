@@ -1,0 +1,9 @@
+question: Miks võivad vähem levinud skriptitüübid olla kergemini tuvastatavad kui laialdaselt kasutatavad skriptid?
+answer: Kuna tehingute grupp sama skriptitüübiga on väiksem.
+wrong_answers:
+  - Kuna need nõuavad kaevuritelt rohkem valideerimisi.
+  - Kuna nad kasutavad nõrgemaid krüpteerimisalgoritme.
+  - Kuna neid lükatakse Bitcoin'i võrgusõlmede poolt sagedamini tagasi.
+explanation: |
+  Kui kogu tehingute grupp sama skriptitüübiga, milles me peitume, on väike, oleme kergemini tuvastatavad kui väga suures tehingute grupis.
+reviewed: false

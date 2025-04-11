@@ -1,0 +1,9 @@
+question: Mikä on asynkroninen suoratoistosalaus?
+answer: Salaus, jonka avainvirta riippuu sekä avaimesta että aiemmin salatun tekstin elementeistä
+wrong_answers:
+  - Salaus, joka luo satunnaisen avainvirran jokaisella käytöllä
+  - Salaus, jossa avainta on muutettava jokaisen viestin kohdalla
+  - Salaus, jonka avainvirta riippuu vain alkuperäisestä avaimesta
+explanation: |
+  Asynkroninen suoratoistosalaus on salausmenetelmä, jossa avainvirta on sekä avaimen että salatun tekstin elementtien vaikutuksen alainen.
+reviewed: false

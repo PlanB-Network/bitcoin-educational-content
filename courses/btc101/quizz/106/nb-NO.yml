@@ -1,0 +1,10 @@
+question: Hvorfor er det tilrådelig å unngå å la dine Bitcoins være på børsplattformer?
+answer: De kan være sårbare for hackerangrep
+wrong_answers:
+  - Børsplattformer tar tilfeldige gebyrer
+  - Bitcoins mister verdi på børsplattformer
+  - Børsplattformer er ikke regulerte institusjoner
+explanation: |
+  Det er tilrådelig å unngå å la dine Bitcoins være på børsplattformer
+  fordi de kan være sårbare for hackerangrep.
+reviewed: true

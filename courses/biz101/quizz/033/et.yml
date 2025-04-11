@@ -1,0 +1,9 @@
+question: Kuidas on Lightning Network alates selle loomisest kasutajakogemuse parandamiseks edasi arenenud?
+answer: See on kasutusele võtnud sellised funktsioonid nagu liitmine, staatilised Bolt12-arved ja parem likviidsusjuhtimine, mis muudab tehingud sujuvamaks ja usaldusväärsemaks.
+wrong_answers:
+  - See on eemaldanud kõik turvaelemendid, et kiirendada tehinguid.
+  - Nüüd on iga makse jaoks vaja valitsuse heakskiitu.
+  - Ta on lõpetanud uute funktsioonide väljatöötamise, tuginedes ainult algsele disainile.
+explanation: |
+  Aja jooksul on Lightning Networki täiustatud tehniliselt, et vähendada kasutajate jaoks hõõrdumist. Uued funktsioonid ja paremad sõlmede haldamise vahendid on aidanud kaasa sujuvamale ja kasutajasõbralikumale kasutuskogemusele.
+reviewed: false

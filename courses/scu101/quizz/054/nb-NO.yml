@@ -1,0 +1,11 @@
+question: Hva er de anbefalte praksisene for optimal sikkerhet med sterk autentisering?
+answer: Bruk en sikker e-postadresse, en sikker passordbehandler, og ta i bruk 2FA med YubiKeys.
+wrong_answers:
+  - Bruk et vanlig passord for alle kontoer, og unngå 2FA
+  - Bruk et enkelt passord og stol på biometriske data for 2FA
+  - Bruk en sikker e-postadresse, men unngå passordbehandlere og 2FA
+explanation: |
+  For optimal sikkerhet anbefales det å bruke en sikker e-postadresse,
+  en sikker passordbehandler, og ta i bruk 2FA med YubiKeys. Det er også tilrådelig å
+  kjøpe to YubiKeys for å forutse tap eller tyveri.
+reviewed: false

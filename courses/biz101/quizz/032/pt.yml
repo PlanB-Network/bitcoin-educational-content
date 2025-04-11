@@ -1,0 +1,9 @@
+question: Qual é a vantagem de começar com pouco dinheiro quando se aceita pagamentos em Bitcoin pela primeira vez?
+answer: Permite que a empresa aprenda com algumas transacções iniciais e passe gradualmente para soluções mais sofisticadas se a procura dos clientes aumentar.
+wrong_answers:
+  - Obriga a empresa a utilizar imediatamente apenas soluções de auto-custódia.
+  - Impede a empresa de atualizar ou mudar de fornecedor mais tarde.
+  - Exige que uma empresa aceite Bitcoin de cada cliente antes de compreender o processo.
+explanation: |
+  Começar com uma abordagem simples, de nível inicial, permite que a empresa ganhe experiência prática sem riscos significativos. Se o interesse nos pagamentos com Bitcoin se revelar compensador, a empresa pode então atualizar a sua infraestrutura e integrar ferramentas mais avançadas.
+reviewed: false

@@ -1,9 +1,9 @@
-question: Quel est le rôle du Lightning Network ?
+question: Quel type de réseau le Lightning Network crée-t-il ?
 answer: Un réseau de canaux de paiement.
 wrong_answers:
-  - Un réseau de nœuds miniers.
+  - Un réseau de nœuds de minage.
   - Un réseau de nœuds de blockchain.
   - Un réseau d'échanges de cryptomonnaies.
-explanation: |
-  Le Lightning Network agit en tant que réseau de canaux de paiement, permettant des transactions instantanées avec des frais réduits pour l'expéditeur.
-reviewed: false
+explanation: >-
+  Le Lightning Network agit comme un réseau de canaux de paiement, permettant des transactions instantanées avec des frais réduits pour l'expéditeur.
+reviewed: true

@@ -1,0 +1,11 @@
+question: Mis on levinud pettus seoses krüptovaluutaga online-annetustega?
+answer: Pakkumised, mis väidavad, et kahekordistavad või suurendavad saadetud bitcoine.
+wrong_answers:
+  - Pakkumised, mis väidavad, et kahekordistavad või suurendavad sinu füüsilisi kaupu.
+  - Pakkumised, mis väidavad, et kahekordistavad või suurendavad sinu fiat valuutat.
+  - Pakkumised, mis väidavad, et kahekordistavad või suurendavad sinu tarkvaratooteid.
+explanation: |
+  Klassikaline näide sellisest pettusest on pakkumine, mis väidab, et kahekordistab
+  või suurendab saadetud bitcoine. On oluline mõista, et ei ole olemas
+  maagilist lahendust, et saada koheselt rikkaks.
+reviewed: false

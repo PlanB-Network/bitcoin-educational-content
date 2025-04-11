@@ -1,0 +1,10 @@
+question: Hva kalles hendelsen når belønningen for å utvinne Bitcoin-transaksjoner halveres?
+answer: Halvering
+wrong_answers:
+  - Fordobling
+  - Fjerdings
+  - Tredobling
+explanation: |
+  Den programmerte reduksjonen av utvinningsbelønninger, som halveres hvert
+  fjerde år, er en hendelse kjent som halvering.
+reviewed: true

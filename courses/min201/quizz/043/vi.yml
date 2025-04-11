@@ -1,9 +1,13 @@
-question: Ý nghĩa của câu ngạn ngữ "Không phải hashrate của bạn, không phải là phần thưởng của bạn" trong bối cảnh đào Bitcoin là gì?
+question: Ý nghĩa của câu ngạn ngữ Không phải hashrate của bạn, không phải phần thưởng của bạn trong bối cảnh đào Bitcoin là gì?
 answer: Nếu bạn không kiểm soát hashrate, bạn không kiểm soát phần thưởng đào.
 wrong_answers:
   - Nếu bạn không có hashrate cao, bạn sẽ không nhận được bất kỳ phần thưởng nào.
   - Nếu bạn không sở hữu Bitcoin, bạn sẽ không nhận được bất kỳ phần thưởng nào.
   - Nếu bạn không có máy đào, bạn sẽ không nhận được bất kỳ phần thưởng nào.
 explanation: |
-  Câu ngạn ngữ "Không phải hashrate của bạn, không phải là phần thưởng của bạn" tương tự như câu ngạn ngữ nổi tiếng trong thế giới tiền mã hóa, "Không phải chìa khóa của bạn, không phải Bitcoin của bạn." Ý nghĩa là nếu bạn không kiểm soát hashrate, bạn không kiểm soát phần thưởng đào. Điều này là bởi vì phần thưởng từ việc đào được tính toán trực tiếp theo hashrate.
-reviewed: false
+  Câu ngạn ngữ Không phải hashrate của bạn, không phải phần thưởng của bạn tương tự
+  như câu ngạn ngữ nổi tiếng trong thế giới tiền mã hóa,
+  Không phải chìa khóa của bạn, không phải Bitcoin của bạn. Nó có nghĩa là nếu bạn không
+  kiểm soát hashrate, bạn không kiểm soát phần thưởng đào. Điều này là bởi vì
+  phần thưởng từ việc đào được tính toán trực tiếp theo hashrate.
+reviewed: true

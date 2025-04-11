@@ -1,0 +1,9 @@
+question: Welche Antwort repräsentiert einen der beiden Hauptzweige der Kryptografie?
+answer: Symmetrische Kryptografie
+wrong_answers:
+  - Kryptologie
+  - Homomorphe Verschlüsselung
+  - Kryptoanalyse
+explanation: |
+  Die symmetrische Kryptografie ist ein Hauptzweig der Kryptografie, der Verschlüsselungsschemata umfasst, bei denen ein einzelner Schlüssel verwendet wird, um Nachrichten zu verschlüsseln und zu entschlüsseln.
+reviewed: false

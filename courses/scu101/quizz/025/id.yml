@@ -1,0 +1,10 @@
+question: Apa praktik yang direkomendasikan untuk menyimpan kata sandi untuk enkripsi data?
+answer: Tuliskan kata sandi pada selembar kertas yang disimpan di tempat yang aman.
+wrong_answers:
+  - Menyimpan kata sandi dalam file teks di komputer.
+  - Membagi kata sandi dengan teman-teman terpercaya.
+  - Menggunakan kata sandi umum yang mudah diingat.
+explanation: |
+  Disarankan untuk menuliskan kata sandi untuk enkripsi data pada
+  selembar kertas dan menyimpannya di tempat yang aman. Ini dilakukan untuk mencegah kehilangan akses ke data yang terenkripsi.
+reviewed: false

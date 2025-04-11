@@ -1,0 +1,9 @@
+question: Dalam sebuah grup, apa nama elemen unik yang, ketika diterapkan pada elemen lain, tidak mengubahnya?
+answer: Elemen identitas
+wrong_answers:
+  - Elemen invers
+  - Elemen komutatif
+  - Elemen asosiatif
+explanation: |
+  Elemen identitas dari sebuah grup adalah elemen unik yang, ketika diterapkan pada elemen lain, meninggalkannya tidak berubah. Sebagai contoh, dalam grup bilangan bulat di bawah penjumlahan, elemen identitasnya adalah 0.
+reviewed: false

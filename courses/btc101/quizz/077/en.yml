@@ -1,11 +1,12 @@
 question: What is the risk of sharing the public key of a Bitcoin wallet?
-answer: Risks to privacy
+answer: Losing privacy.
 wrong_answers:
-  - Risks to destoy the Bitcoin wallet
-  - Risks of losing the Bitcoins
-  - Risks of hacking the Bitcoin wallet
+  - Destroying the Bitcoin wallet.
+  - Losing the Bitcoins.
+  - Hacking the Bitcoin wallet.
 explanation: |
-  Sharing the public key involves risks to privacy, but not to security.
-  This is because the public key is used to generate Bitcoin addresses and thus receive
-  money, but it does not represent ownership of the Bitcoins.
+  Sharing the public key involves risks to privacy, but not
+  to security. This is because the public key is used to
+  generate Bitcoin addresses and thus receive money, but it
+  does not represent ownership of the Bitcoins.
 reviewed: true

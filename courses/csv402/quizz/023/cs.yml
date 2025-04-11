@@ -1,0 +1,9 @@
+question: Jak RGB zabraňuje dvojímu vynakládání prostředků při přechodu stavu?
+answer: Uzavření existující pečeti a vytvoření nové pečeti
+wrong_answers:
+  - Ověřováním všech transakcí v blockchainu
+  - Zavedením vícepodpisů pro každou operaci
+  - Ověřování dat globálního stavu
+explanation: |
+  Uzavření plomby s vyčerpaným UTXO dokazuje, že přechod je jedinečný a neodvolatelný.
+reviewed: false

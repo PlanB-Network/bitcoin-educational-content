@@ -1,11 +1,12 @@
-question: What is the entity in charge of issuing fiduciary currency?
-answer: Central Bank
+question: What are the entities in charge of issuing fiduciary currencies?
+answer: Central banks.
 wrong_answers:
-  - Commercial Bank
-  - Government
-  - Private Institutions
+  - Commercial banks.
+  - Governments.
+  - Private Institutions.
 explanation: |
-  Central banks are the entities that are in charge of issuing fiduciary
-  currency. They decide the monetary policy and determine how much money should be
-  put into circulation or printed.
+  Central banks are the entities in charge of issuing a
+  fiduciary currency. They decide the monetary policy and
+  determine how much money should be put into circulation or
+  printed.
 reviewed: true

@@ -1,11 +1,12 @@
-question: Where are the bitcoins actually stored?
-answer: In the Bitcoin blockchain
+question: Where are the bitcoins stored?
+answer: In the Bitcoin blockchain.
 wrong_answers:
-  - In the Bitcoin wallet
-  - On the device where the wallet is installed
-  - In the federal reserve
+  - In the Bitcoin wallet.
+  - On the device where the wallet is installed.
+  - In the Federal Reserve vault.
 explanation: |
-  Although your private keys are stored in your wallet, the bitcoins themselves
-  are actually stored in the Bitcoin blockchain, which is the public distributed ledger
-  within the Bitcoin peer-to-peer network.
+  Although your private keys are stored in your wallet, the
+  bitcoins themselves are actually stored in the Bitcoin
+  blockchain, which is the public distributed ledger within
+  the Bitcoin peer-to-peer network.
 reviewed: true

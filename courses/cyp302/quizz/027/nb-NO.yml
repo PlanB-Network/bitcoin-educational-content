@@ -1,0 +1,9 @@
+question: Hva er den kommutative egenskapen til XOR-operasjonen?
+answer: Rekkefølgen på operandene påvirker ikke resultatet av operasjonen
+wrong_answers:
+  - XOR fungerer bare med partall
+  - XOR krever operander av samme lengde
+  - Posisjonen til bitene i operandene påvirker ikke resultatet av operasjonen
+explanation: |
+  XOR er kommutativ, noe som betyr at a XOR b er lik b XOR a.
+reviewed: false

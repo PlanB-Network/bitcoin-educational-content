@@ -1,0 +1,7 @@
+---
+term: DISTRIBUTED
+
+---
+Attribute of a computer network in which decision-making power and control are evenly distributed among all network participants. This distribution ensures the system's resilience. It is also referred to as a peer-to-peer network. Unlike a decentralized network, where power is fragmented and dispersed among multiple entities, but where some central authorities remain with greater power than the users, a distributed network eliminates the central authority by entrusting management and control to the users themselves. Bitcoin is an example of a distributed system. Bitcoin does not have a hierarchy or central authority. The maintenance of consensus, the verification of transactions, and the issuance of new monetary units are carried out by the users. This distributed structure ensures the system's resilience and resistance to censorship, making it very difficult for a single entity to control or manipulate it.
+
+> ► *Some people refer to Bitcoin as a decentralized system. Indeed, it is not uncommon to see these two terms used interchangeably. A more evocative synonym for the adjective "distributed" could be "peer-to-peer," sometimes abbreviated as "P2P," the acronym from the English translation "Peer-to-Peer."*

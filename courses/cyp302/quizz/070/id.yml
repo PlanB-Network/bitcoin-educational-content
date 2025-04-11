@@ -1,0 +1,9 @@
+question: Apa jenis enkripsi dari enkripsi geser?
+answer: Sebuah sandi substitusi monoalfabetik
+wrong_answers:
+  - Sebuah sandi permutasi kata
+  - Sebuah sandi substitusi polialfabetik
+  - Sebuah sandi asimetris
+explanation: |
+  Enkripsi geser adalah contoh dari sandi substitusi monoalfabetik, di mana setiap huruf dalam pesan digeser sejumlah posisi tetap dalam abjad.
+reviewed: false

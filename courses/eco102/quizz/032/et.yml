@@ -1,0 +1,9 @@
+question: Rousseau järgi, mis on üksikisikute piiramise eesmärk?
+answer: Viia nad vabaduseni
+wrong_answers:
+  - Orjastada nad
+  - Muuta nad võrdseks
+  - Ühendada nad teenistuses
+explanation: |
+  Rousseau usub, et piirangud võivad juhtida üksikisikuid vabaduse poole, suunates neid kollektiivse ideaali poole, mida nad taotleksid, kui nad oleksid valgustatud.
+reviewed: false

@@ -5,9 +5,9 @@ wrong_answers:
   - The main issue with the fractional reserve system is that it requires banks to hold more reserves than they receive in deposits.
   - The main issue with the fractional reserve system is that it prevents banks from creating new money.
 explanation: |
-  In a fractional reserve system, banks hold only a fraction of their
-  depositors
-  funds in reserve, lending out the rest. If many customers simultaneously rush to
-  withdraw their funds, the bank may not have enough reserves to meet these demands,
-  potentially leading to bankruptcy.
-reviewed: false
+  In a fractional reserve system, banks hold only a fraction
+  of their depositors' funds in reserve, lending out the
+  rest. If many customers simultaneously rush to withdraw
+  their funds, the bank may not have enough reserves to meet
+  these demands, potentially leading to bankruptcy.
+reviewed: true

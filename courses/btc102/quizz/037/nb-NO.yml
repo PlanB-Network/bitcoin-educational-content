@@ -1,0 +1,12 @@
+question: Hva er Bitcoin ifølge cyberpunk-bevegelsen?
+answer: Den elektroniske ekvivalenten til kontanter
+wrong_answers:
+  - En form for digitalt gull
+  - En ny form for kredittkort
+  - En type kryptovaluta
+explanation: |
+  Kapittelet nevner at fra et Cyberpunk-perspektiv, motsier Bitcoin
+  et kontantløst samfunn. Det muliggjør skapelsen av fullstendig private og mellommannsfrie
+  digitale finanstransaksjoner. For cyberpunk-bevegelsen er Bitcoin den elektroniske
+  ekvivalenten til kontanter.
+reviewed: false

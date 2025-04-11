@@ -1,0 +1,8 @@
+question: 闪电网络上的交易费用通常低于多少？
+answer: 0.5%
+wrong_answers:
+  - 1%
+  - 2%
+  - 3%
+explanation: >-
+  闪电网络上的交易费用极低，通常低于0.5%。

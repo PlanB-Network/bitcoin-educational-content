@@ -1,0 +1,9 @@
+question: ¿Cuál es la importancia de usar un nonce aleatorio en los métodos CBC y OFB?
+answer: Asegura que cada sesión de cifrado sea única, incluso para datos idénticos.
+wrong_answers:
+  - Reduce la longitud de la clave a lo largo del proceso de cifrado.
+  - Hace el cifrado más rápido.
+  - Hace que el código del algoritmo sea más bello para los humanos.
+explanation: |
+  Al usar un nonce aleatorio para cada sesión, los métodos CBC y OFB aseguran que cada cifrado sea único, lo que previene ataques que explotan datos idénticos.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Mis on mitmekordse redenominatsiooni tagajärg rahvastikule?
+answer: Säästude kaotus ja toiduprobleemid.
+wrong_answers:
+  - Rikkuse ja toidu külluse suurenemine.
+  - Säästude ja toidupuuduse suurenemine.
+  - Rikkuse ja toidu külluse vähenemine.
+explanation: |
+  Mitmekordne redenomineerimine, nullide eemaldamine või valuuta nime muutmine
+
+  omab otseseid tagajärgi rahvastikule, ulatudes säästude kaotusest
+  
+  toiduprobleemideni.

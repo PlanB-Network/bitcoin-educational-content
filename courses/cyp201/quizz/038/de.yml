@@ -1,9 +1,9 @@
-question: Wie viele mögliche private Schlüssel gibt es theoretisch?
-answer: 2^256
+question: Warum wird davon abgeraten, eine Bitcoin-Adresse wiederzuverwenden?
+answer: Es erleichtert Dritten das Nachverfolgen von Transaktionen.
 wrong_answers:
-  - 2^128
-  - 2^512
-  - 2^1024
+  - Es offenbart den privaten Schlüssel aufgrund des Nonce
+  - Es macht Transaktionen teurer
+  - Es macht digitale Signaturen ungültig
 explanation: |
-  Die theoretische Gesamtzahl der möglichen privaten Schlüssel beträgt 2^256, aber in der Realität ist sie etwas geringer.
+  Das Wiederverwenden einer Adresse ermöglicht es Beobachtern, verschiedene Transaktionen leicht demselben Benutzer zuzuordnen, was deren Privatsphäre beeinträchtigt.
 reviewed: false

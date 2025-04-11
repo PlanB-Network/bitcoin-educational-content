@@ -1,0 +1,9 @@
+question: What is the block encryption algorithm adopted as the AES standard?
+answer: The Rijndael Cipher
+wrong_answers:
+  - DES
+  - RSA
+  - Diffie-Hellman
+explanation: |
+  The Rijndael Cipher was adopted as the symmetric encryption standard (AES) by NIST, due to its high performance and security.
+reviewed: false

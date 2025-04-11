@@ -1,0 +1,9 @@
+question: Jaké jsou dva druhy loupeže, které popsal Bastiat?
+answer: Legální loupež a nelegální loupež
+wrong_answers:
+  - Morální loupež a nemorální loupež
+  - Vnitřní loupež a vnější loupež
+  - Loupež zboží a loupež služeb
+explanation: |
+  Bastiat rozlišuje mezi legální loupeží, která je definována zákonem a často vykonávána státem (jako jsou daně), a nelegální loupeží, která se odehrává mimo právní rámec, jako je krádež nebo napadení.
+reviewed: false

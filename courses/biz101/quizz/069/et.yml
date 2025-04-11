@@ -1,0 +1,9 @@
+question: Milline avatud lähtekoodiga tarkvara on kohandatud Professional Bitcoini maksesüsteemile?
+answer: BTC Pay Server
+wrong_answers:
+  - Šveitsi Bitcoin Pay
+  - Avatud sõlme
+  - Bitcoinize PoS
+explanation: |
+  BTC Pay Server on kursusel esile toodud kui peamine avatud lähtekoodiga lahendus Professional'i seadistuste jaoks tänu selle ulatuslikele integratsioonivõimalustele ja kontrollile.
+reviewed: false

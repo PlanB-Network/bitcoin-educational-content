@@ -1,9 +1,8 @@
-question: Mikä on karkea nimitys, jota joskus käytetään viittaamaan yksityisten avainten kokoelmaan Bitcoin-lompakossa?
-answer: Vain Joukko Avaimia (VJA)
+question: Kuinka moniin osiin HMAC-SHA512-funktion siemenen tuotos jaetaan?
+answer: Kahteen 256 bitin osaan
 wrong_answers:
-  - Vain Joukko Kolikoita (VJK)
-  - Vain Joukko Kryptoja (VJK)
-  - Vain Joukko Koodeja (VJK)
+  - Yhteen yksittäiseen 512 bitin osaan
+  - Kolmeen 170 bitin osaan
+  - Neljään 128 bitin osaan
 explanation: |
-  Yksityisten kryptografisten avainten kokoelmaa, jotka on johdettu yhdestä pääavaimesta Bitcoin-lompakossa, kutsutaan joskus hieman karkeammalla nimellä "Vain Joukko Avaimia" (VJA).
-reviewed: false
+  HMAC-SHA512: n tuotos jaetaan kahteen osaan pääyksityisavain (256 bittiä) ja pääketjukoodi (256 bittiä).

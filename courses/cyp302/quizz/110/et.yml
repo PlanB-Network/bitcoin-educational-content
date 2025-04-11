@@ -1,0 +1,9 @@
+question: Mis teeb RC4 haavatavaks tänapäeval hoolimata selle varasemast populaarsusest?
+answer: Hästi dokumenteeritud nõrkused võtmehalduse genereerimises
+wrong_answers:
+  - Võti on liiga lühike, et tagada turvalisus
+  - Selle võimetus töötada pikkade tekstidega
+  - Avaliku võtme kasutamise nõue lisaks privaatvõtmele
+explanation: |
+  RC4-l on olulisi nõrkusi võtmehalduse genereerimises, mis muudavad krüpteeringu rünnakutele haavatavaks, seetõttu on sellest järk-järgult loobutud kaasaegsetes turvaprotokollides.
+reviewed: false

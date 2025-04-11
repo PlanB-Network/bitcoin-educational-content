@@ -1,0 +1,11 @@
+question: Warum kann der Koordinator die CoinJoin-Transaktion nicht ändern, nachdem er die Unterschriften von allen Teilnehmern gesammelt hat?
+
+answer: Das Ändern würde die Transaktion ungültig machen.
+
+wrong_answers:
+  - Sie haben keinen Zugang zu den Empfangsadressen der Teilnehmer.
+  - Die Unterschriften sind verschlüsselt.
+  - Die Transaktion wurde bereits im Bitcoin-Netzwerk übertragen.
+
+explanation: |
+  Sobald die Teilnehmer die gesamte Transaktion unterschrieben haben, nachdem sie sichergestellt haben, dass alles korrekt ist, kann der Koordinator diese Transaktion nicht mehr ändern, einschließlich der Ausgänge, ohne sie zu invalidieren, weil die Unterschrift die gesamte Transaktion abdeckt.

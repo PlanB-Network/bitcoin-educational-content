@@ -1,0 +1,9 @@
+question: Mis on tüüpiline algarvude suurus, mida kasutatakse tegurdamiseks kaasaegsetes krüptosüsteemides nagu RSA?
+answer: 1024 bitti iga teguri kohta
+wrong_answers:
+  - 1024 bitti kokku
+  - 256 bitti iga teguri kohta
+  - 256 bitti kokku
+explanation: |
+  Kaasaegsetes krüptosüsteemides nagu RSA on valitud algarvud tavaliselt 1024 bitti igaüks, muutes tegurdamise äärmiselt keeruliseks ja suurendades turvalisust.
+reviewed: false

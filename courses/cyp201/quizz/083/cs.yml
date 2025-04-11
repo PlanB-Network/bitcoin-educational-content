@@ -1,12 +1,8 @@
-question:
-  Doporučuje se zapamatovat si heslovou frázi nebo mnemonickou frázi pro Bitcoin
-  peněženku?
-answer: To není pravda
+question: Jaký typ adresy začíná na `1` a patří do standardu Legacy?
+answer: P2PKH
 wrong_answers:
-  - To je pravda
-  - Záleží na délce heslové fráze nebo mnemonické fráze
-  - Záleží na složitosti heslové fráze nebo mnemonické fráze
+  - P2WPKH
+  - P2SH
+  - P2TR
 explanation: |
-  Nedoporučuje se zapamatovat si heslovou frázi nebo mnemonickou frázi. Je
-  zásadní pečovat o zálohy heslové fráze, aby nedošlo ke ztrátě přístupu k peněžence.
-reviewed: false
+  Adresy P2PKH, zakódované v base58check, pocházejí ze standardu Legacy a začínají číslicí `1`.

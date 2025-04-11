@@ -1,9 +1,11 @@
 question: Wie oft findet die Schwierigkeitsanpassung statt?
-answer: Alle 2016 Blöcke
+answer: Alle 2016 Blöcke.
 wrong_answers:
-  - Alle 1048 Blöcke
-  - Alle 512 Blöcke
-  - Alle 4032 Blöcke
+  - Alle 1048 Blöcke.
+  - Alle 512 Blöcke.
+  - Alle 4032 Blöcke.
 explanation: |
-  Die Schwierigkeitsanpassung ist ein Mechanismus, der alle 2016 Blöcke oder etwa alle zwei Wochen stattfindet, um sicherzustellen, dass im Durchschnitt alle zehn Minuten ein neuer Block zur Blockchain hinzugefügt wird, unabhängig von der globalen Hashrate.
-reviewed: false
+  Die Schwierigkeitsanpassung ist ein Mechanismus, der
+  alle 2016 Blöcke, oder ungefähr alle zwei Wochen, stattfindet, um sicherzustellen, dass
+  durchschnittlich alle zehn Minuten ein neuer Block zur Blockchain hinzugefügt wird, unabhängig von der globalen Hashrate.
+reviewed: true

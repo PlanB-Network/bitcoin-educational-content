@@ -1,0 +1,13 @@
+question: Umbes millisel tasemel on Bitcoinis aadresside taaskasutamise üldine määr?
+
+answer: Umbes 50%
+
+wrong_answers:
+  - Umbes 5%
+  - Umbes 15%
+  - Umbes 40%
+
+explanation: |
+  Alates 2010. aastate algusest on Bitcoinis aadresside taaskasutamise üldine määr kõikunud umbes 50% ümber.
+
+reviewed: false

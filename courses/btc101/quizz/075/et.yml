@@ -1,0 +1,11 @@
+question: Mis on mnemooniline fraas Bitcoin'i rahakotis?
+answer: 12 või 24 sõnast koosnev nimekiri, mis on sinu Bitcoin'i rahakoti varukoopia
+wrong_answers:
+  - Valitud parool Bitcoin'i rahakoti ligipääsuks
+  - Kood Bitcoin'i tehingute krüpteerimiseks
+  - Salajane taastefraas, mis hävitab Bitcoin'i rahakoti
+explanation: |
+  Alates 2017. aastast saab privaatvõtit kodeerida lihtsasse 12 või
+  24 sõnast koosnevasse nimekirja, mida nimetatakse mnemooniliseks fraasiks. See fraas on sinu Bitcoin'i rahakoti varukoopia,
+  see võimaldab sul taastada oma rahakoti ükskõik millise Bitcoin'i rahakoti tarkvara/rakendusega.
+reviewed: true

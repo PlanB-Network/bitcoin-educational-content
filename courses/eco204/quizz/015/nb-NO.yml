@@ -1,0 +1,11 @@
+question: Hva er definisjonen av hyperinflasjon ifølge Bernholz?
+answer: Hyperinflasjon er en forlengelse av høy inflasjon, kjennetegnet ved store budsjettunderskudd finansiert av pengetrykking.
+wrong_answers:
+  - Hyperinflasjon er en reduksjon i pengemengden.
+  - Hyperinflasjon er en moderat økning i pengemengden.
+  - Hyperinflasjon er en nedgang i produksjonen.
+explanation: |
+  Kapittelet forklarer at ifølge Bernholz, er hyperinflasjon en
+  forlengelse av høy inflasjon, kjennetegnet ved store budsjettunderskudd finansiert av
+  pengetrykking.
+reviewed: false

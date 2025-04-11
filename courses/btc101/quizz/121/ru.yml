@@ -1,0 +1,9 @@
+question: Какова онлайн доступность Bitcoin?
+answer: 99.988%
+wrong_answers:
+  - 100%
+  - 90.009%
+  - 80.17%
+explanation: |
+  Онлайн доступность Bitcoin составляет 99.988% с 2009 года.
+reviewed: true

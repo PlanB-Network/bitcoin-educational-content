@@ -1,0 +1,10 @@
+question: Hvordan overfører brukere eierskapet til pengene sine i Bitcoin-nettverket?
+answer: Ved å digitalt signere transaksjoner med sine private nøkler.
+wrong_answers:
+  - Ved fysisk å overlevere sine Bitcoins.
+  - Ved å sende en e-post til mottakeren.
+  - Ved å gi sin Bitcoin-adresse til mottakeren.
+explanation: >-
+  Brukere i Bitcoin-nettverket overfører eierskapet til pengene sine ved å digitalt
+  signere transaksjoner med sine private nøkler. Dette bekrefter at de er eierne
+  av Bitcoinsene de ønsker å overføre.

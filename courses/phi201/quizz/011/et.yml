@@ -1,0 +1,9 @@
+question: Mis on Lord Actoni peamine tees ajaloo kohta?
+answer: Vabaduse ja võimu konflikt on progressi ja ühiskondade arengu peamine jõud.
+wrong_answers:
+  - Progress on lineaarne ja paratamatu, viies ühiskonna vabaduse ja võrdsuseni.
+  - Ajalugu on kordumise tsükkel, kus vabaduse perioodidele järgnevad türannia perioodid.
+  - Majanduslikud tegurid on ajaloo kulgu peamised määrajad.
+explanation: |
+  Lord Acton väidab, et ajalugu on peamiselt märgistatud vabaduse ja võimu konfliktiga, pidades seda võitlust oluliseks progressiks ja ühiskondade arenguks suurema individuaalse vabaduse suunas.
+reviewed: false

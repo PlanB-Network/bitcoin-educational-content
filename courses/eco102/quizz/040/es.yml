@@ -1,0 +1,9 @@
+question: ¿Qué es el proteccionismo según Bastiat?
+answer: Una forma de nacionalismo económico destinada a limitar la competencia extranjera
+wrong_answers:
+  - Una política económica destinada a promover el comercio internacional
+  - Una estrategia para aumentar el poder adquisitivo del consumidor
+  - Una medida para apoyar a las pequeñas empresas locales
+explanation: |
+  Bastiat describe el proteccionismo como un nacionalismo económico que busca proteger los intereses nacionales limitando la competencia extranjera.
+reviewed: false

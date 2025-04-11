@@ -1,0 +1,9 @@
+question: ¿Qué elementos son necesarios para crear un canal Lightning que transporte activos RGB?
+answer: Financiación en bitcoins y financiación en activos RGB
+wrong_answers:
+  - Financiación sólo con Bitcoin para empezar
+  - Financiación sólo RGB para empezar
+  - No requiere financiación
+explanation: |
+  El canal requiere tanto financiación bitcoin en un multisig 2/2, como financiación de activos RGB para asignar activos en el mismo canal.
+reviewed: false

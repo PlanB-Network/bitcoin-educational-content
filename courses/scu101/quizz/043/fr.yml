@@ -1,9 +1,0 @@
-question: Pourquoi n'est-il pas recommandé d'utiliser des variations ou des ajouts aux mots de passe ?
-answer: Ils ne sont pas sécurisés et peuvent être facilement devinés.
-wrong_answers:
-  - Ils sont trop longs et complexes.
-  - Ils sont difficiles à retenir.
-  - Ils ne sont pas autorisés par la plupart des services en ligne.
-explanation: |
-  Les variations ou ajouts aux mots de passe ne sont pas sécurisés car ils peuvent être facilement devinés. Il est préférable d'utiliser des mots de passe complètement aléatoires qui ne suivent pas de schémas prévisibles.
-reviewed: false

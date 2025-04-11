@@ -1,0 +1,13 @@
+question: Apa itu prinsip Attakai dalam konteks penambangan Bitcoin?
+answer: Prinsip Attakai merujuk pada penggunaan panas yang dihasilkan dari penambangan Bitcoin secara produktif.
+wrong_answers:
+  - Prinsip Attakai merujuk pada penggunaan sumber energi terbarukan untuk penambangan Bitcoin.
+  - Prinsip Attakai merujuk pada penggunaan sistem pendinginan canggih dalam penambangan Bitcoin.
+  - Prinsip Attakai merujuk pada penggunaan perangkat keras dengan konsumsi energi rendah dalam penambangan Bitcoin.
+explanation: |
+  Prinsip Attakai merujuk pada ide
+  desentralisasi penambangan melalui penggunaan panas yang dihasilkan
+  secara produktif. Konsep ini menyarankan bahwa lembaga-lembaga yang intensif energi
+  bisa mendapatkan manfaat dari panas yang diproduksi oleh
+  penambang untuk menghangatkan fasilitas mereka.
+reviewed: true

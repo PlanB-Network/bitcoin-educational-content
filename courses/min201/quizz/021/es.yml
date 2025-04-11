@@ -1,9 +1,13 @@
-question: ¿Cuál es el incentivo económico para usar un minero de Bitcoin en lugar de un simple calentador eléctrico?
+question: ¿Cuál es el incentivo económico para usar un minero de Bitcoin en lugar de un simple calefactor eléctrico?
 answer: El minero no solo proporciona calor, sino también una recompensa en Bitcoin.
 wrong_answers:
-  - El minero utiliza menos electricidad que un simple calentador eléctrico.
-  - El minero produce más calor que un simple calentador eléctrico.
-  - El minero es más barato que un simple calentador eléctrico.
+  - El minero utiliza menos electricidad que un simple calefactor eléctrico.
+  - El minero produce más calor que un simple calefactor eléctrico.
+  - El minero es más barato que un simple calefactor eléctrico.
 explanation: |
-  La diferencia entre usar un minero y un simple calentador eléctrico radica en el hecho de que el minero no solo proporciona calor, sino también una recompensa en Bitcoin. Esta recompensa adicional podría ayudar a mitigar las preocupaciones sobre el alto consumo de energía de los mineros.
-reviewed: false
+  La diferencia entre usar un minero y un simple calefactor
+  eléctrico radica en el hecho de que el minero no solo proporciona
+  calor, sino también una recompensa en Bitcoin. Esta recompensa adicional
+  podría ayudar a aliviar las preocupaciones sobre el alto consumo
+  de energía de los mineros.
+reviewed: true

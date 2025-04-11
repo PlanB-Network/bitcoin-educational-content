@@ -1,0 +1,13 @@
+question: Hva er de to hovedvariantene av smarte kontrakter som brukes i coinswaps?
+
+answer: HTLC og PTLC
+
+wrong_answers:
+  - Multi-signatur og Enkel-signatur
+  - Smarte Kontrakter og DApps
+  - SegWit og Taproot
+
+explanation: |
+  For å utføre en coinswap, kan man bruke HTLCs (Hash Time-Locked Contracts) eller PTLCs (Point Time-Locked Contracts).
+
+reviewed: false

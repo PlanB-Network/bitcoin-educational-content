@@ -1,9 +1,9 @@
-question: Điều gì xảy ra trong quá trình giao dịch?
-answer: Bí mật của giao dịch
+question: Điều gì xảy ra nếu một kênh có HTLC đang hoạt động bị đóng cưỡng chế?
+answer: HTLC được bao gồm trong các giao dịch cam kết như một đầu ra.
 wrong_answers:
-  - Bí mật của giao dịch
-  - Một bí mật mới được quyết định và một chìa khóa thu hồi mới được tạo ra.
-  - Giao dịch cam kết trước đó được cập nhật với bí mật mới và chìa khóa thu hồi.
+  - HTLC được tự động hủy bỏ.
+  - Các quỹ được phân phối lại cho các nút trước đó.
+  - Kênh không thể được đóng cho đến khi HTLC hết hạn.
 explanation: |
-  Trong quá trình giao dịch
+  Trong trường hợp đóng cưỡng chế, các HTLC đang chờ xử lý được biểu diễn như các đầu ra trong các giao dịch cam kết, do đó đảm bảo việc thực hiện hoặc trả lại theo các điều kiện đã định.
 reviewed: false

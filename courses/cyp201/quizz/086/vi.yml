@@ -1,11 +1,9 @@
-question: Kết quả của thuật toán HMAC SHA-512 là gì?
-answer: Một số 512-bit, được chia thành hai phần; 256 bit bên trái nhất đại diện cho khóa riêng tư chính, trong khi 256 bit bên phải nhất đại diện cho mã chuỗi chính.
+question: Checksum cho địa chỉ SegWit v0 được mã hóa trong bech32 được tính toán như thế nào?
+answer: Sử dụng mã BCH
 wrong_answers:
-  - Một số 256-bit đại diện cho khóa riêng tư chính.
-  - Một số 256-bit đại diện cho mã chuỗi chính.
-  - Một số 512-bit đại diện cho hạt giống.
+  - Bằng cách áp dụng HASH256 hai lần
+  - Bằng cách thêm một hash RIPEMD160
+  - Bằng cách mã hóa trực tiếp trong base64
 explanation: |
-  Kết quả của HMAC SHA-512 là một số 512-bit, được chia thành hai phần;
-  256 bit bên trái nhất đại diện cho khóa riêng tư chính, trong khi 256 bit bên phải nhất
-  đại diện cho mã chuỗi chính.
+  Địa chỉ Bech32 sử dụng mã BCH để tính toán checksum.
 reviewed: false

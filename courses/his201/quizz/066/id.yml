@@ -1,0 +1,8 @@
+question: Apa nama blog yang dikelola oleh Jon Matonis yang membahas tentang mata uang digital (termasuk Bitcoin sejak Maret 2010)?
+answer: The Monetary Future
+wrong_answers:
+  - Classic Economic Studies
+  - Return to Cash
+  - The Nakamoto Institute
+explanation: |
+  Dia menerbitkan [artikel pertamanya tentang Bitcoin](https: //themonetaryfuture.blogspot.com/2010/03/bitcoin-peer-to-peer-electronic-cash.html) pada tanggal 13 Maret 2010, setelah bertukar email dengan Satoshi.

@@ -1,0 +1,9 @@
+question: Bagaimana Lightning Network membantu membentuk masa depan perdagangan online dan layanan digital?
+answer: Dengan memungkinkan transaksi mikro tanpa gesekan, instan, dan tanpa izin, membuka model bisnis dan aliran pendapatan baru.
+wrong_answers:
+  - Dengan mencegah munculnya model bisnis baru secara online.
+  - Dengan mengharuskan pedagang untuk menggunakan jalur pembayaran yang lambat dan mahal seperti sebelumnya.
+  - Dengan membuat barang digital tidak mungkin dijual karena biaya yang tinggi.
+explanation: |
+  Kemampuan Lightning untuk mengirim sejumlah kecil nilai secara instan dan dengan biaya rendah mendorong inovasi di berbagai bidang seperti konten pay-as-you-go, pembayaran streaming, dan transaksi mesin-ke-mesin, yang berpotensi mengubah cara layanan online dimonetisasi.
+reviewed: false

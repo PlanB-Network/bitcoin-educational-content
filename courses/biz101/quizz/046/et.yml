@@ -1,0 +1,9 @@
+question: Mis on valuuta esmane funktsioon?
+answer: Tegutseda vahendajana, mis lihtsustab väärtuse vahetamist
+wrong_answers:
+  - Sisemise väärtuse säilitamine füüsilisel kujul
+  - Asendada barter täielikult vahetuskaupade otsese kaubavahetusega kaupade vastu
+  - Tsentraliseerida kõik majandustehingud ühe asutuse kaudu
+explanation: |
+  Valuuta lihtsustab kaubandust, kuna see toimib ühise vahendina, mis vähendab vahetuskursside keerulist võrgustikku, mis on vajalik vahetussüsteemis, hõlbustades seeläbi lihtsamaid tehinguid.
+reviewed: false

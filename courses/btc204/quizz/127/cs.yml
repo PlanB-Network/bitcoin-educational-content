@@ -1,0 +1,11 @@
+question: Jaký je hlavní nedostatek coinswapů a atomických swapů z hlediska soukromí?
+
+answer: Nezakrývají historii vyměněných mincí
+
+wrong_answers:
+  - Jsou velmi nákladné na transakční poplatky
+  - Vyžadují výměnu osobních informací mezi stranami
+  - Mohou být předmětem analýzy burzovními platformami
+
+explanation: |
+  Hlavní nevýhodou těchto metod je, že jsou velmi riskantní bez použití dodatečné techniky k zakrytí historie mince.

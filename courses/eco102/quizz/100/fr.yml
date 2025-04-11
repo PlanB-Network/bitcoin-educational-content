@@ -1,0 +1,9 @@
+question: Selon Bastiat, qui assure la subsistance de l'État ?
+answer: Ce sont les citoyens qui font vivre l'État
+wrong_answers:
+  - Ce sont les citoyens qui vivent de l'État
+  - C'est l'État qui fait vivre la nation
+  - Ce sont les groupes d'intérêts qui font vivre l'État
+explanation: |
+  Bastiat affirme que ce sont les citoyens qui soutiennent l'État par la création de richesses et non l'inverse.
+reviewed: false

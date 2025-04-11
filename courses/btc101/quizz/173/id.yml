@@ -1,0 +1,11 @@
+question: Apa salah satu alasan Bitcoin menarik bagi beberapa kelompok?
+answer: Kemampuannya untuk menawarkan solusi seperti uang elektronik tanpa kepercayaan, ketahanan terhadap sensor, atau kebijakan moneter yang transparan dan tidak dapat diubah.
+wrong_answers:
+  - Mudah untuk dipalsukan.
+  - Dikendalikan oleh otoritas pusat.
+  - Tidak bersifat pseudonim.
+explanation: >-
+  Sifat terdesentralisasi Bitcoin, pseudonimitas, dan ketahanan terhadap sensor
+  membuatnya menarik bagi kelompok seperti teknofil, cypherpunk, libertarian, dan
+  penggemar emas.
+  direview: false

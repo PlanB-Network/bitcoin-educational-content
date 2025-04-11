@@ -1,9 +1,13 @@
-question: Qual é o objetivo de criar um plano de herança para seus bitcoins?
-answer: Garantir que seus bitcoins sejam gerenciados adequadamente após a sua morte.
+question: Qual é o propósito de criar um plano de herança para seus bitcoins?
+answer: Garantir que seus bitcoins sejam adequadamente gerenciados após a sua morte.
 wrong_answers:
-  - Evitar impostos sobre seus bitcoins
-  - Aumentar o valor de seus bitcoins
-  - Prevenir que seus bitcoins sejam roubados
+  - Para evitar impostos sobre seus bitcoins.
+  - Para diminuir o valor dos seus bitcoins.
+  - Para prevenir que seus bitcoins sejam roubados.
 explanation: |
-  Um plano de herança garante que seus bitcoins sejam gerenciados adequadamente após a sua morte. Ele pode incluir uma carta escrita à mão detalhando seus ativos, os métodos de acesso a eles e as informações de contato de pessoas confiáveis a serem contatadas.
-reviewed: false
+  Um plano de herança garante que seus bitcoins serão
+  adequadamente gerenciados após a sua morte. Ele pode incluir uma
+  carta escrita à mão detalhando seus ativos, seus métodos de acesso,
+  e as informações de contato de pessoas de confiança
+  para serem contatadas.
+reviewed: true

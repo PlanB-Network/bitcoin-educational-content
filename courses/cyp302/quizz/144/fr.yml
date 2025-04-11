@@ -1,0 +1,9 @@
+question: Quelle est la taille typique des nombres premiers utilisés dans la factorisation pour les cryptosystèmes modernes comme RSA ?
+answer: 1024 bits pour chaque facteur
+wrong_answers:
+  - 1024 bits au total
+  - 256 bits pour chaque facteur
+  - 256 bits au total
+explanation: |
+  Dans les cryptosystèmes modernes comme RSA, les nombres premiers choisis font typiquement 1024 bits chacun, ce qui rend la factorisation extrêmement difficile et renforçant la sécurité.
+reviewed: false

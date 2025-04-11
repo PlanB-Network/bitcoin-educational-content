@@ -1,0 +1,12 @@
+question: Mis on Proof of Stake'i potentsiaalne oht Bitcoin'i võrgus?
+answer: Need, kes juba omavad suurt hulka valuutat, omavad ebaproportsionaalselt suurt võimu, peegeldades olemasolevaid võimuerinevusi.
+wrong_answers:
+  - See looks esindada olulist takistust valideerijatele, kes omavad suurt hulka valuutat.
+  - See ei võimalda väikesemahulist osalust.
+  - See ei nõua käegakatsutavaid ressursse.
+explanation: |
+  Proof of Stake võrgus omavad need, kes juba omavad suurt
+  hulka valuutat, ebaproportsionaalselt suurt võimu. See
+  dünaamika võib potentsiaalselt jätkata tsentraliseerimist ja
+  võimu koondumist väheste kätte.
+reviewed: true

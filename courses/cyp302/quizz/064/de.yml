@@ -1,0 +1,9 @@
+question: Was gewährleistet ein Message Authentication Code (MAC) in einem kryptografischen Schema?
+answer: Die Integrität und Authentizität der Nachricht
+wrong_answers:
+  - Die Vertraulichkeit der Nachricht
+  - Die Kompression der Nachricht
+  - Die Umwandlung der Nachricht in Binärformat
+explanation: |
+  Ein Message Authentication Code (MAC) wird verwendet, um sicherzustellen, dass die Nachricht nicht verändert wurde und dass sie tatsächlich vom angenommenen Absender stammt.
+reviewed: false

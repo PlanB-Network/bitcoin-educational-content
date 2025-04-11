@@ -20,9 +20,11 @@ Aloittaaksesi tämän seikkailun, olen luonut tämän ilmaisen kurssin. Vain Bit
 +++
 
 # Johdanto ja edellytykset Bitcoinin ymmärtämiseksi
+
 <partId>008c49b7-5e17-5973-87f2-ba28429b2697</partId>
 
-## BTC102-kurssin esittely
+## Kurssin yleiskatsaus
+
 <chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 
 Tervetuloa BTC 102 -kurssille! Käytännöllinen kurssi, joka opastaa sinut Bitcoin-suunnitelmasi luomisessa! Tämän kurssin aikana valmistaudumme hankkimaan ensimmäiset bitcoinisi, turvaamaan ne asianmukaisesti ja varmistamaan sujuvan siirtymisen tähän uuteen teollisuudenalaan.
@@ -44,9 +46,11 @@ Kuten näet, tämän koulutuksen tarkoitus on saattaa sinut kiinni teollisuutemm
 Onnea matkaan :)
 
 ## Huijaukset ja taloudelliset petokset
+
 <chapterId>8af2948b-2ab5-54c4-862c-3414b8a285a2</chapterId>
 
 Olemme teollisuudenalalla, jossa "kryptovaluutta"-sektorilla on nousemassa kaksi päähaaraa:
+
 1. Bitcoin-teollisuus keskittyy luomaan äänivaluutan hajautetun arvonsiirto-protokollan (Bitcoin) kautta. Se arvostaa yksityisyyttä ja yksilön suvereniteettia ja rakentaa vähitellen pitkäaikaisia projekteja, joilla on korkea resilienssin ja turvallisuuden taso.
 2. Globaali kryptovaluuttateollisuus, joka suuntautuu fintechiin, "lohkoketjuun" ja muihin keskitettyihin innovaatioihin. Se kehittyy nopeasti ja pyrkii asettamaan itsensä uudeksi trendiksi.
 
@@ -146,15 +150,19 @@ On tärkeää huomata, että jokaisella on oma agendansa, myös minulla. Uskon B
 Pidä aina mielessä, että kaikki eivät välttämättä ole läpinäkyviä aikeistaan. Kyseenalaista aina jonkun toiminnan tarkoitus ja älä luota sokeasti.
 
 ## Verkkoturvallisuus
+
 <chapterId>f0873bf2-6a6f-5485-bb7a-d84be14f404d</chapterId>
 
 Kryptovaluuttahuijausten ja taloudellisten huijausten lisäksi bitcoineja menettämisen pääsyy liittyy huonoon verkkoturvallisuuden hallintaan. Usein käy niin, että ihmiset käyttävät samaa salasanaa kaikille tileilleen, unohtavat päivittää tietokoneensa ja laiminlyövät säännöllisesti datansa varmuuskopioinnin. Jos olet huolissasi näistä käytännöistä, älä huoli, on aina mahdollista parantaa verkkoturvallisuustottumuksiasi. Tässä joitakin perustoimenpiteitä, joita voit toteuttaa:
+
 - Käytä salasananhallintasovellusta (katso LastPass-opas),
 - Ota käyttöön kaksivaiheinen tunnistautuminen (2FA),
 - Pidä tietokoneesi ajan tasalla ja vapaana haittaohjelmista,
 - Arvosta yksityisyyttäsi käyttämällä omistautuneita työkaluja (Signal, Tor, ProtonMail).
 
-Jos tämä aihe on sinulle täysin tuntematon, SECU 101 -koulutus voi olla mielenkiintoinen tapa perehtyä siihen yksityiskohtaisesti.
+Jos tämä aihe on sinulle täysin tuntematon, SCU 101 -koulutus voi olla mielenkiintoinen tapa perehtyä siihen yksityiskohtaisesti.
+
+https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 On ratkaisevan tärkeää pitää tietokoneesi optimaalisessa työskentelykunnossa, olitpa kiinnostunut Bitcoinista tai et. Päivitys ei ole vain uusien ominaisuuksien lisäämistä varten: se myös korjaa bugeja ja parantaa ohjelmistosi turvallisuutta. Joten varmista, että:
 
@@ -189,6 +197,7 @@ Online-anonyymius on olennainen osa vapaata ja menestyvää yhteiskuntaa. Se mah
 Jälleen kerran, jos olet kiinnostunut tästä aiheesta, SECU 101 -koulutus on saatavilla opastamaan sinua.
 
 ## Vinkkejä Aloittelijoille
+
 <chapterId>33134b3f-92c1-5185-afb6-88599e47e801</chapterId>
 
 Formaali koulutus opettaa meille hyvin vähän sijoittamisesta. Tuloksena me usein seikkailemme yksin tässä uudessa ja monimutkaisessa sijoitusmaisemassa.
@@ -206,15 +215,15 @@ Tässä osiossa tarkastelemme joitakin yleisiä virheitä, joita aloittelevat si
 ![salasananhallintasovellus](assets/prerequis/0.webp)
 Ennen kuin sukellat Bitcoin-sijoittamiseen, on olennaista käyttää aikaa itsesi kouluttamiseen. Bitcoin-alalla on helppo tehdä virheitä, ja jokainen virhe voi olla kallis. Jakamalla joitakin kompastuskiviä, joita olen kohdannut sijoitusmatkallani, sekä niitä, joita olen havainnut muissa, toivon tarjoavani arvokkaita neuvoja tässä tilassa navigointiin. Jotkut näistä virheistä sisältävät:
 
-| Tekniset Ongelmat                                      | Taloudelliset Ongelmat                                         |
-| ------------------------------------------------------ | -------------------------------------------------------------- |
-| Yksityisen avaimen menetys                             | Ylisijoittaminen                                               |
-| Omaisuutesi säilytyksen uskominen kolmannelle osapuolelle | Taloudellisen koulutuksen puute                               |
-| Yksityisyyden puute                                    | Sijoittaminen lainatulla rahalla                              |
-| Verkkoturvallisuusongelmat                             | Kaupankäynnin ja sijoittamisen eron ymmärtämättömyys          |
-| Käsittelyn virheet                                     | Veroseuraamusten huomiotta jättäminen                         |
-| Tietokoneongelmat                                      | Sijoitusaikataulujen huomiotta jättäminen                     |
-| BTC:n menetys hakkeroinnin seurauksena                 | Talouspetoksiin ja huijauksiin lankeaminen                    |
+| Tekniset Ongelmat                                         | Taloudelliset Ongelmat                               |
+| --------------------------------------------------------- | ---------------------------------------------------- |
+| Yksityisen avaimen menetys                                | Ylisijoittaminen                                     |
+| Omaisuutesi säilytyksen uskominen kolmannelle osapuolelle | Taloudellisen koulutuksen puute                      |
+| Yksityisyyden puute                                       | Sijoittaminen lainatulla rahalla                     |
+| Verkkoturvallisuusongelmat                                | Kaupankäynnin ja sijoittamisen eron ymmärtämättömyys |
+| Käsittelyn virheet                                        | Veroseuraamusten huomiotta jättäminen                |
+| Tietokoneongelmat                                         | Sijoitusaikataulujen huomiotta jättäminen            |
+| BTC:n menetys hakkeroinnin seurauksena                    | Talouspetoksiin ja huijauksiin lankeaminen           |
 
 Koulutustasosta tai taustasta riippumatta kuka tahansa voi ymmärtää ja käyttää Bitcoinia. Sinun ei tarvitse olla kokemusta rahoituksesta tai koodaamisesta. Kuten 90% ihmisistä, voit yksinkertaisesti käyttää Bitcoinia suoraviivaisella tavalla.
 
@@ -239,16 +248,16 @@ Kuten minkä tahansa sijoituksen kohdalla, sinun on tunnettava markkinasi. Bitco
 Kun tulet mukavammaksi Bitcoinin kanssa, voit tarkistella toimintasuunnitelmaasi. Samoin, jos olet uusi tässä maailmassa, on tärkeää ymmärtää erot kaupankäynnin, pitkäaikaisen sijoittamisen ja monien Bitcoin-käyttäjien käyttämän erittäin, erittäin pitkäaikaisen strategian, jota kutsutaan "holdaamiseksi", välillä.
 Yleisesti:
 
-|                   | Kaupankäynti | Sijoittaminen    | Holdaaminen    |
-| ----------------- | ------------ | ---------------- | -------------- |
-| Vipuvaikutus      | Kyllä        | Ei               | Ei             |
-| Aikajänne         | Lyhyt        | Lyhyt/keskipitkä | Erittäin pitkä |
-| Omaisuuden tyyppi | Sopimus      | BTC              | BTC            |
-| Riski             | Erittäin korkea | Korkea         | Korkea         |
-| Vaikeusaste       | Erittäin vaikea | Vaikea         | Vaikea         |
-| Oppimiskäyrä      | Pitkä        | Pitkä            | Pitkä          |
-| Mahdolliset tappiot | Rajattomat | Rajalliset      | Rajalliset     |
-| Sopii paremmin    | Joillekin    | Useimmille       | Joillekin      |
+|                     | Kaupankäynti    | Sijoittaminen    | Holdaaminen    |
+| ------------------- | --------------- | ---------------- | -------------- |
+| Vipuvaikutus        | Kyllä           | Ei               | Ei             |
+| Aikajänne           | Lyhyt           | Lyhyt/keskipitkä | Erittäin pitkä |
+| Omaisuuden tyyppi   | Sopimus         | BTC              | BTC            |
+| Riski               | Erittäin korkea | Korkea           | Korkea         |
+| Vaikeusaste         | Erittäin vaikea | Vaikea           | Vaikea         |
+| Oppimiskäyrä        | Pitkä           | Pitkä            | Pitkä          |
+| Mahdolliset tappiot | Rajattomat      | Rajalliset       | Rajalliset     |
+| Sopii paremmin      | Joillekin       | Useimmille       | Joillekin      |
 
 Ja tässä suositukseni:
 
@@ -277,9 +286,11 @@ Jos menetät avaimen, menetät myös rahasi. On parasta noudattaa alan parhaita 
 Onnea matkaan! Toivon, että seuraat minua Bitcoinin maailmaan ja annan sinulle opastusta ensimmäisten Bitcoiniesi hankkimisessa ja turvaamisessa ottamatta riskejä!
 
 # Ymmärtäen mihin ryhdymme
+
 <partId>a42355a3-9dd8-57ed-b590-32a333fe09ea</partId>
 
 ## Bitcoin viidessä minuutissa
+
 <chapterId>ae122ad9-9b4d-5229-9038-e1b99d5cfc83</chapterId>
 
 Tässä kurssissa haluamme keskittyä toimintasuunnitelmaan ensimmäisten bitcoiniesi hankkimiseksi. Jos haluat perusteellisen selityksen Bitcoinin perusteista, suosittelemme BTC 101 -kurssia, joka on saatavilla ilmaiseksi tällä alustalla.
@@ -309,6 +320,7 @@ Jos tämä on sinulle uutta, suosittelen vahvasti, että tutustut BTC 101:een en
 ![tiivistetysti](assets/section2/10.webp)
 
 ## Miksi Bitcoin on tärkeä?
+
 <chapterId>d4327ac4-9ff8-5192-b542-cb78c0bd0aa7</chapterId>
 
 Miksi Bitcoinin merkitys on niin kriittinen? Tämä on tämän yliopiston keskeinen kysymys. Olipa kyseessä sitten opintosi tai sijoitusstrategiasi, ilman selkeää ymmärrystä Bitcoinin merkityksestä, saatat poiketa toimintasuunnitelmastasi. Tavoitteena on siis aina pitää mielessä Bitcoinin perusteet, jotta strategiasi pysyy linjassa vakaumuksiesi kanssa.
@@ -340,6 +352,7 @@ Bitcoin tarjoaa jokaiselle mahdollisuuden poistua tästä järjestelmästä. Se 
 
 ![tiivistetysti](assets/section2/3.webp)
 Maailmanlaajuisesti pahenevat varallisuuserot ovat johtaneet ääriliikkeiden nousuun, mikä on joskus johtanut diktatuuristen hallintojen perustamiseen. Kuka tahansa oletkin, saattaa tulla päivä, jolloin tarvitset yksityisyyttä suojellaksesi perhettäsi, itseäsi ja säästöjäsi. Mihin voisit piilottaa varasi, jos olisit poliittisesti uhattuna?
+
 - Pankkitilisi voidaan jäädyttää, takavarikoida tai tyhjentää.
 - Kulta on vaikea jakaa, monimutkainen kuljettaa ja käyttää.
 - Käteinen on kömpelöä, helppo varastaa ja altis inflaatiolle.
@@ -378,6 +391,7 @@ Bitcoinin pääpuolestapuhujat ovat tänä päivänä edelleen pääasiassa kybe
 Bitcoinilla on voimakas filosofinen, eettinen ja poliittinen ulottuvuus, samalla kun se on täysin välinpitämätön näille pohdinnoille. Todellisuudessa Bitcoin on yksinkertainen protokolla, joka toistaa samaa prosessia yhä uudelleen. Sen käyttäjät ovat muuttaneet sen vapautuksen aseeksi nykyistä rahoitusjärjestelmää vastaan. Kyberpunk-näkökulmasta Bitcoin vastustaa käteisettömää yhteiskuntaa. Se mahdollistaa täysin yksityisten ja välittäjättömien digitaalisten rahoitustransaktioiden luomisen. Kyberpunk-liikkeelle Bitcoin on käteisen sähköinen vastine.
 
 ## Bitcoin-teollisuuden ymmärtäminen
+
 <chapterId>e106c6f1-d75b-5a62-b245-0ea2e4d02ef8</chapterId>
 
 Bitcoinin saapuessa vuonna 2009 Satoshi Nakamoton toimesta, syntyi monimiljardien dollareiden teollisuudenala. Huolimatta nuoruudestaan, tämä teollisuudenala on kokenut eksponentiaalista kasvua viimeisen vuosikymmenen aikana. Uudet toimijat saapuvat joka päivä suurine rahasummineen ja ovat valmiita voimakkaasti astumaan tähän uuteen teollisuudenalaan. Tänään teollisuus on saavuttanut paluupisteen, jossa hallitukset, pankit, internet-jätit ja muut ovat liittyneet liikkeeseen erilaisin interventioin.
@@ -391,16 +405,16 @@ Tässä osiossa tarkastelemme lyhyesti toimijoita paremmin ymmärtääksemme, mi
 Kuka tahansa voi suunnitella oman kryptovaluuttansa - tehtävä, joka vie vain muutaman minuutin. Kuitenkin tämän tokenin arvo määräytyy yksinomaan markkinoiden mukaan. Joulukuussa 2019 Coinmarketcapissa oli listattuna yli 5000 tokenia. Tänään, vuonna 2023, tämä luku on kasvanut yli 23 000:een, mukaan lukien NFT:t, DeFi ja monet muut asiat. Nämä kryptografiset tokenit voivat ottaa eri muotoja: valuutta, turvallisuustoken, ekosysteemin polttoaine, sivuketju, digitaalinen taide jne.
 On tärkeää ymmärtää, että 99,8 % näistä uusista "kryptovaluutoista" on huijauksia, jotka markkinoijat ovat perustaneet varastaakseen bitcoinejasi. Kuitenkin harvinaisen 0,2 % vakavien projektien joukossa tehdään merkittävää työtä edistääkseen, kokeillakseen ja kehittääkseen innovatiivisia teknologioita, jotka voivat tuoda monia etuja käyttäjille. Ajan myötä sektori paranee, antaen tilaa laillisille yrityksille, jotka tarjoavat todellisia tuotteita. Kysymys siitä, tapahtuuko tämä Bitcoinin ulkopuolisilla lohkoketjuilla, pysyy avoimena. Tällä hetkellä yksi asia on varma: Bitcoin on ainoa todella hajautettu, sensuroimaton, vapaa ja vakava kryptovaluutta, joka oikeuttaa tuhansien tuntien työn.
 
-| Ominaisuus         | Bitcoin                  | Alt-Coin (99,9% niistä) |
-| ------------------ | ------------------------ | ----------------------- |
-| Likviditeetti      | Korkea                   | Matala                  |
-| Käyttöönotto (oikea)| Korkea ja globaali       | Matala                  |
-| Tiimi              | Vankka ja hajautettu     | Heikko ja keskitetty    |
-| Mainetta           | Korkea ja globaali       | Matala                  |
-| Infrastruktuuri    | Vankka ja vakaa          | Heikko                  |
-| Hajautus           | Kyllä                    | Ei                      |
-| Huijaus?           | Ei                       | Todennäköisesti         |
-| Arvo?              | Kyllä                    | Kiistanalainen          |
+| Ominaisuus           | Bitcoin              | Alt-Coin (99,9% niistä) |
+| -------------------- | -------------------- | ----------------------- |
+| Likviditeetti        | Korkea               | Matala                  |
+| Käyttöönotto (oikea) | Korkea ja globaali   | Matala                  |
+| Tiimi                | Vankka ja hajautettu | Heikko ja keskitetty    |
+| Mainetta             | Korkea ja globaali   | Matala                  |
+| Infrastruktuuri      | Vankka ja vakaa      | Heikko                  |
+| Hajautus             | Kyllä                | Ei                      |
+| Huijaus?             | Ei                   | Todennäköisesti         |
+| Arvo?                | Kyllä                | Kiistanalainen          |
 
 Älä lankea lauseisiin kuten:
 
@@ -415,13 +429,13 @@ On olennaista tehdä oma tutkimus, jos päätät syventyä alt-coinien maailmaan
 
 ICO-kuplan jälkeen 2017 monet suuret toimijat alkoivat kehittää omia tietokantojaan käyttäen "lohkoketjua". Hallitukset ja keskuspankit tutkivat mahdollisuutta luoda digitaalinen versio fiat-valuutastaan (Ruotsi, Eurooppa, Venäjä, Kiina jne.). Myös teknologiajätit liittyvät tähän kilpaan. Facebook on käynnistänyt oman stablecoin-projektinsa nimeltä "Libra". Pankit, yritykset ja muut teknologiajätit kokeilevat "lohkoketjun" vaihtoehtoja ratkaisuilla, kuten Linux tai IBM "Hyperledger".
 
-| Ominaisuus            | Bitcoin | Alt-coin | Facebook-coin | Fed-coin |
-| --------------------- | ------- | -------- | ------------- | -------- |
-| Julkinen              | Kyllä   | Vaihtelee| Ei            | Ei       |
-| Avoin                 | Kyllä   | Vaihtelee| Ei            | Ei       |
-| Rajaton               | Kyllä   | Vaihtelee| Ei            | Ei       |
-| Neutraali             | Kyllä   | Vaihtelee| Ei            | Ei       |
-| Sensuurin vastainen   | Kyllä   | Vaihtelee| Ei            | Ei       |
+| Ominaisuus          | Bitcoin | Alt-coin  | Facebook-coin | Fed-coin |
+| ------------------- | ------- | --------- | ------------- | -------- |
+| Julkinen            | Kyllä   | Vaihtelee | Ei            | Ei       |
+| Avoin               | Kyllä   | Vaihtelee | Ei            | Ei       |
+| Rajaton             | Kyllä   | Vaihtelee | Ei            | Ei       |
+| Neutraali           | Kyllä   | Vaihtelee | Ei            | Ei       |
+| Sensuurin vastainen | Kyllä   | Vaihtelee | Ei            | Ei       |
 
 Vaikka ne väittävät kilpailevansa Bitcoinin kanssa, nämä projektit pysyvät keskitettyinä varmistaakseen kontrollin ja noudattaakseen paikallisia säännöksiä. Ne eivät tarjoa yksityisyydensuojaa, vaan pikemminkin lisäävät massavalvontaa. Facebookin "Libra"-projekti asettui kilpailemaan pankkien, ei Bitcoinin kanssa. Lisäksi ilman työn todistusta "lohkoketjulla" ei ole todellista arvoa. On huomattava, että Libra on sittemmin hylätty, eikä tällä hetkellä ole käytössä yhtään todellista yksityistä lohkoketjuprojektia globaalisti, toisin kuin Bitcoin.
 
@@ -500,6 +514,7 @@ Rajoittamaton valta? Ei. Ydinkoodin kehittäjillä ei ole rajatonta valtaa eivä
 ![blockchain](assets/industrie/5.webp)
 
 ## Bitcoinin kerroksellinen arkkitehtuuri
+
 <chapterId>03017765-53cf-5f14-9682-e99ca02d2241</chapterId>
 
 Bitcoin, avoimen lähdekoodin protokollana, voidaan täydentää ja rikastuttaa kenen tahansa lisäämillä protokolla-/sovelluskerroksilla. Jotkut näistä ominaisuuksista ovat merkittävämpiä kuin toiset, luoden dynaamisen ekosysteemin, jossa lukuisat yritykset osallistuvat infrastruktuurin kehittämiseen. Esimerkkejä tällaisista projekteista ovat sivuketjut (esim. Liquid Chain by Blockstream), Lightning Network by Lightning Labs ja identiteettikonseptit (esim. Microsoft ION). Nämä projektit ovat kuin lisäkerroksia alkuperäiseen Bitcoin-protokollaan.
@@ -533,9 +548,11 @@ Tämä on tulevaisuuden näkemykseni Bitcoinista. Siitä tulee valtatie internet
 Andreas Antonopoulos, jos en erehdy, esitteli minulle tämän idean. @aantonop
 
 # Suunnitelmasi laatiminen
+
 <partId>3801faf6-7915-56fa-baf5-ee63ad03b7cf</partId>
 
 ## Profiilisi valitseminen
+
 <chapterId>c5d87903-a5f2-5eec-887a-f662734ce49b</chapterId>
 
 Nyt kun olemme käyneet läpi perusasiat ja oppineet välttämään huijauksia ja taloudellisia tappioita, voimme kehittää suunnitelman. Suunnitelma on aluksi melko yksinkertainen, mutta on tärkeää aloittaa. Voit aina muokata sitä ajan myötä.
@@ -561,7 +578,9 @@ Yleisesti ottaen:
 
 Tämän avulla löydät sopivan vaihtoehdon, valitset sopivan suunnitelman ja seuraat sitten oikeaa opasta seuraavassa osiossa.
 **Muistutus:** Jos sinulla ei ole yksityistä avainta (24 sanan lista), kolmas osapuoli vastaa bitcoiniesi turvallisuudesta. Toisin sanoen, et enää omista bitcoinejasi. Ne ovat alttiina samoille riskeille kuin vaihtoalustat, kuten hakkerointi, takavarikointi, sääntely tai konkurssi.
+
 ## Hodler
+
 <chapterId>baf1adc2-3828-5265-8ee5-130be547585c</chapterId>
 
 Olipa kyse sijoituksista tai Bitcoinista, pitkäaikainen holdaus on yleensä normi. Tilastollisesti se on pitkällä aikavälillä tuottoisin ja yksinkertaisin toteuttaa:
@@ -585,16 +604,21 @@ Tällaiselle profiilille on suositeltavaa aloittaa kylmällä lompakolla, kuten 
 
 Aiheeseen liittyvä lompakko-opas:
 
-- [Ledger](https://planb.network/tutorials/wallet/ledger)
-- [bitbox02](https://planb.network/tutorials/wallet/bitbox02)
-- [Cold card](https://planb.network/tutorials/wallet/coldcard)
-- [Trezor](https://planb.network/tutorials/wallet/trezor)
+https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+
+https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+
+https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
+
+https://planb.network/tutorials/wallet/hardware/trezor-441fa7a1-4aac-4b6a-984f-3dd428ba0c84
 
 Vaihtoehdot vaihtoon:
 
-- [bitstamp](https://planb.network/tutorials/exchange/bitstamp)
-- [bifinex](https://planb.network/tutorials/exchange/bitfinex)
-- [kraken](https://planb.network/tutorials/exchange/kraken)
+https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
+
+https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+
+https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
 Jos hodler haluaa mennä pidemmälle: toteuttaa DCA-suunnitelman kuten stacker ja käyttää hot LN-lompakkoa joidenkin bitcoinien käyttämiseen.
 
@@ -615,10 +639,11 @@ Tässä on lyhyt psykologinen profiili Hodlerista, jos tunnistat itsesi, se saat
   Hinnan laskiessa ja markkinoiden volatiliteetin vallitessa hodler pysyy sietokykyisenä, säilyttäen uskonsa sijoitukseensa ja Bitcoinin tulevaan kasvuun.
 
 - Usko teknologiaan:
-Pelkän voiton tavoittelun sijaan hodler usein uskoo lohkoketjuteknologiaan ja Bitcoinin kykyyn tuoda positiivista muutosta maailmaan.
-Yhteenvetona, hodler on kärsivällinen, kurinalainen ja visioiva sijoittaja, joka vakaasti uskoo Bitcoinin pitkän aikavälin arvoon ja on valmis kestämään lyhyen aikavälin volatiliteettia saavuttaakseen merkittäviä voittoja tulevaisuudessa. He ovat menetelmällisiä sijoitusstrategiassaan ja kiinnittävät huomiota turvallisuuteen ja pitkän aikavälin suunnitteluun.
+  Pelkän voiton tavoittelun sijaan hodler usein uskoo lohkoketjuteknologiaan ja Bitcoinin kykyyn tuoda positiivista muutosta maailmaan.
+  Yhteenvetona, hodler on kärsivällinen, kurinalainen ja visioiva sijoittaja, joka vakaasti uskoo Bitcoinin pitkän aikavälin arvoon ja on valmis kestämään lyhyen aikavälin volatiliteettia saavuttaakseen merkittäviä voittoja tulevaisuudessa. He ovat menetelmällisiä sijoitusstrategiassaan ja kiinnittävät huomiota turvallisuuteen ja pitkän aikavälin suunnitteluun.
 
 ## Stacker
+
 <chapterId>0daf450d-1b91-5d99-9c31-b52ab52a5e21</chapterId>
 
 Bitcoinissa "Stacker"-käsite on melko tunnettu. Ajatus on yksinkertainen: bitcoineja on vain 21 miljoonaa, ja jokainen pieni bitcoin on tärkeä! Tätä pientä bitcoinia kutsutaan itse asiassa satoshiksi (tai SAT). Stackerin tavoitteena on kerätä niitä mahdollisimman paljon.
@@ -639,21 +664,27 @@ Muita ratkaisuja voivat olla esimerkiksi tavaroiden tai palveluiden myyminen Bit
 
 Hot wallet nopeaa kerryttämistä varten
 
-- [Blue Wallet](https://planb.network/tutorials/wallet/blue-wallet)
-- [Green Wallet](https://planb.network/tutorials/wallet/green-wallet)
-- [Phoenix](https://planb.network/tutorials/wallet/phoenix)
+https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+
+https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+
+https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 Cold wallet pitkäaikaiseen turvallisuuteen
 
-- [Ledger](https://planb.network/tutorials/wallet/ledger)
-- [bitbox02](https://planb.network/tutorials/wallet/bitbox02)
-- [Cold card](https://planb.network/tutorials/wallet/coldcard)
-- [Trezor](https://planb.network/tutorials/wallet/trezor)
+https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+
+https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+
+https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
+
+https://planb.network/tutorials/wallet/hardware/trezor-441fa7a1-4aac-4b6a-984f-3dd428ba0c84
 
 DCA-alusta Bitcoinin kerryttämiseen.
 
-- [Relai](https://planb.network/tutorials/exchange/relai)
-- [Bull Bitcoin](https://planb.network/tutorials/exchange/bull-bitcoin)
+https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+
+https://planb.network/tutorials/exchange/centralized/bull-bitcoin-60a58596-e54c-41ba-855d-f9edb76cfb0e
 
 Tämäntyyppinen profiili voi tietenkin myös käyttää välittäjää tekemään suuren ostoksen kerralla kuten hodler, mutta yleensä stacking on säännöllisesti satsien lisäämisen konsepti lompakkoon. Yleisempi lähestymistapa olisi oppia käyttämään Bitcoinia vertaisverkkotavalla ja siten ostaa Bitcoinia suoraan käteisellä ystäviltä tai Bitcoin-yhteisön jäseniltä.
 
@@ -668,7 +699,7 @@ Stackerin psykologinen muotokuva
   Heidän päätavoitteensa on selvä: kerryttää mahdollisimman paljon satosheja. Tämä keskittyminen ohjaa heidän toimintaansa ja sijoituspäätöksiään riippumatta siitä, nouseeko hinta pilviin tai romahtaako se.
 
 - Taloudellinen tietämys:
-Ymmärtävät hajauttamisen ja säännöllisen sijoittamisen tärkeyden, vähentäen siten riskiä ja optimoiden mahdolliset tuotot. Tämä saavutetaan hintakeskiarvon kautta, jolloin lyhyen aikavälin hintaliikkeet eivät kiinnosta.
+  Ymmärtävät hajauttamisen ja säännöllisen sijoittamisen tärkeyden, vähentäen siten riskiä ja optimoiden mahdolliset tuotot. Tämä saavutetaan hintakeskiarvon kautta, jolloin lyhyen aikavälin hintaliikkeet eivät kiinnosta.
 
 - Proaktiivinen:
   Etsii aktiivisesti lisämahdollisuuksia ansaita Bitcoineja, olipa kyseessä sitten tavaroiden tai palveluiden myynti tai muiden mahdollisuuksien tutkiminen Bitcoin-ekosysteemissä.
@@ -676,6 +707,7 @@ Ymmärtävät hajauttamisen ja säännöllisen sijoittamisen tärkeyden, vähent
 Stacker on menetelmällinen ja keskittynyt henkilö, jolla on selvä suunnitelma satoshien kerryttämisen maksimoimiseksi. He osoittavat proaktiivisuutta ja taloudellista tietämystä, jatkuvasti etsien tapoja optimoida ja turvata Bitcoin-sijoituksensa. Heidän lähestymistapansa on luonteeltaan johdonmukaista ja virheetöntä järjestelyä, mikä asettaa heidät vakaan ja jatkuvan Bitcoin-portfolionsa kasvun tielle.
 
 ## Käyttäjä
+
 <chapterId>e0a022ab-207c-571f-b4ad-c432214a756c</chapterId>
 
 Lopuksi viimeisenä Bitcoin-käyttäjätyyppinä, joka voidaan mainita johdantokurssilla, on Bitcoin-käyttäjä, joka tarvitsee käyttää Bitcoinia säännöllisesti. Olipa kyse ammatillisista velvoitteista tai pelkästä halusta tukea ekosysteemiä, on tarpeen tarjota ratkaisuja usein käytettäväksi.
@@ -700,21 +732,27 @@ Bitcoinille altistumisen saavuttamiseksi tällaisella profiililla on useita vaih
 
 Kuuma Lompakko LN
 
-- [Phoenix](https://planb.network/tutorials/wallet/phoenix)
-- [Wallet of Satoshi](https://planb.network/tutorials/wallet/wallet-of-satoshi)
-- [Breez](https://planb.network/tutorials/wallet/breez)
+https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+
+https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+
+https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
 Kylmä Lompakko
 
-- [Ledger](https://planb.network/tutorials/wallet/ledger)
-- [bitbox02](https://planb.network/tutorials/wallet/bitbox02)
-- [Cold card](https://planb.network/tutorials/wallet/coldcard)
-- [Trezor](https://planb.network/tutorials/wallet/trezor)
+https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+
+https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+
+https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
+
+https://planb.network/tutorials/wallet/hardware/trezor-441fa7a1-4aac-4b6a-984f-3dd428ba0c84
 
 Ostopalvelu
 
-- [Robosats](https://planb.network/tutorials/exchange/robosats)
-- [kraken](https://planb.network/tutorials/exchange/kraken)
+https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+
+https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
 ### Onko tämä sinulle?
 
@@ -730,6 +768,7 @@ Ostopalvelu
 Käyttäjä on teknologisesti taitava henkilö, joka on aktiivisesti mukana Bitcoinin aktiivisessa käytössä. He etsivät jatkuvasti tapoja parantaa Bitcoin-transaktioidensa ja -omistustensa tehokkuutta ja turvallisuutta. Heidän joustavuutensa ja sitoutumisensa ekosysteemiin heijastuvat halukkuudessaan käyttää monenlaisia ratkaisuja, salamalompakoista nopeisiin vaihtoratkaisuihin. Vaikka he ovat aktiivisesti mukana Bitcoin-transaktioissa, he eivät laiminlyö turvallisuutta, varmistaen selvän eron päivittäiseen käyttöön tarkoitettujen bitcoinien ja pitkäaikaisesti säilytettävien välillä.
 
 ## Paranoidi Bitcoin-käyttäjä
+
 <chapterId>5c624acd-662e-5134-ab7a-fb75cde7c3f8</chapterId>
 Haluaisin lisätä tähän paranoidin Bitcoin-käyttäjän. Tämän tyyppinen henkilö ei halua altistaa itseään KYC:lle (Know Your Customer), haluaa pysyä lähellä nimettömyyttä ja pitää yksityisyyttään suuressa arvossa. Paranoiainen Bitcoin-käyttäjä käyttää myös LN:ää oman solmunsa kautta ja työskentelee turvallisuutensa parissa.
 
@@ -747,19 +786,22 @@ Sen jälkeen heidän on opittava sekoittamaan kolikoitaan, hallitsemaan UTXO:ita
 
 ### Opas:
 
-Hot wallet: 
-- [Samourai wallet](https://planb.network/tutorials/wallet/samourai)
+Hot wallet:
+https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956
 
 Cold wallet:
-- [Coldcard](https://planb.network/tutorials/wallet/coldcard) 
-- [Seed Signer](https://planb.network/tutorials/wallet/seed-signer) (DIY-lompakko)
+https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
 
-KYC-vapaa ostaminen yksityishenkilöiden välillä: 
-- [Peach](https://planb.network/tutorials/exchange/peach-wallet)
-- [Robosats](https://planb.network/tutorials/exchange/robosats)
-- [Bisq](https://planb.network/tutorials/exchange/bisq)
-- [HodlHodl](https://planb.network/tutorials/exchange/hodlhodl)
+https://planb.network/tutorials/wallet/hardware/seed-signer-ee2c284a-0e23-49a4-b0ca-4a4702072973
 
+KYC-vapaa ostaminen yksityishenkilöiden välillä:
+https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+
+https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+
+https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+
+https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
 ### Onko tämä sinua varten?
 
@@ -780,10 +822,12 @@ KYC-vapaa ostaminen yksityishenkilöiden välillä:
 
 Paranoian henkilön mielessä varovaisuus, turvallisuus ja nimettömyys ovat ensisijaisia. Nämä prioriteetit ohjaavat harkittua ja hyvin suunniteltua lähestymistapaa Bitcoinin käyttöön, edistäen omavaraisuutta ja varovaisuutta. Paranoiainen henkilö on valmis investoimaan aikaa ja vaivaa bitcoinsiensa turvallisuuden ja yksityisyyden varmistamiseen samalla taitavasti navigoiden ekosysteemissä välttääkseen tarpeetonta altistumista. Vaikka jotkut saattavat pitää sitä liiallisena varovaisuutena, paranoiainen henkilö pitää huolellisuuttaan ja yksityiskohtien huomioimista olennaisena menestyksekkääseen ja turvalliseen osallistumiseen Bitcoinin maailmassa.
 
-# Bitcoinin tulevaisuus
-<partId>98199b14-ad0f-5da7-ae99-8e5f5819f153</partId>
+# Perillisten ja omaisuuden suojaaminen
+
+<partId>0b8a9528-719b-4a2d-bd50-1e173a896570</partId>
 
 ## Perintösuunnitelman luominen
+
 <chapterId>233c88d3-2e8e-5eba-ac06-efe67a209038</chapterId>
 Kuvitellaan seuraava dramaattinen skenaario.
 Auto-onnettomuus, PAM, ja sinua ei enää ole tässä maailmassa. Katoat, jättäen perheesi ilman Bitcoin-asiantuntijaansa. He eivät tiedä, missä rahat ovat, mutta muistavat sinun jatkuvasti maininneen termejä kuten avain, sanalista ja Bitcoin-siirtojen peruuttamattomuus. He ovat järkyttyneitä, hämmentyneitä ja nyt heidän täytyy selvittää kaikki itse. Vaikka tämä tilanne saattaa tuntua kauhistuttavalta, on se todellinen mahdollisuus, jota ei voi sivuuttaa. Sinulla on sitten kaksi vaihtoehtoa: käyttää 15 minuuttia ja 1 tunti testamentin laatimiseen, tai olla tekemättä mitään. Kukaan ei tuomitse, mutta jos ihmiset ovat riippuvaisia sinusta, nuo 15 minuuttia voivat eräänä päivänä merkitä suurta eroa. Valinta on sinun.
@@ -826,7 +870,7 @@ Mitä tarvitset?
 - Kaksi kirjekuorta
 - Puhelin-/osoitekirjan
 - Tietokone (valinnainen minun mielestäni)
-![pamela morgan](assets/heritage/1.webp)
+  ![pamela morgan](assets/heritage/1.webp)
 
 Pamela Morganin mukaan teoksessa "Cryptoasset Inheritance Planning" sivulla 18, yleisiä väärinkäsityksiä ovat:
 
@@ -849,12 +893,12 @@ Aina on kompromissi teknisen asiantuntemuksen, saatavuuden ja luottamuksen väli
 
 Vastuiden erottaminen: Luotettavalla henkilöllä EI saa koskaan olla pääsyä yksityiseen avaineesi. Heidän ainoa roolinsa on auttaa läheisiäsi ymmärtämään Bitcoiniesi turvajärjestelmä ja saada luottamusta. Siksi valitset kaksi luotettua henkilöä. Tarvittaessa voit myös kääntyä kolmannen osapuolen organisaation (erikoistunut lakimies tai perinnön suunnittelupalvelut) puoleen.
 
-| Luotettu Henkilö | Luottamus | BTC Tietämys | Luottotiedot | Huomautus |
-| -------------- | ----- | ------------- | ---------- | ---- |
-| Veljeni Bob         | Erittäin korkea  | Matala               | Puhelin & sähköposti          | "Bob ei tiedä paljoa BTC:stä, mutta voimme luottaa häneen 100% avun saamiseksi." |
-| Serkkuni Nathan       | Korkea        | Keskitaso              | Puhelin & insta          | #1 henkilö, johon ottaa yhteyttä. Hän voi auttaa sinua. Hän on informoitu.                                        |
-| Ricco (Kryptoystävä)  | Keskitaso      | Erittäin korkea           | Twitter & sähköposti & kuva | Luota häneen teknisissä kysymyksissä. Ei koskaan rahassa. Sinun täytyy ottaa yhteyttä häneen.           |
-| YouTuber & vaikuttaja  | Matala       | Korkea                | YouTube-linkki           | Kouluttaudu seuraamalla häntä. Hän ei voi auttaa sinua suoraan.                               |
+| Luotettu Henkilö      | Luottamus       | BTC Tietämys    | Luottotiedot                | Huomautus                                                                                     |
+| --------------------- | --------------- | --------------- | --------------------------- | --------------------------------------------------------------------------------------------- |
+| Veljeni Bob           | Erittäin korkea | Matala          | Puhelin & sähköposti        | "Bob ei tiedä paljoa BTC:stä, mutta voimme luottaa häneen 100% avun saamiseksi."              |
+| Serkkuni Nathan       | Korkea          | Keskitaso       | Puhelin & insta             | #1 henkilö, johon ottaa yhteyttä. Hän voi auttaa sinua. Hän on informoitu.                    |
+| Ricco (Kryptoystävä)  | Keskitaso       | Erittäin korkea | Twitter & sähköposti & kuva | Luota häneen teknisissä kysymyksissä. Ei koskaan rahassa. Sinun täytyy ottaa yhteyttä häneen. |
+| YouTuber & vaikuttaja | Matala          | Korkea          | YouTube-linkki              | Kouluttaudu seuraamalla häntä. Hän ei voi auttaa sinua suoraan.                               |
 
 ### Vaihe 2: Suorita yksinkertainen ja nopea inventaario
 
@@ -866,11 +910,12 @@ On tärkeää miettiä kaikkia paikkoja, joissa sinulla on dollareita tai BTC:t�
 
 Harkitse, miten olet turvannut ne ja missä nämä varmuuskopiot on säilytetty. Tällä hetkellä ei ole välttämätöntä, että on kaksi varmuuskopiointipaikkaa. Tavoitteena on ottaa välitön tilannekuva nykyisestä turvallisuudestasi. Voimme parantaa sitä myöhemmin! Tämä on vain ensimmäinen versio varmistamaan turvallisuutesi nyt, menemme yksityiskohtiin myöhemmin.
 
-| Yleinen               | Ohjelmisto / Laitteisto | Omaisuus        | Sijainti             | Varmuuskopio (yksityinen avain)            | Salasana (PIN, salalause)     | Huomautus                                                                                                                        |
-| --------------------- | ------------------- | ------------- | --------------------- | -------------------------------- | ------------------------------ | --------------------------------------------------------------------------------------------------------------------------- |
-| Vaihtoalusta     | Bitstamp            | BTC & Käteinen    | Saatavilla verkossa.   | -                                | Koti & Pankin holvi              | Täällä ostin ja siirsin Bitcoinini. Kirjaudun sisään salasananhallintaohjelman ja 2FA:n avulla.                             |
-| Fyysinen lompakko       | Trezor malli Yksi    | BTC           | Turvallinen                | Setä Bob & Pankin holvi           | Koti & Äiti                  | Minulla on kaksi lompakkoa, yksi tavallinen ja toinen salalauseella.                                                                  |
-| Samourai-lompakko | Mobiili - One Plus 6 | BTC | Minulla | Setä Bob & Pankkiholvi | Kotona & Äiti | Sovellus voi olla piilotilassa. |
+| Yleinen           | Ohjelmisto / Laitteisto | Omaisuus       | Sijainti             | Varmuuskopio (yksityinen avain) | Salasana (PIN, salalause) | Huomautus                                                                                       |
+| ----------------- | ----------------------- | -------------- | -------------------- | ------------------------------- | ------------------------- | ----------------------------------------------------------------------------------------------- |
+| Vaihtoalusta      | Bitstamp                | BTC & Käteinen | Saatavilla verkossa. | -                               | Koti & Pankin holvi       | Täällä ostin ja siirsin Bitcoinini. Kirjaudun sisään salasananhallintaohjelman ja 2FA:n avulla. |
+| Fyysinen lompakko | Trezor malli Yksi       | BTC            | Turvallinen          | Setä Bob & Pankin holvi         | Koti & Äiti               | Minulla on kaksi lompakkoa, yksi tavallinen ja toinen salalauseella.                            |
+| Samourai-lompakko | Mobiili - One Plus 6    | BTC            | Minulla              | Setä Bob & Pankkiholvi          | Kotona & Äiti             | Sovellus voi olla piilotilassa.                                                                 |
+
 ÄLÄ HÄIRIINNY! Saatat tuntea tarvetta siirtää näitä varoja:
 
 - Parantaaksesi turvallisuuttasi?
@@ -914,6 +959,7 @@ Seuraavaksi sisällytämme "neuvonantajien osion". Tämä osa voi olla hämment�
 Tässä ovat ihmiset, jotka voivat auttaa sinua vastaamaan kysymyksiisi ja ohjaamaan sinua tässä prosessissa:
 
 (Lisää neuvonantajiesi nimet tähän, heidän yhteytensä organisaatioon (jos sovellettavissa), heidän yhteystietonsa, ja miten heidän henkilöllisyytensä tulisi varmistaa, esimerkiksi keybase, valokuvat.)
+
 - Veljeni Bob; +33 09 XX 68 18 36; Bobmybrother@gmail.com. Voit luottaa Bobiin auttamaan sinua tässä prosessissa. Vaikka hän ei ehkä ole teknisesti taitavin, hän on oikea henkilö kyseenalaistamaan asioita ja harjoittamaan varovaisuutta varmistaakseen menestyksesi turvallisesti.
 - Serkkuni Nathan; +33 09 XX 29 35; NathanDeladzcroix@Hotmail.com. Nathan tutustutti minut Bitcoiniin. Hän on erittäin teknologiatietoinen ja voi vastata useimpiin kysymyksiisi. Hänellä on myös joitakin bitcoineja ja voi opastaa sinua teknisellä puolella. Olet nähnyt hänet useita kertoja perhejuhlissa, ja olen liittänyt tähän hänen valokuvansa.
 - Ricco; @RiccoSFC Twitterissä; Ricco425@protonmail.com. Olen työskennellyt tiiviisti Riccon kanssa monen vuoden ajan. Et ole koskaan tavannut häntä, joten varmista, että puhut oikealle henkilölle kysymällä häneltä "Mikä on Cédricin koiran nimi?" Jos hän vastaa "12", se on hyvä. Ricco on erittäin ystävällinen ja asiantunteva Bitcoin-asiantuntija. Hän vastaa kaikkiin kysymyksiisi ja voit luottaa hänen arvioonsa bitcoinien turvallisuudesta. Älä epäröi ottaa häneen yhteyttä, olen tavannut hänet useita kertoja ja hän on tietoinen kaikesta sinua ja Maiaa koskevasta.
@@ -939,8 +985,8 @@ Kun mainitset varmuuskopion säilytyspaikan, käytä yleistä sijaintia, älä t
 - Käytin salasanojen hallintaohjelmaa päästäkseni siihen, ja löydät varmuuskopioni pankin holvista. Tili on myös suojattu kaksivaiheisella todennuksella, johon pääset käsiksi puhelimeni (Samsung Galaxy S8) kautta tai käyttämällä kotona säilytettyä varmuuskoodia.
 - Minulla on myös BTC:tä Trezor Model One -laitteessa. Pääsen siihen käsiksi PC:ni ja Trezor.io-verkkosivuston kautta. Varmuuskopio yksityisistä avaimista on säilytetty pankin holvissa ja setä Bobin luona. PIN-koodi on säilytetty kotona ja äitini luona. Laite itsessään on todennäköisesti turvassa toimistossani.
 - Käytän edistynyttä turvasanaa Trezor-laitteelleni. Tämän turvasanan varmuuskopio sijaitsee kotona ja äitini luona."
-Nyt lopetetaan kirje tarvittaessa joillakin oikeudellisilla tiedoilla sekä ystävällisillä sanoilla.
-"Huomioithan: Löydät kopion testamentistani, päivätty 17. huhtikuuta 2018, dokumenttikansiostani. Lakimiehelläni, Dwight Schrutella, joka toimii Pennsylvanian Scrantonissa, on myös kopio. Ole varovainen ja muista aina rakkauteni sinua kohtaan." 26.6.2023, Cedric
+  Nyt lopetetaan kirje tarvittaessa joillakin oikeudellisilla tiedoilla sekä ystävällisillä sanoilla.
+  "Huomioithan: Löydät kopion testamentistani, päivätty 17. huhtikuuta 2018, dokumenttikansiostani. Lakimiehelläni, Dwight Schrutella, joka toimii Pennsylvanian Scrantonissa, on myös kopio. Ole varovainen ja muista aina rakkauteni sinua kohtaan." 26.6.2023, Cedric
 
 Katsotaanpa nyt työtämme (Perustuen "Cryptoasset Inheritance Planning" kirjaan, jonka on kirjoittanut Pamela Morgan, sivu 44 (kääntänyt Découvre Bitcoin)):
 
@@ -949,22 +995,21 @@ Katsotaanpa nyt työtämme (Perustuen "Cryptoasset Inheritance Planning" kirjaan
 - Omaisuuserät: Varmista, että olet sisällyttänyt omaisuuseriesi luettelon.
 - Pörssit: Tarkista, että olet listannut kaikki pörssit, jotka säilyttävät varojasi.
 - Pääsy: Listaa tiedot, joita he tarvitsevat löytääkseen säilytyspaikkasi ja kaikki tarvittavat pääsykoodit.
-Jos olet tarkistanut kaikki kohdat, olet valmis viimeisiin vaiheisiin! Tee tästä kirjeestä kopio ja säilytä molemmat kopiot kirjekuoressa. Sulje se, allekirjoita sinetti ja säilytä tämä kirjekuori turvallisessa mutta saavutettavassa paikassa. Varmista, että perillisesi tietävät, että heidän on tarvittaessa haettava tämä kirjekuori. Voit vapaasti ostaa Pamelan kirjan syventyäksesi aiheeseen ja suunnitellaksesi aikaa perintösuunnitelmasi parantamiseen. Keskustele myös notaarisi kanssa, jotta voit laillisesti sisällyttää tämän suunnitelman viralliseen testamenttiisi.
+  Jos olet tarkistanut kaikki kohdat, olet valmis viimeisiin vaiheisiin! Tee tästä kirjeestä kopio ja säilytä molemmat kopiot kirjekuoressa. Sulje se, allekirjoita sinetti ja säilytä tämä kirjekuori turvallisessa mutta saavutettavassa paikassa. Varmista, että perillisesi tietävät, että heidän on tarvittaessa haettava tämä kirjekuori. Voit vapaasti ostaa Pamelan kirjan syventyäksesi aiheeseen ja suunnitellaksesi aikaa perintösuunnitelmasi parantamiseen. Keskustele myös notaarisi kanssa, jotta voit laillisesti sisällyttää tämän suunnitelman viralliseen testamenttiisi.
 
 Onnittelut! Sinulla on ensimmäinen versio perintösuunnitelmastasi, ja se on hieno alku!
 
 _Cryptoasset Inheritance Planning, Yksinkertainen opas omistajille, Pamela Morgan, ESQ. Tekijänoikeus 2018 Merkle Bloom LLC, Kaikki oikeudet pidätetään. CC-BY_ Suuri kiitos Pamela Morganille hänen arvokkaasta työstään ja siitä, että sain jakaa sen. Kiitos myös kaikille, jotka osallistuivat sen kirjoittamiseen.
 Te olette parhaita :D Myös tiimini ja oppilaani kiittävät!
 
-# Kiitokset ja jatka kaninkolon tutkimista
-<partId>2a6ec097-a3e7-5f1d-a1ec-ae2b0b199e40</partId>
-
 ## Onnittelut! OLET TOP 0,1%:SSA
+
 <chapterId>5f4cfab9-9af1-584b-a1fe-a0769a991f19</chapterId>
 
 Jos olet seurannut sisältöämme alusta asti, olet nyt todellinen 21. vuosisadan kansalainen ja yksi kokeneimmista Bitcoinin alalla! Käytät salasanojen hallintajärjestelmää ja kaksivaiheista tunnistautumista (2FA). Ymmärrät, mikä Bitcoin on ja miksi se on tärkeää. Omistat Bitcoineja ja sinulla on turvallinen tapa ostaa tai ansaita lisää. Olet säilyttänyt Bitcoinejasi "kylmässä" lompakossa ja toteuttanut asianmukaisen avainhallinnan. Olet luonut perintösuunnitelman rakkaillesi. Olet nyt turvassa ja voit rentoutua! Nauti oluesta ja ole ylpeä itsestäsi!
 
 Olen todella ylpeä siitä, että olet saavuttanut tämän vaiheen. Tarkoitan sitä vilpittömästi. Mitä seuraavaksi? Vaikka sinun pitäisi ehdottomasti nyt rentoutua ja olla ylpeä itsestäsi, matkasi Bitcoinin parissa on kaukana ohi, eikä se todellisuudessa koskaan pääty. Tässä on joitakin vaihtoehtoja seuraavaksi:
+
 1. Voit hyvin jatkaa kuten tähän asti olet tehnyt. Kerää bitcoineja hitaasti ja anna strategiasi kehittyä ajan myötä. Sinulla on jo riittävä turvallisuustaso, kaikki on paikallaan, ja olet tehnyt tarvittavat toimenpiteet itsesi ja perheesi eteen. Sinun ei tarvitse tulla kaupankäynnin asiantuntijaksi, eikä sinun tarvitse tietää paljoakaan sijoittamisesta. Sinulla on todennäköisesti työ sivussa, ja vaikka Bitcoin on jännittävä, päämääräsi oli päästä tähän vaiheeseen. Näin on suurimmalle osalle teistä, ja kunnioitan sitä. Olen erittäin iloinen, että olet päässyt näin pitkälle Bitcoinin "kaninkolossa", ja toivon, että matka on ollut nautinnollinen. Kiitos, että luotit minuun ensimmäisten bitcoiniesi turvaamisessa.
 
 2. Saatat haluta jatkaa itsesi sivistämistä Bitcoinin teknisistä, ideologisista ja filosofisista näkökohdista. Jos tunnet, että matkasi on vasta alussa, kannustan sinua jatkamaan Bitcoinin opiskelua. Opittavaa on niin paljon, että joskus on vaikea tietää, mistä aloittaa. Tässä on lista kursseista ja koulutuksista, jotka voivat seurata mukanasi:
@@ -977,12 +1022,21 @@ Olen todella ylpeä siitä, että olet saavuttanut tämän vaiheen. Tarkoitan si
 
 Joka tapauksessa kaikki kurssimme ovat ilmaisia, ja monia resursseja tai opetusohjelmia on saatavilla alustallamme saattamaan sinut matkallasi. Onnea opintoihisi!
 
+# Lopullinen osio
 
+<partId>a8425389-4a53-4b57-b9b4-36c1cab12de5</partId>
 
-## Anna meille palautetta tästä kurssista
+## Arviot & Arvosanat
+
 <chapterId>3f43175a-fb7a-5b1c-a887-7dcf615d7a3a</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Seuranta
+## Loppukoe
+
+<chapterId>f3ff8089-8f89-56a8-be8c-b60296b4d91f</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Yhteenveto
+
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
-Tämä kurssi, kuten kaikki tämän yliopiston tarjoama sisältö, on tarjottu sinulle maksutta yhteisömme toimesta. Tukemaan meitä, voit jakaa sen muiden kanssa, liittyä yliopiston jäseneksi ja jopa osallistua sen kehittämiseen GitHubin kautta. Koko tiimin puolesta, kiitos!
+<isCourseConclusion>true</isCourseConclusion>

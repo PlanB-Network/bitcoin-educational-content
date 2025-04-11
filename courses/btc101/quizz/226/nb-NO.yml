@@ -1,0 +1,10 @@
+question: Hva fungerer Lightning Network som?
+answer: Et nettverk av betalingskanaler.
+wrong_answers:
+  - Et nettverk av mining-noder.
+  - Et nettverk av blockchain-noder.
+  - Et nettverk av kryptovalutabørser.
+explanation: >-
+  Lightning Network fungerer som et nettverk av betalingskanaler, som muliggjør
+  øyeblikkelige transaksjoner med lave gebyrer for avsenderen.
+reviewed: false

@@ -1,9 +1,0 @@
-question: Co se stane, když HTLC vyprší?
-answer: Peníze jsou vráceny odesílateli.
-wrong_answers:
-  - Peníze jsou převedeny příjemci.
-  - Peníze jsou ztraceny.
-  - Peníze jsou převedeny třetí straně.
-explanation: |
-  Pokud příjemce neodhalí tajemství během určitého časového období, HTLC vyprší a peníze jsou vráceny odesílateli.
-reviewed: false

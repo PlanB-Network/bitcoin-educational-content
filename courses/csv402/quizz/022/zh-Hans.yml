@@ -1,0 +1,9 @@
+question: 哪种 RGB 合约操作可以在不关闭封印的情况下创建新状态？
+answer: 州推广
+wrong_answers:
+  - 状态转换
+  - 创世纪
+  - 价位激活
+explanation: |
+  国家扩展允许您创建新的国家或权利（Valencies），而无需立即关闭封印。
+reviewed: false

@@ -1,8 +1,0 @@
-question: BitcoinアドレスのHRP（Human Readable Part）とは何ですか？
-answer: それはBCHプログラムに必要な入力情報の一部です。
-wrong_answers:
-  - それは公開鍵のハッシュです。
-  - それはアドレスのチェックサムです。
-  - それはアドレスに関連付けられた秘密鍵です。
-explanation: |
-  BCHプログラムでは、HRP（Human Readable Part）を含む複数の入力情報が必要で、これはBitcoinアドレスを構築する過程の一部です。

@@ -1,0 +1,9 @@
+question: ¿Cómo allana RGB el camino a la capa 2 de DEX?
+answer: Al permitir el intercambio de activos fuera de la cadena a través de canales Lightning y swaps atómicos
+wrong_answers:
+  - Al permitir el uso de una bolsa centralizada para todas las transacciones RGB
+  - Al permitir el intercambio de activos a través de contratos inteligentes en cadena
+  - Al permitir el intercambio de activos entre cadenas de bloques mediante swaps atómicos
+explanation: |
+  La posibilidad de realizar swaps e intercambios atómicos a través de canales Lightning ofrece la posibilidad de crear DEX descentralizadas, sin las desventajas de los intercambios en cadena.
+reviewed: false

@@ -1,0 +1,10 @@
+question: Mis on Wei Dai b-money?
+answer: Idee anonüümsest digitaalrahast, kus pettuse tuvastamisega tegeles hindajate kogukond, mitte keskne autoriteet.
+wrong_answers:
+  - Digitaalne valuuta, mida kasutati laialdaselt enne Bitcoini.
+  - Digitaalse raha vorm, mille lõi CIA.
+  - Digitaalne valuuta, mille lõi Wei Dai kui konkurendi Bitcoinile.
+explanation: |
+  Wei Dai b-money oli anonüümse digitaalraha idee ilma keskse üksuseta,
+  mis mõjutas suuresti Bitcoini, kuna see on viidatud Bitcoini valge raamatu (whitepaper) sees.
+reviewed: true

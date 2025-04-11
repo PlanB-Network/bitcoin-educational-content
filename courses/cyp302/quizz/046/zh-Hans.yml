@@ -1,0 +1,8 @@
+question: 用于计算小于N的与N互质的整数数量的函数是哪一个？
+answer: 欧拉Phi函数
+wrong_answers:
+  - 欧拉Gamma函数
+  - 欧拉Sigma函数
+  - 狄利克雷Beta函数
+explanation:
+  欧拉Phi函数用于确定小于N的与N互质的整数数量，这是基于素数的密码学定理中的一个核心概念。

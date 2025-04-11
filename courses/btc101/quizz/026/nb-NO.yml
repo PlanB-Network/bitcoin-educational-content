@@ -1,0 +1,11 @@
+question: Hvorfor kan ikke gull holde tritt i en globalisert og digital verden?
+answer: Det trenger en sentral enhet for å gjøre det delelig og lett utbyttbart
+wrong_answers:
+  - Det er ikke verdifullt nok
+  - Det er ikke sjeldent nok
+  - Det eroderer over tid
+explanation: |
+  Gull kan ikke holde tritt i en globalisert og digital verden fordi det trenger
+  en sentral enhet for å gjøre det delelig og lett utbyttbart. Dette gjør det mindre
+  praktisk for bruk i en verden hvor transaksjoner i økende grad er digitale og desentraliserte.
+reviewed: true

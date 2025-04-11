@@ -1,0 +1,9 @@
+question: What does estimating the hash rate of a cooperative member through partial proof of work involve?
+answer: Retrieving lower-degree work proofs than the network difficulty produced by the hasher
+wrong_answers:
+  - Retrieving the imprint of a stamp including the first byte of each block hash produced by the hasher
+  - Retrieving the hasher's electricity bill every month
+  - Retrieving work proofs produced on a network of lower difficulty, like BitDNS
+explanation: |
+  This simple method was proposed by ribuck, Nils Schneider, and Gavin Andresen [on the forum](https: //bitcointalk.org/index.php?topic=1458.msg16951#msg16951) on October 14, 2010. ()
+reviewed: false

@@ -1,0 +1,9 @@
+question: Millised on sageli tehingutasud Lightning Network'is väiksemad kui?
+answer: 0,5%
+wrong_answers:
+  - 1%
+  - 2%
+  - 3%
+explanation: >-
+  Lightning Network'i tehingutasud on äärmiselt madalad, sageli alla 0,5%.
+reviewed: false

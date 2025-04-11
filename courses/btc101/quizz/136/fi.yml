@@ -1,9 +1,10 @@
-question: Miten Bitcoin-verkko varmistaa, että sen sisäisessä protokollassa pahantahtoisesti toimiminen on liian kallista?
+question: Kuinka Bitcoin-verkko varmistaa, että sen protokollan sisällä pahantahtoisesti toimiminen on liian kallista?
 answer: Protokollasääntöjen ja taloudellisten kannustimien kautta.
 wrong_answers:
   - Tiukan sääntelyn ja valvonnan kautta.
   - Käyttämällä edistyneitä turvatoimia.
-  - Oikeustoimien uhkan kautta.
+  - Uhkaamalla oikeustoimilla.
 explanation: >-
-  Bitcoin-verkko varmistaa, että sen sisäisessä protokollassa pahantahtoisesti toimiminen on liian kallista protokollasääntöjen ja taloudellisten kannustimien kautta. Tämä poistaa tarpeen luottamukselle missään bitcoinien omistuksensiirron vaiheessa.
-reviewed: false
+  Bitcoin-verkko varmistaa, että sen protokollan sisällä pahantahtoisesti toimiminen on liian kallista protokollasääntöjen ja taloudellisten kannustimien kautta. Tämä
+  poistaa tarpeen luottamukselle missään bitcoinin omistuksen siirron vaiheessa.
+reviewed: true

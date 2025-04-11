@@ -1,0 +1,9 @@
+question: Mitu bitti on kontrollsumma 128-bitise entroopia jaoks?
+answer: 4 bitti
+wrong_answers:
+  - 8 bitti
+  - 16 bitti
+  - 6 bitti
+explanation: |
+  Kontrollsumma pikkus arvutatakse valemiga CS = ENT / 32, mis võrdub 4 bitiga 128-bitise entroopia jaoks.
+reviewed: false

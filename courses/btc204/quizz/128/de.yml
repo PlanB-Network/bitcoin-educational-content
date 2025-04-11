@@ -1,0 +1,13 @@
+question: Was ist der Nutzen eines Smart Contracts bei einem geheimen Immobilientausch?
+
+answer: Gleichzeitig und systematisch Informationen offenlegen, die es beiden Parteien ermöglichen, die Gelder der jeweils anderen Partei abzurufen.
+
+wrong_answers:
+  - Die Vertraulichkeit sicherstellen, indem die Informationen über die Immobilie verschlüsselt werden, sodass nur der legitime Empfänger sie entschlüsseln kann.
+  - Den Übertragungsprozess automatisieren, um menschliche Interaktionen zu minimieren und Fehler zu reduzieren.
+  - Die Streitbeilegung erleichtern, indem die Bitcoins beider Parteien im Falle von Betrugsversuchen gehalten werden.
+
+explanation: |
+  Um Austausche zwischen Parteien zu ermöglichen, die einander nicht vertrauen, werden Smart-Contract-Systeme verwendet. Ein Smart Contract ist ein Programm, das automatisch ausgeführt wird, wenn vordefinierte Bedingungen erfüllt sind, was in unserem Fall sicherstellt, dass der Immobilientausch automatisch durchgeführt wird, ohne dass gegenseitiges Vertrauen erforderlich ist. Der Smart Contract ermöglicht die gleichzeitige Offenlegung von zwei sensiblen Informationen zwischen den Teilnehmern. Entweder er wird normal ausgeführt, und jede Partei erhält die Gelder der anderen Partei, oder er scheitert, und jeder behält seine ursprünglichen Gelder.
+
+reviewed: false

@@ -1,0 +1,9 @@
+question: Kuka keksi perustaa testiverkon välttääkseen Bitcoin-pääverkon vahingoittamisen?
+answer: Gavin Andresen
+wrong_answers:
+  - Satoshi Nakamoto
+  - Martti Malmi
+  - Laszlo Hanyecz
+explanation: |
+  Hän [mainitsi](https: //bitcointalk.org/index.php?topic=240.msg2104#msg2104) tämän idean foorumilla 9. kesäkuuta, ja Satoshi hyväksyi sen. Hän [loi](https; //bitcointalk.org/index.php?topic=363.msg3018#msg3018) testnetin 15. heinäkuuta.
+reviewed: false

@@ -1,11 +1,11 @@
-question: Mục đích của Bằng chứng công việc (Proof of Work) trong mạng lưới Bitcoin là gì?
-answer: Bằng chứng công việc đảm bảo tính xác thực của thông tin mà không cần bên thứ ba đáng tin cậy.
+question: Mục đích của Bằng chứng Công việc (Proof of Work) trong mạng lưới Bitcoin là gì?
+answer: Bằng chứng Công việc đảm bảo tính xác thực của thông tin mà không cần tin cậy vào bên thứ ba.
 wrong_answers:
-  - Bằng chứng công việc được sử dụng để tạo ra bitcoin mới.
-  - Bằng chứng công việc được sử dụng để xác minh các giao dịch Bitcoin.
-  - Bằng chứng công việc được sử dụng để bảo vệ mạng lưới Bitcoin.
+  - Bằng chứng Công việc được sử dụng để tạo ra bitcoin mới bằng cách tin tưởng vào bên thứ ba.
+  - Bằng chứng Công việc được sử dụng để xác minh các giao dịch Bitcoin bằng cách tin tưởng vào bên thứ ba.
+  - Bằng chứng Công việc được sử dụng để thay đổi giao thức Bitcoin mà không cần tin tưởng vào bên thứ ba.
 explanation: >-
-  Bằng chứng công việc là một thuật toán đồng thuận được sử dụng trong mạng lưới Bitcoin
-  để xác nhận các giao dịch và tạo ra các khối mới. Nó yêu cầu các thợ mỏ giải quyết các bài toán toán học phức tạp,
-  điều này đảm bảo tính xác thực của thông tin trong mạng lưới mà không cần đến bên thứ ba đáng tin cậy.
-reviewed: false
+  Bằng chứng Công việc là một thuật toán đồng thuận được sử dụng trong mạng lưới Bitcoin
+  để xác thực các giao dịch và tạo ra các khối mới. Nó yêu cầu các thợ mỏ giải quyết các bài toán toán học phức tạp,
+  điều này đảm bảo tính xác thực của thông tin trong mạng lưới mà không cần đến sự tin cậy vào bên thứ ba.
+reviewed: true

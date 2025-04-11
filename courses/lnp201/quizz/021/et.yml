@@ -1,0 +1,8 @@
+question: Kuidas kaitseb ajalukk petmises osalemise eest kohustuste tehingutes?
+answer: See takistab rikkuvat osapoolt kohe oma vahendite kättesaamist
+wrong_answers:
+  - See tagastab automaatselt vahendid petturile
+  - See tühistab tehingu petmise katse korral
+  - See blokeerib revokatsioonivõtme kasutamise
+explanation: |
+  Ajalukk kehtestab viivituse, mille jooksul pettur ei saa oma vahendeid kätte saada, andes seeläbi teisele osapoolele võimaluse reageerida.

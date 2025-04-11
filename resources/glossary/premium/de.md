@@ -1,0 +1,9 @@
+---
+term: PREMIUM
+
+---
+Ein zusätzlicher Betrag, der über dem Standard- oder Nominalpreis eines Vermögenswerts liegt. Im Zusammenhang mit Bitcoin kann ein Aufschlag bei Käufen beobachtet werden, insbesondere auf Börsenplattformen, die diese Technik manchmal nutzen, um ihre Margen auf den Vermittlungsdienst zu erhöhen.
+
+Dieser Begriff der Prämie findet sich auch bei Peer-to-Peer-BTC-Käufen. In der Tat wird für den Kauf von Bitcoins, die nicht der KYC unterliegen, häufig ein Aufschlag gegenüber dem Standardmarktpreis verlangt, der zwischen 1 % und manchmal mehr als 10 % liegen kann. Dieser Preisunterschied ist auf mehrere Gründe zurückzuführen. Erstens ist es eine gängige Praxis unter P2P-Verkäufern, die sich im Laufe der Zeit etabliert hat. Zum anderen entstehen den Verkäufern Transaktionsgebühren für die Überweisung des Geldes an den Käufer. Außerdem besteht bei P2P-Verkäufen ein höheres Diebstahlsrisiko als bei Transaktionen auf regulierten Plattformen, was einen Ausgleich für das eingegangene Risiko rechtfertigt. Schließlich kann der Aufpreis mit der Nachfrage und der Qualität des Austauschs in Bezug auf die Vertraulichkeit zusammenhängen. Für den Käufer hat der Gewinn an Vertraulichkeit einen Preis, der sich im Aufschlag des Verkäufers niederschlägt. Einige Bitcoiner glauben auch, dass der höhere Preis von BTC, die auf P2P-Börsen gekauft werden, ihren wahren Wert widerspiegelt, und argumentieren, dass die niedrigeren Preise auf regulierten Plattformen das Ergebnis eines Kompromisses bei der Vertraulichkeit Ihrer persönlichen Daten sind.
+
+> ► *Gemeinsam wird auch im Französischen der englische Begriff "premium" verwendet. Seine Übersetzung könnte "majoration" lauten.*

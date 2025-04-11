@@ -1,0 +1,10 @@
+question: Kuidas kasutajad kannavad oma raha omandiõiguse üle Bitcoin võrgus?
+answer: Digitaalselt allkirjastades tehinguid oma privaatvõtmetega.
+wrong_answers:
+  - Füüsiliselt üle andes oma Bitcoine.
+  - Saates e-kirja saajale.
+  - Andes oma Bitcoin aadressi saajale.
+explanation: >-
+  Kasutajad Bitcoin võrgus kannavad oma raha omandiõiguse üle digitaalselt
+  allkirjastades tehinguid oma privaatvõtmetega. See tõendab, et nad on
+  Bitcoini(de), mida nad soovivad üle kanda, omanikud.

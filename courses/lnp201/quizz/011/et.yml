@@ -1,0 +1,8 @@
+question: Miks loob Alice väljavõtte tehingu enne deposiidi tehingu avaldamist?
+answer: Et tagasi saada oma vahendid, kui Bobiga tekib probleem
+wrong_answers:
+  - Suurendamaks kanali mahtu iga tehinguga
+  - Sooritamaks Lightning tehingut kohe pärast avamist
+  - Et võimaldada Bobil vahendeid otse kulutada
+explanation: |
+  Alice loob väljavõtte tehingu, et tagasi saada oma vahendid, kui Bobiga tekib probleem, tagades nii oma deposiidi turvalisuse.

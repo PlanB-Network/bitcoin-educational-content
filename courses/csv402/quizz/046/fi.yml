@@ -1,0 +1,9 @@
+question: Minkä RGB-standardin avulla voit luoda ainutlaatuisia omaisuuseriä tai "NFT:tä"?
+answer: RGB21
+wrong_answers:
+  - RGB20
+  - RGB25
+  - RGB30
+explanation: |
+  RGB21-standardi on suunniteltu hallitsemaan yksilöllisiä omaisuuseriä, ja se mahdollistaa yksityisen metatiedon liittämisen NFT:hen.
+reviewed: false

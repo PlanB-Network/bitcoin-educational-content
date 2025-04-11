@@ -1,10 +1,9 @@
-question: Why is it essential to backup the 24-word recovery phrase of a Bitcoin wallet?
-answer: To prevent any loss of funds.
+question: What does the index /84'/ at depth 1 of a derivation path indicate?
+answer: The P2WPKH standard (SegWit v0)
 wrong_answers:
-  - To verify the accuracy of the recovery phrase.
-  - To generate the entropy for the wallet.
-  - To encrypt the recovery phrase for added security.
+  - The P2TR standard (SegWit v1)
+  - A Bitcoin testnet currency
+  - A Bitcoin mainnet currency
 explanation: |
-  Backing up the 24-word recovery phrase is essential to prevent any loss
-  of funds.
+  The index /84'/ is defined in BIP84 to indicate the use of the SegWit v0 standard with P2WPKH addresses at depth 1 (that of the derivation target).
 reviewed: false

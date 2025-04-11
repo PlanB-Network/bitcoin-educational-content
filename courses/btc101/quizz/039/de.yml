@@ -1,11 +1,9 @@
-question: Was ist das Hauptziel von Bitcoin?
-answer: Den Staat vom Geld zu trennen
+question: Was ist das Hauptziel hinter der Schaffung von Bitcoin?
+answer: Den Staat vom Geld zu trennen.
 wrong_answers:
-  - Gold als globalen Standard zu ersetzen
-  - Transaktionen schneller und günstiger zu machen
-  - Jeden reich zu machen
+  - Den Goldstandard zu eliminieren.
+  - Transaktionen schneller und günstiger zu machen.
+  - Jeden reich zu machen.
 explanation: |
-  Bitcoin wurde mit dem Ziel geschaffen, den Staat vom Geld zu trennen.
-  Dies ist eine Reaktion auf die systemischen Herausforderungen des aktuellen Finanzsystems,
-  bei dem der Staat die Kontrolle über die Geldversorgung hat und es zu seinem Vorteil manipulieren kann.
-reviewed: false
+  Bitcoin wurde mit dem Ziel geschaffen, den Staat vom Geld zu trennen. Es ist eine Antwort auf die systemischen Herausforderungen des aktuellen Finanzsystems, in dem der Staat die volle Kontrolle über die Geldmenge hat und diese zu seinem eigenen Vorteil manipulieren kann.
+reviewed: true

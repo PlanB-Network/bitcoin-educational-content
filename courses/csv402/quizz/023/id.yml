@@ -1,0 +1,9 @@
+question: Bagaimana RGB mencegah pengeluaran ganda selama Transisi Status?
+answer: Menutup segel yang sudah ada dan membuat segel baru
+wrong_answers:
+  - Dengan memverifikasi semua transaksi di blockchain
+  - Dengan memberlakukan tanda tangan multi-sig pada setiap operasi
+  - Memvalidasi data Status Global
+explanation: |
+  Menutup segel dengan UTXO yang sudah terpakai membuktikan bahwa sebuah transisi itu unik dan tidak dapat dibatalkan.
+reviewed: false

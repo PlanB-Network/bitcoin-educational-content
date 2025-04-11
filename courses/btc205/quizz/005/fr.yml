@@ -1,9 +1,0 @@
-question: Pourquoi Bitcoin est-il considéré comme un outil inefficace pour le blanchiment d'argent?
-answer: Parce que c'est une base de données entièrement traçable.
-wrong_answers:
-  - Parce qu'il n'est pas largement accepté.
-  - Parce qu'il est très volatile.
-  - Parce qu'il n'est pas réglementé.
-explanation: |
-  Bitcoin, en tant que base de données entièrement traçable, rend le blanchiment d'argent particulièrement difficile. L'utilisation de Bitcoin par les criminels peut être retracée.
-reviewed: false

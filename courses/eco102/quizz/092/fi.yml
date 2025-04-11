@@ -1,0 +1,8 @@
+question: Jos omaisuus on yleisen tahdon perustama instituutio, kuten Rousseau uskoo, mikä on seuraus?
+answer: Lainsäätäjä voi järjestää, muuttaa tai jopa poistaa omaisuuden
+wrong_answers:
+  - Lainsäätäjä on silloin sidottu tähän sopimukseen eikä voi koskea omaisuuteen
+  - Yleinen tahto ei koskaan halua koskea omaisuuteen
+  - Lainsäätäjän on suojeltava omaisuutta poikkeuksetta
+explanation: |
+  Rousseau'n mukaan, koska omaisuus syntyy yleisestä tahdosta, lainsäätäjä voi muuttaa tai poistaa omaisuuden tämän saman tahdon mukaisesti.

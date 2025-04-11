@@ -1,0 +1,9 @@
+question: Apa tujuan utama dari komitmen Bitcoin yang bersifat deterministik?
+answer: Memastikan bahwa satu komitmen dimasukkan dalam sebuah transaksi
+wrong_answers:
+  - Menyederhanakan struktur transaksi Bitcoin
+  - Mengurangi biaya transaksi RGB
+  - Mengoptimalkan pembuatan multisignature RGB
+explanation: |
+  Komitmen deterministik Bitcoin menjamin bahwa hanya satu komitmen yang dimasukkan ke dalam sebuah transaksi, untuk menghindari adanya komitmen yang saling bersaing secara tersembunyi.
+reviewed: false

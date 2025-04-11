@@ -1,0 +1,11 @@
+id: 830d6d68-3642-41ac-a150-20f971f3b71d
+en_word: BIP0050
+related_words: ["LEVELDB", "BERKELEYDB"]
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-03-04
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0

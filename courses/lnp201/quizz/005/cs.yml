@@ -1,12 +1,9 @@
-question: Jaké jsou výhody platebních kanálů Lightning?
-answer: Umožňují uživatelům posílat a přijímat Bitcoin bez nutnosti platit vysoké transakční poplatky nebo čekat na dlouhé potvrzovací doby v síti Bitcoin.
+question: Jaká je hlavní role soukromého klíče v systému Bitcoin?
+answer: Podepisování transakcí pro splnění skriptu
 wrong_answers:
-  - Umožňují uživatelům těžit Bitcoin efektivněji
-  - Umožňují uživatelům ukládat Bitcoin bezpečněji
-  - Umožňují uživatelům vyměňovat Bitcoin za jiné kryptoměny
+  - Sloužit jako identifikátor pro přijímání bitcoinů
+  - Bezpečné ukládání prostředků na blockchainu
+  - Vytváření zamykacích skriptů pro ochranu bitcoinů
 explanation: |
-  Platební kanály Lightning jsou efektivním způsobem, jak provádět rychlé a
-  levné
-  transakce v Bitcoinu. Umožňují uživatelům posílat a přijímat Bitcoin bez nutnosti
-  platit vysoké transakční poplatky nebo čekat na dlouhé potvrzovací doby v síti Bitcoin.
+  Soukromý klíč se používá k podepisování transakcí pro splnění skriptu a odemknutí bitcoinů.
 reviewed: false

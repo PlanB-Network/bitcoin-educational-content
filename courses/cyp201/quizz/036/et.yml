@@ -1,0 +1,9 @@
+question: Mida võimaldab HD rahakott teha võrreldes JBOK rahakotiga?
+answer: Genereerida kõik privaatvõtmed ühest seemnest
+wrong_answers:
+  - Suurendada digitaalallkirjade turvalisust
+  - Kasutada sama aadressi mitme tehingu jaoks
+  - Täielikult vältida avalike võtmete kasutamist
+explanation: |
+  HD rahakotid tuletavad kõik privaatvõtmed unikaalsest seemnest, mis lihtsustab varundamist ja parandab kaudselt privaatsust.
+reviewed: false

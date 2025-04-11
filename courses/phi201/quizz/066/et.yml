@@ -1,0 +1,9 @@
+question: Mis on Voltaire'i peamine tees seoses kaubanduse ja usulise sallivuse vahelise seosega?
+answer: Kaubandus julgustab inimesi koostööd tegema ja austama üksteise arvamusi, sealhulgas nende usulisi veendumusi, ühise kasumi taotlemise kaudu.
+wrong_answers:
+  - Kaubandus ühendab inimesi läbi ühise maailmavaate, mis põhineb teaduslikul meetodil.
+  - Kaubandus soodustab luksust ja laiskust.
+  - Kõik teised vastused on õiged.
+explanation: |
+  Voltaire väidab, et kaubandus soodustab usulist sallivust, julgustades erinevate uskumustega inimesi koostööle ja vastastikusele arvamuste austamisele ühiste majandushuvide taotlemisel.
+reviewed: false

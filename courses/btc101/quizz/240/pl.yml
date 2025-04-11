@@ -1,0 +1,13 @@
+question: Jaka jest jedna z potencjalnych korzyści Lightning Network dla twórców treści?
+answer: Będą oni zachęcani do tworzenia wysokiej jakości treści, aby utrzymać uwagę użytkowników.
+wrong_answers:
+  - Będą mogli pobierać wyższe opłaty za swoje treści.
+  - Będą mogli dotrzeć do szerszego grona odbiorców.
+  - Będą w stanie szybciej tworzyć treści, aby utrzymać uwagę użytkowników.
+explanation: |
+  Dzięki Lightning Network twórcy treści byliby
+  motywowani do tworzenia treści dobrej jakości, aby utrzymać uwagę użytkowników
+  uwagę użytkowników. Użytkownicy z kolei płaciliby tylko za treści, które
+  treści, które konsumują, eliminując w ten sposób opłaty abonamentowe
+  opłat abonamentowych.
+reviewed: true

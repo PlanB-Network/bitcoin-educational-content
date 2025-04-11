@@ -1,0 +1,9 @@
+question: Why is the one-time pad considered a secure encryption method?
+answer: Because each bit of the key is random and no part is reused
+wrong_answers:
+  - Because it uses a random public and private key
+  - Because it relies on prime numbers
+  - Because it only encrypts small messages
+explanation: |
+  The one-time pad is secure because each bit of the key is random and is never reused, ensuring that it leaves no exploitable traces for an attacker.
+reviewed: false

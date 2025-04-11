@@ -1,0 +1,9 @@
+question: In un campo finito, qual è il ruolo di un polinomio irriducibile?
+answer: Definire le operazioni di moltiplicazione nel campo
+wrong_answers:
+  - Definire l'inverso additivo di ogni elemento
+  - Garantire la chiusura del campo
+  - Determinare l'identità moltiplicativa
+explanation: |
+  I polinomi irriducibili sono utilizzati per strutturare la moltiplicazione nei campi finiti, assicurando che ogni elemento rimanga all'interno del campo.
+reviewed: false

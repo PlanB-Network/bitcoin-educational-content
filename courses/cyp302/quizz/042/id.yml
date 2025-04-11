@@ -1,0 +1,9 @@
+question: Apa nama grup yang memenuhi kondisi komutativitas?
+answer: Grup abelian
+wrong_answers:
+  - Grup tertutup
+  - Grup asosiatif
+  - Grup invers
+explanation: |
+  Grup abelian, atau komutatif, adalah grup di mana urutan elemen dalam operasi biner tidak mempengaruhi hasilnya. Ini berarti bahwa untuk setiap a dan b, a ∘ b = b ∘ a.
+reviewed: false

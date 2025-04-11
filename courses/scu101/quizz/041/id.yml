@@ -1,0 +1,12 @@
+question: Apa keuntungan menggunakan manajer kata sandi mandiri seperti Bitwarden atau KeePass?
+answer: Anda dapat mengontrol di mana kata sandi Anda disimpan, menawarkan lebih banyak keamanan dan kontrol.
+wrong_answers:
+  - Mereka lebih mudah digunakan daripada layanan pihak ketiga.
+  - Mereka menawarkan lebih banyak fitur daripada layanan pihak ketiga.
+  - Mereka lebih murah daripada layanan pihak ketiga.
+explanation: |
+  Manajer kata sandi mandiri seperti Bitwarden atau KeePass memungkinkan Anda
+
+  mengontrol di mana kata sandi Anda disimpan, berpotensi menawarkan lebih banyak keamanan dan
+
+  kontrol. Namun, mereka mungkin memerlukan lebih banyak pengetahuan teknis untuk digunakan.

@@ -1,0 +1,10 @@
+question: Hva er blockchain-trilemmaet?
+answer: Et protokoll basert på en blockchain kan bare tilfredsstille to av desentralisering, sikkerhet og skalerbarhet.
+wrong_answers:
+  - Et protokoll basert på en blockchain kan bare tilfredsstille en av desentralisering, sikkerhet og skalerbarhet.
+  - Et protokoll basert på en blockchain kan tilfredsstille alle av desentralisering, sikkerhet og skalerbarhet.
+  - Et protokoll basert på en blockchain kan ikke tilfredsstille noen av desentralisering, sikkerhet og skalerbarhet.
+explanation: |
+  Blockchain-trilemmaet refererer til utfordringen med at et protokoll basert
+  på en blockchain bare kan tilfredsstille to av desentralisering, sikkerhet og skalerbarhet.
+reviewed: false

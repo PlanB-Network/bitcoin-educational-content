@@ -1,0 +1,9 @@
+question: Hva er de tre grunnleggende trinnene i et MAC-skjema?
+answer: Nøkkelgenerering, tag-generering, verifisering
+wrong_answers:
+  - Kryptering, dekryptering, overføring
+  - Generering av offentlig nøkkel, kryptering med privat nøkkel, validering
+  - Meldingshashing, tag-kryptering, tag-distribusjon
+explanation: |
+  Et MAC-skjema består av tre hovedtrinn: generering av en hemmelig nøkkel, produksjon av en tag for meldingen, og verifisering av at den mottatte meldingen og dens tag stemmer overens.
+reviewed: false

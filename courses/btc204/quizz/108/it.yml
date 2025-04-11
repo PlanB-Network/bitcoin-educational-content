@@ -1,0 +1,13 @@
+question: Quale analisi euristica della catena è utilizzata dalla transazione payjoin per agire come inganno per l'analisi?
+
+answer: Il CIOH
+
+wrong_answers:
+  - Riutilizzo degli indirizzi
+  - Fingerprinting del portafoglio
+  - Riutilizzo della versione
+
+explanation: |
+  Quando un analista esamina una transazione payjoin, è portato a credere che tutti gli input provengano dalla stessa persona a causa del CIOH. Tuttavia, questa percezione è errata, poiché anche il destinatario del pagamento contribuisce agli input insieme al pagatore effettivo. Pertanto, l'analisi della catena viene deviata verso un'interpretazione che si rivela falsa.
+
+reviewed: false

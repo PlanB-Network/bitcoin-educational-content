@@ -1,9 +1,11 @@
 question: Was ist der Zweck des HTTPS-Protokolls?
 answer: Es verschlüsselt Daten auf Websites, um einen sicheren Austausch zwischen dem Benutzer und der Website zu gewährleisten.
 wrong_answers:
-  - Es ermöglicht Benutzern, geografische Beschränkungen zu umgehen.
-  - Es ermöglicht Benutzern, Online-Werbung zu blockieren.
-  - Es ermöglicht Benutzern, auf das Internet zuzugreifen, ohne Daten zu verwenden.
+  - Es ermöglicht Benutzern, geografische Einschränkungen zu umgehen, wenn es um die Bezahlung per Debit- oder Kreditkarte geht.
+  - Es ermöglicht Benutzern, Online-Werbung teilweise zu blockieren.
+  - Es ermöglicht Benutzern, das Internet zu nutzen, ohne private Anmeldeinformationen zu verwenden.
 explanation: |
-  Das HTTPS-Protokoll wird verwendet, um Daten auf Websites zu verschlüsseln und sicherzustellen, dass der Austausch von Daten zwischen dem Benutzer und der Website sicher ist. Dies hilft, sich gegen das Abfangen der Daten durch Dritte zu schützen.
-reviewed: false
+  Das HTTPS-Protokoll wird verwendet, um Daten auf Websites zu verschlüsseln,
+  und stellt sicher, dass der Datenaustausch zwischen dem Benutzer und der
+  Website sicher ist. Dies hilft, gegen das Abfangen der Daten durch Dritte zu schützen.
+reviewed: true

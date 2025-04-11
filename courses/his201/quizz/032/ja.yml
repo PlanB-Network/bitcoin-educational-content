@@ -1,0 +1,9 @@
+question: 2009年に、自身のプロジェクトのコミュニケーションを手伝い、特にBitcoinのウェブサイトとフォーラムの管理を行った若いフィンランド人の名前は何ですか？
+answer: Martti Malmi
+wrong_answers:
+  - Mike Hearn
+  - Gavin Andresen
+  - RPOW
+explanation: |
+  彼は2009年4月にSatoshiに連絡を取りました。Satoshiはすぐに彼にFAQとウェブサイトのプレゼンテーションの作成を依頼しました。Martti Malmiは1年以上にわたってSatoshiの右腕でした。
+  レビュー済み: false

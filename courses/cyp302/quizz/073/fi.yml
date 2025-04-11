@@ -1,0 +1,9 @@
+question: Kuinka avain määritellään siirrossalauksessa?
+answer: Numero väliltä 0–25
+wrong_answers:
+  - Satunnainen sana
+  - Mikä tahansa satunnainen numero ilman rajoituksia
+  - Numero väliltä 1–26
+explanation: |
+  Siirrossalauksessa avain on numero väliltä 0–25, mikä vastaa siirtymien määrää, jota sovelletaan jokaiseen viestin kirjaimeen 26-kirjaimen aakkostossa.
+reviewed: false

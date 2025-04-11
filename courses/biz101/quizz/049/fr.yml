@@ -1,0 +1,9 @@
+question: Quel est le principal avantage de la monnaie fiduciaire par rapport aux pièces de monnaie dans les systèmes de paiement traditionnels ?
+answer: Une portabilité et une efficacité accrues
+wrong_answers:
+  - Valeur intrinsèque accrue grâce aux métaux précieux
+  - Vérification automatique de chaque transaction
+  - Élimination complète des risques de contrefaçon
+explanation: |
+  Le papier-monnaie, plus léger et plus facile à transporter que les pièces de monnaie, a permis d'améliorer l'efficacité du commerce à longue distance et de réduire les problèmes logistiques.
+reviewed: false

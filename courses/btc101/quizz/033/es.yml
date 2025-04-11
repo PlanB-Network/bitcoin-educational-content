@@ -1,9 +1,10 @@
-question: ¿Por qué Bitcoin es una nueva forma de dinero?
-answer: Porque es una moneda digital sin entidad central.
+question: ¿Por qué se considera a Bitcoin una nueva forma de dinero?
+answer: Porque es un dinero digital sin entidad central.
 wrong_answers:
   - Porque es una moneda digital respaldada por oro.
-  - Porque es una moneda que requiere una cadena de bloques.
+  - Porque es una moneda que requiere la blockchain del banco.
   - Porque lo dice la Reserva Federal.
 explanation: |
-  Bitcoin puede ser visto como una nueva forma de dinero, ya que surge de una red peer-to-peer sin entidad central.
-reviewed: false
+  Bitcoin puede ser visto como una nueva forma de dinero, ya que surge
+  de una red de pares sin entidad central.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Mikä on pääasiallinen ero filosofisen moraalin ja taloudellisen moraalin välillä Bastiat'n mukaan?
+answer: Toinen puhuttelee sydäntä, toinen älyä
+wrong_answers:
+  - Toinen on yksilöllinen, toinen on kollektiivinen
+  - Toinen on antiikkinen, toinen on moderni
+  - Toinen on uskonnollinen, toinen on maallinen
+explanation: |
+  Filosofinen moraali vetoaa tunteisiin ja henkilökohtaiseen hyveeseen, kun taas taloudellinen moraali pyrkii rationaalisesti opettamaan osoittamalla tekojen seuraukset.
+reviewed: false

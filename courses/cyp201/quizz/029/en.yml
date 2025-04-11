@@ -1,12 +1,9 @@
-question: What is the main purpose of digital signatures in the Bitcoin protocol?
-answer: To demonstrate the possession of a private key associated with a specific public key
+question: Which digital signature algorithm was used at the launch of Bitcoin?
+answer: ECDSA
 wrong_answers:
-  - To encrypt the transaction data
-  - To generate new bitcoins
-  - To verify the identity of the sender
+  - Schnorr
+  - RSA
+  - HMAC
 explanation: |
-  At the core of the Bitcoin protocol, digital signatures are used as
-  mathematical
-  proofs demonstrating the possession of a private key associated with a specific
-  public key.
+  Bitcoin initially used ECDSA, a signature protocol based on elliptic curves, before the introduction of Schnorr signatures in 2021.
 reviewed: false

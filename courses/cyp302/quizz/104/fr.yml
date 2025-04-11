@@ -1,0 +1,9 @@
+question: Quel est l'objectif principal d'un schéma de chiffrement authentifié ?
+answer: Assurer la confidentialité et l'authenticité des communications
+wrong_answers:
+  - Générer des clés de manière sécurisée
+  - Remplacer les MACs dans les échanges cryptographiques
+  - Déchiffrer automatiquement les messages interceptés
+explanation: |
+  Un schéma de chiffrement authentifié combine un chiffrement et un code d'authentification (MAC) pour garantir à la fois la confidentialité des messages et leur authenticité.
+reviewed: false

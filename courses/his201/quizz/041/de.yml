@@ -1,0 +1,9 @@
+question: An welchem Datum lieferte Jeremy Sturdivant zwei Pizzen an Laszlo Hanyecz im Austausch für eine Zahlung von 10.000 Bitcoins, was den ersten Kauf eines physischen Gutes mit Kryptowährung markierte?
+answer: 22. Mai 2010
+wrong_answers:
+  - 12. Oktober 2009
+  - 18. April 2010
+  - 11. Juni 2010
+explanation: |
+  Nach einer Ankündigung, die im Forum veröffentlicht wurde, wurde das Angebot am 22. Mai 2010 angenommen. Zu diesem Zeitpunkt waren die 10.000 Bitcoins etwa 44 Dollar wert.
+reviewed: false

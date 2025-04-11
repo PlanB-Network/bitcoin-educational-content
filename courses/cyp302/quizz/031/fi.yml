@@ -1,0 +1,9 @@
+question: Miten satunnainen merkkijono määritellään tässä luvussa?
+answer: Merkkijonona, joka on valittu tasaisesti kaikkien saman pituisten merkkijonojen joukosta
+wrong_answers:
+  - Merkkijonona, joka on luotu vain bitteillä 0 ja 1
+  - Merkkijonona, joka on saatu manuaalisella valinnalla
+  - Muuttuvapituisena merkkijonona, joka on seurausta salausprosessista
+explanation: |
+  Satunnainen merkkijono määritellään olevan tasaisesta valinnasta kaikkien mahdollisten saman pituisten merkkijonojen joukosta.
+reviewed: false

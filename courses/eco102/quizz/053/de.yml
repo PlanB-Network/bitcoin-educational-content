@@ -1,0 +1,9 @@
+question: Welches ökonomische Konzept hebt Bastiat in seiner Analyse der Kosten der Zerstörung hervor?
+answer: Opportunitätskosten
+wrong_answers:
+  - Grenzkosten
+  - Grenzproduktivität
+  - Produktionskosten
+explanation: |
+  Bastiat betont die Bedeutung der Opportunitätskosten und veranschaulicht, dass Ressourcen, die zur Reparatur von Zerstörungen verwendet wurden, hätten eingesetzt werden können, um anderswo Wohlstand zu schaffen.
+reviewed: false

@@ -1,9 +1,9 @@
-question: Qual é o tipo de fechamento de canal mais rápido e menos caro?
-answer: Fechamento cooperativo.
+question: O que um nó de envio faz quando uma rota de pagamento falha devido a liquidez insuficiente?
+answer: Ele tenta outra rota até encontrar uma funcional
 wrong_answers:
-  - Fechamento forçado.
-  - Fechamento por um trapaceiro.
-  - Não há diferença em velocidade e custo entre os tipos de fechamento.
+  - Ele automaticamente envia um pedido de reembolso para o destinatário
+  - Ele fecha o canal e cria um novo canal direto
+  - Ele pede aos nós intermediários para aumentarem sua liquidez
 explanation: |
-  Em um fechamento cooperativo, ambas as partes se comunicam e concordam com um estado final do canal. Essa é a opção mais rápida e menos cara.
+  Quando uma rota falha, o nó de envio tenta outras rotas alternativas até encontrar um caminho funcional, ou todas as opções se esgotam.
 reviewed: false

@@ -1,0 +1,8 @@
+question: Menurut Adam Smith, mengapa pasar berfungsi?
+answer: Karena didasarkan pada kepentingan pribadi
+wrong_answers:
+  - Karena diatur
+  - Karena bersifat virtuous
+  - Karena dipantau oleh negara
+explanation: |
+  Bagi Adam Smith, pasar berfungsi karena setiap individu bertindak sesuai dengan kepentingan pribadinya, yang secara alami menghasilkan kemakmuran kolektif.

@@ -1,0 +1,13 @@
+question: Mis on Cantilloni efekt?
+answer: Cantilloni efekt viitab majanduspõhimõttele, mille kohaselt uue raha loomisel saavad esialgu kasu need, kes on raha allikale kõige lähemal, teiste kulul, kes asuvad kaugemal.
+wrong_answers:
+  - Cantilloni efekt viitab majanduspõhimõttele, mille kohaselt uue raha loomisel saavad kõik majanduses võrdselt kasu.
+  - Cantilloni efekt viitab majanduspõhimõttele, mille kohaselt uue raha loomisel saavad esialgu kasu need, kes on raha allikast kõige kaugemal, teiste kulul, kes on lähemal.
+  - Cantilloni efekt viitab majanduspõhimõttele, mille kohaselt uue raha loomisel ei ole majanduses varade jaotumisele mingit mõju.
+explanation: |
+  Cantilloni efekt, mis on nimetatud 18. sajandi majandusteadlase Richard Cantilloni järgi,
+  kirjeldab, kuidas uue raha jaotumine majanduses võib viia varade ebavõrdsuseni.
+  Need, kes on uue raha allikale kõige lähemal (näiteks pangad ja varade omanikud),
+  saavad esimesena ja kõige märkimisväärsemalt kasu, samal ajal kui need, kes on kaugemal (näiteks
+  tavalised töötajad ja säästjad) näevad vähem kasu või isegi negatiivseid mõjusid inflatsiooni tõttu.
+reviewed: false

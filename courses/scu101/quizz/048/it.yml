@@ -1,9 +1,12 @@
-question: Qual è il secondo passaggio comune nella 2FA?
+question: Qual è un metodo sicuro ed efficace nell'autenticazione 2FA?
 answer: Un codice generato da un'applicazione come Google Authenticator o Authy.
 wrong_answers:
-  - Una chiamata telefonica al titolare dell'account
-  - Una email al titolare dell'account
+  - Una chiamata telefonica o un codice SMS inviato al titolare dell'account
+  - Un'email con un codice che scade dopo 10 minuti inviata al titolare dell'account
   - Una lettera inviata all'indirizzo di casa del titolare dell'account
 explanation: |
-  Il secondo passaggio nella 2FA può essere un codice temporaneo inviato tramite SMS, un codice generato da un'applicazione o una chiave di sicurezza fisica.
-reviewed: false
+  Il secondo passo nell'2FA può essere un codice temporaneo inviato via
+  SMS, email, un codice generato da un'applicazione, o una
+  chiave di sicurezza fisica. Tuttavia, non tutti questi metodi
+  permettono di mantenere lo stesso livello di sicurezza.
+reviewed: true

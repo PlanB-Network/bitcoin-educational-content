@@ -1,11 +1,9 @@
-question: Co jsou UTXO v kontextu Bitcoinu?
-answer: Nevyužité transakční výstupy
+question: Jaká je velikost komprimovaného veřejného klíče používajícího protokol Schnorr?
+answer: 32 bajtů
 wrong_answers:
-  - Nezjistitelné transakční výstupy
-  - Neověřené transakční výstupy
-  - Nepotvrzené transakční výstupy
+  - 33 bajtů
+  - 64 bajtů
+  - 128 bitů
 explanation: |
-  UTXO, neboli "Nevyužité transakční výstupy," představují nevyužité transakční
-  výstupy patřící uživateli. Aby bylo možné tyto bitcoiny utratit, musí uživatel prokázat vlastnictví
-  soukromého klíče, který odpovídá veřejnému klíči spojenému s každým UTXO.
+  Veřejný klíč Schnorr je reprezentován pouze x-ovou souřadnicí bodu na eliptické křivce, což redukuje jeho velikost na 32 bajtů.
 reviewed: false

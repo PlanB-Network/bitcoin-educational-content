@@ -1,12 +1,9 @@
-question: What is the principle of drawers in the context of cryptographic hash functions?
-answer: It explains why, despite our best efforts, collision avoidance is impossible due to the limitation of output size.
+question: What is the main function of a hash function?
+answer: It converts information of arbitrary length into a fixed-size fingerprint
 wrong_answers:
-  - It explains the storage mechanism of hash functions.
-  - It describes the process of creating a hash.
-  - It is a principle that explains the irreversibility of hash functions.
+  - It encrypts messages to make them unreadable
+  - It is only used to verify the integrity of Bitcoin software
+  - It generates private keys for Bitcoin wallets
 explanation: |
-  The principle of drawers in the context of cryptographic hash functions
-  explains that due to the limitation of output size, collision avoidance is impossible.
-  This is because there are more possible inputs than outputs, so some inputs must
-  inevitably share the same output.
+  A hash function transforms data of any size into a fixed-size hash, crucial for many applications in Bitcoin.
 reviewed: false

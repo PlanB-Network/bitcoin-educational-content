@@ -1,0 +1,8 @@
+question: Hậu quả của định lý Euler trong bối cảnh của mật mã bất đối xứng là gì?
+answer: Nó đơn giản hóa việc tính toán lũy thừa
+wrong_answers:
+  - Nó cho phép mã hóa trực tiếp các thông điệp
+  - Nó được sử dụng để tìm số nguyên tố
+  - Nó được sử dụng để kiểm tra tính chẵn lẻ của một số
+explanation: |
+  Trong mật mã bất đối xứng, định lý Euler đơn giản hóa việc tính toán lũy thừa trong các hệ thống như RSA, vì nó cung cấp một phương pháp để thao tác với các phép mũ mô-đun.

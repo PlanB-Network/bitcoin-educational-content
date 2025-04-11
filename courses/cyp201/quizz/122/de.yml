@@ -1,9 +1,0 @@
-question: Was geben Bitcoin-Benutzer dem Sender, wenn sie Bitcoins empfangen möchten?
-answer: Eine Empfangsadresse
-wrong_answers:
-  - Ihren öffentlichen Schlüssel
-  - Ihren privaten Schlüssel
-  - Ihr Bitcoin-Wallet-Passwort
-explanation: |
-  Wenn ein Bitcoin-Benutzer Bitcoins empfangen möchte, gibt er dem Sender eine Empfangsadresse. Diese Adresse ist ein Hash ihres öffentlichen Schlüssels mit einem spezifischen Format.
-reviewed: false

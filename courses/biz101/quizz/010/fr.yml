@@ -1,0 +1,9 @@
+question: Comment le Lightning Network contribue-t-il à réduire les frais liés aux transactions en bitcoins ?
+answer: En effectuant la plupart des transactions en dehors de la chaîne et en ne publiant que les transactions de règlement de la chaîne sur la blockchain principale.
+wrong_answers:
+  - En supprimant toute vérification cryptographique des paiements.
+  - En centralisant le contrôle dans un grand centre de paiement.
+  - En demandant aux commerçants de payer d'avance tous les coûts du réseau.
+explanation: |
+  Étant donné que les transactions Lightning se déroulent hors chaîne, seuls les états finaux des canaux sont réglés sur la chaîne de blocs Bitcoin. Cela permet de réduire la congestion et donc les frais en évitant d'effectuer de nombreuses transactions sur la chaîne.
+reviewed: false

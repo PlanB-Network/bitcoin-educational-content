@@ -1,9 +1,9 @@
-question: Was passiert bei einer erzwungenen Schließung, wenn die Netzwerkgebühr zum Zeitpunkt der Schließung 1 SAT beträgt?
-answer: Die Transaktion wird um das 50-fache überbezahlt.
+question: Was ermöglicht die Funktion LNURL-withdraw den Benutzern?
+answer: Mittel von einem Dienst abheben, indem sie einen QR-Code scannen
 wrong_answers:
-  - Die Transaktion wird um das 50-fache unterbezahlt.
-  - Die Transaktion wird um das 2-fache überbezahlt.
-  - Die Transaktion wird um das 2-fache unterbezahlt.
+  - Eine direkte Zahlung ohne Routing-Gebühren tätigen
+  - Ihr Lightning-Wallet ohne Passwort verbinden
+  - Mittel ohne Bestätigung des Empfängers senden
 explanation: |
-  Bei einer erzwungenen Schließung verwendet das Protokoll Gebühren, die 5-mal höher sind als die aktuellen Gebühren zum Zeitpunkt der Erstellung der Transaktion. Wenn die Netzwerkgebühr zum Zeitpunkt der Schließung 1 SAT beträgt, wird die Transaktion um das 50-fache überbezahlt.
+  LNURL-withdraw ermöglicht es Benutzern, Mittel von einem Dienst abzuheben, indem sie einen QR-Code scannen, wodurch der Abhebungsprozess vereinfacht wird.
 reviewed: false

@@ -1,0 +1,8 @@
+question: Masalah apa yang muncul jika Jim's Sporting Goods menggunakan pasangan kunci yang sama untuk semua pelanggan?
+answer: Setiap pelanggan dapat mengakses komunikasi pelanggan lain
+wrong_answers:
+  - Kunci tersebut akan menjadi terlalu besar
+  - Komunikasi akan menjadi lambat
+  - Pelanggan harus mengganti kunci setiap kali melakukan pembelian
+explanation: |
+  Dengan menggunakan kunci yang sama untuk semua orang, Jim's Sporting Goods akan mengompromikan kerahasiaan dan integritas, karena setiap pelanggan berpotensi dapat mengakses data pelanggan lain.

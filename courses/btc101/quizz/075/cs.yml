@@ -1,11 +1,12 @@
 question: Co je mnemonická fráze v Bitcoinové peněžence?
-answer: Seznam 12 nebo 24 slov, který slouží jako záloha vaší Bitcoinové peněženky
+answer: Seznam 12 nebo 24 slov, který vám umožňuje přístup k vašim bitcoinům.
 wrong_answers:
-  - Vybrané heslo pro přístup k Bitcoinové peněžence
-  - Kód pro šifrování Bitcoinových transakcí
-  - Tajná obnovovací fráze, která zničí Bitcoinovou peněženku
+  - Vybrané heslo pro přístup k Bitcoinové peněžence.
+  - Kód pro šifrování Bitcoinových transakcí.
+  - Tajná obnovovací fráze, která v případě potřeby zničí Bitcoinovou peněženku.
 explanation: |
-  Od roku 2017 může být soukromý klíč zakódován do jednoduchého seznamu 12 nebo
-  24 slov, nazývaného mnemonická fráze. Tato fráze slouží jako záloha vaší Bitcoinové peněženky,
-  umožňuje vám obnovit vaši peněženku s jakýmkoliv softwarem/aplikací pro Bitcoinové peněženky.
+  Od roku 2017 může být soukromý klíč zakódován do jednoduchého seznamu
+  12 nebo 24 slov, nazývaného mnemonická fráze. Tato fráze
+  je zálohou vaší Bitcoinové peněženky, takže vám umožňuje
+  přístup k vašim bitcoinům pomocí jakéhokoli softwaru/aplikace pro Bitcoinové peněženky.
 reviewed: true

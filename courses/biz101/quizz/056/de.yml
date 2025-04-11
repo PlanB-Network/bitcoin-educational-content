@@ -1,0 +1,9 @@
+question: Wie unterscheidet sich eine Brieftasche ohne Sorgerecht in ihrer Funktionalität für Starter-Nutzer?
+answer: Der Geschäftsinhaber hat die volle Kontrolle über die privaten Schlüssel
+wrong_answers:
+  - Es kann Bitcoins automatisch in Fiat-Währung umwandeln
+  - Es erfordert keine Backup-Verfahren oder Sicherheitsmaßnahmen
+  - Sie verwaltet alle Transaktionen über einen Drittanbieterdienst
+explanation: |
+  Bei nicht-verwahrten Wallets liegt die Kontrolle über private Schlüssel und Transaktionen vollständig in den Händen des Nutzers.
+reviewed: false

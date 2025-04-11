@@ -1,10 +1,9 @@
-question: Jaký je účel kontrolního součtu při generování mnemonické fráze pro Bitcoinovou peněženku?
-answer: Zajišťuje ověření přesnosti obnovovací fráze.
+question: Která část výstupu HMAC-SHA512 je použita jako kód dětského řetězce?
+answer: Posledních 32 bajtů
 wrong_answers:
-  - Generuje entropii pro peněženku.
-  - Určuje počet slov v obnovovací frázi.
-  - Šifruje obnovovací frázi pro zvýšenou bezpečnost.
+  - Prvních 32 bajtů
+  - Celých 64 bajtů
+  - SHA256 hash prostředních 32 bajtů
 explanation: |
-  Kontrolní součet je získán předáním entropie funkcí SHA256
-  a načtením prvních 8 bitů hash. Bez tohoto kontrolního součtu by chyba ve frázi mohla vést k vytvoření jiné peněženky a tím k ztrátě prostředků.
+  Posledních 32 bajtů výstupu HMAC-SHA512 slouží jako kód řetězce pro dětský klíč.
 reviewed: false

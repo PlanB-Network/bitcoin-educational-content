@@ -1,0 +1,13 @@
+question: Was ist einzigartig an Remixes in Whirlpool im Vergleich zu anderen CoinJoin-Implementierungen?
+
+answer: Sie sind völlig kostenlos.
+
+wrong_answers:
+  - Sie erfordern nur die Zahlung der Mining-Gebühren.
+  - Sie sind auf einen pro Benutzer beschränkt.
+  - Sie erfordern nur die Zahlung der Servicegebühren.
+
+explanation: |
+  Whirlpool-Remixes sind 100% kostenlos: Es fallen keine zusätzlichen Servicegebühren oder Mining-Gebühren an.
+
+reviewed: false

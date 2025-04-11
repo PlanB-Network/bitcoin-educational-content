@@ -1,11 +1,11 @@
-question: Mục đích của việc tạo ra các nhóm đào (mining pools) là gì?
-answer: Các nhóm đào cho phép các thợ mỏ gộp lại nguồn lực tính toán của họ và nhận được phần thưởng nhỏ nhưng đều đặn hơn.
+question: Mục đích của việc tạo hồ bơi khai thác là gì?
+answer: Hồ bơi khai thác cho phép các thợ mỏ gộp nguồn lực tính toán của họ và nhận được phần thưởng nhỏ hơn nhưng đều đặn hơn.
 wrong_answers:
-  - Các nhóm đào được sử dụng để tăng HashRate của mạng Bitcoin.
-  - Các nhóm đào được sử dụng để giảm độ khó của việc đào.
-  - Các nhóm đào được sử dụng để tăng phần thưởng cho việc đào.
+  - Hồ bơi khai thác được sử dụng để tăng HashRate của toàn bộ mạng Bitcoin.
+  - Hồ bơi khai thác được sử dụng để giảm độ khó của việc khai thác.
+  - Hồ bơi khai thác được sử dụng để tăng phần thưởng cho việc khai thác.
 explanation: >-
-  Các nhóm đào là những nhóm của các thợ mỏ kết hợp sức mạnh tính toán của họ
-  để tăng cơ hội đào được một khối. Bằng cách gộp nguồn lực của họ, họ có thể
-  đào được các khối thường xuyên hơn và nhận được phần thưởng nhỏ nhưng đều đặn hơn.
-reviewed: false
+  Hồ bơi khai thác là những nhóm thợ mỏ kết hợp sức mạnh tính toán của họ
+  để tăng cơ hội khai thác một khối. Bằng cách gộp nguồn lực của họ, họ có thể
+  khai thác khối thường xuyên hơn và nhận được phần thưởng nhỏ hơn nhưng đều đặn hơn.
+reviewed: true

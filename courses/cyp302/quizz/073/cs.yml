@@ -1,0 +1,9 @@
+question: Jak lze definovat klíč v šifrování posunem?
+answer: Číslo od 0 do 25
+wrong_answers:
+  - Náhodné slovo
+  - Jakékoliv náhodné číslo bez omezení
+  - Číslo od 1 do 26
+explanation: |
+  V šifrování posunem je klíč číslo mezi 0 a 25, které odpovídá počtu pozic posunu aplikovaných na každé písmeno zprávy v abecedě s 26 písmeny.
+reviewed: false

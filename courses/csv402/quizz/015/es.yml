@@ -1,0 +1,9 @@
+question: ¿Qué concepto histórico aplica el RGB al mundo digital?
+answer: Instrumentos al portador
+wrong_answers:
+  - Bases de datos centralizadas
+  - Redes entre iguales sin validación
+  - Registros abiertos accesibles a todos
+explanation: |
+  RGB traslada la idea de los instrumentos al portador a lo digital.
+reviewed: false

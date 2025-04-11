@@ -1,0 +1,8 @@
+question: Какой алгоритм цифровой подписи использовался при запуске Bitcoin?
+answer: ECDSA
+wrong_answers:
+  - Schnorr
+  - RSA
+  - HMAC
+explanation: |
+  Изначально в Bitcoin использовался ECDSA, протокол подписи, основанный на эллиптических кривых, до введения подписей Schnorr в 2021 году.

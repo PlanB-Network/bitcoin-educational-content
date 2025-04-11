@@ -1,0 +1,9 @@
+question: Mihin valtion uudelleenjakelu voi Bastiat'n mukaan johtaa?
+answer: Klientelismiin
+wrong_answers:
+  - Pitkäaikaiseen sosiaaliseen rauhaan
+  - Tasa-arvoisten mahdollisuuksien parantumiseen
+  - Talouden kestävään stimulointiin
+explanation: |
+  Bastiat'n mukaan uudelleenjakelu luo taloudellisia vääristymiä ja edistää klientelismiä, sen sijaan, että se ratkaisisi epätasa-arvoisuudet.
+reviewed: false

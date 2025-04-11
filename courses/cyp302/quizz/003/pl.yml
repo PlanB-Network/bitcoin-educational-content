@@ -1,0 +1,9 @@
+question: Co ujawnia druga wiadomość Beale'a po odszyfrowaniu?
+answer: Lista zakopanych skarbów (złota, srebra i klejnotów)
+wrong_answers:
+  - Dokładne miejsce zakopania skarbu
+  - Data powrotu Beale'a
+  - Podpis Beale'a i jego współpracowników
+explanation: |
+  Po odszyfrowaniu, druga wiadomość opisuje zawartość skarbu, składającego się ze złota, srebra i klejnotów.
+reviewed: false

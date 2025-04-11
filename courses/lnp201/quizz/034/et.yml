@@ -1,0 +1,9 @@
+question: Millist teavet peab saatja sõlm teadma, et teostada sibulmarsruutimise makset?
+answer: Võrgu topoloogiat ja täielikku marsruuti saajani
+wrong_answers:
+  - Ainult järgmine vahesõlm
+  - Iga kanali mahutavus
+  - Iga teekonnal oleva sõlme krüptograafiline allkiri
+explanation: |
+  Saatja sõlm peab teadma võrgu topoloogiat, et arvutada marsruut saajani, mis võimaldab tal valida parima tee.
+reviewed: false

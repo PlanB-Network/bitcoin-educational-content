@@ -1,9 +1,11 @@
 question: Qual è la ricompensa per i minatori nella rete Bitcoin?
-answer: Nuovi bitcoin e commissioni di transazione.
+answer: Nuovi bitcoin e commissioni sulle transazioni.
 wrong_answers:
   - Solo nuovi bitcoin.
-  - Solo commissioni di transazione.
-  - Non c'è alcuna ricompensa per i minatori.
+  - Solo commissioni sulle transazioni.
+  - Non c'è ricompensa per i minatori.
 explanation: |
-  I minatori nella rete Bitcoin vengono ricompensati con nuovi bitcoin e commissioni di transazione per il loro lavoro di convalida e creazione dei blocchi.
-reviewed: false
+  I minatori nella rete Bitcoin sono ricompensati con nuovi
+  bitcoin e commissioni sulle transazioni per il loro lavoro
+  di validazione e creazione di blocchi.
+reviewed: vero

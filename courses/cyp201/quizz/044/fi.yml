@@ -1,11 +1,9 @@
-question: Mikä on generaattoripisteen rooli elliptisellä käyrällä?
-answer: Sitä käytetään laskemaan piste elliptisellä käyrällä.
+question: Mikä on entropia kryptografian kontekstissa?
+answer: Satunnaisprosessiin liittyvän arvaamattomuuden mittari
 wrong_answers:
-  - Sitä käytetään nonce-arvon generoimiseen.
-  - Sitä käytetään avainten salaamiseen.
-  - Sitä käytetään avainten tallentamiseen.
+  - Menetelmä arkaluontoisen datan salaamiseen
+  - Algoritmi julkisten avainten laskemiseen
+  - Datan pakkaustekniikka
 explanation: |
-  Generaattoripiste on tietty piste elliptisellä käyrällä, jota
-  käytetään muiden pisteiden laskemisessa käyrällä. Sitä käytetään julkisten ja yksityisten avainten
-  generoinnissa, sekä digitaalisten allekirjoitusten luomisessa ja varmentamisessa.
+  Kryptografiassa entropia kvantifioi epävarmuuden tai kaaoksen tason satunnaislähteessä, mikä on olennaista turvallisten avainten generoimisessa.
 reviewed: false

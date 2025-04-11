@@ -1,8 +1,11 @@
-question: Các dịch vụ chuyển tiền truyền thống như Western Union, các ngân hàng trung ương, Visa và Mastercard có thể sẽ ra sao nếu họ không áp dụng công nghệ Lightning Network?
-answer: Họ có thể sẽ biến mất.
+question: Điều gì có thể xảy ra với các dịch vụ chuyển tiền truyền thống như Western Union, các ngân hàng trung ương, Visa và Mastercard nếu họ không áp dụng Lightning Network?
+answer: Họ có thể biến mất.
 wrong_answers:
   - Họ có thể trở nên phổ biến hơn.
   - Họ có thể trở nên an toàn hơn.
   - Họ có thể trở nên phi tập trung hơn.
-explanation: >-
-  Các dịch vụ chuyển tiền truyền thống như Western Union, các ngân hàng trung ương, Visa và Mastercard có thể sẽ biến mất nếu họ không áp dụng công nghệ Lightning Network.
+explanation: |
+  Các dịch vụ chuyển tiền truyền thống như Western Union,
+  các ngân hàng trung ương, Visa và Mastercard có thể biến mất nếu họ
+  không áp dụng công nghệ Lightning Network.
+reviewed: true

@@ -5,9 +5,8 @@ wrong_answers:
   - Based on personal information like birth dates and names.
   - The same password for all accounts.
 explanation: |
-  A good password is long (at least 12 characters), complex (a mixture
-
-  of uppercase and lowercase letters, numbers, and symbols), unique (not reused for
-
-  different accounts), and not based on personal information.'
-reviewed: false
+  A good password is long (at least 12 characters), complex
+  (a mixture of uppercase and lowercase letters, numbers, and
+  symbols), unique (not reused for different accounts), and
+  not based on personal information.
+reviewed: true

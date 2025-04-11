@@ -1,0 +1,12 @@
+question: Mis on peamine mure internetihiidude pakutava Ühtse Sisselogimise (SSO) puhul?
+answer: See tekitab probleeme kättesaadavuse ja tsensuuri riskide osas.
+wrong_answers:
+  - Seda on raske kasutada.
+  - See nõuab palju salvestusruumi.
+  - See ei ühildu kõigi veebilehtedega.
+explanation: |
+  Internetihiidude pakutav Ühtne Sisselogimine (SSO) tekitab probleeme
+  kättesaadavuse ja tsensuuri riskide osas. See on seetõttu, et kui SSO pakkuja
+  kogeb katkestust või otsustab kasutaja blokeerida, võib kasutaja kaotada juurdepääsu
+  kõikidele teenustele, mis kasutavad seda SSO-d autentimiseks.
+reviewed: false

@@ -1,9 +1,9 @@
-question: Jaké jsou dva klíčové komponenty v bezpečnostním mechanismu protokolu Bitcoin?
-answer: HMAC a PBKDF2 derivační algoritmy
+question: Jak se vypočítá veřejný klíč z privátního klíče?
+answer: Pomocí skalárního násobení na eliptické křivce
 wrong_answers:
-  - SHA-256 a RIPEMD-160 hashovací funkce
-  - Eliptická křivka digitálního podpisového algoritmu (ECDSA) a SHA-256 hashovací funkce
-  - RSA a výměna klíčů Diffie-Hellman
+  - Aplikací hash funkce na privátní klíč
+  - Prostřednictvím asymetrického šifrování
+  - Opakovaným sčítáním číselných hodnot
 explanation: |
-  HMAC a PBKDF2 derivační algoritmy jsou klíčové komponenty v bezpečnostním mechanismu protokolu Bitcoin. Zabraňují řadě potenciálních útoků a zajišťují integritu Bitcoin peněženek.
+  Veřejný klíč je získán skalárním násobením privátního klíče s generátorovým bodem G na eliptické křivce.
 reviewed: false

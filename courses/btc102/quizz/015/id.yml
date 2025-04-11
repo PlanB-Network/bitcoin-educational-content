@@ -1,0 +1,12 @@
+question: Apa manfaat utama menggunakan pengelola kata sandi menurut bab tersebut?
+answer: Ini membantu Anda untuk tidak pernah menggunakan kata sandi yang sama dua kali
+wrong_answers:
+  - Ini membantu Anda mengingat nama pengguna Anda
+  - Ini melindungi komputer Anda dari virus
+  - Ini menghasilkan kata sandi acak
+explanation: |
+  Menurut bab tersebut, pengelola kata sandi membantu Anda untuk tidak pernah
+
+  menggunakan kata sandi yang sama dua kali, memilih kata sandi yang kompleks dan aman, serta memfasilitasi
+
+  pengelolaan keamanan online Anda.

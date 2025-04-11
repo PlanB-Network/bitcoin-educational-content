@@ -1,0 +1,9 @@
+question: Siapa yang menemukan heuristik penggunaan kembali alamat?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - Vitalik Buterin
+  - Hal Finney
+  - Gavin Andresen
+explanation: |
+  Orang pertama yang membahas konsep ini adalah Satoshi Nakamoto dalam bagian 10 dari Makalah Putih Bitcoin.
+reviewed: false

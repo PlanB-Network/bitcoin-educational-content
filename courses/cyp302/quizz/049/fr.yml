@@ -1,0 +1,9 @@
+question: Quel type de groupe est particulièrement important pour la cryptographie à clé publique en raison de sa capacité à engendrer tous les éléments par exponentiation ?
+answer: Les groupes cycliques
+wrong_answers:
+  - Les groupes non-abéliens
+  - Les groupes infinis
+  - Les groupes de nombres complexes
+explanation: |
+  En cryptographie, les groupes cycliques sont essentiels, car ils permettent de générer tous les éléments du groupe en utilisant l'exponentiation d'un seul élément, appelé générateur.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quelle condition de base un ensemble S avec une opération binaire doit-il satisfaire pour être un groupe ?
+answer: La condition de fermeture
+wrong_answers:
+  - La condition de commutativité
+  - La condition de symétrie
+  - La condition de distributivité
+explanation: |
+  Un ensemble S avec une opération binaire doit satisfaire plusieurs conditions pour former un groupe, et la première est la condition de fermeture: l'opération entre deux éléments de S doit donner un élément de S.
+reviewed: false

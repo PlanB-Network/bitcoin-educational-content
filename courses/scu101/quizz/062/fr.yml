@@ -1,4 +1,4 @@
-question: Quels sont certains des aspects de la connaissance des réseaux nécessaires en cybersécurité?
+question: Quels sont certains des aspects de la connaissance des réseaux nécessaires en cybersécurité ?
 answer: TCP/IP, VPN, pare-feu
 wrong_answers:
   - HTTP, FTP, SMTP
@@ -6,4 +6,4 @@ wrong_answers:
   - DHCP, DNS, ARP
 explanation: |
   Le chapitre mentionne TCP/IP, VPN et pare-feu comme certains des aspects de la connaissance des réseaux nécessaires en cybersécurité.
-reviewed: false
+reviewed: true

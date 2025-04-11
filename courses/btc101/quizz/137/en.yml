@@ -4,8 +4,9 @@ wrong_answers:
   - By physically handing over their Bitcoins.
   - By sending an email to the recipient.
   - By providing their Bitcoin address to the recipient.
-explanation: >-
-  Users in the Bitcoin network transfer ownership of their money by digitally
-  signing transactions with their private keys. This verifies that they are the owners
-  of the Bitcoins they want to transfer.
-reviewed: false
+explanation: |
+  Users in the Bitcoin network transfer ownership of their
+  money by digitally signing transactions with their private
+  keys. This verifies that they are the owners of the
+  bitcoins they want to transfer.
+reviewed: true

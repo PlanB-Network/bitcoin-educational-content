@@ -2,8 +2,8 @@ question: Mikä on siirtomaksujen tarkoitus Bitcoin-siirroissa?
 answer: Ne ovat kannustin louhijoille sisällyttää siirto seuraavaan lohkoon.
 wrong_answers:
   - Ne ovat hallituksen määräämä vero.
-  - Ne ovat maksu, jonka Bitcoin-verkko veloittaa palveluidensa käytöstä.
-  - Ne ovat maksu, jonka lompakon tarjoaja veloittaa.
+  - Ne ovat maksu, jonka Bitcoin-verkko perii palveluidensa käytöstä.
+  - Ne ovat maksu, jonka lompakon tarjoaja perii.
 explanation: |
-  Siirtomaksut Bitcoin-siirroissa toimivat kannustimena louhijoille sisällyttää siirto seuraavaan lohkoon. Maksut luovat vapaan markkinan siirtojen sisällyttämiseksi lohkoihin.
-reviewed: false
+  Siirtomaksut Bitcoin-siirroissa toimivat kannustimena louhijoille sisällyttää siirto seuraavaan lohkoon. Maksut luovat vapaan markkinan siirtojen sisällyttämiselle lohkoihin.
+reviewed: true

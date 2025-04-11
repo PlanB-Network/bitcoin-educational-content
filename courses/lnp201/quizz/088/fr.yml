@@ -1,9 +1,0 @@
-question: Quels sont les trois types de personnes sur le Lightning Network ?
-answer: Acheteurs, commerçants et nœuds de routage
-wrong_answers:
-  - Acheteurs, vendeurs et intermédiaires
-  - Utilisateurs, commerçants et nœuds
-  - Acheteurs, commerçants et mineurs
-explanation: |
-  Sur le Lightning Network, il y a trois types de personnes : les acheteurs, qui ont besoin de liquidité sortante ; les commerçants, qui ont besoin de liquidité entrante ; et les nœuds de routage, qui cherchent à avoir une liquidité équilibrée des deux côtés.
-reviewed: false

@@ -1,0 +1,11 @@
+question: Lightning Network क्या है?
+answer: यह Bitcoin का दूसरा Layer है।
+wrong_answers:
+  - यह एक क्रिप्टोकरेंसी Exchange है।
+  - यह एक प्रकार का Bitcoin Wallet है।
+  - यह एक जीडब्ल्यू-7 जीडब्ल्यू-6 है।
+explanation: |
+  Lightning Network एक दूसरी Layer तकनीक है जिसे Bitcoin पर लागू किया गया है।
+  जो माइक्रो-पेमेंट चैनल्स का इस्तेमाल करके अपने Blockchain की क्षमता को बढ़ाता है ताकि यह संचालित कर सके
+  लेन-देन।
+reviewed: false

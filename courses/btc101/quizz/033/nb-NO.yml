@@ -1,0 +1,9 @@
+question: Hvorfor er Bitcoin en ny form for penger?
+answer: Fordi det er digital valuta uten en sentral enhet
+wrong_answers:
+  - Fordi det er en digital valuta støttet av gull
+  - Fordi det er en valuta som krever en blokkjede
+  - Fordi den amerikanske sentralbanken sier det
+explanation: >-
+  Bitcoin kan ses på som en ny form for penger, ettersom det oppstår fra et peer-to-peer nettverk uten en sentral enhet.
+reviewed: true

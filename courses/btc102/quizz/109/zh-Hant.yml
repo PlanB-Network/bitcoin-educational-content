@@ -1,0 +1,11 @@
+question: 在 Bitcoin 的背景下，Lightning Network 是什麼？
+answer: 第二個 Layer 技術，為 Bitcoin 帶來全新的願景。
+wrong_answers:
+  - Bitcoin 礦工網路。
+  - 新型的 Bitcoin。
+  - Bitcoin 交易平台。
+explanation: |
+  Lightning Network 是一種 Layer 2 支付協定，它運行在
+  基於 Blockchain 的加密貨幣（如 Bitcoin）之上。它旨在實現
+  參與節點之間的快速交易。
+reviewed: false

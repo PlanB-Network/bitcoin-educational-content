@@ -1,9 +1,9 @@
-question: ¿Qué sucede si se cambia la frase de contraseña de una billetera de Bitcoin?
-answer: La billetera de Bitcoin se vuelve completamente diferente
+question: ¿A qué corresponde la notación /<0;1>/* en un descriptor?
+answer: A la cadena externa e interna con derivación secuencial
 wrong_answers:
-  - La billetera de Bitcoin se vuelve inaccesible
-  - La billetera de Bitcoin permanece igual
-  - La billetera de Bitcoin pierde todos sus bitcoins
+  - A una dirección de multisignatura ordenada
+  - A un checksum para rutas de derivación
+  - A una ruta de derivación endurecida
 explanation: |
-  Si se cambia la frase de contraseña, la billetera de Bitcoin se vuelve completamente diferente porque la frase de contraseña juega un papel en la construcción y cálculo de todas las claves de la billetera.
+  La notación /<0;1>/* indica que el descriptor puede generar direcciones para la cadena externa (0) y interna (1), con derivación secuencial gracias al comodín (*).
 reviewed: false

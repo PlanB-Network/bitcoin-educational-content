@@ -5,4 +5,5 @@ wrong_answers:
   - Excel, PowerPoint, Word
   - AutoCAD, SolidWorks, Revit
 explanation: |
-  この章では、サイバーセキュリティで使用されるツールとしてWireshark、Metasploit、Nmapを挙げています。
+  この章では、Wireshark、Metasploit、Nmapをサイバーセキュリティで使用されるツールの一部として挙げています。
+reviewed: true

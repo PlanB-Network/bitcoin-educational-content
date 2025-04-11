@@ -5,6 +5,6 @@ wrong_answers:
   - 50,51 %.
   - 25,98 %.
 explanation: |
-  Měsíc s nejvyšší inflací v Německu byl říjen 1923, kdy dosáhla vrcholu
-  29,50 %.
-reviewed: false
+  Měsíc s nejvyšší mírou inflace v Německu byl
+  říjen 1923, kdy dosáhla vrcholu 29,50 %.
+reviewed: true

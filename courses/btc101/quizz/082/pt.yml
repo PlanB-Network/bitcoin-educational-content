@@ -1,9 +1,9 @@
-question: Qual é a tecnologia utilizada na carteira de Bitcoin para garantir a segurança dos fundos gastos na carteira de Bitcoin?
-answer: Criptografia de curva elíptica
+question: Qual é a tecnologia usada para gastar fundos de forma segura usando uma Carteira Bitcoin?
+answer: Criptografia de curva elíptica.
 wrong_answers:
-  - Criptografia simétrica
-  - Criptografia quântica
-  - Criptografia RSA
+  - Criptografia simétrica.
+  - Criptografia quântica.
+  - Criptografia RSA.
 explanation: |
-  Gastar Bitcoins requer que o proprietário utilize Curvas Elípticas para criar uma assinatura para uma transação de Bitcoin.
-reviewed: false
+  Gastar Bitcoins requer que o proprietário utilize o Algoritmo de Assinatura Digital de Curva Elíptica (ECDSA) para forjar uma assinatura para a propagação de uma transação Bitcoin.
+reviewed: true

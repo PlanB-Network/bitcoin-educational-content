@@ -1,0 +1,11 @@
+question: Mis on tehingutasude eesmärk Bitcoin'i tehingutes?
+answer: Need on stiimul kaevuritele, et lisada tehing järgmisesse plokki.
+wrong_answers:
+  - Need on valitsuse poolt kehtestatud maks.
+  - Need on tasu, mida Bitcoin'i võrk nõuab oma teenuste kasutamise eest.
+  - Need on tasu, mida rahakoti pakkuja nõuab.
+explanation: |
+  Tehingutasud Bitcoin'i tehingutes toimivad stiimulina kaevuritele,
+  et lisada tehing järgmisesse plokki. Tasud loovad vaba turu
+  tehingute plokkidesse lisamiseks.
+reviewed: true

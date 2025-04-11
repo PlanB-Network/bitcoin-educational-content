@@ -1,9 +1,0 @@
-question: Jaká je role hash r v HTLC?
-answer: Je zahrnut v faktuře poslané Bobem Alici a používá se k nastavení HTLC.
-wrong_answers:
-  - Používá se k výpočtu tajného S.
-  - Používá se k uzavření kanálu.
-  - Používá se k převodu peněz.
-explanation: |
-  Bob vygeneruje tajné S a vypočítá hash r. Tento hash je zahrnut ve faktuře poslané Bobem Alici a používá se k nastavení HTLC.
-reviewed: false

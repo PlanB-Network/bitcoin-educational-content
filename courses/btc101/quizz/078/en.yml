@@ -1,11 +1,12 @@
-question: Which of these option is false when losing the device on which you have your Bitcoin wallet?
-answer: You can recreate your wallet and spend your bitcoin by resetting your password
+question: Which of these options is false about losing the device on which you have your Bitcoin wallet?
+answer: You can recreate your wallet and spend your bitcoin by resetting your password.
 wrong_answers:
-  - You lose all your Bitcoins if you don't have the mnemonic phrase
-  - You can verify with your public keys that your bitcoins has not moved yet
-  - You can recreate your wallet and spend your bitcoin with the mnemonic phrase
+  - You lose all your Bitcoins if you don't have the mnemonic phrase.
+  - You can verify with your public keys that your bitcoins have not been spent.
+  - You can recreate your wallet and spend your bitcoin using the mnemonic phrase.
 explanation: |
-  Losing the device on which you have your wallet does not necessarily
-  mean the loss of your Bitcoins. What allows you to recreate your wallet and spend
-  your bitcoin is the mnemonic phrase.
+  Losing the device on which you have your wallet does not
+  necessarily mean the loss of your Bitcoins. What allows you
+  to recreate your wallet and spend your bitcoin is the
+  mnemonic phrase.
 reviewed: true

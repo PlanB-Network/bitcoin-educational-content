@@ -1,0 +1,9 @@
+question: Milline on plokiahela peamine funktsioon kliendipoolses valideerimisparadigmas, mida RGB kasutab?
+answer: Tagada ajatempel ja vältida topeltkulutusi
+wrong_answers:
+  - Säilitada kõik oleku üleminekud
+  - Nutika lepingu andmete paljundamine
+  - Tagada andmete ülemaailmne kättesaadavus
+explanation: |
+  Bitcoini plokiahelat kasutatakse RGBs kohustuste ajatempliks ja topeltkulutuste vältimiseks, ilma et salvestataks kõiki riigi üleminekuid.
+reviewed: false

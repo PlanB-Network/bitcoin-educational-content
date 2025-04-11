@@ -1,9 +1,9 @@
-question: Tại sao không phải ai cũng sử dụng chung một Ví Bitcoin?
-answer: Bởi vì mỗi người có nhu cầu sử dụng khác nhau.
+question: Điều gì ngăn cản mọi người sử dụng cùng một ví Bitcoin?
+answer: Mỗi người cần những trường hợp sử dụng khác nhau.
 wrong_answers:
-  - Bởi vì việc sử dụng Ví Bitcoin tốn kém
-  - Bởi vì việc sử dụng Ví Bitcoin là bất hợp pháp
-  - Bởi vì mọi người sẽ không bao giờ đồng ý về tên của ví như vậy
+  - Việc sử dụng Ví Bitcoin rất tốn kém.
+  - Việc sử dụng Ví Bitcoin là bất hợp pháp.
+  - Mọi người sẽ không bao giờ đồng ý về tên của ví như vậy.
 explanation: |
-  Trong khi một người có thể ưu tiên về an ninh, người khác có thể coi trọng tính thân thiện với người dùng hoặc các tính năng cụ thể. Do đó, một Ví Bitcoin duy nhất có thể không đáp ứng được yêu cầu của tất cả mọi người, làm cho việc tồn tại nhiều lựa chọn ví trở nên cần thiết.
-reviewed: false
+  Trong khi một người có thể ưu tiên về an ninh, người khác có thể coi trọng tính thân thiện với người dùng hoặc các tính năng cụ thể. Do đó, một Ví Bitcoin duy nhất có thể không đáp ứng được yêu cầu của tất cả mọi người, làm cho việc tồn tại nhiều lựa chọn ví khác nhau trở nên cần thiết.
+reviewed: true

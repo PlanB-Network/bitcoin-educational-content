@@ -1,0 +1,9 @@
+question: Was sind die drei grundlegenden Schritte in einem MAC-Verfahren?
+answer: Schlüsselerzeugung, Tag-Erzeugung, Verifizierung
+wrong_answers:
+  - Verschlüsselung, Entschlüsselung, Übertragung
+  - Öffentliche Schlüsselerzeugung, private Schlüsselverschlüsselung, Validierung
+  - Nachrichten-Hashing, Tag-Verschlüsselung, Tag-Verteilung
+explanation: |
+  Ein MAC-Verfahren besteht aus drei Hauptschritten: Erzeugung eines geheimen Schlüssels, Produktion eines Tags für die Nachricht und Verifizierung, dass die empfangene Nachricht und ihr Tag übereinstimmen.
+reviewed: false

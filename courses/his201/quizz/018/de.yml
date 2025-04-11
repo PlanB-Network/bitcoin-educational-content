@@ -1,0 +1,9 @@
+question: Was war einzigartig an RPOW im Vergleich zu anderen digitalen Währungskonzepten wie eCash, b-money und bit gold?
+answer: Es basierte auf einem transparenten Server.
+wrong_answers:
+  - Es nutzte Proof of Work.
+  - Seine Rechnungseinheit war durch nichts gedeckt.
+  - Benutzer hielten digitale Notizen spezifischer Nennwerte anstelle von Konten.
+explanation: |
+  Es machte Gebrauch von Proof of Work wie b-money und bit gold. Es gab keine Deckung wie bei bit gold. Wie eCash (und später Bitcoin) erlaubte RPOW das Halten von individuellen digitalen Notizen, anstatt eines Kontos, und war in dieser Hinsicht relativ vertraulich.
+reviewed: false

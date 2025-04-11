@@ -1,9 +1,9 @@
-question: Wie wird die Anzahl der Wörter in der Wiederherstellungsphrase bei der Generierung einer mnemonischen Phrase für eine Bitcoin-Wallet bestimmt?
-answer: Es hängt von der Größe der Entropie ab.
+question: Was ist die Einschränkung für die Ableitung eines Kind-Öffentlichen-Schlüssels von einem Eltern-Öffentlichen-Schlüssel?
+answer: Der Kind-Schlüssel muss normal sein
 wrong_answers:
-  - Es hängt von der Größe der Prüfsumme ab.
-  - Es sind immer 24 Wörter.
-  - Es wird zufällig generiert.
+  - Der Kind-Schlüssel muss gehärtet sein
+  - Der Ketten-Code muss identisch mit dem des Eltern-Schlüssels sein
+  - Der Prozess muss den Eltern-Privatschlüssel beinhalten
 explanation: |
-  Abhängig von der Größe der Entropie besteht die Wiederherstellungsphrase aus 12 Wörtern für 128 Bits, 15 Wörtern für 160 Bits und 24 Wörtern für 256 Bits.
+  Ein Kind-Öffentlicher-Schlüssel kann nur von einem Eltern-Öffentlichen-Schlüssel abgeleitet werden, wenn er normal und nicht gehärtet ist.
 reviewed: false

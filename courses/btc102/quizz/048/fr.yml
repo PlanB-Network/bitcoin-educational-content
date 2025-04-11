@@ -1,11 +1,11 @@
-question: Quelle est la principale caractéristique d'une "blockchain" sans preuve de travail ?
+question: Quelle est la principale caractéristique d'une blockchain sans preuve de travail ?
 answer: Elle n'a aucune valeur réelle
 wrong_answers:
   - Elle est plus sécurisée
   - Elle est plus rapide
   - Elle est plus décentralisée
 explanation: |
-  Le contenu du chapitre indique que sans preuve de travail, une "blockchain"
+  Le contenu du chapitre indique que sans preuve de travail, une blockchain
   n'a aucune valeur réelle. C'est une caractéristique clé qui distingue Bitcoin des autres
   cryptomonnaies.
 reviewed: false

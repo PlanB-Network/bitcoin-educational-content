@@ -1,9 +1,13 @@
 question: Quel est l'impact potentiel du système financier actuel sur les acteurs politiques ?
-answer: Ils ne sont pas incités à apporter des changements radicaux, ce qui permet au système de continuer son cours jusqu'à une possible implosion.
+answer: Ils ne sont pas incités à effectuer des changements radicaux, permettant au système de poursuivre sa trajectoire jusqu'à une possible implosion.
 wrong_answers:
-  - Ils sont incités à apporter des changements radicaux pour éviter une possible implosion.
+  - Ils sont incités à effectuer des changements radicaux pour prévenir une possible implosion.
   - Ils ne sont pas incités à maintenir le statu quo pour assurer leur propre richesse.
   - Ils sont incités à penser à long terme.
 explanation: |
-  Étant donné que les acteurs politiques bénéficient du système financier actuel, ils ne sont pas incités à apporter des changements radicaux. Cela permet au système de continuer son cours jusqu'à une possible implosion, car le système est réglementé et restreint pour éviter son effondrement.
-reviewed: false
+  Comme les acteurs politiques bénéficient du système financier
+  actuel, ils ne sont pas incités à effectuer des changements radicaux.
+  Cela permet au système de poursuivre sa trajectoire jusqu'à
+  une possible implosion, car le système est régulé et
+  restreint pour éviter son propre effondrement.
+reviewed: true

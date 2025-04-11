@@ -5,5 +5,9 @@ wrong_answers:
   - Zabránit pádu prohlížeče.
   - Vyhnout se sledování ze strany třetích stran.
 explanation: |
-  Ačkoliv rozšíření prohlížeče mohou poskytovat užitečné funkce, mohou také představovat bezpečnostní rizika, jelikož mají přístup k vašim datům a aktivitě při prohlížení. Kromě toho, mít příliš mnoho rozšíření může zpomalit váš prohlížeč a ovlivnit jeho výkon.
-reviewed: false
+  Ačkoliv rozšíření prohlížeče mohou poskytovat užitečné
+  funkce, mohou také představovat bezpečnostní rizika, jelikož
+  mohou přistupovat k vašim datům a aktivitě prohlížení. Navíc,
+  mít příliš mnoho rozšíření může zpomalit váš prohlížeč a
+  ovlivnit jeho výkon.
+reviewed: true

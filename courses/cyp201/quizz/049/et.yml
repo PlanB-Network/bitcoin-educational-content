@@ -1,0 +1,8 @@
+question: Mis on mnemoonilise fraasi eesmärk Bitcoin HD rahakotis?
+answer: Kõikide võtmete deterministlik tuletamine
+wrong_answers:
+  - Tehingute otse allkirjastamiseks
+  - Bitcoin aadresside krüpteerimiseks
+  - UTXO-de jaoks räsi genereerimiseks
+explanation: |
+  Mnemooniline fraas võimaldab kõikide privaat- ja avalike võtmete tuletamist rahakotis, hõlbustades seeläbi varundamist ja taastamist.

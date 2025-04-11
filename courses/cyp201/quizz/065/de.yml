@@ -1,9 +1,9 @@
-question: Was ist der Hauptvorteil der Verwendung eines neuen Schlüsselpaars für jede Bitcoin-Transaktion?
-answer: Es verbessert die Sicherheit.
+question: Was ist der Unterschied zwischen einem normalen Kinderschlüssel und einem gehärteten Kinderschlüssel?
+answer: Ein gehärteter Kinderschlüssel benötigt den privaten Schlüssel des Elternteils für seine Ableitung.
 wrong_answers:
-  - Es verbessert die Geschwindigkeit.
-  - Es verbessert die Anonymität.
-  - Es verbessert die Rechtmäßigkeit.
+  - Ein normaler Kinderschlüssel kann nicht von öffentlichen Schlüsseln abgeleitet werden.
+  - Ein gehärteter Kinderschlüssel verwendet einen ungeraden Index.
+  - Ein normaler Kinderschlüssel ist sicherer als ein gehärteter Kinderschlüssel.
 explanation: |
-  Die Verwendung eines neuen Schlüsselpaars für jede Transaktion verbessert die Sicherheit von Bitcoin-Transaktionen. Es erschwert jedoch deren Sicherung und bewahrt die Vertraulichkeit nur teilweise.
+  Ein normaler Kinderschlüssel kann vom öffentlichen Schlüssel des Elternteils abgeleitet werden, im Gegensatz zu einem gehärteten Kinderschlüssel, der den privaten Schlüssel des Elternteils benötigt.
 reviewed: false

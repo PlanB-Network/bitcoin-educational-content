@@ -5,8 +5,9 @@ wrong_answers:
   - It is a situation where individuals collaborate, leading to maximum gains for themselves but suboptimal gains for the group.
   - It is a situation where individuals refuse to collaborate, leading to suboptimal gains for themselves and the group.
 explanation: |
-  The prisoner's dilemma is a concept in game theory where individuals
-  have an incentive to choose strategies that maximize their individual gain, regardless
-  of the strategies chosen by others, even when a more desirable equilibrium through
-  coordination/collaboration is possible.
-reviewed: false
+  The prisoner's dilemma is a concept in game theory where
+  individuals have an incentive to choose strategies that
+  maximize their individual gain, regardless of the
+  strategies chosen by others, even when a more desirable
+  equilibrium through coordination/collaboration is possible.
+reviewed: true

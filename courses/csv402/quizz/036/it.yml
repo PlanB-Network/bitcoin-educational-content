@@ -1,0 +1,9 @@
+question: Qual è il ruolo della scorta?
+answer: Mantenere tutti i dati del lato client in locale
+wrong_answers:
+  - Pubblicare automaticamente le transazioni sulla blockchain
+  - Compilare e archiviare tutte le fatture generate
+  - Gestione delle chiavi private Bitcoin
+explanation: |
+  Lo stash è l'insieme dei dati lato client che un utente memorizza localmente per uno o più contratti RGB, al fine di eseguire la convalida lato client.
+reviewed: false

@@ -1,0 +1,9 @@
+question: シフト暗号において、キーが17の場合の単語DOGの結果は何ですか？
+answer: UFX
+wrong_answers:
+  - ZKH
+  - TPG
+  - UVW
+explanation: |
+  アルファベットを17シフトすると、DはUに、OはFに、そしてGはXになります。したがって、暗号化された単語はUFXです。
+reviewed: false

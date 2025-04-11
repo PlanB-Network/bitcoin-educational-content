@@ -1,0 +1,9 @@
+question: Millist tüüpi gruppe kasutatakse peamiselt krüptograafias?
+answer: Grupid, mis on defineeritud täisarvudel või elementidel, mida kirjeldatakse täisarvudega
+wrong_answers:
+  - Kompleksarvudel või elementidel, mida kirjeldatakse kompleksarvudega põhinevad grupid
+  - Geomeetrilistel transformatsioonidel või elementidel, mida kirjeldatakse geomeetriliste transformatsioonidega põhinevad grupid
+  - Ratsionaalarvudel või elementidel, mida kirjeldatakse ratsionaalarvudega põhinevad grupid
+explanation: |
+  Krüptograafia kasutab gruppe, mis põhinevad täisarvudel või elementidel, mida kirjeldatakse täisarvudega, nagu näiteks punktid elliptilisel kõveral, krüpteerimis- ja allkirjastamisoperatsioonide jaoks.
+reviewed: false

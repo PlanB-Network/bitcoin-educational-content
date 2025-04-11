@@ -1,0 +1,12 @@
+question: Apa peran individu terpercaya dalam rencana warisan Anda?
+answer: Untuk membantu keluarga Anda ketika Anda sudah tidak ada lagi dengan memberikan nasihat tentang pengelolaan kunci dan dompet, membantu memahami cara aman untuk memulihkan frasa rahasia (seeds), dan memberikan jaminan selama transaksi.
+wrong_answers:
+  - Untuk mengambil alih aset kripto Anda setelah kematian Anda, untuk mengelola aset Anda, dan untuk mendistribusikan aset Anda di antara ahli waris Anda.
+  - Untuk mencuri aset kripto Anda sebelum diserahkan kepada orang-orang terkasih Anda, untuk mengkompromikan transaksi Anda, dan untuk menciptakan konflik di antara ahli waris Anda.
+  - Untuk mengabaikan keluarga Anda ketika Anda sudah tidak ada lagi, untuk memberikan nasihat yang menyesatkan tentang pengelolaan kunci dan dompet, dan untuk menciptakan kebingungan selama transaksi.
+explanation: |
+  Individu terpercaya dalam rencana warisan Anda ada untuk membantu
+  keluarga Anda ketika Anda sudah tidak ada lagi. Mereka memberikan nasihat tentang pengelolaan kunci dan dompet,
+  membantu memahami cara aman untuk memulihkan frasa rahasia (seeds), dan memberikan jaminan
+  selama transaksi.
+reviewed: false

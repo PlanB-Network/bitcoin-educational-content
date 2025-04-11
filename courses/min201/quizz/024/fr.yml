@@ -1,10 +1,10 @@
-question: Quel est l'événement appelé lorsque la récompense pour l'extraction des transactions Bitcoin est réduite de moitié ?
+question: Quel est le nom de l'événement lors duquel la récompense pour le minage des transactions Bitcoin est divisée par deux ?
 answer: Halving
 wrong_answers:
   - Doublage
-  - Quartage
+  - Quadruplage
   - Triplement
 explanation: |
-  La réduction programmée des récompenses minières, qui est réduite de moitié tous les quatre ans,
-  est un événement connu sous le nom de "halving".
-reviewed: false
+  La réduction programmée des récompenses de minage, divisant par deux tous les
+  quatre ans, est un événement connu sous le nom de halving.
+reviewed: true

@@ -1,9 +1,9 @@
-question: Google Chromeブラウザを避けることが推奨されるのはなぜですか？
+question: なぜGoogle Chromeブラウザを避けることが推奨されるのですか？
 answer: トラッカーがあるためです。
 wrong_answers:
-  - セキュリティがないからです。
+  - セキュリティが強くないからです。
   - ユーザーフレンドリーではないからです。
   - 拡張機能をサポートしていないからです。
 explanation: |
   Google Chromeブラウザは、オンライン活動に関するデータを収集できるトラッカーで知られています。これは、一部のユーザーにとってプライバシーの懸念となる可能性があります。
-reviewed: false
+reviewed: true

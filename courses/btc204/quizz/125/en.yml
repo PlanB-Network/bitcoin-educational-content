@@ -1,0 +1,13 @@
+question: What is the main goal of a coinswap?
+
+answer: To secretly transfer the ownership of bitcoins
+
+wrong_answers:
+  - Increase the speed of transactions
+  - Mix bitcoins
+  - Secretly exchange an altcoin for bitcoin
+
+explanation: |
+  Coinswap uses smart contracts to enable a transfer of bitcoin ownership between two users, without the need for trust and without this transfer being explicitly visible on the blockchain.
+
+reviewed: false

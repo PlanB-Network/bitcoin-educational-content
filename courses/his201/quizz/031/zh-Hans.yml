@@ -1,0 +1,8 @@
+question: 在发现比特币之前，谷歌工程师Mike Hearn对哪个数字货币系统感兴趣？
+answer: Ripple
+wrong_answers:
+  - 自由储备
+  - eLD
+  - RPOW
+explanation:
+  正是在Ryan Fugger的项目Google Group中，他在2009年4月首次听说比特币。他立即联系了Satoshi提出问题。

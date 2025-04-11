@@ -1,7 +1,0 @@
-description: |
-  Bitshala là một sáng kiến giáo dục (hoặc một lớp học) do các bitcoiner Ấn Độ dẫn dắt nhằm cung cấp hướng dẫn và nguồn lực cho các nhà phát triển mới bắt đầu hành trình bitcoin của họ.
-  Mặc dù có rất nhiều khóa học về Blockchain tồn tại để cung cấp các bài học API cấp bề mặt về EVM như "hợp đồng thông minh", nhưng kiến thức kỹ thuật yêu cầu cho Phát triển Bitcoin rộng lớn và tinh tế hơn nhiều.
-  Bitcoin là một chủ đề đa ngành bao gồm Kỹ thuật Phần mềm, Kỹ thuật Hệ thống, Thiết kế Giao thức Mạng, Lý thuyết Trò chơi, Mật mã học, Kinh tế học và Động lực Xã hội của các Hệ thống Phức tạp như Thị trường. Do đó, việc tạo ra một khóa học bitcoin toàn diện có lẽ là không thể trong toàn bộ nội dung của nó, và không có gì trong học thuật hiện tại và các trại huấn luyện lập trình đáp ứng được những yêu cầu như vậy. Những người mới cố gắng tham gia vào Phát triển Bitcoin do đó phải tìm kiếm qua một bộ lớn các lĩnh vực chủ đề song song, không được tổ chức tốt và phân tán trên internet.
-  Do đó, Bitshala nhằm mục đích cung cấp nền tảng cho việc tưởng tượng, sản xuất và xuất bản các loại nội dung khác nhau dưới dạng Mã nguồn Mở để đáp ứng nhu cầu học tập đa dạng của một Nhà phát triển Bitcoin tiềm năng.
-contributors:
-  - rabbit-hole

@@ -1,0 +1,9 @@
+question: Milline riik on kuulutanud Bitcoini seaduslikuks maksevahendiks?
+answer: El Salvador
+wrong_answers:
+  - Ameerika Ühendriigid
+  - Hiina
+  - India
+explanation: >-
+  El Salvador on astunud julge sammu, võttes Bitcoini täielikult omaks ja kuulutades selle seaduslikuks maksevahendiks.
+reviewed: false

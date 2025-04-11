@@ -1,9 +1,0 @@
-question: Phương pháp được khuyến nghị để lưu trữ Mật khẩu Dùng Một Lần (OTPs) là gì?
-answer: Giữ OTPs trên thiết bị di động của bạn.
-wrong_answers:
-  - Ghi chúng ra giấy.
-  - Lưu trữ chúng trong email của bạn.
-  - Ghi nhớ chúng.
-explanation: |
-  Để đảm bảo an ninh tối ưu, việc giữ OTPs (Mật khẩu Dùng Một Lần) trên thiết bị di động của bạn là lời khuyên được đưa ra. Điều này là bởi vì thiết bị di động nói chung an toàn hơn và ít có khả năng bị xâm phạm hơn so với các phương pháp lưu trữ khác.
-reviewed: false

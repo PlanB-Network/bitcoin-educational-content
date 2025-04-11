@@ -1,9 +1,0 @@
-question: ¿Cuál es el propósito de la frase de contraseña en la billetera HD?
-answer: Actúa como una sal criptográfica que agrega una capa adicional de protección a la billetera.
-wrong_answers:
-  - Se utiliza para generar la semilla de la billetera.
-  - Se utiliza para derivar claves secundarias.
-  - Se utiliza para calcular la suma de verificación.
-explanation: |
-  La frase de contraseña en la billetera HD actúa como una sal criptográfica que agrega una capa adicional de protección a la billetera. Se utiliza en conjunto con la frase mnemotécnica para generar la semilla de la billetera.
-reviewed: false

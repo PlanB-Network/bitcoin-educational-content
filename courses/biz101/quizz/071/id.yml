@@ -1,0 +1,9 @@
+question: Peran apa yang dilakukan LSP dalam pembayaran Bitcoin Perusahaan?
+answer: Mengelola transaksi bervolume tinggi di Lightning
+wrong_answers:
+  - Menyimpan kunci pribadi dompet Lightning
+  - Cetak faktur Lightning
+  - Memproses pengembalian dana secara manual di Lightning
+explanation: |
+  LSP menangani operasi yang kompleks dan bervolume tinggi pada Lightning.
+reviewed: false

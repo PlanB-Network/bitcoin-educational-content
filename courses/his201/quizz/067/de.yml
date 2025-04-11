@@ -1,0 +1,9 @@
+question: Welche Organisation begann im November 2010 auf Drängen der Gemeinschaft damit, Bitcoin zu akzeptieren?
+answer: Die Electronic Frontier Foundation
+wrong_answers:
+  - WikiLeaks
+  - Das Rote Kreuz
+  - Amnesty International
+explanation: |
+  Diese Organisation, die 1900 von Mitch Kapor, John Gilmore und John Perry Barlow mitgegründet wurde, zielte darauf ab, die Freiheiten im Internet zu schützen. Sie begann am 9. November damit, Bitcoin zu akzeptieren.
+reviewed: false

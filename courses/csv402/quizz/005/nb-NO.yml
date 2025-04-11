@@ -1,0 +1,9 @@
+question: Hvilken metode brukes i RGB for å definere en engangsplombe?
+answer: Et spesifikt utpunkt
+wrong_answers:
+  - En spesifikk offentlig nøkkel
+  - En spesifikk Bitcoin-adresse
+  - En kombinasjon av flere UTXO-er
+explanation: |
+  RGB definerer en engangsplombe som et spesifikt utpunkt, som deretter kan lukkes med utgiften til dette utpunktet (TXID + utgangsnummer).
+reviewed: false

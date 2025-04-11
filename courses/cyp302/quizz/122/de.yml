@@ -1,0 +1,9 @@
+question: Was ist das Schlüsselverteilungsproblem?
+answer: Die Herausforderung, Schlüssel sicher ohne physischen Austausch zu übertragen
+wrong_answers:
+  - Die Notwendigkeit, pro Klient mehrere Schlüsselpaare zu generieren
+  - Die Schwierigkeit, die physische Speicherung von Schlüsseln zu sichern
+  - Die Verpflichtung, bei jeder Kommunikation die Schlüssel zu wechseln
+explanation: |
+  Das Schlüsselverteilungsproblem bezieht sich auf die Herausforderung, Schlüssel auf sichere Weise zu übertragen, eine Notwendigkeit, die in der digitalen Kommunikation, wo ein physischer Austausch unpraktisch ist, entscheidend geworden ist.
+reviewed: false

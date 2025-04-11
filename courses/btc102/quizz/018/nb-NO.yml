@@ -1,0 +1,12 @@
+question: Hva er forskjellen mellom å trade, investere og holde i konteksten av Bitcoin?
+answer: Trading involverer kortsiktige kontrakter med høy risiko, investering innebærer å kjøpe BTC for kort til mellomlang sikt med begrenset risiko, og å holde innebærer å beholde BTC for en veldig lang sikt med begrenset risiko.
+wrong_answers:
+  - Trading innebærer å kjøpe BTC for lang sikt, investering innebærer kortsiktige kontrakter med høy risiko, og å holde innebærer å beholde BTC for en kort til mellomlang sikt med begrenset risiko.
+  - Trading innebærer å kjøpe BTC for kort til mellomlang sikt, investering innebærer kortsiktige kontrakter med høy risiko, og å holde innebærer å beholde BTC for en veldig lang sikt med høy risiko.
+  - Trading innebærer å kjøpe BTC for kort til mellomlang sikt, investering innebærer kortsiktige kontrakter med høy risiko, og å holde innebærer å beholde BTC for en veldig lang sikt med begrenset risiko.
+explanation: |
+  Trading, investering og å holde er tre forskjellige strategier brukt i
+  Bitcoin-markedet. Trading involverer kortsiktige kontrakter med høy risiko, investering
+  innebærer å kjøpe BTC for kort til mellomlang sikt med begrenset risiko, og å holde innebærer
+  å beholde BTC for en veldig lang sikt med begrenset risiko.
+reviewed: false

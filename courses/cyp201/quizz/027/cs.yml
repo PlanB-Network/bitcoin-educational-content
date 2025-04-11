@@ -1,11 +1,9 @@
-question: Co uchovává Bitcoinová peněženka?
-answer: Soukromé klíče nezbytné pro prokázání vlastnictví bitcoinů
+question: Jaká zranitelnost podpisu ECDSA byla opravena pomocí SegWit?
+answer: Změnitelnost
 wrong_answers:
-  - Samotné bitcoiny
-  - Veřejné klíče nezbytné pro prokázání vlastnictví bitcoinů
-  - Historii transakcí bitcoinů
+  - Dávková verifikace
+  - Nedostatek agregace
+  - Nadměrná velikost podpisů
 explanation: |
-  Ve skutečnosti Bitcoinová peněženka uchovává soukromé klíče nezbytné pro prokázání
-  vlastnictví bitcoinů. Samotné bitcoiny jsou zaznamenány na blockchainu,
-  decentralizované databázi, která archivuje všechny transakce.
+  SegWit opravil změnitelnost podpisů ECDSA, což umožnilo využití, jako je Lightning Network.
 reviewed: false

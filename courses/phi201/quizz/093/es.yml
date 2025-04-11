@@ -1,0 +1,9 @@
+question: ¿Cuál es la perspectiva de Tocqueville sobre el derecho al trabajo?
+answer: Tocqueville se opone al derecho al trabajo y teme que pueda llevar al estatismo y la pérdida de la libertad individual.
+wrong_answers:
+  - Tocqueville está a favor del derecho al trabajo y cree que el Estado debería garantizar a todos los ciudadanos un trabajo decente.
+  - Tocqueville piensa que el derecho al trabajo es un principio noble pero que es difícil de implementar de manera efectiva y justa.
+  - Tocqueville no declara claramente su posición sobre el derecho al trabajo.
+explanation: |
+  Tocqueville se opone al derecho al trabajo, temiendo que esta responsabilidad otorgada al Estado pueda llevar a un intervencionismo excesivo y una reducción de las libertades individuales, en favor del control centralizado.
+reviewed: false

@@ -5,7 +5,8 @@ wrong_answers:
   - To sell you products or services.
   - To invite you to events or webinars.
 explanation: |
-  Phishing attempts are aimed at extracting sensitive information such
-  as your credentials and passwords. Hackers use various tactics such as fraudulent
-  emails to trick you into revealing your information.
-reviewed: false
+  Phishing attempts are aimed at extracting sensitive
+  information such as your credentials and passwords. Hackers
+  use various tactics such as fraudulent emails to trick you
+  into revealing your information.
+reviewed: true

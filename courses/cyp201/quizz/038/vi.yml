@@ -1,9 +1,9 @@
-question: Tổng số khả năng cho một khóa riêng tư theo lý thuyết là bao nhiêu?
-answer: 2^256
+question: Tại sao không nên tái sử dụng địa chỉ Bitcoin?
+answer: Nó tạo điều kiện cho việc theo dõi giao dịch bởi bên thứ ba
 wrong_answers:
-  - 2^128
-  - 2^512
-  - 2^1024
+  - Nó tiết lộ khóa riêng do nonce
+  - Nó làm cho giao dịch trở nên đắt đỏ hơn
+  - Nó làm mất hiệu lực của chữ ký số
 explanation: |
-  Tổng số khả năng cho một khóa riêng tư theo lý thuyết là 2^256, nhưng thực tế, nó ít hơn một chút so với con số đó.
+  Việc tái sử dụng một địa chỉ cho phép người quan sát dễ dàng liên kết các giao dịch khác nhau với cùng một người dùng, làm ảnh hưởng đến quyền riêng tư của họ.
 reviewed: false

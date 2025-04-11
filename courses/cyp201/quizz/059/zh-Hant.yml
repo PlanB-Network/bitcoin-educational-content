@@ -1,0 +1,9 @@
+question: seed 在 Bitcoin HD Wallet 中的作用是什麼？
+answer: 作為衍生所有金鑰的起點
+wrong_answers:
+  - 儲存 Wallet 的交易
+  - 直接 generate 主公開金鑰
+  - 確保交易機密性
+explanation: |
+  seed 是從 Mnemonic 詞組和 passphrase 衍生出來的 512 位元序列。它構成 Wallet 中所有金鑰的基礎。
+reviewed: false

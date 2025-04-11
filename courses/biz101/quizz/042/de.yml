@@ -1,0 +1,9 @@
+question: Was löst in den meisten Rechtsordnungen ein steuerpflichtiges Ereignis beim Handel mit Bitcoin aus?
+answer: Der Verkauf, der Handel oder die Verwendung von Bitcoin als Zahlungsmittel löst häufig ein steuerpflichtiges Ereignis aus.
+wrong_answers:
+  - Einfaches Halten von Bitcoin auf unbestimmte Zeit ohne jegliche Transaktionen.
+  - Sichern Sie Ihre Bitcoin-Brieftasche oder -Schlüssel.
+  - Den Bitcoin-Preis online einsehen.
+explanation: |
+  In der Regel tritt ein steuerpflichtiges Ereignis ein, wenn ein Unternehmen seine Bitcoin veräußert oder verwendet, nicht nur, wenn es sie hält. Jeder Verkauf oder Tausch von Bitcoin gegen Waren, Dienstleistungen oder Fiat-Währung kann zu steuerpflichtigen Gewinnen oder Verlusten führen.
+reviewed: false

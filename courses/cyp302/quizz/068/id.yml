@@ -1,0 +1,8 @@
+question: Apa peran kunci dalam proses enkripsi dan dekripsi simetris?
+answer: Digunakan untuk mengenkripsi dan mendekripsi pesan
+wrong_answers:
+  - Hanya digunakan untuk mendekripsi pesan
+  - Digunakan untuk membuat kode verifikasi integritas pesan
+  - Dibagikan secara publik untuk menghasilkan kunci lain
+explanation: |
+  Dalam skema enkripsi simetris, kunci privat yang sama digunakan baik untuk mengenkripsi pesan saat mengirim maupun untuk mendekripsinya saat diterima.

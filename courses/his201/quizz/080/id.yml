@@ -1,0 +1,9 @@
+question: Ke nama domain apa forum Bitcoin dipindahkan pada tanggal 1 Agustus 2011?
+answer: bitcointalk.org
+wrong_answers:
+  - forum.bitcoin.org
+  - bitcoinforum.org
+  - bitco.in/forum
+explanation: |
+  Setelah dipindahkan ke forum.bitcoin.org pada tanggal 17 Mei, forum tersebut berganti URL ke bitcointalk.org mulai dari tanggal 1 Agustus. Selama bertahun-tahun, forum ini akan dikenal sebagai BitcoinTalk.
+reviewed: false

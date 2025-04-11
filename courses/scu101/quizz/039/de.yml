@@ -5,5 +5,8 @@ wrong_answers:
   - Basierend auf persönlichen Informationen wie Geburtsdaten und Namen.
   - Das gleiche Passwort für alle Konten.
 explanation: |
-  Ein gutes Passwort ist lang (mindestens 12 Zeichen), komplex (eine Mischung aus Groß- und Kleinbuchstaben, Zahlen und Symbolen), einzigartig (wird nicht für verschiedene Konten wiederverwendet) und nicht auf persönlichen Informationen basierend.
-reviewed: false
+  Ein gutes Passwort ist lang (mindestens 12 Zeichen), komplex
+  (eine Mischung aus Groß- und Kleinbuchstaben, Zahlen und
+  Symbolen), einzigartig (nicht für verschiedene Konten wiederverwendet) und
+  nicht auf persönlichen Informationen basierend.
+reviewed: true

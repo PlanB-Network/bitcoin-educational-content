@@ -1,0 +1,12 @@
+question: Apa itu Masalah Jenderal Bizantium dan bagaimana Bitcoin menyelesaikannya?
+answer: Ini adalah masalah koordinasi informasi dalam sistem di mana berbagai aktor tidak dapat dipercaya. Bitcoin menyelesaikannya melalui penggunaan blockchain berbasis Bukti Kerja dengan kesulitan yang berubah-ubah.
+wrong_answers:
+  - Ini adalah masalah verifikasi transaksi dalam jaringan terdesentralisasi. Bitcoin menyelesaikannya melalui penggunaan tanda tangan digital.
+  - Ini adalah masalah mencegah pengeluaran ganda dalam mata uang digital. Bitcoin menyelesaikannya melalui penggunaan buku besar publik.
+  - Ini adalah masalah mempertahankan konsensus dalam jaringan terdesentralisasi. Bitcoin menyelesaikannya melalui penggunaan algoritma Bukti Kepemilikan.
+explanation: |
+  Masalah Jenderal Bizantium adalah masalah klasik dalam komputasi terdistribusi,
+  yang melibatkan pencapaian konsensus dalam jaringan di mana beberapa node mungkin rusak
+  atau berbahaya. Bitcoin menyelesaikan masalah ini melalui penggunaan blockchain berbasis
+  Bukti Kerja, yang memastikan semua node setuju pada keadaan riwayat transaksi.
+reviewed: false

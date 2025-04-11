@@ -1,9 +1,8 @@
-question: O que Alice faz depois de receber o endereço público de Bob?
-answer: Ela cria um endereço multi-sig 2/2.
+question: Como é criado um novo estado de canal após cada transferência?
+answer: Criando uma nova transação de compromisso com a distribuição atualizada
 wrong_answers:
-  - Ela envia dinheiro para o endereço público de Bob.
-  - Ela publica uma transação na rede Bitcoin.
-  - Ela pede a assinatura de Bob.
+  - Postando uma transação on-chain após cada transferência
+  - Aumentando a capacidade total do canal
+  - Fechando e reabrindo o canal após cada transação
 explanation: |
-  Após receber o endereço público de Bob, Alice o utiliza junto com seu próprio endereço público para criar um endereço multi-sig 2/2. Este é o endereço para o qual ela enviará dinheiro para abrir o canal.
-reviewed: false
+  Cada transação dentro do canal atualiza o estado do canal com uma nova transação de compromisso, refletindo a distribuição atual de fundos entre os dois participantes.

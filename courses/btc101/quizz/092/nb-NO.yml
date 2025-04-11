@@ -1,0 +1,12 @@
+question: Hva er den anbefalte bruken av en multisig-lommebok?
+answer: For store beløp for bedriftsbruk
+wrong_answers:
+  - For små beløp for personlig bruk
+  - For mellomstore beløp for ideell bruk
+  - For daglige utgifter for individuell bruk
+explanation: |
+  En multisig-lommebok anbefales for store beløp og bedriftsbruk
+  fordi den krever flere signaturer for å utføre en transaksjon. Dette legger til et ekstra
+  sikkerhetslag, ettersom det betyr at en enkelt person ikke kan utføre en transaksjon
+  uten godkjenning fra andre.
+reviewed: true

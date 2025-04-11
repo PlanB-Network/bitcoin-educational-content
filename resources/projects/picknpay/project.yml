@@ -1,0 +1,21 @@
+id: cc0bff79-73d9-496c-9b4d-ae8898c882c4
+name: Pick n Pay
+category: merchant
+
+links:
+  website: https://www.pnp.co.za/
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-02-17
+    urgency: 1
+    contributor_names:
+      - jramos0
+    reward: 0
+tags:
+  - adoption
+  - use-case
+  - business
+contributor_names:
+  - Asi0Flammeus

@@ -1,0 +1,8 @@
+question: Hva er hovedkarakteristikken til en kryptografisk hashfunksjon?
+answer: Den produserer en utdata med fast lengde for enhver inndata, uavhengig av størrelsen.
+wrong_answers:
+  - Den krypterer data ved bruk av en symmetrisk nøkkel.
+  - Den produserer en variabel utdata avhengig av lengden på inndata.
+  - Den dekrypterer meldinger ved bruk av en offentlig nøkkel.
+explanation: |
+  En hashfunksjon genererer en hash med fast lengde, uansett størrelsen på inndata.

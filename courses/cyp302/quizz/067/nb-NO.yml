@@ -1,0 +1,8 @@
+question: Hva skjer hvis en angriper avlytter en kryptert melding i et godt symmetrisk krypteringssystem?
+answer: De burde ikke lære noe signifikant om den opprinnelige meldingen
+wrong_answers:
+  - De kan alltid dekryptere meldingen uten nøkkelen
+  - De burde kunne dekryptere den med en offentlig nøkkel
+  - De burde kunne gjette innholdet i meldingen
+explanation: |
+  I et godt utformet symmetrisk krypteringssystem, bør en angriper som avlytter en kryptert melding ikke være i stand til å utlede relevant informasjon om innholdet i meldingen uten dekrypteringsnøkkelen.

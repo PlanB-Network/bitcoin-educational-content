@@ -1,0 +1,9 @@
+question: Turgot和Adam Smith关于价值的理论有什么根本区别？
+answer: Turgot认为价值由劳动决定，而Smith认为它是由效用决定的。
+wrong_answers:
+  - Turgot认为自由贸易是最佳经济政策，而Smith则相信保护主义。
+  - Turgot认为国家的角色是让市场自由，而Smith认为政府应该干预经济。
+  - Turgot和Smith关于价值的理论之间没有根本区别。
+explanation: |
+  Turgot将劳动视为价值的主要决定因素，而Adam Smith引入了一个受效用和需求影响的价值概念，预示着主观经济学的出现。
+reviewed: false

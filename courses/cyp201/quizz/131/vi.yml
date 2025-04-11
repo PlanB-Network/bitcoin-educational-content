@@ -1,8 +1,0 @@
-question: Mục đích của việc mở rộng HRP trong địa chỉ Bitcoin là gì?
-answer: Nó cho phép tách riêng năm bit cuối của mỗi ký tự, từ đó tăng cường checksum.
-wrong_answers:
-  - Nó tăng kích thước của địa chỉ.
-  - Nó mã hóa địa chỉ cho mục đích bảo mật.
-  - Nó cho phép sửa lỗi trong địa chỉ.
-explanation: |
-  Việc mở rộng HRP bao gồm việc mã hóa mỗi chữ cái thành cơ số 2, lấy ba bit đầu tiên của mỗi ký tự bằng cách chèn một dấu phân cách 0, và sau đó nối các bit cuối cùng của mỗi ký tự lại với nhau. Quá trình này tăng cường checksum.

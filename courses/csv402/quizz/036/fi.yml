@@ -1,0 +1,9 @@
+question: Mikä on kätkön rooli?
+answer: Säilytä kaikki asiakaspuolen tiedot paikallisesti
+wrong_answers:
+  - Julkaise transaktiot automaattisesti lohkoketjussa
+  - Kokoa ja tallenna kaikki laaditut laskut
+  - Bitcoinin yksityisten avainten hallinta
+explanation: |
+  Kätkö on joukko asiakaspuolen tietoja, jotka käyttäjä tallentaa paikallisesti yhdelle tai useammalle RGB-sopimukselle asiakaspuolen validointia varten.
+reviewed: false

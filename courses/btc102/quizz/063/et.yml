@@ -1,0 +1,9 @@
+question: Mis on risk, kui sa ei oma oma Bitcoin rahakoti privaatvõtit?
+answer: Sinu bitcoinid on ohus, nagu näiteks häkkimine, konfiskeerimine, regulatsioonid või pankrot
+wrong_answers:
+  - Sinu bitcoinid konverteeritakse automaatselt teise krüptorahasse
+  - Sinu bitcoinid kaotavad oma väärtuse
+  - Sinu bitcoinid kantakse üle teise rahakotti
+explanation: |
+  Kui sa ei oma oma Bitcoin rahakoti privaatvõtit, on sinu bitcoinid ohus nagu näiteks häkkimine, konfiskeerimine, regulatsioonid või pankrot.
+reviewed: false

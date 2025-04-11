@@ -1,9 +1,11 @@
 question: Kdo byl první osobou, která se připojila k síti Bitcoin po Satoshi Nakamotovi?
-answer: Hal Finney
+answer: Hal Finney.
 wrong_answers:
-  - Laszlo Hanyecz
-  - Phil Champagne
-  - Rogzy
+  - Laszlo Hanyecz.
+  - Phil Champagne.
+  - Rogzy.
 explanation: |
-  Hal Finney byl první osobou, která se připojila k síti Bitcoin po samotném Satoshi Nakamotovi. Dokonce tweetoval "Running Bitcoin" jako znamení této příležitosti.
+  Hal Finney byl první osobou, která se připojila k síti Bitcoin
+  po samotném Satoshi Nakamotovi. Dokonce tweetoval Running
+  Bitcoin, aby označil tuto příležitost.
 reviewed: true

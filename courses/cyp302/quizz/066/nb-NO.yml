@@ -1,0 +1,9 @@
+question: Hva er funksjonen til nøkkelgenereringsalgoritmen i et symmetrisk krypteringssystem?
+answer: Den genererer en privat nøkkel
+wrong_answers:
+  - Den genererer en offentlig nøkkel
+  - Den hasher meldingen
+  - Den krypterer meldingen
+explanation: |
+  I et symmetrisk krypteringssystem produserer nøkkelgenereringsalgoritmen en privat nøkkel, som deretter vil bli brukt til å kryptere og dekryptere meldinger.
+reviewed: false

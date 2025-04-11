@@ -1,0 +1,5 @@
+---
+term: BITVM
+
+---
+Protocol introduced by Robin Linus in 2023, aimed at extending the application development capabilities of Bitcoin. BitVM allows for any computational operation to be performed arbitrarily and uses this computation to direct the engaged bitcoins. The protocol involves moving all computations off-chain while allowing for the computation to be contested on-chain if the other party claims a fraudulent result. Thus, BitVM provides Bitcoin with a nearly Turing-complete computational capability, without requiring any modifications at the consensus level. BitVM replicates the behavior of a `NAND` logic gate through a combined use of the opcodes `OP_BOOLAND` (which itself replicates the behavior of an `AND` logic gate) and `OP_NOT` (which replicates the behavior of a `NOT` logic gate). Indeed, this `NAND` logic gate can be used in the chain to replicate the behavior of all other existing logic gates. This is what is called a "universal gate". By extension, a series of `NAND` logic gates can thus replicate any computational circuit. The idea with BitVM is to store these `NAND` computation sequences as leaves in the MAST of a Taproot transaction.

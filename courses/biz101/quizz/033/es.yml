@@ -1,0 +1,9 @@
+question: ¿Cómo ha evolucionado la Red del Rayo para mejorar la experiencia del usuario desde su creación?
+answer: Ha introducido funciones como el empalme, las facturas estáticas de Bolt12 y una mejor gestión de la liquidez, lo que hace que las transacciones sean más fluidas y fiables.
+wrong_answers:
+  - Ha eliminado todos los elementos de seguridad para agilizar las transacciones.
+  - Ahora requiere la aprobación del Gobierno para cada pago.
+  - Ha dejado de trabajar en nuevas funciones, basándose únicamente en el diseño original.
+explanation: |
+  Con el tiempo, la Lightning Network ha experimentado mejoras técnicas que reducen la fricción para los usuarios. Nuevas funciones y mejores herramientas de gestión de nodos han contribuido a una experiencia más fluida y fácil de usar.
+reviewed: false

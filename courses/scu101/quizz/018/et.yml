@@ -1,0 +1,11 @@
+question: Mis on soovitatav praktika administraatori konto kasutamiseks Windowsis?
+answer: Looge kaks eraldi kontot; administraatori konto ja igapäevaseks kasutamiseks mõeldud konto.
+wrong_answers:
+  - Kasutage administraatori kontot igapäevaseks kasutamiseks.
+  - Looge mitu administraatori kontot.
+  - Ärge looge administraatori kontot.
+explanation: |
+  Administraatori konto igapäevaseks kasutamiseks Windowsis võib süsteemi
+  suurematele turvariskidele avada. On soovitatav luua kaks eraldi kontot;
+  üks administraatori ülesannete jaoks ja teine igapäevaseks kasutamiseks.
+reviewed: false

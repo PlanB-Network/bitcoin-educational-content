@@ -1,11 +1,13 @@
 question: What is the mnemonic phrase in a Bitcoin wallet?
-answer: A list of 12 or 24 words that is a backup of your Bitcoin wallet
+answer: A list of 12 or 24 words that allows you to access your bitcoins.
 wrong_answers:
-  - A chosen password to access the Bitcoin wallet
-  - A code to encrypt the Bitcoin transactions
-  - A secret recovery phrase that destroys the Bitcoin wallet
+  - A chosen password to access the Bitcoin wallet.
+  - A code to encrypt Bitcoin transactions.
+  - A secret recovery phrase that destroys the Bitcoin wallet in case of need.
 explanation: |
-  Since 2017, the private key can be encoded in a simple list of 12 or
-  24 words, called the mnemonic phrase. This phrase is a backup of your Bitcoin wallet,
-  it is what allows you to recreate your wallet with any Bitcoin wallet software/app.
+  Since 2017, the private key can be encoded in a simple list
+  of 12 or 24 words, called the mnemonic phrase. This phrase
+  is a backup of your Bitcoin wallet, so it allows you to
+  access your bitcoins by using any Bitcoin wallet
+  software/app.
 reviewed: true

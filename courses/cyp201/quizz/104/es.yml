@@ -1,9 +1,0 @@
-question: ¿Qué tipos de pares de claves secundarias se pueden derivar de la clave privada extendida?
-answer: La clave privada extendida permite la derivación de todas las claves secundarias, tanto públicas como privadas, en modo normal o endurecido.
-wrong_answers:
-  - La clave privada extendida solo permite la derivación de claves secundarias normales.
-  - La clave privada extendida solo permite la derivación de claves secundarias endurecidas.
-  - La clave privada extendida no permite la derivación de ninguna clave secundaria.
-explanation: |
-  La clave privada extendida permite la derivación de todas las claves secundarias, tanto públicas como privadas, ya sea en modo normal o endurecido. Esto contrasta con la clave pública extendida, que solo permite la derivación de claves secundarias públicas normales.
-reviewed: false

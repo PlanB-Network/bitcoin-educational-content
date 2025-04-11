@@ -1,0 +1,9 @@
+question: Hva er størrelsen i bits på et binært segment som brukes til å lage hvert mnemoniske ord?
+answer: 11 bits
+wrong_answers:
+  - 8 bits
+  - 16 bits
+  - 10 bits
+explanation: |
+  Hvert 11-bits segment tilsvarer et ord fra den standardiserte listen over 2048 ord i BIP39.
+reviewed: false

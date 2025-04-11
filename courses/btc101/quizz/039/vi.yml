@@ -1,11 +1,9 @@
-question: Mục tiêu chính của Bitcoin là gì?
-answer: Tách biệt Nhà nước khỏi tiền tệ
+question: Mục tiêu chính đằng sau việc tạo ra Bitcoin là gì?
+answer: Tách biệt Nhà nước khỏi tiền tệ.
 wrong_answers:
-  - Thay thế vàng là tiêu chuẩn toàn cầu
-  - Làm cho giao dịch nhanh chóng và rẻ hơn
-  - Làm cho mọi người trở nên giàu có
+  - Loại bỏ tiêu chuẩn vàng.
+  - Làm cho giao dịch nhanh chóng và rẻ hơn.
+  - Làm cho mọi người trở nên giàu có.
 explanation: |
-  Bitcoin được tạo ra với mục tiêu tách biệt Nhà nước khỏi tiền tệ.
-  Điều này là để đáp lại những thách thức hệ thống của hệ thống tài chính hiện tại,
-  nơi mà nhà nước có quyền kiểm soát nguồn tiền tệ và có thể thao túng nó để phục vụ lợi ích của mình.
-reviewed: false
+  Bitcoin được tạo ra với mục tiêu tách biệt Nhà nước khỏi tiền tệ. Đây là một phản ứng đối với những thách thức hệ thống của hệ thống tài chính hiện tại, nơi mà Nhà nước có quyền kiểm soát hoàn toàn nguồn tiền tệ và có thể thao túng nó để phục vụ lợi ích của mình.
+reviewed: true

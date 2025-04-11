@@ -1,0 +1,9 @@
+question: Mikä elektronisen rahan konsepti mainittiin nimenomaisesti Satoshi Nakamoton Bitcoinin valkoisessa kirjassa?
+answer: b-money (Wei Dai)
+wrong_answers:
+  - bit gold (Nick Szabo)
+  - RPOW (Hal Finney)
+  - eCash (David Chaum)
+explanation: |
+  Tämä oli ensimmäinen viittaus. Satoshi lisäsi sen elokuussa 2008 vaihdettuaan viestejä Wei Dain kanssa.
+reviewed: false

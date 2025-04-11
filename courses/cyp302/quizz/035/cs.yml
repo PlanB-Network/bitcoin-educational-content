@@ -1,0 +1,9 @@
+question: Jaký je hlavní cíl teorie čísel?
+answer: Studovat vlastnosti celých čísel a funkce, které s nimi operují
+wrong_answers:
+  - Analyzovat geometrické transformace
+  - Studovat strukturu náhodných geometrických útvarů v konečné skupině
+  - Vyvíjet algoritmy symetrického šifrování
+explanation: |
+  Teorie čísel se zaměřuje na vlastnosti celých čísel a funkce aplikované na celá čísla, často pro aplikace v kryptografii, zejména v kontextu kryptografie s veřejným klíčem.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Mis on mitte-KYC lahendus Bitcoini kontekstis?
+answer: Lahendus, mis võimaldab anonüümseid Bitcoin'i tehinguid
+wrong_answers:
+  - Lahendus, mis võimaldab Bitcoin'i tehinguid ilma internetita
+  - Lahendus, mis võimaldab Bitcoin'i tehinguid ilma rahakotita
+  - Lahendus, mis võimaldab Bitcoin'i tehinguid ilma tasudeta
+explanation: |
+  Mitte-KYC (Know Your Customer ehk Tea Oma Klienti) lahendus on lahendus, mis võimaldab
+  anonüümseid Bitcoin'i tehinguid. See ei nõua kasutajalt isikliku
+  tuvastamise informatsiooni esitamist.
+reviewed: false

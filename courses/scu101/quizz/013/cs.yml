@@ -1,9 +1,9 @@
-question: Proč je bezpečnější používat poskytovatele Wi-Fi přístupových bodů v Evropě, jako je například SNCF?
-answer: Neprodávají data o připojení uživatelů kvůli regulacím GDPR.
+question: Proč je bezpečnější používat evropské poskytovatele Wi-Fi přístupových bodů, jako je SNCF?
+answer: Nejsou povinni prodávat data o připojení uživatelů, kvůli regulacím GDPR.
 wrong_answers:
-  - Poskytují rychlejší připojení k internetu.
-  - Umožňují uživatelům obejít geografická omezení.
-  - Blokují online reklamy.
+  - Poskytují rychlejší internetové připojení ve srovnání s americkými poskytovateli.
+  - Často umožňují uživatelům obejít geografická omezení.
+  - Blokují online reklamy, pokud byl uživatel identifikován jako občan Evropy.
 explanation: |
-  V Evropské unii je ochrana dat regulována Obecným nařízením o ochraně osobních údajů (GDPR). Proto evropští poskytovatelé Wi-Fi přístupových bodů, jako je SNCF, neprodávají data o připojení uživatelů, což je činí bezpečnějšími k použití.
-reviewed: false
+  V Evropské unii je ochrana dat regulována Obecným nařízením o ochraně osobních údajů (GDPR). Proto evropští poskytovatelé Wi-Fi přístupových bodů, jako je SNCF, neprodávají data o připojení uživatelů, což je činí bezpečnějšími z hlediska ochrany osobního soukromí.
+reviewed: true

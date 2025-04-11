@@ -5,7 +5,8 @@ wrong_answers:
   - BitLocker Macille, LUKS Windowsille ja sisäänrakennettu vaihtoehto Linuxille.
   - LUKS kaikille käyttöjärjestelmille.
 explanation: |
-  Eri käyttöjärjestelmille on olemassa erilaisia ratkaisuja tiedon salaamiseen.
-  BitLocker on Windowsille, LUKS on Linuxille, ja Macilla on sisäänrakennettu vaihtoehto tiedon
-  salaamiseen.
-reviewed: false
+  Eri käyttöjärjestelmille on olemassa erilaisia ratkaisuja
+  tiedon salaamiseen. BitLocker on Windowsille, LUKS on
+  Linuxille, ja Macilla on sisäänrakennettu vaihtoehto
+  tiedon salaamiseen.
+reviewed: true

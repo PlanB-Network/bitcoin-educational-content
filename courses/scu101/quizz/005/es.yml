@@ -5,5 +5,7 @@ wrong_answers:
   - Porque no es fácil de usar.
   - Porque no admite extensiones.
 explanation: |
-  El navegador Google Chrome es conocido por sus rastreadores, los cuales pueden recopilar datos sobre tu actividad en línea. Esto puede ser una preocupación de privacidad para algunos usuarios.
-reviewed: false
+  El navegador Google Chrome es conocido por sus rastreadores, que pueden
+  recopilar datos sobre tu actividad en línea. Esto puede ser una
+  preocupación de privacidad para algunos usuarios.
+reviewed: true

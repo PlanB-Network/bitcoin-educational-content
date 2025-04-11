@@ -1,9 +1,12 @@
 question: Qual é a prática recomendada para usar uma conta de administrador no Windows?
-answer: Crie duas contas separadas; uma conta de administrador e uma conta para uso diário.
+answer: Criar duas contas separadas; uma conta de administrador e uma conta para uso diário.
 wrong_answers:
-  - Use a conta de administrador para uso diário.
-  - Crie várias contas de administrador.
-  - Não crie uma conta de administrador.
+  - Usar a conta de administrador para uso diário, se o PC não estiver conectado à internet.
+  - Criar duas contas de administrador separadas; uma para uso diário e outra para administração do sistema operacional.
+  - Não criar uma conta de administrador.
 explanation: |
-  Usar uma conta de administrador para uso diário no Windows pode expor o sistema a mais riscos de segurança. É recomendado criar duas contas separadas: uma para tarefas administrativas e outra para uso diário.
-reviewed: false
+  Usar uma conta de administrador para uso diário no Windows pode
+  expor o sistema a mais riscos de segurança. É recomendado
+  criar duas contas separadas; uma para tarefas administrativas
+  e outra para uso diário.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Jaká je role operace modulo v šifrování pomocí posunové šifry?
+answer: Zajišťuje, že písmena se vrátí na začátek abecedy, pokud přesáhnou 26
+wrong_answers:
+  - Násobí hodnoty písmen klíčem
+  - Obrací písmena abecedy
+  - Maže písmena po písmenu Z
+explanation: |
+  Operace modulo 26 umožňuje písmenům vrátit se po Z zpět, aby se zajistilo, že každé zašifrované písmeno zůstane v rámci 26 písmen abecedy.
+reviewed: false

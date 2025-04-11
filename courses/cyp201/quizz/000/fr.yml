@@ -1,9 +1,9 @@
-question: Quel est le principe des tiroirs dans le contexte des fonctions de hachage cryptographiques ?
-answer: Il explique pourquoi, malgré nos meilleurs efforts, l'évitement des collisions est impossible en raison de la limitation de la taille de sortie.
+question: Quelle est la fonction principale d'une fonction de hachage ?
+answer: Elle convertit une information de longueur arbitraire en une empreinte de taille fixe
 wrong_answers:
-  - Il explique le mécanisme de stockage des fonctions de hachage.
-  - Il décrit le processus de création d'un hachage.
-  - C'est un principe qui explique l'irréversibilité des fonctions de hachage.
+  - Elle chiffre les messages pour les rendre illisibles
+  - Elle sert uniquement à vérifier l'intégrité des logiciels Bitcoin
+  - Elle génère des clés privées pour les portefeuilles Bitcoin
 explanation: |
-  Le principe des tiroirs dans le contexte des fonctions de hachage cryptographiques explique que, en raison de la limitation de la taille de sortie, il est impossible d'éviter les collisions. Cela est dû au fait qu'il y a plus d'entrées possibles que de sorties, de sorte que certaines entrées doivent inévitablement partager la même sortie.
+  Une fonction de hachage transforme une donnée de taille quelconque en un hash de taille fixe, essentiel pour de nombreuses applications dans Bitcoin.
 reviewed: false

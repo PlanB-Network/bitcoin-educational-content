@@ -1,0 +1,8 @@
+question: En una transacción de Bitcoin, ¿qué tecnología se utiliza generalmente para probar la propiedad de los fondos al desbloquear el script?
+answer: Firmas digitales
+wrong_answers:
+  - Certificados digitales
+  - Cifrado simétrico
+  - Códigos de Autenticación de Mensajes (MAC)
+explanation: |
+  Las firmas digitales en Bitcoin prueban la posesión de fondos firmando transacciones con una clave privada para desbloquear el script que asegura un UTXO.

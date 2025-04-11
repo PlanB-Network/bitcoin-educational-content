@@ -1,0 +1,11 @@
+question: Hva er betydningen av den geografiske fordelingen av Bitcoin-noder?
+answer: Det gjør det praktisk talt umulig å ødelegge alle kopier av blokkjeden.
+wrong_answers:
+  - Det bestemmer prisen på Bitcoin i forskjellige regioner.
+  - Det påvirker hastigheten på Bitcoin-transaksjoner.
+  - Det bestemmer antallet Bitcoins som kan utvinnes i en region.
+explanation: >-
+  Den geografiske fordelingen av Bitcoin-noder gjør det praktisk talt umulig
+  å ødelegge alle kopier av blokkjeden. Dette er fordi nodene er spredt ut
+  og det ville være vanskelig å fysisk beslaglegge dem alle.
+reviewed: false

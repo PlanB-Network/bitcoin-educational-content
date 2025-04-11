@@ -1,0 +1,8 @@
+question: Hva var den middelalderske kirkens holdning til lån med renter?
+answer: Den forbød dem.
+wrong_answers:
+  - Den oppmuntret til dem.
+  - Den tolererte dem i visse tilfeller.
+  - Den hadde ingen mening om saken.
+explanation: |
+  Den middelalderske kirken forbød lån med renter, og betraktet denne praksisen som en synd av renteutbytting, siden den anså det som umoralsk å tjene på et lån ved å kreve mer enn det opprinnelige beløpet.

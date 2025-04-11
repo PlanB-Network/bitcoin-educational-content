@@ -1,0 +1,9 @@
+question: Kuinka väärä hyväntekeväisyys edistää lain vääristymistä Bastiat'n mukaan?
+answer: Koska se perustuu itse asiassa joukkoon vääriä oikeuksia, jotka joku muu todellisuudessa maksaa.
+wrong_answers:
+  - Koska se haluaa pakottaa kaikki olemaan hyviä.
+  - Koska se asettaa misantroopit valtaan.
+  - Koska se sisältää vapaaehtoisen solidaarisuuden.
+explanation: |
+  Väärä hyväntekeväisyys luo keinotekoisia oikeuksia, jotka muuttuvat muiden päälle asetetuiksi velvoitteiksi, vääristäen näin lain ryöstövälineeksi sen sijaan, että se suojaisi luonnollisia oikeuksia.
+reviewed: false

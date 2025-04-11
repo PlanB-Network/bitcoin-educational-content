@@ -1,0 +1,9 @@
+question: Hva er rollen til en varm LN-lommebok for en Hodler som ønsker å gå videre?
+answer: For å bruke noe Bitcoin.
+wrong_answers:
+  - For å kjøpe mer Bitcoin.
+  - For å lagre all sin Bitcoin.
+  - For å handle med Bitcoin.
+explanation: |
+  En Hodler som ønsker å gå videre kan bruke en varm LN-lommebok for å bruke
+  noe Bitcoin, i tillegg til å holde det på lang sikt.

@@ -1,10 +1,11 @@
 question: Giải pháp đơn giản để bảo vệ dữ liệu của bạn khỏi các cuộc tấn công ransomware là gì?
 answer: Thường xuyên sao lưu dữ liệu quan trọng của bạn vào một thiết bị lưu trữ ngoại vi hoặc một dịch vụ lưu trữ trực tuyến an toàn.
 wrong_answers:
-  - Cài đặt nhiều phần mềm diệt virus trên máy tính của bạn.
-  - Thường xuyên thay đổi máy tính của bạn.
-  - Sử dụng mạng Wi-Fi công cộng.
+  - Cài đặt nhiều phần mềm diệt virus trên máy tính và thực hiện quét định kỳ.
+  - Thường xuyên thay đổi máy tính hoặc cài đặt lại hệ điều hành (OS) của bạn.
+  - Bạn có thể sử dụng mạng Wi-Fi công cộng nếu bạn không có gì để ẩn trên thiết bị của mình.
 explanation: |
-  Việc thường xuyên sao lưu dữ liệu của bạn cho phép bạn khôi phục dữ liệu trong
-  trường hợp bị tấn công mạng hoặc hỏng hóc phần cứng mà không mất đi thông tin quan trọng.
-reviewed: false
+  Việc sao lưu dữ liệu định kỳ cho phép bạn khôi phục dữ liệu
+  trong trường hợp bị tấn công mạng hoặc hỏng hóc phần cứng
+  mà không mất đi thông tin quan trọng.
+reviewed: true

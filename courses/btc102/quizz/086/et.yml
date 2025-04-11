@@ -1,0 +1,9 @@
+question: Mis on mitte-KYC viis bitcoine ostuks või müügiks?
+answer: Kasutades peer-to-peer lahendusi nagu Peach.
+wrong_answers:
+  - Kasutades kuumat rahakotti.
+  - Kasutades külma rahakotti.
+  - Kasutades riistvara rahakotti.
+explanation: |
+  KYC ehk Know Your Customer on protsess, mida ettevõtted kasutavad oma klientide isikusamasuse tuvastamiseks. Mitte-KYC meetodid, nagu peer-to-peer lahendused, võimaldavad kasutajatel osta või müüa bitcoine ilma isiklikku teavet esitamata.
+reviewed: false

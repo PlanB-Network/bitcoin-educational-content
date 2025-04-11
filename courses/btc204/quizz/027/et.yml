@@ -1,0 +1,8 @@
+question: Milline tehnika aitab kaitsta KYC-st tingitud jälgimisriski eest?
+answer: Coinjoin tehingud
+wrong_answers:
+  - VPN-i kasutamine
+  - Täisnoodi kasutamine
+  - Tõestuse kaudu valideerimine
+explanation: |
+  Coinjoinid katkestavad mündi ajaloo, mis aitab vastu seista KYC-ga seotud jälgimisriskile.

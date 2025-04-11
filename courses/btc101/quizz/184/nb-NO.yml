@@ -1,0 +1,10 @@
+question: Hva er en av grunnene til at Bitcoin ikke er en boble som vil forsvinne?
+answer: Fordi det er en valuta som faktisk brukes overalt i verden.
+wrong_answers:
+  - Fordi den faktisk ikke brukes noe sted.
+  - Fordi den kontrolleres av en sentral myndighet.
+  - Fordi den er lett å forfalske.
+explanation: >-
+  Bitcoin er ikke en boble som vil forsvinne, men en valuta som faktisk
+  brukes overalt i verden.
+reviewed: false

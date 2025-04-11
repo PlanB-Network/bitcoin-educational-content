@@ -8,6 +8,6 @@ wrong_answers:
   - Pyöristetty maksu.
 
 explanation: |
-  Ulkopuolinen tarkkailija voi soveltaa CIOH:ta olettaakseen, että kaikki konsolidoinnin syötteet kuuluvat samalle entiteetille.
+  Ulkopuolinen tarkkailija voi soveltaa CIOH: ta olettaakseen, että kaikki konsolidoinnin syötteet kuuluvat samalle entiteetille.
 
 reviewed: false

@@ -1,0 +1,9 @@
+question: Qual era il nome dell'implementazione software rilasciata da Mike Hearn nel marzo 2011, che implementava la Verifica Semplificata del Pagamento (SPV)?
+answer: BitCoinJ
+wrong_answers:
+  - Spesmilo
+  - bcoin
+  - Libbitcoin
+explanation: |
+  L'ha [pubblicato](https: //bitcointalk.org/index.php?topic=4236.msg61438#msg61438) sotto la licenza open-source (Apache 2.0), che ha attribuito a Google (il suo datore di lavoro in quel momento). Questa implementazione ha reso possibile lanciare il primo portafoglio leggero operante su Android.
+reviewed: false

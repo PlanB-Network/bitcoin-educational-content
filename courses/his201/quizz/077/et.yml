@@ -1,0 +1,9 @@
+question: Millal loodi bitcoin-arenduse meililist?
+answer: 12. juuni 2011
+wrong_answers:
+  - 13. jaanuar 2011
+  - 7. märts 2011
+  - 19. september 2011
+explanation: |
+  Selle lõi arendaja Jeff Garzik ning see võimaldas formaalselt arutada tehtavaid muudatusi Bitcoinis.
+reviewed: false

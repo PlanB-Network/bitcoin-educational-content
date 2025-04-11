@@ -1,0 +1,5 @@
+---
+term: SUPERFICIE DE ATAQUE
+
+---
+Se refiere al número total de puntos de entrada potenciales que un atacante podría explotar para obtener acceso a un sistema. La superficie de ataque incluye todas las interfaces, servicios, puertos, protocolos y otros vectores de comunicación que podrían estar expuestos. Una superficie de ataque ampliada aumenta las vulnerabilidades, por lo que el sistema es más susceptible de ser atacado. Reducir la superficie de ataque es una buena práctica de seguridad que implica desactivar servicios innecesarios. Por ejemplo, en el contexto de Bitcoin, los monederos hardware tienen una superficie de ataque mucho menor que los monederos software. De hecho, aíslan las claves en un dispositivo no conectado a Internet, teniendo muy pocas interfaces y servicios. Por el contrario, los monederos software se instalan en PC versátiles, que tienen una superficie de ataque mucho mayor debido a las numerosas funcionalidades y conexiones de red que soportan.

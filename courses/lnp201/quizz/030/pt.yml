@@ -1,9 +1,9 @@
-question: Quanto de SAT Bob acaba tendo após a segunda transferência no exemplo?
-answer: 40.000 SAT.
+question: Como a Lightning Network permite enviar fundos para um nó que não está diretamente conectado?
+answer: Através do roteamento do pagamento por nós intermediários
 wrong_answers:
-  - 30.000 SAT.
-  - 10.000 SAT.
-  - 0 SAT.
+  - Usando transações on-chain entre cada nó
+  - Estabelecendo automaticamente um canal temporário
+  - Enviando os fundos diretamente com endereços de assinatura múltipla
 explanation: |
-  No exemplo, após a segunda transferência, Bob acaba com 40.000 SAT.
+  A Lightning Network possibilita o roteamento de um pagamento através de vários nós intermediários, sem exigir um canal direto entre o remetente e o destinatário.
 reviewed: false

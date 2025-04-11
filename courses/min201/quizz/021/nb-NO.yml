@@ -1,0 +1,13 @@
+question: Hva er den økonomiske fordelen med å bruke en Bitcoin-gruvearbeider i stedet for en enkel elektrisk ovn?
+answer: Gruvearbeideren gir ikke bare varme, men også en Bitcoin-belønning.
+wrong_answers:
+  - Gruvearbeideren bruker mindre elektrisitet enn en enkel elektrisk ovn.
+  - Gruvearbeideren produserer mer varme enn en enkel elektrisk ovn.
+  - Gruvearbeideren er billigere enn en enkel elektrisk ovn.
+explanation: |
+  Forskjellen mellom å bruke en gruvearbeider og en enkel elektrisk
+  ovn ligger i det faktum at gruvearbeideren ikke bare gir
+  varme, men også en Bitcoin-belønning. Denne tilleggsbelønningen
+  kunne bidra til å lindre bekymringer om det høye energiforbruket
+  til gruvearbeidere.
+reviewed: true

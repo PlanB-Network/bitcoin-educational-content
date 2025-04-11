@@ -1,0 +1,9 @@
+question: Hvilken type bruker har mest sannsynlig behov for både en varm og en kald Bitcoin-lommebok?
+answer: En bruker som trenger å bruke Bitcoin regelmessig.
+wrong_answers:
+  - En bruker som bare bruker Bitcoin av og til.
+  - En bruker som miner Bitcoin.
+  - En bruker som kun investerer i Bitcoin for lang sikt.
+explanation: |
+  Regelmessige Bitcoin-brukere trenger en varm lommebok for daglige transaksjoner og en
+  kald lommebok for sikker langtidslagring.

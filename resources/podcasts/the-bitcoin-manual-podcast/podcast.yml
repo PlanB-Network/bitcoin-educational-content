@@ -1,3 +1,4 @@
+id: 18bafe93-03a8-4c9d-a9dc-0039ac1acce7
 name: The Bitcoin Manual Podcast
 host: Che-256 and Nickymoto
 language: en
@@ -7,8 +8,9 @@ links:
   website: https://thebitcoinmanual.com
 description: |
   The Bitcoin manual podcast keeps you up to date on what’s going on in the world of Bitcoin as well as our completely unqualified opinions on money, economics and politics.  Just two orange pillers having the same chats we would otherwise have in the x-pub
+contributor_names:
+  - Rogzy-DB
 tags:
-  - bitcoin
-  - technology
-contributors:
-  - rabbit-hole
+  - market-trends
+  - finance
+  - high-level

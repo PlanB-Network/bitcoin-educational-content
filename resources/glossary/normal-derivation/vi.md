@@ -1,0 +1,5 @@
+---
+term: NORMAL DERIVATION
+
+---
+The process of generating child keys in HD wallets. Normal derivation uses the parent public key as input for the `HMAC-SHA512` function, enabling the generation of child public keys from the parent public key and the parent chain code. The process involves concatenating the parent public key and an index less than $2^{31}$, followed by the application of `HMAC-SHA512` with the parent chain code. The result is divided into two parts: the first 256 bits are added to the parent private key to obtain the child private key, while the remaining 256 bits form the child chain code. This method ensures that the extended public key can be used to derive child public keys. In standard derivation, normal derivation is used at all levels of derivation from the account depth. In the notation of derivation paths, a normal derivation is identified when there is just the index without any apostrophe `'`.

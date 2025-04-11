@@ -1,0 +1,8 @@
+question: Qual é o principal objetivo da criptografia assimétrica no contexto da comunicação entre Alice e Bob?
+answer: Permitir que Bob transmita uma mensagem secreta para Alice usando a chave pública dela
+wrong_answers:
+  - Permitir que Bob criptografe e descriptografe mensagens sem uma chave pública
+  - Impedir que Alice descriptografe as mensagens de Bob
+  - Permitir que Alice criptografe a mensagem para verificar sua integridade
+explanation: |
+  Na criptografia assimétrica, a chave pública de Alice permite que Bob envie uma mensagem criptografada que somente ela pode descriptografar, garantindo assim a confidencialidade da mensagem.

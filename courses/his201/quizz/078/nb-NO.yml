@@ -1,0 +1,9 @@
+question: Til hvem overførte Satoshi Nakamoto kontrollen over nettsiden (som også inkluderer forumet og wikien) ved sin avgang?
+answer: Martti Malmi
+wrong_answers:
+  - Gavin Andresen
+  - Hal Finney
+  - Mike Hearn
+explanation: |
+  Han hadde ikke tid til å administrere det og delegerte raskt oppgaven. Nettstedet og forumet ble overtatt av Theymos og Cøbra.
+reviewed: false

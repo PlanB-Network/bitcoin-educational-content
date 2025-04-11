@@ -1,0 +1,13 @@
+question: Metode kriptografi apa yang dapat digunakan dalam coinswap untuk memastikan keamanan pertukaran tanpa perlu kepercayaan?
+
+answer: Adaptor Signatures
+
+wrong_answers:
+  - Enkripsi simetris
+  - ECDH
+  - Enkripsi asimetris
+
+explanation: |
+  Untuk melakukan coinswap, seseorang dapat menggunakan HTLCs atau PTLCs. Kedua protokol ini bekerja dengan cara yang serupa dengan menggunakan sistem time-lock yang memastikan pertukaran selesai dengan sukses atau sepenuhnya dibatalkan, yang melindungi integritas dana dari kedua belah pihak. Perbedaan utama antara HTLCs dan PTLCs adalah bahwa HTLCs menggunakan hash dan preimage untuk mengamankan transaksi, sementara PTLCs menggunakan Adaptor Signatures.
+
+reviewed: false

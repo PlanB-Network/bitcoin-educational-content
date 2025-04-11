@@ -5,8 +5,6 @@ wrong_answers:
   - Sales, marketing
   - Cooking, baking
 explanation: |
-  The chapter mentions log analysis and incident response as some of the
-
-
-  skills needed in cybersecurity.'''
-reviewed: false
+  The chapter mentions log analysis and incident response as
+  some of the skills needed in cybersecurity.
+reviewed: true

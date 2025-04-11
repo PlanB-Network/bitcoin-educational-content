@@ -1,0 +1,8 @@
+question: 2010年7月，哪个网站对于让比特币广为人知起到了重要作用？
+answer: Slashdot
+wrong_answers:
+  - Hackernews
+  - Stack Overflow
+  - Reddit
+explanation:
+  2010年7月11日，Teppy撰写的一篇关于比特币的介绍在这个流行网站上发布，这导致了大量用户的涌入。

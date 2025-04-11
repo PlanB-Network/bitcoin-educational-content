@@ -1,10 +1,11 @@
-question: Welcher Kurve ähnelt die Akzeptanzkurve von Bitcoin?
-answer: Eine S-Kurve
+question: Womit ist die Adoptionskurve von Bitcoin vergleichbar?
+answer: Eine S-Kurve.
 wrong_answers:
-  - Eine U-Kurve
-  - Eine V-Kurve
-  - Eine W-Kurve
-explanation: |
-  Die Akzeptanz von Bitcoin folgt, wie jede neue Technologie, einer S-Kurve.
-  Dies ist ein häufiges Muster bei der Akzeptanz neuer Technologien, bei dem die Akzeptanz langsam beginnt, dann beschleunigt, bevor sie sich verlangsamt, wenn die Sättigung erreicht ist.
-reviewed: false
+  - Eine U-Kurve.
+  - Eine V-Kurve.
+  - Eine W-Kurve.
+explanation: >-
+  Die Adoption von Bitcoin, wie bei jeder neuen Technologie, folgt einer S-Kurve.
+  Dies ist ein gängiges Muster für die Adoption neuer Technologien, bei dem die Adoption
+  langsam beginnt, dann beschleunigt, bevor sie verlangsamt, wenn die Sättigung erreicht ist.
+reviewed: true

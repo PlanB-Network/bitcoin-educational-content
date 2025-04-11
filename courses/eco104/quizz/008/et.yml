@@ -1,0 +1,12 @@
+question: Kuidas luuakse uusi bitcoine ja tuuakse need ringlusse?
+answer: Kaevandamise teel kui preemia uute tehingute lisamise eest plokiahelasse
+wrong_answers:
+  - Keskse autoriteedi väljaandmise teel
+  - Ostes neid Bitcoinide vahetustest
+  - Saades neid tehingutasudena
+explanation: |
+  Uued bitcoinid tuuakse ringlusse protsessi kaudu, mida nimetatakse kaevandamiseks. 
+  Kaevurid konkureerivad omavahel, et lisada uusi tehinguid plokiahelasse. 
+  Töö eest premeeritakse kaevureid uute loodud bitcoinidega. 
+  See protsess kinnitab ja turvab tehinguid ka Bitcoin võrgustikus.
+reviewed: true

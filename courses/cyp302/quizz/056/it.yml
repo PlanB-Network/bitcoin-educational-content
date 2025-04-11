@@ -1,0 +1,9 @@
+question: Qual è la struttura algebrica di base dell'algebra astratta?
+answer: Gruppo
+wrong_answers:
+  - Campo
+  - Anello
+  - Matrice
+explanation: |
+  Il gruppo è la struttura algebrica fondamentale su cui si basa l'algebra astratta, definita da un insieme di elementi e un'operazione binaria che rispetta determinate proprietà.
+reviewed: false

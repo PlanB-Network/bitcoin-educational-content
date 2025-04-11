@@ -1,0 +1,9 @@
+question: ¿Cuál es el papel principal de AluVM en el protocolo RGB?
+answer: Ejecutar scripts y contratar operaciones en un entorno de máquina virtual
+wrong_answers:
+  - Analizar las transacciones en cadena de Bitcoin en un entorno de máquina virtual
+  - Generar claves públicas para usuarios RGB en un entorno de máquina virtual
+  - Optimización de la validación de cadenas de bloques públicas en un entorno de máquina virtual
+explanation: |
+  AluVM está diseñado para la validación de contratos inteligentes y la computación distribuida dentro del marco RGB.
+reviewed: false

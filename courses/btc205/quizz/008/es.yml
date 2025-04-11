@@ -1,9 +1,0 @@
-question: ¿Cuáles son los creadores y tomadores en el contexto de los libros de órdenes?
-answer: Los creadores son proveedores de órdenes y los tomadores son quienes toman las órdenes.
-wrong_answers:
-  - Los creadores son quienes toman las órdenes y los tomadores son proveedores de órdenes.
-  - Los creadores son quienes crean las órdenes y los tomadores son quienes toman las órdenes.
-  - Los creadores son quienes toman las órdenes y los tomadores son quienes crean las órdenes.
-explanation: |
-  En el contexto de los libros de órdenes, los creadores son aquellos que proveen órdenes y los tomadores son aquellos que toman órdenes.
-reviewed: false

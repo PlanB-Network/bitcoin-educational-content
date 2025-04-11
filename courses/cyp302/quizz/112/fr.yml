@@ -1,0 +1,9 @@
+question: Pourquoi RC4 est-il classé comme un chiffrement de flux synchrone ?
+answer: Le flux de clés est indépendant du texte en clair et du texte chiffré
+wrong_answers:
+  - Le flux de clés dépend des valeurs de texte chiffré précédentes
+  - Le texte en clair doit être intégré dans le flux de clés
+  - Il utilise un flux de clés basé uniquement sur le texte en clair
+explanation: |
+  RC4 est un chiffrement de flux synchrone car son flux de clés dépend uniquement de la clé initiale et non du texte en clair ou du texte chiffré, ce qui garantie une indépendance de ce flux par rapport aux messages.
+reviewed: false

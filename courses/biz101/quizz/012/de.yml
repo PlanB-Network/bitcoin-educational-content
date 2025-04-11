@@ -1,0 +1,9 @@
+question: Warum kann das Lightning Network mit "E-Mail für Zahlungen" verglichen werden?
+answer: Denn sie ermöglicht den nahtlosen, globalen und erlaubnisfreien Austausch von Werten so einfach wie das Versenden einer Nachricht.
+wrong_answers:
+  - Denn es sendet Zahlungen über herkömmliche E-Mail-Anbieter.
+  - Weil es nur funktioniert, wenn es an normale E-Mail-Nachrichten angehängt ist.
+  - Denn es speichert Benutzerabrechnungen im Textkörper einer E-Mail.
+explanation: |
+  So wie die E-Mail die Kommunikation revolutioniert hat, indem sie Zwischenhändler überflüssig machte und es jedem ermöglichte, Nachrichten weltweit zu versenden, vereinfacht und beschleunigt das Lightning Network Transaktionen und macht den Werttransfer so reibungslos und zugänglich wie die E-Mail.
+reviewed: false

@@ -1,9 +1,13 @@
-question: Qual é uma das possíveis implicações da Lightning Network para os usuários?
-answer: Eles só pagariam pelo conteúdo que consomem
+question: O que é uma plataforma DCA?
+answer: Um serviço que permite aos usuários investir uma quantia fixa de dinheiro em um ativo em intervalos regulares.
 wrong_answers:
-  - Eles teriam que pagar mais pelo conteúdo
-  - Eles teriam que pagar uma taxa de assinatura mensal
-  - Eles teriam que pagar pelo conteúdo antecipadamente
+  - Um tipo de câmbio de criptomoedas que permite apenas a negociação de Bitcoin.
+  - Um serviço financeiro que fornece empréstimos a investidores para negociação com margem.
+  - Uma ferramenta de software que rastreia os preços das ações em tempo real sem quaisquer recursos de investimento.
 explanation: |
-  Com a Lightning Network, os usuários só pagariam pelo conteúdo que consomem, eliminando assim as taxas de assinatura antecipada.
-reviewed: false
+  Uma plataforma DCA refere-se a uma plataforma que facilita
+  a estratégia de investimento Dollar-Cost Averaging (DCA), onde
+  um indivíduo investe uma quantia fixa de dinheiro em um
+  ativo específico em intervalos regulares, independentemente do
+  preço do ativo.
+reviewed: true

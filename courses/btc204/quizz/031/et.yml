@@ -1,0 +1,9 @@
+question: Kui lihtsas maksetehingus kasutatakse sisendis ja ühes kahest väljundist sama aadressi, milline väljund tõenäoliselt esindab vahetusraha?
+answer: See, mille aadress on sama mis sisendil.
+wrong_answers:
+  - See, millel on kõige uuem aadress.
+  - See, mille aadress erineb sisendi omast.
+  - See, mille aadress on tundmatu.
+explanation: |
+  Kui tehingus toimub aadressi taaskasutus, on mõistlik eeldada, et kasutaja omab endiselt seotud UTXO-d. Seetõttu on tõenäoline, et väljund, mille aadress on sama mis sisendil, on vahetusraha.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Kus Nick Szabo esitles esmakordselt oma bit gold'i kontseptsiooni 1998. aastal?
+answer: libtech-l meililistis
+wrong_answers:
+  - cypherpunks meililistis
+  - Krüptograafia meililistis
+  - extropians meililistis
+explanation: |
+  See oli tema enda privaatne meililist, mis hõlmas cypherpunks'e nagu Wei Dai ja Hal Finney, ning majandusteadlasi nagu Larry White ja George Selgin.

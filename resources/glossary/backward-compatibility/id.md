@@ -1,0 +1,5 @@
+---
+term: KOMPATIBILITAS KE BELAKANG
+
+---
+Mengacu pada kemampuan pembaruan aturan protokol untuk mempertahankan kompatibilitas dengan versi sebelumnya. Ini berarti bahwa perubahan dirancang sedemikian rupa sehingga node yang lebih tua (node yang menjalankan versi sebelum perubahan aturan) masih dapat berinteraksi dengan jaringan dan mengikuti rantai dengan akumulasi pekerjaan terbanyak. Oleh karena itu, sangat penting bahwa node yang lebih tua tidak menolak blok baru maupun transaksi baru. Kompatibilitas ke belakang secara signifikan mengurangi kemungkinan pembaruan akan memecah jaringan, sehingga menghindari pembagian node ke dalam sub-kelompok pada rantai yang berbeda. Untuk memastikan kompatibilitas dengan versi protokol sebelumnya, pembaruan harus membuat aturan yang ada menjadi lebih ketat atau memperkenalkan aturan baru. Prinsip ini mendefinisikan sebuah "soft fork". Sebaliknya, jika pembaruan melonggarkan aturan yang ada atau menghilangkan beberapa aturan, maka pembaruan tersebut tidak akan kompatibel ke belakang. Ini akan menjadi "hard fork".

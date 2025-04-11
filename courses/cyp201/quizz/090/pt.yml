@@ -1,9 +1,0 @@
-question: Qual é a frase usada com o algoritmo HMAC SHA-512 para calcular a chave privada mestra?
-answer: SEED do Bitcoin
-wrong_answers:
-  - CHAVE do Bitcoin
-  - CARTEIRA do Bitcoin
-  - HASH do Bitcoin
-explanation: |
-  A chave privada mestra é calculada a partir da semente e da frase "SEED do Bitcoin". Essa frase é idêntica para todas as derivações de carteiras HD, garantindo consistência entre as carteiras.
-reviewed: false

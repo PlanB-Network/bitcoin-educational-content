@@ -5,7 +5,8 @@ wrong_answers:
   - Strategies discussed to combat mining centralization in Bitcoin include reducing the block reward, implementing a transaction fee, and creating a mining tax.
   - Strategies discussed to combat mining centralization in Bitcoin include increasing the difficulty of mining, implementing a mining cap, and creating a mining lottery.
 explanation: |
-  The chapter discusses several strategies to combat mining centralization
-  in Bitcoin, including Home Mining, the Stratum V2 protocol, open-sourcing mining
-  software, and diversification of actors and geography.
-reviewed: false
+  The chapter discusses several strategies to combat mining
+  centralization in Bitcoin, including Home Mining, the
+  Stratum V2 protocol, open-sourcing mining software, and
+  diversification of actors and geography.
+reviewed: true

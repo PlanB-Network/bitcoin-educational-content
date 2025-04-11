@@ -1,0 +1,12 @@
+question: 2FA 代表什麼？
+answer: 雙因素驗證
+wrong_answers:
+  - 雙因素授權
+  - 雙功能驗證
+  - 雙功能驗證
+explanation: |
+  2FA 代表雙因素驗證。它提供額外的
+  Layer
+  
+  的安全性。
+reviewed: false

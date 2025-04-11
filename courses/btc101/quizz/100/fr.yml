@@ -1,9 +1,12 @@
 question: Que signifie l'absence d'une phrase mnémonique dans un portefeuille ?
-answer: Le portefeuille n'est pas sécurisé pour un stockage à long terme.
+answer: Cela indique que le portefeuille n'est pas sécurisé pour le stockage à long terme de Bitcoin.
 wrong_answers:
-  - Le portefeuille est sécurisé pour un stockage à long terme.
-  - Le portefeuille n'est pas sécurisé pour un stockage à court terme.
-  - Le portefeuille n'est pas sécurisé pour les dépenses.
+  - Cela indique que le portefeuille est entièrement sécurisé et ne nécessite aucune sauvegarde.
+  - Cela signifie que le portefeuille peut contenir de nombreux types d'obligations différents.
+  - Cela suggère que le portefeuille est automatiquement sauvegardé par votre appareil.
 explanation: |
-  L'absence d'une liste de 12 ou 24 mots, c'est-à-dire la phrase mnémonique, dans un portefeuille devrait vous alerter que le portefeuille n'est pas sécurisé car il ne suit pas la procédure de sauvegarde standard.
-reviewed: false
+  L'absence d'une liste de 12 ou 24 mots, c'est-à-dire
+  la phrase mnémonique, dans un portefeuille devrait vous alerter
+  que le portefeuille n'est pas sécurisé car il ne suit pas les procédures
+  de sauvegarde standard.
+reviewed: true

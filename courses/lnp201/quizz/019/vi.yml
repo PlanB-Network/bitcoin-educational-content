@@ -1,8 +1,9 @@
-question: Alice tài trợ cho kênh mà cô ấy đang mở với Bob như thế nào?
-answer: Cô ấy tạo một giao dịch với 2 UTXO làm đầu ra.
+question: Hệ thống giao dịch cam kết đảm bảo điều gì cho các bên tham gia kênh Lightning?
+answer: Mỗi bên có thể thu hồi quỹ của mình bằng cách công bố giao dịch đã ký cuối cùng
 wrong_answers:
-  - Cô ấy gửi tiền trực tiếp đến địa chỉ công khai của Bob.
-  - Cô ấy tạo một giao dịch với 1 UTXO làm đầu ra.
-  - Cô ấy yêu cầu Bob tài trợ cho kênh.
-explanation:
-  Để tài trợ cho kênh mà cô ấy đang mở với Bob, Alice tạo một giao dịch với 2 UTXO làm đầu ra; một cho địa chỉ multi-sig 2/2 và một cho một trong những địa chỉ thay đổi của cô ấy.
+  - Các giao dịch được hiển thị trên blockchain Bitcoin
+  - Dung lượng của kênh tăng lên với mỗi giao dịch
+  - Phí được chia sẻ giữa hai bên tham gia
+explanation: |
+  Các giao dịch cam kết đã ký đảm bảo rằng mỗi bên tham gia có thể thu hồi quỹ của mình bằng cách công bố phiên bản mới nhất trong trường hợp kênh đóng lại.
+reviewed: false

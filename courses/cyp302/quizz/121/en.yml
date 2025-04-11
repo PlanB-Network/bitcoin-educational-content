@@ -1,0 +1,9 @@
+question: What is the key management issue?
+answer: The complexity of securing and storing a pair of keys for each client
+wrong_answers:
+  - The impossibility of renewing keys lost by clients
+  - The need to decrypt each key before use by the client
+  - The necessity of transmitting keys for each communication
+explanation: |
+  The key management issue lies in the difficulty of storing and securing a pair of keys for each user, especially when the number of clients reaches millions.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Hvorfor brukes XOR-operatoren i BIP47?
+
+answer: For å symmetrisk kryptere innholdet i avsenderens betalingskode.
+
+wrong_answers:
+  - For å asymmetrisk kryptere innholdet i avsenderens betalingskode.
+  - For å symmetrisk kryptere metadataene i avsenderens betalingskode.
+  - For å asymmetrisk kryptere metadataene i avsenderens betalingskode.
+
+explanation: |
+  XOR-operatoren brukes til å symmetrisk kryptere innholdet i avsenderens betalingskode i BIP47.
+
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jaký je v případě trilematu CAP kompromis mezi validací na straně zákazníka a dostupností?
+answer: Každý účastník musí uchovávat příslušné údaje na místě
+wrong_answers:
+  - Data jsou veřejná a automaticky replikovaná po celém světě
+  - Konzistence obětovaná ve prospěch dostupnosti
+  - Přechody mezi stavy jsou vždy zveřejněny v aplikaci Lightning
+explanation: |
+  Při ověřování na straně klienta není zaručena globální dostupnost, protože účastníci musí spravovat svá vlastní data.
+reviewed: false

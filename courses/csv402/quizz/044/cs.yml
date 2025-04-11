@@ -1,0 +1,9 @@
+question: Jak je zajištěna bezpečnost přechodu RGB v kanálu Lightning, pokud je vysílán zastaralý stav?
+answer: Prostřednictvím trestající mechaniky Lightning Channel
+wrong_answers:
+  - Automatickým zrušením všech předchozích transakcí
+  - Prostřednictvím sankční mechaniky protokolu RGB
+  - Zásahem emitenta aktiv RGB prostřednictvím jeho podpisu spojeného s Genesis
+explanation: |
+  Klasický trestní mechanismus sítě Lightning Network zajišťuje, že šíření starého stavu může být potrestáno navrácením všech dotčených prostředků, včetně aktiv RGB.
+reviewed: false

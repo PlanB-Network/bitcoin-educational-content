@@ -1,9 +1,9 @@
-question: Uma frase de acesso é mais segura do que uma senha simples?
-answer: Sim
+question: Qual é a principal diferença entre P2PK e P2PKH?
+answer: P2PK usa diretamente a chave pública bruta, enquanto P2PKH usa o hash da chave pública.
 wrong_answers:
-  - Não
-  - Depende do comprimento da senha
-  - Depende da complexidade da senha
+  - P2PK é compatível com SegWit, enquanto P2PKH não é.
+  - P2PK usa uma assinatura Schnorr, enquanto P2PKH usa uma assinatura ECDSA.
+  - P2PK é destinado para multisigs, enquanto P2PKH é para scripts simples.
 explanation: |
-  Uma frase de acesso é mais segura do que uma senha simples. A frase de acesso ideal é longa, variada e aleatória. Ela pode aumentar a segurança de uma carteira ou software de criptomoedas.
+  P2PK bloqueia os fundos com uma chave pública bruta, enquanto P2PKH usa um hash da chave pública.
 reviewed: false

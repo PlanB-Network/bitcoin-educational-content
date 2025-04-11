@@ -1,0 +1,13 @@
+question: What are the two main variants of smart contracts used in coinswaps?
+
+answer: HTLC and PTLC
+
+wrong_answers:
+  - Multi-signature and Single-signature
+  - Smart Contracts and DApps
+  - SegWit and Taproot
+
+explanation: |
+  To execute a coinswap, one can use HTLCs (Hash Time-Locked Contracts) or PTLCs (Point Time-Locked Contracts).
+
+reviewed: false

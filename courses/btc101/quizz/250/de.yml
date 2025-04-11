@@ -1,9 +1,9 @@
-question: Was ist eine der Hauptbedenken bezüglich des Bankensystems?
+question: Was könnte ein Hauptanliegen bezüglich des Bankensystems sein?
 answer: Die Regeln des Bankenspiels sind nicht transparent und für alle verständlich.
 wrong_answers:
-  - Das Bankensystem ist zu einfach zu verstehen.
+  - Das Bankensystem ist zu leicht zu verstehen.
   - Das Bankensystem ist zu transparent.
   - Das Bankensystem ist zu dezentralisiert.
-explanation: |
-  Der Text erwähnt, dass die Frage, wer das Bankensystem kontrollieren sollte, entscheidend ist, da die Regeln des Bankenspiels nicht transparent und für alle verständlich sind.
-reviewed: false
+explanation: >-
+  Der Text erwähnt, dass die Frage, wer das Bankensystem kontrollieren sollte, entscheidend ist, weil die Regeln des Bankenspiels nicht transparent und für alle verständlich sind.
+reviewed: true

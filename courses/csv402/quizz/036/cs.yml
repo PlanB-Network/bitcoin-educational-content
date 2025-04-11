@@ -1,0 +1,9 @@
+question: Jaká je úloha skrýše?
+answer: Uchovávejte všechna data na straně klienta lokálně
+wrong_answers:
+  - Automatické publikování transakcí v blockchainu
+  - Sestavení a uložení všech vygenerovaných faktur
+  - Správa soukromých klíčů Bitcoin
+explanation: |
+  Úschovna je sada dat na straně klienta, která uživatel ukládá lokálně pro jednu nebo více smluv RGB, aby mohl provádět ověřování na straně klienta.
+reviewed: false

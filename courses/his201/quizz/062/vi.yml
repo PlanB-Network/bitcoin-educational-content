@@ -1,0 +1,9 @@
+question: Việc ước lượng tốc độ hash của một thành viên trong hợp tác thông qua bằng chứng công việc một phần bao gồm những gì?
+answer: Lấy các bằng chứng công việc có bậc thấp hơn so với độ khó của mạng do người hash tạo ra
+wrong_answers:
+  - Lấy dấu ấn của một con tem bao gồm byte đầu tiên của mỗi block hash do người hash tạo ra
+  - Lấy hóa đơn tiền điện hàng tháng của người hash
+  - Lấy các bằng chứng công việc được tạo ra trên một mạng có độ khó thấp hơn, như BitDNS
+explanation: |
+  Phương pháp đơn giản này được đề xuất bởi ribuck, Nils Schneider, và Gavin Andresen [trên diễn đàn](https: //bitcointalk.org/index.php?topic=1458.msg16951#msg16951) vào ngày 14 tháng 10 năm 2010. ()
+reviewed: false

@@ -1,0 +1,9 @@
+question: Aristotelese järgi, mis on vabadus?
+answer: Kuulekus linna seadustele
+wrong_answers:
+  - Igasuguse piirangu puudumine
+  - Võim teha mida iganes soovitakse
+  - Kõik teised vastused on õiged.
+explanation: |
+  Aristotelese jaoks seisneb vabadus linna seadustele kuuletumises, kuna need on kehtestatud ühise hüve nimel. Tõeline vabadus saavutatakse kodanikuks olemise raames ja osalemises poliitilises elus.
+reviewed: false

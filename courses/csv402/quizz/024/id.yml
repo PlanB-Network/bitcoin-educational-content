@@ -1,0 +1,9 @@
+question: Mekanisme apa dalam RGB yang memungkinkan beberapa transisi dikelompokkan bersama dalam satu transaksi Bitcoin?
+answer: Bundel Transisi
+wrong_answers:
+  - Agregasi Segel
+  - Pohon Multi-Komitmen
+  - Konsolidasi Negara
+explanation: |
+  Bundel Transisi adalah sekumpulan Transisi Status RGB (milik kontrak yang sama) yang semuanya terlibat dalam transaksi saksi Bitcoin yang sama.
+reviewed: false

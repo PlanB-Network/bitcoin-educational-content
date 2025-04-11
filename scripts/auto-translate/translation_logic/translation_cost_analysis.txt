@@ -1,0 +1,123 @@
+Translation Cost Analysis Report
+===============================
+
+Cost Breakdown by Course
+----------------------
+
+Course: btc101
+  Total Characters: 106,885
+  Cost per Language: €2.14
+  Total Cost (all languages): €29.93
+
+Course: btc102
+  Total Characters: 97,358
+  Cost per Language: €1.95
+  Total Cost (all languages): €27.26
+
+Course: btc204
+  Total Characters: 364,253
+  Cost per Language: €7.29
+  Total Cost (all languages): €101.99
+
+Course: btc205
+  Total Characters: 37,510
+  Cost per Language: €0.75
+  Total Cost (all languages): €10.50
+
+Course: btc302
+  Total Characters: 142,526
+  Cost per Language: €2.85
+  Total Cost (all languages): €39.91
+
+Course: btc305
+  Total Characters: 282,441
+  Cost per Language: €5.65
+  Total Cost (all languages): €79.08
+
+Course: btc401
+  Total Characters: 136,169
+  Cost per Language: €2.72
+  Total Cost (all languages): €38.13
+
+Course: csv402
+  Total Characters: 3,079
+  Cost per Language: €0.06
+  Total Cost (all languages): €0.86
+
+Course: cyp201
+  Total Characters: 157,685
+  Cost per Language: €3.15
+  Total Cost (all languages): €44.15
+
+Course: cyp302
+  Total Characters: 212,832
+  Cost per Language: €4.26
+  Total Cost (all languages): €59.59
+
+Course: eco102
+  Total Characters: 112,865
+  Cost per Language: €2.26
+  Total Cost (all languages): €31.60
+
+Course: eco104
+  Total Characters: 229,585
+  Cost per Language: €4.59
+  Total Cost (all languages): €64.28
+
+Course: eco201
+  Total Characters: 84,242
+  Cost per Language: €1.68
+  Total Cost (all languages): €23.59
+
+Course: eco204
+  Total Characters: 113,312
+  Cost per Language: €2.27
+  Total Cost (all languages): €31.73
+
+Course: his201
+  Total Characters: 280,860
+  Cost per Language: €5.62
+  Total Cost (all languages): €78.64
+
+Course: lnp201
+  Total Characters: 80,379
+  Cost per Language: €1.61
+  Total Cost (all languages): €22.51
+
+Course: lnp402
+  Total Characters: 2,662
+  Cost per Language: €0.05
+  Total Cost (all languages): €0.75
+
+Course: min201
+  Total Characters: 90,429
+  Cost per Language: €1.81
+  Total Cost (all languages): €25.32
+
+Course: phi201
+  Total Characters: 188,946
+  Cost per Language: €3.78
+  Total Cost (all languages): €52.90
+
+Course: scu101
+  Total Characters: 48,582
+  Cost per Language: €0.97
+  Total Cost (all languages): €13.60
+
+Overall Statistics
+-----------------
+Number of Courses: 20
+Number of Target Languages: 14
+
+Per Language Statistics:
+  Mean Cost: €2.77
+  Standard Deviation: €1.93
+  Minimum Cost: €0.05
+  Maximum Cost: €7.29
+
+Total Project Statistics:
+  Total Project Cost: €776.33
+  Mean Cost per Course (all languages): €38.82
+  Standard Deviation: €26.98
+  Minimum Course Cost: €0.75
+  Maximum Course Cost: €101.99

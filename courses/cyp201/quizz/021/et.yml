@@ -1,0 +1,8 @@
+question: Mis on skalaarkorrutise peamine omadus elliptilistel kõveratel?
+answer: Ühesuunaline funktsioon
+wrong_answers:
+  - Kergesti pööratav
+  - Põhineb algarvude tegurdamisel
+  - Väga pikk arvutada
+explanation: |
+  Skalaarkorrutis elliptilistel kõveratel on ühesuunaline funktsioon, muutes võimatuks privaatvõtme taastamise avalikust võtmest.

@@ -1,11 +1,9 @@
-question: Jakým způsobem se Bitcoin více integroval do tradičního trhu?
-answer: Nadcházející příchod Bitcoin ETF.
+question: Jakým způsobem se Bitcoin dále integroval do tradičního trhu?
+answer: Příchodem Bitcoin ETF.
 wrong_answers:
   - Zákaz Bitcoinu.
   - Zmizení všech kryptoměn.
   - Vytvoření Bitcoinu.
-explanation: >-
-  Bitcoin pokračuje ve svém přežívání a dalším růstu tím, že se čím dál více integruje
-  do tradičního trhu. Nadcházející příchod Bitcoin ETF, jasnější regulace a lepší nástroje
-  pro nákup nebo uchovávání pouze podporují tento trend.
-reviewed: false
+explanation: |
+  Bitcoin pokračuje ve svém přežívání a dalším růstu tím, že se stále více integruje do tradičního trhu. Příchod Bitcoin ETF, jasnější regulace a lepší získávání nástrojů pro uchovávání pouze podporují tento trend.
+reviewed: true

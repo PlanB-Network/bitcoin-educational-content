@@ -1,9 +1,0 @@
-question: Tại sao sự phân bố chính xác của thanh khoản trong Mạng Lưới Lightning không trực tiếp được tiếp cận?
-answer: Để bảo vệ quyền riêng tư và an ninh của người dùng.
-wrong_answers:
-  - Để giảm kích thước của blockchain.
-  - Để tăng tốc độ của giao dịch.
-  - Để giảm độ phức tạp của mạng.
-explanation: |
-  Sự phân bố chính xác của thanh khoản trong Mạng Lưới Lightning không trực tiếp được tiếp cận nhằm bảo vệ quyền riêng tư và an ninh của người dùng. Mặc dù tổng dung lượng của các kênh là công khai, nhưng vị trí chính xác của thanh khoản không được tiết lộ. Điều này ngăn chặn các kẻ tấn công tiềm năng nhắm vào các kênh hoặc nút cụ thể với thanh khoản cao.
-reviewed: false

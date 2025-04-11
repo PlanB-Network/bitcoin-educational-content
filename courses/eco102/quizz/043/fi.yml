@@ -1,0 +1,9 @@
+question: Mikä on yhteinen tekijä protektionistien ja sosialistien välillä Bastiat'n mukaan?
+answer: Molemmat haluavat suosia osan väestön hyväksikäyttöä
+wrong_answers:
+  - Molemmat puolustavat taloudellista vapautta
+  - Molemmat toivovat suurempaa sosiaalista tasa-arvoa
+  - Molemmat ovat vastaan valtion sekaantumista talouteen
+explanation: |
+  Bastiat kritisoi molempia ideologioita niiden taipumuksesta suosia yhden luokan hyväksikäyttöä toisen kustannuksella, yleisen edun vahingoksi.
+reviewed: false

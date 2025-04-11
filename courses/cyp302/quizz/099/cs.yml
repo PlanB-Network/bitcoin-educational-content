@@ -1,0 +1,9 @@
+question: Jaká je hlavní funkce Message Authentication Code (MAC)?
+answer: Zajištění autentičnosti a integrity zprávy
+wrong_answers:
+  - Šifrování zpráv pro zajištění důvěrnosti
+  - Zabránění zachycení zprávy
+  - Generování soukromých klíčů pro každou komunikaci
+explanation: |
+  MAC je kryptografické schéma, které umožňuje ověření, že zpráva skutečně pochází od legitimního odesílatele a nebyla změněna, čímž zajišťuje autentičnost a integritu.
+reviewed: false

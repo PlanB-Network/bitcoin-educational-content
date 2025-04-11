@@ -1,0 +1,7 @@
+---
+term: MULTISIG
+
+---
+Los monederos multifirma, a menudo abreviados como "multisig", están diseñados para mejorar la seguridad de los bitcoins al requerir múltiples firmas de diferentes claves privadas para autorizar un gasto. Este método distribuye el riesgo entre varias claves, lo que ayuda a reducir tanto el riesgo de pérdida como de robo (dependiendo de la configuración multisig). Los monederos multisig funcionan según un modelo "m-de-n", en el que `m` representa el número mínimo de firmas necesarias para validar una transacción, y `n` es el número total de claves implicadas. Por ejemplo, una configuración 2-de-3 requiere dos de las tres firmas posibles para validar una transacción. Este enfoque ofrece mayor seguridad que los monederos de clave única, pero también introduce más complejidad en términos de gestión y copias de seguridad. Además, las transacciones que utilizan estándares multisig más antiguos son menos privadas y más caras en comisiones que las transacciones singlesig tradicionales. Sin embargo, se espera que innovaciones recientes como Taproot y el uso de descriptores minimicen, si no eliminen, estos inconvenientes de las multisigs.
+
+> ► *Algunos bitcoiners diferencian entre los términos "Multisig" y "Threshold Multisig" De hecho, algunos sostienen que un multisig es necesariamente un n-de-n, mientras que un multisig umbral es un m-de-n. Sin embargo, en el lenguaje común, se acepta referirse a "Multisig" incluso para m-de-n.*

@@ -1,0 +1,12 @@
+question: Mis on peamine erinevus Austria analüüsi ja monetaristide ning Keynesi pooldajate analüüsi vahel?
+answer: Austria analüüs pöörab erilist tähelepanu tootmise erinevatele etappidele ja suhteliste hindade struktuurile, samas kui monetaristid ja Keynesi pooldajad keskenduvad agregaatmuutujatele nagu tööhõive tase, SKP või tarbijahinnaindeks.
+wrong_answers:
+  - Austria analüüs keskendub agregaatmuutujatele nagu tööhõive tase, SKP või tarbijahinnaindeks, samas kui monetaristid ja Keynesi pooldajad pööravad erilist tähelepanu tootmise erinevatele etappidele ja suhteliste hindade struktuurile.
+  - Austria analüüs ja monetaristide ning Keynesi pooldajate analüüs on sisuliselt samad.
+  - Austria analüüs keskendub välistele sündmustele ja loomade vaimudele, samas kui monetaristid ja Keynesi pooldajad keskenduvad fraktsionaalse reservi pangandussüsteemi endogeensetele dünaamikatele.
+explanation: |
+  Peamine erinevus Austria analüüsi ja monetaristide
+  ning Keynesi pooldajate analüüsi vahel on see, et esimene pöörab erilist tähelepanu tootmise erinevatele etappidele
+  ja suhteliste hindade struktuurile, samas kui viimased keskenduvad
+  agregaatmuutujatele nagu tööhõive tase, SKP või tarbijahinnaindeks.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jaká metoda se v systému RGB používá k definování jednorázové pečeti?
+answer: Konkrétní výstupní bod
+wrong_answers:
+  - Konkrétní veřejný klíč
+  - Konkrétní adresa Bitcoin
+  - Kombinace několika UTXO
+explanation: |
+  RGB definuje jednorázovou plombu jako konkrétní výstupní bod, který lze následně uzavřít pomocí výdajů tohoto výstupního bodu (TXID + číslo výstupu).
+reviewed: false

@@ -1,10 +1,9 @@
-question: Kuinka monta laskentakierrosta suoritetaan SHA256:n tiivistysfunktiossa?
-answer: 64
+question: Kuinka monta iteraatiota PBKDF2 käyttää Bitcoinissa?
+answer: 2048
 wrong_answers:
-  - 32
-  - 128
-  - 256
+  - 1024
+  - 4096
+  - 512
 explanation: |
-  SHA256:n tiivistysfunktiossa suoritetaan 64 laskentakierrosta.
-  Kuin pyöräilykilpailussa, jokainen kierros parantaa funktion asemaa.
+  PBKDF2 toistaa HMAC-SHA512 prosessin 2048 kertaa turvallisuuden parantamiseksi.
 reviewed: false

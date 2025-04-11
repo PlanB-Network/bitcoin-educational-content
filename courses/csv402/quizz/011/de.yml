@@ -1,0 +1,9 @@
+question: Wie setzt sich ein Anker in RGB zusammen?
+answer: Transaktions-ID, MPC, DBC und Extra-Transaktionsnachweis
+wrong_answers:
+  - Entstehungsgeschichte, Siegeldefinition und Übergangsbündel
+  - Vertragsschema, Geschäftslogik und Besitzstand
+  - Signatur, Transaktionshash und Pedersen-Bindung
+explanation: |
+  Ein Anchor enthält die Daten, die benötigt werden, um die Einbeziehung einer einzigartigen Verpflichtung in eine Bitcoin-Transaktion zu beweisen.
+reviewed: false

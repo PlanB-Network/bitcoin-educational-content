@@ -1,0 +1,9 @@
+question: Hva betyr et brute force-angrep?
+answer: Å prøve alle mulige nøkler til den riktige blir funnet
+wrong_answers:
+  - Å endre teksten for å gjøre den uforståelig
+  - Å bruke en offentlig nøkkel for å dekryptere meldingen
+  - Å slå veldig hardt på datamaskinen for å tvinge den til å gi fra seg den hemmelige nøkkelen
+explanation: |
+  Et brute force-angrep innebærer systematisk testing av alle mulige nøkler for å dekryptere en kryptert melding.
+reviewed: false

@@ -1,0 +1,8 @@
+question: O que era único no RPOW em comparação com outros conceitos de moeda digital como eCash, b-money e bit gold?
+answer: Era baseado em um servidor transparente
+wrong_answers:
+  - Utilizava prova de trabalho
+  - Sua unidade de conta não era respaldada por nada
+  - Os usuários possuíam notas digitais de denominações específicas em vez de contas
+explanation: |
+  Ele fez uso da prova de trabalho como o b-money e o bit gold. Não havia respaldo como no bit gold. Como o eCash (e como o Bitcoin mais tarde), o RPOW permitia a posse de notas digitais individuais, em vez de uma conta, e era, neste aspecto, relativamente confidencial.

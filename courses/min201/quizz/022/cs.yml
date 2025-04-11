@@ -5,5 +5,7 @@ wrong_answers:
   - Těžaři budou záviset výhradně na potvrzeních transakcí pro odměnu.
   - Těžaři budou záviset výhradně na síťových poplatcích pro odměnu.
 explanation: |
-  Do roku 2140 nebudou vytvořeny žádné nové bitcoiny. V tomto okamžiku budou těžaři záviset výhradně na transakčních poplatcích pro odměnu.
-reviewed: false
+  Do roku 2140 nebudou vytvořeny žádné nové bitcoiny. V tomto okamžiku
+  budou těžaři záviset výhradně na transakčních poplatcích pro
+  odměnu.
+reviewed: true

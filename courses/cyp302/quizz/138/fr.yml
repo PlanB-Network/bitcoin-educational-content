@@ -1,0 +1,9 @@
+question: Quelle propriété doit avoir une fonction de hachage pour garantir la sécurité lors de la vérification de logiciels ?
+answer: La résistance aux collisions
+wrong_answers:
+  - La réversibilité
+  - L'opérabilité avec des clés asymétriques
+  - La générabilité en temps réel
+explanation: |
+  La résistance aux collisions garantit qu'il est pratiquement impossible de trouver deux entrées différentes produisant le même hachage, ce qui est important pour vérifier qu'un logiciel n'a pas été altéré.
+reviewed: false

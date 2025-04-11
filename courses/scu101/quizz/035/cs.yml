@@ -5,5 +5,5 @@ wrong_answers:
   - Prodat vám produkty nebo služby.
   - Pozvat vás na akce nebo webináře.
 explanation: |
-  Pokusy o phishing mají za cíl získat citlivé informace, jako jsou vaše přihlašovací údaje a hesla. Hackeři používají různé taktiky, jako jsou podvodné e-maily, aby vás přiměli k odhalení vašich informací.
-reviewed: false
+  Cílem pokusů o phishing je získání citlivých informací, jako jsou vaše přihlašovací údaje a hesla. Hackeři používají různé taktiky, jako jsou podvodné e-maily, aby vás přiměli prozradit vaše informace.
+reviewed: true

@@ -1,9 +1,13 @@
-question: Quelle est la principale critique du système financier actuel en ce qui concerne l'environnement?
-answer: Il encourage la surconsommation et l'endettement
+question: Quel est le principal problème du système financier actuel en relation avec l'environnement ?
+answer: Il encourage la surconsommation et l'endettement.
 wrong_answers:
-  - Il favorise l'utilisation des combustibles fossiles
-  - Il n'investit pas dans les énergies renouvelables
-  - Il ne réglemente pas la production de biens
+  - Il favorise l'utilisation des combustibles fossiles.
+  - Il n'investit pas dans l'énergie renouvelable.
+  - Il ne régule pas la production de biens.
 explanation: |
-  Le système financier actuel est critiqué pour encourager la surconsommation et l'endettement, ce qui pose de graves problèmes environnementaux. Cela est dû à un accès facile au crédit, à l'émission monétaire par les banques et à l'utilisation de la réserve fractionnaire.
-reviewed: false
+  Le système financier actuel est critiqué pour encourager
+  la surconsommation et l'endettement, ce qui pose de sérieux
+  problèmes environnementaux. Ceci est dû à l'accès facile au
+  crédit, à l'émission monétaire par les banques, et à l'utilisation
+  du système de réserve fractionnaire.
+reviewed: true

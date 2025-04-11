@@ -1,0 +1,9 @@
+question: Millal toimus esimene vahetus bitcoini ja dollari vahel?
+answer: 12. oktoober 2009
+wrong_answers:
+  - 8. mai 2009
+  - 30. detsember 2009
+  - 11. märts 2010
+explanation: |
+  Martti kandis üle 5,050 bitcoini NLS-ile, kes seejärel kandis 5.02 dollarit oma PayPal kontole. See vastas ühiku hinnale umbes $0.001.
+reviewed: false

@@ -1,10 +1,9 @@
-question: Ai sở hữu chìa khóa thu hồi trong giao dịch cam kết của Alice?
-answer: Chỉ có Alice.
+question: Điều kiện nào phải được thỏa mãn để người nhận của một HTLC có thể nhận được tiền?
+answer: Họ phải cung cấp một bí mật (preimage) để mở khóa khoản thanh toán.
 wrong_answers:
-  - Chỉ có Bob.
-  - Cả Alice và Bob.
-  - Không có Alice cũng không có Bob.
+  - Họ phải chấp nhận phí định tuyến của từng nút trung gian.
+  - Họ phải ký một giao dịch cam kết mới.
+  - Họ phải đợi cho đến khi hết thời gian khóa trước khi lấy lại tiền.
 explanation: |
-  Trong giao dịch cam kết của Alice, chỉ có Alice sở hữu chìa khóa thu hồi.
-  Điều này cho phép cô ấy di chuyển các khoản tiền mà không cần phải chờ đợi hết thời gian Timelock nếu
-  Bob cố gắng gian lận.
+  Để nhận được tiền trong một HTLC, người nhận phải cung cấp một bí mật cụ thể cho phép mở khóa khoản thanh toán được bảo vệ bởi hash.
+reviewed: false

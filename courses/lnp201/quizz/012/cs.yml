@@ -1,11 +1,9 @@
-question: Jaký je účel vícepodepisových adres v Lightning Network?
-answer: Vyžadují souhlas obou stran pro uvolnění prostředků.
+question: Kdy je Lightning kanál oficiálně otevřen?
+answer: Když je transakce s vkladem potvrzena na Bitcoin blockchainu
 wrong_answers:
-  - Umožňují rychlejší časy transakcí.
-  - Poskytují dodatečnou ochranu proti hackování.
-  - Umožňují použití více kryptoměn.
+  - Jakmile jsou mezi účastníky vyměněny veřejné klíče
+  - Když je transakce s výběrem podepsána oběma stranami
+  - Jakmile je vytvořena 2/2 multisignature adresa
 explanation: |
-  Vícepodepisové adresy v Lightning Network vyžadují souhlas obou stran
-  pro uvolnění prostředků. Jedná se o bezpečnostní opatření, které zajišťuje, že prostředky
-  mohou být přesunuty pouze se souhlasem obou stran.
+  Kanál je považován za otevřený, jakmile byla transakce s vkladem zařazena do bloku Bitcoinu a dosáhla určitého počtu potvrzení.
 reviewed: false

@@ -1,0 +1,9 @@
+question: Kenelle Satoshi luovutti ohjelmistokehityksen vastuut lähtiessään?
+answer: Gavin Andresen
+wrong_answers:
+  - Martti Malmi
+  - Jeff Garzik
+  - Mike Hearn
+explanation: |
+  Gavin oli aiemmin [ilmoittanut](https: //bitcointalk.org/index.php?topic=2367.msg31651#msg31651), että hän hallinnoisi Bitcoin-projektia aktiivisemmin ja oli avannut GitHub-repositorion joulukuussa 2010.
+reviewed: false

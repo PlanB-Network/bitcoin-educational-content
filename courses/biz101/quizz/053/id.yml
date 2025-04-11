@@ -1,0 +1,9 @@
+question: Detail pembayaran penting apa yang harus didokumentasikan untuk setiap transaksi Bitcoin?
+answer: Tanggal, jumlah, nilai fiat yang setara, dan alamat terkait
+wrong_answers:
+  - ID transaksi, biaya jaringan, dan alamat merchant
+  - Tanggal, nilai tukar, jenis dompet, dan lokasi geografis
+  - Nomor blok Bitcoin, stempel waktu, dan skrip yang digunakan
+explanation: |
+  Mendokumentasikan rincian ini memastikan kejelasan dan membantu akuntan dalam membedakan arus masuk dan keluar.
+reviewed: false

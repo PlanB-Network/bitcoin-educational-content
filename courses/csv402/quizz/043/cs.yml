@@ -1,0 +1,9 @@
+question: Co představuje "přechod stavu RGB" v kontextu sítě Lightning Network?
+answer: Aktualizovaná alokace aktiv RGB integrovaná do transakcí se závazky
+wrong_answers:
+  - Nový stav multisig 2/2 onchain
+  - Aktualizovaná alokace aktiv RGB integrovaná do transakce financování
+  - Validační skript na řetězci nahrazen HTLC
+explanation: |
+  Přechod stavu RGB aktualizuje distribuci aktiv RGB v kanálu pomocí transakcí závazků.
+reviewed: false

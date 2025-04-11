@@ -1,9 +1,10 @@
-question: Qual é uma das razões pelas quais o preço do Bitcoin pode cair de 10-20 ou até 50% em poucos dias?
-answer: Variações de mercado e fases de mercado otimistas e pessimistas.
+question: Qual é uma razão pela qual o preço do Bitcoin pode cair 10%, 20% ou até 50% em apenas alguns dias?
+answer: Fases de mercado altista e baixista.
 wrong_answers:
   - O número de pessoas usando a internet.
   - O clima.
   - O preço do ouro.
-explanation: |
-  O preço do Bitcoin frequentemente é caracterizado por uma volatilidade significativa, que pode ser influenciada por variações de mercado e fases de mercado otimistas e pessimistas.
-reviewed: false
+explanation: >-
+  O preço do Bitcoin é frequentemente caracterizado por uma volatilidade significativa,
+  que pode ser influenciada por variações de mercado e fases de mercado altista e baixista.
+reviewed: true

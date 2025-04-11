@@ -1,0 +1,5 @@
+---
+term: OP_CHECKMULTISIG (0XAE)
+
+---
+Verifica múltiplas assinaturas contra múltiplas chaves públicas. Recebe como entrada uma série de `N` chaves públicas e `M` assinaturas, onde `M` pode ser menor ou igual a `N`. `OP_CHECKMULTISIG` verifica se pelo menos `M` assinaturas correspondem a `M` das `N` chaves públicas. Note que devido a um bug histórico do tipo "off-by-one", um elemento adicional é removido pela `OP_CHECKMULTISIG` da pilha. Este elemento é chamado de "*elemento fictício*". Para evitar um erro no `scriptSig`, um `OP_0`, que é um elemento inútil, é então incluído para satisfazer a remoção e contornar o bug. Desde o BIP147 (introduzido com o SegWit em 2017), o elemento inútil consumido por causa do bug deve ser o `OP_0` para que o script seja válido, pois era um vetor de maleabilidade. Este opcode foi removido no Tapscript.

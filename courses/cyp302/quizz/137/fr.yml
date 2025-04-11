@@ -1,0 +1,9 @@
+question: Pourquoi les mots de passe sont-ils souvent stockés sous forme de hachage sur les serveurs sécurisés ?
+answer: Pour éviter que les mots de passe ne soient récupérés facilement en cas de fuite
+wrong_answers:
+  - Pour augmenter la taille du stockage de données utilisateur
+  - Pour chiffrer les mots de passe en temps réel de manière symétrique
+  - Pour permettre aux utilisateurs de se connecter sans mot de passe
+explanation: |
+  En stockant les hachages de mots de passe, même en cas de fuite de données, les mots de passe réels ne peuvent pas être directement lus, ce qui augmente ainsi la sécurité.
+reviewed: false

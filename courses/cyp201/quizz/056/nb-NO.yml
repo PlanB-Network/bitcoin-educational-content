@@ -1,0 +1,8 @@
+question: Hvilken konstant brukes til å utlede hovedprivatnøkkelen fra frøet?
+answer: Bitcoin Seed
+wrong_answers:
+  - Master Key
+  - HD Wallet Seed
+  - Blockchain Root
+explanation: |
+  Konstanten Bitcoin Seed brukes som en nøkkel i HMAC-SHA512-funksjonen for å utlede hovedprivatnøkkelen og hovedkjedekoden.

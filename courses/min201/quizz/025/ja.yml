@@ -6,3 +6,4 @@ wrong_answers:
   - 合意形成層
 explanation: |
   Bitcoinネットワークの基礎層は、Lightning Networkが支払いチャネルの開設と閉鎖に依存している層で、一般に「決済層」と呼ばれています。
+reviewed: true

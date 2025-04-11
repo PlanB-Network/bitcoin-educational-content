@@ -1,0 +1,12 @@
+question: Mis on üks dollariseerimise tagajärgedest?
+answer: Autonoomse rahapoliitika kaotus
+wrong_answers:
+  - Inflatsiooni suurenemine
+  - Rahapakkumise suurenemine
+  - Avaliku usalduse vähenemine
+explanation: |
+  Dollariseerimine võib lõpetada hüperinflatsiooni, kuid see toob kaasa teisi majanduslikke
+  väljakutseid. Üks tagajärgedest on autonoomse rahapoliitika kaotus. Ilma
+  oma valuutata ei saa riik kohandada oma rahapoliitikat, et reageerida sisemistele
+  majandusšokkidele.
+reviewed: false

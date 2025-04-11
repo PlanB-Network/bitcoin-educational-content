@@ -1,0 +1,12 @@
+question: Mis on üks meetmetest, et hoida oma arvuti optimaalses töökorras?
+answer: Varunda oma andmeid regulaarselt
+wrong_answers:
+  - Jaga oma paroole
+  - Kasuta kõikide kontode jaoks sama parooli
+  - Eira oma arvuti uuendamist
+explanation: |
+  Oma andmete regulaarne varundamine on üks meetmetest, et hoida oma arvuti
+  
+  optimaalses töökorras. See on samuti põhimeede, et parandada oma veebiturvalisuse
+  
+  harjumusi.

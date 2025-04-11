@@ -1,0 +1,9 @@
+question: Quelles fonctions l'État doit-il remplir selon Bastiat ?
+answer: Sécurité intérieure, sécurité extérieure et justice
+wrong_answers:
+  - Régulation, redistribution et justice
+  - Sécurité, justice et équité
+  - Éducation, santé et justice
+explanation: |
+  Bastiat défend un rôle limité de l'État aux fonctions de sécurité intérieure et extérieure et à la justice, pour protéger les droits naturels des individus.
+reviewed: false

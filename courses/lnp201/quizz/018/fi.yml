@@ -1,11 +1,9 @@
-question: Mitä Alice tekee saatuaan Bobin julkisen osoitteen?
-answer: Hän luo 2/2 moniallekirjoitusosoitteen.
+question: Miten uusi kanavatila luodaan jokaisen siirron jälkeen?
+answer: Luomalla uusi sitoumustapahtuma päivitetyllä jaolla
 wrong_answers:
-  - Hän lähettää rahaa Bobin julkiseen osoitteeseen.
-  - Hän julkaisee siirron Bitcoin-verkkoon.
-  - Hän pyytää Bobilta tämän allekirjoitusta.
+  - Lähettämällä on-chain-tapahtuman jokaisen siirron jälkeen
+  - Kasvattamalla kanavan kokonaiskapasiteettia
+  - Sulkemalla ja avaamalla kanavan uudelleen jokaisen tapahtuman jälkeen
 explanation: |
-  Saatuaan Bobin julkisen osoitteen, Alice käyttää sitä yhdessä oman
-  julkisen osoitteensa kanssa luodakseen 2/2 moniallekirjoitusosoitteen. Tämä on osoite, johon hän
-  aikoo lähettää rahaa avatakseen kanavan.
+  Jokainen kanavassa tapahtuva siirto päivittää kanavan tilan uudella sitoumustapahtumalla, heijastaen nykyistä varojen jakautumista kahden osallistujan välillä.
 reviewed: false

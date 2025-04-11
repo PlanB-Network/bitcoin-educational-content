@@ -1,9 +1,9 @@
-question: Miten Lightning Network -verkon transaktiot turvataan?
-answer: Kryptografian avulla ja välillisesti Bitcoinin louhijoiden käyttämän energian kautta.
+question: Kuinka Lightning Networkin transaktiot turvataan?
+answer: Kryptografian avulla ja välillisesti Bitcoinin louhijoiden kuluttaman energian kautta.
 wrong_answers:
   - Vain yksityisten avainten käytön kautta.
   - Vain julkisten avainten käytön kautta.
   - Vain yksityisten ja julkisten avainten yhteiskäytön kautta.
 explanation: >-
-  Lightning Network -verkon transaktiot turvataan kryptografian avulla ja välillisesti Bitcoinin louhijoiden käyttämän energian kautta.
-reviewed: false
+  Lightning Networkin transaktiot turvataan kryptografian avulla ja välillisesti Bitcoinin louhijoiden kuluttaman energian kautta.
+reviewed: true

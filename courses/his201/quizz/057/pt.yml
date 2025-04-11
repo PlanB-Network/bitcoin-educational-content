@@ -1,0 +1,9 @@
+question: Qual minerador alemão deteve 20% da taxa de hash da rede Bitcoin por vários meses em 2010?
+answer: ArtForz
+wrong_answers:
+  - tcatm
+  - m0mchil
+  - knightmb
+explanation: |
+  Ele montou uma fazenda de mineração composta por placas gráficas (chamada ArtFarm) durante o verão de 2010, obtendo assim uma vantagem significativa sobre seus concorrentes até o outono.
+reviewed: false

@@ -5,7 +5,8 @@ wrong_answers:
   - Tarkista sivuston nopeus.
   - Tarkista sivuston värimaailma.
 explanation: |
-  URL-osoitteiden ja osoiterivillä olevan pienen lukon kuvan tarkistaminen on yksi tapa
-  varmistaa, että olet haluamallasi sivustolla. Lukon kuva viittaa siihen,
-  että sivusto käyttää HTTPS-protokollaa, mikä salaa tiedot turvallista vaihtoa varten.
-reviewed: false
+  URL-osoitteiden ja pienen lukon kuvan tarkistaminen osoiterivillä
+  on yksi tapa varmistaa, että olet haluamallasi sivustolla. Lukon kuva
+  osoittaa, että sivusto käyttää HTTPS-protokollaa, joka salaa tiedot
+  turvallista vaihtoa varten.
+reviewed: true

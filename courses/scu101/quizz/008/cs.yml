@@ -1,9 +1,13 @@
 question: Co je síť TOR?
-answer: Síť, která nabízí anonymitu tím, že maskuje IP adresu uživatele a umožňuje přístup na Darknet.
+answer: Síť, která nabízí anonymitu maskováním IP adresy uživatele a umožňuje přístup na Darknet.
 wrong_answers:
   - Síť, která chrání vaše zařízení před viry a dalším škodlivým softwarem.
   - Síť, která skrývá vaši online aktivitu před poskytovatelem internetových služeb.
   - Síť, která vám umožňuje rychlejší prohlížení internetu.
 explanation: |
-  Síť TOR (The Onion Router) je síť, která nabízí anonymitu tím, že maskuje IP adresu uživatele a umožňuje přístup na Darknet. Je využívána novináři, aktivisty za svobodu a dalšími, kteří se snaží vyhnout cenzuře v autoritářských zemích.
-reviewed: false
+  Síť TOR (The Onion Router) je síť, která nabízí
+  anonymitu maskováním IP adresy uživatele a umožňuje
+  přístup na Darknet. Je využívána novináři, aktivisty za svobodu
+  a dalšími, kteří se snaží uniknout cenzuře v autoritářských
+  zemích.
+reviewed: true

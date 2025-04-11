@@ -1,0 +1,5 @@
+---
+term: FRANCOBOLLI
+
+---
+Un protocollo che consente l'integrazione di dati immagine formattati direttamente sulla blockchain Bitcoin attraverso transazioni multi-firma grezze (P2MS). I francobolli codificano il contenuto binario di un'immagine in base 64 e lo aggiungono alle chiavi di un 1/3 P2MS. Una chiave è reale e viene utilizzata per spendere i fondi, mentre le altre due sono chiavi fittizie (la chiave privata associata è sconosciuta) che memorizzano i dati. Codificando i dati direttamente come chiavi pubbliche anziché utilizzare gli output `OP_RETURN`, le immagini memorizzate con il protocollo Stamps richiedono un carico di lavoro particolarmente elevato per i nodi. Questo metodo crea in particolare più UTXO, il che aumenta le dimensioni dell'insieme UTXO e pone problemi ai nodi pieni.

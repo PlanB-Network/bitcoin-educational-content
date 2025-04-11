@@ -1,10 +1,9 @@
-question:
-  Omezuje kapacita platebního kanálu Lightning celkový počet transakcí nebo celkový objem Bitcoinu, který může být přenesen skrze kanál?
-answer: To není pravda
+question: Jak funguje 2/2 multisignature adresa v Bitcoinu?
+answer: Vyžaduje dva podpisy pro odemčení a utracení prostředků.
 wrong_answers:
-  - To je pravda
-  - To je pravda pouze v některých případech
-  - To závisí na síti Bitcoin
+  - Umožňuje utratit prostředky pouze s jedním ze dvou klíčů.
+  - Autorizuje transakce pouze ve specifických případech uzamčení.
+  - Používá se pouze k odesílání prostředků na veřejné adresy.
 explanation: |
-  Ačkoliv je kapacita platebního kanálu Lightning pevně stanovena, neomezuje to celkový počet transakcí ani celkový objem Bitcoinu, který může být přenesen skrze kanál.
+  2/2 multisignature adresa vyžaduje podpisy obou zúčastněných stran, aby bylo možné prostředky utratit, což se používá pro zabezpečení Lightning kanálů.
 reviewed: false

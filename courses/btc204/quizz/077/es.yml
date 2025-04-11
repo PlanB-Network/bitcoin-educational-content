@@ -1,0 +1,11 @@
+question: ¿Cuál es la principal diferencia entre un coinjoin y un mezclador custodial?
+
+answer: Coinjoin te permite mantener el control total sobre tus fondos.
+
+wrong_answers:
+  - Coinjoin requiere la cesión temporal de la custodia de los fondos.
+  - Los mezcladores son más seguros que los coinjoins.
+  - Los mezcladores proporcionan una mejor calidad de mezcla.
+
+explanation: |
+  La principal desventaja de los mezcladores en comparación con los coinjoins es que requieren que el usuario renuncie a la custodia de sus fondos durante el proceso de mezcla, lo que los expone a riesgos de robo.

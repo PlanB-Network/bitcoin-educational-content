@@ -53,7 +53,7 @@ Bitcoin取引が公開されているため、それらの間のリンクを確�
 
 しかし、実際の現実ははるかに複雑です。実際のアイデンティティをオンチェーン活動にリンクするリスクとなる多くの行動があります。分析では、これをエントリーポイントと呼び、それらは多数存在します。もちろん、最も一般的なのはKYC（Know Your Customer）です。規制されたプラットフォームからビットコインを個人の受信アドレスに引き出す場合、ある人々はあなたのアイデンティティをこのアドレスにリンクすることができます。より広く言えば、エントリーポイントはあなたの実生活とビットコイントランザクションとの間の任意の形態の相互作用である可能性があります。例えば、あなたが受信アドレスをソーシャルネットワークに公開した場合、これは分析のためのエントリーポイントになる可能性があります。あなたがあなたのパン屋にビットコインで支払いをする場合、彼らはあなたの顔（あなたのアイデンティティの一部）をビットコインアドレスに関連付けることができます。
 これらのエントリーポイントは、ビットコインを使用する際にほぼ避けられません。その範囲を限定しようとするかもしれませんが、それらは存在し続けます。だからこそ、あなたのプライバシーを保護することを目的とした方法を組み合わせることが重要です。あなたの実際のアイデンティティとあなたのトランザクションとの間に受け入れられる分離を維持することは称賛に値するアプローチですが、それだけでは不十分です。実際、あなたのすべてのオンチェーン活動を一緒にグループ化することができれば、最小のエントリーポイントでさえ、あなたが確立していた唯一のプライバシーの層を危険にさらす可能性があります。
-したがって、Bitcoinの使用においては、チェーン分析にも対処する必要があります。そうすることで、私たちの活動の集約を最小限に抑え、エントリーポイントが私たちのプライバシーに与える影響を限定することができます。正確には、チェーン分析に対抗するためには、チェーン分析で使用される方法に自分自身を慣れさせるより良いアプローチは何でしょうか？Bitcoinでプライバシーを向上させる方法を知りたい場合は、これらの方法を理解する必要があります。これにより、[Coinjoin](https://planb.network/en/tutorials/privacy/coinjoin-samourai-wallet)や[Payjoin](https://planb.network/en/tutorials/privacy/payjoin)のような技術をよりよく把握し、あなたが犯すかもしれないミスを減らすことができます。
+したがって、Bitcoinの使用においては、チェーン分析にも対処する必要があります。そうすることで、私たちの活動の集約を最小限に抑え、エントリーポイントが私たちのプライバシーに与える影響を限定することができます。正確には、チェーン分析に対抗するためには、チェーン分析で使用される方法に自分自身を慣れさせるより良いアプローチは何でしょうか？Bitcoinでプライバシーを向上させる方法を知りたい場合は、これらの方法を理解する必要があります。これにより、[Coinjoin](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef)や[Payjoin](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f)のような技術をよりよく把握し、あなたが犯すかもしれないミスを減らすことができます。
 この点で、暗号学と暗号解析との類似性を引き合いに出すことができます。優れた暗号学者は、まず何よりも優れた暗号解析者です。新しい暗号アルゴリズムを想像するためには、それが直面するであろう攻撃を知り、また以前のアルゴリズムがなぜ破られたのかを研究する必要があります。同じ原則がBitcoinのプライバシーにも適用されます。チェーン分析の方法を理解することが、それに対抗する鍵です。それが、この記事を提供する理由です。
 
 チェーン分析が正確な科学ではないことを理解することが重要です。それは以前の観察や論理的な解釈から導き出されたヒューリスティックに依存しています。これらのルールにより、かなり信頼性の高い結果が得られますが、絶対的な精度は決してありません。言い換えれば、チェーン分析には常に結論に導かれる確率の次元が含まれています。2つのアドレスが同じエンティティに属しているということを、より多かれ少なかれ確実に推定することができますが、完全な確実性は常に手の届かないところにあります。
@@ -260,7 +260,7 @@ CIOHは、サトシ・ナカモトによって発見されました。彼はホ�
 まず、より根本的な方法を検討する前に、できるだけチェーン分析に使用されるヒューリスティックへの露出を限定することが望ましいです。前述のように、最も強力なヒューリスティックはアドレスの再利用とCOINJOINです。
 
 ビットコイン上でのプライバシーを確保する基本原則は、ウォレットへの各着信トランザクションに対して新しいクリーンなアドレスを使用することにあります。アドレスの再利用は、ビットコイン上の機密性に対する真の主要な脅威です。
-個々のユーザーにとって、受け取る支払いごとに新しいアドレスを生成することは非常に簡単です。現代のウォレットは、「受け取る」をクリックするとすぐに自動的にこれを行います。したがって、取引のプライバシーに少しでも重要性を置くのであれば、新鮮なアドレスを使用することは最低限の要件です。インターネット上で静的な連絡先が必要な場合は、受け取りアドレスを掲載する代わりに、[BIP47を実装するPayNymのようなソリューション](https://planb.network/en/tutorials/privacy/paynym-bip47)を使用できます。次に、チェーン分析に対抗したい場合は、トランザクションの入力でUTXOを統合することを避けてください。最低限、本当に統合する必要がある場合は、同じソースからのUTXOを選好してください。この推奨事項は、UTXOの良好な管理を意味します。ビットコインを購入する際は、統合せずに多くの支払いを行えるよう、大量の転送を選好してください。また、異なるソースからの統合を避けるために、ソフトウェアでUTXOにラベルを付けてその起源を識別することをお勧めします。
+個々のユーザーにとって、受け取る支払いごとに新しいアドレスを生成することは非常に簡単です。現代のウォレットは、「受け取る」をクリックするとすぐに自動的にこれを行います。したがって、取引のプライバシーに少しでも重要性を置くのであれば、新鮮なアドレスを使用することは最低限の要件です。インターネット上で静的な連絡先が必要な場合は、受け取りアドレスを掲載する代わりに、[BIP47を実装するPayNymのようなソリューション](https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093)を使用できます。次に、チェーン分析に対抗したい場合は、トランザクションの入力でUTXOを統合することを避けてください。最低限、本当に統合する必要がある場合は、同じソースからのUTXOを選好してください。この推奨事項は、UTXOの良好な管理を意味します。ビットコインを購入する際は、統合せずに多くの支払いを行えるよう、大量の転送を選好してください。また、異なるソースからの統合を避けるために、ソフトウェアでUTXOにラベルを付けてその起源を識別することをお勧めします。
 
 より広範囲にわたって、他のすべてのヒューリスティックスについては、それらに陥らないように知っておく必要があります：
 - 少数派のスクリプトを使用しないでください。SegWit V0、あるいは可能であればSegWit V1を選好してください；
@@ -274,15 +274,15 @@ CIOHは、サトシ・ナカモトによって発見されました。彼はホ�
 チェーン分析を防ぐまたは欺くために、ビットコインの使用を曖昧にする方法にも頼ることができます。
 
 最も人気のある技術は、確実にCoinjoinでしょう。これは、同じ金額の複数のUTXOを動員する協力的なトランザクション構造です。ここでの目標は、決定論的なリンクを破壊し、過去から現在へ、現在から過去への分析を防ぐことです。Coinjoinは、大きなグループ内であなたのコインを区別できないコインと一緒に隠すことにより、合理的な否認可能性を提供します。Coinjoinについて、技術的にも実践的にも、もっと学びたい場合は、これらの他の記事やチュートリアルを読むことをお勧めします：
-- [COINJOIN - SAMOURAI WALLET](https://planb.network/en/tutorials/privacy/coinjoin-samourai-wallet);
-- [COINJOIN - SPARROW WALLET](https://planb.network/en/tutorials/privacy/coinjoin-sparrow-wallet);
-- [WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/en/tutorials/privacy/wst-anonsets).
+- [COINJOIN - SAMOURAI WALLET](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef);
+- [COINJOIN - SPARROW WALLET](https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b);
+- [WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375).
 ![analysis](assets/en/13.webp)
 
 CoinJoinはコインの合理的な否認可能性を作り出すための優れたツールですが、すべてのユーザープライバシーのニーズに最適化されているわけではありません。具体的には、CoinJoinは支払いツールとして設計されていません。合理的な否認可能性の生産を完璧にするために、交換される金額について非常に厳格です。トランザクション出力の金額を自由に選択できないため、CoinJoinはビットコインでの支払いには使用できません。
 
 例えば、私がプライバシーを最適化しながらビットコインでバゲットを支払いたいと想像してください。CoinJoinからの結果としてのUTXOの金額を選択することができないため、私はパン屋が設定した価格に支出の金額を調整することができずに困るでしょう。したがって、CoinJoinは支払いトランザクションには不適切です。
-プライバシーのニーズをより具体的な使用例で満たすために考案された他のツールがあります。例えば、[PayJoin](https://planb.network/en/tutorials/privacy/payjoin)は、2人の参加者のみを含み、支払いを可能にする構造に基づいた、ミニCoinJoinの一種です。
+プライバシーのニーズをより具体的な使用例で満たすために考案された他のツールがあります。例えば、[PayJoin](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f)は、2人の参加者のみを含み、支払いを可能にする構造に基づいた、ミニCoinJoinの一種です。
 PayJoinのユニークさは、通常のトランザクションのように見えるが、実際には2人のユーザー間のミニCoinJoinであるトランザクションを生成する能力にあります。この構造では、トランザクションの受取人が実際の送信者とともに入力の中に参加します。したがって、受取人は実際の支払いを容易にするトランザクション内に自分自身への支払いを挿入します。
 
 例えば、10,000 satsのUTXOから6,000 satsでバゲットを購入し、PayJoinを行いたい場合、あなたのパン屋は彼らに属する15,000 satsのUTXOをあなたの元のトランザクションに入力として追加します。これは、彼らが出力として完全に回収することで、ヒューリスティックを欺くためです：
@@ -296,15 +296,15 @@ PayJoinの二つ目の目標は、その出力の特定の構造のおかげで�
 
 実際に、PayJoinを使用してバゲットを購入する例に戻ると、外部の観察者は4,000 satsまたは21,000 satsの支払いを扱っていると考えるかもしれません。実際には、バゲットの支払いは6,000 satsです：21,000 - 15,000 = 6,000。したがって、実際の支払いの価値は、チェーン分析のためのデコイとして機能する偽の支払い内に隠されています。
 
-PayJoinやCoinJoinを超えて、チェーン分析をブロックするか欺くかのどちらかを可能にする多くの他のBitcoinトランザクション構造があります。これらの中には、柔軟なミニCoinJoinを作成するか、柔軟なミニCoinJoinを模倣することを可能にする[Stonewall](https://planb.network/en/tutorials/privacy/stonewall)や[StonewallX2](https://planb.network/en/tutorials/privacy/stonewall-x2)トランザクションが含まれます。また、自分自身への偽の転送の多数を作成することでビットコインの所有権の変更をシミュレートする[Ricochet](https://planb.network/en/tutorials/privacy/ricochet)トランザクションもあります。
+PayJoinやCoinJoinを超えて、チェーン分析をブロックするか欺くかのどちらかを可能にする多くの他のBitcoinトランザクション構造があります。これらの中には、柔軟なミニCoinJoinを作成するか、柔軟なミニCoinJoinを模倣することを可能にする[Stonewall](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)や[StonewallX2](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)トランザクションが含まれます。また、自分自身への偽の転送の多数を作成することでビットコインの所有権の変更をシミュレートする[Ricochet](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589)トランザクションもあります。
 
 これらのツールはすべて、モバイルのSamourai WalletとPCのSparrow Walletで利用可能です。これらの特定のトランザクション構造についてもっと学びたい場合は、私のチュートリアルを発見することをお勧めします：
-- [PAYJOIN](https://planb.network/en/tutorials/privacy/payjoin);
-- [PAYJOIN - SAMOURAI WALLET](https://planb.network/en/tutorials/privacy/payjoin-samourai-wallet);
-- [PAYJOIN - SPARROW WALLET](https://planb.network/en/tutorials/privacy/payjoin-sparrow-wallet);
-- [STONEWALL](https://planb.network/en/tutorials/privacy/stonewall);
-- [STONEWALL X2](https://planb.network/en/tutorials/privacy/stonewall-x2);
-- [RICOCHET](https://planb.network/en/tutorials/privacy/ricochet).
+- [PAYJOIN](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f);
+- [PAYJOIN - SAMOURAI WALLET](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab);
+- [PAYJOIN - SPARROW WALLET](https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62);
+- [STONEWALL](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4);
+- [STONEWALL X2](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b);
+- [RICOCHET](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589).
 
 ## 結論
 チェーン分析は、オンチェーン上でビットコインの流れを追跡しようとする実践です。これを行うために、分析者はパターンや特徴を探し、よりまたはあまりにも妥当な仮説や解釈を導き出します。
@@ -323,3 +323,9 @@ PayJoinやCoinJoinを超えて、チェーン分析をブロックするか欺�
 
 **P2WPKH:** 「Pay to Witness Public Key Hash」の略語です。UTXOに支出条件を設定するために使用される標準的なスクリプトモデルです。P2WPKHは、2017年8月のSegWitの実装と共に導入されました。このスクリプトは、公開鍵のハッシュ、つまり受信アドレスに基づいてビットコインをロックする点で、P2PKH（Pay to Public Key Hash）と似ています。違いは、署名とスクリプトがトランザクションにどのように含まれるかにあります。P2WPKHの場合、署名スクリプト情報（ScriptSig）は従来のトランザクション構造からWitnessと呼ばれる別のセクションに移動されます。この移動はSegWit（Segregated Witness、分離証人）アップデートの特徴です。この技術は、メインボディのトランザクションデータのサイズを削減しながらも、検証に必要なスクリプト情報を別のセクションに保持するという利点があります。その結果、P2WPKHトランザクションは一般的にLegacyトランザクションと比較して手数料が安くなります。P2WPKHアドレスはBech32エンコーディングを使用して書かれており、BCHチェックサムのおかげでより簡潔で誤りにくい書き方になっています。これらのアドレスは常にbc1qで始まり、Legacy受信アドレスと容易に区別できます。P2WPKHはバージョン0のSegWit出力です。
 **UTXO:** 「Unspent Transaction Output」の略語です。UTXOは、まだ使われていない、または新しいトランザクションの入力として使用されていないトランザクションの出力を指します。UTXOは、ユーザーが所有し、現在使用可能なビットコインの一部を表しています。各UTXOは特定の出力スクリプトに関連付けられており、ビットコインを使用するために必要な条件を定義します。ビットコインのトランザクションは、これらのUTXOを入力として消費し、出力として新しいUTXOを作成します。UTXOモデルはビットコインにとって基本的なものであり、トランザクションが存在しないビットコインや既に使われたビットコインを使おうとしていないことを簡単に検証できるようにします。本質的に、UTXOはビットコインの一部です。
+
+
+
+
+
+

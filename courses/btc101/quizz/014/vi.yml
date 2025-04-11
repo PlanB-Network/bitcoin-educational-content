@@ -2,9 +2,9 @@ question: Dự án DigiCash là gì?
 answer: Một nỗ lực tạo ra tiền điện tử ẩn danh bởi David Chaum.
 wrong_answers:
   - Một dự án tạo ví điện tử cho Bitcoin.
-  - Một dự án số hóa toàn bộ tiền mặt vật lý.
+  - Một nỗ lực số hóa toàn bộ tiền mặt vật lý bởi Cục Dự trữ Liên bang.
   - Một dự án tạo ra một loại tiền mã hóa dựa trên Bitcoin.
 explanation: |
-  David Chaum đã giới thiệu khái niệm về tiền điện tử ẩn danh với
-  dự án DigiCash của mình vào những năm 1980.
-reviewed: false
+  David Chaum đã giới thiệu khái niệm về tiền điện tử ẩn danh
+  với dự án DigiCash của mình vào những năm 1980.
+reviewed: true

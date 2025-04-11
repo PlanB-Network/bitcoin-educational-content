@@ -4,6 +4,6 @@ wrong_answers:
   - Fyzický trezor.
   - Bankovní účet.
   - Kreditní kartu.
-explanation: >-
-  Text uvádí, že před koupí Bitcoinu byste měli mít bezpečnou peněženku. Zde budete uchovávat své Bitcoiny.
-reviewed: false
+explanation: |
+  Text kurzu uvádí, že před koupí Bitcoinu byste měli mít bezpečnou peněženku, kde budete uchovávat své klíče.
+reviewed: true

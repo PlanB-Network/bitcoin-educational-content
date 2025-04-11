@@ -1,0 +1,11 @@
+question: Quante transazioni successive esegue di solito un classico rimbalzo?
+
+answer: 5
+
+wrong_answers:
+  - 2
+  - 8
+  - 14
+
+explanation: |
+  Il metodo del rimbalzo prevede tipicamente di effettuare 4 transazioni a se stesso, e una finale per inviare i fondi al destinatario finale.

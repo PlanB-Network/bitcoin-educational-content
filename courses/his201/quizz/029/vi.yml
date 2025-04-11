@@ -1,0 +1,8 @@
+question: Lời chỉ trích nào mà thành viên sáng lập của cypherpunks, John Gilmore, đã đưa ra về phát minh của Satoshi Nakamoto vào tháng 1 năm 2009?
+answer: Bitcoin gây ô nhiễm cho hành tinh
+wrong_answers:
+  - Bitcoin tạo điều kiện cho việc trốn thuế
+  - Bitcoin dễ bị tấn công Sybil
+  - Bitcoin có tính chất giảm phát
+explanation: |
+  Ông [đã chỉ trích](https: //www.metzdowd.com/pipermail/cryptography/2009-January/015042.html) Bitcoin vì tiêu thụ điện năng và tạo ra khí carbon dioxide (một loại khí nhà kính).

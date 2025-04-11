@@ -1,0 +1,9 @@
+question: How is the safety of an RGB transition in a Lightning channel ensured if an obsolete state is broadcast?
+answer: Through the punitive mechanics of the Lightning Channel
+wrong_answers:
+  - By automatically cancelling all previous transactions
+  - Through the punitive mechanics of the RGB protocol
+  - Through the intervention of the RGB asset issuer via its signature associated with the Genesis
+explanation: |
+  The Lightning Network's classic punitive mechanism ensures that the dissemination of an old condition can be punished by the recovery of all funds involved, including RGB assets.
+reviewed: false

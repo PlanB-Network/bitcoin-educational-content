@@ -1,9 +1,9 @@
-question: ¿Por qué se consideran obsoletas las funciones de hash SHA0, SHA1 y MD5?
-answer: Han perdido su resistencia a las colisiones.
+question: ¿Cuál es la principal diferencia entre SHA256 y RIPEMD160?
+answer: RIPEMD160 produce hashes más cortos que SHA256
 wrong_answers:
-  - Son demasiado lentas para calcular.
-  - Producen huellas digitales demasiado grandes.
-  - No son irreversibles.
+  - SHA256 está obsoleto a diferencia de RIPEMD160
+  - RIPEMD160 se usa solo en el mecanismo de Prueba de Trabajo
+  - SHA256 nunca se combina con otras funciones de hash
 explanation: |
-  SHA0, SHA1 y MD5 se consideran funciones de hash obsoletas porque han perdido su resistencia a las colisiones. Esto significa que es relativamente fácil encontrar dos entradas diferentes que produzcan la misma salida, lo cual es una gran falla de seguridad.
+  RIPEMD160 genera hashes de 160 bits, mientras que SHA256 produce hashes de 256 bits.
 reviewed: false

@@ -1,0 +1,9 @@
+question: Mikä on RGB-protokollan peruskäsite?
+answer: Asiakaspuolen validointi ketjussa olevien kryptografisten sitoumusten avulla
+wrong_answers:
+  - Ketjussa tapahtuva validointi Turingin täydellisillä älykkäillä sopimuksilla
+  - Salattujen Bitcoin-tapahtumien yksinomainen käyttö
+  - Sopimuksen toteuttaminen älykkäille sopimuksille tarkoitetussa lohkoketjussa
+explanation: |
+  RGB perustuu asiakaspuolen validointimalliin, jossa sitoumukset (Taprootin tai OP_RETURNin kautta) syötetään ketjussa, kun taas suurin osa logiikasta ja tiedoista säilytetään ketjun ulkopuolella.
+reviewed: false

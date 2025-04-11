@@ -1,0 +1,9 @@
+question: Apa perbedaan utama antara browsing privat dan menggunakan jaringan TOR?
+answer: TOR menyamarkan alamat IP pengguna, sementara browsing privat tidak.
+wrong_answers:
+  - Browsing privat dan TOR adalah hal yang sama.
+  - Browsing privat menyamarkan alamat IP pengguna, sementara TOR tidak.
+  - TOR meninggalkan jejak lokal di komputer Anda, sementara browsing privat tidak.
+explanation: |
+  Browsing privat adalah fitur yang mencegah penyimpanan riwayat browsing, file internet sementara, data formulir, cookie, dan nama pengguna serta kata sandi oleh browser internet. Namun, fitur ini tidak menyembunyikan aktivitas browsing dari penyedia layanan internet Anda. Di sisi lain, jaringan TOR menawarkan anonimitas dengan menyamarkan alamat IP pengguna dan memungkinkan akses ke Darknet.
+reviewed: false

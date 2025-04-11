@@ -1,0 +1,13 @@
+question: Millist vahepealset meedet saab kasutada ühenduste peitmiseks, kui te ei kasuta oma Bitcoin'i sõlme?
+
+answer: Tor'u kasutamine.
+
+wrong_answers:
+  - Tulemüüri kasutamine.
+  - Krüpteeritud rahakoti kasutamine.
+  - Kahekordse rahakoti kasutamine.
+
+explanation: |
+  Selleks, et piirata vaatluse all olemise riski, on vahepealne lahendus kasutada rahakoti tarkvara, mis võimaldab peita oma ühendusi Tor'i kaudu.
+
+reviewed: false

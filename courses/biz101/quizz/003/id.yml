@@ -1,0 +1,9 @@
+question: Apa satu kelemahan dari sistem mata uang terpusat modern?
+answer: Mereka sering kali tidak memiliki transparansi dan kemampuan audit dalam mengelola jumlah uang beredar.
+wrong_answers:
+  - Mereka memberikan nilai yang stabil dan tidak berubah untuk setiap unit mata uang.
+  - Mereka menghapus semua perantara dan mempercepat penyelesaian hingga milidetik.
+  - Mereka memastikan bahwa penerbitan uang sepenuhnya terdesentralisasi dan tahan terhadap inflasi.
+explanation: |
+  Sistem terpusat dapat mengeluarkan uang sesuka hati, seringkali tanpa pengawasan yang transparan. Hal ini dapat mengikis kepercayaan karena inflasi, penyelesaian antar bank yang rumit, dan potensi salah urus.
+reviewed: false

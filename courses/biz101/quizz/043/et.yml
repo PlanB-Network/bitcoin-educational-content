@@ -1,0 +1,9 @@
+question: Mida võimaldab Bitcoin teha ilma vahendajateta?
+answer: Vahetusväärtus Internetis
+wrong_answers:
+  - Luua tsentraliseeritud rakendused
+  - Pangalaenude saamine
+  - Isikuandmete säilitamine
+explanation: |
+  Bitcoin võimaldab oma peer-to-peer-protokolli kaudu vahetada väärtust internetis ilma vahendajateta.
+reviewed: false

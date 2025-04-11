@@ -1,0 +1,10 @@
+question: Hva er rollen til gruvearbeidere i Bitcoin-nettverket?
+answer: De validerer transaksjoner ved å inkludere dem i en blokk.
+wrong_answers:
+  - De skaper nye Bitcoins.
+  - De styrer Bitcoin-nettverket.
+  - De regulerer prisen på Bitcoin.
+explanation: >-
+  Gruvearbeidere i Bitcoin-nettverket har rollen med å validere transaksjoner
+  ved å inkludere dem i en blokk. De gjør dette ved å løse et kryptografisk puslespill i
+  en prosess kalt proof of work.

@@ -1,9 +1,12 @@
-question: Jaké jsou tři hlavní funkce Bitcoin peněženky?
-answer: Přijímání bitcoinů, odesílání bitcoinů, zabezpečení proti pokusům o hacking a krádež
+question: Jaké jsou tři hlavní funkce Bitcoinové peněženky?
+answer: Přijímání bitcoinů, odesílání bitcoinů, ochrana před hackingem a pokusy o krádež.
 wrong_answers:
-  - Ukládání bitcoinů, umožnění odesílání bitcoinů, zabezpečení proti pokusům o hacking a krádež
-  - Umožnění přijímání bitcoinů, ukládání bitcoinů, zabezpečení proti pokusům o hacking a krádež
-  - Umožnění přijímání bitcoinů, umožnění odesílání bitcoinů, prodej bitcoinů
+  - Ukládání bitcoinů, odesílání bitcoinů, ochrana před hackingem a pokusy o krádež.
+  - Umožnění přijímání bitcoinů, ukládání bitcoinů, ochrana před hackingem a pokusy o krádež.
+  - Umožnění přijímání bitcoinů, umožnění odesílání bitcoinů, prodej bitcoinů.
 explanation: |
-  Bitcoin peněženka slouží k interakci s Bitcoin sítí. Jejími třemi hlavními funkcemi jsou umožnění přijímání bitcoinů, umožnění odesílání bitcoinů a zabezpečení proti pokusům o hacking a krádež.
-reviewed: false
+  Bitcoinová peněženka slouží k interakci s Bitcoinovou
+  sítí. Jejími třemi hlavními funkcemi jsou umožnění přijímání
+  bitcoinů, umožnění odesílání bitcoinů a ochrana před
+  hackingem a pokusy o krádež.
+reviewed: true

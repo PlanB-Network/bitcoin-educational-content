@@ -1,10 +1,10 @@
-question: Quel est l'un des facteurs qui peuvent faire fluctuer le prix du Bitcoin ?
-answer: Les variations du marché et les phases de marché haussier et baissier.
+question: Quels sont les coûts typiques pour un mineur ?
+answer: Consommation d'électricité et achat de matériel.
 wrong_answers:
-  - Le nombre de personnes utilisant Internet.
-  - La météo.
-  - Le prix de l'or.
-explanation: |
-  Le prix du Bitcoin est souvent caractérisé par une volatilité significative,
-  qui peut être influencée par les variations du marché et les phases de marché haussier et baissier.
+  - Achat de matériel uniquement.
+  - Frais de transaction.
+  - Consommation d'électricité et frais de transaction.
+explanation: >-
+  Miner du Bitcoin nécessite une puissance de calcul substantielle, ce qui, à son tour, consomme de l'électricité.
+  De plus, les mineurs doivent investir dans du matériel spécialisé pour miner efficacement.
 reviewed: false

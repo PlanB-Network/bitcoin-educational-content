@@ -1,9 +1,9 @@
-question: Quel est le rôle de la transaction d'engagement dans le Lightning Network?
-answer: Elle met à jour le solde du canal après chaque transfert.
+question: Quelles sont les trois méthodes de fermeture d'un canal sur le Lightning Network ?
+answer: Fermeture coopérative, fermeture forcée, fermeture avec tricherie
 wrong_answers:
-  - Elle ouvre le canal.
-  - Elle ferme le canal.
-  - Elle transfère les fonds.
+  - Fermeture rapide, fermeture lente, fermeture avec double signature
+  - Fermeture sécurisée, fermeture automatisée, fermeture avec perte de fonds
+  - Fermeture directe, fermeture indirecte, fermeture avec réclamation
 explanation: |
-  La transaction d'engagement est une transaction plus récente qui met à jour le solde du canal après chaque transfert. Elle n'est pas exécutée à moins que le canal ne soit fermé.
+  Il existe trois méthodes: la fermeture coopérative où les parties s'accordent, la fermeture forcée sans réponse d'une partie, et la fermeture avec tricherie où une partie tente de publier une ancienne transaction.
 reviewed: false

@@ -1,0 +1,9 @@
+question: Relativamente ao RGB, porque é que se recomenda a utilização de Tapret em vez de Opret para os compromissos?
+answer: Para minimizar a visibilidade e evitar a censura
+wrong_answers:
+  - Para reduzir os custos de transação
+  - Porque um OP_RETURN não é compatível com o Lightning
+  - Para maximizar a dimensão dos compromissos
+explanation: |
+  Tapret permite-lhe integrar compromissos de forma discreta, ao contrário de OP_RETURN, que os torna imediatamente visíveis e sujeitos a censura.
+reviewed: false

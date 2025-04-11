@@ -1,0 +1,9 @@
+question: Mis sünnikuupäev oli Satoshi Nakamotol P2P Foundation foorumis?
+answer: 5. aprill 1975
+wrong_answers:
+  - 3. aprill 1973
+  - 5. aprill 1973
+  - 3. aprill 1975
+explanation: |
+  See koondkuupäev viitab Ameerika kodanike kullaga kauplemise keelule aastatel 1933 kuni 1975: 5. aprill on päev, mil see keeld kehtestati 1933. aastal (Täitevkorraldus 6102) ja aasta 1975 on, mil see tühistati (Avalik Seadus 93-373).
+reviewed: false

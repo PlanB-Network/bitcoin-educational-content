@@ -1,9 +1,10 @@
-question: Jakou roli plní Lightning Network?
+question: Jaký druh sítě vytváří Lightning Network?
 answer: Síť platebních kanálů.
 wrong_answers:
   - Síť těžebních uzlů.
   - Síť blockchainových uzlů.
   - Síť kryptoměnových burz.
 explanation: >-
-  Lightning Network funguje jako síť platebních kanálů, která umožňuje okamžité transakce s nízkými poplatky pro odesílatele.
-reviewed: false
+  Lightning Network funguje jako síť platebních kanálů, která umožňuje
+  okamžité transakce s nízkými poplatky pro odesílatele.
+reviewed: true

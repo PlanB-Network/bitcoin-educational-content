@@ -1,0 +1,9 @@
+question: Hvilken fødselsdato ble oppgitt av Satoshi Nakamoto på P2P Foundation forumet?
+answer: 5. april 1975
+wrong_answers:
+  - 3. april 1973
+  - 5. april 1973
+  - 3. april 1975
+explanation: |
+  Denne sammensatte datoen refererer til forbudet mot at amerikanske borgere kunne eie gull mellom 1933 og 1975: 5. april er dagen dette forbudet ble innført i 1933 (Executive Order 6102) og året 1975 er når det ble opphevet (Public Law 93-373).
+reviewed: false

@@ -1,0 +1,9 @@
+question: What is a field with a finite number of elements called?
+answer: A Galois field
+wrong_answers:
+  - A multiplicative field
+  - A symmetric field
+  - A vector field
+explanation: |
+  A finite field is also known as a Galois field, named after the mathematician Évariste Galois, and it is essential in modern cryptography.
+reviewed: false

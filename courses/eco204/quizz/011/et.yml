@@ -1,0 +1,12 @@
+question: Mis on Kaasaegse Rahandusteooria (MMT) vaade rahaloomele ja inflatsioonile?
+answer: MMT järgi pärineb raha peamiselt valitsuselt, mis võib trükkida märkimisväärseid summasid oma vajaduste rahastamiseks ilma inflatsiooni põhjustamata, seni kuni sektorid, millele neid vahendeid suunatakse, ei ole küllastunud.
+wrong_answers:
+  - MMT järgi pärineb raha peamiselt erasektorist ja rohkem raha trükkimine viib alati inflatsioonini.
+  - MMT järgi pärineb raha peamiselt valitsuselt, kuid rohkem raha trükkimine viib alati inflatsioonini.
+  - MMT järgi pärineb raha peamiselt erasektorist ja rohkem raha trükkimine ei vii kunagi inflatsioonini.
+explanation: |
+  Peatükk selgitab, et Kaasaegne Rahandusteooria (MMT) pakub eristuvat
+  perspektiivi rahaloomele ja inflatsioonile. MMT järgi pärineb raha peamiselt
+  valitsuselt, mis võib trükkida märkimisväärseid summasid oma vajaduste rahastamiseks ilma
+  inflatsiooni põhjustamata, seni kuni sektorid, millele neid vahendeid suunatakse, ei ole küllastunud.
+reviewed: false

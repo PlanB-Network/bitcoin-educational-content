@@ -1,0 +1,9 @@
+question: Cosa distingue un flusso di chiavi RC4 di lunghezza standard dalla versione semplificata presentata nell'esempio?
+answer: La lunghezza dell'array S in RC4 standard è di 256 byte
+wrong_answers:
+  - L'array S è limitato a 128 byte
+  - La chiave utilizzata deve essere di più di 8 byte
+  - Non c'è una lunghezza fissa per S in RC4 standard
+explanation: |
+  In RC4 standard, l'array S contiene 256 byte, il che aumenta significativamente la complessità dei calcoli e migliora la sicurezza rispetto alla versione semplificata con solo 8 byte.
+reviewed: false

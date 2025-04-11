@@ -1,0 +1,13 @@
+question: Mengapa penting untuk menggunakan kata sandi yang dihasilkan secara acak?
+answer: Mereka menawarkan tingkat keamanan yang lebih tinggi dan lebih tahan terhadap serangan brute force.
+wrong_answers:
+  - Mereka lebih mudah diingat.
+  - Mereka lebih pendek dan lebih sederhana.
+  - Mereka diwajibkan oleh sebagian besar layanan online.
+explanation: |
+  Kata sandi yang dihasilkan secara acak menawarkan tingkat keamanan yang lebih tinggi karena
+
+  mereka lebih tahan terhadap serangan brute force, yang mencoba menebak kata sandi
+
+  dengan mencoba semua kombinasi karakter yang mungkin.'
+reviewed: false

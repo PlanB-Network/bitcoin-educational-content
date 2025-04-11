@@ -1,0 +1,9 @@
+question: Pourquoi les exemples en cryptographie utilisent-ils souvent les personnages d'Alice et Bob ?
+answer: Pour illustrer des principes cryptographiques de manière simplifiée
+wrong_answers:
+  - Parce qu'Alice et Bob sont des termes techniques de la cryptographie
+  - Parce que ce sont les prénoms les plus portés dans le monde
+  - Parce qu'ils représentent des systèmes informatiques
+explanation: |
+  Alice et Bob sont couramment utilisés en cryptographie comme personnages fictifs pour illustrer des échanges de messages et des principes cryptographiques dans un contexte simplifié et schématique.
+reviewed: false

@@ -1,10 +1,8 @@
-question: Miten Alice rahoittaa kanavan, jonka hän avaa Bobin kanssa?
-answer: Hän luo transaktion, jossa on 2 UTXO:ta tuloksena.
+question: Mitä sitoumustapahtumajärjestelmä takaa Salamakanavan osallistujille?
+answer: Kumpikin voi palauttaa varansa julkaisemalla viimeksi allekirjoitetun tapahtuman
 wrong_answers:
-  - Hän lähettää rahaa suoraan Bobin julkiseen osoitteeseen.
-  - Hän luo transaktion, jossa on 1 UTXO tuloksena.
-  - Hän pyytää Bobia rahoittamaan kanavan.
+  - Tapahtumat ovat nähtävissä Bitcoin-lohkoketjussa
+  - Kanavan kapasiteetti kasvaa jokaisen tapahtuman myötä
+  - Maksut jaetaan kahden osallistujan kesken
 explanation: |
-  Kanavan rahoittamiseksi, jonka hän avaa Bobin kanssa, Alice luo transaktion,
-  jossa on 2 UTXO:ta tuloksena; toinen 2/2 moniallekirjoitusosoitteeseen ja toinen yhteen hänen vaihto-osoitteistaan.
-reviewed: false
+  Allekirjoitetut sitoumustapahtumat takaavat, että kumpikin osallistuja voi palauttaa varansa julkaisemalla uusimman version, jos kanava sulkeutuu.

@@ -1,0 +1,12 @@
+question: Mis on peamine erinevus Austria majandusteadlaste ja Keynesi või monetaarmajandusteadlaste analüüsimeetodite vahel?
+answer: Austria majandusteadlased lähtuvad põhimõttelistest aksioomidest, samas kui Keynesi või monetaarmajandusteadlased tuginevad enamasti empiirilistele andmetele.
+wrong_answers:
+  - Austria majandusteadlased tuginevad empiirilistele andmetele, samas kui Keynesi või monetaarmajandusteadlased lähtuvad põhimõttelistest aksioomidest.
+  - Austria majandusteadlased ja Keynesi või monetaarmajandusteadlased kasutavad sama analüüsimeetodit.
+  - Austria majandusteadlased tuginevad valitsuse poliitikatele, samas kui Keynesi või monetaarmajandusteadlased tuginevad turujõududele.
+explanation: |
+  Peamine erinevus Austria majandusteadlaste ja Keynesi või monetaarmajandusteadlaste
+  analüüsimeetodite vahel on see, et samal ajal kui Austriad lähtuvad põhimõttelistest
+  aksioomidest, Keynesi või monetaarmajandusteadlased kipuvad tuginema empiirilistele
+  andmetele, et kehtestada üldised majandusseadused.
+reviewed: false

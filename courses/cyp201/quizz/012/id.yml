@@ -1,0 +1,8 @@
+question: Berapa ukuran blok yang digunakan oleh SHA512 dalam HMAC?
+answer: 128 byte
+wrong_answers:
+  - 64 byte
+  - 256 byte
+  - 1024 byte
+explanation: |
+  SHA512 menggunakan blok 128-byte, yang setara dengan 1024 bit, untuk perhitungannya.

@@ -1,0 +1,11 @@
+question: Hva er det primære målet til en Bitcoin-stacker?
+answer: Å samle så mange satoshis som mulig
+wrong_answers:
+  - Å samle så mange bitcoins som mulig
+  - Å selge varer eller tjenester i Bitcoin
+  - Å kjøpe Bitcoin direkte med kontanter med venner eller medlemmer av Bitcoin-samfunnet
+explanation: |
+  Det primære målet til en Bitcoin-stacker er å samle så mange satoshis
+  som mulig. Dette oppnås ved å sette opp en Dollar-Cost Averaging (DCA)-plan og
+  se etter andre løsninger for å samle satoshis.
+reviewed: false

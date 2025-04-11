@@ -1,0 +1,9 @@
+question: Was ist der Zweck der Schnittstellenimplementierung in der RGB-Architektur?
+answer: Zuordnung von Schemafeldern zu in der Schnittstelle definierten Namen
+wrong_answers:
+  - Kompilieren Sie AluVM-Skripte für die Validierung
+  - So definieren Sie die globalen Zustände und die eigenen Zustände des Vertrags
+  - Zum Speichern clientseitiger kryptografischer Beweise
+explanation: |
+  Die Schnittstellenimplementierung stellt die Verbindung zwischen der Geschäftslogik des Schemas und der von der Schnittstelle lesbaren Darstellung her.
+reviewed: false

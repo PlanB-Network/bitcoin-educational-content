@@ -1,0 +1,8 @@
+question: Miksi Bastiat'n mukaan omaisuuden oikeus ja vapaus ovat erottamattomia?
+answer: Koska hän määrittelee omaisuuden oikeuden sisältävän vapauden ensin määrätä omasta itsestään, sitten omasta työstään ja lopulta työnsä tuotteista.
+wrong_answers:
+  - Koska hänellä on vaikeuksia luoda analyyttinen ero näiden kahden välille
+  - Koska molemmat juontuvat lainsäätäjän tahdosta
+  - Koska omaisuuden oikeus on poliittisten oikeuksien laajennus
+explanation: |
+  Bastiat pitää omaisuutta vapauden kanssa yhteydessä olevana, koska se käsittää kyvyn vapaasti määrätä itsestään, omasta työstään ja työnsä hedelmistä.

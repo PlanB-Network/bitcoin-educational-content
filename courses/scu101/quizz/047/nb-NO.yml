@@ -1,0 +1,10 @@
+question: Hva er formålet med å implementere 2FA?
+answer: For å beskytte dine online kontoer mot uautorisert tilgang.
+wrong_answers:
+  - For å gjøre det vanskeligere for deg å få tilgang til din egen konto
+  - For å spore dine online aktiviteter
+  - For å øke hastigheten på internettforbindelsen din
+explanation: |
+  2FA legger til et ekstra lag med sikkerhet til dine online kontoer. Selv om
+  en hacker får tak i passordet ditt, vil de ikke kunne få tilgang til kontoen din uten
+  den andre verifiseringsfaktoren.

@@ -1,0 +1,5 @@
+---
+term: WIRTSCHAFTLICHE MEHRHEIT
+
+---
+Bezieht sich auf den größten Anteil der wirtschaftlichen Aktivität im Zusammenhang mit der Bitcoin-Währung, der von Händlern generiert wird. Ein Händler ist definiert als jede natürliche oder juristische Person, die bereit ist, eine Ware oder Dienstleistung gegen BTC einzutauschen. Diese Händler, zu denen Unternehmen, Nutzer, Tauschplattformen und Miner gehören, sind unterschiedlich groß und haben unterschiedlichen wirtschaftlichen Einfluss. Einige sind große Akteure, die eine beträchtliche Wirtschaftstätigkeit entfalten, während andere eher bescheiden sind. Die wirtschaftliche Mehrheit wird somit durch diejenigen definiert, deren kombinierte wirtschaftliche Aktivität den überwiegenden Anteil an dieser Währung ausmacht. Diese Mehrheit hat Einfluss auf die Konsensregeln, insbesondere im Falle einer Abspaltung.

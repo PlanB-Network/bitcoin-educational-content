@@ -1,0 +1,9 @@
+question: Mitä vapaus on Aristoteleen mukaan?
+answer: Kuuliaisuus kaupungin laeille
+wrong_answers:
+  - Minkäänlaisen rajoitteen puuttuminen
+  - Voima tehdä mitä tahansa haluaa
+  - Kaikki muut vastaukset ovat oikein.
+explanation: |
+  Aristoteleen mukaan vapaus koostuu kaupungin lakien noudattamisesta, sillä nämä on vahvistettu yhteisen hyvän nimissä. Todellinen vapaus toteutuu kansalaisuuden ja osallistumisen poliittiseen elämään puitteissa.
+reviewed: false

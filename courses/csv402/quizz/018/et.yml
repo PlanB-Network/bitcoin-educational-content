@@ -1,0 +1,9 @@
+question: Millised operatsioonid määravad RGB-s aruka lepingu arengu?
+answer: Riigi üleminek, genesis ja riigi laiendamine
+wrong_answers:
+  - Pitseri loomine, lepingu järgimine ja lõplik kinnitamine
+  - UTXO üleandmine, tõendite genereerimine ja kihtide kinnitamine (Hash Commitment)
+  - Üleminekupakid, ühekordsed pitsatid ja väärtuse loomine
+explanation: |
+  Need toimingud loovad või muudavad lepingu seisu, tagades samal ajal selle kehtivuse Bitcoini ankrute abil.
+reviewed: false

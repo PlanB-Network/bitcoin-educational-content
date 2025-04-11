@@ -1,0 +1,9 @@
+question: Hva er banksektorens rolle i å utløse en resesjon ifølge den østerrikske teorien om konjunktursyklusen?
+answer: Banksektoren utløser en resesjon når den bestemmer seg for å redusere sin risiko og dermed reduserer kredittflyten.
+wrong_answers:
+  - Banksektoren utløser en resesjon når den bestemmer seg for å øke sin risiko og dermed øker kredittflyten.
+  - Banksektoren utløser en resesjon når den bestemmer seg for å opprettholde sin risiko og dermed opprettholder kredittflyten.
+  - Banksektoren har ingen rolle i å utløse en resesjon ifølge den østerrikske teorien om konjunktursyklusen.
+explanation: |
+  Ifølge den østerrikske teorien om konjunktursyklusen, utløser banksektoren en resesjon når den bestemmer seg for å redusere sin risiko og dermed reduserer kredittflyten. Dette fører til mange konkurser, strammere kreditt, en nedgang i tilgjengelig kjøpekraft, og finansielle sammenbrudd.
+reviewed: false

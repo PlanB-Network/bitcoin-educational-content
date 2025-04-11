@@ -1,0 +1,9 @@
+question: Mengapa bitcoin yang dibeli melalui bursa P2P seringkali lebih mahal daripada yang dibeli di platform teratur?
+answer: Risiko tambahan, biaya transaksi, dan premi untuk privasi.
+wrong_answers:
+  - Volatilitas pasar, risiko pengeluaran ganda, dan kepatuhan hukum.
+  - Biaya pendaftaran, opsi terbatas, dan waktu validasi yang lebih lama.
+  - Biaya pendaftaran, regulasi ketat, dan keamanan rendah.
+explanation: |
+  Bitcoin yang dijual di platform P2P umumnya lebih mahal daripada yang dari platform teratur. Penandaan harga ini disebabkan oleh beberapa faktor: penjual mengambil lebih banyak risiko, mereka juga harus menutupi biaya tambahan, dan bursa menawarkan pembeli tingkat privasi yang lebih tinggi.
+reviewed: false

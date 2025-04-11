@@ -1,9 +1,9 @@
-question: Qual è lo standard più comunemente utilizzato per una frase di recupero di 24 parole in un portafoglio Bitcoin?
-answer: Un'entropia di 256 bit.
+question: Qual è il ruolo principale del codice catena nella derivazione delle chiavi figlio?
+answer: Introdurre una fonte aggiuntiva di entropia
 wrong_answers:
-  - Un'entropia di 128 bit.
-  - Un'entropia di 160 bit.
-  - Un'entropia di 512 bit.
+  - Identificare la profondità gerarchica
+  - Memorizzare gli indici delle chiavi figlio
+  - Garantire la compatibilità con il protocollo Bitcoin
 explanation: |
-  Lo standard più comunemente utilizzato per una frase di recupero di 24 parole è un'entropia di 256 bit.
-reviewed: false
+  Il codice catena è utilizzato per introdurre una fonte di entropia aggiuntiva e unica per ogni chiave derivata.
+recensito: false

@@ -1,0 +1,12 @@
+question: Mis on osalise reservi pangandus?
+answer: Osalise reservi pangandus on panganduspraktika, kus pankadel ei ole nõutud hoida sama palju reserve, kui nad saavad hoiustena, võimaldades neil luua uut ostujõudu laene väljastades.
+wrong_answers:
+  - Osalise reservi pangandus on panganduspraktika, kus pankadel on nõutud hoida rohkem reserve, kui nad saavad hoiustena.
+  - Osalise reservi pangandus on panganduspraktika, kus pankadel ei ole lubatud laene väljastada.
+  - Osalise reservi pangandus on panganduspraktika, kus pankadel on nõutud hoida täpselt sama palju reserve, kui nad saavad hoiustena.
+explanation: |
+  Osalise reservi pangandus on süsteem, milles pangad hoiavad vaid osa
+  oma hoiustajate vahenditest reservis, laenates ülejäänud osa välja. See süsteem võimaldab
+  pankadel luua uut raha laenude kujul, mis suurendab üldist rahapakkumist
+  majanduses.
+reviewed: false

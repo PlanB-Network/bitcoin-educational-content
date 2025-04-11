@@ -1,0 +1,9 @@
+question: ¿Qué es una firma digital en el contexto de la criptografía asimétrica?
+answer: Un mecanismo para verificar la autenticidad de un mensaje usando la clave privada
+wrong_answers:
+  - Un proceso para cifrar el mensaje más fuertemente
+  - Una clave pública adicional para validar un mensaje cifrado
+  - Una copia digital de una firma manuscrita
+explanation: |
+  Una firma digital es una técnica criptográfica que demuestra que un mensaje fue realmente creado por el propietario de la clave privada correspondiente, asegurando así su autenticidad.
+reviewed: false

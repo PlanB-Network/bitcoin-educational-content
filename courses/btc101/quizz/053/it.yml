@@ -1,9 +1,11 @@
-question: In quale caso è stata osservata un'equivalente inflazione giornaliera del 100%?
-answer: In Zimbabwe, nel 2007
+question: Esiste un caso storico di un tasso di inflazione giornaliero equivalente al 100%; dove e quando è accaduto?
+answer: In Zimbabwe, 2007.
 wrong_answers:
-  - In Ungheria, nel 1945
-  - In Cina, nel 1940
-  - Questo è un caso irrealistico che non può accadere
+  - In Ungheria, 1945.
+  - In Cina, 1940.
+  - Si tratta in realtà di un caso irrealistico che non può accadere.
 explanation: |
-  Un'ipotesi di inflazione del 100% al giorno è uno scenario realistico che si è verificato in Zimbabwe nel 2007, poiché il valore del denaro raddoppiava approssimativamente ogni 24 ore.
-reviewed: false
+  Un tasso di inflazione del 100% al giorno è uno scenario realistico che
+  si è verificato in Zimbabwe nel 2007, dove il valore del denaro raddoppiava
+  approssimativamente ogni 24 ore.
+reviewed: true

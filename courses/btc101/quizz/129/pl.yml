@@ -1,0 +1,8 @@
+question: Czym jest Bitcoin Blockchain?
+answer: Publiczny i niezmienny Ledger wszystkich transakcji Bitcoin.
+wrong_answers:
+  - Prywatny i zmienny Ledger wszystkich transakcji Bitcoin.
+  - Publiczny i zmienny Ledger wszystkich transakcji Bitcoin.
+  - Prywatny i niezmienny Ledger wszystkich transakcji Bitcoin.
+explanation: >-
+reviewed: true

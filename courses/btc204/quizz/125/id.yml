@@ -1,0 +1,13 @@
+question: Apa tujuan utama dari coinswap?
+
+answer: Untuk mentransfer kepemilikan bitcoin secara rahasia
+
+wrong_answers:
+  - Meningkatkan kecepatan transaksi
+  - Mencampur bitcoin
+  - Secara rahasia menukar altcoin dengan bitcoin
+
+explanation: |
+  Coinswap menggunakan kontrak pintar untuk memungkinkan transfer kepemilikan bitcoin antara dua pengguna, tanpa memerlukan kepercayaan dan tanpa transfer ini terlihat secara eksplisit di blockchain.
+
+reviewed: false

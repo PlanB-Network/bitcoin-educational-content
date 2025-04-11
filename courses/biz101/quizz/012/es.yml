@@ -1,0 +1,9 @@
+question: ¿Por qué se puede comparar la Red Rayo con el "correo electrónico para pagos"?
+answer: Porque permite un intercambio de valor sin fisuras, global y sin permisos, tan fácil como enviar un mensaje.
+wrong_answers:
+  - Porque envía los pagos a través de proveedores de correo electrónico tradicionales.
+  - Porque sólo funciona cuando se adjunta a mensajes de correo electrónico normales.
+  - Porque almacena los saldos de los usuarios en el cuerpo de un correo electrónico.
+explanation: |
+  Del mismo modo que el correo electrónico revolucionó la comunicación al eliminar intermediarios y permitir a cualquiera enviar mensajes a todo el mundo, la Lightning Network simplifica y acelera las transacciones, haciendo que la transferencia de valor sea tan fluida y accesible como el correo electrónico.
+reviewed: false

@@ -1,9 +1,9 @@
-question: O que é uma frase mnemônica no contexto de uma carteira de Bitcoin?
-answer: É um backup da carteira.
+question: O que um apóstrofo (') ou o h em um caminho de derivação significa?
+answer: Uma derivação endurecida
 wrong_answers:
-  - É uma senha para a carteira.
-  - É um histórico de transações da carteira.
-  - É uma assinatura digital da carteira.
+  - Uma derivação normal
+  - Uma derivação externa
+  - Uma derivação não-padrão
 explanation: |
-  Uma frase mnemônica é gerada para garantir o backup da carteira de Bitcoin.
+  Um apóstrofo indica que a derivação é endurecida, requerendo uma chave privada pai para gerar a chave filha.
 reviewed: false

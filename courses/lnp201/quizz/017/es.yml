@@ -1,9 +1,8 @@
-question: ¿Cuál es el primer paso para abrir un canal en la Red Lightning?
-answer: Los dos pares comunican su intención de abrir un canal.
+question: ¿Qué sucede si Bob envía una factura a Alice por 30,000 satoshis?
+answer: Alice crea una transacción de compromiso para transferir 30,000 satoshis a Bob en el canal.
 wrong_answers:
-  - Alice envía dinero a la dirección pública de Bob.
-  - Alice crea una dirección multi-sig 2/2.
-  - Alice publica una transacción en la red de Bitcoin.
+  - Alice debe abrir un nuevo canal para realizar esta transferencia.
+  - Bob recibe automáticamente los 30,000 satoshis en su billetera.
+  - La factura se paga a través de una transacción en cadena en Bitcoin.
 explanation: |
-  El primer paso para abrir un canal en la Red Lightning es que los dos pares comuniquen su intención de abrir un canal. Por ejemplo, Alice podría decir: "¡Hola, quiero abrir un canal!" y Bob podría responder: "De acuerdo, aquí está mi dirección pública".
-reviewed: false
+  Cuando Bob envía una factura a Alice, ella crea y firma una nueva transacción de compromiso para ajustar la distribución de fondos, transfiriendo así 30,000 satoshis en el canal.

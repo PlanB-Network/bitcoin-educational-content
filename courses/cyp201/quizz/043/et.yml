@@ -1,0 +1,9 @@
+question: Mitu bitti entroopiat kasutatakse 24-sõnalise mneemonilise fraasi jaoks?
+answer: 256 bitti
+wrong_answers:
+  - 128 bitti
+  - 512 bitti
+  - 64 bitti
+explanation: |
+  24-sõnaline mneemoniline fraas põhineb 256 bitil entroopiat, tagades väga kõrge turvalisuse.
+üle_vaadatud: false

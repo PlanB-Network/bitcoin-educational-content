@@ -1,0 +1,13 @@
+question: Co indikuje perspektivní anonset?
+
+answer: Velikost skupiny nerozlišitelných UTXO na výstupu cyklů.
+
+wrong_answers:
+  - Velikost skupiny nerozlišitelných UTXO na vstupu cyklů.
+  - Velikost skupiny nerozlišitelných UTXO v poolu.
+  - Počet transakcí potřebných k dosažení anonymity.
+
+explanation: |
+  Perspektivní anonset indikuje velikost skupiny, mezi kterou se studované UTXO skrývá na výstupu cyklu, znaje UTXO na vstupu, to jest počet nerozlišitelných mincí přítomných v této skupině.
+
+reviewed: false

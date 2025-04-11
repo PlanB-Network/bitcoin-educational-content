@@ -1,0 +1,9 @@
+question: Hva er Bitcoin-blockchainen?
+answer: En offentlig og uforanderlig hovedbok over alle Bitcoin-transaksjoner.
+wrong_answers:
+  - En privat og foranderlig hovedbok over alle Bitcoin-transaksjoner.
+  - En offentlig og foranderlig hovedbok over alle Bitcoin-transaksjoner.
+  - En privat og uforanderlig hovedbok over alle Bitcoin-transaksjoner.
+explanation: >-
+  Bitcoin-blockchainen er en offentlig og uforanderlig hovedbok over alle Bitcoin-transaksjoner. Det er en felles hovedbok for alle Bitcoin-brukere.
+reviewed: false

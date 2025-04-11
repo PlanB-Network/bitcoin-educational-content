@@ -1,0 +1,9 @@
+question: Was ist das Merkmal einer gleichförmigen Variablen?
+answer: Alle möglichen Werte haben eine gleiche Wahrscheinlichkeit des Auftretens
+wrong_answers:
+  - Die Werte folgen einer asymmetrischen Verteilung
+  - Die Wahrscheinlichkeit jedes Wertes hängt vom Experiment ab
+  - Nur zwei Werte können mit gleichen Wahrscheinlichkeiten auftreten
+explanation: |
+  Eine gleichförmige Variable ist eine Zufallsvariable, bei der alle möglichen Werte eine gleiche Wahrscheinlichkeit des Auftretens haben.
+reviewed: false

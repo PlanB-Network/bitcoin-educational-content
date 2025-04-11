@@ -1,0 +1,9 @@
+question: Perché i chimici utilizzano la teoria dei gruppi?
+answer: Per classificare le forme delle molecole
+wrong_answers:
+  - Per analizzare i legami chimici
+  - Per calcolare la massa molecolare
+  - Per prevedere le reazioni chimiche
+explanation: |
+  La teoria dei gruppi permette ai chimici di classificare le forme molecolari basandosi sulle loro simmetrie, il che aiuta a comprendere le loro proprietà strutturali.
+reviewed: false

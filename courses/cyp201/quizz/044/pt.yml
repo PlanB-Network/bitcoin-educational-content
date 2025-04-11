@@ -1,9 +1,8 @@
-question: Qual é o papel do ponto gerador na curva elíptica?
-answer: Ele é usado para calcular o ponto na curva elíptica.
+question: O que é entropia no contexto da criptografia?
+answer: Uma medida de imprevisibilidade associada a um processo aleatório
 wrong_answers:
-  - É usado para gerar o nonce.
-  - É usado para criptografar as chaves.
-  - É usado para armazenar as chaves.
+  - Um método para criptografar dados sensíveis
+  - Um algoritmo para calcular chaves públicas
+  - Uma técnica de compressão de dados
 explanation: |
-  O ponto gerador é um ponto específico na curva elíptica que é usado no cálculo de outros pontos na curva. Ele é usado na geração de chaves públicas e privadas, bem como na criação e verificação de assinaturas digitais.
-reviewed: false
+  Na criptografia, a entropia quantifica o nível de incerteza ou caos em uma fonte aleatória, essencial para gerar chaves seguras.

@@ -1,0 +1,9 @@
+question: ¿Cuál es la diferencia entre usar el algoritmo Salsa20 con una clave de 128 bits y una de 256 bits?
+answer: La longitud de la clave influye en el número de rondas en el algoritmo.
+wrong_answers:
+  - La longitud de la clave cambia el tipo de cifrado.
+  - Una clave de 128 bits se utiliza para el cifrado de flujo y una de 256 bits para el cifrado de bloque.
+  - La longitud de la clave no tiene impacto en Salsa20.
+explanation: |
+  En el esquema de cifrado simétrico Salsa20, la longitud de la clave (128 o 256 bits) afecta el número de rondas en el algoritmo, sin alterar el núcleo del algoritmo en sí.
+reviewed: false

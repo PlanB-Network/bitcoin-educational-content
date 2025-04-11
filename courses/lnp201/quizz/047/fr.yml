@@ -1,10 +1,9 @@
-question: Que se passe-t-il lors d'une fermeture coopérative ?
-answer: Les deux pairs communiquent et conviennent de fermer le canal, valident un état final du canal et créent une transaction de clôture.
+question: Quel est le rôle de LNURL dans les transactions Lightning ?
+answer: Simplifier l'interaction entre les nœuds et les applications Lightning
 wrong_answers:
-  - Un pair force la fermeture du canal.
-  - Un pair essaie de tricher en publiant une ancienne transaction d'engagement.
-  - Les deux pairs se disputent les SAT restants dans le canal.
+  - Faciliter la création de canaux pour chaque paiement
+  - Assurer la confidentialité des informations de paiement
+  - Calculer les frais de transaction de manière automatique
 explanation: |
-  Lors d'une fermeture coopérative, les deux pairs communiquent et conviennent de fermer le canal. Ils arrêtent toutes les transactions et valident un état final du canal.
-  Ils créent ensuite la transaction de clôture.
+  LNURL est un protocole de communication conçu pour simplifier les interactions, comme les retraits et les paiements, entre les nœuds et les applications Lightning.
 reviewed: false

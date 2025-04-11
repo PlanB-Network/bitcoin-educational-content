@@ -2,8 +2,8 @@ question: Proč je důležité dávat přednost spolehlivosti a technickým aspe
 answer: Poskytovatelé VPN, kteří shromažďují nejméně osobních informací, jsou obecně nejbezpečnější.
 wrong_answers:
   - Populární poskytovatelé VPN jsou pravděpodobněji cílem hackerů.
-  - Populární poskytovatelé VPN pravděpodobněji mají pomalejší internetové rychlosti.
-  - Populární poskytovatelé VPN pravděpodobněji mají geografická omezení.
+  - Populární poskytovatelé VPN mají pravděpodobněji pomalejší internetové rychlosti.
+  - Populární poskytovatelé VPN mají pravděpodobněji geografická omezení.
 explanation: |
-  Při výběru VPN je důležité dávat přednost spolehlivosti a technickým aspektům před popularitou. To je proto, že poskytovatelé VPN, kteří shromažďují nejméně osobních informací, jsou obecně nejbezpečnější a poskytují lepší ochranu vašeho online bezpečí.
-reviewed: false
+  Při výběru VPN je důležité dávat přednost spolehlivosti a technickým aspektům před popularitou. Důvodem je, že poskytovatelé VPN, kteří shromažďují nejméně osobních informací, jsou obecně nejbezpečnější a poskytují lepší ochranu vašeho online bezpečí.
+reviewed: true

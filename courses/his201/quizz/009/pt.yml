@@ -1,0 +1,9 @@
+question: Em que ano o sistema Liberty Reserve foi fechado pelas autoridades dos EUA?
+answer: 2013
+wrong_answers:
+  - 2007
+  - 2009
+  - 2011
+explanation: |
+  Em 24 de maio de 2013, seu fundador, Arthur Budovsky, e seus principais associados foram indiciados e presos, e o site principal foi apreendido pelo Departamento de Justiça dos EUA.
+reviewed: false

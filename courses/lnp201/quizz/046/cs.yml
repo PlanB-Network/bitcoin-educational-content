@@ -1,9 +1,9 @@
-question: Jaký je účel revokačního klíče v síti Lightning Network?
-answer: Potrestat účastníka, který se pokusí podvádět zveřejněním starého závazkového transakce.
+question: Co znamená prefix lnbc v čitelné části Lightning faktury?
+answer: Značí transakci Lightning na blockchainu Bitcoinu
 wrong_answers:
-  - Odměnit účastníka, který úspěšně podvádí.
-  - Otevřít nový kanál.
-  - Ověřit transakci.
+  - Že faktura je platná pouze na testnetu Bitcoinu
+  - Že faktura je zakódována v bech32
+  - Že jde o transakci na řetězci
 explanation: |
-  Revokační klíč je mechanismus v síti Lightning Network, který má zabránit podvádění. Pokud se účastník pokusí podvádět zveřejněním starého závazkového transakce, druhý účastník může použít revokační klíč k potrestání podvodníka a vzít si všechny SAT z kanálu.
+  Prefix lnbc označuje, že faktura je pro transakci Lightning na síti Bitcoin, a ne na jiné síti.
 reviewed: false

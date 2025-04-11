@@ -1,0 +1,9 @@
+question: ¿Cómo garantiza RGB la confidencialidad en la gestión de activos digitales?
+answer: Al registrar únicamente compromisos criptográficos en la blockchain
+wrong_answers:
+  - Al cifrar todas las transacciones de extremo a extremo en la cadena de bloques
+  - Ocultando la identidad de los usuarios mediante mezcladores descentralizados
+  - Utilizar sólo direcciones Bitcoin temporales para cada transferencia
+explanation: |
+  Al almacenar únicamente pruebas criptográficas en la cadena, RGB mantiene la confidencialidad de la información sensible sobre contratos y transferencias.
+reviewed: false

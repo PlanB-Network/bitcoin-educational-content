@@ -1,9 +1,9 @@
-question: ビットコインウォレットにおけるパスフレーズの役割は何ですか？
-answer: ウォレットのセキュリティを強化します
+question: ディスクリプターでの接頭辞 `wpkh` は何を意味していますか？
+answer: Pay-to-Witness-PubKey-Hash
 wrong_answers:
-  - ウォレットのセキュリティを低下させます
-  - ウォレットのセキュリティに影響を与えません
-  - ウォレットをよりユーザーフレンドリーにします
+  - Pay-to-PubKey
+  - Pay-to-Script-Hash
+  - Witness Script Hash
 explanation: |
-  パスフレーズは、ビットコインウォレットのセキュリティを高めるために組み込むことができる追加のパスワードです。ニーモニックフレーズとともに任意の情報を追加することで、ウォレットのシードの計算を可能にし、パスフレーズはそのセキュリティを強化します。
+  接頭辞 `wpkh` は、Pay-to-Witness-Public-Key-Hash アドレスを使用する SegWit v0 スクリプトを示しています。
 reviewed: false

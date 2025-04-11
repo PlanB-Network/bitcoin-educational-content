@@ -1,9 +1,12 @@
-question: Quelle est l'entité chargée d'émettre la monnaie fiduciaire ?
-answer: Banque centrale
+question: Quelles sont les entités responsables de l'émission des monnaies fiduciaires ?
+answer: Banques centrales.
 wrong_answers:
-  - Banque commerciale
-  - Gouvernement
-  - Institutions privées
+  - Banques commerciales.
+  - Gouvernements.
+  - Institutions privées.
 explanation: |
-  Les banques centrales sont les entités chargées d'émettre la monnaie fiduciaire. Elles décident de la politique monétaire et déterminent la quantité d'argent qui doit être mise en circulation ou imprimée.
-reviewed: false
+  Les banques centrales sont les entités responsables de l'émission d'une
+  monnaie fiduciaire. Elles décident de la politique monétaire et
+  déterminent la quantité d'argent qui doit être mise en circulation ou
+  imprimée.
+reviewed: true

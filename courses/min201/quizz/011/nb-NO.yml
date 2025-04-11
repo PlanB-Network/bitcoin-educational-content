@@ -1,0 +1,12 @@
+question: Hva er noen strategier som diskuteres for å bekjempe sentralisering av gruvedrift i Bitcoin?
+answer: Strategier som diskuteres for å bekjempe sentralisering av gruvedrift i Bitcoin inkluderer hjemmegruvedrift, Stratum V2-protokollen, åpen kildekode for gruvedriftsprogramvare, og diversifisering av aktører og geografi.
+wrong_answers:
+  - Strategier som diskuteres for å bekjempe sentralisering av gruvedrift i Bitcoin inkluderer å øke blokkstørrelsen, implementere proof of stake, og opprette en sentral myndighet for å overvåke gruvedriften.
+  - Strategier som diskuteres for å bekjempe sentralisering av gruvedrift i Bitcoin inkluderer å redusere blokkbelønningen, implementere en transaksjonsavgift, og opprette en gruveskatt.
+  - Strategier som diskuteres for å bekjempe sentralisering av gruvedrift i Bitcoin inkluderer å øke vanskelighetsgraden for gruvedrift, implementere en gruvekapsling, og opprette et gruvelotteri.
+explanation: |
+  Kapittelet diskuterer flere strategier for å bekjempe
+  sentralisering av gruvedrift i Bitcoin, inkludert hjemmegruvedrift,
+  Stratum V2-protokollen, åpen kildekode for gruvedriftsprogramvare, og
+  diversifisering av aktører og geografi.
+reviewed: true

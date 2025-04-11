@@ -1,9 +1,9 @@
-question: Jaký je účel entropie při generování mnemonické fráze pro Bitcoinovou peněženku?
-answer: Je základním kamenem bezpečnosti HD peněženky.
+question: Co v hierarchii HD peněženek reprezentuje hloubka 0?
+answer: Hlavní klíč a hlavní řetězový kód
 wrong_answers:
-  - Určuje počet slov ve frázi pro obnovu.
-  - Šifruje frázi pro obnovu pro zvýšení bezpečnosti.
-  - Ověřuje přesnost fráze pro obnovu.
+  - Externí řetězec adres
+  - Výchozí účet
+  - Typ měny
 explanation: |
-  Entropie je základním kamenem bezpečnosti HD peněženky. Je zásadní, aby tato entropie byla náhodná nebo pseudonáhodná, aby byla zaručena bezpečnost peněženky.
+  Hloubka 0 odpovídá hlavnímu klíči a hlavnímu řetězovému kódu, které jsou výchozími body pro všechny derivace v HD peněžence.
 reviewed: false

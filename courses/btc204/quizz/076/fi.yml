@@ -1,0 +1,13 @@
+question: Mikä on coinjoin-siirto?
+
+answer: Yhteistyössä tehty siirto, jossa useat käyttäjät yhdistävät UTXO; nsa.
+
+wrong_answers:
+  - Yhteistyössä tehty siirto vain kahden käyttäjän välillä.
+  - Siirto, jossa yksittäinen käyttäjä lähettää varoja useisiin osoitteisiin.
+  - Siirto, jossa keskeinen toimija sekoittaa asiakkaidensa bitcoineja.
+
+explanation: |
+  Coinjoin-siirto on yhteistyössä tehty siirto, jossa useat käyttäjät sekoittavat kolikoitaan.
+
+reviewed: false

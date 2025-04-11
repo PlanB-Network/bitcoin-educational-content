@@ -1,0 +1,9 @@
+question: ¿Cómo permite un MAC a Alice verificar que un mensaje es realmente de Bob?
+answer: Verificando que la etiqueta generada coincida con la enviada por Bob
+wrong_answers:
+  - Descifrando el mensaje para ver si es legible
+  - Comparando el tamaño del mensaje y el de la etiqueta
+  - Verificando la dirección IP del remitente
+explanation: |
+  Alice usa la clave secreta compartida para generar una etiqueta a partir del mensaje recibido. Si esta etiqueta coincide con la enviada por Bob, ella sabe que el mensaje es auténtico e intacto.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Hva er ulempen med Stille Betalinger sammenlignet med BIP47?
+
+answer: Mottakeren må skanne nesten hele blokkjeden.
+
+wrong_answers:
+  - De genererer høyere transaksjonsgebyrer for avsenderen.
+  - De begrenser antallet mulige transaksjoner.
+  - De er mindre anonyme.
+
+explanation: |
+  Som et kompromiss for å unnvære varslingstransaksjonen, må mottakeren skanne alle Bitcoin-transaksjoner som overholder standarden i et forsøk på å finne betalinger adressert til dem.

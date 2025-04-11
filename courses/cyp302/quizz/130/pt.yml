@@ -1,0 +1,8 @@
+question: Qual papel as autoridades certificadoras desempenham no processo de distribuição de chaves públicas?
+answer: Elas emitem certificados que garantem a autenticidade das chaves públicas
+wrong_answers:
+  - Elas geram chaves privadas para os usuários
+  - Elas armazenam chaves públicas para todos os usuários
+  - Elas garantem a criptografia de mensagens entre usuários
+explanation: |
+  As autoridades certificadoras emitem certificados que vinculam uma chave pública ao seu proprietário, permitindo que os usuários verifiquem a autenticidade das chaves públicas que utilizam.

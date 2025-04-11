@@ -1,0 +1,9 @@
+question: Warum wird Knappheit als eine wichtige Eigenschaft einer guten Währung angesehen?
+answer: Denn ein begrenztes Angebot schützt seinen Wert davor, durch Überproduktion verwässert zu werden.
+wrong_answers:
+  - Denn sie gewährleistet, dass jeder problemlos seine eigene Währung prägen kann.
+  - Denn das macht es schwieriger, die Währung anzuerkennen.
+  - Weil es die Verwendung von Bargeld im Fernhandel erschwert.
+explanation: |
+  Eine Währung mit kontrollierter Knappheit bewahrt ihre Kaufkraft über die Zeit. Ohne Knappheit könnte eine übermäßige Emission zu einer Inflation führen, die den Wert der Währung untergräbt.
+reviewed: false

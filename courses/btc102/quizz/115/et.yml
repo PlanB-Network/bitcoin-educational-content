@@ -1,0 +1,11 @@
+question: Mis on paroolihalduri eesmärk Bitcoinis?
+answer: Turvaliselt hoida ja hallata paroole Bitcoin tehingute jaoks.
+wrong_answers:
+  - Kaevandada uusi Bitcoine.
+  - Kaubelda Bitcoinidega.
+  - Konverteerida Bitcoine teisteks krüptorahadeks.
+explanation: |
+  Paroolihaldur on tarkvararakendus, mida kasutatakse inimese paroolide
+  hoidmiseks ja haldamiseks erinevates veebikontodes. Bitcoin'i kontekstis
+  kasutatakse seda Bitcoin tehingute paroolide turvaliseks hoidmiseks ja haldamiseks.
+reviewed: false

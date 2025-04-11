@@ -1,8 +1,8 @@
-question: Qual è il requisito di larghezza di banda per eseguire un nodo Bitcoin, considerando 1 blocco da 1MB ogni 10 minuti?
-answer: Circa 5GB al mese
+question: Qual è il requisito di banda per eseguire un nodo Bitcoin, considerando 1 blocco di 1MB ogni 10 minuti?
+answer: Circa 5GB al mese.
 wrong_answers:
-  - Circa 1GB al mese
-  - Circa 10GB al mese
-  - Circa 20GB al mese
-explanation: >-
-  Considerando 1 blocco da 1MB ogni 10 minuti, eseguire un nodo Bitcoin richiede circa 5GB al mese in termini di larghezza di banda.
+  - Circa 1GB al mese.
+  - Circa 10GB al mese.
+  - Circa 20GB al mese.
+explanation: Considerando 1 blocco di 1MB ogni 10 minuti, eseguire un nodo Bitcoin richiede circa 5GB al mese di banda.
+reviewed: vero

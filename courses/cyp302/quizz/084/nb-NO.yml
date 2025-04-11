@@ -1,0 +1,9 @@
+question: Hva er den viktigste praktiske begrensningen med engangskryptering?
+answer: Nøkkelen må være like lang som meldingen og aldri gjenbrukes
+wrong_answers:
+  - Nøkkelen må endres hver dag
+  - Nøkkelen må være tre ganger lengre enn meldingen
+  - Nøkkelen må nødvendigvis lagres på en fransk Minitel
+explanation: |
+  Nøkkelen i en engangskryptering må være like lang som meldingen og aldri gjenbrukes, noe som betydelig kompliserer bruken i praktiske sammenhenger. Dette er fordi hvis man er i stand til å overføre data som er like lange som meldingen på en sikker måte, ville det gi mer mening å direkte overføre meldingen i stedet for nøkkelen.
+reviewed: false

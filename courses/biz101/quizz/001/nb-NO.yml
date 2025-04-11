@@ -1,0 +1,9 @@
+question: Hvorfor anses knapphet som en viktig egenskap ved en god valuta?
+answer: Fordi et begrenset tilbud beskytter verdien mot å bli utvannet av overproduksjon.
+wrong_answers:
+  - Fordi det sikrer at alle enkelt kan prege sin egen valuta.
+  - Fordi det gjør det vanskeligere for valutaen å bli gjenkjent.
+  - Fordi det motvirker bruk av valuta i langdistansehandel.
+explanation: |
+  En valuta med kontrollert knapphet opprettholder sin kjøpekraft over tid. Uten knapphet kan overdreven utstedelse føre til inflasjon, noe som svekker valutaens verdi.
+reviewed: false

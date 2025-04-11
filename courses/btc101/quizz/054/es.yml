@@ -1,9 +1,9 @@
-question: ¿Cuál es la segunda fase de la hiperinflación?
+question: ¿Cuál es la segunda fase del fenómeno de la hiperinflación?
 answer: Colapso de la moneda y aumento de precios.
 wrong_answers:
   - Pérdida de confianza.
   - El círculo vicioso de la impresión de dinero.
   - Surge una nueva moneda.
 explanation: |
-  La segunda fase de la hiperinflación es el colapso de la moneda y el aumento de precios, justo después de la fase de pérdida de confianza.
-reviewed: false
+  La segunda fase de la hiperinflación es el colapso de la moneda y el aumento de precios, justo después de la Fase de Pérdida de Confianza.
+reviewed: true

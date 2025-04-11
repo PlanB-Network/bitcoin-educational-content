@@ -1,0 +1,9 @@
+question: Apa yang terjadi jika Anda kehilangan frasa sandi yang terkait dengan dompet HD Anda?
+answer: Anda kehilangan akses ke bitcoin yang terkait dengan dompet tersebut
+wrong_answers:
+  - Anda masih bisa mengakses dompet dengan frasa mnemonik saja
+  - Anda dapat mereset frasa sandi dengan menghubungi dukungan Bitcoin
+  - Anda hanya kehilangan transaksi yang belum dikonfirmasi
+explanation: |
+  Frasa sandi adalah komponen penting dalam derivasi kunci. Tanpanya, mustahil untuk merekreasi kunci dan oleh karena itu mengakses bitcoin.
+direview: false

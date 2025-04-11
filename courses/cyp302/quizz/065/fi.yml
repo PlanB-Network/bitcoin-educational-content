@@ -1,0 +1,9 @@
+question: Mitkä ovat kolme olennaista osaa symmetrisessä salausjärjestelmässä?
+answer: Avaimen luontialgoritmi, salausalgoritmi ja purkualgoritmi
+wrong_answers:
+  - Hahmontunnistusalgoritmi, julkinen avain ja varmennusalgoritmi
+  - Julkinen avain, yksityinen avain ja purkualgoritmi
+  - Salausalgoritmi, julkinen avain ja yksityinen avain
+explanation: |
+  Symmetrinen salausjärjestelmä koostuu kolmesta elementistä: avaimen luontialgoritmi, salausalgoritmi ja purkualgoritmi. Kaikki käyttävät samaa avainta.
+reviewed: false

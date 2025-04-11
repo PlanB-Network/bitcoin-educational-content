@@ -1,0 +1,13 @@
+question: Hvilke risikoer er forbundet med å bruke en tredjeparts node?
+
+answer: Sensur og overvåking av aktiviteter.
+
+wrong_answers:
+  - Tap av bitcoins.
+  - Økning i transaksjonsgebyrer.
+  - Tyveri av bitcoins og sporing.
+
+explanation: |
+  Hvis du bruker en node som ikke tilhører deg, løper du risikoen for å få transaksjonssendingene dine blokkert og å bli overvåket av operatøren.
+
+reviewed: false

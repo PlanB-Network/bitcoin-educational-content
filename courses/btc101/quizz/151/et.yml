@@ -1,0 +1,11 @@
+question: Mis on Proof of Work (POW)?
+answer: See on Bitcoin protokolli turvakonsensus.
+wrong_answers:
+  - See on uute bitcoinide loomise protsess.
+  - See on Bitcoin tehingute kinnitamise meetod.
+  - See on algoritm, mida kasutatakse bitcoinide kaevandamiseks.
+explanation: >-
+  Proof of Work on konsensusalgoritm, mida kasutatakse Bitcoin võrgus
+  tehingute valideerimiseks ja uute plokkide loomiseks. See nõuab kaevuritelt keerukate
+  matemaatiliste probleemide lahendamist, tagades võrgu turvalisuse ja terviklikkuse.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hvor er bitcoins faktisk lagret?
+answer: I Bitcoin-blockchainen
+wrong_answers:
+  - I Bitcoin-lommeboken
+  - På enheten hvor lommeboken er installert
+  - I den føderale reserven
+explanation: |
+  Selv om dine private nøkler er lagret i lommeboken din, er bitcoinsene selv faktisk lagret i Bitcoin-blockchainen, som er det offentlige distribuerte hovedboken innenfor Bitcoin peer-to-peer-nettverket.
+reviewed: true

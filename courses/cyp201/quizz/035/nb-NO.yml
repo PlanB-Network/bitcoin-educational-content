@@ -1,0 +1,9 @@
+question: Hvilken Bitcoin-standard introduserer hierarkiske deterministiske lommebøker?
+answer: BIP32
+wrong_answers:
+  - BIP39
+  - BIP44
+  - BIP141
+explanation: |
+  BIP32 definerer driften av HD-lommebøker, som tillater hierarkisk derivasjon av private nøkler fra et frø.
+reviewed: false

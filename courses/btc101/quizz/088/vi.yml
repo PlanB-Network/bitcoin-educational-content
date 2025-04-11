@@ -1,9 +1,9 @@
 question: Rủi ro chính khi sử dụng dịch vụ giữ hộ để lưu trữ bitcoin của bạn là gì?
-answer: Bên thứ ba đáng tin cậy có thể hạn chế quyền truy cập vào quỹ của bạn bất cứ lúc nào
+answer: Bên thứ ba đáng tin cậy có thể hạn chế quyền truy cập vào quỹ của bạn bất cứ lúc nào.
 wrong_answers:
-  - Bên thứ ba đáng tin cậy có thể tăng giá trị của bitcoin của bạn bất cứ lúc nào
-  - Bên thứ ba đáng tin cậy có thể giảm giá trị của bitcoin của bạn bất cứ lúc nào
-  - Bên thứ ba đáng tin cậy không thể sao chép bitcoin của bạn bất cứ lúc nào
+  - Bên thứ ba đáng tin cậy có thể tăng giá trị của bitcoin của bạn bất cứ lúc nào.
+  - Bên thứ ba đáng tin cậy có thể giảm giá trị của bitcoin của bạn bất cứ lúc nào.
+  - Bên thứ ba đáng tin cậy không thể nhân bản bitcoin của bạn bất cứ lúc nào.
 explanation: >-
-  Khi bạn sử dụng dịch vụ giữ hộ để lưu trữ bitcoin của mình, bạn không phải là người duy nhất nắm giữ bitcoin của mình. Điều này có nghĩa là bên thứ ba đáng tin cậy có thể hạn chế quyền truy cập vào quỹ của bạn bất cứ lúc nào, mang lại cho bạn cùng một mức độ chủ quyền tài chính như với hệ thống ngân hàng truyền thống.
-reviewed: false
+  Khi bạn sử dụng dịch vụ giữ hộ để lưu trữ bitcoin của mình, bạn không phải là người duy nhất nắm giữ bitcoin của mình. Điều này có nghĩa là bên thứ ba đáng tin cậy có thể hạn chế quyền truy cập vào quỹ của bạn bất cứ lúc nào, mang lại cho bạn mức độ chủ quyền tài chính tương tự như hệ thống ngân hàng truyền thống.
+reviewed: true

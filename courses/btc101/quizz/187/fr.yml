@@ -1,9 +1,9 @@
-question: Quel est un avantage d'accepter Bitcoin en tant que commerçant ?
-answer: Résistance à la censure
+question: Quel est un avantage d'accepter le Bitcoin en tant que commerçant ?
+answer: Résistance à la censure.
 wrong_answers:
-  - Frais de transaction réduits
-  - Protection contre la déflation
-  - Restriction financière
-explanation: |
-  Accepter Bitcoin en tant que commerçant présente plusieurs avantages, notamment la résistance à la censure, la réduction des frais de transaction, l'augmentation de l'efficacité, la protection contre l'inflation, ainsi que la liberté financière et la souveraineté.
-reviewed: false
+  - Augmentation des frais de transaction.
+  - Protection contre la déflation.
+  - Restriction financière.
+explanation: >-
+  Accepter le Bitcoin en tant que commerçant présente plusieurs avantages, y compris la résistance à la censure, la réduction des frais de transaction, l'augmentation de l'efficacité, la protection contre l'inflation, ainsi que la liberté financière et la souveraineté.
+reviewed: true

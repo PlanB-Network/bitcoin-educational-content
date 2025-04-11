@@ -1,9 +1,9 @@
-question: Qual è il ruolo di una chiave privata in una transazione Bitcoin?
-answer: Viene utilizzata per firmare la transazione e sbloccare i bitcoin dall'indirizzo.
+question: In una transazione Bitcoin, cosa fa lo script di blocco?
+answer: Impone condizioni specifiche per spendere i fondi associati
 wrong_answers:
-  - Viene utilizzata per generare la chiave pubblica.
-  - Viene utilizzata per creare un indirizzo Bitcoin.
-  - Viene utilizzata per crittografare i dati della transazione.
+  - Invia automaticamente i fondi a più indirizzi
+  - Determina il valore dell'UTXO da creare
+  - Blocca temporaneamente i fondi per prevenire la spesa eccessiva
 explanation: |
-  In una transazione Bitcoin, il mittente utilizza la propria chiave privata per firmare la transazione, sbloccando efficacemente i bitcoin dall'indirizzo in cui sono memorizzati. Questa è una parte cruciale del processo di transazione, in quanto garantisce che solo il proprietario dei bitcoin possa spenderli.
+  Lo script di blocco impone condizioni, come la firma con una chiave privata, per sbloccare e utilizzare i fondi in una transazione.
 reviewed: false

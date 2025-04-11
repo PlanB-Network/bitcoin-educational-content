@@ -1,0 +1,11 @@
+question: Hva er den største fordelen med gull over andre former for valuta?
+answer: Dets naturlige sjeldenhet gjør det verdifullt, mens dets kjemiske egenskaper gjør at det ikke eroderer over tid
+wrong_answers:
+  - Det er lett å dele opp og transportere
+  - Det er underlagt monetær inflasjon
+  - Det er bredt akseptert i handel
+explanation: |
+  Den største fordelen med gull over andre former for valuta er dets naturlige
+  sjeldenhet, som gjør det verdifullt, og dets kjemiske egenskaper, som gjør at det
+  ikke eroderer over tid.
+reviewed: true

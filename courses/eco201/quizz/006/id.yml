@@ -1,0 +1,9 @@
+question: Apa tujuan utama dari kursus ini?
+answer: Kursus ini bertujuan untuk menjelajahi konsep-konsep dasar dari ekonomi Austria.
+wrong_answers:
+  - Kursus ini bertujuan untuk mempromosikan doktrin Keynesian.
+  - Kursus ini bertujuan untuk menjelaskan cara kerja bank sentral.
+  - Kursus ini bertujuan untuk mempromosikan sentralisasi kekuatan moneter.
+explanation: |
+  Bab tersebut menyebutkan bahwa kursus ini bertujuan untuk menjelajahi konsep-konsep dasar dari ekonomi Austria.
+reviewed: false

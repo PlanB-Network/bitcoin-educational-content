@@ -1,11 +1,11 @@
 question: Was geschah mit dem Simbabwe-Dollar im April 2009?
-answer: Der Finanzminister kündigte die Aussetzung des Simbabwe-Dollars an und genehmigte die Verwendung verschiedener Fremdwährungen für den Handel.
+answer: Der Finanzminister kündigte die Aussetzung des Simbabwe-Dollars an und autorisierte die Verwendung verschiedener ausländischer Währungen für den Handel.
 wrong_answers:
   - Der Simbabwe-Dollar brach um über 72% ein.
-  - Die Regierung stimmte zu, Kriegsveteranen eine Summe, die 450 Millionen US-Dollar entspricht, zu entschädigen.
-  - Die Regierung musste zur Geldpresse greifen.
+  - Die Regierung stimmte zu, Kriegsveteranen einen Betrag zu entschädigen, der 450 Millionen US-Dollar entspricht.
+  - Die Regierung musste dazu übergehen, die Druckerpresse laufen zu lassen.
 explanation: |
-  Im April 2009 kündigte der Finanzminister die Aussetzung des
-  Simbabwe-Dollars an und genehmigte die Verwendung verschiedener Fremdwährungen für den Handel.
+  Im April 2009 kündigte der Finanzminister die
+  Aussetzung des Simbabwe-Dollars an und autorisierte die Verwendung
+  verschiedener ausländischer Währungen für den Handel.
 reviewed: true
-

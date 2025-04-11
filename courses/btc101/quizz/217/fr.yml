@@ -1,10 +1,12 @@
-question: Dans quels domaines Bitcoin soulève-t-il des questions ?
-answer: Cryptographie, théorie des jeux, économie et politique monétaire, informatique, philosophie, énergie, lois et régulation
+question: Dans quels domaines le Bitcoin soulève-t-il des questions ?
+answer: Cryptographie, théorie des jeux, économie et politique monétaire, informatique, philosophie, énergie, lois et réglementation.
 wrong_answers:
   - Uniquement l'informatique et l'économie
-  - Uniquement la cryptographie et la théorie des jeux
-  - Uniquement la philosophie et l'énergie
-explanation: >-
-  Bitcoin est un objet multidisciplinaire qui soulève des questions liées à
-  divers domaines, incluant la cryptographie, la théorie des jeux, l'économie et la politique monétaire,
-  l'informatique, la philosophie, l'énergie, les lois et la régulation.
+  - Uniquement la cryptographie et la théorie des jeux.
+  - Uniquement la philosophie et l'énergie.
+explanation: |
+  Le Bitcoin est un sujet multidisciplinaire qui soulève
+  des questions liées à divers domaines, incluant
+  la cryptographie, la théorie des jeux, l'économie et la politique monétaire,
+  l'informatique, la philosophie, l'énergie, les lois et la réglementation.
+reviewed: true

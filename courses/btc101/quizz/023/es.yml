@@ -1,9 +1,14 @@
 question: ¿Cuál es el papel del dinero como herramienta de comunicación?
-answer: Permite la comunicación de valor a través del espacio y el tiempo sin necesidad de confiar en la contraparte.
+answer: Permite la comunicación de valor a través del espacio y el tiempo y sin la necesidad de confiar en una contraparte.
 wrong_answers:
-  - Permite la comunicación de valor solo a través del espacio y sin necesidad de confiar en la contraparte.
-  - Permite la comunicación de valor solo a través del tiempo y sin necesidad de confiar en la contraparte.
-  - Permite la comunicación de valor a través del espacio y el tiempo con la necesidad de confiar en la contraparte.
+  - Permite la comunicación de valor a través del espacio solamente y sin la necesidad de confiar en una contraparte.
+  - Permite la comunicación de valor a través del tiempo solamente y sin la necesidad de confiar en una contraparte.
+  - Permite la comunicación de valor a través del espacio y el tiempo y con la necesidad de confiar en una contraparte.
 explanation: |
-  El dinero como herramienta de comunicación permite la comunicación a través del espacio y el tiempo, ya que transformamos nuestro tiempo y energía en un activo que se puede reutilizar en el futuro sin el riesgo de devaluación. También permite la comunicación en un lenguaje común universal, lo que permite a dos extraños intercambiar, comerciar y acordar el valor de las cosas.
-reviewed: false
+  El dinero como herramienta de comunicación permite la comunicación a través
+  del espacio y el tiempo, ya que transformamos nuestro tiempo y energía en un
+  activo que puede ser reutilizado en el futuro sin el riesgo de
+  devaluación. También permite la comunicación en un lenguaje común
+  universal, habilitando a dos extraños para intercambiar, comerciar,
+  y acordar el valor de las cosas.
+reviewed: true

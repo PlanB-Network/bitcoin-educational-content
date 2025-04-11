@@ -1,0 +1,14 @@
+question: Apa saja kesalahpahaman umum tentang membuat rencana warisan menurut Pamela Morgan dalam Cryptoasset Inheritance Planning?
+answer: Saya perlu menyewa pengacara; Saya perlu mempercayai pihak ketiga; Perencanaan akan membuat aset saya mudah dicuri; Nilai cryptocurrency saya terlalu rendah untuk direncanakan; Ahli waris saya akan menyelesaikan semuanya sendiri; Semua ini dapat dilakukan dengan kontrak pintar yang sederhana.
+wrong_answers:
+  - Saya tidak perlu menyewa pengacara; Saya tidak perlu mempercayai pihak ketiga; Perencanaan akan membuat aset saya sulit dicuri; Nilai cryptocurrency saya terlalu tinggi untuk direncanakan; Ahli waris saya tidak akan menyelesaikan semuanya sendiri; Semua ini tidak dapat dilakukan dengan kontrak pintar yang sederhana.
+  - Saya perlu menyewa pengacara; Saya perlu mempercayai pihak ketiga; Perencanaan akan membuat aset saya sulit dicuri; Nilai cryptocurrency saya terlalu tinggi untuk direncanakan; Ahli waris saya akan menyelesaikan semuanya sendiri; Semua ini tidak dapat dilakukan dengan kontrak pintar yang sederhana.
+  - Saya tidak perlu menyewa pengacara; Saya tidak perlu mempercayai pihak ketiga; Perencanaan akan membuat aset saya mudah dicuri; Nilai cryptocurrency saya terlalu rendah untuk direncanakan; Ahli waris saya tidak akan menyelesaikan semuanya sendiri; Semua ini dapat dilakukan dengan kontrak pintar yang sederhana.
+explanation: |
+  Kesalahpahaman umum tentang membuat rencana warisan, seperti yang dinyatakan
+  oleh Pamela Morgan dalam Cryptoasset Inheritance Planning, adalah bahwa Anda perlu menyewa
+  pengacara; Anda perlu mempercayai pihak ketiga; perencanaan akan membuat aset Anda mudah
+  dicuri; nilai cryptocurrency Anda terlalu rendah untuk direncanakan; ahli waris Anda akan
+  menyelesaikan semuanya sendiri; dan semua ini dapat dilakukan dengan kontrak pintar yang
+  sederhana.
+reviewed: false

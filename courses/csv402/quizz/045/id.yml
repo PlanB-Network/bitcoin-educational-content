@@ -1,0 +1,9 @@
+question: Standar RGB mana yang digunakan untuk menentukan token yang dapat dipertukarkan?
+answer: RGB20
+wrong_answers:
+  - RGB21
+  - RGB22
+  - RGB25
+explanation: |
+  RGB20 adalah standar yang digunakan untuk membuat dan mengelola token yang dapat dipertukarkan melalui protokol RGB.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Dalam transaksi Bitcoin, apa fungsi dari skrip penguncian?
+answer: Menetapkan kondisi tertentu untuk menghabiskan dana yang terkait
+wrong_answers:
+  - Secara otomatis mengirimkan dana ke beberapa alamat
+  - Menentukan nilai dari UTXO yang akan dibuat
+  - Sementara mengunci dana untuk mencegah pengeluaran berlebihan
+explanation: |
+  Skrip penguncian menetapkan kondisi, seperti penandatanganan dengan kunci privat, untuk membuka dan menggunakan dana dalam sebuah transaksi.
+reviewed: false

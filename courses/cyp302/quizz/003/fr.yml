@@ -1,0 +1,9 @@
+question: Que révèle le deuxième message de Beale une fois déchiffré ?
+answer: La liste des trésors enterrés (or, argent et bijoux)
+wrong_answers:
+  - Le lieu exact où est enterré le trésor
+  - La date du retour de Beale
+  - La signature de Beale et celle de ses associés
+explanation: |
+  Après déchiffrement, le deuxième message décrit le contenu du trésor, composé d'or, d'argent et de bijoux.
+reviewed: false

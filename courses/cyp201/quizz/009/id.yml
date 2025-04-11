@@ -1,0 +1,8 @@
+question: Apa konstruksi yang digunakan oleh SHA256 untuk memproses pesan dengan panjang yang berubah-ubah?
+answer: Konstruksi Merkle-Damgård
+wrong_answers:
+  - Konstruksi Euclidean
+  - Konstruksi Rivest-Shamir-Adleman
+  - Konstruksi Knuth-Morris-Pratt
+explanation: |
+  Konstruksi Merkle-Damgård memungkinkan transformasi sebuah fungsi kompresi menjadi fungsi hash untuk pesan dengan panjang yang variabel.

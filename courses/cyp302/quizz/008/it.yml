@@ -1,0 +1,9 @@
+question: Qual è il ramo della crittografia che utilizza una coppia di chiavi pubblica e privata?
+answer: Crittografia asimmetrica
+wrong_answers:
+  - Crittografia simmetrica
+  - Crittografia mono-algoritmica
+  - Crittografia integrativa
+explanation: |
+  La crittografia asimmetrica si basa sull'uso di una coppia di chiavi, pubblica e privata, consentendo la cifratura senza condividere una chiave segreta.
+reviewed: false

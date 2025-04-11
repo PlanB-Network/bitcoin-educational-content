@@ -1,11 +1,11 @@
-question: Co Bitcoin symbolizuje mimo svou technologii?
+question: Co symbolizuje Bitcoin mimo jeho technologii?
 answer: Revoluci proti tradičním finančním systémům a alternativu založenou na transparentnosti, decentralizaci a suverenitě jednotlivce.
 wrong_answers:
-  - Novou formu digitální měny, která je efektivnější než tradiční měny.
-  - Způsob, jak jednotlivci mohou vydělávat těžbou.
+  - Novou formu digitální měny, která je efektivnější než tradiční měny, protože je rychlejší.
+  - Způsob, jak jednotlivci mohou vydělávat peníze těžbou.
   - Nástroj pro zločince k provádění nelegálních transakcí.
 explanation: |
-  Mimo svou technologii Bitcoin symbolizuje revoluci proti tradičním
-  finančním systémům, protože protokol vynutil nový peněžní systém bez
-  jakékoli centrální entity.
-reviewed: false
+  Mimo svou technologii symbolizuje Bitcoin revoluci
+  proti tradičním finančním systémům: protokol
+  vynucuje nový měnový systém bez jakékoli centrální entity.
+reviewed: true

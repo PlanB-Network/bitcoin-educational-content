@@ -1,0 +1,8 @@
+question: Konsep matematika apa yang mendasari pertukaran kunci Diffie-Hellman?
+answer: Fungsi satu arah dengan pintu belakang
+wrong_answers:
+  - Fungsi eksponensial terbalik
+  - Algoritma hash kriptografi
+  - Pembagian modular yang disederhanakan
+explanation: |
+  Diffie-Hellman mengandalkan fungsi satu arah yang mudah dihitung dalam satu arah tetapi praktis mustahil untuk dibalik tanpa sepotong informasi rahasia, yang disebut pintu belakang.

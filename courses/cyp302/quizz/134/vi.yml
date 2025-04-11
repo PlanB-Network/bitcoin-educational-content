@@ -1,0 +1,8 @@
+question: Mục tiêu chính của mật mã bất đối xứng trong bối cảnh giao tiếp giữa Alice và Bob là gì?
+answer: Để cho phép Bob truyền một tin nhắn bí mật cho Alice sử dụng khóa công khai của cô ấy
+wrong_answers:
+  - Để cho phép Bob mã hóa và giải mã tin nhắn mà không cần khóa công khai
+  - Để ngăn Alice giải mã tin nhắn của Bob
+  - Để cho phép Alice mã hóa tin nhắn để xác minh tính toàn vẹn của nó
+explanation: |
+  Trong mật mã bất đối xứng, khóa công khai của Alice cho phép Bob gửi một tin nhắn được mã hóa mà chỉ cô ấy có thể giải mã, do đó đảm bảo tính bảo mật của tin nhắn.

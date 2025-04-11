@@ -1,9 +1,14 @@
-question: Jaký je účel ověřování Lightning?
-answer: Generuje odlišný identifikátor pro každou službu, aniž by bylo nutné poskytovat emailovou adresu nebo osobní informace.
+question: Jaký je účel autentizace Lightning?
+answer: Generuje odlišný identifikátor pro každou službu, aniž by bylo nutné
+  poskytovat emailovou adresu nebo osobní informace.
 wrong_answers:
-  - Zrychluje proces ověřování.
+  - Umožňuje komukoli, i bez peněženky Lightning, autentizaci bez emailové adresy, pokud je ukázán platný průkaz totožnosti.
   - Umožňuje používat stejné heslo pro všechny služby.
-  - Posílá připomínky na změnu hesla každý měsíc.
+  - Posílá připomínky ke změně hesel každý měsíc.
 explanation: |
-  Ověřování Lightning generuje odlišný identifikátor pro každou službu, aniž by bylo nutné poskytovat emailovou adresu nebo osobní informace. To může zvýšit soukromí a bezpečnost tím, že se snižuje množství osobních informací, které se sdílí s každou službou.
-reviewed: false
+  Autentizace Lightning generuje odlišný identifikátor
+  pro každou službu, aniž by bylo nutné poskytovat emailovou
+  adresu nebo osobní informace. To může zvýšit soukromí
+  a bezpečnost tím, že se sníží množství osobních informací,
+  které jsou sdíleny s každou službou.
+reviewed: true

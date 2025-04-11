@@ -1,0 +1,9 @@
+question: Que contenait la boîte de fer remise à Robert Morriss ?
+answer: Trois textes chiffrés et une note
+wrong_answers:
+  - Une carte et des indices
+  - Une clé de chiffrement unique
+  - Une seule liste de noms
+explanation: |
+  La boîte contenait trois textes chiffrés et une note expliquant la découverte d'un trésor et donnant des instructions pour en récupérer le contenu.
+reviewed: false

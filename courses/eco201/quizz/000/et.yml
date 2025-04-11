@@ -1,0 +1,13 @@
+question: Mis on peamine erinevus Keynesi ja Austria majandusteooriate vahel?
+answer: Keynesi majandusteooria usub rahatrüki ja kulutamise kasvu edendamisse, samas kui Austria majandusteooria rõhutab kasvu ja inimratsionaalsuse tagasihoidlikumat nägemust.
+wrong_answers:
+  - Keynesi majandusteooria rõhutab kasvu ja inimratsionaalsuse tagasihoidlikumat nägemust, samas kui Austria majandusteooria usub rahatrüki ja kulutamise kasvu edendamisse.
+  - Keynesi majandusteooria keskendub raha tootmisele ja haldamisele keskpankade poolt, samas kui Austria majandusteooria usub rahandusvõimu detsentraliseerimisse.
+  - Keynesi majandusteooria usub rahandusvõimu tsentraliseerimisse, samas kui Austria majandusteooria keskendub raha tootmisele ja haldamisele keskpankade poolt.
+explanation: |
+  Peatükk selgitab, et Keynesi majandusteooria toetab ideed, et
+  raha tootmine ja haldamine on keskpankade vastutus,
+  ning et rahatrükk ja kulutamine edendavad kasvu. Teisest küljest, Austria
+  majandusteooria, millel on üle 200 aasta uurimis- ja arendustööd, filosoofilisi mõtisklusi
+  ning tuntud autorite kirjutisi, rõhutab meie majanduses kasvu ja inimratsionaalsuse tagasihoidlikumat nägemust.
+reviewed: false

@@ -1,9 +1,0 @@
-question: Qual é o principal objetivo do KYC?
-answer: Combater a lavagem de dinheiro, o financiamento do terrorismo e a evasão fiscal.
-wrong_answers:
-  - Aumentar o custo de conformidade para as empresas
-  - Centralizar bancos de dados sensíveis contendo informações pessoais dos usuários
-  - Desencorajar as empresas francesas e prejudicar sua competitividade
-explanation: |
-  KYC, ou "Conheça seu Cliente", é um padrão regulatório que visa combater a lavagem de dinheiro, o financiamento do terrorismo e a evasão fiscal, exigindo a coleta de informações privadas dos clientes.
-reviewed: false

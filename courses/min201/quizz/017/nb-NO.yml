@@ -1,0 +1,9 @@
+question: Hva er det potensielle innvirkningen av regulering på Bitcoin-mining?
+answer: Hvis et land som USA skulle bestemme seg for å regulere eller forby visse Bitcoin-transaksjoner, kunne det ha en betydelig innvirkning på nettverket, spesielt hvis en stor del av hash-kraften er sentralisert i det landet.
+wrong_answers:
+  - Hvis et land som USA skulle bestemme seg for å regulere eller forby Bitcoin-mining, kunne det føre til en økning i verdien av Bitcoin.
+  - Hvis et land som USA skulle bestemme seg for å regulere eller forby Bitcoin-mining, kunne det føre til en økning i blokkbelønningen.
+  - Hvis et land som USA skulle bestemme seg for å regulere eller forby Bitcoin-mining, kunne det føre til en økning i transaksjonshastigheten.
+explanation: |
+  Kapittelet forklarer at hvis et land som USA skulle bestemme seg for å regulere eller forby visse Bitcoin-transaksjoner, kunne det ha en betydelig innvirkning på nettverket, spesielt hvis en stor del av hash-kraften er sentralisert i det landet.
+reviewed: true

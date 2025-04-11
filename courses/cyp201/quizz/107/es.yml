@@ -1,9 +1,0 @@
-question: ¿Cuál es la longitud de la semilla en una billetera HD?
-answer: La semilla tiene una longitud de 128 a 256 bits.
-wrong_answers:
-  - La semilla tiene una longitud de 64 a 128 bits.
-  - La semilla tiene una longitud de 256 a 512 bits.
-  - La semilla tiene una longitud de 32 a 64 bits.
-explanation: |
-  La semilla en una billetera HD tiene una longitud de 128 a 256 bits. Se genera de manera aleatoria o a partir de una frase secreta.
-reviewed: false

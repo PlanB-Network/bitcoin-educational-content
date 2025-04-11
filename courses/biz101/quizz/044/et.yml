@@ -1,0 +1,9 @@
+question: Mis on üks peamisi eeliseid kaupmeeste jaoks, kes kasutavad Lightning Networki?
+answer: Vähendatud tehingutasud
+wrong_answers:
+  - Pankade poolt tagatud maksed
+  - Automaatne müügi kasv
+  - Ärimaksu kaotamine
+explanation: |
+  Lightning Networki tehingutasud on väga madalad, mistõttu on see kaupmeeste jaoks kuluefektiivne lahendus.
+reviewed: false

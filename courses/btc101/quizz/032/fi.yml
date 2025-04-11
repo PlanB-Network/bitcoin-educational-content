@@ -1,9 +1,11 @@
-question: Miten ääniä raha voidaan luoda?
-answer: Raha on luonnollinen sosiaalinen ilmiö, joka täytyy syntyä markkinoilta ja vapaaehtoisesta yhteisymmärryksestä
+question: Miten ääniä raha luodaan?
+answer: Ääniä raha täytyy luonnollisesti syntyä markkinoilta ja vapaaehtoisesta konsensuksesta.
 wrong_answers:
-  - Hallitus pakottaa sen laeilla
-  - Ihmiset käyttävät väkivaltaa ja pakkoa saadakseen toiset hyväksymään heidän rahansa
-  - Ääniä rahaa ei voida luoda
-explanation: >-
-  Ääniä raha on luonnollinen sosiaalinen ilmiö, joka täytyy syntyä markkinoilta ja vapaaehtoisesta yhteisymmärryksestä. Yksikään ihminen tai ihmisryhmä ei voi luoda rahaa.
-reviewed: false
+  - Ääniä raha täytyy saada aikaan hallituksen toimesta antamalla rahalakeja.
+  - Ääniä raha on pakotettava yritysten toimesta väkivallan käytön kautta.
+  - Ääniä rahaa ei voida luoda.
+explanation: |
+  Ääniä raha on luonnollinen sosiaalinen ilmiö, joka täytyy syntyä
+  markkinoilta ja vapaaehtoisesta konsensuksesta. Yksikään ihminen tai
+  ihmisryhmä ei voi luoda rahaa.
+reviewed: true

@@ -1,0 +1,8 @@
+question: Tên của công ty mà David Chaum đã sử dụng để triển khai khái niệm tiền tệ số của mình là gì?
+answer: DigiCash B.V.
+wrong_answers:
+  - eCash Ltd.
+  - CyberCash Inc.
+  - First Virtual Holdings Inc.
+explanation: |
+  Được thành lập vào năm 1990, DigiCash B.V. có trụ sở tại Amsterdam, Hà Lan, và sở hữu các bằng sáng chế cho phát minh eCash của David Chaum.

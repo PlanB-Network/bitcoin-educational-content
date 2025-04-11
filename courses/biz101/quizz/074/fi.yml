@@ -1,0 +1,9 @@
+question: Mitä kehittyneitä tietoturvaominaisuuksia bitcoineja varten yleensä toteutetaan yritystasolla?
+answer: Moninkertainen allekirjoitus ja aikakellot
+wrong_answers:
+  - Salasanasuojaus mobiililompakolle Lightning
+  - Single-sig ja BIP39-salasanasuojaus
+  - Single-sig, jossa on 24 sanaa siemenlause
+explanation: |
+  Suurten summien hallinnoinnissa on ratkaisevan tärkeää käyttää korkeatasoisia turvatoimia, kuten usean allekirjoituksen konfiguraatioita ja aikalukkoja.
+reviewed: false

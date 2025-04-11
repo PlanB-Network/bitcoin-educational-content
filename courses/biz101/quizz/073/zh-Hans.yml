@@ -1,0 +1,9 @@
+question: 是什么实现了企业比特币系统和企业资源规划软件之间的实时数据同步？
+answer: 应用程序接口
+wrong_answers:
+  - CSV 文件
+  - 批量上传
+  - 电子邮件报告
+explanation: |
+  应用程序接口允许持续、实时集成。
+reviewed: false

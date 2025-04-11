@@ -1,0 +1,8 @@
+question: Milline oli Saksa elanikkonna taju hüperinflatsiooni perioodil Weimari Vabariigis?
+answer: Nad omistasid inflatsiooni dollari tõusule, mitte oma valuuta sisemisele väärtuse langusele.
+wrong_answers:
+  - Nad olid täielikult teadlikud hüperinflatsiooni aluseks olevast põhjusest, mida nad kogesid.
+  - Nad süüdistasid valitsust oma majandusraskustes.
+  - Nad uskusid, et hüperinflatsioon oli sõjakahjude hüvitamise tagajärg.
+explanation: |
+  Weimari Vabariigi Saksa elanikkond omistas kogemata inflatsiooni dollari tõusule, eirates igasugust seost oma majandusraskuste ja rahalise väärtuse languse vahel, mida peamiselt põhjustas liigne rahatrükk.

@@ -5,5 +5,6 @@ wrong_answers:
   - Excel, PowerPoint, Word
   - AutoCAD, SolidWorks, Revit
 explanation: |
-  El capítulo enumera Wireshark, Metasploit y Nmap como algunas de las herramientas utilizadas en ciberseguridad.
-reviewed: false
+  El capítulo enumera a Wireshark, Metasploit y Nmap como algunas
+  de las herramientas utilizadas en ciberseguridad.
+reviewed: true

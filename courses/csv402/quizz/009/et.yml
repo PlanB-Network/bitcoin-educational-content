@@ -1,0 +1,9 @@
+question: Miks soovitatakse RGB puhul kasutada kohustuste võtmiseks Tapret'i asemel Opret?
+answer: Nähtavuse minimeerimiseks ja tsensuuri vältimiseks
+wrong_answers:
+  - Tehingukulude vähendamiseks
+  - Kuna OP_RETURN ei ole Lightning-ühilduvusega
+  - Kohustuste suuruse maksimeerimiseks
+explanation: |
+  Tapret võimaldab teil integreerida kohustusi diskreetselt, erinevalt OP_RETURNist, mis muudab need kohe nähtavaks ja tsenseeritavaks.
+reviewed: false

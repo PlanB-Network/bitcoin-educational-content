@@ -1,0 +1,11 @@
+question: Tùy chọn nào cho phép bật hoặc tắt P2P transport V2 trong tệp cấu hình của Bitcoin Core?
+
+answer: v2transport=
+
+wrong_answers:
+  - p2penable=
+  - networkv2=
+  - enablev2=
+
+explanation: |
+  P2P V2 transport có thể được chỉnh sửa với tùy chọn v2transport= trong tệp cấu hình của một nút Core.

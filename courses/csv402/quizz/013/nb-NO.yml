@@ -1,0 +1,9 @@
+question: Hva er de viktigste operasjonene i en RGB-kontrakt?
+answer: Tilstandsovergang, tilblivelse og tilstandsutvidelse
+wrong_answers:
+  - Definisjon, forpliktelse og validering av segl
+  - Opprettelse av anker, DAG-oppdatering og transaksjonssignering
+  - Genesis Block, UTXO-allokering og skriptvalidering
+explanation: |
+  Disse operasjonene endrer eller fullfører statusen til en kontrakt i henhold til kontraktens skjema.
+reviewed: false

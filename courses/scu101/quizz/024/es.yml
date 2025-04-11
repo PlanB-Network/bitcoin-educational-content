@@ -1,10 +1,11 @@
 question: ¿Cuáles son algunas soluciones para la encriptación de datos en diferentes sistemas operativos?
-answer: BitLocker para Windows, LUKS para Linux y la opción incorporada para Mac.
+answer: BitLocker para Windows, LUKS para Linux y la opción integrada para Mac.
 wrong_answers:
-  - BitLocker para Linux, LUKS para Mac y la opción incorporada para Windows.
-  - BitLocker para Mac, LUKS para Windows y la opción incorporada para Linux.
+  - BitLocker para Linux, LUKS para Mac y la opción integrada para Windows.
+  - BitLocker para Mac, LUKS para Windows y la opción integrada para Linux.
   - LUKS para todos los sistemas operativos.
 explanation: |
-  Los diferentes sistemas operativos tienen diferentes soluciones para la encriptación de datos.
-  BitLocker es para Windows, LUKS es para Linux y Mac tiene una opción incorporada para la encriptación de datos.
-reviewed: false
+  Diferentes sistemas operativos tienen diferentes soluciones para
+  la encriptación de datos. BitLocker es para Windows, LUKS es para
+  Linux, y Mac tiene una opción integrada para la encriptación de datos.
+reviewed: true

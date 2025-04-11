@@ -1,0 +1,9 @@
+question: Was ist die Rolle eines Nonce in einem authentifizierten Verschlüsselungsschema?
+answer: Sicherstellen, dass jede Nachricht ein einzigartiges Tag hat, um Wiederholungen zu verhindern
+wrong_answers:
+  - Den Sender der Nachricht identifizieren
+  - Einen temporären Entschlüsselungsschlüssel erstellen
+  - Eine zusätzliche Ebene der Verschlüsselung hinzufügen
+explanation: |
+  In einem authentifizierten Verschlüsselungsschema wird ein Nonce verwendet, um sicherzustellen, dass jede Nachricht ein einzigartiges Tag hat, wodurch die Sicherheit durch Verhinderung von Wiederholungen erhöht wird.
+reviewed: false

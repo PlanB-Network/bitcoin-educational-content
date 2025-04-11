@@ -1,0 +1,11 @@
+question: Hva er et gyldig hash i sammenheng med å utvinne en blokk i Bitcoin-nettverket?
+answer: Et unikt fingeravtrykk assosiert med blokken, bestående av 256 tegn.
+wrong_answers:
+  - En unik kode brukt for å få tilgang til blokken.
+  - Et unikt passord som kreves for å utvinne blokken.
+  - En unik identifikator for gruvearbeideren som utvant blokken.
+explanation: >-
+  I sammenheng med å utvinne en blokk i Bitcoin-nettverket, er et gyldig hash
+  et unikt fingeravtrykk assosiert med blokken, bestående av 256 tegn. Gyldigheten
+  av dette hashet avhenger av vanskelighetsgraden i Bitcoin-nettverket.
+reviewed: false

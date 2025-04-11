@@ -1,11 +1,8 @@
-question: Vai trò của entropy trong ví Bitcoin HD là gì?
-answer: Đó là nền tảng của bất kỳ ví HD nào và cần thiết cho an ninh của nó.
+question: Hàm nào được sử dụng để tạo ra seed từ cụm từ ghi nhớ?
+answer: PBKDF2 với HMAC-SHA512
 wrong_answers:
-  - Nó giúp trong việc xác minh các giao dịch.
-  - Nó tăng tốc độ của các giao dịch.
-  - Nó giảm kích thước của blockchain.
+  - SHA256 đơn lẻ
+  - Double SHA256
+  - AES-256
 explanation: |
-  Entropy, hay sự ngẫu nhiên, là nền tảng của bất kỳ ví HD nào. Nó cần thiết
-  cho an ninh của ví vì nó đảm bảo sự không dự đoán được của các khóa riêng tư
-  được tạo ra.
-reviewed: false
+  Seed được tạo ra sử dụng hàm PBKDF2 với HMAC-SHA512 và 2048 lần lặp, từ cụm từ ghi nhớ và cụm từ bí mật.

@@ -1,0 +1,9 @@
+question: Su quale processo si basa il modello di moneta elettronica eCash?
+answer: Firme cieche
+wrong_answers:
+  - Firme di gruppo
+  - Firme ad anello
+  - Firme soglia
+explanation: |
+  eCash si basa sul processo di firma cieca, che consente a chi firma di firmare qualcosa senza vedere ciò che sta firmando.
+reviewed: false

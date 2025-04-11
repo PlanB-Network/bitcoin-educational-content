@@ -1,9 +1,9 @@
-question: Proč potřebuje Alice Bobův podpis před publikováním transakcí k otevření kanálu?
-answer: Aby mohla sama obnovit své prostředky, pokud by se něco pokazilo.
+question: Co odráží transakce závazku v kanálu Lightning?
+answer: Nové rozdělení prostředků mezi oběma stranami
 wrong_answers:
-  - Potvrdit Bobův souhlas s otevřením kanálu.
-  - Ověřit Bobovu identitu.
-  - Zašifrovat transakce pro zabezpečení.
+  - Celkový počet provedených transakcí
+  - Výše poplatků k zaplacení za transakci
+  - Otevření nového platebního kanálu
 explanation: |
-  Alice žádá Boba o podpis jeho veřejným klíčem před publikováním transakcí. To je proto, aby mohla sama obnovit své prostředky, pokud by se něco pokazilo, jelikož už má Bobův podpis.
+  Transakce závazku představuje aktuální rozdělení prostředků v kanálu po každé transakci Lightning, ale není publikována na blockchainu, dokud zůstává kanál otevřený.
 reviewed: false

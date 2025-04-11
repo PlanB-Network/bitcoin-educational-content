@@ -1,0 +1,9 @@
+question: Hvorfor er det essensielt å sikre sin innboks?
+answer: Fordi den lar deg tilbakestillte passordene dine
+wrong_answers:
+- Fordi den brukes til å motta nyhetsbrev
+- Fordi den inneholder alle dine passord
+- Fordi den inneholder dine bankopplysninger
+explanation: Postkassen er sentralt for å hente passord og kompromittere flere kontoer
+  ved en sikkerhetsfeil.
+reviewed: false

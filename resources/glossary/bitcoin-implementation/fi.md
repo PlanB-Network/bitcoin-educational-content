@@ -1,0 +1,7 @@
+---
+term: BITCOIN-TOTEUTUS
+
+---
+Tarkoittaa ohjelmistoa, joka soveltaa ja noudattaa Bitcoin-protokollan määrittelemiä sääntöjä. Se, mitä yleisesti kutsutaan "Bitcoiniksi", on sähköinen rahajärjestelmä. Se on protokolla, joka määrittelee säännöt. Sitä edustavat konkreettisesti solmut, jotka muodostavat verkon. Tässä järjestelmässä ei ole nimenomaan koodia. Se on yksinkertaisesti joukko laajoja hiljaisia sääntöjä, jotka käyttäjät ovat asettaneet yksimielisesti solmujensa kautta. Ne, joilla on kuitenkin tietokonekoodia ja joita voidaan näin ollen kehittää, ylläpitää ja muuttaa, ovat pikemminkin Bitcoin-solmujen ohjelmistoja. Ne ovat itsenäisiä Bitcoin-protokollan toteutuksia, jotka voivat muodostaa yhteyden muuhun verkkoon.
+
+Bitcoin-toteutuksista Bitcoin Core on ylivoimaisesti laajimmalle levinnyt, sillä se edustaa noin 99 prosenttia solmuverkosta. On kuitenkin myös vähemmistötoteutuksia, kuten BTCsuite, Bcoin ja Bitcoin Knots. Huolimatta saatavilla olevien ohjelmistoasiakkaiden moninaisuudesta Bitcoin Coren valta-asema verkossa antaa sille lähes yksinomaisen vaikutusvallan Bitcoin-protokollan soveltamisessa. Siksi sanotaan, että Bitcoin Core edustaa tehokkaasti itse Bitcoin-protokollaa.

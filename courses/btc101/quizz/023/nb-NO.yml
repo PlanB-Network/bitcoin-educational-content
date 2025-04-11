@@ -1,0 +1,12 @@
+question: Hva er rollen til penger som et kommunikasjonsverktøy?
+answer: Det muliggjør kommunikasjon av verdi på tvers av rom og tid, uten behovet for å stole på motparten
+wrong_answers:
+  - Det muliggjør kommunikasjon av verdi kun på tvers av rom, uten behovet for å stole på motparten
+  - Det muliggjør kommunikasjon av verdi kun på tvers av tid, uten behovet for å stole på motparten
+  - Det muliggjør kommunikasjon av verdi på tvers av rom og tid, med behovet for å stole på motparten
+explanation: |
+  Penger som et kommunikasjonsverktøy muliggjør kommunikasjon på tvers av rom og tid, ettersom vi omformer vår tid og energi til en ressurs som kan gjenbrukes
+  i fremtiden uten risikoen for devaluering. Det tillater også kommunikasjon på et
+  universelt felles språk, som gjør det mulig for to fremmede å utveksle, handle, og bli enige
+  om verdien av ting.
+reviewed: true

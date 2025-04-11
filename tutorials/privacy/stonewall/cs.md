@@ -40,7 +40,7 @@ Z vnější perspektivy by vzor transakce zůstal přesně stejný.
 
 Shrnutí, transakce Stonewall a Stonewall x2 sdílejí identickou strukturu. Rozdíl mezi nimi spočívá v jejich kolaborativní povaze. Transakce Stonewall je vyvíjena individuálně, bez potřeby spolupráce. Na rozdíl od toho, transakce Stonewall x2 spoléhá na spolupráci mezi dvěma jednotlivci pro její provedení.
 
-[**-> Dozvědět se více o transakcích Stonewall x2**](https://planb.network/tutorials/privacy/stonewall-x2)
+[**-> Dozvědět se více o transakcích Stonewall x2**](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)
 
 ## Jaký je účel transakce Stonewall?
 Struktura Stonewall přidává do transakce významné množství entropie a ztěžuje analýzu řetězce. Z vnější perspektivy může být taková transakce interpretována jako malý coinjoin mezi dvěma lidmi. Ale ve skutečnosti, stejně jako transakce Stonewall x2, jde o platbu. Tato metoda tedy vytváří nejistoty v analýze řetězce a může dokonce vést k falešným stopám.

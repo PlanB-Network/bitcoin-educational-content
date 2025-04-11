@@ -1,0 +1,9 @@
+question: Bagaimana Lightning Network memungkinkan pengiriman dana ke node yang tidak terhubung secara langsung?
+answer: Dengan merutekan pembayaran melalui node perantara
+wrong_answers:
+  - Dengan menggunakan transaksi on-chain antar setiap node
+  - Dengan secara otomatis menetapkan saluran sementara
+  - Dengan mengirimkan dana secara langsung dengan alamat multisignature
+explanation: |
+  Lightning Network memungkinkan perutean pembayaran melalui beberapa node perantara, tanpa memerlukan saluran langsung antara pengirim dan penerima.
+reviewed: false

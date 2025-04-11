@@ -1,9 +1,9 @@
-question: Sur quoi repose la sécurité des clés publiques et privées ?
-answer: Le problème du logarithme discret
+question: Quel est le rôle principal d'un portefeuille Bitcoin ?
+answer: Gérer et sécuriser les clés privées
 wrong_answers:
-  - Le problème de factorisation des nombres premiers
-  - Le problème du sac à dos
-  - Le problème du voyageur de commerce
+  - Stocker les bitcoins de l'utilisateur
+  - Assurer la confidentialité des transactions automatiquement
+  - Générer des bitcoins pour chaque utilisateur
 explanation: |
-  La sécurité des clés publiques et privées repose sur le problème du logarithme discret, une question mathématique complexe.
+  Un portefeuille Bitcoin ne stocke pas directement des bitcoins mais gère les clés privées nécessaires pour déverrouiller les UTXOs qui représentent les bitcoins.
 reviewed: false

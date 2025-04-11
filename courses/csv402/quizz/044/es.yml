@@ -1,0 +1,9 @@
+question: ¿Cómo se garantiza la seguridad de una transición RGB en un canal Rayo si se emite un estado obsoleto?
+answer: A través de la mecánica punitiva del Canal del Rayo
+wrong_answers:
+  - Anulando automáticamente todas las transacciones anteriores
+  - A través de la mecánica punitiva del protocolo RGB
+  - Mediante la intervención del emisor de activos RGB a través de su firma asociada al Genesis
+explanation: |
+  El mecanismo punitivo clásico de la Lightning Network garantiza que la difusión de una condición antigua pueda castigarse con la recuperación de todos los fondos implicados, incluidos los activos RGB.
+reviewed: false

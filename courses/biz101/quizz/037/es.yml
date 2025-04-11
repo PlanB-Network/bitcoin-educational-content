@@ -1,0 +1,9 @@
+question: ¿Cuál es la principal ventaja del ecosistema de pagos Bitcoin para cambiar de una solución a otra?
+answer: Es relativamente fácil cambiar de proveedor o actualizar las herramientas, porque los estándares abiertos e interoperables de Bitcoin permiten transferencias de fondos sin problemas.
+wrong_answers:
+  - Una vez elegido un proveedor, la empresa nunca puede cambiar a otra solución.
+  - Las soluciones Bitcoin son propietarias y están vinculadas a un único proveedor.
+  - Cambiar de proveedor requiere la aprobación del gobierno y un largo proceso legal.
+explanation: |
+  Dado que Bitcoin se basa en protocolos abiertos, los comerciantes son libres de mover sus fondos o adoptar nuevas soluciones a medida que crecen o cambian sus necesidades. Esta flexibilidad garantiza que las empresas puedan elegir las mejores herramientas sin dependencia de un proveedor.
+reviewed: false

@@ -1,5 +1,4 @@
-question: What is one of the potential benefits of accepting new technologies like
-  Bitcoin?
+question: What is one of the potential benefits of accepting new technologies like Bitcoin?
 answer: It could generate massive economies of scale worldwide.
 wrong_answers:
   - It could lead to a global economic collapse.
@@ -8,4 +7,4 @@ wrong_answers:
 explanation: >-
   The text suggests that accepting these new technologies could generate
   massive economies of scale worldwide.
-reviewed: false
+reviewed: true

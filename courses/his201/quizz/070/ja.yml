@@ -1,0 +1,9 @@
+question: 2010年11月に、組織WikiLeaksにビットコインを受け入れるよう促すことを提案したのは誰ですか？
+answer: Amir Taaki
+wrong_answers:
+  - Wladimir van der Laan
+  - Robert Horning
+  - Satoshi Nakamoto
+explanation: |
+  彼はその提案を正当化しました。というのも、その組織は何度も資金を凍結された経験があったからです。特に、Moneybookersは2010年10月にWikiLeaksのアカウントを凍結しました。
+reviewed: false

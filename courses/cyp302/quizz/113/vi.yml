@@ -1,0 +1,9 @@
+question: Vai trò của mảng K trong mã hóa RC4 là gì?
+answer: Nó khởi tạo và biến đổi mảng S để tạo ra luồng khóa
+wrong_answers:
+  - Nó trực tiếp mã hóa văn bản gốc
+  - Nó lưu trữ văn bản đã mã hóa
+  - Nó chỉ đóng vai trò là bộ nhớ tạm thời cho dữ liệu cho đến cuối quá trình
+explanation: |
+  Mảng K được sử dụng để biến đổi mảng S trong quá trình lập lịch khóa, điều này cho phép tạo ra một luồng khóa giả ngẫu nhiên để mã hóa văn bản gốc.
+reviewed: false

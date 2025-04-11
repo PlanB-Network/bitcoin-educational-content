@@ -1,0 +1,9 @@
+question: Apa itu HMAC?
+answer: Kode otentikasi pesan berbasis fungsi hash
+wrong_answers:
+  - Algoritma enkripsi asimetris berbasis fungsi hash
+  - Algoritma enkripsi asimetris berbasis Diffie-Hellman
+  - Kode otentikasi pesan berbasis Diffie-Hellman
+explanation: |
+  HMAC adalah kode otentikasi pesan yang menggunakan fungsi hash, seperti SHA-256, untuk membuat tag yang memverifikasi integritas dan keaslian sebuah pesan.
+reviewed: false

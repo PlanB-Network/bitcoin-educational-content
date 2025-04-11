@@ -1,6 +1,0 @@
-description: |
-  Electrum je univerzální Bitcoinová peněženka, která klade důraz na bezpečnost uživatelů a flexibilitu.
-  
-  Podporuje více platforem včetně mobilních zařízení, desktopů a rozhraní příkazové řádky. Vaše soukromé klíče jsou šifrovány a uchovávány na vašem zařízení, což zajišťuje, že nebudou nikdy vystaveny. Electrum navíc využívá tajnou frázi, která umožňuje obnovu prostředků, a poskytuje rychlý přístup k Bitcoinovému blockchainu prostřednictvím své sítě serverů. Podporuje offline "cold storage" pro zabezpečení vašich soukromých klíčů a nabízí možnosti multisig pro rozdělení oprávnění k utrácení mincí. Electrum také ověřuje všechny transakce ve vaší historii pomocí Simplified Payment Verification (SPV) a umožňuje integraci doplňků třetích stran, jako jsou multisig služby a hardwarové peněženky.
-contributors:
-  - rabbit-hole

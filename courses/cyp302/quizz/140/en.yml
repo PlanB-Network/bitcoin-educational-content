@@ -1,0 +1,9 @@
+question: What is the nature of the factorization problem that underlies the security of asymmetric cryptosystems like RSA?
+answer: Factorizing a number into two very large prime factors
+wrong_answers:
+  - Decomposing a number into successive factors of 2
+  - Reducing a number to its smallest divisors
+  - Multiplying two large prime numbers to obtain a product
+explanation: |
+  The security of RSA is based on the difficulty of factorizing a large number (the product of two large prime numbers) into its two prime factors, a task that is nearly impossible without the private key.
+reviewed: false

@@ -1,9 +1,13 @@
 question: ¿Cómo influyen la regulación y las tarifas eléctricas en la minería de Bitcoin?
-answer: La regulación y las tarifas eléctricas tienen una influencia significativa en la minería de Bitcoin. Los mineros están constantemente buscando electricidad de bajo costo para maximizar sus ganancias. Por lo tanto, el alto costo de la electricidad en ciertas regiones no atrae a los mineros a estas áreas. Los mineros tienden a gravitar hacia regiones con tarifas eléctricas bajas, a menudo en países emergentes o países con excedentes de energía.
+answer: La regulación y las tarifas eléctricas tienen una influencia significativa en la minería de Bitcoin. Los mineros están constantemente buscando electricidad a bajo costo para maximizar sus ganancias. Por lo tanto, el alto costo de la electricidad en ciertas regiones no atrae a los mineros a estas áreas. Los mineros tienden a gravitar hacia regiones con tarifas eléctricas bajas, a menudo en países emergentes o países con excedentes de energía.
 wrong_answers:
   - La regulación y las tarifas eléctricas influyen en la minería de Bitcoin al determinar el tipo de máquinas de minería que se pueden utilizar.
   - La regulación y las tarifas eléctricas influyen en la minería de Bitcoin al determinar el tipo de software de minería que se puede utilizar.
   - La regulación y las tarifas eléctricas influyen en la minería de Bitcoin al determinar el tamaño del grupo de minería que se puede formar.
 explanation: |
-  El capítulo explica que la regulación y las tarifas eléctricas tienen una influencia significativa en la minería de Bitcoin. Los mineros están constantemente buscando electricidad de bajo costo para maximizar sus ganancias y, por lo tanto, tienden a gravitar hacia regiones con tarifas eléctricas bajas.
-reviewed: false
+  El capítulo explica que la regulación y las tarifas
+  eléctricas tienen una influencia significativa en la minería de Bitcoin.
+  Los mineros están constantemente buscando electricidad a bajo costo para
+  maximizar sus ganancias, y por lo tanto, tienden a gravitar
+  hacia regiones con tarifas eléctricas bajas.
+reviewed: true

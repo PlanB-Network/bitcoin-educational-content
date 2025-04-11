@@ -1,0 +1,9 @@
+question: Miks ei kasutatud Bitcoinis elliptilist kõverat secp256r1?
+answer: Võimalik, et tagaukse vältimiseks
+wrong_answers:
+  - Kuna see on liiga aeglane
+  - Kuna see pole standardiseeritud
+  - Kuna see nõuab spetsialiseeritud riistvara
+explanation: |
+  Satoshi Nakamoto eelistas tõenäoliselt secp256k1 kõverat, kuna secp256r1 parameetrid võisid sisaldada peidetud haavatavust.
+reviewed: false

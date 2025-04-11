@@ -1,0 +1,9 @@
+question: Proč je při práci s bitcoiny v účetnictví společnosti nezbytné pečlivé vedení záznamů?
+answer: Protože každá transakce s bitcoiny může způsobit zdanitelnou událost a k výpočtu zisků, ztrát a daňových povinností je zapotřebí přesná evidence.
+wrong_answers:
+  - Protože blockchain automaticky podává daňové přiznání jménem společnosti.
+  - Protože na transakce s bitcoiny se vůbec nevztahují žádné účetní standardy.
+  - Protože jednou zaznamenané transakce s bitcoiny nelze vystopovat.
+explanation: |
+  Každý nákup, prodej nebo platba provedená v bitcoinech může mít daňové důsledky. Vedení podrobných záznamů o pořizovací ceně, prodejní ceně a načasování zajišťuje správné a vyhovující daňové výkaznictví.
+reviewed: false

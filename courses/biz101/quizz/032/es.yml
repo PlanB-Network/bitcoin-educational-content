@@ -1,0 +1,9 @@
+question: ¿Cuál es la ventaja de empezar poco a poco cuando se aceptan pagos con Bitcoin por primera vez?
+answer: Permite a la empresa aprender de unas pocas transacciones iniciales y pasar gradualmente a soluciones más sofisticadas si crece la demanda de los clientes.
+wrong_answers:
+  - Obliga a la empresa a utilizar inmediatamente sólo soluciones de autocustodia.
+  - Evita que la empresa tenga que actualizar o cambiar de proveedor más adelante.
+  - Requiere que una empresa acepte Bitcoin de cada cliente antes de entender el proceso.
+explanation: |
+  Empezar con un enfoque sencillo y de iniciación permite a la empresa adquirir experiencia práctica sin riesgos significativos. Si el interés por los pagos con Bitcoin resulta rentable, la empresa puede mejorar su infraestructura e integrar herramientas más avanzadas.
+reviewed: false

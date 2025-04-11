@@ -1,0 +1,9 @@
+question: How is a random string defined in this chapter?
+answer: As a string chosen uniformly from all strings of the same length
+wrong_answers:
+  - As a string created only with bits 0 and 1
+  - As a string obtained from a manual selection
+  - As a variable-length string resulting from an encryption process
+explanation: |
+  A random string is defined as being from a uniform selection among all possible strings of the same length.
+reviewed: false

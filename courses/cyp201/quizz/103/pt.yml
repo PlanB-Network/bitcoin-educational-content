@@ -1,9 +1,0 @@
-question: Qual é o papel da semente na organização hierárquica e derivação da carteira HD?
-answer: A semente desempenha um papel determinístico na derivação de todas as outras chaves.
-wrong_answers:
-  - A semente é usada para criptografar a carteira.
-  - A semente é usada para gerar o código de cadeia mestre.
-  - A semente é usada para recuperar a carteira.
-explanation: |
-  A semente, com um comprimento de 128 a 256 bits, é gerada aleatoriamente ou a partir de uma frase secreta. Ela desempenha um papel determinístico na derivação de todas as outras chaves na carteira HD.
-reviewed: false

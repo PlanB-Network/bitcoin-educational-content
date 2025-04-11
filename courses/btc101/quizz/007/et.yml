@@ -1,0 +1,11 @@
+question: Mis on selle Bitcoini kursuse peamine fookus?
+answer: Bitcoini rahalised aspektid.
+wrong_answers:
+  - Bitcoini kodeerimise aspektid.
+  - Bitcoini ökoloogiline mõju.
+  - Bitcoini regulatiivsed aspektid.
+explanation: |
+  See Bitcoini kursus keskendub Bitcoini rahalistele aspektidele, sealhulgas
+  kuidas bitcoine osta ja müüa, neid turvaliselt digitaalsetes rahakottides hoida ning
+  kasutada tehinguteks.
+reviewed: true

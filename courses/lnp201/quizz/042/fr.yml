@@ -1,9 +1,9 @@
-question: Pourquoi une fermeture forcée est-elle plus risquée en termes de frais et de validation possible par les mineurs ?
-answer: Parce que les frais ont été décidés lorsque la transaction a été créée dans le passé et que le réseau a changé depuis lors.
+question: Quel critère peut aider un nœud à choisir une route de paiement efficace ?
+answer: La probabilité de succès en fonction de la capacité totale des canaux
 wrong_answers:
-  - Parce que les frais sont toujours plus élevés lors d'une fermeture forcée.
-  - Parce que les mineurs sont moins susceptibles de valider une fermeture forcée.
-  - Parce que les frais sont imprévisibles lors d'une fermeture forcée.
+  - La distance géographique entre les nœuds
+  - La présence de nœuds avec un faible niveau de frais
+  - Le nombre de paiements effectués par le nœud cible
 explanation: |
-  Lors d'une fermeture forcée, les frais ont été décidés lorsque la transaction a été créée dans le passé. Le réseau a changé depuis lors, donc le protocole utilise par défaut des frais 5 fois plus élevés que ceux en vigueur au moment de la création de la transaction. Cela rend la fermeture forcée plus risquée en termes de frais et de validation possible par les mineurs.
+  La capacité totale des canaux peut indiquer une probabilité de succès plus élevée, car elle suggère une plus grande disponibilité de liquidités pour les transactions.
 reviewed: false

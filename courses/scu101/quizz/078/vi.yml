@@ -1,0 +1,9 @@
+question: Tiêu chí nào là quan trọng khi tạo một tài khoản email mới?
+answer: Sử dụng mật khẩu duy nhất và mạnh mẽ.
+wrong_answers:
+  - Tái sử dụng mật khẩu từ các tài khoản khác.
+  - Chọn mật khẩu đơn giản để dễ nhớ.
+  - Chọn mật khẩu có tên thú cưng.
+explanation: |
+  Mật khẩu duy nhất và mạnh mẽ là cần thiết để ngăn chặn hacker truy cập vào tài khoản email.
+reviewed: false

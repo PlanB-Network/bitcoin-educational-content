@@ -1,0 +1,8 @@
+question: Jenis likuiditas apa yang harus dikelola oleh penjual di Jaringan Lightning untuk menerima pembayaran?
+answer: Likuiditas masuk
+wrong_answers:
+  - Likuiditas keluar
+  - Kapasitas saluran total yang tinggi
+  - Saldo on-chain yang tinggi
+explanation: |
+  Untuk menerima pembayaran, penjual perlu memiliki likuiditas masuk, yang berarti dana harus tersedia di sisi berlawanan dari saluran agar mereka dapat menerima pembayaran.

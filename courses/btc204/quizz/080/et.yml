@@ -1,0 +1,13 @@
+question: Mis on coinjoin koordinaatori roll?
+
+answer: Ühendada osalejad ja koostada tehing.
+
+wrong_answers:
+  - Krüpteerida osalejate andmed tehingu konfidentsiaalsuse tagamiseks.
+  - Hoida eelnevate coinjoinide kirjet turvaauditite jaoks.
+  - Vastu võtta bitcoine osalejatelt nende segamiseks.
+
+explanation: |
+  Koordinaatorite roll on ühendada erinevad kasutajad ning seejärel koostada ja edastada koostööd nõudev tehing.
+
+reviewed: false

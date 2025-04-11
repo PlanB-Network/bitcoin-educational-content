@@ -1,0 +1,9 @@
+question: Comment un MAC permet-il à Alice de vérifier qu'un message provient bien de Bob ?
+answer: En vérifiant que le tag généré correspond à celui envoyé par Bob
+wrong_answers:
+  - En déchiffrant le message pour voir s'il est lisible
+  - En comparant la taille du message et celle du tag
+  - En vérifiant l'adresse IP de l'expéditeur
+explanation: |
+  Alice utilise la clé secrète partagée pour générer un tag à partir du message reçu. Si ce tag correspond à celui envoyé par Bob, elle sait que le message est authentique et intact.
+reviewed: false

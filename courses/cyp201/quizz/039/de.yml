@@ -1,9 +1,8 @@
-question: Worauf basiert die Sicherheit von öffentlichen und privaten Schlüsseln?
-answer: Das diskrete Logarithmusproblem
+question: Was ist die Hauptaufgabe eines Bitcoin-Wallets?
+answer: Verwalten und Sichern von privaten Schlüsseln
 wrong_answers:
-  - Das Primfaktorisierungsproblem
-  - Das Rucksackproblem
-  - Das Problem des Handlungsreisenden
+  - Die Bitcoins des Benutzers speichern
+  - Die Vertraulichkeit von Transaktionen automatisch gewährleisten
+  - Für jeden Benutzer Bitcoins generieren
 explanation: |
-  Die Sicherheit von öffentlichen und privaten Schlüsseln beruht auf dem diskreten Logarithmusproblem, einer komplexen mathematischen Fragestellung.
-reviewed: false
+  Ein Bitcoin-Wallet speichert nicht direkt Bitcoins, sondern verwaltet die privaten Schlüssel, die notwendig sind, um die UTXOs zu entsperren, die die Bitcoins repräsentieren.

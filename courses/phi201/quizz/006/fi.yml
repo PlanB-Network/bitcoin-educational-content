@@ -1,0 +1,9 @@
+question: Mikä on sortamisen lähde Bastiat'n mukaan?
+answer: Vallanhalu
+wrong_answers:
+  - Ihmisten luontainen pahuus
+  - Valtavallan puute
+  - Taloudelliset eriarvoisuudet
+explanation: |
+  Bastiat tunnistaa vallanhalun sortamisen perimmäiseksi lähteeksi, väittäen, että valtaa pitävät henkilöt usein pyrkivät laajentamaan sitä ja kontrolloimaan muita, mikä johtaa väärinkäytöksiin ja yksilön oikeuksien loukkauksiin.
+reviewed: false

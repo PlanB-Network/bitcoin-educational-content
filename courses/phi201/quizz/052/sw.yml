@@ -1,0 +1,9 @@
+question: Je, Mtakatifu Augustino alikuwa na msimamo gani kuhusu uhusiano kati ya nguvu za kiroho na nguvu za muda?
+answer: Nguvu za muda lazima ziwe chini ya nguvu za kiroho.
+wrong_answers:
+  - Nguvu za kiroho lazima ziwe chini ya nguvu za muda.
+  - Mamlaka haya mawili yanajitegemea na lazima yawe pamoja kwa amani.
+  - Nguvu za muda hazina uhalali na lazima zikomeshwe kwa ajili ya nguvu za kiroho.
+explanation: |
+  Mtakatifu Augustino alisema kwamba nguvu za muda lazima ziwe chini ya nguvu za kiroho kwa sababu madhumuni ya maisha ya mwanadamu ni ya kiroho na inapaswa kuongoza vitendo vya kisiasa kuwa sawa na maadili ya Kikristo.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Podle Bastiata, kdo zajišťuje obživu státu?
+answer: Jsou to občané, kdo zajišťují obživu státu
+wrong_answers:
+  - Jsou to občané, kteří žijí z prostředků státu
+  - Je to stát, který zajišťuje obživu národa
+  - Jsou to zájmové skupiny, které zajišťují obživu státu
+explanation: |
+  Bastiat tvrdí, že jsou to občané, kteří podporují stát prostřednictvím tvorby bohatství, a ne naopak.
+reviewed: false

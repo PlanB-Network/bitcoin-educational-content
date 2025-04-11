@@ -1,9 +1,9 @@
-question: Qual è il vantaggio nell'utilizzare HASH160 nel protocollo Bitcoin?
-answer: Consente di garantire la sicurezza di SHA-256 riducendo la dimensione dell'impronta digitale.
+question: Quale proprietà garantisce che sia computazionalmente impossibile recuperare l'input di un hash?
+answer: Resistenza alla pre-immagine
 wrong_answers:
-  - Aumenta la dimensione dell'impronta digitale per una maggiore sicurezza.
-  - È più resistente alle collisioni rispetto a SHA-256.
-  - È più veloce da calcolare rispetto a SHA-256.
+  - Resistenza alle collisioni
+  - Effetto valanga
+  - Resistenza alla seconda pre-immagine
 explanation: |
-  HASH160 nel protocollo Bitcoin è vantaggioso perché mantiene la sicurezza di SHA-256 riducendo la dimensione dell'impronta digitale. Ciò lo rende più efficiente senza compromettere la sicurezza.
+  La resistenza alla pre-immagine garantisce che sia praticamente impossibile trovare il messaggio originale a partire dal suo hash.
 reviewed: false

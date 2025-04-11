@@ -1,0 +1,9 @@
+question: Mis on majanduslik stiimul kasutada Bitcoin'i kaevurit lihtsa elektriküttekeha asemel?
+answer: Kaevur pakub mitte ainult soojust, vaid ka Bitcoin'i tasu.
+wrong_answers:
+  - Kaevur kasutab vähem elektrit kui lihtne elektriküttekeha.
+  - Kaevur toodab rohkem soojust kui lihtne elektriküttekeha.
+  - Kaevur on odavam kui lihtne elektriküttekeha.
+explanation: |
+  Erinevus kaevuri ja lihtsa elektriküttekeha kasutamise vahel seisneb selles, et kaevur pakub mitte ainult soojust, vaid ka Bitcoin'i tasu. See lisatasu võib aidata leevendada muret kaevurite kõrge energiatarbimise pärast.
+reviewed: true

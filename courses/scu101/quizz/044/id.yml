@@ -1,0 +1,13 @@
+question: Mengapa penting untuk secara bertahap mengganti password lama Anda dengan password yang dihasilkan oleh pengelola password?
+answer: Password yang dihasilkan oleh pengelola password lebih kuat dan lebih panjang, menawarkan lebih banyak keamanan.
+wrong_answers:
+  - Password lama secara otomatis dihapus oleh pengelola password.
+  - Pengelola password hanya dapat menyimpan jumlah password yang terbatas.
+  - Pengelola password memerlukan semua password untuk dihasilkan oleh mereka.
+explanation: |
+  Password yang dihasilkan oleh pengelola password lebih kuat dan lebih panjang, menawarkan
+
+  lebih banyak keamanan. Dengan secara bertahap mengganti password lama Anda dengan ini, Anda dapat meningkatkan
+
+  keamanan akun online Anda.
+reviewed: false

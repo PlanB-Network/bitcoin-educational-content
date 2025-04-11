@@ -1,0 +1,9 @@
+question: Как называлось первое кастодиальное приложение, позволявшее просто использовать Bitcoin на мобильных устройствах, созданное в апреле 2010 года?
+answer: MyBitcoin
+wrong_answers:
+  - Bitcoin Wallet
+  - BTC 2 PSC
+  - Privacy Shark
+explanation: |
+  Оно было [продвинуто](https: //bitcointalk.org/index.php?topic=30.msg1035#msg1035) на форуме 30 апреля 2010 года пользователем под именем komoto.
+reviewed: false

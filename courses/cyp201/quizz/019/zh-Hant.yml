@@ -1,0 +1,9 @@
+question: 什麼數學運算是橢圓曲線密碼術安全性的基礎？
+answer: 離散對數問題
+wrong_answers:
+  - 質數因式分解
+  - 二次殘差的計算
+  - 離散立方問題
+explanation: |
+  橢圓曲線加密技術的安全性是基於在這些曲線上解決離散對數問題的難度。
+reviewed: false

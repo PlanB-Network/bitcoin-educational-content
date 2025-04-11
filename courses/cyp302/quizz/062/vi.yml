@@ -1,0 +1,9 @@
+question: Loại mã hóa đối xứng nào chủ yếu được sử dụng cho các liên lạc liên tục, như luồng âm thanh hoặc video?
+answer: Mã hóa luồng
+wrong_answers:
+  - Mã hóa khối
+  - Mã xác minh
+  - Băm tin nhắn
+explanation: |
+  Mã hóa luồng đặc biệt phù hợp với các liên lạc liên tục vì nó mã hóa dữ liệu một cách liên tục, không giống như mã hóa khối, phân chia chúng thành các khối.
+reviewed: false

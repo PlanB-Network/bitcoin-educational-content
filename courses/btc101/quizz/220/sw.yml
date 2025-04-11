@@ -1,0 +1,11 @@
+question: Je, kozi hii inapendekeza nini kuhusu kasi ya kujifunza kuhusu Bitcoin?
+answer: Ni ngumu kuiga kila kitu mara moja, kwa hivyo chukua wakati wako.
+wrong_answers:
+  - Ni rahisi kujifunza kila kitu mara moja.
+  - Haiwezekani kujifunza kila kitu kuhusu Bitcoin.
+  - Sio lazima kujifunza kila kitu kuhusu Bitcoin.
+explanation: |
+  Kozi hiyo inapendekeza kwamba kuna mengi ya kuchunguza nayo
+  Bitcoin ambayo ni ngumu kuingiza kila kitu
+  mara moja, hivyo mtu anapaswa kuchukua muda wao.
+reviewed: true

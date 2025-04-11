@@ -1,0 +1,10 @@
+question: Mis on usaldusväärsete isikute roll teie pärandiplaanis?
+answer: Aidata teie peret siis, kui teid enam ei ole, pakkudes nõu võtmete ja rahakoti haldamise kohta, aitamaks mõista, kuidas turvaliselt taastada teie salajased fraasid (seemned), ning pakkudes kindlustunnet tehingu ajal.
+wrong_answers:
+  - Võtta teie krüptovarad pärast teie surma enda valdusse, hallata teie varasid ja jagada teie varasid teie pärijate vahel.
+  - Varastada teie krüptovarad enne, kui need antakse üle teie lähedastele, kompromiteerida teie tehinguid ja tekitada konflikte teie pärijate vahel.
+  - Eirata teie peret siis, kui teid enam ei ole, pakkuda eksitavat nõu võtmete ja rahakoti haldamise kohta ning tekitada segadust tehingu ajal.
+explanation: |
+  Usaldusväärsete isikute roll teie pärandiplaanis on aidata teie peret siis, kui teid enam ei ole. Nad pakuvad nõu võtmete ja rahakoti haldamise kohta,
+  aitavad mõista, kuidas turvaliselt taastada teie salajased fraasid (seemned), ning pakuvad kindlustunnet tehingu ajal.
+reviewed: false

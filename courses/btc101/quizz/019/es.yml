@@ -1,9 +1,12 @@
 question: ¿Cuáles son las tres funciones canónicas del dinero?
-answer: Reserva de valor, Medio de intercambio, Unidad de cuenta
+answer: Reserva de valor, Medio de intercambio, Unidad de cuenta.
 wrong_answers:
-  - Reserva de valor, Medio de intercambio, Medio de producción
-  - Reserva de valor, Medio de producción, Unidad de cuenta
-  - Medio de intercambio, Medio de producción, Unidad de cuenta
+  - Reserva de valor, Medio de intercambio, Medio de producción.
+  - Reserva de valor, Medio de producción, Unidad de cuenta.
+  - Medio de intercambio, Medio de producción, Unidad de cuenta.
 explanation: |
-  es una reserva de valor, un medio de intercambio y una unidad de cuenta. Aunque hoy en día se admite ampliamente que el medio de intercambio precede a las otras dos funciones.
-reviewed: false
+  Según Aristóteles, el dinero cumple tres funciones: es
+  una reserva de valor, un medio de intercambio y una unidad
+  de cuenta. Hoy en día, la función de medio de intercambio es
+  ampliamente reconocida como la principal, antes que las otras dos.
+reviewed: true

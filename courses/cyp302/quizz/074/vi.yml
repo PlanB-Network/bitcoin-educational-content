@@ -1,0 +1,9 @@
+question: Điều gì xảy ra nếu một khóa có giá trị là 7 được sử dụng để mã hóa từ CAT?
+answer: Từ đó trở thành JHA
+wrong_answers:
+  - Từ đó trở thành JBA
+  - Từ đó trở thành JHB
+  - Từ đó trở thành ZHA
+explanation: |
+  Với một khóa có giá trị là 7, mỗi chữ cái của từ CAT được dịch chuyển 7 vị trí trong bảng chữ cái, từ đó tạo ra từ mã hóa JHA.
+reviewed: false

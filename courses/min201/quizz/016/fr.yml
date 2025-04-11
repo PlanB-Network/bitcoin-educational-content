@@ -1,9 +1,13 @@
 question: Quel est le rôle des mineurs de Bitcoin dans le monde de l'énergie ?
-answer: Les mineurs de Bitcoin recherchent constamment des sources d'électricité bon marché, souvent celles qui sont gaspillées ou inexploitées. Ils peuvent agir comme une source de demande flexible, prêts à consommer cette électricité "orpheline", contribuant ainsi à compenser les coûts d'infrastructure.
+answer: Les mineurs de Bitcoin sont constamment à la recherche de sources d'électricité bon marché, souvent celles qui sont gaspillées ou inexploitées. Ils peuvent agir comme une source de demande flexible, prêts à consommer cette électricité orpheline, aidant ainsi à compenser les coûts d'infrastructure.
 wrong_answers:
-  - Les mineurs de Bitcoin recherchent constamment des sources d'énergie renouvelable pour réduire leur empreinte carbone.
-  - Les mineurs de Bitcoin recherchent constamment des sources d'énergie nucléaire pour alimenter leurs opérations minières.
-  - Les mineurs de Bitcoin recherchent constamment des sources d'énergie solaire pour alimenter leurs opérations minières.
+  - Les mineurs de Bitcoin sont constamment à la recherche de sources d'énergie renouvelable pour réduire leur empreinte carbone.
+  - Les mineurs de Bitcoin sont constamment à la recherche de sources d'énergie nucléaire pour alimenter leurs opérations de minage, puisque c'est la seule manière propre et renouvelable de produire de l'énergie.
+  - Les mineurs de Bitcoin sont constamment à la recherche de sources d'énergie solaire pour alimenter leurs opérations de minage.
 explanation: |
-  Le chapitre explique que les mineurs de Bitcoin recherchent constamment des sources d'électricité bon marché, souvent celles qui sont gaspillées ou inexploitées. Ils peuvent agir comme une source de demande flexible, prêts à consommer cette électricité "orpheline", contribuant ainsi à compenser les coûts d'infrastructure.
-reviewed: false
+  Le chapitre explique que les mineurs de Bitcoin sont constamment
+  à la recherche de sources d'électricité bon marché, souvent celles qui
+  sont gaspillées ou inexploitées. Ils peuvent agir comme une source de
+  demande flexible, prêts à consommer cette électricité orpheline, aidant
+  ainsi à compenser les coûts d'infrastructure.
+reviewed: true

@@ -1,10 +1,9 @@
-question: Jaký je status Bitcoinu v některých zemích?
-answer: Zakázán a kriminalizován
+question: Jaký je status Bitcoinu v Salvadoru?
+answer: Zákonné platidlo.
 wrong_answers:
-  - Plně přijat
-  - Částečně přijat
-  - Nerozřešen
-explanation: >-
-  Text uvádí, že některé země zakázaly a kriminalizovaly používání Bitcoinu, což přidává na složitosti přijetí Bitcoinu v závislosti na kulturách,
-  epochách a národech.
-reviewed: false
+  - Kriminalizováno.
+  - Neznámé.
+  - Neregulované.
+explanation: |
+  Text kurzu uvádí, že některé země zakázaly a kriminalizovaly používání Bitcoinu, což přidává na složitosti přijetí Bitcoinu v závislosti na kulturách, érách a národech. Salvador byl však dost odvážný, aby ho přijal jako zákonné platidlo.
+reviewed: true

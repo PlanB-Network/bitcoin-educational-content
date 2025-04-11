@@ -5,5 +5,7 @@ wrong_answers:
   - Abra todos os anexos de e-mail para verificar seu conteúdo.
   - Compartilhe suas informações pessoais apenas com remetentes conhecidos.
 explanation: |
-  A regra de ouro para se proteger de e-mails fraudulentos é verificar cuidadosamente o nome completo do remetente, bem como a origem do e-mail. Em caso de dúvida, exclua-o!
-reviewed: false
+  A regra de ouro para se proteger de e-mails fraudulentos
+  é verificar cuidadosamente o nome completo do remetente, bem
+  como a origem do e-mail. Em caso de dúvida, delete-o!
+reviewed: true

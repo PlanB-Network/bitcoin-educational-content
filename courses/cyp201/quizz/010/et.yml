@@ -1,0 +1,9 @@
+question: Millist tuletusalgoritmi kasutatakse autentimiskoodi arvutamiseks salajase võtme põhjal?
+answer: HMAC-SHA512
+wrong_answers:
+  - SHA512
+  - SHA256
+  - RIPEMD160
+explanation: |
+  HMAC-SHA512 on algoritm, mis ühendab räsifunktsiooni ja salajase võtme, et arvutada autentimiskood.
+reviewed: false

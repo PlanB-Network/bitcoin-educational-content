@@ -47,7 +47,7 @@ Seega peaks loogika olema järgmine, kasutades Samourai kulutamise tööriista:
 
 Kui soovite leida kaastöötajat, kes on valmis teid aitama Stonewall X2 tehingus, võite külastada ka seda Telegrami gruppi (mitteametlik), mida haldavad Samourai kasutajad saatjate ja kaastöötajate ühendamiseks: [Make Every Spend a Coinjoin](https://t.me/EverySpendACoinjoin).
 
-[**-> Uuri lähemalt Stonewall tehingute kohta**](https://planb.network/tutorials/privacy/stonewall)
+[**-> Uuri lähemalt Stonewall tehingute kohta**](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 ## Mis on Stonewall x2 tehingu eesmärk?
 
@@ -86,7 +86,7 @@ Klõpsake nupul 'JÄLGI'.
 ![follow paynym](assets/notext/11.webp)
 Kinnitage, klõpsates 'JAH'.
 ![confirm follow paynym](assets/notext/12.webp)
-Seejärel pakub tarkvara teile 'ÜHENDA' nuppu. Meie õpetuse jaoks ei ole vajalik seda nuppu klõpsata. See samm on vajalik ainult juhul, kui plaanite teha makseid teisele PayNym'ile osana [BIP47](https://planb.network/tutorials/privacy/paynym-bip47)-st, mis ei ole meie õpetusega seotud.
+Seejärel pakub tarkvara teile 'ÜHENDA' nuppu. Meie õpetuse jaoks ei ole vajalik seda nuppu klõpsata. See samm on vajalik ainult juhul, kui plaanite teha makseid teisele PayNym'ile osana [BIP47](https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093)-st, mis ei ole meie õpetusega seotud.
 ![connect paynym](assets/notext/13.webp)
 Kui teie PayNym jälgib teie koostööpartneri PayNym'i, korrake seda protsessi vastupidises suunas, et ka teie koostööpartner saaks teid jälgida. Seejärel saate teostada Stonewall x2 tehingu.
 
@@ -96,7 +96,7 @@ Kui kasutate Sparrow Wallet'i, avage oma rahakott ja pääsete juurde menüüle 
 ![request paynym sparrow](assets/notext/14.webp)
 Seejärel sisestage oma koostööpartneri PayNym'i identifikaator (kas nende hüüdnimi '+...' või nende maksekood 'PM...') lahtrisse 'Leia Kontakt' ja klõpsake nupul 'Lisa Kontakt'.
 ![add contact paynym](assets/notext/15.webp)
-Seejärel pakub tarkvara teile 'Link Kontakt' nuppu. Meie õpetuse jaoks ei ole vajalik seda nuppu klõpsata. See samm on vajalik ainult juhul, kui plaanite teha makseid näidatud PayNym'ile osana [BIP47](https://planb.network/tutorials/privacy/paynym-bip47)-st, mis ei ole meie õpetusega seotud.
+Seejärel pakub tarkvara teile 'Link Kontakt' nuppu. Meie õpetuse jaoks ei ole vajalik seda nuppu klõpsata. See samm on vajalik ainult juhul, kui plaanite teha makseid näidatud PayNym'ile osana [BIP47](https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093)-st, mis ei ole meie õpetusega seotud.
 
 Kui teie PayNym jälgib teie koostööpartneri PayNym'i, korrake seda protsessi vastupidises suunas, et ka teie koostööpartner saaks teid jälgida. Seejärel saate teostada Stonewall x2 tehingu.
 ## Kuidas teha Stonewall x2 tehingut Samourai Wallet'is?

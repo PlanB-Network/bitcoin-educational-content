@@ -1,0 +1,10 @@
+question: Apa peran perusahaan seperti OpenNode, Swiss Bitcoin Pay, dan BTCPay dalam ekosistem Bitcoin?
+answer: Mereka menyediakan alat yang memudahkan bisnis untuk menerima Bitcoin.
+wrong_answers:
+  - Mereka menambang Bitcoin.
+  - Mereka mengatur Bitcoin.
+  - Mereka menerbitkan Bitcoin.
+explanation: |
+  Perusahaan seperti OpenNode, Swiss Bitcoin Pay, dan BTCPay menyediakan alat
+  yang memudahkan bisnis untuk menerima Bitcoin, berkontribusi pada adopsinya
+  dan penggunaan dalam transaksi sehari-hari.

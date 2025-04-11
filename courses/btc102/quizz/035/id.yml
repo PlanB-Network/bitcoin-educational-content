@@ -1,0 +1,9 @@
+question: Siapa yang mendeskripsikan Bitcoin sebagai bank Swiss di saku Anda?
+answer: Barack Obama
+wrong_answers:
+  - Donald Trump
+  - Bill Gates
+  - Elon Musk
+explanation: |
+  Bab tersebut menyebutkan bahwa Barack Obama pernah mendeskripsikan Bitcoin sebagai bank Swiss di saku Anda.
+reviewed: false

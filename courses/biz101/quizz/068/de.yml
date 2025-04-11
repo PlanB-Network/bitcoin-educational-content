@@ -1,0 +1,9 @@
+question: Wie kann der BTC Pay Server in einer professionellen Umgebung eingesetzt werden?
+answer: Vor-Ort oder über Cloud-Hosting
+wrong_answers:
+  - Ausschließlich auf dedizierten Hardware-Appliances
+  - Durch einen vollständig ausgelagerten Drittanbieter-Service
+  - Als mobile Anwendung
+explanation: |
+  Die Flexibilität der Bereitstellung von BTC Pay Server vor Ort oder in der Cloud ermöglicht es Unternehmen, die Konfiguration zu wählen, die ihren betrieblichen Anforderungen am besten entspricht.
+reviewed: false

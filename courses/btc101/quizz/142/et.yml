@@ -1,0 +1,9 @@
+question: Mis on kärbitud sõlm Bitcoin'i kontekstis?
+answer: Sõlm, mis hoiab mälus ainult viimaseid N plokke
+wrong_answers:
+  - Sõlm, mis valideerib ainult tehinguid
+  - Sõlm, mis edastab informatsiooni ainult teistele sõlmedele
+  - Sõlm, mis jõustab ainult Bitcoin'i protokolli reegleid
+explanation: >-
+  Kärbitud sõlm Bitcoin'i kontekstis on sõlm, mis hoiab mälus ainult viimaseid N plokke.
+reviewed: false

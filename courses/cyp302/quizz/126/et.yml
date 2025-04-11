@@ -1,0 +1,9 @@
+question: Mida võimaldab Diffie-Hellmani võtmevahetusprotokoll?
+answer: See võimaldab kahel osapoolel luua ühise salajase võtme, jagades avalikku teavet.
+wrong_answers:
+  - See võimaldab isiklikku salajase võtme vahetust iga sessiooni jaoks.
+  - See võimaldab avaliku võtme kasutamist krüpteerimiseks ja privaatvõtme kasutamist dekrüpteerimiseks.
+  - See võimaldab elektroonilise valuuta vahetust.
+explanation: |
+  Diffie-Hellmani protokoll võimaldab kahel osapoolel avalikult jagada teavet, tagades samal ajal, et ainult nemad saavad genereerida ühise võtme oma tulevaste vahetuste turvamiseks.
+reviewed: false

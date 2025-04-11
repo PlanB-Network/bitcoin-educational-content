@@ -1,0 +1,9 @@
+question: Quelle attitude les utilisateurs devraient-ils adopter quant à la confidentialité de leurs communications dans l'environnement moderne ?
+answer: Supposer que quelqu'un écoute toujours
+wrong_answers:
+  - Compter uniquement sur le Wi-Fi
+  - Croire que les données mobiles sont totalement sécurisées
+  - Utiliser uniquement des connexions par cable
+explanation: |
+  Dans un monde où de nombreux canaux de communication sont accessibles à l'interception, il est prudent de supposer qu'un tiers pourrait écouter, rendant la cryptographie indispensable.
+reviewed: false

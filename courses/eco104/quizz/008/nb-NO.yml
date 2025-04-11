@@ -1,0 +1,12 @@
+question: Hvordan blir nye bitcoin skapt og introdusert i sirkulasjon?
+answer: Gjennom gruvedrift som belønning for å legge til nye transaksjoner i blokkjeden
+wrong_answers:
+  - Gjennom utstedelse fra en sentralisert autoritet
+  - Ved å kjøpe dem fra Bitcoin-børser
+  - Ved å motta dem som transaksjonsgebyrer
+explanation: |
+  Nye bitcoin blir introdusert i sirkulasjon gjennom en prosess kalt gruvedrift.
+  Gravere konkurrerer med hverandre for å legge til nye transaksjoner i blokkjeden.
+  Som belønning for deres arbeid, blir graverne belønnet med nyopprettede bitcoin.
+  Denne prosessen verifiserer også og sikrer transaksjoner på Bitcoin-nettverket.
+reviewed: true

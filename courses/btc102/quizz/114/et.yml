@@ -1,0 +1,10 @@
+question: Mis on pärandiplaani eesmärk Bitcoinis?
+answer: Tagada, et teie lähedased saaksid pärast teie surma ligipääsu teie Bitcoinidele.
+wrong_answers:
+  - Kaevandada uusi Bitcoine.
+  - Kaubelda Bitcoinidega.
+  - Muuta Bitcoine teisteks krüptorahadeks.
+explanation: |
+  Pärandiplaan Bitcoinis on plaan, mis tagab, et teie lähedased saavad pärast teie surma ligipääsu teie Bitcoinidele. Seda ei kasutata uute Bitcoinide kaevandamiseks,
+  Bitcoinidega kauplemiseks või Bitcoinide teisteks krüptorahadeks muutmiseks.
+reviewed: false

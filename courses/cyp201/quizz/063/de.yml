@@ -1,9 +1,9 @@
-question: Was ist die Bedeutung der Sicherheit des privaten Schlüssels im Bitcoin-Ökosystem?
-answer: Es gewährleistet die Sicherheit von Bitcoin-Transaktionen.
+question: Welche Information ist in einem erweiterten Schlüssel nicht enthalten?
+answer: Die Transaktionshistorie des Schlüssels
 wrong_answers:
-  - Es gewährleistet die Geschwindigkeit von Bitcoin-Transaktionen.
-  - Es gewährleistet die Anonymität von Bitcoin-Transaktionen.
-  - Es gewährleistet die Rechtmäßigkeit von Bitcoin-Transaktionen.
+  - Die Indexnummer des Schlüssels
+  - Der Schlüssel (privat oder öffentlich)
+  - Der Ketten-Code
 explanation: |
-  Private Schlüssel sind der Grundpfeiler, der die Sicherheit von Bitcoin-Transaktionen gewährleistet. Sie müssen auf wirklich zufällige Weise generiert werden, um jegliche Verwundbarkeit aufgrund von Vorhersagbarkeit zu vermeiden.
+  Ein erweiterter Schlüssel enthält nur die Informationen, die notwendig sind, um Kinderschlüssel abzuleiten, nicht jedoch Informationen, die sich auf Transaktionen beziehen.
 reviewed: false

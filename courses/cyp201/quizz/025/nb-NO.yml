@@ -1,0 +1,9 @@
+question: Hvilken egenskap ved Schnorr gjør det mulig å kombinere flere offentlige nøkler til én?
+answer: Nøkkelaggregering
+wrong_answers:
+  - Gruppeverifisering
+  - Formbarhet
+  - Signaturkompaktering
+explanation: |
+  Schnorr tillater aggregering av flere offentlige nøkler til en enkelt nøkkel.
+reviewed: false

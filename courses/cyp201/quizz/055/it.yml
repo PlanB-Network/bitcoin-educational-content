@@ -1,9 +1,9 @@
-question: Qual è il nome volgare talvolta usato per riferirsi alla raccolta di chiavi private in un portafoglio Bitcoin?
-answer: Just a Bunch Of Keys (JBOC)
+question: In quante parti viene diviso l'output della funzione HMAC-SHA512 applicata al seed?
+answer: Due parti di 256 bit
 wrong_answers:
-  - Just a Bunch Of Coins (JBOC)
-  - Just a Bunch Of Cryptos (JBOC)
-  - Just a Bunch Of Codes (JBOC)
+  - Una singola parte di 512 bit
+  - Tre parti di 170 bit
+  - Quattro parti di 128 bit
 explanation: |
-  La raccolta di chiavi crittografiche private derivate da una singola chiave maestra in un portafoglio Bitcoin viene talvolta indicata con il nome leggermente volgare di "Just a Bunch Of Keys" (JBOC).
+  L'output di HMAC-SHA512 è diviso in due parti: la chiave privata principale (256 bit) e il codice catena principale (256 bit).
 reviewed: false

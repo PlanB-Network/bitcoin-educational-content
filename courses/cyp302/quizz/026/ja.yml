@@ -1,0 +1,9 @@
+question: XORとモジュロ演算の等価性は何ですか？
+answer: XORはビット上のモジュロ2演算と等価です
+wrong_answers:
+  - XORは、古典的な減算モジュロ3と等価です
+  - XORはビット上のモジュロ7演算と等価です
+  - XORは加算の逆です
+explanation: |
+  XOR演算はビットの加算として見ることができ、モジュロ2を用いることで結果が同一になります。
+reviewed: false

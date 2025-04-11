@@ -1,0 +1,9 @@
+question: Pourquoi est-il recommandé d'utiliser des mots de passe générés aléatoirement ?
+answer: Pour résister aux attaques par force brute.
+wrong_answers:
+  - Pour faciliter leur mémorisation.
+  - Pour réduire leur complexité.
+  - Pour résister aux attaques Sybil.
+explanation: |
+  L'aléatoire rend les mots de passe plus difficiles à deviner par tâtonnement et renforce donc leur sécurité face aux attaques par force brute.
+reviewed: false

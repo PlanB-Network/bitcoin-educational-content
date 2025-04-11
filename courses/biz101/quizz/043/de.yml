@@ -1,0 +1,9 @@
+question: Was können Sie mit Bitcoin ohne Zwischenhändler tun?
+answer: Tauschwert im Internet
+wrong_answers:
+  - Zentralisierte Anwendungen erstellen
+  - Aufnahme von Bankkrediten
+  - Persönliche Daten speichern
+explanation: |
+  Bitcoin ermöglicht durch sein Peer-to-Peer-Protokoll den Austausch von Werten über das Internet ohne Zwischenhändler.
+reviewed: false

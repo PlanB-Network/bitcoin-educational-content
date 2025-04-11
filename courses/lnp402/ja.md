@@ -22,16 +22,16 @@ SDKを使ったLNの旅へようこそ。
 # 導入
 <partId>594ab43f-7216-5326-ab41-f92b85be4581</partId>
 
-## コースカリキュラム＆導入
+## コース概要
 <chapterId>36526df2-66a2-58df-8f38-378fb553f08c</chapterId>
 
-### 導入
+**導入**
 
 SDKに関するこの上級プログラミングコースへようこそ。このトレーニングでは、まずRustの基本を学び、次にBTC＆Rustに焦点を当て、最後にSDKを使用した実践的な演習で締めくくります。
 
 このトレーニングは現在英語のみで提供され、昨年10月にトスカーナでFulgure Ventureによって開催されたライブセミナーの一部でした。LIVEイベントのプログラムは以下にあり、このトレーニングは最初の週のみに焦点を当てます。後半はRGBを対象としており、RGBコースで見ることができます。
 
-### 講師
+**講師**
 
 このプログラムの一部であった講師の皆さんに多大な感謝を:
 
@@ -40,7 +40,7 @@ SDKに関するこの上級プログラミングコースへようこそ。こ�
 - Gabriel : "コードを書いて色々やっています。"
 - Jesse de wit : "Lightning networkの熱狂者 | 開発者 | Breez"
 
-### セミナースケジュール
+**セミナースケジュール**
 
 LNトスカーナイベントの第1週
 ![image](assets/1.webp)
@@ -48,14 +48,25 @@ LNトスカーナイベントの第1週
 このコースを終えたら、フォローアップトレーニングに興味がある場合は、スケジュールの第2部をこちらでご覧ください:
 ![image](assets/2.webp)
 
-勉強頑張ってください。
 
+このトレーニングは、RustとさまざまなSDKを使用してLightning Networkでのプログラミングスキルを向上させる機会を提供します。すでにプログラミングに精通している開発者向けに設計されており、Lightning Networkに特化した開発に取り組みたい人に最適です。Rust言語の基礎、なぜBitcoin開発に適しているのかを学び、その後、専用のSDKを使用した実践的なアプローチに進みます。
+
+**セクション 2：Rustでのコーディングを学ぶ**  
+このセクションでは、連続した章を通じてRustの基礎を学びます。Rustでコードを書く方法、その特性を理解し、7つの詳細なパートで重要な機能を習得します。このモジュールは、なぜRustがBitcoin開発に適した言語であるかを理解するために重要です。
+
+**セクション 3：Rust & Bitcoin**  
+ここでは、RustがBitcoin開発に適した選択肢である理由を詳しく探ります。エラーモデル、UniFFIツール、非同期トレイトといった要素を学び、堅牢で安全なソフトウェア構築に必要なポイントを理解します。
+
+**セクション 4：SDKを使ったLNP/BP開発**  
+ここでは、Breez SDKやLipa用のGreenlightなどのさまざまなSDKを使用してLNノードを開発する方法を学びます。BitcoinおよびLightningのアプリケーション開発を容易にするために設計されたライブラリを使用して、Lightning Networkアプリケーションを実装する方法を見ていきます。
+
+Rustを使用してLightning Networkスキルを向上させる準備はできましたか？さあ、始めましょう！
 # Rust bookでコードを学ぶ
 <partId>152b58c9-fb33-5d3b-9c15-64919869aa34</partId>
 
 ## Rustへの導入 (1/7)
 <chapterId>af7108eb-4974-5ac2-9784-d2a5c0d77a45</chapterId>
-<professor>radio-talent</professor>
+<professorId>e7e63d59-ea19-4960-9446-61bd4dcc98f0</professorId>
 
 ![video](https://www.youtube.com/watch?v=aZYhDXE_Gas)
 
@@ -133,21 +144,15 @@ LNトスカーナイベントの第1週
 
 ![ビデオ](https://youtu.be/6VaIVvBKjLY)
 
-# 結論
+# まとめ
 <partId>aff1e861-e6a3-58ad-af6a-33ceaedbda99</partId>
 
 
 
-## このコースについてのフィードバックをお寄せください
+## レビュー & 評価
 <chapterId>9331e519-9e5c-5639-9d0d-055587d8ba4c</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## 締めの言葉
+## まとめ
 <chapterId>d47b792e-d269-595b-9290-4788aba6e298</chapterId>
-
-このコースに参加していただきありがとうございます！楽しんでいただけたことを願っています。
-
-このセミナーからさらに学びたい場合は、このプラットフォームで利用可能なRGBコースに参加することをお勧めします。
-
-また、他のコースをチェックして、数多くのリソースから学習を続けることもできます。
-このコースを提供してくれたFulgur Ventureと、参加してくれた講師の皆さんに大きな感謝を申し上げます。
+<isCourseConclusion>true</isCourseConclusion>

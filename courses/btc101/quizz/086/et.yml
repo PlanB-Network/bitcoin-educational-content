@@ -1,0 +1,11 @@
+question: Mis on külm rahakott?
+answer: Füüsiline rahakott, kus sinu võtmed on salvestatud seadmesse, mis ei ole ühendatud internetiga
+wrong_answers:
+  - Rahakott, mis on füüsiliselt külm puudutada
+  - Rahakott, mis ei ole populaarne Bitcoin'i kasutajate seas
+  - Rahakott, mida soovitatakse väikeste koguste bitcoinide hoidmiseks
+explanation: |
+  Külm rahakott on termin, mida kasutatakse Bitcoin'i rahakoti kirjeldamiseks, mis on salvestatud
+  seadmesse, mis ei ole ühendatud internetiga. See teeb selle vähem haavatavaks
+  online-ohtudele, kuid see tähendab ka, et rahakott on igapäevasteks tehinguteks vähem kättesaadav.
+reviewed: true

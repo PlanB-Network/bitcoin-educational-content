@@ -1,0 +1,8 @@
+question: 2010年10月にマイナーのm0mchilによって設計された、クライアントノードが候補ブロックを取得し、解決策が見つかった場合に作業証明を返すことを可能にした関数は何ですか？
+answer: getwork
+wrong_answers:
+  - stratum
+  - gethash
+  - getcredit
+explanation: |
+  この関数は10月1日に公開されました。サトシはこの関数の修正版を11月23日にメインソフトウェアに組み込みました。

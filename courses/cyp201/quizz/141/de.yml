@@ -1,9 +1,0 @@
-question: Was ist ein erweiterter Schlüssel in einer HD-Wallet?
-answer: Er wird erhalten, indem ein Elternschlüssel mit seinem Kettencode verkettet wird.
-wrong_answers:
-  - Er ist das höchste Element in der HD-Wallet-Hierarchie.
-  - Er wird verwendet, um den Seed der Wallet zu generieren.
-  - Er wird verwendet, um die Prüfsumme zu berechnen.
-explanation: |
-  Die Ableitung eines Kindschlüssels hängt von mehreren Faktoren ab, einschließlich des Elternschlüssels und des entsprechenden Kettencodes. Ein erweiterter Schlüssel wird erhalten, indem ein Elternschlüssel mit seinem Kettencode verkettet wird.
-reviewed: false

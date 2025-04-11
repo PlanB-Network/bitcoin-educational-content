@@ -1,0 +1,9 @@
+question: Milline on AluVMi peamine roll RGB-protokollis?
+answer: Skriptide ja lepinguoperatsioonide täitmine virtuaalmasinate keskkonnas
+wrong_answers:
+  - Analüüsida Bitcoini tehinguid virtuaalmasina keskkonnas
+  - RGB kasutajate avalike võtmete genereerimine virtuaalmasinate keskkonnas
+  - Avaliku plokiahela valideerimise optimeerimine virtuaalmasina keskkonnas
+explanation: |
+  AluVM on mõeldud nutikate lepingute valideerimiseks ja hajutatud arvutamiseks RGB raamistikus.
+reviewed: false

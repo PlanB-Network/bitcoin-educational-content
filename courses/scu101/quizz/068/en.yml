@@ -5,7 +5,8 @@ wrong_answers:
   - Slow internet speed.
   - Outdated hardware.
 explanation: |
-  Security vulnerabilities are often the result of human negligence, such
-  as using default passwords or writing down passwords in insecure places. Sophisticated
-  attacks are not always necessary to jeopardize computer security.
-reviewed: false
+  Security vulnerabilities are often the result of human
+  negligence, such as using default passwords or writing down
+  passwords in insecure places. Sophisticated attacks are not
+  always necessary to jeopardize computer security.
+reviewed: true

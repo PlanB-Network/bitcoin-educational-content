@@ -1,9 +1,9 @@
-question: Was passiert mit den Geldern bei einer Lightning Network-Übertragung?
-answer: Die Gelder bewegen sich nie, aber der endgültige Saldo wird aktualisiert.
+question: Welche Methode zum Schließen eines Kanals ist die wirtschaftlichste und schnellste?
+answer: Kooperativer Abschluss
 wrong_answers:
-  - Die Gelder werden von einer Seite zur anderen übertragen.
-  - Die Gelder werden gesperrt, bis der Kanal geschlossen ist.
-  - Die Gelder werden an das Bitcoin-Netzwerk gesendet.
+  - Erzwungener Abschluss
+  - Abschluss mit Betrug
+  - Keine ist wirtschaftlicher und schneller
 explanation: |
-  Bei einer Lightning Network-Übertragung bewegen sich die Gelder nie. Stattdessen wird der endgültige Saldo über eine signierte, aber nicht veröffentlichte On-Chain-Transaktion aktualisiert.
+  Der kooperative Abschluss ist die schnellste und wirtschaftlichste Methode, da beide Parteien zustimmen, den Kanal zu schließen, wobei die Gebühren entsprechend den Marktbedingungen angepasst werden.
 reviewed: false

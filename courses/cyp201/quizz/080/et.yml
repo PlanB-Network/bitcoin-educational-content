@@ -1,0 +1,9 @@
+question: Millist kodeeringut kasutatakse SegWit v0 aadresside esitamiseks?
+answer: bech32
+wrong_answers:
+  - base58check
+  - bech32m
+  - base64
+explanation: |
+  SegWit v0 aadressid, nagu need P2WPKH ja P2WSH jaoks, kasutavad SegWit'iga tutvustatud bech32 kodeeringut.
+reviewed: false

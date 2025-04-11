@@ -1,0 +1,13 @@
+question: Điểm Boltzmann thể hiện điều gì trong bối cảnh của các giao dịch Bitcoin?
+
+answer: Xác suất có điều kiện rằng một đầu vào được liên kết với một đầu ra nhất định.
+
+wrong_answers:
+  - Tổng số lượng bitcoin được chuyển giao.
+  - Số lượng đầu vào trong một giao dịch.
+  - Độ entropy liên quan đến mỗi đầu vào hoặc đầu ra.
+
+explanation: |
+  Điểm Boltzmann chỉ ra xác suất có điều kiện rằng một đầu vào cụ thể được liên kết với một đầu ra nhất định. Do đó, nó là một thước đo định lượng về xác suất có điều kiện mà một sự kết hợp giữa một đầu vào và một đầu ra trong một giao dịch xảy ra, dựa trên tỷ lệ số lần xuất hiện thuận lợi của sự kiện này so với tổng số lần xuất hiện có thể, trong một tập hợp các giải thích.
+
+reviewed: false

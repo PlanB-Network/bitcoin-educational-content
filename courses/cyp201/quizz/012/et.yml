@@ -1,0 +1,9 @@
+question: Millist ploki suurust kasutab SHA512 HMAC-is?
+answer: 128 baiti
+wrong_answers:
+  - 64 baiti
+  - 256 baiti
+  - 1024 baiti
+explanation: |
+  SHA512 kasutab oma arvutustes 128-baidiseid plokke, mis on võrdne 1024 bitiga.
+reviewed: false

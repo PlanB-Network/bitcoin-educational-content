@@ -1,9 +1,14 @@
 question: O que é navegação privada?
-answer: Uma funcionalidade que impede que os navegadores de internet armazenem o histórico de navegação, arquivos temporários da internet, dados de formulários, cookies e nomes de usuário e senhas.
+answer: Uma funcionalidade que impede os navegadores de internet de armazenar o histórico de navegação, arquivos temporários da internet, dados de formulários, cookies e nomes de usuário e senhas.
 wrong_answers:
-  - Uma funcionalidade que oculta sua atividade online do seu provedor de serviços de internet.
-  - Uma funcionalidade que permite que você navegue na internet anonimamente.
+  - Uma funcionalidade que esconde sua atividade online do seu provedor de serviços de internet.
+  - Uma funcionalidade que permite navegar na internet anonimamente.
   - Uma funcionalidade que protege seu dispositivo contra vírus e outros softwares maliciosos.
 explanation: |
-  A navegação privada é uma funcionalidade que impede que os navegadores de internet armazenem o histórico de navegação, arquivos temporários da internet, dados de formulários, cookies e nomes de usuário e senhas. No entanto, ela não oculta sua atividade online do seu provedor de serviços de internet nem permite que você navegue na internet anonimamente.
-reviewed: false
+  A navegação privada é uma funcionalidade que impede os
+  navegadores de internet de armazenar o histórico de navegação,
+  arquivos temporários da internet, dados de formulários, cookies
+  e nomes de usuário e senhas. No entanto, ela não esconde sua
+  atividade online do seu provedor de serviços de internet nem
+  permite que você navegue na internet anonimamente.
+reviewed: true

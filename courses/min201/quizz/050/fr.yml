@@ -1,9 +1,11 @@
-question: Quel est le principal défi associé à l'extraction de Bitcoin?
+question: Quel est le principal défi associé à l'exploitation minière de Bitcoin ?
 answer: L'industrie minière est extrêmement compétitive et volatile, et des incidents imprévus peuvent perturber les opérations minières.
 wrong_answers:
   - Le principal défi est de trouver une source fiable d'électricité.
-  - Le principal défi est de trouver un endroit sûr pour stocker les bitcoins extraits.
-  - Le principal défi est de trouver un acheteur pour les bitcoins extraits.
+  - Le principal défi est de trouver un endroit sûr pour stocker les bitcoins minés.
+  - Le principal défi est de trouver un acheteur pour les bitcoins minés.
 explanation: |
-  Le principal défi associé à l'extraction de Bitcoin est que l'industrie minière est extrêmement compétitive et volatile, et des incidents imprévus peuvent perturber les opérations minières.
-reviewed: false
+  Le principal défi associé à l'exploitation minière de Bitcoin est que
+  l'industrie minière est extrêmement compétitive et volatile,
+  et des incidents imprévus peuvent perturber les opérations minières.
+reviewed: true

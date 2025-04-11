@@ -1,12 +1,9 @@
-question: What is the smallest unit of Bitcoin?
-answer: Satoshi
+question: What is the starting point for calculating an ECDSA signature?
+answer: The message hash
 wrong_answers:
-  - Bit
-  - Byte
-  - Coin
+  - The public key
+  - A fixed nonce
+  - A custom elliptical curve
 explanation: |
-  In the Bitcoin system, the unit of account is the bitcoin (note the
-  lowercase
-  "b"). It is divisible up to eight decimal places, with the smallest unit being the
-  satoshi.
+  An ECDSA signature starts with calculating the hash of the message to be signed, often with SHA256.
 reviewed: false

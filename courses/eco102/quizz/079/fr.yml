@@ -1,0 +1,9 @@
+question: Selon Bastiat, quel danger représente l'intervention excessive de l'État pour la société ?
+answer: Elle détruit la responsabilité individuelle et limite l'initiative privée
+wrong_answers:
+  - Elle favorise la croissance économique et l'innovation
+  - Elle garantit l'égalité des opportunités pour tous
+  - Elle protège les individus des conséquences de leurs actes
+explanation: |
+  Pour Bastiat, l'intervention excessive de l'État réduit l'autonomie des individus et entrave leur capacité à prendre des initiatives, affaiblissant ainsi la responsabilité individuelle et la créativité.
+reviewed: false

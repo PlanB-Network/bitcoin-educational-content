@@ -1,0 +1,8 @@
+question: Apa tujuan utama dari kriptografi klasik yang masih ada dalam kriptografi modern?
+answer: Kerahasiaan pesan
+wrong_answers:
+  - Penyederhanaan pesan
+  - Pengulangan pesan
+  - Otomatisasi pengiriman pesan
+explanation: |
+  Kriptografi klasik terutama berfokus pada kerahasiaan, dan tujuan ini tetap penting dalam kriptografi modern, meskipun tema lain, seperti integritas dan keaslian, telah ditambahkan.

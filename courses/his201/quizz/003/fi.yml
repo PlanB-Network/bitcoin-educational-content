@@ -1,0 +1,8 @@
+question: Mikä oli David Chaumin yrityksen nimi, jonka kautta hän toteutti digitaalisen valuuttansa konseptin?
+answer: DigiCash B.V.
+wrong_answers:
+  - eCash Ltd.
+  - CyberCash Inc.
+  - First Virtual Holdings Inc.
+explanation: |
+  Perustettu vuonna 1990, DigiCash B.V. sijaitsi Amsterdamissa, Alankomaissa, ja sillä oli patentit David Chaumin keksinnölle, eCashille.

@@ -1,0 +1,9 @@
+question: Apa konsekuensi dari kehilangan simpanan dalam protokol RGB?
+answer: Riwayat kontrak dan data terkait menjadi tidak dapat diperbaiki
+wrong_answers:
+  - Data dapat direkonstruksi dari blockchain jika Anda memiliki seed
+  - Salinan data tersedia di server RGB di Swiss
+  - Data secara otomatis direplikasi untuk semua peserta
+explanation: |
+  Dalam validasi sisi klien, setiap pengguna bertanggung jawab atas simpanannya, yang tidak direplikasi di tempat lain, membuat kehilangannya pasti.
+reviewed: false

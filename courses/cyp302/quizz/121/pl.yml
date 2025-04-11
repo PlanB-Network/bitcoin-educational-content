@@ -1,0 +1,9 @@
+question: Jaki jest kluczowy problem związany z zarządzaniem?
+answer: Złożoność zabezpieczania i przechowywania pary kluczy dla każdego klienta
+wrong_answers:
+  - Brak możliwości odnowienia kluczy utraconych przez klientów
+  - Konieczność odszyfrowania każdego klucza przed użyciem przez klienta
+  - Konieczność przesyłania kluczy dla każdej komunikacji
+explanation: |
+  Problem zarządzania kluczami polega na trudności w przechowywaniu i zabezpieczaniu pary kluczy dla każdego użytkownika, zwłaszcza gdy liczba klientów sięga milionów.
+reviewed: false

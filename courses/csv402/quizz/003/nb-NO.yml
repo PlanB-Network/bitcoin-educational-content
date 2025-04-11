@@ -1,0 +1,9 @@
+question: Hva er konsekvensen av å miste lageret i RGB-protokollen?
+answer: Kontraktshistorikk og tilhørende data blir ugjenkallelige
+wrong_answers:
+  - Data kan rekonstrueres fra blokkjeden hvis du har frøet
+  - En kopi av dataene er tilgjengelig på RGBs servere i Sveits
+  - Data replikeres automatisk for alle deltakere
+explanation: |
+  Ved validering på klientsiden er hver enkelt bruker ansvarlig for sin egen stash, som ikke replikeres andre steder, noe som gjør tapet definitivt.
+reviewed: false

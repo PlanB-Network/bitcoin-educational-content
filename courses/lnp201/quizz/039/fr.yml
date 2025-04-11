@@ -1,9 +1,9 @@
-question: Ce qui se passe pendant une transaction
-answer: Le secret de la transaction
+question: Que se passe-t-il si un canal contenant un HTLC actif est fermé de manière forcée ?
+answer: L'HTLC est inclus dans les transactions d'engagement comme output
 wrong_answers:
-  - Le secret de la transaction
-  - Un nouveau secret est décidé et une nouvelle clé de révocation est créée.
-  - La transaction de commitment précédente est mise à jour avec le nouveau secret et la clé de révocation.
+  - L'HTLC est annulé automatiquement
+  - Les fonds sont redistribués aux nœuds précédents
+  - Le canal ne peut pas être fermé tant que le HTLC n'a pas expiré
 explanation: |
-  Pendant la transaction
+  Lors d'une fermeture forcée, les HTLC en attente sont représentés comme outputs dans les transactions d'engagement, assurant ainsi leur exécution ou leur retour selon les conditions définies.
 reviewed: false

@@ -1,0 +1,8 @@
+question: Mille lühend on UTXO inglise keeles?
+answer: Kasutamata Tehingu Väljund
+wrong_answers:
+  - Ühtlustatud Tehingu Väljund
+  - Kasutaja Tehingu Ainult
+  - Utiliidi Tokeni Vahetuse Valik
+explanation: |
+  UTXO on tehingu väljund, mida ei ole veel ära kasutatud.

@@ -1,11 +1,15 @@
-question: Sự khác biệt chính giữa quan điểm của kinh tế Keynes và kinh tế Áo đối với hệ thống tiền tệ là gì?
-answer: Kinh tế Keynes không tính đến các khía cạnh thời gian và động của tình huống và nguồn lực
+question: Sự khác biệt chính giữa kinh tế Keynes và kinh tế Áo về hệ thống tiền tệ là gì?
+
+answer: Kinh tế Keynes không tính đến các khía cạnh thời gian và động của tình huống và nguồn lực.
+
 wrong_answers:
-  - Kinh tế Keynes thúc đẩy việc tiêu dùng quá mức và nợ nần
-  - Kinh tế Keynes không phản ánh sự khan hiếm của nguồn lực
-  - Kinh tế Keynes khuyến khích lạm phát
+  - Kinh tế Keynes thúc đẩy việc tiêu thụ quá mức các loại tiền tệ.
+  - Kinh tế Keynes nhận thức được sự khan hiếm của tình huống và nguồn lực.
+  - Kinh tế Keynes khuyến khích lạm phát.
+
 explanation: >-
-  Sự khác biệt chính giữa quan điểm của kinh tế Keynes và kinh tế Áo đối với hệ thống tiền tệ là kinh tế Keynes không
-  tính đến các khía cạnh thời gian và động của tình huống và nguồn lực. Nói cách khác, một đồng tiền không giới hạn không thể
+  Sự khác biệt chính giữa ý tưởng của kinh tế Keynes và kinh tế Áo liên quan đến hệ thống tiền tệ là kinh tế Keynes không
+  tính đến các khía cạnh thời gian và động của tình huống và nguồn lực. Nói cách khác, một loại tiền tệ không giới hạn không thể
   phản ánh một cách hiệu quả nguồn lực hạn chế của hành tinh chúng ta.
-reviewed: false
+
+reviewed: true

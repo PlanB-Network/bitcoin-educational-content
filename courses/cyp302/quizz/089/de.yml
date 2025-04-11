@@ -1,0 +1,9 @@
+question: Was ist die Bedeutung der Verwendung eines zufälligen Nonce in den CBC- und OFB-Methoden?
+answer: Es stellt sicher, dass jede Verschlüsselungssitzung einzigartig ist, selbst bei identischen Daten.
+wrong_answers:
+  - Es reduziert die Schlüssellänge während des Verschlüsselungsprozesses.
+  - Es macht die Verschlüsselung schneller.
+  - Es macht den Code des Algorithmus für Menschen schöner.
+explanation: |
+  Durch die Verwendung eines zufälligen Nonce für jede Sitzung stellen die CBC- und OFB-Methoden sicher, dass jede Verschlüsselung einzigartig ist, was Angriffe verhindert, die identische Daten ausnutzen.
+reviewed: false

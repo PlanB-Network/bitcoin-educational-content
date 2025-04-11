@@ -1,12 +1,9 @@
-question: What is the significance of the 2/2 multi-sig address in the process of
-  opening a channel in the Lightning Network?
-answer: It is the address to which Alice sends money to open the channel.
+question: When is a commitment transaction published on the Bitcoin blockchain?
+answer: Eventually when the channel is closed
 wrong_answers:
-  - It is the address from which Alice sends money to open the channel.
-  - It is the address to which Bob sends money to open the channel.
-  - It is the address from which Bob sends money to open the channel.
+  - Immediately after each transfer in the channel
+  - Before each new commitment transaction
+  - When the available funds are exhausted
 explanation: |
-  In the process of opening a channel, Alice creates a 2/2 multi-sig address
-  using her and Bob's public addresses. She then makes a bitcoin transaction to send
-  money to this address to open the channel.
+  Commitment transactions are built and signed for each change in allocation, but they are only eventually published on the blockchain in the event of channel closure.
 reviewed: false

@@ -1,9 +1,8 @@
-question: PBKDF2 thực hiện bao nhiêu vòng sử dụng HMAC SHA512?
-answer: 2048 vòng
+question: Đặc điểm chính của phép nhân vô hướng trên đường cong elliptic là gì?
+answer: Hàm một chiều
 wrong_answers:
-  - 1024 vòng
-  - 512 vòng
-  - 4096 vòng
-explanation: |
-  PBKDF2 được sử dụng để chuyển đổi cụm từ ghi nhớ thành một hạt giống. Thuật toán này thực hiện 2048 vòng sử dụng HMAC SHA512.
-reviewed: false
+  - Dễ dàng đảo ngược
+  - Dựa trên việc phân tích các số nguyên tố
+  - Mất rất nhiều thời gian để tính toán
+explanation:
+  Phép nhân vô hướng trên đường cong elliptic là một hàm một chiều, làm cho việc lấy lại khóa riêng từ khóa công khai trở nên không thể.

@@ -1,0 +1,9 @@
+question: Secondo Bastiat, qual è la forma peggiore di saccheggio?
+answer: Tasse e monopoli
+wrong_answers:
+  - Furto commesso da un individuo contro un altro
+  - Guerra e conquiste
+  - Tutte le forme di saccheggio sono ugualmente cattive
+explanation: |
+  Bastiat considera le tasse e i monopoli come la peggiore forma di saccheggio perché sono legittimati dallo stato, portando a un'appropriazione sistematica delle risorse e delle libertà degli individui, spesso sotto il pretesto dell'interesse pubblico.
+reviewed: false

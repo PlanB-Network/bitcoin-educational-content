@@ -1,11 +1,9 @@
-question: Jaká je role soukromého klíče při transakci Bitcoinu?
-answer: Používá se k podepsání transakce a odemknutí bitcoinů z adresy.
+question: Co dělá uzamykací skript v Bitcoinové transakci?
+answer: Ukládá specifické podmínky pro utracení přidružených prostředků
 wrong_answers:
-  - Používá se k vygenerování veřejného klíče.
-  - Používá se k vytvoření Bitcoinové adresy.
-  - Používá se k šifrování dat transakce.
+  - Automaticky posílá prostředky na více adres
+  - Určuje hodnotu UTXO, která má být vytvořena
+  - Dočasně uzamkne prostředky, aby zabránil nadměrným výdajům
 explanation: |
-  Při transakci Bitcoinu odesílatel použije svůj soukromý klíč k podepsání
-  transakce, což efektivně odemkne bitcoiny z adresy, ve které jsou uloženy.
-  To je klíčová část procesu transakce, protože zajišťuje, že bitcoiny může utratit pouze jejich majitel.
+  Uzamykací skript ukládá podmínky, jako je podepsání soukromým klíčem, aby bylo možné prostředky v transakci odemknout a použít.
 reviewed: false

@@ -1,0 +1,9 @@
+question: Hva er blokkjedens hovedfunksjon i valideringsparadigmet på klientsiden som brukes av RGB?
+answer: Tidsstempling og forhindring av dobbeltutgifter
+wrong_answers:
+  - Lagre alle tilstandsoverganger
+  - Replikering av smartkontraktdata
+  - Garanterer global datatilgjengelighet
+explanation: |
+  Bitcoin-blokkjeden brukes i RGB til å tidsstemple forpliktelser og forhindre dobbeltbruk, uten å lagre alle tilstandsoverganger.
+reviewed: false

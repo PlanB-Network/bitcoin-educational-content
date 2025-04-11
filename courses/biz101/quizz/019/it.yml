@@ -1,0 +1,9 @@
+question: Perché la volatilità è considerata un aspetto naturale del Bitcoin come asset emergente?
+answer: Poiché il Bitcoin è ancora relativamente giovane, attira gli speculatori e risponde alle notizie di mercato, causando oscillazioni dei prezzi prima di stabilizzarsi su periodi più lunghi.
+wrong_answers:
+  - Perché è controllato centralmente e i prezzi sono fissati da un'unica autorità.
+  - Perché il Bitcoin non ha utenti che lo detengano a lungo termine.
+  - Perché i commercianti devono fissare i prezzi in modo imprevedibile ogni ora.
+explanation: |
+  In quanto asset in via di sviluppo, il prezzo del Bitcoin è influenzato dalla speculazione, dal sentimento e dai diversi tassi di adozione. Nel corso del tempo, con la partecipazione di un numero maggiore di detentori stabili e a lungo termine, la volatilità potrebbe diminuire, ma rimane una caratteristica della fase iniziale di crescita.
+reviewed: false

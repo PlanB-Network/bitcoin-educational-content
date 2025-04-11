@@ -1,0 +1,11 @@
+question: Apa perbedaan utama antara Bitcoin dan alt-coin dalam hal desentralisasi?
+answer: Bitcoin bersifat desentralisasi sementara kebanyakan alt-coin tidak
+wrong_answers:
+  - Baik Bitcoin maupun alt-coin bersifat desentralisasi
+  - Baik Bitcoin maupun alt-coin tidak bersifat desentralisasi
+  - Alt-coin bersifat desentralisasi sementara Bitcoin tidak
+explanation: |
+  Konten bab ini dengan jelas menyatakan bahwa Bitcoin bersifat desentralisasi sementara
+  kebanyakan alt-coin tidak. Ini adalah karakteristik kunci yang membedakan Bitcoin dari
+  mata uang kripto lainnya.
+reviewed: false

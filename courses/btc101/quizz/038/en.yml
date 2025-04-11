@@ -1,11 +1,12 @@
 question: What is the maximum number of Bitcoin units that can ever exist?
-answer: 21 million 
+answer: 21 million.
 wrong_answers:
-  - 3 trillion 
-  - 100 million
-  - There is no limit
+  - 3 trillion.
+  - 100 million.
+  - There is no limit.
 explanation: |
-  The total supply of Bitcoin is capped at 21 million units. This is a
-  key feature of Bitcoin that differentiates it from fiduciary currencies, which can
-  be printed in unlimited quantities by central banks.
+  The total supply of Bitcoin is capped at 21 million units.
+  This is a key feature of Bitcoin that differentiates it
+  from fiduciary currencies, which can be printed in
+  unlimited quantities by central banks.
 reviewed: true

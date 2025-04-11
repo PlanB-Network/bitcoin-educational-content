@@ -1,9 +1,9 @@
-question: Tại sao SHA0, SHA1 và MD5 lại được coi là các hàm băm lỗi thời?
-answer: Chúng đã mất khả năng chống va chạm.
+question: Sự khác biệt chính giữa SHA256 và RIPEMD160 là gì?
+answer: RIPEMD160 tạo ra các băm ngắn hơn so với SHA256
 wrong_answers:
-  - Chúng tính toán quá chậm.
-  - Chúng tạo ra các dấu vân tay quá lớn.
-  - Chúng không phải là không thể đảo ngược.
+  - SHA256 đã lỗi thời khác với RIPEMD160
+  - RIPEMD160 chỉ được sử dụng trong cơ chế Chứng minh Công việc
+  - SHA256 không bao giờ được kết hợp với các hàm băm khác
 explanation: |
-  SHA0, SHA1 và MD5 được coi là các hàm băm lỗi thời vì chúng đã mất khả năng chống va chạm. Điều này có nghĩa là tương đối dễ dàng để tìm thấy hai đầu vào khác nhau mà tạo ra cùng một đầu ra, đây là một lỗi an ninh lớn.
+  RIPEMD160 tạo ra các băm 160-bit, trong khi SHA256 tạo ra các băm 256-bit.
 reviewed: false

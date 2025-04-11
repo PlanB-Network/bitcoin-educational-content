@@ -1,0 +1,9 @@
+question: En un contrato RGB, ¿cuál es la función de la Interfaz?
+answer: Facilitar la lectura y manipulación de los datos contractuales
+wrong_answers:
+  - Ejecución de secuencias de comandos de validación en la cadena de bloques
+  - Almacenar los datos de Génesis en el lado del cliente
+  - Definir un sistema de tipos estricto para los informes
+explanation: |
+  El objetivo de la interfaz es presentar la información contractual de forma clara para los usuarios y el software, sin afectar a la lógica empresarial.
+reviewed: false

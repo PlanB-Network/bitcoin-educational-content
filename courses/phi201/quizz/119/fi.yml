@@ -1,0 +1,9 @@
+question: Mikä on päämäärä niillä, jotka kannattavat paluuta jalometalliin perustuvaan rahajärjestelmään?
+answer: Rajoittaa keskuspankkien valtaa
+wrong_answers:
+  - Lisätä inflaatiota
+  - Edistää kansainvälistä kauppaa
+  - Hallita rahoitusmarkkinoita
+explanation: |
+  Ne, jotka kannattavat jalometalliin perustuvaa järjestelmää, pyrkivät rajoittamaan keskuspankkien valtaa rajoittamalla kykyä luoda rahaa ilman konkreettista reserviä, mikä vähentää inflaation ja rahamanipulaation riskejä.
+reviewed: false

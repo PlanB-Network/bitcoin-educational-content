@@ -1,0 +1,9 @@
+question: Ảo tưởng kinh tế nào mà Bastiat đã chỉ trích, sẽ xuất hiện lại trong thế kỷ 20?
+answer: Rằng Nhà nước có thể tạo ra việc làm
+wrong_answers:
+  - Rằng thị trường cần Nhà nước
+  - Rằng thị trường có thể tự điều chỉnh
+  - Rằng các công ty có thể tạo ra của cải mà không cần quy định
+explanation: |
+  Bastiat đã chỉ trích ý tưởng rằng Nhà nước có thể tạo ra việc làm mà không làm hại đến các công việc khác do ảnh hưởng của thuế cần thiết để tài trợ cho những sáng tạo này.
+reviewed: false

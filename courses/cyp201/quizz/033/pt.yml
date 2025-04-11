@@ -1,9 +1,9 @@
-question: O que é a multiplicação escalar de um ponto por n em uma curva elíptica?
-answer: Equivalente a adicionar esse ponto a si mesmo n vezes
+question: O que a bandeira sighash SIGHASH_NONE permite?
+answer: Modificar as saídas após a assinatura
 wrong_answers:
-  - Equivalente a subtrair esse ponto de si mesmo n vezes
-  - Equivalente a multiplicar esse ponto por si mesmo n vezes
-  - Equivalente a dividir esse ponto por si mesmo n vezes
+  - Modificar as entradas após a assinatura
+  - Cobrir todas as entradas e saídas
+  - Restringir modificações a apenas uma saída
 explanation: |
-  A multiplicação escalar de um ponto por n em uma curva elíptica é equivalente a adicionar esse ponto a si mesmo n vezes. Essa operação é a base para calcular chaves públicas no sistema Bitcoin.
+  SIGHASH_NONE cobre apenas as entradas, deixando as saídas modificáveis após a assinatura.
 reviewed: false

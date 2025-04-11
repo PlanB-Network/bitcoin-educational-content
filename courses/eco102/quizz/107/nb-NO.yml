@@ -1,0 +1,9 @@
+question: Hvilken president i USA, i sin ungdom, formidlet Bastiats ideer i bedriftsseminarer?
+answer: Ronald Reagan
+wrong_answers:
+  - Franklin Roosevelt
+  - George Bush
+  - Dwight D. Eisenhower
+explanation: |
+  Ronald Reagan, før han ble president, formidlet de liberale ideene til Bastiat og andre økonomer i seminarer for General Electric.
+reviewed: false

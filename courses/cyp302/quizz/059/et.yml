@@ -1,0 +1,9 @@
+question: Milline Prantsuse matemaatik tutvustas 19. sajandil grupiteooria kontseptsiooni?
+answer: Évariste Galois
+wrong_answers:
+  - Henri Poincaré
+  - Pierre-Simon Laplace
+  - Joseph Fourier
+explanation: |
+  Évariste Galois arendas grupiteooriat, et uurida polünoomvõrrandite lahendusi, mille aste on suurem kui viis.
+reviewed: false

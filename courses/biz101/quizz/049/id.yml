@@ -1,0 +1,9 @@
+question: Apa keunggulan utama yang dimiliki uang kertas dibandingkan uang koin dalam sistem pembayaran tradisional?
+answer: Peningkatan portabilitas dan efisiensi
+wrong_answers:
+  - Peningkatan nilai intrinsik melalui logam mulia
+  - Verifikasi otomatis untuk setiap transaksi
+  - Menghilangkan risiko pemalsuan sepenuhnya
+explanation: |
+  Uang kertas, yang ringan dan lebih mudah dibawa daripada koin, memungkinkan perdagangan jarak jauh yang lebih efisien dan mengurangi tantangan logistik.
+reviewed: false

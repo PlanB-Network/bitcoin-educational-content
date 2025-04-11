@@ -1,9 +1,0 @@
-question: Perché la distribuzione precisa della liquidità nella Lightning Network non è direttamente accessibile?
-answer: Per preservare la privacy e la sicurezza degli utenti.
-wrong_answers:
-  - Per ridurre le dimensioni della blockchain.
-  - Per aumentare la velocità delle transazioni.
-  - Per diminuire la complessità della rete.
-explanation: |
-  La distribuzione precisa della liquidità nella Lightning Network non è direttamente accessibile per preservare la privacy e la sicurezza degli utenti. Mentre la capacità totale dei canali è pubblica, la posizione esatta della liquidità non viene divulgata. Ciò impedisce a potenziali attaccanti di prendere di mira canali o nodi specifici con alta liquidità.
-reviewed: false

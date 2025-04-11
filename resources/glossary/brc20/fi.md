@@ -1,0 +1,5 @@
+---
+term: BRC-20
+
+---
+Standardi, joka mahdollistaa vuorovaikutuksen muiden kuin alkuperäisten rahakkeiden kanssa Bitcoinissa ja joka perustuu Ordinals-protokollan merkintöihin. Tämä Domon maaliskuussa 2023 luoma kokeellinen standardi on herättänyt huomattavaa spekulatiivista kiinnostusta, mikä johti historialliseen transaktiomaksujen nousuun huhti- ja toukokuussa 2023. BRC-20-tokenit käyttävät Bitcoinia näiden varojen hallintaan liittyvien JSON-toimintojen tallentamiseen ja aikaleimaamiseen. Toiminnot ovat `deploy` (tokenien luominen), `mint` (tokenien liikkeeseenlasku) ja `transfer` (tokenien siirto). Tämän protokollan toteuttamiseksi yksityishenkilöiden on ylläpidettävä palvelimia, jotka luetteloivat kaikki toiminnot. BRC-20-standardi on siis erittäin tehoton Bitcoinin käyttö verrattuna muihin tokenien luontiprotokolliin, kuten RGB:hen.

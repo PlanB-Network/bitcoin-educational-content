@@ -1,10 +1,10 @@
 question: Qual è una caratteristica unica del protocollo Bitcoin?
-answer: Opera su scala globale, 24 ore al giorno, 7 giorni alla settimana.
+answer: Funziona su scala globale, 24 ore su 24, 7 giorni su 7.
 wrong_answers:
-  - Opera solo durante l'orario di lavoro.
+  - Funziona solo durante l'orario d'ufficio.
   - È controllato da un'autorità centrale.
   - Può essere facilmente hackerato.
-explanation: |
-  Il protocollo Bitcoin è unico nel senso che opera su scala globale,
-  24 ore al giorno, 7 giorni alla settimana, rendendo difficile la regolamentazione per le autorità finanziarie.
-reviewed: false
+explanation: >-
+  Il protocollo Bitcoin è unico nel suo funzionamento su scala globale,
+  24 ore su 24, 7 giorni su 7, rendendo difficile la regolamentazione da parte delle autorità finanziarie.
+reviewed: vero

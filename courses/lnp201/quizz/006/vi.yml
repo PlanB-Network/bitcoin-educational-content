@@ -1,9 +1,9 @@
-question: Các kênh thanh toán Lightning có hai chiều không?
-answer: "Có"
+question: UTXO trong bối cảnh của Bitcoin là gì?
+answer: Một phần bitcoin chưa được tiêu liên kết với một script
 wrong_answers:
-  - "Không"
-  - Chỉ trong một số trường hợp
-  - Tùy thuộc vào mạng Bitcoin
+  - Một giao dịch đã được xác nhận hoàn toàn trên blockchain
+  - Một khóa công khai tạo ra địa chỉ Bitcoin
+  - Một lượng bitcoin được chia thành nhiều phần
 explanation: |
-  Các kênh thanh toán là hai chiều, nghĩa là chúng có hai "phía." Ví dụ, nếu Alice và Bob mở một kênh thanh toán, Alice có thể gửi Bitcoin cho Bob, và Bob cũng có thể gửi Bitcoin cho Alice.
+  UTXO, hay Unspent Transaction Output, là một đầu ra giao dịch chưa được tiêu, đại diện cho một lượng nhất định bitcoins mà người giữ có thể sử dụng.
 reviewed: false

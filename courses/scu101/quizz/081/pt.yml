@@ -1,0 +1,9 @@
+question: O que permite o site Have I Been Pwned?
+answer: Verificar se um endereço de e-mail foi comprometido.
+wrong_answers:
+  - Gerar novas senhas fortes e aleatórias.
+  - Criar uma caixa de e-mail segura.
+  - Sincronizar contas de e-mail para facilitar o uso.
+explanation: |
+  Este site ajuda a detectar vazamentos de dados e verificar a segurança de um endereço de e-mail.
+reviewed: false

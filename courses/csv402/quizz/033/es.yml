@@ -1,0 +1,9 @@
+question: ¿Para qué sirve la consignación de terminal en el proceso de transferencia RGB?
+answer: Historia de las transiciones estatales
+wrong_answers:
+  - Validar el contrato Génesis
+  - Borrar transiciones antiguas
+  - Generar un nuevo esquema para la transferencia
+explanation: |
+  La consignación terminal recoge el historial del contrato para demostrar la legitimidad del activo transferido hasta la fecha.
+reviewed: false

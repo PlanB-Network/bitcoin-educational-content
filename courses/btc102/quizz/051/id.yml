@@ -1,0 +1,11 @@
+question: Apa fungsi dari Lightning Network dalam ekosistem Bitcoin?
+answer: Ia memungkinkan Bitcoin berkembang dan memperoleh lebih banyak fitur dengan bertindak sebagai lapisan kedua.
+wrong_answers:
+  - Ini adalah cryptocurrency terpisah yang bersaing dengan Bitcoin.
+  - Ini adalah alat untuk menambang Bitcoin.
+  - Ini adalah platform untuk perdagangan Bitcoin.
+explanation: |
+  Lightning Network adalah teknologi lapisan kedua yang diterapkan pada bitcoin
+  yang menggunakan saluran pembayaran mikro untuk meningkatkan kemampuan blockchain-nya dalam melakukan
+  transaksi dengan lebih efisien.
+reviewed: false

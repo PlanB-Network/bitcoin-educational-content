@@ -1,0 +1,9 @@
+question: No RLN, que comando instala o binário "rgb-lightning-node" depois de clonar o repositório?
+answer: "cargo install --locked --debug --path ."
+wrong_answers:
+  - "cargo build --release --path ."
+  - "cargo run --locked --path ."
+  - "cargo deploy --debug --path ."
+explanation: |
+  O comando "cargo install --locked --debug --path ." compila e instala o binário "rgb-lightning-node".
+reviewed: false

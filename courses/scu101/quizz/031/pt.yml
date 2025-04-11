@@ -1,10 +1,12 @@
-question: O que você deve fazer se detectar um vírus em seu computador?
-answer: Desconecte-o da internet, faça uma varredura completa com o antivírus e exclua os arquivos infectados.
+question: O que você deve fazer se detectar um vírus no seu computador?
+answer: Desconecte-o da internet, realize uma varredura completa com o antivírus e delete os arquivos infectados.
 wrong_answers:
   - Continue usando o computador normalmente.
   - Desligue o computador e deixe-o desligado por algumas horas.
-  - Exclua todos os arquivos do computador.
+  - Delete todos os arquivos do computador.
 explanation: |
-  Se você detectar um vírus em seu computador, você deve desconectá-lo da internet para evitar que o vírus se espalhe ou se comunique com o hacker.
-  Em seguida, faça uma varredura completa com o antivírus e exclua os arquivos infectados.
-reviewed: false
+  Se você detectar um vírus no seu computador, deve
+  desconectá-lo da internet para prevenir que o vírus se
+  espalhe ou comunique com o hacker. Então, realize uma
+  varredura completa com o antivírus e delete os arquivos infectados.
+reviewed: true

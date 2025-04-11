@@ -1,0 +1,9 @@
+question: Apa fungsi server proxy RGB dalam lingkungan RGB Lightning Node?
+answer: Memfasilitasi pertukaran kiriman RGB
+wrong_answers:
+  - Menyediakan kunci publik untuk node untuk membuka saluran
+  - Menyimpan riwayat transisi status RGB
+  - Hindari ticker duplikat untuk token RGB
+explanation: |
+  Server proxy RGB menyederhanakan komunikasi kiriman RGB antara peserta Lightning dengan bertindak sebagai perantara, memungkinkan pengalaman pengguna yang lebih lancar seperti yang saat ini dialami dengan Bitcoin dan Lightning.
+reviewed: false

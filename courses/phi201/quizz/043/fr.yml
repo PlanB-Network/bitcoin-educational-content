@@ -1,0 +1,9 @@
+question: Quel est le rapport entre la loi naturelle et la loi humaine selon Saint Thomas d'Aquin ?
+answer: La loi humaine doit être en accord avec la loi naturelle pour être juste et légitime.
+wrong_answers:
+  - La loi humaine est supérieure à la loi naturelle car elle est édictée par des autorités légitimes.
+  - La loi naturelle est égale à la loi humaine.
+  - La loi humaine ne s'applique que partiellement.
+explanation: |
+  Pour Saint Thomas d'Aquin, la loi humaine tire sa légitimité de sa conformité avec la loi naturelle, qui exprime les principes moraux universels. Si la loi humaine contredit la loi naturelle, elle perd sa justesse et sa légitimité.
+reviewed: false

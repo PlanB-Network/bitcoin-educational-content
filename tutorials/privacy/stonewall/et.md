@@ -40,7 +40,7 @@ Välisest vaatepunktist oleks tehingu muster jäänud täpselt samaks.
 
 Kokkuvõttes jagavad Stonewall ja Stonewall x2 tehingud identset struktuuri. Erinevus kahe vahel seisneb nende koostöölises olemuses. Stonewall tehing on välja töötatud individuaalselt, ilma koostöö vajaduseta. Seevastu Stonewall x2 tehing tugineb kahe isiku koostööle selle rakendamiseks.
 
-[**-> Uuri lähemalt Stonewall x2 tehingute kohta**](https://planb.network/tutorials/privacy/stonewall-x2)
+[**-> Uuri lähemalt Stonewall x2 tehingute kohta**](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)
 
 ## Mis on Stonewall tehingu eesmärk?
 Stonewall struktuur lisab tehingule olulise hulga entroopiat ja varjab ahela analüüsi. Välisest vaatepunktist võib sellist tehingut tõlgendada kui väikest coinjoin'i kahe inimese vahel. Kuid tegelikkuses, nagu ka Stonewall x2 tehingu puhul, on see makse. See meetod loob seega ahela analüüsis ebakindlusi ja võib isegi viia valede jälgedeni.

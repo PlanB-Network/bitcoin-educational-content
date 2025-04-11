@@ -1,9 +1,0 @@
-question: Vai trò của một Loop trong Lightning Network là gì?
-answer: Một Loop là một nút đặc biệt cung cấp dịch vụ để cân bằng lại LN/BTC.
-wrong_answers:
-  - Một Loop là một nút kết nối người mua và người bán.
-  - Một Loop là một nút giúp mở kênh.
-  - Một Loop là một nút lưu trữ tất cả các giao dịch.
-explanation: |
-  Trong Lightning Network, một Loop là một nút đặc biệt cung cấp dịch vụ chuyên nghiệp để cân bằng lại LN/BTC. Điều này được thực hiện bằng cách gửi thanh khoản đến Loop qua một nút khác, sau đó gửi lại số dư trên chuỗi về nút gốc.
-reviewed: false

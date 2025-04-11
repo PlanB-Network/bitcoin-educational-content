@@ -1,0 +1,9 @@
+question: ¿Qué número de versión del software fue destacado en Slashdot en julio de 2010?
+answer: v0.3
+wrong_answers:
+  - v0.1
+  - v0.2
+  - v0.4
+explanation: |
+  El lanzamiento de esta versión, largamente preparado por Satoshi y Martti, marcó un nuevo esfuerzo en comunicación.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Která funkce se používá k výpočtu počtu celých čísel menších než N, které jsou nesoudělné s N?
+answer: Eulerova funkce Phi
+wrong_answers:
+  - Eulerova funkce Gamma
+  - Eulerova funkce Sigma
+  - Dirichletova funkce Beta
+explanation: |
+  Eulerova funkce Phi určuje počet celých čísel menších než N, které jsou nesoudělné s N, což je klíčový koncept v teorémech kryptografie založených na prvočíslech.
+reviewed: false

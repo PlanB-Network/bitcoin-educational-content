@@ -1,0 +1,9 @@
+question: Hvilken operasjon brukes vanligvis til å kombinere nøkkelstrømmen og meldingen i en strømkryptering?
+answer: XOR
+wrong_answers:
+  - Multiplikasjon
+  - Modulær forskyvning
+  - Substitusjon av hver bokstav
+explanation: |
+  I en strømkryptering brukes vanligvis XOR-operasjonen til å kombinere nøkkelstrømmen med meldingen fordi den er enkel og reversibel.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Je, ni jambo gani la msingi katika kufaulu au kushindwa kwa mageuzi ya fedha kulingana na Bernold?
+answer: Imani ambayo idadi ya watu huweka ndani yake
+wrong_answers:
+  - Kiasi cha fedha katika mzunguko
+  - Thamani ya sarafu
+  - Sera za kiuchumi za serikali
+explanation: |
+  Bernold anapendekeza kwamba mafanikio ya mageuzi ya fedha hayategemei tu
+  juu ya umuhimu wake wa kiufundi lakini pia juu ya imani ambayo idadi ya watu huweka ndani yake.
+  Mtazamo na uaminifu wa umma kwa hivyo ni muhimu Elements katika kufaulu au kutofaulu
+  ya mageuzi ya fedha.
+reviewed: false

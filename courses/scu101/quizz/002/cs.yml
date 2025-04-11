@@ -1,9 +1,9 @@
 question: Proč se doporučuje stahovat software z oficiálních stránek vydavatele namísto obecných stránek?
-answer: Aby bylo zajištěno, že software nebude obsahovat škodlivý software.
+answer: Aby bylo zajištěno, že software je bez škodlivého softwaru.
 wrong_answers:
   - Aby byl finančně podpořen vydavatel.
-  - Protože software bývá na oficiálních stránkách obvykle levnější.
-  - Protože software na obecných stránkách bývá obvykle zastaralý.
+  - Protože software je obvykle levnější na oficiálních stránkách.
+  - Protože software na obecných stránkách je obvykle zastaralý.
 explanation: |
   Stahování softwaru z oficiálních stránek vydavatele zajišťuje, že získáváte legitimní verzi softwaru, která je bez jakéhokoli škodlivého softwaru, který by mohl poškodit vaše zařízení nebo ukrást vaše data.
-reviewed: false
+reviewed: true

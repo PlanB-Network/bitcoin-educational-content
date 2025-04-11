@@ -1,0 +1,9 @@
+question: Mis on Marx'i järgi inimliku võõrandumise peamine allikas?
+answer: Majanduslik võõrandumine, mis tuleneb kapitalistlikust ärakasutamisest.
+wrong_answers:
+  - Poliitiline võõrandumine, mis takistab kodanikel vabalt end väljendamast.
+  - Religioosne võõrandumine, mis varjab sotsiaalsete ebaõigluste tegelikkust.
+  - Võõrandumine Ameerika kultuurist.
+explanation: |
+  Marx'i järgi on inimlik võõrandumine juurdunud majanduslikus võõrandumises, kus töötaja on ilma jäetud oma töö viljadest kapitalismi tingimustes, viies kontrolli ja tähenduse kaotuseni oma olemasolus.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hva er formålet med Lightning-autentisering?
+answer: Den genererer en forskjellig identifikator for hver tjeneste, uten behovet for å oppgi en e-postadresse eller personlig informasjon.
+wrong_answers:
+  - Den fremskynder autentiseringsprosessen.
+  - Den lar deg bruke samme passord for alle tjenester.
+  - Den sender påminnelser om å endre passord hver måned.
+explanation: |
+  Lightning-autentisering genererer en forskjellig identifikator for hver tjeneste, uten behovet for å oppgi en e-postadresse eller personlig informasjon. Dette kan forbedre personvernet og sikkerheten ved å redusere mengden personlig informasjon som deles med hver tjeneste.
+reviewed: false

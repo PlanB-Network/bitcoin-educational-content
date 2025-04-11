@@ -1,0 +1,10 @@
+question: Hva er konseptet med pengeoverføring i konteksten av Lightning Network?
+answer: Å gjøre mikrotransaksjoner hvert minutt
+wrong_answers:
+  - Å strømme videoinnhold for Bitcoin
+  - Å strømme lydinnhold for Bitcoin
+  - Å strømme Bitcoin-transaksjoner i sanntid
+explanation: >-
+  Med Lightning Network kan vi gjøre mikrotransaksjoner hvert minutt,
+  noe som åpner døren for å eksperimentere med økonomiske modeller hvor forbrukere betaler for
+  innhold basert på hva de forbruker.

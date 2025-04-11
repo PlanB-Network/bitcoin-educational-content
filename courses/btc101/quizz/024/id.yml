@@ -1,0 +1,9 @@
+question: Apa kelemahan utama dari mata uang fiat?
+answer: Nilainya terus tergerus oleh inflasi moneter
+wrong_answers:
+  - Mereka tidak mudah untuk dibawa
+  - Nilainya terus meningkat karena inflasi moneter
+  - Mereka tidak dapat dibagi
+explanation: |
+  Kelemahan utama dari mata uang fiat, seperti dolar dan euro, adalah nilai mereka yang terus tergerus oleh inflasi moneter. Hal ini disebabkan oleh entitas yang mengendalikannya (raja, bank sentral, kaisar, diktator) yang terus menurunkan nilai mereka.
+reviewed: true

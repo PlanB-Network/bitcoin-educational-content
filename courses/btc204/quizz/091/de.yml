@@ -1,0 +1,13 @@
+question: Warum wird davon abgeraten, mehrere UTXOs nach Coinjoin-Zyklen zusammenzuführen?
+
+answer: Dies könnte die Privatsphäre aufgrund der CIOH gefährden.
+
+wrong_answers:
+  - Es verringert die Geschwindigkeit der Transaktionen.
+  - Es offenbart verdächtige Aktivitäten gegenüber dem Koordinator.
+  - Dies könnte die Privatsphäre aufgrund der Rundenzahlungsheuristik gefährden.
+
+explanation: |
+  Es ist wichtig, gemischte UTXOs nicht mit ungemischten UTXOs in derselben Transaktion zu kombinieren, aber auch UTXOs untereinander nicht zu mischen, um die Common-Input-Ownership-Heuristic (CIOH) zu vermeiden.
+
+reviewed: false

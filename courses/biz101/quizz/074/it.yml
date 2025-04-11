@@ -1,0 +1,9 @@
+question: Quali sono le caratteristiche di sicurezza avanzate tipicamente implementate a livello aziendale per i bitcoin?
+answer: Multi-firma con orologi a tempo
+wrong_answers:
+  - Protezione con password per un portafoglio mobile Lightning
+  - Single-sig con protezione della passphrase BIP39
+  - Single-sig con frase di seme di 24 parole
+explanation: |
+  Misure di sicurezza elevate, come le configurazioni a più firme e i timelock, sono fondamentali per la gestione di somme ingenti.
+reviewed: false

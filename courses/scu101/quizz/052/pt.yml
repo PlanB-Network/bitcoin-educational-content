@@ -1,9 +1,12 @@
-question: Por que os tokens de hardware, como chaves USB ou cartões inteligentes, são considerados oferecer segurança ideal para autenticação de dois fatores (2FA)?
+question: Por que os tokens de hardware, como chaves USB ou cartões inteligentes, são considerados como oferecendo segurança ótima para 2FA?
 answer: Eles geram uma chave privada única para cada site e verificam a URL antes de permitir a conexão.
 wrong_answers:
-  - Eles são fisicamente mais difíceis de serem roubados.
-  - Eles são mais caros, então devem ser melhores.
-  - Eles são uma tecnologia mais recente, então devem ser melhores.
+  - Eles são fisicamente mais difíceis de roubar, mas se os ladrões conseguirem, eles facilmente extrairão os segredos do dispositivo.
+  - Eles geram apenas uma senha que vai ser usada para cada site e verificam a URL antes de permitir a conexão.
+  - Eles são tecnologia mais nova e cara, então devem ser melhores.
 explanation: |
-  Os tokens de hardware oferecem segurança ideal porque geram uma chave privada única para cada site e verificam a URL antes de permitir a conexão. Isso torna muito mais difícil para um hacker obter acesso não autorizado.
-reviewed: false
+  Os tokens de hardware oferecem segurança ótima porque
+  geram uma chave privada única para cada site e verificam a
+  URL antes de permitir a conexão. Isso torna muito
+  mais difícil para um hacker obter acesso não autorizado.
+reviewed: true

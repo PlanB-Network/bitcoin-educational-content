@@ -1,0 +1,11 @@
+question: Hashrate inapima nini katika mtandao wa Bitcoin?
+answer: Mahesabu kwa sekunde
+wrong_answers:
+  - Idadi ya miamala kwa sekunde
+  - Idadi ya nodi zinazotumika
+  - Kiasi cha umeme kinachotumiwa na mtandao
+explanation: |
+  Hashrate katika mtandao wa Bitcoin hupima idadi ya
+  mahesabu ambayo yanaweza kufanywa kwa sekunde. Ni ufunguo
+  kiashiria cha afya na usalama wa mtandao.
+reviewed: true

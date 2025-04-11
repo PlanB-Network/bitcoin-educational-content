@@ -1,0 +1,23 @@
+id: 7dc44e54-3092-4250-8203-888aebc5f5a4
+name: Nakamochi
+category: manufacturer
+
+links:
+  website: https://nakamochi.io/
+  twitter: https://x.com/nakamochiq
+  Github: https://github.com/nakamochi/
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-01-24
+    urgency: 1
+    contributor_names:
+      - hunt-wood
+    reward: 0.07
+tags:
+  - decentralization
+  - self-sovereignty
+  - innovation
+contributor_names:
+  - PaoloFoti

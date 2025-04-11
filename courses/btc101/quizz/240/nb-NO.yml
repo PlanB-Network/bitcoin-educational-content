@@ -1,0 +1,11 @@
+question: Hva er en av de potensielle fordelene med Lightning Network for innholdsskapere?
+answer: De ville bli incentivert til å produsere kvalitetsinnhold for å beholde brukernes oppmerksomhet
+wrong_answers:
+  - De ville kunne ta mer betalt for innholdet sitt
+  - De ville kunne nå et bredere publikum
+  - De ville kunne produsere innhold raskere
+explanation: >-
+  Med Lightning Network ville innholdsskapere bli incentivert til
+  å produsere kvalitetsinnhold for å beholde brukernes oppmerksomhet. Brukerne, på sin side, ville bare betale
+  for innholdet de konsumerer, noe som eliminerer abonnementsavgifter på forhånd.
+reviewed: false

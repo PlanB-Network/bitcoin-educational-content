@@ -1,10 +1,10 @@
 question: Vai trò của khóa công khai trong ví Bitcoin là gì?
-answer: Nó được sử dụng để tạo ra địa chỉ Bitcoin và do đó có thể nhận tiền
+answer: Nó được sử dụng để tạo địa chỉ Bitcoin và do đó có thể nhận tiền.
 wrong_answers:
-  - Nó được sử dụng để mã hóa các giao dịch Bitcoin
-  - Nó được sử dụng để truy cập vào ví Bitcoin
-  - Nó được sử dụng để sao lưu ví Bitcoin
+  - Nó được sử dụng để mã hóa giao dịch Bitcoin.
+  - Nó được sử dụng để truy cập vào ví Bitcoin.
+  - Nó được sử dụng để sao lưu ví Bitcoin.
 explanation: |
-  Khóa công khai được tạo ra từ khóa riêng và được sử dụng để tạo ra các địa chỉ Bitcoin
-  nhằm mục đích nhận tiền.
-Đã được xem xét: true
+  Khóa công khai được tạo ra từ khóa riêng và được sử dụng
+  để tạo địa chỉ Bitcoin nhằm mục đích nhận tiền.
+reviewed: true

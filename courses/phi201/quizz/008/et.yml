@@ -1,0 +1,9 @@
+question: Bastiati järgi, mis on kõige hullem röövimise vorm?
+answer: Maksud ja monopolid
+wrong_answers:
+  - Ühe inimese poolt teise vastu toime pandud vargus
+  - Sõda ja vallutused
+  - Kõik röövimise vormid on võrdselt halvad
+explanation: |
+  Bastiat peab makse ja monopole kõige hullemaks röövimise vormiks, kuna need on riigi poolt legitimeeritud, viies süstemaatilise individuaalsete ressursside ja vabaduste omastamiseni, tihti avaliku huvi varjus.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Apa peran penambang dalam protokol Bitcoin?
+answer: Mereka mengamankan jaringan saat ini dan historis
+wrong_answers:
+  - Mereka mengatur harga Bitcoin
+  - Mereka mengontrol pasokan Bitcoin
+  - Mereka mengelola transaksi antar pengguna
+explanation: >-
+  Penambang dalam protokol Bitcoin mengamankan baik jaringan saat ini maupun historis. Mereka tidak mengatur harga Bitcoin, mengontrol pasokannya, atau mengelola transaksi antar pengguna.
+reviewed: false

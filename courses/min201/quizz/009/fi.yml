@@ -1,9 +1,13 @@
 question: Mikä on ohjelmiston rooli Bitcoin-louhinnassa ja miten se edistää tehokkuutta?
-answer: Bitcoin-louhinnassa käytettävä ohjelmisto, kuten BrainsOS Plus, korvaa louhintakoneen alkuperäisen käyttöjärjestelmän, mahdollistaen samojen toimintojen suorittamisen tehokkaammin. Se voi lisätä koneen tehokkuutta 25 %, mikä tarkoittaa, että samalla sähkönkulutuksella kone voi tuottaa 25 % lisää hashratea, näin ollen lisäten louhijan saamia palkkioita.
+answer: Bitcoin-louhinnassa käytettävä ohjelmisto, kuten BrainsOS Plus, korvaa louhintakoneen alkuperäisen käyttöjärjestelmän, mahdollistaen samojen toimintojen suorittamisen tehokkaammin. Se voi lisätä koneen tehokkuutta 25 %, mikä tarkoittaa, että samalla sähkömäärällä kone voi tuottaa 25 % lisää hashratea, mikä puolestaan lisää louhijan saamia palkkioita.
 wrong_answers:
-  - Bitcoin-louhinnassa käytettävä ohjelmisto on tarkoitettu louhitun Bitcoinin määrän seuraamiseen eikä se edistä tehokkuutta.
-  - Bitcoin-louhinnassa käytettävä ohjelmisto on tarkoitettu louhintakoneen yhdistämiseen internetiin eikä se edistä tehokkuutta.
+  - Bitcoin-louhinnassa käytettävä ohjelmisto on tarkoitettu louhitun Bitcoinin määrän seurantaan eikä se edistä tehokkuutta.
+  - Bitcoin-louhinnassa käytettävä ohjelmisto tarjoaa vain paremman internet-yhteyden louhintakoneelle, ja se voi lisätä tällaisen koneen tehokkuutta 14 %, jos käytetään yhtä uusimmista protokollista.
   - Bitcoin-louhinnassa käytettävä ohjelmisto on tarkoitettu louhintakoneen jäähdyttämiseen eikä se edistä tehokkuutta.
 explanation: |
-  Luku selittää, että ohjelmistot kuten BrainsOS Plus voivat korvata louhintakoneen alkuperäisen käyttöjärjestelmän, mahdollistaen samojen toimintojen suorittamisen tehokkaammin. Tämä ohjelmistojen optimointi on olennainen kilpailukyvyn elementti Bitcoin-louhinnassa.
-reviewed: false
+  Luku selittää, että ohjelmistot kuten BrainsOS Plus voivat
+  korvata louhintakoneen alkuperäisen käyttöjärjestelmän,
+  mahdollistaen samojen toimintojen suorittamisen tehokkaammin.
+  Tämä ohjelmistojen optimointi on olennainen kilpailutekijä
+  Bitcoin-louhinnassa.
+reviewed: true

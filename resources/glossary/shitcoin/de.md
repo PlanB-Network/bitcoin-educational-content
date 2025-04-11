@@ -1,0 +1,5 @@
+---
+term: SHITCOIN
+
+---
+Ein abwertender Begriff, der in der Welt der Kryptowährungen häufig verwendet wird, um Altcoins zu beschreiben, die als wertlos oder ohne Zukunft angesehen werden. Der Begriff wird in zwei unterschiedlichen Zusammenhängen verwendet: Im allgemeinen Kryptowährungsumfeld bezieht er sich auf ein Projekt, dem es an technologischer Innovation mangelt, das keinen konkreten Anwendungsfall aufweist oder das in erster Linie das Ergebnis exzessiver Spekulation ist. Für Bitcoin-Maximalisten umfasst der Begriff alle anderen Kryptowährungen als Bitcoin (BTC), wodurch "Shitcoin" zum Synonym für "Altcoin" wird Das Wort ist eine Kombination aus "shit", was im Englischen dasselbe bedeutet, und "coin" Die erste Verwendung des Begriffs geht auf eine Nachricht zurück, die der Benutzer Ribuck am 8. November 2010 im Bitcoin-Talk-Forum veröffentlichte.

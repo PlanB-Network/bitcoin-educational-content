@@ -1,0 +1,8 @@
+question: Когда была проверена и внедрена сеть Lightning Network?
+answer: 2017
+wrong_answers:
+  - 2015
+  - 2016
+  - 2018
+explanation: Сеть Lightning Network была проверена и внедрена в 2017 году.
+reviewed: false

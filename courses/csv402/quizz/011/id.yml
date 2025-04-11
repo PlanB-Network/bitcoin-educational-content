@@ -1,0 +1,9 @@
+question: Apa yang membentuk Jangkar dalam RGB?
+answer: ID Transaksi, MPC, DBC, dan Bukti Transaksi Ekstra
+wrong_answers:
+  - Kejadian, Definisi Meterai, dan Bundel Transisi
+  - Skema Kontrak, Logika Bisnis, dan Status Kepemilikan
+  - Tanda Tangan, Hash Transaksi, dan Komitmen Pedersen
+explanation: |
+  Anchor berisi data yang diperlukan untuk membuktikan penyertaan komitmen unik dalam transaksi Bitcoin.
+reviewed: false

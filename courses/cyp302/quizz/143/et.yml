@@ -1,0 +1,9 @@
+question: Kui kaua võtab hinnanguliselt 2048-bitise täisarvu faktoriseerimine, kasutades kõiki praeguseid arvutusressursse?
+answer: Palju kauem kui universumi vanus
+wrong_answers:
+  - Mõni kuu tavakompuutritega
+  - Mõni minut superarvutitega
+  - Mõni aastakümme Bitcoin'i kaevandamise farmis
+explanation: |
+  2048-bitiste arvude faktoriseerimise keerukus on selline, et see oleks praktiliselt võimatu lahendada, isegi kasutades kõiki olemasolevaid arvutusressursse ajaperioodil, mis ületab universumi vanuse.
+reviewed: false

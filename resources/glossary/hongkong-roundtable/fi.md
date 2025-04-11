@@ -1,0 +1,7 @@
+---
+term: HONGKONGIN PYÖREÄN PÖYDÄN TAPAAMINEN
+
+---
+Historiallinen tapahtuma Blocksize-sodasta, joka tapahtui 20. helmikuuta 2016 Hongkongissa. Kyseessä oli merkittävä kokous Bitcoin Coren kehittäjien ja louhijoiden välillä, jossa keskusteltiin järjestelmän skaalautuvuudesta ja sen skaalausstrategiasta. Jännitteet olivat korkealla ennen kokousta, erityisesti Gavin Andressenin tukeman hard fork -ehdotuksen Bitcoin Classicin nousun vuoksi, jonka tavoitteena oli lohkokoon kasvattaminen 2 MB:iin. Keskusteluihin osallistuivat ekosysteemin vaikuttajat, kuten Bitmainin perustajat Jihan Wu ja Micree Zhan, Blockstreamin johtaja Adam Back sekä Luke Dashjr, Matt Corallo ja Peter Todd.
+
+Kaivostyöntekijät, jotka olivat turhautuneita edistyksen puutteeseen, uhkasivat tukea Bitcoin Classicia, jos 2 MB:n hard forkia ei toteuteta. Kehittäjät puolustivat SegWitiä toimivana ratkaisuna. Tuntikausia kestäneiden jännittyneiden neuvottelujen jälkeen päästiin sopimukseen, jonka mukaan Bitcoin Coren kehittäjät työstävät kovaa haarautumista SegWitin käyttöönoton jälkeen. Tämän sopimuksen oli tarkoitus lievittää jännitteitä, mutta se loi lopulta lisää epäluottamusta ja hämmennystä. Kumpikin osapuoli tulkitsi sopimusta eri tavalla, mikä pahensi yhteisön sisäisiä erimielisyyksiä. Vaikka tämä sopimus hidasti tilapäisesti Bitcoin Classicin vauhtia, monet pitivät sitä epätyydyttävänä ja kömpelönä ratkaisuna.

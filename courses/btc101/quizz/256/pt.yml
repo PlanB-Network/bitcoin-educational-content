@@ -1,9 +1,9 @@
-question: Qual é uma das principais implicações do Bitcoin para o sistema bancário?
-answer: Isso permite a emancipação do sistema bancário.
+question: Qual é uma das principais consequências do Bitcoin no sistema bancário?
+answer: Permite a emancipação do sistema bancário.
 wrong_answers:
-  - Isso permite o controle do sistema bancário.
-  - Isso permite a eliminação do sistema bancário.
-  - Isso permite a corrupção do sistema bancário.
-explanation: |
+  - Permite o controle do sistema bancário.
+  - Permite a eliminação do sistema bancário.
+  - Permite a corrupção do sistema bancário.
+explanation: >-
   O texto menciona que o Bitcoin permite a emancipação do sistema bancário.
-reviewed: false
+reviewed: true

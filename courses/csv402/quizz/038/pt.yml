@@ -1,0 +1,9 @@
+question: No ficheiro YAML utilizado para emitir um ativo, que campo define o número total de tokens emitidos?
+answer: issuedSupply
+wrong_answers:
+  - proprietário do ativo
+  - especificação
+  - montante
+explanation: |
+  O campo "issuedSupply" no ficheiro YAML define o montante total de tokens emitidos para o contrato.
+reviewed: false

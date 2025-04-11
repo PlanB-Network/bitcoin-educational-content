@@ -1,0 +1,8 @@
+question: Какие инструменты используются в кибербезопасности?
+answer: Wireshark, Metasploit, Nmap
+wrong_answers:
+  - Photoshop, Illustrator, InDesign
+  - Excel, PowerPoint, Word
+  - AutoCAD, SolidWorks, Revit
+explanation: |
+  В главе перечислены Wireshark, Metasploit и Nmap как некоторые из инструментов, используемых в кибербезопасности.

@@ -1,10 +1,8 @@
-question: Qual é o principal risco associado à geração de uma frase mnemônica própria usando dados para transações de Bitcoin?
-answer: Isso pode apresentar certos riscos.
+question: O que uma chave pública estendida permite derivar?
+answer: Apenas chaves públicas filhas normais
 wrong_answers:
-  - Pode levar à geração de números previsíveis.
-  - Pode levar à geração de números duplicados.
-  - Pode levar à geração de números inválidos.
+  - Apenas chaves privadas filhas normais
+  - Tanto chaves públicas filhas endurecidas quanto normais
+  - Tanto chaves privadas filhas endurecidas quanto normais
 explanation: |
-  Gerar uma frase mnemônica própria usando dados pode apresentar certos riscos.
-  Portanto, é recomendado usar uma frase de acesso gerada aleatoriamente para mitigar esses riscos.
-reviewed: false
+  Uma chave pública estendida permite apenas a derivação de chaves públicas filhas normais, não chaves privadas ou chaves endurecidas.

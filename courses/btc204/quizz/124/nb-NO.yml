@@ -1,0 +1,13 @@
+question: Hvilket alternativ tillater å aktivere eller deaktivere P2P transport V2 i konfigurasjonsfilen til Bitcoin Core?
+
+answer: v2transport=
+
+wrong_answers:
+  - p2penable=
+  - networkv2=
+  - enablev2=
+
+explanation: |
+  P2P V2 transport kan endres med alternativet v2transport= i en Core-nodes konfigurasjonsfil.
+
+reviewed: false

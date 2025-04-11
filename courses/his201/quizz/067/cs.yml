@@ -1,0 +1,9 @@
+question: Která organizace začala v listopadu 2010 přijímat bitcoiny po lobbingu ze strany komunity?
+answer: Electronic Frontier Foundation
+wrong_answers:
+  - WikiLeaks
+  - Červený kříž
+  - Amnesty International
+explanation: |
+  Tato organizace, kterou v roce 1900 spoluzakládali Mitch Kapor, John Gilmore a John Perry Barlow, si klade za cíl chránit svobody na internetu. Začala přijímat bitcoiny 9. listopadu.
+reviewed: false

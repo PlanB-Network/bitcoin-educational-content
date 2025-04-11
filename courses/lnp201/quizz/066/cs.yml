@@ -1,9 +1,0 @@
-question: Jaké informace může příjemce poskytnout odesílateli, aby usnadnil vyhledávání trasy v Lightning Network?
-answer: Částku, svou adresu, hash předobrazu a indikace o svých kanálech.
-wrong_answers:
-  - Adresu odesílatele, částku transakce a soukromý klíč příjemce.
-  - Adresu příjemce, částku transakce a soukromý klíč odesílatele.
-  - Částku transakce, adresu příjemce a hash předobrazu.
-explanation: |
-  Aby usnadnil vyhledávání trasy v Lightning Network, může příjemce odesílateli poskytnout několik informací. Ty zahrnují částku transakce, adresu příjemce, hash předobrazu (který se používá k vytvoření HTLC) a indikace o kanálech příjemce (které mohou pomoci identifikovat kanály s dostatečnou likviditou).
-reviewed: false

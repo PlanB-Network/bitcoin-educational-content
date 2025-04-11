@@ -1,9 +1,9 @@
-question: Câu hỏi trung tâm về quyền tự quản lý khi chọn ví Bitcoin là gì?
+question: Câu hỏi trung tâm cần tự hỏi khi chọn một ví Bitcoin, về quyền tự quản lý, là gì?
 answer: Bạn có phải là chủ sở hữu của số tiền hay bạn để quyền kiểm soát tiền của mình cho một bên thứ ba?
 wrong_answers:
-  - Ví có được bảo mật bằng cụm từ mật khẩu không?
+  - Ví có được bảo vệ bằng cụm từ bí mật không?
   - Ví có cho phép nhận và gửi bitcoin không?
-  - Tôi có thể chia sẻ ví của mình cho người khác không?
+  - Tôi có thể chia sẻ ví của mình với người khác không?
 explanation: |
-  Khi chọn ví Bitcoin, câu hỏi trung tâm là: Bạn có phải là chủ sở hữu của số tiền hay bạn để quyền kiểm soát tiền của mình cho một bên thứ ba? Điều này là bởi vì người giữ khóa riêng là chủ sở hữu của Bitcoins.
+  Khi chọn một ví Bitcoin, câu hỏi trung tâm là: bạn có phải là chủ sở hữu của số tiền hay bạn để quyền kiểm soát tiền của mình cho một bên thứ ba? Điều này là bởi vì người giữ khóa riêng là chủ sở hữu của Bitcoins.
 reviewed: true

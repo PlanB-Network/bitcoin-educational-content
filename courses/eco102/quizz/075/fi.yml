@@ -1,0 +1,8 @@
+question: Kuinka pankkien vastuuttomuus sallittiin?
+answer: Takaamalla, että tappiot jaettaisiin yhteisesti konkurssitapauksessa, jos se johtui holtittomasta riskinotosta
+wrong_answers:
+  - Sääntelyn puutteen vuoksi holtittoman riskinoton suhteen
+  - 90-luvun sääntelyn purkamisen vuoksi
+  - Kapitalistisen järjestelmän vuoksi
+explanation: |
+  Bastiat selittää, että tappioiden yhteisvastuullisuuden lupaus rohkaisee pankkeja ottamaan liiallisia riskejä, koska ne ovat varmoja siitä, että ne pelastetaan epäonnistumisen sattuessa, mikä edistää vastuuttomuutta.

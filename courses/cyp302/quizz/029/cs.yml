@@ -1,0 +1,9 @@
+question: Co znamená operace XOR, když je aplikována mezi dvěma bity?
+answer: Vrátí 1, pokud jsou bity různé, jinak vrátí 0
+wrong_answers:
+  - Vrátí 1 pouze pokud jsou oba bity 1
+  - Sečte bity a vrátí jejich součet
+  - Vždy vrátí 0 bez ohledu na výsledek
+explanation: |
+  Operace XOR (neboli exkluzivní nebo) produkuje 1, pokud jsou dva bity různé (0 a 1 nebo 1 a 0) a 0, pokud jsou stejné.
+reviewed: false

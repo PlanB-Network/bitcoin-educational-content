@@ -1,12 +1,13 @@
 question: What is the main disadvantage of fiat currencies?
-answer: Their value is constantly eroded by monetary inflation
+answer: Their value is constantly eroded by monetary inflation.
 wrong_answers:
-  - They are not easily transportable
-  - Their value is constantly appreciated by monetary inflation
-  - They are not divisible
+  - They are not easily transportable.
+  - Their value is constantly appreciated by monetary inflation.
+  - They are not divisible.
 explanation: |
-  The main disadvantage of fiat currencies, such as the dollar and the
-  euro, is that their value is constantly eroded by monetary inflation. This is due
-  to the entities that control them (king, central bank, emperor, dictator) constantly
-  devaluing them.
+  The main disadvantage of fiat currencies, such as the
+  dollar and the euro, is that their value is constantly
+  eroded by monetary inflation. This is due to the
+  devaluation caused by the entities that control them (king,
+  central bank, emperor, dictator).
 reviewed: true

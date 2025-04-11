@@ -1,0 +1,11 @@
+question: Mis on selle Bitcoini kursuse eesmärk?
+answer: Arutada Bitcoini rahalisi aspekte, kuidas seda kasutada ja selle tulevikku.
+wrong_answers:
+  - Arutada, kuidas Bitcoini kaevandada.
+  - Arutada, kuidas Bitcoini reguleerida.
+  - Arutada, kuidas luua uut Bitcoini protokolli.
+explanation: |
+  Selle Bitcoini kursuse eesmärk on arutada Bitcoini rahalisi aspekte,
+  sealhulgas kuidas osta ja müüa bitcoine, neid digitaalsetes rahakottides turvaliselt
+  hoida ja kasutada tehinguteks. Samuti on eesmärk uurida Bitcoini tulevikku.
+reviewed: true

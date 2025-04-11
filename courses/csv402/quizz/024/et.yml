@@ -1,0 +1,9 @@
+question: Milline RGB mehhanism võimaldab mitut üleminekut rühmitada ühte Bitcoini tehingusse?
+answer: Üleminekupakett
+wrong_answers:
+  - Pitsat Agregatsioon
+  - Mitme kohustuse puu
+  - Riigi konsolideerimine
+explanation: |
+  Üleminekupakett on kogum RGB-riigi üleminekuid (mis kuuluvad samasse lepingusse), mis on kõik seotud sama Bitcoini tunnistustehinguga.
+reviewed: false

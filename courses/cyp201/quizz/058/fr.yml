@@ -1,9 +1,9 @@
-question: Quel est le rôle de l'entropie dans le portefeuille Bitcoin HD ?
-answer: Elle est la base de tout portefeuille HD et essentielle pour sa sécurité.
+question: Quelle fonction est utilisée pour dériver la graine à partir de la phrase mnémonique ?
+answer: PBKDF2 avec HMAC-SHA512
 wrong_answers:
-  - Elle aide à la vérification des transactions.
-  - Elle augmente la vitesse des transactions.
-  - Elle réduit la taille de la blockchain.
+  - SHA256 seul
+  - Double SHA256
+  - AES-256
 explanation: |
-  L'entropie, ou le hasard, est la base de tout portefeuille HD. Elle est essentielle pour la sécurité du portefeuille car elle garantit l'imprévisibilité des clés privées générées.
+  La graine est générée via la fonction PBKDF2 en utilisant HMAC-SHA512 et 2048 itérations, à partir de la phrase mnémonique et de la passphrase.
 reviewed: false

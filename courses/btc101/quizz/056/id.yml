@@ -1,0 +1,10 @@
+question: Berapa tingkat inflasi di Hongaria pada Juli 1946?
+answer: 41,900,000,000,000,000%
+wrong_answers:
+  - 207%
+  - 50%
+  - 100%
+explanation: |
+  Bulan dengan inflasi tertinggi di Hongaria adalah Juli 1946, dengan rekor
+  inflasi harga sebesar 41,900,000,000,000,000%.
+reviewed: true

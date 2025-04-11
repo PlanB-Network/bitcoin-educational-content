@@ -1,0 +1,9 @@
+question: How should a business choose a Bitcoin payment solution that fits its needs?
+answer: By considering factors like transaction frequency, average payment size, and whether it’s online or in-person, and then selecting a solution tailored to that category.
+wrong_answers:
+  - By always choosing the simplest solution, regardless of transaction volume or complexity.
+  - By only using the largest and most expensive solution available, irrespective of business size.
+  - By relying solely on guesswork without considering the business’s specific requirements.
+explanation: |
+  Different businesses have different needs. Evaluating factors such as transaction volume, payment methods (online vs. physical), and scalability helps a company pick the right Bitcoin payment solution.
+reviewed: false

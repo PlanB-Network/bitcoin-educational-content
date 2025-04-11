@@ -1,9 +1,0 @@
-question: Qual è lo scopo del codice di catena in una chiave estesa?
-answer: Consente di derivare in modo specifico le chiavi figlie.
-wrong_answers:
-  - Viene utilizzato per generare la chiave principale.
-  - Viene utilizzato per crittografare la chiave estesa.
-  - Viene utilizzato per verificare l'autenticità della chiave estesa.
-explanation: |
-  Il codice di catena, insieme alla chiave genitore, è essenziale per derivare le chiavi figlie. Concatenando la chiave genitore con il codice di catena, si ottiene una chiave privata o pubblica estesa.
-reviewed: false

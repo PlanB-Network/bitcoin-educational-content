@@ -1,0 +1,9 @@
+question: Hva skiller en standardlengde RC4 nøkkelstrøm fra den forenklede versjonen presentert i eksemplet?
+answer: Lengden på S-arrayet i standard RC4 er 256 bytes
+wrong_answers:
+  - S-arrayet er begrenset til 128 bytes
+  - Nøkkelen som brukes må være mer enn 8 bytes
+  - Det er ingen fast lengde for S i standard RC4
+explanation: |
+  I standard RC4 inneholder S-arrayet 256 bytes, noe som betydelig øker kompleksiteten i beregningene og forbedrer sikkerheten sammenlignet med den forenklede versjonen med kun 8 bytes.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Apa potensi ancaman dari Proof of Stake dalam jaringan Bitcoin?
+answer: Mereka yang sudah memiliki jumlah mata uang yang besar memiliki kekuatan yang tidak seimbang, mencerminkan ketidaksetaraan kekuasaan yang sudah ada.
+wrong_answers:
+  - Ini akan mewakili hambatan signifikan bagi validator yang memegang jumlah mata uang yang besar.
+  - Ini tidak memungkinkan partisipasi skala kecil.
+  - Ini tidak memerlukan sumber daya nyata.
+explanation: |
+  Dalam jaringan Proof of Stake, mereka yang sudah memiliki jumlah
+  mata uang yang besar memiliki kekuatan yang tidak seimbang. Dinamika ini
+  berpotensi memperpanjang sentralisasi dan konsentrasi kekuasaan
+  di tangan segelintir orang.
+reviewed: true

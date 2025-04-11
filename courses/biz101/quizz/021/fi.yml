@@ -1,0 +1,9 @@
+question: Miksi yritys voisi harkita Bitcoinin pitämistä perinteisten "turvallisten" omaisuuserien, kuten kiinteistöjen, sijaan?
+answer: Bitcoin voi mahdollisesti ylittää reaalisen inflaation, eikä se ole sidottu kiinteistöjen epälikviditeettiin ja ylläpitokustannuksiin.
+wrong_answers:
+  - Kiinteistö on aina halvempi kuin Bitcoin, eikä se tarvitse koskaan huoltoa.
+  - Bitcoin tarjoaa hallituksen tukemia takuita, joita kiinteistöt eivät tarjoa.
+  - Kiinteistöt arvostaa nopeammin kuin Bitcoin kaikissa markkinaolosuhteissa.
+explanation: |
+  Kiinteistöihin liittyy usein maksuvalmiusrajoituksia ja jatkuvia kustannuksia, eivätkä ne välttämättä pysy velkapohjaisen rahajärjestelmän piilevän inflaation tahdissa. Bitcoinin niukkuus ja maailmanlaajuinen ulottuvuus tarjoavat erillisen arvosäilytysmahdollisuuden, joka voi pitkällä aikavälillä päihittää perinteiset omaisuuserät.
+reviewed: false

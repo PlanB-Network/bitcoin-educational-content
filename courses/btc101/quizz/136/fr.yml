@@ -1,9 +1,10 @@
 question: Comment le réseau Bitcoin s'assure-t-il qu'il est trop coûteux d'agir de manière malveillante au sein du protocole Bitcoin ?
-answer: Grâce aux règles du protocole et aux incitations économiques.
+answer: Par des règles de protocole et des incitations économiques.
 wrong_answers:
-  - Grâce à une réglementation stricte et à une surveillance.
-  - Grâce à l'utilisation de mesures de sécurité avancées.
-  - Grâce à la menace d'une action en justice.
-explanation: |
-  Le réseau Bitcoin s'assure qu'il est trop coûteux d'agir de manière malveillante au sein du protocole Bitcoin grâce aux règles du protocole et aux incitations économiques. Cela élimine le besoin de faire confiance à chaque étape du transfert de propriété du bitcoin.
-reviewed: false
+  - Par une régulation stricte et une supervision.
+  - Par l'utilisation de mesures de sécurité avancées.
+  - Par la menace d'action légale.
+explanation: >-
+  Le réseau Bitcoin s'assure qu'il est trop coûteux d'agir de manière malveillante au sein du protocole Bitcoin par des règles de protocole et des incitations économiques. Cela
+  élimine le besoin de confiance à n'importe quelle étape du transfert de propriété du bitcoin.
+reviewed: true

@@ -1,0 +1,9 @@
+question: 比特币网络的基础层通常被称为什么？
+answer: 结算层
+wrong_answers:
+  - 交易层
+  - 安全层
+  - 共识层
+explanation: |
+  比特币网络的基础层，闪电网络依赖它来开启和关闭支付通道，通常被称为“结算层”。
+reviewed: 真

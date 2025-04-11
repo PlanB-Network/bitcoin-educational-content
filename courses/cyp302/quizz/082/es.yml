@@ -1,0 +1,9 @@
+question: ¿Por qué se considera que el cifrado de un solo uso es un método de encriptación seguro?
+answer: Porque cada bit de la clave es aleatorio y ninguna parte se reutiliza
+wrong_answers:
+  - Porque utiliza una clave pública y privada aleatoria
+  - Porque se basa en números primos
+  - Porque solo cifra mensajes pequeños
+explanation: |
+  El cifrado de un solo uso es seguro porque cada bit de la clave es aleatorio y nunca se reutiliza, asegurando que no deja rastros explotables para un atacante.
+reviewed: false

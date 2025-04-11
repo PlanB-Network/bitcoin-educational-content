@@ -1,0 +1,10 @@
+question: Apa satu ciri pengguna Bitcoin yang memiliki kompetensi teknologi?
+answer: Mereka memiliki pemahaman yang baik tentang teknologi, termasuk dompet Bitcoin panas dan dingin serta Jaringan Lightning.
+wrong_answers:
+  - Mereka hanya menggunakan Bitcoin untuk investasi jangka panjang.
+  - Mereka hanya menggunakan Bitcoin untuk transaksi sehari-hari.
+  - Mereka hanya menggunakan Bitcoin di platform pertukaran.
+explanation: |
+  Pengguna Bitcoin yang memiliki kompetensi teknologi memahami teknologi yang terlibat
+  dalam transaksi Bitcoin, termasuk berbagai jenis dompet dan Jaringan Lightning.
+reviewed: false

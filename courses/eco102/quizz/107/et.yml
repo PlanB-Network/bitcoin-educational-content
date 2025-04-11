@@ -1,0 +1,9 @@
+question: Milline Ameerika Ühendriikide president levitas oma nooruses Bastiati ideid ettevõtete seminaridel?
+answer: Ronald Reagan
+wrong_answers:
+  - Franklin Roosevelt
+  - George Bush
+  - Dwight D. Eisenhower
+explanation: |
+  Ronald Reagan, enne presidendiks saamist, levitas Bastiati ja teiste majandusteadlaste liberaalseid ideid General Electricu seminaridel.
+reviewed: false

@@ -4,7 +4,7 @@ wrong_answers:
   - A physical safe.
   - A bank account.
   - A credit card.
-explanation: >-
-  The text mentions that before buying Bitcoin, you should have a secure
-  wallet. This is where you will store your Bitcoin.
-reviewed: false
+explanation: |
+  The course text mentions that before buying Bitcoin, you
+  should have a secure wallet where you will store your keys.
+reviewed: true

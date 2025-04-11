@@ -1,11 +1,8 @@
-question: Mitä tapahtuu nostotapahtumalle Lightning Network -siirron jälkeen?
-answer: Se päivitetään heijastamaan kanavan uutta saldoa.
+question: Mikä on aikaviiveen ja peruutusavaimen yhdistetty vaikutus sitoumustapahtumiin?
+answer: Ne estävät osallistujia huijaamasta tarjoamalla välittömän rangaistuksen
 wrong_answers:
-  - Se suoritetaan ja varat siirretään.
-  - Se hylätään ja luodaan uusi tapahtuma.
-  - Se pysyy samana.
+  - Ne vähentävät kanavan kapasiteettia huijauksen tapauksessa
+  - Ne automaattisesti lukitsevat syyllisen osapuolen varat
+  - Ne pakottavat uuden kanavan avaamisen, jos tapahtuma on virheellinen
 explanation: |
-  Lightning Network -siirron jälkeen nostotapahtuma päivitetään
-  heijastamaan kanavan uutta saldoa. Tätä tapahtumaa ei suoriteta, ellei
-  kanavaa suljeta.
-reviewed: false
+  Aikaviive ja peruutusavain estävät osallistujia huijaamasta varmistamalla, että mikä tahansa huijausyritys johtaa välittömään varojen menetykseen syylliselle osapuolelle.

@@ -1,0 +1,9 @@
+question: Mille kaudu esindatakse tihti privaatvõtit Bitcoin'i rahakotis?
+answer: 12 või 24 sõnast koosnev nimekiri
+wrong_answers:
+  - 12 või 48 sõnast koosnev nimekiri
+  - 32 sõnast koosnev nimekiri
+  - 64 sõnast koosnev nimekiri
+explanation: |
+  Bitcoin'i rahakotis esindatakse privaatvõtit tihti 12 või 24 sõnast koosneva nimekirjana, mida tuntakse ka kui seemne või mnemoonilise fraasi järgi.
+reviewed: true

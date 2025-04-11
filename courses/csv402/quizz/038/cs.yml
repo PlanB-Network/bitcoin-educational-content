@@ -1,0 +1,9 @@
+question: Které pole v souboru YAML použitém k vydání aktiva definuje celkový počet vydaných tokenů?
+answer: issuedSupply
+wrong_answers:
+  - assetOwner
+  - specifikace
+  - částka
+explanation: |
+  Pole "issuedSupply" v souboru YAML definuje celkové množství žetonů vydaných pro smlouvu.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Was ist die Rolle der Modulo-Operation bei der Verschlüsselung mit dem Shift-Cipher?
+answer: Sie stellt sicher, dass die Buchstaben zum Anfang des Alphabets zurückkehren, wenn sie 26 überschreiten.
+wrong_answers:
+  - Sie multipliziert die Buchstabenwerte mit dem Schlüssel
+  - Sie kehrt die Buchstaben des Alphabets um
+  - Sie löscht die Buchstaben nach dem Buchstaben Z
+explanation: |
+  Die Modulo-26-Operation ermöglicht es, dass die Buchstaben nach Z wieder von vorne beginnen, um sicherzustellen, dass jeder verschlüsselte Buchstabe innerhalb der 26 Buchstaben des Alphabets bleibt.
+reviewed: false

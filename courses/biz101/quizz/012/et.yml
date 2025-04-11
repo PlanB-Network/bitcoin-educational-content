@@ -1,0 +1,9 @@
+question: Miks saab Lightning Networki võrrelda "maksevahetuse e-postiga"?
+answer: Sest see võimaldab sujuvat, globaalset ja loata väärtuste vahetamist sama lihtsalt kui sõnumi saatmine.
+wrong_answers:
+  - Sest see saadab makseid traditsiooniliste e-posti teenusepakkujate kaudu.
+  - Sest see töötab ainult siis, kui see on lisatud tavalistele e-kirjadele.
+  - Kuna see salvestab kasutaja saldod e-kirja kehasse.
+explanation: |
+  Nii nagu e-kirjad muutsid kommunikatsiooni revolutsiooniliseks, kõrvaldades vahendajad ja võimaldades igaühel saata sõnumeid kogu maailmas, lihtsustab ja kiirendab välkkiirusvõrk tehinguid, muutes väärtuse ülekandmise sama hõõrdumatuks ja kättesaadavaks kui e-kirjad.
+reviewed: false

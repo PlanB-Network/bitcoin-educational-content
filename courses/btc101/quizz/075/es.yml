@@ -1,9 +1,13 @@
-question: ¿Qué es la frase mnemotécnica en una billetera de Bitcoin?
-answer: Una lista de 12 o 24 palabras que es una copia de seguridad de tu billetera de Bitcoin.
+question: ¿Qué es la frase mnemotécnica en una cartera de Bitcoin?
+answer: Una lista de 12 o 24 palabras que te permite acceder a tus bitcoins.
 wrong_answers:
-  - Una contraseña elegida para acceder a la billetera de Bitcoin.
-  - Un código para encriptar las transacciones de Bitcoin.
-  - Una frase de recuperación secreta que destruye la billetera de Bitcoin.
+  - Una contraseña elegida para acceder a la cartera de Bitcoin.
+  - Un código para cifrar las transacciones de Bitcoin.
+  - Una frase de recuperación secreta que destruye la cartera de Bitcoin en caso de necesidad.
 explanation: |
-  Desde 2017, la clave privada se puede codificar en una lista simple de 12 o 24 palabras, llamada frase mnemotécnica. Esta frase es una copia de seguridad de tu billetera de Bitcoin, es lo que te permite recrear tu billetera con cualquier software/aplicación de billetera de Bitcoin.
-reviewed: false
+  Desde 2017, la clave privada puede codificarse en una simple lista
+  de 12 o 24 palabras, llamada frase mnemotécnica. Esta frase
+  es una copia de seguridad de tu cartera de Bitcoin, por lo que te permite
+  acceder a tus bitcoins utilizando cualquier software/aplicación
+  de cartera de Bitcoin.
+reviewed: true

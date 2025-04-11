@@ -1,11 +1,9 @@
-question: Kdo má klíč pro zrušení v závazkové transakci Alice?
-answer: Pouze Alice.
+question: Jaká podmínka musí být splněna, aby příjemce HTLC obdržel prostředky?
+answer: Musí poskytnout tajemství (preimage) k odemčení platby.
 wrong_answers:
-  - Pouze Bob.
-  - Oba, Alice i Bob.
-  - Ani Alice, ani Bob.
+  - Musí přijmout transakční poplatky každého prostředníkujícího uzlu.
+  - Musí podepsat novou závaznou transakci.
+  - Musí počkat, až vyprší časový zámek, než si prostředky vyberou.
 explanation: |
-  V závazkové transakci Alice má klíč pro zrušení pouze Alice.
-  To jí umožňuje přesunout prostředky bez čekání na konec Timelocku, pokud
-  Bob se pokusí podvádět.
+  Aby příjemce obdržel prostředky v HTLC, musí poskytnout specifické tajemství, které umožňuje odemknout platbu zajištěnou hashem.
 reviewed: false

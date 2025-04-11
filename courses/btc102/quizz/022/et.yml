@@ -1,0 +1,11 @@
+question: Mis vahe on kauplemisel ja investeerimisel Bitcoin'i kontekstis?
+answer: Kauplemine hõlmab lühiajalisi lepinguid suure riskiga, samas kui investeerimine tähendab BTC ostmist lühikeseks kuni keskmiseks perioodiks piiratud riskiga.
+wrong_answers:
+  - Kauplemine hõlmab BTC ostmist lühikeseks kuni keskmiseks perioodiks, samas kui investeerimine hõlmab lühiajalisi lepinguid suure riskiga.
+  - Kauplemine hõlmab BTC ostmist pikaks ajaks, samas kui investeerimine hõlmab lühiajalisi lepinguid suure riskiga.
+  - Kauplemine hõlmab BTC ostmist lühikeseks kuni keskmiseks perioodiks, samas kui investeerimine tähendab BTC ostmist pikaks ajaks.
+explanation: |
+  Bitcoin'i kontekstis tähendab kauplemine lühiajalisi lepinguid
+  suure riskiga, samas kui investeerimine hõlmab BTC ostmist lühikeseks kuni keskmiseks perioodiks piiratud
+  riskiga.
+reviewed: false

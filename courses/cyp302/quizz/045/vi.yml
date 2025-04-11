@@ -1,0 +1,8 @@
+question: Trong một nhóm hữu hạn, thuật ngữ nào chỉ số lượng phần tử trong nhóm?
+answer: Cấp của nhóm
+wrong_answers:
+  - Sức chứa của nhóm
+  - Chiều dài của nhóm
+  - Bậc của nhóm
+explanation: |
+  Cấp của một nhóm là tổng số phần tử mà nó chứa.

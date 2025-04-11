@@ -1,0 +1,13 @@
+question: Hva er effekten av bank- og sentralbankbalanser på inflasjon?
+answer: Hvis nyopprettede penger forblir på balansene til private banker uten å bli lånt ut til økonomiske aktører, vil det ikke direkte påvirke den reelle økonomien og derfor ikke føre til inflasjon.
+wrong_answers:
+  - Hvis nyopprettede penger forblir på balansene til private banker, vil det alltid føre til inflasjon.
+  - Bank- og sentralbankbalanser har ingen innvirkning på inflasjon.
+  - Hvis nyopprettede penger blir lånt ut til økonomiske aktører, vil det ikke føre til inflasjon.
+explanation: |
+  Kapittelet forklarer at forholdet mellom pengetrykking
+  og inflasjon er modulert av hvordan nyopprettede penger blir introdusert i økonomien.
+  Hvis disse pengene forblir på balansene til private banker uten å bli lånt
+  ut til økonomiske aktører, vil det ikke direkte påvirke den reelle økonomien og derfor
+  ikke føre til inflasjon.
+reviewed: false

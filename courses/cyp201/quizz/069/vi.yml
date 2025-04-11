@@ -1,8 +1,9 @@
-question: Chuẩn phổ biến nhất được sử dụng cho cụm từ khôi phục 24 từ trong ví Bitcoin là gì?
-answer: Một entropy 256 bit.
+question: Vai trò chính của mã chuỗi trong việc tạo ra các khóa con là gì?
+answer: Giới thiệu một nguồn entropy bổ sung
 wrong_answers:
-  - Một entropy 128 bit.
-  - Một entropy 160 bit.
-  - Một entropy 512 bit.
+  - Xác định độ sâu phân cấp
+  - Lưu trữ các chỉ số của các khóa con
+  - Đảm bảo tính tương thích với giao thức Bitcoin
 explanation: |
-  Chuẩn phổ biến nhất được sử dụng cho cụm từ khôi phục 24 từ là một entropy 256 bit.
+  Mã chuỗi được sử dụng để giới thiệu một nguồn entropy bổ sung và độc đáo cho mỗi khóa được tạo ra.
+reviewed: false

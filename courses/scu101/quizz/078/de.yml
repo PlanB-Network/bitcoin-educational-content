@@ -1,0 +1,9 @@
+question: Welches Kriterium ist bei der Erstellung eines neuen E-Mail-Kontos grundlegend?
+answer: Ein einzigartiges und starkes Passwort verwenden.
+wrong_answers:
+  - Das Passwort anderer Konten wiederverwenden.
+  - Ein einfaches Passwort wählen, um es sich leichter zu merken.
+  - Ein Passwort mit dem Namen des Haustiers wählen.
+explanation: |
+  Ein einzigartiges und starkes Passwort ist unerlässlich, um Hacker daran zu hindern, auf das E-Mail-Konto zuzugreifen.
+reviewed: false

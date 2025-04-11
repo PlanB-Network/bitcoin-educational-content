@@ -1,0 +1,9 @@
+question: Quelle est la caractéristique qui rend la solution Swiss Bitcoin Pay particulièrement adaptée aux petites entreprises du profil Essential ?
+answer: Une application PoS conviviale
+wrong_answers:
+  - Fonctionnalités avancées de négociation multidevises
+  - Une gestion de portefeuille multi-signatures
+  - Intégration complète de l'analyse de la blockchain
+explanation: |
+  Swiss Bitcoin Pay est conçu avec une interface PoS directe qui simplifie les opérations quotidiennes.
+reviewed: false

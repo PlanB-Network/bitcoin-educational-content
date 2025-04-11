@@ -1,0 +1,9 @@
+question: Welche alternative Lösung zu Swiss Bitcoin Pay, um Bitcoin-Zahlungen für das Essential-Profil zu akzeptieren, ist 100% verwahrungsfähig?
+answer: Knotenpunkt öffnen
+wrong_answers:
+  - BTCPay-Server
+  - Bitcoinize PoS
+  - Phoenix Brieftasche
+explanation: |
+  Open Node ist eine reine Depotlösung, die sich von der Hybridlösung Swiss Bitcoin Pay unterscheidet.
+reviewed: false

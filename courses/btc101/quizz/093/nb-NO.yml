@@ -1,0 +1,12 @@
+question: Hva må du sikkerhetskopiere når du bruker en lommebok med en passfrase?
+answer: Du må sikkerhetskopiere både listen med 12 eller 24 ord og din passfrase
+wrong_answers:
+  - Du trenger bare å sikkerhetskopiere listen med 12 eller 24 ord
+  - Du trenger bare å sikkerhetskopiere din passfrase
+  - Du trenger ikke å sikkerhetskopiere verken listen med 12 eller 24 ord eller din passfrase
+explanation: |
+  Når du bruker en lommebok med en passfrase, må du sikkerhetskopiere både listen med 12
+  eller 24 ord og din passfrase. Dette er fordi både listen med ord og passfrasen
+  er nødvendige for å gjenopprette tilgangen til dine midler i tilfelle tap av telefonen
+  eller datamaskinen din. Uten den ene eller den andre, er midlene ikke tilgjengelige.
+reviewed: true

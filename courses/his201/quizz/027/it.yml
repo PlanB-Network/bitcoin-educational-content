@@ -1,0 +1,8 @@
+question: Quale titolo di un giornale britannico è stato incluso nel blocco genesi di Bitcoin nel gennaio 2009?
+answer: The Times
+wrong_answers:
+  - The Guardian
+  - The Independent
+  - The Telegraph
+explanation: |
+  L'iscrizione esatta era The Times 03/Gen/2009 Chancellor on brink of second bailout for banks.

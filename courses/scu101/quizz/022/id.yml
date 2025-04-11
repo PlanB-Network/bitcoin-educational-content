@@ -1,0 +1,11 @@
+question: Apa praktik yang direkomendasikan ketika memasukkan USB key ke dalam komputer Anda?
+answer: Jangan memasukkan USB key yang tidak dikenal atau mencurigakan.
+wrong_answers:
+  - Memasukkan USB key apa pun tanpa memeriksanya.
+  - Selalu format USB key sebelum memasukkannya.
+  - Masukkan USB key lalu periksa virusnya.
+explanation: |
+  Memasukkan USB key yang tidak dikenal atau mencurigakan dapat membuat sistem terpapar pada
+  program jahat yang dapat secara otomatis dijalankan saat dimasukkan. Memeriksa USB key akan
+  menjadi tidak berguna setelah telah dimasukkan.
+reviewed: false

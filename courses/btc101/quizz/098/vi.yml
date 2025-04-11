@@ -1,9 +1,9 @@
-question: Một trong những giải pháp thay thế được khuyến nghị để lưu trữ cụm từ ghi nhớ của bạn là gì?
-answer: Khắc nó lên một tấm kim loại
+question: Một phương án được khuyến nghị thay thế việc sử dụng giấy để lưu trữ cụm từ ghi nhớ của bạn là gì?
+answer: Khắc nó lên một tấm kim loại.
 wrong_answers:
-  - Lưu trữ nó trong một tệp số
-  - Viết nó lên bảng trắng
-  - Lưu nó như một liên lạc trong điện thoại của bạn
+  - Lưu trữ nó trong một tệp số.
+  - Viết nó lên bảng trắng.
+  - Lưu nó như một liên hệ trong điện thoại của bạn.
 explanation: |
-  Một trong những giải pháp thay thế cho giấy để lưu trữ cụm từ ghi nhớ của bạn là khắc nó lên một tấm kim loại. Điều này có thể cung cấp một giải pháp bền vững và lâu dài hơn.
-reviewed: false
+  Một trong những phương án được khuyến nghị thay thế giấy để lưu trữ cụm từ ghi nhớ của bạn là khắc nó lên một tấm kim loại. Giải pháp này bền vững và lâu dài hơn.
+reviewed: true

@@ -1,9 +1,9 @@
-question: Was ist der Hauptzweck digitaler Signaturen im Bitcoin-Protokoll?
-answer: Um den Besitz eines privaten Schlüssels, der mit einem bestimmten öffentlichen Schlüssel verbunden ist, nachzuweisen.
+question: Welcher digitale Signaturalgorithmus wurde beim Start von Bitcoin verwendet?
+answer: ECDSA
 wrong_answers:
-  - Um die Transaktionsdaten zu verschlüsseln
-  - Um neue Bitcoins zu generieren
-  - Um die Identität des Absenders zu überprüfen
+  - Schnorr
+  - RSA
+  - HMAC
 explanation: |
-  Im Kern des Bitcoin-Protokolls werden digitale Signaturen als mathematische Beweise verwendet, um den Besitz eines privaten Schlüssels nachzuweisen, der mit einem bestimmten öffentlichen Schlüssel verbunden ist.
+  Bitcoin verwendete ursprünglich ECDSA, ein Signaturprotokoll basierend auf elliptischen Kurven, bevor die Einführung von Schnorr-Signaturen im Jahr 2021 erfolgte.
 reviewed: false

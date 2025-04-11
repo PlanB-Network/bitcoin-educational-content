@@ -1,0 +1,9 @@
+question: Apa hasil dari 0 XOR 1?
+answer: 1
+wrong_answers:
+  - 0
+  - 2
+  - -1
+explanation: |
+  Dengan XOR, 0 XOR 1 menghasilkan 1 karena bitnya berbeda.
+reviewed: false

@@ -1,9 +1,0 @@
-question: ¿Qué factores se consideran al estimar las rutas más probables de éxito en la Red Lightning?
-answer: Las tarifas, el tiempo de vencimiento de HTLC, el número de nodos intermedios y un factor de aleatoriedad.
-wrong_answers:
-  - Tamaño de transacción, altura de bloque y tarifas de transacción.
-  - Tarifas de transacción, tamaño de bloque y tiempo de confirmación de transacción.
-  - Tiempo de confirmación de transacción, altura de bloque y tamaño de transacción.
-explanation: |
-  Al estimar las rutas más probables de éxito en la Red Lightning, los nodos consideran varios factores. Estos incluyen las tarifas asociadas con cada ruta, el tiempo de vencimiento de los HTLC, el número de nodos intermedios y un factor de aleatoriedad para evitar utilizar siempre las mismas rutas.
-reviewed: false

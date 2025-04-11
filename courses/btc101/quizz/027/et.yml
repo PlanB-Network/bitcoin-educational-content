@@ -1,0 +1,9 @@
+question: Miks Bitcoin ei ole tänapäeval laialdaselt kaubanduses aktsepteeritud?
+answer: Kuna seda ei ole laialdaselt kasutusele võetud üksikisikute poolt
+wrong_answers:
+  - Kuna seda ei saa transportida
+  - Kuna seda ei saa jagada
+  - Kuna see ei ole likviidne
+explanation: |
+  Hoolimata oma omadustest, nagu rangelt piiratud pakkumine, ei ole Bitcoin siiski tänapäeval kaubanduses laialdaselt aktsepteeritud. See on tingitud sellest, et üksikisikud ei ole seda laialdaselt omaks võtnud, luues olukorra, mis hammustab oma saba, kuna kaupmehed on samuti üksikisikud.
+reviewed: true

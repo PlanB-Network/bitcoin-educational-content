@@ -1,0 +1,9 @@
+question: Perché è essenziale un'attenta registrazione quando si tratta di Bitcoin nella contabilità di un'azienda?
+answer: Perché ogni transazione di Bitcoin può creare un evento imponibile e sono necessarie registrazioni accurate per calcolare guadagni, perdite e passività fiscali.
+wrong_answers:
+  - Perché la blockchain archivia automaticamente le tasse per conto dell'azienda.
+  - Perché alle transazioni in Bitcoin non si applica alcun principio contabile.
+  - Perché è impossibile rintracciare le transazioni Bitcoin una volta registrate.
+explanation: |
+  Ogni acquisto, vendita o pagamento effettuato in Bitcoin può avere implicazioni fiscali. La tenuta di registri dettagliati della base di costo, del prezzo di vendita e della tempistica garantisce una rendicontazione fiscale corretta e conforme.
+reviewed: false

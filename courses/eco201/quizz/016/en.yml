@@ -5,7 +5,9 @@ wrong_answers:
   - Each additional unit of a good is equally desired as the preceding.
   - The desire for each additional unit of a good fluctuates unpredictably.
 explanation: |
-  The concept of decreasing marginal utility states that each additional
-  unit of a good is less desired than the preceding. This is because as an individual
-  acquires more of a good, the less utility each additional unit of that good provides.
-reviewed: false
+  The concept of decreasing marginal utility states that each
+  additional unit of a good is less desired than the
+  preceding. This is because as an individual acquires more
+  of a good, the less utility each additional unit of that
+  good provides.
+reviewed: true

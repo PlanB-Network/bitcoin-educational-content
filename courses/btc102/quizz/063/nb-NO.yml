@@ -1,0 +1,9 @@
+question: Hva er risikoen ved å ikke eie den private nøkkelen til din Bitcoin-lommebok?
+answer: Dine bitcoins er utsatt for risikoer som hacking, beslagleggelse, regulering eller konkurs
+wrong_answers:
+  - Dine bitcoins vil automatisk bli konvertert til en annen kryptovaluta
+  - Dine bitcoins vil miste sin verdi
+  - Dine bitcoins vil bli overført til en annen lommebok
+explanation: |
+  Hvis du ikke eier den private nøkkelen til din Bitcoin-lommebok, er dine bitcoins
+  utsatt for risikoer som hacking, beslagleggelse, regulering eller konkurs.

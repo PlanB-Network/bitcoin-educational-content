@@ -1,0 +1,9 @@
+question: Qual è la base del valore secondo Frédéric Bastiat?
+answer: Utilità
+wrong_answers:
+  - Lavoro
+  - Scarsità
+  - Domanda
+explanation: |
+  Bastiat adotta l'idea di Say secondo cui l'utilità è la base del valore, contrariamente alle teorie basate sul lavoro o sulla scarsità.
+reviewed: false

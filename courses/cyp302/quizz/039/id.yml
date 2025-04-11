@@ -1,0 +1,8 @@
+question: Mengapa teori bilangan sangat penting dalam kriptografi kunci publik?
+answer: Ini menyediakan dasar matematika yang diperlukan untuk operasi enkripsi dan dekripsi.
+wrong_answers:
+  - Ini menyediakan dasar matematika yang diperlukan untuk operasi hashing.
+  - Ini diperlukan untuk pembuatan jaringan saraf.
+  - Ini memungkinkan untuk perhitungan operasi dalam biner saja.
+explanation: |
+  Teori bilangan sangat penting dalam kriptografi kunci publik karena membantu menyusun algoritma berdasarkan sifat-sifat bilangan bulat, memfasilitasi operasi enkripsi dan dekripsi.

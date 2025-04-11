@@ -1,0 +1,9 @@
+question: Mikä turvallisuusongelma ilmenee, jos sama viesti salataan useita kertoja yksinkertaistetussa RSA-salauksessa?
+answer: Viesti tuottaa aina saman salauksen
+wrong_answers:
+  - Viesti on altis murtamishyökkäyksille
+  - Viesti käännetään ympäri
+  - Viestistä tulee mahdotonta purkaa
+explanation: |
+  Yksinkertaistetussa RSA: ssa viestin salaaminen useita kertoja tuottaa aina saman tuloksen, mikä tekee salauksesta haavoittuvaisen hyökkäyksille.
+reviewed: false

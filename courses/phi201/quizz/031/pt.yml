@@ -1,0 +1,8 @@
+question: Qual é o nome da primeira codificação escrita da lei romana?
+answer: A Lei das Doze Tábuas
+wrong_answers:
+  - O Código de Hamurabi
+  - O Digesto
+  - Os Éditos de Justiniano
+explanation: |
+  A Lei das Doze Tábuas é a primeira codificação escrita da lei romana, criada para formalizar as leis e garantir a igualdade legal entre os cidadãos, tornando a lei acessível a todos.

@@ -1,0 +1,8 @@
+question: Hvorfor lagres passord ofte som hashverdier på sikre servere?
+answer: For å forhindre at passord lett kan hentes ut ved en lekkasje
+wrong_answers:
+  - For å øke størrelsen på brukerdata lagring
+  - For å kryptere passord i sanntid på en symmetrisk måte
+  - For å tillate brukere å logge inn uten et passord
+explanation: |
+  Ved å lagre passord som hashverdier, selv i tilfelle av et datainnbrudd, kan ikke de faktiske passordene leses direkte, noe som øker sikkerheten.

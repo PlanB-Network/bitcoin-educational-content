@@ -1,0 +1,8 @@
+question: Hvorfor anbefales ikke AES-kryptering i ECB-modus for sikker bruk?
+answer: Det resulterer i deterministisk kryptering
+wrong_answers:
+  - Det krever en nøkkel på mer enn 128 bits
+  - Det er for tregt for de fleste moderne applikasjoner
+  - Det tillater ikke å dele teksten inn i 128-bits blokker
+explanation: |
+  ECB-modus anbefales ikke fordi den produserer deterministisk kryptering, noe som betyr at identiske blokker av klartekst vil gi identiske blokker av kryptert tekst, som kan utnyttes for å gjette informasjon om klarteksten.

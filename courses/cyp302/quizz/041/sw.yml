@@ -1,0 +1,9 @@
+question: Katika kikundi, ni kipengele gani cha pekee kinachoitwa ambacho, kinapotumiwa kwa kipengele kingine, hakibadilishi?
+answer: Kipengele cha utambulisho
+wrong_answers:
+  - Kipengele cha kinyume
+  - Kipengele cha kubadilisha
+  - Kipengele cha ushirika
+explanation: |
+  Kipengele cha utambulisho wa kikundi ni kipengele cha pekee ambacho, kinapotumiwa kwa kipengele kingine, huiacha bila kubadilika. Kwa mfano, katika kikundi cha nambari zote chini ya nyongeza, kipengele cha utambulisho ni 0.
+reviewed: false

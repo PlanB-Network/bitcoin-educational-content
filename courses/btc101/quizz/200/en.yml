@@ -4,8 +4,9 @@ wrong_answers:
   - Buying Bitcoin at regular intervals.
   - Buying Bitcoin only when the price drops.
   - Buying Bitcoin only when the price rises.
-explanation: >-
-  The text explains that a spontaneous purchase is used to immediately
-  gain exposure to Bitcoin. This could be buying during a crash or taking advantage
-  of a bonus.
-reviewed: false
+explanation: |
+  The course text explains that a spontaneous purchase is
+  used to immediately gain exposure to Bitcoin. For example,
+  it could mean buying during a crash or taking advantage of
+  a bonus.
+reviewed: true

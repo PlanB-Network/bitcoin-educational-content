@@ -1,11 +1,9 @@
-question: Miten louhijat saavat korvauksen työstään?
-answer: Louhijat saavat korvauksen lohkoon sisältyvästä palkkiosta ja transaktiomaksuista.
+question: Mikä on coinbase-transaktio?
+answer: Lohkon ensimmäinen transaktio, joka sisältää louhijan palkkion.
 wrong_answers:
-  - Louhijat saavat maksun Bitcoin-verkolta.
-  - Louhijat saavat kiinteän palkan työstään.
-  - Louhijat saavat korvauksen uusina bitcoineina.
+  - Transaktio, joka suoritetaan pörssissä Coinbase.
+  - Lohkon toinen transaktio, joka sisältää korkeimmat maksut.
+  - Transaktio, jonka louhija suorittaa saatuaan palkkion.
 explanation: >-
-  Kun louhija onnistuneesti louhii lohkon, hän saa palkkion uusien bitcoinien
-  muodossa. Tämä palkkio sisältyy heidän louhimaansa lohkoon. Lisäksi louhijat saavat myös
-  transaktiomaksuja lohkoon sisältyvistä transaktioista.
-reviewed: false
+  Coinbase-transaktio on aina lohkon ensimmäinen transaktio. Se sisältää louhijan palkkion validointityön suorittamisesta.
+reviewed: true

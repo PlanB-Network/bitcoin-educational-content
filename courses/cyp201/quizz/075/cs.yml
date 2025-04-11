@@ -1,9 +1,8 @@
-question: Jaká funkce se používá k vygenerování seedu z heslové fráze v Bitcoinové peněžence?
-answer: pbkdf2
+question: Jaká je derivace cesty pro účet SegWit v0 ve standardním popisu?
+answer: 84h/0h/0h
 wrong_answers:
-  - sha256
-  - md5
-  - bcrypt
+  - 44h/0h/0h
+  - 86h/0h/0h
+  - 84/0/0
 explanation: |
-  Funkce pbkdf2 se používá k vygenerování seedu z heslové fráze v Bitcoinové peněžence. Tento seed umožňuje odvození všech dceřiných párů klíčů peněženky.
-reviewed: false
+  Cesta 84h/0h/0h je definována v BIP84 pro účet derivující adresy SegWit v0 s P2WPKH.

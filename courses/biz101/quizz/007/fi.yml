@@ -1,0 +1,9 @@
+question: Mikä seuraavista kuvaa parhaiten sitä, miten Bitcoin-tapahtumat saavuttavat lopullisuuden?
+answer: Lohkoketjuun tallentamisen jälkeen tapahtumat ovat muuttumattomia, eikä niitä voida muuttaa.
+wrong_answers:
+  - Pankit voivat peruuttaa tapahtumat, jos syntyy riita.
+  - Käyttäjien on saatava hyväksyntä useilta viranomaisilta saadakseen tapahtuman päätökseen.
+  - Kuka tahansa osallistuja voi muokata aiempia tapahtumia, jos hänellä on erityinen koodi.
+explanation: |
+  Bitcoinin lohkoketju on peukaloinnin kestävä pääkirja. Kun transaktio on vahvistettu ja sisällytetty lohkoon, siitä tulee osa pysyvää tietuetta, mikä takaa lopullisuuden.
+reviewed: false

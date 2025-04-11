@@ -1,0 +1,11 @@
+question: Apa tujuan dari sebuah node Bitcoin dalam konteks Lightning Network?
+answer: Untuk membantu memahami dan menjelajahi aspek-aspek baru dari Bitcoin yang dibawa oleh Lightning Network.
+wrong_answers:
+  - Untuk menambang Bitcoin baru.
+  - Untuk berdagang Bitcoin.
+  - Untuk menyimpan Bitcoin.
+explanation: |
+  Sebuah node Bitcoin dalam konteks Lightning Network digunakan untuk memahami
+  dan menjelajahi aspek-aspek baru dari Bitcoin yang dibawa oleh Lightning Network. Ini
+  tidak digunakan untuk menambang Bitcoin baru, berdagang Bitcoin, atau menyimpan Bitcoin.
+reviewed: false

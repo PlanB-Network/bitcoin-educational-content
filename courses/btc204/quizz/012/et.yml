@@ -1,0 +1,9 @@
+question: Kuidas takistatakse Bitcoinis topeltkulutamist?
+answer: Kõigi süsteemitehingute avaliku edastamise kaudu.
+wrong_answers:
+  - Kontrollides kasutajate identiteeti enne iga tehingut.
+  - Perioodiliselt tehinguid audiitorite poolt üle vaadates.
+  - Piirates kasutaja kohta tehingute arvu.
+explanation: |
+  Selleks, et kinnitada tehingu puudumist ja seeläbi vältida topeltkulutamist, on vajalik, et iga kasutaja oleks teadlik kõigist varasematest tehingutest.
+reviewed: false

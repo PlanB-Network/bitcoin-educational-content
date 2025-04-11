@@ -1,9 +1,10 @@
-question: Quali sono alcuni degli strumenti utilizzati nella sicurezza informatica?
+question: Quali sono alcuni degli strumenti utilizzati nella cybersecurity?
 answer: Wireshark, Metasploit, Nmap
 wrong_answers:
   - Photoshop, Illustrator, InDesign
   - Excel, PowerPoint, Word
   - AutoCAD, SolidWorks, Revit
 explanation: |
-  Il capitolo elenca Wireshark, Metasploit e Nmap come alcuni degli strumenti utilizzati nella sicurezza informatica.
-reviewed: false
+  Il capitolo elenca Wireshark, Metasploit e Nmap come alcuni
+  degli strumenti utilizzati nella cybersecurity.
+reviewed: vero

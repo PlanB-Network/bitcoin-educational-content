@@ -1,0 +1,11 @@
+question: Mida näitab tagasiulatuv anonüümsuskomplekt?
+
+answer: Tõenäoliste allikate arv UTXO jaoks tsüklite lõpus.
+
+wrong_answers:
+  - Tsüklite lõpus eristamatute UTXO-de grupi suurus.
+  - Tõenäoliste allikate arv UTXO jaoks tsüklite alguses.
+  - Aeg, mis on vajalik coinjoin'i lõpuleviimiseks.
+
+explanation: |
+  Tagasiulatuv anonüümsuskomplekt näitab antud mündi võimalike allikate arvu, arvestades UTXO-d tsükli lõpus.

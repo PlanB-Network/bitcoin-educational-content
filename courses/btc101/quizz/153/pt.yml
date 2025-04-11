@@ -1,13 +1,13 @@
-question: Qual é o objetivo do ajuste de dificuldade na mineração de Bitcoin?
+question: Qual é o propósito do ajuste de dificuldade na mineração de Bitcoin?
 answer: Ele reequilibra o jogo global de mineração com base no número de participantes.
 wrong_answers:
-  - Ele aumenta a recompensa pela mineração.
-  - Ele diminui o número de bitcoins em circulação.
-  - Ele aumenta a segurança da rede Bitcoin.
-explanation: |
+  - Aumenta a recompensa pela mineração.
+  - Diminui o número de bitcoins em circulação.
+  - Aumenta a segurança da rede Bitcoin.
+explanation: >-
   O ajuste de dificuldade na mineração de Bitcoin é projetado para garantir que
-  o tempo necessário para minerar um bloco permaneça aproximadamente constante, independentemente do
-  poder computacional total da rede. Ele ajusta a dificuldade do problema matemático
-  que os mineradores devem resolver, com base no número de mineradores participantes na
+  o tempo necessário para minerar um bloco permaneça aproximadamente constante, independentemente
+  do poder computacional total da rede. Ele ajusta a dificuldade do problema matemático
+  que os mineradores devem resolver, com base no número de mineradores participando na
   rede.
-reviewed: false
+reviewed: true

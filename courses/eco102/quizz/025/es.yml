@@ -1,0 +1,9 @@
+question: ¿Cuál fue el objetivo principal de la Liga Inglesa en 1838?
+answer: Contra las leyes del maíz
+wrong_answers:
+  - Contra los grandes terratenientes
+  - Para la promoción de los trabajadores agrícolas
+  - Contra los comerciantes extranjeros
+explanation: |
+  La Liga Inglesa, inspirada por Richard Cobden, buscaba abolir las leyes proteccionistas del maíz para promover el libre comercio y reducir la pobreza.
+reviewed: false

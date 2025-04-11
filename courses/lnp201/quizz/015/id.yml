@@ -1,0 +1,8 @@
+question: Apa yang mencerminkan transaksi komitmen dalam saluran Lightning?
+answer: Distribusi dana baru antara dua pihak
+wrong_answers:
+  - Jumlah total transaksi yang dilakukan
+  - Jumlah biaya yang harus dibayar untuk transaksi tersebut
+  - Pembukaan saluran pembayaran baru
+explanation: |
+  Transaksi komitmen merepresentasikan distribusi dana saat ini dalam saluran setelah setiap transaksi Lightning, tetapi tidak dipublikasikan di blockchain selama saluran tetap terbuka.

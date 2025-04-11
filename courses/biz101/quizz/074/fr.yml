@@ -1,0 +1,9 @@
+question: Quels sont les dispositifs de sécurité avancés généralement mis en œuvre au niveau de l'entreprise pour les bitcoins ?
+answer: Multi-signature avec timelocks
+wrong_answers:
+  - Protection par mot de passe d'un portefeuille mobile Lightning
+  - Signature unique avec protection par phrase secrète BIP39
+  - Single-sig avec 24 mots phrase de semence
+explanation: |
+  Les mesures de haute sécurité, telles que les configurations à signatures multiples et les horloges de contrôle, sont cruciales pour la gestion de sommes importantes.
+reviewed: false

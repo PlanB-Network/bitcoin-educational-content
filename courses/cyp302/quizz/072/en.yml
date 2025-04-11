@@ -1,0 +1,9 @@
+question: Why is shift encryption considered symmetric encryption?
+answer: Because the same key is used for both encryption and decryption
+wrong_answers:
+  - Because it uses two keys, public and private
+  - Because it decrypts without using a key
+  - Because the key varies with each encryption
+explanation: |
+  Shift encryption is considered symmetric encryption because it uses the same key to encrypt and decrypt a message, thus ensuring confidentiality between the parties sharing this key.
+reviewed: false

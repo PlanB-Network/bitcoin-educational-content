@@ -1,0 +1,12 @@
+question: Hva er effekten av konsumprisindeksen (CPI) på målingen av inflasjon?
+answer: CPI kan undervurdere faktisk inflasjon ettersom den ikke fullstendig tar hensyn til utviklingen av eiendomspriser og kan utligne eller skjule faktiske prisøkninger.
+wrong_answers:
+  - CPI måler alltid inflasjon nøyaktig.
+  - CPI overvurderer faktisk inflasjon.
+  - CPI har ingen innvirkning på målingen av inflasjon.
+explanation: |
+  Kapittelet forklarer at CPI, brukt som den viktigste indikatoren på inflasjon,
+  har visse begrensninger. For eksempel tar den ikke fullstendig hensyn til
+  utviklingen av eiendomspriser. Også, beregningen av CPI inkluderer visse
+  metodologier som kan utligne eller skjule faktiske prisøkninger.
+reviewed: false

@@ -1,0 +1,9 @@
+question: LSP 在企业比特币支付中扮演什么角色？
+answer: 在 "闪电 "平台上管理大容量交易
+wrong_answers:
+  - 存储闪电钱包的私钥
+  - 打印闪电发票
+  - 在 Lightning 上手动处理退款
+explanation: |
+  LSP 处理 Lightning 上的复杂和大量操作。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mikä on ensimmäisen kirjoitetun roomalaisen lain koodifikaation nimi?
+answer: Kahdentoista taulun laki
+wrong_answers:
+  - Hammurabin laki
+  - Digesta
+  - Justinianuksen editit
+explanation: |
+  Kahdentoista taulun laki on ensimmäinen kirjoitettu roomalaisen lain koodifikaatio, joka luotiin muodollistamaan lait ja varmistamaan oikeudellisen tasa-arvon kansalaisten kesken tekemällä laista kaikkien saavutettavissa.
+reviewed: false

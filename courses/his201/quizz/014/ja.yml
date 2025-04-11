@@ -1,0 +1,9 @@
+question: プルーフ・オブ・ワークの概念を発明したのは誰ですか？
+answer: Cynthia DworkとMoni Naor
+wrong_answers:
+  - Markus JakobssonとAri Juels
+  - Adam Back
+  - Satoshi Nakamoto
+explanation: |
+  彼らは1992年にこの概念を説明しました。Markus JakobssonとAri Juelsが「プルーフ・オブ・ワーク」という用語を作りました。Adam Backは後にHashcashのためにこの概念を採用しました。
+reviewed: false

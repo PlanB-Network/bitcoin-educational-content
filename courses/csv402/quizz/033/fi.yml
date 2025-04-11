@@ -1,0 +1,9 @@
+question: Mikä on terminaalilähetyksen tarkoitus RGB-siirtoprosessissa?
+answer: Valtion siirtymähistoria
+wrong_answers:
+  - Validoi Genesis-sopimus
+  - Poista vanhat siirtymät
+  - Luo uusi skeema siirtoa varten
+explanation: |
+  Päätepostilähetyksessä kerätään sopimushistoriaa, jolla osoitetaan siirrettyjen varojen laillisuus tähän mennessä.
+reviewed: false

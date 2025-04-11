@@ -1,0 +1,18 @@
+---
+term: COINJOIN CHAUMIANO
+
+---
+Un protocollo coinjoin che utilizza le firme cieche di David Chaum e Tor per le comunicazioni tra i partecipanti e il server del coordinatore. L'obiettivo di una coinjoin chaumiana è garantire ai partecipanti che il coordinatore non possa rubare i bitcoin, né collegare tra loro gli input e gli output.
+
+A tal fine, gli utenti inviano al coordinatore il loro input e un indirizzo di ricezione crittograficamente blindato. Questo indirizzo, una volta sbloccato, è destinato a ricevere i bitcoin come output del coinjoin. Il coordinatore firma questi gettoni e li restituisce agli utenti. Gli utenti si ricollegano quindi in modo anonimo al server del coordinatore con una nuova identità Tor e rivelano i loro indirizzi di uscita in chiaro per la costruzione della transazione. Il coordinatore può verificare che tutti questi indirizzi di ricezione provengano da utenti legittimi, poiché ha precedentemente firmato la loro versione blindata con la sua chiave privata. Tuttavia, non può associare uno specifico indirizzo di uscita a un determinato utente di ingresso. Pertanto, non esiste alcun legame tra gli ingressi e le uscite, nemmeno dal punto di vista del coordinatore. Una volta che il coordinatore ha costruito la transazione, la invia ai partecipanti che la firmano per sbloccare i loro input, dopo aver verificato che i loro output sono effettivamente in questa transazione. I partecipanti inviano la firma al coordinatore. Una volta raccolte tutte le firme, il coordinatore può trasmettere la transazione coinjoin sulla rete Bitcoin.
+
+![](../../dictionnaire/assets/38.webp)
+
+Questo metodo garantisce che il coordinatore non possa compromettere l'anonimato dei partecipanti né rubare i bitcoin durante l'intero processo di coinjoin.
+
+È difficile stabilire con certezza chi abbia introdotto per primo l'idea di coinjoin su Bitcoin e chi abbia avuto l'idea di utilizzare le firme cieche di David Chaum in questo contesto. Spesso si pensa che Gregory Maxwell sia stato il primo a parlarne in [un messaggio su BitcoinTalk del 2013](https://bitcointalk.org/index.php?topic=279249.0):
+
+> *"Utilizzando le firme cieche di Chaum: Gli utenti si connettono e forniscono gli input (e cambiano gli indirizzi) e una versione crittograficamente blindata dell'indirizzo a cui desiderano inviare le loro monete private; il server firma i token e li restituisce. Gli utenti si riconnettono in modo anonimo, smascherano gli indirizzi di uscita e li restituiscono al server. Il server può vedere che tutti gli output sono stati firmati da lui e che, quindi, tutti gli output provengono da partecipanti validi. In seguito, le persone si riconnettono e firmano "*
+Maxwell, G. (2013, 22 agosto). *CoinJoin: La privacy dei Bitcoin per il mondo reale*. Forum BitcoinTalk. https://bitcointalk.org/index.php?topic=279249.0
+
+Tuttavia, ci sono altre menzioni precedenti, sia per le firme di Chaum nel contesto della miscelazione, sia per le coinjoin. [Nel giugno 2011, Duncan Townsend ha presentato su BitcoinTalk](https://bitcointalk.org/index.php?topic=12751.0) un mixer che utilizza le firme di Chaum in modo del tutto simile alle moderne coinjoin chaumiane. Nello stesso thread, c'è [un messaggio di hashcoin in risposta a Duncan Townsend](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793) per migliorare il suo mixer. Questo messaggio presenta esattamente ciò che assomiglia di più alle coinjoin. Un accenno a un sistema simile si trova anche in [un messaggio di Alex Mizrahi del 2012](https://gist.github.com/killerstorm/6f843e1d3ffc38191aebca67d483bd88#file-laundry), mentre consigliava i creatori di Tenebrix. Il termine stesso "coinjoin" non sarebbe stato inventato da Greg Maxwell, ma deriverebbe da un'idea di Peter Todd.

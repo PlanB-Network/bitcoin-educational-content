@@ -1,0 +1,9 @@
+question: Nhánh của mật mã học sử dụng cặp khóa công khai và khóa riêng được gọi là gì?
+answer: Mật mã học bất đối xứng
+wrong_answers:
+  - Mật mã học đối xứng
+  - Mật mã học đơn thuật toán
+  - Mật mã học tích hợp
+explanation: |
+  Mật mã học bất đối xứng dựa trên việc sử dụng một cặp khóa, công khai và riêng tư, cho phép mã hóa mà không cần chia sẻ một khóa bí mật.
+reviewed: false

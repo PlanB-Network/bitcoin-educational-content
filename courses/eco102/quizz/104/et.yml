@@ -1,0 +1,9 @@
+question: Millist kriitikat esitab Bastiat riikliku sekkumise kohta väljaspool turvalisust ja õiglust?
+answer: See soosib privileege ja kahjustab kodanikuühiskonda
+wrong_answers:
+  - See võimaldab majandusressursside paremat jaotust
+  - See loob sotsiaalse rahu ja piirab konflikte
+  - See tagab varade õiglase jaotuse
+explanation: |
+  Bastiat usub, et liigne riiklik sekkumine loob privileege ja kahjustab kodanikuühiskonda, piirates eraalgatusi.
+reviewed: false

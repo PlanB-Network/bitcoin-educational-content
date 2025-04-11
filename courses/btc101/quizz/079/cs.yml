@@ -1,10 +1,11 @@
 question: Jak můžete posílit výchozí zabezpečení vaší Bitcoin peněženky?
-answer: Přidáním heslové fráze do vaší Bitcoin peněženky
+answer: Přidáním heslové fráze do vaší Bitcoin peněženky.
 wrong_answers:
-  - Přidáním druhého soukromého klíče do vaší Bitcoin peněženky
-  - Přidáním druhého veřejného klíče do vaší Bitcoin peněženky
-  - Přidáním druhé mnemonické fráze do vaší Bitcoin peněženky
+  - Přidáním druhého soukromého klíče do vaší Bitcoin peněženky.
+  - Přidáním druhého veřejného klíče do vaší Bitcoin peněženky.
+  - Přidáním druhé mnemonické fráze do vaší Bitcoin peněženky.
 explanation: |
-  Pokud nejste spokojeni s výchozím zabezpečením vaší Bitcoin peněženky,
-  můžete jej vždy posílit přidáním heslové fráze do vaší Bitcoin peněženky.
-reviewed: false
+  Pokud nejste spokojeni s výchozím zabezpečením vaší
+  Bitcoin peněženky, můžete jej vždy posílit přidáním
+  heslové fráze do vaší Bitcoin peněženky.
+reviewed: true

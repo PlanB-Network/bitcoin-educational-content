@@ -1,0 +1,12 @@
+question: Mis on arutelu Bitcoin'i kogukonnas kaevandamise osas?
+answer: Tasakaal kasumi otsimise ja Bitcoin'i võrgu turvalisuse ning jaotuse panustamise vahel
+wrong_answers:
+  - Tasakaal hashrate'i suurendamise ja aktiivsete sõlmede arvu vähendamise vahel
+  - Tasakaal hinna tõstmise ja kulude vähendamise vahel
+  - Tasakaal tehingute arvu suurendamise ja energiatarbimise vähendamise vahel
+explanation: |
+  Arutelu Bitcoin'i kogukonnas kaevandamise üle
+  keerleb tasakaalu ümber kasumi otsimise ja
+  Bitcoin'i võrgu turvalisuse ning jaotuse panustamise vahel. Mõlemal
+  poolel on tugevad argumendid.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Apa praktik yang direkomendasikan untuk mengelola kata sandi utama dari sebuah pengelola kata sandi?
+answer: Tuliskan pada kertas dan simpan di lokasi yang tersembunyi dan aman.
+wrong_answers:
+  - Simpan di email Anda.
+  - Gunakan kata sandi yang sama untuk semua akun.
+  - Hafalkan.
+explanation: |
+  Direkomendasikan untuk menuliskan kata sandi utama dari pengelola kata sandi pada kertas, namun harus disimpan di lokasi yang tersembunyi dan aman. Ini karena jika hard drive dienkripsi dan komputer terkunci, kata sandi tidak akan dapat diakses, bahkan dalam kasus pencurian.
+reviewed: false

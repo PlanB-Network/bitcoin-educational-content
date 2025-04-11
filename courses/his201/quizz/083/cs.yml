@@ -1,0 +1,8 @@
+question: Jaká byla nejvyšší cena, které Bitcoin dosáhl v červnu 2011?
+answer: $32
+wrong_answers:
+  - $1
+  - $3
+  - $8
+explanation: |
+  8. června cena Bitcoinu dosáhla historického maxima $32 na burze Mt. Gox. Nicméně, poté rychle klesla.

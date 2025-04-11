@@ -1,12 +1,13 @@
 question: Proč se zlato stalo standardním prostředkem výměny?
-answer: Kvůli jeho vzácnosti, trvanlivosti a dělitelnosti
+answer: Kvůli jeho vzácnosti, trvanlivosti a dělitelnosti.
 wrong_answers:
-  - Kvůli jeho hojnosti, trvanlivosti a nedělitelnosti
-  - Kvůli jeho vzácnosti, pominutelnosti a dělitelnosti
-  - Kvůli jeho hojnosti, pominutelnosti a nedělitelnosti
+  - Kvůli jeho hojnosti, trvanlivosti a nedělitelnosti.
+  - Kvůli jeho vzácnosti, pominutelnosti a dělitelnosti.
+  - Kvůli jeho hojnosti, pominutelnosti a nedělitelnosti.
 explanation: |
-  Zlato se stalo standardním prostředkem výměny díky jeho vzácnosti, trvanlivosti
-  a dělitelnosti. Jeho vzácnost brání devalvaci z produkce, jeho trvanlivost zajišťovala, že se
-  časem nerozpadá, a jeho dělitelnost umožňovala jeho použití v transakcích různých
-  velikostí.
+  Zlato se stalo standardním prostředkem výměny díky své
+  vzácnosti, trvanlivosti a dělitelnosti: jeho vzácnost zabránila
+  devalvaci způsobené produkcí; jeho trvanlivost zajistila, že
+  se časem nerozpadne, a jeho dělitelnost umožnila použití
+  v transakcích různých velikostí.
 reviewed: true

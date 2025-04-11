@@ -1,0 +1,9 @@
+question: Jaký je nejznámější přínos Adama Smithe k ekonomii?
+answer: Vyvinul teorii neviditelné ruky.
+wrong_answers:
+  - Vyvinul teorii viditelného prstu.
+  - Vyvinul teorii neviditelného prstu.
+  - Vyvinul teorii viditelné ruky.
+explanation: |
+  Adam Smith je známý díky své teorii neviditelné ruky, která tvrdí, že jednotlivé akce motivované vlastním zájmem neúmyslně přispívají k ekonomickému blahobytu společnosti jako celku.
+reviewed: false

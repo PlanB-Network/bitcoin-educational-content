@@ -1,0 +1,9 @@
+question: ¿Qué tipo de cifrado utiliza bloques de datos fijos?
+answer: Cifrado de bloque
+wrong_answers:
+  - Cifrado de flujo
+  - Código de autenticación de mensaje
+  - Clave pública
+explanation: |
+  El cifrado de bloque divide los datos en bloques de tamaño fijo y los cifra de manera independiente.
+reviewed: false

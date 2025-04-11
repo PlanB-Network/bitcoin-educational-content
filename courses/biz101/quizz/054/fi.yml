@@ -1,0 +1,9 @@
+question: Mikä seuraavista ohjelmistoista ei ole Bitcoin-kirjanpitoratkaisu?
+answer: Varpunen
+wrong_answers:
+  - CoinTracker
+  - Koinly
+  - ZenLedger
+explanation: |
+  Sparrow ei ole Bitcoin-kirjanpitoratkaisu, kun taas muut ovat (se on Bitcoin-lompakko-ohjelmisto).
+reviewed: false

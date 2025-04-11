@@ -1,0 +1,13 @@
+question: Vai trò của các cơ quan chứng nhận trong quá trình phân phối khóa công khai là gì?
+
+answer: Họ phát hành các chứng chỉ bảo đảm tính xác thực của khóa công khai
+
+wrong_answers:
+  - Họ tạo ra khóa riêng cho người dùng
+  - Họ lưu trữ khóa công khai cho tất cả người dùng
+  - Họ đảm bảo việc mã hóa tin nhắn giữa người dùng
+
+explanation: |
+  Các cơ quan chứng nhận phát hành các chứng chỉ liên kết một khóa công khai với chủ sở hữu của nó, cho phép người dùng xác minh tính xác thực của các khóa công khai mà họ sử dụng.
+
+reviewed: false

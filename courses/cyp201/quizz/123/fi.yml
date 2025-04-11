@@ -1,9 +1,0 @@
-question: Säästääkö Bitcoin-osoitteen käyttäminen tilaa lohkoissa?
-answer: Tämä on väärin
-wrong_answers:
-  - Tämä on totta
-  - Vain jos osoite on pakattu
-  - Vain jos osoite on hajautettu
-explanation: |
-  Bitcoin-osoitteen käyttäminen ei säästä tilaa lohkoissa. Pääsyy osoitteen käyttöön on julkisen avaimen tiedon koon pienentäminen.
-reviewed: false

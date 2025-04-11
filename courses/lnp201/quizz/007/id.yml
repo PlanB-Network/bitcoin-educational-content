@@ -1,0 +1,8 @@
+question: Mengapa UTXO sering dibandingkan dengan uang kertas?
+answer: Mereka harus dihabiskan secara keseluruhan
+wrong_answers:
+  - Mereka dapat digunakan berulang kali sampai habis
+  - Mereka hanya dapat digunakan dalam transaksi tertentu saja
+  - Mereka mewakili jumlah bitcoin yang kecil dan tetap
+explanation: |
+  Seperti uang kertas, sebuah UTXO harus dihabiskan sepenuhnya dalam sebuah transaksi, dan kelebihan apapun dikembalikan kepada pengirim sebagai kembalian.

@@ -1,0 +1,11 @@
+question: Apa yang harus Anda lakukan setelah menulis surat menurut bab tersebut?
+answer: Tinjau kembali pekerjaan Anda, buat salinan surat tersebut, simpan kedua salinan dalam sebuah amplop, segel, tandatangani segel tersebut, dan simpan amplop ini di tempat yang aman namun mudah diakses.
+wrong_answers:
+  - Abaikan pekerjaan Anda, buat salinan surat tersebut, simpan kedua salinan dalam sebuah amplop, segel, tandatangani segel tersebut, dan simpan amplop ini di tempat yang berbahaya namun tidak dapat diakses.
+  - Tinjau kembali pekerjaan Anda, buat salinan surat tersebut, simpan kedua salinan dalam sebuah amplop, buka, tandatangani segel tersebut, dan simpan amplop ini di tempat yang aman namun mudah diakses.
+  - Abaikan pekerjaan Anda, buat salinan surat tersebut, simpan kedua salinan dalam sebuah amplop, buka, tandatangani segel tersebut, dan simpan amplop ini di tempat yang berbahaya namun tidak dapat diakses.
+explanation: |
+  Setelah menulis surat, Anda harus meninjau kembali pekerjaan Anda, membuat salinan dari
+  surat tersebut, menyimpan kedua salinan dalam sebuah amplop, menyegelnya, menandatangani segel tersebut, dan menyimpan
+  amplop ini di tempat yang aman namun mudah diakses, seperti yang disarankan dalam bab tersebut.
+reviewed: false

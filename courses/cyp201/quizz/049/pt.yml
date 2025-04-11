@@ -1,9 +1,8 @@
-question: Qual é o objetivo das Propostas de Melhoria do Bitcoin (BIPs)?
-answer: Elas são propostas de atualização que aprimoram a funcionalidade e segurança das carteiras HD.
+question: Qual é o propósito da frase mnemônica em uma carteira Bitcoin HD?
+answer: Derivar deterministicamente todas as chaves
 wrong_answers:
-  - Elas são propostas para aumentar o valor do Bitcoin.
-  - Elas são propostas para alterar o processo de mineração do Bitcoin.
-  - Elas são propostas para regular o uso do Bitcoin.
+  - Para assinar transações diretamente
+  - Para criptografar endereços Bitcoin
+  - Para gerar um hash para os UTXOs
 explanation: |
-  As Propostas de Melhoria do Bitcoin (BIPs) são protocolos que visam melhorar a funcionalidade e segurança das carteiras HD. Por exemplo, o BIP32 introduziu o conceito de chaves derivadas de forma determinística e hierárquica.
-reviewed: false
+  A frase mnemônica permite a derivação de todas as chaves privadas e públicas em uma carteira, facilitando assim o backup e a recuperação.

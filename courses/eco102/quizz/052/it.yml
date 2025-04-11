@@ -1,0 +1,9 @@
+question: Quale conclusione trae Bastiat dall'impatto della distruzione sull'economia?
+answer: È dannosa per l'economia
+wrong_answers:
+  - È vantaggiosa per l'economia
+  - È neutra per l'economia
+  - Dipende dalla situazione economica
+explanation: |
+  Bastiat dimostra che la distruzione è un onere economico perché devia risorse preziose e non crea alcun valore aggiunto.
+reviewed: false

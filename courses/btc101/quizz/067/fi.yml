@@ -1,9 +1,12 @@
 question: Kuinka usein vaikeustason säätö tapahtuu?
-answer: Joka 2016 lohkon välein
+answer: Joka 2016 lohkon välein.
 wrong_answers:
-  - Joka 1048 lohkon välein
-  - Joka 512 lohkon välein
-  - Joka 4032 lohkon välein
+  - Joka 1048 lohkon välein.
+  - Joka 512 lohkon välein.
+  - Joka 4032 lohkon välein.
 explanation: |
-  Vaikeustason säätö on mekanismi, joka tapahtuu joka 2016 lohkon välein, eli noin kahden viikon välein, varmistaakseen, että uusi lohko lisätään lohkoketjuun keskimäärin joka kymmenes minuutti riippumatta globaalista hashratesta.
-reviewed: false
+  Vaikeustason säätö on mekanismi, joka tapahtuu
+  joka 2016 lohkon välein, eli noin kahden viikon välein, varmistaakseen, että
+  uusi lohko lisätään lohkoketjuun keskimäärin joka kymmenes minuutti,
+  riippumatta globaalista hashratesta.
+reviewed: true

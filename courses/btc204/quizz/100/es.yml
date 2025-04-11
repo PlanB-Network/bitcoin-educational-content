@@ -1,0 +1,13 @@
+question: ¿Qué indica la entropía en el contexto del análisis de cadena en Bitcoin?
+
+answer: La falta de conocimiento de los analistas sobre la configuración exacta de la transacción.
+
+wrong_answers:
+  - La velocidad a la que la información sobre una transacción se propaga a través de la red.
+  - El nivel de seguridad criptográfica de las firmas digitales utilizadas en la transacción.
+  - El tamaño del grupo de UTXOs idénticos en el que se oculta una moneda.
+
+explanation: |
+  La entropía se utiliza para medir la falta de conocimiento de los analistas sobre la configuración exacta de la transacción. En otras palabras, cuanto mayor es la entropía, más difícil se vuelve para los analistas identificar los flujos de bitcoins entre entradas y salidas.
+
+reviewed: false

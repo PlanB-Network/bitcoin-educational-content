@@ -1,0 +1,13 @@
+question: Hva er rollen til en coinjoin-koordinator?
+
+answer: Koble sammen deltakere og konstruere transaksjonen.
+
+wrong_answers:
+  - Kryptere deltakerdata for transaksjonskonfidensialitet.
+  - Holde en oversikt over tidligere coinjoins for sikkerhetsrevisjoner.
+  - Motta bitcoins fra deltakere for å blande dem.
+
+explanation: |
+  Rollen til koordinatorer er å koble sammen de forskjellige brukerne og å konstruere og deretter kringkaste den samarbeidende transaksjonen.
+
+reviewed: false

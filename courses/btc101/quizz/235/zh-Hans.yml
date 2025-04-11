@@ -1,0 +1,8 @@
+question: 闪电网络中使用的比特币单位是什么？
+answer: Sats
+wrong_answers:
+  - 比特币
+  - 以太坊
+  - 莱特币
+explanation: 闪电网络使用sats（比特币的小数单位）来运作。
+  已审查：否

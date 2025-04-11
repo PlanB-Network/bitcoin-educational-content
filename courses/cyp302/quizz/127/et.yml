@@ -1,0 +1,8 @@
+question: Milline matemaatiline kontseptsioon on Diffie-Hellmani võtmevahetuse aluseks?
+answer: Ühesuunaline funktsioon tagauksega
+wrong_answers:
+  - Pöörd-eksponentsiaalfunktsioon
+  - Krüptograafiline räsifunktsioon
+  - Lihtsustatud modulaarne jagamine
+explanation: |
+  Diffie-Hellman tugineb ühesuunalisele funktsioonile, mida on lihtne arvutada ühes suunas, kuid praktiliselt võimatu pöörata ilma salajase teabeta, mida nimetatakse tagaukseks.

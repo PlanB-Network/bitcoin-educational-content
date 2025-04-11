@@ -1,9 +1,0 @@
-question: Was passiert, wenn das HTLC abläuft?
-answer: Das Geld wird an den Absender zurückgegeben.
-wrong_answers:
-  - Das Geld wird an den Empfänger überwiesen.
-  - Das Geld geht verloren.
-  - Das Geld wird an eine dritte Partei überwiesen.
-explanation: |
-  Wenn der Empfänger das Geheimnis innerhalb einer bestimmten Zeitspanne nicht preisgibt, läuft das HTLC ab und das Geld wird an den Absender zurückgegeben.
-reviewed: false

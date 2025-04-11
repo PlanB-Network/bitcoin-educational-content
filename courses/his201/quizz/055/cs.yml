@@ -1,0 +1,8 @@
+question: Po incidentu s přetečením hodnoty, jaký mechanismus byl přidán do softwaru Satoshi Nakamotem, aby se omezil dopad potenciálních zranitelností na systém?
+answer: Systém upozornění
+wrong_answers:
+  - Standardní povaha transakcí
+  - Limit velikosti bloku
+  - OP_NOP operační kódy
+explanation: |
+  Tento efektivní systém upozornění mu umožnil, s použitím soukromého klíče, varovat uzly sítě v případě technického problému a pozastavit některé příkazy API.

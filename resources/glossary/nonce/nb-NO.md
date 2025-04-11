@@ -1,0 +1,10 @@
+---
+term: NONCE
+
+---
+I datasammenheng refererer begrepet "nonce" til et tall som bare brukes én gang, og som deretter erstattes. Det er ofte tilfeldig eller pseudotilfeldige. Nonces brukes i ulike kryptografiske protokoller for å garantere sikkerheten i prosessen. ECDSA-signaturene som brukes i Bitcoin-protokollen, inkluderer for eksempel bruk av et nonce. Dette betyr at dette tallet må være nytt for hver signatur. Hvis dette ikke er tilfelle, er det mulig å beregne den private nøkkelen som brukes, ved å sammenligne to signaturer som bruker samme nonce.
+
+Nonces brukes også i Bitcoin-utvinningsprosessen. Utvinnere øker disse modifiserbare verdiene i kandidatblokkene sine. De endrer nonce-verdien for å finne en kryptografisk hash som er lavere enn eller lik vanskelighetsmålet. Denne prosessen krever betydelig regnekraft, ettersom den innebærer et uttømmende søk blant et stort antall mulige nonce-verdier. Når en utvinner finner en nonce som, når den inkluderes i blokken, gir et sammendrag som oppfyller vanskelighetskriteriene, sendes blokken til nettverket, og utvinneren vinner belønningen.
+
+> ► * I 2010 oppdaget forskere at Sonys PlayStation 3 brukte samme nonce ved signering av ulike kodepakker. Denne gjenbruken av nonce gjorde det mulig for angripere å beregne den private nøkkelen som ble brukt til å signere programvaren. Med den private nøkkelen i hånden kunne angriperne lage gyldige signaturer for hvilken som helst kode, noe som gjorde det mulig for dem å kjøre uautorisert programvare, inkludert piratkopierte spill eller tilpassede operativsystemer, direkte på PS3.*
+> det er en vanlig misforståelse om opprinnelsen til begrepet "nonce" Noen hevder at det er en forkortelse av "number only used once" I virkeligheten stammer ordet fra 1700-tallet og er en semantisk videreutvikling av det gammelengelske uttrykket "then anes", som betydde "for anledningen"

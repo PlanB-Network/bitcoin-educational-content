@@ -1,0 +1,9 @@
+question: Qual é a caraterística que define a Bitcoin como uma rede monetária?
+answer: É semelhante ao numerário e não requer qualquer autoridade central ou intermediário para as transacções.
+wrong_answers:
+  - Só pode funcionar quando autorizado por uma agência governamental.
+  - Emite novas unidades monetárias a pedido de qualquer utilizador.
+  - Necessita que os bancos verifiquem e liquidem todas as transacções.
+explanation: |
+  O Bitcoin opera como uma rede descentralizada, permitindo que qualquer pessoa participe sem permissão. As transacções são validadas por nós e mineiros, e não por uma autoridade central.
+reviewed: false

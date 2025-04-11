@@ -1,0 +1,13 @@
+question: Why is it advised against merging several UTXOs after coinjoin cycles?
+
+answer: This could compromise privacy due to the CIOH.
+
+wrong_answers:
+  - It decreases the speed of transactions.
+  - It reveals suspicious activity to the coordinator.
+  - This could compromise privacy due to the round payment heuristic.
+
+explanation: |
+  It is important to avoid combining mixed UTXOs with unmixed UTXOs in the same transaction, but also mixing UTXOs among themselves, in order to avoid the Common-Input-Ownership-Heuristic (CIOH).
+
+reviewed: false

@@ -1,0 +1,9 @@
+question: Apa penemuan Inggris lainnya oleh peneliti di GCHQ yang mendahului penemuan Diffie dan Hellman, tetapi tetap dirahasiakan?
+answer: Konsep kriptografi asimetris dan pertukaran kunci
+wrong_answers:
+  - Protokol enkripsi simetris lanjutan tanpa kebutuhan akan kunci
+  - Metode baru hashing kriptografi asimetris
+  - Metode untuk menciptakan uang elektronik
+explanation: |
+  Kriptografer Inggris, yang bekerja untuk GCHQ, secara independen mengembangkan ide-ide serupa dengan Diffie dan Hellman, tetapi kemajuan ini tetap rahasia sampai mereka diungkapkan pada tahun 1997.
+reviewed: false

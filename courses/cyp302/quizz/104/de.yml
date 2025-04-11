@@ -1,0 +1,9 @@
+question: Was ist das Hauptziel eines Authentifizierten Verschlüsselungsschemas?
+answer: Die Vertraulichkeit und Authentizität von Kommunikation sicherstellen
+wrong_answers:
+  - Schlüssel auf sichere Weise generieren
+  - MACs in kryptografischen Austauschen ersetzen
+  - Abgefangene Nachrichten automatisch entschlüsseln
+explanation: |
+  Ein Authentifiziertes Verschlüsselungsschema kombiniert Verschlüsselung und einen Authentifizierungscode (MAC), um sowohl die Vertraulichkeit von Nachrichten als auch deren Authentizität zu gewährleisten.
+reviewed: false

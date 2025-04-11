@@ -1,0 +1,9 @@
+question: Di mana para pengembang Bitcoin bertemu untuk memiliki diskusi teknis yang lebih informal?
+answer: Di saluran IRC \#bitcoin-dev
+wrong_answers:
+  - Di bagian khusus forum
+  - Di milis pengembangan bitcoin
+  - Di subreddit r/Bitcoin
+explanation: |
+  Ini [dibuat](https: //mmalmi.github.io/satoshi/#email-27) pada Agustus 2009 oleh Martti Malmi. Ini mendapatkan beberapa popularitas setelah slashdotting pada Juli 2010.
+reviewed: false

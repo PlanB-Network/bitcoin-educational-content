@@ -1,0 +1,14 @@
+question: Jakie są trzy wymiary problemu podwójnego zbiegu okoliczności?
+answer: Przestrzenne, czasowe i interpersonalne.
+wrong_answers:
+  - Przestrzenne, czasowe i intrapersonalne.
+  - Przestrzenne, intertemporalne i interpersonalne.
+  - Międzyprzestrzenne, czasowe i interpersonalne.
+explanation: |
+  Problem podwójnej zbieżności potrzeb odnosi się do
+  trudności w wymianie barterowej, w której obie strony muszą posiadać
+  coś, czego druga strona pragnie w tym samym czasie i miejscu.
+  Problem ten ma trzy wymiary: przestrzenny (to samo miejsce),
+  czasowy (ten sam czas) i interpersonalny (wzajemne pożądanie dóbr)
+  dóbr drugiej strony).
+reviewed: true

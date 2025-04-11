@@ -1,9 +1,0 @@
-question: Was ist eine Bitcoin-Empfangsadresse?
-answer: Ein Hash eines öffentlichen Schlüssels mit einem spezifischen Format.
-wrong_answers:
-  - Eine eindeutige Kennung für einen Bitcoin-Benutzer.
-  - Der öffentliche Schlüssel eines Bitcoin-Benutzers.
-  - Ein Skript, das Bitcoins an einen öffentlichen Schlüssel bindet.
-explanation: |
-  Eine Bitcoin-Empfangsadresse ist ein Hash eines öffentlichen Schlüssels mit einem spezifischen Format. Sie wird verwendet, um Gelder auf einer Münze zu empfangen und wird aus Paaren von privaten und öffentlichen Schlüsseln generiert.
-reviewed: false

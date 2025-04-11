@@ -1,0 +1,9 @@
+question: Which answer represents one of the two main branches of cryptography?
+answer: Symmetric cryptography
+wrong_answers:
+  - Cryptology
+  - Homomorphic encryption
+  - Cryptanalysis
+explanation: |
+  Symmetric cryptography is a major branch of cryptography, involving encryption schemes where a single key is used to encrypt and decrypt messages.
+reviewed: false

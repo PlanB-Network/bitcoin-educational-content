@@ -1,9 +1,12 @@
-question: ¿Cuál es el resultado potencial de una devaluación demasiado rápida o pérdida de confianza en una moneda fiduciaria?
-answer: Puede llevar a la hiperinflación.
+question: ¿Cuál es el resultado potencial de una depreciación repentina o una pérdida de confianza en una moneda fiduciaria?
+answer: Hiperinflación.
 wrong_answers:
-  - Puede llevar a la deflación.
-  - Puede llevar a una economía estable.
-  - Puede llevar a un aumento en el valor de la moneda.
+  - Deflación.
+  - Una economía estable.
+  - Un aumento en el valor de la moneda.
 explanation: |
-  Una devaluación demasiado rápida o pérdida de confianza en una moneda fiduciaria puede llevar a la hiperinflación. Esta es una situación en la que los precios de bienes y servicios aumentan a una tasa extremadamente alta, lo que a menudo conduce a la inestabilidad económica.
-reviewed: false
+  Una devaluación repentina o una pérdida de confianza en una moneda
+  fiduciaria puede llevar a la hiperinflación. Esta es una situación
+  donde los precios de bienes y servicios aumentan a una tasa
+  extremadamente alta, a menudo llevando a inestabilidad económica.
+reviewed: true

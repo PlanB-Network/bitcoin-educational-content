@@ -1,10 +1,12 @@
 question: Những phương pháp được khuyến nghị để đảm bảo an ninh tối ưu với xác thực mạnh là gì?
-answer: Sử dụng địa chỉ email an toàn, quản lý mật khẩu an toàn, và áp dụng 2FA bằng YubiKeys.
+answer: Sử dụng địa chỉ email an toàn, một trình quản lý mật khẩu an toàn, và áp dụng 2FA sử dụng YubiKeys.
 wrong_answers:
-  - Sử dụng một mật khẩu chung cho tất cả các tài khoản và tránh 2FA
+  - Sử dụng một mật khẩu chung cho tất cả các tài khoản, và tránh 2FA
   - Sử dụng một mật khẩu đơn giản và dựa vào dữ liệu sinh trắc học cho 2FA
-  - Sử dụng địa chỉ email an toàn, nhưng tránh quản lý mật khẩu và 2FA
+  - Sử dụng địa chỉ email an toàn, nhưng tránh trình quản lý mật khẩu và 2FA
 explanation: |
-  Để đảm bảo an ninh tối ưu, được khuyến nghị sử dụng địa chỉ email an toàn,
-  quản lý mật khẩu an toàn, và áp dụng 2FA bằng YubiKeys. Cũng nên mua hai YubiKeys để phòng trường hợp mất mát hoặc trộm cắp.
-reviewed: false
+  Để đảm bảo an ninh tối ưu, được khuyến nghị sử dụng
+  địa chỉ email an toàn, một trình quản lý mật khẩu an toàn, và áp dụng 2FA
+  sử dụng YubiKeys. Cũng nên mua hai
+  YubiKeys để phòng trường hợp mất mát hoặc trộm cắp.
+reviewed: true

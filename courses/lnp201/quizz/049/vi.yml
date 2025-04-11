@@ -1,11 +1,9 @@
-question: Vai trò của các nút trong Lightning Network trong một giao dịch là gì?
-answer: Chúng thu phí để đồng ý được sử dụng để định tuyến giao dịch.
+question: Chức năng chính của một hóa đơn Lightning là gì?
+answer: Yêu cầu một khoản thanh toán từ nút gửi
 wrong_answers:
-  - Chúng hỗ trợ giao dịch mà không thu bất kỳ khoản phí nào.
-  - Chúng khởi xướng giao dịch.
-  - Chúng là người nhận cuối cùng của giao dịch.
+  - Gửi tiền mà không cần giao dịch trên chuỗi
+  - Kích hoạt HTLCs trên một kênh
+  - Mở một kênh Lightning mới
 explanation: |
-  Trong Lightning Network, các nút thu phí để đồng ý được sử dụng
-  để định tuyến giao dịch. Mức phí này khác nhau tùy thuộc vào vị trí của nguồn lực
-  lưu thông.
+  Một hóa đơn Lightning là một yêu cầu thanh toán, được truyền bởi nút nhận đến nút gửi để khởi tạo một khoản thanh toán trên Mạng Lưới Lightning.
 reviewed: false

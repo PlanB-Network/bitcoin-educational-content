@@ -1,9 +1,13 @@
-question: ¿Cuál es uno de los posibles beneficios de la Red Lightning para los creadores de contenido?
-answer: Se les incentivaría a producir contenido de calidad para retener la atención de los usuarios.
+question: ¿Cuál es uno de los beneficios potenciales de la Red Lightning para los creadores de contenido?
+answer: Serían incentivados a producir contenido de buena calidad para retener la atención de los usuarios.
 wrong_answers:
   - Podrían cobrar más por su contenido.
-  - Podrían llegar a una audiencia más amplia.
-  - Podrían producir contenido más rápidamente.
+  - Podrían alcanzar una audiencia más amplia.
+  - Podrían producir contenido más rápidamente para retener la atención de los usuarios.
 explanation: |
-  Con la Red Lightning, se incentivaría a los creadores de contenido a producir contenido de calidad para retener la atención de los usuarios. A su vez, los usuarios solo pagarían por el contenido que consumen, eliminando así las tarifas de suscripción por adelantado.
-reviewed: false
+  Con la Red Lightning, los creadores de contenido serían
+  incentivados a producir contenido de buena calidad para retener
+  la atención de los usuarios. Los usuarios, a su vez, solo pagarían por el
+  contenido que consumen, eliminando así las tarifas de suscripción
+  por adelantado.
+reviewed: true

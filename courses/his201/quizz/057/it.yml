@@ -1,0 +1,9 @@
+question: Quale minatore tedesco ha detenuto il 20% del tasso di hash della rete Bitcoin per diversi mesi nel 2010?
+answer: ArtForz
+wrong_answers:
+  - tcatm
+  - m0mchil
+  - knightmb
+explanation: |
+  Ha allestito una fattoria di mining composta da schede grafiche (chiamata ArtFarm) durante l'estate del 2010, ottenendo così un notevole vantaggio sui suoi concorrenti entro l'autunno.
+reviewed: false

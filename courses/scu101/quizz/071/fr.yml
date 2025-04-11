@@ -1,9 +1,12 @@
-question: Quelle est une pratique recommandée pour gérer le mot de passe principal d'un gestionnaire de mots de passe ?
-answer: Écrivez-le sur papier et gardez-le dans un endroit caché et sécurisé.
+question: Quelle est la pratique recommandée pour gérer le mot de passe principal d'un gestionnaire de mots de passe ?
+answer: L'écrire sur papier et le conserver dans un endroit dissimulé et sécurisé.
 wrong_answers:
-  - Stockez-le dans votre e-mail.
-  - Utilisez le même mot de passe pour tous les comptes.
-  - Mémorisez-le.
+  - Le stocker dans votre email.
+  - Utiliser le même mot de passe pour tous les comptes.
+  - Le mémoriser.
 explanation: |
-  Il est recommandé d'écrire le mot de passe principal d'un gestionnaire de mots de passe sur papier, mais il doit être conservé dans un endroit caché et sécurisé. Cela est dû au fait que si le disque dur est crypté et que l'ordinateur est verrouillé, le mot de passe ne sera pas accessible, même en cas de cambriolage.
-reviewed: false
+  Il est recommandé d'écrire le mot de passe principal d'un
+  gestionnaire de mots de passe sur papier, mais il doit être conservé dans un
+  endroit dissimulé et sécurisé. Cela est dû au fait que si le disque dur est chiffré et l'ordinateur verrouillé, le mot de passe
+  ne sera pas accessible, même en cas de cambriolage.
+reviewed: true

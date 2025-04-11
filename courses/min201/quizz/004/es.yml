@@ -5,8 +5,8 @@ wrong_answers:
   - GPUs
   - FPGAs
 explanation: |
-  En la actualidad, los mineros utilizan exclusivamente ASICs dedicados a esta operación,
-  optimizados
-  para probar el máximo número de combinaciones con el menor consumo de energía posible
-  y lo más rápido posible.
-reviewed: false
+  Hoy en día, los mineros utilizan exclusivamente ASICs dedicados a esta
+  operación, optimizados para probar el máximo número de
+  combinaciones con el menor consumo de energía posible
+  y de la manera más rápida posible.
+reviewed: true

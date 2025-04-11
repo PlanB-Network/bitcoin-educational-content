@@ -1,0 +1,9 @@
+question: Bastiat rút ra kết luận gì từ ảnh hưởng của sự phá hủy đối với nền kinh tế?
+answer: Nó có hại cho nền kinh tế
+wrong_answers:
+  - Nó có lợi cho nền kinh tế
+  - Nó không ảnh hưởng đến nền kinh tế
+  - Nó tùy thuộc vào tình hình kinh tế
+explanation: |
+  Bastiat chứng minh rằng sự phá hủy là một gánh nặng kinh tế vì nó làm lệch hướng các nguồn lực quý giá và không tạo ra giá trị gia tăng nào.
+reviewed: false

@@ -1,0 +1,9 @@
+question: What is the correct order of operations in authenticated encryption?
+answer: First encrypt, then create a tag on the encrypted text
+wrong_answers:
+  - First create a tag, then encrypt the message and the tag
+  - Combine the plaintext with a tag, then encrypt
+  - Create a tag, then use a public key to encrypt it
+explanation: |
+  To ensure security, authenticated encryption must first encrypt the message, then generate a tag on the encrypted text. Other orders are potentially vulnerable.
+reviewed: false

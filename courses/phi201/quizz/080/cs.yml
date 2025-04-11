@@ -1,0 +1,9 @@
+question: Jaký je hlavní rozdíl mezi teoriemi Locka a Rousseaua o suverenitě?
+answer: Locke věřil, že suverenita je omezena přirozenými právy, zatímco Rousseau věřil, že je neomezená.
+wrong_answers:
+  - Locke věřil, že suverenita patří monarchovi, zatímco Rousseau věřil, že patří lidu.
+  - Locke věřil, že nejlepší formou vlády je demokracie, zatímco Rousseau věřil, že nejlepší formou vlády je republika.
+  - Všechny ostatní odpovědi jsou správné.
+explanation: |
+  Locke argumentoval, že suverenita státu je omezena přirozenými právy jednotlivců, zatímco Rousseau cítil, že obecná suverenita může být vykonávána bez omezení ve jménu kolektivní vůle.
+reviewed: false

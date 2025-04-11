@@ -1,0 +1,9 @@
+question: ¿Cuál es el principal efecto del proteccionismo en los consumidores?
+answer: Aumenta el precio de los productos que compran
+wrong_answers:
+  - Les permite comprar productos de mayor calidad
+  - Les ofrece una mayor variedad de productos
+  - No tiene impacto en su poder adquisitivo
+explanation: |
+  El proteccionismo impone impuestos sobre las importaciones, lo que hace que los productos sean más caros para los consumidores.
+reviewed: false

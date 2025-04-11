@@ -1,0 +1,13 @@
+question: Como a entropia é calculada no contexto da análise de cadeias no Bitcoin?
+
+answer: Tomando o logaritmo binário do número de interpretações.
+
+wrong_answers:
+  - Multiplicando o número de entradas pelo número de saídas.
+  - Somando o número de entradas e saídas.
+  - Tomando o logaritmo binário do número de entradas e saídas.
+
+explanation: |
+  A entropia é definida como o logaritmo binário do número de combinações possíveis.
+
+reviewed: false

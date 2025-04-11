@@ -1,0 +1,9 @@
+question: Mengapa kriptografi asimetris kurang digunakan daripada kriptografi simetris dalam pertukaran data besar?
+answer: Lebih tidak efisien untuk tingkat keamanan yang setara
+wrong_answers:
+  - Tidak menjamin keaslian pesan
+  - Membutuhkan beberapa kunci publik untuk setiap pertukaran
+  - Tidak kompatibel dengan protokol komunikasi modern
+explanation: |
+  Kriptografi asimetris, meskipun kuat untuk otentikasi dan enkripsi awal, membutuhkan lebih banyak sumber daya, membuat penggunaannya tidak efisien untuk transfer data yang besar.
+reviewed: false

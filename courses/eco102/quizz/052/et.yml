@@ -1,0 +1,9 @@
+question: Millise järelduseni jõuab Bastiat hävitamise mõjust majandusele?
+answer: See on majandusele kahjulik
+wrong_answers:
+  - See on majandusele kasulik
+  - See on majandusele neutraalne
+  - See sõltub majandusolukorrast
+explanation: |
+  Bastiat tõestab, et hävitamine on majanduslik koorem, kuna see suunab väärtuslikud ressursid kõrvale ja ei loo lisaväärtust.
+reviewed: false

@@ -1,0 +1,10 @@
+question: Hvordan hjelper stablecoins med å redusere kostnadene forbundet med remitteringer?
+answer: Ved å tilby lavere gebyrer enn tradisjonelle tjenester
+wrong_answers:
+  - Ved å tilby gratis pengeoverføringstjenester
+  - Ved å gi enkeltpersoner bedre vekslingskurser enn tradisjonelle tjenester
+  - Ved å digitalisere fiat-valutaer
+explanation: |
+  Stablecoins, i motsetning til tradisjonelle pengeoverføringstjenester, har betydelig 
+  lavere gebyrer fordi de ikke krever mellommenn som banker eller pengeoverføringstjenester.
+reviewed: true

@@ -1,0 +1,8 @@
+question: Qual pedido os fabricantes de velas fazem aos deputados?
+answer: Proibir o uso do sol como fonte de luz
+wrong_answers:
+  - Aumentar os impostos sobre velas
+  - Fechar fábricas estrangeiras de velas
+  - Subsidiar a produção de velas
+explanation: |
+  Nesta sátira, os fabricantes de velas solicitam a proibição da luz solar para destacar o absurdo de certas políticas protecionistas.

@@ -1,9 +1,9 @@
-question: Jaký je hlavní finanční stimul pro těžaře, aby se zapojili do procesu těžby Bitcoinu?
+question: Jaká je hlavní finanční motivace pro těžaře k účasti na procesu těžby Bitcoinu?
 answer: Odměna za těžbu
 wrong_answers:
   - Možnost kontrolovat síť Bitcoinu
   - Možnost libovolně vytvářet nové bitcoiny
   - Možnost manipulovat s cenou Bitcoinu
 explanation: |
-  Hlavním finančním stimulem pro těžaře, aby se zapojili do procesu těžby Bitcoinu, je odměna za těžbu. Tato odměna slouží jako silný stimul, který motivuje těžaře zapojit se do těžebního procesu navzdory jeho energetickým nákladům.
-reviewed: false
+  Hlavní finanční motivací pro těžaře k účasti na procesu těžby Bitcoinu je odměna za těžbu. Tato odměna slouží jako silný stimul pro těžaře, aby se zapojili do procesu těžby navzdory jeho energetickým nákladům.
+reviewed: true

@@ -1,11 +1,12 @@
-question: Phương pháp độc đáo nào để tham gia vào hệ sinh thái Bitcoin thông qua việc đào?
-answer: Đào Bitcoin vào mùa đông có thể là cách thông minh để sưởi ấm nhà bạn trong khi tạo ra thu nhập bằng Bitcoin.
+question: Một cách độc đáo để tham gia vào hệ sinh thái Bitcoin thông qua việc đào là gì?
+answer: Đào Bitcoin vào mùa đông có thể là một cách thông minh để sưởi ấm nhà cửa của bạn trong khi tạo ra thu nhập bằng Bitcoin.
 wrong_answers:
   - Đào Bitcoin có thể là cách để có điện miễn phí.
   - Đào Bitcoin có thể là cách để có internet miễn phí.
   - Đào Bitcoin có thể là cách để có phần cứng miễn phí.
 explanation: |
-  Một cách độc đáo để tham gia vào hệ sinh thái Bitcoin thông qua việc đào
-  là bằng cách đào Bitcoin vào mùa đông. Đây có thể là cách thông minh để sưởi ấm nhà bạn trong khi
-  tạo ra thu nhập bằng Bitcoin.
-reviewed: false
+  Một cách độc đáo để tham gia vào hệ sinh thái Bitcoin
+  thông qua việc đào là bằng cách đào Bitcoin vào mùa đông. Đây có thể
+  là một cách thông minh để sưởi ấm nhà cửa của bạn trong khi tạo ra thu nhập
+  bằng Bitcoin.
+reviewed: true

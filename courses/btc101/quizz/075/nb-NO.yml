@@ -1,0 +1,11 @@
+question: Hva er den mnemoniske frasen i en Bitcoin-lommebok?
+answer: En liste med 12 eller 24 ord som er en sikkerhetskopi av din Bitcoin-lommebok
+wrong_answers:
+  - Et valgt passord for å få tilgang til Bitcoin-lommeboken
+  - En kode for å kryptere Bitcoin-transaksjonene
+  - En hemmelig gjenopprettingsfrase som ødelegger Bitcoin-lommeboken
+explanation: |
+  Siden 2017 kan den private nøkkelen kodes i en enkel liste med 12 eller
+  24 ord, kalt den mnemoniske frasen. Denne frasen er en sikkerhetskopi av din Bitcoin-lommebok,
+  det er det som lar deg gjenskape lommeboken din med hvilken som helst Bitcoin-lommebok programvare/app.
+reviewed: true

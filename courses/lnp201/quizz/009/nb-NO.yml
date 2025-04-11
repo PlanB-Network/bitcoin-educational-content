@@ -1,0 +1,8 @@
+question: I en Bitcoin-transaksjon, hva gjør låseskriptet?
+answer: Det pålegger spesifikke betingelser for å bruke de tilknyttede midlene
+wrong_answers:
+  - Det sender automatisk midlene til flere adresser
+  - Det bestemmer verdien av UTXO som skal opprettes
+  - Det låser midlertidig midlene for å forhindre overdreven bruk
+explanation: |
+  Låseskriptet pålegger betingelser, som å signere med en privat nøkkel, for å låse opp og bruke midlene i en transaksjon.

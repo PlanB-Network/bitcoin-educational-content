@@ -1,9 +1,12 @@
 question: ¿Por qué se considera que los datos biométricos son menos seguros que la combinación de conocimiento y posesión para la autenticación de dos factores (2FA)?
-answer: Los datos biométricos deben permanecer en el dispositivo de autenticación y no deben ser revelados en línea.
+answer: Los datos biométricos deben permanecer en el dispositivo de autenticación y no ser divulgados en línea.
 wrong_answers:
-  - Los datos biométricos son más fáciles de falsificar.
-  - Los datos biométricos son más difíciles de recordar.
-  - Los datos biométricos son más costosos de implementar.
+  - Los datos biométricos son más fáciles de extraer incluso si se mantienen fuera de línea en el dispositivo de autenticación.
+  - Los datos biométricos son más difíciles de recordar y usar al utilizar un dispositivo de autenticación.
+  - Las herramientas de datos biométricos son más caras de implementar y, por lo tanto, no son rentables en comparación con otras soluciones.
 explanation: |
-  Los datos biométricos son menos seguros porque deben permanecer en el dispositivo de autenticación y no deben ser revelados en línea. Si se revelan en línea, pueden ser robados y utilizados para acceder sin autorización.
-reviewed: false
+  Los datos biométricos son menos seguros porque deben permanecer en
+  el dispositivo de autenticación y no ser divulgados en línea. Si
+  se divulgan en línea, pueden ser robados y utilizados para
+  acceso no autorizado.
+reviewed: true

@@ -1,0 +1,9 @@
+question: O que é geralmente recomendado quando se atribui uma parte da tesouraria de uma empresa à Bitcoin?
+answer: Invista apenas o excesso de liquidez de que não necessitará durante vários anos e mantenha um horizonte temporal de, pelo menos, quatro anos.
+wrong_answers:
+  - Utilizar imediatamente todas as disponibilidades operacionais sem ter em conta as necessidades de liquidez.
+  - O objetivo é comprar e vender no espaço de algumas semanas para maximizar os lucros a curto prazo.
+  - Invista apenas quando precisar de um empréstimo urgente a curto prazo para cobrir despesas.
+explanation: |
+  Uma vez que o preço da Bitcoin pode ser volátil a curto prazo, é aconselhável utilizar fundos de que não necessita imediatamente e mantê-los durante pelo menos quatro anos. Esta abordagem suaviza a volatilidade e aumenta as hipóteses de valorização a longo prazo.
+reviewed: false

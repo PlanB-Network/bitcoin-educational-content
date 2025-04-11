@@ -1,11 +1,11 @@
 question: OpenNode là gì?
-answer: Một giải pháp trực tuyến đơn giản để các doanh nghiệp chấp nhận Bitcoin
+answer: Một giải pháp trực tuyến đơn giản cho các doanh nghiệp để chấp nhận Bitcoin.
 wrong_answers:
-  - Một loại Bitcoin
-  - Phần mềm đào Bitcoin
-  - Một nền tảng giao dịch Bitcoin
+  - Một loại nút Bitcoin được sử dụng đồng thời bởi nhiều người dùng.
+  - Một phần mềm đào Bitcoin có mã nguồn mở.
+  - Một nền tảng giao dịch Bitcoin.
 explanation: >-
-  OpenNode là một giải pháp trực tuyến đơn giản cho phép các doanh nghiệp chấp nhận Bitcoin.
-  Các giải pháp khác bao gồm Swiss Bitcoin Pay dành cho các nhà bán lẻ không chuyên và BTCpay Server
-  dành cho các cơ cấu lớn hoặc những người đam mê Bitcoin.
-reviewed: false
+  OpenNode là một giải pháp trực tuyến đơn giản cho các doanh nghiệp để chấp nhận Bitcoin.
+  Các giải pháp khác bao gồm Swiss Bitcoin Pay cho các nhà buôn nghiệp dư và BTCpay Server
+  cho các cơ cấu lớn hoặc những người đam mê Bitcoin.
+reviewed: true

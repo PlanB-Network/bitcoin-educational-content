@@ -1,0 +1,9 @@
+question: Wer gründete die erste Mining-Genossenschaft, um einen Block bei Bitcoin zu produzieren?
+answer: doublec
+wrong_answers:
+  - slush
+  - puddinpop
+  - m0mchil
+explanation: |
+  Er bewarb sie am 1. Dezember. Der Block wurde [gefunden](https: //bitcointalk.org/index.php?topic=2027.msg26688#msg26688) am 4. Dezember 2010. Slushs Genossenschaft wurde hingegen am 16. Dezember gestartet.
+reviewed: false

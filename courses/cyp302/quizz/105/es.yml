@@ -1,0 +1,9 @@
+question: ¿Cómo pueden las partes asegurar el orden correcto de los mensajes en una sesión segura?
+answer: Utilizando números de secuencia en cada mensaje
+wrong_answers:
+  - Intercambiando claves para cada mensaje
+  - Añadiendo retrasos entre mensajes
+  - Cifrando los mensajes con un algoritmo diferente
+explanation: |
+  Los números de secuencia aseguran que los mensajes se reciban en el orden correcto y previenen su reordenamiento.
+reviewed: false

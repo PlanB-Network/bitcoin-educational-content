@@ -1,0 +1,9 @@
+question: Milline on ühise põllumajanduspoliitika kolmikprobleemi puhul kompromiss kliendipoolse valideerimise ja kättesaadavuse vahel?
+answer: Iga osaleja peab säilitama asjakohased andmed kohapeal
+wrong_answers:
+  - Andmed on avalikud ja automaatselt globaalselt replitseeritud
+  - Järjepidevus ohverdatud kättesaadavuse nimel
+  - Riigi üleminekud avaldatakse alati Lightning'is
+explanation: |
+  Kliendipoolse valideerimise puhul ei ole üldine kättesaadavus tagatud, kuna osalejad peavad ise oma andmeid haldama.
+reviewed: false

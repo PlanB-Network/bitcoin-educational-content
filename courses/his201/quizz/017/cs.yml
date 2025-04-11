@@ -1,0 +1,8 @@
+question: Kde Nick Szabo poprvé představil svůj koncept bit gold v roce 1998?
+answer: Na mailing listu libtech-l
+wrong_answers:
+  - Na mailing listu cypherpunks
+  - Na mailing listu Cryptography
+  - Na mailing listu extropians
+explanation: |
+  Jednalo se o jeho vlastní soukromý mailing list, který zahrnoval cypherpunky jako Wei Dai a Hal Finney, a ekonomisty jako Larry White a George Selgin.

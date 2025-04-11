@@ -1,0 +1,9 @@
+question: Quelle est la fonction première de la monnaie ?
+answer: Servir d'intermédiaire pour simplifier l'échange de valeurs
+wrong_answers:
+  - Stocker la valeur intrinsèque sous forme physique
+  - Remplacer complètement le troc par l'échange direct de biens
+  - Centraliser toutes les transactions économiques par l'intermédiaire d'une autorité unique
+explanation: |
+  La monnaie simplifie les échanges en servant de support commun qui réduit le réseau complexe des taux de change nécessaires dans un système de troc, facilitant ainsi les transactions.
+reviewed: false

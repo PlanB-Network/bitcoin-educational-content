@@ -1,0 +1,9 @@
+question: Qual das seguintes opções descreve melhor a forma como as transacções Bitcoin atingem a finalidade?
+answer: Uma vez registadas na cadeia de blocos, as transacções são imutáveis e não podem ser alteradas.
+wrong_answers:
+  - As transacções podem ser anuladas pelos bancos em caso de litígio.
+  - Os utilizadores têm de obter a aprovação de várias entidades governamentais para finalizar uma transação.
+  - Qualquer participante pode editar transacções passadas à vontade, se tiver um código especial.
+explanation: |
+  A cadeia de blocos da Bitcoin é um registo à prova de adulteração. Quando uma transação é confirmada e incluída num bloco, passa a fazer parte do registo permanente, garantindo a sua finalidade.
+reviewed: false

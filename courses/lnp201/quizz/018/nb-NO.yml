@@ -1,0 +1,8 @@
+question: Hvordan opprettes en ny kanaltilstand etter hver overføring?
+answer: Ved å opprette en ny forpliktelsestransaksjon med den oppdaterte fordelingen
+wrong_answers:
+  - Ved å poste en on-chain transaksjon etter hver overføring
+  - Ved å øke den totale kapasiteten til kanalen
+  - Ved å lukke og gjenåpne kanalen etter hver transaksjon
+explanation: |
+  Hver transaksjon innenfor kanalen oppdaterer kanalens tilstand med en ny forpliktelsestransaksjon, som reflekterer den nåværende fordelingen av midler mellom de to deltakerne.

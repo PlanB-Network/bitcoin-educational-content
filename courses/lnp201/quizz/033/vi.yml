@@ -1,9 +1,11 @@
-question: Ai có thể sử dụng khóa thu hồi trước khi hết thời gian của Timelock?
-answer: Người nhận tiền.
+question: Onion routing trong Lightning Network có nghĩa là gì?
+
+answer: Nó có nghĩa là mỗi nút trung gian chỉ biết về các nút láng giềng trực tiếp trên đường đi.
+
 wrong_answers:
-  - Người tạo giao dịch với Timelock.
-  - Cả hai bên đều có thể sử dụng khóa thu hồi trước khi hết thời gian của Timelock.
-  - Không bên nào có thể sử dụng khóa thu hồi trước khi hết thời gian của Timelock.
-explanation: |
-  Người nhận tiền có thể sử dụng khóa thu hồi trước khi hết thời gian của Timelock trong trường hợp có sự gian lận từ một bên này sang bên kia của một kênh trên Mạng Lưới Lightning.
-reviewed: false
+  - Chuyển tiền trực tiếp từ nút này sang nút khác biết người nhận cuối cùng
+  - Tính phí cho mỗi nút trung gian một cách độc lập
+  - Gửi tiền đến tất cả các nút trên đường đi cùng một lúc
+
+explanation:
+  Onion routing có nghĩa là mỗi nút trung gian chỉ biết về nút trước và nút tiếp theo, do đó bảo vệ sự bảo mật của người nhận cuối cùng.

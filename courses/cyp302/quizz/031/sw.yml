@@ -1,0 +1,9 @@
+question: Je, mfuatano wa nasibu unafafanuliwaje katika sura hii?
+answer: Kama kamba iliyochaguliwa kwa usawa kutoka kwa nyuzi zote za urefu sawa
+wrong_answers:
+  - Kama kamba iliyoundwa tu na bits 0 na 1
+  - Kama kamba iliyopatikana kutoka kwa uteuzi wa mwongozo
+  - Kama mfuatano wa urefu tofauti unaotokana na mchakato wa usimbaji fiche
+explanation: |
+  Mfuatano wa nasibu hufafanuliwa kuwa kutoka kwa uteuzi sare kati ya nyuzi zote zinazowezekana za urefu sawa.
+reviewed: false

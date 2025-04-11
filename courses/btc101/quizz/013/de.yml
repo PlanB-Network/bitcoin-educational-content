@@ -1,9 +1,10 @@
-question: Was ist das Cypherpunk Manifest?
-answer: Ein Text, verfasst von Eric Hughes, der behauptet, dass Privatsphäre ein grundlegendes Recht ist.
+question: Was ist das Cypherpunk-Manifest?
+answer: Ein von Eric Hughes verfasster Text, der behauptet, dass Privatsphäre ein fundamentales Recht ist.
 wrong_answers:
-  - Ein Buch, geschrieben von Julian Assange über die Zukunft der Technologie.
+  - Ein von Julian Assange geschriebenes Buch über die Zukunft der Technologie.
   - Ein Dokument, das die Prinzipien von Bitcoin umreißt.
-  - Ein Manifest, verfasst von David Chaum über die Bedeutung digitaler Währungen.
+  - Ein von David Chaum verfasstes Manifest über die Bedeutung von digitaler Währung.
 explanation: |
-  Das Cypherpunk Manifest wurde 1993 von Eric Hughes verfasst und behauptet, dass Privatsphäre ein grundlegendes Recht ist.
-reviewed: false
+  Das Cypherpunk-Manifest wurde 1993 von Eric Hughes geschrieben
+  und behauptet, dass Privatsphäre ein fundamentales Recht ist.
+reviewed: true

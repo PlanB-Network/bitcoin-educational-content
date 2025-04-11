@@ -1,9 +1,13 @@
-question: Qual é uma possível desvantagem das moedas digitais dos bancos centrais (CBDCs)?
-answer: Elas podem prejudicar a liberdade financeira das pessoas e facilitar abusos autoritários.
+question: Qual é uma desvantagem potencial das moedas digitais emitidas por bancos centrais (CBDCs)?
+answer: Elas poderiam limitar a liberdade financeira dos indivíduos e facilitar abusos autoritários.
 wrong_answers:
-  - Elas podem levar a uma diminuição na oferta de dinheiro.
-  - Elas podem levar a uma diminuição no valor do Bitcoin.
-  - Elas podem levar a uma diminuição no valor do ouro.
+  - Elas poderiam levar a uma diminuição na oferta de dinheiro.
+  - Elas poderiam levar a uma diminuição no valor do Bitcoin.
+  - Elas poderiam levar a uma diminuição no valor do ouro.
 explanation: |
-  As moedas digitais dos bancos centrais (CBDCs) podem potencialmente prejudicar a liberdade financeira das pessoas e facilitar abusos autoritários. Isso ocorre porque elas ofereceriam uma economia mais centralmente planejada, com o banco central tendo ainda mais controle sobre a oferta de dinheiro.
-reviewed: false
+  As moedas digitais emitidas por bancos centrais (CBDCs) poderiam potencialmente
+  limitar a liberdade financeira dos indivíduos e facilitar
+  abusos autoritários. Isso ocorre porque elas ofereceriam uma
+  economia mais centralmente planejada, com o banco central
+  tendo ainda mais controle sobre a oferta de dinheiro.
+reviewed: true

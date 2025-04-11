@@ -1,13 +1,9 @@
 question: Nhược điểm chính khi sử dụng trình quản lý mật khẩu tự lưu trữ là gì?
-answer: Nó đòi hỏi nhiều kiến thức kỹ thuật hơn để sử dụng.
+answer: Nó đòi hỏi kiến thức kỹ thuật cao hơn để sử dụng.
 wrong_answers:
   - Nó đắt hơn so với các dịch vụ của bên thứ ba.
   - Nó không cung cấp nhiều tính năng như các dịch vụ của bên thứ ba.
   - Nó không an toàn bằng các dịch vụ của bên thứ ba.
 explanation: |
-  Một trình quản lý mật khẩu tự lưu trữ đòi hỏi nhiều kiến thức kỹ thuật hơn để sử dụng,
-  
-  vì bạn cần thiết lập và quản lý máy chủ của riêng mình. Tuy nhiên, nó có thể cung cấp nhiều quyền kiểm soát
-  
-  và an ninh hơn.
-reviewed: false
+  Một trình quản lý mật khẩu tự lưu trữ đòi hỏi kiến thức kỹ thuật cao hơn để sử dụng, vì bạn cần phải thiết lập và quản lý máy chủ của mình. Tuy nhiên, nó có thể cung cấp nhiều quyền kiểm soát và an toàn hơn.
+reviewed: true

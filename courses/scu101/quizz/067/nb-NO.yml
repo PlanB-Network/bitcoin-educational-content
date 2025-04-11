@@ -1,0 +1,9 @@
+question: Hva er hovedbekymringen med Single Sign-On (SSO) som tilbys av internettgiganter?
+answer: Det medfører problemer i form av tilgjengelighet og risiko for sensur.
+wrong_answers:
+  - Det er vanskelig å bruke.
+  - Det krever mye lagringsplass.
+  - Det er ikke kompatibelt med alle nettsider.
+explanation: |
+  Single Sign-On (SSO) som tilbys av internettgiganter medfører problemer i form av tilgjengelighet og risiko for sensur. Dette er fordi hvis SSO-leverandøren opplever en nedetid eller bestemmer seg for å blokkere en bruker, kan brukeren miste tilgangen til alle tjenester som bruker den SSO-en for autentisering.
+reviewed: false

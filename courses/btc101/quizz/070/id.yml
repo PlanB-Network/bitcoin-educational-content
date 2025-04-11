@@ -1,0 +1,9 @@
+question: Berapa hadiah BTC setelah pemotongan keempat?
+answer: 3.125 BTC
+wrong_answers:
+  - 1.5625 BTC
+  - 6.25 BTC
+  - 12.5 BTC
+explanation: >-
+  Setelah pemotongan keempat, yang terjadi pada ketinggian blok 840,000, hadiah BTC untuk penambangan adalah 3.125 BTC.
+reviewed: true

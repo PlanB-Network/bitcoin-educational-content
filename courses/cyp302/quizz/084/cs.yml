@@ -1,0 +1,9 @@
+question: Jaké je hlavní praktické omezení jednorázového šifrovacího bloku?
+answer: Klíč musí být stejně dlouhý jako zpráva a nesmí být nikdy znovu použit
+wrong_answers:
+  - Klíč musí být změněn každý den
+  - Klíč musí být třikrát delší než zpráva
+  - Klíč musí být nutně uložen na francouzském Minitelu
+explanation: |
+  Klíč v jednorázovém šifrovacím bloku musí být stejně dlouhý jako zpráva a nesmí být nikdy znovu použit, což výrazně komplikuje jeho použití v praktických kontextech. To je proto, že pokud je možné přenášet data stejně dlouhá jako zpráva bezpečným způsobem, bylo by logičtější přímo přenášet zprávu než klíč.
+reviewed: false

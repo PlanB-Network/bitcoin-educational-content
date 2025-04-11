@@ -1,0 +1,10 @@
+question: Bagaimana jaringan Bitcoin memastikan bahwa bertindak dengan niat jahat dalam protokol Bitcoin terlalu mahal?
+answer: Melalui aturan protokol dan insentif ekonomi.
+wrong_answers:
+  - Melalui regulasi ketat dan pengawasan.
+  - Melalui penggunaan langkah-langkah keamanan canggih.
+  - Melalui ancaman tindakan hukum.
+explanation: >-
+  Jaringan Bitcoin memastikan bahwa bertindak dengan niat jahat dalam protokol Bitcoin terlalu mahal melalui aturan protokol dan insentif ekonomi. Ini
+  menghilangkan kebutuhan akan kepercayaan pada setiap langkah transfer kepemilikan bitcoin.
+reviewed: false

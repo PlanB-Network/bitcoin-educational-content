@@ -1,0 +1,13 @@
+question: Hva skjer med utvinningsbelønningen i Bitcoin-nettverket omtrent hvert fjerde år?
+answer: Den blir halvert
+wrong_answers:
+  - Den dobler seg
+  - Den tredobles
+  - Den forblir den samme
+explanation: |
+  Utvinningsbelønningen i Bitcoin-nettverket blir halvert
+  hver 210 000 blokker, omtrent hvert fjerde år. Denne
+  belønningen fungerer som en kraftig insentiv for å
+  oppmuntre gruvearbeidere til å delta i utvinningsprosessen
+  til tross for dens energikostnad.
+reviewed: true

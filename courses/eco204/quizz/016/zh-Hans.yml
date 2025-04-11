@@ -1,0 +1,8 @@
+question: 根据Philip Cagan的定义，超级通货膨胀的门槛是什么？
+answer: 月通胀超过50%
+wrong_answers:
+  - 月通胀超过40%
+  - 月通胀超过60%
+  - 月通胀超过70%
+explanation:
+  根据Philip Cagan的定义，当月通胀超过50%时，开始出现超级通货膨胀。

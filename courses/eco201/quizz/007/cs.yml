@@ -1,8 +1,8 @@
 question: Kdo je poděkován za vytvoření kurzu?
-answer: "Théo Mogenet"
+answer: Théo Mogenet
 wrong_answers:
   - Descoupes Bitcoin
-  - "Théo Boloré"
+  - Théo Boloré
   - Žádná z výše uvedených
 explanation: |
-  "V kapitole je zmíněno, že za vytvoření kurzu je poděkováno Théovi."
+  V kapitole je zmíněno, že za vytvoření kurzu je poděkováno Théovi.

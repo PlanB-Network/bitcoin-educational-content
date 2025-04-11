@@ -1,0 +1,9 @@
+question: Mis on üks teguritest, mis võib põhjustada Bitcoini hinna kõikumist?
+answer: Turu variatsioonid ja tõusvad ning langevad turufaasid.
+wrong_answers:
+  - Interneti kasutajate arv.
+  - Ilmastik.
+  - Kulla hind.
+explanation: >-
+  Bitcoini hind on tihti iseloomustatud olulise volatiilsusega,
+  mida võivad mõjutada turu variatsioonid ja tõusvad ning langevad turufaasid.

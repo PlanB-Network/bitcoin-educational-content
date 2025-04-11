@@ -5,4 +5,6 @@ wrong_answers:
   - Lớp bảo mật
   - Lớp đồng thuận
 explanation: |
-  Lớp cơ sở của mạng Bitcoin, mà Lightning Network dựa vào để mở và đóng các kênh thanh toán, thường được gọi là "lớp thanh toán".
+  Lớp cơ sở của mạng Bitcoin, nơi mà Mạng Lưới Lightning dựa vào để mở và đóng các kênh thanh toán,
+  thường được gọi là lớp thanh toán.
+reviewed: true

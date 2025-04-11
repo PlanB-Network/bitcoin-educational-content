@@ -1,0 +1,9 @@
+question: Která odpověď představuje jednu ze dvou hlavních větví kryptografie?
+answer: Symetrická kryptografie
+wrong_answers:
+  - Kryptologie
+  - Homomorfní šifrování
+  - Kryptoanalýza
+explanation: |
+  Symetrická kryptografie je hlavní větev kryptografie, zahrnující šifrovací schémata, kde se pro šifrování a dešifrování zpráv používá jediný klíč.
+reviewed: false

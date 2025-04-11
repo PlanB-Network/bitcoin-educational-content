@@ -1,0 +1,8 @@
+question: Qual é a principal vulnerabilidade de senhas fracas quando são hasheadas?
+answer: Elas são vulneráveis a ataques de dicionário
+wrong_answers:
+  - Elas não podem ser verificadas por hashing
+  - Elas sempre geram colisões
+  - Elas requerem um hashing mais longo para mais segurança
+explanation: |
+  Senhas fracas podem ser facilmente recuperadas a partir de seu hash usando ataques de dicionário, tornando sua seleção importante para garantir a segurança.

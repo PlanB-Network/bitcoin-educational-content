@@ -1,0 +1,9 @@
+question: In cosa differisce una transazione con carta di credito da una semplice transazione in contanti?
+answer: Coinvolge più intermediari
+wrong_answers:
+  - Avviene istantaneamente senza alcun coinvolgimento di intermediari
+  - Richiede solo lo scambio fisico di valuta
+  - Impone che entrambe le parti producano beni identici
+explanation: |
+  A differenza dei contanti, che vengono scambiati immediatamente, le transazioni con carta di credito passano attraverso una serie di passaggi che coinvolgono banche, reti di carte e processi di compensazione, con conseguenti ritardi e costi aggiuntivi.
+reviewed: false

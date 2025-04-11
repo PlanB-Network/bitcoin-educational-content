@@ -1,0 +1,9 @@
+question: O que é uma "definição de selo" no contexto da atribuição de RGB?
+answer: A referência a um UTXO que estabelece a propriedade de um Estado detido
+wrong_answers:
+  - O agrupamento dos dados trocados entre as partes, sujeito à validação do lado do cliente
+  - Compilação de contratos em código executável fora da cadeia
+  - O ramo DAG do historial de transição de estados
+explanation: |
+  A "Definição do selo" liga um UTXO a uma parte específica do estado do contrato, garantindo a atribuição correta de um direito ou ativo.
+reviewed: false

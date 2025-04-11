@@ -1,0 +1,9 @@
+question: ¿Cuál es la consecuencia de perder el alijo en el protocolo RGB?
+answer: El historial de contratos y los datos asociados se vuelven irrecuperables
+wrong_answers:
+  - Los datos pueden reconstruirse a partir de la cadena de bloques si se dispone de la semilla
+  - Una copia de los datos está disponible en los servidores de RGB en Suiza
+  - Los datos se replican automáticamente para todos los participantes
+explanation: |
+  En la validación del lado del cliente, cada usuario es responsable de su alijo, que no se replica en ningún otro lugar, lo que hace que su pérdida sea definitiva.
+reviewed: false

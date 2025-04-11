@@ -1,3 +1,4 @@
+id: 81e18c30-579e-46c1-a197-98cd32cb37ae
 name: Ludovic Lars
 
 contributor_id: satoshi-brother
@@ -8,11 +9,11 @@ links:
   nostr: npub1swcv2tkpyp8u60psn3m0t294gnmkljkzrkn9vy5hs22lgjtltqcsz67qz3
 
 affiliations:
-
-tags:
-  - history
-
 tips:
   lightning_address: lugaxker@bitrefill.me
 
 company:
+tags:
+  - historical
+  - high-level
+  - technical-analysis

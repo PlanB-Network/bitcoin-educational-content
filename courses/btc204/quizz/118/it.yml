@@ -1,0 +1,13 @@
+question: Tra le seguenti risposte, quale non rappresenta un rischio quando si inviano bitcoin che hanno subito un coinjoin a una piattaforma regolamentata?
+
+answer: La piattaforma potrebbe aumentare le commissioni sulle transazioni
+
+wrong_answers:
+  - La piattaforma potrebbe congelare i fondi
+  - La piattaforma potrebbe bloccare l'account dell'utente
+  - La piattaforma potrebbe segnalare comportamenti sospetti alle autorità
+
+explanation: |
+  Se invii i tuoi bitcoin a una piattaforma di scambio regolamentata, ma questi hanno di recente subito un coinjoin, lo strumento di analisi della catena della piattaforma rileverà questo fatto. La piattaforma potrebbe quindi rifiutare di accettare il tuo UTXO che ha subito un coinjoin, o addirittura richiedere spiegazioni da parte tua, con il rischio di vedere il tuo account sospeso o i tuoi fondi congelati. In alcuni casi, la piattaforma potrebbe anche segnalare il tuo comportamento alle autorità statali.
+
+reviewed: false

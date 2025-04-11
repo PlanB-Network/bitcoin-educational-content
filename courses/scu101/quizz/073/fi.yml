@@ -1,0 +1,9 @@
+question: Mikä on salasanojen hallintaohjelman tärkein etu?
+answer: Muistaa vain yksi pääsalasana.
+wrong_answers:
+  - Ei tarvitse enää luoda uusia salasanoja.
+  - Auttaa muistamaan kaikki salasanat käyttämällä muistisääntöjä.
+  - Poistaa tarpeen käyttää verkkotilejä.
+explanation: |
+  Käyttäjän tarvitsee muistaa vain yksi salasana päästäkseen käsiksi kaikkiin muihin.
+reviewed: false

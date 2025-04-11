@@ -1,0 +1,9 @@
+question: Was ist eine digitale Signatur im Kontext der asymmetrischen Kryptografie?
+answer: Ein Mechanismus zur Überprüfung der Authentizität einer Nachricht unter Verwendung des privaten Schlüssels
+wrong_answers:
+  - Ein Verfahren zur stärkeren Verschlüsselung der Nachricht
+  - Ein zusätzlicher öffentlicher Schlüssel zur Validierung einer verschlüsselten Nachricht
+  - Eine digitale Kopie einer handschriftlichen Unterschrift
+explanation: |
+  Eine digitale Signatur ist eine kryptografische Technik, die beweist, dass eine Nachricht tatsächlich vom Besitzer des entsprechenden privaten Schlüssels erstellt wurde, wodurch ihre Authentizität sichergestellt wird.
+reviewed: false

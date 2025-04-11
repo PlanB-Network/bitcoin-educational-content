@@ -1,9 +1,9 @@
-question: Bạn nên làm gì sau khi đã viết xong các từ của cụm từ gợi nhớ?
-answer: Làm một bản sao thứ hai và lưu trữ nó ở một vị trí khác biệt
+question: Bạn nên làm gì sau khi đã viết xong các từ của cụm từ ghi nhớ?
+answer: Tạo một bản sao thứ hai và lưu trữ nó ở một vị trí khác biệt.
 wrong_answers:
-  - Chia sẻ nó với một người bạn đáng tin cậy
-  - Gửi email cho chính mình
-  - Lưu trữ nó trong điện thoại của bạn
+  - Chia sẻ nó với một người bạn đáng tin cậy.
+  - Gửi email cho chính mình.
+  - Lưu trữ nó trong điện thoại của bạn.
 explanation: |
-  Một khi các từ của cụm từ gợi nhớ đã được viết, bạn được khuyến nghị làm một bản sao thứ hai và lưu trữ nó ở một vị trí khác biệt so với bản đầu tiên. Điều này cung cấp một bản sao dự phòng trong trường hợp mất mát hoặc có sự cố với bản sao đầu tiên.
-reviewed: false
+  Một khi các từ của cụm từ ghi nhớ đã được viết, bạn nên tạo một bản sao thứ hai và lưu trữ nó ở một vị trí khác biệt so với bản đầu tiên. Điều này cung cấp một bản sao dự phòng trong trường hợp mất mát hoặc có sự cố với bản sao đầu tiên.
+reviewed: true

@@ -1,0 +1,8 @@
+question: Ifølge Constant, hvilke områder har politisk makt ingen innflytelse?
+answer: Alle de nevnte områdene ovenfor (religion, vitenskap, industri).
+wrong_answers:
+  - Religion
+  - Vitenskap
+  - Industri
+explanation: |
+  Constant mener at politisk makt ikke bør gripe inn i områder som religion, vitenskap og industri, for å bevare individuell frihet og autonomien til menneskelige aktiviteter som faller innenfor det private området.

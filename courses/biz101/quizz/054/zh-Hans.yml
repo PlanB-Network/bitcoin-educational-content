@@ -1,0 +1,9 @@
+question: 以下哪个软件不是 Bitcoin 会计解决方案？
+answer: 麻雀
+wrong_answers:
+  - 硬币追踪器
+  - Koinly
+  - ZenLedger
+explanation: |
+  Sparrow 并不是比特币会计解决方案，而其他解决方案都是比特币会计解决方案（它是一款比特币钱包软件）。
+reviewed: false

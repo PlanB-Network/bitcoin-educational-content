@@ -1,9 +1,9 @@
-question: Was schlägt der Text vor, um Ihr Wissen über Bitcoin zu erweitern?
-answer: Verweisen Sie auf die Bibliothek der Ressourcen, die in den letzten Jahren aufgelistet und kategorisiert wurden.
+question: Was bedeutet es, dass Bitcoin einen allgemeinen Aufwärtstrend hat?
+answer: Ein allgemeiner Aufwärtstrend bei Bitcoin bedeutet, dass der Preis von Bitcoin insgesamt gestiegen ist.
 wrong_answers:
-  - Besuchen Sie Bitcoin-Konferenzen
-  - Investieren Sie in Bitcoin
-  - Starten Sie eine Bitcoin-Mining-Operation
+  - Ein allgemeiner Aufwärtstrend bei Bitcoin bedeutet, dass der Preis garantiert unendlich steigen wird, ohne jegliche Schwankungen.
+  - Ein allgemeiner Aufwärtstrend bei Bitcoin bedeutet, dass Bitcoin an Wert verliert und seinen Marktanreiz verliert.
+  - Ein allgemeiner Aufwärtstrend bei Bitcoin bedeutet, dass es nur bei einer kleinen Gruppe von Investoren beliebt ist und keinen Einfluss auf den Gesamtmarkt hat.
 explanation: |
-  Der Text schlägt vor, dass Sie Ihr Wissen über Bitcoin erweitern können, indem Sie auf die Bibliothek der Ressourcen verweisen, die in den letzten Jahren aufgelistet und kategorisiert wurden, einschließlich Podcasts, Websites, Artikel, Tutorials, Bücher und anderem Inhalt.
-reviewed: false
+  Ein allgemeiner Aufwärtstrend bei Bitcoin bezieht sich auf einen konstanten Anstieg seines Preises über einen bestimmten Zeitraum. Es ist wichtig zu beachten, dass ein Aufwärtstrend zwar eine positive Entwicklung andeutet, dies jedoch nicht garantiert, dass der Preis weiterhin ohne Schwankungen steigen wird.
+reviewed: true

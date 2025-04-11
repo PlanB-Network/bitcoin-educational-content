@@ -1,0 +1,9 @@
+question: Hva skjer med RGB-utgangene i forpliktelsestransaksjonene ved betaling i RGB-kanalen?
+answer: De oppdateres for å gjenspeile omfordelingen av eiendeler blant deltakerne
+wrong_answers:
+  - De forblir uendret for å bevare den opprinnelige historikken til kanalen lukkes
+  - De fjernes og erstattes av nye multi-sig
+  - De konverteres til klassiske Bitcoin UTXOer
+explanation: |
+  Når en betaling er utført, justerer RGB-tilstandsovergangen RGB-utgangene for å omfordele ressursene i henhold til den nye kanalbalansen.
+reviewed: false

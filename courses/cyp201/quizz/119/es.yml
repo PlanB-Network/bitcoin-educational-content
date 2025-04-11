@@ -1,9 +1,0 @@
-question: ¿Qué es una dirección de recepción de Bitcoin?
-answer: Es un hash de una clave pública, con un formato específico.
-wrong_answers:
-  - Un identificador único para un usuario de Bitcoin.
-  - La clave pública de un usuario de Bitcoin.
-  - Un script que bloquea bitcoins a una clave pública.
-explanation: |
-  Una dirección de recepción de Bitcoin es un hash de una clave pública, con un formato específico. Se utiliza para recibir fondos en una moneda y se genera a partir de pares de claves privadas y públicas.
-reviewed: false

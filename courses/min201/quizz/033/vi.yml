@@ -2,8 +2,10 @@ question: Rủi ro tiềm ẩn của việc giảm số lượng người dùng,
 answer: Điều này có thể làm suy yếu mạng lưới, tăng nguy cơ tập trung hóa và dễ bị tấn công hơn.
 wrong_answers:
   - Điều này có thể làm tăng giá của Bitcoin.
-  - Điều này có thể làm giảm tốc độ giao dịch.
-  - Điều này có thể làm tăng độ khó của việc đào.
+  - Điều này có thể làm giảm tốc độ giao dịch cũng như độ khó của việc đào.
+  - Điều này có thể làm tăng độ khó của việc đào và dễ bị tấn công hơn, trong khi giảm nguy cơ tập trung hóa.
 explanation: |
-  Sự giảm số lượng người dùng, nút, hoặc thợ đào có thể làm suy yếu mạng lưới Bitcoin. Điều này có thể tăng nguy cơ tập trung hóa và làm cho mạng lưới dễ bị tấn công hơn.
-reviewed: false
+  Sự giảm số lượng người dùng, nút, hoặc thợ đào có thể
+  làm suy yếu mạng lưới Bitcoin. Điều này có thể tăng nguy cơ
+  tập trung hóa và làm cho mạng lưới dễ bị tấn công hơn.
+reviewed: true

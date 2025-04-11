@@ -1,0 +1,9 @@
+question: Điều kiện cơ bản nào mà một tập hợp S với một phép toán nhị phân phải thỏa mãn để trở thành một nhóm?
+answer: Điều kiện đóng kín
+wrong_answers:
+  - Điều kiện giao hoán
+  - Điều kiện đối xứng
+  - Điều kiện phân phối
+explanation: |
+  Một tập hợp S với một phép toán nhị phân phải thỏa mãn một số điều kiện để hình thành một nhóm, và điều kiện đầu tiên là điều kiện đóng kín: phép toán giữa hai phần tử của S phải cho ra một phần tử thuộc S.
+reviewed: false

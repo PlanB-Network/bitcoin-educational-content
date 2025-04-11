@@ -1,9 +1,13 @@
 question: ¿Cuál es el riesgo potencial de la centralización de la producción de hardware de minería en China?
-answer: La negativa a exportar máquinas de minería o la acumulación de hashrate para un posible ataque del 51%.
+answer: Una negativa a exportar máquinas de minería o una acumulación de hashrate para un potencial ataque del 51%.
 wrong_answers:
   - China podría monopolizar la red de Bitcoin.
   - China podría controlar el precio de Bitcoin.
   - China podría prohibir la minería de Bitcoin.
 explanation: |
-  La centralización de la producción de hardware de minería en China plantea un riesgo para la red de Bitcoin. Si China se niega a exportar máquinas de minería o acumula hashrate para un posible ataque del 51%, podría amenazar la seguridad y descentralización de la red.
-reviewed: false
+  La centralización de la producción de hardware de minería en China
+  representa un riesgo para la red de Bitcoin. Si China se niega a
+  exportar máquinas de minería o acumula hashrate para un
+  potencial ataque del 51%, podría amenazar la seguridad y
+  descentralización de la red.
+reviewed: true

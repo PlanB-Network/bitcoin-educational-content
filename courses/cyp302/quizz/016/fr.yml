@@ -1,0 +1,9 @@
+question: Quelle est la caractéristique d'une variable uniforme ?
+answer: Toutes les valeurs possibles ont une probabilité égale de se produire
+wrong_answers:
+  - Les valeurs suivent une distribution asymétrique
+  - La probabilité de chaque valeur dépend de l'expérience
+  - Seules deux valeurs peuvent se produire avec des probabilités égales
+explanation: |
+  Une variable uniforme est une variable aléatoire dont toutes les valeurs possibles ont une probabilité égale de survenir.
+reviewed: false

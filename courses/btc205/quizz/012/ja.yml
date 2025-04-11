@@ -1,9 +1,0 @@
-question: KYCを必要としないBitcoinの購入において、Telegram経由でアクセス可能なP2Pソリューションはどれですか？
-answer: LNP2PBot
-wrong_answers:
-  - Bisq
-  - RoboSat
-  - Peach
-explanation: |
-  この章によると、LNP2PBotはKYCを必要としないBitcoinの購入において、Telegram経由でアクセス可能です。
-reviewed: false

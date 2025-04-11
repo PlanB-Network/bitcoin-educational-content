@@ -1,0 +1,7 @@
+---
+term: STATIC ADDRESS
+
+---
+Hiljaisten maksujen yhteydessä tarkoittaa yksilöllistä tunnusta, joka mahdollistaa maksujen vastaanottamisen ilman osoitteen uudelleenkäyttöä, ilman vuorovaikutusta ja ilman näkyvää yhteyttä ketjussa eri maksujen ja staattisen osoitteen välillä. Tämä tekniikka poistaa tarpeen luoda uusia, käyttämättömiä vastaanottoosoitteita jokaista tapahtumaa varten, jolloin vältetään Bitcoinissa tavanomaiset vuorovaikutustilanteet, joissa vastaanottajan on annettava maksajalle uusi osoite. Se vastaa jossain määrin uudelleenkäytettävää maksukoodia BIP47:n yhteydessä.
+
+Tämä osoite koostuu kahdesta julkisesta avaimesta: $B_{\text{scan}}$ skannausta varten ja $B_{\text{spend}}}$ kuluttamista varten, jotka yhdistetään staattiseksi osoitteeksi $B = B_{\text{scan}}$ \text{ ‖ } B_{\text{spend}}}$. Vastaanottaja julkaisee tämän osoitteen, jolloin lähettäjät voivat johtaa yksilölliset maksuosoitteet ilman muuta vuorovaikutusta vastaanottajan kanssa. Useiden erillisten maksulähteiden hallitsemiseksi $B_{\text{spend}}$:een voidaan lisätä merkintä, jolloin $B_1$:stä, $B_2$:sta jne. luodaan useita merkittyjä staattisia osoitteita. Tämä mahdollistaa maksujen erottelun samalla kun käytetään yhtä perusosoitetta, mikä vähentää lohkoketjun skannauksen työmäärää. Kaikki yksikön staattiset osoitteet voidaan kuitenkin helposti yhdistää toisiinsa $B_{\text{scan}}$:n yleisen käytön ansiosta.

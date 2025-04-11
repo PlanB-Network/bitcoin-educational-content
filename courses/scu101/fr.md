@@ -23,14 +23,16 @@ Théo; Contribution
 +++
 
 # Introduction
+
 <partId>534ab66c-b0e6-5757-a7dd-6ea04647edf2</partId>
 
-## Introduction du cours
+## Aperçu du cours
+
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
 ![introduction](https://youtu.be/DqLf72XBJUg)
 
-### Objectif : remise à jour !
+**Objectif : remise à jour !**
 
 Bienvenue à tous dans ce programme d'enseignement consacré à la sécurité numérique. Cette formation est conçue pour être accessible à tous, aucun prérequis en informatique n'est donc nécessaire. Notre objectif principal est de vous fournir les connaissances et les compétences nécessaires pour naviguer de manière plus sûre et plus privée dans le monde numérique.
 
@@ -48,21 +50,23 @@ Dans cette formation, nous ne cherchons pas à vous rendre expert, anonyme ou in
 
 Si vous cherchez des compétences plus avancées sur le sujet, nos ressources, tutoriels ou autres formations sur la cybersécurité sont là pour vous. En attendant, voici un petit aperçu de notre programme lors de ces prochaines heures ensemble.
 
-### Section 1: Tout savoir sur la navigation en ligne
+**Section 1: Tout savoir sur la navigation en ligne**
 
 - Chapitre 1 - Navigation en ligne
 - Chapitre 2 - Utiliser internet en sécurité
 
 Pour commencer, nous discuterons de l'importance du choix d'un navigateur web et de ses implications en matière de sécurité. Nous explorerons ensuite les spécificités des navigateurs, notamment en ce qui concerne la gestion des cookies. Nous verrons également comment garantir une navigation plus sécurisée et anonyme, grâce à des outils tels que TOR. Par la suite, nous mettrons l'accent sur l'utilisation des VPN pour renforcer la protection de vos données. Enfin, nous terminerons par des recommandations concernant l'utilisation sécurisée des connexions WiFi.
 ![navigation en ligne](assets/fr/1.webp)
-### Section 2: Les bonnes pratiques d'utilisation de l'ordinateur
+
+**Section 2: Les bonnes pratiques d'utilisation de l'ordinateur**
 
 - Chapitre 3 - Utilisation de l’ordinateur
 - Chapitre 4 - Hack & gestion de back-up
 
 Dans cette section, nous aborderons trois domaines clés de la sécurité informatique. Premièrement, nous explorerons les différents systèmes d'exploitation : Mac, PC et Linux, en soulignant leurs spécificités et leurs points forts. Ensuite, nous nous pencherons sur les méthodes pour se protéger efficacement des tentatives de piratage et renforcer la sécurité de vos appareils. Enfin, nous mettrons l'accent sur l'importance de protéger et de sauvegarder régulièrement vos données pour prévenir toute perte ou ransomware.
 ![utilisation PC](assets/fr/2.webp)
-### Section 3: Mise en place des solutions.
+
+**Section 3: Mise en place des solutions.**
 
 - Chapitre 6 - Gestion de la boîte mail
 - Chapitre 7 - Gestionnaire de mots de passe
@@ -72,16 +76,20 @@ Dans cette troisième section pratique, nous allons passer à la pratique avec l
 
 D'abord, nous verrons comment protéger votre boîte mail, essentielle pour vos communications et souvent ciblée par les pirates. Ensuite, nous vous présenterons ce qu'est un gestionnaire de mots de passe : une solution pratique pour ne plus oublier ou mélanger vos mots de passe tout en les gardant sécurisés. Enfin, nous évoquerons une mesure de sécurité supplémentaire, l'authentification à deux facteurs, qui ajoute une couche de protection à vos comptes. Tout sera expliqué de manière claire et accessible.
 ![solutions](assets/fr/3.webp)
-### Section Bonus: Interview avec Pantamis et Renaud
+
+**Section Bonus: Interview avec Pantamis et Renaud**
 
 En bonus, nous vous proposons une interview exclusive avec Pantamis et Renaud, nos experts en sécurité numérique. Ils partageront leurs connaissances approfondies et leurs conseils supplémentaires pour renforcer votre hygiène numérique. l'idée est d'en apprendre davantage auprès de ces professionnels expérimentés.
 
 Ce programme de formation est offert gratuitement sous une licence redistribuable CC BY SA. Nous tenons à exprimer notre gratitude envers nos Patreons et notre équipe de tournage pour leur soutien indispensable dans la réalisation de cette formation. Nous remercions également tous nos donateurs et soutiens qui nous permettent de continuer à produire du contenu éducatif gratuit mondialement.
 
+Prêt à renforcer votre sécurité numérique et reprendre le contrôle de vos données ? Allons-y !
 # Tout savoir sur la navigation en ligne
+
 <partId>b4b5379a-d8ef-59ae-94d3-a6e88959c149</partId>
 
 ## Navigation en ligne
+
 <chapterId>3a935da9-fa6e-57eb-bf85-7b3ec35e6ee2</chapterId>
 
 ![navigation en ligne](https://youtu.be/BEK7vGnkO64)
@@ -98,6 +106,7 @@ Il est également conseillé de privilégier les logiciels open source car ils s
 > Bonus: les logiciels libres sont souvent gratuit! Cette université est 100% open source, vous pouvez donc vous aussi vérifier notre code via notre GitHub
 
 ![](assets/notext/5.webp)
+
 ### Gestion des cookies : Erreurs et bonnes pratiques
 
 Les cookies sont des fichiers créés par les sites web pour stocker des informations sur votre appareil. Bien que certains sites requièrent ces cookies pour fonctionner adéquatement, ils peuvent également être exploités par des sites tiers, notamment à des fins de suivi publicitaire. Conformément à des réglementations telles que le RGPD, il est possible – et recommandé – de refuser les cookies de suivi tiers, tout en acceptant ceux qui sont essentiels au bon fonctionnement du site. Après chaque visite sur un site, il est judicieux de supprimer les cookies qui y sont associés, soit manuellement, soit via une extension ou un programme spécifique. Certains navigateurs offrent d'ailleurs la possibilité d'effectuer cette suppression de façon sélective. Malgré ces précautions, il est crucial de comprendre que les informations recueillies par différents sites peuvent demeurer interconnectées, d'où l'importance de trouver un équilibre entre praticité et sécurité.
@@ -110,6 +119,7 @@ Il existe deux grandes familles de navigateurs : ceux basés sur Chrome et ceux 
 
 Bien que les deux familles offrent un niveau de sécurité similaire, il est recommandé d'éviter le navigateur Chrome de Google en raison de ses trackers. Des alternatives plus légères de Chrome, telles que Chromium ou Brave, peuvent être préférées. Brave est particulièrement recommandé pour son bloqueur de publicités intégré. Il peut être nécessaire d'utiliser plusieurs navigateurs pour accéder à certains sites.
 ![](assets/notext/6.webp)
+
 ### La navigation privée, TOR et autres alternatives pour une navigation plus sécurisée et anonyme
 
 La navigation privée, bien qu'elle ne cache pas la navigation à votre fournisseur d'accès Internet, permet de ne pas laisser de traces locales sur votre ordinateur. Les cookies sont automatiquement supprimés à la fin de chaque session, ce qui permet d'accepter tous les cookies sans être suivi. La navigation privée peut être utile lors de l'achat de services en ligne, car les sites web suivent nos habitudes de recherche et ajustent les prix en conséquence. Cependant, il est important de noter que la navigation privée est recommandée pour des sessions temporaires et spécifiques, et non pour une utilisation générale de navigation sur Internet.
@@ -118,11 +128,11 @@ Une alternative plus avancée est le réseau TOR (The Onion Router), qui offre l
 
 TOR est légal et est utilisé par des journalistes, des activistes de la liberté et d'autres personnes souhaitant échapper à la censure dans des pays autoritaires. Cependant, il est important de comprendre que TOR ne sécurise pas les sites visités ni l'ordinateur lui-même. De plus, l'utilisation de TOR peut ralentir la connexion Internet car les données passent par les ordinateurs de trois autres personnes avant d'atteindre leur destination. Il est également essentiel de noter que TOR n'est pas une solution infaillible pour garantir l'anonymat à 100% et ne doit pas être utilisé pour mener des activités illégales.
 ![](assets/notext/7.webp)
-### BRAVE
 
-**_Tutoriel en construction, pour contribuer ou le rajouter, vous pouvez passer par le GitHub_**
+https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## VPN et connexion internet
+
 <chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
 
 ![vpn et connexion interet](https://youtu.be/oRO7sGexvzo)
@@ -142,6 +152,10 @@ Cependant, l'utilisation d'un VPN grand public ne garantit pas une anonymisation
 ![](assets/notext/9.webp)
 Enfin, un VPN peut également être utilisé pour bloquer les publicités en ligne, offrant ainsi une expérience de navigation plus agréable et sécurisée. Cependant, il est important de faire ses propres recherches pour trouver le VPN le plus adapté à ses besoins spécifiques. L'utilisation d'un VPN est recommandée pour renforcer la sécurité, même lorsqu'on navigue sur internet à domicile. Cela contribue à garantir un niveau de sécurité plus élevé pour les données échangées en ligne. Enfin, assurez-vous de vérifier les URL et le petit cadenas dans la barre d'adresse pour confirmer que vous êtes bien sur le site que vous pensez visiter.
 
+https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+
+https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+
 ### HTTPS & les réseaux wifi publics
 
 En matière de sécurité en ligne, il est essentiel de comprendre que la 4G est généralement plus sécurisée que le Wi-Fi public. Cependant, l'utilisation de la 4G peut rapidement épuiser votre forfait de données mobiles. Le protocole HTTPS est devenu la norme pour le chiffrement des données sur les sites web. Il assure que les données échangées entre l'utilisateur et le site web sont sécurisées. Il est donc crucial de vérifier que le site que vous visitez utilise bien le protocole HTTPS.
@@ -150,14 +164,12 @@ Dans l'Union européenne, la protection des données est réglementée par le R�
 ![](assets/fr/10.webp)
 En résumé, l'utilisation de VPN peut grandement améliorer la sécurité en ligne, tant pour les entreprises que pour les utilisateurs individuels. De plus, la mise en pratique de bonnes habitudes de navigation peut contribuer à une meilleure hygiène numérique. Dans le prochain segment de ce cours, nous aborderons la sécurité de l'ordinateur, y compris les mises à jour, l'antivirus et la gestion des mots de passe.
 
-### Tutoriel: IVPN
-
-**_ Tutoriel en construction, pour contribuer ou le rajouter, vous pouvez passer par le GitHub _**
-
 # Les bonnes pratiques d'utilisation de l'ordinateur
+
 <partId>e6eac20b-ba24-5d9a-8d86-8e0164074457</partId>
 
 ## Utilisation de l’ordinateur
+
 <chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
 
 ![utilisation de l'ordinateur](https://youtu.be/lzJr5CIulSU)
@@ -176,6 +188,7 @@ Concernant Windows, Il est recommandé de ne pas utiliser un compte administrate
 
 Le choix du système d'exploitation doit être effectué en fonction de vos besoins et de vos préférences. Les systèmes Linux ont considérablement évolué ces dernières années, devenant de plus en plus conviviaux. Ubuntu est une alternative intéressante pour les débutants, avec une interface graphique facile à utiliser. Il est possible de partitionner un ordinateur pour expérimenter avec Linux tout en conservant Windows, mais cela peut se révéler complexe. Il est souvent préférable d'avoir un ordinateur dédié, une machine virtuelle ou une clé USB pour tester Linux ou Ubuntu.
 ![](assets/notext/12.webp)
+
 ### Mise à jour des logiciels
 
 En ce qui concerne les mises à jour la règle est simple: **la mise à jour régulière du système d'exploitation et des applications est primordiale.**
@@ -203,11 +216,8 @@ Traitez votre ordinateur comme vous le feriez pour votre maison : restez vigilan
 
 En conclusion, il est primordial d'opter pour un système d'exploitation adapté à vos besoins et de le mettre à jour régulièrement, ainsi que les applications qui y sont installées. Il est aussi essentiel d'utiliser un antivirus efficace et agréable à l'usage, et d'adopter de bonnes pratiques pour la sécurité de votre ordinateur et de vos données.
 
-### Tutoriel : Ubuntu
-
-**_ Tutoriel en construction, pour contribuer ou le rajouter, vous pouvez passer par le GitHub _**
-
 ## Hack & gestion de back-up : protéger ses données
+
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
 
 ![hack et gestion de back-up](https://youtu.be/CJDjWPV3PeU)
@@ -247,10 +257,16 @@ NON, Il est généralement déconseillé de payer les hackers en cas de ransomwa
 
 Si vous détectez un virus sur votre ordinateur, déconnectez-le d'Internet, effectuez une analyse antivirus complète et supprimez les fichiers infectés. Mettez ensuite à jour vos logiciels et votre système d'exploitation, et changez vos mots de passe pour éviter d'autres intrusions.
 
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+
+https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+
 # Mise en place des solutions.
+
 <partId>215ec902-ba05-5549-87fc-cb8d82665f7b</partId>
 
 ## La gestion des boites mails
+
 <chapterId>dfceea33-8712-5557-ace1-6ba5598d33d8</chapterId>
 
 ![gestion de la boite mail](https://youtu.be/WjqH882f4cY)
@@ -281,7 +297,10 @@ En règle générale, se mettre à utiliser une nouvelle adresse mail plus sécu
 
 Bonus Bitcoin : Il peut être conseillé de créer une adresse mail spécialement pour nos activités Bitcoin (création de comptes d'échange) afin de vraiment séparer les centres d'activité dans nos vies.
 
+https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+
 ## Gestionnaire de mots de passe
+
 <chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
 
 ![gestionnaire de mots de passe](https://youtu.be/HzLuZ6noePY)
@@ -297,14 +316,15 @@ Avec un gestionnaire de mots de passe, vous n'avez plus à vous soucier d'oublie
 - LastPass : L'un des gestionnaires les plus populaires. C'est un service tiers, ce qui signifie que vos mots de passe sont stockés sur leurs serveurs. Il offre une version gratuite et une version payante, avec une interface conviviale.
 
 - Dashlane : C'est également un service tiers, avec une interface intuitive et des fonctionnalités supplémentaires comme le suivi des informations de carte de crédit et des notes sécurisées.
-![](assets/notext/17.webp)
+  ![](assets/notext/17.webp)
+
 ### Auto-hébergement pour plus de contrôle :
 
 - Bitwarden : C'est un outil open source, ce qui signifie que vous pouvez examiner son code pour vérifier sa sécurité. Bien que Bitwarden offre un service hébergé, il permet également aux utilisateurs de s'auto-héberger, ce qui signifie que vous pouvez contrôler où vos mots de passe sont stockés, offrant potentiellement plus de sécurité et de contrôle.
 
 - KeePass : C'est une solution open source qui est principalement destinée à l'auto-hébergement. Vos données sont stockées localement par défaut, mais vous pouvez synchroniser la base de données de mots de passe à l'aide de différents moyens si vous le souhaitez. KeePass est largement reconnu pour sa sécurité et sa flexibilité, bien qu'il puisse être un peu moins convivial pour les novices.
-![](assets/notext/18.webp)
-(Note : Choisir entre un service tiers ou un service auto-hébergé dépend de votre niveau de confort technologique et de la manière dont vous priorisez le contrôle par rapport à la commodité. Les services tiers sont généralement plus pratiques pour la plupart des gens, tandis que l'auto-hébergement nécessite plus de connaissances techniques mais peut offrir plus de contrôle et de tranquillité d'esprit en matière de sécurité.)
+  ![](assets/notext/18.webp)
+  (Note : Choisir entre un service tiers ou un service auto-hébergé dépend de votre niveau de confort technologique et de la manière dont vous priorisez le contrôle par rapport à la commodité. Les services tiers sont généralement plus pratiques pour la plupart des gens, tandis que l'auto-hébergement nécessite plus de connaissances techniques mais peut offrir plus de contrôle et de tranquillité d'esprit en matière de sécurité.)
 
 ### Qu'est ce qu'un bon mot de passe:
 
@@ -321,8 +341,12 @@ Pour créer un mot de passe fort, il est recommandé d'utiliser un grand nombre 
 
 Les mots de passe générés de manière aléatoire offrent un niveau de sécurité supérieur, bien qu'ils puissent être plus difficiles à retenir. Les gestionnaires de mots de passe peuvent générer des mots de passe aléatoires plus sécurisés. En utilisant un gestionnaire de mots de passe, vous n'avez pas besoin de mémoriser tous vos mots de passe. Il est important de remplacer progressivement vos anciens mots de passe par ceux générés par le gestionnaire, car ils sont plus forts et plus longs. Assurez-vous que le mot de passe maître de votre gestionnaire de mots de passe est également fort et sécurisé.
 
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
+https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Les 2 facteurs d’authentification
+
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
 
 ![les 2FA](https://youtu.be/863n4N1XNjk)
@@ -336,8 +360,8 @@ Cette seconde étape peut être :
 - Un code temporaire envoyé par SMS.
 - Un code généré par une application comme Google Authenticator ou Authy.
 - Une clé de sécurité physique que vous insérez dans votre ordinateur.
-![](assets/notext/19.webp)
-Avec la 2FA, même si un pirate obtient votre mot de passe, il ne pourra pas accéder à votre compte sans ce deuxième facteur de vérification. Cela rend la 2FA essentielle pour protéger vos comptes en ligne contre les accès non autorisés.
+  ![](assets/notext/19.webp)
+  Avec la 2FA, même si un pirate obtient votre mot de passe, il ne pourra pas accéder à votre compte sans ce deuxième facteur de vérification. Cela rend la 2FA essentielle pour protéger vos comptes en ligne contre les accès non autorisés.
 
 ### Quelle option choisir ?
 
@@ -364,54 +388,104 @@ Continuez à apprendre et à mettre en place petit à petit les bonnes pratiques
 
 Règle d'or : La sécurité informatique est une cible mouvante qui va s'adapter à votre parcours d'apprentissage !
 
-# Section Pratique 
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+
+https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+
+# Section Pratique
+
 <partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>
 
-## Mise en place d'un Boite Mail 
+## Mise en place d'un Boite Mail
+
 <chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
-https://planb.network/tutorials/others/proton-mail
+Protéger sa boîte mail est une étape importante pour sécuriser ses activités en ligne et préserver ses données personnelles. Ce tutoriel vous guidera, pas à pas, dans la création et la configuration d’un compte ProtonMail, un fournisseur reconnu pour son haut niveau de sécurité qui propose un chiffrement de bout en bout de vos communications. Que vous soyez novice ou utilisateur expérimenté, les bonnes pratiques proposées ici vous aideront à renforcer la sécurité de votre messagerie, tout en tirant parti des fonctionnalités avancées de ProtonMail :
+
+https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ![video](https://youtu.be/vpYJYWhmEZg)
 
 ## Sécurisation en 2FA
+
 <chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
 
-https://planb.network/tutorials/others/authy
+L'authentification à deux facteurs (2FA) est devenue essentielle pour sécuriser vos comptes en ligne. Dans ce tutoriel, vous apprendrez à configurer et utiliser l'application 2FA Authy, qui génère des codes dynamiques à 6 chiffres pour protéger vos comptes. Authy est très simple à prendre en mains et se synchronise sur plusieurs appareils. Découvrez comment installer et configurer Authy, et renforcez ainsi la sécurité de vos comptes en ligne dès maintenant :
 
-https://planb.network/tutorials/others/security-key
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+
+Une autre option est d'utiliser une clé de sécurité physique. Cet autre tutoriel vous montre comment configurer et utiliser une clé de sécurité en tant que second facteur d'authentification :
+
+https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ![video](https://youtu.be/mNcAKRDmz5o)
 
 ## Création d'un gestionaire de mot de passe
+
 <chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
-https://planb.network/tutorials/others/bitwarden
-https://planb.network/tutorials/others/keepass
+
+La gestion des mots de passe est un défi à l'ère numérique. Nous avons tous de nombreux comptes en ligne à sécuriser. Le gestionnaire de mots de passe vous aide à créer et stocker des mots de passe forts et uniques pour chaque compte.
+
+Dans ce tutoriel, découvrez comment configurer Bitwarden, un gestionnaire de mots de passe open-source, et comment synchroniser vos identifiants sur tous vos appareils pour simplifier votre utilisation au quotidien :
+
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
+Pour les utilisateurs plus confirmés, je vous propose également un tutoriel sur un autre logiciel gratuit et open-source à utiliser en local pour gérer vos mots de passe :
+
+https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+
 ![video](https://youtu.be/y7Xkv4E5YmU)
 
 ## Sécurisation de vos comptes
+
 <chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
-https://planb.network/tutorials/others/bitwarden
-https://planb.network/tutorials/others/keepass
+
+Dans ces deux tutoriels, je vous guide également dans la sécurisation vos comptes en ligne et je vous explique comment adopter progressivement des pratiques plus sécurisées pour la gestion de vos mots de passe au quotidien.
+
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
+https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+
 ![video](https://youtu.be/0JHZRALmGY0)
 
 ## Mise en place de Back-up
+
 <chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
-https://planb.network/tutorials/others/proton-drive
-https://planb.network/tutorials/others/veracrypt
+
+Protéger vos fichiers personnels est également un point essentiel. Ce tutoriel vous montre comment mettre en place une stratégie de sauvegarde efficace grâce à Proton Drive. Découvrez comment utiliser cette solution cloud sécurisée pour appliquer la méthode 3-2-1 : trois copies de vos données sur deux supports différents, dont une copie hors site. Assurez ainsi l'accessibilité et la sécurité de vos fichiers sensibles :
+
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+
+Et pour sécuriser vos fichiers stockés sur des support amovibles comme une clé usb ou un disque dur, je vous montre également comment chiffrer et déchiffrer ces supports facilement grâce à VeraCrypt :
+
+https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+
 ![video](https://youtu.be/wTJnlSUkDRI)
 
 ## Changement de navigateur & VPN
+
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
-https://planb.network/tutorials/others/ivpn
-https://planb.network/tutorials/others/mullvad
-https://planb.network/tutorials/others/tor-browser
+
+La protection de votre vie privée en ligne est également un point à prendre en compte pour assurer votre sécurité. L'utilisation d'un VPN peut être une première solution pour y parvenir.
+
+Je vous propose de découvrir deux solutions de VPN fiables et payables en bitcoin, que sont IVPN et Mullvad. Ces tutoriels vous guide pour installer, configurer et utiliser Mullvad ou IVPN sur tous vos appareils :
+
+https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+
+https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+
+Découvrez également comment utiliser Tor Browser, un navigateur spécifiquement conçu pour protéger votre confidentialité en ligne :
+
+https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+
 ![video](https://youtu.be/vc6-Ouca09g)
 
 # Allez plus loins
+
 <partId>77113cad-a6d8-57e5-b903-50c223b277ba</partId>
 
 ## Comment travailler dans cette industrie de la cybersécurité
+
 <chapterId>aad1ae27-4280-5b07-b9ab-118ae013951a</chapterId>
 
 ![conclusion et travailler dans l'industrie](https://youtu.be/YZ2EKaPvoZU)
@@ -448,6 +522,7 @@ En maîtrisant ces compétences et outils, vous serez bien équipé pour navigue
 ![](assets/notext/20.webp)
 
 ## Interview de Renaud
+
 <chapterId>7d83fd98-ce22-514e-b9e8-729fbf71ee6e</chapterId>
 
 ![Interview](https://youtu.be/RVjE-KOSKDs)
@@ -483,32 +558,21 @@ Autres considérations clés
 
 Dans le cadre du module de formation "Sécurité 101" de Découvre Bitcoin sur l'Académie, nous avons également discuté de l'authentification Lightning. Ce système génère un identifiant différent par service, sans nécessité de renseigner une adresse email ou des informations personnelles. Il est possible d'avoir des identités décentralisées contrôlées par l'utilisateur, mais il manque de normalisation et de standardisation dans les projets d'identité décentralisée. Les gestionnaires de paquets tels que Nuget et Chocolaté, qui permettent de télécharger des logiciels open source en dehors du Microsoft Store, sont recommandés pour éviter les attaques malveillantes. En somme, le DNS est crucial pour la sécurité en ligne, mais il est nécessaire de rester vigilant face aux attaques potentielles sur les serveurs DNS.
 
+# Section finale
 
+<partId>3d8ac4c9-f05b-4133-a40a-6e19d579f05f</partId>
 
-## Donnez-nous votre avis sur ce cours
+## Avis & Notes
+
 <chapterId>6be74d2d-2116-5386-9d92-c4c3e2103c68</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Remerciements et continuez à creuser le terrier du lapin
-<chapterId>df3a962a-a96e-5006-b904-0dd9d4a072dd</chapterId>
+## Examen final
 
-### Notez la formation & nous soutenir
+<chapterId>a894b251-a85a-5fa4-bf2a-c2a876939b49</chapterId>
+<isCourseExam>true</isCourseExam>
 
-Ce cours, ainsi que l'intégralité du contenu présent sur cette université, vous a été offert gratuitement par notre communauté. Pour nous soutenir, vous pouvez le partager autour de vous, devenir membre de l'université et même contribuer à son développement via GitHub. Au nom de toute l'équipe, merci !
+## Conclusion
 
-Un système de notation pour la formation sera bientôt intégré à cette nouvelle plateforme de E-learning ! En attendant, merci beaucoup d'avoir suivi le cours et si vous l'avez apprécié, pensez à le partager autour de vous.
-
-### allez plus loins
-
-Félicitations pour avoir terminé cette formation SECU 101 ! J'espère de tout cœur qu'elle vous a plu et ouvert des portes. vous etes désomrais pret pour obtenir vos premier bitcoin ou tous simplement continuer l'aventure avec les cours de niveau 2 !
-
-- BTC 101 vous permettra d'avoir les bases théorique sur Bitcoin
-- BTC 102 vous aidera à mettre en place votre plan bitcoin
-- LN 201 et 202 vous permettront de découvrir le Lightning Network, un réseau de paiements en second couche
-- ECON 201 abordera l'économie autrichienne
-- MINAGE 201 pour en savoir plus sur le minage
-- (et bien d'autres)
-
-Un immense merci à nos Patreon, membres et donateurs pour leur soutien financier, merci aux personnes qui partagent et merci à celles qui ont rendu cette formation possible : Théo pantamis, Renaud, Théo, Fabien, Noury, Muriel & toute l'équipe
-
-À bientôt!
+<chapterId>6270ea6b-7694-4ecf-b026-42878bfc318f</chapterId>
+<isCourseConclusion>true</isCourseConclusion>

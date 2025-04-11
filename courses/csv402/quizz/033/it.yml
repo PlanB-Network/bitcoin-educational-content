@@ -1,0 +1,9 @@
+question: Qual è lo scopo della spedizione del terminale nel processo di trasferimento RGB?
+answer: Fornire la storia delle transizioni di Stato
+wrong_answers:
+  - Convalidare il contratto Genesis
+  - Eliminare le vecchie transizioni
+  - Generare un nuovo schema per il trasferimento
+explanation: |
+  La partita terminale raccoglie la storia del contratto per dimostrare la legittimità del bene trasferito fino ad oggi.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hva tillater Diffie-Hellman nøkkelutvekslingsprotokollen?
+answer: Den tillater to parter å skape en felles hemmelig nøkkel ved å dele offentlig informasjon.
+wrong_answers:
+  - Den tillater en personlig hemmelig nøkkelutveksling for hver økt.
+  - Den tillater bruk av en offentlig nøkkel for kryptering og en privat nøkkel for dekryptering.
+  - Den tillater utveksling av elektronisk valuta.
+explanation: |
+  Diffie-Hellman-protokollen muliggjør at to parter kan dele informasjon offentlig, samtidig som det sikres at kun de kan generere en felles nøkkel for å sikre deres fremtidige utvekslinger.
+reviewed: false

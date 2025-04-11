@@ -1,9 +1,9 @@
-question: Tại sao lại khuyến nghị hạn chế số lượng tiện ích mở rộng được cài đặt trên trình duyệt của bạn?
+question: Tại sao lại được khuyến nghị giới hạn số lượng tiện ích mở rộng được cài đặt trên trình duyệt của bạn?
 answer: Để tránh các vấn đề về bảo mật và hiệu suất tiềm ẩn.
 wrong_answers:
   - Để tiết kiệm không gian lưu trữ trên thiết bị của bạn.
-  - Để ngăn trình duyệt không bị sập.
+  - Để ngăn trình duyệt bị sập.
   - Để tránh bị theo dõi bởi các trang web của bên thứ ba.
 explanation: |
-  Mặc dù các tiện ích mở rộng trình duyệt có thể cung cấp các chức năng hữu ích, chúng cũng có thể gây ra rủi ro về bảo mật vì chúng có thể truy cập dữ liệu và hoạt động duyệt web của bạn. Ngoài ra, việc có quá nhiều tiện ích mở rộng có thể làm chậm trình duyệt và ảnh hưởng đến hiệu suất của nó.
-reviewed: false
+  Mặc dù các tiện ích mở rộng trình duyệt có thể cung cấp các chức năng hữu ích, chúng cũng có thể gây ra rủi ro về bảo mật vì chúng có thể truy cập vào dữ liệu và hoạt động duyệt web của bạn. Ngoài ra, việc có quá nhiều tiện ích mở rộng có thể làm chậm trình duyệt của bạn và ảnh hưởng đến hiệu suất của nó.
+reviewed: true

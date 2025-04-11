@@ -1,0 +1,11 @@
+question: Blant de følgende svarene, hvilket tillater ikke å lure kjedeanalyseheuristikkene?
+
+answer: Å alltid bruke den samme mottaksadressen.
+
+wrong_answers:
+  - Å lage en endring hvis verdi er nær betalingen.
+  - Å lage utbetalinger med uregelmessige, ikke-runde beløp.
+  - Å fordele transaksjonene utover dagen.
+
+explanation: |
+  Man bør spesielt ikke bruke en mottaksadresse flere ganger. Alle de andre svarene tillater å unngå kjedeanalyseheuristikkene.

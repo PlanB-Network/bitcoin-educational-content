@@ -1,5 +1,5 @@
 ---
-name: Boltzmann-laskin
+name: Boltzmann Calculator
 description: Ymmärrä entropian käsite ja miten käyttää Boltzmannia
 ---
 ![kansi](assets/cover.webp)

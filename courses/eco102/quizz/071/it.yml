@@ -1,0 +1,9 @@
+question: Cos'è la mano invisibile secondo Adam Smith?
+answer: Un meccanismo per cui gli interessi individuali servono l'interesse generale
+wrong_answers:
+  - Una forza soprannaturale che guida l'economia
+  - Una cospirazione dei ricchi per sfruttare i poveri
+  - Una metafora per descrivere il ruolo dello stato nell'economia
+explanation: |
+  La mano invisibile descrive come l'inseguimento degli interessi personali in un mercato libero contribuisca involontariamente all'interesse generale.
+reviewed: false

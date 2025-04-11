@@ -1,0 +1,9 @@
+question: Apa itu dompet dingin dalam konteks Bitcoin?
+answer: Sebuah dompet untuk menyimpan jumlah besar Bitcoin secara offline
+wrong_answers:
+  - Sebuah dompet yang digunakan untuk transaksi di iklim dingin
+  - Sebuah dompet yang digunakan untuk menyimpan jumlah kecil Bitcoin
+  - Sebuah dompet yang digunakan untuk menyimpan Bitcoin dalam jangka waktu pendek
+explanation: |
+  Dompet dingin adalah dompet untuk menyimpan jumlah besar Bitcoin secara offline.
+  Ini dianggap lebih aman daripada dompet panas karena lebih sedikit rentan terhadap peretasan.

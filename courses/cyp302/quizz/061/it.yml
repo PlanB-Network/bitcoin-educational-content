@@ -1,0 +1,9 @@
+question: Che tipo di crittografia utilizza blocchi di dati fissi?
+answer: Crittografia a blocchi
+wrong_answers:
+  - Crittografia a flusso
+  - Codice di autenticazione del messaggio
+  - Chiave pubblica
+explanation: |
+  La crittografia a blocchi divide i dati in blocchi di dimensione fissa e li cripta indipendentemente.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Milline protsent Bitcoin'i kogu tehingumahtudest on kasutatud ebaseaduslikuks tegevuseks?
+answer: Alla 1%
+wrong_answers:
+  - 2-4%
+  - Üle 5%
+  - See on teadmata
+explanation: |
+  Chainalysis 2020. aasta raporti kohaselt moodustab ebaseaduslik tegevus ainult umbes 0,34% kõigist Bitcoin'i tehingutest.
+reviewed: true

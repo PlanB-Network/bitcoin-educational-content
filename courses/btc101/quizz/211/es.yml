@@ -1,9 +1,11 @@
-question: ¿Qué obliga Bitcoin a hacer a las empresas, universidades, reguladores e individuos?
-answer: Tomar en cuenta esta nueva tecnología
+question: ¿Qué acción fuerza Bitcoin a realizar a empresas, universidades, reguladores e individuos?
+answer: Tomarlo en cuenta.
 wrong_answers:
-  - Ignorarla
-  - Prohibirla
-  - Criminalizarla
-explanation: |
-  El surgimiento de Bitcoin obliga a las empresas, universidades, reguladores e individuos a tomar en cuenta esta nueva tecnología. Se deben crear nuevas herramientas, adaptar servicios y la innovación debe continuar para garantizar su supervivencia.
-reviewed: false
+  - Ignorarlo.
+  - Prohibirlo.
+  - Criminalizarlo.
+explanation: >-
+  El auge de Bitcoin obliga a empresas, universidades, reguladores e individuos
+  a tomar en cuenta esta nueva tecnología. Se necesitan crear nuevas herramientas, los servicios
+  deben adaptarse y la innovación debe continuar para asegurar su supervivencia.
+reviewed: true

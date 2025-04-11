@@ -1,9 +1,11 @@
-question: Wie kann man Bitcoins hauptsächlich erhalten?
-answer: Indem man sie für den Handel akzeptiert oder indem man sie über regulierte oder unregulierte Plattformen kauft.
+question: Was ist eine praktische Methode, um Bitcoins zu erhalten?
+answer: Durch den Kauf über regulierte oder unregulierte Plattformen.
 wrong_answers:
-  - Indem man sie mit einem Computer abbaut.
-  - Indem man sie in der physischen Welt findet.
-  - Indem man sie mit spezieller Software erstellt.
+  - Sie durch den Einsatz eines Laptops zu minen.
+  - Sie in der physischen Welt zu finden.
+  - Sie mit einer speziellen Software zu erstellen.
 explanation: |
-  Der Text erwähnt, dass Benutzer Bitcoins erhalten können, indem sie sie für den Handel akzeptieren oder indem sie sie über regulierte oder unregulierte Plattformen kaufen.
-reviewed: false
+  Der Text erwähnt, dass Nutzer Bitcoins erhalten können,
+  indem sie diese für Handel akzeptieren oder durch den Kauf
+  über regulierte oder unregulierte Plattformen.
+reviewed: true

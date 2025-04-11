@@ -1,0 +1,11 @@
+question: Apa peran penambang terkait dengan pembangkit listrik yang belum terhubung ke jaringan?
+answer: Mereka bertindak sebagai pembeli pilihan terakhir
+wrong_answers:
+  - Mereka menyediakan listrik untuk pembangkit listrik
+  - Mereka menghubungkan pembangkit listrik ke jaringan
+  - Mereka mengatur harga listrik
+explanation: >-
+  Penambang bertindak sebagai pembeli pilihan terakhir untuk pembangkit listrik yang belum terhubung
+  ke jaringan. Ini memungkinkan pembangkit listrik untuk mengamankan pembiayaan bahkan sebelum terhubung
+  ke jaringan listrik.
+reviewed: false

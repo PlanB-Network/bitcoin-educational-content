@@ -1,10 +1,9 @@
-question: Jak se určuje počet slov ve frázi pro obnovu při generování mnemonické fráze pro Bitcoin peněženku?
-answer: Závisí to na velikosti entropie.
+question: Jaké je omezení pro odvození dětského veřejného klíče z rodičovského veřejného klíče?
+answer: Dětský klíč musí být normální
 wrong_answers:
-  - Závisí to na velikosti kontrolního součtu.
-  - Je to vždy 24 slov.
-  - Je generováno náhodně.
+  - Dětský klíč musí být zpevněný
+  - Řetězový kód musí být identický s kódem rodičovského klíče
+  - Proces musí zahrnovat soukromý klíč rodiče
 explanation: |
-  V závislosti na velikosti entropie bude fráze pro obnovu obsahovat
-  12 slov pro 128 bitů, 15 slov pro 160 bitů a 24 slov pro 256 bitů.
+  Dětský veřejný klíč lze odvodit z rodičovského veřejného klíče pouze pokud je normální, nikoli zpevněný.
 reviewed: false

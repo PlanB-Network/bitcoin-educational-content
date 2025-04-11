@@ -1,0 +1,8 @@
+question: Millist toimingut kasutatakse tavaliselt võtmevooga ja sõnumiga ühendamiseks voošifris?
+answer: XOR
+wrong_answers:
+  - Korrutamine
+  - Modulaarne nihutamine
+  - Iga tähe asendamine
+explanation: |
+  Voošifris kasutatakse üldiselt XOR toimingut võtmevoo ja sõnumi ühendamiseks, kuna see on lihtne ja pöörduv.

@@ -1,0 +1,9 @@
+question: Mis on kaevurite roll Bitcoin'i võrgustikus?
+answer: Levitatud tehingute salvestamine Bitcoin'i plokiahelasse
+wrong_answers:
+  - Uute bitcoinide loomine
+  - Bitcoinide väärtuse reguleerimine
+  - Bitcoin'i kasutajate identiteedi kontrollimine
+explanation: |
+  Kaevurid Bitcoin'i võrgustikus vastutavad võrgus levitatud tehingute
+  salvestamise eest Bitcoin'i plokiahelasse. See tagab tehingute lõplikkuse.

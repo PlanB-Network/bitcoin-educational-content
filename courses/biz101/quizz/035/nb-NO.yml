@@ -1,0 +1,9 @@
+question: Hvordan er Lightning Network mer effektivt og raskere enn tradisjonelle betalingsmetoder?
+answer: Det er betydelig raskere, ofte gjøres transaksjoner opp på mindre enn ett sekund, med lavere gebyrer og uten å være avhengig av flere mellomledd.
+wrong_answers:
+  - Det samsvarer med tradisjonelle banktider, og tar ofte 2-5 dager å gjøre opp.
+  - Det går tregere enn tradisjonelle kortbetalinger og har høyere gebyrer.
+  - Det krever flere godkjenningsinstanser, akkurat som dagens bankoverføringer.
+explanation: |
+  Ved å muliggjøre transaksjoner utenfor kjeden og fullføre betalinger nesten umiddelbart, gir Lightning en hastighets- og effektivitetsfordel sammenlignet med tradisjonelle metoder som er avhengige av flere mellomledd.
+reviewed: false

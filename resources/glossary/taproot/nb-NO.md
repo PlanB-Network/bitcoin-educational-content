@@ -1,0 +1,7 @@
+---
+term: TAPROOT
+
+---
+En større oppdatering av Bitcoin-protokollen, vedtatt gjennom en soft fork i november 2021. Denne oppdateringen gir betydelige forbedringer når det gjelder personvern, effektivitet og fleksibilitet ved å implementere BIP340, BIP341 og BIP342. Denne oppdateringen ble låst i blokk 687 284 den 12. juni 2021, da 90 % av blokkene som ble generert i løpet av en periode signaliserte at de var for, noe som indikerte at utvinnerne var klare til å aktivere oppdateringen (*Speedy Trial*). Aktiveringen fant til slutt sted i blokk 709 632 den 14. november 2021, nesten fire år etter de innledende diskusjonene om saken mellom Pieter Wuille, Andrew Poelstra og Gregory Maxwell. Det var det første større oppdateringsforsøket siden den omstridte aktiveringen av SegWit i 2017.
+
+Taproot er også navnet på BIP341, implementert i softforken med samme navn, som introduserer en ny skriptmodell kalt P2TR. Et P2TR-skript låser bitcoins på en unik Schnorr-publikumsnøkkel, betegnet som $K$. Denne nøkkelen $K$ er imidlertid faktisk et aggregat av en offentlig nøkkel $P$ og en offentlig nøkkel $M$, hvor sistnevnte beregnes fra Merkle-roten av en liste med `scriptPubKey`. Bitcoins låst med et P2TR-skript kan brukes på to forskjellige måter: enten ved å publisere en signatur for den offentlige nøkkelen $P$, eller ved å tilfredsstille et av skriptene i Merkle-treet. Det første alternativet kalles en "*nøkkelbane*" og det andre en "*skriptbane*".

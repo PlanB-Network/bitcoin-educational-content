@@ -1,0 +1,13 @@
+question: Nende kolme protokolli hulgas, milline neist ei ole coinjoin'i rakendus?
+
+answer: Chainalysis.
+
+wrong_answers:
+  - JoinMarket.
+  - Wabisabi.
+  - Whirlpool.
+
+explanation: |
+  Chainalysis ei ole üldse coinjoin'i rakendus, kuna see on blockchaini analüüsifirma.
+
+reviewed: false

@@ -1,0 +1,9 @@
+question: Satoshi NakamotoがBitcoinのホワイトペーパーで明示的に言及した電子マネーの概念は何ですか？
+answer: b-money (Wei Dai)
+wrong_answers:
+  - bit gold (Nick Szabo)
+  - RPOW (Hal Finney)
+  - eCash (David Chaum)
+explanation: |
+  これは最初の参照です。これは、SatoshiがWei Daiとの交換の後、2008年8月に追加されました。
+  レビュー済み: false

@@ -5,7 +5,7 @@ wrong_answers:
   - Open all email attachments to check their content.
   - Share your personal information only with known senders.
 explanation: |
-  The golden rule to protect yourself from fraudulent emails is to carefully
-  check the full name of the sender as well as the origin of the email. When in doubt,
-  delete it!
-reviewed: false
+  The golden rule to protect yourself from fraudulent emails
+  is to carefully check the full name of the sender as well
+  as the origin of the email. When in doubt, delete it!
+reviewed: true

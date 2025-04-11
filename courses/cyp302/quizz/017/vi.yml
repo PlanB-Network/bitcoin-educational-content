@@ -1,0 +1,13 @@
+question: Sự khác biệt giữa biến ngẫu nhiên rời rạc và biến ngẫu nhiên liên tục là gì?
+
+answer: Biến rời rạc có một số lượng hữu hạn các kết quả có thể xảy ra, trong khi biến liên tục có thể nhận một số lượng vô hạn giá trị trong một khoảng.
+
+wrong_answers:
+  - Biến rời rạc liên tục thay đổi giá trị, trong khi biến liên tục giữ ổn định.
+  - Biến rời rạc đặc thù cho các thí nghiệm vật lý được tiến hành, biến liên tục là trừu tượng trong khoảng của nó.
+  - Biến rời rạc không tồn tại trong mật mã học hiện đại, chỉ có biến liên tục được sử dụng.
+
+explanation:
+  Biến rời rạc có một tập hợp hữu hạn các kết quả, trong khi biến liên tục có thể nhận bất kỳ giá trị nào trong một khoảng, như các số thực giữa 0 và 1.
+
+reviewed: false

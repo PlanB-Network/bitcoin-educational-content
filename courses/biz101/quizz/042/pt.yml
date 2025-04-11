@@ -1,0 +1,9 @@
+question: Na maioria das jurisdições, o que desencadeia um facto tributável quando se lida com Bitcoin?
+answer: A venda, negociação ou utilização de Bitcoin como pagamento desencadeia frequentemente um evento tributável.
+wrong_answers:
+  - Simplesmente manter o Bitcoin indefinidamente sem quaisquer transacções.
+  - Fazer uma cópia de segurança da sua carteira ou chaves Bitcoin.
+  - Ver o preço do Bitcoin online.
+explanation: |
+  Normalmente, um evento tributável ocorre quando uma empresa descarta ou usa seu Bitcoin, não apenas por mantê-lo. Cada venda ou troca de Bitcoin por bens, serviços ou moeda fiduciária pode gerar ganhos ou perdas tributáveis.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Co odzwierciedla Commitment Transaction w kanale Lightning?
+answer: Nowy podział środków między obie strony
+wrong_answers:
+  - Całkowita liczba dokonanych transakcji
+  - Kwota opłat należnych za transakcję
+  - Otwarcie nowego kanału płatności
+explanation: |
+  Commitment Transaction przedstawia bieżącą dystrybucję środków w kanale po każdej transakcji Lightning, ale nie jest publikowany w Blockchain, dopóki kanał pozostaje otwarty.
+reviewed: false

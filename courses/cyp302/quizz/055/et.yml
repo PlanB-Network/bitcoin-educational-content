@@ -1,0 +1,9 @@
+question: Mis on tsükliliste gruppide tähtsus krüptograafias?
+answer: Need võimaldavad luua krüptograafilisi süsteeme, mis põhinevad generaatoritel
+wrong_answers:
+  - Need lihtsustavad krüpteerimisvõtmete korrutamist
+  - Need suurendavad avalike suhtluskanalite turvalisust
+  - Neid kasutatakse sõnumite otseks räsiks, et säilitada nende terviklikkus
+explanation: |
+  Krüptograafias on tsüklilised grupid, millel on generaatorid, olulised krüpteerimisvõtmete aluste loomiseks, eriti avaliku võtme süsteemides.
+reviewed: false

@@ -1,0 +1,9 @@
+question: What was e-gold?
+answer: A digital currency backed by an equivalent amount of gold stored in a vault
+wrong_answers:
+  - A unit of currency in the World of Warcraft universe
+  - A digital currency concept whose issuance was based on proof of work
+  - An online exchange system for gold jewelry
+explanation: |
+  The system was co-founded by Douglas Jackson and Barry Downey in 1996 and was accessible with a simple web browser.
+reviewed: false

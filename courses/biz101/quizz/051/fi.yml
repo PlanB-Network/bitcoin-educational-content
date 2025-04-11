@@ -1,0 +1,9 @@
+question: Minkälainen yritys todennäköisesti pitää yksinkertaista csv-tiedostoa riittävänä kirjanpitoa varten?
+answer: Pienyritykset
+wrong_answers:
+  - Suuret monikansalliset yritykset
+  - Suuret rahoituslaitokset
+  - Korkean taajuuden kaupankäyntijärjestelmät
+explanation: |
+  Useimmat pienyritykset hyötyvät csv-vientitietojen yksinkertaisuudesta ja riittävistä yksityiskohdista.
+reviewed: false

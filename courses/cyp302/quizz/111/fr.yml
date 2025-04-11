@@ -1,0 +1,9 @@
+question: Qu'est-ce qu'un chiffrement de flux asynchrone ?
+answer: Un chiffrement dont le flux de clés dépend à la fois de la clé et des éléments de texte chiffré précédents
+wrong_answers:
+  - Un chiffrement qui génère un flux de clés aléatoires à chaque utilisation
+  - Un chiffrement où la clé doit être changée pour chaque message
+  - Un chiffrement dont le flux de clés dépend uniquement de la clé initiale
+explanation: |
+  Un chiffrement de flux asynchrone est un chiffrement où le flux de clés est influencé par la clé et les éléments du texte chiffré.
+reviewed: false

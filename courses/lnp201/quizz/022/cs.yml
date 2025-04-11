@@ -1,10 +1,9 @@
-question: Co Alice dělá s UTXO 0.0007 BTC, když otevře kanál s Bobem?
-answer: Pošle ho na jednu ze svých adres pro vrácení drobných.
+question: Co umožňuje revokační klíč udělat v případě podvodu?
+answer: Vrátit všechny prostředky tím, že podvodníka potrestá
 wrong_answers:
-  - Pošle ho na veřejnou adresu Boba.
-  - Pošle ho na 2/2 multi-sig adresu.
-  - Nechá ho na své vlastní adrese.
+  - Zrušit transakci závazku
+  - Zdvojnásobit kapacitu kanálu
+  - Zabránit jakýmkoliv dalším transakcím v kanálu
 explanation: |
-  Když Alice otevře kanál s Bobem, vytvoří transakci s 2 UTXO jako výstup. Jedno UTXO 0.0013 BTC jde na 2/2 multi-sig adresu a
-  druhé UTXO 0.0007 BTC jde na jednu z jejích adres pro vrácení drobných.
+  Revokační klíč umožňuje poškozené straně získat zpět všechny prostředky v případě pokusu o podvod ze strany druhé strany.
 reviewed: false

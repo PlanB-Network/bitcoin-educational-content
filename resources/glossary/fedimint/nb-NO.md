@@ -1,0 +1,5 @@
+---
+term: FEDIMINT
+
+---
+Betalings- og bitcoin-administrasjonsprotokoll designet for å forbedre personvernet og redusere avhengigheten av hovedkjeden gjennom sammenslåing av fondsforvaring. Fedimint ble opprettet av Eric Sirion i 2021. Det er basert på et chaumiansk banksystem, som i stedet for å være sentralisert rundt en enkelt betrodd aktør, baserer seg på føderasjoner. Disse føderasjonene er grupper av betrodde forvaltere som kollektivt oppbevarer og forvalter bitcoinsene til brukerne i gruppen. Innenfor gruppen kan brukerne foreta betalinger med billetter som utstedes i bytte mot bitcoin-innskuddene deres. Ideen med Fedimint er å implementere dette konseptet på lokalsamfunnsnivå. Dermed representerer det en slags evolusjon av innskuddsbanken basert på bitcoin, med David Chaums eCash-system og bruk av en føderasjon av betrodde personer som har ansvaret for forvaring og utstedelse av den underliggende eiendelen.

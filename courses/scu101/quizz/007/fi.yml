@@ -5,7 +5,9 @@ wrong_answers:
   - Ominaisuus, joka mahdollistaa internetin selaamisen nimettömästi.
   - Ominaisuus, joka suojaa laitettasi viruksilta ja muilta haittaohjelmilta.
 explanation: |
-  Yksityinen selaus on ominaisuus, joka estää internet-selaimia tallentamasta
-  selaushistoriaa, väliaikaisia internet-tiedostoja, lomaketietoja, evästeitä sekä käyttäjänimiä ja
-  salasanoja. Se ei kuitenkaan piilota online-toimintaasi internet-palveluntarjoajaltasi tai mahdollista nimetöntä internetin selaamista.
-reviewed: false
+  Yksityinen selaus on ominaisuus, joka estää internet-selaimia
+  tallentamasta selaushistoriaa, väliaikaisia internet-tiedostoja,
+  lomaketietoja, evästeitä sekä käyttäjänimiä ja salasanoja.
+  Se ei kuitenkaan piilota online-toimintaasi internet-palveluntarjoajaltasi
+  eikä mahdollista nimetöntä internetin selaamista.
+reviewed: true

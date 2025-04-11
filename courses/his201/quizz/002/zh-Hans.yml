@@ -1,0 +1,8 @@
+question: eCash电子货币模型基于什么过程？
+answer: 盲签名
+wrong_answers:
+  - 群签名
+  - 环签名
+  - 阈值签名
+explanation: |
+  eCash基于盲签名过程，这允许签名者在不看到他们签名内容的情况下进行签名。

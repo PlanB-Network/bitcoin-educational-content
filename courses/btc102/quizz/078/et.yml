@@ -1,0 +1,11 @@
+question: Mis on hot wallet Bitcoin'i kontekstis?
+answer: Digitaalne rahakott, mida kasutatakse Bitcoin'i hoidmiseks, saatmiseks ja vastuvõtmiseks
+wrong_answers:
+  - Füüsiline rahakott, mida kasutatakse Bitcoin'i hoidmiseks
+  - Meetod Bitcoin'i ostmiseks
+  - Bitcoin'i vahetusplatvorm
+explanation: |
+  Bitcoin'i kontekstis on hot wallet digitaalne rahakott, mida kasutatakse
+  Bitcoin'i hoidmiseks, saatmiseks ja vastuvõtmiseks. See on tavaliselt ühendatud internetiga
+  ja seetõttu vähem turvaline kui cold wallet.
+reviewed: false

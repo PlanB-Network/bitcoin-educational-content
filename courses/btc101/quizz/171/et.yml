@@ -1,0 +1,9 @@
+question: Kuidas tagab Bitcoin'i protokoll oma tsenseerimatususe ja peatamatususe?
+answer: Iga protokolli komponent on geograafiliselt jaotatud üle kogu maailma
+wrong_answers:
+  - See kasutab detsentraliseeritud sõlmede võrku
+  - See kasutab keerulist algoritmi tehingute valideerimiseks
+  - See kasutab kõrgetasemelist krüpteeringut
+explanation: >-
+  Bitcoin'i protokoll tagab oma tsenseerimatususe ja peatamatususe, kuna iga protokolli komponent on geograafiliselt jaotatud üle kogu maailma. Näiteks on kogu maailmas umbes 40 000 Bitcoin'i sõlme.
+reviewed: false

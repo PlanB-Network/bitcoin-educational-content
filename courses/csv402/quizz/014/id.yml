@@ -1,0 +1,9 @@
+question: Peran apa yang dimainkan oleh Skema dalam RGB?
+answer: Menetapkan variabel kontrak, aturan, dan logika bisnis
+wrong_answers:
+  - Menyimpan kiriman yang dipertukarkan di antara peserta
+  - Memvalidasi Komitmen Pedersen pada transaksi Bitcoin
+  - Buat Definisi Segel untuk setiap UTXO
+explanation: |
+  Skema menyusun status kontrak dan menentukan transisi yang diizinkan dan kondisi validasi.
+reviewed: false

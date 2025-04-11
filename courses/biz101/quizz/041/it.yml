@@ -1,0 +1,9 @@
+question: Perché è consigliabile avere un'esportazione CSV di tutte le transazioni Bitcoin?
+answer: Fornisce una registrazione chiara e strutturata di ogni transazione, rendendo più facile per i contabili integrarla nei rapporti finanziari e nelle dichiarazioni fiscali.
+wrong_answers:
+  - Perché le ricevute cartacee sono gli unici documenti contabili legalmente accettabili.
+  - Perché l'esportazione dei dati completa automaticamente la dichiarazione dei redditi senza alcuna revisione.
+  - Perché i file CSV eliminano la necessità di tenere traccia della base dei costi.
+explanation: |
+  Disporre di un record digitale in un formato comune consente un'integrazione perfetta nei sistemi contabili, aiuta a mantenere le tracce di revisione e supporta una rendicontazione fiscale e di conformità accurata.
+reviewed: false

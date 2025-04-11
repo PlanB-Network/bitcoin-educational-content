@@ -1,8 +1,9 @@
-question: Mikä määrittää, onko transaktio mahdollinen Lightning-maksukanavassa?
-answer: Lähettävällä käyttäjällä täytyy olla tarpeeksi Bitcoinia kanavan omalla puolellaan
+question: Mikä on maksukanavan kapasiteetti?
+answer: Kaksi osallistujaa voivat vaihtaa keskenään olevien varojen kokonaismäärä
 wrong_answers:
-  - Kanavan kokonaiskapasiteetin täytyy olla tarpeeksi suuri kattamaan transaktio
-  - Vastaanottavalla käyttäjällä täytyy olla tarpeeksi Bitcoinia kanavan omalla puolellaan
-  - Transaktion täytyy saada hyväksyntä Bitcoin-verkolta
+  - Kanavan avoinna pysymisen aikaraja
+  - Suurin määrä, jonka yksi osallistuja voi lähettää yhdessä siirrossa
+  - Transaktioiden määrä, jonka kanava voi tukea päivässä
 explanation: |
-  Jotta transaktio olisi mahdollinen Lightning-maksukanavassa, lähettävällä käyttäjällä täytyy olla tarpeeksi Bitcoinia kanavan omalla puolellaan.
+  Kanavan kapasiteetti vastaa kahden osallistujan kokonaisvaroja ja pysyy kiinteänä määrittäen mahdolliset vaihdot.
+reviewed: false

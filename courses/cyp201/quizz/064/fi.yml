@@ -1,11 +1,8 @@
-question: Mikä on satunnaislukugeneraattorin (RNG) päätarkoitus Bitcoin-siirroissa?
-answer: Varmistaa yksityisavainten eheys.
+question: Mikä on laajennetun avaimen päätoiminto HD-lompakossa?
+answer: Mahdollistaa ala-avainten johdannan
 wrong_answers:
-  - Varmistaa siirtojen nopeus.
-  - Varmistaa siirtojen nimettömyys.
-  - Varmistaa siirtojen laillisuus.
+  - Tallentaa lompakon tapahtumat
+  - Generoida suoraan UTXO: t
+  - Salata julkiset avaimet
 explanation: |
-  RNG:tä käytetään satunnaislukujen tuottamiseen, jotka ovat olennaisen tärkeitä
-  Bitcoin-siirtojen yksityisavainten eheyden kannalta. Tämä auttaa estämään minkä tahansa haavoittuvuuden,
-  joka liittyy ennustettavuuteen.
-reviewed: false
+  Laajennettu avain yhdistää avaimen (joko yksityisen tai julkisen) liitännäisen ketjukoodin kanssa, eli kaksi elementtiä, jotka ovat tarpeen ala-avainten johdannassa.

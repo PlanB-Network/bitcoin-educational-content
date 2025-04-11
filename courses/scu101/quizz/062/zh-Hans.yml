@@ -1,0 +1,8 @@
+question: 在网络安全领域，需要了解哪些网络知识方面？
+answer: TCP/IP、VPN、防火墙
+wrong_answers:
+  - HTTP、FTP、SMTP
+  - POP3、IMAP、SSH
+  - DHCP、DNS、ARP
+explanation:
+  本章提到TCP/IP、VPN和防火墙是网络安全所需的一些网络知识方面。

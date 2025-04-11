@@ -1,0 +1,9 @@
+question: An wen übergab Satoshi die Verantwortung für die Softwareentwicklung, als er ging?
+answer: Gavin Andresen
+wrong_answers:
+  - Martti Malmi
+  - Jeff Garzik
+  - Mike Hearn
+explanation: |
+  Gavin hatte zuvor [erklärt](https: //bitcointalk.org/index.php?topic=2367.msg31651#msg31651), dass er das Bitcoin-Projekt aktiver verwalten würde und hatte das GitHub-Repository im Dezember 2010 eröffnet.
+reviewed: false

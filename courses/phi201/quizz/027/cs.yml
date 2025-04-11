@@ -1,0 +1,9 @@
+question: Jaký je rozdíl mezi phusis a nomos?
+answer: Phusis je zákon přírody, nomos je lidský zákon.
+wrong_answers:
+  - Phusis je zákon bohů, nomos je zákon lidí.
+  - Phusis je zákon slabých, nomos je zákon silných.
+  - Phusis je zákon starověku, nomos je zákon moderní doby.
+explanation: |
+  Ve starořecké filozofii phusis odkazuje na přirozené zákony nebo ty, které jsou vlastní přírodě, nezávislé na lidských činech, zatímco nomos odkazuje na lidské zákony, vytvořené společnostmi pro regulaci života ve společenství.
+reviewed: false

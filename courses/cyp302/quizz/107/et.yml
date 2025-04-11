@@ -1,0 +1,9 @@
+question: Mis on peegeldusrünnak suhtlussessioonis?
+answer: Ründaja saadab Alicele tagasi sõnumi, mille ta Alice'i ja Bobi vahel pealt kuulas
+wrong_answers:
+  - Ründaja muudab sõnumite järjekorda suhtluses
+  - Ründaja saadab muudetud sõnumi ilma märgiseta
+  - Ründaja kasutab vana sõnumit uue loomiseks
+explanation: |
+  Peegeldusrünnaku korral pealtkuulab ründaja sõnumit Alicelt Bobile ja saadab sama sõnumi tagasi Alicele, põhjustades segadust sessioonis.
+reviewed: false

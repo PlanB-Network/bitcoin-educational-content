@@ -1,0 +1,9 @@
+question: What is the main aim of integrating RGB into the Lightning Network?
+answer: Transfer RGB assets via off-chain channels
+wrong_answers:
+  - Executing RGB contracts directly on the Bitcoin blockchain
+  - Replace conventional Lightning transactions with RGB smart contracts
+  - Increase channel capacity by adding new UTXOs
+explanation: |
+  RGB integrated into the Lightning Network allows RGB assets to be moved via state transitions embedded in commitment transactions, while remaining off-chain.
+reviewed: false

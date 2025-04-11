@@ -1,0 +1,10 @@
+question: Apa itu Lightning Network dalam konteks Bitcoin?
+answer: Sebuah teknologi lapisan kedua yang membawa visi baru tentang apa itu Bitcoin.
+wrong_answers:
+  - Sebuah jaringan penambang Bitcoin.
+  - Sebuah tipe baru dari Bitcoin.
+  - Sebuah platform perdagangan Bitcoin.
+explanation: |
+  Lightning Network adalah protokol pembayaran lapisan 2 yang beroperasi di
+  atas cryptocurrency berbasis blockchain (seperti Bitcoin). Ini dirancang untuk memungkinkan
+  transaksi cepat di antara node yang berpartisipasi.

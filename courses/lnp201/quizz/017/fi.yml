@@ -1,12 +1,8 @@
-question: Mikä on ensimmäinen askel kanavan avaamisessa Lightning-verkossa?
-answer: Kaksi vertaisosapuolta ilmaisee aikomuksensa avata kanavan.
+question: Mitä tapahtuu, jos Bob lähettää laskun Alicelle 30 000 satoshista?
+answer: Alice luo sitoumustapahtuman siirtääkseen 30 000 satoshia Bobille kanavassa.
 wrong_answers:
-  - Alice lähettää rahaa Bobin julkiseen osoitteeseen.
-  - Alice luo 2/2 multi-sig osoitteen.
-  - Alice julkaisee transaktion Bitcoin-verkkoon.
+  - Alicen on avattava uusi kanava tehdäkseen tämän siirron.
+  - Bob automaattisesti saa 30 000 satoshia lompakkoonsa.
+  - Lasku maksetaan on-chain siirtona Bitcoin-verkossa.
 explanation: |
-  Ensimmäinen askel kanavan avaamisessa Lightning-verkossa on, että
-  kaksi vertaisosapuolta ilmaisee aikomuksensa avata kanavan. Esimerkiksi Alice saattaa
-  sanoa, "Hei, haluan avata kanavan!" ja Bob saattaa vastata, "Ok, tässä on minun julkinen
-  osoitteeni."
-reviewed: false
+  Kun Bob lähettää laskun Alicelle, hän luo ja allekirjoittaa uuden sitoumustapahtuman säätääkseen varojen jakautumista, siirtäen näin 30 000 satoshia kanavassa.

@@ -1,0 +1,9 @@
+question: Mengapa bidang ekstensi dengan basis 2 berguna dalam kriptografi?
+answer: Mereka memungkinkan manipulasi aman dari string biner.
+wrong_answers:
+  - Mereka menyederhanakan perhitungan dengan mengurangi jumlah operasi.
+  - Mereka mencegah kesalahan perhitungan dengan menambahkan redundansi.
+  - Mereka membatasi rentang kemungkinan dengan mengurangi jumlah elemen.
+explanation: |
+  Bidang ekstensi dengan basis 2 nyaman karena elemen-elemennya dapat dilihat sebagai string biner, membuatnya lebih mudah untuk melakukan operasi pada data digital di tingkat biner dalam sistem.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mis on RGB-protokolli määramine?
+answer: Väljund, mis muudab, ajakohastab või loob lepingu oleku omadusi
+wrong_answers:
+  - Bitcoini tehingus salvestatud unikaalne krüptograafiline kohustus
+  - Bitcoini tehing, mis on osaliselt allkirjastatud enne lõplikku valideerimist
+  - Ülemaailmse riigi avalik ajakohastamine
+explanation: |
+  Ülesandmine ühendab pitsatimääratluse ja omandatud riigi, et esindada riigi eraldatud osa.
+reviewed: false

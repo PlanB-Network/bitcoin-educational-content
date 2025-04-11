@@ -1,9 +1,8 @@
-question: Vai trò của giao dịch cam kết trong Mạng Lưới Lightning là gì?
-answer: Nó cập nhật số dư của kênh sau mỗi lần chuyển tiền.
+question: Ba phương pháp đóng kênh trên Lightning Network là gì?
+answer: Đóng kênh hợp tác, đóng kênh cưỡng chế, đóng kênh có gian lận
 wrong_answers:
-  - Nó mở kênh.
-  - Nó đóng kênh.
-  - Nó chuyển tiền.
+  - Đóng kênh nhanh, đóng kênh chậm, đóng kênh với chữ ký kép
+  - Đóng kênh an toàn, đóng kênh tự động, đóng kênh với mất tiền
+  - Đóng kênh trực tiếp, đóng kênh gián tiếp, đóng kênh với yêu sách
 explanation: |
-  Giao dịch cam kết là một giao dịch mới hơn cập nhật số dư của kênh sau mỗi lần chuyển tiền. Nó không được thực hiện trừ khi kênh được đóng.
-reviewed: false
+  Có ba phương pháp: đóng kênh hợp tác khi các bên đồng ý, đóng kênh cưỡng chế khi không nhận được phản hồi từ một bên, và đóng kênh có gian lận khi một bên cố gắng công bố một giao dịch cũ.

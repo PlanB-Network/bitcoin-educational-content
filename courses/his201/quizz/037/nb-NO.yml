@@ -1,0 +1,8 @@
+question: Hvilken utvekslingstjeneste som ble opprettet i mars 2010 var den mest populære før Mt. Gox dukket opp i juli?
+answer: Bitcoin Market
+wrong_answers:
+  - BitcoinFX
+  - BitcoinExchange
+  - MyBitcoin
+explanation: |
+  Dette var en peer-to-peer markedsplass som brukte PayPal, lansert 16. mars 2010 av en person kjent som dwdollar, og var hovedplattformen før Mt. Gox.

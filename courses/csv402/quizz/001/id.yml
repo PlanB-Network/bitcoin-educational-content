@@ -1,0 +1,9 @@
+question: Apa fitur penting dari segel sekali pakai yang digunakan dalam RGB?
+answer: Mereka hanya dapat ditutup sekali
+wrong_answers:
+  - Mereka hanya dapat ditutup dua kali
+  - Mereka menjamin kerahasiaan transaksi
+  - Mereka menghilangkan kebutuhan akan konsensus pada blockchain
+explanation: |
+  Segel sekali pakai memungkinkan pembuatan komitmen kriptografi yang unik, mencegah duplikasi atau pengeluaran ganda.
+reviewed: false

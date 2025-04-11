@@ -1,0 +1,9 @@
+question: Jaký historický koncept RGB se uplatňuje v digitálním světě?
+answer: Nástroje na doručitele
+wrong_answers:
+  - Centralizované databáze
+  - Peer-to-peer sítě bez ověřování
+  - Otevřené registry přístupné všem
+explanation: |
+  RGB přenáší myšlenku nosičů do digitální podoby.
+reviewed: false

@@ -1,9 +1,11 @@
-question: Perché non è consigliato utilizzare le estensioni del browser per il riempimento automatico delle password?
+question: Perché non è consigliato utilizzare estensioni del browser per il riempimento automatico delle password?
 answer: Possono rendere l'utente più vulnerabile agli attacchi di phishing, aumentare la superficie di attacco e rallentare le prestazioni del browser.
 wrong_answers:
-  - Sono difficili da utilizzare.
+  - Sono difficili da usare.
   - Non sono compatibili con tutti i browser.
   - Richiedono molto spazio di archiviazione.
 explanation: |
-  Le estensioni del browser per il riempimento automatico delle password possono rendere l'utente più vulnerabile agli attacchi di phishing. Inoltre, tendono ad aumentare la superficie di attacco e possono rallentare le prestazioni del browser, presentando quindi un rischio significativo.
-reviewed: false
+  Le estensioni del browser per il riempimento automatico delle password possono rendere
+  l'utente più vulnerabile agli attacchi di phishing. Tendono anche
+  ad aumentare la superficie di attacco e possono rallentare le prestazioni del browser, presentando così un rischio significativo.
+reviewed: true

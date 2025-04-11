@@ -1,0 +1,9 @@
+question: ¿Cuál es una práctica sugerida en relación con la custodia a la hora de adquirir Bitcoin?
+answer: Considere soluciones de autocustodia después de las compras iniciales, para que la empresa controle realmente sus activos.
+wrong_answers:
+  - Nunca retire Bitcoin del intercambio bajo ninguna circunstancia.
+  - Confíe siempre en un único custodio sin revisar las medidas de seguridad.
+  - Almacenar todos los Bitcoin en un sitio web público con una simple contraseña
+explanation: |
+  Después de comprar Bitcoin, moverlo a un monedero de autocustodia asegura a la empresa el control directo sobre sus fondos. Aunque los custodios externos pueden ser convenientes, la autocustodia se alinea con el principio de soberanía financiera de Bitcoin.
+reviewed: false

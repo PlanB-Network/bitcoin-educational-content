@@ -1,11 +1,11 @@
-question: Mikä on erikoistuneiden SHA256-koneiden eli ASICien pääetu Bitcoin-louhinnassa?
-answer: Ne lisäävät hajautusnopeutta joulea kohden
+question: Mikä on erikoistuneiden SHA256-koneiden, eli ASICien, pääetu Bitcoin-louhinnassa?
+answer: Ne lisäävät hajautusnopeutta joulea kohden.
 wrong_answers:
-  - Ne vähentävät energiankulutusta
-  - Ne nopeuttavat transaktioiden käsittelyä
-  - Ne lisäävät verkon turvallisuutta
+  - Ne vähentävät energiankulutusta.
+  - Ne nopeuttavat transaktioiden käsittelyä.
+  - Ne lisäävät verkon turvallisuutta.
 explanation: >-
-  Erikoistuneet SHA256-koneet eli ASICit lisäävät hajautusnopeutta joulea kohden
-  Bitcoin-louhinnassa. Tämä tarkoittaa yritysten määrää sekunnissa ja kulutetun energian
-  mukaan.
-reviewed: false
+  Erikoistuneet SHA256-koneet, eli ASICit, lisäävät hajautusnopeutta joulea kohden
+  Bitcoin-louhinnassa. Tämä tarkoittaa yritysten määrää sekunnissa ja kulutetun
+  energian mukaan.
+reviewed: true

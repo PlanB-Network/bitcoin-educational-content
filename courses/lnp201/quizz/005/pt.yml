@@ -1,9 +1,9 @@
-question: Quais são os benefícios dos canais de pagamento Lightning?
-answer: Eles permitem que os usuários enviem e recebam Bitcoin sem ter que pagar altas taxas de transação ou esperar por longos períodos de confirmação na rede Bitcoin.
+question: Qual é o papel principal de uma chave privada no sistema Bitcoin?
+answer: Assinar transações para satisfazer um script
 wrong_answers:
-  - Eles permitem que os usuários minerem Bitcoin de forma mais eficiente.
-  - Eles permitem que os usuários armazenem Bitcoin de forma mais segura.
-  - Eles permitem que os usuários troquem Bitcoin por outras criptomoedas.
+  - Servir como um identificador para receber bitcoins
+  - Armazenar fundos de forma segura na blockchain
+  - Criar scripts de bloqueio para proteger bitcoins
 explanation: |
-  Os canais de pagamento Lightning são uma forma eficiente de realizar transações rápidas e baratas de Bitcoin. Eles permitem que os usuários enviem e recebam Bitcoin sem ter que pagar altas taxas de transação ou esperar por longos períodos de confirmação na rede Bitcoin.
+  A chave privada é usada para assinar transações para satisfazer um script e desbloquear os bitcoins.
 reviewed: false

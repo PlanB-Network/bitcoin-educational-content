@@ -1,0 +1,8 @@
+question: Mis tagab Bitcoinis UTXO-de turvalisuse?
+answer: Skriptide kaudu, mis määratlevad kulutamise tingimused.
+wrong_answers:
+  - Perioodilise kontrolli kaudu kaevurite poolt.
+  - Keskse andmebaasi kaudu.
+  - Kasutaja identiteedi kontrolli kaudu.
+explanation: |
+  Bitcoini tehingu väljundid on UTXO-d, mis on turvatud skriptiga. See skript nõuab, et kulutamiseks tuleb täita eelnevalt määratletud tingimused.

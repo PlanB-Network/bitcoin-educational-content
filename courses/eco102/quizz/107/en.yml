@@ -1,0 +1,9 @@
+question: Which President of the United States, during his youth, disseminated Bastiat's ideas in corporate seminars?
+answer: Ronald Reagan
+wrong_answers:
+  - Franklin Roosevelt
+  - George Bush
+  - Dwight D. Eisenhower
+explanation: |
+  Ronald Reagan, before becoming president, disseminated the liberal ideas of Bastiat and other economists in seminars for General Electric.
+reviewed: false

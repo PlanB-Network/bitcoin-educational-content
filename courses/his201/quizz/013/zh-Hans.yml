@@ -1,0 +1,8 @@
+question: 中本聪在比特币白皮书中引用了哪些研究者关于认证时间戳的工作？
+answer: Stuart Haber 和 Scott Stornetta
+wrong_answers:
+  - Leslie Lamport, Robert Shostak, 和 Marshall Pease
+  - Cynthia Dwork 和 Moni Naor
+  - Ronald Rivest 和 Adi Shamir
+explanation: |
+  Haber 和 Stornetta 的三篇论文在90年代被白皮书引用。他们因创建了[第一个时间戳区块链](https: //www.vice.com/en/article/j5nzx4/what-was-the-first-blockchain)，从1992年开始在《纽约时报》上发表而闻名。

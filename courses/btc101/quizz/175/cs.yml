@@ -1,9 +1,9 @@
 question: Jakým způsobem lze zmírnit volatilitu Bitcoinu?
-answer: Finanční zajištění (stablecoiny)
+answer: Finanční zajištění (stablecoiny).
 wrong_answers:
-  - Investování veškerých peněz do Bitcoinu.
+  - Investování všech vašich peněz do Bitcoinu.
   - Ignorování tržních trendů.
-  - Kupování více Bitcoinů, když jejich cena klesá.
+  - Kupování více Bitcoinů, když jejich cena klesne.
 explanation: >-
-  Volatilitu Bitcoinu lze zmírnit několika řešeními, jako jsou finanční zajištění (stablecoiny), silné dlouhodobé přesvědčení (hodlování), nebo jednoduše tím, že do Bitcoinu neinvestujete 100% svých peněz bez pochopení situace.
-reviewed: false
+  Volatilitu Bitcoinu lze zmírnit několika řešeními, jako jsou finanční zajištění (stablecoiny), silné dlouhodobé přesvědčení (hodlování), nebo jednoduše tím, že nevložíte 100% svých peněz do Bitcoinu, aniž byste cokoli rozuměli.
+reviewed: true

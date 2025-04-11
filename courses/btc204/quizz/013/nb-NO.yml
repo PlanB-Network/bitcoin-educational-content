@@ -1,0 +1,9 @@
+question: Hva er personvernsmodellen til banksystemet?
+answer: Bare banken har tilgang til transaksjonsdetaljene.
+wrong_answers:
+  - Transaksjonene er offentlige, men identiteten til brukerne er ikke kjent.
+  - Transaksjonene er anonyme og skjult for alle, inkludert banken.
+  - Bare myndighetene har tilgang til transaksjonsdetaljene.
+explanation: |
+  I det tradisjonelle systemet er hver bankkonto knyttet til en identitet. Imidlertid er informasjonsflyten avskåret mellom banken og det offentlige domenet.
+reviewed: false

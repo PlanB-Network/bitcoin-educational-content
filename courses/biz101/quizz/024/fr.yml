@@ -1,0 +1,9 @@
+question: Lors de l'achat de bitcoins, quelle est l'approche recommandée pour gérer la volatilité de leur prix ?
+answer: Accumulez progressivement des bitcoins à intervalles réguliers et gardez une perspective à long terme.
+wrong_answers:
+  - Tenter de prévoir les pics de marché à court terme et vendre immédiatement.
+  - Se lancer dans l'achat de la totalité de la trésorerie de l'entreprise en une seule fois.
+  - N'achetez des bitcoins que les jours où leur prix a fortement augmenté.
+explanation: |
+  Des achats réguliers au fil du temps (achats échelonnés) permettent d'atténuer la volatilité. Un horizon à plus long terme (par exemple, 4 ans) réduit l'impact des fluctuations de prix à court terme.
+reviewed: false

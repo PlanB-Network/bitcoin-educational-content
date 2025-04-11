@@ -1,0 +1,9 @@
+question: Hva er et refleksjonsangrep i en kommunikasjonssesjon?
+answer: Angriperen sender tilbake til Alice en melding som de avlyttet mellom Alice og Bob
+wrong_answers:
+  - Angriperen reverserer rekkefølgen på meldingene i kommunikasjonen
+  - Angriperen sender en modifisert melding uten taggen
+  - Angriperen bruker en gammel melding for å lage en ny
+explanation: |
+  I et refleksjonsangrep avlytter angriperen en melding fra Alice til Bob og sender den samme meldingen tilbake til Alice, noe som forårsaker forvirring i sesjonen.
+reviewed: false

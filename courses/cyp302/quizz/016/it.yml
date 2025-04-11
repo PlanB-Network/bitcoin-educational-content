@@ -1,0 +1,9 @@
+question: Qual è la caratteristica di una variabile uniforme?
+answer: Tutti i possibili valori hanno una probabilità uguale di verificarsi
+wrong_answers:
+  - I valori seguono una distribuzione asimmetrica
+  - La probabilità di ciascun valore dipende dall'esperimento
+  - Solo due valori possono verificarsi con probabilità uguali
+explanation: |
+  Una variabile uniforme è una variabile casuale dove tutti i possibili valori hanno una probabilità uguale di verificarsi.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Bagaimana Bitcoin memberi manfaat kepada individu di negara yang dilanda perang atau tidak stabil?
+answer: Ini memungkinkan penyimpanan nilai secara terdesentralisasi dan aman yang memiliki ketahanan lebih besar terhadap pencurian
+wrong_answers:
+  - Ini memungkinkan akses ke layanan perbankan tradisional
+  - Ini menyediakan aset fisik yang dapat meningkat nilai
+  - Ini menawarkan perlindungan terhadap deflasi
+explanation: |
+  Di negara yang dilanda perang atau tidak stabil, individu mungkin kesulitan untuk
+  mengakses layanan perbankan tradisional atau menghadapi risiko pencurian atau
+  penyitaan aset fisik. Bitcoin memungkinkan individu untuk menyimpan nilai
+  secara terdesentralisasi dan aman tanpa memerlukan perantara
+  atau aset fisik yang rentan terhadap risiko seperti inflasi, pencurian atau penyitaan.
+reviewed: true

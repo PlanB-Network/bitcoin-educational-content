@@ -1,0 +1,9 @@
+question: Qual decreto assinado por Franklin D. Roosevelt proibiu a posse de ouro para indivíduos nos Estados Unidos entre 1933 e 1975?
+answer: O Decreto Executivo 6102
+wrong_answers:
+  - O Ato do Federal Reserve
+  - O Ato Glass-Steagall
+  - O Decreto Executivo 9066
+explanation: |
+  Este decreto executivo, assinado em 5 de abril de 1933, foi promulgado por Roosevelt como parte do New Deal. Foi reforçado pelo Ato de Reserva de Ouro em 1934.
+reviewed: false

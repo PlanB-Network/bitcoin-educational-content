@@ -1,0 +1,8 @@
+question: Hva er noen av de beste praksisene en paranoid Bitcoiner kan sette seg inn i?
+answer: Coin mixing og UTXO-håndtering
+wrong_answers:
+  - Hvordan stole på sentraliserte systemer
+  - Hvordan dele personlig informasjon trygt
+  - Hvordan bruke et kredittkort for å kjøpe Bitcoin på nettet
+explanation: |
+  Kapittelet nevner at en paranoid Bitcoiner kan sette seg inn i beste praksiser som coin mixing og UTXO-håndtering som en del av deres fokus på personvern og sikkerhet.

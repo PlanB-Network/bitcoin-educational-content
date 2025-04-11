@@ -1,0 +1,10 @@
+question: Mis on matemaatiline kontseptsioon, mis põhineb inimlikul ratsionaalsusel ja mida kasutatakse Bitcoinis?
+answer: Mänguteooria
+wrong_answers:
+  - Tõenäosusteooria
+  - Arvuteooria
+  - Hulgateooria
+explanation: |
+  Mänguteooria on matemaatiline kontseptsioon, mis põhineb inimlikul ratsionaalsusel.
+  Bitcoinis on just kasutajad need, kes jõustavad protokolli muudatusi, muutes Bitcoin protokolli muutmise väga keerukaks.
+reviewed: true

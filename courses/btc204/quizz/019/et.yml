@@ -1,0 +1,9 @@
+question: Millised ahela analüüsi heuristikad mainis Satoshi Nakamoto Bitcoin'i Valges Raamatus? (võimalik ainult üks vastus)
+answer: CIOH ja aadressi taaskasutus.
+wrong_answers:
+  - Klastri moodustamine allkirja ja ajakorrelatsiooni järgi.
+  - Ümmarguste summade maksed ja suur väljund.
+  - Mahtude analüüs ja skriptide sarnasused.
+explanation: |
+  Bitcoin'i Valge Raamatu 10. osas hoiatab Satoshi Nakamoto kasutajaid CIOH (Common Input Ownership Heuristic) ehk ühise sisendi omandiõiguse heuristika ja sama võtmepaari taaskasutuse eest.
+reviewed: false

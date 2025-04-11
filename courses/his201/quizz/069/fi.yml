@@ -1,0 +1,9 @@
+question: Missä Bitcoin-kehittäjät tapaavat käydä epämuodollisempia teknisiä keskusteluja?
+answer: IRC-kanavalla \#bitcoin-dev
+wrong_answers:
+  - Erityisellä foorumin osiolla
+  - Bitcoin-kehityksen postituslistalla
+  - Subredditissä r/Bitcoin
+explanation: |
+  Tämä [luotiin](https: //mmalmi.github.io/satoshi/#email-27) elokuussa 2009 Martti Malmin toimesta. Se saavutti suosiota heinäkuussa 2010 tapahtuneen slashdottingin jälkeen.
+reviewed: false

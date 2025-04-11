@@ -1,0 +1,9 @@
+question: Jaký jiný britský objev vědců z GCHQ předcházel objevu Diffieho a Hellmana, ale zůstal v tajnosti?
+answer: Koncepty asymetrické kryptografie a výměny klíčů
+wrong_answers:
+  - Protokol symetrického šifrování pokročilý bez potřeby klíče
+  - Nová metoda asymetrického kryptografického hašování
+  - Metoda pro vytváření elektronických peněz
+explanation: |
+  Britští kryptografové pracující pro GCHQ nezávisle vyvinuli myšlenky podobné těm od Diffieho a Hellmana, ale tyto pokroky zůstaly důvěrné až do jejich zveřejnění v roce 1997.
+reviewed: false

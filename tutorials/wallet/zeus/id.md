@@ -1,5 +1,5 @@
 ---
-name: ZEUS
+name: Zeus
 
 description: Dompet multi-node mandiri
 ---

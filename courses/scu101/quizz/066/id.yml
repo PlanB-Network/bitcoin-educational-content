@@ -1,0 +1,13 @@
+question: Apa keuntungan menggunakan Passkeys sebagai alternatif terhadap kata sandi tradisional?
+answer: Mereka menawarkan kunci acak terenkripsi yang dikombinasikan dengan faktor lokal, yang dihosting oleh penyedia tetapi tetap di luar jangkauan mereka.
+wrong_answers:
+  - Mereka lebih mudah diingat daripada kata sandi tradisional.
+  - Mereka tidak memerlukan faktor autentikasi tambahan.
+  - Mereka dapat digunakan di semua situs web tanpa perlu pembaruan.
+explanation: |
+  Passkeys menawarkan kunci acak terenkripsi, dikombinasikan dengan faktor lokal
+  (biometrik
+  atau PIN), yang dihosting oleh penyedia tetapi tetap di luar jangkauan mereka. Pendekatan ini
+  menghilangkan kebutuhan akan kata sandi, sehingga menyediakan tingkat keamanan yang tinggi tanpa
+  keterbatasan yang terkait dengan kata sandi tradisional.
+reviewed: false

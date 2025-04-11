@@ -1,5 +1,5 @@
 ---
-name: NunChuk
+name: Nunchuk
 
 description: Tutoriál NunChuk
 ---

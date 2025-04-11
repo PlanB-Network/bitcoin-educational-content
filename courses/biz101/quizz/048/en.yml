@@ -1,0 +1,9 @@
+question: What is the primary function of traditional payment systems?
+answer: To enable the transfer of funds between two parties
+wrong_answers:
+  - To create a single global currency regulated by a central authority
+  - To facilitate international trade
+  - To restrict fund transfers to in-person cash exchanges only
+explanation: |
+  Traditional payment systems provide mechanisms and infrastructure for transferring funds between payers and payees in both local and international contexts.
+reviewed: false

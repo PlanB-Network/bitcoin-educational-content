@@ -20,9 +20,11 @@ Untuk membantu Anda memulai petualangan ini, saya telah membuat kursus gratis in
 +++
 
 # Pengantar dan prasyarat untuk memahami Bitcoin
+
 <partId>008c49b7-5e17-5973-87f2-ba28429b2697</partId>
 
-## Pengantar ke kursus BTC102
+## Ikhtisar Kursus
+
 <chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 
 Selamat datang di BTC 102! Sebuah kursus praktis yang akan memandu Anda dalam menyiapkan rencana Bitcoin Anda! Melalui kursus ini, kita akan bersiap untuk mendapatkan bitcoin pertama Anda, mengamankannya dengan benar, dan memastikan masuk dengan lancar ke industri baru ini.
@@ -44,9 +46,11 @@ Seperti yang Anda lihat, tujuan dari pelatihan ini adalah untuk menemani Anda ag
 Semoga berhasil :)
 
 ## Penipuan dan Penipuan Finansial
+
 <chapterId>8af2948b-2ab5-54c4-862c-3414b8a285a2</chapterId>
 
 Kita berada dalam industri di mana dua cabang utama muncul dalam sektor "cryptocurrency":
+
 1. Industri Bitcoin, yang berfokus pada mata uang yang stabil melalui protokol transfer nilai yang terdesentralisasi (Bitcoin). Industri ini menghargai privasi dan kedaulatan individu serta secara bertahap membangun proyek jangka panjang dengan tingkat ketahanan dan keamanan yang tinggi.
 2. Industri cryptocurrency global, yang berorientasi pada fintech, "blockchain," dan inovasi terpusat lainnya. Industri ini berkembang dengan cepat dan berusaha menempatkan dirinya sebagai tren baru.
 
@@ -87,8 +91,8 @@ Strategi Pump and Dump biasanya mengikuti pola yang terdefinisi dengan baik:
 
 1. Seorang pemimpin opini atau sekelompok investor pertama kali membeli sejumlah besar saham atau aset lain yang ditargetkan.
 2. Mereka kemudian menciptakan sensasi seputar aset tersebut dan menyebarkan informasi yang dilebih-lebihkan atau menyesatkan untuk menarik investor lain. 3. Sensasi ini memicu FOMO (Fear Of Missing Out) di antara investor manusia dan bot investasi, yang mulai membeli aset tersebut secara besar-besaran.
-4. Setelah harga cukup meningkat, para pemimpin menjual aset mereka secara besar-besaran, sehingga mendapatkan keuntungan yang signifikan.
-5. Penjualan besar-besaran ini menyebabkan penurunan tajam pada harga aset, meninggalkan banyak investor dengan kerugian yang besar.
+3. Setelah harga cukup meningkat, para pemimpin menjual aset mereka secara besar-besaran, sehingga mendapatkan keuntungan yang signifikan.
+4. Penjualan besar-besaran ini menyebabkan penurunan tajam pada harga aset, meninggalkan banyak investor dengan kerugian yang besar.
 
 Penting untuk memahami bahwa berpartisipasi dalam strategi seperti ini adalah ilegal dan dapat mengakibatkan tuduhan manipulasi pasar. Selain itu, strategi ini seringkali diorkestrasi oleh kelompok berpengaruh yang memungut biaya keanggotaan. Meskipun beberapa peserta mungkin mencapai keuntungan jangka pendek, strategi Pump and Dump umumnya tidak menguntungkan dalam jangka panjang.
 Oleh karena itu, disarankan untuk fokus pada pendidikan keuangan dan investasi yang bertanggung jawab, daripada tergoda oleh taktik manipulatif. Memperoleh pengetahuan yang solid dan mengadopsi pendekatan jangka panjang adalah kunci esensial untuk sukses dalam dunia investasi.
@@ -145,15 +149,19 @@ Penting untuk dicatat bahwa setiap orang memiliki agenda, termasuk saya. Saya pe
 Selalu ingat bahwa tidak semua orang akan selalu transparan tentang niat mereka. Selalu pertanyakan tujuan dari tindakan seseorang dan jangan percaya secara membabi buta.
 
 ## Keamanan Online
+
 <chapterId>f0873bf2-6a6f-5485-bb7a-d84be14f404d</chapterId>
 
 Selain penipuan kriptokurensi dan penipuan finansial, alasan utama kehilangan bitcoin terkait dengan pengelolaan keamanan online yang buruk. Sering kali terjadi bahwa orang menggunakan kata sandi yang sama untuk semua akun mereka, lupa memperbarui komputer mereka, dan mengabaikan untuk secara rutin membackup data mereka. Jika Anda khawatir tentang praktik-praktik ini, jangan khawatir, selalu mungkin untuk meningkatkan kebiasaan keamanan online Anda. Berikut adalah beberapa langkah dasar untuk diimplementasikan:
+
 - Gunakan manajer kata sandi (lihat tutorial LastPass),
 - Aktifkan otentikasi dua faktor (2FA),
 - Jaga komputer Anda tetap terbaru dan bebas dari malware,
 - Hargai privasi Anda dengan menggunakan alat khusus (Signal, Tor, ProtonMail).
 
-Jika topik ini sepenuhnya baru bagi Anda, pelatihan SECU 101 bisa menjadi menarik untuk mendalami secara detail.
+Jika topik ini sepenuhnya baru bagi Anda, pelatihan SCU 101 bisa menjadi menarik untuk mendalami secara detail.
+
+https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 Sangat penting untuk menjaga komputer Anda dalam kondisi kerja optimal, apakah Anda tertarik dengan Bitcoin atau tidak. Pembaruan tidak hanya ada untuk menambahkan fitur baru: itu juga memperbaiki bug dan meningkatkan keamanan perangkat lunak Anda. Jadi, pastikan untuk:
 
@@ -188,6 +196,7 @@ Anonimitas online sangat penting untuk masyarakat yang bebas dan makmur. Ini mem
 Sekali lagi, jika Anda tertarik dengan topik ini, pelatihan SECU 101 tersedia untuk membimbing Anda.
 
 ## Tips untuk Pemula
+
 <chapterId>33134b3f-92c1-5185-afb6-88599e47e801</chapterId>
 
 Pendidikan formal mengajarkan kita sangat sedikit tentang investasi. Akibatnya, kita seringkali menjelajahi lanskap investasi baru dan kompleks ini sendirian.
@@ -205,15 +214,15 @@ Dalam bagian ini, kita akan melihat beberapa kesalahan umum yang dilakukan inves
 ![manajer kata sandi](assets/prerequis/0.webp)
 Sebelum terjun ke investasi Bitcoin, sangat penting untuk meluangkan waktu untuk mendidik diri sendiri. Sangat mudah untuk membuat kesalahan dalam industri Bitcoin, dan setiap kesalahan bisa berakibat mahal. Dengan membagikan beberapa kesalahan yang telah saya temui dalam perjalanan investasi saya, serta yang saya amati pada orang lain, saya berharap dapat memberikan nasihat berharga untuk menavigasi ruang ini. Beberapa kesalahan ini meliputi:
 
-| Masalah Teknis                                        | Masalah Keuangan                                               |
-| ----------------------------------------------------- | -------------------------------------------------------------- |
-| Kehilangan kunci privat                               | Overinvestasi                                                  |
-| Menyerahkan penjagaan aset Anda kepada pihak ketiga   | Kurangnya pendidikan keuangan                                  |
-| Kurangnya privasi                                     | Investasi dengan uang pinjaman                                 |
-| Masalah keamanan online                               | Tidak memahami perbedaan antara trading dan investasi          |
-| Penanganan yang salah                                 | Mengabaikan implikasi pajak                                    |
-| Masalah komputer                                      | Tidak mempertimbangkan timeline investasi                      |
-| Kehilangan BTC karena peretasan                       | Terjebak dalam penipuan dan scam keuangan                      |
+| Masalah Teknis                                      | Masalah Keuangan                                      |
+| --------------------------------------------------- | ----------------------------------------------------- |
+| Kehilangan kunci privat                             | Overinvestasi                                         |
+| Menyerahkan penjagaan aset Anda kepada pihak ketiga | Kurangnya pendidikan keuangan                         |
+| Kurangnya privasi                                   | Investasi dengan uang pinjaman                        |
+| Masalah keamanan online                             | Tidak memahami perbedaan antara trading dan investasi |
+| Penanganan yang salah                               | Mengabaikan implikasi pajak                           |
+| Masalah komputer                                    | Tidak mempertimbangkan timeline investasi             |
+| Kehilangan BTC karena peretasan                     | Terjebak dalam penipuan dan scam keuangan             |
 
 Tidak peduli tingkat pendidikan atau latar belakang Anda, siapa pun dapat memahami dan menggunakan Bitcoin. Anda tidak perlu memiliki pengalaman dalam keuangan atau pemrograman. Seperti 90% orang, Anda dapat menggunakan Bitcoin dengan cara yang sederhana.
 
@@ -238,16 +247,16 @@ Seperti halnya investasi, Anda perlu mengetahui pasar Anda. Bitcoin sangat muda 
 Setelah Anda menjadi lebih nyaman dengan Bitcoin, Anda dapat meninjau rencana aksi Anda. Demikian pula, jika Anda baru di dunia ini, penting untuk memahami perbedaan antara perdagangan, investasi jangka panjang, dan strategi jangka sangat panjang yang digunakan oleh banyak pengguna Bitcoin yang disebut "hold".
 Secara umum:
 
-|                   | Perdagangan | Investasi         | Holding        |
-| ----------------- | ----------- | ----------------- | -------------- |
-| Leverage          | Ya          | Tidak             | Tidak          |
-| Jangka Waktu      | Jangka pendek | Jangka pendek/menengah | Jangka sangat panjang |
-| Jenis Aset        | Kontrak     | BTC               | BTC            |
-| Risiko            | Sangat tinggi | Tinggi           | Tinggi         |
-| Kesulitan         | Sangat sulit | Sulit            | Sulit          |
-| Kurva Pembelajaran| Panjang     | Panjang           | Panjang        |
-| Potensi Kerugian  | Tak terbatas | Terbatas         | Terbatas       |
-| Lebih cocok untuk | Beberapa    | Kebanyakan        | Beberapa       |
+|                    | Perdagangan   | Investasi              | Holding               |
+| ------------------ | ------------- | ---------------------- | --------------------- |
+| Leverage           | Ya            | Tidak                  | Tidak                 |
+| Jangka Waktu       | Jangka pendek | Jangka pendek/menengah | Jangka sangat panjang |
+| Jenis Aset         | Kontrak       | BTC                    | BTC                   |
+| Risiko             | Sangat tinggi | Tinggi                 | Tinggi                |
+| Kesulitan          | Sangat sulit  | Sulit                  | Sulit                 |
+| Kurva Pembelajaran | Panjang       | Panjang                | Panjang               |
+| Potensi Kerugian   | Tak terbatas  | Terbatas               | Terbatas              |
+| Lebih cocok untuk  | Beberapa      | Kebanyakan             | Beberapa              |
 
 Dan berikut adalah rekomendasi saya:
 
@@ -311,6 +320,7 @@ Jika ini baru bagi Anda, saya sangat mendorong Anda untuk mengikuti BTC 101 sebe
 ![dalam satu kata](assets/section2/10.webp)
 
 ## Mengapa Bitcoin itu Penting?
+
 <chapterId>d4327ac4-9ff8-5192-b542-cb78c0bd0aa7</chapterId>
 
 Mengapa kepentingan Bitcoin begitu krusial? Ini adalah pertanyaan utama dari universitas ini. Baik itu menyangkut studi Anda atau strategi investasi Anda, tanpa pemahaman yang jelas tentang pentingnya Bitcoin, Anda berisiko menyimpang dari rencana aksi Anda. Tujuannya adalah untuk selalu mengingat dasar-dasar Bitcoin, agar strategi Anda tetap sejalan dengan keyakinan Anda.
@@ -342,6 +352,7 @@ Bitcoin menawarkan setiap individu kesempatan untuk keluar dari sistem ini. Ini 
 
 ![dalam satu kata](assets/section2/3.webp)
 Ketimpangan kekayaan yang semakin memburuk di dunia telah menyebabkan meningkatnya ekstremisme, yang terkadang berujung pada pembentukan rezim diktator. Tidak peduli siapa Anda, suatu hari Anda mungkin memerlukan privasi untuk melindungi keluarga, diri sendiri, dan tabungan Anda. Di mana Anda bisa menyembunyikan aset Anda jika Anda terancam secara politik?
+
 - Rekening bank Anda bisa dibekukan, disita, atau dikosongkan.
 - Emas sulit dibagi, rumit untuk diangkut dan digunakan.
 - Uang tunai berukuran besar, mudah dicuri, dan terkena inflasi.
@@ -380,6 +391,7 @@ Promotor utama Bitcoin saat ini masih terutama adalah cyberpunks, warga yang ter
 Bitcoin memiliki dimensi filosofis, etis, dan politik yang sangat tinggi sambil tetap acuh tak acuh terhadap pertimbangan-pertimbangan ini. Memang, Bitcoin adalah protokol sederhana yang mereproduksi proses yang sama berulang kali. Penggunanya lah yang telah mengubahnya menjadi senjata pembebasan melawan sistem keuangan saat ini. Dari perspektif Cyberpunk, Bitcoin menentang masyarakat tanpa uang tunai. Ini memungkinkan penciptaan transaksi keuangan digital yang sepenuhnya pribadi dan bebas perantara. Bagi gerakan cyberpunk, Bitcoin adalah setara elektronik dari uang tunai.
 
 ## Memahami Industri Bitcoin
+
 <chapterId>e106c6f1-d75b-5a62-b245-0ea2e4d02ef8</chapterId>
 
 Dengan kedatangan Bitcoin pada tahun 2009 oleh Satoshi Nakamoto, industri miliaran dolar telah lahir. Meskipun masih muda, industri ini telah mengalami pertumbuhan eksponensial selama dekade terakhir. Pemain baru tiba setiap hari dengan jumlah uang yang besar dan siap untuk memasuki industri baru ini dengan penuh semangat. Hari ini, industri ini telah mencapai titik tanpa kembali di mana pemerintah, bank, raksasa internet, dan lainnya telah bergabung dalam gerakan dengan berbagai intervensi.
@@ -393,16 +405,16 @@ Dalam bagian ini, kita akan melihat sekilas para aktor untuk lebih memahami baga
 Memungkinkan bagi siapa saja untuk merancang cryptocurrency mereka sendiri - tugas yang hanya membutuhkan beberapa menit. Namun, nilai token ini akan ditentukan secara eksklusif oleh pasar. Pada Desember 2019, lebih dari 5000 token terdaftar di Coinmarketcap. Hari ini, pada tahun 2023, jumlah ini telah meningkat menjadi lebih dari 23.000, dengan NFT, DeFi, dan banyak hal lainnya. Token kriptografis ini dapat mengambil berbagai bentuk: mata uang, token keamanan, bahan bakar untuk ekosistem, sidechain, seni digital, dll.
 Penting untuk dipahami bahwa 99,8% dari "cryptocurrency" baru ini adalah penipuan, didirikan oleh para pemasar dengan tujuan untuk mencuri bitcoin Anda. Namun, di antara 0,2% proyek serius yang jarang ditemukan, usaha besar sedang dilakukan untuk maju, bereksperimen, dan mengembangkan teknologi inovatif yang dapat membawa banyak manfaat bagi pengguna. Seiring waktu, sektor ini akan membaik, memberikan ruang bagi perusahaan legit yang menawarkan produk nyata. Pertanyaan apakah ini akan terjadi pada blockchain selain Bitcoin masih terbuka. Untuk saat ini, satu hal yang pasti: Bitcoin adalah satu-satunya cryptocurrency yang benar-benar terdesentralisasi, tahan sensor, gratis, dan serius yang membenarkan ribuan jam kerja.
 
-| Karakteristik     | Bitcoin                  | Alt-Coin (99,9% dari mereka) |
-| ----------------- | ------------------------ | ---------------------------- |
-| Likuiditas        | Tinggi                   | Rendah                       |
-| Adopsi (nyata)    | Tinggi dan global        | Rendah                       |
-| Tim               | Kuat dan terdesentralisasi | Lemah dan terpusat          |
-| Reputasi          | Tinggi dan global        | Rendah                       |
-| Infrastruktur     | Kuat dan stabil          | Lemah                        |
-| Desentralisasi    | Ya                       | Tidak                        |
-| Penipuan?         | Tidak                    | Mungkin                      |
-| Nilai?            | Ya                       | Dapat diperdebatkan          |
+| Karakteristik  | Bitcoin                    | Alt-Coin (99,9% dari mereka) |
+| -------------- | -------------------------- | ---------------------------- |
+| Likuiditas     | Tinggi                     | Rendah                       |
+| Adopsi (nyata) | Tinggi dan global          | Rendah                       |
+| Tim            | Kuat dan terdesentralisasi | Lemah dan terpusat           |
+| Reputasi       | Tinggi dan global          | Rendah                       |
+| Infrastruktur  | Kuat dan stabil            | Lemah                        |
+| Desentralisasi | Ya                         | Tidak                        |
+| Penipuan?      | Tidak                      | Mungkin                      |
+| Nilai?         | Ya                         | Dapat diperdebatkan          |
 
 Jangan tertipu oleh frasa seperti:
 
@@ -417,13 +429,13 @@ Sangat penting untuk melakukan riset sendiri jika Anda memutuskan untuk menyelam
 
 Menyusul gelembung ICO tahun 2017, banyak pemain besar mulai mengembangkan basis data mereka sendiri menggunakan "blockchain". Pemerintah dan bank sentral sedang menjajaki kemungkinan menciptakan versi digital dari mata uang fiat mereka (Swedia, Eropa, Rusia, Cina, dll.). Raksasa teknologi juga bergabung dalam perlombaan ini. Facebook telah meluncurkan proyek stablecoin sendiri yang disebut "Libra". Alternatif untuk "blockchain" sedang dieksperimenkan oleh bank, perusahaan, dan raksasa teknologi lainnya dengan solusi seperti Linux atau IBM "Hyperledger".
 
-| Karakteristik         | Bitcoin | Alt-coin | Facebook-coin | Fed-coin |
-| --------------------- | ------- | -------- | ------------- | -------- |
-| Publik                | Ya      | Beragam  | Tidak         | Tidak    |
-| Terbuka               | Ya      | Beragam  | Tidak         | Tidak    |
-| Tanpa Batas           | Ya      | Beragam  | Tidak         | Tidak    |
-| Netral                | Ya      | Beragam  | Tidak         | Tidak    |
-| Tahan Sensor          | Ya      | Beragam  | Tidak         | Tidak    |
+| Karakteristik | Bitcoin | Alt-coin | Facebook-coin | Fed-coin |
+| ------------- | ------- | -------- | ------------- | -------- |
+| Publik        | Ya      | Beragam  | Tidak         | Tidak    |
+| Terbuka       | Ya      | Beragam  | Tidak         | Tidak    |
+| Tanpa Batas   | Ya      | Beragam  | Tidak         | Tidak    |
+| Netral        | Ya      | Beragam  | Tidak         | Tidak    |
+| Tahan Sensor  | Ya      | Beragam  | Tidak         | Tidak    |
 
 Meskipun mereka mengklaim bersaing dengan Bitcoin, proyek-proyek ini tetap terpusat untuk memastikan kontrol dan mematuhi regulasi lokal. Mereka tidak akan menyediakan perlindungan privasi, tetapi malah meningkatkan pengawasan massal. Proyek "Libra" Facebook memposisikan dirinya sebagai pesaing bank, bukan Bitcoin. Selanjutnya, tanpa bukti kerja, sebuah "blockchain" tidak memiliki nilai nyata. Perlu dicatat bahwa Libra telah ditinggalkan dan saat ini tidak ada proyek blockchain privat yang benar-benar digunakan secara global, tidak seperti Bitcoin.
 
@@ -458,7 +470,6 @@ Dalam spektrum platform pertukaran, ada 5 tipe utama:
   Jangan pernah lupa untuk menarik bitcoin Anda dari platform bursa. Platform bursa dapat diretas, disita, bangkrut, atau sekadar menghilang dengan uang Anda. Mereka menyajikan risiko yang signifikan dan sebisa mungkin harus dihindari. Jangan pernah meninggalkan dana Anda di sana untuk jangka waktu yang lama. Ingat: jika Anda tidak memiliki kunci, bitcoin bukan milik Anda.
   Bitcoin disimpan dalam apa yang disebut "dompet," yang merupakan brankas digital untuk uang Anda. Hanya pemegang kunci yang dapat mengaksesnya. Ini bisa berupa perangkat keras, perangkat lunak aplikasi, atau bahkan selembar kertas. Dompet ini menjembatani kesenjangan antara bitcoin Anda dan dunia luar.
   Setiap dompet memiliki karakteristik yang berbeda:
-  
 - Privasi
 - Keamanan
 - Kemudahan penggunaan
@@ -502,6 +513,7 @@ Kekuatan tak terbatas? Tidak. Pengembang inti tidak memiliki kekuatan tak terbat
 ![blockchain](assets/industrie/5.webp)
 
 ## Arsitektur Berlapis Bitcoin
+
 <chapterId>03017765-53cf-5f14-9682-e99ca02d2241</chapterId>
 
 Bitcoin, sebagai protokol sumber terbuka, dapat dilengkapi dan diperkaya oleh lapisan protokol/aplikasi yang ditambahkan oleh siapa saja. Beberapa fitur ini lebih signifikan daripada yang lain, menciptakan ekosistem dinamis dengan banyak perusahaan yang berkontribusi pada pengembangan infrastruktur. Contoh proyek seperti ini termasuk Sidechains (mis., Liquid Chain oleh Blockstream), Lightning Network oleh Lightning Labs, dan konsep identitas (mis., Microsoft ION). Proyek-proyek ini seperti lapisan tambahan yang ditambahkan ke protokol Bitcoin asli.
@@ -535,9 +547,11 @@ Ini adalah visi masa depan yang saya miliki untuk Bitcoin. Ini akan menjadi jala
 Andreas Antonopoulos, jika saya tidak salah, memperkenalkan saya pada ide ini. @aantonop
 
 # Menyiapkan rencana Anda
+
 <partId>3801faf6-7915-56fa-baf5-ee63ad03b7cf</partId>
 
 ## Memilih profil Anda
+
 <chapterId>c5d87903-a5f2-5eec-887a-f662734ce49b</chapterId>
 
 Sekarang setelah kita telah meninjau dasar-dasar fundamental dan belajar cara menghindari penipuan dan kerugian finansial, kita dapat mengembangkan rencana kita. Rencana tersebut akan cukup sederhana untuk dimulai, tetapi penting untuk memulai. Anda selalu dapat memodifikasinya seiring berjalannya waktu.
@@ -565,6 +579,7 @@ Dengan ini, Anda seharusnya menemukan apa yang cocok untuk Anda, memilih rencana
 **Pengingat:** Jika Anda tidak memiliki kunci privat (daftar 24 kata), pihak ketiga bertanggung jawab atas keamanan bitcoin Anda. Dengan kata lain, Anda tidak lagi memiliki bitcoin tersebut. Mereka terpapar pada risiko yang sama seperti platform pertukaran seperti peretasan, penyitaan, regulasi, atau kebangkrutan.
 
 ## The Hodler
+
 <chapterId>baf1adc2-3828-5265-8ee5-130be547585c</chapterId>
 
 Baik dalam investasi maupun dalam Bitcoin, memegang dalam jangka panjang umumnya adalah norma. Secara statistik, ini paling menguntungkan dalam jangka panjang dan paling mudah untuk diimplementasikan:
@@ -588,16 +603,21 @@ Untuk tipe profil ini, disarankan untuk menggunakan cold wallet untuk memulai, s
 
 Tutorial Wallet yang Relevan:
 
-- [Ledger](https://planb.network/tutorials/wallet/ledger)
-- [bitbox02](https://planb.network/tutorials/wallet/bitbox02)
-- [Cold card](https://planb.network/tutorials/wallet/coldcard)
-- [Trezor](https://planb.network/tutorials/wallet/trezor)
+https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+
+https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+
+https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
+
+https://planb.network/tutorials/wallet/hardware/trezor-441fa7a1-4aac-4b6a-984f-3dd428ba0c84
 
 Opsi Pertukaran:
 
-- [bitstamp](https://planb.network/tutorials/exchange/bitstamp)
-- [bifinex](https://planb.network/tutorials/exchange/bitfinex)
-- [kraken](https://planb.network/tutorials/exchange/kraken)
+https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
+
+https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+
+https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
 Jika hodler ingin melangkah lebih jauh: menerapkan rencana DCA seperti stacker dan menggunakan hot LN wallet untuk menghabiskan beberapa bitcoin.
 
@@ -618,10 +638,11 @@ Berikut adalah profil psikologis singkat dari Hodler, jika Anda mengenali diri A
   Menghadapi penurunan harga dan volatilitas pasar, hodler tetap tangguh, mempertahankan kepercayaan pada investasi mereka dan pertumbuhan masa depan Bitcoin.
 
 - Keyakinan pada Teknologi:
-Di luar pengejaran keuntungan yang sederhana, hodler seringkali percaya pada teknologi blockchain dan kemampuan Bitcoin untuk membawa perubahan positif di dunia.
-Secara ringkas, hodler adalah investor yang sabar, disiplin, dan visioner yang sangat percaya pada nilai jangka panjang dari Bitcoin dan bersedia untuk menanggung volatilitas jangka pendek demi mencapai keuntungan substansial di masa depan. Mereka metodis dalam strategi investasi mereka dan memperhatikan keamanan serta perencanaan jangka panjang.
+  Di luar pengejaran keuntungan yang sederhana, hodler seringkali percaya pada teknologi blockchain dan kemampuan Bitcoin untuk membawa perubahan positif di dunia.
+  Secara ringkas, hodler adalah investor yang sabar, disiplin, dan visioner yang sangat percaya pada nilai jangka panjang dari Bitcoin dan bersedia untuk menanggung volatilitas jangka pendek demi mencapai keuntungan substansial di masa depan. Mereka metodis dalam strategi investasi mereka dan memperhatikan keamanan serta perencanaan jangka panjang.
 
 ## The stacker
+
 <chapterId>0daf450d-1b91-5d99-9c31-b52ab52a5e21</chapterId>
 
 Dalam Bitcoin, konsep "Stacker" cukup dikenal. Ide ini sederhana: hanya ada 21 juta bitcoin, dan setiap bitcoin kecil itu penting! Bitcoin kecil ini sebenarnya disebut satoshi (atau SAT). Tujuan stacker adalah untuk mengumpulkan sebanyak mungkin.
@@ -642,21 +663,27 @@ Solusi lain mungkin termasuk mulai menjual barang atau jasa dalam Bitcoin untuk 
 
 Hot wallet untuk akumulasi cepat
 
-- [Blue Wallet](https://planb.network/tutorials/wallet/blue-wallet)
-- [Green Wallet](https://planb.network/tutorials/wallet/green-wallet)
-- [Phoenix](https://planb.network/tutorials/wallet/phoenix)
+https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+
+https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+
+https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 Cold wallet untuk keamanan jangka panjang
 
-- [Ledger](https://planb.network/tutorials/wallet/ledger)
-- [bitbox02](https://planb.network/tutorials/wallet/bitbox02)
-- [Cold card](https://planb.network/tutorials/wallet/coldcard)
-- [Trezor](https://planb.network/tutorials/wallet/trezor)
+https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+
+https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+
+https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
+
+https://planb.network/tutorials/wallet/hardware/trezor-441fa7a1-4aac-4b6a-984f-3dd428ba0c84
 
 Platform DCA untuk mengumpulkan Bitcoin.
 
-- [Relai](https://planb.network/tutorials/exchange/relai)
-- [Bull Bitcoin](https://planb.network/tutorials/exchange/bull-bitcoin)
+https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+
+https://planb.network/tutorials/exchange/centralized/bull-bitcoin-60a58596-e54c-41ba-855d-f9edb76cfb0e
 
 Tipe profil ini juga, tentu saja, dapat menggunakan broker untuk melakukan pembelian besar sekaligus seperti hodler, tetapi umumnya, stacking adalah konsep menambahkan sats secara reguler ke dompet mereka. Pendekatan yang lebih umum adalah belajar cara menggunakan Bitcoin secara peer-to-peer dan dengan demikian membeli Bitcoin langsung dengan tunai dari teman atau anggota komunitas Bitcoin.
 
@@ -671,13 +698,14 @@ Potret Psikologis dari Stacker
   Tujuan utama mereka jelas: untuk mengumpulkan sebanyak mungkin satoshi. Fokus ini mengarahkan tindakan dan keputusan investasi mereka, terlepas dari apakah harga melonjak atau anjlok.
 
 - Pengetahuan Keuangan:
-Mereka memahami pentingnya diversifikasi dan investasi rutin, dengan demikian meminimalisir risiko dan mengoptimalkan potensi pengembalian. Hal ini dicapai melalui rata-rata harga dan oleh karena itu kurang tertarik pada pergerakan harga jangka pendek.
+  Mereka memahami pentingnya diversifikasi dan investasi rutin, dengan demikian meminimalisir risiko dan mengoptimalkan potensi pengembalian. Hal ini dicapai melalui rata-rata harga dan oleh karena itu kurang tertarik pada pergerakan harga jangka pendek.
 - Proaktif:
   Secara aktif mencari peluang tambahan untuk mendapatkan Bitcoin, baik dengan menjual barang atau jasa atau menjelajahi jalur lain dalam ekosistem Bitcoin.
 
 Stacker adalah individu yang metodis dan fokus, dengan rencana yang jelas untuk memaksimalkan akumulasi satoshi mereka. Mereka menunjukkan proaktivitas dan pengetahuan finansial, terus-menerus mencari cara untuk mengoptimalkan dan mengamankan investasi Bitcoin mereka. Pendekatan mereka ditandai dengan konsistensi dan organisasi yang sempurna, menempatkan mereka pada jalur pertumbuhan Bitcoin portofolio mereka yang stabil dan berkelanjutan.
 
 ## Pengguna
+
 <chapterId>e0a022ab-207c-571f-b4ad-c432214a756c</chapterId>
 
 Akhirnya, tipe bitcoiner terakhir yang dapat disebutkan dalam kursus pengantar adalah bitcoiner yang perlu menggunakan Bitcoin secara rutin. Baik karena kewajiban profesional atau sekedar keinginan untuk mendukung ekosistem, diperlukan solusi yang cocok untuk penggunaan yang sering.
@@ -702,21 +730,27 @@ Untuk memperkenalkan diri mereka ke Bitcoin, tipe profil ini akan memiliki beber
 
 Dompet Panas LN
 
-- [Phoenix](https://planb.network/tutorials/wallet/phoenix)
-- [Wallet of Satoshi](https://planb.network/tutorials/wallet/wallet-of-satoshi)
-- [Breez](https://planb.network/tutorials/wallet/breez)
+https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+
+https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+
+https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
 Dompet Dingin
 
-- [Ledger](https://planb.network/tutorials/wallet/ledger)
-- [bitbox02](https://planb.network/tutorials/wallet/bitbox02)
-- [Cold card](https://planb.network/tutorials/wallet/coldcard)
-- [Trezor](https://planb.network/tutorials/wallet/trezor)
+https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+
+https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+
+https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
+
+https://planb.network/tutorials/wallet/hardware/trezor-441fa7a1-4aac-4b6a-984f-3dd428ba0c84
 
 Platform Pembelian
 
-- [Robosats](https://planb.network/tutorials/exchange/robosats)
-- [kraken](https://planb.network/tutorials/exchange/kraken)
+https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+
+https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
 ### Apakah ini untuk Anda?
 
@@ -732,6 +766,7 @@ Platform Pembelian
 Pengguna adalah individu yang paham teknologi dan secara aktif terlibat dalam penggunaan Bitcoin secara aktif. Mereka terus mencari cara untuk meningkatkan efisiensi dan keamanan transaksi dan kepemilikan Bitcoin mereka. Fleksibilitas dan komitmen mereka terhadap ekosistem tercermin dalam kesediaan mereka menggunakan berbagai solusi, dari dompet lightning hingga solusi pertukaran cepat. Sambil aktif terlibat dalam transaksi Bitcoin, mereka tidak mengabaikan keamanan, memastikan pembagian yang jelas antara bitcoin mereka untuk penggunaan sehari-hari dan yang disimpan dalam jangka panjang.
 
 ## Bitcoiner Paranoid
+
 <chapterId>5c624acd-662e-5134-ab7a-fb75cde7c3f8</chapterId>
 Saya ingin menambahkan Bitcoiner paranoid di sini. Tipe orang ini tidak ingin memaparkan diri mereka kepada KYC (Know Your Customer), lebih memilih untuk tetap dekat dengan anonimitas, dan menempatkan privasi mereka pada tempat yang sangat penting. Bitcoiner paranoid juga akan menggunakan LN melalui node mereka sendiri dan bekerja pada keamanan mereka.
 
@@ -750,17 +785,21 @@ Mereka kemudian perlu belajar cara mencampur koin mereka, mengelola UTXO (Unspen
 ### Tutorial:
 
 Dompet panas:
-- [Samourai wallet](https://planb.network/tutorials/wallet/samourai)
+https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956
 
 Dompet dingin:
-- [Coldcard](https://planb.network/tutorials/wallet/coldcard)
-- [Seed Signer](https://planb.network/tutorials/wallet/seed-signer) (Dompet DIY)
+https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
+
+https://planb.network/tutorials/wallet/hardware/seed-signer-ee2c284a-0e23-49a4-b0ca-4a4702072973
 
 Pembelian non-KYC antar individu:
-- [Peach](https://planb.network/tutorials/exchange/peach-wallet)
-- [Robosats](https://planb.network/tutorials/exchange/robosats)
-- [Bisq](https://planb.network/tutorials/exchange/bisq)
-- [HodlHodl](https://planb.network/tutorials/exchange/hodlhodl)
+https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+
+https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+
+https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+
+https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
 ### Apakah ini untuk Anda?
 
@@ -781,10 +820,12 @@ Pembelian non-KYC antar individu:
 
 Dalam pola pikir individu Paranoid, kehati-hatian, keamanan, dan anonimitas adalah yang utama. Prioritas ini menentukan pendekatan yang disengaja dan dipikirkan dengan baik dalam menggunakan Bitcoin, mempromosikan kemandirian dan kehati-hatian. Individu Paranoid bersedia menginvestasikan waktu dan usaha untuk memastikan keamanan dan privasi bitcoin mereka sambil dengan terampil menavigasi ekosistem untuk menghindari paparan yang tidak perlu. Meskipun mungkin tampak terlalu hati-hati bagi sebagian orang, individu Paranoid menganggap kecermatan dan perhatian terhadap detail mereka penting untuk partisipasi yang sukses dan aman dalam dunia Bitcoin.
 
-# Masa Depan dengan Bitcoin
-<partId>98199b14-ad0f-5da7-ae99-8e5f5819f153</partId>
+# Melindungi ahli waris dan aset Anda
+
+<partId>0b8a9528-719b-4a2d-bd50-1e173a896570</partId>
 
 ## Membuat rencana warisan
+
 <chapterId>233c88d3-2e8e-5eba-ac06-efe67a209038</chapterId>
 Mari kita bayangkan skenario dramatis berikut.
 Sebuah kecelakaan mobil, BOOM, dan Anda tidak lagi di dunia ini. Anda menghilang, meninggalkan keluarga Anda tanpa ahli Bitcoin mereka. Mereka tidak tahu di mana uangnya, tetapi mereka ingat Anda terus-menerus menyebutkan istilah seperti kunci, daftar kata, dan ketidakreversibelan transaksi Bitcoin. Mereka hancur, bingung, dan sekarang harus mencari tahu semuanya sendiri. Meskipun situasi ini mungkin tampak menakutkan, ini adalah kemungkinan nyata yang tidak bisa diabaikan. Anda kemudian memiliki dua pilihan: menghabiskan antara 15 menit dan 1 jam untuk membuat rencana warisan, atau tidak melakukan apa-apa. Tidak ada yang akan menilai, tetapi jika orang bergantung pada Anda, 15 menit itu bisa membuat perbedaan besar suatu hari nanti. Terserah Anda.
@@ -827,7 +868,7 @@ Apa yang Anda butuhkan?
 - Dua amplop
 - Buku telepon/alamat
 - Sebuah komputer (opsional menurut saya)
-![pamela morgan](assets/heritage/1.webp)
+  ![pamela morgan](assets/heritage/1.webp)
 
 Menurut Pamela Morgan dalam "Cryptoasset Inheritance Planning" pada halaman 18, kesalahpahaman umum adalah:
 
@@ -850,12 +891,12 @@ Selalu ada pertukaran antara keahlian teknis, ketersediaan, dan kepercayaan. Jik
 
 Pemisahan tanggung jawab: Orang yang dipercaya TIDAK BOLEH memiliki akses ke kunci pribadi Anda. Peran mereka hanya untuk membantu orang-orang terkasih Anda memahami sistem keamanan Bitcoin Anda dan mendapatkan kepercayaan. Itulah mengapa Anda memilih dua orang yang dipercaya. Jika perlu, Anda juga dapat beralih ke organisasi pihak ketiga (pengacara khusus atau layanan perencanaan warisan).
 
-| Orang yang Dipercaya | Kepercayaan | Pengetahuan BTC | Info Kepercayaan | Catatan |
-| -------------------- | ----------- | --------------- | ---------------- | ------- |
-| Saudara saya Bob     | Sangat tinggi | Rendah          | Telepon & email  | "Bob tidak tahu banyak tentang BTC, tapi kita bisa mempercayainya 100% untuk membantu." |
-| Sepupu saya Nathan   | Tinggi       | Sedang          | Telepon & insta  | Orang #1 untuk diajak bicara. Dia bisa membantu Anda. Dia terinformasi. |
-| Ricco (Teman Crypto) | Sedang       | Sangat tinggi   | Twitter & email & foto | Percayakan dia dengan pertanyaan teknis. Tidak dengan uang. Anda perlu menghubunginya. |
-| YouTuber & influencer| Rendah       | Tinggi          | Link YouTube     | Edukasikan diri Anda dengan mengikutinya. Dia tidak bisa membantu secara langsung. |
+| Orang yang Dipercaya  | Kepercayaan   | Pengetahuan BTC | Info Kepercayaan       | Catatan                                                                                 |
+| --------------------- | ------------- | --------------- | ---------------------- | --------------------------------------------------------------------------------------- |
+| Saudara saya Bob      | Sangat tinggi | Rendah          | Telepon & email        | "Bob tidak tahu banyak tentang BTC, tapi kita bisa mempercayainya 100% untuk membantu." |
+| Sepupu saya Nathan    | Tinggi        | Sedang          | Telepon & insta        | Orang #1 untuk diajak bicara. Dia bisa membantu Anda. Dia terinformasi.                 |
+| Ricco (Teman Crypto)  | Sedang        | Sangat tinggi   | Twitter & email & foto | Percayakan dia dengan pertanyaan teknis. Tidak dengan uang. Anda perlu menghubunginya.  |
+| YouTuber & influencer | Rendah        | Tinggi          | Link YouTube           | Edukasikan diri Anda dengan mengikutinya. Dia tidak bisa membantu secara langsung.      |
 
 ### Langkah 2: Lakukan inventarisasi sederhana dan cepat
 
@@ -867,11 +908,12 @@ Penting untuk memikirkan semua tempat di mana Anda memiliki dolar atau BTC:
 
 Pertimbangkan bagaimana Anda telah mengamankannya dan di mana cadangan ini disimpan. Saat ini tidak penting untuk memiliki dua lokasi cadangan. Tujuannya adalah untuk mengambil gambaran instan dari KEAMANAN ANDA SAAT INI. Kita bisa memperbaikinya nanti! Ini hanya versi pertama untuk memastikan keamanan Anda untuk saat ini, kita akan membahas lebih detail nanti.
 
-| Umum                 | Perangkat Lunak / Perangkat Keras | Aset        | Lokasi              | Cadangan (kunci pribadi)        | Kata Sandi (PIN, passphrase) | Catatan                                                                                                                    |
-| -------------------- | --------------------------------- | ----------- | -------------------- | ------------------------------- | ---------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| Platform pertukaran  | Bitstamp                          | BTC & Uang  | Dapat diakses online | -                               | Rumah & Brankas bank         | Ini adalah tempat saya membeli dan mentransfer Bitcoin saya. Saya masuk menggunakan pengelola kata sandi dan 2FA.           |
-| Dompet fisik         | Trezor model One                  | BTC         | Aman                 | Paman Bob & Brankas bank        | Rumah & Ibu                   | Saya memiliki dua dompet, satu reguler dan satu dengan passphrase.                                                         |
-| Dompet Samourai       | Mobile - One Plus 6 | BTC           | Saya sendiri                 | Paman Bob & Brankas Bank           | Rumah & Ibu                  | Aplikasi ini bisa dalam mode tersembunyi.                                                                                             |
+| Umum                | Perangkat Lunak / Perangkat Keras | Aset       | Lokasi               | Cadangan (kunci pribadi) | Kata Sandi (PIN, passphrase) | Catatan                                                                                                           |
+| ------------------- | --------------------------------- | ---------- | -------------------- | ------------------------ | ---------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| Platform pertukaran | Bitstamp                          | BTC & Uang | Dapat diakses online | -                        | Rumah & Brankas bank         | Ini adalah tempat saya membeli dan mentransfer Bitcoin saya. Saya masuk menggunakan pengelola kata sandi dan 2FA. |
+| Dompet fisik        | Trezor model One                  | BTC        | Aman                 | Paman Bob & Brankas bank | Rumah & Ibu                  | Saya memiliki dua dompet, satu reguler dan satu dengan passphrase.                                                |
+| Dompet Samourai     | Mobile - One Plus 6               | BTC        | Saya sendiri         | Paman Bob & Brankas Bank | Rumah & Ibu                  | Aplikasi ini bisa dalam mode tersembunyi.                                                                         |
+
 JANGAN TERDISTRIBUSI! Anda mungkin merasa perlu untuk mentransfer aset-aset ini untuk:
 
 - Meningkatkan keamanan Anda?
@@ -915,6 +957,7 @@ Selanjutnya, kami sertakan "bagian penasihat". Bagian ini bisa membingungkan bag
 Berikut adalah orang-orang yang dapat membantu Anda menjawab pertanyaan dan membimbing Anda melalui proses ini:
 
 (Masukkan nama-nama penasihat Anda di sini, afiliasi mereka dengan organisasi (jika berlaku), informasi kontak mereka, dan bagaimana mereka harus memverifikasi identitas mereka, misalnya, keybase, foto.)
+
 - Saudara saya Bob; +33 09 XX 68 18 36; Bobmybrother@gmail.com. Anda bisa mempercayai Bob untuk membantu Anda dalam proses ini. Meskipun dia mungkin tidak paling ahli secara teknis, dia adalah orang yang tepat untuk mempertanyakan segalanya dan berhati-hati untuk memastikan kesuksesan Anda dengan aman. • Sepupu saya Nathan; +33 09 XX 29 35; NathanDeladzcroix@Hotmail.com. Nathanlah yang memperkenalkan saya pada Bitcoin. Dia sangat berpengetahuan dalam teknologi dan bisa menjawab sebagian besar pertanyaan Anda. Dia juga memiliki beberapa bitcoin dan bisa membimbing Anda di sisi teknis. Anda telah melihatnya beberapa kali di pertemuan keluarga, dan saya telah menyertakan foto dia di sini. - Ricco; @RiccoSFC di Twitter; Ricco425@protonmail.com. Saya telah bekerja sama dengan Ricco selama bertahun-tahun. Anda belum pernah bertemu dengannya, jadi pastikan Anda berbicara dengan orang yang tepat dengan bertanya kepadanya "Apa nama anjing Cédric?" Jika dia menjawab "12", itu bagus. Ricco adalah seorang ahli yang sangat ramah dan berpengetahuan tentang Bitcoin. Dia akan menjawab semua pertanyaan Anda dan Anda bisa mengandalkan penilaiannya mengenai keamanan bitcoin. Jangan ragu untuk menghubunginya, saya telah bertemu dengannya beberapa kali dan dia mengetahui segala sesuatu yang berkaitan dengan Anda dan Maia.
 - Mungkin terdengar aneh, tapi hubungi mereka semua. Selain itu, Anda bisa mendidik diri sendiri dengan mendengarkan Andreas Antonopoulos di YouTube dan membeli buku "Cryptoasset Inheritance Planning" oleh Pamela Morgan."
 
@@ -937,8 +980,8 @@ Saat menyebutkan lokasi tempat cadangan disimpan, gunakan lokasi umum, bukan ala
 - Saya menggunakan manajer kata sandi untuk mengaksesnya, dan Anda akan menemukan cadangan saya di brankas bank. Akun juga dilindungi oleh autentikasi dua faktor, yang dapat Anda akses melalui ponsel saya (Samsung Galaxy S8) atau dengan menggunakan kode cadangan yang disimpan di rumah.
 - Saya juga memiliki BTC di perangkat Trezor Model One. Saya mengaksesnya melalui PC saya dan situs web Trezor.io. Kunci privat cadangan disimpan di brankas bank dan dengan Paman Bob. Kode PIN disimpan di rumah dan dengan ibu saya. Perangkat itu sendiri mungkin ada di brankas di kantor saya.
 - Saya menggunakan frase sandi keamanan lanjutan untuk perangkat Trezor saya. Cadangan dari frase sandi ini terletak di rumah dan dengan ibu saya."
-Mari kita simpulkan surat ini dengan beberapa informasi hukum jika diperlukan, serta kata-kata yang baik.
-"Harap diperhatikan: Anda akan menemukan salinan wasiat saya, bertanggal 17 April 2018, di folder dokumen saya. Pengacara saya, Dwight Schrute, yang berbasis di Scranton, Pennsylvania, juga memiliki salinan. Berhati-hatilah dan selalu ingat cinta saya kepada Anda." 26/06/2023, Cedric"
+  Mari kita simpulkan surat ini dengan beberapa informasi hukum jika diperlukan, serta kata-kata yang baik.
+  "Harap diperhatikan: Anda akan menemukan salinan wasiat saya, bertanggal 17 April 2018, di folder dokumen saya. Pengacara saya, Dwight Schrute, yang berbasis di Scranton, Pennsylvania, juga memiliki salinan. Berhati-hatilah dan selalu ingat cinta saya kepada Anda." 26/06/2023, Cedric"
 
 Sekarang mari kita tinjau pekerjaan kita (Berdasarkan "Cryptoasset Inheritance Planning" oleh Pamela Morgan, halaman 44 (diterjemahkan oleh Découvre Bitcoin)):
 
@@ -947,22 +990,22 @@ Sekarang mari kita tinjau pekerjaan kita (Berdasarkan "Cryptoasset Inheritance P
 - Aset: Pastikan Anda telah menyertakan daftar aset Anda.
 - Bursa: Periksa bahwa Anda telah mencantumkan semua bursa yang menyimpan dana untuk Anda.
 - Akses: Daftarkan informasi yang mereka butuhkan untuk menemukan lokasi penyimpanan Anda dan semua kode akses yang diperlukan.
-Jika Anda telah memeriksa semua kotak, maka Anda siap untuk langkah terakhir! Buatlah salinan surat ini dan simpan kedua salinannya dalam amplop. Segel, tanda tangani segel tersebut, dan simpan amplop ini di tempat yang aman namun mudah diakses. Pastikan ahli waris Anda tahu bahwa mereka perlu mengambil amplop ini jika diperlukan. Jangan ragu untuk membeli buku Pamela untuk mendalami topik ini dan merencanakan waktu untuk meningkatkan rencana warisan Anda. Juga, diskusikan dengan notaris Anda untuk secara hukum memasukkan rencana ini ke dalam wasiat resmi Anda.
+  Jika Anda telah memeriksa semua kotak, maka Anda siap untuk langkah terakhir! Buatlah salinan surat ini dan simpan kedua salinannya dalam amplop. Segel, tanda tangani segel tersebut, dan simpan amplop ini di tempat yang aman namun mudah diakses. Pastikan ahli waris Anda tahu bahwa mereka perlu mengambil amplop ini jika diperlukan. Jangan ragu untuk membeli buku Pamela untuk mendalami topik ini dan merencanakan waktu untuk meningkatkan rencana warisan Anda. Juga, diskusikan dengan notaris Anda untuk secara hukum memasukkan rencana ini ke dalam wasiat resmi Anda.
 
 Selamat! Anda memiliki versi pertama dari rencana warisan Anda, dan itu adalah awal yang bagus!
 
 _Cryptoasset Inheritance Planning, Panduan sederhana untuk pemilik, Pamela Morgan, ESQ. Hak cipta 2018 oleh Merkle Bloom LLC, Semua hak dilindungi. CC-BY_ Terima kasih besar kepada Pamela Morgan atas karya berharganya dan karena telah mengizinkan saya untuk membagikannya. Terima kasih juga kepada semua orang yang berkontribusi dalam penulisannya.
 Kalian adalah yang terbaik :D Tim saya dan murid-murid saya juga berterima kasih!
 
-# Pengakuan dan terus menggali lubang kelinci
-<partId>2a6ec097-a3e7-5f1d-a1ec-ae2b0b199e40</partId>
 
 ## Selamat! ANDA BERADA DI TOP 0.1%
+
 <chapterId>5f4cfab9-9af1-584b-a1fe-a0769a991f19</chapterId>
 
 Jika Anda telah mengikuti konten kami dari awal, Anda sekarang adalah warga negara abad ke-21 yang sejati dan salah satu yang paling berpengalaman di bidang Bitcoin! Anda menggunakan pengelola kata sandi dan otentikasi dua faktor (2FA). Anda memahami apa itu Bitcoin dan mengapa itu penting. Anda memiliki Bitcoin dan memiliki cara yang aman untuk membeli atau mendapatkan lebih banyak. Anda telah menyimpan Bitcoin Anda dalam dompet "dingin" dan telah menerapkan manajemen kunci yang tepat. Anda telah membuat rencana warisan untuk orang-orang terkasih Anda. Anda sekarang aman dan dapat bersantai! Nikmati bir dan banggalah pada diri Anda sendiri!
 
 Saya benar-benar bangga bahwa Anda telah mencapai tahap ini. Saya benar-benar berarti itu. Apa yang harus dilakukan selanjutnya? Meskipun Anda seharusnya benar-benar bersantai sekarang dan bangga pada diri sendiri, perjalanan Anda dengan Bitcoin jauh dari selesai, dan itu tidak akan pernah benar-benar selesai. Berikut adalah beberapa opsi untuk apa selanjutnya:
+
 1. Anda bisa saja melanjutkan seperti yang telah Anda lakukan sejauh ini. Terus mengumpulkan bitcoin secara perlahan dan biarkan strategi Anda terbentang seiring waktu. Anda sudah memiliki tingkat keamanan yang cukup, semuanya sudah terpasang, dan Anda telah melakukan apa yang diperlukan untuk diri sendiri dan keluarga Anda. Anda tidak perlu menjadi ahli perdagangan, dan Anda tidak perlu tahu lebih banyak tentang investasi. Mungkin Anda memiliki pekerjaan sampingan, dan meskipun Bitcoin itu menarik, tujuan utama Anda adalah mencapai tahap ini. Ini adalah kasus bagi mayoritas dari Anda, dan saya menghormati itu. Saya sangat senang bahwa Anda telah berhasil sejauh ini menelusuri "lubang kelinci" Bitcoin, dan saya berharap perjalanan ini menyenangkan. Terima kasih telah mempercayai saya untuk membantu mengamankan bitcoin pertama Anda.
 
 2. Anda mungkin ingin terus mendidik diri Anda tentang aspek teknis, ideologis, dan filosofis dari Bitcoin. Jika Anda merasa perjalanan Anda baru saja dimulai, saya mendorong Anda untuk terus belajar tentang Bitcoin. Ada begitu banyak hal untuk dipelajari sehingga terkadang sulit untuk mengetahui harus mulai dari mana. Berikut adalah daftar kursus dan pelatihan yang dapat menemani Anda:
@@ -975,12 +1018,21 @@ Saya benar-benar bangga bahwa Anda telah mencapai tahap ini. Saya benar-benar be
 
 Dalam hal apapun, semua kursus kami gratis, dan banyak sumber daya atau tutorial tersedia di platform kami untuk menemani Anda. Semoga berhasil dengan studi Anda!
 
+# Bagian Akhir
 
+<partId>a8425389-4a53-4b57-b9b4-36c1cab12de5</partId>
 
-## Beri kami umpan balik tentang kursus ini
+## Ulasan & Penilaian
+
 <chapterId>3f43175a-fb7a-5b1c-a887-7dcf615d7a3a</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Tindak Lanjut
+## Ujian Akhir
+
+<chapterId>f3ff8089-8f89-56a8-be8c-b60296b4d91f</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Kesimpulan
+
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
-Kursus ini, serta seluruh konten yang tersedia di universitas ini, telah disediakan kepada Anda secara gratis oleh komunitas kami. Untuk mendukung kami, Anda dapat membagikannya dengan orang lain, menjadi anggota universitas, dan bahkan berkontribusi pada pengembangannya melalui GitHub. Atas nama seluruh tim, terima kasih!
+<isCourseConclusion>true</isCourseConclusion>

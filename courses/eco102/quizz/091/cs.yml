@@ -1,0 +1,8 @@
+question: Považuje Bastiat právo na vlastnictví za vytvořené legislativou, nebo jej předchází?
+answer: předchází legislativě
+wrong_answers:
+  - vytvořené legislativou
+  - vytvořené sociální smlouvou
+  - závislé na všeobecné vůli
+explanation: |
+  Bastiat považuje právo na vlastnictví za přirozené právo, které předchází zákonu, jenž by měl pouze zajistit jeho obranu.

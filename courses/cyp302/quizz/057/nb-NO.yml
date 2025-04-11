@@ -1,0 +1,9 @@
+question: Hva er en abelsk gruppe?
+answer: En gruppe der operasjonen er kommutativ
+wrong_answers:
+  - En gruppe som har en unik generator
+  - En gruppe begrenset til heltall
+  - En gruppe uten et nøytralt element
+explanation: |
+  En abelsk gruppe er en gruppe der rekkefølgen av elementene i operasjonen ikke påvirker resultatet, noe som betyr at den følger kommutativitetsprinsippet.
+reviewed: false

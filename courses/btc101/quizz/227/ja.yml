@@ -1,9 +1,9 @@
-question: 従来の送金サービス（Western Union、中央銀行、Visa、Mastercardなど）がLightning Network技術を採用しなかった場合、どうなる可能性がありますか？
-answer: 彼らは消え去る可能性があります。
+question: 従来の送金サービス（Western Union、中央銀行、Visa、Mastercardなど）がLightning Networkを採用しなかった場合、どのようなことが起こり得るでしょうか？
+answer: 彼らは消滅する可能性があります。
 wrong_answers:
   - より人気が出る可能性があります。
   - より安全になる可能性があります。
-  - より分散化される可能性があります。
-explanation: >-
-  Western Union、中央銀行、Visa、Mastercardなどの従来の送金サービスは、Lightning Network技術を採用しない場合、消え去る可能性があります。
-reviewed: false
+  - より分散化する可能性があります。
+explanation: |
+  Western Union、中央銀行、Visa、Mastercardなどの従来の送金サービスは、Lightning Network技術を採用しない場合、消滅する可能性があります。
+reviewed: true

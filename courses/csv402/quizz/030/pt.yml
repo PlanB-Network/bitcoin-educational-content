@@ -1,0 +1,9 @@
+question: Quais são os componentes contidos numa remessa RGB que Bob (destinatário) recebe para um contrato?
+answer: Génese, esquema, interface e implementação da interface
+wrong_answers:
+  - Génese, esquema, transição e extensão
+  - Esquema, Interface, Assinatura e PSBT
+  - Génese, Interface, PSBT e História
+explanation: |
+  A consignação de um contrato RGB inclui a Génese, o Esquema, a Interface e a Implementação da Interface, que fornecem todos os dados necessários para validar o contrato.
+reviewed: false

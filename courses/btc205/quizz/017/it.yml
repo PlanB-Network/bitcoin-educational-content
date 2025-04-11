@@ -1,9 +1,0 @@
-question: Qual è una caratteristica unica della soluzione P2P di HodlHodl?
-answer: Offre un sistema di referral.
-wrong_answers:
-  - Funziona su TOR.
-  - Utilizza il multisign per la gestione delle controversie.
-  - Richiede la creazione di un account per funzionare.
-explanation: |
-  Il capitolo menziona che HodlHodl offre un sistema di referral, che è una caratteristica unica tra le soluzioni P2P discusse.
-reviewed: false

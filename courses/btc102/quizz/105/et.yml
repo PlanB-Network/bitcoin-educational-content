@@ -1,0 +1,9 @@
+question: Mis on teine samm pärandiplaani loomisel vastavalt peatükile?
+answer: Tehke lihtne ja kiire inventuur.
+wrong_answers:
+  - Kirjutage kiri.
+  - Valige õiged inimesed, kes aitaksid teie pärijaid.
+  - Palkage advokaat.
+explanation: |
+  Teine samm pärandiplaani loomisel, nagu peatükis soovitatud, on teha lihtne ja kiire inventuur.
+reviewed: false

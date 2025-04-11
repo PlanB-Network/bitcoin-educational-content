@@ -1,0 +1,9 @@
+question: Mitä hyötyä on siitä, että Starter-profiilissa käytetään säilytyslompakkoa?
+answer: Vähennetty tekninen vastuu
+wrong_answers:
+  - Yksityisten avainten parempi hallinta
+  - Parannettu yksityisyys ja täysi riippumattomuus liiketoimista
+  - Transaktiomaksujen poistaminen
+explanation: |
+  Säilytettävät lompakot hallinnoivat yksityisiä avaimia, mikä helpottaa käyttäjien teknistä taakkaa.
+reviewed: false

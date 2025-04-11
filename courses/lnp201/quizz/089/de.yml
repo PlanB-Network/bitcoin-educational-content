@@ -1,9 +1,0 @@
-question: Was muss ein Käufer tun, um die Liquidität im Lightning Network zu verwalten?
-answer: Offene Kanäle
-wrong_answers:
-  - Verbinden mit anderen Knoten
-  - Ein Gleichgewicht der Liquidität auf beiden Seiten aufrechterhalten
-  - Kanäle kaufen
-explanation: |
-  Für Käufer im Lightning Network besteht die Verwaltung der Liquidität darin, Kanäle zu öffnen. Dadurch erhalten sie ausgehende Liquidität.
-reviewed: false

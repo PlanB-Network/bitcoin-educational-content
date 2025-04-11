@@ -1,0 +1,9 @@
+question: What is Lord Acton's central thesis on history?
+answer: The conflict between freedom and power is the driving force of progress and the evolution of societies.
+wrong_answers:
+  - Progress is linear and inevitable, leading to a society of freedom and equality.
+  - History is a cycle of repetition with periods of freedom followed by periods of tyranny.
+  - Economic factors are the main determinants of the course of history.
+explanation: |
+  Lord Acton argues that history is primarily marked by the conflict between freedom and power, considering this struggle essential for progress and the evolution of societies towards greater individual freedom.
+reviewed: false

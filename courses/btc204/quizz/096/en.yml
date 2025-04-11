@@ -1,0 +1,13 @@
+question: What does the retrospective anonset indicate?
+
+answer: The number of probable sources for a UTXO at the end of cycles.
+
+wrong_answers:
+  - The size of the group of indistinguishable UTXOs at the end of cycles.
+  - The number of probable sources for a UTXO at the start of cycles.
+  - The time required to complete a coinjoin.
+
+explanation: |
+  The retrospective anonset indicates the number of possible sources for a given coin, considering the UTXO at the end of the cycle.
+
+reviewed: false

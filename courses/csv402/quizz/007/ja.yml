@@ -1,0 +1,9 @@
+question: RGBはどのようにして視界を最小にしているのか？
+answer: タプレット
+wrong_answers:
+  - OP_RETURN（オプレット）
+  - シグの微調整
+  - キー微調整
+explanation: |
+  Taproot（Tapret）は、現在の標準との互換性を確保しながら、慎重かつ効率的に取引にコミットメントを挿入することを可能にする。
+reviewed: false

@@ -1,0 +1,8 @@
+question: Diantara jawaban berikut, mana yang bukan bagian dari 3 kategori utama heuristik dan karakteristik yang digunakan dalam analisis rantai?
+answer: Model kriptografi.
+wrong_answers:
+  - Model transaksi.
+  - Heuristik transaksi internal.
+  - Heuristik transaksi eksternal.
+explanation: |
+  Heuristik yang digunakan dalam analisis rantai dapat dikelompokkan menjadi tiga kategori; pola transaksi (atau model transaksi), heuristik transaksi internal, dan heuristik transaksi eksternal.

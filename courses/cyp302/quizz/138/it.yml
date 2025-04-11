@@ -1,0 +1,9 @@
+question: Quale proprietà deve avere una funzione hash per garantire la sicurezza durante la verifica del software?
+answer: Resistenza alle collisioni
+wrong_answers:
+  - Reversibilità
+  - Operabilità con chiavi asimmetriche
+  - Generabilità in tempo reale
+explanation: |
+  La resistenza alle collisioni assicura che sia praticamente impossibile trovare due input diversi che producono lo stesso hash, il che è importante per verificare che il software non sia stato manomesso.
+reviewed: false

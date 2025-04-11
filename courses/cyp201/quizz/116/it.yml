@@ -1,9 +1,0 @@
-question: Qual è il motivo principale per utilizzare un indirizzo di ricezione invece di una chiave pubblica nelle transazioni Bitcoin?
-answer: Riduce le dimensioni delle informazioni sulla chiave pubblica.
-wrong_answers:
-  - Consente di invertire da un indirizzo alla chiave pubblica.
-  - Risparmia spazio nei blocchi.
-  - È più facile da ricordare rispetto a una chiave pubblica.
-explanation: |
-  Il motivo principale per utilizzare un indirizzo di ricezione invece di una chiave pubblica nelle transazioni Bitcoin è ridurre le dimensioni delle informazioni sulla chiave pubblica, che inizialmente è di 512 bit. Questo non è per risparmiare spazio nei blocchi, ma per rendere i dati delle transazioni più gestibili.
-reviewed: false

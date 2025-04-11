@@ -1,0 +1,9 @@
+question: Hvilken matematisk operasjon er grunnlaget for sikkerheten til elliptisk kurvekryptografi?
+answer: Diskret logaritmeproblem
+wrong_answers:
+  - Faktorisering av primtall
+  - Beregning av kvadratiske rester
+  - Diskret kube problem
+explanation: |
+  Sikkerheten til elliptisk kurvekryptografi er basert på vanskelighetene med å løse det diskrete logaritmeproblemet på disse kurvene.
+reviewed: false

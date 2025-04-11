@@ -1,0 +1,5 @@
+---
+term: ENLACE DE SALIDA
+
+---
+A veces se utiliza como sinónimo para referirse a la reutilización de direcciones. El enlace de salida se refiere a la práctica de utilizar la misma dirección receptora para bloquear múltiples UTXOs, a veces a través de varias transacciones diferentes. Los bitcoins se bloquean normalmente utilizando un par de claves criptográficas que corresponden a una dirección única. Como la cadena de bloques es pública, es fácil ver qué direcciones están asociadas a cuántos bitcoins. En el caso de reutilizar la misma dirección para múltiples pagos, cabe suponer que todos los UTXO asociados pertenecen a la misma entidad. Por lo tanto, la reutilización de direcciones plantea un problema para la privacidad del usuario. Permite establecer vínculos deterministas entre múltiples transacciones y UTXOs, así como perpetuar el seguimiento de fondos en la cadena.

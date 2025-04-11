@@ -1,12 +1,13 @@
-question: Vai trò của tiền tệ như một công cụ giao tiếp là gì?
-answer: Nó cho phép giao tiếp giá trị qua không gian và thời gian mà không cần phải tin tưởng vào đối tác
+question: Vai trò của tiền bạc như một công cụ giao tiếp là gì?
+
+answer: Nó cho phép giao tiếp giá trị qua không gian và thời gian mà không cần phải tin tưởng vào đối tác.
+
 wrong_answers:
-  - Nó cho phép giao tiếp giá trị qua không gian mà không cần phải tin tưởng vào đối tác
-  - Nó cho phép giao tiếp giá trị qua thời gian mà không cần phải tin tưởng vào đối tác
-  - Nó cho phép giao tiếp giá trị qua không gian và thời gian và cần phải tin tưởng vào đối tác
-explanation: |
-  Tiền tệ như một công cụ giao tiếp cho phép giao tiếp qua không gian và thời gian, khi chúng ta biến thời gian và năng lượng của mình thành tài sản có thể được tái sử dụng
-  trong tương lai mà không có nguy cơ mất giá. Nó cũng cho phép giao tiếp bằng một
-  ngôn ngữ chung toàn cầu, cho phép hai người lạ mặt trao đổi, giao dịch và đồng ý
-  về giá trị của các vật phẩm.
-reviewed: false
+  - Nó cho phép giao tiếp giá trị qua không gian mà không cần phải tin tưởng vào đối tác.
+  - Nó cho phép giao tiếp giá trị qua thời gian mà không cần phải tin tưởng vào đối tác.
+  - Nó cho phép giao tiếp giá trị qua không gian và thời gian và cần phải tin tưởng vào đối tác.
+
+explanation:
+  Tiền bạc như một công cụ giao tiếp cho phép giao tiếp qua không gian và thời gian, khi chúng ta chuyển đổi thời gian và năng lượng của mình thành một tài sản có thể được tái sử dụng trong tương lai mà không có nguy cơ mất giá. Nó cũng cho phép giao tiếp bằng một ngôn ngữ chung toàn cầu, cho phép hai người lạ mặt trao đổi, giao dịch, và thống nhất về giá trị của các vật phẩm.
+
+reviewed: true

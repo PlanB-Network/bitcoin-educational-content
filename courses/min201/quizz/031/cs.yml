@@ -5,7 +5,5 @@ wrong_answers:
   - Umožnit anonymní transakce.
   - Vytvořit novou formu investice.
 explanation: |
-  Základním posláním Bitcoinu je být sítí pro výměnu hodnot odolnou vůči cenzuře. Komunita Bitcoinu neustále usiluje o posílení distribuce,
-
-  odolnosti vůči cenzuře a anti-křehkosti sítě.
-kontrolováno: false
+  Základním posláním Bitcoinu je být sítí pro výměnu hodnot odolnou vůči cenzuře. Komunita Bitcoinu neustále usiluje o posílení distribuce, odolnosti vůči cenzuře a antikřehkosti sítě.
+reviewed: true

@@ -1,0 +1,13 @@
+question: Apa masalah utama dengan sistem cadangan fraksional?
+answer: Masalah utama dengan sistem cadangan fraksional adalah bahwa penarikan dana yang signifikan dari sebuah bank tertentu dapat berpotensi menyebabkan kebangkrutan bank tersebut.
+wrong_answers:
+  - Masalah utama dengan sistem cadangan fraksional adalah bahwa itu mencegah bank dari meminjamkan uang.
+  - Masalah utama dengan sistem cadangan fraksional adalah bahwa itu mengharuskan bank untuk menyimpan lebih banyak cadangan daripada yang mereka terima dalam deposit.
+  - Masalah utama dengan sistem cadangan fraksional adalah bahwa itu mencegah bank dari menciptakan uang baru.
+explanation: |
+  Dalam sistem cadangan fraksional, bank hanya menyimpan sebagian dari
+  dana deposan
+  sebagai cadangan, meminjamkan sisanya. Jika banyak nasabah secara bersamaan bergegas untuk
+  menarik dana mereka, bank mungkin tidak memiliki cukup cadangan untuk memenuhi permintaan ini,
+  berpotensi menyebabkan kebangkrutan.
+reviewed: false

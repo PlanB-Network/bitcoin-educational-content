@@ -1,0 +1,10 @@
+question: Apa konsekuensi dari pencetakan uang?
+answer: Ini menyebabkan inflasi, yang secara bertahap membuat populasi miskin.
+wrong_answers:
+  - Ini menyebabkan deflasi, yang secara bertahap membuat populasi kaya.
+  - Ini menyebabkan ekonomi stabil tanpa inflasi atau deflasi.
+  - Ini menyebabkan penurunan dalam pasokan uang.
+explanation: |
+  Pencetakan uang, atau penciptaan uang baru oleh bank sentral, menyebabkan
+  inflasi. Ini karena peningkatan dalam pasokan uang mengurangi daya beli uang, menyebabkan harga-harga menjadi lebih tinggi dan penurunan dalam nilai tabungan.
+reviewed: true

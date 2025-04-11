@@ -1,0 +1,9 @@
+question: Que tipo de empresa considera mais provável que um simples ficheiro csv seja suficiente para a contabilidade?
+answer: Pequenas empresas
+wrong_answers:
+  - Grandes empresas multinacionais
+  - Principais instituições financeiras
+  - Plataformas de negociação de alta-frequência
+explanation: |
+  A maioria das pequenas empresas beneficia da simplicidade e do detalhe suficiente proporcionado por uma exportação csv.
+reviewed: false

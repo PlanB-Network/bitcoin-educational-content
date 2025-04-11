@@ -1,0 +1,9 @@
+question: Mis on Philippe Fabry peamine tees Rooma impeeriumi languse põhjuste kohta?
+answer: Rooma impeeriumi langus on tagajärg ebaõnnestunud majandussüsteemile ja sekkumist pooldavale keiserlikule poliitikale.
+wrong_answers:
+  - Rooma impeerium varises kokku barbarite sissetungide ja germaani rahvaste surve tõttu.
+  - Rooma impeerium langes moraalse kriisi ja traditsiooniliste väärtuste kaotuse tõttu.
+  - Rooma impeeriumi langus on tingitud religioossetest põhjustest ja kristluse levikust.
+explanation: |
+  Philippe Fabry sõnul tuleneb Rooma impeeriumi langus majandussüsteemist, mida nõrgestas tugev tsentraliseeritus ja liigne riiklik sekkumine, piirates majanduslikku autonoomiat ja põhjustades sisemisi tasakaalustamatusi.
+reviewed: false

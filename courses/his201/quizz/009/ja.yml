@@ -1,0 +1,9 @@
+question: Liberty Reserveシステムは、米国当局によってどの年に閉鎖されましたか？
+answer: 2013
+wrong_answers:
+  - 2007
+  - 2009
+  - 2011
+explanation: |
+  2013年5月24日、創設者のArthur Budovskyとその主要な関係者が起訴され、逮捕され、主要なサイトは米国司法省によって押収されました。
+reviewed: false

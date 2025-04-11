@@ -1,0 +1,9 @@
+question: Mục tiêu ban đầu của thuật toán chứng minh công việc Hashcash do Adam Back thiết kế là gì?
+answer: Để chống lại thư rác
+wrong_answers:
+  - Để đảm bảo giá trị của một đơn vị tài khoản
+  - Để đạt được sự đồng thuận trên mạng ngang hàng
+  - Để làm sôi các đại dương
+explanation: |
+  Hashcash yêu cầu một bằng chứng công việc cho mỗi email nhận được, điều này được cho là sẽ hạn chế thư rác.
+reviewed: false

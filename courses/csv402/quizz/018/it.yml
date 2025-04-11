@@ -1,0 +1,9 @@
+question: Quali operazioni definiscono l'evoluzione di uno smart contract in RGB?
+answer: Transizione di Stato, Genesi ed Estensione di Stato
+wrong_answers:
+  - Creazione del sigillo, rispetto del contratto e convalida finale
+  - Trasferimento UTXO, generazione della prova e impegno dell'hash
+  - Fasci di transizione, sigilli monouso e creazione di valenze
+explanation: |
+  Queste operazioni creano o modificano lo stato del contratto, garantendone la validità tramite gli ancoraggi Bitcoin.
+reviewed: false

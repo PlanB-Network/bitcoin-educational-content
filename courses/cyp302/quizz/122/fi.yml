@@ -1,0 +1,9 @@
+question: Mikä on avainten jakelun ongelma?
+answer: Haaste avainten turvallisessa siirtämisessä ilman fyysistä vaihtoa
+wrong_answers:
+  - Necessity to generate multiple key pairs per client
+  - Vaikeus avainten fyysisen säilytyksen turvaamisessa
+  - Velvollisuus vaihtaa avaimia jokaisen viestinnän yhteydessä
+explanation: |
+  Avainten jakelun ongelma liittyy haasteeseen siirtää avaimia turvallisella tavalla, tarpeeseen, joka on muodostunut kriittiseksi digitaalisessa viestinnässä, jossa fyysinen vaihto on epäkäytännöllistä.
+reviewed: false

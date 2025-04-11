@@ -1,0 +1,9 @@
+question: Mis oli Satoshi Nakamoto peamine inspiratsioon Bitcoin'i algse disaini loomisel?
+answer: eCash (David Chaum)
+wrong_answers:
+  - b-money (Wei Dai)
+  - bit gold (Nick Szabo)
+  - RPOW (Hal Finney)
+explanation: |
+  Hoolimata nende suurtest sarnasustest, ei olnud b-money, bit gold ja RPOW Satoshi peamiseks inspiratsiooniks, kuna ta lihtsalt ei olnud neist teadlik enne augustit 2008.
+reviewed: false

@@ -1,0 +1,9 @@
+question: What is the importance of using a random nonce in CBC and OFB methods?
+answer: It ensures that each encryption session is unique, even for identical data.
+wrong_answers:
+  - It reduces the key length throughout the encryption process.
+  - It makes the encryption faster.
+  - It makes the algorithm's code more beautiful for humans.
+explanation: |
+  By using a random nonce for each session, the CBC and OFB methods ensure that each encryption is unique, which prevents attacks that exploit identical data.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Miks on oluline jälgida fiatväärtust iga Bitcoini tehingu hetkel?
+answer: Tagada täpne raamatupidamine ja maksukohustuse täitmine
+wrong_answers:
+  - Rahakoti saldo automaatseks suurendamiseks
+  - Võimaldamaks reaalajas kauplemist turul otse rahakotist
+  - Vähendada võrgu poolt kehtestatud tehingutasusid
+explanation: |
+  Fiatväärtuse jälgimine aitab ettevõtetel hallata raamatupidamist Bitcoini hinna kõikumisega.
+reviewed: false

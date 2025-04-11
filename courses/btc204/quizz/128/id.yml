@@ -1,0 +1,13 @@
+question: Apa kegunaan kontrak pintar dalam pertukaran properti rahasia?
+
+answer: Untuk mengungkapkan informasi secara bersamaan dan sistematis yang memungkinkan kedua belah pihak mengambil dana pihak lain.
+
+wrong_answers:
+  - Menjamin kerahasiaan dengan mengenkripsi informasi properti sehingga hanya penerima yang sah yang dapat mendekripsinya.
+  - Mengotomatisasi proses transfer untuk meminimalkan interaksi manusia dan mengurangi kesalahan.
+  - Memfasilitasi penyelesaian sengketa dengan menahan bitcoin kedua belah pihak dalam kasus percobaan kecurangan.
+
+explanation: |
+  Untuk memungkinkan pertukaran antar pihak yang tidak saling percaya, sistem kontrak pintar digunakan. Kontrak pintar adalah program yang secara otomatis dieksekusi ketika kondisi yang telah ditentukan terpenuhi, yang, dalam kasus kita, memastikan bahwa pertukaran properti dilakukan secara otomatis tanpa memerlukan kepercayaan timbal balik. Kontrak pintar memungkinkan pengungkapan dua potongan informasi sensitif secara bersamaan antara para peserta. Entah itu dieksekusi secara normal, dan setiap pihak mengambil dana pihak lain, atau itu gagal, dan semua orang menyimpan dana asli mereka.
+
+reviewed: false

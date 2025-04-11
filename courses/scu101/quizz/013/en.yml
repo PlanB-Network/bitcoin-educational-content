@@ -1,11 +1,13 @@
 question: Why is it safer to use European Wi-Fi access point providers, such as SNCF?
-answer: They do not resell user connection data due to GDPR regulations.
+answer: They are not supposed to resell user connection data, due to GDPR regulations.
 wrong_answers:
-  - They provide faster internet speeds.
-  - They allow users to bypass geographical restrictions.
-  - They block online advertisements.
+  - They provide faster internet speeds compared to American providers.
+  - They often allow users to bypass geographical restrictions.
+  - They block online advertisements if you have been identified as an European citizen.
 explanation: |
-  In the European Union, data protection is regulated by the General Data
-  Protection Regulation (GDPR). Therefore, European Wi-Fi access point providers,
-  such as SNCF, do not resell user connection data, making them safer to use.
-reviewed: false
+  In the European Union, data protection is regulated by the
+  General Data Protection Regulation (GDPR). Therefore,
+  European Wi-Fi access point providers, such as SNCF, do not
+  resell user connection data, making them safer to use from
+  a personal privacy perspective.
+reviewed: true

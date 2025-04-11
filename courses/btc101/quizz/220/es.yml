@@ -1,9 +1,11 @@
-question: ¿Qué sugiere el texto sobre el ritmo de aprendizaje sobre Bitcoin?
+question: ¿Qué sugiere este curso sobre el ritmo de aprendizaje acerca de Bitcoin?
 answer: Es complicado asimilar todo de una vez, así que tómate tu tiempo.
 wrong_answers:
   - Es fácil aprender todo de una vez.
   - Es imposible aprender todo sobre Bitcoin.
   - No es necesario aprender todo sobre Bitcoin.
 explanation: |
-  El texto sugiere que hay tanto por explorar con Bitcoin que es complicado asimilar todo de una vez, por lo que se debe tomar su tiempo.
-reviewed: false
+  El curso sugiere que hay tanto que explorar con
+  Bitcoin que es complicado asimilar todo de
+  una vez, por lo que uno debería tomarse su tiempo.
+reviewed: true

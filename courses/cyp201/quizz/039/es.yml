@@ -1,9 +1,9 @@
-question: ¿En qué se basa la seguridad de las claves públicas y privadas?
-answer: El problema del logaritmo discreto
+question: ¿Cuál es la función principal de un monedero de Bitcoin?
+answer: Gestionar y asegurar las claves privadas
 wrong_answers:
-  - El problema de la factorización de números primos
-  - El problema de la mochila
-  - El problema del viajante
+  - Almacenar los bitcoins del usuario
+  - Garantizar automáticamente la confidencialidad de las transacciones
+  - Generar bitcoins para cada usuario
 explanation: |
-  La seguridad de las claves públicas y privadas se basa en el problema del logaritmo discreto, una cuestión matemática compleja.
+  Un monedero de Bitcoin no almacena directamente los bitcoins, sino que gestiona las claves privadas necesarias para desbloquear los UTXOs que representan los bitcoins.
 reviewed: false

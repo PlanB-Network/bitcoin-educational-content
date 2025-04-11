@@ -1,0 +1,12 @@
+question: Bagaimana stablecoin, seperti USDt, mencapai stabilitas nilai yang relatif?
+answer: Mereka diikat ke aset atau mata uang yang stabil.
+wrong_answers:
+  - Mereka didukung oleh otoritas pusat atau pemerintah.
+  - Mereka mengandalkan teknologi blockchain untuk transaksi yang aman.
+  - Mereka terpengaruh oleh fluktuasi serupa dengan cryptocurrency lainnya.
+explanation: |
+  Stablecoin mempertahankan stabilitas nilai yang relatif dengan diikat
+  ke aset atau mata uang yang lebih stabil, seperti dolar AS atau emas.
+  Pengikatan ini membantu mengurangi volatilitas yang sering dikaitkan dengan
+  aset digital lain seperti Bitcoin.
+reviewed: true

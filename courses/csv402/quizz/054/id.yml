@@ -1,0 +1,9 @@
+question: Apa itu RGBlib dalam ekosistem RGB?
+answer: Perpustakaan untuk membuat aplikasi yang mengelola aset RGB
+wrong_answers:
+  - Dompet Android yang didedikasikan untuk manajemen aset RGB
+  - Klien alternatif untuk protokol RGB
+  - Situs web untuk menampilkan NFT RGB
+explanation: |
+  RGBlib menawarkan antarmuka yang disederhanakan untuk para pengembang, memungkinkan mereka untuk mengelola emisi, transfer, dan validasi aset RGB tanpa harus menguasai semua detail teknis.
+reviewed: false

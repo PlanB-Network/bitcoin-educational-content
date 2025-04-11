@@ -5,7 +5,6 @@ wrong_answers:
   - Sää
   - Uutiset
 explanation: |
-  Luvussa mainitaan, että kyberturvallisuuden uhkien jatkuva kehittyminen
-
-
-  vaatii säännöllistä seurantaa.
+  Luvussa mainitaan, että uhkien jatkuva kehittyminen
+  kyberturvallisuudessa vaatii säännöllistä seurantaa.
+reviewed: true

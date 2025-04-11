@@ -1,0 +1,9 @@
+question: Hva er den viktigste forskjellen mellom en tilfeldig streng og en pseudotilfeldig streng?
+answer: En tilfeldig streng kommer fra en ren tilfeldig prosess, mens en pseudotilfeldig streng genereres av en algoritme fra et frø.
+wrong_answers:
+  - En pseudotilfeldig streng bruker kun 1-biter.
+  - En tilfeldig streng er alltid lengre enn en pseudotilfeldig streng fordi det er en naturlig handling på den.
+  - En pseudotilfeldig streng er definert av en strengt binær modell, mens en tilfeldig streng er definert av en strengt heksadesimal modell.
+explanation: |
+  En tilfeldig streng kommer fra en direkte tilfeldig prosess, mens en pseudotilfeldig streng produseres ved hjelp av en ekspansjonsalgoritme og et initialt frø.
+reviewed: false

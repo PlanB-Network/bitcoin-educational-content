@@ -1,0 +1,13 @@
+question: Blant disse alternativene, hvilket er ikke en metode for automatisk valg av deler?
+
+answer: Silent Payments
+
+wrong_answers:
+  - Branch-and-Bound
+  - FIFO
+  - Knapsack Solver
+
+explanation: |
+  I motsetning til de andre tre alternativene, er ikke Silent Payments en metode for å velge deler, men et protokoll for bruk av statiske adresser.
+
+reviewed: false

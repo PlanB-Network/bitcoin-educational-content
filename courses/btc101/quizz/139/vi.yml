@@ -1,9 +1,9 @@
 question: Số lượng nút được phân bố trên toàn cầu vào tháng 9 năm 2023 là bao nhiêu?
-answer: 45,000 nút
+answer: 45,000 nút.
 wrong_answers:
-  - 10,000 nút
-  - 100,000 nút
-  - 500,000 nút
+  - 10,000 nút.
+  - 100,000 nút.
+  - 500,000 nút.
 explanation: >-
   Tính đến tháng 9 năm 2023, có khoảng 45,000 nút được phân bố trên toàn cầu.
-reviewed: false
+reviewed: true

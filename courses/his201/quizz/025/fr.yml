@@ -1,9 +1,9 @@
 question: Quand a été effectué le lancement effectif du réseau prototype de Bitcoin en 2009 ?
-answer: Le 9 janvier 2009 à 02:54:25 UTC
+answer: Le 9 janvier 2009 à 02; 54; 25 UTC
 wrong_answers:
-  - Le 3 janvier 2009 à 18:15:05 UTC
-  - Le 8 janvier 2009 à 19:27:40 UTC
-  - Le 12 janvier ‎2009 à 03:30:25 UTC
+  - Le 3 janvier 2009 à 18: 15; 05 UTC
+  - Le 8 janvier 2009 à 19: 27; 40 UTC
+  - Le 12 janvier ‎2009 à 03: 30; 25 UTC
 explanation: |
   Il s'agit de l'horodatage du bloc 1 de la chaîne de blocs, miné par Satoshi Nakamoto après avoir publié le code du logiciel sur la liste quelques heures plus tôt. Le bloc de genèse (0) a été créé entre le 3 janvier et le 8, mais il n'y avait pas de réseau à proprement parler.
 reviewed: false

@@ -1,0 +1,11 @@
+question: Mis on majandustegevuse lõplik eesmärk Carl Mengeri järgi?
+answer: Majandustegevuse lõplik eesmärk on tarbimine.
+wrong_answers:
+  - Majandustegevuse lõplik eesmärk on tootmine.
+  - Majandustegevuse lõplik eesmärk on säästmine.
+  - Majandustegevuse lõplik eesmärk on investeerimine.
+explanation: |
+  Carl Mengeri järgi peetakse kaupu majanduskaupadeks (väärtustatuks)
+  ainult seetõttu, et need toimivad vahenditena eesmärkide saavutamiseks, mida üksikisikud on valinud ja väärtustanud. Seega,
+  Mengeri jaoks on majandusanalüüsi lähtepunktiks tarbekaupad ehk lõppkaubad, kuna need esindavad majandustegevuse lõplikku eesmärki.
+reviewed: false

@@ -1,16 +1,17 @@
-# PlanB Content Repo Documentation
+# Bitcoin Educational Content Repo Documentation
 
-This documentation aims to facilitate efficient and effective participation in the PlanB Content Repository, ensuring the availability of high-quality, accessible educational resources on Bitcoin.
+This documentation aims to facilitate efficient and effective participation in the Bitcoin Educational Content Repository, ensuring the availability of high-quality, accessible educational resources on Bitcoin.
 It covers the following aspects:
 
 - [Purpose](#purpose)
-- [Repository Hierarchy](#repository-hierarchy)
+- [Supported Languages](#supported-languages)
+- [Repository Structure](#repository-structure)
 - [Expected Format for Different Types of Content](#expected-format-for-different-types-of-content)
 - [How to Contribute](#how-to-contribute)
 
 ## Purpose
 
-The PlanB Content Repo is designed to serve as a centralized hub for high-quality educational resources related to Bitcoin. Its key objectives include:
+The Bitcoin Educational Content Repo is designed to serve as a centralised hub for high-quality educational resources related to Bitcoin. Its key objectives include:
 
 - Facilitating understanding and adoption of Bitcoin technology.
 - Providing access to a wide range of educational materials, software, and hardware recommendations.
@@ -19,99 +20,83 @@ The PlanB Content Repo is designed to serve as a centralized hub for high-qualit
 
 ## Supported Languages
 
-The PlanB content is available in the following languages:
+Thanks to our contributors, the Plan ₿ Network content is available in many languages and we are able to keep adding new languages.
 
-- Arabic: [Review Dashboard](https://github.com/orgs/DecouvreBitcoin/projects/16)
-- Danish: [Review Dashboard](https://github.com/orgs/DecouvreBitcoin/projects/24)
-- English: [Website](https://planb.network/en), [Review Dashboard](https://github.com/orgs/DecouvreBitcoin/projects/21)
-- Finnish: [Review Dashboard](https://github.com/orgs/DecouvreBitcoin/projects/32)
-- French: [Website](https://planb.network/fr), [Review Dashboard](https://github.com/orgs/DecouvreBitcoin/projects/13)
-- German: [Website](https://planb.network/de), [Review Dashboard](https://github.com/orgs/DecouvreBitcoin/projects/17)
-- Italian: [Website](https://planb.network/it), [Review Dashboard](https://github.com/orgs/DecouvreBitcoin/projects/19)
-- Japanese: [Review Dashboard](https://github.com/orgs/DecouvreBitcoin/projects/15)
-- Polish: [Review Dashboard](https://github.com/orgs/DecouvreBitcoin/projects/34)
-- Portuguese: [Website](https://planb.network/pt), [Review Dashboard](https://github.com/orgs/DecouvreBitcoin/projects/20)
-- Spanish: [Website](https://planb.network/es), [Review Dashboard](https://github.com/orgs/DecouvreBitcoin/projects/18)
-- Thaï: [Review Dashboard](https://github.com/orgs/DecouvreBitcoin/projects/30)
+To see which languages are already available, just browse our [website](https://planb.network) and switch to your preferred language.
 
-**If your language is not listed here, please suggest it by opening an [issue](https://github.com/DecouvreBitcoin/sovereign-university-data/issues/new).**
-As we believe in the [value-4-value model](./value-4-value-model.md), we are always looking for contributors that are willing to review content in exchange of some sats (and knowledge). 
+If you want to contribute to any existing content by proofreading it to improve translation quality or you want to add a missing language, please read our [Readme file](https://github.com/PlanB-Network/bitcoin-educational-content?tab=readme-ov-file#how-can-you-contribute) dedicated section, have a look to our [Content Translation & Proofreading Dashboard](https://github.com/orgs/PlanB-Network/projects/3) and engage with us in the [Telegram Content Builder Group](https://t.me/PlanBNetwork_ContentBuilder)
 
-## Repository Hierarchy
+## Repository Structure
 
-The repository is organized according to the following hierarchy:
+The repository is organised according to the following hierarchy:
 
-- [Courses](./course_documentation.md): Course content are stored here and must respect some format specification 
-- [Tutorials](./tutorial_documentation.md): Tutorials are stored in categories and must respect some format specification
-- [Resources](./resource_documentation.md): Four type of resources (book, builder, conference, and podcast) are stored here and each of them has their own set of format specification 
-- [Exam](./exam_documentation.md): Exams and quizzes are stored here, and each of them has their own set of format specification
-- [Standards](./standard_documentation.md): standards are stored here and must respect some format specification
-
-For general aspect and specification that are used throughout the entire repo, please refere to the guidelines provided [here](./format_guidelines.md)
+- **[Courses](./course_documentation.md)**: Course content are stored here and must respect some format specification 
+- **Professors**: Each professor has a profile with relevant data. You can find complete specifications about professors in the [PBN Template Repo](/PBN-template-repo/professors/) folder with examples and comments. Professors are identifiead through content by using the associated [Plan₿-UID](./planb-uid.md).
+- **Resources**: Five type of resources (book, builder,conference, glossary and podcast) are stored here. You can find complete specifications about each of them in the corresponding subfolder in [Template Repo](/PBN-template-repo/professors/) folder with examples and comments.
+- **Scripts**: Scripts are used to perform specific action or to automate some tasks. Usually PBN staff will use them or ask contributors to use them only if needed.
+- **Tutorials**: Tutorials are stored in categories and must respect some format specification
 
 
-Here's a visual representation of it:
+Here's a quick visual representation of repository structure:
 
 ```
-sovereign-university-data/
+bitcoin-educational-content/
 │
 ├── courses/
 │   ├── course101/
 │   └── ...
-│
-├── tutorials/
-│   ├── exchange/
-│   │   ├── tutorial101/
-│   │   └── ...
-│   ├── merchant/
-│   ├── node/
-│   ├── wallet/
-│   └── other/
+|
+├── professors/
+│   ├── professor/-eg
+│   └── ...
 │
 ├── resources/
+│   ├── bet/
 │   ├── books/
 │   │   ├── book-eg/
 │   │   └── ...
 │   ├── builders/
 │   │   ├── builder-eg/
 │   │   └── ...
-│   ├── conferences/
+│   ├── conference/
 │   │   ├── conference-eg/
+│   │   └── ...
+│   └── glossary/
+│   │   ├── word-eg/
 │   │   └── ...
 │   └── podcasts/
 │       ├── podcast-eg/
 │       └── ...
 │
-├── exams/
-│   └── ...
-│
-└── standards/
-    └── ..
+├── scripts/
+│       └── ...
+|
+├── tutorials/
+│   ├── exchange/
+│   │   ├── tutorial101/
+│   │   └── ...
+│   ├── merchant/
+│   ├── mining/
+│   ├── node/
+│   ├── other/
+│   └── privacy/
+│   └── wallet/
 
 ```
 
 ## Expected Format for Different Types of Content
 
-Detailed specifications for the format of each content type are provided in separate documents:
+As mentioned in Repository Structure paragraph, each type of content has its own format specifications.
+Detailed templates for each type are provided in the folder [template Repo](/PBN-template-repo/) where you can find full examples of folder and files structure and extensive comments inside all files to understand how to properly format your content.
 
-- For courses, refer to the [Course Documentation](./course_documentation.md).
-- For tutorials, refer to the [Tutorial Documentation](./tutorial_documentation.md).
-- For books, refer to the [Book Documentation](./book_documentation.md).
-- For builders, refer to the [Builder Documentation](./builder_documentation.md).
-- For conferences, refer to the [Conference Documentation](./conference_documentation.md).
-- For podcasts, refer to the [Podcast Documentation](./podcast_documentation.md).
-- For exams, refer to the [Exam Documentation](./exam_documentation.md).
-- For standards, refer to the [Standards Documentation](./standards_documentation.md).
 
 ## How to Contribute
 
-Contributions to the PlanB Content Repo are encouraged and welcomed. Here's how you can contribute effectively:
+Contributions to the Bitcoin Educational Content Repo are encouraged and welcome.
 
-- **Reviewing Content**: Directly review content within the GitHub repository. This can involve tasks such as correcting typos, clarifying content, or reviewing automated translations. Refer to [this tutorial](./review_tutorial.md) for detailed instructions on the reviewing process.
-- **Adding New Content**: If you wish to add new content to the repository, refer to our [tutorial](https://planb.network/en/tutorials/others/planb-content-production) for step-by-step guidance. Alternatively, you can find instructions on our website or within the GitHub repository.
-- **Contributing to the PlanB Website**: For contributions specifically related to the PlanB website, please refer to the [corresponding repo](https://github.com/DecouvreBitcoin/sovereign-university)
+As we believe in the [value-4-value model](./value-4-value-model.md), we are always looking for contributors that are willing to review content in exchange of some sats (and knowledge). 
 
-If you have any questions or remarks, feel free to join our [Telegram group](https://t.me/PlanBNetwork_ContentBuilder) and be part of the PlanB Content Builders 🤙 
+If you want to contribute please read our [Readme file](https://github.com/PlanB-Network/bitcoin-educational-content?tab=readme-ov-file#how-can-you-contribute) dedicated section, have a look to our [Content Translation & Proofreading Dashboard](https://github.com/orgs/PlanB-Network/projects/3) and engage with us in the [Telegram Content Builder Group](https://t.me/PlanBNetwork_ContentBuilder) and be part of the Plan ₿ Network Content Builders 🤙 
 
 ---
 

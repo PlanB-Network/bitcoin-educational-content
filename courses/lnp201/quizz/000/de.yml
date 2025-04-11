@@ -1,11 +1,9 @@
-question: Wie viel Bitcoin kann maximal zu einem bestimmten Zeitpunkt in einem Lightning-Zahlungskanal übertragen werden?
-answer: Die vorab von den Benutzern festgelegte feste Kapazität
+question: Was ist das Hauptziel des Lightning-Netzwerks?
+answer: Die Skalierbarkeit von Bitcoin zu verbessern, um schnelle und kostengünstige Zahlungen zu ermöglichen
 wrong_answers:
-  - Die Gesamtmenge an Bitcoin, die den beiden Benutzern gehört
-  - Die Gesamtmenge an Bitcoin im gesamten Lightning-Netzwerk
-  - Die Gesamtmenge an Bitcoin, die bisher im Kanal gehandelt wurde
+  - Transaktionsgebühren auf der Bitcoin-Blockchain eliminieren
+  - Eine Alternative zu Bitcoin für hochwertige Zahlungen schaffen
+  - Austausche zwischen verschiedenen Kryptowährungen vereinfachen
 explanation: |
-  Wenn ein Lightning-Zahlungskanal geöffnet wird, erhält er eine feste Kapazität,
-  die vorab von den Benutzern festgelegt wird. Diese Kapazität stellt die maximale Menge an Bitcoin dar,
-  die zu einem bestimmten Zeitpunkt in dem Kanal übertragen werden kann.
+  Das Lightning-Netzwerk zielt darauf ab, die Skalierbarkeit von Bitcoin zu erhöhen, indem es schnelle und preiswerte Transaktionen durch Off-Chain-Zahlungskanäle ermöglicht.
 reviewed: false

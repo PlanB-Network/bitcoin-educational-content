@@ -1,0 +1,9 @@
+question: Jaký je význam cyklických skupin v kryptografii?
+answer: Umožňují vytváření kryptografických systémů založených na generátorech
+wrong_answers:
+  - Zjednodušují násobení šifrovacích klíčů
+  - Zvyšují bezpečnost veřejných komunikačních kanálů
+  - Používají se k přímému hašování zpráv za účelem zachování jejich integrity
+explanation: |
+  V kryptografii jsou cyklické skupiny, mající generátory, zásadní pro stanovení základů pro šifrovací klíče, zejména v systémech s veřejným klíčem.
+reviewed: false

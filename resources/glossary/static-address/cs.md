@@ -1,0 +1,7 @@
+---
+term: STATICKÁ ADRESA
+
+---
+V kontextu tichých plateb se jedná o jedinečný identifikátor, který umožňuje přijímat platby bez opakovaného použití adresy, bez interakce a bez viditelného spojení v řetězci mezi různými platbami a statickou adresou. Tato technika eliminuje potřebu generovat nové, nepoužívané adresy pro příjem pro každou transakci, čímž se vyhýbá obvyklým interakcím v Bitcoinu, kdy příjemce musí plátci poskytnout novou adresu. Je to do jisté míry ekvivalent opakovaně použitelného platebního kódu v kontextu BIP47.
+
+Tato adresa se skládá ze dvou veřejných klíčů: $B_{\text{scan}}$ pro skenování a $B_{\text{spend}}$ pro utrácení, které se spojí do statické adresy $B = B_{\text{scan}} \text{ ‖ } B_{\text{výdaje}}$. Příjemce tuto adresu zveřejňuje, což odesílatelům umožňuje získat jedinečné adresy plateb bez další interakce s příjemcem. Pro správu více různých zdrojů plateb lze k $B_{\text{spend}}$ přidat štítek, a vytvořit tak několik označených statických adres z $B_1$, $B_2$ atd. To umožňuje segregaci plateb při použití jediné základní adresy, čímž se sníží zátěž pro skenování blockchainu. Všechny statické adresy entity však lze snadno přiřadit díky společnému použití $B_{\text{scan}}$.

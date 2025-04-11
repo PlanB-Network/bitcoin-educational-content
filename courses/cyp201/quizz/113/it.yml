@@ -1,9 +1,0 @@
-question: A cosa corrisponde la Profondità 0 nella struttura dell'HD Wallet?
-answer: La chiave principale e il codice di catena principale
-wrong_answers:
-  - Le chiavi figlie e il codice di catena figlio
-  - Le catene esterne e interne
-  - Gli indirizzi di ricezione in un portafoglio standard
-explanation: |
-  Nella struttura dell'HD Wallet, la Profondità 0 corrisponde alla chiave principale e al codice di catena principale.
-reviewed: false

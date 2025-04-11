@@ -1,9 +1,9 @@
-question: Una passphrase è più sicura di una semplice password.
-answer: Sì
+question: Qual è la principale differenza tra P2PK e P2PKH?
+answer: P2PK utilizza direttamente la chiave pubblica grezza, mentre P2PKH usa l'hash della chiave pubblica.
 wrong_answers:
-  - "No"
-  - Dipende dalla lunghezza della password
-  - Dipende dalla complessità della password
+  - P2PK è compatibile con SegWit, mentre P2PKH non lo è.
+  - P2PK utilizza una firma Schnorr, mentre P2PKH utilizza una firma ECDSA.
+  - P2PK è destinato ai multisig, mentre P2PKH è per script semplici.
 explanation: |
-  Una passphrase è più sicura di una semplice password. La passphrase ideale è lunga, varia e casuale. Può migliorare la sicurezza di un portafoglio o di un software crittografico.
-reviewed: false
+  P2PK blocca i fondi con una chiave pubblica grezza, mentre P2PKH utilizza un hash della chiave pubblica.
+recensito: false

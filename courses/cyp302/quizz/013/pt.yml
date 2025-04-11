@@ -1,0 +1,9 @@
+question: Qual constitui a base física da maioria das comunicações no mundo desenvolvido?
+answer: Redes de cabos de fibra óptica
+wrong_answers:
+  - Satélites para toda conexão
+  - Apenas cabos coaxiais
+  - Apenas fios de cobre
+explanation: |
+  A maioria das comunicações modernas depende de redes de cabos de fibra óptica, que garantem trocas de dados de alta velocidade, embora alguns usos de satélites e cabos coaxiais permaneçam.
+reviewed: false

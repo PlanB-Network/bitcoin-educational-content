@@ -1,0 +1,8 @@
+question: 在网络安全中使用的一些编程语言有哪些？
+answer: Python, C, Java
+wrong_answers:
+  - HTML, CSS, JavaScript
+  - Swift, Kotlin, Ruby
+  - PHP, Perl, Lua
+explanation:
+  本章列出了Python, C, 和 Java作为网络安全中使用的一些编程语言。

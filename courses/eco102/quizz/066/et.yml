@@ -1,0 +1,9 @@
+question: Millised on kaks viisi kodanike otsustusvõime valgustamiseks Bastiati järgi?
+answer: Filosoofiline moraal ja majanduslik moraal
+wrong_answers:
+  - Seadus ja haridus
+  - Religioon ja teadus
+  - Isiklik kogemus ja raamatud
+explanation: |
+  Bastiat teeb vahet filosoofilisel moraalil, mis puudutab südant, ja majanduslikul moraalil, mis valgustab intellekti, näidates tegevuste tagajärgi.
+reviewed: false

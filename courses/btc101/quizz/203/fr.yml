@@ -1,9 +1,11 @@
-question: Que devez-vous faire après avoir acheté du Bitcoin sur une plateforme d'échange ?
-answer: Retirez le Bitcoin vers votre portefeuille.
+question: Que devez-vous faire après avoir acheté des Bitcoin sur une plateforme d'échange ?
+answer: Retirer les bitcoins et les envoyer à votre portefeuille.
 wrong_answers:
-  - Laissez-le sur la plateforme.
-  - Vendez-le immédiatement.
-  - Transférez-le vers une autre plateforme.
+  - Laisser les bitcoins sur la plateforme.
+  - Vendre immédiatement les bitcoins.
+  - Transférer les bitcoins vers une autre plateforme d'échange.
 explanation: |
-  Le texte conseille qu'après avoir acheté du Bitcoin, il est conseillé de retirer immédiatement les Bitcoins des plateformes d'échange afin de minimiser les risques de piratage et de blocage des fonds.
-reviewed: false
+  Le texte du cours conseille qu'après avoir acheté des Bitcoin, on
+  doit immédiatement retirer les UTXOs des plateformes d'échange
+  pour minimiser les risques de piratage et de blocage des fonds.
+reviewed: true

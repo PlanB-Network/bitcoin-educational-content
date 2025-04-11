@@ -1,11 +1,8 @@
-question: Mục đích của các bit đệm trong giai đoạn tiền xử lý của SHA256 là gì?
-answer: Để kích thước của đầu vào đạt được một bội số hoàn hảo của 512 bit
+question: Cấu trúc nào được SHA256 sử dụng để xử lý các thông điệp có độ dài tùy ý?
+answer: Cấu trúc Merkle-Damgård
 wrong_answers:
-  - Để tăng kích thước của đầu vào lên 256 bit
-  - Để thêm độ phức tạp cho đầu vào
-  - Để giảm kích thước của đầu vào xuống còn 512 bit
+  - Cấu trúc Euclidean
+  - Cấu trúc Rivest-Shamir-Adleman
+  - Cấu trúc Knuth-Morris-Pratt
 explanation: |
-  Trong giai đoạn tiền xử lý của SHA256, các bit đệm được thêm vào đầu vào
-  để kích thước của nó đạt được một bội số hoàn hảo của 512 bit. Điều này được thực hiện để đảm bảo rằng
-  tất cả các thành phần hòa quyện hoàn hảo trong công thức mã hóa.
-reviewed: false
+  Cấu trúc Merkle-Damgård cho phép biến đổi một hàm nén thành một hàm băm cho các thông điệp có độ dài biến đổi.

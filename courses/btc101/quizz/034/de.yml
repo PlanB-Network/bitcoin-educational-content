@@ -1,9 +1,9 @@
 question: Was ist der Hauptvorteil von Gold als Währung?
 answer: Es ist unglaublich langlebig.
 wrong_answers:
-  - Es ist leicht teilbar oder über weite Entfernungen transportierbar.
-  - Es ist leicht überprüfbar.
+  - Es ist leicht teilbar oder über weite Strecken transportierbar.
+  - Es ist leicht verifizierbar.
   - Es wird nicht von der Regierung reguliert.
 explanation: |
-  Obwohl es nicht leicht teilbar oder über weite Entfernungen transportierbar ist, was es zu einem guten Wertspeicher macht, ist es heutzutage keine gängige Währung mehr.
-reviewed: false
+  Obwohl es nicht leicht teilbar oder über weite Strecken transportierbar ist, ist Gold ein sehr langlebiges Material, was es zu einem guten Wertaufbewahrungsmittel macht. Goldmünzen wurden in der Vergangenheit als Währung verwendet, würden aber im heutigen digitalen Zeitalter nicht denselben Zweck erfüllen.
+reviewed: true

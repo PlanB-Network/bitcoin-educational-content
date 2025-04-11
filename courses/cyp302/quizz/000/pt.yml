@@ -1,0 +1,9 @@
+question: Quem confiou uma caixa de ferro ao estalajadeiro Robert Morriss para guarda?
+answer: Thomas J. Beale
+wrong_answers:
+  - J.B. Ward
+  - Simon Singh
+  - Andrew Allen
+explanation: |
+  Foi Thomas J. Beale quem entregou uma caixa de ferro contendo documentos criptografados e uma nota a Robert Morriss, dando-lhe instruções em caso de seu não retorno.
+reviewed: false

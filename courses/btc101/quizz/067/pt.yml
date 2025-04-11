@@ -1,9 +1,12 @@
 question: Qual é a frequência do ajuste de dificuldade?
-answer: A cada 2016 blocos
+answer: A cada 2016 blocos.
 wrong_answers:
-  - A cada 1048 blocos
-  - A cada 512 blocos
-  - A cada 4032 blocos
+  - A cada 1048 blocos.
+  - A cada 512 blocos.
+  - A cada 4032 blocos.
 explanation: |
-  O ajuste de dificuldade é um mecanismo que ocorre a cada 2016 blocos, ou cerca de duas semanas, para garantir que, em média, um novo bloco seja adicionado à blockchain a cada dez minutos, independentemente da taxa global de hash.
-reviewed: false
+  O ajuste de dificuldade é um mecanismo que ocorre
+  a cada 2016 blocos, ou aproximadamente duas semanas, para garantir que um
+  novo bloco seja adicionado à blockchain a cada dez minutos, em média,
+  independentemente do hashrate global.
+reviewed: true

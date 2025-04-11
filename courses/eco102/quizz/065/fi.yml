@@ -1,0 +1,9 @@
+question: Mikä on yhteinen tekijä Tartuffen ja virheellisten talousideoiden välillä Bastiat'n mukaan?
+answer: Kaikki vastaukset ovat oikeita
+wrong_answers:
+  - Molemmat käyttävät tekopyhyyttä manipuloidakseen muita
+  - Ne väittävät toimivansa kaikkien hyväksi samalla kun tavoittelevat vain omaa etuaan
+  - Ne hyödyntävät ihmisen järjen heikkoutta
+explanation: |
+  Bastiat vetää rinnakkaisuuden Tartuffen ja virheellisten talousideoiden välille, korostaen, että ne manipuloivat tekopyhyydellä ja hyödyntävät ihmisen heikkouksia palvellakseen henkilökohtaisia etuja.
+reviewed: false

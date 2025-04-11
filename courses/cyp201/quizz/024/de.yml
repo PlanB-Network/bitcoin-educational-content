@@ -1,9 +1,9 @@
-question: Wie lautet die Gleichung der secp256k1-Kurve, die in Bitcoin verwendet wird?
-answer: "y\xB2 = x\xB3 + 7 modulo n"
+question: Wie groß ist ein roher privater Schlüssel, der bei Bitcoin verwendet wird?
+answer: 256 Bits
 wrong_answers:
-  - "y\xB2 = x\xB3 + ax + b"
-  - "y\xB2 = x\xB3 + 7 modulo p"
-  - "y\xB2 = x\xB3 + ax + b modulo n"
+  - 128 Bits
+  - 512 Bits
+  - 1024 Bits
 explanation: |
-  "Die in Bitcoin verwendete secp256k1-Kurve wird durch die Parameter a=0 und b=7 definiert und ihre Gleichung lautet y\xB2 = x\xB3 + 7 modulo n, wobei n die Primzahl ist, die die Ordnung der Kurve bestimmt."
+  Ein privater Schlüssel bei Bitcoin ist eine 256-Bit zufällige Ganzzahl, die einen Schlüsselraum groß genug gewährleistet, um Sicherheit zu garantieren.
 reviewed: false

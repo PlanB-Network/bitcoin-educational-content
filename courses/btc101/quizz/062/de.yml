@@ -1,9 +1,9 @@
-question: Wie wird sichergestellt, dass alle zehn Minuten ein neuer Block zur Blockchain hinzugefügt wird?
-answer: Schwierigkeitsanpassung
+question: Was ist der Mechanismus, der sicherstellt, dass alle zehn Minuten ein neuer Block zur Blockchain hinzugefügt wird?
+answer: Schwierigkeitsanpassung.
 wrong_answers:
-  - Geschwindigkeitsanpassung
-  - Zeitliche Anpassung
-  - Blockanpassung
+  - Geschwindigkeitsanpassung.
+  - Zeitanpassung.
+  - Blockanpassung.
 explanation: |
-  Die Mechanismus, der sicherstellt, dass alle zehn Minuten ein neuer Block zur Blockchain hinzugefügt wird, ist die Schwierigkeitsanpassung. Diese Anpassung erfolgt alle 2016 Blöcke, oder etwa alle zwei Wochen.
-reviewed: false
+  Der Mechanismus, der sicherstellt, dass alle zehn Minuten ein neuer Block zur Blockchain hinzugefügt wird, ist die Schwierigkeitsanpassung. Diese Anpassung findet alle 2016 Blöcke statt, was ungefähr zwei Wochen entspricht.
+reviewed: true

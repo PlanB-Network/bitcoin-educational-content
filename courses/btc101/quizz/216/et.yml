@@ -1,0 +1,10 @@
+question: Mis on Bitcoini staatus mõnedes riikides?
+answer: Keelatud ja kriminaliseeritud
+wrong_answers:
+  - Täielikult omaks võetud
+  - Osaliselt omaks võetud
+  - Reguleerimata
+explanation: >-
+  Tekstis mainitakse, et mõned riigid on Bitcoini kasutamise keelanud ja kriminaliseerinud,
+  lisades Bitcoini omaksvõtu keerukusele kultuuride, ajastute ja rahvuste lõikes.
+reviewed: false

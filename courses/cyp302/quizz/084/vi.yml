@@ -1,0 +1,8 @@
+question: Hạn chế thực tế chính của mã hóa một lần (one-time pad) là gì?
+answer: Khóa phải dài bằng thông điệp và không bao giờ được tái sử dụng
+wrong_answers:
+  - Khóa phải được thay đổi hàng ngày
+  - Khóa phải dài gấp ba lần thông điệp
+  - Khóa nhất thiết phải được lưu trữ trên một Minitel Pháp
+explanation: |
+  Khóa trong mã hóa một lần phải dài bằng thông điệp và không bao giờ được tái sử dụng, điều này làm tăng đáng kể sự phức tạp khi sử dụng trong các bối cảnh thực tế. Điều này là bởi vì nếu có thể truyền dữ liệu dài bằng thông điệp một cách an toàn, thì việc trực tiếp truyền thông điệp thay vì khóa sẽ có ý nghĩa hơn.

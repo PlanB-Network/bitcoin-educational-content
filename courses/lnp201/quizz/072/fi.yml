@@ -1,9 +1,0 @@
-question: Mikä on esikuvahashin rooli Lightning Networkin reititysprosessissa?
-answer: Sitä käytetään vastaanottajan toimesta lunastamaan HTLC:ssä lukittu transaktiosumma.
-wrong_answers:
-  - Sitä käytetään transaktiodatan salaamiseen.
-  - Sitä käytetään transaktiomaksujen laskemiseen.
-  - Sitä käytetään vastaanottajan osoitteen vahvistamiseen.
-explanation: |
-  Lightning Networkissa esikuvahashia käytetään vastaanottajan toimesta lunastamaan HTLC:ssä lukittu transaktiosumma. Lähettäjä toimittaa esikuvahashin vastaanottajalle, joka voi sen avulla avata varat.
-reviewed: false

@@ -1,10 +1,8 @@
-question: Welche Rolle spielt BIP39 im Bitcoin-Ökosystem?
-answer: Es führte die 24-Wort-Mnemonic-Phrase ein, um komplexe Zahlenfolgen in gewöhnliche Wörter umzuwandeln.
+question: Was ist eine gute Praxis, um eine Passphrase zu sichern?
+answer: Speichern Sie sie auf einem separaten physischen Medium als die mnemonische Phrase
 wrong_answers:
-  - Es führte das Konzept der deterministisch und hierarchisch abgeleiteten Schlüssel ein.
-  - Es schlug vor, eine zusätzliche Passphrase hinzuzufügen, um die Sicherheit einzelner Schlüssel zu verstärken.
-  - Es standardisierte die Struktur und Hierarchie von HD-Wallets.
+  - Merken Sie sie sich nur auswendig, ohne sie aufzuschreiben
+  - Speichern Sie sie auf demselben physischen Medium wie die mnemonische Phrase
+  - Speichern Sie sie auf einem digitalen Medium wie Google Drive
 explanation: |
-  BIP39 führte eine bahnbrechende Innovation ein: die 24-Wort-Mnemonic-Phrase.
-  Dieses System ermöglichte es, eine komplexe und schwer zu merkende Zahlenfolge in eine Reihe gewöhnlicher Wörter umzuwandeln, die viel einfacher zu merken und zu speichern sind.
-reviewed: false
+  Die Passphrase muss physisch und getrennt von der mnemonischen Phrase gespeichert werden, um den gleichzeitigen Diebstahl beider zu verhindern.

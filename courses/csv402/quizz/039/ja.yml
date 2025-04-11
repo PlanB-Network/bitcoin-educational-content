@@ -1,0 +1,9 @@
+question: 契約書を隠し場所から外部ファイルにエクスポートするコマンドはどれですか？
+answer: rgb export '<契約ID>' myContractPBN.rgb
+wrong_answers:
+  - rgbダウンロード '<契約ID>' myContractPBN.rgb
+  - rgb dump '<契約ID>' myContractPBN.rgb
+  - rgb issue '<契約ID>' myContractPBN.rgb
+explanation: |
+  rgb export "コマンドは、隠し場所から契約書を抽出し、共有しやすいようにファイルとして保存するために使用します。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Co tvoří kotvu v RGB?
+answer: ID transakce, MPC, DBC a Extra Transaction Proof
+wrong_answers:
+  - Geneze, definice pečetí a přechodový balíček
+  - Schéma smlouvy, obchodní logika a vlastní stav
+  - Podpis, transakční hash a Pedersenův závazek
+explanation: |
+  Kotva obsahuje údaje potřebné k prokázání zahrnutí jedinečného závazku do transakce bitcoinu.
+reviewed: false

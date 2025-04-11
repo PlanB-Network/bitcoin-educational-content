@@ -62,7 +62,7 @@ O Whirlpool foi projetado levando em conta dois requisitos importantes:
 Esses imperativos guiaram as escolhas dos desenvolvedores do Samourai Wallet no design do Whirlpool, levando-os a limitar o número de participantes por ciclo. Poucos participantes teriam comprometido a eficiência do coinjoin, reduzindo drasticamente os anonsets gerados a cada ciclo, enquanto muitos participantes teriam apresentado problemas de gestão em aplicativos móveis e teriam impedido o fluxo de ciclos.
 **Em última análise, não é necessário ter um grande número de participantes por coinjoin no Whirlpool, uma vez que os anonsets são alcançados através do acúmulo de vários ciclos de coinjoin.**
 
-[-> Saiba mais sobre os anonsets do Whirlpool.](https://planb.network/tutorials/privacy/wst-anonsets)
+[-> Saiba mais sobre os anonsets do Whirlpool.](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 ### As piscinas e taxas de coinjoin
 Para que esses múltiplos ciclos aumentem efetivamente os anonsets das moedas misturadas, um certo quadro deve ser estabelecido para restringir as quantidades de UTXO usadas. O Whirlpool define diferentes piscinas.
@@ -166,14 +166,14 @@ Existem muitas opções para usar o Whirlpool. A que quero introduzir aqui é a 
 Realizar coinjoins através da Samourai Wallet usando o seu próprio Dojo é, na minha opinião, a estratégia mais eficaz para realizar coinjoins no Bitcoin até o momento. Esta abordagem requer algum investimento inicial em termos de configuração, mas uma vez no lugar, oferece a possibilidade de misturar e remisturar seus bitcoins continuamente, 24 horas por dia, 7 dias por semana, sem a necessidade de manter sua aplicação Samourai ativa o tempo todo. De fato, graças ao Whirlpool CLI operando em um nó Bitcoin, você está sempre pronto para participar em coinjoins. A aplicação Samourai então lhe dá a oportunidade de gastar seus fundos misturados a qualquer momento, onde quer que esteja, diretamente do seu smartphone. Além disso, este método tem a vantagem de nunca conectá-lo a servidores gerenciados pelas equipes da Samourai, preservando assim o seu `xpub` de qualquer exposição externa.
 
 Esta técnica é, portanto, ideal para aqueles que buscam máxima privacidade e os ciclos de coinjoin de mais alta qualidade. No entanto, requer ter um nó Bitcoin à sua disposição e, como veremos mais tarde, requer alguma configuração. É, assim, mais adequado para usuários intermediários a avançados. Para iniciantes, recomendo se familiarizar com coinjoin através destes dois outros tutoriais, que mostram como fazê-lo a partir da Sparrow Wallet ou Samourai Wallet (sem Dojo):
-- **[Tutorial de coinjoin da Sparrow Wallet](https://planb.network/pt/tutorials/privacy/coinjoin-sparrow-wallet)**;
-- **[Tutorial de coinjoin da Samourai Wallet (sem Dojo)](https://planb.network/pt/tutorials/privacy/coinjoin-samourai-wallet)**.
+- **[Tutorial de coinjoin da Sparrow Wallet](https://planb.network/tutorials/privacy/on-chain/coinjoin-sparrow-wallet-84def86d-faf5-4589-807a-83be60720c8b)**;
+- **[Tutorial de coinjoin da Samourai Wallet (sem Dojo)](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef)**.
 
 ### Entendendo a Configuração
 Para começar, você vai precisar de um Dojo! Dojo é uma implementação de nó Bitcoin baseada no Bitcoin Core, desenvolvida pelas equipes da Samourai.
 
 Para rodar o seu próprio Dojo, você tem a opção de instalar um nó Dojo autonomamente, ou aproveitar o Dojo em cima de outra solução de nó Bitcoin "nó-em-caixa". Atualmente, as opções disponíveis são:
-- [RoninDojo](https://ronindojo.io/), que é um Dojo aprimorado com ferramentas adicionais, incluindo um assistente de instalação e um assistente de administração. Detalho o procedimento para configurar e usar o RoninDojo neste outro tutorial: [RONINDOJO V2](https://planb.network/pt/tutorials/node/ronin-dojo-v2);
+- [RoninDojo](https://ronindojo.io/), que é um Dojo aprimorado com ferramentas adicionais, incluindo um assistente de instalação e um assistente de administração. Detalho o procedimento para configurar e usar o RoninDojo neste outro tutorial: [RONINDOJO V2](https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8);
 - [Umbrel](https://umbrel.com/) com a aplicação "Samourai Server";
 - [MyNode](https://mynodebtc.com/) com a aplicação "Dojo";
 - [Nodl](https://www.nodl.eu/) com a aplicação "Dojo";
@@ -253,7 +253,7 @@ Na próxima etapa, você acessará a página dedicada à configuração do seu D
 
 ![coinjoin](assets/notext/24.webp)
 
-*Para novos usuários do Samourai, será então necessário criar uma carteira do zero. Se precisar de ajuda, você pode consultar as instruções para configurar uma nova carteira Samourai [neste tutorial, especificamente na seção "Criando uma carteira de software"](https://planb.network/tutorials/privacy/coinjoin-samourai-wallet)*
+*Para novos usuários do Samourai, será então necessário criar uma carteira do zero. Se precisar de ajuda, você pode consultar as instruções para configurar uma nova carteira Samourai [neste tutorial, especificamente na seção "Criando uma carteira de software"](https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef)*
 
 Se você está procedendo com a restauração de uma carteira Samourai já existente, selecione `Restaurar carteira existente`, depois escolha `Eu tenho um arquivo de backup do Samourai`.
 
@@ -360,4 +360,7 @@ As contas do Whirlpool são facilmente identificáveis no Samourai Wallet pela s
 
 ![coinjoin](assets/notext/53.webp)
 
-Para acompanhar seus coinjoins automáticos, também recomendo configurar uma carteira somente de visualização através do aplicativo Sentinel. Adicione o ZPUB da sua conta **Postmix** e monitore o progresso dos seus ciclos de coinjoin em tempo real. Se você quiser entender como usar o Sentinel, recomendo consultar este outro tutorial na PlanB Network: [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/sentinel)
+Para acompanhar seus coinjoins automáticos, também recomendo configurar uma carteira somente de visualização através do aplicativo Sentinel. Adicione o ZPUB da sua conta **Postmix** e monitore o progresso dos seus ciclos de coinjoin em tempo real. Se você quiser entender como usar o Sentinel, recomendo consultar este outro tutorial na PlanB Network: [**SENTINEL WATCH-ONLY**](https://planb.network/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9)
+
+
+

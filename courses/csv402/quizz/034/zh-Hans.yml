@@ -1,0 +1,9 @@
+question: 鲍勃（收货人）从爱丽丝（付款人）处收到终端托运货物后会采取什么行动？
+answer: 检查状态转换的有效性并签署
+wrong_answers:
+  - 修改合同模式并发送给 Alice
+  - 为新操作创建发票
+  - 签署爱丽丝的 PSBT 并在链上分发
+explanation: |
+  鲍勃检查托运货物，确保过渡符合规定，然后签字确认同意。
+reviewed: false

@@ -1,0 +1,13 @@
+question: Kulingana na Carl Menger, ni nini asili ya thamani?
+answer: Thamani ni jambo la kisaikolojia linalojitegemea ndani ya mtu binafsi.
+wrong_answers:
+  - Thamani ni mali ya asili ya bidhaa.
+  - Thamani ni jambo linalolengwa na linaloweza kupimika.
+  - Thamani imedhamiriwa na kiasi cha kazi inayotumika katika uzalishaji.
+explanation: |
+  Kulingana na Menger, thamani ni saikolojia inayojitegemea
+  uzushi ndani ya mtu binafsi. Hii ina maana kwamba thamani ni
+  si mali ya asili ya bidhaa, bali inatokana na
+  maoni ya mtu binafsi kuhusu matumizi anayoweza kupata
+  kutoka kwa bidhaa hizo.
+reviewed: true

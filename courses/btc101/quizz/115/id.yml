@@ -1,0 +1,9 @@
+question: Siapa orang pertama yang bergabung dengan jaringan Bitcoin setelah Satoshi Nakamoto?
+answer: Hal Finney
+wrong_answers:
+  - Laszlo Hanyecz
+  - Phil Champagne
+  - Rogzy
+explanation: |
+  Hal Finney adalah orang pertama yang bergabung dengan jaringan Bitcoin setelah Satoshi Nakamoto sendiri. Ia bahkan men-tweet Running Bitcoin untuk menandai kesempatan tersebut.
+reviewed: true

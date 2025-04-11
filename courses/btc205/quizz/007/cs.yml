@@ -1,8 +1,0 @@
-question: Jaké riziko je spojeno s používáním KYC?
-answer: Centralizace citlivých databází obsahujících osobní údaje uživatelů.
-wrong_answers:
-  - Decentralizace citlivých databází obsahujících osobní údaje uživatelů.
-  - Centralizace necitlivých databází obsahujících osobní údaje uživatelů.
-  - Decentralizace necitlivých databází obsahujících osobní údaje uživatelů.
-explanation: |
-  Použití KYC vede k centralizaci velmi citlivých databází obsahujících osobní údaje uživatelů. Tyto informace, mající určitou hodnotu, mohou být prodány zákeřným subjektům.

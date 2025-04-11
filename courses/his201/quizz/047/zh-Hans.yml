@@ -1,0 +1,8 @@
+question: 2010年7月，中本聪在他的沟通中希望淡化比特币的哪个方面？
+answer: 交易的匿名性
+wrong_answers:
+  - 货币政策
+  - 电子商务
+  - 可编程性
+explanation: |
+  关于为Slashdot准备的草案演示，他表示他不想“将‘匿名’方面放在前台。”他向马蒂·马尔米（Martti Malmi）[私下里](https: //mmalmi.github.io/satoshi/#email-197)解释了他的理由。

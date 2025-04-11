@@ -1,9 +1,12 @@
 question: Pourquoi est-il important de remplacer progressivement vos anciens mots de passe par ceux générés par un gestionnaire de mots de passe ?
-answer: Les mots de passe générés par un gestionnaire de mots de passe sont plus forts et plus longs, offrant une sécurité accrue.
+answer: Les mots de passe générés par un gestionnaire de mots de passe sont plus forts et plus longs, offrant plus de sécurité.
 wrong_answers:
   - Les anciens mots de passe sont automatiquement supprimés par le gestionnaire de mots de passe.
   - Les gestionnaires de mots de passe ne peuvent stocker qu'un nombre limité de mots de passe.
   - Les gestionnaires de mots de passe exigent que tous les mots de passe soient générés par eux.
 explanation: |
-  Les mots de passe générés par un gestionnaire de mots de passe sont plus forts et plus longs, offrant une sécurité accrue. En remplaçant progressivement vos anciens mots de passe par ceux-ci, vous pouvez améliorer la sécurité de vos comptes en ligne.
-reviewed: false
+  Les mots de passe générés par un gestionnaire de mots de passe sont plus forts et
+  plus longs, offrant plus de sécurité. En remplaçant progressivement vos
+  anciens mots de passe par ceux-ci, vous pouvez améliorer la sécurité de
+  vos comptes en ligne.
+reviewed: true

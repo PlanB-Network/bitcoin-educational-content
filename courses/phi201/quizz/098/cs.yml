@@ -1,0 +1,9 @@
+question: Jaká je podle Marxe hlavní příčina lidské odcizenosti?
+answer: Ekonomická odcizenost vyplývající z kapitalistického vykořisťování.
+wrong_answers:
+  - Politická odcizenost, která brání občanům ve svobodném vyjadřování.
+  - Náboženská odcizenost, která maskuje realitu sociálních nespravedlností.
+  - Odcizení od americké kultury.
+explanation: |
+  Podle Marxe je lidská odcizenost zakořeněna v ekonomické odcizenosti, kde je pracovník připraven o plody své práce v kapitalismu, což vede ke ztrátě kontroly a smyslu v jeho existenci.
+reviewed: false

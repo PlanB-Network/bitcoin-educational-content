@@ -1,0 +1,9 @@
+question: Jaký typ skupiny primárně využívá kryptografii?
+answer: Skupiny definované na celých číslech nebo elementy popsané celými čísly
+wrong_answers:
+  - Skupiny komplexních čísel nebo elementy popsané komplexními čísly
+  - Skupiny geometrických transformací nebo elementy popsané geometrickými transformacemi
+  - Skupiny racionálních čísel nebo elementy popsané racionálními čísly
+explanation: |
+  Kryptografie využívá skupiny založené na celých číslech, nebo elementy popsané celými čísly, jako jsou body na eliptické křivce, pro operace šifrování a podepisování.
+reviewed: false

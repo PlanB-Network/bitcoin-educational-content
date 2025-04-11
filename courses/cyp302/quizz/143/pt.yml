@@ -1,0 +1,9 @@
+question: Qual é o tempo estimado para fatorar um inteiro de 2048 bits usando todos os recursos computacionais atuais?
+answer: Muito além da idade do universo
+wrong_answers:
+  - Alguns meses com computadores clássicos
+  - Alguns minutos com supercomputadores
+  - Algumas décadas para uma fazenda de mineração de Bitcoin
+explanation: |
+  A complexidade de fatorar números de 2048 bits é tal que seria virtualmente impossível resolver, mesmo usando todos os recursos computacionais existentes por um período que excede a idade do universo.
+reviewed: false

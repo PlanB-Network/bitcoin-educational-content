@@ -1,11 +1,9 @@
-question: Jaký je účel nonce v kontextu Bitcoinových transakcí?
-answer: Používá se při vytváření digitálního podpisu.
+question: Jaká je velikost v bitech binárního segmentu použitého pro vytvoření každého mnemonického slova?
+answer: 11 bitů
 wrong_answers:
-  - Používá se k šifrování dat transakce.
-  - Používá se k uložení dat transakce.
-  - Používá se k přenosu dat transakce.
+  - 8 bitů
+  - 16 bitů
+  - 10 bitů
 explanation: |
-  V kontextu Bitcoinových transakcí se nonce používá při vytváření
-  digitálního podpisu. Konkrétně se používá při výpočtu specifického
-  čísla V a digitálního podpisu složeného ze dvou částí, S1 a S2.
+  Každý 11bitový segment odpovídá slovu ze standardizovaného seznamu 2048 slov v BIP39.
 reviewed: false

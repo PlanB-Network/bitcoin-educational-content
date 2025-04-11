@@ -1,0 +1,5 @@
+---
+term: KOMPAKTI LOHKORELE
+
+---
+Protokolla, joka otettiin käyttöön Bitcoin Core -ohjelmassa vuonna 2016 BIP152:n kautta ja jossa ehdotetaan kaistanleveyttä säästävää menetelmää verkon solmuille. Compact Block Relay mahdollistaa lohkotietojen välittämisen kompaktilla tavalla, joka perustuu oletukseen, että solmuilla on jo suurin osa viimeisimmän lohkon transaktioista mempoolissaan. Sen sijaan, että jokainen transaktio lähetettäisiin kokonaisuudessaan, mikä johtaisi päällekkäisyyksiin, Compact Block Relay ehdottaa, että lähetetään vain lyhyet tunnisteet transaktioista, jotka ovat jo vertaisvertaisten tiedossa, sekä muutama valikoitu transaktio (erityisesti coinbase-transaktio ja transaktiot, joita solmu ei todennäköisesti tunne). Solmu voi sitten pyytää puuttuvia transaktioita vertaisilta. Compact Block Relay vähentää näin lohkojen levittämisen aikana vaihdettavan tiedon määrää, mikä puolestaan vähentää kaistanleveyspiikkejä ja parantaa verkon yleistä tehokkuutta.

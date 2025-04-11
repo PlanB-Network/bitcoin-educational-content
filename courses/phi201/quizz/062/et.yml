@@ -1,0 +1,9 @@
+question: Mis oli Piibli suhtumine intressiga laenamisse?
+answer: See oli keelatud.
+wrong_answers:
+  - See julgustas seda.
+  - See talus seda mõningatel juhtudel.
+  - Sellel polnud selles küsimuses mingit arvamust.
+explanation: |
+  Piibel keelab intressiga laenamise, eriti Vanas Testamendis, kus intressiga laenamine kogukonna liikmete vahel peetakse ebaeetiliseks ja vastuolus solidaarsuse väärtustega.
+reviewed: false

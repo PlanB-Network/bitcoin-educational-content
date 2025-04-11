@@ -1,9 +1,9 @@
-question: Mối quan tâm chính về chi phí môi trường của việc đào Bitcoin là gì?
-answer: Tiêu thụ năng lượng
+question: Mối quan tâm chính liên quan đến chi phí môi trường của việc đào Bitcoin là gì?
+answer: Tiêu thụ năng lượng.
 wrong_answers:
-  - Sản xuất ASIC
-  - Tái chế ASIC
-  - Chi phí điện
+  - Sản xuất ASIC.
+  - Tái chế ASIC.
+  - Chi phí điện.
 explanation: >-
   Mối quan tâm môi trường chính của việc đào Bitcoin là tiêu thụ năng lượng. Mặc dù ASIC chủ yếu được làm từ nhôm và có thể được tái chế hoặc tái sử dụng, nhưng lượng năng lượng cần thiết để vận hành những máy này là đáng kể.
-reviewed: false
+reviewed: true

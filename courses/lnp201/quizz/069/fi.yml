@@ -1,9 +1,0 @@
-question: Mitä tapahtuu, kun maksutapahtuman yritys epäonnistuu Lightning-verkossa riittämättömän likviditeetin vuoksi?
-answer: Kokeillaan toista reittiä kunnes maksutapahtuma onnistuu.
-wrong_answers:
-  - Maksutapahtuma peruutetaan ja varat palautetaan lähettäjälle.
-  - Maksutapahtuma asetetaan odottamaan kunnes riittävä likviditeetti on saatavilla.
-  - Maksutapahtuma ohjataan automaattisesti kanavalle, jolla on riittävä likviditeetti.
-explanation: |
-  Lightning-verkossa, jos maksutapahtuman yritys epäonnistuu kanavalla olevan riittämättömän likviditeetin vuoksi, solmu yrittää toista reittiä. Tätä prosessia jatketaan kunnes maksutapahtuma onnistuu. Tämä mekanismi varmistaa, että maksutapahtumat voidaan suorittaa loppuun, vaikka alun perin valittu reitti ei olisikaan tarpeeksi likvidi.
-reviewed: false

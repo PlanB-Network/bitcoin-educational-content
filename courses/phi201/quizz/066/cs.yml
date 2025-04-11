@@ -1,0 +1,9 @@
+question: Jaká je hlavní teze Voltaira o vztahu mezi obchodem a náboženskou tolerancí?
+answer: Obchod podporuje spolupráci mezi lidmi a respektování jejich názorů, včetně náboženských přesvědčení, prostřednictvím společného hledání zisku.
+wrong_answers:
+  - Obchod sjednocuje lidi prostřednictvím sdíleného světonázoru založeného na vědecké metodě.
+  - Obchod podporuje luxus a lenost.
+  - Všechny ostatní odpovědi jsou správné.
+explanation: |
+  Voltaire tvrdí, že obchod podporuje náboženskou toleranci tím, že nutí jednotlivce s různými přesvědčeními k spolupráci a vzájemnému respektování jejich názorů v rámci hledání společných ekonomických zájmů.
+reviewed: false

@@ -5,6 +5,7 @@ wrong_answers:
   - To slow down the machine.
   - To change the user interface.
 explanation: |
-  Regular updates are essential to protect the system from new threats
-  and vulnerabilities. They are not intended to make the machine obsolete or slow.
-reviewed: false
+  Regular updates are essential to protect the system from
+  new threats and vulnerabilities. They are not intended to
+  make the machine obsolete or slow.
+reviewed: true

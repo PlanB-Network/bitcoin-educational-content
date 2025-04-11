@@ -1,0 +1,9 @@
+question: Jaki jest rozmiar nieprzetworzonego klucza prywatnego używanego w Bitcoin?
+answer: 256 bitów
+wrong_answers:
+  - 128 bitów
+  - 512 bitów
+  - 1024 bity
+explanation: |
+  Klucz prywatny w Bitcoin to 256-bitowa losowa liczba całkowita, zapewniająca wystarczająco dużą przestrzeń klucza, aby zagwarantować bezpieczeństwo.
+reviewed: false

@@ -1,0 +1,10 @@
+question: Mida tähendab DCA Bitcoini kontekstis?
+answer: Dollari keskmise hinna arvestamine
+wrong_answers:
+  - Digitaalse Valuuta Assotsiatsioon
+  - Otsene Sularaha Juurdepääs
+  - Detsentraliseeritud Krüpto Vara
+explanation: |
+  Bitcoini kontekstis tähistab DCA dollari keskmise hinna arvestamist. See
+  on strateegia, kus investor jaotab investeeritava kogusumma perioodiliste ostude vahel,
+  et vähendada volatiilsuse mõju koguostule.

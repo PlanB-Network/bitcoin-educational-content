@@ -1,0 +1,8 @@
+question: 2008年10月31日のビットコインの設計に欠けていた要素は何ですか？
+answer: 単位の有限性
+wrong_answers:
+  - プルーフ・オブ・ワーク
+  - 簡易支払い検証
+  - ブロックチェーン
+explanation: |
+  最初のモネタリーポリシーは、白書の最初のバージョンとサトシがRay Dillingerとの[交換](https: //www.metzdowd.com/pipermail/cryptography/2008-November/014831.html)で示したように、一定の発行量（X BTC/ブロック）に対応していました。

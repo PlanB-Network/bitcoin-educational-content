@@ -1,9 +1,9 @@
 question: Por que é recomendado limitar o número de extensões instaladas no seu navegador?
-answer: Para evitar possíveis problemas de segurança e desempenho.
+answer: Para evitar potenciais problemas de segurança e desempenho.
 wrong_answers:
   - Para economizar espaço de armazenamento no seu dispositivo.
-  - Para evitar que o navegador trave.
+  - Para prevenir que o navegador trave.
   - Para evitar ser rastreado por sites de terceiros.
 explanation: |
-  Embora as extensões do navegador possam fornecer funcionalidades úteis, elas também podem representar riscos de segurança, pois podem acessar seus dados e atividades de navegação. Além disso, ter muitas extensões pode deixar seu navegador mais lento e afetar seu desempenho.
-reviewed: false
+  Embora as extensões de navegador possam fornecer funcionalidades úteis, elas também podem representar riscos de segurança, pois podem acessar seus dados e atividade de navegação. Além disso, ter muitas extensões pode desacelerar seu navegador e afetar seu desempenho.
+reviewed: true

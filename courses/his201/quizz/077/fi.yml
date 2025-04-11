@@ -1,0 +1,8 @@
+question: Minä päivänä bitcoin-kehityksen postituslista luotiin?
+answer: 12. kesäkuuta 2011
+wrong_answers:
+  - 13. tammikuuta 2011
+  - 7. maaliskuuta 2011
+  - 19. syyskuuta 2011
+explanation: |
+  Sen loi kehittäjä Jeff Garzik, ja se mahdollisti muodolliset keskustelut Bitcoinin muutoksista.

@@ -1,0 +1,9 @@
+question: Jaký je hlavní důvod, proč zůstávají ostatní Bealeovy šifry nerozluštěné?
+answer: Klíč k těmto šifrám je stále neznámý
+wrong_answers:
+  - Šifrované texty jsou příliš staré
+  - Krabice byla ztracena, než mohla být dešifrována
+  - Výzkumníkům chybí spolehlivé historické dokumenty
+explanation: |
+  Ostatní Bealeovy šifry nikdy nebyly rozluštěny, protože nezbytný klíč k jejich přečtení zůstává neznámý, navzdory mnoha pokusům.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Hva er målet til Bitcoin-samfunnet når det gjelder nettverksstyring?
+answer: Å styrke distribusjonen, sensurmotstanden og nettverkets anti-skjørhet.
+wrong_answers:
+  - Å øke prisen på Bitcoin.
+  - Å gjøre transaksjoner raskere.
+  - Å øke vanskelighetsgraden for mining.
+explanation: |
+  Bitcoin-samfunnet jobber konstant for å styrke distribusjonen,
+  sensurmotstanden og anti-skjørheten til nettverket. Dette er i tråd
+  med Bitcoins grunnleggende oppdrag om å være et sensurresistent
+  verdioverføringsnettverk.
+reviewed: true

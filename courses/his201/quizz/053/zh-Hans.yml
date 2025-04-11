@@ -1,0 +1,8 @@
+question: 2010年夏天，比特币中加入了什么功能，随后允许了软分叉的发生？
+answer: OP_NOP 操作码
+wrong_answers:
+  - 警报系统
+  - 区块大小限制
+  - 标准交易格式
+explanation: |
+  这些是不会在执行时使脚本无效的空操作指令。它们使得在2015/2016年向协议中添加OP_CHECKLOCKTIMEVERIFY和OP_CHECKSEQUENCEVERIFY成为可能。

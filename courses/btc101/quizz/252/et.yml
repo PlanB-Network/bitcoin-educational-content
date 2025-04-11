@@ -1,0 +1,9 @@
+question: Mis on üks peamisi Bitcoini eeliseid inimestele, kellel ei ole pangakontot?
+answer: Bitcoin võimaldab võrdsust tehingutes, sõltumata teie sotsiaalsest staatusest või poliitilisest positsioonist.
+wrong_answers:
+  - Bitcoin võimaldab ebavõrdsust tehingutes.
+  - Bitcoin toob kasu ainult inimestele, kellel on pangakonto.
+  - Bitcoin toob kasu ainult inimestele, kellel on kõrge sotsiaalne staatus.
+explanation: >-
+  Tekstis mainitakse, et maailmas on 2.4 miljardit inimest ilma pangakontota ja Bitcoin võimaldab võrdsust tehingutes, sõltumata teie sotsiaalsest staatusest või poliitilisest positsioonist.
+reviewed: false

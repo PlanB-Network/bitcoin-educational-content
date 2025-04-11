@@ -1,0 +1,9 @@
+question: Mis on võrdlev eelis tööjaotuse kontekstis?
+answer: Üksikisikul on teatud ülesannete sooritamisel paremad võimed kui teistel.
+wrong_answers:
+  - Üksikisikul on kõikide ülesannete sooritamisel võrdsed võimed nagu teistelgi.
+  - Üksikisikul on teatud ülesannete sooritamisel kehvemad võimed kui teistel.
+  - Üksikisikul on kõikide ülesannete sooritamisel paremad võimed kui teistel.
+explanation: |
+  Tööjaotuse kontekstis viitab võrdlev eelis olukorrale, kus üksikisikul on teatud ülesannete sooritamisel paremad võimed kui teistel. Isegi kui üksikisikul ei ole absoluutset eelist ühegi kauba tootmisel, leidub siiski tootmistüüpe, milles üksikisik on parem kui teistes, ja just sel põhjusel on tal endiselt huvi spetsialiseeruda.
+reviewed: false

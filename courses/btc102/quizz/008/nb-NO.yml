@@ -1,0 +1,10 @@
+question: Hva er hovedformålet med en programvareoppdatering?
+answer: Å fikse feil og forbedre sikkerheten til programvaren din
+wrong_answers:
+  - Å legge til nye funksjoner
+  - Å endre programvaregrensesnittet
+  - Å øke programvarens størrelse
+explanation: |
+  Selv om programvareoppdateringer ofte kommer med nye funksjoner, er deres hovedformål
+  å fikse feil og forbedre sikkerheten til programvaren. Dette er avgjørende for å holde
+  datamaskinen din i optimal arbeidstilstand.

@@ -1,0 +1,9 @@
+question: ¿Qué puede hacer "curl -X POST /issueassetnia" en RLN?
+answer: Crear un nuevo activo RGB fungible y no inflacionista
+wrong_answers:
+  - Crear un nuevo activo RGB no fungible
+  - Crear un nuevo activo RGB inflacionista fungible
+  - Crear un nuevo activo RGB semifungible
+explanation: |
+  El comando "/issueassetnia" se utiliza para emitir un nuevo token RGB NIA ("Non Inflatable Asset").
+reviewed: false

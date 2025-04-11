@@ -5,7 +5,7 @@ wrong_answers:
   - It can lead to an increase in the hashrate of the network
   - It can lead to an increase in the number of active nodes in the network
 explanation: |
-  A ban on mining in a region, like what happened in China, can lead to
-  a significant drop in the hashrate and price of Bitcoin. However, these can quickly
-  recover.
-reviewed: false
+  A ban on mining in a region, like what happened in China,
+  can lead to a significant drop in the hashrate and price of
+  Bitcoin. However, these can quickly recover.
+reviewed: true

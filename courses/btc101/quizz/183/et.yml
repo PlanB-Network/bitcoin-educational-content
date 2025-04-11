@@ -1,0 +1,8 @@
+question: Mis on üks põhjustest, miks Bitcoini hind võib langeda 10-20 või isegi 50% mõne päeva jooksul?
+answer: Turu kõikumised ja tõusvad ning langevad turufaasid.
+wrong_answers:
+  - Interneti kasutajate arv.
+  - Ilmastik.
+  - Kulla hind.
+explanation: >-
+  Bitcoini hinda iseloomustab tihti oluline volatiilsus, mida võivad mõjutada turu kõikumised ja tõusvad ning langevad turufaasid.

@@ -1,0 +1,9 @@
+question: Mis on peamine roll ahelakoodil lastevõtmete tuletamisel?
+answer: Tutvustada täiendavat entroopia allikat
+wrong_answers:
+  - Määrata hierarhilise sügavuse
+  - Salvestada lastevõtmete indeksid
+  - Tagada ühilduvus Bitcoin protokolliga
+explanation: |
+  Ahelakoodi kasutatakse selleks, et tutvustada iga tuletatud võtme jaoks täiendavat ja unikaalset entroopia allikat.
+reviewed: false

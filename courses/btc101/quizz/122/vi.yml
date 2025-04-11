@@ -1,9 +1,9 @@
-question: Nhịp độ của mạng lưới Bitcoin là gì?
-answer: 10 phút mỗi khối
+question: Tỷ lệ sẵn có trực tuyến của Bitcoin kể từ năm 2009 là bao nhiêu?
+answer: 99.988%.
 wrong_answers:
-  - 10 giây mỗi khối
-  - 10 phút mỗi giao dịch
-  - 10 giây mỗi giao dịch
+  - 100%.
+  - 90.009%.
+  - 80.17%.
 explanation: |
-  Nhịp độ của mạng lưới Bitcoin là 10 phút mỗi khối. Điều này giống như nhịp đập của hệ thống tiền tệ Bitcoin.
-reviewed: false
+  Tỷ lệ sẵn có trực tuyến của Bitcoin kể từ năm 2009 là 99.988%.
+reviewed: true

@@ -1,0 +1,12 @@
+question: Hva er den foreslåtte løsningen for gjentatte Bitcoin-kjøp uten stress?
+answer: Bruk en DCA-løsning
+wrong_answers:
+  - Bruk en varm lommebok
+  - Bruk en kald lommebok
+  - Bruk en ikke-KYC-løsning
+explanation: |
+  Den foreslåtte løsningen for gjentatte Bitcoin-kjøp uten stress
+  er å bruke en DCA (Dollar Cost Averaging)-løsning. Denne strategien innebærer å dele
+  det totale beløpet du ønsker å investere over periodiske kjøp for å redusere innvirkningen
+  av volatilitet.
+reviewed: false

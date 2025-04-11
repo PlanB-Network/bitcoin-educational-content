@@ -1,9 +1,0 @@
-question: Welche Funktion wird verwendet, um den Seed aus der Mnemonik-Phrase und dem Passwort in einer HD-Wallet zu generieren?
-answer: Die Funktion pbkdf2
-wrong_answers:
-  - Die Funktion hmacha512
-  - Die Funktion SHA256
-  - Die Funktion RIPMD160
-explanation: |
-  Die Funktion pbkdf2 wird verwendet, um den Seed aus der Mnemonik-Phrase und dem Passwort zu generieren, wobei hmacha512 und 2048 Iterationen verwendet werden. Dieser Seed wird dann verwendet, um den Master-Schlüssel und den Master-Chain-Code abzuleiten.
-reviewed: false

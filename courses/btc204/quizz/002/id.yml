@@ -1,0 +1,9 @@
+question: Apa tindakan transaksi Bitcoin pada input UTXO?
+answer: Ia mengonsumsinya untuk memenuhi output.
+wrong_answers:
+  - Ia mengarsipkannya di blockchain untuk referensi masa depan.
+  - Ia mengenkripsinya untuk mengamankan transaksi.
+  - Ia menduplikasikannya untuk menciptakan UTXO baru.
+explanation: |
+  UTXO input dalam sebuah transaksi dikonsumsi untuk mendanai output. Ini, dalam suatu cara, merupakan sumber dari uang tersebut.
+reviewed: false

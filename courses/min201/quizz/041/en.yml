@@ -5,7 +5,9 @@ wrong_answers:
   - The balance between increasing the price and decreasing the cost
   - The balance between increasing the number of transactions and decreasing the energy consumption
 explanation: |
-  The debate within the Bitcoin community regarding mining revolves around
-  the balance between seeking profit and contributing to the security and distribution
-  of the Bitcoin network. There are strong arguments on both sides of the debate.
-reviewed: false
+  The debate within the Bitcoin community regarding mining
+  revolves around the balance between seeking profit and
+  contributing to the security and distribution of the
+  Bitcoin network. There are strong arguments on both sides
+  of the debate.
+reviewed: true

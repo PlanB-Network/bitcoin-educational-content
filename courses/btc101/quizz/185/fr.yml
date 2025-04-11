@@ -1,9 +1,11 @@
-question: Comment le Bitcoin est-il perçu par rapport aux monnaies fiduciaires ?
-answer: Une économie parallèle
+question: En comparaison avec les monnaies fiduciaires, comment est perçu le Bitcoin ?
+answer: Comme une économie parallèle.
 wrong_answers:
-  - Une économie de remplacement
-  - Une économie secondaire
-  - Une économie tertiaire
-explanation: |
-  Le Bitcoin est perçu comme une économie parallèle aux monnaies fiduciaires, ce qui signifie qu'il fonctionne aux côtés des économies traditionnelles et peut être utilisé pour des transactions directes, sans avoir besoin de passer par une plateforme d'échange.
-reviewed: false
+  - Comme une économie de remplacement.
+  - Comme une économie industrielle.
+  - Comme une économie tertiaire.
+explanation: >-
+  Le Bitcoin est considéré comme une économie parallèle aux monnaies fiduciaires, ce qui signifie qu'il
+  fonctionne à côté des économies traditionnelles et peut être utilisé pour des transactions directement,
+  sans avoir besoin de passer par une plateforme d'échange.
+reviewed: true

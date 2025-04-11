@@ -1,11 +1,9 @@
-question: Qual é a função da função pbkdf2 na criação da semente?
-answer: Ela é usada juntamente com a frase mnemônica e a frase de acesso para obter a semente.
+question: Qual é o papel principal de um endereço Bitcoin em uma transação?
+answer: Bloquear UTXOs no scriptPubKey
 wrong_answers:
-  - É usada para gerar a chave privada mestre.
-  - É usada para derivar os pares de chaves filhas.
-  - É usada para criar o código de cadeia mestre.
+  - Desbloquear os UTXOs no scriptSig
+  - Sinalizar o fim da transação
+  - Identificar o bloco de confirmação
 explanation: |
-  A função pbkdf2 (Função de Derivação de Chave Baseada em Senha 2) é usada
-  juntamente com a frase mnemônica e a frase de acesso para obter a semente, uma sequência alfanumérica de 512 bits
-  que serve como base para derivar as chaves da carteira.
+  Um endereço Bitcoin é incorporado no scriptPubKey para bloquear os UTXOs. Ele determina as condições necessárias para desbloquear os fundos.
 reviewed: false

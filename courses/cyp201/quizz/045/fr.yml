@@ -1,12 +1,9 @@
-question: Quel est le but de l'algorithme ECDSA dans le contexte des transactions Bitcoin?
-answer: Pour valider les signatures numériques.
+question: Quelle est la fonction de hachage utilisée pour calculer la checksum d'une phrase mnémonique ?
+answer: SHA256
 wrong_answers:
-  - Pour chiffrer les données de transaction.
-  - Pour générer des adresses Bitcoin.
-  - Pour miner de nouveaux Bitcoins.
+  - RIPEMD160
+  - SHA512
+  - HASH256
 explanation: |
-  L'algorithme ECDSA (Elliptic Curve Digital Signature Algorithm) est utilisé dans le
-  contexte des transactions Bitcoin pour valider les signatures numériques. Cela permet au
-  destinataire d'une transaction de confirmer l'authenticité du message signé sans
-  avoir besoin de la clé privée de l'expéditeur.
+  La checksum d'une phrase mnémonique est calculée en appliquant un hachage SHA256 simple sur l'entropie.
 reviewed: false

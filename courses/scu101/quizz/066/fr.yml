@@ -1,9 +1,13 @@
-question: Quels sont les avantages d'utiliser des Passkeys comme alternative aux mots de passe traditionnels?
-answer: Ils offrent des clés aléatoires chiffrées combinées à un facteur local, qui sont hébergées par un fournisseur mais restent hors de leur portée.
+question: Quels sont les avantages de l'utilisation des Passkeys comme alternative aux mots de passe traditionnels ?
+answer: Ils offrent des clés aléatoires cryptées combinées à un facteur local, qui sont hébergées par un fournisseur mais restent hors de leur portée.
 wrong_answers:
   - Ils sont plus faciles à retenir que les mots de passe traditionnels.
   - Ils ne nécessitent aucun facteur d'authentification supplémentaire.
-  - Ils peuvent être utilisés sur tous les sites web sans aucune mise à jour.
+  - Ils peuvent être utilisés sur tous les sites Web sans aucune mise à jour.
 explanation: |
-  Les Passkeys offrent des clés aléatoires chiffrées, combinées à un facteur local (biométrie ou code PIN), qui sont hébergées par un fournisseur mais restent hors de leur portée. Cette approche élimine le besoin de mots de passe, offrant ainsi un niveau élevé de sécurité sans les contraintes associées aux mots de passe traditionnels.
-reviewed: false
+  Les Passkeys offrent des clés aléatoires cryptées, combinées à un
+  facteur local (biométrie ou PIN), qui sont hébergées par un fournisseur
+  mais restent hors de leur portée. Cette approche élimine le
+  besoin de mots de passe, offrant ainsi un haut niveau de sécurité
+  sans les contraintes associées aux mots de passe traditionnels.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Que caraterísticas avançadas são normalmente exigidas pelas empresas de perfil profissional?
+answer: Painéis de relatórios avançados e múltiplas funções administrativas
+wrong_answers:
+  - Registo básico de transacções e recibos normalizados
+  - Integração simples de carteiras e geração de códigos QR
+  - Conversão automática para moeda fiduciária sem quaisquer opções de comunicação
+explanation: |
+  As empresas profissionais necessitam de facturas personalizáveis, relatórios sofisticados e gestão de funções para se adaptarem aos seus complexos fluxos de trabalho.
+reviewed: false

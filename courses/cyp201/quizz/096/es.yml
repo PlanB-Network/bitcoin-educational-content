@@ -1,9 +1,0 @@
-question: ¿Cuál es el tamaño de una clave extendida?
-answer: 82 bytes
-wrong_answers:
-  - 65 bytes
-  - 33 bytes
-  - 512 bits
-explanation: |
-  Las claves extendidas tienen un tamaño de 82 bytes y su prefijo se representa en base 58 a través de una conversión hexadecimal.
-reviewed: false

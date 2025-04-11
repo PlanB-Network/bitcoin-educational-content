@@ -1,0 +1,9 @@
+question: Apa saja komponen yang terkandung dalam kiriman RGB yang diterima Bob (penerima) untuk sebuah kontrak?
+answer: Kejadian, Skema, Antarmuka, dan Implementasi Antarmuka
+wrong_answers:
+  - Kejadian, Skema, Transisi, dan Ekstensi
+  - Skema, Antarmuka, Tanda Tangan, dan PSBT
+  - Kejadian, Antarmuka, PSBT, dan Sejarah
+explanation: |
+  Pengiriman kontrak RGB mencakup Genesis, Skema, Antarmuka, dan Implementasi Antarmuka, yang menyediakan semua data yang diperlukan untuk memvalidasi kontrak.
+reviewed: false

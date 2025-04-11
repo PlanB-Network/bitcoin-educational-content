@@ -1,4 +1,4 @@
-question: サイバーセキュリティにおいて必要なネットワーク知識の側面にはどのようなものがありますか？
+question: サイバーセキュリティに必要なネットワーク知識のいくつかの側面は何ですか？
 answer: TCP/IP、VPN、ファイアウォール
 wrong_answers:
   - HTTP、FTP、SMTP
@@ -6,3 +6,4 @@ wrong_answers:
   - DHCP、DNS、ARP
 explanation: |
   この章では、サイバーセキュリティに必要なネットワーク知識の側面としてTCP/IP、VPN、ファイアウォールが挙げられています。
+reviewed: true

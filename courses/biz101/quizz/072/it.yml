@@ -1,0 +1,9 @@
+question: Come fanno i sistemi Enterprise ad aggiornare automaticamente l'inventario?
+answer: Attraverso i trigger del flusso di lavoro
+wrong_answers:
+  - Aggiornamenti manuali
+  - Caricamenti di fine giornata
+  - Rapporti programmati
+explanation: |
+  I trigger del flusso di lavoro aggiornano i sistemi in tempo reale.
+reviewed: false

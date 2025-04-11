@@ -1,9 +1,0 @@
-question: Lightning NetworkのコンテキストにおけるKeysendとは何ですか？
-answer: 受取人のリクエストを持たずにユーザーがお金を送ることができる機能です
-wrong_answers:
-  - Lightning Networkで使用される一種の暗号化です
-  - 新しいBitcoinアドレスを生成する方法です
-  - Lightning Network上のトランザクションを追跡するツールです
-explanation: |
-  Lightning NetworkのコンテキストにおけるKeysendは、受取人のリクエストを持たずにユーザーがお金を送ることを可能にします。送信者は受取人のIDを取得し、受取人に尋ねることなくプリイメージを作成し、それを支払いに含めます。
-reviewed: false

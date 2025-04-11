@@ -1,61 +1,88 @@
+id: 7044e344-9039-4aa8-adea-3251a3aa269f
 chapterId: cec6b9d9-0eed-4f85-bc4e-1e9aa59ca605
 difficulty: intermediate
 duration: 15
 author: pretty-private
-tags:
-  - Bitcoin
-
-# Proofreading metadata
 original_language: fr
 proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2720
+    contributor_names:
+    reward: 0.23
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2610
+    contributor_names:
+    reward: 0.2
   - language: en
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2610
+    contributor_names:
+    reward: 0.2
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2665
+    contributor_names:
+    reward: 0.2
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2720
+    contributor_names:
+    reward: 0.23
   - language: fr
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - LoicPandul
-    reward: 1305
+    reward: 0.1
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2665
+    contributor_names:
+    reward: 0.2
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2830
+    contributor_names:
+    reward: 0.3
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2610
+    contributor_names:
+    reward: 0.2
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2830
+    contributor_names:
+    reward: 0.3
+
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.23
+
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.27
+
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.23
+
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.23
+
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.27

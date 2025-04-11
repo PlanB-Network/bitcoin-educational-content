@@ -1,11 +1,11 @@
-question: What is the significance of the quote "The Times 03/Jan/2009 Chancellor on brink of second bailout for banks" in the first Bitcoin block? 
+question: What is the significance of the quote The Times 03/Jan/2009 Chancellor on brink of second bailout for banks in the first Bitcoin block? 
 answer: It highlights our financial system's ability to socialise losses 
 wrong_answers:
   - It signifies Satoshi’s appreciation for The Times newspaper
   - It gives a great example of how bailouts have benefited our society
   - It shows us Bitcoin's ability to store messages in the blockchain
 explanation: |
-  This is a reference to a Times newspaper [article](https://www.thetimes.co.uk/article/chancellor-alistair-darling-on-brink-of-second-bailout-for-banks-n9l382mn62h) reflecting Satoshi’s 
+  This is a reference to a Times newspaper [article](https: //www.thetimes.co.uk/article/chancellor-alistair-darling-on-brink-of-second-bailout-for-banks-n9l382mn62h) reflecting Satoshi’s 
   concerns that banks were engaging in risky behaviour, with little 
   consequence to them, and that losses would be shared amongst currency holders.
 reviewed: true

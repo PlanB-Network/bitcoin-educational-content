@@ -1,0 +1,11 @@
+question: Apa keuntungan utama Bitcoin dibandingkan dengan bentuk mata uang lainnya?
+answer: Ini menawarkan penyimpanan nilai yang sangat baik karena pasokannya yang sangat terbatas dan neutalitasnya.
+wrong_answers:
+  - Ini tidak dapat dibagi dan dapat diangkut
+  - Ini tunduk pada inflasi moneter
+  - Ini secara luas diterima dalam perdagangan
+explanation: |
+  Keuntungan utama Bitcoin dibandingkan dengan bentuk mata uang lainnya adalah bahwa itu
+  menawarkan penyimpanan nilai yang sangat baik karena pasokannya yang sangat terbatas dan ketiadaan pihak yang dipercaya. Ini membuat
+  itu pilihan yang baik untuk tabungan jangka panjang.
+reviewed: true

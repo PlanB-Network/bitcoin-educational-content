@@ -1,0 +1,9 @@
+question: Hvilket forummedlem gjorde algoritmen sin for gruvedrift offentlig etter en generøs donasjon fra Jeff Garzik den 18. september 2010?
+answer: puddinpop
+wrong_answers:
+  - nelisky
+  - m0mchil
+  - tcatm
+explanation: |
+  Inntil da hadde de tjent penger på en kommisjon for bruk av programvaren sin. De [publiserte](https: //bitcointalk.org/index.php?topic=133.msg13135#msg13135) den under en fri lisens.
+reviewed: false

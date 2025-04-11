@@ -5,8 +5,9 @@ wrong_answers:
   - The miner produces more heat than a simple electric heater.
   - The miner is cheaper than a simple electric heater.
 explanation: |
-  The difference between using a miner and a simple electric heater lies
-  in the fact that the miner not only provides heat but also a Bitcoin reward. This
-  additional reward could help alleviate concerns about the high energy consumption
-  of miners.
-reviewed: false
+  The difference between using a miner and a simple electric
+  heater lies in the fact that the miner not only provides
+  heat but also a Bitcoin reward. This additional reward
+  could help alleviate concerns about the high energy
+  consumption of miners.
+reviewed: true

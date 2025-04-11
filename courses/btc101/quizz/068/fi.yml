@@ -1,10 +1,11 @@
 question: Kuinka usein louhinnan palkkio puolittuu?
-answer: Joka 210 000 lohkon jälkeen
+answer: Joka 210 000 lohkon jälkeen.
 wrong_answers:
-  - Joka 120 000 lohkon jälkeen
-  - Joka 540 000 lohkon jälkeen
-  - Joka 2 100 000 lohkon jälkeen
+  - Joka 120 000 lohkon jälkeen.
+  - Joka 540 000 lohkon jälkeen.
+  - Joka 2 100 000 lohkon jälkeen.
 explanation: |
-  Louhinnan palkkio on ohjelmoitu puolittumaan joka 210 000 lohkon jälkeen, mikä
-  on suunnilleen joka neljäs vuosi, tapahtumaa kutsutaan "halving" (puolittumiseksi).
-reviewed: false
+  Louhinnan palkkio on ohjelmoitu puolittumaan joka 210 000
+  lohkon jälkeen, mikä vastaa suunnilleen neljää vuotta: tapahtumaa,
+  jota kutsutaan halvingiksi.
+reviewed: true

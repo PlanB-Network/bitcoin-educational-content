@@ -1,0 +1,5 @@
+---
+term: FPPS (FULL LØNN PER AKSJE)
+
+---
+Metode for beregning av utvinneres kompensasjon i utvinningspooler. Det er en videreutvikling av PPS-metoden (*Pay Per Share*). Den kompenserer utvinnere ikke bare for hver gyldige andel de sender inn, men inkluderer også en del av blokkbelønningen. Kompensasjonen beregnes på grunnlag av gjennomsnittet av tidligere transaksjoner og poolens hashrate. Dermed får utvinnerne en belønning for de innsendte andelene, uansett om det blir funnet en blokk eller ikke, men denne metoden kompenserer også for den forventede verdien. Den gir en stabil og forutsigbar kompensasjon for utvinnerne, ettersom den eliminerer variansen knyttet til sannsynligheten for å finne en blokk, samtidig som den utsetter dem for svingninger i markedsgebyret. Det er imidlertid mer risikofylt for pooloperatørene, ettersom de må betale utvinnerne selv når det ikke blir funnet noen blokk, og dermed absorberer variansrisikoen.

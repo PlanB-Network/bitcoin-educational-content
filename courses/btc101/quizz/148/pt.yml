@@ -1,11 +1,10 @@
-question: Qual foi o resultado da "guerra dos blocos" em 2017?
+question: Qual foi o resultado da guerra dos blocos em 2017?
 answer: Usuários e nós rejeitaram a mudança proposta para aumentar o tamanho do bloco e ativaram uma atualização chamada SegWit.
 wrong_answers:
   - Usuários e nós aceitaram a mudança proposta para aumentar o tamanho do bloco e ativaram uma atualização chamada SegWit.
   - Usuários e nós rejeitaram a mudança proposta para aumentar o tamanho do bloco e não ativaram nenhuma atualização.
   - Usuários e nós aceitaram a mudança proposta para aumentar o tamanho do bloco e não ativaram nenhuma atualização.
-explination: |
-  Na "guerra dos blocos" em 2017, usuários e nós triunfaram ao rejeitar a
+explanation: >-
+  Na guerra dos blocos em 2017, usuários e nós triunfaram ao rejeitar a
   mudança proposta para aumentar o tamanho do bloco e ativaram uma atualização chamada SegWit.
-reviewed: false
-
+reviewed: true

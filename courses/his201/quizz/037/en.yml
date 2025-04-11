@@ -1,0 +1,9 @@
+question: Which exchange service created in March 2010 was the most popular before the emergence of Mt. Gox in July?
+answer: Bitcoin Market
+wrong_answers:
+  - BitcoinFX
+  - BitcoinExchange
+  - MyBitcoin
+explanation: |
+  This was a peer-to-peer marketplace using PayPal that was launched on March 16, 2010, by an individual known as dwdollar and was the main platform before Mt. Gox.
+reviewed: false

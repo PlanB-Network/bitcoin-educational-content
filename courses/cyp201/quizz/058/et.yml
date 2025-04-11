@@ -1,0 +1,9 @@
+question: Millist funktsiooni kasutatakse seemne tuletamiseks mnemoonilisest fraasist?
+answer: PBKDF2 koos HMAC-SHA512-ga
+wrong_answers:
+  - SHA256 üksi
+  - Kahekordne SHA256
+  - AES-256
+explanation: |
+  Seeme genereeritakse kasutades PBKDF2 funktsiooni koos HMAC-SHA512 ja 2048 iteratsiooniga, mnemoonilisest fraasist ja paroolifraasist lähtuvalt.
+reviewed: false

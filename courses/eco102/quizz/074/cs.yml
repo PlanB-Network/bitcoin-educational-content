@@ -1,0 +1,9 @@
+question: Podle Friedricha Hayeka, proč je centralizované plánování neefektivní?
+answer: Nedokáže zvládnout složitost ekonomických rozhodnutí
+wrong_answers:
+  - Sníží množství vyrobeného zboží
+  - Zvyšuje výrobní náklady
+  - Podporuje mezinárodní obchod
+explanation: |
+  Hayek vysvětluje, že centralizované plánování selhává kvůli složitosti ekonomických rozhodnutí, které efektivně koordinovat dokáže pouze volný trh.
+reviewed: false

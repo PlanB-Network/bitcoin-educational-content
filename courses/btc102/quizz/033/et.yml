@@ -1,0 +1,11 @@
+question: Mis on kaks vastandlikku ideoloogiat Bitcoini maailmas?
+answer: Tuua pangandussüsteemist välja jäänud inimesed pangandussüsteemi ja viia need, kes on pangandussüsteemis, sellest välja
+wrong_answers:
+  - Teha kõik rikkaks ja teha kõik vaeseks
+  - Koondada võim ja hajutada võim
+  - Edendada privaatsust ja edendada läbipaistvust
+explanation: |
+  Peatükk mainib kahte vastandlikku ideoloogiat Bitcoini maailmas.
+  Üks on tuua miljardid inimesed, kes ei ole pangandussüsteemis, sellesse.
+  Teine on viia miljardid inimesed, kes on pangandussüsteemis, sellest välja.
+reviewed: false

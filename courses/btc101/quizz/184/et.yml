@@ -1,0 +1,9 @@
+question: Mis on üks põhjustest, miks Bitcoin ei ole mull, mis kaob?
+answer: Kuna see on valuuta, mida tegelikult kasutatakse kõikjal maailmas.
+wrong_answers:
+  - Kuna seda tegelikult ei kasutata kusagil.
+  - Kuna seda kontrollib keskne autoriteet.
+  - Kuna seda on lihtne võltsida.
+explanation: >-
+  Bitcoin ei ole mull, mis kaob, vaid valuuta, mida tegelikult kasutatakse kõikjal maailmas.
+reviewed: false

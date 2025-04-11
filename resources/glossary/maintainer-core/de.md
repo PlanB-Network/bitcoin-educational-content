@@ -1,0 +1,7 @@
+---
+term: BETREUER (KERN)
+
+---
+Im Zusammenhang mit dem Bitcoin-Core-Projekt, der vorherrschenden Implementierung von Nodes im Bitcoin-Netzwerk, sind Maintainer Personen, die mit der Verwaltung des Projekts beauftragt sind. Sie tragen die Verantwortung für dessen Umsetzung. Sie sind für die Moderation des Bitcoin Core GitHub Repository und die Festlegung des Zeitplans für die Veröffentlichung neuer Versionen zuständig. Sie sind in erster Linie für die Zusammenführung von Pull Requests (PR) verantwortlich, die von Mitwirkenden vorgeschlagen werden.
+
+Mit anderen Worten, wenn ein Vorschlag für eine Codeänderung die verschiedenen Stufen der Validierung durchlaufen hat, sind es diese Maintainer, die die Hauptverantwortung für die Zusammenführung des neuen Codes mit der Bitcoin Core Software übernehmen. Bevor sie mit der Zusammenführung fortfahren, prüfen die Maintainer, ob der Code den grundlegenden Prinzipien des Projekts entspricht, ob er die für die Aufnahme erforderlichen Mindeststandards erreicht hat, und sie beurteilen auch den allgemeinen Konsens der Mitwirkenden über diese Änderung. Zum Zeitpunkt der Erstellung dieser Definition gibt es nur noch fünf Maintainer bei Bitcoin Core: Hennadii Stepanov, Michael Ford, Ava Chow, Gloria Zhao und Ryan Ofsky.

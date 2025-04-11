@@ -1,0 +1,5 @@
+---
+term: BERBAGI KESULITAN
+
+---
+Target tingkat kesulitan yang lebih tinggi daripada Bitcoin (sehingga lebih mudah), ditentukan oleh sebuah pool penambangan untuk memenuhi syarat sebuah hash dari sebuah keping dan menilai kontribusi setiap penambang dalam pool tersebut. Untuk mengelola beban verifikasi secara efisien dan memastikan bahwa setiap penambang, terlepas dari kekuatan komputasi mereka, mengirimkan bagian secara teratur, pool menyesuaikan tingkat kesulitan bagian. Tingkat kesulitan yang diberikan kepada setiap penambang menentukan jumlah share yang mereka kumpulkan: sebagai contoh, jika seorang penambang memiliki tingkat kesulitan 10 dan mengirimkan 5 bukti kerja yang valid pada tingkat kesulitan ini, mereka akan mendapatkan 50 share. Penambang yang lebih kuat dengan tingkat kesulitan 100 yang mengirimkan 7 bukti kerja yang valid akan menerima 700 saham. Sistem ini memungkinkan kuantifikasi yang tepat untuk hashrate setiap penambang dan distribusi reward sesuai dengan metode perhitungan kompensasi yang dipilih (PPS, PPLNS, TIDES...).

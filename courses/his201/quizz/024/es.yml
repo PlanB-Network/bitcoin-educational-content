@@ -1,0 +1,9 @@
+question: ¿Quién es el individuo que reaccionó positivamente a la publicación del documento técnico en noviembre de 2008?
+answer: Hal Finney
+wrong_answers:
+  - James A. Donald
+  - John R. Levine
+  - Ray Dillinger
+explanation: |
+  El 7 de noviembre, escribió a la lista que Bitcoin [parecía] ser una idea muy prometedora. Los otros fueron más escépticos. (https: //www.metzdowd.com/pipermail/cryptography/2008-November/014827.html)
+reviewed: false

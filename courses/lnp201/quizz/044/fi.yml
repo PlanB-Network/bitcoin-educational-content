@@ -1,9 +1,9 @@
-question: Mikä on nopein ja vähiten kallis kanavan sulkemistyyppi?
-answer: Yhteistyöllinen sulkeminen.
+question: Mitä lähetysnode tekee, kun maksureitti epäonnistuu riittämättömän likviditeetin vuoksi?
+answer: Se yrittää toista reittiä, kunnes löytää toimivan
 wrong_answers:
-  - Pakotettu sulkeminen.
-  - Huijarin tekemä sulkeminen.
-  - Ei ole eroa nopeudessa ja kustannuksissa eri sulkemistyyppejen välillä.
+  - Se lähettää automaattisesti hyvityspyyntön vastaanottajalle
+  - Se sulkee kanavan ja luo uuden suoran kanavan
+  - Se pyytää välittäviä nodeja lisäämään likviditeettiään
 explanation: |
-  Yhteistyöllisessä sulkemisessa molemmat osapuolet kommunikoivat ja sopivat kanavan lopullisesta tilasta. Tämä on nopein ja vähiten kallis vaihtoehto.
+  Kun reitti epäonnistuu, lähetysnode yrittää muita vaihtoehtoisia reittejä, kunnes toimiva polku löytyy tai kaikki vaihtoehdot on käytetty loppuun.
 reviewed: false

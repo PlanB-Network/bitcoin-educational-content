@@ -1,0 +1,11 @@
+question: Millist rolli mängib raha inimtegevuse ajalises koordineerimises?
+answer: See võimaldab väärtuse säilitamist olevikus ja selle ülekandmist tulevasele minale.
+wrong_answers:
+  - See võimaldab väärtuse säilitamist tulevikus ja selle ülekandmist praegusele minale.
+  - See võimaldab väärtuse säilitamist olevikus ja selle ülekandmist teistele inimestele.
+  - See võimaldab väärtuse säilitamist tulevikus ja selle ülekandmist teistele inimestele.
+explanation: |
+  Raha säilitades, st säästes, kaitsevad inimesed end tuleviku ebakindluse eest
+  ja seeläbi võimaldavad nad endale suunata oma tegevusi pikematele ajahorisontidele.
+  Siiski, nad saavad seda saavutada ainult juhul, kui kasutatav raha kujutab endast väärtuse säilitamise vahendit.
+reviewed: false

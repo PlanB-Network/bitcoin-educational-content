@@ -1,9 +1,0 @@
-question: Wie wird der öffentliche Schlüssel des Kindes bei der Ableitung von Kinderschlüsseln erhalten?
-answer: Der öffentliche Schlüssel des Kindes wird erhalten, indem der private Schlüssel des Kindes mit dem Generator der elliptischen Kurve multipliziert wird.
-wrong_answers:
-  - Der öffentliche Schlüssel des Kindes wird erhalten, indem der private Schlüssel des Kindes zum Generator der elliptischen Kurve addiert wird.
-  - Der öffentliche Schlüssel des Kindes wird erhalten, indem der private Schlüssel des Kindes vom Generator der elliptischen Kurve subtrahiert wird.
-  - Der öffentliche Schlüssel des Kindes wird erhalten, indem der private Schlüssel des Kindes durch den Generator der elliptischen Kurve geteilt wird.
-explanation: |
-  Der öffentliche Schlüssel des Kindes wird erhalten, indem der private Schlüssel des Kindes mit dem Generator der elliptischen Kurve multipliziert wird. Dies ist Teil der mathematischen Berechnungen, die bei der Ableitung von Kinderschlüsseln verwendet werden.
-reviewed: false

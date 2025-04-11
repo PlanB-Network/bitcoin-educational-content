@@ -1,0 +1,9 @@
+question: ¿Quién estableció la primera cooperativa de minería para producir un bloque en Bitcoin?
+answer: doublec
+wrong_answers:
+  - slush
+  - puddinpop
+  - m0mchil
+explanation: |
+  Lo promovió el 1 de diciembre. El bloque fue [encontrado](https: //bitcointalk.org/index.php?topic=2027.msg26688#msg26688) el 4 de diciembre de 2010. Por otro lado, la cooperativa de Slush se lanzó el 16 de diciembre.
+reviewed: false

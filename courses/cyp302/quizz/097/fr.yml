@@ -1,0 +1,9 @@
+question: Pourquoi la confidentialité seule ne suffit-elle pas pour garantir une communication sécurisée ?
+answer: Parce qu'un attaquant peut toujours intercepter et modifier le message sans comprendre son contenu
+wrong_answers:
+  - Parce que la confidentialité est trop difficile à obtenir
+  - Parce que les clés privées peuvent être facilement devinées
+  - Parce que les messages ne peuvent pas être authentifiés sans une signature numérique
+explanation: |
+  La confidentialité protège le contenu des messages, mais sans MAC, un attaquant pourrait tout de même intercepter et modifier un message sans le comprendre, compromettant ainsi l'intégrité de la communication.
+reviewed: false

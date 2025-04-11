@@ -1,0 +1,9 @@
+question: ¿Cuáles son las implicaciones del teorema de Euler en el contexto de la criptografía asimétrica?
+answer: Simplifica el cálculo de potencias
+wrong_answers:
+  - Permite la encriptación directa de mensajes
+  - Se utiliza para encontrar números primos
+  - Se utiliza para verificar la paridad de un número
+explanation: |
+  En la criptografía asimétrica, el teorema de Euler simplifica el cálculo de potencias en esquemas como RSA, ya que proporciona un método para manipular exponenciaciones modulares.
+reviewed: false

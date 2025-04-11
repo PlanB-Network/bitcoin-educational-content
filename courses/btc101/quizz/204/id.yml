@@ -1,0 +1,10 @@
+question: Apa salah satu hal yang harus Anda pertimbangkan ketika memilih platform DCA?
+answer: Ketersediaan di negara Anda.
+wrong_answers:
+  - Warna logo platform.
+  - Jumlah pengguna di platform.
+  - Usia dari platform.
+explanation: >-
+  Teks menyebutkan bahwa ketika memilih platform DCA, pilihan akan
+  lebih bergantung pada ketersediaan di negara Anda.
+reviewed: false

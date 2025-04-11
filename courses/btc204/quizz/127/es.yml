@@ -1,0 +1,13 @@
+question: ¿Cuál es la principal desventaja de los coinswaps y los atomic swaps en términos de privacidad?
+
+answer: No rompen el historial de las monedas intercambiadas
+
+wrong_answers:
+  - Son muy costosos en términos de comisiones por transacción
+  - Requieren el intercambio de información personal entre las partes
+  - Pueden ser objeto de análisis por parte de las plataformas de intercambio
+
+explanation: |
+  La principal desventaja de estos métodos es que son muy riesgosos sin el uso de una técnica adicional para romper el historial de la moneda.
+
+reviewed: false

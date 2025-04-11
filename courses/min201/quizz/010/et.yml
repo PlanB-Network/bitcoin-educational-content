@@ -1,0 +1,11 @@
+question: Kuidas saavad Bitcoin'i kaevurid aidata energiaülejääkide haldamisel ja elektrivõrkude stabiliseerimisel?
+answer: Bitcoin'i kaevurid saavad neelata energiaülejääke, toimides paindliku puhvrina, kohandades nõudlust pigem kui pakkumist. Maailmas, kus elektri tootmine taastuvatest (mittekontrollitavatest) allikatest pidevalt kasvab, võivad kaevurid mängida võtmerolli meie elektrivõrkude tasakaalu tagamisel, samal ajal kasu saades odavast või ülejäägist elektrist oma kaevandamisoperatsioonide jaoks.
+wrong_answers:
+  - Bitcoin'i kaevurid saavad aidata energiaülejääkide haldamisel, salvestades liigse energia akudesse.
+  - Bitcoin'i kaevurid saavad aidata energiaülejääkide haldamisel, müües liigse energia tagasi võrku.
+  - Bitcoin'i kaevurid saavad aidata energiaülejääkide haldamisel, muutes liigse energia soojuseks.
+explanation: |
+  Peatükk selgitab, et Bitcoin'i kaevurid saavad neelata energiaülejääke,
+  toimides paindliku puhvrina, kohandades nõudlust pigem kui pakkumist.
+  See aitab energiaülejääkide haldamisel ja elektrivõrkude stabiliseerimisel.
+reviewed: true

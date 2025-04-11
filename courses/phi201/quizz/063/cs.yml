@@ -1,0 +1,9 @@
+question: Jaký byl postoj středověké církve k úročeným půjčkám?
+answer: Zakazovala je.
+wrong_answers:
+  - Podporovala je.
+  - V určitých případech je tolerovala.
+  - Neměla k tomu žádný názor.
+explanation: |
+  Středověká církev zakazovala úročené půjčky, protože tuto praxi považovala za hřích lichvy, jelikož považovala za nemorální zisk z půjčky tím, že požaduje více než původní částku.
+reviewed: false

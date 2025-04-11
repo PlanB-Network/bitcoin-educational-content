@@ -1,5 +1,5 @@
 ---
-name: Torre de Vigilancia
+name: Watch Tower
 description: Comprender y utilizar una torre de vigilancia
 ---
 

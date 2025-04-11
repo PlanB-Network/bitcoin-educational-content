@@ -1,0 +1,10 @@
+question: Berapa waktu rata-rata antara pembuatan dua blok dalam protokol Bitcoin?
+answer: 10 menit
+wrong_answers:
+  - 5 menit
+  - 15 menit
+  - 20 menit
+explanation: >-
+  Rata-rata, sebuah blok dibuat setiap 10 menit dalam protokol Bitcoin.
+  Waktu ini tetap konstan tanpa memandang jumlah penambang dan kekuatan komputasi mereka.
+reviewed: false

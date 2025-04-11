@@ -1,0 +1,11 @@
+question: Hva er hovedmålet med en coinswap?
+
+answer: Å hemmelig overføre eierskapet av bitcoins
+
+wrong_answers:
+  - Øke hastigheten på transaksjoner
+  - Blande bitcoins
+  - Hemmelig bytte en altcoin mot bitcoin
+
+explanation: |
+  Coinswap bruker smartkontrakter for å muliggjøre en overføring av bitcoin-eierskap mellom to brukere, uten behov for tillit og uten at denne overføringen er eksplisitt synlig på blokkjeden.

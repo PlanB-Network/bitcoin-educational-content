@@ -1,0 +1,5 @@
+---
+term: ESADECIMALE
+
+---
+Sistema di numerazione in base 16, che utilizza quindi 16 simboli distinti per rappresentare i numeri. I primi 10 simboli sono le cifre da 0 a 9, identiche a quelle del sistema decimale (base 10), mentre i sei simboli successivi sono rappresentati dalle lettere da A a F. Così, A rappresenta il numero 10, B rappresenta 11, fino a F che rappresenta 15. Questo sistema è particolarmente utilizzato in informatica, in quanto offre una rappresentazione più concisa dei numeri binari (base 2). Questo sistema è particolarmente utilizzato in informatica, in quanto offre una rappresentazione più concisa dei numeri binari (base 2) e ogni cifra esadecimale rappresenta esattamente 4 bit, semplificando le conversioni. Questo sistema di numerazione viene spesso utilizzato per rappresentare le informazioni sui Bitcoin.

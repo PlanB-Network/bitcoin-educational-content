@@ -1,0 +1,10 @@
+question: Mis on üks viis vältimaks internetipettusi?
+answer: Kontrollige lehitsetava veebilehe identiteeti, eriti kontrollides laiendit ja domeeninime.
+wrong_answers:
+  - Kasutage avalikke Wi-Fi võrke.
+  - Kasutage saite, mis ei kasuta HTTPS protokolli.
+  - Kasutage saite, millel ei kuvata tabalukku.
+explanation: |
+  Internetipettuste vältimiseks on oluline kontrollida lehitsetava veebilehe identiteeti.
+  Seda saab teha kontrollides veebilehe laiendit ja domeeninime.
+reviewed: false

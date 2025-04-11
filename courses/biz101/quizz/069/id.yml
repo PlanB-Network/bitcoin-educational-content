@@ -1,0 +1,9 @@
+question: Perangkat lunak sumber terbuka mana yang disesuaikan dengan sistem pembayaran Bitcoin Profesional?
+answer: Server Pembayaran BTC
+wrong_answers:
+  - Pembayaran Bitcoin Swiss
+  - Simpul Terbuka
+  - Bitcoinize PoS
+explanation: |
+  BTC Pay Server disorot dalam kursus ini sebagai solusi sumber terbuka inti untuk pengaturan Profesional karena opsi dan kontrol integrasinya yang luas.
+reviewed: false

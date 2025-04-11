@@ -1,9 +1,9 @@
-question: Bitcoinのブロックチェーンのサイズはどれくらいですか？
-answer: 約500GB
+question: 現在のBitcoinブロックチェーンのサイズはどれくらいですか？
+answer: 約500GBです。
 wrong_answers:
-  - 約100GB
-  - 約1TB
-  - 約2TB
-explanation: >-
-  Bitcoinのブロックチェーンは、サイズが約500GBです。
-reviewed: false
+  - 約100GBです。
+  - 約1TBです。
+  - 約2TBです。
+explanation: |
+  2023年時点で、Bitcoinブロックチェーンのサイズは約500GBです。
+reviewed: true

@@ -1,0 +1,13 @@
+question: Hva er Bitcoins grunnleggende oppdrag?
+answer: Å være et sensurresistent verdioverføringsnettverk.
+wrong_answers:
+  - Å erstatte tradisjonelle valutaer.
+  - Å gjøre transaksjoner anonyme.
+  - Å skape en ny form for investering.
+explanation: |
+  Det grunnleggende oppdraget til Bitcoin er å være
+  et sensurresistent verdioverføringsnettverk. Bitcoin-
+  fellesskapet jobber konstant for å styrke
+  distribusjonen, motstandsdyktigheten mot sensur, og nettverkets
+  anti-skjørhet.
+reviewed: true

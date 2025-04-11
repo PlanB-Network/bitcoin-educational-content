@@ -1,0 +1,8 @@
+question: Hva er formålet med en arveplan for Bitcoin?
+answer: For å sikre at dine kjære kan få tilgang til dine Bitcoins etter din død.
+wrong_answers:
+  - For å utvinne nye Bitcoins.
+  - For å handle med Bitcoins.
+  - For å konvertere Bitcoins til andre kryptovalutaer.
+explanation: |
+  En arveplan for Bitcoin er en plan som sikrer at dine kjære kan få tilgang til dine Bitcoins etter din død. Den brukes ikke til å utvinne nye Bitcoins, handle med Bitcoins, eller konvertere Bitcoins til andre kryptovalutaer.

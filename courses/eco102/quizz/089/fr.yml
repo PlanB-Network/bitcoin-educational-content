@@ -1,0 +1,8 @@
+question: Quelle est, selon Bastiat, la caractéristique principale de la vraie solidarité ?
+answer: Elle est volontaire et non contrainte par la loi
+wrong_answers:
+  - Elle est financée par les impôts
+  - Elle est imposée pour répondre à des besoins collectifs
+  - Elle est réglementée par l'État pour éviter les abus
+explanation: |
+  Pour Bastiat, la vraie solidarité ne peut venir que d'un engagement volontaire, libre de toute obligation légale.

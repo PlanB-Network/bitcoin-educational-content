@@ -1,11 +1,11 @@
-question: Qual é o método padrão de fazer backup da chave privada em uma carteira de Bitcoin?
-answer: Inserindo sua frase mnemônica em qualquer software de carteira
+question: Qual é o método padrão para restaurar sua carteira?
+answer: Inserir sua frase mnemônica em qualquer software de carteira.
 wrong_answers:
-  - Salvando sua frase mnemônica em um arquivo digital
-  - Escrevendo sua frase mnemônica em um quadro branco
-  - Compartilhando sua frase mnemônica com um amigo de confiança
+  - Salvar sua frase mnemônica em um arquivo digital.
+  - Escrever sua frase mnemônica em um quadro branco.
+  - Compartilhar sua frase mnemônica com um amigo de confiança.
 explanation: |
-  O método padrão de fazer backup da chave privada em uma carteira de Bitcoin
-  é inserindo sua frase mnemônica em qualquer software de carteira. Isso permite que você
-  restaure sua carteira.
+  O método padrão de fazer backup da chave privada em uma
+  carteira Bitcoin é inserindo sua frase mnemônica em qualquer
+  software de carteira. Isso permite que você restaure sua carteira.
 reviewed: false

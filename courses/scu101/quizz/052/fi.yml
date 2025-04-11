@@ -1,11 +1,12 @@
-question: Miksi laitteistotunnisteet, kuten USB-avaimet tai älykortit, katsotaan tarjoavan optimaalisen turvallisuuden 2FA:lle?
-answer: Ne tuottavat uniikin yksityisen avaimen jokaiselle sivustolle ja tarkistavat URL-osoitteen ennen yhteyden sallimista.
+question: Miksi laitteistotunnisteet, kuten USB-avaimet tai älykortit, katsotaan tarjoavan optimaalisen turvallisuuden 2FA; ssa?
+answer: Ne tuottavat uniikin yksityisen avaimen jokaiselle sivustolle ja varmistavat URL-osoitteen ennen yhteyden sallimista.
 wrong_answers:
-  - Ne ovat fyysisesti vaikeampia varastaa
-  - Ne ovat kalliimpia, joten niiden täytyy olla parempia
-  - Ne ovat uudempaa teknologiaa, joten niiden täytyy olla parempia
+  - Ne ovat fyysisesti vaikeampia varastaa, mutta jos varkaat onnistuvat, he voivat helposti purkaa laitteesta salaisuudet.
+  - Ne tuottavat vain yhden salasanan, jota käytetään jokaisella sivustolla ja varmistavat URL-osoitteen ennen yhteyden sallimista.
+  - Ne ovat uudempaa teknologiaa ja kalliita, joten niiden täytyy olla parempia.
 explanation: |
-  Laitteistotunnisteet tarjoavat optimaalisen turvallisuuden, koska ne tuottavat uniikin
-  yksityisen avaimen jokaiselle sivustolle ja tarkistavat URL-osoitteen ennen yhteyden sallimista. Tämä
-  tekee hakkerin luvattoman pääsyn saamisesta paljon vaikeampaa.
-reviewed: false
+  Laitteistotunnisteet tarjoavat optimaalisen turvallisuuden, koska ne
+  tuottavat uniikin yksityisen avaimen jokaiselle sivustolle ja varmistavat
+  URL-osoitteen ennen yhteyden sallimista. Tämä tekee hakkerin
+  luvattoman pääsyn saamisen paljon vaikeammaksi.
+reviewed: true

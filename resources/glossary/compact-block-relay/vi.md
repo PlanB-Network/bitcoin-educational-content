@@ -1,0 +1,5 @@
+---
+term: COMPACT BLOCK RELAY
+
+---
+Protocol introduced in Bitcoin Core in 2016 through BIP152, which proposes a bandwidth-saving method for network nodes. Compact Block Relay allows for the communication of block information in a compact manner, based on the assumption that nodes already have most of the transactions of a recent block in their mempool. Instead of transmitting each transaction in full, which would result in duplication, Compact Block Relay proposes sending only short identifiers for transactions already known to peers, accompanied by a few selected transactions (notably the coinbase transaction and those the node is likely not to know). The node can then request any missing transactions from its peers. Compact Block Relay thus reduces the amount of data exchanged during block propagation, which in turn lowers bandwidth spikes and improves the overall efficiency of the network.

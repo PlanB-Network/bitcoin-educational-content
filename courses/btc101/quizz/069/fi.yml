@@ -1,9 +1,12 @@
-question: Mikä on arvioitu määrä bitcoineja liikkeessä ensimmäisen puolittumisen jälkeen?
-answer: 10,500,000 BTC
+question: Mikä oli arvioitu määrä bitcoineja liikkeessä ensimmäisen puolittumisen jälkeen?
+answer: 10,500,000 BTC.
 wrong_answers:
-  - 5,250,000 BTC
-  - 15,750,000 BTC
-  - 21,000,000 BTC
+  - 5,250,000 BTC.
+  - 15,750,000 BTC.
+  - 21,000,000 BTC.
 explanation: |
-  Ensimmäisen puolittumisen, joka tapahtuu lohkokorkeudessa 210,000, jälkeen liikkeessä olevien bitcoinien arvioitu määrä oli 10,500,000 BTC, mikä on puolet kokonaismäärästä bitcoineja, jotka tulevat olemaan liikkeessä.
-reviewed: false
+  Ensimmäisen puolittumisen, joka tapahtui lohkokorkeudessa
+  210,000, jälkeen liikkeessä olevien bitcoinien arvioitu määrä
+  oli 10,500,000 BTC, mikä on puolet kokonaismäärästä bitcoineja,
+  jotka tulevat olemaan liikkeessä.
+reviewed: true

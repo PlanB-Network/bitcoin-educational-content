@@ -1,0 +1,9 @@
+question: ¿Cómo evita RGB el doble gasto durante una transición de estado?
+answer: Cerrar un sello existente y crear uno nuevo
+wrong_answers:
+  - Al verificar todas las transacciones en la cadena de bloques
+  - Al imponer firmas multisig en cada operación
+  - Validación de los datos del Estado Global
+explanation: |
+  Cerrar un sello con un UTXO gastado demuestra que una transición es única e irrevocable.
+reviewed: false

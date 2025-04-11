@@ -1,0 +1,12 @@
+question: Mengapa membeli bitcoin non-KYC?
+answer: Untuk memastikan privasi Anda
+wrong_answers:
+  - Untuk memastikan pendaftaran semua pengguna Bitcoin
+  - Untuk membeli dengan harga rendah
+  - Untuk menjual dengan harga rendah
+explanation: >-
+  Membeli bitcoin non-KYC berarti memperoleh bitcoin tanpa melalui prosedur verifikasi 
+  Know Your Customer yang biasanya diperlukan oleh banyak bursa dan platform. 
+  Salah satu alasan utama individu mungkin memilih rute ini adalah untuk menjaga privasi mereka, 
+  memastikan bahwa detail pribadi dan aktivitas keuangan mereka tetap tidak diungkapkan.
+reviewed: true

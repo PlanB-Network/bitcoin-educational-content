@@ -1,0 +1,9 @@
+question: Vai trò của định lý Bayes trong xác suất là gì?
+answer: Nó cho phép tính toán xác suất có điều kiện bằng cách đảo ngược các sự kiện.
+wrong_answers:
+  - Nó cung cấp xác suất xảy ra của một sự kiện đơn lẻ.
+  - Nó xác định tổng xác suất của tất cả các sự kiện có thể.
+  - Nó chỉ áp dụng cho các biến liên tục.
+explanation: |
+  Định lý Bayes cho phép tính toán xác suất của một sự kiện A khi biết B bằng cách đảo ngược các xác suất và là yếu tố quan trọng trong lý thuyết xác suất.
+reviewed: false

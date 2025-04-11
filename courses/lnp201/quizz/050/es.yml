@@ -1,9 +1,8 @@
-question: ¿Cuáles son los dos tipos de tarifas en la Red Lightning?
-answer: Una tarifa fija independientemente del monto y una tarifa variable.
+question: ¿Por qué un vendedor podría realizar un pago ficticio en un canal?
+answer: Para mover liquidez al lado opuesto
 wrong_answers:
-  - Una tarifa de transacción y una tarifa de enrutamiento.
-  - Una tarifa del remitente y una tarifa del receptor.
-  - Una tarifa de red y una tarifa de canal.
+  - Para disminuir las tarifas de enrutamiento
+  - Para aumentar la capacidad total de sus canales
+  - Para bloquear fondos a largo plazo
 explanation: |
-  En la Red Lightning, hay dos tipos de tarifas; una tarifa fija independientemente del monto (por defecto es 1 SAT pero puede ser modificada) y una tarifa variable (0.01% por defecto).
-reviewed: false
+  Al realizar un pago ficticio, un vendedor mueve liquidez de su lado al lado opuesto del canal, liberando así capacidad entrante para recibir pagos.

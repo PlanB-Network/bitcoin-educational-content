@@ -1,0 +1,9 @@
+question: Nende riskide hulgas, milline ei ole seotud sularahas P2P vahetustega?
+answer: Andmelekkimise risk.
+wrong_answers:
+  - Isikliku turvalisuse risk.
+  - Varastamise risk.
+  - Õiguslik risk.
+explanation: |
+  Sularahas P2P vahetused kätkevad endas paljusid riske, kuid nende puhul ei nõuta KYC (Kliendi Tundmise) protseduuri läbiviimist. Seetõttu ei ole andmelekkimise riski.
+reviewed: false

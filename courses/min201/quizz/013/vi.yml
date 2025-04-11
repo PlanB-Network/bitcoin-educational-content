@@ -3,9 +3,11 @@ question: Quy định và giá điện ảnh hưởng như thế nào đến vi�
 answer: Quy định và giá điện có ảnh hưởng đáng kể đến việc đào Bitcoin. Các thợ đào luôn tìm kiếm nguồn điện giá rẻ để tối đa hóa lợi nhuận của họ. Do đó, chi phí điện cao ở một số khu vực không thu hút các thợ đào đến những khu vực này. Các thợ đào thường hướng đến các khu vực có giá điện thấp, thường là ở các quốc gia đang phát triển hoặc các quốc gia có dư thừa năng lượng.
 
 wrong_answers:
-  - Quy định và giá điện ảnh hưởng đến việc đào Bitcoin bằng cách quyết định loại máy đào có thể được sử dụng.
-  - Quy định và giá điện ảnh hưởng đến việc đào Bitcoin bằng cách quyết định loại phần mềm đào có thể được sử dụng.
-  - Quy định và giá điện ảnh hưởng đến việc đào Bitcoin bằng cách quyết định kích thước của nhóm đào có thể được hình thành.
+  - Quy định và giá điện ảnh hưởng đến việc đào Bitcoin bằng cách xác định loại máy đào có thể được sử dụng.
+  - Quy định và giá điện ảnh hưởng đến việc đào Bitcoin bằng cách xác định loại phần mềm đào có thể được sử dụng.
+  - Quy định và giá điện ảnh hưởng đến việc đào Bitcoin bằng cách xác định kích thước của nhóm đào có thể được hình thành.
 
 explanation:
-  Chương này giải thích rằng quy định và giá điện có ảnh hưởng đáng kể đến việc đào Bitcoin. Các thợ đào luôn tìm kiếm nguồn điện giá rẻ để tối đa hóa lợi nhuận của mình, và do đó thường hướng đến các khu vực có giá điện thấp.
+  Chương này giải thích rằng quy định và giá điện có ảnh hưởng đáng kể đến việc đào Bitcoin. Các thợ đào luôn tìm kiếm nguồn điện giá rẻ để tối đa hóa lợi nhuận của họ và do đó thường hướng đến các khu vực có giá điện thấp.
+
+reviewed: true

@@ -1,0 +1,9 @@
+question: Jaká byla cena v dolarech podle předpovědi Hala Finneyho v lednu 2009?
+answer: 10,000,000
+wrong_answers:
+  - 1,000,000
+  - 100,000
+  - 10,000
+explanation: |
+  Napsal, že možnost generování jednotek dnes za pár centů výpočetního času by mohla být velmi dobrá sázka.
+reviewed: false

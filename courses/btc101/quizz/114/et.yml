@@ -1,0 +1,9 @@
+question: Millal esitleti Bitcoini esmakordselt maailmale?
+answer: 31. oktoober 2008
+wrong_answers:
+  - 3. jaanuar 2009
+  - 22. november 2009
+  - 12. detsember 2010
+explanation: |
+  Bitcoin esitleti maailmale esmakordselt 31. oktoobril 2008, kui Satoshi Nakamoto saatis e-kirja cypherpunkide postiloendisse, mis sisaldas Bitcoini Valge Raamatu.
+reviewed: true

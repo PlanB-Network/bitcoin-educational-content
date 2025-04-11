@@ -1,9 +1,9 @@
-question: Quel est le principal avantage des machines spécialisées SHA256, ou ASIC, dans le minage de Bitcoin?
-answer: Elles augmentent le taux de hachage par joule
+question: Quel est l'avantage principal des machines spécialisées SHA256, ou ASICs, dans le minage de Bitcoin ?
+answer: Elles augmentent le taux de hachage par joule.
 wrong_answers:
-  - Elles réduisent la consommation d'énergie
-  - Elles augmentent la vitesse des transactions
-  - Elles augmentent la sécurité du réseau
-explanation: |
-  Les machines spécialisées SHA256, ou ASIC, augmentent le taux de hachage par joule dans le minage de Bitcoin. Cela signifie le nombre de tentatives par seconde et par énergie consommée.
-reviewed: false
+  - Elles réduisent la consommation d'énergie.
+  - Elles augmentent la vitesse des transactions.
+  - Elles augmentent la sécurité du réseau.
+explanation: >-
+  Les machines spécialisées SHA256, ou ASICs, augmentent le taux de hachage par joule dans le minage de Bitcoin. Cela signifie le nombre de tentatives par seconde et par énergie consommée.
+reviewed: true

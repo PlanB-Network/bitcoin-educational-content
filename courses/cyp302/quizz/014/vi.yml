@@ -1,0 +1,8 @@
+question: Người dùng nên có thái độ như thế nào đối với quyền riêng tư của họ trong môi trường hiện đại?
+answer: Giả định rằng luôn có ai đó đang nghe lén
+wrong_answers:
+  - Chỉ dựa vào Wi-Fi
+  - Tin rằng dữ liệu di động hoàn toàn an toàn
+  - Chỉ sử dụng kết nối có dây
+explanation: |
+  Trong một thế giới mà nhiều kênh giao tiếp có thể bị nghe lén, thì việc giả định rằng có thể có một bên thứ ba đang nghe là điều khôn ngoan, làm cho việc mã hóa trở nên cần thiết.

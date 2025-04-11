@@ -1,0 +1,11 @@
+question: 什么是coinswap的主要目标？
+
+answer: 秘密转移比特币的所有权
+
+wrong_answers:
+  - 增加交易速度
+  - 混合比特币
+  - 秘密交换一种altcoin为比特币
+
+explanation: |
+  Coinswap利用智能合约使两个用户之间可以进行比特币所有权的转移，无需信任且这种转移在区块链上不会明显可见。

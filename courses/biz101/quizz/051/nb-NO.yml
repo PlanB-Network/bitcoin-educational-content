@@ -1,0 +1,9 @@
+question: Hvilken type virksomhet vil mest sannsynlig synes at en enkel csv-fil er tilstrekkelig for regnskapsføring?
+answer: Små bedrifter
+wrong_answers:
+  - Store multinasjonale selskaper
+  - Store finansinstitusjoner
+  - Høyfrekvente handelsplattformer
+explanation: |
+  De fleste små bedrifter drar nytte av enkelheten og detaljrikdommen som en csv-eksport gir.
+reviewed: false

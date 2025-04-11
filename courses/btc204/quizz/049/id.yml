@@ -1,0 +1,13 @@
+question: Mengapa operator XOR digunakan dalam BIP47?
+
+answer: Untuk mengenkripsi secara simetris payload dari kode pembayaran pengirim.
+
+wrong_answers:
+  - Untuk mengenkripsi secara asimetris payload dari kode pembayaran pengirim.
+  - Untuk mengenkripsi secara simetris metadata dari kode pembayaran pengirim.
+  - Untuk mengenkripsi secara asimetris metadata dari kode pembayaran pengirim.
+
+explanation: |
+  Operator XOR digunakan untuk mengenkripsi secara simetris payload dari kode pembayaran pengirim dalam BIP47.
+
+reviewed: false

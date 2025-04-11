@@ -5,5 +5,7 @@ wrong_answers:
   - 50%
   - 100%
 explanation: |
-  El mes con la inflación más alta en Hungría fue julio de 1946, con un récord de inflación de precios del 41,900,000,000,000,000%.
-reviewed: false
+  El mes con la inflación más alta en Hungría fue julio
+  de 1946, con una inflación de precios récord de
+  41,900,000,000,000,000%.
+reviewed: true

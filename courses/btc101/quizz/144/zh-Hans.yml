@@ -1,0 +1,9 @@
+question: 运行一个比特币节点，考虑到每10分钟1MB的区块，所需的带宽是多少？
+answer: 大约每月5GB
+wrong_answers:
+  - 大约每月1GB
+  - 大约每月10GB
+  - 大约每月20GB
+explanation: >-
+  考虑到每10分钟1MB的区块，运行一个比特币节点大约需要每月5GB的带宽。
+reviewed: false

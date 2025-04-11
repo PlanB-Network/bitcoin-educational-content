@@ -1,0 +1,9 @@
+question: Milline kriteerium võib aidata sõlmel valida efektiivse maksetee?
+answer: Edu tõenäosus, mis põhineb kanalite kogumahutavusel
+wrong_answers:
+  - Sõlmede vaheline geograafiline kaugus
+  - Madala taseme tasuga sõlmede olemasolu
+  - Sihtsõlme poolt tehtud maksete arv
+explanation: |
+  Kanalite kogumahutavus võib viidata suuremale edutõenäosusele, kuna see viitab suuremale likviidsuse kättesaadavusele tehingute jaoks.
+reviewed: false

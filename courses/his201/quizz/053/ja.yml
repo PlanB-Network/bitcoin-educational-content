@@ -1,0 +1,9 @@
+question: 2010年の夏に追加された何がその後のBitcoinでソフトフォークを可能にしたか？
+answer: OP_NOPオペレーションコード
+wrong_answers:
+  - アラートシステム
+  - ブロックサイズの制限
+  - 標準トランザクションフォーマット
+explanation: |
+  これらはスクリプトの実行時に無効にならないno-op命令でした。これにより、2015/2016年にプロトコルにOP_CHECKLOCKTIMEVERIFYとOP_CHECKSEQUENCEVERIFYが追加されることが可能になりました。
+reviewed: false

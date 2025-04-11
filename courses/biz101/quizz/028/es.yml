@@ -1,0 +1,9 @@
+question: ¿Por qué puede una empresa aceptar pagos con Bitcoin de sus clientes?
+answer: Aprovechar una base de usuarios cada vez mayor, reducir potencialmente las comisiones por transacción y disponer de un activo valioso en su tesorería.
+wrong_answers:
+  - Para garantizar que todos los clientes paguen más que el precio indicado.
+  - Para garantizar que nunca se apliquen impuestos ni requisitos normativos.
+  - Para que el proceso de pago sea más lento y complicado.
+explanation: |
+  Aceptar Bitcoin puede atraer a un nuevo grupo demográfico de compradores, reducir las tasas de procesamiento de pagos y crear un depósito de valor. También puede aumentar el alcance global, ya que Bitcoin no tiene fronteras y funciona las 24 horas del día.
+reviewed: false

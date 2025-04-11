@@ -1,0 +1,9 @@
+question: Welche Art von Gruppe ist besonders wichtig für die Public-Key-Kryptografie aufgrund ihrer Fähigkeit, alle Elemente durch Exponentiation zu generieren?
+answer: Zyklische Gruppen
+wrong_answers:
+  - Nicht-abelsche Gruppen
+  - Unendliche Gruppen
+  - Komplexe Zahlen Gruppen
+explanation: |
+  In der Kryptografie sind zyklische Gruppen essenziell, weil sie die Generierung aller Elemente der Gruppe durch die Exponentiation eines einzelnen Elements, genannt ein Generator, ermöglichen.
+reviewed: false

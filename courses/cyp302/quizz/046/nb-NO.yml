@@ -1,0 +1,9 @@
+question: Hvilken funksjon brukes for å beregne antallet heltall mindre enn N som er relativt primiske med N?
+answer: Eulers Phi-funksjon
+wrong_answers:
+  - Eulers Gamma-funksjon
+  - Eulers Sigma-funksjon
+  - Dirichlets Beta-funksjon
+explanation: |
+  Eulers Phi-funksjon bestemmer antallet heltall mindre enn N som er relativt primiske med N, et sentralt konsept i kryptografiteoremer basert på primtall.
+reviewed: false

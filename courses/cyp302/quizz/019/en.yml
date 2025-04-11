@@ -1,0 +1,9 @@
+question: What is the role of Bayes' theorem in probability?
+answer: It allows for the calculation of conditional probability by reversing the events.
+wrong_answers:
+  - It provides the probability of occurrence of a single event.
+  - It defines the total probability of all possible events.
+  - It applies only to continuous variables.
+explanation: |
+  Bayes' theorem enables the calculation of the probability of an event A given B by reversing the probabilities and is essential in probability theory.
+reviewed: false

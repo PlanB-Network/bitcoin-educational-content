@@ -1,11 +1,8 @@
-question: Onko salalauseen käyttö Bitcoin-lompakossa pakollista?
-answer: Ei, sen käyttö on valinnaista
+question: Mikä on P2WPKH-skriptien pääuutuus verrattuna P2PKH een?
+answer: Allekirjoitukset siirretään Todistaja-kenttään.
 wrong_answers:
-  - Kyllä, sen käyttö on pakollista
-  - Se riippuu lompakon tyypistä
-  - Se riippuu lompakossa olevien bitcoinien määrästä
+  - Osoitteet on koodattu base58check-muodossa.
+  - scriptPubKey sisältää yksityisen avaimen hajautuksen.
+  - P2WPKH ei ole yhteensopiva SegWitin kanssa.
 explanation: |
-  Salalause on lisäsalasana, joka voidaan integroida
-  Bitcoin-lompakkoon sen turvallisuuden lisäämiseksi. Sen käyttö on valinnaista ja jää
-  käyttäjän harkinnan varaan.
-reviewed: false
+  P2WPKH, joka esiteltiin SegWitin yhteydessä, siirtää allekirjoitukset erilliseen osioon nimeltä Todistaja estääkseen transaktioiden muunneltavuuden.

@@ -1,0 +1,11 @@
+question: Apa tujuan dari kursus Bitcoin ini?
+answer: Untuk membahas aspek moneter dari Bitcoin, cara menggunakannya, dan masa depannya.
+wrong_answers:
+  - Untuk membahas cara menambang Bitcoin.
+  - Untuk membahas cara mengatur Bitcoin.
+  - Untuk membahas cara membuat protokol Bitcoin baru.
+explanation: |
+  Tujuan dari kursus Bitcoin ini adalah untuk membahas aspek moneter
+  dari Bitcoin, termasuk cara membeli dan menjual bitcoin, menyimpannya secara aman dalam
+  dompet digital, dan menggunakannya untuk transaksi. Ini juga bertujuan untuk mengeksplorasi masa depan Bitcoin.
+reviewed: true

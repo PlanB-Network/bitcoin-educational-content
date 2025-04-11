@@ -1,0 +1,9 @@
+question: ¿Por qué son útiles en criptografía los campos de extensión con base 2?
+answer: Permiten la manipulación segura de cadenas binarias.
+wrong_answers:
+  - Simplifican los cálculos al reducir el número de operaciones.
+  - Previenen errores de cálculo al añadir redundancia.
+  - Limitan el rango de posibilidades al disminuir el número de elementos.
+explanation: |
+  Los campos de extensión con base 2 son convenientes porque sus elementos pueden ser vistos como cadenas binarias, facilitando la realización de operaciones sobre datos digitales a nivel binario en sistemas.
+reviewed: false

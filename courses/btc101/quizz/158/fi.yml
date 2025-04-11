@@ -1,12 +1,12 @@
 question: Mikä on Proof of Workin tarkoitus Bitcoin-verkossa?
-answer: Proof of Work varmistaa tiedon paikkansapitävyyden ilman luotettua kolmatta osapuolta.
+answer: Proof of Work varmistaa tiedon paikkansapitävyyden ilman kolmannen osapuolen luottamusta.
 wrong_answers:
-  - Proof of Workia käytetään uusien bitcoinien luomiseen.
-  - Proof of Workia käytetään Bitcoin-siirtojen vahvistamiseen.
-  - Proof of Workia käytetään Bitcoin-verkon turvaamiseen.
-explanation: >-
+  - Proof of Workia käytetään uusien bitcoinien luomiseen luottamalla kolmanteen osapuoleen.
+  - Proof of Workia käytetään Bitcoin-siirtojen vahvistamiseen luottamalla kolmanteen osapuoleen.
+  - Proof of Workia käytetään Bitcoin-protokollan muuttamiseen luottamalla kolmanteen osapuoleen.
+explanation: >
   Proof of Work on konsensusalgoritmi, jota käytetään Bitcoin-verkossa
   siirtojen vahvistamiseen ja uusien lohkojen luomiseen. Se vaatii louhijoilta monimutkaisten
   matemaattisten ongelmien ratkaisemista, mikä varmistaa tiedon aitouden verkossa
-  ilman tarvetta luotetulle kolmannelle osapuolelle.
-reviewed: false
+  ilman tarvetta luotettavalle kolmannelle osapuolelle.
+reviewed: true

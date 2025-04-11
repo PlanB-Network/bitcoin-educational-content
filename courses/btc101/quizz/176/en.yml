@@ -7,4 +7,4 @@ wrong_answers:
 explanation: >-
   The Bitcoin protocol is unique in that it operates on a global scale,
   24 hours a day, 7 days a week, making regulation difficult for financial authorities.
-reviewed: false
+reviewed: true

@@ -1,0 +1,10 @@
+question: Hva er informasjonskapsler i sammenheng med nettlesing?
+answer: Filer opprettet av nettsteder for å lagre informasjon på enheten din.
+wrong_answers:
+  - Små biter av data sendt fra et nettsted og lagret på brukerens datamaskin av brukerens nettleser.
+  - Programmer som sporer din online aktivitet.
+  - Virus som kan skade enheten din.
+explanation: |
+  I sammenheng med nettlesing er informasjonskapsler filer som opprettes av nettsteder
+  for å lagre informasjon på enheten din. De brukes til å huske dine preferanser,
+  innloggingsinformasjon og annen data for å forbedre din nettleseropplevelse.

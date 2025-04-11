@@ -1,10 +1,9 @@
-question: Mikä on HMAC:n tarkoitus Bitcoin-protokollassa?
-answer: Sitä käytetään estämään pituuden laajennushyökkäykset hierarkkisesti determinististen (HD) lompakoiden johdannassa.
+question: Miksi elliptistä käyrää secp256r1 ei käytetty Bitcoinissa?
+answer: Mahdollisesti takaportin välttämiseksi
 wrong_answers:
-  - Sitä käytetään muuntamaan mnemoninen lause siemeneksi.
-  - Sitä käytetään tuottamaan kiinteänkokoisen tulosteen.
-  - Sitä käytetään lisäämään ylimääräinen entropian lähde avainjohdannassa.
+  - Koska se on liian hidas
+  - Koska sitä ei ole standardoitu
+  - Koska se vaatii erikoistunutta laitteistoa
 explanation: |
-  HMAC:ia käytetään ensisijaisesti estämään pituuden laajennushyökkäykset hierarkkisesti determinististen (HD) lompakoiden johdannassa. Se ottaa viestin ja avaimen syötteinä
-  ja tuottaa kiinteänkokoisen tulosteen.
+  Satoshi Nakamoto todennäköisesti suosi secp256k1-käyrää, koska secp256r1: n parametreissa saattaa olla piilotettu haavoittuvuus.
 reviewed: false

@@ -1,0 +1,9 @@
+question: Operasi apa yang menentukan evolusi kontrak pintar di RGB?
+answer: Transisi Status, Kejadian, dan Perpanjangan Status
+wrong_answers:
+  - Pembuatan Segel, Ketaatan Kontrak, dan Validasi Akhir
+  - Transfer UTXO, Pembuatan Bukti, dan Komitmen Hash
+  - Bundel Transisi, Segel Sekali Pakai, dan Pembuatan Valuta
+explanation: |
+  Operasi ini membuat atau mengubah status kontrak, sekaligus menjamin keabsahannya melalui jangkar Bitcoin.
+reviewed: false

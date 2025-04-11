@@ -1,9 +1,9 @@
-question: Quelle est la fonction principale d'un portefeuille Bitcoin ?
-answer: Il fait référence à une collection de clés cryptographiques privées dérivées d'une seule clé maître.
+question: Pourquoi une phrase mnémonique de 24 mots est-elle souvent jugée superflue pour un portefeuille Bitcoin ?
+answer: Les clés dérivées n'offrent que 128 bits de sécurité
 wrong_answers:
-  - C'est un appareil physique qui stocke des cryptomonnaies.
-  - C'est une plateforme numérique pour acheter et vendre des cryptomonnaies.
-  - C'est un logiciel qui extrait de nouveaux bitcoins.
+  - Les logiciels ne prennent pas en charge les phrases de 24 mots
+  - Elle ne permet pas de dériver des clés publiques
+  - Les phrases plus courtes ne sont pas standardisées
 explanation: |
-  Un portefeuille Bitcoin, plus précisément un portefeuille déterministe hiérarchique (HD wallet), est une collection de clés cryptographiques privées dérivées d'une seule clé maître. Ces clés sont essentielles pour la possession de cryptomonnaies.
+  Bien qu'une phrase de 24 mots offre 256 bits de sécurité, les clés privées Bitcoin dérivées ne garantissent que 128 bits de sécurité, rendant l'excès inutile.
 reviewed: false

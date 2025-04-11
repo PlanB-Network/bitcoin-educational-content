@@ -1,9 +1,0 @@
-question: Quem paga as taxas de transação na Lightning Network?
-answer: O remetente do pagamento.
-wrong_answers:
-  - O destinatário do pagamento.
-  - Os intermediários.
-  - A própria rede.
-explanation: |
-  Na Lightning Network, o remetente do pagamento paga as taxas de transação. Essas taxas são cobradas pelos nós que são usados para rotear a transação.
-reviewed: false

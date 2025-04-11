@@ -1,0 +1,12 @@
+question: Apa salah satu motivasi di balik Bitcoin yang mengonsumsi energi melalui penambangan?
+answer: Untuk menyediakan mekanisme pertahanan yang kuat terhadap sentralisasi
+wrong_answers:
+  - Untuk membuat Bitcoin lebih mahal untuk digunakan
+  - Untuk mengurangi nilainya dengan meningkatkan biaya energi
+  - Untuk mencegah pengguna baru bergabung dengan jaringan
+explanation: |
+  Salah satu alasan Bitcoin mengonsumsi energi melalui penambangan adalah untuk
+  menyediakan mekanisme pertahanan yang kuat terhadap sentralisasi dan
+  manipulasi yang tidak semestinya. Jaringan terdistribusi dari penambang membantu mencegah
+  entitas terpusat dari mengambil alih jaringan atau memanipulasi aturan demi keuntungan mereka.
+reviewed: true

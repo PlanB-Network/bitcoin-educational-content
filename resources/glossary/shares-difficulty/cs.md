@@ -1,0 +1,5 @@
+---
+term: AKCIE OBTÍŽNOST
+
+---
+Cílová obtížnost vyšší než u Bitcoinu (tedy méně obtížná), kterou definuje těžební pool, aby mohl kvalifikovat hash podílu a posoudit příspěvek každého jednotlivého těžaře v rámci poolu. Aby bylo možné efektivně řídit ověřovací zátěž a zajistit, aby každý těžař bez ohledu na svůj výpočetní výkon pravidelně předkládal podíly, upravují pooly obtížnost podílů. Obtížnost přidělená každému těžaři určuje počet podílů, které nasbírá: například pokud má těžař přidělenou obtížnost 10 a předloží 5 platných důkazů práce s touto obtížností, získá 50 podílů. Výkonnější těžař s obtížností 100, který předloží 7 platných důkazů práce, získá 700 akcií. Tento systém umožňuje přesně vyčíslit hashrate každého těžaře a rozdělit odměny podle zvolené metody výpočtu odměny (PPS, PPLNS, TIDES...).

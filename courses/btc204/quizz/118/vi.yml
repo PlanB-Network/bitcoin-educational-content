@@ -1,0 +1,13 @@
+question: Trong các câu trả lời sau, đâu không phải là rủi ro khi gửi bitcoin đã qua coinjoin đến một nền tảng được quản lý?
+
+answer: Nền tảng có thể tăng phí giao dịch
+
+wrong_answers:
+  - Nền tảng có thể đóng băng tiền
+  - Nền tảng có thể chặn tài khoản của người dùng
+  - Nền tảng có thể báo cáo hành vi đáng ngờ cho cơ quan chức năng
+
+explanation: |
+  Nếu bạn gửi coin của mình đến một nền tảng giao dịch được quản lý, nhưng nó gần đây đã trải qua coinjoin, công cụ phân tích chuỗi của nền tảng sẽ phát hiện ra điều này. Nền tảng có thể từ chối chấp nhận UTXO của bạn đã qua coinjoin, hoặc thậm chí yêu cầu bạn giải thích, với rủi ro là tài khoản của bạn bị đình chỉ hoặc tiền của bạn bị đóng băng. Trong một số trường hợp, nền tảng cũng có thể báo cáo hành vi của bạn cho cơ quan nhà nước.
+
+reviewed: false

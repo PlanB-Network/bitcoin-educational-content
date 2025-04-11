@@ -1,9 +1,9 @@
-question: ¿Cuál es el posible inconveniente de la minería con fines de lucro?
-answer: Puede llevar a la centralización del poder de hash y tener un impacto ambiental significativo.
+question: ¿Cuál es la posible desventaja de minar para obtener beneficios?
+answer: Puede llevar a la centralización del poder de hash y también podría tener un impacto ambiental significativo.
 wrong_answers:
   - Puede llevar a una disminución en el precio de Bitcoin.
-  - Puede llevar a una disminución en la tasa de hash de la red.
+  - Puede llevar a una disminución en el hashrate de la red.
   - Puede llevar a una disminución en el número de nodos activos en la red.
 explanation: |
-  La minería con fines de lucro puede llevar a la centralización del poder de hash si solo unas pocas grandes empresas pueden permitirse invertir en equipos de minería de alta gama. Además, el consumo de energía de la minería con fines de lucro puede tener un impacto ambiental significativo.
-reviewed: false
+  Minar para obtener beneficios puede llevar a la centralización del poder de hash si solo unas pocas grandes empresas pueden permitirse invertir en equipos de minería de alta gama. Además, el consumo de energía de la minería para obtener beneficios podría tener un impacto ambiental significativo dependiendo de la fuente de energía.
+reviewed: true

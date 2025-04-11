@@ -1,0 +1,9 @@
+question: Jaký je odhadovaný čas na faktorizaci 2048bitového celého čísla s využitím všech současných výpočetních zdrojů?
+answer: Dlouho přesahující věk vesmíru
+wrong_answers:
+  - Několik měsíců s klasickými počítači
+  - Několik minut se superpočítači
+  - Několik desetiletí pro farmu těžící Bitcoin
+explanation: |
+  Složitost faktorizace 2048bitových čísel je taková, že by bylo prakticky nemožné ji vyřešit, i kdyby se využily všechny existující výpočetní zdroje po dobu přesahující věk vesmíru.
+reviewed: false

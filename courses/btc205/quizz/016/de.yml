@@ -1,9 +1,0 @@
-question: Was ist ein häufiger Nachteil der LNP2PBot- und RoboSat-P2P-Lösungen?
-answer: Sie erfordern technisches Wissen und ein Verständnis für Datenschutz.
-wrong_answers:
-  - Sie erleichtern nicht den Kauf und Verkauf von Bitcoin.
-  - Sie verwenden nicht das Lightning-Netzwerk.
-  - Sie sind nicht Open Source.
-explanation: |
-  Laut dem Kapitel erfordern sowohl LNP2PBot als auch RoboSat technisches Wissen und ein Verständnis für Datenschutz.
-reviewed: false

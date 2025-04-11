@@ -1,0 +1,5 @@
+---
+term: PREFIJOS BINARIOS
+
+---
+Unidades utilizadas en informática para cuantificar múltiplos de tamaños de datos establecidos en potencias de 2. A diferencia de los prefijos del sistema métrico decimal, que utilizan una base de 10, los prefijos binarios, como kibi (Ki), mebi (Mi), gibi (Gi) y tebi (Ti), multiplican por potencias de 2 ($2^{10}$, $2^{20}$, $2^{30}$, $2^{40}$ respectivamente). Estos prefijos son herencia de las primeras formas de medir el tamaño de la información en los ordenadores. A veces se encuentran en Bitcoin, por ejemplo, para designar el límite de tamaño de los archivos `BLOCKS/BLK*.DAT` que se utilizan para almacenar los datos en bruto del blockchain en el software Bitcoin Core. Estos archivos tienen una capacidad máxima de 128 mebibytes (MiB), lo que equivale a algo más de 134 megabytes (MB).

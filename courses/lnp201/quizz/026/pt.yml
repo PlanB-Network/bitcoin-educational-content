@@ -1,9 +1,8 @@
-question: O que acontece com os fundos em uma transferência na Lightning Network?
-answer: Os fundos nunca se movem, mas o saldo final é atualizado.
+question: Qual método de fechamento de canal é o mais econômico e rápido?
+answer: Fechamento cooperativo
 wrong_answers:
-  - Os fundos são transferidos de um lado para o outro.
-  - Os fundos são bloqueados até que o canal seja fechado.
-  - Os fundos são enviados para a rede Bitcoin.
+  - Fechamento forçado
+  - Fechamento com trapaça
+  - Nenhum é mais econômico e rápido
 explanation: |
-  Em uma transferência na Lightning Network, os fundos nunca se movem. Em vez disso, o saldo final é atualizado por meio de uma transação assinada, mas não publicada na cadeia de blocos.
-reviewed: false
+  O fechamento cooperativo é o método mais rápido e econômico porque ambas as partes concordam em fechar o canal, ajustando as taxas de acordo com as condições de mercado.

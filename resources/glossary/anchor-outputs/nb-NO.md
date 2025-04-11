@@ -1,0 +1,5 @@
+---
+term: ANCHOR OUTPUTS
+
+---
+Et forslag som tar sikte på å forbedre håndteringen av transaksjonsgebyrer i Lightning-kanaler. Ved hver tilstandsendring i en Lightning-kanal oppretter og signerer interessentene en ny forpliktelsestransaksjon som gjenspeiler den nye fordelingen av midler i kanalen. Problemet med denne mekanismen ligger i fastsettelsen av transaksjonsgebyrene på opprettelsestidspunktet. Transaksjonsgebyrene i Bitcoin-nettverket er nemlig gjenstand for betydelige svingninger, både oppover og nedover. Hvis gebyrene som er satt for den siste forpliktelsestransaksjonen er utilstrekkelige på tidspunktet for den ensidige stengingen av kanalen, vil det ikke bare ta lang tid å bekrefte transaksjonen, men de tidsmessige låsemekanismene (timelocks) kan også gjøre det mulig å stjele midler. Anchor outputs reserverer en liten del av midlene i en forpliktelsestransaksjon for å dekke fremtidige gebyrer. I tilfelle overbelastning i nettverket og stigende gebyrer kan ankerutganger gjøre det mulig å endre transaksjonsgebyrene etter at forpliktelsestransaksjonen er opprettet, og dermed sikre en tilstrekkelig rask stenging av Lightning-kanalen.

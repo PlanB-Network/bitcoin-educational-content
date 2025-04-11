@@ -1,0 +1,12 @@
+question: Hva er betydningen av Lightning Network i sammenheng med Bitcoin-mining?
+answer: Lightning Network har potensial til å redusere transaksjonsgebyrer betydelig, noe som dermed kan påvirke inntekten til minerne.
+wrong_answers:
+  - Lightning Network øker blokkstørrelsen, noe som øker minerens inntekt.
+  - Lightning Network reduserer energiforbruket til Bitcoin-mining.
+  - Lightning Network øker hastigheten på Bitcoin-mining.
+explanation: |
+  Lightning Network muliggjør raske og kostnadseffektive
+  transaksjoner utenfor hovedkjeden til Bitcoin. Dette har
+  potensial til å redusere transaksjonsgebyrer betydelig,
+  noe som kan påvirke minerens inntekt.
+reviewed: true

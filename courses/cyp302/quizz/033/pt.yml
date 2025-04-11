@@ -1,0 +1,9 @@
+question: Qual é a principal função de uma semente no contexto de cadeias pseudorrandômicas?
+answer: Servir como um ponto de partida para gerar uma cadeia mais longa
+wrong_answers:
+  - Definir o comprimento fixo de uma cadeia pseudorrandômica
+  - Verificar a integridade de uma cadeia pseudorrandômica
+  - Adicionar uma distribuição uniforme aos valores de uma cadeia
+explanation: |
+  A semente é uma string mais curta usada como ponto de partida por um algoritmo de expansão para gerar uma cadeia pseudorrandômica mais longa.
+reviewed: false

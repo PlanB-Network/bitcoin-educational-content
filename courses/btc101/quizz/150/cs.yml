@@ -3,9 +3,9 @@ answer: Těžaři zabezpečují síť a přidávají transakce do bloků.
 wrong_answers:
   - Těžaři vytvářejí nové bitcoiny.
   - Těžaři ověřují identitu uživatelů Bitcoinu.
-  - Těžaři stanovují cenu Bitcoinu.
+  - Těžaři určují cenu Bitcoinu.
 explanation: >-
   Těžaři využívají svůj výpočetní výkon k řešení složitých matematických problémů,
   což jim umožňuje přidávat nové transakce do blockchainu. Tento proces zabezpečuje
   síť a udržuje její integritu.
-reviewed: false
+reviewed: true

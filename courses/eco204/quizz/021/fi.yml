@@ -1,10 +1,10 @@
-question: Mikä on Caganin työn "The Monetary Dynamics of Hyperinflation" pääpaino?
+question: Mikä on Caganin työn The Monetary Dynamics of Hyperinflation pääpaino?
 answer: Hyperinflaation kvantitatiivinen ymmärtäminen
 wrong_answers:
   - Hyperinflaation kvalitatiivinen ymmärtäminen
   - Hyperinflaation historiallinen analyysi
   - Hyperinflaation teoreettinen malli
 explanation: |
-  Työssään "The Monetary Dynamics of Hyperinflation" Philip Cagan
+  Työssään The Monetary Dynamics of Hyperinflation Philip Cagan
   ehdottaa hyperinflaation kvantitatiivista ymmärtämistä.
 reviewed: false

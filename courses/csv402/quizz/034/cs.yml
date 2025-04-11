@@ -1,0 +1,9 @@
+question: Jakou akci provede Bob (příjemce), jakmile obdrží terminální zásilku od Alice (plátce)?
+answer: Kontrola platnosti přechodu stavu a podpis
+wrong_answers:
+  - Upravte schéma smlouvy a odešlete jej Alici
+  - Vytvoření faktury pro novou operaci
+  - Podepište Alicin PSBT a distribuujte jej v řetězci
+explanation: |
+  Bob zásilku zkontroluje, ujistí se, že přechod je v souladu s pravidly, a svým podpisem potvrdí souhlas.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Keynesi sõnul, mis on kullastandardi peamine probleem?
+answer: See piirab valitsuse võimet rahastada oma kulutusi
+wrong_answers:
+  - See soodustab inflatsiooni
+  - See takistab rahvusvahelist kaubandust
+  - Kõik teised vastused on õiged.
+explanation: |
+  Keynes uskus, et kullastandard piiras valitsuse võimet kohandada rahapakkumist, takistades neil oma kulutusi hõlpsalt rahastada, eriti majanduskriiside ajal.
+reviewed: false

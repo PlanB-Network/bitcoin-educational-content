@@ -1,0 +1,9 @@
+question: Como é que o RGB minimiza a sua visibilidade?
+answer: Raiz da torneira (Tapret)
+wrong_answers:
+  - OP_RETURN (Opret)
+  - Ajuste do Sig
+  - Ajuste de teclas
+explanation: |
+  O Taproot (Tapret) permite inserir compromissos numa transação de forma discreta e eficiente, assegurando simultaneamente a compatibilidade com as normas actuais.
+reviewed: false

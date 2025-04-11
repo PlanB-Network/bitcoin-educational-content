@@ -1,0 +1,9 @@
+question: Hvordan muliggjør Kerckhoffs prinsipp sikkerheten til åpne systemer som Linux?
+answer: Det tillater offentlig verifisering av potensielle sårbarheter
+wrong_answers:
+  - Det gjør krypteringsalgoritmer usynlige
+  - Det begrenser antallet potensielle brukere
+  - Det sikrer bruk av unike nøkler
+explanation: |
+  Kerckhoffs prinsipp muliggjør offentlig verifisering av sikkerhetsfeil, som i åpen kildekode-systemer, noe som gjør systemene mer pålitelige gjennom transparens. Sikkerheten sikres utelukkende av nøkkelen, ikke av krypteringsprosessen i seg selv.
+reviewed: false

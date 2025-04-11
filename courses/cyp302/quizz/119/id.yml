@@ -1,0 +1,8 @@
+question: Mengapa enkripsi AES dalam mode ECB tidak direkomendasikan untuk penggunaan yang aman?
+answer: Ini menghasilkan enkripsi deterministik
+wrong_answers:
+  - Ini memerlukan kunci lebih dari 128 bit
+  - Ini terlalu lambat untuk sebagian besar aplikasi modern
+  - Ini tidak memungkinkan membagi teks menjadi blok 128-bit
+explanation: |
+  Mode ECB tidak direkomendasikan karena menghasilkan enkripsi deterministik, yang berarti blok teks yang identik akan menghasilkan blok ciphertext yang identik, yang dapat dimanfaatkan untuk menebak informasi tentang plaintext.

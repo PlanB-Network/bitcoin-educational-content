@@ -1,0 +1,11 @@
+question: Milline neist variantidest on vale, kui kaotate seadme, millel on teie Bitcoin rahakott?
+answer: Saate oma rahakoti taastada ja oma bitcoine kulutada, lähtestades oma parooli
+wrong_answers:
+  - Kaotate kõik oma Bitcoinid, kui teil pole mnemoonilist fraasi
+  - Saate oma avalike võtmetega kontrollida, et teie bitcoinid ei ole veel liikunud
+  - Saate oma rahakoti taastada ja oma bitcoine kulutada mnemoonilise fraasiga
+explanation: |
+  Seadme kaotamine, millel on teie rahakott, ei tähenda tingimata
+  teie Bitcoinide kaotust. See, mis võimaldab teil oma rahakoti taastada ja
+  oma bitcoine kulutada, on mnemooniline fraas.
+reviewed: true

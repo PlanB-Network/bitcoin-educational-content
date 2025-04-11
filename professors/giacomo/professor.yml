@@ -1,4 +1,5 @@
-name: Giacomo Zucco 
+id: dac3b166-31ef-41f3-bfef-6e9d3855c12c
+name: Giacomo Zucco
 
 contributor_id: old-uncle
 
@@ -6,11 +7,9 @@ links:
   twitter: https://twitter.com/giacomozucco
   website: https://www.giacomozucco.com/
 
-tags:
-  - educator
-
 tips:
-  lightning_address: giacomozucco@getalby.com 
-
-
-
+  lightning_address: giacomozucco@getalby.com
+tags:
+  - development
+  - protocols
+  - innovation

@@ -1,0 +1,9 @@
+question: Mikä on sosiaalisen levottomuuden pääsyy, jonka Bastiat tunnistaa kirjeessään Cobdenille?
+answer: Yleisön taloudellinen tietämättömyys
+wrong_answers:
+  - Vauraiden luokkien alhainen verotus
+  - Suurteollisuuden nousu
+  - Sosiaalisten uudistusten hitaus
+explanation: |
+  Bastiat katsoo sosiaalisen levottomuuden johtuvan taloudellisesta tietämättömyydestä, mikä tekee väestöstä haavoittuvaisen sosialismin utopistisille ideoille.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 专业SHA256机器或ASIC在比特币挖矿中的主要优势是什么？
+answer: 它们提高了每焦耳的哈希率
+wrong_answers:
+  - 它们减少了能源消耗
+  - 它们加快了交易速度
+  - 它们增加了网络的安全性
+explanation: >-
+  专业SHA256机器或ASIC在比特币挖矿中提高了每焦耳的哈希率。这意味着每秒和每消耗的能量尝试的次数增加了。
+reviewed: false

@@ -1,10 +1,9 @@
-question: Was ist der Zweck des Widerrufsschlüssels in einer Verpflichtungstransaktion?
-answer: Er ermöglicht es der anderen Partei, die Gelder zu bewegen, ohne auf das Ende der Zeitsperre zu warten, wenn jemand versucht zu betrügen.
+question: Was begrenzt die Höhe einer indirekten Zahlung im Lightning-Netzwerk?
+answer: Die kleinste verfügbare Liquidität in einem Kanal des gewählten Pfades
 wrong_answers:
-  - Er ermöglicht es der anderen Partei, ihr Geld sofort wiederzuerlangen.
-  - Er ermöglicht es der anderen Partei, eine neue Verpflichtungstransaktion zu erstellen.
-  - Er ermöglicht es der anderen Partei, die Zeitsperre zu verlängern.
+  - Die Anzahl der beteiligten Zwischenknoten
+  - Die Gesamtkapazität des Lightning-Netzwerks
+  - Die von jedem Knoten festgelegten Routing-Gebühren
 explanation: |
-  Der Widerrufsschlüssel ist eine Sicherheitsmaßnahme in einer Verpflichtungstransaktion.
-  Wenn eine Partei versucht, durch Veröffentlichung eines alten Zustands zu betrügen, kann die andere Partei den Widerrufsschlüssel verwenden, um die Gelder zu bewegen, ohne auf das Ende der Zeitsperre zu warten und den Betrüger effektiv zu bestrafen.
+  Der maximale Betrag, den eine indirekte Zahlung übertragen kann, hängt von der niedrigsten verfügbaren Liquidität in den genutzten Kanälen ab, da jeder Kanal die Mittel auf jeder Seite anpassen muss.
 reviewed: false

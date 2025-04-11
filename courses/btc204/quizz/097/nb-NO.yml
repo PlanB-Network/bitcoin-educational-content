@@ -1,0 +1,13 @@
+question: Hva indikerer et stort anonset om personvernet til en UTXO?
+
+answer: Forbedret personvern.
+
+wrong_answers:
+  - Redusert personvern.
+  - Forbedret sporing.
+  - Raskere coinjoin transaksjonshastigheter.
+
+explanation: |
+  Et stort anonset indikerer et høyt nivå av anonymitet, ettersom det blir vanskelig å skille ut en spesifikk UTXO innenfor det homogene settet.
+
+reviewed: false

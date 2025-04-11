@@ -1,0 +1,8 @@
+question: Hva er hovedregelen angående midlene en deltaker kan sende i en betalingskanal?
+answer: De kan kun sende midler fra sin egen side av kanalen.
+wrong_answers:
+  - De kan sende opptil halvparten av kanalens totale kapasitet.
+  - De kan sende hvilket som helst beløp, så lenge det er en forhåndsavtale.
+  - De kan låne midler fra den andre deltakerens side ved behov.
+explanation: |
+  Hver deltaker er begrenset av antall satoshis de holder i kanalen for sine transaksjoner, noe som sikrer at midlene alltid er dekket.

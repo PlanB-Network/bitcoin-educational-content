@@ -1,9 +1,9 @@
-question: Quelle est la différence entre une phrase de passe et une phrase mnémonique dans un portefeuille Bitcoin ?
-answer: La phrase de passe est libre et peut atteindre une taille presque infinie, tandis que la phrase mnémonique est standardisée et doit respecter certaines contraintes de taille, de somme de contrôle et de codage.
+question: Quelle est la fonction principale des output script descriptors ?
+answer: Décrire intégralement un script de sortie et fournir les informations pour restaurer un portefeuille
 wrong_answers:
-  - La phrase de passe est standardisée, tandis que la phrase mnémonique est libre et peut atteindre une taille presque infinie.
-  - La phrase de passe et la phrase mnémonique sont identiques.
-  - La phrase de passe est facultative, tandis que la phrase mnémonique est obligatoire.
+  - Générer automatiquement des adresses multisignatures
+  - Remplacer la phrase mnémonique dans la sauvegarde des portefeuilles
+  - Simplifier les calculs des signatures numériques
 explanation: |
-  Pour dériver les clés d'un portefeuille HD, la phrase mnémonique et la phrase de passe sont nécessaires. La phrase de passe est libre et peut atteindre une taille presque infinie. Elle n'est pas incluse dans la phrase mnémonique, qui est standardisée et doit respecter certaines contraintes de taille, de somme de contrôle et de codage.
+  Les descriptors encapsulent toutes les informations nécessaires pour suivre un script particulier, incluant le chemin de dérivation et les clés utilisées, mais pas la phrase de récupération.
 reviewed: false

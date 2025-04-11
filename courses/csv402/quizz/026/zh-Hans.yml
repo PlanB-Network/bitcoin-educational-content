@@ -1,0 +1,9 @@
+question: RGB 架构中接口实现的目的是什么？
+answer: 将模式字段映射到接口中定义的名称
+wrong_answers:
+  - 编译 AluVM 脚本以进行验证
+  - 定义合约的全局状态和所有状态
+  - 存储客户端加密证明
+explanation: |
+  接口实现在模式的业务逻辑和接口可读取的表现形式之间建立联系。
+reviewed: false

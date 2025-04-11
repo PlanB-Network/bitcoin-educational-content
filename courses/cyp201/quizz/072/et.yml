@@ -1,0 +1,9 @@
+question: Mida tähendab apostroof (') või h tuletustee osana?
+answer: Kõvastatud tuletus
+wrong_answers:
+  - Tavaline tuletus
+  - Väline tuletus
+  - Mittestandardne tuletus
+explanation: |
+  Apostroof näitab, et tuletus on kõvastatud, nõudes lapse võtme genereerimiseks vanema privaatvõtit.
+reviewed: false

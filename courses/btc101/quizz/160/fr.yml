@@ -1,9 +1,13 @@
 question: Que se passe-t-il lors d'une attaque à 51% sur le réseau Bitcoin ?
-answer: Un agent possède plus de la moitié de la puissance de hachage et peut tenter de modifier la blockchain.
+answer: Un agent possède plus de la moitié du hashrate et peut tenter de modifier la blockchain.
 wrong_answers:
   - Un agent prend le contrôle de plus de la moitié des bitcoins en circulation.
-  - Un agent prend le contrôle de plus de la moitié des nœuds du réseau Bitcoin.
-  - Un agent prend le contrôle de plus de la moitié des pools de minage du réseau Bitcoin.
+  - Un agent prend le contrôle de plus de la moitié des nœuds dans le réseau Bitcoin.
+  - Un agent prend le contrôle de plus de la moitié des pools de minage dans le réseau Bitcoin.
 explanation: |
-  Dans une attaque à 51%, un agent disposant de plus de la moitié de la puissance de hachage du réseau pourrait potentiellement manipuler la blockchain en créant une chaîne alternative de blocs. Cependant, une telle attaque serait extrêmement coûteuse et peu susceptible d'être rentable, ce qui en fait un scénario peu probable.
-reviewed: false
+  Dans une attaque à 51%, un agent avec plus de la moitié du
+  hashrate du réseau pourrait potentiellement manipuler la
+  blockchain en créant une chaîne alternative de blocs.
+  Cependant, une telle attaque serait extrêmement coûteuse et
+  peu probable d'être rentable, rendant ce scénario peu probable.
+reviewed: true

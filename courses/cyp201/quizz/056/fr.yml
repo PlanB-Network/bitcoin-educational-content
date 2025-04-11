@@ -1,9 +1,9 @@
-question: Que représente la graine dans un portefeuille Bitcoin ?
-answer: Il s'agit d'un nombre aléatoire ou pseudo-aléatoire à partir duquel plusieurs clés sont générées.
+question: Quelle constante est utilisée pour dériver la clé privée maîtresse depuis la graine ?
+answer: Bitcoin Seed
 wrong_answers:
-  - C'est le mot de passe pour accéder au portefeuille.
-  - C'est la première transaction Bitcoin enregistrée dans le portefeuille.
-  - C'est la signature numérique du propriétaire du portefeuille.
+  - Master Key
+  - HD Wallet Seed
+  - Blockchain Root
 explanation: |
-  La graine dans un portefeuille Bitcoin est censée être un nombre aléatoire ou pseudo-aléatoire. Cette graine permet la génération de plusieurs clés, qui sont essentielles pour la possession de cryptomonnaie.
+  La constante Bitcoin Seed est utilisée comme clé dans la fonction HMAC-SHA512 pour dériver la clé privée maîtresse et le code de chaîne maître.
 reviewed: false

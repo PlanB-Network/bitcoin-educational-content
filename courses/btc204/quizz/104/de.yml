@@ -1,0 +1,13 @@
+question: Was ist die maximale Entropie einer Transaktion?
+
+answer: Die höchste Entropie, die eine Transaktionsstruktur erreichen kann.
+
+wrong_answers:
+  - Die niedrigste Entropie, die eine Transaktionsstruktur erreichen kann.
+  - Die tatsächliche Entropie einer Transaktion.
+  - Die Effizienz einer Transaktion.
+
+explanation: |
+  Maximale Entropie bezieht sich auf die höchste Entropie, die eine spezifische Transaktionsstruktur theoretisch erreichen kann.
+
+reviewed: false

@@ -1,0 +1,8 @@
+question: Apa konsekuensi dari Bank of England yang menempatkan bank-bank swasta pada posisi sekunder dalam sistem moneter?
+answer: Sebuah lapisan mata uang ketiga diciptakan
+wrong_answers:
+  - Bank of England bangkrut
+  - Nilai emas meningkat
+  - Bank of Amsterdam menjadi pusat ekonomi global
+explanation: |
+  Ketika Bank of England menempatkan bank-bank swasta pada posisi sekunder dalam sistem moneter, sebuah lapisan mata uang ketiga diciptakan. Nota yang dikeluarkan oleh bank-bank swasta tidak lagi dapat ditukar dengan emas tetapi dengan mata uang kertas dari Bank of England, yang sendiri dapat ditukar dengan emas.

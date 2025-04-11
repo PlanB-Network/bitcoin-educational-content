@@ -1,0 +1,10 @@
+question: Apa yang menjadi asal usul Bitcoin?
+answer: Internet
+wrong_answers:
+  - Blockchain
+  - Sistem perbankan
+  - Pasar saham
+explanation: |
+  Bab tersebut menyatakan bahwa Bitcoin berasal dari internet, membuatnya
+  dapat diakses oleh siapa saja yang memiliki akses internet.
+reviewed: false

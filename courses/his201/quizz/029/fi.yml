@@ -1,0 +1,9 @@
+question: Minkä kritiikin kyberpunkkien perustajajäsen John Gilmore esitti Satoshi Nakamoton keksinnölle tammikuussa 2009?
+answer: Bitcoin saastuttaa planeettaa
+wrong_answers:
+  - Bitcoin helpottaa veronkiertoa
+  - Bitcoin on altis Sybil-hyökkäyksille
+  - Bitcoin on deflatorinen
+explanation: |
+  Hän [kritikoi](https: //www.metzdowd.com/pipermail/cryptography/2009-January/015042.html) Bitcoinia sähkönkulutuksesta ja hiilidioksidin (kasvihuonekaasu) tuottamisesta.
+reviewed: false

@@ -1,10 +1,11 @@
 question: What is one of the main characteristics of Bitcoin?
 answer: It can be exchanged anywhere in the world without any authorization from any entity.
 wrong_answers:
-  - It can only be used by a select group of people.
+  - It can only be used by a selected group of people.
   - It requires authorization from a central authority to be used.
   - It can only be used in certain countries.
-explanation: >-
-  The text mentions that Bitcoin is pseudonymous and can be exchanged anywhere
-  in the world without any authorization from any entity.
-reviewed: false
+explanation: |
+  The text mentions that Bitcoin is pseudonymous and can be
+  exchanged anywhere in the world without the authorization
+  of any entity.
+reviewed: true

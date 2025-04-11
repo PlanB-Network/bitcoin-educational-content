@@ -1,10 +1,9 @@
-question: Mikä on BIP43:n ja BIP44:n tarkoitus Bitcoin-ekosysteemissä?
-answer: Ne standardisoivat HD-lompakoiden rakenteen ja hierarkian.
+question: Mikä on pääasiallinen rooli salasanalla Bitcoin HD-lompakossa?
+answer: Muuttaa avaimen johdannan parantaakseen turvallisuutta
 wrong_answers:
-  - Ne esittelivät 24-sanan mnemonic-lauseen.
-  - Ne mullistivat avainten luonti- ja säilytystavan.
-  - Ne ehdottivat lisäsalasanan lisäämistä vahvistamaan yksittäisten avainten turvallisuutta.
+  - Purkaa odottavat transaktiot
+  - Generoida lompakon UTXO: t
+  - Suojata lompakon pääsy kasvojentunnistuksella
 explanation: |
-  BIP43 ja BIP44 standardisoivat HD-lompakoiden rakenteen ja hierarkian,
-  tehden niistä helpommin saavutettavia ja käytettävämpiä suurelle yleisölle.
+  Salasana toimii toisena turvatekijänä, muuttaen avaimen johdannan siementä estääkseen pääsyn lompakkoon, jos mnemoninen lause on vaarantunut.
 reviewed: false

@@ -1,0 +1,9 @@
+question: What role does an LSP serve in Enterprise Bitcoin payments?
+answer: Manage high-volume transactions on Lightning
+wrong_answers:
+  - Store private keys of the Lightning wallet
+  - Print Lightning invoices
+  - Process refunds manually on Lightning
+explanation: |
+  LSPs handle complex and high-volume operations on Lightning.
+reviewed: false

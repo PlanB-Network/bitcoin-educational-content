@@ -5,6 +5,7 @@ wrong_answers:
   - Koska se ei ole käyttäjäystävällinen.
   - Koska se ei tue laajennuksia.
 explanation: |
-  Google Chrome -selain tunnetaan seurantalaitteistaan, jotka voivat kerätä tietoja
-  online-toiminnastasi. Tämä voi olla yksityisyyden suojaan liittyvä huolenaihe joillekin käyttäjille.
-reviewed: false
+  Google Chrome -selain tunnetaan seurantalaitteistaan, jotka voivat
+  kerätä tietoja online-toiminnastasi. Tämä voi olla
+  yksityisyyshuolenaihe joillekin käyttäjille.
+reviewed: true

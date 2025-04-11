@@ -1,4 +1,4 @@
-question: Mikä on kuvion nimi, joka koostuu yhdestä UTXO:sta sisääntulossa ja yhdestä UTXO:sta lähtötilanteessa?
+question: Mikä on kuvion nimi, joka koostuu yhdestä UTXO; sta sisääntulossa ja yhdestä UTXO; sta lähtötilanteessa?
 answer: Sweeping
 wrong_answers:
   - Konsolidointi

@@ -1,0 +1,9 @@
+question: ¿Cuál es la función principal del esquema en un contrato RGB?
+answer: Describir la lógica empresarial y la estructura de datos del contrato
+wrong_answers:
+  - Definición de la interfaz para los monederos RGB
+  - Gestión de la compilación de scripts en la cadena de bloques
+  - Validación criptográfica en cadena
+explanation: |
+  El esquema define la estructura declarativa, los tipos de datos y las reglas de validación del contrato, lo que permite gestionar la lógica empresarial en el lado del cliente.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Miksi pelkkä autentikoitu salausjärjestelmä ei riitä viestintäistunnossa?
+answer: Se ei takaa, että viesti on lähetetty lähettäjän toimesta istunnon aikana.
+wrong_answers:
+  - Se käyttää liian lyhyitä avaimia.
+  - Se ei salaa viestejä, jotka on lähetetty istunnon aikana.
+  - Se ei salli lähettäjän autentikointia istunnon aikana.
+explanation: |
+  Autentikoitu salausjärjestelmä ei suojaa hyökkäyksiltä kuten uudelleenlähetys, järjestyksen muuttaminen ja heijastus ilman tunnisteiden ja sekvenssinumeroiden kaltaisten indikaattorien lisäämistä.
+reviewed: false

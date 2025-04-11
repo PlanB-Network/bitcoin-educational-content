@@ -1,0 +1,9 @@
+question: Hva er hovedkarakteristikken til hyperinflasjon ifølge Cagans definisjon?
+answer: Ekstremt høy månedlig inflasjonsrate
+wrong_answers:
+  - Ekstremt høy årlig inflasjonsrate
+  - Ekstremt høy ukentlig inflasjonsrate
+  - Ekstremt høy daglig inflasjonsrate
+explanation: |
+  Ifølge Cagans definisjon er hyperinflasjon kjennetegnet ved en
+  ekstremt høy månedlig inflasjonsrate som overstiger 50%.

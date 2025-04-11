@@ -1,0 +1,12 @@
+question: Mis on paroolihalduri peamine funktsioon?
+answer: Salvestada ja hallata sinu paroole
+wrong_answers:
+  - Genereerida juhuslikke paroole
+  - Meeles pidada sinu kasutajatunnuseid
+  - Kaitsta sinu arvutit viiruste eest
+explanation: |
+  Paroolihaldur on tarkvara, mis salvestab ja haldab sinu paroole.
+
+  See aitab sul mitte kunagi kasutada sama parooli kaks korda, valida keerukaid ja turvalisi paroole,
+
+  ning lihtsustab sinu veebiturvalisuse haldamist.

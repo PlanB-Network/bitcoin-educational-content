@@ -1,11 +1,8 @@
-question: Mitkä ovat tehokkaan salalauseen ominaisuudet Bitcoin-lompakolle?
-answer: Pitkä (20–40 merkkiä) ja monipuolinen (käyttäen isoja kirjaimia, pieniä kirjaimia, numeroita ja symboleita)
+question: Miksi kuvaajat ovat erityisen hyödyllisiä multisignatuuri-lompakoille?
+answer: Ne sisältävät jokaisen tekijän xpubin ja kuvaavat multisignatuurirakennetta
 wrong_answers:
-  - Lyhyt ja yksinkertainen
-  - Pitkä ja yksinkertainen
-  - Lyhyt ja monipuolinen
+  - Ne poistavat tarpeen mnemoniselle lauseelle
+  - Ne yksinkertaistavat kovetettujen avainten luomista
+  - Ne tekevät multisignatuureista yhteensopivia kaikkien skriptien kanssa
 explanation: |
-  Tehokkaan salalauseen tulisi olla pitkä (20–40 merkkiä) ja monipuolinen
-  (käyttäen isoja kirjaimia, pieniä kirjaimia, numeroita ja symboleita). Sen ei tulisi
-  olla suoraan yhteydessä käyttäjään tai heidän ympäristöönsä.
-reviewed: false
+  Kuvaajat sisältävät kaikkien osallistujien laajennetut julkiset avaimet, mikä helpottaa multisignatuurikonfiguraatioiden palauttamista ja hallintaa.

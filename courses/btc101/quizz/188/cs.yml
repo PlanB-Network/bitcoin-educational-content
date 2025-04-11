@@ -1,9 +1,9 @@
 question: Co je BTCMap?
-answer: Platforma, která uvádí všechny obchodníky přijímající Bitcoin
+answer: Platforma, která uvádí všechny obchodníky, kteří přijímají Bitcoin.
 wrong_answers:
-  - Mapa všech bitcoinových dolů na světě
-  - Mapa všech bitcoinových burz na světě
-  - Mapa všech uživatelů Bitcoinu na světě
+  - Mapa všech těžebních zařízení Bitcoinu na světě.
+  - Mapa všech burz s Bitcoinem na světě.
+  - Mapa všech uživatelů Bitcoinu na světě.
 explanation: >-
-  BTCMap je otevřený a kolaborativní projekt, který uvádí všechny obchodníky přijímající Bitcoin, stejně jako různé bitcoinové komunity po celém světě.
-reviewed: false
+  BTCMap je open-source a kolaborativní projekt, který uvádí všechny obchodníky přijímající Bitcoin, stejně jako různé komunity Bitcoinu po celém světě.
+reviewed: true

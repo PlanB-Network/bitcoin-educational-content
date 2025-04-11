@@ -1,0 +1,5 @@
+---
+term: VEDELIKU VÕRGUSTIK
+
+---
+Blockstream'i poolt välja töötatud Bitcoini külgahela, mis pakub kiireid ja konfidentsiaalseid tehinguid. Erinevalt Bitcoini peamisest plokiahelast kasutab Liquid konsensusmehhanismi, mis põhineb föderatsioonil (valitud rühm sõlmeoperaatoreid, tavaliselt Bitcoiniga seotud ettevõtted), asendades sellega Nakamoto konsensusmehhanismi. Selline lähenemisviis kiirendab oluliselt tehinguid ja vähendab kulusid, pakkudes samas rohkem täiustatud funktsioone. Liquid võimaldab ka digitaalsete varade, sealhulgas teisi krüptovaluutasid esindavate märkide emiteerimist. Liquidis olevad bitcoinid, mida tuntakse L-BTC nime all, on seotud BTC-ga kahesuunalise föderatsiooni osal põhineva peg-süsteemi kaudu. Selles föderatsioonis osalejaid nimetatakse "funktsionäärideks" ja nad võivad olla nii "valvurid" kui ka "plokkide allkirjastajad"

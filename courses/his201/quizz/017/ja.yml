@@ -1,0 +1,9 @@
+question: 1998年にNick Szaboが彼のビットゴールドの概念を最初に発表した場所はどこですか？
+answer: libtech-l メーリングリスト
+wrong_answers:
+  - サイファーパンクス メーリングリスト
+  - 暗号学 メーリングリスト
+  - エクストロピアンズ メーリングリスト
+explanation: |
+  これは彼自身のプライベートメーリングリストで、Wei DaiやHal Finneyといったサイファーパンクスや、Larry WhiteやGeorge Selginといった経済学者が含まれていました。
+reviewed: false

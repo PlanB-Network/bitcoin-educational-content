@@ -1,0 +1,10 @@
+question: 不同操作系统上有哪些数据加密的解决方案？
+answer: Windows的BitLocker，Linux的LUKS，以及Mac的内置选项。
+wrong_answers:
+  - Linux的BitLocker，Mac的LUKS，以及Windows的内置选项。
+  - Mac的BitLocker，Windows的LUKS，以及Linux的内置选项。
+  - 所有操作系统都使用LUKS。
+explanation:
+  不同的操作系统有不同的数据加密解决方案。
+  BitLocker适用于Windows，LUKS适用于Linux，而Mac有一个数据加密的内置选项。
+reviewed: true

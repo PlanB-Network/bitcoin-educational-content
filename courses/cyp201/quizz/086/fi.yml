@@ -1,11 +1,9 @@
-question: Mikä on HMAC SHA-512 -algoritmin tulos?
-answer: 512-bittinen numero, jaettuna kahteen osaan; vasemmanpuoleiset 256 bittiä edustavat pääyksityisavainta, kun taas oikeanpuoleiset 256 bittiä edustavat pääketjukoodia.
+question: Kuinka SegWit v0 -osoitteiden tarkistussumma lasketaan bech32-koodauksessa?
+answer: Käyttämällä BCH-koodeja
 wrong_answers:
-  - 256-bittinen numero, joka edustaa pääyksityisavainta.
-  - 256-bittinen numero, joka edustaa pääketjukoodia.
-  - 512-bittinen numero, joka edustaa siementä.
+  - Soveltamalla HASH256: tta kahdesti
+  - Lisäämällä RIPEMD160-hashi
+  - Suoraan koodaamalla base64: ään
 explanation: |
-  HMAC SHA-512:n tulos on 512-bittinen numero, jaettuna kahteen osaan;
-  vasemmanpuoleiset 256 bittiä edustavat pääyksityisavainta, kun taas oikeanpuoleiset 256
-  bittiä edustavat pääketjukoodia.
+  Bech32-osoitteet käyttävät BCH-koodeja tarkistussumman laskemiseen.
 reviewed: false

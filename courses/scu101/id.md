@@ -26,11 +26,11 @@ Théo; kontribusi
 
 <partId>534ab66c-b0e6-5757-a7dd-6ea04647edf2</partId>
 
-## Pengenalan Kursus
+## Ikhtisar Kursus
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
-### Tujuan: Perbarui keterampilan keamanan Anda!
+**Tujuan: Perbarui keterampilan keamanan Anda!**
 
 Selamat datang semua orang di program pendidikan ini yang didedikasikan untuk keamanan digital. Pelatihan ini dirancang agar dapat diakses oleh semua orang, sehingga tidak diperlukan pengetahuan sebelumnya tentang ilmu komputer. Tujuan utama kami adalah untuk memberi Anda pengetahuan dan keterampilan yang diperlukan untuk menavigasi dunia digital dengan lebih aman dan privat.
 
@@ -46,7 +46,7 @@ Kebersihan digital Anda sangat penting dalam dunia yang semakin digital. Meskipu
 Dalam pelatihan ini, kami tidak mencoba membuat Anda menjadi ahli, anonim, atau tidak terkalahkan, karena ini adalah hal yang mustahil. Sebagai gantinya, kami menawarkan beberapa solusi sederhana dan dapat diakses untuk semua orang untuk mulai mengubah kebiasaan online Anda dan merebut kembali kontrol atas kedaulatan digital Anda.
 Jika Anda mencari keterampilan yang lebih lanjut tentang subjek ini, sumber daya kami, tutorial, atau pelatihan keamanan siber lainnya ada untuk Anda. Sementara itu, berikut adalah gambaran singkat program kami untuk beberapa jam ke depan bersama.
 
-### Bagian 1: Semua yang Perlu Anda Ketahui tentang Penjelajahan Online
+**Bagian 1: Semua yang Perlu Anda Ketahui tentang Penjelajahan Online**
 
 - Bab 1 - Penjelajahan Online
 - Bab 2 - Menggunakan Internet dengan Aman
@@ -55,13 +55,13 @@ Untuk memulai, kami akan membahas pentingnya memilih peramban web dan implikasin
 
 ![](assets/en/1.webp)
 
-### Bagian 2: Praktik Terbaik untuk Penggunaan Komputer
+**Bagian 2: Praktik Terbaik untuk Penggunaan Komputer**
 
 - Bab 3 - Penggunaan Komputer
 - Bab 4 - Peretasan & Manajemen Cadangan
   Pada bagian ini, kita akan membahas tiga area kunci keamanan komputer. Pertama, kita akan menjelajahi berbagai sistem operasi: Mac, PC, dan Linux, menyoroti spesifisitas dan kekuatan mereka. Kemudian, kita akan menggali metode untuk melindungi secara efektif dari upaya peretasan dan memperkuat keamanan perangkat Anda. Akhirnya, kita akan menekankan pentingnya melindungi dan membackup data Anda secara rutin untuk mencegah kehilangan atau ransomware.![](assets/en/2.webp)
 
-### Bagian 3: Implementasi solusi
+**Bagian 3: Implementasi solusi**
 
 - Bab 6 - Manajemen email
 - Bab 7 - Manajer kata sandi
@@ -72,6 +72,7 @@ Pada bagian ketiga yang praktis ini, kita akan beralih ke implementasi solusi ko
 Pertama, kita akan melihat cara melindungi kotak masuk email Anda, yang sangat penting untuk komunikasi Anda dan sering menjadi target peretas. Kemudian, kita akan memperkenalkan Anda pada manajer kata sandi: solusi praktis untuk tidak lagi lupa atau mencampuradukkan kata sandi Anda sambil menjaga keamanannya. Akhirnya, kita akan membahas ukuran keamanan tambahan, otentikasi dua faktor, yang menambahkan lapisan perlindungan ekstra untuk akun Anda. Semuanya akan dijelaskan dengan jelas dan mudah diakses.
 ![](assets/en/3.webp)
 
+Siap untuk memperkuat keamanan digital Anda dan mengambil kembali kendali atas data Anda? Ayo mulai!
 # Semua yang Perlu Anda Ketahui tentang Penjelajahan Online
 
 <partId>b4b5379a-d8ef-59ae-94d3-a6e88959c149</partId>
@@ -114,9 +115,7 @@ Alternatif yang lebih lanjut adalah jaringan TOR (The Onion Router), yang menawa
 TOR legal dan digunakan oleh jurnalis, aktivis kebebasan, dan orang lain yang ingin lolos dari sensor di negara-negara otoriter. Namun, penting untuk memahami bahwa TOR tidak mengamankan situs yang dikunjungi atau komputer itu sendiri. Selain itu, menggunakan TOR dapat memperlambat koneksi internet karena data melewati komputer tiga orang lain sebelum mencapai tujuannya. Juga penting untuk dicatat bahwa TOR bukan solusi sempurna untuk menjamin anonimitas 100% dan tidak seharusnya digunakan untuk aktivitas ilegal.
 ![](assets/notext/7.webp)
 
-### BRAVE
-
-**_Tutorial dalam pembangunan, untuk berkontribusi atau menambahkannya, Anda dapat melalui GitHub_**
+https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## VPN dan koneksi internet
 
@@ -135,6 +134,10 @@ Ada dua jenis utama VPN: VPN perusahaan dan VPN konsumen, seperti NordVPN. VPN p
 Namun, menggunakan VPN konsumen tidak menjamin anonimitas yang lengkap. Banyak penyedia VPN menyimpan informasi tentang penggunanya, yang dapat berpotensi mengkompromikan anonimitas mereka. Meskipun VPN dapat berguna untuk meningkatkan keamanan online, mereka bukan solusi universal. Mereka efektif untuk penggunaan tertentu, seperti mengakses layanan yang terbatas secara geografis atau meningkatkan keamanan saat bepergian, tetapi mereka tidak menjamin keamanan total. Saat memilih VPN, sangat penting untuk memprioritaskan keandalan dan teknisitas daripada popularitas. Penyedia VPN yang mengumpulkan sedikit informasi pribadi umumnya adalah yang paling aman. Layanan seperti iVPN dan Mullvad tidak mengumpulkan informasi pribadi dan bahkan memungkinkan pembayaran dalam Bitcoin untuk privasi yang meningkat.![](assets/notext/9.webp)
 Akhirnya, VPN juga dapat digunakan untuk memblokir iklan online, menyediakan pengalaman menjelajah yang lebih menyenangkan dan aman. Namun, penting untuk melakukan penelitian sendiri untuk menemukan VPN yang paling sesuai dengan kebutuhan spesifik Anda. Menggunakan VPN disarankan untuk meningkatkan keamanan, bahkan saat menjelajah internet di rumah. Ini membantu memastikan tingkat keamanan yang lebih tinggi untuk data yang ditukar secara online. Akhirnya, pastikan untuk memeriksa URL dan gembok kecil di bilah alamat untuk memastikan bahwa Anda berada di situs yang ingin Anda kunjungi.
 
+https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+
+https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+
 ### HTTPS & jaringan Wi-Fi publik
 
 Dalam hal keamanan online, penting untuk memahami bahwa 4G umumnya lebih aman daripada Wi-Fi publik. Namun, menggunakan 4G dapat dengan cepat menghabiskan paket data seluler Anda. Protokol HTTPS telah menjadi standar untuk mengenkripsi data di situs web. Ini memastikan bahwa data yang ditukar antara pengguna dan situs web aman. Oleh karena itu, sangat penting untuk memverifikasi bahwa situs yang Anda kunjungi menggunakan protokol HTTPS.
@@ -144,10 +147,6 @@ Di Uni Eropa, perlindungan data diatur oleh General Data Protection Regulation (
 Untuk menghindari penipuan online, sangat penting untuk memverifikasi identitas situs yang Anda jelajahi, terutama dengan memeriksa ekstensi dan nama domain. Selain itu, waspadalah terhadap penipu yang menggunakan huruf serupa dalam URL untuk menipu pengguna.
 ![](assets/en/10.webp)
 Secara keseluruhan, penggunaan VPN dapat sangat meningkatkan keamanan online, baik untuk bisnis maupun pengguna individu. Selain itu, praktik kebiasaan menjelajah yang baik dapat berkontribusi pada kebersihan digital yang lebih baik. Dalam segmen berikutnya dari kursus ini, kami akan membahas keamanan komputer, termasuk pembaruan, antivirus, dan manajemen kata sandi.
-
-### Tutorial: IVPN
-
-**_Tutorial dalam pembangunan, untuk berkontribusi atau menambahkannya, Anda dapat melalui GitHub_**
 
 # Praktik Terbaik Penggunaan Komputer
 
@@ -195,10 +194,6 @@ Akhirnya, berikut adalah beberapa praktik baik untuk keamanan komputer dan data 
 Perlakukan komputer Anda seperti Anda memperlakukan rumah Anda: tetap waspada, perbarui secara teratur, hapus file yang tidak perlu, dan gunakan kata sandi yang kuat untuk keamanan. Sangat penting untuk mengenkripsi data pada laptop dan smartphone untuk mencegah pencurian atau kehilangan data. BitLocker untuk Windows, LUKS untuk Linux, dan opsi bawaan untuk Mac adalah solusi untuk enkripsi data. Disarankan untuk mengaktifkan enkripsi data tanpa ragu dan menuliskan kata sandi pada kertas yang disimpan di tempat yang aman.
 Kesimpulan, sangat penting untuk memilih sistem operasi yang sesuai dengan kebutuhan Anda dan secara rutin memperbaruinya, begitu juga dengan aplikasi yang terinstal. Juga penting untuk menggunakan antivirus yang efektif dan ramah pengguna serta mengadopsi praktik baik untuk keamanan komputer dan data Anda.
 
-### Tutorial: Ubuntu
-
-**_Tutorial dalam pembangunan, untuk berkontribusi atau menambahkannya, Anda dapat melalui GitHub_**
-
 ## Manajemen Hacking & Backup: Melindungi Data Anda
 
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
@@ -237,6 +232,10 @@ TIDAK, umumnya tidak disarankan untuk membayar peretas dalam kasus ransomware at
 
 Jika Anda mendeteksi virus di komputer Anda, putuskan koneksi dari internet, lakukan pemindaian antivirus penuh, dan hapus file yang terinfeksi. Kemudian, perbarui perangkat lunak dan sistem operasi Anda, dan ubah kata sandi Anda untuk mencegah intrusi lebih lanjut.
 
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+
+https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+
 # Implementasi solusi.
 
 <partId>215ec902-ba05-5549-87fc-cb8d82665f7b</partId>
@@ -268,9 +267,7 @@ Disarankan untuk menggunakan situs web Have I Been Pwned (https://haveibeenpwned
 Secara umum, mulai menggunakan alamat email baru yang lebih aman bukanlah praktik buruk dan bahkan perlu jika seseorang ingin memulai dari awal dengan basis yang sehat.
 Bonus Bitcoin: Mungkin disarankan untuk membuat alamat email khusus untuk aktivitas Bitcoin kita (membuat akun pertukaran) agar benar-benar memisahkan area aktivitas dalam hidup kita.
 
-### Tutorial: Pembuatan akun ProtonMail
-
-**_Tutorial dalam pembangunan, untuk berkontribusi atau menambahkannya, Anda dapat melalui GitHub_**
+https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Manajer Kata Sandi
 
@@ -311,17 +308,9 @@ Untuk membuat kata sandi yang kuat, disarankan untuk menggunakan sejumlah besar 
 
 Kata sandi yang dihasilkan secara acak menawarkan tingkat keamanan yang lebih tinggi, meskipun mungkin lebih sulit diingat. Manajer kata sandi dapat menghasilkan kata sandi acak yang lebih aman. Dengan menggunakan manajer kata sandi, Anda tidak perlu menghafal semua kata sandi Anda. Penting untuk secara bertahap mengganti kata sandi lama Anda dengan yang dihasilkan oleh manajer, karena mereka lebih kuat dan lebih panjang. Pastikan bahwa kata sandi utama dari manajer kata sandi Anda juga kuat dan aman.
 
-### Tutorial: Membuat Kata Sandi Utama
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-**_Tutorial dalam pembangunan, untuk berkontribusi atau menambahkannya, Anda dapat melalui GitHub_**
-
-### Tutorial: BitWarden
-
-**_Tutorial dalam pembangunan, untuk berkontribusi atau menambahkannya, Anda dapat melalui GitHub_**
-
-### Tutorial: KeePass
-
-**_Tutorial dalam pembangunan, untuk berkontribusi atau menambahkannya, Anda dapat melalui GitHub_**
+https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Autentikasi Dua Faktor
 
@@ -362,6 +351,10 @@ Terus belajar dan secara bertahap menerapkan praktik baik!
 
 Aturan emas: Keamanan siber adalah target yang bergerak yang akan beradaptasi dengan perjalanan belajar Anda!
 
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+
+https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+
 # Bagian Praktis
 
 <partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>
@@ -370,40 +363,73 @@ Aturan emas: Keamanan siber adalah target yang bergerak yang akan beradaptasi de
 
 <chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
-Perhatikan bahwa, untuk saat ini, bagian kursus ini hanya berisi tutorial cara melakukan sesuatu dalam bahasa Prancis. Kami sedang bekerja untuk menerjemahkan video tersebut ke dalam bahasa Anda. Jika Anda ingin membantu kami menerjemahkan, hubungi kami melalui [GitHub](https://github.com/DecouvreBitcoin/sovereign-university-data)
+Melindungi kotak surat Anda adalah langkah penting untuk mengamankan aktivitas online Anda dan menjaga data pribadi Anda. Tutorial ini akan membimbing Anda, langkah demi langkah, dalam membuat dan mengkonfigurasi akun ProtonMail, penyedia yang dikenal karena tingkat keamanannya yang tinggi yang menawarkan enkripsi end-to-end untuk komunikasi Anda. Baik Anda seorang pemula atau pengguna berpengalaman, praktik terbaik yang diusulkan di sini akan membantu Anda memperkuat keamanan email Anda, sambil memanfaatkan fitur-fitur canggih ProtonMail:
 
-![video](https://youtu.be/vpYJYWhmEZg)
+https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Mengamankan dengan 2FA
 
 <chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
 
-![video](https://youtu.be/mNcAKRDmz5o)
+Autentikasi dua faktor (2FA) telah menjadi penting untuk mengamankan akun online Anda. Dalam tutorial ini, Anda akan belajar cara mengatur dan menggunakan aplikasi 2FA Authy, yang menghasilkan kode dinamis 6 digit untuk melindungi akun Anda. Authy sangat mudah digunakan dan dapat disinkronkan di beberapa perangkat. Pelajari cara menginstal dan mengonfigurasi Authy, dan perkuat keamanan akun online Anda sekarang juga:
+
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+
+Opsi lain adalah menggunakan kunci keamanan fisik. Tutorial lainnya ini menunjukkan cara mengatur dan menggunakan kunci keamanan sebagai faktor autentikasi kedua:
+
+https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ## Membuat manajer kata sandi
 
 <chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
-https://planb.network/tutorials/others/bitwarden
 
-![video](https://youtu.be/y7Xkv4E5YmU)
+Manajemen kata sandi adalah tantangan di era digital. Kita semua memiliki banyak akun online yang perlu diamankan. Pengelola kata sandi membantu Anda membuat dan menyimpan kata sandi yang kuat dan unik untuk setiap akun.
+
+Dalam tutorial ini, pelajari cara mengatur Bitwarden, pengelola kata sandi open-source, dan cara menyinkronkan kredensial Anda di semua perangkat untuk memudahkan penggunaan sehari-hari:
+
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
+Untuk pengguna yang lebih mahir, saya juga menawarkan tutorial tentang perangkat lunak gratis dan open-source lainnya yang dapat digunakan secara lokal untuk mengelola kata sandi Anda:
+
+https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Mengamankan Akun Anda
 
 <chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
-https://planb.network/tutorials/others/bitwarden
+
+Dalam dua tutorial ini, saya juga membimbing Anda dalam mengamankan akun online Anda dan menjelaskan bagaimana secara bertahap mengadopsi praktik yang lebih aman untuk mengelola kata sandi Anda sehari-hari.
+
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
+https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Pengaturan Cadangan
 
 <chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
-https://planb.network/tutorials/others/proton-drive
-https://planb.network/tutorials/others/veracrypt
-![video](https://youtu.be/wTJnlSUkDRI)
+
+Melindungi file pribadi Anda juga merupakan poin penting. Tutorial ini menunjukkan kepada Anda bagaimana menerapkan strategi cadangan yang efektif menggunakan Proton Drive. Temukan cara menggunakan solusi cloud yang aman ini untuk menerapkan metode 3-2-1: tiga salinan data Anda pada dua media yang berbeda, dengan satu salinan di luar lokasi. Dengan demikian, Anda memastikan aksesibilitas dan keamanan file sensitif Anda:
+
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+
+Dan untuk mengamankan file Anda yang disimpan di media yang dapat dilepas seperti flash drive USB atau hard drive eksternal, saya juga menunjukkan cara mengenkripsi dan mendekripsi media tersebut dengan mudah menggunakan VeraCrypt:
+
+https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 ## Perubahan Browser & VPN
 
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
 
-![video](https://youtu.be/vc6-Ouca09g)
+Melindungi privasi online Anda juga merupakan poin penting untuk memastikan keamanan Anda. Penggunaan VPN dapat menjadi solusi pertama untuk mencapainya.
+
+Saya mengajak Anda untuk mengenal dua solusi VPN yang terpercaya dan dapat dibayar dengan bitcoin, yaitu IVPN dan Mullvad. Tutorial-tutorial ini akan membimbing Anda dalam menginstal, mengonfigurasi, dan menggunakan Mullvad atau IVPN di semua perangkat Anda:
+
+https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+
+https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+
+Juga, pelajari cara menggunakan Tor Browser, browser yang dirancang khusus untuk melindungi privasi online Anda:
+
+https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 # Lanjutkan Lebih Jauh
 
@@ -477,33 +503,21 @@ Harus juga dicatat bahwa Internet sangat terpusat dan sebagian besar berada di b
 
 Sebagai bagian dari modul pelatihan "Security 101" di Découvre Bitcoin Academy, kami juga membahas autentikasi Lightning. Sistem ini menghasilkan pengenal yang berbeda untuk setiap layanan, tanpa perlu menyediakan alamat email atau informasi pribadi. Dimungkinkan untuk memiliki identitas terdesentralisasi yang dikontrol pengguna, tetapi ada kekurangan standarisasi dan normalisasi dalam proyek identitas terdesentralisasi. Manajer paket seperti Nuget dan Chocolaté, yang memungkinkan pengunduhan perangkat lunak sumber terbuka di luar Microsoft Store, direkomendasikan untuk menghindari serangan jahat. Singkatnya, DNS sangat penting untuk keamanan online, tetapi perlu untuk tetap waspada terhadap serangan potensial pada server DNS.
 
+# Bagian Akhir
 
+<partId>3d8ac4c9-f05b-4133-a40a-6e19d579f05f</partId>
 
-## Beri kami umpan balik tentang kursus ini
+## Ulasan & Penilaian
+
 <chapterId>6be74d2d-2116-5386-9d92-c4c3e2103c68</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Pengakuan dan terus menggali lubang kelinci
+## Ujian Akhir
 
-<chapterId>df3a962a-a96e-5006-b904-0dd9d4a072dd</chapterId>
+<chapterId>a894b251-a85a-5fa4-bf2a-c2a876939b49</chapterId>
+<isCourseExam>true</isCourseExam>
 
-### Nilai pelatihan & dukung kami
+## Kesimpulan
 
-Kursus ini, bersama dengan semua konten di akademi ini, telah disediakan untuk Anda secara gratis oleh komunitas kami. Untuk mendukung kami, Anda dapat membagikannya dengan orang lain, menjadi anggota akademi, dan bahkan berkontribusi pada pengembangannya melalui GitHub. Atas nama seluruh tim, terima kasih!
-
-Sistem penilaian untuk pelatihan akan segera diintegrasikan ke dalam platform e-learning baru ini! Sementara itu, terima kasih banyak telah mengikuti kursus ini, dan jika Anda menikmatinya, pertimbangkan untuk membagikannya dengan orang lain.
-
-### Lanjutkan lebih jauh
-
-Selamat telah menyelesaikan pelatihan SECU 101 ini! Saya sungguh berharap Anda menikmatinya dan itu membuka pintu untuk Anda. Anda sekarang siap untuk mendapatkan bitcoin pertama Anda atau sekadar melanjutkan petualangan dengan kursus level 2!
-
-- BTC 101 akan memberi Anda dasar teoritis tentang Bitcoin
-- BTC 102 akan membantu Anda menyiapkan rencana bitcoin Anda
-- LN 201 dan 202 akan memperkenalkan Anda ke Lightning Network, jaringan pembayaran lapis kedua
-- ECON 201 akan membahas ekonomi Austria
-- MINING 201 untuk mempelajari lebih lanjut tentang penambangan
-- (dan banyak lagi)
-
-Terima kasih yang sangat besar kepada Patreon kami, anggota, dan donor atas dukungan finansial mereka, terima kasih kepada orang-orang yang membagikan, dan terima kasih kepada mereka yang membuat pelatihan ini mungkin: Théo pantamis, Renaud, Théo, Fabien, Noury, Muriel & seluruh tim.
-Sampai jumpa!
-
+<chapterId>6270ea6b-7694-4ecf-b026-42878bfc318f</chapterId>
+<isCourseConclusion>true</isCourseConclusion>

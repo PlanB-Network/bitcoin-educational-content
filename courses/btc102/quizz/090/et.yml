@@ -1,0 +1,10 @@
+question: Mis on üks iseloomujoon Bitcoin'i kasutajal, kes on paindlik ja kohanev?
+answer: Nad on valmis kasutama erinevaid lahendusi ja platvorme, et rahuldada oma pidevalt muutuvaid vajadusi.
+wrong_answers:
+  - Nad kasutavad ainult ühte tüüpi Bitcoin'i rahakotti.
+  - Nad kasutavad Bitcoini ainult pikaajalise investeeringuna.
+  - Nad kasutavad Bitcoini ainult ühel vahetusplatvormil.
+explanation: |
+  Paindlikud ja kohanevad Bitcoin'i kasutajad on valmis kasutama mitmesuguseid
+  lahendusi ja platvorme, et rahuldada oma vajadusi, mis võivad aja jooksul muutuda.
+reviewed: false

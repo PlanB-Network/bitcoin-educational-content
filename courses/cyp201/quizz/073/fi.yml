@@ -1,9 +1,8 @@
-question: Mikä on lisävaihtoehto Bitcoin-lompakon turvallisuuden parantamiseksi?
-answer: Salasanan lisääminen.
+question: Mikä indeksi edustaa tilin ulkoista ketjua johdospolussa?
+answer: /0/
 wrong_answers:
-  - Toisen muistisäännön lisääminen.
-  - Digitaalisen allekirjoituksen lisääminen.
-  - Tapahtumahistorian lisääminen.
+  - /1/
+  - /0'/
+  - /2/
 explanation: |
-  Salasanan lisääminen on lisävaihtoehto Bitcoin-lompakon turvallisuuden parantamiseksi.
-reviewed: false
+  Ulkoinen ketju tunnistetaan indeksillä /0/ johdospolun syvyydessä 4.

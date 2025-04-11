@@ -1,0 +1,9 @@
+question: Mikä on julkisen menon vaikutus Bastiat'n mukaan, kun se rahoitetaan velalla tai veroilla?
+answer: Se ohjaa resursseja pois yksityiseltä sektorilta
+wrong_answers:
+  - Se stimuloi kysyntää ilman sivuvaikutuksia
+  - Se lisää kuluttajien ostovoimaa
+  - Se on välttämätöntä talouden pinnalla pysymiseksi
+explanation: |
+  Bastiat väittää, että julkiset menot, jotka rahoitetaan veroilla tai velalla, ohjaavat varoja pois yksityiseltä sektorilta, rajoittaen siten varallisuuden luomista muualla taloudessa.
+reviewed: false

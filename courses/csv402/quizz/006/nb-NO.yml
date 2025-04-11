@@ -1,0 +1,9 @@
+question: Hvor ligger forpliktelsen i RGB når en engangsplombe er lukket?
+answer: I utdataene fra transaksjonen som bruker utpunktet
+wrong_answers:
+  - I inngangen til transaksjonen som bruker utpunktet
+  - ISig-skriptet for transaksjonen som bruker utpunktet
+  - I vitnet til transaksjonen bruker utpunktet
+explanation: |
+  Forpliktelsen settes inn i utgangen av transaksjonen som bruker utpunktet som definerer engangsforseglingen.
+reviewed: false

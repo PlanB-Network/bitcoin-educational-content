@@ -1,9 +1,9 @@
-question: Quel est l'algorithme que Bitcoin utilise pour lier les clés privées et publiques ?
-answer: Algorithme de signature numérique à courbes elliptiques (ECDSA)
+question: Quelle est la principale limitation des portefeuilles JBOK ?
+answer: Ils nécessitent un sauvegarde indépendante pour chaque clé privée
 wrong_answers:
-  - Advanced Encryption Standard (AES)
-  - Rivest-Shamir-Adleman (RSA)
-  - Secure Hash Algorithm 2 (SHA-2)
+  - Ils ne permettent pas de générer de nouvelles adresses
+  - Ils sont incompatibles avec les signatures numériques
+  - Ils utilisent des clés publiques non compressées
 explanation: |
-  Bitcoin utilise l'algorithme de signature numérique à courbes elliptiques (ECDSA) pour lier les clés privées et publiques.
+  Les portefeuilles JBOK obligent l'utilisateur à sauvegarder chaque clé privée individuellement, ce qui complique leur gestion.
 reviewed: false

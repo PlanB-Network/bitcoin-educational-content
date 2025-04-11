@@ -1,12 +1,9 @@
-question: Vai trò của cụm từ bí mật trong ví Bitcoin là gì?
-answer: Nó tăng cường bảo mật cho ví
+question: Tiền tố `wpkh` có ý nghĩa gì trong một mô tả?
+answer: Thanh toán cho Witness-PubKey-Hash
 wrong_answers:
-  - Nó giảm bảo mật của ví
-  - Nó không ảnh hưởng đến bảo mật của ví
-  - Nó làm cho ví thân thiện với người dùng hơn
+  - Thanh toán cho PubKey
+  - Thanh toán cho Script-Hash
+  - Hash của Witness Script
 explanation: |
-  Cụm từ bí mật là một mật khẩu bổ sung có thể được tích hợp vào
-  ví Bitcoin để tăng cường bảo mật của nó. Bằng cách thêm thông tin tùy ý mà,
-  cùng với cụm từ ghi nhớ, cho phép tính toán hạt giống của ví,
-  cụm từ bí mật tăng cường bảo mật của nó.
+  Tiền tố `wpkh` chỉ ra một script SegWit v0 sử dụng địa chỉ Pay-to-Witness-Public-Key-Hash.
 reviewed: false

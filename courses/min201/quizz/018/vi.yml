@@ -1,9 +1,13 @@
 question: Nguyên tắc của Attakai trong bối cảnh đào Bitcoin là gì?
-answer: Nguyên tắc của Attakai đề cập đến việc sử dụng có hiệu quả nhiệt được tạo ra từ việc đào Bitcoin.
+answer: Nguyên tắc của Attakai đề cập đến việc sử dụng có hiệu quả nhiệt sinh ra từ việc đào Bitcoin.
 wrong_answers:
-  - Nguyên tắc của Attakai đề cập đến việc sử dụng các nguồn năng lượng tái tạo cho việc đào Bitcoin.
-  - Nguyên tắc của Attakai đề cập đến việc sử dụng các hệ thống làm mát tiên tiến trong đào Bitcoin.
-  - Nguyên tắc của Attakai đề cập đến việc sử dụng phần cứng tiêu thụ năng lượng thấp trong đào Bitcoin.
+  - Nguyên tắc của Attakai đề cập đến việc sử dụng nguồn năng lượng tái tạo cho việc đào Bitcoin.
+  - Nguyên tắc của Attakai đề cập đến việc sử dụng hệ thống làm mát tiên tiến trong việc đào Bitcoin.
+  - Nguyên tắc của Attakai đề cập đến việc sử dụng phần cứng tiêu thụ năng lượng thấp trong việc đào Bitcoin.
 explanation: |
-  Nguyên tắc của Attakai đề cập đến ý tưởng phân tán việc đào thông qua việc sử dụng có hiệu quả nhiệt được tạo ra. Khái niệm này gợi ý rằng các cơ sở tiêu thụ năng lượng lớn có thể được lợi từ nhiệt sản sinh bởi các máy đào để sưởi ấm cơ sở của họ.
-reviewed: false
+  Nguyên tắc của Attakai đề cập đến ý tưởng
+  phân tán việc đào thông qua việc sử dụng có hiệu quả
+  nhiệt sinh ra. Khái niệm này gợi ý rằng các cơ sở tiêu thụ năng lượng
+  có thể được lợi từ nhiệt sản sinh bởi
+  máy đào để sưởi ấm cơ sở của họ.
+reviewed: true

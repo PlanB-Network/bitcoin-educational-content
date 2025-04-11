@@ -1,0 +1,13 @@
+question: Entropy chỉ điều gì trong bối cảnh phân tích chuỗi trên Bitcoin?
+
+answer: Sự thiếu hiểu biết của các nhà phân tích về cấu hình chính xác của giao dịch.
+
+wrong_answers:
+  - Tốc độ mà thông tin về một giao dịch lan truyền qua mạng.
+  - Mức độ bảo mật mật mã của chữ ký số được sử dụng trong giao dịch.
+  - Kích thước của nhóm UTXOs giống hệt nhau mà một đồng tiền được ẩn đi.
+
+explanation: |
+  Entropy được sử dụng để đo lường sự thiếu hiểu biết của các nhà phân tích về cấu hình chính xác của giao dịch. Nói cách khác, entropy càng cao, việc xác định dòng chảy của bitcoins giữa các đầu vào và đầu ra trở nên khó khăn hơn.
+
+reviewed: false

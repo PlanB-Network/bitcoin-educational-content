@@ -5,7 +5,8 @@ wrong_answers:
   - Se on aina turvallisempi kuin suljettu lähdekoodi -ohjelmisto.
   - Se on aina käyttäjäystävällisempi kuin suljettu lähdekoodi -ohjelmisto.
 explanation: |
-  Avoimen lähdekoodin ohjelmisto on ohjelmisto, jonka koodi on tunnettu ja kaikkien saavutettavissa.
-  Tämä mahdollistaa muun muassa varmistuksen siitä, ettei ole piilotettua pääsyä varastamaan henkilökohtaisia tietojasi. Se ei kuitenkaan ole aina ilmainen, turvallisempi,
-  tai käyttäjäystävällisempi kuin suljettu lähdekoodi -ohjelmisto.
-reviewed: false
+  Avoimen lähdekoodin ohjelmisto on ohjelmisto, jonka koodi on tunnettu ja
+  kaikkien saatavilla. Tämä mahdollistaa muun muassa varmistuksen siitä,
+  ettei ole piilotettua pääsyä varastamaan henkilökohtaisia tietojasi. Se ei kuitenkaan ole aina ilmainen, turvallisempi tai
+  käyttäjäystävällisempi kuin suljettu lähdekoodi -ohjelmisto.
+reviewed: true

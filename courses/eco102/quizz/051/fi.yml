@@ -1,0 +1,8 @@
+question: Mikä on pääargumentti niiden keskuudessa, jotka uskovat, että tuho luo vaurautta?
+answer: Se luo työpaikkoja
+wrong_answers:
+  - Se edistää innovaatiota
+  - Se lisää ostovoimaa
+  - Se parantaa tuottavuutta
+explanation: |
+  Tämän ajatuksen kannattajat uskovat, että tuho stimuloi työllisyyttä luomalla korjaustöitä suorittaville työtä, näkökulma, jonka Bastiat kumoaa korostamalla vaihtoehtoiskustannuksia.

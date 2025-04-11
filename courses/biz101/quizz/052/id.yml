@@ -1,0 +1,9 @@
+question: Detail mana yang TIDAK didokumentasikan secara eksplisit dalam file csv transaksi Bitcoin seperti yang dijelaskan dalam kursus ini?
+answer: Jenis skrip yang digunakan
+wrong_answers:
+  - Tanggal transaksi
+  - Nilai fiat yang setara
+  - Alamat Bitcoin yang terlibat
+explanation: |
+  File csv transaksi Bitcoin biasanya menyebutkan tanggal, jumlah, ekuivalen fiat, dan alamat Bitcoin, tetapi tidak menyebutkan jenis skrip yang digunakan.
+reviewed: false

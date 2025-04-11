@@ -1,9 +1,11 @@
-question: Qual é o objetivo de uma carteira de Bitcoin?
-answer: Armazenar a chave privada para transacionar bitcoins.
+question: Qual é o propósito de uma carteira Bitcoin?
+answer: Armazenar chaves privadas para realizar transações com bitcoins.
 wrong_answers:
-  - Utilizar os recursos do dispositivo para minerar bitcoins.
-  - Comprar bitcoins com a chave pública.
+  - Usar recursos do dispositivo para minerar bitcoins.
+  - Comprar bitcoins através da chave pública.
   - Armazenar bitcoins em um dispositivo.
 explanation: |
-  As carteiras de Bitcoin são softwares que permitem armazenar as chaves privadas que permitem transacionar seus bitcoins.
-reviewed: false
+  Carteiras Bitcoin são um tipo de software que é usado para
+  armazenar as chaves privadas que permitem a você realizar transações
+  com seus bitcoins.
+reviewed: true

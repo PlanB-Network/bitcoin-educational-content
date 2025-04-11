@@ -1,9 +1,9 @@
-question: Điều gì xảy ra trong một trường hợp đóng cưỡng chế nếu phí mạng là 1 SAT vào thời điểm đóng?
-answer: Giao dịch bị trả quá 50 lần.
+question: Tính năng LNURL-withdraw cho phép người dùng làm gì?
+answer: Rút tiền từ một dịch vụ bằng cách quét mã QR
 wrong_answers:
-  - Giao dịch bị trả thiếu 50 lần.
-  - Giao dịch bị trả quá 2 lần.
-  - Giao dịch bị trả thiếu 2 lần.
+  - Thực hiện thanh toán trực tiếp mà không cần phí định tuyến
+  - Kết nối ví Lightning của họ mà không cần mật khẩu
+  - Gửi tiền mà không cần xác nhận từ người nhận
 explanation: |
-  Trong một trường hợp đóng cưỡng chế, giao thức mặc định áp dụng mức phí cao hơn 5 lần so với mức phí hiện tại khi giao dịch được tạo ra. Nếu phí mạng là 1 SAT vào thời điểm đóng, giao dịch bị trả quá 50 lần.
+  LNURL-withdraw cho phép người dùng rút tiền từ một dịch vụ bằng cách quét mã QR, từ đó đơn giản hóa quá trình rút tiền.
 reviewed: false

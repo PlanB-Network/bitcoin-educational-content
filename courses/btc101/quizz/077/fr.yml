@@ -1,10 +1,12 @@
 question: Quel est le risque de partager la clé publique d'un portefeuille Bitcoin ?
-answer: Risques pour la vie privée
+answer: Perdre la confidentialité.
 wrong_answers:
-  - Risques de destruction du portefeuille Bitcoin
-  - Risques de perte des Bitcoins
-  - Risques de piratage du portefeuille Bitcoin
+  - Détruire le portefeuille Bitcoin.
+  - Perdre les Bitcoins.
+  - Pirater le portefeuille Bitcoin.
 explanation: |
-  Le partage de la clé publique comporte des risques pour la vie privée, mais pas pour la sécurité.
-  Cela est dû au fait que la clé publique est utilisée pour générer des adresses Bitcoin et ainsi recevoir de l'argent, mais elle ne représente pas la propriété des Bitcoins.
-reviewed: false
+  Partager la clé publique comporte des risques pour la confidentialité, mais pas
+  pour la sécurité. Cela est dû au fait que la clé publique est utilisée pour
+  générer des adresses Bitcoin et donc recevoir de l'argent, mais elle ne représente
+  pas la propriété des Bitcoins.
+reviewed: true

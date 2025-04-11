@@ -1,11 +1,9 @@
-question: How is the number of words in the recovery phrase determined in the generation
-  of a mnemonic phrase for a Bitcoin wallet?
-answer: It depends on the size of the entropy.
+question: What is the constraint for deriving a child public key from a parent public key?
+answer: The child key must be normal
 wrong_answers:
-  - It depends on the size of the checksum.
-  - It is always 24 words.
-  - It is randomly generated.
+  - The child key must be hardened
+  - The chain code must be identical to that of the parent key
+  - The process must include the parent private key
 explanation: |
-  Depending on the size of the entropy, the recovery phrase will consist
-  of 12 words for 128 bits, 15 words for 160 bits, and 24 words for 256 bits.
+  A child public key can only be derived from a parent public key if it is normal, not hardened.
 reviewed: false

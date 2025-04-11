@@ -1,0 +1,8 @@
+question: Điểm yếu chính của mật khẩu yếu khi chúng được băm là gì?
+answer: Chúng dễ bị tấn công từ điển
+wrong_answers:
+  - Chúng không thể được xác minh bằng cách băm
+  - Chúng luôn tạo ra va chạm
+  - Chúng yêu cầu băm lâu hơn để tăng cường bảo mật
+explanation: |
+  Mật khẩu yếu có thể dễ dàng được khôi phục từ mã băm của chúng thông qua tấn công từ điển, làm cho việc lựa chọn chúng trở nên quan trọng để đảm bảo an ninh.

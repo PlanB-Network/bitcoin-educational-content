@@ -1,8 +1,9 @@
-question: Kuka päättää reitin ennen maksun lähettämistä Lightning-verkossa?
-answer: Lähettäjän solmu.
+question: Mikä palvelu mahdollistaa likviditeetin siirtämisen kanavan vastakkaiselle puolelle samalla kun varoja noudetaan on-chain?
+answer: Loop Out
 wrong_answers:
-  - Vastaanottajan solmu.
-  - Välittäjän solmu.
-  - Verkko itse.
+  - Keysend
+  - LNURL
+  - CoinSwap
 explanation: |
-  Lightning-verkossa on lähettäjän solmu, joka päättää reitin ennen maksun lähettämistä. Siksi etsitään parasta reittiä ja vain lähettäjä tietää reitin ja hinnan.
+  Lightning Labsin Loop Out -palvelu mahdollistaa varojen siirtämisen Lightning-kanavalta on-chain-lohkoketjuun, optimoiden näin vastaanottokapasiteettia samalla kun bitcoineja noudetaan pääketjusta.
+reviewed: false

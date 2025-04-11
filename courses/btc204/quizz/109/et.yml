@@ -1,0 +1,13 @@
+question: Miks on makse sooritamine payjoin'i abil tihti keeruline?
+
+answer: See nõuab aktiivset koostööd saaja poolt makse koostamisel
+
+wrong_answers:
+  - See nõuab iga tehingu jaoks fikseeritud summasid
+  - See sunnib mõlemat osapoolt kasutama sama tüüpi tarkvara
+  - See nõuab maksjalt vähemalt 2 UTXO olemasolu, mis on suuremad kui makse väärtus
+
+explanation: |
+  Payjoin'i kasutamise raskus seisneb selle sõltuvuses kaupmehe osalusest. Kliendina on payjoin'i kasutamine võimatu, kui kaupmees seda ei toeta.
+
+reviewed: false

@@ -1,9 +1,11 @@
-question: Quelle est une façon d'éviter les escroqueries en ligne ?
-answer: Vérifiez l'identité du site que vous consultez, en particulier en vérifiant l'extension et le nom de domaine.
+question: Quelle est une manière d'éviter les arnaques en ligne ?
+answer: Vérifiez l'identité du site que vous consultez, notamment en vérifiant l'extension et le nom de domaine.
 wrong_answers:
   - Utilisez des réseaux Wi-Fi publics.
   - Utilisez des sites qui n'utilisent pas le protocole HTTPS.
   - Utilisez des sites qui n'affichent pas de cadenas.
 explanation: |
-  Pour éviter les escroqueries en ligne, il est crucial de vérifier l'identité du site que vous consultez. Cela peut être fait en vérifiant l'extension et le nom de domaine du site.
-reviewed: false
+  Pour éviter les arnaques en ligne, il est crucial de vérifier l'identité
+  du site que vous consultez. Cela peut être fait en vérifiant
+  l'extension et le nom de domaine du site.
+reviewed: true

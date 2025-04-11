@@ -1,11 +1,12 @@
-question: Quelle est la menace potentielle d'utiliser un logiciel piraté qui ne peut pas être mis à jour?
-answer: L'utilisation d'un logiciel piraté qui ne peut pas être mis à jour présente une double menace potentielle. Il peut être infecté par un virus lors de son téléchargement illégal à partir d'un site web suspect, et il peut être vulnérable face à de nouvelles formes d'attaques.
+question: Quel est le risque potentiel de l'utilisation de logiciels crackés qui ne peuvent pas être mis à jour ?
+answer: L'arrivée d'un virus lors de son téléchargement illégal et une utilisation non sécurisée face à de nouvelles formes d'attaque.
 wrong_answers:
   - Le logiciel cessera de fonctionner après une certaine période.
-  - Le logiciel n'aura pas de nouvelles fonctionnalités.
+  - Le logiciel n'aura aucune nouvelle fonctionnalité.
   - Le logiciel consommera plus de ressources système.
 explanation: |
-  Les logiciels défectueux qui ne peuvent pas être mis à jour représentent une double menace potentielle.
-  menace potentielle. Il peut apporter un virus lors de son téléchargement illégal à partir d'un site web suspect
-  et il peut ne pas être sécurisé contre les nouvelles formes d'attaque.
-reviewed: false
+  Les logiciels crackés qui ne peuvent pas être mis à jour représentent une double
+  menace potentielle. Ils peuvent amener un virus lors de leur téléchargement illégal
+  depuis un site web suspect et ils peuvent être non sécurisés
+  contre de nouvelles formes d'attaque.
+reviewed: true

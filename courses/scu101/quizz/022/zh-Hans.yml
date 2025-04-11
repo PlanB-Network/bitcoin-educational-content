@@ -1,0 +1,9 @@
+question: 插入USB密钥到计算机时推荐的做法是什么？
+answer: 不要插入未知或可疑的USB密钥。
+wrong_answers:
+  - 不检查就插入任何USB密钥。
+  - 总是在插入前格式化USB密钥。
+  - 插入USB密钥后再检查病毒。
+explanation: |
+  插入未知或可疑的USB密钥可能会使系统暴露于可以在插入时自动启动的恶意程序。一旦USB密钥被插入，检查就变得无用了。
+reviewed: false

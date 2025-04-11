@@ -1,9 +1,12 @@
-question: ¿Cuál es la principal ventaja de usar un administrador de contraseñas?
-answer: Te ayuda a crear contraseñas fuertes y recordarlas, para que no tengas que hacerlo tú.
+question: ¿Cuál es la principal ventaja de usar un gestor de contraseñas?
+answer: Te ayuda a crear contraseñas fuertes y a recordarlas, así que no tienes que hacerlo tú.
 wrong_answers:
-  - Inicia sesión automáticamente en tus cuentas en línea.
+  - Te inicia sesión automáticamente en tus cuentas en línea.
   - Protege tu computadora de virus.
-  - Almacena todas tus contraseñas en un solo lugar, facilitando su búsqueda.
+  - Almacena todas tus contraseñas en un solo lugar, haciéndolas más fáciles de encontrar.
 explanation: |
-  Un administrador de contraseñas te ayuda a crear contraseñas fuertes y recordarlas, para que no tengas que hacerlo tú. Almacena todas tus contraseñas de manera segura y genera contraseñas fuertes para ti.
-reviewed: false
+  Un gestor de contraseñas te ayuda a crear contraseñas fuertes y
+  a recordarlas, así que no tienes que hacerlo tú. Almacena todas tus
+  contraseñas de manera segura y genera contraseñas fuertes
+  para ti.
+reviewed: true

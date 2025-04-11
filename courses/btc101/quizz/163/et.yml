@@ -1,0 +1,10 @@
+question: Mis on keskmine aeg kahe ploki loomise vahel Bitcoin protokollis?
+answer: 10 minutit
+wrong_answers:
+  - 5 minutit
+  - 15 minutit
+  - 20 minutit
+explanation: >-
+  Keskmiselt luuakse Bitcoin protokollis iga 10 minuti järel uus plokk.
+  See aeg püsib muutumatuna sõltumata kaevurite arvust ja nende arvutusvõimsusest.
+reviewed: false

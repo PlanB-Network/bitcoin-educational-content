@@ -1,0 +1,8 @@
+question: Millal avaldatakse pühendumustehing Bitcoin'i plokiahelas?
+answer: Lõpuks, kui kanal suletakse
+wrong_answers:
+  - Kohe pärast iga ülekannet kanalis
+  - Enne iga uue pühendumustehingu loomist
+  - Kui saadaolevad vahendid on ammendatud
+explanation: |
+  Pühendumustehingud luuakse ja allkirjastatakse iga jaotuse muutuse korral, kuid need avaldatakse plokiahelas ainult juhul, kui kanal suletakse.

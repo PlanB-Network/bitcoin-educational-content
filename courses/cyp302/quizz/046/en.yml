@@ -1,0 +1,9 @@
+question: Which function is used to calculate the number of integers less than N that are coprime with N?
+answer: Euler's Phi function
+wrong_answers:
+  - Euler's Gamma function
+  - Euler's Sigma function
+  - Dirichlet's Beta function
+explanation: |
+  Euler's Phi function determines the number of integers less than N that are coprime with N, a central concept in cryptography theorems based on prime numbers.
+reviewed: false

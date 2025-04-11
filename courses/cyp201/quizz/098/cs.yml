@@ -1,8 +1,0 @@
-question: Jaký algoritmus se používá pro generování veřejného klíče?
-answer: ECDSA (Elliptic Curve Digital Signature Algorithm)
-wrong_answers:
-  - "RSA (Rivest–Shamir–Adleman)"
-  - SHA-256 (Secure Hash Algorithm 256)
-  - AES (Advanced Encryption Standard)
-explanation: |
-  Veřejný klíč je generován pomocí algoritmu ECDSA (Elliptic Curve Digital Signature Algorithm).

@@ -1,0 +1,9 @@
+question: What is the main function of a seed in the context of pseudorandom chains?
+answer: To serve as a starting point for generating a longer chain
+wrong_answers:
+  - To define the fixed length of a pseudorandom chain
+  - To verify the integrity of a pseudorandom chain
+  - To add a uniform distribution to the values of a chain
+explanation: |
+  The seed is a shorter string used as a starting point by an expansion algorithm to generate a longer pseudorandom chain.
+reviewed: false

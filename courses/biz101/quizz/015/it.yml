@@ -1,0 +1,9 @@
+question: Cosa illustra la storia del pescatore sulla natura del capitale?
+answer: Il capitale rappresenta le risorse risparmiate che consentono di costruire strumenti per migliorare la produttività futura.
+wrong_answers:
+  - Il capitale è solo una scorta di beni di consumo in attesa di essere consumati immediatamente.
+  - Il capitale deve essere creato istantaneamente attraverso prestiti governativi.
+  - Il capitale è importante solo per le grandi aziende, non per i piccoli imprenditori.
+explanation: |
+  Il pescatore che risparmia qualche giorno di pesce per costruire una lancia rinvia il consumo immediato per un guadagno futuro. Questo esempio mostra come il risparmio (accumulo di capitale) porti a una maggiore efficienza e a una maggiore produzione a valle.
+reviewed: false

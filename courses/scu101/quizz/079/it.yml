@@ -1,0 +1,9 @@
+question: Quale vantaggio offre un provider di posta elettronica sicuro come ProtonMail?
+answer: Rispetto della privacy e maggiore sicurezza.
+wrong_answers:
+  - Interfaccia più semplice per i principianti.
+  - Riduzione delle funzionalità per diminuire la superficie di attacco.
+  - Integrazione di un algoritmo per generare automaticamente le email.
+explanation: |
+  ProtonMail si distingue per la sua politica sulla privacy e per le sue misure di sicurezza avanzate.
+reviewed: false

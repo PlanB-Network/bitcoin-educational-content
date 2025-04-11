@@ -1,0 +1,9 @@
+question: ¿Cuál es el papel del arreglo K en la encriptación RC4?
+answer: Inicializa y transforma el arreglo S para generar el flujo de claves
+wrong_answers:
+  - Encripta directamente el texto plano
+  - Almacena el texto encriptado
+  - Sirve solo como almacenamiento temporal de datos hasta el final del proceso
+explanation: |
+  El arreglo K se utiliza para transformar el arreglo S en el proceso de programación de claves, lo que permite la generación de un flujo de claves pseudoaleatorio para encriptar el texto plano.
+reviewed: false

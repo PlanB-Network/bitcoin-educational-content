@@ -1,0 +1,10 @@
+question: Hva er hovedformålet med å bruke verktøy som Signal, Tor og ProtonMail?
+answer: Å verne om og beskytte ditt privatliv
+wrong_answers:
+  - For å øke internettforbindelsen din
+  - For å beskytte datamaskinen din mot virus
+  - For å gi gratis tilgang til betalte tjenester
+explanation: |
+  Verktøy som Signal, Tor og ProtonMail brukes for å verne om og beskytte
+
+  ditt privatliv. De er en del av tiltakene for å forbedre vaner for nettsikkerhet.

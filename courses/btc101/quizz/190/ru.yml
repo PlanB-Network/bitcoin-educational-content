@@ -1,0 +1,10 @@
+question: Что такое AMF?
+answer: Autorité des Marchés Financiers
+wrong_answers:
+  - Американский Валютный Фонд
+  - Ассоциация Горнодобывающих Предприятий
+  - Автоматизированный Денежный Поток
+explanation: >-
+  AMF, или Autorité des Marchés Financiers, - это французская
+  организация, которая регулирует платформы, на которых можно купить биткоины.
+reviewed: false

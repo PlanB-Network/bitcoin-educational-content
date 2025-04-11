@@ -1,0 +1,9 @@
+question: Hvilket matematisk felt gir de moderne verktøyene for tallteori?
+answer: Abstrakt algebra
+wrong_answers:
+  - Geometri
+  - Statistikk
+  - Kompleks analyse
+explanation: |
+  Abstrakt algebra, som en underdisiplin i matematikk, gir matematiske strukturer som muliggjør analyse og forståelse av egenskapene til tall brukt i tallteori.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Hva er cherry-picking i økonomisk sammenheng?
+answer: Cherry-picking innebærer å selektivt velge data for å etablere forhold mellom variabler.
+wrong_answers:
+  - Cherry-picking innebærer å ignorere all data og kun stole på hypoteser.
+  - Cherry-picking innebærer å bruke all tilgjengelig data uten noen form for utvelgelse.
+  - Cherry-picking innebærer å kun bruke data som støtter regjeringens politikk.
+explanation: |
+  I økonomi innebærer cherry-picking å selektivt velge data for å etablere
+  forhold mellom variabler. Det anses som en uvitenskapelig og lite rigorøs
+  metode.
+reviewed: false

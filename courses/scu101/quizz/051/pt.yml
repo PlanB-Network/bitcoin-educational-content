@@ -1,9 +1,11 @@
 question: Qual é a regra de ouro da cibersegurança?
-answer: A cibersegurança é um alvo em movimento que se adaptará à sua jornada de aprendizado.
+answer: A cibersegurança é um alvo móvel que se adaptará à sua jornada de aprendizado.
 wrong_answers:
   - A cibersegurança é uma configuração única
   - A cibersegurança não é necessária para contas pessoais
   - A cibersegurança é apenas para pessoas com conhecimento técnico
 explanation: |
-  A cibersegurança é um alvo em movimento porque as ameaças e as medidas de segurança estão em constante evolução. É importante continuar aprendendo e adaptando suas práticas.
-reviewed: false
+  A cibersegurança é um alvo móvel porque as ameaças e
+  as medidas de segurança estão constantemente evoluindo. É importante
+  continuar aprendendo e adaptando suas práticas.
+reviewed: true

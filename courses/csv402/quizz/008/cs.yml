@@ -1,0 +1,9 @@
+question: Jaký je hlavní účel deterministických závazků Bitcoinu?
+answer: Zajistit, aby byl do transakce vložen jediný závazek
+wrong_answers:
+  - Zjednodušení struktury transakcí Bitcoin
+  - Snížení transakčních nákladů RGB
+  - Optimalizace generování vícepodpisů RGB
+explanation: |
+  Deterministické závazky Bitcoinu zaručují, že do transakce je vložen jediný závazek, aby se zabránilo skrytým konkurenčním závazkům.
+reviewed: false

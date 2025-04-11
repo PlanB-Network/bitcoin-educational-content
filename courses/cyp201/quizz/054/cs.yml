@@ -1,10 +1,9 @@
-question: Jaký je účel BIP43 a BIP44 v ekosystému Bitcoinu?
-answer: Standardizovaly strukturu a hierarchii HD peněženek.
+question: Jaká je hlavní role hesla v Bitcoin HD peněžence?
+answer: Modifikovat odvození klíče pro zvýšení bezpečnosti
 wrong_answers:
-  - Představily 24slovnou mnemonickou frázi.
-  - Revolucionizovaly způsob generování a ukládání klíčů.
-  - Navrhly přidání dodatečné heslové fráze pro posílení bezpečnosti jednotlivých klíčů.
+  - Dešifrovat čekající transakce
+  - Generovat UTXO peněženky
+  - Chránit přístup k peněžence pomocí rozpoznávání obličeje
 explanation: |
-  BIP43 a BIP44 standardizovaly strukturu a hierarchii HD peněženek,
-  čímž je učinily přístupnějšími a snadněji použitelnými pro širokou veřejnost.
+  Heslo působí jako druhý faktor zabezpečení, který mění semínko pro odvození klíče, aby zabránil přístupu k peněžence v případě, že je mnemonická fráze ohrožena.
 reviewed: false

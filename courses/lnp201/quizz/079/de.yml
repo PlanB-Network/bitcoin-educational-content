@@ -1,9 +1,0 @@
-question: Was bedeutet das 'bc' in 'lnbc1m' in einer Lightning Network Rechnung?
-answer: Bitcoin Mainnet
-wrong_answers:
-  - Bitcoin Cash
-  - Blockkette
-  - Bitcoin Core
-explanation: |
-  In einer Lightning Network Rechnung steht 'bc' für Bitcoin Mainnet. Dies bedeutet, dass die Zahlungsaufforderung für das Bitcoin Mainnet bestimmt ist, im Gegensatz zu einem Testnetzwerk oder einem anderen Netzwerk.
-reviewed: false

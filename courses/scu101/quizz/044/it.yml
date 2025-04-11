@@ -1,9 +1,12 @@
 question: Perché è importante sostituire gradualmente le vecchie password con quelle generate da un gestore di password?
-answer: Le password generate da un gestore di password sono più forti e più lunghe, offrendo maggiore sicurezza.
+answer: Le password generate da un gestore di password sono più forti e lunghe, offrendo maggiore sicurezza.
 wrong_answers:
-  - Le vecchie password vengono automaticamente eliminate dal gestore di password.
+  - Le vecchie password vengono automaticamente cancellate dal gestore di password.
   - I gestori di password possono memorizzare solo un numero limitato di password.
   - I gestori di password richiedono che tutte le password siano generate da loro.
 explanation: |
-  Le password generate da un gestore di password sono più forti e più lunghe, offrendo maggiore sicurezza. Sostituendo gradualmente le vecchie password con queste, è possibile migliorare la sicurezza dei propri account online.
-reviewed: false
+  Le password generate da un gestore di password sono più forti e
+  lunghe, offrendo maggiore sicurezza. Sostituendo gradualmente le
+  tue vecchie password con queste, puoi migliorare la sicurezza dei
+  tuoi account online.
+reviewed: true

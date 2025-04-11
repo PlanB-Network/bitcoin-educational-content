@@ -1,0 +1,9 @@
+question: Qual è il ruolo principale di Schema in un contratto RGB?
+answer: Descrivere la logica di business e la struttura dei dati del contratto
+wrong_answers:
+  - Definizione dell'interfaccia per i portafogli RGB
+  - Gestione della compilazione degli script sulla blockchain
+  - Convalida crittografica a catena
+explanation: |
+  Lo Schema definisce la struttura dichiarativa, i tipi di dati e le regole di convalida del contratto, consentendo di gestire la logica aziendale dal lato del cliente.
+reviewed: false

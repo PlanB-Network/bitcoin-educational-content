@@ -1,0 +1,9 @@
+question: Welche wichtigen Zahlungsdetails müssen für jede Bitcoin-Transaktion dokumentiert werden?
+answer: Datum, Betrag, Gegenwert in Fiat und zugehörige Adressen
+wrong_answers:
+  - Die Transaktions-ID, die Netzwerkgebühr und die Adresse des Händlers
+  - Das Datum, den Wechselkurs, den Briefträgertyp und den geografischen Standort
+  - Die Bitcoin-Blocknummer, der Zeitstempel und das verwendete Skript
+explanation: |
+  Die Dokumentation dieser Details sorgt für Klarheit und hilft den Buchhaltern bei der Unterscheidung zwischen eingehenden und ausgehenden Strömen.
+reviewed: false

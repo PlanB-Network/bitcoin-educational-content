@@ -1,11 +1,11 @@
-question: What does the phrase "Not your keys, not your Bitcoins" emphasize?
+question: What does the phrase Not your keys, not your Bitcoins emphasize?
 answer: The importance of owning the private key to a Bitcoin wallet
 wrong_answers:
   - The importance of having a physical key to access your Bitcoins
   - The importance of keeping your Bitcoins in a safe place
   - The importance of not sharing your Bitcoin account details
 explanation: |
-  The chapter explains that the phrase "Not your keys, not your Bitcoins"
+  The chapter explains that the phrase Not your keys, not your Bitcoins
   emphasizes the importance of owning the private key to a Bitcoin wallet. By owning
   the private key, you have full control over the Bitcoins it contains.
 reviewed: false

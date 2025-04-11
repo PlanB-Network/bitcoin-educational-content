@@ -1,0 +1,11 @@
+question: Hva er grensen for antall bitcoins som noensinne vil bli?
+answer: 21 millioner
+wrong_answers:
+  - 100 millioner
+  - 1 milliard
+  - Ingen grense
+explanation: |
+  Kapittelet fastslår at det aldri vil være mer enn 21 millioner bitcoins.
+  Denne grensen ble etablert i Bitcoin-protokollen av Satoshi og kan ikke endres
+  i dag.
+reviewed: false

@@ -1,9 +1,12 @@
-question: Qual é a questão central sobre a custódia própria ao escolher uma carteira de Bitcoin?
+question: Qual é a pergunta central a se fazer ao escolher uma carteira de Bitcoin, em termos de auto custódia?
 answer: Você é o proprietário dos fundos ou deixa o controle do seu dinheiro para uma terceira parte?
 wrong_answers:
-  - A carteira é segura com uma frase de acesso?
+  - A carteira é segura com uma frase-senha?
   - A carteira permite receber e enviar bitcoins?
   - Posso compartilhar minha carteira com outra pessoa?
 explanation: |
-  Você é o proprietário dos fundos ou deixa o controle do seu dinheiro para uma terceira parte? Isso ocorre porque o detentor da chave privada é o proprietário dos Bitcoins.
-reviewed: false
+  Ao escolher uma carteira de Bitcoin, a pergunta central é:
+  você é o proprietário dos fundos ou deixa o controle do
+  seu dinheiro para uma terceira parte? Isso ocorre porque o
+  detentor da chave privada é o proprietário dos Bitcoins.
+reviewed: true

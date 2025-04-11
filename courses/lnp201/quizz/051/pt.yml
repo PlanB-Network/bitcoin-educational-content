@@ -1,9 +1,9 @@
-question: O que é roteamento de cebola no contexto da Lightning Network?
-answer: Um método em que os intermediários não sabem quem é o destinatário final, nem quem está enviando o pagamento.
+question: O que a técnica de abertura de triângulo permite que os nós participantes alcancem?
+answer: Liquidez de entrada e saída em cada canal
 wrong_answers:
-  - Um método em que os intermediários conhecem tanto o remetente quanto o destinatário.
-  - Um método em que apenas o remetente conhece a rota e o preço.
-  - Um método em que o destinatário final decide a rota antes de enviar o pagamento.
+  - Taxas de roteamento reduzidas
+  - Um número ilimitado de transações sem confirmação
+  - Um link direto com todos os outros nós da rede
 explanation: |
-  O roteamento de cebola na Lightning Network é um método em que os intermediários não sabem quem é o destinatário final, nem quem está enviando o pagamento. O nó deve manter um plano da rede para encontrar sua rota, mas nenhum dos intermediários possui qualquer informação.
+  A técnica de abertura de triângulo permite que cada nó alcance liquidez balanceada, tanto de entrada quanto de saída, formando um loop de canais entre vários participantes.
 reviewed: false

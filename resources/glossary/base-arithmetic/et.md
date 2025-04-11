@@ -1,0 +1,5 @@
+---
+term: BAAS (ARITMEETIKA)
+
+---
+Baas on numeratsioonisüsteem, mis kasutab kõigi võimalike numbrite tähistamiseks kindlat arvu tähemärke. Baas määrab, kui palju on selles süsteemis numbrite kujutamiseks olemasolevaid sümboleid. Näiteks meie igapäevaelus kõige tuntum süsteem on baas 10, mida nimetatakse ka kümnendsüsteemiks. Selles kasutatakse kõigi arvude tähistamiseks kümmet erinevat sümbolit `(0, 1, 2, 3, 4, 5, 6, 7, 8, 9)`. Teised arvusüsteemid, mida arvutite ja matemaatika valdkonnas tavaliselt kasutatakse, on binaarsüsteem (baas 2), kus on kaks sümbolit `(0, 1)`, ja heksadetsimaalsüsteem (baas 16), kus on kuusteist sümbolit `(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F)`. Bitcoini kontekstis võib mõnikord kohata kodeeringuid baasis 58 või modifitseeritud baasis 32 (nimega `Bech32`).

@@ -1,9 +1,10 @@
-question: Quelle est l'une des façons d'acquérir des Bitcoins sans KYC?
-answer: Les distributeurs automatiques de Bitcoins.
+question: Quelle est l'une des manières d'acquérir des bitcoins sans KYC ?
+answer: Distributeurs automatiques de Bitcoin.
 wrong_answers:
-  - Les plateformes de courtage.
-  - Les plateformes DCA.
-  - Les virements bancaires.
+  - Plateformes de courtage.
+  - Plateformes DCA.
+  - Transferts bancaires.
 explanation: |
-  Le texte mentionne qu'il existe plusieurs façons d'acquérir des Bitcoins sans KYC, dont l'une est les distributeurs automatiques de Bitcoins.
-reviewed: false
+  Le texte du cours mentionne qu'il existe plusieurs manières
+  d'acquérir des Bitcoins sans KYC, dont l'une est les distributeurs automatiques de Bitcoin.
+reviewed: true

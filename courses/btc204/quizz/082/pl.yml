@@ -1,0 +1,10 @@
+question: Który etap procesu Chaumian CoinJoin obejmuje zmianę tożsamości w sieci Tor w celu zapewnienia anonimowości?
+answer: Rejestracja wyjść.
+wrong_answers:
+  - Rejestracja danych wejściowych.
+  - Podpisanie transakcji.
+  - Transmisja transakcji.
+explanation: |
+  Aby uniemożliwić koordynatorowi powiązanie określonego wyjścia z wejściem, użytkownicy zmieniają swoją tożsamość Tor przed wysłaniem swoich adresów odbiorczych w postaci czystego tekstu do koordynatora.
+  
+reviewed: false

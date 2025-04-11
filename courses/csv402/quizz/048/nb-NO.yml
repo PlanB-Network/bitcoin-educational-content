@@ -1,0 +1,9 @@
+question: Hva er det grunnleggende konseptet bak RGB-protokollen?
+answer: Validering på kundesiden via kryptografiske forpliktelser i kjeden
+wrong_answers:
+  - Validering i kjeden ved hjelp av Turing-komplette smartkontrakter
+  - Eksklusiv bruk av ukrypterte Bitcoin-transaksjoner
+  - Kontraktsgjennomføring på en blokkjede dedikert til smartkontrakter
+explanation: |
+  RGB er basert på en valideringsmodell på klientsiden der forpliktelser (via Taproot eller OP_RETURN) legges inn i kjeden, mens det meste av logikken og dataene holdes utenfor kjeden.
+reviewed: false

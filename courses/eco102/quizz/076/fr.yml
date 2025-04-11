@@ -1,0 +1,9 @@
+question: Selon Bastiat, l'étatisme soustrait les individus à quoi ?
+answer: Aux conséquences de leurs actes
+wrong_answers:
+  - À leurs familles
+  - Aux joies de l'expérimentation libre
+  - À leurs amis
+explanation: |
+  Pour Bastiat, l'intervention excessive de l'État réduit la responsabilité individuelle en supprimant les conséquences directes des actions des individus, favorisant ainsi l'irresponsabilité.
+reviewed: false

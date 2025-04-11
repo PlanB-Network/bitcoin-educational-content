@@ -1,9 +1,11 @@
-question: Quelle est une façon d'obtenir des bitcoins sans les acheter ?
-answer: Les accepter comme moyen de paiement pour les produits ou services que vous proposez
+question: Quelle est une manière d'obtenir des bitcoins sans les acheter ?
+answer: Les accepter comme moyen de paiement pour les produits ou services que vous proposez.
 wrong_answers:
-  - Les emprunter à un ami
-  - Les gagner à la loterie
-  - Les trouver dans la rue
-explanation: |
-  Une façon d'obtenir des bitcoins sans les acheter est de les accepter comme moyen de paiement pour les produits ou services que vous proposez. Cela vous permet d'acquérir des bitcoins grâce à votre travail.
-reviewed: false
+  - Les emprunter à un ami et ne jamais les rendre.
+  - Les gagner à la loterie.
+  - Les trouver dans la rue.
+explanation: >-
+  Une manière d'obtenir des bitcoins sans les acheter est de les accepter comme
+  moyen de paiement pour les produits ou services que vous proposez. Cela vous permet d'acquérir
+  des bitcoins à travers votre travail.
+reviewed: true

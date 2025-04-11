@@ -1,9 +1,0 @@
-question: Cosa viene utilizzato per calcolare il checksum nel caso di uno standard legacy?
-answer: L'hashing Double SHA256
-wrong_answers:
-  - Il programma BCH
-  - La funzione pbkdf2
-  - La funzione hmacha512
-explanation: |
-  Per derivare un indirizzo, la chiave pubblica compressa viene prima sottoposta ad hashing utilizzando SHA256 e RIPMD160, e successivamente viene calcolato un checksum. L'hashing Double SHA256 viene utilizzato per calcolare il checksum nel caso di uno standard legacy.
-reviewed: false

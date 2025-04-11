@@ -1,63 +1,88 @@
+id: f7ca708f-8637-411b-ae35-e686861b45c0
 chapterId: 1d9570c6-5b63-51a6-b87c-7bdb0fc4aa87
 difficulty: hard
 duration: 45
 author: DecouvreBitcoin
-tags:
-  - Bitcoin
-  - FOMO
-  - FUD
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2630
+    contributor_names:
+    reward: 0.18
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2565
+    contributor_names:
+    reward: 0.16
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
-    reward: 1282
+    reward: 0.08
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2597
+    contributor_names:
+    reward: 0.16
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2630
+    contributor_names:
+    reward: 0.18
   - language: fr
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2565
+    contributor_names:
+    reward: 0.16
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2597
+    contributor_names:
+    reward: 0.16
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2695
+    contributor_names:
+    reward: 0.22
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2565
+    contributor_names:
+    reward: 0.16
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2695
+    contributor_names:
+    reward: 0.22
+
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.18
+
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.2
+
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.18
+
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.18
+
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.2

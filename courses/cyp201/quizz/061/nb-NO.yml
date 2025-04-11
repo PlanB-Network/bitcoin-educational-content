@@ -1,0 +1,9 @@
+question: Hva er den totale størrelsen på en utvidet nøkkel med sjekksummen?
+answer: 82 bytes
+wrong_answers:
+  - 78 bytes
+  - 64 bytes
+  - 128 bytes
+explanation: |
+  En utvidet nøkkel er 78 bytes uten sjekksummen og 82 bytes med sjekksummen inkludert.
+reviewed: false

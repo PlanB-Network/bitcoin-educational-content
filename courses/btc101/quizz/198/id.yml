@@ -1,0 +1,9 @@
+question: Apa salah satu hal yang harus Anda miliki sebelum membeli Bitcoin?
+answer: Dompet yang aman.
+wrong_answers:
+  - Brankas fisik.
+  - Rekening bank.
+  - Kartu kredit.
+explanation: >-
+  Teks menyebutkan bahwa sebelum membeli Bitcoin, Anda harus memiliki dompet yang aman. Ini adalah tempat Anda akan menyimpan Bitcoin Anda.
+reviewed: false

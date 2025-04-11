@@ -1,0 +1,9 @@
+question: Jaký je základní koncept protokolu RGB?
+answer: Ověřování na straně zákazníka prostřednictvím kryptografických závazků na řetězci
+wrong_answers:
+  - Ověřování na řetězci pomocí inteligentních smluv s Turingovým plněním
+  - Výhradní používání nešifrovaných transakcí Bitcoin
+  - Provádění smluv na blockchainu určeném pro chytré smlouvy
+explanation: |
+  Systém RGB je založen na modelu ověřování na straně klienta, kdy se závazky (prostřednictvím Taproot nebo OP_RETURN) zadávají v řetězci, zatímco většina logiky a dat se uchovává mimo řetězec.
+reviewed: false

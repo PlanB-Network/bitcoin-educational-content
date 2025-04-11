@@ -1,0 +1,12 @@
+question: Hva er den potensielle innvirkningen av det nåværende finanssystemet på politiske aktører?
+answer: De er ikke motiverte til å gjøre radikale endringer, noe som tillater systemet å fortsette sitt løp til en mulig implosjon.
+wrong_answers:
+  - De er motiverte til å gjøre radikale endringer for å forhindre en mulig implosjon.
+  - De er ikke motiverte til å opprettholde status quo for å sikre sin egen rikdom.
+  - De er motiverte til å tenke langsiktig.
+explanation: |
+  Siden politiske aktører drar nytte av det nåværende finanssystemet, er de
+  ikke motiverte til å gjøre radikale endringer. Dette tillater systemet å fortsette sitt
+  løp til en mulig implosjon, ettersom systemet er regulert og begrenset for
+  å unngå kollaps.
+reviewed: true

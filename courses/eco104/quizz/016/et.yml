@@ -1,0 +1,14 @@
+question: Mis on esimene asi, mida peaksite tegema isehoidmise puhul, et minimeerida kaotuse riski?
+answer: Varunda oma rahakoti taastefraas
+wrong_answers:
+  - Jaga oma privaatvõtmeid usaldusväärse osapoolega
+  - Pane oma taastefraas kirja ja säilita seda oma arvutis
+  - Keela kahefaktoriline autentimine (2FA)
+explanation: |
+  Kõigepealt ja eelkõige varunda oma rahakott isehoidmise korral.
+  Riistvaralised rahakotid tulevad koos taastefraasiga, mis on sõnade kogum, mida 
+  saab kasutada oma privaatvõtmete taastamiseks, kui seade kaob või saab kahjustada.
+  Loo sellest taastefraasist füüsiline koopia, näiteks metallist [seemneplaat](https: //coincodex.com/article/23147/best-metal-crypto-wallets-for-seed-phrase-storage/), ja 
+  säilita seda turvalises kohas. On oluline hoida seda taastefraasi turvaliselt. 
+  ÄRA jaga seda kunagi kellegagi.
+reviewed: true

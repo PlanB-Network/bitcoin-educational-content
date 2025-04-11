@@ -1,9 +1,9 @@
-question: Quel est le rôle du point générateur dans la courbe elliptique ?
-answer: Il est utilisé pour calculer le point sur la courbe elliptique.
+question: Qu'est-ce que l'entropie dans le contexte de la cryptographie ?
+answer: Une mesure de l'imprévisibilité associée à un processus aléatoire
 wrong_answers:
-  - Il est utilisé pour générer le nonce.
-  - Il est utilisé pour chiffrer les clés.
-  - Il est utilisé pour stocker les clés.
+  - Une méthode de chiffrement des données sensibles
+  - Un algorithme pour calculer des clés publiques
+  - Une technique de compression des données
 explanation: |
-  Le point générateur est un point spécifique sur la courbe elliptique qui est utilisé dans le calcul d'autres points sur la courbe. Il est utilisé dans la génération de clés publiques et privées, ainsi que dans la création et la vérification de signatures numériques.
+  En cryptographie, l'entropie quantifie le niveau d'incertitude ou de chaos dans une source aléatoire, essentiel pour générer des clés sécurisées.
 reviewed: false

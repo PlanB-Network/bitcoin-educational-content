@@ -1,9 +1,0 @@
-question: ¿Qué se utiliza para calcular el checksum en el caso de un estándar heredado?
-answer: Doble hash SHA256
-wrong_answers:
-  - El programa BCH
-  - La función pbkdf2
-  - La función hmacha512
-explanation: |
-  Para derivar una dirección, primero se realiza un hash de la clave pública comprimida utilizando SHA256 y RIPMD160, y luego se calcula un checksum. Se utiliza el doble hash SHA256 para calcular el checksum en el caso de un estándar heredado.
-reviewed: false

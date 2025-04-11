@@ -1,0 +1,9 @@
+question: ¿Cuál es el punto en común entre los proteccionistas y los socialistas según Bastiat?
+answer: Ambos quieren favorecer la explotación de una parte de la población
+wrong_answers:
+  - Ambos defienden la libertad económica
+  - Ambos desean una mayor igualdad social
+  - Ambos están en contra de la intervención del estado en la economía
+explanation: |
+  Bastiat critica a ambas ideologías por su tendencia a favorecer la explotación de una clase por otra, en detrimento del interés general.
+reviewed: false

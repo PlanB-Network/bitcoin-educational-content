@@ -1,9 +1,9 @@
-question: Quel est l'avantage d'utiliser HASH160 dans le protocole Bitcoin ?
-answer: Cela permet d'assurer la sécurité de SHA-256 tout en réduisant la taille de l'empreinte.
+question: Quelle propriété garantit qu'il est computationnellement impossible de retrouver l'entrée d'un hash ?
+answer: La résistance à la préimage
 wrong_answers:
-  - Cela augmente la taille de l'empreinte pour une sécurité accrue.
-  - Il est plus résistant aux collisions que SHA-256.
-  - Il est plus rapide à calculer que SHA-256.
+  - La résistance aux collisions
+  - L'effet avalanche
+  - La résistance à la seconde préimage
 explanation: |
-  HASH160 dans le protocole Bitcoin est avantageux car il maintient la sécurité de SHA-256 tout en réduisant la taille de l'empreinte. Cela le rend plus efficace sans compromettre la sécurité.
+  La résistance à la préimage assure qu'il est pratiquement impossible de retrouver le message d'origine à partir de son hash.
 reviewed: false

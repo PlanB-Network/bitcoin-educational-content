@@ -1,4 +1,4 @@
-question: Comment fonctionne la phase de "tige" dans le protocole Dandelion ?
+question: Comment fonctionne la phase de tige dans le protocole Dandelion ?
 
 answer: La transaction est envoyée à travers un chemin aléatoire de nœuds
 
@@ -8,6 +8,6 @@ wrong_answers:
   - La transaction est cryptée de manière incrémentielle à chaque étape de diffusion
 
 explanation: |
-  Dandelion utilise d'abord une phase de "tige" où la transaction est envoyée à travers un chemin aléatoire de nœuds. La transaction est ensuite diffusée à l'ensemble du réseau dans la phase de "capitule".
+  Dandelion utilise d'abord une phase de tige où la transaction est envoyée à travers un chemin aléatoire de nœuds. La transaction est ensuite diffusée à l'ensemble du réseau dans la phase de capitule.
 
 reviewed: false

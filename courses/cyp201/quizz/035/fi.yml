@@ -1,9 +1,8 @@
-question: Mikä on Bitcoinin julkisen avaimen koko?
-answer: 512-bittinen numero
+question: Mikä Bitcoin-standardi esittelee hierarkkiset deterministiset lompakot?
+answer: BIP32
 wrong_answers:
-  - 256-bittinen numero
-  - 128-bittinen numero
-  - 1024-bittinen numero
+  - BIP39
+  - BIP44
+  - BIP141
 explanation: |
-  Bitcoin-järjestelmässä yksilöllisestä yksityisavaimesta johdetaan 512-bittinen julkinen avain.
-reviewed: false
+  BIP32 määrittelee HD-lompakoiden toiminnan, mahdollistaen yksityisten avainten hierarkkisen johdannon siemenestä.

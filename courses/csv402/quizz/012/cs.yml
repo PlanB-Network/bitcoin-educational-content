@@ -1,0 +1,9 @@
+question: Co je přiřazení v protokolu RGB?
+answer: Výstup, který mění, aktualizuje nebo vytváří vlastnosti ve stavu smlouvy
+wrong_answers:
+  - Jedinečný kryptografický závazek uložený v transakci Bitcoin
+  - Transakce Bitcoin částečně podepsaná před konečným ověřením
+  - Veřejná aktualizace globálního státu
+explanation: |
+  Přiřazení kombinuje definici pečeti a vlastněný stav a představuje přidělenou část stavu.
+reviewed: false

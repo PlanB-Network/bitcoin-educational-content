@@ -1,0 +1,10 @@
+question: Apa salah satu manfaat menggunakan VPN untuk menjelajahi internet di rumah?
+answer: Ini meningkatkan keamanan untuk data yang ditukarkan secara online.
+wrong_answers:
+  - Ini meningkatkan kecepatan internet.
+  - Ini memungkinkan akses ke lebih banyak situs web.
+  - Ini menghemat data seluler.
+explanation: |
+  Menggunakan VPN di rumah dapat meningkatkan keamanan data yang Anda tukarkan
+  secara online. Ini karena VPN mengenkripsi data, membuatnya lebih sulit bagi pihak ketiga
+  untuk meny intercept.

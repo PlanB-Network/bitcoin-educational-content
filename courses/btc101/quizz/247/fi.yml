@@ -1,9 +1,9 @@
-question: Mikä on yksi pääkysymyksistä, jotka on esitetty rahoituksen tulevaisuudesta?
+question: Mikä on yksi pääkysymyksistä rahoituksen tulevaisuutta koskien?
 answer: Kuka pitäisi hallita, valtuuttaa ja jäljittää käyttämämme rahat?
 wrong_answers:
   - Miten voimme poistaa rahan kokonaan käytöstä?
-  - Miten voimme varmistaa, että kaikilla on sama määrä rahaa?
+  - Miten voimme varmistaa, että jokaisella on sama määrä rahaa?
   - Miten voimme tehdä rahasta tarpeettoman?
 explanation: >-
   Teksti nostaa esiin useita kysymyksiä rahoituksen tulevaisuudesta, joista yksi on kuka pitäisi hallita, valtuuttaa ja jäljittää käyttämämme rahat.
-reviewed: false
+reviewed: true

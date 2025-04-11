@@ -1,0 +1,11 @@
+question: Hva er den største ulempen med coinswaps og atomic swaps når det gjelder personvern?
+
+answer: De bryter ikke historikken til de utvekslede myntene
+
+wrong_answers:
+  - De er veldig kostbare i transaksjonsgebyrer
+  - De krever utveksling av personlig informasjon mellom partene
+  - De kan være gjenstand for analyse av utvekslingsplattformer
+
+explanation: |
+  Den største ulempen med disse metodene er at de er veldig risikable uten bruk av en ekstra teknikk for å bryte myntens historikk.

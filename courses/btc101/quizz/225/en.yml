@@ -1,9 +1,10 @@
-question: When was the Lightning Network validated and implemented?
+question: When was the Lightning Network first validated and implemented?
 answer: 2017
 wrong_answers:
   - 2015
   - 2016
   - 2018
-explanation: >-
-  The Lightning Network was validated and implemented in 2017.
-reviewed: false
+explanation: |
+  The Lightning Network was first validated and implemented
+  in 2017.
+reviewed: true

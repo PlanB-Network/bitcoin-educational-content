@@ -1,0 +1,9 @@
+question: Miten itävaltalainen koulukunta määrittelee käsitteen "aikapreferenssi"?
+answer: Kulutetaan mieluummin nyt kuin myöhemmin
+wrong_answers:
+  - Halu vähentää lyhyen aikavälin kustannuksia
+  - Välittömien investointien optimointi
+  - Kyky tasapainottaa tarjontaa ja kysyntää
+explanation: |
+  Aikapreferenssillä tarkoitetaan välittömän kulutuksen valintaa lykätyn hyödyn sijaan, mikä vaikuttaa säästämis- ja sijoittamispäätöksiin.
+reviewed: false

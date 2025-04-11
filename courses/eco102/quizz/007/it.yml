@@ -1,0 +1,9 @@
+question: Quale rivoluzione Frédéric Bastiat ha vissuto da vicino come deputato?
+answer: La rivoluzione del 1848
+wrong_answers:
+  - La rivoluzione del 1830
+  - La rivoluzione del 1871
+  - La rivoluzione del 1789
+explanation: |
+  Bastiat ha assistito alla rivoluzione del 1848, che ha portato alla fondazione della Seconda Repubblica e alla sua elezione come deputato.
+reviewed: false

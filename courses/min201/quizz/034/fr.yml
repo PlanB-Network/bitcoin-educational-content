@@ -2,8 +2,11 @@ question: Quel est l'objectif de la communauté Bitcoin en termes de gestion du 
 answer: Renforcer la distribution, la résistance à la censure et l'anti-fragilité du réseau.
 wrong_answers:
   - Augmenter le prix du Bitcoin.
-  - Accélérer les transactions.
-  - Augmenter la difficulté de minage.
+  - Rendre les transactions plus rapides.
+  - Augmenter la difficulté du minage.
 explanation: |
-  La communauté Bitcoin s'efforce constamment de renforcer la distribution, la résistance à la censure et l'anti-fragilité du réseau. Cela est conforme à la mission fondamentale de Bitcoin d'être un réseau d'échange de valeur résistant à la censure.
-reviewed: false
+  La communauté Bitcoin s'efforce constamment de renforcer
+  la distribution, la résistance à la censure et l'anti-fragilité
+  du réseau. Cela est conforme à la mission fondamentale de Bitcoin
+  d'être un réseau d'échange de valeur résistant à la censure.
+reviewed: true

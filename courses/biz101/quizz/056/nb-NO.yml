@@ -1,0 +1,9 @@
+question: Hvordan skiller en lommebok uten depot seg ut i funksjonalitet for Starter-brukere?
+answer: Det gir bedriftseieren full kontroll over de private nøklene
+wrong_answers:
+  - Den kan automatisk konvertere bitcoins til fiat-valuta
+  - Den krever ingen backup-prosedyrer eller sikkerhetstiltak
+  - Alle transaksjoner håndteres gjennom en tredjepartstjeneste
+explanation: |
+  Lommebøker uten depot legger kontrollen over private nøkler og transaksjoner helt og holdent i hendene på brukeren.
+reviewed: false

@@ -1,9 +1,8 @@
-question: ¿Cuál es el propósito de la entropía en la generación de una frase mnemotécnica para una billetera de Bitcoin?
-answer: Es el fundamento de la seguridad de la billetera HD.
+question: ¿Qué representa la profundidad 0 en la jerarquía de las carteras HD?
+answer: La clave maestra y el código de cadena maestro
 wrong_answers:
-  - Determina el número de palabras en la frase de recuperación.
-  - Encripta la frase de recuperación para mayor seguridad.
-  - Verifica la precisión de la frase de recuperación.
+  - La cadena externa de direcciones
+  - La cuenta predeterminada
+  - El tipo de moneda
 explanation: |
-  La entropía es el fundamento de la seguridad de la billetera HD. Es crucial que esta entropía sea aleatoria o pseudo-aleatoria para garantizar la seguridad de la billetera.
-reviewed: false
+  La profundidad 0 corresponde a la clave maestra y el código de cadena maestro, que son los puntos de partida para todas las derivaciones en una cartera HD.

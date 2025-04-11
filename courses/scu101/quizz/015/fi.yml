@@ -1,9 +1,9 @@
-question: Miksi on tärkeää asettaa luotettavuus ja tekniset seikat suosion edelle VPN:n valinnassa?
+question: Miksi on tärkeää asettaa luotettavuus ja tekniset seikat suosion edelle VPN; n valinnassa?
 answer: VPN-palveluntarjoajat, jotka keräävät vähiten henkilökohtaisia tietoja, ovat yleensä turvallisimpia.
 wrong_answers:
-  - Suositut VPN-palveluntarjoajat ovat todennäköisemmin hakkerien kohteena.
+  - Suositut VPN-palveluntarjoajat ovat todennäköisemmin hakkerointiyritysten kohteena.
   - Suositut VPN-palveluntarjoajat ovat todennäköisemmin hitaampia internet-nopeuksiltaan.
   - Suositut VPN-palveluntarjoajat ovat todennäköisemmin maantieteellisten rajoitusten alaisia.
 explanation: |
-  VPN:n valinnassa on tärkeää asettaa luotettavuus ja tekniset seikat suosion edelle. Tämä johtuu siitä, että VPN-palveluntarjoajat, jotka keräävät vähiten henkilökohtaisia tietoja, ovat yleensä turvallisimpia, tarjoten parempaa suojaa online-turvallisuudellesi.
-reviewed: false
+  VPN: n valinnassa on tärkeää asettaa luotettavuus ja tekniset seikat suosion edelle. Tämä johtuu siitä, että VPN-palveluntarjoajat, jotka keräävät vähiten henkilökohtaisia tietoja, ovat yleensä turvallisimpia, tarjoten parempaa suojaa online-turvallisuudellesi.
+reviewed: true

@@ -1,0 +1,11 @@
+question: Apa kelemahan utama dari coinswaps dan atomic swaps dalam hal privasi?
+
+answer: Mereka tidak memutus riwayat dari koin yang ditukar
+
+wrong_answers:
+  - Mereka sangat mahal dalam biaya transaksi
+  - Mereka memerlukan pertukaran informasi pribadi antar pihak
+  - Mereka dapat menjadi subjek analisis oleh platform pertukaran
+
+explanation: |
+  Kerugian utama dari metode-metode ini adalah mereka sangat berisiko tanpa penggunaan teknik tambahan untuk memutus riwayat koin.

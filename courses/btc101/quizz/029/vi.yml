@@ -1,9 +1,11 @@
-question: Lợi thế chính của vàng so với các hình thức tiền tệ khác là gì?
-answer: Sự hiếm có tự nhiên làm cho nó trở nên có giá trị, trong khi các tính chất hóa học của nó cho phép nó không bị ăn mòn theo thời gian
+question: Tại sao vàng không phải là vật liệu dễ di chuyển?
+
+answer: Bởi vì nó có khối lượng riêng cao và nặng, khiến việc vận chuyển số lượng lớn trở nên cồng kềnh.
+
 wrong_answers:
-  - Nó dễ dàng chia nhỏ và vận chuyển
-  - Nó chịu sự lạm phát tiền tệ
-  - Nó được chấp nhận rộng rãi trong thương mại
-explanation: |
-  Lợi thế chính của vàng so với các hình thức tiền tệ khác là sự hiếm có tự nhiên của nó, làm cho nó trở nên có giá trị, và các tính chất hóa học của nó, cho phép nó không bị ăn mòn theo thời gian.
-reviewed: false
+  - Bởi vì nó quá giá trị để được di chuyển.
+  - Bởi vì nó không thể dễ dàng được tạo hình thành các dạng nhỏ hơn.
+  - Bởi vì nó là chất lỏng ở nhiệt độ phòng.
+
+explanation: Vàng có khối lượng riêng cao và nặng, điều này có nghĩa là việc vận chuyển số lượng lớn của nó có thể gây ra thách thức về mặt thể chất. Trọng lượng này khiến nó kém tiện lợi cho việc vận chuyển so với các vật liệu nhẹ hơn.
+

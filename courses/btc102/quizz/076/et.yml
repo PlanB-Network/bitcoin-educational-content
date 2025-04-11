@@ -1,0 +1,9 @@
+question: Mis on levinud viis, kuidas Bitcoin'i koguja kasutab Bitcoin'i?
+answer: Eakaaslastevaheliselt
+wrong_answers:
+  - Maakleri kaudu
+  - Kaupade või teenuste müümisega
+  - Bitcoin'i ökosüsteemis osalemisega
+explanation: |
+  Levinud viis, kuidas Bitcoin'i koguja kasutab Bitcoin'i, on eakaaslastevaheliselt. See tähendab, et nad saavad osta Bitcoin'i otse sularahas sõpradelt või Bitcoin'i kogukonna liikmetelt.
+reviewed: false

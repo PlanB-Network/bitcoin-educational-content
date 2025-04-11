@@ -5,7 +5,8 @@ wrong_answers:
   - Programy, které sledují vaši online aktivitu.
   - Viry, které mohou poškodit vaše zařízení.
 explanation: |
-  V kontextu online prohlížení jsou cookies soubory vytvořené webovými stránkami
-  pro ukládání informací na vašem zařízení. Používají se k zapamatování vašich preferencí,
-  přihlašovacích údajů a dalších dat pro zlepšení vašeho zážitku při prohlížení.
-reviewed: false
+  V kontextu online prohlížení jsou cookies soubory
+  vytvořené webovými stránkami pro ukládání informací na vašem zařízení.
+  Používají se k zapamatování vašich preferencí, informací pro přihlášení
+  a dalších dat pro zlepšení vašeho prohlížení.
+reviewed: true

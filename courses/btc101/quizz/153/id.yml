@@ -1,0 +1,13 @@
+question: Apa tujuan dari penyesuaian kesulitan dalam penambangan Bitcoin?
+answer: Ini menyeimbangkan kembali permainan penambangan global berdasarkan jumlah peserta.
+wrong_answers:
+  - Ini meningkatkan hadiah untuk penambangan.
+  - Ini mengurangi jumlah bitcoin yang beredar.
+  - Ini meningkatkan keamanan jaringan Bitcoin.
+explanation: >-
+  Penyesuaian kesulitan dalam penambangan Bitcoin dirancang untuk memastikan bahwa
+  waktu yang diperlukan untuk menambang sebuah blok tetap kira-kira konstan, terlepas dari
+  total kekuatan komputasi jaringan. Ini menyesuaikan kesulitan dari masalah matematika
+  yang harus diselesaikan oleh para penambang, berdasarkan jumlah penambang yang berpartisipasi dalam
+  jaringan.
+reviewed: false

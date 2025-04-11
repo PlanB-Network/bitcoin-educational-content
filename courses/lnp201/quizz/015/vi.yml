@@ -1,9 +1,9 @@
-question: Tại sao Alice cần chữ ký của Bob trước khi công bố các giao dịch để mở một kênh?
-answer: Để đảm bảo rằng cô ấy có thể tự mình khôi phục lại quỹ nếu có điều gì đó không đúng.
+question: Giao dịch cam kết trong một kênh Lightning phản ánh điều gì?
+answer: Sự phân bổ mới của quỹ giữa hai bên
 wrong_answers:
-  - Để xác nhận sự đồng ý của Bob về việc mở kênh.
-  - Để xác minh danh tính của Bob.
-  - Để mã hóa các giao dịch cho an ninh.
+  - Tổng số giao dịch đã thực hiện
+  - Số tiền phí phải trả cho giao dịch
+  - Việc mở một kênh thanh toán mới
 explanation: |
-  Alice yêu cầu Bob ký tên bằng khóa công khai của mình trước khi công bố các giao dịch. Điều này nhằm đảm bảo rằng cô ấy có thể tự mình khôi phục lại quỹ nếu có điều gì đó không đúng, vì cô ấy đã có chữ ký của Bob.
+  Một giao dịch cam kết đại diện cho sự phân bổ hiện tại của quỹ trong kênh sau mỗi giao dịch Lightning, nhưng không được công bố trên blockchain miễn là kênh vẫn mở.
 reviewed: false

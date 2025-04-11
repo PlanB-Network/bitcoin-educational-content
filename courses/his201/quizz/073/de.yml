@@ -1,0 +1,9 @@
+question: Welcher US-amerikanische Bundesnachrichtendienst lud Gavin Andresen im April 2011 ein, einige Monate später über Bitcoin zu präsentieren?
+answer: Die CIA
+wrong_answers:
+  - Das FBI
+  - Die NSA
+  - Die DEA
+explanation: |
+  Genauer gesagt war es In-Q-Tel, ein amerikanischer Venture-Capital-Fonds, der von der CIA verwaltet wird, aber der Besuch fand tatsächlich im Hauptquartier der CIA statt.
+reviewed: false

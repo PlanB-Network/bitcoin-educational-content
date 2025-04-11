@@ -1,0 +1,9 @@
+question: What is the main function of blockchain in the client-side validation paradigm used by RGB?
+answer: Provide time stamping and prevent double spending
+wrong_answers:
+  - Store all state transitions
+  - Replicating smart contract data
+  - Guarantee global data availability
+explanation: |
+  The Bitcoin blockchain is used in RGB to time-stamp commitments and prevent double-spending, without storing all state transitions.
+reviewed: false

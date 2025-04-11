@@ -1,0 +1,9 @@
+question: ¿Cuál fue el impacto de los problemas de distribución y gestión de claves antes de los años 70?
+answer: Limitaron la seguridad y eficiencia de las comunicaciones a gran escala
+wrong_answers:
+  - Impidieron la transmisión de mensajes cifrados en redes públicas
+  - Requerían claves públicas para cada mensaje
+  - Exigían el uso de criptografía homomórfica
+explanation: |
+  Antes de los años 70, los problemas con la distribución y gestión de claves dificultaban asegurar las comunicaciones a gran escala, obstaculizando así el desarrollo de aplicaciones modernas como las compras en línea.
+reviewed: false

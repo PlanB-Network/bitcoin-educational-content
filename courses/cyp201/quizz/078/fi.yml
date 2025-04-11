@@ -1,9 +1,8 @@
-question: Mikä on salalauseen rooli Bitcoin-lompakossa?
-answer: Se parantaa lompakon turvallisuutta
+question: Mitä etuliite `wpkh` tarkoittaa deskriptorissa?
+answer: Maksa-todistaja-julkisen-avaimen-tarkisteelle
 wrong_answers:
-  - Se heikentää lompakon turvallisuutta
-  - Sillä ei ole vaikutusta lompakon turvallisuuteen
-  - Se tekee lompakosta käyttäjäystävällisemmän
+  - Maksa-julkiselle-avaimelle
+  - Maksa-skriptin-tarkisteelle
+  - Todistajan skriptin tarkiste
 explanation: |
-  Salalause on lisäsalasana, joka voidaan integroida Bitcoin-lompakkoon sen turvallisuuden lisäämiseksi. Lisäämällä mielivaltaista tietoa, joka yhdessä muistilauseen kanssa mahdollistaa lompakon siemenen laskennan, salalause parantaa sen turvallisuutta.
-reviewed: false
+  Etuliite `wpkh` viittaa SegWit v0 skriptiin, joka käyttää Maksa-todistaja-julkisen-avaimen-tarkisteelle osoitteita.

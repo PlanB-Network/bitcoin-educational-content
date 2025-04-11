@@ -1,0 +1,9 @@
+question: Какая команда используется для проверки количества биткойнов в обращении на узле Bitcoin?
+answer: bitcoin-cli gettxoutsetinfo
+wrong_answers:
+  - bitcoin-cli getblockchaininfo
+  - bitcoin-cli getwalletinfo
+  - bitcoin-cli getnetworkinfo
+explanation: |
+  Команда для проверки количества биткойнов в обращении на узле Bitcoin - это bitcoin-cli gettxoutsetinfo. Эта команда обеспечивает прозрачность и возможность проверки, укрепляя доверие к системе Bitcoin.
+reviewed: true

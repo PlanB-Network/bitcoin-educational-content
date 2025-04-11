@@ -1,0 +1,8 @@
+question: Millised on mõned vajalikud oskused küberjulgeolekus?
+answer: Logide analüüs, intsidentidele reageerimine
+wrong_answers:
+  - Graafiline disain, videomontaaž
+  - Müük, turundus
+  - Kokkamine, küpsetamine
+explanation: |
+  Peatükk mainib logide analüüsi ja intsidentidele reageerimist kui mõningaid oskusi, mis on vajalikud küberjulgeolekus.

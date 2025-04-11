@@ -1,0 +1,11 @@
+question: Mis on kaevurite roll Bitcoin'i võrgustikus?
+answer: Kaevurid turvavad võrgustikku ja lisavad tehinguid plokkidesse.
+wrong_answers:
+  - Kaevurid loovad uusi bitcoine.
+  - Kaevurid kontrollivad Bitcoin'i kasutajate identiteeti.
+  - Kaevurid määravad Bitcoin'i hinna.
+explanation: >-
+  Kaevurid kasutavad oma arvutusvõimsust keerukate matemaatiliste probleemide lahendamiseks,
+  mis võimaldab neil lisada uusi tehinguid plokiahelasse. See protsess turvab
+  võrgustikku ja hoiab selle terviklikkust.
+reviewed: false

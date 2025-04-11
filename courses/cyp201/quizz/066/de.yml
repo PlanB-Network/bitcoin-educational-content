@@ -1,9 +1,8 @@
-question: Was ist der Zweck einer Prüfsumme bei der Generierung einer mnemonischen Phrase für eine Bitcoin-Wallet?
-answer: Sie gewährleistet die Überprüfung der Genauigkeit der Wiederherstellungsphrase.
+question: Welcher Teil des HMAC-SHA512-Ausgabewerts wird als Child Chain Code verwendet?
+answer: Die letzten 32 Bytes
 wrong_answers:
-  - Sie generiert die Entropie für die Wallet.
-  - Sie bestimmt die Anzahl der Wörter in der Wiederherstellungsphrase.
-  - Sie verschlüsselt die Wiederherstellungsphrase für zusätzliche Sicherheit.
+  - Die ersten 32 Bytes
+  - Die gesamten 64 Bytes
+  - Der SHA256-Hash der mittleren 32 Bytes
 explanation: |
-  Die Prüfsumme wird erhalten, indem die Entropie durch die SHA256-Funktion geleitet wird und die ersten 8 Bits des Hashs abgerufen werden. Ohne diese Prüfsumme könnte ein Fehler in der Phrase zur Erstellung einer anderen Wallet und somit zum Verlust von Geldern führen.
-reviewed: false
+  Die letzten 32 Bytes des HMAC-SHA512-Ausgabewerts dienen als Chain Code für den Child-Key.

@@ -1,0 +1,9 @@
+question: Qual é a afirmação que melhor descreve o papel da Bitcoin como rede e ativo para as empresas?
+answer: Pode atuar como reserva de valor e meio de troca num sistema global e descentralizado.
+wrong_answers:
+  - Só pode funcionar como um sistema local de cartões de oferta.
+  - Trata-se apenas de uma ferramenta de negociação especulativa sem qualquer utilidade real.
+  - Para funcionar, tem de estar ligada às políticas monetárias de um único país.
+explanation: |
+  O design global e nativo da Internet da Bitcoin permite-lhe servir não só como uma reserva de valor, mas também como um meio de troca, proporcionando às empresas uma liquidação rápida, sem permissão e final de transacções em todo o mundo.
+reviewed: false

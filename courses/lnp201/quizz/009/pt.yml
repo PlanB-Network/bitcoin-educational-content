@@ -1,9 +1,9 @@
-question: Qual é o papel de uma chave privada em uma transação de Bitcoin?
-answer: Ela é usada para assinar a transação e desbloquear os bitcoins do endereço.
+question: Em uma transação de Bitcoin, o que o script de bloqueio faz?
+answer: Impõe condições específicas para gastar os fundos associados
 wrong_answers:
-  - É usada para gerar a chave pública.
-  - É usada para criar um endereço de Bitcoin.
-  - É usada para criptografar os dados da transação.
+  - Ele envia automaticamente os fundos para múltiplos endereços
+  - Ele determina o valor do UTXO a ser criado
+  - Ele bloqueia temporariamente os fundos para prevenir gastos excessivos
 explanation: |
-  Em uma transação de Bitcoin, o remetente usa sua chave privada para assinar a transação, o que efetivamente desbloqueia os bitcoins do endereço em que estão armazenados. Isso é uma parte crucial do processo de transação, pois garante que apenas o proprietário dos bitcoins possa gastá-los.
+  O script de bloqueio impõe condições, como assinar com uma chave privada, para desbloquear e usar os fundos em uma transação.
 reviewed: false

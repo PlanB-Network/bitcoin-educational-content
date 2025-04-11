@@ -1,0 +1,9 @@
+question: 比特币论坛的第一个非英语子论坛是在2010年7月专门用哪种语言？
+answer: 俄语
+wrong_answers:
+  - 法语
+  - 德语
+  - 意大利语
+explanation:
+  它是由Martti Malmi在7月28日[建立的](https://bitcointalk.org/index.php?topic=151.msg6241#msg6241)。接下来的几个月里，添加了其他语言。
+reviewed: true

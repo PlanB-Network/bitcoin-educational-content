@@ -1,9 +1,11 @@
-question: Comment peut-on créer une monnaie solide ?
-answer: La monnaie est un phénomène social naturel qui doit émerger du marché et d'un consensus volontaire.
+question: Comment est créée la monnaie saine ?
+answer: La monnaie saine doit émerger naturellement du marché et du consensus volontaire.
 wrong_answers:
-  - Le gouvernement l'impose par le biais de lois
-  - Les humains utilisent la violence et la coercition pour forcer les autres à accepter leur monnaie
-  - On ne peut pas créer une monnaie solide
+  - La monnaie saine doit être imposée par le gouvernement par l'émission de lois monétaires.
+  - La monnaie saine doit être imposée par les entreprises à travers l'utilisation de la violence.
+  - La monnaie saine ne peut pas être créée.
 explanation: |
-  Une monnaie solide est un phénomène social naturel qui doit émerger du marché et d'un consensus volontaire. Aucun être humain ou groupe d'êtres humains ne peut créer de l'argent.
-reviewed: false
+  La monnaie saine est un phénomène social naturel qui doit émerger
+  du marché et du consensus volontaire. Aucun humain ou
+  groupe d'humains ne peut créer de la monnaie.
+reviewed: true

@@ -1,0 +1,9 @@
+---
+term: PRIVAT NØKKEL
+
+---
+En privat nøkkel er et grunnleggende element i asymmetrisk kryptografi. Det er et tall (256 bits i forbindelse med Bitcoin) som representerer en kryptografisk hemmelighet. Denne nøkkelen brukes til å signere transaksjoner digitalt og bevise eierskapet til en offentlig Bitcoin-nøkkel (og dermed en mottakeradresse) ved å tilfredsstille en `scriptPubKey`. Private nøkler gjør det derfor mulig å bruke bitcoins ved å låse opp UTXO-ene som er knyttet til den tilsvarende offentlige nøkkelen. Private nøkler må holdes strengt konfidensielle, ettersom avsløring av dem kan gjøre det mulig for ondsinnede tredjeparter å ta kontroll over de tilknyttede midlene.
+
+I Bitcoin-systemet er den private nøkkelen knyttet til en offentlig nøkkel gjennom en digital signaturalgoritme som bruker elliptiske kurver (ECDSA eller Schnorr). Den offentlige nøkkelen er avledet fra den private nøkkelen, men det omvendte er praktisk talt umulig å oppnå på grunn av beregningsvanskeligheten som ligger i å løse det underliggende matematiske problemet (det diskrete logaritmeproblemet). Den offentlige nøkkelen brukes vanligvis til å generere en Bitcoin-adresse, som brukes til å låse bitcoins ved hjelp av et skript. I kryptografi er private nøkler ofte tilfeldige eller pseudotilfeldige tall. I den spesifikke konteksten av Bitcoins deterministiske og hierarkiske lommebøker, er private nøkler deterministisk avledet fra seed. Private nøkler forveksles ofte med seed eller med gjenopprettingsfrasen (mnemonic). Disse elementene er imidlertid forskjellige.
+
+> på engelsk kalles en privat nøkkel for "private key" Dette begrepet forkortes noen ganger som "privkey" eller "PV"

@@ -1,9 +1,9 @@
 question: Kenet kiitetään kurssin tuottamisesta?
-answer: "Théo Mogenet"
+answer: Théo Mogenet
 wrong_answers:
   - Descoupes Bitcoin
-  - "Théo Boloré"
+  - Théo Boloré
   - Ei mikään yllä olevista
 explanation: |
-  "Luvussa mainitaan, että Théota kiitetään kurssin tuottamisesta."
+  Luvussa mainitaan, että Théota kiitetään kurssin tuottamisesta.
 reviewed: false

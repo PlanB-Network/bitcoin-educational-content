@@ -1,9 +1,9 @@
-question: ¿Cuántas rondas realiza PBKDF2 utilizando HMAC SHA512?
-answer: 2048 rondas
+question: ¿Cuál es la principal característica de la multiplicación escalar en curvas elípticas?
+answer: Función unidireccional
 wrong_answers:
-  - 1024 rondas
-  - 512 rondas
-  - 4096 rondas
+  - Fácilmente reversible
+  - Basada en la factorización de números primos
+  - Muy larga para calcular
 explanation: |
-  PBKDF2 se utiliza para convertir una frase mnemotécnica en una semilla. Este algoritmo realiza 2048 rondas utilizando HMAC SHA512.
+  La multiplicación escalar en curvas elípticas es una función unidireccional, lo que hace imposible recuperar la clave privada a partir de la clave pública.
 reviewed: false

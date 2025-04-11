@@ -1,9 +1,8 @@
-question: ¿Cómo se determina el número de palabras en la frase de recuperación en la generación de una frase mnemotécnica para una billetera de Bitcoin?
-answer: Depende del tamaño de la entropía.
+question: ¿Cuál es la restricción para derivar una clave pública hija de una clave pública padre?
+answer: La clave hija debe ser normal
 wrong_answers:
-  - Depende del tamaño del checksum.
-  - Siempre son 24 palabras.
-  - Se genera de forma aleatoria.
+  - La clave hija debe ser endurecida
+  - El código de cadena debe ser idéntico al de la clave padre
+  - El proceso debe incluir la clave privada padre
 explanation: |
-  Dependiendo del tamaño de la entropía, la frase de recuperación consistirá en 12 palabras para 128 bits, 15 palabras para 160 bits y 24 palabras para 256 bits.
-reviewed: false
+  Una clave pública hija solo puede derivarse de una clave pública padre si es normal, no endurecida.

@@ -1,10 +1,9 @@
 question: AMF là gì?
-answer: "Autorité des Marchés Financiers"
+answer: Autorité des Marchés Financiers.
 wrong_answers:
-  - Quỹ Tiền tệ Mỹ
-  - Hiệp hội Cơ sở Khai thác
-  - Dòng Tiền Tự động
-explanation: >-
-  "AMF, hay Autorité des Marchés Financiers, là một tổ chức Pháp
-  quản lý các nền tảng nơi có thể mua bitcoin."
-reviewed: false
+  - Quỹ Tiền tệ Mỹ.
+  - Hiệp hội Cơ sở Khai thác Mỏ.
+  - Dòng Tiền Tự động.
+explanation: |
+  AMF, hay Autorité des Marchés Financiers, là một tổ chức Pháp
+  quản lý các nền tảng nơi có thể mua bitcoins.

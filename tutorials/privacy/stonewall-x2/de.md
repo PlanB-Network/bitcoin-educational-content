@@ -47,7 +47,7 @@ Daher sollte die Logik wie folgt sein, wenn Sie ein Samourai-Ausgabewerkzeug ver
 
 Wenn Sie einen Kollaborator finden möchten, der Ihnen bei einer Stonewall X2-Transaktion behilflich ist, können Sie auch diese inoffizielle Telegramm-Gruppe besuchen, die von Samourai-Benutzern betrieben wird, um Absender und Kollaboratoren zu verbinden: [Make Every Spend a Coinjoin](https://t.me/EverySpendACoinjoin).
 
-[**-> Erfahren Sie mehr über Stonewall-Transaktionen**](https://planb.network/tutorials/privacy/stonewall)
+[**-> Erfahren Sie mehr über Stonewall-Transaktionen**](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 ## Was ist der Zweck einer Stonewall x2-Transaktion?
 

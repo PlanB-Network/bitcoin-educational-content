@@ -1,0 +1,8 @@
+question: Hva er den største risikoen ved å bruke en dårlig utformet PRNG for å generere entropi?
+answer: Private nøkler kunne bli gjettet av en angriper
+wrong_answers:
+  - Den mnemoniske frasen kunne inneholde feil ord
+  - Digitale signaturer ville bli ugyldige
+  - Bitcoin-adresser ville være inkompatible med nettverket
+explanation: |
+  En dårlig utformet PRNG kan produsere forutsigbare sekvenser, noe som gjør nøklene mer sårbare for angrep.

@@ -1,0 +1,11 @@
+question: Phương pháp mã hóa nào có thể được sử dụng trong coinswaps để đảm bảo an ninh cho giao dịch mà không cần sự tin tưởng?
+
+answer: Chữ ký Adaptor
+
+wrong_answers:
+  - Mã hóa đối xứng
+  - ECDH
+  - Mã hóa bất đối xứng
+
+explanation: |
+  Để thực hiện một coinswap, người ta có thể sử dụng HTLCs hoặc PTLCs. Hai giao thức này hoạt động theo cách tương tự bằng cách sử dụng hệ thống khóa thời gian đảm bảo rằng giao dịch hoặc là được hoàn thành thành công hoặc được hủy bỏ hoàn toàn, bảo vệ tính toàn vẹn của quỹ từ cả hai bên. Sự khác biệt chính giữa HTLCs và PTLCs là HTLCs sử dụng băm và preimages để bảo mật giao dịch, trong khi PTLCs sử dụng Chữ ký Adaptor.

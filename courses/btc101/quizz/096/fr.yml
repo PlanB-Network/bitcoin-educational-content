@@ -1,9 +1,10 @@
-question: Comment est souvent représentée la clé privée dans un portefeuille Bitcoin ?
-answer: Une liste de 12 ou 24 mots
+question: Par quoi la clé privée est-elle souvent représentée dans un portefeuille Bitcoin ?
+answer: Une liste de 12 ou 24 mots.
 wrong_answers:
-  - Une liste de 12 ou 48 mots
-  - Une liste de 32 mots
-  - Une liste de 64 mots
+  - Une liste de 12 ou 48 mots.
+  - Une liste de 32 mots.
+  - Une liste de 64 mots.
 explanation: |
-  Dans un portefeuille Bitcoin, la clé privée est souvent représentée par une liste de 12 ou 24 mots, également appelée "seed" ou "phrase mnémonique".
-reviewed: false
+  Dans un portefeuille Bitcoin, la clé privée est souvent représentée
+  par une liste de 12 ou 24 mots, également connue sous le nom de phrase de récupération
+  ou phrase mnémonique.

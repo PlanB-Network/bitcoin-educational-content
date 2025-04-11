@@ -1,0 +1,9 @@
+question: Qual è la soluzione di pagamento principale consigliata per le aziende con profilo Essential?
+answer: Swiss Bitcoin Pay
+wrong_answers:
+  - Nodo aperto
+  - Server BTCPay
+  - Bitcoinizzare il PoS
+explanation: |
+  Evidenziamo che Swiss Bitcoin Pay è la soluzione consigliata per un profilo Essential, in grado di bilanciare semplicità e sicurezza.
+reviewed: false

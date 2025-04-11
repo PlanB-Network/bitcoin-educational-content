@@ -5,5 +5,9 @@ wrong_answers:
   - Rendre les transactions anonymes.
   - Créer une nouvelle forme d'investissement.
 explanation: |
-  La mission fondamentale de Bitcoin est d'être un réseau d'échange de valeur résistant à la censure. La communauté Bitcoin s'efforce constamment de renforcer la distribution, la résistance à la censure et l'anti-fragilité du réseau.
-reviewed: false
+  La mission fondamentale de Bitcoin est d'être
+  un réseau d'échange de valeur résistant à la censure. La communauté
+  Bitcoin s'efforce constamment de renforcer
+  la distribution, la résistance à la censure et l'anti-fragilité
+  du réseau.
+reviewed: true

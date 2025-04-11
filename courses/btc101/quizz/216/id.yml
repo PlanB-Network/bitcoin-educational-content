@@ -1,0 +1,11 @@
+question: Apa status Bitcoin di beberapa negara?
+answer: Dilarang dan dikriminalisasi
+wrong_answers:
+  - Sepenuhnya diadopsi
+  - Sebagian diadopsi
+  - Tidak diatur
+explanation: >-
+  Teks tersebut menyebutkan bahwa beberapa negara telah melarang dan mengkriminalisasi
+  penggunaan Bitcoin, menambah kompleksitas adopsi Bitcoin berdasarkan budaya,
+  era, dan negara-negara.
+reviewed: false

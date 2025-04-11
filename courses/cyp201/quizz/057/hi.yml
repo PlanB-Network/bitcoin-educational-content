@@ -1,0 +1,9 @@
+question: PBKDF2 से जनरेट किए गए seed का साइज़ क्या है?
+answer: 512 बिट्स
+wrong_answers:
+  - 128 बिट्स
+  - २५६ बिट्स
+  - Mnemonic वाक्यांश की लंबाई के आधार पर अलग-अलग हो सकता है
+explanation: |
+  Mnemonic वाक्यांश की लंबाई चाहे जो भी हो, PBKDF2 हमेशा 512-बिट का seed जनरेट करता है।
+reviewed: false

@@ -1,0 +1,13 @@
+question: Apa tujuan utama dari teknik ricochet?
+
+answer: Untuk mengaburkan jejak masa lalu sebuah koin
+
+wrong_answers:
+  - Untuk meningkatkan anonset prospektif dari transaksi
+  - Untuk meningkatkan entropi dari sebuah transaksi
+  - Untuk membayar lebih sedikit dalam biaya transaksi di masa depan
+
+explanation: |
+  Tujuan dari ricochet adalah untuk mensimulasikan perubahan kepemilikan sebuah koin Bitcoin agar dapat mengembalikan fungsibilitasnya dengan mengaburkan tanda-tanda masa lalunya.
+
+reviewed: false

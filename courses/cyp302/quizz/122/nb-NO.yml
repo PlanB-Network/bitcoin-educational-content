@@ -1,0 +1,9 @@
+question: Hva er nøkkeldistribusjonsproblemet?
+answer: Utfordringen med å overføre nøkler sikkert uten fysisk utveksling
+wrong_answers:
+  - Nødvendigheten av å generere flere nøkkelpar per klient
+  - Vanskeligheten med å sikre fysisk lagring av nøkler
+  - Forpliktelsen til å endre nøkler ved hver kommunikasjon
+explanation: |
+  Nøkkeldistribusjonsproblemet omhandler utfordringen med å overføre nøkler på en sikker måte, en nødvendighet som har blitt avgjørende i digital kommunikasjon der en fysisk utveksling er upraktisk.
+reviewed: false

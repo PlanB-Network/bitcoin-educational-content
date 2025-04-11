@@ -1,9 +1,9 @@
-question: Welche Hash-Funktion ist ein Schlüsselelement im Bitcoin-Protokoll?
-answer: SHA-256
+question: Was ist der Hauptunterschied zwischen ShR- und RotR-Operationen?
+answer: ShR verschiebt Bits durch Hinzufügen von Nullen, RotR fügt die verschobenen Bits wieder ein
 wrong_answers:
-  - MD5
-  - SHA1
-  - SHA0
+  - ShR entfernt die verschobenen Bits, RotR multipliziert ihren Wert
+  - ShR verschiebt nach links, RotR verschiebt nach rechts
+  - ShR ist eine logische Operation, RotR ist arithmetisch
 explanation: |
-  SHA-256 ist ein Schlüsselelement im Bitcoin-Protokoll. Es wird verwendet, um einen eindeutigen und unumkehrbaren Fingerabdruck von Transaktionsdaten zu erstellen, der für die Sicherheit und Integrität des Bitcoin-Netzwerks entscheidend ist.
+  ShR verschiebt Bits nach rechts durch Hinzufügen von Nullen, während RotR eine zirkuläre Rotation der Bits durchführt.
 reviewed: false

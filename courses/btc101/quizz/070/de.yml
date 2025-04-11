@@ -1,9 +1,10 @@
-question: Wie hoch ist die BTC-Belohnung nach der vierten Halbierung?
-answer: 3.125 BTC
+question: Wie hoch ist die BTC-Belohnung nach dem vierten Halving?
+answer: 3,125 BTC.
 wrong_answers:
-  - 1.5625 BTC
-  - 6.25 BTC
-  - 12.5 BTC
+  - 1,5625 BTC.
+  - 6,25 BTC.
+  - 12,5 BTC.
 explanation: |
-  Nach der vierten Halbierung, die bei Blockhöhe 840.000 stattfindet, beträgt die BTC-Belohnung für das Mining 3.125 BTC.
-reviewed: false
+  Nach dem vierten Halving, das bei Blockhöhe
+  840.000 auftritt, beträgt die BTC-Belohnung für das Mining 3,125 BTC.
+reviewed: true

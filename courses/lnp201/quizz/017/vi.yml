@@ -1,9 +1,9 @@
-question: Bước đầu tiên để mở một kênh trong Lightning Network là gì?
-answer: Hai bên thông báo ý định mở kênh cho nhau.
+question: Điều gì xảy ra nếu Bob gửi một hóa đơn cho Alice với giá trị 30,000 satoshis?
+answer: Alice tạo một giao dịch cam kết để chuyển 30,000 satoshis cho Bob trong kênh.
 wrong_answers:
-  - Alice gửi tiền đến địa chỉ công khai của Bob.
-  - Alice tạo một địa chỉ multi-sig 2/2.
-  - Alice công bố một giao dịch lên mạng Bitcoin.
+  - Alice phải mở một kênh mới để thực hiện việc chuyển này.
+  - Bob tự động nhận được 30,000 satoshis vào ví của mình.
+  - Hóa đơn được thanh toán thông qua một giao dịch trên chuỗi trên Bitcoin.
 explanation: |
-  Bước đầu tiên để mở một kênh trong Lightning Network là hai bên cần thông báo ý định mở kênh cho nhau. Ví dụ, Alice có thể nói, "Xin chào, tôi muốn mở một kênh!" và Bob có thể đáp lại, "Ok, đây là địa chỉ công khai của tôi."
+  Khi Bob gửi một hóa đơn cho Alice, cô ấy tạo và ký một giao dịch cam kết mới để điều chỉnh việc phân bổ quỹ, do đó chuyển 30,000 satoshis trong kênh.
 reviewed: false

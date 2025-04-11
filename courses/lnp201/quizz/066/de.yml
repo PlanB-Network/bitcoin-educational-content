@@ -1,9 +1,0 @@
-question: Welche Informationen kann der Empfänger dem Sender zur Verfügung stellen, um die Suche nach Routen im Lightning-Netzwerk zu erleichtern?
-answer: Die Höhe, seine Adresse, der Hash des Preimages und Hinweise auf seine Kanäle.
-wrong_answers:
-  - Die Adresse des Senders, der Transaktionsbetrag und der private Schlüssel des Empfängers.
-  - Die Adresse des Empfängers, der Transaktionsbetrag und der private Schlüssel des Senders.
-  - Der Transaktionsbetrag, die Adresse des Empfängers und der Hash des Preimages.
-explanation: |
-  Um die Suche nach Routen im Lightning-Netzwerk zu erleichtern, kann der Empfänger dem Sender mehrere Informationen zur Verfügung stellen. Dazu gehören der Transaktionsbetrag, die Adresse des Empfängers, der Hash des Preimages (der zur Erstellung des HTLC verwendet wird) und Hinweise auf die Kanäle des Empfängers (die helfen können, Kanäle mit ausreichender Liquidität zu identifizieren).
-reviewed: false

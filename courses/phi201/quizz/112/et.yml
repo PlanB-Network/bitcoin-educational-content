@@ -1,0 +1,8 @@
+question: Millist rolli peaks riik majanduses mängima Keynesi järgi?
+answer: Aktiivset rolli, stimuleerides nõudlust majanduse elavdamiseks
+wrong_answers:
+  - Minimaalset rolli, lastes turul majandust reguleerida
+  - Neutraalset rolli, sekkumata turumehhanismidesse
+  - Peamiselt fiskaalset rolli, et tasakaalustada eelarvet
+explanation: |
+  Keynes väitis, et riik peaks aktiivselt sekkuma, et stimuleerida nõudlust, eriti majanduslanguse ajal, selleks, et elavdada majandust ja kompenseerida turu puudujääke.

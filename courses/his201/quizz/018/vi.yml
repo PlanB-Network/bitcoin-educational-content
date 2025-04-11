@@ -1,0 +1,8 @@
+question: Điều gì làm cho RPOW khác biệt so với các khái niệm tiền tệ số khác như eCash, b-money và bit gold?
+answer: Nó dựa trên một máy chủ minh bạch
+wrong_answers:
+  - Nó sử dụng bằng chứng công việc
+  - Đơn vị tiền tệ của nó không được bảo đảm bởi bất cứ thứ gì
+  - Người dùng giữ các ghi chú số của các mệnh giá cụ thể thay vì tài khoản
+explanation: |
+  Nó sử dụng bằng chứng công việc giống như b-money và bit gold. Không có sự bảo đảm nào như trong bit gold. Giống như eCash (và sau này là Bitcoin), RPOW cho phép giữ các ghi chú số cá nhân, thay vì một tài khoản, và trong phạm vi này, nó tương đối kín đáo.

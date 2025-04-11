@@ -1,0 +1,9 @@
+question: ¿Cuál fue la principal inspiración de Satoshi Nakamoto durante el diseño inicial de Bitcoin?
+answer: eCash (David Chaum)
+wrong_answers:
+  - b-money (Wei Dai)
+  - bit gold (Nick Szabo)
+  - RPOW (Hal Finney)
+explanation: |
+  A pesar de sus grandes similitudes, los modelos de b-money, bit gold y RPOW no fueron la principal inspiración de Satoshi, porque simplemente no tenía conocimiento de ellos antes de agosto de 2008.
+reviewed: false

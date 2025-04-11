@@ -1,0 +1,9 @@
+question: Hva er Bitcoin opprinnelig til?
+answer: Internettet
+wrong_answers:
+  - Blokkjeden
+  - Banksystemet
+  - Aksjemarkedet
+explanation: |
+  Kapittelet sier at Bitcoin er opprinnelig til internettet, noe som gjør det
+  tilgjengelig for alle med tilgang til internett.

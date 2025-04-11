@@ -1,0 +1,10 @@
+question: Jaki typ użytkownika najprawdopodobniej będzie potrzebował zarówno Hot, jak i Cold Bitcoin Wallet?
+answer: Użytkownik, który musi regularnie korzystać z Bitcoin.
+wrong_answers:
+  - Użytkownik, który korzysta z Bitcoin tylko okazjonalnie.
+  - Użytkownik wydobywający Bitcoin.
+  - Użytkownik, który inwestuje w Bitcoin tylko w perspektywie długoterminowej.
+explanation: |
+  Zwykli użytkownicy Bitcoin potrzebują Hot Wallet do codziennych transakcji i Cold Wallet do bezpiecznego przechowywania długoterminowego
+  Cold Wallet do bezpiecznego przechowywania długoterminowego.
+reviewed: false

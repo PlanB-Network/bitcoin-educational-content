@@ -1,11 +1,9 @@
-question: What is the starting point for calculating all the public keys of users
-  in the Bitcoin system?
-answer: Point G
+question: What does an HD wallet allow you to do compared to a JBOK wallet?
+answer: Generate all private keys from a single seed
 wrong_answers:
-  - Point K
-  - Point U
-  - Point O
+  - Increase the security of digital signatures
+  - Reuse the same address for multiple transactions
+  - Completely avoid the use of public keys
 explanation: |
-  The point G is the starting point for calculating all the public keys
-  of users in the Bitcoin system.
+  HD wallets derive all private keys from a unique seed, which simplifies backup and indirectly improves privacy.
 reviewed: false

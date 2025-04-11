@@ -1,0 +1,9 @@
+question: Kuidas on Lightning Networki suurem tõhusus ja kiirus võrreldav traditsiooniliste makseviisidega?
+answer: See on oluliselt kiirem, sest tehingud arveldatakse sageli vähem kui sekundiga, tasud on väiksemad ja ei sõltu mitmest vahendajast.
+wrong_answers:
+  - See vastab tavapärasele pangandusajale, mille arveldamine võtab sageli 2-5 päeva.
+  - See on aeglasem kui traditsioonilised kaardimaksed ja selle tasud on kõrgemad.
+  - Selleks on vaja mitut heakskiitvat üksust, nagu praeguste pangaülekannete puhul.
+explanation: |
+  Võimaldades ahelaväliseid tehinguid ja lõpetades maksed peaaegu koheselt, pakub Lightning kiiruse ja tõhususe eeliseid võrreldes traditsiooniliste meetoditega, mis tuginevad mitmetele vahendajatele.
+reviewed: false

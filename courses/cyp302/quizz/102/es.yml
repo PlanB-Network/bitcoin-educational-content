@@ -1,0 +1,9 @@
+question: ¿Cuál es el orden correcto de operaciones en la encriptación autenticada?
+answer: Primero encriptar, luego crear una etiqueta en el texto encriptado
+wrong_answers:
+  - Primero crear una etiqueta, luego encriptar el mensaje y la etiqueta
+  - Combinar el texto plano con una etiqueta, luego encriptar
+  - Crear una etiqueta, luego usar una clave pública para encriptarla
+explanation: |
+  Para asegurar la seguridad, la encriptación autenticada debe primero encriptar el mensaje, luego generar una etiqueta en el texto encriptado. Otros órdenes son potencialmente vulnerables.
+reviewed: false

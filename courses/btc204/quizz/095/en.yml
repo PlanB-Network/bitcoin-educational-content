@@ -1,0 +1,13 @@
+question: What does the prospective anonset indicate?
+
+answer: The size of the group of indistinguishable UTXOs at the output of cycles.
+
+wrong_answers:
+  - The size of the group of indistinguishable UTXOs at the input of cycles.
+  - The size of the group of indistinguishable UTXOs in a pool.
+  - The number of transactions required to achieve anonymity.
+
+explanation: |
+  The prospective anonset indicates the size of the group among which the studied UTXO hides at the output of a cycle, knowing the UTXO at the input, that is, the number of indistinguishable coins present within this group.
+
+reviewed: false

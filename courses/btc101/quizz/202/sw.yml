@@ -1,0 +1,10 @@
+question: Ni ipi mojawapo ya njia za kupata bitcoins bila KYC?
+answer: ATM za Bitcoin.
+wrong_answers:
+  - Majukwaa ya wakala.
+  - Majukwaa ya DCA.
+  - Uhamisho wa benki.
+explanation: |
+  Nakala ya kozi inataja kuwa kuna njia kadhaa za
+  kupata Bitcoins bila KYC, moja ambayo ni Bitcoin ATM.
+reviewed: true

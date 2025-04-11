@@ -1,0 +1,13 @@
+question: Jaka jest kluczowa cecha Bitcoin, która odróżnia go od walut fiducjarnych?
+answer: Jego polityka pieniężna jest egzekwowana przez ogólny konsensus.
+wrong_answers:
+  - Może być drukowany w nieograniczonych ilościach przez banki centralne.
+  - Jest on zabezpieczony fizycznym towarem, takim jak złoto lub srebro.
+  - Jest on regulowany przez bank centralny.
+explanation: |
+  Ze względu na swój zdecentralizowany i kryptograficzny charakter,
+  Bitcoin nie może zostać sfałszowany i jest ograniczony do 21 milionów
+  jednostek. Jest to kluczowa cecha, która odróżnia ją od
+  walut fiducjarnych, które podlegają polityce pieniężnej, która może być
+  zmieniana przez banki centralne.
+reviewed: true

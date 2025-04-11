@@ -1,0 +1,9 @@
+question: 在用于发行资产的 YAML 文件中，哪个字段定义了发行的代币总数？
+answer: 发出供应
+wrong_answers:
+  - 资产所有者
+  - 规格
+  - 数量
+explanation: |
+  YAML 文件中的 "issuedSupply "字段定义了合约发行的代币总量。
+reviewed: false

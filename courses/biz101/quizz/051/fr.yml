@@ -1,0 +1,9 @@
+question: Quel est le type d'entreprise pour lequel un simple fichier csv est le plus susceptible de suffire pour la comptabilité ?
+answer: Petites entreprises
+wrong_answers:
+  - Grandes entreprises multinationales
+  - Principales institutions financières
+  - Plateformes de négociation à haute fréquence
+explanation: |
+  La plupart des petites entreprises bénéficient de la simplicité et du niveau de détail suffisant d'une exportation csv.
+reviewed: false

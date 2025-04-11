@@ -1,0 +1,8 @@
+question: LNURL-withdraw功能允许用户做什么？
+answer: 通过扫描二维码从服务中提取资金
+wrong_answers:
+  - 不通过路由费用直接进行支付
+  - 无需密码即可连接他们的Lightning钱包
+  - 无需接收方确认即可发送资金
+explanation: |
+  LNURL-withdraw允许用户通过扫描二维码从服务中提取资金，从而简化了提款过程。

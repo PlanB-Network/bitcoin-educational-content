@@ -1,0 +1,9 @@
+question: Miks rakendab SHA256 sisendsõnumile eeltöötlust?
+answer: Tagamaks, et pikkus oleks 512 biti kordne
+wrong_answers:
+  - Sõnumi terviklikkuse kontrollimiseks
+  - Andmete krüpteerimiseks enne räsistamist
+  - Genereeritud räside suuruse suurendamiseks
+explanation: |
+  Eeltöötlus kohandab sõnumi pikkust, lisades täitebitte ja selle pikkuse binaaresituse.
+reviewed: false

@@ -1,0 +1,17 @@
+question: Milline on rohkem raha trükkimise mõju valuuta ostujõule?
+answer: Valuuta ostujõu vähenemine
+wrong_answers:
+  - Valuuta ostujõu tõus
+  - Ei ole mõju
+  - Rohkem raha = suurem ostujõud
+explanation: |
+  Kui keskpangad otsustavad raha trükkida, ei saa nad lihtsalt luua rohkem väärtust.
+  Selleks, et see äsja trükitud raha oleks midagi väärt, peab selle väärtus tulema
+  eelnevate valuuta omanike käest.
+  Kujutage ette rahapakkumist kui pitsat ja kujutlege, et see on lõigatud neljaks tükiks.
+  Rahapakkumise kahekordistamine ei oleks võrdne pitsa koguse kahekordistamisega.
+  Selle asemel oleks see võrdne nende nelja tüki pooleks lõikamisega, et luua
+  kaheksa tükki. Me ei ole saanud juurde ühtegi lisapitsat. Meil on lihtsalt rohkem tükke,
+  igaüks väiksema suurusega. Seega, kui me trükime rohkem raha, vähendame juba olemasoleva
+  raha väärtust.
+  kontrollitud: true

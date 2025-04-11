@@ -1,0 +1,9 @@
+question: Proč je autentizované šifrování odolné vůči útokům s vybraným šifrotextem?
+answer: Protože jakákoli úprava šifrotextu útočníkem zneplatní tag
+wrong_answers:
+  - Protože používá jediný šifrovací algoritmus
+  - Protože jakákoli úprava šifrotextu útočníkem zneplatní klíč
+  - Protože šifruje pouze zprávu bez tagu
+explanation: |
+  Schéma autentizovaného šifrování je navrženo tak, aby detekovalo úpravy šifrotextu, což v případě pokusů o manipulaci zneplatní tag a zajišťuje odolnost vůči útokům s vybraným šifrotextem.
+reviewed: false

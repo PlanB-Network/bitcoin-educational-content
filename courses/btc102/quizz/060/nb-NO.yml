@@ -1,0 +1,9 @@
+question: Hva er en hot wallet i konteksten av Bitcoin?
+answer: En lommebok for å lagre små mengder Bitcoin på nettet
+wrong_answers:
+  - En lommebok som brukes for transaksjoner i varme klima
+  - En lommebok som brukes for å lagre store mengder Bitcoin
+  - En lommebok som brukes for å lagre Bitcoin over en lang periode
+explanation: |
+  En hot wallet er en lommebok for å lagre små mengder Bitcoin på nettet.
+  Den anses som mindre sikker enn en cold wallet fordi den er mer sårbar for hacking.

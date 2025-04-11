@@ -1,9 +1,10 @@
-question: Was ist die durchschnittliche Zeit zwischen zwei Blöcken im Bitcoin-Protokoll?
-answer: 10 Minuten
+question: Was ist das durchschnittliche Zeitintervall zwischen der Erstellung von zwei Blöcken im Bitcoin-Protokoll?
+answer: 10 Minuten.
 wrong_answers:
-  - 5 Minuten
-  - 15 Minuten
-  - 20 Minuten
+  - 5 Minuten.
+  - 15 Minuten.
+  - 20 Minuten.
 explanation: |
-  Im Durchschnitt beträgt die Zeit zwischen zwei Blöcken im Bitcoin-Protokoll 10 Minuten.
-reviewed: false
+  Das durchschnittliche Zeitintervall zwischen der Erstellung von zwei
+  Blöcken im Bitcoin-Protokoll beträgt 10 Minuten.
+reviewed: true

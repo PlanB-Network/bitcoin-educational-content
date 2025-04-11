@@ -1,0 +1,8 @@
+question: Hvilken type likviditet må en selger på Lightning Network primært håndtere for å akseptere betalinger?
+answer: Inngående likviditet
+wrong_answers:
+  - Utgående likviditet
+  - Høy total kanalkapasitet
+  - Høy saldo på kjeden
+explanation: |
+  For å motta betalinger, trenger en selger å ha inngående likviditet, noe som betyr at midler må være tilgjengelige på den motsatte siden av kanalen for at de skal kunne akseptere betalinger.

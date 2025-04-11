@@ -1,0 +1,9 @@
+question: Qual é a diferença entre uma variável aleatória discreta e uma contínua?
+answer: Uma variável discreta possui um número finito de resultados possíveis, enquanto uma variável contínua pode assumir um número infinito de valores dentro de um intervalo.
+wrong_answers:
+  - Uma variável discreta muda de valor constantemente, enquanto uma variável contínua permanece estável.
+  - Uma variável discreta é específica para experimentos físicos conduzidos, uma variável contínua é abstrata em seu intervalo.
+  - Variáveis discretas não existem na criptografia moderna, apenas variáveis contínuas são usadas.
+explanation: |
+  Variáveis discretas têm um conjunto finito de resultados, enquanto variáveis contínuas podem assumir qualquer valor dentro de um intervalo, como os números reais entre 0 e 1.
+reviewed: false

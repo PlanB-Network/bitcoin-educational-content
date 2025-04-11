@@ -1,0 +1,9 @@
+question: Theo Adam Smith, tại sao thị trường lại hoạt động?
+answer: Bởi vì nó dựa trên lợi ích cá nhân
+wrong_answers:
+  - Bởi vì nó được quản lý
+  - Bởi vì nó có đức hạnh
+  - Bởi vì nó được giám sát bởi nhà nước
+explanation: |
+  Đối với Adam Smith, thị trường hoạt động bởi vì mỗi cá nhân hành động theo lợi ích cá nhân của mình, điều này tự nhiên tạo ra sự thịnh vượng chung.
+reviewed: false

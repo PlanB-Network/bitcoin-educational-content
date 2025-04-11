@@ -1,0 +1,9 @@
+question: Millisel kuupäeval andis Jeremy Sturdivant Laszlo Hanyeczile kahe pizza eest vastutasuks 10 000 bitcoini, märkides esimest korda füüsilise kauba ostu krüptorahaga?
+answer: 22. mai 2010
+wrong_answers:
+  - 12. oktoober 2009
+  - 18. aprill 2010
+  - 11. juuni 2010
+explanation: |
+  Pärast foorumis tehtud teadaannet nõustuti pakkumisega 22. mail 2010. Sel ajal olid 10 000 bitcoini väärt umbes 44 dollarit.
+reviewed: false

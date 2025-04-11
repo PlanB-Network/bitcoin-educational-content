@@ -1,0 +1,11 @@
+question: Thuật ngữ nào mô tả sự bảo vệ mà một coinjoin cung cấp chống lại việc phân tích các giao dịch trước đây của một đồng tiền?
+
+answer: Anonset hồi tưởng.
+
+wrong_answers:
+  - Anonset tiềm năng.
+  - Khả năng chống truy vết.
+  - Quyền riêng tư theo thời gian.
+
+explanation: |
+  Sự bảo vệ chống lại việc phân tích từ hiện tại trở về quá khứ được gọi là anonset hồi tưởng.

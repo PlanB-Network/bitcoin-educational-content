@@ -1,9 +1,9 @@
-question: Jaký je hlavní rozdíl mezi myšlenkami keynesiánské ekonomie a rakouské ekonomie ve vztahu k peněžnímu systému?
+question: Jaký je hlavní rozdíl mezi keynesiánskou ekonomií a rakouskou ekonomií v souvislosti s měnovým systémem?
 answer: Keynesiánská ekonomie nebere v úvahu časové a dynamické aspekty situací a zdrojů.
 wrong_answers:
-  - Keynesiánská ekonomie podporuje nadměrnou spotřebu a zadlužení
-  - Keynesiánská ekonomie neodráží nedostatek zdrojů
-  - Keynesiánská ekonomie podporuje inflaci
+  - Keynesiánská ekonomie podporuje nadměrnou spotřebu měn.
+  - Keynesiánská ekonomie uznává nedostatek situací a zdrojů.
+  - Keynesiánská ekonomie podporuje inflaci.
 explanation: >-
-  Hlavní rozdíl mezi myšlenkami keynesiánské ekonomie a rakouské ekonomie ve vztahu k peněžnímu systému spočívá v tom, že keynesiánská ekonomie nebere v úvahu časové a dynamické aspekty situací a zdrojů. Jinými slovy, neomezená měna nemůže efektivně odrážet omezené zdroje naší planety.
-reviewed: false
+  Hlavní rozdíl mezi myšlenkami keynesiánské ekonomie a rakouské ekonomie ve vztahu k měnovému systému spočívá v tom, že keynesiánská ekonomie nebere v úvahu časové a dynamické aspekty situací a zdrojů. Jinými slovy, neomezená měna nemůže efektivně odrážet omezené zdroje naší planety.
+reviewed: true

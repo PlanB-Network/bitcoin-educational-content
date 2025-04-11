@@ -1,0 +1,9 @@
+question: In che modo un portafoglio non custodiale differisce in termini di funzionalità per gli utenti Starter?
+answer: Fornisce al proprietario dell'azienda il pieno controllo delle chiavi private
+wrong_answers:
+  - Può convertire automaticamente i bitcoin in valuta fiat
+  - Non richiede procedure di backup o misure di sicurezza
+  - Gestisce tutte le transazioni attraverso un servizio di terze parti
+explanation: |
+  I portafogli non custodiali mettono il controllo delle chiavi private e delle transazioni interamente nelle mani dell'utente.
+reviewed: false

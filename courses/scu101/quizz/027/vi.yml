@@ -1,11 +1,12 @@
-question: Lý do chính để không trả tiền cho hacker trong trường hợp của ransomware hoặc các loại tấn công khác là gì?
-answer: Việc trả tiền chuộc không đảm bảo việc bạn sẽ lấy lại được dữ liệu của mình và có thể khuyến khích các tội phạm mạng tiếp tục các hoạt động độc hại của họ.
+question: Lý do chính để không trả tiền cho hacker trong trường hợp bị ransomware hoặc các loại tấn công khác là gì?
+answer: Việc trả tiền chuộc không đảm bảo việc khôi phục dữ liệu của bạn và có thể khuyến khích tội phạm mạng tiếp tục các hoạt động xấu xa của họ.
 wrong_answers:
-  - Việc trả tiền cho hacker là bất hợp pháp.
-  - Hacker sẽ yêu cầu nhiều tiền hơn sau khoản thanh toán ban đầu.
-  - Phương thức thanh toán thường không thể truy vết.
+  - Việc trả tiền chuộc là bất hợp pháp và có thể khuyến khích tội phạm mạng tiếp tục các hoạt động xấu xa của họ.
+  - Việc trả tiền chuộc không đảm bảo việc khôi phục dữ liệu của bạn và có thể khuyến khích hacker yêu cầu thêm tiền sau khoản thanh toán ban đầu.
+  - Việc trả tiền chuộc có thể khuyến khích tội phạm mạng tiếp tục các hoạt động xấu xa vì phương thức thanh toán thường không thể truy vết.
 explanation: |
-  Việc trả tiền chuộc không đảm bảo rằng bạn sẽ lấy lại được dữ liệu của mình.
-  Hơn nữa, nó khuyến khích các tội phạm mạng tiếp tục các hoạt động độc hại của họ vì
-  họ thấy đó là một công việc có lợi nhuận.
-reviewed: false
+  Việc trả tiền chuộc không đảm bảo rằng bạn sẽ lấy lại được
+  dữ liệu của mình. Hơn nữa, nó khuyến khích tội phạm mạng
+  tiếp tục các hoạt động xấu xa của họ vì họ thấy đó là một
+  hành động có lợi nhuận.
+reviewed: true

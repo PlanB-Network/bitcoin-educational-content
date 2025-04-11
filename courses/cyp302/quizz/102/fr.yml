@@ -1,0 +1,9 @@
+question: Quel est l'ordre correct des opérations dans un chiffrement authentifié ?
+answer: D'abord chiffrer, puis créer un tag sur le texte chiffré
+wrong_answers:
+  - Créer d'abord un tag, puis chiffrer le message et le tag
+  - Combiner le texte en clair avec un tag, puis chiffrer
+  - Créer un tag, puis utiliser une clé publique pour le chiffrer
+explanation: |
+  Pour garantir la sécurité, un chiffrement authentifié doit d'abord chiffrer le message, puis générer un tag sur le texte chiffré. Les autres ordres sont potentiellement vulnérables.
+reviewed: false

@@ -1,9 +1,9 @@
-question: Quel est le résultat de l'algorithme HMAC SHA-512 ?
-answer: Un nombre de 512 bits, divisé en deux parties ; les 256 bits les plus à gauche représentent la clé privée principale, tandis que les 256 bits les plus à droite représentent le code de chaîne principal.
+question: Comment la checksum est-elle calculée pour les adresses SegWit v0 encodées en bech32 ?
+answer: En utilisant des codes BCH
 wrong_answers:
-  - Un nombre de 256 bits qui représente la clé privée principale.
-  - Un nombre de 256 bits qui représente le code de chaîne principal.
-  - Un nombre de 512 bits qui représente la graine.
+  - En appliquant HASH256 deux fois
+  - En ajoutant un hachage RIPEMD160
+  - En encodant directement en base64
 explanation: |
-  Le résultat de HMAC SHA-512 est un nombre de 512 bits, divisé en deux parties ; les 256 bits les plus à gauche représentent la clé privée principale, tandis que les 256 bits les plus à droite représentent le code de chaîne principal.
+  Les adresses bech32 utilisent des codes BCH pour calculer la checksum.
 reviewed: false

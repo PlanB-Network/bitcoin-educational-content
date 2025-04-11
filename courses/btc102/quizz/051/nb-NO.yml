@@ -1,0 +1,10 @@
+question: Hva er funksjonen til Lightning Network i Bitcoin-økosystemet?
+answer: Den lar Bitcoin utvide seg og få flere funksjoner ved å fungere som et andre lag.
+wrong_answers:
+  - Det er en separat kryptovaluta som konkurrerer med Bitcoin.
+  - Det er et verktøy for å utvinne Bitcoin.
+  - Det er en plattform for handel med Bitcoin.
+explanation: |
+  Lightning Network er en andre-lags teknologi anvendt på bitcoin
+  som bruker mikrobetalingskanaler for å skalere blokkjedens evne til å gjennomføre
+  transaksjoner mer effektivt.

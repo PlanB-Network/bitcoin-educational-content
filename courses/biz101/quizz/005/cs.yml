@@ -1,0 +1,9 @@
+question: Jaká je jedna z charakteristických vlastností bitcoinu jako měnové sítě?
+answer: Je podobná hotovosti a pro transakce nevyžaduje žádný centrální orgán ani zprostředkovatele.
+wrong_answers:
+  - Může fungovat pouze tehdy, pokud je k tomu oprávněn vládní orgán.
+  - Na žádost uživatele vydává nové měnové jednotky.
+  - K ověření a vypořádání každé transakce potřebuje banky.
+explanation: |
+  Bitcoin funguje jako decentralizovaná síť, která umožňuje účast komukoli bez povolení. Transakce ověřují uzly a těžaři, nikoli centrální autorita.
+reviewed: false

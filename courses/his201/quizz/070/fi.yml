@@ -1,0 +1,9 @@
+question: Kuka ehdotti WikiLeaks-organisaation ottamista yhteyttä rohkaistakseen heitä hyväksymään bitcoinin marraskuussa 2010?
+answer: Amir Taaki
+wrong_answers:
+  - Wladimir van der Laan
+  - Robert Horning
+  - Satoshi Nakamoto
+explanation: |
+  Hän perusteli sitä kirjoittamalla, että organisaation varoja oli jäädytetty useita kertoja. Erityisesti Moneybookers oli jäädyttänyt WikiLeaksin tilin lokakuussa.
+reviewed: false

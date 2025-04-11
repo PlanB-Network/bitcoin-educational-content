@@ -1,0 +1,9 @@
+question: Was passiert, wenn ein Schlüssel von 7 verwendet wird, um das Wort CAT zu verschlüsseln?
+answer: Das Wort wird zu JHA
+wrong_answers:
+  - Das Wort wird zu JBA
+  - Das Wort wird zu JHB
+  - Das Wort wird zu ZHA
+explanation: |
+  Mit einem Schlüssel von 7 wird jeder Buchstabe des Wortes CAT um 7 Positionen im Alphabet verschoben, was das verschlüsselte Wort JHA ergibt.
+reviewed: false

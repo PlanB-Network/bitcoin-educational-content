@@ -1,0 +1,13 @@
+question: Co to jest Cold Wallet?
+answer: Wallet to fizyczne urządzenie, które przechowuje klucze i nie jest połączone z Internetem.
+wrong_answers:
+  - Wallet, który jest fizycznie Cold w dotyku.
+  - Wallet, który jest niepopularny wśród użytkowników Bitcoin.
+  - Wallet, który jest zalecany do przechowywania niewielkich ilości bitcoinów.
+explanation: |
+  Cold Wallet to termin używany do opisania Bitcoin Wallet
+  który jest przechowywany na urządzeniu, które nie jest podłączone do
+  z Internetem. Dzięki temu jest mniej podatny na zagrożenia online,
+  ale oznacza to również, że Wallet jest mniej dostępny dla codziennych transakcji
+  codziennych transakcji.
+reviewed: true

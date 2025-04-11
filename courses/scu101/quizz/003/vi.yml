@@ -5,8 +5,8 @@ wrong_answers:
   - Nó luôn an toàn hơn phần mềm mã nguồn đóng.
   - Nó luôn thân thiện với người dùng hơn phần mềm mã nguồn đóng.
 explanation: |
-  Phần mềm mã nguồn mở là phần mềm mà mã nguồn của nó được biết đến và có thể truy cập
-  bởi mọi người. Điều này cho phép xác minh, trong số những điều khác, rằng không có
-  quyền truy cập ẩn nào để đánh cắp dữ liệu cá nhân của bạn. Tuy nhiên, nó không luôn luôn miễn phí, an toàn,
-  hoặc thân thiện với người dùng hơn phần mềm mã nguồn đóng.
-reviewed: false
+  Phần mềm mã nguồn mở là phần mềm mà mã của nó được biết đến và
+  có thể truy cập bởi mọi người. Điều này cho phép xác minh, trong số
+  các điều khác, rằng không có quyền truy cập ẩn nào để đánh cắp dữ liệu cá nhân của bạn. Tuy nhiên, nó không phải lúc nào cũng miễn phí, an toàn hơn, hoặc
+  thân thiện với người dùng hơn so với phần mềm mã nguồn đóng.
+reviewed: true

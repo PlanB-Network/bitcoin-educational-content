@@ -1,0 +1,9 @@
+question: Hva er rollen til frøet i en Bitcoin HD-lommebok?
+answer: Å fungere som utgangspunktet for avledningen av alle nøkler
+wrong_answers:
+  - Lagre lommebokens transaksjoner
+  - Direkte generere den overordnede offentlige nøkkelen
+  - Sikre transaksjonskonfidensialitet
+explanation: |
+  Frøet er en 512-bits sekvens avledet fra den mnemoniske frasen og passfrasen. Det danner grunnlaget for alle nøklene i lommeboken.
+reviewed: false

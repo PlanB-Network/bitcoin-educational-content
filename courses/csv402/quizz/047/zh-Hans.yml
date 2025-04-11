@@ -1,0 +1,9 @@
+question: 如果出现差异，可以使用什么技术来合并不同版本的藏书？
+answer: CRDT
+wrong_answers:
+  - HTLC
+  - 一次性密封
+  - 基于日志的复制
+explanation: |
+  CRDT 可以在不发生客户端冲突的情况下合并多个版本的存储库，从而确保数据的一致性。
+reviewed: false

@@ -1,0 +1,9 @@
+question: ¿Cuál fue el nombre de la primera aplicación de custodia que permitió el uso simple de Bitcoin en móviles creada en abril de 2010?
+answer: MyBitcoin
+wrong_answers:
+  - Bitcoin Wallet
+  - BTC 2 PSC
+  - Privacy Shark
+explanation: |
+  Fue [promocionada](https: //bitcointalk.org/index.php?topic=30.msg1035#msg1035) en el foro el 30 de abril de 2010, por alguien llamado komoto.
+reviewed: false

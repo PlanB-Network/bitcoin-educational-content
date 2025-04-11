@@ -1,13 +1,9 @@
-question: What is the purpose of the withdrawal transaction in the process of opening
-  a channel in the Lightning Network?
-answer: It allows Alice to recover her funds if something goes wrong.
+question: What is the last step to open a channel on the Lightning Network?
+answer: Publish the deposit transaction on the Bitcoin blockchain
 wrong_answers:
-  - It allows Bob to claim his share of the funds.
-  - It is used to finalize the channel opening process.
-  - It is used to transfer funds from Alice to Bob.
+  - Sign a withdrawal transaction to recover the funds
+  - Send a confirmation message of the opening to the other party
+  - Verify the balance of funds of each participant
 explanation: |
-  The withdrawal transaction is created by Alice before publishing the
-  deposit of funds in the multi-sig. This transaction allows Alice to spend the funds
-  from the multi-sig address to an address of hers. This is done to ensure that she
-  can recover her funds if something goes wrong.
+  The last step to open a channel is to publish the deposit transaction on the blockchain, which officially opens the channel.
 reviewed: false

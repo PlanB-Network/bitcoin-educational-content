@@ -1,9 +1,12 @@
 question: Qual é a mensagem contida no primeiro bloco da blockchain do Bitcoin?
-answer: 03/jan/2009 Chanceler à beira do segundo resgate aos bancos.
+answer: 03/jan/2009 Chanceler à beira de um segundo resgate para os bancos.
 wrong_answers:
-  - Podemos vencer uma grande batalha na corrida armamentista e conquistar um novo território de liberdade por vários anos.
-  - Os governos são bons em cortar as cabeças de redes controladas centralmente como o Napster, mas redes P2P puras como Gnutella e Tor parecem estar se mantendo.
-  - Nenhuma das opções acima.
+  - Podemos vencer uma grande batalha na corrida armamentista e ganhar um novo território de liberdade por vários anos.
+  - Os governos são bons em cortar as cabeças de redes centralmente controladas como o Napster, mas redes puramente P2P como Gnutella e Tor parecem estar se mantendo.
+  - Nenhuma das alternativas.
 explanation: |
-  O primeiro bloco da blockchain do Bitcoin, também conhecido como bloco gênese, contém a mensagem 03/jan/2009 Chanceler à beira do segundo resgate aos bancos, que é o título do Time daquele dia para marcar a data e hora do bloco gênese.
-reviewed: false
+  O primeiro bloco da blockchain do Bitcoin, também conhecido como
+  o bloco gênesis, contém a mensagem 03/jan/2009
+  Chanceler à beira de um segundo resgate para os bancos, que é
+  o título do jornal Time daquele dia para marcar a data do bloco gênesis.
+reviewed: true

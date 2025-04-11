@@ -1,0 +1,9 @@
+question: Segundo Hayek, qual é a conexão entre socialismo e nazismo?
+answer: Todas as outras respostas (eles compartilham a rejeição ao individualismo, priorizam o bem-estar do grupo, usam coerção).
+wrong_answers:
+  - As duas ideologias são incompatíveis.
+  - Socialismo e nazismo são opostos em questões econômicas.
+  - Socialismo e nazismo não têm conexão.
+explanation: |
+  Hayek argumentou que o socialismo e o nazismo compartilham traços comuns, como a rejeição ao individualismo em favor do coletivo e o uso de coerção, tornando-os semelhantes em seus efeitos autoritários.
+reviewed: false

@@ -1,9 +1,9 @@
-question: Qual é o objetivo de uma "carteira fria" no Bitcoin?
+question: Qual é o objetivo de uma carteira fria no Bitcoin?
 answer: Para armazenar Bitcoins com segurança.
 wrong_answers:
   - Para minerar novos Bitcoins.
   - Para negociar Bitcoins.
   - Para converter Bitcoins em outras criptomoedas.
 explanation: |
-  Uma "carteira fria", também conhecida como carteira de hardware, é um dispositivo projetado para armazenar Bitcoins com segurança. Ela não é usada para minerar novos Bitcoins, negociar Bitcoins ou converter Bitcoins em outras criptomoedas.
+  Uma carteira fria, também conhecida como carteira de hardware, é um dispositivo projetado para armazenar Bitcoins com segurança. Ela não é usada para minerar novos Bitcoins, negociar Bitcoins ou converter Bitcoins em outras criptomoedas.
 reviewed: false

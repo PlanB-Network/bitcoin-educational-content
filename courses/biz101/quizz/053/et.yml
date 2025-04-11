@@ -1,0 +1,9 @@
+question: Millised peamised makse üksikasjad tuleb dokumenteerida iga Bitcoini tehingu kohta?
+answer: Kuupäev, summa, samaväärne fiatväärtus ja sellega seotud aadressid
+wrong_answers:
+  - Tehingu ID, võrgutasu ja kaupmehe aadress
+  - Kuupäev, vahetuskurss, rahakoti tüüp ja geograafiline asukoht
+  - Bitcoini ploki number, ajatempel ja kasutatud skript
+explanation: |
+  Nende üksikasjade dokumenteerimine tagab selguse ja aitab raamatupidajatel eristada sissetulevaid ja väljaminevaid voogusid.
+reviewed: false

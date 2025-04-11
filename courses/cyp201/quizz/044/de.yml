@@ -1,9 +1,9 @@
-question: Was ist die Rolle des Generatorpunkts in der elliptischen Kurve?
-answer: Er wird verwendet, um den Punkt auf der elliptischen Kurve zu berechnen.
+question: Was ist Entropie im Kontext der Kryptographie?
+answer: Ein Maß für die Unvorhersehbarkeit, die mit einem zufälligen Prozess verbunden ist
 wrong_answers:
-  - Er wird verwendet, um die Nonce zu generieren.
-  - Er wird verwendet, um die Schlüssel zu verschlüsseln.
-  - Er wird verwendet, um die Schlüssel zu speichern.
+  - Eine Methode zur Verschlüsselung sensibler Daten
+  - Ein Algorithmus zur Berechnung öffentlicher Schlüssel
+  - Eine Technik zur Datenkompression
 explanation: |
-  Der Generatorpunkt ist ein spezifischer Punkt auf der elliptischen Kurve, der bei der Berechnung anderer Punkte auf der Kurve verwendet wird. Er wird bei der Generierung von öffentlichen und privaten Schlüsseln sowie bei der Erstellung und Überprüfung digitaler Signaturen verwendet.
+  In der Kryptographie quantifiziert Entropie das Niveau der Unsicherheit oder des Chaos in einer zufälligen Quelle, was für die Erzeugung sicherer Schlüssel wesentlich ist.
 reviewed: false

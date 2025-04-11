@@ -1,0 +1,8 @@
+question: Missä Bitcoin-siirrossa yleisesti käytetään teknologiaa varojen omistajuuden todistamiseen skriptin avaamisen kautta?
+answer: Digitaaliset allekirjoitukset
+wrong_answers:
+  - Digitaaliset sertifikaatit
+  - Symmetrinen salaus
+  - Viestien aitoustarkistuskoodit (MAC)
+explanation: |
+  Digitaaliset allekirjoitukset Bitcoinissa todistavat varojen hallussapidon allekirjoittamalla siirrot yksityisellä avaimella, jotta voidaan avata skripti, joka turvaa UTXO: n.

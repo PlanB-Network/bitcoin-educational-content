@@ -1,0 +1,9 @@
+question: Was macht die Komplexität des heutigen kartengestützten Bezahlvorgangs an einer Verkaufsstelle im Einzelhandel aus?
+answer: Es sind mehrere Vermittler und mehrere Schritte erforderlich, und es kann Tage dauern, bis die Gelder vollständig abgewickelt sind.
+wrong_answers:
+  - Es ist nur ein einziger Schritt erforderlich, und das Geld wird sofort überwiesen.
+  - Es stützt sich ausschließlich auf physisches Bargeld und keine Zwischenhändler.
+  - Es stellt sicher, dass der Händler sofort und unwiderruflich über das Geld verfügt, sobald die Karte durchgestrichen wird.
+explanation: |
+  An Kartenzahlungen sind oft mehrere Zwischenhändler beteiligt (Acquirer, Emittenten, Kartennetze), es sind Genehmigungs- und Abrechnungsschritte erforderlich, und es kann zwischen 48 Stunden und mehreren Tagen dauern, bis der Händler den Nettobetrag erhält.
+reviewed: false

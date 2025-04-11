@@ -1,0 +1,9 @@
+question: Welche Eigenschaft muss eine Hash-Funktion besitzen, um Sicherheit bei der Softwareverifizierung zu gewährleisten?
+answer: Kollisionsresistenz
+wrong_answers:
+  - Umkehrbarkeit
+  - Operabilität mit asymmetrischen Schlüsseln
+  - Echtzeit-Generierbarkeit
+explanation: |
+  Kollisionsresistenz stellt sicher, dass es praktisch unmöglich ist, zwei unterschiedliche Eingaben zu finden, die denselben Hash erzeugen. Dies ist wichtig, um zu verifizieren, dass die Software nicht manipuliert wurde.
+reviewed: false

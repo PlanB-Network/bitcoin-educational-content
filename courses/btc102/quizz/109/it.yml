@@ -5,5 +5,5 @@ wrong_answers:
   - Un nuovo tipo di Bitcoin.
   - Una piattaforma di trading di Bitcoin.
 explanation: |
-  Il Lightning Network è un protocollo di pagamento di "livello 2" che opera su una criptovaluta basata su blockchain (come Bitcoin). È progettato per consentire transazioni veloci tra i nodi partecipanti.
+  Il Lightning Network è un protocollo di pagamento di livello 2 che opera su una criptovaluta basata su blockchain (come Bitcoin). È progettato per consentire transazioni veloci tra i nodi partecipanti.
 reviewed: false

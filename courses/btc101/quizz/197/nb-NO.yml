@@ -1,0 +1,9 @@
+question: Hva er en av risikoene forbundet med å kjøpe Bitcoin?
+answer: Prisen kan falle til 0.
+wrong_answers:
+  - Den kan lett bli stjålet.
+  - Den kan dupliseres.
+  - Den kan gå fysisk tapt.
+explanation: >-
+  Teksten nevner at Bitcoin er en svært volatil finansiell eiendel og
+  prisen kan falle til 0. Dette er en av risikoene forbundet med å kjøpe Bitcoin.

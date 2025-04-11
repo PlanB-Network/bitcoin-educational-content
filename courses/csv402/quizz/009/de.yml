@@ -1,0 +1,9 @@
+question: Warum wird bei RGB empfohlen, Tapret anstelle von Opret für Verpflichtungen zu verwenden?
+answer: Um die Sichtbarkeit zu minimieren und Zensur zu vermeiden
+wrong_answers:
+  - Senkung der Transaktionskosten
+  - Weil ein OP_RETURN nicht Lightning-kompatibel ist
+  - Um den Umfang der Verpflichtungen zu maximieren
+explanation: |
+  Mit Tapret können Sie Verpflichtungen diskret integrieren, im Gegensatz zu OP_RETURN, das sie sofort sichtbar macht und der Zensur unterliegt.
+reviewed: false

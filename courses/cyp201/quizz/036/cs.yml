@@ -1,9 +1,9 @@
-question: Jaký je výchozí bod pro výpočet veřejných klíčů uživatelů v systému Bitcoin?
-answer: Bod G
+question: Co umožňuje HD peněženka ve srovnání s JBOK peněženkou?
+answer: Generovat všechny soukromé klíče z jediného seedu
 wrong_answers:
-  - Bod K
-  - Bod U
-  - Bod O
+  - Zvýšit bezpečnost digitálních podpisů
+  - Používat stejnou adresu pro více transakcí
+  - Zcela se vyhnout používání veřejných klíčů
 explanation: |
-  Bod G je výchozím bodem pro výpočet veškerých veřejných klíčů uživatelů v systému Bitcoin.
+  HD peněženky odvozují všechny soukromé klíče z unikátního seedu, což zjednodušuje zálohování a nepřímo zlepšuje soukromí.
 reviewed: false

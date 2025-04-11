@@ -1,0 +1,9 @@
+question: Warum wird die Volatilität als natürlicher Aspekt von Bitcoin als aufstrebendem Vermögenswert betrachtet?
+answer: Denn Bitcoin ist noch relativ jung, zieht Spekulanten an und reagiert auf Marktnachrichten, was zu Kursschwankungen führt, bevor er sich über längere Zeiträume stabilisiert.
+wrong_answers:
+  - Weil es zentral gesteuert wird und die Preise von einer Behörde festgelegt werden.
+  - Weil es bei Bitcoin keine Nutzer gibt, die ihn langfristig halten.
+  - Denn die Händler müssen die Preise stündlich unvorhersehbar festlegen.
+explanation: |
+  Als ein sich entwickelnder Vermögenswert wird der Bitcoin-Preis von Spekulationen, Stimmungen und unterschiedlichen Akzeptanzraten beeinflusst. Im Laufe der Zeit, wenn sich mehr stabile, langfristige Besitzer beteiligen, kann die Volatilität abnehmen, aber sie bleibt ein Merkmal des frühen Wachstumsstadiums.
+reviewed: false

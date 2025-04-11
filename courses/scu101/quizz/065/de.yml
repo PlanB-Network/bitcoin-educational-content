@@ -1,9 +1,0 @@
-question: Wie lautet die empfohlene Vorgehensweise zur Speicherung von Einmalpasswörtern (OTPs)?
-answer: Bewahren Sie OTPs auf Ihrem Mobilgerät auf.
-wrong_answers:
-  - Schreiben Sie sie auf Papier.
-  - Speichern Sie sie in Ihrer E-Mail.
-  - Merken Sie sie sich.
-explanation: |
-  Für optimale Sicherheit wird empfohlen, OTPs (Einmalpasswörter) auf Ihrem Mobilgerät aufzubewahren. Dies liegt daran, dass Mobilgeräte im Allgemeinen sicherer sind und weniger wahrscheinlich kompromittiert werden als andere Speichermethoden.
-reviewed: false

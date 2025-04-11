@@ -1,8 +1,8 @@
-question: Mikä funktio käytetään generoimaan siemenlauseke salasanasta Bitcoin-lompakossa?
-answer: pbkdf2
+question: Mikä johdannaispolku käytetään SegWit v0 -tilille standardissa kuvauksessa?
+answer: 84h/0h/0h
 wrong_answers:
-  - sha256
-  - md5
-  - bcrypt
+  - 44h/0h/0h
+  - 86h/0h/0h
+  - 84/0/0
 explanation: |
-  pbkdf2-funktio käytetään generoimaan siemenlauseke salasanasta Bitcoin-lompakossa. Tämä siemen mahdollistaa kaikkien lompakon lasten avainparien johdannan.
+  Polku 84h/0h/0h on määritelty BIP84: ssä tilille, joka johtaa SegWit v0 -osoitteita P2WPKH n kanssa.

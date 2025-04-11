@@ -1,10 +1,9 @@
-question: Kolik kol provádí PBKDF2 s použitím HMAC SHA512?
-answer: 2048 kol
+question: Jaká je hlavní charakteristika skalárního násobení na eliptických křivkách?
+answer: Jednosměrná funkce
 wrong_answers:
-  - 1024 kol
-  - 512 kol
-  - 4096 kol
+  - Snadno reverzibilní
+  - Založeno na faktorizaci prvočísel
+  - Velmi dlouho se počítá
 explanation: |
-  PBKDF2 se používá k převodu mnemonické fráze na seed. Tento algoritmus
-  provádí 2048 kol s použitím HMAC SHA512.
-posouzeno: false
+  Skalární násobení na eliptických křivkách je jednosměrná funkce, což znemožňuje získání soukromého klíče z veřejného klíče.
+reviewed: false

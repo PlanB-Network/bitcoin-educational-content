@@ -1,0 +1,9 @@
+question: Milloin Jacques Le Goffin mukaan legitiimin edun käsite teoreetisoitiin ensimmäisen kerran?
+answer: 1200-luvulla.
+wrong_answers:
+  - 1100-luvulla.
+  - 1200-luvulla.
+  - 1300-luvulla.
+explanation: |
+  Jacques Le Goff sijoittaa legitiimin edun ensimmäisen teoreettisen käsittelemisen 1200-luvulle, jolloin tämä idea nousi esiin teologisen ja taloudellisen pohdinnan kontekstissa rahan käytöstä ja kaupallisista käytännöistä.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mis on Bitcoin tehingu toime sisend UTXO-dele?
+answer: See tarbib neid väljundite rahuldamiseks.
+wrong_answers:
+  - See arhiveerib need blockchainis tuleviku tarbeks.
+  - See krüpteerib need tehingu turvamiseks.
+  - See dubleerib need uute UTXO-de loomiseks.
+explanation: |
+  Tehingu sisend UTXO-d tarbitakse väljundite rahastamiseks. See on omamoodi raha allikas.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jak lze blokovou šifru přeměnit na proudovou šifru?
+answer: Použitím režimů jako je OFB, které generují proud klíčů z blokové šifry
+wrong_answers:
+  - Rozdělením otevřeného textu na bajty a jejich šifrováním jeden po druhém
+  - Použitím doplňování zpráv před šifrováním
+  - Zvýšením délky klíče pro každý zašifrovaný blok
+explanation: |
+  Režimy jako je OFB umožňují blokové šifře fungovat jako proudová šifra tím, že generují proud klíčů, který je pak použit pro každou část otevřeného textu.
+reviewed: false

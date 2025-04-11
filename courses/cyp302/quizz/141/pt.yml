@@ -1,0 +1,9 @@
+question: Por que a fatoração de um produto de dois números primos muito grandes é considerada um problema difícil?
+answer: Porque requer uma quantidade proibitiva de tempo de computação até mesmo para supercomputadores.
+wrong_answers:
+  - Porque requer uma chave pública para cada fator.
+  - Porque envolve apenas operações básicas de cálculo.
+  - Porque depende de multiplicação e não de divisão.
+explanation: |
+  Fatorar um número enorme, o produto de dois grandes números primos, exige capacidades computacionais que excedem a capacidade dos computadores atuais, tornando esta tarefa praticamente inviável.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hvorfor er et autentisert krypteringsskjema alene utilstrekkelig i en kommunikasjonssesjon?
+answer: Det garanterer ikke at meldingen ble sendt av avsenderen på tidspunktet for sesjonen.
+wrong_answers:
+  - Det bruker nøkler som er for korte.
+  - Det krypterer ikke meldinger sendt på tidspunktet for sesjonen.
+  - Det tillater ikke autentisering av avsenderen på tidspunktet for sesjonen.
+explanation: |
+  Et autentisert krypteringsskjema beskytter ikke mot angrep som replay, omorganisering og refleksjon uten tillegg av indikatorer som identifikatorer og sekvensnumre.
+reviewed: false

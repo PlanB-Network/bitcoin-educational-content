@@ -1,0 +1,9 @@
+question: ¿En qué año se implementó el concepto de eCash de David Chaum?
+answer: 1994
+wrong_answers:
+  - 1993
+  - 1995
+  - 1996
+explanation: |
+  Fue implementado por primera vez por los cypherpunks en febrero, antes de ser probado por DigiCash mediante la emisión de CyberBucks en octubre.
+reviewed: false

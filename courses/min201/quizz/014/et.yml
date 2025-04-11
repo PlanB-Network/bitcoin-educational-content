@@ -1,0 +1,11 @@
+question: Mis on kaevandamise tsentraliseerimise potentsiaalne risk Bitcoinis?
+answer: Kaevandamise tsentraliseerimine Bitcoinis võib potentsiaalselt viia tehingute tsenseerimiseni ja muuta võrgu rünnakutele haavatavaks, sealhulgas 51% rünnak, kus üks isik või grupp kontrollib rohkem kui 50% võrgu hashimisvõimsusest, võimaldades neil võrku kontrollida ja manipuleerida.
+wrong_answers:
+  - Kaevandamise tsentraliseerimine Bitcoinis võib potentsiaalselt viia Bitcoini väärtuse languseni ja muuta võrgu inflatsioonile haavatavaks.
+  - Kaevandamise tsentraliseerimine Bitcoinis võib potentsiaalselt viia ploki preemia vähenemiseni ja muuta võrgu stagnatsioonile haavatavaks.
+  - Kaevandamise tsentraliseerimine Bitcoinis võib potentsiaalselt viia tehingute kiiruse vähenemiseni ja muuta võrgu ummikutele haavatavaks.
+explanation: |
+  Peatükk selgitab, et kaevandamise tsentraliseerimine Bitcoinis
+  võib potentsiaalselt viia tehingute tsenseerimiseni ja muuta võrgu
+  rünnakutele haavatavaks, sealhulgas 51% rünnak.
+reviewed: true

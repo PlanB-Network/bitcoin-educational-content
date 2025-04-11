@@ -1,0 +1,9 @@
+question: I hvilket tilfelle kan vi si at to hendelser er uavhengige?
+answer: Sannsynligheten for den ene påvirker ikke sannsynligheten for den andre
+wrong_answers:
+  - De to hendelsene skjer alltid samtidig
+  - De er gjensidig utelukkende
+  - Deres kombinerte sannsynlighet er lik den høyeste sannsynligheten av de to
+explanation: |
+  To hendelser er uavhengige hvis sannsynligheten for den ene ikke endrer sannsynligheten for den andre, slik som et lotteritrekk ikke har noen innflytelse på været den neste dagen.
+reviewed: false

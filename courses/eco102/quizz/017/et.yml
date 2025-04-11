@@ -1,0 +1,9 @@
+question: Mis on Bastiati jaoks poliitiline ökonoomia?
+answer: Vahetusteooria
+wrong_answers:
+  - Väärtusteooria
+  - Rikkuse teooria
+  - Ostujõu teooria
+explanation: |
+  Bastiat määratleb poliitilise ökonoomia kui vahetusteooria.
+reviewed: false

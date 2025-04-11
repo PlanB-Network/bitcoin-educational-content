@@ -1,9 +1,9 @@
-question: Jaká je doporučená praxe pro ukládání hesla pro šifrování dat?
+question: Jaké je doporučené postupy pro uchování hesla pro šifrování dat?
 answer: Zapište heslo na papír, který bude uložen na bezpečném místě.
 wrong_answers:
   - Uložit heslo v textovém souboru na počítači.
   - Sdílet heslo s důvěryhodnými přáteli.
   - Použít běžné heslo, které je snadno zapamatovatelné.
 explanation: |
-  Doporučuje se zapsat heslo pro šifrování dat na papír a uchovat jej na bezpečném místě. To je proto, aby nedošlo ke ztrátě přístupu k šifrovaným datům.
-reviewed: false
+  Doporučuje se zapsat heslo pro šifrování dat na papír a uchovat jej na bezpečném místě. To je proto, aby se předešlo ztrátě přístupu k zašifrovaným datům.
+reviewed: true

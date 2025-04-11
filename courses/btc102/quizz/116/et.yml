@@ -1,0 +1,11 @@
+question: Mis on bitcoine aeglaselt kogumise eesmärk?
+answer: Lasta oma investeerimisstrateegial aja jooksul lahti rulluda.
+wrong_answers:
+  - Uute bitcoinide kaevandamine.
+  - Bitcoinidega kauplemine.
+  - Bitcoinide teisteks krüptovaluutadeks konverteerimine.
+explanation: |
+  Bitcoinide aeglane kogumine on strateegia, mis võimaldab sinu investeeringul
+  aja jooksul lahti rulluda. Seda ei kasutata uute bitcoinide kaevandamiseks, bitcoinidega kauplemiseks ega
+  bitcoinide teisteks krüptovaluutadeks konverteerimiseks.
+reviewed: false

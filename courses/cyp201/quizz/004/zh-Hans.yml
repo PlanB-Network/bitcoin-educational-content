@@ -1,0 +1,8 @@
+question: 在比特币中，使用哪种哈希函数组合来生成较短的指纹？
+answer: HASH160
+wrong_answers:
+  - SHA512-SHA256
+  - HASH256
+  - SHA160
+explanation: |
+  HASH160结合了SHA256和RIPEMD160来生成160位的指纹，特别用于比特币地址。

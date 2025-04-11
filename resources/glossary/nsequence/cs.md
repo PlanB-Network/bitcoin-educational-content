@@ -1,0 +1,5 @@
+---
+term: NSEQUENCE
+
+---
+Pole `nSequence` v záznamu transakce bitcoin se používá k označení způsobu časového uzamčení tohoto záznamu. Původně mělo umožnit dynamickou výměnu transakcí v mempoolech, aby bylo možné použít překryvný platební systém podobný Lightningu. Jeho použití se však vyvinulo se zavedením relativního časového zámku prostřednictvím BIP68. Pole `nSequence` nyní může specifikovat relativní zpoždění před zařazením transakce do bloku. Toto zpoždění lze definovat jako počet bloků nebo jako násobek 512 sekund (tj. reálného času). Je důležité poznamenat, že tato nová interpretace pole `nSequence` je platná pouze v případě, že pole `nVersion` je větší nebo rovno `2`. Tato interpretace pole `nSequence` je na úrovni pravidel konsensu Bitcoinu. Na úrovni standardizačních pravidel se navíc toto pole používá také pro signalizaci RBF (Replace-By-Fee). Pokud transakce obsahuje `nSequence` nižší než `0xfffffffe`, pak může být nahrazena prostřednictvím RBF v uzlech, které se řídí těmito pravidly.

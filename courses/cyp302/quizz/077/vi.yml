@@ -1,0 +1,8 @@
+question: Vai trò của nguyên tắc Kerckhoff trong mật mã học là gì?
+answer: Để đảm bảo an ninh dựa vào khóa bí mật, không phải là sự bí mật của hệ thống
+wrong_answers:
+  - Để đảm bảo an ninh dựa vào sự bí mật của hệ thống, không phải là khóa bí mật
+  - Để yêu cầu một khóa mã hóa rất dài
+  - Để đảm bảo mỗi tin nhắn có một khóa duy nhất
+explanation: |
+  Theo nguyên tắc Kerckhoff, an ninh của một hệ thống mật mã học nên chỉ dựa vào khóa bí mật, và không phải là sự bí mật của thuật toán nói chung.

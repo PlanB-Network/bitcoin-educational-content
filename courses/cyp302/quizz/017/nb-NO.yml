@@ -1,0 +1,9 @@
+question: Hva er forskjellen mellom en diskret stokastisk variabel og en kontinuerlig en?
+answer: En diskret variabel har et endelig antall mulige utfall, mens en kontinuerlig variabel kan ta et uendelig antall verdier innenfor et intervall.
+wrong_answers:
+  - En diskret variabel endrer verdi konstant, mens en kontinuerlig variabel forblir stabil.
+  - En diskret variabel er spesifikk for fysiske eksperimenter som utføres, en kontinuerlig variabel er abstrakt i sitt intervall.
+  - Diskrete variabler eksisterer ikke i moderne kryptografi, kun kontinuerlige variabler brukes.
+explanation: |
+  Diskrete variabler har et endelig sett med utfall, mens kontinuerlige variabler kan ta hvilken som helst verdi innenfor et intervall, slik som de reelle tallene mellom 0 og 1.
+reviewed: false

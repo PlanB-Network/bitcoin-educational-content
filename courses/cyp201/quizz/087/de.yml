@@ -1,9 +1,9 @@
-question: Was ist die Beziehung zwischen dem Master-Privatschlüssel und den erweiterten Schlüsseln der Brieftasche?
-answer: Der Master-Privatschlüssel ist der erste aus dem Seed abgeleitete Privatschlüssel und hat keine Verbindung zu den erweiterten Schlüsseln der Brieftasche.
+question: Was ist das einzigartige Merkmal von SegWit v1 (P2TR)-Adressen im Vergleich zu SegWit v0-Adressen?
+answer: Sie verwenden direkt den rohen öffentlichen Schlüssel in der Adresse.
 wrong_answers:
-  - Der Master-Privatschlüssel wird aus den erweiterten Schlüsseln der Brieftasche abgeleitet.
-  - Der Master-Privatschlüssel ist identisch mit den erweiterten Schlüsseln der Brieftasche.
-  - Der Master-Privatschlüssel wird verwendet, um die erweiterten Schlüssel der Brieftasche zu generieren.
+  - Sie sind in base58check kodiert.
+  - Sie erfordern zwei Signaturen, um gültig zu sein.
+  - Sie verwenden den Hash des öffentlichen Schlüssels in der Adresse.
 explanation: |
-  Der Master-Privatschlüssel ist der erste aus dem Seed abgeleitete Privatschlüssel und hat keine Verbindung zu den erweiterten Schlüsseln der Brieftasche.
+  SegWit v1 (P2TR)-Adressen verwenden nicht einen Hash des öffentlichen Schlüssels, sondern direkt den Taproot-öffentlichen Schlüssel.
 reviewed: false

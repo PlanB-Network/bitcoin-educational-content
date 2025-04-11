@@ -1,0 +1,9 @@
+question: Miks salvestatakse paroole tihti räsina turvalistel serveritel?
+answer: Et vältida paroolide kergekäelist kättesaamist lekke korral
+wrong_answers:
+  - Suurendamaks kasutajaandmete salvestusruumi
+  - Paroolide reaalajas sümmeetriliseks krüpteerimiseks
+  - Võimaldamaks kasutajatel sisse logida ilma paroolita
+explanation: |
+  Paroolide räsinatena salvestamisega, isegi andmelekkide korral, ei ole võimalik tegelikke paroole otse lugeda, suurendades seeläbi turvalisust.
+reviewed: false

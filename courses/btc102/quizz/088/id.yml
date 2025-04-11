@@ -1,0 +1,10 @@
+question: Apa satu keuntungan menggunakan platform pertukaran untuk membeli dan menjual bitcoin?
+answer: Ini memungkinkan untuk transaksi reguler sesuai dengan kebutuhan pengguna.
+wrong_answers:
+  - Ini memungkinkan untuk transaksi anonim.
+  - Ini meningkatkan nilai Bitcoin.
+  - Ini menyediakan platform untuk menambang Bitcoin.
+explanation: |
+  Platform pertukaran memungkinkan pengguna untuk membeli dan menjual bitcoin secara reguler dan
+  nyaman, sesuai dengan kebutuhan mereka.
+reviewed: false

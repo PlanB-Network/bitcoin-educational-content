@@ -1,0 +1,13 @@
+question: Mis on kaks peamist tüüpi nutilepinguid, mida kasutatakse mündivahetustes?
+
+answer: HTLC ja PTLC
+
+wrong_answers:
+  - Mitme allkirjaga ja Ühe allkirjaga
+  - Nutilepingud ja DAppid
+  - SegWit ja Taproot
+
+explanation: |
+  Mündivahetuse teostamiseks võib kasutada HTLC-sid (Hash Time-Locked Contracts) või PTLC-sid (Point Time-Locked Contracts).
+
+reviewed: false

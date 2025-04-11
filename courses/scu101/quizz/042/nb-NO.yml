@@ -1,0 +1,12 @@
+question: Hvorfor er det viktig å bruke tilfeldig genererte passord?
+answer: De tilbyr et høyere sikkerhetsnivå og er mer motstandsdyktige mot brute force-angrep.
+wrong_answers:
+  - De er lettere å huske.
+  - De er kortere og enklere.
+  - De kreves av de fleste nettjenester.
+explanation: |
+  Tilfeldig genererte passord tilbyr et høyere sikkerhetsnivå fordi
+
+  de er mer motstandsdyktige mot brute force-angrep, som forsøker å gjette passord
+
+  ved å prøve alle mulige kombinasjoner av tegn.

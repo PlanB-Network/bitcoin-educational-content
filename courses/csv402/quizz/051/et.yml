@@ -1,0 +1,9 @@
+question: Mis on "pitseri määratlus" RGB määramise kontekstis?
+answer: Viide UTXO-le, mis kehtestab omandiõiguse omandis oleva riigi suhtes
+wrong_answers:
+  - Poolte vahel vahetatavate andmete rühmitamine, mille suhtes kohaldatakse kliendipoolset valideerimist
+  - Lepingute koostamine ahelavälises käivitatavas koodis
+  - Riigi ülemineku ajaloo DAG-haru
+explanation: |
+  Pitsatimääratlus seob UTXO lepingu seisundi konkreetse osaga, tagades õiguse või vara õige jaotuse.
+reviewed: false

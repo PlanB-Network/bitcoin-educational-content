@@ -1,9 +1,14 @@
 question: ¿Por qué es esencial la Prueba de Trabajo en la red de Bitcoin?
 answer: Representa el vínculo físico entre el mundo real y Bitcoin, requiriendo energía tangible para la producción y validación de bitcoins y bloques.
 wrong_answers:
-  - Permite la participación a pequeña escala.
+  - Permite la participación a pequeña escala de los mineros, especialmente para aquellos en ubicaciones con alta censura.
   - Garantiza protección contra la centralización.
   - Refleja las desigualdades de poder existentes en la sociedad.
 explanation: |
-  La Prueba de Trabajo es esencial en la red de Bitcoin porque representa el vínculo físico entre el mundo real y Bitcoin. La producción y validación de bitcoins y bloques requieren energía tangible, anclando la red de Bitcoin en la realidad física y evitando su completa dominación por entidades poderosas.
-reviewed: false
+  La Prueba de Trabajo es esencial en la red de Bitcoin porque
+  representa el vínculo físico entre el mundo real y
+  Bitcoin. La producción y validación de bitcoins y
+  bloques requiere energía tangible, anclando la red de Bitcoin
+  en la realidad física y previniendo su completa
+  dominación por entidades poderosas.
+reviewed: true

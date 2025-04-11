@@ -1,0 +1,9 @@
+question: Miten Lightning Networkin parantunut tehokkuus ja nopeus on verrattavissa perinteisiin maksutapoihin?
+answer: Se on huomattavasti nopeampi, sillä maksutapahtumat hoidetaan usein alle sekunnissa, maksut ovat alhaisemmat ja välittäjiin ei tarvita useita välikäsiä.
+wrong_answers:
+  - Se vastaa perinteisiä pankkiaikoja, ja maksujen suorittaminen kestää usein 2-5 päivää.
+  - Se on hitaampi kuin perinteiset korttimaksut, ja siihen liittyy korkeampia maksuja.
+  - Se edellyttää useita hyväksyviä tahoja, aivan kuten nykyiset pankkisiirrotkin.
+explanation: |
+  Lightning mahdollistaa ketjun ulkopuoliset maksutapahtumat ja viimeistelee maksut lähes välittömästi, joten se tarjoaa nopeus- ja tehokkuusetua verrattuna perinteisiin menetelmiin, jotka perustuvat useisiin välittäjiin.
+reviewed: false

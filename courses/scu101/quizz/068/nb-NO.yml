@@ -1,0 +1,11 @@
+question: Hva er en vanlig årsak til sikkerhetssårbarheter?
+answer: Menneskelig uaktsomhet.
+wrong_answers:
+  - Strømbrudd.
+  - Treg internettforbindelse.
+  - Utdatert maskinvare.
+explanation: |
+  Sikkerhetssårbarheter er ofte resultatet av menneskelig uaktsomhet, slik
+  som å bruke standardpassord eller å skrive ned passord på usikre steder. Avanserte
+  angrep er ikke alltid nødvendige for å sette datamaskinens sikkerhet i fare.
+reviewed: false

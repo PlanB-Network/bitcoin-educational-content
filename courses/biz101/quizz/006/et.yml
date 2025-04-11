@@ -1,0 +1,9 @@
+question: Miks on Bitcoini emiteerimise 21 miljoni ülempiir oluline?
+answer: See loob deflatsioonilise vara, mis kaitseb selle väärtust suvalise inflatsiooni eest.
+wrong_answers:
+  - See tagab, et valitsused saavad trükkida nii palju bitcoine kui vaja.
+  - See takistab kellelgi tehingute saatmist pärast ülempiiri saavutamist.
+  - See kõrvaldab kõik volatiilsuse Bitcoini hinnas.
+explanation: |
+  Kuna Bitcoini maksimaalne pakkumine on 21 miljonit, on selle nappus kõvasti sisse programmeeritud, mis muudab selle põhimõtteliselt erinevaks inflatsioonilistest valuutadest, mille pakkumist saab soovi korral suurendada.
+reviewed: false

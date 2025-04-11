@@ -1,0 +1,9 @@
+question: ¿Qué tipo de ataque puede prevenir un número de secuencia en una sesión de comunicación segura?
+answer: Ataques de repetición y reordenamiento
+wrong_answers:
+  - Ataques de interceptación pasiva
+  - Ataques de denegación de servicio
+  - Ataques de suplantación de clave
+explanation: |
+  Un número de secuencia en cada mensaje previene ataques de repetición y reordenamiento, ya que permite la verificación del orden y la unicidad de los mensajes.
+reviewed: false

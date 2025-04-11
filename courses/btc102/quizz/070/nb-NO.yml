@@ -1,0 +1,10 @@
+question: Hva er den foreslåtte minimums ventetiden for en Hodler?
+answer: Minst en eller to sykluser.
+wrong_answers:
+  - Mindre enn et år.
+  - Fem til ti år.
+  - Det er ingen minimums ventetid.
+explanation: |
+  Kapittelet antyder at en Hodler bør vente i minst en eller to
+  sykluser for å se veksten i sin investering.
+reviewed: false

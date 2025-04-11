@@ -1,0 +1,9 @@
+question: Perinteisten valuuttajärjestelmien päälle rakennetut maksukiskot ovat ?
+answer: Kauppiaat maksavat sen pääasiassa maksuprosessoreiden maksujen kautta
+wrong_answers:
+  - Käytännössä ilmainen, koska asiakas maksaa kauppiaan näyttämän hinnan
+  - Asiakas maksaa kauppiaan pyytämän hinnan lisäksi
+  - Korttiyhtiöt, jotka myyvät asiakastietoja edelleen, maksavat siitä
+explanation: |
+  Mikään ei ole ilmaista. Perinteisiin valuuttajärjestelmiin rakennettuja maksukiskoja käyttävät erilaiset myyjät, kuten korttiyhtiöt ja korttitapahtumia vastaanottavat pankit, jotka veloittavat kiinteän maksun ja/tai prosenttimaksun jokaisesta tapahtumasta
+reviewed: false

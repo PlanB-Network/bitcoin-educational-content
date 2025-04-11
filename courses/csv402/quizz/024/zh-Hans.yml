@@ -1,0 +1,9 @@
+question: RGB 中的什么机制允许在单个比特币交易中将多个过渡组合在一起？
+answer: 过渡包
+wrong_answers:
+  - 密封件聚合
+  - 多重承诺树
+  - 州合并
+explanation: |
+  转换包是一组 RGB 状态转换（属于同一合约），它们都参与了同一笔比特币见证交易。
+reviewed: false

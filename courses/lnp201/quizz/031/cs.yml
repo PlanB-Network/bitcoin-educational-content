@@ -1,12 +1,9 @@
-question: Jaký je účel revokačního klíče v transakci závazku?
-answer: Umožňuje druhé straně přesunout prostředky bez čekání na konec Timelocku, pokud se jedna strana pokusí podvádět.
+question: Co omezuje výši nepřímé platby v síti Lightning Network?
+answer: Nejmenší dostupná likvidita v kanálu zvolené cesty
 wrong_answers:
-  - Umožňuje druhé straně okamžitě získat zpět své peníze.
-  - Umožňuje druhé straně vytvořit novou transakci závazku.
-  - Umožňuje druhé straně prodloužit Timelock.
+  - Počet zprostředkujících uzlů
+  - Celková kapacita sítě Lightning Network
+  - Poplatky za směrování stanovené každým uzlem
 explanation: |
-  Revokační klíč je bezpečnostní opatření v transakci závazku.
-  Pokud se jedna strana pokusí podvádět zveřejněním starého stavu, druhá strana může použít
-  revokační klíč k přesunu prostředků bez čekání na konec Timelocku,
-  čímž efektivně potrestá podvodníka.
+  Maximální částka, kterou může nepřímá platba převést, závisí na nejnižší dostupné likviditě v použitých kanálech, protože každý kanál musí upravit finanční prostředky na každé straně.
 reviewed: false

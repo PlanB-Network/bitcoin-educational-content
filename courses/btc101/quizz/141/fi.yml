@@ -1,11 +1,10 @@
-question: Paljonko maksaa Bitcoin-solmun pyörittäminen Raspberry Pi 4, llä sähkönkulutuksen osalta vuodessa?
-answer: Hieman alle 10 euroa vuodessa
+question: Mikä on Bitcoin-solmun pyörittämisen kustannus Raspberry Pi 4; llä sähkönkulutuksen osalta vuodessa (vuonna 2023)?
+answer: Hieman alle 10€ vuodessa.
 wrong_answers:
-  - Noin 50 euroa vuodessa
-  - Noin 100 euroa vuodessa
-  - Noin 200 euroa vuodessa
-explanation: >-
-  Bitcoin-solmun pyörittäminen Raspberry Pi 4:llä maksaa hieman alle
-  10 euroa vuodessa sähkönkulutuksen osalta.
-reviewed: false
-
+  - Hieman yli 50€ vuodessa.
+  - Hieman alle 100€ vuodessa.
+  - Noin 200€ vuodessa.
+explanation: |
+  Bitcoin-solmun pyörittäminen Raspberry Pi 4: llä maksaa hieman
+  alle 10€ vuodessa sähkönkulutuksen osalta vuonna 2023.
+reviewed: true

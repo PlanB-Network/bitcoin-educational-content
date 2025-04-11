@@ -1,0 +1,9 @@
+question: Mis on Bitcoini kui valuutavõrgustiku üks iseloomustav tunnusjoon?
+answer: See on nagu sularaha ja ei vaja tehingute tegemiseks keskasutust ega vahendajat.
+wrong_answers:
+  - See võib toimida ainult siis, kui valitsusasutus on andnud selleks loa.
+  - See väljastab uusi rahaühikuid mis tahes kasutaja taotlusel.
+  - See vajab pankade kontrollimist ja arveldamist iga tehingu puhul.
+explanation: |
+  Bitcoin toimib detsentraliseeritud võrguna, mis võimaldab kõigil ilma loata osaleda. Tehinguid kinnitavad sõlmed ja kaevandajad, mitte keskne asutus.
+reviewed: false

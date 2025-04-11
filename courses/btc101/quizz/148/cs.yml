@@ -1,9 +1,9 @@
-question: Jaký byl výsledek "války o velikost bloku" v roce 2017?
-answer: Uživatelé a uzly odmítli navrhovanou změnu zvětšení velikosti bloku a aktivovali aktualizaci nazvanou SegWit
+question: Jaký byl výsledek války o bloky v roce 2017?
+answer: Uživatelé a uzly odmítli navrhovanou změnu zvětšení velikosti bloku a aktivovali aktualizaci nazvanou SegWit.
 wrong_answers:
-  - Uživatelé a uzly přijali navrhovanou změnu zvětšení velikosti bloku a aktivovali aktualizaci nazvanou SegWit
-  - Uživatelé a uzly odmítli navrhovanou změnu zvětšení velikosti bloku a neaktivovali žádné aktualizace
-  - Uživatelé a uzly přijali navrhovanou změnu zvětšení velikosti bloku a neaktivovali žádné aktualizace
+  - Uživatelé a uzly přijali navrhovanou změnu zvětšení velikosti bloku a aktivovali aktualizaci nazvanou SegWit.
+  - Uživatelé a uzly odmítli navrhovanou změnu zvětšení velikosti bloku a neaktivovali žádné aktualizace.
+  - Uživatelé a uzly přijali navrhovanou změnu zvětšení velikosti bloku a neaktivovali žádné aktualizace.
 explanation: >-
-  Během "války o velikost bloku" v roce 2017 uživatelé a uzly zvítězili odmítnutím navrhované změny zvětšení velikosti bloku a aktivací aktualizace nazvané SegWit.
-reviewed: false
+  Během války o bloky v roce 2017 uživatelé a uzly zvítězili tím, že odmítli navrhovanou změnu zvětšení velikosti bloku a aktivovali aktualizaci nazvanou SegWit.
+reviewed: true

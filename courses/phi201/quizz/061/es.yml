@@ -1,0 +1,9 @@
+question: ¿Cuál es la ciudad mercantil italiana que Henri Pirenne considera como la cuna del capitalismo emergente?
+answer: Venecia.
+wrong_answers:
+  - Génova.
+  - Florencia.
+  - Todas las anteriores.
+explanation: |
+  Henri Pirenne considera a Venecia como la cuna del capitalismo debido a su papel central en el comercio marítimo y su temprano desarrollo de prácticas comerciales avanzadas, como las sociedades y el crédito.
+reviewed: false

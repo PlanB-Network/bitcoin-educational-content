@@ -1,0 +1,9 @@
+question: Kuka pidetään epäreiluna kilpailijana kynttiläntekijöiden kannalta tässä tarinassa?
+answer: Aurinko
+wrong_answers:
+  - Ulkomaiset kynttiläntekijät
+  - Sähkö
+  - Öljylamput
+explanation: |
+  Satiiressaan Bastiat viittaa aurinkoon epäreiluna kilpailijana, korostaen protektionististen toimenpiteiden absurdiutta liioittelemalla kynttiläntekijöiden vaatimuksia.
+reviewed: false

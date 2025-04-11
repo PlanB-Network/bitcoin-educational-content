@@ -1,9 +1,0 @@
-question: Est-ce que l'utilisation d'une adresse Bitcoin permet d'économiser de l'espace dans les blocs ?
-answer: Non
-wrong_answers:
-  - Oui
-  - Seulement si l'adresse est compressée
-  - Seulement si l'adresse est hachée
-explanation: |
-  L'utilisation d'une adresse Bitcoin n'économise pas d'espace dans les blocs. La principale raison d'utiliser une adresse est de réduire la taille des informations de clé publique.
-reviewed: false

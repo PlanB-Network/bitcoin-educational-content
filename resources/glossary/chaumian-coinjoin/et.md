@@ -1,0 +1,18 @@
+---
+term: CHAUMIAN COINJOIN
+
+---
+Coinjoin-protokoll, mis kasutab David Chaumi pimesi allkirju ja Tor'i osalejate ja koordinaatori serveri vaheliseks suhtluseks. Chaumi coinjoini eesmärk on tagada osalejatele, et koordinaator ei saa bitcoine varastada ega sisendeid ja väljundeid omavahel siduda.
+
+Selleks esitavad kasutajad koordinaatorile oma sisendi ja krüptograafiliselt pimendatud vastuvõtuaadressi. See aadress on pärast pimestamise lõpetamist mõeldud bitcoinide vastuvõtmiseks coinjoin'i väljundina. Koordinaator allkirjastab need märgid ja tagastab need kasutajatele. Seejärel ühenduvad kasutajad uuesti anonüümselt koordinaatori serveriga uue Tori identiteediga ja avaldavad oma väljundaadressid selgeks tekstiks tehingu konstrueerimiseks. Koordinaator saab kontrollida, et kõik need vastuvõtuaadressid pärinevad legitiimsetelt kasutajatelt, sest ta on eelnevalt nende pimendatud versiooni oma privaatvõtmega allkirjastanud. Siiski ei saa ta seostada konkreetset väljundaadressi konkreetse sisendkasutajaga. Seetõttu puudub seos sisendite ja väljundite vahel isegi koordinaatori seisukohast. Kui koordinaator on tehingu koostanud, saadab ta selle tagasi osalejatele, kes allkirjastavad selle, et avada oma sisend, olles eelnevalt kontrollinud, et nende väljund tõepoolest kuulub sellesse tehingusse. Osalejad saadavad allkirja koordinaatorile. Kui kõik allkirjad on kogutud, saab koordinaator edastada coinjoin-tehingu Bitcoini võrgus.
+
+![](../../dictionnaire/assets/38.webp)
+
+See meetod tagab, et koordinaator ei saa kogu coinjoin-protsessi jooksul kahjustada osalejate anonüümsust ega varastada bitcoine.
+
+On raske kindlalt kindlaks teha, kes esimesena tutvustas Bitcoinis coinjoini ideed ja kellel oli idee kasutada David Chaumi pimedat allkirja selles kontekstis. Sageli arvatakse, et Gregory Maxwell arutas seda esimesena [2013. aastal BitcoinTalkis avaldatud sõnumis](https://bitcointalk.org/index.php?topic=279249.0):
+
+> *"Kasutades Chaumi pimesi allkirju: Kasutajad ühenduvad ja annavad sisendid (ja muudavad aadressid) ning krüptograafiliselt pimendatud versiooni aadressist, kuhu nad soovivad saata oma eramünte; server allkirjastab märgid ja tagastab need. Kasutajad ühenduvad uuesti anonüümselt, maskeerivad oma väljundaadressid ja saadavad need serverile tagasi. Server näeb, et kõik väljundid on tema poolt allkirjastatud ja seega pärinevad kõik väljundid kehtivatelt osalejatelt. Hiljem ühenduvad inimesed uuesti ja allkirjastavad. "*
+Maxwell, G. (2013, 22. august). *CoinJoin: Bitcoini privaatsus reaalses maailmas*. BitcoinTalk Forum. https://bitcointalk.org/index.php?topic=279249.0
+
+Siiski on ka teisi varasemaid mainimisi nii Chaumi allkirjade kohta segunemise kontekstis kui ka kaasühenduste kohta. [2011. aasta juunis tutvustas Duncan Townsend BitcoinTalkis](https://bitcointalk.org/index.php?topic=12751.0) mikserit, mis kasutab Chaumi allkirju üsna sarnaselt kaasaegsete Chaumi coinjoinidega. Samas teemas on [hashcoini sõnum vastuseks Duncan Townsendile](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793) tema mikseri täiustamiseks. Selles sõnumis on täpselt esitatud see, mis kõige rohkem sarnaneb coinjoinidele. Sarnast süsteemi on mainitud ka [Alex Mizrahi sõnum 2012. aastal](https://gist.github.com/killerstorm/6f843e1d3ffc38191aebca67d483bd88#file-laundry), kui ta nõustas Tenebrixi loojaid. Termin "coinjoin" ise ei oleks Greg Maxwelli poolt leiutatud, vaid pärineb Peter Toddi ideest.

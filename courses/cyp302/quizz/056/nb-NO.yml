@@ -1,0 +1,9 @@
+question: Hvilken type algebraisk struktur er grunnlaget for abstrakt algebra?
+answer: Gruppe
+wrong_answers:
+  - Felt
+  - Ring
+  - Matrise
+explanation: |
+  Gruppen er den fundamentale algebraiske strukturen som abstrakt algebra er basert på, definert av en mengde elementer og en binær operasjon som respekterer visse egenskaper.
+reviewed: false

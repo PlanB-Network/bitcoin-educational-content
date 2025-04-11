@@ -1,9 +1,0 @@
-question: Qual è lo scopo dell'HTLC-out nella transazione di impegno di Alice?
-answer: Rappresenta l'HTLC che Alice invia al destinatario, Susie.
-wrong_answers:
-  - Rappresenta l'HTLC che Alice riceve da Bob.
-  - Rappresenta l'HTLC che Alice invia a Bob.
-  - Rappresenta l'HTLC che Alice riceve da Susie.
-explanation: |
-  Nello scenario dato, Alice invia un HTLC a Susie. Questo è rappresentato nella transazione di impegno di Alice come un HTLC-out.
-reviewed: false

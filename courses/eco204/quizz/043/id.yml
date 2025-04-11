@@ -1,0 +1,9 @@
+question: Apa denominasi tertinggi uang kertas di Brasil sebelum redenominasi terakhir pada tahun 1994?
+answer: 500,000
+wrong_answers:
+  - 1,000,000
+  - 250,000
+  - 100,000
+explanation: |
+  Denominasi tertinggi uang kertas di Brasil mencapai 500,000, dan redenominasi terakhir pada tahun 1994 dilakukan dengan nilai tukar 2,750 banding 1.
+reviewed: false

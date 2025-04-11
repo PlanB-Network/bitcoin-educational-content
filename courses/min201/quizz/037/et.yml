@@ -1,0 +1,9 @@
+question: Mis on kaevandamise potentsiaalne puudus kasumi eesmärgil?
+answer: See võib viia räsivõimsuse tsentraliseerumiseni ja võib samuti avaldada olulist keskkonnamõju.
+wrong_answers:
+  - See võib viia Bitcoini hinna languseni
+  - See võib viia võrgu hashrate'i languseni
+  - See võib viia võrgu aktiivsete sõlmede arvu vähenemiseni
+explanation: |
+  Kasumi eesmärgil kaevandamine võib viia räsivõimsuse tsentraliseerumiseni, kui ainult mõned suured ettevõtted saavad endale lubada investeerimist kõrgtasemel kaevandamisseadmetesse. Lisaks võib kasumi eesmärgil kaevandamise energiatarbimine avaldada olulist keskkonnamõju, sõltuvalt energiaallikast.
+reviewed: true

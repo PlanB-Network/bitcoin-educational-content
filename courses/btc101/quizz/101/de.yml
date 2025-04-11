@@ -1,9 +1,12 @@
-question: Wie erfolgt die standardmäßige Sicherung des privaten Schlüssels in einer Bitcoin-Wallet?
-answer: Indem Sie Ihre mnemonische Phrase in jede Wallet-Software eingeben
+question: Was ist eine Standardmethode, um Ihr Wallet wiederherzustellen?
+answer: Eingabe Ihrer mnemonischen Phrase in eine beliebige Wallet-Software.
 wrong_answers:
-  - Speichern Ihrer mnemonischen Phrase in einer digitalen Datei
-  - Aufschreiben Ihrer mnemonischen Phrase auf eine Tafel
-  - Teilen Ihrer mnemonischen Phrase mit einem vertrauenswürdigen Freund
+  - Speichern Ihrer mnemonischen Phrase in einer digitalen Datei.
+  - Schreiben Ihrer mnemonischen Phrase auf ein Whiteboard.
+  - Teilen Ihrer mnemonischen Phrase mit einem vertrauenswürdigen Freund.
 explanation: |
-  Die standardmäßige Methode zur Sicherung des privaten Schlüssels in einer Bitcoin-Wallet besteht darin, Ihre mnemonische Phrase in jede Wallet-Software einzugeben. Dadurch können Sie Ihre Wallet wiederherstellen.
+  Die Standardmethode zum Sichern des privaten Schlüssels in einem
+  Bitcoin-Wallet besteht darin, Ihre mnemonische Phrase in eine
+  beliebige Wallet-Software einzugeben. Dies ermöglicht es Ihnen,
+  Ihr Wallet wiederherzustellen.
 reviewed: false

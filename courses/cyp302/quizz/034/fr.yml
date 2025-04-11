@@ -1,0 +1,9 @@
+question: Qu'est-ce qu'une chaîne pseudorandom ?
+answer: Une chaîne qui semble issue d'une variable uniforme mais est produite par un algorithme d'expansion
+wrong_answers:
+  - Une chaîne générée avec une probabilité identique pour chaque caractère
+  - Une chaîne de longueur fixe issue d'un événement aléatoire naturel
+  - Une chaîne aléatoire choisie uniquement parmi les valeurs binaires 0 et 1
+explanation: |
+  Une chaîne pseudorandom est produite par un algorithme d'expansion à partir d'une graine plus petite, de manière à imiter une sélection uniforme parmi toutes les chaînes de la même longueur.
+reviewed: false

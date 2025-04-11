@@ -1,0 +1,9 @@
+question: Milline järgnevatest EI ole üks kolmest raha põhifunktsioonist?
+answer: Energiaallikas
+wrong_answers:
+  - Väärtuse säilitaja
+  - Vahetusvahend
+  - Arvestusühik
+explanation: |
+  Raha kolm põhifunktsiooni on väärtuse säilitaja, vahetusvahend ja arvestusühik. Energiaallikas ei ole raha funktsioon.
+reviewed: true

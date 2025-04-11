@@ -1,0 +1,11 @@
+question: Hvordan kan Lightning Network potensielt endre betalingsmodeller?
+answer: Brukere kan bli belastet per minutt, eller til og med per sekund, for tiden de bruker på en tjeneste
+wrong_answers:
+  - Brukere kan bli belastet et fast gebyr for å bruke en tjeneste
+  - Brukere kan bli belastet basert på mengden data de bruker
+  - Brukere kan bli belastet basert på antall transaksjoner de gjør
+explanation: >-
+  Med Lightning Network, i stedet for å betale et månedlig abonnement
+  for en tjeneste, kan brukere bli belastet per minutt, eller til og med per sekund, for tiden
+  de tilbringer på å bruke tjenesten.
+reviewed: false

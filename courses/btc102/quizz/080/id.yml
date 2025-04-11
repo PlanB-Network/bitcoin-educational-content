@@ -1,0 +1,10 @@
+question: Berapa banyak total bitcoin?
+answer: 21 juta
+wrong_answers:
+  - 21 miliar
+  - 21 ribu
+  - 21 triliun
+explanation: |
+  Hanya ada 21 juta bitcoin secara total. Ini adalah aspek fundamental
+  dari desain Bitcoin dan berkontribusi pada kelangkaannya.
+reviewed: false

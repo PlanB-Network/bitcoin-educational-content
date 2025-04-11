@@ -1,0 +1,13 @@
+---
+term: FEE SNIPING
+
+---
+Ein Angriffsszenario, bei dem Miner versuchen, einen kürzlich bestätigten Block umzuschreiben, um die darin enthaltenen Transaktionsgebühren einzufordern, während sie gleichzeitig Transaktionen mit hohen Gebühren hinzufügen, die in der Zwischenzeit in den Mempool gelangt sind. Das ultimative Ziel dieses Angriffs besteht für die Miner darin, ihre Rentabilität zu steigern. Fee Sniping kann zunehmend profitabel werden, wenn die Blockbelohnung sinkt und die Transaktionsgebühren einen größeren Teil der Einnahmen der Miner ausmachen. Es kann auch von Vorteil sein, wenn die Gebühren im vorherigen Block deutlich höher sind als die im nächstbesten Kandidatenblock. Vereinfacht gesagt, steht der Miner vor dieser Wahl, was die Anreize angeht:
+
+
+- Bauen Sie nach dem letzten Block ganz normal ab, mit einer hohen Wahrscheinlichkeit, eine geringe Belohnung zu erhalten;
+- Versuchen Sie, einen früheren Block abzubauen (fee sniping), mit einer geringen Wahrscheinlichkeit, eine hohe Belohnung zu erhalten.
+
+Dieser Angriff stellt ein Risiko für das Bitcoin-System dar, denn je mehr Schürfer ihn anwenden, desto mehr andere, ursprünglich ehrliche Schürfer haben einen Anreiz, das Gleiche zu tun. Jedes Mal, wenn ein neuer Schürfer zu denen stößt, die das Fee Sniping versuchen, steigt die Wahrscheinlichkeit, dass einer der angreifenden Schürfer Erfolg hat, und die Wahrscheinlichkeit, dass einer der ehrlichen Schürfer die Kette verlängert, sinkt im Gegenzug. Wenn dieser Angriff massiv und über längere Zeit durchgeführt wird, wären Blockbestätigungen kein verlässlicher Indikator mehr für die Unveränderlichkeit einer Bitcoin-Transaktion. Dies könnte das System potenziell unbrauchbar machen.
+
+Um diesem Risiko entgegenzuwirken, füllen die meisten Wallet-Programme automatisch das Feld "nLocktime" aus, um die Validierung der Transaktion an die Aufnahme in die nächste Blockhöhe zu knüpfen. Dadurch wird es unmöglich, die Transaktion in eine Neuschreibung des vorherigen Blocks einzubeziehen. Wenn die weit verbreitete Verwendung von "nLocktime" von den Bitcoin-Nutzern angenommen wird, reduziert dies die Anreize für "fee sniping" erheblich. In der Tat fördert es die Weiterentwicklung der Blockchain, anstatt sie neu zu schreiben, indem es die potenziellen Gewinne daraus reduziert. Für Taproot-Transaktionen schlägt BIP326 vor, das Feld "nSequence" in ähnlicher Weise zu verwenden, um die gleiche Wirkung wie das Feld "nLocktime" für andere Arten von Transaktionen zu erzielen. Diese Verwendung würde zwei Fliegen mit einer Klappe schlagen, indem sie auch die Privatsphäre von Protokollen der zweiten Schicht verbessert, die das gleiche Feld verwenden.

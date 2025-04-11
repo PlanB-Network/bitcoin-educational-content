@@ -1,0 +1,9 @@
+question: Jika dalam sebuah transaksi pembayaran sederhana diamati bahwa jenis skrip yang sama digunakan pada input dan hanya pada salah satu dari 2 output, output mana yang kemungkinan mewakili kembalian?
+answer: Yang memiliki jenis skrip yang sama dengan input.
+wrong_answers:
+  - Yang memiliki jenis skrip paling baru.
+  - Yang memiliki jenis skrip yang berbeda dari input.
+  - Yang memiliki jenis skrip non-standar.
+explanation: |
+  Jika terjadi penggunaan kembali versi dalam sebuah transaksi, wajar untuk mengasumsikan bahwa pengguna masih memiliki UTXO yang terkait. Oleh karena itu, output dengan versi skrip yang sama dengan input kemungkinan adalah kembalian.
+reviewed: false

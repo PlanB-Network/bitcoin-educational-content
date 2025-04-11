@@ -17,11 +17,43 @@ Dalla Rinascita all'Illuminismo, il corso esamina l'ascesa della libertà, segna
 
 +++
 
+# Introduzione
+
+<partId>6edada19-3af3-411b-8483-3fe45cfe1c54</partId>
+
+## Panoramica del corso
+
+<chapterId>14d810d3-883c-4f5c-8593-f532530e7b7a</chapterId>
+
+Benvenuto al corso PHI201!
+
+Questo corso ti invita a esplorare l'evoluzione della libertà attraverso la storia analizzando le grandi correnti di pensiero che l'hanno plasmata. Scoprirai come il concetto di libertà si sia sviluppato nel corso dei secoli, sia in opposizione che in collaborazione con il potere, attraverso un percorso storico che va dall'antichità ai dibattiti contemporanei.
+
+**Sezione 1: Libertà o potere**  
+Inizieremo con una panoramica delle due principali filosofie politiche che hanno segnato la storia: la libertà e il potere. Questa sezione esaminerà le visioni di pensatori come Frédéric Bastiat sulla produzione contro lo sfruttamento, Lord Acton che vede la libertà come motore della storia, Karl Marx con la sua teoria della lotta di classe e Murray Rothbard che contrappone lo Stato alla società. Questa introduzione concettuale fornirà un quadro di analisi per i periodi storici.
+
+**Sezione 2: Le origini della libertà: L'antichità**  
+Qui torneremo alle radici del pensiero filosofico con i Greci, che inventarono la razionalità critica, e i Romani, che posero le basi del diritto moderno. Esamineremo anche la caduta di Roma come momento cruciale che ridefinì l'organizzazione politica e sociale attorno al concetto di libertà.
+
+**Sezione 3: Le origini della libertà: Il Medioevo**  
+Il Medioevo è spesso visto come un periodo oscuro, ma scopriremo che in realtà ha gettato le basi della libertà moderna. Studieremo l'affermazione della libertà umana, i dibattiti tra ragione e fede, la nascita dello stato sovrano, l'etica biblica che valorizza l'individuo e le prime tracce del capitalismo che appaiono in questo periodo.
+
+**Sezione 4: L'ascesa della libertà: Dalla Rinascita all'Illuminismo**  
+Questa sezione si concentrerà sull'emergere della tolleranza religiosa e della libertà economica, che presero slancio durante la Rinascita e l'Illuminismo. Analizzeremo anche l'importanza dell'anno 1776, che segnò un punto di svolta fondamentale con eventi chiave per il mondo libero, prima di immergerci nell'era delle rivoluzioni che ridefinirono il concetto stesso di libertà.
+
+**Sezione 5: Apice e declino: Dal XIX al XX secolo**  
+Proseguiremo con lo studio dei cambiamenti del XIX e XX secolo, evidenziando i punti di forza e di debolezza della democrazia, le critiche marxiste al capitalismo e la risposta austriaca a tali critiche. Esploreremo anche gli avvertimenti sui pericoli del collettivismo attraverso opere importanti come "La via della schiavitù".
+
+**Sezione 6: L'ascesa dello Stato assistenziale nel XX secolo**  
+Infine, questa sezione esaminerà come lo Stato assistenziale abbia progressivamente soppiantato le idee di libertà economica, soprattutto attraverso il trionfo di Keynes e l'abbandono del gold standard. Concluderemo sottolineando l'importanza delle idee nell'influenzare il corso della storia e il ruolo che la libertà occupa ancora nelle nostre società moderne.
+
+Pronto a intraprendere questo viaggio filosofico unico alla ricerca della libertà? Cominciamo!
+
 # Libertà o Potere
 
 <partId>e59475e9-3ae4-5e66-a17e-218de0281b06</partId>
 
-## Introduzione: Esistono solo due filosofie politiche
+## Esistono solo due filosofie politiche
 
 <chapterId>ffa60c0d-ee2b-575d-a4ac-4e9ccdad396f</chapterId>
 
@@ -1335,9 +1367,8 @@ Per Hayek, l'instabilità passata dell'economia di mercato deriva dal fatto che 
 ![immagine](assets/6/img-006.webp)
 Hayek riteneva che un mercato libero di valute private avrebbe portato a una maggiore stabilità monetaria. Quasi 50 anni dopo, una criptovaluta come Bitcoin incarna la visione competitiva di Hayek offrendo un'alternativa decentralizzata al sistema monopolistico delle banche centrali. Bitcoin, con il suo limite di emissione di 21 milioni di unità, è una garanzia contro l'inflazione e l'arbitrarietà dei regolatori.
 
+## Recensioni & Valutazioni
 
-
-## Dacci un feedback su questo corso
 <chapterId>6759868f-749d-5fe7-bbb1-24f603e8b34e</chapterId>
 <isCourseReview>true</isCourseReview>
 
@@ -1364,3 +1395,22 @@ Abbiamo ora sperimentato tutte le varianti dello statalismo, e tutte hanno falli
 In un certo senso, la nostra situazione è migliore rispetto al passato. Dopo i successivi fallimenti di vari esperimenti socialisti, comunisti e socialdemocratici, oggi sappiamo come distinguere, meglio di ieri, le idee vere da quelle false. E le idee false possono essere confutate e sostituite con quelle vere. Come diceva Mises:
 Tutto ciò che accade nella società globale in cui viviamo è il risultato delle idee. Il bene e il male. Ciò che è necessario è combattere le idee false. (...) La nostra civiltà può sopravvivere, e deve. E sopravviverà grazie a idee migliori rispetto a quelle che governano il mondo oggi; e queste idee migliori saranno sviluppate dalla generazione emergente.
 (_Economic Policy: Thoughts for Today and Tomorrow_, 1979).
+
+# Sezione finale
+
+<partId>df550767-5876-4034-9c6a-31238363e85f</partId>
+
+## Recensioni & Valutazioni
+
+<chapterId>b972fd24-47e1-4877-b21d-6451ffdafcdd</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Esame finale
+
+<chapterId>3331124d-fe7c-4b73-9f92-1d3a23900fd4</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Conclusione
+
+<chapterId>594691db-1ecb-4914-bcb2-5a88f50ca0a5</chapterId>
+<isCourseConclusion>true</isCourseConclusion>

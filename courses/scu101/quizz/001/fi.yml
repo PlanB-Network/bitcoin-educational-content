@@ -5,7 +5,9 @@ wrong_answers:
   - Estääksesi selaimen kaatumisen.
   - Välttääksesi jäljityksen kolmansien osapuolien sivustoilta.
 explanation: |
-  Vaikka selainlaajennukset voivat tarjota hyödyllisiä toiminnallisuuksia, ne voivat
-  myös aiheuttaa turvallisuusriskejä, koska ne voivat päästä käsiksi tietoihisi ja selaustoimintaasi. Lisäksi,
-  liian monen laajennuksen pitäminen voi hidastaa selaimesi toimintaa ja vaikuttaa sen suorituskykyyn.
-reviewed: false
+  Vaikka selainlaajennukset voivat tarjota hyödyllisiä
+  toiminnallisuuksia, ne voivat myös aiheuttaa turvallisuusriskejä, koska
+  ne voivat päästä käsiksi tietoihisi ja selaustoimintaasi. Lisäksi,
+  liian monen laajennuksen pitäminen voi hidastaa selaimesi toimintaa ja
+  vaikuttaa sen suorituskykyyn.
+reviewed: true

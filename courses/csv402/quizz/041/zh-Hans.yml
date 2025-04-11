@@ -1,0 +1,9 @@
+question: 创建携带 RGB 资产的 Lightning 通道需要哪些要素？
+answer: 比特币融资和 RGB 资产融资
+wrong_answers:
+  - 开始只用比特币融资
+  - 开始时只提供 RGB 资金
+  - 无需资金
+explanation: |
+  该通道既需要比特币在 2/2 多重位格上的注资，也需要 RGB 资产注资，以便在同一通道上分配资产。
+reviewed: false

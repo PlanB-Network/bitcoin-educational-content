@@ -1,0 +1,9 @@
+question: How does RGB pave the way for DEX layer-2?
+answer: By enabling the exchange of off-chain assets via Lightning channels and atomic swaps
+wrong_answers:
+  - By enabling the use of a centralized exchange for all RGB transactions
+  - By enabling the exchange of assets via on-chain smart contracts
+  - By enabling inter-blockchain asset exchange via atomic swaps
+explanation: |
+  The ability to carry out atomic swaps and exchanges via Lightning channels offers the possibility of creating decentralized DEXs, without the disadvantages of on-chain exchanges.
+reviewed: false

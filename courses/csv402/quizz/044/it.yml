@@ -1,0 +1,9 @@
+question: Come viene garantita la sicurezza di una transizione RGB in un canale Lightning se viene trasmesso uno stato obsoleto?
+answer: Attraverso la meccanica punitiva del Canale dei Fulmini
+wrong_answers:
+  - Annullando automaticamente tutte le transazioni precedenti
+  - Attraverso le meccaniche punitive del protocollo RGB
+  - Attraverso l'intervento dell'emittente dell'asset RGB tramite la sua firma associata al Genesis
+explanation: |
+  Il classico meccanismo punitivo della Lightning Network garantisce che la diffusione di una vecchia condizione possa essere punita con il recupero di tutti i fondi coinvolti, compresi gli asset RGB.
+reviewed: false

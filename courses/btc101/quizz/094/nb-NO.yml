@@ -1,0 +1,12 @@
+question: Hva er risikoen ved å bruke en multisig-lommebok?
+answer: Å ikke ha tilgang til nok distinkte deler av multisig-sikkerhetskopien
+wrong_answers:
+  - Å ha tilgang til nok distinkte deler av multisig-sikkerhetskopien
+  - Å dele nøkler med andre parter
+  - Å ikke dele nøkler med andre parter
+explanation: |
+  Når du bruker en multisig-lommebok, bør hver del av multisigen lagres
+  på forskjellige steder. Dette er fordi multisigen krever flere signaturer
+  for å utføre en transaksjon, så et visst antall lommebøker er nødvendig, og å lagre hver del på et forskjellig sted tilfører et
+  ekstra lag med sikkerhet.
+reviewed: true

@@ -1,13 +1,12 @@
 question: What is the advantage of using a self-hosted password manager like Bitwarden or KeePass?
 answer: You can control where your passwords are stored, offering more security and control.
 wrong_answers:
-  - They are easier to use than third-party services.
-  - They offer more features than third-party services.
-  - They are cheaper than third-party services.
+  - They are easier and always more secure to use than third-party services.
+  - They usually offer more features than third-party services, although they are more expensive.
+  - They are cheaper and fastest than third-party services.
 explanation: |
-  Self-hosted password managers like Bitwarden or KeePass allow you to
-
-  control where your passwords are stored, potentially offering more security and
-
-  control. However, they may require more technical knowledge to use.'
-reviewed: false
+  Self-hosted password managers like Bitwarden or KeePass
+  allow you to control where your passwords are stored,
+  potentially offering more security and control. However,
+  they may require more technical knowledge to use.
+reviewed: true

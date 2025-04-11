@@ -1,9 +1,9 @@
-question: Lightning Networkは何として機能しますか？
+question: Lightning Networkはどのようなネットワークを作り出しますか？
 answer: 支払いチャネルのネットワーク。
 wrong_answers:
   - 採掘ノードのネットワーク。
   - ブロックチェーンノードのネットワーク。
   - 仮想通貨取引所のネットワーク。
 explanation: >-
-  Lightning Networkは、送金者に対して低手数料で即時取引を可能にする支払いチャネルのネットワークとして機能します。
-reviewed: false
+  Lightning Networkは、送金者に対して即時取引を低料金で可能にする支払いチャネルのネットワークとして機能します。
+reviewed: true

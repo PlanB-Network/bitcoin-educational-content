@@ -1,0 +1,9 @@
+question: Mis keeles oli Bitcoin foorumi esimene mitte-ingliskeelne alafoorum, mis loodi juulis 2010?
+answer: Vene
+wrong_answers:
+  - Prantsuse
+  - Saksa
+  - Itaalia
+explanation: |
+  Selle [lõi](https: //bitcointalk.org/index.php?topic=151.msg6241#msg6241) Martti Malmi 28. juulil. Järgnevatel kuudel lisati teisi keeli.
+reviewed: false

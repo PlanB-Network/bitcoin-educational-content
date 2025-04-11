@@ -1,0 +1,9 @@
+question: Mis on Bitcoini harulduse tähtsus?
+answer: Maailmas saab olema ainult 21 miljonit bitcoini ja mitte kunagi rohkem
+wrong_answers:
+  - Bitcoini väärtus suureneb alati
+  - Bitcoini kaevandamine on keeruline
+  - Bitcoini tehingute arv on piiratud
+explanation: |
+  Bitcoini haruldus viitab asjaolule, et maailmas saab olema ainult 21 miljonit bitcoini. See omadus, sarnaselt kullaga, hoiab ära Bitcoini väärtuse lahjenemise liigse rahatrüki tõttu.
+reviewed: false

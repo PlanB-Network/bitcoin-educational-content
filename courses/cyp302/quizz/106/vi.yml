@@ -1,0 +1,9 @@
+question: Cơ chế nào ngăn chặn các cuộc tấn công phản xạ trong giao tiếp an toàn?
+answer: Thêm một định danh duy nhất cho mỗi người tham gia
+wrong_answers:
+  - Tăng độ dài của khóa
+  - Sử dụng nhiều khóa cho mỗi tin nhắn
+  - Thêm một khóa phụ vào mỗi tin nhắn
+explanation: |
+  Việc thêm một định danh duy nhất cho mỗi người tham gia trong tin nhắn được mã hóa ngăn chặn các cuộc tấn công phản xạ, vì nó cho phép phân biệt nguồn gốc của các tin nhắn.
+reviewed: false

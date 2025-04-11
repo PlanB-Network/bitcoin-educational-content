@@ -1,0 +1,11 @@
+question: Apa tujuan dari membuat rencana warisan untuk bitcoin Anda?
+answer: Untuk memastikan bahwa bitcoin Anda akan dikelola dengan baik setelah kematian Anda
+wrong_answers:
+  - Untuk menghindari pajak atas bitcoin Anda
+  - Untuk meningkatkan nilai dari bitcoin Anda
+  - Untuk mencegah bitcoin Anda dari pencurian
+explanation: |
+  Rencana warisan memastikan bahwa bitcoin Anda akan dikelola dengan baik
+  setelah kematian Anda. Ini dapat mencakup surat tulisan tangan yang merinci aset Anda, metode
+  akses mereka, dan informasi kontak dari individu terpercaya yang harus dihubungi.
+reviewed: true

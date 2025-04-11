@@ -1,0 +1,9 @@
+question: Quel est le concept fondamental qui sous-tend le protocole RGB ?
+answer: La validation client-side via des engagements cryptographiques on-chain
+wrong_answers:
+  - La validation on-chain par des smart contracts Turing-complets
+  - L'utilisation exclusive de transactions Bitcoin en clair
+  - L'exécution de contrats sur une blockchain dédiée aux smart contracts
+explanation: |
+  RGB repose sur un modèle de validation client-side où les engagements (via Taproot ou OP_RETURN) sont inscrits on-chain, tandis que la majeure partie de la logique et des données est conservée off-chain.
+reviewed: false

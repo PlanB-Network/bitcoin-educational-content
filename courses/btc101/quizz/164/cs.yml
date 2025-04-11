@@ -1,12 +1,9 @@
-question: Jaká je hlavní výhoda Bitcoinu pro jednotlivce žijící pod finančním
-  útlakem nebo v diktátorském režimu?
-answer: Nabízí formu finanční svobody tím, že umožňuje uniknout cenzuře a bankovním omezením.
+question: Jaká je hlavní výhoda Bitcoinu pro jednotlivce žijící pod finančním útlakem nebo v diktátorských režimech?
+answer: Možnost uniknout cenzuře a bankovním omezením.
 wrong_answers:
-  - Poskytuje stabilní měnu
-  - Umožňuje anonymní transakce
-  - Nabízí vysoké výnosy z investice
+  - Používání stabilní měny, která má pevnou hodnotu.
+  - Umožnění anonymních transakcí.
+  - Získávání vysokých výnosů z investic.
 explanation: >-
-  Bitcoin nabízí formu finanční svobody tím, že umožňuje uniknout cenzuře a
-  bankovním omezením. To je obzvláště prospěšné pro jednotlivce žijící pod
-  finančním útlakem nebo v diktátorském režimu.
-reviewed: false
+  Bitcoin nabízí formu finanční svobody únikem před cenzurou a bankovními omezeními. To je zvláště prospěšné pro jednotlivce žijící pod finančním útlakem nebo v diktátorském režimu.
+reviewed: true

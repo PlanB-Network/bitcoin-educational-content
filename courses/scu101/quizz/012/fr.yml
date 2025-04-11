@@ -1,9 +1,12 @@
 question: Pourquoi est-il important de vérifier la clé publique du site à l'aide d'un système de certificat ?
 answer: Pour confirmer l'authenticité du site.
 wrong_answers:
-  - Pour contourner les restrictions géographiques.
-  - Pour bloquer les publicités en ligne.
-  - Pour accéder au site sans utiliser de données.
+  - Pour garantir qu'aucune escroquerie ne puisse se produire, mais uniquement lorsqu'on est connecté via un réseau Wi-Fi public.
+  - Pour bloquer partiellement les publicités en ligne.
+  - Pour s'assurer qu'aucune entité malveillante n'usurpe l'identité du site web.
 explanation: |
-  La vérification de la clé publique du site à l'aide d'un système de certificat est importante pour confirmer l'authenticité du site. Cela aide à se protéger contre les individus malveillants qui se font passer pour le site et transfèrent des données en texte clair.
-reviewed: false
+  Vérifier la clé publique du site à l'aide d'un système de certificat
+  est important pour confirmer l'authenticité du site. Cela
+  aide à se protéger contre les individus malveillants qui usurpent
+  l'identité du site et transfèrent des données en texte clair.
+reviewed: true

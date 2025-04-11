@@ -1,9 +1,0 @@
-question: レガシースタンダードの場合、チェックサムを計算するのに使用されるものは何ですか？
-answer: Double SHA256 ハッシング
-wrong_answers:
-  - BCHプログラム
-  - pbkdf2関数
-  - hmacha512関数
-explanation: |
-  アドレスを導出するために、圧縮された公開キーは最初にSHA256とRIPMD160を使用してハッシュ化され、その後チェックサムが計算されます。レガシースタンダードの場合、チェックサムを計算するためにDouble SHA256ハッシングが使用されます。
-reviewed: false

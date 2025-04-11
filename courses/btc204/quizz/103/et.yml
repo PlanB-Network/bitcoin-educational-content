@@ -1,0 +1,13 @@
+question: Kuidas arvutatakse Bitcoini tehingu efektiivsust privaatsuse mõttes?
+
+answer: Võrreldes tehingu tegelikku entroopiat maksimaalse võimaliku entroopiaga.
+
+wrong_answers:
+  - Korrutades sisendite arvu väljundite arvuga.
+  - Korrutades tehingu tegelikku entroopiat sisendite ja väljundite arvuga.
+  - Võrreldes sisendite arvu väljundite arvuga.
+
+explanation: |
+  Tehingu efektiivsus arvutatakse, lahutades analüüsitud tehingu tegelikust entroopiast maksimaalse entroopia.
+
+reviewed: false

@@ -1,0 +1,13 @@
+question: Co uniemożliwia wszystkim korzystanie z tego samego Bitcoin Wallet?
+answer: Różne osoby potrzebują różnych przypadków użycia.
+wrong_answers:
+  - Korzystanie z Bitcoin Wallet jest kosztowne.
+  - Używanie Bitcoin Wallet jest nielegalne.
+  - Ludzie nigdy nie zgodzą się co do nazwy takiego Wallet.
+explanation: |
+  Podczas gdy jedna osoba może priorytetowo traktować bezpieczeństwo, inna może
+  cenić łatwość obsługi lub określone funkcje. W związku z tym
+  pojedynczy Bitcoin Wallet może nie spełniać wszystkich
+  wymagania, co sprawia, że konieczne jest istnienie wielu opcji Wallet
+  opcji.
+reviewed: true

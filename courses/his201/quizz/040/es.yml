@@ -1,0 +1,9 @@
+question: ¿Cuántos bitcoins (aproximadamente) minó Satoshi Nakamoto en total?
+answer: 1,100,000
+wrong_answers:
+  - 11,000,000
+  - 110,000
+  - 11,000
+explanation: |
+   1,122,693 bitcoins según un estudio de Whale Alert publicado en 2020. Satoshi cesó sus actividades de minería en mayo de 2010.
+reviewed: false

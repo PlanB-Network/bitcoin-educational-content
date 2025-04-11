@@ -69,7 +69,7 @@ Whirlpool được thiết kế dựa trên hai yêu cầu quan trọng:
 Những yêu cầu này đã hướng dẫn sự lựa chọn của các nhà phát triển Samourai Wallet trong việc thiết kế Whirlpool, khiến họ hạn chế số lượng người tham gia mỗi chu kỳ. Quá ít người tham gia sẽ làm giảm hiệu quả của coinjoin, giảm đáng kể anonsets được tạo ra với mỗi chu kỳ, trong khi quá nhiều người tham gia sẽ gây ra vấn đề quản lý trên các ứng dụng di động và cản trở dòng chảy của các chu kỳ.
 
 **Cuối cùng, không cần phải có một số lượng lớn người tham gia mỗi coinjoin trên Whirlpool vì anonsets được tạo ra qua việc tích lũy nhiều chu kỳ coinjoin.**
-[-> Tìm hiểu thêm về anonsets của Whirlpool.](https://planb.network/tutorials/privacy/wst-anonsets)
+[-> Tìm hiểu thêm về anonsets của Whirlpool.](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 ### Các hồ bơi Coinjoin và phí
 Để đảm bảo rằng nhiều chu kỳ tăng hiệu quả anonsets của các đồng tiền được trộn, một khung nhất định phải được thiết lập để hạn chế số lượng UTXOs được sử dụng. Whirlpool xác định các hồ bơi khác nhau cho mục đích này.
 
@@ -174,7 +174,7 @@ Sử dụng Sparrow có ưu điểm là khá dễ bắt đầu, nhanh chóng thi
 ### Cài đặt Sparrow Wallet
 Để bắt đầu, bạn rõ ràng cần phần mềm Sparrow Wallet. Bạn có thể trực tiếp tải xuống từ [trang web chính thức](https://sparrowwallet.com/download/) hoặc trên [GitHub của họ](https://github.com/sparrowwallet/sparrow/releases).
 
-Trước khi cài đặt phần mềm, việc xác minh chữ ký và tính toàn vẹn của tệp thực thi bạn vừa tải xuống sẽ rất quan trọng. Nếu bạn muốn biết thêm chi tiết về quy trình cài đặt và xác minh phần mềm Sparrow, tôi khuyên bạn nên đọc hướng dẫn khác này: *[Hướng dẫn Sparrow Wallet](https://planb.network/tutorials/wallet/sparrow)*
+Trước khi cài đặt phần mềm, việc xác minh chữ ký và tính toàn vẹn của tệp thực thi bạn vừa tải xuống sẽ rất quan trọng. Nếu bạn muốn biết thêm chi tiết về quy trình cài đặt và xác minh phần mềm Sparrow, tôi khuyên bạn nên đọc hướng dẫn khác này: *[Hướng dẫn Sparrow Wallet](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)*
 
 ### Tạo một Ví Phần mềm
 Sau khi cài đặt phần mềm, bạn sẽ cần tiến hành tạo một ví Bitcoin. Quan trọng cần lưu ý rằng để tham gia vào coinjoins, việc sử dụng một ví phần mềm (còn gọi là "ví nóng") là cần thiết. Do đó, **sẽ không thể thực hiện coinjoins với một ví được bảo mật bởi một ví cứng**.
@@ -290,7 +290,7 @@ Trong phần này, bạn sẽ có tùy chọn nhập địa chỉ đích, số t
 
 ![sparrow](assets/notext/33.webp)
 
-[-> Tìm hiểu thêm về giao dịch Stonewall.](https://planb.network/tutorials/privacy/stonewall)
+[-> Tìm hiểu thêm về giao dịch Stonewall.](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 Nếu bạn muốn chọn một cách chính xác hơn các đồng xu của mình để chi tiêu, hãy chuyển đến tab `UTXOs`. Chọn các UTXOs mà bạn muốn tiêu thụ cụ thể, sau đó nhấn nút `Gửi Đã Chọn` để khởi tạo giao dịch.
 
@@ -308,7 +308,7 @@ Một cửa sổ mở ra, bắt đầu bằng cách chọn ví đích từ danh 
 
 ![sparrow](assets/notext/37.webp)
 
-Chọn ngưỡng coinjoin mà sau đó việc rút tiền sẽ được thực hiện tự động. Tôi không thể đưa ra một số lượng chính xác các lần remix để thực hiện, vì điều này thay đổi tùy theo tình hình cá nhân và mục tiêu bảo mật của bạn, nhưng tránh chọn một ngưỡng quá thấp. Tôi khuyên bạn nên tham khảo bài viết khác này để tìm hiểu thêm về quá trình remixing: [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/remix-whirlpool)
+Chọn ngưỡng coinjoin mà sau đó việc rút tiền sẽ được thực hiện tự động. Tôi không thể đưa ra một số lượng chính xác các lần remix để thực hiện, vì điều này thay đổi tùy theo tình hình cá nhân và mục tiêu bảo mật của bạn, nhưng tránh chọn một ngưỡng quá thấp. Tôi khuyên bạn nên tham khảo bài viết khác này để tìm hiểu thêm về quá trình remixing: [REMIX - WHIRLPOOL](https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa)
 
 Bạn có thể để tùy chọn `Phạm vi Chỉ số` ở giá trị mặc định, `Toàn bộ`. Chức năng này cho phép trộn đồng thời từ các khách hàng khác nhau, nhưng đó không phải là điều chúng ta muốn làm trong hướng dẫn này. Để hoàn tất và kích hoạt tùy chọn `Chuyển đến...`, nhấn `Khởi động lại Whirlpool`.
 
@@ -317,7 +317,7 @@ Bạn có thể để tùy chọn `Phạm vi Chỉ số` ở giá trị mặc đ
 Tuy nhiên, hãy cẩn thận khi sử dụng tùy chọn `Chuyển đến`, vì việc loại bỏ các đồng xu đã trộn khỏi tài khoản `Postmix` của bạn có thể làm tăng đáng kể nguy cơ xâm phạm quyền riêng tư của bạn. Các lý do cho khả năng này được chi tiết trong các phần tiếp theo.
 
 ## Làm thế nào để biết chất lượng của các chu kỳ coinjoin của chúng ta?
-Để một coinjoin thực sự hiệu quả, điều cần thiết là nó phải thể hiện sự đồng nhất tốt giữa các lượng input và output. Sự đồng nhất này làm tăng số lượng giải thích có thể có trong mắt của một quan sát viên bên ngoài, do đó tăng sự không chắc chắn xung quanh giao dịch. Để định lượng sự không chắc chắn này được tạo ra bởi một coinjoin, người ta có thể sử dụng cách tính entropy của giao dịch. Để khám phá sâu hơn về các chỉ số này, tôi giới thiệu bạn đọc hướng dẫn: [BOLTZMANN CALCULATOR](https://planb.network/en/tutorials/privacy/boltzmann-entropy). Mô hình Whirlpool được công nhận là mô hình mang lại sự đồng nhất nhiều nhất trong coinjoins. Tiếp theo, hiệu suất của nhiều chu kỳ coinjoin được đánh giá dựa trên kích thước của các nhóm mà một đồng tiền được ẩn giấu. Kích thước của các nhóm này định nghĩa cái gọi là anonsets. Có hai loại anonsets: loại đầu tiên đánh giá sự riêng tư đạt được chống lại phân tích hồi tưởng (từ hiện tại về quá khứ) và loại thứ hai, chống lại phân tích tiềm năng (từ quá khứ đến hiện tại). Để giải thích chi tiết về hai chỉ số này, tôi mời bạn tham khảo hướng dẫn: [WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/wst-anonsets)
+Để một coinjoin thực sự hiệu quả, điều cần thiết là nó phải thể hiện sự đồng nhất tốt giữa các lượng input và output. Sự đồng nhất này làm tăng số lượng giải thích có thể có trong mắt của một quan sát viên bên ngoài, do đó tăng sự không chắc chắn xung quanh giao dịch. Để định lượng sự không chắc chắn này được tạo ra bởi một coinjoin, người ta có thể sử dụng cách tính entropy của giao dịch. Để khám phá sâu hơn về các chỉ số này, tôi giới thiệu bạn đọc hướng dẫn: [BOLTZMANN CALCULATOR](https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe). Mô hình Whirlpool được công nhận là mô hình mang lại sự đồng nhất nhiều nhất trong coinjoins. Tiếp theo, hiệu suất của nhiều chu kỳ coinjoin được đánh giá dựa trên kích thước của các nhóm mà một đồng tiền được ẩn giấu. Kích thước của các nhóm này định nghĩa cái gọi là anonsets. Có hai loại anonsets: loại đầu tiên đánh giá sự riêng tư đạt được chống lại phân tích hồi tưởng (từ hiện tại về quá khứ) và loại thứ hai, chống lại phân tích tiềm năng (từ quá khứ đến hiện tại). Để giải thích chi tiết về hai chỉ số này, tôi mời bạn tham khảo hướng dẫn: [WHIRLPOOL STATS TOOLS - ANONSETS](https://planb.network/tutorials/privacy/analysis/wst-anonsets-0354b793-c301-48af-af75-f87569756375)
 
 ## Làm thế nào để quản lý postmix?
 Sau khi thực hiện các chu kỳ coinjoin, chiến lược tốt nhất là giữ các UTXO của bạn trong tài khoản **postmix**, chờ đợi sử dụng trong tương lai của chúng. Thậm chí còn được khuyến khích để cho chúng remix vô thời hạn cho đến khi bạn cần tiêu chúng.
@@ -343,8 +343,9 @@ Tiếp theo, bạn cần phải cẩn thận trong việc quản lý sự thay �
 Các hướng dẫn chi tiết về việc thực hiện những kỹ thuật khác nhau này sẽ sớm được cung cấp trên PlanB Network.
 
 **Tài Nguyên Bổ Sung:**
-[Hướng dẫn Video Ví Sparrow](https://planb.network/tutorials/wallet/sparrow)
-[Hướng dẫn Video Ví Samourai](https://planb.network/tutorials/wallet/samourai)
+[Hướng dẫn Video Ví Sparrow](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
+[Hướng dẫn Video Ví Samourai](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
 - [Tài liệu Ví Samourai - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [Chuỗi Tweet về CoinJoins](https://twitter.com/SamouraiWallet/status/1489220847336308739);
 - [Bài đăng Blog về CoinJoins](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
+

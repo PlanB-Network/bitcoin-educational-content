@@ -1,9 +1,14 @@
 question: Was ist der Zweck des Schwierigkeitsanpassungsmechanismus im Bitcoin-Netzwerk?
-answer: Um sicherzustellen, dass Blöcke im Durchschnitt alle 10 Minuten abgebaut werden.
+answer: Um sicherzustellen, dass Blöcke durchschnittlich alle 10 Minuten abgebaut werden
 wrong_answers:
-  - Um die Schwierigkeit des Minings im Laufe der Zeit zu erhöhen.
-  - Um die Schwierigkeit des Minings im Laufe der Zeit zu verringern.
-  - Um sicherzustellen, dass derselbe Miner nicht aufeinanderfolgende Blöcke abbaut.
+  - Die Schwierigkeit des Minings im Laufe der Zeit zu erhöhen
+  - Die Schwierigkeit des Minings im Laufe der Zeit zu verringern
+  - Sicherzustellen, dass derselbe Miner nicht aufeinanderfolgende Blöcke abbaut
 explanation: |
-  Die Schwierigkeitsanpassung ist ein entscheidender Mechanismus für den Betrieb des Bitcoin-Netzwerks und stellt sicher, dass Blöcke im Durchschnitt alle 10 Minuten abgebaut werden. Dieser Anpassungsmechanismus gewährleistet, dass die Abbauzeit für neue Blöcke im Laufe der Zeit konstant bleibt, unabhängig von der Anzahl der Miner oder der Gesamtrechenleistung des Netzwerks.
-reviewed: false
+  Die Schwierigkeitsanpassung ist ein entscheidender Mechanismus im
+  Betrieb des Bitcoin-Netzwerks, der sicherstellt, dass Blöcke
+  durchschnittlich alle 10 Minuten abgebaut werden. Dieser Anpassungsmechanismus
+  gewährleistet, dass die Mining-Zeit für neue Blöcke
+  über die Zeit konstant bleibt, unabhängig von der Anzahl der
+  Miner oder der gesamten Rechenleistung des Netzwerks.
+reviewed: true

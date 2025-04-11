@@ -1,9 +1,9 @@
 question: Mục đích của việc triển khai 2FA là gì?
-answer: Để bảo vệ tài khoản trực tuyến của bạn khỏi sự truy cập trái phép.
+answer: Để bảo vệ các tài khoản trực tuyến của bạn khỏi truy cập trái phép.
 wrong_answers:
   - Làm cho việc truy cập vào tài khoản của bạn trở nên khó khăn hơn
-  - Theo dõi hoạt động trực tuyến của bạn
-  - Tăng tốc độ kết nối internet của bạn
+  - Để theo dõi các hoạt động trực tuyến của bạn
+  - Để tăng tốc độ kết nối internet của bạn
 explanation: |
-  2FA thêm một lớp bảo mật extra cho tài khoản trực tuyến của bạn. Ngay cả khi một hacker có được mật khẩu của bạn, họ cũng không thể truy cập vào tài khoản của bạn mà không có yếu tố xác thực thứ hai.
-reviewed: false
+  2FA thêm một lớp bảo mật extra cho các tài khoản trực tuyến của bạn. Ngay cả khi một hacker có được mật khẩu của bạn, họ cũng không thể truy cập vào tài khoản của bạn mà không có yếu tố xác thực thứ hai.
+reviewed: true

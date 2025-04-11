@@ -1,9 +1,8 @@
-question: Qual é o papel da curva elíptica na geração de chaves públicas e privadas?
-answer: Ela é usada para gerar chaves públicas e privadas seguras.
+question: Qual é o principal risco de usar um PRNG mal projetado para gerar entropia?
+answer: Chaves privadas poderiam ser adivinhadas por um atacante
 wrong_answers:
-  - Ela é usada para criptografar as chaves.
-  - Ela é usada para armazenar as chaves.
-  - Ela é usada para transmitir as chaves.
+  - A frase mnemônica poderia conter palavras incorretas
+  - Assinaturas digitais se tornariam inválidas
+  - Endereços de Bitcoin seriam incompatíveis com a rede
 explanation: |
-  A curva elíptica é uma construção matemática usada na geração de chaves públicas e privadas seguras. Um número aleatório, frequentemente chamado de nonce, é escolhido como chave privada e usado na equação da curva elíptica para gerar a chave pública correspondente.
-reviewed: false
+  Um PRNG mal projetado pode produzir sequências previsíveis, tornando as chaves mais vulneráveis a ataques.

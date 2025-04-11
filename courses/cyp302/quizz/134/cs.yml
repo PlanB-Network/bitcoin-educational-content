@@ -1,0 +1,9 @@
+question: Jaký je hlavní cíl asymetrické kryptografie v kontextu komunikace mezi Alicí a Bobem?
+answer: Umožnit Bobovi poslat tajnou zprávu Alici pomocí jejího veřejného klíče
+wrong_answers:
+  - Umožnit Bobovi šifrovat a dešifrovat zprávy bez veřejného klíče
+  - Zabránit Alici v dešifrování Bobových zpráv
+  - Umožnit Alici šifrovat zprávu pro ověření její integrity
+explanation: |
+  V asymetrické kryptografii umožňuje Alicin veřejný klíč Bobovi poslat šifrovanou zprávu, kterou může dešifrovat pouze ona, čímž je zajištěna důvěrnost zprávy.
+reviewed: false

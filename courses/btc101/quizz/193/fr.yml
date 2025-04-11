@@ -1,9 +1,9 @@
-question: Quelle est l'une des initiatives qui contribuent à rendre l'économie du Bitcoin plus accessible et pratique pour tous ?
-answer: BTCMap
+question: Quelle est l'une des initiatives qui contribuent à rendre l'économie Bitcoin plus accessible et pratique pour tous ?
+answer: BTCMap.
 wrong_answers:
-  - Échange de Bitcoin
-  - Minage de Bitcoin
-  - Loterie Bitcoin
-explanation: |
-  BTCMap est l'une des initiatives qui contribuent à rendre l'économie du Bitcoin plus accessible et pratique pour tous. C'est un projet open-source et collaboratif qui répertorie tous les commerçants acceptant le Bitcoin ainsi que les différentes communautés Bitcoin à travers le monde.
-reviewed: false
+  - Échange Bitcoin.
+  - Minage Bitcoin.
+  - Loterie Bitcoin.
+explanation: >-
+  BTCMap est l'une des initiatives qui contribuent à rendre l'économie Bitcoin plus accessible et pratique pour tous. C'est un projet open-source et collaboratif qui répertorie tous les commerçants acceptant le Bitcoin ainsi que les différentes communautés Bitcoin à travers le monde.
+reviewed: true

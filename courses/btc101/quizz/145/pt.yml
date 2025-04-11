@@ -1,10 +1,11 @@
-question: O que foi a guerra de blocos em 2017?
-answer: Um conflito sobre aumentar o tamanho do bloco para aumentar a capacidade de transação.
+question: Qual foi a guerra dos blocos em 2017?
+answer: Um conflito sobre se aumentar o tamanho do bloco para expandir a capacidade de transação.
 wrong_answers:
-  - Um conflito sobre diminuir o tamanho do bloco para diminuir a capacidade de transação.
-  - Um conflito sobre aumentar a recompensa do bloco para incentivar os mineradores.
-  - Um conflito sobre diminuir a recompensa do bloco para desincentivar os mineradores.
+  - Um conflito sobre se diminuir o tamanho do bloco para reduzir a capacidade de transação.
+  - Um conflito sobre se aumentar a recompensa por bloco para incentivar os mineradores.
+  - Um conflito sobre se diminuir a recompensa por bloco para desincentivar os mineradores.
 explanation: |
-  A guerra de blocos em 2017 foi um conflito sobre modificar o Bitcoin aumentando o tamanho do bloco para aumentar a capacidade de transação.
-reviewed: false
-
+  A guerra dos blocos em 2017 foi um conflito sobre se
+  modificar o Bitcoin aumentando o tamanho do bloco para expandir
+  a capacidade de transação.
+reviewed: true

@@ -1,11 +1,8 @@
-question: Các bit được biến đổi thành cụm từ như thế nào trong quá trình tạo ra cụm từ ghi nhớ cho ví Bitcoin?
-
-answer: Mỗi phân đoạn được liên kết với một từ từ danh sách 2048 từ.
-
+question: Độ sâu nào trong đường dẫn phái sinh chỉ định loại tiền tệ?
+answer: Độ sâu 2
 wrong_answers:
-  - Mỗi bit được liên kết với một từ từ danh sách 2048 từ.
-  - Mỗi phân đoạn được liên kết với một từ từ danh sách 1024 từ.
-  - Mỗi bit được liên kết với một từ từ danh sách 1024 từ.
-
-explanation:
-  Để biến đổi các bit thành cụm từ, mỗi phân đoạn được liên kết với một từ từ danh sách 2048 từ.
+  - Độ sâu 1
+  - Độ sâu 3
+  - Độ sâu 4
+explanation: |
+  Độ sâu 2 được sử dụng để xác định loại tiền tệ trong các ví đa tiền tệ, như Bitcoin (chỉ số 0') hoặc Litecoin (chỉ số 2').

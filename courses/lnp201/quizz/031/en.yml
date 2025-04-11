@@ -1,12 +1,9 @@
-question: What is the purpose of the revocation key in a commitment transaction?
-answer: It allows the other party to move the funds without waiting for the end of the Timelock if one tries to cheat.
+question: What limits the amount of an indirect payment on the Lightning Network?
+answer: The smallest liquidity available in a channel of the chosen path
 wrong_answers:
-  - It allows the other party to immediately recover their money.
-  - It allows the other party to create a new commitment transaction.
-  - It allows the other party to extend the Timelock.
+  - The number of intermediary nodes involved
+  - The total capacity of the Lightning Network
+  - The routing fees set by each node
 explanation: |
-  The revocation key is a security measure in a commitment transaction.
-  If one party tries to cheat by publishing an old state, the other party can use
-  the revocation key to move the funds without waiting for the end of the Timelock,
-  effectively punishing the cheater.
+  The maximum amount that an indirect payment can transfer depends on the lowest liquidity available in the channels used, as each channel must adjust the funds on each side.
 reviewed: false

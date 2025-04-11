@@ -1,0 +1,9 @@
+question: Kes oli esimene isik, kellega Satoshi Nakamoto võttis ühendust 2008. aasta augustis?
+answer: Adam Back
+wrong_answers:
+  - Wei Dai
+  - Hal Finney
+  - James A. Donald
+explanation: |
+  Ta võttis temaga ühendust 20. augustil, küsides, kuidas viidata oma Hashcash'i artiklile valges raamatus. Pärast vastamist suunas Adam Back teda Wei Dai poole (seoses tema b-money kontseptsiooniga), kellega Satoshi suhtles 2 päeva hiljem.
+reviewed: false

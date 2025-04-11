@@ -1,0 +1,9 @@
+question: Qual é a principal limitação prática do caderno de chaves único (one-time pad)?
+answer: A chave deve ser tão longa quanto a mensagem e nunca ser reutilizada
+wrong_answers:
+  - A chave deve ser alterada todos os dias
+  - A chave deve ser três vezes mais longa que a mensagem
+  - A chave deve necessariamente ser armazenada em um Minitel francês
+explanation: |
+  A chave em um caderno de chaves único deve ser tão longa quanto a mensagem e nunca ser reutilizada, o que complica significativamente seu uso em contextos práticos. Isso ocorre porque se é possível transmitir dados tão longos quanto a mensagem de maneira segura, faria mais sentido transmitir diretamente a mensagem em vez da chave.
+reviewed: false

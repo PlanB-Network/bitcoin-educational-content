@@ -1,9 +1,12 @@
-question: Was zwingt Bitcoin Unternehmen, Universitäten, Regulierungsbehörden und Einzelpersonen zu tun?
-answer: Diese neue Technologie berücksichtigen
+question: Welche Aktion zwingt Bitcoin Unternehmen, Universitäten, Regulierungsbehörden und Einzelpersonen zu unternehmen?
+answer: Es zu berücksichtigen.
 wrong_answers:
-  - Ignorieren
-  - Verbieten
-  - Kriminalisieren
-explanation: |
-  Der Aufstieg von Bitcoin zwingt Unternehmen, Universitäten, Regulierungsbehörden und Einzelpersonen dazu, diese neue Technologie zu berücksichtigen. Es müssen neue Werkzeuge geschaffen, Dienstleistungen angepasst und Innovationen fortgesetzt werden, um ihr Überleben zu gewährleisten.
-reviewed: false
+  - Es zu ignorieren.
+  - Es zu verbieten.
+  - Es zu kriminalisieren.
+explanation: >
+  Der Aufstieg von Bitcoin zwingt Unternehmen, Universitäten, Regulierungsbehörden und
+  Einzelpersonen dazu, diese neue Technologie zu berücksichtigen. Neue Werkzeuge müssen
+  geschaffen werden, Dienstleistungen müssen angepasst werden, und Innovation muss
+  weitergehen, um ihr Überleben zu sichern.
+reviewed: true

@@ -5,9 +5,10 @@ wrong_answers:
   - They do not require any additional authentication factors.
   - They can be used on all websites without any updates.
 explanation: |
-  Passkeys offer encrypted random keys, combined with a local factor
-  (biometrics
-  or PIN), which are hosted by a provider but remain out of their reach. This approach
-  eliminates the need for passwords, thus providing a high level of security without
-  the constraints associated with traditional passwords.
-reviewed: false
+  Passkeys offer encrypted random keys, combined with a local
+  factor (biometrics or PIN), which are hosted by a provider
+  but remain out of their reach. This approach eliminates the
+  need for passwords, thus providing a high level of security
+  without the constraints associated with traditional
+  passwords.
+reviewed: true

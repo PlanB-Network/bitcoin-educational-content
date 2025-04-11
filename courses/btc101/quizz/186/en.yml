@@ -1,11 +1,11 @@
 question: What is one way to obtain bitcoins without buying them?
-answer: Accept them as a means of payment for the products or services you offer
+answer: Accept them as a means of payment for the products or services you offer.
 wrong_answers:
-  - Borrow them from a friend
-  - Win them in a lottery
-  - Find them on the street
+  - Borrow them from a friend and never give them back.
+  - Win them in a lottery.
+  - Find them on the street.
 explanation: >-
   One way to obtain bitcoins without buying them is to accept them as a
   means of payment for the products or services you offer. This allows you to acquire
   bitcoins through your work.
-reviewed: false
+reviewed: true

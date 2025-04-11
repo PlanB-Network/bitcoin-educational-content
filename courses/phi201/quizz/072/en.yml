@@ -1,0 +1,9 @@
+question: According to the Physiocrats, what is the origin of the economic order?
+answer: The natural laws of the market.
+wrong_answers:
+  - Government decisions.
+  - International law.
+  - The privileges of the aristocracy.
+explanation: |
+  The Physiocrats believed that the economic order stems from the natural laws of the market, asserting that, without intervention, the market tends towards a balance that ensures general prosperity.
+reviewed: false

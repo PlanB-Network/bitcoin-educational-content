@@ -1,0 +1,9 @@
+question: Milline tarkvaraversiooni number oli esile tõstetud Slashdot'is juulis 2010?
+answer: v0.3
+wrong_answers:
+  - v0.1
+  - v0.2
+  - v0.4
+explanation: |
+  Selle versiooni väljalase, mida Satoshi ja Martti olid pikalt ette valmistanud, tähistas uut suunda suhtluses.
+reviewed: false

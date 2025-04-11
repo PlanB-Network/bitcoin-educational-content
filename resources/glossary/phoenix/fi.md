@@ -1,0 +1,5 @@
+---
+term: PHOENIX
+
+---
+Itsekustantava mobiililompakko-ohjelmisto, joka on suunniteltu yksinkertaistamaan ja helpottamaan Lightning-protokollaan perustuvia maksutapahtumia. Sen avulla käyttäjät voivat hallita varojaan suoraan mobiililaitteistaan ilman, että heidän tarvitsee muodostaa yhteyttä erilliseen Lightning-solmuun. Phoenix toimii itse asiassa täysimittaisena itsenäisenä Lightning-solmuna puhelimessa (Lightning-toteutus). Se tukee Bitcoin- ja Lightning-transaktioita ja tarjoaa solmun hallintaa helpottavia ominaisuuksia, kuten automaattisen kanavanhallinnan Acinq-solmun kanssa. Toisin kuin muut Lightning-lompakkosovellukset, jotka ovat enimmäkseen säilytyssovelluksia, Phoenix tarjoaa mielenkiintoisen kompromissin yhdistämällä Lightning-solmun käytön ja älypuhelinsovelluksen mukavuuden. Se on yksi parhaista yksinkertaisista ratkaisuista aloittelijoille, jotka haluavat käyttää Lightningia ja säilyttää samalla täyden omistusoikeuden bitcoineihinsa (itsesäilytys). Phoenix on ranskalaisen Acinq-yrityksen kehittämä ja ylläpitämä projekti.

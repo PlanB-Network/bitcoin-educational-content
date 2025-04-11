@@ -1,9 +1,9 @@
-question: Kuka maksaa päättämiskulut yhteistyössä tapahtuvassa sulkemisessa?
-answer: Henkilö, joka avasi kanavan.
+question: Mitä tietoja Bob voi sisällyttää laskuun reitityksen helpottamiseksi?
+answer: Läheiset kanavat, joilla on riittävästi likviditeettiä tai yksityisten kanavien olemassaolo
 wrong_answers:
-  - Henkilö, joka sulki kanavan.
-  - Molemmat osapuolet yhtä suurilta osin.
-  - Henkilö, jolla on eniten SATia kanavalla.
+  - Välisolmujen yksityinen avain
+  - Koko verkon kanavien täydellinen kartta
+  - Tarkan määrän saatavilla oleva likviditeetti kullekin kanavalle
 explanation: |
-  Yhteistyössä tapahtuvassa sulkemisessa kaksi osapuolta sopivat kanavan lopullisesta tilasta. Henkilö, joka avasi kanavan, maksaa päättämiskulut.
+  Osoittamalla läheiset kanavat, joilla on likviditeettiä tai paljastamalla yksityisiä kanavia, Bob auttaa Alicea valitsemaan reittejä, joilla on parempi onnistumisen todennäköisyys.
 reviewed: false

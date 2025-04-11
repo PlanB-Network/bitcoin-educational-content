@@ -1,0 +1,5 @@
+---
+term: BLOK KANDIDAT
+
+---
+Kandidat blok adalah sebuah blok yang sedang dalam proses pembuatan oleh penambang yang berpartisipasi dalam proses penambangan sistem Bitcoin. Blok kandidat adalah struktur data sementara yang berisi transaksi yang menunggu untuk dikonfirmasi tetapi belum memiliki bukti kerja yang valid untuk ditambahkan ke dalam blockchain. Penambang memilih transaksi yang akan dimasukkan ke dalam blok kandidat berdasarkan berbagai faktor, seperti biaya transaksi dan batasan ukuran blok. Setelah transaksi dipilih, penambang membuat header blok, yang meliputi versi, intisari transaksi (Merkle root), stempel waktu, hash dari blok sebelumnya, target kesulitan, dan nonce. Penambang kemudian mencoba untuk menemukan hash dari header yang memenuhi target kesulitan saat ini. Untuk melakukan ini, penambang memodifikasi nonce yang ada di header. Penambang juga dapat memodifikasi informasi lain yang ada di dalam blok kandidat mereka. Ini adalah mekanisme proof-of-work. Jika penambang berhasil menemukan hash yang valid, maka kandidat blok tersebut akan menjadi blok yang valid dan disiarkan ke jaringan untuk ditambahkan ke dalam blockchain.

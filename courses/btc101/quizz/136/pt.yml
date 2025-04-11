@@ -1,9 +1,9 @@
-question: Como a rede Bitcoin garante que é muito custoso agir de forma maliciosa dentro do protocolo Bitcoin?
+question: Como a rede Bitcoin garante que seja muito custoso agir de maneira maliciosa dentro do protocolo Bitcoin?
 answer: Através de regras de protocolo e incentivos econômicos.
 wrong_answers:
-  - Através de regulamentação e supervisão rigorosas.
-  - Através do uso de medidas avançadas de segurança.
+  - Através de regulação estrita e supervisão.
+  - Através do uso de medidas de segurança avançadas.
   - Através da ameaça de ação legal.
-explanation: |
-  A rede Bitcoin garante que é muito custoso agir de forma maliciosa dentro do protocolo Bitcoin através de regras de protocolo e incentivos econômicos. Isso elimina a necessidade de confiança em qualquer etapa da transferência de propriedade do bitcoin.
-reviewed: false
+explanation: >-
+  A rede Bitcoin garante que seja muito custoso agir de maneira maliciosa dentro do protocolo Bitcoin através de regras de protocolo e incentivos econômicos. Isso elimina a necessidade de confiança em qualquer etapa da transferência de propriedade do bitcoin.
+reviewed: true

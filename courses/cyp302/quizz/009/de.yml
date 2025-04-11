@@ -1,0 +1,9 @@
+question: Welcher Schritt ist nicht in dem Sicherheitsnachweis eines modernen kryptografischen Verfahrens enthalten?
+answer: Das Einrichten einer Benutzeroberfläche
+wrong_answers:
+  - Die Angabe von Sicherheitsdefinitionen
+  - Die mathematischen Komplexitätsannahmen
+  - Die mathematische Demonstration der Sicherheit
+explanation: |
+  Der Sicherheitsnachweis in der modernen Kryptografie konzentriert sich auf Ziele und mathematische Annahmen und schließt Aspekte wie die Benutzeroberfläche aus, die für die kryptografische Sicherheit nicht relevant ist.
+reviewed: false

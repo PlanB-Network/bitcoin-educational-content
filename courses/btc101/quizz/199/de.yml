@@ -1,9 +1,13 @@
-question: Was ist der Durchschnittskosteneffekt?
-answer: Kauf kleiner Mengen Bitcoin in regelmäßigen Abständen.
+question: Was ist Dollar Cost Averaging?
+answer: Regelmäßiger Kauf kleiner Bitcoin-Beträge in festen Intervallen.
 wrong_answers:
-  - Kauf einer großen Menge Bitcoin auf einmal.
-  - Kauf von Bitcoin nur, wenn der Preis fällt.
-  - Kauf von Bitcoin nur, wenn der Preis steigt.
+  - Auf einmal eine große Menge Bitcoin kaufen.
+  - Bitcoin nur kaufen, wenn der Preis fällt.
+  - Bitcoin nur kaufen, wenn der Preis steigt.
 explanation: |
-  Der Text erklärt, dass der Durchschnittskosteneffekt den Kauf kleiner Mengen Bitcoin in regelmäßigen Abständen beinhaltet. Diese Methode gleicht den Preis im Laufe der Zeit aus und ermöglicht kontinuierliches Wachstum des Bitcoin-Bestands.
-reviewed: false
+  Der Kursinhalt erklärt, dass die Dollar-Cost-Averaging-Technik
+  den Kauf kleiner Bitcoin-Beträge in regelmäßigen Abständen
+  umfasst. Diese Methode gleicht die Preisschwankungen über die Zeit
+  aus und gewährleistet ein kontinuierliches Wachstum der
+  Menge an besessenen Bitcoins.
+reviewed: true

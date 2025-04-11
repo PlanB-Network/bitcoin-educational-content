@@ -1,0 +1,9 @@
+question: Kun ostat Bitcoinia, mikä on yksi suositeltava tapa käsitellä sen hinnan vaihtelua?
+answer: Kerää Bitcoinia vähitellen säännöllisin väliajoin ja säilytä pitkän aikavälin näkökulma.
+wrong_answers:
+  - Yritä ennustaa lyhyen aikavälin markkinahuiput ja myy välittömästi.
+  - Ota kerralla käyttöön koko yrityksen kassavarat.
+  - Osta Bitcoinia vain päivinä, jolloin sen hinta on noussut voimakkaasti.
+explanation: |
+  Säännölliset ostot ajan mittaan (dollarikustannusten keskiarvoistaminen) auttavat tasoittamaan volatiliteettia. Pidempi aikaväli (esim. 4 vuotta) vähentää lyhytaikaisten hintavaihteluiden vaikutusta.
+reviewed: false

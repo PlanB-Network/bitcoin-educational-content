@@ -1,8 +1,8 @@
-question: Alice làm gì sau khi nhận được địa chỉ công khai của Bob?
-answer: Cô ấy tạo một địa chỉ multi-sig 2/2.
+question: Làm thế nào một trạng thái kênh mới được tạo ra sau mỗi lần chuyển tiền?
+answer: Bằng cách tạo một giao dịch cam kết mới với phân phối cập nhật
 wrong_answers:
-  - Cô ấy gửi tiền đến địa chỉ công khai của Bob.
-  - Cô ấy công bố một giao dịch lên mạng Bitcoin.
-  - Cô ấy yêu cầu chữ ký của Bob.
+  - Bằng cách đăng một giao dịch trên chuỗi sau mỗi lần chuyển tiền
+  - Bằng cách tăng tổng dung lượng của kênh
+  - Bằng cách đóng và mở lại kênh sau mỗi giao dịch
 explanation: |
-  Sau khi nhận được địa chỉ công khai của Bob, Alice sử dụng nó cùng với địa chỉ công khai của mình để tạo ra một địa chỉ multi-sig 2/2. Đây là địa chỉ mà cô ấy sẽ gửi tiền để mở kênh.
+  Mỗi giao dịch trong kênh cập nhật trạng thái của kênh với một giao dịch cam kết mới, phản ánh phân phối hiện tại của quỹ giữa hai bên tham gia.

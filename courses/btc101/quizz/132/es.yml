@@ -1,9 +1,12 @@
 question: ¿Cuál es la importancia de la distribución geográfica de los nodos de Bitcoin?
-answer: Esto hace prácticamente imposible destruir todas las copias de la cadena de bloques.
+answer: Hace que sea prácticamente imposible destruir todas las copias de la blockchain.
 wrong_answers:
   - Determina el precio de Bitcoin en diferentes regiones.
   - Afecta la velocidad de las transacciones de Bitcoin.
-  - Determina la cantidad de Bitcoins que se pueden minar en una región.
+  - Determina la cantidad de bitcoins que pueden ser minados en una región.
 explanation: |
-  La distribución geográfica de los nodos de Bitcoin hace prácticamente imposible destruir todas las copias de la cadena de bloques. Esto se debe a que los nodos están dispersos y sería difícil apoderarse de todos ellos físicamente.
-reviewed: false
+  La distribución geográfica de los nodos de Bitcoin hace que
+  sea prácticamente imposible destruir todas las copias de la
+  blockchain. Dado que los nodos están dispersos, es difícil
+  apoderarse físicamente de todos ellos.
+reviewed: true

@@ -1,12 +1,9 @@
-question: Có thể gian lận bằng cách công bố một trạng thái cũ trong một giao dịch cam kết không?
-answer: "Có"
+question: Điều gì xảy ra nếu một khoản thanh toán qua HTLC không được hoàn thành trong thời gian quy định?
+answer: Khoản thanh toán sẽ bị hủy và số tiền sẽ trở về với người gửi.
 wrong_answers:
-  - "Không"
-  - Chỉ khi họ có chìa khóa thu hồi.
-  - Chỉ khi họ tạo giao dịch với Timelock.
+  - Khoản thanh toán được giữ lại bởi nút trung gian cuối cùng
+  - Số tiền được phân phối cho tất cả các nút trên đường đi
+  - Số tiền bị chặn vĩnh viễn
 explanation: |
-  Người ta có thể gian lận bằng cách công bố một trạng thái cũ trong một giao dịch cam kết
-  vì cả hai bên tham gia đều có chữ ký trước của giao dịch chưa được công bố.
-  Tuy nhiên, các biện pháp như Timelock và chìa khóa thu hồi được đặt ra để ngăn chặn
-  điều này.
+  Nếu một HTLC hết hạn mà không có việc tiết lộ bí mật, khoản thanh toán sẽ bị hủy và số tiền sẽ trở về với người gửi, như vậy ngăn chặn bất kỳ nút trung gian nào giữ số tiền.
 reviewed: false

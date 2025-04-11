@@ -1,9 +1,14 @@
-question: Khái niệm "skin in the game" trong ngữ cảnh của ngành công nghiệp trò chơi điện tử là gì?
-answer: Có lợi ích tài chính trong kết quả của một trò chơi
+question: Khái niệm skin in the game trong ngành công nghiệp trò chơi điện tử là gì?
+answer: Có một phần vốn đầu tư vào kết quả của một trò chơi.
 wrong_answers:
-  - Đầu tư vào việc phát triển một trò chơi
-  - Mua các vật phẩm trong trò chơi bằng tiền thật
-  - Bán skin trò chơi đổi lấy tiền thật
-explanation: >-
-  Khái niệm "skin in the game" là một ý tưởng đã gần đây trở nên phổ biến trong ngành công nghiệp trò chơi điện tử. Cơ bản, nó liên quan đến việc có lợi ích tài chính trong kết quả của một trò chơi.
-reviewed: false
+  - Tùy chỉnh nhân vật với các skin độc đáo giúp tăng cường trải nghiệm chơi game.
+  - Mua vật phẩm trong trò chơi bằng tiền thật.
+  - Bán skin trong trò chơi để đổi lấy tiền thật.
+explanation: |
+  Khái niệm skin in the game là một ý tưởng đã
+  gần đây trở nên phổ biến trong ngành công nghiệp trò chơi điện tử. Nó
+  cơ bản đề cập đến ý tưởng rằng các nhà phát triển và
+  các bên liên quan có một khoản đầu tư cá nhân hoặc một phần vốn đầu tư vào
+  sự thành công của một trò chơi, điều này làm cho lợi ích của họ trùng khớp với
+  việc cung cấp một sản phẩm chất lượng.
+reviewed: true

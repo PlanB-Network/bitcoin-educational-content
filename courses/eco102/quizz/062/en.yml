@@ -1,0 +1,9 @@
+question: According to Laffer, what happens to tax revenues when tax rates are excessively increased?
+answer: They decrease
+wrong_answers:
+  - They increase
+  - They remain stable
+  - They fluctuate unpredictably
+explanation: |
+  According to the Laffer curve, an excessive increase in tax rates leads to a decrease in tax revenues because it discourages work, investment, and production.
+reviewed: false

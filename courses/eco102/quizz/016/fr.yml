@@ -1,0 +1,9 @@
+question: Quel est, selon Tracy, le moteur de la société ?
+answer: Le commerce
+wrong_answers:
+  - La famille
+  - La politique
+  - L'éducation
+explanation: |
+  Pour Destutt de Tracy, le commerce est la force civilisatrice et pacificatrice, servant de moteur à la société.
+reviewed: false

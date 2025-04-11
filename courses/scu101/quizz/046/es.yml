@@ -1,9 +1,9 @@
-question: ¿Cuál es la principal desventaja de usar un gestor de contraseñas autohospedado?
-answer: Requiere más conocimientos técnicos para usarlo.
+question: ¿Cuál es la principal desventaja de usar un gestor de contraseñas autoalojado?
+answer: Requiere más conocimientos técnicos para su uso.
 wrong_answers:
   - Es más caro que los servicios de terceros.
-  - No ofrece tantas funciones como los servicios de terceros.
+  - No ofrece tantas características como los servicios de terceros.
   - No es tan seguro como los servicios de terceros.
 explanation: |
-  Un gestor de contraseñas autohospedado requiere más conocimientos técnicos para su uso, ya que necesitas configurar y gestionar tu propio servidor. Sin embargo, puede ofrecer más control y seguridad.
-reviewed: false
+  Un gestor de contraseñas autoalojado requiere de más conocimientos técnicos para su uso, ya que necesitas configurar y gestionar tu propio servidor. Sin embargo, puede ofrecer más control y seguridad.
+reviewed: true

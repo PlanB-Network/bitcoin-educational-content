@@ -1,0 +1,9 @@
+question: Những mẫu đầu ra kịch bản chuẩn nào được phần mềm nhận diện vào tháng 9 năm 2010?
+answer: Nhận bằng một khóa công khai (P2PK) và nhận bằng một địa chỉ (P2PKH)
+wrong_answers:
+  - Nhận bằng một địa chỉ (P2PKH) và nhận bằng một kịch bản chữ ký đa chữ ký (P2MS)
+  - Nhận bằng một địa chỉ (P2PKH) và nhận bằng một kịch bản (P2SH)
+  - Nhận bằng một khóa công khai (P2PK) và nhận bằng một kịch bản (P2SH)
+explanation: |
+  Đây là hai loại được sử dụng kể từ khi Bitcoin bắt đầu. Loại P2MS được chấp nhận là chuẩn vào tháng 3 năm 2012. Loại P2SH được thêm vào giao thức vào tháng 4 năm 2012.
+reviewed: false

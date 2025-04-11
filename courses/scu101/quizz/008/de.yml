@@ -1,9 +1,13 @@
 question: Was ist das TOR-Netzwerk?
-answer: Ein Netzwerk, das Anonymität bietet, indem es die IP-Adresse des Benutzers maskiert und den Zugriff auf das Darknet ermöglicht.
+answer: Ein Netzwerk, das Anonymität bietet, indem es die IP-Adresse des Benutzers verbirgt und den Zugang zum Darknet ermöglicht.
 wrong_answers:
-  - Ein Netzwerk, das Ihr Gerät vor Viren und anderer schädlicher Software schützt.
-  - Ein Netzwerk, das Ihre Online-Aktivitäten vor Ihrem Internetdienstanbieter verbirgt.
-  - Ein Netzwerk, das es Ihnen ermöglicht, schneller im Internet zu surfen.
+  - Ein Netzwerk, das Ihr Gerät vor Viren und anderer bösartiger Software schützt.
+  - Ein Netzwerk, das Ihre Online-Aktivitäten vor Ihrem Internetanbieter verbirgt.
+  - Ein Netzwerk, das Ihnen ermöglicht, schneller im Internet zu surfen.
 explanation: |
-  Das TOR (The Onion Router) Netzwerk ist ein Netzwerk, das Anonymität bietet, indem es die IP-Adresse des Benutzers maskiert und den Zugriff auf das Darknet ermöglicht. Es wird von Journalisten, Freiheitsaktivisten und anderen Personen verwendet, die der Zensur in autoritären Ländern entkommen möchten.
-reviewed: false
+  Das TOR (The Onion Router) Netzwerk ist ein Netzwerk, das
+  Anonymität bietet, indem es die IP-Adresse des Benutzers
+  verbirgt und den Zugang zum Darknet ermöglicht. Es wird von
+  Journalisten, Freiheitsaktivisten und anderen verwendet, die
+  der Zensur in autoritären Ländern entkommen möchten.
+reviewed: true

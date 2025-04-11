@@ -1,0 +1,5 @@
+---
+term: ANKURDATUD VÄLJUNDID
+
+---
+Ettepanek, mille eesmärk on parandada tehingutasude haldamist Lightning-kanalites. Iga Lightning-kanali oleku muutmise korral loovad ja allkirjastavad sidusrühmad uue kulukohustustehingu, mis kajastab vahendite uut jaotust kanalis. Selle mehhanismi probleem seisneb tehingutasude kindlaksmääramises selle loomise ajal. Bitcoini võrgus kehtivad tehingutasud tõepoolest märkimisväärsetele kõikumistele, nii üles- kui ka allapoole. Kui viimase kohustustehingu jaoks määratud tasud on kanali ühepoolse sulgemise ajal ebapiisavad, ei võta mitte ainult tehingu kinnitamine märkimisväärselt kaua aega, vaid ka ajalised lukustusmehhanismid (timelockid) võivad võimaldada rahaliste vahendite vargust. Ankurväljundid reserveerivad väikese osa kulukohustustehingu vahenditest tulevaste tasude katmiseks. Võrgu ülekoormuse ja kasvavate tasude korral võimaldavad ankurväljundid muuta tehingutasusid pärast kohustustehingu loomist, tagades seega Lightning-kanali piisavalt kiire sulgemise.

@@ -1,0 +1,9 @@
+question: Jaké nemoci byl diagnostikován cypherpunk Hal Finney v srpnu 2009, několik měsíců po objevení Bitcoinu?
+answer: Lou Gehrigova nemoc
+wrong_answers:
+  - Huntingtonova choroba
+  - Alzheimerova choroba
+  - Parkinsonova choroba
+explanation: |
+  Tato nemoc, známá v anglicky mluvících zemích jako amyotrofická laterální skleróza (ALS), byla [diagnostikována](https: //www.lesswrong.com/posts/bshZiaLefDejvPKuS/dying-outside) v srpnu 2009. Zemřel na tuto nemoc v roce 2014.
+reviewed: false

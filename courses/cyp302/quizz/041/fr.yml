@@ -1,0 +1,9 @@
+question: Dans un groupe, comment est nommé l'élément unique qui, appliqué à un autre élément, ne le modifie pas ?
+answer: L'élément d'identité
+wrong_answers:
+  - L'élément inversé
+  - L'élément commutatif
+  - L'élément associatif
+explanation: |
+  L'élément d'identité d'un groupe est l'élément unique qui, appliqué à un autre élément, le laisse inchangé. Par exemple, dans le groupe des entiers sous l'addition, l'élément d'identité est 0.
+reviewed: false

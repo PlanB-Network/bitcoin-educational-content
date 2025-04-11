@@ -1,9 +1,0 @@
-question: Usar um endereço Bitcoin não economiza espaço nos blocos.
-answer: Não
-wrong_answers:
-  - Sim
-  - Apenas se o endereço estiver comprimido
-  - Apenas se o endereço estiver hashado
-explanation: |
-  Usar um endereço Bitcoin não economiza espaço nos blocos. A principal razão para usar um endereço é reduzir o tamanho das informações da chave pública.
-reviewed: false

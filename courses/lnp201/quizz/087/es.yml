@@ -1,9 +1,0 @@
-question: ¿Cuál es el objetivo de los nodos de enrutamiento en términos de liquidez en la Red Lightning?
-answer: Mantener un equilibrio de liquidez en ambos lados
-wrong_answers:
-  - Abrir canales
-  - Conectarse a otros nodos
-  - Comprar canales
-explanation: |
-  Para los nodos de enrutamiento en la Red Lightning, el objetivo en términos de liquidez es mantener un equilibrio de liquidez en ambos lados. También buscan tener una buena conexión con muchos nodos para poder ser utilizados tanto como sea posible.
-reviewed: false

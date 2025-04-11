@@ -1,11 +1,12 @@
 question: What is the purpose of transaction fees in Bitcoin transactions?
-answer: They are an incentive for miners to include the transaction in the next block.
+answer: They are an incentive for miners to include the transaction in the following block.
 wrong_answers:
   - They are a tax imposed by the government.
   - They are a fee charged by the Bitcoin network for using its services.
   - They are a fee charged by the wallet provider.
 explanation: |
-  Transaction fees in Bitcoin transactions serve as an incentive for miners
-  to include the transaction in the next block. The fees create a free market for
-  including transactions in blocks.
+  Transaction fees in Bitcoin transactions serve as an
+  incentive for miners to include the transaction in the next
+  block. The fees create a free market for including
+  transactions in blocks.
 reviewed: true

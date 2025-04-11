@@ -1,0 +1,9 @@
+question: Quel type de chiffrement symétrique est principalement utilisé pour les communications continues, comme les flux audio ou vidéo ?
+answer: Le chiffrement par flux
+wrong_answers:
+  - Le chiffrement par bloc
+  - Le code de vérification
+  - Le hachage de message
+explanation: |
+  Le chiffrement par flux est particulièrement adapté aux communications continues car il chiffre les données en continu, contrairement au chiffrement par bloc qui les divise en blocs.
+reviewed: false

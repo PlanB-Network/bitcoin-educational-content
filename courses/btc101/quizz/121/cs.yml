@@ -1,9 +1,9 @@
-question: Jaká je online dostupnost Bitcoinu?
-answer: 99,988%
+question: Jaké procento času byla síť Bitcoin funkční od svého vzniku?
+answer: 99,988 %.
 wrong_answers:
-  - 100%
-  - 90,009%
-  - 80,17%
+  - 100 %.
+  - 90,009 %.
+  - 80,17 %.
 explanation: |
-  Online dostupnost Bitcoinu je 99,988% od roku 2009.
-reviewed: false
+  Online dostupnost Bitcoinu je 99,988 % od roku 2009.
+reviewed: true

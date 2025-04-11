@@ -1,0 +1,8 @@
+question: Block cipher trong mật mã học là gì?
+answer: Một thuật toán biến đổi một chuỗi ký tự cố định thành một chuỗi khác có cùng độ dài
+wrong_answers:
+  - Một mã hóa không đối xứng dựa trên khóa công khai và khóa bí mật riêng
+  - Một hệ thống mã hóa dữ liệu có độ dài biến đổi bằng luồng
+  - Một mã hóa không yêu cầu khóa bí mật
+explanation: |
+  Block cipher là một thuật toán áp dụng một biến đổi trên một chuỗi bit cố định với một khóa để tạo ra một chuỗi khác có cùng độ dài.

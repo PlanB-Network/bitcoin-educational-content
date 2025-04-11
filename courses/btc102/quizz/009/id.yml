@@ -1,0 +1,12 @@
+question: Apa fungsi utama dari pengelola kata sandi?
+answer: Untuk menyimpan dan mengelola kata sandi Anda
+wrong_answers:
+  - Untuk menghasilkan kata sandi acak
+  - Untuk mengingat nama pengguna Anda
+  - Untuk melindungi komputer Anda dari virus
+explanation: |
+  Pengelola kata sandi adalah perangkat lunak yang menyimpan dan mengelola kata sandi Anda.
+
+  Ini membantu Anda untuk tidak pernah menggunakan kata sandi yang sama dua kali, memilih kata sandi yang kompleks dan aman,
+
+  dan memfasilitasi pengelolaan keamanan online Anda.

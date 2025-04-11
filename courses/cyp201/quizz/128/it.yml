@@ -1,9 +1,0 @@
-question: Cosa indica il prefisso 0,3 in una chiave pubblica Bitcoin?
-answer: Indica un valore dispari di y.
-wrong_answers:
-  - Indica un valore pari di y.
-  - Indica la versione della chiave pubblica.
-  - Indica la dimensione della chiave pubblica.
-explanation: |
-  Nell'esempio della chiave pubblica appartenente a Satoshi Nakamoto, un prefisso 0,3 indica un valore dispari di y. Questo fa parte del processo di compressione di una chiave pubblica in Bitcoin.
-reviewed: false

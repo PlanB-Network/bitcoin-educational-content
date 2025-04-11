@@ -1,9 +1,11 @@
-question: ¿Cuál es una de las soluciones alternativas recomendadas al papel para almacenar tu frase mnemotécnica?
-answer: Grabarla en una placa de metal
+question: ¿Cuál es una alternativa recomendada para almacenar tu frase mnemotécnica en lugar de usar papel?
+answer: Grabarla en una placa de metal.
 wrong_answers:
-  - Almacenarla en un archivo digital
-  - Escribirla en una pizarra
-  - Guardarla como un contacto en tu teléfono
+  - Almacenarla en un archivo digital.
+  - Escribirla en una pizarra blanca.
+  - Guardarla como un contacto en tu teléfono.
 explanation: |
-  Una de las soluciones alternativas al papel para almacenar tu frase mnemotécnica es grabarla en una placa de metal. Esto puede proporcionar una solución más duradera y de larga duración.
-reviewed: false
+  Una de las alternativas recomendadas al papel para almacenar
+  tu frase mnemotécnica es grabarla en una placa de metal. Esta
+  solución es más duradera y perdurable.
+reviewed: true

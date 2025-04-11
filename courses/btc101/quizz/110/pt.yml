@@ -1,9 +1,11 @@
 question: O que é um Blockmit no contexto da segurança do Bitcoin?
-answer: Uma solução de baixo custo para gravar sua frase mnemônica em aço.
+answer: Uma solução de baixo custo para gravar sua frase mnemônica em um pedaço de aço.
 wrong_answers:
   - Um tipo de carteira Bitcoin para assinar várias transações de uma vez.
   - Uma solução de baixo custo para minerar bitcoins em casa.
-  - Um tipo de carteira Bitcoin que requer múltiplas assinaturas para gastar os bitcoins.
+  - Um tipo de carteira Bitcoin que requer múltiplas assinaturas para gastar UTXOs.
 explanation: |
-  O Blockmit é uma solução de baixo custo para gravar sua frase mnemônica em um material resistente como aço, garantindo assim a segurança de seus bitcoins a longo prazo.
-reviewed: false
+  O Blockmit é uma solução de baixo custo para gravar sua
+  frase mnemônica em um material resistente como o aço, assim
+  garantindo a segurança dos seus bitcoins a longo prazo.
+reviewed: true

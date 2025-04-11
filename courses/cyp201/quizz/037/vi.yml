@@ -1,10 +1,8 @@
-question: Thuật toán nào được Bitcoin sử dụng để liên kết khóa riêng và khóa công khai?
-answer: Elliptic Curve Digital Signature Algorithm (ECDSA)
+question: Hạn chế chính của ví JBOK là gì?
+answer: Chúng yêu cầu phải sao lưu độc lập cho từng khóa riêng tư
 wrong_answers:
-  - Advanced Encryption Standard (AES)
-  - Rivest-Shamir-Adleman (RSA)
-  - Secure Hash Algorithm 2 (SHA-2)
+  - Chúng không cho phép tạo mới địa chỉ
+  - Chúng không tương thích với chữ ký số
+  - Chúng sử dụng khóa công khai không nén
 explanation: |
-  Bitcoin sử dụng Elliptic Curve Digital Signature Algorithm (ECDSA)
-  để liên kết khóa riêng và khóa công khai.
-reviewed: false
+  Ví JBOK buộc người dùng phải sao lưu từng khóa riêng tư một cách riêng biệt, làm phức tạp việc quản lý chúng.

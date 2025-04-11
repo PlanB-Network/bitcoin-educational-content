@@ -1,11 +1,9 @@
 question: Rủi ro khi chia sẻ khóa công khai của ví Bitcoin là gì?
-answer: Rủi ro đối với quyền riêng tư
+answer: Mất quyền riêng tư.
 wrong_answers:
-  - Rủi ro phá hủy ví Bitcoin
-  - Rủi ro mất Bitcoin
-  - Rủi ro bị hack ví Bitcoin
+  - Phá hủy ví Bitcoin.
+  - Mất Bitcoin.
+  - Hack ví Bitcoin.
 explanation: |
-  Việc chia sẻ khóa công khai liên quan đến rủi ro đối với quyền riêng tư, nhưng không phải là an ninh.
-  Điều này là bởi vì khóa công khai được sử dụng để tạo ra địa chỉ Bitcoin và do đó nhận
-  tiền, nhưng nó không đại diện cho quyền sở hữu Bitcoin.
-reviewed: false
+  Việc chia sẻ khóa công khai mang lại rủi ro về quyền riêng tư, nhưng không phải về an ninh. Điều này là bởi vì khóa công khai được sử dụng để tạo ra địa chỉ Bitcoin và do đó nhận tiền, nhưng nó không đại diện cho quyền sở hữu Bitcoin.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Dlaczego UTXO są często porównywane do banknotów?
+answer: Muszą one zostać wydane w całości
+wrong_answers:
+  - Mogą być używane wielokrotnie, aż do ich wyczerpania
+  - Można ich używać tylko w określonych transakcjach
+  - Reprezentują one niewielkie, stałe ilości bitcoinów
+explanation: |
+  Podobnie jak banknot, UTXO musi zostać wydany w całości w transakcji, a nadwyżka jest zwracana nadawcy jako reszta.
+reviewed: false

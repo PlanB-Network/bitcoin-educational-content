@@ -1,9 +1,0 @@
-question: Mitä kauppiaiden on hallittava likviditeettiä Lightning Networkissa?
-answer: He tarvitsevat saapuvaa likviditeettiä muilta solmuilta ja toimijoilta
-wrong_answers:
-  - Heidän on avattava kanavia
-  - Heidän on ylläpidettävä likviditeetin tasapainoa molemmilla puolilla
-  - Heidän on ostettava kanavia
-explanation: |
-  Kauppiaiden osalta Lightning Networkissa likviditeetin hallinta tarkoittaa saapuvan likviditeetin tarvetta muilta solmuilta ja toimijoilta. Tämä tarkoittaa, että heillä täytyy olla yhteyksiä muihin ihmisiin.
-reviewed: false

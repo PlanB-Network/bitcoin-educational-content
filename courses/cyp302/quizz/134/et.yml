@@ -1,0 +1,9 @@
+question: Mis on asümmeetrilise krüptograafia peamine eesmärk Alice'i ja Bobi vahelises suhtluses?
+answer: Võimaldada Bobil saata Alice'ile salajane sõnum, kasutades tema avalikku võtit
+wrong_answers:
+  - Võimaldada Bobil krüpteerida ja dekrüpteerida sõnumeid ilma avaliku võtmeta
+  - Takistada Alice'il Bobi sõnumite dekrüpteerimist
+  - Võimaldada Alice'il krüpteerida sõnum, et kontrollida selle terviklikkust
+explanation: |
+  Asümmeetrilises krüptograafias võimaldab Alice'i avalik võti Bobil saata krüpteeritud sõnumi, mida ainult tema saab dekrüpteerida, tagades seeläbi sõnumi konfidentsiaalsuse.
+reviewed: false

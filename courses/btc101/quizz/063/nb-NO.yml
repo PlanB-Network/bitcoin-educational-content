@@ -1,0 +1,11 @@
+question: Hva er det matematiske konseptet som er avhengig av menneskelig rasjonalitet og som brukes i Bitcoin?
+answer: Spillteori
+wrong_answers:
+  - Sannsynlighetsteori
+  - Tallteori
+  - Mengdelære
+explanation: |
+  Spillteori er et matematisk konsept som er avhengig av menneskelig rasjonalitet.
+  I Bitcoin er det brukerne som håndhever protokollendringer, noe som gjør enhver modifikasjon
+  av Bitcoin-protokollen svært kompleks.
+reviewed: true

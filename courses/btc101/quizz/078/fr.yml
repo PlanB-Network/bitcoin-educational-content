@@ -1,11 +1,9 @@
-question: Laquelle de ces options est fausse lorsque vous perdez l'appareil sur lequel vous avez votre portefeuille Bitcoin ?
-answer: Vous pouvez recréer votre portefeuille et dépenser vos bitcoins en réinitialisant votre mot de passe
+question: Laquelle de ces options est fausse concernant la perte de l'appareil sur lequel se trouve votre portefeuille Bitcoin ?
+answer: Vous pouvez recréer votre portefeuille et dépenser vos bitcoins en réinitialisant votre mot de passe.
 wrong_answers:
-  - Vous perdez tous vos Bitcoins si vous n'avez pas la phrase mnémonique
-  - Vous pouvez vérifier avec vos clés publiques que vos bitcoins n'ont pas encore été déplacés
-  - Vous pouvez recréer votre portefeuille et dépenser vos bitcoins avec la phrase mnémonique
+  - Vous perdez tous vos Bitcoins si vous n'avez pas la phrase mnémonique.
+  - Vous pouvez vérifier avec vos clés publiques que vos bitcoins n'ont pas été dépensés.
+  - Vous pouvez recréer votre portefeuille et dépenser vos bitcoins en utilisant la phrase mnémonique.
 explanation: |
-  Perdre l'appareil sur lequel vous avez votre portefeuille ne signifie pas nécessairement
-  la perte de vos Bitcoins. Ce qui vous permet de recréer votre portefeuille et de dépenser
-  vos bitcoins est la phrase mnémonique.
+  Perdre l'appareil sur lequel se trouve votre portefeuille ne signifie pas nécessairement la perte de vos Bitcoins. Ce qui vous permet de recréer votre portefeuille et de dépenser vos bitcoins est la phrase mnémonique.
 reviewed: true

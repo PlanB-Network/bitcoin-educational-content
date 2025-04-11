@@ -1,9 +1,13 @@
 question: Chức năng chính của VPN trong môi trường chuyên nghiệp là gì?
-answer: Nó cho phép nhân viên truy cập mạng nội bộ của công ty một cách an toàn từ xa.
+answer: Nó cho phép nhân viên truy cập an toàn vào mạng nội bộ của công ty từ xa.
 wrong_answers:
-  - Nó cho phép nhân viên vượt qua các hạn chế địa lý.
-  - Nó cho phép nhân viên chặn quảng cáo trực tuyến.
-  - Nó cho phép nhân viên sử dụng Wi-Fi công cộng một cách an toàn.
+  - Nó cho phép nhân viên an toàn vượt qua các hạn chế địa lý.
+  - Nó cho phép nhân viên hoàn toàn chặn quảng cáo trực tuyến.
+  - Nó cho phép nhân viên sử dụng mạng Wi-Fi công cộng một cách an toàn.
 explanation: |
-  Trong môi trường chuyên nghiệp, VPN chủ yếu được sử dụng để cung cấp khả năng truy cập từ xa an toàn vào mạng nội bộ của công ty. Điều này được thực hiện thông qua việc mã hóa dữ liệu trao đổi giữa nhân viên và mạng của công ty, làm cho việc can thiệp từ bên thứ ba trở nên khó khăn.
-reviewed: false
+  Trong môi trường chuyên nghiệp, VPN chủ yếu được sử dụng để
+  cung cấp khả năng truy cập từ xa an toàn vào mạng nội bộ của công ty.
+  Điều này được thực hiện bằng cách mã hóa dữ liệu trao đổi
+  giữa nhân viên và mạng của công ty, làm cho việc
+  can thiệp bởi bên thứ ba trở nên khó khăn.
+reviewed: true

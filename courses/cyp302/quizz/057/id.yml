@@ -1,0 +1,8 @@
+question: Apa itu grup abelian?
+answer: Sebuah grup di mana operasinya bersifat komutatif
+wrong_answers:
+  - Sebuah grup yang memiliki generator unik
+  - Sebuah grup yang terbatas pada angka bulat
+  - Sebuah grup tanpa elemen netral
+explanation: |
+  Sebuah grup abelian adalah grup di mana urutan elemen dalam operasi tidak mempengaruhi hasilnya, yang berarti ia mengikuti sifat komutatif.

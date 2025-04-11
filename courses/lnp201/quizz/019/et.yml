@@ -1,0 +1,8 @@
+question: Mida tagab pühendumustehingu süsteem Lightning kanali osalejatele?
+answer: Igaüks saab oma vahendid taastada, avaldades viimati allkirjastatud tehingu
+wrong_answers:
+  - Et tehingud on nähtavad Bitcoin'i plokiahelas
+  - Et kanali maht suureneb iga tehinguga
+  - Et tasud jagatakse kahe osaleja vahel
+explanation: |
+  Allkirjastatud pühendumustehingud tagavad, et iga osaleja saab oma vahendid taastada, avaldades viimase versiooni juhul, kui kanal suletakse.

@@ -1,0 +1,9 @@
+question: Jaký byl dopad problémů s distribucí a správou klíčů před 70. lety?
+answer: Omezovaly bezpečnost a efektivitu komunikace na velké škále
+wrong_answers:
+  - Zabraňovaly přenosu šifrovaných zpráv na veřejných sítích
+  - Vyžadovaly veřejné klíče pro každou zprávu
+  - Nařizovaly použití homomorfní kryptografie
+explanation: |
+  Před 70. lety problémy s distribucí a správou klíčů ztěžovaly zabezpečení komunikace na velké škále, čímž bránily rozvoji moderních aplikací, jako je online nakupování.
+reviewed: false

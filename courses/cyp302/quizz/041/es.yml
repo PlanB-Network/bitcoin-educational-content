@@ -1,0 +1,9 @@
+question: En un grupo, ¿cómo se llama al elemento único que, al aplicarse a otro elemento, no lo cambia?
+answer: El elemento identidad
+wrong_answers:
+  - El elemento inverso
+  - El elemento conmutativo
+  - El elemento asociativo
+explanation: |
+  El elemento identidad de un grupo es el elemento único que, al aplicarse a otro elemento, lo deja sin cambio. Por ejemplo, en el grupo de los enteros bajo la suma, el elemento identidad es 0.
+reviewed: false

@@ -1,9 +1,9 @@
-question: Quelle est la taille de la blockchain Bitcoin ?
-answer: Environ 500 Go
+question: Quelle est la taille actuelle de la blockchain Bitcoin ?
+answer: Environ 500Go.
 wrong_answers:
-  - Environ 100 Go
-  - Environ 1 To
-  - Environ 2 To
+  - Environ 100Go.
+  - Environ 1To.
+  - Environ 2To.
 explanation: |
-  La blockchain Bitcoin a une taille d'environ 500 Go.
-reviewed: false
+  La blockchain Bitcoin est d'environ 500Go en 2023.
+reviewed: true

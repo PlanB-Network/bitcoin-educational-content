@@ -1,0 +1,9 @@
+question: Millainen rooli LSP:llä on Enterprise Bitcoin -maksuissa?
+answer: Suurten tapahtumamäärien hallinta Lightningilla
+wrong_answers:
+  - Tallenna Lightning-lompakon yksityiset avaimet
+  - Tulosta Lightning-laskut
+  - Käsittele palautukset manuaalisesti Lightningissa
+explanation: |
+  LSP:t käsittelevät monimutkaisia ja suuria määriä Lightning-operaatioita.
+reviewed: false

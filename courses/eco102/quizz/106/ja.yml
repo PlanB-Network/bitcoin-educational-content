@@ -1,0 +1,9 @@
+question: 人気のある経済学の作品で、Henri HazlittはBastiatの壊れた窓の例を再訪していますか？
+answer: 経済学入門
+wrong_answers:
+  - 経済学の49の教訓
+  - フリークノミクス
+  - 経済学の技法
+explanation: |
+  Henri Hazlittは「経済学入門」で、壊れた窓の例を使って、経済政策の隠された結果を説明しています。
+reviewed: false

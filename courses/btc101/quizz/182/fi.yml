@@ -1,8 +1,9 @@
-question: Mikä on yksi syy siihen, miksi Bitcoinin käyttö laajeni pimeän verkon markkinapaikoille, kuten Silk Road?
+question: Mitkä seuraavista ominaisuuksista edesauttoivat Bitcoinin käytön laajentumista pimeän verkon markkinapaikoilla, kuten Silk Road?
 answer: Sen hallitsemattomuus ja pseudonyymisyys.
 wrong_answers:
   - Sen keskitetty hallinta.
-  - Sen jäljitettävyys.
-  - Sen pseudonyymisyyden puute.
+  - Sen jäljitettävyys ja hallittavuus.
+  - Sen puute pseudonyymisyydessä.
 explanation: >-
   Bitcoinin käyttö laajeni pimeän verkon markkinapaikoille, kuten Silk Road, sen hallitsemattoman ja pseudonyymisen luonteen vuoksi.
+reviewed: true

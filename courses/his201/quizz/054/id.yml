@@ -1,0 +1,8 @@
+question: Pengembang Amerika mana yang menemukan blok aneh selama insiden overflow nilai pada 15 Agustus 2010?
+answer: Jeff Garzik
+wrong_answers:
+  - Gavin Andresen
+  - Nils Schneider
+  - Christian Decker
+explanation: |
+  Blok ini, dengan memanfaatkan sebuah celah, menciptakan lebih dari 184 miliar bitcoin.

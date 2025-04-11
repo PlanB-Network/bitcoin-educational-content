@@ -1,10 +1,8 @@
-question: Lightning Network là gì?
-answer: Một cơ sở hạ tầng thanh toán tầng thứ hai được xây dựng trên mạng Bitcoin, cho phép thực hiện giao dịch nhanh chóng và tiết kiệm chi phí
+question: Mạng Lưới Lightning cho phép gì so với các giao dịch truyền thống trên blockchain Bitcoin?
+answer: Giao dịch nhanh chóng với phí tối thiểu
 wrong_answers:
-  - Một loại ví Bitcoin
-  - Một phương pháp đào Bitcoin
-  - Một loại sàn giao dịch Bitcoin
+  - Giao dịch ẩn danh và không thể truy vết
+  - Giao dịch với số lượng lớn mà không giới hạn về khối lượng
+  - Giao dịch giữa các blockchain khác nhau
 explanation: |
-  Lightning Network là một cơ sở hạ tầng thanh toán tầng thứ hai được xây dựng
-  trên mạng Bitcoin, cho phép thực hiện giao dịch nhanh chóng và tiết kiệm chi phí.
-reviewed: false
+  Mạng Lưới Lightning cho phép thực hiện giao dịch nhanh chóng và với chi phí thấp thông qua các kênh thanh toán ngoại tuyến, điều này khác biệt so với các giao dịch thông thường trên blockchain.

@@ -9,7 +9,8 @@ _We are closely following the developments of this case as well as developments 
 
 _This tutorial is provided for educational and informational purposes only. We do not endorse or encourage the use of these tools for criminal purposes. It is the responsibility of each user to comply with the laws in their jurisdiction._
 
-_This tutorial is dedicated to the installation of RoninDojo v1. To take advantage of the latest improvements and features, I strongly recommend consulting our tutorial dedicated to the direct installation of RoninDojo v2 on your Raspberry Pi:_ [https://planb.network/tutorials/node/ronin-dojo-v2](https://planb.network/tutorials/node/ronin-dojo-v2)
+_This tutorial is dedicated to the installation of RoninDojo v1. To take advantage of the latest improvements and features, I strongly recommend consulting our tutorial dedicated to the direct installation of RoninDojo v2 on your Raspberry Pi:_
+https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
 
 ---
 
@@ -110,8 +111,9 @@ Once you have found the IP, you can take control of your machine from another co
 From a computer running macOS or Linux, simply open the terminal. From a computer running Windows, you can use a specialized tool like Putty or directly use Windows PowerShell.
 
 Once the terminal is open, type the following command:
-
-> ssh root@192.168.?.?
+```
+ssh root@192.168.?.?
+```
 
 Simply replace the two question marks with the IP of your previously found RoninDojo.
 Tip: In a Shell, right-click to paste an item.
@@ -143,8 +145,9 @@ Finally, verify the Manjaro configuration information and confirm.
 ### Step 3: Download RoninDojo.
 
 The initial configuration of RoninOS will be done. Once finished, as shown in the screenshot above, the machine will restart. Wait a few moments, then enter the following command to reconnect to your RoninDojo machine:
-
-> ssh username@192.168.?.?
+```
+ssh username@192.168.?.?
+```
 
 Simply replace "username" with the username you previously chose, and replace the question marks with the IP of your RoninDojo.
 
@@ -157,16 +160,18 @@ In the terminal, it will look like this:
 You are now connected to your machine, which currently only has RoninOS. Now you need to install RoninDojo on it.
 
 Download the latest version of RoninDojo by entering the following command:
-
-> git clone https://code.samourai.io/ronindojo/RoninDojo
+```
+git clone https://code.samourai.io/ronindojo/RoninDojo
+```
 
 The download will be quick. In the terminal, you will see this:
 
 ![Cloning RoninDojo](assets/11.webp)
 
 Wait for the download to finish, then install and access the RoninDojo user interface using the following command:
-
-> ~/RoninDojo/ronin
+```
+~/RoninDojo/ronin
+```
 
 You will be asked to enter your user password:
 
@@ -217,7 +222,6 @@ You can track the progress of the chain download by accessing the RoninUI web in
 To access it from a local network, type the following in your browser's address bar:
 
 - Either directly enter the IP address of your machine (192.168.?.?)
-
 - Or enter: ronindojo.local
 
 Remember to disable your VPN if you are using one.
@@ -230,29 +234,21 @@ If you are unable to connect to RoninUI from your browser, check the proper func
 
 - Enter your user password.
 
-Once on the main menu, go to:
-
-> RoninUI > Restart
+Once on the main menu, go to: **RoninUI > Restart**
 
 If the application restarts correctly, it is a problem with the connection from your browser. Check that you are not using a VPN and make sure you are connected to the same network as your node.
 
-If the restart produces an error, try updating the operating system and then reinstalling RoninUI. To update the OS:
+If the restart produces an error, try updating the operating system and then reinstalling RoninUI. To update the OS: **System > Software Updates > Update Operating System**
 
-> System > Software Updates > Update Operating System
-
-Once the update and restart are complete, reconnect to your node via SSH and reinstall RoninUI:
-
-> RoninUI > Re-install
+Once the update and restart are complete, reconnect to your node via SSH and reinstall RoninUI: **RoninUI > Re-install**
 
 After downloading RoninUI again, try connecting to RoninUI through your browser.
 
-> Tip: If you accidentally exit RoninCLI and find yourself on the Manjaro terminal, simply enter the command "ronin" to return directly to the main menu of RoninCLI.
+**Tip:** If you accidentally exit RoninCLI and find yourself on the Manjaro terminal, simply enter the command "ronin" to return directly to the main menu of RoninCLI.
 
 ### Web log in
 
-You can also log in to the RoninUI web interface from any network using Tor. To do this, retrieve the Tor address of your RoninUI from RoninCLI:
-
-> Credentials > Ronin UI
+You can also log in to the RoninUI web interface from any network using Tor. To do this, retrieve the Tor address of your RoninUI from RoninCLI: **Credentials > Ronin UI**
 
 Retrieve the Tor address ending in .onion and then log in to Ronin UI by entering this address in your Tor browser. Be careful not to leak your various credentials, as they are sensitive information.
 
@@ -282,19 +278,15 @@ The first utility of your newly installed and synchronized node will be to broad
 
 You can do this using Electrum Rust Server (electrs). The application is normally pre-installed on your RoninDojo node. If not, you can manually install it from the RoninCLI interface.
 
-Simply go to:
-
-> Applications > Manage Applications > Install Electrum Server
+Simply go to: **Applications > Manage Applications > Install Electrum Server**
 
 To obtain the Tor address of your Electrum Server, from the RoninCLI menu, go to:
-
-> Credentials > Electrs
+**Credentials > Electrs**
 
 You just have to enter the .onion link in your wallet software. For example, in Sparrow Wallet, go to the tab:
+**File > Preferences > Server**
 
-> File > Preferences > Server
-
-In the server type, select "Private Electrum", then enter the Tor address of your Electrum Server in the corresponding field. Finally, click on "Test Connection" to test and save your connection.
+In the server type, select `Private Electrum`, then enter the Tor address of your Electrum Server in the corresponding field. Finally, click on "Test Connection" to test and save your connection.
 
 ![Sparrow Wallet connection interface to an electrs](assets/23.webp)
 
@@ -324,11 +316,11 @@ To avoid these risks, you can use your own Mempool instance on your node via the
 
 To do this, start by installing Mempool Space Visualizer from RoninCLI:
 
-> Applications > Manage Applications > Install Mempool Space Visualizer
+**Applications > Manage Applications > Install Mempool Space Visualizer**
 
 Once installed, retrieve the link to your Mempool. The Tor address will allow you to access it from any network. Similarly, we retrieve this link via RoninCLI:
 
-> Credentials > Mempool
+**Credentials > Mempool**
 
 ![Retrieve Tor Mempool address](assets/26.webp)
 
@@ -356,55 +348,55 @@ To learn more about Coinjoin in general, I explain everything in this article: [
 After performing CoinJoins with Whirlpool, you may want to know the actual level of privacy of your mixed UTXOs. Whirlpool Stat Tool allows you to easily do this. With this tool, you can calculate the prospective score and the retrospective score of your mixed UTXOs. To learn more about calculating these Anon Sets and how they work, I recommend reading this section: [link](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment).
 
 The tool is pre-installed on your RoninDojo. For now, it is only available from RoninCLI. To launch it from the main menu, go to:
-
-> Samourai Toolkit > Whirlpool Stat Tool
+**Samourai Toolkit > Whirlpool Stat Tool**
 
 The instructions for use will appear. Once finished, press any key to access the command lines:
 
 ![Whirlpool Stats Tool software home](assets/28.webp)
 
-The terminal will be displayed:
-
-> wst#/tmp>
+The terminal will display:
+**wst#/tmp>**
 
 To exit this interface and return to the RoninCLI menu, simply enter the command:
-
-> quit
+```
+quit
+```
 
 To start, we will set the proxy on Tor in order to extract OXT data with complete privacy. Enter the command:
-
-> socks5 127.0.0.1:9050
+```
+socks5 127.0.0.1:9050
+```
 
 Then download the data from the pool that contains your transaction:
+```
+download 0001
+```
 
-> download 0001
->
-> Replace 0001 with the pool denomination code that interests you.
+**Note:** replace `0001` with the pool denomination code that interests you.
 
 The denomination codes are as follows on WST:
 
 - Pool 0.5 bitcoins: 05
-
 - Pool 0.05 bitcoins: 005
-
 - Pool 0.01 bitcoins: 001
-
 - Pool 0.001 bitcoins: 0001
 
 ![Downloading data from pool 0001 from OXT](assets/29.webp)
 
 Once the data is downloaded, load it with the command:
+```
+load 0001
+```
 
-> load 0001
->
-> Replace 0001 with the pool denomination code that interests you.
+**Note:** replace `0001` with the pool denomination code that interests you.
 
 ![Loading data from pool 0001](assets/30.webp)
 Let the loading process take place, it may take a few minutes. After loading the data, type the score command followed by your TXID (transaction identifier) to obtain its Anon Sets:
+```
+score TXID
+```
 
-> score TXID
->
-> Replace TXID with the identifier of your transaction.
+**Note:** replace `TXID` with the identifier of your transaction.
 
 ![Printing the prospective and retrospective scores of the given TXID](assets/31.webp)
 
@@ -419,8 +411,7 @@ Once again, if you do not understand these concepts of Anon Sets, I recommend re
 The Boltzmann calculator is a tool that allows you to easily calculate various advanced metrics on a Bitcoin transaction, including its entropy level. All this data will allow you to quantify the level of privacy of a transaction and detect any potential errors. This tool is pre-installed on your RoninDojo node.
 
 To access it from RoninCLI, connect via SSH, then go to the menu:
-
-> Samourai Toolkit > Boltzmann Calculator
+**Samourai Toolkit > Boltzmann Calculator**
 
 Before explaining how to use it on RoninDojo, I will explain what these metrics represent, how they are calculated, and what they are used for.
 
@@ -428,7 +419,9 @@ These indicators can be used for any Bitcoin transaction, but they are particula
 
 1. The first indicator calculated by this software is the number of possible combinations. It is noted on the calculator as "nb combinations". Given the values of the UTXOs, this indicator represents the number of possible mappings from inputs to outputs.
 
-> If you are not familiar with the term "UTXO", I recommend reading this short article: Mechanism of a Bitcoin transaction: UTXO, inputs, and outputs.
+**note:** if you are not familiar with the term `UTXO`, I recommend reading this short article:
+
+> Mechanism of a Bitcoin transaction: UTXO, inputs, and outputs.
 
 In other words, this indicator represents the number of possible interpretations for a given transaction. For example, a Whirlpool 5x5 Coinjoin structure will have a number of possible combinations equal to 1496:
 
@@ -441,22 +434,23 @@ Credit: KYCP
 - E: entropy of the transaction.
 - C: number of possible combinations for the transaction.
 
-> E = log2(C)
+**E = log2(C)**
 
 In mathematics, the binary logarithm (base 2) is the inverse function of the power of 2 function. In other words, the binary logarithm of x is the power to which the number 2 must be raised to obtain the value x.
 
 Thus:
 
-> E = log2(C)
-> C = 2^E
+**E = log2(C)**
+
+**C = 2^E**
 
 This indicator is expressed in bits. For example, here is the calculation of the entropy of a Whirlpool 5x5 Coinjoin transaction, with a previously mentioned number of possible combinations equal to 1496:
 
-> C = 1496
->
-> E = log2(1496)
->
-> E = 10.5469 bits
+**C = 1496**
+
+**E = log2(1496)**
+
+**E = 10.5469 bits**
 
 Therefore, this Coinjoin transaction has an entropy of 10.5469 bits, which is very good.
 
@@ -470,15 +464,13 @@ Credit: OXT
 
 This transaction has only one possible interpretation:
 
-> [(inp 0) > (Outp 0 ; Outp 1)]
+**[(inp 0) > (Outp 0 ; Outp 1)]**
 
 So its entropy will be equal to 0:
 
-> C = 1
->
-> E = log2(C)
->
-> E = 0
+**C = 1**,
+**E = log2(C)**,
+**E = 0**
 
 3. The third indicator returned by the Boltzmann calculator is the efficiency of the Tx called "Wallet Efficiency". This indicator simply allows comparing the input transaction with the best possible transaction in the same configuration.
 
@@ -488,11 +480,11 @@ We will now introduce the concept of maximum entropy, which represents the highe
 - EM: Maximum entropy with the same structure expressed in bits.
 - Ef: Efficiency expressed in bits.
 
-> Ef = ER - EM
->
-> Ef = 10.5469 - 10.5469
->
-> Ef = 0 bits
+**Ef = ER - EM**
+
+**Ef = 10.5469 - 10.5469**
+
+**Ef = 0 bits**
 
 This indicator is also expressed as a percentage, so the formula becomes:
 
@@ -500,11 +492,11 @@ This indicator is also expressed as a percentage, so the formula becomes:
 - CM: Maximum number of possible combinations with the same structure.
 - Ef: Efficiency expressed as a percentage.
 
-> Ef = CR/CM
->
-> Ef = 1496/1496
->
-> Ef = 100%
+**Ef = CR/CM**
+
+**Ef = 1496/1496**
+
+**Ef = 100%**
 
 An efficiency of 100% means that this transaction has the highest possible privacy relative to its structure.
 
@@ -557,8 +549,7 @@ However, for the second transaction studied (1 input and 2 outputs), the indicat
 Therefore, if this indicator is zero, it indicates good confidentiality.
 
 Now that we have studied the indicators, let's see how to calculate them using this software. From RoninCLI, go to the menu:
-
-> Samourai Toolkit > Boltzmann Calculator
+**Samourai Toolkit > Boltzmann Calculator**
 
 ![Boltzmann Calculator software homepage](assets/35.webp)
 
@@ -588,16 +579,13 @@ To download the Bisq software, go to their official website: https://bisq.networ
 To get started with the software, I recommend reading this page: https://bisq.network/getting-started/
 
 To retrieve the connection link from your RoninDojo, you will need to connect to RoninCLI via SSH. Then go to the menu:
-
-> Applications > Manage Applications
+**Applications > Manage Applications**
 
 Enter your password, then check the box with the space key:
-
-> [ ] Enable Bisq Connection
+**[ ] Enable Bisq Connection**
 
 Confirm your choice. Let your node install, then retrieve the Tor V3 address from:
-
-> Credentials > Bitcoind
+**Credentials > Bitcoind**
 
 Copy the address under "Bitcoin Daemon".
 
@@ -606,8 +594,7 @@ You can also retrieve your Bitcoind Tor V3 address from the RoninUI interface by
 ![Retrieve TorV3 Bitcoin Daemon address on RoninUI](assets/38.webp)
 
 To connect your node from Bisq, go to the menu:
-
-> Settings > Network Info
+**Settings > Network Info**
 
 ![Access the node connection interface from the Bisq software](assets/39.webp)
 
@@ -624,8 +611,7 @@ Your RoninDojo node also includes other basic features. You have the ability to 
 For example, it is sometimes possible that your wallet connected to your RoninDojo does not find the bitcoins that belong to you. The balance is 0 even though you are sure that you have bitcoin in this wallet. There are many possible causes to consider, including an error in the derivation paths, and among them, it is also possible that your node is not observing your addresses.
 
 To fix this, you can check that your node is tracking your xpub with the "xpub tool". To access it from RoninUI, go to the menu:
-
-> Maintenance > XPUB Tool
+**Maintenance > XPUB Tool**
 
 Enter the problematic xpub and click "Check" to verify this information.
 
@@ -678,3 +664,4 @@ To learn more about RoninDojo, I recommend checking out the links in my external
 - https://en.wikipedia.org/wiki/Boltzmann_formula
 - https://wiki.ronindojo.io/en/setup/bisq
 - https://bisq.network/
+

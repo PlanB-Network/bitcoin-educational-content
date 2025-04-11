@@ -1,0 +1,9 @@
+question: デビッド・チャームのeCashコンセプトが実装されたのは何年ですか？
+answer: 1994
+wrong_answers:
+  - 1993
+  - 1995
+  - 1996
+explanation: |
+  これは最初にサイファーパンクスによって2月に実装され、その後10月にDigiCashによる「CyberBucks」の発行を通じて試験運用されました。
+reviewed: false

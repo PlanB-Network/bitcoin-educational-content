@@ -1,0 +1,9 @@
+question: Mikä on poliittisen vapauden ja taloudellisen vapauden välinen suhde Constantin mukaan?
+answer: Kaksi vapautta ovat toisistaan riippuvaisia.
+wrong_answers:
+  - Poliittinen vapaus on välttämätön edellytys taloudelliselle vapaudele.
+  - Taloudellinen vapaus on välttämätön edellytys poliittiselle vapaudele.
+  - Kaksi vapautta ovat keskenään yhteensopimattomia.
+explanation: |
+  Benjamin Constantin mukaan poliittinen vapaus ja taloudellinen vapaus ovat läheisesti yhteydessä toisiinsa, sillä yksilön autonomia riippuu yhtä lailla kyvystä osallistua julkisiin asioihin kuin vapaudesta harjoittaa taloudellista toimintaa ilman esteitä.
+reviewed: false

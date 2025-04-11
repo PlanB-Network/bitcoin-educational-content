@@ -1,0 +1,9 @@
+question: Mis on maksimaalne kogus Bitcoini ühikuid, mis kunagi eksisteerida saab?
+answer: 21 miljonit ühikut
+wrong_answers:
+  - 25 miljonit ühikut
+  - 30 miljonit ühikut
+  - 50 miljonit ühikut
+explanation: |
+  Bitcoini arvutikood ja kõigi protokollis osalevate kasutajate konsensus määravad, et Bitcoini ühikute maksimaalne kogus, mis kunagi eksisteerida saab, on 21 miljonit.
+reviewed: true

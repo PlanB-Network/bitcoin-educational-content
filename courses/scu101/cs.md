@@ -23,12 +23,14 @@ Théo; příspěvek
 +++
 
 # Úvod
+
 <partId>534ab66c-b0e6-5757-a7dd-6ea04647edf2</partId>
 
-## Úvod do kurzu
+## Přehled kurzu
+
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
-### Cíl: Aktualizujte své bezpečnostní dovednosti!
+**Cíl: Aktualizujte své bezpečnostní dovednosti!**
 
 Vítejte všichni v tomto vzdělávacím programu věnovaném digitální bezpečnosti. Tento trénink je navržen tak, aby byl přístupný pro každého, takže předchozí znalosti informatiky nejsou vyžadovány. Naším hlavním cílem je poskytnout vám znalosti a dovednosti nezbytné pro bezpečnější a soukromější pohyb v digitálním světě.
 
@@ -44,7 +46,7 @@ Vaše digitální hygiena je zásadní ve stále více digitalizovaném světě.
 V tomto tréninku se nesnažíme udělat z vás experta, anonymního uživatele nebo někoho, kdo je nezranitelný, protože to je nemožné. Místo toho vám nabízíme několik jednoduchých a přístupných řešení pro každého, jak začít měnit vaše online návyky a znovu získat kontrolu nad vaší digitální suverenitou.
 Pokud hledáte pokročilejší dovednosti na toto téma, naše zdroje, tutoriály nebo další školení kybernetické bezpečnosti jsou zde pro vás. Mezitím zde je stručný přehled našeho programu pro následující hodiny společně.
 
-### Sekce 1: Vše, co potřebujete vědět o online prohlížení
+**Sekce 1: Vše, co potřebujete vědět o online prohlížení**
 
 - Kapitola 1 - Online prohlížení
 - Kapitola 2 - Bezpečné používání internetu
@@ -53,13 +55,13 @@ Začneme diskusí o důležitosti výběru webového prohlížeče a jeho důsle
 
 ![](assets/en/1.webp)
 
-### Sekce 2: Nejlepší postupy pro používání počítače
+**Sekce 2: Nejlepší postupy pro používání počítače**
 
 - Kapitola 3 - Používání počítače
 - Kapitola 4 - Hacking & správa záloh
-V této sekci se zaměříme na tři klíčové oblasti počítačové bezpečnosti. Nejprve prozkoumáme různé operační systémy: Mac, PC a Linux, přičemž zdůrazníme jejich specifika a silné stránky. Poté se ponoříme do metod, jak účinně chránit před pokusy o hacking a posílit bezpečnost vašich zařízení. Nakonec zdůrazníme význam pravidelné ochrany a zálohování vašich dat, aby se předešlo jakékoli ztrátě nebo ransomwaru. ![](assets/en/2.webp)
+  V této sekci se zaměříme na tři klíčové oblasti počítačové bezpečnosti. Nejprve prozkoumáme různé operační systémy: Mac, PC a Linux, přičemž zdůrazníme jejich specifika a silné stránky. Poté se ponoříme do metod, jak účinně chránit před pokusy o hacking a posílit bezpečnost vašich zařízení. Nakonec zdůrazníme význam pravidelné ochrany a zálohování vašich dat, aby se předešlo jakékoli ztrátě nebo ransomwaru. ![](assets/en/2.webp)
 
-### Sekce 3: Implementace řešení
+**Sekce 3: Implementace řešení**
 
 - Kapitola 6 - Správa e-mailů
 - Kapitola 7 - Správce hesel
@@ -69,10 +71,13 @@ V této praktické třetí sekci přejdeme k implementaci vašich konkrétních 
 
 Nejprve se podíváme, jak chránit vaši e-mailovou schránku, která je zásadní pro vaši komunikaci a často cílem hackerů. Poté vám představíme správce hesel: praktické řešení, jak už nikdy nezapomenout nebo nezaměnit vaše hesla, přičemž je udržíte v bezpečí. Nakonec probereme další bezpečnostní opatření, dvoufaktorové ověřování, které přidává další vrstvu ochrany k vašim účtům. Vše bude vysvětleno jasně a přístupně. ![](assets/en/3.webp)
 
+Připraveni posílit své digitální zabezpečení a převzít kontrolu nad svými daty? Pojďme na to!
 # Vše, co potřebujete vědět o prohlížení internetu
+
 <partId>b4b5379a-d8ef-59ae-94d3-a6e88959c149</partId>
 
 ## Prohlížení internetu
+
 <chapterId>3a935da9-fa6e-57eb-bf85-7b3ec35e6ee2</chapterId>
 
 Při prohlížení internetu je důležité vyhnout se určitým běžným chybám, abyste si zachovali online bezpečnost. Zde jsou některé tipy, jak se jim vyhnout:
@@ -96,6 +101,7 @@ Cookies jsou soubory vytvořené webovými stránkami pro ukládání informací
 
 Existují dvě hlavní rodiny prohlížečů: ty založené na Chrome a ty založené na Firefoxu.
 Ačkoliv obě rodiny prohlížečů nabízejí podobnou úroveň bezpečnosti, doporučuje se vyhnout prohlížeči Google Chrome kvůli jeho sledovačům. Lehčí alternativy k Chrome, jako jsou Chromium nebo Brave, mohou být preferovány. Brave je obzvláště doporučován pro jeho vestavěný blokátor reklam. Může být nutné používat více prohlížečů pro přístup k určitým webovým stránkám.![](assets/notext/6.webp)
+
 ### Soukromé prohlížení, TOR a další alternativy pro bezpečnější a anonymnější prohlížení
 
 Soukromé prohlížení, ačkoliv nezakrývá vaše prohlížení před poskytovatelem internetových služeb, umožňuje vám nezanechávat lokální stopy na vašem počítači. Cookies jsou automaticky smazány na konci každé relace, což vám umožňuje přijímat všechny cookies bez sledování. Soukromé prohlížení může být užitečné při nákupu online služeb, jelikož webové stránky sledují naše vyhledávací zvyklosti a přizpůsobují ceny podle nich. Je však důležité poznamenat, že soukromé prohlížení je doporučeno pro dočasné a specifické relace, nikoli pro obecné prohlížení internetu.
@@ -104,11 +110,11 @@ Pokročilejší alternativou je síť TOR (The Onion Router), která nabízí an
 
 TOR je legální a používají ho novináři, aktivisté za svobodu a další, kteří se snaží uniknout cenzuře v autoritářských zemích. Je však důležité pochopit, že TOR nezabezpečuje navštívené stránky ani samotný počítač. Navíc používání TORu může zpomalit internetové připojení, protože data procházejí přes počítače dalších tří lidí, než dosáhnou svého cíle. Je také nezbytné poznamenat, že TOR není stoprocentně spolehlivé řešení pro zajištění 100% anonymity a neměl by být používán pro nelegální aktivity.
 ![](assets/notext/7.webp)
-### BRAVE
 
-**_Návod ve výstavbě, přispět nebo jej přidat můžete prostřednictvím GitHubu_**
+https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## VPN a internetové připojení
+
 <chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
 
 ### VPN
@@ -124,6 +130,10 @@ Existují dva hlavní typy VPN: firemní VPN a spotřebitelské VPN, jako je Nor
 Používání spotřebitelského VPN nezaručuje úplnou anonymitu. Mnoho poskytovatelů VPN si uchovává informace o svých uživatelích, což může ohrozit jejich anonymitu. Ačkoliv VPN mohou být užitečné pro zlepšení online bezpečnosti, nejsou univerzálním řešením. Jsou efektivní pro určité konkrétní použití, jako je přístup k geograficky omezeným službám nebo zlepšení bezpečnosti při cestování, ale nezaručují úplnou bezpečnost. Při výběru VPN je zásadní dát přednost spolehlivosti a technickým aspektům před popularitou. Poskytovatelé VPN, kteří shromažďují nejméně osobních informací, jsou obecně nejbezpečnější. Služby jako iVPN a Mullvad neshromažďují osobní informace a dokonce umožňují platby v Bitcoinu pro zvýšení soukromí. ![](assets/notext/9.webp)
 Nakonec může být VPN také použito k blokování online reklam, což poskytuje příjemnější a bezpečnější zážitek z prohlížení. Je však důležité provést vlastní výzkum, aby se našlo VPN, které nejlépe vyhovuje vašim konkrétním potřebám. Používání VPN se doporučuje pro zvýšení bezpečnosti, i když procházíte internetem doma. To pomáhá zajistit vyšší úroveň bezpečnosti pro vyměňovaná data online. Nakonec nezapomeňte zkontrolovat URL adresy a malý zámek v adresním řádku, abyste potvrdili, že jste na webu, který máte v úmyslu navštívit.
 
+https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+
+https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+
 ### HTTPS & veřejné Wi-Fi sítě
 
 Pokud jde o online bezpečnost, je zásadní pochopit, že 4G je obecně bezpečnější než veřejné Wi-Fi. Používání 4G však může rychle vyčerpat váš mobilní datový tarif. Protokol HTTPS se stal standardem pro šifrování dat na webových stránkách. Zajišťuje, že data vyměňovaná mezi uživatelem a webem jsou bezpečná. Proto je klíčové ověřit, že navštívená stránka používá protokol HTTPS.
@@ -134,14 +144,12 @@ Pro vyhnutí se online podvodům je zásadní ověřit identitu stránky, kterou
 ![](assets/en/10.webp)
 Shrnutí, použití VPN může výrazně zlepšit online bezpečnost, jak pro firmy, tak pro jednotlivé uživatele. Navíc, dodržování dobrých návyků při prohlížení může přispět k lepší digitální hygieně. V dalším segmentu tohoto kurzu se budeme věnovat počítačové bezpečnosti, včetně aktualizací, antivirů a správy hesel.
 
-### Tutoriál: IVPN
-
-**_Tutoriál je ve výstavbě, přispět nebo jej doplnit můžete prostřednictvím GitHubu_**
-
 # Nejlepší postupy pro používání počítače
+
 <partId>e6eac20b-ba24-5d9a-8d86-8e0164074457</partId>
 
 ## Používání počítače
+
 <chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
 
 Bezpečnost našich počítačů je v dnešním digitálním světě velkým tématem. Dnes se budeme zabývat třemi klíčovými body:
@@ -176,17 +184,16 @@ Abych vám dal konkrétní příklad chyby: crackovaný software, který nelze a
 Výběr a implementace antiviru je důležitý. Windows Defender, vestavěný antivirus ve Windows, je bezpečným a účinným řešením. Pro bezplatné řešení je to mimořádně dobré a mnohem lepší než mnoho bezplatných řešení nalezených online. Skutečně je třeba být opatrný s antiviry staženými z internetu, protože mohou být zákeřné nebo zastaralé.
 Pro ty, kteří si přejí investovat do placeného antiviru, doporučuje se vybrat antivirus, který inteligentně analyzuje neznámé a vznikající hrozby, jako je například Kaspersky. Aktualizace antiviru jsou nezbytné k ochraně před novými hrozbami.
 ![](assets/notext/13.webp)
+
 > Poznámka: Linux a Mac díky svému systému oddělení práv uživatelů často nepotřebují antivirus.
 
 Nakonec zde jsou některé dobré praktiky pro zabezpečení vašeho počítače a dat. Je důležité vybrat účinný a uživatelsky přívětivý antivirus. Je také zásadní přijmout dobré praktiky na vašem počítači, jako je nevkládání neznámých nebo podezřelých USB klíčů. Tyto USB klíče mohou obsahovat škodlivé programy, které se mohou automaticky spustit po vložení. Kontrola USB klíče bude zbytečná, jakmile byl vložen. Některé společnosti byly oběťmi hackování kvůli USB klíčům nedbale ponechaným v přístupných oblastech, jako je parkoviště.
 
 Chraňte svůj počítač, jako byste chránili svůj domov: buďte ostražití, pravidelně aktualizujte, mažte nepotřebné soubory a používejte silné heslo pro zabezpečení. Je zásadní šifrovat data na laptopech a smartphonech, aby se předešlo krádeži nebo ztrátě dat. BitLocker pro Windows, LUKS pro Linux a vestavěná možnost pro Mac jsou řešeními pro šifrování dat. Je doporučeno bez váhání aktivovat šifrování dat a heslo si zapsat na papír, který bude uložen na bezpečném místě.
 Na závěr je nezbytné vybrat si operační systém, který vyhovuje vašim potřebám, a pravidelně jej aktualizovat, stejně jako nainstalované aplikace. Je také zásadní používat účinný a uživatelsky přívětivý antivirový program a dodržovat dobré bezpečnostní postupy pro ochranu vašeho počítače a dat.
-### Tutoriál: Ubuntu
-
-**_Tutoriál je ve výstavbě, přispět nebo jej doplnit můžete prostřednictvím GitHubu_**
 
 ## Hacking & Správa záloh: Ochrana vašich dat
+
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
 
 ### Jak útočí hackeři?
@@ -223,11 +230,18 @@ NE, obecně se nedoporučuje platit hackery v případě ransomwaru nebo jiných
 
 Pokud na svém počítači detekujete virus, odpojte ho od internetu, proveďte úplnou antivirovou kontrolu a smažte infikované soubory. Poté aktualizujte svůj software a operační systém a změňte svá hesla, abyste zabránili dalším narušením.
 
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+
+https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+
 # Implementace řešení.
+
 <partId>215ec902-ba05-5549-87fc-cb8d82665f7b</partId>
 
 ## Správa emailových účtů
+
 <chapterId>dfceea33-8712-5557-ace1-6ba5598d33d8</chapterId>
+
 ### Nastavení nového emailového účtu!
 
 Emailový účet je centrálním bodem vaší online aktivity: pokud je kompromitován, hacker ho může použít k resetování všech vašich hesel prostřednictvím funkce "zapomenuté heslo" a získat přístup k mnoha dalším stránkám. Proto je důležité ho řádně zabezpečit.
@@ -251,11 +265,10 @@ Je doporučeno použít web Have I Been Pwned (https://haveibeenpwned.com/) k ov
 Obecně platí, že začít používat novou, bezpečnější emailovou adresu není špatná praxe a je dokonce nutné, pokud chceme začít znovu na zdravém základě.
 Bonus Bitcoin: Může být vhodné vytvořit specifickou emailovou adresu pro naše aktivity s Bitcoinem (vytváření účtů na burzách), aby bylo možné skutečně oddělit oblasti aktivit v našem životě.
 
-### Tutoriál: Vytvoření účtu ProtonMail
-
-**_Tutoriál je ve výstavbě, přispět nebo jej doplnit můžete prostřednictvím GitHubu_**
+https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Správce hesel
+
 <chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
 
 ### Co je správce hesel?
@@ -265,16 +278,18 @@ Správce hesel je nástroj, který vám umožňuje ukládat, generovat a spravov
 Se správcem hesel se již nemusíte obávat zapomenutí vašich hesel nebo jejich zapisování někam. Stačí si pamatovat jedno hlavní heslo. Navíc většina těchto nástrojů pro vás generuje silná hesla, což zvyšuje bezpečnost vašich účtů.
 
 ### Rozdíly mezi některými populárními správci:
+
 - LastPass: Jeden z nejpopulárnějších správců hesel. Jedná se o službu třetí strany, což znamená, že vaše hesla jsou uložena na jejich serverech. Nabízí zdarma verzi i placenou verzi s uživatelsky přívětivým rozhraním.
 - Dashlane: Také služba třetí strany, s intuitivním rozhraním a dalšími funkcemi, jako je sledování informací o kreditních kartách a bezpečné poznámky.
-![](assets/notext/17.webp)
+  ![](assets/notext/17.webp)
+
 ### Samostatné hostování pro větší kontrolu:
 
 - Bitwarden: Jedná se o open-source nástroj, což znamená, že můžete zkontrolovat jeho kód, abyste ověřili jeho bezpečnost. Ačkoliv Bitwarden nabízí hostovanou službu, umožňuje také uživatelům samostatné hostování, což znamená, že můžete kontrolovat, kde jsou vaše hesla uložena, což potenciálně nabízí větší bezpečnost a kontrolu.
 
 - KeePass: Jedná se o open-source řešení, které je primárně určeno pro samostatné hostování. Vaše data jsou výchozí uložena lokálně, ale pokud si přejete, můžete synchronizovat databázi hesel různými metodami. KeePass je široce uznáván pro svou bezpečnost a flexibilitu, ačkoliv pro začátečníky může být mírně méně uživatelsky přívětivý.
-![](assets/notext/18.webp)
-(Poznámka: Výběr mezi službou třetí strany nebo samostatným hostováním závisí na vaší úrovni technologického komfortu a na tom, jak prioritizujete kontrolu oproti pohodlí. Služby třetí strany jsou obecně pohodlnější pro většinu lidí, zatímco samostatné hostování vyžaduje více technických znalostí, ale může nabídnout větší kontrolu a klid v otázkách bezpečnosti.)
+  ![](assets/notext/18.webp)
+  (Poznámka: Výběr mezi službou třetí strany nebo samostatným hostováním závisí na vaší úrovni technologického komfortu a na tom, jak prioritizujete kontrolu oproti pohodlí. Služby třetí strany jsou obecně pohodlnější pro většinu lidí, zatímco samostatné hostování vyžaduje více technických znalostí, ale může nabídnout větší kontrolu a klid v otázkách bezpečnosti.)
 
 ### Co dělá heslo dobrým:
 
@@ -291,30 +306,24 @@ Pro vytvoření silného hesla se doporučuje použít velké množství náhodn
 
 Náhodně generovaná hesla nabízejí vyšší úroveň bezpečnosti, ačkoliv mohou být obtížněji zapamatovatelná. Správci hesel mohou generovat bezpečnější náhodná hesla. Používáním správce hesel nemusíte pamatovat všechna svá hesla. Je důležité postupně nahradit vaše stará hesla těmi, která generuje správce, protože jsou silnější a delší. Ujistěte se, že hlavní heslo vašeho správce hesel je také silné a bezpečné.
 
-### Tutoriál: Vytvoření hlavního hesla
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-**_Tutoriál je ve výstavbě, přispět nebo jej přidat můžete prostřednictvím GitHubu_**
-
-### Tutoriál: BitWarden
-
-**_Tutoriál je ve výstavbě, přispět nebo jej přidat můžete prostřednictvím GitHubu_**
-
-### Tutoriál: KeePass
-
-**_Tutoriál je ve výstavbě, přispět nebo jej přidat můžete prostřednictvím GitHubu_**
+https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Dvoufaktorové ověření
+
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
 
 ### Proč implementovat 2FA
+
 Dvoufaktorové ověření (2FA) je dodatečná vrstva zabezpečení používaná k zajištění toho, že osoby pokoušející se přistupovat k online účtu jsou skutečně ty, za koho se vydávají. Místo pouhého zadání uživatelského jména a hesla vyžaduje 2FA druhou formu ověření.
 Tento druhý krok může být:
 
 - Dočasný kód poslaný prostřednictvím SMS.
 - Kód generovaný aplikací jako Google Authenticator nebo Authy.
 - Fyzický bezpečnostní klíč, který vložíte do počítače.
-![](assets/notext/19.webp)
-S 2FA, i když hacker získá vaše heslo, nebude schopen přistupovat k vašemu účtu bez tohoto druhého ověřovacího faktoru. To činí 2FA nezbytným pro ochranu vašich online účtů proti neautorizovanému přístupu.
+  ![](assets/notext/19.webp)
+  S 2FA, i když hacker získá vaše heslo, nebude schopen přistupovat k vašemu účtu bez tohoto druhého ověřovacího faktoru. To činí 2FA nezbytným pro ochranu vašich online účtů proti neautorizovanému přístupu.
 
 ### Kterou možnost si vybrat?
 
@@ -341,54 +350,92 @@ Pokračujte ve vzdělávání a postupně implementujte dobré praktiky!
 
 Zlaté pravidlo: Kybernetická bezpečnost je pohyblivým cílem, který se přizpůsobí vaší cestě učení!
 
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+
+https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+
 # Praktická sekce
+
 <partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>
 
 ## Nastavení poštovní schránky
+
 <chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
-https://planb.network/tutorials/others/proton-mail
+Chrání své e-mailové schránky je důležitým krokem k zabezpečení online aktivit a ochraně osobních údajů. Tento návod vás krok za krokem provede vytvořením a nastavením účtu ProtonMail, poskytovatele známého pro svou vysokou úroveň bezpečnosti, který nabízí end-to-end šifrování vašich komunikací. Ať už jste začátečník nebo zkušený uživatel, zde navrhované osvědčené postupy vám pomohou posílit zabezpečení vaší pošty a zároveň využít pokročilé funkce ProtonMail:
 
-![video](https://youtu.be/vpYJYWhmEZg)
+https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Zabezpečení pomocí 2FA
+
 <chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
 
-https://planb.network/tutorials/others/authy
+Dvoufaktorová autentizace (2FA) se stala nezbytnou pro zabezpečení vašich online účtů. V tomto tutoriálu se naučíte, jak nastavit a používat aplikaci 2FA Authy, která generuje dynamické 6místné kódy pro ochranu vašich účtů. Authy je velmi snadné používat a synchronizuje se na více zařízeních. Objevte, jak nainstalovat a nastavit Authy a tím posilte zabezpečení svých online účtů již nyní:
 
-https://planb.network/tutorials/others/security-key
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-![video](https://youtu.be/mNcAKRDmz5o)
+Další možností je použití fyzického bezpečnostního klíče. Tento další tutoriál vám ukáže, jak nastavit a používat bezpečnostní klíč jako druhý autentizační faktor:
+
+https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ## Vytvoření správce hesel
+
 <chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
-https://planb.network/tutorials/others/bitwarden
-https://planb.network/tutorials/others/keepass
-![video](https://youtu.be/y7Xkv4E5YmU)
+
+Správa hesel je výzvou v digitálním věku. Všichni máme mnoho online účtů, které je třeba zabezpečit. Správce hesel vám pomůže vytvářet a ukládat silná a jedinečná hesla pro každý účet.
+
+V tomto tutoriálu se dozvíte, jak nastavit Bitwarden, open-source správce hesel, a jak synchronizovat své přihlašovací údaje na všech zařízeních, aby bylo vaše každodenní používání jednodušší:
+
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
+Pro pokročilejší uživatele nabízím také tutoriál na další bezplatný a open-source software, který můžete používat lokálně pro správu svých hesel:
+
+https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Zabezpečení vašich účtů
+
 <chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
-https://planb.network/tutorials/others/bitwarden
-https://planb.network/tutorials/others/keepass
-![video](https://youtu.be/0JHZRALmGY0)
+
+V těchto dvou tutoriálech vás také provedu zabezpečením vašich online účtů a vysvětlím, jak postupně přijímat bezpečnější postupy pro každodenní správu vašich hesel.
+
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
+https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Nastavení zálohování
+
 <chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
-https://planb.network/tutorials/others/proton-drive
-https://planb.network/tutorials/others/veracrypt
-![video](https://youtu.be/wTJnlSUkDRI)
+
+Chránit vaše osobní soubory je také klíčovým bodem. Tento tutoriál vám ukazuje, jak zavést efektivní zálohovací strategii díky Proton Drive. Objevte, jak používat toto zabezpečené cloudové řešení k aplikaci metody 3-2-1: tři kopie vašich dat na dvou různých médiích, z nichž jedna kopie je mimo místo. Tím zajistíte přístupnost a bezpečnost vašich citlivých souborů:
+
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+
+A pro zabezpečení vašich souborů uložených na přenosných médiích, jako je USB klíč nebo pevný disk, vám také ukazuji, jak snadno šifrovat a dešifrovat tato média pomocí VeraCrypt:
+
+https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 ## Změna prohlížeče & VPN
+
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
-https://planb.network/tutorials/others/ivpn
-https://planb.network/tutorials/others/mullvad
-https://planb.network/tutorials/others/tor-browser
-![video](https://youtu.be/vc6-Ouca09g)
+
+Ochrana vašeho online soukromí je také klíčovým bodem pro zajištění vaší bezpečnosti. Použití VPN může být prvním krokem k jeho dosažení.
+
+Nabízím vám seznámit se se dvěma spolehlivými VPN řešeními, která jsou platitelná pomocí bitcoinu, a to IVPN a Mullvad. Tyto návody vás provedou instalací, konfigurací a používáním Mullvad nebo IVPN na všech vašich zařízeních:
+
+https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+
+https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+
+Dále se dozvíte, jak používat Tor Browser, prohlížeč speciálně navržený pro ochranu vašeho online soukromí:
+
+https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 # Jít dále
+
 <partId>77113cad-a6d8-57e5-b903-50c223b277ba</partId>
 
 ## Jak pracovat v oblasti kybernetické bezpečnosti
+
 <chapterId>aad1ae27-4280-5b07-b9ab-118ae013951a</chapterId>
 
 ### Kybernetická bezpečnost: Rozvíjející se obor s nekonečnými příležitostmi
@@ -425,9 +472,11 @@ Ovládnutím těchto dovedností a nástrojů budete dobře vybaveni pro úspě�
 ![](assets/notext/20.webp)
 
 ## Rozhovor s Renaudem
+
 <chapterId>7d83fd98-ce22-514e-b9e8-729fbf71ee6e</chapterId>
 
 ### Efektivní správa hesel a posílení autentizace: Akademický přístup
+
 V rámci tréninkového modulu "Security 101" nabízeného Découvre Bitcoin v rámci Akademie jsme diskutovali o důležitosti správců hesel. Tři dimenze jsou zásadní k zvážení: vytváření, aktualizace a implementace hesel na webových stránkách.
 Obecně se nedoporučuje používat rozšíření prohlížeče pro automatické vyplňování hesel. Tyto nástroje mohou uživatele více vystavit riziku phishingových útoků. Renaud, uznávaný expert na kybernetickou bezpečnost, dává přednost ručnímu spravování pomocí KeePass, což zahrnuje ruční kopírování a vkládání hesla. Rozšíření mají tendenci zvyšovat riziko útoku, mohou zpomalit výkon prohlížeče a tím představují významné riziko. Proto se doporučuje minimální používání rozšíření v prohlížeči.
 
@@ -453,31 +502,21 @@ Alternativy k rušivým reklamám zahrnují Google DNS, OpenDNS a další nezáv
 
 Jako součást výukového modulu "Security 101" na Découvre Bitcoin Academy jsme také diskutovali o autentizaci Lightning. Tento systém generuje pro každou službu odlišný identifikátor, aniž by bylo nutné poskytovat e-mailovou adresu nebo osobní informace. Je možné mít uživatelem kontrolované decentralizované identity, ale chybí standardizace a normalizace v projektech decentralizované identity. Doporučují se správci balíčků, jako jsou Nuget a Chocolaté, které umožňují stahování open-source softwaru mimo Microsoft Store, aby se předešlo škodlivým útokům. Shrnutí, DNS je pro online bezpečnost zásadní, ale je nutné zůstat ostražitý vůči možným útokům na DNS servery.
 
+# Sekce finále
 
+<partId>3d8ac4c9-f05b-4133-a40a-6e19d579f05f</partId>
 
-## Dejte nám zpětnou vazbu k tomuto kurzu
+## Recenze & Hodnocení
+
 <chapterId>6be74d2d-2116-5386-9d92-c4c3e2103c68</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Poděkování a pokračujte ve zkoumání králičí nory
-<chapterId>df3a962a-a96e-5006-b904-0dd9d4a072dd</chapterId>
+## Závěrečná zkouška
 
-### Ohodnoťte školení a podpořte nás
+<chapterId>a894b251-a85a-5fa4-bf2a-c2a876939b49</chapterId>
+<isCourseExam>true</isCourseExam>
 
-Tento kurz, stejně jako veškerý obsah na této akademii, vám byl poskytnut zdarma naší komunitou. Můžete nás podpořit tím, že jej sdílíte s ostatními, stanete se členem akademie a dokonce přispějete k jejímu vývoji prostřednictvím GitHubu. Jménem celého týmu vám děkujeme!
+## Závěr
 
-Systém hodnocení školení bude brzy integrován do této nové e-learningové platformy! Mezitím vám velmi děkujeme za absolvování kurzu a pokud se vám líbil, zvažte prosím jeho sdílení s ostatními.
-
-### Jděte dál
-
-Gratulujeme k dokončení tohoto školení SECU 101! Doufám, že se vám líbilo a že vám otevřelo dveře. Nyní jste připraveni získat svůj první bitcoin nebo jednoduše pokračovat v dobrodružství s kurzy druhé úrovně!
-
-- BTC 101 vám poskytne teoretické základy Bitcoinu
-- BTC 102 vám pomůže nastavit váš bitcoinový plán
-- LN 201 a 202 vás seznámí s Lightning Network, platební sítí druhé vrstvy
-- ECON 201 pokryje rakouskou ekonomiku
-- MINING 201 pro více informací o těžbě
-- (a mnoho dalších)
-
-Obrovské poděkování našim Patreonům, členům a dárcům za jejich finanční podporu, děkujeme lidem, kteří sdílejí, a děkujeme těm, kteří umožnili toto školení: Théo pantamis, Renaud, Théo, Fabien, Noury, Muriel & celý tým.
-Brzy na shledanou!
+<chapterId>6270ea6b-7694-4ecf-b026-42878bfc318f</chapterId>
+<isCourseConclusion>true</isCourseConclusion>

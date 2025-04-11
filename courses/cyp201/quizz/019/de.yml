@@ -1,9 +1,9 @@
-question: Welche Rolle spielt PBKDF2 im Bitcoin-Protokoll?
-answer: Es wird verwendet, um eine mnemonische Phrase in einen Seed umzuwandeln.
+question: Welche mathematische Operation liegt der Sicherheit der elliptischen Kurvenkryptografie zugrunde?
+answer: Diskretes Logarithmusproblem
 wrong_answers:
-  - Es wird verwendet, um Längenerweiterungsangriffe bei der Ableitung hierarchisch deterministischer (HD) Wallets zu verhindern.
-  - Es wird verwendet, um eine Ausgabe fester Größe zu generieren.
-  - Es wird verwendet, um eine zusätzliche Quelle von Entropie bei der Schlüsselableitung hinzuzufügen.
+  - Primzahlenfaktorisierung
+  - Berechnung quadratischer Reste
+  - Diskretes Würfelproblem
 explanation: |
-  PBKDF2 wird verwendet, um eine mnemonische Phrase in einen Seed umzuwandeln. Dieser Algorithmus führt 2048 Runden mit HMAC SHA512 durch.
+  Die Sicherheit der elliptischen Kurvenkryptografie basiert auf der Schwierigkeit, das diskrete Logarithmusproblem auf diesen Kurven zu lösen.
 reviewed: false

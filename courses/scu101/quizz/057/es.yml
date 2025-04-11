@@ -1,9 +1,9 @@
 question: ¿Cuál es uno de los beneficios de asistir a conferencias y talleres de ciberseguridad?
-answer: Te permite establecer conexiones con profesionales de la industria.
+answer: Te permite construir conexiones con profesionales de la industria
 wrong_answers:
-  - Es un requisito para todos los trabajos de ciberseguridad.
-  - Garantiza un trabajo en ciberseguridad.
-  - Es la única forma de aprender sobre ciberseguridad.
+  - Es un requisito para todos los trabajos de ciberseguridad
+  - Garantiza un trabajo en ciberseguridad
+  - Es la única manera de aprender sobre ciberseguridad
 explanation: |
-  El capítulo menciona que asistir a conferencias y talleres de ciberseguridad no solo te permite aprender, sino que también te ayuda a establecer conexiones con profesionales de la industria.
-reviewed: false
+  El capítulo menciona que asistir a conferencias y talleres de ciberseguridad no solo te permite aprender sino que también te ayuda a construir conexiones con profesionales de la industria.
+reviewed: true

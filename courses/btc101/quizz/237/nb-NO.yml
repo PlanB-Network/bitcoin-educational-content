@@ -1,0 +1,11 @@
+question: Hvordan kan Lightning Network potensielt transformere eksisterende forretningsmodeller i videospillindustrien?
+answer: Det tillater spillere å satse veldig små pengesummer når de spiller spill
+wrong_answers:
+  - Det tillater spillere å utvinne Bitcoin mens de spiller spill
+  - Det tillater spillutviklere å akseptere Bitcoin som betaling for spillene deres
+  - Det tillater spillere å kjøpe gjenstander i spillet med Bitcoin
+explanation: >-
+  Lightning Network tillater spillere å satse veldig små pengesummer når de spiller spill, som for eksempel noen få satoshis. Dette muliggjør etableringen av
+  en innsats som stimulerer konkurranse samtidig som det betydelig øker kostnaden ved å distribuere
+  boter.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Apa alat utama yang digunakan oleh penambang di jaringan Bitcoin saat ini?
+answer: ASICs
+wrong_answers:
+  - CPUs
+  - GPUs
+  - FPGAs
+explanation: |
+  Saat ini, penambang secara eksklusif menggunakan ASICs yang didedikasikan untuk operasi ini, dioptimalkan untuk menguji jumlah kombinasi maksimum dengan konsumsi energi sekecil mungkin dan secepat mungkin.
+reviewed: true

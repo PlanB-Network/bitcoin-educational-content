@@ -1,0 +1,12 @@
+question: Millist eelist pakub Bitcoini võrk võrreldes traditsiooniliste finantssüsteemidega?
+answer: Detsentraliseeritus ja turvalisus
+wrong_answers:
+  - Suurenenud inflatsioonimäärad
+  - Sõltuvus vahendajatest
+  - Keskne kontroll tehingute üle
+explanation: |
+  Bitcoini detsentraliseeritud võrk pakub turvalist ja tõhusat viisi 
+  tehingute sooritamiseks ilma vahendajate või kolmandate osapoolte 
+  vajaduseta. See vähendab tsensuuri riski ja volitamata muudatuste 
+  tegemist tehingutes, samuti suurendab privaatsust.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Mis on peamine erinevus juhusliku ja pseudorandom jada vahel?
+answer: Juhuslik jada pärineb puhtast juhuslikust protsessist, samas kui pseudorandom jada genereeritakse algoritmi abil seemnest.
+wrong_answers:
+  - Pseudorandom jada kasutab ainult 1 bitte.
+  - Juhuslik jada on alati pikem kui pseudorandom jada, kuna sellele mõjub loomulik toime.
+  - Pseudorandom jada on määratletud rangelt binaarse mudeli järgi, samas kui juhuslik jada on määratletud rangelt kuueteistkümnendsüsteemi mudeli järgi.
+explanation: |
+  Juhuslik jada pärineb otsesest juhuslikust protsessist, samas kui pseudorandom jada toodetakse kasutades laiendusalgoritmi ja algset seemet.
+reviewed: false

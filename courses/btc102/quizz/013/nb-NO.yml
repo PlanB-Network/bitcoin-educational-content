@@ -1,0 +1,12 @@
+question: Hva er et av de grunnleggende tiltakene for å forbedre vaner for nettsikkerhet?
+answer: Aktiver tofaktorautentisering (2FA)
+wrong_answers:
+  - Bruk samme passord for alle kontoer
+  - Unnlater å jevnlig ta sikkerhetskopi av data
+  - Del dine passord
+explanation: |
+  Å aktivere tofaktorautentisering (2FA) er et av de grunnleggende tiltakene
+
+  for å forbedre vaner for nettsikkerhet. Det gir et ekstra lag med sikkerhet til
+
+  dine mest sensitive kontoer.

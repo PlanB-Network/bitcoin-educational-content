@@ -1,9 +1,14 @@
-question: Qual è il concetto di "skin in the game" nel contesto dell'industria dei videogiochi?
-answer: Avere un interesse finanziario nell'esito di un gioco
+question: Qual è il concetto di skin in the game nel contesto dell'industria dei videogiochi?
+answer: Avere una partecipazione finanziaria nell'esito di un gioco.
 wrong_answers:
-  - Investire nello sviluppo di un gioco
-  - Acquistare oggetti in-game con denaro reale
-  - Vendere skin di gioco per denaro reale
+  - Personalizzare i personaggi con skin uniche che migliorano il gameplay.
+  - Acquistare oggetti in gioco con denaro reale.
+  - Vendere skin del gioco per denaro reale.
 explanation: |
-  Il concetto di "skin in the game" è un'idea che recentemente ha guadagnato popolarità nell'industria dei videogiochi. Essenzialmente, si tratta di avere un interesse finanziario nell'esito di un gioco.
-reviewed: false
+  Il concetto di skin in the game è un'idea che ha
+  recentemente guadagnato popolarità nell'industria dei videogiochi. Si
+  riferisce essenzialmente all'idea che sviluppatori e
+  portatori di interesse abbiano un investimento personale o una partecipazione
+  nel successo di un gioco, il che allinea i loro interessi con
+  la consegna di un prodotto di qualità.
+reviewed: true

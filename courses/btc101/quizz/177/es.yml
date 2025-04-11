@@ -1,9 +1,10 @@
 question: ¿Cuál fue un evento significativo en el mundo de las criptomonedas en 2017?
-answer: El lanzamiento de miles de Ofertas Iniciales de Monedas (ICOs).
+answer: El lanzamiento de miles de Ofertas Iniciales de Moneda (ICOs).
 wrong_answers:
   - La prohibición de Bitcoin.
   - La creación de Bitcoin.
   - La desaparición de todas las criptomonedas.
-explanation: |
-  El año 2017 estuvo marcado por una importante burbuja especulativa en el mundo de las criptomonedas, especialmente con el lanzamiento de miles de Ofertas Iniciales de Monedas (ICOs).
-reviewed: false
+explanation: >-
+  El año 2017 estuvo marcado por una burbuja especulativa significativa en el
+  mundo de las criptomonedas, especialmente con el lanzamiento de miles de Ofertas Iniciales de Moneda (ICOs).
+reviewed: true

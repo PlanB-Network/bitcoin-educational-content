@@ -1,0 +1,8 @@
+question: Blant disse 4 metodene for å skaffe bitcoins, hvilken en eksponerer deg minst for risikoen for nøkkelidentifikasjon?
+answer: Kjøpe i P2P med kontanter
+wrong_answers:
+  - Kjøpe gjennom en regulert plattform uten KYC
+  - Kjøpe gjennom en regulert plattform med KYC
+  - Kjøpe via PayPal gjennom en P2P matchmaking-plattform
+explanation: |
+  Å kjøpe bitcoins peer-to-peer med kontanter er metoden som eksponerer deg minst for risikoen for nøkkelidentifikasjon fordi det ikke krever å gå gjennom et regulert selskap og etterlater ingen spor i banksystemet. I tillegg krever denne metoden generelt ikke avsløring av personlig informasjon.

@@ -5,7 +5,8 @@ wrong_answers:
   - Nodes only verify transactions.
   - Nodes have no role in the Bitcoin network.
 explanation: |
-  In the Bitcoin network, nodes maintain the integrity of the network by
-  verifying and validating transactions and blocks. An incorrect or fraudulent block
-  will be rejected by nodes, preserving the security of the network.
-reviewed: false
+  In the Bitcoin network, nodes maintain the integrity of the
+  network by verifying and validating transactions and
+  blocks. An incorrect or fraudulent block will be rejected
+  by nodes, preserving the security of the network.
+reviewed: true

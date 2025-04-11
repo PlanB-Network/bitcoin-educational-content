@@ -1,12 +1,9 @@
-question: Je možné podvádět publikováním starého stavu v transakci závazku?
-answer: "Ano"
+question: Co se stane, pokud platba prostřednictvím HTLC není dokončena v přiděleném čase?
+answer: Platba je zrušena a prostředky se vrátí odesílateli.
 wrong_answers:
-  - "Ne"
-  - Pouze pokud mají klíč pro zrušení.
-  - Pouze pokud transakci vytvořili s časovým zámkem.
+  - Platbu si ponechá poslední prostředníkující uzel
+  - Prostředky jsou rozděleny mezi všechny uzly na cestě
+  - Prostředky jsou trvale zablokovány
 explanation: |
-  Podvádět publikováním starého stavu v transakci závazku je možné,
-  protože oba účastníci mají před-podepsání nepublikované transakce.
-  Avšak, opatření jako časový zámek a klíč pro zrušení jsou na místě, aby
-  tomu zabránily.
-posouzeno: false
+  Pokud HTLC vyprší bez odhalení tajemství, platba je zrušena a prostředky se vrátí odesílateli, čímž se zabrání jakémukoli prostředníkujícímu uzlu v ponechání si prostředků.
+reviewed: false

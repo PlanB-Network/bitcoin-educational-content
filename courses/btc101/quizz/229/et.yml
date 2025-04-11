@@ -1,0 +1,9 @@
+question: Kuidas on Lightning Network'i tehingud turvatud?
+answer: Krüptograafia ja kaudselt Bitcoin'i kaevurite poolt tarbitud energia abil.
+wrong_answers:
+  - Ainult privaatvõtmete kasutamise kaudu.
+  - Ainult avalike võtmete kasutamise kaudu.
+  - Ainult nii privaat- kui ka avalike võtmete kasutamise kaudu.
+explanation: >-
+  Lightning Network'i tehingud on turvatud krüptograafia ja kaudselt Bitcoin'i kaevurite poolt tarbitud energia abil.
+reviewed: false

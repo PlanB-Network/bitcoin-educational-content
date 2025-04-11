@@ -1,0 +1,12 @@
+question: Mis oli Argentina valuuta enne 1826. aastat?
+answer: Hispaania dollar.
+wrong_answers:
+  - Argentina peeso.
+  - Peso moneda nacional.
+  - Peso real.
+explanation: |
+  Enne 1826. aastat kasutas Argentina Hispaania dollarit. Pärast oma iseseisvuse
+
+  saavutamist 1816. aastal tutvustas see oma valuutat, mis põhines Hispaania realil, mille tulemusena
+
+  loodi sarnane valuuta.

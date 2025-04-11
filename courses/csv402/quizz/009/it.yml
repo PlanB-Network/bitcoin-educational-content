@@ -1,0 +1,9 @@
+question: Per quanto riguarda l'RGB, perché si consiglia di utilizzare Tapret invece di Opret per gli impegni?
+answer: Per ridurre al minimo la visibilità ed evitare la censura
+wrong_answers:
+  - Ridurre i costi di transazione
+  - Poiché un OP_RETURN non è compatibile con Lightning
+  - Per massimizzare la dimensione degli impegni
+explanation: |
+  Tapret consente di integrare gli impegni in modo discreto, a differenza di OP_RETURN, che li rende immediatamente visibili e soggetti a censura.
+reviewed: false

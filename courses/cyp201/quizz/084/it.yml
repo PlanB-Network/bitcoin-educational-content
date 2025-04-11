@@ -1,9 +1,9 @@
-question: Qual è la funzione della funzione pbkdf2 nella creazione del seed?
-answer: Viene utilizzata insieme alla frase mnemonica e alla passphrase per ottenere il seed.
+question: Qual è il ruolo principale di un indirizzo Bitcoin in una transazione?
+answer: Bloccare gli UTXO nello scriptPubKey
 wrong_answers:
-  - Viene utilizzata per generare la chiave privata principale.
-  - Viene utilizzata per derivare le coppie di chiavi figlie.
-  - Viene utilizzata per creare il codice di catena principale.
+  - Sbloccare gli UTXO nello scriptSig
+  - Segnalare la fine della transazione
+  - Identificare il blocco di conferma
 explanation: |
-  La funzione pbkdf2 (Password-Based Key Derivation Function 2) viene utilizzata insieme alla frase mnemonica e alla passphrase per ottenere il seed, una sequenza alfanumerica di 512 bit che serve come base per derivare le chiavi del portafoglio.
+  Un indirizzo Bitcoin è incorporato nello scriptPubKey per bloccare gli UTXO. Determina le condizioni necessarie per sbloccare i fondi.
 reviewed: false

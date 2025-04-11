@@ -1,0 +1,12 @@
+question: Mis on peamine tööriist, mida kaevurid tänapäeval Bitcoin'i võrgus kasutavad?
+answer: ASIC-id
+wrong_answers:
+  - CPU-d
+  - GPU-d
+  - FPGA-d
+explanation: |
+  Tänapäeval kasutavad kaevurid eranditult ASIC-e, mis on
+  spetsiaalselt selle operatsiooni jaoks optimeeritud, et testida
+  maksimaalset arvu kombinatsioone võimalikult väikese
+  energiakuluga ja nii kiiresti kui võimalik.
+reviewed: true

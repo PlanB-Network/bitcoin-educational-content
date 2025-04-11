@@ -1,0 +1,9 @@
+question: Mis vahe on Salsa20 algoritmi kasutamisel 128-bitise võtme ja 256-bitise võtmega?
+answer: Võtme pikkus mõjutab algoritmi voorude arvu.
+wrong_answers:
+  - Võtme pikkus muudab krüpteerimise tüüpi.
+  - 128-bitist võtit kasutatakse voogkrüpteerimiseks ja 256-bitist võtit plokkkrüpteerimiseks.
+  - Võtme pikkus ei mõjuta Salsa20-t.
+explanation: |
+  Sümmeetrilises krüpteerimisskeemis Salsa20 mõjutab võtme pikkus (128 või 256 bitti) algoritmi voorude arvu, ilma et see muudaks algoritmi tuuma ennast.
+reviewed: false

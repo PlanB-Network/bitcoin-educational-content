@@ -1,0 +1,9 @@
+question: Điều gì khiến RC4 trở nên dễ bị tấn công ngày nay mặc dù trước đây nó rất phổ biến?
+answer: Những điểm yếu được tài liệu hóa rõ ràng trong việc tạo ra dòng khóa
+wrong_answers:
+  - Khóa quá ngắn để đảm bảo an ninh
+  - Không thể làm việc với các văn bản dài
+  - Yêu cầu phải sử dụng một khóa công khai bổ sung ngoài khóa riêng
+explanation: |
+  RC4 có những điểm yếu đáng kể trong việc tạo ra dòng khóa, làm lộ ra việc mã hóa trước các cuộc tấn công, do đó dần dần bị từ bỏ trong các giao thức bảo mật hiện đại.
+reviewed: false

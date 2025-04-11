@@ -1,12 +1,9 @@
-question: Ý nghĩa của BIP32 trong hệ sinh thái Bitcoin là gì?
-answer: Nó đã cách mạng hóa cách tạo và lưu trữ khóa, giới thiệu khái niệm về khóa được tạo ra một cách có hệ thống và phân cấp.
+question: Sự khác biệt chính giữa mật khẩu và mã PIN đối với ví Bitcoin là gì?
+answer: Mật khẩu thay đổi quá trình sinh khóa, không phải mã PIN
 wrong_answers:
-  - Nó giới thiệu cụm từ ghi nhớ 24 từ.
-  - Nó đề xuất thêm một cụm từ mật khẩu bổ sung để tăng cường bảo mật cho từng khóa riêng lẻ.
-  - Nó chuẩn hóa cấu trúc và hệ thống phân cấp của ví HD.
+  - Mã PIN được liên kết với cụm từ ghi nhớ
+  - Mã PIN được sử dụng để mã hóa giao dịch nhưng mật khẩu thì không
+  - Mã PIN tạo ra địa chỉ Bitcoin
 explanation: |
-  BIP32, ra mắt vào năm 2012, đã cách mạng hóa cách những khóa này được tạo ra
-  và lưu trữ, giới thiệu khái niệm về khóa được tạo ra một cách có hệ thống và phân cấp.
-  Điều này đơn giản hóa đáng kể quá trình lưu trữ những khóa này, trong khi vẫn duy trì
-  mức độ bảo mật của chúng.
+  Khác với mã PIN, mật khẩu trực tiếp tham gia vào quá trình sinh khóa và thay đổi các khóa ví.
 reviewed: false

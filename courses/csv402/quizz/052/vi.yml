@@ -1,0 +1,9 @@
+question: What is client-side validation in the RGB protocol?
+answer: Local verification of contract data and transitions
+wrong_answers:
+  - Executing smart contracts directly on the Bitcoin blockchain
+  - Exclusive use of centralized nodes to validate transactions
+  - Automatic reset of contract histories in the event of discrepancies
+explanation: |
+  Client-side validation enables each participant to independently verify that the data received complies with the rules defined by the RGB contract.
+reviewed: false

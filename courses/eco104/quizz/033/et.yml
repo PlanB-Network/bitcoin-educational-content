@@ -1,0 +1,12 @@
+question: Mis on üks kesksete stablecoinide eelis, vaatamata nende võimele vahendeid külmutada?
+answer: Nad suudavad teatud olukordades kiiresti reageerida, et kaitsta kasutajaid
+wrong_answers:
+  - Nad pakuvad täielikku detsentraliseeritust ja turvalisust
+  - Neid ei mõjuta ükski regulatsioonid ega sekkumised
+  - Nad toimivad sõltumatult õiguskaitseorganitest
+explanation: |
+  Kesksetel stablecoinidel on võime sekkuda,
+  kui see on kasutajate ja süsteemi üldise stabiilsuse huvides,
+  nagu on näidanud näited, kus külmutatud vahendeid kasutati
+  tarbijate kaitsmiseks ja häkkerite kasumist ilmajätmiseks.
+reviewed: true

@@ -1,9 +1,9 @@
-question: Was ist die Folge des Gelddruckens?
-answer: Es führt zu Inflation und verarmt die Bevölkerung allmählich.
+question: Was ist die Folge von Geldschöpfung?
+answer: Es führt zu Inflation, die allmählich die Bevölkerung verarmen lässt.
 wrong_answers:
-  - Es führt zu Deflation und bereichert die Bevölkerung allmählich.
+  - Es führt zu Deflation, die allmählich die Bevölkerung bereichert.
   - Es führt zu einer stabilen Wirtschaft ohne Inflation oder Deflation.
-  - Es führt zu einer Verringerung der Geldmenge.
+  - Es führt zu einer Abnahme der Geldmenge.
 explanation: |
-  Gelddrucken, also die Schaffung von neuem Geld durch Zentralbanken, führt zu Inflation. Dies liegt daran, dass die Erhöhung der Geldmenge die Kaufkraft des Geldes verringert, was zu höheren Preisen und einer Abwertung der Ersparnisse führt.
-reviewed: false
+  Geldschöpfung, oder die Schaffung von neuem Geld durch Zentralbanken, führt zu Inflation. Dies liegt daran, dass die Zunahme der Geldmenge die Kaufkraft des Geldes reduziert, was zu höheren Preisen und einer Abnahme des Wertes von Ersparnissen führt.
+reviewed: true

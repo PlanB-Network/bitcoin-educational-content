@@ -1,12 +1,9 @@
-question: Mitkä ovat Lightning-maksukanavien hyödyt?
-answer: Ne mahdollistavat käyttäjille Bitcoinien lähettämisen ja vastaanottamisen ilman, että heidän tarvitsee maksaa korkeita siirtomaksuja tai odottaa pitkiä vahvistusaikoja Bitcoin-verkossa.
+question: Mikä on yksityisen avaimen ensisijainen rooli Bitcoin-järjestelmässä?
+answer: Allekirjoittaa siirtoja skriptin vaatimusten täyttämiseksi
 wrong_answers:
-  - Ne mahdollistavat käyttäjille tehokkaamman Bitcoinien louhinnan
-  - Ne mahdollistavat käyttäjille turvallisemman Bitcoinien säilytyksen
-  - Ne mahdollistavat käyttäjille Bitcoinien vaihtamisen muihin kryptovaluuttoihin
+  - Toimia tunnisteena bitcoinien vastaanottamiseksi
+  - Säilyttää varoja turvallisesti lohkoketjussa
+  - Luoda lukitusskriptejä bitcoinien suojaamiseksi
 explanation: |
-  Lightning-maksukanavat ovat tehokas tapa suorittaa nopeita ja
-  edullisia
-  Bitcoin-siirtoja. Ne mahdollistavat käyttäjille Bitcoinien lähettämisen ja vastaanottamisen ilman,
-  että heidän tarvitsee maksaa korkeita siirtomaksuja tai odottaa pitkiä vahvistusaikoja Bitcoin-verkossa.
+  Yksityistä avainta käytetään siirtojen allekirjoittamiseen skriptin vaatimusten täyttämiseksi ja bitcoinien vapauttamiseen.
 reviewed: false

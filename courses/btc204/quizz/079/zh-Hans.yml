@@ -1,0 +1,11 @@
+question: 什么术语描述了coinjoin对一个硬币未来交易分析的保护？
+
+answer: 预期匿名集。
+
+wrong_answers:
+  - 回顾性匿名集。
+  - 可追踪性抵抗。
+  - 时间隐私。
+
+explanation: |
+  从过去到现在的分析保护被称为预期匿名集。

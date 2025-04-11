@@ -1,0 +1,9 @@
+question: Trong mã hóa dịch chuyển, kết quả của từ DOG với khóa là 17 là gì?
+answer: UFX
+wrong_answers:
+  - ZKH
+  - TPG
+  - UVW
+explanation: |
+  Với sự dịch chuyển 17 trong bảng chữ cái, D trở thành U, O trở thành F, và G trở thành X. Do đó, từ được mã hóa là UFX.
+reviewed: false

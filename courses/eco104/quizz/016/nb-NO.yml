@@ -1,0 +1,14 @@
+question: Når du tar selvforvaring, hva er det første du bør gjøre for å minimere risikoen for tap?
+answer: Sikkerhetskopier gjenopprettingsfrasen for lommeboken din
+wrong_answers:
+  - Del dine private nøkler med en pålitelig part
+  - Noter gjenopprettingsfrasen din og lagre den på datamaskinen din
+  - Deaktiver tofaktorautentisering (2FA)
+explanation: |
+  Først og fremst, sikkerhetskopier lommeboken din når du tar selvforvaring.
+  Maskinvarelommebøker kommer med en gjenopprettingsfrase, et sett med ord som 
+  kan brukes til å gjenopprette dine private nøkler i tilfelle enheten din blir tapt eller skadet.
+  Lag en fysisk kopi, som en metall [seed plate](https: //coincodex.com/article/23147/best-metal-crypto-wallets-for-seed-phrase-storage/), av denne gjenopprettingsfrasen og 
+  oppbevar den på et sikkert sted. Det er viktig å holde denne gjenopprettingsfrasen sikker. 
+  DEL den ALDRI med noen.
+reviewed: true

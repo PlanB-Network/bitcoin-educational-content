@@ -1,9 +1,9 @@
-question: Was ist die Bedeutung der Verwendung eines eindeutigen Nonce im ECDSA-Algorithmus?
-answer: Es hilft, Sicherheitsangriffe zu vermeiden.
+question: Warum ist es riskant, Entropie manuell für ein HD-Wallet zu generieren?
+answer: Es kann menschliche Schwächen oder vorhersehbare Verzerrungen einführen
 wrong_answers:
-  - Es erhöht die Geschwindigkeit des Algorithmus.
-  - Es reduziert die Rechenkomplexität.
-  - Es ist für das Funktionieren des Algorithmus erforderlich.
+  - Es führt zu ungültigen öffentlichen Schlüsseln
+  - Es blockiert die Ableitung von privaten Schlüsseln
+  - Es begrenzt die Größe der generierten mnemonischen Phrasen
 explanation: |
-  Die Verwendung eines eindeutigen Nonce im ECDSA-Algorithmus ist entscheidend für die Aufrechterhaltung der Sicherheit. Das Wiederverwenden eines Nonce kann zu Sicherheitslücken führen, wie beim PlayStation 3 Hack, bei dem aufgrund der Wiederverwendung eines Nonce Kompromittierungen auftraten.
+  Das manuelle Generieren von Entropie kann Verzerrungen oder Fehler einführen, wodurch die Schlüssel anfälliger für Angriffe werden.
 reviewed: false

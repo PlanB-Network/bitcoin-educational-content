@@ -1,0 +1,8 @@
+question: 哪个函数由矿工m0mchil在2010年10月设计，允许客户端节点检索一个候选区块并在找到解决方案时返回工作证明？
+answer: getwork
+wrong_answers:
+  - stratum
+  - gethash
+  - getcredit
+explanation:
+  该函数于10月1日发布。中本聪在11月23日将这个函数的修改版本包含在主软件中。

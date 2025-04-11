@@ -1,0 +1,9 @@
+question: Proč je nedostatek považován za důležitou vlastnost dobré měny?
+answer: Omezená nabídka totiž chrání jeho hodnotu před rozmělněním nadprodukcí.
+wrong_answers:
+  - Protože zajišťuje, aby si každý mohl snadno razit vlastní měnu.
+  - Protože to ztěžuje uznání měny.
+  - Protože odrazuje od používání měny v dálkovém obchodě.
+explanation: |
+  Měna s řízeným nedostatkem si udržuje kupní sílu po celou dobu. Bez nedostatku by nadměrná emise mohla vést k inflaci a snížit hodnotu měny.
+reviewed: false

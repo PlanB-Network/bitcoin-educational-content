@@ -1,0 +1,9 @@
+question: Miten RGB estää kaksinkertaisen kuluttamisen tilasiirtymän aikana?
+answer: Olemassa olevan tiivisteen sulkeminen ja uuden luominen
+wrong_answers:
+  - Varmentamalla kaikki transaktiot lohkoketjussa
+  - Määräämällä monisignaaliset allekirjoitukset jokaiselle operaatiolle
+  - Globaalin tilan tietojen validointi
+explanation: |
+  Sinetin sulkeminen käytetyllä UTXO:lla osoittaa, että siirtymä on ainutlaatuinen ja peruuttamaton.
+reviewed: false

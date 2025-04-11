@@ -1,0 +1,9 @@
+question: Hva er risikoen ved å gjøre sikkerheten og tilgjengeligheten av dine bitcoins for komplisert?
+answer: Du kan skade deg selv hvis du håndterer sikkerhetskopiene av lommebøkene dine feil
+wrong_answers:
+  - Du kan skade deg selv hvis du håndterer de fysiske lommebøkene feil
+  - Du kan skade deg selv hvis du håndterer de digitale lommebøkene feil
+  - Du kan skade deg selv hvis du håndterer multisig-lommebøkene feil
+explanation: |
+  Å gjøre sikkerheten og tilgjengeligheten av dine bitcoins for komplisert kan skade deg hvis du for eksempel håndterer sikkerhetskopiene av lommebøkene dine feil. Dette er fordi enkle sikkerhetskopieringsprosedyrer er avgjørende for å gjenopprette tilgangen til midlene dine i tilfelle tap av telefonen eller datamaskinen din.
+reviewed: true

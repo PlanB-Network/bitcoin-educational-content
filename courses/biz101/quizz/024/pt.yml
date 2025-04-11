@@ -1,0 +1,9 @@
+question: Ao comprar Bitcoin, qual é a abordagem recomendada para lidar com a volatilidade do seu preço?
+answer: Acumular gradualmente Bitcoin em intervalos regulares e manter uma perspetiva de longo prazo.
+wrong_answers:
+  - Tentar prever os picos de mercado a curto prazo e vender imediatamente.
+  - Entrar de uma só vez com toda a tesouraria da empresa.
+  - Só compre Bitcoin nos dias em que o seu preço tiver subido muito.
+explanation: |
+  As compras regulares ao longo do tempo (dollar-cost averaging) ajudam a suavizar a volatilidade. Um horizonte a mais longo prazo (por exemplo, 4 anos) reduz o impacto das oscilações de preços a curto prazo.
+reviewed: false

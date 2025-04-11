@@ -1,0 +1,9 @@
+question: ¿Qué revolución experimentó de cerca Frédéric Bastiat como diputado?
+answer: La revolución de 1848
+wrong_answers:
+  - La revolución de 1830
+  - La revolución de 1871
+  - La revolución de 1789
+explanation: |
+  Bastiat fue testigo de la revolución de 1848, la cual estableció la Segunda República y llevó a su elección como diputado.
+reviewed: false

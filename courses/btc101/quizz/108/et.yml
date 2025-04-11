@@ -1,0 +1,10 @@
+question: Mis on Bitcoin'i rahakoti eesmärk?
+answer: Hoida privaatvõtit, et teostada Bitcoin'idega tehinguid
+wrong_answers:
+  - Kasutada seadme ressurssi Bitcoin'ide kaevandamiseks
+  - Osta Bitcoin'e avaliku võtmega
+  - Hoida Bitcoin'e seadmes
+explanation: |
+  Bitcoin'i rahakotid on tarkvara, mis võimaldab teil hoida privaatvõtmeid, mis
+  lubavad teil teostada oma Bitcoin'idega tehinguid.
+reviewed: true

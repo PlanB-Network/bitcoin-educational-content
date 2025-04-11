@@ -1,0 +1,8 @@
+question: Какая единица Bitcoin используется в Lightning Network?
+answer: Саты
+wrong_answers:
+  - Bitcoin
+  - Ether
+  - Litecoin
+explanation: Lightning Network использует саты (десятичные доли биткоина) для функционирования.
+reviewed: false

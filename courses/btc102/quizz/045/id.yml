@@ -1,0 +1,11 @@
+question: Apa peran utama dari pengembang Bitcoin Core?
+answer: Mereka bertanggung jawab atas pengembangan utama dari protokol Bitcoin dan fitur intinya
+wrong_answers:
+  - Mereka mengontrol jaringan Bitcoin
+  - Mereka menciptakan bitcoin baru
+  - Mereka mengatur harga Bitcoin
+explanation: |
+  Konten bab menjelaskan bahwa pengembang Bitcoin Core bertanggung jawab
+  untuk pengembangan utama dari protokol Bitcoin dan fitur intinya. Mereka tidak
+  mengontrol jaringan Bitcoin, menciptakan bitcoin baru, atau mengatur harga Bitcoin.
+reviewed: false

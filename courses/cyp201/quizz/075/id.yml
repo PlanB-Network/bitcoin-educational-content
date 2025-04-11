@@ -1,0 +1,8 @@
+question: Jalur derivasi apa yang digunakan untuk akun SegWit v0 dalam deskriptor standar?
+answer: 84h/0h/0h
+wrong_answers:
+  - 44h/0h/0h
+  - 86h/0h/0h
+  - 84/0/0
+explanation: |
+  Jalur 84h/0h/0h didefinisikan dalam BIP84 untuk sebuah akun yang mendapatkan alamat SegWit v0 dengan P2WPKH.

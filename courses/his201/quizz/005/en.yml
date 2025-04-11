@@ -1,0 +1,9 @@
+question: Which economist stated in 1999 that the only thing missing, but which will soon be developed, is reliable electronic cash?
+answer: Milton Friedman
+wrong_answers:
+  - Friedrich Hayek
+  - Murray Rothbard
+  - Paul Krugman
+explanation: |
+  A Nobel Prize winner in economics and founder of the Chicago School, he made this prediction at the microphone of the National Taxpayers Union Foundation. [micro](https: //www.youtube.com/watch?v=mlwxdyLnMXM&t=872s)
+reviewed: false

@@ -1,10 +1,9 @@
-question: Wer hat den Widerrufsschlüssel in Alice's Verpflichtungstransaktion?
-answer: Nur Alice.
+question: Welche Bedingung muss erfüllt sein, damit der Empfänger eines HTLC die Mittel erhält?
+answer: Er muss ein Geheimnis (Preimage) bereitstellen, um die Zahlung freizuschalten.
 wrong_answers:
-  - Nur Bob.
-  - Sowohl Alice als auch Bob.
-  - Weder Alice noch Bob.
+  - Sie müssen die Routing-Gebühren jedes Zwischenknotens akzeptieren.
+  - Sie müssen eine neue Commitment-Transaktion unterschreiben.
+  - Sie müssen warten, bis das Zeitfenster abgelaufen ist, bevor sie die Mittel abrufen können.
 explanation: |
-  In Alice's Verpflichtungstransaktion hat nur Alice den Widerrufsschlüssel.
-  Dies ermöglicht es ihr, die Mittel zu bewegen, ohne auf das Ende der Zeitsperre zu warten, falls Bob versucht zu betrügen.
+  Um die Mittel in einem HTLC zu erhalten, muss der Empfänger ein spezifisches Geheimnis bereitstellen, das das Freischalten der durch den Hash gesicherten Zahlung ermöglicht.
 reviewed: false

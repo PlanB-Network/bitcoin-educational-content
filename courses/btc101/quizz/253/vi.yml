@@ -3,7 +3,7 @@ answer: Nó trung lập với tất cả người dùng của mình.
 wrong_answers:
   - Nó ưu ái một số người dùng hơn người khác.
   - Nó thiên vị một số người dùng.
-  - Nó chỉ mang lại lợi ích cho một nhóm người dùng được chọn lọc.
+  - Nó chỉ mang lại lợi ích cho một nhóm người dùng nhất định.
 explanation: >-
   Văn bản đề cập rằng giao thức Bitcoin trung lập với tất cả người dùng của mình.
-reviewed: false
+reviewed: true

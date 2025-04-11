@@ -1,9 +1,11 @@
-question: Wie wird der private Schlüssel in einer Bitcoin-Wallet oft dargestellt?
-answer: Eine Liste von 12 oder 24 Wörtern
+question: Wodurch wird der private Schlüssel in einem Bitcoin-Wallet oft dargestellt?
+answer: Eine Liste von 12 oder 24 Wörtern.
 wrong_answers:
-  - Eine Liste von 12 oder 48 Wörtern
-  - Eine Liste von 32 Wörtern
-  - Eine Liste von 64 Wörtern
+  - Eine Liste von 12 oder 48 Wörtern.
+  - Eine Liste von 32 Wörtern.
+  - Eine Liste von 64 Wörtern.
 explanation: |
-  In einer Bitcoin-Wallet wird der private Schlüssel oft durch eine Liste von 12 oder 24 Wörtern dargestellt, die auch als "Seed" oder "mnemonischer Satz" bezeichnet wird.
-reviewed: false
+  In einem Bitcoin-Wallet wird der private Schlüssel oft
+  durch eine Liste von 12 oder 24 Wörtern dargestellt, die auch als Seed-Phrase
+  oder mnemonische Phrase bekannt ist.
+reviewed: true

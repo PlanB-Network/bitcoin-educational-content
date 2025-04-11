@@ -1,0 +1,8 @@
+question: Keynesin mukaan, mikä on kultakannan pääongelma?
+answer: Se rajoittaa hallituksen kykyä rahoittaa menojaan
+wrong_answers:
+  - Se edistää inflaatiota
+  - Se haittaa kansainvälistä kauppaa
+  - Kaikki muut vastaukset ovat oikeita.
+explanation: |
+  Keynes uskoi, että kultakanta rajoitti hallituksen kykyä säädellä rahamäärää, estäen heitä helposti rahoittamasta menojaan, erityisesti talouskriisien aikana.

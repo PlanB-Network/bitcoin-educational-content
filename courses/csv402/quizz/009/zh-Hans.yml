@@ -1,0 +1,9 @@
+question: 关于 RGB，为什么建议使用 Tapret 而不是 Opret 进行承诺？
+answer: 尽量降低能见度，避免审查
+wrong_answers:
+  - 降低交易成本
+  - 因为 OP_RETURN 与 Lightning 不兼容
+  - 最大限度地扩大承诺规模
+explanation: |
+  与 OP_RETURN 不同的是，Tapret 可以让你谨慎地整合承诺，而 OP_RETURN 则会让承诺立即可见并受到审查。
+reviewed: false

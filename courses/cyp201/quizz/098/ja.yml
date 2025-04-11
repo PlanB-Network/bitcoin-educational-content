@@ -1,8 +1,0 @@
-question: 公開鍵を生成するために使用されるアルゴリズムは何ですか？
-answer: ECDSA (Elliptic Curve Digital Signature Algorithm)
-wrong_answers:
-  - "RSA (Rivest–Shamir–Adleman)"
-  - SHA-256 (Secure Hash Algorithm 256)
-  - AES (Advanced Encryption Standard)
-explanation: |
-  公開鍵はECDSA (Elliptic Curve Digital Signature Algorithm) アルゴリズムを使用して生成されます。

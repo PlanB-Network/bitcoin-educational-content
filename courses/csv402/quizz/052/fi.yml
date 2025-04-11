@@ -1,0 +1,9 @@
+question: Mikä on RGB-protokollan asiakaspuolen validointi?
+answer: Sopimustietojen ja siirtymien paikallinen tarkastaminen
+wrong_answers:
+  - Älykkäiden sopimusten suorittaminen suoraan Bitcoin-lohkoketjussa
+  - Keskitettyjen solmupisteiden yksinomainen käyttö tapahtumien validoimiseksi
+  - Sopimushistorian automaattinen nollaus ristiriitatilanteissa
+explanation: |
+  Asiakaspuolen validoinnin avulla kukin osallistuja voi itsenäisesti tarkistaa, että vastaanotetut tiedot ovat RGB-sopimuksessa määriteltyjen sääntöjen mukaisia.
+reviewed: false

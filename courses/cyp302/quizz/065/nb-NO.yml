@@ -1,0 +1,9 @@
+question: Hva er de tre essensielle komponentene i et symmetrisk krypteringsskjema?
+answer: En nøkkelgenereringsalgoritme, en krypteringsalgoritme og en dekrypteringsalgoritme
+wrong_answers:
+  - En hashalgoritme, en offentlig nøkkel og en verifiseringsalgoritme
+  - En offentlig nøkkel, en privat nøkkel og en dekrypteringsalgoritme
+  - En krypteringsalgoritme, en offentlig nøkkel og en privat nøkkel
+explanation: |
+  Et symmetrisk krypteringsskjema består av tre elementer: en nøkkelgenereringsalgoritme, en krypteringsalgoritme og en dekrypteringsalgoritme. De bruker alle den samme nøkkelen.
+reviewed: false

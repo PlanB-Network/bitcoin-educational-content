@@ -1,0 +1,9 @@
+question: Luận đề chính của Thomas Aquinas về mối quan hệ giữa lý trí và đức tin là gì?
+answer: Lý trí và đức tin bổ sung cho nhau và có thể hỗ trợ lẫn nhau.
+wrong_answers:
+  - Lý trí và đức tin là hai nguồn tri thức độc lập và mâu thuẫn với nhau.
+  - Tất cả các câu trả lời khác đều đúng.
+  - Đức tin vượt trội hơn lý trí và có thể tự thân không cần đến lập luận của nó.
+explanation: |
+  Thomas Aquinas cho rằng lý trí và đức tin bổ sung cho nhau: lý trí có thể giúp hiểu và giải thích những chân lý của đức tin, trong khi đức tin hướng dẫn lý trí đến những chân lý mà nếu không có nó, lý trí sẽ không thể tiếp cận được.
+reviewed: false

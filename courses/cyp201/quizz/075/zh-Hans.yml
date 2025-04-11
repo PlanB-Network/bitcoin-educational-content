@@ -1,0 +1,8 @@
+question: 在标准描述符中，用于SegWit v0账户的派生路径是什么？
+answer: 84h/0h/0h
+wrong_answers:
+  - 44h/0h/0h
+  - 86h/0h/0h
+  - 84/0/0
+explanation: |
+  路径84h/0h/0h在BIP84中定义，用于派生带有P2WPKH的SegWit v0地址的账户。

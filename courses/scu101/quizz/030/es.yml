@@ -1,9 +1,11 @@
-question: ¿Cuál es la regla de oro para protegerse de los correos electrónicos fraudulentos?
-answer: Verifique cuidadosamente el nombre completo del remitente, así como el origen del correo electrónico.
+question: ¿Cuál es la regla de oro para protegerte de correos electrónicos fraudulentos?
+answer: Revisa cuidadosamente el nombre completo del remitente así como el origen del correo electrónico.
 wrong_answers:
-  - Siempre responda a los correos electrónicos sospechosos.
-  - Abra todos los archivos adjuntos de correo electrónico para verificar su contenido.
-  - Comparta su información personal solo con remitentes conocidos.
+  - Siempre responde a correos electrónicos sospechosos.
+  - Abre todos los archivos adjuntos del correo electrónico para verificar su contenido.
+  - Comparte tu información personal solo con remitentes conocidos.
 explanation: |
-  La regla de oro para protegerse de los correos electrónicos fraudulentos es verificar cuidadosamente el nombre completo del remitente, así como el origen del correo electrónico. ¡Cuando tenga dudas, elimínelo!
-reviewed: false
+  La regla de oro para protegerte de correos electrónicos fraudulentos
+  es revisar cuidadosamente el nombre completo del remitente así como
+  el origen del correo electrónico. ¡Cuando tengas dudas, elimínalo!
+reviewed: true

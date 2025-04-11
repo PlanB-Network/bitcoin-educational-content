@@ -1,0 +1,9 @@
+question: In che modo la Lightning Network sta contribuendo a plasmare il futuro del commercio online e dei servizi digitali?
+answer: Consentendo microtransazioni senza attrito, istantanee e senza autorizzazione, aprendo nuovi modelli di business e flussi di entrate.
+wrong_answers:
+  - Impedendo la nascita di nuovi modelli di business online.
+  - Richiedendo agli esercenti di utilizzare gli stessi circuiti di pagamento lenti e costosi di prima.
+  - Rendendo impossibile la vendita di beni digitali a causa delle elevate commissioni.
+explanation: |
+  La capacità di Lightning di inviare piccole quantità di valore istantaneamente e a basso costo incoraggia l'innovazione in settori come i contenuti pay-as-you-go, i pagamenti in streaming e le transazioni machine-to-machine, trasformando potenzialmente il modo in cui i servizi online vengono monetizzati.
+reviewed: false

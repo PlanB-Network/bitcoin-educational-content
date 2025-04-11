@@ -1,0 +1,9 @@
+question: V kterém roce byl implementován koncept eCash Davida Chauma?
+answer: 1994
+wrong_answers:
+  - 1993
+  - 1995
+  - 1996
+explanation: |
+  Poprvé byl implementován cypherpunky v únoru, než byl vyzkoušen společností DigiCash prostřednictvím vydání CyberBucks v říjnu.
+reviewed: false

@@ -1,10 +1,11 @@
 question: Việc thiếu cụm từ ghi nhớ trong một ví điện tử cho thấy điều gì?
-answer: Ví không an toàn để lưu trữ lâu dài
+answer: Điều đó cho thấy ví điện tử không an toàn cho việc lưu trữ Bitcoin lâu dài.
 wrong_answers:
-  - Ví an toàn để lưu trữ lâu dài
-  - Ví không an toàn để lưu trữ ngắn hạn
-  - Ví không an toàn để chi tiêu
+  - Điều đó cho thấy ví điện tử hoàn toàn an toàn và không cần bất kỳ bản sao lưu nào.
+  - Nó có nghĩa là ví điện tử có thể chứa nhiều loại trái phiếu khác nhau.
+  - Nó gợi ý rằng ví điện tử được tự động sao lưu bởi thiết bị của bạn.
 explanation: |
-  Việc thiếu một danh sách gồm 12 hoặc 24 từ, tức là cụm từ ghi nhớ, trong một ví nên cảnh báo bạn rằng
-  ví không an toàn vì nó không tuân theo quy trình sao lưu tiêu chuẩn.
-reviewed: false
+  Việc thiếu một danh sách gồm 12 hoặc 24 từ, tức là
+  cụm từ ghi nhớ, trong một ví điện tử nên cảnh báo bạn rằng
+  ví không an toàn vì nó không tuân theo các quy trình sao lưu chuẩn.
+reviewed: true

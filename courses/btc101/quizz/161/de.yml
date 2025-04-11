@@ -1,10 +1,9 @@
-question: Was ist die Hauptbedenken hinsichtlich der Umweltkosten des Bitcoin-Minings?
-answer: Der Energieverbrauch
+question: Was ist die Hauptbedenken bezüglich der Umweltkosten des Bitcoin-Minings?
+answer: Der Energieverbrauch.
 wrong_answers:
-  - Die Produktion von ASICs
-  - Das Recycling von ASICs
-  - Die Kosten für Strom
-explanation: |
-  Die Hauptumweltbedenken beim Bitcoin-Mining sind der Energieverbrauch.
-  Obwohl ASICs größtenteils aus Aluminium bestehen und recycelt oder wiederverwendet werden können, ist die Energie, die zur Stromversorgung dieser Maschinen benötigt wird, signifikant.
-reviewed: false
+  - Die Produktion von ASICs.
+  - Das Recycling von ASICs.
+  - Die Kosten für Elektrizität.
+explanation: >-
+  Das Hauptumweltbedenken beim Bitcoin-Mining ist der Energieverbrauch. Während ASICs hauptsächlich aus Aluminium bestehen und recycelt oder wiederverwendet werden können, ist die Energie, die benötigt wird, um diese Maschinen zu betreiben, erheblich.
+reviewed: true

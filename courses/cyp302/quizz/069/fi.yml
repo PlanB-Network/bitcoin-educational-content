@@ -1,0 +1,8 @@
+question: Mikä on ero Salsa20-algoritmin käyttämisessä 128-bittisellä avaimella ja 256-bittisellä avaimella?
+answer: Avaimen pituus vaikuttaa algoritmin kierrosten määrään.
+wrong_answers:
+  - Avaimen pituus muuttaa salauksen tyyppiä.
+  - 128-bittistä avainta käytetään virtaussalaukseen ja 256-bittistä avainta lohkosalaukseen.
+  - Avaimen pituudella ei ole vaikutusta Salsa20: ssa.
+explanation: |
+  Symmetrisessä salausjärjestelmässä Salsa20 avaimen pituus (128 tai 256 bittiä) vaikuttaa algoritmin kierrosten määrään, muuttamatta itse algoritmin ydintä.

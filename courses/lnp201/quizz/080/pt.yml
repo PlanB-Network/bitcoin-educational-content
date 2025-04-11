@@ -1,9 +1,0 @@
-question: Qual é o objetivo do hash da pré-imagem em uma fatura da Lightning Network?
-answer: Ele é usado para desbloquear o pagamento.
-wrong_answers:
-  - Ele é usado para criptografar os dados da fatura.
-  - Ele é usado para verificar a identidade do destinatário.
-  - Ele é usado para calcular a taxa de transação.
-explanation: |
-  O hash da pré-imagem em uma fatura da Lightning Network é usado para desbloquear o pagamento. O destinatário do pagamento deve fornecer a pré-imagem que corresponde ao hash para receber os fundos.
-reviewed: false

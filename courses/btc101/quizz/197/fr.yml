@@ -5,6 +5,5 @@ wrong_answers:
   - Il peut être dupliqué.
   - Il peut être perdu physiquement.
 explanation: |
-  Le texte mentionne que Bitcoin est un actif financier très volatile et
-  son prix peut chuter à 0. C'est l'un des risques associés à l'achat de Bitcoin.
-reviewed: false
+  Le texte du cours mentionne que le Bitcoin est un actif financier hautement volatil, et son prix peut chuter à 0, ce qui est l'un des risques associés à l'achat de Bitcoin.
+reviewed: true

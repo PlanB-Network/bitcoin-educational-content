@@ -1,0 +1,8 @@
+question: Mis juhtub, kui makse HTLC kaudu ei viida lõpule ettenähtud aja jooksul?
+answer: Makse tühistatakse ja vahendid tagastatakse saatjale.
+wrong_answers:
+  - Makse jääb viimasele vahendajale
+  - Vahendid jaotatakse kõigi tee sõlmpunktide vahel
+  - Vahendid blokeeritakse jäädavalt
+explanation: |
+  Kui HTLC aegub ilma saladuse avaldamata, tühistatakse makse ja vahendid tagastatakse saatjale, takistades seeläbi mis tahes vahendajal vahendeid endale jätta.

@@ -1,0 +1,9 @@
+question: Quelle solution alternative est mentionnée pour les entreprises qui préfèrent un environnement de vente au détail en ligne tout-en-un ?
+answer: Be-BOP
+wrong_answers:
+  - Phoenix
+  - Nœud ouvert
+  - Swiss Bitcoin Pay
+explanation: |
+  Be-BOP est une option pour ceux qui souhaitent une boutique en ligne intégrée qui facilite les paiements en bitcoins.
+reviewed: false

@@ -1,0 +1,7 @@
+---
+term: FIBRE
+
+---
+Forkortelse for "*Fast Internet Bitcoin Relay Engine*". Det er en protokoll designet av Matt Corallo i 2016 for å øke hastigheten på distribusjonen av Bitcoin-blokker over hele verden. Målet var å redusere spredningsforsinkelser så nær de fysiske grensene som mulig. FIBRE hadde som mål å sikre en mer rettferdig fordeling av utvinningsmuligheter ved å sørge for at andelen blokker som utvinnes av en deltaker, nøyaktig gjenspeiler deres bidrag i form av datakraft, uavhengig av deres posisjon i nettverket.
+
+Forsinkelser i blokkoverføringen kan favorisere store, godt tilkoblede utvinningsgrupper, som ofte befinner seg nær hverandre, på bekostning av mindre grupper. Dette fenomenet kan over tid øke sentraliseringen av utvinningen og redusere den generelle sikkerheten i systemet. For å løse dette problemet innførte FIBRE feilkorrigeringskoder og overføring av tilleggsdata for å motvirke pakketap, samt bruk av kompakte blokker som ligner på dem som er beskrevet i BIP152, alt sammen via UDP for å omgå visse TCP-begrensninger. FIBRE ble likevel forlatt i 2020, hovedsakelig på grunn av avhengigheten av én enkelt vedlikeholder og det faktum at innføringen av BIP152 gjorde et slikt system mindre viktig.

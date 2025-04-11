@@ -1,9 +1,0 @@
-question: ¿Cuál es el objetivo de enrutamiento de transacciones en la Red Lightning?
-answer: Optimizar la velocidad, seguridad y eficiencia de las transacciones mientras se preserva la privacidad del usuario.
-wrong_answers:
-  - Aumentar el tamaño de la cadena de bloques.
-  - Disminuir la velocidad de las transacciones.
-  - Comprometer la privacidad del usuario.
-explanation: |
-  El objetivo de enrutamiento de transacciones en la Red Lightning es optimizar la velocidad, seguridad y eficiencia de las transacciones. Esto se logra considerando diversos factores como las tarifas, el tiempo de vencimiento de HTLC, el número de nodos intermedios y un factor de aleatoriedad. Al mismo tiempo, el sistema está diseñado para preservar la privacidad del usuario al no revelar la distribución precisa de la liquidez.
-reviewed: false

@@ -1,0 +1,9 @@
+question: ¿Qué ventajas ofrece Lightning a los comerciantes en cuanto a la firmeza del pago?
+answer: Los pagos con Lightning finalizan casi instantáneamente, lo que reduce el riesgo de anulaciones o fraude.
+wrong_answers:
+  - Requiere 24 horas de espera antes de que los fondos sean gastables.
+  - Permite a los clientes reclamar su pago en cualquier momento.
+  - Hace que las transacciones sean totalmente reversibles hasta 90 días.
+explanation: |
+  Con Lightning, una vez que un pago se enruta y liquida a través de la red, es definitivo. Esto elimina las situaciones de devolución de cargos que se dan con los sistemas de pago tradicionales.
+reviewed: false

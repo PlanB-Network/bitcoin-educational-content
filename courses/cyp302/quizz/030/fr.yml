@@ -1,0 +1,9 @@
+question: Quelle est la différence principale entre une chaîne random et une chaîne pseudorandom ?
+answer: Une chaîne random est issue d'un processus aléatoire pur, tandis qu'une chaîne pseudorandom est générée par un algorithme à partir d'une graine
+wrong_answers:
+  - Une chaîne pseudorandom utilise uniquement des bits 1
+  - Une chaîne random est toujours plus longue qu'une chaîne pseudorandom, car il y a une action naturelle dessus
+  - Une chaîne pseudorandom est définie par un modèle strictement binaire, tandis qu'une chaîne random est définie par un modèle strictement hexadécimal
+explanation: |
+  Une chaîne random provient d'un processus aléatoire direct, alors qu'une chaîne pseudorandom est produite à l'aide d'un algorithme d'expansion et d'une graine initiale.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mis on tehingus sisend?
+answer: Viide eelnevale kulutamata UTXO-le.
+wrong_answers:
+  - Kinnitusignaal kaevuritelt.
+  - Uus plokk, mis on lisatud plokiahelasse.
+  - Kontrollkood tehingu turvamiseks.
+explanation: |
+  Iga tehingu sisend on viide UTXO-le, mis tähendab eelmise tehingu väljundit.
+reviewed: false

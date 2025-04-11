@@ -1,0 +1,13 @@
+question: Millised riskid on seotud kolmanda osapoole sõlme kasutamisega?
+
+answer: Tsensuur ja tegevuste jälgimine.
+
+wrong_answers:
+  - Bitcoini kaotus.
+  - Tehingutasude tõus.
+  - Bitcoini vargus ja jälgimine.
+
+explanation: |
+  Kui kasutate sõlme, mis ei kuulu teile, on oht, et teie tehingute edastamine blokeeritakse ja teid jälgib operaator.
+
+reviewed: false

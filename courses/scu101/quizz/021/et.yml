@@ -1,0 +1,11 @@
+question: Mis on potentsiaalne oht kasutades kräkitud tarkvara, mida ei saa uuendada?
+answer: Viiruse saabumine selle ebaseadusliku allalaadimise ajal ja ebaturvaline kasutamine uute rünnakuvormide vastu.
+wrong_answers:
+  - Tarkvara lakkab teatud aja möödudes töötamast.
+  - Tarkvarale ei lisandu uusi funktsioone.
+  - Tarkvara tarbib rohkem süsteemi ressursse.
+explanation: |
+  Kräkitud tarkvara, mida ei saa uuendada, kujutab endast kahekordset potentsiaalset
+  ohtu. See võib tuua viiruse selle ebaseadusliku allalaadimise ajal kahtlaselt veebilehelt
+  ja see võib olla ebaturvaline uute rünnakuvormide vastu.
+reviewed: false

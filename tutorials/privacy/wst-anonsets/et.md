@@ -1,5 +1,5 @@
 ---
-name: Whirlpooli statistikatööriistad - Anonsets
+name: Whirlpool Stats Tools - Anonsets
 description: Mõista anonset'i kontseptsiooni ja kuidas seda WST abil arvutada
 ---
 ![kaas](assets/cover.webp)

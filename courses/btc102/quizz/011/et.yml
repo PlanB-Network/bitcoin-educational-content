@@ -1,0 +1,13 @@
+question: Mis on peamine kasu VPN-i kasutamisest?
+answer: See kaitseb teie privaatsust, maskeerides teie IP-aadressi
+wrong_answers:
+  - See kiirendab teie internetiühendust
+  - See pakub tasuta juurdepääsu tasulistele teenustele
+  - See kaitseb teie arvutit viiruste eest
+explanation: |
+  VPN ehk Virtuaalne Privaatvõrk kaitseb teie privaatsust, maskeerides
+  teie
+
+  IP-aadressi. Kuigi see ei muuda teid täielikult anonüümseks, on see siiski lihtne
+
+  ja tõhus samm teie veebipõhise privaatsuse parandamiseks.

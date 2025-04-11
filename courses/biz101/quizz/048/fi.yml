@@ -1,0 +1,9 @@
+question: Mikä on perinteisten maksujärjestelmien ensisijainen tehtävä?
+answer: Mahdollistaa varojen siirron kahden osapuolen välillä
+wrong_answers:
+  - Luodaan yksi maailmanlaajuinen valuutta, jota keskusviranomainen sääntelee
+  - Kansainvälisen kaupan helpottaminen
+  - Rahansiirtojen rajoittaminen vain henkilökohtaiseen käteisvarojen vaihtoon
+explanation: |
+  Perinteiset maksujärjestelmät tarjoavat mekanismeja ja infrastruktuuria varojen siirtämiseen maksajien ja maksunsaajien välillä sekä paikallisissa että kansainvälisissä yhteyksissä.
+reviewed: false

@@ -1,11 +1,9 @@
-question: Tính thanh khoản của một kênh trong Mạng Lưới Lightning là gì?
-answer: Số lượng satoshis có thể được chuyển qua kênh.
+question: Loại thanh khoản nào mà một người bán trên Mạng Lưới Lightning cần quản lý chủ yếu để chấp nhận thanh toán?
+answer: Thanh khoản đến
 wrong_answers:
-  - Số lượng giao dịch có thể được thực hiện qua kênh.
-  - Tốc độ mà các giao dịch có thể được thực hiện qua kênh.
-  - Chi phí của việc thực hiện một giao dịch qua kênh.
+  - Thanh khoản đi
+  - Một tổng dung lượng kênh cao
+  - Một số dư trên chuỗi cao
 explanation: |
-  Trong Mạng Lưới Lightning, tính thanh khoản của một kênh đề cập đến số lượng
-  satoshis có thể được chuyển qua kênh. Tính thanh khoản của những
-  kênh này không thể được chuyển đến các kênh thanh khoản khác.
+  Để nhận thanh toán, người bán cần phải có thanh khoản đến, nghĩa là phải có nguồn vốn sẵn có ở phía đối diện của kênh để họ có thể chấp nhận thanh toán.
 reviewed: false

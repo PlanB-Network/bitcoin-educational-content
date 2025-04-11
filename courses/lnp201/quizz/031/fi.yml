@@ -1,12 +1,9 @@
-question: Mikä on peruutusavaimen tarkoitus sitoumustapahtumassa?
-answer: Se mahdollistaa toisen osapuolen siirtää varoja odottamatta aikalukon päättymistä, jos toinen yrittää huijata.
+question: Mikä rajoittaa välillisen maksun määrää Lightning-verkossa?
+answer: Pienin saatavilla oleva likviditeetti valitun reitin kanavassa
 wrong_answers:
-  - Se mahdollistaa toisen osapuolen välittömästi saada rahansa takaisin.
-  - Se mahdollistaa toisen osapuolen luoda uuden sitoumustapahtuman.
-  - Se mahdollistaa toisen osapuolen pidentää aikalukkoa.
+  - Välisolmujen määrä
+  - Lightning-verkon kokonaiskapasiteetti
+  - Kunkin solmun asettamat reititysmaksut
 explanation: |
-  Peruutusavain on turvatoimi sitoumustapahtumassa.
-  Jos toinen osapuoli yrittää huijata julkaisemalla vanhan tilan, toinen osapuoli voi käyttää
-  peruutusavainta siirtääkseen varoja odottamatta aikalukon päättymistä,
-  tehokkaasti rankaisten huijaria.
+  Suurin määrä, jonka välillinen maksu voi siirtää, riippuu käytettyjen kanavien alhaisimmasta saatavilla olevasta likviditeetistä, sillä jokaisen kanavan on sopeutettava varat kummallakin puolella.
 reviewed: false

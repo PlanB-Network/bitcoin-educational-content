@@ -1,0 +1,9 @@
+question: Qual è la prassi consigliata per quanto riguarda la custodia quando si acquista Bitcoin?
+answer: Considerate le soluzioni di autodeposito dopo gli acquisti iniziali, in modo che l'azienda controlli realmente i propri beni.
+wrong_answers:
+  - Non ritirate mai i Bitcoin dalla borsa in nessun caso.
+  - Affidatevi sempre a un unico depositario senza rivedere le misure di sicurezza.
+  - Memorizzare tutti i Bitcoin su un sito web pubblico con una semplice password
+explanation: |
+  Dopo aver acquistato Bitcoin, spostarlo in un portafoglio di autodeposito assicura all'azienda il controllo diretto dei suoi fondi. Anche se i depositari terzi possono essere convenienti, l'autodeposito è in linea con il principio della sovranità finanziaria di Bitcoin.
+reviewed: false

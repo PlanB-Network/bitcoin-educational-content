@@ -1,9 +1,0 @@
-question: Was ist das Hauptziel von KYC?
-answer: Das Hauptziel von KYC ist es, Geldwäsche, Terrorismusfinanzierung und Steuerhinterziehung zu bekämpfen.
-wrong_answers:
-  - Um die Kosten der Einhaltung von Vorschriften für Unternehmen zu erhöhen
-  - Um sensible Datenbanken mit persönlichen Benutzerinformationen zu zentralisieren
-  - Um französische Unternehmen zu entmutigen und ihre Wettbewerbsfähigkeit zu beeinträchtigen
-explanation: |
-  KYC, oder "Know Your Customer", ist ein regulatorischer Standard, der darauf abzielt, Geldwäsche, Terrorismusfinanzierung und Steuerhinterziehung durch die Erfassung privater Kundendaten zu bekämpfen.
-reviewed: false

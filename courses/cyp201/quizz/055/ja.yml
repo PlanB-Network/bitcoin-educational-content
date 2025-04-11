@@ -1,9 +1,9 @@
-question: ビットコインウォレット内のプライベートキーの集まりを指す際に時々使われる俗称は何ですか？
-answer: Just a Bunch Of Keys (JBOC)
+question: HMAC-SHA512関数をシードに適用した出力は何部分に分かれていますか？
+answer: 256ビットの2部分
 wrong_answers:
-  - Just a Bunch Of Coins (JBOC)
-  - Just a Bunch Of Cryptos (JBOC)
-  - Just a Bunch Of Codes (JBOC)
+  - 512ビットの1つの部分
+  - 170ビットの3部分
+  - 128ビットの4部分
 explanation: |
-  ビットコインウォレット内の単一のマスターキーから派生したプライベートな暗号キーの集まりは、少し俗っぽい名前である"Just a Bunch Of Keys" (JBOC)と呼ばれることがあります。
+  HMAC-SHA512の出力は2部分に分かれます: マスタープライベートキー（256ビット）とマスターチェーンコード（256ビット）です。
 reviewed: false

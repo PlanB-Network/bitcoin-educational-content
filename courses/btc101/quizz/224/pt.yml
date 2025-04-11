@@ -1,9 +1,10 @@
-question: O que o Lightning Network permite?
-answer: Transações instantâneas de Bitcoin com baixo custo.
+question: O que a Lightning Network permite?
+answer: Transações instantâneas e de baixo custo em Bitcoin.
 wrong_answers:
-  - Transações instantâneas de Bitcoin com alto custo.
-  - Transações de Bitcoin com baixo custo, porém com atraso.
-  - Transações de Bitcoin com alto custo, porém com atraso.
-explanation: |
-  O Lightning Network permite transações instantâneas de Bitcoin com baixo custo, resolvendo assim o problema de escalabilidade do Bitcoin.
-reviewed: false
+  - Transações instantâneas e de alto custo em Bitcoin.
+  - Transações atrasadas e de baixo custo em Bitcoin.
+  - Transações atrasadas e de alto custo em Bitcoin.
+explanation: >-
+  A Lightning Network permite transações instantâneas e de baixo custo em Bitcoin,
+  resolvendo assim o problema de escalabilidade do Bitcoin.
+reviewed: true

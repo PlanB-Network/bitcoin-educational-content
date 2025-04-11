@@ -5,7 +5,7 @@ wrong_answers:
   - It should be desired by as many people as possible, some of the time.
   - It should be desired by a few people, some of the time.
 explanation: |
-  A good with high salability is one that is widely desired and can be
-  easily exchanged for other goods or services. This makes it suitable for use as
-  money.
-reviewed: false
+  A good with high salability is one that is widely desired
+  and can be easily exchanged for other goods or services.
+  This makes it suitable for use as money.
+reviewed: true

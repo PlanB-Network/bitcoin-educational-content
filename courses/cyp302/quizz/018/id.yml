@@ -1,0 +1,9 @@
+question: Dalam kasus apa kita dapat mengatakan bahwa dua kejadian adalah independen?
+answer: Probabilitas salah satu tidak mempengaruhi probabilitas yang lain
+wrong_answers:
+  - Kedua kejadian selalu terjadi secara bersamaan
+  - Mereka saling eksklusif
+  - Probabilitas gabungan mereka sama dengan probabilitas tertinggi dari kedua kejadian tersebut
+explanation: |
+  Dua kejadian dikatakan independen jika probabilitas salah satunya tidak mengubah probabilitas dari yang lain, seperti pengundian lotere yang tidak mempengaruhi cuaca pada hari berikutnya.
+reviewed: false

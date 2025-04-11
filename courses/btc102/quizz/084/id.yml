@@ -1,0 +1,11 @@
+question: Apa tujuan utama dari dompet dingin bagi pengguna Bitcoin yang sering?
+answer: Untuk menyimpan bitcoin secara aman untuk jangka panjang.
+wrong_answers:
+  - Untuk secara rutin mengirim dan menerima bitcoin untuk penggunaan sehari-hari.
+  - Untuk berdagang bitcoin di platform pertukaran.
+  - Untuk menambang bitcoin baru.
+explanation: |
+  Dompet dingin adalah jenis dompet Bitcoin yang tidak terhubung ke
+  internet, membuatnya kurang rentan terhadap peretasan dan pencurian. Biasanya digunakan untuk
+  menyimpan bitcoin yang tidak diperlukan untuk transaksi sehari-hari.
+reviewed: false

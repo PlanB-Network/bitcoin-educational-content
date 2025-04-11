@@ -1,11 +1,14 @@
 question: Những kỹ năng nào là cần thiết trong lĩnh vực an ninh mạng?
+
 answer: Phân tích log, phản ứng sự cố
+
 wrong_answers:
   - Thiết kế đồ họa, biên tập video
   - Bán hàng, tiếp thị
   - Nấu ăn, làm bánh
-explanation: |
-  Chương này đề cập đến phân tích log và phản ứng sự cố là một số
 
+explanation:
+  Chương này đề cập đến phân tích log và phản ứng sự cố là
+  một số kỹ năng cần thiết trong lĩnh vực an ninh mạng.
 
-  kỹ năng cần thiết trong lĩnh vực an ninh mạng.
+reviewed: true

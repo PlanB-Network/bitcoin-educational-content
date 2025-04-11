@@ -1,9 +1,8 @@
-question: ¿Cuál es la ecuación que define una curva elíptica?
-answer: "y\xB2 = x\xB3 + ax + b"
+question: ¿Cuál es el propósito de SIGHASH_SINGLE?
+answer: Cubrir una entrada y su salida correspondiente
 wrong_answers:
-  - "y\xB2 = x\xB3 + ax"
-  - "y\xB2 = x\xB3 + b"
-  - "y\xB2 = x\xB3 + ax - b"
+  - Cubrir todas las entradas y salidas
+  - Cubrir solo las entradas
+  - Cubrir todas las salidas excepto una
 explanation: |
-  "Una curva elíptica se define mediante la ecuación y\xB2 = x\xB3 + ax + b. Cada punto en esta curva tiene una simetría distintiva que es clave para su utilidad en criptografía."
-reviewed: false
+  SIGHASH_SINGLE cubre una única entrada y una única salida correspondiente al índice de la entrada firmada, dejando el resto modificable.

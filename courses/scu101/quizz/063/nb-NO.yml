@@ -1,0 +1,10 @@
+question: Hva er noen av aspektene ved kryptografi som brukes i cybersikkerhet?
+answer: SSL/TLS, symmetrisk/asymmetrisk kryptering
+wrong_answers:
+  - RSA, DSA, ECC
+  - AES, DES, 3DES
+  - MD5, SHA-1, SHA-256
+explanation: |
+  Kapittelet lister opp SSL/TLS og symmetrisk/asymmetrisk kryptering som noen
+  av aspektene ved kryptografi som brukes i cybersikkerhet.
+reviewed: false

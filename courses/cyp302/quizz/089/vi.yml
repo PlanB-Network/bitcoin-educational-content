@@ -1,0 +1,9 @@
+question: Tại sao việc sử dụng một nonce ngẫu nhiên lại quan trọng trong các phương pháp CBC và OFB?
+answer: Nó đảm bảo rằng mỗi phiên mã hóa là duy nhất, ngay cả đối với dữ liệu giống hệt nhau.
+wrong_answers:
+  - Nó giảm độ dài khóa trong suốt quá trình mã hóa.
+  - Nó làm cho quá trình mã hóa nhanh hơn.
+  - Nó làm cho mã của thuật toán trở nên đẹp hơn đối với con người.
+explanation: |
+  Bằng cách sử dụng một nonce ngẫu nhiên cho mỗi phiên, các phương pháp CBC và OFB đảm bảo rằng mỗi lần mã hóa là duy nhất, điều này ngăn chặn các cuộc tấn công tận dụng dữ liệu giống hệt nhau.
+reviewed: false

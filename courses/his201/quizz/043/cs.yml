@@ -1,0 +1,9 @@
+question: Co nabízel Bitcoin Faucet vytvořený v červnu 2010 Gavinem Andresenem?
+answer: Bitcoiny
+wrong_answers:
+  - Nákupní poukazy
+  - Slevy na poplatky pro Bitcoin Market
+  - Možnosti těžit blok
+explanation: |
+  Tato služba původně rozdávala 5 bitcoinů na požádání, aby lidé mohli vyzkoušet systém. Toto množství bylo postupně snižováno a faucet byl uzavřen v roce 2012.
+reviewed: false

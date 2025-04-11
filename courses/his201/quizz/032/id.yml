@@ -1,0 +1,9 @@
+question: Siapakah nama pemuda asal Finlandia yang membantu Satoshi dalam komunikasi tentang proyeknya pada tahun 2009, terutama dengan mengelola situs web dan forum Bitcoin?
+answer: Martti Malmi
+wrong_answers:
+  - Mike Hearn
+  - Gavin Andresen
+  - RPOW
+explanation: |
+  Dia menghubungi Satoshi pada April 2009. Satoshi langsung menugaskannya untuk menulis FAQ dan presentasi untuk situs web tersebut. Martti Malmi adalah tangan kanan Satoshi selama lebih dari setahun.
+reviewed: false

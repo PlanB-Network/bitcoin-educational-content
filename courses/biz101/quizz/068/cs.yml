@@ -1,0 +1,9 @@
+question: Jak lze BTC Pay Server nasadit v profesionálním prostředí?
+answer: Na místě nebo prostřednictvím cloudového hostingu
+wrong_answers:
+  - Výhradně na vyhrazených hardwarových zařízeních
+  - Prostřednictvím plně outsourcované služby třetí strany
+  - Jako mobilní aplikace
+explanation: |
+  Flexibilita nasazení BTC Pay Serveru na místě nebo v cloudu umožňuje podnikům zvolit si nastavení, které nejlépe vyhovuje jejich provozním potřebám.
+reviewed: false

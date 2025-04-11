@@ -1,0 +1,9 @@
+question: Milline vastustest esindab ühte peamistest ahela analüüsi eesmärkidest?
+answer: Gruppida erinevaid tegevusi Bitcoinis, et määrata kasutaja ainulaadsust.
+wrong_answers:
+  - Optimeerida kaevandamise jõudlust võrgus.
+  - Rakendada protokollil õiglust, et jõustada seadust vastavalt jurisdiktsioonidele.
+  - Suurendada Bitcoin tehingute konfidentsiaalsust.
+explanation: |
+  Üks ahela analüüsi eesmärke on grupeerida erinevaid tegevusi Bitcoinis, et määrata tegevusi sooritanud kasutaja ainulaadsust. Järgnevalt on võimalik püüda seostada seda tegevuste kogumit reaalse identiteediga.
+reviewed: false

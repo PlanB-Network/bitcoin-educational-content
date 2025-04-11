@@ -1,0 +1,7 @@
+---
+term: BLÜTENFILTER
+
+---
+Eine probabilistische Datenstruktur, mit der geprüft werden kann, ob ein Element Teil einer Menge ist. Bloom-Filter ermöglichen schnelle Zugehörigkeitsprüfungen, ohne den gesamten Datensatz zu testen. Sie sind besonders nützlich in Kontexten, in denen Platz und Geschwindigkeit entscheidend sind, aber eine niedrige und kontrollierte Fehlerrate akzeptabel ist. Bloom-Filter erzeugen zwar keine falsch-negativen, aber eine gewisse Anzahl von falsch-positiven Ergebnissen. Wenn ein Element zum Filter hinzugefügt wird, erzeugen mehrere Hash-Funktionen Positionen in einem Bit-Array. Um die Zugehörigkeit zu prüfen, werden dieselben Hash-Funktionen verwendet. Wenn alle entsprechenden Bits gesetzt sind, ist das Element wahrscheinlich in der Menge enthalten, allerdings mit dem Risiko von Fehlalarmen. Bloom-Filter sind in den Bereichen Datenbanken und Netzwerke weit verbreitet. Bekannt ist vor allem, dass Google sie für sein komprimiertes Datenbankmanagementsystem *BigTable* verwendet. Im Bitcoin-Protokoll werden sie insbesondere für SPV-Wallets gemäß BIP37 verwendet.
+
+> wenn speziell über die Verwendung von Bloom-Filtern im Zusammenhang mit Bitcoin-Transaktionen gesprochen wird, ist manchmal der Begriff "Transaction Bloom Filtering" zu hören

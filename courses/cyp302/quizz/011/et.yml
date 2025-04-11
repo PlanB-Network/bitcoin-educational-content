@@ -1,0 +1,8 @@
+question: Mis hõlbustab kohalike sidevahendite pealtkuulamist halvasti varustatud ründajate poolt?
+answer: Raadiolainete kasutamine juhtmeta ühenduste jaoks
+wrong_answers:
+  - Kogu andmete suunamine satelliitide kaudu
+  - Andmete edastamine ainult koaksiaalkaablit kasutades
+  - Andmete saatmine ainult optiliste kiudude kaudu
+explanation: |
+  Juhtmeta ühendused, mis edastavad andmeid raadiolainete kaudu, muudavad pealtkuulamise ründajate jaoks lihtsamaks, kuna selleks ei ole vaja füüsilist juurdepääsu võrgule.

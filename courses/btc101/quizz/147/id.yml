@@ -1,0 +1,13 @@
+question: Apa implikasi jika blok-blok tersebut 100 kali lebih berat?
+answer: Menjalankan node Bitcoin tidak akan dapat diakses oleh orang biasa, mengganggu desentralisasi protokol serta keabadian transaksi dan aturan konsensus
+wrong_answers:
+  - Menjalankan node Bitcoin akan lebih dapat diakses oleh orang biasa, meningkatkan desentralisasi protokol serta keabadian transaksi dan aturan konsensus
+  - Kapasitas transaksi jaringan akan berkurang
+  - Hadiah blok untuk penambang akan meningkat
+explanation: |
+  Jika blok-blok tersebut 100 kali lebih berat, menjalankan node Bitcoin akan memerlukan
+  hard disk 50TB, bandwidth lebih dari 500GB/bulan, dan perangkat keras yang mampu memvalidasi
+  ratusan ribu transaksi dalam waktu kurang dari 10 menit. Ini akan membuat menjalankan
+  node Bitcoin tidak dapat diakses oleh orang biasa, mengganggu desentralisasi
+  protokol serta keabadian transaksi dan aturan konsensus.
+reviewed: false

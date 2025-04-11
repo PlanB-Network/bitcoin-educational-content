@@ -1,0 +1,17 @@
+id: fe150e16-2299-4d16-ac1b-522e6e3d839b
+start_date: 2025-11-07 13:00:00
+end_date: 2025-11-08 20:00:00
+timezone: Brazil/East
+address_city_country: São Paulo, Brazil
+name: SatsConf 2025
+type: conference
+description: Brazil's Largest 100% Bitcoin Event
+language:
+  - en
+  - pt
+links:
+  website: https://www.satsconf.com.br/2025
+project_id: f6680e3a-6fcf-4cf6-9322-5b3fa0998a77
+tags:
+  - business
+  - adoption

@@ -1,12 +1,9 @@
-question: What is the maximum amount of Bitcoin that can be transmitted in a Lightning
-  payment channel at any given time?
-answer: The fixed capacity defined in advance by the users
+question: What is the main goal of the Lightning Network?
+answer: To improve Bitcoin's scalability to enable fast and low-cost payments
 wrong_answers:
-  - The total amount of Bitcoin owned by the two users
-  - The total amount of Bitcoin in the entire Lightning Network
-  - The total amount of Bitcoin that has been transacted in the channel so far
+  - Eliminate transaction fees on the Bitcoin blockchain
+  - Create an alternative to Bitcoin for high-value payments
+  - Simplify exchanges between different cryptocurrencies
 explanation: |
-  When a Lightning payment channel is opened, it is given a fixed capacity,
-  which is defined in advance by the users. This capacity represents the maximum amount
-  of Bitcoin that can be transmitted in the channel at any given time.
+  The Lightning Network aims to enhance Bitcoin's scalability by enabling fast and inexpensive transactions through off-chain payment channels.
 reviewed: false

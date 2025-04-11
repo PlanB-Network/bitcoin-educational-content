@@ -1,0 +1,9 @@
+question: Hva er en av de viktigste grunnene til at Bitcoin ble opprettet?
+answer: For å foreslå et forsøk på å endre det finansielle systemet.
+wrong_answers:
+  - For å foreslå et forsøk på å eliminere penger.
+  - For å foreslå et forsøk på å skape en ny form for AI-teknologi.
+  - For å foreslå et forsøk på å kontrollere verdens befolkning.
+explanation: >-
+  Teksten nevner at Satoshi opprettet Bitcoin i 2008 for å foreslå et
+  forsøk på å endre det finansielle systemet.

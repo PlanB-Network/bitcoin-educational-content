@@ -1,0 +1,9 @@
+question: Como é definida uma string aleatória neste capítulo?
+answer: Como uma string escolhida uniformemente entre todas as strings do mesmo comprimento
+wrong_answers:
+  - Como uma string criada apenas com bits 0 e 1
+  - Como uma string obtida a partir de uma seleção manual
+  - Como uma string de comprimento variável resultante de um processo de criptografia
+explanation: |
+  Uma string aleatória é definida como sendo de uma seleção uniforme entre todas as possíveis strings do mesmo comprimento.
+reviewed: false

@@ -1,0 +1,7 @@
+---
+term: GARPU KERAS
+
+---
+Sebuah perubahan pada aturan protokol dengan cara yang tidak kompatibel ke belakang. Perubahan ini menyebabkan pemisahan permanen jaringan node Bitcoin menjadi dua kelompok yang berbeda: node dengan pembaruan dan node tanpa pembaruan. Pemisahan ini diwujudkan dengan pembagian blockchain asli menjadi dua blockchain yang terpisah, yang memiliki sejarah yang sama, oleh karena itu istilah "fork" digunakan, yang dapat diterjemahkan ke dalam bahasa Perancis sebagai "embranchement, bifurkasi."
+
+Sebuah perubahan dikatakan tidak kompatibel ke belakang jika perubahan tersebut bersifat ekstensif, yang berarti menghapus atau membuat aturan tertentu dari protokol menjadi kurang ketat, atau bilateral, yang berarti menambahkan aturan yang tidak sesuai dengan aturan lama. Dengan kata lain, sebuah hard fork terjadi ketika node tertentu membuat sebuah blok yang tadinya tidak valid menjadi valid. Hal ini menghasilkan pembentukan versi baru dari protokol, yang dapat menggantikan Bitcoin asli jika mayoritas ditemukan, atau menjadi altcoin independen jika hanya digunakan pada margin. Sebagai contoh, Bitcoin Cash (BCH) adalah sebuah hard fork dari Bitcoin. Garpu ini terjadi pada blok nomor 478.559, pada tanggal 1 Agustus 2017.

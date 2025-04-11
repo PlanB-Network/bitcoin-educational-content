@@ -1,9 +1,9 @@
-question: Ba chiều của vấn đề "sự trùng hợp kép về nhu cầu" là gì?
+question: Ba chiều của vấn đề sự trùng hợp kép về nhu cầu là gì?
 answer: Không gian, thời gian, và giữa các cá nhân.
 wrong_answers:
   - Không gian, thời gian, và nội tâm.
   - Không gian, liên thời gian, và giữa các cá nhân.
   - Liên không gian, thời gian, và giữa các cá nhân.
 explanation:
-  Vấn đề "sự trùng hợp kép về nhu cầu" ám chỉ khó khăn trong việc trao đổi hàng hóa khi cả hai bên cần phải sở hữu thứ mà đối phương mong muốn tại cùng một thời điểm và địa điểm. Vấn đề này có ba chiều; không gian (cùng một địa điểm), thời gian (cùng một thời điểm), và giữa các cá nhân (mong muốn lẫn nhau về hàng hóa của nhau).
+  Vấn đề sự trùng hợp kép về nhu cầu ám chỉ khó khăn trong việc trao đổi hàng hóa khi cả hai bên cần phải sở hữu thứ mà đối phương mong muốn tại cùng một thời điểm và địa điểm. Vấn đề này có ba chiều; không gian (cùng một địa điểm), thời gian (cùng một thời điểm), và giữa các cá nhân (mong muốn lẫn nhau về hàng hóa của nhau).
 reviewed: false

@@ -1,0 +1,9 @@
+question: Millised on eeldused pärandiplaani loomiseks vastavalt peatükile?
+answer: Rahulik hetk, ilma segajateta; 4-5 lehte valget paberit; Üks pastapliiats; Kaks ümbrikut; Telefoniraamat; Arvuti (valikuline)
+wrong_answers:
+  - Lärmakas keskkond; 10-15 lehte valget paberit; Üks harilik pliiats; Viis ümbrikut; Telefoniraamat; Arvuti (kohustuslik)
+  - Rahulik hetk, ilma segajateta; 1-2 lehte valget paberit; Üks marker; Üks ümbrik; Telefoniraamat; Arvuti (valikuline)
+  - Rahulik hetk, segajatega; 4-5 lehte valget paberit; Üks pastapliiats; Kaks ümbrikut; Telefoniraamat; Arvuti (valikuline)
+explanation: |
+  Peatükk soovitab, et pärandiplaani loomiseks on vaja rahulikku hetke ilma segajateta; 4-5 lehte valget paberit; pastapliiatsit; kahte ümbrikut; telefoniraamatut; ja arvutit (mis on valikuline).
+reviewed: false

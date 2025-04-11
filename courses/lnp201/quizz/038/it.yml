@@ -1,10 +1,9 @@
-question: Chi crea la transazione con il Timelock?
-answer: La persona che invia i soldi.
+question: Quale ruolo svolge il timelock nel funzionamento degli HTLC?
+answer: Fornisce un lasso di tempo per completare il pagamento prima della cancellazione
 wrong_answers:
-  - La persona che riceve i soldi.
-  - Entrambe le parti creano la transazione con il Timelock.
-  - Nessuna delle due parti crea la transazione con il Timelock.
+  - Aumenta la capacità del canale utilizzato
+  - Aggiunge un livello di privacy alla transazione
+  - Applica tariffe aggiuntive per ogni nodo intermediario
 explanation: |
-  La persona che invia i soldi crea la transazione con il Timelock.
-  Ciò impedisce loro di recuperare immediatamente i loro soldi.
+  Il timelock impone un lasso di tempo per completare un HTLC, il che permette il recupero dei fondi se la transazione non ha successo, cancellando il pagamento dopo questo periodo.
 reviewed: false

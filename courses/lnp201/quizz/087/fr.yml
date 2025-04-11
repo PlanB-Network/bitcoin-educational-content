@@ -1,9 +1,0 @@
-question: Quel est l'objectif des nœuds de routage en termes de liquidité sur le Lightning Network ?
-answer: Maintenir un équilibre de liquidité des deux côtés.
-wrong_answers:
-  - Ouvrir des canaux
-  - Se connecter à d'autres nœuds
-  - Acheter des canaux
-explanation: |
-  Pour les nœuds de routage sur le Lightning Network, l'objectif en termes de liquidité est de maintenir un équilibre des liquidités des deux côtés. Ils visent également à avoir une bonne connexion avec de nombreux nœuds afin d'être utilisés autant que possible.
-reviewed: false

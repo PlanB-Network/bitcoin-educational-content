@@ -5,7 +5,8 @@ wrong_answers:
   - Bitcoin miners can help in managing energy surpluses by selling the excess energy back to the grid.
   - Bitcoin miners can help in managing energy surpluses by converting the excess energy into heat.
 explanation: |
-  The chapter explains that Bitcoin miners can absorb energy surpluses,
-  acting as a flexible buffer, adjusting demand rather than supply. This can help
-  in managing energy surpluses and stabilizing power grids.
-reviewed: false
+  The chapter explains that Bitcoin miners can absorb energy
+  surpluses, acting as a flexible buffer, adjusting demand
+  rather than supply. This can help in managing energy
+  surpluses and stabilizing power grids.
+reviewed: true

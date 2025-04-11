@@ -27,6 +27,6 @@ BIPs then go through different statuses over their lifecycle. The current status
 * Active: For process BIPs only, this status is assigned once a certain consensus is reached;
 * Replaced / Obsolete: The BIP is no longer applicable or has been replaced by a more recent proposal that renders it unnecessary.
 
-![](../../dictionnaire/assets/25.png)
+![](../../dictionnaire/assets/25.webp)
 
 > ► *BIP is the acronym for "Bitcoin Improvement Proposal". In French, it can be translated as "Proposition d'amélioration de Bitcoin". However, most French texts directly use the acronym "BIP" as a common noun, sometimes feminine, sometimes masculine.*

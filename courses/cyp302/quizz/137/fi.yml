@@ -1,0 +1,9 @@
+question: Miksi salasanat tallennetaan usein hajautusarvoina turvallisille palvelimille?
+answer: Estääkseen salasanojen helpon paljastumisen vuodon sattuessa
+wrong_answers:
+  - Kasvattamaan käyttäjätietojen tallennustilaa
+  - Salasanojen reaaliaikaiseen symmetriseen salaukseen
+  - Mahdollistamaan käyttäjien kirjautumisen ilman salasanaa
+explanation: |
+  Tallentamalla salasanojen hajautusarvot, jopa tietomurron sattuessa, varsinaisia salasanoja ei voida suoraan lukea, mikä lisää turvallisuutta.
+reviewed: false

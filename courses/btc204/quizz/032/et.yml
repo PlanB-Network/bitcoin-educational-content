@@ -1,0 +1,9 @@
+question: Kui lihtsas maksetehingus täheldatakse, et sisendis ja ainult ühes kahest väljundist kasutatakse sama tüüpi skripti, siis milline väljund tõenäoliselt esindab vahetusraha?
+answer: See, millel on sama tüüpi skript kui sisendil.
+wrong_answers:
+  - See, millel on kõige uuem skripti tüüp.
+  - See, millel on erinev tüüpi skript sisendist.
+  - See, millel on mittestandardne skripti tüüp.
+explanation: |
+  Kui tehingus esineb versioonide taaskasutust, on mõistlik eeldada, et kasutajal on endiselt seotud UTXO. Seetõttu on väljund, millel on sama skripti versioon kui sisendil, tõenäoliselt vahetusraha.
+reviewed: false

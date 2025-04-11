@@ -1,0 +1,9 @@
+question: Mis on kulla peamine eelis valuutana?
+answer: See on uskumatult vastupidav
+wrong_answers:
+  - See on kergesti jagatav või transporditav pikki vahemaid
+  - Seda on kergesti tuvastatav
+  - Seda ei reguleeri valitsus
+explanation: |
+  Kuigi kulda ei ole kerge jagada või pikki vahemaid transportida, mis tegi sellest hea väärtuse säilitaja, ei ole see tänapäeval levinud valuuta.
+reviewed: true

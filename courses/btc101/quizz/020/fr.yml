@@ -1,9 +1,12 @@
-question: Quels sont les critères d'une monnaie efficace ?
-answer: Fongible, Divisible, Liquide
+question: Quelles sont les principales caractéristiques d'une monnaie efficace ?
+answer: Fongible, Divisible, Liquide.
 wrong_answers:
-  - Fongible, Divisible, Périssable
-  - Fongible, Indivisible, Liquide
-  - Non-fongible, Divisible, Liquide
+  - Fongible, Divisible, Périssable.
+  - Fongible, Indivisible, Liquide.
+  - Non-fongible, Divisible, Liquide.
 explanation: |
-  Les critères d'une monnaie efficace sont qu'elle doit être fongible (interchangeable sans perte de valeur), divisible (pour faciliter les transactions de différents volumes) et liquide (facilement convertible en biens ou services).
-reviewed: false
+  Une monnaie efficace doit être fongible (interchangeable
+  sans perte de valeur), divisible (séparable en petites
+  parties pour faciliter les transactions de différents volumes), et
+  liquide (facilement convertible en biens ou services).
+reviewed: true

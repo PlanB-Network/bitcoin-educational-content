@@ -1,10 +1,11 @@
-question: Quelles sont les solutions de chiffrement des données sur différents systèmes d'exploitation ?
+question: Quelles sont certaines solutions pour le chiffrement des données sur différents systèmes d'exploitation ?
 answer: BitLocker pour Windows, LUKS pour Linux et l'option intégrée pour Mac.
 wrong_answers:
   - BitLocker pour Linux, LUKS pour Mac et l'option intégrée pour Windows.
   - BitLocker pour Mac, LUKS pour Windows et l'option intégrée pour Linux.
   - LUKS pour tous les systèmes d'exploitation.
 explanation: |
-  Différents systèmes d'exploitation ont différentes solutions de chiffrement des données.
-  BitLocker est pour Windows, LUKS est pour Linux et Mac dispose d'une option intégrée pour le chiffrement des données.
-reviewed: false
+  Différents systèmes d'exploitation disposent de différentes solutions pour
+  le chiffrement des données. BitLocker est pour Windows, LUKS est pour
+  Linux, et Mac dispose d'une option intégrée pour le chiffrement des données.
+reviewed: true

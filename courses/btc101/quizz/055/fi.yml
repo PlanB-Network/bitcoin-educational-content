@@ -5,6 +5,6 @@ wrong_answers:
   - 50,51%.
   - 25,98%.
 explanation: |
-  Kuukausi, jolloin inflaatio oli korkeimmillaan Saksassa, oli lokakuu 1923, huipussaan
-  29,50%.
-reviewed: false
+  Kuukausi, jolla oli korkein inflaatioaste Saksassa, oli
+  lokakuu 1923, huipussaan 29,50%.
+reviewed: true

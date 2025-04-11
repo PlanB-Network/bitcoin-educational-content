@@ -1,9 +1,8 @@
-question: Was ist die Liquidität eines Kanals im Lightning-Netzwerk?
-answer: Die Menge an Satoshis, die durch den Kanal übertragen werden können.
+question: Welche Art von Liquidität muss ein Verkäufer im Lightning-Netzwerk hauptsächlich verwalten, um Zahlungen akzeptieren zu können?
+answer: Eingehende Liquidität
 wrong_answers:
-  - Die Anzahl der Transaktionen, die durch den Kanal durchgeführt werden können.
-  - Die Geschwindigkeit, mit der Transaktionen durch den Kanal durchgeführt werden können.
-  - Die Kosten für eine Transaktion durch den Kanal.
+  - Ausgehende Liquidität
+  - Eine hohe Gesamtkapazität des Kanals
+  - Ein hohes Guthaben on-chain
 explanation: |
-  Im Lightning-Netzwerk bezieht sich die Liquidität eines Kanals auf die Menge an Satoshis, die durch den Kanal übertragen werden können. Die Liquidität dieser Kanäle kann nicht auf andere Liquiditätskanäle übertragen werden.
-reviewed: false
+  Um Zahlungen zu erhalten, muss ein Verkäufer über eingehende Liquidität verfügen, was bedeutet, dass Mittel auf der gegenüberliegenden Seite des Kanals verfügbar sein müssen, damit sie Zahlungen akzeptieren können.

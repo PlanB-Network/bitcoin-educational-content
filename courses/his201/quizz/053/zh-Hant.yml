@@ -1,0 +1,9 @@
+question: 2010 年夏季的新增項目允許 Soft 隨後在 Bitcoin 中分叉？
+answer: OP_NOP 操作代碼
+wrong_answers:
+  - 警報系統
+  - 區塊大小限制
+  - 標準交易格式
+explanation: |
+  這些都是無操作指令，執行時不會使腳本失效。這些指令使 OP_CHECKLOCKTIMEVERIFY 和 OP_CHECKSEQUENCEVERIFY 在 2015/2016 年加入通訊協定。
+reviewed: false

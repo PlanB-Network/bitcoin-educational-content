@@ -1,10 +1,12 @@
-question: Co byste měli udělat, pokud na svém počítači zjistíte virus?
-answer: Odpojte ho od internetu, proveďte kompletní antivirovou kontrolu a smažte infikované soubory.
+question: Co byste měli dělat, pokud na vašem počítači detekujete virus?
+answer: Odpojte ho od internetu, proveďte kompletní antivirové skenování a smažte infikované soubory.
 wrong_answers:
-  - Pokračujte v běžném používání počítače.
+  - Pokračujte v normálním používání počítače.
   - Vypněte počítač a nechte ho vypnutý několik hodin.
   - Smažte všechny soubory na počítači.
 explanation: |
-  Pokud na svém počítači zjistíte virus, měli byste ho odpojit od internetu, aby se virus nemohl šířit nebo komunikovat s hackerem.
-  Poté proveďte kompletní antivirovou kontrolu a smažte infikované soubory.
-reviewed: false
+  Pokud na vašem počítači detekujete virus, měli byste
+  ho odpojit od internetu, aby se zabránilo šíření viru
+  nebo komunikaci s hackerem. Poté proveďte
+  kompletní antivirové skenování a smažte infikované soubory.
+reviewed: true

@@ -1,11 +1,9 @@
-question: Jaká je funkce funkce pbkdf2 při vytváření seedu?
-answer: Používá se společně s mnemonickou frází a heslem k získání seedu.
+question: Jaká je hlavní role Bitcoinové adresy v transakci?
+answer: Zamknout UTXO ve scriptPubKey
 wrong_answers:
-  - Používá se k generování hlavního soukromého klíče.
-  - Používá se k odvození dětských párů klíčů.
-  - Používá se k vytvoření hlavního řetězového kódu.
+  - Odemknout UTXO ve scriptSig
+  - Signalizovat konec transakce
+  - Identifikovat blok potvrzení
 explanation: |
-  Funkce pbkdf2 (Password-Based Key Derivation Function 2) se používá
-  společně s mnemonickou frází a heslem k získání seedu, což je 512bitová alfanumerická
-  sekvence, která slouží jako základ pro odvození klíčů peněženky.
+  Bitcoinová adresa je vložena do scriptPubKey, aby zamkla UTXO. Určuje nezbytné podmínky pro odemknutí prostředků.
 reviewed: false

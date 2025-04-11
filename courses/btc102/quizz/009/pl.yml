@@ -1,0 +1,13 @@
+question: Jaka jest główna funkcja menedżera haseł?
+answer: Przechowywanie haseł i zarządzanie nimi
+wrong_answers:
+  - Do losowych haseł generate
+  - Aby zapamiętać nazwy użytkowników
+  - Aby chronić komputer przed wirusami
+explanation: |
+  Menedżer haseł to oprogramowanie, które przechowuje hasła i zarządza nimi.
+  
+  Pomaga nigdy nie używać tego samego hasła dwa razy, wybierać złożone i bezpieczne hasła,
+  
+  i ułatwia zarządzanie bezpieczeństwem online"
+reviewed: false

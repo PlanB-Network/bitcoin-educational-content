@@ -1,10 +1,8 @@
-question: Mikä on JA-operaattorin rooli SHA256:n tiivistysfunktiossa?
-answer: Palauttaa 1 vain, jos molemmat operandit ovat yhtä suuret kuin 1
+question: Mikä on PBKDF2 n ensisijainen rooli Bitcoinissa?
+answer: HD-lompakon siemenen generointi
 wrong_answers:
-  - Käsitellä bittejä yksi kerrallaan niiden arvon mukaan
-  - Palauttaa operandin vastakkaisen arvon
-  - Siirtää bitit oikealle valitun numeron verran
+  - Transaktioiden autentikointi
+  - Yksityisavainten salaus
+  - Bitcoin-osoitteiden luonti
 explanation: |
-  SHA256:n tiivistysfunktiossa JA-operaattoria käytetään palauttamaan
-  1 vain, jos molemmat operandit ovat yhtä suuret kuin 1. Tämä tehdään käyttäen totuustaulua.
-reviewed: false
+  PBKDF2 tä käytetään johdattamaan siemen muistisanoista ja valinnaisesta salasanasta.

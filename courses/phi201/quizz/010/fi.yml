@@ -1,0 +1,9 @@
+question: Mikä on usein painopisteenä perinteisissä historian oppikirjoissa?
+answer: Sotilaalliset valloitukset ja johtajien elämäkerrat
+wrong_answers:
+  - Ideoiden kehitys ja filosofiset liikkeet
+  - Vapauden ja yksilöoikeuksien puolesta käydyt taistelut
+  - Tieteelliset ja teknologiset edistysaskeleet
+explanation: |
+  Perinteisissä historian oppikirjoissa korostetaan usein sotilaallisia valloituksia ja johtajien elämäkertoja, jättäen huomiotta ideoiden, sosiaalisten liikkeiden ja muiden alueiden edistysaskelten vaikutuksen.
+reviewed: false

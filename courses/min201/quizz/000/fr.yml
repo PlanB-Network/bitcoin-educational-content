@@ -1,9 +1,13 @@
-question: Quelle est la récompense minière actuelle dans le réseau Bitcoin?
+question: Quelle est la récompense actuelle pour le minage dans le réseau Bitcoin ?
 answer: La création de nouveaux bitcoins et les frais de transaction
 wrong_answers:
   - La création de nouveaux bitcoins uniquement
   - Les frais de transaction uniquement
-  - La création de nouveaux bitcoins, les frais de transaction et un bonus pour le mineur le plus rapide
+  - La création de nouveaux bitcoins, les frais de transaction, et un bonus pour le mineur le plus rapide
 explanation: |
-  La récompense minière actuelle dans le réseau Bitcoin est double. Elle comprend la création de nouveaux bitcoins, qui est passée de 50 bitcoins toutes les dix minutes initialement à 6,25 bitcoins aujourd'hui (2023). Elle comprend également les frais de transaction, ou frais de minage, des transactions que le mineur choisit d'inclure dans son bloc.
-reviewed: false
+  La récompense actuelle pour le minage dans le réseau Bitcoin est
+  double. Elle comprend la création de nouveaux bitcoins, qui
+  est passée de 50 bitcoins toutes les dix minutes initialement
+  à 6.25 bitcoins aujourd'hui (2023). Elle inclut également les frais de transaction, ou frais de minage, des transactions que le mineur
+  choisit d'inclure dans son bloc.
+reviewed: true

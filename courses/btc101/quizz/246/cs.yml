@@ -1,11 +1,12 @@
-question: Jaký je vztah Bitcoinu k budoucnosti technologií a společnosti?
-answer: Bitcoin představuje technologickou revoluci pro nové způsoby organizace na velkou škálu, umožňuje výměnu hodnot bez nutnosti důvěryhodné třetí strany.
+question: Jaký je vztah Bitcoinu k budoucnosti technologie a společnosti?
+answer: Bitcoin je technologická revoluce, která umožňuje výměnu hodnot bez jakékoli důvěryhodné třetí strany.
 wrong_answers:
-  - Bitcoin je formou technologie AI.
-  - Bitcoin je nástrojem pro kontrolu světové populace.
-  - Bitcoin je metodou, kterou vlády používají k sledování finančních transakcí svých občanů.
-explanation: >-
-  Text vysvětluje, že Bitcoin, podobně jako internet pro způsoby komunikace,
-  představuje technologickou revoluci pro nové způsoby organizace na velkou škálu, přináší
-  nám možnost výměny hodnot bez nutnosti důvěryhodné třetí strany.
-reviewed: false
+  - Bitcoin je forma technologie AI, která umožňuje lidem vyměňovat informace prostřednictvím centrálního serveru.
+  - Bitcoin je nástroj pro kontrolu světové populace, umožňující odstranění chudoby.
+  - Bitcoin je metoda, jak vlády mohou sledovat finanční transakce svých občanů.
+explanation: |
+  Text vysvětluje, že Bitcoin, podobně jako internet pro prostředky
+  komunikace, je technologická revoluce, která
+  vytváří šanci pro nové způsoby organizace na velké škále,
+  přinášející nám možnost výměny hodnot bez jakékoli důvěryhodné třetí strany.
+reviewed: true

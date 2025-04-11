@@ -1,0 +1,9 @@
+question: Hva er blokkstørrelsen i Bitcoin-protokollen?
+answer: 1MB
+wrong_answers:
+  - 0.5MB
+  - 2MB
+  - 3MB
+explanation: >-
+  Blokkstørrelsen i Bitcoin-protokollen er 1MB.
+reviewed: false

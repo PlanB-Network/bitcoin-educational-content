@@ -1,0 +1,9 @@
+question: Qual é a principal consideração ao escolher uma plataforma ou corretor para comprar Bitcoin para uma empresa?
+answer: A reputação do fornecedor, as medidas de segurança e a capacidade de exportar históricos de transacções para a contabilidade.
+wrong_answers:
+  - Garantir que a plataforma apenas suporta criptomoedas obscuras.
+  - Encontrar um fornecedor que se recusa a oferecer qualquer apoio ao cliente.
+  - Utilizar um serviço que proíbe a retirada de Bitcoin para uma carteira de autocustódia.
+explanation: |
+  Uma plataforma fiável deve ter uma reputação sólida, boa segurança e ferramentas para a manutenção de registos. A capacidade de levantar Bitcoin e de se integrar com software de contabilidade é também crucial para as operações comerciais.
+reviewed: false

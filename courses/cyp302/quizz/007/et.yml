@@ -1,0 +1,9 @@
+question: Mis eristab kaasaegset krüptograafia skeemi lihtsast krüpteerimisskeemist?
+answer: Sõnumi terviklikkuse ja autentsuse tagamine
+wrong_answers:
+  - Ühe salajase võtme kasutamine
+  - Võtme detsentraliseerimine
+  - Sõnumite anonümiseerimine
+explanation: |
+  Kaasaegne krüptograafia hõlmab skeeme, mis lähevad konfidentsiaalsusest kaugemale, et tagada terviklikkus ja autentsus, samuti mitte-eitamisvõime, erinevalt lihtsatest krüpteerimisskeemidest.
+reviewed: false

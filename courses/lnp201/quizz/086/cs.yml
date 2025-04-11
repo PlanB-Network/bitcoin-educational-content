@@ -1,8 +1,0 @@
-question: Co obchodníci potřebují pro správu likvidity na Lightning Network?
-answer: Potřebují příchozí likviditu od ostatních uzlů a aktérů
-wrong_answers:
-  - Potřebují otevřít kanály
-  - Potřebují udržovat vyváženost likvidity na obou stranách
-  - Potřebují koupit kanály
-explanation: |
-  Pro obchodníky na Lightning Network zahrnuje správa likvidity potřebu příchozí likvidity od ostatních uzlů a aktérů. To znamená, že musí být propojeni s lidmi.

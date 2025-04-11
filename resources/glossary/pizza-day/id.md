@@ -1,0 +1,5 @@
+---
+term: HARI PIZZA
+
+---
+Acara yang dirayakan setiap tanggal 22 Mei oleh komunitas Bitcoin untuk memperingati transaksi pertama bitcoin untuk barang fisik. Pada tahun 2010, Laszlo Hanyecz, seorang pengembang Bitcoin, [diusulkan di forum BitcoinTalk] (https://bitcointalk.org/index.php?topic=137.msg1141#msg1141) untuk membeli dua pizza besar seharga 10.000 BTC, yang saat itu setara dengan sekitar 40 dolar. Pada tanggal 22 Mei, dia mengkonfirmasi bahwa tawaran tersebut telah diterima oleh seorang mahasiswa berusia 19 tahun asal California, Jeremy Sturdivant, yang dikenal dengan nama samaran Jercos. Dia memesan dan meminta pizza dikirim dari Papa John's ke Laszlo di Florida. Hari ini menandai momen penting bagi Bitcoin karena menunjukkan potensinya sebagai mata uang pertukaran. Setiap tahun, komunitas merayakan acara ini dengan mengonsumsi pizza yang dibayar dengan bitcoin.

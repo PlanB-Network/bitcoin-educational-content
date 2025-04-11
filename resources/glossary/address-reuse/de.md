@@ -1,0 +1,10 @@
+---
+term: ADRESSE-WIEDERVERWENDUNG
+
+---
+Die Wiederverwendung von Adressen bezieht sich auf die Praxis, dieselbe Empfangsadresse zu verwenden, um mehrere UTXOs zu blockieren, manchmal innerhalb mehrerer verschiedener Transaktionen. Bitcoins werden normalerweise mit einem kryptografischen Schlüsselpaar gesperrt, das einer eindeutigen Adresse entspricht. Da die Blockchain öffentlich ist, lässt sich leicht feststellen, welche Adressen mit wie vielen Bitcoins verbunden sind. Wird dieselbe Adresse für mehrere Zahlungen wiederverwendet, kann man davon ausgehen, dass alle zugehörigen UTXOs demselben Unternehmen gehören. Daher stellt die Wiederverwendung von Adressen ein Problem für die Privatsphäre des Nutzers dar. Sie ermöglicht deterministische Verknüpfungen zwischen mehreren Transaktionen und UTXOs sowie eine kontinuierliche Verfolgung von Geldern auf der Kette. Satoshi Nakamoto hat dieses Problem bereits in seinem Weißbuch erwähnt:
+
+> "Als zusätzliche Firewall könnte für jede Transaktion ein neues Schlüsselpaar verwendet werden, um zu verhindern, dass sie mit einem gemeinsamen Besitzer verknüpft werden - Nakamoto, S. (2008). "Bitcoin: Ein Peer-to-Peer Electronic Cash System". Abgerufen unter https://bitcoin.org/bitcoin.pdf.
+Um die Privatsphäre so weit wie möglich zu schützen, wird dringend empfohlen, jede Empfängeradresse nur einmal zu verwenden. Für jede neue Zahlung sollte eine neue Adresse erstellt werden. Auch für den Wechsel von Ausgaben sollte eine neue Adresse verwendet werden. Glücklicherweise ist es dank der deterministischen und hierarchischen Wallets sehr einfach geworden, eine Vielzahl von Adressen zu verwenden. Alle Schlüsselpaare, die mit einer Wallet verbunden sind, lassen sich leicht aus dem Seed regenerieren. Das ist auch der Grund, warum die Wallet-Software immer eine neue, andere Adresse generiert, wenn Sie auf die Schaltfläche "Empfangen" klicken.
+
+> ► *Im Englischen heißt es "Address Reuse" (Adresswiederverwendung)

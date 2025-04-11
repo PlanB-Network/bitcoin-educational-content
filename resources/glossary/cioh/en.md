@@ -10,6 +10,6 @@ This analysis heuristic was discovered by Satoshi Nakamoto himself, who discusse
 
 Even today, CIOH remains the main heuristic used by chain analysis companies, along with address reuse.
 
-![](../../dictionnaire/assets/13.png)
+![](../../dictionnaire/assets/13.webp)
 
 > ► *In English, "CIOH" could be translated as "Common Input Ownership Heuristic".*

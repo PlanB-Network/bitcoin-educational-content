@@ -1,0 +1,8 @@
+question: Milline vastus esindab ühte kahest peamisest krüptograafia harust?
+answer: Sümmeetriline krüptograafia
+wrong_answers:
+  - Krüptoloogia
+  - Homomorfne krüpteerimine
+  - Krüptanalüüs
+explanation: |
+  Sümmeetriline krüptograafia on krüptograafia oluline haru, mis hõlmab krüpteerimisskeeme, kus sõnumite krüpteerimiseks ja dekrüpteerimiseks kasutatakse ühte ja sama võtit.

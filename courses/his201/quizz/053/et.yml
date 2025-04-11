@@ -1,0 +1,9 @@
+question: Milline lisandus suvel 2010 võimaldas Bitcoinis hiljem pehmeid kahvleid?
+answer: OP_NOP operatsioonikoodid
+wrong_answers:
+  - Häiresüsteem
+  - Ploki suuruse limiit
+  - Standardse tehingu formaat
+explanation: |
+  Need olid no-op juhised, mis ei muutnud skripti kehtetuks, kui neid täideti. Need võimaldasid protokolli lisada OP_CHECKLOCKTIMEVERIFY ja OP_CHECKSEQUENCEVERIFY 2015/2016 aastal.
+reviewed: false

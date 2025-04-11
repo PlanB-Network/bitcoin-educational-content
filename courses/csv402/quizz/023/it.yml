@@ -1,0 +1,9 @@
+question: Come fa RGB a prevenire la doppia spesa durante una transizione di stato?
+answer: Chiudere un sigillo esistente e crearne uno nuovo
+wrong_answers:
+  - Verificando tutte le transazioni sulla blockchain
+  - Imponendo firme multi-sig su ogni operazione
+  - Convalida dei dati dello Stato globale
+explanation: |
+  La chiusura di un sigillo con un UTXO spento dimostra che la transizione è unica e irrevocabile.
+reviewed: false

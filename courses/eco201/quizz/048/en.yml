@@ -5,7 +5,8 @@ wrong_answers:
   - This approach is based on temporary experiments and hypotheses.
   - This approach is based on the positivist approach often used in social sciences.
 explanation: |
-  The axiomatic-deductive method proposed by Ludwig von Mises is based
-  on fundamental propositions called axioms, similar to those used in mathematics.
-  This method is used to study social sciences, including economics.
-reviewed: false
+  Economic experiments cannot be reproduced in a laboratory, and it is important to 
+  note that observing a correlation between two variables does not prove a causal 
+  relationship between them. This is the reason why Ludwig von Mises proposed the 
+  axiomatic-deductive method.
+reviewed: true

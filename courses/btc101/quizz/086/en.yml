@@ -1,12 +1,13 @@
 question: What is a cold wallet?
-answer: A physical wallet where your keys are stored on a device that is not connected to the internet
+answer: A wallet in a physical device that stores your keys and is not connected to the internet.
 wrong_answers:
-  - A wallet that is physically cold to touch
-  - A wallet that is unpopular among Bitcoin users
-  - A wallet that is recommended for storing small amounts of bitcoins
+  - A wallet that is physically cold to touch.
+  - A wallet that is unpopular among Bitcoin users.
+  - A wallet that is recommended for storing small amounts of bitcoins.
 explanation: |
-  A cold wallet is a term used to describe a Bitcoin wallet that is stored
-  on a device that is not connected to the internet. This makes it less vulnerable
-  to online threats, but it also means that the wallet is less accessible for daily
-  transactions.
+  A cold wallet is a term used to describe a Bitcoin wallet
+  which is stored on a device that is not connected to the
+  internet. This makes it less vulnerable to online threats,
+  but it also means that the wallet is less accessible for
+  daily transactions.
 reviewed: true

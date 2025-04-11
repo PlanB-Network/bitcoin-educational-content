@@ -1,13 +1,14 @@
 question: Qual è la principale sfida per i professionisti nell'industria del mining di Bitcoin?
-answer: Prevedere il calo dei guadagni di efficienza in futuro e adattare di conseguenza le proprie strategie
+answer: Anticipare la riduzione dei guadagni in termini di efficienza in futuro e adeguare di conseguenza le loro strategie
 wrong_answers:
   - Trovare elettricità a basso costo
-  - Trovare una location adatta per le operazioni di mining
-  - Trovare investitori disposti a finanziare le proprie operazioni
+  - Trovare una posizione adatta per le operazioni di mining
+  - Trovare investitori disposti a finanziare le loro operazioni
 explanation: |
-  Di fronte ai continui progressi tecnologici nel campo del mining,
-  i professionisti
-  devono posizionarsi strategicamente. L'industria del mining è soggetta a continui
-  innovazioni e i protagonisti del settore devono prevedere il calo dei guadagni di efficienza
-  in futuro e adattare di conseguenza le proprie strategie.
-reviewed: false
+  Di fronte ai costanti avanzamenti tecnologici nel
+  campo del mining, i professionisti devono posizionarsi strategicamente.
+  L'industria del mining è soggetta a continue
+  innovazioni, e i soggetti del settore devono anticipare
+  la riduzione dei guadagni in termini di efficienza in futuro e adeguare di conseguenza
+  le loro strategie.
+reviewed: true

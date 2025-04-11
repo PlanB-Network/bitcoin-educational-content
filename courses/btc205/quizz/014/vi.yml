@@ -1,9 +1,0 @@
-question: Điểm bất lợi của giải pháp P2P HodlHodl là gì?
-answer: Địa chỉ email và danh tính số của người dùng được HodlHodl lưu trữ.
-wrong_answers:
-  - Nó không hỗ trợ việc mua và bán Bitcoin.
-  - Nó yêu cầu tạo một tài khoản để hoạt động.
-  - Nó không cung cấp nhiều khả năng đổi mới.
-explanation: |
-  Theo chương, một trong những điểm bất lợi của HodlHodl là địa chỉ email và danh tính số của người dùng được HodlHodl lưu trữ.
-reviewed: false

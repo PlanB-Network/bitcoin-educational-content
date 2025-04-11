@@ -1,0 +1,9 @@
+question: På en mynt, hva er de 3 grunnleggende kriteriene som gjør at en person kan forsikre seg om at de kan bruke den senere?
+answer: Mynten må være intakt, autentisk, og den må ikke være brukt mer enn én gang.
+wrong_answers:
+  - Mynten må være antikk, sjelden, og i god stand.
+  - Mynten må være universelt akseptert, lovlig, og oppbevart i en bank.
+  - Mynten må være godkjent av staten, registrert, og holdbar.
+explanation: |
+  Enhver rasjonell person som ønsker å akseptere en mynt, enten den er digital eller fysisk, sørger for at den ikke er endret, at den faktisk er en ekte mynt, og at den ikke kan gjenbrukes av utstederen.
+reviewed: false

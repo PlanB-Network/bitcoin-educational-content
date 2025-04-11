@@ -1,9 +1,9 @@
-question: Cos'è l'instradamento a cipolla nel contesto della Lightning Network?
-answer: Un metodo in cui gli intermediari non conoscono chi è il destinatario finale, né chi sta inviando il pagamento.
+question: Cosa permette di ottenere la tecnica di apertura a triangolo ai nodi partecipanti?
+answer: Liquidità in entrata e in uscita in ogni canale
 wrong_answers:
-  - Un metodo in cui gli intermediari conoscono sia il mittente che il destinatario.
-  - Un metodo in cui solo il mittente conosce il percorso e il prezzo.
-  - Un metodo in cui il destinatario finale decide il percorso prima di inviare il pagamento.
+  - Tariffe di routing ridotte
+  - Un numero illimitato di transazioni senza conferma
+  - Un collegamento diretto con ogni altro nodo della rete
 explanation: |
-  L'instradamento a cipolla nella Lightning Network è un metodo in cui gli intermediari non conoscono chi è il destinatario finale, né chi sta inviando il pagamento. Il nodo deve mantenere un piano della rete per trovare il suo percorso, ma nessuno degli intermediari ha alcuna informazione.
+  La tecnica di apertura a triangolo permette a ciascun nodo di ottenere una liquidità bilanciata, sia in entrata che in uscita, formando un anello di canali tra vari partecipanti.
 reviewed: false

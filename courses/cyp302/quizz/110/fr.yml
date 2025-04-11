@@ -1,0 +1,9 @@
+question: Qu'est-ce qui rend RC4 vulnérable aujourd'hui malgré sa popularité passée ?
+answer: Des faiblesses bien documentées dans la génération du flux de clés
+wrong_answers:
+  - Une clé trop courte pour garantir la sécurité
+  - Son incapacité à fonctionner avec des textes longs
+  - L'obligation d'utiliser une clé publique en plus de la clé privée
+explanation: |
+  RC4 présente des faiblesses importantes dans la génération du flux de clés, qui exposent le chiffrement à des attaques, d'où son abandon progressif dans les protocoles de sécurité modernes.
+reviewed: false

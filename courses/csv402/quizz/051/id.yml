@@ -1,0 +1,9 @@
+question: Apa yang dimaksud dengan "Definisi Segel" dalam konteks Penetapan RGB?
+answer: Referensi ke UTXO yang menetapkan kepemilikan Negara Milik
+wrong_answers:
+  - Pengelompokan data yang dipertukarkan antara kedua belah pihak, tunduk pada Validasi Sisi Klien
+  - Mengkompilasi kontrak dalam kode yang dapat dieksekusi di luar rantai
+  - Cabang DAG dari riwayat transisi negara bagian
+explanation: |
+  "Definisi Segel" menghubungkan UTXO ke bagian tertentu dari status kontrak, menjamin alokasi yang benar dari suatu hak atau aset.
+reviewed: false

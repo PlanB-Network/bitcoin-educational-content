@@ -1,13 +1,12 @@
 question: Proč je důležité používat náhodně generovaná hesla?
-answer: Nabízejí vyšší úroveň bezpečnosti a jsou odolnější vůči útokům hrubou silou.
+answer: Jsou odolnější vůči útokům hrubou silou než hesla stejné délky obsahující slovníková slova.
 wrong_answers:
-  - Jsou snazší na zapamatování.
-  - Jsou kratší a jednodušší.
-  - Jsou vyžadována většinou online služeb.
+  - Jsou snazší na zapamatování, ale pomalejší na psaní.
+  - Jsou vždy bezpečná, protože přesahují 20 náhodných znaků.
+  - Většina online služeb vyžaduje pouze minimální délku a sadu znaků, splnění těchto kritérií znamená, že hesla jsou dostatečně silná.
 explanation: |
-  Náhodně generovaná hesla nabízejí vyšší úroveň bezpečnosti, protože
-
-  jsou odolnější vůči útokům hrubou silou, které se pokoušejí uhodnout hesla
-
-  zkoušením všech možných kombinací znaků.
-reviewed: false
+  Náhodně generovaná hesla nabízejí vyšší úroveň
+  bezpečnosti, protože jsou odolnější vůči útokům hrubou silou,
+  které se pokoušejí uhádnout hesla zkoušením všech
+  možných kombinací znaků.
+reviewed: true

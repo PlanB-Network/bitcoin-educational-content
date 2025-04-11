@@ -1,0 +1,9 @@
+question: Berapa ukuran blok dalam protokol Bitcoin?
+answer: 1MB
+wrong_answers:
+  - 0.5MB
+  - 2MB
+  - 3MB
+explanation: >-
+  Ukuran blok dalam protokol Bitcoin adalah 1MB.
+reviewed: false

@@ -1,9 +1,9 @@
-question: Phép ẩn dụ nào được sử dụng để giải thích làm thế nào bạn có thể nhận Bitcoin mà không cho phép người gửi ăn cắp tiền của bạn?
-answer: Một hòm thư
+question: Phép ẩn dụ nào được sử dụng trong khóa học này để giải thích làm thế nào bạn có thể nhận bitcoin mà không cho phép người gửi ăn cắp tiền của bạn?
+answer: Một hòm thư.
 wrong_answers:
-  - Một tài khoản ngân hàng
-  - Một két sắt
-  - Một ngôi nhà
+  - Một tài khoản ngân hàng.
+  - Một két sắt.
+  - Một ngôi nhà.
 explanation: |
   Phép ẩn dụ được sử dụng để giải thích làm thế nào bạn có thể nhận Bitcoin mà không cho phép người gửi ăn cắp tiền của bạn là một hòm thư. Mọi người đặt tiền vào đó, nhưng chỉ có bạn mới có thể mở nó.
-reviewed: false
+reviewed: true

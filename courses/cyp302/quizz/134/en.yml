@@ -1,0 +1,9 @@
+question: What is the main goal of asymmetric cryptography in the context of communication between Alice and Bob?
+answer: To allow Bob to transmit a secret message to Alice using her public key
+wrong_answers:
+  - To allow Bob to encrypt and decrypt messages without a public key
+  - To prevent Alice from decrypting Bob's messages
+  - To allow Alice to encrypt the message to verify its integrity
+explanation: |
+  In asymmetric cryptography, Alice's public key enables Bob to send an encrypted message that only she can decrypt, thus ensuring the message's confidentiality.
+reviewed: false

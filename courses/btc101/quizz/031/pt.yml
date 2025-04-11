@@ -1,9 +1,12 @@
-question: Qual destes não é uma vantagem do Bitcoin como moeda?
-answer: É usado para pagar impostos
+question: Qual das seguintes opções não é uma vantagem do Bitcoin como moeda?
+answer: É usado para pagar impostos.
 wrong_answers:
-  - É divisível
-  - É transportável
-  - É dinheiro sem permissão
+  - É divisível.
+  - É transportável.
+  - Não requer permissão.
 explanation: |
-  O Bitcoin, devido às suas propriedades como divisibilidade, verificabilidade, aspecto sem permissão e transportabilidade, oferece um excelente meio de armazenamento de valor. Além disso, como uma moeda neutra da internet, representa um bom meio de troca que não conhece fronteiras.
-reviewed: false
+  O Bitcoin, devido às suas propriedades como divisibilidade,
+  verificabilidade, aspecto sem necessidade de permissão e transportabilidade,
+  oferece um excelente armazenamento de valor. Além disso, como uma moeda neutra
+  da internet, representa um bom meio de troca que não conhece fronteiras.
+reviewed: true

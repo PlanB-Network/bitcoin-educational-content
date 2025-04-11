@@ -1,0 +1,12 @@
+question: 新的 Bitcoin 是如何產生並進入流通的？
+answer: 透過 Mining 作為 Blockchain 新增交易的獎勵
+wrong_answers:
+  - 透過中央主管機關發行
+  - 從 Bitcoin 交易所購買
+  - 以交易費用收取
+explanation: |
+  新的 Bitcoin 透過稱為 Mining 的程序引入流通。
+  礦工互相競爭，將新的交易加入 Blockchain。
+  在 Exchange 的工作中，礦工會獲得新創造的 Bitcoin 作為獎勵。
+  此程序也會驗證 Bitcoin 網路上的交易並確保其安全性。
+reviewed: true

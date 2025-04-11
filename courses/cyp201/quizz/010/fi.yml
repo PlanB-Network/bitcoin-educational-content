@@ -1,9 +1,9 @@
-question: Mitkä ovat alustusvektorit SHA-256-funktion käsittelyssä?
-answer: Ensimmäisten 8 alkuluvun neliöjuurten desimaaliosien ensimmäiset 32 bittiä
+question: Mikä johdannaisalgoritmi käytetään laskemaan todennuskoodi salaisen avaimen perusteella?
+answer: HMAC-SHA512
 wrong_answers:
-  - Ensimmäisten 8 alkuluvun kuutiojuurten desimaaliosien ensimmäiset 32 bittiä
-  - Ensimmäisten 64 alkuluvun neliöjuurten desimaaliosien ensimmäiset 32 bittiä
-  - Ensimmäisten 64 alkuluvun kuutiojuurten desimaaliosien ensimmäiset 32 bittiä
+  - SHA512
+  - SHA256
+  - RIPEMD160
 explanation: |
-  SHA-256-funktion käsittelyssä alustusvektorit, A:sta H:een, ovat ensimmäisten 8 alkuluvun neliöjuurten desimaaliosien ensimmäiset 32 bittiä. Nämä toimivat perusaineina kryptografisessa reseptissä.
+  HMAC-SHA512 on algoritmi, joka yhdistää hajautusfunktion ja salaisen avaimen todennuskoodin laskemiseksi.
 reviewed: false

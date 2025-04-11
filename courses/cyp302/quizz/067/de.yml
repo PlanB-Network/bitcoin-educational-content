@@ -1,0 +1,9 @@
+question: Was passiert, wenn ein Angreifer eine verschlüsselte Nachricht in einem guten symmetrischen Verschlüsselungsverfahren abfängt?
+answer: Sie sollten nichts Bedeutendes über die ursprüngliche Nachricht erfahren
+wrong_answers:
+  - Sie können die Nachricht immer ohne den Schlüssel entschlüsseln
+  - Sie sollten in der Lage sein, sie mit einem öffentlichen Schlüssel zu entschlüsseln
+  - Sie sollten in der Lage sein, den Inhalt der Nachricht zu erraten
+explanation: |
+  In einem gut konzipierten symmetrischen Verschlüsselungsverfahren sollte ein Angreifer, der eine verschlüsselte Nachricht abfängt, keine relevanten Informationen über den Inhalt der Nachricht ohne den Entschlüsselungsschlüssel ableiten können.
+reviewed: false

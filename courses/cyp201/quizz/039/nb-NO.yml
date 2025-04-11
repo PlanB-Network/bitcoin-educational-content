@@ -1,0 +1,8 @@
+question: Hva er hovedrollen til en Bitcoin-lommebok?
+answer: Administrere og sikre private nøkler
+wrong_answers:
+  - Lagre brukerens bitcoins
+  - Sikre konfidensialiteten til transaksjoner automatisk
+  - Generere bitcoins for hver bruker
+explanation: |
+  En Bitcoin-lommebok lagrer ikke direkte bitcoins, men administrerer de private nøklene som er nødvendige for å låse opp UTXOene som representerer bitcoinsene.

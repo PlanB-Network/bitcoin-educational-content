@@ -1,0 +1,8 @@
+question: Mis on peamine põhjus bitcoinide kaotamiseks vastavalt peatükile?
+answer: Kehv veebiturvalisuse haldus
+wrong_answers:
+  - Krüptoraha pettused
+  - Finantspettused
+  - Arvuti rike
+explanation: |
+  Peatükis mainitakse, et lisaks krüptoraha pettustele ja finantspettustele on bitcoinide kaotamise peamine põhjus seotud kehva veebiturvalisuse haldusega.

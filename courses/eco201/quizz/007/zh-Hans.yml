@@ -1,0 +1,8 @@
+question: 谁因制作这门课程而受到感谢？
+answer: Théo Mogenet
+wrong_answers:
+  - Descoupes Bitcoin
+  - Théo Boloré
+  - 以上都不是
+explanation:
+  章节提到感谢Théo制作了这门课程。

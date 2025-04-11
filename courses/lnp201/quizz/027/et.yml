@@ -1,0 +1,9 @@
+question: Miks on sunnitud sulgemine vähem soovitav?
+answer: See on aeglasem ja tasud võivad olla sobimatud
+wrong_answers:
+  - See nõuab autoriseerimist Satoshi Nakamotolt
+  - See sunnib hiljem kanalit uuesti looma
+  - See takistab tagasivõtmisvõtme kasutamist
+explanation: |
+  Sunnitud sulgemine on vähem soovitav, kuna see hõlmab ajalukku, mis aeglustab protsessi, ja tasud võivad olla sobimatud, kuna need määrati kanali loomise ajal.
+reviewed: false

@@ -1,0 +1,9 @@
+question: ¿Cuál es la naturaleza del problema de factorización que subyace a la seguridad de los criptosistemas asimétricos como el RSA?
+answer: Factorizar un número en dos factores primos muy grandes
+wrong_answers:
+  - Descomponer un número en factores sucesivos de 2
+  - Reducir un número a sus divisores más pequeños
+  - Multiplicar dos números primos grandes para obtener un producto
+explanation: |
+  La seguridad del RSA se basa en la dificultad de factorizar un número grande (el producto de dos números primos grandes) en sus dos factores primos, una tarea que es casi imposible sin la clave privada.
+reviewed: false

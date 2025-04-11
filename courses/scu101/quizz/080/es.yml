@@ -1,0 +1,9 @@
+question: ¿Por qué se recomienda crear dos direcciones de correo distintas?
+answer: Para separar las comunicaciones generales de la recuperación de cuentas.
+wrong_answers:
+  - Para separar las comunicaciones profesionales de las personales.
+  - Para crear múltiples cuentas y aumentar la visibilidad en línea.
+  - Para recibir más spam.
+explanation: |
+  La separación de direcciones de correo ayuda a reducir riesgos y a proteger mejor el acceso a cuentas críticas.
+reviewed: false

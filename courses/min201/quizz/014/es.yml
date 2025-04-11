@@ -1,9 +1,11 @@
-question: ¿Cuál es el riesgo potencial de la centralización minera en Bitcoin?
-answer: La centralización minera en Bitcoin puede potencialmente llevar a la censura de transacciones y hacer que la red sea vulnerable a ataques, incluido el ataque del 51%, donde un actor o grupo controla más del 50% del poder de hash de la red, lo que les permite controlar y manipular la red.
+question: ¿Cuál es el riesgo potencial de la centralización de la minería en Bitcoin?
+answer: La centralización de la minería en Bitcoin puede potencialmente llevar a la censura de transacciones y hacer que la red sea vulnerable a ataques, incluyendo el ataque del 51%, donde un actor o grupo controla más del 50% del poder de hash de la red, permitiéndoles controlar y manipular la red.
 wrong_answers:
-  - La centralización minera en Bitcoin puede potencialmente llevar a una disminución en el valor de Bitcoin y hacer que la red sea vulnerable a la inflación.
-  - La centralización minera en Bitcoin puede potencialmente llevar a una disminución en la recompensa por bloque y hacer que la red sea vulnerable a la estancamiento.
-  - La centralización minera en Bitcoin puede potencialmente llevar a una disminución en la velocidad de las transacciones y hacer que la red sea vulnerable a la congestión.
+  - La centralización de la minería en Bitcoin puede potencialmente llevar a una disminución en el valor de Bitcoin y hacer que la red sea vulnerable a la inflación.
+  - La centralización de la minería en Bitcoin puede potencialmente llevar a una disminución en la recompensa por bloque y hacer que la red sea vulnerable al estancamiento.
+  - La centralización de la minería en Bitcoin puede potencialmente llevar a una disminución en la velocidad de las transacciones y hacer que la red sea vulnerable a la congestión.
 explanation: |
-  El capítulo explica que la centralización minera en Bitcoin puede potencialmente llevar a la censura de transacciones y hacer que la red sea vulnerable a ataques, incluido el ataque del 51%.
-reviewed: false
+  El capítulo explica que la centralización de la minería en Bitcoin
+  puede potencialmente llevar a la censura de transacciones y hacer
+  que la red sea vulnerable a ataques, incluyendo el ataque del 51%.
+reviewed: true

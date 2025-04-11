@@ -1,0 +1,9 @@
+question: Carl Mengeri järgi, mis on väärtuse olemus?
+answer: Väärtus on subjektiivne psühholoogiline nähtus indiviidis.
+wrong_answers:
+  - Väärtus on kaupade sisemine omadus.
+  - Väärtus on objektiivne ja mõõdetav nähtus.
+  - Väärtus määratakse tootmises kasutatud töö hulga järgi.
+explanation: |
+  Mengeri sõnul on väärtus subjektiivne psühholoogiline nähtus indiviidis. See tähendab, et väärtus ei ole kaupade sisemine omadus, vaid pigem tuleneb see indiviidi arvamusest nende kaupade kasutegurist.
+reviewed: false

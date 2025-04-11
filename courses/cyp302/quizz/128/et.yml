@@ -1,0 +1,9 @@
+question: Milline keeruline arvutuslik probleem on seotud asümmeetriliste süsteemidega nagu RSA?
+answer: Algarvude tegurdamine
+wrong_answers:
+  - Täisarvude eksponentsiaalne korrutamine
+  - Pikkade juhuslike numbrite loomine
+  - Turvaline võtmevahetus
+explanation: |
+  RSA põhineb algarvude tegurdamise keerukusel, mis on arvutuslikult keeruline ülesanne ja muudab krüptosüsteemi rünnakute vastu turvaliseks.
+reviewed: false

@@ -1,10 +1,11 @@
-question: ¿Cuál es el riesgo de compartir la clave pública de una billetera de Bitcoin?
-answer: Riesgos para la privacidad
+question: ¿Cuál es el riesgo de compartir la clave pública de una cartera de Bitcoin?
+answer: Perder la privacidad.
 wrong_answers:
-  - Riesgos de destruir la billetera de Bitcoin
-  - Riesgos de perder los Bitcoins
-  - Riesgos de hackear la billetera de Bitcoin
+  - Destruir la cartera de Bitcoin.
+  - Perder los Bitcoins.
+  - Hackear la cartera de Bitcoin.
 explanation: |
-  Compartir la clave pública implica riesgos para la privacidad, pero no para la seguridad.
-  Esto se debe a que la clave pública se utiliza para generar direcciones de Bitcoin y, por lo tanto, recibir dinero, pero no representa la propiedad de los Bitcoins.
-reviewed: false
+  Compartir la clave pública implica riesgos para la privacidad, pero no
+  para la seguridad. Esto se debe a que la clave pública se utiliza para
+  generar direcciones de Bitcoin y así recibir dinero, pero no representa la propiedad de los Bitcoins.
+reviewed: true

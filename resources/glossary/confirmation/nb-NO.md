@@ -1,0 +1,5 @@
+---
+term: BEKREFTELSE
+
+---
+Refererer til antall blokker der en transaksjon drar nytte av sikkerheten. Når en transaksjon sendes til Bitcoin-nettverket, blir den først liggende i nodenes mempools. Deretter blir den inkludert i en gyldig blokk av en utvinner. På dette stadiet har transaksjonen nettopp blitt lagt til i blokkjeden, og dermed drar den nytte av sin første bekreftelse. Når en ny blokk blir funnet på toppen av blokken som inneholder den aktuelle transaksjonen, vil den få en ny bekreftelse, og så videre. Hver nye blokk som utvinnes på toppen av blokken som inneholder transaksjonen, utgjør en ny bekreftelse. Ved å telle antall bekreftelser for en transaksjon kan vi estimere risikoen for at den til slutt kan bli kansellert på grunn av en omorganisering. Antallet bekreftelser gir oss mulighet til å bedømme hvor uforanderlig en transaksjon er i blokkjeden.

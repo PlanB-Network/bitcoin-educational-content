@@ -1,0 +1,9 @@
+question: ¿Cómo se puede definir una clave en la cifrado por desplazamiento?
+answer: Un número del 0 al 25
+wrong_answers:
+  - Una palabra aleatoria
+  - Cualquier número aleatorio sin restricción
+  - Un número del 1 al 26
+explanation: |
+  En el cifrado por desplazamiento, la clave es un número entre 0 y 25, que corresponde al número de posiciones de desplazamiento aplicadas a cada letra del mensaje en un alfabeto de 26 letras.
+reviewed: false

@@ -1,0 +1,9 @@
+question: What is Adam Smith's most well-known contribution to economics?
+answer: He developed the theory of the invisible hand.
+wrong_answers:
+  - He developed the theory of the visible finger.
+  - He developed the theory of the invisible finger.
+  - He developed the theory of the visible hand.
+explanation: |
+  Adam Smith is known for his theory of the invisible hand, which posits that individual actions motivated by self-interest unintentionally contribute to the economic well-being of society as a whole.
+reviewed: false

@@ -27,7 +27,7 @@ Stowaway mengandalkan kategori transaksi yang Samourai sebut sebagai "Cahoots." 
 Transaksi Cahoots melibatkan pertukaran transaksi yang ditandatangani sebagian antara pengguna. Proses ini bisa panjang dan merepotkan, terutama saat dilakukan dari jarak jauh. Namun, masih bisa dilakukan secara manual dengan pengguna lain, yang bisa nyaman jika kolaborator berada dekat secara fisik. Dalam praktiknya, ini melibatkan pertukaran lima kode QR yang harus dipindai secara berurutan.
 Ketika dilakukan secara remote, proses ini menjadi terlalu kompleks. Untuk mengatasi masalah ini, Samourai telah mengembangkan protokol komunikasi terenkripsi berbasis Tor, yang disebut "Soroban." Dengan Soroban, pertukaran yang diperlukan untuk Payjoin diotomatisasi di balik antarmuka yang ramah pengguna. Ini adalah metode kedua yang akan kita pelajari dalam artikel ini.
 
-Pertukaran terenkripsi ini memerlukan pembentukan koneksi dan autentikasi antara peserta Cahoots. Komunikasi Soroban oleh karena itu didasarkan pada Paynyms pengguna. Jika Anda tidak familiar dengan Paynyms, saya mengundang Anda untuk membaca artikel ini untuk detail lebih lanjut: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/paynym-bip47).
+Pertukaran terenkripsi ini memerlukan pembentukan koneksi dan autentikasi antara peserta Cahoots. Komunikasi Soroban oleh karena itu didasarkan pada Paynyms pengguna. Jika Anda tidak familiar dengan Paynyms, saya mengundang Anda untuk membaca artikel ini untuk detail lebih lanjut: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093).
 
 Secara sederhana, Paynym adalah pengenal unik yang terkait dengan dompet Anda yang memungkinkan berbagai fungsionalitas, termasuk pesan terenkripsi. Paynym disajikan dalam bentuk pengenal dan ilustrasi yang mewakili robot. Berikut adalah contoh milik saya di Testnet: ![paynym samourai wallet](assets/en/1.webp)
 
@@ -38,7 +38,7 @@ Secara sederhana, Paynym adalah pengenal unik yang terkait dengan dompet Anda ya
 - _Soroban_ = Protokol komunikasi terenkripsi yang didirikan di Tor, memungkinkan kolaborasi dengan pengguna lain dalam konteks transaksi Cahoots;
 - _Paynym_ = Pengenal unik dari sebuah dompet yang memungkinkan komunikasi dengan pengguna lain di Soroban, untuk melakukan transaksi Cahoots.
 
-[**-> Pelajari lebih lanjut tentang transaksi Payjoin dan kegunaannya**](https://planb.network/tutorials/privacy/payjoin)
+[**-> Pelajari lebih lanjut tentang transaksi Payjoin dan kegunaannya**](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f)
 
 ## Bagaimana cara membangun koneksi antara Paynyms?
 
@@ -64,7 +64,7 @@ Klik tombol `SUIVRE`.
 ![ikuti paynym](assets/notext/6.webp)
 Konfirmasi dengan mengklik `YES`.
 ![konfirmasi ikuti paynym](assets/notext/7.webp)
-Perangkat lunak kemudian akan menawarkan Anda tombol `SE CONNECTER`. Tidak perlu mengklik tombol ini untuk tutorial kita. Langkah ini hanya diperlukan jika Anda berencana untuk melakukan pembayaran ke Paynym lain sebagai bagian dari [BIP47](https://planb.network/tutorials/privacy/paynym-bip47), yang tidak terkait dengan tutorial kita.
+Perangkat lunak kemudian akan menawarkan Anda tombol `SE CONNECTER`. Tidak perlu mengklik tombol ini untuk tutorial kita. Langkah ini hanya diperlukan jika Anda berencana untuk melakukan pembayaran ke Paynym lain sebagai bagian dari [BIP47](https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093), yang tidak terkait dengan tutorial kita.
 ![hubungkan paynym](assets/notext/8.webp)
 Setelah Paynym penerima diikuti oleh Paynym Anda, ulangi operasi ini dalam arah yang berlawanan sehingga penerima juga mengikuti Anda. Anda kemudian dapat melakukan Payjoin.
 

@@ -1,0 +1,9 @@
+question: Jaká byla definice vlastnictví v latině podle Římanů?
+answer: Jus utendi et abutendi
+wrong_answers:
+  - Lex specialis derogat legi generali
+  - Utilitas publica praeferenda est privatorum contractibus
+  - Res publica et privatus separanda est
+explanation: |
+  V římském právu jus utendi et abutendi definuje vlastnictví jako právo užívat a zneužívat, což zdůrazňuje užívání bez zabíhání do jeho příčin.
+reviewed: false

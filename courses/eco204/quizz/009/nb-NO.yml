@@ -1,0 +1,12 @@
+question: Hva er forholdet mellom inflasjon og deflasjon i en økonomi?
+answer: Inflasjon og deflasjon er som kommuniserende kar i en økonomi. En økning i produksjonen kan føre til deflasjon, men hvis pengemengden økes samtidig, kanselleres den deflatoriske effekten ut, noe som resulterer i inflasjon.
+wrong_answers:
+  - Inflasjon og deflasjon er uavhengige av hverandre i en økonomi.
+  - Inflasjon fører alltid til deflasjon i en økonomi.
+  - Deflasjon fører alltid til inflasjon i en økonomi.
+explanation: |
+  Kapittelet forklarer at inflasjon og deflasjon er som kommuniserende
+  kar i en økonomi. En økning i produksjonen kan føre til deflasjon, men hvis
+  pengemengden økes samtidig, kanselleres den deflatoriske effekten ut,
+  noe som resulterer i inflasjon.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Was unterscheidet laut Hayek Liberalismus von Sozialismus?
+answer: Die Mittel, die zur Erreichung dieser Ziele eingesetzt werden.
+wrong_answers:
+  - Die verfolgten Ziele.
+  - Die Rolle der Intellektuellen.
+  - Alles oben Genannte.
+explanation: |
+  Für Hayek liegt der grundlegende Unterschied zwischen Liberalismus und Sozialismus in den Mitteln: Liberalismus fördert individuelle Freiheit und den freien Markt, während Sozialismus staatliche Eingriffe und Planung beinhaltet.
+reviewed: false

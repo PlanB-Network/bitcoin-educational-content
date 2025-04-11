@@ -1,0 +1,9 @@
+question: Miksi yritys voisi harkita, että se pitää osan kassavaroistaan Bitcoinissa?
+answer: Se on potentiaalisesti arvoa kasvattava omaisuuserä, joka voi varastoida arvoa ja tarjota likviditeettiä ilman, että se on riippuvainen perinteisistä rahoituksen välittäjistä.
+wrong_answers:
+  - Poistaa välittömästi kaikki riskit ja taata vakaa tuotto.
+  - Noudattaa pakollisia hallituksen säädöksiä, jotka edellyttävät Bitcoin-omistuksia.
+  - Varmistaakseen, ettei se voi koskaan muuntaa varojaan takaisin perinteisiksi valuutoiksi.
+explanation: |
+  Bitcoinin niukkuus, maailmanlaajuinen likviditeetti ja riippumattomuus perinteisistä pankkijärjestelmistä voivat tehdä siitä houkuttelevan omaisuuserän. Vaikka siihen liittyy riskejä ja epävakautta, yritykset voivat pitää sitä pitkän aikavälin arvosäilyttäjänä ja inflaatiosuojana.
+reviewed: false

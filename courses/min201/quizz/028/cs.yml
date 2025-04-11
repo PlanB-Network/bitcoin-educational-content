@@ -1,15 +1,13 @@
 question: Jaké je potenciální riziko centralizace výroby těžebního hardwaru v Číně?
-answer: Odmítnutí exportovat těžební stroje nebo akumulace hashrate pro potenciální 51% útok.
+answer: Odmítnutí exportu těžebních strojů nebo akumulace hashrate pro potenciální 51% útok.
 wrong_answers:
   - Čína by mohla monopolizovat síť Bitcoinu.
   - Čína by mohla ovládat cenu Bitcoinu.
   - Čína by mohla zakázat těžbu Bitcoinu.
 explanation: |
-  Centralizace výroby těžebního hardwaru v Číně představuje riziko
-
-  pro síť Bitcoinu. Pokud Čína odmítne exportovat těžební stroje nebo akumuluje
-
-  hashrate pro potenciální 51% útok, mohlo by to ohrozit bezpečnost a decentralizaci
-
-  sítě.
-reviewed: false
+  Centralizace výroby těžebního hardwaru v Číně
+  představuje riziko pro síť Bitcoin. Pokud Čína odmítne
+  exportovat těžební stroje nebo akumuluje hashrate pro
+  potenciální 51% útok, mohlo by to ohrozit bezpečnost a
+  decentralizaci sítě.
+reviewed: true

@@ -1,4 +1,4 @@
-question: What are the common misconceptions about creating an inheritance plan according to Pamela Morgan in "Cryptoasset Inheritance Planning"?
+question: What are the common misconceptions about creating an inheritance plan according to Pamela Morgan in Cryptoasset Inheritance Planning?
 answer: I need to hire a lawyer; I need to trust a third party; Planning will make my assets easy to steal; The value of my cryptocurrency is too low to be planned; My heirs will figure everything out on their own; All of this can be done with a simple smart contract.
 wrong_answers:
   - I don't need to hire a lawyer; I don't need to trust a third party; Planning will make my assets hard to steal; The value of my cryptocurrency is too high to be planned; My heirs won't figure everything out on their own; All of this can't be done with a simple smart contract.
@@ -6,7 +6,7 @@ wrong_answers:
   - I don't need to hire a lawyer; I don't need to trust a third party; Planning will make my assets easy to steal; The value of my cryptocurrency is too low to be planned; My heirs won't figure everything out on their own; All of this can be done with a simple smart contract.
 explanation: |
   The common misconceptions about creating an inheritance plan, as stated
-  by Pamela Morgan in "Cryptoasset Inheritance Planning", are that you need to hire
+  by Pamela Morgan in Cryptoasset Inheritance Planning, are that you need to hire
   a lawyer; you need to trust a third party; planning will make your assets easy to
   steal; the value of your cryptocurrency is too low to be planned; your heirs will
   figure everything out on their own; and all of this can be done with a simple smart

@@ -1,0 +1,8 @@
+question: Hva er formålet med den mnemoniske frasen i en Bitcoin HD-lommebok?
+answer: Å deterministisk utlede alle nøkler
+wrong_answers:
+  - Å direkte signere transaksjoner
+  - Å kryptere Bitcoin-adresser
+  - Å generere en hash for UTXOene
+explanation: |
+  Den mnemoniske frasen muliggjør utledningen av alle private og offentlige nøkler i en lommebok, noe som letter sikkerhetskopiering og gjenoppretting.

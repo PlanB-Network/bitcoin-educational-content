@@ -1,0 +1,9 @@
+question: 导出路径深度1处的索引 /84'/ 表示什么？
+answer: P2WPKH标准（SegWit v0）
+wrong_answers:
+  - P2TR标准（SegWit v1）
+  - 一个比特币测试网货币
+  - 一个比特币主网货币
+explanation: |
+  索引 /84'/ 在BIP84中定义，用于指示在深度1（即导出目标的深度）使用SegWit v0标准与P2WPKH地址。
+reviewed: false

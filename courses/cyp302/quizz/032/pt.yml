@@ -1,0 +1,9 @@
+question: Por que uma string pseudorandom é dita indistinguível de uma string verdadeiramente aleatória?
+answer: Porque é quase impossível determinar sua origem sem informações adicionais
+wrong_answers:
+  - Porque contém segmentos determinísticos idênticos a uma string verdadeiramente aleatória
+  - Porque utiliza números flutuantes em sua construção
+  - Porque é gerada unicamente a partir de eventos naturais
+explanation: |
+  Uma string pseudorandom é projetada para se assemelhar de perto a uma string verdadeiramente aleatória, tornando a distinção impossível sem acesso à semente ou ao algoritmo utilizado.
+reviewed: false

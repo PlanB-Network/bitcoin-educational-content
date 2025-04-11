@@ -1,0 +1,9 @@
+question: Qual è il problema principale nella gestione delle chiavi?
+answer: La complessità di assicurare e memorizzare una coppia di chiavi per ogni cliente
+wrong_answers:
+  - L'impossibilità di rinnovare le chiavi perse dai clienti
+  - La necessità di decifrare ogni chiave prima dell'uso da parte del cliente
+  - La necessità di trasmettere le chiavi per ogni comunicazione
+explanation: |
+  Il problema della gestione delle chiavi risiede nella difficoltà di memorizzare e assicurare una coppia di chiavi per ogni utente, specialmente quando il numero di clienti raggiunge i milioni.
+reviewed: false

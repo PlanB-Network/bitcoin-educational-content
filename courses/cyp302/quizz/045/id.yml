@@ -1,0 +1,9 @@
+question: Dalam sebuah grup terhingga, istilah apa yang merujuk pada jumlah elemen dalam grup tersebut?
+answer: Orde dari grup
+wrong_answers:
+  - Kapasitas dari grup
+  - Panjang dari grup
+  - Derajat dari grup
+explanation: |
+  Orde dari sebuah grup adalah jumlah total elemen yang terkandung di dalamnya.
+reviewed: false

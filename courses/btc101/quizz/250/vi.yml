@@ -1,9 +1,9 @@
-question: Một trong những lo ngại chính về hệ thống ngân hàng là gì?
-answer: Luật lệ của trò chơi ngân hàng không minh bạch và dễ hiểu đối với tất cả mọi người.
+question: Vấn đề chính đối với hệ thống ngân hàng có thể là gì?
+answer: Luật lệ của trò chơi ngân hàng không minh bạch và dễ hiểu với tất cả mọi người.
 wrong_answers:
   - Hệ thống ngân hàng quá dễ hiểu.
   - Hệ thống ngân hàng quá minh bạch.
   - Hệ thống ngân hàng quá phi tập trung.
 explanation: >-
-  Văn bản đề cập rằng câu hỏi về việc ai nên kiểm soát hệ thống ngân hàng là rất quan trọng bởi vì luật lệ của trò chơi ngân hàng không minh bạch và dễ hiểu đối với tất cả mọi người.
-reviewed: false
+  Văn bản đề cập rằng câu hỏi về việc ai nên kiểm soát hệ thống ngân hàng là rất quan trọng bởi vì luật lệ của trò chơi ngân hàng không minh bạch và dễ hiểu với tất cả mọi người.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Mida pakkus Gavin Andreseni loodud Bitcoin Faucet juunis 2010?
+answer: Bitcoine
+wrong_answers:
+  - Ostutšekke
+  - Tasude allahindlusi Bitcoin Turul
+  - Võimalusi ploki kaevandamiseks
+explanation: |
+  See teenus jagas alguses 5 bitcoini päringu kohta, et inimesed saaksid süsteemi proovida. See summa vähendati aja jooksul ja kraan suleti 2012. aastal.
+reviewed: false

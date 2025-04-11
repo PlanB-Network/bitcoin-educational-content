@@ -1,0 +1,10 @@
+question: Mis on ametlik lävi, millest alates peetakse riiki hüperinflatsioonis olevaks?
+answer: 50% kuus
+wrong_answers:
+  - 10% kuus
+  - 25% kuus
+  - 75% kuus
+explanation: |
+  2007. aastal jõudis Zimbabwe inflatsioonimäär 50% kuus läveni,
+  ametlikult märgistades riiki kui hüperinflatsioonis olevat.
+reviewed: false

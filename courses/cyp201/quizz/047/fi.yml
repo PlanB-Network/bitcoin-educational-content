@@ -1,9 +1,9 @@
-question: Mikä on noncen tarkoitus Bitcoin-siirtojen yhteydessä?
-answer: Sitä käytetään digitaalisen allekirjoituksen luomisessa.
+question: Mikä on bittikoko binäärisegmentissä, jota käytetään kunkin muistisanan luomiseen?
+answer: 11 bittiä
 wrong_answers:
-  - Sitä käytetään siirtotietojen salaamiseen.
-  - Sitä käytetään siirtotietojen tallentamiseen.
-  - Sitä käytetään siirtotietojen lähettämiseen.
+  - 8 bittiä
+  - 16 bittiä
+  - 10 bittiä
 explanation: |
-  Bitcoin-siirtojen yhteydessä noncea käytetään digitaalisen allekirjoituksen luomisessa. Tarkemmin sanottuna sitä käytetään tietyn luvun V ja kahdesta osasta, S1 ja S2, koostuvan digitaalisen allekirjoituksen laskemisessa.
+  Jokainen 11-bittinen segmentti vastaa sanaa standardoidusta 2048 sanan listasta BIP39: ssä.
 reviewed: false

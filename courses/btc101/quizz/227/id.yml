@@ -1,0 +1,9 @@
+question: Apa yang bisa terjadi pada layanan transfer uang tradisional seperti Western Union, bank sentral, Visa, dan Mastercard jika mereka tidak mengadopsi teknologi Lightning Network?
+answer: Mereka bisa menghilang.
+wrong_answers:
+  - Mereka bisa menjadi lebih populer.
+  - Mereka bisa menjadi lebih aman.
+  - Mereka bisa menjadi lebih terdesentralisasi.
+explanation: >-
+  Layanan transfer uang tradisional seperti Western Union, bank sentral, Visa, dan Mastercard bisa menghilang jika mereka tidak mengadopsi teknologi Lightning Network.
+reviewed: false

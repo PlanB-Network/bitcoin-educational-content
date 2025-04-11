@@ -1,0 +1,9 @@
+question: Jak se síť Lightning Network od svého vzniku vyvíjela a zlepšovala uživatelský komfort?
+answer: Zavedl funkce, jako je splicing, statické faktury Bolt12 a lepší řízení likvidity, díky nimž jsou transakce plynulejší a spolehlivější.
+wrong_answers:
+  - Odstranila všechny bezpečnostní prvky, aby urychlila transakce.
+  - Nyní vyžaduje schválení každé platby vládou.
+  - Přestala pracovat na nových funkcích a spoléhá se pouze na původní design.
+explanation: |
+  V průběhu času došlo v síti Lightning Network k technickým vylepšením, která snižují nároky na uživatele. Nové funkce a lepší nástroje pro správu uzlů přispěly k bezproblémovějšímu a uživatelsky přívětivějšímu prostředí.
+reviewed: false

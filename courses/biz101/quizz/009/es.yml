@@ -1,0 +1,9 @@
+question: ¿Cuál es el principal objetivo de la Red Lightning construida sobre Bitcoin?
+answer: Permitir pagos más rápidos y casi instantáneos con una interacción mínima en la cadena.
+wrong_answers:
+  - Sustituir por completo la cadena de bloques de Bitcoin y almacenar todas las transacciones localmente.
+  - Proporcionar una red con permisos controlada por una única entidad.
+  - Ralentizar las transacciones para garantizar su plena trazabilidad por parte de los gobiernos.
+explanation: |
+  La Lightning Network es un protocolo de "segunda capa" que permite a los participantes crear canales de pago, realizar transacciones fuera de la cadena y liquidar únicamente el saldo neto final en la blockchain de Bitcoin. Con este diseño se consiguen mayores velocidades y menores costes.
+reviewed: false

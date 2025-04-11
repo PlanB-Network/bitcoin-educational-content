@@ -1,0 +1,9 @@
+question: Mis on pseudosuvaline jada?
+answer: Jada, mis tundub pärinevat ühtlasest muutujast, kuid on loodud laiendusalgoritmi abil
+wrong_answers:
+  - Jada, mis on genereeritud iga tähemärgi jaoks identse tõenäosusega
+  - Fikseeritud pikkusega jada looduslikust suvalisest sündmusest
+  - Suvaline jada, mis on valitud ainult binaarväärtustest 0 ja 1
+explanation: |
+  Pseudosuvaline jada on loodud väiksemast seemnest laiendusalgoritmi abil viisil, mis jäljendab ühtlast valikut kõigi sama pikkusega jadade hulgas.
+reviewed: false

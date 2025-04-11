@@ -1,0 +1,13 @@
+question: Hva er hovedmålet med BIP47?
+
+answer: Å ha en unik identifikator for å motta BTC uten å gjenbruke adresser.
+
+wrong_answers:
+  - Øke størrelsen på blokker for raskere transaksjoner.
+  - Tillate transaksjoner uten gebyrer på Bitcoin-nettverket.
+  - Gjøre transaksjoner helt anonyme på Bitcoin.
+
+explanation: |
+  Målet med BIP47 er å tilby en unik identifikator som gjør det mulig å motta bitcoins flere ganger og fra flere personer, men uten å gjenbruke adresser, da dette er en veldig dårlig praksis for brukerens personvern.
+
+reviewed: false

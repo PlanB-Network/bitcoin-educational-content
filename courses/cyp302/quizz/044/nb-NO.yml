@@ -1,0 +1,9 @@
+question: Hvorfor er mengden av heltall med addisjon en gruppe, mens den ikke er det med multiplikasjon?
+answer: Mengden oppfyller ikke inversjonsbetingelsen under multiplikasjon
+wrong_answers:
+  - Mengden er ikke lukket under multiplikasjon
+  - Multiplikasjon er ikke assosiativ over heltallene
+  - Det finnes ikke noe nøytralt element for multiplikasjon
+explanation: |
+  Mengden av heltall oppfyller ikke inversjonsbetingelsen under multiplikasjon fordi det ikke finnes et invers for hvert heltall som ville multiplisert til å gi 1. Kun elementene 1 og -1 oppfyller denne betingelsen.
+reviewed: false

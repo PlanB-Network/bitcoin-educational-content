@@ -1,0 +1,9 @@
+question: Mis on ühine joon protektsionistide ja sotsialistide vahel Bastiati sõnul?
+answer: Mõlemad soovivad soosida osa elanikkonna ärakasutamist
+wrong_answers:
+  - Mõlemad kaitsevad majandusvabadust
+  - Mõlemad soovivad suuremat sotsiaalset võrdsust
+  - Mõlemad on riigi sekkumise vastu majandusse
+explanation: |
+  Bastiat kritiseerib mõlemaid ideoloogiaid nende kalduvuse eest soosida ühe klassi ärakasutamist teise poolt, üldise huvi kahjuks.
+reviewed: false

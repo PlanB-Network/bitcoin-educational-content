@@ -1,0 +1,14 @@
+question: Apa akibat dari Kebijakan Suku Bunga Nol Persen (ZIRP)?
+answer: ZIRP mengikis margin bank, mengurangi kecenderungan peminjaman kepada pengusaha dan pengambil risiko, serta mendorong pemerintah untuk melakukan pengeluaran besar-besaran, yang mengakibatkan peningkatan utang publik.
+wrong_answers:
+  - ZIRP meningkatkan keuntungan bank, mendorong peminjaman kepada pengusaha dan pengambil risiko, serta mengurangi pengeluaran pemerintah.
+  - ZIRP tidak memiliki dampak signifikan terhadap bank, praktik peminjaman, atau pengeluaran pemerintah.
+  - ZIRP menurunkan utang publik, mendorong peminjaman kepada pengusaha dan pengambil risiko, serta mengurangi pengeluaran pemerintah.
+explanation: |
+  Kebijakan Suku Bunga Nol Persen (ZIRP) dapat memiliki beberapa konsekuensi tidak terduga.
+  Bank memiliki kesempatan terbatas untuk membangun kembali ekuitas mereka karena margin mereka
+  terkikis. Mereka juga memiliki sedikit insentif untuk memberikan pinjaman, terutama kepada pengusaha dan
+  pengambil risiko lainnya. Sebagai gantinya, mereka mengalokasikan sumber daya mereka untuk sekuritisasi modal
+  yang ada atau memberikan pinjaman dengan jaminan. Selain itu, ZIRP mendorong pemerintah
+  untuk melakukan pengeluaran besar-besaran, yang mengakibatkan peningkatan signifikan dalam tingkat utang publik.
+reviewed: false

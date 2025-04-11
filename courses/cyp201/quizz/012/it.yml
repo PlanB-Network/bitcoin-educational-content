@@ -1,9 +1,9 @@
-question: Qual è il ruolo dell'operatore XOR nella funzione di compressione di SHA256?
-answer: Per elaborare i bit uno per uno in base al loro rango
+question: Qual è la dimensione del blocco utilizzata da SHA512 in HMAC?
+answer: 128 byte
 wrong_answers:
-  - Restituire 1 solo se entrambi gli operandi sono uguali a 1
-  - Restituire il valore opposto di un operando
-  - Spostare i bit a destra di un numero scelto
+  - 64 byte
+  - 256 byte
+  - 1024 byte
 explanation: |
-  Nella funzione di compressione di SHA256, l'operatore XOR viene utilizzato per elaborare i bit uno per uno in base al loro rango. Ciò viene fatto utilizzando una tabella di verità.
+  SHA512 utilizza blocchi da 128 byte, equivalenti a 1024 bit, per i suoi calcoli.
 reviewed: false

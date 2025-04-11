@@ -1,0 +1,12 @@
+question: Hva er formålet med tofaktorautentisering (2FA) i Bitcoin?
+answer: Å forbedre sikkerheten til Bitcoin-transaksjoner.
+wrong_answers:
+  - Å utvinne nye Bitcoins.
+  - Å handle med Bitcoins.
+  - Å konvertere Bitcoins til andre kryptovalutaer.
+explanation: |
+  Tofaktorautentisering (2FA) er en metode for å bekrefte en brukers påståtte
+  identitet ved å bruke noe de vet (passord) og en annen faktor enn
+  noe de har eller noe de er. Det brukes for å forbedre sikkerheten til
+  Bitcoin-transaksjoner.
+reviewed: false

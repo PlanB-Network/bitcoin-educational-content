@@ -1,0 +1,12 @@
+question: Hva er en Bitcoin-transaksjon?
+answer: En overføring av eierskap av Bitcoins, ved bruk av kryptografi.
+wrong_answers:
+  - En fysisk utveksling av Bitcoins, ved bruk av notarius.
+  - En overføring av eierskap av Bitcoins, ved bruk av en fysisk adresse.
+  - En overføring av eierskap av Bitcoins, ved bruk av en e-postadresse.
+explanation: |
+  En Bitcoin-transaksjon er en digital overføring av eierskap av Bitcoins,
+  ved bruk av en Bitcoin-adresse avledet takket være elliptisk kurvekryptografi.
+  Denne adressen er unik for Bitcoin-lommeboken til personen
+  som mottar Bitcoins.
+reviewed: true

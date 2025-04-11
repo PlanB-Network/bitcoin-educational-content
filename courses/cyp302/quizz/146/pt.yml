@@ -1,0 +1,8 @@
+question: Qual é a condição para um inteiro a ter um inverso módulo N?
+answer: a e N devem ser coprimos
+wrong_answers:
+  - N deve ser par
+  - a deve ser ímpar
+  - a deve ser um número primo
+explanation: |
+  Um inteiro a tem um inverso módulo N se e somente se eles são coprimos, o que significa que seu maior divisor comum é 1.

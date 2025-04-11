@@ -1,0 +1,9 @@
+question: Según Aristóteles, ¿qué es la libertad?
+answer: La obediencia a la ley de la ciudad
+wrong_answers:
+  - La ausencia de cualquier restricción
+  - El poder de hacer lo que uno quiera
+  - Todas las demás respuestas son correctas.
+explanation: |
+  Para Aristóteles, la libertad consiste en obedecer las leyes de la ciudad, ya que estas se establecen para el bien común. La verdadera libertad se realiza dentro del marco de la ciudadanía y la participación en la vida política.
+reviewed: false

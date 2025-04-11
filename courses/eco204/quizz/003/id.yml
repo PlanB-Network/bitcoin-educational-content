@@ -1,0 +1,13 @@
+question: Apa strategi yang digunakan oleh Amerika Serikat pada tahun 1933-1934 untuk menurunkan nilai dolar?
+answer: Pemerintah menyita emas milik warga, kemudian mengubah aturan permainan dengan menaikkan nilai emas untuk menguntungkan kas negara dan merugikan mereka yang awalnya menukarkan emas mereka dengan catatan.
+wrong_answers:
+  - Pemerintah meningkatkan pasokan emas, kemudian mengubah aturan permainan dengan menurunkan nilai emas untuk menguntungkan kas negara dan merugikan mereka yang awalnya menukarkan emas mereka dengan catatan.
+  - Pemerintah menyita emas milik warga, kemudian mengubah aturan permainan dengan menurunkan nilai emas untuk menguntungkan kas negara dan merugikan mereka yang awalnya menukarkan emas mereka dengan catatan.
+  - Pemerintah meningkatkan pasokan emas, kemudian mengubah aturan permainan dengan menaikkan nilai emas untuk menguntungkan kas negara dan merugikan mereka yang awalnya menukarkan emas mereka dengan catatan.
+explanation: |
+  Pada tahun 1933, pemerintah AS menyita emas milik warga. Kemudian pada tahun 1934, mereka
+  menaikkan harga emas menjadi $35 per ons, dari sebelumnya $20,67. Pada dasarnya, pemerintah
+  menurunkan nilai dolar yang dimiliki oleh masyarakat. Dengan membeli emas dari populasi
+  seharga $20,67 per ons pada tahun 1933, dan kemudian menaikkan harga emas pada tahun 1934, pemerintah
+  mendapatkan keuntungan besar sambil menurunkan nilai tabungan warga negaranya.'
+reviewed: false

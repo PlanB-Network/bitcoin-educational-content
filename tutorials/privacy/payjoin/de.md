@@ -43,9 +43,9 @@ Ein externer Beobachter, der den üblichen Heuristiken der Kettenanalyse folgt, 
 Diese Interpretation ist offensichtlich falsch, denn wie Sie bereits wissen, gehören die beiden Input-UTXOs nicht derselben Person. Darüber hinaus beträgt der tatsächliche Wert der Zahlung nicht `19.000 Sats`, sondern `4.000 Sats`. Die Analyse des externen Beobachters führt somit zu einer fehlerhaften Schlussfolgerung und gewährleistet die Wahrung der Vertraulichkeit der Beteiligten.![Payjoin-Transaktionsdiagramm](assets/de/1.webp)
 Wenn Sie eine echte Payjoin-Transaktion analysieren möchten, hier ist eine, die ich im Testnetz durchgeführt habe: [8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c](https://mempool.space/fr/testnet/tx/8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c)
 
-[**-> Entdecken Sie unser Tutorial, wie Sie ein Payjoin mit Samourai Wallet durchführen**](https://planb.network/tutorials/privacy/payjoin-samourai-wallet)  
+[**-> Entdecken Sie unser Tutorial, wie Sie ein Payjoin mit Samourai Wallet durchführen**](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)  
 
-[**-> Entdecken Sie unser Tutorial, wie Sie ein Payjoin mit Sparrow Wallet durchführen**](https://planb.network/tutorials/privacy/payjoin-sparrow-wallet)
+[**-> Entdecken Sie unser Tutorial, wie Sie ein Payjoin mit Sparrow Wallet durchführen**](https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62)
 
 
 **Externe Ressourcen:**

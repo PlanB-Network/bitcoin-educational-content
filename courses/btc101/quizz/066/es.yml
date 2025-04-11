@@ -5,5 +5,5 @@ wrong_answers:
   - 2030
   - 2200
 explanation: |
-  Debido al mecanismo de reducción a la mitad, se puede predecir matemáticamente que la creación de bitcoins cesará en 2140, cuando el número total de bitcoins alcance su límite de 21 millones.
-reviewed: false
+  Debido al mecanismo de halving, se puede predecir matemáticamente que la creación de bitcoins cesará en 2140, cuando el número total de bitcoins alcance su límite de 21 millones.
+reviewed: true

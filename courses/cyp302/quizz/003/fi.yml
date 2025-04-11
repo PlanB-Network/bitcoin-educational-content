@@ -1,0 +1,9 @@
+question: Mitä toinen Beale-viesti paljastaa salauksen purkamisen jälkeen?
+answer: Haudattujen aarteiden luettelo (kulta, hopea ja jalokivet)
+wrong_answers:
+  - Tarkan sijainnin, missä aarre on haudattu
+  - Bealen paluun päivämäärä
+  - Bealen ja hänen yhtiökumppaneidensa allekirjoitukset
+explanation: |
+  Salauksen purkamisen jälkeen toinen viesti kuvaa aarteen sisältöä, joka koostuu kullasta, hopeasta ja jalokivistä.
+reviewed: false

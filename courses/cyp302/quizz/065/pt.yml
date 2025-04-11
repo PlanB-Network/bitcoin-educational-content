@@ -1,0 +1,9 @@
+question: Quais são os três componentes essenciais de um esquema de criptografia simétrica?
+answer: Um algoritmo de geração de chaves, um algoritmo de criptografia e um algoritmo de descriptografia
+wrong_answers:
+  - Um algoritmo de hash, uma chave pública e um algoritmo de verificação
+  - Uma chave pública, uma chave privada e um algoritmo de descriptografia
+  - Um algoritmo de criptografia, uma chave pública e uma chave privada
+explanation: |
+  Um esquema de criptografia simétrica consiste em três elementos: um algoritmo de geração de chaves, um algoritmo de criptografia e um algoritmo de descriptografia. Todos eles usam a mesma chave.
+reviewed: false

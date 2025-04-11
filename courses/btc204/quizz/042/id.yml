@@ -1,0 +1,9 @@
+question: Di antara risiko-risiko berikut, mana yang tidak terkait dengan pertukaran P2P tunai?
+answer: Risiko kebocoran data.
+wrong_answers:
+  - Risiko terhadap keselamatan pribadi.
+  - Risiko pencurian.
+  - Risiko hukum.
+explanation: |
+  Pertukaran P2P tunai menyajikan banyak risiko, tetapi mereka tidak memerlukan pelaksanaan KYC. Oleh karena itu, tidak ada risiko kebocoran data.
+reviewed: false

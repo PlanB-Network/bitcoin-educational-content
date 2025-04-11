@@ -1,0 +1,10 @@
+question: Hva er den andre fasen av hyperinflasjon?
+answer: Valutakollaps og prisøkning.
+wrong_answers:
+  - Tap av tillit.
+  - Den onde sirkelen av pengetrykking.
+  - En ny valuta dukker opp.
+explanation: |
+  Den andre fasen av hyperinflasjon er valutakollaps og prisøkning,
+  rett etter Tap av tillit-fasen.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Hvordan bidrar Lightning Network til å forme fremtidens netthandel og digitale tjenester?
+answer: Ved å muliggjøre friksjonsfrie, umiddelbare og tillatelsesfrie mikrotransaksjoner åpner vi for nye forretningsmodeller og inntektsstrømmer.
+wrong_answers:
+  - Ved å hindre at nye forretningsmodeller vokser frem på nettet.
+  - Ved å kreve at selgerne bruker de samme trege og kostbare betalingsskinnene som før.
+  - Ved å gjøre det umulig å selge digitale varer på grunn av høye avgifter.
+explanation: |
+  Lynets evne til å sende små mengder verdi umiddelbart og til en lav kostnad oppmuntrer til innovasjon på områder som pay-as-you-go-innhold, strømmebetalinger og maskin-til-maskin-transaksjoner, noe som potensielt kan endre hvordan man tjener penger på nettbaserte tjenester.
+reviewed: false

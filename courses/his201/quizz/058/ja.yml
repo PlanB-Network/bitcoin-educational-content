@@ -1,0 +1,8 @@
+question: 2010年後半におけるネットワークのハッシュレートはどの単位で測定されましたか？
+answer: GH/sで
+wrong_answers:
+  - MH/sで
+  - TH/sで
+  - PH/sで
+explanation: |
+  ハッシュレートは、2010年7月13日の1.35 GH/sから12月31日には120 GH/sへと増加しました。

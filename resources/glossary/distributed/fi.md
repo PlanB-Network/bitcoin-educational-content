@@ -1,0 +1,7 @@
+---
+term: JAKELU
+
+---
+Tietokoneverkon ominaisuus, jossa päätöksentekovalta ja valvonta on jaettu tasaisesti kaikkien verkon osallistujien kesken. Tämä jako takaa järjestelmän häiriönsietokyvyn. Sitä kutsutaan myös vertaisverkoksi. Toisin kuin hajautetussa verkossa, jossa valta on hajautettu ja hajautettu useiden tahojen kesken, mutta jossa joillakin keskusviranomaisilla on edelleen enemmän valtaa kuin käyttäjillä, hajautetussa verkossa keskusviranomaiset poistuvat, kun hallinta ja valvonta annetaan käyttäjille itselleen. Bitcoin on esimerkki hajautetusta järjestelmästä. Bitcoinissa ei ole hierarkiaa tai keskusviranomaista. Konsensuksen ylläpitäminen, transaktioiden todentaminen ja uusien rahayksiköiden liikkeeseenlasku on käyttäjien vastuulla. Tämä hajautettu rakenne takaa järjestelmän kestävyyden ja sensuurinsietokyvyn, minkä vuoksi yksittäisen tahon on hyvin vaikea hallita tai manipuloida järjestelmää.
+
+> ► *Jotkut kutsuvat Bitcoinia hajautetuksi järjestelmäksi. Ei olekaan harvinaista, että näitä kahta termiä käytetään vaihtelevasti. Hajautetun järjestelmän synonyymi voisi olla "peer-to-peer", joskus lyhennettynä "P2P", joka on lyhenne englanninkielisestä käännöksestä "Peer-to-Peer "*

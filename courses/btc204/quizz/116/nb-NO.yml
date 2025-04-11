@@ -1,0 +1,13 @@
+question: Hva er det primære målet med ricochet-teknikken?
+
+answer: Å sløre sporene av en mynts fortid
+
+wrong_answers:
+  - Å øke det fremtidige anonymitetssettet for transaksjoner
+  - Å øke entropien til en transaksjon
+  - Å betale mindre i transaksjonsgebyrer i fremtiden
+
+explanation: |
+  Målet med en ricochet er å simulere et eierskifte av en Bitcoin-mynt for å gjenopprette dens fungibilitet ved å sløre dens tidligere merker.
+
+reviewed: false

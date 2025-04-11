@@ -1,10 +1,9 @@
-question: Xác suất ai đó tình cờ đoán được danh sách 12 hoặc 24 từ trong ví Bitcoin của bạn là bao nhiêu?
-answer: Cực kỳ thấp
+question: Xác suất để ai đó vô tình đoán được danh sách 12 hoặc 24 từ trong ví Bitcoin của bạn là bao nhiêu?
+answer: Cực kỳ thấp.
 wrong_answers:
-  - Cao
-  - Trung bình
-  - Thấp
-explanation: >-
-  Nhờ vào công nghệ mã hóa được sử dụng để tạo ví, xác suất ai đó tình cờ đoán được danh sách 12 hoặc 24 từ của bạn là cực kỳ thấp.
-  Điều này giống như việc tìm ra "số đúng" trong khoảng từ 1 đến $2^256$, gần như tương đương với việc tìm một nguyên tử được xác định trong Vũ trụ.
-reviewed: false
+  - Cao.
+  - Trung bình.
+  - Mạnh.
+explanation: |
+  Nhờ vào công nghệ mã hóa được sử dụng để tạo ví, xác suất để ai đó vô tình đoán được danh sách 12 hoặc 24 từ của bạn là cực kỳ thấp. Điều này giống như việc tìm ra số đúng trong khoảng từ 1 đến $2^256$, gần như tương đương với việc tìm một nguyên tử được xác định trong Vũ trụ.
+reviewed: true

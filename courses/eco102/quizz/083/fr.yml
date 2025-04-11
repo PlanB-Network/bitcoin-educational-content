@@ -1,0 +1,9 @@
+question: D'après Bastiat, quelle est la conséquence de l'intervention excessive de l'État sur la responsabilité individuelle ?
+answer: Elle détruit la responsabilité en soustrayant les individus aux conséquences de leurs actes
+wrong_answers:
+  - Elle renforce la responsabilité individuelle en instaurant plus de règles
+  - Elle incite les citoyens à participer activement à la vie publique
+  - Elle garantit une justice sociale plus équitable
+explanation: |
+  Bastiat considère que l'intervention excessive de l'État enlève aux individus la possibilité d'assumer pleinement les conséquences de leurs actes, ce qui affaiblit leur sens de la responsabilité.
+reviewed: false

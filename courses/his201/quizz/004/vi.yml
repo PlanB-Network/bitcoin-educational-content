@@ -1,0 +1,8 @@
+question: eCash, khái niệm của David Chaum, đã được triển khai vào năm nào?
+answer: 1994
+wrong_answers:
+  - 1993
+  - 1995
+  - 1996
+explanation: |
+  Nó lần đầu tiên được triển khai bởi các cypherpunk vào tháng Hai, trước khi được DigiCash thử nghiệm thông qua việc phát hành CyberBucks vào tháng Mười.

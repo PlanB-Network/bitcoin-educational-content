@@ -1,0 +1,10 @@
+question: Mida peetakse Bitcoin'i fiat-valuutade suhtes?
+answer: Paralleelseks majanduseks
+wrong_answers:
+  - Asendusmajanduseks
+  - Teisejärguliseks majanduseks
+  - Kolmandajärguliseks majanduseks
+explanation: >-
+  Bitcoin'i peetakse fiat-valuutade suhtes paralleelseks majanduseks, mis tähendab, et see toimib kõrvuti traditsiooniliste majandustega ja seda saab otse kasutada tehinguteks,
+  ilma et oleks vaja minna läbi vahetusplatvormi.
+reviewed: false

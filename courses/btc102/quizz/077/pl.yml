@@ -1,0 +1,10 @@
+question: Czym jest Satoshi w kontekście Bitcoin?
+answer: Najmniejsza jednostka Bitcoin
+wrong_answers:
+  - Rodzaj Bitcoin Wallet
+  - Metoda zakupu Bitcoin
+  - Platforma Bitcoin Exchange
+explanation: |
+  W kontekście Bitcoin, Satoshi (lub SAT) jest najmniejszą jednostką Bitcoin
+  Bitcoin. Stackerzy Bitcoin dążą do zgromadzenia jak największej liczby satoshi.
+reviewed: false

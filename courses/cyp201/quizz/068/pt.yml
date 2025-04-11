@@ -1,9 +1,8 @@
-question: Como o número de palavras na frase de recuperação é determinado na geração de uma frase mnemônica para uma carteira de Bitcoin?
-answer: Isso depende do tamanho da entropia.
+question: Qual é a restrição para derivar uma chave pública filha de uma chave pública pai?
+answer: A chave filha deve ser normal
 wrong_answers:
-  - Isso depende do tamanho do checksum.
-  - Sempre são 24 palavras.
-  - É gerado aleatoriamente.
+  - A chave filha deve ser endurecida
+  - O código da cadeia deve ser idêntico ao da chave pai
+  - O processo deve incluir a chave privada pai
 explanation: |
-  Dependendo do tamanho da entropia, a frase de recuperação consistirá em 12 palavras para 128 bits, 15 palavras para 160 bits e 24 palavras para 256 bits.
-reviewed: false
+  Uma chave pública filha só pode ser derivada de uma chave pública pai se ela for normal, não endurecida.

@@ -1,0 +1,9 @@
+question: Indeks mana yang mewakili rantai eksternal dari sebuah akun dalam jalur derivasi?
+answer: /0/
+wrong_answers:
+  - /1/
+  - /0'/
+  - /2/
+explanation: |
+  Rantai eksternal diidentifikasi oleh indeks /0/ pada kedalaman 4 dari jalur derivasi.
+ditinjau: false

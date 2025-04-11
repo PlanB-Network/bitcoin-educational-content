@@ -1,9 +1,0 @@
-question: Was ist das Ziel der Weiterleitung von Transaktionen im Lightning-Netzwerk?
-answer: Das Ziel der Weiterleitung von Transaktionen im Lightning-Netzwerk besteht darin, die Geschwindigkeit, Sicherheit und Effizienz von Transaktionen zu optimieren, während die Privatsphäre der Benutzer gewahrt bleibt.
-wrong_answers:
-  - Die Größe der Blockchain zu erhöhen.
-  - Die Geschwindigkeit von Transaktionen zu verringern.
-  - Die Privatsphäre der Benutzer zu gefährden.
-explanation: |
-  Das Ziel der Weiterleitung von Transaktionen im Lightning-Netzwerk besteht darin, die Geschwindigkeit, Sicherheit und Effizienz von Transaktionen zu optimieren. Dies wird erreicht, indem verschiedene Faktoren wie Gebühren, HTLC-Verfallszeit, die Anzahl der Zwischenknoten und ein Zufallsfaktor berücksichtigt werden. Gleichzeitig ist das System so konzipiert, dass die Privatsphäre der Benutzer geschützt wird, indem die genaue Verteilung der Liquidität nicht offengelegt wird.
-reviewed: false

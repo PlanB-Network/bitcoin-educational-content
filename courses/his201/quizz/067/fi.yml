@@ -1,0 +1,9 @@
+question: Mikä organisaatio alkoi hyväksyä bitcoineja marraskuussa 2010 yhteisön lobbaamisen seurauksena?
+answer: Electronic Frontier Foundation
+wrong_answers:
+  - WikiLeaks
+  - Punainen Risti
+  - Amnesty International
+explanation: |
+  Tämä organisaatio, jonka perustivat vuonna 1900 Mitch Kapor, John Gilmore ja John Perry Barlow, pyrki suojelemaan internetin vapauksia. Se alkoi hyväksyä bitcoineja 9. marraskuuta.
+reviewed: false

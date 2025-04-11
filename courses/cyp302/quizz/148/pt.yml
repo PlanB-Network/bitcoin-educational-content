@@ -1,0 +1,9 @@
+question: Qual função é usada para calcular o número de inteiros coprimos com um inteiro N?
+answer: Função Phi de Euler
+wrong_answers:
+  - A função logarítmica
+  - Função Gama de Euler
+  - A função de Gauss
+explanation: |
+  A função Phi de Euler (ou função totiente) é usada para calcular o número de coprimos de um inteiro N, especialmente para inteiros não primos.
+reviewed: false

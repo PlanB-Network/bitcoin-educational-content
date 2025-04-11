@@ -1,11 +1,11 @@
-question: Proof of Work (POW) là gì?
+question: Chứng minh công việc (POW) là gì?
 answer: Đó là cơ chế đồng thuận bảo mật của giao thức Bitcoin.
 wrong_answers:
   - Đó là quá trình tạo ra bitcoin mới.
   - Đó là phương pháp xác minh các giao dịch Bitcoin.
   - Đó là thuật toán được sử dụng để đào bitcoin.
 explanation: >-
-  Proof of Work là một thuật toán đồng thuận được sử dụng trong mạng lưới Bitcoin
-  để xác thực các giao dịch và tạo ra các khối mới. Nó yêu cầu các thợ đào giải quyết các
-  bài toán toán học phức tạp, đảm bảo an ninh và tính toàn vẹn của mạng lưới.
-reviewed: false
+  Chứng minh công việc là một thuật toán đồng thuận được sử dụng trong mạng lưới Bitcoin
+  để xác thực các giao dịch và tạo ra các khối mới. Nó yêu cầu các thợ mỏ giải quyết các bài toán toán học phức tạp,
+  đảm bảo an ninh và tính toàn vẹn của mạng lưới.
+reviewed: true

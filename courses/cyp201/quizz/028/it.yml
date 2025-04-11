@@ -1,9 +1,9 @@
-question: Cosa sono gli UTXO nel contesto di Bitcoin?
-answer: Unspent Transaction Outputs
+question: Qual è la dimensione di una chiave pubblica compressa utilizzando il protocollo Schnorr?
+answer: 32 byte
 wrong_answers:
-  - Untraceable Transaction Outputs (Output di transazione non tracciabili)
-  - Unverified Transaction Outputs (Output di transazione non verificati)
-  - Unconfirmed Transaction Outputs (Output di transazione non confermati)
+  - 33 byte
+  - 64 byte
+  - 128 bit
 explanation: |
-  Gli UTXO, o "Unspent Transaction Outputs" (Output di transazione non spesi), rappresentano gli output di transazione non spesi appartenenti a un utente. Per spendere questi bitcoin, è necessario dimostrare di essere il proprietario della chiave privata corrispondente alla chiave pubblica associata a ciascun UTXO.
+  Una chiave pubblica Schnorr è rappresentata solo dalla coordinata x del punto sulla curva ellittica, il che riduce la sua dimensione a 32 byte.
 reviewed: false

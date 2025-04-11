@@ -1,0 +1,8 @@
+question: 什么类型的加密使用固定数据块？
+answer: 块加密
+wrong_answers:
+  - 流加密
+  - 消息认证码
+  - 公钥
+explanation: |
+  块加密将数据分割成固定大小的块，然后独立加密这些块。

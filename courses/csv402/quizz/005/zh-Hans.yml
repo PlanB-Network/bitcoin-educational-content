@@ -1,0 +1,9 @@
+question: RGB 中使用什么方法来定义一次性密封？
+answer: 一个特定的输出点
+wrong_answers:
+  - 特定的公开密钥
+  - 特定的比特币地址
+  - 多个UTXO的组合
+explanation: |
+  RGB 将一次性密封定义为一个特定的输出点，然后可以通过该输出点的支出（TXID + 输出编号）进行关闭。
+reviewed: false

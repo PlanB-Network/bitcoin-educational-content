@@ -1,0 +1,9 @@
+question: Für welche Art von Unternehmen ist eine einfache csv-Datei für die Buchführung am ehesten ausreichend?
+answer: Kleine Unternehmen
+wrong_answers:
+  - Große multinationale Konzerne
+  - Große Finanzinstitute
+  - Hochfrequenz-Handelsplattformen
+explanation: |
+  Die meisten kleinen Unternehmen profitieren von der Einfachheit und der ausreichenden Detailliertheit, die ein csv-Export bietet.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Hva er den største fordelen med spesialiserte SHA256-maskiner, eller ASICs, i Bitcoin-mining?
+answer: De øker hash-raten per joule
+wrong_answers:
+  - De reduserer energiforbruket
+  - De øker hastigheten på transaksjoner
+  - De øker nettverkets sikkerhet
+explanation: >-
+  Spesialiserte SHA256-maskiner, eller ASICs, øker hash-raten per joule
+  i Bitcoin-mining. Dette betyr antall forsøk per sekund og per forbrukt
+  energi.
+reviewed: false

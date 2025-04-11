@@ -1,9 +1,0 @@
-question: Qual é o objetivo de rotear transações na Lightning Network?
-answer: O objetivo de rotear transações na Lightning Network é otimizar a velocidade, segurança e eficiência das transações, ao mesmo tempo em que preserva a privacidade do usuário.
-wrong_answers:
-  - Aumentar o tamanho do blockchain.
-  - Diminuir a velocidade das transações.
-  - Comprometer a privacidade do usuário.
-explanation: |
-  O objetivo de rotear transações na Lightning Network é otimizar a velocidade, segurança e eficiência das transações. Isso é alcançado considerando vários fatores, como taxas, tempo de expiração do HTLC, número de nós intermediários e um fator de aleatoriedade. Ao mesmo tempo, o sistema é projetado para preservar a privacidade do usuário, não revelando a distribuição precisa da liquidez.
-reviewed: false

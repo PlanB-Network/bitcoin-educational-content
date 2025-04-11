@@ -1,0 +1,9 @@
+question: ¿Qué representa la "transición de estado RGB" en el contexto de la Red del Rayo?
+answer: Asignación de activos RGB actualizada e integrada en las operaciones de compromiso
+wrong_answers:
+  - Un nuevo estado de multisig 2/2 en cadena
+  - Asignación de activos RGB actualizada e integrada en la operación de financiación
+  - Script de validación en cadena sustituido por HTLC
+explanation: |
+  La transición de estado RGB actualiza la distribución de activos RGB en el canal mediante transacciones de compromiso.
+reviewed: false

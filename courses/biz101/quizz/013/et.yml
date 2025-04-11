@@ -1,0 +1,9 @@
+question: Miks peetakse Austria majandusteaduse kohaselt kasumit ettevõtte tervise põhinäitajaks?
+answer: Sest kasum näitab, et ettevõte rahuldab tarbijate vajadusi tõhusalt ja jätkusuutlikult.
+wrong_answers:
+  - Sest kasum tagab, et ettevõtte töötajaskond on suurim oma tööstusharus.
+  - Sest kasum on ainult märk sellest, et ettevõte sai valitsuse toetust.
+  - Sest kasum peegeldab juhuslikke turusündmusi, mis ei ole seotud tarbijate nõudlusega.
+explanation: |
+  Austria majandusteaduses annab kasum märku sellest, et ettevõte toodab kaupu või teenuseid, mida tarbijad hindavad tootmiskuludest kõrgema hinnaga. See tulemus viitab ressursside tõhusale kasutamisele ja vastavusse viimisele turu vajadustega.
+reviewed: false

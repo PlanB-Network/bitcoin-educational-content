@@ -1,0 +1,9 @@
+question: Mis on kliendipoolne valideerimine RGB-protokollis?
+answer: Lepinguandmete ja üleminekute kohalik kontrollimine
+wrong_answers:
+  - Nutikate lepingute täitmine otse Bitcoini plokiahelas
+  - Tsentraliseeritud sõlmede ainuüksi kasutamine tehingute valideerimiseks
+  - Lepingu ajaloo automaatne lähtestamine lahknevuste korral
+explanation: |
+  Kliendipoolne valideerimine võimaldab igal osalejal sõltumatult kontrollida, kas saadud andmed vastavad RGB lepingus määratletud eeskirjadele.
+reviewed: false

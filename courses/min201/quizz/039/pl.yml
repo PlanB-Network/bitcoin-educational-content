@@ -1,0 +1,14 @@
+question: Jakie są potencjalne wady Mining dla sieci?
+answer: Bez wystarczającej zachęty finansowej górnikom może być trudno kontynuować wspieranie sieci
+wrong_answers:
+  - Może to doprowadzić do spadku ceny Bitcoin
+  - Może to prowadzić do zwiększenia Hashrate sieci
+  - Może to prowadzić do zmniejszenia liczby aktywnych węzłów w sieci
+explanation: |
+  Mining dla sieci to szlachetna inicjatywa, która
+  przyczynia się do bezpieczeństwa i decentralizacji sieci
+  Bitcoin. Jednak bez wystarczającej zachęty finansowej
+  zachęty finansowej, górnikom może być trudno kontynuować
+  wspieranie sieci, zwłaszcza jeśli działają ze stratą
+  stratą.
+reviewed: true

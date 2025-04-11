@@ -1,0 +1,9 @@
+question: Mikä on Thomas Paine'n kirjan nimi?
+answer: Maalaisjärki.
+wrong_answers:
+  - Ainutlaatuinen järki.
+  - Yhteinen hyvä.
+  - Mikään yllä olevista vastauksista ei ole oikein.
+explanation: |
+  Thomas Paine'n kirja, jonka nimi on Maalaisjärki (Le sens commun ranskaksi), on vaikutusvaltainen pamfletti, joka argumentoi Amerikan itsenäisyyden puolesta ja tuomitsi Britannian tyrannian, näytellen keskeistä roolia siirtokuntalaisten mobilisoimisessa.
+reviewed: false

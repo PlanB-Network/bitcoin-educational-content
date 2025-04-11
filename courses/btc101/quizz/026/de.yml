@@ -1,9 +1,13 @@
-question: Warum kann Gold in einer globalisierten und digitalen Welt nicht mithalten?
-answer: Es benötigt eine zentrale Instanz, um es teilbar und leicht austauschbar zu machen.
+question: Warum kann Gold in einer globalisierten und digitalen Welt nicht gut abschneiden?
+answer: Weil es eine zentrale Entität benötigt, um es teilbar und leicht austauschbar zu machen.
 wrong_answers:
-  - Es ist nicht wertvoll genug.
-  - Es ist nicht selten genug.
-  - Es erodiert im Laufe der Zeit.
+  - Weil es nicht wertvoll genug ist.
+  - Weil es nicht selten genug ist.
+  - Weil es mit der Zeit erodiert.
 explanation: |
-  Gold kann in einer globalisierten und digitalen Welt nicht mithalten, da es eine zentrale Instanz benötigt, um es teilbar und leicht austauschbar zu machen. Dies macht es weniger praktisch für den Einsatz in einer Welt, in der Transaktionen zunehmend digital und dezentralisiert sind.
-reviewed: false
+  Gold kann in einer globalisierten und digitalen Welt nicht mithalten,
+  weil es eine zentrale Entität benötigt, um es teilbar und
+  leicht austauschbar zu machen. Dies macht es weniger praktisch für den Einsatz in
+  einer Welt, in der Transaktionen zunehmend digital und
+  dezentralisiert sind.
+reviewed: true

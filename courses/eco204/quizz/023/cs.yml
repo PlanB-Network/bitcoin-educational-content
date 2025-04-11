@@ -1,4 +1,4 @@
-question: Jaký význam má termín "Burner-preneurs" v kontextu hyperinflace?
+question: Jaký význam má termín Burner-preneurs v kontextu hyperinflace?
 answer: Odkazuje na podnikatele, kteří prosperují tím, že si půjčují znehodnocenou měnu na investice do hmatatelných aktiv a poté své dluhy splácí ještě více znehodnocenou měnou.
 wrong_answers:
   - Odkazuje na jednotlivce, kteří spalují znehodnocenou měnu pro účely vytápění.
@@ -6,7 +6,7 @@ wrong_answers:
   - Odkazuje na jednotlivce, kteří se nelegálně obchodují s cizími měnami.
 explanation: |
   Během období hyperinflace rychle klesá hodnota měny.
-  To vytváří příležitosti pro podnikatele, často označované jako "Burner-preneurs", kteří
+  To vytváří příležitosti pro podnikatele, často označované jako Burner-preneurs, kteří
   si půjčují znehodnocenou měnu na investice do hmatatelných aktiv a poté své
   dluhy splácí ještě více znehodnocenou měnou.
 reviewed: false

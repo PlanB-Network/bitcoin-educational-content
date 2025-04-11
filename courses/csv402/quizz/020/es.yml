@@ -1,0 +1,9 @@
+question: ¿Cuál es el elemento clave que garantiza que Bob reciba un activo durante una transición de estado en RGB?
+answer: Una nueva Definición de Sello apuntando al UTXO de Bob
+wrong_answers:
+  - Una transacción de control sin referencia a un UTXO
+  - Declaración pública de Alice
+  - Una firma doble compartida por Alice y Bob
+explanation: |
+  La Definición del Sello vincula criptográficamente el activo al UTXO de Bob, garantizando que es de su propiedad.
+reviewed: false

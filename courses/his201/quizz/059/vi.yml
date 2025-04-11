@@ -1,0 +1,8 @@
+question: Thành viên nào của diễn đàn đã công bố thuật toán đào của họ sau một khoản quyên góp hào phóng từ Jeff Garzik vào ngày 18 tháng 9 năm 2010?
+answer: puddinpop
+wrong_answers:
+  - nelisky
+  - m0mchil
+  - tcatm
+explanation: |
+  Cho đến thời điểm đó, họ đã kiếm lợi nhuận từ việc thu phí sử dụng phần mềm của mình. Họ [đã công bố](https: //bitcointalk.org/index.php?topic=133.msg13135#msg13135) nó dưới một giấy phép miễn phí.

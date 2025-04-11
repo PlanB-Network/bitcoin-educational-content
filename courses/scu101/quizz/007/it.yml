@@ -1,9 +1,14 @@
-question: Cosa è la navigazione privata?
-answer: Una funzione che impedisce ai browser internet di memorizzare la cronologia di navigazione, i file temporanei di internet, i dati dei moduli, i cookie e i nomi utente e le password.
+question: Cos'è la navigazione in incognito?
+answer: Una funzionalità che impedisce ai browser internet di memorizzare la cronologia di navigazione, i file temporanei di internet, i dati dei moduli, i cookie e i nomi utente e le password.
 wrong_answers:
-  - Una funzione che nasconde la tua attività online al tuo provider di servizi internet.
-  - Una funzione che ti permette di navigare su internet in modo anonimo.
-  - Una funzione che protegge il tuo dispositivo da virus e altri software dannosi.
+  - Una funzionalità che nasconde la tua attività online al tuo fornitore di servizi internet.
+  - Una funzionalità che ti permette di navigare in internet in modo anonimo.
+  - Una funzionalità che protegge il tuo dispositivo da virus e altri software dannosi.
 explanation: |
-  La navigazione privata è una funzione che impedisce ai browser internet di memorizzare la cronologia di navigazione, i file temporanei di internet, i dati dei moduli, i cookie e i nomi utente e le password. Tuttavia, non nasconde la tua attività online al tuo provider di servizi internet né ti permette di navigare su internet in modo anonimo.
-reviewed: false
+  La navigazione in incognito è una funzionalità che impedisce
+  ai browser internet di memorizzare la cronologia di navigazione, i file temporanei di internet,
+  i dati dei moduli, i cookie e i nomi utente e le password.
+  Tuttavia, non nasconde la tua attività online al tuo
+  fornitore di servizi internet né ti permette di navigare
+  in internet in modo anonimo.
+reviewed: true

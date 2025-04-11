@@ -1,0 +1,9 @@
+question: Jakiego rodzaju grupy używają głównie kryptografii?
+answer: Grupy zdefiniowane na liczbach całkowitych lub Elements opisane przez liczby całkowite
+wrong_answers:
+  - Grupy liczb zespolonych lub Elements opisane przez liczby zespolone
+  - Grupy przekształceń geometrycznych lub Elements opisane przez przekształcenia geometryczne
+  - Grupy liczb wymiernych lub Elements opisane przez liczby wymierne
+explanation: |
+  Kryptografia wykorzystuje grupy oparte na liczbach całkowitych lub Elements opisane przez liczby całkowite, takie jak punkty na krzywej eliptycznej, do operacji szyfrowania i podpisywania.
+reviewed: false

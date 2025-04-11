@@ -1,0 +1,13 @@
+question: Mida näitab suur anonset UTXO privaatsuse kohta?
+
+answer: Parandatud privaatsus.
+
+wrong_answers:
+  - Vähendatud privaatsus.
+  - Parandatud jälgitavus.
+  - Kiiremad coinjoin tehingu kiirused.
+
+explanation: |
+  Suur anonset näitab kõrget anonüümsuse taset, kuna muutub raskeks eristada konkreetset UTXO-d homogeenses komplektis.
+
+reviewed: false

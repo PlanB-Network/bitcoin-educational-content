@@ -1,8 +1,0 @@
-question: Người mua cần làm gì để quản lý tính thanh khoản trên Mạng Lưới Lightning?
-answer: Mở kênh
-wrong_answers:
-  - Kết nối với các nút khác
-  - Duy trì một lượng tính thanh khoản ở cả hai phía
-  - Mua kênh
-explanation: |
-  Đối với người mua trên Mạng Lưới Lightning, việc quản lý tính thanh khoản bao gồm việc mở kênh. Điều này cung cấp cho họ tính thanh khoản ra.

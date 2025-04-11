@@ -1,0 +1,11 @@
+question: Hvordan belønner Bitcoin-protokollen gruvearbeideren som finner en gyldig hash for neste blokk?
+answer: Med en belønning definert av konsensusreglene og transaksjonsgebyrene fra alle transaksjoner inkludert i den gyldige blokken
+wrong_answers:
+  - Med en fast mengde Bitcoin
+  - Med en prosentandel av den totale Bitcoin-forsyningen
+  - Med transaksjonsgebyrene fra alle transaksjoner inkludert i den gyldige blokken
+explanation: >-
+  Bitcoin-protokollen belønner gruvearbeideren som finner en gyldig hash for
+  neste blokk med en belønning hvis mengde er definert av konsensusreglene, samt
+  transaksjonsgebyrene fra alle transaksjoner inkludert i den gyldige blokken.
+reviewed: false

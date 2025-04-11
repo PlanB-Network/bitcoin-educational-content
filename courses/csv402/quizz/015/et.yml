@@ -1,0 +1,9 @@
+question: Millist ajaloolist kontseptsiooni rakendab RGB digimaailmas?
+answer: Esitajad
+wrong_answers:
+  - Tsentraliseeritud andmebaasid
+  - Vastastikused võrgud ilma valideerimiseta
+  - Kõigile kättesaadavad avatud registrid
+explanation: |
+  RGB teisendab kandevahendite idee digitaalseks.
+reviewed: false

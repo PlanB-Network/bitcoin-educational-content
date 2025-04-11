@@ -1,0 +1,11 @@
+question: Mis on Lightning Network?
+answer: See on Bitcoini teine kiht.
+wrong_answers:
+  - See on krüptovaluuta vahetus.
+  - See on tüüpi Bitcoini rahakott.
+  - See on Bitcoini kaevandusbassein.
+explanation: |
+  Lightning Network on teise kihi tehnoloogia, mis on rakendatud bitcoinile
+  ja kasutab mikromaksete kanaleid, et suurendada selle plokiahela võimet
+  teostada tehinguid.
+reviewed: false

@@ -1,11 +1,11 @@
 question: What is the primary function of nodes in the Bitcoin network?
 answer: Maintaining a copy of the Bitcoin blockchain, validating transactions, transmitting information to other nodes, and enforcing the rules of the Bitcoin protocol.
 wrong_answers:
-  - Only validating transactions
-  - Only maintaining a copy of the Bitcoin blockchain
-  - Only transmitting information to other nodes
+  - Maintaining a copy of the Bitcoin blockchain, validating transactions, transmitting information to the government, and changing the rules of the Bitcoin protocol.
+  - Only maintaining a copy of the Bitcoin blockchain.
+  - Only transmitting information to other nodes.
 explanation: >-
   Nodes in the Bitcoin network perform several crucial functions, including
   maintaining a copy of the Bitcoin blockchain, validating transactions, transmitting
   information to other nodes, and enforcing the rules of the Bitcoin protocol.
-reviewed: false
+reviewed: true

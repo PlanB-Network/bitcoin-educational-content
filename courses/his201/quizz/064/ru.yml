@@ -1,0 +1,8 @@
+question: Кто был автором первой статьи, представляющей Биткойн, опубликованной на французском языке?
+answer: Люсьен Грондин (grondilu)
+wrong_answers:
+  - Лионель Дрикот (Ploum)
+  - Амори Сеше (deadalnix)
+  - Давид Франсуа (davout)
+explanation: |
+  Это был [текст](https: //linuxfr.org/news/connaissez-vous-les-bitcoins), опубликованный 30 сентября 2010 года на LinuxFr.org под названием Вы знаете о биткойнах?.

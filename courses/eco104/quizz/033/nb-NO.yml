@@ -1,0 +1,12 @@
+question: Hva er én fordel med sentraliserte stablecoins til tross for deres evne til å fryse midler?
+answer: De kan raskt reagere for å beskytte brukere i visse scenarioer
+wrong_answers:
+  - De tilbyr fullstendig desentralisering og sikkerhet
+  - De er ikke underlagt noen reguleringer eller inngrep
+  - De opererer uavhengig av rettshåndhevelse
+explanation: |
+  Sentraliserte stablecoins har muligheten til å gripe inn
+  når det er i brukernes og systemets overordnede stabilitets beste interesse,
+  som demonstrert av eksempler hvor frosne midler ble
+  brukt til å beskytte forbrukere og forhindre hackere i å tjene på det.
+reviewed: true

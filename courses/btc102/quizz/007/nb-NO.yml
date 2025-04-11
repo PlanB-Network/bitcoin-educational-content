@@ -1,0 +1,10 @@
+question: Hva er et vanlig svindelforsøk relatert til online donasjoner i kryptosektoren?
+answer: Tilbud som hevder å doble eller multiplisere bitcoinene du sender.
+wrong_answers:
+  - Tilbud som hevder å doble eller multiplisere dine fysiske varer.
+  - Tilbud som hevder å doble eller multiplisere din fiat-valuta.
+  - Tilbud som hevder å doble eller multiplisere dine programvareprodukter.
+explanation: |
+  Et klassisk eksempel på denne typen svindel er et tilbud som hevder å doble
+  eller multiplisere bitcoinene du sender. Det er viktig å forstå at det ikke finnes
+  noen magisk løsning for å bli øyeblikkelig rik.

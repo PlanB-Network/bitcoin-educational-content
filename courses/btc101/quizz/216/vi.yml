@@ -1,10 +1,13 @@
-question: Tình trạng của Bitcoin ở một số quốc gia là gì?
-answer: Bị cấm và hình sự hóa
+question: Tình trạng của Bitcoin ở El Salvador là gì?
+answer: Tiền tệ hợp pháp.
 wrong_answers:
-  - Được chấp nhận hoàn toàn
-  - Được chấp nhận một phần
-  - Không được quản lý
-explanation: >-
-  Văn bản đề cập rằng một số quốc gia đã cấm và hình sự hóa việc sử dụng Bitcoin, làm tăng thêm sự phức tạp của việc chấp nhận Bitcoin dựa trên văn hóa,
-  thời đại, và các quốc gia.
-reviewed: false
+  - Bị hình sự hóa.
+  - Không rõ.
+  - Không được quản lý.
+explanation: |
+  Văn bản trong khóa học đề cập rằng một số quốc gia đã cấm
+  và hình sự hóa việc sử dụng Bitcoin, làm tăng thêm
+  sự phức tạp của việc áp dụng Bitcoin dựa trên các nền văn hóa, kỷ nguyên, và
+  quốc gia. Tuy nhiên, El Salvador đã đủ dũng cảm để chấp nhận nó
+  như một tiền tệ hợp pháp.
+reviewed: true

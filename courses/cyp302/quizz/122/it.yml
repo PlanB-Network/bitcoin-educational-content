@@ -1,0 +1,9 @@
+question: Qual è il problema della distribuzione delle chiavi?
+answer: La sfida di trasmettere le chiavi in modo sicuro senza scambio fisico
+wrong_answers:
+  - La necessità di generare più coppie di chiavi per cliente
+  - La difficoltà di assicurare la conservazione fisica delle chiavi
+  - L'obbligo di cambiare le chiavi ad ogni comunicazione
+explanation: |
+  Il problema della distribuzione delle chiavi riguarda la sfida di trasmettere le chiavi in modo sicuro, una necessità che è diventata cruciale nelle comunicazioni digitali dove uno scambio fisico è impraticabile.
+reviewed: false

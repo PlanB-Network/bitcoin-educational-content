@@ -1,0 +1,8 @@
+question: Hva er en av de potensielle konsekvensene av Lightning Network for brukere?
+answer: De ville bare betale for innholdet de bruker
+wrong_answers:
+  - De måtte betale mer for innhold
+  - De måtte betale en månedlig abonnementsavgift
+  - De måtte betale for innhold på forhånd
+explanation: >-
+  Med Lightning Network ville brukere kun betale for innholdet de bruker, noe som eliminerer abonnementsavgifter på forhånd.

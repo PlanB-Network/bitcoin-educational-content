@@ -1,0 +1,11 @@
+question: Hva er BTCMap?
+answer: En plattform som lister opp alle handelsmenn som aksepterer Bitcoin
+wrong_answers:
+  - Et kart over alle Bitcoin-gruvene i verden
+  - Et kart over alle Bitcoin-børser i verden
+  - Et kart over alle Bitcoin-brukere i verden
+explanation: >-
+  BTCMap er et åpen kildekode og samarbeidsprosjekt som lister opp alle
+  handelsmenn som aksepterer Bitcoin, samt de forskjellige Bitcoin-samfunnene
+  rundt om i verden.
+reviewed: false

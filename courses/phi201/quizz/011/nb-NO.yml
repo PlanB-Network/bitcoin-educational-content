@@ -1,0 +1,9 @@
+question: Hva er Lord Actons sentrale tese om historie?
+answer: Konflikten mellom frihet og makt er drivkraften for fremgang og utviklingen av samfunn.
+wrong_answers:
+  - Fremgang er lineær og uunngåelig, noe som fører til et samfunn med frihet og likhet.
+  - Historien er en syklus av gjentakelser med perioder av frihet etterfulgt av perioder med tyranni.
+  - Økonomiske faktorer er de viktigste bestemmende for historiens gang.
+explanation: |
+  Lord Acton hevder at historien primært er preget av konflikten mellom frihet og makt, og anser denne kampen som essensiell for fremgang og utviklingen av samfunn mot større individuell frihet.
+reviewed: false

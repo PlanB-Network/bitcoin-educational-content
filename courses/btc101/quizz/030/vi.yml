@@ -1,11 +1,9 @@
-question: Lợi thế chính của tiền tệ fiat là gì?
-answer: Chúng dễ dàng chia nhỏ
+question: Lợi ích chính của tiền tệ fiat là gì?
+answer: Chúng dễ dàng chia nhỏ.
 wrong_answers:
-  - Chúng được kiểm soát bởi một bên trung ương
-  - Chúng không dễ dàng vận chuyển
-  - Chúng hiệu quả trong việc giữ giá trị theo thời gian
+  - Chúng được kiểm soát bởi một bên trung ương.
+  - Chúng không dễ dàng vận chuyển.
+  - Chúng hiệu quả trong việc giữ giá trị theo thời gian.
 explanation: |
-  Tiền tệ fiat, như đô la và euro, rất thanh khoản và
-  dễ dàng vận chuyển vì chúng hiện chủ yếu là số hóa. Tuy nhiên, giá trị của chúng
-  liên tục bị xói mòn bởi lạm phát tiền tệ.
-reviewed: false
+  Tiền tệ fiat, như đô la và euro, rất dễ chuyển đổi và dễ vận chuyển vì chúng hiện chủ yếu là dạng số. Tuy nhiên, giá trị của chúng liên tục bị ăn mòn bởi lạm phát tiền tệ.
+reviewed: true

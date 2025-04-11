@@ -1,5 +1,4 @@
-question: What does it mean if you do not possess the private key to your Bitcoin
-  wallet?
+question: What does it mean if you do not possess the private key to your Bitcoin wallet?
 answer: A third party is responsible for the security of your bitcoins
 wrong_answers:
   - You have lost all your bitcoins

@@ -1,9 +1,0 @@
-question: Por que não é recomendado usar variações ou adições às senhas?
-answer: Elas não são seguras e podem ser facilmente adivinhadas.
-wrong_answers:
-  - Elas são muito longas e complexas.
-  - Elas são difíceis de lembrar.
-  - Elas não são permitidas pela maioria dos serviços online.
-explanation: |
-  Variações ou adições às senhas não são seguras porque podem ser facilmente adivinhadas. É melhor usar senhas completamente aleatórias que não sigam padrões previsíveis.
-reviewed: false

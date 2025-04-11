@@ -1,9 +1,9 @@
-question: O que acontece se Alice tentar trapacear publicando um estado antigo?
-answer: Bob pode usar a chave de revogação para mover os fundos sem esperar pelo fim do Timelock, efetivamente punindo Alice.
+question: Qual é o principal objetivo dos HTLCs na Lightning Network?
+answer: Permitir transferências de pagamento seguras por meio de nós intermediários sem exigir confiança neles
 wrong_answers:
-  - Alice pode usar a chave de revogação para mover os fundos sem esperar pelo fim do Timelock.
-  - Bob pode estender o Timelock para impedir que Alice recupere seu dinheiro.
-  - Alice pode recuperar imediatamente seu dinheiro.
+  - Reduzir as taxas de transação para cada pagamento por meio de nós intermediários
+  - Aumentar a capacidade de cada canal de pagamento
+  - Estabelecer conexões diretas entre todos os nós da rede com sua confiança
 explanation: |
-  Se Alice tentar trapacear publicando um estado antigo, Bob pode usar a chave de revogação para mover os fundos sem esperar pelo fim do Timelock. Isso efetivamente pune Alice por tentar trapacear.
+  Os HTLCs (Hashed Time-Locked Contracts) garantem que cada nó intermediário transferirá o pagamento sem reter os fundos, pois só pode desbloqueá-los completando a transação até o destinatário final.
 reviewed: false

@@ -1,3 +1,4 @@
+id: 614eb46b-3cca-46ef-b9ae-e726849e6d1d
 name: Arman the Parman
 
 contributor_id: rebuild-kiss
@@ -12,5 +13,6 @@ tips:
   lightning_address: dandysack84@walletofsatoshi.com
 
 tags:
-  - bitcoin
-  - lightning-network
+  - adoption
+  - easy-explain
+  - user-friendly

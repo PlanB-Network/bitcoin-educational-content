@@ -1,0 +1,9 @@
+question: Millist majanduskontseptsiooni rõhutab Bastiat oma hävitamiskulude analüüsis?
+answer: Alternatiivkulu
+wrong_answers:
+  - Piirkulu
+  - Piirtootlikkus
+  - Tootmiskulu
+explanation: |
+  Bastiat rõhutab alternatiivkulu tähtsust, illustreerides, et ressursse, mida kasutati hävituse parandamiseks, oleks saanud kasutada rikkuse loomiseks mujal.
+reviewed: false

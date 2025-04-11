@@ -1,0 +1,8 @@
+question: Hva tillater sighash-flagget SIGHASH_NONE?
+answer: Å endre utgangene etter signering
+wrong_answers:
+  - Å endre inngangene etter signering
+  - Å dekke alle innganger og utganger
+  - Å begrense endringer til kun én utgang
+explanation: |
+  SIGHASH_NONE dekker kun inngangene, noe som etterlater utgangene endringsbare etter signering.

@@ -1,9 +1,9 @@
-question: Was ist die Rolle einer Zentralbank als "letzter Kreditgeber"?
+question: Was ist die Rolle einer Zentralbank als letzter Kreditgeber?
 answer: Die Zentralbank leiht in Krisenzeiten Geld an in Not geratene Banken, um einen Dominoeffekt zu verhindern, der das gesamte Finanzsystem lahmlegen könnte.
 wrong_answers:
   - Die Zentralbank leiht in Krisenzeiten Geld an in Not geratene Banken, um ihre eigenen Gewinne zu steigern.
   - Die Zentralbank leiht in Krisenzeiten Geld an in Not geratene Banken, um deren Geschäftstätigkeit zu übernehmen.
   - Die Zentralbank leiht in Krisenzeiten Geld an in Not geratene Banken, um die Staatsschulden zu erhöhen.
 explanation: |
-  Das Konzept einer Zentralbank als "letzter Kreditgeber" entstand im 19. Jahrhundert in England als Reaktion auf wiederholte Bankenläufe, die die finanzielle Stabilität bedrohten. Indem sie in Not geratenen Banken Kredite gewährt, kann die Zentralbank einen Dominoeffekt von Bankenpleiten verhindern, der zu einer Rezession oder Depression führen könnte.
+  Das Konzept einer Zentralbank als letzter Kreditgeber entstand im 19. Jahrhundert in England als Reaktion auf wiederholte Bankenläufe, die die finanzielle Stabilität bedrohten. Indem sie in Not geratenen Banken Kredite gewährt, kann die Zentralbank einen Dominoeffekt von Bankenpleiten verhindern, der zu einer Rezession oder Depression führen könnte.
 reviewed: false

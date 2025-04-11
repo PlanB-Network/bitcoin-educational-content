@@ -1,0 +1,9 @@
+question: Fungsi apa yang digunakan untuk menghitung jumlah bilangan coprime terhadap sebuah bilangan bulat N?
+answer: Fungsi Phi Euler
+wrong_answers:
+  - Fungsi logaritmik
+  - Fungsi Gamma Euler
+  - Fungsi Gauss
+explanation: |
+  Fungsi Phi Euler (atau fungsi totient) digunakan untuk menghitung jumlah coprime dari sebuah bilangan bulat N, terutama untuk bilangan bulat non-prima.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Hvorfor anbefales det ikke å gjenbruke en Bitcoin-adresse?
+answer: Det letter sporingen av transaksjoner av tredjeparter
+wrong_answers:
+  - Det avslører den private nøkkelen på grunn av nonce
+  - Det gjør transaksjoner dyrere
+  - Det ugyldiggjør digitale signaturer
+explanation: |
+  Å gjenbruke en adresse lar observatører enkelt koble forskjellige transaksjoner til samme bruker, noe som kompromitterer deres personvern.

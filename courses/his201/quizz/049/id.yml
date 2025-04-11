@@ -1,0 +1,9 @@
+question: Bagaimana variasi harga Bitcoin selama minggu setelah diperkenalkan di Slashdot?
+answer: Dari $0.008 ke $0.08
+wrong_answers:
+  - Dari $0.001 ke $0.008
+  - Dari $0.08 ke $0.50
+  - Dari $0.50 ke $1
+explanation: |
+  Variasi ini sesuai dengan peningkatan sepuluh kali lipat! Tingkat hash mengalami lonjakan serupa.
+reviewed: false

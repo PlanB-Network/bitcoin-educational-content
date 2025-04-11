@@ -1,0 +1,8 @@
+question: Apa fokus dari kursus universitas ini?
+answer: Semesta Bitcoin.
+wrong_answers:
+  - Industri kriptokurensi global.
+  - Industri fintech.
+  - Industri blockchain.
+explanation: |
+  Seluruh fokus dari universitas ini adalah pada semesta Bitcoin, bukan kripto.

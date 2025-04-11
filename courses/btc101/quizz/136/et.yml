@@ -1,0 +1,10 @@
+question: Kuidas tagab Bitcoin võrk, et pahatahtlikult käitumine Bitcoin protokolli raames on liiga kulukas?
+answer: Protokolli reeglite ja majanduslike stiimulite kaudu.
+wrong_answers:
+  - Range regulatsiooni ja järelevalve kaudu.
+  - Kasutades edasijõudnud turvameetmeid.
+  - Õiguslike sanktsioonide ähvarduse kaudu.
+explanation: >-
+  Bitcoin võrk tagab, et pahatahtlikult käitumine Bitcoin protokolli raames on liiga kulukas protokolli reeglite ja majanduslike stiimulite kaudu. See
+  kõrvaldab vajaduse usalduse järele bitcoinide omandiõiguse üleandmise igal sammul.
+reviewed: false

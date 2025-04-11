@@ -1,0 +1,8 @@
+question: Milline samm ei kuulu kaasaegse krüptograafilise skeemi turvatõestusse?
+answer: Kasutajaliidese seadistamine
+wrong_answers:
+  - Turvadefinitsioonide esitamine
+  - Matemaatilised keerukuse eeldused
+  - Turvalisuse matemaatiline tõestamine
+explanation: |
+  Kaasaegse krüptograafia turvatõestus keskendub eesmärkidele ja matemaatilistele eeldustele, jättes välja aspektid nagu kasutajaliides, mis ei ole krüptograafilise turvalisuse jaoks asjakohane.

@@ -1,0 +1,12 @@
+question: Mis on hüperinflatsiooni üks levinum tagajärg, nagu on näha Zimbabwe ja Weimari Vabariigi näidetel?
+answer: Pangatähe sisemine väärtus võib muutuda madalamaks kui paberi väärtus, millele see on trükitud.
+wrong_answers:
+  - Valuuta väärtus suureneb.
+  - Pangatähtede nõudlus väheneb.
+  - Materiaalsete varade väärtus väheneb.
+explanation: |
+  Teatud majanduslikes olukordades, nagu hüperinflatsioon, võib pangatähe sisemine
+  väärtus muutuda madalamaks kui paberi väärtus, millele see on trükitud.
+  See drastiline väärtuse langus muudab pangatähed, mis tavaliselt on väärtuse ja
+  ostujõu sümbolid, lihtsalt väärtusetuteks paberitükkideks.
+reviewed: false

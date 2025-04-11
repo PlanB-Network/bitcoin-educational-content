@@ -1,0 +1,9 @@
+question: Ketika membeli Bitcoin, apa pendekatan yang direkomendasikan untuk menangani volatilitas harganya?
+answer: Akumulasi Bitcoin secara bertahap secara berkala dan pertahankan perspektif jangka panjang.
+wrong_answers:
+  - Mencoba memprediksi puncak pasar jangka pendek dan segera menjualnya.
+  - Lakukan semuanya dengan seluruh perbendaharaan perusahaan sekaligus.
+  - Hanya beli Bitcoin pada hari-hari ketika harganya meningkat tajam.
+explanation: |
+  Pembelian reguler dari waktu ke waktu (dollar-cost averaging) membantu meredam volatilitas. Jangka waktu yang lebih panjang (misalnya, 4 tahun) mengurangi dampak perubahan harga jangka pendek.
+reviewed: false

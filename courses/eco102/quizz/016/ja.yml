@@ -1,0 +1,9 @@
+question: トレーシーによると、社会の原動力は何ですか？
+answer: 商業
+wrong_answers:
+  - 家族
+  - 政治
+  - 教育
+explanation: |
+  デステュット・ド・トレーシーにとって、商業は文明化と平和化の力を持ち、社会の原動力として機能します。
+reviewed: false

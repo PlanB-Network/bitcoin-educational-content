@@ -1,0 +1,9 @@
+question: Bagaimana cara menginstal alat rgb melalui Kargo?
+answer: kargo pasang rgb-kontrak --semua-fitur
+wrong_answers:
+  - pemasangan kargo rgb --fitur semua
+  - kargo instal rgb-bitcoin --all
+  - kargo membangun rgb-petir --rilis
+explanation: |
+  Instalasi dilakukan dengan perintah "cargo install rgb-contracts --all-features", peti diberi nama "rgb-contracts", yang menginstal alat rgb.
+reviewed: false

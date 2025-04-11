@@ -1,0 +1,15 @@
+question: Apa dampak dari mencetak lebih banyak uang terhadap daya beli mata uang?
+
+answer: Penurunan daya beli mata uang
+
+wrong_answers:
+  - Peningkatan daya beli mata uang
+  - Tidak ada dampak
+  - Lebih banyak uang = daya beli lebih besar
+
+explanation: |
+  Ketika bank sentral memutuskan untuk mencetak uang, mereka tidak bisa semata-mata menciptakan lebih banyak nilai.
+  Untuk uang baru yang dicetak ini agar memiliki nilai, nilainya harus berasal dari pemegang mata uang sebelumnya.
+  Bayangkan pasokan uang sebagai sebuah pizza, dan bayangkan itu dipotong menjadi empat bagian.
+  Menggandakan pasokan uang tidak sama dengan menggandakan jumlah pizza.
+  Sebaliknya, itu sama dengan memotong empat potongan tersebut menjadi dua untuk menciptakan delapan potongan. Kita tidak mendapatkan pizza tambahan. Kita hanya memiliki lebih banyak potongan, masing-masing lebih kecil ukurannya. Oleh karena itu, ketika kita mencetak lebih banyak uang, kita menurunkan nilai uang yang sudah ada.

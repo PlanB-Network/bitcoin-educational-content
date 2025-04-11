@@ -1,0 +1,11 @@
+question: Mis on efektiivse valuuta kriteeriumid?
+answer: Vahetatav, Jagatav, Likviidne
+wrong_answers:
+  - Vahetatav, Jagatav, Hukkuv
+  - Vahetatav, Jagamatu, Likviidne
+  - Mittevahetatav, Jagatav, Likviidne
+explanation: |
+  Efektiivse valuuta kriteeriumid on, et see peab olema vahetatav
+  (väärtuse kaotuseta asendatav), jagatav (erineva mahuga tehingute hõlbustamiseks)
+  ja likviidne (kergesti kaupadeks või teenusteks konverteeritav).
+reviewed: true

@@ -1,0 +1,9 @@
+question: 对于喜欢一体化在线零售环境的企业来说，有哪些替代解决方案可供选择？
+answer: Be-BOP
+wrong_answers:
+  - 凤凰城
+  - 开放节点
+  - 瑞士比特币支付
+explanation: |
+  Be-BOP 是那些希望拥有一个方便比特币支付的综合在线电子商店的人的一个选择。
+reviewed: false

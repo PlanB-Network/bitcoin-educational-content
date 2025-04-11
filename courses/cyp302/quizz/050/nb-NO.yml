@@ -1,0 +1,9 @@
+question: Hvorfor er utvidelsesfelt med en base på 2 nyttige i kryptografi?
+answer: De tillater sikker manipulering av binærstrenger.
+wrong_answers:
+  - De forenkler beregninger ved å redusere antall operasjoner.
+  - De forhindrer beregningsfeil ved å legge til redundans.
+  - De begrenser mulighetenes rekkevidde ved å redusere antall elementer.
+explanation: |
+  Utvidelsesfelt med en base på 2 er praktiske fordi deres elementer kan ses på som binærstrenger, noe som gjør det lettere å utføre operasjoner på digital data på det binære nivået i systemer.
+reviewed: false

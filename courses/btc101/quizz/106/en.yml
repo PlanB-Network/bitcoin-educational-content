@@ -1,10 +1,11 @@
 question: Why is it advisable to avoid leaving your Bitcoins on exchange platforms?
-answer: They can be susceptible to hacker attacks
+answer: They can be susceptible to hacker attacks.
 wrong_answers:
-  - Exchange platforms charge random fees
-  - Bitcoins lose value on exchange platforms
-  - Exchange platforms are not regulated institution
+  - Exchange platforms charge random fees.
+  - Bitcoin loses value on exchange platforms.
+  - Exchange platforms are not regulated institution.
 explanation: |
-  It is advisable to avoid leaving your Bitcoins on exchange platforms
-  because they can be susceptible to hacker attacks.
+  It is advisable to avoid leaving your Bitcoins on exchange
+  platforms because they can be susceptible to hacker
+  attacks.
 reviewed: true

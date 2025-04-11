@@ -1,0 +1,9 @@
+question: Miks on krüptograafia oluline avatud suhtluskeskkonnas?
+answer: See tagab andmete turvalisuse, isegi kui suhtluskanal on pealt kuulatud.
+wrong_answers:
+  - See muudab suhtluse kõikidele võrkudele nähtamatuks.
+  - See hoiab ära rünnakud kohalikele võrkudele.
+  - See asendab füüsilised kaablid turvalise suhtlusega.
+explanation: |
+  Avatud suhtluskeskkonnas, kus kanaleid võidakse jälgida, tagab krüptograafia turvalisuse, kaitstes vahetatavaid andmeid isegi potentsiaalsete rünnakute korral.
+reviewed: false

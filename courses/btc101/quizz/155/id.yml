@@ -1,0 +1,10 @@
+question: Bagaimana penambang diberi kompensasi untuk pekerjaan mereka?
+answer: Penambang diberi kompensasi melalui hadiah yang termasuk dalam blok dan melalui biaya transaksi.
+wrong_answers:
+  - Penambang dibayar oleh jaringan Bitcoin.
+  - Penambang menerima gaji tetap untuk pekerjaan mereka.
+  - Penambang diberi kompensasi dengan bitcoin baru.
+explanation: >-
+  Ketika seorang penambang berhasil menambang sebuah blok, mereka menerima hadiah berupa bitcoin baru. Hadiah ini termasuk dalam blok yang mereka tambang. Selain itu,
+  penambang juga menerima biaya transaksi dari transaksi yang termasuk dalam blok tersebut.
+reviewed: false

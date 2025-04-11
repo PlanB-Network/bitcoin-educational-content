@@ -1,0 +1,9 @@
+question: Manakah dari berikut ini yang BUKAN salah satu dari tiga metode utama yang disebutkan untuk memperoleh Bitcoin?
+answer: Menerima Bitcoin sebagai hibah pemerintah untuk pengembangan bisnis.
+wrong_answers:
+  - Memperoleh Bitcoin dengan imbalan barang atau jasa.
+  - Menambang Bitcoin melalui perangkat keras khusus dan penggunaan energi.
+  - Membeli Bitcoin dari platform atau broker.
+explanation: |
+  Bab ini menyebutkan tiga cara utama untuk mendapatkan Bitcoin; menerimanya sebagai pembayaran, menambang, atau membelinya. Menerima Bitcoin sebagai hibah dari pemerintah bukanlah metode standar yang diakui untuk memperolehnya.
+reviewed: false

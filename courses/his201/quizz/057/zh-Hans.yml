@@ -1,0 +1,8 @@
+question: 2010年有哪位德国矿工几个月控制了比特币网络20%的哈希率？
+answer: ArtForz
+wrong_answers:
+  - tcatm
+  - m0mchil
+  - knightmb
+explanation:
+  他在2010年夏天建立了一个由显卡组成的挖矿农场（称为“ArtFarm”），因此到了秋天时，他已经显著领先于他的竞争对手。

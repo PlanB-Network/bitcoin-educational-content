@@ -1,0 +1,8 @@
+question: Hva er rollen til K-arrayet i RC4-kryptering?
+answer: Den initialiserer og transformerer S-arrayet for å generere nøkkelstrømmen
+wrong_answers:
+  - Den krypterer direkte klarteksten
+  - Den lagrer den krypterte teksten
+  - Den fungerer kun som midlertidig lagring for data til prosessen er ferdig
+explanation: |
+  K-arrayet brukes til å transformere S-arrayet i nøkkelplanleggingsprosessen, noe som muliggjør genereringen av en pseudotilfeldig nøkkelstrøm for å kryptere klarteksten.

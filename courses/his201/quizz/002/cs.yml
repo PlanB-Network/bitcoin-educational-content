@@ -1,0 +1,8 @@
+question: Na jakém procesu je založen model elektronických peněz eCash?
+answer: Blind signatures (Slepé podpisy)
+wrong_answers:
+  - Group signatures (Skupinové podpisy)
+  - Ring signatures (Kruhové podpisy)
+  - Threshold signatures (Práhové podpisy)
+explanation: |
+  eCash je založen na procesu slepých podpisů, který umožňuje podepisujícímu podepsat něco, aniž by viděl, co podepisuje.

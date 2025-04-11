@@ -1,0 +1,9 @@
+question: Mida teeb Bob (vastuvõtja), kui ta saab Alice'ilt (maksja) lõppsaadetise?
+answer: Kontrollida riigi ülemineku kehtivust ja allkirjastada
+wrong_answers:
+  - Muuda lepingu skeemi ja saada see Alice'ile
+  - Loo arve uue operatsiooni jaoks
+  - Allkirjastage Alice'i PSBT ja levitage seda ahelas
+explanation: |
+  Bob vaatab saadetise üle, veendub, et üleminek vastab eeskirjadele, ja kinnitab oma nõusolekut allkirjaga.
+reviewed: false

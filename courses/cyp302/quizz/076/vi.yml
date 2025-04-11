@@ -1,0 +1,9 @@
+question: Kích thước khóa nào được coi là an toàn chống lại các cuộc tấn công bằng phương pháp brute force đối với mã hóa hiện đại?
+answer: 128 bit
+wrong_answers:
+  - 16 bit
+  - 64 bit
+  - 100 bit
+explanation: |
+  Với một khóa ít nhất 128 bit, mã hóa hiện đại hiện được coi là an toàn chống lại các cuộc tấn công bằng phương pháp brute force, vì số lần thử nghiệm sẽ không thực tế.
+reviewed: false

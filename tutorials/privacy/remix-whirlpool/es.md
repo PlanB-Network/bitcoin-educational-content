@@ -49,7 +49,7 @@ Muestra una puntuación retrospectiva de `34,593` y una puntuación prospectiva 
 Es por eso que considero que el uso de Whirlpool es especialmente relevante en una estrategia de "Hodl -> Mix -> Spend -> Replace". En mi opinión, el enfoque más lógico es mantener la mayoría de los ahorros en bitcoins en una billetera fría, mientras se mantiene constantemente una cierta cantidad de monedas en coinjoin en Samourai para cubrir los gastos diarios. Una vez que se gastan los bitcoins de los coinjoins, se reemplazan por nuevos para volver al umbral definido de monedas mezcladas. Este método nos permite liberarnos de la preocupación por la anonimidad de nuestros UTXOs, al tiempo que reduce significativamente el tiempo necesario para que los coinjoins sean efectivos.
 
 Espero que esta respuesta haya aclarado un poco el modelo de Whirlpool. Si quieres aprender más sobre cómo funcionan los coinjoins en Bitcoin, te recomiendo leer mi artículo completo sobre este tema:
-https://planb.network/tutorials/privacy/coinjoin-dojo
+https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
 
 **Recursos externos:**
 - Samourai Wallet Whirlpool

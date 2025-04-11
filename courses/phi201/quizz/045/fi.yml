@@ -1,0 +1,9 @@
+question: Mikä on Thomas Aquinaksen pääväite järjen ja uskon suhteesta?
+answer: Järki ja usko ovat toisiaan täydentäviä ja voivat tukea toisiaan.
+wrong_answers:
+  - Järki ja usko ovat kaksi itsenäistä ja ristiriitaista tiedon lähdettä.
+  - Kaikki muut vastaukset ovat oikeita.
+  - Usko on järkeä ylempi ja voi toimia ilman sen argumentteja.
+explanation: |
+  Thomas Aquinas väittää, että järki ja usko ovat toisiaan täydentäviä: järki voi auttaa ymmärtämään ja selittämään uskon totuuksia, kun taas usko ohjaa järkeä kohti totuuksia, jotka muuten olisivat sen ulottumattomissa.
+reviewed: false

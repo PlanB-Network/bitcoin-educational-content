@@ -1,9 +1,13 @@
-question: Was ist der Zweck des Widerrufsschlüssels im Lightning-Netzwerk?
-answer: Um einen Teilnehmer zu bestrafen, der versucht zu betrügen, indem er eine alte Verpflichtungstransaktion veröffentlicht.
+question: Was bedeutet das Präfix lnbc im für Menschen lesbaren Teil einer Lightning-Rechnung?
+
+answer: Es zeigt eine Lightning-Transaktion auf der Bitcoin-Blockchain an
+
 wrong_answers:
-  - Um einen Teilnehmer zu belohnen, der erfolgreich betrügt.
-  - Um einen neuen Kanal zu eröffnen.
-  - Um eine Transaktion zu validieren.
+  - Dass die Rechnung nur im Bitcoin-Testnet gültig ist
+  - Dass die Rechnung in bech32 kodiert ist
+  - Dass es sich um eine On-Chain-Transaktion handelt
+
 explanation: |
-  Der Widerrufsschlüssel ist ein Mechanismus im Lightning-Netzwerk, um Betrug zu verhindern. Wenn ein Teilnehmer versucht, durch Veröffentlichung einer alten Verpflichtungstransaktion zu betrügen, kann der andere Teilnehmer den Widerrufsschlüssel verwenden, um den Betrüger zu bestrafen und alle SAT aus dem Kanal zu nehmen.
+  Das Präfix lnbc zeigt an, dass die Rechnung für eine Lightning-Transaktion im Bitcoin-Netzwerk bestimmt ist und nicht in einem anderen Netzwerk.
+
 reviewed: false

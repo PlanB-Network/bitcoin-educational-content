@@ -1,0 +1,9 @@
+question: 为什么使用欧洲的Wi-Fi接入点提供商，如SNCF，更安全？
+answer: 由于GDPR规定，他们不会转售用户连接数据。
+wrong_answers:
+  - 他们提供更快的互联网速度。
+  - 他们允许用户绕过地理限制。
+  - 他们阻止在线广告。
+explanation: |
+  在欧洲联盟，数据保护由通用数据保护条例（GDPR）进行规范。因此，欧洲的Wi-Fi接入点提供商，如SNCF，不会转售用户连接数据，这使得使用它们更加安全。
+reviewed: false

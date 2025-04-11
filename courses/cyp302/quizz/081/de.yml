@@ -1,0 +1,9 @@
+question: Welche Operation wird typischerweise verwendet, um den Schlüsselstrom und die Nachricht in einem Stromchiffre zu kombinieren?
+answer: XOR
+wrong_answers:
+  - Multiplikation
+  - Modulares Verschieben
+  - Substitution jedes Buchstabens
+explanation: |
+  In einem Stromchiffre wird die XOR-Operation allgemein verwendet, um den Schlüsselstrom mit der Nachricht zu kombinieren, weil sie einfach und umkehrbar ist.
+reviewed: false

@@ -1,9 +1,0 @@
-question: Ai trả phí giao dịch trong Mạng Lưới Lightning?
-answer: Người gửi tiền.
-wrong_answers:
-  - Người nhận tiền.
-  - Các trung gian.
-  - Chính mạng lưới.
-explanation: |
-  Trong Mạng Lưới Lightning, người gửi tiền là người phải trả phí giao dịch. Những phí này được thu bởi các nút mà được sử dụng để định tuyến giao dịch.
-reviewed: false

@@ -1,0 +1,13 @@
+question: Který krok procesu Chaumian CoinJoin zahrnuje změnu identity na Toru za účelem zajištění anonymity?
+
+answer: Registrace výstupů.
+
+wrong_answers:
+  - Registrace vstupů.
+  - Podepisování transakce.
+  - Vysílání transakce.
+
+explanation: |
+  Aby se zabránilo koordinátorovi v možnosti spojit konkrétní výstup s vstupem, uživatelé změní svou identitu na Toru před odesláním svých adres pro příjem v čistém textu koordinátorovi.
+
+reviewed: false

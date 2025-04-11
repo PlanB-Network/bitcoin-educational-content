@@ -1,9 +1,9 @@
-question: Qual é o objetivo da transação de saque em uma transferência na Rede Lightning?
-answer: Ela representa o estado do canal, garantindo quem possui os fundos após cada transferência.
+question: Por que Alice e Bob trocam seus segredos por transações de compromisso anteriores?
+answer: Para permitir que cada um se proteja caso o outro publique uma transação antiga
 wrong_answers:
-  - É a transação que move os fundos de um lado para o outro.
-  - É a transação que abre o canal.
-  - É a transação que fecha o canal.
+  - Para aumentar a capacidade do canal
+  - Para bloquear o acesso um do outro aos fundos
+  - Para dividir os fundos igualmente
 explanation: |
-  A transação de saque é atualizada após cada transferência na Rede Lightning para refletir o estado atual do canal. Ela garante quem possui os fundos após cada transferência, mas não é executada a menos que o canal seja fechado.
+  Trocar segredos por transações anteriores permite que cada participante puna o outro em caso de tentativa de fraude por publicar uma transação antiga.
 reviewed: false

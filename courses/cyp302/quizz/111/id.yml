@@ -1,0 +1,9 @@
+question: Apa itu enkripsi aliran asinkron?
+answer: Sebuah enkripsi yang aliran kuncinya bergantung pada kunci dan elemen dari teks yang sebelumnya telah dienkripsi
+wrong_answers:
+  - Sebuah enkripsi yang menghasilkan aliran kunci acak setiap kali digunakan
+  - Sebuah enkripsi di mana kunci harus diubah untuk setiap pesan
+  - Sebuah enkripsi yang aliran kuncinya hanya bergantung pada kunci awal
+explanation: |
+  Enkripsi aliran asinkron adalah jenis enkripsi di mana aliran kunci dipengaruhi oleh kunci dan elemen dari teks yang dienkripsi.
+reviewed: false

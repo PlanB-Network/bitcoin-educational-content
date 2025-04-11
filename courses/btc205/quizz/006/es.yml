@@ -1,9 +1,0 @@
-question: ¿Cuál es el monto máximo de compra diaria para KYC light en Suiza?
-answer: 1000 euros
-wrong_answers:
-  - 500 euros
-  - 1500 euros
-  - 2000 euros
-explanation: |
-  KYC light en Suiza permite la compra y venta de bitcoins sin necesidad de proporcionar identificación, siempre y cuando el monto de compra no exceda los 1000 euros por día.
-reviewed: false

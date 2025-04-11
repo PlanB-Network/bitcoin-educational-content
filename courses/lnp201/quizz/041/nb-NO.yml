@@ -1,0 +1,8 @@
+question: Hvorfor er det vanskelig for en sender-node å estimere den eksakte likviditeten til en kanal?
+answer: Fordi bare de to deltakerne kjenner den nøyaktige fordelingen av midler
+wrong_answers:
+  - Fordi den totale kapasiteten til kanalene stadig endrer seg
+  - Fordi gebyrene til mellomliggende noder ikke er offentliggjort
+  - Fordi kanaler automatisk lukker seg etter hver transaksjon
+explanation: |
+  Den nøyaktige fordelingen av midler i en kanal er kun synlig for de to deltakende nodene, noe som forhindrer andre noder i å estimere tilgjengelig likviditet for ruting.

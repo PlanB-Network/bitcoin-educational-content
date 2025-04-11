@@ -1,9 +1,12 @@
-question: Warum gilt SMS nicht als beste Option für 2FA?
-answer: Es liefert nur den Nachweis über den Besitz einer Telefonnummer.
+question: Warum gilt SMS nicht als die beste Option für 2FA?
+answer: Diese Methode ist anfällig für verschiedene Angriffe, wie den SIM-Swap-Betrug.
 wrong_answers:
-  - Es ist zu teuer
-  - Es ist zu langsam
-  - Es ist zu kompliziert einzurichten
+  - Sie ist zu langsam und teuer, ein Telefonanruf wäre effektiver.
+  - Sie bietet nur einen Nachweis des Besitzes einer Telefonnummer.
+  - Sie ist auf technischer Ebene zu kompliziert einzurichten.
 explanation: |
-  SMS gilt nicht als beste Option für 2FA, da es nur den Nachweis über den Besitz einer Telefonnummer liefert, nicht jedoch den Nachweis der Identität.
-reviewed: false
+  SMS gilt nicht als die beste Option für 2FA, weil es
+  eine 2FA-Methode ist, die anfällig für verschiedene Angriffe ist, wie
+  den SIM-Swap-Betrug. Einmal erfolgreich ausgenutzt, zerstören diese
+  Schwachstellen jeglichen Schutz, der durch die zusätzliche Ebene der 2FA-Authentifizierung geboten wird.
+reviewed: true

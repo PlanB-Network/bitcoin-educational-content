@@ -1,9 +1,0 @@
-question: Quel est le but des index renforcés dans la structure du portefeuille HD ?
-answer: Ils sont utilisés avec une apostrophe pour certaines dérivations.
-wrong_answers:
-  - Ils sont utilisés pour dériver des clés enfants dans un but spécifique.
-  - Ils permettent de différencier les comptes pour différentes cryptomonnaies ou réseaux.
-  - Ils correspondent aux chaînes externes et internes.
-explanation: |
-  Dans la structure du portefeuille HD, les index renforcés sont utilisés avec une apostrophe pour certaines dérivations.
-reviewed: false

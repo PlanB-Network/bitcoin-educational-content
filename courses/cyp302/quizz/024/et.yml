@@ -1,0 +1,9 @@
+question: Mis on 42 mod 2 väärtus?
+answer: 0
+wrong_answers:
+  - 1
+  - 2
+  - 42
+explanation: |
+  Jagades 42 kahega, on jääk null, seega 42 mod 2 võrdub 0-ga.
+reviewed: false

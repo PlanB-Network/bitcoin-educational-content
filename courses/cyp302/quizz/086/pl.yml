@@ -1,0 +1,9 @@
+question: Jaka jest główna wada metody ECB z szyfrem blokowym?
+answer: Jest deterministyczny i może ujawniać wzorce w danych
+wrong_answers:
+  - Wymaga kluczy o zmiennej długości
+  - Nie działa z wiadomościami powyżej 128 bitów
+  - Nie działa z wiadomościami powyżej 256 bitów
+explanation: |
+  Metoda ECB (Electronic Code Book) jest deterministyczna: identyczne bloki danych są szyfrowane w ten sam sposób, co pozwala na wykrycie wzorców w zaszyfrowanym tekście.
+reviewed: false

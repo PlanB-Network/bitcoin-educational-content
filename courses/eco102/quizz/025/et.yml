@@ -1,0 +1,9 @@
+question: Mis oli Inglise Liiga peamine eesmärk 1838. aastal?
+answer: Vastu maisiseadustele
+wrong_answers:
+  - Suurmaaomanike vastu
+  - Põllumajandustöötajate edendamise eest
+  - Välismaiste kaupmeeste vastu
+explanation: |
+  Inglise Liiga, mille inspireeris Richard Cobden, sihtis protektsionistlike maisiseaduste kaotamist, et edendada vabakaubandust ja vähendada vaesust.
+reviewed: false

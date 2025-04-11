@@ -1,0 +1,9 @@
+question: Mikä on Bitcoinin päälle rakennetun Lightning Networkin päätarkoitus?
+answer: Mahdollistaa nopeammat, lähes välittömät maksut minimaalisella vuorovaikutuksella ketjussa.
+wrong_answers:
+  - Bitcoinin lohkoketjun korvaaminen kokonaan ja kaikkien transaktioiden tallentaminen paikallisesti.
+  - Tarjota yhden tahon hallitsema luvanvarainen verkko.
+  - Hidastaa liiketoimia, jotta varmistetaan, että hallitukset voivat jäljittää ne täysin.
+explanation: |
+  Salamaverkko on "toisen kerroksen" protokolla, jonka avulla osallistujat voivat luoda maksukanavia, tehdä liiketoimia ketjun ulkopuolella ja selvittää lopullisen nettosaldon vain Bitcoin-lohkoketjussa. Tällä rakenteella saavutetaan nopeammat nopeudet ja alhaisemmat kustannukset.
+reviewed: false

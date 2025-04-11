@@ -1,9 +1,12 @@
-question: Quelle est une méthode pour sécuriser vos bitcoins à long terme?
-answer: Gravez votre phrase mnémonique sur un matériau résistant comme l'acier.
+question: Quelle est une méthode pour sécuriser vos bitcoins sur le long terme ?
+answer: Graver votre phrase mnémonique sur un matériau résistant comme l'acier.
 wrong_answers:
-  - Stockez-les dans un portefeuille numérique
-  - Gardez-les sur une plateforme d'échange
-  - Partagez votre phrase mnémonique avec un ami de confiance
+  - Les stocker dans un portefeuille en ligne.
+  - Les conserver sur une plateforme d'échange.
+  - Partager votre phrase mnémonique avec un collègue.
 explanation: |
-  Graver votre phrase mnémonique sur un matériau résistant comme l'acier crée une sauvegarde physique de vos clés qui est résistante aux dommages causés par l'eau et le feu, sécurisant ainsi vos bitcoins à long terme.
-reviewed: false
+  Graver votre phrase mnémonique sur un matériau résistant comme
+  l'acier crée une sauvegarde physique de vos clés qui est
+  résistante à la fois aux dégâts des eaux et au feu, sécurisant ainsi vos
+  bitcoins sur le long terme.
+reviewed: true

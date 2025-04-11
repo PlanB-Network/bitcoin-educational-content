@@ -4,7 +4,7 @@ name: Electrum
 description: 0からヒーローへの完全なElectrumガイド
 ---
 
-![cover](assets/cover.png)
+![cover](assets/cover.webp)
 
 Electrumについての説明
 

@@ -1,9 +1,9 @@
-question: Was ist die Bedeutung der 2/2 Multi-Sig-Adresse im Prozess der Eröffnung eines Kanals im Lightning Network?
-answer: Es ist die Adresse, an die Alice Geld sendet, um den Kanal zu eröffnen.
+question: Wann wird eine Commitment-Transaktion auf der Bitcoin-Blockchain veröffentlicht?
+answer: Letztendlich, wenn der Kanal geschlossen wird
 wrong_answers:
-  - Es ist die Adresse, von der Alice Geld sendet, um den Kanal zu eröffnen.
-  - Es ist die Adresse, an die Bob Geld sendet, um den Kanal zu eröffnen.
-  - Es ist die Adresse, von der Bob Geld sendet, um den Kanal zu eröffnen.
+  - Unmittelbar nach jeder Übertragung im Kanal
+  - Vor jeder neuen Commitment-Transaktion
+  - Wenn die verfügbaren Mittel erschöpft sind
 explanation: |
-  Im Prozess der Kanaleröffnung erstellt Alice eine 2/2 Multi-Sig-Adresse unter Verwendung ihrer und Bobs öffentlicher Adressen. Anschließend tätigt sie eine Bitcoin-Transaktion, um Geld an diese Adresse zu senden und den Kanal zu eröffnen.
+  Commitment-Transaktionen werden für jede Änderung in der Zuteilung erstellt und signiert, aber sie werden letztendlich nur im Falle einer Kanalschließung auf der Blockchain veröffentlicht.
 reviewed: false

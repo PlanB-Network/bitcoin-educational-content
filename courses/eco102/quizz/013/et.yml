@@ -1,0 +1,8 @@
+question: Mis on väärtuse alus Frédéric Bastiati järgi?
+answer: Kasulikkus
+wrong_answers:
+  - Töö
+  - Nappus
+  - Nõudlus
+explanation: |
+  Bastiat võtab omaks Say idee, et kasulikkus on väärtuse alus, vastandina teooriatele, mis põhinevad tööl või nappusel.

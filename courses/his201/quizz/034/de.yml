@@ -1,0 +1,9 @@
+question: Wer hat den ersten Austauschdienst zwischen Bitcoin und dem Dollar im Oktober 2009 eingerichtet?
+answer: NewLibertyStandard
+wrong_answers:
+  - sirius-m
+  - dwdollar
+  - SmokeTooMuch
+explanation: |
+  Dieser Dienst war rudimentär: Austausche wurden per E-Mail ausgehandelt, und Zahlungen erfolgten über PayPal. Der Wechselkurs basierte auf den Mining-Kosten von NewLibertyStandard selbst.
+reviewed: false

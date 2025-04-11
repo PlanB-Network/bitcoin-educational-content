@@ -5,7 +5,7 @@ wrong_answers:
   - Only transaction fees.
   - There is no reward for miners.
 explanation: |
-  Miners in the Bitcoin network are rewarded with new bitcoins and transaction
-
-  fees for their work in validating and creating blocks.'
-reviewed: false
+  Miners in the Bitcoin network are rewarded with new
+  bitcoins and transaction fees for their work in validating
+  and creating blocks.
+reviewed: true

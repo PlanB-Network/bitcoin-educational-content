@@ -1,9 +1,0 @@
-question: À quoi correspond la Profondeur 0 dans la structure du portefeuille HD ?
-answer: La clé maître et le code de chaîne maître
-wrong_answers:
-  - Les clés enfant et le code de chaîne enfant
-  - Les chaînes externes et internes
-  - Les adresses de réception dans un portefeuille standard
-explanation: |
-  Dans la structure du portefeuille HD, la Profondeur 0 correspond à la clé maître et au code de chaîne maître.
-reviewed: false

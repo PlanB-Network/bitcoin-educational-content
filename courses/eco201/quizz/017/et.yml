@@ -1,0 +1,12 @@
+question: Milline on Austria majandusteadlaste sõnul sotsiaalse koostöö protsessi taga olev peamine jõud?
+answer: Tootlik eelis, mis tuleneb tööjaotusest.
+wrong_answers:
+  - Soov suhelda ja kogukonnaga liituda.
+  - Vajadus kaitse ja turvalisuse järele.
+  - Rikkuse ja võimu tagaajamine.
+explanation: |
+  Austria majandusteadlased, eriti Ludwig Von Mises, jõuavad järeldusele, et
+  tootlik eelis, mis tuleneb tööjaotusest, on sotsiaalse koostöö protsessi taga olev peamine jõud.
+  See on seetõttu, et inimesed on alati paremas olukorras, kui nad
+  spetsialiseeruvad oma tööle ja tegelevad vahetustehingutega.
+reviewed: false

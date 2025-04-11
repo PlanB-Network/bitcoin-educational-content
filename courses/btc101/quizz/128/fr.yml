@@ -1,11 +1,11 @@
-question: Quel est le rôle des mineurs dans le réseau Bitcoin?
-answer: Ils valident les transactions en les incluant dans un bloc.
+question: Lorsque vous créez un plan de succession, qu'est-ce qui n'est pas nécessaire d'inclure ?
+answer: Le nom du portefeuille Bitcoin que vous utilisez habituellement.
 wrong_answers:
-  - Ils créent de nouveaux Bitcoins.
-  - Ils gèrent le réseau Bitcoin.
-  - Ils régulent le prix du Bitcoin.
+  - Une lettre manuscrite listant vos actifs.
+  - Une description de comment accéder à vos fonds.
+  - Les informations de contact de personnes de confiance.
 explanation: |
-  Les mineurs dans le réseau Bitcoin ont pour rôle de valider les transactions
-  en les incluant dans un bloc. Ils le font en résolvant une énigme cryptographique dans
-  un processus appelé "preuve de travail".
-reviewed: false
+  Créer un plan de succession est une étape cruciale pour assurer que vos bitcoins seront correctement gérés après votre décès.
+  Ce plan peut inclure une lettre manuscrite listant vos actifs,
+  leurs méthodes d'accès, et les informations de contact de personnes de confiance à contacter.
+reviewed: true

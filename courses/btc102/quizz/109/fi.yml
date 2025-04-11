@@ -5,6 +5,6 @@ wrong_answers:
   - Uuden tyyppinen Bitcoin.
   - Bitcoin-kaupankäyntialusta.
 explanation: |
-  Lightning Network on "kerros 2" maksuprotokolla, joka toimii
+  Lightning Network on kerros 2 maksuprotokolla, joka toimii
   lohkoketjupohjaisen kryptovaluutan (kuten Bitcoin) päällä. Se on suunniteltu mahdollistamaan
   nopeat transaktiot osallistuvien solmujen kesken.

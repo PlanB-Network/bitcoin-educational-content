@@ -1,9 +1,0 @@
-question: Mikä on bitcoin-yksikön rooli jokapäiväisessä elämässä?
-answer: Sitä käytetään tavaroiden ja palveluiden ostamiseen ja myymiseen.
-wrong_answers:
-  - Sitä käytetään uusien bitcoinien louhimiseen.
-  - Sitä käytetään Bitcoinin hinnan säätelyyn.
-  - Sitä käytetään Bitcoin-protokollan hallintaan.
-explanation: |
-  Jokapäiväisessä elämässä ihmiset käyttävät Bitcoin-yksikköä tavaroiden ja palveluiden ostamiseen ja myymiseen. Se nojaa Bitcoin-protokollaan toimiakseen.
-reviewed: false

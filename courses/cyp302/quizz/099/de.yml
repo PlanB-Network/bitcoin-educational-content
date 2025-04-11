@@ -1,0 +1,9 @@
+question: Was ist die Hauptfunktion eines Message Authentication Code (MAC)?
+answer: Die Echtheit und Integrität der Nachricht sicherstellen
+wrong_answers:
+  - Nachrichten verschlüsseln, um Vertraulichkeit zu gewährleisten
+  - Die Abfangen von Nachrichten verhindern
+  - Für jede Kommunikation private Schlüssel generieren
+explanation: |
+  Ein MAC ist ein kryptografisches Schema, das die Überprüfung ermöglicht, ob eine Nachricht wirklich vom legitimen Absender stammt und nicht verändert wurde, und somit die Echtheit und Integrität sicherstellt.
+reviewed: false

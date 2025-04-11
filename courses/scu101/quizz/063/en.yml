@@ -5,6 +5,7 @@ wrong_answers:
   - AES, DES, 3DES
   - MD5, SHA-1, SHA-256
 explanation: |
-  The chapter lists SSL/TLS and symmetric/asymmetric encryption as some
-  of the aspects of cryptography used in cybersecurity.
-reviewed: false
+  The chapter lists SSL/TLS and symmetric/asymmetric
+  encryption as some of the aspects of cryptography used in
+  cybersecurity.
+reviewed: true

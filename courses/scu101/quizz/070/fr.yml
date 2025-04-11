@@ -1,9 +1,13 @@
 question: Quel est le but de l'authentification Lightning ?
 answer: Elle génère un identifiant différent pour chaque service, sans avoir besoin de fournir une adresse e-mail ou des informations personnelles.
 wrong_answers:
-  - Elle accélère le processus d'authentification.
+  - Permet à quiconque, même sans portefeuille Lightning, de s'authentifier sans adresse e-mail, si une pièce d'identité valide est présentée.
   - Elle vous permet d'utiliser le même mot de passe pour tous les services.
-  - Elle envoie des rappels pour changer les mots de passe chaque mois.
+  - Elle envoie des rappels pour changer de mot de passe tous les mois.
 explanation: |
-  L'authentification Lightning génère un identifiant différent pour chaque service, sans avoir besoin de fournir une adresse e-mail ou des informations personnelles. Cela peut améliorer la confidentialité et la sécurité en réduisant la quantité d'informations personnelles partagées avec chaque service.
-reviewed: false
+  L'authentification Lightning génère un identifiant différent
+  pour chaque service, sans avoir besoin de fournir une adresse
+  e-mail ou des informations personnelles. Cela peut améliorer la confidentialité
+  et la sécurité en réduisant la quantité d'informations personnelles
+  qui sont partagées avec chaque service.
+reviewed: true

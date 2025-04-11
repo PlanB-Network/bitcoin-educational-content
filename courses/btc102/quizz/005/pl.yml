@@ -1,0 +1,9 @@
+question: Na czym koncentruje się ten kurs uniwersytecki?
+answer: Wszechświat Bitcoin.
+wrong_answers:
+  - Globalna branża kryptowalut.
+  - Branża fintech.
+  - Przemysł Blockchain.
+explanation: |
+  Cały uniwersytet skupia się na uniwersum Bitcoin, a nie na kryptowalutach.
+reviewed: false

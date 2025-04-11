@@ -1,9 +1,0 @@
-question: Was gibt das Präfix 0,3 in einem Bitcoin-Public Key an?
-answer: Es gibt einen ungeraden Wert von y an.
-wrong_answers:
-  - Es gibt einen geraden Wert von y an.
-  - Es gibt die Version des Public Keys an.
-  - Es gibt die Größe des Public Keys an.
-explanation: |
-  Im Beispiel des Public Keys von Satoshi Nakamoto gibt das Präfix 0,3 einen ungeraden Wert von y an. Dies ist Teil des Prozesses zur Komprimierung eines Public Keys in Bitcoin.
-reviewed: false

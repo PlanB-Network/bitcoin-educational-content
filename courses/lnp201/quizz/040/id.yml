@@ -1,0 +1,9 @@
+question: Apa peran utama dari node pengirim dalam routing pada Lightning Network?
+answer: Menghitung rute lengkap ke penerima
+wrong_answers:
+  - Menyimpan informasi likuiditas dari semua saluran jaringan
+  - Menentukan biaya transaksi untuk setiap node perantara
+  - Berkomunikasi langsung dengan semua node perantara
+explanation: |
+  Node pengirim bertanggung jawab untuk menghitung seluruh rute ke penerima, karena node perantara hanya mengetahui tetangga mereka yang langsung.
+  direview: false

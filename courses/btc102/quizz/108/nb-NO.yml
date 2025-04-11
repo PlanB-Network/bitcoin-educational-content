@@ -1,0 +1,11 @@
+question: Hva bør du gjøre etter at du har lagret konvolutten i henhold til kapittelet?
+answer: Sørg for at dine arvinger vet at de må hente denne konvolutten hvis nødvendig.
+wrong_answers:
+  - Sørg for at dine arvinger ikke vet at de må hente denne konvolutten hvis nødvendig.
+  - Sørg for at dine arvinger vet at de ikke trenger å hente denne konvolutten hvis nødvendig.
+  - Sørg for at dine arvinger ikke vet at de ikke trenger å hente denne konvolutten
+    hvis nødvendig.
+explanation: |
+  Etter at du har lagret konvolutten, bør du sørge for at dine arvinger vet at
+  de trenger å hente denne konvolutten hvis nødvendig, som foreslått i kapittelet.
+reviewed: false

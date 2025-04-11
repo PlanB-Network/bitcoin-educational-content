@@ -1,9 +1,0 @@
-question: Mitkä ovat kolme bitcoiniin sijoittamisen tapaa, jotka mainitaan luvussa?
-answer: Käyttämällä automaattisia rahanvaihtoautomaatteja (ATM), vaihto kaverien kesken ja verkko-osto.
-wrong_answers:
-  - Käyttämällä luottokortteja, vaihto kaverien kesken ja verkko-osto.
-  - Käyttämällä automaattisia rahanvaihtoautomaatteja (ATM), vaihto perheenjäsenten kesken ja verkko-osto.
-  - Käyttämällä automaattisia rahanvaihtoautomaatteja (ATM), vaihto työkavereiden kesken ja verkko-osto.
-explanation: |
-  Luku mainitsee kolme tapaa ostaa bitcoineja; käyttämällä automaattisia rahanvaihtoautomaatteja (ATM), vaihto kaverien kesken ja verkko-osto.
-reviewed: false

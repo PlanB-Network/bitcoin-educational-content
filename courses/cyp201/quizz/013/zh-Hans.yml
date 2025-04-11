@@ -1,0 +1,8 @@
+question: PBKDF2在比特币中的主要作用是什么？
+answer: 生成HD钱包的种子
+wrong_answers:
+  - 认证交易
+  - 加密私钥
+  - 创建比特币地址
+explanation: |
+  PBKDF2用于从助记词和一个可选的密码短语中派生出一个种子。

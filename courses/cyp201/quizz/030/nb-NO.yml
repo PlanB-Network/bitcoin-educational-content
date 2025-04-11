@@ -1,0 +1,9 @@
+question: Hva er formålet med SIGHASH_SINGLE?
+answer: Å dekke ett inndata og dens tilsvarende utdata
+wrong_answers:
+  - Å dekke alle inndata og utdata
+  - Å dekke kun inndata
+  - Å dekke alle utdata unntatt én
+explanation: |
+  SIGHASH_SINGLE dekker ett enkelt inndata og ett enkelt utdata som tilsvarer indeksen til det signerte inndataet, og lar resten være modifiserbar.
+reviewed: false

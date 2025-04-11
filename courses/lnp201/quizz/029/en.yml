@@ -1,10 +1,9 @@
-question: How much SAT does Alice start with in the example?
-answer: 130,000 SAT.
+question: In what situation is a forced closure of a channel used?
+answer: When one of the parties no longer responds
 wrong_answers:
-  - 100,000 SAT.
-  - 90,000 SAT.
-  - 0 SAT.
+  - When the capacity of the channel needs to be increased
+  - When the timelock is insufficient
+  - When transaction fees are too high
 explanation: |
-  In the example, Alice opens a channel with Bob with 130,000 SAT on her
-  side.
+  Forced closure is used as a last resort if one of the parties, for example due to a technical problem, no longer responds to the other's messages.
 reviewed: false

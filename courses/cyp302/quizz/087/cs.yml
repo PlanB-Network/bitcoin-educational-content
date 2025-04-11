@@ -1,0 +1,9 @@
+question: Která metoda blokové šifry využívá inicializační vektor a vytváří pravděpodobnostní šifrování?
+answer: CBC (Cipher Block Chaining)
+wrong_answers:
+  - ECB (Electronic Code Book)
+  - AES-128
+  - SHA-256
+explanation: |
+  Metoda CBC využívá inicializační vektor a aplikuje operaci XOR mezi každým blokem otevřeného textu a předchozím zašifrovaným blokem, což činí šifrování pravděpodobnostním a bezpečnějším než ECB.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Blant disse risikoene, hvilken er ikke assosiert med kontant P2P-utvekslinger?
+answer: Risiko for datalekkasje.
+wrong_answers:
+  - Risiko for personlig sikkerhet.
+  - Risiko for tyveri.
+  - Juridisk risiko.
+explanation: |
+  Kontant P2P-utvekslinger presenterer mange risikoer, men de krever ikke gjennomføring av en KYC. Derfor er det ingen risiko for datalekkasje.
+reviewed: false

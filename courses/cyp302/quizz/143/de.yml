@@ -1,0 +1,9 @@
+question: Wie lange würde es schätzungweise dauern, eine 2048-Bit-Ganzzahl mit allen aktuellen Rechenressourcen zu faktorisieren?
+answer: Weit über das Alter des Universums hinaus
+wrong_answers:
+  - Ein paar Monate mit klassischen Computern
+  - Ein paar Minuten mit Supercomputern
+  - Ein paar Jahrzehnte für eine Bitcoin-Mining-Farm
+explanation: |
+  Die Komplexität der Faktorisierung von 2048-Bit-Zahlen ist so hoch, dass es praktisch unmöglich wäre, diese zu lösen, selbst wenn man alle vorhandenen Rechenressourcen über einen Zeitraum einsetzen würde, der das Alter des Universums übersteigt.
+reviewed: false

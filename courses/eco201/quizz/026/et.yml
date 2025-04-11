@@ -1,0 +1,11 @@
+question: Mida tähendab, kui kaubal on kõrge müüdavus?
+answer: See peaks olema võimalikult paljude inimeste poolt soovitud, enamiku ajast.
+wrong_answers:
+  - See peaks olema soovitud väheste inimeste poolt, enamiku ajast.
+  - See peaks olema soovitud võimalikult paljude inimeste poolt, mõnikord.
+  - See peaks olema soovitud väheste inimeste poolt, mõnikord.
+explanation: |
+  Kõrge müüdavusega kaup on laialdaselt soovitud ja seda saab
+  kergesti vahetada teiste kaupade või teenuste vastu. See muudab selle sobivaks kasutamiseks
+  rahana.
+reviewed: false

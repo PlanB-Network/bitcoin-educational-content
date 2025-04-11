@@ -1,0 +1,9 @@
+question: 在中本聪之后，谁是第一个加入比特币网络的人？
+answer: Hal Finney
+wrong_answers:
+  - Laszlo Hanyecz
+  - Phil Champagne
+  - Rogzy
+explanation:
+  Hal Finney是继中本聪之后第一个加入比特币网络的人。他甚至发推特说“正在运行比特币”来标记这个时刻。
+reviewed: true

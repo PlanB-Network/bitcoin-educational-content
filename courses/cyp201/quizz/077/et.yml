@@ -1,0 +1,9 @@
+question: Miks on kirjeldajad eriti kasulikud multisignatuuriga rahakottide jaoks?
+answer: Need sisaldavad iga faktori xpub-i ja kirjeldavad multisignatuuri struktuuri
+wrong_answers:
+  - Need kaotavad vajaduse mnemoonilise fraasi järele
+  - Need lihtsustavad kõvastunud võtmete genereerimist
+  - Need muudavad multisignatuurid kõigi skriptidega ühilduvaks
+explanation: |
+  Kirjeldajad sisaldavad kõikide osalejate laiendatud avalikke võtmeid, mis hõlbustab multisignatuuri konfiguratsioonide taastamist ja haldamist.
+reviewed: false

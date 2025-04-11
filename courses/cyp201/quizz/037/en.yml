@@ -1,10 +1,9 @@
-question: What is the algorithm that Bitcoin uses to link private and public keys?
-answer: Elliptic Curve Digital Signature Algorithm (ECDSA)
+question: What is the main limitation of JBOK wallets?
+answer: They require an independent backup for each private key
 wrong_answers:
-  - Advanced Encryption Standard (AES)
-  - Rivest-Shamir-Adleman (RSA)
-  - Secure Hash Algorithm 2 (SHA-2)
+  - They do not allow for the generation of new addresses
+  - They are incompatible with digital signatures
+  - They use uncompressed public keys
 explanation: |
-  Bitcoin utilizes the Elliptic Curve Digital Signature Algorithm (ECDSA)
-  to link private and public keys.
+  JBOK wallets force the user to back up each private key individually, complicating their management.
 reviewed: false

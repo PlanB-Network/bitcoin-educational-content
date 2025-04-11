@@ -1,0 +1,13 @@
+question: Hva er konsekvensen av en nedgang i renten på grunn av en økning i kreditt ifølge den østerrikske teorien om konjunktursyklusen?
+answer: Økonomien går inn i en resesjon; eiendomspriser faller, reallønninger synker, forbrukerpriser faller, og lagerbeholdningen hoper seg opp.
+wrong_answers:
+  - Økonomien går inn i en oppgang; eiendomspriser stiger, reallønninger øker, forbrukerpriser stiger, og lagerbeholdningen minker.
+  - Økonomien går inn i en stagnasjon; eiendomspriser forblir de samme, reallønninger forblir de samme, forbrukerpriser forblir de samme, og lagerbeholdningen forblir den samme.
+  - Økonomien går inn i en deflasjon; eiendomspriser faller, reallønninger øker, forbrukerpriser faller, og lagerbeholdningen øker.
+explanation: |
+  Ifølge den østerrikske teorien om konjunktursyklusen, når det er
+  en nedgang i renten på grunn av en økning i kreditt, går økonomien inn i en
+  resesjon; eiendomspriser faller, reallønninger synker, forbrukerpriser faller, og lagerbeholdningen
+  hoper seg opp. Dette er fordi nedgangen i renten fører til en feilallokering
+  av kapital, som til slutt resulterer i en resesjon.
+reviewed: false

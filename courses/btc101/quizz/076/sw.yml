@@ -1,0 +1,10 @@
+question: Ni nini jukumu la ufunguo wa umma katika Bitcoin Wallet?
+answer: Inatumika kwa anwani za generate Bitcoin na hivyo kupokea pesa.
+wrong_answers:
+  - Inatumika kusimba miamala ya Bitcoin kwa njia fiche.
+  - Inatumika kufikia Bitcoin Wallet.
+  - Inatumika kuhifadhi nakala ya Bitcoin Wallet.
+explanation: |
+  Ufunguo wa umma unatokana na ufunguo wa kibinafsi na hutumiwa
+  kwa anwani za generate Bitcoin ili kupokea pesa.
+reviewed: true

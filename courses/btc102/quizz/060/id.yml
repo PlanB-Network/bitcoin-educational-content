@@ -1,0 +1,10 @@
+question: Apa itu dompet panas dalam konteks Bitcoin?
+answer: Dompet untuk menyimpan jumlah kecil Bitcoin secara online
+wrong_answers:
+  - Dompet yang digunakan untuk transaksi di iklim panas
+  - Dompet yang digunakan untuk menyimpan jumlah besar Bitcoin
+  - Dompet yang digunakan untuk menyimpan Bitcoin dalam jangka waktu yang lama
+explanation: |
+  Dompet panas adalah dompet untuk menyimpan jumlah kecil Bitcoin secara online.
+  Ini dianggap kurang aman dibandingkan dengan dompet dingin karena lebih rentan terhadap peretasan.
+reviewed: false

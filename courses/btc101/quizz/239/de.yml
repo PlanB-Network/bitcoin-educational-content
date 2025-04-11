@@ -1,9 +1,15 @@
-question: Wie könnte das Lightning Network potenziell Zahlungsmodelle verändern?
-answer: Benutzer könnten pro Minute oder sogar pro Sekunde für die Zeit, die sie mit der Nutzung eines Dienstes verbringen, berechnet werden.
+question: Welches der folgenden ist kein Schlüsselmerkmal von Mikrotransaktionen im Lightning-Netzwerk?
+answer: Lange Zahlungszeiten.
 wrong_answers:
-  - Benutzer könnten eine Pauschalgebühr für die Nutzung eines Dienstes zahlen.
-  - Benutzer könnten basierend auf der Menge der von ihnen genutzten Daten berechnet werden.
-  - Benutzer könnten basierend auf der Anzahl der von ihnen getätigten Transaktionen berechnet werden.
+  - Niedrige Gebühren.
+  - Sofortige Zahlungen.
+  - Skalierbarkeit.
 explanation: |
-  Mit dem Lightning Network könnten Benutzer anstelle eines monatlichen Abonnements für einen Dienst pro Minute oder sogar pro Sekunde für die Zeit, die sie mit der Nutzung des Dienstes verbringen, berechnet werden.
-reviewed: false
+  Bei Mikrotransaktionen im Lightning-Netzwerk können Benutzer
+  von niedrigen Transaktionsgebühren profitieren, was es wirtschaftlich macht,
+  sehr kleine Beträge von Bitcoin zu senden. Sie können auch sofortige
+  Zahlungen haben, die Echtzeit-Transaktionen ermöglichen. Zuletzt können sie
+  Skalierbarkeit erreichen, was die Verarbeitung einer großen
+  Anzahl von Transaktionen gleichzeitig ermöglicht. Daher ist die falsche
+  Antwort lange Zahlungszeiten.
+reviewed: true

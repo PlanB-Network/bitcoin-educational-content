@@ -1,0 +1,9 @@
+question: Jaká je role nonce v autentizačním šifrovacím schématu?
+answer: Zajistit, že každá zpráva má unikátní značku a zabránit opakování
+wrong_answers:
+  - Identifikovat odesílatele zprávy
+  - Vytvořit dočasný dešifrovací klíč
+  - Přidat další vrstvu šifrování
+explanation: |
+  V autentizačním šifrovacím schématu se nonce používá k zajištění, že každá zpráva má unikátní značku, čímž se zvyšuje bezpečnost tím, že se zabrání opakování.
+reviewed: false

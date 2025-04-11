@@ -1,5 +1,4 @@
-question: What is the name of the comic book recommended for those curious about the
-  German experience after World War I?
+question: What is the name of the comic book recommended for those curious about the German experience after World War I?
 answer: The Reich's Banker
 wrong_answers:
   - The Reich's Dollar
@@ -7,6 +6,6 @@ wrong_answers:
   - The Reich's Economy
 explanation: |
   For those curious about the German experience after World War I, the
-  lecture recommends the comic book "The Reich's Banker." It narrates how Germany
+  lecture recommends the comic book The Reich's Banker. It narrates how Germany
   managed to overcome hyperinflation, notably through the creation of the Rentenmark.
 reviewed: false

@@ -1,0 +1,8 @@
+question: Hva er personvernmodellen til Bitcoin-systemet?
+answer: Transaksjoner er offentlige, men identiteten til brukerne er ikke kjent.
+wrong_answers:
+  - Bare Satoshi Nakamoto har tilgang til transaksjonsdetaljene.
+  - Transaksjoner er kryptert og usynlige på nettverket.
+  - Bare myndigheter har tilgang til transaksjonsdetaljene.
+explanation: |
+  I tilfellet med Bitcoin, siden informasjonsflyten ikke kan brytes mellom transaksjonene og det offentlige domenet, er personvernmodellen avhengig av separasjonen mellom brukerens identitet og transaksjonene.

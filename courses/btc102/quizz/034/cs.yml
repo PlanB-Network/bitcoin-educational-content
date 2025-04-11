@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   Kapitola uvádí, že nikdy nebude více než 21 milionů bitcoinů.
   Tento limit byl stanoven v protokolu Bitcoinu Satoshi Nakamotem a dnes jej nelze změnit.
-posouzeno: false
+reviewed: false

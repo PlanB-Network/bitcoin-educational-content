@@ -1,0 +1,9 @@
+question: Berapa waktu yang diperkirakan untuk memfaktorkan bilangan integer 2048-bit dengan menggunakan semua sumber daya komputasi yang ada saat ini?
+answer: Jauh melampaui usia alam semesta
+wrong_answers:
+  - Beberapa bulan dengan komputer klasik
+  - Beberapa menit dengan superkomputer
+  - Beberapa dekade untuk pertanian penambangan Bitcoin
+explanation: |
+  Kompleksitas dalam memfaktorkan angka 2048-bit sedemikian rupa sehingga akan hampir mustahil untuk diselesaikan, bahkan dengan menggunakan semua sumber daya komputasi yang ada selama periode yang melebihi usia alam semesta.
+reviewed: false

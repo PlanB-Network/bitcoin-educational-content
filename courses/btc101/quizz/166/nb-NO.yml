@@ -1,0 +1,10 @@
+question: Hva er rollen til gruvearbeidere i forhold til kraftverk som ennå ikke er koblet til nettet?
+answer: De fungerer som en siste instans kjøper
+wrong_answers:
+  - De forsyner kraftverkene med elektrisitet
+  - De kobler kraftverkene til nettet
+  - De regulerer prisen på elektrisitet
+explanation: >-
+  Gruvearbeidere fungerer som en siste instans kjøper for kraftverk som ennå ikke er koblet
+  til nettet. Dette lar kraftverkene sikre finansiering selv før de blir
+  koblet til det elektriske nettverket.

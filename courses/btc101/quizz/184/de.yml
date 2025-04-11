@@ -1,9 +1,10 @@
 question: Was ist einer der Gründe, warum Bitcoin keine Blase ist, die verschwinden wird?
 answer: Weil es eine Währung ist, die tatsächlich überall auf der Welt verwendet wird.
 wrong_answers:
-  - Weil es tatsächlich nirgendwo verwendet wird.
-  - Weil es von einer zentralen Autorität kontrolliert wird.
-  - Weil es leicht zu fälschen ist.
-explanation: |
-  Bitcoin ist keine Blase, die verschwinden wird, sondern eine Währung, die tatsächlich überall auf der Welt verwendet wird.
-reviewed: false
+  - Weil sie tatsächlich nirgendwo verwendet wird.
+  - Weil sie von einer zentralen Autorität kontrolliert wird.
+  - Weil sie leicht zu fälschen ist.
+explanation: >-
+  Bitcoin ist keine Blase, die verschwinden wird, sondern eine Währung, die tatsächlich
+  überall auf der Welt verwendet wird.
+reviewed: true

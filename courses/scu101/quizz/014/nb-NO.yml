@@ -1,0 +1,11 @@
+question: Hva er én måte å unngå nettsvindel på?
+answer: Bekreft identiteten til nettstedet du besøker, spesielt ved å sjekke utvidelsen og domenenavnet.
+wrong_answers:
+  - Bruk offentlige Wi-Fi-nettverk.
+  - Bruk nettsteder som ikke bruker HTTPS-protokollen.
+  - Bruk nettsteder som ikke har et hengelåsikon vist.
+explanation: |
+  For å unngå nettsvindel er det avgjørende å bekrefte identiteten til nettstedet
+  du besøker. Dette kan gjøres ved å sjekke utvidelsen og domenenavnet til
+  nettstedet.
+reviewed: false

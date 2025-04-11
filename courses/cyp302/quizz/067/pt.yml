@@ -1,0 +1,8 @@
+question: O que acontece se um atacante interceptar uma mensagem criptografada em um bom esquema de criptografia simétrica?
+answer: Eles não devem aprender nada significativo sobre a mensagem original
+wrong_answers:
+  - Eles sempre podem descriptografar a mensagem sem a chave
+  - Eles devem ser capazes de descriptografá-la com uma chave pública
+  - Eles devem ser capazes de adivinhar o conteúdo da mensagem
+explanation: |
+  Em um esquema de criptografia simétrica bem projetado, um atacante que interceptar uma mensagem criptografada não deve ser capaz de deduzir informações relevantes sobre o conteúdo da mensagem sem a chave de descriptografia.

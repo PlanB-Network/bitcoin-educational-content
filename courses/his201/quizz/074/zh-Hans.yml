@@ -1,0 +1,8 @@
+question: 2014年3月，一位来自圣殿城的电信工程师被《新闻周刊》的一名记者错误地认定为中本聪，他的名字是什么？
+answer: Dorian
+wrong_answers:
+  - Prentice
+  - Satoshi
+  - Patoshi
+explanation:
+  他的全名是Dorian Prentice Satoshi Nakamoto。他有日本血统。参见[《新闻周刊》文章](https: //www.newsweek.com/2014/03/14/face-behind-bitcoin-247957.html)。

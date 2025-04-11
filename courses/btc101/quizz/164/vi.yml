@@ -1,9 +1,9 @@
-question: Lợi ích chính của Bitcoin đối với những người sống dưới chế độ độc tài hoặc áp bức tài chính là gì?
-answer: Nó mang lại tự do tài chính bằng cách thoát khỏi sự kiểm duyệt và các hạn chế ngân hàng
+question: Lợi ích chính của Bitcoin đối với những người sống dưới chế độ đàn áp tài chính hoặc chế độ độc tài là gì?
+answer: Có cơ hội thoát khỏi kiểm duyệt và các hạn chế ngân hàng.
 wrong_answers:
-  - Nó cung cấp một đồng tiền ổn định
-  - Nó cho phép giao dịch ẩn danh
-  - Nó mang lại lợi nhuận đầu tư cao
+  - Sử dụng một đồng tiền ổn định có giá trị cố định.
+  - Cho phép giao dịch ẩn danh.
+  - Đạt được lợi nhuận cao từ việc đầu tư.
 explanation: >-
-  Bitcoin mang lại tự do tài chính bằng cách thoát khỏi sự kiểm duyệt và các hạn chế ngân hàng. Điều này đặc biệt có lợi cho những người sống dưới chế độ áp bức tài chính hoặc độc tài.
-reviewed: false
+  Bitcoin cung cấp một hình thức tự do tài chính bằng cách thoát khỏi kiểm duyệt và các hạn chế ngân hàng. Điều này đặc biệt có lợi cho những người sống dưới chế độ đàn áp tài chính hoặc chế độ độc tài.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Mis on üks põhjustest, miks peaksite aeg-ajalt oma rahakotis UTXOsid konsolideerima?
+answer: Vältimaks tarbetuid tasusid tehingute ajal.
+wrong_answers:
+  - Suurendamaks oma Bitcoini väärtust.
+  - Hoidmaks ära oma Bitcoini varguse.
+  - Tagamaks, et teie Bitcoin oleks alati kättesaadav.
+explanation: >-
+  Tekstis mainitakse, et oma rahakotis UTXOde aeg-ajalt konsolideerimine on oluline oma bitcoinide efektiivseks haldamiseks ja tarbetute tasude vältimiseks tehingute ajal.
+reviewed: false

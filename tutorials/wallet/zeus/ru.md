@@ -1,5 +1,5 @@
 ---
-name: ZEUS
+name: Zeus
 
 description: Мульти-нодовый кошелек с самохранением
 ---

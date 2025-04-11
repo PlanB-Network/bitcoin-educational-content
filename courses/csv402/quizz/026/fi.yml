@@ -1,0 +1,9 @@
+question: Mikä on käyttöliittymän toteutuksen tarkoitus RGB-arkkitehtuurissa?
+answer: Map Schema-kentät käyttöliittymässä määriteltyihin nimiin
+wrong_answers:
+  - AluVM-skriptien kääntäminen validointia varten
+  - Sopimuksen globaalien ja omistettujen tilojen määrittely
+  - Asiakaspuolen kryptografisten todisteiden tallentaminen
+explanation: |
+  Käyttöliittymän toteutus luo yhteyden skeeman liiketoimintalogiikan ja käyttöliittymän luettavissa olevan esitystavan välille.
+reviewed: false

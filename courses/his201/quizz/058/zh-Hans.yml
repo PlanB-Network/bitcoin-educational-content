@@ -1,0 +1,8 @@
+question: 在2010年下半年，网络的哈希率是以哪个单位测量的？
+answer: 以GH/s计
+wrong_answers:
+  - 以MH/s计
+  - 以TH/s计
+  - 以PH/s计
+explanation:
+  哈希率从2010年7月13日的1.35 GH/s增加到12月31日的120 GH/s。

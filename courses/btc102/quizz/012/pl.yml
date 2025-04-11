@@ -1,0 +1,11 @@
+question: Jaki jest główny powód utraty bitcoinów według rozdziału?
+answer: Słabe zarządzanie bezpieczeństwem online
+wrong_answers:
+  - Oszustwa związane z kryptowalutami
+  - Oszustwa finansowe
+  - Awaria komputera
+explanation: |
+  W rozdziale wspomniano, że oprócz oszustw związanych z kryptowalutami i finansami
+  
+  oszustw finansowych, głównym powodem utraty bitcoinów jest złe zarządzanie bezpieczeństwem online"
+reviewed: false

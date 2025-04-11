@@ -1,0 +1,9 @@
+question: Bagaimana BTC Pay Server dapat digunakan di lingkungan Profesional?
+answer: Di lokasi atau melalui hosting cloud
+wrong_answers:
+  - Khusus pada peralatan perangkat keras khusus
+  - Melalui layanan pihak ketiga yang sepenuhnya dialihdayakan
+  - Sebagai aplikasi seluler
+explanation: |
+  Fleksibilitas dalam menerapkan BTC Pay Server di lokasi atau di cloud memungkinkan bisnis untuk memilih pengaturan yang paling sesuai dengan kebutuhan operasional mereka.
+reviewed: false

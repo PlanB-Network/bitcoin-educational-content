@@ -1,0 +1,9 @@
+question: Hva er viktigheten av sykliske grupper i kryptografi?
+answer: De tillater opprettelsen av kryptografiske systemer basert på generatorer
+wrong_answers:
+  - De forenkler multiplikasjonen av krypteringsnøkler
+  - De øker sikkerheten til offentlige kommunikasjonskanaler
+  - De brukes til å hashe meldinger direkte for å bevare deres integritet
+explanation: |
+  I kryptografi er sykliske grupper, som har generatorer, essensielle for å etablere grunnlag for krypteringsnøkler, spesielt i systemer for offentlige nøkler.
+reviewed: false

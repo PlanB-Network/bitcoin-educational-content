@@ -1,0 +1,8 @@
+question: XOR与模运算的等价是什么？
+answer: XOR等价于对位进行模2运算
+wrong_answers:
+  - XOR等价于经典的模3减法
+  - XOR等价于对位进行模7运算
+  - XOR是加法的逆运算
+explanation: |
+  XOR操作可以被视为带有模2的位加法，使得结果相同。

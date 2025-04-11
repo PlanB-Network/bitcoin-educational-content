@@ -1,0 +1,8 @@
+question: Em um campo finito, qual é o papel de um polinômio irredutível?
+answer: Definir as operações de multiplicação no campo
+wrong_answers:
+  - Definir o inverso aditivo de cada elemento
+  - Garantir o fechamento do campo
+  - Determinar a identidade multiplicativa
+explanation: |
+  Polinômios irredutíveis são usados para estruturar a multiplicação em campos finitos, garantindo que cada elemento permaneça dentro do campo.

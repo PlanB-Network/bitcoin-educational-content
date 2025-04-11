@@ -1,0 +1,9 @@
+question: Ifølge den romerske filosofen Seneca, hva består lykke av?
+answer: Utøvelsen av dyd
+wrong_answers:
+  - Rikdom
+  - Nytelse
+  - Alle ovennevnte
+explanation: |
+  For Seneca ligger sann lykke i utøvelsen av dyd, som lar et individ leve i samsvar med fornuft og oppnå varig indre fred, uavhengig av nytelser eller rikdom.
+reviewed: false

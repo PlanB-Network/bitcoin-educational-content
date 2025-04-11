@@ -1,0 +1,9 @@
+question: Jalur pembayaran yang dibangun di atas sistem mata uang tradisional adalah?
+answer: Pada dasarnya dibayar oleh pedagang melalui biaya pemroses pembayaran
+wrong_answers:
+  - Pada dasarnya gratis karena pelanggan membayar harga yang ditampilkan oleh pedagang
+  - Dibayar oleh pelanggan di atas harga yang diminta oleh penjual
+  - Dibayar oleh perusahaan kartu yang menjual kembali data pelanggan
+explanation: |
+  Tidak ada yang gratis. Jalur pembayaran yang dibangun dalam sistem mata uang tradisional dioperasikan oleh berbagai vendor seperti perusahaan kartu dan bank penerima yang membebankan biaya tetap dan/atau biaya sebelumnya untuk setiap transaksi
+reviewed: false

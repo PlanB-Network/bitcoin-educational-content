@@ -1,0 +1,11 @@
+question: Jak uniknąć oszustw internetowych?
+answer: Zweryfikuj tożsamość przeglądanej witryny, zwłaszcza sprawdzając rozszerzenie i nazwę domeny.
+wrong_answers:
+  - Korzystaj z publicznych sieci Wi-Fi.
+  - Korzystanie z witryn, które nie używają protokołu HTTPS.
+  - Korzystaj z witryn, na których nie jest wyświetlana kłódka.
+explanation: |
+  Aby uniknąć oszustw internetowych, ważne jest, aby zweryfikować tożsamość
+  przeglądanej witryny. Można to zrobić, sprawdzając
+  rozszerzenie i nazwę domeny witryny.
+reviewed: true

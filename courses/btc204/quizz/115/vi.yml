@@ -1,0 +1,13 @@
+question: Ricochet trong bối cảnh của Bitcoin là gì?
+
+answer: Một kỹ thuật bao gồm việc thực hiện nhiều giao dịch cho chính mình
+
+wrong_answers:
+  - Một giao dịch hợp tác bao gồm nhiều người tham gia
+  - Một phương pháp trộn bitcoin để tăng khả năng ẩn danh tiềm năng
+  - Một loại coinjoin đặc biệt cho một số nền tảng giao dịch
+
+explanation: |
+  Ricochet là một kỹ thuật bao gồm việc thực hiện nhiều giao dịch giả tạo cho chính mình (quét).
+
+reviewed: false

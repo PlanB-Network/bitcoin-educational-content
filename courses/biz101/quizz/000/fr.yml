@@ -1,0 +1,9 @@
+question: Les rails de paiement construits au-dessus des systèmes monétaires traditionnels sont ?
+answer: Essentiellement payé par les commerçants à travers les frais des processeurs de paiement
+wrong_answers:
+  - Essentiellement gratuit car le client paie le prix affiché par le commerçant
+  - Payé par le client en plus du prix demandé par le commerçant
+  - Payé par les sociétés de cartes qui revendent les données des clients
+explanation: |
+  Rien n'est gratuit. Les circuits de paiement intégrés dans les systèmes monétaires traditionnels sont exploités par divers fournisseurs, tels que les sociétés de cartes et les banques acquéreuses, qui prélèvent une commission fixe et/ou un pourcentage pour chaque transaction
+reviewed: false

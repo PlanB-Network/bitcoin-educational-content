@@ -1,0 +1,9 @@
+question: Mikä merkittävä tapahtuma merkitsi dollarin muunnettavuuden päättymistä kultaan?
+answer: Nixonin shokki
+wrong_answers:
+  - Suuri lama
+  - Öljyshokki
+  - Toinen maailmansota
+explanation: |
+  Nixonin shokki vuonna 1971 päätti dollarin muunnettavuuden kultaan, merkiten Bretton Woods -järjestelmän loppua ja kelluvien valuuttojen alkua, koska Yhdysvallat ei enää kyennyt tukemaan dollarin vaihtoa kultaan.
+reviewed: false

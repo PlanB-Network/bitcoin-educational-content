@@ -1,0 +1,9 @@
+question: How does the Lightning Network’s improved efficiency and speed compare to traditional payment methods?
+answer: It’s significantly faster, often settling transactions in less than a second, with lower fees and no reliance on multiple intermediaries.
+wrong_answers:
+  - It matches traditional banking times, often taking 2-5 days to settle.
+  - It is slower than traditional card payments and has higher fees.
+  - It requires multiple approving entities, just like current bank transfers.
+explanation: |
+  By enabling off-chain transactions and finalizing payments nearly instantaneously, Lightning offers a speed and efficiency advantage over traditional methods that rely on several intermediaries.
+reviewed: false

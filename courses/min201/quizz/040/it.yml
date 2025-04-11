@@ -5,5 +5,7 @@ wrong_answers:
   - Un prezzo fisso
   - Un prezzo variabile
 explanation: |
-  Il mining stabilisce un prezzo minimo per Bitcoin, al di sotto del quale i minatori venderebbero a perdita. Il costo del mining influenza significativamente il prezzo di Bitcoin.
-reviewed: false
+  Il mining stabilisce un prezzo minimo per Bitcoin, al di sotto del quale
+  i minatori venderebbero in perdita. Il costo del mining
+  influenza significativamente il prezzo di Bitcoin.
+reviewed: vero

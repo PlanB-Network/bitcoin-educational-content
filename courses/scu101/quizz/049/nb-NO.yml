@@ -1,0 +1,9 @@
+question: Hvorfor anses ikke SMS som den beste metoden for 2FA?
+answer: Den gir kun bevis på besittelse av et telefonnummer.
+wrong_answers:
+  - Det er for dyrt
+  - Det er for tregt
+  - Det er for komplisert å sette opp
+explanation: |
+  SMS anses ikke som den beste metoden for 2FA fordi den kun gir
+  bevis på besittelse av et telefonnummer, ikke bevis på identitet.

@@ -1,0 +1,9 @@
+question: Proč je jednorázový šifrovací blok považován za bezpečnou šifrovací metodu?
+answer: Protože každý bit klíče je náhodný a žádná jeho část není použita znovu
+wrong_answers:
+  - Protože používá náhodný veřejný a soukromý klíč
+  - Protože se opírá o prvočísla
+  - Protože šifruje pouze malé zprávy
+explanation: |
+  Jednorázový šifrovací blok je bezpečný, protože každý bit klíče je náhodný a nikdy není použit znovu, což zajišťuje, že nezanechává žádné využitelné stopy pro útočníka.
+reviewed: false

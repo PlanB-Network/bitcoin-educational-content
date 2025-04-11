@@ -1,0 +1,8 @@
+question: Kas Bastiati jaoks on omandiõigus loodud seadusandluse poolt või eelneb see sellele?
+answer: eelneb seadusandlusele
+wrong_answers:
+  - loodud seadusandluse poolt
+  - loodud sotsiaalse lepingu poolt
+  - sõltub üldisest tahtest
+explanation: |
+  Bastiat peab omandiõigust loomulikuks õiguseks, mis eelneb seadusele, mille ülesanne peaks olema ainult selle kaitse tagamine.

@@ -27,7 +27,7 @@ Giao dịch Cahoots liên quan đến việc trao đổi các giao dịch đã k
 
 Khi thực hiện từ xa, quá trình này trở nên quá phức tạp. Để giải quyết vấn đề này, Samourai đã phát triển một giao thức truyền thông mã hóa dựa trên Tor, gọi là "Soroban." Với Soroban, các trao đổi cần thiết cho Payjoin được tự động hóa thông qua một giao diện thân thiện với người dùng. Đây là phương pháp thứ hai mà chúng tôi sẽ khám phá trong bài viết này.
 
-Những trao đổi mã hóa này yêu cầu thiết lập kết nối và xác thực giữa các bên tham gia Cahoots. Giao tiếp Soroban dựa trên Paynyms của người dùng. Nếu bạn chưa quen với Paynyms, tôi mời bạn tham khảo bài viết này để biết thêm chi tiết: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/paynym-bip47)
+Những trao đổi mã hóa này yêu cầu thiết lập kết nối và xác thực giữa các bên tham gia Cahoots. Giao tiếp Soroban dựa trên Paynyms của người dùng. Nếu bạn chưa quen với Paynyms, tôi mời bạn tham khảo bài viết này để biết thêm chi tiết: [BIP47 - PAYNYM](https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093)
 Để nói một cách đơn giản, Paynym là một định danh duy nhất liên kết với ví của bạn cho phép thực hiện nhiều chức năng, bao gồm cả việc nhắn tin được mã hóa. Paynym được thể hiện dưới dạng một định danh và một hình minh họa đại diện cho một robot. Dưới đây là ví dụ về Paynym của tôi trên Testnet: ![Paynym Sparrow](assets/en/1.webp)
 **Tóm tắt:**
 - *Payjoin* = Cấu trúc cụ thể của giao dịch hợp tác;
@@ -36,7 +36,7 @@ Những trao đổi mã hóa này yêu cầu thiết lập kết nối và xác 
 - *Soroban* = Giao thức truyền thông được mã hóa thiết lập trên Tor, cho phép hợp tác với người dùng khác trong bối cảnh của một giao dịch Cahoots.
 - *Paynym* = Định danh duy nhất của một ví cho phép giao tiếp với người dùng khác trên Soroban, nhằm thực hiện một giao dịch Cahoots.
 
-[**-> Tìm hiểu thêm về giao dịch Payjoin và công dụng của chúng**](https://planb.network/tutorials/privacy/payjoin)
+[**-> Tìm hiểu thêm về giao dịch Payjoin và công dụng của chúng**](https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f)
 
 ## Làm thế nào để thiết lập kết nối giữa các Paynyms?
 

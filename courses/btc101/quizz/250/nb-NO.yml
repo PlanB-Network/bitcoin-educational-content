@@ -1,0 +1,8 @@
+question: Hva er en av de største bekymringene om banksystemet?
+answer: Reglene for banksystemet er ikke gjennomsiktige og forståelige for alle.
+wrong_answers:
+  - Banksystemet er for lett å forstå.
+  - Banksystemet er for gjennomsiktig.
+  - Banksystemet er for desentralisert.
+explanation: >-
+  Teksten nevner at spørsmålet om hvem som skal kontrollere banksystemet er avgjørende fordi reglene for banksystemet ikke er gjennomsiktige og forståelige for alle.

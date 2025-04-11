@@ -1,0 +1,25 @@
+id: aaa8a7b8-9e89-495f-9697-2a448906d132
+name: TwentyTwo Devices
+
+links:
+  website: https://twenty-two.xyz/
+  twitter: https://x.com/TwentyTwoHW
+  github: https://github.com/TwentyTwoHW
+
+category: wallet
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-02-22
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0
+tags:
+  - hardware
+  - DIY
+  - node
+contributor_names:
+  - LoicPandul

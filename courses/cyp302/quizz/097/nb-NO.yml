@@ -1,0 +1,8 @@
+question: Hvorfor er ikke konfidensialitet alene nok til å sikre sikker kommunikasjon?
+answer: Fordi en angriper fortsatt kan avlytte og endre meldingen uten å forstå innholdet.
+wrong_answers:
+  - Fordi konfidensialitet er for vanskelig å oppnå.
+  - Fordi private nøkler kan lett gjettes.
+  - Fordi meldinger ikke kan autentiseres uten en digital signatur.
+explanation: |
+  Konfidensialitet beskytter innholdet i meldinger, men uten en MAC, kan en angriper fortsatt avlytte og endre en melding uten å forstå den, og dermed kompromittere integriteten til kommunikasjonen.

@@ -1,9 +1,0 @@
-question: Quali informazioni può fornire il destinatario al mittente per facilitare la ricerca del percorso nella Lightning Network?
-answer: L'importo, il suo indirizzo, l'hash della preimmagine e indicazioni sui suoi canali.
-wrong_answers:
-  - L'indirizzo del mittente, l'importo della transazione e la chiave privata del destinatario.
-  - L'indirizzo del destinatario, l'importo della transazione e la chiave privata del mittente.
-  - L'importo della transazione, l'indirizzo del destinatario e l'hash della preimmagine.
-explanation: |
-  Per facilitare la ricerca del percorso nella Lightning Network, il destinatario può fornire al mittente diverse informazioni. Queste includono l'importo della transazione, l'indirizzo del destinatario, l'hash della preimmagine (che viene utilizzato per creare l'HTLC) e indicazioni sui canali del destinatario (che possono aiutare a identificare canali con liquidità sufficiente).
-reviewed: false

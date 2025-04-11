@@ -1,0 +1,9 @@
+question: Quale dei seguenti NON è uno dei tre metodi principali menzionati per l'acquisizione di Bitcoin?
+answer: Ricevere Bitcoin come sovvenzione governativa per lo sviluppo delle imprese.
+wrong_answers:
+  - Ottenere Bitcoin in cambio di beni o servizi.
+  - L'estrazione di Bitcoin richiede hardware specializzato e consumo di energia.
+  - Acquistare Bitcoin da una piattaforma o da un broker.
+explanation: |
+  Il capitolo menziona tre modi principali per acquisire Bitcoin: accettarlo come pagamento, estrarlo o acquistarlo. Ricevere Bitcoin come sovvenzione governativa non è un metodo di acquisizione standard riconosciuto.
+reviewed: false

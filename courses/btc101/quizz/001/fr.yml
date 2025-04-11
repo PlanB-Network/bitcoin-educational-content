@@ -1,9 +1,10 @@
-question: Quel est le rôle des mineurs dans le réseau Bitcoin ?
-answer: Les mineurs sont essentiels pour créer de nouveaux bitcoins et sécuriser le réseau Bitcoin.
+question: Quand la guerre de la taille des blocs a-t-elle eu lieu ?
+answer: En 2017.
 wrong_answers:
-  - Les mineurs sont responsables de réguler le prix du Bitcoin.
-  - Les mineurs sont responsables de créer des portefeuilles Bitcoin.
-  - Les mineurs sont responsables de contrôler le protocole Bitcoin.
-explanation: |
-  Les mineurs jouent un rôle crucial dans le réseau Bitcoin car ils sont responsables de la création de nouveaux bitcoins et de la sécurisation du réseau Bitcoin en consommant de l'électricité pour le hachage d'un bloc de transactions.
-reviewed: false
+  - En 2008.
+  - En 2010.
+  - En 2019.
+explanation: >-
+  La guerre de la taille des blocs a eu lieu en 2017. Ce conflit opposait les acteurs qui voulaient modifier Bitcoin en augmentant la taille des blocs pour augmenter la capacité des transactions,
+  à ceux qui cherchaient à préserver l'indépendance et le pouvoir des utilisateurs en maintenant la taille à 1 MB.
+reviewed: true

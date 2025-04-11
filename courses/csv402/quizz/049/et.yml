@@ -1,0 +1,9 @@
+question: Kuidas tagab RGB digitaalsete varade haldamisel konfidentsiaalsuse?
+answer: Registreerides plokiahelas ainult krüptograafilisi kohustusi
+wrong_answers:
+  - Krüpteerides kõik plokiahelas toimuvad lõpp-otsaga tehingud
+  - Kasutajate identiteedi varjamine detsentraliseeritud segajate kaudu
+  - Kasutades ainult ajutisi Bitcoin-aadresse iga ülekande jaoks
+explanation: |
+  Kuna RGB säilitab ainult krüptograafilisi tõendeid ahelas, hoiab RGB tundlikku lepingu- ja ülekandeteavet konfidentsiaalsena.
+reviewed: false

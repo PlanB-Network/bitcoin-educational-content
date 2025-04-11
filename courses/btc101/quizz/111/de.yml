@@ -1,9 +1,13 @@
 question: Wofür steht KYC?
-answer: Know Your Customer
+answer: Kenne Deinen Kunden.
 wrong_answers:
-  - Behalte dein Geld
-  - Notiere deine Codes
-  - Freundlich Einhaltung gewähren
+  - Behalte Dein Geld.
+  - Schlüssel Deine Codes.
+  - Freundlich Einhalt Gebieten.
 explanation: |
-  KYC oder Know Your Customer bezieht sich auf den Prozess, den Unternehmen durchlaufen, um die Identität ihrer Kunden zu überprüfen. Dies wird in der Regel durchgeführt, um die Einhaltung von Vorschriften sicherzustellen und illegale Aktivitäten wie Geldwäsche oder Betrug zu verhindern.
-reviewed: false
+  KYC oder Kenne Deinen Kunden bezieht sich auf das Verfahren, das
+  Unternehmen anwenden, um die Identität ihrer Kunden zu verifizieren.
+  Dies wird typischerweise durchgeführt, um die Einhaltung von
+  Vorschriften zu gewährleisten und illegale Aktivitäten wie Geldwäsche
+  oder Betrug zu verhindern.
+reviewed: true

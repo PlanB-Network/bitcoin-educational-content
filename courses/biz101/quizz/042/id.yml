@@ -1,0 +1,9 @@
+question: Di sebagian besar yurisdiksi, apa yang memicu peristiwa kena pajak saat bertransaksi dengan Bitcoin?
+answer: Menjual, memperdagangkan, atau menggunakan Bitcoin sebagai pembayaran sering kali memicu peristiwa kena pajak.
+wrong_answers:
+  - Cukup memegang Bitcoin tanpa batas waktu tanpa transaksi apa pun.
+  - Mencadangkan dompet atau kunci Bitcoin Anda.
+  - Melihat harga Bitcoin secara online.
+explanation: |
+  Biasanya, peristiwa kena pajak terjadi ketika sebuah bisnis membuang atau menggunakan Bitcoin-nya, bukan hanya dengan menyimpannya. Setiap penjualan atau penukaran Bitcoin dengan barang, jasa, atau mata uang fiat dapat menghasilkan keuntungan atau kerugian kena pajak.
+reviewed: false

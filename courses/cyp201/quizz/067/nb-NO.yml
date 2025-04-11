@@ -1,0 +1,8 @@
+question: Hva er formålet med indeksen i å utlede barne nøkler?
+answer: Skille mellom søsken nøkkelpar
+wrong_answers:
+  - Identifisere nøkkelens natur (offentlig eller privat)
+  - Spesifisere nøkkelens sikkerhetsnivå
+  - Legge til et ekstra lag med sikkerhet
+explanation: |
+  Indeksen muliggjør differensiering av barne nøkler som er utledet fra det samme foreldreparet.

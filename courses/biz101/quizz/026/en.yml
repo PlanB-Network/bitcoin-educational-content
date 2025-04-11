@@ -1,0 +1,9 @@
+question: What is one key consideration when choosing a platform or broker to buy Bitcoin for a business?
+answer: The provider’s reputation, security measures, and ability to export transaction histories for accounting.
+wrong_answers:
+  - Ensuring the platform only supports obscure cryptocurrencies.
+  - Finding a provider that refuses to offer any customer support.
+  - Using a service that prohibits withdrawing Bitcoin to a self-custody wallet.
+explanation: |
+  A reliable platform should have a solid reputation, good security, and tools for record-keeping. The ability to withdraw Bitcoin and integrate with accounting software is also crucial for business operations.
+reviewed: false

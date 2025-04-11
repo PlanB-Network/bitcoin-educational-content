@@ -1,0 +1,13 @@
+question: Mis on kaevandamise võimalik puudus võrgu jaoks?
+answer: Ilma piisava rahalise stiimulita võib kaevuritel olla raske jätkata võrgu toetamist
+wrong_answers:
+  - See võib viia Bitcoini hinna languseni
+  - See võib viia võrgu hashrate'i suurenemiseni
+  - See võib viia aktiivsete sõlmede arvu vähenemiseni võrgus
+explanation: |
+  Kaevandamine võrgu jaoks on üllas ettevõtmine, mis
+  aitab kaasa Bitcoin'i võrgu turvalisusele ja detsentraliseeritusele.
+  Siiski, ilma piisava rahalise stiimulita võib kaevuritel olla
+  raske jätkata võrgu toetamist, eriti kui nad tegutsevad
+  kahjumiga.
+reviewed: true

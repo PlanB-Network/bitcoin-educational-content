@@ -1,0 +1,9 @@
+question: Mis iseloomustab tänase kaardipõhise makseprotsessi keerukust jaemüügipunktis?
+answer: See hõlmab mitmeid vahendajaid, mitmeid etappe ja võib võtta päevi, et rahalised vahendid täielikult arveldada.
+wrong_answers:
+  - See nõuab ainult ühte sammu ja raha arveldatakse kohe.
+  - See tugineb ainult füüsilisele sularahale ja ei kasuta vahendajaid.
+  - See tagab, et kui kaart on tõmmatud, on kaupmehe käsutuses raha kohe ja pöördumatult.
+explanation: |
+  Kaardimaksed hõlmavad sageli vahendajate (vastuvõtjad, emitendid, kaardivõrgud) ahelat, nõuavad autoriseerimis- ja arveldusetappe ning võivad võtta 48 tundi kuni mitu päeva, enne kui kaupmees saab netovahendid kätte.
+reviewed: false

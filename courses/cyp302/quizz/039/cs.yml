@@ -1,0 +1,9 @@
+question: Proč je teorie čísel zvláště důležitá v kryptografii s veřejným klíčem?
+answer: Poskytuje nezbytné matematické základy pro operace šifrování a dešifrování.
+wrong_answers:
+  - Poskytuje nezbytné matematické základy pro operace hašování.
+  - Je nezbytná pro vytváření neuronových sítí.
+  - Umožňuje výpočet operací pouze v binárním kódu.
+explanation: |
+  Teorie čísel je klíčová v kryptografii s veřejným klíčem, protože pomáhá strukturovat algoritmy na základě vlastností celých čísel, což usnadňuje operace šifrování a dešifrování.
+reviewed: false

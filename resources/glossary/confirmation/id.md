@@ -1,0 +1,5 @@
+---
+term: KONFIRMASI
+
+---
+Mengacu pada jumlah blok yang mana sebuah transaksi mendapatkan keuntungan dari keamanannya. Ketika sebuah transaksi disiarkan ke jaringan Bitcoin, transaksi tersebut akan tertunda terlebih dahulu di mempool node. Kemudian dimasukkan ke dalam blok yang valid oleh penambang. Pada tahap ini, transaksi baru saja ditambahkan ke dalam blockchain, sehingga transaksi tersebut mendapatkan keuntungan dari konfirmasi pertamanya. Ketika sebuah blok baru ditemukan di atas blok yang berisi transaksi yang dimaksud, ia akan menerima konfirmasi kedua, dan seterusnya. Setiap blok baru yang ditambang di atas blok yang berisi transaksi tersebut merupakan konfirmasi baru. Dengan menghitung jumlah konfirmasi untuk sebuah transaksi, kita dapat memperkirakan risiko bahwa transaksi tersebut pada akhirnya akan dibatalkan karena reorganisasi. Jumlah konfirmasi memungkinkan kita untuk menilai tingkat kekekalan sebuah transaksi pada blockchain.

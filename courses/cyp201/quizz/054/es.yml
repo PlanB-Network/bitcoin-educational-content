@@ -1,9 +1,9 @@
-question: ¿Cuál es el propósito de BIP43 y BIP44 en el ecosistema de Bitcoin?
-answer: Estandarizaron la estructura y jerarquía de las carteras HD.
+question: ¿Cuál es el principal papel de la frase de paso en una cartera HD de Bitcoin?
+answer: Modificar la derivación de clave para mejorar la seguridad
 wrong_answers:
-  - Introdujeron la frase mnemotécnica de 24 palabras.
-  - Revolucionaron la forma en que se generan y almacenan las claves.
-  - Propusieron agregar una frase de contraseña adicional para reforzar la seguridad de las claves individuales.
+  - Descifrar transacciones pendientes
+  - Generar los UTXOs de la cartera
+  - Proteger el acceso a la cartera con identificación facial
 explanation: |
-  BIP43 y BIP44 estandarizaron la estructura y jerarquía de las carteras HD, haciéndolas más accesibles y fáciles de usar para el público en general.
+  La frase de paso actúa como un segundo factor de seguridad, alterando la semilla de derivación de clave para prevenir el acceso a la cartera en caso de que la frase mnemotécnica sea comprometida.
 reviewed: false

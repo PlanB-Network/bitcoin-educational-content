@@ -1,0 +1,9 @@
+question: Mitä Viestin Autentikointikoodi (MAC) varmistaa kryptografisessa järjestelmässä?
+answer: Viestin eheyden ja aitouden
+wrong_answers:
+  - Viestin luottamuksellisuuden
+  - Viestin pakkaamisen
+  - Viestin muuntamisen binaarimuotoon
+explanation: |
+  Viestin Autentikointikoodia (MAC) käytetään varmistamaan, että viestiä ei ole muutettu ja että se todella tulee oletetulta lähettäjältä.
+reviewed: false

@@ -1,9 +1,9 @@
-question: Qual é o ponto de partida para calcular todas as chaves públicas dos usuários no sistema Bitcoin?
-answer: Ponto G
+question: O que uma carteira HD permite fazer em comparação com uma carteira JBOK?
+answer: Gerar todas as chaves privadas a partir de uma única semente
 wrong_answers:
-  - Ponto K
-  - Ponto U
-  - Ponto O
+  - Aumentar a segurança das assinaturas digitais
+  - Reutilizar o mesmo endereço para múltiplas transações
+  - Evitar completamente o uso de chaves públicas
 explanation: |
-  O ponto G é o ponto de partida para calcular todas as chaves públicas dos usuários no sistema Bitcoin.
+  Carteiras HD derivam todas as chaves privadas de uma semente única, o que simplifica o backup e indiretamente melhora a privacidade.
 reviewed: false

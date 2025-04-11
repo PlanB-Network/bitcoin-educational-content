@@ -1,0 +1,9 @@
+question: Jaká je jedna z hlavních výhod ekosystému plateb bitcoinem, pokud jde o přechod mezi řešeními?
+answer: Je poměrně snadné změnit poskytovatele nebo upgradovat nástroje, protože otevřené a interoperabilní standardy bitcoinu umožňují bezproblémové převody prostředků.
+wrong_answers:
+  - Po výběru poskytovatele nemůže podnik nikdy přejít na jiné řešení.
+  - Řešení pro bitcoiny jsou proprietární a vázaná na jednoho dodavatele.
+  - Změna poskytovatele vyžaduje schválení vládou a zdlouhavý právní proces.
+explanation: |
+  Vzhledem k tomu, že Bitcoin je postaven na otevřených protokolech, mohou obchodníci volně přesouvat své prostředky nebo přijímat nová řešení podle toho, jak rostou nebo jak se mění jejich potřeby. Tato flexibilita zajišťuje, že si podniky mohou vybrat ty nejlepší nástroje bez uzamčení dodavatelem.
+reviewed: false

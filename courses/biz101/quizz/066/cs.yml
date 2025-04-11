@@ -1,0 +1,9 @@
+question: Které alternativní řešení je zmíněno pro podniky, které upřednostňují online maloobchodní prostředí typu "vše v jednom"?
+answer: Be-BOP
+wrong_answers:
+  - Phoenix
+  - Otevřený uzel
+  - Švýcarský Bitcoin Pay
+explanation: |
+  Be-BOP je možností pro ty, kteří touží po integrovaném online e-shopu, který usnadňuje platby bitcoiny.
+reviewed: false

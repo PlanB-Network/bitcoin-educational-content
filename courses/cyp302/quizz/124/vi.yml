@@ -1,0 +1,9 @@
+question: Tại sao việc trao đổi khóa trực tiếp lại không thực tế cho các giao tiếp trực tuyến an toàn?
+answer: Nó dẫn đến chi phí tổ chức cao trong khi không hiệu quả
+wrong_answers:
+  - Nó làm cho giao tiếp mã hóa không thể sử dụng được
+  - Nó yêu cầu sử dụng nhiều khóa cho mỗi khách hàng
+  - Nó ngăn chặn việc tái sử dụng khóa cho các giao dịch lặp lại
+explanation: |
+  Việc trao đổi khóa trực tiếp tốn kém và không hiệu quả, đặc biệt là trên quy mô lớn, vì nó làm chậm các giao dịch và đặt ra chi phí hậu cần đáng kể cho mỗi khách hàng mới.
+reviewed: false

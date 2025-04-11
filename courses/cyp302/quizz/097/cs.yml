@@ -1,0 +1,9 @@
+question: Proč samotná důvěrnost není dostatečná pro zajištění bezpečné komunikace?
+answer: Protože útočník může stále zachytit a změnit zprávu, aniž by rozuměl jejímu obsahu.
+wrong_answers:
+  - Protože získání důvěrnosti je příliš obtížné.
+  - Protože soukromé klíče lze snadno uhodnout.
+  - Protože zprávy nelze ověřit bez digitálního podpisu.
+explanation: |
+  Důvěrnost chrání obsah zpráv, ale bez MAC může útočník stále zachytit a změnit zprávu, aniž by ji rozuměl, čímž ohrožuje integritu komunikace.
+reviewed: false

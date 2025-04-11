@@ -1,0 +1,13 @@
+question: 使用Tor为比特币节点带来的主要缺点是什么？
+
+answer: 通信速度降低
+
+wrong_answers:
+  - 交易费用增加
+  - 交易审查的风险
+  - 节点遭受Eclipse攻击的风险
+
+explanation: |
+  通过Tor进行的通信速度较慢。这种延迟在节点初次启动时尤其麻烦，因为IBD（初始区块下载）需要大量的通信。
+
+reviewed: false

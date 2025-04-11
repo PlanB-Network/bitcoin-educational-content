@@ -1,0 +1,11 @@
+question: Apa alasan utama untuk tidak membayar peretas dalam kasus ransomware atau jenis serangan lainnya?
+answer: Membayar tebusan tidak menjamin pemulihan data Anda dan dapat mendorong para penjahat siber untuk melanjutkan aktivitas jahat mereka.
+wrong_answers:
+  - Melakukan pembayaran kepada peretas adalah ilegal.
+  - Peretas akan meminta lebih banyak uang setelah pembayaran awal.
+  - Metode pembayaran biasanya tidak dapat dilacak.
+explanation: |
+  Membayar tebusan tidak menjamin bahwa Anda akan mendapatkan data Anda kembali.
+  Lebih lanjut, hal ini mendorong para penjahat siber untuk melanjutkan aktivitas jahat mereka karena
+  mereka melihatnya sebagai usaha yang menguntungkan.
+reviewed: false

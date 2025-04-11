@@ -1,0 +1,9 @@
+question: Đặc điểm chính của một hàm băm mật mã là gì?
+answer: Nó tạo ra một đầu ra cố định cho bất kỳ đầu vào nào, bất kể kích thước của nó.
+wrong_answers:
+  - Nó mã hóa dữ liệu bằng một khóa đối xứng.
+  - Nó tạo ra một đầu ra biến đổi tùy thuộc vào độ dài của đầu vào.
+  - Nó giải mã tin nhắn bằng một khóa công khai.
+explanation: |
+  Một hàm băm tạo ra một băm cố định, không phụ thuộc vào kích thước của đầu vào.
+reviewed: false

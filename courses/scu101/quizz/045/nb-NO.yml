@@ -1,0 +1,12 @@
+question: Hva er den største fordelen med å bruke en passordbehandler?
+answer: Den hjelper deg med å lage sterke passord og huske dem, så du slipper å gjøre det selv.
+wrong_answers:
+  - Den logger deg automatisk inn på dine nettbaserte kontoer.
+  - Den beskytter datamaskinen din mot virus.
+  - Den lagrer alle passordene dine på ett sted, noe som gjør dem lettere å finne.
+explanation: |
+  En passordbehandler hjelper deg med å lage sterke passord og huske dem,
+
+  så du slipper å gjøre det selv. Den lagrer alle passordene dine på en sikker måte og genererer
+
+  sterke passord for deg.

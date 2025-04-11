@@ -1,9 +1,12 @@
-question: Qual é a ameaça potencial do Proof of Stake na rede Bitcoin?
-answer: Aqueles que já possuem uma grande quantidade da moeda têm um poder desproporcional, refletindo desigualdades de poder existentes.
+question: Qual é a potencial ameaça do Proof of Stake na rede Bitcoin?
+answer: Aqueles que já possuem uma grande quantidade da moeda têm poder desproporcional, refletindo desigualdades de poder existentes.
 wrong_answers:
-  - Isso requer uma barreira significativa de entrada.
+  - Representaria uma barreira significativa para validadores que possuem uma grande quantidade de moeda.
   - Não permite a participação em pequena escala.
   - Não requer recursos tangíveis.
 explanation: |
-  Em uma rede Proof of Stake, aqueles que já possuem uma grande quantidade da moeda têm um poder desproporcional. Essa dinâmica poderia potencialmente perpetuar a centralização e concentração de poder nas mãos de poucos.
-reviewed: false
+  Em uma rede Proof of Stake, aqueles que já possuem uma grande
+  quantidade da moeda têm poder desproporcional. Essa
+  dinâmica poderia potencialmente perpetuar a centralização e
+  concentração de poder nas mãos de poucos.
+reviewed: true

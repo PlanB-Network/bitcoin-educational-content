@@ -1,0 +1,9 @@
+question: ¿Cómo actualizan automáticamente el inventario los sistemas Enterprise?
+answer: Mediante activadores del flujo de trabajo
+wrong_answers:
+  - Actualizaciones manuales
+  - Cargas al final del día
+  - Informes programados
+explanation: |
+  Los activadores de flujos de trabajo actualizan los sistemas en tiempo real.
+reviewed: false

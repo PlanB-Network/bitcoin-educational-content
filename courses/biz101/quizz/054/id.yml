@@ -1,0 +1,9 @@
+question: Manakah dari perangkat lunak berikut ini yang bukan merupakan solusi akuntansi Bitcoin?
+answer: Sparrow
+wrong_answers:
+  - Pelacak Koin
+  - Koinly
+  - ZenLedger
+explanation: |
+  Sparrow bukanlah solusi akuntansi Bitcoin, sementara yang lainnya adalah (ini adalah perangkat lunak Dompet Bitcoin).
+reviewed: false

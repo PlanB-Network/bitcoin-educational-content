@@ -1,0 +1,9 @@
+question: Qual è il vantaggio dei pagamenti con la rete Lightning per gli esercenti nel punto vendita?
+answer: I pagamenti Lightning vengono regolati quasi istantaneamente e non richiedono più intermediari, riducendo le commissioni e i ritardi nei pagamenti.
+wrong_answers:
+  - I pagamenti lampo necessitano di settimane per essere confermati e richiedono una pesante documentazione cartacea.
+  - I pagamenti lampo avvengono solo se approvati dall'autorità di una banca centrale.
+  - I pagamenti lampo possono essere stornati a piacere dall'acquirente dopo la vendita.
+explanation: |
+  La rete Lightning rende le transazioni più veloci ed economiche consentendo il regolamento fuori dalla catena. I commercianti possono ricevere fondi quasi istantaneamente, con commissioni minime e senza affidarsi agli intermediari di pagamento tradizionali.
+reviewed: false

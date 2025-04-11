@@ -1,0 +1,10 @@
+question: Berapa jumlah maksimum bitcoin yang dapat diciptakan?
+answer: sekitar 21 juta unit
+wrong_answers:
+  - lebih kurang 18 juta unit
+  - sekitar 25 juta unit
+  - sekitar 30 juta unit
+explanation: |
+  Penciptaan Bitcoin ditandai dengan batas tetap sebanyak
+  21 juta unit.
+reviewed: benar

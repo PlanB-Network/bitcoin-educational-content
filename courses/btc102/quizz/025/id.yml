@@ -1,0 +1,10 @@
+question: Apa peran penambang dalam jaringan Bitcoin?
+answer: Untuk mencatat transaksi yang telah disebarkan dalam blockchain Bitcoin
+wrong_answers:
+  - Untuk menciptakan bitcoin baru
+  - Untuk mengatur nilai bitcoin
+  - Untuk memverifikasi identitas pengguna Bitcoin
+explanation: |
+  Penambang dalam jaringan Bitcoin bertanggung jawab untuk mencatat transaksi
+  yang telah disebarkan di seluruh jaringan ke dalam blockchain Bitcoin. Ini memastikan
+  kefinalan transaksi.

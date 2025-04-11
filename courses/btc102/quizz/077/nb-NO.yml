@@ -1,0 +1,10 @@
+question: Hva er en satoshi i konteksten av Bitcoin?
+answer: Den minste enheten av Bitcoin
+wrong_answers:
+  - En type Bitcoin-lommebok
+  - En metode for å kjøpe Bitcoin
+  - En Bitcoin-utvekslingsplattform
+explanation: |
+  I konteksten av Bitcoin er en satoshi (eller SAT) den minste enheten av
+  Bitcoin. De som samler på Bitcoin sikter mot å akkumulere så mange satoshier som mulig.
+reviewed: false

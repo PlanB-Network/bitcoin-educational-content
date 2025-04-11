@@ -1,0 +1,9 @@
+question: Lỗ hổng nào được ArtForz báo cáo vào ngày 28 tháng 7 năm 2010, cho phép chi tiêu bitcoin từ bất kỳ địa chỉ nào sử dụng một script cụ thể?
+answer: Lỗi 1 RETURN
+wrong_answers:
+  - Lỗi tràn giá trị
+  - Lỗi OP_NOP
+  - Lỗi LSHIFT
+explanation: |
+  Lỗi này không được khai thác. Satoshi nhanh chóng bao gồm bản sửa lỗi trong phần mềm và khuyến nghị tất cả người dùng nâng cấp.
+reviewed: false

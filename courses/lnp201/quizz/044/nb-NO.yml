@@ -1,0 +1,8 @@
+question: Hva gjør en sender-node når en betalingsrute mislykkes på grunn av utilstrekkelig likviditet?
+answer: Den prøver en annen rute til den finner en funksjonell en
+wrong_answers:
+  - Den sender automatisk en refusjonsforespørsel til mottakeren
+  - Den lukker kanalen og oppretter en ny direkte kanal
+  - Den ber de mellomliggende nodene om å øke sin likviditet
+explanation: |
+  Når en rute mislykkes, prøver sender-noden andre alternative ruter til en funksjonell vei er funnet, eller alle alternativer er uttømt.

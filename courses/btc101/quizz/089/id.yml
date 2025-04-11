@@ -1,0 +1,9 @@
+question: Apa risiko dari terlalu mempersulit keamanan dan aksesibilitas bitcoin Anda?
+answer: Anda dapat merugikan diri sendiri jika Anda salah menangani dompet cadangan
+wrong_answers:
+  - Anda dapat merugikan diri sendiri jika Anda salah menangani dompet fisik
+  - Anda dapat merugikan diri sendiri jika Anda salah menangani dompet digital
+  - Anda dapat merugikan diri sendiri jika Anda salah menangani dompet multisig
+explanation: |
+  Memperumit keamanan dan aksesibilitas bitcoin Anda dapat merugikan Anda jika, misalnya, Anda salah menangani cadangan dari dompet Anda. Ini karena prosedur cadangan yang sederhana sangat penting untuk mendapatkan kembali akses ke dana Anda dalam kasus kehilangan ponsel atau komputer Anda.
+reviewed: true

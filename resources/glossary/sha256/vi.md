@@ -1,0 +1,5 @@
+---
+term: SHA256
+
+---
+Acronym for "*Secure Hash Algorithm 256 bits*". It is a cryptographic hash function producing a 256-bit digest. Designed by the *National Security Agency* (NSA) in the early 2000s, it has become a federal standard for processing sensitive data. In the Bitcoin protocol, the `SHA256` function is ubiquitous. It is used to hash block headers as part of the proof of work. `SHA256` is also used in the process of deriving a receiving address from a public key. It is additionally employed for the aggregation of transactions and witnesses within Merkle trees in blocks. `SHA256` is also found in the calculation of key fingerprints, the calculation of certain checksums, and in many other processes around Bitcoin. When applied twice in succession, it is referred to as `HASH256`. This double application is the one predominantly used on Bitcoin. When `SHA256` is used in conjunction with the `RIPEMD160` function, it is referred to as `HASH160`. This double hashing is used for key fingerprints and for hashing public keys. The `SHA256` function is part of the SHA 2 family.

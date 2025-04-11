@@ -1,0 +1,8 @@
+question: Millist tuletusteed kasutatakse standardse kirjeldaja puhul SegWit v0 konto jaoks?
+answer: 84h/0h/0h
+wrong_answers:
+  - 44h/0h/0h
+  - 86h/0h/0h
+  - 84/0/0
+explanation: |
+  Tee 84h/0h/0h on määratletud BIP84-s, et tuletada SegWit v0 aadresse P2WPKH-ga.

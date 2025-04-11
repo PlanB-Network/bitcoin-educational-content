@@ -1,10 +1,10 @@
 question: What is one of the main reasons why Bitcoin was created?
-answer: To propose an attempt at changing the financial system.
+answer: To propose the change of the financial system.
 wrong_answers:
-  - To propose an attempt at eliminating money.
-  - To propose an attempt at creating a new form of AI technology.
-  - To propose an attempt at controlling the world's population.
-explanation: >-
-  The text mentions that Satoshi created Bitcoin in 2008 to propose an
-  attempt at changing the financial system.
-reviewed: false
+  - To propose the elimination of money.
+  - To propose the creation of a new form of AI technology.
+  - To propose the control of the the world's population.
+explanation: |
+  The text mentions that Satoshi Nakamoto created Bitcoin in
+  2008 to propose the change of the financial system.
+reviewed: true

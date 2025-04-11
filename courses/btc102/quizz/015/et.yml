@@ -1,0 +1,12 @@
+question: Mis on peamine kasu paroolihalduri kasutamisest vastavalt peatükile?
+answer: See aitab sul mitte kunagi kasutada sama parooli kaks korda
+wrong_answers:
+  - See aitab sul meeles pidada oma kasutajatunnuseid
+  - See kaitseb su arvutit viiruste eest
+  - See genereerib juhuslikke paroole
+explanation: |
+  Peatüki kohaselt aitab paroolihaldur sul mitte kunagi kasutada
+
+  sama parooli kaks korda, valida keerukaid ja turvalisi paroole ning hõlbustab sinu veebiturvalisuse
+
+  haldamist.

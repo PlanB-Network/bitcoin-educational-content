@@ -1,0 +1,9 @@
+question: Mis on võtme roll sümmeetrilise krüpteerimise ja dekrüpteerimise protsessides?
+answer: Seda kasutatakse sõnumi krüpteerimiseks ja dekrüpteerimiseks
+wrong_answers:
+  - Seda kasutatakse ainult sõnumi dekrüpteerimiseks
+  - Seda kasutatakse sõnumi terviklikkuse kontrollkoodi loomiseks
+  - Seda jagatakse avalikult teiste võtmete genereerimiseks
+explanation: |
+  Sümmeetrilise krüpteerimise skeemides kasutatakse sama privaatvõtit nii sõnumi saatmisel krüpteerimiseks kui ka vastuvõtmisel dekrüpteerimiseks.
+reviewed: false

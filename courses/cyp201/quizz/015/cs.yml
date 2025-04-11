@@ -1,9 +1,9 @@
-question: Jaká je velikost výstupu hašovací funkce SHA256?
-answer: 256 bitů
+question: Jaký typ klíče se používá k uzamčení UTXO na Bitcoinu?
+answer: Veřejný klíč
 wrong_answers:
-  - 512 bitů
-  - 128 bitů
-  - 1024 bitů
+  - Soukromý klíč
+  - Hash seedu
+  - Mnemonická fráze
 explanation: |
-  Hašovací funkce SHA256 generuje z proměnně velkého vstupu 256bitový hash. Proto se nazývá SHA256.
+  UTXO jsou uzamčeny veřejným klíčem nebo jeho hashem a odemčeny odpovídajícím soukromým klíčem.
 reviewed: false

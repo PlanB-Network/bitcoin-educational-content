@@ -1,0 +1,5 @@
+---
+term: BITCOIN ILIMITADO
+
+---
+Una propuesta para actualizar el protocolo Bitcoin que surgió a finales del verano de 2016, con el objetivo de aumentar el tamaño de bloque de forma flexible a través de una bifurcación dura. Esta bifurcación fue apoyada por los grandes bloqueadores durante la Guerra del Tamaño de Bloque, en particular por Roger Ver. A diferencia de Bitcoin Classic, Bitcoin Unlimited no establecía un límite superior para el tamaño de bloque, sino que permitía a los usuarios definir sus propios parámetros. Estos parámetros incluían el tamaño máximo de generación, el tamaño de bloque adicional y la profundidad de aceptación. Sin embargo, Bitcoin Unlimited fue criticado por su complejidad técnica y sus vulnerabilidades de seguridad. Finalmente, esta actualización nunca se adoptó.

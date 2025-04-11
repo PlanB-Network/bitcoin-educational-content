@@ -1,9 +1,9 @@
-question: Qual é o papel da transação de compromisso na Lightning Network?
-answer: Ela atualiza o saldo do canal após cada transferência.
+question: Quais são os três métodos de fechamento de um canal na Lightning Network?
+answer: Fechamento cooperativo, fechamento forçado, fechamento com trapaça
 wrong_answers:
-  - Ela abre o canal.
-  - Ela fecha o canal.
-  - Ela transfere os fundos.
+  - Fechamento rápido, fechamento lento, fechamento com dupla assinatura
+  - Fechamento seguro, fechamento automatizado, fechamento com perda de fundos
+  - Fechamento direto, fechamento indireto, fechamento com reivindicação
 explanation: |
-  A transação de compromisso é uma transação mais recente que atualiza o saldo do canal após cada transferência. Ela não é executada a menos que o canal seja fechado.
+  Existem três métodos: fechamento cooperativo onde as partes concordam, fechamento forçado sem uma resposta de uma das partes, e fechamento com trapaça onde uma parte tenta publicar uma transação antiga.
 reviewed: false

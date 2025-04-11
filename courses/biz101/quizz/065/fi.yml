@@ -1,0 +1,9 @@
+question: Mikä on ensisijainen maksuratkaisu, jota suositellaan Essential-profiilin yrityksille?
+answer: Sveitsin Bitcoin Pay
+wrong_answers:
+  - Avoin solmu
+  - BTCPay-palvelin
+  - Bitcoinize PoS
+explanation: |
+  Korostamme, että Swiss Bitcoin Pay on suositeltava ratkaisu Essential-profiilille, joka tasapainottaa yksinkertaisuuden ja turvallisuuden.
+reviewed: false

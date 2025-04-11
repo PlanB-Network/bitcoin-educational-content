@@ -1,0 +1,14 @@
+question: Millised on peamised stabiilsete müntide tüübid, mida tekstis mainitakse?
+answer: Fiat-tagatisega, kauba-tagatisega ja algoritmilised stabiilsed mündid.
+wrong_answers:
+  - Digitaalsed ja füüsilised stabiilsed mündid
+  - Tsentraliseeritud ja detsentraliseeritud stabiilsed mündid
+  - Pangatagatisega stabiilsed mündid ja isikute tagatisega stabiilsed mündid
+explanation: |
+  Eelnevates peatükkides oleme näinud kolme peamist tüüpi stabiilseid münte; 
+  fiat-tagatisega stabiilsed mündid, mis on tagatud traditsiooniliste valuutadega 
+  nagu USA dollar; kauba-tagatisega stabiilsed mündid, mis on tagatud 
+  kaupadega nagu kuld või nafta; ja algoritmilised stabiilsed mündid, mis toetuvad 
+  reeglite või algoritmide komplektile, et säilitada oma väärtust. Siiski, 
+  märgitakse, et edukad algoritmilised stabiilsed mündid pole veel turule jõudnud.
+reviewed: true

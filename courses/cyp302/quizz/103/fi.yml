@@ -1,0 +1,9 @@
+question: Miksi autentikoitu salaus on vastustuskykyinen valikoiduille salakirjoitushyökkäyksille?
+answer: Koska hyökkääjän tekemä minkä tahansa muutoksen salakirjoitukseen tekee tunnisteen (tag) kelvottomaksi
+wrong_answers:
+  - Koska se käyttää yhtä ainoaa salausalgoritmia
+  - Koska hyökkääjän tekemä minkä tahansa muutoksen salakirjoitukseen tekee avaimen kelvottomaksi
+  - Koska se salaa vain viestin ilman tunnistetta
+explanation: |
+  Autentikoitu salausjärjestelmä on suunniteltu havaitsemaan salakirjoituksen muutokset, mikä tekee tunnisteen kelvottomaksi, jos salakirjoitusta yritetään muuttaa, ja varmistaa vastustuskyvyn valikoiduille salakirjoitushyökkäyksille.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Why is factoring a product of two very large prime numbers considered a difficult problem?
+answer: Because it requires a prohibitive amount of computation time even for supercomputers.
+wrong_answers:
+  - Because it requires a public key for each factor.
+  - Because it involves only basic operations in calculation.
+  - Because it depends on multiplication and not division.
+explanation: |
+  Factoring a huge number, the product of two large prime numbers, demands computing powers that exceed the capacity of current computers, making this task practically unfeasible.
+reviewed: false

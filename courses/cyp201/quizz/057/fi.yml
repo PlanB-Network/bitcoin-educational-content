@@ -1,9 +1,9 @@
-question: Mikä on päähaaste satunnaislukujen tuottamisessa tietokoneilla Bitcoin-siirtoja varten?
-answer: Saadut tulokset eivät ole todella satunnaisia.
+question: Mikä on PBKDF2 n generoiman siemenen koko?
+answer: 512 bittiä
 wrong_answers:
-  - Prosessi on liian monimutkainen useimmille käyttäjille.
-  - Se vaatii paljon laskentatehoa.
-  - Se ei ole yhteensopiva kaikkien tietokonetyyppien kanssa.
+  - 128 bittiä
+  - 256 bittiä
+  - Vaihtelee mnemonisen lauseen pituuden mukaan
 explanation: |
-  Tietokoneet noudattavat asetettuja algoritmeja, mikä tekee todella satunnaisten lukujen tuottamisesta vaikeaa. Tämä on merkittävä haaste kryptografiassa, jossa satunnaisuus on olennaisen tärkeää yksityisavainten ja Bitcoin-siirtojen turvallisuuden kannalta.
+  Riippumatta mnemonisen lauseen pituudesta, PBKDF2 generoi aina 512-bittisen siemenen.
 reviewed: false

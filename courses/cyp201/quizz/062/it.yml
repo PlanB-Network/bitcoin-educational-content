@@ -1,10 +1,9 @@
-question: Qual è il principale rischio associato alla generazione di una propria frase mnemonica utilizzando dei dadi per le transazioni Bitcoin?
-answer: Potrebbe presentare alcuni rischi.
+question: Cosa permette di derivare una chiave pubblica estesa?
+answer: Solo chiavi pubbliche figlie normali
 wrong_answers:
-  - Potrebbe portare alla generazione di numeri prevedibili.
-  - Potrebbe portare alla generazione di numeri duplicati.
-  - Potrebbe portare alla generazione di numeri non validi.
+  - Solo chiavi private figlie normali
+  - Sia chiavi pubbliche figlie normali che rinforzate
+  - Sia chiavi private figlie normali che rinforzate
 explanation: |
-  La generazione di una propria frase mnemonica utilizzando dei dadi potrebbe presentare alcuni rischi.
-  Si consiglia quindi di utilizzare una passphrase generata casualmente per mitigare questi rischi.
+  Una chiave pubblica estesa permette solo la derivazione di chiavi pubbliche figlie normali, non di chiavi private o chiavi rinforzate.
 reviewed: false

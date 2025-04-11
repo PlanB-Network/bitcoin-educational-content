@@ -1,9 +1,11 @@
-question: Tại sao chi phí phải chăng và khả năng tiếp cận của một nút Bitcoin lại quan trọng?
-answer: Nó thúc đẩy sự phân quyền của mạng lưới
+question: Tại sao việc một nút Bitcoin cần phải giá cả phải chăng và dễ tiếp cận với tất cả người dùng là quan trọng?
+answer: Bởi vì nó thúc đẩy sự phân quyền của mạng lưới.
 wrong_answers:
-  - Nó tăng khả năng xử lý giao dịch của mạng lưới
-  - Nó giảm khả năng xử lý giao dịch của mạng lưới
-  - Nó tăng phần thưởng khối cho các thợ mỏ
-explanation: >-
-  Chi phí phải chăng và khả năng tiếp cận của một nút Bitcoin quan trọng vì nó thúc đẩy sự phân quyền của mạng lưới.
-reviewed: false
+  - Bởi vì nó tăng khả năng xử lý giao dịch của mạng lưới.
+  - Bởi vì nó giảm khả năng xử lý giao dịch của mạng lưới.
+  - Bởi vì nó tăng phần thưởng khối cho các thợ mỏ.
+explanation: |
+  Việc giữ cho chi phí và khả năng tiếp cận của một nút Bitcoin ở mức phải chăng
+  là quan trọng bởi vì nó thúc đẩy sự phân quyền của
+  mạng lưới.
+reviewed: true

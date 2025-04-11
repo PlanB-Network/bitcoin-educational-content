@@ -1,0 +1,9 @@
+question: Hvordan bidrar Lightning Network til å redusere avgiftene for Bitcoin-transaksjoner?
+answer: Ved å gjennomføre de fleste transaksjoner utenfor kjeden og kun publisere transaksjoner for kanaloppgjør på hovedblokkjeden.
+wrong_answers:
+  - Ved å fjerne all kryptografisk verifisering fra betalinger.
+  - Ved å sentralisere kontrollen i ett stort betalingssenter.
+  - Ved å kreve at forhandlerne betaler alle nettverkskostnader på forhånd.
+explanation: |
+  Siden Lightning-transaksjoner skjer utenfor kjeden, er det bare de endelige kanalstatusene som blir avgjort på Bitcoin-blokkjeden. Dette reduserer overbelastning og dermed avgiftene ved at man unngår mange transaksjoner i kjeden.
+reviewed: false

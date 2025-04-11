@@ -1,9 +1,13 @@
 question: Mục đích của việc tạo ra một kế hoạch thừa kế cho bitcoin của bạn là gì?
-answer: Để đảm bảo rằng bitcoin của bạn sẽ được quản lý một cách đúng đắn sau khi bạn qua đời
+answer: Để đảm bảo rằng bitcoin của bạn sẽ được quản lý đúng cách sau khi bạn qua đời.
 wrong_answers:
-  - Để tránh thuế đối với bitcoin của bạn
-  - Để tăng giá trị của bitcoin của bạn
-  - Để ngăn chặn bitcoin của bạn bị đánh cắp
+  - Để tránh thuế cho bitcoin của bạn.
+  - Để giảm giá trị của bitcoin của bạn.
+  - Để ngăn chặn bitcoin của bạn bị đánh cắp.
 explanation: |
-  Một kế hoạch thừa kế đảm bảo rằng bitcoin của bạn sẽ được quản lý một cách đúng đắn sau khi bạn qua đời. Nó có thể bao gồm một lá thư viết tay chi tiết về tài sản của bạn, phương pháp truy cập, và thông tin liên lạc của những người đáng tin cậy để được liên hệ.
-reviewed: false
+  Một kế hoạch thừa kế đảm bảo rằng bitcoin của bạn sẽ
+  được quản lý đúng cách sau khi bạn qua đời. Nó có thể bao gồm một
+  lá thư viết tay chi tiết về tài sản của bạn, phương pháp truy cập,
+  và thông tin liên lạc của những người đáng tin cậy
+  để được liên hệ.
+reviewed: true

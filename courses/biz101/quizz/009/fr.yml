@@ -1,0 +1,9 @@
+question: Quel est l'objectif principal du réseau Lightning, construit au-dessus de Bitcoin ?
+answer: Permettre des paiements plus rapides et quasi-instantanés avec une interaction minimale sur la chaîne.
+wrong_answers:
+  - Remplacer entièrement la blockchain de Bitcoin et stocker toutes les transactions localement.
+  - Fournir un réseau autorisé contrôlé par une seule entité.
+  - Ralentir les transactions afin de garantir leur traçabilité totale par les gouvernements.
+explanation: |
+  Le Lightning Network est un protocole de "deuxième couche" qui permet aux participants de créer des canaux de paiement, d'effectuer des transactions hors chaîne et de ne régler que le solde net final sur la blockchain Bitcoin. Cette conception permet d'obtenir des vitesses plus rapides et des coûts moins élevés.
+reviewed: false

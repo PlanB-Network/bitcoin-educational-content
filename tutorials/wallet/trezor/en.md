@@ -6,7 +6,7 @@ description: Set up and use of Trezor model One
 
 ![cover](assets/cover.webp)
 
-Cold hardware portfolio – 60€ – Beginner – Secure between 2 000€ and 50 000€.
+Cold hardware wallet – 60€ – Beginner – Secure between 2 000€ and 50 000€.
 
 As cold physical wallet, Trezor is ideal to starting in Bitcoin. It’s easy to use, not too expensive and functional.
 
@@ -79,11 +79,23 @@ Next, you’ll see this:
 
 ![image](assets/9.webp)
 
-On the device, see the words presented to you one by one and write them down NEATLY and IN ORDER.
+Your Trezor displays your 12-word mnemonic phrase. **This mnemonic phrase grants full and unrestricted access to all your bitcoins**. Anyone in possession of this phrase can steal your funds, even without physical access to your Trezor. The 12-word phrase allows you to restore access to your bitcoins in case of loss, theft, or damage to your hardware wallet. It is therefore very important to save it carefully and store it in a secure location.
+
+You can write it down on the cardboard paper provided in the box, or for added security, I recommend engraving it on a stainless steel plate to protect it from fires, floods, or collapses.
+
+For more information on how to properly back up and manage your mnemonic phrase, I highly recommend following this other tutorial, especially if you are a beginner:
+
+https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 
 ![image](assets/10.webp)
 
-Set a PIN to lock the device (this is not part of your seed, it’s just to lock the device so no one can access the seed contained inside).
+The next step is setting up your PIN code. The PIN code is used to unlock your Trezor. It serves as protection against unauthorized physical access. This PIN code does not play a role in deriving the cryptographic keys of your wallet. Thus, even without access to this PIN code, possessing your 12 or 24-word mnemonic phrase will allow you to regain access to your bitcoins.
+
+It is recommended to choose a PIN code that is as random as possible. Also, make sure to store this code separately from where your Trezor is kept (e.g., in a password manager).
+
+You can choose a PIN code of up to 9 digits. I recommend making it as long as possible.
+
 
 ![image](assets/11.webp)
 
@@ -95,11 +107,21 @@ Name your wallet, and click “Access Suite”:
 
 ![image](assets/13.webp)
 
-It’s simplest to create a wallet with no passphrase, but best to create one with a passphrase (your real wallet) AND one without a passphrase (your decoy wallet). Each time you access the device through Trezor Suite, you’ll be asked if you want to “apply” the passphrase or not.
+Before continuing, you can, if you wish, add a BIP39 passphrase. A BIP39 passphrase is an optional password that you can freely choose, which is added to your mnemonic phrase to enhance the security of your wallet. With this feature enabled, accessing your Bitcoin wallet will require both the mnemonic phrase and the passphrase. Without either, it would be impossible to recover the wallet.
+
+Before setting up this option on your Trezor, it is strongly recommended to read this article to fully understand the theoretical functioning of the passphrase and avoid mistakes that could result in the loss of your bitcoins:
+
+https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
+To activate it, you need to select the "Hidden wallet" option and note it in the corresponding field. Each time you access your wallet via Trezor Suite, you will be asked whether you wish to apply the passphrase or not.
+
 
 ![image](assets/14.webp)
 
-I selected “Hidden Wallet” and typed in a passphrase that I made up “craigwrightisaliarandafraud”
+It is also important to properly back up this passphrase, in the same way as the mnemonic phrase. Losing it means losing access to your bitcoins. I strongly advise against relying solely on your memory, as this unreasonably increases the risk of loss. Ideally, you should write it down on a physical medium (paper or metal) separate from the mnemonic phrase. This backup should obviously be stored in a different location than your mnemonic phrase to prevent both from being compromised simultaneously.
+
+For it to be effective, you must choose a strong, random passphrase, including all types of characters and sufficiently long (like a strong password).
+
 
 ![image](assets/15.webp)
 

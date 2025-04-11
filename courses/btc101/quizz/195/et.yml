@@ -1,0 +1,11 @@
+question: Mis on üks viis, kuidas hõlbustada Bitcoini kasutamist igapäevastes tehingutes?
+answer: Loetle kõik kaupmehed, kes aktsepteerivad Bitcoini
+wrong_answers:
+  - Tõsta Bitcoini hinda
+  - Vähenda Bitcoini kogust
+  - Piira Bitcoini kasutamist
+explanation: >-
+  Üks viis, kuidas hõlbustada Bitcoini kasutamist igapäevastes tehingutes, on
+  loetleda kõik kaupmehed, kes aktsepteerivad Bitcoini. Seda saab teha platvormide
+  kaudu nagu BTCMap.
+reviewed: false

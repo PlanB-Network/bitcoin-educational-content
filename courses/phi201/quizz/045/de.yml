@@ -1,0 +1,9 @@
+question: Was ist die Hauptthese von Thomas von Aquin bezüglich des Verhältnisses zwischen Vernunft und Glauben?
+answer: Vernunft und Glaube ergänzen sich und können einander unterstützen.
+wrong_answers:
+  - Vernunft und Glaube sind zwei unabhängige und widersprüchliche Wissensquellen.
+  - Alle anderen Antworten sind korrekt.
+  - Glaube ist der Vernunft überlegen und kann ohne deren Argumente auskommen.
+explanation: |
+  Thomas von Aquin argumentiert, dass Vernunft und Glaube sich ergänzen: Die Vernunft kann helfen, die Wahrheiten des Glaubens zu verstehen und zu erklären, während der Glaube die Vernunft zu Wahrheiten leitet, die ihr sonst unzugänglich wären.
+reviewed: false

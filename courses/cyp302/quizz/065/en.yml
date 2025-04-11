@@ -1,0 +1,9 @@
+question: What are the three essential components of a symmetric encryption scheme?
+answer: A key generation algorithm, an encryption algorithm, and a decryption algorithm
+wrong_answers:
+  - A hashing algorithm, a public key, and a verification algorithm
+  - A public key, a private key, and a decryption algorithm
+  - An encryption algorithm, a public key, and a private key
+explanation: |
+  A symmetric encryption scheme consists of three elements: a key generation algorithm, an encryption algorithm, and a decryption algorithm. They all use the same key.
+reviewed: false

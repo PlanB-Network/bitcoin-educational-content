@@ -1,0 +1,9 @@
+question: Mis on probleemi nimi, kus tulemuse arvutamine ühes suunas on lihtne, kuid tagurpidi peaaegu võimatu?
+answer: Ühesuunaline funktsioon
+wrong_answers:
+  - Lineaarne funktsioon
+  - Eksponentsiaalne funktsioon
+  - Pöörduv funktsioon
+explanation: |
+  Ühesuunalised funktsioonid võimaldavad kiiret arvutamist ühes suunas, kuid muudavad vastupidise lahendamise praktiliselt võimatuks, mistõttu on need krüptograafias kasulikud.
+reviewed: false

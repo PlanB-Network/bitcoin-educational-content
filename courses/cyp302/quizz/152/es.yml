@@ -1,0 +1,8 @@
+question: ¿Cuál es la función de la clave privada d en el criptosistema RSA?
+answer: Se utiliza para descifrar mensajes usando el módulo N
+wrong_answers:
+  - Se utiliza solo para cifrar mensajes
+  - Se utiliza para desbloquear bitcoins
+  - Se utiliza para calcular φ(N)
+explanation: |
+  La clave privada d se utiliza para descifrar mensajes cifrados, completando el cálculo con el módulo N.

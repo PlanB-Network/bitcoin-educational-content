@@ -1,9 +1,12 @@
 question: Qual é o principal incentivo financeiro para os mineradores participarem do processo de mineração do Bitcoin?
-answer: A recompensa da mineração
+answer: A recompensa pela mineração
 wrong_answers:
   - A capacidade de controlar a rede Bitcoin
   - A capacidade de criar novos bitcoins à vontade
   - A capacidade de manipular o preço do Bitcoin
 explanation: |
-  O principal incentivo financeiro para os mineradores participarem do processo de mineração do Bitcoin é a recompensa da mineração. Essa recompensa serve como um poderoso incentivo para encorajar os mineradores a participarem do processo de mineração, apesar do custo energético envolvido.
-reviewed: false
+  O principal incentivo financeiro para os mineradores participarem do
+  processo de mineração do Bitcoin é a recompensa pela mineração. Essa
+  recompensa serve como um poderoso incentivo para encorajar os mineradores
+  a participarem do processo de mineração, apesar do seu custo energético.
+reviewed: true

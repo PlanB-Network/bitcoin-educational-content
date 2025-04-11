@@ -1,0 +1,9 @@
+question: Apa arti dari sebuah apostrof (') atau huruf h dalam sebuah jalur derivasi?
+answer: Sebuah derivasi yang diperkuat
+wrong_answers:
+  - Sebuah derivasi normal
+  - Sebuah derivasi eksternal
+  - Sebuah derivasi non-standar
+explanation: |
+  Sebuah apostrof menunjukkan bahwa derivasi tersebut diperkuat, memerlukan kunci privat induk untuk menghasilkan kunci anak.
+ditinjau: false

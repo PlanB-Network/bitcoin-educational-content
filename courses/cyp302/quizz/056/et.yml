@@ -1,0 +1,9 @@
+question: Millist tüüpi algebraline struktuur on abstraktse algebra aluseks?
+answer: Rühm
+wrong_answers:
+  - Korpus
+  - Ring
+  - Maatriks
+explanation: |
+  Rühm on fundamentaalne algebraline struktuur, millele abstraktne algebra on rajatud, määratletud elementide hulga ja binaarse tehtega, mis austab teatud omadusi.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jaký je doporučený postup při nákupu bitcoinu, abyste se vypořádali s volatilitou jeho ceny?
+answer: Postupně v pravidelných intervalech hromaděte bitcoiny a zachovejte si dlouhodobou perspektivu.
+wrong_answers:
+  - Snažte se předvídat krátkodobé vrcholy trhu a okamžitě prodávejte.
+  - Přejděte najednou na celou firemní pokladnu.
+  - Bitcoin nakupujte pouze ve dnech, kdy jeho cena prudce vzrostla.
+explanation: |
+  Pravidelné nákupy v průběhu času (zprůměrování nákladů v dolarech) pomáhají vyrovnávat volatilitu. Dlouhodobý horizont (např. 4 roky) snižuje dopad krátkodobých cenových výkyvů.
+reviewed: false

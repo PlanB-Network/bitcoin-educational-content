@@ -1,0 +1,9 @@
+question: Ni nini athari kuu ya ulinzi kwa watumiaji?
+answer: Inaongeza bei ya bidhaa wanazonunua
+wrong_answers:
+  - Inawaruhusu kununua bidhaa zenye ubora wa juu
+  - Inawapa chaguo pana la bidhaa
+  - Haina athari kwa uwezo wao wa ununuzi
+explanation: |
+  Ulinzi unaweka kodi kwa uagizaji wa bidhaa kutoka nje, ambayo hufanya bidhaa kuwa ghali zaidi kwa watumiaji.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Hvorfor frarådes det å poste mottaksadresser på sosiale medier?
+answer: Fordi de kan brukes til å koble onchain-aktiviteter til en faktisk identitet.
+wrong_answers:
+  - Fordi de enkelt kan hackes av ondsinnede hackere.
+  - Fordi de kunne tiltrekke seg svindeltilbud og eksponere deg for phishing-kampanjer.
+  - Fordi de kan tillate bruk av vanlig input-eierskapsheuristikk.
+explanation: |
+  Å dele Bitcoin mottaksadresser på internett kan brukes som et inngangspunkt for kjedeanalyse ved å koble en identitet (ekte eller pseudonym) med onchain-aktivitet.

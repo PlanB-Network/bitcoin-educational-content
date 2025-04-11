@@ -1,0 +1,9 @@
+question: Mis on peamine majanduslik vahend, mida Keynes soovitas majanduse elavdamiseks?
+answer: Avaliku sektori kulutuste suurendamine
+wrong_answers:
+  - Maksukärped
+  - Turu liberaliseerimine
+  - Ekspordi suurendamine
+explanation: |
+  Keynes pooldas avaliku sektori kulutuste suurendamist, et stimuleerida üldist nõudlust, eriti majanduslanguse perioodidel, eesmärgiga vähendada töötust ja käivitada majanduskasvu. 
+reviewed: false

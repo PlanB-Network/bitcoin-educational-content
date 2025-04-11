@@ -1,9 +1,9 @@
-question: Quel est l'objectif ultime d'une fonction de hachage cryptographique ?
-answer: Transformer des informations de taille arbitraire en une empreinte digitale de taille fixe.
+question: Pourquoi l'irréversibilité est-elle assurée dans SHA256 ?
+answer: Les opérations utilisées suppriment des informations et sont à sens unique
 wrong_answers:
-  - Chiffrer des données pour une transmission sécurisée.
-  - Générer une clé unique pour chaque utilisateur.
-  - Compresser des données pour un stockage efficace.
+  - Les messages sont chiffrés avant le hachage
+  - Les bits sont réorganisés de manière aléatoire
+  - Chaque hash est stocké dans une base de données
 explanation: |
-  L'objectif ultime d'une fonction de hachage cryptographique est de transformer des informations de taille arbitraire en une empreinte digitale de taille fixe. Cette empreinte est unique aux données d'entrée, et même un petit changement dans l'entrée entraînera une empreinte radicalement différente.
+  Les opérations comme ShR et XOR rendent impossible le retour à l'état initial, garantissant l'irréversibilité.
 reviewed: false

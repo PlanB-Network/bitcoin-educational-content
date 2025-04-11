@@ -1,0 +1,8 @@
+question: No contexto do sistema criptográfico RSA, a que corresponde o produto de dois números primos p e q?
+answer: Constitui o inteiro N usado como módulo para operações
+wrong_answers:
+  - Constitui a chave pública
+  - Serve como a chave de descriptografia
+  - É usado apenas para gerar o expoente e
+explanation: |
+  No RSA, o inteiro N é o produto de dois grandes números primos p e q, e é usado como módulo para operações de criptografia e descriptografia.

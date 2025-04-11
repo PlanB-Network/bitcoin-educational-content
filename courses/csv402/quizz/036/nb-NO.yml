@@ -1,0 +1,9 @@
+question: Hvilken rolle spiller lageret?
+answer: Oppbevar alle data på klientsiden lokalt
+wrong_answers:
+  - Automatisk publisering av transaksjoner på blokkjeden
+  - Kompilere og lagre alle genererte fakturaer
+  - Håndtering av private Bitcoin-nøkler
+explanation: |
+  Stash er settet med data på klientsiden som en bruker lagrer lokalt for én eller flere RGB-kontrakter, for å kunne utføre validering på klientsiden.
+reviewed: false

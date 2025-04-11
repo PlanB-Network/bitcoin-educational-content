@@ -1,0 +1,11 @@
+question: Tên của tài khoản được sử dụng cho UTXOs không thể tham gia vào hồ coinjoin Whirlpool là gì?
+
+answer: Tài khoản thay đổi doxxic.
+
+wrong_answers:
+  - Tài khoản hậu trộn.
+  - Tài khoản tiền trộn.
+  - Tài khoản tiền gửi.
+
+explanation: |
+  Số tiền thay đổi không thể tham gia vào hồ được cô lập trong tài khoản thay đổi doxxic, để đảm bảo sự tách biệt nghiêm ngặt từ các UTXOs khác trong ví.

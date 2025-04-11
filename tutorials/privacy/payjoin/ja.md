@@ -43,9 +43,9 @@ Payjoin取引は、ユーザーが支払いのプライバシーを強化する�
 この解釈は明らかに誤っています。なぜなら、すでに知っての通り、2つの入力UTXOsは同じ人に属していません。さらに、実際の支払い額は`19,000 sats`ではなく、`4,000 sats`です。したがって、外部の観察者の分析は誤った結論に向けられ、関係者の機密性が保持されます。![payjoin transaction diagram](assets/en/1.webp)
 実際のPayjoinトランザクションを分析したい場合、こちらがテストネットで行ったものです：[8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c](https://mempool.space/fr/testnet/tx/8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c)
 
-[**-> Samourai WalletでPayjoinを行う方法に関するチュートリアルを見る**](https://planb.network/tutorials/privacy/payjoin-samourai-wallet)  
+[**-> Samourai WalletでPayjoinを行う方法に関するチュートリアルを見る**](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)  
 
-[**-> Sparrow WalletでPayjoinを行う方法に関するチュートリアルを見る**](https://planb.network/tutorials/privacy/payjoin-sparrow-wallet)
+[**-> Sparrow WalletでPayjoinを行う方法に関するチュートリアルを見る**](https://planb.network/tutorials/privacy/on-chain/payjoin-sparrow-wallet-087a0e49-61cd-41f5-8440-ac7b157bdd62)
 
 
 **外部リソース:**

@@ -1,10 +1,9 @@
-question: Jaký je teoreticky celkový počet možností pro soukromý klíč?
-answer: 2^256
+question: Proč se nedoporučuje opětovné použití Bitcoinové adresy?
+answer: Umožňuje sledování transakcí třetími stranami
 wrong_answers:
-  - 2^128
-  - 2^512
-  - 2^1024
+  - Odhaluje soukromý klíč kvůli nonce
+  - Zdražuje transakce
+  - Zneplatňuje digitální podpisy
 explanation: |
-  Celkový počet možností pro soukromý klíč je teoreticky
-  2^256, ale ve skutečnosti je to o něco méně.
+  Opětovné použití adresy umožňuje pozorovatelům snadno spojit různé transakce se stejným uživatelem, čímž kompromituje jejich soukromí.
 reviewed: false

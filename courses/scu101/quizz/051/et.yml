@@ -1,0 +1,9 @@
+question: Mis on küberjulgeoleku kuldreegel?
+answer: Küberjulgeolek on liikuv sihtmärk, mis kohandub vastavalt sinu õppimisteekonnale.
+wrong_answers:
+  - Küberjulgeolek on ühekordne seadistamine
+  - Küberjulgeolek pole isiklike kontode jaoks vajalik
+  - Küberjulgeolek on ainult tehnikahuvilistele
+explanation: |
+  Küberjulgeolek on liikuv sihtmärk, kuna ohud ja turvameetmed
+  arenevad pidevalt. On oluline jätkuvalt õppida ja oma praktikaid kohandada.

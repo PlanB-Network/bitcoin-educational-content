@@ -1,0 +1,10 @@
+question: Hva er den anbefalte praksisen for lagring av passord for datakryptering?
+answer: Skriv ned passordet på et papir som oppbevares på et sikkert sted.
+wrong_answers:
+  - Lagre passordet i en tekstfil på datamaskinen.
+  - Del passordet med pålitelige venner.
+  - Bruk et vanlig passord som er lett å huske.
+explanation: |
+  Det anbefales å skrive ned passordet for datakryptering på et
+  papir og oppbevare det på et sikkert sted. Dette for å forhindre tap av tilgang til krypterte
+  data.

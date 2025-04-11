@@ -1,0 +1,12 @@
+question: Mida tähendab, kui teil ei ole oma Bitcoini rahakoti privaatvõtit?
+answer: Kolmas osapool vastutab teie bitcoinide turvalisuse eest
+wrong_answers:
+  - Olete kaotanud kõik oma bitcoinid
+  - Te ei saa enam oma bitcoinidega tehinguid teha
+  - Teie bitcoinid konverteeritakse automaatselt teise krüptorahasse
+explanation: |
+  Kui teil ei ole oma Bitcoini rahakoti privaatvõtit, tähendab see,
+  et kolmas osapool vastutab teie bitcoinide turvalisuse eest. Nad on allutatud
+  samadele riskidele nagu vahetusplatvormid, sealhulgas häkkimine, konfiskeerimine, regulatsioonid või
+  pankrot.
+reviewed: false

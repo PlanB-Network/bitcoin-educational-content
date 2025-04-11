@@ -1,9 +1,0 @@
-question: Quel est le but de la Profondeur 5 dans la structure du Portefeuille HD ?
-answer: Elle est utilisée pour recevoir des adresses dans un portefeuille standard.
-wrong_answers:
-  - Elle est utilisée pour dériver des clés enfants dans un but spécifique.
-  - Elle permet de différencier les comptes pour différentes cryptomonnaies ou réseaux.
-  - Elle correspond aux chaînes externes et internes.
-explanation: |
-  Dans la structure du Portefeuille HD, la Profondeur 5 est utilisée pour recevoir des adresses dans un portefeuille standard.
-reviewed: false

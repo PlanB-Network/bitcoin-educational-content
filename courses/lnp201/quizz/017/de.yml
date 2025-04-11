@@ -1,9 +1,9 @@
-question: Was ist der erste Schritt beim Öffnen eines Kanals im Lightning Network?
-answer: Die beiden Teilnehmer teilen ihre Absicht mit, einen Kanal zu öffnen.
+question: Was passiert, wenn Bob Alice eine Rechnung über 30.000 Satoshis sendet?
+answer: Alice erstellt eine Commitment-Transaktion, um 30.000 Satoshis an Bob im Kanal zu übertragen.
 wrong_answers:
-  - Alice sendet Geld an Bob's öffentliche Adresse.
-  - Alice erstellt eine 2/2 Multi-Sig-Adresse.
-  - Alice veröffentlicht eine Transaktion im Bitcoin-Netzwerk.
+  - Alice muss einen neuen Kanal öffnen, um diese Übertragung zu machen.
+  - Bob erhält automatisch die 30.000 Satoshis in seiner Wallet.
+  - Die Rechnung wird durch eine On-Chain-Transaktion auf Bitcoin bezahlt.
 explanation: |
-  Der erste Schritt beim Öffnen eines Kanals im Lightning Network besteht darin, dass die beiden Teilnehmer ihre Absicht mitteilen, einen Kanal zu öffnen. Zum Beispiel könnte Alice sag- language: en "Hallo, ich möchte einen Kanal öffnen!" und Bob könnte antworten: "Ok, hier ist meine öffentliche Adresse."
+  Wenn Bob Alice eine Rechnung sendet, erstellt und signiert sie eine neue Commitment-Transaktion, um die Verteilung der Mittel anzupassen, wodurch 30.000 Satoshis im Kanal an Bob übertragen werden.
 reviewed: false

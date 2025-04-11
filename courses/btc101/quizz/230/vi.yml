@@ -1,9 +1,9 @@
-question: Mạng Lưới Lightning (Lightning Network) làm cho điều gì trở nên khả thi?
+question: Lightning Network làm cho điều gì trở nên khả thi?
 answer: Thực hiện giao dịch giữa những người không có kết nối kênh trực tiếp với nhau.
 wrong_answers:
-  - Chỉ thực hiện giao dịch giữa những người có kết nối kênh trực tiếp với nhau.
-  - Thực hiện giao dịch giữa những người có kết nối kênh trực tiếp và một bên thứ ba.
-  - Thực hiện giao dịch giữa những người có kết nối kênh trực tiếp và nhiều bên thứ ba.
-explanation: |
-  Mạng Lưới Lightning làm cho việc thực hiện giao dịch giữa những người không có kết nối kênh trực tiếp với nhau trở nên khả thi.
-reviewed: false
+  - Chỉ tạo kết nối kênh trực tiếp với các sàn giao dịch tập trung.
+  - Tạo kết nối kênh yêu cầu nhiều xác nhận cho mọi giao dịch.
+  - Thiết lập kết nối kênh trực tiếp chỉ giới hạn cho các giao dịch lớn.
+explanation:
+  Lightning Network làm cho việc thực hiện giao dịch giữa những người không có kết nối kênh trực tiếp với nhau trở nên khả thi.
+reviewed: true

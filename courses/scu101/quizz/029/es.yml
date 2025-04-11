@@ -1,9 +1,11 @@
-question: ¿Cuál es una solución sencilla para proteger tus datos de los ataques de ransomware?
-answer: Realiza copias de seguridad periódicas de tus datos importantes en un dispositivo de almacenamiento externo o en un servicio de almacenamiento en línea seguro.
+question: ¿Cuál es una solución simple para proteger tus datos de ataques de ransomware?
+answer: Realizar copias de seguridad de tus datos importantes regularmente en un dispositivo de almacenamiento externo o en un servicio de almacenamiento en línea seguro.
 wrong_answers:
-  - Instala varios programas antivirus en tu computadora.
-  - Cambia regularmente tu computadora.
-  - Utiliza una red Wi-Fi pública.
+  - Instalar múltiples software antivirus en tu computadora y realizar escaneos periódicos.
+  - Cambiar regularmente tu computadora o reinstalar tu sistema operativo (OS).
+  - Puedes usar una red Wi-Fi pública si no tienes nada que ocultar en tu dispositivo.
 explanation: |
-  Realizar copias de seguridad periódicas de tus datos te permite recuperarlos en caso de un ciberataque o fallo de hardware sin perder información crucial.
-reviewed: false
+  Realizar copias de seguridad de tus datos regularmente te permite recuperar tus
+  datos en caso de un ataque cibernético o fallo de hardware
+  sin perder información crucial.
+reviewed: true

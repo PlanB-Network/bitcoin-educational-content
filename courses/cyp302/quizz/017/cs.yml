@@ -1,0 +1,9 @@
+question: Jaký je rozdíl mezi diskrétní náhodnou proměnnou a spojitou?
+answer: Diskrétní proměnná má konečný počet možných výsledků, zatímco spojitá proměnná může nabývat nekonečného počtu hodnot v intervalu.
+wrong_answers:
+  - Diskrétní proměnná neustále mění hodnotu, zatímco spojitá proměnná zůstává stabilní.
+  - Diskrétní proměnná je specifická pro fyzikální experimenty, které byly provedeny, spojitá proměnná je abstraktní ve svém intervalu.
+  - Diskrétní proměnné ve moderní kryptografii neexistují, používají se pouze spojité proměnné.
+explanation: |
+  Diskrétní proměnné mají konečnou množinu výsledků, zatímco spojité proměnné mohou nabývat jakékoli hodnoty v intervalu, jako jsou reálná čísla mezi 0 a 1.
+reviewed: false

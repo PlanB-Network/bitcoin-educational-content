@@ -1,0 +1,12 @@
+question: Mis on Bitcoini tootmiskulude ja turuhinna vaheline suhe?
+answer: Bitcoini maksumus võib üldiselt olla proportsionaalne selle hinnaga
+wrong_answers:
+  - Bitcoini maksumus on selle hinnaga pöördvõrdeline
+  - Bitcoini maksumus on fikseeritud, teatud suhtes, selle hinnaga
+  - Bitcoini maksumus on alati kõrgem kui selle hind
+explanation: |
+  Bitcoini maksumus, mis on seotud elektrienergiaga,
+  mida on vaja kaevandusmasinate töötamiseks, võib üldiselt olla
+  proportsionaalne selle hinnaga. See suhe aitab paremini mõista
+  hinnakõikumisi ja tulevikuväljavaateid.
+reviewed: true

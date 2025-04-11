@@ -1,0 +1,9 @@
+question: Những nhà mật mã học nào đã tạo ra hệ mật mã RSA vào năm 1978?
+answer: Ronald Rivest, Adi Shamir, và Leonard Adleman
+wrong_answers:
+  - Whitfield Diffie, Martin Hellman, và Ralph Merkle
+  - Marc Girault, Guillaume Poupard, và Jacques Stern
+  - Alfred Menezes, Minghua Qu, và Scott Vanstone
+explanation: |
+  Rivest, Shamir, và Adleman đã đặt tên cho thuật toán RSA bằng cách sử dụng ba chữ cái đầu tiên của tên họ.
+reviewed: false

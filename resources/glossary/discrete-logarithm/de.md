@@ -1,0 +1,7 @@
+---
+term: DISKRETER LOGARITHMUS
+
+---
+Der diskrete Logarithmus ist ein mathematisches Problem, das in einigen kryptographischen Algorithmen für öffentliche Schlüssel verwendet wird. Wenn man in einer zyklischen Gruppe der Ordnung $q$ mit einem Generator $g$ eine Gleichung der Form $g^x = h$ hat, dann nennt man $x$ den diskreten Logarithmus von $h$ in Bezug auf die Basis $g$, modulo $q$. Vereinfacht ausgedrückt, geht es darum, den Exponenten $x$ zu bestimmen, wenn $g$, $h$ und $q$ bekannt sind. Der diskrete Logarithmus ist also die Umkehrung des Exponentials in einer endlichen zyklischen Gruppe. Für große Werte von $q$ wird die Lösung des diskreten Logarithmusproblems jedoch als algorithmisch schwierig angesehen. Diese Eigenschaft wird ausgenutzt, um die Sicherheit vieler kryptographischer Protokolle zu gewährleisten, z. B. des Diffie-Hellman-Protokolls für den Schlüsselaustausch.
+
+Der diskrete Logarithmus wird auch in der Kryptographie mit elliptischen Kurven (ECC) verwendet, unter anderem im ECDSA (*Elliptic Curve Digital Signature Algorithm*). Im Zusammenhang mit elliptischen Kurven besteht das Problem des diskreten Logarithmus darin, einen Skalar $k$ zu finden, der so beschaffen ist, dass $k \cdot G = K$, wobei $G$ und $K$ Punkte auf der Kurve sind und $\cdot$ die Punktmultiplikationsoperation darstellt. Im Kontext von Bitcoin können Skripte entweder ECDSA oder das Schnorr-Protokoll verwenden, um UTXOs zu sperren. Beide beruhen auf der Unmöglichkeit, den diskreten Logarithmus zu berechnen.

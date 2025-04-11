@@ -1,10 +1,10 @@
 question: Lợi ích nào khi chấp nhận Bitcoin như một người bán hàng?
-answer: Khả năng chống kiểm duyệt
+answer: Khả năng chống kiểm duyệt.
 wrong_answers:
-  - Phí giao dịch tăng
-  - Bảo vệ chống lạm phát
-  - Hạn chế tài chính
+  - Phí giao dịch tăng cao.
+  - Bảo vệ chống lại sự lạm phát.
+  - Hạn chế tài chính.
 explanation: >-
-  Việc chấp nhận Bitcoin như một người bán hàng mang lại nhiều lợi ích, bao gồm khả năng chống kiểm duyệt, giảm phí giao dịch, tăng hiệu quả, bảo vệ chống lạm phát,
+  Việc chấp nhận Bitcoin như một người bán hàng mang lại nhiều lợi ích, bao gồm khả năng chống kiểm duyệt, giảm phí giao dịch, tăng hiệu quả, bảo vệ chống lại lạm phát,
   cũng như tự do và chủ quyền tài chính.
-reviewed: false
+reviewed: true

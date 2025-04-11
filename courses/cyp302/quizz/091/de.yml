@@ -1,0 +1,13 @@
+question: Was ist der Hauptunterschied zwischen einem primitiven Stromchiffre und einem Blockchiffre-Stromchiffre?
+
+answer: Ein primitives Stromchiffre ist nicht aus einem Blockchiffre aufgebaut.
+
+wrong_answers:
+  - Ein primitives Stromchiffre erfordert das Auffüllen von Nachrichten.
+  - Ein Blockchiffre-Stromchiffre verwendet Blöcke variabler Größe.
+  - Ein Blockchiffre-Stromchiffre kann nicht für große Daten verwendet werden.
+
+explanation: |
+  Ein primitives Stromchiffre, wie Salsa20, ist unabhängig von einem Blockchiffre entworfen, während ein Blockchiffre-Stromchiffre einen Blockchiffre als Basis verwendet, der modifiziert wird, um einen Strom der Verschlüsselung zu erzeugen.
+
+reviewed: false

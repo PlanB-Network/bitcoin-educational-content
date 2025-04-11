@@ -1,9 +1,9 @@
-question: Qual è la dimensione di una chiave pubblica Bitcoin?
-answer: Numero di 512 bit
+question: Quale standard Bitcoin introduce i portafogli deterministici gerarchici?
+answer: BIP32
 wrong_answers:
-  - Numero di 256 bit
-  - Numero di 128 bit
-  - Numero di 1024 bit
+  - BIP39
+  - BIP44
+  - BIP141
 explanation: |
-  Nel sistema Bitcoin, la chiave privata unica viene utilizzata per derivare una chiave pubblica di 512 bit.
-reviewed: false
+  BIP32 definisce il funzionamento dei portafogli HD, consentendo la derivazione gerarchica delle chiavi private da un seme.
+recensito: false

@@ -1,0 +1,8 @@
+question: Nếu tài sản là một thể chế được thiết lập bởi ý chí chung, như Rousseau tin tưởng, hậu quả là gì?
+answer: Người lập pháp có thể tổ chức, sửa đổi, hoặc thậm chí bãi bỏ tài sản
+wrong_answers:
+  - Người lập pháp sau đó bị ràng buộc bởi quy ước này và không thể chạm vào tài sản
+  - Ý chí chung không bao giờ muốn chạm vào tài sản
+  - Người lập pháp được yêu cầu bảo vệ tài sản mà không ngoại lệ
+explanation: |
+  Theo Rousseau, vì tài sản phát sinh từ ý chí chung, nó có thể được sửa đổi hoặc bãi bỏ bởi người lập pháp phù hợp với ý chí đó.

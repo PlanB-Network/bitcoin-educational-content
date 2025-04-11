@@ -1,0 +1,8 @@
+question: Mô hình tiền điện tử eCash dựa trên quy trình nào?
+answer: Chữ ký mù
+wrong_answers:
+  - Chữ ký nhóm
+  - Chữ ký vòng
+  - Chữ ký ngưỡng
+explanation: |
+  eCash dựa trên quy trình chữ ký mù, cho phép người ký ký vào một cái gì đó mà không cần nhìn thấy họ đang ký cái gì.

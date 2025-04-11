@@ -1,13 +1,14 @@
-question: Mikä on pääasiallinen ero yksityisen selauksen ja TOR-verkon käytön välillä?
-answer: Tor peittää käyttäjän IP-osoitteen, kun taas yksityinen selaus ei.
+question: Mikä on pääasiallinen ero yksityisen selaamisen ja TOR-verkon käytön välillä?
+answer: Tor peittää käyttäjän IP-osoitteen, kun taas yksityinen selaaminen ei.
 wrong_answers:
-  - Yksityinen selaus ja TOR ovat sama asia.
-  - Yksityinen selaus peittää käyttäjän IP-osoitteen, kun taas TOR ei.
-  - TOR jättää paikallisia jälkiä tietokoneellesi, kun taas yksityinen selaus ei.
+  - Yksityinen selaaminen ja TOR ovat sama asia.
+  - Yksityinen selaaminen peittää käyttäjän IP-osoitteen, kun taas TOR ei.
+  - TOR jättää paikallisia jälkiä tietokoneellesi, kun taas yksityinen selaaminen ei.
 explanation: |
-  Yksityinen selaus on ominaisuus, joka estää internet-selaimia tallentamasta
-  selaushistoriaa, väliaikaisia internet-tiedostoja, lomaketietoja, evästeitä sekä käyttäjänimiä ja
-  salasanoja. Se ei kuitenkaan piilota selausta internet-palveluntarjoajaltasi.
-  Toisaalta TOR-verkko tarjoaa nimettömyyttä peittämällä käyttäjän IP-osoitteen
-  ja mahdollistamalla pääsyn Darknetiin.
-reviewed: false
+  Yksityinen selaaminen on ominaisuus, joka estää internet-
+  selaimia tallentamasta selaushistoriaa, väliaikaisia internet-
+  tiedostoja, lomaketietoja, evästeitä sekä käyttäjänimiä ja salasanoja.
+  Se ei kuitenkaan piilota selaamista internet-palveluntarjoajaltasi. Toisaalta,
+  TOR-verkko tarjoaa nimettömyyttä peittämällä käyttäjän IP-osoitteen ja mahdollistamalla
+  pääsyn Darknetiin.
+reviewed: true

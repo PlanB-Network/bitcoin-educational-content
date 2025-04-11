@@ -1,0 +1,9 @@
+question: Apa arti operasi XOR ketika diterapkan antara dua bit?
+answer: Ini mengembalikan 1 jika bitnya berbeda, jika tidak, ini mengembalikan 0
+wrong_answers:
+  - Ini mengembalikan 1 hanya jika kedua bit adalah 1
+  - Ini menambahkan bit dan mengembalikan jumlahnya
+  - Ini selalu mengembalikan 0 terlepas dari hasilnya
+explanation: |
+  Operasi XOR (atau exclusive or) menghasilkan 1 jika dua bit tersebut berbeda (0 dan 1 atau 1 dan 0) dan 0 jika mereka sama.
+reviewed: false

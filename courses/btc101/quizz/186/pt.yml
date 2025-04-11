@@ -1,9 +1,11 @@
 question: Qual é uma maneira de obter bitcoins sem comprá-los?
-answer: Aceitá-los como forma de pagamento pelos produtos ou serviços que você oferece
+answer: Aceitá-los como forma de pagamento pelos produtos ou serviços que você oferece.
 wrong_answers:
-  - Pedir emprestado de um amigo
-  - Ganhar em uma loteria
-  - Encontrá-los na rua
-explanation: |
-  Uma maneira de obter bitcoins sem comprá-los é aceitá-los como forma de pagamento pelos produtos ou serviços que você oferece. Isso permite que você adquira bitcoins através do seu trabalho.
-reviewed: false
+  - Pegá-los emprestados de um amigo e nunca devolvê-los.
+  - Ganhar em uma loteria.
+  - Encontrá-los na rua.
+explanation: >-
+  Uma maneira de obter bitcoins sem comprá-los é aceitá-los como
+  forma de pagamento pelos produtos ou serviços que você oferece. Isso permite que você adquira
+  bitcoins através do seu trabalho.
+reviewed: true

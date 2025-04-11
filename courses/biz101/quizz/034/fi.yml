@@ -1,0 +1,9 @@
+question: Mikä suuntaus on havaittavissa Lightning Networkin solmuja ylläpitävien osallistujien keskuudessa?
+answer: Ammattimaiset solmujen ylläpitäjät tarjoavat yhä enemmän likviditeettiä, kun taas yksittäiset käyttäjät keskittyvät "reunasolmuihin", mikä muuttaa verkon koostumusta.
+wrong_answers:
+  - Yksittäiset harrastajat ovat korvanneet kaikki ammattimaiset toimijat kokonaan.
+  - Suuret pankit käyttävät nykyään kaikkia Lightning-solmuja keskitetysti.
+  - Verkko on sulkenut henkilökohtaiset solmut ja sallii vain suurten yritysten toiminnan.
+explanation: |
+  Ammattimaisten yksiköiden tarjoama likviditeetti ja vakaus lisääntyvät, kun taas jokapäiväiset käyttäjät turvautuvat yksinkertaistettuihin tai isännöityihin ratkaisuihin, jotka tekevät verkosta vankemman ja helpommin saatavilla olevan.
+reviewed: false

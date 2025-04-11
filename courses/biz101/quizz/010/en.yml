@@ -1,0 +1,9 @@
+question: How does the Lightning Network help reduce fees for Bitcoin transactions?
+answer: By conducting most transactions off-chain and publishing only channel settlement transactions on the main blockchain.
+wrong_answers:
+  - By removing all cryptographic verification from payments.
+  - By centralizing control in one large payment hub.
+  - By requiring merchants to pay all network costs upfront.
+explanation: |
+  Since Lightning transactions happen off-chain, only the final channel states are settled on the Bitcoin blockchain. This reduces congestion and thus lowers fees by avoiding making many on-chain transactions.
+reviewed: false

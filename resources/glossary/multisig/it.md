@@ -1,0 +1,7 @@
+---
+term: MULTISIG
+
+---
+I portafogli a firma multipla, spesso abbreviati in "multisig", sono progettati per migliorare la sicurezza dei bitcoin richiedendo firme multiple di chiavi private diverse per autorizzare una spesa. Questo metodo distribuisce il rischio tra più chiavi, contribuendo a ridurre il rischio di perdita e di furto (a seconda della configurazione multisig). I portafogli multisig funzionano secondo un modello "m-of-n", dove `m` rappresenta il numero minimo di firme necessarie per convalidare una transazione e `n` è il numero totale di chiavi coinvolte. Ad esempio, una configurazione 2-of-3 richiede due firme su tre per convalidare una transazione. Questo approccio offre una sicurezza superiore rispetto ai portafogli a chiave singola, ma introduce anche una maggiore complessità in termini di gestione e backup. Inoltre, le transazioni che utilizzano i vecchi standard multisig sono meno private e più costose in termini di commissioni rispetto alle transazioni tradizionali a chiave singola. Tuttavia, le recenti innovazioni come Taproot e l'uso dei descrittori dovrebbero ridurre al minimo, se non eliminare, questi inconvenienti dei multisig.
+
+> *Alcuni bitcoiners distinguono tra i termini "Multisig" e "Threshold Multisig" In effetti, alcuni sostengono che un multisig è necessariamente un n-di-n, mentre un multisig di soglia è un m-di-n. Tuttavia, nel linguaggio comune, si accetta di riferirsi a "Multisig" anche per m-di-n.*

@@ -1,9 +1,9 @@
 question: Quem é o instrutor do curso?
-answer: "Théo Mogenet"
+answer: Théo Mogenet
 wrong_answers:
-  - "Théo Boloré"
+  - Théo Boloré
   - Descoupes Bitcoin
   - Nenhum dos acima
 explanation: |
-  "O capítulo menciona que o instrutor do curso é Théo Mogenet, um professor apaixonado e competente de economia austríaca."
+  O capítulo menciona que o instrutor do curso é Théo Mogenet, um professor apaixonado e competente de economia austríaca.
 reviewed: false

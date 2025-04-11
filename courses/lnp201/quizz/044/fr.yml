@@ -1,9 +1,9 @@
-question: Quel est le type de fermeture de canal le plus rapide et le moins cher ?
-answer: Fermeture coopérative.
+question: Que fait un nœud émetteur lorsqu'une route de paiement échoue en raison de liquidités insuffisantes ?
+answer: Il tente une autre route jusqu'à en trouver une fonctionnelle
 wrong_answers:
-  - Fermeture forcée.
-  - Fermeture par un tricheur.
-  - Il n'y a aucune différence de vitesse et de coût entre les types de fermeture.
+  - Il envoie automatiquement une demande de remboursement au destinataire
+  - Il ferme le canal et crée un nouveau canal direct
+  - Il demande aux nœuds intermédiaires d'augmenter leurs liquidités
 explanation: |
-  Dans une fermeture coopérative, les deux parties communiquent et se mettent d'accord sur un état final du canal. C'est l'option la plus rapide et la moins chère.
+  Lorsqu'une route échoue, le nœud émetteur essaie d'autres routes alternatives jusqu'à ce qu'un chemin fonctionnel soit trouvé, ou que toutes les options soient épuisées.
 reviewed: false

@@ -1,4 +1,0 @@
-description: |
-  Bottlepay là một nền tảng tài chính số sử dụng Lightning Network để kích hoạt các giao dịch bitcoin tức thì trên toàn cầu. Nền tảng này đơn giản hóa việc giao dịch bitcoin, cung cấp các thiết lập nhanh chóng và dễ dàng, các tuyến đường thanh toán có thể tùy chỉnh, và khả năng mua và bán bitcoin trong các giao dịch đơn lẻ hoặc định kỳ. Bottlepay hỗ trợ nạp tiền tức thì qua Open Banking và SEPA Instant, đồng thời cho phép thanh toán trực tiếp từ số dư GBP hoặc EUR đến bất kỳ địa chỉ bitcoin nào. Nó cũng giới thiệu 'Địa chỉ Lightning' đổi mới, làm cho quá trình gửi và nhận bitcoin dễ dàng như gửi email. Mặc dù có các tính năng tiên tiến, Bottlepay gần đây đã thông báo về việc đóng cửa ứng dụng của mình.
-contributors:
-  - rabbit-hole

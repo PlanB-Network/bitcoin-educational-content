@@ -1,9 +1,0 @@
-question: Welche Faktoren werden berücksichtigt, wenn die wahrscheinlich erfolgreichsten Routen im Lightning Network geschätzt werden?
-answer: Gebühren, HTLC-Verfallszeit, die Anzahl der Zwischenknoten und ein Zufallsfaktor.
-wrong_answers:
-  - Transaktionsgröße, Blockhöhe und Transaktionsgebühren.
-  - Transaktionsgebühren, Blockgröße und Transaktionsbestätigungszeit.
-  - Transaktionsbestätigungszeit, Blockhöhe und Transaktionsgröße.
-explanation: |
-  Beim Schätzen der wahrscheinlich erfolgreichsten Routen im Lightning Network berücksichtigen die Knoten mehrere Faktoren. Dazu gehören die mit jeder Route verbundenen Gebühren, die Verfallszeit der HTLCs, die Anzahl der Zwischenknoten und ein Zufallsfaktor, um immer dieselben Routen zu vermeiden.
-reviewed: false

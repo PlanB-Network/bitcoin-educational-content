@@ -1,0 +1,13 @@
+question: Jaký je hlavní rozdíl mezi coinjoin a spravovaným mixérem?
+
+answer: Coinjoin vám umožňuje udržet plnou kontrolu nad vašimi prostředky.
+
+wrong_answers:
+  - Coinjoin vyžaduje dočasné předání správy nad prostředky.
+  - Mixéry jsou bezpečnější než coinjoiny.
+  - Mixéry poskytují lepší kvalitu míchání.
+
+explanation: |
+  Hlavní nevýhodou mixérů ve srovnání s coinjoiny je, že vyžadují, aby uživatel vzdal se správy svých prostředků během procesu míchání, což je vystavuje riziku krádeže.
+
+reviewed: false

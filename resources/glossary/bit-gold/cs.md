@@ -1,0 +1,5 @@
+---
+term: BIT GOLD
+
+---
+Bitové zlato je decentralizovaný systém digitální měny, který v roce 1998 vymyslel Nick Szabo a který byl veřejně popsán v roce 2005. Bitové zlato bylo navrženo pro generování a výměnu virtuálního zdroje zvaného bitové zlato. Tento systém nebyl založen na žádném fyzickém zboží, ale jeho cílem bylo vytvořit formu nezfalšovatelného nedostatku. Protokol bitového zlata se opíral o vytváření měny prostřednictvím důkazu práce, kdy se kusy bitového zlata vytvářely pomocí výpočetního výkonu počítačů, čímž vznikal řetězec důkazů práce. Každý důkaz práce byl označen časovým razítkem a poté přidán do registru majetku. Ověřování a převod vlastnictví bitového zlata se prováděly prostřednictvím veřejného registru, kde byli uživatelé identifikováni veřejnými klíči. Bitové zlato zůstalo ve fázi konceptu a nebylo nikdy realizováno. Tento systém je spolu s b-money a RPoW jedním z předchůdců Bitcoinu, ale Satoshi si jeho existence před vytvořením Bitcoinu zřejmě nebyl vědom. Zmínka o něm se objevila až později na webových stránkách a fóru Bitcoinu.

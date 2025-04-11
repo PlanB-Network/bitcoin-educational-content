@@ -1,0 +1,9 @@
+question: Bagaimana sebuah MAC memungkinkan Alice untuk memverifikasi bahwa pesan memang berasal dari Bob?
+answer: Dengan memeriksa apakah tag yang dihasilkan cocok dengan yang dikirim oleh Bob
+wrong_answers:
+  - Dengan mendekripsi pesan untuk melihat apakah dapat dibaca
+  - Dengan membandingkan ukuran pesan dan tag tersebut
+  - Dengan memverifikasi alamat IP pengirim
+explanation: |
+  Alice menggunakan kunci rahasia bersama untuk menghasilkan tag dari pesan yang diterima. Jika tag ini cocok dengan yang dikirim oleh Bob, dia tahu bahwa pesan tersebut asli dan utuh.
+reviewed: false

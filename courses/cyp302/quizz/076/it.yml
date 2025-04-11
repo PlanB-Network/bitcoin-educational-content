@@ -1,0 +1,9 @@
+question: Quale dimensione della chiave è considerata sicura contro gli attacchi di forza bruta per la crittografia moderna?
+answer: 128 bit
+wrong_answers:
+  - 16 bit
+  - 64 bit
+  - 100 bit
+explanation: |
+  Con una chiave di almeno 128 bit, la crittografia moderna è attualmente considerata sicura contro gli attacchi di forza bruta, poiché il numero di tentativi sarebbe irrealistico.
+reviewed: false

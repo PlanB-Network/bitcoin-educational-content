@@ -1,9 +1,11 @@
-question: Was ist die Hauptkritik am aktuellen Finanzsystem in Bezug auf die Umwelt?
+question: Was ist das Hauptproblem des aktuellen Finanzsystems in Bezug auf die Umwelt?
 answer: Es fördert Überkonsum und Verschuldung.
 wrong_answers:
-  - Es fördert den Einsatz fossiler Brennstoffe.
+  - Es fördert die Nutzung fossiler Brennstoffe.
   - Es investiert nicht in erneuerbare Energien.
-  - Es reguliert nicht die Produktion von Gütern.
+  - Es reguliert die Produktion von Waren nicht.
 explanation: |
-  Das aktuelle Finanzsystem wird dafür kritisiert, Überkonsum und Verschuldung zu fördern, was ernsthafte Umweltprobleme verursacht. Dies liegt an der einfachen Kreditaufnahme, der Geldausgabe durch Banken und der Verwendung von Bruchteilreservenbanking.
-reviewed: false
+  Das aktuelle Finanzsystem wird dafür kritisiert, Überkonsum und Verschuldung zu fördern, was ernsthafte
+  Umweltprobleme verursacht. Dies ist auf den leichten Zugang zu Krediten, die Geldausgabe durch Banken und die Nutzung
+  des Systems der Mindestreserve zurückzuführen.
+reviewed: true

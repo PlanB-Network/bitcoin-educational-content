@@ -1,11 +1,12 @@
 question: Mikä on louhijoiden rooli Bitcoin-protokollassa?
-answer: He turvaavat nykyisen ja historiallisen verkon
+answer: He turvaavat nykyisen ja historiallisen verkon.
 wrong_answers:
-  - He säätelevät Bitcoinin hintaa
-  - He hallitsevat Bitcoinin tarjontaa
-  - He hallinnoivat käyttäjien välisiä transaktioita
-explanation: >-
-  Louhijat Bitcoin-protokollassa turvaavat sekä nykyisen että historiallisen
-  verkon. He eivät säätele Bitcoinin hintaa, hallitse sen tarjontaa tai hallinnoi
-  käyttäjien välisiä transaktioita.
-reviewed: false
+  - He säätelevät Bitcoinin hintaa.
+  - He hallitsevat Bitcoinin tarjontaa.
+  - He hallinnoivat käyttäjien välisiä transaktioita.
+explanation: |
+  Louhijat Bitcoin-protokollassa turvaavat sekä nykyisen että
+  historiallisen verkon. He eivät säätele Bitcoinin hintaa,
+  hallitse sen tarjontaa, eivätkä hallinnoi transaktioita
+  käyttäjien välillä.
+reviewed: true

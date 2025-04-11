@@ -1,0 +1,9 @@
+question: Podle římského filozofa Seneky, z čeho se skládá štěstí?
+answer: Praxe ctnosti
+wrong_answers:
+  - Bohatství
+  - Potěšení
+  - Vše výše uvedené
+explanation: |
+  Pro Seneku leží pravé štěstí v praxi ctnosti, která umožňuje jedinci žít v souladu s rozumem a dosáhnout trvalého vnitřního míru, nezávisle na potěšení nebo bohatství.
+reviewed: false

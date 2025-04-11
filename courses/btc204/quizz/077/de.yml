@@ -1,0 +1,13 @@
+question: Was ist der Hauptunterschied zwischen einem Coinjoin und einem Custodial Mixer?
+
+answer: Coinjoin ermöglicht es Ihnen, die volle Kontrolle über Ihre Mittel zu behalten.
+
+wrong_answers:
+  - Coinjoin erfordert die vorübergehende Aufgabe der Verwahrung der Mittel.
+  - Mixer sind sicherer als Coinjoins.
+  - Mixer bieten eine bessere Qualität der Vermischung.
+
+explanation: |
+  Der Hauptnachteil von Mixern im Vergleich zu Coinjoins besteht darin, dass sie vom Benutzer verlangen, während des Mischprozesses die Verwahrung ihrer Mittel aufzugeben, was sie Diebstahlrisiken aussetzt.
+
+reviewed: false

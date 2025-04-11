@@ -1,0 +1,9 @@
+question: Why is the 21 million cap on Bitcoin issuance significant?
+answer: It creates a deflationary asset, protecting its value against arbitrary inflation.
+wrong_answers:
+  - It ensures that governments can print as many bitcoins as needed.
+  - It prevents anyone from sending transactions after the cap is reached.
+  - It eliminates all volatility in Bitcoin’s price.
+explanation: |
+  By having a maximum supply of 21 million, Bitcoin’s scarcity is hard-coded, making it fundamentally different from inflationary currencies where supply can be increased at will.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jak naimportuji schéma "NonInflatableAsset.rgb" do místní skrýše?
+answer: rgb import schemata/NonInflatableAssets.rgb
+wrong_answers:
+  - rgb import schema/NonInflatableAssets.rgb
+  - rgb klon schémata/NonInflatableAssets.rgb
+  - rgb klon schéma/NonInflatableAssets.rgb
+explanation: |
+  Zkompilované schéma se importuje do místní schránky pomocí příkazu "rgb import schemata/NonInflatableAssets.rgb".
+reviewed: false

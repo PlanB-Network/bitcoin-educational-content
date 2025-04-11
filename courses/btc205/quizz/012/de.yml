@@ -1,9 +1,0 @@
-question: Welche P2P-Lösung ist über Telegram für nicht-KYC-Bitcoin-Käufe zugänglich?
-answer: LNP2PBot
-wrong_answers:
-  - Bisq
-  - RoboSat
-  - Peach
-explanation: |
-  Laut dem Kapitel ist LNP2PBot über Telegram für nicht-KYC-Bitcoin-Käufe zugänglich.
-reviewed: false

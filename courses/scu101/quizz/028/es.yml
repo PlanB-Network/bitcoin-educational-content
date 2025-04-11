@@ -3,7 +3,9 @@ answer: Correos electrónicos
 wrong_answers:
   - Redes sociales
   - Sitios web de compras en línea
-  - Sitios web de banca
+  - Sitios web bancarios
 explanation: |
-  Los correos electrónicos son el primer vector de ataque para los hackers. Utilizan intentos de phishing para extraer información sensible como tus credenciales y contraseñas.
+  Los correos electrónicos son el primer vector de ataque para los hackers. Utilizan
+  intentos de phishing para extraer información sensible como
+  tus credenciales y contraseñas.
 reviewed: false

@@ -1,9 +1,11 @@
 question: Perché è fondamentale aggiornare regolarmente il sistema operativo e le applicazioni?
-answer: Per proteggersi dalle nuove minacce e vulnerabilità.
+answer: Per proteggersi contro nuove minacce e vulnerabilità.
 wrong_answers:
   - Per rendere la macchina obsoleta.
   - Per rallentare la macchina.
   - Per cambiare l'interfaccia utente.
 explanation: |
-  Gli aggiornamenti regolari sono essenziali per proteggere il sistema dalle nuove minacce e vulnerabilità. Non sono intesi a rendere la macchina obsoleta o rallentarla.
-reviewed: false
+  Gli aggiornamenti regolari sono essenziali per proteggere il sistema da
+  nuove minacce e vulnerabilità. Non hanno lo scopo di
+  rendere la macchina obsoleta o lenta.
+reviewed: true

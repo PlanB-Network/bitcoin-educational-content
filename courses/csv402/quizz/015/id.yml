@@ -1,0 +1,9 @@
+question: Konsep historis apa yang diterapkan RGB pada dunia digital?
+answer: Instrumen pembawa
+wrong_answers:
+  - Basis data terpusat
+  - Jaringan peer-to-peer tanpa validasi
+  - Register terbuka dapat diakses oleh semua orang
+explanation: |
+  RGB mengubah gagasan instrumen pembawa menjadi digital.
+reviewed: false

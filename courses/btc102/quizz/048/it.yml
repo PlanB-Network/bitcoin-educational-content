@@ -1,11 +1,11 @@
-question: Qual è la caratteristica principale di una "blockchain" senza proof of work?
+question: Qual è la caratteristica principale di una blockchain senza proof of work?
 answer: Non ha un valore reale
 wrong_answers:
   - È più sicura
   - È più veloce
   - È più decentralizzata
 explanation: |
-  Il contenuto del capitolo afferma che senza proof of work, una "blockchain"
+  Il contenuto del capitolo afferma che senza proof of work, una blockchain
   non ha un valore reale. Questa è una caratteristica chiave che distingue Bitcoin da altre
   criptovalute.
 reviewed: false

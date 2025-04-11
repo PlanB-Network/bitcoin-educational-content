@@ -1,9 +1,12 @@
-question: ¿Cuál es la entidad encargada de emitir la moneda fiduciaria?
-answer: Banco Central
+question: ¿Cuáles son las entidades encargadas de emitir monedas fiduciarias?
+answer: Bancos centrales.
 wrong_answers:
-  - Banco Comercial
-  - Gobierno
-  - Instituciones Privadas
+  - Bancos comerciales.
+  - Gobiernos.
+  - Instituciones privadas.
 explanation: |
-  Los bancos centrales son las entidades encargadas de emitir la moneda fiduciaria. Ellos deciden la política monetaria y determinan cuánto dinero debe ser puesto en circulación o impreso.
-reviewed: false
+  Los bancos centrales son las entidades encargadas de emitir una
+  moneda fiduciaria. Deciden la política monetaria y
+  determinan cuánto dinero debe ponerse en circulación o
+  imprimirse.
+reviewed: true

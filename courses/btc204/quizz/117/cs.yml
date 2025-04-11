@@ -1,0 +1,11 @@
+question: Kolik po sobě jdoucích transakcí obvykle provede klasický ricochet?
+
+answer: 5
+
+wrong_answers:
+  - 2
+  - 8
+  - 14
+
+explanation: |
+  Metoda ricochet obvykle zahrnuje provedení 4 transakcí na sebe samého a nakonec jednu transakci k odeslání finančních prostředků konečnému příjemci.

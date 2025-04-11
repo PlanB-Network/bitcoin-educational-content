@@ -1,11 +1,9 @@
 question: Co byste měli udělat poté, co jsou slova vaší mnemonické fráze zapsána?
-answer: Udělejte druhou kopii a uložte ji na jiném místě
+answer: Udělejte druhou kopii a uložte ji na jiném místě.
 wrong_answers:
-  - Sdílejte ji s důvěryhodným přítelem
-  - Pošlete ji sobě emailem
-  - Uložte ji do svého telefonu
+  - Sdílejte ji s důvěryhodným přítelem.
+  - Pošlete si ji e-mailem.
+  - Uložte ji ve svém telefonu.
 explanation: |
-  Jakmile jsou slova vaší mnemonické fráze zapsána, doporučuje se
-  udělat druhou kopii a uložit ji na jiném místě než první. To poskytuje
-  zálohu v případě ztráty nebo nehody s první kopií.
-reviewed: false
+  Jakmile jsou slova vaší mnemonické fráze zapsána, doporučuje se udělat druhou kopii a uložit ji na jiném místě než první. To poskytuje zálohu v případě ztráty nebo nehody s první kopií.
+reviewed: true

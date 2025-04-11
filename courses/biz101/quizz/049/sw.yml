@@ -1,0 +1,9 @@
+question: Pesa za karatasi zina faida gani kuu zaidi ya sarafu katika mifumo ya malipo ya jadi?
+answer: Kuongezeka kwa kubebeka na ufanisi
+wrong_answers:
+  - Thamani ya asili iliyoimarishwa kupitia madini ya thamani
+  - Uthibitishaji otomatiki wa kila shughuli
+  - Kuondoa kabisa hatari ghushi
+explanation: |
+  Pesa za karatasi, zikiwa nyepesi na rahisi kusafirisha kuliko sarafu, ziliwezesha biashara ya masafa marefu yenye ufanisi zaidi na kupunguza changamoto za vifaa.
+reviewed: false

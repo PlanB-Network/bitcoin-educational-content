@@ -1,0 +1,12 @@
+question: Miks on soovitatav kustutada küpsised pärast iga saidi külastust?
+answer: Et vältida kolmandate osapoolte saitide poolt sinu veebitegevuse jälgimist.
+wrong_answers:
+  - Et säästa seadme salvestusruumi.
+  - Et takistada saidil meelde jätta sinu sisselogimisinfot.
+  - Et takistada saidil sulle sihitud reklaamide näitamist.
+explanation: |
+  Küpsised on failid, mida veebisaidid loovad informatsiooni salvestamiseks sinu seadmesse.
+  Kuigi mõned saidid vajavad nende küpsiste toimimist korrektselt, võivad need olla ka ära kasutatud
+  kolmandate osapoolte saitide poolt, eriti reklaamide jälgimise eesmärgil. Küpsiste kustutamine
+  pärast iga saidi külastust aitab seda vältida.
+reviewed: false

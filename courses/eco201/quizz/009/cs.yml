@@ -1,11 +1,11 @@
-question: Jaká je role centrální banky jako "poskytovatele úvěrů v poslední instanci"?
+question: Jaká je role centrální banky jako poskytovatele úvěrů v poslední instanci?
 answer: Centrální banka poskytuje úvěry finančně nesolventním bankám během krizí, aby zabránila domino efektu, který by mohl ochromit celý finanční systém.
 wrong_answers:
   - Centrální banka poskytuje úvěry finančně nesolventním bankám během krizí, aby zvýšila své vlastní zisky.
   - Centrální banka poskytuje úvěry finančně nesolventním bankám během krizí, aby převzala jejich operace.
   - Centrální banka poskytuje úvěry finančně nesolventním bankám během krizí, aby zvýšila státní dluh.
 explanation: |
-  Koncept centrální banky jako "poskytovatele úvěrů v poslední instanci" se objevil
+  Koncept centrální banky jako poskytovatele úvěrů v poslední instanci se objevil
   v 19. století v Anglii jako reakce na opakované bankovní paniky, které ohrožovaly finanční
   stabilitu. Poskytováním úvěrů bankám v nesnázích může centrální banka zabránit domino
   efektu bankovních krachů, které by mohly vést k recesi nebo depresi.

@@ -1,0 +1,9 @@
+question: Qual é o objetivo da implementação da interface na arquitetura RGB?
+answer: Mapear os campos do esquema para os nomes definidos na interface
+wrong_answers:
+  - Compilar scripts AluVM para validação
+  - Para definir os estados globais e os estados próprios do contrato
+  - Para armazenar provas criptográficas do lado do cliente
+explanation: |
+  A implementação da interface estabelece a ligação entre a lógica comercial do esquema e a apresentação legível pela interface.
+reviewed: false

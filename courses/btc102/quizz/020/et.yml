@@ -1,0 +1,9 @@
+question: Mis on investeerimise kuldreegel?
+answer: Ära kunagi investeeri rohkem, kui sa endale lubada saad kaotada.
+wrong_answers:
+  - Investeeri alati sellesse, mis on moes.
+  - Investeeri alati laenatud rahaga.
+  - Investeeri alati sellesse, mida sa ei mõista.
+explanation: |
+  Investeerimise kuldreegel on mitte kunagi investeerida rohkem, kui sa endale lubada saad kaotada. See on seetõttu, et investeerimine kannab alati teatud tasemel riski ja sa peaksid investeerima ainult raha, mille kaotamine ei mõjutaks sinu finantsstabiilsust.
+reviewed: false

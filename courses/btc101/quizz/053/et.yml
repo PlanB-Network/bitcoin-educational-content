@@ -1,0 +1,10 @@
+question: Millisel juhul täheldati inflatsiooni ekvivalentset päevamäära 100%?
+answer: Zimbabwes, 2007
+wrong_answers:
+  - Ungaris, 1945
+  - Hiinas, 1940
+  - See on ebareaalne stsenaarium, mis ei saa juhtuda
+explanation: |
+  100% päevane inflatsioon on realistlik stsenaarium, mis leidis aset Zimbabwes 2007. aastal, kuna
+  raha väärtus kahekordistus umbes iga 24h järel.
+reviewed: true

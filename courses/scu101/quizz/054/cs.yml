@@ -1,10 +1,12 @@
 question: Jaké jsou doporučené postupy pro optimální zabezpečení se silnou autentizací?
-answer: Používejte bezpečnou emailovou adresu, bezpečný správce hesel a zaveďte 2FA pomocí YubiKeys.
+answer: Používejte bezpečnou e-mailovou adresu, bezpečný správce hesel a zaveďte 2FA pomocí YubiKeys.
 wrong_answers:
   - Používejte společné heslo pro všechny účty a vyhýbejte se 2FA
   - Používejte jednoduché heslo a spoléhejte na biometrická data pro 2FA
-  - Používejte bezpečnou emailovou adresu, ale vyhýbejte se správcům hesel a 2FA
+  - Používejte bezpečnou e-mailovou adresu, ale vyhýbejte se správcům hesel a 2FA
 explanation: |
-  Pro optimální zabezpečení se doporučuje používat bezpečnou emailovou adresu,
-  bezpečný správce hesel a zavést 2FA pomocí YubiKeys. Je také vhodné pořídit si dva YubiKeys, aby bylo možné předvídat ztrátu nebo krádež.
-reviewed: false
+  Pro optimální zabezpečení se doporučuje používat bezpečnou
+  e-mailovou adresu, bezpečný správce hesel a zavést 2FA
+  pomocí YubiKeys. Je také vhodné zakoupit dva
+  YubiKeys, aby se předešlo ztrátě nebo krádeži.
+reviewed: true

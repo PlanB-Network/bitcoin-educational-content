@@ -1,0 +1,9 @@
+---
+term: P2TR
+
+---
+P2TR significa *Pay to Taproot*, que é um modelo de script padrão utilizado para estabelecer condições de despesa num UTXO (Unspent Transaction Output). Foi introduzido com a implementação do Taproot em novembro de 2021. O P2TR utiliza o protocolo Schnorr para agregar chaves criptográficas, bem como árvores Merkle para scripts alternativos, conhecidos como MAST (*Merkelized Alternative Script Tree*). Ao contrário das transacções tradicionais em que as condições de despesa são expostas publicamente (por vezes no momento da receção, por vezes no momento da despesa), o P2TR permite a ocultação de scripts complexos por detrás de uma única chave pública aparente.
+
+Tecnicamente, um script P2TR bloqueia bitcoins numa única chave pública Schnorr, denotada como $K$. No entanto, esta chave $K$ é na verdade um agregado de uma chave pública $P$ e uma chave pública $M$, sendo esta última calculada a partir da raiz de Merkle de uma lista de `scriptPubKey`. Os bitcoins bloqueados com um script P2TR podem ser gastos de duas formas distintas: ou publicando uma assinatura para a chave pública $P$, ou satisfazendo um dos scripts contidos na árvore Merkle. A primeira opção é chamada de "*caminho da chave*" e a segunda de "*caminho do script*".
+
+Assim, o P2TR permite aos utilizadores enviar bitcoins para uma chave pública ou para vários scripts à sua escolha. Outra vantagem deste script é que, embora existam várias formas de gastar uma saída P2TR, apenas a que é utilizada precisa de ser revelada no momento do gasto, permitindo que as alternativas não utilizadas permaneçam privadas. P2TR é uma saída SegWit versão 1, o que significa que as assinaturas para entradas P2TR são armazenadas na testemunha de uma transação, e não no `scriptSig`. Endereços P2TR usam uma codificação `Bech32m` e começam com `bc1p`.

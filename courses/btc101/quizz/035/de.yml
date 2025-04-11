@@ -1,11 +1,9 @@
-question: Welche dieser Optionen ist kein Vorteil von Fiat-Währungen?
-answer: Sie unterliegen der monetären Inflation.
+question: Was ist die Bedeutung von Fiatgeld?
+answer: Fiatgeld ist eine Währung, die ihren Wert dadurch erhält, dass eine Regierung ihn aufrechterhält und die Menschen Vertrauen in seinen Wert haben, anstatt durch eine physische Ware wie Gold gedeckt zu sein.
 wrong_answers:
-  - Sie sind leicht transportierbar
-  - Sie sind leicht teilbar
-  - Sie werden von allen Ländern akzeptiert
+  - Fiatgeld ist eine Währung, die durch eine physische Ware, wie Gold oder Silber, gedeckt ist, was bedeutet, dass ihr Wert direkt an den Wert dieser Ware gebunden ist.
+  - Fiatgeld ist eine Art von Kryptowährung, die auf einem dezentralen Netzwerk operiert und Peer-to-Peer-Transaktionen ohne die Notwendigkeit einer zentralen Autorität ermöglicht.
+  - Fiatgeld ist eine Währung, die keinen intrinsischen Wert hat und nicht für Transaktionen verwendet werden kann, was sie im Grunde wertlos in der Wirtschaft macht.
 explanation: |
-  Fiat-Währungen, wie der Dollar und der Euro, sind sehr liquide und
-  leicht transportierbar, da sie mittlerweile größtenteils digital sind. Allerdings wird ihr Wert
-  ständig durch monetäre Inflation erodiert.
-reviewed: false
+  Fiatgeld wird per Regierungsdekret als gesetzliches Zahlungsmittel festgelegt, und sein Wert wird nicht von irgendeiner physischen Ware abgeleitet.
+reviewed: true

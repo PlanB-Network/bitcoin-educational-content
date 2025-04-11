@@ -1,9 +1,9 @@
 question: Qual é uma das razões pelas quais você deve consolidar seus UTXOs em suas carteiras de tempos em tempos?
-answer: Para evitar taxas desnecessárias durante as transações.
+answer: Para evitar taxas desnecessárias durante transações.
 wrong_answers:
-  - Para aumentar o valor do seu Bitcoin.
-  - Para evitar que seu Bitcoin seja roubado.
-  - Para garantir que seu Bitcoin esteja sempre disponível.
-explanation: |
-  O texto menciona que consolidar seus UTXOs em suas carteiras de tempos em tempos é essencial para gerenciar efetivamente seus bitcoins e evitar taxas desnecessárias durante as transações.
-reviewed: false
+  - Para aumentar o valor dos seus bitcoins.
+  - Para prevenir que seus bitcoins sejam roubados.
+  - Para garantir que seus bitcoins estejam sempre disponíveis.
+explanation: >-
+  O texto menciona que consolidar seus UTXOs em suas carteiras de tempos em tempos é essencial para gerenciar efetivamente seus bitcoins e evitar taxas desnecessárias durante transações.
+reviewed: true

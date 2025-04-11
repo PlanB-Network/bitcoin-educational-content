@@ -1,0 +1,9 @@
+question: Qual conceito não está exclusivamente relacionado a esquemas de criptografia simétrica ou assimétrica?
+answer: Funções de hash
+wrong_answers:
+  - Pares de chaves pública e privada
+  - Criptografia assimétrica
+  - Criptografia simétrica
+explanation: |
+  Funções de hash são um componente chave da criptografia moderna, mas não são especificamente associadas a esquemas simétricos ou assimétricos, ao contrário das chaves pública e privada.
+reviewed: false

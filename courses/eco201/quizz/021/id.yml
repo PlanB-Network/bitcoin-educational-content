@@ -1,0 +1,12 @@
+question: Menurut Carl Menger, apa sifat dari nilai?
+answer: Nilai adalah fenomena psikologis subjektif dalam individu.
+wrong_answers:
+  - Nilai adalah sifat inheren dari barang.
+  - Nilai adalah fenomena objektif dan dapat diukur.
+  - Nilai ditentukan oleh jumlah tenaga kerja yang digunakan dalam produksi.
+explanation: |
+  Menurut Menger, nilai adalah fenomena psikologis subjektif dalam
+  individu. Ini berarti bahwa nilai bukanlah sifat inheren dari barang, melainkan
+  berasal dari opini individu tentang utilitas yang dapat mereka peroleh dari
+  barang-barang tersebut.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Mida kajastab pühendumustehing Lightning kanalis?
+answer: Kahe osapoole vaheliste vahendite uus jaotus
+wrong_answers:
+  - Tehingute koguarv
+  - Tehingu eest makstavate tasude summa
+  - Uue maksekanali avamine
+explanation: |
+  Pühendumustehing esindab kanalis olevate vahendite praegust jaotust pärast iga Lightning tehingut, kuid seda ei avaldata plokiahelas seni, kuni kanal püsib avatuna.

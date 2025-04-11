@@ -1,0 +1,8 @@
+question: Onko Frédéric Bastiat'n mukaan pahalla rooli ihmiskunnan historiassa?
+answer: Kyllä, paha ei ole ainoastaan määrittelevä todellisuus, vaan sillä on myös rooli historiassa ja ihmisen toiminnassa.
+wrong_answers:
+  - Ei, paha on hävitettävä lopettaaksemme ihmiskunnan kärsimykset.
+  - Ei, paha ei todellisuudessa ole ongelma, koska liberaali ihanne ei voi olla sen rajoittama.
+  - Ei, on olennaista olla hyväksymättä pahaa todellisuutena.
+explanation: |
+  Bastiat'n mukaan paha ei ole ainoastaan väistämätön todellisuus, vaan myös elementti, jolla on tietty rooli ihmisen ja sosiaalisen evoluution kannalta, sillä se mahdollistaa yksilöiden oppimisen ja edistymisen.

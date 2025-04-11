@@ -1,11 +1,9 @@
-question: Quel est le risque d'utiliser un portefeuille de garde ?
-answer: Le tiers de confiance peut restreindre votre accès à vos fonds à tout moment.
+question: Que signifie le terme hodl ?
+answer: Hodl est un terme d'argot dans la communauté des cryptomonnaies qui signifie conserver vos investissements au lieu de les vendre, surtout pendant la volatilité du marché.
 wrong_answers:
-  - Le tiers de confiance peut augmenter la valeur de vos bitcoins à tout moment.
-  - Le tiers de confiance peut diminuer la valeur de vos bitcoins à tout moment.
-  - Le tiers de confiance peut donner vos bitcoins à tout moment.
+  - Hodl fait référence à un type de cryptomonnaie qui est utilisé uniquement pour le trading.
+  - Hodl est un terme qui signifie vendre toute votre cryptomonnaie à un prix élevé.
+  - Hodl est une stratégie de trading journalier qui implique d'acheter et de vendre fréquemment.
 explanation: |
-  Lorsque vous utilisez un portefeuille de garde, vous n'êtes pas le seul détenteur de vos bitcoins.
-  Cela signifie que le tiers de confiance peut restreindre votre accès à vos fonds à
-  tout moment, vous donnant le même niveau de souveraineté financière que le système bancaire traditionnel.
-reviewed: false
+  Le terme hodl provient d'une publication en ligne mal orthographiée en 2013 sur un forum Bitcoin. Avec le temps, hodl a évolué pour représenter une stratégie d'investissement plus large. Il encourage les investisseurs à conserver leurs cryptomonnaies sur le long terme, indépendamment des fluctuations du marché.
+reviewed: true

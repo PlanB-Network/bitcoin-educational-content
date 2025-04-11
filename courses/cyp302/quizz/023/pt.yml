@@ -1,0 +1,9 @@
+question: Qual é o papel da operação de módulo na criptografia de cifra de deslocamento?
+answer: Garante que as letras retornem ao início do alfabeto ao ultrapassar 26
+wrong_answers:
+  - Multiplica os valores das letras pela chave
+  - Inverte as letras do alfabeto
+  - Apaga as letras após a letra Z
+explanation: |
+  A operação de módulo 26 permite que as letras voltem ao início após o Z para garantir que cada letra criptografada permaneça dentro das 26 letras do alfabeto.
+reviewed: false

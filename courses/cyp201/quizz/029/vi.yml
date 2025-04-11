@@ -1,11 +1,9 @@
-question: Mục đích chính của chữ ký số trong giao thức Bitcoin là gì?
-answer: Để chứng minh việc sở hữu một khóa riêng liên kết với một khóa công khai cụ thể
+question: Thuật toán chữ ký số nào được sử dụng khi Bitcoin ra đời?
+answer: ECDSA
 wrong_answers:
-  - Để mã hóa dữ liệu giao dịch
-  - Để tạo ra bitcoin mới
-  - Để xác minh danh tính của người gửi
+  - Schnorr
+  - RSA
+  - HMAC
 explanation: |
-  Tại cốt lõi của giao thức Bitcoin, chữ ký số được sử dụng như là
-  bằng chứng toán học
-  chứng minh việc sở hữu một khóa riêng liên kết với một khóa công khai cụ thể.
+  Bitcoin ban đầu sử dụng ECDSA, một giao thức chữ ký dựa trên đường cong elliptic, trước khi giới thiệu chữ ký Schnorr vào năm 2021.
 reviewed: false

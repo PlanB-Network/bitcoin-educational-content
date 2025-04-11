@@ -1,0 +1,9 @@
+question: In the YAML file used to issue an asset, which field defines the total number of tokens issued?
+answer: issuedSupply
+wrong_answers:
+  - assetOwner
+  - spec
+  - amount
+explanation: |
+  The "issuedSupply" field in the YAML file defines the total amount of tokens issued for the contract.
+reviewed: false

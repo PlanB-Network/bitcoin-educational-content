@@ -22,16 +22,16 @@ Nikmati kursusnya!
 # Pengantar
 <partId>594ab43f-7216-5326-ab41-f92b85be4581</partId>
 
-## Kurikulum Kursus & Pengantar
+## Ikhtisar Kursus
 <chapterId>36526df2-66a2-58df-8f38-378fb553f08c</chapterId>
 
-### Pengantar
+**Pengantar**
 
 Selamat datang di kursus pemrograman lanjutan tentang SDK. Dalam pelatihan ini, Anda akan mempelajari dasar-dasar Rust, kemudian fokus pada BTC & Rust, dan menyelesaikan dengan beberapa latihan praktis menggunakan SDK.
 
 Pelatihan ini untuk sementara hanya tersedia dalam bahasa Inggris dan merupakan bagian dari seminar langsung yang diselenggarakan bulan Oktober lalu di Tuscany oleh Fulgure Venture. Program acara LANGSUNG dapat ditemukan di bawah ini, dan pelatihan ini akan fokus hanya pada minggu pertama. Paruh kedua ditargetkan pada RGB dan dapat ditemukan di kursus RGB.
 
-### Pengajar
+**Pengajar**
 
 Terima kasih banyak kepada para pengajar kami yang telah menjadi bagian dari program ini:
 
@@ -40,7 +40,7 @@ Terima kasih banyak kepada para pengajar kami yang telah menjadi bagian dari pro
 - Gabriel: "Saya menulis kode dan melakukan hal-hal."
 - Jesse de Wit: "Penggemar jaringan Lightning | pengembang | Breez"
 
-### Jadwal Seminar
+**Jadwal Seminar**
 
 Minggu 1 dari acara LN Tuscany
 ![image](assets/1.webp)
@@ -48,14 +48,25 @@ Minggu 1 dari acara LN Tuscany
 Setelah Anda menyelesaikan kursus ini, jika Anda tertarik dengan pelatihan lanjutan, berikut adalah bagian kedua dari jadwal:
 ![image](assets/2.webp)
 
-Semoga sukses dengan studi Anda.
 
+Pelatihan ini memberi Anda kesempatan untuk mengembangkan keterampilan pemrograman Anda di Lightning Network menggunakan Rust dan berbagai SDK. Ini dirancang untuk pengembang yang sudah memiliki pemahaman pemrograman yang baik dan ingin mendalami pengembangan yang spesifik untuk Lightning Network. Anda akan mempelajari dasar-dasar bahasa Rust, mengapa ia cocok untuk pengembangan di Bitcoin, dan kemudian beralih ke penerapan praktis menggunakan SDK khusus.
+
+**Bagian 2: Belajar Mengkode dengan Rust**  
+Di bagian ini, Anda akan mempelajari dasar-dasar Rust melalui serangkaian bab progresif. Anda akan belajar menulis kode di Rust, memahami karakteristik khususnya, dan menguasai fitur-fitur utamanya melalui tujuh bagian terperinci. Modul ini penting untuk memahami mengapa Rust menjadi bahasa favorit untuk pengembangan di Bitcoin.
+
+**Bagian 3: Rust & Bitcoin**  
+Di sini, kita akan membahas secara mendalam mengapa Rust merupakan pilihan yang relevan untuk pengembangan Bitcoin. Anda akan mempelajari model kesalahannya, alat UniFFI, serta trait asinkron – elemen penting dalam membangun perangkat lunak yang kuat dan aman.
+
+**Bagian 4: Pengembangan LNP/BP dengan SDK**  
+Anda akan belajar mengembangkan node LN menggunakan berbagai SDK seperti Breez SDK dan Greenlight untuk Lipa. Anda akan melihat bagaimana mengimplementasikan aplikasi Lightning Network dengan menggunakan perpustakaan yang dirancang untuk memudahkan pengembangan aplikasi Bitcoin dan Lightning.
+
+Siap mengembangkan keterampilan Lightning Network Anda dengan Rust? Ayo mulai!
 # Belajar cara coding dengan buku Rust
 <partId>152b58c9-fb33-5d3b-9c15-64919869aa34</partId>
 
 ## Pengantar ke Rust (1/7)
 <chapterId>af7108eb-4974-5ac2-9784-d2a5c0d77a45</chapterId>
-<professor>radio-talent</professor>
+<professorId>e7e63d59-ea19-4960-9446-61bd4dcc98f0</professorId>
 
 ![video](https://www.youtube.com/watch?v=aZYhDXE_Gas)
 
@@ -134,20 +145,15 @@ Semoga sukses dengan studi Anda.
 
 ![video](https://youtu.be/6VaIVvBKjLY)
 
-# Kesimpulan
+# Bagian Akhir
 <partId>aff1e861-e6a3-58ad-af6a-33ceaedbda99</partId>
 
 
 
-## Beri kami umpan balik tentang kursus ini
+## Ulasan & Penilaian
 <chapterId>9331e519-9e5c-5639-9d0d-055587d8ba4c</chapterId>
 <isCourseReview>true</isCourseReview>
 
-## Kata Penutup
+## Kesimpulan
 <chapterId>d47b792e-d269-595b-9290-4788aba6e298</chapterId>
-Terima kasih telah berpartisipasi dalam kursus ini! Kami harap Anda menyukainya.
-
-Jika Anda ingin terus belajar dari seminar ini, kami mendorong Anda untuk mengikuti kursus RGB yang tersedia di platform ini.
-
-Anda juga dapat melihat kursus lainnya dan terus belajar dari berbagai sumber daya kami.
-Terima kasih banyak kepada Fulgur Venture atas penyelenggaraan kursus ini dan kepada para pengajar kami atas partisipasinya.
+<isCourseConclusion>true</isCourseConclusion>

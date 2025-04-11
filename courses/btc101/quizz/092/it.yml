@@ -1,12 +1,13 @@
-question: Qual è l'uso consigliato di un portafoglio multisig?
-answer: Per grandi importi per uso aziendale
+question: Qual è l'uso consigliato di un wallet multisig?
+answer: Conservare grandi quantità di bitcoin per uso aziendale.
 wrong_answers:
-  - Per piccole somme per uso personale
-  - Per importi medi per uso non profit
-  - Per spese quotidiane per uso individuale
+  - Conservare piccole quantità di bitcoin per uso personale.
+  - Conservare quantità medie di bitcoin per uso no-profit.
+  - Utilizzarlo per le spese quotidiane ad uso individuale.
 explanation: |
-  Un portafoglio multisig è consigliato per grandi importi e uso aziendale
-  perché richiede firme multiple per eseguire una transazione. Questo aggiunge un ulteriore
-  livello di sicurezza, in quanto significa che una singola persona non può eseguire una transazione
-  senza l'approvazione degli altri.
-reviewed: false
+  Si raccomanda l'uso di un wallet multisig per conservare grandi quantità
+  di bitcoin e per l'uso aziendale, perché richiede multiple
+  firme per autorizzare una transazione. Questo processo aggiunge un
+  ulteriore livello di sicurezza, poiché una singola persona non può
+  disporre dei fondi senza l'approvazione degli altri partecipanti.
+reviewed: true

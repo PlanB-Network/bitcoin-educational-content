@@ -1,0 +1,9 @@
+question: Hvordan baner RGB vei for DEX lag-2?
+answer: Ved å muliggjøre utveksling av eiendeler utenfor kjeden via Lightning-kanaler og atombytter
+wrong_answers:
+  - Ved å muliggjøre bruk av en sentralisert børs for alle RGB-transaksjoner
+  - Ved å muliggjøre utveksling av eiendeler via smartkontrakter i kjeden
+  - Ved å muliggjøre utveksling av aktiva mellom blokkjeder via atombytter
+explanation: |
+  Muligheten til å utføre atomiske bytter og utvekslinger via Lightning-kanaler gir mulighet til å opprette desentraliserte DEX-er, uten ulempene med utveksling på kjeden.
+reviewed: false

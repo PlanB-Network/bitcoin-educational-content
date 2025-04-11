@@ -1,0 +1,11 @@
+question: Jaki jest cel konfigurowania cyklicznego planu zakupów dla Hodlera?
+answer: Aby kontynuować zakup Bitcoin od czasu do czasu automatycznie.
+wrong_answers:
+  - Aby sprzedać Bitcoin, gdy cena jest wysoka.
+  - Aby często handlować Bitcoin.
+  - Aby zamienić Bitcoin na inne kryptowaluty.
+explanation: |
+  Hodler konfiguruje cykliczny plan zakupu, aby od czasu do czasu automatycznie kupować Bitcoin
+  od czasu do czasu automatycznie, stawiając na jego zwiększone wykorzystanie i niedobór w przyszłości
+  przyszłości.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mis vahe on ettevõtte VPNidel ja tarbija VPNidel?
+answer: Ettevõtte VPNid on kallimad ja keerukamad, samas kui tarbija VPNid on kättesaadavamad ja kasutajasõbralikumad.
+wrong_answers:
+  - Ettevõtte VPNid on vähem turvalised kui tarbija VPNid.
+  - Tarbija VPNid on kallimad kui ettevõtte VPNid.
+  - Ettevõtte VPNid ei krüpteeri andmeid, samas kui tarbija VPNid krüpteerivad.
+explanation: |
+  Ettevõtte VPNid on mõeldud ärikasutuseks ja on tavaliselt kallimad ning keerukamad seadistada ja hallata. Teisest küljest on tarbija VPNid mõeldud individuaalsetele kasutajatele ja on üldiselt kättesaadavamad ning kasutajasõbralikumad.
+reviewed: false

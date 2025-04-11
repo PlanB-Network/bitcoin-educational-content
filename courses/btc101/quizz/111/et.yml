@@ -1,0 +1,9 @@
+question: Mida tähendab KYC?
+answer: Tunne Oma Klienti
+wrong_answers:
+  - Hoia Oma Raha
+  - Sisesta Oma Koode
+  - Lahkelt Järgi Nõudeid
+explanation: |
+  KYC ehk Tunne Oma Klienti viitab protsessile, mida ettevõtted läbivad oma klientide isikusamasuse tuvastamiseks. See tehakse tavaliselt regulatsioonidele vastavuse tagamiseks ja ebaseaduslike tegevuste, nagu rahapesu või pettuste, ärahoidmiseks.
+reviewed: true

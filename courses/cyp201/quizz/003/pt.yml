@@ -1,9 +1,9 @@
-question: Por que SHA0, SHA1 e MD5 são consideradas funções de hash desatualizadas?
-answer: Elas perderam sua resistência a colisões.
+question: Qual é a principal diferença entre SHA256 e RIPEMD160?
+answer: RIPEMD160 produz hashes mais curtos do que SHA256
 wrong_answers:
-  - Elas são muito lentas para calcular.
-  - Elas produzem impressões digitais muito grandes.
-  - Elas não são irreversíveis.
+  - SHA256 está obsoleto ao contrário do RIPEMD160
+  - RIPEMD160 é usado apenas no mecanismo de Prova de Trabalho
+  - SHA256 nunca é combinado com outras funções de hash
 explanation: |
-  SHA0, SHA1 e MD5 são consideradas funções de hash desatualizadas porque perderam sua resistência a colisões. Isso significa que é relativamente fácil encontrar duas entradas diferentes que produzem a mesma saída, o que é uma grande falha de segurança.
+  RIPEMD160 gera hashes de 160 bits, enquanto SHA256 produz hashes de 256 bits.
 reviewed: false

@@ -1,0 +1,9 @@
+question: Miks võiks ettevõte otsustada hoida Bitcoini pikaajalise investeeringuna oma bilansis?
+answer: Sest see võib olla väärtuse säilitaja, mis võib aja jooksul kallineda ja pakkuda kaitset inflatsiooni vastu.
+wrong_answers:
+  - Sest see tagab kõigi valuutaga seotud maksude kohese kaotamise.
+  - Sest seda nõuavad rahvusvahelised raamatupidamisstandardid.
+  - Kuna Bitcoin pakub loomupäraselt garanteeritud kasumit ilma riskita.
+explanation: |
+  Mõned ettevõtted näevad Bitcoini strateegilise pikaajalise varana, mille väärtus võib säilida või kasvada, kaitstes traditsiooniliste valuutade devalveerumise eest ja mitmekesistades oma riigikassat.
+reviewed: false

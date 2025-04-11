@@ -1,12 +1,9 @@
-question: What is the role of cryptographic hash functions in verifying the integrity
-  of downloaded software?
-answer: They act as digital sentinels, verifying the integrity of downloaded software.
+question: Which combination of hash functions is used to generate shorter fingerprints in Bitcoin?
+answer: HASH160
 wrong_answers:
-  - They encrypt the software to protect it from hackers.
-  - They compress the software to reduce download time.
-  - They generate a unique key for each download.
+  - SHA512-SHA256
+  - HASH256
+  - SHA160
 explanation: |
-  Cryptographic hash functions play a crucial role in verifying the integrity
-  of downloaded software. By comparing the hash of the downloaded file with the expected
-  hash, one can verify that the file has not been tampered with.
+  HASH160 combines SHA256 and RIPEMD160 to generate 160-bit fingerprints, notably for Bitcoin addresses.
 reviewed: false

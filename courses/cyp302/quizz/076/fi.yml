@@ -1,0 +1,9 @@
+question: Mikä avaimen koko katsotaan turvalliseksi brute force -hyökkäyksiä vastaan nykyaikaisessa salauksessa?
+answer: 128 bittiä
+wrong_answers:
+  - 16 bittiä
+  - 64 bittiä
+  - 100 bittiä
+explanation: |
+  Vähintään 128 bitin avaimella nykyaikainen salaus katsotaan tällä hetkellä turvalliseksi brute force -hyökkäyksiä vastaan, sillä yritysten määrä olisi epärealistinen.
+reviewed: false

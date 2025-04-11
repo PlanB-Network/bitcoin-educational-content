@@ -1,0 +1,9 @@
+question: Model transaksi apa yang membuat penggunaan CIOH tidak valid?
+answer: Transaksi kolaboratif.
+wrong_answers:
+  - Pembayaran sederhana.
+  - Konsolidasi.
+  - Sweeping.
+explanation: |
+  CIOH tidak berlaku untuk transaksi yang mengadopsi pola kolaboratif, karena dalam kasus spesifik ini, inputnya harus datang dari entitas yang berbeda.
+reviewed: false

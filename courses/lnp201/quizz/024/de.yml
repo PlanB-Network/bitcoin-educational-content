@@ -1,9 +1,9 @@
-question: Was passiert mit der Abhebungstransaktion nach einem Lightning Network Transfer?
-answer: Sie wird aktualisiert, um das neue Guthaben des Kanals widerzuspiegeln.
+question: Was ist die kombinierte Wirkung des Zeitmechanismus (timelock) und des Widerrufsschlüssels (revocation key) auf Commitment-Transaktionen?
+answer: Sie schrecken Teilnehmer vom Betrügen ab, indem sie eine sofortige Bestrafung bieten.
 wrong_answers:
-  - Sie wird ausgeführt und die Mittel werden übertragen.
-  - Sie wird verworfen und eine neue Transaktion wird erstellt.
-  - Sie bleibt unverändert.
+  - Sie reduzieren die Kapazität des Kanals im Falle von Betrug.
+  - Sie sperren automatisch die Mittel der schuldigen Partei.
+  - Sie erzwingen die Eröffnung eines neuen Kanals, falls die Transaktion inkorrekt ist.
 explanation: |
-  Nach einem Lightning Network Transfer wird die Abhebungstransaktion aktualisiert, um das neue Guthaben des Kanals widerzuspiegeln. Diese Transaktion wird erst ausgeführt, wenn der Kanal geschlossen wird.
+  Der Zeitmechanismus (timelock) und der Widerrufsschlüssel (revocation key) schrecken Teilnehmer vom Betrügen ab, indem sie sicherstellen, dass jeder Versuch zu betrügen, in einem sofortigen Verlust der Mittel für die schuldige Partei resultiert.
 reviewed: false

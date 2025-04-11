@@ -1,0 +1,11 @@
+question: Bagaimana Lightning Network berpotensi digunakan untuk menyewakan barang?
+answer: Pengguna bisa dikenakan biaya per menit, atau bahkan per detik, untuk waktu mereka menggunakan barang tersebut
+wrong_answers:
+  - Pengguna bisa dikenakan biaya tetap untuk menyewa barang tersebut
+  - Pengguna bisa dikenakan biaya berdasarkan nilai dari barang tersebut
+  - Pengguna bisa dikenakan biaya berdasarkan kondisi dari barang tersebut
+explanation: >-
+  Dengan Lightning Network, dapat dibayangkan untuk menggunakan sistem ini
+  untuk menyewakan barang. Pengguna bisa dikenakan biaya per menit, atau bahkan per detik, untuk waktu
+  mereka menggunakan barang tersebut.
+reviewed: false

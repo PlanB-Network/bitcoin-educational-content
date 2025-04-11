@@ -1,0 +1,9 @@
+question: ¿Qué problema computacional difícil está asociado con sistemas asimétricos como RSA?
+answer: Factorización de números primos
+wrong_answers:
+  - Multiplicación exponencial de enteros
+  - La creación de números aleatorios largos
+  - Intercambio seguro de claves
+explanation: |
+  RSA se basa en la dificultad de la factorización de números primos, una tarea computacionalmente difícil que hace al criptosistema seguro contra ataques.
+reviewed: false

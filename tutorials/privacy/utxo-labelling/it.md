@@ -1,31 +1,31 @@
 ---
 name: Labelling UTXO
-description: Come etichettare correttamente il tuo UTXO?
+description: Come etichettare correttamente i tuoi UTXO?
 ---
 ![cover](assets/cover.webp)
 
-In questo tutorial, scoprirai tutto ciò che devi sapere sull'etichettatura degli UTXO nel tuo portafoglio Bitcoin e sul controllo delle monete. Iniziamo con una sezione teorica per comprendere appieno questi concetti, prima di passare a una parte pratica dove esploriamo come utilizzare concretamente le etichette nel principale software di portafoglio Bitcoin.
+In questo tutorial, scoprirai tutto ciò che devi sapere sull'etichettatura degli UTXO nel tuo portafoglio Bitcoin e sulla gestione degli UTXO. Iniziamo con una sezione teorica per comprendere appieno questi concetti, prima di passare a una parte pratica dove esploriamo come utilizzare concretamente le etichette nel principale software di portafoglio Bitcoin.
 
 ## Cos'è l'etichettatura UTXO?
-"L'etichettatura" è una tecnica che comporta l'associazione di un'annotazione o etichetta con un UTXO specifico all'interno di un portafoglio Bitcoin. Queste annotazioni sono memorizzate localmente dal software del portafoglio e non vengono mai trasmesse sulla rete Bitcoin. L'etichettatura è quindi uno strumento per la gestione personale.
+"L'etichettatura" è una tecnica con la quale si inserisce un'annotazione o etichetta ad un UTXO specifico all'interno di un portafoglio Bitcoin. Queste annotazioni sono memorizzate localmente dal software del portafoglio e non vengono mai trasmesse sulla rete Bitcoin. L'etichettatura è quindi uno strumento per la gestione personale.
 
 Ad esempio, se ricevo un UTXO da una transazione P2P tramite Bisq con Charles, potrei assegnargli l'etichetta `Bisq P2P Purchase Charles`.
 
-L'etichettatura consente di ricordare l'origine o la destinazione prevista dell'UTXO, semplificando la gestione dei fondi e ottimizzando la privacy dell'utente. L'etichettatura diventa ancora più rilevante quando combinata con la funzionalità di "controllo delle monete". Il controllo delle monete è un'opzione disponibile nei buoni portafogli Bitcoin, che dà all'utente la possibilità di scegliere manualmente quali UTXO specifici verranno utilizzati come input quando si crea una transazione.
+L'etichettatura consente di ricordare l'origine o la destinazione prevista dell'UTXO, semplificando la gestione dei fondi e ottimizzando la privacy dell'utente. L'etichettatura diventa ancora più rilevante quando combinata con la funzionalità di "controllo degli UTXO", un'opzione disponibile nei buoni portafogli Bitcoin, che dà all'utente la possibilità di scegliere manualmente quali UTXO specifici verranno utilizzati come input quando si crea una transazione.
 
-Utilizzare un portafoglio con controllo delle monete, abbinato all'etichettatura UTXO, consente agli utenti di distinguere e selezionare con precisione gli UTXO per le loro transazioni, evitando così di unire UTXO provenienti da fonti diverse. Questa pratica riduce i rischi associati all'Euristica di Proprietà Comune degli Input (CIOH), che suggerisce una proprietà comune degli input di una transazione, che può compromettere la privacy dell'utente.
+Utilizzare un portafoglio con controllo degl UTXO, abbinato all'etichettatura, consente agli utenti di distinguere e selezionare con precisione gli UTXO per le loro transazioni, evitando così di unire UTXO provenienti da fonti diverse. Questa pratica riduce i rischi associati all'Euristica di Proprietà Comune degli Input (CIOH), che suggerisce la proprietà comune degli input di una transazione e che può compromettere la privacy dell'utente.
 
-Torniamo all'esempio del mio UTXO no-KYC da Bisq; voglio evitare di combinarlo con un UTXO proveniente, diciamo, da una piattaforma di scambio regolamentata che conosce la mia identità. Apponendo un'etichetta distinta sul mio UTXO no-KYC e sul mio UTXO KYC, sarò in grado di identificare facilmente quale UTXO consumare come input per soddisfare una spesa, utilizzando la funzionalità di controllo delle monete.
+Torniamo all'esempio del mio UTXO no-KYC da Bisq; voglio evitare di combinarlo con un UTXO proveniente, diciamo, da una piattaforma di scambio regolamentata che conosce la mia identità. Apponendo un'etichetta distinta sul mio UTXO no-KYC e sul mio UTXO KYC, sarò in grado di identificare facilmente quale UTXO consumare come input per soddisfare una spesa, utilizzando la funzionalità di controllo degli UTXO.
 
 ## Come etichettare correttamente il tuo UTXO?
-Non esiste un metodo universale per etichettare gli UTXO che si adatti a tutti. Sta a te definire un sistema di etichettatura in modo da poterti orientare facilmente nel tuo portafoglio.
-Un criterio cruciale nell'etichettatura è la fonte dell'UTXO. Dovresti semplicemente indicare come questa moneta è arrivata nel tuo portafoglio. Provviene da una piattaforma di scambio? Un pagamento di una fattura da parte di un cliente? Uno scambio peer-to-peer? O rappresenta il resto di un acquisto? Così, potresti specificare:
+Non esiste un metodo universale per etichettare gli UTXO. Sta a te definire un sistema di etichettatura in modo da poterti orientare facilmente nel tuo portafoglio.
+Un criterio cruciale nell'etichettatura è la fonte dell'UTXO. Dovresti semplicemente indicare come questo UTXO è arrivato nel tuo portafoglio. Provviene da una piattaforma di scambio? Un pagamento di una fattura da parte di un cliente? Uno scambio peer-to-peer? O rappresenta il resto di un acquisto? Così, potresti specificare:
 - `Prelievo Exchange.com`;
 - `Pagamento Cliente David`;
 - `Acquisto P2P Charles`;
 - `Resto dall'acquisto del divano`.
 ![labelling](assets/it/1.webp)
-Per affinare la gestione del tuo UTXO e aderire alle tue strategie di segregazione dei fondi all'interno del tuo portafoglio, potresti arricchire le tue etichette con un indicatore aggiuntivo che rifletta queste separazioni. Se il tuo portafoglio contiene due categorie di UTXO che non vuoi mescolare, potresti integrare un marcatore nelle tue etichette per distinguere chiaramente questi gruppi.
+Per affinare la gestione dei tuo UTXO e migliorare la segregazione dei fondi all'interno del tuo portafoglio, potresti arricchire le tue etichette con un indicatore aggiuntivo che rifletta queste separazioni. Se il tuo portafoglio contiene due categorie di UTXO che non vuoi mescolare, potresti integrare un marcatore nelle tue etichette per distinguere chiaramente questi gruppi.
 
 Questi marcatori di separazione dipenderanno dai tuoi criteri, come la distinzione tra UTXO KYC (che conosce la tua identità) e no-KYC (anonimo), o tra fondi professionali e personali. Prendendo gli esempi di etichette precedentemente menzionati, questo potrebbe essere tradotto come:
 - `KYC - Prelievo Exchange.com`;
@@ -34,7 +34,7 @@ Questi marcatori di separazione dipenderanno dai tuoi criteri, come la distinzio
 - `NO KYC - Resto dall'acquisto del divano`.
 In ogni caso, tenete presente che un'etichettatura valida è quella che sarete in grado di comprendere quando ne avrete bisogno. Se il vostro portafoglio Bitcoin è principalmente destinato al risparmio, potrebbe essere che le etichette saranno utili solo in diversi decenni. Pertanto, assicuratevi che siano chiare, precise e complete.
 
-È inoltre consigliabile perpetuare l'etichettatura di una moneta attraverso le transazioni. Ad esempio, durante una consolidazione UTXO senza KYC, assicuratevi di contrassegnare l'UTXO risultante non solo come `consolidation`, ma specificamente come `no-KYC consolidation` per mantenere una traccia chiara dell'origine della moneta.
+È inoltre consigliabile perpetuare l'etichettatura di un UTXO attraverso le transazioni. Ad esempio, durante una consolidamento UTXO senza KYC, assicuratevi di contrassegnare l'UTXO risultante non solo come `consolidamento`, ma specificamente come `consolidamento no-KYC` per mantenere una traccia chiara dell'origine della moneta.
 
 Infine, non è obbligatorio mettere una data su un'etichetta. La maggior parte dei software per portafogli mostra già la data della transazione, ed è sempre possibile recuperare queste informazioni su un block explorer utilizzando il suo TXID.
 
@@ -58,7 +58,7 @@ Una volta inserita l'etichetta, puoi chiudere questa finestra.
 
 La tua etichetta è stata salvata con successo. Puoi trovarla sotto la scheda `Description`.
 
-Nella scheda `Coins`, da cui puoi eseguire il controllo delle monete, la tua etichetta si trova nella colonna `Label`.
+Nella scheda `Coins`, da cui puoi eseguire il controllo degli UTXO, la tua etichetta si trova nella colonna `Label`.
 
 ## Tutorial: Etichettatura su Green Wallet
 
@@ -70,7 +70,7 @@ Sarai in grado di trovare la tua etichetta sia nei dettagli della tua transazion
 
 ## Tutorial: Etichettatura su Samourai Wallet
 
-In Samourai Wallet, ci sono diversi metodi che ti permettono di assegnare un'etichetta a una transazione. Per il primo, inizia aprendo il tuo portafoglio e seleziona la transazione a cui vuoi aggiungere un'etichetta. Poi premi il pulsante `Add`, situato accanto alla casella `Notes`.
+In Samourai Wallet, ci sono diversi metodi che ti permettono di assegnare un'etichetta ad una transazione. Per il primo, inizia aprendo il tuo portafoglio e seleziona la transazione a cui vuoi aggiungere un'etichetta. Poi premi il pulsante `Add`, situato accanto alla casella `Notes`.
 
 Digita la tua etichetta e conferma cliccando sul pulsante blu `Add`.
 ![etichettatura](assets/notext/16.webp)
@@ -92,7 +92,7 @@ Digita la tua etichetta e conferma cliccando sul pulsante blu `Aggiungi`. Trover
 
 ## Tutorial: Etichettatura su Sparrow Wallet
 
-Con il software Sparrow Wallet, è possibile assegnare etichette in più modi. Il metodo più semplice è aggiungere un'etichetta in anticipo, quando si comunica un indirizzo di ricezione al mittente. Per fare ciò, nel menu `Ricevi`, clicca sul campo `Etichetta` e inserisci l'etichetta di tua scelta. Questa sarà conservata e accessibile in tutto il software non appena i bitcoin sono ricevuti sull'indirizzo.
+Con il software Sparrow Wallet, è possibile assegnare etichette in più modi. Il metodo più semplice è aggiungere un'etichetta in anticipo, quando si comunica un indirizzo di ricezione al mittente. Per fare ciò, nel menu `Ricevi`, clicca sul campo `Etichetta` e inserisci l'etichetta di tua scelta. Questa sarà conservata e accessibile in tutto il software non appena i bitcoin verranno ricevuti sull'indirizzo.
 
 ![etichettatura](assets/notext/21.webp)
 
@@ -100,7 +100,7 @@ Se hai dimenticato di etichettare il tuo indirizzo al momento della ricezione, �
 
 ![etichettatura](assets/notext/22.webp)
 
-Hai anche l'opzione di aggiungere o modificare le tue etichette dal menu `Indirizzi`.
+Hai anche l'opzione per aggiungere o modificare le tue etichette dal menu `Indirizzi`.
 
 ![etichettatura](assets/notext/23.webp)
 

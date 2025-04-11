@@ -1,0 +1,9 @@
+question: Který koncept elektronických peněz byl explicitně zmíněn Satoshi Nakamotem v bílé knize o Bitcoinu?
+answer: b-money (Wei Dai)
+wrong_answers:
+  - bit gold (Nick Szabo)
+  - RPOW (Hal Finney)
+  - eCash (David Chaum)
+explanation: |
+  Toto byla první zmínka. Satoshi ji přidal v srpnu 2008 po svých výměnách s Wei Dai.
+reviewed: false

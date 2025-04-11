@@ -1,9 +1,9 @@
 question: Lightning Networkの主な目的は何ですか？
-answer: マイクロトランザクションを容易にすること
+answer: マイクロトランザクションを容易にすること。
 wrong_answers:
-  - Bitcoinの価値を高めること
-  - Bitcoinプロトコルを置き換えること
-  - 新しい暗号通貨を作成すること
+  - Bitcoinの価値を高めること。
+  - Bitcoinプロトコルを置き換えること。
+  - 新しい暗号通貨を作成すること。
 explanation: >-
-  Lightning Networkは、Bitcoinプロトコルの第二層ソリューションであり、非常に低い価値の取引を容易にすることを目的としています。これらの取引は、Bitcoinブロックチェーン上での高い手数料や長い確認時間のために、実際には非現実的です。
-reviewed: false
+  Lightning Networkは、Bitcoinプロトコルの第二層ソリューションであり、非常に低い価値の取引を容易にすることを目的としています。これらの取引は、Bitcoinブロックチェーン上での高い手数料や長い確認時間のために、実用的でない場合があります。
+reviewed: true

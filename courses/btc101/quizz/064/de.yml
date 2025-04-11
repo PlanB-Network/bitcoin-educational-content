@@ -1,9 +1,9 @@
-question: Wie lautet der Befehl, um die Menge der im Umlauf befindlichen Bitcoins auf einem Bitcoin-Knoten zu überprüfen?
-answer: bitcoin-cli gettxoutsetinfo
+question: Welcher Befehl dient dazu, die Menge der im Umlauf befindlichen Bitcoins auf einem Bitcoin-Knoten zu überprüfen?
+answer: bitcoin-cli gettxoutsetinfo.
 wrong_answers:
-  - bitcoin-cli getblockchaininfo
-  - bitcoin-cli getwalletinfo
-  - bitcoin-cli getnetworkinfo
+  - bitcoin-cli getblockchaininfo.
+  - bitcoin-cli getwalletinfo.
+  - bitcoin-cli getnetworkinfo.
 explanation: |
-  Der Befehl, um die Menge der im Umlauf befindlichen Bitcoins auf einem Bitcoin-Knoten zu überprüfen, lautet bitcoin-cli gettxoutsetinfo. Dieser Befehl bietet Transparenz und Überprüfbarkeit und stärkt das Vertrauen in das Bitcoin-System.
-reviewed: false
+  Der Befehl zur Überprüfung der Menge der im Umlauf befindlichen Bitcoins auf einem Bitcoin-Knoten ist bitcoin-cli gettxoutsetinfo. Dieser Befehl sorgt für Transparenz und Überprüfbarkeit und stärkt das Vertrauen in das Bitcoin-System.
+reviewed: true

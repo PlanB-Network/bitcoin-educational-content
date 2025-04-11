@@ -1,0 +1,9 @@
+question: Pärast väärtuse ületäitumise intsidenti, milline mehhanism lisati tarkvarasse Satoshi poolt, et piirata potentsiaalsete haavatavuste mõju süsteemile?
+answer: Häiresüsteem
+wrong_answers:
+  - Tehingute standardne olemus
+  - Ploki suuruse limiit
+  - OP_NOP operaatorikoodid
+explanation: |
+  See tõhus häiresüsteem võimaldas tal, kasutades privaatvõtit, hoiatada võrgu sõlmi tehnilise probleemi korral ja peatada mõningate API käskude kasutamine.
+reviewed: false

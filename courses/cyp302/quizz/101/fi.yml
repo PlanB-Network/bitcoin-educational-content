@@ -1,0 +1,9 @@
+question: Mikä on HMAC?
+answer: Viestin autentikointikoodi, joka perustuu hajautusfunktioon
+wrong_answers:
+  - Epäsymmetrinen salausalgoritmi, joka perustuu hajautusfunktioon
+  - Epäsymmetrinen salausalgoritmi, joka perustuu Diffie-Hellmaniin
+  - Viestin autentikointikoodi, joka perustuu Diffie-Hellmaniin
+explanation: |
+  HMAC on viestin autentikointikoodi, joka käyttää hajautusfunktiota, kuten SHA-256, luodakseen tagin, joka varmistaa viestin eheyden ja aitouden.
+reviewed: false

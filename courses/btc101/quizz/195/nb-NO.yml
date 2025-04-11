@@ -1,0 +1,11 @@
+question: Hva er én måte å legge til rette for bruk av Bitcoin i daglige transaksjoner?
+answer: Liste opp alle forhandlere som aksepterer Bitcoin
+wrong_answers:
+  - Øke prisen på Bitcoin
+  - Redusere antallet Bitcoins
+  - Begrense bruken av Bitcoin
+explanation: >-
+  Én måte å legge til rette for bruk av Bitcoin i daglige transaksjoner på,
+  er å liste opp alle forhandlere som aksepterer Bitcoin. Dette kan gjøres gjennom plattformer
+  som BTCMap.
+reviewed: false

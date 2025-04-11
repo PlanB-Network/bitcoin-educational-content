@@ -1,0 +1,11 @@
+question: Kuinka entropia lasketaan Bitcoinin ketjuanalyysin kontekstissa?
+
+answer: Ottamalla kaksinkertainen logaritmi tulkintojen määrästä.
+
+wrong_answers:
+  - Kertomalla syötteiden määrä tulosteiden määrällä.
+  - Lisäämällä syötteiden ja tulosteiden määrä.
+  - Ottamalla kaksinkertainen logaritmi syötteiden ja tulosteiden määrästä.
+
+explanation: |
+  Entropia määritellään kaksinkertaisena logaritmina mahdollisten yhdistelmien määrästä.

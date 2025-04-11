@@ -49,7 +49,7 @@ Nó hiển thị một điểm số hồi tưởng là `34,593` và một điể
 
 Tôi hy vọng câu trả lời này đã làm sáng tỏ mô hình Whirlpool. Nếu bạn muốn tìm hiểu thêm về cách coinjoins hoạt động trên Bitcoin, tôi khuyên bạn đọc bài viết tổng hợp của tôi về chủ đề này:
 
-https://planb.network/tutorials/privacy/coinjoin-dojo
+https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
 
 **Nguồn tài liệu bên ngoài:**
 - Samourai Wallet Whirlpool

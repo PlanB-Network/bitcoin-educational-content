@@ -1,0 +1,12 @@
+question: Hva er et av tiltakene for å holde datamaskinen din i optimal arbeidstilstand?
+answer: Sikkerhetskopiere dataene dine regelmessig
+wrong_answers:
+  - Del passordene dine
+  - Bruk samme passord for alle kontoer
+  - Unnlater å oppdatere datamaskinen din
+explanation: |
+  Å sikkerhetskopiere dataene dine regelmessig er et av tiltakene for å holde datamaskinen din
+
+  i optimal arbeidstilstand. Det er også et grunnleggende tiltak for å forbedre vaner for
+
+  nettsikkerhet.

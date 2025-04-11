@@ -1,0 +1,9 @@
+question: Mis on üks võimalikest tagajärgedest, kui ei järgita oma riigi regulatsioone Bitcoini ostes?
+answer: Võite seada enda ohtu.
+wrong_answers:
+  - Võite tõsta Bitcoini hinda.
+  - Võite kontrollida Bitcoini pakkumist.
+  - Võite takistada teistel Bitcoini ostmist.
+explanation: >-
+  Tekstis mainitakse, et oma riigi regulatsioonide eiramisel Bitcoini ostes võite seada enda ohtu.
+reviewed: false

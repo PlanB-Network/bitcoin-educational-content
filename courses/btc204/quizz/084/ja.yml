@@ -1,0 +1,13 @@
+question: Zerolinkプロトコルにおける「post-mix」ウォレットの役割は何ですか？
+
+answer: ミキシング後のUTXOを保管するため。
+
+wrong_answers:
+  - ミキシング前のUTXOを保管するため。
+  - お釣りのUTXOを保管するため。
+  - 統合UTXOを保管するため。
+
+explanation: |
+  「post-mix」ウォレットは、ミキシングされたコインを保管するために予約されています。
+
+  レビュー済み: false

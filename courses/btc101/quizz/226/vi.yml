@@ -1,9 +1,9 @@
-question: Mạng Lưới Lightning hoạt động như thế nào?
+question: Lightning Network tạo ra loại mạng lưới nào?
 answer: Một mạng lưới của các kênh thanh toán.
 wrong_answers:
   - Một mạng lưới của các nút đào.
   - Một mạng lưới của các nút blockchain.
   - Một mạng lưới của các sàn giao dịch tiền mã hóa.
 explanation: >-
-  Mạng Lưới Lightning hoạt động như một mạng lưới của các kênh thanh toán, cho phép thực hiện giao dịch tức thì với phí thấp cho người gửi.
-reviewed: false
+  Lightning Network hoạt động như một mạng lưới của các kênh thanh toán, cho phép thực hiện các giao dịch tức thì với phí thấp cho người gửi.
+reviewed: true

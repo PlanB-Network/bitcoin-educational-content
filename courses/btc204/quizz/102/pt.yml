@@ -1,0 +1,13 @@
+question: O que o escore de Boltzmann representa no contexto das transações de Bitcoin?
+
+answer: A probabilidade condicional de que uma entrada esteja ligada a uma saída específica.
+
+wrong_answers:
+  - A quantidade total de bitcoins transferidos.
+  - O número de entradas em uma transação.
+  - A entropia relacionada a cada entrada ou saída.
+
+explanation: |
+  O escore de Boltzmann indica a probabilidade condicional de que uma entrada específica esteja ligada a uma saída dada. Assim, é uma medida quantitativa da probabilidade condicional de que uma associação entre uma entrada e uma saída em uma transação ocorra, estabelecida com base na razão do número de ocorrências favoráveis deste evento em comparação ao número total de ocorrências possíveis, em um conjunto de interpretações.
+
+reviewed: false

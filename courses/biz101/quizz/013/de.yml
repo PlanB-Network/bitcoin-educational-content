@@ -1,0 +1,9 @@
+question: Warum gelten nach der österreichischen Wirtschaftslehre die Gewinne als Schlüsselindikator für die Gesundheit eines Unternehmens?
+answer: Denn die Gewinne zeigen, dass das Unternehmen die Bedürfnisse der Verbraucher effizient und nachhaltig erfüllt.
+wrong_answers:
+  - Denn die Gewinne sorgen dafür, dass das Unternehmen die größte Belegschaft in seiner Branche hat.
+  - Denn Gewinne sind nur ein Zeichen dafür, dass das Unternehmen staatliche Subventionen erhalten hat.
+  - Denn die Gewinne spiegeln zufällige Marktereignisse wider, die nichts mit der Verbrauchernachfrage zu tun haben.
+explanation: |
+  In der österreichischen Wirtschaftswissenschaft signalisieren Gewinne, dass ein Unternehmen Waren oder Dienstleistungen produziert, die von den Verbrauchern zu einem Preis über den Produktionskosten geschätzt werden. Dieses Ergebnis deutet auf eine effiziente Ressourcennutzung und eine Anpassung an die Marktbedürfnisse hin.
+reviewed: false

@@ -1,9 +1,13 @@
-question: Wie können Bitcoin-Miner dabei helfen, Energieüberschüsse zu bewältigen und Stromnetze zu stabilisieren?
-answer: Bitcoin-Miner können Energieüberschüsse absorbieren und als flexiblen Puffer fungieren, indem sie die Nachfrage anpassen anstatt das Angebot. In einer Welt, in der die Stromerzeugung aus erneuerbaren (nicht steuerbaren) Quellen stetig zunimmt, können Miner eine Schlüsselrolle bei der Sicherstellung des Gleichgewichts unserer Stromnetze spielen, während sie von günstiger oder überschüssiger Elektrizität profitieren, um ihre Mining-Operationen zu betreiben.
+question: Wie können Bitcoin-Miner dabei helfen, Energieüberschüsse zu verwalten und Stromnetze zu stabilisieren?
+
+answer: Bitcoin-Miner können Energieüberschüsse aufnehmen und fungieren dabei als flexibler Puffer, indem sie die Nachfrage anstatt des Angebots anpassen. In einer Welt, in der die Stromproduktion aus erneuerbaren (nicht steuerbaren) Quellen ständig zunimmt, können Miner eine Schlüsselrolle bei der Sicherstellung des Gleichgewichts unserer Stromnetze spielen, während sie von günstigem oder überschüssigem Strom für ihre Mining-Operationen profitieren.
+
 wrong_answers:
-  - Bitcoin-Miner können helfen, Energieüberschüsse zu bewältigen, indem sie den überschüssigen Strom in Batterien speichern.
-  - Bitcoin-Miner können helfen, Energieüberschüsse zu bewältigen, indem sie den überschüssigen Strom zurück ins Netz einspeisen.
-  - Bitcoin-Miner können helfen, Energieüberschüsse zu bewältigen, indem sie den überschüssigen Strom in Wärme umwandeln.
-explanation: |
-  Das Kapitel erklärt, dass Bitcoin-Miner Energieüberschüsse absorbieren können, indem sie als flexibler Puffer fungieren und die Nachfrage anpassen anstatt das Angebot. Dies kann dazu beitragen, Energieüberschüsse zu bewältigen und Stromnetze zu stabilisieren.
-reviewed: false
+  - Bitcoin-Miner können bei der Verwaltung von Energieüberschüssen helfen, indem sie die überschüssige Energie in Batterien speichern.
+  - Bitcoin-Miner können bei der Verwaltung von Energieüberschüssen helfen, indem sie die überschüssige Energie zurück ins Netz verkaufen.
+  - Bitcoin-Miner können bei der Verwaltung von Energieüberschüssen helfen, indem sie die überschüssige Energie in Wärme umwandeln.
+
+explanation:
+  Das Kapitel erklärt, dass Bitcoin-Miner Energieüberschüsse aufnehmen können und dabei als flexibler Puffer fungieren, indem sie die Nachfrage anstatt des Angebots anpassen. Dies kann dabei helfen, Energieüberschüsse zu verwalten und Stromnetze zu stabilisieren.
+
+reviewed: true

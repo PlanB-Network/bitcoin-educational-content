@@ -1,0 +1,8 @@
+question: Jeśli własność jest instytucją ustanowioną przez powszechną wolę, jak uważa Rousseau, jaka jest tego konsekwencja?
+answer: Ustawodawca może organizować, modyfikować, a nawet znosić własność
+wrong_answers:
+  - Ustawodawca jest wówczas związany tą konwencją i nie może dotykać własności
+  - Generał nigdy nie będzie chciał dotykać własności
+  - Ustawodawca jest zobowiązany do ochrony własności bez wyjątku
+explanation: |
+  Według Rousseau, ponieważ własność wynika z woli powszechnej, może ona zostać zmodyfikowana lub zniesiona przez prawodawcę zgodnie z tą samą wolą.

@@ -1,0 +1,10 @@
+question: Mis on üks põhjustest, miks Bitcoini kasutamine laienes pimedate veebiturgudele nagu Silk Road?
+answer: Selle kontrollimatu ja pseudonüümne olemus.
+wrong_answers:
+  - Selle tsentraliseeritud kontroll.
+  - Selle jälgitavus.
+  - Selle pseudonüümsuse puudumine.
+explanation: >-
+  Bitcoini kasutamine laienes pimedate veebiturgudele nagu Silk Road
+  tänu selle kontrollimatule ja pseudonüümsele olemusele.
+reviewed: false

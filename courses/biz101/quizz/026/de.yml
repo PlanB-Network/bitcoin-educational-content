@@ -1,0 +1,9 @@
+question: Was ist eine der wichtigsten Überlegungen bei der Auswahl einer Plattform oder eines Brokers für den Kauf von Bitcoin für ein Unternehmen?
+answer: Der Ruf des Anbieters, die Sicherheitsmaßnahmen und die Möglichkeit, Transaktionsprotokolle für die Buchhaltung zu exportieren.
+wrong_answers:
+  - Sicherstellen, dass die Plattform nur obskure Kryptowährungen unterstützt.
+  - Einen Anbieter zu finden, der sich weigert, einen Kundendienst anzubieten.
+  - Nutzung eines Dienstes, der das Abheben von Bitcoin auf eine selbstverwahrte Wallet verbietet.
+explanation: |
+  Eine zuverlässige Plattform sollte einen soliden Ruf, gute Sicherheit und Tools für die Buchführung haben. Die Möglichkeit, Bitcoin abzuheben und mit Buchhaltungssoftware zu integrieren, ist ebenfalls entscheidend für den Geschäftsbetrieb.
+reviewed: false

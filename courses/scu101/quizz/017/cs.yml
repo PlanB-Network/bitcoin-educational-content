@@ -5,7 +5,8 @@ wrong_answers:
   - Zkontrolujte rychlost webu.
   - Zkontrolujte barevné schéma webu.
 explanation: |
-  Kontrola URL adres a malého zámku v adresním řádku je jedním ze způsobů,
-  jak ověřit, že jste na webu, na který jste zamýšleli přistoupit. Zámek signalizuje, že
-  web používá protokol HTTPS, který šifruje data pro bezpečnou výměnu.
-reviewed: false
+  Kontrola URL adres a malého zámku v adresním řádku
+  je jedním ze způsobů, jak ověřit, že jste na webu, na který
+  jste zamýšleli přistoupit. Zámek signalizuje, že web používá
+  protokol HTTPS, který šifruje data pro bezpečnou výměnu.
+reviewed: true

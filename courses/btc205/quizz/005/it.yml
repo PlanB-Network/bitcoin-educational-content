@@ -1,9 +1,0 @@
-question: Perché Bitcoin è considerato uno strumento inefficace per il riciclaggio di denaro?
-answer: Perché è un database completamente tracciabile.
-wrong_answers:
-  - Perché non è ampiamente accettato.
-  - Perché è altamente volatile.
-  - Perché non è regolamentato.
-explanation: |
-  Bitcoin, essendo un database completamente tracciabile, rende particolarmente difficile il riciclaggio di denaro. L'uso di Bitcoin da parte dei criminali può essere tracciato.
-reviewed: false

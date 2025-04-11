@@ -1,0 +1,9 @@
+question: Tren apa yang dicatat di antara peserta yang mengoperasikan node di Jaringan Lightning?
+answer: Operator node profesional semakin banyak menyediakan likuiditas, sementara pengguna individu berfokus pada node "edge", mengubah komposisi jaringan.
+wrong_answers:
+  - Para penghobi perorangan telah menggantikan semua operator profesional sepenuhnya.
+  - Bank-bank besar sekarang mengoperasikan semua node Lightning secara terpusat.
+  - Jaringan ini telah menutup simpul-simpul pribadi dan hanya mengizinkan perusahaan-perusahaan besar.
+explanation: |
+  Ada pergerakan menuju likuiditas dan stabilitas yang lebih tinggi yang disediakan oleh entitas profesional, sementara pengguna sehari-hari mengandalkan solusi yang disederhanakan atau di-host, membuat jaringan lebih kuat dan mudah diakses.
+reviewed: false

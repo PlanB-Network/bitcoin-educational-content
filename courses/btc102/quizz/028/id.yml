@@ -1,0 +1,11 @@
+question: Apa artinya Bitcoin bersifat open source?
+answer: Siapa saja dapat melihat bagaimana Bitcoin bekerja, ini transparan dan oleh karena itu dapat diaudit
+wrong_answers:
+  - Siapa saja dapat membuat versi Bitcoin mereka sendiri
+  - Bitcoin gratis untuk digunakan
+  - Kode Bitcoin tersedia secara publik untuk dimodifikasi
+explanation: |
+  Menjadi open source berarti kode Bitcoin tersedia secara publik untuk
+  siapa saja yang ingin meninjau. Ini membuatnya transparan dan dapat diaudit, memastikan bahwa protokol
+  sama untuk semua orang.
+  direview: false

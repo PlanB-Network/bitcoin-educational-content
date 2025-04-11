@@ -1,0 +1,9 @@
+question: Quel est le rôle du principe de Kerckhoff en cryptographie ?
+answer: Assurer que la sécurité repose sur la clé secrète, pas sur le secret du schéma
+wrong_answers:
+  - Assurer que la sécurité repose sur le secret du schéma, pas sur la clé secrète
+  - Exiger une clé de chiffrement très longue
+  - Garantir que chaque message a une clé unique
+explanation: |
+  Selon le principe de Kerckhoff, la sécurité d'un système cryptographique doit reposer uniquement sur la clé secrète, et non sur le secret de l'algorithme lui-même.
+reviewed: false

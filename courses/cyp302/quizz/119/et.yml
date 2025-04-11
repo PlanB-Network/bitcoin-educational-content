@@ -1,0 +1,8 @@
+question: Miks ei soovitata AES krüpteeringut ECB režiimis turvaliseks kasutamiseks?
+answer: See toob kaasa deterministliku krüpteeringu
+wrong_answers:
+  - See nõuab võtit, mis on suurem kui 128 bitti
+  - See on liiga aeglane enamiku kaasaegsete rakenduste jaoks
+  - See ei võimalda teksti jagada 128-bitisteks plokkideks
+explanation: |
+  ECB režiimi ei soovitata, kuna see toodab deterministlikku krüpteeringut, mis tähendab, et identsed tekstiplokid annavad identsed šifreeritud plokid, mida saab ära kasutada, et arvata teksti kohta informatsiooni.

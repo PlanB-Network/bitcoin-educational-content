@@ -1,0 +1,9 @@
+question: Mis on digitaalallkiri asümmeetrilise krüptograafia kontekstis?
+answer: Meehanism sõnumi autentsuse kontrollimiseks kasutades privaatvõtit
+wrong_answers:
+  - Protsess sõnumi tugevamaks krüpteerimiseks
+  - Täiendav avalik võti krüpteeritud sõnumi valideerimiseks
+  - Digitaalne koopia käsitsi kirjutatud allkirjast
+explanation: |
+  Digitaalallkiri on krüptograafiline tehnika, mis tõestab, et sõnum loodi tõepoolest vastava privaatvõtme omaniku poolt, tagades seeläbi selle autentsuse.
+reviewed: false

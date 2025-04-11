@@ -1,11 +1,11 @@
 question: Was ist die Hauptfunktion von Knoten im Bitcoin-Netzwerk?
-answer: Eine Kopie der Bitcoin-Blockchain aufrechterhalten, Transaktionen validieren, Informationen an andere Knoten übermitteln und die Regeln des Bitcoin-Protokolls durchsetzen.
+answer: Eine Kopie der Bitcoin-Blockchain zu bewahren, Transaktionen zu validieren, Informationen an andere Knoten zu übermitteln und die Regeln des Bitcoin-Protokolls durchzusetzen.
 wrong_answers:
-  - Nur Transaktionen validieren
-  - Nur eine Kopie der Bitcoin-Blockchain aufrechterhalten
-  - Nur Informationen an andere Knoten übermitteln
+  - Eine Kopie der Bitcoin-Blockchain zu bewahren, Transaktionen zu validieren, Informationen an die Regierung zu übermitteln und die Regeln des Bitcoin-Protokolls zu ändern.
+  - Nur eine Kopie der Bitcoin-Blockchain zu bewahren.
+  - Nur Informationen an andere Knoten zu übermitteln.
 explanation: >-
   Knoten im Bitcoin-Netzwerk erfüllen mehrere entscheidende Funktionen, einschließlich
-  der Aufrechterhaltung einer Kopie der Bitcoin-Blockchain, der Validierung von Transaktionen, der Übermittlung
+  der Bewahrung einer Kopie der Bitcoin-Blockchain, der Validierung von Transaktionen, der Übermittlung
   von Informationen an andere Knoten und der Durchsetzung der Regeln des Bitcoin-Protokolls.
-überprüft: false
+reviewed: true

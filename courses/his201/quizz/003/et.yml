@@ -1,0 +1,9 @@
+question: Mis oli David Chaumi ettevõtte nimi, mille kaudu ta rakendas oma digitaalse valuuta kontseptsiooni?
+answer: DigiCash B.V.
+wrong_answers:
+  - eCash Ltd.
+  - CyberCash Inc.
+  - First Virtual Holdings Inc.
+explanation: |
+  Asutatud 1990. aastal, DigiCash B.V. asus Amsterdamis, Hollandis, ja omas patente David Chaumi leiutise, eCash, jaoks.
+reviewed: false

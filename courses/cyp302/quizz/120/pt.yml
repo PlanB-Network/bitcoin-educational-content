@@ -1,0 +1,9 @@
+question: Qual foi o impacto dos problemas de distribuição e gerenciamento de chaves antes dos anos 1970?
+answer: Eles limitaram a segurança e eficiência das comunicações em larga escala
+wrong_answers:
+  - Eles impediram a transmissão de mensagens criptografadas em redes públicas
+  - Eles exigiam chaves públicas para cada mensagem
+  - Eles obrigavam o uso de criptografia homomórfica
+explanation: |
+  Antes dos anos 1970, problemas com a distribuição e gerenciamento de chaves dificultavam a segurança das comunicações em larga escala, impedindo assim o desenvolvimento de aplicações modernas como as compras online.
+reviewed: false

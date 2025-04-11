@@ -1,9 +1,0 @@
-question: Qual è uno svantaggio della soluzione P2P di HodlHodl?
-answer: L'indirizzo email dell'utente e l'identità digitale sono memorizzati da HodlHodl.
-wrong_answers:
-  - Non facilita l'acquisto e la vendita di Bitcoin.
-  - Richiede la creazione di un account per poter operare.
-  - Non offre una vasta gamma di possibilità di scambio.
-explanation: |
-  Secondo il capitolo, uno degli svantaggi di HodlHodl è che l'indirizzo email dell'utente e l'identità digitale sono memorizzati da HodlHodl.
-reviewed: false

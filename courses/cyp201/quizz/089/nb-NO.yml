@@ -1,0 +1,9 @@
+question: Hvilket steg kommer før anvendelsen av HASH160 i genereringen av en SegWit v0-adresse?
+answer: Komprimeringen av den offentlige nøkkelen
+wrong_answers:
+  - Legge til sjekksummen
+  - Konvertering til bech32-format
+  - Koding i base58check
+explanation: |
+  Den offentlige nøkkelen må komprimeres for å redusere størrelsen før den går gjennom HASH160 hash-funksjonen.
+reviewed: false

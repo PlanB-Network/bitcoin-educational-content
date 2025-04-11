@@ -5,5 +5,5 @@ wrong_answers:
   - Sie verlieren 60% Ihrer Kaufkraft.
   - Sie verlieren 30% Ihrer Kaufkraft.
 explanation: |
-  Mit einer Inflation von 20% verlieren Sie in 3 Jahren fast die Hälfte Ihrer Kaufkraft.
-reviewed: false
+  Bei einer Inflation von 20% verlieren Sie fast die Hälfte Ihrer Kaufkraft in 3 Jahren.
+reviewed: true

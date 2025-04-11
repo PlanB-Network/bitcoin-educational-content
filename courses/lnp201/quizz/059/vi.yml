@@ -1,9 +1,0 @@
-question: Điều gì xảy ra trong trường hợp đóng kênh bắt buộc?
-answer: Tất cả các giao dịch HTLC đang diễn ra được công bố, điều này có thể trở nên rất tốn kém và rối rắm.
-wrong_answers:
-  - Các khoản thanh toán bị gián đoạn và HTLC được giải quyết, thường ít tốn kém hơn.
-  - Kênh được đóng ngay lập tức mà không cần bất kỳ bước bổ sung nào.
-  - Tất cả các giao dịch HTLC đang diễn ra được hủy bỏ.
-explanation: |
-  Trong trường hợp đóng kênh bắt buộc, tất cả các giao dịch HTLC đang diễn ra được công bố. Điều này có thể trở nên rất tốn kém và rối rắm do sự phức tạp và số lượng giao dịch liên quan.
-reviewed: false

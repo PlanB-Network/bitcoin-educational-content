@@ -1,0 +1,9 @@
+question: Jaká je jedna z nevýhod moderních centralizovaných měnových systémů?
+answer: Často jim chybí transparentnost a kontrolovatelnost při řízení peněžní zásoby.
+wrong_answers:
+  - Poskytují stabilní, neměnnou hodnotu každé měnové jednotky.
+  - Odstraňují všechny prostředníky a zrychlují vypořádání na milisekundy.
+  - Zajišťují, že emise peněz je plně decentralizovaná a odolná proti inflaci.
+explanation: |
+  Centralizované systémy mohou vydávat peníze podle libosti, často bez transparentního dohledu. To může narušit důvěru v důsledku inflace, složitého mezibankovního vypořádání a možného špatného řízení.
+reviewed: false

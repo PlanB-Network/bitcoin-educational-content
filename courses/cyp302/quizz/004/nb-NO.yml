@@ -1,0 +1,8 @@
+question: Hva er hovedgrunnen til at de andre Beale-chifferne forblir udechiffrerte?
+answer: Nøkkelen til disse chifferne er fortsatt ukjent
+wrong_answers:
+  - De krypterte tekstene er for gamle
+  - Boksen ble mistet før den kunne dechiffreres
+  - Forskere mangler pålitelige historiske dokumenter
+explanation: |
+  De andre Beale-chifferne har aldri blitt dechiffrert fordi den nødvendige nøkkelen for å lese dem forblir ukjent, til tross for tallrike forsøk.

@@ -1,9 +1,11 @@
-question: Como pode ser criado um dinheiro sólido?
-answer: O dinheiro é um fenômeno social natural que deve surgir do mercado e do consenso voluntário.
+question: Como é criado o dinheiro sólido?
+answer: O dinheiro sólido deve emergir naturalmente do mercado e do consenso voluntário.
 wrong_answers:
-  - O governo o impõe por meio de leis
-  - Os seres humanos usam violência e coerção para forçar os outros a aceitarem seu dinheiro
-  - O dinheiro sólido não pode ser criado
+  - O dinheiro sólido precisa ser imposto pelo governo por meio da emissão de leis monetárias.
+  - O dinheiro sólido tem que ser imposto por empresas através do uso da violência.
+  - O dinheiro sólido não pode ser criado.
 explanation: |
-  O dinheiro sólido é um fenômeno social natural que deve surgir do mercado e do consenso voluntário. Nenhum ser humano ou grupo de seres humanos pode criar dinheiro.
-reviewed: false
+  O dinheiro sólido é um fenômeno social natural que deve emergir
+  do mercado e do consenso voluntário. Nenhum humano ou
+  grupo de humanos pode criar dinheiro.
+reviewed: true

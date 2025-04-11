@@ -1,0 +1,13 @@
+question: Qual è il ruolo principale della transazione Tx0 in Whirlpool?
+
+answer: Uguagliare gli UTXO.
+
+wrong_answers:
+  - Eseguire il primo mix.
+  - Rimuovere gli UTXO dal pool.
+  - Spendere gli UTXO mixati.
+
+explanation: |
+  La Tx0 mira a preparare e uguagliare gli UTXO per il coinjoin, dividendo questi ultimi in unità corrispondenti all'importo del pool selezionato, al fine di garantire l'omogeneità del mixaggio.
+
+reviewed: false

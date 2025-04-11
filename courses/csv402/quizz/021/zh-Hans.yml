@@ -1,0 +1,9 @@
+question: RGB 中的寄售包含哪些内容？
+answer: 验证过渡所需的客户方数据
+wrong_answers:
+  - 比特币区块链的完整副本
+  - 比特币公开承诺一览表
+  - 状态转换参与者的公钥
+explanation: |
+  托运包括 RGB 信息，使接收方能够根据合同规则验证状态转换。
+reviewed: false

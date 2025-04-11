@@ -1,0 +1,9 @@
+question: Mis on Bastiati peamine argument tasuta krediidi idee vastu?
+answer: Kõik teised vastused
+wrong_answers:
+  - See soosib pankade rikastumist üksikisikute arvelt
+  - See julgustab vastutustundetut käitumist ja liigset riskivõtmist
+  - See ei võimalda jätkusuutlikku ostujõu suurenemist
+explanation: |
+  Bastiat lükkab tasuta krediidi idee ümber, rõhutades, et see viib vastutustundetu finantskäitumiseni, suurendab riske ja ei võimalda ostujõu jätkusuutlikku suurenemist.
+reviewed: false

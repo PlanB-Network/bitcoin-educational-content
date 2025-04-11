@@ -1,0 +1,9 @@
+question: Mis on abeelne grupp?
+answer: Grupp, milles tehe on kommutatiivne
+wrong_answers:
+  - Grupp, millel on ainulaadne generaator
+  - Grupp, mis piirdub täisarvudega
+  - Grupp ilma neutraalse elemendita
+explanation: |
+  Abeelne grupp on grupp, milles elementide järjekord tehtes ei mõjuta tulemust, mis tähendab, et see järgib kommutatiivsust.
+reviewed: false

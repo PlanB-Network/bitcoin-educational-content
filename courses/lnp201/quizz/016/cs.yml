@@ -1,11 +1,9 @@
-question: Jaký význam má 2/2 multi-sig adresa při otevírání kanálu v Lightning Network?
-answer: Je to adresa, na kterou Alice pošle peníze, aby otevřela kanál.
+question: Kdy je transakce závazku publikována na Bitcoin blockchainu?
+answer: Nakonec, když je kanál uzavřen
 wrong_answers:
-  - Je to adresa, ze které Alice pošle peníze, aby otevřela kanál.
-  - Je to adresa, na kterou Bob pošle peníze, aby otevřel kanál.
-  - Je to adresa, ze které Bob pošle peníze, aby otevřel kanál.
+  - Ihned po každém převodu v kanálu
+  - Před každou novou transakcí závazku
+  - Když jsou dostupné prostředky vyčerpány
 explanation: |
-  Při procesu otevírání kanálu Alice vytvoří 2/2 multi-sig adresu
-  pomocí veřejných adres její a Boba. Poté provede bitcoinovou transakci, aby
-  poslala peníze na tuto adresu a otevřela kanál.
+  Transakce závazků jsou sestaveny a podepsány pro každou změnu alokace, ale jsou publikovány na blockchainu pouze nakonec v případě uzavření kanálu.
 reviewed: false

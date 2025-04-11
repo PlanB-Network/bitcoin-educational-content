@@ -1,0 +1,12 @@
+question: Mis on TOR võrgustik?
+answer: Võrgustik, mis pakub anonüümsust, varjates kasutaja IP-aadressi ja võimaldades juurdepääsu Darknetile.
+wrong_answers:
+  - Võrgustik, mis kaitseb teie seadet viiruste ja muu pahavara eest.
+  - Võrgustik, mis peidab teie veebitegevust teie internetiteenuse pakkujalt.
+  - Võrgustik, mis võimaldab teil sirvida internetti kiiremini.
+explanation: |
+  TOR (The Onion Router) võrgustik on võrgustik, mis pakub anonüümsust
+  varjates kasutaja IP-aadressi ja võimaldades juurdepääsu Darknetile. Seda kasutavad
+  ajakirjanikud, vabadusaktivistid ja teised, kes soovivad vältida tsensuuri autoritaarsetes
+  riikides.
+reviewed: false

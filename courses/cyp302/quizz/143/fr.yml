@@ -1,0 +1,9 @@
+question: Quelle est la durée estimée pour factoriser un entier de 2048 bits en utilisant toutes les ressources informatiques actuelles ?
+answer: Bien au-delà de l'âge de l'univers
+wrong_answers:
+  - Quelques mois avec des ordinateurs classiques
+  - Quelques minutes avec des superordinateurs
+  - Quelques décennies pour une ferme de mineurs de Bitcoin
+explanation: |
+  La complexité de la factorisation de nombres de 2048 bits est telle qu'il serait virtuellement impossible de la résoudre, même en utilisant toutes les ressources informatiques existantes sur une période excédant l'âge de l'univers.
+reviewed: false

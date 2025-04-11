@@ -17,45 +17,34 @@ Qui metteremo in luce le tendenze e i modelli comuni negli episodi di iperinflaz
 +++
 
 # Introduzione
+
 <partId>6fe4d15d-f6e6-54be-9e04-0a75ac98df8b</partId>
 
-## Introduzione
+## Panoramica del corso
+
 <chapterId>9d1aba8d-0485-5020-9863-5de37e6db8e0</chapterId>
 
-Questo programma mira a offrire una comprensione approfondita dell'emergere delle iperinflazioni in un mondo dominato dalla moneta Fiat e ad esaminarne le considerevoli conseguenze. I partecipanti esploreranno in dettaglio i cicli iperinflazionistici, analizzando le cause, i fattori scatenanti e gli esempi storici e contemporanei. Esamineranno anche l'impatto tangibile delle iperinflazioni sull'economia e sulla vita quotidiana, studiando le ripercussioni sul valore della moneta, il potere d'acquisto e il risparmio individuale e collettivo.
+Benvenuto nel corso ECO204!
 
-Qui metteremo in luce le tendenze e i modelli comuni negli episodi di iperinflazione nel corso della storia, fornendo al contempo strategie efficaci e concrete per proteggersi durante un periodo di iperinflazione. I partecipanti avranno l'opportunità di esplorare diverse opzioni di investimento e meccanismi di difesa finanziaria, acquisendo strumenti pratici e conoscenze essenziali per navigare serenamente in un clima economico instabile.
+L'obiettivo di questo corso è di aiutarti a comprendere le cause profonde, i meccanismi e le conseguenze delle iperinflazioni nel contesto di un sistema monetario fiat. Attraverso esempi concreti e analisi storiche, imparerai a riconoscere i modelli ricorrenti che precedono i periodi di iperinflazione e a identificare gli strumenti per proteggerti da essa.
 
-### Curriculum
+**Sezione 2: Cos'è l'inflazione?**  
+Prima di entrare nel vivo dell'argomento, torneremo alle basi: cos'è l'inflazione? Questa sezione presenterà le sue origini monetarie, i diversi tipi di inflazione e come si inseriscono in una dinamica economica più ampia. Questo è un passaggio indispensabile per comprendere come l'inflazione ordinaria possa degenerare in iperinflazione.
 
-Sezione 1 - Introduzione
+**Sezione 3: Cos'è l'iperinflazione?**  
+In questa sezione esaminerai le definizioni precise dell'iperinflazione e diversi episodi storici significativi, tra cui la Germania di Weimar e lo Zimbabwe. Analizzeremo i loro punti comuni, le loro differenze e i paralleli contemporanei. Scoprirai anche casi meno noti, come le successive ridominazioni in America Latina, e i percorsi di uscita osservati in alcuni paesi.
 
-- 1.1 - Introduzione al corso da Rogzy & David
+**Sezione 4: Come siamo arrivati qui?**  
+Questa parte mira a comprendere i meccanismi strutturali che rendono possibile l'iperinflazione, in particolare attraverso lo sviluppo del "secondo strato" monetario e il ruolo delle banche centrali. Saranno fornite risorse complementari e suggerimenti di lettura per un approfondimento ulteriore.
 
-Sezione 2 - Cos'è l'inflazione?
-
-- 2.1 - Un fenomeno monetario
-- 2.2 - I tipi di inflazione
-- 2.3 - La deflazione
-  Sezione 3 - Cos'è l'iperinflazione?
-- 3.1 - Le definizioni
-- 3.2 - Similitudini tra Weimar e Zimbabwe
-- 3.3 - Differenze e parallelismi contemporanei tra Weimar e Zimbabwe
-- 3.4 - Le riconversioni in America Latina
-- 3.5 - Come uscire dall'iperinflazione
-- 3.6 - Presentazione della collezione di banconote di iperinflazione
-
-Sezione 4 - Come siamo arrivati a questo punto?
-
-- 4.1 - L'emergere del secondo strato della moneta e delle banche centrali
-- 4.2 - Libri e risorse
-
-Buona fortuna!
+E se la storia monetaria si stesse ripetendo davanti ai nostri occhi? Giudicalo tu nei capitoli che seguono!
 
 # Cos'è l'inflazione?
+
 <partId>2b4f456c-3649-5cf9-b9b0-a5bffe92d962</partId>
 
 ## Un fenomeno monetario
+
 <chapterId>b2cbc915-c4ec-52b5-860c-0958f58c91e4</chapterId>
 
 ### Le definizioni dell'inflazione
@@ -186,6 +175,7 @@ Questa analisi dimostra che la fiducia nella moneta, e di conseguenza il suo val
 Concludendo, questo studio sulla svalutazione monetaria apre la porta a una comprensione approfondita dei meccanismi dell'inflazione, che saranno esplorati nei video successivi. Discuteremo dei diversi tipi di inflazione e della soglia in cui si trasformano in inflazione alta o iperinflazione. Questa solida base ci permetterà di affrontare le complessità dell'inflazione nelle prossime sessioni. Grazie per l'attenzione e ci vediamo nel prossimo video per continuare questa esplorazione delle dinamiche monetarie.
 
 ## I tipi di inflazione
+
 <chapterId>b438fe09-375e-5bb2-9196-7dd687b9f98c</chapterId>
 
 ### L'inflazione non è un fenomeno multifattoriale
@@ -368,9 +358,11 @@ Nelle nostre future discussioni, approfondiremo ulteriormente l'iperinflazione, 
 Grazie per la vostra attenzione, la prossima sessione sarà interamente dedicata a definire e svelare l'iperinflazione, tenendo conto delle diverse prospettive accademiche e pratiche. Siamo entusiasti di continuare questa esplorazione con voi nel nostro prossimo incontro.
 
 # Cos'è l'iperinflazione?
+
 <partId>3f541663-1e2f-5410-8ee0-f61c5d009fa5</partId>
 
 ## Le definizioni di iperinflazione
+
 <chapterId>d2a71a2e-5f36-58d9-993c-d431f4aa07fd</chapterId>
 
 ### Le definizioni di iperinflazione
@@ -427,6 +419,7 @@ Le definizioni comuni di iperinflazione, come quella avanzata da Kagan che stabi
 È importante notare che alcuni periodi storici di alta inflazione non sono inclusi nelle tabelle classiche dell'iperinflazione, spesso a causa dei criteri rigorosi di classificazione. Ad esempio, durante la guerra d'indipendenza degli Stati Uniti nel novembre 1779 e durante la guerra civile americana nel marzo 1864, i tassi di inflazione mensile erano rispettivamente del 47,4% e del 40%. Questi tassi, sebbene elevati, non superano la soglia del 50% stabilita da Kagan, escludendo così questi periodi dai casi classificati come iperinflazione. Questa omissione illustra i limiti delle definizioni rigide e sottolinea la necessità di un approccio più sfumato per comprendere l'iperinflazione nella sua complessità.
 
 ## Similitudini tra Weimar e Zimbabwe
+
 <chapterId>11eef458-aab8-5c63-8523-264d0ba69f5d</chapterId>
 
 ### Due epoche, due catastrofi
@@ -565,6 +558,7 @@ Zimbabwe: "Ora usavamo questi voucher per pagare l'affitto ai proprietari di imm
 Questo conclude questo video sulle somiglianze delle esperienze durante i periodi di iperinflazione in Zimbabwe e nella Repubblica di Weimar. Nel prossimo video, discuteremo le differenze e i paralleli contemporanei. Grazie.
 
 ## Weimar vs Zimbabwe: Differenze e Paralleli Contemporanei
+
 <chapterId>643f279c-d89f-5600-a2e2-b1bbbba0ab69</chapterId>
 
 In questo capitolo, esploreremo le differenze e i paralleli contemporanei tra i periodi passati e presenti di iperinflazione, con aneddoti e confronti pertinenti per oggi.
@@ -649,6 +643,7 @@ Nella storia, si osservano momenti in cui le persone cercano di arricchirsi rapi
 Oggi, di fronte alla diminuzione del potere d'acquisto, gli investimenti prendono il sopravvento. Tuttavia, questo approccio comporta i suoi rischi. Il risparmio è sempre stato un rimedio contro l'incertezza. Avere riserve finanziarie per gestire situazioni impreviste contribuisce a una serenità mentale e rafforza la coesione sociale. In conclusione, la protezione del nostro potere d'acquisto è essenziale per mantenere la stabilità sociale e individuale.
 
 ## Le riforme valutarie in America Latina
+
 <chapterId>918eafd7-409d-5205-ad52-a52e63b23a64</chapterId>
 
 Guarderemo insieme diverse fasi di riforme valutarie in paesi dell'America Latina.
@@ -754,6 +749,7 @@ Basandosi sul criterio del 50% di inflazione al mese, diverse periodi avrebbero 
 In conclusione, l'iperinflazione è solo un aspetto delle sfide economiche. L'alta inflazione, da sola, può essere altrettanto dannosa. La prossima sezione esplorerà le possibili soluzioni per uscire dall'iperinflazione.
 
 ## Come uscire dall'iperinflazione
+
 <chapterId>e3484a31-a851-5f92-8af5-00eddae67db1</chapterId>
 
 ### Come porre fine all'inflazione moderata e all'alta inflazione
@@ -790,8 +786,7 @@ Tuttavia, la dollarizzazione non è una soluzione miracolosa. Sebbene possa porr
 Nel 2007, il tasso di inflazione in Zimbabwe aveva raggiunto il livello del 50% al mese, segnando ufficialmente il paese come in iperinflazione. Dopo la dollarizzazione nel 2009, l'iperinflazione è cessata, ma il paese ha affrontato altre sfide economiche.
 È preoccupante notare che lo Zimbabwe ha cercato di reintrodurre la propria valuta e segni di alta inflazione sono riemersi. Secondo alcune organizzazioni internazionali, il paese potrebbe già soddisfare nuovamente i criteri per l'iperinflazione, anche se non ha ancora raggiunto la soglia ufficiale del 50% al mese. Questo serve come promemoria sui pericoli della creazione eccessiva di moneta e del finanziamento del deficit da parte della banca centrale.
 
-## Conclusioni
-<chapterId>31864b6e-8848-5e74-81fa-4e88e1a59ae3</chapterId>
+### Conclusioni
 
 Nel mio libro intitolato "Tutto su Bitcoin", ho dedicato un intero capitolo all'iperinflazione in Zimbabwe. Descrivo gli eventi salienti, fornendo vari esempi che illustrano come il paese abbia alla fine messo fine all'iperinflazione.
 
@@ -801,19 +796,20 @@ Per coloro che sono curiosi sull'esperienza tedesca dopo la Prima Guerra Mondial
 
 ![immagine](assets/chapitre-3.5/4.webp)
 
-Nel mio libro intitolato "Tutto su Bitcoin", ho dedicato un intero capitolo all'iperinflazione in Zimbabwe. Descrivo gli eventi salienti, fornendo vari esempi che illustrano come il paese abbia alla fine messo fine all'iperinflazione. Per coloro che sono curiosi sull'esperienza tedesca dopo la Prima Guerra Mondiale, consiglio vivamente il fumetto "Il banchiere del Reich". Racconta come la Germania sia riuscita a superare l'iperinflazione, in particolare grazie alla creazione del Rentenmark.
-
 La cosa più importante da ricordare è che ci sono diverse strategie per uscire dall'iperinflazione. Si può optare per la dolarizzazione o introdurre una nuova valuta. Queste soluzioni funzioneranno solo se la popolazione ha fiducia in esse. È fondamentale imporre restrizioni rigorose. Una banca centrale veramente indipendente è essenziale. Non deve aumentare la massa monetaria per coprire i deficit governativi. In caso di inflazione lieve, limitare la crescita della massa monetaria dovrebbe essere sufficiente. Tuttavia, quando si affronta un'iperinflazione, è fondamentale prima avere una massa monetaria adeguata alla dimensione dell'economia in questione. Inoltre, è imperativo imporre restrizioni severe al governo per stabilizzare la situazione.
 
 ## Presentazione della collezione di banconote iperinflazionate
+
 <chapterId>f3ffbb47-3aeb-54bd-80a9-adccb0f419e2</chapterId>
 
 Il link alla collezione digitalizzata è disponibile nel Bitcoin Educational Toolkit, accessibile dalla sezione Risorse della piattaforma.
 
 # Come siamo arrivati qui?
+
 <partId>f66ca17e-be9e-5d30-a098-f7affd8962a1</partId>
 
 ## L'emergere del secondo strato della moneta e delle banche centrali
+
 <chapterId>0455ffe3-9d45-5a67-ac96-3f815dc507a1</chapterId>
 
 L'emergere del secondo strato della moneta e delle prime banche centrali è un argomento affascinante. Questo tema è ampiamente trattato nel libro "Layered Money" di Nick Battia. Lo consiglio vivamente a coloro che sono interessati all'evoluzione e alle sfumature dei nostri sistemi monetari. L'obiettivo di questa sezione è comprendere l'origine della creazione monetaria e come ciò abbia potuto portare all'iperinflazione.
@@ -857,13 +853,8 @@ A seguito del panico bancario del 1796, si verificò un fenomeno in cui tutti ce
 
 Le banche centrali sono evolute per diventare prestatori di ultima istanza, sospendendo la convertibilità della loro moneta in oro. Sebbene questa azione fosse inizialmente concepita come una soluzione temporanea, è diventata infine permanente, segnando così l'avvento del concetto di prestatore di ultima istanza. Questa trasformazione ha plasmato le banche centrali come le conosciamo oggi. Tuttavia, in economie più fragili, questa capacità di stampare moneta a volontà può comportare conseguenze indesiderate, come l'iperinflazione, se utilizzata in modo irresponsabile.
 
-
-
-## Dacci un feedback su questo corso
-<chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
-<isCourseReview>true</isCourseReview>
-
 ## Libri e risorse
+
 <chapterId>c44e4519-0741-527b-b3b0-3f513e87147d</chapterId>
 
 L'iperinflazione è un argomento affascinante che è stato studiato attraverso vari eventi storici. Se desideri approfondire questo argomento, ecco un elenco di 10 risorse essenziali da leggere e studiare:
@@ -885,3 +876,22 @@ L'iperinflazione è un argomento affascinante che è stato studiato attraverso v
 - "La caduta del denaro: l'iperinflazione in Germania e la distruzione della classe media" di Frederick Taylor. Un'esplorazione narrativa dell'impatto sociale ed economico dell'iperinflazione sulla società tedesca.
 
 - "Consigli per le casse di emissione per i paesi in via di sviluppo: una guida" di Steve Hanke e Kurt Schuler. Sebbene il focus sia sulle casse di emissione, questo libro offre una prospettiva su come evitare situazioni di iperinflazione.
+
+# Sezione finale
+
+<partId>cb1f4a4b-556a-4e47-a5cc-136be35a1f9a</partId>
+
+## Recensioni & Valutazioni
+
+<chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Esame finale
+
+<chapterId>d01831c3-6c4d-59e3-95bc-03e97a05c142</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Conclusione
+
+<chapterId>45d410b0-71ed-4502-8d8d-8b6df761db23</chapterId>
+<isCourseConclusion>true</isCourseConclusion>

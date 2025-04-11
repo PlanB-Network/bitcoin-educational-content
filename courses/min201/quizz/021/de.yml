@@ -1,9 +1,9 @@
-question: Was ist der wirtschaftliche Anreiz, einen Bitcoin-Miner anstelle eines einfachen elektrischen Heizgeräts zu verwenden?
+question: Was ist der wirtschaftliche Anreiz, einen Bitcoin-Miner anstelle eines einfachen Elektroheizkörpers zu verwenden?
 answer: Der Miner liefert nicht nur Wärme, sondern auch eine Bitcoin-Belohnung.
 wrong_answers:
-  - Der Miner verbraucht weniger Strom als ein einfacher elektrischer Heizkörper.
-  - Der Miner erzeugt mehr Wärme als ein einfacher elektrischer Heizkörper.
-  - Der Miner ist günstiger als ein einfacher elektrischer Heizkörper.
+  - Der Miner verbraucht weniger Strom als ein einfacher Elektroheizkörper.
+  - Der Miner produziert mehr Wärme als ein einfacher Elektroheizkörper.
+  - Der Miner ist günstiger als ein einfacher Elektroheizkörper.
 explanation: |
-  Der Unterschied zwischen der Verwendung eines Miners und eines einfachen elektrischen Heizgeräts liegt darin, dass der Miner nicht nur Wärme liefert, sondern auch eine Bitcoin-Belohnung. Diese zusätzliche Belohnung könnte Bedenken hinsichtlich des hohen Energieverbrauchs von Minern mildern.
-reviewed: false
+  Der Unterschied zwischen der Verwendung eines Miners und eines einfachen Elektroheizkörpers liegt darin, dass der Miner nicht nur Wärme liefert, sondern auch eine Bitcoin-Belohnung. Diese zusätzliche Belohnung könnte Bedenken bezüglich des hohen Energieverbrauchs von Minern mildern.
+reviewed: true

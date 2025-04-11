@@ -1,0 +1,11 @@
+question: Apa yang dimaksud dengan kekekalan dari blockchain Bitcoin?
+answer: Tidak dapat diubah seiring waktu
+wrong_answers:
+  - Tidak dapat di-hack
+  - Tidak dapat disalin
+  - Tidak dapat dihapus
+explanation: |
+  Kekekalan dari blockchain Bitcoin berarti bahwa setelah sebuah transaksi
+  telah dicatat, transaksi tersebut tidak dapat diubah atau dihapus. Hal ini menjamin integritas dan
+  keandalan dari blockchain.
+reviewed: false

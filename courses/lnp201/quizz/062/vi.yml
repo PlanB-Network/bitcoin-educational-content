@@ -1,9 +1,0 @@
-question: Vai trò của hash r trong HTLC là gì?
-answer: Nó được bao gồm trong hóa đơn mà Bob gửi cho Alice và được sử dụng để thiết lập HTLC.
-wrong_answers:
-  - Nó được sử dụng để tính toán bí mật S.
-  - Nó được sử dụng để đóng kênh.
-  - Nó được sử dụng để chuyển tiền.
-explanation: |
-  Bob tạo ra một bí mật S và tính toán hash r. Hash này được bao gồm trong hóa đơn mà Bob gửi cho Alice và được sử dụng để thiết lập HTLC.
-reviewed: false

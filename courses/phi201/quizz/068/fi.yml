@@ -1,0 +1,9 @@
+question: Mikä on suvaitsevaisuuden määritelmä Turgot'n mukaan?
+answer: Kieltäytyminen väkivallan käytöstä niitä kohtaan, jotka uskovat eri tavalla kuin itse, samalla kun jatkaa omien vakaumusten puolustamista järjen avulla.
+wrong_answers:
+  - Kaikkien uskonnollisten vakaumusten hyväksyminen ja hyväksyminen, myös niiden, joita pidetään väärinä.
+  - Oman uskonnollisen vakaumuksen hylkääminen elääkseen rauhassa muiden kanssa.
+  - Täydellinen välinpitämättömyys uskonnollisiin kysymyksiin ja niiden vaikutukseen yhteiskunnassa.
+explanation: |
+  Turgot'n mukaan suvaitsevaisuus koostuu siitä, ettei turvauduta väkivaltaan niitä kohtaan, jotka eroavat uskomuksissaan, samalla kun säilytetään vapaus puolustaa omia vakaumuksiaan järjellisesti.
+reviewed: false

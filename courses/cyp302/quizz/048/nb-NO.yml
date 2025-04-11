@@ -1,0 +1,9 @@
+question: I en syklisk gruppe, hva er betegnelsen for et element som kan generere alle andre elementer gjennom eksponentiering?
+answer: En generator
+wrong_answers:
+  - En multiplikator
+  - Et relativt primtall
+  - En invers
+explanation: |
+  En generator er et element i en syklisk gruppe som, gjennom eksponentiering, kan produsere alle andre elementer i gruppen.
+reviewed: false

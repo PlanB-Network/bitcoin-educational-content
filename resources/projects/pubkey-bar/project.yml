@@ -1,0 +1,22 @@
+id: 4e70a191-3897-47c5-bb9c-a9408a648976
+name: Pubkey Bar
+category: merchant
+
+links:
+  website: https://pubkey.bar/home
+  twitter: https://x.com/PubKey_NYC
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-02-17
+    urgency: 1
+    contributor_names:
+      - jramos0
+    reward: 0
+tags:
+  - hardware
+  - DIY
+  - user-friendly
+contributor_names:
+  - Asi0Flammeus

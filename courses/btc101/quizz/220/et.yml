@@ -1,0 +1,10 @@
+question: Mida tekst vihjab Bitcoini õppimise tempo kohta?
+answer: Kõike korraga omandamine on keeruline, seega võta aega
+wrong_answers:
+  - Kõike on lihtne korraga õppida
+  - On võimatu õppida kõike Bitcoini kohta
+  - Pole vajalik õppida kõike Bitcoini kohta
+explanation: >-
+  Tekst vihjab, et Bitcoiniga seoses on nii palju avastada,
+  et kõike korraga omandada on keeruline, seega peaks inimene võtma oma aja.
+reviewed: false

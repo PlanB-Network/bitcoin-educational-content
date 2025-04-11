@@ -1,0 +1,5 @@
+---
+term: SKRIPTY BEZ SKRIPTŮ
+
+---
+Tento koncept, který původně vyvinul Andrew Poelstra, umožňuje provádění chytrých smluv bez explicitního vystavení logiky smlouvy v blockchainu Bitcoinu. Jak název "skripty bez skriptů" napovídá, myšlenka je založena na provádění skriptů (nebo smluv) bez explicitního použití skriptů. Tyto kontrakty využívají vlastnosti Schnorrových podpisů, které umožňují použití *Adaptor Signatures*, zejména pro provádění *Atomic Swaps*. Podmínky smlouvy jsou aplikovány a prováděny mimo řetězec zúčastněnými stranami, které jediné znají jejich podmínky. Na rozdíl od tradičních chytrých smluv *Skripty bez skriptů* minimalizují svou stopu v blockchainu, čímž snižují náklady na provoz. Tyto smlouvy jsou také diskrétnější než tradiční chytré smlouvy, které zanechávají stopy v blockchainu. Podobají se tak běžným transakcím, což zvyšuje jejich sadu anonymity.

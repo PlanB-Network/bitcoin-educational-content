@@ -1,0 +1,9 @@
+question: Apa salah satu implikasi potensial dari kemajuan teknologi AI?
+answer: Lebih dari 80% pekerjaan akan hilang karena AI dan otomatisasi.
+wrong_answers:
+  - Teknologi AI akan membuat manusia menjadi usang.
+  - Teknologi AI akan menyebabkan penurunan kecerdasan manusia.
+  - Teknologi AI akan menyebabkan kolaps ekonomi global.
+explanation: >-
+  Teks menyebutkan bahwa salah satu implikasi potensial dari kemajuan
+  teknologi AI adalah lebih dari 80% pekerjaan akan hilang karena AI dan otomatisasi.

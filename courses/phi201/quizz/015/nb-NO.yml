@@ -1,0 +1,8 @@
+question: Hva er Marx sin visjon om historie?
+answer: Historien er resultatet av kampen mellom sosiale klasser
+wrong_answers:
+  - Historien er en lineær fremgang mot et borgerlig samfunn
+  - Historien er en syklus av gjentakelse med perioder av frihet etterfulgt av perioder med tyranni
+  - Historien er bestemt av klimatiske faktorer
+explanation: |
+  Marx ser på historien som produktet av konflikter mellom sosiale klasser, og hevder at spenningene mellom undertrykkende og undertrykte klasser er drivkraften for sosial og økonomisk endring gjennom tidene.

@@ -1,0 +1,9 @@
+question: Hva er nøkkelidentifikasjon?
+answer: Evnen til å knytte et aspekt av en brukers identitet med en onchain-aktivitet.
+wrong_answers:
+  - Prosessen med å tildele en offentlig nøkkel til hver ny onchain-transaksjon.
+  - Evnen til å spore onchain-transaksjoner gjennom den felles eierskapsheuristikken til inndata.
+  - Prosessen der en offentlig nøkkel utledes fra en privat nøkkel.
+explanation: |
+  Nøkkelidentifikasjon innebærer muligheten til å koble et aspekt av en brukers identitet til en onchain-aktivitet.
+reviewed: false

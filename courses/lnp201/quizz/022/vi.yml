@@ -1,9 +1,9 @@
-question: Alice làm gì với UTXO 0.0007 BTC khi cô ấy mở một kênh với Bob?
-answer: Cô ấy gửi nó đến một trong những địa chỉ thay đổi của mình.
+question: Chìa khóa thu hồi cho phép làm gì trong trường hợp gian lận?
+answer: Thu hồi toàn bộ số tiền bằng cách trừng phạt kẻ gian lận
 wrong_answers:
-  - Cô ấy gửi nó đến địa chỉ công khai của Bob.
-  - Cô ấy gửi nó đến địa chỉ multi-sig 2/2.
-  - Cô ấy giữ nó trong địa chỉ của chính mình.
+  - Hủy bỏ giao dịch cam kết
+  - Gấp đôi khả năng của kênh
+  - Ngăn chặn mọi giao dịch tiếp theo trong kênh
 explanation: |
-  Khi Alice mở một kênh với Bob, cô ấy tạo một giao dịch với 2 UTXO làm đầu ra. Một UTXO 0.0013 BTC được gửi đến địa chỉ multi-sig 2/2, và UTXO khác 0.0007 BTC được gửi đến một trong những địa chỉ thay đổi của cô ấy.
+  Chìa khóa thu hồi cho phép bên bị hại thu hồi toàn bộ số tiền trong trường hợp có sự cố gian lận được cố gắng thực hiện bởi bên kia.
 reviewed: false

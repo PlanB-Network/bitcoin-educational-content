@@ -1,0 +1,7 @@
+---
+term: MONEDERO DE HARDWARE
+
+---
+Un monedero hardware, o monedero físico, es un dispositivo electrónico dedicado a la seguridad y gestión de las claves privadas de un monedero Bitcoin. Estos dispositivos están diseñados para proporcionar una mayor seguridad en comparación con los monederos software que se encuentran en máquinas de propósito general y directamente conectadas a Internet. Los monederos hardware almacenan la frase mnemotécnica offline, en un dispositivo que tiene una superficie de ataque muy pequeña, lo que lo aísla de entornos potencialmente vulnerables. Cuando se realiza una transacción, el monedero hardware firma la transacción dentro del propio dispositivo, sin exponer la clave privada externamente. Una vez firmada la transacción, se transmite a la red Bitcoin para ser confirmada e incluida en el blockchain de Bitcoin. Entre los modelos más populares de monederos hardware se encuentran: Ledger, Trezor, Coldcard, Passport, BitBox, Satochip, Jade y SeedSigner (la lista no es exhaustiva).
+
+> ► *El término "hardware wallet" puede expresarse de diferentes maneras en francés. Algunos se refieren a él como "portefeuille matériel" o "portefeuille froid" Algunos bitcoiners prefieren el término "périphérique de signature", o "dispositivo de firma" en inglés, para evitar la implicación de que los bitcoins se encuentran físicamente en el monedero.*

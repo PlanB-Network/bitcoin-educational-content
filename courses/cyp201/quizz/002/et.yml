@@ -1,0 +1,9 @@
+question: Millist räsifunktsioonide omadust demonstreerib see, kui sõnumi väikese muutuse korral muutub räsi täielikult?
+answer: Lumelaviini efekt
+wrong_answers:
+  - Kollisioonikindlus
+  - Teise eelkujutise vastupanu
+  - Pikkus
+explanation: |
+  Väike muutus sisendis toob kaasa radikaalse muutuse räsis, seda nimetatakse lumelaviini efektiks.
+reviewed: false

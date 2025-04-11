@@ -1,0 +1,13 @@
+question: Hva er effekten av en økning i pengemengden på inflasjon og deflasjon i et system med fast pengemengde?
+answer: En økning i pengemengden opphever den potensielle deflasjonen forårsaket av en økning i produksjonen.
+wrong_answers:
+  - En økning i pengemengden fører til deflasjon.
+  - En økning i pengemengden har ingen innvirkning på inflasjon eller deflasjon.
+  - En økning i pengemengden fører til en nedgang i produksjonen.
+explanation: |
+  Kapittelet forklarer at i et system med fast pengemengde, skulle en økning
+  i produksjonen teoretisk føre til deflasjon, det vil si en nedgang i priser,
+  ettersom det ville være flere varer og tjenester tilgjengelig. Imidlertid, i det nåværende fiat
+  pengevesenet, opphever en økning i pengemengden den potensielle deflasjonen
+  forårsaket av en økning i produksjonen.
+reviewed: false

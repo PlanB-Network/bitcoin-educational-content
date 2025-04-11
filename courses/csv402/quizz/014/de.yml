@@ -1,0 +1,9 @@
+question: Welche Rolle spielt ein Schema in RGB?
+answer: Definition von Vertragsvariablen, Regeln und Geschäftslogik
+wrong_answers:
+  - Zwischen den Teilnehmern ausgetauschte Warensendungen lagern
+  - Validierung von Pedersen-Commitments bei Bitcoin-Transaktionen
+  - Siegeldefinitionen für jedes UTXO erstellen
+explanation: |
+  Das Schema strukturiert den Zustand des Vertrags und legt die zulässigen Übergänge und Validierungsbedingungen fest.
+reviewed: false

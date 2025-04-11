@@ -1,0 +1,9 @@
+question: Was ist die Funktion des RGB-Proxyservers in einer RGB-Lightning-Node-Umgebung?
+answer: Erleichterung des Austauschs von RGB-Sendungen
+wrong_answers:
+  - Bereitstellung von öffentlichen Schlüsseln für Knoten, um Kanäle zu öffnen
+  - Historie der RGB-Zustandsübergänge aufbewahren
+  - Vermeidung von doppelten Tickern für RGB-Token
+explanation: |
+  Der RGB-Proxy-Server vereinfacht die Kommunikation von RGB-Sendungen zwischen Lightning-Teilnehmern, indem er als Vermittler fungiert und so eine reibungslosere Benutzererfahrung ermöglicht, die derjenigen von Bitcoin und Lightning ähnelt.
+reviewed: false

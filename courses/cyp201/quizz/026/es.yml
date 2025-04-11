@@ -1,9 +1,9 @@
-question: ¿Cuál es la unidad más pequeña de Bitcoin?
-answer: Satoshi
+question: ¿Cuál es el punto de partida para calcular una firma ECDSA?
+answer: El hash del mensaje
 wrong_answers:
-  - Bit
-  - Byte
-  - Moneda
+  - La clave pública
+  - Un nonce fijo
+  - Una curva elíptica personalizada
 explanation: |
-  En el sistema de Bitcoin, la unidad de cuenta es el bitcoin (nota la "b" en minúscula). Es divisible hasta ocho lugares decimales, siendo la unidad más pequeña el satoshi.
+  Una firma ECDSA comienza con el cálculo del hash del mensaje a firmar, a menudo con SHA256.
 reviewed: false

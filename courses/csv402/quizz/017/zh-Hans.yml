@@ -1,0 +1,9 @@
+question: 什么结构能保证 RGB 过渡的时间一致性？
+answer: DAG（有向无环图）
+wrong_answers:
+  - 简单的线性链
+  - 动态对等网络
+  - UTXO的二叉树
+explanation: |
+  DAG 可以使状态转换结构化，同时允许并行演化而不会出现不一致。
+reviewed: false

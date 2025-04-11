@@ -1,9 +1,11 @@
-question: ¿En qué año ocurrirá el séptimo halving?
+question: ¿En qué año ocurrirá la 7ma reducción a la mitad?
 answer: 2036
 wrong_answers:
   - 2032
   - 2028
   - 2048
 explanation: |
-  El séptimo halving debería ocurrir en 2036, y se estima que el número de bitcoins en circulación será de 20,835,937.5 btc, o el 99.22% del suministro total.
-reviewed: false
+  La 7ma reducción a la mitad debería ocurrir en 2036, y el número estimado
+  de bitcoins en circulación será de 20,835,937.5,
+  lo que corresponderá aproximadamente al 99.22% del suministro total.
+reviewed: true

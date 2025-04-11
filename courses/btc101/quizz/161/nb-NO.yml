@@ -1,0 +1,10 @@
+question: Hva er hovedbekymringen angående miljøkostnaden ved Bitcoin-mining?
+answer: Energiforbruket
+wrong_answers:
+  - Produksjonen av ASICs
+  - Resirkuleringen av ASICs
+  - Kostnaden for elektrisitet
+explanation: >-
+  Hovedmiljøbekymringen ved Bitcoin-mining er energiforbruket. Selv om ASICs hovedsakelig er laget av aluminium og kan resirkuleres eller gjenbrukes, er energien
+  som kreves for å drive disse maskinene, betydelig.
+reviewed: false

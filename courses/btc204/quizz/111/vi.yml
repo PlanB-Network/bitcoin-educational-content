@@ -1,0 +1,11 @@
+question: Stonewall x2 là giao dịch gì?
+
+answer: Một giao dịch thanh toán dưới hình thức mini-coinjoin
+
+wrong_answers:
+  - Một giao dịch mô phỏng mini-coinjoin mà không phải là mini-coinjoin
+  - Một giao dịch thanh toán đơn giản
+  - Một giao dịch bao gồm người nhận trong các đầu vào
+
+explanation: |
+  Stonewall x2 là một dạng giao dịch Bitcoin cụ thể nhằm tăng cường quyền riêng tư cho người dùng trong quá trình chi tiêu, nhưng lần này bằng cách hợp tác với một bên thứ ba không tham gia vào việc chi tiêu. Phương pháp này hoạt động giống như một mini-coinjoin giữa hai người tham gia, đồng thời thực hiện thanh toán cho một người thứ ba.

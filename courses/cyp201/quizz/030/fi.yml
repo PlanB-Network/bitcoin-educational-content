@@ -1,11 +1,8 @@
-question: Mikä yhtälö määrittelee elliptisen käyrän?
-answer: "y² = x³ + ax + b"
+question: Mikä on SIGHASH_SINGLE n tarkoitus?
+answer: Kattaa yhden syötteen ja sen vastaavan tulosteen
 wrong_answers:
-  - "y² = x³ + ax"
-  - "y² = x³ + b"
-  - "y² = x³ + ax - b"
+  - Kattaa kaikki syötteet ja tulosteet
+  - Kattaa vain syötteet
+  - Kattaa kaikki tulosteet paitsi yhden
 explanation: |
-  "Elliptinen käyrä määritellään yhtälöllä y² = x³ + ax + b.\
-  \ Jokaisella tämän käyrän pisteellä on erottuva symmetria, joka on avainasemassa sen hyödyllisyydessä\
-  \ kryptografiassa."
-reviewed: false
+  SIGHASH_SINGLE kattaa yhden syötteen ja yhden siihen indeksillä vastaavan tulosteen, jättäen loput muokattaviksi.

@@ -5,5 +5,7 @@ wrong_answers:
   - 50%
   - 100%
 explanation: |
-  Der Monat mit der höchsten Inflation in Ungarn war der Juli 1946 mit einer Rekordinflation von 41.900.000.000.000.000%.
-reviewed: false
+  Der Monat mit der höchsten Inflation in Ungarn war der Juli
+  1946, mit einer Rekordinflation von
+  41.900.000.000.000.000%.
+reviewed: true

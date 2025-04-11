@@ -1,0 +1,9 @@
+question: Apa satu praktik yang disarankan terkait penyimpanan saat memperoleh Bitcoin?
+answer: Pertimbangkan solusi penyimpanan mandiri setelah pembelian awal, sehingga bisnis benar-benar mengontrol asetnya.
+wrong_answers:
+  - Jangan pernah menarik Bitcoin dari bursa dalam kondisi apa pun.
+  - Selalu percaya pada satu kustodian tanpa meninjau langkah-langkah keamanan.
+  - Simpan semua Bitcoin di situs web publik dengan kata sandi sederhana
+explanation: |
+  Setelah membeli Bitcoin, memindahkannya ke dompet penyimpanan mandiri memastikan bisnis memiliki kendali langsung atas dananya. Meskipun kustodian pihak ketiga bisa jadi lebih nyaman, penyimpanan mandiri sejalan dengan prinsip kedaulatan keuangan Bitcoin.
+reviewed: false

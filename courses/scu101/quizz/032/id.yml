@@ -1,0 +1,11 @@
+question: Apa itu ransomware?
+answer: Sejenis perangkat lunak berbahaya yang mengenkripsi data pengguna dan menuntut tebusan untuk mendekripsikannya.
+wrong_answers:
+  - Sejenis perangkat lunak antivirus.
+  - Sejenis perangkat lunak yang digunakan untuk pemulihan data.
+  - Sejenis perangkat lunak yang digunakan untuk cadangan data.
+explanation: |
+  Ransomware adalah sejenis perangkat lunak berbahaya yang mengenkripsi data pengguna dan
+  menuntut tebusan untuk mendekripsikannya. Jenis perangkat lunak ini menjadi semakin umum dan dapat sangat
+  merepotkan bagi sebuah perusahaan atau individu.
+reviewed: false

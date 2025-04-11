@@ -1,0 +1,9 @@
+question: Hvilke forskere ble sitert av Satoshi Nakamoto i Bitcoin-hviteboken for deres arbeid med sertifisert tidsstempling?
+answer: Stuart Haber og Scott Stornetta
+wrong_answers:
+  - Leslie Lamport, Robert Shostak, og Marshall Pease
+  - Cynthia Dwork og Moni Naor
+  - Ronald Rivest og Adi Shamir
+explanation: |
+  Tre artikler av Haber og Stornetta fra 90-tallet ble sitert i hviteboken. De er kjent for å ha skapt [den første tidsstemplete blokkjeden](https: //www.vice.com/en/article/j5nzx4/what-was-the-first-blockchain), publisert i New York Times fra 1992.
+reviewed: false

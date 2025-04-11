@@ -1,0 +1,11 @@
+question: Mis on Bitcoin'i peamine eelis teiste valuutade ees?
+answer: See pakub suurepärast väärtuse säilitamise võimalust tänu selle rangelt piiratud pakkumisele ja neutraalsusele.
+wrong_answers:
+  - See on jagamatu ja transporditav
+  - See on allutatud rahalisele inflatsioonile
+  - See on laialdaselt aktsepteeritud kaubanduses
+explanation: |
+  Bitcoin'i peamine eelis teiste valuutade ees on see,
+  et see pakub suurepärast väärtuse säilitamise võimalust tänu selle rangelt piiratud pakkumisele ja usaldusväärse osapoole puudumisele. See teeb
+  sellest hea valiku pikaajaliseks säästmiseks.
+reviewed: true

@@ -1,9 +1,12 @@
-question: ¿Cuál es la pregunta central sobre la custodia personal al elegir una billetera de Bitcoin?
-answer: ¿Eres el propietario de los fondos o dejas el control de tu dinero en manos de un tercero?
+question: ¿Cuál es la pregunta central que debes hacerte al elegir una cartera de Bitcoin, en términos de auto custodia?
+answer: ¿Eres el propietario de los fondos o dejas el control de tu dinero a un tercero?
 wrong_answers:
-  - ¿La billetera es segura con una frase de contraseña?
-  - ¿La billetera permite recibir y enviar bitcoins?
-  - ¿Puedo compartir mi billetera con otra persona?
+  - ¿Está la cartera asegurada con una frase de paso?
+  - ¿Permite la cartera recibir y enviar bitcoins?
+  - ¿Puedo compartir mi cartera con otra persona?
 explanation: |
-  ¿Eres el propietario de los fondos o dejas el control de tu dinero en manos de un tercero? Esto se debe a que el poseedor de la clave privada es el propietario de los Bitcoins.
-reviewed: false
+  Al elegir una cartera de Bitcoin, la pregunta central es:
+  ¿eres el propietario de los fondos o dejas el control de
+  tu dinero a un tercero? Esto se debe a que el poseedor de
+  la clave privada es el propietario de los Bitcoins.
+reviewed: true

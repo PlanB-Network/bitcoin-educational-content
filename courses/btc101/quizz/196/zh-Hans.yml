@@ -1,0 +1,8 @@
+question: 什么是Swiss Bitcoin Pay?
+answer: 一个供业余商家接受比特币的解决方案
+wrong_answers:
+  - 一个接受比特币的瑞士银行
+  - 一个瑞士比特币交易所
+  - 一个瑞士比特币挖矿公司
+explanation: >-
+  Swiss Bitcoin Pay是一个供业余商家接受比特币的解决方案。其他解决方案包括为简单在线业务的OpenNode和为大型结构或热情的比特币用户的BTCpay Server。

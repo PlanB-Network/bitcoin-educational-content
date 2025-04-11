@@ -1,0 +1,11 @@
+question: Hva er hovedrollen til Bitcoin Core-utviklere?
+answer: De er ansvarlige for hovedutviklingen av Bitcoin-protokollen og dens kjernefunksjoner
+wrong_answers:
+  - De kontrollerer Bitcoin-nettverket
+  - De skaper nye bitcoins
+  - De regulerer prisen på Bitcoin
+explanation: |
+  Kapittelinnholdet forklarer at Bitcoin Core-utviklere er ansvarlige
+  for hovedutviklingen av Bitcoin-protokollen og dens kjernefunksjoner. De
+  kontrollerer ikke Bitcoin-nettverket, skaper ikke nye bitcoins, eller regulerer prisen på Bitcoin.
+reviewed: false

@@ -1,0 +1,9 @@
+question: AluVM 在 RGB 协议中的主要作用是什么？
+answer: 在虚拟机环境中执行脚本和合约操作
+wrong_answers:
+  - 在虚拟机环境中分析比特币链上交易
+  - 在虚拟机环境中为 RGB 用户生成公钥
+  - 优化虚拟机环境中的公共区块链验证
+explanation: |
+  AluVM 专为 RGB 框架内的智能合约验证和分布式计算而设计。
+reviewed: false

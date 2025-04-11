@@ -1,9 +1,9 @@
-question: Was sind die Initialisierungsvektoren in der Verarbeitung der SHA-256 Funktion?
-answer: Die ersten 32 Bits der Dezimalteile der Quadratwurzeln der ersten 8 Primzahlen
+question: Welcher Ableitungsalgorithmus wird verwendet, um einen Authentifizierungscode basierend auf einem geheimen Schlüssel zu berechnen?
+answer: HMAC-SHA512
 wrong_answers:
-  - Die ersten 32 Bits der Dezimalteile der Kubikwurzeln der ersten 8 Primzahlen
-  - Die ersten 32 Bits der Dezimalteile der Quadratwurzeln der ersten 64 Primzahlen
-  - Die ersten 32 Bits der Dezimalteile der Kubikwurzeln der ersten 64 Primzahlen
+  - SHA512
+  - SHA256
+  - RIPEMD160
 explanation: |
-  In der Verarbeitung der SHA-256 Funktion sind die Initialisierungsvektoren von A bis H die ersten 32 Bits der Dezimalteile der Quadratwurzeln der ersten 8 Primzahlen. Diese werden als grundlegende Zutaten im kryptografischen Rezept verwendet.
+  HMAC-SHA512 ist ein Algorithmus, der eine Hash-Funktion und einen geheimen Schlüssel kombiniert, um einen Authentifizierungscode zu berechnen.
 reviewed: false

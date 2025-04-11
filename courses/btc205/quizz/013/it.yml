@@ -1,9 +1,0 @@
-question: Qual è una caratteristica unica della soluzione Peach P2P?
-answer: Non richiede la creazione di un account per funzionare.
-wrong_answers:
-  - Utilizza un sistema DAO.
-  - Opera sotto TOR.
-  - Utilizza il multisign per la gestione delle controversie.
-explanation: |
-  Il capitolo menziona che Peach si distingue per la sua semplicità, non richiedendo la creazione di un account per funzionare.
-reviewed: false

@@ -1,0 +1,8 @@
+question: 哪些平台可能会被一个对KYC（了解你的客户）持怀疑态度的比特币用户用于个人间的非KYC购买？
+answer: Peach, Robosats, Bisq, HodlHodl
+wrong_answers:
+  - Coinbase, Binance, Kraken
+  - PayPal, Venmo, Cash App
+  - 信用卡，银行转账，现金
+explanation:
+  本章提到Peach, Robosats, Bisq, 和 HodlHodl是一些对KYC持怀疑态度的比特币用户可能用于个人间非KYC购买的平台。

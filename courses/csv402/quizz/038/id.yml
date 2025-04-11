@@ -1,0 +1,9 @@
+question: Dalam file YAML yang digunakan untuk menerbitkan aset, bidang mana yang mendefinisikan jumlah total token yang diterbitkan?
+answer: dikeluarkanPasokan
+wrong_answers:
+  - pemilik aset
+  - spesifikasi
+  - jumlah
+explanation: |
+  Kolom "issuedSupply" pada file YAML mendefinisikan jumlah total token yang dikeluarkan untuk kontrak.
+reviewed: false

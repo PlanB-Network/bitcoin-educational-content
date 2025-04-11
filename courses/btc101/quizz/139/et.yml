@@ -1,0 +1,9 @@
+question: Mis on ligikaudne sõlmede arv üle maailma seisuga september 2023?
+answer: 45 000 sõlme
+wrong_answers:
+  - 10 000 sõlme
+  - 100 000 sõlme
+  - 500 000 sõlme
+explanation: >-
+  Seisuga september 2023 on üle maailma ligikaudu 45 000 sõlme.
+reviewed: false

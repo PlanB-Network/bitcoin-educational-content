@@ -1,0 +1,9 @@
+question: Jakému typu podniku bude pro účetnictví nejspíše stačit jednoduchý soubor csv?
+answer: Malé podniky
+wrong_answers:
+  - Velké nadnárodní společnosti
+  - Významné finanční instituce
+  - Platformy pro vysokofrekvenční obchodování
+explanation: |
+  Většina malých podniků využívá jednoduchost a dostatečnou podrobnost exportu do formátu csv.
+reviewed: false

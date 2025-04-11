@@ -1,0 +1,8 @@
+question: Rühmas, mis on see unikaalne element, mis teisele elemendile rakendades seda ei muuda?
+answer: Ühikelement
+wrong_answers:
+  - Pöördelement
+  - Kommutatiivelement
+  - Assotsiatiivelement
+explanation: |
+  Rühma ühikelement on unikaalne element, mis teisele elemendile rakendades jätab selle muutmata. Näiteks täisarvude rühmas liitmise tehte puhul on ühikelemendiks 0.

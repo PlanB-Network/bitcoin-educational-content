@@ -1,9 +1,11 @@
-question: Quel est le risque potentiel de la centralisation minière dans Bitcoin ?
-answer: La centralisation minière dans Bitcoin peut potentiellement entraîner une censure des transactions et rendre le réseau vulnérable aux attaques, y compris l'attaque des 51%, où un acteur ou un groupe contrôle plus de 50% de la puissance de hachage du réseau, leur permettant de contrôler et de manipuler le réseau.
+question: Quel est le risque potentiel de la centralisation du minage dans Bitcoin ?
+answer: La centralisation du minage dans Bitcoin peut potentiellement conduire à la censure des transactions et rendre le réseau vulnérable aux attaques, y compris l'attaque des 51%, où un acteur ou un groupe contrôle plus de 50% de la puissance de hachage du réseau, leur permettant de contrôler et de manipuler le réseau.
 wrong_answers:
-  - La centralisation minière dans Bitcoin peut potentiellement entraîner une diminution de la valeur de Bitcoin et rendre le réseau vulnérable à l'inflation.
-  - La centralisation minière dans Bitcoin peut potentiellement entraîner une diminution de la récompense de bloc et rendre le réseau vulnérable à la stagnation.
-  - La centralisation minière dans Bitcoin peut potentiellement entraîner une diminution de la vitesse de transaction et rendre le réseau vulnérable à la congestion.
+  - La centralisation du minage dans Bitcoin peut potentiellement conduire à une diminution de la valeur de Bitcoin et rendre le réseau vulnérable à l'inflation.
+  - La centralisation du minage dans Bitcoin peut potentiellement conduire à une diminution de la récompense de bloc et rendre le réseau vulnérable à la stagnation.
+  - La centralisation du minage dans Bitcoin peut potentiellement conduire à une diminution de la vitesse de transaction et rendre le réseau vulnérable à la congestion.
 explanation: |
-  Le chapitre explique que la centralisation minière dans Bitcoin peut potentiellement entraîner une censure des transactions et rendre le réseau vulnérable aux attaques, y compris l'attaque des 51%.
-reviewed: false
+  Le chapitre explique que la centralisation du minage dans Bitcoin
+  peut potentiellement conduire à la censure des transactions et rendre
+  le réseau vulnérable aux attaques, y compris l'attaque des 51%.
+reviewed: true

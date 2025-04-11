@@ -1,9 +1,9 @@
-question: Mitä Bitcoin-lompakko säilyttää?
-answer: Yksityiset avaimet, jotka ovat tarpeen bitcoinien omistajuuden todistamiseksi
+question: Mikä ECDSA-allekirjoituksen haavoittuvuus korjattiin SegWitillä?
+answer: Muunneltavuus
 wrong_answers:
-  - Itse bitcoinit
-  - Julkiset avaimet, jotka ovat tarpeen bitcoinien omistajuuden todistamiseksi
-  - Bitcoinien transaktiohistoria
+  - Erän varmennus
+  - Aggregoinnin puute
+  - Allekirjoitusten liiallinen koko
 explanation: |
-  Todellisuudessa Bitcoin-lompakko säilyttää yksityiset avaimet, jotka ovat tarpeen bitcoinien omistajuuden todistamiseksi. Itse bitcoinit kirjataan lohkoketjuun, hajautettuun tietokantaan, joka arkistoi kaikki transaktiot.
+  SegWit korjasi ECDSA-allekirjoitusten muunneltavuuden, mahdollistaen käyttötapauksia kuten Lightning Networkin.
 reviewed: false

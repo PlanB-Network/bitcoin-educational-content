@@ -1,9 +1,13 @@
 question: Qual é o princípio de Attakai no contexto da mineração de Bitcoin?
 answer: O princípio de Attakai refere-se ao uso produtivo do calor gerado pela mineração de Bitcoin.
 wrong_answers:
-  - O princípio de Attakai refere-se ao uso de fontes de energia renovável para a mineração de Bitcoin.
-  - O princípio de Attakai refere-se ao uso de sistemas avançados de resfriamento na mineração de Bitcoin.
+  - O princípio de Attakai refere-se ao uso de fontes de energia renováveis para a mineração de Bitcoin.
+  - O princípio de Attakai refere-se ao uso de sistemas avançados de refrigeração na mineração de Bitcoin.
   - O princípio de Attakai refere-se ao uso de hardware de baixo consumo de energia na mineração de Bitcoin.
 explanation: |
-  O princípio de Attakai refere-se à ideia de descentralizar a mineração através do uso produtivo do calor gerado. Esse conceito sugere que estabelecimentos intensivos em energia poderiam se beneficiar do calor produzido pelos mineradores para aquecer suas instalações.
-reviewed: false
+  O princípio de Attakai refere-se à ideia de
+  descentralizar a mineração através do uso produtivo do
+  calor gerado. Este conceito sugere que estabelecimentos
+  intensivos em energia poderiam se beneficiar do calor produzido pelos
+  mineradores para aquecer suas instalações.
+reviewed: true

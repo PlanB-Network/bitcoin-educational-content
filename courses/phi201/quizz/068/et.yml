@@ -1,0 +1,9 @@
+question: Mis on tolerantsuse definitsioon Turgot'i järgi?
+answer: Vägivalla mittekasutamine nende vastu, kelle uskumused erinevad enda omadest, samal ajal jätkates oma veendumuste kaitsmist läbi mõistuse.
+wrong_answers:
+  - Kõikide usuliste veendumuste aktsepteerimine ja heakskiitmine, isegi neid, mida peetakse valeks.
+  - Oma usuliste veendumuste hülgamine, et elada rahus teistega.
+  - Täielik ükskõiksus usuküsimuste ja nende mõju suhtes ühiskonnale.
+explanation: |
+  Turgot'i jaoks seisneb tolerantsus selles, et ei pöörduta vägivalla poole nende vastu, kelle uskumused erinevad, säilitades samal ajal vabaduse kaitsta oma veendumusi ratsionaalselt.
+reviewed: false

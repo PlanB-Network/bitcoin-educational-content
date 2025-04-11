@@ -1,0 +1,11 @@
+question: 在JoinMarket中，“makers”是如何获得报酬的？
+
+answer: 通过“takers”支付的费用。
+
+wrong_answers:
+  - 通过挖矿费用。
+  - 通过“takers”的自愿捐赠。
+  - 通过比特币社区的资助。
+
+explanation: |
+  “makers”将他们的比特币留给“takers”使用，并为此服务收取费用。反过来，“takers”支付费用以使用“makers”的比特币来执行他们自己的coinjoin交易。

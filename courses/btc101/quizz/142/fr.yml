@@ -1,10 +1,9 @@
 question: Qu'est-ce qu'un nœud élagué dans le contexte du Bitcoin ?
-answer: Un nœud qui ne conserve que les derniers N blocs en mémoire
+answer: Un nœud qui ne conserve que les derniers N blocs en mémoire.
 wrong_answers:
-  - Un nœud qui ne valide que les transactions
-  - Un nœud qui ne transmet l'information qu'à d'autres nœuds
-  - Un nœud qui n'applique que les règles du protocole Bitcoin
+  - Un nœud qui valide uniquement les transactions.
+  - Un nœud qui transmet uniquement des informations aux autres nœuds.
+  - Un nœud qui applique uniquement les règles du protocole Bitcoin.
 explanation: >-
-  Un nœud élagué dans le contexte du Bitcoin est un nœud qui ne conserve
-  que les derniers N blocs en mémoire.
-reviewed: false
+  Un nœud élagué dans le contexte du Bitcoin est un nœud qui ne conserve que les derniers N blocs en mémoire.
+reviewed: true

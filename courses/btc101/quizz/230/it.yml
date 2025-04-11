@@ -1,9 +1,10 @@
-question: Cosa rende possibile il Lightning Network?
-answer: Effettuare transazioni tra individui che non hanno una connessione diretta tramite canale.
+question: Cosa è possibile effettuare con Lightning Network?
+answer: Transazioni tra individui che non dispongono di un canale di pagamento diretto tra loro.
 wrong_answers:
-  - Effettuare transazioni tra individui che hanno solo una connessione diretta tramite canale.
-  - Effettuare transazioni tra individui che hanno una connessione diretta tramite canale e una terza parte.
-  - Effettuare transazioni tra individui che hanno una connessione diretta tramite canale e più terze parti.
+  - Creare connessioni con canali di pagamento diretti e solo con scambi centralizzati.
+  - Creare connessioni al canale di pagamento che richiedono molteplici conferme per qualsiasi transazione.
+  - Stabilire connessioni con canali di pagamento diretti e limitate solo a grandi transazioni.
 explanation: |
-  Il Lightning Network rende possibile effettuare transazioni tra individui che non hanno una connessione diretta tramite canale.
-reviewed: false
+  Lightning Network rende possibile effettuare transazioni
+  tra individui che non dispongono di canale di pagamento diretto.
+reviewed: vero

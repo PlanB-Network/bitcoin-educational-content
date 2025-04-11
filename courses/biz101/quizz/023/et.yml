@@ -1,0 +1,9 @@
+question: Milline järgmistest meetoditest EI ole üks kolmest peamisest Bitcoini omandamise meetodist?
+answer: Bitcoini saamine valitsuse toetusena ettevõtluse arendamiseks.
+wrong_answers:
+  - Bitcoini saamine kaupade või teenuste eest.
+  - Bitcoini kaevandamine spetsiaalse riistvara ja energiakasutuse kaudu.
+  - Bitcoini ostmine platvormilt või maaklerilt.
+explanation: |
+  Peatükis on mainitud kolm peamist võimalust Bitcoini omandamiseks: võtta see maksevahendina vastu, kaevandada või osta. Bitcoini vastuvõtmine valitsuse toetusena ei ole tunnustatud standardne omandamisviis.
+reviewed: false

@@ -1,9 +1,13 @@
-question: Por que o SMS não é considerado a melhor opção para a autenticação de dois fatores (2FA)?
-answer: Ele apenas fornece prova de posse de um número de telefone.
+question: Por que o SMS não é considerado a melhor opção para 2FA?
+answer: Este método é vulnerável a diferentes ataques, como o golpe de troca de SIM.
 wrong_answers:
-  - É muito caro
-  - É muito lento
-  - É muito complicado de configurar
+  - É muito lento e caro, uma chamada telefônica será mais eficaz.
+  - Ele apenas fornece prova de posse de um número de telefone.
+  - É muito complicado para configurar em um nível técnico.
 explanation: |
-  O SMS não é considerado a melhor opção para a autenticação de dois fatores (2FA) porque ele apenas fornece prova de posse de um número de telefone, não prova de identidade.
-reviewed: false
+  O SMS não é considerado a melhor opção para 2FA porque é
+  um método de 2FA vulnerável a diferentes ataques, como o
+  golpe de troca de SIM. Uma vez exploradas com sucesso, essas
+  vulnerabilidades destroem totalmente qualquer proteção dada pela
+  camada adicional de autenticação 2FA.
+reviewed: true

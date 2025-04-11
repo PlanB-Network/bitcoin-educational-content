@@ -1,0 +1,9 @@
+question: Wer schlug die Idee des Wettbewerbs zwischen privaten Währungen vor?
+answer: Friedrich Hayek
+wrong_answers:
+  - John Maynard Keynes
+  - Jacques Rueff
+  - Satoshi Nakamoto
+explanation: |
+  Friedrich Hayek schlug die Idee des Wettbewerbs zwischen privaten Währungen vor, um den Einfluss von Regierungen auf die Währung zu verringern und die monetäre Stabilität auf Basis des Marktes anstatt zentralisierter Politiken zu fördern.
+reviewed: false

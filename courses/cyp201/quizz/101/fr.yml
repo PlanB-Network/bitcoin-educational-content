@@ -1,9 +1,0 @@
-question: Quelle est la différence entre les plages d'index des clés enfants normales et des clés enfants renforcées ?
-answer: Les clés enfants normales ont un index allant de 0 à 2 à la puissance de 31 moins 1, tandis que les clés enfants renforcées ont un index allant de 2 à la puissance de 31 à 2 à la puissance de 32 moins 1.
-wrong_answers:
-  - Les clés enfants normales ont un index allant de 0 à 2 à la puissance de 32 moins 1, tandis que les clés enfants renforcées ont un index allant de 2 à la puissance de 31 à 2 à la puissance de 31 moins 1.
-  - Les clés enfants normales et renforcées ont la même plage d'index.
-  - Il n'y a aucune différence dans les plages d'index des clés enfants normales et renforcées.
-explanation: |
-  La plage d'index des clés enfants normales va de 0 à 2 à la puissance de 31 moins 1, tandis que la plage d'index des clés enfants renforcées va de 2 à la puissance de 31 à 2 à la puissance de 32 moins 1.
-reviewed: false

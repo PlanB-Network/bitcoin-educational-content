@@ -1,9 +1,0 @@
-question: Vai trò chính của địa chỉ nhận trong hệ thống Bitcoin là gì?
-answer: Chúng cho phép nhận tiền vào một đồng tiền.
-wrong_answers:
-  - Chúng cho phép gửi tiền từ một đồng tiền.
-  - Chúng cho phép khai thác bitcoin mới.
-  - Chúng cho phép xác minh các giao dịch.
-explanation: |
-  Vai trò chính của địa chỉ nhận trong hệ thống Bitcoin là cho phép nhận tiền vào một đồng tiền. Chúng được tạo ra từ các cặp khóa riêng và khóa công khai.
-reviewed: false

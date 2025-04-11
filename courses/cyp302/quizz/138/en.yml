@@ -1,0 +1,9 @@
+question: What property must a hash function have to ensure security during software verification?
+answer: Collision resistance
+wrong_answers:
+  - Reversibility
+  - Operability with asymmetric keys
+  - Real-time generability
+explanation: |
+  Collision resistance ensures that it is practically impossible to find two different inputs producing the same hash, which is important for verifying that software has not been tampered with.
+reviewed: false

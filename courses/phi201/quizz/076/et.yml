@@ -1,0 +1,9 @@
+question: Mis on põhimõtteline erinevus Turgot'i ja Adam Smith'i väärtusteooriate vahel?
+answer: Turgot uskus, et väärtus määratakse tööjõu abil, samas kui Smith arvas, et selle määrab kasulikkus.
+wrong_answers:
+  - Turgot uskus, et vabakaubandus on parim majanduspoliitika, samas kui Smith pooldas protektsionismi.
+  - Turgot arvas, et riigi roll on jätta turg vabaks, samas kui Smith uskus, et valitsus peaks majandusse sekkuma.
+  - Turgot'i ja Smith'i väärtusteooriate vahel ei ole põhimõttelist erinevust.
+explanation: |
+  Turgot pidas tööjõudu väärtuse peamiseks määrajaks, samas kui Adam Smith tutvustas väärtuse mõistet, mida mõjutas kasulikkus ja nõudlus, ennustades ette subjektiivset majandusteadust.
+reviewed: false

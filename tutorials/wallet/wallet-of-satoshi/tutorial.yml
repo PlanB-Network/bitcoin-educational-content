@@ -1,86 +1,24 @@
-id: c4792842-b046-44f9-a6f1-351191b7cc2b
-builder: Wallet of Satoshi
+id: 39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-level: beginner
+project_id: 6ca330b1-d19c-470e-93a7-98bce38ff0f5
 
 category: mobile
 
+level: beginner
+
+professor_id: 94b1f27b-c0bd-432c-a2b5-17db0f6dd435
+
 tags:
-  - wallet
   - lightning-network
-  - custodial
+  - guides
+  - user-friendly
 
 # Proofreading metadata
-original_language: en
+original_language: it
 proofreading:
-  - language: cs
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2742
-  - language: de
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2621
-  - language: en
-    last_contribution_date: 2024-09-01
-    urgency: 1
-    contributors_id:
-      - Asi0Flammeus
-    reward: 1310
-  - language: es
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2681
-  - language: fi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2742
-  - language: fr
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2621
   - language: it
-    last_contribution_date:
+    last_contribution_date: 2025-03-07
     urgency: 1
-    contributors_id:
-    reward: 2681
-  - language: ja
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2863
-  - language: pt
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2621
-  - language: ru
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2742
-  - language: vi
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2863
-  - language: et
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2742
-  - language: id
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2802
-  - language: zh-Hans
-    last_contribution_date:
-    urgency: 1
-    contributors_id:
-    reward: 2802
+    contributor_names:
+      - f205sats
+    reward: 1

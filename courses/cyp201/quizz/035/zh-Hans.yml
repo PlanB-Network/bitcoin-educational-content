@@ -1,0 +1,8 @@
+question: 哪个比特币标准引入了分层确定性钱包？
+answer: BIP32
+wrong_answers:
+  - BIP39
+  - BIP44
+  - BIP141
+explanation: |
+  BIP32 定义了 HD 钱包的操作，允许从一个种子中分层派生私钥。

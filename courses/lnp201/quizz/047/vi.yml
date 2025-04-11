@@ -1,9 +1,9 @@
-question: Điều gì xảy ra trong một quá trình đóng cửa hợp tác?
-answer: Hai bên liên lạc và đồng ý đóng kênh, xác nhận trạng thái cuối cùng của kênh và tạo ra một giao dịch đóng cửa.
+question: Vai trò của LNURL trong các giao dịch Lightning là gì?
+answer: Đơn giản hóa sự tương tác giữa các nút và ứng dụng Lightning
 wrong_answers:
-  - Một bên ép buộc đóng cửa kênh.
-  - Một bên cố gắng gian lận bằng cách công bố một giao dịch cam kết cũ.
-  - Hai bên tranh giành SAT còn lại trong kênh.
+  - Tạo điều kiện thuận lợi cho việc tạo kênh cho mỗi giao dịch
+  - Đảm bảo tính bảo mật của thông tin thanh toán
+  - Tự động tính toán phí giao dịch
 explanation: |
-  Trong một quá trình đóng cửa hợp tác, hai bên liên lạc và đồng ý đóng kênh. Họ dừng tất cả các giao dịch và xác nhận trạng thái cuối cùng của kênh. Sau đó, họ tạo ra giao dịch đóng cửa.
+  LNURL là một giao thức truyền thông được thiết kế để đơn giản hóa các tương tác, như rút tiền và thanh toán, giữa các nút và ứng dụng Lightning.
 reviewed: false

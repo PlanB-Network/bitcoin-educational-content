@@ -1,0 +1,9 @@
+question: Miks peetakse 24-sõnalist mnemoonilist fraasi Bitcoin'i rahakoti jaoks tihti üleliigseks?
+answer: Tuletatud võtmed pakuvad ainult 128 biti turvalisust
+wrong_answers:
+  - Tarkvara ei toeta 24-sõnalisi fraase
+  - See ei võimalda avalike võtmete tuletamist
+  - Lühemad fraasid ei ole standardiseeritud
+explanation: |
+  Kuigi 24-sõnaline fraas pakub 256 biti turvalisust, tagavad tuletatud Bitcoin'i privaatvõtmed ainult 128 biti turvalisust, muutes ülejäägi tarbetuks.
+reviewed: false

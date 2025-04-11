@@ -1,12 +1,14 @@
-question: Qual é a principal diferença entre navegação privada e uso da rede TOR?
-answer: A navegação privada não oculta a navegação do provedor de serviços de internet e não deixa rastros locais no seu computador, enquanto o TOR oferece anonimato ao mascarar o endereço IP do usuário e permitir acesso à Darknet.
+question: Qual é a principal diferença entre navegação privada e usar a rede TOR?
+answer: Tor mascara o endereço IP do usuário, enquanto a navegação privada não faz isso.
 wrong_answers:
   - Navegação privada e TOR são a mesma coisa.
-  - A navegação privada mascara o endereço IP do usuário, enquanto o TOR não.
-  - O TOR deixa rastros locais no seu computador, enquanto a navegação privada não.
+  - Navegação privada mascara o endereço IP do usuário, enquanto TOR não faz isso.
+  - TOR deixa rastros locais no seu computador, enquanto a navegação privada não deixa.
 explanation: |
-  A navegação privada é uma função que impede que os navegadores de internet armazenem
-  o histórico de navegação, arquivos temporários da internet, dados de formulários, cookies e nomes de usuário e senhas. No entanto, ela não oculta a navegação do provedor de serviços de internet.
-  Por outro lado, a rede TOR oferece anonimato ao mascarar o endereço IP do usuário
-  e permitir acesso à Darknet.
-reviewed: false
+  A navegação privada é um recurso que impede que os
+  navegadores de internet armazenem histórico de navegação, arquivos temporários da internet,
+  dados de formulários, cookies e nomes de usuário e senhas.
+  No entanto, não esconde a navegação do seu provedor de serviços de internet. Por outro lado, a rede TOR oferece
+  anonimato ao mascarar o endereço IP do usuário e permitir
+  acesso à Darknet.
+reviewed: true

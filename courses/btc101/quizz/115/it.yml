@@ -1,9 +1,11 @@
 question: Chi è stata la prima persona ad unirsi alla rete Bitcoin dopo Satoshi Nakamoto?
-answer: Hal Finney
+answer: Hal Finney.
 wrong_answers:
-  - Laszlo Hanyecz
-  - Phil Champagne
-  - Rogzy
+  - Laszlo Hanyecz.
+  - Phil Champagne.
+  - Rogzy.
 explanation: |
-  Hal Finney è stata la prima persona ad unirsi alla rete Bitcoin dopo Satoshi Nakamoto stesso. Ha persino twittato "Running Bitcoin" per segnare l'occasione.
-reviewed: false
+  Hal Finney è stata la prima persona ad unirsi alla rete Bitcoin
+  dopo lo stesso Satoshi Nakamoto. Ha persino twittato Running
+  Bitcoin per segnare l'occasione.
+reviewed: vero

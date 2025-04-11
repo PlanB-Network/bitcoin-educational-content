@@ -1,0 +1,12 @@
+question: Kulingana na Bernold, ni njia gani pekee ya kumaliza mfumuko wa bei?
+answer: Kufanya mageuzi ya fedha na kuweka vikwazo kwa serikali
+wrong_answers:
+  - Ongeza pesa Supply
+  - Punguza pesa Supply
+  - Kupitisha fedha za kigeni
+explanation: |
+  Bernold anapendekeza kuwa njia pekee ya kumaliza mfumuko wa bei ni kutekeleza a
+  mageuzi ya fedha na kuweka vikwazo kwa serikali. Hii inahusisha kuanzishwa
+  ya taasisi, kama vile benki kuu, inayofanya kazi kwa uhuru kutoka kwa
+  maamuzi ya kisiasa ya serikali.
+reviewed: false

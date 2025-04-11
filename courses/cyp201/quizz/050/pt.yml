@@ -1,10 +1,8 @@
-question: Qual é o papel do BIP39 no ecossistema do Bitcoin?
-answer: Ele introduziu a frase mnemônica de 24 palavras para transformar sequências complexas de dígitos em palavras comuns.
+question: Qual é uma boa prática para proteger uma frase-senha?
+answer: Salvá-la em um meio físico separado da frase mnemônica
 wrong_answers:
-  - Ele introduziu o conceito de chaves derivadas de forma determinística e hierárquica.
-  - Ele propôs adicionar uma senha adicional para reforçar a segurança das chaves individuais.
-  - Ele padronizou a estrutura e hierarquia das carteiras HD.
+  - Memorizá-la apenas de cor sem anotá-la
+  - Salvá-la no mesmo meio físico que a frase mnemônica
+  - Registrá-la em um meio digital como o Google Drive
 explanation: |
-  O BIP39 introduziu uma inovação marcante; a frase mnemônica de 24 palavras.
-  Esse sistema tornou possível transformar uma sequência complexa e difícil de lembrar de dígitos em uma série de palavras comuns, muito mais fácil de memorizar e armazenar.
-reviewed: false
+  A frase-senha deve ser salva fisicamente e separada da frase mnemônica para prevenir o roubo simultâneo de ambas.

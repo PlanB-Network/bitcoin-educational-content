@@ -2,12 +2,11 @@ question: What is the potential risk of a decrease in the number of users, nodes
 answer: It could weaken the network, increasing the risk of centralization and vulnerability to attacks.
 wrong_answers:
   - It could increase the price of Bitcoin.
-  - It could decrease the transaction speed.
-  - It could increase the mining difficulty.
+  - It could decrease the transaction speed as well as mining difficulty.
+  - It could increase the mining difficulty and vulnerability to attacks, while decreasing risk of centralization.
 explanation: |
-  A decrease in the number of users, nodes, or miners could weaken the
-
-  Bitcoin network. This could increase the risk of centralization and make the network
-
-  more vulnerable to attacks.'
-reviewed: false
+  A decrease in the number of users, nodes, or miners could
+  weaken the Bitcoin network. This could increase the risk of
+  centralization and make the network more vulnerable to
+  attacks.
+reviewed: true

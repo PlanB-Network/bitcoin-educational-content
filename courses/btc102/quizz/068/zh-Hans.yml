@@ -1,0 +1,9 @@
+question: 为Hodler设置定期购买计划的目的是什么？
+answer: 自动定时继续购买比特币。
+wrong_answers:
+  - 当价格高时卖出比特币。
+  - 频繁交易比特币。
+  - 将比特币转换成其他加密货币。
+explanation: |
+  Hodler设置定期购买计划是为了自动定时继续购买比特币，押注于其未来的使用增加和稀缺性。
+reviewed: false

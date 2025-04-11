@@ -1,9 +1,0 @@
-question: Qual è l'alternativa al KYC completo in Svizzera?
-answer: KYC leggero
-wrong_answers:
-  - KYC pesante
-  - KYC medio
-  - KYC scuro
-explanation: |
-  In Svizzera, un'alternativa al KYC completo è il "KYC leggero" che consente l'acquisto e la vendita di bitcoin senza fornire l'identificazione, purché l'importo di acquisto non superi i 1000 euro al giorno.
-reviewed: false

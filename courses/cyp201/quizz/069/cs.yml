@@ -1,9 +1,9 @@
-question: Jaký je nejčastěji používaný standard pro 24-slovnou obnovovací frázi v Bitcoinové peněžence?
-answer: Entropie 256 bitů.
+question: Jaká je hlavní role řetězcového kódu při odvozování dětských klíčů?
+answer: Přidat další zdroj entropie
 wrong_answers:
-  - Entropie 128 bitů.
-  - Entropie 160 bitů.
-  - Entropie 512 bitů.
+  - Určit hierarchickou hloubku
+  - Uchovávat indexy dětských klíčů
+  - Zajistit kompatibilitu s protokolem Bitcoin
 explanation: |
-  Nejčastěji používaným standardem pro 24-slovnou obnovovací frázi je entropie 256 bitů.
+  Řetězcový kód se používá k přidání dalšího a unikátního zdroje entropie pro každý odvozený klíč.
 reviewed: false

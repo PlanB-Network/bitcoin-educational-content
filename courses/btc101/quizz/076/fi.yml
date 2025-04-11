@@ -1,10 +1,10 @@
 question: Mikä on julkinen avain Bitcoin-lompakossa?
-answer: Sitä käytetään Bitcoin-osoitteiden luomiseen ja siten rahan vastaanottamiseen
+answer: Sitä käytetään Bitcoin-osoitteiden luomiseen ja siten rahan vastaanottamiseen.
 wrong_answers:
-  - Sitä käytetään Bitcoin-siirtojen salaamiseen
-  - Sitä käytetään pääsemiseen Bitcoin-lompakkoon
-  - Sitä käytetään Bitcoin-lompakon varmuuskopioimiseen
+  - Sitä käytetään Bitcoin-siirtojen salaamiseen.
+  - Sitä käytetään pääsemiseen Bitcoin-lompakkoon.
+  - Sitä käytetään Bitcoin-lompakon varmuuskopioimiseen.
 explanation: |
-  Julkinen avain johdetaan yksityisestä avaimesta ja sitä käytetään Bitcoin-osoitteiden luomiseen
-  rahan vastaanottamiseksi.
-reviewed: false
+  Julkinen avain johdetaan yksityisestä avaimesta ja sitä käytetään
+  Bitcoin-osoitteiden luomiseen rahan vastaanottamiseksi.
+reviewed: true

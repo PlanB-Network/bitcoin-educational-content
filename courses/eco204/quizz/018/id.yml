@@ -1,0 +1,11 @@
+question: Apa batasan utama dari tabel klasik hiperinflasi?
+answer: Mereka mengecualikan beberapa periode historis inflasi tinggi karena kriteria klasifikasi yang ketat
+wrong_answers:
+  - Mereka mencakup terlalu banyak episode inflasi yang tidak memenuhi kriteria sebagai hiperinflasi
+  - Mereka sudah usang dan tidak berlaku untuk ekonomi modern
+  - Mereka tidak memperhitungkan dampak inflasi terhadap ekonomi
+explanation: |
+  Tabel klasik hiperinflasi, seperti tabel Hanke-Krus, seringkali
+  mengecualikan beberapa periode historis inflasi tinggi karena kriteria klasifikasi
+  yang ketat, seperti ambang batas inflasi bulanan 50% yang ditetapkan oleh definisi Cagan.
+reviewed: false

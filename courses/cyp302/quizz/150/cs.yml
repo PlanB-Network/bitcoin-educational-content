@@ -1,0 +1,9 @@
+question: V kontextu kryptosystému RSA, čemu odpovídá součin dvou prvočísel p a q?
+answer: Tvoří celé číslo N používané jako modul pro operace
+wrong_answers:
+  - Tvoří veřejný klíč
+  - Slouží jako dešifrovací klíč
+  - Používá se pouze pro generování exponentu e
+explanation: |
+  V RSA je celé číslo N součinem dvou velkých prvočísel p a q a používá se jako modul pro operace šifrování a dešifrování.
+reviewed: false

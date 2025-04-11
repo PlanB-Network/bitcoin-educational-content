@@ -1,0 +1,9 @@
+question: Mã Xác Thực Tin Nhắn (MAC) đảm bảo điều gì trong một kế hoạch mật mã?
+answer: Tính toàn vẹn và xác thực của tin nhắn
+wrong_answers:
+  - Tính bảo mật của tin nhắn
+  - Việc nén tin nhắn
+  - Việc chuyển đổi tin nhắn thành dạng nhị phân
+explanation: |
+  Mã Xác Thực Tin Nhắn (MAC) được sử dụng để đảm bảo rằng tin nhắn không bị thay đổi và thực sự đến từ người gửi được giả định.
+reviewed: false

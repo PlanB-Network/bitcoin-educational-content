@@ -1,0 +1,8 @@
+question: Bagaimana prinsip Kerckhoff memfasilitasi keamanan sistem terbuka seperti Linux?
+answer: Ini memungkinkan verifikasi publik terhadap potensi kerentanan
+wrong_answers:
+  - Ini membuat algoritma enkripsi tidak terlihat
+  - Ini membatasi jumlah pengguna potensial
+  - Ini memastikan penggunaan kunci yang unik
+explanation: |
+  Prinsip Kerckhoff memungkinkan verifikasi publik terhadap cacat keamanan, seperti dalam sistem sumber terbuka, yang membuat sistem lebih dapat diandalkan melalui transparansi. Keamanan dijamin hanya oleh kunci, bukan oleh proses enkripsi itu sendiri.

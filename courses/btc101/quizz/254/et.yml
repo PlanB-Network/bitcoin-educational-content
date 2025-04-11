@@ -1,0 +1,9 @@
+question: Mis on üks peamisi viise Bitcoinide hankimiseks?
+answer: Vastu võttes neid kaubavahetuse eest või ostes neid reguleeritud või reguleerimata platvormide kaudu.
+wrong_answers:
+  - Kaevandades neid arvuti abil.
+  - Leides neid füüsilisest maailmast.
+  - Luues neid kasutades erilist tarkvara.
+explanation: >-
+  Tekstis mainitakse, et kasutajad saavad Bitcoine hankida, võttes neid vastu oma kaubavahetuse eest või ostes neid reguleeritud või reguleerimata platvormide kaudu.
+reviewed: false

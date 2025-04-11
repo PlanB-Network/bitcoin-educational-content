@@ -1,0 +1,9 @@
+question: Millist haavatavust, millest ArtForz teatas 28. juulil 2010, võimaldas bitcoine kulutada mistahes aadressilt, kasutades spetsiifilist skripti?
+answer: 1 RETURN viga
+wrong_answers:
+  - Väärtuse ületäitumise viga
+  - OP_NOP viga
+  - LSHIFT viga
+explanation: |
+  Viga ei olnud ära kasutatud. Satoshi lisas kiiresti paranduse tarkvarasse ja soovitas kõigil kasutajatel uuendada.
+reviewed: false

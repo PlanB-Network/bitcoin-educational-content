@@ -1,0 +1,9 @@
+question: Jenis kunci apa yang diasosiasikan dengan prefiks zpub?
+answer: Kunci publik terluas untuk SegWit V0 di Mainnet
+wrong_answers:
+  - Kunci privat terluas untuk SegWit V1 di Mainnet
+  - Kunci publik terluas untuk Legacy di Testnet
+  - Kunci publik terluas untuk SegWit V2 di Testnet
+explanation: |
+  Prefiks zpub menandakan kunci publik terluas untuk skrip SegWit V0 di Mainnet.
+ditinjau: false

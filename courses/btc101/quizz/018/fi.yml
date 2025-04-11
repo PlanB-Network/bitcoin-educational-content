@@ -1,9 +1,13 @@
-question: Mihin ensimmäinen valuutan muoto usein liitettiin?
-answer: Tärkeisiin hyödykkeisiin kuten viljaan, karjaan ja muihin tavaraeriin
+question: Mitkä olivat ensimmäiset valuutan muodot?
+answer: Hyödykkeet, kuten vilja ja karja.
 wrong_answers:
-  - Kulta ja hopea
-  - Paperiset setelit
-  - Digitaaliset varat
+  - Kulta ja hopea.
+  - Paperiset setelit.
+  - Digitaaliset varat.
 explanation: |
-  Ensimmäinen valuutan muoto liitettiin usein tärkeisiin hyödykkeisiin kuten viljaan, karjaan ja muihin tavaraeriin. Näillä hyödykkeillä oli kuitenkin suuria haittoja, kuten pilaantuvuus, mikä teki niiden käyttämisestä pitkäaikaisena säästövälineenä vaikeaa.
-reviewed: false
+  Ensimmäiset valuutan muodot olivat usein yhteydessä välttämättömiin
+  hyödykkeisiin, kuten viljaan, karjaan ja muihin tavaraeriin.
+  Kuitenkin näillä hyödykkeillä oli suuria haittoja, kuten
+  pilaantuvuus, mikä teki niiden käyttämisestä vaikeaa pitkäaikaisena
+  säästövälineenä.
+reviewed: true

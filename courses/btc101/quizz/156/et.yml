@@ -1,0 +1,11 @@
+question: Mis on kaevandusbasseinide eesmärk?
+answer: Kaevandusbasseinid võimaldavad kaevuritel koondada oma arvutusressursse ja saada väiksemaid, kuid regulaarsemaid tasusid.
+wrong_answers:
+  - Kaevandusbasseine kasutatakse Bitcoin'i võrgu HashRate'i suurendamiseks.
+  - Kaevandusbasseine kasutatakse kaevandamise raskusastme vähendamiseks.
+  - Kaevandusbasseine kasutatakse kaevandamise tasu suurendamiseks.
+explanation: >-
+  Kaevandusbasseinid on kaevurite rühmad, kes ühendavad oma arvutusvõimsuse,
+  et suurendada oma võimalusi ploki kaevandamiseks. Oma ressursside koondamisega suudavad nad
+  sagedamini plokke kaevandada ja saada väiksemaid, kuid regulaarsemaid tasusid.
+reviewed: false

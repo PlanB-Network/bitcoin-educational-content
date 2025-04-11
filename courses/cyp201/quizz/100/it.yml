@@ -1,9 +1,0 @@
-question: Qual è il ruolo del codice di catena principale nell'organizzazione gerarchica e nella derivazione del portafoglio HD?
-answer: Gioca un ruolo importante nel recupero del portafoglio dal seed.
-wrong_answers:
-  - Viene utilizzato per generare il seed.
-  - Viene utilizzato per derivare le chiavi figlie.
-  - Viene utilizzato per crittografare il portafoglio.
-explanation: |
-  Il codice di catena principale è essenziale per il recupero del portafoglio dal seed. Tutte le chiavi derivate dallo stesso seed avranno lo stesso codice di catena principale.
-reviewed: false

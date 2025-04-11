@@ -1,9 +1,9 @@
-question: Was ist der Zweck von Multi-Signatur-Adressen im Lightning Network?
-answer: Sie erfordern, dass zwei Parteien zustimmen, um die Mittel freizugeben.
+question: Wann ist ein Lightning-Kanal offiziell geöffnet?
+answer: Wenn die Einzahlungstransaktion auf der Bitcoin-Blockchain bestätigt ist
 wrong_answers:
-  - Sie ermöglichen schnellere Transaktionszeiten.
-  - Sie bieten zusätzliche Sicherheit gegen Hacking.
-  - Sie ermöglichen die Verwendung mehrerer Kryptowährungen.
+  - Sobald die öffentlichen Schlüssel zwischen den Teilnehmern ausgetauscht sind
+  - Wenn die Auszahlungstransaktion von beiden Parteien signiert ist
+  - Sobald die 2/2-Multisignatur-Adresse erstellt ist
 explanation: |
-  Multi-Signatur-Adressen im Lightning Network erfordern, dass zwei Parteien zustimmen, um die Mittel freizugeben. Dies ist eine Sicherheitsmaßnahme, die sicherstellt, dass die Mittel nur mit Zustimmung beider Parteien bewegt werden können.
+  Der Kanal gilt als geöffnet, sobald die Einzahlungstransaktion in einem Bitcoin-Block enthalten war und eine bestimmte Anzahl von Bestätigungen erreicht hat.
 reviewed: false

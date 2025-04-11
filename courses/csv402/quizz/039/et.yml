@@ -1,0 +1,9 @@
+question: Milline käsk ekspordib lepingu peidikust välisesse faili?
+answer: rgb export '<ContractId>' myContractPBN.rgb
+wrong_answers:
+  - rgb download '<ContractId>' myContractPBN.rgb
+  - rgb dump '<ContractId>' myContractPBN.rgb
+  - rgb küsimus '<ContractId>' myContractPBN.rgb
+explanation: |
+  Käsu "rgb eksport" kasutatakse lepingu väljavõtmiseks varingust ja selle salvestamiseks failina, et seda oleks lihtne jagada.
+reviewed: false

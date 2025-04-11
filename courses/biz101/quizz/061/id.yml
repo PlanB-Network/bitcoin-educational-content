@@ -1,0 +1,9 @@
+question: Apa yang digunakan profil Essential untuk membantu karyawan memproses pembayaran di PoS?
+answer: Pembuatan menu dengan harga item pada aplikasi PoS
+wrong_answers:
+  - Buku besar manual untuk mencatat penjualan
+  - Sistem faktur kertas untuk setiap transaksi
+  - Sistem pencatatan akuntansi otomatis untuk transaksi dari PoS
+explanation: |
+  Aplikasi PoS di profil Essential memungkinkan karyawan untuk memilih item dari menu yang sudah diatur sebelumnya, sehingga menyederhanakan proses penagihan.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hvilke standard skriptutdata-mønstre ble gjenkjent av programvaren i september 2010?
+answer: Mottakelse ved en offentlig nøkkel (P2PK) og mottakelse ved en adresse (P2PKH)
+wrong_answers:
+  - Mottakelse ved en adresse (P2PKH) og mottakelse ved et multisignatur signaturskript (P2MS)
+  - Mottakelse ved en adresse (P2PKH) og mottakelse ved et skript (P2SH)
+  - Mottakelse ved en offentlig nøkkel (P2PK) og mottakelse ved et skript (P2SH)
+explanation: |
+  Dette var de to typene som ble brukt siden begynnelsen av Bitcoin. P2MS-typen ble gjort standard i mars 2012. P2SH-typen ble lagt til i protokollen i april 2012.
+reviewed: false

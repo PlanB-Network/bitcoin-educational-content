@@ -1,0 +1,9 @@
+question: Mis on kolm olulist komponenti sümmeetrilise krüpteerimisskeemi juures?
+answer: Võtme genereerimise algoritm, krüpteerimisalgoritm ja dekrüpteerimisalgoritm
+wrong_answers:
+  - Räsialgoritm, avalik võti ja verifitseerimisalgoritm
+  - Avalik võti, privaatvõti ja dekrüpteerimisalgoritm
+  - Krüpteerimisalgoritm, avalik võti ja privaatvõti
+explanation: |
+  Sümmeetriline krüpteerimisskeem koosneb kolmest elemendist: võtme genereerimise algoritm, krüpteerimisalgoritm ja dekrüpteerimisalgoritm. Kõik need kasutavad sama võtit.
+reviewed: false

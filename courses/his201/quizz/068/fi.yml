@@ -1,0 +1,9 @@
+question: Minkä taudin kanssa cypherpunk Hal Finney diagnosoitiin elokuussa 2009, muutama kuukausi Bitcoinin löytämisen jälkeen?
+answer: Lou Gehrigin tauti
+wrong_answers:
+  - Huntingtonin tauti
+  - Alzheimerin tauti
+  - Parkinsonin tauti
+explanation: |
+  Tämä tauti, joka tunnetaan englanninkielisessä maailmassa nimellä amyotrofinen lateraaliskleroosi (ALS), diagnosoitiin [elokuussa 2009](https: //www.lesswrong.com/posts/bshZiaLefDejvPKuS/dying-outside). Hän kuoli tästä taudista vuonna 2014.
+reviewed: false

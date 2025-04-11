@@ -1,0 +1,9 @@
+question: Mikä on tyypillinen alkulukujen koko, joita käytetään tekijöihin jakamisessa nykyaikaisissa salausjärjestelmissä kuten RSA?
+answer: 1024 bittiä kumpaakin tekijää kohden
+wrong_answers:
+  - 1024 bittiä yhteensä
+  - 256 bittiä kumpaakin tekijää kohden
+  - 256 bittiä yhteensä
+explanation: |
+  Nykyaikaisissa salausjärjestelmissä kuten RSA: ssa valitut alkuluvut ovat tyypillisesti 1024 bittiä kumpikin, mikä tekee tekijöihin jakamisesta erittäin vaikeaa ja parantaa turvallisuutta.
+reviewed: false

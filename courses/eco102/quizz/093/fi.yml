@@ -1,0 +1,8 @@
+question: Kuinka jonkun oikeus johonkin voi joutua ristiriitaan toisen omaisuusoikeuksien kanssa?
+answer: Koska se vaatii ottamista yhdeltä henkilöltä antamiseksi toiselle, luoden näin oikeuksien ristiriidan.
+wrong_answers:
+  - Koska oikeutensa saamalla henkilö voi rohkaista muita tekemään samoin.
+  - Koska henkilö voi aiheuttaa ristiriidan, jos hän ei saa haluamaansa.
+  - Koska nämä oikeudet koskevat vain perusoikeuksia eivätkä materiaalisia omaisuuksia.
+explanation: |
+  Bastiat korostaa, että oikeudet jotakin kohtaan edellyttävät resurssien ottamista muilta, vaikuttaen näin suoraan omaisuusoikeuksiin.

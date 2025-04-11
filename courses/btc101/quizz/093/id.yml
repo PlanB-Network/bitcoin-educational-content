@@ -1,0 +1,12 @@
+question: Apa yang perlu Anda cadangkan saat menggunakan dompet dengan kata sandi tambahan?
+answer: Anda perlu mencadangkan baik daftar 12 atau 24 kata dan kata sandi tambahan Anda
+wrong_answers:
+  - Anda hanya perlu mencadangkan daftar 12 atau 24 kata
+  - Anda hanya perlu mencadangkan kata sandi tambahan Anda
+  - Anda tidak perlu mencadangkan baik daftar 12 atau 24 kata maupun kata sandi tambahan Anda
+explanation: |
+  Ketika Anda menggunakan dompet dengan kata sandi tambahan, Anda perlu mencadangkan baik daftar 12
+  atau 24 kata dan kata sandi tambahan Anda. Ini karena daftar kata dan kata sandi tambahan
+  keduanya diperlukan untuk mendapatkan kembali akses ke dana Anda dalam kasus kehilangan ponsel
+  atau komputer Anda. Tanpa salah satu dari keduanya, dana tersebut tidak dapat diakses.
+reviewed: true

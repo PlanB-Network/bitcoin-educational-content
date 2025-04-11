@@ -1,0 +1,9 @@
+question: RGB 中的锚点由什么组成？
+answer: 交易 ID、MPC、DBC 和额外交易证明
+wrong_answers:
+  - 创世纪、印章定义和过渡包
+  - 合同模式、业务逻辑和自有状态
+  - 签名、交易哈希值和佩德森承诺
+explanation: |
+  锚点包含证明比特币交易中包含唯一承诺所需的数据。
+reviewed: false

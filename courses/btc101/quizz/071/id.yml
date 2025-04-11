@@ -1,0 +1,10 @@
+question: Pada tahun berapa pemotongan ke-7 akan terjadi?
+answer: 2036
+wrong_answers:
+  - 2032
+  - 2028
+  - 2048
+explanation: |
+  Pemotongan ke-7 diharapkan terjadi pada tahun 2036, dan jumlah perkiraan bitcoin yang beredar akan menjadi 20,835,937.5 btc, atau 99.22% dari total pasokan.
+  bitcoin yang beredar.
+reviewed: true

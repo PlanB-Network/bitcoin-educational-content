@@ -1,0 +1,8 @@
+question: Langkah mana yang tidak termasuk dalam pembuktian keamanan skema kriptografi modern?
+answer: Menyiapkan antarmuka pengguna
+wrong_answers:
+  - Menyatakan definisi keamanan
+  - Asumsi kompleksitas matematis
+  - Demonstrasi matematis keamanan
+explanation: |
+  Pembuktian keamanan dalam kriptografi modern berfokus pada tujuan dan asumsi matematis, mengecualikan aspek seperti antarmuka pengguna, yang tidak relevan dengan keamanan kriptografi.

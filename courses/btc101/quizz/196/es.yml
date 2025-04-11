@@ -1,10 +1,11 @@
 question: ¿Qué es Swiss Bitcoin Pay?
-answer: Una solución para comerciantes aficionados para aceptar Bitcoin
+answer: Una solución para que los comerciantes aficionados acepten Bitcoin.
 wrong_answers:
-  - Un banco suizo que acepta Bitcoin
-  - Un intercambio suizo de Bitcoin
-  - Una empresa suiza de minería de Bitcoin
-explanation: |
-  Swiss Bitcoin Pay es una solución para comerciantes aficionados para aceptar Bitcoin.
-  Otras soluciones incluyen OpenNode para negocios en línea simples y BTCpay Server para estructuras grandes o entusiastas de Bitcoin.
-reviewed: false
+  - Un banco suizo que acepta Bitcoin.
+  - Un intercambio de Bitcoin de Suiza.
+  - Una compañía de minería que opera en Suiza.
+explanation: >-
+  Swiss Bitcoin Pay es una solución para que los comerciantes aficionados acepten Bitcoin.
+  Otras soluciones incluyen OpenNode para negocios en línea simples y BTCpay Server
+  para estructuras grandes o bitcoiners apasionados.
+reviewed: true

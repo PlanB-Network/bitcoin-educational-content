@@ -1,9 +1,10 @@
 question: Was ist einer der Gründe, warum Bitcoin so viele spekulative Blasen erlebt?
-answer: Weil Bitcoin eine Währung ist, die tatsächlich überall auf der Welt verwendet wird.
+answer: Weil Bitcoin eine Währung ist, die überall auf der Welt verwendet wird.
 wrong_answers:
   - Weil Bitcoin tatsächlich nirgendwo verwendet wird.
   - Weil Bitcoin eine Blase ist, die verschwinden wird.
-  - Weil Bitcoin nicht den wirtschaftlichen Zyklen unterliegt.
-explanation: |
-  Bitcoin erlebt viele spekulative Blasen, weil es eine Währung ist, die tatsächlich überall auf der Welt verwendet wird.
-reviewed: false
+  - Weil Bitcoin nicht den Wirtschaftszyklen unterliegt.
+explanation: >-
+  Bitcoin erlebt viele spekulative Blasen, weil es eine Währung ist,
+  die tatsächlich überall auf der Welt verwendet wird.
+reviewed: true

@@ -1,9 +1,9 @@
-question: Quais são os vetores de inicialização no processamento da função SHA-256?
-answer: Os primeiros 32 bits das partes decimais das raízes quadradas dos primeiros 8 números primos
+question: Qual algoritmo de derivação é usado para calcular um código de autenticação baseado em uma chave secreta?
+answer: HMAC-SHA512
 wrong_answers:
-  - Os primeiros 32 bits das partes decimais das raízes cúbicas dos primeiros 8 números primos
-  - Os primeiros 32 bits das partes decimais das raízes quadradas dos primeiros 64 números primos
-  - Os primeiros 32 bits das partes decimais das raízes cúbicas dos primeiros 64 números primos
+  - SHA512
+  - SHA256
+  - RIPEMD160
 explanation: |
-  No processamento da função SHA-256, os vetores de inicialização, de A a H, são os primeiros 32 bits das partes decimais das raízes quadradas dos primeiros 8 números primos. Estes são usados como ingredientes básicos na receita criptográfica.
+  HMAC-SHA512 é um algoritmo que combina uma função de hash e uma chave secreta para calcular um código de autenticação.
 reviewed: false

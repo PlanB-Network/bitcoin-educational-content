@@ -1,0 +1,8 @@
+question: Bagaimana cara kerja alamat multisignature 2/2 dalam Bitcoin?
+answer: Diperlukan dua tanda tangan untuk membuka dan menghabiskan dana.
+wrong_answers:
+  - Memungkinkan pengeluaran dana hanya dengan salah satu dari dua kunci.
+  - Mengotorisasi transaksi hanya dalam kasus tertentu saat penguncian.
+  - Hanya digunakan untuk mengirim dana ke alamat publik.
+explanation: |
+  Alamat multisignature 2/2 memerlukan tanda tangan dari kedua pihak yang terlibat agar dana dapat dihabiskan, yang digunakan untuk keamanan saluran Lightning.

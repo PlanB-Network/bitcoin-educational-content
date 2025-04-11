@@ -1,0 +1,11 @@
+question: Hvordan sikrer Bitcoin-protokollen sin usensurerbarhet og ustoppbarhet?
+answer: Hver komponent av protokollen er distribuert geografisk over hele verden
+wrong_answers:
+  - Den bruker et desentralisert nettverk av noder
+  - Den bruker en kompleks algoritme for å validere transaksjoner
+  - Den bruker et høyt nivå av kryptering
+explanation: >-
+  Bitcoin-protokollen sikrer sin usensurerbarhet og ustoppbarhet fordi
+  hver komponent av protokollen er distribuert geografisk over hele verden. For
+  eksempel finnes det omtrent 40 000 Bitcoin-noder på alle kontinenter.
+reviewed: false

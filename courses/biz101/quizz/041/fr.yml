@@ -1,0 +1,9 @@
+question: Pourquoi est-il recommandé de disposer d'une exportation CSV de toutes les transactions Bitcoin ?
+answer: Il fournit un enregistrement clair et structuré de chaque transaction, ce qui permet aux comptables de l'intégrer plus facilement dans les rapports financiers et les déclarations fiscales.
+wrong_answers:
+  - Parce que les reçus papier sont les seuls documents comptables légalement acceptables.
+  - Parce que l'exportation de données complète automatiquement votre déclaration de revenus sans aucun contrôle.
+  - Parce que les fichiers CSV éliminent la nécessité de suivre la base des coûts.
+explanation: |
+  Le fait de disposer d'un enregistrement numérique dans un format commun permet une intégration transparente dans les systèmes comptables, aide à maintenir les pistes d'audit et favorise l'établissement de rapports fiscaux et de conformité précis.
+reviewed: false

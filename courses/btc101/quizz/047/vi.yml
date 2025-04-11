@@ -1,11 +1,12 @@
 question: Hyperinflation là gì?
-answer: Một sự tăng đột ngột trong khối lượng tiền tệ
+answer: Một sự tăng đột ngột trong khối lượng tiền tệ.
 wrong_answers:
-  - Một sự tăng nhẹ trong khối lượng tiền tệ
-  - Một sự giảm đột ngột trong khối lượng tiền tệ
-  - Một sự giảm nhẹ trong khối lượng tiền tệ
+  - Một sự tăng nhỏ trong khối lượng tiền tệ.
+  - Một sự giảm đột ngột trong khối lượng tiền tệ.
+  - Một sự giảm nhỏ trong khối lượng tiền tệ.
 explanation: |
-  Hyperinflation là một hiện tượng tiền tệ,
-  nó được đặc trưng bởi một sự tăng đột ngột trong lạm phát thông qua việc in tiền của các cơ quan chính phủ,
-  dẫn đến mất hoàn toàn niềm tin vào một đồng tiền
-reviewed: false
+  Hyperinflation là một hiện tượng tiền tệ được đặc trưng bởi một
+  sự tăng đột ngột trong lạm phát thông qua việc in tiền
+  bởi các cơ quan chức năng, dẫn đến mất hoàn toàn
+  lòng tin vào một đồng tiền.
+reviewed: true

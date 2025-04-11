@@ -1,9 +1,9 @@
-question: Lợi thế chính của vàng như một loại tiền tệ là gì?
-answer: Nó cực kỳ bền bỉ
+question: Lợi ích chính của vàng khi được sử dụng làm tiền tệ là gì?
+answer: Nó cực kỳ bền bỉ.
 wrong_answers:
-  - Nó dễ dàng chia nhỏ hoặc vận chuyển qua những khoảng cách dài
-  - Nó dễ dàng được xác minh
-  - Nó không bị quản lý bởi chính phủ
+  - Nó dễ dàng chia nhỏ hoặc vận chuyển qua khoảng cách xa.
+  - Nó dễ dàng được xác minh.
+  - Nó không bị quản lý bởi chính phủ.
 explanation: |
-  Mặc dù nó không dễ dàng chia nhỏ hoặc vận chuyển qua những khoảng cách dài, điều này đã làm cho nó trở thành một khoản đầu tư giá trị tốt, nhưng không phải là một loại tiền tệ phổ biến ngày nay.
-reviewed: false
+  Mặc dù vàng không dễ dàng chia nhỏ hoặc vận chuyển qua khoảng cách xa, nhưng vàng là một vật liệu rất bền bỉ, điều này làm cho nó trở thành một phương tiện lưu trữ giá trị tốt. Đồng tiền vàng đã được sử dụng làm tiền tệ trong quá khứ, nhưng chúng sẽ không phục vụ cùng một mục đích trong kỷ nguyên số ngày nay.
+reviewed: true

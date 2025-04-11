@@ -1,10 +1,11 @@
-question: Qu'est-ce qu'OpenNode?
-answer: Une solution en ligne simple pour les entreprises afin d'accepter Bitcoin
+question: Qu'est-ce que OpenNode ?
+answer: Une solution en ligne simple pour que les entreprises acceptent le Bitcoin.
 wrong_answers:
-  - Un type de Bitcoin
-  - Un logiciel de minage de Bitcoin
-  - Une plateforme d'échange de Bitcoin
-explanation: |
-  OpenNode est une solution en ligne simple pour les entreprises afin d'accepter Bitcoin.
-  D'autres solutions incluent Swiss Bitcoin Pay pour les commerçants amateurs et BTCpay Server pour les grandes structures ou les passionnés de Bitcoin.
-reviewed: false
+  - Un type de nœud Bitcoin qui est utilisé simultanément par de nombreux utilisateurs.
+  - Un logiciel de minage de Bitcoin qui est open-source.
+  - Une plateforme d'échange de Bitcoin.
+explanation: >-
+  OpenNode est une solution en ligne simple pour que les entreprises acceptent le Bitcoin.
+  Parmi les autres solutions, on trouve Swiss Bitcoin Pay pour les commerçants amateurs et BTCpay Server
+  pour les grandes structures ou les passionnés de bitcoin.
+reviewed: true

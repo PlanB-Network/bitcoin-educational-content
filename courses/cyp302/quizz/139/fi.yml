@@ -1,0 +1,8 @@
+question: Mikä on kryptografisen hajautusfunktion pääominaisuus?
+answer: Se tuottaa kiinteän pituuden tulosteen mille tahansa syötteelle, riippumatta sen koosta.
+wrong_answers:
+  - Se salaa tiedot käyttäen symmetristä avainta.
+  - Se tuottaa muuttuvan tulosteen syötteen pituudesta riippuen.
+  - Se purkaa viestejä käyttäen julkista avainta.
+explanation: |
+  Hajautusfunktio luo kiinteän pituuden hajautusarvon, riippumatta syötteen koosta.

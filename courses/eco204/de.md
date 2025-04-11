@@ -17,47 +17,34 @@ Hier werden wir die gemeinsamen Trends und Muster in den Episoden der Hyperinfla
 +++
 
 # Einführung
+
 <partId>6fe4d15d-f6e6-54be-9e04-0a75ac98df8b</partId>
 
-## Einführung
+## Kursübersicht
+
 <chapterId>9d1aba8d-0485-5020-9863-5de37e6db8e0</chapterId>
 
-Dieses Programm zielt darauf ab, ein tiefes Verständnis für das Aufkommen von Hyperinflationen in einer von Fiat-Währungen dominierten Welt zu vermitteln und ihre erheblichen Auswirkungen zu untersuchen. Die Teilnehmer werden detailliert die Zyklen der Hyperinflation untersuchen, indem sie die Ursachen, Auslöser und historischen sowie zeitgenössischen Beispiele analysieren. Sie werden auch die greifbaren Auswirkungen von Hyperinflationen auf die Wirtschaft und das tägliche Leben untersuchen, indem sie die Auswirkungen auf den Wert der Währung, die Kaufkraft und die individuelle und kollektive Ersparnis untersuchen.
+Willkommen im Kurs ECO204!
 
-Hier werden wir die gemeinsamen Trends und Muster in den Episoden der Hyperinflation im Laufe der Geschichte beleuchten und gleichzeitig effektive und konkrete Strategien zum Schutz vor Hyperinflationen in Zeiten wirtschaftlicher Instabilität bereitstellen. Die Teilnehmer haben die Möglichkeit, verschiedene Investitionsmöglichkeiten und Mechanismen zur finanziellen Absicherung zu erkunden und dabei praktische Werkzeuge und wesentliche Kenntnisse zu erwerben, um in einem instabilen wirtschaftlichen Klima souverän zu navigieren.
+Ziel dieses Kurses ist es, Ihnen ein Verständnis für die tieferliegenden Ursachen, Mechanismen und Folgen von Hyperinflationen im Kontext eines Fiat-Währungssystems zu vermitteln. Anhand konkreter Beispiele und historischer Analysen lernen Sie, wiederkehrende Muster zu erkennen, die Hyperinflationsphasen vorausgehen, und geeignete Maßnahmen zum Schutz davor zu identifizieren.
 
-### Lehrplan
+**Abschnitt 2: Was ist Inflation?**  
+Bevor wir in das Kernthema einsteigen, kehren wir zu den Grundlagen zurück: Was ist Inflation? In diesem Abschnitt werden ihre monetären Ursprünge, die verschiedenen Arten von Inflation und deren Einbettung in breitere wirtschaftliche Zusammenhänge vorgestellt. Dies ist ein unverzichtbarer Schritt, um zu verstehen, wie gewöhnliche Inflation in Hyperinflation übergehen kann.
 
-Abschnitt 1 - Einführung
+**Abschnitt 3: Was ist Hyperinflation?**  
+In diesem Abschnitt untersuchen Sie die genauen Definitionen von Hyperinflation sowie mehrere bedeutende historische Episoden, darunter das Weimarer Deutschland und Simbabwe. Wir analysieren Gemeinsamkeiten, Unterschiede und moderne Parallelen. Sie entdecken auch weniger bekannte Fälle, wie wiederholte Währungsumstellungen in Lateinamerika, sowie Auswege, die einige Länder gefunden haben.
 
-- 1.1 - Kurseinführung von Rogzy & David
+**Abschnitt 4: Wie sind wir hierher gekommen?**  
+In diesem Teil geht es um die strukturellen Mechanismen, die Hyperinflation ermöglichen, insbesondere durch die Entwicklung der „zweiten Geldschicht“ und die Rolle der Zentralbanken. Ergänzende Ressourcen und weiterführende Literaturvorschläge werden bereitgestellt.
 
-Abschnitt 2 - Was ist Inflation?
-
-- 2.1 - Ein monetäres Phänomen
-- 2.2 - Die Arten von Inflation
-- 2.3 - Die Deflation
-
-Abschnitt 3 - Was ist Hyperinflation?
-
-- 3.1 - Definitionen
-- 3.2 - Ähnlichkeiten zwischen Weimar und Simbabwe
-- 3.3 - Unterschiede und zeitgenössische Parallelen zwischen Weimar und Simbabwe
-- 3.4 - Währungsumstellungen in Lateinamerika
-- 3.5 - Wie man aus der Hyperinflation herauskommt
-- 3.6 - Vorstellung der Sammlung von Hyperinflationsbanknoten
-
-Abschnitt 4 - Wie sind wir hierher gekommen?
-
-- 4.1 - Das Aufkommen der zweiten Geldschicht und der Zentralbanken
-- 4.2 - Bücher und Ressourcen
-
-Viel Glück!
+Wiederholt sich die Geldgeschichte gerade vor unseren Augen? Urteilen Sie selbst in den folgenden Kapiteln!
 
 # Was ist Inflation?
+
 <partId>2b4f456c-3649-5cf9-b9b0-a5bffe92d962</partId>
 
 ## Ein monetäres Phänomen
+
 <chapterId>b2cbc915-c4ec-52b5-860c-0958f58c91e4</chapterId>
 
 ### Definitionen von Inflation
@@ -208,6 +195,7 @@ Diese Analyse zeigt, dass das Vertrauen in die Währung und damit auch ihr Wert 
 Zusammenfassend ermöglicht diese Studie zur Währungsabwertung ein tieferes Verständnis der Mechanismen der Inflation, die in den folgenden Videos untersucht werden. Wir werden über die verschiedenen Arten von Inflation und den Schwellenwert diskutieren, bei dem sie zu hoher oder Hyperinflation führen. Diese solide Grundlage wird es uns ermöglichen, die Komplexitäten der Inflation in den kommenden Sitzungen anzugehen. Vielen Dank für Ihre Aufmerksamkeit und bis zum nächsten Video, um diese Erkundung der monetären Dynamiken fortzusetzen.
 
 ## Die Arten von Inflation
+
 <chapterId>b438fe09-375e-5bb2-9196-7dd687b9f98c</chapterId>
 
 ### Inflation ist kein multifaktorielles Phänomen
@@ -382,9 +370,11 @@ In zukünftigen Diskussionen werden wir uns eingehender mit der Hyperinflation b
 Vielen Dank für Ihre Aufmerksamkeit. Die nächste Sitzung wird sich vollständig der Definition und Entmystifizierung der Hyperinflation widmen, unter Berücksichtigung verschiedener akademischer und praktischer Perspektiven. Wir freuen uns darauf, diese Erkundung bei unserem nächsten Treffen mit Ihnen fortzusetzen.
 
 # Was ist Hyperinflation?
+
 <partId>3f541663-1e2f-5410-8ee0-f61c5d009fa5</partId>
 
 ## Definitionen der Hyperinflation
+
 <chapterId>d2a71a2e-5f36-58d9-993c-d431f4aa07fd</chapterId>
 
 ### Definitionen der Hyperinflation
@@ -462,6 +452,7 @@ Gängige Definitionen von Hyperinflation, wie die von Kagan vorgeschlagene, die 
 Es ist zu beachten, dass einige historische Zeiträume mit hoher Inflation nicht in den klassischen Tabellen der Hyperinflation enthalten sind, oft aufgrund strenger Klassifizierungskriterien. Zum Beispiel betrugen die monatlichen Inflationsraten während des amerikanischen Unabhängigkeitskrieges im November 1779 und während des amerikanischen Bürgerkrieges im März 1864 jeweils 47,4% und 40%. Diese Raten, obwohl hoch, überschreiten nicht die von Kagan festgelegte Schwelle von 50% und schließen diese Perioden daher von den als Hyperinflation eingestuften Fällen aus. Diese Auslassung verdeutlicht die Grenzen starrer Definitionen und unterstreicht die Notwendigkeit eines nuancierteren Ansatzes, um die Hyperinflation in ihrer ganzen Komplexität zu erfassen.
 
 ## Ähnlichkeiten zwischen Weimar und Simbabwe
+
 <chapterId>11eef458-aab8-5c63-8523-264d0ba69f5d</chapterId>
 
 ### Zwei Epochen, zwei Katastrophen
@@ -609,6 +600,7 @@ Simbabwe: "Diese Gutscheine verwendeten wir nun, um Mieten an Vermieter, Kommuna
 Das schließt dieses Video über die Ähnlichkeiten der Erfahrungen während der Hyperinflationsperioden in Simbabwe und der Weimarer Republik ab. Im nächsten Video werden wir über die Unterschiede und zeitgenössischen Parallelen sprechen. Danke.
 
 ## Unterschiede zwischen Weimar und Simbabwe und zeitgenössische Parallelen
+
 <chapterId>643f279c-d89f-5600-a2e2-b1bbbba0ab69</chapterId>
 
 Transkript:
@@ -701,6 +693,7 @@ Stellen Sie sich eine Situation vor, in der Sie eine Familie oder nahestehende P
 Heutzutage übernimmt die Investition die Rolle des Schutzes vor dem Verlust der Kaufkraft. Diese Herangehensweise birgt jedoch ihre eigenen Risiken. Sparen war schon immer ein Mittel gegen Unsicherheit. Finanzielle Rücklagen für unvorhergesehene Situationen zu haben, trägt zu innerer Ruhe bei und stärkt den sozialen Zusammenhalt. Zusammenfassend ist der Schutz unserer Kaufkraft entscheidend, um soziale und individuelle Stabilität aufrechtzuerhalten.
 
 ## Währungsumstellungen in Lateinamerika
+
 <chapterId>918eafd7-409d-5205-ad52-a52e63b23a64</chapterId>
 
 Wir werden uns gemeinsam verschiedene Phasen der Währungsumstellung in lateinamerikanischen Ländern ansehen.
@@ -804,6 +797,7 @@ Basierend auf dem Kriterium von 50% Inflation pro Monat hätten mehrere Perioden
 Zusammenfassend ist Hyperinflation nur ein Aspekt der wirtschaftlichen Herausforderungen. Hohe Inflation allein kann ebenso schädlich sein. Der nächste Abschnitt wird mögliche Lösungen zur Überwindung der Hyperinflation untersuchen.
 
 ## Wie man Hyperinflation überwindet
+
 <chapterId>e3484a31-a851-5f92-8af5-00eddae67db1</chapterId>
 
 ### Wie man moderate Inflation und hohe Inflation beendet
@@ -840,8 +834,7 @@ Jedoch ist die Dollarisierung keine Wunderlösung. Obwohl sie die Hyperinflation
 Im Jahr 2007 erreichte die Inflationsrate in Simbabwe die Marke von 50% pro Monat und markierte offiziell das Land als von Hyperinflation betroffen. Nach der Dollarisierung im Jahr 2009 hörte die Hyperinflation auf, aber das Land stand vor anderen wirtschaftlichen Herausforderungen.
 Es ist besorgniserregend festzustellen, dass Simbabwe versucht hat, seine eigene Währung wieder einzuführen und Anzeichen einer erneuten hohen Inflation aufgetreten sind. Nach Angaben einiger internationaler Organisationen könnte das Land bereits wieder die Kriterien für Hyperinflation erfüllen, auch wenn es noch nicht die offizielle Schwelle von 50 % pro Monat erreicht hat. Dies erinnert daran, wie gefährlich übermäßige Geldausgabe und die Finanzierung von Defiziten durch die Zentralbank sein können.
 
-## Schlussfolgerung
-<chapterId>31864b6e-8848-5e74-81fa-4e88e1a59ae3</chapterId>
+### Schlussfolgerung
 
 In meinem Buch "Alles über Bitcoin" habe ich ein ganzes Kapitel der Hyperinflation in Simbabwe gewidmet. Dort erläutere ich die wichtigsten Ereignisse und gebe verschiedene Beispiele, wie das Land schließlich die Hyperinflation beendet hat.
 
@@ -851,19 +844,20 @@ Für diejenigen, die an der deutschen Erfahrung nach dem Ersten Weltkrieg intere
 
 ![image](assets/chapitre-3.5/4.webp)
 
-In meinem Buch "Alles über Bitcoin" habe ich ein ganzes Kapitel der Hyperinflation in Simbabwe gewidmet. Dort erläutere ich die wichtigsten Ereignisse und gebe verschiedene Beispiele, wie das Land schließlich die Hyperinflation beendet hat. Für diejenigen, die an der deutschen Erfahrung nach dem Ersten Weltkrieg interessiert sind, empfehle ich dringend den Comic "Der Reichsbankier". Er erzählt, wie Deutschland es geschafft hat, die Hyperinflation zu überwinden, insbesondere durch die Einführung der Rentenmark.
-
 Das Wichtigste ist, dass es verschiedene Strategien gibt, um aus der Hyperinflation herauszukommen. Man kann sich für die Dollarisierung entscheiden oder eine neue Währung einführen. Diese Lösungen funktionieren jedoch nur, wenn die Bevölkerung Vertrauen in sie hat. Es ist entscheidend, strenge Einschränkungen zu setzen. Eine wirklich unabhängige Zentralbank ist unerlässlich. Sie darf die Geldmenge nicht erhöhen, um Haushaltsdefizite auszugleichen. Bei leichter Inflation sollte es ausreichen, das Wachstum der Geldmenge zu begrenzen. Wenn man jedoch mit Hyperinflation konfrontiert ist, ist es zunächst wichtig, eine angemessene Geldmenge für die Größe der betreffenden Wirtschaft zu haben. Danach ist es unerlässlich, strenge Einschränkungen für die Regierung zu setzen, um die Situation zu stabilisieren.
 
 ## Vorstellung der Sammlung von Hyperinflationsbanknoten
+
 <chapterId>f3ffbb47-3aeb-54bd-80a9-adccb0f419e2</chapterId>
 
 Der Link zur gescannten Sammlung ist im Bitcoin Educational Toolkit verfügbar, das im Ressourcenbereich der Plattform zugänglich ist.
 
 # Wie sind wir hierher gekommen?
+
 <partId>f66ca17e-be9e-5d30-a098-f7affd8962a1</partId>
 
 ## Das Aufkommen der zweiten Geldschicht und der Zentralbanken
+
 <chapterId>0455ffe3-9d45-5a67-ac96-3f815dc507a1</chapterId>
 
 Transkript:
@@ -922,13 +916,8 @@ Nach der Bankpanik von 1796 trat ein Phänomen auf, bei dem jeder versuchte, die
 
 Zentralbanken haben sich zu Kreditgebern letzter Instanz entwickelt, indem sie die Umtauschbarkeit ihrer Währung in Gold ausgesetzt haben. Obwohl diese Maßnahme ursprünglich als temporäre Lösung gedacht war, wurde sie schließlich dauerhaft und markierte somit die Einführung des Konzepts des Kreditgebers letzter Instanz. Diese Transformation hat die Zentralbanken geprägt, wie wir sie heute kennen. In schwächeren Volkswirtschaften kann diese Fähigkeit, Geld nach Belieben zu drucken, jedoch unerwünschte Folgen wie Hyperinflation haben, wenn sie unverantwortlich eingesetzt wird.
 
-
-
-## Geben Sie uns Ihr Feedback zu diesem Kurs
-<chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
-<isCourseReview>true</isCourseReview>
-
 ## Bücher und Ressourcen
+
 <chapterId>c44e4519-0741-527b-b3b0-3f513e87147d</chapterId>
 
 Hyperinflation ist ein faszinierendes Thema, das durch verschiedene historische Ereignisse untersucht wurde. Wenn Sie dieses Thema vertiefen möchten, finden Sie hier eine Liste von 10 wesentlichen Ressourcen zum Lesen und Studieren:
@@ -950,3 +939,22 @@ Hyperinflation ist ein faszinierendes Thema, das durch verschiedene historische 
 - "Der Untergang des Geldes: Deutschlands Hyperinflation und die Zerstörung der Mittelschicht" von Frederick Taylor. Eine erzählerische Erkundung der sozialen und wirtschaftlichen Auswirkungen der Hyperinflation auf die deutsche Gesellschaft.
 
 - "Währungsbretter für Entwicklungsländer: Ein Handbuch" von Steve Hanke und Kurt Schuler. Obwohl der Schwerpunkt auf Währungsbrettern liegt, bietet dieses Buch eine Perspektive, wie man Hyperinflationssituationen vermeiden kann.
+
+# Abschluss
+
+<partId>cb1f4a4b-556a-4e47-a5cc-136be35a1f9a</partId>
+
+## Bewertungen & Noten
+
+<chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Abschlussprüfung
+
+<chapterId>d01831c3-6c4d-59e3-95bc-03e97a05c142</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Abschluss
+
+<chapterId>45d410b0-71ed-4502-8d8d-8b6df761db23</chapterId>
+<isCourseConclusion>true</isCourseConclusion>

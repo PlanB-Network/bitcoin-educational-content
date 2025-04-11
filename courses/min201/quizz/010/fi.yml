@@ -1,11 +1,12 @@
 question: Kuinka Bitcoin-louhijat voivat auttaa hallitsemaan energiaylijäämiä ja vakauttamaan sähköverkkoja?
-answer: Bitcoin-louhijat voivat imeä energiaylijäämiä toimien joustavana puskurina, säätäen kysyntää tarjonnan sijaan. Maailmassa, jossa sähköntuotanto uusiutuvista (ei-hallittavista) lähteistä kasvaa jatkuvasti, louhijat voivat näytellä avainroolia varmistettaessa sähköverkkojemme tasapainoa, hyötyen samalla halvasta tai ylijäämäisestä sähköstä louhintatoimintoihinsa.
+answer: Bitcoin-louhijat voivat imeä energiaylijäämiä toimien joustavana puskurina, säätäen kysyntää tarjonnan sijaan. Maailmassa, jossa sähkön tuotanto uusiutuvista (ei-hallittavista) lähteistä kasvaa jatkuvasti, louhijat voivat näytellä avainroolia varmistaessaan sähköverkkojemme tasapainon, hyötyen samalla halvasta tai ylijäämäisestä sähköstä louhintatoimintoihinsa.
 wrong_answers:
   - Bitcoin-louhijat voivat auttaa hallitsemaan energiaylijäämiä varastoimalla ylimääräisen energian akkuihin.
   - Bitcoin-louhijat voivat auttaa hallitsemaan energiaylijäämiä myymällä ylimääräisen energian takaisin verkkoon.
   - Bitcoin-louhijat voivat auttaa hallitsemaan energiaylijäämiä muuntamalla ylimääräisen energian lämmöksi.
 explanation: |
-  Luku selittää, että Bitcoin-louhijat voivat imeä energiaylijäämiä,
-  toimien joustavana puskurina, säätäen kysyntää tarjonnan sijaan. Tämä voi auttaa
-  hallitsemaan energiaylijäämiä ja vakauttamaan sähköverkkoja.
-reviewed: false
+  Luku selittää, että Bitcoin-louhijat voivat imeä energiaylijäämiä
+  toimien joustavana puskurina, säätäen kysyntää
+  tarjonnan sijaan. Tämä voi auttaa hallitsemaan energiaylijäämiä
+  ja vakauttamaan sähköverkkoja.
+reviewed: true

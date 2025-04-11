@@ -1,9 +1,9 @@
-question: Qual è un'opzione aggiuntiva per migliorare la sicurezza di un portafoglio Bitcoin?
-answer: Aggiungere una passphrase.
+question: Quale indice rappresenta la catena esterna di un account in un percorso di derivazione?
+answer: /0/
 wrong_answers:
-  - Aggiungere una seconda frase mnemonica.
-  - Aggiungere una firma digitale.
-  - Aggiungere una cronologia delle transazioni.
+  - /1/
+  - /0'/
+  - /2/
 explanation: |
-  Aggiungere una passphrase è un'opzione aggiuntiva per migliorare la sicurezza del portafoglio Bitcoin.
+  La catena esterna è identificata dall'indice /0/ al livello 4 del percorso di derivazione.
 reviewed: false

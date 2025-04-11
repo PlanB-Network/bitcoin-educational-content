@@ -1,0 +1,8 @@
+question: Hva kalles grenen av kryptografi som bruker et par av offentlige og private nøkler?
+answer: Asymmetrisk kryptografi
+wrong_answers:
+  - Symmetrisk kryptografi
+  - Mono-algoritmisk kryptografi
+  - Integrativ kryptografi
+explanation: |
+  Asymmetrisk kryptografi er basert på bruken av et par nøkler, offentlig og privat, som muliggjør kryptering uten å dele en hemmelig nøkkel.

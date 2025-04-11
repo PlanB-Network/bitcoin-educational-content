@@ -1,9 +1,9 @@
 question: Mikä on yksi syy siihen, miksi Bitcoin on houkutteleva tietyille ryhmille?
 answer: Sen kyky tarjota ratkaisuja, kuten luottamukseton sähköinen raha, sensuurin vastustaminen tai läpinäkyvä ja muuttumaton rahapolitiikka.
 wrong_answers:
-  - Sitä on helppo väärentää.
-  - Sitä kontrolloi keskitetty auktoriteetti.
-  - Se ei ole pseudonyymi.
+  - Sitä on helppo väärentää, ja se voi luoda ratkaisuja saada enemmän rahaa yhdellä klikkauksella.
+  - Sitä kontrolloi keskitetty auktoriteetti, joka jakaa vapaasti pääomaa käyttäjille.
+  - Se ei ole pseudonyymi, joten jokainen käyttäjä on hyvin tunnettu ja luotettu.
 explanation: >-
-  Bitcoinin hajautettu luonne, pseudonyymisyys ja sensuurin vastustaminen tekevät siitä houkuttelevan ryhmille, kuten teknologiafaneille, kyberpunkkareille, libertaristeille ja kulta-entusiasteille.
-reviewed: false
+  Bitcoinin hajautettu luonne, pseudonyymisyys ja sensuurin vastustuskyky tekevät siitä houkuttelevan teknofiileille, kyberpunkkareille, libertaristeille ja kulta-entusiasteille.
+reviewed: true

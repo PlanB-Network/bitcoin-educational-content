@@ -1,0 +1,5 @@
+---
+term: VAHVISTUS
+
+---
+Tarkoittaa niiden lohkojen lukumäärää, joiden osalta transaktio hyötyy niiden turvallisuudesta. Kun transaktio lähetetään Bitcoin-verkkoon, se jää ensin odottamaan solmujen mempoolissa. Sen jälkeen louhija sisällyttää sen kelvolliseen lohkoon. Tässä vaiheessa transaktio on juuri lisätty lohkoketjuun, joten se hyötyy sen ensimmäisestä vahvistuksesta. Kun kyseisen transaktion sisältävän lohkon päälle löytyy uusi lohko, se saa toisen vahvistuksen, ja niin edelleen. Jokainen uusi lohko, joka louhitaan transaktion sisältävän lohkon päälle, muodostaa uuden vahvistuksen. Laskemalla transaktion vahvistusten määrän voimme arvioida riskin, että transaktio lopulta peruuntuu uudelleenjärjestelyn vuoksi. Vahvistusten lukumäärän avulla voimme arvioida transaktion muuttumattomuuden tasoa lohkoketjussa.

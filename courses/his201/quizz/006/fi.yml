@@ -1,0 +1,9 @@
+question: Mikä asetus, jonka Franklin D. Roosevelt allekirjoitti, kielsi kultaisen omaisuuden hallussapidon yksityishenkilöiltä Yhdysvalloissa vuosien 1933 ja 1975 välillä?
+answer: Executive Order 6102
+wrong_answers:
+  - Federal Reserve Act
+  - Glass-Steagall Act
+  - Executive Order 9066
+explanation: |
+  Tämä presidentin asetus, jonka Roosevelt allekirjoitti 5. huhtikuuta 1933, toteutettiin osana New Deal -ohjelmaa. Sitä vahvistettiin Gold Reserve Act -lailla vuonna 1934.
+reviewed: false

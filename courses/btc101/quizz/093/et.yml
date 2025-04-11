@@ -1,0 +1,9 @@
+question: Mida on vaja varundada, kui kasutate rahakotti koos paroolilausega?
+answer: Teil on vaja varundada nii 12 või 24 sõna loend kui ka teie paroolilause.
+wrong_answers:
+  - Teil on vaja varundada ainult 12 või 24 sõna loend.
+  - Teil on vaja varundada ainult teie paroolilause.
+  - Teil ei ole vaja varundada ei 12 või 24 sõna loendi ega teie paroolilauset.
+explanation: |
+  Kui kasutate rahakotti koos paroolilausega, peate varundama nii 12 või 24 sõna loendi kui ka teie paroolilause. See on seetõttu, et nii sõnade loend kui ka paroolilause on vajalikud juhuks, kui kaotate oma telefoni või arvuti, et taastada juurdepääs oma vahenditele. Ilma ühe või teiseta ei ole vahendid kättesaadavad.
+reviewed: true

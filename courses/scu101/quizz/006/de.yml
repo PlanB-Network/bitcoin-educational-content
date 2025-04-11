@@ -1,9 +1,13 @@
-question: Was sind Cookies im Zusammenhang mit dem Online-Browsing?
+question: Was sind Cookies im Kontext des Online-Browsens?
 answer: Dateien, die von Websites erstellt werden, um Informationen auf Ihrem Gerät zu speichern.
 wrong_answers:
-  - Kleine Datenstücke, die von einer Website gesendet und vom Webbrowser des Benutzers auf dem Computer des Benutzers gespeichert werden.
+  - Kleine Datenstücke, die von einer Website gesendet und vom Webbrowser des Benutzers auf dessen Computer gespeichert werden.
   - Programme, die Ihre Online-Aktivitäten verfolgen.
   - Viren, die Ihrem Gerät schaden können.
 explanation: |
-  Im Zusammenhang mit dem Online-Browsing sind Cookies Dateien, die von Websites erstellt werden, um Informationen auf Ihrem Gerät zu speichern. Sie werden verwendet, um Ihre Einstellungen, Anmeldeinformationen und andere Daten zu speichern, um Ihr Browsing-Erlebnis zu verbessern.
-reviewed: false
+  Im Kontext des Online-Browsens sind Cookies Dateien,
+  die von Websites erstellt werden, um Informationen auf Ihrem Gerät zu speichern.
+  Sie werden verwendet, um Ihre Präferenzen, Login-
+  Informationen und andere Daten zu speichern, um Ihre Browsing-
+  Erfahrung zu verbessern.
+reviewed: true

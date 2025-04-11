@@ -1,0 +1,8 @@
+question: 哪种块密码方法使用初始化向量并创建概率加密？
+answer: CBC（“密码块链接”）
+wrong_answers:
+  - ECB（“电子密码本”）
+  - AES-128
+  - SHA-256
+explanation:
+  CBC方法使用一个初始化向量，并在每个明文块和前一个加密块之间应用XOR运算，使得加密具有概率性并且比ECB更安全。

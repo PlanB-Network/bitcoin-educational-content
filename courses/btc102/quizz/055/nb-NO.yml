@@ -1,0 +1,11 @@
+question: Hva er Lightning Network?
+answer: Det er det andre laget av Bitcoin.
+wrong_answers:
+  - Det er en kryptovalutabørs.
+  - Det er en type Bitcoin-lommebok.
+  - Det er en Bitcoin-miningpool.
+explanation: |
+  Lightning Network er en teknologi for andre lag som anvendes på bitcoin,
+  som bruker mikrobetalingskanaler for å skalere blokkjedens evne til å gjennomføre
+  transaksjoner.
+reviewed: false

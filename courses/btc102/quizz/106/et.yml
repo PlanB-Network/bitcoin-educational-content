@@ -1,0 +1,8 @@
+question: Mis on pärandiplaani loomise kolmas samm vastavalt peatükile?
+answer: Kirjuta kiri.
+wrong_answers:
+  - Tee lihtne ja kiire inventuur.
+  - Vali õiged inimesed, kes aitaksid sinu pärijaid.
+  - Palka advokaat.
+explanation: |
+  Pärandiplaani loomise kolmas samm, nagu peatükis soovitatud, on kirja kirjutamine.

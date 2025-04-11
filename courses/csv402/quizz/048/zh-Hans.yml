@@ -1,0 +1,9 @@
+question: RGB 协议背后的基本概念是什么？
+answer: 通过链上加密承诺进行客户方验证
+wrong_answers:
+  - 图灵完备智能合约的链上验证
+  - 独家使用未加密的比特币交易
+  - 在智能合约专用区块链上执行合约
+explanation: |
+  RGB 基于客户端验证模型，其中承诺（通过 Taproot 或 OP_RETURN）在链上输入，而大部分逻辑和数据在链外保存。
+reviewed: false

@@ -1,0 +1,9 @@
+question: What other British discovery by researchers at GCHQ preceded that of Diffie and Hellman, but remained secret?
+answer: The concepts of asymmetric cryptography and key exchange
+wrong_answers:
+  - A symmetric encryption protocol advanced without the need for a key
+  - A new method of asymmetric cryptographic hashing
+  - A method for creating electronic money
+explanation: |
+  British cryptographers, working for GCHQ, independently developed ideas similar to those of Diffie and Hellman, but these advancements remained confidential until they were disclosed in 1997.
+reviewed: false

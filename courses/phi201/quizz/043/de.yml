@@ -1,0 +1,9 @@
+question: Was ist die Beziehung zwischen natürlichem Recht und menschlichem Recht nach Thomas von Aquin?
+answer: Menschliches Recht muss im Einklang mit dem natürlichen Recht stehen, um gerecht und legitim zu sein.
+wrong_answers:
+  - Menschliches Recht ist dem natürlichen Recht überlegen, weil es von legitimen Autoritäten erlassen wird.
+  - Natürliches Recht ist gleichwertig mit menschlichem Recht.
+  - Menschliches Recht gilt nur teilweise.
+explanation: |
+  Für Thomas von Aquin leitet sich die Legitimität des menschlichen Rechts aus seiner Übereinstimmung mit dem natürlichen Recht ab, das universelle moralische Prinzipien ausdrückt. Wenn menschliches Recht dem natürlichen Recht widerspricht, verliert es seine Gerechtigkeit und Legitimität.
+reviewed: false

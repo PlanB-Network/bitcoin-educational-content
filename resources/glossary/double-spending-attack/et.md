@@ -1,0 +1,9 @@
+---
+term: TOPELTKULUTUSED (RÜNNAK)
+
+---
+Rünnak, mille puhul pahatahtlik kasutaja üritab kasutada sama UTXO (*Unspent Transaction Output*) rohkem kui üks kord, et rikastuda tehingutes osalevate osapoolte arvelt. Põhimõtteliselt, kui tehing on plokis kinnitatud ja plokiahelasse lisatud, salvestatakse nende bitcoinide kasutamine jäädavalt, mis takistab samade bitcoinide edasist kulutamist. Topeltkulutuste vältimine on isegi plokiahela esmane kasulikkus.
+
+Topeltkulutuste rünnaku puhul teeb ründaja kõigepealt seadusliku tehingu kaupmehega, seejärel teeb teise konkureeriva tehingu, mille käigus kulutab ta samu münte, kas saates need iseendale tagasi, et saada summa tagasi, või kasutades neid teise kauba või teenuse ostmiseks teiselt kaupmehelt.
+
+On kaks peamist stsenaariumi, mis võivad seda rünnakut võimaldada. Esimene ja ründaja jaoks lihtsaim on see, et pettuse tehing sooritatakse enne seadusliku tehingu lisamist plokki. Selleks, et tagada, et nende pettustehing kinnitatakse esimesena, seob ründaja selle tehinguga oluliselt suuremaid tehingutasusid kui seadusliku tehinguga. See on omamoodi pettuse RBF. See stsenaarium on võimalik ainult siis, kui kaupmees nõustub müüki lõpule viima "nullkonfektis", st ilma maksetehingu kinnitusteta. Seepärast on tungivalt soovitatav oodata mitu kinnitust, enne kui tehingut muutumatuks peetakse. Teine, palju keerulisem stsenaarium on 51% rünnak. Kui ründaja kontrollib märkimisväärset osa võrgu arvutusvõimsusest, võib ta kaevandada konkureeriva ahela, mis sisaldab õiguspärase tehingu, kuid sisaldab ka tema pettustehingut. Kui kaupmees on müügi vastu võtnud ja ründajal on õnnestunud luua pikem ahel (kus on rohkem kogutud tööd) kui seaduslikus ahelas, saab ta seejärel oma pettuseahelat edastada, mida võrgu sõlmed tunnustavad kui kehtivat.

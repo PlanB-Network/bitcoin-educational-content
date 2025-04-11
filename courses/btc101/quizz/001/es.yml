@@ -1,9 +1,10 @@
-question: ¿Cuál es el papel de los mineros en la red de Bitcoin?
-answer: Los mineros son esenciales para crear nuevos bitcoins y asegurar la red de Bitcoin.
+question: ¿Cuándo ocurrió la guerra del tamaño de bloque?
+answer: En 2017.
 wrong_answers:
-  - Los mineros son responsables de regular el precio de Bitcoin.
-  - Los mineros son responsables de crear billeteras de Bitcoin.
-  - Los mineros son responsables de controlar el protocolo de Bitcoin.
-explanation: |
-  Los mineros desempeñan un papel crucial en la red de Bitcoin, ya que son responsables de crear nuevos bitcoins y asegurar la red de Bitcoin mediante el consumo de electricidad para el hash de un bloque de transacciones.
-reviewed: false
+  - En 2008.
+  - En 2010.
+  - En 2019.
+explanation: >-
+  La guerra del tamaño de bloque ocurrió en 2017. Este conflicto enfrentó a los actores que querían modificar Bitcoin aumentando el tamaño del bloque para incrementar la capacidad de transacción,
+  a aquellos que buscaban preservar la independencia y el poder de los usuarios manteniendo el tamaño en 1 MB.
+reviewed: true

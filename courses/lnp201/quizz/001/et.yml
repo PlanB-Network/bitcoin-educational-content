@@ -1,0 +1,9 @@
+question: Mis on maksekanali maht?
+answer: Kahe osaleja vahel vahetatavate vahendite kogusumma
+wrong_answers:
+  - Aja piirang, mille jooksul kanal võib avatuna püsida
+  - Maksimaalne summa, mida üks osaleja saab ühe tehinguga saata
+  - Tehingute arv, mida kanal toetab päevas
+explanation: |
+  Kanali maht vastab kahe osaleja koguvahenditele ja jääb fikseerituks, et määrata võimalikud vahetused.
+reviewed: false

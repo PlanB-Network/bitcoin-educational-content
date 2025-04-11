@@ -3,10 +3,11 @@ answer: Toimija omistaa yli puolet hashratesta ja voi yrittää muokata lohkoket
 wrong_answers:
   - Toimija saa hallintaansa yli puolet liikkeellä olevista bitcoineista.
   - Toimija saa hallintaansa yli puolet Bitcoin-verkon solmuista.
-  - Toimija saa hallintaansa yli puolet Bitcoin-verkon louhintalta.
-explanation: >-
-  51% hyökkäyksessä toimijalla, jolla on yli puolet verkon hashratesta,
-  olisi mahdollisuus manipuloida lohkoketjua luomalla vaihtoehtoinen ketju lohkoista.
-  Tällainen hyökkäys olisi kuitenkin erittäin kallis ja epätodennäköisesti tuottoisa,
-  mikä tekee siitä epätodennäköisen skenaarion.
-reviewed: false
+  - Toimija saa hallintaansa yli puolet Bitcoin-verkon louhintapoolista.
+explanation: |
+  51% hyökkäyksessä toimija, jolla on yli puolet
+  verkon hashratesta, voisi potentiaalisesti manipuloida
+  lohkoketjua luomalla vaihtoehtoisen lohkoketjun.
+  Tällainen hyökkäys olisi kuitenkin erittäin kallis ja
+  epätodennäköisesti tuottoisa, mikä tekee siitä epätodennäköisen skenaarion.
+reviewed: true

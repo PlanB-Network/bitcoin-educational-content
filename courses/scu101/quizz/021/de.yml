@@ -1,11 +1,12 @@
 question: Was ist die potenzielle Bedrohung bei der Verwendung von gecrackter Software, die nicht aktualisiert werden kann?
-answer: Die Verwendung von gecrackter Software, die nicht aktualisiert werden kann, birgt eine doppelte potenzielle Bedrohung. Zum einen kann während des illegalen Downloads von einer verdächtigen Website ein Virus eingeschleust werden. Zum anderen ist die Software anfällig für neue Angriffsformen.
+answer: Das Eindringen eines Virus während des illegalen Downloads und eine unsichere Nutzung gegenüber neuen Angriffsformen.
 wrong_answers:
-  - Die Software wird nach einer bestimmten Zeit aufhören zu funktionieren.
+  - Die Software wird nach einer bestimmten Zeit nicht mehr funktionieren.
   - Die Software wird keine neuen Funktionen haben.
   - Die Software wird mehr Systemressourcen verbrauchen.
 explanation: |
-  Geknackte Software, die nicht aktualisiert werden kann, stellt eine doppelte potenzielle
-  Bedrohung dar. Sie kann einen Virus einschleppen, wenn sie illegal von einer verdächtigen Website heruntergeladen wird
-  und sie kann gegen neue Angriffsformen unsicher sein.
-reviewed: false
+  Gecrackte Software, die nicht aktualisiert werden kann, stellt eine doppelte
+  potenzielle Bedrohung dar. Sie kann während ihres illegalen
+  Downloads von einer verdächtigen Webseite einen Virus mitbringen und sie kann unsicher
+  gegenüber neuen Angriffsformen sein.
+reviewed: true

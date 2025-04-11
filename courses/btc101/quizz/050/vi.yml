@@ -1,10 +1,9 @@
-question: Giai đoạn cuối cùng của lạm phát cực kỳ là gì?
-answer: Một loại tiền tệ mới được ra đời
+question: Giai đoạn cuối cùng của hiện tượng lạm phát cực kỳ cao là gì?
+answer: Một loại tiền tệ mới xuất hiện.
 wrong_answers:
-  - Mất niềm tin
-  - Sụp đổ tiền tệ & tăng giá
-  - Vòng luẩn quẩn của việc in tiền
+  - Mất niềm tin.
+  - Sụp đổ tiền tệ & tăng giá.
+  - Vòng luẩn quẩn của việc in tiền.
 explanation: |
-  Giai đoạn cuối cùng của lạm phát cực kỳ là khi một loại tiền tệ mới được giới thiệu
-  để thay thế cho loại tiền cũ.
-reviewed: false
+  Giai đoạn cuối cùng của lạm phát cực kỳ cao xảy ra khi một loại tiền tệ mới được giới thiệu để thay thế cho loại tiền cũ.
+reviewed: true

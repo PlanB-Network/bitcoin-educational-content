@@ -1,0 +1,5 @@
+---
+term: FUNGSI
+
+---
+Sifat mata uang yang memastikan setiap unit dapat dipertukarkan dan tidak dapat dibedakan dengan unit lain yang serupa. Bitcoin, sebagai sebuah unit akun, pada prinsipnya dapat dipertukarkan, karena satu bitcoin selalu bernilai sama dengan bitcoin lainnya: 1 BTC = 1 BTC. Akan tetapi, ketertelusuran UTXO (dukungan untuk unit) pada blockchain terkadang dapat mengganggu kesepadanan ini. Memang, setiap satoshi dapat dibedakan berdasarkan sejarahnya, yang memberinya identitas khusus. Persepsi mengenai sejarah setiap UTXO dapat mempengaruhi penilaian para pihak mengenai kesepadanan bitcoin yang digunakan. Dengan demikian, meskipun kesepadanan adalah karakteristik intrinsik dari unit moneter, hal ini dapat diubah oleh spesifikasi media yang digunakan untuk unit-unit ini, seperti halnya dengan Bitcoin.

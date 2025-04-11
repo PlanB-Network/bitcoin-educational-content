@@ -1,0 +1,9 @@
+question: Bagaimana RGB memastikan kerahasiaan dalam manajemen aset digital?
+answer: Dengan hanya mendaftarkan komitmen kriptografi pada blockchain
+wrong_answers:
+  - Dengan mengenkripsi semua transaksi end-to-end pada blockchain
+  - Dengan menyembunyikan identitas pengguna melalui mixer yang terdesentralisasi
+  - Hanya menggunakan alamat Bitcoin sementara untuk setiap transfer
+explanation: |
+  Dengan hanya menyimpan bukti kriptografi on-chain, RGB menjaga kerahasiaan kontrak dan informasi transfer yang sensitif.
+reviewed: false

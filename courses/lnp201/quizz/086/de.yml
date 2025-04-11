@@ -1,9 +1,0 @@
-question: Was benötigen Händler, um Liquidität im Lightning Network zu verwalten?
-answer: Sie benötigen eingehende Liquidität von anderen Knoten und Akteuren.
-wrong_answers:
-  - Sie müssen Kanäle öffnen.
-  - Sie müssen ein Gleichgewicht der Liquidität auf beiden Seiten aufrechterhalten.
-  - Sie müssen Kanäle kaufen.
-explanation: |
-  Für Händler im Lightning Network bedeutet die Verwaltung der Liquidität, dass sie eingehende Liquidität von anderen Knoten und Akteuren benötigen. Das bedeutet, dass sie mit anderen verbunden sein müssen.
-reviewed: false

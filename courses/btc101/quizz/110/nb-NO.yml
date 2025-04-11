@@ -1,0 +1,10 @@
+question: Hva er en Blockmit i konteksten av Bitcoin-sikkerhet?
+answer: En rimelig løsning for å gravere din mnemonic frase på stål
+wrong_answers:
+  - En type Bitcoin-lommebok for å signere flere transaksjoner samtidig
+  - En rimelig løsning for å mine bitcoins hjemme
+  - En type Bitcoin-lommebok som krever flere signaturer for å bruke bitcoins
+explanation: |
+  Blockmit er en rimelig løsning for å gravere din mnemonic frase
+  på et motstandsdyktig materiale som stål, og dermed sikre dine bitcoins på lang sikt.
+reviewed: true

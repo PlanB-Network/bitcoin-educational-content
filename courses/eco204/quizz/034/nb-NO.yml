@@ -1,0 +1,12 @@
+question: Hva er et zombie-selskap?
+answer: Et selskap som under normale markedsforhold ville vært insolvent eller nær konkurs, men som fortsetter å operere hovedsakelig gjennom lån med lav kostnad.
+wrong_answers:
+  - Et selskap som har vært i virksomhet i over 100 år.
+  - Et selskap som opererer i teknologisektoren.
+  - Et selskap som har blitt reddet av regjeringen.
+explanation: |
+  Et zombie-selskap er et selskap som under normale markedsforhold ville
+  vært insolvent eller nær konkurs, men som fortsetter å operere hovedsakelig gjennom lån med lav kostnad.
+  Disse selskapene tjener akkurat nok penger til å dekke gjelden sin, men er ute av stand
+  til å vokse betydelig.
+reviewed: false

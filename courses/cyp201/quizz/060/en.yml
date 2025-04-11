@@ -1,11 +1,9 @@
-question: What is the main advantage of Hierarchical Deterministic Wallets (HD wallets)?
-answer: They allow for the deterministic and hierarchical generation of child key pairs from a single piece of information.
+question: What type of key is associated with the zpub prefix?
+answer: An extended public key for SegWit V0 on the Mainnet
 wrong_answers:
-  - They allow for the generation of multiple private keys from a single public key.
-  - They allow for the generation of multiple public keys from a single private key.
-  - They allow for the generation of multiple wallets from a single key pair.
+  - An extended private key for SegWit V1 on the Mainnet
+  - An extended public key for Legacy on the Testnet
+  - An extended public key for SegWit V2 on the Testnet
 explanation: |
-  HD wallets allow for the deterministic and hierarchical generation of
-  child key pairs from a single piece of information. This makes the generation and
-  management of keys easier while maintaining a high level of security.
+  The zpub prefix denotes an extended public key for SegWit V0 scripts on the Mainnet.
 reviewed: false

@@ -1,0 +1,9 @@
+question: Awalan apa yang digunakan untuk menunjukkan kunci publik terkompresi dengan koordinat y ganjil?
+answer: 0x03
+wrong_answers:
+  - 0x02
+  - 0x04
+  - 0x00
+explanation: |
+  Awalan 0x03 menunjukkan kunci publik terkompresi dengan koordinat y ganjil.
+ditinjau: false

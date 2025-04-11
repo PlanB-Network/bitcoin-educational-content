@@ -1,0 +1,13 @@
+question: What is the main goal of a coinjoin transaction?
+
+answer: To break the history of a coin.
+
+wrong_answers:
+  - To reduce transaction fees.
+  - To make bitcoins undetectable.
+  - To increase confirmation speed.
+
+explanation: |
+  The goal of a coinjoin transaction is to break the history of a coin. This technique does not provide permanent anonymity nor does it definitively block the tracking of bitcoins, contrary to what one might think. Coinjoin aims only to break the history at the point where the coinjoin transaction is made.
+
+reviewed: false

@@ -1,0 +1,13 @@
+question: Jakie są potencjalne wady Mining dla zysku?
+answer: Może to prowadzić do centralizacji mocy obliczeniowej i może mieć również znaczący wpływ na środowisko
+wrong_answers:
+  - Może to doprowadzić do spadku ceny Bitcoin
+  - Może to prowadzić do zmniejszenia Hashrate sieci
+  - Może to prowadzić do zmniejszenia liczby aktywnych węzłów w sieci
+explanation: |
+  Mining dla zysku może prowadzić do centralizacji mocy obliczeniowej hashowania
+  jeśli tylko kilka dużych firm może sobie pozwolić na inwestowanie w
+  w wysokiej klasy sprzęt Mining. Dodatkowo, zużycie energii
+  gW-3 może mieć znaczący wpływ na środowisko w zależności od źródła energii
+  wpływ na środowisko w zależności od źródła energii.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Millal Satoshi Nakamoto kadus?
+answer: 2010. aastal
+wrong_answers:
+  - 2008. aastal
+  - 2009. aastal
+  - 2023. aastal
+explanation: |
+  Satoshi Nakamoto kadus 2010. aastal, jättes oma loomingu kogukonna hoolde.
+reviewed: true

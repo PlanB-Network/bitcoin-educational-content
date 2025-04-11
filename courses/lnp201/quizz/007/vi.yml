@@ -1,10 +1,11 @@
-question: Sức chứa của một kênh thanh toán Lightning có cố định không?
-answer: "Có"
+question: Tại sao UTXO thường được so sánh với tiền giấy?
+
+answer: Chúng phải được chi tiêu hoàn toàn
+
 wrong_answers:
-  - "Không"
-  - Chỉ trong một số trường hợp
-  - Tùy thuộc vào mạng lưới Bitcoin
-explanation: |
-  Khi một kênh được mở, nó được gán một sức chứa cố định, được xác định
-  trước bởi người dùng.
-reviewed: false
+  - Chúng có thể được sử dụng nhiều lần cho đến khi cạn kiệt
+  - Chúng chỉ có thể sử dụng trong một số giao dịch cụ thể
+  - Chúng đại diện cho các số lượng nhỏ cố định của bitcoin
+
+explanation:
+  Giống như một tờ tiền giấy, một UTXO phải được chi tiêu hoàn toàn trong một giao dịch, và bất kỳ số tiền dư nào sẽ được trả lại cho người gửi dưới dạng tiền thối.

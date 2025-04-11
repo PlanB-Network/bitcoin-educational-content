@@ -1,11 +1,11 @@
-question: Mikä on yksi tapa helpottaa Bitcoinin käyttöä jokapäiväisissä transaktioissa?
-answer: Listaa kaikki kauppiaat, jotka hyväksyvät Bitcoinin
+question: Mitkä seuraavista toimista voivat auttaa niitä, jotka haluavat käyttää Bitcoinia jokapäiväisessä elämässä?
+answer: Tee lista kaikista kauppiaista, jotka hyväksyvät Bitcoinin.
 wrong_answers:
-  - Nosta Bitcoinin hintaa
-  - Vähennä Bitcoinien määrää
-  - Rajoita Bitcoinin käyttöä
+  - Nosta Bitcoinin hintaa.
+  - Vähennä Bitcoinien määrää.
+  - Rajoita Bitcoinin käyttöä.
 explanation: >-
   Yksi tapa helpottaa Bitcoinin käyttöä jokapäiväisissä transaktioissa on
   listata kaikki kauppiaat, jotka hyväksyvät Bitcoinin. Tämä voidaan tehdä alustojen
-  kuten BTCMap kautta.
-reviewed: false
+  kuten BTCMap avulla.
+reviewed: true

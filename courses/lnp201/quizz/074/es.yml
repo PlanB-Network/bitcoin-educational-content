@@ -1,9 +1,0 @@
-question: ¿Cuál es el propósito del meta-protocolo LNURL en una factura de la Red Lightning?
-answer: Permite proporcionar una cantidad directa de satoshis en lugar de hacer una solicitud.
-wrong_answers:
-  - Encripta los datos de la factura
-  - Verifica la identidad del destinatario
-  - Calcula la comisión de la transacción
-explanation: |
-  El meta-protocolo LNURL en una factura de la Red Lightning permite proporcionar una cantidad directa de satoshis en lugar de hacer una solicitud. Esta característica mejora la experiencia del usuario al hacer el proceso de pago más flexible.
-reviewed: false

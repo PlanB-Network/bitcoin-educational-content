@@ -1,0 +1,9 @@
+question: Millist analoogiat kasutatakse selgitamaks, kuidas saate Bitcoine vastu võtta ilma, et saatja saaks teie vahendeid varastada?
+answer: Postkast
+wrong_answers:
+  - Pangakonto
+  - Seif
+  - Maja
+explanation: |
+  Analooogia, mida kasutatakse selgitamaks, kuidas saate Bitcoine vastu võtta ilma, et saatja saaks teie vahendeid varastada, on postkast. Inimesed panevad sinna raha, kuid ainult teie saate selle avada.
+reviewed: true

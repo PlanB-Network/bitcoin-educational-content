@@ -1,9 +1,13 @@
-question: ¿Por qué el oro se convirtió en el medio estándar de intercambio?
+question: ¿Por qué el oro se convirtió en el estándar de medio de intercambio?
 answer: Debido a su rareza, durabilidad y divisibilidad.
 wrong_answers:
   - Debido a su abundancia, durabilidad e indivisibilidad.
   - Debido a su rareza, perecibilidad y divisibilidad.
   - Debido a su abundancia, perecibilidad e indivisibilidad.
 explanation: |
-  El oro se convirtió en el medio estándar de intercambio debido a su rareza, durabilidad y divisibilidad. Su rareza evita la devaluación por producción, su durabilidad aseguró que no se erosionara con el tiempo y su divisibilidad permitió su uso en transacciones de diferentes tamaños.
-reviewed: false
+  El oro se convirtió en el estándar de medio de intercambio debido a su
+  rareza, durabilidad y divisibilidad: su rareza evitaba
+  la devaluación causada por la producción; su durabilidad
+  aseguraba que no se erosionaría con el tiempo, y su divisibilidad
+  permitía su uso en transacciones de diferentes tamaños.
+reviewed: true

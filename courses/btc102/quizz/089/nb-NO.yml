@@ -1,0 +1,10 @@
+question: Hva er én egenskap ved en Bitcoin-bruker som er teknologisk kompetent?
+answer: De har en god forståelse av teknologier, inkludert varme og kalde Bitcoin-lommebøker og Lightning Network.
+wrong_answers:
+  - De bruker kun Bitcoin for langsiktig investering.
+  - De bruker kun Bitcoin for daglige transaksjoner.
+  - De bruker kun Bitcoin på handelsplattformer.
+explanation: |
+  Teknologisk kompetente Bitcoin-brukere forstår teknologiene som er involvert
+  i Bitcoin-transaksjoner, inkludert forskjellige typer lommebøker og Lightning
+  Network.

@@ -1,10 +1,9 @@
-question: Quando a transação de saque é executada em uma transferência da Lightning Network?
-answer: Quando o canal é fechado.
+question: Por que o fechamento forçado é menos desejável?
+answer: É mais lento e as taxas podem ser inapropriadas
 wrong_answers:
-  - Quando a transferência é feita.
-  - Quando o canal é aberto.
-  - Nunca é executada.
+  - Requer autorização de Satoshi Nakamoto
+  - Força a recriação de um canal mais tarde
+  - Impede o uso da chave de revogação
 explanation: |
-  A transação de saque, que representa o estado do canal,
-  não é executada a menos que o canal seja fechado.
+  O fechamento forçado é menos desejável porque inclui um bloqueio de tempo, o que retarda o processo, e as taxas podem ser inapropriadas, pois foram definidas no momento da criação do canal.
 reviewed: false

@@ -1,5 +1,5 @@
 ---
-name: JADE
+name: Jade
 
 description: Как настроить ваше устройство JADE
 ---

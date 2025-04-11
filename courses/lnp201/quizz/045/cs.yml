@@ -1,9 +1,9 @@
-question: Co se stane při vynuceném uzavření, pokud je síťový poplatek 1 SAT v době uzavření?
-answer: Transakce je přeplacena 50krát.
+question: Co umožňuje funkce LNURL-withdraw uživatelům?
+answer: Vybrat prostředky ze služby skenováním QR kódu
 wrong_answers:
-  - Transakce je nedoplacena 50krát.
-  - Transakce je přeplacena 2krát.
-  - Transakce je nedoplacena 2krát.
+  - Provádět přímé platby bez poplatků za přesměrování
+  - Připojit jejich Lightning peněženku bez hesla
+  - Posílat prostředky bez potvrzení příjemce
 explanation: |
-  Při vynuceném uzavření protokol výchozí nastavení zvyšuje poplatky 5krát oproti aktuálním v době vytvoření transakce. Pokud je síťový poplatek 1 SAT v době uzavření, transakce je přeplacena 50krát.
+  LNURL-withdraw umožňuje uživatelům vybrat prostředky ze služby skenováním QR kódu, čímž zjednodušuje proces výběru.
 reviewed: false

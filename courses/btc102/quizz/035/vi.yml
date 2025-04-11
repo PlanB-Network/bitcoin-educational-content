@@ -1,9 +1,9 @@
-question: Ai đã mô tả Bitcoin là "một ngân hàng Thụy Sĩ trong túi của bạn"?
+question: Ai đã mô tả Bitcoin là một ngân hàng Thụy Sĩ trong túi của bạn?
 answer: Barack Obama
 wrong_answers:
   - Donald Trump
   - Bill Gates
   - Elon Musk
 explanation: |
-  Chương này đề cập rằng Barack Obama từng mô tả Bitcoin là "một ngân hàng Thụy Sĩ trong túi của bạn".
+  Chương này đề cập rằng Barack Obama từng mô tả Bitcoin là một ngân hàng Thụy Sĩ trong túi của bạn.
 reviewed: false

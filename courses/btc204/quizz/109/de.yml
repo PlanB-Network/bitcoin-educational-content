@@ -1,0 +1,11 @@
+question: Warum ist es oft komplex, Payjoin für eine Zahlung zu verwenden?
+
+answer: Es erfordert die aktive Zusammenarbeit des Empfängers bei der Erstellung
+
+wrong_answers:
+  - Es erfordert feste Beträge für jede Transaktion
+  - Es zwingt beide Parteien, die gleiche Art von Software zu verwenden
+  - Es erfordert, dass der Zahler mindestens 2 UTXOs besitzt, die größer als der Wert der Zahlung sind
+
+explanation: |
+  Die Schwierigkeit, Payjoin zu verwenden, liegt in seiner Abhängigkeit von der Teilnahme des Händlers. Als Kunde ist die Verwendung von Payjoin unmöglich, wenn der Händler es nicht unterstützt.

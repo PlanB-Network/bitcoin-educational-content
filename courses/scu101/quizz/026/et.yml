@@ -1,0 +1,10 @@
+question: Kas Linux ja Mac vajavad tihti viirusetõrjet?
+answer: See ei vasta tõele
+wrong_answers:
+  - See vastab tõele
+  - Ainult Linux vajab viirusetõrjet.
+  - Ainult Mac vajab viirusetõrjet.
+explanation: |
+  Linux ja Mac, tänu nende kasutajaõiguste eraldamise süsteemile, ei vaja
+  tihti viirusetõrjet.
+reviewed: false

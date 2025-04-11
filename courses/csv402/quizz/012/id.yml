@@ -1,0 +1,9 @@
+question: Apa yang dimaksud dengan Penugasan dalam protokol RGB?
+answer: Keluaran yang memodifikasi, memperbarui, atau membuat properti dalam status kontrak
+wrong_answers:
+  - Komitmen kriptografi unik yang tersimpan dalam transaksi Bitcoin
+  - Transaksi Bitcoin yang ditandatangani sebagian sebelum validasi akhir
+  - Pembaruan publik tentang Keadaan Global
+explanation: |
+  Penugasan menggabungkan Definisi Segel dan Negara Milik untuk mewakili bagian negara yang dialokasikan.
+reviewed: false

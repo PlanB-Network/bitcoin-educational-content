@@ -1,0 +1,9 @@
+question: Hva er den generelle trenden for Bitcoin på grunn av dens begrensede mengde og halveringsprosessen?
+answer: En generell oppadgående trend.
+wrong_answers:
+  - En generell nedadgående trend.
+  - Ingen trend i det hele tatt.
+  - En trend som svinger vilt uten noe gjenkjennelig mønster.
+explanation: >-
+  Bitcoin, på grunn av sin begrensede mengde på 21 millioner bitcoins og sin halveringsprosess (halvering av pengekreasjonen hvert 4. år i gjennomsnitt), følger en generell oppadgående trend.
+reviewed: false

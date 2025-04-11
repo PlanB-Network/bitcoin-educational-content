@@ -1,0 +1,9 @@
+question: Làm thế nào mà sự vô trách nhiệm trong ngành ngân hàng được cho phép?
+answer: Bởi vì các bảo đảm rằng những tổn thất sẽ được chia sẻ nếu phá sản do lấy rủi ro một cách liều lĩnh
+wrong_answers:
+  - Do thiếu các quy định chống lại việc lấy rủi ro một cách liều lĩnh
+  - Do việc dỡ bỏ quy định trong những năm 90
+  - Do hệ thống tư bản
+explanation: |
+  Bastiat giải thích rằng lời hứa về việc chia sẻ tổn thất khuyến khích các ngân hàng chấp nhận rủi ro quá mức, vì họ được đảm bảo sẽ được cứu trong trường hợp thất bại, điều này thúc đẩy sự vô trách nhiệm.
+reviewed: false

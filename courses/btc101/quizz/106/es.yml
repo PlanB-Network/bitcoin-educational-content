@@ -1,9 +1,9 @@
-question: ¿Por qué es recomendable evitar dejar tus Bitcoins en plataformas de intercambio?
+question: ¿Por qué es aconsejable evitar dejar tus Bitcoins en plataformas de intercambio?
 answer: Pueden ser susceptibles a ataques de hackers.
 wrong_answers:
   - Las plataformas de intercambio cobran tarifas aleatorias.
-  - Los Bitcoins pierden valor en las plataformas de intercambio.
+  - Bitcoin pierde valor en las plataformas de intercambio.
   - Las plataformas de intercambio no son instituciones reguladas.
 explanation: |
-  Es recomendable evitar dejar tus Bitcoins en plataformas de intercambio porque pueden ser susceptibles a ataques de hackers.
-reviewed: false
+  Es aconsejable evitar dejar tus Bitcoins en plataformas de intercambio porque pueden ser susceptibles a ataques de hackers.
+reviewed: true

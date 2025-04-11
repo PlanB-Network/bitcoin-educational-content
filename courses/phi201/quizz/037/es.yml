@@ -1,0 +1,9 @@
+question: ¿Cuál es la principal consecuencia de la política de control de precios implementada por el Emperador Diocleciano?
+answer: Llevó a la escasez de bienes y un aumento en el mercado negro.
+wrong_answers:
+  - Ayudó a estabilizar los precios y controlar la inflación.
+  - Fortaleció el poder del emperador y aumentó su popularidad entre la gente.
+  - Contribuyó al aumento de recursos militares.
+explanation: |
+  La política de control de precios de Diocleciano creó distorsiones económicas, causando escasez y fomentando el desarrollo del mercado negro, ya que los precios establecidos no reflejaban la realidad de la oferta y la demanda.
+reviewed: false

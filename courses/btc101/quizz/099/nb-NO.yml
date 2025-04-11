@@ -1,0 +1,11 @@
+question: Hva bør du gjøre etter at ordene i din mnemoniske frase er skrevet ned?
+answer: Lag en andre kopi og oppbevar den på et separat sted
+wrong_answers:
+  - Del den med en pålitelig venn
+  - Send den til deg selv på e-post
+  - Lagre den på telefonen din
+explanation: |
+  Når ordene i din mnemoniske frase er skrevet ned, anbefales det
+  å lage en andre kopi og oppbevare den på et separat sted fra den første. Dette gir
+  en sikkerhetskopi i tilfelle tap eller ulykke med den første kopien.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Que ação executa Bob (destinatário) quando recebe o envio terminal de Alice (pagador)?
+answer: Verificar a validade da Transição de Estado e assinar
+wrong_answers:
+  - Modificar o esquema do contrato e enviá-lo à Alice
+  - Criar uma fatura para uma nova operação
+  - Assinar o PSBT da Alice e distribuí-lo na cadeia
+explanation: |
+  O Bob examina a remessa, certifica-se de que a transição está em conformidade com as regras e assina para confirmar o seu acordo.
+reviewed: false

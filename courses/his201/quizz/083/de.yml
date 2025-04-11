@@ -1,0 +1,8 @@
+question: Was war der höchste Preis, den Bitcoin im Juni 2011 erreichte?
+answer: $32
+wrong_answers:
+  - $1
+  - $3
+  - $8
+explanation: |
+  Am 8. Juni erreichte der Preis von Bitcoin auf Mt. Gox einen historischen Höchststand von $32. Allerdings fiel er danach schnell wieder.

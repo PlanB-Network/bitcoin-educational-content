@@ -1,0 +1,11 @@
+question: Hva er formålet med en passordbehandler i Bitcoin?
+answer: Å lagre og håndtere passord for Bitcoin-transaksjoner på en sikker måte.
+wrong_answers:
+  - Å utvinne nye Bitcoins.
+  - Å handle med Bitcoins.
+  - Å konvertere Bitcoins til andre kryptovalutaer.
+explanation: |
+  En passordbehandler er en programvareapplikasjon som brukes til å lagre og
+  håndtere en persons passord for ulike nettbaserte kontoer. I sammenheng med Bitcoin,
+  brukes den til å lagre og håndtere passord for Bitcoin-transaksjoner på en sikker måte.
+reviewed: false

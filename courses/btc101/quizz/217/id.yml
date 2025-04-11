@@ -1,0 +1,8 @@
+question: Bidang apa saja yang menimbulkan pertanyaan terkait Bitcoin?
+answer: Kriptografi, teori permainan, ekonomi dan kebijakan moneter, ilmu komputer, filsafat, energi, hukum, dan regulasi
+wrong_answers:
+  - Hanya ilmu komputer dan ekonomi
+  - Hanya kriptografi dan teori permainan
+  - Hanya filsafat dan energi
+explanation: >-
+  Bitcoin adalah objek multidisiplin yang menimbulkan pertanyaan terkait berbagai bidang, termasuk kriptografi, teori permainan, ekonomi dan kebijakan moneter, ilmu komputer, filsafat, energi, hukum, dan regulasi.

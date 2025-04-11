@@ -1,0 +1,9 @@
+question: Como é garantida a segurança de uma transição RGB num canal de iluminação se for transmitido um estado obsoleto?
+answer: Através da mecânica punitiva do Canal Relâmpago
+wrong_answers:
+  - Anulando automaticamente todas as transacções anteriores
+  - Através da mecânica punitiva do protocolo RGB
+  - Através da intervenção do emitente de activos RGB através da sua assinatura associada ao Genesis
+explanation: |
+  O mecanismo punitivo clássico da Lightning Network garante que a disseminação de uma condição antiga pode ser punida com a recuperação de todos os fundos envolvidos, incluindo os activos RGB.
+reviewed: false

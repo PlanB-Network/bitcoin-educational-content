@@ -1,0 +1,9 @@
+question: Mis on häkkerite esimene rünnakuvektor?
+answer: E-postid
+wrong_answers:
+  - Sotsiaalmeedia
+  - Internetipõhised ostukeskkonnad
+  - Pangaveebisaidid
+explanation: |
+  E-postid on häkkerite esimene rünnakuvektor. Nad kasutavad õngitsuskatseid, et koguda tundlikku teavet nagu teie kasutajatunnused ja paroolid.
+reviewed: false

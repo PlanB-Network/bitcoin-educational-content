@@ -1,0 +1,27 @@
+id: 82011dd9-0a20-42a2-8020-9106336c47f5
+start_date: 2024-10-31 07:00:00
+end_date: 2024-11-03 15:00:00
+timezone: Europe/Berlin
+address_line_2: Gasthof Pension Strohmaier
+address_city_country: Haidmühle, Germany
+name: Bitcoin Educators Academy for Women Germany 2024
+type: course
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: Join an exclusive 4-day intensive training program designed specifically
+  for women looking to become effective Bitcoin educators in their communities. This
+  unique "Train the Trainers" academy combines technical Bitcoin knowledge with essential
+  communication and teaching skills.
+language:
+  - en
+links:
+  website: 
+    https://docs.google.com/forms/d/e/1FAIpQLSc0Za-no0XEnFrWA6Nnk7CB8y1HhbOw-zN_XEHYy936_FrJqQ/viewform
+  replay_url:
+  live_url:
+project_id: d3d09b8a-dfbe-4475-921c-589c03953316
+tags:
+  - guides
+  - user-friendly
+  - adoption

@@ -1,0 +1,9 @@
+question: Hvilken teknologi kan brukes til å slå sammen ulike versjoner av lageret dersom det oppstår avvik?
+answer: CRDT
+wrong_answers:
+  - HTLC
+  - Tetning til engangsbruk
+  - Loggbasert replikering
+explanation: |
+  CRDT-er sikrer datakonsistens ved å gjøre det mulig å slå sammen flere versjoner av stash uten konflikter på klientsiden.
+reviewed: false

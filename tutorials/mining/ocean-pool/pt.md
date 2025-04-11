@@ -1,6 +1,5 @@
 ---
-name: Mineração Oceânica
-
+name: Ocean Mining
 description: Introdução à Mineração Oceânica
 ---
 

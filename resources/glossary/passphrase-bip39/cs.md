@@ -1,0 +1,11 @@
+---
+term: PASSPHRASE (BIP39)
+
+---
+Volitelné heslo, které v kombinaci s frází pro obnovení poskytuje další úroveň zabezpečení deterministických a hierarchických peněženek Bitcoin. Peněženky HD se obvykle generují z obnovovací fráze složené z 12 nebo 24 slov. Tato obnovovací fráze je velmi důležitá, protože umožňuje obnovit všechny klíče v peněžence v případě ztráty. Představuje však jediný bod selhání (SPOF). Pokud je ohrožena, jsou ohroženy i bitcoiny. Zde přichází ke slovu přístupová fráze. Jedná se o volitelné heslo, které si zvolí uživatel a které se přidává k frázi pro obnovení, aby se zvýšilo zabezpečení peněženky. Passphrase, kterou nelze zaměňovat s kódem PIN nebo běžným heslem, hraje roli při odvozování kryptografických klíčů.
+
+Pracuje společně s frází pro obnovení a modifikuje seed, ze kterého se generují klíče. I když tedy někdo získá vaši frázi pro obnovení, bez přístupové fráze se k vašim prostředkům nedostane. Použitím přístupové fráze se v podstatě vytvoří nová peněženka s odlišnými klíči. Změnou (byť jen nepatrnou) přístupové fráze se vytvoří jiná peněženka.
+
+Přístupová fráze je libovolná a může být tvořena libovolnou kombinací znaků, kterou si uživatel zvolí. Použití přístupové fráze přináší několik výhod. Zaprvé snižuje rizika spojená s kompromitací obnovovací fráze tím, že vyžaduje druhý faktor pro přístup k prostředkům. Dále ji lze strategicky využít k vytvoření návnadových peněženek obsahujících malé množství bitcoinů pro případ fyzického nátlaku na krádež finančních prostředků. V neposlední řadě je jeho použití zajímavé v případě, že si přejeme kontrolovat náhodnost generování semen HD peněženky. Heslo musí být dostatečně složité, aby odolalo útokům hrubou silou, a musí být spolehlivě uloženo. Ztráta přístupové fráze může vést k nemožnosti přístupu k prostředkům, stejně jako ztráta obnovovací fráze.
+
+> *Pasová fráze se někdy označuje také jako: "dvoufaktorová klíčová fráze", "heslo", "klíčové rozšíření", "rozšiřující slovo" nebo dokonce "13. nebo 25. slovo" Stojí za zmínku, že v Bitcoinu existují dva typy přístupových frází. Nejznámější je výše popsaný, který závisí na BIP-39 a umožňuje zabezpečit celou HD peněženku. BIP-38 však také specifikoval způsob zabezpečení jedinečného soukromého klíče pomocí heslové fráze. Tento druhý typ přístupové fráze se dnes již téměř nepoužívá*

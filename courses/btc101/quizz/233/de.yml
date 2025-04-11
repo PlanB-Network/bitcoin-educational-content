@@ -1,12 +1,12 @@
 question: Was ist der Hauptzweck des Lightning-Netzwerks?
-answer: Die Erleichterung von Mikrotransaktionen.
+answer: Mikrotransaktionen zu erleichtern.
 wrong_answers:
-  - Die Steigerung des Wertes von Bitcoin
-  - Die Ersetzung des Bitcoin-Protokolls
-  - Die Schaffung einer neuen Kryptowährung
-explanation: |
-  Das Lightning-Netzwerk ist eine Lösung der zweiten Ebene für das Bitcoin-Protokoll,
-  das darauf abzielt, Mikrotransaktionen zu erleichtern, also Transaktionen von sehr geringem Wert,
-  die aufgrund hoher Gebühren und langer Bestätigungszeiten
-  auf der Bitcoin-Blockchain sonst unpraktisch wären.
-reviewed: false
+  - Den Wert von Bitcoin zu erhöhen.
+  - Das Bitcoin-Protokoll zu ersetzen.
+  - Eine neue Kryptowährung zu erschaffen.
+explanation: >-
+  Das Lightning-Netzwerk ist eine Second-Layer-Lösung für das Bitcoin-Protokoll,
+  die darauf abzielt, Mikrotransaktionen zu erleichtern, also Transaktionen von sehr geringem Wert,
+  die andernfalls aufgrund hoher Gebühren und langer Bestätigungszeiten
+  auf der Bitcoin-Blockchain unpraktisch wären.
+reviewed: true

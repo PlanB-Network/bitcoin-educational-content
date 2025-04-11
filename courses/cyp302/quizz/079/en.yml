@@ -1,0 +1,9 @@
+question: Why is shift encryption vulnerable to brute force attacks?
+answer: Because it only has 26 possible keys
+wrong_answers:
+  - Because it uses a public key
+  - Because it is based on symmetric encryption
+  - Because it uses random numbers
+explanation: |
+  Shift encryption is easily susceptible to brute force attacks because it only has 26 possible keys, from 0 to 25, due to the use of modulo 26 which itself depends on the size of the alphabet. You cannot use larger valid keys, as they would in any case be equivalent to a key between 0 and 25. Therefore, it is sufficient to test each of them to find the message. 
+reviewed: false

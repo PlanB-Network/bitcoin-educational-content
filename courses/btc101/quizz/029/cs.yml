@@ -1,11 +1,9 @@
-question: Jaká je hlavní výhoda zlata oproti ostatním formám měny?
-answer: Jeho přirozená vzácnost ho činí cenným, zatímco jeho chemické vlastnosti mu umožňují nekorodovat časem
+question: Proč není zlato považováno za přenosný materiál?
+answer: Protože je husté a těžké, což z něj činí nepraktické k přenášení ve velkém množství.
 wrong_answers:
-  - Je snadno dělitelné a přenosné
-  - Je předmětem měnové inflace
-  - Je široce akceptováno v obchodě
+  - Protože je příliš cenné, aby bylo přemisťováno.
+  - Protože ho nelze snadno tvarovat do menších forem.
+  - Protože je při pokojové teplotě kapalné.
 explanation: |
-  Hlavní výhoda zlata oproti ostatním formám měny spočívá v jeho přirozené
-  vzácnosti, která ho činí cenným, a jeho chemických vlastnostech, které mu
-  umožňují nekorodovat časem.
-reviewed: false
+  Zlato je husté a těžké, což znamená, že přenášení velkých množství může být fyzicky náročné. Tato váha ho činí méně vhodným pro transport ve srovnání s lehčími materiály.
+reviewed: true

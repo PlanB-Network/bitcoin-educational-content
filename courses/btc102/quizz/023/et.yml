@@ -1,0 +1,9 @@
+question: Mis on FOMO Bitcoin'i investeeringute kontekstis?
+answer: Hirm Millestki Ilmajäämise Ees, mis võib viia impulsiivsete investeeringuteni.
+wrong_answers:
+  - Hirm Pakkumisi Teha, mis võib viia investeerimisel kõhklusteni.
+  - Hirm Turu Kõikumiste Ees, mis võib viia turu volatiilsuse pärast muretsemiseni.
+  - Hirm Raha Ülekoormuse Ees, mis võib viia üleinvesteerimiseni.
+explanation: |
+  Bitcoin'i investeeringute kontekstis tähistab FOMO Hirmu Millestki Ilmajäämise Ees. See võib viia impulsiivsete investeeringuteni, kuna investorid kiirustavad Bitcoin'i ostma hirmust jääda ilma potentsiaalsetest kasumitest.
+reviewed: false

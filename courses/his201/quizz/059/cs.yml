@@ -1,0 +1,8 @@
+question: Který člen fóra zveřejnil svůj těžební algoritmus po štědrém daru od Jeffa Garzika 18. září 2010?
+answer: puddinpop
+wrong_answers:
+  - nelisky
+  - m0mchil
+  - tcatm
+explanation: |
+  Do té doby z toho měli zisk z provize za používání jejich softwaru. Zveřejnili to pod svobodnou licencí.

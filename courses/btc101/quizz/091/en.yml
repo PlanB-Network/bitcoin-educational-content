@@ -1,11 +1,13 @@
 question: What is the recommended use of an offline, or cold, physical wallet?
-answer: To store larger amounts
+answer: Storing large amounts.
 wrong_answers:
-  - For daily expenses
-  - For small amounts
-  - For short-term savings
+  - Storing daily expenses.
+  - Storing small amounts.
+  - Storing short-term savings.
 explanation: |
-  An offline, or cold, physical wallet is recommended for storing larger
-  amounts because it is less vulnerable to online threats. However, it is not recommended
-  for daily expenses because it is less accessible for daily transactions.
+  An offline, or cold, physical wallet is recommended for
+  storing large amounts because it is less vulnerable to
+  online threats than hot wallets. However, it is not
+  recommended for daily expenses because it is less
+  accessible for daily transactions.
 reviewed: true

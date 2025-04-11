@@ -1,0 +1,22 @@
+id: 3d10557c-25bc-4a4d-baa5-af5028078e8b
+name: Bitcoin Association Arabia
+category: education
+
+links:
+  website: https://bitcoinassociation.ae/
+  twitter: https://x.com/BTCAssocArabia
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-01-20
+    urgency: 1
+    contributor_names:
+      - hunt-wood
+    reward: 0.06
+tags:
+  - historical
+  - adoption
+  - business
+contributor_names:
+  - PaoloFoti

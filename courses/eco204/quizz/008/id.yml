@@ -1,0 +1,13 @@
+question: Apa dampak dari peningkatan pasokan uang terhadap inflasi dan deflasi dalam sistem pasokan uang tetap?
+answer: Peningkatan pasokan uang menghilangkan potensi deflasi yang disebabkan oleh peningkatan produksi.
+wrong_answers:
+  - Peningkatan pasokan uang menyebabkan deflasi.
+  - Peningkatan pasokan uang tidak memiliki dampak terhadap inflasi atau deflasi.
+  - Peningkatan pasokan uang menyebabkan penurunan produksi.
+explanation: |
+  Bab ini menjelaskan bahwa dalam sistem pasokan uang tetap, peningkatan
+  produksi secara teoritis seharusnya menyebabkan deflasi, yaitu, penurunan harga,
+  karena akan ada lebih banyak barang dan jasa yang tersedia. Namun, dalam sistem moneter fiat
+  saat ini, peningkatan pasokan uang menghilangkan potensi deflasi
+  yang disebabkan oleh peningkatan produksi.
+reviewed: false

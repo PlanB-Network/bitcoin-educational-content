@@ -1,0 +1,13 @@
+question: Cosa rappresenta il punteggio di Boltzmann nel contesto delle transazioni Bitcoin?
+
+answer: La probabilità condizionata che un input sia collegato a un determinato output.
+
+wrong_answers:
+  - L'importo totale di bitcoin trasferiti.
+  - Il numero di input in una transazione.
+  - L'entropia relativa a ciascun input o output.
+
+explanation: |
+  Il punteggio di Boltzmann indica la probabilità condizionata che un input specifico sia collegato a un determinato output. È quindi una misura quantitativa della probabilità condizionata che un'associazione tra un input e un output in una transazione si verifichi, stabilita sul rapporto tra il numero di occorrenze favorevoli di questo evento rispetto al numero totale di occorrenze possibili, in un insieme di interpretazioni.
+
+reviewed: false

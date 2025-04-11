@@ -1,0 +1,8 @@
+question: Hva er rollen til Kerckhoffs prinsipp i kryptografi?
+answer: Å sikre at sikkerheten avhenger av den hemmelige nøkkelen, ikke av hemmeligholdelsen av systemet
+wrong_answers:
+  - Å sikre at sikkerheten avhenger av hemmeligholdelsen av systemet, ikke av den hemmelige nøkkelen
+  - Å kreve en veldig lang krypteringsnøkkel
+  - Å garantere at hver melding har en unik nøkkel
+explanation: |
+  Ifølge Kerckhoffs prinsipp, bør sikkerheten til et kryptografisk system utelukkende stole på den hemmelige nøkkelen, og ikke på hemmeligholdelsen av algoritmen selv.

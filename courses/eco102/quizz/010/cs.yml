@@ -1,0 +1,9 @@
+question: Který autor je primárně zodpovědný za vzdělání Frédérica Bastiata v ekonomii?
+answer: Say
+wrong_answers:
+  - Turgot
+  - Condillac
+  - Quesnay
+explanation: |
+  Frédéric Bastiat považuje Jeana-Baptista Saya za hlavního inspirátora, zejména pro jeho názory na hodnotu a volný obchod.
+reviewed: false

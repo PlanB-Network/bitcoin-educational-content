@@ -1,0 +1,9 @@
+question: Quale concetto matematico è alla base dello scambio di chiavi Diffie-Hellman?
+answer: Una funzione unidirezionale con una porta segreta
+wrong_answers:
+  - Una funzione esponenziale inversa
+  - Un algoritmo di hash crittografico
+  - Una divisione modulare semplificata
+explanation: |
+  Diffie-Hellman si basa su una funzione unidirezionale che è facile da calcolare in una direzione ma praticamente impossibile da invertire senza un pezzo segreto di informazione, chiamato porta segreta.
+reviewed: false

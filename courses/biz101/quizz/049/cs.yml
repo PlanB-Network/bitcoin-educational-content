@@ -1,0 +1,9 @@
+question: Jakou hlavní výhodu mají papírové peníze oproti mincím v tradičních platebních systémech?
+answer: Zvýšená přenositelnost a efektivita
+wrong_answers:
+  - Zvýšená vnitřní hodnota díky drahým kovům
+  - Automatické ověření každé transakce
+  - Úplná eliminace rizik padělání
+explanation: |
+  Papírové peníze byly lehčí a snadněji se přepravovaly než mince, což umožnilo efektivnější obchod na dlouhé vzdálenosti a snížilo logistické problémy.
+reviewed: false

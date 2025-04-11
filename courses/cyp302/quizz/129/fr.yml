@@ -1,0 +1,9 @@
+question: Quelle autre découverte britannique par des chercheurs de GCHQ a précédé celle de Diffie et Hellman, mais est restée secrète ?
+answer: Les concepts de cryptographie asymétrique et d'échange de clés
+wrong_answers:
+  - Un protocole symétrique de chiffrement avancé sans besoin de clé
+  - Une nouvelle méthode de hachage cryptographique asymétrique
+  - Une méthode pour créer de la monnaie électronique
+explanation: |
+  Des cryptographes britanniques, travaillant pour le GCHQ, ont développé de manière indépendante des idées semblables à celles de Diffie et Hellman, mais ces avancées sont restées confidentielles jusqu'à leur divulgation en 1997.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Tại sao mã hóa dịch chuyển được coi là mã hóa đối xứng?
+answer: Bởi vì cùng một khóa được sử dụng cho cả quá trình mã hóa và giải mã
+wrong_answers:
+  - Bởi vì nó sử dụng hai khóa, công khai và riêng tư
+  - Bởi vì nó giải mã mà không cần sử dụng khóa
+  - Bởi vì khóa thay đổi với mỗi lần mã hóa
+explanation: |
+  Mã hóa dịch chuyển được coi là mã hóa đối xứng bởi vì nó sử dụng cùng một khóa để mã hóa và giải mã một thông điệp, do đó đảm bảo tính bảo mật giữa các bên chia sẻ khóa này.
+reviewed: false

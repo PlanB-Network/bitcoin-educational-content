@@ -1,0 +1,12 @@
+question: Berapa tingkat inflasi tahunan di Bolivia pada tahun 1985?
+answer: 11,749%
+wrong_answers:
+  - 12,800%
+  - 10,000%
+  - 15,000%
+explanation: |
+  Pada tahun 1985, tingkat inflasi tahunan Bolivia mencapai 11,749%, menunjukkan
+
+  bahwa hampir setiap bulan, inflasi mendekati atau melebihi ambang batas hiperinflasi
+
+  sebesar 50%.

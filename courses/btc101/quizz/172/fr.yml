@@ -1,9 +1,13 @@
-question: Quelle est la principale différence entre les idées de l'économie keynésienne et de l'économie autrichienne en ce qui concerne le système monétaire ?
-answer: L'économie keynésienne ne tient pas compte des aspects temporels et dynamiques des situations et des ressources.
+question: Quelle est la principale différence entre l'économie keynésienne et l'économie autrichienne concernant le système monétaire ?
+answer: L'économie keynésienne ne prend pas en compte les aspects temporels et dynamiques des situations et des ressources.
 wrong_answers:
-  - L'économie keynésienne favorise la surconsommation et la dette.
-  - L'économie keynésienne ne reflète pas la rareté des ressources.
+  - L'économie keynésienne promeut la surconsommation des monnaies.
+  - L'économie keynésienne reconnaît la rareté des situations et des ressources.
   - L'économie keynésienne encourage l'inflation.
-explanation: |
-  La principale différence entre les idées de l'économie keynésienne et de l'économie autrichienne en ce qui concerne le système monétaire est que l'économie keynésienne ne tient pas compte des aspects temporels et dynamiques des situations et des ressources. En d'autres termes, une monnaie illimitée ne peut pas efficacement refléter les ressources limitées de notre planète.
-reviewed: false
+explanation: >-
+  La principale différence entre les idées de l'économie keynésienne et de l'économie
+  autrichienne en relation avec le système monétaire est que l'économie keynésienne ne
+  prend pas en compte les aspects temporels et dynamiques des situations et des ressources.
+  En d'autres termes, une monnaie illimitée ne peut pas refléter efficacement les ressources
+  limitées de notre planète.
+reviewed: true

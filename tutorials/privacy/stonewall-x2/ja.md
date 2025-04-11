@@ -36,7 +36,7 @@ StonewallX2トランザクションはStonewallトランザクションと全く
 
 Stonewall X2トランザクションであなたを支援する意志のある協力者を見つけたい場合は、Samouraiユーザーが送信者と協力者を繋ぐために維持しているこのTelegramグループ（非公式）を訪れることもできます：[Make Every Spend a Coinjoin](https://t.me/EverySpendACoinjoin)。
 
-[**-> Stonewallトランザクションについてもっと学ぶ**](https://planb.network/tutorials/privacy/stonewall)
+[**-> Stonewallトランザクションについてもっと学ぶ**](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)
 
 ## Stonewall x2トランザクションの目的は何ですか？
 

@@ -1,0 +1,9 @@
+question: Apa perbedaan antara phusis dan nomos?
+answer: Phusis adalah hukum alam, nomos adalah hukum manusia.
+wrong_answers:
+  - Phusis adalah hukum para dewa, nomos adalah hukum manusia.
+  - Phusis adalah hukum orang lemah, nomos adalah hukum orang kuat.
+  - Phusis adalah hukum zaman kuno, nomos adalah hukum zaman modern.
+explanation: |
+  Dalam filosofi Yunani, phusis merujuk pada hukum alam atau hukum yang melekat pada alam, independen dari tindakan manusia, sementara nomos merujuk pada hukum manusia, diciptakan oleh masyarakat untuk mengatur kehidupan dalam komunitas.
+reviewed: false

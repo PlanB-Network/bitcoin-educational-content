@@ -1,0 +1,9 @@
+question: O que é criptografia de fluxo assíncrono?
+answer: Uma criptografia cuja chave de fluxo depende tanto da chave quanto de elementos do texto previamente criptografado
+wrong_answers:
+  - Uma criptografia que gera uma chave de fluxo aleatória a cada uso
+  - Uma criptografia onde a chave deve ser alterada para cada mensagem
+  - Uma criptografia cuja chave de fluxo depende apenas da chave inicial
+explanation: |
+  A criptografia de fluxo assíncrono é um tipo de criptografia onde a chave de fluxo é influenciada pela chave e elementos do texto criptografado.
+reviewed: false

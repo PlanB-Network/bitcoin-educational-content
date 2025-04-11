@@ -1,0 +1,8 @@
+question: Apa peran dari timelock dalam operasi HTLCs?
+answer: Ini menyediakan jangka waktu untuk menyelesaikan pembayaran sebelum pembatalan
+wrong_answers:
+  - Ini meningkatkan kapasitas dari saluran yang digunakan
+  - Ini menambahkan lapisan privasi ke transaksi
+  - Ini menerapkan biaya tambahan untuk setiap node perantara
+explanation: |
+  Timelock memberlakukan jangka waktu untuk menyelesaikan sebuah HTLC, yang memungkinkan untuk pemulihan dana jika transaksi tidak berhasil, dengan membatalkan pembayaran setelah periode ini.

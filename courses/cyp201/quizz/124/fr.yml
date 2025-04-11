@@ -1,9 +1,0 @@
-question: Quel est le rôle principal des adresses de réception dans le système Bitcoin ?
-answer: Elles permettent de recevoir des fonds sur une pièce de monnaie.
-wrong_answers:
-  - Elles permettent d'envoyer des fonds à partir d'une pièce de monnaie.
-  - Elles permettent de miner de nouveaux bitcoins.
-  - Elles permettent de vérifier les transactions.
-explanation: |
-  Le rôle principal des adresses de réception dans le système Bitcoin est de permettre de recevoir des fonds sur une pièce de monnaie. Elles sont générées à partir de paires de clés privées et publiques.
-reviewed: false

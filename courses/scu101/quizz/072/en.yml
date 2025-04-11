@@ -1,0 +1,9 @@
+question: What is a password manager?
+answer: A tool that stores, generates, and manages passwords.
+wrong_answers:
+  - An antivirus software against hacking attacks.
+  - A secure email service.
+  - A backup tool for personal identity data.
+explanation: |
+  A password manager centralizes the storage and creation of passwords.
+reviewed: false

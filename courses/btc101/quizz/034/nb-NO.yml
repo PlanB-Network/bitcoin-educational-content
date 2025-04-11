@@ -1,0 +1,10 @@
+question: Hva er den største fordelen med gull som valuta?
+answer: Det er utrolig holdbart
+wrong_answers:
+  - Det er lett å dele opp eller transportere over lange avstander
+  - Det er lett å verifisere
+  - Det er ikke regulert av myndighetene
+explanation: |
+  Selv om det ikke er lett å dele opp eller transportere over lange avstander, noe som gjorde det til en god
+  verdioppbevaring, men ikke en vanlig valuta i dag.
+reviewed: true

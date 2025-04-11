@@ -1,0 +1,9 @@
+question: Que método é utilizado no RGB para definir um selo de utilização única?
+answer: Um ponto de saída específico
+wrong_answers:
+  - Uma chave pública específica
+  - Um endereço Bitcoin específico
+  - Uma combinação de vários UTXOs
+explanation: |
+  O RGB define um selo de utilização única como um ponto de saída específico, que pode então ser fechado pela despesa deste ponto de saída (TXID + número de saída).
+reviewed: false

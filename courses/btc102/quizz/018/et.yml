@@ -1,0 +1,12 @@
+question: Mis vahe on kauplemisel, investeerimisel ja hoidmisel Bitcoin'i kontekstis?
+answer: Kauplemine hõlmab lühiajalisi lepinguid kõrge riskiga, investeerimine tähendab BTC ostmist lühikeseks kuni keskmiseks ajaks piiratud riskiga ja hoidmine tähendab BTC säilitamist väga pikaks ajaks piiratud riskiga.
+wrong_answers:
+  - Kauplemine hõlmab BTC ostmist pikaks ajaks, investeerimine tähendab lühiajalisi lepinguid kõrge riskiga ja hoidmine tähendab BTC säilitamist lühikeseks kuni keskmiseks ajaks piiratud riskiga.
+  - Kauplemine hõlmab BTC ostmist lühikeseks kuni keskmiseks ajaks, investeerimine tähendab lühiajalisi lepinguid kõrge riskiga ja hoidmine tähendab BTC säilitamist väga pikaks ajaks kõrge riskiga.
+  - Kauplemine hõlmab BTC ostmist lühikeseks kuni keskmiseks ajaks, investeerimine tähendab lühiajalisi lepinguid kõrge riskiga ja hoidmine tähendab BTC säilitamist väga pikaks ajaks piiratud riskiga.
+explanation: |
+  Kauplemine, investeerimine ja hoidmine on kolm erinevat strateegiat, mida kasutatakse
+  Bitcoin'i turul. Kauplemine hõlmab lühiajalisi lepinguid kõrge riskiga, investeerimine
+  tähendab BTC ostmist lühikeseks kuni keskmiseks ajaks piiratud riskiga ja hoidmine tähendab
+  BTC säilitamist väga pikaks ajaks piiratud riskiga.
+reviewed: false

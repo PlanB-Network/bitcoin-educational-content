@@ -1,0 +1,8 @@
+question: Hva er båndbreddekravet for å kjøre en Bitcoin-node, med tanke på 1 blokk på 1MB hvert 10. minutt?
+answer: Omtrent 5GB per måned
+wrong_answers:
+  - Omtrent 1GB per måned
+  - Omtrent 10GB per måned
+  - Omtrent 20GB per måned
+explanation: >-
+  Med tanke på 1 blokk på 1MB hvert 10. minutt, krever kjøring av en Bitcoin-node omtrent 5GB per måned i båndbredde.

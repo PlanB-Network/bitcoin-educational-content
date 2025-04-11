@@ -1,0 +1,9 @@
+question: What are the implications of Euler's theorem in the context of asymmetric cryptography?
+answer: It simplifies the calculation of powers
+wrong_answers:
+  - It allows for the direct encryption of messages
+  - It is used to find prime numbers
+  - It is used to verify the parity of a number
+explanation: |
+  In asymmetric cryptography, Euler's theorem simplifies the calculation of powers in schemes like RSA, as it provides a method for manipulating modular exponentiations.
+reviewed: false

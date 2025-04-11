@@ -1,9 +1,11 @@
-question: ¿Qué es el trilema de la cadena de bloques?
-answer: Un protocolo basado en una cadena de bloques solo puede satisfacer dos de los siguientes aspectos de descentralización, seguridad y escalabilidad.
+question: ¿Qué es el trilema de la blockchain?
+answer: Un protocolo basado en una blockchain solo puede satisfacer dos de los criterios de descentralización, seguridad y escalabilidad.
 wrong_answers:
-  - Un protocolo basado en una cadena de bloques solo puede satisfacer uno de los aspectos de descentralización, seguridad y escalabilidad.
-  - Un protocolo basado en una cadena de bloques puede satisfacer todos los aspectos de descentralización, seguridad y escalabilidad.
-  - Un protocolo basado en una cadena de bloques no puede satisfacer ninguno de los aspectos de descentralización, seguridad y escalabilidad.
+  - Un protocolo basado en una blockchain solo puede satisfacer uno de los criterios de descentralización, seguridad y escalabilidad.
+  - Un protocolo basado en una blockchain puede satisfacer todos los criterios de descentralización, seguridad y escalabilidad.
+  - Un protocolo basado en una blockchain no puede satisfacer ninguno de los criterios de descentralización, seguridad y escalabilidad.
 explanation: |
-  El trilema de la cadena de bloques se refiere al desafío de que un protocolo basado en una cadena de bloques solo puede satisfacer dos de los aspectos de descentralización, seguridad y escalabilidad.
-reviewed: false
+  El trilema de la blockchain se refiere al desafío de que
+  un protocolo basado en una blockchain solo puede satisfacer dos criterios de
+  descentralización, seguridad y escalabilidad.
+reviewed: true

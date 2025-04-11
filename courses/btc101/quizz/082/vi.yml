@@ -1,9 +1,10 @@
-question: Công nghệ nào được sử dụng trong Ví Bitcoin để bảo mật quỹ chi tiêu trong Ví Bitcoin?
-answer: Mật mã học đường cong Elliptic
+question: Công nghệ nào được sử dụng để chi tiêu tiền một cách an toàn bằng Ví Bitcoin?
+answer: Mật mã học đường cong Elliptic.
 wrong_answers:
-  - Mật mã học đối xứng
-  - Mật mã học lượng tử
-  - Mật mã học RSA
+  - Mật mã học đối xứng.
+  - Mật mã học lượng tử.
+  - Mật mã học RSA.
 explanation: |
-  Việc chi tiêu Bitcoin đòi hỏi chủ sở hữu phải sử dụng Đường cong Elliptic để tạo ra một chữ ký cho giao dịch Bitcoin.
-reviewed: false
+  Việc chi tiêu Bitcoin đòi hỏi chủ sở hữu phải sử dụng Thuật toán Chữ ký Số Đường cong Elliptic (ECDSA) để tạo ra một chữ ký
+  cho việc truyền bá một giao dịch Bitcoin.
+reviewed: true

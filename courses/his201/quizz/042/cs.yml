@@ -1,0 +1,9 @@
+question: Ze které země pochází Gavin Andresen, který vytvořil první Bitcoin Faucet v červnu 2010 a pomáhal Satoshi při vývoji softwaru?
+answer: Austrálie
+wrong_answers:
+  - Spojené státy americké
+  - Francie
+  - Nizozemsko
+explanation: |
+  Narodil se [v Austrálii](https: //gavinthink.blogspot.com/2007/06/seven-years-ago-today.html), ale v roce 2004 získal americké občanství.
+reviewed: false

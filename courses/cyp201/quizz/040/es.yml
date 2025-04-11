@@ -1,9 +1,9 @@
-question: ¿Cuál es la importancia de usar un nonce único en el algoritmo ECDSA?
-answer: Ayuda a evitar ataques de seguridad.
+question: ¿Por qué es riesgoso generar entropía manualmente para un monedero HD?
+answer: Puede introducir debilidades humanas o sesgos predecibles
 wrong_answers:
-  - Aumenta la velocidad del algoritmo.
-  - Reduce la complejidad computacional.
-  - Es necesario para que el algoritmo funcione.
+  - Resulta en claves públicas inválidas
+  - Bloquea la derivación de claves privadas
+  - Limita el tamaño de las frases mnemotécnicas generadas
 explanation: |
-  El uso de un nonce único en el algoritmo ECDSA es crucial para mantener la seguridad. Reutilizar un nonce puede llevar a vulnerabilidades, como se demostró en el hackeo de PlayStation 3, que fue comprometido debido a la reutilización de un nonce.
+  Generar entropía manualmente puede introducir sesgos o errores, haciendo las claves más vulnerables a ataques.
 reviewed: false

@@ -1,0 +1,10 @@
+question: Hva er formålet med en Bitcoin-node i konteksten av Lightning Network?
+answer: Å hjelpe med å forstå og utforske de nye aspektene ved Bitcoin som er introdusert av Lightning Network.
+wrong_answers:
+  - Å utvinne nye Bitcoins.
+  - Å handle med Bitcoins.
+  - Å lagre Bitcoins.
+explanation: |
+  En Bitcoin-node i konteksten av Lightning Network brukes til å forstå
+  og utforske de nye aspektene ved Bitcoin som er introdusert av Lightning Network. Den
+  utvinner ikke nye Bitcoins, handler ikke med Bitcoins, eller lagrer ikke Bitcoins.

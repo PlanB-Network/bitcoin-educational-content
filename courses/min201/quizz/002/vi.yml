@@ -1,14 +1,18 @@
 question: Sự khác biệt chính giữa CPU và ASIC trong bối cảnh đào Bitcoin là gì?
-answer: CPU có thể thực hiện nhiều loại tính toán khác nhau mà không được tối ưu hóa đặc biệt cho một loại tính toán nào, trong khi đó ASIC chỉ có thể thực hiện một loại tính toán, nhưng rất hiệu quả
+
+answer: CPU có thể thực hiện nhiều loại tính toán khác nhau mà không được tối ưu hóa cụ thể cho một loại tính toán nào, trong khi đó ASIC chỉ có thể thực hiện một loại tính toán, nhưng rất hiệu quả.
+
 wrong_answers:
-  - CPU tiết kiệm năng lượng hơn ASIC
+  - CPU hiệu quả năng lượng hơn ASIC
   - ASIC đa năng hơn CPU
   - CPU chỉ có thể thực hiện một loại tính toán, trong khi ASIC có thể thực hiện nhiều loại tính toán khác nhau
-explanation: |
-  ASIC là các chip, tương tự như chip CPU, tuy nhiên, chúng được phát triển
-  để thực hiện chỉ một loại tính toán cụ thể một cách hiệu quả nhất có thể.
-  Nói cách khác, CPU có khả năng thực hiện nhiều loại tính toán khác nhau
-  mà không được tối ưu hóa đặc biệt cho một loại tính toán nào,
-  trong khi đó ASIC sẽ có thể thực hiện chỉ một loại tính toán, nhưng
-  rất hiệu quả.
-reviewed: false
+
+explanation:
+  ASIC là các chip, tương tự như chip CPU, tuy nhiên, chúng
+  được phát triển để thực hiện chỉ một loại
+  tính toán cụ thể một cách hiệu quả nhất có thể. Nói cách khác, CPU có khả năng thực hiện nhiều loại
+  tính toán khác nhau mà không được tối ưu hóa cụ thể cho loại tính toán nào, trong khi đó
+  ASIC sẽ có thể thực hiện chỉ một loại
+  tính toán, nhưng rất hiệu quả.
+
+reviewed: true

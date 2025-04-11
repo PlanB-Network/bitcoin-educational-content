@@ -1,9 +1,9 @@
 question: Jaký je jeden z důvodů, proč je Bitcoin atraktivní pro určité skupiny?
 answer: Jeho schopnost nabízet řešení jako je bezdůvěrná elektronická hotovost, odolnost vůči cenzuře nebo transparentní a neměnná měnová politika.
 wrong_answers:
-  - Je snadné ho padělat.
-  - Je kontrolován centrální autoritou.
-  - Není pseudonymní.
+  - Je snadné ho padělat a může vytvářet řešení pro získání více peněz jednoduchým kliknutím.
+  - Je kontrolován centrální autoritou, která volně distribuuje kapitál uživatelům.
+  - Není pseudonymní, takže každý uživatel je dobře známý a důvěryhodný.
 explanation: >-
-  Decentralizovaná povaha Bitcoinu, pseudonymita a odolnost vůči cenzuře jej činí atraktivním pro skupiny jako jsou technofilové, cypherpunkové, libertariané a nadšenci do zlata.
-reviewed: false
+  Decentralizovaná povaha Bitcoinu, pseudonymita a odolnost vůči cenzuře jej činí atraktivním pro skupiny jako jsou technofilové, cypherpunkové, libertariáni a nadšenci do zlata.
+reviewed: true

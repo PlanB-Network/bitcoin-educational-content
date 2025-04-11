@@ -1,0 +1,11 @@
+question: Kuidas aitavad stabiilmündid vähendada ülekannetega seotud kulusid?
+answer: Pakkudes madalamaid tasusid kui traditsioonilised teenused
+wrong_answers:
+  - Pakkudes tasuta rahaülekande teenuseid
+  - Andes isikutele paremaid vahetuskursse kui traditsioonilised teenused
+  - Digiteerides fiat-valuutasid
+explanation: |
+  Stabiilmündid, erinevalt traditsioonilistest rahaülekande teenustest, omavad oluliselt 
+  madalamaid tasusid, kuna neil ei ole vaja vahendajaid nagu pangad või rahaülekande 
+  teenused.
+reviewed: true

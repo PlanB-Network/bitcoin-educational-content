@@ -1,11 +1,12 @@
 question: Mục đích của giao thức HTTPS là gì?
 answer: Nó mã hóa dữ liệu trên các trang web để đảm bảo trao đổi an toàn giữa người dùng và trang web.
 wrong_answers:
-  - Nó cho phép người dùng vượt qua các hạn chế địa lý.
-  - Nó cho phép người dùng chặn quảng cáo trực tuyến.
-  - Nó cho phép người dùng truy cập internet mà không sử dụng dữ liệu.
+  - Nó cho phép người dùng vượt qua các hạn chế địa lý khi thanh toán qua thẻ ghi nợ hoặc thẻ tín dụng.
+  - Nó cho phép người dùng một phần chặn quảng cáo trực tuyến.
+  - Nó cho phép người dùng truy cập internet mà không cần sử dụng thông tin đăng nhập cá nhân.
 explanation: |
-  Giao thức HTTPS được sử dụng để mã hóa dữ liệu trên các trang web, đảm bảo rằng
-  dữ liệu trao đổi giữa người dùng và trang web là an toàn. Điều này giúp bảo vệ
-  chống lại việc bên thứ ba chặn dữ liệu.
-reviewed: false
+  Giao thức HTTPS được sử dụng để mã hóa dữ liệu trên các trang web,
+  đảm bảo rằng dữ liệu trao đổi giữa người dùng và
+  trang web là an toàn. Điều này giúp bảo vệ chống lại việc bên thứ ba
+  chặn dữ liệu.
+reviewed: true

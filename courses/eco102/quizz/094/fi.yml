@@ -1,0 +1,8 @@
+question: Mikä rooli lain tulisi Bastiat'n mukaan olla omaisuuden oikeuden suhteen?
+answer: Varmistaa omaisuuden oikeuksien suojelu, ei niiden luominen
+wrong_answers:
+  - Määrittää omaisuuden oikeuksien rajat yleisen tahdon mukaan
+  - Uudelleenjakaa resursseja varmistaakseen tasa-arvon kansalaisten kesken
+  - Suojella omaisuutta samalla säännellen sen käyttöä yhteisen hyvän mukaisesti
+explanation: |
+  Bastiat pitää lakia keinona puolustaa omaisuuden oikeutta, jonka hän katsoo luonnolliseksi oikeudeksi, joka edeltää kaikkea lainsäädäntöä.

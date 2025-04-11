@@ -1,9 +1,12 @@
-question: Qual é o precedente histórico para o uso de moedas fiduciárias?
-answer: Líderes centralizando o ouro e introduzindo uma nova moeda equivalente em valor ao ouro, que é então gradualmente desvalorizada.
+question: Qual é o caminho histórico seguido pelas instituições na introdução de moedas fiduciárias?
+answer: Líderes centralizam o ouro e introduzem uma nova moeda equivalente ao ouro em valor, que é então gradualmente desvalorizada.
 wrong_answers:
-  - Líderes introduzindo uma nova moeda lastreada em ouro, que é então gradualmente valorizada.
-  - Líderes introduzindo uma nova moeda sem valor intrínseco, que é então gradualmente valorizada.
-  - Líderes introduzindo uma nova moeda lastreada por uma cesta de commodities, que é então mantida estável em valor.
+  - Líderes introduzem uma nova moeda respaldada por ouro, que é então gradualmente aumentada em valor.
+  - Líderes introduzem uma nova moeda sem valor intrínseco, que é então gradualmente aumentada em valor.
+  - Líderes introduzem uma nova moeda respaldada por uma cesta de commodities, que é então mantida estável em valor.
 explanation: |
-  Historicamente, líderes centralizaram o ouro e introduziram uma nova moeda equivalente em valor ao ouro. Essa nova moeda é então gradualmente desvalorizada, muitas vezes sob o pretexto de ser no interesse do povo.
-reviewed: false
+  Historicamente, líderes centralizaram o ouro e introduziram
+  uma nova moeda equivalente em valor ao ouro. Esta nova
+  moeda é então gradualmente desvalorizada, muitas vezes sob o pretexto
+  de estar no interesse do povo.
+reviewed: true

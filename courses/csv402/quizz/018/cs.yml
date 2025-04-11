@@ -1,0 +1,9 @@
+question: Jaké operace definují vývoj inteligentní smlouvy v RGB?
+answer: Přechod stavu, geneze a rozšíření stavu
+wrong_answers:
+  - Vytvoření pečeti, dodržování smlouvy a závěrečné ověření
+  - Přenos UTXO, generování důkazu a závazek hashování
+  - Přechodové svazky, jednorázové pečetě a vytváření valencí
+explanation: |
+  Tyto operace vytvářejí nebo mění stav smlouvy a zároveň zaručují její platnost prostřednictvím kotev Bitcoin.
+reviewed: false

@@ -1,11 +1,11 @@
 question: What is one way to test out the Lightning Network for yourself?
-answer: By trying the podcast application Fountain
+answer: By trying the podcast application called Fountain.
 wrong_answers:
-  - By mining Bitcoin
-  - By buying Bitcoin
-  - By creating a new cryptocurrency
+  - By mining Bitcoin using a personal computer.
+  - By buying Bitcoin from the bank.
+  - By creating a new cryptocurrency.
 explanation: >-
   One way to test out the Lightning Network for yourself is by trying the
   podcast application Fountain, which allows you to be rewarded with a few sats for
   listening to your favorite podcasts.
-reviewed: false
+reviewed: true

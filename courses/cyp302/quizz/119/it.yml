@@ -1,0 +1,8 @@
+question: Perché la cifratura AES in modalità ECB non è raccomandata per un uso sicuro?
+answer: Risulta in una cifratura deterministica
+wrong_answers:
+  - Richiede una chiave di più di 128 bit
+  - È troppo lenta per la maggior parte delle applicazioni moderne
+  - Non consente di dividere il testo in blocchi di 128 bit
+explanation: |
+  La modalità ECB non è raccomandata perché produce una cifratura deterministica, il che significa che blocchi identici di testo in chiaro produrranno blocchi identici di testo cifrato, che possono essere sfruttati per indovinare informazioni sul testo in chiaro.

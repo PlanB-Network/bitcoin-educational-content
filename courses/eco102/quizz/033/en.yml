@@ -1,0 +1,9 @@
+question: According to Rousseau, where does evil in society come from?
+answer: From property
+wrong_answers:
+  - From inequality
+  - From servitude
+  - From individualism
+explanation: |
+  Rousseau sees property as a source of social evil because it introduces inequalities and a desire for domination.
+reviewed: false

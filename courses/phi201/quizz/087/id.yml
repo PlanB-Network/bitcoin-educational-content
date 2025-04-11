@@ -1,0 +1,8 @@
+question: Menurut Constant, apa saja area di mana kekuasaan politik tidak memiliki pengaruh?
+answer: Semua domain yang disebutkan di atas (agama, sains, industri).
+wrong_answers:
+  - Agama
+  - Sains
+  - Industri
+explanation: |
+  Constant percaya bahwa kekuasaan politik tidak seharusnya campur tangan dalam area seperti agama, sains, dan industri, untuk menjaga kebebasan individu dan otonomi aktivitas manusia yang masuk dalam ranah pribadi.

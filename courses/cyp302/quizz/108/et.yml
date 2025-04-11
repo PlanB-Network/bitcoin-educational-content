@@ -1,0 +1,9 @@
+question: Miks ei piisa suhtlussessioonis ainult autentimisega krüpteerimisskeemist?
+answer: See ei taga, et sõnum saadeti saatja poolt sessiooni ajal.
+wrong_answers:
+  - See kasutab liiga lühikesi võtmeid.
+  - See ei krüpteeri sessiooni ajal saadetud sõnumeid.
+  - See ei võimalda saatja autentimist sessiooni ajal.
+explanation: |
+  Autentimisega krüpteerimisskeem ei kaitse ründete eest nagu kordus, ümberjärjestamine ja peegeldamine ilma identifikaatorite ja järjekorranumbrite lisamiseta.
+reviewed: false

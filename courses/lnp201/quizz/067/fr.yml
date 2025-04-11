@@ -1,9 +1,0 @@
-question: Quels facteurs sont pris en compte lors de l'estimation des itinéraires les plus susceptibles de réussir dans le Lightning Network ?
-answer: Les frais, le délai d'expiration des HTLC, le nombre de nœuds intermédiaires et un facteur de hasard.
-wrong_answers:
-  - La taille de la transaction, la hauteur du bloc et les frais de transaction.
-  - Les frais de transaction, la taille du bloc et le temps de confirmation de la transaction.
-  - Le temps de confirmation de la transaction, la hauteur du bloc et la taille de la transaction.
-explanation: |
-  Lors de l'estimation des itinéraires les plus susceptibles de réussir dans le Lightning Network, les nœuds prennent en compte plusieurs facteurs. Il s'agit notamment des frais associés à chaque itinéraire, du délai d'expiration des HTLC, du nombre de nœuds intermédiaires et d'un facteur de hasard pour éviter d'utiliser toujours les mêmes itinéraires.
-reviewed: false

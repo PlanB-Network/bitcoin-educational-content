@@ -6,8 +6,7 @@ wrong_answers:
   - High inflation
 explanation: |
   For both monetarists and Keynesians, the cause of the depression is
-  insufficient
-  aggregate demand. They believe that providing an incentive for credit expansion
-  (lowering interest rates) and using the state's deficit capacity to boost demand
-  will kickstart a recovery.
-reviewed: false
+  insufficient aggregate demand. They believe that providing an incentive 
+  for credit expansion (lowering interest rates) and using the state's 
+  deficit capacity to boost demand will kickstart a recovery.
+reviewed: true

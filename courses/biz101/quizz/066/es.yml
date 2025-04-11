@@ -1,0 +1,9 @@
+question: ¿Qué solución alternativa se menciona para las empresas que prefieren un entorno minorista en línea todo en uno?
+answer: Be-BOP
+wrong_answers:
+  - Phoenix
+  - Nodo abierto
+  - Swiss Bitcoin Pay
+explanation: |
+  Be-BOP es una opción para quienes desean una tienda electrónica integrada que facilite los pagos con Bitcoin.
+reviewed: false

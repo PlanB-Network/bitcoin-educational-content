@@ -1,0 +1,11 @@
+question: Apa itu konsep utilitas marjinal yang menurun?
+answer: Setiap unit tambahan dari sebuah barang kurang diinginkan daripada sebelumnya.
+wrong_answers:
+  - Setiap unit tambahan dari sebuah barang lebih diinginkan daripada sebelumnya.
+  - Setiap unit tambahan dari sebuah barang sama diinginkannya dengan sebelumnya.
+  - Keinginan untuk setiap unit tambahan dari sebuah barang berfluktuasi secara tidak terduga.
+explanation: |
+  Konsep utilitas marjinal yang menurun menyatakan bahwa setiap unit tambahan
+  dari sebuah barang kurang diinginkan daripada sebelumnya. Ini karena ketika seseorang
+  mendapatkan lebih banyak dari sebuah barang, semakin sedikit utilitas yang diberikan oleh setiap unit tambahan dari barang tersebut.
+reviewed: false

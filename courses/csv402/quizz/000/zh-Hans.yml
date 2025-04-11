@@ -1,0 +1,9 @@
+question: 在 RGB 使用的客户端验证范例中，区块链的主要功能是什么？
+answer: 提供时间戳，防止重复支出
+wrong_answers:
+  - 存储所有状态转换
+  - 复制智能合约数据
+  - 保证全球数据可用性
+explanation: |
+  RGB 中使用比特币区块链为承诺添加时间戳，防止重复消费，但不存储所有状态转换。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Que signifie le terme corps premier ?
+answer: Un corps avec un nombre premier d'éléments
+wrong_answers:
+  - Un corps contenant des nombres premiers uniquement
+  - Un corps défini uniquement par addition de nombres premiers
+  - Un corps qui utilise des vecteurs aléatoires
+explanation: |
+  Un corps premier contient un nombre d'éléments égal à un nombre premier, ce qui en fait un corps de base pour les opérations cryptographiques.
+reviewed: false

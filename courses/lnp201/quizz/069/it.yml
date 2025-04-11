@@ -1,9 +1,0 @@
-question: Cosa succede quando un tentativo di transazione fallisce a causa di liquidità insufficiente nella Lightning Network?
-answer: Viene provata un'altra via finché non viene effettuata una transazione riuscita.
-wrong_answers:
-  - La transazione viene annullata e i fondi vengono restituiti al mittente.
-  - La transazione viene messa in attesa fino a quando non è disponibile liquidità sufficiente.
-  - La transazione viene automaticamente reindirizzata verso un canale con liquidità sufficiente.
-explanation: |
-  Nella Lightning Network, se un tentativo di transazione fallisce a causa di liquidità insufficiente in un canale, il nodo proverà un'altra via. Questo processo continua finché non viene effettuata una transazione riuscita. Questo meccanismo garantisce che le transazioni possano essere completate anche se la via inizialmente scelta non ha abbastanza liquidità.
-reviewed: false

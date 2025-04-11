@@ -1,9 +1,10 @@
-question: Quel est le premier vecteur d'attaque pour les pirates informatiques?
-answer: Emails
+question: Quel est le premier vecteur d'attaque pour les pirates informatiques ?
+answer: Les emails
 wrong_answers:
-  - Réseaux sociaux
-  - Sites de vente en ligne
-  - Sites de banque
+  - Les réseaux sociaux
+  - Les sites d'achats en ligne
+  - Les sites bancaires
 explanation: |
-  Les emails sont le premier vecteur d'attaque pour les pirates informatiques. Ils utilisent des tentatives de phishing pour extraire des informations sensibles telles que vos identifiants et mots de passe.
-reviewed: false
+  Les emails sont le premier vecteur d'attaque pour les pirates informatiques. Ils utilisent
+  des tentatives de phishing pour extraire des informations sensibles telles que
+  vos identifiants et mots de passe.

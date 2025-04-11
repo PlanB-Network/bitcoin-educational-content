@@ -1,0 +1,8 @@
+question: Mis on levinud pettus finantsinvesteeringute valdkonnas?
+answer: Püramiidskeemid.
+wrong_answers:
+  - Füüsiliste kaupade müük.
+  - Tarkvaratoodete müük.
+  - Fiat-raha müük.
+explanation: |
+  Finantsinvesteeringute valdkonnas paistavad silma püramiidskeemid ja Ponzi skeemid kui ebaseaduslikud mudelid. Need toimivad, kasutades uute investorite raha vanemate osalejate maksmiseks.

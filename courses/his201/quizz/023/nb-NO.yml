@@ -1,0 +1,9 @@
+question: Hvor publiserte Satoshi Nakamoto Bitcoin-hvitboken den 31. oktober 2008?
+answer: Kryptografimailinglisten
+wrong_answers:
+  - Reddit
+  - Twitter
+  - Hackernews
+explanation: |
+  Som etterfølgeren til cypherpunks-mailinglisten, ble denne e-post mailinglisten administrert av utvikleren Perry Metzger siden 1996.
+reviewed: false

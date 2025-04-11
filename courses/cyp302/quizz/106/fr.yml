@@ -1,0 +1,9 @@
+question: Quel mécanisme empêche les attaques par réflexion dans une communication sécurisée ?
+answer: L'ajout d'un identifiant unique pour chaque participant
+wrong_answers:
+  - L'augmentation de la longueur de la clé
+  - L'utilisation de plusieurs clés pour chaque message
+  - L'ajout d'une clé supplémentaire dans chaque message
+explanation: |
+  L'ajout d'un identifiant unique pour chaque participant dans le message chiffré empêche les attaques par réflexion, car il permet de distinguer l'origine des messages.
+reviewed: false

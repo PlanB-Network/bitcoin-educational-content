@@ -1,0 +1,12 @@
+question: Hva er den største fordelen med å bruke ikke-forvaringsbaserte lommebøker for lagring av bitcoin?
+answer: Økt sikkerhet og personvern
+wrong_answers:
+  - Enkel tilgang til bitcoin
+  - Lavere transaksjonsgebyrer
+  - Ikke behov for et passord
+explanation: |
+  Ikke-forvaringsbaserte lommebøker er der du er den eneste forvalteren av dine midler,
+  noe som betyr at du har full kontroll over dine private nøkler. Derfor,
+  tilbyr ikke-forvaringsbaserte lommebøker et høyere nivå av sikkerhet og personvern
+  over forvaringsbaserte lommebøker siden du er den eneste som er ansvarlig for sikkerheten til dine midler.
+reviewed: true

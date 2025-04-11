@@ -1,0 +1,13 @@
+question: Mikä vaihtoehto mahdollistaa P2P-siirron V2; n ottamisen käyttöön tai poistamisen käytöstä Bitcoin Core -konfiguraatiotiedostossa?
+
+answer: v2transport=
+
+wrong_answers:
+  - p2penable=
+  - networkv2=
+  - enablev2=
+
+explanation: |
+  P2P V2 -siirtoa voidaan muokata v2transport=-vaihtoehdolla Core-solmun konfiguraatiotiedostossa.
+
+reviewed: false

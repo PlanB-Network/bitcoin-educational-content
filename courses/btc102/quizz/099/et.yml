@@ -1,0 +1,9 @@
+question: Milline on paranoilise Bitcoini kasutaja mõtteviis Bitcoini kasutamisel?
+answer: Ettevaatlikkus, turvalisus ja anonüümsus on üliolulised
+wrong_answers:
+  - Usaldus, avatus ja läbipaistvus on üliolulised
+  - Riskivalmidus, usaldus ja avatus on üliolulised
+  - Teadmatus, usaldus ja läbipaistvus on üliolulised
+explanation: |
+  Peatükk kirjeldab paranoilise Bitcoini kasutaja mõtteviisi kui sellist, kus
+  ettevaatlikkus, turvalisus ja anonüümsus on üliolulised.

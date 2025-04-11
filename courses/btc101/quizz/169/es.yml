@@ -1,9 +1,12 @@
-question: ¿Cómo recompensa el protocolo de Bitcoin al minero que encuentra un hash válido para el siguiente bloque?
-answer: Con una recompensa definida por las reglas de consenso y las tarifas de transacción de todas las transacciones incluidas en el bloque válido.
+question: ¿Cómo recompensa el protocolo de Bitcoin al minero que encuentra un hash válido para el bloque subsiguiente?
+answer: Con una recompensa definida por las reglas de consenso, y con las comisiones de todas las transacciones incluidas en el bloque válido.
 wrong_answers:
-  - Con una cantidad fija de Bitcoin
-  - Con un porcentaje del suministro total de Bitcoin
-  - Con las tarifas de transacción de todas las transacciones incluidas en el bloque válido
+  - Con una cantidad fija de bitcoins no definida por las reglas de consenso.
+  - Con un porcentaje del suministro total de Bitcoin y las comisiones de todas las transacciones incluidas en los bloques anteriores.
+  - Con las comisiones de todas las transacciones incluidas en el bloque válido.
 explanation: |
-  El protocolo de Bitcoin recompensa al minero que encuentra un hash válido para el siguiente bloque con una recompensa cuya cantidad está definida por las reglas de consenso, así como las tarifas de transacción de todas las transacciones incluidas en el bloque válido.
-reviewed: false
+  El protocolo de Bitcoin recompensa al minero que encuentra un
+  hash válido para el bloque subsiguiente con una recompensa cuya cantidad es
+  definida por las reglas de consenso, junto con las comisiones de
+  todas las transacciones incluidas en el bloque válido.
+reviewed: true

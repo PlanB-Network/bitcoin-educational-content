@@ -1,9 +1,0 @@
-question: Lightning Networkで流動性を管理するために、購入者は何をする必要がありますか？
-answer: チャネルを開く
-wrong_answers:
-  - 他のノードに接続する
-  - 両側に流動性のバランスを維持する
-  - チャネルを購入する
-explanation: |
-  Lightning Networkの購入者にとって、流動性を管理することは、チャネルを開くことを意味します。これにより、彼らは外向きの流動性を得ることができます。
-reviewed: false

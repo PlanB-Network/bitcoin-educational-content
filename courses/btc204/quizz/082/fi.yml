@@ -1,0 +1,13 @@
+question: Mikä Chaumian CoinJoin -prosessin vaihe sisältää identiteetin vaihtamisen Tor-verkossa anonyymiyden varmistamiseksi?
+
+answer: Ulostulojen rekisteröinti.
+
+wrong_answers:
+  - Sisääntulojen rekisteröinti.
+  - Transaktion allekirjoittaminen.
+  - Transaktion lähettäminen.
+
+explanation: |
+  Jotta koordinaattori ei pystyisi yhdistämään tiettyä ulostuloa sisääntuloon, käyttäjät vaihtavat Tor-identiteettinsä ennen kuin lähettävät selkokieliset vastaanotto-osoitteensa koordinaattorille.
+
+reviewed: false

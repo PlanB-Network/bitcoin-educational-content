@@ -1,63 +1,88 @@
+id: 09234f39-a51b-40ad-9b92-d8ff00d23dc5
 chapterId: 8533cebc-f799-528b-89df-8d75d4c37f1c
 difficulty: easy
 duration: 15
 author: DecouvreBitcoin
-tags:
-  - Bitcoin
-  - Nodes
-  - Blockchain
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2684
+    contributor_names:
+    reward: 0.23
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2592
+    contributor_names:
+    reward: 0.2
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
-    reward: 1296
+    reward: 0.1
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2638
+    contributor_names:
+    reward: 0.2
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2684
+    contributor_names:
+    reward: 0.23
   - language: fr
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2592
+    contributor_names:
+    reward: 0.2
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2638
+    contributor_names:
+    reward: 0.2
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2776
+    contributor_names:
+    reward: 0.3
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2592
+    contributor_names:
+    reward: 0.2
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 2776
+    contributor_names:
+    reward: 0.3
+
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.23
+
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.27
+
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.23
+
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.23
+
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.27

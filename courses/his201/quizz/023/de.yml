@@ -1,0 +1,9 @@
+question: Wo hat Satoshi Nakamoto das Bitcoin-Whitepaper am 31. Oktober 2008 veröffentlicht?
+answer: Die Kryptographie-Mailingliste
+wrong_answers:
+  - Reddit
+  - Twitter
+  - Hackernews
+explanation: |
+  Als Nachfolger der Cypherpunks-Mailingliste wurde diese E-Mail-Mailingliste seit 1996 vom Entwickler Perry Metzger verwaltet.
+reviewed: false

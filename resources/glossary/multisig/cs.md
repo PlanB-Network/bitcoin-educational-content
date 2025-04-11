@@ -1,0 +1,7 @@
+---
+term: MULTISIG
+
+---
+Peněženky s více podpisy, často označované zkratkou "multisig", jsou navrženy tak, aby zvýšily bezpečnost bitcoinů tím, že k autorizaci výdajů vyžadují více podpisů z různých soukromých klíčů. Tato metoda rozděluje riziko mezi více klíčů, což pomáhá snížit riziko ztráty i krádeže (v závislosti na konfiguraci multisig). Multisig peněženky fungují na modelu "m-of-n", kde `m` představuje minimální počet podpisů potřebných k ověření transakce a `n` je celkový počet zapojených klíčů. Například nastavení 2-of-3 vyžaduje k ověření transakce dva ze tří možných podpisů. Tento přístup nabízí vyšší bezpečnost ve srovnání s peněženkami s jedním klíčem, ale také přináší větší složitost z hlediska správy a zálohování. Transakce využívající starší standardy multisig jsou navíc méně privátní a poplatkově dražší než tradiční transakce s jedním klíčem. Očekává se však, že nedávné inovace, jako je Taproot a používání deskriptorů, tyto nevýhody multisigů minimalizují, ne-li odstraní.
+
+> ► Někteří bitcoináři rozlišují mezi pojmy "Multisig" a "Threshold Multisig" Někteří totiž tvrdí, že multisig je nutně n-of-n, zatímco prahový multisig je m-of-n. V běžném jazyce je však přijatelné označovat "Multisig" i pro m-of-n.*

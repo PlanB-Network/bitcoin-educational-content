@@ -1,0 +1,10 @@
+question: Какова роль компаний вроде OpenNode, Swiss Bitcoin Pay и BTCPay в экосистеме Bitcoin?
+answer: Они предоставляют инструменты, которые упрощают для бизнеса прием Bitcoin.
+wrong_answers:
+  - Они добывают Bitcoin.
+  - Они регулируют Bitcoin.
+  - Они выпускают Bitcoin.
+explanation: |
+  Компании вроде OpenNode, Swiss Bitcoin Pay и BTCPay предоставляют инструменты,
+  которые упрощают для бизнеса прием Bitcoin, способствуя его принятию
+  и использованию в повседневных транзакциях.

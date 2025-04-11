@@ -1,0 +1,9 @@
+question: Apa yang terjadi jika kunci privat Anda terungkap kepada pihak ketiga?
+answer: Dana yang terkait tidak lagi aman
+wrong_answers:
+  - Pihak ketiga hanya dapat melihat riwayat transaksi Anda
+  - Pihak ketiga dapat mengubah kunci privat Anda
+  - Pihak ketiga dapat mengakses informasi pribadi Anda
+explanation: |
+  Jika kunci privat Anda terungkap kepada pihak ketiga, dana yang terkait tidak lagi aman. Ini karena kunci privat merupakan akses ke dana Anda.
+reviewed: true

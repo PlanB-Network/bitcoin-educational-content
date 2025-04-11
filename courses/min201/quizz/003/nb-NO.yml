@@ -1,0 +1,12 @@
+question: Hva er den viktigste økonomiske insentivet for gruvearbeidere til å delta i Bitcoin-gruveprosessen?
+answer: Gruvebelønningen
+wrong_answers:
+  - Evnen til å kontrollere Bitcoin-nettverket
+  - Evnen til å skape nye bitcoins etter ønske
+  - Evnen til å manipulere prisen på Bitcoin
+explanation: |
+  Det viktigste økonomiske insentivet for gruvearbeidere til å delta i
+  Bitcoin-gruveprosessen er gruvebelønningen. Denne
+  belønningen fungerer som et kraftig insentiv for å oppmuntre gruvearbeidere
+  til å delta i gruveprosessen til tross for dens energikostnad.
+reviewed: true

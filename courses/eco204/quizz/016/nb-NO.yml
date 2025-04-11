@@ -1,0 +1,9 @@
+question: Hva er terskelen for hyperinflasjon ifølge definisjonen til Philip Cagan?
+answer: Månedlig inflasjon overstiger 50%
+wrong_answers:
+  - Månedlig inflasjon overstiger 40%
+  - Månedlig inflasjon overstiger 60%
+  - Månedlig inflasjon overstiger 70%
+explanation: |
+  Ifølge definisjonen til Philip Cagan begynner hyperinflasjon når månedlig
+  inflasjon overstiger 50%.

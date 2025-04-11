@@ -1,9 +1,9 @@
-question: Mục đích của HMAC trong giao thức Bitcoin là gì?
-answer: Nó được sử dụng để chống lại các cuộc tấn công mở rộng độ dài khi tạo ví xác định phân cấp (HD).
+question: Tại sao đường cong elliptic secp256r1 không được sử dụng trong Bitcoin?
+answer: Có khả năng để tránh một cửa hậu
 wrong_answers:
-  - Nó được sử dụng để chuyển đổi cụm từ ghi nhớ thành một hạt giống.
-  - Nó được sử dụng để tạo ra một đầu ra cố định kích thước.
-  - Nó được sử dụng để thêm một nguồn entropy bổ sung trong việc suy ra khóa.
+  - Bởi vì nó quá chậm
+  - Bởi vì nó không được chuẩn hóa
+  - Bởi vì nó yêu cầu phần cứng chuyên biệt
 explanation: |
-  HMAC chủ yếu được sử dụng để chống lại các cuộc tấn công mở rộng độ dài khi tạo ví xác định phân cấp (HD). Nó nhận một thông điệp và một khóa làm đầu vào và tạo ra một đầu ra cố định kích thước.
+  Satoshi Nakamoto có lẽ đã ưu tiên sử dụng đường cong secp256k1, vì các tham số của secp256r1 có thể chứa một lỗ hổng ẩn.
 reviewed: false

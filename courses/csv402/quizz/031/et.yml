@@ -1,0 +1,9 @@
+question: Mida ma saan teha RGB-ülekandes oleva arvega?
+answer: Märkige tehingu liik, nõutavate varade kogus ja saaja pitseri määratlus
+wrong_answers:
+  - Loo vara jaoks uus Genesis
+  - Loo uus skeem, et muuta vara äriloogikat
+  - PSBT ehitamine Bitcoini tehingu asendamiseks
+explanation: |
+  Arvet kasutatakse selleks, et teavitada tehingu väljastaja tehingu liigist, ülekantavate varade kogusest ja sihtkohast (pitseri määratlus).
+reviewed: false

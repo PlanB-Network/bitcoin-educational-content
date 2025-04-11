@@ -1,9 +1,9 @@
-question: ¿Cuál es el propósito del Timelock en una transacción de compromiso?
-answer: Bloquea los fondos hasta un bloque específico.
+question: ¿Qué información debe conocer el nodo emisor para realizar un pago mediante enrutamiento onion?
+answer: La topología de la red y la ruta completa hasta el destinatario
 wrong_answers:
-  - Bloquea la transacción hasta un bloque específico.
-  - Bloquea el canal hasta un bloque específico.
-  - Bloquea la clave de revocación hasta un bloque específico.
+  - Solo el siguiente nodo intermedio
+  - La capacidad de cada canal
+  - La firma criptográfica de cada nodo en el camino
 explanation: |
-  El Timelock en una transacción de compromiso bloquea los fondos hasta un bloque específico. Esto evita que la parte que creó la transacción recupere inmediatamente su dinero.
+  El nodo emisor debe conocer la topología de la red para calcular la ruta hasta el destinatario, lo que le permite elegir el mejor camino.
 reviewed: false

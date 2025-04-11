@@ -1,0 +1,10 @@
+question: Jak działa faza macierzysta w protokole Dandelion?
+answer: Transakcja jest wysyłana przez losową ścieżkę węzłów
+wrong_answers:
+  - Transakcja jest natychmiast transmitowana do wszystkich węzłów równorzędnych węzła źródłowego
+  - Transakcja jest tymczasowo przechowywana w węźle centralnym przed jej rozesłaniem
+  - Transakcja jest szyfrowana przyrostowo na każdym etapie transmisji
+explanation: |
+  Dandelion najpierw wykorzystuje fazę macierzystą, w której transakcja jest wysyłana przez losową ścieżkę węzłów. Transakcja jest następnie transmitowana do całej sieci w fazie fluff.
+  
+reviewed: false

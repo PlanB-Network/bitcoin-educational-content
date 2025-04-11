@@ -1,0 +1,9 @@
+question: What is the role of the stash?
+answer: Keep all client-side data locally
+wrong_answers:
+  - Automatically publish transactions on the blockchain
+  - Compile and store all generated invoices
+  - Managing Bitcoin private keys
+explanation: |
+  The stash is the set of client-side data that a user stores locally for one or more RGB contracts, in order to perform client-side validation.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Millist rolli mängib skeem RGBs?
+answer: Lepingumuutujate, reeglite ja äriloogika määratlemine
+wrong_answers:
+  - Osalejate vahel vahetatud kaubasaadetised
+  - Validating Pedersen Commitments on Bitcoin tehingute valideerimine
+  - Luua pitsatimääratlused iga UTXO jaoks
+explanation: |
+  Skeem struktureerib lepingu seisundi ja määrab kindlaks lubatud üleminekud ja valideerimistingimused.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Millele toetuvad kaevurid kompensatsiooni saamiseks pärast seda, kui kõik 21 miljonit bitcoini on loodud?
+answer: Kaevurid toetuvad ainult tehingutasudele kompensatsiooni saamiseks.
+wrong_answers:
+  - Kaevurid toetuvad ainult plokitasudele kompensatsiooni saamiseks.
+  - Kaevurid toetuvad ainult tehingute kinnitustele kompensatsiooni saamiseks.
+  - Kaevurid toetuvad ainult võrgutasudele kompensatsiooni saamiseks.
+explanation: |
+  Aastaks 2140 ei looda enam uusi bitcoine. Sel hetkel
+  toetuvad kaevurid ainult tehingutasudele
+  kompensatsiooni saamiseks.
+reviewed: true

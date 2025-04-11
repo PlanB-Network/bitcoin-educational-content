@@ -1,9 +1,10 @@
-question: Quel est l'un des principaux problèmes de la censure ?
+question: Quel est l'un des principaux problèmes liés à la censure ?
 answer: Elle peut détruire la liberté d'expression et le droit de réunion.
 wrong_answers:
-  - Elle peut entraîner une augmentation de la liberté d'expression.
-  - Elle peut entraîner une augmentation du droit de réunion.
+  - Elle peut conduire à l'application de la liberté d'expression.
+  - Elle peut conduire à davantage de soutien pour le droit de réunion.
   - Elle peut entraîner une diminution de l'innovation.
-explanation: |
-  Le texte mentionne que tolérer la censure peut détruire la liberté d'expression et le droit de réunion.
-reviewed: false
+explanation: >-
+  Le texte mentionne que tolérer la censure peut détruire la liberté d'expression
+  et le droit de réunion.
+reviewed: true

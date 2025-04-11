@@ -1,0 +1,9 @@
+question: Qual è lo scopo principale della Lightning Network costruita sulla base di Bitcoin?
+answer: Per consentire pagamenti più rapidi e quasi istantanei con un'interazione minima sulla catena.
+wrong_answers:
+  - Sostituire completamente la blockchain di Bitcoin e memorizzare tutte le transazioni a livello locale.
+  - Per fornire una rete autorizzata controllata da un'unica entità.
+  - Rallentare le transazioni per garantire la piena tracciabilità da parte dei governi.
+explanation: |
+  La Lightning Network è un protocollo di "secondo livello" che consente ai partecipanti di creare canali di pagamento, di effettuare transazioni fuori dalla catena e di regolare solo il saldo netto finale sulla blockchain Bitcoin. Questo progetto consente di raggiungere velocità maggiori e costi inferiori.
+reviewed: false

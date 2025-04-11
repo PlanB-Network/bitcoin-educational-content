@@ -1,10 +1,9 @@
-question: Quel est le concept mathématique qui repose sur la rationalité humaine et est utilisé dans Bitcoin?
-answer: Théorie des jeux
+question: Quel est le concept mathématique qui est basé sur la rationalité humaine et est utilisé dans Bitcoin ?
+answer: Théorie des jeux.
 wrong_answers:
-  - Théorie des probabilités
-  - Théorie des nombres
-  - Théorie des ensembles
+  - Théorie des probabilités.
+  - Théorie des nombres.
+  - Théorie des ensembles.
 explanation: |
-  La théorie des jeux est un concept mathématique qui repose sur la rationalité humaine.
-  Dans Bitcoin, ce sont les utilisateurs qui imposent les changements de protocole, rendant toute modification du protocole Bitcoin très complexe.
-reviewed: false
+  La théorie des jeux est un concept mathématique qui est basé sur la rationalité humaine. Dans Bitcoin, les changements de protocole sont appliqués par les utilisateurs, rendant toute modification du protocole Bitcoin extrêmement complexe.
+reviewed: true

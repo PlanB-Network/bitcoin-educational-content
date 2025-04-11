@@ -1,0 +1,13 @@
+question: Hvilken heuristikk kan brukes for å koble sammen alle inndataene i en konsolidering?
+
+answer: CIOH.
+
+wrong_answers:
+  - Adressebruk på nytt.
+  - Den største utdataen.
+  - Rund betaling.
+
+explanation: |
+  En ekstern observatør kan bruke CIOH for å anta at alle inndataene i en konsolidering tilhører samme enhet.
+
+reviewed: false

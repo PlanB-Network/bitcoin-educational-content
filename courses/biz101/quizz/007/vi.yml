@@ -1,0 +1,9 @@
+question: Which of the following best describes how Bitcoin transactions achieve finality?
+answer: Once recorded on the blockchain, transactions are immutable and cannot be altered.
+wrong_answers:
+  - Transactions can be reversed by banks if a dispute arises.
+  - Users must gain approval from multiple government entities to finalize a transaction.
+  - Any participant can edit past transactions at will, if they have a special code.
+explanation: |
+  Bitcoin s blockchain is a tamper-proof ledger. Once a transaction is confirmed and included in a block, it becomes part of the permanent record, ensuring finality.
+reviewed: false

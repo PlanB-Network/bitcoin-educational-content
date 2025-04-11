@@ -1,0 +1,10 @@
+question: Apa itu jaringan TOR?
+answer: Sebuah jaringan yang menawarkan anonimitas dengan menyembunyikan alamat IP pengguna dan memungkinkan akses ke Darknet.
+wrong_answers:
+  - Sebuah jaringan yang melindungi perangkat Anda dari virus dan perangkat lunak berbahaya lainnya.
+  - Sebuah jaringan yang menyembunyikan aktivitas online Anda dari penyedia layanan internet Anda.
+  - Sebuah jaringan yang memungkinkan Anda menjelajah internet lebih cepat.
+explanation: |
+  Jaringan TOR (The Onion Router) adalah sebuah jaringan yang menawarkan anonimitas
+  dengan menyembunyikan alamat IP pengguna dan memungkinkan akses ke Darknet. Jaringan ini digunakan
+  oleh jurnalis, aktivis kebebasan, dan orang lain yang ingin menghindari sensor di negara-negara otoriter.

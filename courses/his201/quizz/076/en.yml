@@ -1,0 +1,9 @@
+question: Who inaugurated the Bitcoin Improvement Proposals system, a process aimed at coordinating the improvement of Bitcoin, in September 2011?
+answer: Amir Taaki
+wrong_answers:
+  - Gavin Andresen
+  - Jeff Garzik
+  - Nils Schneider
+explanation: |
+  This system was modeled after the Python Enhancement Proposals (PEP) specific to the Python programming language.
+reviewed: false

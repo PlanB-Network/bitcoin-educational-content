@@ -1,0 +1,10 @@
+question: Hvilket land har erklært Bitcoin som lovlig betalingsmiddel?
+answer: El Salvador
+wrong_answers:
+  - USA
+  - Kina
+  - India
+explanation: >-
+  El Salvador har tatt det dristige steget å adoptere Bitcoin i sin helhet,
+  ved å erklære det som et lovlig betalingsmiddel.
+reviewed: false

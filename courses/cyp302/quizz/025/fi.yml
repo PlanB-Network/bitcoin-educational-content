@@ -1,0 +1,9 @@
+question: Mikä on operaation 0110 XOR 1101 tulos?
+answer: 1011
+wrong_answers:
+  - 0111
+  - 0000
+  - 1101
+explanation: |
+  Soveltamalla XOR-operaatiota bitti kerrallaan: 0 XOR 1 = 1, 1 XOR 1 = 0, 1 XOR 0 = 1, 0 XOR 1 = 1, joten tulos on 1011.
+reviewed: false

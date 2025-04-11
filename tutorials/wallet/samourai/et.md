@@ -1,5 +1,5 @@
 ---
-name: Samouraï
+name: Samourai
 
 description: Taasta oma privaatsus Samourai abil
 ---

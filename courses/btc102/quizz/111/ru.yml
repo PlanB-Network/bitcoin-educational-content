@@ -1,0 +1,8 @@
+question: Какова цель узла Bitcoin в контексте Lightning Network?
+answer: Помочь понять и исследовать новые аспекты Bitcoin, появившиеся благодаря Lightning Network.
+wrong_answers:
+  - Для добычи новых Bitcoin.
+  - Для торговли Bitcoin.
+  - Для хранения Bitcoin.
+explanation: |
+  Узел Bitcoin в контексте Lightning Network используется для понимания и исследования новых аспектов Bitcoin, появившихся благодаря Lightning Network. Он не используется для добычи новых Bitcoin, торговли Bitcoin или хранения Bitcoin.

@@ -1,9 +1,12 @@
 question: Was sind die drei kanonischen Funktionen des Geldes?
-answer: Wertspeicher, Tauschmittel, Recheneinheit
+answer: Wertaufbewahrungsmittel, Tauschmittel, Recheneinheit.
 wrong_answers:
-  - Wertspeicher, Tauschmittel, Produktionsmittel
-  - Wertspeicher, Produktionsmittel, Recheneinheit
-  - Tauschmittel, Produktionsmittel, Recheneinheit
+  - Wertaufbewahrungsmittel, Tauschmittel, Produktionsmittel.
+  - Wertaufbewahrungsmittel, Produktionsmittel, Recheneinheit.
+  - Tauschmittel, Produktionsmittel, Recheneinheit.
 explanation: |
-  Es ist ein Wertspeicher, ein Tauschmittel und eine Recheneinheit. Obwohl heutzutage allgemein anerkannt wird, dass das Tauschmittel den anderen beiden Funktionen vorausgeht.
-reviewed: false
+  Nach Aristoteles erfüllt Geld drei Funktionen: Es ist
+  ein Wertaufbewahrungsmittel, ein Tauschmittel und eine
+  Recheneinheit. Heutzutage wird die Funktion als Tauschmittel
+  weitgehend als die Hauptfunktion angesehen, vor den anderen beiden.
+reviewed: true

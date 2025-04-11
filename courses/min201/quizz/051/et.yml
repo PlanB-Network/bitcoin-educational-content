@@ -1,0 +1,13 @@
+question: Mis on peamine eelis kaevandades värskelt loodud bitcoine?
+answer: Neid ei ole kunagi kulutatud ja neil puudub ajalugu.
+wrong_answers:
+  - Neid saab müüa kõrgema hinnaga.
+  - Neid saab kasutada ebaseaduslikeks tegevusteks.
+  - Neid saab hoida pikka aega ilma väärtust kaotamata.
+explanation: |
+  Peamine eelis kaevandades värskelt loodud bitcoine on see,
+  et neid ei ole kunagi kulutatud ja neil puudub ajalugu.
+  Selliseid bitcoine peetakse tihti väärtuslikumaks, kuna
+  neid ei ole määritud, pakkudes teatud garantiid
+  tagasilükkamise vastu regulaatorite või suurte vahetusplatvormide poolt.
+reviewed: true

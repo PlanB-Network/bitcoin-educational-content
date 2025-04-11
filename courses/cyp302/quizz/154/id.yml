@@ -1,0 +1,9 @@
+question: Mengapa sulit untuk menemukan nilai dari d dalam sistem kriptografi RSA?
+answer: Karena memerlukan pengetahuan tentang φ(N), yang bergantung pada faktor prima dari N
+wrong_answers:
+  - Karena d adalah angka acak
+  - Karena d lebih besar dari N
+  - Karena d dihitung secara independen dari φ(N)
+explanation: |
+  Menemukan d sulit karena bergantung pada pengetahuan tentang φ(N), yang pada gilirannya bergantung pada nilai p dan q, faktor prima dari N.
+reviewed: false

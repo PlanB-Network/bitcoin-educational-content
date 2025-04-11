@@ -1,9 +1,9 @@
-question: Vai trò của các thợ đào trong mạng lưới Bitcoin là gì?
-answer: Các thợ đào đóng vai trò thiết yếu trong việc tạo ra bitcoin mới và bảo vệ mạng lưới Bitcoin.
+question: Cuộc chiến về kích thước khối đã xảy ra vào khi nào?
+answer: Vào năm 2017.
 wrong_answers:
-  - Các thợ đào có trách nhiệm điều chỉnh giá của Bitcoin.
-  - Các thợ đào có trách nhiệm tạo ví Bitcoin.
-  - Các thợ đào có trách nhiệm kiểm soát giao thức Bitcoin.
+  - Vào năm 2008.
+  - Vào năm 2010.
+  - Vào năm 2019.
 explanation: >-
-  Các thợ đào đóng vai trò quan trọng trong mạng lưới Bitcoin vì họ có trách nhiệm tạo ra bitcoin mới và bảo vệ mạng lưới Bitcoin bằng cách tiêu thụ điện năng để hash một khối giao dịch.
-reviewed: false
+  Cuộc chiến về kích thước khối đã xảy ra vào năm 2017. Xung đột này đối đầu giữa những người muốn chỉnh sửa Bitcoin bằng cách tăng kích thước khối để tăng khả năng xử lý giao dịch, với những người tìm cách bảo vệ độc lập và quyền lực của người dùng bằng cách giữ kích thước ở mức 1 MB.
+reviewed: true

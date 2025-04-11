@@ -1,10 +1,9 @@
-question: Quel est le but de la clé de révocation dans une transaction d'engagement ?
-answer: Elle permet à l'autre partie de déplacer les fonds sans attendre la fin du délai de verrouillage si l'une des parties tente de tricher.
+question: Qu'est-ce qui limite le montant d'un paiement indirect sur le Lightning Network ?
+answer: La plus petite liquidité disponible dans un canal du chemin emprunté
 wrong_answers:
-  - Elle permet à l'autre partie de récupérer immédiatement son argent.
-  - Elle permet à l'autre partie de créer une nouvelle transaction d'engagement.
-  - Elle permet à l'autre partie de prolonger le délai de verrouillage.
+  - Le nombre de nœuds intermédiaires impliqués
+  - La capacité totale du Lightning Network
+  - Les frais de routage définis par chaque nœud
 explanation: |
-  La clé de révocation est une mesure de sécurité dans une transaction d'engagement.
-  Si l'une des parties tente de tricher en publiant un ancien état, l'autre partie peut utiliser la clé de révocation pour déplacer les fonds sans attendre la fin du délai de verrouillage, punissant ainsi efficacement le tricheur.
+  Le montant maximal qu'un paiement indirect peut transférer dépend de la plus faible liquidité disponible dans les canaux empruntés, car chaque canal doit ajuster les fonds de chaque côté.
 reviewed: false

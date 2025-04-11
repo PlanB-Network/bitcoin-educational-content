@@ -1,9 +1,10 @@
-question: Warum ist es wichtig, ein starkes Passwort für die Computersicherheit zu verwenden?
+question: Was ist die Bedeutung der Verwendung eines starken Passworts für die Computersicherheit?
 answer: Um unbefugten Zugriff auf das System zu verhindern.
 wrong_answers:
   - Um das System schneller laufen zu lassen.
   - Um die Speicherkapazität zu erhöhen.
   - Um die Benutzeroberfläche zu verbessern.
 explanation: |
-  Ein starkes Passwort ist entscheidend für die Computersicherheit, um unbefugten Zugriff auf das System zu verhindern.
-reviewed: false
+  Ein starkes Passwort ist entscheidend für die Computersicherheit, um
+  unbefugten Zugriff auf das System zu verhindern.
+reviewed: true

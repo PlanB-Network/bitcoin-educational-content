@@ -1,0 +1,9 @@
+question: Mis on Bitcoin'i koguja peamine eesmärk?
+answer: Koguda võimalikult palju satoshe
+wrong_answers:
+  - Koguda võimalikult palju bitcoine
+  - Müüa kaupu või teenuseid Bitcoin'is
+  - Osta Bitcoin'i otse sularahas sõpradelt või Bitcoin'i kogukonna liikmetelt
+explanation: |
+  Bitcoin'i koguja peamine eesmärk on koguda võimalikult palju satoshe. Seda saavutatakse Dollar-Cost Averaging (DCA) plaani seadistamise ja teiste lahenduste otsimisega satoshide kogumiseks.
+reviewed: false

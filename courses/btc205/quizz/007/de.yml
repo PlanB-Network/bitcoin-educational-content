@@ -1,9 +1,0 @@
-question: Welches Risiko ist mit der Anwendung von KYC verbunden?
-answer: Zentralisierung sensibler Datenbanken, die persönliche Benutzerinformationen enthalten.
-wrong_answers:
-  - Dezentralisierung sensibler Datenbanken, die persönliche Benutzerinformationen enthalten.
-  - Zentralisierung nicht-sensibler Datenbanken, die persönliche Benutzerinformationen enthalten.
-  - Dezentralisierung nicht-sensibler Datenbanken, die persönliche Benutzerinformationen enthalten.
-explanation: |
-  Die Anwendung von KYC führt zur Zentralisierung von sehr sensiblen Datenbanken, die persönliche Benutzerinformationen enthalten. Diese Informationen, die einen gewissen Wert haben, können an bösartige Entitäten verkauft werden.
-reviewed: false

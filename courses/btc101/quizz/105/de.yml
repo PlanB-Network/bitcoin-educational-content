@@ -1,9 +1,11 @@
-question: Warum ist Privatsphäre im Zusammenhang mit Bitcoin wichtig?
-answer: Um das Risiko der Rückverfolgung Ihrer Gelder zu minimieren
+question: Warum ist Datenschutz im Kontext von Bitcoin wichtig?
+answer: Um das Risiko zu minimieren, dass Ihre Gelder zurückverfolgt werden.
 wrong_answers:
-  - Um den Wert Ihrer Bitcoins zu verringern
-  - Um zu verhindern, dass Ihre Bitcoins gestohlen werden
-  - Um Steuern auf Ihre Bitcoins zu zahlen
+  - Um den Wert Ihrer Bitcoins zu verringern.
+  - Um zu verhindern, dass Ihre Bitcoins gestohlen werden.
+  - Um Steuern auf Ihre Bitcoins zu zahlen.
 explanation: |
-  Privatsphäre ist im Zusammenhang mit Bitcoin wichtig, um das Risiko der Rückverfolgung Ihrer Gelder zu minimieren, was zu Überwachung führen kann.
-reviewed: false
+  Datenschutz ist im Kontext von Bitcoin wichtig, um
+  das Risiko zu minimieren, dass Ihre Gelder zurückverfolgt werden können, was
+  Ihre Überwachung erleichtern kann.
+reviewed: true

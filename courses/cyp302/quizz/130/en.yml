@@ -1,0 +1,9 @@
+question: What role do certificate authorities play in the public key distribution process?
+answer: They issue certificates that guarantee the authenticity of public keys
+wrong_answers:
+  - They generate private keys for users
+  - They store public keys for all users
+  - They ensure the encryption of messages between users
+explanation: |
+  Certificate authorities issue certificates that link a public key to its owner, allowing users to verify the authenticity of the public keys they use.
+reviewed: false

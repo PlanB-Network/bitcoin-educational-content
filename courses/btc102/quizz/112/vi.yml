@@ -1,11 +1,11 @@
-question: Mục đích của ví "lạnh" trong Bitcoin là gì?
+question: Mục đích của ví lạnh trong Bitcoin là gì?
 answer: Để lưu trữ Bitcoin một cách an toàn.
 wrong_answers:
   - Để khai thác Bitcoin mới.
   - Để giao dịch Bitcoin.
   - Để chuyển đổi Bitcoin sang các loại tiền mã hóa khác.
 explanation: |
-  Ví "lạnh", còn được biết đến là ví cứng, là một thiết bị được thiết kế
+  Ví lạnh, còn được biết đến là ví cứng, là một thiết bị được thiết kế
   để lưu trữ Bitcoin một cách an toàn. Nó không được sử dụng để khai thác Bitcoin mới, giao dịch Bitcoin,
   hoặc chuyển đổi Bitcoin sang các loại tiền mã hóa khác.
 reviewed: false

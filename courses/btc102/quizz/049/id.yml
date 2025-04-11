@@ -1,0 +1,11 @@
+question: Apa karakteristik utama dari dompet DIY (Do It Yourself)?
+answer: Ini adalah solusi 100% open source yang dapat dibuat di rumah untuk mengurangi risiko kepercayaan terhadap aktor lain dalam rantai produksi atau penciptaan
+wrong_answers:
+  - Ini adalah perangkat keras untuk menyimpan bitcoin
+  - Ini adalah perangkat lunak untuk menambang bitcoin
+  - Ini adalah platform untuk membeli dan menjual bitcoin
+explanation: |
+  Konten bab menjelaskan bahwa dompet DIY (Do It Yourself) adalah solusi 100%
+  open source yang dapat dibuat di rumah untuk mengurangi risiko kepercayaan terhadap
+  aktor lain dalam rantai produksi atau penciptaan.
+reviewed: false

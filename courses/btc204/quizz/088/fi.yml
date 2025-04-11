@@ -1,0 +1,11 @@
+question: Mitä strategiaa Wabisabi käyttää osallistujien anonsettien lisäämiseen?
+
+answer: Muutamalla erittäin suurella transaktiolla.
+
+wrong_answers:
+  - Monilla erittäin pienillä transaktioilla.
+  - Yhdellä pienellä transaktiolla.
+  - Ilman transaktioita.
+
+explanation: |
+  Osallistujien anonsettien lisäämiseksi Wabisabi käyttää erittäin suuria coinjoin-transaktioita, jotka ryhmittävät yhteen kymmeniä osallistujia.

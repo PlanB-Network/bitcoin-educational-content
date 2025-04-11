@@ -1,0 +1,9 @@
+question: Teksti kohaselt, mis on põhimõtteline erinevus lepinguteooriate ja turuteooriate vahel?
+answer: Lepinguteooriad otsivad sotsiaalset harmooniat riikliku sunni kaudu, samas kui turuteooriad lubavad individuaalsetel huvidel iseseisvalt harmooniasse jõuda.
+wrong_answers:
+  - Lepinguteooriad kehtivad primitiivsetele ühiskondadele, samas kui turuteooriad kehtivad modernsetele ühiskondadele.
+  - Lepinguteooriad puudutavad rikkuse jaotust, samas kui turuteooriad puudutavad kaupade ja teenuste tootmist.
+  - Lepinguteooriaid kaitsevad füsiokraadid, samas kui turuteooriaid kaitsevad merkantilistid.
+explanation: |
+  Lepinguteooriad näevad sotsiaalset harmooniat riigi poolt peale surutuna, samas kui turuteooriad arvestavad, et individuaalsed huvid, vabalt suheldes, loovad spontaanselt sotsiaalse tasakaalu.
+reviewed: false

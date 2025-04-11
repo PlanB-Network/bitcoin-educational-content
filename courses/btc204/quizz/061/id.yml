@@ -1,0 +1,13 @@
+question: Apa tujuan dari opsi kontrol koin dalam perangkat lunak dompet Bitcoin?
+
+answer: Untuk memilih UTXO mana yang akan digunakan sebagai input untuk transaksi.
+
+wrong_answers:
+  - Untuk mengenkripsi UTXO guna meningkatkan keamanan dompet.
+  - Untuk mendeteksi dan memblokir UTXO dari sumber yang mencurigakan.
+  - Untuk memberi label pada setiap UTXO di dalam dompet.
+
+explanation: |
+  Kontrol koin adalah fitur yang ditemukan dalam perangkat lunak dompet Bitcoin yang baik, yang memberi Anda kemampuan untuk secara manual memilih UTXO spesifik untuk digunakan sebagai input saat melakukan transaksi.
+
+reviewed: false

@@ -1,0 +1,11 @@
+question: Hva bør du gjøre hvis du oppdager et virus på datamaskinen din?
+answer: Koble den fra internett, utfør en fullstendig antivirus-skanning, og slett infiserte filer.
+wrong_answers:
+  - Fortsett å bruke datamaskinen som normalt.
+  - Slå av datamaskinen og la den være avslått i noen timer.
+  - Slett alle filene på datamaskinen.
+explanation: |
+  Hvis du oppdager et virus på datamaskinen din, bør du koble den fra
+  internett for å forhindre at viruset sprer seg eller kommuniserer med hackeren.
+  Deretter utfører du en fullstendig antivirus-skanning og sletter infiserte filer.
+reviewed: false

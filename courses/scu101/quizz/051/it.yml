@@ -1,9 +1,11 @@
-question: Qual è la regola d'oro della sicurezza informatica?
-answer: La sicurezza informatica è un obiettivo in continuo movimento che si adatta al tuo percorso di apprendimento.
+question: Qual è la regola d'oro della cybersecurity?
+answer: La cybersecurity è un obiettivo in movimento che si adatterà al tuo percorso di apprendimento.
 wrong_answers:
-  - La sicurezza informatica è una configurazione da fare una sola volta
-  - La sicurezza informatica non è necessaria per gli account personali
-  - La sicurezza informatica è solo per persone esperte di tecnologia
+  - La cybersecurity è una configurazione una tantum
+  - La cybersecurity non è necessaria per gli account personali
+  - La cybersecurity è solo per persone esperte di tecnologia
 explanation: |
-  La sicurezza informatica è un obiettivo in continuo movimento perché le minacce e le misure di sicurezza sono in costante evoluzione. È importante continuare ad imparare e adattare le proprie pratiche.
-reviewed: false
+  La cybersecurity è un obiettivo in movimento perché le minacce e
+  le misure di sicurezza sono in costante evoluzione. È importante
+  continuare ad imparare e adattare le proprie pratiche.
+reviewed: true

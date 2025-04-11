@@ -1,0 +1,7 @@
+---
+term: MULTISIG
+
+---
+Lommebøker med flere signaturer, ofte forkortet til "multisig", er utformet for å øke sikkerheten til bitcoins ved å kreve flere signaturer fra forskjellige private nøkler for å autorisere et forbruk. Denne metoden fordeler risikoen på flere nøkler, noe som bidrar til å redusere både risikoen for tap og tyveri (avhengig av multisig-konfigurasjonen). Multisig-lommebøker fungerer etter en "m-av-n"-modell, der "m" representerer det minste antallet signaturer som kreves for å validere en transaksjon, og "n" er det totale antallet nøkler som er involvert. For eksempel krever et 2-av-3-oppsett to av tre mulige signaturer for å validere en transaksjon. Denne tilnærmingen gir bedre sikkerhet enn lommebøker med én nøkkel, men den medfører også mer kompleksitet når det gjelder administrasjon og sikkerhetskopiering. Transaksjoner med eldre multisig-standarder er dessuten mindre private og dyrere i gebyrer enn tradisjonelle singlesig-transaksjoner. Nyere innovasjoner som Taproot og bruk av deskriptorer forventes imidlertid å minimere, om ikke eliminere, disse ulempene med multisig.
+
+> noen bitcoinere skiller mellom begrepene "Multisig" og "Threshold Multisig" Noen hevder at en multisig nødvendigvis er en n-av-n, mens en terskelmultisig er en m-av-n. I vanlig språkbruk er det imidlertid akseptert å referere til "Multisig" selv for m-av-n.*

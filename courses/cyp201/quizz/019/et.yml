@@ -1,0 +1,8 @@
+question: Milline matemaatiline toiming on elliptilise kõvera krüptograafia turvalisuse aluseks?
+answer: Diskreetne logaritmiprobleem
+wrong_answers:
+  - Algarvude tegurdamine
+  - Kvadratuursete jääkide arvutamine
+  - Diskreetne kuupprobleem
+explanation: |
+  Elliptilise kõvera krüptograafia turvalisus põhineb nende kõverate diskreetse logaritmiprobleemi lahendamise raskusel.

@@ -1,0 +1,9 @@
+question: Kdo vytvořil první video vysoké kvality o Bitcoinu v březnu 2011?
+answer: Stefan Thomas
+wrong_answers:
+  - Mike Hearn
+  - Christian Decker
+  - Bruce Wagner
+explanation: |
+  Video, jednoduše nazvané Co je Bitcoin?, bylo vytvořeno prostřednictvím crowdfundingové kampaně komunitou.
+reviewed: false

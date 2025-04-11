@@ -1,0 +1,9 @@
+question: Millist informatsiooni ei sisalda laiendatud võti?
+answer: Võtme tehingute ajalugu
+wrong_answers:
+  - Võtme indeksinumber
+  - Võti (privaatne või avalik)
+  - Ahelakood
+explanation: |
+  Laiendatud võti sisaldab ainult vajalikku informatsiooni alamvõtmete tuletamiseks, mitte informatsiooni tehingutega seotud andmete kohta.
+reviewed: false

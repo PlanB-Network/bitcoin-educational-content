@@ -1,0 +1,5 @@
+---
+term: AKTSIATE RASKUS
+
+---
+Eesmärgiks raskusaste, mis on kõrgem kui Bitcoini raskusaste (seega vähem raske), mis on määratletud kaevandamisbasseini poolt, et kvalifitseerida aktsia hash ja hinnata iga üksiku kaevuri panust basseinis. Selleks, et tõhusalt hallata verifitseerimiskoormust ja tagada, et iga kaevandaja, sõltumata tema arvutusvõimsusest, esitab regulaarselt aktsiaid, kohandavad poolid aktsiate raskusastet. Igale kaevandajale määratud raskusaste määrab, kui palju aktsiaid ta kogub: näiteks kui kaevandajale on määratud raskusaste 10 ja ta esitab selle raskusastmega 5 kehtivat tõendit, saab ta 50 aktsiat. Võimsam kaevandaja, kelle raskusaste on 100 ja kes esitab 7 kehtivat tõendit, saab 700 aktsiat. See süsteem võimaldab iga kaevuri hashrate'i täpset kvantifitseerimist ja tasu jaotamist vastavalt valitud hüvitise arvutamise meetodile (PPS, PPLNS, TIDES...).

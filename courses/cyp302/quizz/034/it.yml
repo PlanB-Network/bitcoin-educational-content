@@ -1,0 +1,9 @@
+question: Cos'è una stringa pseudocasuale?
+answer: Una stringa che sembra provenire da una variabile uniforme ma è prodotta da un algoritmo di espansione
+wrong_answers:
+  - Una stringa generata con una probabilità identica per ogni carattere
+  - Una stringa di lunghezza fissa da un evento casuale naturale
+  - Una stringa casuale scelta solo dai valori binari 0 e 1
+explanation: |
+  Una stringa pseudocasuale è prodotta da un algoritmo di espansione a partire da un seme più piccolo, in modo che imiti una selezione uniforme tra tutte le stringhe della stessa lunghezza.
+reviewed: false

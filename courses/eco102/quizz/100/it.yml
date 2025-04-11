@@ -1,0 +1,9 @@
+question: Secondo Bastiat, chi sostiene il sostentamento dello stato?
+answer: Sono i cittadini che sostengono lo stato
+wrong_answers:
+  - Sono i cittadini che vivono a spese dello stato
+  - È lo stato che sostiene la nazione
+  - Sono i gruppi di interesse che sostengono lo stato
+explanation: |
+  Bastiat afferma che sono i cittadini a sostenere lo stato attraverso la creazione di ricchezza e non il contrario.
+reviewed: false

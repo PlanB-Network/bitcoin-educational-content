@@ -1,0 +1,11 @@
+question: Công dụng của hợp đồng thông minh trong việc trao đổi tài sản bí mật là gì?
+
+answer: Để đồng thời và có hệ thống tiết lộ thông tin cho phép cả hai bên thu hồi quỹ của đối phương.
+
+wrong_answers:
+  - Đảm bảo tính bảo mật bằng cách mã hóa thông tin tài sản sao cho chỉ người nhận hợp lệ mới có thể giải mã.
+  - Tự động hóa quá trình chuyển giao để giảm thiểu sự tương tác của con người và giảm lỗi.
+  - Hỗ trợ giải quyết tranh chấp bằng cách giữ bitcoin của cả hai bên trong trường hợp có nỗ lực gian lận.
+
+explanation: |
+  Để kích hoạt các giao dịch giữa các bên không tin tưởng lẫn nhau, hệ thống hợp đồng thông minh được sử dụng. Hợp đồng thông minh là một chương trình tự động thực thi khi các điều kiện được định trước đáp ứng, đảm bảo rằng việc trao đổi tài sản được thực hiện tự động mà không cần sự tin tưởng lẫn nhau. Hợp đồng thông minh cho phép việc tiết lộ đồng thời hai thông tin nhạy cảm giữa các bên tham gia. Hoặc là nó thực thi bình thường, và mỗi bên thu hồi quỹ của đối phương, hoặc nó thất bại, và mọi người giữ lại quỹ ban đầu của mình.

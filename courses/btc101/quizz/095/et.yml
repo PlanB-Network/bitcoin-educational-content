@@ -1,0 +1,11 @@
+question: Mis on hoiustava rahakoti kasutamise risk?
+answer: Usaldusväärne kolmas osapool võib igal ajal piirata teie juurdepääsu teie vahenditele
+wrong_answers:
+  - Usaldusväärne kolmas osapool võib igal ajal suurendada teie bitcoinide väärtust
+  - Usaldusväärne kolmas osapool võib igal ajal vähendada teie bitcoinide väärtust
+  - Usaldusväärne kolmas osapool võib igal ajal anda teie bitcoinid ära
+explanation: |
+  Kui kasutate hoiustavat rahakotti, ei ole te ainus teie bitcoinide omanik.
+  See tähendab, et usaldusväärne kolmas osapool võib igal ajal piirata teie juurdepääsu teie vahenditele,
+  andes teile samasuguse finantsilise suveräänsuse taseme nagu traditsioonilise pangandussüsteemiga.
+reviewed: true

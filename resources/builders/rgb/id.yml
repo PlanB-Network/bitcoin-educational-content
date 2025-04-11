@@ -1,9 +1,0 @@
-description: |
-  RGB adalah protokol untuk membuat kontrak untuk penerbitan aset atau hak generik lainnya di atas Bitcoin. Sebuah kontrak mendefinisikan hak yang diterbitkan dan aturan validasi untuk mentransfernya ke pemilik masa depan.
-
-  Protokol ini mengadopsi model validasi sisi klien, yang terdiri dalam menjaga semua data spesifik transaksi di luar rantai, hanya ditukarkan antara pengirim dan penerima transaksi dan menggunakan blockchain Bitcoin hanya sebagai komitmen. Dengan demikian, keuntungan skalabilitas, privasi, dan ekstensibilitas diperoleh dibandingkan dengan protokol alternatif yang menyimpan semua logika di dalam rantai.
-
-  Kasus penggunaan paling langsung untuk RGB adalah penerbitan aset yang dapat ditukar dan kolektibel, tetapi protokol ini cukup umum untuk juga mendukung kasus penggunaan lain, seperti identitas desentralisasi, DNS desentralisasi, dan bukti-publikasi.
-
-contributors:
-  - lubang-kelinci

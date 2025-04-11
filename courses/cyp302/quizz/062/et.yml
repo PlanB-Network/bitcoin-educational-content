@@ -1,0 +1,9 @@
+question: Millist sümmeetrilist krüpteerimist kasutatakse peamiselt pidevateks kommunikatsioonideks, nagu audio- või videovoogud?
+answer: Voogkrüpteerimine
+wrong_answers:
+  - Plokkrüpteerimine
+  - Kontrollkood
+  - Sõnumi räsšimine
+explanation: |
+  Voogkrüpteerimine sobib eriti hästi pidevateks kommunikatsioonideks, kuna see krüpteerib andmeid järjest, erinevalt plokkrüpteerimisest, mis jagab need plokkideks.
+reviewed: false

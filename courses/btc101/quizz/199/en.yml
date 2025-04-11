@@ -4,8 +4,10 @@ wrong_answers:
   - Buying a large amount of Bitcoin at once.
   - Buying Bitcoin only when the price drops.
   - Buying Bitcoin only when the price rises.
-explanation: >-
-  The text explains that Dollar Cost Average involves buying small amounts
-  of Bitcoin at regular intervals. This method smooths out the price over time and
-  provides continuous growth in the amount of Bitcoin owned.
-reviewed: false
+explanation: |
+  The course text explains that the Dollar Cost Average
+  technique involves buying small amounts of Bitcoin at
+  regular intervals. This method levels out the price
+  fluctuations over time and ensures continuous growth in the
+  amount of Bitcoin owned.
+reviewed: true

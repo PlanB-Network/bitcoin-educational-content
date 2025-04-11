@@ -1,9 +1,9 @@
-question: Qual è il principale scopo delle firme digitali nel protocollo Bitcoin?
-answer: Dimostrare il possesso di una chiave privata associata a una specifica chiave pubblica.
+question: Quale algoritmo di firma digitale è stato utilizzato al lancio di Bitcoin?
+answer: ECDSA
 wrong_answers:
-  - Crittografare i dati della transazione
-  - Generare nuovi bitcoin
-  - Verificare l'identità del mittente
+  - Schnorr
+  - RSA
+  - HMAC
 explanation: |
-  Al centro del protocollo Bitcoin, le firme digitali vengono utilizzate come prove matematiche che dimostrano il possesso di una chiave privata associata a una specifica chiave pubblica.
+  Inizialmente, Bitcoin ha utilizzato ECDSA, un protocollo di firma basato su curve ellittiche, prima dell'introduzione delle firme Schnorr nel 2021.
 reviewed: false

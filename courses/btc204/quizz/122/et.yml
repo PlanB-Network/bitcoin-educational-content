@@ -1,0 +1,13 @@
+question: Kuidas P2P transport V2 parandab sõlmede vahelise suhtluse privaatsust ja turvalisust?
+
+answer: Integreerides juhusliku krüpteerimise
+
+wrong_answers:
+  - Integreerides autentimise
+  - Kasutades lisareleesid
+  - Kasutades Tor'i
+
+explanation: |
+  P2P transport V2 lisab juhusliku krüpteerimise kihi, et tõhustada sõlmede vahelise suhtluse privaatsust ja turvalisust.
+
+reviewed: false

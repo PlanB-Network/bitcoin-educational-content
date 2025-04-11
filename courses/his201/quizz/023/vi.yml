@@ -1,0 +1,9 @@
+question: Satoshi Nakamoto đã công bố bản white paper về Bitcoin trên diễn đàn nào vào ngày 31 tháng 10 năm 2008?
+answer: Danh sách thư điện tử về Mật mã học
+wrong_answers:
+  - Reddit
+  - Twitter
+  - Hackernews
+explanation: |
+  Là người kế nhiệm của danh sách thư điện tử cypherpunks, danh sách thư điện tử này được quản lý bởi nhà phát triển Perry Metzger từ năm 1996.
+reviewed: false

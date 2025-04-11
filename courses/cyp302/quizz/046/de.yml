@@ -1,0 +1,9 @@
+question: Welche Funktion wird verwendet, um die Anzahl der ganzen Zahlen kleiner als N zu berechnen, die teilerfremd zu N sind?
+answer: Eulers Phi-Funktion
+wrong_answers:
+  - Eulers Gamma-Funktion
+  - Eulers Sigma-Funktion
+  - Dirichlets Beta-Funktion
+explanation: |
+  Eulers Phi-Funktion bestimmt die Anzahl der ganzen Zahlen kleiner als N, die teilerfremd zu N sind, ein zentrales Konzept in Kryptographie-Theoremen, die auf Primzahlen basieren.
+reviewed: false

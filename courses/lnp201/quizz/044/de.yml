@@ -1,9 +1,9 @@
-question: Was ist die schnellste und kostengünstigste Art der Kanalabschließung?
-answer: Kooperative Abschließung.
+question: Was macht ein sendender Knoten, wenn eine Zahlungsroute aufgrund unzureichender Liquidität fehlschlägt?
+answer: Er versucht eine andere Route, bis er eine funktionierende findet.
 wrong_answers:
-  - Erzwungene Abschließung.
-  - Abschließung durch einen Betrüger.
-  - Es gibt keinen Unterschied in Geschwindigkeit und Kosten zwischen den Arten der Abschließung.
+  - Er sendet automatisch eine Rückerstattungsanfrage an den Empfänger.
+  - Er schließt den Kanal und erstellt einen neuen direkten Kanal.
+  - Er bittet die Zwischenknoten, ihre Liquidität zu erhöhen.
 explanation: |
-  Bei einer kooperativen Abschließung kommunizieren beide Parteien und einigen sich auf einen endgültigen Zustand des Kanals. Dies ist die schnellste und kostengünstigste Option.
+  Wenn eine Route fehlschlägt, versucht der sendende Knoten andere alternative Routen, bis ein funktionierender Weg gefunden wird oder alle Optionen erschöpft sind.
 reviewed: false

@@ -1,4 +1,4 @@
-question: What happens when there is a decrease in interest rates due to an increase in credit according to the Austrian Theory of the Business Cycle?
+question: What are the immediate effects of a decrease in interest rates due to an increase in credit according to the Austrian Theory of the Business Cycle?
 answer: Entrepreneurs can borrow more resources and thus create higher order production stages. This extension of the production structure will not result in decreased consumption because there has been no consumer postponement of present consumption. In other words, GDP grows.
 wrong_answers:
   - Entrepreneurs can borrow less resources and thus create lower order production stages. This extension of the production structure will result in increased consumption because there has been consumer postponement of present consumption. In other words, GDP shrinks.
@@ -10,4 +10,4 @@ explanation: |
   more resources and thus create higher order production stages. This extension of
   the production structure will not result in decreased consumption because there
   has been no consumer postponement of present consumption. In other words, GDP grows.
-reviewed: false
+reviewed: true

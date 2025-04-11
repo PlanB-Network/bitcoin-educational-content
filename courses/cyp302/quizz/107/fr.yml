@@ -1,0 +1,9 @@
+question: Qu'est-ce qu'une attaque par réflexion dans une session de communication ?
+answer: L'attaquant renvoie à Alice un message qu'il a intercepté entre Alice et Bob
+wrong_answers:
+  - L'attaquant inverse l'ordre des messages dans la communication
+  - L'attaquant envoie un message modifié sans le tag
+  - L'attaquant utilise un ancien message pour en créer un nouveau
+explanation: |
+  Dans une attaque par réflexion, l'attaquant intercepte un message de Alice vers Bob et renvoie le même message à Alice, provoquant une confusion dans la session.
+reviewed: false

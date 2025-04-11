@@ -1,0 +1,9 @@
+question: ¿Qué decreto firmado por Franklin D. Roosevelt prohibió la posesión de oro para los individuos en los Estados Unidos entre 1933 y 1975?
+answer: La Orden Ejecutiva 6102
+wrong_answers:
+  - La Ley de la Reserva Federal
+  - La Ley Glass-Steagall
+  - La Orden Ejecutiva 9066
+explanation: |
+  Esta orden ejecutiva, firmada el 5 de abril de 1933, fue promulgada por Roosevelt como parte del New Deal. Fue reforzada por la Ley de Reserva de Oro en 1934.
+reviewed: false

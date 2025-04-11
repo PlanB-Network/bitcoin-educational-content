@@ -1,0 +1,9 @@
+question: Apa peran alat seperti Zaprite dan Musqet dalam solusi pembayaran Profesional?
+answer: Mereka menyempurnakan pengalaman checkout
+wrong_answers:
+  - Mereka menangani konversi multi-mata uang dan pencairan fiat
+  - Mereka fokus pada enkripsi data transaksi dan mengelola kunci pribadi
+  - Mereka berfungsi sebagai sistem POS dasar
+explanation: |
+  Zaprite dan Musqet menambahkan kustomisasi dan penyempurnaan pelaporan pada proses checkout, melengkapi infrastruktur pembayaran inti.
+reviewed: false

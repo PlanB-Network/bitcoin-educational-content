@@ -1,0 +1,12 @@
+question: 在 Bitcoin 交易中，交易費用的目的是什麼？
+answer: 它們是礦工將交易包含在下一個區塊中的獎勵。
+wrong_answers:
+  - 它們是政府徵收的稅項。
+  - 它們是 Bitcoin 網路針對使用其服務所收取的費用。
+  - 它們是 Wallet 提供商收取的費用。
+explanation: |
+  Bitcoin 交易中的交易費可作為
+  礦工將交易納入下一個
+  區塊。這些費用創造了一個自由市場，讓
+  交易納入區塊的自由市場。
+reviewed: true

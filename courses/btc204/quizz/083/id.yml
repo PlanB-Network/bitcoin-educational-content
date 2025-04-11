@@ -1,0 +1,13 @@
+question: Mengapa koordinator tidak dapat memodifikasi transaksi coinjoin setelah mengumpulkan tanda tangan dari semua peserta?
+
+answer: Memodifikasinya akan membuat transaksi menjadi tidak valid.
+
+wrong_answers:
+  - Mereka tidak memiliki akses ke alamat penerima peserta.
+  - Tanda tangan tersebut dienkripsi.
+  - Transaksi telah disiarkan di jaringan Bitcoin.
+
+explanation: |
+  Setelah para peserta telah menandatangani keseluruhan transaksi, setelah memastikan semuanya benar, koordinator tidak lagi dapat memodifikasi transaksi ini, termasuk outputnya, tanpa membuatnya menjadi tidak valid, karena tanda tangan mencakup seluruh transaksi.
+
+reviewed: false

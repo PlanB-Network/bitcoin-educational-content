@@ -1,9 +1,9 @@
-question: Qual è il ruolo delle funzioni di hash crittografiche nella verifica dell'integrità del software scaricato?
-answer: Agiscono come sentinelle digitali, verificando l'integrità del software scaricato.
+question: Quale combinazione di funzioni hash viene utilizzata per generare impronte digitali più corte in Bitcoin?
+answer: HASH160
 wrong_answers:
-  - Crittografano il software per proteggerlo dagli hacker.
-  - Comprimono il software per ridurre il tempo di download.
-  - Generano una chiave unica per ogni download.
+  - SHA512-SHA256
+  - HASH256
+  - SHA160
 explanation: |
-  Le funzioni di hash crittografiche svolgono un ruolo cruciale nella verifica dell'integrità del software scaricato. Confrontando l'hash del file scaricato con l'hash atteso, è possibile verificare che il file non sia stato manomesso.
+  HASH160 combina SHA256 e RIPEMD160 per generare impronte digitali di 160 bit, notevolmente per gli indirizzi Bitcoin.
 reviewed: false

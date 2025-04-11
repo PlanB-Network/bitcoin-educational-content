@@ -1,0 +1,9 @@
+question: Quali sono le caratteristiche avanzate tipicamente richieste dalle aziende con profilo professionale?
+answer: Cruscotti di reporting avanzati e ruoli amministrativi multipli
+wrong_answers:
+  - Registrazione delle transazioni di base e ricevute standard
+  - Semplice integrazione del portafoglio e generazione di codici QR
+  - Conversione automatica in fiat senza alcuna opzione di reporting
+explanation: |
+  Le aziende professionali necessitano di fatture personalizzabili, reportistica sofisticata e gestione dei ruoli per adattarsi ai loro complessi flussi di lavoro.
+reviewed: false

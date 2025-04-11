@@ -1,0 +1,9 @@
+question: Millised on kaks peamist komponenti nutika lepingu olekus RGB-s?
+answer: Globaalne riik ja omandis olevad riigid
+wrong_answers:
+  - Kohustus ja Genesis
+  - Pitseri määratlus ja oleku üleminek
+  - Valentsus ja lepinguõigused
+explanation: |
+  Üldine riik sisaldab avalikke andmeid, samas kui omandatud riigid on seotud konkreetsete omanikega UTXOde kaudu.
+reviewed: false

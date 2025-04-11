@@ -1,12 +1,9 @@
-question: Điểm tiêu cực tiềm ẩn của việc đào coin để kiếm lợi nhuận là gì?
-answer: Nó có thể dẫn đến sự tập trung quyền lực hash và có ảnh hưởng đáng kể đến môi trường
+question: Điểm hạn chế tiềm ẩn của việc đào coin để kiếm lợi nhuận là gì?
+answer: Nó có thể dẫn đến sự tập trung quyền lực hash và cũng có thể có ảnh hưởng đáng kể đến môi trường
 wrong_answers:
   - Nó có thể dẫn đến sự giảm giá của Bitcoin
   - Nó có thể dẫn đến sự giảm hashrate của mạng
   - Nó có thể dẫn đến sự giảm số lượng nút hoạt động trong mạng
 explanation: |
-  Việc đào coin để kiếm lợi nhuận có thể dẫn đến sự tập trung quyền lực hash nếu
-  chỉ có một vài công ty lớn có khả năng đầu tư vào thiết bị đào tiên tiến. Ngoài ra,
-  việc tiêu thụ năng lượng của việc đào coin để kiếm lợi nhuận có thể có ảnh hưởng đáng kể
-  đến môi trường.
-reviewed: false
+  Việc đào coin để kiếm lợi nhuận có thể dẫn đến sự tập trung quyền lực hash nếu chỉ có một vài công ty lớn có khả năng đầu tư vào thiết bị đào tiên tiến. Ngoài ra, việc tiêu thụ năng lượng của việc đào coin để kiếm lợi nhuận có thể có ảnh hưởng đáng kể đến môi trường tùy thuộc vào nguồn năng lượng.
+reviewed: true

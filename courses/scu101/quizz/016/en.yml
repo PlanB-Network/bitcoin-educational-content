@@ -1,11 +1,11 @@
 question: What is one benefit of using a VPN for browsing the internet at home?
-answer: It enhances security for exchanged data online.
+answer: It enhances security for online traffic by reducing the threat posed by third parties.
 wrong_answers:
-  - It increases internet speed.
-  - It allows access to more websites.
-  - It saves mobile data.
+  - It can increase your internet connection base speed.
+  - It always allows access to more websites.
+  - It saves mobile data consumption compared to not having an established VPN connection.
 explanation: |
-  Using a VPN at home can enhance the security of the data you exchange
-  online. This is because VPNs encrypt data, making it more difficult for third parties
-  to intercept.
-reviewed: false
+  Using a VPN at home can enhance the security of the data
+  you exchange online. This is because VPNs encrypt data,
+  making it more difficult for third parties to intercept.
+reviewed: true

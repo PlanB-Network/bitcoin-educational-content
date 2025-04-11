@@ -1,0 +1,11 @@
+question: Apa nama akun yang digunakan untuk UTXO yang tidak dapat masuk ke kolam coinjoin Whirlpool?
+
+answer: Akun perubahan Doxxic.
+
+wrong_answers:
+  - Akun Postmix.
+  - Akun Premix.
+  - Akun Deposit.
+
+explanation: |
+  Perubahan yang tidak dapat bergabung dengan kolam diisolasi dalam akun perubahan Doxxic, untuk memastikan pemisahan ketat dari UTXO lainnya dalam dompet.

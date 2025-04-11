@@ -1,12 +1,14 @@
-question: What is a good starting point for a career in cybersecurity?
+question: What is a good starting point for a career in cybersecurity from an academic perspective?
 answer: A solid education in computer science, information systems, or a related field
 wrong_answers:
   - A degree in arts and humanities
   - A degree in business management
   - A degree in physical education
 explanation: |
-  The chapter mentions that a solid education in computer science, information
-
-
-  systems, or a related field is often the ideal starting point for a career in cybersecurity.'''
-reviewed: false
+  The chapter mentions that a solid education in computer
+  science, information systems, or a related field is often
+  the ideal starting point for a career in cybersecurity from
+  an academic perspective. systems, or a related field is
+  often the ideal starting point for a career in
+  cybersecurity.
+reviewed: true

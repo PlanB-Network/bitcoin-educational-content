@@ -1,9 +1,0 @@
-question: Qual é o objetivo do site Have I Been Pwned?
-answer: Verificar se o seu endereço de e-mail foi comprometido e ser notificado sobre futuras violações de dados.
-wrong_answers:
-  - Verificar se o seu endereço de e-mail é válido.
-  - Verificar se o seu endereço de e-mail está disponível.
-  - Verificar se o seu endereço de e-mail foi bloqueado.
-explanation: |
-  O site Have I Been Pwned permite que você verifique se o seu endereço de e-mail foi comprometido em uma violação de dados e seja notificado sobre futuras violações de dados.
-reviewed: false

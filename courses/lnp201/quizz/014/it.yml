@@ -1,9 +1,9 @@
-question: Qual è lo scopo della transazione di prelievo nel processo di apertura di un canale nella Lightning Network?
-answer: Consente ad Alice di recuperare i suoi fondi se qualcosa va storto.
+question: Qual è l'ultimo passo per aprire un canale sulla Lightning Network?
+answer: Pubblicare la transazione di deposito sulla blockchain di Bitcoin
 wrong_answers:
-  - Consente a Bob di reclamare la sua parte dei fondi.
-  - Viene utilizzata per finalizzare il processo di apertura del canale.
-  - Viene utilizzata per trasferire fondi da Alice a Bob.
+  - Firmare una transazione di prelievo per recuperare i fondi
+  - Inviare un messaggio di conferma dell'apertura all'altra parte
+  - Verificare il saldo dei fondi di ciascun partecipante
 explanation: |
-  La transazione di prelievo viene creata da Alice prima di pubblicare il deposito dei fondi nel multi-sig. Questa transazione consente ad Alice di spendere i fondi dall'indirizzo multi-sig a un suo indirizzo. Questo viene fatto per garantire che possa recuperare i suoi fondi se qualcosa va storto.
+  L'ultimo passo per aprire un canale è pubblicare la transazione di deposito sulla blockchain, che apre ufficialmente il canale.
 reviewed: false

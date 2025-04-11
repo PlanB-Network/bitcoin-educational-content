@@ -1,0 +1,9 @@
+question: Loại mã hóa nào sử dụng các khối dữ liệu cố định?
+answer: Mã hóa khối
+wrong_answers:
+  - Mã hóa luồng
+  - Mã xác thực tin nhắn
+  - Khóa công khai
+explanation: |
+  Mã hóa khối chia dữ liệu thành các khối cố định và mã hóa chúng một cách độc lập.
+reviewed: false

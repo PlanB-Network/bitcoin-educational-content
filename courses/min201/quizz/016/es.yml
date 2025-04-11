@@ -1,9 +1,12 @@
 question: ¿Cuál es el papel de los mineros de Bitcoin en el mundo de la energía?
-answer: Los mineros de Bitcoin están constantemente buscando fuentes de electricidad barata, a menudo aquellas que se desperdician o no se utilizan. Pueden actuar como una fuente de demanda flexible, dispuestos a consumir esta electricidad "huérfana", ayudando así a compensar los costos de infraestructura.
+answer: Los mineros de Bitcoin están constantemente buscando fuentes de electricidad barata, a menudo aquellas que se desperdician o no se aprovechan. Pueden actuar como una fuente de demanda flexible, listos para consumir esta electricidad huérfana, ayudando así a compensar los costos de infraestructura.
 wrong_answers:
   - Los mineros de Bitcoin están constantemente buscando fuentes de energía renovable para reducir su huella de carbono.
-  - Los mineros de Bitcoin están constantemente buscando fuentes de energía nuclear para alimentar sus operaciones mineras.
-  - Los mineros de Bitcoin están constantemente buscando fuentes de energía solar para alimentar sus operaciones mineras.
+  - Los mineros de Bitcoin están constantemente buscando fuentes de energía nuclear para alimentar sus operaciones de minería, ya que esta es la única manera limpia y renovable de producir energía.
+  - Los mineros de Bitcoin están constantemente buscando fuentes de energía solar para alimentar sus operaciones de minería.
 explanation: |
-  El capítulo explica que los mineros de Bitcoin están constantemente buscando fuentes de electricidad barata, a menudo aquellas que se desperdician o no se utilizan. Pueden actuar como una fuente de demanda flexible, dispuestos a consumir esta electricidad "huérfana", ayudando así a compensar los costos de infraestructura.
-reviewed: false
+  El capítulo explica que los mineros de Bitcoin están constantemente
+  buscando fuentes de electricidad barata, a menudo aquellas que se
+  desperdician o no se aprovechan. Pueden actuar como una fuente de demanda
+  flexible, listos para consumir esta electricidad huérfana, ayudando así a compensar los costos de infraestructura.
+reviewed: true

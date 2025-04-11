@@ -1,9 +1,12 @@
-question: Jaký historický precedent existuje pro používání fiat měn?
+question: Jaká je historická cesta, kterou instituce sledovaly při zavádění fiat měn?
 answer: Vůdci centralizují zlato a zavádějí novou měnu ekvivalentní hodnotě zlata, která je poté postupně devalvována.
 wrong_answers:
   - Vůdci zavádějí novou měnu krytou zlatem, která je poté postupně zvyšována v hodnotě.
   - Vůdci zavádějí novou měnu bez vnitřní hodnoty, která je poté postupně zvyšována v hodnotě.
   - Vůdci zavádějí novou měnu krytou košem komodit, která je poté udržována stabilní v hodnotě.
 explanation: |
-  Historicky vůdci centralizovali zlato a zavedli novou měnu ekvivalentní hodnotě zlata. Tato nová měna je poté postupně devalvována, často pod záminkou, že je to v zájmu lidu.
+  Historicky vůdci centralizovali zlato a zavedli
+  novou měnu ekvivalentní v hodnotě ke zlatu. Tato nová
+  měna je poté postupně devalvována, často pod záminkou,
+  že je to v zájmu lidí.
 reviewed: true

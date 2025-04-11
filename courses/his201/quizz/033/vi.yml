@@ -1,0 +1,9 @@
+question: Người đào mỏ nào từ năm 2009 đã mất tất cả bitcoin của mình bằng cách vứt bỏ máy tính của mình tại bãi rác vào năm 2013?
+answer: James Howells
+wrong_answers:
+  - Dustin Trammell
+  - Martti Malmi
+  - NewLibertyStandard
+explanation: |
+  Kỹ sư người Anh này đã tạo ra 8,000 bitcoin với máy tính của mình từ tháng Hai đến tháng Tư năm 2009. Trường hợp của anh đã được [công bố](https: //www.theguardian.com/technology/2013/nov/27/hard-drive-bitcoin-landfill-site) bởi Guardian.
+reviewed: false

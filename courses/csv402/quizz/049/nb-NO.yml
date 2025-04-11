@@ -1,0 +1,9 @@
+question: Hvordan sikrer RGB konfidensialitet i forvaltningen av digitale ressurser?
+answer: Ved å kun registrere kryptografiske forpliktelser på blokkjeden
+wrong_answers:
+  - Ved å kryptere alle transaksjoner fra ende til ende i blokkjeden
+  - Ved å skjule brukernes identitet via desentraliserte miksere
+  - Bruker kun midlertidige Bitcoin-adresser for hver overføring
+explanation: |
+  Ved å kun lagre kryptografiske bevis i kjeden holder RGB sensitiv kontrakts- og overføringsinformasjon konfidensiell.
+reviewed: false

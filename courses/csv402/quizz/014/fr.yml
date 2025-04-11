@@ -1,0 +1,9 @@
+question: Quel est le rôle d’un Schema dans RGB ?
+answer: Définir les variables, règles, et logiques d’affaires d’un contrat
+wrong_answers:
+  - Stocker les consignments échangés entre participants
+  - Valider les Pedersen Commitments sur les transactions Bitcoin
+  - Créer des Seal Definitions pour chaque UTXO
+explanation: |
+  Le Schema structure l’état du contrat et détermine les transitions et conditions de validation autorisées.
+reviewed: false

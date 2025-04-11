@@ -1,0 +1,8 @@
+question: Mis on saatva sõlme peamine roll Lightning Network'i marsruutimisel?
+answer: Arvutada täielik marsruut saajani
+wrong_answers:
+  - Hoida kogu võrgu kanalite likviidsusinformatsiooni
+  - Määrata kindlaks iga vahendaja sõlme tehingutasud
+  - Suhelda otse kõigi vahendaja sõlmedega
+explanation: |
+  Saatva sõlme vastutus on arvutada terve marsruut saajani, kuna vahendaja sõlmed teavad ainult oma vahetuid naabreid.

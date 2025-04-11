@@ -1,0 +1,9 @@
+question: Jaký ekonomický koncept Bastiat zdůrazňuje ve své analýze nákladů na zničení?
+answer: Alternativní náklady
+wrong_answers:
+  - Mezní náklady
+  - Mezní produktivita
+  - Náklady na výrobu
+explanation: |
+  Bastiat zdůrazňuje význam alternativních nákladů, ilustruje, že zdroje použité na opravu zničení by mohly být využity k vytváření bohatství jinde.
+reviewed: false

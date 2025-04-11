@@ -1,0 +1,9 @@
+question: Was sind die wichtigsten Vorgänge bei einem RGB-Vertrag?
+answer: Zustandsübergang, Genese und Zustandsausdehnung
+wrong_answers:
+  - Siegeldefinition, -verpflichtung und -validierung
+  - Ankererstellung, DAG-Aktualisierung und Transaktionssignierung
+  - Genesis-Block, UTXO-Zuweisung und Skriptvalidierung
+explanation: |
+  Diese Vorgänge ändern oder vervollständigen den Status eines Vertrags gemäß seinem Schema.
+reviewed: false

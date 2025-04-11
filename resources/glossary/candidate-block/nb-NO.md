@@ -1,0 +1,5 @@
+---
+term: KANDIDATBLOKK
+
+---
+En kandidatblokk er en blokk som er i ferd med å bli opprettet av en utvinner som deltar i Bitcoin-systemets utvinningsprosess. Kandidatblokken er en midlertidig datastruktur som inneholder transaksjoner som venter på å bli bekreftet, men som ennå ikke har et gyldig proof-of-work som kan legges til i blokkjeden. Utvinneren velger transaksjoner som skal inkluderes i kandidatblokken basert på ulike faktorer, for eksempel de tilknyttede transaksjonsgebyrene og begrensninger i blokkstørrelsen. Når transaksjonene er valgt ut, genererer utvinneren blokkoverskriften, som inneholder versjonen, et sammendrag av transaksjonene (Merkle-rot), et tidsstempel, hashen til den forrige blokken, vanskelighetsmålet og et nonce. Deretter forsøker utvinneren å finne en hash av blokkhodet som oppfyller det gjeldende vanskelighetsmålet. For å gjøre dette modifiserer utvinneren noncen i headeren. Utgraveren kan også endre annen informasjon i kandidatblokken. Dette er proof-of-work-mekanismen. Hvis utvinneren lykkes med å finne en gyldig hash, blir kandidatblokken en gyldig blokk og sendes til nettverket for å bli lagt til i blokkjeden.

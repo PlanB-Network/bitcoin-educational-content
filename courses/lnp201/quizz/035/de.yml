@@ -1,9 +1,9 @@
-question: Was passiert, wenn Alice versucht zu betrügen, indem sie einen alten Zustand veröffentlicht?
-answer: Bob kann den Widerrufsschlüssel verwenden, um die Gelder zu bewegen, ohne auf das Ende der Zeitsperre zu warten und somit Alice effektiv zu bestrafen.
+question: Was ist das Hauptziel von HTLCs im Lightning-Netzwerk?
+answer: Sichere Zahlungsüberweisungen über Zwischenknoten zu ermöglichen, ohne diesen vertrauen zu müssen
 wrong_answers:
-  - Alice kann den Widerrufsschlüssel verwenden, um die Gelder zu bewegen, ohne auf das Ende der Zeitsperre zu warten.
-  - Bob kann die Zeitsperre verlängern, um zu verhindern, dass Alice ihr Geld wiedererlangt.
-  - Alice kann ihr Geld sofort wiedererlangen.
+  - Die Transaktionsgebühren für jede Zahlung durch Zwischenknoten zu reduzieren
+  - Die Kapazität jedes Zahlungskanals zu erhöhen
+  - Direkte Verbindungen zwischen allen Netzwerkknoten mit deren Vertrauen herzustellen
 explanation: |
-  Wenn Alice versucht zu betrügen, indem sie einen alten Zustand veröffentlicht, kann Bob den Widerrufsschlüssel verwenden, um die Gelder zu bewegen, ohne auf das Ende der Zeitsperre zu warten. Dadurch wird Alice effektiv bestraft, weil sie versucht hat zu betrügen.
+  HTLCs (Hashed Time-Locked Contracts) stellen sicher, dass jeder Zwischenknoten die Zahlung weiterleitet, ohne die Mittel zu behalten, da er sie nur durch Abschluss der Transaktion bis zum endgültigen Empfänger entsperren kann.
 reviewed: false

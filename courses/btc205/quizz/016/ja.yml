@@ -1,9 +1,0 @@
-question: LNP2PBotとRoboSat P2Pソリューションの一般的な欠点は何ですか？
-answer: 技術的な知識とプライバシーに関する理解が必要です。
-wrong_answers:
-  - Bitcoinの購入や販売を容易にするわけではありません。
-  - Lightning Networkを使用していません。
-  - オープンソースではありません。
-explanation: |
-  この章によると、LNP2PBotとRoboSatは技術的な知識とプライバシーに関する理解が必要です。
-reviewed: false

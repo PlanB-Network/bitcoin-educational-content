@@ -1,0 +1,8 @@
+question: Mis on Bitcoin aadressi peamine roll tehingus?
+answer: Lukustada UTXOd scriptPubKey's
+wrong_answers:
+  - Avada UTXOd scriptSig'is
+  - Signaalida tehingu lõppu
+  - Tuvastada kinnitusblokk
+explanation: |
+  Bitcoin aadress on manustatud scriptPubKey'sse, et lukustada UTXOd. See määrab vajalikud tingimused vahendite avamiseks.

@@ -5,7 +5,8 @@ wrong_answers:
   - Use a simple password and rely on biometric data for 2FA
   - Use a secure email address, but avoid password managers and 2FA
 explanation: |
-  For optimal security, it is recommended to use a secure email address,
-  a secure password manager, and adopt 2FA using YubiKeys. It is also advisable to
-  purchase two YubiKeys to anticipate loss or theft.
-reviewed: false
+  For optimal security, it is recommended to use a secure
+  email address, a secure password manager, and adopt 2FA
+  using YubiKeys. It is also advisable to purchase two
+  YubiKeys to anticipate loss or theft.
+reviewed: true

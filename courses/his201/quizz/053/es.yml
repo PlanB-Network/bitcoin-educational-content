@@ -1,0 +1,9 @@
+question: ¿Qué adición en el verano de 2010 permitió las bifurcaciones suaves (soft forks) en Bitcoin posteriormente?
+answer: Los códigos de operación OP_NOP
+wrong_answers:
+  - El sistema de alerta
+  - El límite de tamaño de bloque
+  - El formato de transacción estándar
+explanation: |
+  Estas eran instrucciones no-op que no invalidaban el script si se ejecutaban. Permitieron la adición de OP_CHECKLOCKTIMEVERIFY y OP_CHECKSEQUENCEVERIFY al protocolo en 2015/2016.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Hva er det primære målet med klassisk kryptografi som fortsatt er til stede i moderne kryptografi?
+answer: Konfidensialiteten til meldinger
+wrong_answers:
+  - Forenklingen av meldinger
+  - Gjentakelsen av meldinger
+  - Automatiseringen av meldingssending
+explanation: |
+  Klassisk kryptografi var primært fokusert på konfidensialitet, og dette målet er fortsatt essensielt i moderne kryptografi, selv om andre temaer, som integritet og autentisitet, har blitt lagt til.

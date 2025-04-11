@@ -1,0 +1,9 @@
+question: Kde Satoshi Nakamoto publikoval bílou knihu o Bitcoinu 31. října 2008?
+answer: Na seznamu e-mailů o kryptografii
+wrong_answers:
+  - Reddit
+  - Twitter
+  - Hackernews
+explanation: |
+  Jako nástupce mailing listu cypherpunků byl tento e-mailový seznam spravován vývojářem Perrym Metzgerem od roku 1996.
+reviewed: false

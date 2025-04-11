@@ -1,0 +1,9 @@
+question: Welcher Befehl exportiert einen Vertrag aus dem Versteck in eine externe Datei?
+answer: rgb export '<Vertragsnummer>' myContractPBN.rgb
+wrong_answers:
+  - rgb download '<Vertragsnummer>' myContractPBN.rgb
+  - rgb dump '<Vertragsnummer>' myContractPBN.rgb
+  - rgb Ausgabe '<Vertragsnummer>' myContractPBN.rgb
+explanation: |
+  Der Befehl "rgb export" wird verwendet, um einen Vertrag aus dem Stash zu extrahieren und als Datei zu speichern, damit er leicht weitergegeben werden kann.
+reviewed: false

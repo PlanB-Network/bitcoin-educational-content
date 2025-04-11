@@ -1,9 +1,8 @@
-question: Tại sao việc sao lưu cụm từ khôi phục 24 từ của ví Bitcoin lại quan trọng?
-answer: Để ngăn chặn mất mát tiền.
+question: Chỉ số /84'/ ở độ sâu 1 của một đường dẫn phái sinh chỉ ra điều gì?
+answer: Chuẩn P2WPKH (SegWit v0)
 wrong_answers:
-  - Để xác minh độ chính xác của cụm từ khôi phục.
-  - Để tạo entropy cho ví.
-  - Để mã hóa cụm từ khôi phục cho thêm bảo mật.
+  - Chuẩn P2TR (SegWit v1)
+  - Một loại tiền tệ Bitcoin testnet
+  - Một loại tiền tệ Bitcoin mainnet
 explanation: |
-  Việc sao lưu cụm từ khôi phục 24 từ là quan trọng để ngăn chặn mất mát tiền.
-reviewed: false
+  Chỉ số /84'/ được định nghĩa trong BIP84 để chỉ việc sử dụng chuẩn SegWit v0 với địa chỉ P2WPKH ở độ sâu 1 (đó là độ sâu của mục tiêu phái sinh).

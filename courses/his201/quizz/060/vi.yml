@@ -1,0 +1,8 @@
+question: Ai đã thành lập hợp tác xã khai thác đầu tiên để sản xuất một khối trên Bitcoin?
+answer: doublec
+wrong_answers:
+  - slush
+  - puddinpop
+  - m0mchil
+explanation: |
+  Anh ấy đã quảng bá nó vào ngày 1 tháng 12. Khối được [tìm thấy](https: //bitcointalk.org/index.php?topic=2027.msg26688#msg26688) vào ngày 4 tháng 12 năm 2010. Ngược lại, hợp tác xã của Slush được khởi xướng vào ngày 16 tháng 12.

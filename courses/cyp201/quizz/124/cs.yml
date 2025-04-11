@@ -1,9 +1,0 @@
-question: Jaká je hlavní role přijímacích adres v systému Bitcoin?
-answer: Umožňují přijímat prostředky na minci.
-wrong_answers:
-  - Umožňují odesílání prostředků z mince.
-  - Umožňují těžbu nových bitcoinů.
-  - Umožňují ověřování transakcí.
-explanation: |
-  Hlavní role přijímacích adres v systému Bitcoin je umožnit přijímání prostředků na minci. Jsou generovány z párů soukromých a veřejných klíčů.
-reviewed: false

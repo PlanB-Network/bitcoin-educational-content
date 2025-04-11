@@ -1,0 +1,9 @@
+question: Hvordan verifiserer en nettjeneste et passord uten å lagre det direkte?
+answer: Ved å sammenligne hashen av det inntastede passordet med den i databasen
+wrong_answers:
+  - Ved å dekryptere det lagrede passordet for å verifisere det
+  - Ved å bruke en offentlig nøkkel for å verifisere identitet
+  - Ved å sammenligne passordet direkte med det til andre brukere
+explanation: |
+  Tjenesten genererer en hash av det inntastede passordet og sammenligner det med det lagrede, uten å noensinne direkte lagre passordet, og sikrer dermed økt sikkerhet.
+reviewed: false

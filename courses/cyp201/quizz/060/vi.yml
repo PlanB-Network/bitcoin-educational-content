@@ -1,9 +1,9 @@
-question: Lợi ích chính của Ví Phân Cấp Xác Định (HD wallets) là gì?
-answer: Chúng cho phép việc tạo ra các cặp khóa con một cách xác định và phân cấp từ một mẩu thông tin duy nhất.
+question: Loại khóa nào được liên kết với tiền tố zpub?
+answer: Một khóa công khai mở rộng cho SegWit V0 trên Mainnet
 wrong_answers:
-  - Chúng cho phép tạo ra nhiều khóa riêng từ một khóa công khai duy nhất.
-  - Chúng cho phép tạo ra nhiều khóa công khai từ một khóa riêng duy nhất.
-  - Chúng cho phép tạo ra nhiều ví từ một cặp khóa duy nhất.
+  - Một khóa riêng mở rộng cho SegWit V1 trên Mainnet
+  - Một khóa công khai mở rộng cho Legacy trên Testnet
+  - Một khóa công khai mở rộng cho SegWit V2 trên Testnet
 explanation: |
-  Ví HD cho phép việc tạo ra các cặp khóa con một cách xác định và phân cấp từ một mẩu thông tin duy nhất. Điều này làm cho việc tạo và quản lý các khóa trở nên dễ dàng hơn trong khi vẫn duy trì mức độ an ninh cao.
+  Tiền tố zpub chỉ một khóa công khai mở rộng cho các script SegWit V0 trên Mainnet.
 reviewed: false

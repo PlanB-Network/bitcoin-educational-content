@@ -1,11 +1,8 @@
-question: ¿Cuál es el propósito de las direcciones de múltiples firmas en la Lightning Network?
-answer: Requieren que dos partes acuerden desbloquear los fondos.
+question: ¿Cuándo se considera oficialmente abierto un canal Lightning?
+answer: Cuando la transacción de depósito es confirmada en la blockchain de Bitcoin
 wrong_answers:
-  - Permiten tiempos de transacción más rápidos.
-  - Proporcionan seguridad adicional contra hackeos.
-  - Permiten el uso de múltiples criptomonedas.
+  - Tan pronto como se intercambian las claves públicas entre los participantes
+  - Cuando la transacción de retiro es firmada por ambas partes
+  - Tan pronto como se crea la dirección de multisignatura 2/2
 explanation: |
-  Las direcciones de múltiples firmas en la Lightning Network requieren que dos partes
-  acuerden desbloquear los fondos. Esta es una medida de seguridad que garantiza que los fondos
-  solo se puedan mover con el consentimiento de ambas partes.
-reviewed: false
+  El canal se considera abierto una vez que la transacción de depósito ha sido incluida en un bloque de Bitcoin y ha alcanzado un cierto número de confirmaciones.

@@ -1,0 +1,10 @@
+question: Mida tähendab see, et Bitcoin on avatud lähtekoodiga?
+answer: Igaüks saab vaadata, kuidas Bitcoin töötab, see on läbipaistev ja seetõttu auditeeritav
+wrong_answers:
+  - Igaüks saab luua oma versiooni Bitcoinist
+  - Bitcoini kasutamine on tasuta
+  - Bitcoini kood on avalikult muutmiseks kättesaadav
+explanation: |
+  Avatud lähtekoodiga olek tähendab, et Bitcoini kood on avalikult kõigile ülevaatamiseks kättesaadav.
+  See muudab selle läbipaistvaks ja auditeeritavaks, tagades, et protokoll on kõigile võrdne.
+reviewed: false

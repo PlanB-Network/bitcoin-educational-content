@@ -5,5 +5,5 @@ wrong_answers:
   - Récupérer la facture d'électricité du hacheur tous les mois
   - Récupérer les preuves de travail produites sur un réseau de difficulté inférieure, comme BitDNS
 explanation: |
-  Cette méthode simple a été proposée par ribuck, Nils Schneider et Gavin Andresen [sur le forum](https://bitcointalk.org/index.php?topic=1458.msg16951#msg16951) le 14 octobre 2010. ()
+  Cette méthode simple a été proposée par ribuck, Nils Schneider et Gavin Andresen [sur le forum](https: //bitcointalk.org/index.php?topic=1458.msg16951#msg16951) le 14 octobre 2010. ()
 reviewed: false

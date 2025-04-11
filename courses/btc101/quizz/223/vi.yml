@@ -1,10 +1,11 @@
 question: Blockchain trilemma là gì?
-answer: Một giao thức dựa trên blockchain chỉ có thể đáp ứng hai trong ba yếu tố; phân quyền, an ninh và khả năng mở rộng.
+answer: Một giao thức dựa trên blockchain chỉ có thể đáp ứng được hai trong số các tiêu chí về phi tập trung, an ninh và khả năng mở rộng.
 wrong_answers:
-  - Một giao thức dựa trên blockchain chỉ có thể đáp ứng một trong ba yếu tố; phân quyền, an ninh và khả năng mở rộng.
-  - Một giao thức dựa trên blockchain có thể đáp ứng đủ ba yếu tố; phân quyền, an ninh và khả năng mở rộng.
-  - Một giao thức dựa trên blockchain không thể đáp ứng bất kỳ yếu tố nào trong ba yếu tố; phân quyền, an ninh và khả năng mở rộng.
+  - Một giao thức dựa trên blockchain chỉ có thể đáp ứng được một trong số các tiêu chí về phi tập trung, an ninh và khả năng mở rộng.
+  - Một giao thức dựa trên blockchain có thể đáp ứng tất cả các tiêu chí về phi tập trung, an ninh và khả năng mở rộng.
+  - Một giao thức dựa trên blockchain không thể đáp ứng bất kỳ tiêu chí nào về phi tập trung, an ninh và khả năng mở rộng.
 explanation: |
-  Blockchain trilemma đề cập đến thách thức mà một giao thức dựa trên blockchain chỉ có thể đáp ứng hai trong ba yếu tố; phân quyền, an ninh và khả năng mở rộng.
-reviewed: false
-
+  Blockchain trilemma đề cập đến thách thức rằng một
+  giao thức dựa trên blockchain chỉ có thể đáp ứng được hai tiêu chí trong số
+  phi tập trung, an ninh và khả năng mở rộng.
+reviewed: true

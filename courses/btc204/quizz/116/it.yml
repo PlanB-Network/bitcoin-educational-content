@@ -1,0 +1,13 @@
+question: Qual è l'obiettivo principale della tecnica del rimbalzo?
+
+answer: Offuscare le tracce del passato di una moneta
+
+wrong_answers:
+  - Aumentare l'anonset prospettico delle transazioni
+  - Aumentare l'entropia di una transazione
+  - Pagare meno in commissioni sulle transazioni in futuro
+
+explanation: |
+  L'obiettivo di un rimbalzo è simulare un cambio di proprietà di una moneta Bitcoin al fine di ripristinarne la fungibilità offuscando i suoi segni passati.
+
+reviewed: false

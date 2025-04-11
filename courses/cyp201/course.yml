@@ -1,87 +1,97 @@
+id: 46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 topic: security
 subtopic: cryptography
 level: intermediate
-hours: 20
+hours: 10
 
-professors:
-  - pretty-private
+professors_id:
+  - 6516474c-c190-41f2-b2ab-3d452ce7bdf0
+contributor_names:
+  - Rogzy-DB
+  - Asi0Flammeus
 
-contributors:
-  - rabbit-hole
-  - another-satoshi
-
+published_at: 2023-04-15
 # Proofreading metadata
 original_language: fr
 proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 49580
+    contributor_names:
+    reward: 63.77
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 26040
+    contributor_names:
+    reward: 47.85
   - language: en
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 26040
+    contributor_names:
+    reward: 47.85
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 37810
+    contributor_names:
+    reward: 47.85
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 49580
+    contributor_names:
+    reward: 63.77
   - language: fr
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - LoicPandul
-    reward: 13020
+    reward: 23.93
   - language: it
     last_contribution_date: 2024-07-14
     urgency: 1
-    contributors_id:
+    contributor_names:
       - TinF0ilHat1
-    reward: 18905
+    reward: 23.93
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 73120
+    contributor_names:
+    reward: 95.6
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 26040
+    contributor_names:
+    reward: 47.85
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 49580
+    contributor_names:
+    reward: 63.77
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 73120
+    contributor_names:
+    reward: 95.6
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 49580
+    contributor_names:
+    reward: 63.77
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 61350
+    contributor_names:
+    reward: 79.68
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 61350
+    contributor_names:
+    reward: 79.68
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 63.77
+tags:
+  - keys
+  - wallets
+  - deep-dive

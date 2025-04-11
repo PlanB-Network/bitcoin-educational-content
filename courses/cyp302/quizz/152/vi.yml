@@ -1,0 +1,9 @@
+question: Chức năng của khóa riêng d trong hệ thống mã hóa RSA là gì?
+answer: Nó được sử dụng để giải mã tin nhắn sử dụng mô-đun N
+wrong_answers:
+  - Nó chỉ được sử dụng để mã hóa tin nhắn
+  - Nó được sử dụng để mở khóa bitcoin
+  - Nó được sử dụng để tính φ(N)
+explanation: |
+  Khóa riêng d được sử dụng để giải mã các tin nhắn đã mã hóa, bằng cách hoàn thành phép tính với mô-đun N.
+reviewed: false

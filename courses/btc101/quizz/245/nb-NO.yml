@@ -1,0 +1,10 @@
+question: Hva er én potensiell konsekvens av fremgangen innen AI-teknologier?
+answer: Over 80% av jobbene vil forsvinne på grunn av AI og automatisering.
+wrong_answers:
+  - AI-teknologier vil gjøre mennesker overflødige.
+  - AI-teknologier vil føre til en nedgang i menneskelig intelligens.
+  - AI-teknologier vil forårsake en global økonomisk kollaps.
+explanation: >-
+  Teksten nevner at én potensiell konsekvens av fremgangen innen
+  AI-teknologier er at over 80% av jobbene vil forsvinne på grunn av AI og automatisering.
+reviewed: false

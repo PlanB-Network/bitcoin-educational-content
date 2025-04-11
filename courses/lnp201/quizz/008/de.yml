@@ -1,9 +1,9 @@
-question: Begrenzt die Kapazität eines Lightning-Zahlungskanals die Gesamtanzahl der Transaktionen oder das Gesamtvolumen an Bitcoin, das durch den Kanal übertragen werden kann?
-answer: Nein
+question: Wie funktioniert eine 2/2-Multisignatur-Adresse bei Bitcoin?
+answer: Es sind zwei Unterschriften erforderlich, um die Mittel freizugeben und auszugeben.
 wrong_answers:
-  - Ja
-  - Nur in einigen Fällen
-  - Es hängt vom Bitcoin-Netzwerk ab
+  - Es ermöglicht das Ausgeben der Mittel mit nur einem der beiden Schlüssel.
+  - Es autorisiert Transaktionen nur in spezifischen Fällen des Sperrens.
+  - Es wird nur verwendet, um Mittel an öffentliche Adressen zu senden.
 explanation: |
-  Obwohl die Kapazität eines Lightning-Zahlungskanals festgelegt ist, begrenzt dies nicht die Gesamtanzahl der Transaktionen oder das Gesamtvolumen an Bitcoin, das durch den Kanal übertragen werden kann.
+  Eine 2/2-Multisignatur-Adresse erfordert die Unterschriften beider beteiligten Parteien, damit die Mittel ausgegeben werden können, was zur Sicherheit von Lightning-Kanälen verwendet wird.
 reviewed: false

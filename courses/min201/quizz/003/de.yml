@@ -1,9 +1,9 @@
-question: Was ist der Hauptfinanzanreiz für Miner, am Bitcoin-Mining-Prozess teilzunehmen?
+question: Was ist der Hauptanreiz für Miner, am Bitcoin-Mining-Prozess teilzunehmen?
 answer: Die Mining-Belohnung
 wrong_answers:
   - Die Fähigkeit, das Bitcoin-Netzwerk zu kontrollieren
-  - Die Fähigkeit, nach Belieben neue Bitcoins zu erstellen
+  - Die Fähigkeit, nach Belieben neue Bitcoins zu erschaffen
   - Die Fähigkeit, den Preis von Bitcoin zu manipulieren
 explanation: |
-  Der Hauptfinanzanreiz für Miner, am Bitcoin-Mining-Prozess teilzunehmen, ist die Mining-Belohnung. Diese Belohnung dient als starker Anreiz, um Miner zur Teilnahme am Mining-Prozess trotz der damit verbundenen Energiekosten zu ermutigen.
-reviewed: false
+  Der Hauptanreiz für Miner, am Bitcoin-Mining-Prozess teilzunehmen, ist die Mining-Belohnung. Diese Belohnung dient als starker Anreiz, Miner zur Teilnahme am Mining-Prozess zu ermutigen, trotz der damit verbundenen Energiekosten.
+reviewed: true

@@ -1,0 +1,8 @@
+question: 2010年9月にサトシがBitcoinプロトコルに追加した最大ブロックサイズは何MBでしたか？
+answer: 1 MB
+wrong_answers:
+  - 2 MB
+  - 4 MB
+  - 8 MB
+explanation: |
+  MAX_BLOCK_SIZEパラメータは7月に追加され、その制限は9月12日からすべてのネットワークノードに適用されました。

@@ -1,9 +1,11 @@
 question: Qual è lo scopo del protocollo HTTPS?
-answer: Esso crittografa i dati sui siti web per garantire uno scambio sicuro tra l'utente e il sito web.
+answer: Cripta i dati sui siti web per garantire uno scambio sicuro tra l'utente e il sito web.
 wrong_answers:
-  - Consente agli utenti di aggirare le restrizioni geografiche.
-  - Consente agli utenti di bloccare gli annunci pubblicitari online.
-  - Consente agli utenti di accedere a Internet senza utilizzare dati.
+  - Permette agli utenti di aggirare le restrizioni geografiche quando si tratta di pagare con carta di debito o credito.
+  - Permette agli utenti di bloccare parzialmente la pubblicità online.
+  - Permette agli utenti di accedere a internet senza utilizzare credenziali private.
 explanation: |
-  Il protocollo HTTPS viene utilizzato per crittografare i dati sui siti web, garantendo che i dati scambiati tra l'utente e il sito web siano sicuri. Ciò aiuta a proteggere contro l'intercettazione dei dati da parte di terze parti.
-reviewed: false
+  Il protocollo HTTPS è utilizzato per criptare i dati sui siti web,
+  garantendo che i dati scambiati tra l'utente e il
+  sito web siano sicuri. Questo aiuta a proteggere contro l'intercettazione dei dati da parte di terzi.
+reviewed: true

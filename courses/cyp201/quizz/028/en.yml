@@ -1,11 +1,9 @@
-question: What are UTXOs in the context of Bitcoin?
-answer: Unspent Transaction Outputs
+question: What is the size of a compressed public key using the Schnorr protocol?
+answer: 32 bytes
 wrong_answers:
-  - Untraceable Transaction Outputs
-  - Unverified Transaction Outputs
-  - Unconfirmed Transaction Outputs
+  - 33 bytes
+  - 64 bytes
+  - 128 bits
 explanation: |
-  UTXOs, or "Unspent Transaction Outputs," represent the unspent transaction
-  outputs belonging to a user. To spend these bitcoins, one must demonstrate ownership
-  of the private key corresponding to the public key linked to each UTXO.
+  A Schnorr public key is represented only by the x-coordinate of the point on the elliptic curve, which reduces its size to 32 bytes.
 reviewed: false

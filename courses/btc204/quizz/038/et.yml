@@ -1,0 +1,8 @@
+question: Milline tehingumudel muudab CIOH kasutamise kehtetuks?
+answer: Koostööpõhine tehing.
+wrong_answers:
+  - Lihtne makse.
+  - Konsolideerimine.
+  - Pühkimine.
+explanation: |
+  CIOH ei ole kohaldatav tehingutele, mis võtavad kasutusele koostööpõhise mustriga, kuna sel konkreetsel juhul tulevad sisendid paratamatult erinevatelt osapooltelt.

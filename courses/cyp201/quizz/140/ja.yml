@@ -1,8 +1,0 @@
-question: Segwit標準の場合、チェックサムを計算するのに使用されるものは何ですか？
-answer: BCH (Bose-Chaudhuri-Hocquenghem) プログラム
-wrong_answers:
-  - ダブルSHA256ハッシング
-  - pbkdf2関数
-  - hmacha512関数
-explanation: |
-  BCH (Bose-Chaudhuri-Hocquenghem) プログラムは、Segwit標準の場合のチェックサムを計算するために使用されます。

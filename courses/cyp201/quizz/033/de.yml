@@ -1,9 +1,8 @@
-question: Was ist die skalare Multiplikation eines Punktes mit n auf einer elliptischen Kurve?
-answer: Entspricht dem Hinzufügen dieses Punktes zu sich selbst n-mal
+question: Wofür ermöglicht die Sighash-Flagge SIGHASH_NONE?
+answer: Die Modifikation der Ausgaben nach der Signierung
 wrong_answers:
-  - Entspricht dem Subtrahieren dieses Punktes von sich selbst n-mal
-  - Entspricht dem Multiplizieren dieses Punktes mit sich selbst n-mal
-  - Entspricht dem Teilen dieses Punktes durch sich selbst n-mal
+  - Die Modifikation der Eingaben nach der Signierung
+  - Alle Eingaben und Ausgaben abdecken
+  - Einschränkung der Modifikationen auf nur eine Ausgabe
 explanation: |
-  Die skalare Multiplikation eines Punktes mit n auf einer elliptischen Kurve entspricht dem Hinzufügen dieses Punktes zu sich selbst n-mal. Diese Operation bildet die Grundlage für die Berechnung von öffentlichen Schlüsseln im Bitcoin-System.
-reviewed: false
+  SIGHASH_NONE deckt nur die Eingaben ab und lässt die Ausgaben nach der Signierung modifizierbar.

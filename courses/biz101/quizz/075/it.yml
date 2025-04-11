@@ -1,0 +1,9 @@
+question: Qual è l'obiettivo principale delle implementazioni di pagamento Bitcoin a livello aziendale?
+answer: Integrare completamente i pagamenti Bitcoin nei processi principali dell'organizzazione
+wrong_answers:
+  - Per sperimentare Bitcoin su piccola scala
+  - Utilizzare Bitcoin per scopi di marketing
+  - Accettare Bitcoin senza integrazione in altri sistemi
+explanation: |
+  Le soluzioni aziendali mirano ad allineare i pagamenti Bitcoin con i flussi di lavoro e i sistemi aziendali principali.
+reviewed: false

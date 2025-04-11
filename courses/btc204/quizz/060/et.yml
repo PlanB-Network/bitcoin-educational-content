@@ -1,0 +1,11 @@
+question: Millist teavet peaks sildil kuvama?
+
+answer: UTXO päritolu.
+
+wrong_answers:
+  - UTXO loomise kuupäev.
+  - UTXO suurus.
+  - UTXO loomisega seotud tasude summa.
+
+explanation: |
+  Sildistamine on hea tava, mis aitab meenutada UTXO päritolu.

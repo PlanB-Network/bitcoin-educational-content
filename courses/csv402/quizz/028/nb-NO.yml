@@ -1,0 +1,9 @@
+question: Hvilken funksjon har grensesnittet i en RGB-kontrakt?
+answer: Gjør kontraktsdataene enkle å lese og manipulere
+wrong_answers:
+  - Kjører valideringsskript på blokkjeden
+  - Lagre Genesis-data på kundens side
+  - Definer et strengt typesystem for rapporter
+explanation: |
+  Målet med grensesnittet er å presentere kontraktsinformasjon på en måte som er tydelig for brukere og programvare, uten at det påvirker forretningslogikken.
+reviewed: false

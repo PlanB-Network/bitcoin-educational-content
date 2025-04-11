@@ -1,0 +1,11 @@
+question: Mida kaevandamine Bitcoin'i jaoks kindlaks määrab?
+answer: Alghinna
+wrong_answers:
+  - Lae hinna
+  - Fikseeritud hinna
+  - Muutuva hinna
+explanation: |
+  Kaevandamine määrab Bitcoin'i jaoks alghinna, millest madalamal
+  müüksid kaevurid kahjumiga. Kaevandamise kulud
+  mõjutavad oluliselt Bitcoin'i hinda.
+reviewed: true

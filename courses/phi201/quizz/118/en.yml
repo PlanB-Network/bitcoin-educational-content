@@ -1,0 +1,9 @@
+question: Who proposed the idea of competition among private currencies?
+answer: Friedrich Hayek
+wrong_answers:
+  - John Maynard Keynes
+  - Jacques Rueff
+  - Satoshi Nakamoto
+explanation: |
+  Friedrich Hayek proposed the idea of competition among private currencies to reduce the influence of governments on currency and encourage monetary stability based on the market rather than centralized policies.
+reviewed: false

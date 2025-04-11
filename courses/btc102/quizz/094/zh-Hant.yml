@@ -1,0 +1,11 @@
+question: 偏執的 Bitcoiner 可能會學習哪些最佳實務？
+answer: 硬幣混合和 UTXO 管理
+wrong_answers:
+  - 如何信任集中式系統
+  - 如何安全地分享個人資訊
+  - 如何使用信用卡線上購買 Bitcoin
+explanation: |
+  本章提到，偏執狂比特幣玩家可能會教育自己
+  最佳實踐，如混合硬幣和 UTXO 管理，作為他們關注
+  隱私和安全。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jaká je role pole K v šifrování RC4?
+answer: Inicializuje a transformuje pole S pro generování klíčového proudu
+wrong_answers:
+  - Přímo šifruje otevřený text
+  - Ukládá zašifrovaný text
+  - Slouží pouze jako dočasné úložiště dat až do konce procesu
+explanation: |
+  Pole K se používá k transformaci pole S v procesu plánování klíče, což umožňuje generování pseudonáhodného klíčového proudu pro šifrování otevřeného textu.
+reviewed: false

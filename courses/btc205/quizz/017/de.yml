@@ -1,9 +1,0 @@
-question: Was ist ein einzigartiges Merkmal der HodlHodl P2P-Lösung?
-answer: Es bietet ein Empfehlungssystem.
-wrong_answers:
-  - Es arbeitet unter TOR.
-  - Es verwendet Multisign zur Konfliktlösung.
-  - Es erfordert die Erstellung eines Kontos, um zu funktionieren.
-explanation: |
-  Im Kapitel wird erwähnt, dass HodlHodl ein Empfehlungssystem anbietet, was ein einzigartiges Merkmal unter den diskutierten P2P-Lösungen ist.
-reviewed: false

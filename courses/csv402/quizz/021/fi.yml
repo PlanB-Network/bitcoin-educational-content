@@ -1,0 +1,9 @@
+question: Mitä RGB-lähetys sisältää?
+answer: Siirtymän validointiin tarvittavat asiakaspuolen tiedot
+wrong_answers:
+  - Täydellinen kopio Bitcoinin lohkoketjusta
+  - Luettelo Bitcoinin julkisista sitoumuksista
+  - Tilasiirtymän osallistujien julkiset avaimet
+explanation: |
+  Lähetys sisältää RGB-tiedot, joiden avulla vastaanottaja voi validoida tilasiirtymän sopimussääntöjen mukaisesti.
+reviewed: false

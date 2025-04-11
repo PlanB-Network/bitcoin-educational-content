@@ -1,0 +1,12 @@
+question: Kuidas Tetheri erinevad stablecoinid aitavad kaasa finantsvabadusele inimestele ebastabiilsetes majandustes?
+answer: Pakkudes juurdepääsu valuutadele stabiilsete vahetuskurssidega
+wrong_answers:
+  - Kaotades vajaduse füüsilise sularaha järele
+  - Pakkudes kõrgemaid intressimäärasid säästudele
+  - Võimaldades hetkelisi globaalseid tehinguid
+explanation: |
+  Tetheri erinevad stablecoinid on seotud stabiilsete varadega nagu USA 
+  dollar või kuld. See stabiilsus võimaldab inimestel ebastabiilsetes majandustes 
+  liigutada oma raha valuutasse, mis ei ole samade 
+  inflatsioonimäärade suhtes tundlik, aidates neil säilitada oma säästude väärtust.
+reviewed: true

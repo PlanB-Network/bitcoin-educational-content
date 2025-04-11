@@ -1,10 +1,10 @@
 question: Mikä on HashRate?
-answer: Kokonaismäärä yrityksiä löytää oikea numero Proof of Work:ssa.
+answer: Hash-laskelmien määrä, jonka louhinta-laite voi suorittaa sekunnissa ratkaistakseen Proof of Work -tehtävän.
 wrong_answers:
-  - Nopeus, jolla louhija voi ratkaista Proof of Work:n.
-  - Kokonaismäärä louhijoita Bitcoin-verkossa.
-  - Louhittujen bitcoinien kokonaismäärä.
+  - Nopeus, jolla louhinta-laite voi ratkaista Proof of Work -tehtävän.
+  - Bitcoin-verkon louhijoiden kokonaismäärä.
+  - Louhimalla saadun bitcoinien kokonaismäärä suorittamalla tietty määrä yrityksiä sekunnissa ratkaistakseen Proof of Work -tehtävän.
 explanation: >-
-  HashRate viittaa kokonaismäärään yrityksiä, joita louhijat tekevät
-  sekunnissa ratkaistakseen Proof of Work:n. Se on mittari Bitcoin-verkon laskentatehosta.
-reviewed: false
+  HashRate viittaa yritysten kokonaismäärään, joita louhijat tekevät
+  sekunnissa ratkaistakseen Proof of Work -tehtävän. Se on mittari Bitcoin-verkon laskentatehosta.
+reviewed: true

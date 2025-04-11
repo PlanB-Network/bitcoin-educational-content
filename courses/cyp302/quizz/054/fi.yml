@@ -1,0 +1,9 @@
+question: Mikä on pääasiallinen algebraallinen rakenne, jota käytetään äärellisissä kentissä kryptografiassa?
+answer: Redusoimattomat polynomit
+wrong_answers:
+  - Neliömatriisit
+  - Satunnaisvektorit
+  - Kuutiolliset juuret
+explanation: |
+  Kryptografiassa äärellisissä kentissä, joiden järjestys on 2^m, käytetään usein redusoimattomia polynomeja varmistamaan, että kenttä on hyvin määritelty ja että kaikki operaatiot ovat mahdollisia.
+reviewed: false

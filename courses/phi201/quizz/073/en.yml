@@ -1,0 +1,9 @@
+question: What is the fundamental difference between mercantilism and free trade according to the physiocrats?
+answer: Mercantilism enriches one nation at the expense of others, while free trade enriches all nations.
+wrong_answers:
+  - Mercantilism is a positive-sum game, while free trade is a zero-sum game.
+  - Mercantilism promotes competition.
+  - Free trade promotes swapping.
+explanation: |
+  For the physiocrats, mercantilism is based on the idea that a nation enriches itself at the expense of others, whereas free trade allows for reciprocal benefits, enriching all nations through mutually advantageous exchanges.
+reviewed: false

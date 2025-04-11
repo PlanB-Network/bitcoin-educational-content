@@ -1,0 +1,9 @@
+question: Mis on individuaalse vastutuse roll sotsiaalses progressis Bastiati järgi?
+answer: See julgustab inimesi olema ettevaatlikud ja ettenägelikud
+wrong_answers:
+  - See julgustab konkurentsi inimeste vahel
+  - See lubab riigil teha otsuseid kõigi hüvanguks
+  - See piirab isikliku kasvu võimalusi
+explanation: |
+  Bastiat väidab, et individuaalne vastutus viib ettevaatlikkuse ja ettenägelikkuseni, kuna igaüks peab kandma oma tegude tagajärgi, mis julgustab mõtlikumat ja vastutustundlikumat käitumist.
+reviewed: false

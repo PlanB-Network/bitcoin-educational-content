@@ -1,0 +1,9 @@
+question: Tên của người Finn trẻ tuổi nào đã giúp Satoshi trong việc giao tiếp về dự án của mình vào năm 2009, đặc biệt là quản lý website và diễn đàn Bitcoin?
+answer: Martti Malmi
+wrong_answers:
+  - Mike Hearn
+  - Gavin Andresen
+  - RPOW
+explanation: |
+  Anh ấy đã liên hệ với Satoshi vào tháng 4 năm 2009. Satoshi ngay lập tức giao cho anh ấy nhiệm vụ viết một FAQ và một bài thuyết trình cho website. Martti Malmi là cánh tay phải của Satoshi trong hơn một năm.
+reviewed: false

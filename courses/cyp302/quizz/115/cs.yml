@@ -1,0 +1,9 @@
+question: Co znamená termín difúze v kontextu šifrování AES?
+answer: Změna v otevřeném textu vede k významné změně v šifrovaném textu
+wrong_answers:
+  - Šifrovaný text je vždy stejně dlouhý
+  - Bajty klíče jsou rozděleny rovnoměrně
+  - Citlivé informace jsou zamíchány v každém bloku šifrovaného textu
+explanation: |
+  Difúze znamená, že malá změna v otevřeném textu vede k významné změně v šifrovaném textu, což ztěžuje útočníkovi odvození otevřeného textu.
+reviewed: false

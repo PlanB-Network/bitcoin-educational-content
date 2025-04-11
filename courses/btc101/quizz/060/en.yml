@@ -1,10 +1,11 @@
-question: What is the process called that verifies transactions on the Bitcoin network?
+question: What is the process that verifies transactions on the Bitcoin network called?
 answer: Mining
 wrong_answers:
   - Digging
   - Harvesting
   - Farming
 explanation: |
-  The process that verifies transactions on the Bitcoin network is called
-  mining. Miners perform a cryptographic task and are rewarded with the issuance of new bitcoins.
+  The process that verifies transactions on the Bitcoin
+  network is called mining. Miners perform a cryptographic
+  task and are rewarded with the issuance of new bitcoins.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Mitä kalastajan tarina kuvaa pääoman luonteesta?
+answer: Pääoma edustaa säästettyjä resursseja, joiden avulla rakennustyökalut voivat parantaa tulevaa tuottavuutta.
+wrong_answers:
+  - Pääoma on vain kulutushyödykkeiden varasto, joka odottaa, että se kulutetaan välittömästi.
+  - Pääomaa on luotava välittömästi valtion lainojen avulla.
+  - Pääomalla on merkitystä vain suuryrityksille, ei pienyrittäjille.
+explanation: |
+  Kalastaja, joka säästää muutaman päivän kalan rakentaakseen keihään, lykkää välitöntä kulutusta tulevaa hyötyä varten. Tämä esimerkki osoittaa, miten säästäminen (pääoman kartuttaminen) johtaa suurempaan tehokkuuteen ja suurempaan tuotantoon myöhemmin.
+reviewed: false

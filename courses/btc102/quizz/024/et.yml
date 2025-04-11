@@ -1,0 +1,11 @@
+question: Mis on tagasihoidlikuks ja diskreetseks jäämise tähtsus Bitcoin'i investeerimisel?
+answer: Enda paljastamisega muutuksite potentsiaalseks sihtmärgiks, suurendades riske endale ja oma perele.
+wrong_answers:
+  - Tagasihoidlikuks ja diskreetseks jäämisega saate vältida teiste investorite tähelepanu tõmbamist.
+  - Tagasihoidlikuks ja diskreetseks jäämisega saate vältida Bitcoin'i kogukonna tähelepanu tõmbamist.
+  - Tagasihoidlikuks ja diskreetseks jäämisega saate vältida meedia tähelepanu tõmbamist.
+explanation: |
+  Bitcoin'i investeerimisel on oluline jääda tagasihoidlikuks ja diskreetseks, sest
+  enda paljastamisega muutuksite potentsiaalseks sihtmärgiks, suurendades riske
+  endale ja oma perele.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Hva er risikoen forbundet med å lagre Bitcoins på en børsplattform?
+answer: Plattformen kan gå konkurs, dine Bitcoins kan bli beslaglagt, eller plattformen kan bli hacket.
+wrong_answers:
+  - Plattformen kan øke sine gebyrer, dine Bitcoins kan miste verdi, eller plattformen kan bli hacket.
+  - Plattformen kan gå konkurs, dine Bitcoins kan øke i verdi, eller plattformen kan bli hacket.
+  - Plattformen kan gå konkurs, dine Bitcoins kan bli beslaglagt, eller plattformen kan øke sine gebyrer.
+explanation: |
+  Å lagre Bitcoins på en børsplattform innebærer risikoer som at plattformen
+  går konkurs, beslagleggelse av dine Bitcoins, eller hacking av plattformen.
+  Dette er grunnen til at det er viktig å ha kontroll over din private nøkkel.
+reviewed: false

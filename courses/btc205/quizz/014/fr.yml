@@ -1,9 +1,0 @@
-question: Quel est un inconvénient de la solution P2P HodlHodl ?
-answer: L'adresse e-mail de l'utilisateur et son identité numérique sont stockées par HodlHodl.
-wrong_answers:
-  - Elle ne facilite pas l'achat et la vente de Bitcoin.
-  - Elle nécessite la création d'un compte pour fonctionner.
-  - Elle n'offre pas une large gamme de possibilités d'échange.
-explanation: |
-  Selon le chapitre, l'un des inconvénients de HodlHodl est que l'adresse e-mail de l'utilisateur et son identité numérique sont stockées par HodlHodl.
-reviewed: false

@@ -1,0 +1,8 @@
+question: Apa aturan utama mengenai dana yang dapat dikirim oleh seorang peserta dalam sebuah saluran pembayaran?
+answer: Mereka hanya dapat mengirim dana dari sisi mereka sendiri di saluran tersebut.
+wrong_answers:
+  - Mereka dapat mengirim hingga setengah dari kapasitas total saluran.
+  - Mereka dapat mengirim jumlah berapapun, selama ada kesepakatan sebelumnya.
+  - Mereka dapat meminjam dana dari sisi peserta lain jika diperlukan.
+explanation: |
+  Setiap peserta dibatasi oleh jumlah satoshi yang mereka pegang di saluran untuk transaksi mereka, memastikan bahwa dana selalu tercakup.

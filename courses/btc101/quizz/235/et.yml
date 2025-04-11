@@ -1,0 +1,9 @@
+question: Mis on Bitcoin'i ühik, mida kasutatakse Lightning Network'is?
+answer: Sats
+wrong_answers:
+  - Bitcoin
+  - Ether
+  - Litecoin
+explanation: >-
+  Lightning Network kasutab toimimiseks satse (bitcoin'i kümnendikku).
+reviewed: false

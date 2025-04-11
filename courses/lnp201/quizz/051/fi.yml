@@ -1,9 +1,9 @@
-question: Mikä on sipulireititys Lightning-verkoston kontekstissa?
-answer: Menetelmä, jossa välittäjät eivät tiedä, kuka on lopullinen vastaanottaja tai kuka maksun lähettää.
+question: Mitä kolmion avaamistekniikka mahdollistaa osallistuvien solmujen saavuttavan?
+answer: Sisääntulevan ja ulostulevan likviditeetin kussakin kanavassa
 wrong_answers:
-  - Menetelmä, jossa välittäjät tietävät sekä lähettäjän että vastaanottajan.
-  - Menetelmä, jossa vain lähettäjä tietää reitin ja hinnan.
-  - Menetelmä, jossa lopullinen vastaanottaja päättää reitin ennen maksun lähettämistä.
+  - Vähentyneet reititysmaksut
+  - Rajaton määrä transaktioita ilman vahvistusta
+  - Suora yhteys jokaiseen muuhun verkon solmuun
 explanation: |
-  Sipulireititys Lightning-verkostossa on menetelmä, jossa välittäjät eivät tiedä, kuka on lopullinen vastaanottaja tai kuka maksun lähettää. Solmun on pidettävä suunnitelmaa verkostosta löytääkseen reittinsä, mutta yksikään välittäjistä ei omaa mitään tietoa.
+  Kolmion avaamistekniikka mahdollistaa kunkin solmun saavuttavan tasapainoisen likviditeetin, sekä sisääntulevan että ulostulevan, muodostamalla kanavien silmukan useiden osallistujien kesken.
 reviewed: false

@@ -440,14 +440,13 @@ Ci sono tre modi per chiudere un canale:
 <chapterId>45a7252c-fa4f-554b-b8bb-47449532918e</chapterId>
 ![video en](https://youtu.be/44oBdNdXtEQ)
 
-
-In questo capitolo, esploreremo come i pagamenti sulla Lightning Network possono raggiungere un destinatario anche se non sono direttamente connessi tramite un canale di pagamento. Lightning è, infatti, una **rete di canali di pagamento**, che consente di inviare fondi a un nodo distante attraverso i canali di altri partecipanti. Scopriremo come vengono instradati i pagamenti attraverso la rete, come si muove la liquidità tra i canali e come vengono calcolate le commissioni sulle transazioni.
+In questo capitolo, esploreremo come i pagamenti su Lightning Network possono raggiungere un destinatario anche se non sono direttamente connessi tramite un canale di pagamento. Lightning è, infatti, una **rete di canali di pagamento**, che consente di inviare fondi a un nodo distante attraverso i canali di altri partecipanti. Scopriremo come vengono instradati i pagamenti attraverso la rete, come si muove la liquidità tra i canali e come vengono calcolate le commissioni sulle transazioni.
 
 ### La Rete dei Canali di Pagamento
 
-Sulla Lightning Network, una transazione corrisponde a un trasferimento di fondi tra due nodi. Come visto nei capitoli precedenti, è necessario aprire un canale con qualcuno per eseguire transazioni Lightning. Questo canale consente un numero quasi infinito di transazioni off-chain prima di chiuderlo per recuperare il saldo on-chain. Tuttavia, questo metodo ha lo svantaggio di richiedere un canale diretto con l'altra persona per ricevere o inviare fondi, il che implica una transazione di apertura e una di chiusura per ogni canale. Se prevedo di effettuare un gran numero di pagamenti con questa persona, aprire e chiudere un canale diventa conveniente. Al contrario, se ho bisogno di eseguire solo poche transazioni Lightning, aprire un canale diretto non è vantaggioso, poiché mi costerebbe 2 transazioni on-chain per un numero limitato di transazioni off-chain. Questo caso potrebbe verificarsi, ad esempio, quando si desidera pagare con Lightning presso un commerciante senza pianificare di tornare.
+Su Lightning Network, una transazione corrisponde a un trasferimento di fondi tra due nodi. Come visto nei capitoli precedenti, è necessario aprire un canale con qualcuno per eseguire transazioni Lightning. Questo canale consente un numero quasi infinito di transazioni off-chain prima di chiuderlo per recuperare il saldo on-chain. Tuttavia, questo metodo ha lo svantaggio di richiedere un canale diretto con l'altra persona per ricevere o inviare fondi, il che implica una transazione di apertura e una di chiusura per ogni canale. Se prevedo di effettuare un gran numero di pagamenti con questa persona, aprire e chiudere un canale diventa conveniente. Al contrario, se ho bisogno di eseguire solo poche transazioni Lightning, aprire un canale diretto non è vantaggioso, poiché mi costerebbe 2 transazioni on-chain per un numero limitato di transazioni off-chain. Questo caso potrebbe verificarsi, ad esempio, quando si desidera pagare con Lightning presso un commerciante senza pianificare di tornare.
 
-Per risolvere questo problema, la Lightning Network consente di instradare un pagamento attraverso diversi canali e nodi intermedi, consentendo così una transazione senza un canale diretto con l'altra persona.
+Per risolvere questo problema, Lightning Network consente di instradare un pagamento attraverso diversi canali e nodi intermedi, consentendo così una transazione senza un canale diretto con l'altra persona.
 
 Per esempio, immagina che:
 
@@ -464,12 +463,13 @@ Supponiamo che Alice voglia inviare **50.000 satoshi** a Bob:
 - **Suzie** replica questo trasferimento inviando 50.000 satoshi a **Bob** nel loro canale.
 
 ![LNP201](assets/en/38.webp)
+
 Così, il pagamento viene instradato a Bob attraverso un movimento di liquidità in ogni canale. Al termine dell'operazione, Alice finisce con 50.000 satoshi. Ha effettivamente trasferito 50.000 satoshi poiché inizialmente ne aveva 100.000. Bob, dal canto suo, finisce con un ulteriore 50.000 satoshi. Per Suzie (il nodo intermedio), questa operazione è neutra: inizialmente, aveva 30.000 satoshi nel suo canale con Alice e 250.000 satoshi nel suo canale con Bob, per un totale di 280.000 satoshi. Dopo l'operazione, detiene 80.000 satoshi nel suo canale con Alice e 200.000 satoshi nel suo canale con Bob, che è la stessa somma di partenza.
 Questo trasferimento è quindi limitato dalla **liquidità disponibile** nella direzione del trasferimento.
 
 ### Calcolo del Percorso e Limiti di Liquidità
 
-Prendiamo un esempio teorico di un altro network con:
+Prendiamo un esempio teorico di un'altra rete con:
 
 - **130.000 satoshi** dal lato di Alice (in arancione) nel suo canale con **Suzie** (in grigio).
 - **90.000 satoshi** dal lato di **Suzie** e **200.000 satoshi** dal lato di **Carol** (in rosa).
@@ -492,7 +492,7 @@ I **satoshi inviati** in ogni canale **rimangono nel canale**, quindi i satoshi 
 
 Come nell'esempio precedente, dopo la transazione, il nodo sorgente (Alice) ha 40.000 satoshi in meno. I nodi intermedi (Suzie e Carol) mantengono lo stesso importo totale, rendendo l'operazione neutra per loro. Infine, il nodo di destinazione (Bob) riceve un ulteriore 40.000 satoshi.
 
-Il ruolo dei nodi intermedi è quindi molto importante nel funzionamento della Lightning Network. Essi facilitano i trasferimenti offrendo molteplici percorsi per i pagamenti. Per incoraggiare questi nodi a fornire la loro liquidità e partecipare all'instradamento dei pagamenti, vengono pagate loro delle **commissioni di routing**.
+Il ruolo dei nodi intermedi è quindi molto importante nel funzionamento di Lightning Network. Essi facilitano i trasferimenti offrendo molteplici percorsi per i pagamenti. Per incoraggiare questi nodi a fornire la loro liquidità e partecipare all'instradamento dei pagamenti, vengono pagate loro delle **commissioni di routing**.
 
 ### Commissioni di Routing
 
@@ -514,9 +514,10 @@ Per comprendere meglio come funzionano le commissioni, studiamo la stessa rete L
 - Canale **Alice - Suzie**: commissione base di 1 satoshi e 1 ppm per Alice.
 - Canale **Suzie - Carol**: commissione base di 0 satoshi e 200 ppm per Suzie.
 - Canale **Carol - Bob**: commissione base di 1 satoshi e 1 ppm per Suzie 2.
-  ![LNP201](assets/en/43.webp)
+  
+![LNP201](assets/en/43.webp)
 
-Per lo stesso pagamento di **40.000 satoshi** a Bob, Alice dovrà inviare un po' di più, poiché ogni nodo intermediario dedurrà le proprie commissioni:
+Per lo stesso pagamento di **40.000 satoshi** a Bob, Alice dovrà inviare un po' di più, poiché ogni nodo intermediario tratterrà le proprie commissioni:
 
 - **Carol** deduce 1,04 satoshi sul canale con Bob:
   $$ f*{\text{Carol-Bob}} = \text{commissione base} + \left(\frac{\text{ppm} \times \text{importo}}{10^6}\right) $$
@@ -539,14 +540,15 @@ La liquidità viene quindi aggiornata:
 Per instradare un pagamento dal mittente al destinatario, la rete Lightning utilizza un metodo chiamato "**onion routing**". A differenza dell'instradamento dei dati classici, dove ogni router decide la direzione dei dati in base alla loro destinazione, l'onion routing funziona diversamente:
 
 - **Il nodo mittente calcola l'intero percorso**: Alice, ad esempio, determina che il suo pagamento deve passare attraverso Suzie e Carol prima di raggiungere Bob.
-- **Ogni nodo intermedio conosce solo il suo vicino immediato**: Suzie sa solo che ha ricevuto fondi da Alice e che deve trasferirli a Carol. Tuttavia, Suzie non sa se Alice è il nodo sorgente o un nodo intermedio, e non sa nemmeno se Carol è il nodo destinatario o solo un altro nodo intermedio. Questo principio si applica anche a Carol e a tutti gli altri nodi sul percorso. Il routing Onion preserva così la confidenzialità delle transazioni mascherando l'identità del mittente e del destinatario finale. Per garantire che il nodo trasmittente possa calcolare un percorso completo verso il destinatario nel routing Onion, deve mantenere un **grafico della rete** per conoscere la sua topologia e determinare i percorsi possibili.
+- **Ogni nodo intermedio conosce solo il suo vicino immediato**: Suzie sa solo che ha ricevuto fondi da Alice e che deve trasferirli a Carol. Tuttavia, Suzie non sa se Alice è il nodo sorgente o un nodo intermedio, e non sa nemmeno se Carol è il nodo destinatario o solo un altro nodo intermedio. Questo principio si applica anche a Carol e a tutti gli altri nodi sul percorso. L'Onion Routing preserva così la confidenzialità delle transazioni mascherando l'identità del mittente e del destinatario finale. Per garantire che il nodo trasmittente possa calcolare un percorso completo verso il destinatario nell'Onion Routing, deve mantenere un **grafico della rete** per conoscere la sua topologia e determinare i percorsi possibili.
+  
   **Cosa dovresti ricavare da questo capitolo?**
 
 - Su Lightning, i pagamenti possono essere instradati tra nodi indirettamente connessi attraverso canali intermedi. Ciascuno di questi nodi intermedi facilita il rilancio della liquidità.
 - I nodi intermedi ricevono una commissione per il loro servizio, consistente in tariffe fisse e variabili.
-- Il routing Onion consente al nodo trasmittente di calcolare il percorso completo senza che i nodi intermedi conoscano la sorgente o la destinazione finale.
+- L'Onion Routing consente al nodo trasmittente di calcolare il percorso completo senza che i nodi intermedi conoscano la sorgente o la destinazione finale.
 
-In questo capitolo, abbiamo esplorato l'instradamento dei pagamenti sulla Lightning Network. Ma sorge una domanda: cosa impedisce ai nodi intermedi di accettare un pagamento in entrata senza inoltrarlo alla destinazione successiva, con l'obiettivo di intercettare la transazione? Questo è precisamente il ruolo degli HTLC che studieremo nel capitolo seguente.
+In questo capitolo, abbiamo esplorato l'instradamento dei pagamenti su Lightning Network. Ma sorge una domanda: cosa impedisce ai nodi intermedi di accettare un pagamento in entrata senza inoltrarlo alla destinazione successiva, con l'obiettivo di intercettare la transazione? Questo è precisamente il ruolo degli HTLC che studieremo nel capitolo seguente.
 
 ## HTLC – Hashed Time Locked Contract
 

@@ -1,0 +1,10 @@
+question: Je, ni mtindo gani maalum wa kulinganisha mtumiaji unaotumiwa na JoinMarket?
+answer: Soko la P2P kati ya watengenezaji na wachukuaji.
+wrong_answers:
+  - Seva ambayo huwapa washiriki nasibu.
+  - Mabadilishano kulingana na minada ya Uholanzi.
+  - Huduma ya upatanishi ambayo huchagua washiriki wenyewe.
+explanation: |
+  JoinMarket inafanya kazi kwenye soko la P2P Exchange ambapo watumiaji wengine, watengenezaji, hutoa bitcoins zao kwa kuchanganya, wakati wengine, wachukuaji, hutumia pesa hizi kufanya coinjoins katika Exchange kwa ada.
+  
+reviewed: false

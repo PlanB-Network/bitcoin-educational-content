@@ -1,0 +1,10 @@
+question: Anoset anayetarajiwa anaonyesha nini?
+answer: Ukubwa wa kikundi cha UTXO zisizoweza kutofautishwa katika matokeo ya mizunguko.
+wrong_answers:
+  - Ukubwa wa kikundi cha UTXO zisizoweza kutambulika kwenye pembejeo ya mizunguko.
+  - Ukubwa wa kundi la UTXO zisizoweza kutofautishwa kwenye bwawa.
+  - Idadi ya miamala inayohitajika ili kufikia kutokujulikana.
+explanation: |
+  Anonset inayotarajiwa inaonyesha saizi ya kikundi ambacho UTXO iliyosomwa inaficha kwenye pato la mzunguko, ikijua UTXO kwenye pembejeo, ambayo ni, idadi ya sarafu zisizoweza kutofautishwa zilizopo ndani ya kikundi hiki.
+  
+reviewed: false

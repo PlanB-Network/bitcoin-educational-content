@@ -1,0 +1,11 @@
+question: Co jest powszechnym oszustwem w dziedzinie inwestycji finansowych?
+answer: Systemy sprzedaży piramidalnej.
+wrong_answers:
+  - Sprzedaż towarów fizycznych.
+  - Sprzedaż oprogramowania.
+  - Sprzedaż waluty fiducjarnej.
+explanation: |
+  W dziedzinie inwestycji finansowych systemy sprzedaży piramidalnej i schematy Ponzi
+  wyróżniają się jako nielegalne modele. Działają one poprzez wykorzystywanie pieniędzy nowych inwestorów
+  aby płacić starszym uczestnikom.
+reviewed: false

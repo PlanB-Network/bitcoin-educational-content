@@ -1,0 +1,10 @@
+question: 在 Bitcoin 投資的背景下，DCA 代表什麼？
+answer: 平均成本法
+wrong_answers:
+  - 直接取得貨幣
+  - 數位硬幣分配
+  - 分散式加密資產
+explanation: |
+  美元成本平均法 (Dollar Cost Averaging, DCA) 是一種策略，您可以將您想要投資的總金額分
+  分期購買，以減少波動的影響。
+reviewed: false

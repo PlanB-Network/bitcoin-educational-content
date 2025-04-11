@@ -1,0 +1,9 @@
+question: Jaka jest przepustowość kanału płatności?
+answer: Łączna kwota środków, które obaj uczestnicy mogą przeznaczyć na Exchange
+wrong_answers:
+  - Limit czasu, przez który kanał może pozostać otwarty
+  - Maksymalna kwota, jaką jeden uczestnik może wysłać w ramach pojedynczej transakcji
+  - Liczba transakcji, które kanał może obsłużyć dziennie
+explanation: |
+  Przepustowość kanału odpowiada łącznym środkom dwóch uczestników i pozostaje stała, aby określić możliwe wymiany.
+reviewed: false

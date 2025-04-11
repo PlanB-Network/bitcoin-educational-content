@@ -1,0 +1,9 @@
+question: Jaką rolę według Keynesa powinno odgrywać państwo w gospodarce?
+answer: Aktywna rola poprzez stymulowanie popytu w celu pobudzenia gospodarki
+wrong_answers:
+  - Minimalna rola pozwalająca rynkowi regulować gospodarkę
+  - Neutralna rola bez ingerencji w mechanizmy rynkowe
+  - Rola głównie fiskalna w celu zrównoważenia budżetu
+explanation: |
+  Keynes twierdził, że państwo powinno aktywnie interweniować w celu stymulowania popytu, zwłaszcza podczas recesji, aby pobudzić gospodarkę i zrekompensować niedociągnięcia rynku.
+reviewed: false

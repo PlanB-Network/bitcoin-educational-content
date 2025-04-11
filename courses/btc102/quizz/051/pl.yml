@@ -1,0 +1,11 @@
+question: Jaka jest funkcja Lightning Network w ekosystemie Bitcoin?
+answer: Pozwala to Bitcoin na rozbudowę i uzyskanie większej liczby funkcji, działając jako drugi Layer.
+wrong_answers:
+  - Jest to osobna kryptowaluta, która konkuruje z Bitcoin.
+  - Jest to narzędzie dla Mining Bitcoin.
+  - Jest to platforma do handlu Bitcoin.
+explanation: |
+  Lightning Network to druga technologia Layer zastosowana w Bitcoin
+  która wykorzystuje kanały mikropłatności do skalowania zdolności Blockchain do przeprowadzania
+  transakcji bardziej efektywnie.
+reviewed: false

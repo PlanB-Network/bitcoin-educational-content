@@ -1,0 +1,10 @@
+question: Dlaczego odradza się łączenie kilku UTXO po cyklach CoinJoin?
+answer: Może to zagrozić prywatności ze względu na CIOH.
+wrong_answers:
+  - Zmniejsza to szybkość transakcji.
+  - Ujawnia koordynatorowi podejrzaną aktywność.
+  - Może to zagrozić prywatności ze względu na heurystykę okrągłych płatności.
+explanation: |
+  Ważne jest, aby unikać łączenia mieszanych UTXO z niemieszanymi UTXO w tej samej transakcji, ale także mieszania UTXO między sobą, aby uniknąć Common-Input-Ownership-Heuristic (CIOH).
+  
+reviewed: false

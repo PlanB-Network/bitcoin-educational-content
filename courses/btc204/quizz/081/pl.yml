@@ -1,0 +1,10 @@
+question: Jaka metoda kryptograficzna jest używana, aby uniemożliwić koordynatorowi połączenie wejść i wyjść w CoinJoin?
+answer: Ślepe podpisy Chaum.
+wrong_answers:
+  - Podpisy Schnorr.
+  - Adresy P2SH.
+  - Adresy P2TR.
+explanation: |
+  W tak zwanych Chaumian coinjoins, użycie Tora i ślepych podpisów Davida Chauma jest połączone, aby zapewnić, że koordynator nie może wiedzieć, które dane wyjściowe należą do którego użytkownika.
+  
+reviewed: false

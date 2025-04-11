@@ -1,0 +1,9 @@
+question: Dlaczego niedobór jest uważany za ważną cechę dobrej waluty?
+answer: Ponieważ ograniczony Supply chroni jego wartość przed rozcieńczeniem przez nadprodukcję.
+wrong_answers:
+  - Ponieważ zapewnia to, że każdy może łatwo wybić własną walutę.
+  - Ponieważ utrudnia to rozpoznanie waluty.
+  - Ponieważ zniechęca do używania waluty w handlu na duże odległości.
+explanation: |
+  Waluta z kontrolowanym niedoborem utrzymuje swoją siłę nabywczą w czasie. Bez niedoboru nadmierna emisja mogłaby prowadzić do inflacji, obniżając wartość waluty.
+reviewed: false

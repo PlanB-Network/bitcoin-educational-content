@@ -1,0 +1,10 @@
+question: Jaki był początkowy kurs Exchange dolara zimbabweńskiego, gdy został wprowadzony w 1980 roku?
+answer: Dwa dolary zimbabweńskie były warte około 1,60 dolara amerykańskiego
+wrong_answers:
+  - Jeden dolar zimbabweński był wart około 1 dolara amerykańskiego
+  - Jeden dolar zimbabweński był wart około 2 dolarów amerykańskich
+  - Dwa dolary zimbabweńskie były warte około 2 dolary amerykańskie
+explanation: |
+  Zimbabwe uzyskało niepodległość w 1980 roku i wprowadziło dolara zimbabweńskiego.
+  Początkowo dwa dolary zimbabweńskie były warte około 1,60 dolara amerykańskiego.
+reviewed: false

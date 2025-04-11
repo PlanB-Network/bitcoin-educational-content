@@ -1,0 +1,9 @@
+question: Dlaczego zbiór liczb całkowitych z dodawaniem jest grupą, podczas gdy nie jest nią z mnożeniem?
+answer: Zbiór nie spełnia warunku inwersji przy mnożeniu
+wrong_answers:
+  - Zbiór nie jest zamknięty przez mnożenie
+  - Mnożenie nie jest asocjacyjne na liczbach całkowitych
+  - Nie ma neutralnego elementu do mnożenia
+explanation: |
+  Zbiór liczb całkowitych nie spełnia warunku inwersji przy mnożeniu, ponieważ nie ma odwrotności dla każdej liczby całkowitej, która przy mnożeniu dawałaby 1. Tylko Elements 1 i -1 spełniają ten warunek.
+reviewed: false

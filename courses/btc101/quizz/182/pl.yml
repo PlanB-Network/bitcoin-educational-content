@@ -1,0 +1,8 @@
+question: Które z poniższych cech przyczyniły się do ekspansji Bitcoin na ciemnych rynkach internetowych, takich jak Silk Road?
+answer: Jego niekontrolowana i pseudonimowa natura.
+wrong_answers:
+  - Jego scentralizowana kontrola.
+  - Jego identyfikowalność i kontrolowany charakter.
+  - Brak pseudonimowości.
+explanation: >-
+reviewed: true

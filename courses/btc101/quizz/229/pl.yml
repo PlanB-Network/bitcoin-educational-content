@@ -1,0 +1,8 @@
+question: Jak zabezpieczone są transakcje na Lightning Network?
+answer: Poprzez kryptografię i pośrednio poprzez energię zużywaną przez górników na Bitcoin.
+wrong_answers:
+  - Tylko przy użyciu kluczy prywatnych.
+  - Tylko przy użyciu kluczy publicznych.
+  - Tylko przy użyciu klucza prywatnego i publicznego.
+explanation: >-
+reviewed: true

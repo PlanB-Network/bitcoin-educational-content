@@ -1,0 +1,12 @@
+question: Jaka jest główna zaleta korzystania z portfeli bez depozytu do przechowywania Bitcoin?
+answer: Zwiększone bezpieczeństwo i prywatność
+wrong_answers:
+  - Łatwy dostęp do Bitcoin
+  - Niższe opłaty transakcyjne
+  - Nie ma potrzeby podawania hasła
+explanation: |
+  Portfele bez powiernika to takie, w których użytkownik jest jedynym powiernikiem swoich środków,
+  co oznacza, że masz pełną kontrolę nad swoimi kluczami prywatnymi. Dlatego,
+  portfele non-custodial oferują wyższy poziom bezpieczeństwa i prywatności
+  w porównaniu z portfelami powierniczymi, ponieważ jesteś jedyną osobą odpowiedzialną za bezpieczeństwo swoich środków.
+reviewed: true

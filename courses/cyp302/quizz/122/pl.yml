@@ -1,0 +1,9 @@
+question: Na czym polega problem dystrybucji kluczy?
+answer: Wyzwanie związane z bezpiecznym przesyłaniem kluczy bez fizycznego Exchange
+wrong_answers:
+  - Konieczność generate wielu par kluczy na klienta
+  - Trudność w zapewnieniu fizycznego przechowywania kluczy
+  - Obowiązek zmiany kluczy przy każdej komunikacji
+explanation: |
+  Problem dystrybucji kluczy dotyczy wyzwania związanego z przesyłaniem kluczy w bezpieczny sposób, co stało się koniecznością w komunikacji cyfrowej, gdzie fizyczny Exchange jest niepraktyczny.
+reviewed: false

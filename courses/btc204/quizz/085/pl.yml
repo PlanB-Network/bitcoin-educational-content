@@ -1,0 +1,10 @@
+question: Jaki jest konkretny model dopasowywania użytkowników używany przez JoinMarket?
+answer: P2P rynek między producentami i odbiorcami.
+wrong_answers:
+  - Serwer losowo przydzielający uczestników.
+  - Giełdy oparte na aukcjach holenderskich.
+  - Usługa mediacji, która ręcznie wybiera uczestników.
+explanation: |
+  JoinMarket działa na rynku P2P Exchange, gdzie niektórzy użytkownicy, twórcy, oferują swoje bitcoiny do mieszania, podczas gdy inni, biorcy, wykorzystują te fundusze do wykonywania coinjoinów w Exchange za opłatą.
+  
+reviewed: false

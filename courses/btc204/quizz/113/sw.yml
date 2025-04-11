@@ -1,0 +1,10 @@
+question: Ni kipengele gani kinachozuia mwangalizi wa nje kutofautisha kati ya miamala ya Stonewall na Stonewall x2?
+answer: Muundo wa shughuli ni sawa
+wrong_answers:
+  - Shughuli zimesimbwa kwa njia fiche
+  - Kiasi kinachohusika katika miamala hufanana kila wakati
+  - Sahihi za dijiti za miamala zinatolewa na algorithm sawa
+explanation: |
+  Kwa mtazamo wa nje, muundo wa muamala ni sawa kabisa. Bila maelezo ya ziada ya muktadha, kwa hivyo haiwezekani kutofautisha muamala wa Stonewall kutoka kwa muamala wa Stonewall x2, kwani wanachukua muundo sawa.
+  
+reviewed: false

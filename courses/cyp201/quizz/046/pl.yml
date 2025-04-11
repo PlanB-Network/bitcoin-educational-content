@@ -1,0 +1,9 @@
+question: Ile bitów ma suma kontrolna dla entropii 128 bitów?
+answer: 4 bity
+wrong_answers:
+  - 8 bitów
+  - 16 bitów
+  - 6 bitów
+explanation: |
+  Długość sumy kontrolnej jest obliczana przy użyciu wzoru CS = ENT / 32, który wynosi 4 bity dla entropii 128 bitów.
+reviewed: false

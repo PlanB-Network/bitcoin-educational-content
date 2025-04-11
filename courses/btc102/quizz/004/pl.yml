@@ -1,0 +1,10 @@
+question: Jaka jest wspólna cecha oszustw w domenie kryptowalut?
+answer: Obietnice nierealistycznych zysków.
+wrong_answers:
+  - Obietnice towarów fizycznych.
+  - Obietnice dotyczące oprogramowania.
+  - Obietnice dotyczące waluty fiducjarnej.
+explanation: |
+  Oszustwa w domenie kryptowalut często obiecują nierealistyczne zyski.
+  Ważne jest, aby nie ufać ślepo, zwłaszcza jeśli chodzi o baner internetowy.
+reviewed: false

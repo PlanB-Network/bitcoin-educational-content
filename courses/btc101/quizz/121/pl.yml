@@ -1,0 +1,9 @@
+question: Przez jaki procent czasu od utworzenia sieć Bitcoin była funkcjonalna?
+answer: 99.988%.
+wrong_answers:
+  - 100%.
+  - 90.009%.
+  - 80.17%.
+explanation: |
+  Dostępność Bitcoin online wynosi 99,988% od 2009 roku.
+reviewed: true

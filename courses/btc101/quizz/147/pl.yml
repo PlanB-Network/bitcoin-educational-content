@@ -1,0 +1,16 @@
+question: Jakie byłyby konsekwencje dla użytkowników Bitcoin, gdyby bloki były 100 razy cięższe?
+answer: Uruchomienie węzła Bitcoin nie byłoby dostępne dla przeciętnej osoby, zagrażając decentralizacji protokołu i niezmienności zarówno transakcji, jak i zasad konsensusu.
+wrong_answers:
+  - Uruchomienie węzła Bitcoin byłoby bardziej dostępne dla przeciętnej osoby, zwiększając decentralizację protokołu i niezmienność zarówno transakcji, jak i zasad konsensusu.
+  - Zmniejszyłaby się pojemność transakcyjna sieci.
+  - Block reward dla górników wzrośnie.
+explanation: |
+  Gdyby bloki były 100 razy cięższe, uruchomienie węzła Bitcoin
+  wymagałoby dysku Hard o pojemności 50 TB, przepustowości ponad
+  500 GB/miesiąc i sprzętu zdolnego do walidacji setek
+  tysięcy transakcji w czasie krótszym niż 10 minut. To
+  sprawiłoby, że uruchomienie węzła Bitcoin byłoby niedostępne dla
+  przeciętnej osoby, zagrażając decentralizacji protokołu i niezmienności transakcji
+  protokołu oraz niezmienność transakcji i zasad konsensusu
+  zasady.
+reviewed: true

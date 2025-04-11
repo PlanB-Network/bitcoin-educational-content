@@ -1,0 +1,8 @@
+question: 人工智能技術進步的一個潛在影響是什麼？
+answer: AI 技術將導致今天超過 80% 的工作消失。
+wrong_answers:
+  - AI 技術會摧毀所有電腦。
+  - AI 技術會導致人類智慧降低。
+  - AI 技術將導致全球經濟崩潰。
+explanation: >-
+reviewed: true

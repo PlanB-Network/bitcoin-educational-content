@@ -1,0 +1,9 @@
+question: Jaka jest główna teza Tomasza z Akwinu dotycząca relacji między rozumem a wiarą?
+answer: Rozum i wiara wzajemnie się uzupełniają i mogą się wspierać.
+wrong_answers:
+  - Rozum i wiara to dwa niezależne i sprzeczne źródła wiedzy.
+  - Wszystkie pozostałe odpowiedzi są poprawne.
+  - Wiara przewyższa rozum i może obejść się bez jego argumentów.
+explanation: |
+  Tomasz z Akwinu argumentuje, że rozum i wiara wzajemnie się uzupełniają: rozum może pomóc zrozumieć i wyjaśnić prawdy wiary, podczas gdy wiara prowadzi rozum ku prawdom, które w przeciwnym razie byłyby dla niego niedostępne.
+reviewed: false

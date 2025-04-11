@@ -1,0 +1,11 @@
+question: Jaka jest główna cecha Hodlera w kontekście inwestycji Bitcoin?
+answer: Utrzymują Bitcoin przez długi czas.
+wrong_answers:
+  - Często handlują Bitcoin.
+  - Inwestują w Bitcoin tylko wtedy, gdy cena jest niska.
+  - Sprzedają Bitcoin, gdy tylko cena wzrośnie.
+explanation: |
+  Hodler, w kontekście inwestycji w Bitcoin, to ktoś, kto posiada
+  Bitcoin na dłuższą metę, zakładając, że jego zużycie i niedobór wzrosną z czasem
+  czasu.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 在這些風險中，哪一項與現金 P2P 交換無關？
+answer: 資料外洩的風險。
+wrong_answers:
+  - 人身安全風險。
+  - 盜竊風險。
+  - 法律風險。
+explanation: |
+  現金 P2P 交換存在許多風險，但不需要執行 KYC。因此，不存在資料洩漏的風險。
+reviewed: false

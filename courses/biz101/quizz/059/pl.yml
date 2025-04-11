@@ -1,0 +1,9 @@
+question: Jakie dwa typy Wallet są uwzględnione w profilu Starter?
+answer: Powiernicze i niepowiernicze portfele Lightning
+wrong_answers:
+  - Przechowywanie Hot i Cold Portfele Bitcoin
+  - Multisig i papierowe portfele Bitcoin
+  - Sprzęt i mózg portfeli Lightning
+explanation: |
+  Profil Starter wykorzystuje portfele Lightning typu custodial lub non-custodial.
+reviewed: false

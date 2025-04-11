@@ -1,0 +1,11 @@
+question: Bitcoin 是開放原始碼是什麼意思？
+answer: 任何人都可以查看 Bitcoin 是如何運作的，它是透明的，因此是可審核的
+wrong_answers:
+  - 任何人都可以建立自己版本的 Bitcoin
+  - Bitcoin 可免費使用
+  - Bitcoin 的程式碼可供公開修改
+explanation: |
+  開放原始碼意味著 Bitcoin 的程式碼是公開的，任何人都可以檢閱。
+  任何人檢閱。這讓它變得透明且可稽核，確保協定
+  對每個人都是平等的。
+reviewed: false

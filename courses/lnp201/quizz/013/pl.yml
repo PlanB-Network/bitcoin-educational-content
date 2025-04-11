@@ -1,0 +1,9 @@
+question: Co się stanie, jeśli Alice nie uzyska podpisu Boba dla transakcji wypłaty?
+answer: Ryzykuje utratę dostępu do swoich środków zdeponowanych w wielopodpisowym Address
+wrong_answers:
+  - Nie może już komunikować się z Bobem na Lightning Network
+  - Kanał otwiera się z ograniczoną przepustowością
+  - Bob automatycznie otrzymuje środki w kanale
+explanation: |
+  Bez podpisu Boba na transakcji wypłaty, Alice nie może zapewnić odzyskania swoich środków w przypadku wystąpienia problemu, co stwarza ryzyko straty.
+reviewed: false

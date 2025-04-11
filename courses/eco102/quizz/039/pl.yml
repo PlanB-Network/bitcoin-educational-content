@@ -1,0 +1,9 @@
+question: Jaka jest zasada prawników według Bastiata?
+answer: Jest to zasada pierwszeństwa prawa przed własnością
+wrong_answers:
+  - Jest to zasada pierwszeństwa własności przed prawem
+  - Jest to zasada równości wobec prawa
+  - Jest to prawo do własności bez interwencji państwa
+explanation: |
+  Dla Bastiata zasada prawników, w przeciwieństwie do zasady ekonomistów, umieszcza prawo jako poprzedzające własność, co krytykuje za jego potencjał do ustanawiania niesprawiedliwości.
+reviewed: false

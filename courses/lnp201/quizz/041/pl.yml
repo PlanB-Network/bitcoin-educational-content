@@ -1,0 +1,9 @@
+question: Dlaczego węzłowi nadawczemu trudno jest oszacować dokładną płynność kanału?
+answer: Ponieważ tylko dwaj uczestnicy znają dokładny podział środków
+wrong_answers:
+  - Ponieważ całkowita przepustowość kanałów stale się zmienia
+  - Ponieważ opłaty węzłów pośredniczących nie są publikowane
+  - Ponieważ kanały są automatycznie zamykane po każdej transakcji
+explanation: |
+  Dokładna dystrybucja środków w kanale jest widoczna tylko dla dwóch uczestniczących węzłów, uniemożliwiając innym węzłom oszacowanie dostępnej płynności dla routingu.
+reviewed: false

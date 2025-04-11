@@ -1,0 +1,11 @@
+question: Jaka jest główna cecha Blockchain bez Proof of Work?
+answer: Nie ma żadnej realnej wartości
+wrong_answers:
+  - Jest bardziej bezpieczny
+  - Jest szybszy
+  - Jest bardziej zdecentralizowany
+explanation: |
+  Treść rozdziału stwierdza, że bez Proof of Work, Blockchain
+  nie ma rzeczywistej wartości. Jest to kluczowa cecha, która odróżnia Bitcoin od innych kryptowalut
+  kryptowalut.
+reviewed: false

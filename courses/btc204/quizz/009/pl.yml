@@ -1,0 +1,9 @@
+question: Czym są 2 Elements, które składają się na Block reward w Coinbase Transaction?
+answer: Dotacja blokowa i opłaty transakcyjne.
+wrong_answers:
+  - Dotacja blokowa i premie za prędkość.
+  - Prawa do emisji i premie za bezpieczeństwo.
+  - Dywidendy Mining i podatki sieciowe.
+explanation: |
+  Gdy Miner znajdzie ważny blok, ma prawo do nagrody składającej się z jednej strony z dotacji blokowej, a z drugiej z opłat za transakcje, które zawarł w swoim bloku.
+reviewed: false

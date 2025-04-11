@@ -1,0 +1,9 @@
+question: Jaki jest tytuł książki Adama Smitha?
+answer: Badanie natury i przyczyn bogactwa narodów.
+wrong_answers:
+  - Badanie natury i ducha bogactwa narodów.
+  - An Inquiry into the Nature and Origins of the Wealth of Nations (Badanie natury i źródeł bogactwa narodów).
+  - An Inquiry into the Cause and Origins of the Wealth of Nations (Badanie przyczyn i źródeł bogactwa narodów).
+explanation: |
+  Pełny tytuł książki Adama Smitha, An Inquiry into the Nature and Causes of the Wealth of Nations, podkreśla jego analizę czynników przyczyniających się do dobrobytu gospodarczego, badając mechanizmy produkcji i dystrybucji bogactwa.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Jaka jest rola notariusza w kontekście dziedziczenia Bitcoin?
+answer: Zapewniają zgodność z przepisami podatkowymi.
+wrong_answers:
+  - Zarządzają bitcoinami po śmierci użytkownika.
+  - Modyfikują one plan spadkowy.
+  - Zabezpieczają one bitcoiny w sejfie.
+explanation: |
+  W kontekście dziedziczenia Bitcoin ważne jest, aby
+  omówić kwestię dziedziczenia bitcoinów z notariuszem, aby zapewnić
+  zgodność z przepisami podatkowymi.
+reviewed: false

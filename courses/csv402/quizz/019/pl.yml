@@ -1,0 +1,9 @@
+question: Jaki jest główny cel inteligentnych kontraktów w środowisku RGB?
+answer: Wdrożenie zautomatyzowanych transakcji Bitcoin bez scentralizowanego rejestru
+wrong_answers:
+  - Ułatwienie tworzenia scentralizowanych rejestrów Bitcoin
+  - Zapewnienie publicznego Interface dla wszystkich transakcji Bitcoin
+  - Uproszczenie wykonywania tokenów ERC-20 na Bitcoin
+explanation: |
+  Inteligentne kontrakty RGB umożliwiają automatyzację umów przy jednoczesnym unikaniu korzystania ze scentralizowanych rejestrów, opierając się na Bitcoin dla kotwic kryptograficznych.
+reviewed: false

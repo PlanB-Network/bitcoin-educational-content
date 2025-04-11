@@ -354,7 +354,7 @@ A questo punto della formazione, ora sai come vengono aperti i canali Lightning 
 ![video en](https://youtu.be/zmAa2fj_V7w)
 
 
-In questo capitolo, discuteremo della **chiusura di un canale** sulla Lightning Network, che viene effettuata tramite una transazione Bitcoin, proprio come l'apertura di un canale. Dopo aver visto come funzionano le transazioni all'interno di un canale, è ora il momento di vedere come chiudere un canale e recuperare i fondi sulla blockchain di Bitcoin.
+In questo capitolo, discuteremo della **chiusura di un canale** su Lightning Network, che viene effettuata tramite una transazione Bitcoin, proprio come l'apertura di un canale. Dopo aver visto come funzionano le transazioni all'interno di un canale, è ora il momento di vedere come chiudere un canale e recuperare i fondi sulla blockchain di Bitcoin.
 
 ### Promemoria del ciclo di vita del canale
 
@@ -370,7 +370,7 @@ Ci sono tre modi principali per chiudere questo canale, che possono essere chiam
 - **Il Brutto**: la **chiusura forzata**, dove una delle parti decide di chiudere il canale onestamente, ma senza l'accordo dell'altra.
 - **Il Truffatore**: la **chiusura con imbroglio**, dove una delle parti tenta di rubare fondi pubblicando una vecchia transazione di impegno (qualsiasi tranne l'ultima, che riflette la distribuzione effettiva e giusta dei fondi).
 
-Prendiamo un esempio:
+Facciamo un esempio:
 
 - Alice possiede **100.000 satoshi** e Bob **30.000 satoshi**.
 - Questa distribuzione è riflessa in **2 transazioni di impegno** (una per utente) che non sono pubblicate, ma potrebbero esserlo in caso di chiusura del canale.
@@ -388,10 +388,12 @@ In una **chiusura cooperativa**, Alice e Bob concordano di chiudere il canale. E
 
 - Alice e Bob negoziano insieme le commissioni della **transazione di chiusura**. Queste commissioni sono generalmente calcolate in base al mercato delle commissioni Bitcoin al momento della chiusura. È importante notare che **è sempre la persona che ha aperto il canale** (Alice nel nostro esempio) a pagare le commissioni di chiusura.
 - Costruiscono una nuova **transazione di chiusura**. Questa transazione assomiglia a una transazione di impegno, ma senza timelock o meccanismi di revoca, poiché entrambe le parti stanno cooperando e non c'è rischio di imbroglio. Questa transazione di chiusura cooperativa è quindi diversa dalle transazioni di impegno.
-   Per esempio, se Alice possiede **100.000 satoshi** e Bob **30.000 satoshi**, la transazione di chiusura invierà **100.000 satoshi** all'indirizzo di Alice e **30.000 satoshi** all'indirizzo di Bob, senza vincoli di timelock. Una volta che questa transazione è firmata da entrambe le parti, viene pubblicata da Alice. Una volta che la transazione è confermata sulla blockchain di Bitcoin, il canale Lightning viene ufficialmente chiuso.
-   ![LNP201](assets/en/32.webp)
 
-La **chiusura cooperativa** è il metodo preferito di chiusura perché è veloce (nessun timelock) e le commissioni di transazione sono regolate in base alle attuali condizioni di mercato di Bitcoin. Questo evita di pagare troppo poco, il che potrebbe rischiare di bloccare la transazione nei mempool, o di pagare inutilmente troppo, portando a una perdita finanziaria non necessaria per i partecipanti.
+Per esempio, se Alice possiede **100.000 satoshi** e Bob **30.000 satoshi**, la transazione di chiusura invierà **100.000 satoshi** all'indirizzo di Alice e **30.000 satoshi** all'indirizzo di Bob, senza vincoli di timelock. Una volta che questa transazione è firmata da entrambe le parti, viene pubblicata da Alice. Una volta che la transazione è confermata sulla blockchain di Bitcoin, il canale Lightning viene ufficialmente chiuso.
+
+![LNP201](assets/en/32.webp)
+
+La **chiusura cooperativa** è il metodo preferito di chiusura perché è veloce (nessun timelock) e le commissioni di transazione sono regolate in base alle attuali condizioni di mercato di Bitcoin. Questo evita di pagare troppo poco, il che potrebbe rischiare di bloccare la transazione nella mempool, o di pagare inutilmente troppo, portando a una perdita finanziaria non necessaria per i partecipanti.
 
 ### Il Lato Negativo: la chiusura forzata
 
@@ -406,15 +408,15 @@ Questa transazione include un **timelock** per i fondi di Alice, rendendo la chi
 
 Inoltre, le commissioni della transazione di impegno possono essere inadeguate al momento della chiusura, poiché sono state impostate quando la transazione è stata creata, talvolta diversi mesi prima. Generalmente, i clienti Lightning sovrastimano le commissioni per evitare problemi futuri, ma questo può portare a commissioni eccessive, o al contrario troppo basse.
 
-In sintesi, la **chiusura forzata** è un'opzione dell'ultimo minuto quando il peer non risponde più. È più lenta e meno economica della chiusura cooperativa. Pertanto, dovrebbe essere evitata il più possibile.
+In sintesi, la **chiusura forzata** è un'opzione dell'ultimo minuto quando la controparte non risponde più. È più lenta e meno economica della chiusura cooperativa. Pertanto, dovrebbe essere evitata il più possibile.
 
-### Il Trucco: barare
+### Il Truffatore: barare
 
 Infine, una chiusura con **barare** si verifica quando una delle parti cerca di pubblicare una vecchia transazione di impegno, spesso dove detenevano più fondi di quanto dovrebbero. Per esempio, Alice potrebbe pubblicare una vecchia transazione dove possedeva **120.000 satoshi**, mentre ora ne possiede effettivamente solo **100.000**.
 
 ![LNP201](assets/en/35.webp)
 
-Bob, per prevenire questo imbroglio, monitora la blockchain di Bitcoin e il suo mempool per assicurarsi che Alice non pubblichi una vecchia transazione. Se Bob rileva un tentativo di barare, può usare la **chiave di revoca** per recuperare i fondi di Alice e punirla prendendo l'intera somma del canale. Poiché Alice è bloccata dal timelock sul suo output, Bob ha il tempo di spenderlo senza un timelock dalla sua parte per recuperare l'intera somma su un indirizzo di sua proprietà.
+Bob, per prevenire questo imbroglio, monitora la blockchain di Bitcoin e la sua mempool per assicurarsi che Alice non pubblichi una vecchia transazione. Se Bob rileva un tentativo di barare, può usare la **chiave di revoca** per recuperare i fondi di Alice e punirla prendendo l'intera somma del canale. Poiché Alice è bloccata dal timelock sul suo output, Bob ha il tempo di spenderlo senza un timelock dalla sua parte per recuperare l'intera somma su un indirizzo di sua proprietà.
 
 ![LNP201](assets/en/36.webp)
 
@@ -427,7 +429,7 @@ Ci sono tre modi per chiudere un canale:
 - **Chiusura Cooperativa**: Veloce e meno costosa, dove entrambe le parti concordano di chiudere il canale e pubblicano una transazione di chiusura su misura.
 - **Chiusura Forzata**: Meno desiderabile, poiché si basa sulla pubblicazione di una transazione di impegno, con commissioni potenzialmente inadeguate e un timelock, che rallenta la chiusura.
 - **Imbroglio**: Se una delle parti tenta di rubare fondi pubblicando una transazione vecchia, l'altra può utilizzare la chiave di revoca per punire questo imbroglio.
-   Nei prossimi capitoli, esploreremo la Lightning Network da una prospettiva più ampia, concentrandoci su come funziona la sua rete.
+   Nei prossimi capitoli, esploreremo Lightning Network da una prospettiva più ampia, concentrandoci su come funziona la sua rete.
 
 # Una Rete di Liquidità
 

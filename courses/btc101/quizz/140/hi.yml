@@ -1,0 +1,9 @@
+question: Bitcoin और Blockchain का अभी का साइज़ क्या है?
+answer: लगभग 500GB।
+wrong_answers:
+  - लगभग 100GB।
+  - लगभग 1TB।
+  - करीब 2TB.
+explanation: |
+  जीडब्ल्यू-3 जीडब्ल्यू-2 का आकार 2023 तक लगभग 500GB है।
+reviewed: true

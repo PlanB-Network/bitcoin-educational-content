@@ -3,6 +3,7 @@ topic: business
 subtopic: business
 level: beginner
 hours: 102
+test_only: false
 
 professors_id:
   - dac3b166-31ef-41f3-bfef-6e9d3855c12c
@@ -16,7 +17,7 @@ professors_id:
 contributor_names:
   - Asi0Flammeus
 
-published_at: 2025-02-27
+published_at: 2025-04-11
 
 original_language: en
 proofreading:

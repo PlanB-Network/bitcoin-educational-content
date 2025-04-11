@@ -1,0 +1,12 @@
+question: Bitcoin 節點在 Bitcoin 網路中扮演什麼角色？
+answer: 它會驗證新區塊和包含的交易。
+wrong_answers:
+  - 它會創造新的比特幣，並將其放入區塊中。
+  - 它可以調節 Bitcoin 的價格。
+  - 它管理 Bitcoin 網路。
+explanation: |
+  Bitcoin 網路中的 Bitcoin 節點處理
+  驗證新區塊和包含的交易。正是
+  這個由 Bitcoin 節點組成的網路才是真正的
+  去中心化。
+reviewed: true

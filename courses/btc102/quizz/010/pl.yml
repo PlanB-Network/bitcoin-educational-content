@@ -1,0 +1,12 @@
+question: Co oznacza skrót 2FA?
+answer: Uwierzytelnianie dwuskładnikowe
+wrong_answers:
+  - Autoryzacja dwuskładnikowa
+  - Uwierzytelnianie dwuskładnikowe
+  - Uwierzytelnianie dwufunkcyjne
+explanation: |
+  2FA oznacza uwierzytelnianie dwuskładnikowe. Zapewnia ono dodatkowy
+  Layer
+  
+  bezpieczeństwa dla najbardziej wrażliwych kont"
+reviewed: false

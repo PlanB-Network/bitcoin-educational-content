@@ -1,0 +1,15 @@
+question: 以下哪項不是 Lightning Network 上微交易的主要功能？
+answer: 付款時間長。
+wrong_answers:
+  - 費用低廉。
+  - 即時付款。
+  - 可擴充性。
+explanation: |
+  透過 Lightning Network 微交易，使用者可以
+  低交易費用，使得發送
+  非常少量的 Bitcoin。他們也可以立即
+  支付，實現即時交易。最後，他們
+  可擴展性，可同時處理大量交易。
+  同時處理大量的交易。因此，錯誤的
+  答案是支付時間過長。
+reviewed: true

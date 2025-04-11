@@ -1,0 +1,9 @@
+question: Jakie jest znaczenie grup cyklicznych w kryptografii?
+answer: Umożliwiają one tworzenie systemów kryptograficznych opartych na generatorach
+wrong_answers:
+  - Upraszczają one mnożenie kluczy szyfrowania
+  - Zwiększają bezpieczeństwo publicznych kanałów komunikacji
+  - Są one używane bezpośrednio do wiadomości Hash w celu zachowania ich integralności
+explanation: |
+  W kryptografii grupy cykliczne, posiadające generatory, są niezbędne do tworzenia podstaw kluczy szyfrujących, zwłaszcza w systemach klucza publicznego.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Jaki rodzaj sieci tworzy Lightning Network?
+answer: Sieć kanałów płatności.
+wrong_answers:
+  - Sieć węzłów Mining.
+  - Sieć węzłów Blockchain.
+  - Sieć giełd kryptowalut.
+explanation: >-
+reviewed: true

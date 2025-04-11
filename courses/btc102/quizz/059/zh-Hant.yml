@@ -1,0 +1,10 @@
+question: 在 Bitcoin 的情況下，什麼是 Cold Wallet？
+answer: 用於離線儲存大量 Bitcoin 的 Wallet
+wrong_answers:
+  - 用於 Cold 氣候下交易的 Wallet
+  - 用於儲存少量 Bitcoin 的 Wallet
+  - 用於短時間儲存 Bitcoin 的 Wallet
+explanation: |
+  Cold Wallet 是一種用於離線儲存大量 Bitcoin 的 Wallet。
+  它被認為比 Hot Wallet 更為安全，因為它不易受到黑客攻擊。
+reviewed: false

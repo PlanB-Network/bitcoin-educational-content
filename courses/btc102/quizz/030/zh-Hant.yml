@@ -1,0 +1,10 @@
+question: 什麼是 Bitcoin Blockchain？
+answer: 記錄所有 Bitcoin 交易的資料庫
+wrong_answers:
+  - 一種數位貨幣
+  - Bitcoin 使用者網路
+  - Mining 比特幣的方法
+explanation: |
+  Bitcoin Blockchain 是記錄所有 Bitcoin 交易的資料庫。
+  它由向 Blockchain 添加新交易的礦工維護。
+reviewed: false

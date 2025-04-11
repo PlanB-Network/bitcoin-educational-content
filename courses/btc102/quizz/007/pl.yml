@@ -1,0 +1,11 @@
+question: Jakie jest powszechne oszustwo związane z darowiznami online w sektorze kryptowalut?
+answer: Oferty zapewniające podwojenie lub pomnożenie wysyłanych bitcoinów.
+wrong_answers:
+  - Oferty twierdzące, że podwajają lub pomnażają twoje fizyczne dobra.
+  - Oferty umożliwiające podwojenie lub pomnożenie waluty fiducjarnej.
+  - Oferty zapewniające podwojenie lub zwielokrotnienie oprogramowania.
+explanation: |
+  Klasycznym przykładem tego typu oszustwa jest oferta twierdząca, że podwaja
+  lub pomnożenie wysyłanych bitcoinów. Ważne jest, aby zrozumieć, że nie ma
+  magiczne rozwiązanie, aby stać się natychmiast bogatym.
+reviewed: false

@@ -1,0 +1,10 @@
+question: 在 Bitcoin 的情況下，什麼是 Satoshi？
+answer: Bitcoin 的最小單位
+wrong_answers:
+  - 一種 Bitcoin Wallet
+  - 購買 Bitcoin 的方法
+  - A Bitcoin Exchange 平台
+explanation: |
+  就 Bitcoin 而言，Satoshi（或 SAT）是 Bitcoin 的最小單位。
+  Bitcoin。Bitcoin 堆疊者的目標是累積盡可能多的 Satoshis。
+reviewed: false

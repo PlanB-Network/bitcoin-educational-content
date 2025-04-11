@@ -1,0 +1,8 @@
+question: Który kraj ogłosił Bitcoin legalnym środkiem płatniczym?
+answer: Salwador.
+wrong_answers:
+  - Stany Zjednoczone.
+  - Chiny.
+  - Indie.
+explanation: >-
+reviewed: true

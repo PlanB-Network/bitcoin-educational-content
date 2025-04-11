@@ -1,0 +1,11 @@
+question: Jaka jest różnica między handlem a inwestowaniem w kontekście Bitcoin?
+answer: Handel obejmuje krótkoterminowe kontrakty o wysokim ryzyku, podczas gdy inwestowanie obejmuje kupowanie BTC na krótki lub średni okres z ograniczonym ryzykiem.
+wrong_answers:
+  - Handel polega na kupowaniu BTC w krótkim lub średnim okresie, podczas gdy inwestowanie obejmuje kontrakty krótkoterminowe o wysokim ryzyku.
+  - Handel polega na długoterminowym zakupie BTC, podczas gdy inwestowanie obejmuje krótkoterminowe kontrakty o wysokim ryzyku.
+  - Handel obejmuje kupowanie BTC w perspektywie krótko- i średnioterminowej, podczas gdy inwestowanie obejmuje kupowanie BTC w perspektywie długoterminowej.
+explanation: |
+  W kontekście Bitcoin, handel obejmuje krótkoterminowe kontrakty z wysokim ryzykiem
+  wysokim ryzykiem, podczas gdy inwestowanie obejmuje kupowanie BTC na krótki lub średni okres z ograniczonym ryzykiem
+  ryzykiem.
+reviewed: false

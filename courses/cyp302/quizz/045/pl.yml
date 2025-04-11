@@ -1,0 +1,9 @@
+question: W grupie skończonej, który termin odnosi się do liczby Elements w grupie?
+answer: Kolejność grupy
+wrong_answers:
+  - Pojemność grupy
+  - Długość grupy
+  - Stopień grupy
+explanation: |
+  Kolejność grupy to całkowita liczba zawartych w niej Elements.
+reviewed: false

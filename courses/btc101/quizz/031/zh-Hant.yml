@@ -1,0 +1,13 @@
+question: 以下哪項不是 Bitcoin 作為貨幣的優勢？
+answer: 它是用來繳稅的。
+wrong_answers:
+  - 它是可分割的。
+  - 可攜帶。
+  - 它是無允許的。
+explanation: |
+  Bitcoin 因其可分割性、可驗證性、無許可性和可傳輸性等特性而具有以下特點
+  可驗證、無許可性以及可攜性、
+  提供了極佳的價值儲存。此外，作為一種中立的
+  網路貨幣，它是 Exchange
+  的良好媒介。
+reviewed: true

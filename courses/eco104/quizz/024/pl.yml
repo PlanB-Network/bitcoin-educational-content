@@ -1,0 +1,11 @@
+question: Czym jest Halving w kontekście Bitcoin?
+answer: Funkcja w kodzie Bitcoin, która zmniejsza nagrodę Mining o połowę co cztery lata
+wrong_answers:
+  - Proces zwiększania globalnej adopcji Bitcoin
+  - Mechanizm, który zapobiega spadkowi wartości Bitcoin
+  - Termin używany do opisania zdarzenia, w którym cena Bitcoin gwałtownie rośnie
+explanation: |
+  Halving to funkcja w kodzie Bitcoin, która zmniejsza nagrodę Mining
+  o połowę mniej więcej co cztery lata. Wydarzenie to wpływa na
+  górników i wywiera presję na wzrost ceny Bitcoin.
+reviewed: true

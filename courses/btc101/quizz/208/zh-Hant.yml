@@ -1,0 +1,10 @@
+question: 購買 Bitcoin 時，不遵守貴國規定的潛在後果之一是什麼？
+answer: 您可能會將自己置於危險之中。
+wrong_answers:
+  - 您可以提高 Bitcoin 的價格。
+  - 您可以控制 Bitcoin 的 Supply。
+  - 您可能會阻止他人購買 Bitcoin。
+explanation: |
+  課程中提到，在購買 Bitcoin 時，如果不遵守您所在國家的規定
+  購買 Bitcoin 可能會讓您有風險。
+reviewed: true

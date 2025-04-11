@@ -1,0 +1,14 @@
+question: 使用 VPN 的主要好處是什麼？
+answer: 它透過遮蔽您的 IP Address 來保護您的隱私。
+wrong_answers:
+  - 可加快您的網際網路連線速度
+  - 它提供免費的付費服務
+  - 可保護您的電腦不受病毒侵害
+explanation: |
+  VPN (虛擬私人網路) 透過隱藏您的個人資料來保護您的隱私。
+  您的
+  
+  IP Address。雖然它不會讓您完全匿名，但仍是一個簡單的
+  
+  有效的步驟來改善您的線上隱私。
+reviewed: false

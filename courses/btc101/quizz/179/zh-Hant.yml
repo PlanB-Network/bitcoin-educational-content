@@ -1,0 +1,8 @@
+question: Bitcoin 經歷如此多投機泡沫的原因之一是什麼？
+answer: 因為其有限的 Supply 加上高需求。
+wrong_answers:
+  - 因為 Bitcoin 實際上沒有在任何地方使用。
+  - 因為 Bitcoin 是一個將會消失的泡沫。
+  - 因為 Bitcoin 不受經濟週期的影響。
+explanation: >-
+reviewed: true

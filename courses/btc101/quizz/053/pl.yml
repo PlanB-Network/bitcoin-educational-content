@@ -1,0 +1,11 @@
+question: Istnieje historyczny przypadek dziennej stopy inflacji równej 100%; gdzie i kiedy to się stało?
+answer: W Zimbabwe, 2007.
+wrong_answers:
+  - Na Węgrzech w 1945 r.
+  - W Chinach, w 1940 roku.
+  - Jest to w rzeczywistości nierealny przypadek, który nie może mieć miejsca.
+explanation: |
+  Inflacja na poziomie 100% dziennie jest realistycznym scenariuszem, który
+  zdarzył się w Zimbabwe w 2007 r., gdzie wartość pieniądza z grubsza
+  podwajała się co 24 godziny.
+reviewed: true

@@ -1,0 +1,10 @@
+question: Jaka jest jedna zaleta korzystania z platformy Exchange do kupowania i sprzedawania bitcoinów?
+answer: Pozwala na regularne transakcje zgodnie z potrzebami użytkownika.
+wrong_answers:
+  - Pozwala na anonimowe transakcje.
+  - Zwiększa to wartość Bitcoin.
+  - Stanowi platformę dla Mining Bitcoin.
+explanation: |
+  Platformy Exchange pozwalają użytkownikom kupować i sprzedawać bitcoiny regularnie i
+  wygodnie, zgodnie z ich potrzebami.
+reviewed: false

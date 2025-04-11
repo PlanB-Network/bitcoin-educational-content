@@ -1,0 +1,9 @@
+question: Co oznacza operacja modulo w matematyce?
+answer: Pozostała część podziału
+wrong_answers:
+  - Iloraz dzielenia
+  - Dwukrotność liczby początkowej
+  - Liczba, która dzieli się bez reszty
+explanation: |
+  Operacja modulo polega na określeniu reszty z dzielenia, na przykład 25 mod 4 równa się 1, ponieważ reszta z dzielenia wynosi 1.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Czym jest UTXO w kontekście Bitcoin?
+answer: Niewydane bitcoiny powiązane ze skryptem
+wrong_answers:
+  - W pełni potwierdzona transakcja na Blockchain
+  - Klucz publiczny, który generuje adresy Bitcoin
+  - Ilość Bitcoin podzielona na wiele części
+explanation: |
+  UTXO, czyli Unspent Transaction Output, to niewydana kwota transakcji, reprezentująca określoną ilość bitcoinów, którą posiadacz może wykorzystać.
+reviewed: false

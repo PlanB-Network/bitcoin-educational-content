@@ -29,9 +29,10 @@ Cuối cùng, một sự phản ánh sâu sắc hơn sẽ được thực hiện
 
 <partId>81318b8f-d316-5787-aa4c-4ec8370ba668</partId>
 
-## Tái ngữ cảnh hóa
+## Tổng quan về khóa học
 
 <chapterId>e8991b82-4966-5e04-8f05-7cae46eacbaa</chapterId>
+Chào mừng bạn đến với khóa học BTC302!
 
 Kể từ năm 2009, Bitcoin đã tiếp tục phát triển. Điều này bao gồm việc triển khai các Đề xuất cải tiến Bitcoin (BIP) mới, tạo ra các lớp mới để mở rộng mạng lưới (trong số những thứ khác, Lightning Network) và phát triển nhiều công ty và công ty khởi nghiệp.
 
@@ -60,6 +61,34 @@ Mặt khác, làm sao chúng ta có thể khuyến khích những người mới
 ####
 
 Đối với hai vấn đề này, giải pháp tốt nhất là phải đến tận nơi và giáo dục.
+
+Mục tiêu của khóa học này là cung cấp cho bạn tất cả các chìa khóa cần thiết để tạo và tổ chức một cộng đồng hoặc meet-up Bitcoin một cách hiệu quả. Dù bạn muốn xây dựng một sáng kiến địa phương hay phát triển một nhóm trực tuyến, khóa học này sẽ hướng dẫn bạn một cách cụ thể qua từng bước của quy trình, từ việc tạo dựng nhận diện hình ảnh cho đến tổ chức các sự kiện định kỳ, bao gồm cả việc quản lý các kênh truyền thông của bạn.
+
+**Phần 1 : Giới thiệu**  
+Chúng ta sẽ bắt đầu bằng cách đặt lại bối cảnh về tầm quan trọng của việc tập hợp mọi người xung quanh Bitcoin, dù là các cộng đồng trực tuyến hay các meet-up địa phương. Bạn sẽ khám phá tại sao và ở đâu bạn nên khởi tạo cộng đồng của mình, cũng như cách xác định các mục tiêu rõ ràng để đảm bảo sự phát triển và bền vững của nó.
+
+**Phần 2 : Tạo dựng một bản sắc riêng cho cộng đồng Bitcoin của bạn**  
+Để thu hút các thành viên mới và thiết lập một cảm giác gắn kết, việc tạo ra một bản sắc độc đáo là rất quan trọng. Phần này sẽ dạy bạn cách thiết kế logo, áp phích hoặc biểu ngữ phản ánh trung thực tinh thần của cộng đồng Bitcoin của bạn.
+
+**Phần 3 : Tạo các kênh truyền thông cho cộng đồng Bitcoin của bạn**  
+Giao tiếp là trái tim của mọi cộng đồng. Tại đây, chúng ta sẽ thảo luận về các kênh truyền thông khác nhau cần được ưu tiên và các phương pháp để cấu hình một nhóm Telegram hoặc một máy chủ Discord một cách hiệu quả. Chúng ta cũng sẽ đề cập đến việc tích hợp các bot đa chức năng để hỗ trợ việc quản lý cộng đồng của bạn.
+
+**Phần 4 : Khởi chạy các mạng xã hội**  
+Tính minh bạch là yếu tố thiết yếu cho sự phát triển của cộng đồng của bạn. Bạn sẽ học cách tạo một hồ sơ Twitter chuyên dụng, thiết lập kết nối với các meet-up gần bạn, và sử dụng các nền tảng như btcmap.org để tăng cường sự hiện diện của bạn và thu hút các thành viên mới.
+
+**Phần 5 : Tổ chức một meet-up Bitcoin**  
+Phần này tập trung vào việc tổ chức các meet-up, từ việc tìm kiếm một địa điểm phù hợp cho đến việc tổ chức sự kiện. Chúng ta cũng sẽ nghiên cứu các cách thức duy trì sự tham gia của người tham dự để đảm bảo sự phát triển bền vững của cộng đồng của bạn.
+
+**Phần 6 : Các ví dụ về dự án và sáng kiến**  
+Để vượt xa các buổi gặp mặt đơn thuần, chúng tôi sẽ cung cấp trong phần này các ví dụ cụ thể và độc đáo về các dự án: sự kiện chuyên đề, hội thảo, tạo nội dung giáo dục, hợp tác địa phương và nhiều hơn nữa. Bạn cũng sẽ học cách tạo ra các tài liệu vật lý và kỹ thuật số để quảng bá cộng đồng của mình.
+
+**Phần 7 : Dự đoán tương lai**  
+Cuối cùng, chúng ta sẽ đề cập đến sự phát triển tự nhiên của cộng đồng của bạn. Làm gì nếu nhóm của bạn phát triển quá nhanh? Làm thế nào để phi tập trung hóa tổ chức? Và làm thế nào để phản ứng nếu môi trường pháp lý trở nên thù địch? Phần này sẽ giúp bạn dự đoán các thách thức trong tương lai.
+
+**Phần 8 : Tập hợp những người đam mê Bitcoin**  
+Phần cuối cùng này tập trung vào cốt lõi của dự án của bạn: kết nối những người đam mê Bitcoin xung quanh một tầm nhìn chung. Bạn sẽ học cách cấu trúc cách tiếp cận của mình để thu hút và duy trì các thành viên mới, cách phân công nhiệm vụ trong nhóm của bạn và cách phát triển cộng đồng của bạn một cách bền vững.
+
+Sẵn sàng tìm hiểu cách xây dựng một cộng đồng Bitcoin mạnh mẽ và năng động? Bắt đầu nào!
 
 ## Tại sao lại tạo cộng đồng hoặc buổi gặp mặt bitcoin?
 
@@ -1749,7 +1778,7 @@ Tất nhiên, chúng ta không nên rơi vào dạng suy nghĩ theo thuyết âm
 
 ![image](assets/fr/59.webp)
 
-# Phần kết luận
+# Tập hợp các Bitcoiner
 
 <partId>62bc2138-c0be-5d39-a341-594690863257</partId>
 
@@ -1846,7 +1875,7 @@ Thông qua đó, **chúng tôi cũng sẽ **trình bày chi tiết một điểm
 
 Tất nhiên, **ở các quốc gia khác, luật pháp và hoạt động của các hiệp hội là khác nhau**. Tuy nhiên, một số điểm sẽ rất hữu ích trong việc thành lập một hiệp hội hoặc tổ chức một sự kiện quan trọng; và **chúng tôi hy vọng rằng những người dùng bitcoin khác sẽ đến và tích hợp khóa đào tạo này dành riêng cho quốc gia của họ**.
 
-# Phần kết luận
+# Phần cuối
 
 <partId>e9bdddf4-54c9-4de9-bbce-c3eade8c32e5</partId>
 

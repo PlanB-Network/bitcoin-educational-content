@@ -26,11 +26,11 @@ Théo; Beitrag
 
 <partId>534ab66c-b0e6-5757-a7dd-6ea04647edf2</partId>
 
-## Kursvorstellung
+## Kursübersicht
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
-### Ziel: Aktualisierung!
+**Ziel: Aktualisierung!**
 
 Willkommen zu diesem Bildungsprogramm für IT-Sicherheit und Datenschutz. Dieses Training ist so konzipiert, dass es für alle zugänglich ist und keine Vorkenntnisse in der Informatik erforderlich sind. Unser Hauptziel ist es, Ihnen das Wissen und die Fähigkeiten zu vermitteln, um sicherer und privater in der digitalen Welt zu navigieren.
 
@@ -47,7 +47,7 @@ Dans dieser Schulung streben wir nicht danach, Sie zu Experten zu machen, anonym
 
 Wenn Sie fortgeschrittene Fähigkeiten zu diesem Thema suchen, stehen Ihnen unsere Ressourcen, Tutorials oder andere Schulungen zur Cybersicherheit zur Verfügung. In der Zwischenzeit erhalten Sie einen kleinen Einblick in unser Programm für die kommenden Stunden zusammen.
 
-### Abschnitt 1: Alles über das Surfen im Internet wissen
+**Abschnitt 1: Alles über das Surfen im Internet wissen**
 
 - Kapitel 1 - Online-Surfen
 - Kapitel 2 - Sicheres Surfen im Internet
@@ -55,7 +55,7 @@ Wenn Sie fortgeschrittene Fähigkeiten zu diesem Thema suchen, stehen Ihnen unse
 Zum Einstieg werden wir über die Bedeutung der Wahl eines Web-Browsers und deren Auswirkungen auf die Sicherheit sprechen. Anschließend werden wir uns mit den Besonderheiten von Browsern befassen, insbesondere in Bezug auf die Verwaltung von Cookies. Wir werden auch sehen, wie man durch Tools wie TOR sicherer und anonymer surfen kann. Danach werden wir uns auf die Verwendung von VPNs konzentrieren, um den Schutz Ihrer Daten zu stärken. Schließlich werden wir Empfehlungen zur sicheren Nutzung von WLAN-Verbindungen geben.
 ![](assets/de/1.webp)
 
-### Abschnitt 2: Gute Praktiken bei der Nutzung des Computers
+**Abschnitt 2: Gute Praktiken bei der Nutzung des Computers**
 
 - Kapitel 3 - Computer-Nutzung
 - Kapitel 4 - Hacken & Backup-Management
@@ -63,7 +63,7 @@ Zum Einstieg werden wir über die Bedeutung der Wahl eines Web-Browsers und dere
 In diesem Abschnitt behandeln wir drei Schlüsselbereiche der Computersicherheit. Zunächst werden wir die verschiedenen Betriebssysteme - Mac, PC und Linux - erkunden und ihre Besonderheiten und Stärken hervorheben. Dann werden wir uns mit Methoden beschäftigen, um sich effektiv vor Hacking-Versuchen zu schützen und die Sicherheit Ihrer Geräte zu stärken. Schließlich werden wir die Bedeutung des regelmäßigen Schutzes und der Sicherung Ihrer Daten zur Vermeidung von Verlusten oder Ransomware hervorheben.
 ![](assets/de/2.webp)
 
-### Abschnitt 3: Implementierung von Lösungen
+**Abschnitt 3: Implementierung von Lösungen**
 
 - Kapitel 6 - E-Mail-Management
 - Kapitel 7 - Passwort-Manager
@@ -74,6 +74,7 @@ In diesem praktischen dritten Abschnitt werden wir zur praktischen Umsetzung Ihr
 Zuerst werden wir besprechen, wie Sie Ihre E-Mail schützen können, die für Ihre Kommunikation unerlässlich ist und oft von Hackern ins Visier genommen wird. Dann werden wir Ihnen vorstellen, was ein Passwort-Manager ist: eine praktische Lösung, um Ihre Passwörter nicht mehr zu vergessen oder durcheinander zu bringen, während sie sicher bleiben. Schließlich werden wir eine zusätzliche Sicherheitsmaßnahme, die Zwei-Faktor-Authentifizierung, ansprechen, die eine zusätzliche Schutzschicht für Ihre Konten bietet. Alles wird klar und verständlich erklärt.
 ![](assets/de/3.webp)
 
+Bereit, Ihre digitale Sicherheit zu stärken und die Kontrolle über Ihre Daten zurückzugewinnen? Los geht's!
 # Alles über das Surfen im Internet
 
 <partId>b4b5379a-d8ef-59ae-94d3-a6e88959c149</partId>

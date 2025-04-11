@@ -263,7 +263,7 @@ Skupina Satoshi Fellowship prezentuje LN herní aplikaci s použitím LnBits a M
 Skupina Lightning Walker prezentuje své řešení pro službu remitencí s použitím MySQL, JavaScript a API ZDB.
 
 
-# Závěr
+# Sekce finále
 <partId>a633fb0c-839c-4405-8b77-2377cce79dd7</partId>
 
 ## Recenze & Hodnocení

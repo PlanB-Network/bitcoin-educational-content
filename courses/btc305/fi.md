@@ -23,6 +23,28 @@ Tuottanut BTCPay Server Foundation
 
 <partId>59e43fe3-b494-5da6-b4b4-9df5bdf08916</partId>
 
+## Kurssin yleiskatsaus
+
+<chapterId>785ed2bc-94ae-4962-a26a-edf5742a3c72</chapterId>
+
+Tervetuloa BTC305-kurssille BTCPay Serveristä!
+
+Tämän koulutuksen tavoitteena on opettaa sinulle, kuinka asentaa, konfiguroida ja käyttää BTCPay Serveriä yrityksessäsi tai organisaatiossasi. BTCPay Server on avoimen lähdekoodin ratkaisu, joka mahdollistaa bitcoin-maksujen käsittelyn itsenäisesti, turvallisesti ja taloudellisesti. Tämä kurssi on suunnattu ensisijaisesti kokeneille käyttäjille, jotka haluavat hallita BTCPay Serverin itseisännöintiä ja integroida sen täydellisesti päivittäiseen toimintaansa.
+
+**Osio 1: BTCPay Serverin esittely**  
+Aloitamme yleisellä esittelyllä BTCPay Serveristä, joka sisältää kirjautumisnäytön, käyttäjätilien hallinnan ja uuden kaupan luomisen. Tämä johdanto auttaa sinua ymmärtämään BTCPay Serverin käyttöliittymän ja omaksumaan työkalun käyttöönottoon tarvittavat perustoiminnot.
+
+**Osio 2: Bitcoin-avainten suojaamisen esittely**  
+Bitcoin-varojesi turvallisuus on erittäin tärkeää. Tässä osiossa tutkimme kryptografisten avainten generointia, hardware-lompakoiden käyttöä avainten suojaamiseen sekä avainten hallintaa BTCPay Serverin kautta. Opit myös, kuinka määrittää BTCPay Serverin Lightning-lompakko maksutapahtumien optimoimiseksi.
+
+**Osio 3: BTCPay Serverin käyttöliittymä**  
+Tämä osio opastaa sinua BTCPay Serverin käyttöliittymän läpi. Opit navigoimaan hallintapaneelissa, konfiguroimaan kaupan ja palvelimen asetuksia, hallitsemaan maksuja ja hyödyntämään integroituja liitännäisiä. Tavoitteena on tutustuttaa sinut työkaluihin, joita tarvitset asennuksen mukauttamiseksi tarpeidesi mukaan.
+
+**Osio 4: BTCPay Serverin konfigurointi**  
+Lopuksi keskitymme BTCPay Serverin käytännön asennukseen eri ympäristöissä. Käytitpä sitten LunaNodea, Voltagea tai Umbrel-solmua, opit olennaiset vaiheet BTCPay Serverin käyttöönottamiseksi ja konfiguroimiseksi ottaen huomioon kunkin ympäristön erityispiirteet.
+
+Oletko valmis hallitsemaan BTCPay Serverin ja kasvattamaan liiketoimintaasi? Lähdetään liikkeelle!
+
 ## Kriittinen suosio kirjoittajan Bitcoin ja BTCPay Server -teokselle
 
 <chapterId>e1fe6294-3c82-5203-9537-779f9087c35a</chapterId>
@@ -2413,7 +2435,7 @@ Tässä osiossa opit:
 
 Miten asennus Umbrelissa eroaa kahdesta aiemmasta isännöidystä vaihtoehdosta?
 
-# Yhteenveto
+# Lopullinen osio
 
 <partId>d72e6fa5-0870-5f00-9143-9466ed22e2bd</partId>
 

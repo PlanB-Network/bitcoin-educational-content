@@ -1,0 +1,9 @@
+question: 2010 年 7 月，Slashdot 專題介紹了哪個軟體版本號？
+answer: v0.3
+wrong_answers:
+  - v0.1
+  - v0.2
+  - v0.4
+explanation: |
+  這個版本的發行由 Satoshi 和 Martti 準備已久，標誌著在溝通上的新努力。
+reviewed: false

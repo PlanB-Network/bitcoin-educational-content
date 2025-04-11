@@ -24,19 +24,33 @@ Rejoignez-nous pour améliorer vos compétences, libérer le plein potentiel de 
 
 <partId>8f34de87-6e9a-4e3b-a326-50fc7c1803b3</partId>
 
-## Introduction aux cours
+## Aperçu du cours
 
 <chapterId>a721398e-7040-4edd-be53-b485ea759fa9</chapterId>
 
 ![Video](https://youtu.be/gkQfnwYLyI0?si=H6cIPhgZaSAwHaHI)
 
-L'objectif de l'Académie Elements est de présenter et d'expliquer les concepts clés d'Elements, la plateforme open-source sur laquelle Liquid est construit. À la fin du cours, vous devriez avoir une bonne compréhension des principales caractéristiques d'Elements, telles que les transactions confidentielles et les actifs émis, ainsi que des processus impliqués dans le fonctionnement d'Elements Core.
+Bienvenue dans le cours SID202 !
 
-Chaque section comprend des leçons avec un texte explicatif et une vidéo qui se termine par un quiz. Le nombre de questions dépend de la taille du sujet précédent. La section 10 résumera le contenu du cours et se terminera par un quiz plus important.
+L'objectif de l'*Elements Academy* est de vous présenter et expliquer les concepts clés d'*Elements*, la plateforme open-source sur laquelle est construit la sidechain Liquid. À l'issue de ce cours, vous devriez posséder une solide compréhension des fonctionnalités principales d'Elements, comme les transactions confidentielles et les actifs émis, ainsi que des processus en jeu dans le fonctionnement d'Elements Core. Chaque section du cours comprend des leçons accompagnées de textes explicatifs et de vidéos, qui se concluent par un quiz.
 
-Toute question, demande d'information complémentaire ou interrogation sur les réponses du quiz peut être adressée à votre professeur James Dorfman.
+Cette formation a donc pour objectif de vous apprendre à utiliser et à développer avec la plateforme open-source Elements, en mettant l'accent sur le réseau Liquid. Vous découvrirez comment ces technologies peuvent améliorer la confidentialité, l’évolutivité et les fonctionnalités de vos projets de développement. Que vous soyez débutant ou développeur expérimenté, ce cours vous fournira une base solide pour maîtriser les concepts fondamentaux d’Elements et de Liquid, ainsi que leurs applications pratiques.
 
-## Aperçu des éléments
+**Section 1 : Introduction**  
+Nous commencerons par un aperçu complet des concepts d’Elements. Vous apprendrez comment cette plateforme a été conçue pour fournir une base modulaire et flexible pour la création de sidechains telles que Liquid. L’objectif est de comprendre la structure d’Elements avant de plonger dans ses applications concrètes.
+
+**Section 2 : Elements**  
+Cette section se concentrera sur le fonctionnement d’Elements. Vous apprendrez comment configurer un nœud Elements, le faire fonctionner en configuration autonome ou en tant que sidechain.
+
+**Section 3 : Utilisation d'Elements - Cas d'utilisation pratique**  
+Une fois les bases théoriques maîtrisées, nous aborderons des applications concrètes d’Elements. Vous découvrirez comment réaliser des transactions confidentielles, émettre des actifs, et gérer la réémission d’actifs.
+
+**Section 4 : Fédération Elements**  
+Nous approfondirons ici les mécanismes avancés, notamment la signature de blocs fédérés, l’utilisation d’Elements en tant que sidechain, et la création de blockchains autonomes. Cette section vous permettra de comprendre comment assurer la sécurité, l’intégrité et l’interopérabilité des blockchains basées sur Elements.
+
+Prêt à explorer le potentiel d’Elements et de la sidechain Liquid ? C'est parti !
+
+## Aperçu d'Elements
 
 <chapterId>7a7f2712-5300-4a6d-b1ed-05eab731bc35</chapterId>
 
@@ -1219,7 +1233,7 @@ Nous avons vu que le code source et le site web d'Elements (https://github.com/E
 
 La prochaine étape consiste à vous lancer un défi en répondant à un questionnaire cumulatif qui couvre toutes les sections précédentes, puis à entamer votre parcours dans le domaine des éléments... bonne chance !
 
-# Conclusion
+# Section finale
 
 <partId>d5dbd616-e291-42bc-aae3-6c44599dbd06</partId>
 

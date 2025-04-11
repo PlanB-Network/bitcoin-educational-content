@@ -1,0 +1,9 @@
+question: Ni sifa gani ya kutofautiana kwa sare?
+answer: Thamani zote zinazowezekana zina uwezekano sawa wa kutokea
+wrong_answers:
+  - Thamani hufuata usambazaji usiolinganishwa
+  - Uwezekano wa kila thamani inategemea jaribio
+  - Thamani mbili tu zinaweza kutokea kwa uwezekano sawa
+explanation: |
+  Tofauti sare ni kigezo cha nasibu ambapo thamani zote zinazowezekana zina uwezekano sawa wa kutokea.
+reviewed: false

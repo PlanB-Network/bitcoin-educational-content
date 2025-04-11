@@ -23,7 +23,7 @@ To help you start this adventure, I have created this free course. Only Bitcoin,
 
 <partId>008c49b7-5e17-5973-87f2-ba28429b2697</partId>
 
-## Introduction to BTC102 course
+## Course overview
 
 <chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 
@@ -1042,7 +1042,7 @@ I am truly proud that you have reached this stage. I sincerely mean it. What to 
 
 In any case, all our courses are free, and many resources or tutorials are available on our platform to accompany you. Good luck with your studies!
 
-# Conclusion
+# Final Section
 
 <partId>a8425389-4a53-4b57-b9b4-36c1cab12de5</partId>
 

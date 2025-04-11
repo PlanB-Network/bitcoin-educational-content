@@ -23,7 +23,7 @@ Aloittaaksesi tämän seikkailun, olen luonut tämän ilmaisen kurssin. Vain Bit
 
 <partId>008c49b7-5e17-5973-87f2-ba28429b2697</partId>
 
-## BTC102-kurssin esittely
+## Kurssin yleiskatsaus
 
 <chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 
@@ -1022,7 +1022,7 @@ Olen todella ylpeä siitä, että olet saavuttanut tämän vaiheen. Tarkoitan si
 
 Joka tapauksessa kaikki kurssimme ovat ilmaisia, ja monia resursseja tai opetusohjelmia on saatavilla alustallamme saattamaan sinut matkallasi. Onnea opintoihisi!
 
-# Yhteenveto
+# Lopullinen osio
 
 <partId>a8425389-4a53-4b57-b9b4-36c1cab12de5</partId>
 

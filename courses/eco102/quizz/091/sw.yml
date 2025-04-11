@@ -1,0 +1,8 @@
+question: Je, kwa Bastiat, haki ya kumiliki mali imeundwa na sheria au inaitangulia?
+answer: inatangulia sheria
+wrong_answers:
+  - iliyoundwa na sheria
+  - iliyoundwa na Contract ya kijamii
+  - kutegemea mapenzi ya jumla
+explanation: |
+  Bastiat anachukulia haki ya kumiliki mali kama haki ya asili inayotangulia sheria, ambayo inapaswa tu kuhakikisha ulinzi wake.

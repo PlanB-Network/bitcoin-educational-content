@@ -1,0 +1,8 @@
+question: Ni nini hitaji la kipimo data cha kuendesha nodi ya Bitcoin, ukizingatia block 1 ya 1MB kila dakika 10?
+answer: Takriban 5GB kwa mwezi.
+wrong_answers:
+  - Takriban 1GB kwa mwezi.
+  - Takriban 10GB kwa mwezi.
+  - Takriban 20GB kwa mwezi.
+explanation: >-
+reviewed: true

@@ -24,17 +24,32 @@ Bergabunglah bersama kami untuk meningkatkan keterampilan Anda, membuka potensi 
 
 <partId>8f34de87-6e9a-4e3b-a326-50fc7c1803b3</partId>
 
-## Pengenalan Kursus
+## Ikhtisar Kursus
 
 <chapterId>a721398e-7040-4edd-be53-b485ea759fa9</chapterId>
 
 ![Video](https://youtu.be/gkQfnwYLyI0?si=H6cIPhgZaSAwHaHI)
 
-Tujuan dari Elements Academy adalah untuk memperkenalkan dan menjelaskan konsep-konsep utama Elements, platform sumber terbuka yang menjadi dasar dari Liquid. Pada akhir kursus, Anda akan memiliki pemahaman yang baik tentang fitur utama Elements, seperti Transaksi Rahasia dan Aset yang Diterbitkan, dan proses yang terlibat dalam menjalankan Elements Core.
+Selamat datang di kursus SID202!
 
-Setiap bagian akan memiliki pelajaran dengan teks penjelasan dan video yang diakhiri dengan kuis. Jumlah pertanyaan berhubungan dengan ukuran topik sebelumnya. Bagian 10 akan merangkum konten kursus dan diakhiri dengan kuis yang lebih besar.
+Tujuan dari *Elements Academy* adalah untuk memperkenalkan dan menjelaskan konsep-konsep utama dari *Elements*, platform open-source yang menjadi dasar dari sidechain Liquid. Pada akhir kursus ini, Anda diharapkan memiliki pemahaman yang solid tentang fitur-fitur utama Elements, seperti transaksi rahasia dan aset yang diterbitkan, serta proses yang terlibat dalam pengoperasian Elements Core. Setiap bagian dari kursus mencakup pelajaran yang dilengkapi dengan teks penjelasan dan video, yang diakhiri dengan kuis.
 
-Setiap pertanyaan, permintaan informasi tambahan, atau pertanyaan mengenai jawaban kuis dapat ditujukan kepada guru Anda, James Dorfman.
+Pelatihan ini bertujuan untuk mengajarkan Anda cara menggunakan dan mengembangkan dengan platform open-source Elements, dengan penekanan pada jaringan Liquid. Anda akan mempelajari bagaimana teknologi ini dapat meningkatkan privasi, skalabilitas, dan fungsionalitas proyek pengembangan Anda. Baik Anda pemula atau pengembang berpengalaman, kursus ini akan memberikan dasar yang kuat untuk menguasai konsep-konsep dasar dari Elements dan Liquid serta aplikasinya dalam praktik.
+
+**Bagian 1: Pengantar**  
+Kami akan memulai dengan gambaran menyeluruh tentang konsep-konsep Elements. Anda akan belajar bagaimana platform ini dirancang untuk menyediakan dasar modular dan fleksibel untuk membuat sidechain seperti Liquid. Tujuannya adalah untuk memahami struktur Elements sebelum masuk ke aplikasi praktisnya.
+
+**Bagian 2: Elements**  
+Bagian ini akan fokus pada cara kerja Elements. Anda akan belajar bagaimana mengonfigurasi node Elements, mengoperasikannya dalam mode mandiri, atau menggunakannya sebagai sidechain.
+
+**Bagian 3: Penggunaan Elements – Studi Kasus Praktis**  
+Setelah menguasai dasar-dasar teoretis, kami akan membahas aplikasi praktis dari Elements. Anda akan belajar bagaimana melakukan transaksi rahasia, menerbitkan aset, dan mengelola penerbitan ulang aset.
+
+**Bagian 4: Federasi Elements**  
+Di sini, kita akan membahas mekanisme lanjutan, termasuk penandatanganan blok federasi, penggunaan Elements sebagai sidechain, dan pembuatan blockchain independen. Bagian ini akan membantu Anda memahami bagaimana memastikan keamanan, integritas, dan interoperabilitas dari blockchain berbasis Elements.
+
+Siap untuk menjelajahi potensi Elements dan Liquid sidechain? Ayo mulai!
+
 
 ## Ikhtisar Elemen
 
@@ -1219,7 +1234,7 @@ Kita telah melihat bahwa kode sumber dan situs web untuk Elements (https://githu
 
 Langkah selanjutnya adalah menantang diri Anda dengan kuis kumulatif yang mencakup semua bagian sebelumnya, kemudian memulai perjalanan Elements Anda...semoga berhasil!
 
-# Kesimpulan
+# Bagian Akhir
 
 <partId>d5dbd616-e291-42bc-aae3-6c44599dbd06</partId>
 

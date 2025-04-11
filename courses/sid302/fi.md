@@ -20,7 +20,7 @@ Kurssilla käsitellään alan asiantuntijoiden esitysten avulla muun muassa Liqu
 
 <partId>9f8a83d5-27e0-4e6d-af12-6cd6eb667291</partId>
 
-## Johdanto Liquid Bootcampiin
+## Kurssin yleiskatsaus
 
 <chapterId>3192ee7d-255b-4c4f-ba18-e08c5ab98577</chapterId>
 
@@ -32,6 +32,7 @@ Tämä bootcamp toteutettiin alun perin henkilökohtaisena tapahtumana, jossa no
 
 Matka on suunniteltu siten, että se sopii eritasoisille osallistujille, ja se tarjoaa teoreettisen tiedon ja käytännön kokemuksen yhdistelmän. Tämän bootcampin päätteeksi sinulla on vankka käsitys Liquidin arkkitehtuurista, sen integroinnista Bitcoiniin ja siitä, miten sen innovatiivisia ominaisuuksia käytetään rahoitusratkaisujen rakentamiseen ja optimointiin.
 
+Sukella Liquid-sidechainin maailmaan ja paljasta sen täysi potentiaali nyt!
 # Perusteet
 
 <partId>6dd86449-c0f7-4e51-9252-5f135cf019df</partId>
@@ -98,7 +99,7 @@ Nardo tarjoaa yleiskatsauksen Blockstream AMP:stä, joka on alusta digitaalisten
 
 Antonio esittelee Breezen, avoimen lähdekoodin SDK:n, joka on suunniteltu hajautettuihin transaktioihin Liquid Networkissa. Hän käsittelee sen ominaisuuksia, kuten tukea monikielisille sidoksille ja turvallisille transaktioprosesseille, ja korostaa samalla sen tavoitetta yksinkertaistaa rahoitusteknologiaa kehittäjille
 
-# Päätelmä
+# Lopullinen osio
 
 <partId>7ec65e6b-6e63-41b6-92ea-6a13bc77c3ff</partId>
 

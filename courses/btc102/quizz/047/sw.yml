@@ -1,0 +1,11 @@
+question: Wallet ni nini katika muktadha wa Bitcoin?
+answer: Salama ya kidijitali ya bitcoins zako
+wrong_answers:
+  - Kifaa halisi cha kuhifadhi bitcoins
+  - Programu ya bitcoins za Mining
+  - Jukwaa la kununua na kuuza bitcoins
+explanation: |
+  Maudhui ya sura yanaeleza kuwa bitcoins huhifadhiwa katika kile kinachoitwa
+  Wallet, ambayo ni salama ya dijitali kwa pesa zako. Mwenye ufunguo pekee ndiye anayeweza kufikia
+  ni.
+reviewed: false

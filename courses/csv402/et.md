@@ -70,6 +70,8 @@ Selle koolituskursuse kirjaliku versiooni koostamisel kasutati 2 peamist allikat
 - Videod Maxim Orlovsky, Hunter Trujilo ja Frederico Tenga seminarist Lightning Bootcampis ;
 - RGB dokumentatsioon, mille koostamist sponsoreeris [Bitfinex](https://www.bitfinex.com/).
 
+Kas olete valmis sukelduma RGB keerukasse ja põnevasse maailma? Lähme!
+
 # RGB teoreetiliselt
 
 <partId>80e797ee-3f33-599f-ab82-e82eeee08219</partId>
@@ -3907,7 +3909,7 @@ Projekt on endiselt alfa-staadiumis. Seetõttu on tungivalt soovitatav piirduda 
 
 LN-RGB ühilduvuse poolt avanevad võimalused on märkimisväärsed: stabiilsed mündid Lightningil, DEX layer-2, asendatavate žetoonide või NFT-de ülekandmine väga väikeste kuludega... Eelmistes peatükkides on kirjeldatud kontseptuaalset arhitektuuri ja valideerimisloogikat. Nüüd on teil praktiline ülevaade sellest, kuidas saada selline sõlme üles ja tööle, teie tulevaste arenduste või testide jaoks.
 
-# Kokkuvõte
+# Lõpusektsioon
 
 <partId>b0baebfc-d146-5938-849a-f835fafb386f</partId>
 

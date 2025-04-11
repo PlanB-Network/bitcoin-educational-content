@@ -1,0 +1,9 @@
+question: Je, ni hatua gani Bob (mpokeaji) hufanya mara tu anapopokea Terminal Consignment kutoka kwa Alice (mlipaji)?
+answer: Angalia uhalali wa State Transition na utie saini
+wrong_answers:
+  - Rekebisha Contract Schema na utume kwa Alice
+  - Unda Invoice kwa operesheni mpya
+  - Saini PSBT ya Alice na uisambaze kwenye mnyororo
+explanation: |
+  Bob anachunguza Consignment, anahakikisha kwamba mabadiliko yanazingatia sheria, na kutia saini ili kuthibitisha makubaliano yake.
+reviewed: false

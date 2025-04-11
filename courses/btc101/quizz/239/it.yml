@@ -1,11 +1,11 @@
-question: Quale delle seguenti non è una caratteristica chiave delle micro-transazioni sulla Lightning Network?
+question: Quale delle seguenti non è una caratteristica chiave dei micro-pagamenti su Lightning Network?
 answer: Tempi di pagamento lunghi.
 wrong_answers:
   - Commissioni basse.
   - Pagamenti istantanei.
   - Scalabilità.
 explanation: |
-  Con le micro-transazioni sulla Lightning Network, gli utenti possono
+  Con i micro-pagamenti Lightning Network, gli utenti possono
   avere commissioni di transazione basse, rendendo economico inviare
   piccolissime quantità di Bitcoin. Possono anche avere pagamenti
   istantanei, consentendo transazioni in tempo reale. Infine, possono

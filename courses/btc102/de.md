@@ -23,7 +23,7 @@ Um Ihnen den Einstieg in dieses Abenteuer zu erleichtern, habe ich diesen kosten
 
 <partId>008c49b7-5e17-5973-87f2-ba28429b2697</partId>
 
-## Einführung in den BTC102-Kurs
+## Kursübersicht
 
 <chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 

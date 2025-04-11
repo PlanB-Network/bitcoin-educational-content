@@ -24,42 +24,30 @@ Si vous avez besoin d’aide pour votre attaque, un Telegram a été créé pour
 
 <partId>a99dc130-3650-563f-8d42-a0b5160af0ab</partId>
 
-## Bienvenue!
+## Aperçu du cours
 
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
-Bienvenue dans MINAGE 201: une introduction au minage. Ajelex, Jim & Rogzy sont heureux de vous accompagner dans vos premiers pas concrets dans cette nouvelle industrie. En espérant que le cours vous plaise et que vous rejoignez l'aventure du home mining !
+Bienvenue dans le cours MIN201 : une introduction au minage. Ajelex, Jim & Rogzy sont ravis de vous guider dans vos premiers pas dans cette industrie. Nous espérons que le cours vous sera agréable et que vous vous lancerez dans l'aventure du home mining !
 
-### Aperçu du Cours
+Cette formation vous plonge au cœur de l’industrie du minage de Bitcoin en vous proposant d’en comprendre les aspects théoriques et pratiques. Que vous soyez novice ou déjà familiarisé avec le sujet, ce parcours vous permettra de saisir les enjeux économiques et techniques liés au minage, tout en réalisant un projet pratique de réutilisation d’un ASIC pour le chauffage domestique.
 
-Dans ce cours la première section sera consacrée à la théorie du minage avec Ajelex. Nous discuterons en profondeur des nombreux thèmes autour du minage, ce qui nous permettra de mieux comprendre cette industrie ainsi que les enjeux économiques et géopolitiques liés.
+**Section 2 : Tout connaître sur le minage**  
+Dans cette section, nous vous fournirons une compréhension approfondie du minage de Bitcoin. Nous aborderons le fonctionnement technique du minage, son rôle dans le protocole Bitcoin, ainsi que ses implications économiques et géopolitiques. Vous découvrirez également la relation complexe entre le prix du bitcoin et le hashrate, ainsi que les enjeux liés à la souveraineté et à la régulation de cette industrie.
 
-Dans la deuxième section, nous nous lancerons dans un cas pratique fascinant, apprenant à transformer un mineur S9 d'occasion en chauffage d'appoint maison. Grâce à des guides écrits et vidéos, toutes les étapes nécessaires seront minutieusement expliquées, garantissant ainsi votre succès dans ce projet innovant.
+**Section 3 : Home-mining et réutilisation de la chaleur**  
+Nous entrerons ensuite dans l’application pratique avec le concept d’Attakai, qui vise à démocratiser le home-mining en transformant des mineurs S9 d’occasion en dispositifs de chauffage domestique. Vous apprendrez à acheter et modifier un ASIC d’occasion, tout en préparant le matériel nécessaire pour les modifications matérielles.
 
-Ce voyage d'apprentissage vous montrera que l'industrie du minage est plus complexe qu'elle n’y paraît, offrant une perspective équilibrée sur le débat écologique lié. Une aide continue sera disponible via un groupe Telegram dédié pour les étudiants, et toutes les pièces nécessaires seront facilement accessibles sur notre plateforme e-commerce.
+**Section 4 : Attakai - modification du logiciel d’un Antminer S9**  
+Ici, vous apprendrez à configurer votre Antminer S9 pour un usage domestique. Nous vous guiderons à travers les étapes de configuration d’un bridge Wi-Fi/Ethernet, la réinitialisation de votre appareil, l’installation de BraiinsOS+, et la configuration optimale de celui-ci pour le minage.
 
-### Curriculum:
+**Section 5 : Attakai - Modification des ventilateurs**  
+Afin d’optimiser votre Antminer S9 pour une utilisation en tant que chauffage d’appoint, cette section vous apprendra à remplacer les ventilateurs de l’alimentation et les ventilateurs principaux. Ces modifications sont essentielles pour réduire le bruit et améliorer l’efficacité thermique de l’appareil.
 
-Section Théorique :
+**Section 6 : Attakai - Paramétrage**  
+Pour conclure, vous apprendrez à rejoindre une pool de minage et à optimiser les performances de votre Antminer S9. Vous découvrirez comment obtenir un rendement énergétique optimal et miner efficacement vos premiers satoshis.
 
-- Explication du minage.
-- L'industrie du minage.
-- Les nuances de l’industrie du minage.
-- Le minage dans le protocole bitcoin.
-- Prix du bitcoin et hashrate, une corrélation ?
-- Souveraineté et régulation
-- Interview d'un professionnel de l'industrie du minage
-
-Section Pratique : Attakai
-
-- Introduction à Attakai.
-- Guide d’achat.
-- Modification du logiciel d’un Antminer S9.
-- Remplacer les ventilateurs pour réduire les nuisances sonores
-- Configuration d’une pool.
-- Configurer son Antminer S9 avec Braiins OS+.
-
-Prêts à commencer cette aventure captivante ? Plongeons ensemble dans le monde fascinant du home-mining !
+Alors, prêt à découvrir l’univers du minage de Bitcoin et à relever le défi pratique d’Attakai ? Allons-y !
 
 # Tout connaître sur le minage
 
@@ -828,7 +816,7 @@ Cela met une limite supérieure au taux de hachage qu’une machine peut avoir. 
 
 Le résultat final est un taux de hachage plus élevé par watt d’électricité, ce qui signifie des marges bénéficiaires plus importantes pour les mineurs. La raison pour laquelle les machines ne sont pas distribuées avec ce type de logiciel est que la variance par machine n’est pas souhaitable, car les clients veulent savoir exactement ce qu’ils obtiennent et il est donc une mauvaise idée pour les fabricants de vendre un produit qui n’a pas des performances constantes et prévisibles d’une machine à l’autre. En outre, le réglage automatique par puce nécessite des ressources de développement considérables, car il est complexe à mettre en place. Les fabricants dépensent déjà beaucoup de ressources pour développer leurs propres firmwares. Il existe des solutions logicielles qui permettent de mettre en place l’autotuning, comme Braiins OS+. En plus d’améliorer les performances de l’ASIC jusqu’à 20%.
 
-# Conclusion
+# Section finale
 
 <partId>fa42ec0b-b1fd-47f6-8268-6eab684c1d2b</partId>
 

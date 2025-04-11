@@ -20,11 +20,12 @@ Tento kurz je samozřejmě zaměřen na postavu Satoshi Nakamota, jehož slova a
 # Úvod
 <partId>41dc2815-c63a-4ce1-9b88-e7b3825e958e</partId>
 
-## Úvod do historie vzniku Bitcoinu
+## Přehled kurzu
 <chapterId>85290407-1aa3-4cb4-890a-aed23441afb7</chapterId>
+Vítejte v kurzu HIS201!
 Tento kurz má za cíl vyprávět vám příběh o vzniku Bitcoinu způsobem, jaký jste dosud nečetli. Často je přehlížen, přestože je plný fascinujících detailů. Budeme se snažit popsat ho ve vší jeho složitosti, od jeho početí Satoshi Nakamotem až po jeho brzké zmizení a předání do rukou komunity.
 
-### Stručný přehled
+**Stručný přehled**
 
 Bitcoin byl navržen jednotlivcem (nebo skupinou) používajícím pseudonym Satoshi Nakamoto. Dne 31. října 2008 sdílel white paper popisující jeho model prostřednictvím nejasného e-mailového mailing listu na internetu. Dne 8. ledna 2008 implementoval svůj koncept zveřejněním zdrojového kódu softwaru a spuštěním sítě těžbou prvních bloků řetězce. Aby přilákal kritické množství uživatelů, propagoval své dílo prostřednictvím různých komunikačních kanálů.
 
@@ -46,7 +47,7 @@ Vznik Bitcoinu byl také v kontextu uzavření soukromých měnových systémů,
 
 Nakonec je projekt Bitcoinu dědicem etosu hnutí cypherpunk, hnutí rebelujících kryptografů z 90. let, kteří usilovali o zachování soukromí a svobody lidí na internetu prostřednictvím proaktivního používání kryptografie. Bitcoin je v souladu s projekty jako b-money, bit gold nebo RPOW, které si tyto osoby představily na konci 90. let a na začátku 2000. Satoshi Nakamoto je zmínil, ačkoli o nich před návrhem Bitcoinu nevěděl a pravděpodobně nebyl součástí původního hnutí.
 
-### Struktura kurzu
+**Struktura kurzu**
 
 Tento kurz je rozdělen do čtyř částí, které se postupně zaměřují na původ Bitcoinu (3 kapitoly), jeho pomalý vznik (3 kapitoly), jeho počáteční vzestup (3 kapitoly) a formování jeho komunity (4 kapitoly). Celkem obsahuje 12 kapitol, které jsou následující (je také specifikováno období, na které se vztahují):
 
@@ -64,7 +65,7 @@ Tento kurz je rozdělen do čtyř částí, které se postupně zaměřují na p
 - Zmizení Satoshiho (prosinec 2010–duben 2011)
 - Komunita přebírá kontrolu (duben 2011–září 2011)
 
-### Detaily
+**Detaily**
 
 Všechna data a časy jsou uvedeny podle časového pásma UTC (odpovídajícího Greenwichskému meridiánu), a mohou se tedy lišit od amerických dat. Je pravděpodobné, že Satoshi Nakamoto byl ve Spojených státech, když pracoval na svém projektu. Bitcoin je však mezinárodní projekt, který zahrnoval i příspěvky od finského vývojáře Marttiho Malmiho (Východoevropský čas, UTC+2 / UTC+3), a proto se budeme odvolávat na univerzální časové pásmo. Tímto způsobem říkáme, že efektivní spuštění hlavní sítě proběhlo 9. ledna ve 2:54 ráno, namísto 8. ledna v 6:54 večer, což odpovídá časovému pásmu východního pobřeží (Pacifický čas, UTC-8 / UTC-7).
 
@@ -78,6 +79,7 @@ Obsah je částečně přizpůsoben z francouzské knihy [*L'Élégance de Bitco
 
 Vezměte na vědomí, že pro neanglické verze tohoto kurzu byly většinou citace přeloženy z americké angličtiny pro danou příležitost. Termín *coin* je obecně přeložen jako "jednotka" (a ne "kus"), když se odkazuje na účetní jednotku.
 
+Připraveni prozkoumat neuvěřitelný příběh vzniku Bitcoinu? Tak pojďme společně ponořit do tohoto výjimečného dobrodružství!
 # Původ Bitcoinu
 <partId>25a75ed6-f34b-4c9a-8224-e099a3e774dc</partId>
 
@@ -1331,7 +1333,7 @@ Zatřetí, Bitcoin rostl organicky. Byl schopen se vyvíjet diskrétně, postupn
 Za čtvrté, Bitcoin byl altruistickým výtvorem. Satoshi Nakamoto nabídl Bitcoin světu. Program uvolnil pod svobodnou licencí. Nehledal slávu, zisk ani moc. Více než rok zajišťoval bezpečnost těžby sítě, aniž by požadoval jakoukoliv kompenzaci. Přestože nahromadil více než milion bitcoinů, nikdy je neutratil. Nakonec zmizel, hlavně kvůli obavám souvisejícím s pozorností, kterou vyvolal případ WikiLeaks, a projekt nechal odpočívat na komunitě, bez jediné dominantní postavy.
 V roce 2011 Satoshi zmizel, ale Bitcoin přežil. Kryptoměna dokonce definitivně vystřelila, jak z mediálního, tak z ekonomického hlediska. Stroj byl spuštěn a nikdo ho nemohl zastavit.
 
-# Závěr
+# Sekce finále
 <partId>89532d9b-af1f-49f3-b87a-b11987e303d5</partId>
 ## Recenze & Hodnocení
 <chapterId>8f27cc89-8759-4a4f-aff2-c1d3d9ecf14e</chapterId>

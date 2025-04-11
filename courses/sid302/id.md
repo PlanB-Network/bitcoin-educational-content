@@ -20,7 +20,7 @@ Dengan presentasi dari para pakar industri, kursus ini mencakup topik-topik sepe
 
 <partId>9f8a83d5-27e0-4e6d-af12-6cd6eb667291</partId>
 
-## Pengantar ke Liquid Bootcamp
+## Ikhtisar Kursus
 
 <chapterId>3192ee7d-255b-4c4f-ba18-e08c5ab98577</chapterId>
 
@@ -32,6 +32,7 @@ Pelatihan ini awalnya diadakan sebagai acara tatap muka, mengikuti jadwal terstr
 
 Perjalanan ini disusun untuk mengakomodasi peserta dengan berbagai tingkat keahlian, menawarkan perpaduan antara pengetahuan teoritis dan pengalaman langsung. Pada akhir pelatihan ini, Anda akan memiliki pemahaman yang kuat tentang arsitektur Liquid, integrasinya dengan Bitcoin, dan cara menggunakan fitur-fitur inovatifnya untuk membangun dan mengoptimalkan solusi keuangan.
 
+Masuki dunia sidechain Liquid dan ungkapkan potensinya sepenuhnya sekarang juga!
 # Dasar-dasar
 
 <partId>6dd86449-c0f7-4e51-9252-5f135cf019df</partId>
@@ -98,7 +99,7 @@ Nardo memberikan gambaran umum tentang Blockstream AMP, sebuah platform untuk me
 
 Antonio mempresentasikan Breeze, sebuah SDK sumber terbuka yang dirancang untuk transaksi terdesentralisasi di Jaringan Liquid. Dia membahas fitur-fiturnya, termasuk dukungan untuk binding multi-bahasa dan proses transaksi yang aman, sambil menekankan tujuannya untuk menyederhanakan teknologi keuangan bagi para pengembang
 
-# Kesimpulan
+# Bagian Akhir
 
 <partId>7ec65e6b-6e63-41b6-92ea-6a13bc77c3ff</partId>
 

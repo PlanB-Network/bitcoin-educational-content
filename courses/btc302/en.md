@@ -28,9 +28,10 @@ Finally, a deeper reflection will be conducted on the **evolution of communities
 
 <partId>81318b8f-d316-5787-aa4c-4ec8370ba668</partId>
 
-## Recontextualization
+## Course overview
 
 <chapterId>e8991b82-4966-5e04-8f05-7cae46eacbaa</chapterId>
+Welcome to the BTC302 course!
 
 Since 2009, Bitcoin has continued to develop. This includes the implementation of new Bitcoin Improvement Proposals (BIPs), the creation of new layers to scale the network (among others, Lightning Network), and the development of multiple companies and startups.
 
@@ -59,6 +60,34 @@ On the other hand, how could we encourage new people who arrive attracted by the
 ####
 
 For these two problems, the best solution is to be in the field and educate.
+
+The purpose of this course is to provide you with all the essential tools to effectively create and organize a Bitcoin community or meetup. Whether you want to build a local initiative or develop an online group, this course will guide you through each step of the process, from creating your visual identity to setting up regular events and managing your communication channels.  
+
+**Section 1: Introduction**  
+We will begin by putting into context the importance of bringing people together around Bitcoin, whether through online communities or local meetups. You will learn why and where to launch your community, as well as how to define clear objectives to ensure its growth and sustainability.  
+
+**Section 2: Designing a Unique Identity for Your Bitcoin Community**  
+To attract new members and establish a sense of belonging, it's essential to create a unique identity. This section will teach you how to design a logo, poster, or banner that accurately reflects the spirit of your Bitcoin community.  
+
+**Section 3: Creating Communication Channels for Your Bitcoin Community**  
+Communication is at the heart of any community. Here, we will discuss the various communication channels to prioritize and how to effectively set up a Telegram group or Discord server. We will also cover integrating multi-purpose bots to facilitate community management.  
+
+**Section 4: Launching Your Social Media Presence**  
+Visibility is crucial for developing your community. You will learn how to create a dedicated Twitter profile, establish connections with other meetups near you, and use platforms like btcmap.org to enhance your visibility and attract new members.  
+
+**Section 5: Organizing a Bitcoin Meetup**  
+This section focuses on organizing meetups, from finding a suitable venue to planning the event itself. We will also explore ways to build participant loyalty to ensure sustainable growth for your community.  
+
+**Section 6: Examples of Projects and Initiatives**  
+To go beyond simple gatherings, this section offers concrete and original project ideas: themed events, workshops, educational content creation, local collaborations, and much more. You will also learn how to design physical and digital materials to promote your community.  
+
+**Section 7: Anticipating the Future**  
+Finally, we will address the natural evolution of your community. What if your group grows too quickly? How do you decentralize the organization? And how should you react if the regulatory environment becomes hostile? This section will help you anticipate upcoming challenges.  
+
+**Section 8: Bringing Bitcoiners Together**  
+This final section focuses on the very essence of your project: uniting Bitcoin enthusiasts around a shared vision. You will learn how to structure your approach to attract and retain new members, how to delegate tasks within your group, and how to grow your community sustainably.  
+
+Ready to learn how to build a strong and dynamic Bitcoin community? Let's go!  
 
 ## Why create a bitcoin community or meet-up?
 
@@ -1748,7 +1777,7 @@ Of course, we should not fall into a form of conspiratorial thinking. But **noth
 
 ![image](assets/fr/59.webp)
 
-# Conclusion
+# Bringing Bitcoiners Together
 
 <partId>62bc2138-c0be-5d39-a341-594690863257</partId>
 
@@ -1845,7 +1874,7 @@ To achieve this, we will start with the experience of several French communities
 
 Of course, **in other countries, the legislation and operation of associations are different**. However, several points will be very helpful in creating an association or organizing an important event; and **we hope that other bitcoiners will come and integrate this training specifically for their country**.
 
-# Conclusion
+# Final Section
 
 <partId>e9bdddf4-54c9-4de9-bbce-c3eade8c32e5</partId>
 

@@ -20,11 +20,12 @@ Kursus ini, tentu saja, berpusat pada sosok Satoshi Nakamoto, di mana Anda akan 
 # Pendahuluan
 <partId>41dc2815-c63a-4ce1-9b88-e7b3825e958e</partId>
 
-## Pengantar Sejarah Penciptaan Bitcoin
+## Ikhtisar Kursus
 <chapterId>85290407-1aa3-4cb4-890a-aed23441afb7</chapterId>
+Selamat datang di kursus HIS201!
 Kursus ini bertujuan untuk menceritakan kisah penciptaan Bitcoin dengan cara yang belum pernah Anda baca sebelumnya. Seringkali diabaikan, meskipun dipenuhi dengan detail yang menarik. Kami akan berusaha menggambarkannya dalam semua kompleksitasnya, dari konsepsinya oleh Satoshi Nakamoto hingga kepergiannya yang awal dan penyerahan kepada komunitas.
 
-### Ikhtisar Singkat
+**Ikhtisar Singkat**
 
 Bitcoin dirancang oleh seorang individu (atau kelompok) yang menggunakan pseudonim Satoshi Nakamoto. Pada tanggal 31 Oktober 2008, ia membagikan sebuah makalah putih yang mendeskripsikan modelnya melalui sebuah daftar surat elektronik yang tersembunyi di Internet. Pada tanggal 8 Januari 2008, ia mengimplementasikan konsepnya dengan mempublikasikan kode sumber perangkat lunak dan meluncurkan jaringan dengan menambang blok-blok pertama dari rantai tersebut. Dengan bersemangat untuk menarik jumlah pengguna kritis, ia mempromosikan ciptaannya melalui berbagai saluran komunikasi.
 
@@ -46,7 +47,7 @@ Penciptaan Bitcoin juga dalam konteks penutupan sistem mata uang pribadi seperti
 
 Akhirnya, proyek Bitcoin adalah pewaris dari etos gerakan cypherpunk, sebuah gerakan kriptografer pemberontak dari tahun 90-an, yang berusaha untuk menjaga privasi dan kebebasan orang di Internet melalui penggunaan proaktif kriptografi. Bitcoin sejalan dengan proyek-proyek seperti b-money, bit gold, atau RPOW yang dibayangkan oleh individu-individu ini pada akhir tahun 90-an dan awal tahun 2000-an. Satoshi Nakamoto menyebutkan mereka, meskipun ia tidak mengetahui mereka sebelum merancang Bitcoin dan mungkin tidak menjadi bagian dari gerakan asli.
 
-### Garis Besar Kursus
+**Garis Besar Kursus**
 
 Kursus ini dibagi menjadi empat bagian, yang masing-masing berfokus pada asal-usul Bitcoin (3 bab), kemunculan perlahannya (3 bab), kenaikan awalnya (3 bab), dan pembentukan komunitasnya (4 bab). Secara total, kursus ini mencakup 12 bab yang adalah sebagai berikut (periode yang bersangkutan juga ditentukan):
 
@@ -64,7 +65,7 @@ Kursus ini dibagi menjadi empat bagian, yang masing-masing berfokus pada asal-us
 - Menghilangnya Satoshi (Des. 2010–Apr. 2011)
 - Komunitas Mengambil Alih (Apr. 2011–Sept. 2011)
 
-### Detail
+**Detail**
 
 Semua tanggal dan waktu diberikan menurut zona waktu UTC (sesuai dengan Meridian Greenwich) dan oleh karena itu mungkin berbeda dari tanggal Amerika. Kemungkinan besar Satoshi Nakamoto berada di Amerika Serikat saat mengerjakan proyeknya. Namun, Bitcoin adalah proyek internasional, yang secara khusus mencakup kontribusi dari pengembang Finlandia Martti Malmi (Waktu Eropa Timur, UTC+2 / UTC+3), dan oleh karena itu kami akan merujuk ke zona waktu universal. Dengan demikian, kami mengatakan bahwa peluncuran jaringan utama secara efektif terjadi pada 9 Januari pukul 2:54 pagi, daripada 8 Januari pukul 6:54 sore, yang sesuai dengan zona waktu Pantai Timur (Waktu Pasifik, UTC-8 / UTC-7).
 
@@ -78,6 +79,7 @@ Konten ini sebagian diadaptasi dari buku Prancis [*L'Élégance de Bitcoin*](htt
 
 Perhatikan bahwa untuk versi non-Inggris dari kursus ini, sebagian besar kutipan berasal dari Bahasa Inggris Amerika dan telah diterjemahkan untuk kesempatan ini. Istilah *coin* umumnya diterjemahkan sebagai "unit" (dan bukan "potongan") ketika merujuk pada unit akun.
 
+Siap menjelajahi kisah luar biasa di balik penciptaan Bitcoin? Ayo kita menyelami kisah yang tak biasa ini bersama-sama!
 # Asal-usul Bitcoin
 <partId>25a75ed6-f34b-4c9a-8224-e099a3e774dc</partId>
 
@@ -1350,7 +1352,7 @@ Ketiga, Bitcoin tumbuh secara organik. Ini mampu berkembang secara diam-diam, me
 Keempat, Bitcoin adalah ciptaan yang altruistik. Satoshi Nakamoto menawarkan Bitcoin kepada dunia. Dia merilis program tersebut di bawah lisensi gratis. Dia tidak mencari ketenaran, keuntungan, ataupun kekuasaan. Dia memastikan keamanan penambangan jaringan lebih dari setahun, tanpa meminta kompensasi apapun. Meskipun dia mengumpulkan lebih dari satu juta bitcoin, dia tidak pernah menghabiskannya. Dia akhirnya menghilang, terutama karena kekhawatiran terkait perhatian yang diciptakan oleh kasus WikiLeaks, meninggalkan proyek tersebut untuk bertumpu pada komunitas, tanpa satu figur dominan pun.
 
 Pada tahun 2011, Satoshi menghilang, tetapi Bitcoin bertahan. Mata uang kripto bahkan secara definitif lepas landas, baik dari sudut pandang media maupun ekonomi. Mesin telah diluncurkan dan tidak ada yang bisa menghentikannya.
-# Kesimpulan
+# Bagian Akhir
 <partId>89532d9b-af1f-49f3-b87a-b11987e303d5</partId>
 ## Ulasan & Penilaian
 <chapterId>8f27cc89-8759-4a4f-aff2-c1d3d9ecf14e</chapterId>

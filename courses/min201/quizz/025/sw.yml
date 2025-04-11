@@ -1,0 +1,11 @@
+question: Layer msingi wa mtandao wa Bitcoin mara nyingi hujulikana kama nini?
+answer: Makazi ya Layer
+wrong_answers:
+  - Shughuli ya Layer
+  - Usalama wa Layer
+  - Makubaliano ya Layer
+explanation: |
+  Msingi wa Layer wa mtandao wa Bitcoin, ambao Umeme
+  Mtandao unategemea kufungua na kufunga njia za malipo,
+  mara nyingi hujulikana kama makazi ya Layer.
+reviewed: true

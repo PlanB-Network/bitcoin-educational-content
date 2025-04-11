@@ -20,41 +20,24 @@ Di sini, kami akan menyoroti tren dan pola umum dalam episode hiperinflasi sepan
 
 <partId>6fe4d15d-f6e6-54be-9e04-0a75ac98df8b</partId>
 
-## Pendahuluan
+## Gambaran Umum Kursus
 
 <chapterId>9d1aba8d-0485-5020-9863-5de37e6db8e0</chapterId>
 
-Program ini bertujuan untuk memberikan pemahaman mendalam tentang kemunculan hiperinflasi di dunia yang didominasi oleh mata uang Fiat dan untuk mengkaji konsekuensi signifikan mereka. Peserta akan menjelajahi siklus hiperinflasi secara detail, menganalisis penyebab, pemicu, dan contoh historis serta kontemporer. Mereka juga akan memeriksa dampak nyata hiperinflasi terhadap ekonomi dan kehidupan sehari-hari, mempelajari dampaknya terhadap nilai mata uang, daya beli, dan tabungan individu serta kolektif.
+Selamat datang di kursus ECO204!
 
-Di sini, kami akan menyoroti tren dan pola umum dalam episode hiperinflasi sepanjang sejarah, sambil menyediakan strategi efektif dan konkret untuk melindungi diri selama periode hiperinflasi. Peserta akan memiliki kesempatan untuk menjelajahi berbagai opsi investasi dan mekanisme pertahanan finansial, memperoleh alat praktis dan pengetahuan esensial untuk bernavigasi dengan tenang dalam iklim ekonomi yang tidak stabil.
+Tujuan dari kursus ini adalah untuk membantu Anda memahami penyebab mendasar, mekanisme, dan konsekuensi dari hiperinflasi dalam konteks sistem moneter fiat. Melalui contoh-contoh konkret dan analisis sejarah, Anda akan belajar mengenali pola-pola yang berulang yang mendahului periode hiperinflasi, serta mengidentifikasi langkah-langkah untuk melindungi diri dari ancaman tersebut.
 
-### Kurikulum
+**Bagian 2: Apa itu Inflasi?**  
+Sebelum memasuki topik utama, kita akan kembali ke dasar: apa itu inflasi? Bagian ini akan menjelaskan asal-usul moneter, berbagai jenis inflasi yang ada, dan bagaimana mereka berhubungan dengan dinamika ekonomi yang lebih luas. Ini adalah langkah penting untuk memahami bagaimana inflasi biasa dapat berkembang menjadi hiperinflasi.
 
-Bagian 1 - Pendahuluan
+**Bagian 3: Apa itu Hiperinflasi?**  
+Dalam bagian ini, Anda akan mempelajari definisi yang tepat dari hiperinflasi serta beberapa episode sejarah penting, termasuk Jerman Weimar dan Zimbabwe. Kami akan menganalisis kesamaan, perbedaan, dan paralel modern. Anda juga akan menemukan kasus-kasus yang kurang dikenal, seperti redenominasi berturut-turut di Amerika Latin, serta jalan keluar yang diambil oleh beberapa negara.
 
-- 1.1 - Pengenalan Kursus oleh Rogzy & David
+**Bagian 4: Bagaimana Kita Sampai di Sini?**  
+Bagian ini bertujuan untuk memahami mekanisme struktural yang memungkinkan terjadinya hiperinflasi, khususnya melalui pengembangan "lapisan kedua" moneter dan peran bank sentral. Sumber daya tambahan dan rekomendasi bacaan akan disediakan untuk eksplorasi lebih lanjut.
 
-Bagian 2 - Apa itu inflasi?
-
-- 2.1 - Fenomena moneter
-- 2.2 - Jenis-jenis inflasi
-- 2.3 - Deflasi
-
-Bagian 3 - Apa itu hiperinflasi?
-
-- 3.1 - Definisi
-- 3.2 - Kesamaan antara Weimar dan Zimbabwe
-- 3.3 - Perbedaan antara Weimar dan Zimbabwe dan paralel kontemporer
-- 3.4 - Redenominasi di Amerika Latin
-- 3.5 - Cara keluar dari hiperinflasi
-- 3.6 - Presentasi koleksi uang kertas hiperinflasi
-
-Bagian 4 - Bagaimana kita bisa sampai di sini?
-
-- 4.1 - Kemunculan lapisan kedua uang dan bank sentral
-- 4.2 - Buku dan sumber daya
-
-Semoga berhasil!
+Apakah sejarah moneter sedang berulang di depan mata kita? Anda yang akan menentukannya dalam bab-bab berikutnya!
 
 # Apa itu inflasi?
 
@@ -934,7 +917,7 @@ Hiperinflasi adalah subjek yang menarik yang telah dipelajari melalui berbagai p
 
 - "Currency Boards for Developing Countries: A Handbook" oleh Steve Hanke dan Kurt Schuler. Meskipun fokusnya adalah pada dewan mata uang, buku ini menawarkan perspektif tentang cara menghindari situasi hiperinflasi.
 
-# Kesimpulan
+# Bagian Akhir
 
 <partId>cb1f4a4b-556a-4e47-a5cc-136be35a1f9a</partId>
 

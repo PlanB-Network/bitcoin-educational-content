@@ -1,0 +1,9 @@
+question: Ni utaratibu gani katika RGB unaoruhusu mabadiliko mengi kuunganishwa pamoja katika shughuli moja ya Bitcoin?
+answer: Transition Bundle
+wrong_answers:
+  - Seal Aggregation
+  - Multi-Commitment mti
+  - Ujumuishaji wa Jimbo
+explanation: |
+  Transition Bundle ni seti ya Mipito ya Jimbo la RGB (inayomilikiwa na Contract sawa) ambayo yote yanahusika katika Bitcoin Witness Transaction sawa.
+reviewed: false

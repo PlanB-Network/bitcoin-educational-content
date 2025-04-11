@@ -1,0 +1,9 @@
+question: Ni programu gani huria imebadilishwa kuwa mfumo wa malipo wa Kitaalamu wa Bitcoin?
+answer: Seva ya Malipo ya BTC
+wrong_answers:
+  - Malipo ya Bitcoin ya Uswizi
+  - Fungua Node
+  - Bitcoinize PoS
+explanation: |
+  Seva ya Malipo ya BTC inaangaziwa katika kozi kama suluhisho kuu la chanzo-wazi kwa usanidi wa Kitaalamu kwa sababu ya chaguzi zake za ujumuishaji na udhibiti.
+reviewed: false

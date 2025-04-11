@@ -17,11 +17,43 @@ Renessanssista valistukseen kurssi tutkii vapauden nousua, jota leimasivat uskon
 
 +++
 
+# Johdanto
+
+<partId>6edada19-3af3-411b-8483-3fe45cfe1c54</partId>
+
+## Kurssin yleiskatsaus
+
+<chapterId>14d810d3-883c-4f5c-8593-f532530e7b7a</chapterId>
+
+Tervetuloa PHI201-kurssille!
+
+Tämä kurssi kutsuu sinut tutkimaan vapauden kehitystä historian läpi analysoimalla suuria ajatussuuntauksia, jotka ovat muokanneet sitä. Tulet huomaamaan, kuinka vapauden käsite on rakentunut vuosisatojen aikana, joko vallan vastustuksena tai sen kanssa yhteistyössä, historiallisella matkalla antiikista nykypäivän keskusteluihin.
+
+**Osa 1: Vapaus vai valta**  
+Aloitamme yleiskatsauksella kahteen suureen poliittiseen filosofiaan, jotka ovat muovanneet historiaa: vapaus ja valta. Tämä osa tarkastelee ajattelijoiden, kuten Frédéric Bastiatin, näkemyksiä tuotannosta ja ryöstöstä, Lord Actonin ajatusta vapaudesta historian liikkeellepanevana voimana, Karl Marxin teoriaa luokkataistelusta sekä Murray Rothbardia, joka asettaa valtion vastakkain yhteiskunnan kanssa. Tämä käsitteellinen johdanto tarjoaa analyysikehyksen historiallisille aikakausille.
+
+**Osa 2: Vapauden alkuperä: Antiikki**  
+Tässä osiossa palaamme filosofisen ajattelun juurille kreikkalaisten, jotka keksivät kriittisen rationalisuuden, ja roomalaisten, jotka loivat modernin oikeusjärjestelmän perustan, pariin. Tarkastelemme myös Rooman romahdusta merkittävänä hetkenä, joka määritteli poliittisen ja sosiaalisen järjestyksen uudelleen vapauden käsitteen ympärille.
+
+**Osa 3: Vapauden alkuperä: Keskiaika**  
+Keskiaikaa pidetään usein pimeänä aikakautena, mutta huomaamme, että se itse asiassa loi pohjan modernille vapaudelle. Tarkastelemme ihmisen vapauden vahvistamista, järjen ja uskon välisiä keskusteluja, suvereenin valtion syntyä, yksilöä arvostavaa raamatullista etiikkaa ja kapitalismin ensimmäisiä merkkejä, jotka ilmenevät tänä aikana.
+
+**Osa 4: Vapauden nousu: Renessanssista valistukseen**  
+Tässä osiossa keskitymme uskonnollisen suvaitsevaisuuden ja taloudellisen vapauden nousuun, jotka kehittyivät renessanssin ja valistuksen aikana. Analysoimme myös vuoden 1776 merkitystä, joka merkitsi merkittävää käännekohtaa vapaalle maailmalle keskeisten tapahtumien myötä, ennen kuin sukellamme vallankumousten aikakauteen, joka määritteli vapauden käsitteen uudelleen.
+
+**Osa 5: Huipentuma ja taantuma: 1800-luvulta 1900-luvulle**  
+Jatkamme tutkimalla 1800- ja 1900-lukujen mullistuksia, korostaen demokratian vahvuuksia ja heikkouksia, marxilaisia kapitalismin kritiikkejä sekä itävaltalaista vastausta näihin kritiikkeihin. Tarkastelemme myös kollektivismin vaaroja käsitteleviä varoituksia merkittävien teosten, kuten "Tie orjuuteen", kautta.
+
+**Osa 6: Hyvinvointivaltion nousu 1900-luvulla**  
+Lopuksi tässä osiossa tarkastellaan, kuinka hyvinvointivaltio vähitellen syrjäytti taloudellisen vapauden ajatuksia, erityisesti Keynesin voiton ja kultakannan hylkäämisen kautta. Päätämme korostamalla ajatusten merkitystä historian kulun muokkaamisessa ja sitä roolia, jonka vapaus yhä nyky-yhteiskunnissa näyttelee.
+
+Oletko valmis aloittamaan tämän ainutlaatuisen filosofisen matkan vapauden etsinnässä? Aloitetaan!
+
 # Vapaus vai valta
 
 <partId>e59475e9-3ae4-5e66-a17e-218de0281b06</partId>
 
-## Johdanto: Vain kaksi poliittista filosofiaa
+## On vain kaksi poliittista filosofiaa
 
 <chapterId>ffa60c0d-ee2b-575d-a4ac-4e9ccdad396f</chapterId>
 
@@ -1433,7 +1465,7 @@ Olemme nyt kokeneet kaikki valtiojohtoisuuden muodot, ja ne ovat kaikki epäonni
 Tietyssä mielessä tilanteemme on parempi kuin menneisyydessä. Erilaisten sosialististen, kommunististen ja sosiaalidemokraattisten kokeilujen peräkkäisten epäonnistumisten jälkeen tiedämme tänään, miten erottaa tosiasiat vääristä paremmin kuin eilen. Ja vääriä ideoita voidaan kumota ja korvata tosiasioilla. Kuten Mises sanoi:
 Kaikki, mitä tapahtuu globaalissa yhteiskunnassamme, on ideoiden tulosta. Sekä hyvien että huonojen. Tarpeellista on taistella vääriä ideoita vastaan. (...) Sivilisaatiomme voi selviytyä, ja sen täytyy. Ja se tulee selviytymään parempien ideoiden ansiosta kuin ne, jotka hallitsevat maailmaa tänään; ja nämä paremmat ideat kehittää nouseva sukupolvi.
 (_Talouspolitiikka: Ajatuksia tälle päivälle ja huomiselle_, 1979).
-# Yhteenveto
+# Lopullinen osio
 <partId>df550767-5876-4034-9c6a-31238363e85f</partId>
 ## Arviot & Arvosanat
 <chapterId>b972fd24-47e1-4877-b21d-6451ffdafcdd</chapterId>

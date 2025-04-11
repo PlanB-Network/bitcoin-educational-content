@@ -1,0 +1,9 @@
+question: Nini kitatokea ukipoteza passphrase inayohusishwa na HD Wallet yako?
+answer: Unapoteza ufikiaji wa bitcoins zilizounganishwa na hiyo Wallet
+wrong_answers:
+  - Bado unaweza kufikia Wallet kwa maneno ya Mnemonic pekee
+  - Unaweza kuweka upya passphrase kwa kuwasiliana na usaidizi wa Bitcoin
+  - Unapoteza tu miamala ambayo haijathibitishwa
+explanation: |
+  passphrase ni sehemu muhimu katika utokaji muhimu. Bila hivyo, haiwezekani kuunda tena funguo na kwa hivyo kufikia bitcoins.
+reviewed: false

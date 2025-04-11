@@ -1,0 +1,9 @@
+question: 確保 Bob 在 RGB 的 State Transition 期間收到資產的關鍵要素是什麼？
+answer: 新的 Seal Definition 指向 Bob 的 UTXO
+wrong_answers:
+  - 不參考 UTXO 的控制交易
+  - 愛麗絲的公開聲明
+  - Alice 和 Bob 共用的雙重簽名
+explanation: |
+  Seal Definition 以密碼方式將資產連結到 Bob 的 UTXO，確保他擁有該資產。
+reviewed: false

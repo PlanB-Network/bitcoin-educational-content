@@ -21,12 +21,13 @@ Dette kurset er selvfølgelig sentrert rundt figuren Satoshi Nakamoto, hvis ord 
 
 <partId>41dc2815-c63a-4ce1-9b88-e7b3825e958e</partId>
 
-## Introduksjon til Historien om Bitcoins Skapelse
+## Kursoversikt
 
 <chapterId>85290407-1aa3-4cb4-890a-aed23441afb7</chapterId>
+Velkommen til HIS201-kurset!
 Dette kurset har som mål å fortelle deg historien om skapelsen av Bitcoin på en måte du aldri har lest før. Den er ofte oversett, til tross for å være fylt med fascinerende detaljer. Vi vil bestrebe oss på å beskrive den i all sin kompleksitet, fra dens konsepsjon av Satoshi Nakamoto til hans tidlige forsvinning og overleveringen til samfunnet.
 
-### Kort Oversikt
+**Kort Oversikt**
 
 Bitcoin ble designet av en person (eller en gruppe) som brukte pseudonymet Satoshi Nakamoto. Den 31. oktober 2008 delte han et hvitt papir som beskrev modellen hans via en obskur e-postliste på Internett. Den 8. januar 2008 implementerte han konseptet sitt ved å publisere programvarens kildekode og lansere nettverket ved å utvinne de første blokkene i kjeden. Ivrig etter å tiltrekke seg et kritisk antall brukere, promoterte han sin skapelse på ulike kommunikasjonskanaler.
 
@@ -48,7 +49,7 @@ Skapelsen av Bitcoin var også i konteksten av statens lukning av private valuta
 
 Til slutt er Bitcoin-prosjektet arvingen til ethoset til cypherpunk-bevegelsen, en bevegelse av opprørske kryptografer fra 90-tallet, som søkte å bevare personvernet og friheten til mennesker på Internett gjennom proaktiv bruk av kryptografi. Bitcoin er i tråd med prosjekter som b-money, bit gold, eller RPOW forestilt av disse individene på slutten av 90-tallet og begynnelsen av 2000-tallet. Satoshi Nakamoto nevnte dem, selv om han ikke var klar over dem før han designet Bitcoin og sannsynligvis ikke var en del av den opprinnelige bevegelsen.
 
-### Kursomriss
+**Kursomriss**
 
 Dette kurset er delt inn i fire deler, som henholdsvis fokuserer på Bitcoins opprinnelse (3 kapitler), dens langsomme fremvekst (3 kapitler), dens første oppgang (3 kapitler), og dannelsen av dets fellesskap (4 kapitler). Totalt inkluderer det 12 kapitler som er som følger (den angitte perioden er også spesifisert):
 
@@ -66,7 +67,7 @@ Dette kurset er delt inn i fire deler, som henholdsvis fokuserer på Bitcoins op
 - Satoshi Forsvinner (Des. 2010–Apr. 2011)
 - Fellesskapet Tar Over (Apr. 2011–Sept. 2011)
 
-### Detaljer
+**Detaljer**
 
 Alle datoer og tider er gitt i henhold til UTC-tidssonen (som tilsvarer Greenwich-meridianen) og kan derfor avvike fra amerikanske datoer. Det er sannsynlig at Satoshi Nakamoto befant seg i USA da han jobbet med prosjektet sitt. Bitcoin er imidlertid et internasjonalt prosjekt, som blant annet inkluderte bidrag fra den finske utvikleren Martti Malmi (Østeuropeisk tid, UTC+2 / UTC+3), og vi vil derfor referere til den universelle tidssonen. Dermed sier vi at den effektive lanseringen av hovednettverket fant sted 9. januar kl. 02:54, i stedet for 8. januar kl. 18:54, som tilsvarer østkystens tidssone (Stillehavstid, UTC-8 / UTC-7).
 
@@ -80,6 +81,7 @@ Innholdet er delvis tilpasset fra den franske boken [_L'Élégance de Bitcoin_](
 
 Merk at for ikke-engelske versjoner av dette kurset, kommer de fleste sitatene fra amerikansk engelsk og har blitt oversatt for anledningen. Termen _coin_ er generelt oversatt som "enhet" (og ikke "stykke") når den refererer til regnskapsenheten.
 
+Klar for å utforske den utrolige historien om hvordan Bitcoin ble til? Da dykker vi sammen inn i denne helt spesielle fortellingen!
 # Bitcoins Opprinnelse
 
 <partId>25a75ed6-f34b-4c9a-8224-e099a3e774dc</partId>
@@ -1405,7 +1407,7 @@ For det tredje, Bitcoin vokste organisk. Det var i stand til å utvikle seg disk
 For det fjerde var Bitcoin en altruistisk skapelse. Satoshi Nakamoto tilbød Bitcoin til verden. Han utga programmet under en fri lisens. Han søkte verken berømmelse, profitt eller makt. Han sikret nettverkets mining-sikkerhet i mer enn et år, uten å be om noen form for kompensasjon. Selv om han akkumulerte mer enn en million bitcoins, brukte han dem aldri. Han forsvant til slutt, hovedsakelig på grunn av frykt relatert til oppmerksomheten skapt av WikiLeaks-saken, og overlot prosjektet til et fellesskap, uten en enkelt dominerende figur.
 I 2011 forsvant Satoshi, men Bitcoin overlevde. Kryptovalutaen tok definitivt av, både fra et medie- og økonomisk synspunkt. Maskinen var i gang, og ingen kunne stoppe den.
 
-# Konklusjon
+# Siste seksjon
 
 <partId>89532d9b-af1f-49f3-b87a-b11987e303d5</partId>
 

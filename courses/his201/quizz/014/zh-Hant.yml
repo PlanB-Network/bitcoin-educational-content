@@ -1,0 +1,9 @@
+question: 誰發明了 Proof of Work 的概念？
+answer: Cynthia Dwork 和 Moni Naor
+wrong_answers:
+  - Markus Jakobsson 和 Ari Juels
+  - Adam Back
+  - Satoshi Nakamoto
+explanation: |
+  他們在 1992 年描述了這個概念。Markus Jakobsson 和 Ari Juels 創造了 Proof of Work 一詞。Adam Back 後來將這個概念用於 Hashcash。
+reviewed: false

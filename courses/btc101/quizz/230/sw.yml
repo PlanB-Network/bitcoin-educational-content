@@ -1,0 +1,10 @@
+question: Je, Lightning Network inawezesha nini?
+answer: Kufanya shughuli kati ya watu ambao hawana muunganisho wa moja kwa moja wa kituo.
+wrong_answers:
+  - Kuunda miunganisho ya kituo cha moja kwa moja tu na ubadilishanaji wa kati.
+  - Ili kuunda miunganisho ya vituo ambayo inahitaji uthibitisho mwingi kwa ununuzi wowote.
+  - Kuanzisha miunganisho ya moja kwa moja ya vituo ambayo imezuiliwa kwa miamala mikubwa pekee.
+explanation: |
+  Lightning Network inafanya uwezekano wa kufanya shughuli kati ya
+  watu ambao hawana muunganisho wa moja kwa moja wa kituo.
+reviewed: true

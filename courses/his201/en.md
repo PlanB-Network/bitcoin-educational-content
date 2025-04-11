@@ -20,11 +20,12 @@ This course is, of course, centered on the figure of Satoshi Nakamoto, whose wor
 # Introduction
 <partId>41dc2815-c63a-4ce1-9b88-e7b3825e958e</partId>
 
-## Introduction to the History of Bitcoin's Creation
+## Course overview
 <chapterId>85290407-1aa3-4cb4-890a-aed23441afb7</chapterId>
+Welcome to the HIS201 course!
 This course aims to tell you the story of the creation of Bitcoin in a way you've never read before. It is often overlooked, despite being filled with fascinating details. We will endeavor to describe it in all its complexity, from its conception by Satoshi Nakamoto to his early disappearance and the handover to the community.
 
-### Brief Overview
+**Brief Overview**
 
 Bitcoin was designed by an individual (or a group) using the pseudonym Satoshi Nakamoto. On October 31, 2008, he shared a white paper describing his model via an obscure email mailing list on the Internet. On January 8, 2008, he implemented his concept by publishing the software's source code and launching the network by mining the first blocks of the chain. Eager to attract a critical number of users, he promoted his creation across various communication channels.
 
@@ -47,7 +48,7 @@ The creation of Bitcoin was also in the context of the state closure of private 
 
 Finally, the Bitcoin project is the heir to the ethos of the cypherpunk movement, a movement of rebel cryptographers from the 90s, who sought to preserve the privacy and freedom of people on the Internet through the proactive use of cryptography. Bitcoin is in line with projects like b-money, bit gold, or RPOW imagined by these individuals at the end of the 90s and the beginning of the 2000s. Satoshi Nakamoto mentioned them, although he was not aware of them before designing Bitcoin and probably was not part of the original movement.
 
-### Course Outline
+**Course Outline**
 
 This course is divided into four parts, which respectively focus on the origins of Bitcoin (3 chapters), its slow emergence (3 chapters), its initial rise (3 chapters), and the formation of its community (4 chapters). In total, it includes 12 chapters which are as follows (the concerned period is also specified):
 
@@ -65,7 +66,7 @@ This course is divided into four parts, which respectively focus on the origins 
 - The Disappearance of Satoshi (Dec. 2010–Apr. 2011)
 - The Community Takes Over (Apr. 2011–Sept. 2011)
 
-### Details
+**Details**
 
 All dates and times are given according to the UTC time zone (corresponding to the Greenwich Meridian) and may thus differ from American dates. It is likely that Satoshi Nakamoto was in the United States when working on his project. However, Bitcoin is an international project, which notably included contributions from Finnish developer Martti Malmi (Eastern European Time, UTC+2 / UTC+3), and we will therefore refer to the universal time zone. Thus, we say that the effective launch of the main network took place on January 9 at 2:54 AM, rather than January 8 at 6:54 PM, which corresponds to the East Coast time zone (Pacific Time, UTC-8 / UTC-7).
 
@@ -79,6 +80,7 @@ The content is partially adapted from the French book [*L'Élégance de Bitcoin*
 
 Note that for non-English version of this course, most quotes come from American English and have been translated for the occasion. The term *coin* is generally translated as "unit" (and not "piece") when it refers to the unit of account.
 
+Ready to explore the incredible saga of Bitcoin's creation? Then let’s dive together into this extraordinary story!
 # The Origins of Bitcoin
 <partId>25a75ed6-f34b-4c9a-8224-e099a3e774dc</partId>
 
@@ -1470,7 +1472,7 @@ Fourthly, Bitcoin was an altruistic creation. Satoshi Nakamoto offered Bitcoin t
 
 In 2011, Satoshi disappeared, but Bitcoin survived. The cryptocurrency even definitively took off, both from a media and economic viewpoint. The machine was launched and no one could stop it.
 
-# Conclusion
+# Final Section
 <partId>89532d9b-af1f-49f3-b87a-b11987e303d5</partId>
 ## Reviews & Ratings
 <chapterId>8f27cc89-8759-4a4f-aff2-c1d3d9ecf14e</chapterId>

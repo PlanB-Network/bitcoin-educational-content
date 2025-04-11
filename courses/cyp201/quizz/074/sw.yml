@@ -1,0 +1,9 @@
+question: Je! faharisi /84'/ kwa kina 1 cha njia ya derivation inaonyesha nini?
+answer: Kiwango cha P2WPKH (SegWit v0)
+wrong_answers:
+  - Kiwango cha P2TR (SegWit v1)
+  - Fedha ya Bitcoin Testnet
+  - Fedha ya Bitcoin Mainnet
+explanation: |
+  Faharasa /84'/ imefafanuliwa katika BIP84 ili kuashiria matumizi ya kiwango cha SegWit v0 chenye anwani za P2WPKH katika kina cha 1 (kile cha lengo la kupata).
+reviewed: false

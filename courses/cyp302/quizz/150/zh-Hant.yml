@@ -1,0 +1,9 @@
+question: 在 RSA 密碼系統中，兩個素數 p 和 q 的乘積對應的是什麼？
+answer: 它構成整數 N，用來作為運算的模數
+wrong_answers:
+  - 它構成公開金鑰
+  - 它可作為解密金鑰
+  - 它只用於 generate 的指數 e
+explanation: |
+  在 RSA 中，整數 N 是兩個大素數 p 和 q 的乘積，它被用作加密和解密操作的模數。
+reviewed: false

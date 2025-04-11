@@ -24,17 +24,32 @@ Machen Sie mit, um Ihre Fähigkeiten zu verbessern, das volle Potenzial von Liqu
 
 <partId>8f34de87-6e9a-4e3b-a326-50fc7c1803b3</partId>
 
-## Kurse Einführung
+## Kursübersicht
 
 <chapterId>a721398e-7040-4edd-be53-b485ea759fa9</chapterId>
 
 ![Video](https://youtu.be/gkQfnwYLyI0?si=H6cIPhgZaSAwHaHI)
 
-Ziel der Elements Academy ist es, die Schlüsselkonzepte von Elements, der Open-Source-Plattform, auf der Liquid aufbaut, vorzustellen und zu erklären. Am Ende des Kurses sollten Sie die wichtigsten Funktionen von Elements, wie z. B. Confidential Transactions und Issued Assets, und die mit dem Betrieb von Elements Core verbundenen Prozesse gut verstehen.
+Willkommen zum Kurs SID202!
 
-Jeder Abschnitt besteht aus Lektionen mit erklärendem Text und einem Video, das mit einem Quiz endet. Die Anzahl der Fragen bezieht sich auf den Umfang des vorangegangenen Themas. Abschnitt 10 fasst den Kursinhalt zusammen und endet mit einem größeren Quiz.
+Das Ziel der *Elements Academy* ist es, Ihnen die Schlüsselkonzepte von *Elements*, der Open-Source-Plattform, auf der die Liquid-Sidechain aufgebaut ist, vorzustellen und zu erklären. Am Ende dieses Kurses sollten Sie ein solides Verständnis der Hauptfunktionen von Elements besitzen, wie z. B. vertrauliche Transaktionen und ausgegebene Vermögenswerte, sowie der Prozesse, die beim Betrieb von Elements Core eine Rolle spielen. Jeder Abschnitt des Kurses enthält Lektionen mit erklärenden Texten und Videos, die mit einem Quiz enden.
 
-Alle Fragen, Bitten um zusätzliche Informationen oder Rückfragen zu den Quizantworten können an Ihren Lehrer James Dorfman gerichtet werden.
+Dieser Kurs zielt darauf ab, Ihnen die Nutzung und Entwicklung mit der Open-Source-Plattform Elements beizubringen, wobei der Schwerpunkt auf dem Liquid-Netzwerk liegt. Sie werden entdecken, wie diese Technologien Ihre Projekte in Bezug auf Datenschutz, Skalierbarkeit und Funktionalität verbessern können. Egal, ob Sie Anfänger oder erfahrener Entwickler sind, dieser Kurs wird Ihnen eine solide Grundlage bieten, um die grundlegenden Konzepte von Elements und Liquid sowie deren praktische Anwendungen zu beherrschen.
+
+**Abschnitt 1: Einführung**  
+Wir beginnen mit einem umfassenden Überblick über die Konzepte von Elements. Sie werden lernen, wie diese Plattform entwickelt wurde, um eine modulare und flexible Grundlage für die Erstellung von Sidechains wie Liquid bereitzustellen. Das Ziel ist, die Struktur von Elements zu verstehen, bevor wir zu den konkreten Anwendungen übergehen.
+
+**Abschnitt 2: Elements**  
+Dieser Abschnitt konzentriert sich auf das Funktionieren von Elements. Sie werden lernen, wie Sie einen Elements-Knoten konfigurieren, ihn im autonomen Modus oder als Sidechain betreiben können.
+
+**Abschnitt 3: Nutzung von Elements – Praktische Anwendungsfälle**  
+Nachdem Sie die theoretischen Grundlagen beherrschen, werden wir konkrete Anwendungen von Elements behandeln. Sie werden lernen, wie Sie vertrauliche Transaktionen durchführen, Vermögenswerte ausgeben und deren Wiederemission verwalten.
+
+**Abschnitt 4: Elements Federation**  
+Hier werden fortgeschrittene Mechanismen behandelt, einschließlich der Föderierung von Blocksignaturen, der Nutzung von Elements als Sidechain und der Erstellung von autonomen Blockchains. Dieser Abschnitt wird Ihnen helfen, zu verstehen, wie Sie Sicherheit, Integrität und Interoperabilität von auf Elements basierenden Blockchains gewährleisten können.
+
+Bereit, das Potenzial von Elements und der Liquid-Sidechain zu entdecken? Los geht's!
+
 
 ## Elemente Übersicht
 
@@ -1219,7 +1234,7 @@ Wir haben gesehen, dass der Quellcode und die Website für Elements (https://git
 
 Der nächste Schritt besteht darin, sich selbst mit einem kumulativen Quiz herauszufordern, das alle vorangegangenen Abschnitte abdeckt, und dann Ihre Elements-Reise zu beginnen... viel Glück!
 
-# Schlussfolgerung
+# Abschließender Abschnitt
 
 <partId>d5dbd616-e291-42bc-aae3-6c44599dbd06</partId>
 

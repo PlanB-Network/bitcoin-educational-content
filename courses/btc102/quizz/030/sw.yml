@@ -1,0 +1,10 @@
+question: Bitcoin Blockchain ni nini?
+answer: Hifadhidata inayorekodi shughuli zote za Bitcoin
+wrong_answers:
+  - Aina ya sarafu ya kidijitali
+  - Mtandao wa watumiaji wa Bitcoin
+  - Njia ya Mining bitcoins
+explanation: |
+  Bitcoin Blockchain ni hifadhidata inayorekodi miamala yote ya Bitcoin.
+  Inatunzwa na wachimba migodi ambao huongeza miamala mipya kwenye Blockchain.
+reviewed: false

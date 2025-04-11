@@ -1,0 +1,10 @@
+question: Je, ni muda gani wa wastani kati ya uundaji wa vitalu viwili katika itifaki ya Bitcoin?
+answer: Dakika 10.
+wrong_answers:
+  - Dakika 5.
+  - Dakika 15.
+  - Dakika 20.
+explanation: |
+  Muda wa wastani kati ya uundaji wa mbili
+  vitalu katika itifaki ya Bitcoin ni dakika 10.
+reviewed: true

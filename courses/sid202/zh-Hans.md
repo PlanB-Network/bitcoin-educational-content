@@ -24,17 +24,32 @@ Liquid 基于 Elements 框架，旨在提高金融和技术解决方案的隐私
 
 <partId>8f34de87-6e9a-4e3b-a326-50fc7c1803b3</partId>
 
-## 课程介绍
+## 课程概览
 
 <chapterId>a721398e-7040-4edd-be53-b485ea759fa9</chapterId>
 
 ![Video](https://youtu.be/gkQfnwYLyI0?si=H6cIPhgZaSAwHaHI)
 
-圆方学院的目的是介绍和解释圆方的关键概念，圆方是Liquid的开源平台。课程结束时，您应该对 Elements 的主要功能（如保密交易和发行资产）以及 Elements Core 的运行流程有了很好的了解。
+欢迎来到 SID202 课程！
 
-每个部分都有附带说明文字的课程和视频，最后还有小测验。问题的数量与前一个主题的大小有关。第 10 节将总结课程内容，并以一个较大的测验结束。
+*Elements Academy* 的目标是介绍和解释 *Elements* 的关键概念，这是一种开源平台，Liquid 侧链正是构建于此。完成本课程后，您应当具备对 Elements 的主要功能（如隐私交易和发行资产）以及 Elements Core 的操作流程的深刻理解。课程的每个部分都包括带有说明性文本和视频的课程，并以测验结束。
 
-如对测验答案有任何疑问、要求提供更多信息或质疑，请直接与你们的老师 James Dorfman 联系。
+本课程旨在教授您如何使用和开发基于开源平台 Elements 的应用程序，重点在于 Liquid 网络。您将了解这些技术如何提升您的项目在隐私性、可扩展性和功能性方面的能力。无论您是初学者还是经验丰富的开发者，本课程都会为您掌握 Elements 和 Liquid 的基本概念及其实用应用提供坚实的基础。
+
+**第一部分：介绍**  
+我们将从对 Elements 概念的全面概述开始。您将学习到这个平台是如何设计的，以提供一个模块化且灵活的基础来创建诸如 Liquid 的侧链。目标是在深入其实际应用之前，先理解 Elements 的结构。
+
+**第二部分：Elements**  
+本节将重点介绍 Elements 的工作原理。您将学习如何配置 Elements 节点，独立运行它或将其用作侧链。
+
+**第三部分：使用 Elements – 实际应用案例**  
+在掌握理论基础后，我们将讨论 Elements 的实际应用。您将学习如何执行隐私交易、发行资产以及管理资产的重新发行。
+
+**第四部分：Elements 联盟**  
+在这里，我们将探讨高级机制，包括联邦化区块签名、将 Elements 用作侧链，以及创建独立的区块链。本节将帮助您了解如何确保基于 Elements 的区块链的安全性、完整性和互操作性。
+
+准备好探索 Elements 和 Liquid 侧链的潜力了吗？让我们开始吧！
+
 
 ## 要素概述
 
@@ -1219,7 +1234,7 @@ e1-cli reissueasset <default asset name> <amount>
 
 下一步是挑战自己，做一个涵盖前面所有章节的累积测验，然后开始您的元素之旅......祝您好运！
 
-# 结论
+# 最终部分
 
 <partId>d5dbd616-e291-42bc-aae3-6c44599dbd06</partId>
 
@@ -1227,7 +1242,7 @@ e1-cli reissueasset <default asset name> <amount>
 
 <chapterId>beae23bd-2fd1-49fe-8f38-ed169acde51d</chapterId>
 
-<isCourseReview>真</isCourseReview>。
+<isCourseReview>true</isCourseReview>
 
 ## 结论
 

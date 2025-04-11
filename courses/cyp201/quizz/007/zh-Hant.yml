@@ -1,0 +1,9 @@
+question: ShR 與 RotR 作業的主要差異是什麼？
+answer: ShR 透過加零來移位位元，RotR 重新插入移位的位元
+wrong_answers:
+  - ShR 移除移位的位元，RotR 乘上其值
+  - ShR 向左移動，RotR 向右移動
+  - ShR 是邏輯運算，RotR 是算術運算
+explanation: |
+  ShR 透過加零的方式將位元向右移動，而 RotR 則對位元執行圓周旋轉。
+reviewed: false

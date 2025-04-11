@@ -1,0 +1,9 @@
+question: Kati ya majibu haya, lipi si mojawapo ya hatari 3 kuu kwa mtumiaji anayepitia KYC?
+answer: Kutokuwa na fungibility ya bitcoins zilizonunuliwa
+wrong_answers:
+  - Mfiduo wa ufuatiliaji wa serikali
+  - Uwezeshaji wa ufuatiliaji wa onchain
+  - Hatari ya uvujaji wa data
+explanation: |
+  KYC inahusisha hatari ya uvujaji wa data kwa vile maelezo yako yanahifadhiwa, hatari ya kufichuliwa na ufuatiliaji wa serikali kwa kuwa maelezo yako yanaweza kusambazwa au kunaswa, na hatari ya kufuatilia, kwani KYC inaweza kutumika kama mahali pa kuingilia. Hata hivyo, KYC haina kupunguza fungibility ya bitcoins kununuliwa.
+reviewed: false

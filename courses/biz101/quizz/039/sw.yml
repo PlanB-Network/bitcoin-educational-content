@@ -1,0 +1,9 @@
+question: Ni tofauti gani kuu kati ya kutibu Bitcoin kama mali ya dijiti dhidi ya kuichukulia kama sarafu katika uhasibu?
+answer: Kama mali ya kidijitali, msingi wa gharama ya kila shughuli na faida/hasara lazima zifuatiliwe, ilhali ikiwa ingechukuliwa kama sarafu, utathmini ungekuwa rahisi na haufanyiki mara kwa mara.
+wrong_answers:
+  - Inapochukuliwa kama mali ya kidijitali, haitozwi kodi zote.
+  - Inapochukuliwa kama sarafu, hakuna rekodi za miamala zinazohitajika.
+  - Kuichukulia kama sarafu kunahitaji kubadili mara moja kwa programu mpya ya uhasibu.
+explanation: |
+  Matibabu ya mali dijitali kwa kawaida huhusisha kukokotoa faida au hasara ya mtaji kwa kila shughuli, na kuongeza utata. Ikiwa Bitcoin ingehesabiwa kama sarafu, itakuwa rahisi zaidi; sasisha tu thamani ya fiat mara kwa mara, kama inavyofanywa kwa sarafu nyingine.
+reviewed: false

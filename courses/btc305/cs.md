@@ -23,6 +23,28 @@ Produkováno nadací BTCPay Server
 
 <partId>59e43fe3-b494-5da6-b4b4-9df5bdf08916</partId>
 
+## Přehled kurzu
+
+<chapterId>785ed2bc-94ae-4962-a26a-edf5742a3c72</chapterId>
+
+Vítejte v kurzu BTC305 o BTCPay Serveru!
+
+Cílem tohoto kurzu je naučit vás instalovat, konfigurovat a používat BTCPay Server ve vaší firmě nebo organizaci. BTCPay Server je open-source řešení umožňující zpracovávat bitcoinové platby samostatně, bezpečně a ekonomicky. Tento kurz je určen především pokročilým uživatelům, kteří chtějí zvládnout samo-hostování BTCPay Serveru pro plnou integraci do své každodenní činnosti.
+
+**Sekce 1 : Představení BTCPay Serveru**  
+Začneme obecným představením BTCPay Serveru, s přihlašovací obrazovkou, správou uživatelských účtů a vytvořením nového obchodu. Tento úvod vám umožní pochopit rozhraní BTCPay Serveru a seznámit se se základními funkcemi potřebnými pro začátek používání tohoto nástroje.
+
+**Sekce 2 : Úvod do zabezpečení Bitcoin klíčů**  
+Bezpečnost vašich bitcoinových prostředků je velmi důležitá. V této části prozkoumáme generování kryptografických klíčů, používání hardwarových peněženek pro jejich zabezpečení a způsob interakce s vašimi klíči prostřednictvím BTCPay Serveru. Také se dozvíte, jak nakonfigurovat Lightning peněženku BTCPay Serveru pro optimalizaci vašich transakcí.
+
+**Sekce 3 : Rozhraní BTCPay Serveru**  
+Tato část vás provede uživatelským rozhraním BTCPay Serveru. Naučíte se, jak navigovat v řídicím panelu, konfigurovat nastavení obchodu a serveru, spravovat platby a využívat integrované pluginy. Cílem je seznámit vás s nástroji potřebnými k přizpůsobení instalace podle vašich potřeb.
+
+**Sekce 4 : Konfigurace BTCPay Serveru**  
+Nakonec se zaměříme na praktickou instalaci BTCPay Serveru v různých prostředích. Ať už používáte LunaNode, Voltage nebo uzel Umbrel, naučíte se základní kroky pro nasazení a konfiguraci vašeho BTCPay Serveru, s přihlédnutím ke specifikům každého prostředí.
+
+Připraveni zvládnout BTCPay Server a rozvíjet své podnikání? Jdeme na to!
+
 ## Kritické uznání pro autora Bitcoinu a BTCPay Serveru
 
 <chapterId>e1fe6294-3c82-5203-9537-779f9087c35a</chapterId>
@@ -2403,7 +2425,7 @@ V této sekci jste se naučili:
 
 Jak se nastavení na Umbrelu liší od předchozích dvou hostovaných možností?
 
-# Závěr
+# Sekce finále
 
 <partId>d72e6fa5-0870-5f00-9143-9466ed22e2bd</partId>
 

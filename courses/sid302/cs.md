@@ -20,7 +20,7 @@ Kurz s přednáškami odborníků z oboru zahrnuje témata, jako je architektura
 
 <partId>9f8a83d5-27e0-4e6d-af12-6cd6eb667291</partId>
 
-## Úvod do Liquid Bootcampu
+## Přehled kurzu
 
 <chapterId>3192ee7d-255b-4c4f-ba18-e08c5ab98577</chapterId>
 
@@ -32,6 +32,7 @@ Tento bootcamp byl původně pořádán jako osobní akce podle strukturovaného
 
 Tato cesta je strukturována tak, aby vyhovovala účastníkům s různou úrovní odborných znalostí, a nabízí kombinaci teoretických znalostí a praktických zkušeností. Na konci tohoto bootcampu budete dobře rozumět architektuře systému Liquid, jeho integraci s Bitcoinem a tomu, jak využívat jeho inovativní funkce k vytváření a optimalizaci finančních řešení.
 
+Ponořte se do světa sidechainu Liquid a odhalte jeho plný potenciál právě teď!
 # Základy
 
 <partId>6dd86449-c0f7-4e51-9252-5f135cf019df</partId>
@@ -98,7 +99,7 @@ Nardo poskytuje přehled o Blockstream AMP, platformě pro správu digitálních
 
 Antonio představuje Breeze, open-source SDK určené pro decentralizované transakce v síti Liquid Network. Věnuje se jeho funkcím, včetně podpory vícejazyčných vazeb a bezpečných transakčních procesů, a zároveň zdůrazňuje jeho cíl zjednodušit finanční technologie pro vývojáře
 
-# Závěr
+# Sekce finále
 
 <partId>7ec65e6b-6e63-41b6-92ea-6a13bc77c3ff</partId>
 
@@ -106,7 +107,7 @@ Antonio představuje Breeze, open-source SDK určené pro decentralizované tran
 
 <chapterId>e5f6348c-e207-40ae-8fef-6a068a6bf741</chapterId>
 
-<isCourseReview>pravdivé</isCourseReview>
+<isCourseReview>true</isCourseReview>
 
 ## Závěr
 

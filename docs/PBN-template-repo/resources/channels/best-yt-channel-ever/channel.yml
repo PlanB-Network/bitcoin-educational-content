@@ -1,0 +1,34 @@
+# generate a random uuid v4
+id: 56cf0b7a-17f8-46dc-9cd9-01e67a04ce49
+
+# Complete name of the channel
+name: The Best YouTube Channel
+
+# Define the main language of the channel
+# Insert 2-digits ISO 639 language code (e.g. en for English, es for Spanish, th for Thai, etc...)
+language: en
+
+links:
+  channel: https://www.youtube.com/@PlanBNetwork
+  trailer: https://www.youtube.com/watch?v=s-aGTK5da4Q #the pinned video on the channel or the most viewed one
+
+description: |
+  Write like this
+  the description
+
+  You can even put
+  more paragraphs
+
+# Contributor section
+# List all the contributors who help format, review and translate the content.
+# They are identified by their Github usernames
+contributor_names:
+  - author_github_username #insert your github username
+
+# Tags
+# List the associated tags to the newsletter
+# The list of tags is composed of 51 items that can be found here (bitcoin-education-content/docs/50-planb-tags.md)
+tags:
+  - market-trends
+  - onchain
+  - investment

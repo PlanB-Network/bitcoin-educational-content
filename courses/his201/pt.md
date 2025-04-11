@@ -20,11 +20,12 @@ Este curso é, claro, centrado na figura de Satoshi Nakamoto, cujas palavras e a
 # Introdução
 <partId>41dc2815-c63a-4ce1-9b88-e7b3825e958e</partId>
 
-## Introdução à História da Criação do Bitcoin
+## Visão geral do curso
 <chapterId>85290407-1aa3-4cb4-890a-aed23441afb7</chapterId>
+Bem-vindo ao curso HIS201!
 Este curso tem como objetivo contar a história da criação do Bitcoin de uma maneira que você nunca leu antes. É frequentemente negligenciada, apesar de estar repleta de detalhes fascinantes. Nos esforçaremos para descrevê-la em toda a sua complexidade, desde sua concepção por Satoshi Nakamoto até seu desaparecimento precoce e a passagem para a comunidade.
 
-### Visão Geral Breve
+**Visão Geral Breve**
 
 O Bitcoin foi projetado por um indivíduo (ou grupo) usando o pseudônimo Satoshi Nakamoto. Em 31 de outubro de 2008, ele compartilhou um white paper descrevendo seu modelo por meio de uma obscura lista de e-mails na Internet. Em 8 de janeiro de 2008, ele implementou seu conceito publicando o código-fonte do software e lançando a rede ao minerar os primeiros blocos da cadeia. Ansioso para atrair um número crítico de usuários, ele promoveu sua criação por vários canais de comunicação.
 
@@ -45,7 +46,7 @@ A criação do Bitcoin também estava no contexto do fechamento pelo estado de s
 
 Finalmente, o projeto Bitcoin é herdeiro do ethos do movimento cypherpunk, um movimento de criptógrafos rebeldes dos anos 90, que buscavam preservar a privacidade e a liberdade das pessoas na Internet através do uso proativo da criptografia. O Bitcoin está alinhado com projetos como b-money, bit gold ou RPOW imaginados por esses indivíduos no final dos anos 90 e início dos anos 2000. Satoshi Nakamoto os mencionou, embora ele não estivesse ciente deles antes de projetar o Bitcoin e provavelmente não fazia parte do movimento original.
 
-### Estrutura do Curso
+**Estrutura do Curso**
 
 Este curso é dividido em quatro partes, que focam respectivamente nas origens do Bitcoin (3 capítulos), sua emergência lenta (3 capítulos), sua ascensão inicial (3 capítulos) e a formação de sua comunidade (4 capítulos). No total, inclui 12 capítulos que são os seguintes (o período concernente também é especificado):
 
@@ -63,7 +64,7 @@ Este curso é dividido em quatro partes, que focam respectivamente nas origens d
 - O Desaparecimento de Satoshi (Dezembro de 2010–Abril de 2011)
 - A Comunidade Assume o Controle (Abril de 2011–Setembro de 2011)
 
-### Detalhes
+**Detalhes**
 
 Todas as datas e horários são fornecidos de acordo com o fuso horário UTC (correspondente ao Meridiano de Greenwich) e, portanto, podem diferir das datas americanas. É provável que Satoshi Nakamoto estivesse nos Estados Unidos quando trabalhava em seu projeto. No entanto, o Bitcoin é um projeto internacional, que incluiu notavelmente contribuições do desenvolvedor finlandês Martti Malmi (Horário da Europa Oriental, UTC+2 / UTC+3), e, portanto, nos referiremos ao fuso horário universal. Assim, dizemos que o lançamento efetivo da rede principal ocorreu em 9 de janeiro às 2:54 da manhã, em vez de 8 de janeiro às 18:54, que corresponde ao fuso horário da Costa Leste (Horário do Pacífico, UTC-8 / UTC-7).
 
@@ -77,6 +78,7 @@ O conteúdo é parcialmente adaptado do livro francês [*L'Élégance du Bitcoin
 
 Note que, para a versão não inglesa deste curso, a maioria das citações vem do inglês americano e foi traduzida para a ocasião. O termo *coin* é geralmente traduzido como "unidade" (e não "peça") quando se refere à unidade de conta.
 
+Pronto para explorar a incrível saga da criação do Bitcoin? Então vamos mergulhar juntos nessa história extraordinária!
 # As Origens do Bitcoin
 <partId>25a75ed6-f34b-4c9a-8224-e099a3e774dc</partId>
 
@@ -1322,7 +1324,7 @@ Em segundo lugar, o Bitcoin não foi construído em um dia. Mesmo após o lança
 Em terceiro lugar, o Bitcoin cresceu organicamente. Foi capaz de se desenvolver discretamente, atraindo pessoas gradualmente. Por quase um ano e meio, foi um projeto muito confidencial, conhecido por entusiastas e curiosos. Foi somente após o slashdotting de julho de 2010 que começou a explodir. A frenesi especulativa sobre ele não se estabeleceu de fato até 2011, quando o preço aumentou exponencialmente para $32.
 Em quarto lugar, o Bitcoin foi uma criação altruísta. Satoshi Nakamoto ofereceu o Bitcoin ao mundo. Ele liberou o programa sob uma licença gratuita. Ele não buscava fama, lucro, nem poder. Ele garantiu a segurança da mineração da rede por mais de um ano, sem pedir qualquer compensação. Embora tenha acumulado mais de um milhão de bitcoins, ele nunca os gastou. Ele finalmente desapareceu, principalmente devido a temores relacionados à atenção criada pelo caso WikiLeaks, deixando o projeto nas mãos de uma comunidade, sem uma única figura dominante.
 Em 2011, Satoshi desapareceu, mas o Bitcoin sobreviveu. A criptomoeda até decolou definitivamente, tanto do ponto de vista midiático quanto econômico. A máquina foi lançada e ninguém poderia pará-la.
-# Conclusão
+# Seção final
 <partId>89532d9b-af1f-49f3-b87a-b11987e303d5</partId>
 ## Avaliações & Notas
 <chapterId>8f27cc89-8759-4a4f-aff2-c1d3d9ecf14e</chapterId>

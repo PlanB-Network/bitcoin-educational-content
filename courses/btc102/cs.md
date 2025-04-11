@@ -23,7 +23,7 @@ Abych vám pomohl začít toto dobrodružství, vytvořil jsem tento bezplatný 
 
 <partId>008c49b7-5e17-5973-87f2-ba28429b2697</partId>
 
-## Úvod do kurzu BTC102
+## Přehled kurzu
 
 <chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 
@@ -1020,7 +1020,7 @@ Jsem opravdu hrdý, že jste dosáhli této fáze. Myslím to upřímně. Co dě
 
 V každém případě jsou všechny naše kurzy zdarma a na naší platformě je k dispozici mnoho zdrojů a tutoriálů, které vás mohou doprovázet. Hodně štěstí ve vašem studiu!
 
-# Závěr
+# Sekce finále
 
 <partId>a8425389-4a53-4b57-b9b4-36c1cab12de5</partId>
 

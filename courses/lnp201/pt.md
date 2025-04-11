@@ -21,6 +21,33 @@ Aproveite sua descoberta!
 
 +++
 
+# Introdução
+<partId>9da7290a-3895-49a2-93ea-2a6272ca4af4</partId>
+
+## Visão Geral do Curso
+<chapterId>f2e71062-5121-4114-a7f8-27df69884ce8</chapterId>
+
+Bem-vindo ao curso LNP201!
+
+Este treinamento visa fornecer a você uma compreensão técnica aprofundada do Lightning Network, uma rede de sobreposição projetada para facilitar transações em bitcoins de forma rápida e frequentemente com baixo custo. Você descobrirá gradualmente os conceitos fundamentais que regem este sistema, desde a abertura de canais de pagamento até as técnicas de roteamento e gestão de liquidez.
+
+**Seção 1: Fundamentos**  
+Começaremos com uma introdução geral ao Lightning Network, estabelecendo as bases essenciais sobre Bitcoin, seus endereços, UTXOs e o funcionamento das transações. Esta revisão dos fundamentos é essencial para entender como o Lightning Network se baseia nos mecanismos da blockchain principal para operar de maneira segura.
+
+**Seção 2: Abertura e fechamento de canais**  
+Nesta seção, exploraremos o processo de abertura de canais, que é a pedra angular do Lightning Network. Você aprenderá como são criadas as transações de compromisso, o papel das chaves de revogação para a segurança e como os canais podem ser fechados de forma colaborativa ou unilateral. Cada etapa será explicada de maneira precisa e técnica para que você entenda todas as suas nuances.
+
+**Seção 3: Uma rede de liquidez**  
+O Lightning Network não se limita a canais individuais; é uma verdadeira rede de pagamento. Veremos como as transações podem ser roteadas através de nós intermediários usando HTLCs. Esta parte também apresentará os desafios da liquidez de entrada e saída.
+
+**Seção 4: Ferramentas do Lightning Network**  
+Esta seção apresenta as ferramentas práticas do Lightning Network, como *Invoices*, *LNURL* e *Keysend*. Você também aprenderá a gerenciar a liquidez dos seus canais, um aspecto importante para garantir a fluidez dos pagamentos e maximizar a eficiência de suas transações na Lightning.
+
+**Seção 5: Vá mais longe**  
+Finalmente, concluiremos o curso recaptulando os conceitos abordados e abrindo caminho para tópicos mais avançados para aqueles que desejam aprofundar seus conhecimentos sobre o Lightning Network.
+
+Pronto para descobrir os mecanismos técnicos do Lightning Network? Vamos lá!
+
 # Os Fundamentos
 
 <partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>
@@ -30,8 +57,6 @@ Aproveite sua descoberta!
 <chapterId>df6230ae-ff35-56ea-8651-8e65580730a8</chapterId>
 ![video en](https://youtu.be/QDQ8NG0l3hk)
 
-
-Bem-vindo ao curso LNP201, que visa explicar o funcionamento técnico da Lightning Network.
 
 A Lightning Network é uma rede de canais de pagamento construída sobre o protocolo do Bitcoin, com o objetivo de possibilitar transações rápidas e de baixo custo. Ela permite a criação de canais de pagamento entre participantes, dentro dos quais transações podem ser realizadas quase instantaneamente e com taxas mínimas, sem a necessidade de registrar cada transação individualmente na blockchain. Assim, a Lightning Network busca melhorar a escalabilidade do Bitcoin e torná-lo utilizável para pagamentos de baixo valor.
 
@@ -920,7 +945,8 @@ No próximo capítulo, proponho revisar os conceitos mais importantes deste trei
 
 <partId>6bbf107d-a224-5916-9f0c-2b4d30dd0b17</partId>
 
-## Conclusão do Treinamento
+## Resumo da formação
+
 
 <chapterId>a65a571c-561b-5e1c-87bf-494644653c22</chapterId>
 ![video en](https://youtu.be/coaskEGRjiU)
@@ -973,7 +999,7 @@ Vimos que a gestão de liquidez é um desafio na Lightning para garantir o fluxo
 
 ![LNP201](assets/en/84.webp)
 
-# Conclusão
+# Seção final
 
 <partId>b8715c1c-7ae2-49b7-94c7-35bf85346ad3</partId>
 

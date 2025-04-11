@@ -21,12 +21,13 @@ See kursus keskendub muidugi Satoshi Nakamoto figuurile, kelle sõnu ja tegusid 
 
 <partId>41dc2815-c63a-4ce1-9b88-e7b3825e958e</partId>
 
-## Sissejuhatus Bitcoini loomise ajalukku
+## Kursuse ülevaade
 
 <chapterId>85290407-1aa3-4cb4-890a-aed23441afb7</chapterId>
+Tere tulemast kursusele HIS201!
 See kursus eesmärk on jutustada teile Bitcoini loomise lugu viisil, nagu te pole seda kunagi varem lugenud. See on sageli tähelepanuta jäetud, hoolimata sellest, et see on täis põnevaid detaile. Püüame seda kirjeldada kogu selle keerukuses, alates selle kontseptsiooni loomisest Satoshi Nakamoto poolt kuni tema varajase kadumiseni ja üleandmiseni kogukonnale.
 
-### Lühike ülevaade
+**Lühike ülevaade**
 
 Bitcoin kujundati üksikisiku (või grupi) poolt, kes kasutas pseudonüümi Satoshi Nakamoto. 31. oktoobril 2008 jagas ta oma mudelit kirjeldavat valget raamatut läbi Internetis asuva tundmatu e-posti meilinglisti. 8. jaanuaril 2008 rakendas ta oma kontseptsiooni, avaldades tarkvara lähtekoodi ja käivitades võrgu, kaevandades esimesi plokke ahelas. Ta soovis meelitada ligi kriitilise hulga kasutajaid, reklaamides oma loomingu erinevates suhtluskanalites.
 
@@ -48,7 +49,7 @@ Bitcoin'i loomine oli ka eraõiguslike valuutasüsteemide, nagu e-gold ja Libert
 
 Lõpuks on Bitcoin'i projekt krüptopunkide liikumise eetose pärija, 90ndate mässumeelsete krüptograafide liikumine, kes püüdsid säilitada inimeste privaatsust ja vabadust Internetis läbi krüptograafia proaktiivse kasutamise. Bitcoin on kooskõlas projektidega nagu b-money, bit gold või RPOW, mida need isikud kujutasid ette 90ndate lõpus ja 2000ndate alguses. Satoshi Nakamoto mainis neid, kuigi ta ei olnud neist enne Bitcoin'i kujundamist teadlik ja tõenäoliselt ei olnud ta algse liikumise osa.
 
-### Kursuse Ülesehitus
+**Kursuse Ülesehitus**
 
 See kursus jaguneb neljaks osaks, mis keskenduvad vastavalt Bitcoin'i päritolule (3 peatükki), selle aeglasele esilekerkimisele (3 peatükki), esialgsele tõusule (3 peatükki) ja selle kogukonna kujunemisele (4 peatükki). Kokku sisaldab see 12 peatükki, mis on järgmised (samuti on märgitud asjaomane periood):
 
@@ -66,7 +67,7 @@ See kursus jaguneb neljaks osaks, mis keskenduvad vastavalt Bitcoin'i päritolul
 - Satoshi Kadumine (detsember 2010–aprill 2011)
 - Kogukond Võtab Üle (aprill 2011–september 2011)
 
-### Üksikasjad
+**Üksikasjad**
 
 Kõik kuupäevad ja kellaajad on antud vastavalt UTC ajavööndile (mis vastab Greenwichi meridiaanile) ja võivad seetõttu erineda Ameerika kuupäevadest. On tõenäoline, et Satoshi Nakamoto viibis oma projekti kallal töötades Ameerika Ühendriikides. Siiski on Bitcoin rahvusvaheline projekt, mis hõlmas märkimisväärselt ka Soome arendaja Martti Malmi panust (Ida-Euroopa aeg, UTC+2 / UTC+3), ja seetõttu viitame me universaalsele ajavööndile. Seega ütleme, et peamise võrgustiku tegelik käivitamine toimus 9. jaanuaril kell 2:54 hommikul, mitte 8. jaanuaril kell 6:54 õhtul, mis vastab Ida-ranniku ajavööndile (Vaikse ookeani aeg, UTC-8 / UTC-7).
 
@@ -80,6 +81,7 @@ Sisu on osaliselt kohandatud prantsuse raamatust [_L'Élégance de Bitcoin_](htt
 
 Pange tähele, et selle kursuse mitteingliskeelse versiooni puhul on enamik tsitaate pärit Ameerika inglise keelest ja on selleks puhuks tõlgitud. Terminit _coin_ tõlgitakse üldiselt kui "ühik" (mitte "tükk"), kui see viitab arvestusühikule.
 
+Oled valmis uurima Bitcoini uskumatu loomise lugu? Siis sukeldume koos sellesse erakordsesse ajalukku!
 # Bitcoini Algus
 
 <partId>25a75ed6-f34b-4c9a-8224-e099a3e774dc</partId>
@@ -1403,7 +1405,7 @@ Teiseks, Bitcoini ei ehitatud ühe päevaga. Isegi pärast tarkvara versiooni 0.
 Kolmandaks, Bitcoin kasvas orgaaniliselt. See suutis areneda diskreetselt, meelitades järk-järgult inimesi. Peaaegu poolteist aastat oli see väga konfidentsiaalne projekt, mida tundsid entusiastid ja uudishimulikud. Alles pärast juuli 2010. aasta slashdottingut hakkas see plahvatuslikult kasvama. Spekulatiivne hullus selle ümber ei hakanud tegelikult peale enne 2011. aastat, kui hind tõusis eksponentsiaalselt 32 dollarini.
 Neljandaks oli Bitcoin altruistlik loomine. Satoshi Nakamoto pakkus Bitcoini maailmale. Ta vabastas programmi vaba litsentsi all. Ta ei otsinud ei kuulsust, kasumit ega võimu. Ta tagas võrgu kaevandamise turvalisuse enam kui aasta vältel, küsimata selle eest mingit kompensatsiooni. Kuigi ta kogus kokku rohkem kui miljon bitcoini, ei kulutanud ta neid kunagi. Lõpuks kadus ta peamiselt seetõttu, et kartis WikiLeaks'i juhtumiga seotud tähelepanu, jättes projekti toetuma kogukonnale, ilma ühe valitseva figuurita. 2011. aastal Satoshi kadus, kuid Bitcoin jäi ellu. Krüptoraha isegi kindlalt hakkas tõusma, nii meedia kui ka majanduslikust vaatenurgast. Masin oli käivitatud ja keegi ei suutnud seda peatada.
 
-# Kokkuvõte
+# Lõpusektsioon
 
 <partId>89532d9b-af1f-49f3-b87a-b11987e303d5</partId>
 

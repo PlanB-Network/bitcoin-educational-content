@@ -23,7 +23,7 @@ For å hjelpe deg med å starte dette eventyret, har jeg laget dette gratis kurs
 
 <partId>008c49b7-5e17-5973-87f2-ba28429b2697</partId>
 
-## Introduksjon til BTC102-kurset
+## Kursoversikt
 
 <chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 
@@ -1017,7 +1017,7 @@ Jeg er virkelig stolt over at du har nådd dette stadiet. Jeg mener det opprikti
 
 Uansett er alle våre kurs gratis, og mange ressurser eller opplæringer er tilgjengelige på vår plattform for å følge deg. Lykke til med studiene!
 
-# Konklusjon
+# Siste seksjon
 
 <partId>a8425389-4a53-4b57-b9b4-36c1cab12de5</partId>
 

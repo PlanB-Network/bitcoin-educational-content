@@ -21,19 +21,20 @@ Vous n'avez besoin d'aucune connaissance spécifique pour commencer. En effet, l
 
 <partId>3cd2ac82-026c-53e1-874a-baf5842adc6d</partId>
 
-## Un saut dans l'inconnu
+## Aperçu du cours
 
 <chapterId>27e3fb60-4b50-556b-9e70-c4f5475c121d</chapterId>
 
 ![Introduction](https://youtu.be/PdiL6_1wbQY)
 
-### Bienvenue dans un nouveau paradigme monétaire et technologique.
+Bienvenue dans le cours BTC101 !
+
 
 Le bitcoin est une révolution technologique et monétaire, capable de nous faire remettre en question notre rapport à l'argent et à la société. En effet, le bitcoin (appelé BTC) est une monnaie **neutre** et **décentralisée**, c'est-à-dire qu'elle n'est contrôlée par aucune entité ou institution. C'est une innovation qui va au-delà d'une simple "monnaie internet" : c'est à la fois un protocole informatique (le bitcoin) et une unité monétaire (le bitcoin).
 
 Le protocole utilise des technologies sous-jacentes telles que la cryptographie, la communication en réseau et la fameuse "blockchain", tandis que l'unité bitcoin sert de monnaie nécessaire au bon fonctionnement de ce protocole. Dans la vie de tous les jours, les Salvadoriens et les bitcoiners du monde entier utilisent la monnaie bitcoin pour acheter et vendre des biens et des services, comptant sur cette technologie pour améliorer leur vie.
 
-### Un programme d'études complet mais accessible
+**Un programme d'études complet mais accessible :**
 
 Dans ce cours, nous aborderons certains aspects monétaires du bitcoin, notamment la manière d'acheter et de vendre des bitcoins, de les stocker en toute sécurité dans des portefeuilles numériques et de les utiliser pour des transactions. Nous examinerons également le rôle des mineurs, qui sont essentiels pour créer de nouveaux bitcoins et sécuriser le réseau Bitcoin. Enfin, nous explorerons l'avenir du bitcoin et la manière dont la technologie Lightning Network peut améliorer les transactions en bitcoins.
 
@@ -41,46 +42,49 @@ Dans ce cours, nous aborderons certains aspects monétaires du bitcoin, notammen
 
 Il est essentiel de comprendre que le bitcoin est un nouveau système monétaire qui modifie complètement notre rapport à l'argent. Apprendre à l'utiliser est donc une compétence nécessaire pour quiconque souhaite contrôler ses propres fonds.
 
-**Section 1 - Argent**
+**Section 1 - Introduction**  
+- Chapitre 1 - Aperçu du cours  
+- Chapitre 2 - La préhistoire de Bitcoin  
 
-- Chapitre 1 - Qu'est-ce que l'argent ?
-- Chapitre 2 - La monnaie fiduciaire
-- Chapitre 3 - L'hyperinflation
-- Chapitre 4 - La politique monétaire du bitcoin
+**Section 2 - L'argent**  
+- Chapitre 3 - L'argent à travers l'histoire  
+- Chapitre 4 - Monnaies fiduciaires  
+- Chapitre 5 - L'hyperinflation  
+- Chapitre 6 - 21 millions de bitcoins  
 
-**Section 2 - Portefeuilles Bitcoin**
+**Section 3 - Portefeuilles Bitcoin**  
+- Chapitre 7 - Qu'est-ce qu'un portefeuille Bitcoin ?  
+- Chapitre 8 - Portefeuilles Bitcoin et sécurité  
+- Chapitre 9 - Mise en place d'un portefeuille  
+- Chapitre 10 - Passer l'épreuve du temps  
 
-- Chapitre 5 - Comment fonctionnent les portefeuilles Bitcoin ?
-- Chapitre 6 - Le choix de la sécurité
-- Chapitre 7 - Mise en place du portefeuille
-- Chapitre 8 - Protection contre le temps
+**Section 4 - Les aspects techniques de Bitcoin**  
+- Chapitre 11 - Lancement de Bitcoin  
+- Chapitre 12 - Transactions en bitcoins  
+- Chapitre 13 - Les nœuds Bitcoin  
+- Chapitre 14 - Les mineurs  
+- Chapitre 15 - Bitcoin et écologie  
 
-**Section 3 - Caractéristiques techniques du bitcoin**
+**Section 5 - Comment obtenir des bitcoins ?**  
+- Chapitre 16 - Bitcoin ne dort jamais !  
+- Chapitre 17 - Obtenir des bitcoins en travaillant  
+- Chapitre 18 - Épargner avec Bitcoin  
+- Chapitre 19 - L'hyper-bitcoinisation  
 
-- Chapitre 9 - Qu'est-ce qu'une transaction ?
-- Chapitre 10 - Les nœuds Bitcoin
-- Chapitre 11 - Les mineurs
-- Chapitre 12 - Les mineurs et l'écologie
+**Section 6 - L'avenir de Bitcoin : le Lightning Network**  
+- Chapitre 20 - Une brève introduction au Lightning Network  
+- Chapitre 21 - Cas d'utilisation du Lightning Network  
+- Chapitre 22 - Pilule rouge ou pilule bleue ?  
 
-**Section 4 - L'épargne en bitcoins**
-
-- Chapitre 13 - Le cours du bitcoin
-- Chapitre 14 - Comment acheter des bitcoins ?
-- Chapitre 15 - Travailler pour Bitcoin
-- Chapitre 16 - L'hyper-bitcoinisation
-
-**Section 5 - Réseau d'éclairs**
-
-- Chapitre 17 - Introduction au réseau Lightning
-- Chapitre 18 - Cas d'utilisation du réseau Lightning
-
-Avant de présenter la définition de la monnaie et sa fonction dans la société (chapitre 1), il convient de commencer par la genèse du bitcoin. Lancé en 2009, le bitcoin est une technologie relativement nouvelle qui ne ressemble à rien d'autre. Il est donc normal de ne pas tout comprendre d'un seul coup. En fait, tout comme lorsqu'on apprend à utiliser Internet ou à conduire une voiture, il n'est pas nécessaire de connaître tous les détails techniques tout de suite : on peut commencer par apprendre comment recevoir, payer et sécuriser ses fonds, et ensuite procéder par petites étapes pour l'étudier plus en profondeur.
+Avant de présenter la définition de la monnaie et sa fonction dans la société (chapitre 3), il convient de commencer par la genèse du bitcoin. Lancé en 2009, le bitcoin est une technologie relativement nouvelle qui ne ressemble à rien d'autre. Il est donc normal de ne pas tout comprendre d'un seul coup. En fait, tout comme lorsqu'on apprend à utiliser Internet ou à conduire une voiture, il n'est pas nécessaire de connaître tous les détails techniques tout de suite : on peut commencer par apprendre comment recevoir, payer et sécuriser ses fonds, et ensuite procéder par petites étapes pour l'étudier plus en profondeur.
 
 Après tout, nous n'en sommes qu'au début de son adoption, puisque nous avons dépassé la phase de décollage : vous avez juste le temps d'acquérir autant de connaissances que vous le souhaitez sur cette importante innovation.
 
 ![image](assets/en/02.webp)
 
 L'important ici est de comprendre cette nouvelle technologie de manière générale. Nous espérons donc que vous apprécierez ce cours et que vous continuerez à progresser dans ce nouveau paradigme monétaire mondial.
+
+Prêt à plonger dans l'univers fascinant de Bitcoin et à en comprendre tous les rouages ? Allons-y !  
 
 ## La préhistoire de Bitcoin
 
@@ -1169,6 +1173,8 @@ Une stratégie graduelle implique des achats récurrents, c'est-à-dire l'achat 
 
 **Attention aux UTXO** : N'oubliez pas de consolider vos UTXO dans vos portefeuilles de temps en temps. Cette pratique est essentielle pour gérer efficacement vos bitcoins et éviter les frais inutiles lors des transactions.
 
+Un [UTXO](https://planb.network/resources/glossary/utxo#:~:text=UTXO) (Unspent Transaction Output) est une sortie d'une transaction qui n'a pas encore été dépensée, ce qui signifie qu'elle n'a pas été utilisée comme entrée pour une nouvelle transaction. La consolidation des UTXO consiste à combiner plusieurs petits UTXO en un plus grand, afin de réduire le "poids" de la transaction et ainsi de payer des frais moins élevés.
+
 - Achat spontané
 
 L'achat spontané, qui permet de se familiariser immédiatement avec le bitcoin, peut être une solution "tout-en-un". Qu'il s'agisse d'acheter pendant un krach ou de profiter d'un bonus, la décision vous appartient. Il vous faudra prendre votre courage à deux mains et appuyer sur le bouton d'achat.
@@ -1404,7 +1410,7 @@ Satoshi a créé le Bitcoin en 2008 pour proposer un changement du système fina
 
 Êtes-vous prêt à vous joindre à nous ?
 
-# Conclusion
+# Section finale
 
 <partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 

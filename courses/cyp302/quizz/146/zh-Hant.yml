@@ -1,0 +1,9 @@
+question: 整數 a 有 N 的逆模的條件是什麼？
+answer: a 和 N 必須是共生的
+wrong_answers:
+  - N 必須是偶數
+  - 一定是奇數
+  - a 必須是素數
+explanation: |
+  當且僅當一個整數 a 和 N 是共素數，也就是它們的最大公除數是 1 時，這個整數 a 才有 N 的倒數。
+reviewed: false

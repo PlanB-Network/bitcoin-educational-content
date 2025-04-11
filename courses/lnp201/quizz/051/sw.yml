@@ -1,0 +1,9 @@
+question: Je, mbinu ya kufungua pembetatu inaruhusu nodi shiriki kufikia nini?
+answer: Ukwasi unaoingia na unaotoka katika kila chaneli
+wrong_answers:
+  - Ada zilizopunguzwa za uelekezaji
+  - Idadi isiyo na kikomo ya shughuli bila uthibitisho
+  - Kiungo cha moja kwa moja na kila nodi nyingine ya mtandao
+explanation: |
+  Mbinu ya ufunguzi wa pembetatu inaruhusu kila nodi kufikia ukwasi wa usawa, zinazoingia na zinazotoka, kwa kuunda kitanzi cha njia kati ya washiriki kadhaa.
+reviewed: false

@@ -23,7 +23,7 @@ Per aiutarti ad iniziare questa avventura, ho creato questo corso gratuito. Solo
 
 <partId>008c49b7-5e17-5973-87f2-ba28429b2697</partId>
 
-## Introduzione al corso BTC102
+## Panoramica del corso
 
 <chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 
@@ -1022,7 +1022,7 @@ Sono davvero orgoglioso che tu abbia raggiunto questo punto. Lo penso sinceramen
 
 In ogni caso, tutti i nostri corsi rimangono gratuiti e molte risorse o tutorial sono disponibili sulla nostra piattaforma per accompagnarti. Buon proseguimento negli studi!## Nota la formazione!
 
-# Conclusione
+# Sezione finale
 
 <partId>a8425389-4a53-4b57-b9b4-36c1cab12de5</partId>
 

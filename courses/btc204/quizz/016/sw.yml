@@ -1,0 +1,9 @@
+question: Kati ya majibu, ni ipi inawakilisha moja ya malengo makuu ya uchambuzi wa mnyororo?
+answer: Panga shughuli mbalimbali kwenye Bitcoin ili kubainisha upekee wa mtumiaji.
+wrong_answers:
+  - Boresha utendaji wa Mining kwenye mtandao.
+  - Simamia haki kwenye itifaki ya kutekeleza sheria kulingana na mamlaka.
+  - Ongeza usiri wa miamala ya Bitcoin.
+explanation: |
+  Mojawapo ya malengo ya uchanganuzi wa minyororo ni kupanga shughuli mbalimbali kwenye Bitcoin ili kubaini upekee wa mtumiaji aliyezitekeleza. Baadaye, itawezekana kujaribu kuunganisha kifungu hiki cha shughuli na utambulisho halisi.
+reviewed: false

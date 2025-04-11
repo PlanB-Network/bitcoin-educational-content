@@ -268,7 +268,7 @@ O grupo do Satoshi Fellowship apresenta um aplicativo de jogos LN usando LnBits 
 O grupo Lighting Walker apresenta sua solução para Serviço de Remessas usando MySQL, JavaScript e a API do ZDB.
 
 
-# Conclusão
+# Seção final
 <partId>a633fb0c-839c-4405-8b77-2377cce79dd7</partId>
 
 ## Avaliações & Notas

@@ -1,0 +1,9 @@
+question: Ni ipi kati ya zifuatazo SI mojawapo ya njia tatu za msingi zilizotajwa za kupata Bitcoin?
+answer: Kupokea Bitcoin kama ruzuku ya serikali kwa maendeleo ya biashara.
+wrong_answers:
+  - Kupata Bitcoin katika Exchange kwa bidhaa au huduma.
+  - Mining Bitcoin kupitia maunzi maalum na matumizi ya nishati.
+  - Kununua Bitcoin kutoka kwa jukwaa au wakala.
+explanation: |
+  Sura inataja njia kuu tatu za kupata Bitcoin; ukubali kama malipo, kuchimba, au kununua. Kupokea Bitcoin kama ruzuku ya serikali si njia ya kawaida inayotambulika ya kupata.
+reviewed: false

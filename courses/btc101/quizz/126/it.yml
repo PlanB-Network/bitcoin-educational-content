@@ -8,6 +8,6 @@ explanation: |
   Una transazione Bitcoin è un trasferimento digitale della
   proprietà di bitcoin, attraverso l'uso di un indirizzo Bitcoin
   derivato grazie alla crittografia a Curve Ellittiche. Questo
-  indirizzo è unico per il portafoglio della persona che riceve i
+  indirizzo è unico per il wallet della persona che riceve i
   bitcoin.
 reviewed: true

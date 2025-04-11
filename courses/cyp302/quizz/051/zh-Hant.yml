@@ -1,0 +1,9 @@
+question: Champ premier 或 Corps premier 是什麼意思？
+answer: 具有素數 Elements 的欄位
+wrong_answers:
+  - 只包含素數的領域
+  - 僅由素數相加定義的領域
+  - 使用隨機向量的領域
+explanation: |
+  素數字段包含相等於素數的 Elements 數，使其成為加密運算的基本字段。
+reviewed: false

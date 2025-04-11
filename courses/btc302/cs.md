@@ -29,9 +29,10 @@ V neposlední řadě bude provedena hlubší reflexe **evoluce komunit z národn
 
 <partId>81318b8f-d316-5787-aa4c-4ec8370ba668</partId>
 
-## Rekontextualizace
+## Přehled kurzu
 
 <chapterId>e8991b82-4966-5e04-8f05-7cae46eacbaa</chapterId>
+Vítejte v kurzu BTC302!
 
 Od roku 2009 se bitcoin dále rozvíjí. To zahrnuje implementaci nových návrhů na vylepšení bitcoinu (BIP), vytváření nových vrstev pro škálování sítě (mimo jiné Lightning Network) a rozvoj mnoha společností a startupů.
 
@@ -60,6 +61,34 @@ Na druhou stranu, jak bychom mohli povzbudit nové lidi, kteří přicházejí p
 ####
 
 U těchto dvou problémů je nejlepším řešením být v terénu a vzdělávat.
+
+Cílem tohoto kurzu je poskytnout vám všechny potřebné nástroje k efektivnímu vytvoření a organizaci komunity nebo meet-upu zaměřeného na Bitcoin. Ať už chcete vybudovat místní iniciativu nebo rozvíjet online skupinu, tento kurz vás konkrétně provede každým krokem procesu, od vytvoření vaší vizuální identity až po pořádání pravidelných akcí, včetně správy vašich komunikačních kanálů.
+
+**Sekce 1 : Úvod**  
+Začneme tím, že si znovu představíme důležitost shromažďování lidí kolem Bitcoinu, ať už se jedná o online komunity nebo místní meet-upy. Zjistíte, proč a kde zahájit svou komunitu a jak definovat jasné cíle, které zajistí její růst a udržitelnost.
+
+**Sekce 2 : Vytvoření jedinečné identity pro svou Bitcoin komunitu**  
+Pro přilákání nových členů a vytvoření pocitu sounáležitosti je důležité vytvořit jedinečnou identitu. Tato sekce vás naučí, jak navrhnout logo, plakát nebo banner, které věrně odrážejí ducha vaší Bitcoin komunity.
+
+**Sekce 3 : Vytváření komunikačních kanálů pro svou Bitcoin komunitu**  
+Komunikace je srdcem každé komunity. Probereme zde různé komunikační kanály, které je třeba upřednostnit, a metody, jak efektivně nastavit skupinu na Telegramu nebo server na Discordu. Diskutovat budeme také o integraci multifunkčních botů pro usnadnění správy vaší komunity.
+
+**Sekce 4 : Spuštění sociálních sítí**  
+Viditelnost je klíčem k rozvoji vaší komunity. Naučíte se, jak vytvořit dedikovaný Twitter profil, navázat spojení s dalšími blízkými meet-upy a využít platformy jako btcmap.org ke zvýšení své viditelnosti a přilákání nových členů.
+
+**Sekce 5 : Organizace Bitcoin meet-upu**  
+Tato sekce se zaměřuje na organizaci meet-upů, od hledání vhodného místa až po samotnou organizaci akce. Budeme se také zabývat způsoby, jak udržet účastníky motivované a zajistit trvalý rozvoj vaší komunity.
+
+**Sekce 6 : Příklady projektů a iniciativ**  
+Abychom šli nad rámec jednoduchých setkání, nabídneme vám v této sekci konkrétní a originální projekty: tematické akce, workshopy, tvorbu vzdělávacích materiálů, místní spolupráce a mnoho dalšího. Naučíte se také, jak vytvořit fyzické a digitální materiály na podporu vaší komunity.
+
+**Sekce 7 : Předvídání budoucnosti**  
+Nakonec se zaměříme na přirozený vývoj vaší komunity. Co dělat, když vaše skupina roste příliš rychle? Jak decentralizovat organizaci? A jak reagovat, pokud se regulatorní prostředí stane nepřátelským? Tato sekce vám pomůže předvídat budoucí výzvy.
+
+**Sekce 8 : Sjednocení Bitcoinerů**  
+Tato poslední sekce se zaměřuje na samotnou podstatu vašeho projektu: sjednocení Bitcoinových nadšenců kolem společné vize. Naučíte se, jak strukturovat svůj přístup k přilákání a udržení nových členů, jak delegovat úkoly v rámci své skupiny a jak svou komunitu udržovat a rozvíjet dlouhodobě.
+
+Připraveni zjistit, jak vybudovat silnou a dynamickou Bitcoin komunitu? Jdeme na to!
 
 ## Proč vytvářet bitcoinovou komunitu nebo meet-up?
 
@@ -1749,7 +1778,7 @@ Samozřejmě bychom neměli propadat konspiračnímu myšlení. Ale **nic nám n
 
 ![image](assets/fr/59.webp)
 
-# Závěr
+# Shromáždit Bitcoinery
 
 <partId>62bc2138-c0be-5d39-a341-594690863257</partId>
 
@@ -1846,7 +1875,7 @@ Abychom toho dosáhli, budeme vycházet ze zkušeností několika francouzských
 
 V jiných zemích se samozřejmě **legislativa a fungování sdružení liší**. Několik bodů však bude velmi užitečných při zakládání sdružení nebo pořádání důležité akce; a **doufáme, že přijdou i další bitcoináři a zařadí toto školení speciálně pro svou zemi**.
 
-# Závěr
+# Sekce finále
 
 <partId>e9bdddf4-54c9-4de9-bbce-c3eade8c32e5</partId>
 
@@ -1854,10 +1883,10 @@ V jiných zemích se samozřejmě **legislativa a fungování sdružení liší*
 
 <chapterId>08a35d2a-204b-519a-9bb1-588665a037fa</chapterId>
 
-<isCourseReview>pravdivé</isCourseReview>
+<isCourseReview>true</isCourseReview>
 
 ## Závěr
 
 <chapterId>cf1631cb-ddbe-55c7-be8c-26a5652979a0</chapterId>
 
-<isCourseConclusion>pravdivý</isCourseConclusion>
+<isCourseConclusion>true</isCourseConclusion>

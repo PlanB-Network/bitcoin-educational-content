@@ -1,0 +1,9 @@
+question: 在 RGB 協定中遺失 Stash 會有什麼後果？
+answer: Contract 歷史和相關資料變得無法復原
+wrong_answers:
+  - 如果您有 seed，可從 Blockchain 重建資料
+  - RGB 位於瑞士的伺服器可提供資料副本
+  - 資料會自動複製給所有參與者
+explanation: |
+  在 Client-side Validation 中，每個使用者都對自己的 Stash 負責，而 Stash 不會複製到其他地方，因此它的損失是確定的。
+reviewed: false

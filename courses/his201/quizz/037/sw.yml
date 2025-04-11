@@ -1,0 +1,9 @@
+question: Ni huduma gani ya Exchange iliyoundwa Machi 2010 ilikuwa maarufu zaidi kabla ya kutokea kwa Mlima Gox mnamo Julai?
+answer: Soko la Bitcoin
+wrong_answers:
+  - BitcoinFX
+  - BitcoinExchange
+  - MyBitcoin
+explanation: |
+  Hili lilikuwa soko la rika-kwa-rika kwa kutumia PayPal ambalo lilizinduliwa Machi 16, 2010, na mtu anayejulikana kama dwdollar na lilikuwa jukwaa kuu kabla ya Mt. Gox.
+reviewed: false

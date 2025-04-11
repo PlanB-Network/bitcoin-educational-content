@@ -23,17 +23,17 @@ Nautige kursust!
 
 <partId>594ab43f-7216-5326-ab41-f92b85be4581</partId>
 
-## Kursuse õppekava ja sissejuhatus
+## Kursuse ülevaade
 
 <chapterId>36526df2-66a2-58df-8f38-378fb553f08c</chapterId>
 
-### Sissejuhatus
+**Sissejuhatus**
 
 Tere tulemast sellele edasijõudnute programmeerimiskursusele SDK-de kohta. Sellel koolitusel õpite Rusti aluseid, seejärel keskendute BTC-le & Rustile ja lõpetate mõningate praktiliste harjutustega, kasutades SDK-sid.
 
 See koolitus on praegu saadaval ainult inglise keeles ja oli osa Fulgure Venture'i poolt eelmisel oktoobril Toskaanas korraldatud live seminarist. LIVE ürituse programm on allpool ja see koolitus keskendub ainult esimesele nädalale. Teine pool oli suunatud RGB-le ja seda saab leida RGB kursuselt.
 
-### Õpetajad
+**Õpetajad**
 
 Suur tänu meie õpetajatele, kes olid selle programmi osa:
 
@@ -42,7 +42,7 @@ Suur tänu meie õpetajatele, kes olid selle programmi osa:
 - Gabriel: "Kirjutan koodi ja teen asju."
 - Jesse de Wit: "Lightning võrgu entusiast | arendaja | Breez"
 
-### Seminarikava
+**Seminarikava**
 
 LN Tuscany ürituse 1. nädal
 ![image](assets/1.webp)
@@ -50,8 +50,19 @@ LN Tuscany ürituse 1. nädal
 Kui olete selle kursuse lõpetanud ja olete huvitatud jätkukoolitusest, siis siin on teise osa ajakava:
 ![image](assets/2.webp)
 
-Edu õpingutes.
 
+See koolitus annab sulle võimaluse arendada oma programmeerimisoskusi Lightning Networki jaoks, kasutades Rusti ja erinevaid SDK-sid. Koolitus on mõeldud arendajatele, kellel on juba hea programmeerimispagas ja kes soovivad süveneda Lightning Networki spetsiifilisse arendusse. Õpid Rusti aluseid, miks see sobib Bitcoini arenduseks, ja liigud seejärel edasi praktilise töö juurde spetsiaalsete SDK-dega.
+
+**Osa 2: Õpi programmeerima Rustiga**  
+Selles osas avastad Rusti põhialused läbi järjestikuste peatükkide. Õpid kirjutama Rusti koodi, mõistma selle eripärasid ning valdama selle olulisi funktsioone seitsmes detailses osas. See moodul on võtmetähtsusega, et mõista, miks Rust on Bitcoini arenduses eelistatud keel.
+
+**Osa 3: Rust ja Bitcoin**  
+Siin uurime süvitsi, miks Rust on Bitcoini arendamiseks sobiv valik. Saad teada selle veakäsitlusmudelist, UniFFI tööriistast ning asünkroonsetest traits-idest – kõik need on olulised komponendid turvalise ja töökindla tarkvara loomiseks.
+
+**Osa 4: LNP/BP arendus SDK-dega**  
+Selles osas õpid arendama LN sõlmi kasutades erinevaid SDK-sid nagu Breez SDK ja Greenlight Lipa jaoks. Näed, kuidas rakendada Lightning Networki rakendusi, kasutades teeke, mis on loodud Bitcoini ja Lightningu arenduse lihtsustamiseks.
+
+Valmis arendama oma Lightning Networki oskusi Rustiga? Alustame!
 # Õppige koodi kirjutama Rust raamatuga
 
 <partId>152b58c9-fb33-5d3b-9c15-64919869aa34</partId>
@@ -154,7 +165,7 @@ Edu õpingutes.
 
 ![video](https://youtu.be/6VaIVvBKjLY)
 
-# Järeldus
+# Lõpusektsioon
 
 <partId>aff1e861-e6a3-58ad-af6a-33ceaedbda99</partId>
 

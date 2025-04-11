@@ -23,7 +23,7 @@ objectives:
 
 <partId>008c49b7-5e17-5973-87f2-ba28429b2697</partId>
 
-## BTC102课程介绍
+## 课程概述
 
 <chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 
@@ -1023,7 +1023,7 @@ _Cryptoasset Inheritance Planning, A simple guide for owners, Pamela Morgan, ESQ
 
 无论如何，我们所有的课程都是免费的，许多资源或教程都可在我们的平台上找到，以陪伴您的学习过程。祝您学习顺利！
 
-# 结论
+# 最终部分
 
 <partId>a8425389-4a53-4b57-b9b4-36c1cab12de5</partId>
 

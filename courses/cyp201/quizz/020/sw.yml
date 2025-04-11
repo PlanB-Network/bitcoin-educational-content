@@ -1,0 +1,9 @@
+question: Kuna tofauti gani kati ya ufunguo wa umma ulioshinikizwa na ambao haujasisitizwa?
+answer: Kitufe cha umma kilichobanwa hutumia tu kiratibu cha x na usawa wa y
+wrong_answers:
+  - Ufunguo wa umma uliobanwa ni salama zaidi
+  - Kitufe cha umma kilichobanwa hutumia tu kuratibu y na usawa wa x
+  - Ufunguo wa umma uliobanwa unahitaji ufunguo mkubwa wa faragha
+explanation: |
+  Kitufe cha umma kilichobanwa hubakiza tu kiratibu cha x na kidogo kwa usawa wa y, hivyo basi kupunguza ukubwa wake hadi baiti 33.
+reviewed: false

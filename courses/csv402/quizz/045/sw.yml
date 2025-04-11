@@ -1,0 +1,9 @@
+question: Ni kiwango gani cha RGB kinatumika kufafanua ishara zinazoweza kuvu?
+answer: RGB20
+wrong_answers:
+  - RGB21
+  - RGB22
+  - RGB25
+explanation: |
+  RGB20 ni kiwango kinachotumiwa kuunda na kudhibiti tokeni zinazoweza kuvuliwa kupitia itifaki ya RGB.
+reviewed: false

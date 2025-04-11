@@ -1,0 +1,9 @@
+question: Ni mali gani ya kazi za Hash inaonyeshwa na mabadiliko kamili katika Hash wakati ujumbe unabadilika kidogo?
+answer: Athari ya Banguko
+wrong_answers:
+  - Upinzani wa mgongano
+  - Upinzani wa pili wa picha
+  - Urefu
+explanation: |
+  Mabadiliko madogo katika pembejeo husababisha mabadiliko makubwa katika Hash, hii ndiyo inayoitwa athari ya avalanche.
+reviewed: false

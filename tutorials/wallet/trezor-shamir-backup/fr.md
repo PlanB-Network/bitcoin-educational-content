@@ -1,6 +1,6 @@
 ---
 name: Trezor Shamir Backup
-description: Les phrase mnémoniques Single-share et Multi-share sur Trezor
+description: Les phrases mnémoniques Single-share et Multi-share sur Trezor
 ---
 ![cover](assets/cover.webp)
 

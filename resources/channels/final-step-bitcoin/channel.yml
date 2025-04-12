@@ -3,14 +3,13 @@ name: Final Step Bitcoin
 language: it
 links:
   channel: https://www.youtube.com/@final_step_bitcoin
-  twitter: https://x.com/Plak_btc
-  nostr: Plak@nostr.red
+  trailer: https://www.youtube.com/watch?v=RwT7HBe9ixw&t=713s
 description: |
     In questo canale si parla di blockchain, lightning network, wallet, mining, attualità e testeremo sul campo questa tecnologia! Ovviamente non mancano tutorial pratici sull' utilizzo dei principali dispositivi!  
-tags:
-  - bitcoin
-  - tecnology
-  - education
-  - tutorial
 contributor_names:
   - Finalstepbitcoin
+tags:
+  - onchain
+  - lightning
+  - mining
+  - wallets

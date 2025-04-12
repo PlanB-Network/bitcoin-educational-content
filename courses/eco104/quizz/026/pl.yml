@@ -1,0 +1,12 @@
+question: Czym jest trylemat Blockchain w świecie kryptowalut?
+answer: Kompromis między skalowalnością, bezpieczeństwem i decentralizacją w kryptowalutach
+wrong_answers:
+  - Cecha charakterystyczna Bitcoin, która przedkłada decentralizację i bezpieczeństwo nad skalowalność
+  - Trudność w określeniu trajektorii i wartości kryptowalut
+  - Ograniczenia technologii Bitcoin w porównaniu z innymi kryptowalutami
+explanation: |
+  Koncepcja trylematu Blockchain polega na tym, że kryptowaluty
+  muszą nadać priorytet dwóm z trzech ważnych cech: skalowalności,
+  bezpieczeństwo i decentralizacja. Bitcoin nadaje priorytet decentralizacji i bezpieczeństwu,
+  co wpływa na jej skalowalność, ale nadal osiąga ją za pomocą alternatywnych środków.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Co ułatwia przechwytywanie lokalnej komunikacji przez słabo wyposażonych napastników?
+answer: Wykorzystanie fal radiowych do połączeń bezprzewodowych
+wrong_answers:
+  - Przekazywanie wszystkich danych przez satelity
+  - Używanie wyłącznie kabli koncentrycznych do transmisji danych
+  - Wysyłanie danych tylko przez światłowody
+explanation: |
+  Połączenia bezprzewodowe, które przesyłają dane za pośrednictwem fal radiowych, ułatwiają atakującym przechwytywanie danych, ponieważ nie wymagają fizycznego dostępu do sieci.
+reviewed: false

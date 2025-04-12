@@ -1,0 +1,9 @@
+question: W jaki sposób MAC pomaga zapobiegać manipulowaniu wiadomościami przez atakującego?
+answer: Pozwalając zweryfikować, czy otrzymana wiadomość nie została zmieniona
+wrong_answers:
+  - Zapobiegając atakom typu brute-force
+  - Ukrywając treść wiadomości
+  - Automatycznie blokując podejrzane wiadomości
+explanation: |
+  MAC umożliwia odbiorcy sprawdzenie, czy wiadomość nie została zmodyfikowana za pomocą znacznika wygenerowanego przy użyciu współdzielonego tajnego klucza, co ogranicza możliwości manipulacji.
+reviewed: false

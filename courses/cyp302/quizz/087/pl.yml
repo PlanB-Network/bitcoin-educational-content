@@ -1,0 +1,9 @@
+question: Która metoda szyfrowania blokowego wykorzystuje wektor inicjujący i tworzy szyfrowanie probabilistyczne?
+answer: CBC (Cipher Block Chaining)
+wrong_answers:
+  - ECB (elektroniczna książka kodów)
+  - AES-128
+  - SHA-256
+explanation: |
+  Metoda CBC wykorzystuje wektor inicjujący i stosuje XOR między każdym blokiem tekstu jawnego a poprzednim zaszyfrowanym blokiem, dzięki czemu szyfrowanie jest probabilistyczne i bezpieczniejsze niż ECB.
+reviewed: false

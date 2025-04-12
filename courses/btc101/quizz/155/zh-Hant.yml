@@ -1,0 +1,8 @@
+question: 什麼是 Coinbase Transaction？
+answer: 包含 Miner 獎金的區塊的第一筆交易。
+wrong_answers:
+  - 在 Exchange Coinbase 上進行的交易。
+  - 包含最高費用的區塊的第二筆交易。
+  - Miner 收到獎勵後進行的交易。
+explanation: >-
+reviewed: true

@@ -1,0 +1,11 @@
+question: Jaki był cel Notgeld podczas kryzysu gospodarczego w Niemczech?
+answer: Został on zaprojektowany w celu Address niedoboru wspólnej waluty.
+wrong_answers:
+  - Została ona wykorzystana do wypłacenia reparacji wojennych.
+  - Była to forma protestu przeciwko rządowi.
+  - Był to sposób na pobudzenie gospodarki.
+explanation: |
+  W obliczu kryzysu monetarnego i gospodarczego Niemcy uciekły się do Notgeld
+  (pieniądze awaryjne). Banknoty te, drukowane przez miasta lub określone firmy, zostały zaprojektowane
+  do Address niedobór wspólnej waluty.
+reviewed: false

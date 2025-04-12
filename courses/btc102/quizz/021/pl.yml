@@ -1,0 +1,11 @@
+question: Jaki jest jeden z najczęstszych błędów popełnianych przez początkujących inwestorów wchodzących w świat Bitcoin?
+answer: Przeinwestowanie
+wrong_answers:
+  - Niedoinwestowanie
+  - Inwestowanie tylko w Bitcoin
+  - Brak inwestycji w Bitcoin
+explanation: |
+  Jednym z najczęstszych błędów popełnianych przez początkujących inwestorów przy wkraczaniu w świat Bitcoin jest przeinwestowanie
+  w świat Bitcoin jest przeinwestowanie, co oznacza inwestowanie większej ilości pieniędzy, niż mogą stracić
+  pozwolić sobie na stratę. Może to prowadzić do problemów finansowych, jeśli wartość Bitcoin spadnie.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Co według kursu powoduje kryzysy gospodarcze?
+answer: Kryzysy gospodarcze mogą wynikać z ludzkiej niekompetencji, manipulacji rynkiem lub zbiorowej euforii ludzi.
+wrong_answers:
+  - Kryzysy gospodarcze wynikają wyłącznie z manipulacji rynkowych.
+  - Kryzysy gospodarcze wynikają wyłącznie z ludzkiej niekompetencji.
+  - Kryzysy gospodarcze wynikają wyłącznie ze zbiorowej euforii ludzi.
+explanation: |
+  W rozdziale wspomniano, że kurs będzie badał, w jaki sposób
+  kryzysy gospodarcze mogą wynikać z ludzkiej niekompetencji, manipulacji rynkiem
+  manipulacji rynkiem lub zbiorowej euforii ludzi.
+reviewed: true

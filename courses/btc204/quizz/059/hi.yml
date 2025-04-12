@@ -1,0 +1,9 @@
+question: Address का Bitcoin पर कुल रीयूज रेट लगभग कितने लेवल पर है?
+answer: लगभग 50%
+wrong_answers:
+  - लगभग 5%
+  - करीब 15%
+  - लगभग 40%
+explanation: |
+2010 के दशक की शुरुआत से, Address का Bitcoin पर कुल पुन: उपयोग दर लगभग 50% के आसपास घटता-बढ़ता रहा है।
+reviewed: false

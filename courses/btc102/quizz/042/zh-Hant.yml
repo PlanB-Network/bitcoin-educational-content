@@ -1,0 +1,11 @@
+question: 就去中心化而言，Bitcoin 與其他硬幣的主要差異是什麼？
+answer: Bitcoin 是分散式的，而大多數替代硬幣都不是。
+wrong_answers:
+  - Bitcoin 和替代硬幣都是分散式的
+  - Bitcoin 和替代硬幣都不是分散式的
+  - 另類硬幣是分散式的，而 Bitcoin 則不是
+explanation: |
+  本章內容清楚說明 Bitcoin 是去中心化的，而
+  大多數替代硬幣都不是。這是 Bitcoin 有別於
+  其他加密貨幣的關鍵特徵。
+reviewed: false

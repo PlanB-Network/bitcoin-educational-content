@@ -1,0 +1,9 @@
+question: Jaki jest związek między wolnością polityczną a wolnością gospodarczą według Constanta?
+answer: Te dwie wolności są współzależne.
+wrong_answers:
+  - Wolność polityczna jest niezbędnym warunkiem wstępnym wolności gospodarczej.
+  - Wolność gospodarcza jest niezbędnym warunkiem wstępnym wolności politycznej.
+  - Te dwie wolności są ze sobą niezgodne.
+explanation: |
+  Dla Benjamina Constanta wolność polityczna i wolność gospodarcza są ze sobą ściśle powiązane, ponieważ autonomia jednostki zależy w takim samym stopniu od możliwości uczestniczenia w sprawach publicznych, jak i od swobody prowadzenia działalności gospodarczej bez przeszkód.
+reviewed: false

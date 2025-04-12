@@ -1,0 +1,11 @@
+question: 什麼是買賣比特幣的非 KYC 方式？
+answer: 使用 Peach 等點對點解決方案。
+wrong_answers:
+  - 使用 Hot Wallet。
+  - 使用 Cold Wallet。
+  - 使用 Hardware Wallet。
+explanation: |
+  KYC 或「認識您的客戶」是企業用來驗證客戶身份的程序。
+  客戶身份。非 KYC 方法，例如點對點解決方案、
+  允許使用者在無需提供個人資訊的情況下購買或出售比特幣。
+reviewed: false

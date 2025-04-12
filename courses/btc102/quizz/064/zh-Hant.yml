@@ -1,0 +1,12 @@
+question: 對於無壓力的重複性 Bitcoin 購買，建議的解決方案是什麼？
+answer: 使用 DCA 解決方案
+wrong_answers:
+  - 使用 Hot Wallet
+  - 使用 Cold Wallet
+  - 使用非 KYC 解決方案
+explanation: |
+  對於無壓力的重複性 Bitcoin 購買，建議的解決方案是使用 DCA（平均美元成本）解決方案。
+  是使用 DCA（平均成本法）解決方案。此策略包括將
+  您要投資的總金額，以減少定期購買的影響。
+  波動的影響。
+reviewed: false

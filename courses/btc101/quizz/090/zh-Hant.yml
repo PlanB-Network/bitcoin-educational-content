@@ -1,0 +1,13 @@
+question: 移動 Wallet 的建議用途是什麼？
+answer: 儲存日常開支。
+wrong_answers:
+  - 儲存長期儲蓄。
+  - 儲存中期儲蓄。
+  - 大量儲存。
+explanation: |
+  建議使用行動版 Wallet 來處理日常支出，因為
+  用它進行交易非常方便。但是
+  不建議用來儲存大筆金額或作
+  長期儲蓄，因為它可能會受到
+  線上威脅。
+reviewed: true

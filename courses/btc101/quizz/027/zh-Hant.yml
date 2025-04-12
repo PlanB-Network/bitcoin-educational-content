@@ -1,0 +1,12 @@
+question: 為什麼 Bitcoin 在今日的商業環境中未被廣泛接受？
+answer: 因為它未被個人廣泛採用。
+wrong_answers:
+  - 因為它無法運輸。
+  - 因為它無法分割成小單位。
+  - 因為它不是 Liquid。
+explanation: |
+  儘管 Bitcoin 具有嚴格限制的 Supply 等特性，但仍未被商業界廣泛接受。
+  Supply, Bitcoin 在商業上仍未被廣泛接受。
+  今天，由於缺乏個人採用，因此
+  不鼓勵商家接受它。
+reviewed: true

@@ -1,0 +1,11 @@
+question: Jaka jest główna rola górników w sieci Bitcoin?
+answer: Zabezpieczają sieć, wykonując procesy Bitcoin z Proof-of-Work
+wrong_answers:
+  - Tworzą nowe bitcoiny
+  - Regulują one cenę Bitcoin
+  - Kontrolują oni sieć Bitcoin
+explanation: |
+  Treść rozdziału wyjaśnia, że górnicy są odpowiedzialni za zabezpieczenie sieci Bitcoin
+  sieci Bitcoin. Wykorzystują oni energię elektryczną do wykonywania procesów Bitcoin Proof-of-Work,
+  który tworzy nowy blok.
+reviewed: false

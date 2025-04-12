@@ -1,0 +1,13 @@
+question: Jaka jest natura wartości według Carla Mengera?
+answer: Wartość jest subiektywnym zjawiskiem psychologicznym w obrębie jednostki.
+wrong_answers:
+  - Wartość jest nieodłączną właściwością towarów.
+  - Wartość jest zjawiskiem obiektywnym i mierzalnym.
+  - Wartość jest określana przez ilość pracy wykorzystanej w produkcji.
+explanation: |
+  Według Mengera wartość jest subiektywnym zjawiskiem psychologicznym
+  zjawiskiem psychologicznym w obrębie jednostki. Oznacza to, że wartość nie jest
+  nie jest nieodłączną właściwością towarów, ale raczej wynika z
+  opinii jednostki na temat użyteczności, jaką może czerpać
+  z tych dóbr.
+reviewed: true

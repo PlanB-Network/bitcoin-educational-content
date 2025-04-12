@@ -1,0 +1,10 @@
+question: 與 Address 重複使用相關的主要威脅是什麼？
+answer: 它允許在不同的交易和相關 UTXO 的共同 Ownership 之間建立確定的連結。
+wrong_answers:
+  - 它會在交易驗證期間，將使用者的 IP Address 暴露給其他網路參與者。
+  - 它會降低數位簽章機制的效能，削弱交易的安全性。
+  - 由於 Address 重複使用所造成的擁塞，導致交易費用增加。
+explanation: |
+  如果同一個 Address 用於多次交易，就有可能推斷出與該 Address 相關的所有 bitcoins 都屬於同一個人。
+  
+reviewed: false

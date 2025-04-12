@@ -1,0 +1,10 @@
+question: Na jakim mniej więcej poziomie jest ogólny wskaźnik ponownego wykorzystania Address na Bitcoin?
+answer: Około 50%
+wrong_answers:
+  - Około 5%
+  - Około 15%
+  - Około 40%
+explanation: |
+  Od początku 2010 roku ogólny wskaźnik ponownego wykorzystania Address na Bitcoin oscylował wokół 50%.
+  
+reviewed: false

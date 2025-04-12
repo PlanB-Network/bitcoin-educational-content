@@ -1,0 +1,12 @@
+question: Jakie jest znaczenie Lightning Network w kontekście Bitcoin Mining?
+answer: Lightning Network może znacznie obniżyć opłaty transakcyjne, wpływając tym samym na dochody górników.
+wrong_answers:
+  - Lightning Network zwiększa rozmiar bloku, zwiększając tym samym dochody górników.
+  - Lightning Network zmniejsza zużycie energii Bitcoin Mining.
+  - Lightning Network zwiększa prędkość Bitcoin Mining.
+explanation: |
+  Lightning Network pozwala na szybkie i tanie transakcje poza głównym łańcuchem
+  transakcje poza głównym łańcuchem Bitcoin. Ma to
+  potencjał do znacznego obniżenia opłat transakcyjnych,
+  co może mieć wpływ na dochody górników.
+reviewed: true

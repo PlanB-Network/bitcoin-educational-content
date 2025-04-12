@@ -1,0 +1,9 @@
+question: Kiedy faktycznie uruchomiono prototyp sieci Bitcoin w 2009 roku?
+answer: 9 stycznia 2009 r. o godz. 02:54:25 UTC
+wrong_answers:
+  - 3 stycznia 2009, o 18:15;05 UTC
+  - 8 stycznia 2009, o 19:27:40 UTC
+  - 12 stycznia 2009, o 03:30; 25 UTC
+explanation: |
+  Jest to Timestamp bloku 1 Blockchain, wydobytego przez Satoshi Nakamoto po opublikowaniu kodu oprogramowania na liście mailingowej kilka godzin wcześniej. Blok Genesis (0) został utworzony między 3 a 8 stycznia, ale sama sieć nie istniała.
+reviewed: false

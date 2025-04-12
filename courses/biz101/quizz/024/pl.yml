@@ -1,0 +1,9 @@
+question: Jakie jest zalecane podejście przy zakupie Bitcoin, aby poradzić sobie ze zmiennością jego cen?
+answer: Stopniowo akumuluj Bitcoin w regularnych odstępach czasu i utrzymuj długoterminową perspektywę.
+wrong_answers:
+  - Próba przewidzenia krótkoterminowych szczytów rynkowych i natychmiastowa sprzedaż.
+  - Wejdź od razu z całym skarbem firmy.
+  - Kupuj Bitcoin tylko w dniach, w których jego cena gwałtownie wzrosła.
+explanation: |
+  Regularne zakupy w czasie (uśrednianie kosztów w dolarach) pomagają złagodzić zmienność. Dłuższy horyzont czasowy (np. 4 lata) zmniejsza wpływ krótkoterminowych wahań cen.
+reviewed: false

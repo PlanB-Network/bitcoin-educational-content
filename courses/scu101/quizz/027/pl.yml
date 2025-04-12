@@ -1,0 +1,12 @@
+question: Jaki jest główny powód niepłacenia hakerom w przypadku ransomware lub innych rodzajów ataków?
+answer: Zapłacenie okupu nie gwarantuje odzyskania danych i może zachęcić cyberprzestępców do kontynuowania złośliwych działań.
+wrong_answers:
+  - Płacenie okupu jest nielegalne i może zachęcić cyberprzestępców do kontynuowania złośliwych działań.
+  - Zapłacenie okupu nie gwarantuje odzyskania danych i może zachęcić hakerów do żądania większej ilości pieniędzy po dokonaniu początkowej płatności.
+  - Płacenie okupu może zachęcić cyberprzestępców do kontynuowania złośliwych działań, ponieważ metoda płatności jest zwykle niemożliwa do wykrycia.
+explanation: |
+  Zapłacenie okupu nie gwarantuje odzyskania danych
+  danych. Co więcej, zachęca to cyberprzestępców do
+  cyberprzestępców do kontynuowania złośliwych działań, ponieważ postrzegają je jako
+  zyskowne przedsięwzięcie.
+reviewed: true

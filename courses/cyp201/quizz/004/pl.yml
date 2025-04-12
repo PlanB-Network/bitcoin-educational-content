@@ -1,0 +1,9 @@
+question: Która kombinacja funkcji Hash jest używana do generate krótszych odcisków palców w Bitcoin?
+answer: HASH160
+wrong_answers:
+  - SHA512-SHA256
+  - HASH256
+  - SHA160
+explanation: |
+  HASH160 łączy SHA256 i RIPEMD160 do generate 160-bitowych odcisków palców, zwłaszcza dla adresów Bitcoin.
+reviewed: false

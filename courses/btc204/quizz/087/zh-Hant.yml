@@ -1,0 +1,10 @@
+question: 與 Wasabi 1.0 相比，Wabisabi 如何管理變化？
+answer: 它將錢分成幾筆小錢，以等額面額分發。
+wrong_answers:
+  - 它可以鞏固它們，防止它們變成 Dust。
+  - 在 CoinJoin 交易之前，它會透過均衡輸入來排除它們。
+  - 它會自動將其轉移至後備 Wallet。
+explanation: |
+  與Wasabi 1.0不同的是，Wasabi 1.0的零錢與使用者的投入直接相關，而Wabisabi的目標是將零錢細分為幾個小數目，以等額面額分發給所有參與者。
+  
+reviewed: false

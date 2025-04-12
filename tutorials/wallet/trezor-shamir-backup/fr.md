@@ -12,7 +12,7 @@ Depuis 2023, Trezor propose un nouveau format de sauvegarde appelé ***Single-sh
 
 Ce modèle distribué s'appelle le ***Multi-share Backup***. Il repose sur le même principe, mais au lieu de générer une seule phrase mnémonique, il permet de la scinder en plusieurs fragments appelés ***shares***, chacun étant une phrase mnémonique à part entière. Pour restaurer le portefeuille, un certain nombre de ces *shares* (défini par un *seuil*) doivent être réunis. Par exemple, dans un schéma 3-de-5, n’importe quels 3 *shares* sur les 5 existantes permettent de reconstituer le portefeuille. Attention, le système de sauvegarde distribué de Trezor est différent des portefeuilles multisigs. Pour dépenser vos bitcoins, seul votre hardware wallet Trezor est requis. Il ne faut produire qu'une seule signature. La distribution s'applique uniquement au niveau de la phrase mnémonique, c'est-à-dire de la sauvegarde.
 
-01
+![Image](assets/fr/01.webp)
 
 Ce système permet de résoudre le problème du point de défaillance unique de la phrase mnémonique sans les inconvénients liés à la gestion d'un multisig ou d'une passphrase BIP39. Le processus de récupération ne repose plus sur une seule information, mais sur plusieurs, avec en plus une certaine tolérance à la perte grâce au seuil.
 
@@ -43,29 +43,33 @@ Dans ce tutoriel, nous allons d'abord voir comment configurer un Multi-share lor
 
 Si vous avez besoin d'aide pour la configuration initiale de votre appareil, nous avons également un tutoriel détaillé pour chaque modèle de Trezor :
 
-METTRE LES LIENS
+https://planb.network/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
+
+https://planb.network/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
+
+https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
 ### Sur un nouveau portefeuille
 
-Vous avez passé les étapes de configuration initiale de votre Trezor et vous êtes prêt à créer le portefeuille. Dans Trezor Suite, cliquez sur le bouton "Create new wallet".
+Vous avez passé les étapes de configuration initiale de votre Trezor et vous êtes prêt à créer le portefeuille. Dans Trezor Suite, cliquez sur le bouton "*Create new wallet*".
 
-02
+![Image](assets/fr/02.webp)
 
-Choisissez l'option "Multi-share Backup", puis cliquez sur "Create wallet".
+Choisissez l'option "*Multi-share Backup*", puis cliquez sur "*Create wallet*".
 
-03
+![Image](assets/fr/03.webp)
 
 Acceptez les conditions d'utilisation sur votre Trezor et confirmez la création du portefeuille.
 
-04
+![Image](assets/fr/04.webp)
 
-Dans Trezor Suite, cliquez sur "Continue to backup".
+Dans Trezor Suite, cliquez sur "*Continue to backup*".
 
-05
+![Image](assets/fr/05.webp)
 
-Lisez attentivement les instructions, validez-les, puis cliquez sur "Create wallet backup".
+Lisez attentivement les instructions, validez-les, puis cliquez sur "*Create wallet backup*".
 
-06
+![Image](assets/fr/06.webp)
 
 Pour plus d'informations sur la manière adéquate de sauvegarder et de gérer vos phrases mnémoniques, je vous recommande vivement de suivre cet autre tutoriel, particulièrement si vous êtes débutant :
 
@@ -73,13 +77,13 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 Sur le Trezor, choisissez le nombre total de shares que vous souhaitez configurer. Les configurations les plus courantes sont 2-de-3 et 3-de-5. Pour cet exemple, je vais créer un 2-de-3, donc je sélectionne 3 shares. Chaque share représentera une phrase mnémonique de 20 mots.
 
-*Pour les utilisateurs du Safe 5, bien que l'écran indique "Tap to continue", vous devrez en réalité faire un swipe vers le haut pour confirmer.*
+*Pour les utilisateurs du Safe 5, bien que l'écran indique "*Tap to continue*", vous devrez en réalité faire un swipe vers le haut pour confirmer.*
 
-07
+![Image](assets/fr/07.webp)
 
 Confirmez ensuite le seuil, c'est-à-dire le nombre de shares nécessaires pour récupérer l'accès au portefeuille et aux bitcoins qu'il contient.
 
-08
+![Image](assets/fr/08.webp)
 
 Le Trezor va créer vos différentes shares (phrases mnémoniques) en utilisant son générateur de nombres aléatoires. Assurez-vous de ne pas être observé durant cette opération. Notez les mots fournis sur l'écran sur le support physique de votre choix. Il est important de conserver les mots numérotés et dans l'ordre séquentiel.
 
@@ -89,15 +93,15 @@ Vous pouvez voir sur le haut de l'écran quelle share vous êtes en train de con
 
 _**Évidemment, vous ne devez jamais partager ces mots sur internet, contrairement à ce que je fais dans ce tutoriel. Ce portefeuille en exemple sera utilisé uniquement sur le Testnet et sera supprimé à l'issue du tutoriel.**_
 
-09
+![Image](assets/fr/09.webp)
 
 Pour passer aux mots suivants, cliquez sur le bas de l'écran. Vous pouvez revenir en arrière en glissant vers le bas. Une fois tous les mots notés, restez appuyé sur l'écran pour passer à la share suivante, et répétez cette opération.
 
-10
+![Image](assets/fr/10.webp)
 
 À la fin de l'enregistrement de chaque share, on vous demandera de sélectionner les mots de votre phrase mnémonique dans l'ordre pour confirmer que vous les avez correctement notés.
 
-11
+![Image](assets/fr/11.webp)
 
 Et voilà, vous avez réussi à sauvegarder votre portefeuille en utilisant l'option Multi-share. Vous pouvez maintenant poursuivre avec le reste des instructions de configuration.
 
@@ -107,31 +111,31 @@ Si vous disposez déjà d'un portefeuille Trezor avec une sauvegarde Single-shar
 
 Pour ce faire, connectez et déverrouillez votre hardware wallet. Dans Trezor Suite, accédez aux paramètres.
 
-12
+![Image](assets/fr/12.webp)
 
-Allez dans l'onglet "Device".
+Allez dans l'onglet "*Device*".
 
-13
+![Image](assets/fr/13.webp)
 
-Cliquez ensuite sur "Create Multi-share Backup".
+Cliquez ensuite sur "*Create Multi-share Backup*".
 
-14
+![Image](assets/fr/14.webp)
 
-Lisez les instructions, puis cliquez sur "Create Multi-share Backup".
+Lisez les instructions, puis cliquez sur "*Create Multi-share Backup*".
 
-15
+![Image](assets/fr/15.webp)
 
 Vous devrez ensuite saisir votre phrase mnémonique actuelle (en Single-share) sur l'écran de votre Trezor. Sélectionnez le nombre de mots (par défaut, c'est 20).
 
-16
+![Image](assets/fr/16.webp)
 
 Utilisez ensuite le clavier sur l'écran de la Trezor pour entrer chaque mot de votre phrase mnémonique actuelle.
 
-17
+![Image](assets/fr/17.webp)
 
 Vous pourrez alors choisir la configuration de votre Multi-share Backup en suivant les instructions fournies dans la section précédente.
 
-18
+![Image](assets/fr/18.webp)
 
 Une fois votre Multi-share Backup créé, vous devrez décider de ce que vous faites de votre phrase mnémonique Single-share initiale. Comme le portefeuille Bitcoin reste le même, cette phrase unique permet toujours d'y accéder. Cela va dépendre de votre stratégie de sécurisation, mais en général, il est conseillé de détruire cette phrase pour éliminer ce point de défaillance unique, ce qui est justement l'objectif du Multi-share Backup. Si vous décidez de la détruire, assurez-vous de le faire de manière sécurisée, car **elle donne toujours accès à vos bitcoins**.
 

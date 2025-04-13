@@ -820,32 +820,32 @@ Nella prima parte, possiamo vedere che:
 
 - `ln` indica che si tratta di una transazione Lightning.
 - `bc` indica che la rete Lightning è sulla blockchain di Bitcoin (e non sulla testnet o su Litecoin).
-- `100u` indica l'importo della fattura, espresso in **microbitcoins** (`u` che significa "micro"), che qui equivale a 10.000 sats.
+- `100u` indica l'importo della fattura, espresso in **microbitcoin** (`u` che significa "micro"), che qui equivale a 10.000 sats.
 
 Per designare l'importo del pagamento, questo è espresso in sottounità di bitcoin. Ecco le unità utilizzate:
 
 - **Millibitcoin (denotato `m`):** Rappresenta un millesimo di bitcoin.
 
 $$
-1 \, \text{mBTC} = 10^{-3} \, \text{BTC} = 10^5 \, \text{satoshis}
+1 \, \text{mBTC} = 10^{-3} \, \text{BTC} = 10^5 \, \text{satoshi}
 $$
 
 - **Microbitcoin (denotato `u`):** Chiamato anche talvolta "bit", rappresenta un milionesimo di bitcoin.
 
 $$
-1 \, \mu\text{BTC} = 10^{-6} \, \text{BTC} = 100 \, \text{satoshis}
+1 \, \mu\text{BTC} = 10^{-6} \, \text{BTC} = 100 \, \text{satoshi}
 $$
 
 - **Nanobitcoin (denotato `n`):** Rappresenta un miliardesimo di bitcoin.
 
 $$
-1 \, \text{nBTC} = 10^{-9} \, \text{BTC} = 0.1 \, \text{satoshis}
+1 \, \text{nBTC} = 10^{-9} \, \text{BTC} = 0.1 \, \text{satoshi}
 $$
 
 - **Picobitcoin (denotato `p`):** Rappresenta un trilionesimo di bitcoin.
 
 $$
-1 \, \text{pBTC} = 10^{-12} \, \text{BTC} = 0.0001 \, \text{satoshis}
+1 \, \text{pBTC} = 10^{-12} \, \text{BTC} = 0.0001 \, \text{satoshi}
 $$
 
 ### Il Payload di una Fattura

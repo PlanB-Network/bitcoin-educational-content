@@ -827,7 +827,7 @@ Per designare l'importo del pagamento, questo è espresso in sottounità di bitc
 - **Millibitcoin (denotato `m`):** Rappresenta un millesimo di bitcoin.
 
 $$
-1 \, \text{mBTC} = 10^{-3} \, \text{BTC} = 10^5 \, \text{satoshi}
+1 \text{mBTC} = 10^{-3} \, \text{BTC} = 10^5 \, \text{satoshi}
 $$
 
 - **Microbitcoin (denotato `u`):** Chiamato anche talvolta "bit", rappresenta un milionesimo di bitcoin.

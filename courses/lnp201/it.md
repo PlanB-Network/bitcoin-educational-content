@@ -947,11 +947,12 @@ Nel prossimo capitolo, propongo di rivedere i concetti più importanti di questa
 ## Conclusione della formazione
 
 <chapterId>a65a571c-561b-5e1c-87bf-494644653c22</chapterId>
+
 ![video en](https://youtu.be/coaskEGRjiU)
 
 In questo capitolo finale che segna la conclusione del corso LNP201, propongo di rivedere insieme i concetti importanti che abbiamo coperto.
 
-L'obiettivo di questo corso era fornirvi una comprensione completa e tecnica della Lightning Network. Abbiamo scoperto come la Lightning Network si basi sulla blockchain di Bitcoin per eseguire transazioni off-chain, mantenendo al contempo le caratteristiche fondamentali di Bitcoin, in particolare l'assenza della necessità di fidarsi degli altri nodi.
+L'obiettivo di questo corso era fornirvi una comprensione completa e tecnica di Lightning Network. Abbiamo scoperto come Lightning Network si basi sulla blockchain di Bitcoin per eseguire transazioni off-chain, mantenendo al contempo le caratteristiche fondamentali di Bitcoin, in particolare l'assenza della necessità di fidarsi degli altri nodi.
 
 ### Canali di Pagamento
 
@@ -959,7 +960,10 @@ Nei capitoli iniziali, abbiamo esplorato come due parti, aprendo un canale di pa
 
 - **Apertura del Canale**: La creazione del canale avviene tramite una transazione Bitcoin che blocca i fondi in un indirizzo multisignature 2/2. Questo deposito rappresenta il canale Lightning sulla blockchain.
 
-![LNP201](assets/en/76.webp) 2. **Transazioni nel Canale**: In questo canale, è quindi possibile effettuare numerose transazioni senza doverle pubblicare sulla blockchain. Ogni transazione Lightning crea un nuovo stato del canale riflesso in una transazione di impegno.
+![LNP201](assets/en/76.webp) 2.
+
+**Transazioni nel Canale**: In questo canale, è quindi possibile effettuare numerose transazioni senza doverle pubblicare sulla blockchain. Ogni transazione Lightning crea un nuovo stato del canale riflesso in una transazione di impegno.
+
 ![LNP201](assets/en/77.webp)
 
 - **Sicurezza e Chiusura**: I partecipanti si impegnano nel nuovo stato del canale scambiandosi chiavi di revoca per assicurare i fondi e prevenire eventuali frodi. Entrambe le parti possono chiudere il canale cooperativamente effettuando una nuova transazione sulla blockchain di Bitcoin, o come ultima risorsa attraverso una chiusura forzata. Quest'ultima opzione, sebbene meno efficiente perché più lunga e talvolta mal valutata in termini di commissioni, consente comunque il recupero dei fondi. In caso di frode, la vittima può punire il truffatore recuperando tutti i fondi del canale sulla blockchain.
@@ -993,7 +997,9 @@ Abbiamo visto che la gestione della liquidità è una sfida su Lightning per gar
 ![LNP201](assets/en/82.webp)
 
 - **Utilizzare Servizi come Loop e Pool**: Questi servizi consentono di riequilibrare o acquistare canali con liquidità sul lato opposto.
+- 
   ![LNP201](assets/en/83.webp)
+  
 - **Aperture Collaborative**: Esistono anche piattaforme disponibili per connettersi al fine di eseguire aperture triangolari e avere liquidità in entrata.
 
 ![LNP201](assets/en/84.webp)

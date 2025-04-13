@@ -833,7 +833,7 @@ $$
 - **Microbitcoin (denotato `u`):** Chiamato anche talvolta "bit", rappresenta un milionesimo di bitcoin.
 
 $$
-1 \mu\text{ BTC} = 10^{-6} \, \text{BTC} = 100 \, \text{satoshi}
+1 \ \mu\text{BTC} = 10^{-6} \, \text{BTC} = 100 \, \text{satoshi}
 $$
 
 - **Nanobitcoin (denotato `n`):** Rappresenta un miliardesimo di bitcoin.

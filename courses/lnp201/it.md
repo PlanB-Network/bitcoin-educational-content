@@ -975,9 +975,9 @@ Nei capitoli iniziali, abbiamo esplorato come due parti, aprendo un canale di pa
 
 - **Apertura del Canale**: La creazione del canale avviene tramite una transazione Bitcoin che blocca i fondi in un indirizzo multisignature 2/2. Questo deposito rappresenta il canale Lightning sulla blockchain.
 
-![LNP201](assets/en/76.webp) 2.
+![LNP201](assets/en/76.webp)
 
-**Transazioni nel Canale**: In questo canale, è quindi possibile effettuare numerose transazioni senza doverle pubblicare sulla blockchain. Ogni transazione Lightning crea un nuovo stato del canale riflesso in una transazione di impegno.
+- **Transazioni nel Canale**: In questo canale, è quindi possibile effettuare numerose transazioni senza doverle pubblicare sulla blockchain. Ogni transazione Lightning crea un nuovo stato del canale riflesso in una transazione di impegno.
 
 ![LNP201](assets/en/77.webp)
 

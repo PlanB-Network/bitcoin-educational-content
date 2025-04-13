@@ -555,7 +555,6 @@ In questo capitolo, abbiamo esplorato l'instradamento dei pagamenti su Lightning
 <chapterId>4369b85a-1365-55d8-99e1-509088210116</chapterId>
 ![video en](https://youtu.be/jI4nM297aHA)
 
-
 In questo capitolo, scopriremo come Lightning consente ai pagamenti di transitare attraverso nodi intermedi senza la necessità di fidarsi di loro, grazie agli **HTLC** (_Hashed Time-Locked Contracts_). Questi contratti intelligenti assicurano che ciascun nodo intermedio riceverà i fondi dal suo canale solo se inoltra il pagamento al destinatario finale, altrimenti, il pagamento non verrà convalidato.
 
 Il problema che sorge per l'instradamento dei pagamenti è quindi la necessaria fiducia nei nodi intermedi, e tra i nodi intermedi stessi. Per illustrare questo, rivediamo il nostro esempio semplificato di rete Lightning con 3 nodi e 2 canali:
@@ -570,6 +569,7 @@ Alice vuole inviare 40.000 satoshi a Bob ma non ha un canale diretto con lui e n
 Se Alice invia ingenuamente 40.000 satoshi a Suzie sperando che Suzie trasferisca questa somma a Bob, Suzie potrebbe tenere i fondi per sé e non trasmettere nulla a Bob.
 
 ![LNP201](assets/en/47.webp)
+
 Per evitare questa situazione, su Lightning, utilizziamo gli HTLC (Hashed Time-Locked Contracts), che rendono il pagamento al nodo intermedio condizionale, nel senso che Suzie deve soddisfare determinate condizioni per accedere ai fondi di Alice e trasferirli a Bob.
 
 ### Come Funzionano gli HTLC
@@ -582,11 +582,10 @@ Un HTLC è un contratto speciale basato su due principi:
 Ecco come funziona questo processo nel nostro esempio con Alice, Suzie e Bob:
 
 ![LNP201](assets/en/48.webp)
+
 **Creazione del segreto**: Bob genera un segreto casuale noto come _s_ (la preimmagine) e calcola il suo hash noto come _r_ con la funzione hash indicata come _h_. Abbiamo:
 
-$$
-r = h(s)
-$$
+$$ r = h(s) $$
 
 L'uso di una funzione hash rende impossibile trovare _s_ avendo solo _h(s)_, ma se _s_ è fornito, è facile verificare che corrisponde a _h(s)_.
 
@@ -598,23 +597,20 @@ L'uso di una funzione hash rende impossibile trovare _s_ avendo solo _h(s)_, ma 
 
 **Invio del pagamento condizionale**: Alice invia un HTLC di 40.000 satoshi a Suzie. La condizione affinché Suzie riceva questi fondi è che fornisca ad Alice un segreto _s'_ che soddisfa la seguente equazione:
 
-$$
-h(s') = r
-$$
+$$ h(s') = r $$
 
 ![LNP201](assets/en/51.webp)
 
 **Trasferimento dell'HTLC al destinatario finale**: Suzie, per ottenere i 40.000 satoshi da Alice, deve trasferire un HTLC simile di 40.000 satoshi a Bob, che ha la stessa condizione, ovvero che deve fornire a Suzie un segreto _s'_ che soddisfa l'equazione:
 
-$$
-h(s') = r
-$$
+$$ h(s') = r $$
 
 ![LNP201](assets/en/52.webp)
 
 **Validazione tramite il segreto _s_**: Bob fornisce _s_ a Suzie per ricevere i 40.000 satoshi promessi nell'HTLC. Con questo segreto, Suzie può quindi sbloccare l'HTLC di Alice e ottenere i 40.000 satoshi da Alice. Il pagamento viene quindi correttamente instradato a Bob.
 
 ![LNP201](assets/en/53.webp)
+
 Questo processo impedisce a Suzie di trattenere i fondi di Alice senza completare il trasferimento a Bob, poiché deve inviare il pagamento a Bob per ottenere il segreto _s_ e quindi sbloccare l'HTLC di Alice. L'operazione rimane la stessa anche se il percorso include diversi nodi intermedi: si tratta semplicemente di ripetere i passaggi di Suzie per ogni nodo intermedio. Ogni nodo è protetto dalle condizioni degli HTLC, perché lo sblocco dell'ultimo HTLC da parte del destinatario attiva automaticamente lo sblocco di tutti gli altri HTLC in cascata.
 
 ### Scadenza e gestione degli HTLC in caso di problemi
@@ -666,7 +662,7 @@ Infine, nel caso di una chiusura cooperativa del canale mentre un HTLC è attivo
 Gli HTLC consentono il routing dei pagamenti Lightning attraverso più nodi senza doverli fidare. Ecco i punti chiave da ricordare:
 
 - Gli HTLC garantiscono la sicurezza dei pagamenti attraverso un segreto (preimage) e un tempo di scadenza.
-- La risoluzione o la scadenza degli HTLC segue un ordine specifico: poi dalla destinazione verso la fonte, al fine di proteggere ogni nodo.
+- La risoluzione o la scadenza degli HTLC segue un ordine specifico: inizia dalla destinazione verso la fonte, al fine di proteggere ogni nodo.
 - Finché un HTLC non è né risolto né scaduto, viene mantenuto come output nelle transazioni di impegno più recenti.
 
 Nel prossimo capitolo, scopriremo come un nodo che emette una transazione Lightning trova e seleziona le rotte per il suo pagamento per raggiungere il nodo destinatario.

@@ -828,6 +828,7 @@ Per designare l'importo del pagamento, questo è espresso in sottounità di bitc
   $$
 
 - **Picobitcoin (denotato `p`):** Rappresenta un trilionesimo di bitcoin.
+
   $$
   1 \, \text{pBTC} = 10^{-12} \, \text{BTC} = 0.0001 \, \text{satoshis}
   $$

@@ -521,12 +521,13 @@ Per comprendere meglio come funzionano le commissioni, studiamo la stessa rete L
 Per lo stesso pagamento di **40.000 satoshi** a Bob, Alice dovrà inviare un po' di più, poiché ogni nodo intermediario tratterrà le proprie commissioni:
 
 - **Carol** deduce 1,04 satoshi sul canale con Bob:
-  $$
-  f*{\text{Carol-Bob}} = \text{commissione base} + \left(\frac{\text{ppm} \times \text{importo}}{10^6}\right)
-  $$
-  $$
-  f*{\text{Carol-Bob}} = 1 + \frac{1 \times 40000}{10^6} = 1 + 0,04 = 1,04 \text{ sats}
-  $$
+$$
+f*{\text{Carol-Bob}} = \text{commissione base} + \left(\frac{\text{ppm} \times \text{importo}}{10^6}\right)
+$$
+
+$$
+f*{\text{Carol-Bob}} = 1 + \frac{1 \times 40000}{10^6} = 1 + 0,04 = 1,04 \text{ sats}
+$$
 
 - **Suzie** deduce 8 satoshi in commissioni sul canale con Carol:
   $$ f*{\text{Suzie-Carol}} = \text{commissione base} + \left(\frac{\text{ppm} \times \text{importo}}{10^6}\right) $$

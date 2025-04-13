@@ -585,7 +585,9 @@ Ecco come funziona questo processo nel nostro esempio con Alice, Suzie e Bob:
 
 **Creazione del segreto**: Bob genera un segreto casuale noto come _s_ (la preimmagine) e calcola il suo hash noto come _r_ con la funzione hash indicata come _h_. Abbiamo:
 
-$$ r = h(s) $$
+$$
+r = h(s)
+$$
 
 L'uso di una funzione hash rende impossibile trovare _s_ avendo solo _h(s)_, ma se _s_ è fornito, è facile verificare che corrisponde a _h(s)_.
 
@@ -597,13 +599,17 @@ L'uso di una funzione hash rende impossibile trovare _s_ avendo solo _h(s)_, ma 
 
 **Invio del pagamento condizionale**: Alice invia un HTLC di 40.000 satoshi a Suzie. La condizione affinché Suzie riceva questi fondi è che fornisca ad Alice un segreto _s'_ che soddisfa la seguente equazione:
 
-$$ h(s') = r $$
+$$
+h(s') = r
+$$
 
 ![LNP201](assets/en/51.webp)
 
 **Trasferimento dell'HTLC al destinatario finale**: Suzie, per ottenere i 40.000 satoshi da Alice, deve trasferire un HTLC simile di 40.000 satoshi a Bob, che ha la stessa condizione, ovvero che deve fornire a Suzie un segreto _s'_ che soddisfa l'equazione:
 
-$$ h(s') = r $$
+$$
+h(s') = r
+$$
 
 ![LNP201](assets/en/52.webp)
 
@@ -791,7 +797,6 @@ lnbc100u
 Poi la parte destinata al payload:
 
 ```invoice
-
 p0x7x7dpp5l7r9y50wrzz0lwnsqgxdks50lxtwkl0mhd9lslr4rcgdtt2n6lssp5l3pkhdx0cmc9gfsqvw5xjhph84my2frzjqxqyz5vq9qsp5k4mkzv5jd8u5n89d2yc50x7ptkl0zprx0dfjh3km7g0x98g70hsqq7sqqqgqqyqqqqlgqqvnv2k5ehwnylq3rhpd9g2y0sq9ujyxsqqypjqqyqqqqqqqqqqqsqqqqq9qsq3vql5f6e45xztgj7y6xw6ghrcz3vmh8msrz8myvhsarxg42ce9yyn53lgnryx0m6qqld8fql
 ```
 
@@ -871,6 +876,7 @@ Nel capitolo seguente, vedremo come un operatore di nodo può gestire la liquidi
 ## Gestire la Tua Liquidità
 
 <chapterId>cc76d0c4-d958-57f5-84bf-177e21393f48</chapterId>
+
 ![video en](https://youtu.be/MIbej28La7Y)
 
 In questo capitolo, esploreremo strategie per gestire efficacemente la liquidità sulla rete Lightning. La gestione della liquidità varia a seconda del tipo di utente e del contesto. Esamineremo i principi principali e le tecniche esistenti per capire meglio come ottimizzare questa gestione.

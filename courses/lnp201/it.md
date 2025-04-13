@@ -667,11 +667,10 @@ Gli HTLC consentono il routing dei pagamenti Lightning attraverso più nodi senz
 
 Nel prossimo capitolo, scopriremo come un nodo che emette una transazione Lightning trova e seleziona le rotte per il suo pagamento per raggiungere il nodo destinatario.
 
-## Trovare la Tua Strada
+## Alla Ricerca  della Tua Strada
 
 <chapterId>7e2ae959-c2a1-512e-b5d6-8fd962e819da</chapterId>
 ![video en](https://youtu.be/CqetCElRjUQ)
-
 
 Nei capitoli precedenti, abbiamo visto come utilizzare i canali di altri nodi per instradare i pagamenti e raggiungere un nodo senza essere direttamente connessi ad esso tramite un canale. Abbiamo anche discusso su come garantire la sicurezza del trasferimento senza fidarsi dei nodi intermedi. In questo capitolo, ci concentreremo sul trovare la migliore rotta possibile per raggiungere un nodo target.
 
@@ -680,7 +679,9 @@ Nei capitoli precedenti, abbiamo visto come utilizzare i canali di altri nodi pe
 Come abbiamo visto, in Lightning, è il nodo che invia il pagamento che deve calcolare l'intera rotta verso il destinatario, perché utilizziamo un sistema di routing a cipolla. I nodi intermedi non conoscono né il punto di origine né la destinazione finale. Sanno solo da dove proviene il pagamento e a quale nodo devono trasferirlo successivamente. Ciò significa che il nodo mittente deve mantenere una topologia locale dinamica della rete, con i nodi Lightning esistenti e i canali tra ciascuno, tenendo conto delle aperture, delle chiusure e degli aggiornamenti di stato.
 
 ![LNP201](assets/en/61.webp)
+
 Anche con questa topologia della rete Lightning, ci sono informazioni essenziali per il routing che rimangono inaccessibili al nodo mittente, ovvero la distribuzione esatta della liquidità nei canali in un dato momento. Infatti, ogni canale mostra solo la sua **capacità totale**, ma la distribuzione interna dei fondi è nota solo ai due nodi partecipanti. Questo pone sfide per un routing efficiente, poiché il successo del pagamento dipende notevolmente dal fatto che il suo importo sia inferiore alla liquidità più bassa sulla rotta scelta. Tuttavia, le liquidità non sono tutte visibili al nodo mittente.
+
 ![LNP201](assets/en/62.webp)
 
 ### Aggiornamento della Mappa della Rete
@@ -691,7 +692,8 @@ I 2 messaggi principali scambiati tra i nodi Lightning sono i seguenti:
 
 - "**Annunci di Canale**": messaggi che segnalano l'apertura di un nuovo canale.
 - "**Aggiornamenti Canale**": messaggi di aggiornamento sullo stato di un canale, in particolare sull'evoluzione delle commissioni (ma non sulla distribuzione della liquidità).
-  I nodi Lightning monitorano anche la blockchain di Bitcoin per rilevare le transazioni di chiusura del canale. Il canale chiuso viene quindi rimosso dalla mappa poiché non può più essere utilizzato per instradare i nostri pagamenti.
+
+I nodi Lightning monitorano anche la blockchain di Bitcoin per rilevare le transazioni di chiusura del canale. Il canale chiuso viene quindi rimosso dalla mappa poiché non può più essere utilizzato per instradare i nostri pagamenti.
 
 ### Instradamento di un Pagamento
 
@@ -722,7 +724,8 @@ Ma poiché Alice non conosce la distribuzione esatta dei fondi in ciascun canale
 - **Commissioni di transazione**: nella scelta del percorso migliore, il nodo mittente considera anche le commissioni applicate da ciascun nodo intermedio e cerca di minimizzare il costo totale di instradamento.
 - **Scadenza degli HTLC**: per evitare pagamenti bloccati, anche il tempo di scadenza degli HTLC è un parametro da considerare.
 - **Numero di nodi intermedi**: infine, più in generale, il nodo mittente cercherà di trovare una rotta con il minor numero possibile di nodi per ridurre il rischio di fallimento e limitare le commissioni delle transazioni Lightning.
-  Analizzando questi criteri, il nodo mittente può testare le rotte più probabili e tentare di ottimizzarle. Nel nostro esempio, Alice potrebbe classificare le migliori rotte come segue:
+  
+Analizzando questi criteri, il nodo mittente può testare le rotte più probabili e tentare di ottimizzarle. Nel nostro esempio, Alice potrebbe classificare le migliori rotte come segue:
 
 - `Alice → 1 → 2 → 5 → Bob`, perché è la rotta più breve con la capacità più alta.
 - `Alice → 1 → 2 → 4 → 5 → Bob`, perché questa rotta offre buone capacità, anche se è più lunga della prima.
@@ -757,8 +760,11 @@ Nel capitolo seguente, studieremo specificamente il funzionamento delle fatture,
 ## Fattura, LNURL e Keysend
 
 <chapterId>e34c7ecd-2327-52e3-b61e-c837d9e5e8b0</chapterId>
+
 ![video en](https://youtu.be/XANzf1Qqp9I)
+
 In questo capitolo, esamineremo più da vicino il funzionamento delle **fatture** Lightning, ovvero le richieste di pagamento inviate dal nodo destinatario al nodo mittente. L'obiettivo è capire come pagare e ricevere pagamenti su Lightning. Discuteremo anche di 2 alternative alle fatture classiche: LNURL e Keysend.
+
 ![LNP201](assets/en/68.webp)
 
 ### La Struttura delle Fatture Lightning

@@ -1012,7 +1012,7 @@ Abbiamo visto che la gestione della liquidità è una sfida su Lightning per gar
 ![LNP201](assets/en/82.webp)
 
 - **Utilizzare Servizi come Loop e Pool**: Questi servizi consentono di riequilibrare o acquistare canali con liquidità sul lato opposto.
-- 
+
   ![LNP201](assets/en/83.webp)
   
 - **Aperture Collaborative**: Esistono anche piattaforme disponibili per connettersi al fine di eseguire aperture triangolari e avere liquidità in entrata.

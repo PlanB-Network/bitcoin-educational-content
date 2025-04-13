@@ -28,8 +28,8 @@ Buona scoperta!
 ## Comprendere Lightning Network
 
 <chapterId>df6230ae-ff35-56ea-8651-8e65580730a8</chapterId>
-![video en](https://youtu.be/QDQ8NG0l3hk)
 
+![video en](https://youtu.be/QDQ8NG0l3hk)
 
 Benvenuto al corso LNP201, che mira a spiegare il funzionamento tecnico di Lightning Network.
 
@@ -85,6 +85,7 @@ Questa è la fine del primo capitolo, dove abbiamo gettato le basi per Lightning
 ## Bitcoin, Indirizzi, UTXO e Transazioni
 
 <chapterId>0cfb7e6b-96f0-508b-9210-90bc1e28649d</chapterId>
+
 ![video en](https://youtu.be/U9l5IVriCss)
 
 Questo capitolo è un po' speciale poiché non sarà dedicato direttamente a Lightning, ma a Bitcoin. Infatti, Lightning Network è uno strato aggiuntivo su Bitcoin. È quindi essenziale comprendere alcuni concetti fondamentali di Bitcoin per afferrare correttamente il funzionamento di Lightning nei capitoli successivi. In questo capitolo, esamineremo le basi degli indirizzi di ricezione di Bitcoin, gli UTXO, così come il funzionamento delle transazioni Bitcoin.
@@ -150,8 +151,8 @@ Questo capitolo su Bitcoin ci ha permesso di rivedere alcune nozioni essenziali 
 ## Apertura del Canale
 
 <chapterId>96243eb0-f6b5-5b68-af1f-fffa0cc16bfe</chapterId>
-![video en](https://youtu.be/Ty80WuN5X-g)
 
+![video en](https://youtu.be/Ty80WuN5X-g)
 
 In questo capitolo, vedremo più precisamente come aprire un canale di pagamento su Lightning Network e capire il collegamento tra questa operazione e il sistema Bitcoin sottostante.
 
@@ -216,7 +217,6 @@ Nel prossimo capitolo, esploreremo il funzionamento tecnico di una transazione a
 <chapterId>7d3fd135-129d-5c5a-b306-d5f2f1e63340</chapterId>
 ![video en](https://youtu.be/dzPMGiR_JSE)
 
-
 In questo capitolo, scopriremo il funzionamento tecnico di una transazione all'interno di un canale sulla rete Lightning, ovvero quando i fondi vengono spostati da un lato all'altro del canale.
 
 ### Promemoria del ciclo di vita del canale
@@ -240,8 +240,8 @@ Prendiamo un esempio con Alice che invia 30.000 satoshi a Bob:
 - **Inizialmente**: Alice ha 130.000 satoshi.
 - **Dopo la transazione**: Alice ha 100.000 satoshi, e Bob 30.000 satoshi.
   Per convalidare questo trasferimento, Alice e Bob creano una nuova **transazione Bitcoin non pubblicata** che invierebbe **100.000 satoshi ad Alice** e **30.000 satoshi a Bob** dall'indirizzo multisignature. Entrambe le parti costruiscono questa transazione indipendentemente, ma con gli stessi dati (importi e indirizzi). Una volta costruita, ciascuno firma la transazione e scambia la propria firma con l'altro. Questo permette a entrambe le parti di pubblicare la transazione in qualsiasi momento, se necessario, per recuperare la propria quota del canale sulla blockchain principale di Bitcoin.
-  
-  ![LNP201](assets/en/19.webp)
+
+![LNP201](assets/en/19.webp)
 
 ### Processo di Trasferimento: La Fattura (Invoice)
 
@@ -273,6 +273,7 @@ Tuttavia, questo sistema presenta una potenziale falla, che affronteremo nel pro
 ## Chiave di Revoca
 
 <chapterId>f2f61e5b-badb-5947-9a81-7aa530b44e59</chapterId>
+
 ![video en](https://youtu.be/veCs39uVFUk)
 
 In questo capitolo, approfondiremo il funzionamento delle transazioni su Lightning Network discutendo i meccanismi in atto per proteggersi dalle truffe, assicurando che ciascuna parte rispetti le regole all'interno di un canale.
@@ -351,8 +352,8 @@ A questo punto della formazione, ora sai come vengono aperti i canali Lightning 
 ## Chiusura del Canale
 
 <chapterId>29a72223-2249-5400-96f0-3756b1629bc2</chapterId>
-![video en](https://youtu.be/zmAa2fj_V7w)
 
+![video en](https://youtu.be/zmAa2fj_V7w)
 
 In questo capitolo, discuteremo della **chiusura di un canale** su Lightning Network, che viene effettuata tramite una transazione Bitcoin, proprio come l'apertura di un canale. Dopo aver visto come funzionano le transazioni all'interno di un canale, è ora il momento di vedere come chiudere un canale e recuperare i fondi sulla blockchain di Bitcoin.
 
@@ -553,6 +554,7 @@ In questo capitolo, abbiamo esplorato l'instradamento dei pagamenti su Lightning
 ## HTLC – Hashed Time Locked Contract
 
 <chapterId>4369b85a-1365-55d8-99e1-509088210116</chapterId>
+
 ![video en](https://youtu.be/jI4nM297aHA)
 
 In questo capitolo, scopriremo come Lightning consente ai pagamenti di transitare attraverso nodi intermedi senza la necessità di fidarsi di loro, grazie agli **HTLC** (_Hashed Time-Locked Contracts_). Questi contratti intelligenti assicurano che ciascun nodo intermedio riceverà i fondi dal suo canale solo se inoltra il pagamento al destinatario finale, altrimenti, il pagamento non verrà convalidato.
@@ -676,6 +678,7 @@ Nel prossimo capitolo, scopriremo come un nodo che emette una transazione Lightn
 ## Alla Ricerca  della Tua Strada
 
 <chapterId>7e2ae959-c2a1-512e-b5d6-8fd962e819da</chapterId>
+
 ![video en](https://youtu.be/CqetCElRjUQ)
 
 Nei capitoli precedenti, abbiamo visto come utilizzare i canali di altri nodi per instradare i pagamenti e raggiungere un nodo senza essere direttamente connessi ad esso tramite un canale. Abbiamo anche discusso su come garantire la sicurezza del trasferimento senza fidarsi dei nodi intermedi. In questo capitolo, ci concentreremo sul trovare la migliore rotta possibile per raggiungere un nodo target.

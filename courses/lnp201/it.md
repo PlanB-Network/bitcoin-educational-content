@@ -827,25 +827,25 @@ Per designare l'importo del pagamento, questo è espresso in sottounità di bitc
 - **Millibitcoin (denotato `m`):** Rappresenta un millesimo di bitcoin.
 
 $$
-1 \text{ mBTC} = 10^{-3} \text{BTC} = 10^5 \text{ satoshi}
+1 \text{ mBTC} = 10^{-3} \text{ BTC} = 10^5 \text{ satoshi}
 $$
 
 - **Microbitcoin (denotato `u`):** Chiamato anche talvolta "bit", rappresenta un milionesimo di bitcoin.
 
 $$
-1 \ \mu\text{BTC} = 10^{-6} \text{BTC} = 100 \text{ satoshi}
+1 \ \mu\text{BTC} = 10^{-6} \text{ BTC} = 100 \text{ satoshi}
 $$
 
 - **Nanobitcoin (denotato `n`):** Rappresenta un miliardesimo di bitcoin.
 
 $$
-1 \text{ nBTC} = 10^{-9} \text{BTC} = 0.1 \text{ satoshi}
+1 \text{ nBTC} = 10^{-9} \text{ BTC} = 0.1 \text{ satoshi}
 $$
 
 - **Picobitcoin (denotato `p`):** Rappresenta un trilionesimo di bitcoin.
 
 $$
-1 \text{ pBTC} = 10^{-12} \text{BTC} = 0.0001 \text{ satoshi}
+1 \text{ pBTC} = 10^{-12} \text{ BTC} = 0.0001 \text{ satoshi}
 $$
 
 ### Il Payload di una Fattura

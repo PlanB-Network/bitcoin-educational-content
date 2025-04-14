@@ -8,7 +8,7 @@ objectives:
   - Dlaczego i w jaki sposób powstają cykle gospodarcze?
   - Dlaczego bankierzy centralni oszaleli?
 ---
-
+„b”
 # Podróż w głąb ekonomii
 
 
@@ -170,34 +170,34 @@ Rysunek 5: Dystrybucja bogactwa w Chinach + Europie + USA / Źródło: OECD
 ### Konsekwencje polityki zerowych stóp procentowych
 
 
-W dłuższych okresach polityki zerowych stóp procentowych (ZIRP) banki mają ograniczone możliwości odbudowy kapitału własnego, ponieważ ich marże się zmniejszają. Banki zazwyczaj zarabiają pieniądze zaciągając pożyczki krótkoterminowe i udzielając pożyczek długoterminowych. Jednakże, gdy banki centralne skupują duże ilości obligacji i ustalają stopy procentowe na poziomie zerowym, banki mają niewielką motywację do udzielania pożyczek, zwłaszcza przedsiębiorcom i innym osobom podejmującym ryzyko. Zamiast tego przeznaczają swoje zasoby na zabezpieczanie istniejącego kapitału lub udzielają pożyczek pod zastaw, aby zaspokoić popyt osób korzystających z efektu Cantillona.
+W dłuższych okresach polityki zerowych stóp procentowych (ZIRP) banki mają ograniczone możliwości odbudowy kapitału własnego, ponieważ ich marże są ograniczane. Banki zazwyczaj zarabiają pieniądze zaciągając pożyczki krótkoterminowe i udzielając pożyczek długoterminowych. Jednakże gdy banki centralne skupują duże ilości obligacji i ustalają stopy procentowe na poziomie zerowym, banki mają niewielką motywację do udzielania pożyczek, zwłaszcza przedsiębiorcom i innym osobom podejmującym ryzyko. Zamiast tego przeznaczają swoje zasoby na zabezpieczanie istniejącego kapitału lub udzielają pożyczek pod zastaw, aby zaspokoić popyt osób korzystających z efektu Cantillona.
 
 
-Inną niezamierzoną konsekwencją ZIRP jest zachęcanie rządów do angażowania się w szeroko zakrojone wydatki. Ponieważ rządy nie ponoszą kosztów zaciągania pożyczek i mogą polegać na bankach centralnych, które skupują ich obligacje w ramach programów QE, mają one naturalną motywację do wydawania jak największej ilości pieniędzy, szczególnie w kontekstach demokratycznych, w których wydatki mogą przyciągnąć głosy. Rząd często lekceważy długoterminowe konsekwencje takiej rozrzutności, prowadząc do znacznego wzrostu poziomu długu publicznego w gospodarkach rozwiniętych od czasu globalnego kryzysu finansowego (GFC).
+Inną niezamierzoną konsekwencją ZIRP jest zachęcanie rządów do angażowania się w szeroko zakrojone wydatki. Ponieważ rządy nie ponoszą kosztów zaciągania pożyczek i mogą polegać na bankach centralnych, które skupują ich obligacje w ramach programów QE, mają one naturalną motywację do wydawania jak największej ilości pieniędzy, szczególnie w kontekstach demokratycznych, w których wydatki mogą przyciągnąć głosy. Rząd często lekceważy długoterminowe konsekwencje takiej rozrzutności, prowadząc do znacznego wzrostu poziomu długu publicznego w gospodarkach rozwiniętych od czasu Globalnego Kryzysu Finansowego (ang. GFC).
 
 
 ![image](assets/en/06.webp)
 
 
-Wykres 6: Dług publiczny i prywatny jako % PKB (świat, ważony PKB na kraj) / Źródło MFW
+Wykres 6: Dług publiczny i prywatny jako % PKB (świat, ważone według PKB każdego kraju) / Źródło MFW
 
 
-Wraz z rosnącą inflacją spowodowaną znaczną kreacją pieniądza w odpowiedzi na blokady związane z COVID, bankierzy centralni podnoszą obecnie stopy procentowe, próbując ograniczyć inflację. Stanowi to jednak poważne wyzwanie dla całego systemu. Banki są bardziej lewarowane niż kiedykolwiek, rządy mają historycznie wysoki poziom zadłużenia, wzrost gospodarczy jest powolny, deficyty rosną, a konsumenci, zmagający się z rosnącymi cenami podstawowych towarów, z trudem wiążą koniec z końcem. Kontrolowanie inflacji wymagałoby podniesienia stóp procentowych do poziomu, który mógłby doprowadzić rządy do bankructwa, podczas gdy banki ryzykują utratę deponentów, ponieważ osoby fizyczne wydają swoje oszczędności na coraz droższe artykuły pierwszej potrzeby lub szukają schronienia w aktywach Hard i funduszach rynku pieniężnego, aby zabezpieczyć się przed inflacją.
+Z powodu rosnącej inflacji spowodowanej dużą produkcją pieniądza w odpowiedzi na lockdown'y podczas pandemii COVID, bankierzy centralni podnoszą obecnie stopy procentowe, próbując ograniczyć inflację. Stanowi to jednak poważne wyzwanie dla całego systemu. Banki są bardziej zadłużone niż kiedykolwiek wcześniej, rządy mają historycznie wysoki poziom zadłużenia, wzrost gospodarczy jest powolny, deficyty rosną, a konsumenci, zmagający się z rosnącymi cenami podstawowych towarów, z trudem wiążą koniec z końcem. Kontrolowanie inflacji wymagałoby podniesienia stóp procentowych do poziomu, który mógłby doprowadzić rządy do bankructwa, podczas gdy banki ryzykują utratę deponentów, ponieważ osoby fizyczne wydają swoje oszczędności na coraz droższe artykuły pierwszej potrzeby lub szukają schronienia w twardych aktywach i funduszach rynku pieniężnego, aby zabezpieczyć się przed inflacją.
 
 
 ### Wnioski
 
 
-> "W ten sposób (bankowość z rezerwą cząstkową) rządy mogą potajemnie i niezauważenie konfiskować bogactwo ludzi, a żaden człowiek na milion nie wykryje kradzieży"
+> „W ten sposób (bankowość rezerw cząstkowych) rządy mogą potajemnie i niezauważenie konfiskować bogactwo ludzi, a nawet jeden człowiek na milion nie wykryje kradzieży”
 >
 
 > John Maynard Keynes
 
 
-Zasadniczo nasz system stoi w obliczu poważnych wyzwań, a Bitcoin wyłania się jako jedyna wiarygodna alternatywa. Jednak sam Bitcoin nie jest w stanie rozwiązać Address problemów naszego systemu monetarnego. Przede wszystkim potrzebujemy osób, które rozumieją podstawowe zasady ekonomiczne wśród entuzjastów Bitcoin, umożliwiając szerszą świadomość i zdrowy rozsądek ekonomiczny, aby poprowadzić nas od budowy kolejnego kruchego fundamentu finansowego dla naszej cywilizacji. Głównym celem tego kursu jest edukacja nowych entuzjastów Bitcoin w zakresie zdrowych zasad ekonomicznych.
+Mówiąc krótko, nasz system stoi w obliczu poważnych wyzwań, a Bitcoin wyłania się jako jedyna wiarygodna alternatywa. Jednak sam Bitcoin nie jest w stanie rozwiązać problemów naszego systemu monetarnego. Przede wszystkim wśród entuzjastów Bitcoina potrzebujemy osób, które rozumieją podstawowe zasady ekonomii i sprawią, że wieksza świadomość i zdrowy rozsądek w sprawach ekonomii uchroni nas od budowy kolejnego kruchego fundamentu finansowego naszej cywilizacji. Głównym celem tego kursu jest edukacja nowych entuzjastów Bitcoina w zakresie zdrowych zasad ekonomicznych.
 
 
-Aby osiągnąć ten cel, wyjaśnimy podstawowe zasady "ekonomii austriackiej", szkoły ekonomicznej o tradycji metodologicznej sięgającej XVI wieku, zapewniającej wgląd w ludzkie działania w warunkach ograniczeń ekonomicznych. Dzięki temu wprowadzeniu rozumiesz teraz podstawy kreacji pieniądza i obecny stan naszego systemu finansowego i monetarnego.
+Aby osiągnąć ten cel, wyjaśnimy podstawowe zasady „austriackiej szkoły ekonomii”, szkoły myśli ekonomicznej o tradycji metodologicznej sięgającej XVI wieku, zapewniającej wgląd w ludzkie działania w warunkach ograniczeń ekonomicznych. Dzięki temu wprowadzeniu rozumiesz teraz podstawy kreacji pieniądza i obecny stan naszego systemu finansowego i monetarnego.
 
 
 W następnym rozdziale zagłębimy się w fundamentalny kamień węgielny każdej ekonomicznej szkoły myślenia: teorię wartości. W kolejnych rozdziałach zajmiemy się pieniądzem jako instytucją społeczną, teorią kapitału i cyklem koniunkturalnym, wyzwaniem kalkulacji ekonomicznej oraz krótkim przeglądem historii i metodologii austriackiej szkoły ekonomii.
@@ -215,7 +215,7 @@ W następnym rozdziale zagłębimy się w fundamentalny kamień węgielny każde
 <chapterId>eb1608d4-5d36-56a0-bcfc-ed8c03dfa906</chapterId>
 
 
-> "Wartość istnieje tylko w ludzkiej świadomości"
+> „Wartość istnieje tylko w ludzkiej świadomości”
 >
 
 > Carl Menger, Zasady ekonomii politycznej
@@ -227,7 +227,7 @@ W następnym rozdziale zagłębimy się w fundamentalny kamień węgielny każde
 U podstaw rozumowania ekonomicznego leży kwestia wartości. Jak określamy wartość czegoś? Czy wartość jest nieodłączną właściwością rzeczy? Czy wręcz przeciwnie, jest to zjawisko subiektywne? Jak porównać wartość dwóch rzeczy? Skąd bierze się wartość?
 
 
-Takie pytania nurtowały ekonomistów i filozofów przez wiele stuleci i doczekały się wielu różnych odpowiedzi. Pod wieloma względami epistemologiczna ewolucja ekonomii była przerywana ewolucją teorii wartości.
+Takie pytania nurtowały ekonomistów i filozofów przez wiele stuleci i doczekały się wielu różnych odpowiedzi. Pod wieloma względami epistemologiczna ewolucja ekonomii przeplata się z ewolucją teorii wartości.
 
 
 Po tym, jak teoria wartości ziemi fizjokratów, zakładająca, że cała wartość pochodzi z ziemi, została obalona przez klasyczną teorię wartości pracy ekonomistów, postulującą, że wartość dobra wynika z ilości pracy włożonej w jego produkcję, przyszła kolej na marginalną teorię wartości, która zastąpiła tę ostatnią. W latach siedemdziesiątych XIX wieku, po Marksie, ostatnim z klasycznych ekonomistów, trzy nowe szkoły myśli ekonomicznej pojawiły się niemal jednocześnie wokół marginalnej teorii wartości: szkoła lozańska z Leonem Walrasem, szkoła nowoczesna lub neoklasyczna z Williamem Stanleyem Jevonsem oraz szkoła austriacka z Carlem Mengerem. Ta rewolucja w teorii wartości stanowiła znaczącą odnowę myśli ekonomicznej.
@@ -263,10 +263,10 @@ Zgodnie z tym poglądem, litr wody pitnej nie ma obiektywnej wartości. Ktoś, k
 Podsumowując, Menger zauważył, że wartość dobra ekonomicznego to nic innego jak subiektywna wycena, jaką dana osoba przypisuje dodatkowej jednostce tego dobra lub usługi.
 
 
-### Dobrowolne Exchange: gra o sumie dodatniej
+### Dobrowolna wymiana: gra o sumie dodatniej
 
 
-Z tego punktu Menger wywnioskował, że dobrowolne Exchange między dwiema osobami ma miejsce, ponieważ każda ze stron wierzy, że zwiększy to ich subiektywną użyteczność. Dla niego Exchange nie zakłada żadnej równoważności wartości, w przeciwieństwie do tego, w co wierzyli klasyczni ekonomiści. Według austriackiego myśliciela, gdyby istniała równoważność użyteczności między wymienianymi towarami, nie byłoby powodu, aby strony w ogóle zawracały sobie głowę wymianą. Jeśli istnieje Exchange, to dlatego, że każda ze stron uważa, że leży to w ich (subiektywnym) interesie, a co za tym idzie, każdy dobrowolny Exchange przynosi korzyść społeczną.
+Z tego punktu Menger wywnioskował, że dobrowolna wymiana między dwiema osobami ma miejsce, ponieważ każda ze stron wierzy, że zwiększy to ich subiektywną użyteczność. Dla niego wymiana nie zakłada żadnej równoważności wartości, w przeciwieństwie do tego, w co wierzyli klasyczni ekonomiści. Według austriackiego myśliciela, gdyby istniała równoważność użyteczności między wymienianymi towarami, nie byłoby powodu, aby strony w ogóle zawracały sobie głowę wymianą. Jeśli istnieje wymiana, to dlatego, że każda ze stron uważa, że leży to w ich (subiektywnym) interesie, a co za tym idzie, każdy dobrowolna wymiana przynosi korzyść społeczną.
 
 
 ### Wycena jako zjawisko porządkowania ludzkich pragnień

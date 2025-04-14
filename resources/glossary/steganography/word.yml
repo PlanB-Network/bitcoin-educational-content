@@ -1,6 +1,6 @@
 id: 5e4d3ef8-a2e7-4ad3-b0ea-2d81f4a47eb0
 en_word: STEGANOGRAPHY
-related_words: 
+related_words:
 original_language: fr
 proofreading:
   - language: fr
@@ -8,4 +8,4 @@ proofreading:
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 0
+    reward: 0.08

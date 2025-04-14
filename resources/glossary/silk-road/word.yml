@@ -1,6 +1,6 @@
 id: 526c1532-2892-4e48-a321-d3ae5f39eaa6
 en_word: SILK ROAD
-related_words: 
+related_words:
 original_language: fr
 proofreading:
   - language: en
@@ -49,7 +49,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.44
+    reward: 0.43
 
   - language: it
     last_contribution_date:
@@ -91,4 +91,4 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.44
+    reward: 0.43

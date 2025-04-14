@@ -1,6 +1,6 @@
 id: 5678d77b-24ad-4e9c-ba78-2bb1a9ced064
 en_word: ADDRESS SPOOFING
-related_words: 
+related_words:
 original_language: fr
 proofreading:
   - language: fr
@@ -8,4 +8,4 @@ proofreading:
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 0
+    reward: 0.17

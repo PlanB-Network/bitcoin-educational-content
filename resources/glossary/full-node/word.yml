@@ -1,6 +1,6 @@
 id: 4775de5c-cd1b-4a02-b47a-bc2b51247a4d
 en_word: FULL NODE
-related_words: 
+related_words:
 original_language: fr
 proofreading:
   - language: en
@@ -13,7 +13,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 0.11
+    reward: 0.1
 
   - language: cs
     last_contribution_date:

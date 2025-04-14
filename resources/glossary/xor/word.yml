@@ -1,6 +1,6 @@
 id: 0bdb0c14-d245-4ac1-8d08-ea3e2ec4b5a8
 en_word: XOR
-related_words: 
+related_words:
 original_language: fr
 proofreading:
   - language: en
@@ -13,7 +13,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 0.25
+    reward: 0.24
 
   - language: cs
     last_contribution_date:
@@ -49,7 +49,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.75
+    reward: 0.74
 
   - language: it
     last_contribution_date:
@@ -79,16 +79,16 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.88
+    reward: 0.87
 
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.75
+    reward: 0.74
 
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.88
+    reward: 0.87

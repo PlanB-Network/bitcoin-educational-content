@@ -1,6 +1,6 @@
 id: c755753b-17e7-4e1f-b84f-bcb3566c096c
 en_word: CIOH
-related_words: 
+related_words:
 original_language: fr
 proofreading:
   - language: en
@@ -79,7 +79,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.49
+    reward: 0.48
 
   - language: zh-Hans
     last_contribution_date:
@@ -91,4 +91,4 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.49
+    reward: 0.48

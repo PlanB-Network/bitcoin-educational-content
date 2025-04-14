@@ -80,7 +80,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.36
+    reward: 0.35
 
   - language: zh-Hans
     last_contribution_date:
@@ -92,4 +92,4 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.36
+    reward: 0.35

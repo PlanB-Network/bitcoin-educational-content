@@ -1,6 +1,6 @@
 id: 4e2d4c53-40dd-4494-ba02-8e26ff01153a
 en_word: DIFFICULTY ADJUSTMENT
-related_words: 
+related_words:
 original_language: fr
 proofreading:
   - language: en
@@ -19,7 +19,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.36
+    reward: 0.37
 
   - language: de
     last_contribution_date:
@@ -37,13 +37,13 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.36
+    reward: 0.37
 
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.36
+    reward: 0.37
 
   - language: id
     last_contribution_date:
@@ -61,7 +61,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.36
+    reward: 0.37
 
   - language: pt
     last_contribution_date:
@@ -73,7 +73,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.36
+    reward: 0.37
 
   - language: vi
     last_contribution_date:

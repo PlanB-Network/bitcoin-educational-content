@@ -1,6 +1,6 @@
 id: 743fb950-2328-4b88-975a-16bc30d06d87
 en_word: SIMPLE PAYMENT
-related_words: 
+related_words:
 original_language: fr
 proofreading:
   - language: en
@@ -49,7 +49,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.29
+    reward: 0.28
 
   - language: it
     last_contribution_date:
@@ -85,7 +85,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.29
+    reward: 0.28
 
   - language: ja
     last_contribution_date:

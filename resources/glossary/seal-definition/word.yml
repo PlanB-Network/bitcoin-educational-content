@@ -1,6 +1,6 @@
 id: 1a9f85ff-2f07-4f6d-8f9e-f25c60370700
 en_word: SEAL DEFINITION
-related_words: 
+related_words:
 original_language: fr
 proofreading:
   - language: fr
@@ -8,4 +8,4 @@ proofreading:
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 0
+    reward: 0.08

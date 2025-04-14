@@ -1,13 +1,13 @@
 id: e9dd32c8-b9e6-47be-a498-cdb60501ce2d
 en_word: MERKLE TREE
-related_words: 
+related_words:
 original_language: fr
 proofreading:
   - language: en
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.36
+    reward: 0.35
   - language: fr
     last_contribution_date: 2024-07-26
     urgency: 1
@@ -25,13 +25,13 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.36
+    reward: 0.35
 
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.36
+    reward: 0.35
 
   - language: et
     last_contribution_date:
@@ -49,13 +49,13 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.53
+    reward: 0.52
 
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.36
+    reward: 0.35
 
   - language: nb-NO
     last_contribution_date:
@@ -67,7 +67,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.36
+    reward: 0.35
 
   - language: ru
     last_contribution_date:
@@ -91,4 +91,4 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.53
+    reward: 0.52

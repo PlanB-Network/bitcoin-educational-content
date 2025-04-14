@@ -1,6 +1,6 @@
 id: a7c70579-237e-4b84-b261-ff7e00cc0b1d
 en_word: DEMURRAGE
-related_words: 
+related_words:
 original_language: fr
 proofreading:
   - language: fr
@@ -8,4 +8,4 @@ proofreading:
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 0
+    reward: 0.18

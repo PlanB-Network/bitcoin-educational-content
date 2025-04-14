@@ -1,6 +1,6 @@
 id: f1eade91-2596-4c25-b2af-74472c75a619
 en_word: GITHUB
-related_words: 
+related_words:
 original_language: fr
 proofreading:
   - language: en
@@ -49,7 +49,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.26
+    reward: 0.25
 
   - language: it
     last_contribution_date:
@@ -85,7 +85,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.26
+    reward: 0.25
 
   - language: ja
     last_contribution_date:

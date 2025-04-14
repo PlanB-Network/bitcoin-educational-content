@@ -49,4 +49,7 @@ On a Passport (batch-2):
 
 https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
+On a Trezor device (Safe 3, Safe 5 or Model One):
+
+https://planb.network/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
 

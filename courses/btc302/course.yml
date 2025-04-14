@@ -18,83 +18,107 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 75.84
+    reward: 77.65
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 56.91
+    reward: 58.26
   - language: en
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 56.91
+    reward: 58.26
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 56.91
+    reward: 58.26
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 75.84
+    reward: 77.65
   - language: fr
     last_contribution_date: 2024-09-01
     urgency: 1
     contributor_names:
       - ProfEduStream
-    reward: 28.45
+    reward: 29.13
   - language: it
     last_contribution_date: 2024-11-16
     urgency: 1
     contributor_names:
       - TinF0ilHat1
-    reward: 28.45
+    reward: 29.13
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 113.71
+    reward: 116.43
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 56.91
+    reward: 58.26
   - language: ru
     last_contribution_date: 2024-11-16
     urgency: 1
     contributor_names:
       - Reshetenko
-    reward: 37.92
+    reward: 38.83
   - language: vi
     last_contribution_date: 2024-09-24
     urgency: 1
     contributor_names:
       - Henry-Da0
-    reward: 56.86
+    reward: 58.21
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 75.84
+    reward: 77.65
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 94.78
+    reward: 97.04
   - language: zh-Hans
     last_contribution_date: 2024-09-24
     urgency: 1
     contributor_names:
       - MilankovicProtocol
-    reward: 47.39
+    reward: 48.52
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 75.84
+    reward: 77.65
 tags:
   - guides
   - case-studies
+
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward:
+
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward:
+
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward:
+
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward:

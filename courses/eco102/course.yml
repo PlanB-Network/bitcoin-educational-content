@@ -18,86 +18,110 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 22.47
+    reward: 23.0
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 16.88
+    reward: 17.27
   - language: en
     last_contribution_date: 2024-11-28
     urgency: 1
     contributor_names:
       - Bitpreto
-    reward: 8.44
+    reward: 8.64
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 16.88
+    reward: 17.27
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 22.47
+    reward: 23.0
   - language: fr
     last_contribution_date: 2024-11-28
     urgency: 1
     contributor_names:
       - Bitpreto
-    reward: 8.44
+    reward: 8.64
   - language: it
     last_contribution_date: 2024-11-16
     urgency: 1
     contributor_names:
       - TinF0ilHat1
-    reward: 8.44
+    reward: 8.64
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 33.65
+    reward: 34.44
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 16.88
+    reward: 17.27
   - language: ru
     last_contribution_date: 2024-11-16
     urgency: 1
     contributor_names:
       - Reshetenko
-    reward: 11.23
+    reward: 11.5
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 33.65
+    reward: 34.44
 
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 22.47
+    reward: 23.0
 
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 28.06
+    reward: 28.72
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 22.47
+    reward: 23.0
 
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 28.06
+    reward: 28.72
 tags:
   - finance
   - historical
   - deep-dive
+
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward:
+
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward:
+
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward:
+
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward:

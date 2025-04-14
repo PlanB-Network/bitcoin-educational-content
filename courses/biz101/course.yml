@@ -26,86 +26,110 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 23.4
+    reward: 23.41
 
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 17.57
+    reward: 17.59
 
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 17.57
+    reward: 17.59
 
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 23.4
+    reward: 23.41
 
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 23.4
+    reward: 23.41
 
   - language: fr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 17.57
+    reward: 17.59
 
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 29.22
+    reward: 29.24
 
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 17.57
+    reward: 17.59
 
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 35.04
+    reward: 35.07
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 23.4
+    reward: 23.41
 
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 17.57
+    reward: 17.59
 
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 23.4
+    reward: 23.41
 
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 35.04
+    reward: 35.07
 
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 29.22
+    reward: 29.24
 tags:
   - business
   - adoption
   - wallets
+
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward:
+
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward:
+
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward:
+
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward:

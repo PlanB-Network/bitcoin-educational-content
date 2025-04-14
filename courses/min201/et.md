@@ -192,7 +192,7 @@ Spekulatsioonid ümbritsevad ploki ruumi tulevast kasutust, kuid üldiselt aktse
 
 <chapterId>879a66b0-c20a-56b5-aad0-8a21be61e338</chapterId>
 
-![Kes hoiab võimu? Bitcoin, energia ja tootjad](https://www.youtube.com/watch?v=4wywK6BfDw8)
+:::video id=0cda8911-caa3-4b1a-acff-4e2225f6aa58:::
 Kaevurite roll Bitcoin'i võrgus on olnud intensiivse arutelu objektiks plokkide suuruse sõdade ajal. Kuigi nad on võrgu turvalisuse ja funktsionaalsuse jaoks hädavajalikud, ei oma kaevurid Bitcoin'i ökosüsteemis tingimata lõplikku võimu. Tasakaal kaevurite, sõlmede ja lõppkasutajate vahel tagab võrgu terviklikkuse ja jaotuse.
 
 ### Plokkide Suuruse Sõjad
@@ -233,7 +233,7 @@ Kokkuvõtteks, kaevurid tugevdavad Bitcoini võrgustikku tsensuuri vastu, kasuta
 
 <chapterId>e6676214-007c-5181-968e-c27536231bd6</chapterId>
 
-![Kuidas saada puutumata ja puhast bitcoini?](https://youtu.be/A5MTtn4mm44?si=D1Yi0dVwkyafeHv-)
+:::video id=c02c71dc-0398-4f24-b9c6-c2cf4da4d696:::
 
 ### Hashrate, hind ja kasumlikkus
 
@@ -296,7 +296,7 @@ Järelduseks, hoolimata regulatiivsest riskist ja kaevandamiskeelu võimalusest 
 
 ### Tööstusliku kaevandamise telgitagused - Sebastien Gouspillou
 
-![Tööstuskaevandamise telgitagused - Sebastien Gouspillou](https://www.youtube.com/watch?v=vYaQRLSDr5E&t=69s)
+:::video id=ed6bcd17-c486-46bd-bfb3-96c0d121ecdb:::
 
 # Kodukaevandamine ja soojuse taaskasutus
 

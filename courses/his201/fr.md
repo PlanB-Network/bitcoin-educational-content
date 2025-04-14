@@ -421,7 +421,7 @@ Le concept de Ripple se fondait sur l'idée que la monnaie était essentiellemen
 
 Voici une vidéo de présentation de Ripple réalisée en 2011 :
 
-![Vidéo (Youtube) de présentation de Ripple en 2011](https://www.youtube.com/watch?v=f9KqSgRZYgg)
+:::video id=056364f2-a222-4d79-a4a1-cb0dc4cea751:::
 
 Malgré l'enthousiasme de sa communauté et quelques milliers d'utilisateurs, Ripple possédait des défauts majeurs qui l'ont empêché de connaître le succès. En particulier, il [souffrait](https://fiatjaf.com/3cb7c325.html) du « problème de l'engagement décentralisé » : durant un paiement, les participants ne pouvaient pas s'engager d'une façon sûre pour assurer la chaîne de prêts, un problème qui serait résolu plus tard par Lightning.
 
@@ -1279,7 +1279,7 @@ L'EFF met quelque temps à se mettre à accepter les donations du public. Après
 
 Quelques jours plus, un [billet](https://web.archive.org/web/20101117060233/http://www.bitcoinblogger.com/2010/11/bitcoin-gains-legal-protection-through.html) est écrit à ce sujet par le blogueur jimbobway, ce qui attire l'attention sur Bitcoin. Cet article est [relayé](https://news.ycombinator.com/item?id=1905522) sur HackerNews. Il est également retranscrit en vidéo par BitcoinMedia au moyen de Xtranormal :
 
-![Vidéo "Bitcoin and the EFF."](https://www.youtube.com/watch?v=AiGCuyRJe8s)
+:::video id=03dfd302-1e05-4cad-a91a-e5e65f1d0932:::
 
 Il s'agit d'une très bonne nouvelle pour Bitcoin car les deux initiatives partagent des valeurs communes. De plus, l'EFF est réputée pour avoir apporté une protection légale aux projets de préservation de la vie privée et de partage de données comme Tor et BitTorrent. Satoshi Nakamoto lui-même en est conscient et est particulièrement favorable aux actions de l'organisation, comme le montre son [commentaire](https://mmalmi.github.io/satoshi/#email-254) fait dans un de ses courriels adressé à Gavin Andresen le 6 janvier 2011 :
 
@@ -1497,7 +1497,7 @@ Les premiers meet-ups entre utilisateurs de Bitcoin ont lieu à l'initiative de 
 
 Le mois de février marque aussi la [première présentation filmée](https://www.youtube.com/watch?v=koIq58UoNfE) de Bitcoin, qui est réalisée par Gavin Andresen le 8 à l'occasion d'un évènement organisé dans sa ville de résidence, Amherst, dans le Massachusetts. Intitulée « *Making Money* », l'exposé du nouveau mainteneur principal du projet contient de nombreux éléments de langage qui caractériseront la façon de présenter la cryptomonnaie dans les années qui suivront.
 
-![Vidéo (Youtube) de l'intervention de Gavin à Amherst en février 2011](https://www.youtube.com/watch?v=koIq58UoNfE)
+:::video id=92b9aa30-1479-4d4f-b57f-f07b660145f2:::
 
 Même si les premiers évènements ont lieu aux États-Unis, la communauté française n'est pas en reste. Le 25 mai, à l'occasion de la venue de Gavin Andresen à Paris, un déjeuner est organisé dans le quartier de la Défense, où sont notamment présents Lucien Grondin, David François et Jon Matonis (qui est aussi de passage).
 
@@ -1513,7 +1513,7 @@ Suite à cette expérience, la communauté parisienne [organise](https://bitcoin
 
 Du côté international, la première conférence collective sur Bitcoin a elle lieu du 19 au 21 août à New York. Cette réunion, organisée par Bruce Wagner, rassemble des personnalités comme Roger Ver, Jesse Powell, Jed McCaleb, Mark Karpelès ou encore Charlie Lee. Bien que Wagner ait promis trois jours d'évènements, seules quatre présentations ont lieu : la sienne ainsi que les interventions de Gavin Andresen, Jeff Garzik et Stefan Thomas.
 
-![Vidéo (Youtube) de l'intervention de Gavin le 20 août 2011](https://www.youtube.com/watch?v=0ljx4bbJrYE)
+:::video id=bca0217c-29ee-49b2-8d16-d9efe6f390da:::
 
 Enfin, un peu plus tard dans l'année, en novembre, une conférence européenne [se déroulera](https://bitcointalk.org/index.php?topic=40272.msg490901#msg490901) à Prague. Y [interviendront](https://web.archive.org/web/20111126164127/http://www.bitgroups.org:80/speakers.html) notamment le développeur Amir Taaki, le fondateur du Parti pirate suédois Rick Falkvinge et le présentateur Max Keiser. L'année suivante, un évènement similaire sera [organisé à Londres](https://blog.bitmex.com/london-2012-the-2nd-bitcoin-conference/).
 
@@ -1523,7 +1523,7 @@ L'année 2011 est également une année où la couverture médiatique s'élargit
 
 Tout d'abord, les vidéos sur le sujet fleurissent sur Youtube. Le 22 mars, la première vidéo de qualité au sujet de Bitcoin fait son apparition. Celle-ci, intitulée sobrement « *What is Bitcoin?* », est produite par Stefan Thomas (justmoon) grâce à un [financement participatif](https://bitcointalk.org/index.php?topic=697.msg70001#msg70001) de la communauté. Elle est publiée sur le portail WeUseCoins dédié à l'éducation et la popularisation de la cryptomonnaie. D'autres vidéos de présentation réalisées indépendamment suivront comme [celle de howtovanish](https://www.youtube.com/watch?v=LSLByqTusaQ) en avril, [celle de Reason](https://www.youtube.com/watch?v=yYTqvYqXRbY) ou [celle de Rocketboom](https://www.youtube.com/watch?v=9LaSrxtWfgc) en juin.
 
-![What is Bitcoin?](https://www.youtube.com/watch?v=Um63OQz3bjo)
+:::video id=6147a351-da80-4331-9d79-d3156889ac62:::
 
 En avril, le sujet de la monnaie numérique est abordé par des grands noms de la presse généraliste comme [The Atlantic](https://www.theatlantic.com/business/archive/2011/04/how-to-start-your-own-private-currency/73327/), [Time Magazine](https://techland.time.com/2011/04/16/online-cash-bitcoin-could-challenge-governments/) et [Forbes](https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html). En mai, le mouvement s'amplifie et Bitcoin est évoqué un peu partout, notamment dans [Wired UK](https://web.archive.org/web/20110517122859/http://www.wired.co.uk/news/archive/2011-05/16/bitcoin-p2p-currency), sur [Slate](https://slate.com/business/2011/05/bitcoin-why-the-new-electronic-currency-is-a-favorite-of-libertarian-hipsters-and-criminals.html), sur [Gizmodo](https://gizmodo.com/what-is-bitcoin-5803124) et sur [TechCrunch](https://techcrunch.com/2011/05/20/bitcoin-ven-and-the-end-of-currency/).
 

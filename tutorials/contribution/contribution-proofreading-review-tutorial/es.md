@@ -33,13 +33,13 @@ No necesitas ser un experto en GitHub para revisar contenidos. Aunque siempre es
 
 Sin embargo, si no estás familiarizado con Git y GitHub y quieres saber más, puedes consultar nuestro artículo introductorio sobre estas herramientas:
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 ## 1. Crear una cuenta
 
 
 - Crea una cuenta en [GitHub](https://github.com/) para empezar a contribuir. Si quieres orientación para crear tu cuenta de GitHub, también tenemos un tutorial detallado:
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 - También necesitarás una cuenta en la aplicación de mensajería [Telegram](https://telegram.org/).
 
@@ -144,7 +144,7 @@ NB. Se recomienda revisar en la ventana de código, mostrando el contenido origi
 - Si encuentras citas, asegúrate de investigar en línea para encontrar la traducción correcta en tu idioma.
 - NO traduzcas las palabras estáticas al principio del texto, que se utilizan para describir su contenido: "name", "description", "objectives".
 - Si encuentras "Plan ₿ Network" en el texto, déjalo en esta forma original. No traduzcas la palabra "plan" ni la palabra "network". Además, NO utilices el artículo al presentar Plan ₿ Network, y considérelo como una marca. Lo mismo se aplica a "₿-CERT", "BIZ SCHOOL", "TECH SCHOOL", que también deben mantenerse en la forma original.
-- Presta atención a la puntuación extraña como `\*\*\`, que podría representar una mala representación del símbolo de negrita **. Siempre verifica el texto original en inglés para ver si se supone que debe haber un texto en negrita. Puedes encontrar más información sobre el lenguaje markdown [aquí](https://www.markdownguide.org/basic-syntax/).
+- Presta atención a la puntuación extraña como '\*\*\', que podría representar una mala representación del símbolo de negrita **. Siempre verifica el texto original en inglés para ver si se supone que debe haber un texto en negrita. En general, para renderizar en negrita, por favor inserta dos asteriscos ** tanto antes como después de la palabra/frase. Puedes encontrar más información sobre el lenguaje markdown [aquí](https://www.markdownguide.org/basic-syntax/)..
 - Cuando termines tu corrección, puedes volver al issue inicial abierto por el coordinador, comentar con "Proofreading done" e insertar allí tu enlace PR.
 
 ## 7. Espera la revisión

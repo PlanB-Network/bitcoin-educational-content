@@ -333,7 +333,7 @@ Kwa kifupi, **uwezekano hauna mwisho na unategemea mahitaji yako lakini pia kwen
 
 Ili kukuongoza kwa undani zaidi, tunatoa hapa chini mafunzo ya video yasiyo ya kina ambayo yanawasilisha baadhi ya uwezekano:
 
-![Tutorial Canva](https://www.youtube.com/watch?v=sgloI_v-nAk)
+:::video id=d11ae0ed-eacd-4924-afd3-75aff95d2899:::
 
 ####
 
@@ -480,7 +480,7 @@ Tutaona baadaye, lakini **inapendekezwa sana kwamba uchague "Kikundi cha Telegra
 
 Kwa mafunzo yanayofuata, tutatumia programu ya APK ya "Telegram+"; programu ambayo inaruhusu usanidi wa hali ya juu zaidi wa Telegraph. Walakini, hii sio lazima, kwani kuunda kikundi au kikundi bora kwenye Telegraph sasa kunaweza kufanywa kwa urahisi sana kwenye simu:
 
-![Tutorial Telegram+](https://www.youtube.com/watch?v=Z5mE-LksBZw)
+:::video id=b1da7cb4-5fb1-4a41-a1d4-bd90686826a9:::
 
 ### Kuunda Chaneli ya Telegraph
 
@@ -498,7 +498,7 @@ Hata hivyo, inawezekana kuongeza uwezo wa wanachama wa kituo kutoa maoni kwa kil
 
 Mafunzo ya kuunda chaneli ya Telegraph:
 
-![Tutorial Canale Telegram](https://www.youtube.com/watch?v=N5S7cgySV8U)
+:::video id=98be4709-d221-4030-8c31-e10113482515:::
 
 ### Unda Kikundi cha Telegraph
 
@@ -522,7 +522,7 @@ Wasimamizi wa kituo hiki wataweza:
 
 Mafunzo ya kuunda kikundi cha Telegraph:
 
-![Tutorial canale Telegram](https://www.youtube.com/watch?v=u1BuxEsmFuA)
+:::video id=3d4792a7-1345-475b-93b1-b3a3945fb567:::
 
 Dokezo: kama ilivyotajwa awali, mafunzo yaliyo hapo juu yalifanywa kwenye kompyuta kwa kutumia APK ya "Telegram+". Walakini, sasa ni rahisi sana kuunda kikundi cha Telegraph kwenye simu.
 
@@ -562,7 +562,7 @@ Kwa ujumla, hakuna idadi maalum ya wanachama ambayo inakuwa muhimu kutumia kikun
 
 Mafunzo ya kuunda kikundi kikuu cha Telegraph:
 
-![Tutorial supergruppo Telegram](https://www.youtube.com/watch?v=GWVqpjBtg-U)
+:::video id=f78800ae-d8ca-479a-b913-99abd9916bff:::
 
 Kumbuka: Kama ilivyotajwa hapo juu, mafunzo yaliyo hapo juu yalifanywa kwenye kompyuta kwa kutumia APK ya "Telegram+". Walakini, sasa ni rahisi sana kuunda kikundi kikuu cha Telegraph kwenye simu.
 
@@ -640,7 +640,7 @@ Chaguzi nyingi za ziada zinapatikana pia kwako. Hata hivyo, neno la ushauri: **u
 
 Mafunzo ya kuongeza roboti yenye kazi nyingi kwa kikundi au kikundi kikuu kwenye Telegraph:
 
-![Tutorial bot Telegram multifunzione](https://www.youtube.com/watch?v=l72GZcEFDtU)
+:::video id=cdbf82d6-3530-45c4-90de-593f100863bb:::
 
 Kumbuka ndogo: kama ilivyotajwa hapo awali, sasa utaratibu huu wote unaweza kufanywa kwa simu.
 
@@ -658,7 +658,7 @@ Ni wazi, kando na Telegram na Twitter, hii inahitaji muda zaidi katika usimamizi
 
 Ili kurahisisha mambo, **tunashiriki [seva ya Discord iliyotengenezwa awali, inayoweza kurudiwa na inayoweza kuhaririwa](https://discord.com/template/bDY4eXXJk2C8) ambayo unaweza kubinafsisha upendavyo**:
 
-![Tutorial server Discord duplicabile](https://www.youtube.com/watch?v=i3V6_359Ajw)
+:::video id=e647458a-a21e-44e0-bd03-20b82a871777:::
 
 ####
 
@@ -670,7 +670,7 @@ Hata hivyo, ni muhimu kutambua kwamba ufungaji wake si rahisi sana, kwamba ** in
 
 Kwa lengo la kukuokoa wakati, hapa kuna mafunzo ya jinsi ya kuongeza roboti yenye kazi nyingi kwa kikundi cha Telegraph au kikundi bora zaidi:
 
-![Tutorial bot TediCross Discord - Telegram](https://www.youtube.com/watch?v=e4YAPG0ITF8)
+:::video id=6a0283f6-6d6c-4e81-8b2f-644b33c52fe6:::
 
 ## Zingatia njia zingine, za kibinafsi na salama zaidi za mawasiliano
 
@@ -784,7 +784,7 @@ Hatimaye, ingawa jina lako la mtumiaji la "@Bitcoin[CITY]" ni la kipekee na sasa
 
 Mafunzo ya kuunda akaunti ya Twitter:
 
-![Tutorial account Twitter](https://www.youtube.com/watch?v=pp3DDakV0bA)
+:::video id=4648976f-41ec-499a-b7ec-a53e796f71b4:::
 
 ## Kuunganishwa na mikutano ya karibu
 
@@ -1412,7 +1412,7 @@ Ili kurahisisha kazi hii ya uundaji, mafunzo yaliyo hapa chini yanakuonyesha baa
 
 Baadaye, utaweza kununua kikoa chako mwenyewe na hata kukikaribisha kwenye seva yako ikiwa unataka.
 
-![Tutorial per creare un sito web WordPress gratuito](https://www.youtube.com/watch?v=cZzH4gj_kZY)
+:::video id=a1b25c18-5fc1-4b97-baef-816d819c9382:::
 
 ####
 
@@ -1482,7 +1482,7 @@ Iwapo ungependa **kurekodi kwenye kompyuta yako, programu isiyolipishwa kama vil
 
 Haya hapa ni mafunzo mafupi ambayo yanawasilisha, katika dakika 10, vipengele vikuu unavyohitaji kujua kuhusu kutengeneza podikasti na Audacity.
 
-![Tutorial per creare un podcast con Audacity](https://www.youtube.com/watch?v=z471_Ye6Y0I)
+:::video id=67d80ac7-253f-40a5-b621-fef2fb7174bd:::
 
 Kumbuka: Kama ilivyoelezwa hapo awali, katika tukio ambalo, siku moja, Bitcoin itapigwa marufuku au kukaguliwa, inaweza kuwa muhimu **kila mara weka nakala ya ndani kwenye hifadhi ya Hard ya podikasti** unazochapisha.
 
@@ -1813,7 +1813,7 @@ Hatimaye:
 
 Kwa undani kidogo, katika video ya dakika 21, inaonekana kama hii:
 
-![Tutorial Comunità Bitcoin](https://www.youtube.com/watch?v=EHLAmHHuZd8)
+:::video id=a59956da-f554-4b54-89dd-5ca55b722686:::
 
 Kwa vyovyote vile, **kumbuka kwamba hauko peke yako na kwamba jumuiya zilizopo zipo kukusaidia**.
 

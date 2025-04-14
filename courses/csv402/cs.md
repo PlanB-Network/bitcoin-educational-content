@@ -80,7 +80,7 @@ Připraveni ponořit se do složitého a fascinujícího světa RGB? Jdeme na to
 
 <chapterId>f52f8af5-5d7c-588b-b56d-99b97176204b</chapterId>
 
-![video](https://youtu.be/AF2XbifPGXM)
+:::video id=f27338bc-4210-4a2e-9b27-30278ed3282c:::
 
 RGB je protokol navržený k uplatňování a vymáhání digitálních práv (ve formě smluv a aktiv) škálovatelným a důvěrným způsobem, který je založen na pravidlech konsensu a operacích blockchainu Bitcoin. Cílem této první kapitoly je představit základní pojmy a terminologii týkající se protokolu RGB a zdůraznit zejména jeho úzké propojení se základními koncepty distribuovaných výpočtů, jako je ověřování na straně klienta a pečetě na jedno použití.
 
@@ -423,7 +423,7 @@ Než se ponoříte do technických detailů druhé kapitoly, neváhejte si znovu
 
 <chapterId>cc2fe85a-9cc7-5b8c-a00a-c0a867241061</chapterId>
 
-![video](https://youtu.be/FS6PDprWl5Q)
+:::video id=73ddea2d-c243-479d-a3dc-12d7db8eef70:::
 
 V této kapitole se podíváme na implementaci ověřování na straně klienta a jednorázových pečetí v rámci blockchainu Bitcoin. Představíme si hlavní principy vrstvy **commitment** (vrstva 1) systému RGB se zvláštním zaměřením na schéma **TxO2**, které systém RGB používá k definování a uzavření pečetě v transakci Bitcoin. Dále probereme dva důležité body, které dosud nebyly podrobně popsány:
 
@@ -1010,7 +1010,7 @@ V příští kapitole se podíváme na čistě neřetězcovou složku RGB, konkr
 
 <chapterId>04a9569f-3563-5382-bf53-0c7069343ba0</chapterId>
 
-![video](https://youtu.be/tmAVdyXGmj4)
+:::video id=db4ee09f-1352-4ad1-9f7a-c962df7ea9fa:::
 
 V této a následující kapitole se budeme zabývat pojmem **chytrá smlouva** v prostředí RGB a prozkoumáme různé způsoby, jakými mohou tyto smlouvy definovat a vyvíjet svůj *stav*. Uvidíme, proč architektura RGB pomocí uspořádané posloupnosti jednorázových pečetí umožňuje provádět různé typy ***smluvních operací*** škálovatelným způsobem a bez průchodu centralizovaným registrem. Podíváme se také na zásadní roli ***Business Logic*** v rámci vývoje stavu smlouvy.
 
@@ -1102,7 +1102,7 @@ V příští kapitole se budeme podrobněji zabývat konkrétní reprezentací t
 
 <chapterId>78c44e88-50c4-5ec4-befe-456c1a9f080b</chapterId>
 
-![video](https://youtu.be/lUTjeuM0oTA)
+:::video id=1caec34d-f214-425b-a1a4-0a40ae7d3e0e:::
 
 V této kapitole se podíváme na to, jak fungují operace v chytrých smlouvách a přechody mezi stavy, opět v rámci protokolu RGB. Cílem bude také pochopit, jak několik účastníků spolupracuje na převodu vlastnictví aktiva.
 
@@ -1925,7 +1925,7 @@ Transakce svědka je transakce Bitcoinu, která uzavírá jednorázovou pečeť 
 
 <chapterId>8333ea5f-51c7-5dd5-b1d7-47d491e58e51</chapterId>
 
-![video](https://youtu.be/Uo1UoxiImsI)
+:::video id=97d81b85-5a82-40a5-b111-7d96be5afd0f:::
 
 V této kapitole se blíže podíváme na to, jak je definována a implementována smlouva RGB. Uvidíme, jaké jsou součásti kontraktu RGB, jaké jsou jejich role a jak jsou konstruovány.
 
@@ -2613,7 +2613,7 @@ V příští kapitole se podíváme na to, jak funguje převod smlouvy a jak se 
 
 <chapterId>f043a307-d420-5752-b0d7-ebfd845802c0</chapterId>
 
-![video](https://youtu.be/sVoKIi-1XbY)
+:::video id=75eb5a8d-1910-4155-b5e3-81204c9a8901:::
 
 V této kapitole budeme analyzovat proces převodu smlouvy v ekosystému RGB. Pro ilustraci se podíváme na Alici a Boba, naše obvyklé protagonisty, kteří si přejí vyměnit aktivum RGB. Ukážeme si také několik výňatků z příkazů nástroje `rgb` pro příkazový řádek, abychom viděli, jak funguje v praxi.
 
@@ -2907,7 +2907,7 @@ Nyní, když jsme se seznámili s hlavními prvky programování RGB, vás v dal
 
 <chapterId>0e0a645c-0049-588d-8965-b8c536590cc9</chapterId>
 
-![video](https://youtu.be/GRwS-NvWF3I)
+:::video id=a3ad6dcd-90b8-4272-9dfc-76c85c859167:::
 
 V této kapitole si krok za krokem ukážeme, jak napsat smlouvu pomocí nástroje příkazového řádku `rgb`. Cílem je ukázat, jak nainstalovat CLI a pracovat s ním, zkompilovat **schéma**, importovat **rozhraní** a **implementaci rozhraní** a poté vydat (*vydat*) aktivum. Podíváme se také na základní logiku, včetně kompilace a ověřování stavu. Na konci této kapitoly byste měli být schopni reprodukovat tento proces a vytvořit vlastní smlouvy RGB.
 
@@ -3206,7 +3206,7 @@ V příští kapitole se blíže podíváme na integraci RGB do sítě Lightning
 
 <chapterId>0962980a-8f94-5d0f-9cd0-43d7f884a01d</chapterId>
 
-![video](https://youtu.be/mqCupTlDbA0)
+:::video id=be25a165-6e23-488c-91d8-3dcfccc6eca1:::
 
 V této kapitole navrhnu, jak lze RGB využít v rámci sítě Lightning Network k integraci a přesunu aktiv RGB (tokenů, NFT atd.) prostřednictvím platebních kanálů mimo řetězec.
 
@@ -3361,7 +3361,7 @@ Ekosystém spojený s deterministickým vývojem s otevřeným zdrojovým kódem
 
 <chapterId>dc92a5e8-ed93-5a3f-bcd0-d433932842f4</chapterId>
 
-![video](https://youtu.be/nbUtV8GOR_U)
+:::video id=2ec9a181-a8b0-4da2-b7b5-9dfaaaeb10ba:::
 
 Tato závěrečná část kurzu je založena na prezentacích různých řečníků z bootcampu RGB. Obsahuje výpovědi a úvahy o RGB a jeho ekosystému a také prezentace nástrojů a projektů založených na tomto protokolu. Tuto první kapitolu moderuje Hunter Beast a další dvě Frederico Tenga.
 
@@ -3427,7 +3427,7 @@ Peněženka **Bitmask** je součástí tohoto přístupu: na straně blockchainu
 
 <chapterId>d4d80e07-5eac-5b29-a93a-123180e97047</chapterId>
 
-![vidéo](https://youtu.be/5iAhsgCSL3U)
+:::video id=04555813-516f-4eea-9767-7082c2ea6f01:::
 
 V této kapitole, založené na prezentaci Frederica Tengy, se podíváme na soubor nástrojů a projektů vytvořených týmem Bitfinex, které se věnují RGB a jejichž cílem je podpořit vznik bohatého a rozmanitého ekosystému kolem tohoto protokolu. Původním cílem týmu není vydat konkrétní komerční produkt, ale spíše poskytnout softwarové stavební kameny, přispět k samotnému protokolu RGB a navrhnout konkrétní referenční implementace, jako je mobilní peněženka (*Iris Wallet*) nebo uzel Lightning kompatibilní s RGB.
 
@@ -3541,7 +3541,7 @@ V příští kapitole se blíže podíváme na to, jak spustit uzel RGB Lightnin
 
 <chapterId>ecaabe32-20ba-5f8c-8ca1-a3f095792958</chapterId>
 
-![vidéo](https://youtu.be/piQQH4Q2nr0)
+:::video id=d1e9753e-6093-4a47-bcdc-da1aebaefffc:::
 
 V této závěrečné kapitole vás Frederico Tenga krok za krokem provede nastavením uzlu Lightning RGB v prostředí Regtest a ukáže vám, jak v něm vytvořit tokeny RGB. Spuštěním dvou samostatných uzlů také zjistíte, jak mezi nimi otevřít kanál Lightning a vyměňovat aktiva RGB.
 

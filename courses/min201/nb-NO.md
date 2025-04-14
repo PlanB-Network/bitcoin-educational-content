@@ -187,7 +187,7 @@ Det spekuleres i fremtidig bruk av blokkplass, men det er generelt akseptert at 
 
 <chapterId>879a66b0-c20a-56b5-aad0-8a21be61e338</chapterId>
 
-![Hvem holder makten? Bitcoin, Energi og Produsenter](https://www.youtube.com/watch?v=4wywK6BfDw8)
+:::video id=0cda8911-caa3-4b1a-acff-4e2225f6aa58:::
 
 Rollen til gruvearbeidere i Bitcoin-nettverket har vært et emne for intens debatt under blokkstørrelseskrigene. Selv om de er essensielle for sikkerheten og funksjonaliteten til nettverket, holder ikke nødvendigvis gruvearbeiderne den ultimate makten i Bitcoin-økosystemet. Balansen mellom gruvearbeidere, noder og sluttbrukere sikrer integriteten og distribusjonen av nettverket.
 
@@ -228,7 +228,7 @@ For å oppsummere, minerne styrker Bitcoin-nettverket mot sensur ved å bruke el
 
 <chapterId>e6676214-007c-5181-968e-c27536231bd6</chapterId>
 
-![Hvordan skaffe en ren og uberørt bitcoin?](https://youtu.be/A5MTtn4mm44?si=D1Yi0dVwkyafeHv-)
+:::video id=c02c71dc-0398-4f24-b9c6-c2cf4da4d696:::
 
 ### Hashrate, pris og lønnsomhet
 
@@ -295,7 +295,7 @@ Konklusjonen er at til tross for den regulatoriske risikoen og muligheten for et
 
 ### Bak kulissene i industriell gruvedrift - Sebastien Gouspillou
 
-![Bak kulissene i industriell gruvedrift - Sebastien Gouspillou](https://www.youtube.com/watch?v=vYaQRLSDr5E&t=69s)
+:::video id=ed6bcd17-c486-46bd-bfb3-96c0d121ecdb:::
 
 # Hjemmegruvedrift og gjenbruk av varme
 

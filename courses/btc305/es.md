@@ -92,7 +92,7 @@ Este es un ejercicio en clase, así que si tomas este curso por tu cuenta, no po
 
 El ejercicio comienza después de ver la introducción "Cómo funcionan Bitcoin y la Blockchain" por la BBC.
 
-![cómo funcionan bitcoin y la blockchain](https://youtu.be/mhE_vvwAiRc)
+:::video id=c20b6df7-0c3a-4785-94b9-42ef59093acc:::
 
 Este ejercicio requiere al menos nueve personas para participar. El objetivo del ejercicio es obtener físicamente una idea de cómo funciona Bitcoin. Al desempeñar cada rol en la red, tendrás una forma interactiva y divertida de aprender. Este ejercicio no involucra Lightning Network.
 
@@ -676,7 +676,7 @@ El primer método que usaremos en la situación actual, también el menos seguro
 En este curso, tocamos el tema de almacenar una frase semilla en un billetera de hardware. Seguir este curso por un instructor podría no siempre incluir tal dispositivo. En el curso, los materiales guía han escrito una lista de monederos hardware proporcionados que se adaptan a este ejercicio.
 Usaremos BTCPay Server Vault y una billetera de hardware Blockstream Jade en este ejemplo.
 También puedes seguir el proceso a través de un video de referencia sobre cómo conectar una billetera de hardware.
-![BTCPay Server - Cómo conectar tu billetera de hardware con BTCPay Vault.](https://youtu.be/s4qbGxef43A)
+:::video id=8e61664b-e0c0-416d-8ef9-b631bf28ec4d:::
 
 Descargar BTCPay Server Vault: https://github.com/btcpayserver/BTCPayServer.Vault/releases
 

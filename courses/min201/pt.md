@@ -183,7 +183,7 @@ A especulação cerca do uso futuro do espaço de blocos, mas é geralmente acei
 
 <chapterId>7b9ee427-316a-54e3-a2d4-4ea97839a31b</chapterId>
 
-![Quem tem o poder? Bitcoin, energia e fabricantes](https://www.youtube.com/watch?v=4wywK6BfDw8)
+:::video id=0cda8911-caa3-4b1a-acff-4e2225f6aa58:::
 
 O papel dos mineradores na rede Bitcoin foi um tópico de debate intenso durante a guerra dos blocos. Embora sejam essenciais para a segurança e a funcionalidade da rede, os mineradores não necessariamente detêm o poder supremo no ecossistema Bitcoin. O equilíbrio entre os mineradores, os nós e os usuários finais garante a integridade e a distribuição da rede.
 
@@ -224,7 +224,7 @@ Para recapitular, os mineradores fortalecem a rede Bitcoin contra a censura usan
 
 <chapterId>879a66b0-c20a-56b5-aad0-8a21be61e338</chapterId>
 
-![Como obter um bitcoin branco e puro?](https://youtu.be/A5MTtn4mm44?si=D1Yi0dVwkyafeHv-)
+:::video id=c02c71dc-0398-4f24-b9c6-c2cf4da4d696:::
 
 ### Hashrate, Preço e Rentabilidade
 
@@ -295,7 +295,7 @@ Em conclusão, apesar do risco regulatório e da possibilidade de uma proibiçã
 
 ### Bastidores da mineração industrial - Sebastien Gouspillou
 
-![Bastidores da mineração industrial - Sebastien Gouspillou](https://www.youtube.com/watch?v=vYaQRLSDr5E&t=69s)
+:::video id=ed6bcd17-c486-46bd-bfb3-96c0d121ecdb:::
 
 # Mineração doméstica e reutilização de calor
 

@@ -33,13 +33,13 @@ Sa ei pea olema GitHubi ekspert, et sisu üle vaadata. Kuigi alati on parem mõi
 
 Kui te aga ei ole Git ja GitHubiga kursis ja soovite rohkem teada saada, siis vaadake meie sissejuhatavat artiklit nende tööriistade kohta:
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 ## 1. Konto loomine
 
 
 - Loo konto [GitHubis](https://github.com/), et alustada panustamist. Kui soovite juhiseid GitHubi konto loomiseks, on meil ka üksikasjalik õpetus:
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 - Sul on vaja ka kontot sõnumirakenduses [Telegram](https://telegram.org/).
 
@@ -144,7 +144,7 @@ NB. Soovitatav on vaadata läbi koodiaknas, kusjuures originaalsisu kuvatakse er
 - Kui leiate tsitaate, veenduge, et uuriksite veebis, et leida õige tõlge oma keeles.
 - ÄRGE tõlkige teksti alguses olevaid staatilisi sõnu, mida kasutatakse sisu kirjeldamiseks: "name", "description", "objectives".
 - Kui leiate tekstist "Plan ₿ Network", jätke see sellises originaalses vormis. Ärge tõlkige sõna "plan" ega sõna "network". Lisaks, ÄRGE kasutage artiklit, kui tutvustate Plan ₿ Network'i, ja käsitlege seda kaubamärgina. Sama kehtib "₿-CERT", "BIZ SCHOOL", "TECH SCHOOL" kohta, mis peaksid samuti jääma originaalsesse vormi.
-- Pöörake tähelepanu kummalisele kirjavahemärgile nagu `\*\*\`, mis võib tähendada halba rasvase sümboli ** renderdamist. Kontrollige alati originaali ingliskeelset teksti, et näha, kas seal peaks olema rasvane tekst. Lisainfot markdown-keele kohta leiate [siit](https://www.markdownguide.org/basic-syntax/).
+- Pöörake tähelepanu kummalisele kirjavahemärgile nagu '\*\*\', mis võib tähendada vale kujutamist rasvase sümboli **. Kontrollige alati originaalset ingliskeelset teksti, et näha, kas rasvane tekst peaks seal olema. Üldiselt, et rasvast teksti kuvada, palun sisestage kaks tärni ** nii sõna/lause ette kui ka taha. Lisainfot markdown keele kohta leiate [siit](https://www.markdownguide.org/basic-syntax/)..
 - Kui olete oma korrektuuri lõpetanud, saate naasta koordinaatori avatud algse probleemi juurde, kommenteerida "Proofreading done" ja sisestada sinna oma PR-link.
 
 ## 7. Oodake ülevaatamist

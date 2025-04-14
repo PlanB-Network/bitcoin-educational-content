@@ -48,7 +48,7 @@ Prêt à redécouvrir les racines françaises du libéralisme économique ? Allo
 ## Contexte historique
 <chapterId>6a5fd101-6dfd-5d77-96c7-9e1aa4a19758</chapterId>
 
-![](https://youtu.be/tCivmh-SdsA?si=X6NEIManI0BBI0q9)
+:::video id=71603b6d-b9f2-418d-b11e-f5e553041794:::
 
 À l’abord du XVIIIe siècle, l’état de la France est des plus préoccupants. Les populations agricoles produisent à peine le nécessaire et sont lourdement imposées. 
 
@@ -102,7 +102,7 @@ Tels sont donc les quatre principes que le pouvoir suit depuis plusieurs décenn
 ## Vauban
 <chapterId>ee9c1e0e-96cc-5026-a5e2-963d68122786</chapterId>
 
-![](https://youtu.be/s_5A_2eKfjE?si=UAS4AFr4dQnwuV-q)
+:::video id=5b518afb-42c2-4323-a795-3c381a63c249:::
 
 Aujourd’hui que la pression fiscale continue de croître dans notre pays, au risque d’étouffer les forces économiques nationales, des voix s’élèvent pour réclamer un changement. Consciemment ou inconsciemment, c’est sur le travail d’économistes français, qui, depuis le XVIIe siècle, ont critiqué la fiscalité française, toujours chaotique, toujours despotique, toujours excessive, que se fondent communément ces projets de réforme. 
 
@@ -147,7 +147,7 @@ Peu avant sa mort, son idée fut suivie par les ministres de Louis XIV. Seulemen
 ## Boisguilbert
 <chapterId>200149c6-b5fc-566e-ab0e-bafb1c3fed3c</chapterId>
 
-![](https://youtu.be/XLqLEvkwdGI?si=qJ8-U46odbRf50l_)
+:::video id=9b0f86a6-5114-41e3-9fd5-1b63c525958b:::
 
 Rares sont les économistes français du passé qui, dans leur propre pays, jouissent aujourd’hui d’une célébrité à la mesure de leurs talents. Boisguilbert ne fait pas exception. 
 
@@ -185,7 +185,7 @@ Boisguilbert en veut aux "bonnes âmes", comme il dit, qui souhaitent le bonheur
 ## Cantillon 
 <chapterId>bc206d41-6a64-5688-a489-40fcfa0e5397</chapterId>
 
-![](https://youtu.be/tWYjsOXGpis?si=kjKYCZ4Bfc_Hdflv)
+:::video id=a231a300-6392-4137-836a-ee80a659a795:::
 
 Auteur de l’Essai sur la nature du commerce en général (écrit vers 1730, et publié en 1755), Richard Cantillon est considéré comme l’un des pionniers de la science économique moderne. Dans son Histoire de la pensée économique, l’économie Murray Rothbard qualifiera Cantillon de fondateur de la science économique moderne.
 
@@ -227,7 +227,7 @@ Parmi ces cinq grandes idées de son Essai, la plus importante est certainement 
 ## L’abbé de Saint-Pierre
 <chapterId>13478fe2-4c12-593c-a410-54c2cfb7ef7f</chapterId>
 
-![](https://youtu.be/eqzCQ2xaY84?si=fcxQlMhQrYCLlrCJ)
+:::video id=8d4e110f-ea4b-450b-b702-3acf86d6362c:::
 
 De tous les auteurs que nous avons sélectionné pour rejoindre le panthéon des penseurs français du laissez-faire au XVIIIe siècle, l’abbé de Saint-Pierre est sans aucun doute le plus méconnu. 
 
@@ -273,7 +273,7 @@ Il a aussi mis l’accent, avant Vincent de Gournay, sur les vertus du travail e
 ## Le Marquis d’Argenson
 <chapterId>e9960ab4-72ec-5afd-8e97-bf89c83b62bc</chapterId>
 
-![](https://youtu.be/KhJOwZ4Nbqc?si=LbfmpVZHkYOzJxxf)
+:::video id=c29c1507-6990-411d-8446-ffaf52d97378:::
 
 Le marquis d’Argenson est un fondateur oublié de la doctrine du laissez-faire. 
 
@@ -317,7 +317,7 @@ Sur la question du commerce des subsistances, d’Argenson n’avait pas d’aut
 ## Vincent de Gournay
 <chapterId>e8ae40dc-7450-552f-9ddc-9e02936cf425</chapterId>
 
-![](https://youtu.be/jlYOVaEdCTs?si=yNWr60F3uaFgFCNo)
+:::video id=2495d360-62de-466e-9991-f53cd2fcb5dc:::
 
 Vincent de Gournay est l’un des premiers représentants du laissez-faire en France et l’un de ses premiers défenseurs dans l’administration publique et dans les cercles intellectuels. Il mérite, à ce titre, une mention plus que conséquente dans l’histoire des idées, mention qui lui est encore rarement faite. J’ai essayé pour ma part de signaler ses mérites dans un récent livre.
 
@@ -360,7 +360,7 @@ Plus tard, le futur ministre de Louis XVI composa un Eloge de Gournay en l’hon
 ## Le groupe de Gournay
 <chapterId>b86ba6bd-8f3a-5d8f-b098-4d0413f00deb</chapterId>
 
-![](https://youtu.be/KoCY7MmjenQ?si=Zu_ku62iYfO7Dgvk)
+:::video id=a76e841e-40d6-463b-b542-4bd2da5aa3d6:::
 
 Sur l’époque des débuts de la science économique, l’histoire a surtout retenu le souvenir de la première école de pensée, la Physiocratie de François Quesnay et de ses disciples. Dix ans auparavant, il avait toutefois existé un autre groupe, plus informel, mais tout aussi important, autour de l’économiste Vincent de Gournay.
 
@@ -405,7 +405,7 @@ Le cercle de Gournay est donc à l’origine d’une intense activité de public
 ## Mirabeau
 <chapterId>2d2f802b-e3b6-556f-9025-a1b1dc4409ca</chapterId>
 
-![](https://youtu.be/uPioSGzkEeY?si=1xddiDC-WfE1X8BS)
+:::video id=d766951b-1537-4f5c-8fa2-0c1972a92ffe:::
 
 La France a connu deux grands Mirabeau, le père et le fils, mais un seul est rentré dans l’histoire. Est resté célèbre en effet le fils Mirabeau, tribun révolutionnaire, l’une des personnalités centrales des évènements de la Révolution française. 
 
@@ -471,7 +471,7 @@ Tout au long de sa vie, Mirabeau est resté un écrivain infatigable. Il est l�
 ## Quesnay
 <chapterId>7a35f20b-5ea0-544d-b290-bcd9c6f7f11a</chapterId>
 
-![](https://youtu.be/9IDKg_btsaY?si=ZN-ILL6W1xMwWAEZ)
+:::video id=473c8501-aac6-4a81-af1e-e97a1a657507:::
 
 François Quesnay est l’un des économistes français les plus célèbres. 
 
@@ -529,7 +529,7 @@ Ce livre reprend les principales contributions de Quesnay. On y retrouve exposé
 ## L'Histoire des Physiocrates
 <chapterId>4236ff8b-b53a-59e7-92c0-f96f9afa1c00</chapterId>
 
-![](https://youtu.be/s5Fqi1FpX58?si=fdH_jSR63aI-lrXW)
+:::video id=5c781329-dc54-4d17-aa83-09197ee00a5b:::
 
 La Physiocratie a été à la mode en France, mais aussi en Europe, pendant à peine une décennie. Après plusieurs années de lente maturation, elle apparut sur le devant de la scène au milieu des années 1760. Au moment de l’arrivée au pouvoir de Turgot, en 1776, elle avait déjà cessé d’être populaire et le ministre cacha ses sympathies pour l’école de François Quesnay.
 
@@ -578,7 +578,7 @@ La Physiocratie continuera cependant à avoir une influence jusque sous la Révo
 ## Les fondements de doctrine des Physiocrates
 <chapterId>4dbe5436-0578-57c2-b054-03ed00aa091a</chapterId>
 
-![](https://youtu.be/0s7WEfx_Tv0?si=A6e8vlz4jk1PpUAV)
+:::video id=cbe4ff5e-2746-4554-88e4-c80438d97659:::
 
 Le terme Physiocratie, signifiant "gouvernement par la nature", a été inventé par Dupont de Nemours et donné comme titre à un recueil d’articles de Quesnay publié en 1768. 
 
@@ -643,7 +643,7 @@ Adversaires virulents de l’esclavagisme, les Physiocrates ont aussi été de g
 ## Les réalisations et influences des Physiocrates
 <chapterId>5b911105-796a-5e2e-a501-c7a364fc758e</chapterId>
 
-![](https://youtu.be/nxtX1uPBt6o?si=VYCjll9Ga1Y7jhTs)
+:::video id=24ce4c7c-e174-4834-805c-2520e983b979:::
 
 On l’a vu dans le premier des trois chapitre consacrées aux Physiocrates, les élèves de Quesnay ont été à la mode en France pendant une dizaine d’années. Cet engouement pour leurs idées s’est concrétisé dès leur époque et jusqu’à la fin du siècle. Nous verrons ici quelques-unes des réalisations qu’on peut mettre à leur crédit et l’influence qu’ils ont exercé sur leurs successeurs dans le domaine de la pensée économique.
 
@@ -694,7 +694,7 @@ Le chef de file des Physiocrates décéda deux ans avant la parution du livre et
 ## Dupont de Nemours
 <chapterId>6d585e0f-93b8-5b0a-a0a8-7f6e4a5bc68e</chapterId>
 
-![](https://youtu.be/4pcx4F5TQnU?si=R0TdwkBTOUc3MM4X)
+:::video id=56b02818-93e9-48e0-8996-dbcd3d138718:::
 
 Aux Etats-Unis, on connait bien la société DuPont, aussi appelée "E.I. du Pont de Nemours et compagnie", firme multinationale du domaine de la chimie et de la biologie. 
 
@@ -751,7 +751,7 @@ Malgré cette vie bien remplie, pendant laquelle il publia des dizaines et des d
 ## Voltaire et les philosophes
 <chapterId>16bcf7bf-dad4-5113-8c64-2800f04ff07b</chapterId>
 
-![](https://youtu.be/2Xj7taskAGY?si=P0AXGa5-MFQT-8dx)
+:::video id=4201409b-36b1-4586-9605-d8b82ee03ee3:::
 
 Le XVIIIe siècle français voit l’émergence de la science économique et de la première école de pensée économique, la Physiocratie. Adam Smith s’y forme à l’économie et les économistes français sont alors reconnus dans le monde comme des références. Cependant, ce siècle n’est pas resté dans l’histoire comme le siècle de l’économie, mais comme celui de la philosophie. Si le mouvement physiocratique se rattache, dans ses ambitions, à la philosophie des Lumières, l’attitude des philosophes, Diderot et Voltaire en tête, mérite d’être étudiée. Nous verrons que les philosophes des Lumières ont beaucoup aidé la diffusion de l’idée du laissez-faire en France.
 
@@ -788,7 +788,7 @@ Finalement, le bilan de l’activité des philosophes est contrasté. À côté 
 ## Turgot, Le Théoricien
 <chapterId>a8cd8185-8351-556b-8011-3a0c313e8a9d</chapterId>
 
-![](https://youtu.be/erHIXJvRQiI?si=WuZqs3c3_rhiM8CR)
+:::video id=79aa9047-ed34-4eb7-b5e8-789a93537205:::
 
 Dans un passage célèbre de son histoire de la pensée économique, l’économiste américain Murray Rothbard a célébré ce qu’il appelle "l’éclat" de Turgot, 
 
@@ -846,7 +846,7 @@ On trouve là un énoncé très clair de la doctrine du laissez-faire ainsi qu�
 ## Turgot, le Réformateur
 <chapterId>9177429f-1679-51c4-bfd2-dd036d24a1cc</chapterId>
 
-![](https://youtu.be/KQO2_frOn2I?si=cHQWRmC4e9XNXNHN)
+:::video id=24892fba-8796-4e36-8862-93c6c9570da6:::
 
 Comme nous l’avons rapidement rappelé dans le chapitre précédent, Turgot est le fils d’une grande famille qui s’est illustrée dans la haute fonction publique française. 
 
@@ -900,7 +900,7 @@ Finalement les parlements et les privilégiés l’emportèrent et le Roi n’eu
 ## Condillac
 <chapterId>0ba8dbb5-dcd5-5981-bf85-6c185e0bf192</chapterId>
 
-![](https://youtu.be/KZGzOrpRSk8?si=ScPGP_93QKf-5Q9u)
+:::video id=c932d879-2fda-499d-bafc-2f834e018016:::
 
 Tout comme le mercantilisme, qui est sa manifestation pratique la plus évidente, le sophisme de Montaigne a mis du temps avant de disparaître. 
 
@@ -955,7 +955,7 @@ Elles détruisent donc entièrement les critiques au libre-échange, puisque le 
 ## Condorcet
 <chapterId>99e4aba6-da7f-5041-b02f-337158381515</chapterId>
 
-![](https://youtu.be/2Acb4hqvw54?si=ct8AL6g0G64VKwyc)
+:::video id=c91a9f8e-5690-4224-90b0-a2c50591d1b9:::
 
 Condorcet est certainement le philosophe le plus économiste du siècle des Lumières. 
 
@@ -988,7 +988,7 @@ Bien qu’il employât toute son énergie à défendre Turgot, Condorcet n’ava
 ## Le bon-sens libéral sous la Révolution
 <chapterId>95e9a90d-e37a-58ff-b1ac-928b42e76ecf</chapterId>
 
-![](https://youtu.be/v6T3CMkf7Bg?si=bdKcezRafcKqdCN6)
+:::video id=5e2e68a8-9fe7-4aeb-8ade-248ae4153523:::
 
 Dupont de Nemours était le plus jeune des disciples de François Quesnay, qui avait dit de lui : "Il faut soigner ce jeune homme, car il parlera quand nous serons morts." Quand sonna la Révolution française, tous les autres grands représentants de la Physiocratie étaient effectivement déjà morts, y compris le marquis de Mirabeau, qui s’arrangea pour s’éteindre le 13 juillet 1789. 
 
@@ -1040,7 +1040,7 @@ Il ne fut pas davantage écouté.
 ## Conclusion : passage de témoin
 <chapterId>ada8082f-db96-5e52-954f-719b47998153</chapterId>
 
-![](https://youtu.be/-zANpBWDc7Y?si=ap85XwOGfZV8-Uxr)
+:::video id=ec832ad6-d258-4c02-809e-a0b8c615beed:::
 
 La pensée économique française du XVIIIe siècle est restée moins célèbre que celle du XIXe siècle. Du point de vue de la défense de la liberté, c’est pourtant au XVIIIe siècle que tout commence. C’est au XVIIIe siècle aussi que le principe du laissez-faire, avec tout ce qu’il a de révolutionnaire, est présenté par de nombreux auteurs, de Boisguilbert à Dupont de Nemours. 
 

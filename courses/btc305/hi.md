@@ -78,7 +78,7 @@ BTCPay सर्वर फाउंडेशन, जिसने अलेको
 
 व्यायाम की शुरुआत BBC द्वारा बनाए गए परिचय "How Bitcoin and the Blockchain works" को देखने के बाद होती है।
 
-![how bitcoin and the blockchain works](https://youtu.be/mhE_vvwAiRc)
+:::video id=c20b6df7-0c3a-4785-94b9-42ef59093acc:::
 
 इस एक्सरसाइज़ में कम से कम नौ लोगों के भाग लेने की ज़रूरत है। इस एक्सरसाइज़ का मकसद Bitcoin कैसे काम करता है, इसका भौतिक तौर पर अंदाज़ा लगाना है। नेटवर्क में हर भूमिका निभाकर, आप इंटरैक्टिव और मज़ेदार तरीके से सीखेंगे। इस एक्सरसाइज़ में Lightning Network शामिल नहीं है।
 
@@ -795,7 +795,7 @@ SegWit (सुझावित) को अपने पसंदीदा Wallet 
 
 आप Hardware Wallet को कनेक्ट करने के लिए वीडियो देखकर भी सीख सकते हैं।
 
-![BTCPay Server - How to connect your hardware wallet with BTCPay Vault.](https://youtu.be/s4qbGxef43A)
+:::video id=8e61664b-e0c0-416d-8ef9-b631bf28ec4d:::
 
 BTCPay Server Vault डाउनलोड करें: https://github.com/btcpayserver/BTCPayServer.Vault/releases
 

@@ -92,7 +92,7 @@ Ceci est un exercice en classe donc si vous suivez ce cours vous-même, vous ne 
 
 L'exercice commence après avoir regardé l'introduction "Comment fonctionnent Bitcoin et la blockchain" par la BBC.
 
-![how bitcoin and the blockchain works](https://youtu.be/mhE_vvwAiRc)
+:::video id=c20b6df7-0c3a-4785-94b9-42ef59093acc:::
 
 Cet exercice nécessite la participation d'au moins neuf personnes. Cet exercice a pour but de se faire une idée physique du fonctionnement de Bitcoin. En jouant chaque rôle dans le réseau, vous aurez une manière interactive et ludique d'apprendre. Cet exercice n'implique pas le Lightning Network.
 
@@ -676,7 +676,7 @@ La première méthode que nous utiliserons dans la situation actuelle, aussi la 
 Dans ce cours, nous abordons le stockage d'une phrase de récupération sur un portefeuille matériel. Suivre ce cours avec un instructeur n'inclut pas toujours un tel dispositif. Dans le cours, les matériaux de guide ont écrit une liste de portefeuilles matériels fournis qui conviendraient à cet exercice.
 Nous utiliserons le coffre-fort BTCPay Server et un portefeuille matériel Blockstream Jade dans cet exemple.
 Vous pouvez également suivre en vidéo pour vous référer à la connexion d'un portefeuille matériel.
-![BTCPay Server - Comment connecter votre portefeuille matériel avec BTCPay Vault.](https://youtu.be/s4qbGxef43A)
+:::video id=8e61664b-e0c0-416d-8ef9-b631bf28ec4d:::
 
 Téléchargez BTCPay Server Vault : https://github.com/btcpayserver/BTCPayServer.Vault/releases
 

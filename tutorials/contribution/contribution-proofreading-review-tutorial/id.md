@@ -33,13 +33,13 @@ Anda tidak perlu menjadi ahli GitHub untuk meninjau konten. Meskipun akan lebih 
 
 Namun, jika Anda tidak terbiasa dengan Git dan GitHub dan ingin mempelajari lebih lanjut, Anda dapat melihat artikel pengantar kami tentang alat bantu ini:
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 ## 1. Membuat akun
 
 
 - Buat akun di [GitHub](https://github.com/) untuk mulai berkontribusi. Jika Anda menginginkan panduan untuk membuat akun GitHub, kami juga memiliki tutorial terperinci:
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 - Anda juga memerlukan akun di aplikasi perpesanan [Telegram](https://telegram.org/).
 
@@ -144,7 +144,7 @@ NB. Disarankan untuk meninjau di jendela kode, dengan konten asli ditampilkan di
 - Jika Anda menemukan kutipan, pastikan untuk melakukan penelitian online untuk menemukan terjemahan yang tepat dalam bahasa Anda.
 - JANGAN menerjemahkan kata-kata statis di awal teks, yang digunakan untuk menggambarkan isinya: "name", "description", "objectives".
 - Jika Anda menemukan "Plan ₿ Network" dalam teks, biarkan dalam bentuk aslinya. Jangan terjemahkan kata "plan" atau kata "network". Selain itu, JANGAN gunakan artikel saat memperkenalkan Plan ₿ Network, dan anggap itu sebagai merek. Hal yang sama berlaku untuk "₿-CERT", "BIZ SCHOOL", "TECH SCHOOL", yang juga harus tetap dalam bentuk aslinya.
-- Perhatikan tanda baca yang aneh seperti `\*\*\`, yang mungkin mewakili rendering yang buruk dari simbol tebal **. Selalu periksa teks asli dalam bahasa Inggris untuk melihat apakah teks tebal seharusnya ada di sana. Anda dapat menemukan informasi lebih lanjut tentang bahasa markdown [di sini](https://www.markdownguide.org/basic-syntax/).
+- Perhatikan tanda baca aneh seperti '\*\*\', yang mungkin mewakili rendering yang buruk dari simbol tebal **. Selalu periksa teks asli dalam bahasa Inggris untuk melihat apakah ada teks tebal yang seharusnya ada. Secara umum, untuk merender teks tebal, silakan masukkan dua asterisk ** baik sebelum maupun setelah kata/kalimat. Anda dapat menemukan informasi lebih lanjut tentang bahasa markdown [di sini](https://www.markdownguide.org/basic-syntax/).
 - Setelah Anda menyelesaikan proofreading, Anda dapat kembali ke issue awal yang dibuka oleh koordinator, mengomentari "Proofreading done" dan menyisipkan tautan PR Anda di sana.
 
 ## 7. Tunggu ulasan

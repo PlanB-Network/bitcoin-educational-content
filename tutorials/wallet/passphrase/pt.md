@@ -35,7 +35,7 @@ Também é importante salvar corretamente esta frase-senha, da mesma forma que a
 
 Para configurar uma frase-senha em um dispositivo Ledger (Stax, Flex, ou Nano), você pode consultar este tutorial:
 
-https://planb.network/tutorials/wallet/hardware/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 Em uma COLDCARD:
 
@@ -48,4 +48,5 @@ https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-
 Em um Passport (batch-2):
 
 https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+
 

@@ -190,7 +190,7 @@ Spekulaatiot lohkon tilan tulevasta käytöstä ovat yleisiä, mutta yleisesti h
 
 <chapterId>879a66b0-c20a-56b5-aad0-8a21be61e338</chapterId>
 
-![Kuka pitää vallan? Bitcoin, energia ja valmistajat](https://www.youtube.com/watch?v=4wywK6BfDw8)
+:::video id=0cda8911-caa3-4b1a-acff-4e2225f6aa58:::
 Louhijoiden rooli Bitcoin-verkossa on ollut kiivaiden keskustelujen kohteena lohkokoon sodissa. Vaikka louhijat ovat olennaisen tärkeitä verkon turvallisuuden ja toiminnallisuuden kannalta, he eivät välttämättä pidä lopullista valtaa Bitcoin-ekosysteemissä. Louhijoiden, solmujen ja loppukäyttäjien välinen tasapaino varmistaa verkon eheyden ja jakelun.
 
 ### Lohkokoon sodat
@@ -231,7 +231,7 @@ Yhteenvetona voidaan todeta, että louhijat vahvistavat Bitcoin-verkon sensuurin
 
 <chapterId>e6676214-007c-5181-968e-c27536231bd6</chapterId>
 
-![Kuinka saada puhdas ja koskematon bitcoin?](https://youtu.be/A5MTtn4mm44?si=D1Yi0dVwkyafeHv-)
+:::video id=c02c71dc-0398-4f24-b9c6-c2cf4da4d696:::
 
 ### Hashrate, hinta ja kannattavuus
 
@@ -297,7 +297,7 @@ Yhteenvetona, huolimatta sääntelyriskistä ja louhinnan kiellon mahdollisuudes
 
 ### Kulissien takana teollisessa louhinnassa - Sebastien Gouspillou
 
-![Teollisen kaivostoiminnan kulissien takana - Sebastien Gouspillou](https://www.youtube.com/watch?v=vYaQRLSDr5E&t=69s)
+:::video id=ed6bcd17-c486-46bd-bfb3-96c0d121ecdb:::
 
 # Kotikaivostoiminta ja lämmön uudelleenkäyttö
 

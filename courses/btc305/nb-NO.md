@@ -90,7 +90,7 @@ Dette er en klasseromsøvelse, så hvis du tar dette kurset selv, kan du ikke ut
 
 Øvelsen starter etter å ha sett introduksjonen "Hvordan Bitcoin og blokkjeden fungerer" av BBC.
 
-![hvordan bitcoin og blokkjeden fungerer](https://youtu.be/mhE_vvwAiRc)
+:::video id=c20b6df7-0c3a-4785-94b9-42ef59093acc:::
 
 Denne øvelsen krever minst ni personer for å delta. Hensikten med øvelsen er å fysisk få en ide om hvordan Bitcoin fungerer. Ved å spille hver rolle i nettverket, vil du ha en interaktiv og leken måte å lære på. Denne øvelsen involverer ikke Lightning Network.
 
@@ -667,7 +667,7 @@ Den første metoden vi vil bruke i den nåværende situasjonen, også den minst 
 I dette kurset berører vi lagring av en seed phrase på en hardware wallet. Å følge dette kurset med en instruktør kan noen ganger ikke inkludere en slik enhet. I kursmaterialet er det skrevet en liste over hardware wallets som ville passe til denne øvelsen.
 Vi vil bruke BTCPay Server vault og en Blockstream Jade hardware wallet i dette eksemplet.
 Du kan også følge med på video for referanse om hvordan du kobler til en hardware wallet.
-![BTCPay Server - Hvordan koble hardware wallet med BTCPay Vault.](https://youtu.be/s4qbGxef43A)
+:::video id=8e61664b-e0c0-416d-8ef9-b631bf28ec4d:::
 
 Last ned BTCPay Server Vault: https://github.com/btcpayserver/BTCPayServer.Vault/releases
 

@@ -92,7 +92,7 @@ Questo è un esercizio in classe quindi, se segui questo corso da solo, non puoi
 
 L'esercizio inizia dopo aver guardato l'introduzione "Come funzionano Bitcoin e la blockchain" della BBC.
 
-![come funzionano bitcoin e la blockchain](https://youtu.be/mhE_vvwAiRc)
+:::video id=c20b6df7-0c3a-4785-94b9-42ef59093acc:::
 
 Questo esercizio richiede la partecipazione di almeno nove persone. L'intento dell'esercizio è di ottenere fisicamente un'idea di come funziona Bitcoin. Interpretando ciascun ruolo nella rete, apprenderai in modo interattivo e divertente. Questo esercizio non coinvolge Lightning Network.
 
@@ -676,7 +676,7 @@ Il primo metodo che utilizzeremo nella situazione attuale, anche il meno sicuro,
 In questo corso, analizziamo come conservare il seed su un hardware wallet. L'istruttore del corso potrebbe non avere un dispositivo hardware. Nella guida del corso, però, sono elencati i portafogli hardware che si adatterebbero a questo esercizio.
 In questo esempio useremo BTCPay Server Vault e il portafoglio hardware Blockstream Jade.
 Puoi anche seguire un video di riferimento per collegare un portafoglio hardware.
-![BTCPay Server - Come collegare il tuo portafoglio hardware con BTCPay Vault.](https://youtu.be/s4qbGxef43A)
+:::video id=8e61664b-e0c0-416d-8ef9-b631bf28ec4d:::
 
 Scarica BTCPay Server Vault: https://github.com/btcpayserver/BTCPayServer.Vault/releases
 

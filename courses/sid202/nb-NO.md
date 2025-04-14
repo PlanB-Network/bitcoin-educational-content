@@ -28,7 +28,7 @@ Bli med oss for å heve kompetansen din, frigjøre det fulle potensialet til Liq
 
 <chapterId>a721398e-7040-4edd-be53-b485ea759fa9</chapterId>
 
-![Video](https://youtu.be/gkQfnwYLyI0?si=H6cIPhgZaSAwHaHI)
+:::video id=e0166470-5561-4b3b-9d0d-4edee69b64d8:::
 
 Velkommen til kurset SID202!
 
@@ -55,7 +55,7 @@ Klar til å utforske potensialet til Elements og Liquid-sidechainen? La oss star
 
 <chapterId>7a7f2712-5300-4a6d-b1ed-05eab731bc35</chapterId>
 
-![Video](https://youtu.be/ns-JLGdkNig?si=fmWye_boRSvVF1Bt)
+:::video id=eae666b4-eddc-4e00-adea-2a5f94396044:::
 
 Elements er en åpen kildekodeplattform for blokkjeder med sidekjeder, som gir tilgang til kraftige funksjoner utviklet av medlemmer av fellesskapet, for eksempel Confidential Transactions og Issued Assets.
 
@@ -97,7 +97,7 @@ Elements legger til alle disse funksjonene på toppen av Bitcoin Core-kodebasen,
 
 <chapterId>05d88877-58b0-455b-9ae6-a72d19070525</chapterId>
 
-![Video](https://youtu.be/v0lzmfH81AY?si=V-xDWfmDLKyBcdPs)
+:::video id=7c8c7981-11e5-47a2-a257-ef998f4892f5:::
 
 Elements tilbyr en teknisk løsning på problemer som blockchain-brukere møter daglig: transaksjonsforsinkelser, manglende personvern og risiko for fungibilitet.
 
@@ -158,7 +158,7 @@ For å overføre eiendeler tilbake til hovedkjeden, foretar en bruker en spesiel
 
 <chapterId>cc806e5a-81ab-457b-9531-9f863120a019</chapterId>
 
-![Video](https://youtu.be/Frr_OjTEPAM?si=iq5XonJyQk8S5OAu)
+:::video id=1f73dfee-3623-483b-ab42-07d9286ed999:::
 
 Ettersom Elements er basert på Bitcoin-kodebasen, er komponentene som utgjør et fungerende nettverk, svært like.
 
@@ -239,7 +239,7 @@ Dette vil gjøre det mulig for oss å utføre alle slags operasjoner, for eksemp
 
 <chapterId>263b1c5b-59ed-49e7-b811-95c354f41eae</chapterId>
 
-![Video](https://youtu.be/-by2xBtXQeE?si=7bLo_geGn3qh7MXN)
+:::video id=ea2121b6-24a8-458d-91e6-0c92eaf4dc65:::
 
 I dette avsnittet lærer du hvordan du bruker funksjonen Konfidensielle transaksjoner i Elements.
 
@@ -351,7 +351,7 @@ Det var alt for denne leksjonen; lykke til med quizen og på gjensyn i neste lek
 
 <chapterId>c33c7020-5975-457a-99db-4f8b90d1fa1c</chapterId>
 
-![Video](https://youtu.be/XnY4WZUNSs4?si=dG8I5OoSh_0EBdvL)
+:::video id=7ac63148-d730-496d-85d4-0032aaf09be1:::
 
 I denne delen lærer du hvordan du bruker funksjonen Utstedte eiendeler i Elements.
 
@@ -530,7 +530,7 @@ I dette avsnittet har vi sett hvordan du utsteder og merker eiendeler. I neste a
 
 <chapterId>78751b21-1dc8-4877-a406-e71bc80a95b0</chapterId>
 
-![Video](https://youtu.be/5em79YHtYk0?si=rhponm6Hw9AB6RJp)
+:::video id=7df967b0-ffff-42e1-b1d5-868e76289faf:::
 
 I denne delen lærer du hvordan du kan utstede mer av en allerede utstedt eiendel, og hvordan du kan destruere en gitt mengde av en utstedt eiendel.
 
@@ -678,7 +678,7 @@ I denne delen har vi sett hvordan man utsteder en eiendel, og hvordan man bruker
 
 <chapterId>c47b217e-db14-4843-a66f-3e5f3a00a808</chapterId>
 
-![Video](https://youtu.be/kxWX91fCnus?si=KItm_Am3_RrBcLBN)
+:::video id=c5a81820-77d7-4a0c-9a4e-9323386a74ac:::
 
 Elements støtter en føderert signeringsmodell som gjør det mulig å angi hvor mange Strong Federation-medlemmer som må signere en foreslått blokk for å produsere en gyldig blokk.
 
@@ -837,7 +837,7 @@ Når et visst antall signatører har signert den foreslåtte blokken, blir den k
 
 <chapterId>432d7a65-255f-44a3-8b38-78508202cb37</chapterId>
 
-![Video](https://youtu.be/egYzj4N8CB8?si=v7_-IXsjHPE-ARDe)
+:::video id=c15e7eaf-9b5d-4696-bb36-bd10e7b56967:::
 
 Elements er en åpen kildekodeplattform for blokkjeder som også kan "kobles" til en eksisterende blokkjede, for eksempel Bitcoin. Når Elements er knyttet til en annen blokkjede, sies det at den fungerer som en "sidekjede". Sidekjeder muliggjør toveis overføring av eiendeler fra én kjede til en annen. Ved å implementere Elements som en sidekjede kan du omgå noen av de iboende begrensningene til hovedkjeden, samtidig som du beholder en god del av sikkerheten som eiendeler sikret på hovedkjeden gir.
 
@@ -1040,7 +1040,7 @@ En peg-out oppstår når en Elements-node kaller kommandoen `sendtomainchain`, s
 
 <chapterId>50dff39b-2702-47d7-9c15-0b54b845e99f</chapterId>
 
-![Video](https://youtu.be/u-3rV7DGtD0?si=G1__H0Uelf4sTUDM)
+:::video id=4955306b-4be3-429c-9d30-068f7644ea73:::
 
 Så langt har vi sett på hvordan du kan kjøre Elements som en sidekjede. Den kan imidlertid også fungere som en frittstående blokkjedeløsning med sin egen standardaktiva. I dette oppsettet beholder en Elements-blockchain fortsatt alle funksjonene til en sidekjedeimplementering, for eksempel konfidensielle transaksjoner og utstedte aktiva, men trenger ikke peg-in eller peg-out for å legge til eller fjerne standard aktiva fra sirkulasjon.
 
@@ -1226,7 +1226,7 @@ Ved å bruke parameterne ovenfor kan du drive Elements som en frittstående blok
 
 <chapterId>7e2c916d-8114-424c-97f5-cbff9d73b8e3</chapterId>
 
-![Video](https://youtu.be/CTMdamTZBBM?si=16LBcXvN4pBfC7lr)
+:::video id=bd5167d5-edba-40b0-a8b1-ba8b74493a08:::
 
 I dette kurset har vi lært at Elements er en nettverksprotokoll med åpen kildekode som kan implementeres som en sidekjede til en annen blokkjede, eller som en frittstående blokkjedeløsning.
 

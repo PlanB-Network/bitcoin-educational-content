@@ -73,7 +73,7 @@ Hili ni zoezi la darasani kwa hivyo ikiwa unachukua kozi hii mwenyewe, huwezi ku
 
 Zoezi hilo linaanza baada ya kutazama utangulizi "Jinsi Bitcoin na Blockchain zinavyofanya kazi" na BBC.
 
-![how bitcoin and the blockchain works](https://youtu.be/mhE_vvwAiRc)
+:::video id=c20b6df7-0c3a-4785-94b9-42ef59093acc:::
 
 Zoezi hili linahitaji angalau watu tisa kushiriki. Zoezi hili linakusudia kupata wazo la jinsi Bitcoin inavyofanya kazi. Kwa kucheza kila jukumu kwenye mtandao, utakuwa na njia shirikishi na ya kucheza ya kujifunza. Zoezi hili halihusishi Lightning Network.
 
@@ -696,7 +696,7 @@ Tutatumia vault ya Seva ya BTPay na Blockstream Jade Hardware Wallet katika mfan
 
 Unaweza pia kufuata kwa video kwa marejeleo ya kuunganisha Hardware Wallet.
 
-![BTCPay Server - How to connect your hardware wallet with BTCPay Vault.](https://youtu.be/s4qbGxef43A)
+:::video id=8e61664b-e0c0-416d-8ef9-b631bf28ec4d:::
 
 Pakua Vault ya Seva ya BTCPay: https://github.com/btcpayserver/BTCPayServer.Vault/releases
 

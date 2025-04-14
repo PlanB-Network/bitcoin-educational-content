@@ -29,7 +29,7 @@ Furahia ugunduzi wako!
 
 <chapterId>df6230ae-ff35-56ea-8651-8e65580730a8</chapterId>
 
-![video en](https://youtu.be/QDQ8NG0l3hk)
+:::video id=ba99951f-81d2-418f-b5e7-4b8c9f8b8cc8:::
 
 Karibu kwenye kozi ya LNP201, ambayo inalenga kueleza utendakazi wa kiufundi wa Lightning Network.
 
@@ -88,7 +88,7 @@ Huu ndio mwisho wa sura hii ya kwanza, ambapo tumeweka msingi wa Lightning Netwo
 
 <chapterId>0cfb7e6b-96f0-508b-9210-90bc1e28649d</chapterId>
 
-![video en](https://youtu.be/U9l5IVriCss)
+:::video id=75323eef-ea03-45ac-9a6e-46d73ca255de:::
 
 Sura hii ni maalum kidogo kwani haitajitolea moja kwa moja kwa Umeme, lakini kwa Bitcoin. Hakika, Lightning Network nisafu ya juu ya Bitcoin. Kwa hivyo ni muhimu kuelewa dhana fulani za kimsingi za Bitcoin ili kufahamu ipasavyo utendakazi wa Umeme katika sura zinazofuata. Katika sura hii, tutapitia misingi ya Bitcoin kupokea anwani, UTXOs, pamoja na utendaji wa shughuli za Bitcoin.
 
@@ -157,7 +157,7 @@ Sura hii ya Bitcoin imeturuhusu kukagua baadhi ya dhana muhimu kwa yale yafuatay
 
 <chapterId>96243eb0-f6b5-5b68-af1f-fffa0cc16bfe</chapterId>
 
-![video en](https://youtu.be/Ty80WuN5X-g)
+:::video id=6098fee1-735e-4d8d-9f57-0faf5fef6d76:::
 
 Katika sura hii, tutaona kwa usahihi zaidi jinsi ya kufungua njia ya malipo kwenye Lightning Network na kuelewa kiungo kati ya operesheni hii na mfumo wa msingi wa Bitcoin.
 
@@ -229,7 +229,7 @@ Katika sura inayofuata, tutachunguza utendakazi wa kiufundi wa shughuli za Umeme
 
 <chapterId>7d3fd135-129d-5c5a-b306-d5f2f1e63340</chapterId>
 
-![video en](https://youtu.be/dzPMGiR_JSE)
+:::video id=c17454f3-14c5-47a0-8c9c-42ee12932bd3:::
 
 Katika sura hii, tutagundua utendakazi wa kiufundi wa shughuli ndani ya kituo kwenye Lightning Network, yaani, wakati fedha zinapohamishwa kutoka upande mmoja wa chaneli hadi mwingine.
 
@@ -292,7 +292,7 @@ Hata hivyo, mfumo huu una dosari inayoweza kutokea, ambayo tutaifanya Anwani kat
 
 <chapterId>f2f61e5b-badb-5947-9a81-7aa530b44e59</chapterId>
 
-![video en](https://youtu.be/veCs39uVFUk)
+:::video id=1d850f23-eff1-4725-b284-ce12456a2c26:::
 
 Katika sura hii, tutachunguza kwa undani jinsi miamala inavyofanya kazi kwenye Lightning Network kwa kujadili mbinu zilizopo za kulinda dhidi ya ulaghai, kuhakikisha kwamba kila mhusika anafuata sheria ndani ya mkondo.
 
@@ -379,7 +379,7 @@ Katika hatua hii ya mafunzo, sasa unajua jinsi njia za Umeme hufunguliwa na jins
 
 <chapterId>29a72223-2249-5400-96f0-3756b1629bc2</chapterId>
 
-![video en](https://youtu.be/zmAa2fj_V7w)
+:::video id=4d8ad4e6-32ff-46d3-bd17-343929aa863b:::
 
 Katika sura hii, tutajadili kufunga **chaneli kwenye Lightning Network**, ambayo hufanywa kupitia muamala wa Bitcoin, kama vile kufungua chaneli. Baada ya kuona jinsi miamala ndani ya kituo inavyofanya kazi, sasa ni wakati wa kuona jinsi ya kufunga chaneli na kurejesha pesa kwenye Bitcoin Blockchain.
 
@@ -473,7 +473,7 @@ Katika sura zijazo, tutachunguza Lightning Network kutoka kwa mtazamo mpana, tuk
 
 <chapterId>45a7252c-fa4f-554b-b8bb-47449532918e</chapterId>
 
-![video en](https://youtu.be/44oBdNdXtEQ)
+:::video id=38419c23-5592-4573-b0a7-84824a5bfb77:::
 
 Katika sura hii, tutachunguza jinsi malipo kwenye Lightning Network yanaweza kumfikia mpokeaji hata kama hajaunganishwa moja kwa moja na njia ya malipo. Umeme, kwa kweli, ni mtandao wa njia za malipo, ambao unaruhusu pesa kutumwa kwa nodi ya mbali kupitia chaneli za washiriki wengine. Tutagundua jinsi malipo yanavyopitishwa kwenye mtandao, jinsi ukwasi hupita kati ya vituo na jinsi ada za muamala zinavyokokotolewa.
 
@@ -608,7 +608,7 @@ Katika sura hii, tulichunguza njia za malipo kwenye Lightning Network. Lakini sw
 
 <chapterId>4369b85a-1365-55d8-99e1-509088210116</chapterId>
 
-![video en](https://youtu.be/jI4nM297aHA)
+:::video id=6f204b92-55a5-4939-9440-7c5b96a297bf:::
 
 Katika sura hii, tutagundua jinsi Umeme huruhusu malipo kupita kupitia nodi za kati bila kuhitaji kuziamini, shukrani kwa **HTLC** (_Kandarasi Zilizofungwa kwa Muda wa Hashed_). Mikataba hii mahiri huhakikisha kwamba kila nodi ya mpatanishi itapokea tu fedha kutoka kwa kituo chake ikiwa itatuma malipo kwa mpokeaji wa mwisho, vinginevyo, malipo hayatathibitishwa.
 
@@ -737,7 +737,7 @@ Katika sura inayofuata, tutagundua jinsi nodi inayotoa muamala wa Umeme inavyopa
 
 <chapterId>7e2ae959-c2a1-512e-b5d6-8fd962e819da</chapterId>
 
-![video en](https://youtu.be/CqetCElRjUQ)
+:::video id=e5baa834-111d-46f5-a28b-3538bed2bbb0:::
 
 Katika sura zilizopita, tuliona jinsi ya kutumia njia za nodi nyingine kuelekeza malipo na kufikia nodi bila kuunganishwa nayo moja kwa moja kupitia chaneli. Pia tulijadili jinsi ya kuhakikisha usalama wa uhamishaji bila kuamini nodi za mpatanishi. Katika sura hii, tutazingatia kutafuta njia bora zaidi ya kufikia nodi inayolengwa.
 
@@ -833,7 +833,7 @@ Katika sura ifuatayo, tutasoma mahususi utendakazi wa ankara, pamoja na zana zin
 
 <chapterId>e34c7ecd-2327-52e3-b61e-c837d9e5e8b0</chapterId>
 
-![video en](https://youtu.be/XANzf1Qqp9I)
+:::video id=309c3412-506e-4189-ad46-5e5088c55008:::
 
 Katika sura hii, tutaangalia kwa karibu utendakazi wa Umeme  ankara, yaani, maombi ya malipo yaliyotumwa na nodi ya mpokeaji kwa nodi ya mtumaji. Lengo ni kuelewa jinsi ya kulipa na kupokea malipo kwenye Umeme. Pia tutajadili njia 2 mbadala za ankara za kawaida: LNURL na Keysend.
 
@@ -956,7 +956,7 @@ Katika sura ifuatayo, tutaona jinsi mwendeshaji wa nodi anavyoweza kudhibiti ukw
 
 <chapterId>cc76d0c4-d958-57f5-84bf-177e21393f48</chapterId>
 
-![video en](https://youtu.be/MIbej28La7Y)
+:::video id=96096aef-e4ce-4c44-a022-57e27082232a:::
 
 Katika sura hii, tutachunguza mikakati ya kusimamia vyema ukwasi kwenye Lightning Network. Usimamizi wa ukwasi hutofautiana kulingana na aina ya mtumiaji na muktadha. Tutaangalia kanuni kuu na mbinu zilizopo ili kuelewa vyema jinsi ya kuboresha usimamizi huu.
 
@@ -1033,7 +1033,7 @@ Katika sura inayofuata, ninapendekeza kupitia dhana muhimu zaidi za mafunzo haya
 
 <chapterId>a65a571c-561b-5e1c-87bf-494644653c22</chapterId>
 
-![video en](https://youtu.be/coaskEGRjiU)
+:::video id=5f4f4344-ef27-4765-8f09-8262e6833bde:::
 
 Katika sura hii ya mwisho inayoashiria mwisho wa mafunzo ya LNP201, ninapendekeza kurejea dhana muhimu ambazo tumeshughulikia pamoja.
 

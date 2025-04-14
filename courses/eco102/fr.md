@@ -56,7 +56,7 @@ Prêt à découvrir comment les idées de Frédéric Bastiat peuvent encore rés
 
 <chapterId>7f21b617-9810-5484-ad1c-befc61432126</chapterId>
 
-![video](https://youtu.be/PahHHhtX4fI?si=d8zR-RJ4fm_Z4yM9)
+:::video id=0f388c57-8767-49a7-942c-01af703598b3:::
 
 Ce cours est une introduction à Frédéric Bastiat, ce génie méconnu et une lumière pour notre temps. Dans cette petite introduction, je vais essayer de vous faire découvrir qui était Frédéric Bastiat et quels sont les grands thèmes que nous allons aborder durant cette série.
 
@@ -91,7 +91,7 @@ Dans ce cours, nous allons donc voyager ensemble à travers la pensée de Fréd�
 
 <chapterId>e9d92b63-83dd-552c-84e1-dd535608c109</chapterId>
 
-![video](https://youtu.be/buPg-IPqwmU?si=_JKks1usXbUTQqJo)
+:::video id=29e42254-63d4-4a23-94a7-284e70f20515:::
 
 En 1844, Frédéric Bastiat fait un voyage d’affaires en Espagne. Après avoir séjourné à Madrid, à Séville, à Cadix et à Lisbonne, il décide de s’embarquer pour Southampton, et d’aller visiter l'Angleterre. À Londres, il a l'occasion d'assister à des meetings de la Ligue contre les lois sur les céréales (corn laws) dont il suivait de loin les travaux. Il fait la connaissance des principaux chefs de cette Association, dont Richard Cobden, qui deviendra son ami.
 
@@ -146,7 +146,7 @@ Il meurt à Rome en 1850, des suites d’une tuberculose. Il est enterré à l�
 
 <chapterId>bcc7a12a-6cc4-5061-85e3-0e31fb1f0a49</chapterId>
 
-![video](https://youtu.be/SbCbtAYwqBM?si=IXXMfjbRAagKqqbF)
+:::video id=db69aa73-75a9-44af-a77b-eceb3bc185f3:::
 
 En économie Bastiat a toujours témoigné de sa dette envers Adam Smith et Jean-Baptiste Say. A 26 ans, il écrit à l’un de ses amis « je n’ai jamais lu sur ces matières que ces quatre ouvrages, Smith, Say, Destutt, et le Censeur».
 
@@ -201,7 +201,7 @@ Les producteurs ont recours à la persuasion, à la négociation et au contrat, 
 
 <chapterId>ddf64e9f-2ce0-5651-8eb8-bae578eb0b9b</chapterId>
 
-![video](https://youtu.be/n69ITkX9DMU?si=PymbTYQxiAFVSP42)
+:::video id=727e10b7-9255-4f63-8b57-be59d2501f23:::
 
 On le sait peu mais Destutt de Tracy a exercé une influence décisive sur le futur président des États-Unis Thomas Jefferson, alors ambassadeur à Paris dans les années 1780.
 
@@ -251,7 +251,7 @@ En conclusion, les Idéologues ont eu une intuition profonde, à savoir que la p
 
 <chapterId>80bc5c4e-ac07-52c8-9dd7-e224ac291bda</chapterId>
 
-![video](https://youtu.be/ZuZGz897Pto?si=O-eJhBpDDSlsW5Yu)
+:::video id=6f8e4713-5b9e-49bb-85b1-e9e8a44cd75e:::
 
 L'histoire de toutes les civilisations est celle du combat entre les classes spoliatrices et les classes productives. Tel est le crédo des deux auteurs dont nous allons parler. Ils sont à l’origine d’une théorie libérale de la lutte des classes qui a inspiré Frédéric Bastiat autant que Karl Marx, bien que ce dernier l’ait déformée.
 
@@ -306,7 +306,7 @@ Leurs idées, profondément novatrices, marqueront définitivement Frédéric Ba
 
 <chapterId>7181435c-5eae-56e4-8e55-02a24273fdd6</chapterId>
 
-![video](https://youtu.be/ZWx7RQsmutM?si=NpGycbbi8AQQKjNI)
+:::video id=633e542a-7217-4e63-bb6f-4a716fde3023:::
 
 Nous sommes en 1838, à Manchester, un petit nombre d’hommes, peu connus jusqu’alors, se réunissent pour chercher le moyen de renverser le monopole des propriétaires de terres à blé par les voies légales et pour accomplir, comme le racontera Bastiat par la suite,
 
@@ -374,7 +374,7 @@ La question du libre-échange continue de se poser aujourd’hui. Les manuels de
 
 <chapterId>c3926110-e0b2-503c-96d9-5d3a6a661484</chapterId>
 
-![video](https://youtu.be/Z8EDhTS-s_Q?si=KSe8O-NTLXP3nRSb)
+:::video id=499239ae-df43-489e-8d1f-bf3ea01e4e6b:::
 
 Frédéric Bastiat, qui s'est exprimé dans les années 1840, est l'héritier d'une génération de philosophes des Lumières qui se sont battus contre la censure et pour la liberté de débattre. Pensons ici à Montesquieu, Diderot Voltaire, Condorcet mais aussi à Rousseau .
 
@@ -424,7 +424,7 @@ Selon Bastiat, la société, les personnes et les propriétés existent antérie
 
 <chapterId>87d9a8c9-2352-5cb2-8b93-678118a8145c</chapterId>
 
-![video](https://youtu.be/Nl9jnDV5RxE?si=pi5790tPHLGMzch_)
+:::video id=4b24a6e8-969f-4058-a409-8942913fca4b:::
 
 Le 24 février 1848, au terme de trois jours d'émeutes à Paris le roi Louis-Philippe 1er quitte le pouvoir. C'est la naissance de la seconde République.
 
@@ -470,7 +470,7 @@ Or, comme le rappelle Bastiat, le monopole exclut le progrès.
 
 <chapterId>ce6cb8a8-7dc9-5ef7-939d-9a559b4d2c74</chapterId>
 
-![video](https://youtu.be/7q5qQNe7M48?si=lU63cOehitXxkpjR)
+:::video id=4ef9f07f-aeb1-4626-b9ee-91060fd75803:::
 
 ![image](assets/en/057.webp)
 _(Richard Cobden)_
@@ -525,7 +525,7 @@ Pour conclure, protectionnistes et socialistes ont un point commun, selon Bastia
 
 <chapterId>96902abd-6915-5b25-a187-a4790162b86c</chapterId>
 
-![video](https://youtu.be/nBY6VUhtUis?si=EpWFShKZEQOyqRjg)
+:::video id=6ede1de0-b034-4c48-845d-a2c415de6af2:::
 
 Pierre-Joseph Proudhon est l’un des grands représentants du socialisme français au milieu du XIXe siècle . Il est resté célèbre notamment pour cette phrase : « La propriété c’est le vol » dans "Qu'est-ce que la propriété ?" en 1840.
 
@@ -585,7 +585,7 @@ En conclusion, Proudhon et Bastiat ont vu tous les deux l'importance de l'accumu
 
 <chapterId>25fb02a9-5d68-5c58-bd0f-d4b8e1fd91f9</chapterId>
 
-![video](https://youtu.be/KfhX-EXRYu0?si=JL9jjaP9u0HUnSm_)
+:::video id=aff28a5b-3cf4-414b-9a6a-b70ffb1bf20c:::
 
 Dans ce chapitre, je vais vous dévoiler une toute nouvelle technologie, une technologie révolutionnaire. Un chercheur a mis au point une paire de lunettes bioniques avec une mini-caméra ultra puissante implantée en façade. Cette technologie permet de voir des détails impossibles à voir à l’œil nu. Dans les branches vous avez une puce électronique qui transmet les images directement dans le cloud via mon smartphone.
 
@@ -629,7 +629,7 @@ La grande leçon de cette série de textes, c’est que l'intervention de l'Éta
 
 <chapterId>f4e759ed-1cb2-55c7-885e-0a60244758a4</chapterId>
 
-![video](https://youtu.be/TB2Bhl1qWKw?si=YyZ6ZxL2F3xDca3V)
+:::video id=b1856cde-9156-4a16-99fa-a0e45edcc905:::
 
 En 1840, la Chambre des députés vota une loi augmentant les taxes à l’importation afin de protéger l’industrie française. C’est le fameux patriotisme économique, qu’on retrouve encore de nos jours .
 
@@ -680,7 +680,7 @@ La véritable richesse, selon Bastiat, c’est donc l'ensemble des choses utiles
 
 <chapterId>551fc499-2119-5a52-9114-412d29434c22</chapterId>
 
-![video](https://youtu.be/VAewCBZGmaY?si=DRRU4eTbiB5iNU3J)
+:::video id=a5fe6417-cd81-4c72-a7c7-59aabf9e1547:::
 
 > Quand les gros maigrissent, les maigres meurent.
 
@@ -742,7 +742,7 @@ Et elle disait cela en s’adressant à des socialistes.
 
 <chapterId>c518e449-f638-553c-9a49-15da48023d41</chapterId>
 
-![video](https://youtu.be/oiHMH_oAcQU?si=6o4XGIzjl0o5FqVY)
+:::video id=e2037025-a4db-4980-91e7-a04da99514de:::
 
 Tout le monde connaît Tartuffe ou l’Imposteur, la comédie de Molière dans laquelle un dévot rusé tente de séduire Elmire et de dépouiller son mari Orgon. Comment se prémunir contre les tromperies d’un homme aussi hypocrite qui prétend faire votre bien tout en complotant contre vous ?
 
@@ -799,7 +799,7 @@ Une chose est sûre, ce n’est pas le politique qui peut changer le cours des c
 
 <chapterId>895ccd1d-7b52-5a8b-8b2c-6ec0056cf632</chapterId>
 
-![video](https://youtu.be/1LRA2HqsZ4w?si=lJwZw843vmaiKBTr)
+:::video id=ed6dc15c-b5e9-465c-9966-16c6737c0a68:::
 
 Une société harmonieuse peut-elle se passer de lois écrites, de règles, de mesures répressives ? Si on laisse libres les hommes, ne va-t-on pas assister au désordre, à l’anarchie, à la désorganisation ? Comment éviter de créer une pure juxtaposition d’individus agissant en dehors de tout concert, si ce n’est par des lois et une organisation politique centralisée ?
 
@@ -842,7 +842,7 @@ Cette histoire montre que des hommes libres travaillant dans la poursuite de leu
 
 Le prix Nobel d’économie 1976 Milton Friedman a également repris cette histoire du crayon pour expliquer au grand public le fonctionnement de l’économie de marché.
 
-![video](https://youtu.be/67tHtpac5ws?si=Ck9jVkdpYHbUJ5we)
+:::video id=db48376a-64c9-48b8-a8fb-2640c9b5bf73:::
 
 Dans un épisode de sa série télévisée Free to Choose, il analyse les différents com­po­sants d’un objet aussi banal et simple qu’un crayon et il met en lumière le miracle de l’ordre spontané, généré par les milliers d’interactions économiques à travers le monde. Des personnes qui ne se connaissent pas, qui n’ont pas la même religion ni les mêmes coutumes, réussissent pourtant à se coordonner pour produire cet objet. Il conclut le fait que le libre marché est essentiel pour garantir non seulement la prospérité mais aussi l’harmonie et la paix.
 
@@ -858,7 +858,7 @@ La planification économique, qui prétend faire mieux que le marché, conduit n
 
 <chapterId>78baa7ef-2c80-5fc7-8881-c1be4662b96f</chapterId>
 
-![video](https://youtu.be/KqtOO9FuaYg?si=wwItVC6_hhc5kYIF)
+:::video id=a7e94133-d79a-47cf-b098-d1b15741235e:::
 
 Dans une lettre à Alphonse de Lamartine en 1845, Bastiat écrit que toute sa philosophie tient dans un seul et unique principe :
 
@@ -928,7 +928,7 @@ Autrement dit, les choix collectifs ne sont pas des choix responsables puisque d
 
 <chapterId>0c078806-6c58-53f9-a720-5fb62386e56b</chapterId>
 
-![video](https://youtu.be/M4yjsSrRfQ4?si=xJmTNMxIZ3WTtqgM)
+:::video id=0b2bc259-52c5-46c9-a904-254746d6972f:::
 
 Dans le cours précédent, nous avons vu pourquoi la liberté et la responsabilité sont la clé du problème social. Nous allons maintenant approfondir ce point en montrant comment Frédéric Bastiat envisage les maux dont souffrent les sociétés et leur solution.
 
@@ -982,7 +982,7 @@ Encore faut-il préciser que ce développement du progrès par la responsabilit�
 
 <chapterId>fa2172e9-22fa-5c01-a3c8-1e8316c064a4</chapterId>
 
-![video](https://youtu.be/3T9iRFce9oI?si=AVY8PA6fdVK7ML-r)
+:::video id=28c7b1d0-e32f-48dc-95ee-8459667b42ab:::
 
 ![image](assets/en/113.webp)
 
@@ -1040,7 +1040,7 @@ La fausse solidarité des socialistes supprime le dévouement au profit de la co
 
 <chapterId>a48a0616-2105-5520-8312-e21a0b6489c7</chapterId>
 
-![video](https://youtu.be/M7g5ZhX7uwM?si=Hu3kTmj9pE-eRZmw)
+:::video id=823bbc82-dfe6-4ed4-bb36-e5557dc5341a:::
 
 Par propriété, il ne faut pas entendre ici le foncier. Il faut donc entendre « le droit qu'a le travailleur sur la valeur qu'il a créée par son travail ». Bastiat précise :
 
@@ -1097,7 +1097,7 @@ _(Cicéron)_
 
 <chapterId>b4122847-e477-578e-ba34-d35844ac4715</chapterId>
 
-![video](https://youtu.be/DJgC0W8ViHs?si=xmSWGDYcbb_2tpPt)
+:::video id=24b1ca72-c52a-4ff3-b6db-01e3807c5d8e:::
 
 L’idée principale de Bastiat dans "La Loi", son célèbre pamphlet daté de 1850, c’est de montrer pourquoi et comment la loi est devenue spoliatrice, c’est-à-dire une source de privilèges, de rentes de situation et d’arbitraire fiscal.
 
@@ -1154,7 +1154,7 @@ Un siècle après la mort de Frédéric Bastiat, la spoliation légale apparaît
 
 <chapterId>52258229-7c7c-592b-aa27-203b03aa41c9</chapterId>
 
-![video](https://youtu.be/YffrxCE5xmc?si=HPLmL9YSnHIQGNNa)
+:::video id=43c0db1d-1063-45d7-bce3-4d9d18382a2d:::
 
 En 1848, Bastiat est député. Il est nommé vice-président de la commission des finances. Il est donc particulièrement bien placé pour répondre à cette question : qu'est-ce que l'État ? Nous nous adressons à l'État pour assurer notre bien-être. Mais Bastiat rappelle que l'État ne peut rien donner aux citoyens qu'il ne leur ait d'abord pris.
 
@@ -1211,7 +1211,7 @@ Ecrit Frédéric Bastiat dans un court pamphlet intitulé L'État.
 
 <chapterId>2a2a181a-e477-5be1-ba1f-af59490c364e</chapterId>
 
-![video](https://youtu.be/bzaIT_G-d4E?si=lzcCHS4FAneNmVSS)
+:::video id=de892e2c-14a5-45cc-848f-ec934eaba615:::
 
 L’influence de Bastiat a commencé à décliner vers la fin du XIXe siècle, avec la montée en puissance du socialisme et en particulier du marxisme au sein des universités et dans les instituts de recherche, financés sur fonds publics.
 

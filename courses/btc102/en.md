@@ -50,9 +50,9 @@ Then, we'll explain why Bitcoin is fundamentally important from technological, e
 
 The third section, "Setting up your plan", focuses on your personal approach to Bitcoin. We'll start by helping you define your user profile from four main categories:
 
-- the hodler*, focused on holding bitcoin long-term ;
-- the stacker*,  who buys regularly and methodically;
-- the user*, who prioritizes using Bitcoin daily;
+- *the hodler*, focused on holding bitcoin long-term ;
+- *the stacker*,  who buys regularly and methodically;
+- *the user*, who prioritizes using Bitcoin daily;
 - and finally *the paranoid*, who wants maximum security to effectively protect his assets and privacy.
 
 We'll guide you through the implementation of a strategy that fits your profile and helps you achieve your personal goals.

@@ -4,6 +4,8 @@ description: Configurer et utiliser le hardware wallet Safe 3
 ---
 ![cover](assets/cover.webp)
 
+*Image credit: [Trezor.io](https://trezor.io/)*
+
 Le Trezor Safe 3 est un hardware wallet conçu par SatoshiLabs et créé en 2023. C’est un modèle très compact et léger (14 grammes) pensé à la fois pour les débutants et les utilisateur intermédiaires. Il succède au célèbre Model One avec des apports importants, tout en conservant l’approche open-source de la marque qui la différencie de son principal concurrent, Ledger. Le Safe 3 est proposé à 79 €. Il se positionne donc dans le segment milieu de gamme des hardware wallets, en concurrence directe avec le Ledger Nano S Plus.
 
 Le Safe 3 ne possède pas de batterie et fonctionne exclusivement via une connexion USB-C, utilisée à la fois pour l'alimentation et pour la communication. Il est équipé d'un petit écran OLED monochrome de 0,96 pouce et de deux boutons physiques.
@@ -104,6 +106,10 @@ Sur Trezor Suite, cliquez sur le bouton "*Create new wallet*".
 ![Image](assets/fr/15.webp)
 
 Pour un portefeuille standard, vous pouvez opter pour le type de sauvegarde par défaut. Cela permet de créer un portefeuille single-sig classique avec une phrase mnémonique de 12 mots. Cliquez sur "*Create wallet*".
+
+Si vous souhaitez en savoir plus sur les autres options de sauvegarde disponibles sur les Trezor, notamment le *Multi-share Backup*, je vous recommande de consulter également ce tutoriel :
+
+https://planb.network/tutorials/wallet/backup/trezor-shamir-backup-7f98b593-face-48fb-a643-0e811b87c94e
 
 ![Image](assets/fr/16.webp)
 
@@ -313,6 +319,8 @@ Vous pouvez la retrouver dans l'onglet "*Transactions*" de Sparrow Wallet.
 
 ![Image](assets/fr/56.webp)
 
-Félicitations, vous êtes maintenant au point sur l'utilisation de base du Trezor Safe 3 avec Sparrow Wallet ! Dans un prochain tutoriel, nous verrons comment utiliser un hardware wallet Trezor avec une passphrase BIP39 pour renforcer sa sécurité.
+Félicitations, vous êtes maintenant au point sur l'utilisation de base du Trezor Safe 3 avec Sparrow Wallet ! Pour aller plus loin, je vous recommande de consulter ce tutoriel complet sur l'utilisation d'un hardware wallet Trezor avec une passphrase BIP39 afin de renforcer votre sécurité :
+
+https://planb.network/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
 
 Si vous avez trouvé ce tutoriel utile, je vous serais reconnaissant de laisser un pouce vert ci-dessous. N'hésitez pas à partager cet article sur vos réseaux sociaux. Merci beaucoup !

@@ -2500,7 +2500,7 @@ Once again, congratulations on how far you've come. And remember; my primary goa
 
 **Wishing you all the best on your journey with Bitcoin!**
 
-# Conclusion
+# Final Section
 
 <partId>a8425389-4a53-4b57-b9b4-36c1cab12de5</partId>
 
@@ -2509,7 +2509,7 @@ Once again, congratulations on how far you've come. And remember; my primary goa
 <chapterId>3f43175a-fb7a-5b1c-a887-7dcf615d7a3a</chapterId>
 
 <isCourseReview>true</isCourseReview>
-## Final examination
+## Final Exam
 
 <chapterId>f3ff8089-8f89-56a8-be8c-b60296b4d91f</chapterId>
 

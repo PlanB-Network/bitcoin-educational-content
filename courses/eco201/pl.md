@@ -230,7 +230,7 @@ U podstaw rozumowania ekonomicznego leży kwestia wartości. Jak określamy wart
 Takie pytania nurtowały ekonomistów i filozofów przez wiele stuleci i doczekały się wielu różnych odpowiedzi. Pod wieloma względami epistemologiczna ewolucja ekonomii przeplata się z ewolucją teorii wartości.
 
 
-Po tym, jak teoria wartości ziemi fizjokratów, zakładająca, że cała wartość pochodzi z ziemi, została obalona przez klasyczną teorię wartości pracy ekonomistów, postulującą, że wartość dobra wynika z ilości pracy włożonej w jego produkcję, przyszła kolej na marginalną teorię wartości, która zastąpiła tę ostatnią. W latach siedemdziesiątych XIX wieku, po Marksie, ostatnim z klasycznych ekonomistów, trzy nowe szkoły myśli ekonomicznej pojawiły się niemal jednocześnie wokół marginalnej teorii wartości: szkoła lozańska z Leonem Walrasem, szkoła nowoczesna lub neoklasyczna z Williamem Stanleyem Jevonsem oraz szkoła austriacka z Carlem Mengerem. Ta rewolucja w teorii wartości stanowiła znaczącą odnowę myśli ekonomicznej.
+Po tym jak teoria wartości ziemi fizjokratów zakładająca, że cała wartość pochodzi z ziemi, została obalona przez ekonomistów klasycznych i ich teorię wartości pracy postulującą, że wartość dobra wynika z ilości pracy włożonej w jego produkcję, przyszła kolej na marginalną teorię wartości. W latach siedemdziesiątych XIX wieku po Marksie, ostatnim z klasycznych ekonomistów, wokół marginalnej teorii wartości niemal jednocześnie pojawiły się trzy nowe szkoły myśli ekonomicznej: szkoła lozańska z Leonem Walrasem, szkoła nowoczesna lub neoklasyczna z Williamem Stanleyem Jevonsem oraz szkoła austriacka z Carlem Mengerem. Ta rewolucja w teorii wartości w istotny sposób zmieniła myśl ekonomiczną.
 
 
 ![image](assets/en/07.webp)
@@ -239,10 +239,10 @@ Po tym, jak teoria wartości ziemi fizjokratów, zakładająca, że cała warto�
 Od lewej do prawej: William Stanley Jevons, Carl Menger, Léon Walras
 
 
-Krańcowa teoria wartości utrzymuje, że wartość ekonomiczna odpowiada temu, co podmiot gospodarczy chętnie zapłaci za kolejną jednostkę dobra lub usługi. Ponieważ teoria ta podkreśla fakt, że ceny kształtują się na marginesie, tj. dla następnej jednostki danego dobra, została ona nazwana "marginalizmem".
+Marginalna teoria wartości utrzymuje, że wartość ekonomiczna odpowiada temu, co podmiot gospodarczy chętnie zapłaci za kolejną jednostkę dobra lub usługi. Ponieważ teoria ta podkreśla fakt, że ceny kształtują się na marginesie, tj. dla następnej jednostki danego dobra, została ona nazwana "marginalizmem".
 
 
-Powszechnie przedstawia się marginalizm tych trzech szkół jako podobny. Rzeczywiście, Walras i Jevons są bardzo kompatybilni, ale teoretyzacja Mengera różni się od innych w głęboki sposób. W swojej pracy, obecnie uważanej za fundament austriackiej teorii ekonomicznej, zatytułowanej "Grundsätze des Volkswirtschaftlehre" (Zasady ekonomii politycznej), opublikowanej w 1874 roku, Menger oferuje marginalne, ale przede wszystkim subiektywne wyjaśnienie wartości, w przeciwieństwie do Walrasa i Jevonsa, którzy uważają wartość za obiektywne i mierzalne zjawisko.
+Powszechnie przedstawia się marginalizm tych trzech szkół jako podobny. Rzeczywiście, Walras i Jevons są bardzo kompatybilni, ale teoretyzacja Mengera znacząco różni się od innych. W swojej pracy, obecnie uważanej za fundament austriackiej teorii ekonomicznej, zatytułowanej "Grundsätze des Volkswirtschaftlehre" (Zasady ekonomii politycznej), opublikowanej w 1874 roku, Menger oferuje marginalne, ale przede wszystkim subiektywne wyjaśnienie wartości, w przeciwieństwie do Walrasa i Jevonsa, którzy uważają wartość za zjawisko obiektywne i mierzalne.
 
 
 ### Wartość subiektywna
@@ -251,13 +251,13 @@ Powszechnie przedstawia się marginalizm tych trzech szkół jako podobny. Rzecz
 ![image](assets/en/08.webp)
 
 
-Austriacki ekonomista odrzuca koncepcję następców Adama Smitha i porzuca ideę, że wartość dobra wynika z ilości pracy wykorzystanej do jego produkcji, na rzecz poglądu, że jego wartość jest określana przez jednostkę, która w każdym kontekście dokonuje mentalnego aktu wyceny w odniesieniu do określonej ilości dobra lub usługi. Ten intelektualny skok dokonany przez Mengera podważa obiektywność wartości: dla niego wartość nie jest obiektywną właściwością dóbr; jest jedynie wynikiem relacji, jaką jednostka ma z tą rzeczą: "wartość nie istnieje poza ludzką świadomością"
+Austriacki ekonomista odrzuca koncepcję następców Adama Smitha i porzuca ideę, że wartość dobra wynika z ilości pracy wykonanej przy jego produkcji, na rzecz poglądu, że jego wartość jest określana przez jednostkę, która w każdym kontekście dokonuje mentalnego aktu wyceny w odniesieniu do określonej ilości dobra lub usługi. Ten intelektualny skok dokonany przez Mengera podważa obiektywność wartości: dla niego wartość nie jest obiektywną właściwością dóbr; jest jedynie wynikiem relacji, jaką jednostka ma z tą rzeczą: „wartość nie istnieje poza ludzką świadomością”
 
 
-Innymi słowy, Menger zachęca nas do rozważenia, że wartość istnieje tylko jako subiektywne zjawisko psychologiczne w jednostce, że wartość nie jest nieodłączną właściwością dóbr, ale raczej wynika z opinii jednostki na temat użyteczności, jaką może czerpać z tych dóbr.
+Innymi słowy, Menger zachęca nas do rozumienia wartości jako istniejącej tylko jako subiektywne zjawisko psychologiczne, nie jest nieodłączną właściwością dóbr, ale raczej wynika z opinii jednostki na temat użyteczności, jaką może czerpać z tych dóbr.
 
 
-Zgodnie z tym poglądem, litr wody pitnej nie ma obiektywnej wartości. Ktoś, kto ma dostęp do nowoczesnego systemu wody pitnej i nie jest obecnie spragniony, prawdopodobnie przypisałby bardzo niewielką wartość temu dodatkowemu litrowi wody, podczas gdy osoba, która jest spragniona na środku pustyni, widząc różnicę między życiem a śmiercią, z pewnością byłaby skłonna przypisać temu litrowi wody niemal nieskończoną wartość.
+Zgodnie z tym poglądem litr wody pitnej nie ma obiektywnej wartości. Ktoś, kto ma dostęp do nowoczesnego systemu wody pitnej i nie jest obecnie spragniony, prawdopodobnie przypisałby bardzo niewielką wartość dodatkowemu litrowi wody, podczas gdy osoba, która jest spragniona i znajduje się na środku pustyni, dla której ten litr wody oznacza różnicę między życiem a śmiercią, z pewnością byłaby skłonna przypisać mu niemal nieskończoną wartość.
 
 
 Podsumowując, Menger zauważył, że wartość dobra ekonomicznego to nic innego jak subiektywna wycena, jaką dana osoba przypisuje dodatkowej jednostce tego dobra lub usługi.
@@ -266,19 +266,19 @@ Podsumowując, Menger zauważył, że wartość dobra ekonomicznego to nic inneg
 ### Dobrowolna wymiana: gra o sumie dodatniej
 
 
-Z tego punktu Menger wywnioskował, że dobrowolna wymiana między dwiema osobami ma miejsce, ponieważ każda ze stron wierzy, że zwiększy to ich subiektywną użyteczność. Dla niego wymiana nie zakłada żadnej równoważności wartości, w przeciwieństwie do tego, w co wierzyli klasyczni ekonomiści. Według austriackiego myśliciela, gdyby istniała równoważność użyteczności między wymienianymi towarami, nie byłoby powodu, aby strony w ogóle zawracały sobie głowę wymianą. Jeśli istnieje wymiana, to dlatego, że każda ze stron uważa, że leży to w ich (subiektywnym) interesie, a co za tym idzie, każdy dobrowolna wymiana przynosi korzyść społeczną.
+Z tego punktu Menger wywnioskował, że dobrowolna wymiana między dwiema osobami ma miejsce, ponieważ każda ze stron wierzy, że zwiększy to ich subiektywną użyteczność. Dla niego wymiana nie zakłada żadnej równoważności wartości, w przeciwieństwie do tego, w co wierzyli klasyczni ekonomiści. Według austriackiego myśliciela, gdyby istniała równoważność użyteczności między wymienianymi towarami, nie byłoby powodu, aby strony w ogóle zawracały sobie głowę wymianą. Jeśli istnieje wymiana to dlatego, że każda ze stron uważa, że leży to w jej (subiektywnym) interesie, a co za tym idzie, każda dobrowolna wymiana przynosi korzyść społeczną.
 
 
 ### Wycena jako zjawisko porządkowania ludzkich pragnień
 
 
-Jednak takiej korzyści społecznej lub subiektywnej wartości przypisywanej dobru nie można zmierzyć. Dla Mengera wartość jest zjawiskiem poznawczym polegającym na porównywaniu (porządkowym), a nie mierzeniu (kardynalnym). Nie jest to, jak uważali ekonomiści neoklasyczni od czasów Walrasa i Jevonsa, Assignment przez jednostkę wartości liczbowej, która odzwierciedla użyteczność, jaką z niej czerpie, ale raczej akt porządkowania ludzkich pragnień, poprzez który jednostka wyraża, że pragnie ilości dobra A bardziej intensywnie niż ilości dobra B.
+Jednak takiej korzyści społecznej lub subiektywnej wartości przypisywanej dobru nie można zmierzyć. Dla Mengera wartość jest zjawiskiem poznawczym polegającym na porównywaniu (porządkowym), a nie mierzeniu (kardynalnym). Nie jest to, jak uważali ekonomiści neoklasyczni od czasów Walrasa i Jevonsa, przypisanie przez jednostkę wartości liczbowej, która odzwierciedla użyteczność, jaką z niej czerpie, ale raczej akt porządkowania ludzkich pragnień, poprzez który jednostka wyraża, że pragnie ilości dobra A bardziej intensywnie niż ilości dobra B.
 
 
-Każdy agent może powiedzieć, czy woli 2 banany od kursu ekonomii, ale nikt nie może rozsądnie powiedzieć, że ceni 2 banany na 3,1416 utils, podczas gdy ceni kurs ekonomii na 3 utils, a zatem woli mieć banany. Taki opis ludzkich preferencji, oparty na ciągłych funkcjach rzeczywistych, nie odpowiada rzeczywistości procesów poznawczych, których doświadczamy w naszym codziennym życiu. Człowiek nigdy nie ocenia prezentowanych mu dóbr poprzez porównanie ich z abstrakcyjnym standardem użyteczności. Zamiast tego subiektywnie porównuje różne kierunki działania, których nie może ocenić w kategoriach bezwzględnych, ale mimo to może je uszeregować na podstawie ich względnej pożądalności.
+Każda osoba może powiedzieć, czy woli 2 banany od kursu ekonomii, ale nikt nie może rozsądnie powiedzieć, że wycenia 2 banany na 3,1416 utils, podczas gdy kurs ekonomii na 3 utils, a zatem woli banany. Taki opis ludzkich preferencji oparty na ciągłych funkcjach rzeczywistych nie odpowiada rzeczywistości procesów poznawczych, których doświadczamy w naszym codziennym życiu. Człowiek nigdy nie ocenia prezentowanych mu dóbr poprzez porównanie ich z abstrakcyjnym standardem użyteczności. Zamiast tego subiektywnie porównuje różne kierunki działania, których nie może ocenić w kategoriach bezwzględnych, ale mimo to może je uszeregować na podstawie ich względnej pożądalności.
 
 
-Ta subiektywna koncepcja wartości, rozumiana jako psychologiczny związek jednostki z jej celami i środkami odpowiednimi do ich osiągnięcia, pozwala również austriackim ekonomistom wyjaśnić zjawisko podziału pracy.
+Ta subiektywna koncepcja wartości, rozumiana jako psychologiczny związek jednostki z jej celami i środkami odpowiednimi do ich osiągnięcia, pozwala austriackim ekonomistom wyjaśnić także zjawisko podziału pracy.
 
 
 ### Podział pracy

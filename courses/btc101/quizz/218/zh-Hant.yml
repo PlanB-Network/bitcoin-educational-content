@@ -1,0 +1,11 @@
+question: 本課程所述的 Bitcoin 採用的性質為何？
+answer: 病毒式傳播。
+wrong_answers:
+  - 緩慢而穩定。
+  - 快速且無法控制。
+  - 零星且不可預測。
+explanation: |
+  課程文字將 Bitcoin 的採用描述為病毒式、
+  這表示它會從一個人迅速廣泛地傳播到另一個人，就像病毒一樣，但卻是好的病毒。
+  病毒一樣，不過是一種好的病毒。
+reviewed: true

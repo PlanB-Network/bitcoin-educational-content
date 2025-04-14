@@ -1,0 +1,11 @@
+question: Jaka jest złota zasada inwestycji Bitcoin?
+answer: Nie twój klucz, nie twoje Bitcoiny.
+wrong_answers:
+  - Nigdy nie inwestuj więcej, niż możesz stracić.
+  - Unikaj tego, co jest modne.
+  - Planowanie i posiadanie długoterminowej wizji są niezbędne do osiągnięcia sukcesu w finansach.
+explanation: |
+  Złota zasada inwestowania w Bitcoin brzmi: Nie twój klucz, nie twoje Bitcoiny.
+  Oznacza to, że jeśli nie masz kontroli nad swoim kluczem prywatnym, to tak naprawdę nie posiadasz
+  właścicielem swoich Bitcoinów.
+reviewed: false

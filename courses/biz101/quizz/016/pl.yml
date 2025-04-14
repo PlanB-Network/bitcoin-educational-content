@@ -1,0 +1,9 @@
+question: W jaki sposób sztucznie wykreowany kapitał z pieniądza opartego na długu różni się od kapitału w stylu austriackim?
+answer: Kapitał w stylu austriackim wynika z rzeczywistych oszczędności i poświęcenia, podczas gdy kapitał oparty na długu jest tworzony natychmiastowo z kredytu i może zniekształcać sygnały ekonomiczne.
+wrong_answers:
+  - Kapitał w stylu austriackim jest generowany poprzez drukowanie większej ilości pieniędzy w razie potrzeby.
+  - Kapitał oparty na długu nigdy nie wymaga spłaty i jest równoważny rzeczywistym oszczędnościom.
+  - Nie ma różnicy; obie formy kapitału są identyczne pod względem charakteru i skutków.
+explanation: |
+  Austriacki kapitał wyłania się z rzeczywistej utraconej konsumpcji i ostrożnych inwestycji. Kapitał oparty na długu, łatwo tworzony poprzez pożyczki, może wprowadzać przedsiębiorców w błąd i prowadzić do nieefektywnych inwestycji, ponieważ nie odzwierciedla prawdziwych oszczędności ani preferencji konsumentów.
+reviewed: false

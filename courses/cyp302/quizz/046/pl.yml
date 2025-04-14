@@ -1,0 +1,9 @@
+question: Która funkcja jest używana do obliczania liczby liczb całkowitych mniejszych od N, które są podzielne przez N?
+answer: Funkcja Phi Eulera
+wrong_answers:
+  - Funkcja Gamma Eulera
+  - Funkcja Sigma Eulera
+  - Funkcja beta Dirichleta
+explanation: |
+  Funkcja Phi Eulera określa liczbę liczb całkowitych mniejszych od N, które są współpierwsze z N, co jest centralnym pojęciem w twierdzeniach kryptograficznych opartych na liczbach pierwszych.
+reviewed: false

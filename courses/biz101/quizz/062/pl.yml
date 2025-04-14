@@ -1,0 +1,9 @@
+question: Które rozwiązanie alternatywne do Swiss Bitcoin Pay do akceptowania płatności Bitcoin dla profilu Essential jest w 100% powiernicze?
+answer: Węzeł otwarty
+wrong_answers:
+  - Serwer BTCPay
+  - Bitcoinize PoS
+  - Phoenix Wallet
+explanation: |
+  Open Node charakteryzuje się jako rozwiązanie w pełni powiernicze, różniące się od hybrydowego charakteru Swiss Bitcoin Pay.
+reviewed: false

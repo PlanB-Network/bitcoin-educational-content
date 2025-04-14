@@ -1,0 +1,11 @@
+question: Co należy wziąć pod uwagę przy wyborze platformy DCA?
+answer: Dostępność w danym kraju.
+wrong_answers:
+  - Kolor logo platformy.
+  - Liczba użytkowników na platformie.
+  - Wiek platformy.
+explanation: |
+  W tekście kursu wspomniano, że przy wyborze platformy DCA
+  właściwy wybór będzie bardziej zależał od jej dostępności w danym kraju
+  dostępności w danym kraju.
+reviewed: true

@@ -1,0 +1,11 @@
+question: W jaki sposób stablecoiny pomagają obniżyć koszty związane z przekazami pieniężnymi?
+answer: Oferując niższe opłaty niż tradycyjne usługi
+wrong_answers:
+  - Zapewniając bezpłatne usługi przelewów pieniężnych
+  - Zapewniając osobom fizycznym lepsze stawki Exchange niż tradycyjne usługi
+  - Poprzez cyfryzację walut fiducjarnych
+explanation: |
+  Stablecoiny, w przeciwieństwie do tradycyjnych usług przelewów pieniężnych, mają znacznie
+  niższe opłaty, ponieważ nie wymagają pośredników, takich jak banki lub usługi
+  usługi transferu pieniędzy.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Którego dnia Jeremy Sturdivant dostarczył dwie pizze Laszlo Hanyeczowi w Exchange za zapłatę w wysokości 10 000 bitcoinów, oznaczając pierwszy zakup fizycznego towaru za kryptowalutę?
+answer: 22 maja 2010 r
+wrong_answers:
+  - 12 października 2009 r
+  - 18 kwietnia 2010 r
+  - 11 czerwca 2010 r
+explanation: |
+  Po ogłoszeniu opublikowanym na forum, oferta została przyjęta 22 maja 2010 roku. W tym czasie 10 000 bitcoinów było warte około 44 USD.
+reviewed: false

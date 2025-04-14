@@ -1,0 +1,11 @@
+question: Bitcoin 的稀缺性有什麼意義？
+answer: 世界上只有 2100 萬個比特幣，絕不會再有更多。
+wrong_answers:
+  - Bitcoin 的值會一直增加
+  - Bitcoin 難以開採
+  - Bitcoin 交易數量有限
+explanation: |
+  Bitcoin 的稀缺性是指只有 2100 萬個比特幣。
+  萬個比特幣。這一特性與黃金相似，可以防止通過過度印鈔來稀釋
+  Bitcoin 的價值。
+reviewed: false

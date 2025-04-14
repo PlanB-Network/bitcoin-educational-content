@@ -1,0 +1,10 @@
+question: 建議 Hodler 從何開始使用 Wallet？
+answer: 像 Bitbox02、Trezor 或 Ledger 的 Cold Wallet。
+wrong_answers:
+  - 一個 Hot Wallet 手機應用程式。
+  - 物理 Wallet。
+  - 一紙 Wallet。
+explanation: |
+  對於 Hodler，建議從 Cold Wallet 開始，如 Bitbox02、
+  Trezor 或 Ledger。這些裝置可長期提供比特幣的安全性。
+reviewed: false

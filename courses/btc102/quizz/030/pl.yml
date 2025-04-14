@@ -1,0 +1,10 @@
+question: Czym jest Bitcoin Blockchain?
+answer: Baza danych rejestrująca wszystkie transakcje Bitcoin
+wrong_answers:
+  - Rodzaj waluty cyfrowej
+  - Sieć użytkowników Bitcoin
+  - Metoda Mining bitcoinów
+explanation: |
+  Bitcoin Blockchain to baza danych, która rejestruje wszystkie transakcje Bitcoin.
+  Jest ona utrzymywana przez górników, którzy dodają nowe transakcje do Blockchain.
+reviewed: false

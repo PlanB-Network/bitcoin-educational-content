@@ -1,0 +1,10 @@
+question: Jaka jest definicja inflacji według Larousse'a?
+answer: Inflacja to zjawisko charakteryzujące się uogólnionym i ciągłym wzrostem poziomu cen.
+wrong_answers:
+  - Inflacja to zjawisko charakteryzujące się uogólnionym i ciągłym spadkiem poziomu cen.
+  - Inflacja to zjawisko charakteryzujące się określonym i ciągłym wzrostem poziomu cen.
+  - Inflacja to zjawisko charakteryzujące się uogólnionym i okresowym wzrostem poziomu cen.
+explanation: |
+  Według Larousse'a inflacja jest definiowana jako zjawisko charakteryzujące się
+  przez uogólniony i ciągły wzrost poziomu cen.
+reviewed: false

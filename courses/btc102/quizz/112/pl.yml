@@ -1,0 +1,11 @@
+question: Jaki jest cel Cold Wallet w Bitcoin?
+answer: Do bezpiecznego przechowywania Bitcoinów.
+wrong_answers:
+  - Aby wydobywać nowe Bitcoiny.
+  - Aby handlować Bitcoinami.
+  - Aby zamienić Bitcoiny na inne kryptowaluty.
+explanation: |
+  Cold Wallet, znany również jako Hardware Wallet, jest urządzeniem zaprojektowanym do
+  do bezpiecznego przechowywania Bitcoinów. Nie jest używane do Mining nowych Bitcoinów, handlu Bitcoinami,
+  lub konwersji Bitcoinów na inne kryptowaluty.
+reviewed: false

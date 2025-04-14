@@ -1,0 +1,8 @@
+question: 銀行體系的主要問題是什麼？
+answer: 銀行業的遊戲規則並不透明，也不是所有人都能理解的。
+wrong_answers:
+  - 銀行系統太容易理解了。
+  - 銀行系統太過透明。
+  - 銀行系統太分散。
+explanation: >-
+reviewed: true

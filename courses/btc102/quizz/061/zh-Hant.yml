@@ -1,0 +1,11 @@
+question: 在 Bitcoin 的背景下，什麼是非 KYC 解決方案？
+answer: 允許匿名 Bitcoin 交易的解決方案
+wrong_answers:
+  - 無需網際網路即可進行 Bitcoin 交易的解決方案
+  - 允許 Bitcoin 交易而無需 Wallet 的解決方案
+  - 無須付費即可進行 Bitcoin 交易的解決方案
+explanation: |
+  非 KYC（認識您的客戶）解決方案是允許
+  匿名 Bitcoin 交易。它不需要使用者提供個人
+  識別資訊。
+reviewed: false

@@ -1,0 +1,10 @@
+question: Dla czego pochodzi Bitcoin?
+answer: Internet
+wrong_answers:
+  - Blockchain
+  - System bankowy
+  - Rynek akcji
+explanation: |
+  Rozdział stwierdza, że Bitcoin jest natywny dla Internetu, dzięki czemu jest
+  dostępny dla każdego, kto ma dostęp do Internetu.
+reviewed: false

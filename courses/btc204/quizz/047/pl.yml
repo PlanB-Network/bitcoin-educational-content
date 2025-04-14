@@ -1,0 +1,10 @@
+question: Jaka jest rola transakcji powiadomienia w BIP47?
+answer: Aby przesłać kod płatności do odbiorcy i zasygnalizować, że nadchodzą płatności.
+wrong_answers:
+  - Zatwierdzenie Bitcoin otrzymującego Address dla przyszłych transakcji za pomocą kodów płatności.
+  - Potwierdź otrzymanie bitcoinów przez odbiorcę za pomocą BIP47.
+  - Wyślij efemeryczne klucze prywatne nadawcy do odbiorcy, aby mógł wydać bitcoiny.
+explanation: |
+  Transakcja powiadamiania umożliwia transmisję kodu płatności od nadawcy do odbiorcy, aby ten ostatni mógł go poznać i znaleźć później tylko ze swojego seed w przypadku odzyskania Wallet. Jak sama nazwa wskazuje, odgrywa ona również rolę powiadomienia.
+  
+reviewed: false

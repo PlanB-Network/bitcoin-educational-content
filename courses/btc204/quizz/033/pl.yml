@@ -1,0 +1,9 @@
+question: Jeśli zaobserwujemy w prostej transakcji płatniczej, że wynik ma okrągłą kwotę, jaką prawdopodobną interpretację możemy z tego wyciągnąć?
+answer: Dane wyjściowe rundy nie są już w posiadaniu użytkownika wejściowego.
+wrong_answers:
+  - Okrągły wynik jest przeznaczony na opłaty transakcyjne.
+  - Wyjście rundy nadal należy do użytkownika wejściowego.
+  - Okrągłe wyjście to rezerwa Address.
+explanation: |
+  W przypadku prostego schematu płatności (1 wejście i 2 wyjścia), jeśli jedno z wyjść wyda okrągłą kwotę, wówczas reprezentuje ona płatność. W ten sposób opuszcza on posiadanie użytkownika wejściowego.
+reviewed: false

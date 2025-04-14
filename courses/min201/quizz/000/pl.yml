@@ -1,0 +1,14 @@
+question: Jaka jest obecna nagroda Mining w sieci Bitcoin?
+answer: Tworzenie nowych bitcoinów i opłaty transakcyjne
+wrong_answers:
+  - Tworzenie nowych bitcoinów tylko
+  - Tylko opłaty transakcyjne
+  - Tworzenie nowych bitcoinów, opłaty transakcyjne i premia dla najszybszego Miner
+explanation: |
+  Obecna nagroda Mining w sieci Bitcoin jest
+  podwójna. Obejmuje ona tworzenie nowych bitcoinów, które
+  zmniejszyła się początkowo z 50 bitcoinów co dziesięć minut
+  do 6,25 bitcoinów obecnie (2023 r.). Obejmuje również opłaty transakcyjne
+  lub opłaty Mining, pochodzące z transakcji, które Miner
+  zdecyduje się uwzględnić w swoim bloku.
+reviewed: true

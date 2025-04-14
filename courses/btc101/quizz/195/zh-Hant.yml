@@ -1,0 +1,8 @@
+question: 以下哪些行動可以幫助想要在日常生活中使用 Bitcoin 的人呢？
+answer: 準備一份所有接受 Bitcoin 的商家清單。
+wrong_answers:
+  - 提高 Bitcoin 的價格。
+  - 減少比特幣的數量。
+  - 限制使用 Bitcoin。
+explanation: >-
+reviewed: true

@@ -1,0 +1,17 @@
+question: Jakie są konsekwencje polityki zerowych stóp procentowych (ZIRP)?
+answer: ZIRP obniża marże banków, zniechęca do udzielania pożyczek przedsiębiorcom i osobom podejmującym ryzyko oraz zachęca rządy do angażowania się w rozległe wydatki, co prowadzi do wzrostu długu publicznego.
+wrong_answers:
+  - ZIRP zwiększa zyski banków, zachęca do udzielania pożyczek przedsiębiorcom i osobom podejmującym ryzyko oraz zniechęca do wydatków rządowych.
+  - ZIRP nie ma znaczącego wpływu na banki, praktyki kredytowe czy wydatki rządowe.
+  - ZIRP zmniejsza dług publiczny, zachęca do udzielania pożyczek przedsiębiorcom i osobom podejmującym ryzyko oraz zniechęca do wydatków rządowych.
+explanation: |
+  Polityka zerowych stóp procentowych (ZIRP) może mieć kilka
+  niezamierzone konsekwencje. Banki mają ograniczone możliwości
+  odbudować swój kapitał, ponieważ ich marże ulegają erozji.
+  Mają również niewielką motywację do udzielania pożyczek, zwłaszcza przedsiębiorcom i innym ryzykantom
+  przedsiębiorcom i innym osobom podejmującym ryzyko. Zamiast tego przeznaczają
+  na sekurytyzację istniejącego kapitału lub udzielanie pożyczek pod zastaw
+  pożyczek pod zastaw. Dodatkowo, ZIRP zachęca rządy do
+  rządy do angażowania się w szeroko zakrojone wydatki, co prowadzi do
+  do znacznego wzrostu poziomu długu publicznego.
+reviewed: true

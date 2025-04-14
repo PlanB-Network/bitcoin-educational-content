@@ -1,0 +1,13 @@
+question: Jaki jest jeden z podstawowych środków poprawy nawyków bezpieczeństwa online?
+answer: Włącz uwierzytelnianie dwuskładnikowe (2FA)
+wrong_answers:
+  - Używanie tego samego hasła dla wszystkich kont
+  - Zaniedbanie regularnego tworzenia kopii zapasowych danych
+  - Udostępnianie haseł
+explanation: |
+  Włączenie uwierzytelniania dwuskładnikowego (2FA) jest jednym z podstawowych środków
+  
+  w celu poprawy nawyków bezpieczeństwa online. Zapewnia dodatkowe Layer bezpieczeństwa dla
+  
+  najbardziej wrażliwych kont"
+reviewed: false

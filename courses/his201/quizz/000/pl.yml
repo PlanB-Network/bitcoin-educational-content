@@ -1,0 +1,9 @@
+question: W którym roku oficjalnie odkryto kryptografię asymetryczną?
+answer: 1976
+wrong_answers:
+  - 1676
+  - 1776
+  - 1876
+explanation: |
+  Został on wprowadzony przez Whitfielda Diffie i Martina Hellmana, dwóch kryptografów z Uniwersytetu Stanforda, w artykule opublikowanym w listopadzie 1976 roku.
+reviewed: false

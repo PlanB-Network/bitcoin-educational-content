@@ -1,0 +1,17 @@
+question: Jaki jest wpływ drukowania większej ilości pieniędzy na siłę nabywczą waluty?
+answer: Pogorszenie siły nabywczej waluty
+wrong_answers:
+  - Wzrost siły nabywczej waluty
+  - Brak wpływu
+  - Więcej pieniędzy = większa siła nabywcza
+explanation: |
+  Kiedy banki centralne decydują się na dodruk pieniądza, nie mogą po prostu stworzyć większej wartości.
+  Aby nowo wydrukowane pieniądze były coś warte, ich wartość musi pochodzić od
+  poprzednich posiadaczy waluty.
+  Pomyśl o pieniądzu Supply jak o pizzy i wyobraź sobie, że jest on pokrojony na cztery kromki.
+  Podwojenie pieniędzy Supply nie byłoby równoznaczne z podwojeniem ilości pizzy.
+  Zamiast tego byłoby to równoznaczne z przecięciem tych czterech plasterków na pół, aby stworzyć osiem plasterków
+  osiem. Nie zyskaliśmy żadnej dodatkowej pizzy. Mamy po prostu więcej kromek,
+  każdy mniejszy. Dlatego też, gdy drukujemy więcej pieniędzy, dewaluujemy pieniądze, które już istnieją
+  które już istnieją.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Jaki jest główny cel uwierzytelnionego schematu szyfrowania?
+answer: Zapewnienie poufności i autentyczności komunikacji
+wrong_answers:
+  - Klucze generate w bezpieczny sposób
+  - Zastąpienie MAC w wymianach kryptograficznych
+  - Automatyczne odszyfrowywanie przechwyconych wiadomości
+explanation: |
+  Uwierzytelniony schemat szyfrowania łączy szyfrowanie i kod uwierzytelniający (MAC), aby zagwarantować zarówno poufność wiadomości, jak i ich autentyczność.
+reviewed: false

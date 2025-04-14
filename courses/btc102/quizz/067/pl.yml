@@ -1,0 +1,11 @@
+question: Jaka jest najtrudniejsza część bycia Hodlerem według rozdziału?
+answer: Nic nie robić i trzymać się Bitcoin.
+wrong_answers:
+  - Zakup Bitcoin.
+  - Konfiguracja Cold Wallet.
+  - Ustanowienie planu spadkowego.
+explanation: |
+  Rozdział wspomina, że najtrudniejszą częścią bycia Hodlerem jest robienie
+  nic, tj. opieranie się pokusie sprzedaży i trzymanie się Bitcoin przez długi czas
+  przez długi czas.
+reviewed: false

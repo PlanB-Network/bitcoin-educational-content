@@ -1,0 +1,9 @@
+question: Jakie składniki zawiera RGB Consignment, który Bob (odbiorca) otrzymuje za Contract?
+answer: Genesis, Schema, Interface i Interface Implementation
+wrong_answers:
+  - Genesis, Schema, Przejście i rozszerzenie
+  - Schema, Interface, Podpis i PSBT
+  - Genesis, Interface, PSBT i historia
+explanation: |
+  Consignment RGB Contract obejmuje Genesis, Schema, Interface i Interface Implementation, które dostarczają wszystkich danych potrzebnych do walidacji Contract.
+reviewed: false

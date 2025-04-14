@@ -1,0 +1,12 @@
+question: Co oznacza brak klucza prywatnego do Bitcoin Wallet?
+answer: Strona trzecia jest odpowiedzialna za bezpieczeństwo bitcoinów użytkownika
+wrong_answers:
+  - Straciłeś wszystkie swoje bitcoiny
+  - Nie można już dokonywać transakcji przy użyciu bitcoinów
+  - Twoje bitcoiny są automatycznie konwertowane na inną kryptowalutę
+explanation: |
+  Jeśli nie posiadasz klucza prywatnego do Bitcoin Wallet, oznacza to, że
+  strona trzecia jest odpowiedzialna za bezpieczeństwo Twoich bitcoinów. Podlegają one
+  na takie samo ryzyko jak platformy Exchange, takie jak hakowanie, przejęcie, regulacja lub
+  bankructwo.
+reviewed: false

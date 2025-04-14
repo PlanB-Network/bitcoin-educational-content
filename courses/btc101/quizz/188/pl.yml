@@ -1,0 +1,8 @@
+question: Czym jest BTCMap?
+answer: Platforma zawierająca listę wszystkich sprzedawców akceptujących Bitcoin.
+wrong_answers:
+  - Mapa wszystkich kopalni Bitcoin na świecie.
+  - Mapa wszystkich giełd Bitcoin na świecie.
+  - Mapa wszystkich użytkowników Bitcoin na świecie.
+explanation: >-
+reviewed: true

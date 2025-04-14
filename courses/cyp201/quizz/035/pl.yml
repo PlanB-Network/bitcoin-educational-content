@@ -1,0 +1,9 @@
+question: Który standard Bitcoin wprowadza hierarchiczne deterministyczne portfele?
+answer: BIP32
+wrong_answers:
+  - BIP39
+  - BIP44
+  - BIP141
+explanation: |
+  BIP32 definiuje działanie portfeli HD, umożliwiając hierarchiczne wyprowadzanie kluczy prywatnych z seed.
+reviewed: false

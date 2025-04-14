@@ -4,6 +4,8 @@ description: Configurer et utiliser le hardware wallet Safe 5
 ---
 ![cover](assets/cover.webp)
 
+*Image credit: [Trezor.io](https://trezor.io/)*
+
 Le Trezor Safe 5 est un hardware wallet de dernière génération conçu par SatoshiLabs et lancé en 2024. Il se positionne comme une version haut de gamme du Safe 3, avec un accent mis sur l'ergonomie et la durabilité. Il bénéficie des mêmes avancées en termes de sécurité que son prédécesseur le Safe 3 par rapport au Model One et Model T.
 
 Proposé à 169 €, le Safe 5 se positionne dans la catégorie des hardware wallets haut de gamme, en concurrence avec des modèles tels que le Coldcard, Ledger Nano X et Flex, Jade Plus, Passport, ou encore Bitbox.
@@ -107,6 +109,11 @@ Sur Trezor Suite, cliquez sur le bouton "*Create new wallet*".
 ![Image](assets/fr/13.webp)
 
 Pour créer un portefeuille standard BIP39, commencez par sélectionner "*Legacy wallet backup types*" dans le menu déroulant, puis choisissez entre une phrase mnémonique de 12 ou 24 mots (12 mots étant actuellement recommandés). Cela vous permettra de créer un portefeuille single-sig classique. Je vous conseille d'opter pour des paramètres conformes au BIP39 ici, afin de faciliter la récupération et d'éviter d'être restreint à un environnement spécifique. Pour finaliser, cliquez sur "*Create wallet*".
+
+Si vous souhaitez en savoir plus sur les autres options de sauvegarde disponibles sur les Trezor, notamment le *Multi-share Backup*, je vous recommande de consulter également ce tutoriel :
+
+https://planb.network/tutorials/wallet/backup/trezor-shamir-backup-7f98b593-face-48fb-a643-0e811b87c94e
+
 
 ![Image](assets/fr/14.webp)
 
@@ -318,6 +325,8 @@ Vous pouvez la retrouver dans l'onglet "*Transactions*" de Sparrow Wallet.
 
 ![Image](assets/fr/54.webp)
 
-Félicitations, vous êtes maintenant au point sur l'utilisation de base du Trezor Safe 5 avec Sparrow Wallet ! Dans un prochain tutoriel, nous verrons comment utiliser un hardware wallet Trezor avec une passphrase BIP39 pour renforcer sa sécurité.
+Félicitations, vous êtes maintenant au point sur l'utilisation de base du Trezor Safe 5 avec Sparrow Wallet ! Pour aller plus loin, je vous recommande de consulter ce tutoriel complet sur l'utilisation d'un hardware wallet Trezor avec une passphrase BIP39 afin de renforcer votre sécurité :
+
+https://planb.network/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
 
 Si vous avez trouvé ce tutoriel utile, je vous serais reconnaissant de laisser un pouce vert ci-dessous. N'hésitez pas à partager cet article sur vos réseaux sociaux. Merci beaucoup !

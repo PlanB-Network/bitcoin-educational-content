@@ -4,6 +4,8 @@ description: Configurer et utiliser le hardware wallet Model One
 ---
 ![cover](assets/cover.webp)
 
+*Image credit: [Trezor.io](https://trezor.io/)*
+
 Le Trezor Model One est le tout premier hardware wallet jamais commercialisé, lancé en 2014 par SatoshiLabs. Après plus de dix ans d’existence, il demeure un choix intéressant, notamment pour les utilisateurs à la recherche d'un hardware wallet accessible à la fois techniquement et en termes de budget. En effet, il est proposé à 49 € sur le site officiel de Trezor. C'est un des seuls hardware wallets dans cette gamme de prix. Il se situe à mi-chemin entre les appareils d'entrée de gamme à environ 20 €, comme le Tapsigner, souvent dépourvus d'écran, et ceux du milieu de gamme, autour de 80 €, tels que le Ledger Nano S Plus ou le Trezor Safe 3.
 
 Le Model One est équipé d’un écran OLED monochrome de 0,96 pouce et de deux boutons physiques. Il fonctionne sans batterie, uniquement via une connexion micro-USB pour l’alimentation et les échanges de données.
@@ -179,6 +181,8 @@ Cliquez sur le bouton "*Scan*". Votre Model One devrait apparaitre.
 
 Lorsque vous connectez votre Model One à un ordinateur avec Sparrow Wallet ouvert, on vous proposera ensuite de saisir une passphrase BIP39 sur Sparrow. Cette option avancée sera abordée dans un futur tutoriel. Pour l'instant, vous pouvez simplement sélectionner "*Toggle Passphrase Off*" pour éviter que votre Trezor ne vous demande de saisir une passphrase à chaque démarrage.
 
+https://planb.network/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
+
 ![Image](assets/fr/26.webp)
 
 Cliquez sur "*Import Keystore*".
@@ -281,6 +285,8 @@ Vous pouvez la retrouver dans l'onglet "*Transactions*" de Sparrow Wallet.
 
 ![Image](assets/fr/47.webp)
 
-Félicitations, vous êtes maintenant au point sur l'utilisation de base du Trezor Model One avec Sparrow Wallet ! Dans un prochain tutoriel, nous verrons comment utiliser un hardware wallet Trezor avec une passphrase BIP39 pour renforcer sa sécurité.
+Félicitations, vous êtes maintenant au point sur l'utilisation de base du Trezor Model One avec Sparrow Wallet ! Pour aller plus loin, je vous recommande de consulter ce tutoriel complet sur l'utilisation d'un hardware wallet Trezor avec une passphrase BIP39 afin de renforcer votre sécurité :
+
+https://planb.network/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
 
 Si vous avez trouvé ce tutoriel utile, je vous serais reconnaissant de laisser un pouce vert ci-dessous. N'hésitez pas à partager cet article sur vos réseaux sociaux. Merci beaucoup !

@@ -35,7 +35,7 @@ It is also important to properly save this passphrase, in the same way as the mn
 
 To set up a passphrase on a Ledger device (Stax, Flex, or Nano), you can consult this tutorial:
 
-https://planb.network/tutorials/wallet/hardware/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 On a COLDCARD:
 
@@ -48,4 +48,5 @@ https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-
 On a Passport (batch-2):
 
 https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+
 

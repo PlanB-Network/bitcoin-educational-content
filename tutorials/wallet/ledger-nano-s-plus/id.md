@@ -121,7 +121,7 @@ Passphrase tidak boleh dikacaukan dengan kode PIN. Ini berperan dalam derivasi k
 
 Passphrase adalah alat yang sangat kuat untuk meningkatkan keamanan bitcoin Anda. Namun, sangat penting untuk memahami cara kerjanya sebelum mengimplementasikannya, untuk menghindari kehilangan akses ke dompet Anda. Inilah mengapa saya menyarankan Anda untuk berkonsultasi dengan tutorial lain ini yang didedikasikan jika Anda ingin menetapkan passphrase pada Ledger Anda:
 
-https://planb.network/tutorials/wallet/hardware/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 Menu "*PIN lock*" memungkinkan Anda untuk mengonfigurasi dan mengaktifkan penguncian otomatis Ledger Anda setelah periode ketidakaktifan yang ditentukan.
 
@@ -309,3 +309,4 @@ Jika Anda merasa tutorial ini bermanfaat, saya akan sangat menghargai jika Anda 
 Saya juga merekomendasikan Anda untuk memeriksa tutorial lengkap ini tentang Ledger Flex:
 
 https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+

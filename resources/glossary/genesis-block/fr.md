@@ -1,5 +1,5 @@
 ---
-term: GENÈSE (BLOC)
+term: GENESIS BLOCK
 ---
 
 Le bloc de Genèse est le premier bloc du système Bitcoin. Il incarne le lancement concret de Bitcoin. Le bloc de Genèse a été créé par le fondateur anonyme de Bitcoin, Satoshi Nakamoto, le 3 janvier 2009. Son hachage est :

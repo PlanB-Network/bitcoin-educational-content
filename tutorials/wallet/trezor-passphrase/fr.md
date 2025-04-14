@@ -113,7 +113,7 @@ Pour utiliser Sparrow Wallet par la suite, la procédure reste identique. À cha
 
 ![Image](assets/fr/17.webp)
 
-Félicitations, vous êtes maintenant au point sur l'utilisation de la passphrase BIP39 sur les hardware wallets Trezor. Pour aller plus loin dans la sécurisation de votre portefeuille, je vous conseille de découvrir ce tutoriel sur les systèmes de sauvegardes Multi-share de Trezor (*Shamir’s Secret Sharing Scheme*) :
+Félicitations, vous êtes maintenant au point sur l'utilisation de la passphrase BIP39 sur les hardware wallets Trezor. Pour aller plus loin dans la sécurisation de votre portefeuille, je vous conseille de découvrir ce tutoriel sur les systèmes de sauvegardes *Multi-share* de Trezor (*Shamir’s Secret Sharing Scheme*) :
 
 https://planb.network/tutorials/wallet/backup/trezor-shamir-backup-7f98b593-face-48fb-a643-0e811b87c94e
 

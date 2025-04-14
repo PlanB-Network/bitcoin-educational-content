@@ -94,3 +94,9 @@ tags:
   - node
   - guides
   - user-friendly
+
+  - language: hi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward:

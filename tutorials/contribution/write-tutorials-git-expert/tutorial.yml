@@ -21,7 +21,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.03
+    reward: 6.01
 
   - language: de
     last_contribution_date:
@@ -45,19 +45,19 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.03
+    reward: 6.01
 
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.03
+    reward: 6.01
 
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.51
+    reward: 7.49
 
   - language: it
     last_contribution_date:
@@ -69,13 +69,13 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.99
+    reward: 8.97
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.03
+    reward: 6.01
 
   - language: pt
     last_contribution_date:
@@ -87,19 +87,19 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.03
+    reward: 6.01
 
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.99
+    reward: 8.97
 
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.51
+    reward: 7.49
 tags:
   - guides
   - development

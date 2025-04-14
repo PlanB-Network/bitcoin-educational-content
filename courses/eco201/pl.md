@@ -98,7 +98,7 @@ Kiedy kupisz dom, zlecasz swojemu bankierowi przelanie pieniędzy na konto sprze
 ![image](assets/en/01.webp)
 
 
-Rysunek 1: Kreacja pieniądza jako zapis księgowy
+Rysunek 1: Tworzenie pieniądza przez zapis w księdze rachunkowej
 
 
 > „To dobrze, że ludzie w naszym narodzie nie rozumieją naszego systemu bankowego i monetarnego, bo gdyby tak było, jestem pewien, że rewolucja wybuchłaby jeszcze przed jutrzejszym porankiem”

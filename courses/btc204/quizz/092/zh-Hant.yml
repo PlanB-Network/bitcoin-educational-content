@@ -1,0 +1,10 @@
+question: 用於無法進入 Whirlpool CoinJoin 池的 UTXO 的帳戶名稱是什麼？
+answer: Doxxic 變更帳戶。
+wrong_answers:
+  - Postmix 帳戶。
+  - 預混合帳戶。
+  - 存款帳戶。
+explanation: |
+  無法加入池的變更會被隔離在 「doxxic 變更帳戶 」中，以確保與 Wallet 中的其他 UTXO 嚴格分離。
+  
+reviewed: false

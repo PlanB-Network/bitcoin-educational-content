@@ -1,0 +1,8 @@
+question: Jaki jest ogólny trend Bitcoin, biorąc pod uwagę jego ograniczony Supply i proces Halving?
+answer: Ogólny trend wzrostowy.
+wrong_answers:
+  - Ogólny trend spadkowy.
+  - Brak jakiegokolwiek trendu.
+  - Trend, który podlega gwałtownym wahaniom bez wyraźnego wzorca.
+explanation: >-
+reviewed: true

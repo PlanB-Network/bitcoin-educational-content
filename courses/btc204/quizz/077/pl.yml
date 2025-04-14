@@ -1,0 +1,10 @@
+question: Jaka jest główna różnica między CoinJoin a mikserem dozorowym?
+answer: CoinJoin pozwala zachować pełną kontrolę nad środkami.
+wrong_answers:
+  - CoinJoin wymaga tymczasowego zrzeczenia się opieki nad funduszami.
+  - Miksery są bezpieczniejsze niż coinjoiny.
+  - Miksery zapewniają lepszą jakość mieszania.
+explanation: |
+  Główną wadą mikserów w porównaniu do coinjoinów jest to, że wymagają one od użytkownika rezygnacji z opieki nad swoimi środkami podczas procesu miksowania, co naraża go na ryzyko kradzieży.
+  
+reviewed: false

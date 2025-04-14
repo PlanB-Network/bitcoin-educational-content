@@ -1,0 +1,11 @@
+question: 為什麼建議避免將您的比特幣留在 Exchange 平台上？
+answer: 它們很容易受到駭客攻擊。
+wrong_answers:
+  - Exchange 平台隨機收費。
+  - Bitcoin 在 Exchange 平台上失去價值。
+  - Exchange 平台並非監管機構。
+explanation: |
+  建議避免將您的比特幣留在 Exchange
+  平台上，因為它們很容易受到黑客的
+  攻擊。
+reviewed: true

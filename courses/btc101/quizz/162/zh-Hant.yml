@@ -1,0 +1,12 @@
+question: 礦工在 Bitcoin 協議中扮演什麼角色？
+answer: 它們確保現有和歷史網路的安全。
+wrong_answers:
+  - 他們調節 Bitcoin 的價格。
+  - 他們控制 Bitcoin 的 Supply。
+  - 它們管理使用者之間的交易。
+explanation: |
+  Bitcoin 協定中的礦工同時保護當前和歷史網路。
+  歷史網路。他們不會調節 Bitcoin 的價格、控制 Supply
+  控制其 Supply，也不管理使用者之間的交易。
+  用戶之間的交易。
+reviewed: true

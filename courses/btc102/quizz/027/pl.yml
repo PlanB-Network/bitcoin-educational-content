@@ -1,0 +1,11 @@
+question: Co oznacza niezmienność Bitcoin Blockchain?
+answer: Nie można go zmienić w czasie
+wrong_answers:
+  - Nie można go zhakować
+  - Nie można go skopiować
+  - Nie można go usunąć
+explanation: |
+  Niezmienność Bitcoin Blockchain oznacza, że po zarejestrowaniu transakcji
+  nie może zostać zmieniona ani usunięta. Zapewnia to integralność i
+  niezawodność Blockchain.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Co by się stało, gdyby użytkownik węzła zdecydował się przestrzegać innych zasad, które są sprzeczne z istniejącymi zasadami konsensusu?
+answer: Węzeł nie będzie już częścią sieci Bitcoin.
+wrong_answers:
+  - Węzeł stanie się częścią innej sieci Bitcoin.
+  - Węzeł zostanie ukarany przez sieć Bitcoin.
+  - Węzeł zostanie nagrodzony przez sieć Bitcoin.
+explanation: |
+  Jeśli użytkownik węzła zdecydował się przestrzegać innych zasad, które
+  które unieważniają bieżące zasady konsensusu, wówczas ten węzeł
+  nie będzie już częścią sieci Bitcoin.
+reviewed: true

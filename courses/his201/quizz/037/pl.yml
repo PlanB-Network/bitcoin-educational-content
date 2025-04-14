@@ -1,0 +1,9 @@
+question: Która usługa Exchange stworzona w marcu 2010 roku była najpopularniejsza przed pojawieniem się Mt. Gox w lipcu?
+answer: Rynek Bitcoin
+wrong_answers:
+  - BitcoinFX
+  - BitcoinExchange
+  - MyBitcoin
+explanation: |
+  Był to rynek peer-to-peer wykorzystujący PayPal, który został uruchomiony 16 marca 2010 r. przez osobę znaną jako dwdollar i był główną platformą przed Mt. Gox.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Jaka jest rola górników w sieci Bitcoin?
+answer: Górnicy odgrywają istotną rolę w walidacji i tworzeniu bloków.
+wrong_answers:
+  - Górnicy tylko zatwierdzają transakcje.
+  - Górnicy kontrolują cenę Bitcoin.
+  - Górnicy nie odgrywają żadnej roli w sieci Bitcoin.
+explanation: |
+  Górnicy odgrywają istotną rolę w sieci Bitcoin poprzez
+  walidację i tworzenie bloków. Wzmacniają oni sieć
+  przed cenzurą, wykorzystując energię elektryczną do obliczania
+  Proof of Work dla Bitcoin.
+reviewed: true

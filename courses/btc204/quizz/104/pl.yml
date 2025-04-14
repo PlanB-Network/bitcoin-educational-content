@@ -1,0 +1,10 @@
+question: Jaka jest maksymalna entropia transakcji?
+answer: Najwyższa entropia, jaką może osiągnąć struktura transakcji.
+wrong_answers:
+  - Najniższa entropia, jaką może osiągnąć struktura transakcji.
+  - Rzeczywista entropia transakcji.
+  - Wydajność transakcji.
+explanation: |
+  Maksymalna entropia odnosi się do najwyższej entropii, jaką teoretycznie może osiągnąć określona struktura transakcji.
+  
+reviewed: false

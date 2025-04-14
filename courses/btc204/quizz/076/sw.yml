@@ -1,0 +1,10 @@
+question: Muamala wa CoinJoin ni nini?
+answer: Muamala shirikishi ambapo watumiaji wengi huunganisha UTXO zao.
+wrong_answers:
+  - Muamala shirikishi kati ya watumiaji wawili pekee.
+  - Muamala ambapo mtumiaji mmoja hutuma pesa kwa anwani nyingi.
+  - Shughuli ambapo mwigizaji mkuu huchanganya bitcoins za wateja wao.
+explanation: |
+  Muamala wa CoinJoin ni muamala shirikishi ambapo watumiaji wengi huchanganya sarafu zao.
+  
+reviewed: false

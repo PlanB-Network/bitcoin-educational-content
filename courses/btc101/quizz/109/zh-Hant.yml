@@ -1,0 +1,11 @@
+question: 個人責任在 Bitcoin 中有何重要性？
+answer: 這是非常重要的，因為您負責備份。
+wrong_answers:
+  - 這是必要的，因為您必須挖掘比特幣。
+  - 購買比特幣是非常必要的。
+  - 這是非常重要的，因為您是 Wallet 主題的負責人。
+explanation: |
+  在 Bitcoin 中，財務主權與
+  個人責任，因為您必須依照建議的備份程序，自行保管
+  您的資金，並遵循建議的備份程序。
+reviewed: true

@@ -1,0 +1,11 @@
+question: Jaki był najwyższy nominał banknotu w Brazylii przed jego ostatnią denominacją w 1994 roku?
+answer: 500,000
+wrong_answers:
+  - 1,000,000
+  - 250,000
+  - 100,000
+explanation: |
+  Najwyższy nominał banknotu w Brazylii osiągnął 500 000, a ostatni
+  
+  redenominacja w 1994 r. została przeprowadzona po kursie 2,750 do 1"
+reviewed: false

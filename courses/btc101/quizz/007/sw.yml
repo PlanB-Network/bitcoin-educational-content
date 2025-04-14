@@ -1,0 +1,9 @@
+question: Kulingana na mshindi wa Tuzo ya Nobel F.A Hayek, ni nini lazima kifanyike ili kuwa na pesa nzuri tena?
+answer: Tunaondoa jambo hilo mikononi mwa serikali.
+wrong_answers:
+  - Tunatoa jambo hilo kwa serikali bora.
+  - Tunatoa jambo hilo kwa serikali ya kimabavu.
+  - Tunaondoa jambo hilo mikononi mwa watu.
+explanation: |
+  Hayek anasema: "Siamini kwamba tunapaswa kuwa na pesa nzuri tena, kabla hatujaondoa jambo hilo mikononi mwa serikali. Ikiwa hatuwezi kuwaondoa kwa jeuri kutoka mikononi mwa serikali, tunachoweza kufanya ni kwa njia fulani ya ujanja au ya kuzunguka-zunguka kuanzisha kitu ambacho hawawezi kuacha."
+reviewed: true

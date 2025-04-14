@@ -1,0 +1,9 @@
+question: Który metal był historycznie uważany za standardowy punkt odniesienia dla waluty?
+answer: Złoto
+wrong_answers:
+  - Srebro
+  - Miedź
+  - Brąz
+explanation: |
+  Złoto historycznie służyło jako standard ze względu na jego rzadkość, trwałość i powszechnie uznawaną wartość, co czyni je stabilną podstawą systemów monetarnych.
+reviewed: false

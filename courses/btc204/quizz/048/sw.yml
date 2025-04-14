@@ -1,0 +1,10 @@
+question: OP_RETURN ni nini katika shughuli ya Bitcoin?
+answer: Opcode inayoashiria towe kuwa batili na inaruhusu kuhifadhi data.
+wrong_answers:
+  - Opcode ambayo inathibitisha uhalali wa sahihi katika shughuli ya Bitcoin.
+  - Opcode ambayo ina kiungo kwa faili iliyohifadhiwa kwenye IPFS.
+  - Amri inayofuta shughuli kutoka kwa Bitcoin Blockchain.
+explanation: |
+  OP_RETURN ni msimbo wa opcode unaoashiria hati isiyosahihi, ikifanya matokeo yaliyomo kuwa yasiyoweza kutumika. Kwa hivyo, nodi za mtandao zinaweza kuondoa pato hili kutoka kwa seti yao ya UTXO. OP_RETURN mara nyingi hutumiwa kurekodi data kiholela katika Blockchain.
+  
+reviewed: false

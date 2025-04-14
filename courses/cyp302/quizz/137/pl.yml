@@ -1,0 +1,9 @@
+question: Dlaczego hasła są często przechowywane jako skróty na bezpiecznych serwerach?
+answer: Aby zapobiec łatwemu odzyskaniu haseł w przypadku wycieku
+wrong_answers:
+  - Aby zwiększyć rozmiar magazynu danych użytkownika
+  - Szyfrowanie haseł w czasie rzeczywistym w sposób symetryczny
+  - Aby umożliwić użytkownikom logowanie się bez hasła
+explanation: |
+  Dzięki przechowywaniu skrótów haseł, nawet w przypadku naruszenia danych, rzeczywiste hasła nie mogą być bezpośrednio odczytane, co zwiększa bezpieczeństwo.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Jaka jest jedna z głównych cech Bitcoin?
+answer: Może być wymieniany w dowolnym miejscu na świecie bez autoryzacji ze strony jakiegokolwiek podmiotu.
+wrong_answers:
+  - Może być używany tylko przez wybraną grupę osób.
+  - Wymaga autoryzacji od centralnego organu.
+  - Może być używany tylko w niektórych krajach.
+explanation: |
+  Tekst wspomina, że Bitcoin jest pseudonimowy i może być
+  wymieniany w dowolnym miejscu na świecie bez autoryzacji
+  jakiegokolwiek podmiotu.
+reviewed: true

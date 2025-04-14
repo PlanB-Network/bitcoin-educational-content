@@ -1,7 +1,7 @@
 # generate a random uuid v4
 id: 5dba9b01-7c15-40cb-a470-06baa228ac64
 
-# Complete name of the Conference
+# Complete name of the content
 # with year to avoid duplication
 name: Adopting Bitcoin 2021
 
@@ -42,7 +42,7 @@ proofreading:
     reward: # leave as empty
 
 # Tags
-# List the associated tags to the newsletter
+# Choose from the list the associated tags to this content
 # The list of tags is composed of 51 items that can be found here (bitcoin-education-content/docs/50-planb-tags.md)
 tags:
   - adoption

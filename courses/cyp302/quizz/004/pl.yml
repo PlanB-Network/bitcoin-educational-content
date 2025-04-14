@@ -1,0 +1,9 @@
+question: Jaki jest główny powód, dla którego inne szyfry Beale'a pozostają nierozszyfrowane?
+answer: Klucz do tych szyfrów jest wciąż nieznany
+wrong_answers:
+  - Zaszyfrowane teksty są zbyt stare
+  - Skrzynka zaginęła, zanim udało się ją rozszyfrować
+  - Badaczom brakuje wiarygodnych dokumentów historycznych
+explanation: |
+  Pozostałe szyfry Beale'a nigdy nie zostały rozszyfrowane, ponieważ klucz niezbędny do ich odczytania pozostaje nieznany, pomimo licznych prób.
+reviewed: false

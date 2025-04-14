@@ -1,0 +1,9 @@
+question: Jaki jest cel Terminal Consignment w procesie transferu RGB?
+answer: Udostępnianie historii przejść między stanami
+wrong_answers:
+  - Walidacja Genesis Contract
+  - Usuń stare przejścia
+  - generate nowy Schema dla transferu
+explanation: |
+  Terminal Consignment gromadzi historię Contract, aby udowodnić legalność przekazanego do tej pory zasobu.
+reviewed: false

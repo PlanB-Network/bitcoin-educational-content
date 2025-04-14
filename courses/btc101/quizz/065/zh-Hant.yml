@@ -1,0 +1,12 @@
+question: Bitcoin 符合哪些經濟原則？
+answer: 奧地利經濟學原理。
+wrong_answers:
+  - 凱恩斯經濟學原理。
+  - 馬克思主義經濟學原理。
+  - 新古典經濟學原理。
+explanation: |
+  Bitcoin 符合奧地利經濟學的原則。
+  它的數量上限和缺乏中央實體保護了它
+  的固有通脹風險。
+  傳統貨幣的通貨膨脹風險。
+reviewed: true

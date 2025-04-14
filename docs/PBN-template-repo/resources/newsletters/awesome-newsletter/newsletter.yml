@@ -32,7 +32,7 @@ contributor_names:
   - author1_github_username #insert your github username
 
 # Tags
-# List the associated tags to the newsletter
+# Choose from the list the associated tags to this content
 # The list of tags is composed of 51 items that can be found here (bitcoin-education-content/docs/50-planb-tags.md)
 tags:
   - market-trends

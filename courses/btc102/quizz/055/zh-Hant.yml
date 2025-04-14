@@ -1,0 +1,11 @@
+question: 什麼是 Lightning Network？
+answer: 它是 Bitcoin 的第二個 Layer。
+wrong_answers:
+  - 它是加密貨幣 Exchange。
+  - 它是 Bitcoin Wallet 的一種。
+  - 它是 Bitcoin Mining pool。
+explanation: |
+  Lightning Network 是應用於 Bitcoin 的第二個 Layer 技術。
+  的第二個 Layer 技術。
+  交易。
+reviewed: false

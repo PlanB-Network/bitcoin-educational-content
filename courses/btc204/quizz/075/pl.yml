@@ -1,0 +1,10 @@
+question: Jaki jest główny cel transakcji CoinJoin?
+answer: Złamanie historii monety.
+wrong_answers:
+  - Zmniejszenie opłat transakcyjnych.
+  - Aby uczynić bitcoiny niewykrywalnymi.
+  - Aby zwiększyć szybkość potwierdzania.
+explanation: |
+  Celem transakcji CoinJoin jest przerwanie historii monety. Wbrew pozorom technika ta nie zapewnia trwałej anonimowości ani nie blokuje śledzenia bitcoinów. CoinJoin ma na celu jedynie przerwanie historii w punkcie, w którym dokonywana jest transakcja CoinJoin.
+  
+reviewed: false

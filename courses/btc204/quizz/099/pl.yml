@@ -1,0 +1,10 @@
+question: Co mierzy retrospektywny anonset?
+answer: Opór prywatności przed analizą teraźniejszości do przeszłości.
+wrong_answers:
+  - Opór prywatności przed analizą przeszłości i przyszłości.
+  - Opór prywatności przed analizą teraźniejszości i przyszłości.
+  - Opór prywatności przed analizą od przeszłości do teraźniejszości.
+explanation: |
+  Anons retrospektywny mierzy odporność prywatności monety na analizę teraźniejszości do przeszłości (wyjście do wejścia).
+  
+reviewed: false

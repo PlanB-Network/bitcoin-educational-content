@@ -1,0 +1,13 @@
+question: Jaka jest zalecana praktyka zarządzania hasłem głównym menedżera haseł?
+answer: Zapisz je na papierze i przechowuj w ukrytym i bezpiecznym miejscu.
+wrong_answers:
+  - Przechowuj je w wiadomości e-mail.
+  - Używaj tego samego hasła dla wszystkich kont.
+  - Zapamiętaj to.
+explanation: |
+  Zaleca się zapisanie hasła głównego menedżera haseł na papierze
+  na papierze, ale powinno być ono przechowywane w ukrytym i bezpiecznym miejscu
+  ukrytej i bezpiecznej lokalizacji. Wynika to z faktu, że jeśli dysk Hard
+  jest zaszyfrowany, a komputer jest zablokowany, hasło nie będzie dostępne nawet w przypadku włamania
+  nie będzie dostępne, nawet w przypadku włamania.
+reviewed: true

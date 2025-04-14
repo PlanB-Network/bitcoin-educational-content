@@ -1,0 +1,9 @@
+question: Jak nazywał się rozproszony protokół kredytowy zaprojektowany przez Ryana Fuggera w 2004 roku i kilkakrotnie wspomniany przez Satoshi Nakamoto w jego pismach?
+answer: Ripple
+wrong_answers:
+  - Fale
+  - Tsunami
+  - Swell
+explanation: |
+  W 2009 r. Satoshi [napisał] (https: //diyhpl.us/~bryan/irc/Bitcoin-Satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2009-February/001362.html), że Ripple \[był] wyjątkowy, ponieważ rozprzestrzeniał zaufanie, zamiast je koncentrować.
+reviewed: false

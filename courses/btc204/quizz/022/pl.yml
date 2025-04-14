@@ -1,0 +1,9 @@
+question: Jak nazywa się wzorzec składający się z pojedynczego UTXO na wejściu i pojedynczego UTXO na wyjściu?
+answer: Zamiatanie
+wrong_answers:
+  - Konsolidacja
+  - CoinJoin
+  - Wydatki na partię
+explanation: |
+  Interpretacja tej struktury jest taka, że mamy do czynienia z zamiataniem, czyli samodzielnym transferem bitcoinów.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Not your keys, not your Bitcoins 這句話強調什麼？
+answer: 擁有私密金鑰對 Bitcoin Wallet 的重要性
+wrong_answers:
+  - 擁有實體鑰匙以存取比特幣的重要性
+  - 將您的 Bitcoins 存放在安全地方的重要性
+  - 不分享 Bitcoin 帳戶詳細資料的重要性
+explanation: |
+  該章節解釋了 Not your keys, not your Bitcoins（不是你的鑰匙，不是你的比特幣）這句話。
+  強調擁有 Bitcoin Wallet 私密金鑰的重要性。擁有
+  私钥，您就可以完全控制它所包含的比特币。
+reviewed: false

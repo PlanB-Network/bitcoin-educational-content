@@ -1,0 +1,13 @@
+question: Co to jest Multisig Wallet?
+answer: Zestaw portfeli, który wymaga wielu podpisów do przeprowadzenia transakcji.
+wrong_answers:
+  - Wallet, który wymaga pojedynczego podpisu do wykonania transakcji.
+  - Wallet, który nie wymaga podpisów do przeprowadzenia transakcji.
+  - Wallet, który wymaga fizycznego podpisu w celu przeprowadzenia transakcji.
+explanation: |
+  Multisig Wallet jest rodzajem Bitcoin Wallet, który wymaga
+  wielu podpisów do wykonania transakcji. Dodaje to
+  dodatkowy Layer bezpieczeństwa, ponieważ oznacza to, że pojedyncza osoba
+  nie może wykonać transakcji bez zgody
+  innych osób.
+reviewed: true

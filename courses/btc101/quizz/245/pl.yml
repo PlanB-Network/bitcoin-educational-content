@@ -1,0 +1,8 @@
+question: Jakie są potencjalne konsekwencje rozwoju technologii AI?
+answer: Technologie AI doprowadzą do zniknięcia ponad 80% dzisiejszych miejsc pracy.
+wrong_answers:
+  - Technologie AI zniszczą wszystkie komputery.
+  - Technologie AI doprowadzą do spadku ludzkiej inteligencji.
+  - Technologie AI spowodują globalne załamanie gospodarcze.
+explanation: >-
+reviewed: true

@@ -1,0 +1,10 @@
+question: Boltzmann 分數在 Bitcoin 交易中代表什麼？
+answer: 輸入與指定輸出相連的條件概率。
+wrong_answers:
+  - 轉移的 bitcoins 總金額。
+  - 交易中的輸入數量。
+  - 與每個輸入或輸出相關的熵。
+explanation: |
+  Boltzmann 分數表示特定輸入與特定輸出相連的條件概率。因此，它是交易中輸入與輸出之間發生關聯的條件概率的定量測量，建立在此事件的有利發生次數與可能發生的總次數的比率之上。
+  
+reviewed: false

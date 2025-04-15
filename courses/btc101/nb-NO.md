@@ -519,7 +519,7 @@ Siden 2017 kan den private nøkkelen heldigvis representeres av en enkel liste m
 
 ### Hva med hackere?
 
-Hva om noen ved et uhell gjetter listen vår med 12 eller 24 ord? Det korte svaret er at det er svært usannsynlig, takket være kryptografien som brukes til å lage lommeboken. For å sette det i perspektiv, er det å oppdage den samme mnemoniske frasen ved et uhell det samme som å finne det "riktige" tallet mellom 1 og $2^256$, noe som nesten tilsvarer å finne det "riktige" atomet i universet. Hvis du ikke er fornøyd med denne standardsikkerheten, kan du imidlertid alltid forbedre den ved å legge til en passordfrase (et ekstra ord) i Bitcoin-lommeboken din.
+Hva om noen ved et uhell gjetter listen vår med 12 eller 24 ord? Det korte svaret er at det er svært usannsynlig, takket være kryptografien som brukes til å lage lommeboken. For å sette det i perspektiv, er det å oppdage den samme mnemoniske frasen ved et uhell det samme som å finne det "riktige" tallet mellom 1 og 2 opphøyd i 256, noe som nesten tilsvarer å finne det "riktige" atomet i universet. Hvis du ikke er fornøyd med denne standardsikkerheten, kan du imidlertid alltid forbedre den ved å legge til en passordfrase (et ekstra ord) i Bitcoin-lommeboken din.
 
 ![image](assets/en/29.webp)
 

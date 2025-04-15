@@ -736,7 +736,7 @@ Na szczęście od 2017 r. klucz prywatny może być reprezentowany przez prostą
 ### A co z hakerami?
 
 
-Co jeśli ktoś przypadkowo odgadnie naszą listę 12 lub 24 słów? Krótka odpowiedź brzmi, że jest to bardzo mało prawdopodobne, dzięki kryptografii użytej do stworzenia Wallet. Aby spojrzeć na to z perspektywy, przypadkowe odkrycie tej samej frazy Mnemonic jest podobne do znalezienia "właściwej" liczby między 1 a $2^256 $, co jest prawie równoważne znalezieniu "właściwego" atomu we Wszechświecie. Jeśli jednak nie jesteś zadowolony z tego domyślnego zabezpieczenia, zawsze możesz je ulepszyć, dodając passphrase (dodatkowe słowo) do Bitcoin Wallet.
+Co jeśli ktoś przypadkowo odgadnie naszą listę 12 lub 24 słów? Krótka odpowiedź brzmi, że jest to bardzo mało prawdopodobne, dzięki kryptografii użytej do stworzenia Wallet. Aby spojrzeć na to z perspektywy, przypadkowe odkrycie tej samej frazy Mnemonic jest podobne do znalezienia "właściwej" liczby między 1 a 2 do potęgi 256, co jest prawie równoważne znalezieniu "właściwego" atomu we Wszechświecie. Jeśli jednak nie jesteś zadowolony z tego domyślnego zabezpieczenia, zawsze możesz je ulepszyć, dodając passphrase (dodatkowe słowo) do Bitcoin Wallet.
 
 
 ![image](assets/en/29.webp)

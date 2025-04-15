@@ -519,7 +519,7 @@ Fortunatamente, dal 2017, la chiave privata può essere rappresentata da un semp
 
 ### E riguardo agli hacker?
 
-Cosa succede se qualcuno indovina per sbaglio il nostro elenco di 12 o 24 parole? La risposta breve è che è altamente improbabile, grazie alla crittografia utilizzata per creare il wallet. Per intenderci: scoprire per sbaglio la vostra stessa frase mnemonica è come trovare il numero "giusto" compreso tra 1 e $2^256$, che è quasi equivalente a trovare l'atomo "giusto" nell'universo. Tuttavia, se non siete soddisfatti di questa sicurezza predefinita, potete sempre migliorarla aggiungendo una passphrase (una parola in più) al vostro wallet Bitcoin.
+Cosa succede se qualcuno indovina per sbaglio il nostro elenco di 12 o 24 parole? La risposta breve è che è altamente improbabile, grazie alla crittografia utilizzata per creare il wallet. Per intenderci: scoprire per sbaglio la vostra stessa frase mnemonica è come trovare il numero "giusto" compreso tra 1 e 2 alla potenza di 256, che è quasi equivalente a trovare l'atomo "giusto" nell'universo. Tuttavia, se non siete soddisfatti di questa sicurezza predefinita, potete sempre migliorarla aggiungendo una passphrase (una parola in più) al vostro wallet Bitcoin.
 
 ![image](assets/en/29.webp)
 

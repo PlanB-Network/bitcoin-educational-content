@@ -519,7 +519,7 @@ Untungnya, sejak tahun 2017, kunci pribadi dapat diwakili oleh sebuah daftar sed
 
 ### Bagaimana dengan peretas?
 
-Bagaimana jika seseorang secara tidak sengaja menebak daftar 12 atau 24 kata yang kita miliki? Jawaban singkatnya adalah hal ini sangat tidak mungkin terjadi, berkat kriptografi yang digunakan untuk membuat dompet. Sebagai gambaran, secara tidak sengaja menemukan frasa mnemonic yang sama sama halnya dengan menemukan angka yang "tepat" antara 1 dan $2^256$, yang hampir sama dengan menemukan atom yang "tepat" di alam semesta. Akan tetapi, jika Anda tidak puas dengan keamanan default ini, Anda dapat meningkatkannya dengan menambahkan kata sandi (sebuah kata tambahan) ke dalam dompet Bitcoin Anda.
+Bagaimana jika seseorang secara tidak sengaja menebak daftar 12 atau 24 kata yang kita miliki? Jawaban singkatnya adalah hal ini sangat tidak mungkin terjadi, berkat kriptografi yang digunakan untuk membuat dompet. Sebagai gambaran, secara tidak sengaja menemukan frasa mnemonic yang sama sama halnya dengan menemukan angka yang "tepat" antara 1 dan 2 pangkat 256, yang hampir sama dengan menemukan atom yang "tepat" di alam semesta. Akan tetapi, jika Anda tidak puas dengan keamanan default ini, Anda dapat meningkatkannya dengan menambahkan kata sandi (sebuah kata tambahan) ke dalam dompet Bitcoin Anda.
 
 ![image](assets/en/29.webp)
 

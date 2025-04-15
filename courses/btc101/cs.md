@@ -519,7 +519,7 @@ Od roku 2017 lze naštěstí soukromý klíč reprezentovat jednoduchým sezname
 
 ### A co hackeři?
 
-Co když někdo náhodou uhodne náš seznam 12 nebo 24 slov? Stručná odpověď zní, že je to velmi nepravděpodobné díky kryptografii použité k vytvoření peněženky. Abychom to uvedli na pravou míru, náhodné objevení stejné mnemotechnické fráze se podobá nalezení "správného" čísla mezi 1 a $2^256$, což je téměř ekvivalentní nalezení "správného" atomu ve vesmíru. Pokud však nejste s tímto výchozím zabezpečením spokojeni, můžete ho vždy zvýšit přidáním heslové fráze (dalšího slova) do své bitcoinové peněženky.
+Co když někdo náhodou uhodne náš seznam 12 nebo 24 slov? Stručná odpověď zní, že je to velmi nepravděpodobné díky kryptografii použité k vytvoření peněženky. Abychom to uvedli na pravou míru, náhodné objevení stejné mnemotechnické fráze se podobá nalezení "správného" čísla mezi 1 a 2 na 256, což je téměř ekvivalentní nalezení "správného" atomu ve vesmíru. Pokud však nejste s tímto výchozím zabezpečením spokojeni, můžete ho vždy zvýšit přidáním heslové fráze (dalšího slova) do své bitcoinové peněženky.
 
 ![image](assets/en/29.webp)
 

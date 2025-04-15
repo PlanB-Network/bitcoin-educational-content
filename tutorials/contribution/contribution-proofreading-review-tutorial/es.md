@@ -1,6 +1,6 @@
 ---
 name: Proofreading o revisión de contenido
-description: Cómo participar en la revisión de contenidos educativos en la Red Plan ₿?
+description: Cómo participar en la revisión de contenidos educativos en Plan ₿ Network?
 ---
 ![github](assets/cover.webp)
 
@@ -11,7 +11,7 @@ Si quieres participar en la revisión y corrección de contenidos para Plan ₿ 
 Si no has entendido la parte de arriba, no te preocupes: ¡este tutorial es para ti!
 
 ---
-## ¿Qué es el Plan ₿ Network?
+## ¿Qué es Plan ₿ Network?
 
 Plan ₿ Network es una plataforma para aprender sobre Bitcoin a través de numerosos cursos y tutoriales para todos. Actualmente, todo nuestro contenido es de código abierto, alojado en un repositorio de GitHub y está abierto a contribuciones para revisión y creación de contenido.
 

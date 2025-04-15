@@ -1,0 +1,9 @@
+question: Which RGB mechanism ensures resistance to double spending?
+answer: Single-Use Seal
+wrong_answers:
+  - Multi-use Seal
+  - Double-signature
+  - Proof-of-Stake
+explanation: |
+  Single-Use Seal uses the fact that a UTXO can only be spent once on RGB contracts to ensure resistance to double-spending.
+reviewed: false

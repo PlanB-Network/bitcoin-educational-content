@@ -1,0 +1,9 @@
+question: What action is essential for your heirs to recover your bitcoins without error?
+answer: Provide clear instructions
+wrong_answers:
+  - Entrust all private keys
+  - Change passwords frequently
+  - Use a KYC exchange platform
+explanation: |
+  Detailed, easy-to-understand instructions ensure that your loved ones can access the funds correctly.
+reviewed: false

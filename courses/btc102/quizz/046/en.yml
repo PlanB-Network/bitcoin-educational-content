@@ -1,0 +1,9 @@
+question: Which tool lets you monitor your portfolio without exposing your private keys?
+answer: Watch-only wallet
+wrong_answers:
+  - Hot Wallet
+  - Lightning Wallet
+  - Custodial Wallet
+explanation: |
+  A watch-only Wallet uses only public keys to display balances and transactions, with no risk of exposing private keys.
+reviewed: false

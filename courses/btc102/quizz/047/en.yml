@@ -1,0 +1,9 @@
+question: What is the best way to secure funds accumulated over the long term?
+answer: Hardware Wallet
+wrong_answers:
+  - Hot Wallet
+  - Lightning Wallet
+  - Exchange platform
+explanation: |
+  The Hardware Wallet stores private keys offline, offering enhanced security for large amounts over the long term.
+reviewed: false

@@ -1,0 +1,9 @@
+question: What is the active user's main objective?
+answer: Use Bitcoin as a daily payment method
+wrong_answers:
+  - Long-term investment in Bitcoin
+  - Accumulate satoshis gradually
+  - Speculating on the market
+explanation: |
+  The active user integrates Bitcoin into his daily life to carry out transactions and support its adoption.
+reviewed: false

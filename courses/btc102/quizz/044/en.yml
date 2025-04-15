@@ -1,0 +1,9 @@
+question: What is the origin of the term hodler?
+answer: A deformation of hold
+wrong_answers:
+  - An acronym for hold
+  - An abbreviation of Hot Wallet
+  - A contraction of HODL chain
+explanation: |
+  The term hodler comes from a typo on Bitcoin Talk, transforming "hold" into "HODL" to mean long-term preservation.
+reviewed: false

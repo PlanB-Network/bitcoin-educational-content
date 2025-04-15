@@ -1,0 +1,9 @@
+question: What is Bitcoin's major political implication?
+answer: Reducing state control over money
+wrong_answers:
+  - Increase centralized banking
+  - Encouraging inflation
+  - Strengthening financial regulations
+explanation: |
+  Bitcoin is an alternative that weakens the power of state institutions over money, via seigniorage and censorship of transactions.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Which acquisition method does the paranoid avoid?
+answer: Centralized platforms with KYC
+wrong_answers:
+  - Matchmaking platforms P2P
+  - Bitcoin vending machines
+  - Direct purchase for cash at meetups
+explanation: |
+  To preserve his anonymity, the paranoid user refuses platforms that require identity verification.
+reviewed: false

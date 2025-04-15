@@ -1,0 +1,9 @@
+question: What is Bitcoin's main advantage in the face of currency crises?
+answer: Protect your savings against inflation
+wrong_answers:
+  - Raising interest rates
+  - Guaranteeing fixed returns
+  - Offering bank insurance
+explanation: |
+  Bitcoin offers protection against currency devaluation thanks to its predictable issue policy.
+reviewed: false

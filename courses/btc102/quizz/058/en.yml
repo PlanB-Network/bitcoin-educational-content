@@ -1,0 +1,9 @@
+question: Which cold storage solution is best for the paranoid?
+answer: Hardware Wallet air-gapped or DIY
+wrong_answers:
+  - Hot Wallet on mobile
+  - Custodial service on an exchange platform
+  - Hardware Wallet general-purpose closed-source
+explanation: |
+  Paranoids prefer offline storage with open-source solutions to limit the risk of exposure.
+reviewed: false

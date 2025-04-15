@@ -1,0 +1,9 @@
+question: Which second-layer protocol enables near-instantaneous payments?
+answer: Lightning Network
+wrong_answers:
+  - Sidechains
+  - RGB
+  - Bitcoin Core
+explanation: |
+  Lightning Network enables fast, low-cost transactions outside Blockchain Bitcoin.
+reviewed: false

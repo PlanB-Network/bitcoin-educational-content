@@ -1,0 +1,9 @@
+question: What major advantage does the layered approach offer Bitcoin?
+answer: Maintaining base protocol security
+wrong_answers:
+  - Increase centralization of the main network
+  - Rapid innovation in base protocol
+  - Benefit from the same overlay features as the base protocol
+explanation: |
+  The layered approach makes it possible to add functionality without altering the security and simplicity of the basic protocol.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Who invented Lightning Network?
+answer: Thaddeus Dryja and Joseph Poon
+wrong_answers:
+  - Andreas Antonopoulos and Adam Back
+  - Pieter Wuille and Gregory Maxwell
+  - Satoshi Nakamoto and Hal Finney
+explanation: |
+  Thaddeus Dryja and Joseph Poon invented Lightning Network in 2016 to improve the scalability of Bitcoin.
+reviewed: false

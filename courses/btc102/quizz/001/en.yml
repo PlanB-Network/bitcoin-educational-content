@@ -1,0 +1,9 @@
+question: What can you do to identify a phishing attempt in the crypto sector?
+answer: Check the sender's identity
+wrong_answers:
+  - Click only on the links received in the email
+  - Sharing private keys to confirm authenticity
+  - Rely only on logos and images in emails
+explanation: |
+  Always make sure you're interacting with the right person, and never use links presented by email. Go directly to the site manually, from your browser favorites.
+reviewed: false

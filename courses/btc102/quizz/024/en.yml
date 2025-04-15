@@ -1,0 +1,9 @@
+question: How did Barack Obama describe Bitcoin?
+answer: A Swiss bank in your pocket
+wrong_answers:
+  - Digital gold
+  - A highly speculative asset
+  - A decentralized currency
+explanation: |
+  Barack Obama once described Bitcoin as the "Swiss bank in your pocket". Indeed, Bitcoin offers the same opportunities to all, regardless of your status, and allows you to make confidential transactions.
+reviewed: false

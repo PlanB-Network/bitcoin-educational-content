@@ -1,0 +1,9 @@
+question: What's the main difference between Bitcoin and altcoins?
+answer: Decentralization
+wrong_answers:
+  - Liquidity
+  - Reputation
+  - Privacy
+explanation: |
+  Bitcoin is highlighted for its decentralization, unlike most altcoins, which are more or less centralized.
+reviewed: false

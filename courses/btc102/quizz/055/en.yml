@@ -1,0 +1,9 @@
+question: What is the best medium for safely storing your mnemonic phrase?
+answer: Metal stand with sealed opaque envelope
+wrong_answers:
+  - Storage on an encrypted USB key
+  - Paper holder with transparent pocket
+  - Secure cloud backup
+explanation: |
+  Disaster-resistant metal backing provides lasting protection against damage and unauthorized access. The sealed opaque envelope ensures that no-one has gained access to the mnemonic phrase.
+reviewed: false

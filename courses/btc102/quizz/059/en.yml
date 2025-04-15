@@ -1,0 +1,9 @@
+question: What is the paranoid bitcoiner's main goal?
+answer: Protecting your privacy
+wrong_answers:
+  - Accumulate satoshis quickly
+  - Maximizing trading profits
+  - Keeping bitcoins for the long term
+explanation: |
+  The paranoid person seeks above all to avoid any traceability of his transactions and identity.
+reviewed: false

@@ -1,0 +1,9 @@
+question: What precautions should you take against donation scams and fraudulent lotteries?
+answer: Never send money to receive bitcoins
+wrong_answers:
+  - Always send a small amount to test the offer
+  - Investing for fast, effortless returns
+  - Share personal information to secure the operation
+explanation: |
+  The request to send money in advance is a sign of scamming in this type of fraud.
+reviewed: false

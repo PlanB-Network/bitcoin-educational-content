@@ -1,0 +1,9 @@
+question: What is the main purpose of stacking?
+answer: Accumulate satoshis gradually
+wrong_answers:
+  - Short-term speculation
+  - Buy a large quantity of satoshis at once
+  - Use Bitcoin for daily payments
+explanation: |
+  The stacker invests small sums at regular intervals to smooth out the average purchase price.
+reviewed: false

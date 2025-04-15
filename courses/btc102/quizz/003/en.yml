@@ -1,0 +1,9 @@
+question: What is Pump and Dump in cryptocurrencies?
+answer: Manipulating an asset with a peak selling campaign
+wrong_answers:
+  - Buy an asset massively to support its price without ever selling it
+  - Stabilize the market over the long term with opposite trades
+  - Make recurring purchases to gain long-term exposure to the asset
+explanation: |
+  This fraudulent technique consists in artificially creating a price rise in order to sell at a critical moment and cause the value to fall.
+reviewed: false

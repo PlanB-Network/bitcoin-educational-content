@@ -1,0 +1,9 @@
+question: What are the advantages of managing your own Bitcoin node?
+answer: Independence
+wrong_answers:
+  - Liquidity
+  - Centralization
+  - Speed
+explanation: |
+  Setting up your own node guarantees independence from third parties and protects the confidentiality of transactions.
+reviewed: false

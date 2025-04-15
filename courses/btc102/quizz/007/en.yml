@@ -1,0 +1,9 @@
+question: What does the 3-2-1 rule mean for data backup?
+answer: 3 copies on 2 media, including 1 off-site
+wrong_answers:
+  - 3 copies on 2 online supports and 1 physical support
+  - 3 supports with 2 copies, 1 off-site
+  - 3 copies, 2 encrypted and 1 off-site
+explanation: |
+  This rule recommends 3 copies of data on 2 different media, with 1 copy stored off-site for greater resilience.
+reviewed: false

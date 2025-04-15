@@ -1,0 +1,9 @@
+question: What method is used to protect the onchain traceability of transactions?
+answer: Using coinjoin and payjoin techniques
+wrong_answers:
+  - Reuse the same reception address
+  - Frequent consolidation of UTXOs
+  - Deposit on a custodial portfolio
+explanation: |
+  Coinjoins and payjoins improve the confidentiality of onchain shares.
+reviewed: false

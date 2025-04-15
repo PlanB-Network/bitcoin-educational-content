@@ -1,0 +1,8 @@
+question: Lightning Network 提供了哪些潛在商機？
+answer: 新的經濟模式，消費者依據所消費的內容付費。
+wrong_answers:
+  - 新的經濟模式，消費者使用不同的加密貨幣付款。
+  - 消費者使用個人化區塊鏈的新經濟模式。
+  - 新的經濟模式，消費者不需為任何內容付費。
+explanation: >-
+reviewed: true

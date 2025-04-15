@@ -23,6 +23,28 @@ Tootnud BTCPay Serveri Sihtasutus
 
 <partId>59e43fe3-b494-5da6-b4b4-9df5bdf08916</partId>
 
+## Kursuse ülevaade
+
+<chapterId>785ed2bc-94ae-4962-a26a-edf5742a3c72</chapterId>
+
+Tere tulemast kursusele BTC305 BTCPay Serveri kohta!
+
+Selle koolituse eesmärk on õpetada teid installima, seadistama ja kasutama BTCPay Serverit oma ettevõttes või organisatsioonis. BTCPay Server on avatud lähtekoodiga lahendus, mis võimaldab bitcoini makseid töödelda iseseisvalt, turvaliselt ja ökonoomselt. See kursus on mõeldud peamiselt edasijõudnud kasutajatele, kes soovivad hallata BTCPay Serveri isemajutust, et täielikult integreerida see oma igapäevasesse tegevusse.
+
+**Sektsioon 1: BTCPay Serveri tutvustus**  
+Alustame BTCPay Serveri üldise tutvustusega, sealhulgas sisselogimise ekraaniga, kasutajakontode haldamisega ja uue poe loomisega. See sissejuhatus aitab teil mõista BTCPay Serveri liidest ja haarata vajalikke põhifunktsioone selle tööriista kasutamise alustamiseks.
+
+**Sektsioon 2: Bitcoini võtmete turvamise tutvustus**  
+Teie bitcoinide turvalisus on väga oluline. Selles osas uurime krüptograafiliste võtmete genereerimist, riistvaraliste rahakottide kasutamist nende võtmete kaitsmiseks ning võtmetega suhtlemist BTCPay Serveri kaudu. Samuti saate teada, kuidas seadistada BTCPay Serveri Lightning rahakotti oma tehingute optimeerimiseks.
+
+**Sektsioon 3: BTCPay Serveri liides**  
+See osa juhendab teid läbi BTCPay Serveri kasutajaliidese. Õpid, kuidas liikuda juhtpaneelil, seadistada poe ja serveri sätteid, hallata makseid ja kasutada integreeritud pluginaid. Eesmärk on tutvustada teile tööriistu, mis on vajalikud teie paigalduse kohandamiseks vastavalt teie vajadustele.
+
+**Sektsioon 4: BTCPay Serveri seadistamine**  
+Lõpuks keskendume BTCPay Serveri praktilisele installatsioonile erinevates keskkondades. Kas kasutate LunaNode'i, Voltage'i või Umbrel-node'i, õpite olulisi samme oma BTCPay Serveri juurutamiseks ja seadistamiseks, arvestades iga keskkonna eripärasid.
+
+Kas olete valmis omandama BTCPay Serveri kasutamise ja oma äri kasvatamise? Lähme!
+
 ## Kriitiline tunnustus autori Bitcoinile ja BTCPay Serverile
 
 <chapterId>e1fe6294-3c82-5203-9537-779f9087c35a</chapterId>
@@ -70,7 +92,7 @@ See on klassiruumi harjutus, nii et kui võtate seda kursust ise, ei saa te seda
 
 Harjutus algab pärast BBC tutvustuse "Kuidas Bitcoin ja plokiahel töötavad" vaatamist.
 
-![how bitcoin and the blockchain works](https://youtu.be/mhE_vvwAiRc)
+:::video id=c20b6df7-0c3a-4785-94b9-42ef59093acc:::
 
 Selles harjutuses on vaja vähemalt üheksa inimese osalemist. Harjutuse eesmärk on füüsiliselt saada ettekujutus sellest, kuidas Bitcoin töötab. Iga võrgus osaleja rolli mängides saate interaktiivse ja lõbusa õppimiskogemuse. See harjutus ei hõlma Lightning Network'i.
 
@@ -651,7 +673,7 @@ Esimene meetod, mida me praeguses olukorras kasutame, samuti kõige vähem turva
 Sellel kursusel puudutame seemnefraasi hoidmist riistvaralises rahakotis. Juhendaja poolt antud kursuse järgimine ei pruugi alati sellist seadet hõlmata. Kursuse juhendmaterjalides on kirjas nimekiri riistvaralistest rahakottidest, mis sobiksid selle harjutuse jaoks.
 Selles näites kasutame BTCPay Serveri hoidlat ja Blockstream Jade riistvaralist rahakotti.
 Samuti võite jälgida videojuhendit riistvaralise rahakoti ühendamise kohta.
-![BTCPay Server - Kuidas ühendada oma riistvaralist rahakotti BTCPay hoidlaga.](https://youtu.be/s4qbGxef43A)
+:::video id=8e61664b-e0c0-416d-8ef9-b631bf28ec4d:::
 
 Laadige alla BTCPay Serveri hoidla: https://github.com/btcpayserver/BTCPayServer.Vault/releases
 
@@ -2417,7 +2439,7 @@ Selles jaotises õppisite:
 
 Kuidas erineb seadistamine Umbrelil võrreldes kahe eelneva majutatud võimalusega?
 
-# Järeldus
+# Lõpusektsioon
 
 <partId>d72e6fa5-0870-5f00-9143-9466ed22e2bd</partId>
 

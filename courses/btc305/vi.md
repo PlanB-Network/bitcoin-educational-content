@@ -24,6 +24,28 @@ Sản phẩm của BTCPay Server Foundation
 
 <partId>59e43fe3-b494-5da6-b4b4-9df5bdf08916</partId>
 
+## Tổng quan về khóa học
+
+<chapterId>785ed2bc-94ae-4962-a26a-edf5742a3c72</chapterId>
+
+Chào mừng bạn đến với khóa học BTC305 về BTCPay Server!
+
+Mục tiêu của khóa học này là hướng dẫn bạn cách cài đặt, cấu hình và sử dụng BTCPay Server trong doanh nghiệp hoặc tổ chức của bạn. BTCPay Server là một giải pháp mã nguồn mở cho phép xử lý các thanh toán bằng bitcoin một cách tự chủ, an toàn và tiết kiệm. Khóa học này chủ yếu dành cho những người dùng nâng cao muốn làm chủ việc tự lưu trữ BTCPay Server để tích hợp hoàn toàn vào các hoạt động hàng ngày của họ.
+
+**Phần 1: Giới thiệu về BTCPay Server**  
+Chúng ta sẽ bắt đầu bằng cách giới thiệu tổng quan về BTCPay Server, bao gồm màn hình đăng nhập, quản lý tài khoản người dùng và tạo một cửa hàng mới. Phần giới thiệu này sẽ giúp bạn hiểu rõ giao diện của BTCPay Server và nắm bắt được các tính năng cơ bản cần thiết để bắt đầu sử dụng công cụ này.
+
+**Phần 2: Giới thiệu về bảo mật khóa Bitcoin**  
+Bảo mật các quỹ bitcoin của bạn là rất quan trọng. Trong phần này, chúng ta sẽ khám phá cách tạo khóa mật mã, cách sử dụng ví phần cứng để bảo vệ các khóa này và cách tương tác với các khóa của bạn thông qua BTCPay Server. Bạn cũng sẽ học cách cấu hình ví Lightning của BTCPay Server để tối ưu hóa các giao dịch của mình.
+
+**Phần 3: Giao diện của BTCPay Server**  
+Phần này sẽ hướng dẫn bạn thông qua giao diện người dùng của BTCPay Server. Bạn sẽ học cách điều hướng bảng điều khiển, cấu hình các cài đặt của cửa hàng và máy chủ, quản lý thanh toán và tận dụng các plugin tích hợp. Mục tiêu là giúp bạn làm quen với các công cụ cần thiết để tùy chỉnh cài đặt theo nhu cầu của bạn.
+
+**Phần 4: Cấu hình BTCPay Server**  
+Cuối cùng, chúng ta sẽ tập trung vào việc cài đặt thực tế BTCPay Server trong các môi trường khác nhau. Cho dù bạn sử dụng LunaNode, Voltage hay một nút Umbrel, bạn sẽ học được các bước cần thiết để triển khai và cấu hình BTCPay Server của mình, đồng thời xem xét các đặc điểm cụ thể của từng môi trường.
+
+Sẵn sàng để làm chủ BTCPay Server và phát triển doanh nghiệp của bạn? Hãy bắt đầu nào!
+
 ## Lời ngợi ca dành cho cha đẻ của Bitcoin và cha đẻ của BTCPay Server
 
 <chapterId>e1fe6294-3c82-5203-9537-779f9087c35a</chapterId>
@@ -71,7 +93,7 @@ BTCPay Server Foundation, đã cho phép Alekos và Bas viết khóa học này,
 
 Bài tập bắt đầu sau khi xem xong video giới thiệu "Làm thế nào Bitcoin và blockchain hoạt động" của BBC.
 
-![how bitcoin and the blockchain works](https://youtu.be/mhE_vvwAiRc)
+:::video id=c20b6df7-0c3a-4785-94b9-42ef59093acc:::
 
 Bài tập này yêu cầu ít nhất chín người tham gia. Mục đích của bài tập này là để hiểu trực quan về cách hoạt động của Bitcoin. Bằng cách nhập vào từng vai những thành phần tham gia vào mạng lưới, bạn sẽ có một cách học tương tác và vui vẻ. Bài tập này không liên quan đến Lightning Network.
 
@@ -651,7 +673,7 @@ Phương pháp đầu tiên chúng ta sẽ sử dụng trong tình huống hiệ
 Trong khóa học này, chúng tôi đề cập đến việc lưu trữ cụm từ hạt giống trên một ví phần cứng. Theo dõi khóa học này cùng một giáo viên có thể sẽ không có thiết bị như vậy. Trong tài liệu hướng dẫn của khóa học, có một danh sách các ví cứng được cung cấp phù hợp với bài tập này.
 Chúng ta sẽ sử dụng kho lưu trữ BTCPay Server và ví cứng Blockstream Jade trong ví dụ này.
 Bạn cũng có thể theo dõi qua video để tham khảo cách kết nối ví cứng.
-![BTCPay Server - Cách kết nối ví cứng của bạn với BTCPay Vault.](https://youtu.be/s4qbGxef43A)
+:::video id=8e61664b-e0c0-416d-8ef9-b631bf28ec4d:::
 
 Tải về kho lưu trữ BTCPay Server: https://github.com/btcpayserver/BTCPayServer.Vault/releases
 

@@ -133,7 +133,12 @@ No campo "ID do GitHub do contribuidor", introduza o seu nome de utilizador do G
 
 ![DATA-CREATOR-PY](assets/fr/40.webp)
 
-No campo "ID do professor PBN", introduza o seu identificador utilizando palavras da lista BIP39, tal como aparece no [seu perfil de professor] (https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors).
+Em seguida, você precisa preencher seu perfil de professor. Existem várias opções disponíveis:
+- Digite as primeiras letras do seu nome no campo "Professor Name". Seu nome aparecerá na lista suspensa "Prof. Suggestions" localizada abaixo. Selecione-o clicando nele;
+- Alternativamente, você pode clicar diretamente na lista suspensa "Prof. Suggestions" e escolher seu nome de professor.
+
+Essa ação preencherá automaticamente seu UUID de professor no campo correspondente.
+
 
 ![DATA-CREATOR-PY](assets/fr/41.webp)
 
@@ -214,73 +219,90 @@ bitcoin-educational-content/
 Preencha o ficheiro `tutorial.yml` copiando o seguinte modelo:
 
 ```
-id:
-project_id:
+id: 
+
+project_id: 
+
 tags:
--
--
--
-category:
-level:
-credits:
-professor:
+  - 
+  - 
+  - 
+
+category: 
+
+level: 
+
+professor_id:
+
 # Proofreading metadata
+
 original_language:
 proofreading:
-- language:
-last_contribution_date:
-urgency:
-contributors_id:
--
-reward:
+  - language: 
+    last_contribution_date:
+    urgency:
+    contributor_names:
+      - 
+    reward:
 ```
 
-Eis os pormenores dos campos obrigatórios:
+Aqui estão os campos obrigatórios:
 
+- **id** : Um UUID (_Identificador Universalmente Único_) que identifica de maneira única o tutorial. Você pode gerá-lo usando [uma ferramenta online](https://www.uuidgenerator.net/version4). O único requisito é que este UUID seja aleatório para evitar conflitos com outro UUID na plataforma;
 
-- id**: Um UUID (_Universally Unique Identifier_) para identificar exclusivamente o tutorial. Pode gerá-lo com [uma ferramenta em linha] (https://www.uuidgenerator.net/version4). O único requisito é que este UUID seja aleatório para evitar conflitos com outro UUID na plataforma;
-- project_id**: O UUID da empresa ou organização por detrás da ferramenta apresentada no tutorial [da lista de projectos] (https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Por exemplo, se estiver a criar um tutorial sobre o software Sparrow Wallet, pode encontrar este `project_id` no seguinte ficheiro: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Esta informação é adicionada ao arquivo YAML do seu tutorial porque o Plan ₿ Network mantém um banco de dados de todas as empresas e organizações que operam em Bitcoin ou projetos relacionados. Ao adicionar o `project_id` da entidade relacionada ao seu tutorial, você cria um link entre os dois elementos;
-- tags**: 2 ou 3 palavras-chave relevantes relacionadas com o conteúdo do tutorial, escolhidas exclusivamente [da lista de etiquetas do Plano ₿ Rede] (https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
-- categoria**: A subcategoria correspondente ao conteúdo do tutorial, de acordo com a estrutura do site da Rede Plan ₿ (por exemplo, para carteiras: `desktop`, `hardware`, `mobile`, `backup`);
-- level**: O nível de dificuldade do tutorial, entre:
-    - `iniciante`
-    - `intermédio`
-    - `avançado`
-    - "especialista
-- professor**: O seu `contributor_id` (palavras BIP39) tal como aparece no [perfil do professor] (https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
-- original_language**: A língua original do tutorial (por exemplo, `fr`, `en`, etc.);
-- revisão**: Informações sobre o processo de revisão. Preencher a primeira parte, uma vez que a revisão do seu próprio tutorial conta como uma primeira validação:
-    - língua**: Código da língua da revisão de provas (por exemplo, `fr`, `en`, etc.).
-    - last_contribution_date**: A data de hoje.
-    - urgência**: Deixar em branco.
-    - contributors_id**: O seu ID do GitHub.
-    - recompensa**: Deixar em branco.
+- **project_id** : O UUID da empresa ou organização por trás da ferramenta apresentada no tutorial [da lista de projetos](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Por exemplo, se você estiver criando um tutorial sobre o software Green Wallet, poderá encontrar o `project_id` no seguinte arquivo: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Essas informações são adicionadas ao arquivo YAML do seu tutorial porque a Plan ₿ Network mantém um banco de dados de todas as empresas e organizações que operam no Bitcoin ou projetos relacionados. Ao adicionar o `project_id` da entidade vinculada ao seu tutorial, você cria um vínculo entre os dois elementos;
 
-Para mais informações sobre o identificador do professor, consulte o tutorial correspondente:
+- **tags** : 2 ou 3 palavras-chave relevantes relacionadas ao conteúdo do tutorial, escolhidas exclusivamente [da lista de tags da Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+
+- **category** : A subcategoria correspondente ao conteúdo do tutorial, de acordo com a estrutura do site Plan ₿ Network (por exemplo, para carteiras: `desktop`, `hardware`, `mobile`, `backup`);
+
+- **level** : O nível de dificuldade do tutorial, escolhido entre:
+    - `beginner`
+    - `intermediate`
+    - `advanced`
+    - `expert`
+
+- **professor_id** : Seu `professor_id` (UUID) conforme exibido no [seu perfil de professor](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
+
+- **original_language** : O idioma original do tutorial (por exemplo, `fr`, `en`, etc.);
+
+- **proofreading** : Informações sobre o processo de revisão. Preencha a primeira parte, pois a revisão do seu próprio tutorial conta como uma primeira validação:
+    - **language** : Código do idioma da revisão (por exemplo, `fr`, `en`, etc.).
+    - **last_contribution_date** : Data do dia.
+    - **urgency** : 1
+    - **contributor_names** : Seu ID do GitHub.
+    - **reward** : 0
+
+Para mais informações sobre o ID do professor, consulte o tutorial correspondente :
 
 https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
-Aqui está um exemplo de um arquivo `tutorial.yml` completo para um tutorial sobre a carteira Blockstream Green:
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
+
 project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
+
 tags:
-- wallets
-- software
-- keys
+  - wallets
+  - software
+  - keys
+
 category: mobile
+
 level: beginner
-credits:
-professor: pretty-private
+
+professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
+
 # Proofreading metadata
+
 original_language: fr
 proofreading:
-- language: fr
-last_contribution_date: 2024-11-20
-urgency: 1
-contributors_id:
-- LoicPandul
-reward: 0
+  - language: fr
+    last_contribution_date: 2024-11-20
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0
 ```
 
 Quando tiver terminado de modificar seu arquivo `tutorial.yml`, salve seu documento clicando em `Arquivo > Salvar`:

@@ -1,0 +1,9 @@
+question: 哪一種 Address 以`1`開頭，屬於傳統標準？
+answer: P2PKH
+wrong_answers:
+  - P2WPKH
+  - P2SH
+  - P2TR
+explanation: |
+  以 base58check 編碼的 P2PKH 位址來自 Legacy 標準，並以數字 `1` 開頭。
+reviewed: false

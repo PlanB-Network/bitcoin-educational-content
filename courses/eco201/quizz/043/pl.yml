@@ -1,0 +1,13 @@
+question: Jaki jest główny argument Ludwiga von Misesa w jego artykule Economic Calculation in a Socialist Commonwealth?
+answer: Racjonalna organizacja gospodarcza jest niemożliwa bez cen pośrednich czynników produkcji.
+wrong_answers:
+  - Socjalizm jest moralnie lepszy od kapitalizmu.
+  - Kapitalizm jest jedynym realnym systemem gospodarczym.
+  - Socjalizm może wytworzyć jednostki pozbawione kapitalistycznych instynktów.
+explanation: |
+  Mises argumentował, że bez rynku określającego ceny pośrednich czynników produkcji
+  czynników produkcji, racjonalizacja wykorzystania zasobów w różnych branżach staje się niemożliwa
+  w różnych branżach. Oznacza to, że nawet jeśli w każdej firmie lub części gospodarki istnieje doskonała organizacja
+  w każdej firmie lub części gospodarki, cała gospodarka nie może skutecznie dostosować się do zmian dostępności zasobów, warunków produkcji
+  do zmian w dostępności zasobów, warunków produkcji i preferencji konsumentów.
+reviewed: true

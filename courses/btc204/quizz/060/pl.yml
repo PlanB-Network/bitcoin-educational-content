@@ -1,0 +1,10 @@
+question: Jakie informacje powinny znaleźć się na etykiecie?
+answer: Pochodzenie UTXO.
+wrong_answers:
+  - Data utworzenia UTXO.
+  - Rozmiar UTXO.
+  - Wysokość opłat związanych z utworzeniem UTXO.
+explanation: |
+  Etykietowanie to dobra praktyka, która pomaga zapamiętać pochodzenie UTXO.
+  
+reviewed: false

@@ -1,0 +1,14 @@
+question: 在 Bitcoin 網路中，礦工的主要任務是什麼？
+answer: 解決數位謎題並驗證新區塊
+wrong_answers:
+  - 要建立新的 bitcoins
+  - 為了控制 Bitcoin 的價格
+  - 驗證 Bitcoin 使用者的身分
+explanation: |
+  在 Bitcoin Mining 的背景下，礦工努力快速
+  解決數位謎題。第一個解開謎題的 Miner
+  將他們的解決方案呈現給整個網路，這可以
+  然後輕鬆驗證其有效性。這個成功的
+  驗證可讓 Miner 驗證新區塊和
+  將其加入 Bitcoin 時間鏈。
+reviewed: true

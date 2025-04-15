@@ -1,0 +1,11 @@
+question: Jaka jest główna rola deweloperów Bitcoin Core?
+answer: Są oni odpowiedzialni za główny rozwój protokołu Bitcoin i jego podstawowych funkcji
+wrong_answers:
+  - Kontrolują one sieć Bitcoin
+  - Tworzą nowe bitcoiny
+  - Regulują one cenę Bitcoin
+explanation: |
+  Treść rozdziału wyjaśnia, że deweloperzy Bitcoin Core są odpowiedzialni
+  za główny rozwój protokołu Bitcoin i jego podstawowych funkcji. Nie
+  nie kontrolują sieci Bitcoin, nie tworzą nowych bitcoinów ani nie regulują ceny Bitcoin.
+reviewed: false

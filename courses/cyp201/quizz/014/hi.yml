@@ -1,0 +1,9 @@
+question: Bitcoin में PBKDF2 द्वारा इस्तेमाल किए गए इटरेशन की संख्या क्या है?
+answer: २०४८
+wrong_answers:
+  - एक हज़ार चौबीस
+  - ४०९६
+  - ५१२
+explanation: |
+  PBKDF2, HMAC-SHA512 प्रक्रिया को 2048 बार दोहराता है ताकि सुरक्षा और मजबूत हो सके।
+reviewed: false

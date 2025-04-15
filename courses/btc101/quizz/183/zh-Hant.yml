@@ -1,0 +1,8 @@
+question: Bitcoin 的價格可以在短短幾天內下跌 10%、20%，甚至 50%，原因何在？
+answer: 看漲和看跌的市場階段。
+wrong_answers:
+  - 使用網際網路的人數。
+  - 天氣
+  - 黃金價格
+explanation: >-
+reviewed: true

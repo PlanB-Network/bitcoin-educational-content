@@ -1,0 +1,60 @@
+# generate a random uuid v4
+id: d0e6da8b-afa1-4b61-979e-c32c06f9ea1f
+
+# date in the following format:
+# YYYY-MM-DD hh:mm:ss
+start_date: 2026-10-25 11:15:00
+# same as end_date
+end_date: 2026-10-25 12:15:00
+# this is mandatory, otherwise both
+# the starting and ending dates will be messed up
+timezone: Europe/Zurich
+
+# event location
+# this line is the most important
+# if this contain an error the event location is wrongly displayed on the map
+address_city_country: Palazzo dei Congressi, Lugano, 6900, Switzerland
+# additional location lines
+address_line_2: 2nd floor
+address_line_3: Room No. 7
+
+# Complete name of the content
+# with year (at the end) to avoid duplication
+name: The ₿ Workshop in Lugano Bitcoin Event 2026
+
+# define the event category, 4 options:
+# - workshop
+# - course
+# - conference
+# - lecture
+type: workshop
+
+# Description
+# Write the main description of the content
+description: The only knowledge game on Bitcoin and related subjects organised in
+  collaboration with Plan ₿ Network.
+
+# Event Language
+# the main language spoken during the event
+# Insert 2-digits ISO 639 language code (e.g. en for English, es for Spanish, th for Thai, etc...)
+language:
+  - en
+
+# links
+# list related to content visibility such as website, streaming and recording links
+links:
+  website:
+  replay_url:
+  live_url:
+
+# Associate to a project
+# copy here the id of the project that organizes this event
+project_id: cd62a137-baad-4133-b90d-711963e510c7
+
+# Tags
+# Choose from the list the associated tags to this content
+# The list of tags is composed of 51 items that can be found here (bitcoin-education-content/docs/50-planb-tags.md)
+tags:
+  - historical
+  - case-studies
+  - evaluation

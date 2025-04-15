@@ -1,0 +1,9 @@
+question: 在 RSA 密碼系統中，私人密碼匙 d 的功能是什麼？
+answer: 它使用模數 N 來解密訊息。
+wrong_answers:
+  - 它只用於加密訊息
+  - 它可用於解鎖比特幣
+  - 用來計算 φ(N)
+explanation: |
+  私人密碼匙 d 用於解密加密訊息，方法是以模數 N 完成計算。
+reviewed: false

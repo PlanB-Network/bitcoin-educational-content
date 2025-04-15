@@ -1,0 +1,10 @@
+question: Jaka jest główna wada korzystania z sieci Tor dla węzła Bitcoin?
+answer: Zmniejszenie prędkości komunikacji
+wrong_answers:
+  - Wzrost opłat transakcyjnych
+  - Ryzyko cenzury transakcji
+  - Ryzyko ataku Eclipse na węzeł
+explanation: |
+  Komunikacja przez sieć Tor jest wolniejsza. Opóźnienie to jest szczególnie uciążliwe podczas początkowego uruchomienia węzła, ponieważ IBD (Initial Block Download) wymaga dużej ilości komunikacji.
+  
+reviewed: false

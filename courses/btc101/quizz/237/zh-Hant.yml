@@ -1,0 +1,8 @@
+question: Lightning Network 有可能如何改變視訊遊戲產業現有的商業模式？
+answer: 它允許玩家在玩遊戲時下注非常小的金額。
+wrong_answers:
+  - 它允許玩家在玩遊戲時挖掘 Bitcoin。
+  - 它允許遊戲開發者接受 Bitcoin 作為其遊戲的付款方式。
+  - 它允許玩家使用 Bitcoin 購買遊戲中的物品。
+explanation: >-
+reviewed: true

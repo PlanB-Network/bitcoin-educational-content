@@ -1,0 +1,13 @@
+question: Kwa nini ni muhimu kutanguliza kuegemea na ufundi kuliko umaarufu wakati wa kuchagua VPN?
+answer: Watoa huduma za VPN wanaokusanya taarifa ndogo zaidi za kibinafsi kwa ujumla ndio salama zaidi.
+wrong_answers:
+  - Watoa huduma maarufu wa VPN wana uwezekano mkubwa wa kulengwa na wadukuzi.
+  - Watoa huduma maarufu wa VPN wana uwezekano mkubwa wa kuwa na kasi ndogo ya mtandao.
+  - Watoa huduma maarufu wa VPN wana uwezekano mkubwa wa kuwa na vikwazo vya kijiografia.
+explanation: |
+  Wakati wa kuchagua VPN, ni muhimu kuweka kipaumbele
+  kuegemea na ufundi juu ya umaarufu. Hii ni
+  kwa sababu watoa huduma za VPN ambao hukusanya kibinafsi kidogo
+  habari kwa ujumla ni salama zaidi, kutoa bora
+  ulinzi kwa usalama wako mtandaoni.
+reviewed: true

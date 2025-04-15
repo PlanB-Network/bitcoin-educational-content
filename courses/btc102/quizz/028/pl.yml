@@ -1,0 +1,11 @@
+question: Co to znaczy, że Bitcoin jest open source?
+answer: Każdy może sprawdzić, jak działa Bitcoin, jest przejrzysty, a zatem możliwy do skontrolowania
+wrong_answers:
+  - Każdy może stworzyć własną wersję Bitcoin
+  - Bitcoin jest darmowy
+  - Kod Bitcoin jest publicznie dostępny do modyfikacji
+explanation: |
+  Otwarty kod źródłowy oznacza, że kod Bitcoin jest publicznie dostępny dla każdego
+  każdy może go przejrzeć. Dzięki temu jest on przejrzysty i możliwy do skontrolowania, zapewniając, że protokół
+  jest równy dla wszystkich.
+reviewed: false

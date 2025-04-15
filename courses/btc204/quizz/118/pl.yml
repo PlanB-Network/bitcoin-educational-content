@@ -1,0 +1,10 @@
+question: Spośród poniższych odpowiedzi, która nie stanowi ryzyka podczas wysyłania bitcoinów, które przeszły CoinJoin na regulowaną platformę?
+answer: Platforma może zwiększyć opłaty transakcyjne
+wrong_answers:
+  - Platforma może zamrozić środki
+  - Platforma może zablokować konto użytkownika
+  - Platforma może zgłaszać władzom podejrzane zachowania
+explanation: |
+  Jeśli wyślesz swoją monetę na regulowaną platformę Exchange, ale niedawno przeszła ona CoinJoin, narzędzie do analizy łańcucha platformy wykryje ten fakt. Platforma może wówczas odmówić zaakceptowania UTXO, który przeszedł CoinJoin, a nawet zażądać od ciebie wyjaśnień, ryzykując zawieszenie konta lub zamrożenie środków. W niektórych przypadkach platforma może również zgłosić Twoje zachowanie organom państwowym.
+  
+reviewed: false

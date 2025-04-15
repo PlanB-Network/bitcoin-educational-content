@@ -26,11 +26,11 @@ Théo; příspěvek
 
 <partId>534ab66c-b0e6-5757-a7dd-6ea04647edf2</partId>
 
-## Úvod do kurzu
+## Přehled kurzu
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
-### Cíl: Aktualizujte své bezpečnostní dovednosti!
+**Cíl: Aktualizujte své bezpečnostní dovednosti!**
 
 Vítejte všichni v tomto vzdělávacím programu věnovaném digitální bezpečnosti. Tento trénink je navržen tak, aby byl přístupný pro každého, takže předchozí znalosti informatiky nejsou vyžadovány. Naším hlavním cílem je poskytnout vám znalosti a dovednosti nezbytné pro bezpečnější a soukromější pohyb v digitálním světě.
 
@@ -46,7 +46,7 @@ Vaše digitální hygiena je zásadní ve stále více digitalizovaném světě.
 V tomto tréninku se nesnažíme udělat z vás experta, anonymního uživatele nebo někoho, kdo je nezranitelný, protože to je nemožné. Místo toho vám nabízíme několik jednoduchých a přístupných řešení pro každého, jak začít měnit vaše online návyky a znovu získat kontrolu nad vaší digitální suverenitou.
 Pokud hledáte pokročilejší dovednosti na toto téma, naše zdroje, tutoriály nebo další školení kybernetické bezpečnosti jsou zde pro vás. Mezitím zde je stručný přehled našeho programu pro následující hodiny společně.
 
-### Sekce 1: Vše, co potřebujete vědět o online prohlížení
+**Sekce 1: Vše, co potřebujete vědět o online prohlížení**
 
 - Kapitola 1 - Online prohlížení
 - Kapitola 2 - Bezpečné používání internetu
@@ -55,13 +55,13 @@ Začneme diskusí o důležitosti výběru webového prohlížeče a jeho důsle
 
 ![](assets/en/1.webp)
 
-### Sekce 2: Nejlepší postupy pro používání počítače
+**Sekce 2: Nejlepší postupy pro používání počítače**
 
 - Kapitola 3 - Používání počítače
 - Kapitola 4 - Hacking & správa záloh
   V této sekci se zaměříme na tři klíčové oblasti počítačové bezpečnosti. Nejprve prozkoumáme různé operační systémy: Mac, PC a Linux, přičemž zdůrazníme jejich specifika a silné stránky. Poté se ponoříme do metod, jak účinně chránit před pokusy o hacking a posílit bezpečnost vašich zařízení. Nakonec zdůrazníme význam pravidelné ochrany a zálohování vašich dat, aby se předešlo jakékoli ztrátě nebo ransomwaru. ![](assets/en/2.webp)
 
-### Sekce 3: Implementace řešení
+**Sekce 3: Implementace řešení**
 
 - Kapitola 6 - Správa e-mailů
 - Kapitola 7 - Správce hesel
@@ -71,6 +71,7 @@ V této praktické třetí sekci přejdeme k implementaci vašich konkrétních 
 
 Nejprve se podíváme, jak chránit vaši e-mailovou schránku, která je zásadní pro vaši komunikaci a často cílem hackerů. Poté vám představíme správce hesel: praktické řešení, jak už nikdy nezapomenout nebo nezaměnit vaše hesla, přičemž je udržíte v bezpečí. Nakonec probereme další bezpečnostní opatření, dvoufaktorové ověřování, které přidává další vrstvu ochrany k vašim účtům. Vše bude vysvětleno jasně a přístupně. ![](assets/en/3.webp)
 
+Připraveni posílit své digitální zabezpečení a převzít kontrolu nad svými daty? Pojďme na to!
 # Vše, co potřebujete vědět o prohlížení internetu
 
 <partId>b4b5379a-d8ef-59ae-94d3-a6e88959c149</partId>
@@ -501,7 +502,7 @@ Alternativy k rušivým reklamám zahrnují Google DNS, OpenDNS a další nezáv
 
 Jako součást výukového modulu "Security 101" na Découvre Bitcoin Academy jsme také diskutovali o autentizaci Lightning. Tento systém generuje pro každou službu odlišný identifikátor, aniž by bylo nutné poskytovat e-mailovou adresu nebo osobní informace. Je možné mít uživatelem kontrolované decentralizované identity, ale chybí standardizace a normalizace v projektech decentralizované identity. Doporučují se správci balíčků, jako jsou Nuget a Chocolaté, které umožňují stahování open-source softwaru mimo Microsoft Store, aby se předešlo škodlivým útokům. Shrnutí, DNS je pro online bezpečnost zásadní, ale je nutné zůstat ostražitý vůči možným útokům na DNS servery.
 
-# Závěr
+# Sekce finále
 
 <partId>3d8ac4c9-f05b-4133-a40a-6e19d579f05f</partId>
 

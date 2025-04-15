@@ -1,0 +1,12 @@
+question: Jakie jest sugerowane rozwiązanie dla powtarzających się zakupów Bitcoin bez stresu?
+answer: Użyj rozwiązania DCA
+wrong_answers:
+  - Użyj Hot Wallet
+  - Użyj Cold Wallet
+  - Korzystanie z rozwiązania bez KYC
+explanation: |
+  Sugerowanym rozwiązaniem dla powtarzających się zakupów Bitcoin bez stresu
+  jest zastosowanie rozwiązania DCA (Dollar Cost Averaging). Strategia ta polega na podzieleniu
+  całkowitą kwotę, którą chcesz zainwestować w okresowe zakupy, aby zmniejszyć wpływ
+  zmienności.
+reviewed: false

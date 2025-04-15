@@ -1,0 +1,9 @@
+question: Uzinduzi halisi wa mtandao wa mfano wa Bitcoin ulikuwa lini mnamo 2009?
+answer: Januari 9, 2009, saa 02; 54; 25 UTC
+wrong_answers:
+  - Januari 3, 2009, saa 18:15; 05 UTC
+  - Januari 8, 2009, saa 19:27; 40 UTC
+  - Januari 12, 2009, saa 03:30; 25 UTC
+explanation: |
+  Hii ni Timestamp ya block 1 ya Blockchain, inayochimbwa na Satoshi Nakamoto baada ya kuchapisha msimbo wa programu kwenye orodha ya wanaopokea barua pepe saa chache mapema. Kizuizi cha Genesis (0) kiliundwa kati ya Januari 3 na 8, lakini hapakuwa na mtandao halisi kwa kila sekunde.
+reviewed: false

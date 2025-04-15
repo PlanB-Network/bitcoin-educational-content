@@ -23,6 +23,28 @@ Produziert von der BTCPay Server Foundation
 
 <partId>59e43fe3-b494-5da6-b4b4-9df5bdf08916</partId>
 
+## Kursüberblick
+
+<chapterId>785ed2bc-94ae-4962-a26a-edf5742a3c72</chapterId>
+
+Willkommen zum BTC305-Kurs über BTCPay Server!
+
+Ziel dieses Kurses ist es, Ihnen beizubringen, wie Sie BTCPay Server in Ihrem Unternehmen oder Verein installieren, konfigurieren und verwenden. BTCPay Server ist eine Open-Source-Lösung, die es ermöglicht, Bitcoin-Zahlungen eigenständig, sicher und kostengünstig zu verarbeiten. Dieser Kurs richtet sich hauptsächlich an fortgeschrittene Nutzer, die das Selbsthosting von BTCPay Server beherrschen möchten, um es vollständig in ihre tägliche Arbeit zu integrieren.
+
+**Abschnitt 1 : Einführung in BTCPay Server**  
+Wir beginnen mit einer allgemeinen Einführung in BTCPay Server, einschließlich des Anmeldebildschirms, der Verwaltung von Benutzerkonten und der Erstellung eines neuen Shops. Diese Einführung ermöglicht es Ihnen, die Benutzeroberfläche von BTCPay Server zu verstehen und die grundlegenden Funktionen zu erfassen, um mit der Nutzung dieses Tools zu beginnen.
+
+**Abschnitt 2 : Einführung in die Sicherung von Bitcoin-Schlüsseln**  
+Die Sicherheit Ihrer Bitcoin-Bestände ist von großer Bedeutung. In diesem Abschnitt werden wir die Generierung kryptografischer Schlüssel, die Verwendung von Hardware-Wallets zur Sicherung dieser Schlüssel und die Interaktion mit Ihren Schlüsseln über BTCPay Server untersuchen. Sie erfahren auch, wie Sie eine Lightning-Wallet in BTCPay Server konfigurieren, um Ihre Transaktionen zu optimieren.
+
+**Abschnitt 3 : Benutzeroberfläche von BTCPay Server**  
+Dieser Teil führt Sie durch die Benutzeroberfläche von BTCPay Server. Sie lernen, wie Sie sich im Dashboard zurechtfinden, die Shop- und Servereinstellungen konfigurieren, Zahlungen verwalten und integrierte Plugins nutzen. Das Ziel ist es, Ihnen die Werkzeuge zur Verfügung zu stellen, die Sie benötigen, um Ihre Installation an Ihre Bedürfnisse anzupassen.
+
+**Abschnitt 4 : Konfiguration von BTCPay Server**  
+Abschließend konzentrieren wir uns auf die praktische Installation von BTCPay Server in verschiedenen Umgebungen. Egal, ob Sie LunaNode, Voltage oder einen Umbrel-Knoten verwenden, Sie lernen die wesentlichen Schritte zur Bereitstellung und Konfiguration Ihres BTCPay Servers unter Berücksichtigung der Besonderheiten jeder Umgebung.
+
+Bereit, BTCPay Server zu meistern und Ihr Unternehmen weiterzuentwickeln? Los geht's!
+
 ## Kritische Anerkennung für den Autor von Bitcoin und BTCPay Server
 
 <chapterId>e1fe6294-3c82-5203-9537-779f9087c35a</chapterId>
@@ -70,7 +92,7 @@ Dies ist eine Klassenübung, also wenn Sie diesen Kurs selbst machen, können Si
 
 Die Übung beginnt nach dem Ansehen der Einführung „Wie Bitcoin und die Blockchain funktionieren“ von der BBC.
 
-![wie bitcoin und die blockchain funktionieren](https://youtu.be/mhE_vvwAiRc)
+:::video id=c20b6df7-0c3a-4785-94b9-42ef59093acc:::
 
 Für diese Übung sind mindestens neun Personen erforderlich. Diese Übung soll eine physische Vorstellung davon vermitteln, wie Bitcoin funktioniert. Indem jede Rolle im Netzwerk gespielt wird, haben Sie eine interaktive und spielerische Art zu lernen. Diese Übung beinhaltet nicht das Lightning Network.
 
@@ -655,7 +677,7 @@ Die erste Methode, die wir in der aktuellen Situation verwenden werden, auch die
 In diesem Kurs gehen wir darauf ein, einen Seed-Phrase auf einem Hardware Wallet zu speichern. Die Teilnahme an diesem Kurs unter Anleitung eines Lehrers schließt möglicherweise nicht immer ein solches Gerät ein. Im Kursmaterial sind Hardware Wallets aufgelistet, die für diese Übung geeignet wären.
 Wir werden in diesem Beispiel den BTCPay Server Vault und ein Blockstream Jade Hardware-Wallet verwenden.
 Sie können auch ein Video zur Referenz heranziehen, um zu sehen, wie ein Hardware-Wallet verbunden wird.
-![BTCPay Server - Wie Sie Ihr Hardware-Wallet mit BTCPay Vault verbinden.](https://youtu.be/s4qbGxef43A)
+:::video id=8e61664b-e0c0-416d-8ef9-b631bf28ec4d:::
 
 BTCPay Server Vault herunterladen: https://github.com/btcpayserver/BTCPayServer.Vault/releases
 
@@ -2402,7 +2424,7 @@ In diesem Abschnitt haben Sie gelernt:
 
 Wie unterscheidet sich die Einrichtung auf Umbrel von den vorherigen zwei gehosteten Optionen?
 
-# Schlussfolgerung
+# Abschließender Abschnitt
 
 <partId>d72e6fa5-0870-5f00-9143-9466ed22e2bd</partId>
 

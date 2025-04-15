@@ -1,0 +1,9 @@
+question: Ni curve gani ya duaradufu inatumika katika itifaki ya Bitcoin?
+answer: sehemu ya 256k1
+wrong_answers:
+  - sehemu ya 256r1
+  - ed25519
+  - P-384
+explanation: |
+  Bitcoin hutumia mkunjo wa secp256k1, unaofafanuliwa na equation y² = x³ + 7, kwa utendakazi wake wa kriptografia.
+reviewed: false

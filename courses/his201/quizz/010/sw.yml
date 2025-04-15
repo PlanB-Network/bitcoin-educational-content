@@ -1,0 +1,9 @@
+question: Nani alikuwa mtu mkuu nyuma ya kuundwa kwa PayPal?
+answer: Peter Thiel
+wrong_answers:
+  - Elon Musk
+  - Marc Andreessen
+  - Mark Zuckerberg
+explanation: |
+  Bidhaa ya PayPal ilitengenezwa mnamo 1999 na Confinity Inc., iliyoanzishwa kwa pamoja mnamo Desemba 1998 huko San Francisco na Peter Thiel na Max Levchin.
+reviewed: false

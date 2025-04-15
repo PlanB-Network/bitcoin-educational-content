@@ -1,0 +1,9 @@
+question: Je, Alice (mtumaji) anapaswa kufanya nini baada ya kupokea Invoice ya Bob?
+answer: Jenga PSBT na UTXO yake na generate terminal ya Consignment ya kuhamisha
+wrong_answers:
+  - Saini muamala wa Bitcoin unaotumia UTXO yake iliyo na Single-Use Seal
+  - Ingiza Consignment kwenye Wallet yako mwenyewe kwa maelezo ya Contract
+  - Toa Invoice mpya kwa suala la mali
+explanation: |
+  Ni lazima Alice aunde PSBT ili kutumia UTXO inayohusishwa na mali, kisha generate Terminal Consignment ambayo inajumuisha mpito mpya wa Bob.
+reviewed: false

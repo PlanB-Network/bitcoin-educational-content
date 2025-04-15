@@ -1,0 +1,11 @@
+id: ed1f9f86-cc28-4651-b953-00ae0ef47b16
+en_word: BIP0049
+related_words: ["P2SH-P2WPKH"]
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-03-04
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0

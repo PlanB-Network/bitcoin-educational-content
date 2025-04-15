@@ -1,0 +1,9 @@
+question: Je, jukwaa la Bitcoin lilihamishiwa kwa jina la kikoa gani tarehe 1 Agosti 2011?
+answer: bitcointalk.org
+wrong_answers:
+  - jukwaa.Bitcoin.org
+  - bitcoinforum.org
+  - bitco.in/forum
+explanation: |
+  Baada ya kuhamishwa hadi forum.Bitcoin.org mnamo Mei 17, ilibadilisha hadi URL bitcointalk.org kuanzia Agosti 1. Kwa miaka mingi, ingekuja kujulikana kama BitcoinTalk.
+reviewed: false

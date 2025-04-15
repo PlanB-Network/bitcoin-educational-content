@@ -1,0 +1,12 @@
+question: Jakie są potencjalne skutki nagłej deprecjacji lub utraty zaufania do waluty fiducjarnej?
+answer: Hiperinflacja.
+wrong_answers:
+  - Deflacja.
+  - Stabilna gospodarka.
+  - Wzrost wartości waluty.
+explanation: |
+  Nagła dewaluacja lub utrata zaufania do waluty fiducjarnej
+  może prowadzić do hiperinflacji. Jest to sytuacja
+  w której ceny towarów i usług rosną w niezwykle
+  niezwykle wysokim tempie, często prowadząc do niestabilności gospodarczej.
+reviewed: true

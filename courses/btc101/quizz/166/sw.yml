@@ -1,0 +1,12 @@
+question: Wachimbaji wanaweza kufanya nini kwa mitambo hiyo ya umeme ambayo bado haijaunganishwa kwenye gridi ya taifa?
+answer: Wanaweza kufanya kama mnunuzi wa mwisho.
+wrong_answers:
+  - Wanaweza kutoa mitambo ya umeme na umeme.
+  - Wanaweza kuunganisha mitambo ya nguvu kwenye gridi ya taifa.
+  - Wanaweza kudhibiti bei ya umeme.
+explanation: |
+  Wachimbaji madini wanaweza kuwa mnunuzi wa mwisho wa mitambo ya kuzalisha umeme ambayo
+  bado hazijaunganishwa kwenye gridi ya taifa. Hii inaruhusu mitambo ya nguvu
+  kupata ufadhili hata kabla ya kuunganishwa na
+  mtandao wa umeme.
+reviewed: true

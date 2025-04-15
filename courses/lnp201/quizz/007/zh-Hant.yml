@@ -1,0 +1,9 @@
+question: 為什麼UTXO 常常被比作紙幣？
+answer: 必須全額使用
+wrong_answers:
+  - 可多次使用，直到耗盡為止
+  - 它們只能在某些特定交易中使用
+  - 它們代表小額的固定比特幣
+explanation: |
+  和紙幣一樣，UTXO 也必須在交易中全部用完，多出的部分會作為零錢退還給寄件人。
+reviewed: false

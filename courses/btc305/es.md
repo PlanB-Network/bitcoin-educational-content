@@ -23,6 +23,28 @@ Producido por la Fundación BTCPay Server
 
 <partId>59e43fe3-b494-5da6-b4b4-9df5bdf08916</partId>
 
+## Descripción del curso
+
+<chapterId>785ed2bc-94ae-4962-a26a-edf5742a3c72</chapterId>
+
+¡Bienvenido al curso BTC305 sobre BTCPay Server!
+
+El objetivo de esta formación es enseñarte a instalar, configurar y utilizar BTCPay Server dentro de tu empresa u organización. BTCPay Server es una solución de código abierto que permite procesar pagos en bitcoin de manera autónoma, segura y económica. Este curso está dirigido principalmente a usuarios avanzados que desean dominar el autoalojamiento de BTCPay Server para una integración completa en su actividad diaria.
+
+**Sección 1: Introducción a BTCPay Server**  
+Comenzaremos con una presentación general de BTCPay Server, incluyendo la pantalla de inicio de sesión, la gestión de cuentas de usuario y la creación de una nueva tienda. Esta introducción te ayudará a comprender la interfaz de BTCPay Server y a familiarizarte con las funciones básicas necesarias para comenzar a usar esta herramienta.
+
+**Sección 2: Introducción a la seguridad de las claves de Bitcoin**  
+La seguridad de tus fondos en bitcoins es muy importante. En esta sección, exploraremos la generación de claves criptográficas, el uso de carteras de hardware para proteger estas claves, y cómo interactuar con tus claves a través de BTCPay Server. También aprenderás cómo configurar una cartera Lightning de BTCPay Server para optimizar tus transacciones.
+
+**Sección 3: Interfaz de BTCPay Server**  
+Esta parte te guiará a través de la interfaz de usuario de BTCPay Server. Aprenderás a navegar por el panel de control, a configurar los ajustes de la tienda y del servidor, a gestionar los pagos y a aprovechar los plugins integrados. El objetivo es familiarizarte con las herramientas necesarias para personalizar tu instalación según tus necesidades.
+
+**Sección 4: Configuración de BTCPay Server**  
+Finalmente, nos centraremos en la instalación práctica de BTCPay Server en diversos entornos. Ya sea que utilices LunaNode, Voltage o un nodo Umbrel, aprenderás los pasos esenciales para implementar y configurar tu BTCPay Server, teniendo en cuenta las especificidades de cada entorno.
+
+¿Listo para dominar BTCPay Server y hacer crecer tu empresa? ¡Vamos allá!
+
 ## Elogio crítico para el Bitcoin y BTCPay Server de los Autores
 
 <chapterId>e1fe6294-3c82-5203-9537-779f9087c35a</chapterId>
@@ -70,7 +92,7 @@ Este es un ejercicio en clase, así que si tomas este curso por tu cuenta, no po
 
 El ejercicio comienza después de ver la introducción "Cómo funcionan Bitcoin y la Blockchain" por la BBC.
 
-![cómo funcionan bitcoin y la blockchain](https://youtu.be/mhE_vvwAiRc)
+:::video id=c20b6df7-0c3a-4785-94b9-42ef59093acc:::
 
 Este ejercicio requiere al menos nueve personas para participar. El objetivo del ejercicio es obtener físicamente una idea de cómo funciona Bitcoin. Al desempeñar cada rol en la red, tendrás una forma interactiva y divertida de aprender. Este ejercicio no involucra Lightning Network.
 
@@ -654,7 +676,7 @@ El primer método que usaremos en la situación actual, también el menos seguro
 En este curso, tocamos el tema de almacenar una frase semilla en un billetera de hardware. Seguir este curso por un instructor podría no siempre incluir tal dispositivo. En el curso, los materiales guía han escrito una lista de monederos hardware proporcionados que se adaptan a este ejercicio.
 Usaremos BTCPay Server Vault y una billetera de hardware Blockstream Jade en este ejemplo.
 También puedes seguir el proceso a través de un video de referencia sobre cómo conectar una billetera de hardware.
-![BTCPay Server - Cómo conectar tu billetera de hardware con BTCPay Vault.](https://youtu.be/s4qbGxef43A)
+:::video id=8e61664b-e0c0-416d-8ef9-b631bf28ec4d:::
 
 Descargar BTCPay Server Vault: https://github.com/btcpayserver/BTCPayServer.Vault/releases
 
@@ -2401,7 +2423,7 @@ En esta sección aprendió:
 
 ¿Cómo difiere la configuración en Umbrel de las dos opciones alojadas previas?
 
-# Conclusión
+# Sección final
 
 <partId>d72e6fa5-0870-5f00-9143-9466ed22e2bd</partId>
 

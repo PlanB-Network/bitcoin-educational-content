@@ -50,7 +50,7 @@ crear un nuevo monedero en la pestaña Relámpago
 
 escanear código QR con la aplicación de gestión de nodos
 
-![image](asset/en/05.webp)
+![image](assets/en/05.webp)
 
 para mayor seguridad, introduzca un código PIN
 
@@ -86,7 +86,7 @@ Una vez que su Nakamochi esté configurado y conectado a una aplicación de gest
 
 5. Haga clic en **"Abrir canal "**.
 
-![image](asset/en/06.webp)
+![image](assets/en/06.webp)
 
 captura de pantalla de ZEUS
 
@@ -104,7 +104,7 @@ Para más información: [Canales | Documentación Zeus](https://docs.zeusln.app/
 
 5. Introduzca la cantidad bloqueada (elija con su par o utilice la cantidad fija mínima para nodos conocidos).
 
-![image](asset/en/07.webp)
+![image](assets/en/07.webp)
 
 captura de pantalla de Bitbanana
 

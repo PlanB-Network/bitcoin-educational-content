@@ -1,0 +1,11 @@
+question: Halving ni nini katika muktadha wa Bitcoin?
+answer: Kipengele katika msimbo wa Bitcoin ambacho kinapunguza nusu ya zawadi ya Mining kila baada ya miaka minne
+wrong_answers:
+  - Mchakato wa kuongeza upitishwaji wa kimataifa wa Bitcoin
+  - Utaratibu unaozuia thamani ya Bitcoin kuporomoka
+  - Neno linalotumika kuelezea tukio wakati bei ya Bitcoin inapanda
+explanation: |
+  Halving ni kipengele katika msimbo wa Bitcoin unaopunguza Mining
+  malipo kwa nusu takriban kila baada ya miaka minne. Tukio hili lina athari
+  mapato ya wachimbaji na inatoa shinikizo la juu kwa bei ya Bitcoin.
+reviewed: true

@@ -1,0 +1,14 @@
+question: Je, kuna uwezekano gani wa upande wa chini wa Mining kwa mtandao?
+answer: Bila motisha ya kutosha ya kifedha, inaweza kuwa vigumu kwa wachimbaji kuendelea kusaidia mtandao
+wrong_answers:
+  - Inaweza kusababisha kupungua kwa bei ya Bitcoin
+  - Inaweza kusababisha kuongezeka kwa Hashrate ya mtandao
+  - Inaweza kusababisha kupungua kwa idadi ya nodes zinazofanya kazi kwenye mtandao
+explanation: |
+  Mining kwa mtandao ni mpango mzuri ambao
+  inachangia usalama na ugatuzi wa mamlaka
+  Mtandao wa Bitcoin. Hata hivyo, bila fedha za kutosha
+  motisha, inaweza kuwa vigumu kwa wachimbaji kuendelea
+  kusaidia mtandao, haswa ikiwa zinafanya kazi kwa a
+  hasara.
+reviewed: true

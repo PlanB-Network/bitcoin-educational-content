@@ -1,0 +1,11 @@
+question: 1826 年之前阿根廷的貨幣是什麼？
+answer: 西班牙幣。
+wrong_answers:
+  - 阿根廷比索。
+  - Peso moneda nacional。
+  - 比索雷亞爾。
+explanation: |
+  1826 年之前，阿根廷使用西班牙元。獨立後
+  1816 年，西班牙在西班牙雷亞爾的基礎上推出了自己的貨幣，導致了
+  建立類似的貨幣。
+reviewed: false

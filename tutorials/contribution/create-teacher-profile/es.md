@@ -78,7 +78,6 @@ Rellene la información requerida (tenga en cuenta que toda esta información se
 
 - Nombre de su expediente de profesor (utilice su nombre y apellidos o un seudónimo, en minúsculas) ;
 - Su nombre o apodo ;
-- Generación aleatoria de su nombre de usuario ;
 - Su sitio web y perfil X (opcional) ;
 - Un Address relámpago para recibir donativos de los lectores (opcional) ;
 - Seleccione 2 o 3 etiquetas de la lista;

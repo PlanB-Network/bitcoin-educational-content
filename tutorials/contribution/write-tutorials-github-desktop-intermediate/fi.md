@@ -133,7 +133,12 @@ Kirjoita "Contributor's GitHub ID" -kenttään GitHub-käyttäjätunnuksesi.
 
 ![DATA-CREATOR-PY](assets/fr/40.webp)
 
-Kirjoita "PBN professor's ID" -kenttään tunnuksesi käyttäen sanoja BIP39-luettelosta, kuten se näkyy [professoriprofiilissasi](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors).
+Seuraavaksi sinun täytyy täyttää professori-profiilisi. Voit tehdä tämän seuraavilla tavoilla:
+- Kirjoita nimesi ensimmäiset kirjaimet kohtaan "Professor Name". Nimesi ilmestyy sitten alla olevaan "Prof. Suggestions" -pudotusvalikkoon. Valitse se napsauttamalla sitä;
+- Tai voit suoraan klikata "Prof. Suggestions" -pudotusvalikkoa ja valita professori-nimesi.
+
+Tämä toiminto täyttää automaattisesti professorisi UUID:n vastaavaan kenttään.
+
 
 ![DATA-CREATOR-PY](assets/fr/41.webp)
 
@@ -213,75 +218,94 @@ bitcoin-educational-content/
 
 Täytä `tutorial.yml`-tiedosto kopioimalla seuraava malli:
 
+
 ```
-id:
-project_id:
+id: 
+
+project_id: 
+
 tags:
--
--
--
-category:
-level:
-credits:
-professor:
+  - 
+  - 
+  - 
+
+category: 
+
+level: 
+
+professor_id:
+
 # Proofreading metadata
+
 original_language:
 proofreading:
-- language:
-last_contribution_date:
-urgency:
-contributors_id:
--
-reward:
+  - language: 
+    last_contribution_date:
+    urgency:
+    contributor_names:
+      - 
+    reward:
 ```
 
-Tässä ovat pakollisten kenttien tiedot:
+Tässä ovat pakolliset kentät:
 
+- **id** : UUID (_Universally Unique Identifier_), joka yksilöi tutoriaalin. Voit luoda sen käyttämällä [verkkotyökalua](https://www.uuidgenerator.net/version4). Ainoa vaatimus on, että tämä UUID on satunnainen, jotta vältytään ristiriidoilta toisen UUID:n kanssa alustalla;
 
-- id**: UUID (_Universally Unique Identifier_), jolla opetusohjelma voidaan yksilöidä yksiselitteisesti. Voit luoda sen [online-työkalulla](https://www.uuidgenerator.net/version4). Ainoa vaatimus on, että tämän UUID-tunnuksen on oltava satunnainen, jotta se ei ole ristiriidassa alustan toisen UUID-tunnuksen kanssa;
-- project_id**: UUID sen yrityksen tai organisaation UUID, joka on opetusohjelmassa esitellyn työkalun takana [projektiluettelosta](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Jos esimerkiksi luot Sparrow Wallet -ohjelmistoa koskevan opetusohjelman, löydät tämän `project_id`:n seuraavasta tiedostosta: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Tämä tieto lisätään opetusohjelmasi YAML-tiedostoon, koska Plan ₿ Network ylläpitää tietokantaa kaikista yrityksistä ja organisaatioista, jotka toimivat Bitcoinin tai siihen liittyvien hankkeiden parissa. Lisäämällä opetusohjelmaasi liittyvän yhteisön `project_id`:n luot linkin näiden kahden elementin välille;
-- tagit**: 2 tai 3 relevanttia avainsanaa, jotka liittyvät opetusohjelman sisältöön ja jotka on valittu yksinomaan [Plan ₿ Networkin tunnisteiden luettelosta](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
-- luokka**: Plan ₿ Network -verkkosivuston rakenteen mukainen opetusohjelman sisältöä vastaava alaluokka (esimerkiksi lompakoiden osalta: `desktop`, `hardware`, `mobile`, `backup`);
-- taso**: Oppaan vaikeustaso, muun muassa:
-    - "Aloitteleva
-    - `välitason`
-    - `Advanced`
-    - "Asiantuntija
-- professori**: Sinun `contributor_id` (BIP39 sanat), joka näkyy [professoriprofiilissasi](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
-- alkuperäinen_kieli**: Tutoriaalin alkuperäinen kieli (esimerkiksi `fr`, `en` jne.);
-- oikoluku**: Tietoa oikolukuprosessista. Täytä ensimmäinen osa, sillä oman opetusohjelmasi oikolukeminen lasketaan ensimmäiseksi validoinniksi:
-    - kieli**: Oikoluvun kielikoodi (esimerkiksi `fr`, `en` jne.).
-    - viimeinen_maksun_päivämäärä**: Tämän päivän päivämäärä.
-    - kiireellisyys**: Jätä tyhjäksi.
-    - avustajat_id**: GitHub-tunnuksesi.
-    - palkinto**: Jätä tyhjäksi.
+- **project_id** : Yrityksen tai organisaation UUID, joka liittyy tutoriaalissa esiteltyyn työkaluun [projektien luettelosta](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Jos esimerkiksi luot oppaan Green Wallet -ohjelmistosta, voit löytää tämän `project_id` seuraavasta tiedostosta: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Tämä tieto lisätään tutoriaalin YAML-tiedostoon, koska Plan ₿ Network ylläpitää tietokantaa kaikista Bitcoinin tai siihen liittyvien projektien kanssa toimivista yrityksistä ja organisaatioista. Lisäämällä oppaasi liittyvän yksikön `project_id`, luot linkin kahden elementin välille;
 
-Lisätietoja professorin tunnuksesta saat vastaavasta ohjeesta:
+- **tags** : 2 tai 3 aiheeseen liittyvää avainsanaa, jotka valitaan yksinomaan [Plan ₿ Networkin avainsanaluettelosta](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+
+- **category** : Alakategoria, joka vastaa tutoriaalin sisältöä Plan ₿ Network -sivuston rakenteen mukaisesti (esimerkiksi lompakoille: `desktop`, `hardware`, `mobile`, `backup`);
+
+- **level** : Tutoriaalin vaikeustaso, valittavissa seuraavista:
+    - `beginner`
+    - `intermediate`
+    - `advanced`
+    - `expert`
+
+- **professor_id** : Sinun `professor_id` (UUID), joka näkyy [professoriprofiilissasi](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
+
+- **original_language** : Oppaan alkuperäinen kieli (esimerkiksi `fr`, `en`, jne.);
+
+- **proofreading** : Tietoja oikolukuprosessista. Täytä ensimmäinen osa, koska oman oppaan oikoluku lasketaan ensimmäiseksi tarkistukseksi:
+    - **language** : Oikoluvun kielikoodi (esimerkiksi `fr`, `en`, jne.).
+    - **last_contribution_date** : Tämän päivän päivämäärä.
+    - **urgency** : 1
+    - **contributor_names** : Sinun GitHub ID.
+    - **reward** : 0
+
+Lisätietoja opettajatunnuksesta saat vastaavasta ohjeesta :
 
 https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
-Tässä on esimerkki valmiista `tutorial.yml`-tiedostosta Blockstream Green -lompakkoa koskevaa opetusohjelmaa varten:
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
+
 project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
+
 tags:
-- wallets
-- software
-- keys
+  - wallets
+  - software
+  - keys
+
 category: mobile
+
 level: beginner
-credits:
-professor: pretty-private
+
+professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
+
 # Proofreading metadata
+
 original_language: fr
 proofreading:
-- language: fr
-last_contribution_date: 2024-11-20
-urgency: 1
-contributors_id:
-- LoicPandul
-reward: 0
+  - language: fr
+    last_contribution_date: 2024-11-20
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0
 ```
+
 
 Kun olet muokannut `tutorial.yml`-tiedoston valmiiksi, tallenna dokumentti napsauttamalla `File > Save`:
 

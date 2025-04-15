@@ -1,0 +1,11 @@
+question: 沒有 Proof of Work 的 Blockchain 的主要特性是什麼？
+answer: 沒有實際價值
+wrong_answers:
+  - 更安全
+  - 速度更快
+  - 更分散
+explanation: |
+  本章內容指出，如果沒有 Proof of Work，Blockchain
+  就沒有真正的價值。這是 Bitcoin 有別於其他
+  加密貨幣。
+reviewed: false

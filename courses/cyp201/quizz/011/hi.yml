@@ -1,0 +1,9 @@
+question: Hash फंक्शन का इस्तेमाल HMAC में Bitcoin के संदर्भ में क्या होता है?
+answer: एसएचए512 (SHA512)
+wrong_answers:
+  - एस-एच-ए-२-५-६ (SHA256)
+  - आरआईपीईएमडी160
+  - हैश160
+explanation: |
+  HMAC, SHA512 का इस्तेमाल करके एक सुरक्षित 512-बिट Hash पैदा करता है।
+reviewed: false

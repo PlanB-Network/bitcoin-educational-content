@@ -1,0 +1,9 @@
+question: Je, ni hasara gani kuu ya Mashine za Kutoa Mali za Kiotomatiki (ATM)?
+answer: Mara nyingi ada ya juu sana.
+wrong_answers:
+  - Haja ya muunganisho wa mtandao wa haraka.
+  - Ukosefu wa msaada kwa sarafu za ndani.
+  - Usalama wa muamala haujahakikishwa.
+explanation: |
+  Kununua bitcoins kupitia ATM ni suluhisho la kuvutia kwa faragha ya mtumiaji, lakini hasara yao kuu ni kwamba mara nyingi hutoza ada kubwa.
+reviewed: false

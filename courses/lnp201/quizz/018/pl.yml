@@ -1,0 +1,9 @@
+question: W jaki sposób tworzony jest nowy stan kanału po każdym transferze?
+answer: Tworząc nowy Commitment Transaction ze zaktualizowaną dystrybucją
+wrong_answers:
+  - Księgując transakcję On-Chain po każdym przelewie
+  - Zwiększając całkowitą przepustowość kanału
+  - Zamykając i ponownie otwierając kanał po każdej transakcji
+explanation: |
+  Każda transakcja w ramach kanału aktualizuje stan kanału o nowy Commitment Transaction, odzwierciedlając bieżący podział środków między dwoma uczestnikami.
+reviewed: false

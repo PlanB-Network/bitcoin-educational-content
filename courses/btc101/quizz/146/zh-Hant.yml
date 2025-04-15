@@ -1,0 +1,11 @@
+question: 為什麼 Bitcoin 節點必須保持經濟實惠，讓所有可能的使用者都能使用？
+answer: 因為它有助於網路的分散化。
+wrong_answers:
+  - 因為它增加了網路的交易容量。
+  - 因為這會降低網路的交易容量。
+  - 因為它會增加礦工的 Block reward。
+explanation: |
+  Bitcoin 節點的成本低廉且易於存取，這一點非常重要，因為它有助於分散式處理。
+  重要，因為它有助於網路的分散化。
+  網路。
+reviewed: true

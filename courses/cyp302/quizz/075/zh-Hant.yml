@@ -1,0 +1,9 @@
+question: Kerckhoff 的原則如何促進 Linux 等開放系統的安全性？
+answer: 它允許公開驗證潛在的弱點
+wrong_answers:
+  - 它可讓加密演算法隱形
+  - 它限制了潛在使用者的數量
+  - 它可確保使用唯一的金鑰
+explanation: |
+  Kerckhoff 的原則可以公開驗證安全漏洞，就像開放原始碼系統一樣，透過透明度使系統更可靠。安全性僅由金鑰來確保，而非加密程序本身。
+reviewed: false

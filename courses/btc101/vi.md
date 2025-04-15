@@ -21,17 +21,17 @@ Bạn không cần bất kỳ kiến thức cụ thể nào để bắt đầu. 
 
 <partId>3cd2ac82-026c-53e1-874a-baf5842adc6d</partId>
 
-## Một bước nhảy vào điều chưa biết
+## Tổng quan về khóa học
 
 <chapterId>27e3fb60-4b50-556b-9e70-c4f5475c121d</chapterId>
 
-### Chào mừng đến với mô hình tiền tệ và công nghệ mới.
+Chào mừng bạn đến với khóa học BTC101!
 
 Bitcoin là một cuộc cách mạng về công nghệ và tiền tệ, có khả năng khiến chúng ta đặt câu hỏi về mối quan hệ của mình với tiền bạc và xã hội. Trên thực tế, Bitcoin (được gọi là BTC) là một loại tiền tệ **trung lập** và **phi tập trung**, có nghĩa là nó không bị bất kỳ thực thể hay tổ chức nào kiểm soát. Đây là một sáng kiến vượt ra ngoài phạm vi "tiền tệ internet" đơn thuần: nó vừa là một giao thức máy tính (Bitcoin) vừa là một đơn vị tiền tệ (bitcoin).
 
 Giao thức này sử dụng các công nghệ cơ bản như mật mã, truyền thông mạng và "blockchain" nổi tiếng, trong khi đơn vị bitcoin đóng vai trò là loại tiền tệ cần thiết để giao thức này hoạt động bình thường. Trong cuộc sống hàng ngày, người Salvador và những người sử dụng bitcoin trên toàn thế giới sử dụng tiền bitcoin để mua và bán hàng hóa và dịch vụ, dựa vào công nghệ này để cải thiện cuộc sống của họ.
 
-### Một chương trình giảng dạy toàn diện nhưng dễ tiếp cận
+**Một chương trình học đầy đủ nhưng dễ tiếp cận:**
 
 Trong khóa học này, chúng ta sẽ thảo luận về một số khía cạnh tiền tệ của Bitcoin, bao gồm cách mua và bán bitcoin, lưu trữ chúng một cách an toàn trong ví kỹ thuật số và sử dụng chúng cho các giao dịch. Chúng ta cũng sẽ xem xét vai trò của thợ đào, những người đóng vai trò thiết yếu trong việc tạo ra bitcoin mới và bảo mật mạng Bitcoin. Cuối cùng, chúng ta sẽ khám phá tương lai của Bitcoin và cách công nghệ Lightning Network có thể cải thiện các giao dịch Bitcoin.
 
@@ -39,43 +39,39 @@ Trong khóa học này, chúng ta sẽ thảo luận về một số khía cạn
 
 Điều quan trọng là phải hiểu rằng Bitcoin là một hệ thống tiền tệ mới sẽ thay đổi hoàn toàn mối quan hệ của chúng ta với tiền bạc, vì vậy việc học cách sử dụng nó là một kỹ năng cần thiết cho bất kỳ ai muốn kiểm soát tiền của mình.
 
-**Mục 1 - Tiền**
+**Phần 1 - Giới thiệu**  
+- Chương 1 - Tổng quan về khóa học  
+- Chương 2 - Thời tiền sử của Bitcoin  
 
+**Phần 2 - Tiền tệ**  
+- Chương 3 - Tiền tệ qua lịch sử  
+- Chương 4 - Tiền pháp định  
+- Chương 5 - Siêu lạm phát  
+- Chương 6 - 21 triệu bitcoin  
 
-- Chương 1 - Tiền là gì?
-- Chương 2 - Tiền pháp định
-- Chương 3 - Siêu lạm phát
-- Chương 4 - Chính sách tiền tệ Bitcoin
+**Phần 3 - Ví Bitcoin**  
+- Chương 7 - Ví Bitcoin là gì?  
+- Chương 8 - Ví Bitcoin và bảo mật  
+- Chương 9 - Thiết lập ví  
+- Chương 10 - Vượt qua thử thách của thời gian  
 
-**Phần 2 - Ví Bitcoin**
+**Phần 4 - Các khía cạnh kỹ thuật của Bitcoin**  
+- Chương 11 - Khởi chạy Bitcoin  
+- Chương 12 - Giao dịch Bitcoin  
+- Chương 13 - Các nút Bitcoin  
+- Chương 14 - Thợ đào  
+- Chương 15 - Bitcoin và sinh thái học  
 
+**Phần 5 - Cách nhận bitcoin?**  
+- Chương 16 - Bitcoin không bao giờ ngủ!  
+- Chương 17 - Kiếm bitcoin qua công việc  
+- Chương 18 - Tiết kiệm với Bitcoin  
+- Chương 19 - Siêu bitcoin hóa  
 
-- Chương 5 - Ví Bitcoin hoạt động như thế nào?
-- Chương 6 - Lựa chọn bảo mật của bạn
-- Chương 7 - Thiết lập ví của bạn
-- Chương 8 - Bảo vệ chống lại thời gian
-
-**Phần 3 - Các tính năng kỹ thuật của Bitcoin**
-
-
-- Chương 9 - Giao dịch là gì?
-- Chương 10 - Các nút Bitcoin
-- Chương 11 - Thợ mỏ
-- Chương 12 - Thợ mỏ và sinh thái
-
-**Mục 4 - Tiết kiệm bằng Bitcoin**
-
-
-- Chương 13 - Giá Bitcoin
-- Chương 14 - Làm thế nào để mua Bitcoin?
-- Chương 15 - Làm việc cho Bitcoin
-- Chương 16 - Siêu bitcoin hóa
-
-**Phần 5 - Mạng lưới Lightning**
-
-
-- Chương 17 - Giới thiệu về Lightning Network
-- Chương 18 - Các trường hợp sử dụng cho Lightning Network
+**Phần 6 - Tương lai của Bitcoin: Lightning Network**  
+- Chương 20 - Giới thiệu ngắn về Lightning Network  
+- Chương 21 - Các trường hợp sử dụng của Lightning Network  
+- Chương 22 - Viên thuốc đỏ hay viên thuốc xanh?  
 
 Trước khi giới thiệu định nghĩa về tiền và chức năng của nó trong xã hội (Chương 1), chúng ta nên bắt đầu từ sự ra đời của Bitcoin. Ra mắt vào năm 2009, Bitcoin là một công nghệ tương đối mới và khác biệt so với bất kỳ công nghệ nào khác. Do đó, việc không hiểu mọi thứ về nó cùng một lúc là điều bình thường. Trên thực tế, giống như khi học cách sử dụng Internet hoặc lái xe, bạn không cần phải biết tất cả các chi tiết kỹ thuật ngay lập tức: bạn có thể bắt đầu bằng cách học cách nhận, thanh toán và bảo vệ tiền của mình, sau đó thực hiện các bước nhỏ để nghiên cứu sâu hơn.
 
@@ -84,6 +80,8 @@ Suy cho cùng, chúng ta chỉ mới ở giai đoạn đầu của quá trình �
 ![image](assets/en/02.webp)
 
 Điểm quan trọng ở đây là phải hiểu công nghệ mới này một cách tổng quát, vì vậy chúng tôi hy vọng bạn thích khóa học này và tiếp tục đạt được tiến bộ trong mô hình tiền tệ toàn cầu mới này.
+
+Sẵn sàng khám phá thế giới hấp dẫn của Bitcoin và hiểu rõ mọi cơ chế của nó chưa? Đi thôi!
 
 ## Tiền sử của Bitcoin
 
@@ -1076,6 +1074,7 @@ Ngày nay, Bitcoin tiếp tục tồn tại và phát triển hơn nữa bằng 
 
 ![image](assets/en/71.webp)
 
+
 ## Nhận Bitcoin bằng cách làm việc
 
 <chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>
@@ -1114,6 +1113,11 @@ https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4
 https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Giải pháp cho các công trình lớn hoặc những người đam mê bitcoin: Máy chủ BTCpay
+
+Để tìm hiểu sâu hơn về chủ đề này, chúng tôi khuyên bạn nên tham gia khóa học BIZ101 của chúng tôi! Khám phá cách tích hợp hiệu quả bitcoin vào ngân quỹ công ty của bạn, chấp nhận bitcoin như một phương thức thanh toán theo hồ sơ của tổ chức và hiểu các yêu cầu về thuế và kế toán liên quan:
+
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+
 
 ## Tiết kiệm với Bitcoin
 
@@ -1160,6 +1164,7 @@ Chiến lược dần dần liên quan đến việc mua định kỳ, nghĩa l�
 
 **Cẩn thận với UTXO**: Hãy nhớ hợp nhất UTXO trong ví của bạn theo thời gian. Thực hành này rất cần thiết để quản lý bitcoin hiệu quả và tránh các khoản phí không cần thiết trong quá trình giao dịch.
 
+[UTXO](https://planb.network/resources/glossary/utxo#:~:text=UTXO) (Unspent Transaction Output) là một đầu ra của một giao dịch chưa được chi tiêu, có nghĩa là nó chưa được sử dụng làm đầu vào cho một giao dịch mới. Việc hợp nhất UTXO có nghĩa là kết hợp nhiều UTXO nhỏ thành một UTXO lớn hơn, nhằm giảm "trọng lượng" của giao dịch và do đó phải trả phí thấp hơn.
 
 - Mua hàng tự phát
 
@@ -1392,7 +1397,7 @@ Satoshi đã tạo ra Bitcoin vào năm 2008 để đề xuất thay đổi hệ
 
 Bạn đã sẵn sàng tham gia chưa?
 
-# Phần kết luận
+# Phần cuối
 
 <partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 

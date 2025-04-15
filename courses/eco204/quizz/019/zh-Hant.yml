@@ -1,0 +1,11 @@
+question: Hanke-Krus 表中記錄了多少次惡性通貨膨脹？
+answer: 56
+wrong_answers:
+  - 46
+  - 66
+  - 76
+explanation: |
+  Hanke-Krus 表格記錄了 56 次惡性通貨膨脹。然而、
+  它並未涵蓋所有事件，例如 2016 年在委內瑞拉發生的事件，將
+  總數為 57。
+reviewed: false

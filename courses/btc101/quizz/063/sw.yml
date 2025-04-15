@@ -1,0 +1,12 @@
+question: Je, ni dhana gani ya kihisabati ambayo inategemea busara ya binadamu na inatumika katika Bitcoin?
+answer: Nadharia ya mchezo.
+wrong_answers:
+  - Nadharia ya uwezekano.
+  - Nadharia ya nambari.
+  - Weka nadharia.
+explanation: |
+  Nadharia ya mchezo ni dhana ya hisabati ambayo msingi wake ni
+  busara ya kibinadamu. Katika Bitcoin, mabadiliko ya itifaki ni
+  kutekelezwa na watumiaji, kufanya marekebisho yoyote kwa Bitcoin
+  itifaki ngumu sana.
+reviewed: true

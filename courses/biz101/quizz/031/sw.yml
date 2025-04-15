@@ -1,0 +1,9 @@
+question: Je, biashara inapaswa kuchaguaje suluhisho la malipo la Bitcoin linalolingana na mahitaji yake?
+answer: Kwa kuzingatia vipengele kama vile marudio ya malipo, wastani wa ukubwa wa malipo, na iwe ni mtandaoni au ana kwa ana, na kisha kuchagua suluhu linalolingana na aina hiyo.
+wrong_answers:
+  - Kwa kuchagua kila wakati suluhisho rahisi zaidi, bila kujali kiasi cha manunuzi au ugumu.
+  - Kwa kutumia tu suluhisho kubwa zaidi na la gharama kubwa zaidi, bila kujali ukubwa wa biashara.
+  - Kwa kutegemea kazi ya kubahatisha pekee bila kuzingatia mahitaji mahususi ya biashara.
+explanation: |
+  Biashara tofauti zina mahitaji tofauti. Kutathmini vipengele kama vile kiasi cha miamala, mbinu za malipo (mtandaoni dhidi ya halisi), na ukubwa husaidia kampuni kuchagua suluhu sahihi la malipo la Bitcoin.
+reviewed: false

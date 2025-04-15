@@ -1,0 +1,11 @@
+question: आप अपने Bitcoin और Wallet की डिफ़ॉल्ट सुरक्षा को कैसे मजबूत कर सकते हैं?
+answer: अपने Bitcoin Wallet में एक passphrase जोड़कर।
+wrong_answers:
+  - अपने Bitcoin और Wallet में एक दूसरी प्राइवेट की जोड़कर।
+  - अपने Bitcoin और Wallet में एक दूसरी पब्लिक की जोड़कर।
+  - अपने Bitcoin Wallet में दूसरा Mnemonic फ्रेज जोड़कर।
+explanation: |
+  अगर आप अपने डिफ़ॉल्ट सुरक्षा से संतुष्ट नहीं हैं तो
+  Bitcoin Wallet, आप इसे हमेशा मजबूत बना सकते हैं...
+  जीडब्ल्यू-14 से आपके जीडब्ल्यू-15 जीडब्ल्यू-16।
+reviewed: true

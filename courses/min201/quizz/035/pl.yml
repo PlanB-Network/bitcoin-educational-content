@@ -1,0 +1,11 @@
+question: Co mierzy Hashrate w sieci Bitcoin?
+answer: Obliczenia na sekundę
+wrong_answers:
+  - Liczba transakcji na sekundę
+  - Liczba aktywnych węzłów
+  - Ilość energii elektrycznej zużywanej przez sieć
+explanation: |
+  Hashrate w sieci Bitcoin mierzy liczbę obliczeń, które można wykonać na sekundę
+  obliczeń, które można wykonać na sekundę. Jest to kluczowy
+  wskaźnik kondycji i bezpieczeństwa sieci.
+reviewed: true

@@ -82,7 +82,7 @@ Si Bitcoin Core est installé sur votre ordinateur, localisez le fichier `bitcoi
 
 ```ini
 server=1
-````
+```
 
 Sauvegardez ensuite vos modifications.
 

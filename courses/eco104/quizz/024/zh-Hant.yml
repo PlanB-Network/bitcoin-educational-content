@@ -1,0 +1,11 @@
+question: 在 Bitcoin 的背景下，Halving 是什麼？
+answer: Bitcoin 代碼中的一項功能，每四年將 Mining 獎勵減半
+wrong_answers:
+  - 增加全球採用 Bitcoin 的過程
+  - 防止 Bitcoin 價值崩潰的機制
+  - 用來形容 Bitcoin 價格暴漲的術語
+explanation: |
+  Halving 是 Bitcoin 代碼中的一項功能，可削減 Mining
+  獎勵大約每四年減少一半。此事件會影響
+  礦商的收入，並對 Bitcoin 的價格造成上漲壓力。
+reviewed: true

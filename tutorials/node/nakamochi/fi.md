@@ -50,7 +50,7 @@ _Uuden lompakon perustaminen Lightning-välilehdelle_
 
 _Scannaa QR-koodi Node Management -sovelluksella_
 
-![image](asset/en/05.webp)
+![image](assets/en/05.webp)
 
 _Lisäturvallisuuden lisäämiseksi aseta PIN-koodi_
 
@@ -82,11 +82,11 @@ Kun Nakamochi on asennettu ja yhdistetty solmunhallintasovellukseen, voit aloitt
 
 3. Skannaa tai syötä sen solmun julkistusavain, johon haluat muodostaa yhteyden.
 
-4. 
+4.
 
 5. Napsauta **"Avaa kanava "**.
 
-![image](asset/en/06.webp)
+![image](assets/en/06.webp)
 
 _ZEUS Kuvakaappaus_
 
@@ -102,9 +102,9 @@ Lisätietoja: [Channels | Zeus Documentation](https://docs.zeusln.app/)
 
 4. Skannaa tai liitä julkistusavain.
 
-5. 
+5. Syötä lukittu summa (valitse vertaisesi kanssa tai käytä tunnetuille solmuille kiinteää vähimmäismäärää).
 
-![image](asset/en/07.webp)
+![image](assets/en/07.webp)
 
 _Bitbanana Kuvakaappaus_
 
@@ -112,7 +112,7 @@ Lisätietoja: [BitBanana](https://bitbanana.com)
 
 Kun kanavasi on avattu, maksut voidaan ohjata sen kautta muille verkoston osallistujille. Saldot mukautuvat ketjun ulkopuolella, joten maksutapahtumat ovat lähes välittömiä ja niistä peritään vain vähän maksuja.
 
-Jos et enää tarvitse kanavaa, voit sulkea sen. Tämä toimenpide ratkaisee sinun ja vertaisesi välisen loppusaldon ja kirjaa sen ketjuun. 
+Jos et enää tarvitse kanavaa, voit sulkea sen. Tämä toimenpide ratkaisee sinun ja vertaisesi välisen loppusaldon ja kirjaa sen ketjuun.
 
 Yleisesti ottaen suosittelemme kanavien jättämistä auki kustannusten vähentämiseksi ja verkon luotettavuuden ja tehokkuuden lisäämiseksi. Pitämällä kanavat auki minimoit ketjussa suoritettavien tapahtumien maksut, vältät kanavien uudelleenkytkentöjen aiheuttamat käyttökatkokset ja säilytät vakaan reitityskapasiteetin saumatonta maksujen käsittelyä varten. Tämä lähestymistapa edistää vankkaa ja joustavaa verkkoa ja parantaa samalla yleistä käyttäjäkokemusta ja vähentää operatiivisia kustannuksia.
 

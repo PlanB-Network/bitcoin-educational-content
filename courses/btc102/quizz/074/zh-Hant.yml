@@ -1,0 +1,11 @@
+question: Bitcoin 堆疊機的主要目標是什麼？
+answer: 盡可能累積更多的 Satoshis
+wrong_answers:
+  - 累積盡可能多的 bitcoins
+  - 在 Bitcoin 中銷售商品或服務
+  - 與朋友或 Bitcoin 社群成員直接以現金購買 Bitcoin
+explanation: |
+  Bitcoin 堆疊機的主要目標是累積盡可能多的 Satoshis
+  越多越好。要達到這個目標，必須設定平均成本計畫 (Dollar-Cost Averaging, DCA) 並尋找其他解決方案來累積衛星。
+  尋找其他解決方案來累積衛星。
+reviewed: false

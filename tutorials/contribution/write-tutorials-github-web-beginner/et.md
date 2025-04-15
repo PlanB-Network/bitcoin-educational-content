@@ -115,76 +115,94 @@ Alustame YAML-failist. Uue faili loomise lahtrisse kirjutame `tutorial.yml` :
 
 Täitke fail `tutorial.yml`, kopeerides järgmise malli:
 
+
 ```
-id:
-project_id:
+id: 
+
+project_id: 
+
 tags:
--
--
--
-category:
-level:
-credits:
-professor:
+  - 
+  - 
+  - 
+
+category: 
+
+level: 
+
+professor_id:
+
 # Proofreading metadata
+
 original_language:
 proofreading:
-- language:
-last_contribution_date:
-urgency:
-contributors_id:
--
-reward:
+  - language: 
+    last_contribution_date:
+    urgency:
+    contributor_names:
+      - 
+    reward:
 ```
 
-Siin on nõutavad väljad:
+Siin on kohustuslikud väljad:
 
+- **id** : UUID (_Universally Unique Identifier_), mis võimaldab õpetust ainulaadselt tuvastada. Selle saab luua [veebitööriista](https://www.uuidgenerator.net/version4) abil. Ainus nõue on, et see UUID oleks juhuslik, et vältida konflikte teiste platvormil olevate UUID-dega;
 
-- id**: UUID (_Universally Universally Unique Identifier_), mis identifitseerib õpetuse üheselt. Selle saate genereerida [veebipõhise tööriistaga](https://www.uuidgenerator.net/version4). Ainus piirang on see, et see UUID peab olema juhuslik, et see ei satuks vastuollu mõne teise platvormi UUID-ga;
-- project_id** : Õpetuses esitatud tööriista taga oleva ettevõtte või organisatsiooni UUID [projektide nimekirjast](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Näiteks kui teete õpetust Green Wallet tarkvara kohta, siis leiate selle `project_id` järgmisest failist: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. See teave lisatakse teie õpetuse YAML-faili, sest Plan ₿ Network haldab andmebaasi kõigi Bitcoini või sellega seotud projektidega tegelevate ettevõtete ja organisatsioonide kohta. Lisades oma juhendmaterjalile lingitud üksuse `project_id`, loote kahe elemendi vahel lingi;
-- sildid**: 2 või 3 asjakohast märksõna, mis on seotud õpetuse sisuga ja mis on valitud eranditult [Plan ₿ Network tag'ide nimekirjast](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
-- kategooria** : Õpetuse sisule vastav alamkategooria vastavalt kava ₿ võrgu struktuurile (nt rahakottide puhul: `desktop`, `hardware`, `mobile`, `backup`) ;
-- tase** : Õpetuse raskusaste, alates :
-    - algaja`
-    - "vahepealne
-    - "Edasijõudnud
-    - "ekspert
-- professor**: Teie `contributor_id` (BIP39 sõnad), nagu on näidatud [teie õpetaja profiilis](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
-- originaal_keel** : Õpetuse originaalkeel (nt `fr`, `en` jne.) ;
-- korrektuur**: Teave korrektuuriprotsessi kohta. Täitke esimene osa, sest teie enda juhendmaterjali korrektuur loetakse esimeseks kinnitamiseks:
-    - keel**: Keelekoodi korrektuur (nt "fr", "en" jne).
-    - viimane_makse_kuupäev**: Tänane kuupäev.
-    - kiireloomulisus** : Jäta tühjaks.
-    - toetajad_id** : Teie GitHubi ID.
-    - tasu** : Jäta tühjaks.
+- **project_id** : Ettevõtte või organisatsiooni UUID, mis on seotud õpetuses esitatud tööriistaga [projektide loendist](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Näiteks kui loote õpetust Green Walleti tarkvara kohta, leiate `project_id` järgmisest failist: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. See teave lisatakse teie õpetuse YAML-faili, kuna Plan ₿ Network haldab kõigi Bitcoiniga seotud ettevõtete ja organisatsioonide andmebaasi. Lisades oma õpetusega seotud üksuse `project_id`, loote seose kahe elemendi vahel;
+
+- **tags** : 2 või 3 õpetuse sisuga seotud märksõna, mis valitakse ainult [Plan ₿ Networki siltide loendist](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+
+- **category** : Õpetuse sisule vastav alamosa Plan ₿ Networki saidi struktuuri järgi (näiteks rahakottide jaoks: `desktop`, `hardware`, `mobile`, `backup`);
+
+- **level** : Õpetuse raskusaste, valitud järgmistest tasemetest:
+    - `beginner`
+    - `intermediate`
+    - `advanced`
+    - `expert`
+
+- **professor_id** : Teie `professor_id` (UUID), nagu on näidatud [teie professori profiilil](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
+
+- **original_language** : Õpetuse algne keel (näiteks `fr`, `en`, jne);
+
+- **proofreading** : Teave korrektuuriprotsessi kohta. Täitke esimene osa, kuna oma õpetuse korrektuur loetakse esimeseks valideerimiseks:
+    - **language** : Keelekood korrektuuri jaoks (näiteks `fr`, `en`, jne).
+    - **last_contribution_date** : Käesoleva päeva kuupäev.
+    - **urgency** : 1
+    - **contributor_names** : Teie GitHub ID.
+    - **reward** : 0
 
 Lisateavet õpetaja ID kohta leiate vastavast juhendmaterjalist :
 
 https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
-Siin on näide `tutorial.yml` failist, mis on valminud Blockstream Green rahakoti õpetuse jaoks:
-
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
+
 project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
+
 tags:
-- wallets
-- software
-- keys
+  - wallets
+  - software
+  - keys
+
 category: mobile
+
 level: beginner
-credits:
-professor: pretty-private
+
+professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
+
 # Proofreading metadata
+
 original_language: fr
 proofreading:
-- language: fr
-last_contribution_date: 2024-11-20
-urgency:
-contributors_id:
-- LoicPandul
-reward:
+  - language: fr
+    last_contribution_date: 2024-11-20
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0
 ```
+
 
 Kui olete lõpetanud oma `tutorial.yml` faili muutmise, salvestage oma dokument, klõpsates nupule "*Commit changes...*":
 

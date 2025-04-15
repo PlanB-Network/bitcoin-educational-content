@@ -21,17 +21,17 @@ Não precisa de ter conhecimentos específicos para começar. De facto, o conte�
 
 <partId>3cd2ac82-026c-53e1-874a-baf5842adc6d</partId>
 
-## Um salto para o desconhecido
+## Visão Geral do Curso
 
 <chapterId>27e3fb60-4b50-556b-9e70-c4f5475c121d</chapterId>
 
-### Bem-vindo a um novo paradigma monetário e tecnológico.
+Bem-vindo ao curso BTC101!
 
 O Bitcoin é uma revolução tecnológica e monetária, capaz de nos fazer questionar a nossa relação com o dinheiro e com a sociedade. De facto, a Bitcoin (designada por BTC) é uma moeda **neutra** e **descentralizada**, o que significa que não é controlada por nenhuma entidade ou instituição. Trata-se de uma inovação que vai para além de uma mera "moeda da Internet": é simultaneamente um protocolo informático (Bitcoin) e uma unidade monetária (bitcoin).
 
 O protocolo utiliza tecnologias subjacentes como a criptografia, a comunicação em rede e a famosa "blockchain", enquanto a unidade bitcoin serve como a moeda necessária para o bom funcionamento deste protocolo. Na vida quotidiana, os salvadorenhos e os bitcoiners de todo o mundo utilizam a moeda bitcoin para comprar e vender bens e serviços, confiando nesta tecnologia para melhorar as suas vidas.
 
-### Um currículo abrangente mas acessível
+**Um currículo abrangente, mas acessível:**
 
 Neste curso, discutiremos alguns aspectos monetários do Bitcoin, incluindo como comprar e vender bitcoins, armazená-los de forma segura em carteiras digitais e utilizá-los para transacções. Também examinaremos o papel dos mineradores, que são essenciais para criar novos bitcoins e proteger a rede Bitcoin. Por fim, exploraremos o futuro da Bitcoin e como a tecnologia Lightning Network pode melhorar as transacções Bitcoin.
 
@@ -39,38 +39,39 @@ Neste curso, discutiremos alguns aspectos monetários do Bitcoin, incluindo como
 
 É essencial compreender que o Bitcoin é um novo sistema monetário que altera completamente a nossa relação com o dinheiro, pelo que aprender a utilizá-lo é uma competência necessária para qualquer pessoa que queira ter o controlo dos seus próprios fundos.
 
-\*\*Secção 1 - Dinheiro
+**Seção 1 - Introdução**  
+- Capítulo 1 - Visão Geral do Curso  
+- Capítulo 2 - A pré-história do Bitcoin  
 
-- Capítulo 1 - O que é o dinheiro?
-- Capítulo 2 - Moeda fiduciária
-- Capítulo 3 - Hiperinflação
-- Capítulo 4 - Política monetária da Bitcoin
+**Seção 2 - O Dinheiro**  
+- Capítulo 3 - O dinheiro ao longo da história  
+- Capítulo 4 - Moedas fiduciárias  
+- Capítulo 5 - Hiperinflação  
+- Capítulo 6 - 21 milhões de bitcoins  
 
-\*\*Secção 2 - Carteiras Bitcoin
+**Seção 3 - Carteiras Bitcoin**  
+- Capítulo 7 - O que é uma carteira Bitcoin?  
+- Capítulo 8 - Carteiras Bitcoin e segurança  
+- Capítulo 9 - Configuração de uma carteira  
+- Capítulo 10 - Superando o teste do tempo  
 
-- Capítulo 5 - Como é que as carteiras Bitcoin funcionam?
-- Capítulo 6 - Escolher a sua segurança
-- Capítulo 7 - Configurar a sua carteira
-- Capítulo 8 - Proteção contra o tempo
+**Seção 4 - Aspectos técnicos do Bitcoin**  
+- Capítulo 11 - Lançamento do Bitcoin  
+- Capítulo 12 - Transações em bitcoins  
+- Capítulo 13 - Nós Bitcoin  
+- Capítulo 14 - Mineradores  
+- Capítulo 15 - Bitcoin e ecologia  
 
-\*\*Secção 3 - Caraterísticas técnicas da Bitcoin
+**Seção 5 - Como obter bitcoins?**  
+- Capítulo 16 - O Bitcoin nunca dorme!  
+- Capítulo 17 - Obter bitcoins através do trabalho  
+- Capítulo 18 - Poupar com Bitcoin  
+- Capítulo 19 - Hiperbitcoinização  
 
-- Capítulo 9 - O que é uma transação?
-- Capítulo 10 - Nós Bitcoin
-- Capítulo 11 - Mineiros
-- Capítulo 12 - Os mineiros e a ecologia
-
-\*\*Secção 4 - Poupar em Bitcoin
-
-- Capítulo 13 - Preço da Bitcoin
-- Capítulo 14 - Como é que se compra Bitcoin?
-- Capítulo 15 - Trabalhar para a Bitcoin
-- Capítulo 16 - Hiper-bitcoinização
-
-\*\*Secção 5 - Rede de relâmpagos
-
-- Capítulo 17 - Introdução à rede Lightning
-- Capítulo 18 - Casos de utilização do Lightning Network
+**Seção 6 - O futuro do Bitcoin: a Lightning Network**  
+- Capítulo 20 - Uma breve introdução à Lightning Network  
+- Capítulo 21 - Casos de uso da Lightning Network  
+- Capítulo 22 - Pílula vermelha ou pílula azul?  
 
 Antes de introduzirmos a definição de dinheiro e a sua função na sociedade (Capítulo 1), devemos começar pela génese da Bitcoin. Lançada em 2009, a Bitcoin é uma tecnologia relativamente nova e diferente de tudo o resto. Por isso, é normal que não se compreenda tudo sobre ela, de uma só vez. De facto, tal como quando se aprende a utilizar a Internet ou a conduzir um automóvel, não é necessário conhecer todos os pormenores técnicos de imediato: pode começar por aprender a receber, pagar e proteger os seus fundos e, em seguida, dar pequenos passos para os estudar mais profundamente.
 
@@ -79,6 +80,8 @@ Afinal, estamos apenas no início da sua adoção, pois já passámos a fase de 
 ![image](assets/en/02.webp)
 
 O importante aqui é compreender esta nova tecnologia de uma forma geral, por isso esperamos que goste deste curso e que continue a progredir neste novo paradigma monetário global.
+
+Pronto para mergulhar no fascinante universo do Bitcoin e entender todos os seus mecanismos? Vamos lá!
 
 ## A pré-história do Bitcoin
 
@@ -1048,6 +1051,7 @@ Atualmente, a Bitcoin continua a sobreviver e a crescer ainda mais, sendo cada v
 
 ![image](assets/en/71.webp)
 
+
 ## Obter Bitcoins através do trabalho
 
 <chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>
@@ -1085,6 +1089,10 @@ https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4
 https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Solução para grandes estruturas ou bitcoiners apaixonados: Servidor BTCpay
+
+Para aprofundar este assunto, recomendamos o nosso treinamento BIZ101! Descubra como integrar efetivamente o bitcoin no caixa da sua empresa, aceitar bitcoin como meio de pagamento de acordo com o perfil da sua organização e entender os requisitos fiscais e contábeis relacionados:
+
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## Poupar com Bitcoin
 
@@ -1127,6 +1135,8 @@ Uma estratégia gradual envolve compras recorrentes, o que significa comprar peq
 
 **Cuidado com os UTXOs**: Lembre-se de consolidar os seus UTXOs nas suas carteiras de tempos a tempos. Esta prática é essencial para gerir eficazmente os seus bitcoins e evitar taxas desnecessárias durante as transacções.
 
+Um [UTXO](https://planb.network/resources/glossary/utxo#:~:text=UTXO) (Unspent Transaction Output) é uma saída de uma transação que ainda não foi gasta, o que significa que não foi utilizada como entrada para uma nova transação. Consolidar UTXOs significa combinar vários UTXOs pequenos em um maior, a fim de diminuir o "peso" da transação e, assim, pagar taxas mais baixas.
+
 - Compra espontânea
 
 Uma solução imediata poderia ser uma compra espontânea, que é utilizada para ganhar imediatamente exposição à bitcoin. Quer se trate de comprar durante um crash ou de tirar partido de um bónus, a decisão é sua. Terá de reunir a sua coragem e premir o botão de compra.
@@ -1139,7 +1149,7 @@ Existem várias formas de adquirir bitcoins, cada uma sujeita ao seu próprio co
 
 - Plataformas DCA
 
-Como introduzimos acima, um método comum para acumular bitcoins é o Dollar Cost Averaging (DCA), que envolve a compra regular de pequenas quantidades. Várias plataformas oferecem este serviço, como as listadas na nossa [página dedicada] (https://planb.network/tutorials/exchange). Para além da simplicidade da configuração de uma DCA, os levantamentos para a sua carteira são geralmente automáticos, o que significa que terá sempre controlo sobre os seus activos.
+Como introduzimos acima, um método comum para acumular bitcoins é o Dollar Cost Averaging (DCA), que envolve a compra regular de pequenas quantidades. Várias plataformas oferecem este serviço, como as listadas na nossa [página dedicada](https://planb.network/tutorials/exchange). Para além da simplicidade da configuração de uma DCA, os levantamentos para a sua carteira são geralmente automáticos, o que significa que terá sempre controlo sobre os seus activos.
 
 Atualmente, quase todas as soluções DCA são relativamente eficientes e têm taxas quase semelhantes, pelo que a escolha dependerá mais da disponibilidade no seu país.
 
@@ -1352,7 +1362,7 @@ Satoshi criou o Bitcoin em 2008 para propor uma mudança no sistema financeiro, 
 
 Está pronto para aderir?
 
-# Conclusão
+# Seção final
 
 <partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 

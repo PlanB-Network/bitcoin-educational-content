@@ -1,0 +1,12 @@
+question: Jaka jest główna cecha Bitcoin, która odróżnia go od innych kryptowalut?
+answer: Bitcoin to jedyna prawdziwie zdecentralizowana, odporna na cenzurę, wolna i poważna kryptowaluta
+wrong_answers:
+  - Bitcoin to jedyna kryptowaluta, którą można wydobywać
+  - Bitcoin to jedyna kryptowaluta, którą można kupić lub sprzedać na platformach Exchange
+  - Bitcoin to jedyna kryptowaluta, którą można przechowywać w Wallet
+explanation: |
+  Treść rozdziału stwierdza, że Bitcoin jest jedyną prawdziwie zdecentralizowaną,
+  odporną na cenzurę, wolną i poważną kryptowalutą, która uzasadnia tysiące godzin pracy
+  tysięcy godzin pracy. Jest to kluczowa cecha, która odróżnia Bitcoin od innych kryptowalut
+  kryptowalut.
+reviewed: false

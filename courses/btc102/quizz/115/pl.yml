@@ -1,0 +1,11 @@
+question: Jaki jest cel menedżera haseł w Bitcoin?
+answer: Bezpieczne przechowywanie haseł do transakcji Bitcoin i zarządzanie nimi.
+wrong_answers:
+  - Aby wydobywać nowe Bitcoiny.
+  - Aby handlować Bitcoinami.
+  - Aby zamienić Bitcoiny na inne kryptowaluty.
+explanation: |
+  Menedżer haseł to aplikacja służąca do przechowywania i
+  i zarządzania hasłami danej osoby do różnych kont internetowych. W kontekście Bitcoin,
+  służy do bezpiecznego przechowywania haseł do transakcji Bitcoin i zarządzania nimi.
+reviewed: false

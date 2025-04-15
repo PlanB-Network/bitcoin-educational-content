@@ -1,6 +1,6 @@
 id: 9c768046-163b-4218-9272-dc7fe0a3ccb9
-start_date: 2025-05-01 09:00:00
-end_date: 2025-05-03 16:00:00
+start_date: 2025-05-02 09:00:00
+end_date: 2025-05-04 16:00:00
 timezone: Europe/Rome
 address_city_country: Turin, Italy
 name: Bitcoin Educators Academy Turin 2025
@@ -10,7 +10,7 @@ description: Experience 3 intense days of learning how to communicate and educat
 language:
   - en
 links:
-  website: https://www.amityage.com/bea
+  website: https://docs.google.com/forms/d/e/1FAIpQLSdMgMk-7P6taVBcRcvAEGqDI1JIvsnfnaoDj_m_N-2ps0Wcpg/viewform
 project_id: d3d09b8a-dfbe-4475-921c-589c03953316
 tags:
   - user-friendly

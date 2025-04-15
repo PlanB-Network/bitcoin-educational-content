@@ -50,7 +50,7 @@ _Uue rahakoti loomine välklambilehel_
 
 _Skaneeri QR-kood koos Node Management Appiga_
 
-![image](asset/en/05.webp)
+![image](assets/en/05.webp)
 
 _Seadke lisaturvalisuse tagamiseks PIN-kood_
 
@@ -86,7 +86,7 @@ Kui teie Nakamochi on seadistatud ja ühendatud sõlme haldamise rakendusega, sa
 
 5. Klõpsake **"Ava kanal "**.
 
-![image](asset/en/06.webp)
+![image](assets/en/06.webp)
 
 _ZEUS Screenshot_
 
@@ -104,7 +104,7 @@ Lisateave: [Channels | Zeus Documentation](https://docs.zeusln.app/)
 
 5. Sisestage lukustatud summa (valige koos oma kolleegiga või kasutage minimaalset fikseeritud summat tuntud sõlmede puhul).
 
-![image](asset/en/07.webp)
+![image](assets/en/07.webp)
 
 _Bitbanana Screenshot_
 

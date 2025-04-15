@@ -14,7 +14,7 @@ Dans ce tutoriel, nous allons vous montrer comment contribuer facilement à la t
 
 Pour traduire le contenu éducatif, nous utilisons [l'intelligence artificielle] (https://github.com/Asi0Flammeus/LLM-Translator). Ensuite, pour corriger les éventuelles erreurs dans ces fichiers, nous invitons les relecteurs à contribuer. Si vous souhaitez relire certains contenus, consultez le tutoriel suivant :
 
-https://planb.network/tutorials/contribution/content/content-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
 En revanche, si vous souhaitez traduire les éléments statiques du site web (à l'exclusion du contenu éducatif), vous êtes au bon endroit ! Pour traduire efficacement le frontend, nous utilisons l'outil Weblate, qui est très simple à utiliser et facilite l'approche de la traduction.
 
 Si vous souhaitez ajouter une toute nouvelle langue sur Plan ₿ Network, vous pouvez contacter notre équipe via notre [groupe Telegram](https://t.me/PlanBNetwork_ContentBuilder). Si vous n'avez pas de compte Telegram, vous pouvez envoyer un e-mail à mari@planb.network. N'oubliez pas d'écrire une petite présentation sur qui vous êtes et les langues que vous parlez.

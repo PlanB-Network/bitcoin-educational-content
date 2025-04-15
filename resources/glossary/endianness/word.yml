@@ -1,6 +1,6 @@
-id: 45b1f97b-d063-4d8e-86ce-8940ea5ffe94
+id: 54a24227-0e81-42b6-bc27-43688d8ab95a
 en_word: ENDIANNESS
-related_words: []
+related_words: 
 original_language: fr
 proofreading:
   - language: en
@@ -9,7 +9,7 @@ proofreading:
     contributor_names:
     reward: 0.16
   - language: fr
-    last_contribution_date: 2024-07-26
+    last_contribution_date: 2025-03-04
     urgency: 1
     contributor_names:
       - LoicPandul

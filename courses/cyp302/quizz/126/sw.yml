@@ -1,0 +1,9 @@
+question: Je, itifaki ya ufunguo wa Diffie-Hellman Exchange inaruhusu nini?
+answer: Inaruhusu pande mbili kuunda ufunguo wa siri wa kawaida kwa kushiriki habari za umma.
+wrong_answers:
+  - Inaruhusu ufunguo wa siri wa ndani wa mtu Exchange kwa kila kipindi.
+  - Inaruhusu matumizi ya ufunguo wa umma kwa usimbaji fiche na ufunguo wa faragha kwa usimbuaji.
+  - Inaruhusu Exchange ya sarafu ya elektroniki.
+explanation: |
+  Itifaki ya Diffie-Hellman huwezesha wahusika wawili kushiriki habari hadharani huku wakihakikisha kwamba wao pekee wanaweza generate ufunguo wa pamoja ili kulinda ubadilishanaji wao wa siku zijazo.
+reviewed: false

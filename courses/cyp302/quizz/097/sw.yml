@@ -1,0 +1,9 @@
+question: Kwa nini usiri pekee hautoshi kuhakikisha mawasiliano salama?
+answer: Kwa sababu mshambulizi bado anaweza kukatiza na kurekebisha ujumbe bila kuelewa maudhui yake.
+wrong_answers:
+  - Kwa sababu usiri ni mgumu sana kupata.
+  - Kwa sababu funguo za kibinafsi zinaweza kukisiwa kwa urahisi.
+  - Kwa sababu ujumbe hauwezi kuthibitishwa bila sahihi ya dijitali.
+explanation: |
+  Usiri hulinda maudhui ya ujumbe, lakini bila MAC, mshambuliaji bado anaweza kukatiza na kurekebisha ujumbe bila kuuelewa, hivyo kuhatarisha uadilifu wa mawasiliano.
+reviewed: false

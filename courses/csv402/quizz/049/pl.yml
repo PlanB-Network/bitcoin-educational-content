@@ -1,0 +1,9 @@
+question: W jaki sposób RGB zapewnia poufność w zarządzaniu zasobami cyfrowymi?
+answer: Rejestrując tylko zobowiązania kryptograficzne na Blockchain
+wrong_answers:
+  - Poprzez szyfrowanie wszystkich transakcji end-to-end na Blockchain
+  - Ukrywając tożsamość użytkowników za pomocą zdecentralizowanych mikserów
+  - Używanie tylko tymczasowych adresów Bitcoin dla każdego transferu
+explanation: |
+  Przechowując tylko dowody kryptograficzne On-Chain, RGB zachowuje poufność poufnych informacji Contract i transferu.
+reviewed: false

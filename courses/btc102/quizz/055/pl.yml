@@ -1,0 +1,11 @@
+question: Czym jest Lightning Network?
+answer: Jest to drugi Layer z Bitcoin.
+wrong_answers:
+  - Jest to kryptowaluta Exchange.
+  - Jest to typ Bitcoin Wallet.
+  - Jest to Bitcoin Mining pool.
+explanation: |
+  Lightning Network to druga technologia Layer zastosowana w Bitcoin
+  która wykorzystuje kanały mikropłatności do skalowania zdolności Blockchain do przeprowadzania transakcji
+  transakcji.
+reviewed: false

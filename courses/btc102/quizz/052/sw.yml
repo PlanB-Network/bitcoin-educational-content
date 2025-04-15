@@ -1,0 +1,11 @@
+question: Je! ni jukumu gani la kampuni kama OpenNode, Swiss Bitcoin Pay, na BTCPay katika mfumo ikolojia wa Bitcoin?
+answer: Wanatoa zana zinazorahisisha biashara kukubali Bitcoin.
+wrong_answers:
+  - Wanachimba Bitcoin.
+  - Wanasimamia Bitcoin.
+  - Wanatoa Bitcoin.
+explanation: |
+  Kampuni kama OpenNode, Swiss Bitcoin Pay, na BTPay hutoa zana
+  hiyo hurahisisha biashara kukubali Bitcoin, na kuchangia kupitishwa kwake
+  na kutumia katika shughuli za kila siku.
+reviewed: false

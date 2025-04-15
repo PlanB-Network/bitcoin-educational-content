@@ -8,5 +8,5 @@ explanation: |
   L'aggiustamento della difficoltà è un meccanismo che si verifica
   ogni 2016 blocchi, o circa due settimane, per garantire che un
   nuovo blocco venga aggiunto alla blockchain ogni dieci minuti in
-  media, indipendentemente dal hashrate globale.
+  media, indipendentemente dal valore di hashrate globale.
 reviewed: true

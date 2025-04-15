@@ -1,0 +1,9 @@
+question: Katika faili ya YAML inayotumika kutoa kipengee, ni sehemu gani inayofafanua jumla ya idadi ya tokeni zilizotolewa?
+answer: iliyotolewaUgavi
+wrong_answers:
+  - Mmiliki wa mali
+  - spec
+  - kiasi
+explanation: |
+  Sehemu ya "issuedSupply" katika faili ya YAML inafafanua jumla ya kiasi cha tokeni zinazotolewa kwa Contract.
+reviewed: false

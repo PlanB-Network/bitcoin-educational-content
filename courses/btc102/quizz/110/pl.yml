@@ -1,0 +1,12 @@
+question: Czym jest ekonomia austriacka w odniesieniu do Bitcoin?
+answer: Ekonomiczna szkoła myślenia, która sprzeciwia się tradycyjnemu keynesizmowi i może pomóc zrozumieć miejsce Bitcoin w gospodarce.
+wrong_answers:
+  - Rodzaj ekonomii praktykowany w Austrii.
+  - Teoria ekonomiczna, na której opiera się Bitcoin.
+  - Gałąź ekonomii, która bada wpływ Bitcoin na austriacką gospodarkę.
+explanation: |
+  Ekonomia austriacka to szkoła myśli ekonomicznej, która opiera się na
+  metodologicznym
+  indywidualizmie. Została ona wykorzystana przez wielu entuzjastów Bitcoin do wyjaśnienia potencjalnych
+  korzyści zdecentralizowanej, deflacyjnej waluty, takiej jak Bitcoin.
+reviewed: false

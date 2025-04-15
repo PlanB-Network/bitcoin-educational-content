@@ -1,0 +1,9 @@
+question: curl -X POST /issueassetnia inaweza kufanya nini kwenye RLN?
+answer: Unda kipengee kipya cha RGB kinachoweza kuvuliwa, kisicho na mfumuko wa bei
+wrong_answers:
+  - Unda kipengee kipya cha RGB kisichoweza kuvu
+  - Unda kipengee kipya cha mfumuko wa bei cha RGB
+  - Unda kipengee kipya cha RGB kinachoweza kuvuliwa nusu nusu
+explanation: |
+  Amri ya "/issueassetnia" inatumiwa kutoa tokeni mpya ya RGB NIA ("Mali Isiyoweza Kuingiliwa").
+reviewed: false

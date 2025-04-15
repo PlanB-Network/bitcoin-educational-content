@@ -1,0 +1,11 @@
+question: Jaka była stopa inflacji na Węgrzech w lipcu 1946 r.?
+answer: 41,900,000,000,000,000%
+wrong_answers:
+  - 207%
+  - 50%
+  - 100%
+explanation: |
+  Miesiącem o najwyższej inflacji na Węgrzech był lipiec
+  1946, z rekordową inflacją cen wynoszącą
+  41,900,000,000,000,000%.
+reviewed: true

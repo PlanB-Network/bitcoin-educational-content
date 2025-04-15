@@ -1,0 +1,9 @@
+question: Bitcoin 在 2011 年 6 月達到的最高價格是多少？
+answer: $32
+wrong_answers:
+  - $1
+  - $3
+  - $8
+explanation: |
+  6 月 8 日，Bitcoin 的價格在 Mt. Gox 達到 32 美元的歷史高點。然而，之後很快就下跌了。
+reviewed: false

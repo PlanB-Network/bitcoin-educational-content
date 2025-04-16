@@ -519,7 +519,7 @@ Onneksi vuodesta 2017 lähtien yksityinen avain voidaan esittää yksinkertaisel
 
 ### Entä hakkerit?
 
-Entä jos joku vahingossa arvaa 12 tai 24 sanan listamme? Lyhyt vastaus on, että se on erittäin epätodennäköistä lompakon luomisessa käytetyn salauksen ansiosta. Jos asiaa tarkastellaan oikeassa mittasuhteessa, saman muistisäännön löytäminen vahingossa on sama asia kuin "oikean" luvun löytäminen 1:n ja $2^256$:n väliltä, mikä vastaa melkeinpä "oikean" atomin löytämistä maailmankaikkeudesta. Jos et kuitenkaan ole tyytyväinen tähän oletusturvaan, voit aina parantaa sitä lisäämällä Bitcoin-lompakkoosi tunnuslauseen (ylimääräisen sanan).
+Entä jos joku vahingossa arvaa 12 tai 24 sanan listamme? Lyhyt vastaus on, että se on erittäin epätodennäköistä lompakon luomisessa käytetyn salauksen ansiosta. Jos asiaa tarkastellaan oikeassa mittasuhteessa, saman muistisäännön löytäminen vahingossa on sama asia kuin "oikean" luvun löytäminen 1:n ja 2 potenssiin 256:n väliltä, mikä vastaa melkeinpä "oikean" atomin löytämistä maailmankaikkeudesta. Jos et kuitenkaan ole tyytyväinen tähän oletusturvaan, voit aina parantaa sitä lisäämällä Bitcoin-lompakkoosi tunnuslauseen (ylimääräisen sanan).
 
 ![image](assets/en/29.webp)
 

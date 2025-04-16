@@ -23,6 +23,28 @@ objectives:
 
 <partId>59e43fe3-b494-5da6-b4b4-9df5bdf08916</partId>
 
+## 課程概覽
+
+<chapterId>785ed2bc-94ae-4962-a26a-edf5742a3c72</chapterId>
+
+歡迎來到 BTC305 課程：BTCPay Server 教學！
+
+本課程的目標是教您如何在您的業務或組織中安裝、設定及使用 BTCPay Server。BTCPay Server 是一個開源解決方案，可讓您以自主、安全且低成本的方式處理比特幣付款。本課程主要針對希望精通自我託管 BTCPay Server 並將其整合至日常營運的進階使用者。
+
+**第一單元：BTCPay Server 介紹**  
+我們將從 BTCPay Server 的總體介紹開始，包括登入畫面、用戶帳戶管理，以及新商店的建立。這部分將幫助您了解 BTCPay Server 的介面，並掌握啟用此工具所需的基本功能。
+
+**第二單元：比特幣金鑰安全介紹**  
+比特幣資金的安全性極為重要。本單元將說明加密金鑰的生成方式、使用硬體錢包來保護這些金鑰，以及如何透過 BTCPay Server 與金鑰互動。您還將學習如何設定 BTCPay Server Lightning 錢包來優化交易。
+
+**第三單元：BTCPay Server 介面**  
+此部分將引導您操作 BTCPay Server 的使用者介面。您將學會如何瀏覽控制面板、設定商店和伺服器參數、管理付款，以及使用整合外掛程式。目的是讓您熟悉所需工具，以便根據需求自訂安裝。
+
+**第四單元：設定 BTCPay Server**  
+最後，我們將聚焦於在不同環境中實際安裝 BTCPay Server。無論您使用的是 LunaNode、Voltage 或 Umbrel 節點，您都將學會部署及設定 BTCPay Server 的關鍵步驟，並了解每個環境的特殊需求。
+
+準備好精通 BTCPay Server 並擴展您的業務了嗎？我們開始吧！
+
 ## 作者的 Bitcoin 和 BTCPay 伺服器廣受好評
 
 <chapterId>e1fe6294-3c82-5203-9537-779f9087c35a</chapterId>

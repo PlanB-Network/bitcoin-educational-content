@@ -493,7 +493,7 @@ Fortunately, since 2017, the private key can be represented by a simple list of 
 
 ### What about hackers?
 
-What if someone accidentally guesses our list of 12 or 24 words? The short answer is that it is highly unlikely, thanks to the cryptography used to create the wallet. To put it into perspective, accidentally discovering your same mnemonic phrase is akin to finding the "right" number between 1 and $2^256$, which is almost equivalent to finding the "right" atom in the Universe. However, if you are not satisfied with this default security, you can always enhance it by adding a passphrase (an extra word) to your Bitcoin wallet.
+What if someone accidentally guesses our list of 12 or 24 words? The short answer is that it is highly unlikely, thanks to the cryptography used to create the wallet. To put it into perspective, accidentally discovering your same mnemonic phrase is akin to finding the "right" number between 1 and 2 raised to the power of 256, which is almost equivalent to finding the "right" atom in the Universe. However, if you are not satisfied with this default security, you can always enhance it by adding a passphrase (an extra word) to your Bitcoin wallet.
 
 ![image](assets/en/29.webp)
 

@@ -538,7 +538,7 @@ Kwa bahati nzuri, tangu 2017, ufunguo wa kibinafsi unaweza kuwakilishwa na orodh
 
 ### Vipi kuhusu wadukuzi?
 
-Je, ikiwa mtu atakisia orodha yetu ya maneno 12 au 24 kwa bahati mbaya? Jibu fupi ni kwamba haiwezekani sana, shukrani kwa cryptography iliyotumiwa kuunda Wallet. Ili kuiweka katika mtazamo, kugundua kwa bahati mbaya kifungu chako sawa cha maneno ya Mnemonic ni sawa na kupata nambari "sahihi" kati ya 1 na $2^256$, ambayo karibu ni sawa na kupata atomi "sahihi" ulimwenguni. Hata hivyo, ikiwa hujaridhika na usalama huu chaguo-msingi, unaweza kuuboresha kila wakati kwa kuongeza passphrase (neno la ziada) kwenye Bitcoin Wallet yako.
+Je, ikiwa mtu atakisia orodha yetu ya maneno 12 au 24 kwa bahati mbaya? Jibu fupi ni kwamba haiwezekani sana, shukrani kwa cryptography iliyotumiwa kuunda Wallet. Ili kuiweka katika mtazamo, kugundua kwa bahati mbaya kifungu chako sawa cha maneno ya Mnemonic ni sawa na kupata nambari "sahihi" kati ya 1 na 2 kwa nguvu ya 256, ambayo karibu ni sawa na kupata atomi "sahihi" ulimwenguni. Hata hivyo, ikiwa hujaridhika na usalama huu chaguo-msingi, unaweza kuuboresha kila wakati kwa kuongeza passphrase (neno la ziada) kwenye Bitcoin Wallet yako.
 
 ![image](assets/en/29.webp)
 

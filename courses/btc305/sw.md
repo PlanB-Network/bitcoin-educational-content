@@ -23,6 +23,28 @@ Imetolewa na BTPay Server Foundation
 
 <partId>59e43fe3-b494-5da6-b4b4-9df5bdf08916</partId>
 
+## Muhtasari wa Kozi
+
+<chapterId>785ed2bc-94ae-4962-a26a-edf5742a3c72</chapterId>
+
+Karibu kwenye kozi ya BTC305 kuhusu BTCPay Server!
+
+Lengo la mafunzo haya ni kukufundisha jinsi ya kusakinisha, kusanidi, na kutumia BTCPay Server katika biashara au shirika lako. BTCPay Server ni suluhisho huria linalokuwezesha kushughulikia malipo ya bitcoin kwa uhuru, usalama, na gharama nafuu. Kozi hii imelenga zaidi watumiaji wa hali ya juu wanaotaka kujifunza jinsi ya kuiweka BTCPay Server kwenye seva zao kwa ajili ya matumizi ya kila siku.
+
+**Sehemu ya 1: Utangulizi wa BTCPay Server**  
+Tutaanza kwa maelezo ya jumla kuhusu BTCPay Server, ikiwa ni pamoja na skrini ya kuingia, usimamizi wa akaunti za watumiaji, na uundaji wa duka jipya. Utangulizi huu utakusaidia kuelewa muonekano wa BTCPay Server na kujua vipengele vya msingi vya kuanza kuitumia.
+
+**Sehemu ya 2: Utangulizi wa Usalama wa Funguo za Bitcoin**  
+Usalama wa fedha zako za bitcoin ni jambo muhimu sana. Katika sehemu hii, tutachunguza jinsi funguo za kielektroniki zinavyoundwa, matumizi ya pochi ngumu (hardware wallets) kulinda funguo hizi, na jinsi ya kuzitumia kupitia BTCPay Server. Pia utajifunza kusanidi pochi ya Lightning ya BTCPay Server ili kuboresha miamala yako.
+
+**Sehemu ya 3: Muonekano wa BTCPay Server**  
+Sehemu hii itakuongoza kwenye muundo wa BTCPay Server. Utajifunza jinsi ya kutumia dashibodi, kusanidi mipangilio ya duka na seva, kudhibiti malipo, na kutumia programu-jalizi zilizounganishwa. Lengo ni kukutambulisha kwa zana unazohitaji ili kubinafsisha usanidi wako kulingana na mahitaji yako.
+
+**Sehemu ya 4: Kusanidi BTCPay Server**  
+Hatimaye, tutazingatia usakinishaji wa BTCPay Server katika mazingira mbalimbali. Iwe unatumia LunaNode, Voltage, au nodi ya Umbrel, utajifunza hatua muhimu za kuweka na kusanidi BTCPay Server kulingana na sifa mahususi za kila mazingira.
+
+Uko tayari kujifunza BTCPay Server na kukuza biashara yako? Twende kazi!
+
 ## Sifa kuu kwa Bitcoin ya Mwandishi na Seva ya BTCPay
 
 <chapterId>e1fe6294-3c82-5203-9537-779f9087c35a</chapterId>

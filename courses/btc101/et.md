@@ -521,7 +521,7 @@ Kuigi teie võtmeid hoitakse teie rahakotis, on bitcoinid ise tegelikult "salves
 
 ### Kuidas on lood häkkeritega?
 
-Mis siis, kui keegi arvab kogemata ära meie 12 või 24 sõna nimekirja? Lühike vastus on, et tänu rahakoti loomiseks kasutatud krüptograafiale on see väga ebatõenäoline. Kui panna see perspektiivi, siis on sama mnemoonilise fraasi juhuslik avastamine võrreldav "õige" arvu leidmisega 1 ja $2^256$ vahel, mis on peaaegu samaväärne "õige" aatomi leidmisega Universumis. Kui te siiski ei ole selle vaikimisi turvalisusega rahul, saate seda alati suurendada, lisades oma Bitcoini rahakotile paroolfraasi (täiendava sõna).
+Mis siis, kui keegi arvab kogemata ära meie 12 või 24 sõna nimekirja? Lühike vastus on, et tänu rahakoti loomiseks kasutatud krüptograafiale on see väga ebatõenäoline. Kui panna see perspektiivi, siis on sama mnemoonilise fraasi juhuslik avastamine võrreldav "õige" arvu leidmisega 1 ja 2 astmes 256 vahel, mis on peaaegu samaväärne "õige" aatomi leidmisega Universumis. Kui te siiski ei ole selle vaikimisi turvalisusega rahul, saate seda alati suurendada, lisades oma Bitcoini rahakotile paroolfraasi (täiendava sõna).
 
 ![image](assets/en/29.webp)
 

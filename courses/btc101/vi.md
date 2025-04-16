@@ -1,7 +1,7 @@
 ---
-Tên: Hành trình Bitcoin
-Mục đích: Tìm hiểu kiến thức cơ bản về Bitcoin, bao gồm vai trò giá trị tiền tệ, cách khai thác, các giao dịch và loại ví.
-Mục tiêu: 
+name: Hành trình Bitcoin
+goal: Tìm hiểu kiến thức cơ bản về Bitcoin, bao gồm vai trò giá trị tiền tệ, cách khai thác, các giao dịch và loại ví.
+objectives: 
 
   - Đạt được hiểu biết cơ bản về công nghệ của Bitcoin
   - Hiểu cách thức sở hữu và bảo vệ bitcoin của mình

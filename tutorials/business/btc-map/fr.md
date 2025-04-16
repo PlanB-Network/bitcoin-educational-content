@@ -2,6 +2,7 @@
 name: BTC Map
 description: Trouvez des endroits où dépenser vos sats
 ---
+![cover](assets/cover.webp)
 Tandis que beaucoup réduisent encore Bitcoin à un outil d'investissement et de spéculation, son créateur Satoshi Nakamoto l'avait avant tout conçu comme un système de paiement électronique Peer-to-Peer. Il est cependant difficile de savoir où l’on peut dépenser ses bitcoins. Enfin ça, c’était avant BTC Map.
 
 S’appuyant sur OSM (OpenStreetMap), lui même un outil open-source de cartographie participative, BTC Map propose dans la plus grande simplicité de recenser les établissements qui acceptent les paiements en BTC, Lightning ou on-chain. Une base de donnée mondiale, encore naissante mais déjà essentielle, alimentée par et pour les bitcoiners.
@@ -22,6 +23,7 @@ Aujourd’hui nous resterons sur la version web. Elle est pour le moment intégr
 Commençons. La petite icône de lune ou de soleil en haut à droite permet de basculer d’un thème clair à un thème sombre (attention, la lumière attire les insectes!)
 
 ![image](assets/fr/02.webp)
+
 Les différents onglets en haut du site, de gauche à droite :
 - le logo BTC Map : revenir à la page d’accueil 
 - « Maps » : le cœur du produit, avec les deux cartes (établissements et communautés)
@@ -69,7 +71,9 @@ Considérons ce paysagiste texan :
 - "Edit" vous permettra de suggérer des modifications tenant à la fiche OSM (nécessite un compte OSM gratuit) à savoir le nom, les coordonnées, horaires etc
 - "Share" vous emmène sur une fiche élargie de l'établissement
 - "More" déroule les options suivantes :
+
 ![image](assets/fr/06.webp)
+
 - "Call" constitue sur téléphone un raccourci afin d'appeler l'établissement, si le numéro est renseigné sur la fiche OSM
 - "Website" vous emmène sur le site internet de l'établissement s'il est renseigné sur sa fiche OSM
 - "Show Tags" affiche les éléments renseignés sur OSM sans déclencher d'hyperlien ou d'application
@@ -83,6 +87,7 @@ Enfin,
 - "Verify Location" vous propose pour terminer d'accéder à un formulaire BTC Map pour proposer une actualisation de la fiche. Regardons comment ça se présente :
 
 ![image](assets/fr/07.webp)
+
 - 1 Cochez cette case si vous souhaitez juste confirmer que les informations de la fiche sont à jour (passez dans ce cas directement à l'étape 4)
 - 2 Indiquez ici le cas échéant l'information erronée ainsi que la correction que vous proposez
 - 3 Décrivez ici comment vous avez obtenu l'information (visite, appel...)
@@ -96,6 +101,7 @@ Enfin,
 La « Community Map » vous propose de découvrir les différentes communautés Bitcoin de par le monde, en les répartissant et en les présentant de façon géographique. 
 
 ![image](assets/fr/09.webp)
+
 On constate immédiatement des zones colorées en orange. Vous l'avez compris, il s'agit des différentes communautés Bitcoin recensées sur BTC Map. D'un clic gauche sur l'une d'entre elles, on peut voir un petit encart qui nous présentera tous les liens renseignés, tels que le site internet et les comptes sur différents réseaux sociaux. Qui sait, vous êtes peut-être sans le savoir en plein centre d'une communauté active de Bitcoiners, à quelques clics seulement de la rejoindre si le cœur vous en dit!
 
 ## Apps
@@ -137,6 +143,7 @@ Les supports sur lesquels BTC Map continue d’être développé.
 La page vous montre comment ajouter vous-même la fiche d'un établissement en passant par Open Street Map. Si jamais vous éprouvez des difficultés, un formulaire est proposé pour que vous transmettiez toutes les infos, que quelqu'un puisse créer la fiche pour vous (cela peut prendre plusieurs semaines car ce sera réalisé par un volontaire). Regardons ça ensemble :
 
 ![image](assets/fr/11.webp)
+
 - 1 le nom de l'établissement
 - 2 l'adresse physique (obligatoire, il faut pignon sur rue)
 - 3 indiquez avec précision le point sur la carte
@@ -144,6 +151,7 @@ La page vous montre comment ajouter vous-même la fiche d'un établissement en p
 - 5 quels sont les supports de paiement Bitcoin possibles (BTC, Lightning, sans contact) ?
   
 ![image](assets/fr/12.webp)
+
 - 6 l'URL du site internet (facultatif)
 - 7 un numéro de téléphone (facultatif)
 - 8 les horaires d'ouverture (facultatif)

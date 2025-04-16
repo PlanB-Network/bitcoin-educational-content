@@ -1,4 +1,4 @@
-question: Qual è il ruolo delle commissioni di instradamento nella Lightning Network?
+question: Qual è il ruolo delle commissioni di instradamento in Lightning Network?
 answer: Per incentivare i nodi intermedi a fornire la loro liquidità per il trasferimento dei pagamenti
 wrong_answers:
   - Per limitare il numero di transazioni sulla rete

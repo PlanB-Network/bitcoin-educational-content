@@ -4,5 +4,6 @@ wrong_answers:
   - Proof of Work
   - Uthibitishaji wa malipo uliorahisishwa
   - Sehemu ya Blockchain
-  The initial monetary policy corresponded to a constant issuance (X BTC/block) as indicated by the first version of the white paper and Satoshi's [exchanges](https: //www.metzdowd.com/pipermail/cryptography/2008-November/014831.html) with Ray Dillinger.
+explanation: |
+  Sera ya awali ya fedha ililingana na utoaji wa mara kwa mara (X BTC/block) kama ilivyoonyeshwa na toleo la kwanza la karatasi nyeupe na [mabadilishano] ya Satoshi (https: //www.metzdowd.com/pipermail/cryptography/2008-November/014831.html) na Ray Dillinger.
 reviewed: false

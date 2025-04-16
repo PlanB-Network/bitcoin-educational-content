@@ -4,5 +4,7 @@ wrong_answers:
   - 1
   - 3
   - 0
-  There are 2 participants: the payer and the recipient of the payment.
+explanation: |
+  Kuna washiriki 2: mlipaji na mpokeaji wa malipo.
+  
 reviewed: false

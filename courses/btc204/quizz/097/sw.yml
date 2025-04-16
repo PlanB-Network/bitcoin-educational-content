@@ -5,5 +5,6 @@ wrong_answers:
   - Ufuatiliaji ulioboreshwa.
   - Kasi ya ununuzi ya CoinJoin ya haraka zaidi.
 explanation: |
-Anonset kubwa inaonyesha kiwango cha juu cha kutokujulikana, kwani inakuwa vigumu kutofautisha UTXO maalum ndani ya kuweka homogeneous.
+  Anonset kubwa inaonyesha kiwango cha juu cha kutokujulikana, kwani inakuwa vigumu kutofautisha UTXO maalum ndani ya kuweka homogeneous.
+  
 reviewed: false

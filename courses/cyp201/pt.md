@@ -2299,7 +2299,7 @@ A geração do endereço segue então o mesmo processo, utilizando a chave públ
 
 E é isso! Chegamos ao fim deste curso CYP201. Se você achou este curso útil, ficaria muito grato se você pudesse dedicar alguns momentos para dar uma boa avaliação no capítulo de avaliação a seguir. Sinta-se livre também para compartilhá-lo com seus entes queridos ou em suas redes sociais. Finalmente, se você deseja obter seu diploma para este curso, você pode fazer o exame final logo após o capítulo de avaliação.
 
-# Conclusão
+# Seção final
 
 <partId>58111408-b734-54db-9ea7-0d5b67f99f99</partId>
 

@@ -1,0 +1,9 @@
+question: Jakie są według Constanta obszary, na które władza polityczna nie ma wpływu?
+answer: Wszystkie wyżej wymienione dziedziny (religia, nauka, przemysł).
+wrong_answers:
+  - Religia
+  - Nauka
+  - Przemysł
+explanation: |
+  Constant uważa, że władza polityczna nie powinna interweniować w obszarach takich jak religia, nauka i przemysł, aby zachować wolność jednostki i autonomię ludzkich działań, które należą do sfery prywatnej.
+reviewed: false

@@ -1,0 +1,14 @@
+question: Jakie są przyszłe obawy dotyczące wykorzystania przestrzeni blokowej Bitcoin?
+answer: Przyszłe obawy dotyczą tego, że wraz z oczekiwanym rozwojem Lightning Network i wynikającym z tego wzrostem liczby otwarć i zamknięć kanałów, przestrzeń w blokach Bitcoin będzie coraz cenniejsza.
+wrong_answers:
+  - Przyszłe obawy dotyczą tego, że rozmiar bloków Bitcoin stanie się zbyt duży, aby można było nimi zarządzać.
+  - Przyszłe obawy dotyczą tego, że liczba bloków Bitcoin przekroczy przepustowość sieci.
+  - Przyszłe obawy dotyczą tego, że złożoność bloków Bitcoin wzrośnie, co utrudni ich przetwarzanie.
+explanation: |
+  Wraz z oczekiwanym wzrostem Lightning Network i wynikającym z niego
+  i wynikającym z tego wzrostem liczby otwarć i zamknięć kanałów, przestrzeń w blokach Bitcoin
+  w blokach Bitcoin będzie coraz cenniejsza. To
+  doprowadziło do dyskusji na temat legalnego wykorzystania przestrzeni bloków
+  z obawami o spam na Blockchain pochodzący z transakcji
+  transakcji uważanych za nieistotne.
+reviewed: true

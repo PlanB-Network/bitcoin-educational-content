@@ -1,0 +1,9 @@
+question: Co może zrobić Bob, jeśli wykryje próbę oszustwa ze strony Alice podczas zamykania kanału?
+answer: Użyj klucza odwołania, aby odzyskać wszystkie środki
+wrong_answers:
+  - Anuluj Commitment Transaction Alice
+  - Trwałe zamknięcie kanału bez możliwości ponownego otwarcia
+  - Ubieganie się tylko o połowę dostępnych środków
+explanation: |
+  W przypadku oszustwa Bob może użyć klucza odwołania, aby odzyskać wszystkie środki z kanału, tym samym karząc Alicję za jej próbę.
+reviewed: false

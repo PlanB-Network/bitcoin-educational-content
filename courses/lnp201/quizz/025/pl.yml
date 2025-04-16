@@ -1,0 +1,9 @@
+question: Jakie są trzy metody zamykania kanału na Lightning Network?
+answer: Zamknięcie oparte na współpracy, zamknięcie wymuszone, zamknięcie z oszustwem
+wrong_answers:
+  - Szybkie zamknięcie, powolne zamknięcie, zamknięcie z podwójną sygnaturą
+  - Bezpieczne zamknięcie, automatyczne zamknięcie, zamknięcie z utratą funduszy
+  - Zamknięcie bezpośrednie, zamknięcie pośrednie, zamknięcie z roszczeniem
+explanation: |
+  Istnieją trzy metody: zamknięcie oparte na współpracy, w którym strony zgadzają się, wymuszone zamknięcie bez odpowiedzi jednej ze stron oraz zamknięcie z oszustwem, w którym strona próbuje opublikować starą transakcję.
+reviewed: false

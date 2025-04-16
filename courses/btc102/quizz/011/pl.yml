@@ -1,0 +1,14 @@
+question: Jaka jest główna korzyść z korzystania z VPN?
+answer: Chroni prywatność użytkownika, maskując jego adres IP Address
+wrong_answers:
+  - Przyspiesza połączenie internetowe
+  - Zapewnia bezpłatny dostęp do płatnych usług
+  - Chroni komputer przed wirusami
+explanation: |
+  VPN, czyli wirtualna sieć prywatna, chroni prywatność użytkownika poprzez maskowanie
+  użytkownika
+  
+  IP Address. Chociaż nie zapewnia to całkowitej anonimowości, jest to nadal proste rozwiązanie
+  
+  i skuteczny krok w celu poprawy prywatności w Internecie"
+reviewed: false

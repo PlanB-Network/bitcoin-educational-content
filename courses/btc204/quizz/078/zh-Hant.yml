@@ -1,0 +1,10 @@
+question: 什麼詞彙描述 CoinJoin 所提供的保護，以防止分析硬幣的過去交易？
+answer: 溯及既往。
+wrong_answers:
+  - 前瞻性不發作。
+  - 耐追溯性。
+  - 時間隱私。
+explanation: |
+  防止從現在分析到過去的保護措施，就是所謂的回溯性忘記。
+  
+reviewed: false

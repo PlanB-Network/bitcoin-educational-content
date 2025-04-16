@@ -1,0 +1,9 @@
+question: Jaka jest rola Stash?
+answer: Przechowuj wszystkie dane po stronie klienta lokalnie
+wrong_answers:
+  - Automatycznie publikuj transakcje na Blockchain
+  - Kompilowanie i przechowywanie wszystkich wygenerowanych faktur
+  - Zarządzanie kluczami prywatnymi Bitcoin
+explanation: |
+  Stash to zestaw danych po stronie klienta, które użytkownik przechowuje lokalnie dla jednego lub więcej kontraktów RGB w celu wykonania Client-side Validation.
+reviewed: false

@@ -5,5 +5,6 @@ wrong_answers:
   - Kiwango cha usalama wa kriptografia cha sahihi dijitali zinazotumika katika shughuli ya ununuzi.
   - Saizi ya kikundi cha UTXO zinazofanana ambamo sarafu imefichwa.
 explanation: |
-Entropy hutumiwa kupima ukosefu wa ujuzi wa wachambuzi kuhusu usanidi halisi wa shughuli. Kwa maneno mengine, juu ya entropy, inakuwa vigumu zaidi kwa wachambuzi kutambua mtiririko wa bitcoins kati ya pembejeo na matokeo.
+  Entropy hutumiwa kupima ukosefu wa ujuzi wa wachambuzi kuhusu usanidi halisi wa shughuli. Kwa maneno mengine, juu ya entropy, inakuwa vigumu zaidi kwa wachambuzi kutambua mtiririko wa bitcoins kati ya pembejeo na matokeo.
+  
 reviewed: false

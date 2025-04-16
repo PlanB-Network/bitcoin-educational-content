@@ -5,5 +5,6 @@ wrong_answers:
   - Kwenye Bitcoin Blockchain kupitia OP_RETURN.
   - Katika RAM tu wakati wa utekelezaji wa programu.
 explanation: |
-Lebo huhifadhiwa ndani na programu ya Wallet na kamwe hazisambazwi kupitia mtandao wa Bitcoin. Kwa hivyo kuweka lebo ni zana ya usimamizi wa kibinafsi.
+  Lebo huhifadhiwa ndani na programu ya Wallet na kamwe hazisambazwi kupitia mtandao wa Bitcoin. Kwa hivyo kuweka lebo ni zana ya usimamizi wa kibinafsi.
+  
 reviewed: false

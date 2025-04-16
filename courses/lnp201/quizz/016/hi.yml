@@ -1,9 +1,9 @@
-question: Commitment Transaction कब Bitcoin या Blockchain पर प्रकाशित होता है?
-answer: आखिरकार जब चैनल बंद हो जाता है
+question: Commitment Transaction कब Bitcoin Blockchain पर पब्लिश किया जाता है?
+answer: आखिरकार जब चैनल बंद हो जाएगा
 wrong_answers:
-  - हर ट्रांसफर के तुरंत बाद चैनल में
-  - प्रत्येक नए Commitment Transaction से पहले
-  - जब उपलब्ध धनराशि समाप्त हो जाती है
+  - चैनल में हर ट्रांसफर के तुरंत बाद
+  - हर नए Commitment Transaction से पहले
+  - जब उपलब्ध धन खत्म हो जाए
 explanation: |
-  Commitment लेनदेन हर बार आवंटन में बदलाव के लिए बनाए और हस्ताक्षरित किए जाते हैं, लेकिन इन्हें केवल तब प्रकाशित किया जाता है जब चैनल बंद होता है, और वह भी Blockchain पर।
+  Commitment लेनदेन हर आवंटन बदलाव के लिए बनाए और साइन किए जाते हैं, लेकिन चैनल बंद होने की स्थिति में ये केवल अंततः Blockchain पर प्रकाशित किए जाते हैं।
 reviewed: false

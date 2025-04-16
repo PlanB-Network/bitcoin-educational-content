@@ -162,6 +162,11 @@ A passphrase não deve ser confundida com o código PIN. Ela desempenha um papel
 A passphrase é uma ferramenta muito poderosa para aumentar a segurança dos seus bitcoins. No entanto, é muito importante entender como ela funciona antes de implementá-la, para evitar perder o acesso à sua carteira. Eu explicarei como usar a passphrase em outro tutorial dedicado.
 
 ![LEDGER FLEX](assets/notext/29.webp)
+
+A passphrase é uma ferramenta muito poderosa para reforçar a segurança dos seus bitcoins. No entanto, é muito importante compreender como ela funciona antes de implementá-la, para evitar perder o acesso à sua carteira. Por isso, explico tudo num tutorial dedicado:
+
+https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+
 Finalmente, a última página de configurações permite que você redefina seu Ledger. Prossiga com esta redefinição apenas se tiver certeza de que não contém nenhuma chave que proteja bitcoins, pois você poderia perder permanentemente o acesso aos seus fundos.
 ![LEDGER FLEX](assets/notext/30.webp)
 

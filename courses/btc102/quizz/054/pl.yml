@@ -1,0 +1,10 @@
+question: Kto wprowadził ideę autostrady Bitcoin?
+answer: Andreas Antonopoulos
+wrong_answers:
+  - Satoshi Nakamoto
+  - Elon Musk
+  - Vitalik Buterin
+explanation: |
+  Andreas Antonopoulos, znany orędownik i edukator Bitcoin, przedstawił ideę autostrady Bitcoin
+  ideę autostrady Bitcoin.
+reviewed: false

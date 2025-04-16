@@ -5,5 +5,6 @@ wrong_answers:
   - DH
   - SHA256
 explanation: |
-Algoriti ya ECDH (Elliptic-Curve Diffie-Hellman) inatumika katika Malipo ya Kimya kati ya funguo za kuchanganua za mpokeaji na jumla ya funguo za mtumaji ili kubaini siri iliyoshirikiwa ambayo itaruhusu kupatikana kwa malipo ya kipekee ya Address.
+  Algoriti ya ECDH (Elliptic-Curve Diffie-Hellman) inatumika katika Malipo ya Kimya kati ya funguo za kuchanganua za mpokeaji na jumla ya funguo za mtumaji ili kubaini siri iliyoshirikiwa ambayo itaruhusu kupatikana kwa malipo ya kipekee ya Address.
+  
 reviewed: false

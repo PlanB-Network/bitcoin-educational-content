@@ -1,0 +1,9 @@
+question: Jaki jest cel indeksu w uzyskiwaniu kluczy podrzędnych?
+answer: Rozróżnianie par kluczy rodzeństwa
+wrong_answers:
+  - Określenie charakteru klucza (publiczny lub prywatny)
+  - Określ poziom zabezpieczeń klucza
+  - Dodatkowe zabezpieczenie Layer
+explanation: |
+  Indeks pozwala na rozróżnienie kluczy podrzędnych pochodzących z tej samej pary nadrzędnej.
+reviewed: false

@@ -26,11 +26,11 @@ Théo; kontribusi
 
 <partId>534ab66c-b0e6-5757-a7dd-6ea04647edf2</partId>
 
-## Pengenalan Kursus
+## Ikhtisar Kursus
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
-### Tujuan: Perbarui keterampilan keamanan Anda!
+**Tujuan: Perbarui keterampilan keamanan Anda!**
 
 Selamat datang semua orang di program pendidikan ini yang didedikasikan untuk keamanan digital. Pelatihan ini dirancang agar dapat diakses oleh semua orang, sehingga tidak diperlukan pengetahuan sebelumnya tentang ilmu komputer. Tujuan utama kami adalah untuk memberi Anda pengetahuan dan keterampilan yang diperlukan untuk menavigasi dunia digital dengan lebih aman dan privat.
 
@@ -46,7 +46,7 @@ Kebersihan digital Anda sangat penting dalam dunia yang semakin digital. Meskipu
 Dalam pelatihan ini, kami tidak mencoba membuat Anda menjadi ahli, anonim, atau tidak terkalahkan, karena ini adalah hal yang mustahil. Sebagai gantinya, kami menawarkan beberapa solusi sederhana dan dapat diakses untuk semua orang untuk mulai mengubah kebiasaan online Anda dan merebut kembali kontrol atas kedaulatan digital Anda.
 Jika Anda mencari keterampilan yang lebih lanjut tentang subjek ini, sumber daya kami, tutorial, atau pelatihan keamanan siber lainnya ada untuk Anda. Sementara itu, berikut adalah gambaran singkat program kami untuk beberapa jam ke depan bersama.
 
-### Bagian 1: Semua yang Perlu Anda Ketahui tentang Penjelajahan Online
+**Bagian 1: Semua yang Perlu Anda Ketahui tentang Penjelajahan Online**
 
 - Bab 1 - Penjelajahan Online
 - Bab 2 - Menggunakan Internet dengan Aman
@@ -55,13 +55,13 @@ Untuk memulai, kami akan membahas pentingnya memilih peramban web dan implikasin
 
 ![](assets/en/1.webp)
 
-### Bagian 2: Praktik Terbaik untuk Penggunaan Komputer
+**Bagian 2: Praktik Terbaik untuk Penggunaan Komputer**
 
 - Bab 3 - Penggunaan Komputer
 - Bab 4 - Peretasan & Manajemen Cadangan
   Pada bagian ini, kita akan membahas tiga area kunci keamanan komputer. Pertama, kita akan menjelajahi berbagai sistem operasi: Mac, PC, dan Linux, menyoroti spesifisitas dan kekuatan mereka. Kemudian, kita akan menggali metode untuk melindungi secara efektif dari upaya peretasan dan memperkuat keamanan perangkat Anda. Akhirnya, kita akan menekankan pentingnya melindungi dan membackup data Anda secara rutin untuk mencegah kehilangan atau ransomware.![](assets/en/2.webp)
 
-### Bagian 3: Implementasi solusi
+**Bagian 3: Implementasi solusi**
 
 - Bab 6 - Manajemen email
 - Bab 7 - Manajer kata sandi
@@ -72,6 +72,7 @@ Pada bagian ketiga yang praktis ini, kita akan beralih ke implementasi solusi ko
 Pertama, kita akan melihat cara melindungi kotak masuk email Anda, yang sangat penting untuk komunikasi Anda dan sering menjadi target peretas. Kemudian, kita akan memperkenalkan Anda pada manajer kata sandi: solusi praktis untuk tidak lagi lupa atau mencampuradukkan kata sandi Anda sambil menjaga keamanannya. Akhirnya, kita akan membahas ukuran keamanan tambahan, otentikasi dua faktor, yang menambahkan lapisan perlindungan ekstra untuk akun Anda. Semuanya akan dijelaskan dengan jelas dan mudah diakses.
 ![](assets/en/3.webp)
 
+Siap untuk memperkuat keamanan digital Anda dan mengambil kembali kendali atas data Anda? Ayo mulai!
 # Semua yang Perlu Anda Ketahui tentang Penjelajahan Online
 
 <partId>b4b5379a-d8ef-59ae-94d3-a6e88959c149</partId>
@@ -502,7 +503,7 @@ Harus juga dicatat bahwa Internet sangat terpusat dan sebagian besar berada di b
 
 Sebagai bagian dari modul pelatihan "Security 101" di Découvre Bitcoin Academy, kami juga membahas autentikasi Lightning. Sistem ini menghasilkan pengenal yang berbeda untuk setiap layanan, tanpa perlu menyediakan alamat email atau informasi pribadi. Dimungkinkan untuk memiliki identitas terdesentralisasi yang dikontrol pengguna, tetapi ada kekurangan standarisasi dan normalisasi dalam proyek identitas terdesentralisasi. Manajer paket seperti Nuget dan Chocolaté, yang memungkinkan pengunduhan perangkat lunak sumber terbuka di luar Microsoft Store, direkomendasikan untuk menghindari serangan jahat. Singkatnya, DNS sangat penting untuk keamanan online, tetapi perlu untuk tetap waspada terhadap serangan potensial pada server DNS.
 
-# Kesimpulan
+# Bagian Akhir
 
 <partId>3d8ac4c9-f05b-4133-a40a-6e19d579f05f</partId>
 

@@ -1,0 +1,9 @@
+question: Jaka jest dobra praktyka zabezpieczania passphrase?
+answer: Zapisz go na oddzielnym nośniku fizycznym niż fraza Mnemonic
+wrong_answers:
+  - Zapamiętaj go tylko na pamięć, bez notowania
+  - Zapisz go na tym samym nośniku fizycznym co frazę Mnemonic
+  - Nagraj go na nośniku cyfrowym, takim jak Dysk Google
+explanation: |
+  Fraza passphrase musi być zapisana fizycznie i oddzielona od frazy Mnemonic, aby zapobiec jednoczesnej kradzieży obu.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Jakie podmioty są odpowiedzialne za emisję walut fiducjarnych?
+answer: Banki centralne.
+wrong_answers:
+  - Banki komercyjne.
+  - Rządy.
+  - Instytucje prywatne.
+explanation: |
+  Banki centralne są podmiotami odpowiedzialnymi za emisję waluty
+  waluty fiducjarnej. Decydują one o polityce pieniężnej i
+  określają, ile pieniędzy należy wprowadzić do obiegu lub
+  wydrukowanych.
+reviewed: true

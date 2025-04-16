@@ -5,5 +5,6 @@ wrong_answers:
   - ElGamal
   - Diffie-Hellman
 explanation: |
-Algorithm inayotumika ni ECDH (Elliptic Curve Diffie-Hellman). Ni lahaja ya algoriti ya kawaida ya Diffie-Hellman inayotumia mikondo ya duaradufu.
+  Algorithm inayotumika ni ECDH (Elliptic Curve Diffie-Hellman). Ni lahaja ya algoriti ya kawaida ya Diffie-Hellman inayotumia mikondo ya duaradufu.
+  
 reviewed: false

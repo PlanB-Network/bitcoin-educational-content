@@ -1,0 +1,10 @@
+question: 在 Bitcoin 的情況下，什麼是 Hot Wallet？
+answer: 用於線上儲存少量 Bitcoin 的 Wallet
+wrong_answers:
+  - 用於 Hot 氣候下交易的 Wallet
+  - 用於儲存大量 Bitcoin 的 Wallet
+  - 用於長時間儲存 Bitcoin 的 Wallet
+explanation: |
+  Hot Wallet 是一種用於線上儲存少量 Bitcoin 的 Wallet。
+  它被認為安全性比 Cold Wallet 低，因為它更容易受到黑客攻擊。
+reviewed: false

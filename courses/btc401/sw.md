@@ -25,7 +25,7 @@ Furahia!
 
 <chapterId>dcf2d37e-b32a-5eb8-aaa3-41ac92475ba9</chapterId>
 
-![Video](https://youtu.be/4VuI9we_XYM)
+:::video id=9b6aa5cf-245e-4a66-b3b8-c4860ab51e90:::
 
 Filippo na Mario wanatoa mazungumzo ya utangulizi kuhusu CUBO+ 2023, wakiweka mazingira ya safari ya kina ya kujifunza inayongoja. Wanajadili muundo wa kozi, matokeo ya kujifunza, na jinsi haya yatawawezesha wanafunzi katika nafasi ya maendeleo ya Bitcoin.
 
@@ -47,7 +47,7 @@ Katika kipindi chote cha kozi, washiriki watatumia zana muhimu ambazo zitasaidia
 
 ### Kwa nini El Salvador Inahitaji Bitcoin
 
-![video](https://youtu.be/VExfKFrGuYw)
+:::video id=ff820fb2-83d4-450f-bda0-17cc5044a902:::
 
 Karibu kwenye hotuba ya kwanza ya mpango wa elimu wa **Cubo Plus**. Leo, tunaingia kwenye ulimwengu wa Bitcoin, tukiongozwa na Ricky, mwanzilishi wa **Bitcoin Italia Podcast**. Ricky ni mwanaharakati wa haki za binadamu ambaye anatumia Bitcoin kama chombo cha kulinda na kukuza haki za binadamu. Akiwa na uzoefu wa zaidi ya miaka sita, Ricky amesafiri sana, akiandika kupitishwa kwa Bitcoin katika masoko yanayoibukia kama El Salvador na Guatemala. Kazi yake inakwenda zaidi ya podcasting; pia anatumika kwenye YouTube (**Bitcoin Explorers**) na Twitter (**BTC Explorer**, **Ricky6**). Commitment ya Ricky hadi Bitcoin inatokana na imani yake kwamba inatoa uhuru wa kifedha na faragha, changamoto ya mifumo ya jadi ya benki kuu.
 
@@ -160,13 +160,13 @@ Asante kwa kujihusisha na nyenzo hii!
 
 ### Msururu wa Teknolojia wa Bitcoin
 
-![video](https://youtu.be/5UkjQomJsHU)
+:::video id=2c008198-7f4e-4e60-87a0-0af17528ad2f:::
 
 Katika mhadhara wa kwanza wa kozi ya 'Jinsi Bitcoin', tulianza kuchunguza msururu wa teknolojia ambayo inasimamia mtandao wa Bitcoin. Tulishughulikia mada kama vile **Hashcash**, **shughuli**, **Blockchain**, **Lightning Network**, na vipengele vingine muhimu vya itifaki ya Bitcoin.
 
 ### Rafu ya Kiteknolojia ya Bitcoin Sehemu ya 2
 
-![video](https://youtu.be/UkwbPVhLeIk)
+:::video id=752343b8-aa78-4bd3-9320-efe2a7e9d88f:::
 
 Wakati wa mhadhara wa pili wa 'Jinsi Bitcoin', tulifanya uchunguzi wa kina zaidi wa rundo la teknolojia ya Bitcoin.
 
@@ -223,7 +223,7 @@ Muundo wa Bitcoin na mageuzi yanayoendelea yanaonyesha uvumbuzi na uwezo wa kuba
 
 ### Debunking Bitcoin
 
-![video](https://youtu.be/f0Pf0u1y5F4)
+:::video id=c5e2e575-fa9d-4430-805f-205c2cf6f2a5:::
 
 Katika mhadhara huu, tunakanusha hadithi za kawaida zinazozunguka **Bitcoin**, **blockchains**, na **cryptocurrencies**. Hebu tuweke dhana potofu za Address kuhusu matumizi ya nishati ya Bitcoin, matumizi ya uhalifu, na "FUD" pana (hofu, kutokuwa na uhakika, shaka) kuenea kuhusu teknolojia hii.
 
@@ -282,7 +282,7 @@ Kuelewa hali halisi ya matumizi ya nishati ya Bitcoin, vipengele vya faragha, na
 
 ### Ufungaji wa Bitcoin Core
 
-![Video](https://youtu.be/fIUU2sRCEj0)
+:::video id=4a5253cf-b863-466a-8506-0506b28a28de:::
 
 Katika hotuba ya kwanza ya moduli ya 4, tulichunguza usanifu wa Bitcoin na usakinishaji wa nodi ya Bitcoin Core.
 
@@ -378,7 +378,7 @@ sudo systemctl status bitcoind
 
 ### Ufungaji wa C-umeme
 
-![video](https://youtu.be/zrB1Kc4BqvY)
+:::video id=e13a1407-46e3-4b03-9a7a-b0f4a338c3c7:::
 
 #### 1. **Muhtasari wa Msingi wa Bitcoin**
 
@@ -613,7 +613,7 @@ Kwa kumalizia, leo tumeshughulikia hatua muhimu za kusakinisha tena Bitcoin Core
 
 ### Usalama na vifaa vya vifaa
 
-![video](https://youtu.be/oVaI9WuLkgk)
+:::video id=8b4baf24-1350-46b8-a87b-18678ed219ed:::
 
 ### Specter na Kifaa cha Ledger
 
@@ -713,7 +713,7 @@ Hii inahitimisha mhadhara wetu kuhusu usalama na usanidi wa kifaa kwa Bitcoin kw
 
 ### Fungua Matatizo katika mfumo ikolojia wa Bitcoin
 
-![video](https://youtu.be/Vlm2ZdxcidA)
+:::video id=6d771eca-3f53-493d-8937-db6ddb2cf172:::
 
 Kwa zaidi ya muongo mmoja, Bitcoin imethibitisha kuwa uvumbuzi wa kuleta mabadiliko katika ulimwengu wa kifedha, ikifanya kazi kwa mafanikio katika kiwango cha kimataifa na kufungua uwezekano mpya katika uchumi wa kidijitali. Hata hivyo, bado inakabiliwa na changamoto zinazohitaji ufumbuzi wa ubunifu na shirikishi. Mageuzi yanayoendelea ya Bitcoin yanatoa fursa ya kipekee kwa wale wanaotaka kuunda mustakabali wa ugatuzi wa fedha.
 
@@ -801,7 +801,7 @@ Kwa kumalizia, kuendelea kushughulikia matatizo haya ya wazi na ubunifu ndani ya
 
 <professorId>7dfc5865-a0f6-4c3b-9b05-83e0d807ac59</professorId>
 
-![Video](https://youtu.be/2f_rK74MB3U)
+:::video id=08101af2-1ded-4f3a-b1db-d4477c6ab63e:::
 
 Karibu kwenye somo la leo kuhusu **Usalama na Kuegemea**. Lengo letu ni kuchunguza uhusiano kati ya vipengele hivi viwili vya msingi vya uundaji wa mfumo na matumizi katika hali za ulimwengu halisi.
 
@@ -867,7 +867,7 @@ Kwa kumalizia, kuelewa na kuunganisha kanuni za usalama na kutegemewa ni muhimu 
 
 <professorId>7dfc5865-a0f6-4c3b-9b05-83e0d807ac59</professorId>
 
-![Video](https://youtu.be/ln-FYziKqNY)
+:::video id=4544ef7a-685e-4aaf-98a0-8a10dce06172:::
 
 Matumizi ya Programu Huria na Huria (FLOSS) ni muhimu katika mfumo ikolojia wa Bitcoin. Peter Todd anachunguza umuhimu wa FLOSS kwa Bitcoin, akichunguza historia ya FLOSS na kuchunguza jinsi Github inaturuhusu kwa ushirikiano kuunda programu huria kama Bitcoin.
 
@@ -915,7 +915,7 @@ Kwa kumalizia, uchumi wa programu huria huendeshwa na michango ya jumuiya, ufadh
 
 <professorId>6cfd206c-53b8-47a0-bbf4-44fd84e6ee1d</professorId>
 
-![Video](https://youtu.be/QcK-Cl8B9QU)
+:::video id=b482b0f0-4468-4eaf-bcd6-eb4748bdfa3a:::
 
 Karibu! Leo, tutazama katika vipengele muhimu vya usimbaji fiche ambavyo kila msanidi wa Bitcoin anapaswa kujua. Tutazingatia dhana za kimsingi na matumizi ya vitendo bila kukulemea na maelezo mengi ya kinadharia. Lengo kuu ni kukupa maarifa ya kuelewa, kutekeleza, na kutatua njia za kriptografia katika Bitcoin kwa ufanisi.
 
@@ -977,7 +977,7 @@ Kwa kufahamu dhana hizi na kuzingatia mbinu bora zaidi, utakuwa umejitayarisha v
 
 <professorId>7dfc5865-a0f6-4c3b-9b05-83e0d807ac59</professorId>
 
-![Video](https://youtu.be/g_BcT5YkZUQ)
+:::video id=91a38c17-5801-4a5c-baf2-c9e4cc24fd84:::
 
 ### Asili ya Bitcoin
 
@@ -1045,7 +1045,7 @@ Kwa kumalizia, mustakabali na mabadiliko ya Bitcoin yanaamuliwa na mapenzi ya pa
 
 <professorId>6cfd206c-53b8-47a0-bbf4-44fd84e6ee1d</professorId>
 
-![Video](https://youtu.be/hGS8Cuj5Zb4)
+:::video id=6fae79f6-da81-4870-927b-923bd1672176:::
 
 Adam Gibson huvunja vipengele mbalimbali vya node ya Bitcoin. Sura inaangazia jukumu la kila sehemu katika kudumisha utendakazi na uadilifu wa mtandao. Hasa anaangazia kwa nini tunapaswa kuendesha nodi ya Bitcoin, nodi ya Bitcoin inafanya nini, na jinsi vipengele tofauti vya nodi ya Bitcoin inavyofanya kazi.
 
@@ -1155,7 +1155,7 @@ Kuendesha nodi ya Bitcoin ni njia thabiti ya kushiriki katika mtandao wa Bitcoin
 
 <professorId>e7e63d59-ea19-4960-9446-61bd4dcc98f0</professorId>
 
-![video](https://youtu.be/okvV9hqDOtM)
+:::video id=1790e5fb-33f5-4e0e-982e-41589cd02965:::
 
 Lengo la msingi la muhadhara huu ni kukuongoza katika mchakato wa kuchanganua kizuizi cha Bitcoin kwa kusimba kichanganuzi katika Rust. Hii inahusisha kuelewa muundo wa vitalu na miamala ya Bitcoin, na kutekeleza mantiki muhimu ili kutoa na kutafsiri data hii.
 
@@ -1446,7 +1446,7 @@ Kwa kumalizia, kuchanganua vizuizi na miamala ya Bitcoin katika Rust inahusisha 
 
 <professorId>0b05838c-24af-43ff-93be-896c907e0bc1</professorId>
 
-![Video](https://youtu.be/xOdz9GEiShM)
+:::video id=1d148008-9197-446f-afb5-628d4c3a5015:::
 
 Daniela Brozzoni anatoa muhtasari wa kina wa mrundikano wa programu ya Bitcoin Layer 1, akifafanua tabaka zinazojumuisha msingi wa itifaki ya Bitcoin (yaani. Bitcoin nodi na pochi za Bitcoin) na jinsi ya kuunda programu ya Bitcoin kwa utangulizi wa GW-7 ya GW-4 ya kina ya GW-4 ya Maendeleo ya GW-4 na Bitcoin. (BDK).
 
@@ -1726,7 +1726,7 @@ Kwa kuelewa vipengele hivi, kutoka nodi na pochi za Bitcoin hadi Kifaa cha Maend
 
 <professorId>880c7fa7-8d4c-4c9b-81b4-bc61ed256516</professorId>
 
-![Video](https://youtu.be/VtpbCspK5T4)
+:::video id=b90f19a3-a95e-4cd1-8c55-41016f3339cb:::
 
 ### Historia ya Njia za Malipo
 
@@ -1768,7 +1768,7 @@ Kwa kumalizia, kuelewa muktadha wa kihistoria na changamoto za Bitcoin, na suluh
 
 <professorId>880c7fa7-8d4c-4c9b-81b4-bc61ed256516</professorId>
 
-![Video](https://youtu.be/5OUgGHH6jPY)
+:::video id=059a714b-4fe9-4266-acb0-6fe5af491662:::
 
 Katika majadiliano yetu ya awali, tuliangazia misingi ya njia msingi za malipo. Vituo hivi huruhusu washiriki wawili, sema Alice na Bob, kufanya miamala moja kwa moja na kila mmoja bila mshono. Hata hivyo, kuna kikomo kikubwa kwa mtindo huu: Alice anaweza kufanya miamala na Bob pekee na si na washiriki wengine kama Charlie, isipokuwa ataanzisha chaneli tofauti na kila mojawapo. Umuhimu huu wa chaneli nyingi husababisha uzembe na maswala ya kuongeza kasi, kwani isingewezekana kwa Alice kufungua kituo cha moja kwa moja na kila mtu anayehitaji kutumiana naye.
 
@@ -1826,7 +1826,7 @@ Kwa muhtasari, utendakazi sahihi wa nodi huhakikisha malipo ya atomiki, na Light
 
 <chapterId>ba4b09ae-81de-53f2-8c15-316f037aaea9</chapterId>
 
-![Video](https://youtu.be/1aIuKBkPlkg)
+:::video id=f0d17fe4-d793-4b90-924e-b551db501fbb:::
 
 Mtandao wa Bitcoin unafanya kazi kama mfumo wa Trustless wa thamani wa Exchange, unaotumika kimsingi kama suluhu la Layer ambapo miamala hurekodiwa kwenye Ledger ya umma. Hii inahakikisha usalama na kutobadilika lakini inakuja na vikwazo, haswa katika suala la kasi ya ununuzi na ada. Matokeo yake, Bitcoin inaweza kuwa na ufanisi kwa shughuli ndogo za kila siku.
 
@@ -1952,7 +1952,7 @@ Kwa kumalizia, kuelewa Umuhimu wa Pili wa Layer, Maagizo ya Lightning Network, n
 
 <chapterId>a2ad8db4-aea2-5231-927c-616c53db31bf</chapterId>
 
-![Video](https://youtu.be/a0Q_5dzpqKw)
+:::video id=90240cb6-a942-4015-b0c2-b721c48309ec:::
 
 Lightning Network (LN) inawakilisha mafanikio makubwa katika kuongeza kasi ya Bitcoin na kasi ya muamala. Wateja wa LN, ambao kwa kawaida hujulikana kama pochi za umeme, ni programu au programu maalum zinazowawezesha watumiaji kufanya miamala kupitia Lightning Network. Pochi hizi hutumika kama Interface muhimu kati ya mtumiaji na LN, kuwezesha shughuli za malipo ya papo hapo, za ada ya chini kwa kutumia njia za off-chain.
 
@@ -2214,7 +2214,7 @@ Kwa kushughulikia changamoto hizi, Lightning Network itaendelea kukomaa, na kuwa
 
 <professorId>880c7fa7-8d4c-4c9b-81b4-bc61ed256516</professorId>
 
-![Video](https://youtu.be/VXMON_nD650)
+:::video id=ab5f65f1-0b0d-4ca9-8ff7-d42764c1e915:::
 
 ### Ustahimilivu na Mageuzi ya Bitcoin
 
@@ -2286,7 +2286,7 @@ Kwa kuelewa na kuthamini maendeleo haya, tunaweza kutambua maendeleo na uwezekan
 
 <professorId>e7e63d59-ea19-4960-9446-61bd4dcc98f0</professorId>
 
-![Video](https://youtu.be/KqBfPaXqU2U)
+:::video id=ffee9682-1bfa-4717-9f22-9bc1baff0722:::
 
 ### Kupanua na Kuunganisha Malipo ya Umeme
 
@@ -2373,7 +2373,7 @@ Upanuzi na ujumuishaji wa malipo ya Umeme kupitia itifaki mbalimbali na kesi za 
 
 <professorId>e320ccda-be59-492b-a81b-243d9acb592f</professorId>
 
-![Video](https://youtu.be/W3Ra0cdG02I)
+:::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
 
 #### Utangulizi
 
@@ -2498,7 +2498,7 @@ Kwa kumalizia, ulimwengu wa Bitcoin Mining ni kikoa changamano, chenye nyuso nyi
 
 <professorId>6cfd206c-53b8-47a0-bbf4-44fd84e6ee1d</professorId>
 
-![Video](https://youtu.be/VFjccozVwc8)
+:::video id=b89f2064-f2e1-49c3-97d0-580891eee1dd:::
 
 Adam Gibson anatoa maarifa kuhusu Joinmarket, akieleza kwa kina jinsi utekelezaji huu wa CoinJoin unavyoboresha faragha na uwezakano wa Bitcoin. Anajadili jinsi Joinmarket inavyowezesha shirikishi, Trustless, na miamala isiyojulikana ndani ya mfumo ikolojia wa Bitcoin. Kisha katika sehemu ya pili, anaonyesha jinsi ya kuendesha Joinmarket katika Signet.
 
@@ -2508,31 +2508,31 @@ Adam Gibson anatoa maarifa kuhusu Joinmarket, akieleza kwa kina jinsi utekelezaj
 
 ### Groupe 1 Hackathon - Urithi wa Satoshi
 
-![Video](https://youtu.be/NiaahH57N1w)
+:::video id=d78b199e-39cd-4d3c-b478-1502ba9c952a:::
 
 Kikundi cha Satoshi Legacy kinawasilisha kazi yao ya kujenga biashara ya mtandaoni ya Umeme na Shopify, React JS na Hydrojeni na lango la malipo la IBEX.
 
 ### Groupe 2 Hackathon - Honey Badger
 
-![Video](https://youtu.be/dds0-SV8ltE)
+:::video id=2159b401-e195-4bc8-9046-67a05c6ab7ea:::
 
 Kikundi cha Honey Badger kinawasilisha suluhisho lake kwa blogu iliyo na Malipo Madogo Yanayoendeshwa na Umeme yaliyojengwa ndani kwa kutumia LnBits na Next.js, Node.js na Hidrojeni.
 
 ### Groupe 3 Hackathon
 
-![Video](https://youtu.be/2YjrrDMGU9c)
+:::video id=eb1e3c20-03ea-4ff8-b018-d197377a85cf:::
 
 Kundi la tatu linawasilisha Dashibodi ya Njia ya Lightning Network kupitia API maalum, LND, vue.js, node.js, Bootstrap.
 
 ### Groupe 4 Hackathon - Satoshi Fellowship
 
-![Video](https://youtu.be/mxLKiHa0mes#)
+:::video id=de1f6032-a0fa-49b0-82eb-18ba0e631756:::
 
 Kikundi cha Satoshi's Fellowship kinawasilisha programu ya michezo ya kubahatisha ya LN kwa kutumia LnBits na MongoDB, Poetry, Node.js.
 
 ### Groupe 5 Hackathon - Lighting Walker
 
-![Video](https://youtu.be/IiY5PmkGNVo)
+:::video id=1328bada-4fd1-494a-83c6-f147a4880448:::
 
 Kikundi cha Lightning Walker kinawasilisha suluhisho lao la Huduma ya Pesa kwa kutumia MySQL, JavaScript na API ya ZDB.
 

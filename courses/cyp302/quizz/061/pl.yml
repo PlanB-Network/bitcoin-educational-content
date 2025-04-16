@@ -1,0 +1,9 @@
+question: Jaki typ szyfrowania wykorzystuje stałe bloki danych?
+answer: Szyfrowanie blokowe
+wrong_answers:
+  - Szyfrowanie strumieniowe
+  - Kod uwierzytelniania wiadomości
+  - Klucz publiczny
+explanation: |
+  Szyfrowanie blokowe dzieli dane na bloki o stałym rozmiarze i szyfruje je niezależnie.
+reviewed: false

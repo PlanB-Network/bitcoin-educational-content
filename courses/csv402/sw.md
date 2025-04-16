@@ -77,7 +77,7 @@ Toleo lililoandikwa la kozi hii ya mafunzo liliandaliwa kwa kutumia nyenzo kuu 2
 
 <chapterId>f52f8af5-5d7c-588b-b56d-99b97176204b</chapterId>
 
-![video](https://youtu.be/AF2XbifPGXM)
+:::video id=f27338bc-4210-4a2e-9b27-30278ed3282c:::
 
 RGB ni itifaki iliyoundwa ili kutumia na kutekeleza haki za kidijitali (katika mfumo wa mikataba na mali) kwa njia ya hatari na ya siri, kwa kuzingatia sheria za makubaliano na uendeshaji wa Bitcoin Blockchain. Lengo la sura hii ya kwanza ni kuwasilisha dhana za kimsingi na istilahi zinazozunguka itifaki ya RGB, ikiangazia hasa viungo vyake vya karibu na dhana za msingi za kompyuta zilizosambazwa kama vile Client-side Validation na Mihuri ya Matumizi Moja.
 
@@ -424,7 +424,7 @@ Kabla ya kuzama katika maelezo ya kiufundi zaidi ya sura ya pili, jisikie huru k
 
 <chapterId>cc2fe85a-9cc7-5b8c-a00a-c0a867241061</chapterId>
 
-![video](https://youtu.be/FS6PDprWl5Q)
+:::video id=73ddea2d-c243-479d-a3dc-12d7db8eef70:::
 
 Katika sura hii, tutaangalia utekelezaji wa Client-side Validation na Mihuri ya Matumizi Moja ndani ya Bitcoin Blockchain. Tutawasilisha kanuni kuu za RGB **Commitment Layer** (Layer 1), tukizingatia hasa mpango wa **TxO2**, ambao RGB hutumia kufafanua na kufunga Seal katika shughuli ya Bitcoin. Ifuatayo, tutajadili mambo mawili muhimu ambayo bado hayajashughulikiwa kwa undani:
 
@@ -1042,7 +1042,7 @@ Katika sura inayofuata, tutaangalia sehemu ya off-chain ya RGB, ambayo ni mantik
 
 <chapterId>04a9569f-3563-5382-bf53-0c7069343ba0</chapterId>
 
-![video](https://youtu.be/tmAVdyXGmj4)
+:::video id=db4ee09f-1352-4ad1-9f7a-c962df7ea9fa:::
 
 Katika sura hii na inayofuata, tutaangalia dhana ya **Smart contract** ndani ya mazingira ya RGB na kuchunguza njia tofauti ambazo mikataba hii inaweza kufafanua na kubadilisha *hali* yao. Tutaona ni kwa nini usanifu wa RGB, kwa kutumia mfuatano ulioagizwa wa Mihuri ya Matumizi Moja, kuwezesha kutekeleza aina mbalimbali za ***Operesheni za Contract*** kwa njia inayoweza kusambazwa na bila kupitia sajili ya kati. Pia tutaangalia jukumu la msingi la ***Business Logic*** katika kutunga mageuzi ya Contract State.
 
@@ -1134,7 +1134,7 @@ Katika sura inayofuata, tutaingia kwa undani zaidi kuhusu uwakilishi halisi wa h
 
 <chapterId>78c44e88-50c4-5ec4-befe-456c1a9f080b</chapterId>
 
-![video](https://youtu.be/lUTjeuM0oTA)
+:::video id=1caec34d-f214-425b-a1a4-0a40ae7d3e0e:::
 
 Katika sura hii, tutaangalia jinsi utendakazi katika mikataba mahiri na mabadiliko ya serikali hufanya kazi, tena ndani ya itifaki ya RGB. Lengo pia litakuwa kuelewa jinsi washiriki kadhaa wanavyoshirikiana kuhamisha Ownership ya mali.
 
@@ -1968,7 +1968,7 @@ Witness Transaction ni shughuli ya Bitcoin inayofunga Single-Use Seal karibu na 
 
 <chapterId>8333ea5f-51c7-5dd5-b1d7-47d491e58e51</chapterId>
 
-![video](https://youtu.be/Uo1UoxiImsI)
+:::video id=97d81b85-5a82-40a5-b111-7d96be5afd0f:::
 
 Katika sura hii, tutaangalia kwa undani jinsi RGB Contract inavyofafanuliwa na kutekelezwa. Tutaona vipengele vya RGB Contract ni nini, majukumu yao ni nini na jinsi yanavyoundwa.
 
@@ -2660,7 +2660,7 @@ Katika sura inayofuata, tutaangalia jinsi uhamisho wa Contract unavyofanya kazi,
 
 <chapterId>f043a307-d420-5752-b0d7-ebfd845802c0</chapterId>
 
-![video](https://youtu.be/sVoKIi-1XbY)
+:::video id=75eb5a8d-1910-4155-b5e3-81204c9a8901:::
 
 Katika sura hii, tutachambua mchakato wa uhamisho wa Contract katika mfumo ikolojia wa RGB. Ili kufafanua hili, tutaangalia Alice na Bob, wahusika wetu wakuu, wanaotaka Exchange kuwa na kipengee cha RGB. Pia tutaonyesha baadhi ya manukuu ya amri kutoka kwa zana ya mstari wa amri `RGB`, ili kuona jinsi inavyofanya kazi kwa vitendo.
 
@@ -2954,7 +2954,7 @@ Sasa kwa kuwa tumeangalia Elements kuu ya utayarishaji wa RGB, nitakupitisha kat
 
 <chapterId>0e0a645c-0049-588d-8965-b8c536590cc9</chapterId>
 
-![video](https://youtu.be/GRwS-NvWF3I)
+:::video id=a3ad6dcd-90b8-4272-9dfc-76c85c859167:::
 
 Katika sura hii, tutachukua mbinu ya hatua kwa hatua ya kuandika Contract, kwa kutumia zana ya mstari wa amri `RGB`. Lengo ni kuonyesha jinsi ya kusakinisha na kuendesha CLI, kukusanya **Schema**, kuagiza **Interface** na **Interface Implementation**, kisha kutoa (*toleo*) mali. Pia tutaangalia mantiki ya msingi, ikiwa ni pamoja na mkusanyiko na uthibitishaji wa hali. Kufikia mwisho wa sura hii, unapaswa kuwa na uwezo wa kuzalisha mchakato na kuunda mikataba yako mwenyewe ya RGB.
 
@@ -3253,7 +3253,7 @@ Katika sura inayofuata, tutaangalia kwa karibu kuunganisha RGB kwenye Lightning 
 
 <chapterId>0962980a-8f94-5d0f-9cd0-43d7f884a01d</chapterId>
 
-![video](https://youtu.be/mqCupTlDbA0)
+:::video id=be25a165-6e23-488c-91d8-3dcfccc6eca1:::
 
 Katika sura hii, ninapendekeza kuchunguza jinsi RGB inaweza kutumika ndani ya Lightning Network, kuunganisha na kuhamisha mali za RGB (tokeni, NFTs, nk) kupitia njia za malipo za off-chain.
 
@@ -3407,7 +3407,7 @@ Mfumo ikolojia unaohusishwa na maendeleo ya ubainishaji wa chanzo huria.
 
 <chapterId>dc92a5e8-ed93-5a3f-bcd0-d433932842f4</chapterId>
 
-![video](https://youtu.be/nbUtV8GOR_U)
+:::video id=2ec9a181-a8b0-4da2-b7b5-9dfaaaeb10ba:::
 
 Sehemu hii ya mwisho ya kozi inategemea mawasilisho yaliyotolewa na wasemaji mbalimbali kwenye kambi ya boot ya RGB. Inajumuisha ushuhuda na tafakari kuhusu RGB na mfumo wake wa ikolojia, pamoja na mawasilisho ya zana na miradi kulingana na itifaki. Sura hii ya kwanza imesimamiwa na Hunter Beast, na sura mbili zinazofuata na Frederico Tenga.
 
@@ -3473,7 +3473,7 @@ Mchakato mzima unaonyesha jinsi mfumo ikolojia wa RGB unavyoweza kutumwa na kupa
 
 <chapterId>d4d80e07-5eac-5b29-a93a-123180e97047</chapterId>
 
-![vidéo](https://youtu.be/5iAhsgCSL3U)
+:::video id=04555813-516f-4eea-9767-7082c2ea6f01:::
 
 Katika sura hii, kulingana na uwasilishaji wa Frederico Tenga, tunaangalia seti ya zana na miradi iliyoundwa na timu ya Bitfinex iliyojitolea kwa RGB, kwa lengo la kukuza kuibuka kwa mfumo wa ikolojia tajiri na tofauti karibu na itifaki hii. Lengo la awali la timu si kutoa bidhaa mahususi ya kibiashara, bali ni kutoa vizuizi vya ujenzi wa programu, kuchangia itifaki yenyewe ya RGB, na kupendekeza marejeleo madhubuti ya utekelezaji kama vile Wallet ya simu ya mkononi (*Iris Wallet*) au nodi ya Umeme inayotangamana na RGB.
 
@@ -3587,7 +3587,7 @@ Katika sura inayofuata, tutaangalia kwa undani jinsi ya kuzindua nodi ya Umeme y
 
 <chapterId>ecaabe32-20ba-5f8c-8ca1-a3f095792958</chapterId>
 
-![vidéo](https://youtu.be/piQQH4Q2nr0)
+:::video id=d1e9753e-6093-4a47-bcdc-da1aebaefffc:::
 
 Katika sura hii ya mwisho, Frederico Tenga anakuchukua hatua kwa hatua kusanidi nodi ya Umeme ya RGB kwenye mazingira ya Regtest, na kukuonyesha jinsi ya kuunda tokeni za RGB juu yake. Kwa kuzindua nodi mbili tofauti, utagundua pia jinsi ya kufungua chaneli ya Umeme kati yao na vipengee vya Exchange RGB.
 

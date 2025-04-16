@@ -1,0 +1,11 @@
+question: Kiedy Bitcoin został po raz pierwszy zaprezentowany światu?
+answer: 31 października 2008 r.
+wrong_answers:
+  - 3 stycznia 2009 r.
+  - 22 listopada 2009 r.
+  - 12 grudnia 2010 r.
+explanation: |
+  Bitcoin został po raz pierwszy zaprezentowany światu 31 października,
+  2008 r., kiedy Satoshi Nakamoto wysłał wiadomość e-mail do listy mailingowej Cypherpunk
+  zawierającą Białą Księgę Bitcoin.
+reviewed: true

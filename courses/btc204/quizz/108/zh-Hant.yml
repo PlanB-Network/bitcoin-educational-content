@@ -1,0 +1,10 @@
+question: PayJoin 交易使用什麼啟發式分析鏈作為分析的騙局？
+answer: CIOH
+wrong_answers:
+  - Address 再使用
+  - Wallet 指紋
+  - 版本重複使用
+explanation: |
+  當分析師檢查 PayJoin 交易時，他們會因為 CIOH 而相信所有的輸入都是來自同一個人。然而，這種觀念是不正確的，因為收款人也與實際付款人一起提供投入。因此，連鎖分析會轉向錯誤的詮釋。
+  
+reviewed: false

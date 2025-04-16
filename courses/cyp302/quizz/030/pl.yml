@@ -1,0 +1,9 @@
+question: Jaka jest główna różnica między ciągiem losowym a ciągiem pseudolosowym?
+answer: Losowy ciąg pochodzi z czystego procesu losowego, podczas gdy ciąg pseudolosowy jest generowany przez algorytm z seed.
+wrong_answers:
+  - Ciąg pseudolosowy wykorzystuje tylko 1 bit.
+  - Losowy ciąg znaków jest zawsze dłuższy niż ciąg pseudolosowy, ponieważ występuje na nim naturalne działanie.
+  - Ciąg pseudolosowy jest definiowany przez model ściśle binarny, podczas gdy ciąg losowy jest definiowany przez model ściśle szesnastkowy.
+explanation: |
+  Losowy ciąg pochodzi z bezpośredniego procesu losowego, podczas gdy ciąg pseudolosowy jest tworzony przy użyciu algorytmu rozszerzania i początkowego seed.
+reviewed: false

@@ -33,13 +33,13 @@ K recenzování obsahu nemusíte být odborníkem na GitHub. I když je vždy le
 
 Pokud však Git a GitHub neznáte a chcete se dozvědět více, můžete se podívat na náš úvodní článek o těchto nástrojích:
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 ## 1. Vytvoření účtu
 
 
 - Vytvořte si účet na [GitHub](https://github.com/) a začněte přispívat. Pokud chcete získat návod k vytvoření účtu GitHub, máme pro vás také podrobný návod:
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 - Budete také potřebovat účet v aplikaci pro zasílání zpráv [Telegram](https://telegram.org/).
 
@@ -144,7 +144,7 @@ POZN. Doporučujeme prohlížet v okně kódu, přičemž původní obsah se zob
 - Pokud narazíte na citace, ujistěte se, že provedete nějaký výzkum online, abyste našli správný překlad ve svém jazyce.
 - NEPŘEKLÁDEJTE statická slova na začátku textu, která se používají k popisu jeho obsahu: "name", "description", "objectives".
 - Pokud v textu najdete "Plan ₿ Network", nechte to v této původní podobě. Nepřekládejte slovo "plan" ani slovo "network". Kromě toho NEPOUŽÍVEJTE článek, když představujete Plan ₿ Network, a považujte to za značku. Totéž platí pro "₿-CERT", "BIZ SCHOOL", "TECH SCHOOL", které by měly být také zachovány v původní podobě.
-- Věnujte pozornost podivné interpunkci, jako je `\*\*\`, která může představovat špatné zobrazení symbolu pro tučný text **. Vždy zkontrolujte původní anglický text, abyste zjistili, zda tam má být tučný text. Další informace o jazyce markdown naleznete [zde](https://www.markdownguide.org/basic-syntax/).
+- Věnujte pozornost podivné interpunkci, jako je '\*\*\', která může představovat špatné zobrazení tučného symbolu **. Vždy zkontrolujte původní anglický text, abyste zjistili, zda má být tučný text přítomen. Obecně platí, že pro zobrazení tučného písma prosím vložte dvě hvězdičky ** před a za slovo/větu. Další informace o jazyce markdown naleznete [zde](https://www.markdownguide.org/basic-syntax/).
 - Až dokončíte svou korekturu, můžete se vrátit k původnímu issue, které otevřel koordinátor, okomentovat "Proofreading done" a vložit tam svůj odkaz na PR.
 
 ## 7. Počkejte na recenzi

@@ -1,0 +1,10 @@
+question: 在合併 UTXOs 時，如何將 COIH 的影響降至最低？
+answer: 只整合同一來源的 UTXO。
+wrong_answers:
+  - 透過傳送 UTXO 到第三方位址。
+  - 透過隨機選擇 UTXO，避免可辨識的模式。
+  - 在低迷時期整合 UTXO。
+explanation: |
+  如果您發現自己需要整合您的 bitcoins，請優先整合來自同一來源的 UTXOs。
+  
+reviewed: false

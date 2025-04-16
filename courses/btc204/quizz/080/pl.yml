@@ -1,0 +1,10 @@
+question: Jaka jest rola koordynatora CoinJoin?
+answer: Połącz uczestników i skonstruuj transakcję.
+wrong_answers:
+  - Szyfrowanie danych uczestników w celu zapewnienia poufności transakcji.
+  - Należy prowadzić rejestr poprzednich coinjoinów na potrzeby audytów bezpieczeństwa.
+  - Odbieranie bitcoinów od uczestników w celu ich wymieszania.
+explanation: |
+  Rolą koordynatorów jest łączenie różnych użytkowników i konstruowanie, a następnie transmitowanie transakcji opartych na współpracy.
+  
+reviewed: false

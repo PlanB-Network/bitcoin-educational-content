@@ -1,0 +1,12 @@
+question: 第七屆 Halving 會在哪一年發生？
+answer: 2036
+wrong_answers:
+  - 2032
+  - 2028
+  - 2048
+explanation: |
+  第 7 顆 Halving 應該會在 2036 年出現，估計流通中的 Bitcoin
+  流通中的 Bitcoin 數量將為 20,835,937.5、
+  這將大致相當於 99.22% 的 Supply 總數。
+  Supply.
+reviewed: true

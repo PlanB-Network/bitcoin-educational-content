@@ -1,0 +1,9 @@
+question: Kto zasugerował skontaktowanie się z organizacją WikiLeaks w celu zachęcenia jej do zaakceptowania Bitcoin w listopadzie 2010 roku?
+answer: Amir Taaki
+wrong_answers:
+  - Wladimir van der Laan
+  - Robert Horning
+  - Satoshi Nakamoto
+explanation: |
+  Uzasadnił to tym, że organizacja wielokrotnie widziała zamrożenie swoich funduszy. W szczególności Moneybookers zamroził konto WikiLeaks w październiku.
+reviewed: false

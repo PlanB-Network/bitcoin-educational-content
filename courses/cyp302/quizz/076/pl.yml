@@ -1,0 +1,9 @@
+question: Jaki rozmiar klucza jest uważany za bezpieczny przed atakami brute force dla nowoczesnego szyfrowania?
+answer: 128 bitów
+wrong_answers:
+  - 16 bitów
+  - 64 bity
+  - 100 bitów
+explanation: |
+  Przy kluczu o długości co najmniej 128 bitów, nowoczesne szyfrowanie jest obecnie uważane za bezpieczne przed atakami brute force, ponieważ liczba prób byłaby nierealistyczna.
+reviewed: false

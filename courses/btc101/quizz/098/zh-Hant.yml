@@ -1,0 +1,11 @@
+question: 除了使用紙張儲存您的 Mnemonic 詞組之外，有什麼建議的替代方法？
+answer: 在金屬板上雕刻。
+wrong_answers:
+  - 以數位檔案儲存。
+  - 寫在白板上
+  - 將其儲存為手機中的連絡人。
+explanation: |
+  儲存 Mnemonic 詞句的建議方法之一是將其刻在金屬板上。
+  將 Mnemonic 詞組刻在金屬板上。這種
+  解決方案更耐用、更持久。
+reviewed: true

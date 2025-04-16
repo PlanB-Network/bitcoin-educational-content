@@ -4,5 +4,6 @@ wrong_answers:
   - Leslie Lamport、Robert Shostak 和 Marshall Pease
   - Cynthia Dwork 和 Moni Naor
   - Ronald Rivest 和 Adi Shamir
-  Three papers by Haber and Stornetta from the 90s were cited in the white paper. They are known for creating [the first timestamped blockchain](https: //www.vice.com/en/article/j5nzx4/what-was-the-first-blockchain), published in the New York Times starting in 1992.
+explanation: |
+  白皮書中引用了 Haber 和 Stornetta 在 90 年代發表的三篇論文。他們以創造 [第一個有時間戳的 Blockchain](https://www.vice.com/en/article/j5nzx4/what-was-the-first-Blockchain)而聞名，1992 年開始在《紐約時報》上發表。
 reviewed: false

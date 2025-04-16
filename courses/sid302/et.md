@@ -20,7 +20,7 @@ Kursusel käsitletakse tööstuse ekspertide ettekannetega selliseid teemasid na
 
 <partId>9f8a83d5-27e0-4e6d-af12-6cd6eb667291</partId>
 
-## Sissejuhatus Liquid Bootcamp'ile
+## Kursuse ülevaade
 
 <chapterId>3192ee7d-255b-4c4f-ba18-e08c5ab98577</chapterId>
 
@@ -32,6 +32,7 @@ Algselt viidi see algselt läbi isikliku üritusena, järgides struktureeritud a
 
 See reis on üles ehitatud nii, et see sobiks erineva tasemega osalejatele, pakkudes teoreetiliste teadmiste ja praktiliste kogemuste segu. Selle alglaagri lõpuks on teil kindel arusaam Liquid'i arhitektuurist, selle integreerimisest Bitcoiniga ning sellest, kuidas kasutada selle uuenduslikke funktsioone finantslahenduste loomiseks ja optimeerimiseks.
 
+Sukeldu Liquid-sidechaini maailma ja avasta selle täielik potentsiaal kohe!
 # Põhitõed
 
 <partId>6dd86449-c0f7-4e51-9252-5f135cf019df</partId>
@@ -40,7 +41,7 @@ See reis on üles ehitatud nii, et see sobiks erineva tasemega osalejatele, pakk
 
 <chapterId>4bca9c70-d54d-4e9a-b2db-17c3a6fa655b</chapterId>
 
-![Video](https://youtu.be/QCyWXVWkcAM)
+:::video id=ff6899d2-b47f-4c3d-983d-3bd66d2be59d:::
 
 Pablo tutvustab Liquid Networki arhitektuuri, rõhutades selle rolli Bitcoini kõrvalahela föderatsioonina. Käsitletakse selliseid põhiomadusi nagu konfidentsiaalsed tehingud, föderatsioonimudel ja selle funktsioon uuenduste liivakastina. Osalejad saavad ülevaate sellest, kuidas Liquid täiendab Bitcoini, pakkudes kiiremaid ja privaatsemaid tehinguid.
 
@@ -48,7 +49,7 @@ Pablo tutvustab Liquid Networki arhitektuuri, rõhutades selle rolli Bitcoini k�
 
 <chapterId>1e9cfbed-108e-4067-afb9-4cf950cb43d3</chapterId>
 
-![Video](https://youtu.be/9Yu0dPAJSek)
+:::video id=5652dcb2-4303-484c-8be5-d98063b39c1c:::
 
 James tutvustab Elements tarkvara ja selle integreerimist Liquid Networkiga. See sessioon sisaldab praktilist juhendit Liquid-sõlme käivitamiseks, Elements'i lokaalseks konfigureerimiseks ja tehingute haldamiseks CLI ja RPC käskude abil.
 
@@ -56,7 +57,7 @@ James tutvustab Elements tarkvara ja selle integreerimist Liquid Networkiga. See
 
 <chapterId>3ff2df4a-8995-4d5e-9b8a-cd114880e666</chapterId>
 
-![Video](https://youtu.be/zFvv0bn4ZWY)
+:::video id=31368c02-b979-44d7-b217-ceed96c7ca5c:::
 
 Michael arutab, kuidas mitmekihilised tehnoloogiad, sealhulgas Liquid, Lightning ja Bitcoin, parandavad tehingute tõhusust ja usaldusväärsust. Peamised teemad hõlmavad HTLC-d turvaliste kihtideüleste tehingute jaoks ja täiustatud skriptimisfunktsioone, mis optimeerivad Bitcoini ökosüsteemi.
 
@@ -64,7 +65,7 @@ Michael arutab, kuidas mitmekihilised tehnoloogiad, sealhulgas Liquid, Lightning
 
 <chapterId>1968db03-2364-46c0-9670-9e9844289ca1</chapterId>
 
-![Video](https://youtu.be/6wNeHQBlhA4)
+:::video id=0bac0a62-90f2-41da-ac7c-330c0604bc61:::
 
 Bozza hõlmab Liquid Networki föderatiivset struktuuri ja selle tehnilisi komponente. Teemad hõlmavad Liquidis katsetatud uuendusi, nagu Schnorri allkirjad ja Simplicity scripting, ning teise kihi lahenduste kasutamisega seotud kompromissid.
 
@@ -72,7 +73,7 @@ Bozza hõlmab Liquid Networki föderatiivset struktuuri ja selle tehnilisi kompo
 
 <chapterId>5f4c0e50-b435-4b6c-b8b7-c55cc1a35431</chapterId>
 
-![Video](https://youtu.be/IAdOxZyx7-Y)
+:::video id=07e0b82f-2d60-4eb3-9b5d-2ccb7ad06e8a:::
 
 Chase toob esile Liquid'i ökosüsteemi ja selle rakendused kapitaliturgudel. Ta arutab tokeniseerimist, kogukonna ressursse ja selliseid vahendeid nagu Sid Swap ja Stokr varahalduse jaoks, samuti Liquid'i kasvavat kasutuselevõttu ärikeskkondades.
 
@@ -80,7 +81,7 @@ Chase toob esile Liquid'i ökosüsteemi ja selle rakendused kapitaliturgudel. Ta
 
 <chapterId>4f21a0a7-0dc0-44cf-8a3a-d9e2f8a3f05f</chapterId>
 
-![Video](https://youtu.be/AnMiD9amSUg)
+:::video id=f00822b4-dc1a-46ff-adfc-ff7c97a0024d:::
 
 Nardo annab ülevaate Blockstream AMP, platvormi digitaalse vara haldamiseks Liquid. Ta uurib AMP arhitektuuri, selle võimet kontrollida varade ülekandeid ja selle praktilisi rakendusi arendajatele. Samuti tuuakse esile AMP väljakutseid ja tulevasi täiustusi.
 
@@ -94,11 +95,11 @@ Nardo annab ülevaate Blockstream AMP, platvormi digitaalse vara haldamiseks Liq
 
 <chapterId>fb77442c-3d1e-427e-b2f5-16668ce4c643</chapterId>
 
-![Video](https://youtu.be/ucc3a-udbgo)
+:::video id=1a6289b5-fdae-4320-b5b1-41925150108c:::
 
 Antonio tutvustab Breeze'i, avatud lähtekoodiga SDK-d, mis on mõeldud detsentraliseeritud tehingute tegemiseks Liquid Networkis. Ta käsitleb selle funktsioone, sealhulgas toetust mitmekeelsetele sidumistele ja turvalistele tehinguprotsessidele, rõhutades samas selle eesmärki lihtsustada finantstehnoloogiat arendajate jaoks
 
-# Kokkuvõte
+# Lõpusektsioon
 
 <partId>7ec65e6b-6e63-41b6-92ea-6a13bc77c3ff</partId>
 

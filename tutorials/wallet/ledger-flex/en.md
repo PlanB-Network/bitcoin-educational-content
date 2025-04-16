@@ -168,6 +168,11 @@ The passphrase should not be confused with the PIN code. It plays a role in the 
 The passphrase is a very powerful tool for enhancing the security of your bitcoins. However, it is very important to understand how it works before implementing it, to avoid losing access to your wallet. I will explain how to use the passphrase in another dedicated tutorial.
 
 ![LEDGER FLEX](assets/notext/29.webp)
+
+The passphrase is a very powerful tool to strengthen the security of your bitcoins. However, it's crucial to understand how it works before implementing it, to avoid losing access to your wallet. That's why I explain everything in a dedicated tutorial:
+
+https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+
 Finally, the last settings page allows you to reset your Ledger. Only proceed with this reset if you are certain it does not contain any keys securing bitcoins, as you could permanently lose access to your funds.
 ![LEDGER FLEX](assets/notext/30.webp)
 

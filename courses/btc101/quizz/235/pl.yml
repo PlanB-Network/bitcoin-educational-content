@@ -1,0 +1,10 @@
+question: Jaka jest jednostka Bitcoin używana w Lightning Network?
+answer: Sats.
+wrong_answers:
+  - Blok.
+  - Eter.
+  - Litecoin.
+explanation: |
+  Lightning Network używa satoshis (zwanego również Sats), dziesiętnej części Bitcoin
+  dziesiętny Bitcoin, do działania.
+reviewed: true

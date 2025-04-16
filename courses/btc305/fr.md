@@ -23,6 +23,28 @@ Produit par la Fondation BTCPay Server
 
 <partId>59e43fe3-b494-5da6-b4b4-9df5bdf08916</partId>
 
+## Aperçu du cours
+
+<chapterId>785ed2bc-94ae-4962-a26a-edf5742a3c72</chapterId>
+
+Bienvenue dans le cours BTC305 sur BTC Pay Server !
+
+L'objectif de cette formation est de vous apprendre à installer, configurer et utiliser BTCPay Server au sein de votre entreprise ou association. BTCPay Server est une solution open-source permettant de traiter des paiements en bitcoins de manière autonome, sécurisée et économique. Ce cours s'adresse principalement aux utilisateurs avancés souhaitant maîtriser l'auto-hébergement de BTCPay Server pour une intégration complète dans leur activité quotidienne.
+
+**Section 1 : Présentation de BTCPay Server**  
+Nous débuterons par une présentation générale de BTCPay Server, avec l'écran de connexion, la gestion des comptes utilisateurs et la création d'une nouvelle boutique. Cette introduction vous permettra de comprendre l'interface de BTCPay Server et d'appréhender les fonctionnalités de base pour commencer à utiliser cet outil.
+
+**Section 2 : Introduction à la sécurisation des clés Bitcoin**  
+La sécurité de vos fonds en bitcoins est très importante. Dans cette section, nous explorerons la génération des clés cryptographiques, l'utilisation de hardware wallets pour sécuriser ces clés, ainsi que la manière d'interagir avec vos clés via BTCPay Server. Vous découvrirez également comment configurer un portefeuille Lightning BTCPay Server pour optimiser vos transactions.
+
+**Section 3 : Interface de BTCPay Server**  
+Cette partie vous guidera à travers l'interface utilisateur de BTCPay Server. Vous apprendrez à naviguer dans le tableau de bord, à configurer les paramètres du magasin et du serveur, à gérer les paiements, et à tirer parti des plugins intégrés. L'objectif est de vous familiariser avec les outils nécessaires pour personnaliser votre installation selon vos besoins.
+
+**Section 4 : Configuration de BTCPay Server**  
+Enfin, nous nous concentrerons sur l'installation pratique de BTCPay Server dans divers environnements. Que vous utilisiez LunaNode, Voltage ou un nœud Umbrel, vous apprendrez les étapes essentielles pour déployer et configurer votre serveur BTCPay, en tenant compte des spécificités de chaque environnement.
+
+Prêt à maîtriser BTCPay Server pour développer votre entreprise ? Allons-y !
+
 ## Acclamations critiques pour l'œuvre de l'auteur sur Bitcoin et BTCPay Server
 
 <chapterId>e1fe6294-3c82-5203-9537-779f9087c35a</chapterId>
@@ -70,7 +92,7 @@ Ceci est un exercice en classe donc si vous suivez ce cours vous-même, vous ne 
 
 L'exercice commence après avoir regardé l'introduction "Comment fonctionnent Bitcoin et la blockchain" par la BBC.
 
-![how bitcoin and the blockchain works](https://youtu.be/mhE_vvwAiRc)
+:::video id=c20b6df7-0c3a-4785-94b9-42ef59093acc:::
 
 Cet exercice nécessite la participation d'au moins neuf personnes. Cet exercice a pour but de se faire une idée physique du fonctionnement de Bitcoin. En jouant chaque rôle dans le réseau, vous aurez une manière interactive et ludique d'apprendre. Cet exercice n'implique pas le Lightning Network.
 
@@ -654,7 +676,7 @@ La première méthode que nous utiliserons dans la situation actuelle, aussi la 
 Dans ce cours, nous abordons le stockage d'une phrase de récupération sur un portefeuille matériel. Suivre ce cours avec un instructeur n'inclut pas toujours un tel dispositif. Dans le cours, les matériaux de guide ont écrit une liste de portefeuilles matériels fournis qui conviendraient à cet exercice.
 Nous utiliserons le coffre-fort BTCPay Server et un portefeuille matériel Blockstream Jade dans cet exemple.
 Vous pouvez également suivre en vidéo pour vous référer à la connexion d'un portefeuille matériel.
-![BTCPay Server - Comment connecter votre portefeuille matériel avec BTCPay Vault.](https://youtu.be/s4qbGxef43A)
+:::video id=8e61664b-e0c0-416d-8ef9-b631bf28ec4d:::
 
 Téléchargez BTCPay Server Vault : https://github.com/btcpayserver/BTCPayServer.Vault/releases
 
@@ -2400,7 +2422,7 @@ Dans cette section, vous avez appris :
 
 Comment la configuration sur Umbrel diffère-t-elle des deux options hébergées précédentes ?
 
-# Conclusion
+# Section finale
 
 <partId>d72e6fa5-0870-5f00-9143-9466ed22e2bd</partId>
 

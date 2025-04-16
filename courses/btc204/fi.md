@@ -24,10 +24,11 @@ Tule mukaan muuttamaan Bitcoinin käyttöäsi ja tule tietoiseksi käyttäjäksi
 
 <partId>e17474a8-8899-4bdb-a7f8-bc52ddb01440</partId>
 
-## Koulutuksen johdanto
+## Kurssin yleiskatsaus
 
 <chapterId>08ba1933-f393-4fb5-8279-777d874caedb</chapterId>
 
+Tervetuloa BTC204-kurssille!
 
 Maailmassa, jossa rahaliikenteen luottamuksellisuudesta on vähitellen tulossa ylellisyyttä, yksityisyyden suojan periaatteiden ymmärtäminen ja hallitseminen Bitcoinia käytettäessä on välttämätöntä. Tämä kurssi antaa sinulle kaikki avaimet, sekä teoreettiset että käytännölliset, jotta voit saavuttaa tämän itsenäisesti.
 
@@ -45,37 +46,38 @@ Tämän kurssin tarkoituksena on antaa kattava yleiskatsaus Bitcoinin luottamuks
 
 Tämän kurssin tavoitteena ei ole tehdä sinusta täysin anonyymiä käyttäessäsi Bitcoinia, vaan antaa sinulle välttämättömät työkalut, joiden avulla osaat suojata luottamuksellisuutesi henkilökohtaisten tavoitteidesi mukaisesti. Sinulla on vapaus valita esitellyistä käsitteistä ja työkaluista omat, omiin tavoitteisiisi ja tarpeisiisi räätälöidyt strategiat.
 
-### Jakso 1: Määritelmät ja keskeiset käsitteet
+**Jakso 1: Määritelmät ja keskeiset käsitteet**
 
 Aluksi käymme läpi Bitcoinin toimintaa ohjaavat perusperiaatteet, jotta voimme sitten rauhassa käsitellä luottamuksellisuuteen liittyviä käsitteitä. On tärkeää hallita muutamia peruskäsitteitä, kuten UTXO, osoitteiden vastaanottaminen ja skriptaaminen, ennen kuin voit täysin ymmärtää käsitteet, joita käsittelemme seuraavissa osioissa. Esittelemme myös Bitcoinin yleisen luottamuksellisuusmallin, sellaisena kuin Satoshi Nakamoto sen kuvitteli, jonka avulla voimme hahmottaa siihen liittyvät panokset ja riskit.
 
 ![BTC204](assets/fr/001.webp)
 
-### 2 jakso: Ketjuanalyysin ymmärtäminen ja siltä suojautuminen
+**2 jakso: Ketjuanalyysin ymmärtäminen ja siltä suojautuminen**
 
 Toisessa osiossa tarkastelemme lohkoketjuanalyysiyritysten käyttämiä tekniikoita, joiden avulla ne voivat seurata toimintaasi Bitcoinissa. Näiden menetelmien ymmärtäminen on ratkaisevan tärkeää yksityisyydensuojasi vahvistamiseksi. Tämän jakson tavoitteena on tutkia hyökkääjien strategioita, jotta voimme ymmärtää paremmin riskejä ja valmistella maaperää tekniikoille, joita tutkimme seuraavissa jaksoissa. Analysoimme transaktiomalleja, sisäisiä ja ulkoisia heuristiikkoja sekä näiden mallien todennäköisiä tulkintoja. Teorian lisäksi opettelemme käytännön esimerkkien ja harjoitusten avulla, miten lohko-etsintäohjelmaa käytetään ketjuanalyysiin.
 
 ![BTC204](assets/fr/002.webp)
 
-### Jakso 3: Parhaat käytännöt yksityisyyden suojaamiseksi
+**Jakso 3: Parhaat käytännöt yksityisyyden suojaamiseksi**
 
 Koulutuskurssimme kolmannessa osiossa siirrymme itse asiaan: harjoitteluun! Tavoitteena on hallita kaikki olennaiset parhaat käytännöt, joista pitäisi tulla jokaiselle Bitcoin-käyttäjälle luonnollisia refleksejä. Käsittelemme tyhjien osoitteiden käyttöä, merkitsemistä, konsolidointia, kokonaisten solmujen käyttöä sekä KYC- ja hankintamenetelmiä. Tavoitteena on antaa sinulle kattava yleiskuva sudenkuopista, joita on syytä välttää, jotta voimme luoda vankan perustan pyrkimyksellemme suojella yksityisyyttä. Joidenkin näiden käytäntöjen osalta sinua ohjataan erityiseen opetusohjelmaan, jossa kerrotaan, miten ne pannaan täytäntöön.
 
 ![BTC204](assets/fr/003.webp)
 
-### Jakso 4: Coinjoin-transaktioiden ymmärtäminen
+**Jakso 4: Coinjoin-transaktioiden ymmärtäminen**
 
 Miten voimme puhua Bitcoinin yksityisyydestä mainitsematta kolikkoliitoksia? Luvussa 4 saat selville kaiken, mitä sinun tarvitsee tietää tästä yhdistämismenetelmästä. Saat tietää, mitä coinjoinit ovat, niiden historian ja tavoitteet sekä erilaiset olemassa olevat coinjoin-tyypit. Kokeneemmille käyttäjille kerrotaan lopuksi, mitä anonsetit ja entropia ovat ja miten ne lasketaan.
 
 ![BTC204](assets/fr/004.webp)
 
-### 5 jakso: Muiden kehittyneiden luottamuksellisuustekniikoiden haasteiden ymmärtäminen
+**5 jakso: Muiden kehittyneiden luottamuksellisuustekniikoiden haasteiden ymmärtäminen**
 
 Viidennessä osiossa tarkastelemme kaikkia muita tekniikoita, joilla voit suojata yksityisyytesi Bitcoinissa, coinjoinin lisäksi. Vuosien varrella kehittäjät ovat osoittaneet huomattavaa luovuutta suunnitellessaan yksityisyyden suojaan tarkoitettuja työkaluja. Tarkastelemme kaikkia näitä menetelmiä, kuten payjoinia, yhteistransaktioita, Coin Swapia ja Atomic Swapia, ja kerromme yksityiskohtaisesti, miten ne toimivat, niiden tavoitteet ja mahdolliset heikkoudet.
 
 Tarkastelemme myös yksityisyyden suojaa solmujen verkon ja tapahtumien levittämisen tasolla. Keskustelemme myös erilaisista protokollista, joita on vuosien varrella ehdotettu käyttäjien yksityisyyden suojaamiseksi Bitcoinissa, mukaan lukien staattiset osoiteprotokollat.
 
 ![BTC204](assets/fr/005.webp)
+Valmiina tutkimaan Bitcoinin yksityisyyden monimutkaisuuksia? Lähdetään liikkeelle!
 
 # Määritelmät ja keskeiset käsitteet
 
@@ -4220,7 +4222,7 @@ Koska tämä ominaisuus on uusi, suosittelemme varovaisuutta ja välttämään H
 
 *Tämän hiljaisia maksuja käsittelevän luvun laatimisessa käytin [hiljaisten maksujen selityssivustoa](https://silentpayments.xyz/) ja [BIP352-selitysasiakirjaa](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki).*
 
-# Päätelmä
+# Lopullinen osio
 
 <partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 

@@ -1,0 +1,9 @@
+question: Który amerykański deweloper zauważył dziwny blok podczas incydentu przepełnienia wartości 15 sierpnia 2010 roku?
+answer: Jeff Garzik
+wrong_answers:
+  - Gavin Andresen
+  - Nils Schneider
+  - Christian Decker
+explanation: |
+  Blok ten, wykorzystując lukę, stworzył ponad 184 miliardy bitcoinów.
+reviewed: false

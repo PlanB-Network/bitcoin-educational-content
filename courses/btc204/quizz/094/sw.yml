@@ -5,5 +5,6 @@ wrong_answers:
   - Kuchangia UTXO za doxxic za mtu.
   - Kuashiria UTXOs za doxxic za mtu kama zisizoweza kutumika.
 explanation: |
-Inashauriwa dhidi ya kuunganisha UTXO za doxxic pamoja kwa sababu inaruhusu muunganisho kufanywa kati ya maingizo tofauti ya mtumiaji katika Whirlpool.
+  Inashauriwa dhidi ya kuunganisha UTXO za doxxic pamoja kwa sababu inaruhusu muunganisho kufanywa kati ya maingizo tofauti ya mtumiaji katika Whirlpool.
+  
 reviewed: false

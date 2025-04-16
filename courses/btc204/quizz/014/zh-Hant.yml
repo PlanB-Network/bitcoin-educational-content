@@ -1,0 +1,9 @@
+question: Bitcoin 系統的隱私模式是什麼？
+answer: 交易是公開的，但使用者的身分卻不為人所知。
+wrong_answers:
+  - 只有 Satoshi Nakamoto 可以存取交易詳細資訊。
+  - 交易在網路上是加密和隱形的。
+  - 只有政府才能存取交易詳細資料。
+explanation: |
+  在 Bitcoin 的情況下，由於交易與公共領域之間的資訊流無法斷絕，因此隱私權模型依賴於使用者身分與交易之間的分離。
+reviewed: false

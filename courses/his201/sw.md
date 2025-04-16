@@ -432,7 +432,7 @@ Wazo la Ripple lilitokana na wazo kwamba pesa kimsingi iliundwa na IOUs, ambayo 
 
 Hapa kuna video ya utangulizi ya Ripple iliyotengenezwa mnamo 2011:
 
-![Video (Youtube) of Ripple's presentation in 2011](https://www.youtube.com/watch?v=f9KqSgRZYgg)
+:::video id=056364f2-a222-4d79-a4a1-cb0dc4cea751:::
 
 Licha ya shauku ya jumuiya yake na watumiaji elfu chache, Ripple ilikuwa na dosari kubwa ambayo iliizuia kufanikiwa. Hasa, [iliteseka](https://fiatjaf.com/3cb7c325.html) kutokana na "tatizo la Commitment iliyogatuliwa": wakati wa malipo, washiriki hawakuweza kujitoa kwa njia salama ili kuhakikisha msururu wa mkopo, tatizo ambalo lingetatuliwa baadaye na Umeme. (*asili: "tatizo la ahadi iliyogatuliwa"*)
 
@@ -1297,7 +1297,7 @@ EFF ilichukua muda kuanza kukubali michango ya umma. Baada ya mazungumzo, jumuiy
 
 Siku chache baadaye, [chapisho](https://web.archive.org/web/20101117060233/http://www.bitcoinblogger.com/2010/11/Bitcoin-gains-legal-protection-through.html) iliandikwa kuhusu mada hiyo na mwanablogu jimbobway, ambayo ilivutia GW-68 makini. Makala haya [yalishirikiwa](https://news.ycombinator.com/item?id=1905522) kwenye HackerNews. Ilinakiliwa pia kuwa video na BitcoinMedia kwa kutumia Xtranormal:
 
-![Video "Bitcoin and the EFF."](https://www.youtube.com/watch?v=AiGCuyRJe8s)
+:::video id=03dfd302-1e05-4cad-a91a-e5e65f1d0932:::
 
 Hii ni habari njema sana kwa Bitcoin kwani mipango yote miwili inashiriki maadili sawa. Zaidi ya hayo, EFF inajulikana kwa kutoa ulinzi wa kisheria kwa uhifadhi wa faragha na miradi ya kushiriki data kama Tor na BitTorrent. Satoshi Nakamoto mwenyewe anafahamu hili na anaunga mkono hatua za shirika hasa, kama inavyoonyeshwa kwenye [maoni](https://mmalmi.github.io/Satoshi/#email-254) aliyotoa katika mojawapo ya barua pepe zake alizotuma kwa Gavin Andresen mnamo Januari 6, 2011:
 
@@ -1506,7 +1506,7 @@ Mikutano ya kwanza ya watumiaji wa Bitcoin ilianzishwa na Bruce Wagner, mtangaza
 
 Februari pia ni alama ya [wasilisho la kwanza lililorekodiwa](https://www.youtube.com/watch?v=koIq58UoNfE) la Bitcoin, lililoendeshwa na Gavin Andresen tarehe 8 wakati wa hafla iliyoandaliwa katika mji wake wa Amherst, Massachusetts. Inayoitwa "Kutengeneza Pesa," wasilisho la msimamizi mpya wa mradi ni pamoja na lugha nyingi za Elements ambazo zingebainisha jinsi sarafu-fiche inavyowasilishwa katika miaka inayofuata.
 
-![Video (Youtube) of Gavin's speech at Amherst in February 2011](https://www.youtube.com/watch?v=koIq58UoNfE)
+:::video id=92b9aa30-1479-4d4f-b57f-f07b660145f2:::
 
 Ingawa matukio ya kwanza yalifanyika Marekani, jumuiya ya Wafaransa haikuachwa nyuma. Mnamo Mei 25, kuashiria ziara ya Gavin Andresen huko Paris, chakula cha mchana kiliandaliwa katika wilaya ya La Défense, iliyohudhuriwa na watu mashuhuri kama vile Lucien Grondin, David François, na Jon Matonis (ambaye pia alikuwa akitembelea).
 
@@ -1524,7 +1524,7 @@ Kufuatia tukio hili, jumuiya ya WaParisi [ilipanga](https://bitcointalk.org/inde
 
 Kwa upande wa kimataifa, mkutano wa kwanza wa pamoja juu ya Bitcoin ulifanyika kutoka Agosti 19 hadi 21 huko New York. Mkutano huu, ulioandaliwa na Bruce Wagner, ulileta pamoja watu kama Roger Ver, Jesse Powell, Jed McCaleb, Mark Karpelès, na Charlie Lee. Ingawa Wagner aliahidi siku tatu za matukio, maonyesho manne tu yalitokea: yake na yale ya Gavin Andresen, Jeff Garzik, na Stefan Thomas.
 
-![Video (Youtube) of Gavin's intervention on August 20, 2011](https://www.youtube.com/watch?v=0ljx4bbJrYE)
+:::video id=bca0217c-29ee-49b2-8d16-d9efe6f390da:::
 
 Baadaye katika mwaka huo, mnamo Novemba, mkutano wa Ulaya [utafanyika](https://bitcointalk.org/index.php?topic=40272.msg490901#msg490901) huko Prague. Wazungumzaji mashuhuri watajumuisha msanidi programu Amir Taaki, mwanzilishi wa Chama cha Maharamia wa Uswidi Rick Falkvinge, na mtangazaji Max Keiser. Mwaka unaofuata, tukio kama hilo [litaandaliwa London](https://blog.bitmex.com/london-2012-the-2nd-Bitcoin-conference/).
 
@@ -1534,7 +1534,7 @@ Mwaka wa 2011 pia ulikuwa mwaka ambapo utangazaji wa vyombo vya habari ulipanuka
 
 Kwanza, video juu ya mada hiyo zilianza kuenea kwenye Youtube. Mnamo Machi 22, video ya kwanza ya ubora wa juu kuhusu Bitcoin ilionekana. Video hii, inayoitwa "Bitcoin ni nini?", ilitolewa na Stefan Thomas (justmoon) shukrani kwa [crowdfunding](https://bitcointalk.org/index.php?topic=697.msg70001#msg70001) kutoka kwa jumuiya. Ilichapishwa kwenye tovuti ya WeUseCoins iliyojitolea kwa elimu na umaarufu wa cryptocurrency. Video zingine za utangulizi zilizotolewa kwa kujitegemea zilifuatwa, kama vile [ile ya howtovanish](https://www.youtube.com/watch?v=LSLByqTusaQ) mwezi wa Aprili, [hiyo ya Sababu](https://www.youtube.com/watch?v=yYTqvYqXRbY), au [ile ya Rocketboom](https://www.v=WcWcRwatch in June.
 
-![What is Bitcoin?](https://www.youtube.com/watch?v=Um63OQz3bjo)
+:::video id=6147a351-da80-4331-9d79-d3156889ac62:::
 
 Mnamo Aprili, mada ya sarafu ya kidijitali ilishughulikiwa na vyombo vikuu vya habari kama vile [The Atlantic](https://www.theatlantic.com/business/archive/2011/04/how-to-start-your-own-private-currency/73327/), [Time Gazeti](https://techland.time.com/2011/04/16/online-cash-Bitcoin-could-challenge-governments/), na [Forbes](https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-bitcoins-currency-bitcoins-). Mnamo Mei, harakati hiyo ilishika kasi, na Bitcoin ilitajwa karibu kila mahali, haswa katika [Wired UK](https://web.archive.org/web/20110517122859/http://www.wired.co.uk/news/archive/2011-05/16/P2P-GW), [Slate](https://slate.com/business/2011/05/Bitcoin-why-the-new-electronic-currency-is-a-favorite-of-libertarian-hipsters-and-criminals.html), kwenye [Gizmodo](https://gizmodo.com/what-is-Bitcoin) [TechCrunch](https://techcrunch.com/2011/05/20/Bitcoin-ven-and-the-end-of-currency/).
 

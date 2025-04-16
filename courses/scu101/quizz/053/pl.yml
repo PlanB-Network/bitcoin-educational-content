@@ -1,0 +1,12 @@
+question: Dlaczego dane biometryczne są uważane za mniej bezpieczne niż połączenie wiedzy i posiadania w przypadku 2FA?
+answer: Dane biometryczne powinny pozostać na urządzeniu uwierzytelniającym i nie powinny być ujawniane online.
+wrong_answers:
+  - Dane biometryczne są łatwiejsze do wyodrębnienia, nawet jeśli są przechowywane w trybie offline na urządzeniu uwierzytelniającym.
+  - Dane biometryczne są trudniejsze do zapamiętania i wykorzystania podczas korzystania z urządzenia uwierzytelniającego.
+  - Narzędzia danych biometrycznych są droższe we wdrożeniu, a zatem nie są opłacalne w porównaniu z innymi rozwiązaniami.
+explanation: |
+  Dane biometryczne są mniej bezpieczne, ponieważ powinny pozostać na
+  urządzeniu uwierzytelniającym i nie powinny być ujawniane online. Jeśli
+  online, mogą zostać skradzione i wykorzystane do nieautoryzowanego dostępu
+  nieautoryzowanego dostępu.
+reviewed: true

@@ -4,5 +4,6 @@ wrong_answers:
   - Usimbaji fiche, usimbuaji, usambazaji
   - Uzalishaji wa ufunguo wa umma, usimbaji fiche wa ufunguo wa kibinafsi, uthibitishaji
   - Hashing ya ujumbe, usimbaji wa lebo, usambazaji wa lebo
-  A MAC scheme consists of three main steps: generating a secret key, producing a tag for the message, and verifying that the received message and its tag match.
+explanation: |
+  Mpango wa MAC una hatua tatu kuu: kutengeneza ufunguo wa siri, kutoa lebo ya ujumbe, na kuthibitisha kuwa ujumbe uliopokelewa na lebo yake zinalingana.
 reviewed: false

@@ -1,0 +1,10 @@
+question: Jaki jest sugerowany minimalny okres oczekiwania dla Hodlera?
+answer: Co najmniej jeden lub dwa cykle.
+wrong_answers:
+  - Mniej niż rok.
+  - Od pięciu do dziesięciu lat.
+  - Nie ma minimalnego okresu oczekiwania.
+explanation: |
+  Rozdział sugeruje, że Hodler powinien poczekać co najmniej jeden lub dwa cykle
+  cykle, aby zobaczyć wzrost swojej inwestycji.
+reviewed: false

@@ -2,7 +2,8 @@ question: Je, ni kipengele gani cha Bitcoin ambacho Satoshi ilitaka kupunguza ka
 answer: Kutokujulikana kwa miamala
 wrong_answers:
   - Sera ya fedha
-  - Biashara ya mtandaoni
+  - Biashara ya kielektroniki
   - Uwezo wa kupanga
-  Regarding the draft presentation for Slashdot, he stated he did not want to put the anonymous aspect in the foreground. He explained his reasons to Martti Malmi [in private](https: //mmalmi.github.io/satoshi/#email-197).
+explanation: |
+  Kuhusu uwasilishaji wa rasimu ya Slashdot, alisema hakutaka kuweka kipengele kisichojulikana mbele. Alieleza sababu zake kwa Martti Malmi [kwa faragha](https://mmalmi.github.io/Satoshi/#email-197).
 reviewed: false

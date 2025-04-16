@@ -20,11 +20,12 @@ Este curso está, por supuesto, centrado en la figura de Satoshi Nakamoto, cuyas
 # Introducción
 <partId>41dc2815-c63a-4ce1-9b88-e7b3825e958e</partId>
 
-## Introducción a la Historia de la Creación de Bitcoin
+## Descripción del curso
 <chapterId>85290407-1aa3-4cb4-890a-aed23441afb7</chapterId>
+¡Bienvenido al curso HIS201!
 Este curso tiene como objetivo contarte la historia de la creación de Bitcoin de una manera que nunca antes habías leído. A menudo se pasa por alto, a pesar de estar llena de detalles fascinantes. Nos esforzaremos por describirla en toda su complejidad, desde su concepción por Satoshi Nakamoto hasta su temprana desaparición y la entrega a la comunidad.
 
-### Breve Resumen
+**Breve Resumen**
 
 Bitcoin fue diseñado por un individuo (o un grupo) que usaba el seudónimo Satoshi Nakamoto. El 31 de octubre de 2008, compartió un documento técnico describiendo su modelo a través de una oscura lista de correo electrónico en Internet. El 8 de enero de 2008, implementó su concepto publicando el código fuente del software y lanzando la red mediante la minería de los primeros bloques de la cadena. Ansioso por atraer un número crítico de usuarios, promovió su creación a través de varios canales de comunicación.
 
@@ -46,7 +47,7 @@ La creación de Bitcoin también estuvo en el contexto del cierre estatal de sis
 
 Finalmente, el proyecto Bitcoin es heredero del ethos del movimiento cypherpunk, un movimiento de criptógrafos rebeldes de los 90, que buscaban preservar la privacidad y la libertad de las personas en Internet mediante el uso proactivo de la criptografía. Bitcoin está en línea con proyectos como b-money, bit gold o RPOW imaginados por estos individuos a finales de los 90 y principios de los 2000. Satoshi Nakamoto los mencionó, aunque no estaba al tanto de ellos antes de diseñar Bitcoin y probablemente no formaba parte del movimiento original.
 
-### Esquema del Curso
+**Esquema del Curso**
 
 Este curso se divide en cuatro partes, que se centran respectivamente en los orígenes de Bitcoin (3 capítulos), su lenta emergencia (3 capítulos), su ascenso inicial (3 capítulos) y la formación de su comunidad (4 capítulos). En total, incluye 12 capítulos que son los siguientes (también se especifica el período concernido):
 
@@ -64,7 +65,7 @@ Este curso se divide en cuatro partes, que se centran respectivamente en los or�
 - La desaparición de Satoshi (diciembre de 2010–abril de 2011)
 - La comunidad toma el control (abril de 2011–septiembre de 2011)
 
-### Detalles
+**Detalles**
 
 Todas las fechas y horas se dan según la zona horaria UTC (correspondiente al Meridiano de Greenwich) y, por lo tanto, pueden diferir de las fechas americanas. Es probable que Satoshi Nakamoto estuviera en los Estados Unidos cuando trabajaba en su proyecto. Sin embargo, Bitcoin es un proyecto internacional, que incluyó notablemente contribuciones del desarrollador finlandés Martti Malmi (Hora de Europa Oriental, UTC+2 / UTC+3), y por lo tanto, nos referiremos a la zona horaria universal. Así, decimos que el lanzamiento efectivo de la red principal tuvo lugar el 9 de enero a las 2:54 AM, en lugar del 8 de enero a las 6:54 PM, que corresponde a la zona horaria de la costa este (Hora del Pacífico, UTC-8 / UTC-7).
 
@@ -78,6 +79,7 @@ El contenido está parcialmente adaptado del libro francés [*L'Élégance de Bi
 
 Tenga en cuenta que para la versión no inglesa de este curso, la mayoría de las citas provienen del inglés americano y han sido traducidas para la ocasión. El término *coin* generalmente se traduce como "unidad" (y no "pieza") cuando se refiere a la unidad de cuenta.
 
+¿Listo para explorar la increíble saga de la creación de Bitcoin? ¡Entonces sumerjámonos juntos en esta historia fuera de lo común!
 # Los orígenes de Bitcoin
 <partId>25a75ed6-f34b-4c9a-8224-e099a3e774dc</partId>
 
@@ -350,7 +352,7 @@ El concepto de Ripple se basaba en la idea de que el dinero estaba esencialmente
 
 Aquí hay un video introductorio de Ripple hecho en 2011:
 
-![Video (Youtube) de la presentación de Ripple en 2011](https://www.youtube.com/watch?v=f9KqSgRZYgg)
+:::video id=056364f2-a222-4d79-a4a1-cb0dc4cea751:::
 
 A pesar del entusiasmo de su comunidad y unos pocos miles de usuarios, Ripple tuvo fallas importantes que impidieron que fuera exitoso. En particular, [sufrió](https://fiatjaf.com/3cb7c325.html) del "problema del compromiso descentralizado": durante un pago, los participantes no podían comprometerse de manera segura para garantizar la cadena de préstamos, un problema que sería resuelto más tarde por Lightning. (*original: "the problem of the decentralized commit"*)
 
@@ -1085,7 +1087,7 @@ Dos semanas después, en ausencia de una respuesta, un segundo miembro del foro 
 La EFF tardó un tiempo en comenzar a aceptar donaciones públicas. Después de negociaciones, la comunidad los convenció de publicar una dirección de donación en su sitio web. El 9 de noviembre, la dirección apareció en la [página de donaciones](https://web.archive.org/web/20101130105838/http://www.eff.org/helpout). Los usuarios de Bitcoin [comenzaron](https://mempool.space/tx/8ca2d206bc41b9ffa36cf4ea9ce9d3b0751fd653b6ec8f2979bfdddc4a631731) a transferir fondos.
 Unos días después, un [post](https://web.archive.org/web/20101117060233/http://www.bitcoinblogger.com/2010/11/bitcoin-gains-legal-protection-through.html) fue escrito sobre el tema por el blogger jimbobway, lo que llamó la atención sobre Bitcoin. Este artículo fue [compartido](https://news.ycombinator.com/item?id=1905522) en HackerNews. También fue transcrito en video por BitcoinMedia usando Xtranormal:
 
-![Video "Bitcoin y la EFF."](https://www.youtube.com/watch?v=AiGCuyRJe8s)
+:::video id=03dfd302-1e05-4cad-a91a-e5e65f1d0932:::
 
 Esto es una muy buena noticia para Bitcoin ya que ambas iniciativas comparten valores comunes. Además, la EFF es reconocida por proporcionar protección legal a proyectos de preservación de la privacidad y compartición de datos como Tor y BitTorrent. El propio Satoshi Nakamoto es consciente de esto y apoya particularmente las acciones de la organización, como se muestra en su [comentario](https://mmalmi.github.io/satoshi/#email-254) hecho en uno de sus correos electrónicos dirigidos a Gavin Andresen el 6 de enero de 2011:
 > "La EFF es realmente importante. &nbsp;Queremos mantener buenas relaciones con ellos. &nbsp;Somos el tipo de proyecto que aprecian; han ayudado al proyecto TOR y han hecho mucho para proteger la compartición de archivos P2P."
@@ -1269,7 +1271,7 @@ Con el aumento de valor durante el verano de 2011, Martti Malmi [vende](https://
 No solo el lado técnico se ve afectado por la partida del fundador y la necesidad de cooperar: también hay un aspecto social, que ayuda a fortalecer la comunidad creando vínculos entre los miembros. Es por eso que se organizan encuentros y conferencias "en la vida real". Estos eventos también tienen la ventaja de introducir Bitcoin a personas que podrían ser más resistentes al contenido en línea.
 Las primeras reuniones de usuarios de Bitcoin fueron iniciadas por Bruce Wagner, el presentador basado en Nueva York de un [canal de YouTube](https://www.youtube.com/@vlogwrap) que presentaba debates televisados sobre temas técnicos, donde creó un programa llamado *Bitcoin Show* en abril de 2011. La primera reunión [tuvo lugar](https://bitcointalk.org/index.php?topic=1891.msg29174#msg29174) en Nueva York el 11 de diciembre de 2010 (UTC). Posteriormente, una reunión del mismo tipo [ocurrió](https://web.archive.org/web/20110413231434/http://bitcoin.meetup.com/) en Washington D.C. También se [organizó](https://bitcointalk.org/index.php?topic=2716.msg36886#msg36886) una reunión el 5 de febrero de 2011, en Zúrich, Suiza por Mike Hearn, con Christian Decker y Stefan Thomas (justmoon) uniéndose. Febrero también marca la [primera presentación filmada](https://www.youtube.com/watch?v=koIq58UoNfE) de Bitcoin, realizada por Gavin Andresen el 8 durante un evento organizado en su ciudad natal de Amherst, Massachusetts. Titulada "Haciendo Dinero", la presentación del nuevo mantenedor principal del proyecto incluye numerosos elementos lingüísticos que caracterizarían la forma en que se presenta la criptomoneda en los años siguientes.
 
-![Video (Youtube) del discurso de Gavin en Amherst en febrero de 2011](https://www.youtube.com/watch?v=koIq58UoNfE)
+:::video id=92b9aa30-1479-4d4f-b57f-f07b660145f2:::
 
 Aunque los primeros eventos tuvieron lugar en Estados Unidos, la comunidad francesa no se quedó atrás. El 25 de mayo, para marcar la visita de Gavin Andresen a París, se organizó un almuerzo en el distrito de La Défense, al que asistieron figuras notables como Lucien Grondin, David François y Jon Matonis (quien también estaba de visita).
 
@@ -1283,7 +1285,7 @@ Presentación de Bitcoin por Renaud Lifchitz el 15 de junio de 2011 (fuente: [ar
 
 Tras esta experiencia, la comunidad parisina [organizó](https://bitcointalk.org/index.php?topic=21991.msg276443#msg276443) una reunión social, que tuvo lugar el 11 de julio. Este evento reunió a individuos como Pierre Noizat o Émilien Dutang.
 En el frente internacional, la primera conferencia colectiva sobre Bitcoin tuvo lugar del 19 al 21 de agosto en Nueva York. Esta reunión, organizada por Bruce Wagner, reunió a personalidades como Roger Ver, Jesse Powell, Jed McCaleb, Mark Karpelès y Charlie Lee. Aunque Wagner prometió tres días de eventos, solo ocurrieron cuatro presentaciones: la suya propia y las de Gavin Andresen, Jeff Garzik y Stefan Thomas.
-![Video (Youtube) de la intervención de Gavin el 20 de agosto de 2011](https://www.youtube.com/watch?v=0ljx4bbJrYE)
+:::video id=bca0217c-29ee-49b2-8d16-d9efe6f390da:::
 
 Más adelante en el año, en noviembre, una conferencia europea [tendrá lugar](https://bitcointalk.org/index.php?topic=40272.msg490901#msg490901) en Praga. Entre los oradores notables se incluirán al desarrollador Amir Taaki, al fundador del Partido Pirata Sueco Rick Falkvinge, y al presentador Max Keiser. El año siguiente, un evento similar será [organizado en Londres](https://blog.bitmex.com/london-2012-the-2nd-bitcoin-conference/).
 
@@ -1293,7 +1295,7 @@ El año 2011 también fue un año donde la cobertura mediática se expandió sig
 
 Primero, los videos sobre el tema comenzaron a proliferar en Youtube. El 22 de marzo, el primer video de alta calidad sobre Bitcoin hizo su aparición. Este video, simplemente titulado "¿Qué es Bitcoin?", fue producido por Stefan Thomas (justmoon) gracias a [crowdfunding](https://bitcointalk.org/index.php?topic=697.msg70001#msg70001) de la comunidad. Fue publicado en el portal WeUseCoins dedicado a la educación y popularización de la criptomoneda. Otros videos de introducción producidos de manera independiente siguieron, como [el de howtovanish](https://www.youtube.com/watch?v=LSLByqTusaQ) en abril, [el de Reason](https://www.youtube.com/watch?v=yYTqvYqXRbY), o [el de Rocketboom](https://www.youtube.com/watch?v=9LaSrxtWfgc) en junio.
 
-![¿Qué es Bitcoin?](https://www.youtube.com/watch?v=Um63OQz3bjo)
+:::video id=6147a351-da80-4331-9d79-d3156889ac62:::
 En abril, el tema de la moneda digital fue cubierto por importantes medios de prensa generalistas como [The Atlantic](https://www.theatlantic.com/business/archive/2011/04/how-to-start-your-own-private-currency/73327/), [Time Magazine](https://techland.time.com/2011/04/16/online-cash-bitcoin-could-challenge-governments/), y [Forbes](https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html). En mayo, el movimiento ganó impulso, y Bitcoin fue mencionado casi en todas partes, notablemente en [Wired UK](https://web.archive.org/web/20110517122859/http://www.wired.co.uk/news/archive/2011-05/16/bitcoin-p2p-currency), en [Slate](https://slate.com/business/2011/05/bitcoin-why-the-new-electronic-currency-is-a-favorite-of-libertarian-hipsters-and-criminals.html), en [Gizmodo](https://gizmodo.com/what-is-bitcoin-5803124), y en [TechCrunch](https://techcrunch.com/2011/05/20/bitcoin-ven-and-the-end-of-currency/).
 ![Gavin Andresen en Forbes en abril de 2011](assets/en/68.webp)
 Gavin Andresen en Forbes en abril de 2011 (fuente: [archivo de Forbes](https://web.archive.org/web/20110502052302/https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html))
@@ -1326,7 +1328,7 @@ En segundo lugar, Bitcoin no se construyó en un día. Incluso después del lanz
 En tercer lugar, Bitcoin creció orgánicamente. Fue capaz de desarrollarse discretamente, atrayendo a las personas gradualmente. Durante casi un año y medio, fue un proyecto muy confidencial, conocido por los entusiastas y los curiosos. Solo después del slashdotting de julio de 2010 comenzó a explotar. La fiebre especulativa sobre él no se instaló realmente hasta 2011, cuando el precio aumentó exponencialmente a $32.
 En cuarto lugar, Bitcoin fue una creación altruista. Satoshi Nakamoto ofreció Bitcoin al mundo. Lanzó el programa bajo una licencia gratuita. No buscó fama, ganancias, ni poder. Aseguró la seguridad de minería de la red por más de un año, sin pedir ninguna compensación. Aunque acumuló más de un millón de bitcoins, nunca los gastó. Finalmente desapareció, principalmente debido a temores relacionados con la atención generada por el caso de WikiLeaks, dejando el proyecto en manos de una comunidad, sin una figura dominante única.
 En 2011, Satoshi desapareció, pero Bitcoin sobrevivió. La criptomoneda incluso despegó definitivamente, tanto desde un punto de vista mediático como económico. La máquina se puso en marcha y nadie podía detenerla.
-# Conclusión
+# Sección final
 <partId>89532d9b-af1f-49f3-b87a-b11987e303d5</partId>
 ## Reseñas & Valoraciones
 <chapterId>8f27cc89-8759-4a4f-aff2-c1d3d9ecf14e</chapterId>

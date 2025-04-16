@@ -26,7 +26,32 @@ Join Damien Theillier in this enriching exploration of Frédéric Bastiat's thou
 
 <partId>e4a0cf13-2fc5-5ced-a528-ace3f9029f22</partId>
 
-## Course Introduction
+## Course Overview
+<chapterId>aa493f46-2d3a-4b76-ad79-ed44113a97f4</chapterId>
+
+The goal of this course is to provide you with a deep understanding of the life, intellectual influences, ideological opponents, and economic theories of Frédéric Bastiat. Through this structured journey, you will discover how his ideas have shaped economic thought and continue to influence current debates.
+
+**Section 1: Introduction**  
+We will start with a general overview of Frédéric Bastiat, an underrated genius of economics. You will learn about his life, intellectual journey, and the historical context in which he developed his thinking. Understanding this context is essential to fully grasp the scope of his writings and theories.
+
+**Section 2: Influences**  
+We will proceed with analyzing the thinkers who shaped Frédéric Bastiat’s economic thought. You will learn how major figures such as Adam Smith, Jean-Baptiste Say, Antoine Destutt de Tracy, Charles Comte, Charles Dunoyer, and Richard Cobden contributed to his intellectual development, laying the foundations for his reflection on free trade and market economics.
+
+**Section 3: Opponents**  
+Next, we will explore Bastiat’s criticisms of his ideological opponents. Whether it be Rousseau, classical education, protectionism, socialism, or Proudhon, you will understand why Bastiat considered these doctrines as obstacles to economic and social progress, and how he responded to their arguments with sharp logic.
+
+**Section 4: Economic Fallacies**  
+This section is dedicated to the economic fallacies exposed by Bastiat, including the famous "*What Is Seen and What Is Not Seen*" and "*The Candlemakers' Petition*". We will examine how he skillfully demonstrated, through satire and rigorous analysis, the common economic errors of his time, which remain relevant today.
+
+**Section 5: Economic Harmonies**  
+Here, you will discover Bastiat’s positive vision of the economy. We will address concepts such as the miracle of the market, the power of individual responsibility, and the distinction between true and false solidarity. Bastiat viewed the economy as a coherent system where well-understood self-interest benefits the common good. We will explore why.
+
+**Section 6: The Law**  
+To conclude this course, we will delve into Bastiat’s major work, "*The Law*", where he presents his reflections on property rights, legal plunder, and the limited role of the state. You will understand why this essay is considered one of the most compelling manifestos in favor of individual freedom and market economy.
+
+Ready to discover how Frédéric Bastiat’s ideas still resonate today? Join us on this intellectual journey that could challenge your understanding of economics!
+
+## Bastiat: An Underrated Genius
 
 <chapterId>7f21b617-9810-5484-ad1c-befc61432126</chapterId>
 
@@ -1126,7 +1151,7 @@ If we look at things from this angle, Reagan explained to GE employees, the so-c
 ![image](assets/en/138.webp)
 In essence, Reagan took from Bastiat several key elements of a liberal vision of society and man: the primacy of civil society over the State, the value of choice and individual responsibility, the importance of the entrepreneur in wealth creation, the importance of a flexible and minimal legal framework, which allows for trust and respect for contracts, the fundamental law that wealth must be created before it can be distributed, the desire to give everyone a chance in competitive markets…
 
-# Conclusion
+# Final Section
 
 <partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
 

@@ -1,0 +1,11 @@
+question: Jaka jest główna cecha Wallet typu "zrób to sam"?
+answer: Jest to rozwiązanie w 100% open source, które można stworzyć w domu, aby zmniejszyć ryzyko zaufania do innych podmiotów w łańcuchu produkcji lub tworzenia
+wrong_answers:
+  - Jest to urządzenie sprzętowe do przechowywania bitcoinów
+  - Jest to oprogramowanie dla bitcoinów Mining
+  - Jest to platforma do kupowania i sprzedawania bitcoinów
+explanation: |
+  Treść rozdziału wyjaśnia, że portfele DIY (Do It Yourself) są w 100%
+  open source, które mogą być tworzone w domu, aby zmniejszyć ryzyko zaufania do
+  innych podmiotów w łańcuchu produkcji lub tworzenia.
+reviewed: false

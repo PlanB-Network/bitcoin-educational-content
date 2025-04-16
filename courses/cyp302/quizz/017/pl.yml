@@ -1,0 +1,9 @@
+question: Jaka jest różnica między dyskretną zmienną losową a zmienną ciągłą?
+answer: Zmienna dyskretna ma skończoną liczbę możliwych wyników, podczas gdy zmienna ciągła może przyjmować nieskończoną liczbę wartości w przedziale.
+wrong_answers:
+  - Zmienna dyskretna stale zmienia wartość, podczas gdy zmienna ciągła pozostaje stabilna.
+  - Zmienna dyskretna jest specyficzna dla przeprowadzanych eksperymentów fizycznych, zmienna ciągła jest abstrakcyjna w swoim przedziale.
+  - Zmienne dyskretne nie istnieją w nowoczesnej kryptografii, używane są tylko zmienne ciągłe.
+explanation: |
+  Zmienne dyskretne mają skończony zbiór wyników, podczas gdy zmienne ciągłe mogą przyjmować dowolną wartość w przedziale, takim jak liczby rzeczywiste od 0 do 1.
+reviewed: false

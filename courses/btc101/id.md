@@ -21,17 +21,17 @@ Anda tidak memerlukan pengetahuan khusus untuk memulai. Bahkan, konten berikut i
 
 <partId>3cd2ac82-026c-53e1-874a-baf5842adc6d</partId>
 
-## Sebuah Lompatan ke Hal yang Tidak Diketahui
+## Ikhtisar Kursus
 
 <chapterId>27e3fb60-4b50-556b-9e70-c4f5475c121d</chapterId>
 
-### Selamat datang di paradigma moneter dan teknologi yang baru.
+Selamat datang di kursus BTC101!
 
 Bitcoin adalah revolusi teknologi dan moneter, yang mampu membuat kita mempertanyakan hubungan kita dengan uang dan masyarakat. Faktanya, Bitcoin (disebut sebagai BTC) adalah mata uang yang **netral** dan **terdesentralisasi**, yang berarti tidak dikontrol oleh entitas atau institusi mana pun. Ini adalah sebuah inovasi yang lebih dari sekadar "mata uang internet": Bitcoin adalah protokol komputer (Bitcoin) dan unit moneter (bitcoin).
 
 Protokol ini menggunakan teknologi dasar seperti kriptografi, komunikasi jaringan, dan "blockchain" yang terkenal, sementara unit bitcoin berfungsi sebagai mata uang yang diperlukan untuk berfungsinya protokol ini. Dalam kehidupan sehari-hari, warga El Salvador dan para pengguna bitcoin di seluruh dunia menggunakan mata uang bitcoin untuk membeli dan menjual barang dan jasa, dengan mengandalkan teknologi ini untuk membuat hidup mereka lebih baik.
 
-### Kurikulum yang komprehensif namun mudah diakses
+**Sebuah kurikulum yang lengkap namun mudah diakses:**
 
 Dalam kursus ini, kita akan membahas beberapa aspek moneter Bitcoin, termasuk cara membeli dan menjual bitcoin, menyimpannya dengan aman di dompet digital, dan menggunakannya untuk bertransaksi. Kita juga akan membahas peran para penambang, yang sangat penting untuk menciptakan bitcoin baru dan mengamankan jaringan Bitcoin. Terakhir, kita akan mengeksplorasi masa depan Bitcoin dan bagaimana teknologi Lightning Network dapat meningkatkan transaksi Bitcoin.
 
@@ -39,38 +39,39 @@ Dalam kursus ini, kita akan membahas beberapa aspek moneter Bitcoin, termasuk ca
 
 Sangat penting untuk memahami bahwa Bitcoin adalah sistem moneter baru yang sepenuhnya mengubah hubungan kita dengan uang, jadi mempelajari cara menggunakannya adalah keterampilan yang diperlukan bagi siapa saja yang ingin mengendalikan dana mereka sendiri.
 
-**Bagian 1 - Uang**
+**Bagian 1 - Pendahuluan**  
+- Bab 1 - Ikhtisar Kursus  
+- Bab 2 - Prasejarah Bitcoin  
 
-- Bab 1 - Apakah uang itu?
-- Bab 2 - Uang Fiat
-- Bab 3 - Hiperinflasi
-- Bab 4 - Kebijakan moneter Bitcoin
+**Bagian 2 - Uang**  
+- Bab 3 - Uang Sepanjang Sejarah  
+- Bab 4 - Mata Uang Fiat  
+- Bab 5 - Hiperinflasi  
+- Bab 6 - 21 Juta Bitcoin  
 
-**Bagian 2 - Dompet Bitcoin**
+**Bagian 3 - Dompet Bitcoin**  
+- Bab 7 - Apa itu Dompet Bitcoin?  
+- Bab 8 - Dompet Bitcoin dan Keamanan  
+- Bab 9 - Menyiapkan Dompet  
+- Bab 10 - Melewati Ujian Waktu  
 
-- Bab 5 - Bagaimana cara kerja dompet Bitcoin?
-- Bab 6 - Memilih keamanan Anda
-- Bab 7 - Menyiapkan dompet Anda
-- Bab 8 - Melindungi dari waktu ke waktu
+**Bagian 4 - Aspek Teknis Bitcoin**  
+- Bab 11 - Peluncuran Bitcoin  
+- Bab 12 - Transaksi Bitcoin  
+- Bab 13 - Node Bitcoin  
+- Bab 14 - Penambang  
+- Bab 15 - Bitcoin dan Ekologi  
 
-**Bagian 3 - Fitur teknis Bitcoin**
+**Bagian 5 - Bagaimana Mendapatkan Bitcoin?**  
+- Bab 16 - Bitcoin Tidak Pernah Tidur!  
+- Bab 17 - Mendapatkan Bitcoin dengan Bekerja  
+- Bab 18 - Menabung dengan Bitcoin  
+- Bab 19 - Hiperbitcoinisasi  
 
-- Bab 9 - Apa yang dimaksud dengan transaksi?
-- Bab 10 - Simpul Bitcoin
-- Bab 11 - Penambang
-- Bab 12 - Penambang dan ekologi
-
-**Bagian 4 - Menabung dalam Bitcoin**
-
-- Bab 13 - Harga Bitcoin
-- Bab 14 - Bagaimana cara membeli Bitcoin?
-- Bab 15 - Bekerja untuk Bitcoin
-- Bab 16 - Hiper-koinisasi
-
-**Bagian 5 - Jaringan Petir**
-
-- Bab 17 - Pengantar ke Jaringan Lightning
-- Bab 18 - Kasus penggunaan untuk Jaringan Lightning
+**Bagian 6 - Masa Depan Bitcoin: Lightning Network**  
+- Bab 20 - Pengantar Singkat tentang Lightning Network  
+- Bab 21 - Kasus Penggunaan Lightning Network  
+- Bab 22 - Pil Merah atau Pil Biru?  
 
 Sebelum memperkenalkan definisi uang dan fungsinya dalam masyarakat (Bab 1), kita harus mulai dari asal mula Bitcoin. Diluncurkan pada tahun 2009, Bitcoin merupakan teknologi yang relatif baru dan berbeda dengan yang lainnya. Oleh karena itu, wajar jika kita tidak dapat memahami segala sesuatu tentang Bitcoin sekaligus. Faktanya, seperti halnya ketika mempelajari cara menggunakan Internet atau mengendarai mobil, Anda tidak perlu langsung mengetahui semua detail teknisnya: Anda bisa mulai dengan mempelajari cara menerima, membayar, dan mengamankan dana Anda, lalu mengambil langkah-langkah kecil untuk mempelajarinya lebih dalam.
 
@@ -79,6 +80,8 @@ Bagaimanapun, kita baru berada pada tahap awal pengadopsiannya, karena kita tela
 ![image](assets/en/02.webp)
 
 Poin penting di sini adalah untuk memahami teknologi baru ini secara umum, jadi kami harap Anda menikmati kursus ini dan terus membuat kemajuan dalam paradigma moneter global yang baru ini.
+
+Siap menyelami dunia Bitcoin yang menakjubkan dan memahami semua mekanismenya? Ayo mulai!
 
 ## Prasejarah Bitcoin
 
@@ -516,7 +519,7 @@ Untungnya, sejak tahun 2017, kunci pribadi dapat diwakili oleh sebuah daftar sed
 
 ### Bagaimana dengan peretas?
 
-Bagaimana jika seseorang secara tidak sengaja menebak daftar 12 atau 24 kata yang kita miliki? Jawaban singkatnya adalah hal ini sangat tidak mungkin terjadi, berkat kriptografi yang digunakan untuk membuat dompet. Sebagai gambaran, secara tidak sengaja menemukan frasa mnemonic yang sama sama halnya dengan menemukan angka yang "tepat" antara 1 dan $2^256$, yang hampir sama dengan menemukan atom yang "tepat" di alam semesta. Akan tetapi, jika Anda tidak puas dengan keamanan default ini, Anda dapat meningkatkannya dengan menambahkan kata sandi (sebuah kata tambahan) ke dalam dompet Bitcoin Anda.
+Bagaimana jika seseorang secara tidak sengaja menebak daftar 12 atau 24 kata yang kita miliki? Jawaban singkatnya adalah hal ini sangat tidak mungkin terjadi, berkat kriptografi yang digunakan untuk membuat dompet. Sebagai gambaran, secara tidak sengaja menemukan frasa mnemonic yang sama sama halnya dengan menemukan angka yang "tepat" antara 1 dan 2 pangkat 256, yang hampir sama dengan menemukan atom yang "tepat" di alam semesta. Akan tetapi, jika Anda tidak puas dengan keamanan default ini, Anda dapat meningkatkannya dengan menambahkan kata sandi (sebuah kata tambahan) ke dalam dompet Bitcoin Anda.
 
 ![image](assets/en/29.webp)
 
@@ -1132,6 +1135,8 @@ Strategi bertahap melibatkan pembelian berulang, yang berarti membeli sejumlah k
 
 **Waspadalah terhadap UTXO**: Ingatlah untuk menggabungkan UTXO Anda di dompet Anda dari waktu ke waktu. Praktik ini sangat penting untuk mengelola bitcoin Anda secara efektif dan menghindari biaya yang tidak perlu selama transaksi.
 
+[UTXO](https://planb.network/resources/glossary/utxo#:~:text=UTXO) (Unspent Transaction Output) adalah keluaran dari sebuah transaksi yang belum dibelanjakan, yang berarti bahwa itu tidak digunakan sebagai input untuk transaksi baru. Mengkonsolidasikan UTXO berarti menggabungkan beberapa UTXO kecil menjadi satu yang lebih besar, untuk mengurangi "berat" transaksi dan dengan demikian membayar biaya yang lebih rendah.
+
 - Pembelian spontan
 
 Solusi sekaligus bisa berupa pembelian spontan, yang digunakan untuk segera mendapatkan eksposur ke bitcoin. Entah itu membeli saat harga jatuh atau memanfaatkan bonus, keputusan ada di tangan Anda. Anda harus mengumpulkan keberanian dan menekan tombol beli.
@@ -1357,7 +1362,7 @@ Satoshi menciptakan Bitcoin pada tahun 2008 untuk mengusulkan perubahan sistem k
 
 Apakah Anda siap untuk bergabung?
 
-# Kesimpulan
+# Bagian Akhir
 
 <partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 

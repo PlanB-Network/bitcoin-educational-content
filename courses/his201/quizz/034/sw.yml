@@ -4,5 +4,6 @@ wrong_answers:
   - sirius-m
   - dwdollar
   - MoshiTooMuch
-  This service was rudimentary: exchanges were negotiated via email, and payments were made through PayPal. The exchange rate was based on the mining costs of NewLibertyStandard himself.
+explanation: |
+  Huduma hii ilikuwa ya kawaida: ubadilishanaji ulijadiliwa kupitia barua pepe, na malipo yalifanywa kupitia PayPal. Kiwango cha Exchange kilitokana na gharama za Mining za NewLibertyStandard mwenyewe.
 reviewed: false

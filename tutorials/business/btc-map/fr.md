@@ -60,25 +60,25 @@ Vous constaterez également, en haut à droite de chaque carte, un bouton pour m
 
 ![image](assets/fr/04.webp)
 
-La « Merchant Map » liste les établissements dans le monde acceptant les paiements en BTC. On observe peut voir différents types d’icône lesquels sont un premier indice sur la nature de l’établissement (une pinte pour un bar, un diamant pour une bijouterie...). 
+La « Merchant Map » liste les établissements dans le monde acceptant les paiements en BTC. On peut voir différents types d’icône lesquels sont un premier indice sur la nature de l’établissement (une pinte pour un bar, un diamant pour une bijouterie...). Je vais en prendre un au hasard.
 
-Considérons ce paysagiste texan :
+Considérons ce paysagiste texan, en cliquant dessus un encart apparait :
 
 ![image](assets/fr/05.webp)
 
-- Le nom en bleu de l'établissement
-- l'adresse ainsi que les horaires d'ouverture, si renseignés sur OSM
-- "Navigate" pour établir un itinéraire entre votre position et l'établissement
+- Le nom en bleu est celui de l'établissement
+- l'adresse ainsi que les horaires d'ouverture suivent juste en dessous, si renseignés sur OSM
+- "Navigate" peut établir un itinéraire entre votre position et l'établissement
 - "Edit" vous permettra de suggérer des modifications tenant à la fiche OSM (nécessite un compte OSM gratuit) à savoir le nom, les coordonnées, horaires etc
 - "Share" vous emmène sur une fiche élargie de l'établissement
 - "More" déroule les options suivantes :
 
 ![image](assets/fr/06.webp)
 
-- "Call" constitue sur téléphone un raccourci afin d'appeler l'établissement, si le numéro est renseigné sur la fiche OSM
-- "Website" vous emmène sur le site internet de l'établissement s'il est renseigné sur sa fiche OSM
+- "Call" constitue sur téléphone un raccourci afin d'appeler l'établissement
+- "Website" vous emmène sur le site internet de l'établissement
 - "Show Tags" affiche les éléments renseignés sur OSM sans déclencher d'hyperlien ou d'application
-- "Tag Issues" et "Map Legend" sont à cette heure des liens morts
+- "Tag Issues" et "Map Legend" sont actuellement des liens cassés
 - "View OSM" vous invite à ouvrir la position de l'établissement sur l'application OSM
 
 Enfin, 
@@ -180,7 +180,7 @@ Pour aller plus loin, vous retrouverez les différentes plateformes de réseaux 
 
 ![image](assets/fr/13.webp)
 
-
+Et voilà, nous avons vu ensemble les principales fonctionnalités du site. Vous allez désormais savoir où dépenser vos bitcoins grâce à BTC map!
   
 
 

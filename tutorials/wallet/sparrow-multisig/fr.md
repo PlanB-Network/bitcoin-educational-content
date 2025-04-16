@@ -28,10 +28,35 @@ https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb
 
 ## Prérequis
 
+Pour ce tutoriel, je vais vous montrer comment réaliser un multisig avec [le logiciel de gestion de portefeuille Sparrow Wallet](https://sparrowwallet.com/download/). Si vous n'avez pas encore installé ce logiciel, je vous invite à le faire dès maintenant. Si vous avez besoin d'aide, nous disposons également d'un tutoriel détaillé sur la configuration de Sparrow Wallet :
 
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
 
+Pour mettre en place un portefeuille multisignature, il vous faudra différents hardware wallets. Pour un multisig 2-de-3, par exemple, vous pourriez utiliser :
+- Un Trezor Model One ;
+- Un Ledger Flex ;
+- Un Coldcard Q.
+
+Il est judicieux d'utiliser des marques de hardware wallet différentes au sein de votre configuration multisig. Cela garantit que si un modèle spécifique rencontre un problème grave, cela n'affectera pas la sécurité globale de votre multisig. De plus, cela vous permet de profiter des avantages spécifiques de chaque appareil. Par exemple, dans ma configuration :
+
+- Le Trezor Model One est entièrement open-source, ce qui permet de vérifier la génération de la seed. Cependant, comme il n'est pas équipé d'un Secure Element, il reste vulnérable aux attaques physiques ;
+
+- Le Ledger Flex, à l'inverse, bénéficie d'un firmware propriétaire non vérifiable, mais il intègre un Secure Element qui offre une excellente protection physique ;
+
+- Le Coldcard est équipé d'un Secure Element et son code est consultable. Il est intéressant dans notre configuration, car il offre des fonctionnalités de vérification que les autres modèles ne proposent pas.
+
+Avant de procéder à la configuration de votre portefeuille multisig, assurez-vous que chaque hardware wallet est correctement configuré (génération et sauvegarde de la phrase mnémonique, définition du code PIN). Pour des instructions détaillées, vous pouvez consulter nos tutoriels pour chaque hardware wallet, par exemple :
+
+https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
+
+https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+
+https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+
+Comme nous allons le voir plus tard dans ce tutoriel, il est également possible d'intégrer dans votre configuration multisig un facteur qui n'est pas associé à un hardware wallet, mais dont les clés privées sont conservées sur votre PC. Cette méthode est évidemment moins sécurisée que l'utilisation exclusive de hardware wallets, mais elle peut être pertinente dans certains cas. Par exemple, pour un multisig 2-de-3, vous pourriez opter pour deux hardware wallets et un software wallet.
 
 ## Créer un portefeuille multisig
+
 
 
 

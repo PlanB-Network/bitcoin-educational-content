@@ -8,7 +8,7 @@ Tandis que beaucoup réduisent encore Bitcoin à un outil d'investissement et de
 
 S’appuyant sur OSM (OpenStreetMap), lui même un outil open-source de cartographie participative, BTC Map propose dans la plus grande simplicité de recenser les établissements qui acceptent les paiements en BTC, Lightning ou on-chain. Une base de donnée mondiale, encore naissante mais déjà essentielle, alimentée par et pour les bitcoiners.
 
-Rendez-vous sur btcmap.org :
+Rendez-vous sur [btcmap.org](https://btcmap.org/) :
 
 ![image](assets/fr/01.webp)
 
@@ -21,7 +21,7 @@ Disponible sur :
 
 Aujourd’hui nous resterons sur la version web. Elle est pour le moment intégralement en anglais, aussi allons-nous voir ensemble les différentes rubriques. J'ajoute que si un bouton ou un lien dysfonctionne, je vous conseille un clic droit -> ouvrir dans un autre onglet.
 
-Commençons. La petite icône de lune ou de soleil en haut à droite permet de basculer d’un thème clair à un thème sombre (attention, la lumière attire les insectes!)
+Commençons. La petite icône de lune ou de soleil en haut à droite permet de basculer d’un thème clair à un thème sombre.
 
 ![image](assets/fr/02.webp)
 
@@ -105,20 +105,21 @@ La « Community Map » vous propose de découvrir les différentes communauté
 
 On constate immédiatement des zones colorées en orange. Vous l'avez compris, il s'agit des différentes communautés Bitcoin recensées sur BTC Map. D'un clic gauche sur l'une d'entre elles, on peut voir un petit encart qui nous présentera tous les liens renseignés, tels que le site internet et les comptes sur différents réseaux sociaux. Qui sait, vous êtes peut-être sans le savoir en plein centre d'une communauté active de Bitcoiners, à quelques clics seulement de la rejoindre si le cœur vous en dit!
 
-## Apps
-Les supports sur lesquels BTC Map continue d’être développé.  
-  
-## Stats
+## Les autres onglets du site
+
+**Apps** : cette page vous rappelle les supports sur lesquels BTC Map est accessible.
+
+**Stats** vous propose plusieurs statistiques sur l'application :
 - Dashboard : statistiques sur l'alimentation de la base de donnée, comme le nombre de lieux répertoriés ou le nombre récent de vérifications apportées
 - Tagger Leaderboard : tableau des utilisateurs classés par volume de contribution (rejoignez les!)
 - Community Leaderboard : classement des communautés
 - Country Leaderboard : classement des pays
 
-## Areas (zones)
-- Communities : vous présente d'une façon alternative à la carte, les différentes communautés inscrites, le formulaire pour en inscrire une nouvelle, ainsi que quelques statistiques, le tout regroupé par continent
+**Areas (zones)** vous présente autrement que par des cartes certaines informations :
+- Communities : répertorie les différentes communautés inscrites, le formulaire pour en inscrire une nouvelle, ainsi que quelques statistiques, le tout regroupé par continent
 - Countries : quelques statistiques regroupées par pays vous indiquent le nombre d'établissements, de participants, les fiches à mettre à jour...
   
-## Maintain (entretenir)
+**Maintain (entretenir)**
 - Add Location : ajouter un établissement qui accepte les paiements en Bitcoin 
 - Verify Location : actualiser / corriger les informations sur un établissement déjà recensé
 - Add Community : ajouter une communauté (il y a une typo dans l'url, pour accéder au formulaire, passez par Areas -> Communities -> Add Community)
@@ -126,7 +127,14 @@ Les supports sur lesquels BTC Map continue d’être développé.
 - Tagging Activities : vous montre les dernières actions prises par les participants au projet (tout utilisateur comme vous ou moi peut être un participant) comme les derniers lieux ajoutés, mis à jour voire supprimés...  
 - Tagging Issues : ici sont répertoriées par les utilisateurs toutes les erreurs d'affichage (tag)
 
-### Pour "Add Community" (ajouter une communauté)
+**Wiki** : Ce lien vous emmène sur la page GitHub du projet.
+
+**Support Us** : Cette page vous indique comment faire un don (en sats) ou devenir sponsor du projet.
+
+### "Add Community" (ajouter une communauté)
+
+BTC Map vous permet d’ajouter un établissement acceptant le bitcoin. Voyons ensemble comment nous pouvons [ajouter soi-même une communauté](https://btcmap.org/communities/add/), étape par étape :
+
 
 ![image](assets/fr/10.webp)
 
@@ -140,8 +148,9 @@ Les supports sur lesquels BTC Map continue d’être développé.
 - 8 renseignez le captcha (attention aux majuscules minuscules)
 - 9 cliquez sur "Submit Community" afin de transmettre le formulaire
 
-### Pour "Add Location" (ajouter un établissement)
-La page vous montre comment ajouter vous-même la fiche d'un établissement en passant par Open Street Map. Si jamais vous éprouvez des difficultés, un formulaire est proposé pour que vous transmettiez toutes les infos, que quelqu'un puisse créer la fiche pour vous (cela peut prendre plusieurs semaines car ce sera réalisé par un volontaire). Regardons ça ensemble :
+### "Add Location" (ajouter un établissement)
+
+[Cette page](https://btcmap.org/add-location/) vous montre comment ajouter vous-même la fiche d'un établissement en passant par Open Street Map. Si jamais vous éprouvez des difficultés, un formulaire est proposé pour que vous transmettiez toutes les infos, de sorte que quelqu'un puisse créer la fiche pour vous (cela peut prendre plusieurs semaines). Regardons ça ensemble :
 
 ![image](assets/fr/11.webp)
 
@@ -166,13 +175,7 @@ La page vous montre comment ajouter vous-même la fiche d'un établissement en p
 - 13 vérification captcha (attention aux majuscules minuscules)
 - 14 cliquez sur "Submit Location" afin d'envoyer votre fiche
 
-## "Wiki" 
-Ce lien vous emmène sur la page GitHub du projet
-
-## Support Us 
-Cette page vous indique comment faire un don (en sats) ou devenir sponsor du projet
-
-En bas de page, plusieurs onglets peuvent également vous intéresser si la langue de Shakespeare ne constitue pour vous un obstacle. Le manifeste des cypherpunks par Eric Hughes, publié le 9 mars 1993, ou encore le livre blanc de Satoshi Nakamoto oublié le 31 octobre 2008, sont présents.
+En bas de page, plusieurs onglets peuvent également vous intéresser si la langue de Shakespeare ne constitue pas pour vous un obstacle. Le manifeste des cypherpunks par Eric Hughes, publié le 9 mars 1993, ou encore le livre blanc de Satoshi Nakamoto publié le 31 octobre 2008, sont présents.
 Pour aller plus loin, vous retrouverez les différentes plateformes de réseaux associées à BTC Map.
 
 ![image](assets/fr/13.webp)

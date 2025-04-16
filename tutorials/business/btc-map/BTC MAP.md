@@ -9,13 +9,13 @@ Disponible sur :
 - en téléchargeant directement l’apk android sur le github du projet
 - via l’appli web depuis votre navigateur
 
-	![[Pasted image 20250415174630.png]]
+	![[platforms.png]]
 
 Nous nous concentrerons aujourd’hui sur la version web. Elle est pour le moment intégralement en anglais, aussi allons-nous voir ensemble les différentes rubriques. J'ajoute que si un bouton ou un lien dysfonctionne, je vous conseille un clic droit -> ouvrir dans un autre onglet.
 
 Commençons. La petite icône de lune ou de soleil en haut à droite permet de basculer d’un thème clair à un thème sombre (attention, la lumière attire les insectes!)
 
-![[Pasted image 20250415175437.png]]
+![[web app tabs.png]]
 Les différents onglets en haut du site, de gauche à droite :
 - le logo BTC Map : revenir à la page d’accueil 
 - « Maps » : le cœur du produit, avec les deux cartes (établissements et communautés)
@@ -49,13 +49,13 @@ Vous constaterez également, en haut à droite de chaque carte, un bouton pour m
 
 ----- MERCHANT MAP -----
 
-![[{6BB2B7AE-525E-43A0-A14D-224BD6EB9014}.png]]
+![[merchant map.png]]
 
 La « Merchant Map » liste les établissements dans le monde acceptant les paiements en BTC. On observe peut voir différents types d’icône lesquels sont un premier indice sur la nature de l’établissement (une pinte pour un bar, un diamant pour une bijouterie...). 
 
 Considérons ce paysagiste texan :
 
-![[{8C809854-456E-42D2-800E-C87B4CC6FB14}.png]]
+![[one merchant.png]]
 
 - Le nom en bleu de l'établissement
 - l'adresse ainsi que les horaires d'ouverture, si renseignés sur OSM
@@ -63,7 +63,7 @@ Considérons ce paysagiste texan :
 - "Edit" vous permettra de suggérer des modifications tenant à la fiche OSM (nécessite un compte OSM gratuit) à savoir le nom, les coordonnées, horaires etc
 - "Share" vous emmène sur une fiche élargie de l'établissement
 - "More" déroule les options suivantes :
-![[{1EE567EE-E34E-4773-A1BC-E936E628E6CE}.png]]
+![[more developped.png]]
 - "Call" constitue sur téléphone un raccourci afin d'appeler l'établissement, si le numéro est renseigné sur la fiche OSM
 - "Website" vous emmène sur le site internet de l'établissement s'il est renseigné sur sa fiche OSM
 - "Show Tags" affiche les éléments renseignés sur OSM sans déclencher d'hyperlien ou d'application
@@ -85,11 +85,11 @@ Enfin,
 
 ----- COMMUNITY MAP -----
 
-![[{BC3001D6-90B4-4429-B14F-3A3E9F60BA01}.png]]
+![[commu map.png]]
 
 La « Community Map » vous propose de découvrir les différentes communautés Bitcoin de par le monde, en les répartissant et en les présentant de façon géographique. 
 
-![[{47EF3BCF-AB98-4D01-8583-276A58080834}.png]]
+![[one commu.png]]
 On constate immédiatement des zones colorées en orange. Vous l'avez compris, il s'agit des différentes communautés Bitcoin recensées sur BTC Map. D'un clic gauche sur l'une d'entre elles, on peut voir un petit encart qui nous présentera tous les liens renseignés, tels que le site internet et les comptes sur différents réseaux sociaux. Qui sait, vous êtes peut-être sans le savoir en plein centre d'une communauté active de Bitcoiners, à quelques clics seulement de la rejoindre si le cœur vous en dit!
 
 "Apps" : les supports sur lesquels BTC Map continue d’être développé.  
@@ -157,7 +157,7 @@ La page vous montre comment ajouter vous-même la fiche d'un établissement en p
 En bas de page, plusieurs onglets peuvent également vous intéresser si la langue de Shakespeare ne constitue pour vous un obstacle. Le manifeste des cypherpunks par Eric Hughes, publié le 9 mars 1993, ou encore le livre blanc de Satoshi Nakamoto oublié le 31 octobre 2008, sont présents.
 Pour aller plus loin, vous retrouverez les différentes plateformes de réseaux associées à BTC Map.
 
-![[{73FAD54B-3630-4523-87EB-3671BB6EEF70}.png]]
+![[social networks.png]]
 
 
   

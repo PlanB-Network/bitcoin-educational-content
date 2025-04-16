@@ -112,7 +112,7 @@ Les supports sur lesquels BTC Map continue d’être développé.
 - Countries : quelques statistiques regroupées par pays vous indiquent le nombre d'établissements, de participants, les fiches à mettre à jour...
   
 ## Maintain (entretenir)
-- Add Location : ajouter votre établissement afin que le monde sachez que vous acceptez Bitcoin 
+- Add Location : ajouter un établissement qui accepte les paiements en Bitcoin 
 - Verify Location : actualiser / corriger les informations sur un établissement déjà recensé
 - Add Community : ajouter une communauté (il y a une typo dans l'url, pour accéder au formulaire, passez par Areas -> Communities -> Add Community)
 - Open Tickets : ici atterrissent les formulaires de demande d'ajout, de vérification, lieux et communautés, afin que des volontaires puissent les traiter

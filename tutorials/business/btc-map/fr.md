@@ -39,15 +39,15 @@ Le site vous propose deux cartes aux objectifs différents. Mais commençons par
 
    ![image](assets/fr/03.webp)
 
-1 zoomer
-2 dézoomer
-3 grand écran
-4 me localiser (si votre navigateur en a la permission)
-5 (merchant map) rechercher un établissement par nom
-6 (merchant map) n'afficher que les établissements boostés
-7 revenir à la page d'accueil
-8 (merchant map) ajouter un établissement
-9 basculer de la carte "Community" à la carte "Merchant" et vice versa 
+- 1 zoomer
+- 2 dézoomer
+- 3 grand écran
+- 4 me localiser (si votre navigateur en a la permission)
+- 5 (merchant map) rechercher un établissement par nom
+- 6 (merchant map) n'afficher que les établissements boostés
+- 7 revenir à la page d'accueil
+- 8 (merchant map) ajouter un établissement
+- 9 basculer de la carte "Community" à la carte "Merchant" et vice versa 
 
 *note : Les établissements boostés sont ceux ayant reçu le pourboire d’un visiteur ou d’un utilisateur satisfait, leur assurant pour un temps une visibilité améliorée*
 

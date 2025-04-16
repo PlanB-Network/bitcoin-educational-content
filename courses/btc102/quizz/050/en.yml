@@ -1,9 +1,9 @@
-question: Which solution is recommended for low-cost bitcoin spending?
-answer: The Lightning Network
+question: What solution is recommended for making low-cost Bitcoin payments?
+answer: Lightning Network
 wrong_answers:
-  - The Hardware Wallet
-  - The bank account
-  - RGB overlay
+  - Hardware wallet
+  - Bank account
+  - RGB layer
 explanation: |
-  Lightning offers fast, low-cost transactions for everyday purchases. It's the ideal tool for the active user.
+  Lightning enables fast and low-cost transactions for daily purchases. It is the ideal tool for the active user.
 reviewed: false

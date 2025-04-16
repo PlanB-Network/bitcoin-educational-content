@@ -1,9 +1,9 @@
-question: What acquisition strategy can a hybrid Hodler adopt?
+question: What acquisition strategy can be adopted by a hybrid hodler?
 answer: Dollar-Cost Averaging
 wrong_answers:
   - Algorithmic trading
-  - Arbitration
+  - Arbitrage
   - Hacking
 explanation: |
-  Dollar-Cost Averaging allows you to buy bitcoins on a regular basis, smoothing out the purchase price over the long term. The hodler can mix this strategy with occasional purchases.
+  Dollar-Cost Averaging allows for regular bitcoin purchases to smooth out the average purchase price over time. The hodler may combine this with occasional lump-sum buys.
 reviewed: false

@@ -1,9 +1,9 @@
-question: Which storage solution is best for a hodler?
-answer: A Hardware Wallet
+question: What storage solution is recommended for a hodler?
+answer: A hardware wallet
 wrong_answers:
-  - One Hot Wallet
+  - A hot wallet
   - A custodial service
-  - Wallet paper
+  - A paper wallet
 explanation: |
-  The hodler, who keeps his bitcoins for the long term, must use a Hardware Wallet to maximize security.
+  A hodler, who holds bitcoins for the long term, should use a hardware wallet to maximize security.
 reviewed: false

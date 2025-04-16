@@ -1,9 +1,9 @@
-question: Why is online security so important for Bitcoin users?
-answer: Because piracy leads to irrecoverable loss of bitcoins
+question: Why is online security crucial for Bitcoin users?
+answer: Because hacking results in the irreversible loss of bitcoins
 wrong_answers:
-  - Because banks insure funds in the event of total loss of bitcoins
-  - Because you can go to jail for losing bitcoins
-  - Because attacks entail very heavy administrative constraints
+  - Because banks insure funds in case of total bitcoin loss
+  - Because one can go to jail for losing bitcoins
+  - Because attacks lead to very heavy administrative burdens
 explanation: |
-  Without an intermediary, a hack means a definitive loss of bitcoins.
+  Without intermediaries, a hack means a definitive loss of bitcoins.
 reviewed: false

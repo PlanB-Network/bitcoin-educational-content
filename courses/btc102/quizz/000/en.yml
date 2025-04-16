@@ -1,9 +1,9 @@
 question: What are the typical characteristics of a Ponzi scheme in the crypto ecosystem?
-answer: Guaranteed returns, difficult withdrawals and sponsorships
+answer: Guaranteed returns, difficult withdrawals, and referrals
 wrong_answers:
-  - Low yields, difficult withdrawals and total transparency
-  - Guaranteed returns, difficult withdrawals and no sponsorship
-  - Guaranteed returns, easy withdrawals and no referrals
+  - Low returns, difficult withdrawals, and full transparency
+  - Guaranteed returns, difficult withdrawals, and no referral system
+  - Guaranteed returns, easy withdrawals, and no referral system
 explanation: |
-  These characteristics could indicate a pyramid scheme. If you observe them in a project, be very careful.
+  These characteristics may indicate a pyramid scheme. If you observe them in a project, be very cautious.
 reviewed: false

@@ -1,9 +1,9 @@
-question: Which system enables fast, low-cost transactions on Bitcoin?
+question: Which system enables fast and low-cost transactions on Bitcoin?
 answer: Lightning Network
 wrong_answers:
   - SegWit
   - Ripple Network
   - RGB
 explanation: |
-  Lightning Network is a second-layer solution to enable fast-settling transacitons and reduce the cost of BTC transactions.
+  The Lightning Network is a second-layer solution that allows for fast settlement and reduces the cost of BTC transactions.
 reviewed: false

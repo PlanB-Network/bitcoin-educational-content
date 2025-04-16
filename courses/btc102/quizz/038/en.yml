@@ -1,9 +1,9 @@
-question: Which profile favors KYC-free acquisition and the use of highly secure portfolios?
+question: Which profile favors non-KYC acquisition and the use of highly secure wallets?
 answer: The paranoid
 wrong_answers:
-  - The Hodler
+  - The hodler
   - The stacker
   - The active user
 explanation: |
-  The paranoid puts privacy and security first, using highly secure methods of acquisition and storage.
+  The paranoid prioritizes privacy and security, using highly secure acquisition and storage methods.
 reviewed: false

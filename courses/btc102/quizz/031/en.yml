@@ -5,5 +5,5 @@ wrong_answers:
   - Jupiter and Fantom
   - Bitcoin Cash and Bitcoin Satoshi Vision
 explanation: |
-  Liquid and RSK are sidechains that have a 2-way peg with Bitcoin. The other proposals are either not sidechains, or have no 2WP with Blockchain Bitcoin.
+  Liquid and RSK are sidechains that have a 2-way peg with Bitcoin. The other options are not sidechains, or do not have a 2WP with the Bitcoin blockchain.
 reviewed: false

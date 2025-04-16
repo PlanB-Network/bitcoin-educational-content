@@ -1,9 +1,9 @@
-question: What is NOT recommended when transmitting access to your bitcoins?
-answer: Give the mnemonic phrase to a person
+question: What is NOT recommended when passing on access to your bitcoins?
+answer: Giving the mnemonic phrase to one person
 wrong_answers:
-  - Distribute information among several people
-  - Use sealed opaque envelopes
-  - Writing a cover letter
+  - Splitting the information between multiple people
+  - Using sealed opaque envelopes
+  - Writing an explanatory letter
 explanation: |
-  Entrusting the mnemonic to a single person without additional security considerably increases the risk of theft during your lifetime.
+  Entrusting the mnemonic phrase to a single person without additional security greatly increases the risk of theft during your lifetime.
 reviewed: false

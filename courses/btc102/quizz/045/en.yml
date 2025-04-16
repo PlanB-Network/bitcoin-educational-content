@@ -1,9 +1,9 @@
-question: Why is it advisable to regularly transfer funds from a Hot Wallet to a Hardware Wallet?
-answer: To reduce the risk of piracy
+question: Why is it recommended to regularly transfer funds from a hot wallet to a hardware wallet?
+answer: To reduce the risk of hacking
 wrong_answers:
-  - To increase portfolio liquidity
-  - To reduce transaction costs
-  - To optimize UTXO confidentiality
+  - To increase wallet liquidity
+  - To reduce transaction fees
+  - To optimize UTXO privacy
 explanation: |
-  Transferring to a Hardware Wallet secures funds by storing private keys offline.
+  Transferring to a hardware wallet secures the funds by storing private keys offline.
 reviewed: false

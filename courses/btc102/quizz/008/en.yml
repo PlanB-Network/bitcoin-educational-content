@@ -1,9 +1,9 @@
 question: Why is it essential to regularly update your system and software?
-answer: To correct known security vulnerabilities
+answer: To fix known security vulnerabilities
 wrong_answers:
   - To improve PC speed and thus respond more quickly to cyberattacks
-  - To add hacking functionalities
+  - To add hacking features
   - To optimize video game compatibility with Bitcoin
 explanation: |
-  Updates often correct known vulnerabilities that are exploited by hackers.
+  Updates often fix known vulnerabilities that are exploited by hackers.
 reviewed: false

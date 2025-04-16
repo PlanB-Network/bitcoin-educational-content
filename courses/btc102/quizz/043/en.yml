@@ -1,9 +1,9 @@
-question: What is the main purpose of a Hodler?
-answer: Keeping bitcoins for the long term
+question: What is the main goal of a hodler?
+answer: To hold their bitcoins over the long term
 wrong_answers:
-  - Short-term speculation
-  - Frequent bitcoin transactions
-  - Maximize the confidentiality of your Bitcoin transactions
+  - To speculate in the short term
+  - To make frequent bitcoin transactions
+  - To maximize the privacy of their Bitcoin transactions
 explanation: |
-  A hodler aims to hold his bitcoins for many years to benefit from the asset's supposed growth.
+  A hodler aims to keep their bitcoins for many years in order to benefit from the asset’s presumed growth.
 reviewed: false

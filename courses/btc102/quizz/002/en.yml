@@ -1,9 +1,9 @@
-question: What precautions should you take against donation scams and fraudulent lotteries?
+question: What precaution should be taken against donation scams and fraudulent lotteries?
 answer: Never send money to receive bitcoins
 wrong_answers:
   - Always send a small amount to test the offer
-  - Investing for fast, effortless returns
-  - Share personal information to secure the operation
+  - Invest to get a quick and effortless profit
+  - Share personal information to secure the transaction
 explanation: |
-  The request to send money in advance is a sign of scamming in this type of fraud.
+  The request for an upfront payment is a common sign of fraud in this type of scam.
 reviewed: false

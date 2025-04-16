@@ -1,9 +1,9 @@
-question: What is the term for the programmed division of the mining subsidy?
+question: What term refers to the programmed division of the mining subsidy?
 answer: Halving
 wrong_answers:
   - Fork
   - Bisection
   - Coinbase
 explanation: |
-  Halving corresponds to a halving of the mining subsidy for every 210,000 blocks.
+  Halving refers to the halving of the mining subsidy every 210,000 blocks.
 reviewed: false

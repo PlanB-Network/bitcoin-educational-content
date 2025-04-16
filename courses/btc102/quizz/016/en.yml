@@ -1,9 +1,9 @@
-question: How many decimal places is a Bitcoin divisible to?
+question: Up to how many decimal places can a bitcoin be divided?
 answer: Eight
 wrong_answers:
   - Six
   - Twelve
   - Seven
 explanation: |
-  A Bitcoin is divided to the eighth decimal place, one unit being called the Satoshi or sat.
+  A bitcoin can be divided down to the eighth decimal place, with one unit called a satoshi or sat.
 reviewed: false

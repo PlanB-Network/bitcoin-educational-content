@@ -1,9 +1,9 @@
-question: Approximately what is the maximum number of bitcoins in circulation?
+question: What is the approximate maximum supply of bitcoins in circulation?
 answer: 21 million
 wrong_answers:
   - 10 million
   - 47 million
   - 150 million
 explanation: |
-  Bitcoin is programmed to have a limited issue of around 21 million bitcoins.
+  Bitcoin is programmed to have a limited supply of approximately 21 million bitcoins.
 reviewed: false

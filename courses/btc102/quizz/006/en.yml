@@ -1,9 +1,9 @@
-question: What's the main advantage of using a password manager?
-answer: Stores and generates complex passwords
+question: What is the main advantage of using a password manager?
+answer: It stores and generates complex passwords
 wrong_answers:
-  - He gives hints on how to remember your passwords
-  - It reuses the same passwords between different online accounts
-  - Replaces the need for antivirus software
+  - It provides hints to remember your passwords
+  - It reuses the same passwords across different online accounts
+  - It replaces the need for antivirus software
 explanation: |
-  The manager creates strong passwords and stores them securely, making them easy to retrieve without the need to memorize them.
+  The password manager creates strong passwords and stores them securely, allowing easy retrieval without the need to memorize them.
 reviewed: false

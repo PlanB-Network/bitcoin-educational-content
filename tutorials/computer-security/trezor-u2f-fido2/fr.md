@@ -1,6 +1,6 @@
 ---
 name: Trezor U2F & FIDO2
-description: Renforcer sa sécurité numérique avec Trezor
+description: Renforcer sa sécurité en ligne avec Trezor
 ---
 ![cover](assets/cover.webp)
 

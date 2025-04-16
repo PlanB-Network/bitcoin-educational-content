@@ -168,9 +168,9 @@ BTC Map vous permet d’ajouter un établissement acceptant le bitcoin. Voyons e
 - 9 le compte X (twitter) de l'établissement, puis le votre (facultatif)
 - 10 tout détail que vous jugez judicieux
 - 11 votre rôle 
-- "I am the business owner" : Je suis le gérant de l'établissement
-- "I visited as a customer" : J'ai rendu visite à cet établissement en tant que client
-- "other method" : autre
+	 - "I am the business owner" : Je suis le gérant de l'établissement
+	 - "I visited as a customer" : J'ai rendu visite à cet établissement en tant que client
+	 - "other method" : autre
 - 12 votre courriel au cas où la plateforme souhaiterait de plus amples renseignements
 - 13 vérification captcha (attention aux majuscules minuscules)
 - 14 cliquez sur "Submit Location" afin d'envoyer votre fiche

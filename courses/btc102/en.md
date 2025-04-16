@@ -28,7 +28,8 @@ This course is designed to give you full control over how you learn, allowing yo
 
 <chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 
-Welcome to BTC102! If you've already completed BTC101, you've explored the key theoretical concepts behind why Bitcoin is such a revolutionary technology.Now, with BTC102, it's time to put that knowledge into action. This course is designed to help you build your personal Bitcoin plan, step by step. 
+Welcome to BTC102! If you've already completed BTC101, you've explored the key theoretical concepts behind why Bitcoin is such a revolutionary technology. Now, with BTC102, it's time to put that knowledge into action. This course is designed to help you build your personal Bitcoin plan, step by step.
+
 In the chapters ahead, we'll guide you through the practical steps to **get your first bitcoins**, **secure** them properly, and confidently take your first steps into this fast-growing ecosystem.
 
 https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
@@ -82,7 +83,6 @@ The Bitcoin ecosystem and its surrounding environment are still relatively young
 ### Bitcoin vs cryptos: understanding the differences
 
 Before going any further, it's important to clearly distinguish between two fundamentally different worlds:
-
 
 - **The Bitcoin ecosystem** is centered around the idea of sound money, built on strong decentralization, long-term resilience, privacy, and individual sovereignty. Since its launch in 2009, Bitcoin has operated reliably and securely, supported by a global, committed community of developers. It is not a passing trend, but a stable and well-established protocol designed to preserve value over time.
 
@@ -486,7 +486,7 @@ In some places, profits are taxed as capital gains upon selling. Others may requ
 
 ![BTC102-Bitcoin](assets/fr/018.webp)
 
-Before making any significant transactions, it's strongly recommended to consult a tax professional or review your government's official guidance. Taking time to understand your tax obligations in advance can save you from unexpected issues later(like fines, audits, or penalties) especially if you're planning large sales or portfolio reallocations.
+Before making any significant transactions, it's strongly recommended to consult a tax professional or review your government's official guidance. Taking time to understand your tax obligations in advance can save you from unexpected issues later (like fines, audits, or penalties) especially if you're planning large sales or portfolio reallocations.
 
 ![BTC102-Bitcoin](assets/fr/022.webp)
 
@@ -649,7 +649,7 @@ One of Bitcoin's most underrated strengths is its divisibility. Each bitcoin can
 
 #### A public protocol, verifiable by all
 
-Bitcoin runs on a public, **open-source** protocol(most notably through Bitcoin Core.(https://github.com/Bitcoin/Bitcoin)). This means its code is freely available for anyone to inspect, audit, and improve. There are no hidden mechanisms or closed systems; everything about how Bitcoin works is out in the open.
+Bitcoin runs on a public, **open-source** protocol(most notably through [Bitcoin Core](https://github.com/bitcoin/bitcoin)). This means its code is freely available for anyone to inspect, audit, and improve. There are no hidden mechanisms or closed systems; everything about how Bitcoin works is out in the open.
 This level of transparency makes it incredibly difficult to introduce backdoors or make secret changes. Anyone with the technical skills can run a node, contribute to development, or build compatible tools. In Bitcoin, trust is earned through code and consensus, not through centralized control.
 
 ![BTC102-Bitcoin](assets/fr/030.webp)
@@ -757,7 +757,7 @@ But in a world where the state can exercise full control over assets and transac
 
 - **Gold**, though it has served as a store of value for millennia, is hard to divide, inconvenient to transport, and impractical for use in urgent crisis situations.
 
--**Cash**, while anonymous, is bulky, easy to confiscate, and constantly losing value due to inflation.
+- **Cash**, while anonymous, is bulky, easy to confiscate, and constantly losing value due to inflation.
 
 But Bitcoin is more than just a practical tool. It is also **a peaceful form of protest**; a declaration of independence from a financial system based on arbitrary power, centralization, and systemic inequality. Choosing Bitcoin means rejecting manipulation, devaluation, and surveillance. It's about reclaiming your **sovereignty**, securing your future, and defending your right to control your own wealth.
 
@@ -922,14 +922,17 @@ Bitcoin, by its very nature, operates outside traditional frameworks. It doesn't
 
 ![BTC102-Bitcoin](assets/fr/052.webp)
 
-Since Bitcoin is a global network, countries have responded in vastly different ways.
+Since Bitcoin is a global network, countries have responded in vastly different ways:
+
 - **Some impose heavy restrictions**, like China, attempting to curb usage without ever truly stopping it.
--**SOme others offer more welcoming environments**, such as Switzerland or Canada, seeing Bitcoin as an opportunity rather than a threat.
+
+- **Some others offer more welcoming environments**, such as Switzerland or Canada, seeing Bitcoin as an opportunity rather than a threat.
+
 - **Most are still undecided**, experimenting with regulations while trying to balance innovation with oversight.
 
 ![BTC102-Bitcoin](assets/fr/056.webp)
 
-Governments and institutions often struggle to classify Bitcoin accurately(is it money, property, or something entirely new?). As a result, regulations tend to be reactive, inconsistent, and constantly evolving.If you're involved in Bitcoin, it's essential to stay informed about your local landscape; especially when it comes to taxes, banking access, and compliance rules.
+Governments and institutions often struggle to classify Bitcoin accurately(is it money, property, or something entirely new?). As a result, regulations tend to be reactive, inconsistent, and constantly evolving. If you're involved in Bitcoin, it's essential to stay informed about your local landscape; especially when it comes to taxes, banking access, and compliance rules.
 
 ### The Banks' Stance on Bitcoin
 
@@ -956,9 +959,9 @@ KYC platforms collect your personal information under the guise of security. Thi
 
 However, there are alternatives for acquiring bitcoins without submitting to KYC:
 
-- **P2P purchase platforms** such as **Bisq, Robosat, LNP2PBot, Peach, HODL HODL**, etc. ;
-- **Direct cash purchases**, for example at local Bitcoin meetups;
-- **Regulated purchase platforms without KYC**, which are rare but available in certain countries.;
+- P2P purchase platforms such as Bisq, Robosat, LNP2PBot, Peach, HODL HODL, etc. ;
+- Direct cash purchases, for example at local Bitcoin meetups;
+- Regulated purchase platforms without KYC, which are rare but available in certain countries.;
 - Bitcoin ATMs;
 - Working in exchange for bitcoins;
 - Mining bitcoins.
@@ -969,6 +972,7 @@ There are several types of platforms, each suited for specific uses:
 - **Peer-to-peer exchange platforms (P2P)**
 
 These platforms allow users to buy and sell bitcoins directly with each other, without a centralized intermediary. They offer greater privacy, especially because they operate without KYC. You can find local sellers with whom you can conduct in-person transactions or use various online payment methods (SEPA, Revolut, Wise, etc.).
+
 **Caution:** For any physical transaction, choose a public and secure location to avoid potential scams.
 
 https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
@@ -983,7 +987,7 @@ https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-429
 
 - **Bitcoin-only exchange platforms**
 
-These platforms take a user-friendly approach, offering a simple, transparent service. They are Bitcoin-only. They often implement solutions for purchasing bitcoins through **Dollar-Cost Averaging (DCA)** and offer automatic withdrawals to a personal wallet. They are particularly suited to beginners looking to accumulate bitcoins in a progressive and secure way. Examples: **Relai, Bull Bitcoin, StackinSat, Bitstack**...
+These platforms take a user-friendly approach, offering a simple, transparent service. They are Bitcoin-only. They often implement solutions for purchasing bitcoins through Dollar-Cost Averaging (DCA) and offer automatic withdrawals to a personal wallet. They are particularly suited to beginners looking to accumulate bitcoins in a progressive and secure way. Examples: Relai, Bull Bitcoin, StackinSat, Bitstack...
 
 https://planb.network/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
 
@@ -1027,8 +1031,8 @@ Each type of wallet offers a different balance of:
 
 The Bitcoin wallet industry is divided into several categories, each catering to different needs and levels of technical expertise:
 
-- **Hardware Wallet Manufacturers**: These companies develop physical devices designed for secure key storage. Some are open-source, while others offer proprietary solutions with varying features and levels of security. Notable names include **Ledger, Trezor, Coinkite, Foundation, and Shiftcrypto**.
-- **Software Wallet Developers**: These range from companies to independent developers creating mobile and desktop applications. Their offerings vary in user experience, security, and features. Examples include **Sparrow, Wizard Sardine, Galoy, Synonym, and Blockstream**.
+- **Hardware Wallet Manufacturers**: These companies develop physical devices designed for secure key storage. Some are open-source, while others offer proprietary solutions with varying features and levels of security. Notable names include Ledger, Trezor, Coinkite, Foundation, and Shiftcrypto.
+- **Software Wallet Developers**: These range from companies to independent developers creating mobile and desktop applications. Their offerings vary in user experience, security, and features. Examples include Sparrow, Wizard Sardine, Galoy, Synonym, and Blockstream.
 - **DIY (*Do It Yourself*) Wallets**:These open-source solutions are designed for advanced users who want full control and minimal reliance on third parties. Building your own wallet reduces trust dependencies and can increase your security posture. Notable DIY options include Seedsigner and Specter DIY.
 
 Wallets play a fundamental role in Bitcoin and will be explored in more depth later in this course.
@@ -1069,7 +1073,7 @@ Despite what some might believe, no one has unilateral control over Bitcoin; not
 ![BTC102-Bitcoin](assets/fr/055.webp)
 
 Even if a maintainer approved a controversial change, it wouldn't affect the network unless **nodes (run by users)** actually adopt and run that version. In the end, Bitcoin's code only matters if people choose to run it.
-It's also worth noting that **Bitcoin Core isn't the only client**. Alternatives like **Bitcoin Knots** implement the Bitcoin protocol too, giving users more choice and reinforcing the system's decentralization:
+It's also worth noting that **Bitcoin Core isn't the only client**. Alternatives like Bitcoin Knots implement the Bitcoin protocol too, giving users more choice and reinforcing the system's decentralization:
 
 https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
@@ -1293,7 +1297,7 @@ With Lightning support: Phoenix, Wallet of Satoshi, BitKit
 - Less secure: your keys are on a device connected to the internet, which increases risk of hacks.
 - Not suitable for storing large amounts over the long term.
 
-**Best for: Beginners, small balances, and frequent transactions.**
+Best for: Beginners, small balances, and frequent transactions.
 
 #### Hardware Wallets
 
@@ -1311,7 +1315,7 @@ Examples: Ledger, Trezor, Coldcard, Jade, BitBox
 - Slower to use; you need to connect the device and physically confirm transactions.
 - You'll need to buy the device, which can cost you a fair amount of money.
 
-**Best for: Long-term holders and anyone securing larger amounts.**
+Best for: Long-term holders and anyone securing larger amounts.
 
 #### Multisignature Wallets
 
@@ -1354,8 +1358,7 @@ Examples: Exchanges like Coinbase or Binance, financial products like BlackRock'
 
 **Rule of thumb: Not your keys, not your coins.**
 
-
-We don't recommend custodial services **even for beginners**. It's much better to take the time to learn how to secure your bitcoin properly than to risk losing it all because someone else failed. But if you're here, reading about wallets and key management, you've probably already understood why that principle matters.
+We don't recommend custodial services even for beginners. It's much better to take the time to learn how to secure your bitcoin properly than to risk losing it all because someone else failed. But if you're here, reading about wallets and key management, you've probably already understood why that principle matters.
 
 ![BTC102-Bitcoin](assets/fr/068.webp)
 
@@ -1845,13 +1848,13 @@ https://planb.network/tutorials/wallet/mobile/nunchuk-fc1b553f-5298-4e75-9f34-8a
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-c4792842-b046-44f9-a6f1-351191b7cc2b
+https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 https://planb.network/tutorials/wallet/mobile/zeus-3e89603c-501d-439c-8691-d4a0d0de459b
 
 Separating your funds this way helps reduce risk in case the wallet used for everyday payments is compromised.
 
-#### 2. Tying your own knot
+#### 2. Set up your own node
 
 Active users often aim to reduce their reliance on trusted third parties, depending on their personal circumstances. One of the most effective ways to achieve this is by running their own Bitcoin node. This allows them to use the network independently while enhancing the privacy of their transactions.
 
@@ -1969,8 +1972,8 @@ To them, every action matters. Every transaction, every wallet setup, and every 
 Choosing a privacy-first mindset offers several key benefits:
 
 - **Financial autonomy:** By staying off the radar of banks, governments, and corporations, you protect yourself from surveillance and unwanted interference.
--**Asset protection:** If economic or political conditions become unstable, it's much harder for third parties to trace or seize your Bitcoin if it's not linked to your identity.
--**Improved personal safety:** People known to hold large amounts of Bitcoin can become targets. Keeping your identity hidden lowers your risk of being targeted.
+- **Asset protection:** If economic or political conditions become unstable, it's much harder for third parties to trace or seize your Bitcoin if it's not linked to your identity.
+- **Improved personal safety:** People known to hold large amounts of Bitcoin can become targets. Keeping your identity hidden lowers your risk of being targeted.
 - **Freedom from discrimination**: Some services or governments may block transactions or accounts based on your past activity or who you are. Privacy keeps that power in check.
 - **Staying true to Bitcoin's roots:** Bitcoin was designed as a censorship-resistant and permissionless form of money. Protecting your privacy is part of honoring that original mission.
 
@@ -2240,12 +2243,12 @@ Make sure you have a calm, distraction-free environment, then gather these few t
 
 Many people delay this step because of misconceptions that prevent them from taking action. Here are some common myths, outlined by Pamela Morgan in _Cryptoasset Inheritance Planning_ (page 18):
 
-- **"*I need to hire a lawyer.*"** → **FALSE**. While a lawyer may be helpful for legal matters, a technical Bitcoin inheritance plan can be set up without one. The most important thing is to have clear and accessible instructions;
+- **"*I need to hire a lawyer.*"** → **False**. While a lawyer may be helpful for legal matters, a technical Bitcoin inheritance plan can be set up without one. The most important thing is to have clear and accessible instructions;
 - **"*I need to trust a third party.*"** → **False**. Your plan can be designed in such a way that minimizes the need for trust, such as distributing information across multiple parties or using multi-signature solutions, with or without a timelock;
 - **"*Planning will make my assets easy to steal.*"** → **False**.A well-thought-out plan protects against theft attempts while ensuring that your heirs can recover your funds safely. However, it's important to note that no solution is foolproof: an inheritance plan does increase the risk of theft, depending on what information is shared. We'll discuss this in more detail later;
 - **"*The value of my bitcoins is too small to plan.*"** → **False**.  it's always better to plan ahead. Your loved ones likely don't know the exact amount of Bitcoin you own, and that's a good thing. But if something happens to you, wouldn't they want to recover it, even if they don't know the exact amount? The value of Bitcoin can grow significantly over time, so it's wise to make it easier for them to access your funds, and to avoid giving them false hope about the value or leaving them searching for something that might not exist.
 - **"*My heirs will figure it out on their own.*"** → **False**. Bitcoin isn't like a regular bank account. Without clear instructions, your loved ones might never be able to access your funds, or only find part of them. Unlike bank accounts, where financial institutions or notaries contact family members upon death, there's no intermediary that will inform your family about your Bitcoin wallet. Therefore, it's up to you to explicitly include it in your estate plan;
-- **"*A smart contract can manage everything.*"** → **FALSE**. A smart contract, such as a multi-sig wallet with a timelock, can be part of the solution, but it will never replace a well-structured plan, especially for people unfamiliar with Bitcoin. Both solutions are complementary.
+- **"*A smart contract can manage everything.*"** → **False**. A smart contract, such as a multi-sig wallet with a timelock, can be part of the solution, but it will never replace a well-structured plan, especially for people unfamiliar with Bitcoin. Both solutions are complementary.
 
 
 It's time to take action. Spend these 30 minutes setting up your inheritance plan. It's a simple step, but it could make all the difference for your loved ones.

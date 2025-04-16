@@ -78,7 +78,6 @@ Ready to begin your journey into the world of Bitcoin? Let's go!
 
 The Bitcoin ecosystem and its surrounding environment are still relatively young and loosely regulated, depending on the country. While this freedom opens up vast opportunities, it also creates a fertile ground for financial frauds, scams, and various forms of manipulation. That's why the first chapter is so crucial: understanding the common pitfalls will help you avoid them. Your financial security is a priority because a bad experience doesn't just affect you, it impacts the entire Bitcoin community.
 
-![Arnaque et fraude financière](https://youtu.be/LeyI3CBw2g4)
 
 ### Bitcoin vs cryptos: understanding the differences
 
@@ -233,7 +232,6 @@ Protecting yourself from scams is a crucial first step in safeguarding your asse
 
 <chapterId>f0873bf2-6a6f-5485-bb7a-d84be14f404d</chapterId>
 
-![sécurité en ligne](https://youtu.be/d9Ccy17yWB0)
 
 As soon as you start getting into Bitcoin, you'll quickly realize that basic cybersecurity isn't optional—it's essential. Scams and fraud are just the tip of the iceberg. Accidental data loss, malware, and compromised passwords can be just as devastating, especially when you're managing your own keys.
 
@@ -373,7 +371,6 @@ In the next chapter, I'll share a few more tips to help you get started on your 
 
 <chapterId>33134b3f-92c1-5185-afb6-88599e47e801</chapterId>
 
-![Conseil pour débutant](https://youtu.be/juMUJ3MWeZY)
 
 Getting into Bitcoin can be exciting; but it also comes with its fair share of risks. The world of crypto is unlike any other; wild price swings, unfamiliar technology, and the very real possibility of losing your funds for good due to simple mistakes or poor investment choices are all pitfalls that new users should be aware of.
 
@@ -697,7 +694,6 @@ After this introduction to Bitcoin (which may have taken a bit longer than 5 min
 
 <chapterId>d4327ac4-9ff8-5192-b542-cb78c0bd0aa7</chapterId>
 
-![pourquoi bitcoin est-il si important](https://youtu.be/Iq0wZF3Ui9A)
 
 Why is Bitcoin so important? That's the central question of this course. Whether it's related to your studies or your investment strategy, without a clear understanding of Bitcoin's significance, there's a risk of deviating from your plan. The goal is to always keep the fundamental principles of Bitcoin in mind to ensure that your strategy remains aligned with your beliefs.
 
@@ -839,7 +835,6 @@ Now that we've explored the profound significance of Satoshi Nakamoto's inventio
 
 <chapterId>e106c6f1-d75b-5a62-b245-0ea2e4d02ef8</chapterId>
 
-![comprendre l'industrie du bitcoin](https://youtu.be/fcXvjghA-uM)
 
 Since its launch in 2009 by the pseudonymous creator Satoshi Nakamoto, Bitcoin has sparked the rise of an entirely new industry; now valued in the hundreds of billions of dollars. Despite its relatively short history, this ecosystem has experienced explosive growth, evolving at an exponential pace over the past decade. Every day, new players(ranging from institutional investors and agile startups to tech giants) pour significant capital and resources into staking their claim in this rapidly expanding sector.
 

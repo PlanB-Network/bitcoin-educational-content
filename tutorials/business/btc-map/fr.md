@@ -3,6 +3,7 @@ name: BTC Map
 description: Trouvez des endroits où dépenser vos sats
 ---
 ![cover](assets/cover.webp)
+
 Tandis que beaucoup réduisent encore Bitcoin à un outil d'investissement et de spéculation, son créateur Satoshi Nakamoto l'avait avant tout conçu comme un système de paiement électronique Peer-to-Peer. Il est cependant difficile de savoir où l’on peut dépenser ses bitcoins. Enfin ça, c’était avant BTC Map.
 
 S’appuyant sur OSM (OpenStreetMap), lui même un outil open-source de cartographie participative, BTC Map propose dans la plus grande simplicité de recenser les établissements qui acceptent les paiements en BTC, Lightning ou on-chain. Une base de donnée mondiale, encore naissante mais déjà essentielle, alimentée par et pour les bitcoiners.

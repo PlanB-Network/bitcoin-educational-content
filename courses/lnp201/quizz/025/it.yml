@@ -1,4 +1,4 @@
-question: Quali sono i tre metodi per chiudere un canale sulla Lightning Network?
+question: Quali sono i tre metodi per chiudere un canale su Lightning Network?
 answer: Chiusura cooperativa, chiusura forzata, chiusura con frode
 wrong_answers:
   - Chiusura rapida, chiusura lenta, chiusura con doppia firma

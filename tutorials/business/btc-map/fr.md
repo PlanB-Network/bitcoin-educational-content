@@ -56,7 +56,7 @@ Le site vous propose deux cartes aux objectifs différents. Mais commençons par
 
 Vous constaterez également, en haut à droite de chaque carte, un bouton pour modifier le calque de la carte. Dans ce tutorial j'ai choisi de laisser la version dark.
 
-### Merchant Map
+## Merchant Map
 
 ![image](assets/fr/04.webp)
 
@@ -95,7 +95,7 @@ Enfin,
 - 4 Procédez à la vérification captcha (attention aux majuscules / minuscules)
 - 5 Cliquez sur "Submit Report" pour transmettre votre suggestion
 
-### Community Map
+## Community Map
 
 ![image](assets/fr/08.webp)
 
@@ -131,7 +131,7 @@ On constate immédiatement des zones colorées en orange. Vous l'avez compris, i
 
 **Support Us** : Cette page vous indique comment faire un don (en sats) ou devenir sponsor du projet.
 
-### "Add Community" (ajouter une communauté)
+## "Add Community" (ajouter une communauté)
 
 BTC Map vous permet d’ajouter un établissement acceptant le bitcoin. Voyons ensemble comment nous pouvons [ajouter soi-même une communauté](https://btcmap.org/communities/add/), étape par étape :
 
@@ -148,7 +148,7 @@ BTC Map vous permet d’ajouter un établissement acceptant le bitcoin. Voyons e
 - 8 renseignez le captcha (attention aux majuscules minuscules)
 - 9 cliquez sur "Submit Community" afin de transmettre le formulaire
 
-### "Add Location" (ajouter un établissement)
+## "Add Location" (ajouter un établissement)
 
 [Cette page](https://btcmap.org/add-location/) vous montre comment ajouter vous-même la fiche d'un établissement en passant par Open Street Map. Si jamais vous éprouvez des difficultés, un formulaire est proposé pour que vous transmettiez toutes les infos, de sorte que quelqu'un puisse créer la fiche pour vous (cela peut prendre plusieurs semaines). Regardons ça ensemble :
 

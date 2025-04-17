@@ -1,5 +1,3 @@
-it.md
-
 ---
 name: Nunchuk Mobile
 description: Wallet mobile adatto a tutti

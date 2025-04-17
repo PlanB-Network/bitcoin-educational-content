@@ -638,32 +638,32 @@ Schließlich kann im Bereich "Administratoren" eine "Aggressive Anti-Spam"-Funkt
 
 <chapterId>c61f69cc-15ec-53f1-8c02-1cea55def09e</chapterId>
 
-**Eine weitere Möglichkeit, Ihre Telegram-Gruppe oder -Supergruppe zu konfigurieren und zu schützen, besteht darin, einen Multifunktions-Bot** hinzuzufügen. Dies ermöglicht eine viel weitergehende Konfiguration.
+**Eine weitere Möglichkeit, Ihre Telegram-Gruppe oder -Supergruppe zu konfigurieren und zu schützen, besteht darin, einen Multifunktions-Bot** hinzuzufügen. Das ermöglicht eine deutlich umfangreichere Konfiguration.
 
 Zu den vielen Optionen, die mit **dem [@GroupHelpBot](https://telegram.me/grouphelpbot)** Bot zur Verfügung stehen, zählen unter anderem:
 
 
-- einen Satz von Regeln** hinzufügen (Befehl /rules);
-- einen **Anti-Spam-Mechanismus** konfigurieren;
-- eine **automatische, anpassbare Willkommensnachricht für neue Mitglieder hinzufügen, die nach ein paar Minuten abgebrochen wird**;
-- den **Anti-Flut-Mechanismus** konfigurieren;
-- einen @administrator-Befehl hinzufügen;
-- blöcke hinzufügen;
-- einen Befehl zum Abrufen des Gruppenlinks (/link) hinzufügen;
-- berechtigungen für den Befehl configure;
-- bestimmte Arten von Nachrichten automatisch löschen;
-- usw.
+- das Hinzufügen eines Regelwerks (Befehl /rules);
+- das Konfigurieren eines Anti-Spam-Mechanismus;
+- das Einrichten einer automatischen, anpassbaren Willkommensnachricht für neue Mitglieder, die nach ein paar Minuten verschwindet;
+- das Aktivieren eines Anti-Flood-Mechanismus (Schutz vor Nachrichtenspam);
+- das Hinzufügen eines @administrator-Befehls;
+- das Erstellen von Blöcken (z. B. für Keywords oder Aktionen);
+- das Einfügen eines Befehls zum Abrufen des Gruppenlinks (/link);
+- das Verwalten der Berechtigungen für den Befehl /configure;
+- das automatische Löschen bestimmter Arten von Nachrichten;
+- und vieles mehr.
 
 ![immagine](assets/fr/22.webp)
 
 Drei weitere einfache Ideen sind:
 
 
-- erstellen Sie einen "/link "**-Befehl, um den Login-Link an die Telegram-Gruppe zu senden;
-- dasselbe, um soziale Netzwerke ("/socials") oder Ihre möglichen Regeln im Falle einer Moderation ("/rules") zu erhalten;
-- sperrung des Zugangs von Bots** und "Einreise/Ausreise".
+- das Erstellen eines „/link“-Befehls, um den Beitrittslink zur Telegram-Gruppe zu senden;
+- das Bereitstellen eines Befehls, um Social-Media-Links („/socials“) oder Gruppenregeln („/rules“) anzuzeigen;
+- das Blockieren von Bots sowie das Deaktivieren von Beitritts- und Austrittsmeldungen.
 
-Darüber hinaus stehen Ihnen zahlreiche weitere Optionen zur Verfügung. Dennoch ein Ratschlag: **Versuchen Sie nicht, die Kommunikation und den Informationsaustausch zu sehr einzuschränken**.
+Darüber hinaus stehen Ihnen zahlreiche weitere Optionen zur Verfügung. Ein kleiner Ratschlag jedoch: Versuchen Sie nicht, die Kommunikation und den Informationsaustausch zu stark einzuschränken.
 
 ####
 
@@ -691,7 +691,7 @@ Um Ihnen die Arbeit zu erleichtern, **geben wir einen [vorgefertigten, duplizier
 
 ####
 
-Daher kann ein Discord-Server, wenn er gut aufgebaut ist, ein echter Gewinn für seine Gemeinschaft sein. Tatsächlich nutzen viele Bitcoiner bereits täglich Discord (und nicht Telegram), und **die Möglichkeit, Telegram-Gruppenunterhaltungen direkt auf dem Discord-Server zu verfolgen, ist eine erhebliche Zeitersparnis**. Und vice versa.
+Daher kann ein Discord-Server, wenn er gut aufgebaut ist, ein echter Gewinn für seine Community sein. Tatsächlich nutzen viele Bitcoiner bereits täglich Discord (und nicht Telegram), und **die Möglichkeit, Telegram-Gruppenunterhaltungen direkt auf dem Discord-Server zu verfolgen, ist eine erhebliche Zeitersparnis**. Und vice versa.
 
 Aus diesem Grund wurde ein Open-Source-Bot namens [TediCross] (https://github.com/TediCross/TediCross) entwickelt. Sein Ziel ist einfach: die automatische Übertragung von Nachrichten von einem Discord-Textkanal zu einer Telegram-Gruppe (oder einem Thema in einer Telegram-Supergruppe); und umgekehrt. Es kann also sehr interessant sein, dies einzurichten.####
 
@@ -717,9 +717,9 @@ Aus diesem Grund werden in den kommenden Monaten Tutorien zur Verwendung vertrau
 
 Aber warum sollte man diese Alternativen in Betracht ziehen?
 
-Ganz einfach, weil sie wie das soziale Netzwerk NOSTR und Kommunikationsanwendungen wie Matrix, Signal oder Element dezentralisiert und/oder verschlüsselt sind. Neben dem **Vertraulichkeitsgewinn** beim Austausch zwischen den verschiedenen Mitgliedern Ihrer Gemeinschaft können Sie sich so auch vor einer **Schließung (Zensur?) Ihrer Telegram-Gruppe oder Supergruppe** schützen.
+Ganz einfach, weil sie wie das soziale Netzwerk Nostr und Kommunikationsanwendungen wie Matrix, Signal oder Element dezentralisiert und/oder verschlüsselt sind. Neben dem **Vertraulichkeitsgewinn** beim Austausch zwischen den verschiedenen Mitgliedern Ihrer Gemeinschaft können Sie sich so auch vor einer **Schließung (Zensur?) Ihrer Telegram-Gruppe oder Supergruppe** schützen.
 
-Was könnte besser sein, genau wie das Bitcoin-Protokoll, als **unmessbar und unveränderlich** zu sein?
+Was könnte besser sein – genau wie das Bitcoin-Protokoll – als unzensierbar und unveränderlich?
 
 # Starten Sie Ihre sozialen Netzwerke
 
@@ -731,7 +731,7 @@ Was könnte besser sein, genau wie das Bitcoin-Protokoll, als **unmessbar und un
 
 Das war's, Ihre Community ist gestartet und Sie haben nun einen oder mehrere Kommunikationskanäle (z.B. Telegram und/oder Matrix)!
 
-Aber vorläufig ... sind Sie allein. Also müssen Sie **einige - Kommunikation** betreiben.
+Aber vorläufig ... sind Sie allein. Also müssen Sie **etwas - Kommunikation** betreiben.
 
 Es liegt auf der Hand, dass Ihre Arbeit umsonst ist, wenn niemand auf Ihre Kommunikationskanäle zugreifen kann, auf denen Sie regelmäßig Informationen veröffentlichen (Termin der nächsten Sitzung, Projekte usw.). Aus diesem Grund werden **soziale Netzwerke - und einige spezifische Plattformen, auf die wir später noch eingehen werden - eine wichtige Rolle bei der Entwicklung Ihrer Gemeinschaft spielen**.
 
@@ -743,7 +743,7 @@ Deshalb kann ein **NOSTR-Profil speziell für Ihre Community** erstellt werden, 
 
 Natürlich können auch andere soziale Netzwerke genutzt werden. Dies ist der Fall bei Facebook (im Falle einer Facebook-Gruppe oder -Seite) oder auch bei LinkedIn.
 
-Es ist jedoch wichtig zu bedenken, dass **je mehr Kommunikationskanäle und soziale Netzwerke man einrichten und dann pflegen muss, desto zeitaufwändiger wird es. Es ist am besten, sich auf die relevantesten zu konzentrieren; und Twitter (und NOSTR) scheinen gute Kandidaten zu sein**.
+Es ist jedoch wichtig zu bedenken, dass **je mehr Kommunikationskanäle und soziale Netzwerke man einrichten und dann pflegen muss, desto zeitaufwändiger wird es. Es ist am besten, sich auf die relevantesten zu konzentrieren; und Twitter (und NOSTR) scheinen gute Optionen zu sein**.
 
 Im folgenden Teil dieses Kurses werden wir ausführlich erklären, wie man ein Twitter-Konto einrichtet und wie man es effektiv für eine maximale Sichtbarkeit nutzt. Ähnliche Erklärungen und Anleitungen zu NOSTR werden in einigen Wochen zu diesem Abschnitt [Launching Your Social Networks](LINK) hinzugefügt.
 

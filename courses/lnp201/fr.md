@@ -21,6 +21,33 @@ Bonne découverte !
 
 +++
 
+# Introduction
+<partId>9da7290a-3895-49a2-93ea-2a6272ca4af4</partId>
+
+## Aperçu du cours
+<chapterId>f2e71062-5121-4114-a7f8-27df69884ce8</chapterId>
+
+Bienvenue dans le cours LNP201 !
+
+Cette formation vise à vous offrir une compréhension technique approfondie du Lightning Network, un réseau de surcouche conçu pour effectuer des transactions en bitcoins à règlement rapide et, souvent, à moindre coût. Vous découvrirez progressivement les concepts fondamentaux qui régissent ce système, depuis l’ouverture des canaux de paiement jusqu’aux techniques de routage et de gestion de la liquidité.
+
+**Section 1 : Les fondamentaux**
+Nous débuterons par une présentation générale du Lightning Network, en posant les bases essentielles sur Bitcoin, ses adresses, les UTXOs et le fonctionnement des transactions. Ce rappel des fondamentaux est indispensable pour comprendre comment le Lightning Network s’appuie sur les mécanismes de la blockchain de base pour fonctionner de manière sécurisée.
+
+**Section 2 : Ouverture et fermeture des canaux**
+Dans cette section, nous explorerons le processus d’ouverture de canaux, qui est la pierre angulaire du Lightning Network. Vous apprendrez comment sont créées les transactions d’engagement, le rôle des clés de révocation pour la sécurité, et comment les canaux peuvent être fermés de manière collaborative ou unilatérale. Chaque étape sera expliquée de manière précise et technique pour vous permettre d’en comprendre toutes les subtilités.
+
+**Section 3 : Un réseau de liquidité**
+Le Lightning Network ne se limite pas à des canaux individuels ; c’est un véritable réseau de paiement. Nous verrons comment les transactions peuvent être acheminées à travers des nœuds intermédiaires via des HTLCs. Cette partie vous initiera aussi aux enjeux de la liquidité entrante et sortante.
+
+**Section 4 : Les outils du Lightning Network**
+Cette section présente les outils pratiques du Lightning Network, tels que les *Invoices*, *LNURL*, ou encore *Keysend*. Vous apprendrez également à gérer la liquidité de vos canaux, un aspect important pour garantir la fluidité des paiements et maximiser l’efficacité de vos transactions sur Lightning.
+
+**Section 5 : Allez plus loin**
+Enfin, nous conclurons la formation en récapitulant les notions abordées tout en ouvrant la voie vers des sujets plus avancés pour ceux qui souhaitent approfondir leurs connaissances sur le Lightning Network. 
+
+Prêt à découvrir les rouages techniques du Lightning Network ? Allons-y !
+
 # Les fondamentaux
 
 <partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>
@@ -1041,7 +1068,7 @@ Merci, à très bientôt !
 
 ![interview de Fanis](https://youtu.be/VeJ4oJIXo9k)
 
-# Conclusion
+# Section finale
 
 <partId>b8715c1c-7ae2-49b7-94c7-35bf85346ad3</partId>
 

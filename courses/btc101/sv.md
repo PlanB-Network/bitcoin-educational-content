@@ -1390,7 +1390,7 @@ Satoshi skapade Bitcoin 2008 för att föreslå en förändring av det finansiel
 
 Är du redo att gå med?
 
-# Slutsats
+# Slutavsnitt
 
 <partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 

@@ -9,6 +9,7 @@ objectives:
   - Comprendre les aspects commerciaux et techniques du réseau Liquid pour les applications sur les marchés des capitaux.
 
 ---
+
 # Introduction au réseau Liquid
 
 Embarquez pour un voyage éducatif conçu pour fournir une compréhension approfondie du réseau Liquid et du projet Elements. Ce bootcamp combine théorie et pratique pour vous enseigner les fondamentaux techniques, architecturaux et commerciaux nécessaires à la mise en œuvre et à l'exploitation des capacités de Liquid. Des transactions confidentielles à la conception de l'écosystème, ce cours est idéal pour ceux qui cherchent à étendre leurs connaissances des outils avancés de l'écosystème Bitcoin.
@@ -16,11 +17,12 @@ Embarquez pour un voyage éducatif conçu pour fournir une compréhension approf
 Avec des présentations d'experts de l'industrie, le cours couvre des sujets tels que l'architecture de Liquid, les applications de tokenisation, les concepts techniques d'Elements, et des cas d'utilisation innovants comme le SDK Breeze. Conçu pour être accessible aux débutants et aux utilisateurs intermédiaires, le cours offre également de la valeur aux développeurs expérimentés qui cherchent à maîtriser Liquid en tant que plateforme pour optimiser leurs projets.
 
 +++
+
 # Introduction
 
 <partId>9f8a83d5-27e0-4e6d-af12-6cd6eb667291</partId>
 
-## Introduction à Liquid Bootcamp
+## Aperçu du cours
 
 <chapterId>3192ee7d-255b-4c4f-ba18-e08c5ab98577</chapterId>
 
@@ -28,9 +30,11 @@ Bienvenue au Liquid Bootcamp, une formation complète conçue pour vous doter de
 
 Tout au long du camp d'entraînement, vous explorerez les applications pratiques du réseau Liquid, de la mise en place et de l'exploitation des nœuds à la compréhension de son utilisation dans les marchés de capitaux de Bitcoin et de la tokenisation. Grâce aux présentations d'experts de l'industrie, vous aurez également un aperçu des sujets avancés tels que les HTLC, le SDK Breeze et le projet Blockstream AMP.
 
-Ce camp d'entraînement était à l'origine organisé en présentiel, selon un programme structuré (comme le montre l'image) conçu pour des sessions en direct. Cependant, pour cette adaptation du cours, le contenu a été réorganisé pour mieux convenir à un format en ligne et faciliter la compréhension des étudiants. Le nouvel ordre assure une progression logique entre les concepts fondamentaux et les sujets plus techniques et avancés, maximisant ainsi l'expérience d'apprentissage.
+Ce camp d'entraînement était à l'origine organisé en personne, selon un programme structuré (comme le montre l'image) conçu pour des sessions en direct. Cependant, pour cette adaptation du cours, le contenu a été réorganisé pour mieux convenir à un format en ligne et faciliter la compréhension des étudiants. Le nouvel ordre assure une progression logique entre les concepts fondamentaux et les sujets plus techniques et avancés, maximisant ainsi l'expérience d'apprentissage.
 
 Cette formation est structurée de manière à pouvoir accueillir des participants ayant des niveaux d'expertise variés, en offrant un mélange de connaissances théoriques et d'expériences pratiques. A la fin de ce bootcamp, vous aurez une solide compréhension de l'architecture de Liquid, de son intégration avec Bitcoin, et de la manière d'utiliser ses fonctionnalités innovantes pour construire et optimiser des solutions financières.
+
+Lancez-vous dans l'univers de la sidechain Liquid et révélez tout son potentiel dès maintenant !
 
 # Principes de base
 
@@ -98,7 +102,7 @@ Nardo présente Blockstream AMP, une plateforme de gestion des actifs numérique
 
 Antonio présente Breeze, un SDK open-source conçu pour les transactions décentralisées sur le réseau Liquid. Il présente ses caractéristiques, notamment la prise en charge des liaisons multilingues et des processus de transaction sécurisés, tout en soulignant son objectif de simplifier la technologie financière pour les développeurs
 
-# Conclusion
+# Section finale
 
 <partId>7ec65e6b-6e63-41b6-92ea-6a13bc77c3ff</partId>
 
@@ -111,7 +115,4 @@ Antonio présente Breeze, un SDK open-source conçu pour les transactions décen
 ## Conclusion
 
 <chapterId>e30a5587-d74b-4360-87fb-bbf3de1b0ba8</chapterId>
-
-Félicitations pour avoir suivi ce cours !
-
-Nous sommes ravis que vous ayez franchi avec succès cette étape de votre parcours d'apprentissage. Grâce à votre dévouement et à votre engagement, vous avez acquis des connaissances et des compétences précieuses qui vous seront utiles dans votre développement professionnel.
+<isCourseConclusion>true</isCourseConclusion>

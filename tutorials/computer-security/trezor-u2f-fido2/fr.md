@@ -6,7 +6,7 @@ description: Renforcer sa sécurité en ligne avec Trezor
 
 Les dispositifs Trezor sont des hardware wallets initialement conçu pour sécuriser un portefeuille Bitcoin, mais ils disposent également d'options avancées pour réaliser de l'authentification forte sur le web. Grâce à leur compatibilité avec les protocoles **U2F** et **FIDO2**, ils permettent de sécuriser l’accès à vos comptes en ligne sans dépendre uniquement de mots de passe.
 
-Le protocole U2F (_Universal 2nd Factor_) a été introduit par Google et Yubico en 2014, puis standardisé par le FIDO Alliance. Il permet d’ajouter un second facteur d’authentification physique (2FA) lors d’une connexion. Une fois activé, en plus du mot de passe classique, l’utilisateur doit approuver chaque tentative de connexion à son compte en pressant un bouton sur son Trezor. Dans ce contexte, le Trezor fonctionne de manière similaire à une Yubikey.
+Le protocole U2F (*Universal 2nd Factor*) a été introduit par Google et Yubico en 2014, puis standardisé par le FIDO Alliance. Il permet d’ajouter un second facteur d’authentification physique (2FA) lors d’une connexion. Une fois activé, en plus du mot de passe classique, l’utilisateur doit approuver chaque tentative de connexion à son compte en pressant un bouton sur son Trezor. Dans ce contexte, le Trezor fonctionne de manière similaire à une Yubikey.
 
 Cette méthode repose sur la cryptographie asymétrique : aucune donnée secrète n’est transmise, ce qui rend les attaques par hameçonnage ou interception inefficaces. U2F est aujourd’hui pris en charge par de nombreux services en ligne.
 

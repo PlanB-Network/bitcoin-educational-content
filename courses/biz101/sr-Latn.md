@@ -1,7 +1,7 @@
 ---
-Naziv: Bitkoin za preduzeća
-Svrha: Naučite osnove plaćanja i čuvanja vrednosti kako biste integrisali svoju kompaniju sa Bitkoinom
-Ciljevi: 
+Name: Bitkoin za preduzeća
+Goal: Naučite osnove plaćanja i čuvanja vrednosti kako biste integrisali svoju kompaniju sa Bitkoinom
+Objectives: 
 
   - Bitkoin kao nova valuta i poslovni alat
   - Razumeti zašto i kako preduzeće može držati Bitkoin u trezoru ili ga koristiti za plaćanja
@@ -22,17 +22,19 @@ Bilo da ste **mala firma ili velika korporacija**, integracija Bitkoin u Vaše s
 
 <partId>326cf945-5d3f-4d86-8c3e-4d1c35959799</partId>
 
-## Integracija Vaše kompanije na Bitkoin
+## Pregled kursa
 
 <chapterId>1be42be9-4080-49f5-b5b2-6b531dd55f5f</chapterId>
 
-Pokrenite putovanje Vaše kompanije na Bitkoin mreži uz ovaj sveobuhvatni kurs obuke - prolaz ka razumevanju kako Bitkoin i Lightning mreža mogu revolucionisati tradicionalne poslovne operacije. Ovaj kurs je dizajniran za trgovce, preduzetnike, menadžere i korporativne donosioce odluka koji žele da istraže praktične mogućnosti Bitkoina kao globalne, internet-native monetarne mreže i snažnog sredstva za razmenu vrednosti.
+Dobrodošli na kurs BIZ101! Pokrenite putovanje vaše kompanije na Bitcoin mreži uz ovaj sveobuhvatan obučni kurs - ulaznicu za razumevanje kako Bitcoin i Lightning Network mogu revolucionisati tradicionalne poslovne operacije. Ovaj kurs je namenjen maloprodavcima, preduzetnicima, menadžerima i donosiocima odluka u korporacijama koji žele da istraže praktične mogućnosti Bitcoina kao globalne, internet-nativne monetarne mreže i robusnog sredstva za razmenu vrednosti.
 
-Kroz kurs, bićete upoznati sa osnovnim principima koji čine Bitkoin i Lightning mrežu izrazito transformativnim. Naučićete kako ove tehnologije nude spektar upotrebe, od skladištenja digitalnog kapitala do brzih, ekonomičnih i skalabilnih plaćanja, i kako pružaju ključna poboljšanja u odnosu na tradicionalne valute i sisteme plaćanja. Kurs BIZ101 povezuje ekonomsku teoriju sa stvarnim aplikacijama, pojašnjavajući kako decentralizacija može smanjiti zavisnost od posrednika i prevazići ograničenja svojstvena starim sistemima.
+Tokom kursa, bićete upoznati sa osnovnim principima koji čine Bitcoin i Lightning Network posebno transformativnim. Naučićete kako ove tehnologije nude spektar slučajeva upotrebe, od digitalnog skladištenja kapitala do brzih, ekonomičnih i skalabilnih plaćanja, i kako pružaju ključna poboljšanja u odnosu na tradicionalne valute i sisteme plaćanja. Kurs BIZ101 povezuje ekonomsku teoriju sa stvarnim aplikacijama, objašnjavajući kako decentralizacija može smanjiti zavisnost od posrednika i prevazići ograničenja inherentna nasleđenim sistemima.
 
-Kurs počinje detaljnim ispitivanjem konvencionalnih valuta i mehanizama plaćanja, postavljajući temelje istraživanjem kako valuta funkcioniše kao mreža koja omogućava trgovinu, štednju i ekonomsku specijalizaciju. Nakon toga, istražićemo tehnologiju iza Bitkoina i inovacije koje je uvela Lightning mreža, otkrivajući njihove uloge u omogućavanju besprekidnih, sigurnih i gotovo trenutnih transakcija koje mogu služiti preduzećima svih veličina. Zatim ćemo preći na praktične delove ovog kursa, počevši sa delom o držanju bitkoina kao imovine, a zatim završiti sa delom o prihvatanju bitkoina kao sredstva plaćanja.
+Kurs počinje detaljnom analizom konvencionalnih valuta i mehanizama plaćanja, postavljajući temelje istražujući kako valuta funkcioniše kao mreža koja omogućava trgovinu, štednju i ekonomsku specijalizaciju. Nakon toga, zadržaćemo se na tehnologiji iza Bitcoina i inovacijama koje uvodi Lightning Network, otkrivajući njihove uloge u olakšavanju besprekornog, sigurnog i gotovo trenutnog izvršenja transakcija koje mogu služiti preduzećima svih veličina. Zatim ćemo se posvetiti praktičnim delovima ovog kursa, počevši od dela o držanju bitcoina kao trezora, a zatim završiti delom o prihvatanju bitcoina kao sredstva plaćanja.
 
-Bilo da predstavljate malo preduzeće ili veliku korporaciju, ovaj kurs ima za cilj da vas opremi znanjem za integraciju Bitkoina u vaše svakodnevne operacije, čime se povećava otpornost, efikasnost i konkurentnost Vaše kompanije. Kako Bitkoin nastavlja da preoblikuje ekonomsku scenu, razumevanje ovih revolucionarnih tehnologija nije samo opcija već strateška nužnost. Pripremite se da se angažujete sa sadržajem punim uvida, praktičnim primerima i strateškim smernicama koje će vam omogućiti da se krećete i iskoristite evoluirajući svet Bitkoina!
+Bilo da predstavljate malo preduzeće ili veliku korporaciju, ovaj kurs ima za cilj da vas opremi znanjem kako da integrišete Bitcoin u vaše svakodnevne operacije, čime ćete poboljšati otpornost, efikasnost i konkurentsku prednost vaše kompanije. Kako Bitcoin nastavlja da preoblikuje ekonomsku sliku, razumevanje ovih revolucionarnih tehnologija nije samo opcija, već strateška nužnost. Pripremite se da se angažujete sa uvidima, praktičnim primerima i strateškim smernicama koje će vam omogućiti da se snađete i iskoristite evoluirajući svet Bitcoina!
+
+Spremni da zaronite u svet Bitcoina za preduzeća? Idemo!
 
 # Valuta, platni sistemi i Bitkoin
 
@@ -156,45 +158,29 @@ Sve u svemu, ovaj proces je složen, dugotrajan i skup za ono što bi trebalo da
 
 ### Uporedni pregled metoda plaćanja
 
-| Način Plaćanja                 | Potrebna Autorizacija?          | Vreme Odobrenja Transakcije (Pogled Trgovca) | Brzina Poravnanja (Potpuno Poravnanje Sredstava) | Finalnost (Jednostavnost Opoziva)       | Broj Posrednika                | Tipične Naknade (za Primaoca)      |
-
-| ------------------------------ | ------------------------------- | ----------------------------------------- | ---------------------------------------------- | ---------------------------------------- | ------------------------------ | ---------------------------------- |
-
-| **Gotovina**                   | Ne                              | Odmah (Fizička razmena)                  | Odmah (Bez kašnjenja u poravnanju)             | Visoka (Nepovratno nakon plaćanja)       | Nijedna                        | Nijedna                             |
-
-| **Čekovi**                     | Da (Bankarski kliring)          | Prihvatanje pri Depozitu (Nije Garantovano) | Nekoliko Dana (Proces Kliringa Čekova)        | Srednje (Može Se Vratiti/Zaustaviti Pre Kliringa) | Banka                          | **Nisko do Srednje** (Bankarske Naknade) |
-
-| **Žičani Transferi**             | Da (Banka/Mreža)               | Potvrda u roku od nekoliko sati           | Istog dana ili sledećeg dana (unutar jedne zemlje)         | Visok (Obično nepovratno nakon slanja)   | Banke, Platne mreže            | **Srednji**(Fiksni Procenat)       |
-
-| **Platne Kartice**             | Da (Autorizacija Izdavaoca Kartice) | Sekunde do Minuta (Autorizacioni Kod)   | Nekoliko Dana (Međubankarsko Poravnanje)       | Srednji (Mogući Povrati)                | Izdavalac, Primalac, Kartična Mreža | **Varijabilno (1-3% od Transakcije)** |
-
-| **Digital Wallets/Mobile Pay** | Da (Wallet Provider/Banka)      | Sekunde (Instant Potvrda)            | Obično 1-2 dana (Zavisi od izvora finansiranja) | Srednje (Moguć povraćaj/Prigovor)         | Banke, Wallet Operateri        | **Nizak do Srednji (Varira)**         |
+| Način plaćanja                     | Potrebna autorizacija?           | Vreme odobrenja transakcije (iz ugla trgovca) | Brzina saldiranja (potpuno izmirena sredstva)   | Konačnost (lakoća opoziva)                | Broj posrednika                | Tipične naknade (za primaoca)      |
+| ---------------------------------- | -------------------------------- | --------------------------------------------- | ----------------------------------------------- | ---------------------------------------- | ------------------------------ | ---------------------------------- |
+| **Gotovina**                       | Ne                               | Trenutno (fizička razmena)                    | Trenutno (bez odlaganja saldiranja)             | Visoka (nepovratno nakon plaćanja)        | Nema                           | Nema                               |
+| **Čekovi**                         | Da (bankarski kliring)           | Prihvatanje pri depozitu (nije garantovano)   | Nekoliko dana (proces kliringa čekova)          | Srednja (može odskočiti/stopirati pre kliringa) | Banka                          | **Niske do srednje** (bankarske naknade) |
+| **Bankovni transferi**             | Da (banka/mreža)                 | Potvrda u roku od nekoliko sati               | Isti dan ili sledeći dan (domaći)               | Visoka (obično nepovratno nakon slanja)   | Banke, platne mreže            | **Srednje** (fiksne/procentualne)  |
+| **Platne kartice**                 | Da (autorizacija izdavaoca kartice) | Sekunde do minuta (autorizacioni kod)       | Nekoliko dana (međubankarska naplata)           | Srednja (povraćaji mogući)                | Izdavalac, primalac, kartična mreža | **Promenljive (1-3% transakcije)** |
+| **Digitalni novčanici/mobilno plaćanje** | Da (provajder novčanika/banka) | Sekunde (trenutna potvrda)                 | Tipično 1-2 dana (zavisi od izvora sredstava)   | Srednja (povraćaj/spor moguć)             | Banke, operateri novčanika     | **Niske do srednje (varira)**      |
 
 ### Ograničenja postojećih rešenja
 
 Tradicionalna industrija plaćanja predstavlja godišnju ekonomiju od približno 2.200 milijardi dolara, što je otprilike jedna desetina BDP-a Sjedinjenih Američkih Država ili jednako BDP-u Francuske. Pošto valute funkcionišu kao mreže sa dozvolama, postoji ograničena konkurencija, što ovu "uslugu" čini sličnijom porezu nametnutom na produktivnu ekonomiju. Pored troškovnih opterećenja koja stvara, postoje i nekoliko drugih ograničenja, kako je navedeno u nastavku.
 
-| Ograničenje                      | Objašnjenje                                                                                                                                                                                                                       | Uticaj                                                                                               |
-
-| -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
-
-| Visoke naknade za kartice       | Naknade za međubankarske transakcije (~0.3%), mrežne naknade (fiksne ili 0.3%-1%), pretplate na terminal/PSP i bankarske marže (0.5%-1.7%) doprinose značajnom trošku—poput globalnog "poreza" na produktivne sektore, koji iznosi trilione dolara. | Povećava troškove trgovaca, smanjuje marže i potencijalno podiže cene za potrošače.                  |
-
-| Vrlo sporo konačno poravnanje    | Poravnanje sredstava može potrajati do 5 dana, usporavajući tok novca i ukupnu ekonomsku aktivnost.                                                                                                                          | Odlaže likvidnost za trgovce i smanjuje brzinu ekonomske cirkulacije.                                |
-
-| Prevara                          | Kanali e-trgovine su često meta prevara, što doprinosi značajnim gubicima (npr., 28 milijardi dolara). Povraćaji sredstava bi mogli dostići ~174 milijarde dolara globalno do 2024. Upravljanje ovim sporovima troši vreme i izaziva mentalni stres. | Povećani operativni troškovi, složene mere za sprečavanje prevara i smanjeno poverenje kupaca.       |
-
-| Pražnjenje korpe                | Dodatni sigurnosni koraci (jednokratni kodovi, dvofaktorska autentifikacija prema PSD2) uvode trenje pri naplati.                                                                                                                 | Veća složenost naplate dovodi do povećanog pražnjenja korpe i izgubljene prodaje.                      |
-
-| Visoki minimalni iznosi transakcija | Minimalni pragovi potrošnje na karticama mogu primorati trgovce i potrošače na neprikladne uslove cena ili kupovine, obeshrabrujući transakcije male vrednosti.                                                                       | Smanjeno zadovoljstvo i fleksibilnost kupaca, što potencijalno ograničava impulsivne ili kupovine manjih vrednosti.  |
-
-| Spora autorizacija unapred       | Trenutni sistemi ne mogu da obrade transakcije brzinom od milisekundi niti da podrže kontinuirane, real-time tokove plaćanja.                                                                                                     | Ograničava slučajeve upotrebe koji zahtevaju trenutna ili striming plaćanja, ograničavajući inovacije i skalabilnost. |
-
-| Potreba za bankovnim/računom kartice | Pristup ovim metodama plaćanja zahteva povezan bankovni račun ili račun kartice, automatski isključujući one bez takvih računa.                                                                                                       | Ograničava finansijsku inkluziju, smanjujući pristup za populacije bez bankarskih usluga ili sa nedovoljno bankarskih usluga.                 |
-
-| Ponovljeno Kreiranje Online Naloga | Korisnici često moraju da kreiraju više online naloga, što dovodi do zamora, smanjene pogodnosti i povećane izloženosti ličnih podataka.                                                                                              | Pogoršava korisničko iskustvo, povećava zabrinutost za privatnost i povećava rizik od curenja podataka.          |
-
-| Provizije Stranih Menjačnica | Nedostatak univerzalne obračunske jedinice primorava na skupe konverzije valuta za prekogranične transakcije.                                                                                                                              | Dodaje dodatne troškove za međunarodnu trgovinu, čineći globalne transakcije manje pristupačnim.             |
+| Ograničenje                      | Objašnjenje                                                                                                                                                                                                                    | Uticaj                                                                                              |
+| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- |
+| Visoke naknade za kartice        | Naknade za razmenu (~0.3%), mrežne naknade (fiksne ili 0.3%-1%), pretplate na terminale/PSP, i bankarske marže (0.5%-1.7%) zajedno čine značajan trošak—poput globalnog "poreza" na produktivne sektore, u iznosu od triliona dolara. | Povećava troškove trgovaca, smanjujući marže i potencijalno povećavajući cene za potrošače.         |
+| Veoma sporo konačno saldiranje   | Saldiranje sredstava može trajati do 5 dana, usporavajući protok novca i ukupnu ekonomsku aktivnost.                                                                                                                          | Odlaže likvidnost za trgovce i smanjuje brzinu ekonomske cirkulacije.                              |
+| Prevare                          | E-commerce kanali su često meta prevara, što doprinosi značajnim gubicima (npr. $28 milijardi). Povraćaji bi mogli dostići ~$174 milijarde globalno do 2024. Upravljanje ovim sporovima troši vreme i izaziva mentalni napor. | Povećani operativni troškovi, složene mere prevencije prevara i umanjeno poverenje kupaca.         |
+| Napuštanje korpe                 | Dodatni bezbednosni koraci (jednokratni kodovi, dvofaktorska autentifikacija prema PSD2) uvode trenje pri plaćanju.                                                                                                          | Veća složenost plaćanja dovodi do povećanog napuštanja korpe i izgubljene prodaje.                 |
+| Visoki minimalni iznosi transakcija | Minimalni pragovi potrošnje na karticama mogu prisiliti trgovce i potrošače na neprijatne uslove cena ili kupovine, obeshrabrujući transakcije male vrednosti.                                                               | Smanjeno zadovoljstvo kupaca i fleksibilnost, potencijalno ograničavajući impulzivne kupovine male vrednosti. |
+| Spora pred-autorizacija          | Trenutni sistemi ne mogu obrađivati transakcije u milisekundama ili podržavati kontinuirane tokove plaćanja u realnom vremenu.                                                                                               | Ograničava slučajeve upotrebe koji zahtevaju trenutna ili streaming plaćanja, ograničavajući inovacije i skalabilnost. |
+| Potreba za bankovnim/kartičnim računom | Pristup ovim načinima plaćanja zahteva povezani bankovni ili kartični račun, automatski isključujući one bez takvih računa.                                                                                                  | Ograničava finansijsku inkluziju, smanjujući pristup za nebankarizovane ili podbankarizovane populacije. |
+| Ponavljano kreiranje online naloga | Korisnici često moraju kreirati više online naloga, što dovodi do zamora, smanjene pogodnosti i povećanog izlaganja ličnih podataka.                                                                                         | Pogoršava korisničko iskustvo, povećava zabrinutost za privatnost i povećava rizik od curenja podataka. |
+| Naknade za razmenu valuta (FX)   | Nedostatak univerzalne obračunske jedinice primorava na skupe konverzije valuta za prekogranične transakcije.                                                                                                                 | Dodaje dodatne troškove za međunarodnu trgovinu, čineći globalne transakcije manje pristupačnim.    |
 
 Baš kao što smo prešli sa plaćanja po minuti za glasovne pozive na korišćenje skoro besplatne komunikacije zasnovane na IP-u, pojava otvorenijih i efikasnijih mreža može redefinisati plaćanja, smanjujući troškove i posrednike, i podstičući nove poslovne modele.
 
@@ -517,36 +503,22 @@ Bitkoin ETF-ovi prednjače sa velikom razlikom u smislu **institucionalnog usvaj
 Bitkoin sada igra u **tržištu** "čuvanja vrednosti". Predstavlja samo kap u moru u smislu obima: oko 1.800 milijardi dolara u poređenju sa zlatom od 18.000 milijardi ili nekretninama od 500.000 milijardi. Međutim, njegov tržišni udeo od oko 0,1% daje mu ogroman prostor za rast, posebno s obzirom na to da se njegovi konkurenti bore da privuku nove korisnike.
 
 | Oznaka  | 1D Tok (M USD)  | 1W Tok (M USD)  | 1M Tok (M USD)  | 3M Tok (M USD)  | YTD Tok (M USD)  |
-
 | ------- | --------------- | --------------- | --------------- | --------------- | ---------------- |
-
 | **Sum** | +457.19         | +1,507.95       | +2,888.01       | +3,672.29       | **+20,262.94**   |
-
 | IBIT    | +393.40         | +750.91         | +1,536.47       | +3,821.37       | +22,460.44       |
-
 | FBTC    | +14.81          | +372.40         | +627.16         | +458.71         | +10,266.69       |
-
 | ARKB    | +11.51          | +163.26         | +295.92         | -3.88           | +2,647.32        |
-
 | BITB    | +12.93          | +146.50         | +263.30         | +97.46          | +2,262.69        |
-
 | HODL    | +5.75           | +38.77          | +94.54          | +100.39         | +682.03          |
-
 | BRRR    | +1.92           | +4.72           | +17.76          | +20.54          | +540.19          |
-
 | EZBC    | +11.79          | +17.53          | +39.29          | +47.48          | +439.45          |
-
 | BTC     | .00             | -3.13           | +36.59          | +419.18         | +419.18          |
-
 | BTCO    | +6.43           | +19.25          | +47.30          | +56.41          | +394.82          |
-
 | BTCW    | .00             | +2.84           | +6.04           | +146.69         | +217.47          |
-
 | YBIT    | -1.34           | -10.26          | +5.06           | +13.81          | +76.30           |
-
 | DEFI    | .00             | .00             | .00             | -2.03           | -1.79            |
-
 | GBTC    | .00             | +5.16           | -81.42          | -1503.84        | -20,141.85       |
+
 
 *$20 milijardi za 10 meseci: Bitkoin ETF-ovi postigli su za manje od godinu dana- ono za šta je zlatnim ETF-ovima trebalo 5 godina. Izvor: Tokovi investicionih fondova u USD. Bloomberg Terminal, Bloomberg L.P., 2024.*
 
@@ -784,131 +756,75 @@ Da bismo pojednostavili proces donošenja odluka, definisali smo četiri različ
 
 #### Profil 1 – Početnik
 
-| Kriterijum                       | Početnik                                                                                                                                   |
-
-| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-
-| **Stanje Uma**                   | "pokušavam svoju prvu fizičku uplatu", "primam napojnicu za svoj online sadržaj", "ciljam na vrlo mali prihod"                                   |
-
-| **Učestalost transakcija**       | "prva transakcija kako bi se naučio", "primanje uplate s vremena na vreme"                                                                 |
-
-| **Primeri tipova poslovanja**    | Kreativna ekonomija (kreatori sadržaja, blogovi, članci, itd.), povremeni saveti, jednokratna prodaja proizvoda uživo, udruženja, jednokratni događaji |
-
-| **Vrsta Plaćanja**               | Generalno nekoliko centi do nekoliko evra/dolara; ispod ~300 evra/dolara po stavci                                                          |
-
-| **Kompleksnost Podešavanja**     | Nema                                                                                                                                     |
-
-| **Preporučeno rešenje**          | Starateljski Lightning Wallet kao Wallet od Satoshi ili nestarateljski Wallet kao Phoenix                                                 |
-
-| **Trgovacki izgled (Interface)** | Jednostavan Bitkoin Lightning novačnik: aplikacija na mobilnom telefonu                                                                            |
-
-| **Izgled (Interface) za kupce**  | Bitkoin QR kod za plaćanje, skeniran putem ličnog novčanika korisnika                                                                        |
-
-| **Naknade**                      | Kupac plaća Bitkoin Lightning naknade plus sve primenljive naknade za aplikaciju                                                            |
-
-| **Uređaj za prodajno mesto**     | Besplatna aplikacija za pametni telefon ili opcija za fizički terminal (npr. Bitkoinize)                                                   |
-
-| **Upravljanje i uloge**         | Upravljanje jednom aplikacijom; minimalna diferencijacija uloga                                                                                        |
-
-| **Izvoz računovodstvenih podataka**| Osnovne liste istorije transakcija                                                                                                         |
-
-| **API**                          | Ne                                                                                                                                         |
+| Atribut                          | Početnik                                                                                                                                       |
+| -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Stanje uma**                   | "pokušavam svoje prvo fizičko plaćanje", "primam napojnicu za moj online sadržaj", "ciljam vrlo mali prihod"                                  |
+| **Učestalost transakcija**       | "prva transakcija da bih naučio", "primam plaćanje s vremena na vreme"                                                                         |
+| **Primeri vrste poslovanja**     | Kreativna ekonomija (kreatori sadržaja, blogovi, članci, itd.), povremene napojnice, jednokratna lična prodaja proizvoda, udruženja, jednokratni događaji |
+| **Vrsta plaćanja**               | Generalno od nekoliko centi do nekoliko evra/dolara; ispod ~300 evra/dolara po artiklu                                                         |
+| **Složenost podešavanja**        | Nema                                                                                                                                           |
+| **Primer preporučenog rešenja**  | Custodial Lightning novčanik poput Wallet of Satoshi ili non-custodial novčanik poput Phoenix                                                  |
+| **Interfejs za trgovca**         | Jednostavni Bitcoin Lightning novčanik: aplikacija na mobilnom telefonu                                                                        |
+| **Interfejs za kupca**           | Bitcoin QR kod za plaćanje, skeniran putem ličnog novčanika kupca                                                                              |
+| **Naknade**                      | Kupac plaća Bitcoin Lightning naknade plus sve primenjive naknade aplikacije                                                                    |
+| **Uređaj za prodajno mesto**     | Besplatna aplikacija za pametni telefon ili opcija za fizički terminal (npr. Bitcoinize)                                                       |
+| **Upravljanje i uloge**          | Upravljanje jednom aplikacijom; minimalna diferencijacija uloga                                                                                |
+| **Izvozi za računovodstvo**      | Osnovne liste istorije transakcija                                                                                                             |
+| **API**                          | Ne                                                                                                                                             |
 
 #### Profil 2 – Osnovni
 
-| Kriterijum                       | Osnovni                                                                                                                              |
-
-| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-
-| **Stanje Uma**                   | "Prihvatam bitkoin u svom poslu, ali ne očekujem značajan obim"                                                                            |
-
-| **Učestalost transakcija**      | Nekoliko transakcija mesečno                                                                                                               |
-
-| **Primeri tipova poslovanja**    | Barovi, restorani, polu-redovna prodaja svežih ili direktno nabavljenih proizvoda, više prodavnica pod jednim vlasnikom, kreativna ekonomija za umetnike |
-
-| **Vrsta Plaćanja**               | Generalno u rasponu od nekoliko evra/dolara do nekoliko stotina po stavci; ispod ~300 po artiklu i ispod ~3,000 mesečno                    |
-
-| **Kompleksnost Podešavanja**     | Minimalna (mobilna aplikacija)                                                                                                             |
-
-| **Preporučeno Rešenje**         | Swiss Bitkoin Pay                                                                                                                          |
-
-| **Trgovacki izgled (Interface)**| Jednostavan Bitkoin Lightning novčanik: aplikacija na mobilnom telefonu; jednostavno fakturisanje sa minimalnim detaljima                                           |
-
-| **Izgled (Interface) za kupce**  | Bitkoin QR kod za plaćanje, skeniran putem ličnog novčanika korisnika                                                                        |
-
-| **Naknade**                      | Obično <1% za slanje na Bitkoin adresu, i <1.5% za konverziju u fiat                                                                 |
-
-| **Uređaj za prodajno mesto**     | Besplatna aplikacija za pametne telefone ili opcija za fizički terminal (npr. Bitkoinize)                                                  |
-
-| **Upravljanje i uloge**          | Opcija za ulogu samo za prodaju za zaposlene; online kontrolna tabla za administraciju                                                             |
-
-| **Izvoz računovodstvenih podataka**| CSV izvoz sa kompletnim detaljima transakcija                                                                                              |
-
-| **API**                          | Da                                                                                                                                         |
+| Atribut                          | Osnovni                                                                                                                                       |
+| -------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Stanje uma**                   | "Prihvatam Bitcoin u svom poslovanju, ali ne očekujem značajan obim"                                                                          |
+| **Učestalost transakcija**       | Nekoliko transakcija mesečno                                                                                                                  |
+| **Primeri vrste poslovanja**     | Barovi, restorani, poluregularna prodaja svežih ili direktno nabavljenih proizvoda, više prodavnica pod jednim vlasnikom, kreativna ekonomija za umetnike |
+| **Vrsta plaćanja**               | Generalno u rasponu od nekoliko evra/dolara do nekoliko stotina po artiklu; ispod ~300 po artiklu i ispod ~3,000 mesečno                      |
+| **Složenost podešavanja**        | Minimalna (mobilna aplikacija)                                                                                                                |
+| **Primer preporučenog rešenja**  | Swiss Bitcoin Pay                                                                                                                             |
+| **Interfejs za trgovca**         | Jednostavni Bitcoin Lightning novčanik: aplikacija na mobilnom telefonu; jednostavno fakturisanje sa minimalnim detaljima                     |
+| **Interfejs za kupca**           | Bitcoin QR kod za plaćanje, skeniran putem ličnog novčanika kupca                                                                             |
+| **Naknade**                      | Tipično <1% za slanje na Bitcoin adresu, i <1.5% za konverziju u fiat                                                                         |
+| **Uređaj za prodajno mesto**     | Besplatna aplikacija za pametni telefon ili opcija za fizički terminal (npr. Bitcoinize)                                                      |
+| **Upravljanje i uloge**          | Opcija za ulogu samo-prodaje za zaposlene; online kontrolna tabla za administraciju                                                           |
+| **Izvozi za računovodstvo**      | CSV izvoz sa kompletnim detaljima transakcija                                                                                                 |
+| **API**                          | Da                                                                                                                                            |
 
 #### Profil 3 – Profesionalac
 
-| Karakteristike                        | Profesionalac                                                                                                                                          |
-
+| Atribut                          | Profesionalac                                                                                                                                          |
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-
-| **Stanje uma**                   | - Način plaćanja kao i svaki drugi za moju e-trgovinu - Ili zajedničko upravljanje za grupu preduzeća spremnih za veće obime                           |
- 
+| **Stanje uma**                   | - Način plaćanja kao i svaki drugi za moju e-trgovinu - Ili zajedničko upravljanje za grupu preduzeća spremnih za veće obime                          |
 | **Učestalost transakcija**       | Više transakcija dnevno                                                                                                                               |
-
-| **Primeri tipova poslovanja**    | E-commerce sajtovi sa umerenim obimom, male pijace, grupe fizičkih prodavnica (npr. Klikni i preuzmi), mala i srednja preduzeća (MSP) operacije |
-
-| **Vrsta Plaćanja**               | Generalno u rasponu od nekoliko evra/dolara do nekoliko stotina; nema postavljenog limita veličine plaćanja; manje od 250.000 godišnje               |
-
-| **Kompleksnost Podešavanja**     | Od jednostavnih do potpuno opremljenih (lokalno ili u oblaku), često zahteva prodavnicu za e-trgovinu                                                |
-
-| **Preporučeno rešenje**          | BTC Pay Server za e-trgovinu i/ili fizička okruženja; ZapRite, Musqet ili PayWithFlash za naplatu, Be-BOP za integrisanu e-prodavnicu             |
-
-| **Trgovacki izgled (Interface)** | Vebsajt (mobilni i desktop) sa uređivanjem faktura, opcijama za korpe za kupovinu i kreiranjem dugmeta za plaćanje; automatsko fakturisanje sa integracijom e-trgovine |
-
-| **Izgled (Interface) za kupce**| Bitkoin QR kod za plaćanje, skeniran putem ličnog novčanika korisnika                                                                                    |
-
-| **Naknade**                      | Mešavina besplatnog open-source backend-a i plaćenih Lightning hosting/usluga; naknade za front-end uključuju Bitkoin Lightning naknade i <1,5% naknade za konverziju       |
-
-| **Uređaj za prodajno mesto**     | Prodavnica na vebsajtu, opcioni fizički prikaz (npr. iPad koji prikazuje sajt ili Bitkoin terminal)                                                      |
-
-| **Upravljanje i Uloge**         | Potpuno opremljena prodavnica sa više administratorskih uloga; zaposleni i kupci komuniciraju sa sistemom                                                       |
-
-| **Računovodstveni Izvoz**        | CSV izvoz sa kompletnim detaljima transakcija                                                                                                         |
-
+| **Primeri vrste poslovanja**     | E-commerce sajtovi sa umerenim obimom, mala tržišta, grupe fizičkih prodavnica (npr. Click & Collect), poslovanje MSP                                 |
+| **Vrsta plaćanja**               | Generalno u rasponu od nekoliko evra/dolara do nekoliko stotina; bez postavljenog ograničenja veličine plaćanja; manje od 250.000 godišnje            |
+| **Složenost podešavanja**        | Laka do potpuno opremljena (lokalno ili cloud hosting), često zahteva e-commerce izlog                                                                |
+| **Primer preporučenog rešenja**  | BTC Pay Server za e-trgovinu i/ili fizička okruženja; ZapRite, Musqet ili PayWithFlash za naplatu, Be-BOP za integrisanu e-prodavnicu                |
+| **Interfejs za trgovca**         | Web sajt (mobilni i desktop) sa uređivanjem faktura, opcijama korpe za kupovinu i kreiranjem dugmeta za plaćanje; automatizovano fakturisanje sa e-commerce integracijom |
+| **Interfejs za kupca**           | Bitcoin QR kod za plaćanje, skeniran putem ličnog novčanika kupca                                                                                     |
+| **Naknade**                      | Kombinacija besplatnog backend-a otvorenog koda i plaćenih Lightning hosting/uslužnih naknada; naknade za frontend uključuju Bitcoin Lightning naknade i <1.5% naknade za konverziju |
+| **Uređaj za prodajno mesto**     | Web sajt prodavnice, opcioni fizički displej (npr. iPad koji prikazuje sajt ili Bitcoin terminal)                                                     |
+| **Upravljanje i uloge**          | Potpuno opremljena prodavnica sa više administratorskih uloga; zaposleni i kupci interaguju sa sistemom                                               |
+| **Izvozi za računovodstvo**      | CSV izvoz sa kompletnim detaljima transakcija                                                                                                         |
 | **API**                          | Da                                                                                                                                                    |
 
 #### Profil 4 – Preduzeće
 
-| Karakteristike                     | Preduzeće                                                                                                                                 |
-
-| -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-
-| **Stanje uma**                   | - Strateški način plaćanja za poslovanje - Uz određeni razvoj za integraciju u platformu usluga prema specifičnim specifikacijama      |
-
-| **Učestalost transakcija**       | Neograničene, visokofrekventne transakcije                                                                                                      |
-
-| **Primeri tipova poslovanja**    | Srednja preduzeća, IT servisne kompanije, velike korporacije, veliki tržišni prostori                                                                 |
-
-| **Vrsta Plaćanja**               | Bilo koja veličina ili obim                                                                                                                     |
-
-| **Kompleksnost Podešavanja**     | Srednja do visoka, u zavisnosti od izbora arhitekture                                                                                           |
-
-| **Preporučeno rešenje**          | Arhitektura po meri ili orkestracija SaaS-hostovanih rešenja, potencijalno korišćenjem usluga treće strane LSP (*Lightning Service Provider*)   |
-
-| **Trgovacki izgled (Interface)**| Potpuno prilagođeni interfejsi prednjeg i zadnjeg kraja potpuno integrisani u tokove rada i procese poslovanja                                 |
-
-| **Izgled (Interface) za kupce** | U rasponu od Bitkoin QR koda za plaćanje do potpuno prilagođenog korisničkog interfejsa i/ili API integracije                                                              |
-
-| **Naknade**                      | Kombinacija internih razvojnih i naknada trećih strana; kupac plaća Bitkoin Lightning naknade plus sve transakcione naknade od pružalaca usluga |
-
-| **Uređaj za prodajno mesto**     | Rešenja po meri, prilagođena poslovnom okruženju                                                                                               |
-
-| **Upravljanje i uloge**          | Potpuno prilagođene uloge u prodaji, administraciji, devopsu, računovodstvu i finansijama                                                        |
-
-| **Računovodstveni izvoz**| Potpuno prilagođeni računovodstveni izveštaji                                                                                                      |
-
-| **API**                          | Da                                                                                                                                             |
+| Atribut                          | Preduzeće                                                                                                                                          |
+| -------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Stanje uma**                   | - Strateški način plaćanja za poslovanje - Sa određenim razvojem za integraciju u uslužnu platformu prema specifičnim specifikacijama             |
+| **Učestalost transakcija**       | Neograničene, transakcije visoke frekvencije                                                                                                       |
+| **Primeri vrste poslovanja**     | Srednja preduzeća, IT uslužne kompanije, velike korporacije, velika tržišta                                                                        |
+| **Vrsta plaćanja**               | Bilo koja veličina ili obim                                                                                                                        |
+| **Složenost podešavanja**        | Srednja do visoka, u zavisnosti od izbora arhitekture                                                                                              |
+| **Primer preporučenog rešenja**  | Prilagođena arhitektura ili orkestracija SaaS hosting rešenja, potencijalno koristeći usluge trećih strana LSP (*Lightning Service Provider*)     |
+| **Interfejs za trgovca**         | Potpuno prilagođeni frontend i backend interfejsi u potpunosti integrisani u radne tokove i procese poslovanja                                     |
+| **Interfejs za kupca**           | U rasponu od Bitcoin QR koda za plaćanje do potpuno prilagođenog korisničkog interfejsa i/ili API integracije                                      |
+| **Naknade**                      | Kombinacija internog razvoja i naknada trećih strana; kupac plaća Bitcoin Lightning naknade plus sve transakcione naknade od pružalaca usluga      |
+| **Uređaj za prodajno mesto**     | Prilagođena rešenja dizajnirana za okruženje preduzeća                                                                                             |
+| **Upravljanje i uloge**          | Potpuno prilagođene uloge u prodaji, administraciji, devops-u, računovodstvu i finansijama                                                         |
+| **Izvozi za računovodstvo**      | Potpuno prilagođeni izvozi za računovodstvo                                                                                                        |
+| **API**                          | Da                                                                                                                                                 |
 
 U narednim poglavljima, detaljno ćemo opisati svaki poslovni profil i rešenja prilagođena svakom od njih.
 
@@ -1412,7 +1328,7 @@ Konačno, bilo da ste mali trgovac ili već etablirano preduzeće, moguće je **
 - Preostali bitkoin (0.19335) prikazati u bilansu stanja vrednovan na €7,734.
 - Nerealizovani dobici od €5,468 na zadržanom bitkoin objavljeni u finansijskim beleškama.
 
-# Zaključak
+# Završna sekcija
 
 <partId>f6ca8d01-a4f3-449b-ac9f-c5fba9a69178</partId>
 

@@ -13,11 +13,11 @@ Rendez-vous sur [btcmap.org](https://btcmap.org/) :
 ![image](assets/fr/01.webp)
 
 Disponible sur :
-- iOS via l’AppStore
-- Android via le Play Store
-- F-Droid le catalogue d’applis open-source sur android
-- en téléchargeant directement l’apk android sur le github du projet
-- via l’appli web depuis votre navigateur
+- iOS via l’[AppStore](https://apps.apple.com/app/btc-world-map/id6443604345)
+- Android via le [Play Store](https://play.google.com/store/apps/details?id=org.btcmap.app)
+- [F-Droid](https://f-droid.org/en/packages/org.btcmap/) le catalogue d’applis open-source sur android
+- en téléchargeant directement l’[apk android](https://github.com/teambtcmap/btcmap-android/releases/latest) sur le github du projet
+- via l’appli web depuis votre navigateur (notre point de vue aujourd'hui)
 
 Aujourd’hui nous resterons sur la version web. Elle est pour le moment intégralement en anglais, aussi allons-nous voir ensemble les différentes rubriques. J'ajoute que si un bouton ou un lien dysfonctionne, je vous conseille un clic droit -> ouvrir dans un autre onglet.
 

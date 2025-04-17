@@ -1,91 +1,87 @@
-id: fc1b553f-5298-4e75-9f34-8af19025f1b1
+# UUID of the tutorial
+# generate a random uuid v4
+id: 6cbcb406-ec84-478f-afac-bb4da366a6fa
 
-level: advanced
+# Characteristic of tutorial
 
+# Project
+# Write the project name
+project_id: 8df1bcbb-0521-4288-b98e-58ec245d5742
+
+# Level
+# Level can be one of following:
+# - beginner
+# - intermediate
+# - advanced
+# - expert
+level: intermediate
+
+# Category
+# Category can be choosen from the following list (only look at words with lowercase letters):
+#Tutorials/
+#├── WALLET/
+#│   ├── desktop
+#│   ├── hardware
+#│   ├── mobile
+#│   └── backup
+#├── NODE/
+#│   ├── bitcoin
+#│   ├── lightning-network
+#│   └── others
+#├── MINING/
+#│   ├── hardware
+#│   └── pool
+#├── BUSINESS/
+#│   ├── point-of-sale
+#│   └── others
+#├── EXCHANGE/
+#│   ├── peer-to-peer
+#│   └── centralized
+#├── PRIVACY/
+#│   ├── on-chain
+#│   └── analysis
+#├── COMPUTER SECURITY/
+#│   ├── authentication
+#│   ├── communication
+#│   ├── operating system
+#│   └── data
+#└── CONTRIBUTION/
+#    ├── tutorial
+#    ├── resource
+#    └── others
 category: mobile
 
-project_id: 8df1bcbb-0521-4288-b98e-58ec245d5742
-original_language: en
-proofreading:
-  - language: cs
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 1.14
-  - language: de
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.88
-  - language: en
-    last_contribution_date: 2024-09-01
-    urgency: 1
-    contributor_names:
-      - Asi0Flammeus
-    reward: 0.44
-  - language: es
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.88
-  - language: fi
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 1.14
-  - language: fr
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.88
-  - language: it
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.88
-  - language: ja
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 1.66
-  - language: pt
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.88
-  - language: ru
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 1.14
-  - language: vi
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 1.66
-  - language: id
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 1.4
-  - language: zh-Hans
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 1.4
-  - language: et
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 1.14
+# Professor
+# Insert the UUID of the person that authored this tutorial
+professor_id: 94b1f27b-c0bd-432c-a2b5-17db0f6dd435
 
-
-  - language: nb-NO
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 1.14
+# Tags
+# Choose from the list the associated tags to this content
+# The list of tags is composed of 51 items that can be found here (bitcoin-education-content/docs/50-planb-tags.md)
 tags:
-  - guides
   - wallets
-  - user-friendly
+  - guides
+
+# OPTIONAL
+# its use is to mention the original source at both the beginning and at the end of the tutorial
+credit_link: https://link_to_the_original_tuto.com
+
+# Proofreading metadata
+# Only the original author needs to add this data related to initial proofreading
+# Any further data will be automatically added after each proofreading
+#
+# This information are provided by PBN team, no need to specify if you are a contributor.
+# for PBN staff: an entry is created for each language specifying:
+# - language: language to review
+# - last_contribution_date: the date when last contribution has been received
+# - urgency: level of urgency from 1 (low urgency) to X(high urgency)
+# - contributor_names: list of contributors PBN ids
+# - reward: amount of sats available for reward
+original_language: it
+proofreading:
+  - language: it
+    last_contribution_date: 2025-04-16
+    urgency: # leave as empty
+    contributor_names:
+      - f205sats
+    reward: # leave as empty

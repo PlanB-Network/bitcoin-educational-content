@@ -22,7 +22,7 @@ objectives:
 
 <partId>326cf945-5d3f-4d86-8c3e-4d1c35959799</partId>
 
-## अपनी कंपनी को बिटकॉइन से जोड़ें
+## पाठ्यक्रम अवलोकन
 
 <chapterId>1be42be9-4080-49f5-b5b2-6b531dd55f5f</chapterId>
 

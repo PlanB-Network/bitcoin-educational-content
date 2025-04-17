@@ -1,5 +1,5 @@
 ---
-name: Nunchuk Mobile
+name: Nunchuk
 description: Wallet mobile adatto a tutti
 ---
 ![cover](assets/cover.webp)
@@ -7,17 +7,16 @@ description: Wallet mobile adatto a tutti
 ## Un wallet potente
 Nunchuk è arrivato a fine 2020 con una filosofia ben precisa: fare del multifirma uno standard. È pertanto stato progettato per svolgere funzioni molto avanzate, con la pregevole scelta di costruire il progetto direttamente su Bitcoin Core, il software di riferimento per l'ecosistema Bitcoin.
 
-Dopo oltre 4 anni di sviluppo ed utilizzo, è pronto per essere provato su scala. Se sei un principiante e non conosci Nunchuk, questa guida ti aiuterà a compiere i primi passi e scoprire questo software, le cui funzioni avanzate potrai conoscere dopo aver superato il primo impatto. Il tutorial in sé è dedicato ad utenti intermedi che possiedono le competenze necessarie a seguirne tutti i passi, ma può essere di ispirazione per tutti per scoprire come aumentare le abilità.
-Inizieremo con la versione mobile e questa puntualizzazione è necessaria, dato che Nunchuk ha il software per essere eseguito anche su computer.
+Dopo oltre 4 anni di sviluppo ed utilizzo, è pronto per essere provato su scala. Se sei un principiante e non conosci Nunchuk, questa guida ti aiuterà a compiere i primi passi e scoprire questo software, le cui funzioni avanzate potrai conoscere dopo aver superato il primo impatto. Il tutorial in sé è dedicato ad utenti intermedi che possiedono le competenze necessarie a seguirne tutti i passi, ma può essere di ispirazione per tutti per scoprire come aumentare le abilità. Inizieremo con la versione mobile e questa puntualizzazione è necessaria, dato che Nunchuk ha il software per essere eseguito anche su computer.
 
 ## Download
 Il primo step è sicuramente decidere dove scaricare l'app. Vai sul [sito ufficiale](https://nunchuk.io/) dove puoi trovare un po' di documentazione (non molta ma è un inizio), la presentazione delle caratteristiche nonché, verso fine pagina, tutti i link per il download.
 
-📌 Per questo tutorial ho deciso di mostrarti come scaricare il software wallet dal repository Github e come verificare la release prima di installarla sul tuo cellulare. **La procedura che segue si può fare solo dal computer**, pertanto ti consiglio di fare tutte queste operazioni dal tuo desktop e - dopo tutte le verifiche - trasferire il file `.apk` sul cellulare.
+📌 Per questo tutorial ho deciso di mostrarti come scaricare il software wallet dal repository Github e come verificare la release prima di installarla sul tuo cellulare. **La procedura che segue si può fare solo dal computer**, pertanto ti consiglio di fare tutte queste operazioni dal tuo desktop o laptop e - dopo tutte le verifiche - trasferire il file `.apk` sul cellulare.
 
 ![image](assets/en/01.webp)
 
-Se le tue competenze non sono molto alte, puoi decidere di scaricare l'`.apk` dagli store ufficiali e saltare direttamente alla parte di questo tutorial dedicata alla configurazione. Se invece vuoi fare il salto di qualità, continua a seguire passo dopo passo.
+Se le tue competenze non sono molto avanzate, puoi decidere di scaricare l'`.apk` dagli store ufficiali e saltare direttamente alla parte di questo tutorial dedicata alla configurazione. Se invece vuoi fare il salto di qualità, continua a seguire passo dopo passo.
 
 Dal tuo computer desktop clicca dunque _Visit our open source repository_
 
@@ -63,7 +62,7 @@ Prima di lanciare Nunchuk sul cellulare, apri Orbot e inserisci il nuovo arrivat
 
 ![image](assets/en/11.webp)
 
-Ora fai partire Nunchuk. Per le caratteristiche del progetto e che non sono oggetto di questo tutorial, Nunchuk si apre con un invito a creare una login con una email o con il profilo Google. Finché non hai intenzione di usufruire dei piani avanzati di Nunchuk Inc, **evita di creare una login** e procedi dritto scegliendo _Continue as guest_.
+Ora fai partire Nunchuk. Per le caratteristiche del progetto - che non sono oggetto di questo tutorial - Nunchuk, una volta aperto, ti inviterà ad eseguire il login tramite una email o un profilo Google. Finché non avrai intenzione di usufruire dei piani avanzati di Nunchuk Inc, **evita di eseguire il login** e procedi scegliendo l'opzione _Continue as guest_.
 
 ![image](assets/en/12.webp)
 
@@ -94,7 +93,7 @@ Dai anche un'occhiata al menu _About_, che trovi sempre nella finestra _Profile_
 
 ![image](assets/en/18.webp)
 
-che ti consentirà di verificare la versione della app, o per scoprire come contattare gli sviluppatori in caso di necessità.
+che ti consentirà di verificare la versione della app, o per contattare gli sviluppatori in caso di necessità.
 
 ![image](assets/en/19.webp)
 
@@ -178,7 +177,7 @@ Siccome stiamo creando un singlesig, lasciamo `1` e clicchiamo _Continue_.
 
 Per ultimo, compare una schermata di verifica, dove puoi controllare le caratteristiche del wallet:
 - il nome
-- `1/1 Multisig`, che è il modo in cui Nunchuk nomina i singlesig
+- il tage `1/1 Multisig`, che è il modo in cui Nunchuk nomina i wallet singlesig
 - lo script type, `Native segwit`
 - la chiave `Keys`, con relativo fingerprint e derivation path
 
@@ -223,7 +222,7 @@ Quando anche questo secondo UTXO è arrivato, torna nella schermata principale d
 
 ![image](assets/en/42.webp)
 
-dove ti verranno mostrati gli UTXO singoli. Qui è possibile scegliere di visualizzarne un in particolare, cliccando la freccina accanto all'importo
+dove ti saranno mostrati gli UTXO singoli. Qui è possibile scegliere di visualizzarne un in particolare, cliccando la freccina accanto all'importo
 
 ![image](assets/en/43.webp)
 
@@ -237,8 +236,7 @@ Nell'esempio che segue ho scelto di selezionare l'UTXO di 21.000 sats e poi clic
 
 ![image](assets/en/45.webp)
 
-Nunchuk apre automaticamente la finestra _New transaction_ per spendere questo UTXO.
-Nella transazione di spesa, per prima cosa, si deve impostare l'importo manualmente o selezionando _Send all selected_ per inviare tutto il saldo del coin control, senza generare resti. Una volta impostato l'importo, scegli _Continue_
+Nunchuk apre automaticamente la finestra _New transaction_ per spendere questo UTXO. Nella transazione di spesa, per prima cosa, si deve impostare l'importo manualmente o selezionando _Send all selected_ per inviare tutto il saldo del coin control, senza generare resti. Una volta impostato l'importo, scegli _Continue_
 
 ![image](assets/en/46.webp)
 
@@ -339,6 +337,6 @@ o a vedere come visualizzare tutti i tuoi wallet nella _Home_ della app.
 ## Da tenere a mente per proseguire in autonomia
 Così come c'è un ordine per la creazione, ovvero prima la generazione delle chiavi e poi del wallet, dovrai mantenere l'ordine inverso per la cancellare questi elementi dalla tua app.
 
-Se hai l'esigenza di eliminare una delle chiavi, dovrai prima avere l'accortezza di cancellare il/i wallet che ne dispongono la firma per le transazioni: prima si cancellano i wallet e solo dopo le chiavi. Se non seguirai quest'ordine, ti ritroverai nell'impossibilità di rimuovere la chiave.
+Se hai l'esigenza di eliminare una delle chiavi, dovrai prima avere l'accortezza di cancellare il wallet, oppure i wallet, che impiegano una delle chiavi per la firma per le transazioni: prima si cancellano i wallet e solo dopo le chiavi. Se non seguirai quest'ordine, ti ritroverai nell'impossibilità di rimuovere la chiave.
 
 Ora che sai come partire con Nunchuk, puoi continuare a studiare questa app e scoprirne i segreti. In questo tutorial abbiamo soltanto mosso i primi passi, ma ci sono applicazioni più sofisticate ed esigenze evolute che questo software wallet può aiutarti a soddisfare.

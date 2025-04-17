@@ -128,7 +128,7 @@ NB. Si consiglia di effettuare la revisione nella finestra del codice, con il co
 ![REVIEW](assets/fr/10.webp)
 
 
-- A questo punto arrivi alla pagina PR. Una Pull Request è una richiesta di sottoporre le modifiche apportate su un branch di un repository remoto per la revisione e l'eventuale integrazione nel ramo principale.
+- A questo punto arrivi alla pagina PR. Una Pull Request è una richiesta di sottoporre le modifiche apportate su un branch di un repository remoto per la revisione e l'eventuale integrazione nel branch principale.
 - Aggiungi un titolo e una breve descrizione alla tua PR. Il titolo deve corrispondere alla issue su cui si sta lavorando. Ad esempio, se il titolo della issue è `[TRANSLATION] Course CYP201 - FR`, usate lo stesso titolo per la vostra PR (cfr. \**A\**). Nella descrizione, menzionate il problema associato usando il suo numero, preceduto da "Closes". In questo modo la issue verrà chiusa automaticamente una volta che la PR sarà accettata e integrata (cfr. \**B\**).
 - Se tutto ti sembra a posto, fai clic sul pulsante verde "Create Pull Request" (cfr. \**C\**).
 
@@ -154,7 +154,7 @@ NB. Si consiglia di effettuare la revisione nella finestra del codice, con il co
 
 
 - Grazie mille per il tuo contributo! Dopo l'approvazione, un membro del team di Plan ₿ Network ti contatterà per inviati la tua ricompensa. \**I pagamenti vengono effettuati esclusivamente tramite la rete Lightning\**.
-- Se vuoi contribuire di nuovo, torna al punto 2 e invia un nuovo messaggio nel gruppo Telegram per iniziare a lavorare su un altro contenuto. Assicurati di sincronizzare il tuo fork prima di creare un nuovo ramo di lavoro. Per farlo, vai nella homepage del tuo fork, seleziona il branch principale chiamato `dev` (cfr. \**A\**), quindi fai clic sul pulsante "Sync fork" (cfr. \**B\**). Se sono disponibili aggiornamenti per il tuo fork, apparirà un pulsante "Update branch". Ti basterà cliccarlo per eseguire l'aggiornamento.
+- Se vuoi contribuire di nuovo, torna al punto 2 e invia un nuovo messaggio nel gruppo Telegram per iniziare a lavorare su un altro contenuto. Assicurati di sincronizzare il tuo fork prima di creare un nuovo branch di lavoro. Per farlo, vai nella homepage del tuo fork, seleziona il branch principale chiamato `dev` (cfr. \**A\**), quindi fai clic sul pulsante "Sync fork" (cfr. \**B\**). Se sono disponibili aggiornamenti per il tuo fork, apparirà un pulsante "Update branch". Ti basterà cliccarlo per eseguire l'aggiornamento.
 
 ![REVIEW](assets/fr/16.webp)
 

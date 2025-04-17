@@ -1,7 +1,7 @@
 ---
-tytuł: Podróż przez świat Bitcoina 
-cel: Odkryj Bitcoina i jego podstawy, w tym jego propozycję wartości monetarnej, górników, transakcje i portfele.
-zagadnienia:
+name: Podróż przez świat Bitcoina 
+goal: Odkryj Bitcoina i jego podstawy, w tym jego propozycję wartości monetarnej, górników, transakcje i portfele.
+objectives:
   - Zdobądź ogólne zrozumienie technologii Bitcoin
   - Zrozum, jak kupować i zabezpieczać bitcoiny
   - Zdobądź ogólne zrozumienie technologii Blockchain
@@ -22,65 +22,77 @@ Nie potrzebujesz żadnej specjalistycznej wiedzy, aby zacząć naukę - kurs jes
 
 <partId>3cd2ac82-026c-53e1-874a-baf5842adc6d</partId>
 
-## Skok w nieznane
+## Przegląd kursu
 
 <chapterId>27e3fb60-4b50-556b-9e70-c4f5475c121d</chapterId>
 
-### Witaj w nowym paradygmacie monetarnym i technologicznym.
 
-Bitcoin to rewolucja technologiczna i monetarna, która która podważa nasz dotychczasowy stosunkek do pieniądza i społeczeństwa. Bitcoin (w skrócie BTC) jest tzw. walutą **neutralną** i **zdecentralizowaną**, co oznacza, że nie jest kontrolowana przez żadną jednostkę ani instytucję. To innowacja, która wykracza poza prostą „walutę internetową” – to zarówno protokół internetowy (zapisywany dużą literą: Bitcoin) jak i jednostka monetarna (zapisywana małą literą: bitcoin). 
+Witamy w kursie BTC101!
 
 
-Protokół Bitcoin bazuje na technologiach takich jak kryptografia, komunikacja sieciowa i słynny „łańcuch bloków”, podczas gdy jednostka bitcoin jest walutą niezbędną do prawidłowego funkcjonowania tego właśnie protokołu. W swoim codziennym życiu obywatele państwa El Salvador (pierwsze państwo na świecie, które zaakceptowało bitcoina jako oficjalną walutę kraju – przyp. tłum.) oraz bitcoinerzy na całym świecie używają waluty bitcoin do kupowania i sprzedawania towarów i usług, polegając na tej technologii, aby polepszyć swoje życie.
+Bitcoin to rewolucja technologiczna i monetarna, która może sprawić, że zakwestionujemy nasze relacje z pieniędzmi i społeczeństwem. W rzeczywistości Bitcoin (określany jako BTC) jest **neutralną** i **zdecentralizowaną** walutą, co oznacza, że nie jest kontrolowany przez żaden podmiot ani instytucję. Jest to innowacja, która wykracza poza zwykłą "walutę internetową": jest to zarówno protokół komputerowy (Bitcoin), jak i jednostka monetarna (Bitcoin).
 
-### Kompleksowy, a jednocześnie przystępny program nauczania
 
-W tym kursie omówimy aspekty monetarne Bitcoina, w tym jak kupować i sprzedawać bitcoiny, bezpiecznie przechowywać je w portfelach cyfrowych oraz używać ich do transakcji. Zbadamy również rolę górników, którzy są niezbędni do tworzenia nowych bitcoinów i zabezpieczania sieci Bitcoin. Na końcu przyjrzymy się przyszłości Bitcoina i temu, jak technologia Lightning Network może poprawić transakcje w protokole Bitcoin.
+Protokół Bitcoin wykorzystuje podstawowe technologie, takie jak kryptografia, komunikacja sieciowa i słynny "Blockchain", podczas gdy jednostka Bitcoin służy jako waluta niezbędna do prawidłowego funkcjonowania tego protokołu. W życiu codziennym Salwadorczycy i bitcoinerzy na całym świecie używają waluty Bitcoin do kupowania i sprzedawania towarów i usług, polegając na tej technologii, aby uczynić swoje życie lepszym.
 
-![obraz](assets/Concept/chapitre0/4.jpeg)
+**Kompleksowy, ale przystępny program nauczania:**
 
-Istotne jest, aby zrozumieć, że Bitcoin to nowy system monetarny, który całkiem zmieni nasz stosunek do pieniędzy. Nauczenie się korzystania z Bitcoina jest umiejętnością niezbędną dla każdego, kto chce mieć kontrolę nad własnymi funduszami.
+W tym kursie omówimy niektóre aspekty pieniężne Bitcoin, w tym jak kupować i sprzedawać bitcoiny, bezpiecznie przechowywać je w cyfrowych portfelach i używać ich do transakcji. Przeanalizujemy również rolę górników, którzy są niezbędni do tworzenia nowych bitcoinów i zabezpieczania sieci Bitcoin. Na koniec zbadamy przyszłość Bitcoin i sposób, w jaki technologia Lightning Network może usprawnić transakcje Bitcoin.
 
-**Sekcja 1 - Pieniądz**
+![image](assets/en/01.webp)
 
-- Rozdział 1 - Co to jest pieniądz?
-- Rozdział 2 - Pieniądz fiducjarny
-- Rozdział 3 - Hiperinflacja
-- Rozdział 4 - Polityka monetarna Bitcoina
+Ważne jest, aby zrozumieć, że Bitcoin to nowy system monetarny, który całkowicie zmienia nasze relacje z pieniędzmi, więc nauka korzystania z niego jest niezbędną umiejętnością dla każdego, kto chce mieć kontrolę nad własnymi funduszami.
 
-**Sekcja 2 - Portfele Bitcoin**
+**Sekcja 1 - Wprowadzenie**
 
-- Rozdział 5 - Jak działają portfele Bitcoin?
-- Rozdział 6 - Wybór twojego zabezpieczenia
-- Rozdział 7 - Konfiguracja twojego portfela
-- Rozdział 8 - Ochrona przed upływem czasu
+- Rozdział 1 - Przegląd kursu
+- Rozdział 2 - Prehistoria Bitcoin
 
-**Sekcja 3 - Aspekty techniczne Bitcoina**
+**Sekcja 2 - Pieniądze**
 
-- Rozdział 9 - Czym jest transakcja?
-- Rozdział 10 - Węzły Bitcoina
-- Rozdział 11 - Górnicy
-- Rozdział 12 - Górnicy a ekologia
+- Rozdział 3 - Pieniądze na przestrzeni dziejów
+- Rozdział 4 - Waluty fiat
+- Rozdział 5 - Hiperinflacja
+- Rozdział 6 - 21 milionów bitcoinów
+- 
+**Sekcja 3 - Portfele Bitcoin**
 
-**Sekcja 4 - Oszczędzanie w Bitcoinie**
+- Rozdział 7 - Czym jest Bitcoin Wallet?
+- Rozdział 8 - Portfele Bitcoin i bezpieczeństwo
+- Rozdział 9 - Konfiguracja Wallet
+- Rozdział 10 - Przetrwać próbę czasu
 
-- Rozdział 13 - Cena Bitcoina
-- Rozdział 14 - Jak kupić Bitcoina?
-- Rozdział 15 - Praca za Bitcoiny
-- Rozdział 16 - Hiperbitcoinizacja
+**Sekcja 4 - Techniczne aspekty Bitcoin**
 
-**Sekcja 5 - Lightning Network**
+- Rozdział 11 - Uruchomienie Bitcoin
+- Rozdział 12 - Transakcje Bitcoin
+- Rozdział 13 - Węzły Bitcoin
+- Rozdział 14 - Górnicy
+- Rozdział 15 - Bitcoin i ekologia
 
-- Rozdział 17 - Wprowadzenie do Lightning Network
-- Rozdział 18 - Przykłady wykorzystania sieci Sieci Lightning
+**Sekcja 5 - Jak zdobyć Bitcoiny?
 
-Zanim przedstawimy definicję pieniądza i jego funkcji w społeczeństwie (Rozdział 1), zaczynamy od genezy Bitcoina. Bitcoin to stosunkowo nowa technologia, obecna od 2009 roku, która jest inna niż to, co znaliśmy do tej pory. Dlatego naturalne jest, że nie wszystko jest od razu zrozumiałe. W praktyce jednak, podobnie jak przy uczeniu się korzystania z Internetu czy samochodu, nie trzeba znać wszystkich szczegółów technicznych od razu - można zacząć od nauczenia się, jak otrzymywać, płacić i zabezpieczać swoje środki, a dopiero potem zacząć się powoli wgłębiać w dalsze szczegóły.
-Jesteśmy dopiero w początkowej fazie jego adopcji - za nami dopiero faza początkowa - masz więc jeszcze sporo czasu, aby nauczyć się wszystkiego, co chciałbyś wiedzieć o tym nowym wynalazku. 
+- Rozdział 16 - Bitcoin nigdy nie śpi!
+- Rozdział 17 - Zarabianie Bitcoinów poprzez pracę
+- Rozdział 18 - Oszczędzanie z Bitcoin
+- Rozdział 19 - Hiperbitcoinizacja
 
+**Sekcja 6 - Przyszłość Bitcoin: Lightning Network**
+
+- Rozdział 20 - Krótkie wprowadzenie do Lightning Network
+- Rozdział 21 - Przypadki użycia Lightning Network
+- Rozdział 22 - Czerwona czy niebieska pigułka?
+
+
+Przed wprowadzeniem definicji pieniądza i jego funkcji w społeczeństwie (Rozdział 1), powinniśmy zacząć od Genesis Bitcoin. Wprowadzony na rynek w 2009 roku, Bitcoin jest stosunkowo nową technologią, niepodobną do niczego innego. Dlatego normalne jest, że nie zrozumiemy wszystkiego od razu. W rzeczywistości, podobnie jak w przypadku nauki korzystania z Internetu lub prowadzenia samochodu, nie musisz od razu znać wszystkich szczegółów technicznych: możesz zacząć od nauki, jak odbierać, płacić i zabezpieczać swoje fundusze, a następnie małymi krokami zgłębiać je głębiej.
+
+W końcu jesteśmy dopiero na początkowych etapach jego wdrażania, ponieważ minęliśmy fazę startową: jesteś w samą porę, aby zdobyć tyle wiedzy, ile chcesz, na temat tej ważnej innowacji.
 
 ![image](assets/en/02.webp)
 
-W tym kursie kładziemy nacisk na ogólne zrozumienie tej nowej technologii. Mamy nadzieję, że nasze szkolenie przypadnie ci do gustu i będziesz kontynuować poznawanie tego nowego globalnego paradygmatu monetarnego.
+Ważne jest, aby zrozumieć tę nową technologię w sposób ogólny, więc mamy nadzieję, że spodoba ci się ten kurs i będziesz robić postępy w tym nowym globalnym paradygmacie monetarnym.
+
+Gotowy, by zanurzyć się w fascynującym świecie Bitcoin i zrozumieć wszystkie jego wewnętrzne mechanizmy? Do dzieła!
 
 ## Prehistoria Bitcoina
 
@@ -775,7 +787,7 @@ Jeśli chcemy mieć własny węzeł, mamy kilka opcji, które różnią sie kosz
 
 ![image](assets/en/53.webp)
 
-Drugą opcją jest użycie przeznaczonego do tego sprzętu, takiego jak Raspberry Pi 4 z odpowiednio dużym dyskiem SSD (około ~1TB). Ta druga opcja jest droższa, jeśli musisz kupić sprzęt, ale pod względem zużycia energii elektrycznej, kosztuje to nieco mniej niż 10 euro rocznie. Z perspektywy przepustowości, biorąc pod uwagę, że 1 blok o wielkości 1MB wychodzi co 10 minut, mówimy o około 5GB miesięcznie.
+Drugą opcją jest użycie przeznaczonego do tego sprzętu, takiego jak Raspberry Pi 4 z odpowiednio dużym dyskiem SSD (około ~2TB). Ta druga opcja jest droższa, jeśli musisz kupić sprzęt, ale pod względem zużycia energii elektrycznej, kosztuje to nieco mniej niż 10 euro rocznie. Z perspektywy przepustowości, biorąc pod uwagę, że 1 blok o wielkości 1MB wychodzi co 10 minut, mówimy o około 5GB miesięcznie.
 
 ### Prowadzenie węzła musi być możliwe dla każdego!
 
@@ -1058,6 +1070,8 @@ Cykliczne zakupy polegają na kupowaniu małych ilości bitcoina w regularnych o
 
 **Uważaj na UTXO**: Pamiętaj, aby od czasu do czasu konsolidować swoje UTXO w portfelach. Ta praktyka jest kluczowa dla efektywnego zarządzania twoimi bitcoinami i unikania niepotrzebnych opłat podczas transakcji.
 
+[UTXO](https://planb.network/resources/glossary/utxo) to wyjście transakcji, które nie zostało jeszcze wydane, co oznacza, że nie zostało użyte jako wejście do nowej transakcji. Konsolidacja ich oznacza połączenie kilku małych UTXO w jeden większy, aby zmniejszyć "wagę" transakcji, a tym samym zapłacić niższe opłaty.
+
 - Zakup spontaniczny
 
 Spontaniczny zakup wszystkich aktywów na raz to sposób na natychmiastowe uzyskanie dostepu do bitcoina. Może to być zakup podczas krachu na giełdzie lub sposób na wydanie bonusu, decyzja należy do ciebie. Musisz zebrać odwagę i nacisnąć przycisk kup.
@@ -1279,23 +1293,27 @@ Satoshi, tworząc Bitcoina w 2008 roku, zaproponował nam zmianę systemu finans
 
 Czy jesteś gotowy, aby dołączyć?
 
-# Podsumowanie
+# Sekcja końcowa
 
 <partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 
-## Opinie i oceny
+
+## Recenzje i oceny
 
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
+
 <isCourseReview>true</isCourseReview>
 
 ## Egzamin końcowy
 
+
 <chapterId>8410e961-3841-5abf-a51d-04fc0139dd59</chapterId>
+
 <isCourseExam>true</isCourseExam>
 
+## Wnioski
 
-## Podsumowanie
 
-+<chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
-+<isCourseConclusion>true</isCourseConclusion>
+<chapterId>dfc534be-44a9-5e8c-9c98-e51ef0554e91</chapterId>
 
+<isCourseConclusion>true</isCourseConclusion>

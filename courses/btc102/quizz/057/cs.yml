@@ -1,0 +1,9 @@
+question: Kterému způsobu pořízení se paranoidní uživatel vyhne?
+answer: Centralizované platformy s KYC
+wrong_answers:
+  - Platformy pro dohazování P2P
+  - Bankomaty Bitcoin
+  - Přímé nákupy v hotovosti na setkáních
+explanation: |
+  Paranoidní uživatel se v zájmu zachování anonymity vyhýbá platformám, které vyžadují ověření totožnosti.
+reviewed: false

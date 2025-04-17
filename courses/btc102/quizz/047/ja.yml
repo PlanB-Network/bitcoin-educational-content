@@ -1,0 +1,9 @@
+question: 長期的に蓄積された資金を確保するためには、どのような工夫が必要ですか？
+answer: Hardware Wallet
+wrong_answers:
+  - Hot Wallet
+  - ライトニング Wallet
+  - Exchangeプラットフォーム
+explanation: |
+  Hardware Walletは、秘密鍵をオフラインで保管し、長期にわたって多額のセキュリティを強化する。
+reviewed: false

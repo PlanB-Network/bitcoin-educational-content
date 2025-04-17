@@ -1,0 +1,9 @@
+question: Jak Barack Obama popsal Bitcoin?
+answer: Švýcarská banka v kapse
+wrong_answers:
+  - Digitální zlato
+  - Vysoce spekulativní aktivum
+  - Decentralizovaná měna
+explanation: |
+  Barack Obama jednou označil Bitcoin za "švýcarskou banku v kapse" Bitcoin skutečně nabízí stejné možnosti všem bez ohledu na jejich status a umožňuje Confidential Transactions.
+reviewed: false

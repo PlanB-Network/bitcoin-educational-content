@@ -1,0 +1,9 @@
+question: ¿Por qué es esencial actualizar periódicamente el sistema y el software?
+answer: Para corregir vulnerabilidades de seguridad conocidas
+wrong_answers:
+  - Para mejorar la velocidad de los ordenadores y responder así más rápidamente a los ciberataques
+  - Para añadir funciones de pirateo
+  - Para optimizar la compatibilidad de los videojuegos con Bitcoin
+explanation: |
+  Las actualizaciones suelen corregir vulnerabilidades conocidas que son aprovechadas por los piratas informáticos.
+reviewed: false

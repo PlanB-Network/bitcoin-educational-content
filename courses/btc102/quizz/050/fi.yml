@@ -1,0 +1,9 @@
+question: Mitä ratkaisua suositellaan edullisten Bitcoin-maksujen suorittamiseen?
+answer: Lightning Network
+wrong_answers:
+  - Hardware Wallet
+  - Pankkitili
+  - RGB Layer
+explanation: |
+  Lightning mahdollistaa nopeat ja edulliset maksutapahtumat päivittäisissä ostoksissa. Se on ihanteellinen työkalu aktiiviselle käyttäjälle.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Proč je nutné pravidelně aktualizovat systém a software?
+answer: Oprava známých zranitelností zabezpečení
+wrong_answers:
+  - Zlepšení rychlosti počítače a tím i rychlejší reakce na kybernetické útoky
+  - Přidání funkcí hackingu
+  - Optimalizace kompatibility videoher s Bitcoin
+explanation: |
+  Aktualizace často opravují známé zranitelnosti, které využívají hackeři.
+reviewed: false

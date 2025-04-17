@@ -1,0 +1,9 @@
+question: Que método lhe permite compensar os bitcoins gastos, preservando as suas poupanças?
+answer: Gastar e substituir
+wrong_answers:
+  - HODLing e Substituir
+  - Gastos e HODLing
+  - Negociação e despesas
+explanation: |
+  O método Spend and Replace (Gastar e Substituir) envolve gastar bitcoins e depois recomprar a mesma quantidade para manter as suas participações.
+reviewed: false

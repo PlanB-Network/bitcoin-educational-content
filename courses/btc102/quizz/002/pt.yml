@@ -1,0 +1,9 @@
+question: Que precauções devem ser tomadas em relação a esquemas de donativos e lotarias fraudulentas?
+answer: Nunca enviar dinheiro para receber bitcoins
+wrong_answers:
+  - Envie sempre uma pequena quantidade para testar a oferta
+  - Investir para obter um lucro rápido e sem esforço
+  - Partilhar informações pessoais para proteger a transação
+explanation: |
+  O pedido de um pagamento adiantado é um sinal comum de fraude neste tipo de esquema.
+reviewed: false

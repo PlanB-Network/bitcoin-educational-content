@@ -1,0 +1,9 @@
+question: Jaká metoda se používá k ochraně sledovatelnosti transakcí On-Chain?
+answer: Použití technik CoinJoin a PayJoin
+wrong_answers:
+  - Opakované použití stejného přijímacího zařízení Address
+  - Častá konsolidace UTXO
+  - Vklad do úschovy Wallet
+explanation: |
+  Spojení mincí a placená spojení pomáhají zlepšit soukromí aktivity On-Chain.
+reviewed: false

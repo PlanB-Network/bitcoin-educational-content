@@ -1,0 +1,9 @@
+question: Hvilken lagringsløsning anbefales for en hodler?
+answer: A Hardware Wallet
+wrong_answers:
+  - A Hot Wallet
+  - En vaktmestertjeneste
+  - Et papir Wallet
+explanation: |
+  En hodler, som holder bitcoins på lang sikt, bør bruke en Hardware Wallet for å maksimere sikkerheten.
+reviewed: false

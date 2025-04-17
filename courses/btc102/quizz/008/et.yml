@@ -1,0 +1,9 @@
+question: Miks on oluline oma süsteemi ja tarkvara regulaarselt uuendada?
+answer: Teadaolevate turvaaukude kõrvaldamiseks
+wrong_answers:
+  - Parandada arvutite kiirust ja seega reageerida küberrünnakutele kiiremini
+  - Häkkimisfunktsioonide lisamine
+  - Videomängude ühilduvuse optimeerimiseks Bitcoin-ga
+explanation: |
+  Uuendused parandavad sageli teadaolevaid haavatavusi, mida häkkerid kasutavad ära.
+reviewed: false

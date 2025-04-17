@@ -1,0 +1,9 @@
+question: Qual é a principal implicação política do Bitcoin?
+answer: Reduzir o controlo do Estado sobre o dinheiro
+wrong_answers:
+  - Aumento da centralização bancária
+  - Promover a inflação
+  - Reforço da regulamentação financeira
+explanation: |
+  O Bitcoin é uma alternativa que enfraquece o poder das instituições estatais sobre o dinheiro através da senhoriagem e da censura das transacções.
+reviewed: false

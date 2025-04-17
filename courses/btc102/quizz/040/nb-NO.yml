@@ -1,0 +1,9 @@
+question: Hvilken anskaffelsesstrategi kan en hybrid hodler benytte seg av?
+answer: Dollar-kostnadsgjennomsnitt
+wrong_answers:
+  - Algoritmisk handel
+  - Arbitrasje
+  - Hacking
+explanation: |
+  Dollar-Cost Averaging gjør det mulig å foreta regelmessige Bitcoin-kjøp for å jevne ut den gjennomsnittlige kjøpsprisen over tid. Hodleren kan kombinere dette med sporadiske engangskjøp.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Miksi on suositeltavaa sijoittaa vain se, mitä on varaa menettää?
+answer: Taloudellisen turvan säilyttäminen menetyksen sattuessa
+wrong_answers:
+  - Maksimoida voitot nopeasti karhumarkkinoilla
+  - Monipuolistaa sijoituksiasi massiivisesti
+  - Lainan ottaminen, jotta voidaan investoida enemmän
+explanation: |
+  Sijoittaminen yli varojen (eli yli säästökapasiteettisi) altistaa sinut liian suurille taloudellisille riskeille.
+reviewed: false

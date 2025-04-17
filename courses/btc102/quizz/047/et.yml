@@ -1,0 +1,9 @@
+question: Millist seadet soovitatakse pikaajaliste kogutud vahendite tagamiseks?
+answer: Hardware Wallet
+wrong_answers:
+  - Hot Wallet
+  - Välk Wallet
+  - Exchange platvorm
+explanation: |
+  Hardware Wallet salvestab privaatseid võtmeid võrguühenduseta, pakkudes pikaajaliselt suuremat turvalisust märkimisväärsete summade jaoks.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 取引のOn-Chainトレーサビリティを保護するために、どのような方法が使われていますか？
+answer: CoinJoinとPayJoinのテクニックを使う
+wrong_answers:
+  - 同じ受信Addressを再利用
+  - UTXOの頻繁な統合
+  - カストディアルWalletへの預け入れ
+explanation: |
+  コインジョインとペイジョインは、On-Chainの活動のプライバシーを向上させるのに役立つ。
+reviewed: false

@@ -1,0 +1,9 @@
+question: ¿Qué cualidad psicológica es esencial para un cochero?
+answer: Resiliencia emocional
+wrong_answers:
+  - Impulsividad emocional
+  - Agresividad emocional
+  - Especulación emocional
+explanation: |
+  La resistencia emocional permite soportar las fluctuaciones del mercado sin dejarse llevar por el pánico.
+reviewed: false

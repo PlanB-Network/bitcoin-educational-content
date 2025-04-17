@@ -1,0 +1,9 @@
+question: Milline tegevus on teie pärijatele hädavajalik, et teie bitcoinid vigadeta tagasi saada?
+answer: Selgete juhiste andmine
+wrong_answers:
+  - Kõigi privaatvõtmete usaldamine
+  - Sageli muutuvad paroolid
+  - KYC Exchange platvormi kasutamine
+explanation: |
+  Üksikasjalikud ja arusaadavad juhised tagavad, et teie lähedased saavad rahalistele vahenditele nõuetekohaselt ligi.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jaké jsou typické znaky Ponziho schématu v kryptografickém ekosystému?
+answer: Zaručené výnosy, obtížné výběry a doporučení
+wrong_answers:
+  - Nízké výnosy, obtížné výběry a plná transparentnost
+  - Garantované výnosy, obtížné výběry a žádný systém doporučení
+  - Zaručené výnosy, snadné výběry a žádný systém doporučení
+explanation: |
+  Tyto znaky mohou naznačovat, že se jedná o pyramidový systém. Pokud je v projektu pozorujete, buďte velmi obezřetní.
+reviewed: false

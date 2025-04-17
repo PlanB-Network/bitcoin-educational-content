@@ -1,0 +1,9 @@
+question: Mitä laitetta suositellaan pitkäaikaisten kerättyjen varojen turvaamiseksi?
+answer: Hardware Wallet
+wrong_answers:
+  - Hot Wallet
+  - Salama Wallet
+  - Exchange-alusta
+explanation: |
+  Hardware Wallet tallentaa yksityiset avaimet offline-tilassa, mikä tarjoaa paremman turvallisuuden merkittäville summille pitkällä aikavälillä.
+reviewed: false

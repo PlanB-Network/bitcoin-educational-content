@@ -1,0 +1,9 @@
+question: Na kolik desetinných míst lze dělit číslo Bitcoin?
+answer: Osm
+wrong_answers:
+  - Šest
+  - Dvanáct
+  - Sedm
+explanation: |
+  Jednotku Bitcoin lze dělit až na osmé desetinné místo, přičemž jedna jednotka se nazývá Satoshi nebo sat.
+reviewed: false

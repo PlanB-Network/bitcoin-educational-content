@@ -1,0 +1,9 @@
+question: Jaké zařízení se doporučuje k zajištění dlouhodobě akumulovaných prostředků?
+answer: Hardware Wallet
+wrong_answers:
+  - Hot Wallet
+  - Blesk Wallet
+  - Platforma Exchange
+explanation: |
+  Systém Hardware Wallet ukládá soukromé klíče v režimu offline, čímž poskytuje dlouhodobě vyšší bezpečnost pro značné částky.
+reviewed: false

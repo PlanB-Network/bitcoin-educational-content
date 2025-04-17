@@ -1,0 +1,9 @@
+question: Cosa significa la regola del 3-2-1 in termini di backup dei dati?
+answer: 3 copie su 2 supporti diversi, di cui 1 conservata all'esterno
+wrong_answers:
+  - 3 copie su 2 supporti online e 1 dispositivo fisico
+  - 3 supporti con 2 copie, di cui una fuori sede
+  - 3 copie, di cui 2 criptate e 1 conservata fuori sede
+explanation: |
+  Questa regola raccomanda di avere 3 copie dei dati su 2 tipi diversi di supporti, con 1 copia conservata fuori sede per una maggiore resilienza.
+reviewed: false

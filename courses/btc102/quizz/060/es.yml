@@ -1,0 +1,9 @@
+question: ¿Cuál es el papel de la carta de herencia Bitcoin en un plan sucesorio?
+answer: Orientar a los herederos en el acceso a los fondos
+wrong_answers:
+  - Servir de Contract para transferir bitcoins a los herederos
+  - Para determinar la distribución fiscal de los activos
+  - Para optimizar las tasas de transferencia entre monederos
+explanation: |
+  La carta de herencia proporciona instrucciones claras y precisas para que los seres queridos puedan recuperar los bitcoins.
+reviewed: false

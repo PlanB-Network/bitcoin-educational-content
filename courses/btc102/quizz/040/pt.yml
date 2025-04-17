@@ -1,0 +1,9 @@
+question: Que estratégia de aquisição pode ser adoptada por um hodler híbrido?
+answer: Média do custo do dólar
+wrong_answers:
+  - Negociação algorítmica
+  - Arbitragem
+  - Hacking
+explanation: |
+  O cálculo da média dos custos em dólares permite efetuar compras regulares em Bitcoin para suavizar o preço médio de compra ao longo do tempo. O hodler pode combinar isto com compras ocasionais de montante fixo.
+reviewed: false

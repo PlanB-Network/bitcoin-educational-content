@@ -1,0 +1,9 @@
+question: Bitcoinは小数点以下何桁まで割り切れるか？
+answer: エイト
+wrong_answers:
+  - シックス
+  - 12名
+  - セブン
+explanation: |
+  Bitcoinは小数点第8位まで分割でき、1単位はSatoshiまたはsatと呼ばれる。
+reviewed: false

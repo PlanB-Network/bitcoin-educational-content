@@ -1,0 +1,9 @@
+question: Wie hoch ist der ungefähre Höchstwert von Supply der im Umlauf befindlichen Bitcoins?
+answer: 21 Millionen
+wrong_answers:
+  - 10 Millionen
+  - 47 Millionen
+  - 150 Millionen
+explanation: |
+  Bitcoin ist so programmiert, dass es einen begrenzten Supply von etwa 21 Millionen Bitcoins gibt.
+reviewed: false

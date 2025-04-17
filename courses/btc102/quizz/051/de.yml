@@ -1,0 +1,9 @@
+question: Welche Methode ermöglicht es Ihnen, ausgegebene Bitcoins zu verrechnen und gleichzeitig Ihre Ersparnisse zu bewahren?
+answer: Ausgeben und Ersetzen
+wrong_answers:
+  - HODLing und Ersetzen
+  - Ausgeben und HODLing
+  - Handeln und Ausgeben
+explanation: |
+  Bei der "Spend and Replace"-Methode geben Sie Bitcoins aus und kaufen dann die gleiche Menge zurück, um Ihren Bestand zu erhalten.
+reviewed: false

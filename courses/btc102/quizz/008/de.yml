@@ -1,0 +1,9 @@
+question: Warum ist es wichtig, Ihr System und Ihre Software regelmäßig zu aktualisieren?
+answer: Behebung bekannter Sicherheitsschwachstellen
+wrong_answers:
+  - Verbesserung der PC-Geschwindigkeit und damit schnellere Reaktion auf Cyberangriffe
+  - So fügen Sie Hacking-Funktionen hinzu
+  - Zur Optimierung der Kompatibilität von Videospielen mit Bitcoin
+explanation: |
+  Updates beheben häufig bekannte Sicherheitslücken, die von Hackern ausgenutzt werden.
+reviewed: false

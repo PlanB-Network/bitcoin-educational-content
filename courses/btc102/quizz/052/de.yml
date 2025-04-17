@@ -1,0 +1,9 @@
+question: Welchen Vorteil bietet der Betrieb eines eigenen Bitcoin-Knotens?
+answer: Unabhängigkeit
+wrong_answers:
+  - Liquidität
+  - Zentralisierung
+  - Geschwindigkeit
+explanation: |
+  Der Betrieb eines eigenen Knotens gewährleistet die Unabhängigkeit von Dritten und schützt die Privatsphäre Ihrer Transaktionen.
+reviewed: false

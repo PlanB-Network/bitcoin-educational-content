@@ -1,0 +1,9 @@
+question: Qual è il ruolo della lettera di successione Bitcoin in un piano successorio?
+answer: Guidare gli eredi nell'accesso ai fondi
+wrong_answers:
+  - Servire come Contract per trasferire i bitcoin agli eredi
+  - Per determinare la distribuzione fiscale dei beni
+  - Per ottimizzare le commissioni di trasferimento tra portafogli
+explanation: |
+  La lettera di successione fornisce istruzioni chiare e precise per consentire ai propri cari di recuperare i bitcoin.
+reviewed: false

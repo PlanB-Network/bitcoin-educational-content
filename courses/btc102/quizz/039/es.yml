@@ -1,0 +1,9 @@
+question: ¿Qué perfil de usuario acumula bitcoins regularmente mediante Dollar-Cost Averaging?
+answer: El apilador
+wrong_answers:
+  - El hodler
+  - El usuario activo
+  - El paranoico
+explanation: |
+  El apilador compra regularmente pequeñas cantidades para promediar el precio de compra a largo plazo.
+reviewed: false

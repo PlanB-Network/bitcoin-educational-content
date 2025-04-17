@@ -1,0 +1,9 @@
+question: Welche Cold-Speicherlösung wird für den paranoiden Benutzer empfohlen?
+answer: Luftgekapselt oder DIY Hardware Wallet
+wrong_answers:
+  - Mobil Hot Wallet
+  - Pflegedienst auf einer Exchange-Plattform
+  - Hardware Wallet für allgemeine Zwecke mit geschlossenem Quellcode
+explanation: |
+  Der paranoide Benutzer bevorzugt die Offline-Speicherung mit Open-Source-Lösungen, um das Risiko einer Aufdeckung zu minimieren.
+reviewed: false

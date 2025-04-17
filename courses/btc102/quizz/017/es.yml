@@ -1,0 +1,9 @@
+question: ¿Qué término hace referencia a la división programada de la subvención Mining?
+answer: Halving
+wrong_answers:
+  - Fork
+  - Bisección
+  - Coinbase
+explanation: |
+  Halving se refiere al Halving de la subvención Mining cada 210.000 manzanas.
+reviewed: false

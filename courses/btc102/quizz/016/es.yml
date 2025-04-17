@@ -1,0 +1,9 @@
+question: ¿Hasta cuántos decimales se puede dividir un Bitcoin?
+answer: Ocho
+wrong_answers:
+  - Seis
+  - Doce
+  - Siete
+explanation: |
+  Una Bitcoin puede dividirse hasta el octavo decimal, con una unidad denominada Satoshi o sat.
+reviewed: false

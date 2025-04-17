@@ -1,0 +1,9 @@
+question: Cosa devono conservare gli utenti per essere veramente proprietari dei loro bitcoin?
+answer: Chiavi private
+wrong_answers:
+  - Indirizzi di ricezione
+  - Password della piattaforma Exchange
+  - Blocchi Blockchain
+explanation: |
+  Senza detenere le chiavi private, non si è veramente proprietari dei propri bitcoin.
+reviewed: false

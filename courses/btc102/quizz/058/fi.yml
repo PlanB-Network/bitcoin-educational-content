@@ -1,0 +1,9 @@
+question: Mitä Cold-tallennusratkaisua suositellaan vainoharhaiselle käyttäjälle?
+answer: Ilmaläpivienti tai DIY Hardware Wallet
+wrong_answers:
+  - Liikkuva Hot Wallet
+  - Exchange-alustan huoltopalvelut
+  - Yleiskäyttöinen suljetun lähdekoodin Hardware Wallet
+explanation: |
+  Vainoharhainen käyttäjä suosii offline-tallennusta avoimen lähdekoodin ratkaisuilla altistumisriskin minimoimiseksi.
+reviewed: false

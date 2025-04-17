@@ -1,0 +1,9 @@
+question: Čemu byste se měli bezpodmínečně vyhnout, abyste zajistili bezpečnost svých bitcoinů?
+answer: Uchovávání bitcoinů na platformě Exchange
+wrong_answers:
+  - Použití otevřeného zdroje Hardware Wallet
+  - Použití Hot Wallet pro denní transakce
+  - Diverzifikace způsobů skladování
+explanation: |
+  Zásada "Ne vaše klíče, ne vaše bitcoiny" zdůrazňuje důležitost držení vlastních soukromých klíčů. Na platformě Exchange jsou vaše bitcoiny vystaveny zbytečným rizikům.
+reviewed: false

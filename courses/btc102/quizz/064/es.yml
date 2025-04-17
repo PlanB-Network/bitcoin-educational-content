@@ -1,0 +1,9 @@
+question: ¿Qué acción es esencial para que sus herederos recuperen sus bitcoins sin errores?
+answer: Dar instrucciones claras
+wrong_answers:
+  - Confiar todas las claves privadas
+  - Cambio frecuente de contraseñas
+  - Utilizar una plataforma KYC Exchange
+explanation: |
+  Unas instrucciones detalladas y comprensibles garantizan que sus seres queridos puedan acceder correctamente a los fondos.
+reviewed: false

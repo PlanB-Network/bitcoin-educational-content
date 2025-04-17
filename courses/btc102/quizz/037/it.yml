@@ -1,0 +1,9 @@
+question: Cosa bisogna assolutamente evitare per garantire la sicurezza dei propri bitcoin?
+answer: Conservare i bitcoin su una piattaforma Exchange
+wrong_answers:
+  - Utilizzo di un Hardware Wallet open-source
+  - Utilizzo di un Hot Wallet per le transazioni giornaliere
+  - Diversificare i metodi di conservazione
+explanation: |
+  Il principio "Not your keys, not your bitcoins" sottolinea l'importanza di possedere le proprie chiavi private. Su una piattaforma Exchange, i vostri bitcoin sono esposti a rischi inutili.
+reviewed: false

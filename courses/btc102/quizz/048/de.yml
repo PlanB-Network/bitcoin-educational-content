@@ -1,0 +1,9 @@
+question: Welche Anlagestrategie wird hauptsächlich von einem Stapler verwendet?
+answer: Dollar-Cost Averaging
+wrong_answers:
+  - Daytrading
+  - Arbitrage
+  - Pauschalbetrag
+explanation: |
+  Bei DCA wird regelmäßig ein fester Betrag investiert, um die Auswirkungen der Marktvolatilität auf das eigene Portfolio zu verringern.
+reviewed: false

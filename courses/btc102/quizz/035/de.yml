@@ -1,0 +1,9 @@
+question: Welche Aufbewahrungslösung wird für einen hodler empfohlen?
+answer: A Hardware Wallet
+wrong_answers:
+  - A Hot Wallet
+  - Ein Pflegedienst
+  - A Papier Wallet
+explanation: |
+  Ein Hodler, der Bitcoins langfristig hält, sollte einen Hardware Wallet verwenden, um die Sicherheit zu maximieren.
+reviewed: false

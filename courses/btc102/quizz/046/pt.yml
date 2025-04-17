@@ -1,0 +1,9 @@
+question: Que ferramenta lhe permite monitorizar o seu Wallet sem expor as suas chaves privadas?
+answer: Watch-only wallet
+wrong_answers:
+  - Hot Wallet
+  - Relâmpago Wallet
+  - Custódia Wallet
+explanation: |
+  Um Watch-only wallet utiliza apenas chaves públicas para apresentar saldos e transacções, sem correr o risco de expor as chaves privadas.
+reviewed: false

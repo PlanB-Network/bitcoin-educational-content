@@ -1,0 +1,9 @@
+question: Quale strumento vi permette di monitorare il vostro Wallet senza esporre le vostre chiavi private?
+answer: Watch-only wallet
+wrong_answers:
+  - Hot Wallet
+  - Fulmine Wallet
+  - Custodia Wallet
+explanation: |
+  Un Watch-only wallet utilizza solo le chiavi pubbliche per visualizzare saldi e transazioni, senza rischiare di esporre le chiavi private.
+reviewed: false

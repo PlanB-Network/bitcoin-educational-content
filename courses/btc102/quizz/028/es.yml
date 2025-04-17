@@ -1,0 +1,9 @@
+question: ¿Qué plataformas se recomiendan para evitar el CSC al comprar bitcoins?
+answer: Plataformas P2P Exchange
+wrong_answers:
+  - Plataformas Exchange de uso general
+  - Sólo Bitcoin Plataformas Exchange
+  - Plataformas Exchange centradas en el comercio
+explanation: |
+  Las plataformas P2P permiten a los usuarios comprar bitcoins directamente unos a otros sin necesidad de CSC.
+reviewed: false

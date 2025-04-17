@@ -1,0 +1,9 @@
+question: Apa implikasi politik utama dari Bitcoin?
+answer: Mengurangi kontrol negara atas uang
+wrong_answers:
+  - Meningkatkan sentralisasi perbankan
+  - Mempromosikan inflasi
+  - Memperkuat peraturan keuangan
+explanation: |
+  Bitcoin adalah alternatif yang melemahkan kekuasaan institusi negara atas uang melalui seigniorage dan sensor transaksi.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Qual é a principal vantagem que a abordagem por camadas oferece ao Bitcoin?
+answer: Manter a segurança do protocolo de base
+wrong_answers:
+  - Aumento da centralização da rede principal
+  - Inovação rápida no protocolo de base
+  - Ter as mesmas caraterísticas nas camadas e no protocolo de base
+explanation: |
+  A abordagem em camadas permite acrescentar funcionalidades sem comprometer a segurança e a simplicidade do protocolo de base.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quale meccanismo del RGB assicura la resistenza alla doppia spesa?
+answer: Single-Use Seal
+wrong_answers:
+  - Multiuso Seal
+  - Doppia firma
+  - Prova di presa in carico
+explanation: |
+  Il Single-Use Seal sfrutta il fatto che un UTXO può essere speso una sola volta, assicurando la resistenza alla doppia spesa all'interno dei contratti smart RGB.
+reviewed: false

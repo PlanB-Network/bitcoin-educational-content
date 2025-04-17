@@ -1,0 +1,9 @@
+question: ¿Qué gran ventaja ofrece el enfoque por capas para Bitcoin?
+answer: Mantener la seguridad del protocolo base
+wrong_answers:
+  - Centralización creciente de la red principal
+  - Rápida innovación en el protocolo base
+  - Tener las mismas características en las capas que en el protocolo base
+explanation: |
+  El enfoque por capas permite añadir funcionalidades sin comprometer la seguridad y simplicidad del protocolo base.
+reviewed: false

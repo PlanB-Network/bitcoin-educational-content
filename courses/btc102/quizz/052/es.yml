@@ -1,0 +1,9 @@
+question: ¿Qué ventaja aporta gestionar tu propio nodo Bitcoin?
+answer: Independencia
+wrong_answers:
+  - Liquidez
+  - Centralización
+  - Velocidad
+explanation: |
+  Gestionar tu propio nodo garantiza la independencia frente a terceros y protege la privacidad de tus transacciones.
+reviewed: false

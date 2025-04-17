@@ -1,0 +1,9 @@
+question: スタッカーが主に使う投資戦略は？
+answer: ドルコスト平均法
+wrong_answers:
+  - デイトレード
+  - 裁定取引
+  - 一括払い
+explanation: |
+  DCAでは、定期的に一定額を投資することで、市場のボラティリティがポートフォリオに与える影響を軽減する。
+reviewed: false

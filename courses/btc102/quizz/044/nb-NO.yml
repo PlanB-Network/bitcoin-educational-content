@@ -1,0 +1,9 @@
+question: Hva er opprinnelsen til begrepet hodler?
+answer: En feilstaving av "hold"
+wrong_answers:
+  - Et akronym for "hold"
+  - En forkortelse av "Hot Wallet"
+  - En sammentrekning av "HODL-kjeden"
+explanation: |
+  Begrepet "hodler" kommer fra en skrivefeil på Bitcoin Talk, der "hold" ble feilstavet som "HODL" for å uttrykke langsiktig holding.
+reviewed: false

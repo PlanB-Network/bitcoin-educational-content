@@ -1,0 +1,9 @@
+question: Que método é utilizado para proteger a rastreabilidade das transacções On-Chain?
+answer: Utilização das técnicas CoinJoin e PayJoin
+wrong_answers:
+  - Reutilização do mesmo Address recetor
+  - Consolidação frequente de UTXOs
+  - Depósito numa conta de custódia Wallet
+explanation: |
+  Os Coinjoins e payjoins ajudam a melhorar a privacidade da atividade do On-Chain.
+reviewed: false

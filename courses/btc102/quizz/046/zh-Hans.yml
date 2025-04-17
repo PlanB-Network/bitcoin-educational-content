@@ -1,0 +1,9 @@
+question: 什么工具可以在不暴露私钥的情况下监控 Wallet？
+answer: Watch-only wallet
+wrong_answers:
+  - Hot Wallet
+  - 闪电 Wallet
+  - 保管 Wallet
+explanation: |
+  Watch-only wallet 只使用公开密钥来显示余额和交易，而不冒暴露私人密钥的风险。
+reviewed: false

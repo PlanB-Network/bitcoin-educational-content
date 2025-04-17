@@ -1,0 +1,9 @@
+question: Fino a quante cifre decimali può essere diviso un Bitcoin?
+answer: Otto
+wrong_answers:
+  - Sei
+  - Dodici
+  - Sette
+explanation: |
+  Un Bitcoin può essere diviso fino all'ottava cifra decimale, con un'unità chiamata Satoshi o sat.
+reviewed: false

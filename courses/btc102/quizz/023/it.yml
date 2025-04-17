@@ -1,0 +1,9 @@
+question: Qual è il principale vantaggio del Bitcoin di fronte alle crisi monetarie?
+answer: Conservare i risparmi contro l'inflazione
+wrong_answers:
+  - Aumento dei tassi di interesse
+  - Garantire rendimenti fissi
+  - Assicurazione bancaria
+explanation: |
+  Il Bitcoin offre protezione contro la svalutazione della moneta grazie alla sua politica di emissione prevedibile.
+reviewed: false

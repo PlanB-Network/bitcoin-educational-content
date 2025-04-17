@@ -1,0 +1,9 @@
+question: 二重支出への抵抗力を保証するRGBのメカニズムとは？
+answer: Single-Use Seal
+wrong_answers:
+  - 多目的Seal
+  - 二重署名
+  - プルーフ・オブ・ステーク
+explanation: |
+  Single-Use Sealは、UTXOが一度しか使用できないことを利用し、RGBスマートコントラクト内での二重支出への耐性を確保している。
+reviewed: false

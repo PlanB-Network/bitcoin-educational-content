@@ -1,0 +1,9 @@
+question: Layanan mana yang mencantumkan daftar pedagang yang menerima Bitcoin di seluruh dunia?
+answer: Peta BTC
+wrong_answers:
+  - CoinMarketCap
+  - Bitcoin Bicara
+  - Pembayaran Bitcoin Swiss
+explanation: |
+  BTC Map adalah platform khusus yang menempatkan pedagang yang menerima Bitcoin di seluruh dunia.
+reviewed: false

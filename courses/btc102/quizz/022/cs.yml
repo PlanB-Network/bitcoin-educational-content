@@ -1,0 +1,9 @@
+question: Jaký dopad má expanzivní měnová politika na fiat měnu?
+answer: Rozmělňují hodnotu úspor
+wrong_answers:
+  - Zvyšují kupní sílu
+  - Stabilizují úrokové sazby
+  - Zaručují hospodářský růst
+explanation: |
+  Masivní tisk peněz vede ke znehodnocení kupní síly, což postupně snižuje kupní sílu střadatele.
+reviewed: false

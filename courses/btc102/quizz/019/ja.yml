@@ -1,0 +1,9 @@
+question: Bitcoin白書は誰が発表したのか？
+answer: Satoshi 中本
+wrong_answers:
+  - デイヴィッド・チャウム
+  - ティム・メイ
+  - エリック・ヒューズ
+explanation: |
+  白書は2008年末にSatoshiナカモト（仮名）によって発表された。
+reviewed: false

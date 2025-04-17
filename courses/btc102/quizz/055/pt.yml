@@ -1,0 +1,9 @@
+question: Que suporte é recomendado para efetuar uma cópia de segurança segura da sua frase Mnemonic?
+answer: Suporte metálico com envelope opaco selado
+wrong_answers:
+  - Armazenamento em unidade USB encriptada
+  - Suporte de papel com manga transparente
+  - Cópia de segurança numa nuvem segura
+explanation: |
+  Um suporte metálico resistente a desastres oferece uma proteção duradoura contra danos e acesso não autorizado. O envelope opaco selado permite-lhe verificar se alguém acedeu à frase Mnemonic.
+reviewed: false

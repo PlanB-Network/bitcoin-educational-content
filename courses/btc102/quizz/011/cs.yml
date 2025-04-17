@@ -1,0 +1,9 @@
+question: Proč je důležité chránit frázi Mnemonic?
+answer: Protože jeho ztráta má za následek trvalou ztrátu bitcoinů
+wrong_answers:
+  - Protože Blockchain je příliš dlouhý na to, aby se regeneroval
+  - Protože jeho ztráta vede k úniku osobních údajů
+  - Protože platformy Exchange vyžadují k regeneraci mnoho dokumentů
+explanation: |
+  Fráze Mnemonic umožňuje obnovení přístupu. Pokud dojde k její ztrátě a Wallet již není na svém zařízení přístupný, bitcoiny jsou trvale ztraceny.
+reviewed: false

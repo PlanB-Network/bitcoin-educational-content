@@ -1,0 +1,9 @@
+question: ホドラーの主な目標は何ですか？
+answer: ビットコインを長期保有するため
+wrong_answers:
+  - 短期的な投機
+  - Bitcoinの取引を頻繁に行うために
+  - Bitcoin取引のプライバシーを最大限に守るために
+explanation: |
+  ホドラーは、資産の推定成長率から利益を得るために、ビットコインを何年も保持することを目的としている。
+reviewed: false

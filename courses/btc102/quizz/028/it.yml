@@ -1,0 +1,9 @@
+question: Quali piattaforme sono consigliate per evitare il KYC quando si acquistano bitcoin?
+answer: Piattaforme Exchange peer-to-peer
+wrong_answers:
+  - Piattaforme Exchange di uso generale
+  - Piattaforme Bitcoin solo Exchange
+  - Piattaforme Exchange incentrate sul trading
+explanation: |
+  Le piattaforme P2P consentono agli utenti di acquistare bitcoin direttamente gli uni dagli altri senza richiedere il KYC.
+reviewed: false

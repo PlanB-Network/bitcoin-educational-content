@@ -1,0 +1,9 @@
+question: Milline suur mängija projekteerib Bitcoin Mining jaoks ASICi?
+answer: Bitmain
+wrong_answers:
+  - Trezor
+  - Ledger
+  - Foundry USA
+explanation: |
+  Bitmain on üks juhtivaid Bitcoin Mining spetsialiseeritud riistvara tootjaid.
+reviewed: false

@@ -1,0 +1,9 @@
+question: ホドラーにはどのような保管方法が推奨されますか？
+answer: Hardware Wallet
+wrong_answers:
+  - A Hot Wallet
+  - 管理サービス
+  - 論文 Wallet
+explanation: |
+  ビットコインを長期的に保有するホドラーは、セキュリティを最大限に高めるためにHardware Walletを使うべきである。
+reviewed: false

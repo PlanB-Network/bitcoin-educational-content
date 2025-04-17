@@ -1,0 +1,9 @@
+question: Jaké kroky jsou nezbytné pro vaše dědice, aby mohli bezchybně získat vaše bitcoiny zpět?
+answer: Poskytování jasných pokynů
+wrong_answers:
+  - Svěření všech soukromých klíčů
+  - Častá změna hesel
+  - Použití platformy KYC Exchange
+explanation: |
+  Podrobné a srozumitelné pokyny zajistí, že vaši blízcí budou mít k finančním prostředkům správný přístup.
+reviewed: false

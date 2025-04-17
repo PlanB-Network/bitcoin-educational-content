@@ -1,0 +1,9 @@
+question: Mikä termi viittaa Mining-tuen ohjelmoituun jakoon?
+answer: Halving
+wrong_answers:
+  - Fork
+  - Bisection
+  - Coinbase
+explanation: |
+  Halving viittaa Mining-tuen Halving:een 210 000 korttelin välein.
+reviewed: false

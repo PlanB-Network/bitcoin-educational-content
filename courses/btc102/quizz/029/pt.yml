@@ -1,0 +1,9 @@
+question: Qual dos principais intervenientes concebe ASICs para Bitcoin Mining?
+answer: Bitmain
+wrong_answers:
+  - Trezor
+  - Ledger
+  - Fundição EUA
+explanation: |
+  A Bitmain é um dos principais fabricantes de hardware especializado para Bitcoin Mining.
+reviewed: false

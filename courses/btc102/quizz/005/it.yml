@@ -1,0 +1,9 @@
+question: Perché è consigliata l'autenticazione a due fattori?
+answer: Aggiunge un ulteriore Layer di sicurezza
+wrong_answers:
+  - Semplifica l'accesso riducendo il numero di codici
+  - Consente l'accesso senza password
+  - Sostituisce l'uso di un gestore di password
+explanation: |
+  il 2FA richiede un codice temporaneo in aggiunta alla password, che rafforza notevolmente la protezione di un account online.
+reviewed: false

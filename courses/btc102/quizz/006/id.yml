@@ -1,0 +1,9 @@
+question: Apa keuntungan utama menggunakan pengelola kata sandi?
+answer: Menyimpan dan menghasilkan kata sandi yang rumit
+wrong_answers:
+  - Ini memberikan petunjuk untuk mengingat kata sandi Anda
+  - Menggunakan ulang kata sandi yang sama di berbagai akun online yang berbeda
+  - Ini menggantikan kebutuhan akan perangkat lunak antivirus
+explanation: |
+  Pengelola kata sandi membuat kata sandi yang kuat dan menyimpannya dengan aman, sehingga mudah diambil tanpa perlu menghafalnya.
+reviewed: false

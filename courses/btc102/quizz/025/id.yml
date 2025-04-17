@@ -1,0 +1,9 @@
+question: Karakteristik apa yang terutama membedakan Bitcoin dari altcoin?
+answer: Desentralisasi
+wrong_answers:
+  - Likuiditas
+  - Reputasi
+  - Privasi
+explanation: |
+  Bitcoin terkenal dengan desentralisasinya, tidak seperti kebanyakan altcoin lainnya yang kurang lebih tersentralisasi.
+reviewed: false

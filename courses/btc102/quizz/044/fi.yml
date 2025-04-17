@@ -1,0 +1,9 @@
+question: Mistä termi hodler on peräisin?
+answer: Kirjoitusvirhe "hold"
+wrong_answers:
+  - Lyhenne sanoista "hold"
+  - Lyhenne sanoista "Hot Wallet"
+  - "HODL-ketjun" supistaminen
+explanation: |
+  Termi "hodler" on peräisin Bitcoin Talkissa tapahtuneesta kirjoitusvirheestä, jossa "hold" oli kirjoitettu virheellisesti "HODL" pitkäaikaisen hallussapidon ilmaisemiseksi.
+reviewed: false

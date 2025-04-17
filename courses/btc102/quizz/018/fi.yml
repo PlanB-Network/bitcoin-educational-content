@@ -1,0 +1,9 @@
+question: Minä vuonna luotiin Bitcoin:n Genesis-lohko?
+answer: 2009
+wrong_answers:
+  - 2008
+  - 2010
+  - 2011
+explanation: |
+  Genesis-lohko, joka on Blockchain:n ensimmäinen lohko, louhittiin tammikuussa 2009.
+reviewed: false

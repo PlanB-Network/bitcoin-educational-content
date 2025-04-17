@@ -1,0 +1,9 @@
+question: Welcher Dienst listet Händler auf, die Bitcoin weltweit akzeptieren?
+answer: BTC-Karte
+wrong_answers:
+  - CoinMarketCap
+  - Bitcoin Gespräch
+  - Schweizer Bitcoin Lohn
+explanation: |
+  BTC Map ist eine spezielle Plattform, die Händler ausfindig macht, die Bitcoin auf der ganzen Welt akzeptieren.
+reviewed: false

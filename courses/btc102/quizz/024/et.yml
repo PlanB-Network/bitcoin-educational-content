@@ -1,0 +1,9 @@
+question: Kuidas Barack Obama kirjeldas Bitcoin?
+answer: Šveitsi pank taskusse
+wrong_answers:
+  - Digitaalne kuld
+  - Ülimalt spekulatiivne vara
+  - Detsentraliseeritud valuuta
+explanation: |
+  Barack Obama nimetas Bitcoin kord "Šveitsi pangaks taskus" Bitcoin pakub tõepoolest kõigile, olenemata nende staatusest, samu võimalusi ja võimaldab Confidential Transactions.
+reviewed: false

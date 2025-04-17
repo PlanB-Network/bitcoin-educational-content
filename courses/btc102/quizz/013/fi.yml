@@ -1,0 +1,9 @@
+question: Mikä on tärkein ero kaupankäynnin ja sijoittamisen välillä?
+answer: Kaupankäynti on lyhytaikaista ja spekulatiivista, sijoittaminen on pitkäaikaista ja strategista
+wrong_answers:
+  - Kaupankäyntiin liittyy kiinteitä palkkioita, sijoittamiseen vaihtelevia palkkioita
+  - Kaupankäynti perustuu perusanalyysiin, sijoittaminen makrotrendeihin
+  - Kaupankäynti on vähemmän riskialtista kuin sijoittaminen
+explanation: |
+  Kaupankäynti edellyttää jatkuvaa seurantaa ja teknisiä taitoja, kun taas sijoittaminen perustuu pitkän aikavälin näkemykseen.
+reviewed: false

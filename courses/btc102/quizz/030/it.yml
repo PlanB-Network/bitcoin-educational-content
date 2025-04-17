@@ -1,0 +1,9 @@
+question: Quale vantaggio offre l'approccio a strati per il Bitcoin?
+answer: Mantenere la sicurezza del protocollo di base
+wrong_answers:
+  - Crescente centralizzazione della rete principale
+  - Rapida innovazione del protocollo di base
+  - Avere sui livelli le stesse caratteristiche del protocollo di base
+explanation: |
+  L'approccio a strati consente di aggiungere funzionalità senza compromettere la sicurezza e la semplicità del protocollo di base.
+reviewed: false

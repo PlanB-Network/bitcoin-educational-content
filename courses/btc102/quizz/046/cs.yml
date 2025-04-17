@@ -1,0 +1,9 @@
+question: Který nástroj umožňuje sledovat váš Wallet, aniž byste odhalili své soukromé klíče?
+answer: Watch-only wallet
+wrong_answers:
+  - Hot Wallet
+  - Blesk Wallet
+  - Údržba Wallet
+explanation: |
+  Systém Watch-only wallet používá k zobrazení zůstatků a transakcí pouze veřejné klíče, aniž by riskoval odhalení soukromých klíčů.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Bitcoinのサイドチェーンはどれですか？
+answer: Liquidと台木
+wrong_answers:
+  - ポリゴンとアービトラム
+  - ジュピターとファンタム
+  - Bitcoin キャッシュとBitcoin Satoshi ビジョン
+explanation: |
+  LiquidとRSKはBitcoinと2WAYペグを持つサイドチェーン。他の選択肢はサイドチェーンではないか、Bitcoin Blockchainとの2WPがない。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mit welchem Tool können Sie Ihr Wallet überwachen, ohne Ihre privaten Schlüssel preiszugeben?
+answer: Watch-only wallet
+wrong_answers:
+  - Hot Wallet
+  - Blitz Wallet
+  - Wallet für den Wachdienst
+explanation: |
+  Ein Watch-only wallet verwendet nur öffentliche Schlüssel zur Anzeige von Salden und Transaktionen, ohne das Risiko, dass private Schlüssel offengelegt werden.
+reviewed: false

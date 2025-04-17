@@ -1,0 +1,9 @@
+question: Quais são as cadeias laterais do Bitcoin?
+answer: Liquid e porta-enxerto
+wrong_answers:
+  - Polígono e Arbitro
+  - Júpiter e Fantom
+  - Bitcoin Caixa e Bitcoin Satoshi Visão
+explanation: |
+  Liquid e RSK são sidechains que têm uma ligação de 2 vias com o Bitcoin. As outras opções não são sidechains ou não têm um 2WP com o Bitcoin Blockchain.
+reviewed: false

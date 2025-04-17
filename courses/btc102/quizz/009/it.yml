@@ -1,0 +1,9 @@
+question: Perché la sicurezza online è fondamentale per gli utenti di Bitcoin?
+answer: Poiché l'hacking comporta la perdita irreversibile dei bitcoin
+wrong_answers:
+  - Perché le banche assicurano i fondi in caso di perdita totale di Bitcoin
+  - Perché si può andare in galera per aver perso dei bitcoin
+  - Perché gli attacchi comportano oneri amministrativi molto pesanti
+explanation: |
+  Senza intermediari, un hack significa una perdita definitiva di bitcoin.
+reviewed: false

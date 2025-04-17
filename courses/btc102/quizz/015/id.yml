@@ -1,0 +1,9 @@
+question: Sistem mana yang memungkinkan transaksi cepat dan murah pada Bitcoin?
+answer: Lightning Network
+wrong_answers:
+  - SegWit
+  - Jaringan Ripple
+  - RGB
+explanation: |
+  Lightning Network adalah solusi Layer kedua yang memungkinkan penyelesaian cepat dan mengurangi biaya transaksi BTC.
+reviewed: false

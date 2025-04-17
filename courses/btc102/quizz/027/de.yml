@@ -1,0 +1,9 @@
+question: Wie viele Betreuer gibt es bei Bitcoin Core im Jahr 2025?
+answer: 5
+wrong_answers:
+  - 7
+  - 12
+  - 23
+explanation: |
+  Im Jahr 2025 gibt es fünf Betreuer: Hennadii Stepanov, Michael Ford, Ava Chow, Gloria Zhao und Ryan Ofsky.
+reviewed: false

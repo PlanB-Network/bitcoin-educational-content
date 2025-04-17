@@ -1,0 +1,9 @@
+question: ¿Cuál es la principal diferencia entre comerciar e invertir?
+answer: El trading es a corto plazo y especulativo, la inversión es a largo plazo y estratégica
+wrong_answers:
+  - La negociación conlleva comisiones fijas, la inversión conlleva comisiones variables
+  - La negociación se basa en el análisis fundamental, la inversión en las macrotendencias
+  - Operar es menos arriesgado que invertir
+explanation: |
+  El trading requiere una supervisión constante y conocimientos técnicos, mientras que la inversión se basa en una visión a largo plazo.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Qual è la principale differenza tra trading e investimento?
+answer: Il trading è a breve termine e speculativo, l'investimento è a lungo termine e strategico
+wrong_answers:
+  - Il trading prevede commissioni fisse, l'investimento commissioni variabili
+  - Il trading si basa sull'analisi fondamentale, l'investimento sulle tendenze macro
+  - Il trading è meno rischioso dell'investimento
+explanation: |
+  Il trading richiede un monitoraggio costante e competenze tecniche, mentre l'investimento si basa su una visione a lungo termine.
+reviewed: false

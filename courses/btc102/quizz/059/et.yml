@@ -1,0 +1,9 @@
+question: Mis on paranoilise bitcoineri peamine eesmärk?
+answer: Nende privaatsuse kaitsmiseks
+wrong_answers:
+  - Satoshide kiireks kogumiseks
+  - Kauplemiskasumi maksimeerimiseks
+  - Et hoida oma bitcoine pikaajaliselt
+explanation: |
+  Paranoiline bitcoiner püüab eelkõige vältida oma tehingute ja identiteedi jälgitavust.
+reviewed: false

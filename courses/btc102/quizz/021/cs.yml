@@ -1,0 +1,9 @@
+question: Jaký je hlavní politický důsledek Bitcoin?
+answer: Omezení státní kontroly nad penězi
+wrong_answers:
+  - Rostoucí bankovní centralizace
+  - Podpora inflace
+  - Posílení finančních předpisů
+explanation: |
+  Bitcoin je alternativou, která oslabuje moc státních institucí nad penězi prostřednictvím seigniorage a cenzury transakcí.
+reviewed: false

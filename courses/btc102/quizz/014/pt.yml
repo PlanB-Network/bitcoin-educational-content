@@ -1,0 +1,9 @@
+question: Porque é que se aconselha a investir apenas o que se pode perder?
+answer: Para preservar a sua segurança financeira em caso de perda
+wrong_answers:
+  - Para maximizar os lucros rapidamente num mercado em baixa
+  - Para diversificar massivamente os seus investimentos
+  - Contrair um empréstimo para investir mais
+explanation: |
+  Investir para além das suas possibilidades (ou seja, para além da sua capacidade de poupança) expõe-no a riscos financeiros excessivamente elevados.
+reviewed: false

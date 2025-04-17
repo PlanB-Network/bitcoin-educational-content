@@ -1,0 +1,9 @@
+question: Millist Cold salvestuslahendust soovitatakse paranoilisele kasutajale?
+answer: Õhuga kinnitatud või DIY Hardware Wallet
+wrong_answers:
+  - Mobiilne Hot Wallet
+  - Hooldusteenus Exchange platvormil
+  - Üldotstarbeline suletud lähtekoodiga Hardware Wallet
+explanation: |
+  Paranoiline kasutaja eelistab avatud lähtekoodiga lahendustega offline-salvestust, et minimeerida kokkupuuteohtu.
+reviewed: false

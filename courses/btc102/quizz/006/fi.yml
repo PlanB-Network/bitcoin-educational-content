@@ -1,0 +1,9 @@
+question: Mikä on salasanahallintaohjelman käytön tärkein etu?
+answer: Se tallentaa ja luo monimutkaisia salasanoja
+wrong_answers:
+  - Se antaa vihjeitä salasanojen muistamiseen
+  - Se käyttää samoja salasanoja uudelleen eri verkkotileillä
+  - Se korvaa virustorjuntaohjelmiston tarpeen
+explanation: |
+  Salasanahallinta luo vahvoja salasanoja ja tallentaa ne turvallisesti, jolloin ne ovat helposti löydettävissä ilman, että niitä tarvitsee muistaa ulkoa.
+reviewed: false

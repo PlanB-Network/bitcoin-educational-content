@@ -1,0 +1,9 @@
+question: Hva er det omtrentlige maksimale Supply av bitcoins i omløp?
+answer: 21 millioner kroner
+wrong_answers:
+  - 10 millioner kroner
+  - 47 millioner
+  - 150 millioner kroner
+explanation: |
+  Bitcoin er programmert til å ha en begrenset Supply på omtrent 21 millioner bitcoins.
+reviewed: false

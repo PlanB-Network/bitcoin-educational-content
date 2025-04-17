@@ -1,0 +1,9 @@
+question: ¿En qué año se creó el bloque Genesis de Bitcoin?
+answer: 2009
+wrong_answers:
+  - 2008
+  - 2010
+  - 2011
+explanation: |
+  El bloque Genesis, el primero del Blockchain, se explotó en enero de 2009.
+reviewed: false

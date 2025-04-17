@@ -1,0 +1,9 @@
+question: Millist omandamisstrateegiat saab hübriidhaldur rakendada?
+answer: Dollar-kulude keskmistamine
+wrong_answers:
+  - Algoritmiline kauplemine
+  - Arbitraaž
+  - Häkkimine
+explanation: |
+  Dollar-kulude keskmistamine võimaldab regulaarsete Bitcoin ostude puhul ühtlustada keskmist ostuhinda aja jooksul. Hodler võib seda kombineerida aeg-ajalt tehtavate ühekordsete ostudega.
+reviewed: false

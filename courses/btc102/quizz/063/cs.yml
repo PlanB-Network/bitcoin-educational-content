@@ -1,0 +1,9 @@
+question: Jaké hlavní riziko hrozí při zveřejnění příliš velkého množství informací v dědickém plánu?
+answer: Riziko krádeže
+wrong_answers:
+  - Riziko ztráty
+  - Riziko znehodnocení
+  - Riziko regulace
+explanation: |
+  Příliš mnoho informací může usnadnit jednání zlomyslným osobám, pokud získají přístup k vašemu dědickému plánu.
+reviewed: false

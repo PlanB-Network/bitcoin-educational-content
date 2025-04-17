@@ -1,0 +1,9 @@
+question: Mihin varotoimiin olisi ryhdyttävä lahjoitushuijauksia ja vilpillisiä arpajaisia vastaan?
+answer: Älä koskaan lähetä rahaa saadaksesi bitcoineja
+wrong_answers:
+  - Lähetä aina pieni määrä testataksesi tarjousta
+  - Sijoita saadaksesi nopeaa ja vaivatonta voittoa
+  - Jaa henkilökohtaisia tietoja tapahtuman turvaamiseksi
+explanation: |
+  Ennakkomaksun pyytäminen on yleinen merkki tämäntyyppisistä huijauksista.
+reviewed: false

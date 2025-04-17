@@ -1,0 +1,9 @@
+question: ¿Cuál es el principal objetivo de un cochero?
+answer: Conservar sus bitcoins a largo plazo
+wrong_answers:
+  - Especular a corto plazo
+  - Para realizar transacciones frecuentes de Bitcoin
+  - Para maximizar la privacidad de sus transacciones Bitcoin
+explanation: |
+  Un hodler pretende conservar sus bitcoins durante muchos años para beneficiarse del presumible crecimiento del activo.
+reviewed: false

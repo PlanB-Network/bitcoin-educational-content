@@ -1,0 +1,9 @@
+question: Welcher Begriff bezieht sich auf die programmierte Aufteilung des Mining-Zuschusses?
+answer: Halving
+wrong_answers:
+  - Fork
+  - Bisektion
+  - Coinbase
+explanation: |
+  Halving bezieht sich auf die Halving der Mining Subvention alle 210.000 Blöcke.
+reviewed: false

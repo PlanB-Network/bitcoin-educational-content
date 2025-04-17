@@ -1,0 +1,9 @@
+question: 貯蓄を維持しながら、使用済みのビットコインを相殺できる方法は？
+answer: 支出と交換
+wrong_answers:
+  - HODLingとリプレース
+  - 消費とHODLing
+  - 取引と支出
+explanation: |
+  使って交換する方法では、ビットコインを使い、同じ量を再購入して保有量を維持する。
+reviewed: false

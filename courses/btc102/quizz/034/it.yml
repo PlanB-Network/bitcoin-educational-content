@@ -1,0 +1,9 @@
+question: Quale protocollo del secondo Layer consente pagamenti quasi istantanei?
+answer: Lightning Network
+wrong_answers:
+  - Catene laterali
+  - RGB
+  - Nucleo Bitcoin
+explanation: |
+  Il Lightning Network consente transazioni rapide e a basso costo attraverso le operazioni off-chain al di fuori del Bitcoin Blockchain.
+reviewed: false

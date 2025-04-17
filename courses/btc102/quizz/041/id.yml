@@ -1,0 +1,9 @@
+question: Berapa perkiraan Supply maksimum bitcoin yang beredar?
+answer: 21 juta
+wrong_answers:
+  - 10 juta
+  - 47 juta
+  - 150 juta
+explanation: |
+  Bitcoin diprogram untuk memiliki Supply yang terbatas, yaitu sekitar 21 juta bitcoin.
+reviewed: false

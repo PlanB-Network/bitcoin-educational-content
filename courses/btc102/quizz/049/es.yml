@@ -1,0 +1,9 @@
+question: ¿Cuál es el objetivo principal del apilamiento?
+answer: Acumulando satoshis poco a poco
+wrong_answers:
+  - Especulación a corto plazo
+  - Comprar una gran cantidad de satoshis de una vez
+  - Utilizar Bitcoin para los pagos diarios
+explanation: |
+  El apilador invierte pequeñas cantidades a intervalos regulares para promediar el precio de compra a lo largo del tiempo.
+reviewed: false

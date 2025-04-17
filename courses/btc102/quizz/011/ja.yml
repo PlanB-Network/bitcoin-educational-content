@@ -1,0 +1,9 @@
+question: なぜMnemonicフレーズを守ることが重要なのか？
+answer: なぜなら、それを失うとビットコインが永久に失われるからだ
+wrong_answers:
+  - Blockchainは再生するには長すぎる。
+  - 紛失すると個人情報の流出につながるから
+  - Exchangeプラットフォームは、再生成に多くの文書を必要とするからだ。
+explanation: |
+  Mnemonicフレーズはアクセスを回復することを可能にする。Walletが失われ、そのデバイスにアクセスできなくなった場合、ビットコインは永久に失われる。
+reviewed: false

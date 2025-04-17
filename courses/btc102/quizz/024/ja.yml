@@ -1,0 +1,9 @@
+question: バラク・オバマはBitcoinをどう表現したか？
+answer: ポケットの中のスイス銀行
+wrong_answers:
+  - デジタル・ゴールド
+  - 投機性の高い資産
+  - 分散型通貨
+explanation: |
+  バラク・オバマはかつて、Bitcoinを "ポケットの中のスイス銀行 "と呼んだ。実際、Bitcoinは身分に関係なく誰にでも同じ機会を提供し、Confidential Transactionsを可能にしている。
+reviewed: false

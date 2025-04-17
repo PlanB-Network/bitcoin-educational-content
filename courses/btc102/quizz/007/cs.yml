@@ -1,0 +1,9 @@
+question: Co znamená pravidlo 3-2-1 z hlediska zálohování dat?
+answer: 3 kopie na 2 různých médiích, z nichž 1 je uložena mimo pracoviště
+wrong_answers:
+  - 3 kopie na 2 online médiích a 1 fyzickém zařízení
+  - 3 média se 2 kopiemi, z nichž jedna je umístěna mimo pracoviště
+  - 3 kopie, z nichž 2 jsou zašifrované a 1 je uložena mimo pracoviště
+explanation: |
+  Toto pravidlo doporučuje mít 3 kopie dat na 2 různých typech médií, přičemž 1 kopie by měla být pro větší odolnost uložena mimo pracoviště.
+reviewed: false

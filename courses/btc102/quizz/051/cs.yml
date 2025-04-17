@@ -1,0 +1,9 @@
+question: Která metoda vám umožní kompenzovat utracené bitcoiny a zároveň zachovat vaše úspory?
+answer: Utratit a nahradit
+wrong_answers:
+  - HODLing a nahrazení
+  - Utrácení a HODLing
+  - Obchodování a utrácení
+explanation: |
+  Metoda Spend and Replace spočívá v utrácení bitcoinů a následném odkupu stejného množství, abyste si udrželi svůj majetek.
+reviewed: false

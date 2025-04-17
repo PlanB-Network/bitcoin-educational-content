@@ -1,0 +1,9 @@
+question: Lightning Networkの発明者は？
+answer: タデウス・ドライヤ、ジョセフ・プーン
+wrong_answers:
+  - アンドレアス・アントノプロスとアダム・バック
+  - ピーテル・ウイール、グレゴリー・マクスウェル
+  - Satoshi 中本とハル・フィニー
+explanation: |
+  タディアス・ドライヤとジョセフ・プーンは2016年、Bitcoinのスケーラビリティを向上させるためにLightning Networkを発明した。
+reviewed: false

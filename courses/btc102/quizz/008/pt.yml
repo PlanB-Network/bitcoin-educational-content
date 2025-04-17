@@ -1,0 +1,9 @@
+question: Porque é que é essencial atualizar regularmente o seu sistema e software?
+answer: Para corrigir vulnerabilidades de segurança conhecidas
+wrong_answers:
+  - Para melhorar a velocidade do PC e, assim, responder mais rapidamente aos ciberataques
+  - Para adicionar funcionalidades de pirataria informática
+  - Para otimizar a compatibilidade dos jogos de vídeo com o Bitcoin
+explanation: |
+  As actualizações corrigem frequentemente vulnerabilidades conhecidas que são exploradas por piratas informáticos.
+reviewed: false

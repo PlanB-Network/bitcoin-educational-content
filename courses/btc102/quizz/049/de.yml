@@ -1,0 +1,9 @@
+question: Was ist das Hauptziel des Stapelns?
+answer: Allmähliche Anhäufung von Satoshis
+wrong_answers:
+  - Kurzfristige Spekulation
+  - Kauf einer großen Menge von Satoshis auf einmal
+  - Verwendung von Bitcoin für tägliche Zahlungen
+explanation: |
+  Der Stacker investiert in regelmäßigen Abständen kleine Beträge, so dass sich der Kaufpreis im Laufe der Zeit ausgleicht.
+reviewed: false

@@ -1,0 +1,9 @@
+question: In welchem Jahr wurde der Genesis-Block von Bitcoin erstellt?
+answer: 2009
+wrong_answers:
+  - 2008
+  - 2010
+  - 2011
+explanation: |
+  Der Block Genesis, der erste Block des Blockchain, wurde im Januar 2009 abgebaut.
+reviewed: false

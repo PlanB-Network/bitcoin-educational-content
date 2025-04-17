@@ -1,0 +1,9 @@
+question: 为什么建议使用双因素身份验证？
+answer: 它为安全增加了额外的 Layer
+wrong_answers:
+  - 它通过减少代码数量来简化访问程序
+  - 无需密码即可登录
+  - 它取代了密码管理器的使用
+explanation: |
+  2FA 除密码外还需要一个临时代码，这大大加强了对在线账户的保护。
+reviewed: false

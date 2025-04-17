@@ -1,0 +1,9 @@
+question: Hva er hovedmålet med stabling?
+answer: Akkumulerer gradvis satoshier
+wrong_answers:
+  - Kortsiktig spekulasjon
+  - Kjøpe en stor mengde satoshier på en gang
+  - Bruk av Bitcoin for daglige betalinger
+explanation: |
+  Stackeren investerer små beløp med jevne mellomrom for å gjennomsnittsberegne kjøpesummen over tid.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jaká vlastnost především odlišuje Bitcoin od altcoinů?
+answer: Decentralizace
+wrong_answers:
+  - Likvidita
+  - Reputace
+  - Ochrana osobních údajů
+explanation: |
+  Bitcoin je známý svou decentralizací, na rozdíl od většiny altcoinů, které jsou více či méně centralizované.
+reviewed: false

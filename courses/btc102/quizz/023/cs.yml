@@ -1,0 +1,9 @@
+question: Jaká je hlavní výhoda Bitcoin tváří v tvář měnovým krizím?
+answer: Uchování úspor proti inflaci
+wrong_answers:
+  - Zvyšování úrokových sazeb
+  - Zaručení pevných výnosů
+  - Poskytování bankovního pojištění
+explanation: |
+  Bitcoin nabízí ochranu proti znehodnocení měny díky předvídatelné emisní politice.
+reviewed: false

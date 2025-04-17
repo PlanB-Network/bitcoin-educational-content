@@ -1,0 +1,9 @@
+question: Qual é a principal diferença entre negociar e investir?
+answer: O comércio é de curto prazo e especulativo, o investimento é de longo prazo e estratégico
+wrong_answers:
+  - A negociação envolve comissões fixas, o investimento envolve comissões variáveis
+  - A negociação baseia-se na análise fundamental, o investimento nas tendências macro
+  - Negociar é menos arriscado do que investir
+explanation: |
+  A negociação requer um acompanhamento constante e competências técnicas, enquanto o investimento assenta numa visão a longo prazo.
+reviewed: false

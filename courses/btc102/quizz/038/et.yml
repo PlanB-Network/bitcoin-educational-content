@@ -1,0 +1,9 @@
+question: Milline profiil soosib mitte-KYC omandamist ja väga turvaliste rahakottide kasutamist?
+answer: Paranoiline
+wrong_answers:
+  - Hodler
+  - Stacker
+  - Aktiivne kasutaja
+explanation: |
+  Paranoiline seab esikohale privaatsuse ja turvalisuse, kasutades väga turvalisi omandamis- ja salvestusmeetodeid.
+reviewed: false

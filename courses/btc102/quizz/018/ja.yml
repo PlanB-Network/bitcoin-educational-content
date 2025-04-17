@@ -1,0 +1,9 @@
+question: BitcoinのGenesisブロックは何年に作られたのですか？
+answer: 2009
+wrong_answers:
+  - 2008
+  - 2010
+  - 2011
+explanation: |
+  Blockchainの最初のブロックであるGenesisブロックは2009年1月に採掘された。
+reviewed: false

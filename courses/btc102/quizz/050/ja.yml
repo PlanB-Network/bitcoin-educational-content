@@ -1,0 +1,9 @@
+question: 低コストのBitcoin支払いを行うには、どのようなソリューションが推奨されますか？
+answer: Lightning Network
+wrong_answers:
+  - Hardware Wallet
+  - 銀行口座
+  - RGB Layer
+explanation: |
+  Lightningは、日々の買い物を迅速かつ低コストで可能にする。アクティブなユーザーにとって理想的なツールです。
+reviewed: false

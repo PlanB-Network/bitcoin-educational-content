@@ -1,0 +1,9 @@
+question: Bitcoin 继承函在遗产计划中的作用是什么？
+answer: 指导继承人使用资金
+wrong_answers:
+  - 作为向继承人转移比特币的 Contract
+  - 确定资产的税务分配
+  - 优化钱包之间的转账费用
+explanation: |
+  继承函提供了清晰明确的指示，以便亲人可以收回比特币。
+reviewed: false

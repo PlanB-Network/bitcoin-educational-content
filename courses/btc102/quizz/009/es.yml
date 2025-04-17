@@ -1,0 +1,9 @@
+question: ¿Por qué es crucial la seguridad en línea para los usuarios de Bitcoin?
+answer: Porque el pirateo provoca la pérdida irreversible de bitcoins
+wrong_answers:
+  - Porque los bancos aseguran los fondos en caso de pérdida total de Bitcoin
+  - Porque uno puede ir a la cárcel por perder bitcoins
+  - Porque los ataques conllevan cargas administrativas muy pesadas
+explanation: |
+  Sin intermediarios, un hackeo supone la pérdida definitiva de bitcoins.
+reviewed: false

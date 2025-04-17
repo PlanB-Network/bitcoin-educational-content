@@ -1,0 +1,9 @@
+question: Které z nich jsou boční řetězce Bitcoin?
+answer: Liquid a podnož
+wrong_answers:
+  - Polygon a Arbitrum
+  - Jupiter a Fantom
+  - Bitcoin Cash a Bitcoin Satoshi Vision
+explanation: |
+  Liquid a RSK jsou postranní řetězce, které mají dvoucestný kolík s Bitcoin. Ostatní možnosti nejsou boční řetězce nebo nemají 2WP s Bitcoin Blockchain.
+reviewed: false

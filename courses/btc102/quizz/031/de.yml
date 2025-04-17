@@ -1,0 +1,9 @@
+question: Welche sind Bitcoin-Seitenketten?
+answer: Liquid und Wurzelstock
+wrong_answers:
+  - Polygon und Arbitrum
+  - Jupiter und Fantom
+  - Bitcoin Cash und Bitcoin Satoshi Vision
+explanation: |
+  Liquid und RSK sind Sidechains, die eine 2-Wege-Verbindung mit Bitcoin haben. Die anderen Optionen sind keine Sidechains oder haben keinen 2WP mit dem Bitcoin Blockchain.
+reviewed: false

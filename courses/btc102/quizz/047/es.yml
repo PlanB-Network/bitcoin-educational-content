@@ -1,0 +1,9 @@
+question: ¿Qué dispositivo se recomienda para asegurar los fondos acumulados a largo plazo?
+answer: Hardware Wallet
+wrong_answers:
+  - Hot Wallet
+  - Rayo Wallet
+  - Plataforma Exchange
+explanation: |
+  Una Hardware Wallet almacena claves privadas fuera de línea, lo que proporciona una mayor seguridad para cantidades significativas a largo plazo.
+reviewed: false

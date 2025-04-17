@@ -1,0 +1,9 @@
+question: Jaké řešení ukládání se doporučuje pro hodler?
+answer: A Hardware Wallet
+wrong_answers:
+  - A Hot Wallet
+  - Pečovatelská služba
+  - Dokument Wallet
+explanation: |
+  Hodler, který drží bitcoiny dlouhodobě, by měl používat Hardware Wallet, aby maximalizoval bezpečnost.
+reviewed: false

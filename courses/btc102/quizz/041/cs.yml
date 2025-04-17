@@ -1,0 +1,9 @@
+question: Jaká je přibližná maximální hodnota Supply bitcoinů v oběhu?
+answer: 21 milionů
+wrong_answers:
+  - 10 milionů
+  - 47 milionů
+  - 150 milionů
+explanation: |
+  Bitcoin je naprogramována tak, aby měla omezenou kapacitu Supply přibližně 21 milionů bitcoinů.
+reviewed: false

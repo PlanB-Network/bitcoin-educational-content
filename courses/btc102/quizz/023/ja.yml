@@ -1,0 +1,9 @@
+question: 通貨危機に直面したときのBitcoinの主な利点は何か？
+answer: インフレに備えて貯蓄を維持する
+wrong_answers:
+  - 金利の上昇
+  - 固定リターンの保証
+  - 銀行保険の提供
+explanation: |
+  Bitcoinは、その予測可能な発行方針により、通貨切り下げに対するプロテクションを提供する。
+reviewed: false

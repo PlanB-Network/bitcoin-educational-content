@@ -1,0 +1,9 @@
+question: Qual è il principale vantaggio dell'utilizzo di un gestore di password?
+answer: Memorizza e genera password complesse
+wrong_answers:
+  - Fornisce suggerimenti per ricordare le password
+  - Riutilizza le stesse password per diversi account online
+  - Sostituisce la necessità di un software antivirus
+explanation: |
+  Il gestore di password crea password forti e le memorizza in modo sicuro, consentendo un facile recupero senza la necessità di memorizzarle.
+reviewed: false

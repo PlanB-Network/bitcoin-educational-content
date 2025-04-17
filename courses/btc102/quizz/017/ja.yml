@@ -1,0 +1,9 @@
+question: Mining補助金のプログラム分割を指す言葉は？
+answer: Halving
+wrong_answers:
+  - Fork
+  - 二等分
+  - コインベース
+explanation: |
+  Halvingとは、21万ブロックごとのMining補助金のHalvingを指す。
+reviewed: false

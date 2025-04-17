@@ -1,0 +1,9 @@
+question: Apa tujuan utama dari pengguna aktif?
+answer: Untuk menggunakan Bitcoin sebagai metode pembayaran harian
+wrong_answers:
+  - Untuk berinvestasi di Bitcoin dalam jangka panjang
+  - Untuk mengumpulkan satoshi secara bertahap
+  - Untuk berspekulasi di pasar
+explanation: |
+  Pengguna aktif memasukkan Bitcoin ke dalam kehidupan sehari-hari mereka untuk melakukan transaksi dan mendukung pengadopsiannya.
+reviewed: false

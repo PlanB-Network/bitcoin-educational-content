@@ -1,0 +1,9 @@
+question: Quem publicou o Livro Branco Bitcoin?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - David Chaum
+  - Tim May
+  - Eric Hughes
+explanation: |
+  O Livro Branco foi publicado no final de 2008 por Satoshi Nakamoto (um pseudónimo).
+reviewed: false

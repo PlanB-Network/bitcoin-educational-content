@@ -1,0 +1,9 @@
+question: Mikä on aktiivisen käyttäjän päätavoite?
+answer: Bitcoin:n käyttäminen päivittäisenä maksutapana
+wrong_answers:
+  - Bitcoin:een investoiminen pitkällä aikavälillä
+  - Satoshien kerääminen vähitellen
+  - Spekuloida markkinoilla
+explanation: |
+  Aktiivinen käyttäjä sisällyttää Bitcoin:n jokapäiväiseen elämäänsä tehdäkseen liiketoimia ja tukeakseen sen käyttöönottoa.
+reviewed: false

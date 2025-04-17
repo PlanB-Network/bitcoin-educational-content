@@ -1,0 +1,9 @@
+question: 偏執的なユーザーにお勧めのColdストレージ・ソリューションとは？
+answer: エアギャップまたはDIY Hardware Wallet
+wrong_answers:
+  - モバイル Hot Wallet
+  - Exchangeプラットフォームでのカストーディアル・サービス
+  - 汎用クローズドソースHardware Wallet
+explanation: |
+  偏執的なユーザーは、暴露のリスクを最小限に抑えるために、オープンソースのソリューションを使ったオフラインストレージを好む。
+reviewed: false

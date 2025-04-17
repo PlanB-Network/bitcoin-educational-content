@@ -1,0 +1,9 @@
+question: Bitcoinとアルトコインの違いは、主にどのような点にあるのでしょうか？
+answer: 地方分権
+wrong_answers:
+  - 流動性
+  - 評判
+  - プライバシー
+explanation: |
+  Bitcoinは、多かれ少なかれ中央集権的である多くのアルトコインとは異なり、その非中央集権性で有名である。
+reviewed: false

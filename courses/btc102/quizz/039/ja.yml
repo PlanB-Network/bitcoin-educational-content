@@ -1,0 +1,9 @@
+question: ドルコスト平均法（Dollar-Cost Averaging）で定期的にビットコインを貯めているユーザープロファイルは？
+answer: スタッカー
+wrong_answers:
+  - ホドラー
+  - アクティブ・ユーザー
+  - 偏執狂
+explanation: |
+  スタッカーは定期的に少量ずつ購入し、長期的に購入価格を平均化する。
+reviewed: false

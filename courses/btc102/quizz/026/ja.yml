@@ -1,0 +1,9 @@
+question: ビットコインを本当に所有するためには、ユーザーは何を保管しなければならないのか？
+answer: 秘密鍵
+wrong_answers:
+  - 受信アドレス
+  - Exchangeプラットフォームのパスワード
+  - Blockchainブロック
+explanation: |
+  秘密鍵を保有していなければ、ビットコインを真に所有することはできない。
+reviewed: false

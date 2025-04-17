@@ -1,0 +1,9 @@
+question: Jakou akviziční strategii může zvolit hybridní hodler?
+answer: Průměrování dolarových nákladů
+wrong_answers:
+  - Algoritmické obchodování
+  - Arbitráž
+  - Hacking
+explanation: |
+  Průměrování dolarových nákladů umožňuje pravidelné nákupy Bitcoin, které v průběhu času vyrovnávají průměrnou nákupní cenu. Hodler to může kombinovat s příležitostnými jednorázovými nákupy.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Co je hlavním cílem paranoidního bitcoinera?
+answer: Chránit jejich soukromí
+wrong_answers:
+  - Rychlé hromadění satošů
+  - Maximalizace zisku z obchodování
+  - Dlouhodobě držet své bitcoiny
+explanation: |
+  Paranoidní bitcoiner se především snaží vyhnout jakémukoli vysledování svých transakcí a identity.
+reviewed: false

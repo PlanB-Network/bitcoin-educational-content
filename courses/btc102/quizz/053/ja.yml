@@ -1,0 +1,9 @@
+question: 世界中のBitcoinが利用できる加盟店をリストアップしているのはどのサービスですか？
+answer: BTCマップ
+wrong_answers:
+  - コインマーケットキャップ
+  - Bitcoinトーク
+  - スイスBitcoin ペイ
+explanation: |
+  BTCマップは、世界中のBitcoinを受け入れる加盟店を検索する専用プラットフォームです。
+reviewed: false

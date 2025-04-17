@@ -1,0 +1,9 @@
+question: Mitä hyötyä oman Bitcoin-solmun ylläpidosta on?
+answer: Itsenäisyys
+wrong_answers:
+  - Maksuvalmius
+  - Keskittäminen
+  - Nopeus
+explanation: |
+  Oman solmun ylläpitäminen takaa riippumattomuuden kolmansista osapuolista ja suojaa tapahtumien yksityisyyttä.
+reviewed: false

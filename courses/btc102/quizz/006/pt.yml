@@ -1,0 +1,9 @@
+question: Qual é a principal vantagem de utilizar um gestor de palavras-passe?
+answer: Armazena e gera palavras-passe complexas
+wrong_answers:
+  - Fornece sugestões para memorizar as suas palavras-passe
+  - Reutiliza as mesmas palavras-passe em diferentes contas online
+  - Substitui a necessidade de software antivírus
+explanation: |
+  O gestor de palavras-passe cria palavras-passe fortes e guarda-as em segurança, permitindo a sua fácil recuperação sem necessidade de as memorizar.
+reviewed: false

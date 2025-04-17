@@ -1,0 +1,9 @@
+question: Jakie urządzenie jest zalecane w celu zabezpieczenia długoterminowo zgromadzonych środków?
+answer: Hardware Wallet
+wrong_answers:
+  - Hot Wallet
+  - Lightning Wallet
+  - Platforma Exchange
+explanation: |
+  Hardware Wallet przechowuje klucze prywatne w trybie offline, zapewniając zwiększone bezpieczeństwo dla znacznych kwot w dłuższej perspektywie.
+reviewed: false

@@ -1,0 +1,9 @@
+question: O que significa a regra 3-2-1 em termos de cópia de segurança dos dados?
+answer: 3 cópias em 2 suportes diferentes, sendo 1 armazenada fora do local
+wrong_answers:
+  - 3 cópias em 2 suportes online e 1 dispositivo físico
+  - 3 suportes com 2 cópias, uma das quais noutro local
+  - 3 cópias, 2 das quais encriptadas e 1 armazenada fora do local
+explanation: |
+  Esta regra recomenda a existência de 3 cópias de dados em 2 tipos diferentes de suportes, com 1 cópia armazenada fora do local para maior resiliência.
+reviewed: false

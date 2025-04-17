@@ -1,0 +1,9 @@
+question: Co znamená pojem vlastní péče ve světě Bitcoin?
+answer: Uchovávání soukromých klíčů
+wrong_answers:
+  - Svěření klíčů specializované platformě Exchange
+  - Svěření klíčů investiční bance
+  - Uchovávání veřejných klíčů
+explanation: |
+  Vlastní úschova zajišťuje, že uživatel má plnou kontrolu nad svými bitcoiny prostřednictvím vlastních soukromých klíčů.
+reviewed: false

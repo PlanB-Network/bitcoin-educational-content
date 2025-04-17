@@ -1,0 +1,9 @@
+question: 用户必须储存什么才能真正拥有自己的比特币？
+answer: 私钥
+wrong_answers:
+  - 接收地址
+  - Exchange 平台密码
+  - Blockchain 块
+explanation: |
+  没有私人密钥，你就不能真正拥有比特币。
+reviewed: false

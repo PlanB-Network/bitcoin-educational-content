@@ -1,0 +1,9 @@
+question: Qual é o principal objetivo do utilizador ativo?
+answer: Para utilizar o Bitcoin como método de pagamento diário
+wrong_answers:
+  - Investir no Bitcoin a longo prazo
+  - Para acumular gradualmente satoshis
+  - Especular sobre o mercado
+explanation: |
+  O utilizador ativo incorpora o Bitcoin na sua vida quotidiana para efetuar transacções e apoiar a sua adoção.
+reviewed: false

@@ -1,0 +1,9 @@
+question: ¿Qué estrategia de adquisición puede adoptar un hodler híbrido?
+answer: Promedio del coste en dólares
+wrong_answers:
+  - Negociación algorítmica
+  - Arbitraje
+  - Hackear
+explanation: |
+  El promediado del coste en dólares permite realizar compras periódicas de Bitcoin para suavizar el precio medio de compra a lo largo del tiempo. El hodler puede combinar esta opción con compras ocasionales a tanto alzado.
+reviewed: false

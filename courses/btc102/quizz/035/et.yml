@@ -1,0 +1,9 @@
+question: Millist hoiulahendust soovitatakse hodleri jaoks?
+answer: Hardware Wallet
+wrong_answers:
+  - A Hot Wallet
+  - Hooldusteenus
+  - Paber Wallet
+explanation: |
+  Hodler, kes hoiab bitcoine pikemas perspektiivis, peaks turvalisuse maksimeerimiseks kasutama Hardware Wallet.
+reviewed: false

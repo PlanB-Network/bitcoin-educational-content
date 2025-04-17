@@ -1,0 +1,9 @@
+question: Minkälaisen hankintastrategian hybridihodler voi omaksua?
+answer: Dollarikustannusten keskiarvoistaminen
+wrong_answers:
+  - Algoritminen kaupankäynti
+  - Arbitraasi
+  - Hakkerointi
+explanation: |
+  Dollarikustannusten keskiarvoistaminen mahdollistaa säännölliset Bitcoin-ostot, jotka tasoittavat keskimääräistä ostohintaa ajan mittaan. Hodler voi yhdistää tämän satunnaisiin kertaluonteisiin ostoihin.
+reviewed: false

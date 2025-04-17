@@ -1,0 +1,9 @@
+question: Que termo se refere à divisão programada do subsídio Mining?
+answer: Halving
+wrong_answers:
+  - Fork
+  - Bisecção
+  - Coinbase
+explanation: |
+  Halving refere-se ao Halving do subsídio Mining a cada 210.000 blocos.
+reviewed: false

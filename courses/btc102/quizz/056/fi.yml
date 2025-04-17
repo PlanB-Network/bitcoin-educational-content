@@ -1,0 +1,9 @@
+question: Millä menetelmällä suojataan liiketoimien On-Chain-jäljitettävyys?
+answer: CoinJoin- ja PayJoin-tekniikoiden käyttö
+wrong_answers:
+  - Saman vastaanottavan Address:n uudelleenkäyttö
+  - UTXO:iden usein tapahtuva konsolidointi
+  - Tallettaminen Wallet:n säilytysyhteisöön
+explanation: |
+  Coinjoins ja payjoins auttavat parantamaan On-Chain-toiminnan yksityisyyttä.
+reviewed: false

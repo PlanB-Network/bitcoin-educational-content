@@ -1,0 +1,9 @@
+question: Jaký je původ termínu hodler?
+answer: Chybný zápis slova "hold"
+wrong_answers:
+  - Zkratka pro "hold"
+  - Zkratka "Hot Wallet"
+  - Zkrácení "řetězce HODL"
+explanation: |
+  Výraz "hodler" pochází z překlepu v Bitcoin Talk, kde bylo slovo "hold" chybně napsáno jako "HODL" pro vyjádření dlouhodobého držení.
+reviewed: false

@@ -1,0 +1,9 @@
+question: In quale anno è stato creato il blocco Genesis del Bitcoin?
+answer: 2009
+wrong_answers:
+  - 2008
+  - 2010
+  - 2011
+explanation: |
+  Il blocco Genesis, il primo blocco del Blockchain, è stato estratto nel gennaio 2009.
+reviewed: false

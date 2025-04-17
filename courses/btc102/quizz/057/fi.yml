@@ -1,0 +1,9 @@
+question: Mitä hankintamenetelmää vainoharhainen käyttäjä välttää?
+answer: Keskitetyt alustat ja KYC
+wrong_answers:
+  - P2P matchmaking-alustat
+  - Bitcoin Pankkiautomaatit
+  - Suorat käteisostot tapaamisissa
+explanation: |
+  Anonymiteetin säilyttämiseksi vainoharhainen käyttäjä välttää alustoja, jotka vaativat henkilöllisyyden todentamista.
+reviewed: false

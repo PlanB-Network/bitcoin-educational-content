@@ -1,0 +1,9 @@
+question: Alat apa yang memungkinkan Anda untuk memonitor Wallet Anda tanpa mengekspos kunci pribadi Anda?
+answer: Watch-only wallet
+wrong_answers:
+  - Hot Wallet
+  - Petir Wallet
+  - Kustodian Wallet
+explanation: |
+  Watch-only wallet hanya menggunakan kunci publik untuk menampilkan saldo dan transaksi, tanpa risiko eksposur kunci privat.
+reviewed: false

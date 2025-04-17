@@ -1,0 +1,9 @@
+question: Milline meetod võimaldab teil tasaarvestada kulutatud bitcoinid, säilitades samal ajal oma säästud?
+answer: Kulutada ja asendada
+wrong_answers:
+  - HODLing ja asendamine
+  - Kulutused ja HODLing
+  - Kauplemine ja kulutused
+explanation: |
+  Kuluta ja asenda meetod hõlmab bitcoinide kulutamist ja seejärel sama summa tagasiostmist, et säilitada oma varusid.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Worin besteht Pump and Dump im Bereich der Kryptowährungen?
+answer: Manipulation eines Vermögenswerts durch eine Kampagne zum Verkauf auf dem Höhepunkt
+wrong_answers:
+  - Massiver Kauf eines Vermögenswerts, um seinen Preis zu stützen, ohne jemals zu verkaufen
+  - Langfristige Stabilisierung des Marktes durch gegenläufige Trades
+  - Wiederkehrende Käufe, um ein langfristiges Engagement in einem Vermögenswert zu erreichen
+explanation: |
+  Bei dieser betrügerischen Technik wird der Preis künstlich in die Höhe getrieben, um zu einem kritischen Zeitpunkt zu verkaufen und den Wert zum Absturz zu bringen.
+reviewed: false

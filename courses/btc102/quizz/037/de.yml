@@ -1,0 +1,9 @@
+question: Was sollte unbedingt vermieden werden, um die Sicherheit Ihrer Bitcoins zu gewährleisten?
+answer: Aufbewahrung Ihrer Bitcoins auf einer Exchange-Plattform
+wrong_answers:
+  - Verwendung eines quelloffenen Hardware Wallet
+  - Verwendung eines Hot Wallet für tägliche Transaktionen
+  - Diversifizierung der Speichermethoden
+explanation: |
+  Der Grundsatz "Nicht Ihre Schlüssel, nicht Ihre Bitcoins" unterstreicht die Bedeutung des Besitzes Ihrer eigenen privaten Schlüssel. Auf einer Exchange-Plattform sind Ihre Bitcoins unnötigen Risiken ausgesetzt.
+reviewed: false

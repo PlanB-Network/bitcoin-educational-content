@@ -1,0 +1,9 @@
+question: Mikä ominaisuus erottaa Bitcoin:n ensisijaisesti altcoineista?
+answer: Hajauttaminen
+wrong_answers:
+  - Maksuvalmius
+  - Maine
+  - Yksityisyys
+explanation: |
+  Bitcoin on tunnettu hajauttamisestaan, toisin kuin useimmat altcoinit, jotka ovat enemmän tai vähemmän keskitettyjä.
+reviewed: false

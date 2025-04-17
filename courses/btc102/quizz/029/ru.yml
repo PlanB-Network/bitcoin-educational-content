@@ -1,0 +1,9 @@
+question: Кто из крупных игроков разрабатывает ASIC для Bitcoin Mining?
+answer: Bitmain
+wrong_answers:
+  - Трезор
+  - Ledger
+  - Литейное производство США
+explanation: |
+  Компания Bitmain является одним из ведущих производителей специализированного оборудования для Bitcoin Mining.
+reviewed: false

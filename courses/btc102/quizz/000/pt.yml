@@ -1,0 +1,9 @@
+question: Quais são as caraterísticas típicas de um esquema Ponzi no ecossistema criptográfico?
+answer: Rendimentos garantidos, levantamentos difíceis e referências
+wrong_answers:
+  - Rendimentos baixos, levantamentos difíceis e transparência total
+  - Retornos garantidos, levantamentos difíceis e nenhum sistema de referência
+  - Retornos garantidos, levantamentos fáceis e nenhum sistema de referência
+explanation: |
+  Estas caraterísticas podem indicar um esquema em pirâmide. Se as observar num projeto, tenha muito cuidado.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jaké řešení se doporučuje pro provádění nízkonákladových plateb Bitcoin?
+answer: Lightning Network
+wrong_answers:
+  - Hardware Wallet
+  - Bankovní účet
+  - RGB Layer
+explanation: |
+  Lightning umožňuje rychlé a levné transakce při každodenních nákupech. Je to ideální nástroj pro aktivní uživatele.
+reviewed: false

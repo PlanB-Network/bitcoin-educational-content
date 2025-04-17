@@ -1,0 +1,9 @@
+question: Welche Lösung wird empfohlen, um kostengünstige Bitcoin-Zahlungen vorzunehmen?
+answer: Lightning Network
+wrong_answers:
+  - Hardware Wallet
+  - Bankkonto
+  - RGB Layer
+explanation: |
+  Lightning ermöglicht schnelle und kostengünstige Transaktionen für tägliche Einkäufe. Es ist das ideale Werkzeug für den aktiven Nutzer.
+reviewed: false

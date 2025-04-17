@@ -1,0 +1,9 @@
+question: Mikä toinen Layer-protokolla mahdollistaa lähes välittömät maksut?
+answer: Lightning Network
+wrong_answers:
+  - Sivuketjut
+  - RGB
+  - Bitcoin ydin
+explanation: |
+  Lightning Network mahdollistaa nopeat ja edulliset transaktiot off-chain-toiminnoilla Bitcoin Blockchain:n ulkopuolella.
+reviewed: false

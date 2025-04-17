@@ -1,0 +1,9 @@
+question: Millä työkalulla voit valvoa Wallet:ta paljastamatta yksityisiä avaimia?
+answer: Watch-only wallet
+wrong_answers:
+  - Hot Wallet
+  - Salama Wallet
+  - Huoltotyö Wallet
+explanation: |
+  Watch-only wallet käyttää ainoastaan julkisia avaimia saldojen ja tapahtumien näyttämiseen ilman, että yksityisten avainten paljastuminen on vaarassa.
+reviewed: false

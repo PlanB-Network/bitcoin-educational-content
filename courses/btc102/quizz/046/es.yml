@@ -1,0 +1,9 @@
+question: ¿Qué herramienta le permite supervisar su Wallet sin exponer sus claves privadas?
+answer: Watch-only wallet
+wrong_answers:
+  - Hot Wallet
+  - Rayo Wallet
+  - Custodia Wallet
+explanation: |
+  Una Watch-only wallet utiliza únicamente claves públicas para mostrar saldos y transacciones, sin arriesgarse a exponer las claves privadas.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quali sono le caratteristiche tipiche di uno schema Ponzi nell'ecosistema delle criptovalute?
+answer: Rendimenti garantiti, prelievi difficili e referral
+wrong_answers:
+  - Rendimenti bassi, prelievi difficili e trasparenza totale
+  - Rendimenti garantiti, prelievi difficili e nessun sistema di referral
+  - Rendimenti garantiti, prelievi facili e nessun sistema di referral
+explanation: |
+  Queste caratteristiche possono indicare uno schema piramidale. Se le osservate in un progetto, siate molto cauti.
+reviewed: false

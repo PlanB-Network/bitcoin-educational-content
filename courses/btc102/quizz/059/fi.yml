@@ -1,0 +1,9 @@
+question: Mikä on vainoharhaisen bitcoinerin päätavoite?
+answer: Yksityisyyden suojaamiseksi
+wrong_answers:
+  - Satoshien kerääminen nopeasti
+  - Maksimoida kaupankäynnin voitot
+  - Pitää bitcoinejaan pitkällä aikavälillä
+explanation: |
+  Vainoharhainen bitcoinaaja pyrkii ensisijaisesti välttämään transaktioidensa ja identiteettinsä jäljitettävyyttä.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mikä on liikkeessä olevien bitcoinien likimääräinen enimmäismäärä Supply?
+answer: 21 miljoonaa
+wrong_answers:
+  - 10 miljoonaa
+  - 47 miljoonaa
+  - 150 miljoonaa
+explanation: |
+  Bitcoin on ohjelmoitu niin, että Supply:n rajoitettu määrä on noin 21 miljoonaa bitcoinia.
+reviewed: false

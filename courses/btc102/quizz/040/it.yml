@@ -1,0 +1,9 @@
+question: Quale strategia di acquisizione può essere adottata da un hodler ibrido?
+answer: Media del costo del dollaro
+wrong_answers:
+  - Trading algoritmico
+  - Arbitraggio
+  - Hacking
+explanation: |
+  Il Dollar-Cost Averaging consente di effettuare acquisti regolari di Bitcoin per appianare il prezzo medio di acquisto nel tempo. L'hodler può combinare questo metodo con acquisti occasionali a forfait.
+reviewed: false

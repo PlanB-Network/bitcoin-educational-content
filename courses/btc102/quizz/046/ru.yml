@@ -1,0 +1,9 @@
+question: Какой инструмент позволяет контролировать Wallet без раскрытия закрытых ключей?
+answer: Watch-only wallet
+wrong_answers:
+  - Hot Wallet
+  - Молния Wallet
+  - Опекунский Wallet
+explanation: |
+  Watch-only wallet использует только открытые ключи для отображения баланса и транзакций, не рискуя раскрывать приватные ключи.
+reviewed: false

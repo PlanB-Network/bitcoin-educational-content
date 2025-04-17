@@ -1,0 +1,9 @@
+question: Jaké médium se doporučuje pro bezpečné zálohování fráze Mnemonic?
+answer: Kovová záloha se zalepenou neprůhlednou obálkou
+wrong_answers:
+  - Šifrované úložiště USB
+  - Papírová záloha s průhledným pouzdrem
+  - Zálohování v zabezpečeném cloudu
+explanation: |
+  Kovová záloha odolná proti havárii nabízí dlouhodobou ochranu proti poškození a neoprávněnému přístupu. Zapečetěná neprůhledná obálka umožňuje ověřit, zda se k frázi Mnemonic někdo dostal.
+reviewed: false

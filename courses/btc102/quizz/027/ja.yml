@@ -1,0 +1,9 @@
+question: 2025年、Bitcoinコアのメンテナは何人いるのか？
+answer: 5
+wrong_answers:
+  - 7
+  - 12
+  - 23
+explanation: |
+  2025年には5人のメンテナーがいる：Hennadii Stepanov、Michael Ford、Ava Chow、Gloria Zhao、Ryan Ofskyである。
+reviewed: false

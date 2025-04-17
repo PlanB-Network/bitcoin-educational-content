@@ -1,0 +1,9 @@
+question: ¿Qué método de adquisición evita el usuario paranoico?
+answer: Plataformas centralizadas con KYC
+wrong_answers:
+  - Plataformas de matchmaking de P2P
+  - Cajeros Bitcoin
+  - Compras directas en efectivo en las reuniones
+explanation: |
+  Para preservar el anonimato, el usuario paranoico evita las plataformas que requieren verificación de identidad.
+reviewed: false

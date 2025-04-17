@@ -1,0 +1,9 @@
+question: Was ist der Hauptunterschied zwischen Handel und Investitionen?
+answer: Handel ist kurzfristig und spekulativ, Investitionen sind langfristig und strategisch
+wrong_answers:
+  - Der Handel ist mit festen Gebühren verbunden, die Investition mit variablen Gebühren
+  - Der Handel basiert auf der Fundamentalanalyse, die Investition auf makroökonomischen Trends
+  - Handeln ist weniger riskant als Investieren
+explanation: |
+  Der Handel erfordert eine ständige Überwachung und technische Fähigkeiten, während Investitionen eine langfristige Vision voraussetzen.
+reviewed: false

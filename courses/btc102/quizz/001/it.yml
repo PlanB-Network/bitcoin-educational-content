@@ -1,0 +1,9 @@
+question: Cosa fare per identificare un tentativo di phishing nel settore delle criptovalute?
+answer: Verificare l'identità del mittente
+wrong_answers:
+  - Cliccate solo sui link ricevuti nell'e-mail
+  - Condividete le vostre chiavi private per confermare l'autenticità
+  - Affidarsi esclusivamente a loghi e immagini nelle email
+explanation: |
+  Assicuratevi sempre di interagire con la persona corretta e non utilizzate mai i link forniti nelle e-mail. Piuttosto, andate direttamente al sito manualmente, utilizzando i segnalibri del vostro browser.
+reviewed: false

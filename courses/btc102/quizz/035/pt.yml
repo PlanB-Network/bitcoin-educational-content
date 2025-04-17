@@ -1,0 +1,9 @@
+question: Que solução de armazenamento é recomendada para um hodler?
+answer: A Hardware Wallet
+wrong_answers:
+  - A Hot Wallet
+  - Um serviço de custódia
+  - Um documento Wallet
+explanation: |
+  Um hodler, que detém bitcoins a longo prazo, deve utilizar um Hardware Wallet para maximizar a segurança.
+reviewed: false

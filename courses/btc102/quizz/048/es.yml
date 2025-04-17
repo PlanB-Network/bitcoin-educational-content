@@ -1,0 +1,9 @@
+question: ¿Qué estrategia de inversión utiliza principalmente un apilador?
+answer: Promedio del coste en dólares
+wrong_answers:
+  - Negociación diaria
+  - Arbitraje
+  - Suma global
+explanation: |
+  El DCA consiste en invertir periódicamente una cantidad fija para reducir el impacto de la volatilidad del mercado en la propia cartera.
+reviewed: false

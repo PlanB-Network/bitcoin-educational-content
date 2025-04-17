@@ -1,0 +1,9 @@
+question: Como é que Barack Obama descreveu o Bitcoin?
+answer: Um banco suíço no seu bolso
+wrong_answers:
+  - Ouro digital
+  - Um ativo altamente especulativo
+  - Uma moeda descentralizada
+explanation: |
+  Barack Obama referiu-se uma vez ao Bitcoin como "um banco suíço no seu bolso" De facto, o Bitcoin oferece as mesmas oportunidades a todos, independentemente do estatuto, e permite o Confidential Transactions.
+reviewed: false

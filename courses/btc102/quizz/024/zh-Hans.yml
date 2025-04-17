@@ -1,0 +1,9 @@
+question: 奥巴马是如何描述 Bitcoin 的？
+answer: 口袋里的瑞士银行
+wrong_answers:
+  - 数字黄金
+  - 投机性极强的资产
+  - 去中心化的货币
+explanation: |
+  奥巴马曾把 Bitcoin 称作 "你口袋里的瑞士银行"。的确，Bitcoin 为每个人提供了同样的机会，无论其身份如何，并允许 Confidential Transactions 的存在。
+reviewed: false

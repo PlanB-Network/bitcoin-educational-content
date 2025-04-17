@@ -1,0 +1,9 @@
+question: Apa yang TIDAK disarankan saat memberikan akses ke bitcoin Anda?
+answer: Memberikan frasa Mnemonic kepada satu orang
+wrong_answers:
+  - Membagi informasi di antara beberapa orang
+  - Menggunakan amplop buram yang disegel
+  - Menulis surat penjelasan
+explanation: |
+  Mempercayakan frasa Mnemonic kepada satu orang tanpa keamanan tambahan sangat meningkatkan risiko pencurian selama masa hidup Anda.
+reviewed: false

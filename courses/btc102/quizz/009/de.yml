@@ -1,0 +1,9 @@
+question: Warum ist die Online-Sicherheit für Bitcoin-Nutzer so wichtig?
+answer: Weil Hacken zum unwiderruflichen Verlust von Bitcoins führt
+wrong_answers:
+  - Weil Banken Gelder für den Fall eines Totalverlustes von Bitcoin versichern
+  - Weil man für den Verlust von Bitcoins ins Gefängnis kommen kann
+  - Weil Angriffe zu einem sehr hohen Verwaltungsaufwand führen
+explanation: |
+  Ohne Mittelsmänner bedeutet ein Hack den endgültigen Verlust von Bitcoins.
+reviewed: false

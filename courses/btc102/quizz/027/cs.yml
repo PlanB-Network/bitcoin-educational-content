@@ -1,0 +1,9 @@
+question: Kolik správců bude mít Bitcoin Core v roce 2025?
+answer: 5
+wrong_answers:
+  - 7
+  - 12
+  - 23
+explanation: |
+  V roce 2025 je pět správců: Hennadii Stepanov, Michael Ford, Ava Chow, Gloria Zhao a Ryan Ofsky.
+reviewed: false

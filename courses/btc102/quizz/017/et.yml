@@ -1,0 +1,9 @@
+question: Milline termin viitab Mining toetuse programmeeritud jagamisele?
+answer: Halving
+wrong_answers:
+  - Fork
+  - Poolitamine
+  - Coinbase
+explanation: |
+  Halving viitab Halving Mining toetusele iga 210 000 ploki kohta.
+reviewed: false

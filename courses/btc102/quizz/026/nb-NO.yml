@@ -1,0 +1,9 @@
+question: Hva må brukerne lagre selv for å virkelig eie bitcoinsene sine?
+answer: Private nøkler
+wrong_answers:
+  - Mottaksadresser
+  - Passord for Exchange-plattformen
+  - Blockchain-blokker
+explanation: |
+  Uten å ha de private nøklene dine, eier du ikke bitcoinsene dine.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jakou výhodu přináší provoz vlastního uzlu Bitcoin?
+answer: Nezávislost
+wrong_answers:
+  - Likvidita
+  - Centralizace
+  - Rychlost
+explanation: |
+  Provozování vlastního uzlu zajišťuje nezávislost na třetích stranách a chrání soukromí vašich transakcí.
+reviewed: false

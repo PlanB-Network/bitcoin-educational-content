@@ -1,0 +1,9 @@
+question: 哪些是 Bitcoin 侧链？
+answer: Liquid 和根茎
+wrong_answers:
+  - 多边形和 Arbitrum
+  - 木星和 Fantom
+  - Bitcoin 现金和 Bitcoin Satoshi 愿景
+explanation: |
+  Liquid 和 RSK 是侧链，与 Bitcoin 有双向挂钩。其他选项不是侧链，或者与 Bitcoin Blockchain 没有双向挂接。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Was ist die wichtigste politische Auswirkung von Bitcoin?
+answer: Verringerung der staatlichen Kontrolle über Geld
+wrong_answers:
+  - Zunehmende Zentralisierung der Banken
+  - Förderung der Inflation
+  - Verschärfung der Finanzvorschriften
+explanation: |
+  Bitcoin ist eine Alternative, die die Macht der staatlichen Institutionen über das Geld durch Seigniorage und Transaktionszensur schwächt.
+reviewed: false

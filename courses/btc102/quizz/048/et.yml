@@ -1,0 +1,9 @@
+question: Millist investeerimisstrateegiat kasutab peamiselt virnastaja?
+answer: Dollar-kulude keskmistamine
+wrong_answers:
+  - Päevane kauplemine
+  - Arbitraaž
+  - Kindlasummaline hüvitis
+explanation: |
+  DCA hõlmab kindla summa regulaarset investeerimist, et vähendada turu volatiilsuse mõju oma portfellile.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Welcher RGB-Mechanismus gewährleistet den Widerstand gegen Doppelausgaben?
+answer: Single-Use Seal
+wrong_answers:
+  - Mehrfachnutzung Seal
+  - Doppelte Unterschrift
+  - Proof-of-Stake
+explanation: |
+  Der Single-Use Seal macht sich die Tatsache zunutze, dass ein UTXO nur einmal ausgegeben werden kann, was den Widerstand gegen Doppelausgaben in RGB-Smart-Verträgen gewährleistet.
+reviewed: false

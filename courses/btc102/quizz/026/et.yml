@@ -1,0 +1,9 @@
+question: Mida peavad kasutajad ise salvestama, et oma bitcoine tõeliselt omada?
+answer: Privaatvõtmed
+wrong_answers:
+  - Vastuvõtuaadressid
+  - Exchange platvormi paroolid
+  - Blockchain plokid
+explanation: |
+  Ilma oma isiklike võtmete valdamiseta ei ole te oma bitcoinide tegelik omanik.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hvilken egenskap skiller primært Bitcoin fra altcoins?
+answer: Desentralisering
+wrong_answers:
+  - Likviditet
+  - Omdømme
+  - Personvern
+explanation: |
+  Bitcoin er kjent for sin desentralisering, i motsetning til de fleste altcoins som er mer eller mindre sentraliserte.
+reviewed: false

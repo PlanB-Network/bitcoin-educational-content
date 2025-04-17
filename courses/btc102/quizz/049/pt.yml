@@ -1,0 +1,9 @@
+question: Qual é o principal objetivo do empilhamento?
+answer: Acumulação progressiva de satoshis
+wrong_answers:
+  - Especulação a curto prazo
+  - Comprar uma grande quantidade de satoshis de uma só vez
+  - Utilização do Bitcoin para pagamentos diários
+explanation: |
+  O empilhador investe pequenas quantias em intervalos regulares para calcular a média do preço de compra ao longo do tempo.
+reviewed: false

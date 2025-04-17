@@ -1,0 +1,9 @@
+question: 偏執的なユーザーが避ける取得方法は？
+answer: KYC付き集中型プラットフォーム
+wrong_answers:
+  - P2Pマッチメイキング・プラットフォーム
+  - Bitcoin ATM
+  - ミートアップでの現金直接購入
+explanation: |
+  匿名性を保つため、偏執的なユーザーは本人確認が必要なプラットフォームを避ける。
+reviewed: false

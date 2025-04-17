@@ -1,0 +1,9 @@
+question: Welchen großen Vorteil bietet der mehrschichtige Ansatz für Bitcoin?
+answer: Aufrechterhaltung der Sicherheit des Basisprotokolls
+wrong_answers:
+  - Zunehmende Zentralisierung des Hauptnetzes
+  - Schnelle Innovation beim Basisprotokoll
+  - Die Schichten haben die gleichen Merkmale wie das Basisprotokoll
+explanation: |
+  Der mehrschichtige Ansatz ermöglicht das Hinzufügen von Funktionalitäten, ohne die Sicherheit und Einfachheit des Basisprotokolls zu beeinträchtigen.
+reviewed: false

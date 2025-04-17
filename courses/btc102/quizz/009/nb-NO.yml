@@ -1,0 +1,9 @@
+question: Hvorfor er nettsikkerhet avgjørende for Bitcoin-brukere?
+answer: Fordi hacking resulterer i irreversibelt tap av bitcoins
+wrong_answers:
+  - Fordi bankene forsikrer midler i tilfelle totaltap av Bitcoin
+  - Fordi man kan havne i fengsel for å miste bitcoins
+  - Fordi angrep fører til svært store administrative byrder
+explanation: |
+  Uten mellomledd betyr et hack et definitivt tap av bitcoins.
+reviewed: false

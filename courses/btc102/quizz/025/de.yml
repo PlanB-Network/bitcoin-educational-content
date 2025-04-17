@@ -1,0 +1,9 @@
+question: Welches Merkmal unterscheidet Bitcoin hauptsächlich von Altcoins?
+answer: Dezentralisierung
+wrong_answers:
+  - Liquidität
+  - Reputation
+  - Datenschutz
+explanation: |
+  Bitcoin ist für seine Dezentralisierung bekannt, im Gegensatz zu den meisten Altcoins, die mehr oder weniger zentralisiert sind.
+reviewed: false

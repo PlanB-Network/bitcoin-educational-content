@@ -1,0 +1,9 @@
+question: Metode apa yang digunakan untuk melindungi penelusuran transaksi On-Chain?
+answer: Menggunakan teknik CoinJoin dan PayJoin
+wrong_answers:
+  - Menggunakan kembali Address penerima yang sama
+  - Konsolidasi UTXO yang sering dilakukan
+  - Menyetor ke dalam kustodian Wallet
+explanation: |
+  Coinjoin dan payjoin membantu meningkatkan privasi aktivitas On-Chain.
+reviewed: false

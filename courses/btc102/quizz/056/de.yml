@@ -1,0 +1,9 @@
+question: Welche Methode wird verwendet, um die Rückverfolgbarkeit von On-Chain-Transaktionen zu schützen?
+answer: Anwendung der CoinJoin- und PayJoin-Techniken
+wrong_answers:
+  - Wiederverwendung desselben empfangenden Address
+  - Häufige Konsolidierung von UTXOs
+  - Einzahlung in ein verwahrtes Wallet
+explanation: |
+  Coinjoins und Payjoins tragen dazu bei, die Privatsphäre der On-Chain-Aktivitäten zu verbessern.
+reviewed: false

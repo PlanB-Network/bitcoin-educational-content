@@ -1,0 +1,9 @@
+question: Istilah apa yang merujuk pada pembagian subsidi Mining yang terprogram?
+answer: Halving
+wrong_answers:
+  - Fork
+  - Pembelahan
+  - Coinbase
+explanation: |
+  Halving mengacu pada Halving dari subsidi Mining setiap 210.000 blok.
+reviewed: false

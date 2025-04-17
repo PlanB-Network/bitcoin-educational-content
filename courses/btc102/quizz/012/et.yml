@@ -1,0 +1,9 @@
+question: Mida tähendab Bitcoin maailmas mõiste "enesehooldus"?
+answer: Oma isiklike võtmete hoidmine ise
+wrong_answers:
+  - Võtmete usaldamine spetsiaalsele Exchange platvormile
+  - Oma võtmete usaldamine investeerimispangale
+  - Oma avalike võtmete hoidmine ise
+explanation: |
+  Omavahetus tagab, et kasutaja säilitab täieliku kontrolli oma bitcoinide üle oma isiklike võtmete kaudu.
+reviewed: false

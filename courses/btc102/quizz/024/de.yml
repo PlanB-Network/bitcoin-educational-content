@@ -1,0 +1,9 @@
+question: Wie hat Barack Obama Bitcoin beschrieben?
+answer: Eine Schweizer Bank in Ihrer Tasche
+wrong_answers:
+  - Digitales Gold
+  - Ein hochspekulativer Vermögenswert
+  - Eine dezentralisierte Währung
+explanation: |
+  Barack Obama bezeichnete Bitcoin einmal als "eine Schweizer Bank in Ihrer Tasche" In der Tat bietet Bitcoin jedem die gleichen Möglichkeiten, unabhängig vom Status, und ermöglicht Confidential Transactions.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Wer sind die Erfinder des Lightning Network?
+answer: Thaddeus Dryja und Joseph Poon
+wrong_answers:
+  - Andreas Antonopoulos und Adam Back
+  - Pieter Wuille und Gregory Maxwell
+  - Satoshi Nakamoto und Hal Finney
+explanation: |
+  Thaddeus Dryja und Joseph Poon erfanden den Lightning Network im Jahr 2016, um die Skalierbarkeit des Bitcoin zu verbessern.
+reviewed: false

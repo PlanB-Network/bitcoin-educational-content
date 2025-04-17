@@ -1,0 +1,9 @@
+question: Minkä suurimman riskin aiheuttaa se, että perintösuunnitelmassa annetaan liikaa tietoja?
+answer: Varkausriski
+wrong_answers:
+  - Häviämisriski
+  - Devalvaatioriski
+  - Sääntelyyn liittyvä riski
+explanation: |
+  Liian suuri määrä tietoa voi helpottaa pahansuopaisten henkilöiden toimintaa, jos he pääsevät käsiksi perintösuunnitelmaasi.
+reviewed: false

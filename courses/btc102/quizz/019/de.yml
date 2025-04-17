@@ -1,0 +1,9 @@
+question: Wer hat das Bitcoin-Weißbuch veröffentlicht?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - David Chaum
+  - Tim May
+  - Eric Hughes
+explanation: |
+  Das Weißbuch wurde Ende 2008 von Satoshi Nakamoto (einem Pseudonym) veröffentlicht.
+reviewed: false

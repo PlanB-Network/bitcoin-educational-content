@@ -1,0 +1,9 @@
+question: In cosa consiste il Pump and Dump nel settore delle criptovalute?
+answer: Manipolazione di un'attività attraverso una campagna di vendita al picco massimo
+wrong_answers:
+  - Acquistare massicciamente un'attività per sostenerne il prezzo senza mai venderla
+  - Stabilizzare il mercato a lungo termine attraverso operazioni di contrasto
+  - Effettuare acquisti ricorrenti per ottenere un'esposizione a lungo termine all'attività
+explanation: |
+  Questa tecnica fraudolenta consiste nel gonfiare artificialmente il prezzo per vendere in un momento critico e far crollare il valore.
+reviewed: false

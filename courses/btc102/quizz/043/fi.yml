@@ -1,0 +1,9 @@
+question: Mikä on hodlerin päätavoite?
+answer: Pitää bitcoininsa hallussaan pitkällä aikavälillä
+wrong_answers:
+  - Spekulointi lyhyellä aikavälillä
+  - Tehdä usein Bitcoin-tapahtumia
+  - Maksimoidakseen Bitcoin-tapahtumiensa yksityisyyden
+explanation: |
+  Hodlerin tavoitteena on pitää bitcoinit hallussaan useita vuosia hyötyäkseen omaisuuden oletetusta kasvusta.
+reviewed: false

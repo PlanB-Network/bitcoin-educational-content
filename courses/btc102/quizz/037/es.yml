@@ -1,0 +1,9 @@
+question: ¿Qué debe evitarse absolutamente para garantizar la seguridad de sus bitcoins?
+answer: Guarde sus bitcoins en una plataforma Exchange
+wrong_answers:
+  - Utilización de una Hardware Wallet de código abierto
+  - Utilización de una Hot Wallet para las transacciones diarias
+  - Diversificar los métodos de almacenamiento
+explanation: |
+  El principio "Ni tus claves, ni tus bitcoins" subraya la importancia de poseer tus propias claves privadas. En una plataforma Exchange, tus bitcoins están expuestos a riesgos innecesarios.
+reviewed: false

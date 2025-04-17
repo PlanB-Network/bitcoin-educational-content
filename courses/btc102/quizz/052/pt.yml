@@ -1,0 +1,9 @@
+question: Qual é a vantagem de ter o seu próprio nó Bitcoin?
+answer: Independência
+wrong_answers:
+  - Liquidez
+  - Centralização
+  - Velocidade
+explanation: |
+  A gestão do seu próprio nó garante a independência em relação a terceiros e protege a privacidade das suas transacções.
+reviewed: false

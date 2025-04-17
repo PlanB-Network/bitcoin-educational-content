@@ -1,0 +1,9 @@
+question: Hvilke tiltak er avgjørende for at arvingene dine skal få tilbake bitcoinsene dine uten feil?
+answer: Gi tydelige instruksjoner
+wrong_answers:
+  - Betro alle private nøkler
+  - Hyppig endring av passord
+  - Bruk av en KYC Exchange-plattform
+explanation: |
+  Detaljerte og forståelige instruksjoner sikrer at dine nærmeste kan få tilgang til midlene på riktig måte.
+reviewed: false

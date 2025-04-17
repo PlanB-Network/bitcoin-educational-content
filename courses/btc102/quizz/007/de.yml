@@ -1,0 +1,9 @@
+question: Was bedeutet die 3-2-1-Regel in Bezug auf die Datensicherung?
+answer: 3 Kopien auf 2 verschiedenen Datenträgern, wovon 1 außerhalb des Unternehmens aufbewahrt wird
+wrong_answers:
+  - 3 Kopien auf 2 Online-Medien und 1 physisches Gerät
+  - 3 Datenträger mit 2 Kopien, von denen eine extern aufbewahrt wird
+  - 3 Kopien, von denen 2 verschlüsselt sind und 1 außerhalb des Unternehmens gespeichert wird
+explanation: |
+  In dieser Regel wird empfohlen, 3 Kopien der Daten auf 2 verschiedenen Datenträgern zu speichern, wobei eine Kopie außerhalb des Unternehmens aufbewahrt wird, um die Ausfallsicherheit zu erhöhen.
+reviewed: false

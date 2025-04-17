@@ -1,0 +1,9 @@
+question: Apa keuntungan menjalankan node Bitcoin Anda sendiri?
+answer: Kemandirian
+wrong_answers:
+  - Likuiditas
+  - Sentralisasi
+  - Kecepatan
+explanation: |
+  Menjalankan node Anda sendiri memastikan independensi dari pihak ketiga dan melindungi privasi transaksi Anda.
+reviewed: false

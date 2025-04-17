@@ -1,0 +1,9 @@
+question: Metode akuisisi mana yang dihindari oleh pengguna paranoid?
+answer: Platform terpusat dengan KYC
+wrong_answers:
+  - Platform perjodohan P2P
+  - ATM Bitcoin
+  - Pembelian tunai langsung pada saat pertemuan
+explanation: |
+  Untuk menjaga anonimitas, pengguna paranoid menghindari platform yang memerlukan verifikasi identitas.
+reviewed: false

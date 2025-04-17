@@ -1,0 +1,9 @@
+question: Mitä tietovälinettä suositellaan Mnemonic-lauseen varmuuskopioimiseksi?
+answer: Metallinen varmuuskopio sinetöidyssä läpinäkymättömässä kirjekuoressa
+wrong_answers:
+  - Salattu USB-aseman tallennus
+  - Paperinen varmuuskopio läpinäkyvällä suojakotelolla
+  - Varmuuskopiointi suojatussa pilvipalvelussa
+explanation: |
+  Katastrofinkestävä metallinen varmuuskopio tarjoaa pitkäaikaisen suojan vaurioita ja luvatonta käyttöä vastaan. Sinetöidyn läpinäkymättömän kirjekuoren avulla voit tarkistaa, onko kukaan käyttänyt Mnemonic-lausetta.
+reviewed: false

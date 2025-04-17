@@ -1,0 +1,9 @@
+question: Mitä toimia on välttämätöntä, jotta perillisesi voivat palauttaa bitcoinisi virheettömästi?
+answer: Selkeiden ohjeiden antaminen
+wrong_answers:
+  - Kaikkien yksityisten avainten luovuttaminen
+  - Salasanojen vaihtaminen usein
+  - KYC Exchange -alustan käyttäminen
+explanation: |
+  Yksityiskohtaiset ja ymmärrettävät ohjeet varmistavat, että läheisesi voivat käyttää varoja asianmukaisesti.
+reviewed: false

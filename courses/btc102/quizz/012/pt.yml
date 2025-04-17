@@ -1,0 +1,9 @@
+question: O que significa a noção de auto-custódia no mundo Bitcoin?
+answer: Guardar as suas chaves privadas
+wrong_answers:
+  - Confiar as suas chaves a uma plataforma Exchange especializada
+  - Confiar as suas chaves a um banco de investimento
+  - Guardar as suas chaves públicas
+explanation: |
+  A auto-custódia garante que o utilizador mantém o controlo total dos seus bitcoins através das suas próprias chaves privadas.
+reviewed: false

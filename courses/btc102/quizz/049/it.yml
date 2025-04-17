@@ -1,0 +1,9 @@
+question: Qual è l'obiettivo principale dell'impilamento?
+answer: Accumulare gradualmente satoshi
+wrong_answers:
+  - Speculazione a breve termine
+  - Acquistare una grande quantità di satoshi in una sola volta
+  - Utilizzo di Bitcoin per i pagamenti giornalieri
+explanation: |
+  L'impilatore investe piccoli importi a intervalli regolari per calcolare il prezzo di acquisto nel tempo.
+reviewed: false

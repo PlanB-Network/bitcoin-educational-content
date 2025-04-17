@@ -1,0 +1,9 @@
+question: Proč se doporučuje psát dědický dopis inkoustem na papír?
+answer: Abyste se vyhnuli rizikům spojeným s ohrožením digitálních dokumentů
+wrong_answers:
+  - Snížení nákladů na tisk
+  - Získání právně uznávaného podpisu
+  - Zvýšení právní hodnoty dokumentu
+explanation: |
+  Ručně psaný dopis je méně náchylný ke kybernetickým útokům a zajišťuje důvěrnost pokynů.
+reviewed: false

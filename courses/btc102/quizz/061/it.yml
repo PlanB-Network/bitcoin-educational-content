@@ -1,0 +1,9 @@
+question: Perché si consiglia di scrivere la lettera di successione con inchiostro su carta?
+answer: Per evitare i rischi associati alla compromissione dei documenti digitali
+wrong_answers:
+  - Per ridurre i costi di stampa
+  - Per ottenere una firma legalmente riconosciuta
+  - Per aumentare il valore legale del documento
+explanation: |
+  Una lettera scritta a mano è meno vulnerabile agli attacchi informatici e garantisce la riservatezza delle istruzioni.
+reviewed: false

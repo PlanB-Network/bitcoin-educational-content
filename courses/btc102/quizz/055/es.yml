@@ -1,0 +1,9 @@
+question: ¿Qué soporte se recomienda para realizar copias de seguridad de su frase Mnemonic?
+answer: Respaldo metálico con sobre opaco sellado
+wrong_answers:
+  - Almacenamiento cifrado en unidades USB
+  - Respaldo de papel con funda transparente
+  - Copias de seguridad en una nube segura
+explanation: |
+  Un respaldo metálico resistente a catástrofes ofrece protección duradera contra daños y accesos no autorizados. El sobre opaco sellado permite verificar si alguien ha accedido a la frase Mnemonic.
+reviewed: false

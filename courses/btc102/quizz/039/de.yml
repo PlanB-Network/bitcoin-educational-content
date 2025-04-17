@@ -1,0 +1,9 @@
+question: Welches Benutzerprofil sammelt regelmäßig Bitcoins durch Dollar-Cost Averaging?
+answer: Der Stapler
+wrong_answers:
+  - Der Hodler
+  - Der aktive Nutzer
+  - Der Paranoiker
+explanation: |
+  Der Stapler kauft regelmäßig kleine Mengen, um den Kaufpreis über einen längeren Zeitraum zu verteilen.
+reviewed: false

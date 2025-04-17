@@ -1,0 +1,9 @@
+question: Mis on Ponzi skeemi peamine mehhanism?
+answer: Varasematele investoritele makstakse uute investorite raha eest
+wrong_answers:
+  - Tulud tulevad reaalselt turul olevast tootest
+  - Investorid saavad ettevõtetelt dividende
+  - Blockchain arukate lepingute abil saadakse kasumit
+explanation: |
+  Ponzi skeemi puhul ei looda mingit reaalset toodet ja väljamaksed sõltuvad ainult uute osalejate saabumisest.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 流通しているビットコインの最大Supplyはどのくらいですか？
+answer: 2100万ドル
+wrong_answers:
+  - 1000万ドル
+  - 4700万ドル
+  - 1億5000万ドル
+explanation: |
+  Bitcoinは約2100万ビットコインの限定Supplyを持つようにプログラムされている。
+reviewed: false

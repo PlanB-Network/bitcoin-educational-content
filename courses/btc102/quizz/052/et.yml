@@ -1,0 +1,9 @@
+question: Milline eelis on oma Bitcoin-sõlme käitamisel?
+answer: Sõltumatus
+wrong_answers:
+  - Likviidsus
+  - Tsentraliseerimine
+  - Kiirus
+explanation: |
+  Oma sõlme haldamine tagab sõltumatuse kolmandatest isikutest ja kaitseb teie tehingute privaatsust.
+reviewed: false

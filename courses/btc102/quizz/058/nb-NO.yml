@@ -1,0 +1,9 @@
+question: Hvilken Cold-lagringsløsning anbefales for den paranoide brukeren?
+answer: Luftforseglet eller DIY Hardware Wallet
+wrong_answers:
+  - Mobil Hot Wallet
+  - Vaktmestertjeneste på en Exchange-plattform
+  - Hardware Wallet med lukket kildekode for generelle formål
+explanation: |
+  Den paranoide brukeren foretrekker offline-lagring med åpen kildekode-løsninger for å minimere risikoen for eksponering.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jaké řešení úložiště Cold doporučujete paranoidním uživatelům?
+answer: Vzduchová montáž nebo DIY Hardware Wallet
+wrong_answers:
+  - Mobilní Hot Wallet
+  - Údržbářská služba na platformě Exchange
+  - Obecný uzavřený zdroj Hardware Wallet
+explanation: |
+  Paranoidní uživatelé dávají přednost offline úložišti s otevřeným zdrojovým kódem, aby minimalizovali riziko odhalení.
+reviewed: false

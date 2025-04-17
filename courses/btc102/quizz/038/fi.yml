@@ -1,0 +1,9 @@
+question: Mikä profiili suosii hankintaa ilman tunnistamista ja erittäin turvallisten lompakoiden käyttöä?
+answer: Vainoharhainen
+wrong_answers:
+  - Hodler
+  - Pinoaja
+  - Aktiivinen käyttäjä
+explanation: |
+  Vainoharhainen asettaa yksityisyyden ja turvallisuuden etusijalle ja käyttää erittäin turvallisia hankinta- ja tallennusmenetelmiä.
+reviewed: false

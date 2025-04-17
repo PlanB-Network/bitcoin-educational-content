@@ -1,0 +1,9 @@
+question: Kes on Lightning Network leiutajad?
+answer: Thaddeus Dryja ja Joseph Poon
+wrong_answers:
+  - Andreas Antonopoulos ja Adam Back
+  - Pieter Wuille ja Gregory Maxwell
+  - Satoshi Nakamoto ja Hal Finney
+explanation: |
+  Thaddeus Dryja ja Joseph Poon leiutasid 2016. aastal Lightning Network, et parandada Bitcoin skaleeritavust.
+reviewed: false

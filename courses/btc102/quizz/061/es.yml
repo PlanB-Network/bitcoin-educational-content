@@ -1,0 +1,9 @@
+question: ¿Por qué se recomienda escribir la carta de herencia con tinta sobre papel?
+answer: Para evitar los riesgos asociados a los documentos digitales comprometidos
+wrong_answers:
+  - Para reducir los costes de impresión
+  - Para obtener una firma legalmente reconocida
+  - Aumentar el valor jurídico del documento
+explanation: |
+  Una carta manuscrita es menos vulnerable a los ciberataques y garantiza la confidencialidad de las instrucciones.
+reviewed: false

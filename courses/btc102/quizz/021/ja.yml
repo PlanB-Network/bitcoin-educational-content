@@ -1,0 +1,9 @@
+question: Bitcoinの政治的意味合いは？
+answer: 国家による資金管理の削減
+wrong_answers:
+  - 銀行の中央集権化の進展
+  - インフレ促進
+  - 金融規制の強化
+explanation: |
+  Bitcoinは、シニョリッジと取引検閲を通じて、国家機関が貨幣に対して持つ力を弱める代替案である。
+reviewed: false

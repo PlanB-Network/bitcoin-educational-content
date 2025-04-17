@@ -1,0 +1,9 @@
+question: Warum ist es empfehlenswert, den Erbschaftsbrief mit Tinte auf Papier zu schreiben?
+answer: Um die mit kompromittierten digitalen Dokumenten verbundenen Risiken zu vermeiden
+wrong_answers:
+  - Druckkosten senken
+  - Um eine rechtlich anerkannte Unterschrift zu erhalten
+  - Erhöhung des rechtlichen Wertes des Dokuments
+explanation: |
+  Ein handgeschriebener Brief ist weniger anfällig für Cyberangriffe und gewährleistet die Vertraulichkeit der Anweisungen.
+reviewed: false

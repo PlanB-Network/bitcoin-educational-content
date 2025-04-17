@@ -1,0 +1,9 @@
+question: Was ist der Hauptmechanismus eines Schneeballsystems?
+answer: Frühe Investoren werden mit dem Geld der neuen Investoren bezahlt
+wrong_answers:
+  - Die Erträge stammen von einem echten Produkt auf dem Markt
+  - Anleger erhalten Dividenden von Unternehmen
+  - Gewinne werden durch intelligente Verträge auf dem Blockchain generiert
+explanation: |
+  Bei einem Schneeballsystem wird kein echtes Produkt geschaffen, und die Auszahlungen hängen ausschließlich von der Ankunft neuer Teilnehmer ab.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quale supporto è consigliato per il backup sicuro della frase Mnemonic?
+answer: Backup in metallo con busta opaca sigillata
+wrong_answers:
+  - Archiviazione crittografata su unità USB
+  - Supporto cartaceo con custodia trasparente
+  - Backup su un cloud sicuro
+explanation: |
+  Il backup metallico resistente alle catastrofi offre una protezione di lunga durata contro i danni e gli accessi non autorizzati. La busta opaca sigillata permette di verificare se qualcuno ha avuto accesso alla frase Mnemonic.
+reviewed: false

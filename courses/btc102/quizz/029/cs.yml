@@ -1,0 +1,9 @@
+question: Který významný hráč navrhuje ASIC pro Bitcoin Mining?
+answer: Bitmain
+wrong_answers:
+  - Trezor
+  - Ledger
+  - Slévárna USA
+explanation: |
+  Společnost Bitmain je jedním z předních výrobců specializovaného hardwaru pro Bitcoin Mining.
+reviewed: false

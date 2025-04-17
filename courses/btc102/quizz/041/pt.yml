@@ -1,0 +1,9 @@
+question: Qual é o valor máximo aproximado de Supply de bitcoins em circulação?
+answer: 21 milhões de euros
+wrong_answers:
+  - 10 milhões de euros
+  - 47 milhões de euros
+  - 150 milhões de euros
+explanation: |
+  O Bitcoin está programado para ter um Supply limitado de aproximadamente 21 milhões de bitcoins.
+reviewed: false

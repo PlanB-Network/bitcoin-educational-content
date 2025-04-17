@@ -1,0 +1,9 @@
+question: Proč se doporučuje pravidelně převádět prostředky z účtu Hot Wallet do účtu Hardware Wallet?
+answer: Snížení rizika hackerského útoku
+wrong_answers:
+  - Zvýšení likvidity Wallet
+  - Snížení transakčních poplatků
+  - Optimalizace ochrany soukromí UTXO
+explanation: |
+  Převod na Hardware Wallet zabezpečuje prostředky uložením soukromých klíčů v režimu offline.
+reviewed: false

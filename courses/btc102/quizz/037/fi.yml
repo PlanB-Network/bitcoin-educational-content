@@ -1,0 +1,9 @@
+question: Mitä pitäisi ehdottomasti välttää bitcoinien turvallisuuden varmistamiseksi?
+answer: Bitcoinien säilyttäminen Exchange-alustalla
+wrong_answers:
+  - Avoimen lähdekoodin Hardware Wallet:n käyttö
+  - Hot Wallet:n käyttäminen päivittäisiin liiketoimiin
+  - Varastointimenetelmien monipuolistaminen
+explanation: |
+  Periaate "Not your keys, not your bitcoins" korostaa omien yksityisten avainten hallussapidon tärkeyttä. Exchange-alustalla bitcoinisi ovat alttiina tarpeettomille riskeille.
+reviewed: false

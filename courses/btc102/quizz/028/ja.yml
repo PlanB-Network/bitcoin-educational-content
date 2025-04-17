@@ -1,0 +1,9 @@
+question: ビットコインを購入する際、KYCを避けるためにどのプラットフォームが推奨されるか？
+answer: ピアツーピアExchangeプラットフォーム
+wrong_answers:
+  - 汎用Exchangeプラットフォーム
+  - Bitcoinのみ Exchangeプラットフォーム
+  - トレーディングに特化したExchangeプラットフォーム
+explanation: |
+  P2Pプラットフォームでは、KYCを必要とせず、ユーザー同士が直接ビットコインを購入することができる。
+reviewed: false

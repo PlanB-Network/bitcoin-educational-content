@@ -1,0 +1,9 @@
+question: Perché è essenziale aggiornare regolarmente il sistema e il software?
+answer: Per risolvere le vulnerabilità di sicurezza note
+wrong_answers:
+  - Per migliorare la velocità del PC e rispondere più rapidamente agli attacchi informatici
+  - Per aggiungere funzioni di hacking
+  - Per ottimizzare la compatibilità dei videogiochi con Bitcoin
+explanation: |
+  Gli aggiornamenti spesso risolvono vulnerabilità note che vengono sfruttate dagli hacker.
+reviewed: false

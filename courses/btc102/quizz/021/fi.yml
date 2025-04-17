@@ -1,0 +1,9 @@
+question: Mikä on Bitcoin:n tärkein poliittinen vaikutus?
+answer: Valtion rahan hallinnan vähentäminen
+wrong_answers:
+  - Pankkitoiminnan lisääntyvä keskittäminen
+  - Inflaation edistäminen
+  - Rahoitusalan sääntelyn vahvistaminen
+explanation: |
+  Bitcoin on vaihtoehto, joka heikentää valtion instituutioiden valtaa rahaan seigniorage- ja transaktiosensuurin avulla.
+reviewed: false

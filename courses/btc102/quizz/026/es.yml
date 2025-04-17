@@ -1,0 +1,9 @@
+question: ¿Qué deben almacenar los usuarios para ser realmente dueños de sus bitcoins?
+answer: Claves privadas
+wrong_answers:
+  - Direcciones de recepción
+  - Contraseñas de la plataforma Exchange
+  - Bloques Blockchain
+explanation: |
+  Sin la posesión de sus claves privadas, usted no es realmente dueño de sus bitcoins.
+reviewed: false

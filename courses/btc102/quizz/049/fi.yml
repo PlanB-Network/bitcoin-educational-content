@@ -1,0 +1,9 @@
+question: Mikä on pinoamisen päätavoite?
+answer: Vähitellen kertyvät satoshit
+wrong_answers:
+  - Lyhyen aikavälin keinottelu
+  - Suuren määrän satosheja ostaminen kerralla
+  - Bitcoin:n käyttö päivittäisiin maksuihin
+explanation: |
+  Sijoittaja sijoittaa pieniä summia säännöllisin väliajoin, jotta ostohinta saataisiin ajan myötä keskimääräiseksi.
+reviewed: false

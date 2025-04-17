@@ -1,0 +1,9 @@
+question: Warum ist es empfehlenswert, regelmäßig Mittel von einem Hot Wallet auf einen Hardware Wallet zu übertragen?
+answer: Verringerung des Hacking-Risikos
+wrong_answers:
+  - Erhöhung der Wallet-Liquidität
+  - Senkung der Transaktionsgebühren
+  - Zur Optimierung des UTXO-Datenschutzes
+explanation: |
+  Bei der Übertragung auf ein Hardware Wallet werden die Gelder durch die Offline-Speicherung privater Schlüssel gesichert.
+reviewed: false

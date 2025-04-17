@@ -1,0 +1,9 @@
+question: Qual é o papel da carta de herança Bitcoin num plano patrimonial?
+answer: Orientar os herdeiros no acesso aos fundos
+wrong_answers:
+  - Servir como um Contract para transferir bitcoins para herdeiros
+  - Para determinar a distribuição fiscal dos activos
+  - Para otimizar as taxas de transferência entre carteiras
+explanation: |
+  A carta de herança fornece instruções claras e precisas para que os entes queridos possam recuperar os bitcoins.
+reviewed: false

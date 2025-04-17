@@ -1,0 +1,9 @@
+question: Proč je online zabezpečení pro uživatele Bitcoin klíčové?
+answer: Protože hacking vede k nevratné ztrátě bitcoinů
+wrong_answers:
+  - Protože banky pojišťují finanční prostředky pro případ úplné ztráty Bitcoin
+  - Protože za ztrátu bitcoinů lze jít do vězení
+  - Protože útoky vedou k velmi vysoké administrativní zátěži
+explanation: |
+  Bez zprostředkovatelů znamená hack definitivní ztrátu bitcoinů.
+reviewed: false

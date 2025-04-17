@@ -1,0 +1,9 @@
+question: ¿Cuál es el principal mecanismo de un esquema Ponzi?
+answer: Los primeros inversores cobran con el dinero de los nuevos
+wrong_answers:
+  - Los rendimientos proceden de un producto real en el mercado
+  - Los inversores reciben dividendos de las empresas
+  - Los beneficios son generados por contratos inteligentes en el Blockchain
+explanation: |
+  En un esquema Ponzi, no se crea ningún producto real y los pagos dependen únicamente de la llegada de nuevos participantes.
+reviewed: false

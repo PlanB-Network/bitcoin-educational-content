@@ -1,0 +1,9 @@
+question: ¿Qué servicio enumera los comercios que aceptan Bitcoin en todo el mundo?
+answer: Mapa de BTC
+wrong_answers:
+  - CoinMarketCap
+  - Bitcoin Talk
+  - Swiss Bitcoin Pay
+explanation: |
+  BTC Map es una plataforma especializada que localiza comercios que aceptan Bitcoin en todo el mundo.
+reviewed: false

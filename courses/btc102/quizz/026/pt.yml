@@ -1,0 +1,9 @@
+question: O que é que os utilizadores devem armazenar para serem verdadeiramente donos dos seus bitcoins?
+answer: Chaves privadas
+wrong_answers:
+  - Endereços de receção
+  - Palavras-passe da plataforma Exchange
+  - Blocos Blockchain
+explanation: |
+  Sem a posse das suas chaves privadas, não é verdadeiramente proprietário dos seus bitcoins.
+reviewed: false

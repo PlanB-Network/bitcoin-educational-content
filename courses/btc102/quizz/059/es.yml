@@ -1,0 +1,9 @@
+question: ¿Cuál es el principal objetivo del bitcoiner paranoico?
+answer: Para proteger su intimidad
+wrong_answers:
+  - Para acumular satoshis rápidamente
+  - Para maximizar los beneficios comerciales
+  - Para mantener sus bitcoins a largo plazo
+explanation: |
+  El bitcoiner paranoico busca ante todo evitar cualquier rastreo de sus transacciones e identidad.
+reviewed: false

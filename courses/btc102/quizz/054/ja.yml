@@ -1,0 +1,9 @@
+question: アクティブ・ユーザーの主な目標は何か？
+answer: Bitcoinを毎日の支払い方法として利用するには
+wrong_answers:
+  - Bitcoinに長期投資するために
+  - サトシを少しずつ貯める
+  - 市場を推測する
+explanation: |
+  アクティブ・ユーザーは、日常生活にBitcoinを組み込んで取引を行い、その導入をサポートする。
+reviewed: false

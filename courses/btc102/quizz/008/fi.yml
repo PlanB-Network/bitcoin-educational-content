@@ -1,0 +1,9 @@
+question: Miksi on tärkeää päivittää järjestelmäsi ja ohjelmistosi säännöllisesti?
+answer: Tunnettujen tietoturva-aukkojen korjaaminen
+wrong_answers:
+  - Tietokoneen nopeuden parantaminen ja siten nopeampi reagointi verkkohyökkäyksiin
+  - Hakkerointiominaisuuksien lisääminen
+  - Videopelien yhteensopivuuden optimoimiseksi Bitcoin:n kanssa
+explanation: |
+  Päivitykset korjaavat usein tunnettuja haavoittuvuuksia, joita hakkerit käyttävät hyväkseen.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mitä alustoja suositellaan KYC:n välttämiseksi bitcoineja ostettaessa?
+answer: Vertaisverkkoalustat Exchange
+wrong_answers:
+  - Yleiskäyttöiset Exchange-alustat
+  - Vain Bitcoin Exchange-alustat
+  - Kaupankäyntiin keskittyvät Exchange-alustat
+explanation: |
+  P2P-alustojen avulla käyttäjät voivat ostaa bitcoineja suoraan toisiltaan ilman KYC-vaatimuksia.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mis on aktiivse kasutaja peamine eesmärk?
+answer: Bitcoin kasutamine igapäevase makseviisina
+wrong_answers:
+  - Pikaajaline investeerimine Bitcoin-sse
+  - Et järk-järgult koguda satoshisid
+  - Spekuleerida turul
+explanation: |
+  Aktiivne kasutaja lisab Bitcoin oma igapäevaellu, et teha tehinguid ja toetada selle kasutuselevõttu.
+reviewed: false

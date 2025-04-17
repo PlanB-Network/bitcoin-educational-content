@@ -1,0 +1,9 @@
+question: Miten Barack Obama kuvaili Bitcoin:ta?
+answer: Sveitsiläinen pankki taskussasi
+wrong_answers:
+  - Digitaalinen kulta
+  - Erittäin spekulatiivinen omaisuuserä
+  - Hajautettu valuutta
+explanation: |
+  Barack Obama kutsui Bitcoin:ta kerran "sveitsiläiseksi pankiksi taskussasi" Bitcoin tarjoaa todellakin samat mahdollisuudet kaikille asemasta riippumatta ja mahdollistaa Confidential Transactions:n.
+reviewed: false

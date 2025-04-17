@@ -1,0 +1,9 @@
+question: Milline tööriist võimaldab teil jälgida oma Wallet ilma oma isiklikke võtmeid paljastamata?
+answer: Watch-only wallet
+wrong_answers:
+  - Hot Wallet
+  - Välk Wallet
+  - Hooldus Wallet
+explanation: |
+  Watch-only wallet kasutab saldode ja tehingute kuvamiseks ainult avalikke võtmeid, ilma et oleks oht, et isiklikud võtmed paljastatakse.
+reviewed: false

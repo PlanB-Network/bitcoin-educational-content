@@ -1,0 +1,9 @@
+question: スタッキングの主な目的は何ですか？
+answer: サトシを少しずつ貯める
+wrong_answers:
+  - 短期的な投機
+  - サトシの大量まとめ買い
+  - 日々の支払いにBitcoinを使う
+explanation: |
+  スタッカーは定期的に少額ずつ投資し、購入価格を平均化する。
+reviewed: false

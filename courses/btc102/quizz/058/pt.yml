@@ -1,0 +1,9 @@
+question: Que solução de armazenamento Cold é recomendada para o utilizador paranoico?
+answer: Hardware Wallet com ligação ao ar ou DIY
+wrong_answers:
+  - Móvel Hot Wallet
+  - Serviço de guarda numa plataforma Exchange
+  - Hardware Wallet de uso geral e de código fechado
+explanation: |
+  O utilizador paranoico prefere o armazenamento offline com soluções de código aberto para minimizar o risco de exposição.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Který profil upřednostňuje získávání peněz bez KYC a používání vysoce zabezpečených peněženek?
+answer: Paranoidní
+wrong_answers:
+  - Hodler
+  - Zakladač
+  - Aktivní uživatel
+explanation: |
+  Paranoik upřednostňuje soukromí a bezpečnost a používá vysoce bezpečné metody získávání a ukládání dat.
+reviewed: false

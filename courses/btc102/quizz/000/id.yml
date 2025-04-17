@@ -1,0 +1,9 @@
+question: Apa saja ciri-ciri khas skema Ponzi dalam ekosistem kripto?
+answer: Pengembalian yang dijamin, penarikan yang sulit, dan rujukan
+wrong_answers:
+  - Imbal hasil rendah, penarikan dana sulit, dan transparansi penuh
+  - Pengembalian terjamin, penarikan sulit, dan tidak ada sistem rujukan
+  - Pengembalian dana terjamin, penarikan dana mudah, dan tidak ada sistem referral
+explanation: |
+  Karakteristik ini dapat mengindikasikan skema piramida. Jika Anda mengamatinya dalam sebuah proyek, berhati-hatilah.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 运行自己的 Bitcoin 节点有什么好处？
+answer: 独立
+wrong_answers:
+  - 流动性
+  - 集中化
+  - 速度
+explanation: |
+  运行自己的节点可确保独立于第三方，并保护您的交易隐私。
+reviewed: false

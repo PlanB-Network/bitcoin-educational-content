@@ -1,0 +1,9 @@
+question: Které platformy se doporučují, abyste se při nákupu bitcoinů vyhnuli KYC?
+answer: Platformy Peer-to-peer Exchange
+wrong_answers:
+  - Platformy pro všeobecné použití Exchange
+  - Pouze platformy Bitcoin Exchange
+  - Platformy Exchange zaměřené na obchodování
+explanation: |
+  Platformy P2P umožňují uživatelům nakupovat bitcoiny přímo od sebe navzájem bez nutnosti KYC.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Porque é que a autenticação de dois factores é recomendada?
+answer: Acrescenta um Layer extra de segurança
+wrong_answers:
+  - Simplifica o acesso, reduzindo o número de códigos
+  - Permite o início de sessão sem palavra-passe
+  - Substitui a utilização de um gestor de palavras-passe
+explanation: |
+  a 2FA requer um código temporário para além da palavra-passe, o que reforça consideravelmente a proteção de uma conta online.
+reviewed: false

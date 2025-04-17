@@ -1,0 +1,9 @@
+question: Qual é a origem do termo hodler?
+answer: Um erro ortográfico de "hold" (segurar)
+wrong_answers:
+  - Um acrónimo de "hold" (segurar)
+  - Uma abreviatura de "Hot Wallet"
+  - Uma contração de "HODL chain" (cadeia HODL)
+explanation: |
+  O termo "hodler" provém de uma gralha no Bitcoin Talk, em que "hold" foi incorretamente escrito como "HODL" para exprimir a detenção a longo prazo.
+reviewed: false

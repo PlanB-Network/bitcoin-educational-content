@@ -1,0 +1,9 @@
+question: Miksi on suositeltavaa kirjoittaa perintökirje musteella paperille?
+answer: Välttääksesi vaarantuneisiin digitaalisiin asiakirjoihin liittyvät riskit
+wrong_answers:
+  - Tulostuskustannusten vähentäminen
+  - Laillisesti tunnustetun allekirjoituksen saaminen
+  - Asiakirjan oikeudellisen arvon lisääminen
+explanation: |
+  Käsin kirjoitettu kirje on vähemmän altis verkkohyökkäyksille ja takaa ohjeiden luottamuksellisuuden.
+reviewed: false

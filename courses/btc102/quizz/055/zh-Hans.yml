@@ -1,0 +1,9 @@
+question: 建议使用什么介质来安全备份 Mnemonic 短语？
+answer: 带密封不透明信封的金属备份
+wrong_answers:
+  - 加密 USB 驱动器存储
+  - 带透明套的纸质备份
+  - 安全云备份
+explanation: |
+  抗灾金属备份可提供长期保护，防止损坏和未经授权的访问。密封的不透明信封可让您核实是否有人访问过 Mnemonic 短语。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Bitcoinで高速かつ低コストの取引を可能にするシステムは？
+answer: Lightning Network
+wrong_answers:
+  - SegWit
+  - リップルネットワーク
+  - RGB
+explanation: |
+  Lightning NetworkはセカンドLayerソリューションであり、迅速な決済を可能にし、BTC取引のコストを削減する。
+reviewed: false

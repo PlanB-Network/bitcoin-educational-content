@@ -1,0 +1,9 @@
+question: Hot WalletからHardware Walletへの定期的な資金移動が推奨されるのはなぜですか？
+answer: ハッキングのリスクを減らすために
+wrong_answers:
+  - Walletの流動性を高める
+  - 取引手数料の削減
+  - UTXOのプライバシーを最適化する
+explanation: |
+  Hardware Walletへの移行は、秘密鍵をオフラインで保管することで資金を保護する。
+reviewed: false

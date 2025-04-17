@@ -1,0 +1,9 @@
+question: Qual è il meccanismo principale di uno schema Ponzi?
+answer: I primi investitori vengono pagati con il denaro dei nuovi investitori
+wrong_answers:
+  - I rendimenti provengono da un prodotto reale sul mercato
+  - Gli investitori ricevono i dividendi dalle società
+  - I profitti sono generati da contratti intelligenti sul Blockchain
+explanation: |
+  In uno schema Ponzi, non viene creato alcun prodotto reale e i pagamenti si basano esclusivamente sull'arrivo di nuovi partecipanti.
+reviewed: false

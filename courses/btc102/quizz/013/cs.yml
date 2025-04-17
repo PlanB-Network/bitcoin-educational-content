@@ -1,0 +1,9 @@
+question: Jaký je hlavní rozdíl mezi obchodováním a investováním?
+answer: Obchodování je krátkodobé a spekulativní, investování je dlouhodobé a strategické
+wrong_answers:
+  - Obchodování zahrnuje fixní poplatky, investování zahrnuje variabilní poplatky
+  - Obchodování je založeno na fundamentální analýze, investování na makro trendech
+  - Obchodování je méně rizikové než investování
+explanation: |
+  Obchodování vyžaduje neustálé sledování a technické dovednosti, zatímco investování je založeno na dlouhodobé vizi.
+reviewed: false

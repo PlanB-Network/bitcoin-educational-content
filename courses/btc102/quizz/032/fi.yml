@@ -1,0 +1,9 @@
+question: Millä RGB-mekanismilla varmistetaan kaksinkertaisen käytön vastustaminen?
+answer: Single-Use Seal
+wrong_answers:
+  - Monikäyttö Seal
+  - Kaksinkertainen allekirjoitus
+  - Proof-of-Stake
+explanation: |
+  Single-Use Seal hyödyntää sitä, että UTXO voidaan käyttää vain kerran, mikä varmistaa kaksinkertaisen käytön estämisen RGB-älysopimuksissa.
+reviewed: false

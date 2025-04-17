@@ -1,0 +1,9 @@
+question: Siapakah penemu Lightning Network?
+answer: Thaddeus Dryja dan Joseph Poon
+wrong_answers:
+  - Andreas Antonopoulos dan Adam Back
+  - Pieter Wuille dan Gregory Maxwell
+  - Satoshi Nakamoto dan Hal Finney
+explanation: |
+  Thaddeus Dryja dan Joseph Poon menciptakan Lightning Network pada tahun 2016 untuk meningkatkan skalabilitas Bitcoin.
+reviewed: false

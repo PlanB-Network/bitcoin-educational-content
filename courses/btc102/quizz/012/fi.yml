@@ -1,0 +1,9 @@
+question: Mitä käsite itsehuoltajuus tarkoittaa Bitcoin-maailmassa?
+answer: Yksityisten avainten säilyttäminen itse
+wrong_answers:
+  - Avainten antaminen Exchange-erikoisalustan haltuun
+  - Avainten antaminen investointipankille
+  - Julkisten avainten säilyttäminen itse
+explanation: |
+  Itsesäilytys varmistaa, että käyttäjä säilyttää bitcoiniensa täyden hallinnan omien yksityisten avaintensa avulla.
+reviewed: false

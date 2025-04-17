@@ -1,0 +1,9 @@
+question: Quale strategia di investimento viene utilizzata principalmente da un impilatore?
+answer: Media del costo del dollaro
+wrong_answers:
+  - Day trading
+  - Arbitraggio
+  - Capitale
+explanation: |
+  Il DCA consiste nell'investire regolarmente un importo fisso per ridurre l'impatto della volatilità del mercato sul proprio portafoglio.
+reviewed: false

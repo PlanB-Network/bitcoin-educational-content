@@ -1,0 +1,9 @@
+question: V čem spočívá Pump and Dump v oblasti kryptoměn?
+answer: Manipulace s aktivem prostřednictvím kampaně za účelem prodeje na vrcholu
+wrong_answers:
+  - Masivní nákup aktiva za účelem podpory jeho ceny, aniž by se kdy prodalo
+  - Dlouhodobá stabilizace trhu prostřednictvím protichůdných obchodů
+  - Opakované nákupy za účelem získání dlouhodobé expozice vůči aktivu
+explanation: |
+  Tato podvodná technika spočívá v umělém nafouknutí ceny s cílem prodat v kritickém okamžiku a způsobit propad hodnoty.
+reviewed: false

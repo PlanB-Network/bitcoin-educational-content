@@ -1,0 +1,9 @@
+question: Bitcoinノードを自前で運営するメリットは？
+answer: 独立
+wrong_answers:
+  - 流動性
+  - 中央集権化
+  - スピード
+explanation: |
+  独自のノードを運営することで、第三者からの独立性が確保され、取引のプライバシーが保護されます。
+reviewed: false

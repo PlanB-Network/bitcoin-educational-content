@@ -1,0 +1,9 @@
+question: Mitä säilytysratkaisua suositellaan hodlerille?
+answer: A Hardware Wallet
+wrong_answers:
+  - A Hot Wallet
+  - Huoltopalvelu
+  - Paperi Wallet
+explanation: |
+  Hodlerin, joka pitää bitcoineja hallussaan pitkällä aikavälillä, tulisi käyttää Hardware Wallet:ää turvallisuuden maksimoimiseksi.
+reviewed: false

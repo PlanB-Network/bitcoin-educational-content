@@ -76,8 +76,9 @@ Ready to begin your journey into the world of Bitcoin? Let's go!
 
 <chapterId>8af2948b-2ab5-54c4-862c-3414b8a285a2</chapterId>
 
-The Bitcoin ecosystem and its surrounding environment are still relatively young and loosely regulated, depending on the country. While this freedom opens up vast opportunities, it also creates a fertile ground for financial frauds, scams, and various forms of manipulation. That's why the first chapter is so crucial: understanding the common pitfalls will help you avoid them. Your financial security is a priority because a bad experience doesn't just affect you, it impacts the entire Bitcoin community.
+:::video id=9f3a7b2e-2c4d-4c1e-8b1f-3a2c1d4e5f6a:::
 
+The Bitcoin ecosystem and its surrounding environment are still relatively young and loosely regulated, depending on the country. While this freedom opens up vast opportunities, it also creates a fertile ground for financial frauds, scams, and various forms of manipulation. That's why the first chapter is so crucial: understanding the common pitfalls will help you avoid them. Your financial security is a priority because a bad experience doesn't just affect you, it impacts the entire Bitcoin community.
 
 ### Bitcoin vs cryptos: understanding the differences
 
@@ -232,6 +233,7 @@ Protecting yourself from scams is a crucial first step in safeguarding your asse
 
 <chapterId>f0873bf2-6a6f-5485-bb7a-d84be14f404d</chapterId>
 
+:::video id=2a1b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d:::
 
 As soon as you start getting into Bitcoin, you'll quickly realize that basic cybersecurity isn't optional—it's essential. Scams and fraud are just the tip of the iceberg. Accidental data loss, malware, and compromised passwords can be just as devastating, especially when you're managing your own keys.
 
@@ -371,6 +373,7 @@ In the next chapter, I'll share a few more tips to help you get started on your 
 
 <chapterId>33134b3f-92c1-5185-afb6-88599e47e801</chapterId>
 
+:::video id=7e9f3b2c-4d1a-4c5e-8b0d-3a2c1d4e5f6b:::
 
 Getting into Bitcoin can be exciting; but it also comes with its fair share of risks. The world of crypto is unlike any other; wild price swings, unfamiliar technology, and the very real possibility of losing your funds for good due to simple mistakes or poor investment choices are all pitfalls that new users should be aware of.
 
@@ -548,6 +551,8 @@ By following these principles, you'll be able to approach Bitcoin investing with
 
 <chapterId>ae122ad9-9b4d-5229-9038-e1b99d5cfc83</chapterId>
 
+:::video id=3c2d1e4f-5a6b-7c8d-9e0f-1a2b3c4d5e6f:::
+
 In this course, the primary goal is to guide you through acquiring and securing your first bitcoins. But before diving into the practical steps(how to buy BTC, which wallets to use, and so on) it's important to take a step back and understand what Bitcoin really is. Grasping the deeper nature of Bitcoin will help you see why millions of people are turning to this technology, and why it's crucial to understand the fundamentals before putting your savings into such a new and volatile asset.
 
 Over the years, Bitcoin has gained recognition as a global monetary network. It's been called "digital gold", a "trust protocol", and even a "parallel financial system." But what do those terms really mean? To answer that, we'll take a closer look at Bitcoin's core: its origin story, technical foundations, monetary properties, and its potential impact; not only on individuals, but on the global financial system as a whole.
@@ -694,6 +699,7 @@ After this introduction to Bitcoin (which may have taken a bit longer than 5 min
 
 <chapterId>d4327ac4-9ff8-5192-b542-cb78c0bd0aa7</chapterId>
 
+:::video id=5f6e7d8c-9b0a-1c2d-3e4f-5a6b7c8d9e0f:::
 
 Why is Bitcoin so important? That's the central question of this course. Whether it's related to your studies or your investment strategy, without a clear understanding of Bitcoin's significance, there's a risk of deviating from your plan. The goal is to always keep the fundamental principles of Bitcoin in mind to ensure that your strategy remains aligned with your beliefs.
 
@@ -835,6 +841,7 @@ Now that we've explored the profound significance of Satoshi Nakamoto's inventio
 
 <chapterId>e106c6f1-d75b-5a62-b245-0ea2e4d02ef8</chapterId>
 
+:::video id=8a9b0c1d-2e3f-4a5b-6c7d-8e9f0a1b2c3d:::
 
 Since its launch in 2009 by the pseudonymous creator Satoshi Nakamoto, Bitcoin has sparked the rise of an entirely new industry; now valued in the hundreds of billions of dollars. Despite its relatively short history, this ecosystem has experienced explosive growth, evolving at an exponential pace over the past decade. Every day, new players(ranging from institutional investors and agile startups to tech giants) pour significant capital and resources into staking their claim in this rapidly expanding sector.
 
@@ -1076,6 +1083,8 @@ https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86
 
 <chapterId>03017765-53cf-5f14-9682-e99ca02d2241</chapterId>
 
+:::video id=6b7c8d9e-0f1a-2b3c-4d5e-6f7a8b9c0d1e:::
+
 Bitcoin is an open system designed to be minimalist, robust and secure from the outset. To add functionality without altering its foundations, evolutions are generally made by adding **protocol layers** and complementary applications that enrich the ecosystem without compromising the decentralization and resilience of the main system. This flexibility has enabled numerous companies and independent developers to build an infrastructure around Bitcoin, adding innovations adapted to different use cases.
 
 ### Bitcoin extension with additional layers
@@ -1186,6 +1195,8 @@ Next up in the course: we'll get practical and help you define your bitcoiner pr
 ## Choose your profile
 
 <chapterId>c5d87903-a5f2-5eec-887a-f662734ce49b</chapterId>
+
+:::video id=1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d:::
 
 Now that you've learned the theoretical foundations of Bitcoin, it's time to move into the practical side. This section will help you understand how to acquire your first bitcoins, how to store them securely, and how to tailor your approach based on your personal situation. The goal is to help you identify what type of user you are so you can adopt a strategy that matches your needs and constraints.
 
@@ -1495,6 +1506,8 @@ In the next chapters, we'll explore each of these profiles in detail so you can 
 
 <chapterId>baf1adc2-3828-5265-8ee5-130be547585c</chapterId>
 
+:::video id=3f4e5d6c-7b8a-9c0d-1e2f-3a4b5c6d7e8f:::
+
 In the Bitcoin community, the term "hodler" refers to someone who takes a long-term investment approach. The word originated from a famous typo of "hold" on the Bitcoin Talk forum years ago and has since become a symbol of commitment: hold on to your bitcoin no matter what, without stressing over short-term market swings.
 
 ![BTC102-Bitcoin](assets/fr/071.webp)
@@ -1616,6 +1629,8 @@ In the next chapter, we'll explore a similar but more active profile: the stacke
 ## The Stacker: Accumulating Satoshis
 
 <chapterId>0daf450d-1b91-5d99-9c31-b52ab52a5e21</chapterId>
+
+:::video id=4e5f6a7b-8c9d-0e1f-2a3b-4c5d6e7f8a9b:::
 
 In the Bitcoin ecosystem, a stacker is someone who takes a consistent, long-term approach to accumulating satoshis (or "sats"), the smallest unit of Bitcoin. Rather than investing a large sum all at once, a stacker regularly purchases small amounts of bitcoin, regardless of the market conditions.
 
@@ -1764,6 +1779,8 @@ Next: we'll explore a radically different bitcoiner profile; the active user.
 ## The Active Bitcoin User: Integrating Bitcoin into Everyday Life
 
 <chapterId>e0a022ab-207c-571f-b4ad-c432214a756c</chapterId>
+
+:::video id=5f6a7b8c-9d0e-1f2a-3b4c-5d6e7f8a9b0c:::
 
 Becoming an active Bitcoin user means going beyond long-term investment strategies. Unlike the hodler or the stacker who primarily save without spending, the active user treats Bitcoin as a real medium of exchange**. They use it to pay for goods and services and actively participate in the counter-economy.
 
@@ -1955,6 +1972,8 @@ In the next chapter, we'll explore the final and perhaps most intriguing Bitcoin
 ## The Paranoid Bitcoiner: Privacy Above All
 
 <chapterId>5c624acd-662e-5134-ab7a-fb75cde7c3f8</chapterId>
+
+:::video id=6a7b8c9d-0e1f-2a3b-4c5d-6e7f8a9b0c1d:::
 
 For the paranoid Bitcoiner, privacy isn't optional; its essential. In a world where nearly every financial move is tracked, they see protecting their identity and transaction history as a non-negotiable part of using Bitcoin. They're usually very aware of the risks involved in exposing personal data(especially when using KYC-compliant exchanges that require ID verification).
 
@@ -2173,6 +2192,8 @@ In the next section of the course, we'll discuss a crucial topic often overlooke
 ## Creating an inheritance plan
 
 <chapterId>233c88d3-2e8e-5eba-ac06-efe67a209038</chapterId>
+
+:::video id=7b8c9d0e-1f2a-3b4c-5d6e-7f8a9b0c1d2e:::
 
 Ensuring the transmission of your bitcoins is a responsibility that is often overlooked but is crucial. The financial sovereignty that Bitcoin offers also comes with the need for careful estate management. Without this, your heirs could find themselves unable to access your hard-earned funds. In this chapter, we will explore the fundamentals of estate planning as it applies to Bitcoin.
 
@@ -2398,6 +2419,8 @@ Special thanks to [Pamela Morgan](https://x.com/pamelawjd) for her work and for 
 ## You're Now Among the Top 0.1% Most Prepared Bitcoiners
 
 <chapterId>5f4cfab9-9af1-584b-a1fe-a0769a991f19</chapterId>
+
+:::video id=8c9d0e1f-2a3b-4c5d-6e7f-8a9b0c1d2e3f:::
 
 If you've made it this far, you're now part of an enlightened minority! Very few people go this far with Bitcoin, and you can be proud of how far you've come. Perhaps you've followed all the tutorials offered in this training course: Set up your first hardware wallet, Secured your recovery phrase, Created a dollar-cost averaging (DCA) plan, Acquired bitcoin with and without KYC, Even planned your bitcoin inheritance. Every step you've taken is a leap toward true financial sovereignty.
 

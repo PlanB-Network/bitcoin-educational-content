@@ -178,9 +178,9 @@ Chức năng của nó khó có thể sao chép một cách nhân tạo trong th
 Vì những lý do này, vàng trong vai trò tài sản\tiền là kết quả của 4.000 năm học thuyết tài sản\tiền của Darwin dựa trên các chức năng sau của Aristotle:
 
 
-- Lưu trữ giá trị**: tiền có thể được sử dụng để chuyển sức mua vào tương lai, do đó nó phải là vật liệu bền vững;
-- Phương tiện trao đổi**: tiền có thể được sử dụng để trao đổi hàng hóa và dịch vụ thay vì trao đổi hàng hóa, do đó tránh được sự trùng hợp về nhu cầu giữa các thương nhân;
-- Đơn vị tính toán**: tiền cũng cho phép chúng ta so sánh giá trị của các loại hàng hóa khác nhau để hiểu rõ hơn về tính tiện lợi của chúng một cách tương đối.
+- **Lưu trữ giá trị**: tiền có thể được sử dụng để chuyển sức mua vào tương lai, do đó nó phải là vật liệu bền vững;
+- **Phương tiện trao đổi**: tiền có thể được sử dụng để trao đổi hàng hóa và dịch vụ thay vì trao đổi hàng hóa, do đó tránh được sự trùng hợp về nhu cầu giữa các thương nhân;
+- **Đơn vị tính toán**: tiền cũng cho phép chúng ta so sánh giá trị của các loại hàng hóa khác nhau để hiểu rõ hơn về tính tiện lợi của chúng một cách tương đối.
 
 ![image](assets/en/08.webp)
 
@@ -199,9 +199,9 @@ Ngược lại, tiền tệ do nhà nước phát hành (tiền pháp định) r
 ![image](assets/en/11.webp)
 
 
-- Tính có thể thay thế**, nghĩa là nó có thể hoán đổi với một đơn vị khác cùng loại mà không mất giá trị;
-- Tính có thể chia nhỏ**, vì có thể chia thành các đơn vị nhỏ hơn để tạo điều kiện thuận lợi cho các giao dịch có khối lượng khác nhau;
-- Tính thanh khoản**, nghĩa là có thể dễ dàng chuyển đổi thành hàng hóa hoặc dịch vụ.
+- **Tính có thể thay thế**, nghĩa là nó có thể hoán đổi với một đơn vị khác cùng loại mà không mất giá trị;
+- **Tính có thể chia nhỏ**, vì có thể chia thành các đơn vị nhỏ hơn để tạo điều kiện thuận lợi cho các giao dịch có khối lượng khác nhau;
+- **Tính thanh khoản**, nghĩa là có thể dễ dàng chuyển đổi thành hàng hóa hoặc dịch vụ.
 
 Để đáp ứng các tiêu chí này, tiền tệ đã phát triển qua nhiều giai đoạn khác nhau:
 
@@ -572,18 +572,18 @@ Trên thực tế không có câu trả lời hay giải pháp chung nào, vì v
 Dưới đây là định nghĩa một số cấp độ bảo mật:
 
 
-- Cấp độ 0**, bạn sử dụng cái gọi là "dịch vụ lưu ký" mà bạn không phải là người duy nhất nắm giữ bitcoin của mình. Hãy lưu ý rằng bên thứ ba đáng tin cậy này có thể hạn chế quyền truy cập của bạn vào tiền của bạn bất kỳ lúc nào. Trong trường hợp này, mức độ chủ quyền về tài chính của bạn tương tự như có tài khoản trong hệ thống ngân hàng truyền thống.
+- **Cấp độ 0**, bạn sử dụng cái gọi là "dịch vụ lưu ký" mà bạn không phải là người duy nhất nắm giữ bitcoin của mình. Hãy lưu ý rằng bên thứ ba đáng tin cậy này có thể hạn chế quyền truy cập của bạn vào tiền của bạn bất kỳ lúc nào. Trong trường hợp này, mức độ chủ quyền về tài chính của bạn tương tự như có tài khoản trong hệ thống ngân hàng truyền thống.
 
 ![image](assets/en/31.webp)
 
 
-- Cấp độ 1**, bạn sử dụng ví Bitcoin trên điện thoại hoặc máy tính, nơi bạn là người duy nhất nắm giữ bitcoin của mình và bạn có thể dễ dàng thực hiện các giao dịch của mình. Công cụ được đề cập ở trên được gọi là "ví nóng", vì khóa riêng được lưu trữ trên thiết bị có kết nối internet. Trong trường hợp này, điều quan trọng là phải sao lưu cụm từ mật khẩu của bạn để lấy lại quyền truy cập vào tiền của bạn trong trường hợp mất điện thoại hoặc máy tính.
+- **Cấp độ 1**, bạn sử dụng ví Bitcoin trên điện thoại hoặc máy tính, nơi bạn là người duy nhất nắm giữ bitcoin của mình và bạn có thể dễ dàng thực hiện các giao dịch của mình. Công cụ được đề cập ở trên được gọi là "ví nóng", vì khóa riêng được lưu trữ trên thiết bị có kết nối internet. Trong trường hợp này, điều quan trọng là phải sao lưu cụm từ mật khẩu của bạn để lấy lại quyền truy cập vào tiền của bạn trong trường hợp mất điện thoại hoặc máy tính.
 
 Ví dụ, bạn có thể sử dụng Sparrow Wallet như một ví nóng:
 
 https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
-- Cấp độ 2**, bạn sử dụng ví vật lý và bạn đã bảo mật danh sách 12/24 từ của mình. Nó thường được gọi là "Ví lạnh" vì khóa của bạn được lưu trữ trên thiết bị không được kết nối với internet. Trong trường hợp này, bạn sẽ luôn cần phải ký mọi giao dịch bằng thiết bị của mình, điều này khiến tiền của bạn khó truy cập hơn hàng ngày.
+- **Cấp độ 2**, bạn sử dụng ví vật lý và bạn đã bảo mật danh sách 12/24 từ của mình. Nó thường được gọi là "Ví lạnh" vì khóa của bạn được lưu trữ trên thiết bị không được kết nối với internet. Trong trường hợp này, bạn sẽ luôn cần phải ký mọi giao dịch bằng thiết bị của mình, điều này khiến tiền của bạn khó truy cập hơn hàng ngày.
 
 Ví dụ, bạn có thể sử dụng Ledger, Satochip hoặc Tapsigner:
 
@@ -593,7 +593,7 @@ https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 ![image](assets/en/32.webp)
 
 
-- Cấp độ 3**, bạn sử dụng ví cấp độ 1 hoặc 2, nhưng bạn đã thêm một cụm mật khẩu bổ sung. Trong trường hợp này, hãy lưu ý rằng bạn cần sao lưu cả danh sách 12/24 từ **và** cụm mật khẩu của bạn. Lý tưởng nhất là hai thông tin này được lưu trữ ở hai nơi khác nhau.
+- **Cấp độ 3**, bạn sử dụng ví cấp độ 1 hoặc 2, nhưng bạn đã thêm một cụm mật khẩu bổ sung. Trong trường hợp này, hãy lưu ý rằng bạn cần sao lưu cả danh sách 12/24 từ **và** cụm mật khẩu của bạn. Lý tưởng nhất là hai thông tin này được lưu trữ ở hai nơi khác nhau.
 
 Để tìm hiểu thêm về cách sử dụng và chức năng của cụm mật khẩu BIP39:
 
@@ -601,7 +601,7 @@ https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14
 ![image](assets/en/33.webp)
 
 
-- Cấp độ 4**, bạn sử dụng một bộ ví để tạo ví "đa chữ ký", nghĩa là cần nhiều chữ ký để thực hiện giao dịch. Trong trường hợp này, hãy lưu ý rằng mỗi phần của đa chữ ký phải được lưu trữ ở các vị trí khác nhau. Cách tiếp cận này thường được xem là cách sử dụng Bitcoin nâng cao, chủ yếu để quản lý số lượng lớn và cho mục đích của công ty.
+- **Cấp độ 4**, bạn sử dụng một bộ ví để tạo ví "đa chữ ký", nghĩa là cần nhiều chữ ký để thực hiện giao dịch. Trong trường hợp này, hãy lưu ý rằng mỗi phần của đa chữ ký phải được lưu trữ ở các vị trí khác nhau. Cách tiếp cận này thường được xem là cách sử dụng Bitcoin nâng cao, chủ yếu để quản lý số lượng lớn và cho mục đích của công ty.
 
 ![image](assets/en/34.webp)
 
@@ -1166,6 +1166,8 @@ Chiến lược này liên quan đến việc mua định kỳ, nghĩa là mua m
 
 **Cẩn thận với UTXO**: Hãy nhớ hợp nhất UTXO trong ví của bạn theo thời gian. Thực hiện hành vi này rất cần thiết để quản lý bitcoin hiệu quả và tránh các khoản phí không cần thiết trong quá trình giao dịch.
 
+Một [UTXO]((https://planb.network/resources/glossary/utxo)) là một đầu ra của một giao dịch chưa được chi tiêu, có nghĩa là nó chưa được sử dụng làm đầu vào cho một giao dịch mới. Việc hợp nhất chúng có nghĩa là kết hợp nhiều UTXO nhỏ thành một UTXO lớn hơn, nhằm giảm "trọng lượng" của giao dịch và do đó trả phí thấp hơn.
+
 
 - Mua tự phát
 
@@ -1398,7 +1400,7 @@ Satoshi đã tạo ra Bitcoin vào năm 2008 để đề xuất thay đổi hệ
 
 Bạn đã sẵn sàng tham gia chưa?
 
-# Phần kết luận
+# Phần Cuối
 
 <partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 

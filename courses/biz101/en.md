@@ -107,7 +107,7 @@ These modern currency networks came with a significant drawback: a **lack of aud
 
 **From Centralized to Decentralized Currency: Enhancing Trust and Sovereignty**
 
-Today, the emergence the Bitcoin decentralized currency represents the next leap in currency networks. Traditional electronic money relies on centralized authorities, such as banks or governments, to manage and verify transactions. While effective, these systems are vulnerable to inefficiencies, censorship, and single points of failure. Decentralized currencies improve on these network properties by **distributing trust and removing intermediaries**. It also means that money can move a lot **faster** and **cheaper**, because there are no authorizations steps. Finally no human can be tempted to change the Bitcoin currency supply schedule, it's enforced the software.
+Today, the emergence of Bitcoin as a decentralized currency represents the next leap in currency networks. Traditional electronic money relies on centralized authorities, such as banks or governments, to manage and verify transactions. While effective, these systems are vulnerable to inefficiencies, censorship, and single points of failure. Decentralized currencies improve on these network properties by **distributing trust and removing intermediaries**. It also means that money can move a lot **faster** and **cheaper**, because there are no authorizations steps. Finally, no human can be tempted to change the Bitcoin currency supply schedule, which is enforced by the software.
 
 In decentralized systems, transactions are verified by a global network of participants using blockchain technology, ensuring security, transparency, and resilience. This structure minimizes the risk of fraud, reduces dependence on central authorities, and empowers individuals to have greater control over their finances. By eliminating geographical and institutional barriers, decentralized currencies offer a truly global and inclusive monetary system.
 
@@ -230,7 +230,7 @@ Bitcoin challenges us to reconsider the nature of money itself. Could you explai
 - **Marketing:** None
 - **R&D:** Volunteer-driven
 - **Governance:** By the users
-- **Innovative economic model:** Block creation is subsidized by transaction fees (auction-based)
+- **Innovative economic model:** 
 
 For more information on Bitcoin, its history, how it works, and its use, I also suggest following this other comprehensive course:
 
@@ -571,7 +571,7 @@ Since Bitcoin functions as a medium of exchange, it’s possible to envision a c
 - **Mining Bitcoin:**
 This involves earning rewards from operating mining machines. For non-specialized businesses, this remains relatively marginal. You can participate through intermediaries which will sell or rent you the compute, network and maintenance. If you own the machines, you can account for them as depreciable assets. On a large scale, you’ll need to carefully calculate return on investment because the market is highly competitive and requires a good anticipation of costs, particularly electricity.
 
-To learn mor about mining methods, you can [consult the "mining" section in our tutorials](https://planb.network/tutorials/mining).
+To learn more about mining methods, you can [consult the "mining" section in our tutorials](https://planb.network/tutorials/mining).
 
 - **Buying Bitcoin:**
 This is by far the most common method, done either via peer-to-peer exchanges or, more typically, on specialized trading platforms. But when acquiring Bitcoin as a corporate treasury asset, companies must comply with robust regulatory standards and Know-Your-Customer (KYC) procedures. When they buy it on specialized trading platforms, businesses are typically required to provide detailed company information, including identification documents, financial statements, and proof of address, to satisfy KYC and anti-money laundering (AML) requirements.

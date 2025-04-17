@@ -1,0 +1,9 @@
+question: Jaka jest jedna z głównych korzyści dla sprzedawców korzystających z Lightning Network?
+answer: Obniżone opłaty transakcyjne
+wrong_answers:
+  - Płatności gwarantowane przez banki
+  - Automatyczny wzrost sprzedaży
+  - Eliminacja podatków komercyjnych
+explanation: |
+  Opłaty transakcyjne na Lightning Network są bardzo niskie, dzięki czemu jest to opłacalne rozwiązanie dla sprzedawców.  
+reviewed: false

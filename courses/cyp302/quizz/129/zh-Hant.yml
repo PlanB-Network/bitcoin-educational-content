@@ -1,0 +1,9 @@
+question: 在 Diffie 和 Hellman 之前，GCHQ 的研究人員還發現了什麼其他的英國秘密發現？
+answer: 非對稱密碼學和金鑰 Exchange 的概念
+wrong_answers:
+  - 不需要金鑰的對稱加密通訊協定
+  - 非對稱密碼雜湊的新方法
+  - 創造電子貨幣的方法
+explanation: |
+  為 GCHQ 工作的英國密碼學家獨立開發了與 Diffie 和 Hellman 類似的想法，但這些進展一直保密，直到 1997 年才被公開。
+reviewed: false

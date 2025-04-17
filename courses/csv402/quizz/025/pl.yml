@@ -1,0 +1,9 @@
+question: Jakie są cztery składniki definiujące RGB Contract?
+answer: Genesis, Schema, Interface i Interface Implementation
+wrong_answers:
+  - Genesis, Schema, Transition i Interface Implementation
+  - Genesis, Interface, Przejście i rozszerzenie
+  - Genesis, Interface, Interface Implementation i rozszerzenie
+explanation: |
+  RGB Contract składa się z czterech różnych Elements; Genesis, Schema, Interface i Interface Implementation.
+reviewed: false

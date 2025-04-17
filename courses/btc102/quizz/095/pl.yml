@@ -1,0 +1,10 @@
+question: Jakie są niektóre z cech paranoicznego Bitcoinera?
+answer: Czujność, niezależność, nieufność, wiedza i pragmatyzm
+wrong_answers:
+  - Zaufanie, zależność, ignorancja i niepraktyczność
+  - Lenistwo, zależność, zaufanie i ignorancja
+  - Zaufanie, zależność, brak wiedzy i niepraktyczność
+explanation: |
+  Rozdział opisuje paranoicznego Bitcoinera jako kogoś, kto jest czujny,
+  niezależny, nieufny, kompetentny i pragmatyczny.
+reviewed: false

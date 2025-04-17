@@ -1,24 +1,24 @@
 id: 79aff896-495b-4c63-aa31-f664c8f5d740
 start_date: 2024-09-27
 end_date: 2024-09-29
-address_line_1: Madrid, Spain
+address_city_country: Madrid, Spain
 address_line_2:
 address_line_3:
 name: Watch Out, Bitcoin 2024
-builder: Watch Out Bitcoin
 type: conference
 book_online: false
 book_in_person: false
 price_dollars: 0
-description: Descubre, aprende y comparte de la mano de especialistas de diferentes disciplinas en el evento referencia sobre Bitcoin en español.
+description: Descubre, aprende y comparte de la mano de especialistas de diferentes
+  disciplinas en el evento referencia sobre Bitcoin en español.
 language:
   - es
 links:
   website: https://wobitcoin.org/
   replay_url:
-  live_url :
-tags:
-  - bitcoiner
-  - General
-
+  live_url:
 project_id: 326fd972-4807-4f01-974d-f8bfa9bfee6a
+tags:
+  - adoption
+  - user-friendly
+  - case-studies

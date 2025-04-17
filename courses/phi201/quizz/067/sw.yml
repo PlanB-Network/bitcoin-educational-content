@@ -1,0 +1,9 @@
+question: Je, ni wazo gani kuu la kifungu cha Voltaire kwenye London Stock Exchange?
+answer: Wafanyabiashara wa dini zote huweka kando tofauti zao ili kuzingatia faida ya pande zote.
+wrong_answers:
+  - Dini mbalimbali za ulimwengu hukusanyika katika Stock Exchange ili kutekeleza imani yao kwa amani.
+  - London Stock Exchange ni mahali pa uvumi na ufisadi ambapo maadili yanapuuzwa.
+  - Dini haina nafasi katika ulimwengu wa biashara unaotawaliwa na roho ya ushindani na ubinafsi.
+explanation: |
+  Voltaire anaangazia kwamba, katika London Stock Exchange, wafanyabiashara huvuka tofauti zao za kidini ili kushirikiana kuelekea lengo moja la kiuchumi, akionyesha ukuu wa maslahi ya kimwili juu ya migawanyiko ya kidini.
+reviewed: false

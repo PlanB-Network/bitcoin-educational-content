@@ -1,94 +1,100 @@
 id: 15351377-5e52-4d5a-8e9f-4d2538ea9f5a
 author: Erik Cason
 level: intermediate
-tags:
-  - cypherpunk
-  - self-sovereignty
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: en
     last_contribution_date: 2025-02-06
     urgency: 1
-    contributors_id:
+    contributor_names:
       - PaoloFoti
-    reward: 0.13
+    reward: 0.17
 
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.42
 
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.26
+    contributor_names:
+    reward: 0.34
 
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.34
 
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.42
 
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.42
 
   - language: fr
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.26
+    contributor_names:
+    reward: 0.34
 
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.5
 
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.34
 
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.58
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.42
 
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.26
+    contributor_names:
+    reward: 0.34
 
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.42
 
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.5
+
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.58
+tags:
+  - self-sovereignty
+  - cypherpunk
+contributor_names:
+  - PaoloFoti

@@ -1,0 +1,9 @@
+question: Je, hoja kuu ya Jacques Rueff kuhusu sarafu ni ipi?
+answer: Pesa ya karatasi ni hatari na inaongoza kwa dirigisme
+wrong_answers:
+  - Pesa ya karatasi ni thabiti na inatabirika
+  - Pesa za karatasi ni muhimu kwa maendeleo ya kiuchumi
+  - Pesa za karatasi lazima ziungwa mkono na mali halisi
+explanation: |
+  Jacques Rueff aliamini kwamba pesa za karatasi, kwa kuwezesha udhibiti wa uchumi na mamlaka, zilipendelea dirigisme na kusababisha hatari kwa utulivu wa kifedha.
+reviewed: false

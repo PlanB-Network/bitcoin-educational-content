@@ -1,0 +1,13 @@
+question: Jaka jest podstawowa funkcja VPN w kontekście zawodowym?
+answer: Umożliwia pracownikom bezpieczny zdalny dostęp do wewnętrznej sieci firmy.
+wrong_answers:
+  - Pozwala to pracownikom bezpiecznie ominąć ograniczenia geograficzne.
+  - Pozwala pracownikom całkowicie zablokować reklamy online.
+  - Umożliwia pracownikom bezpieczne korzystanie z publicznych sieci Wi-Fi.
+explanation: |
+  W kontekście profesjonalnym sieci VPN są przede wszystkim wykorzystywane do
+  zapewniają bezpieczny zdalny dostęp do wewnętrznej sieci firmy
+  sieci wewnętrznej firmy. Osiąga się to poprzez szyfrowanie danych wymienianych
+  między pracownikiem a siecią firmową, co sprawia, że
+  trudne do przechwycenia przez osoby trzecie.
+reviewed: true

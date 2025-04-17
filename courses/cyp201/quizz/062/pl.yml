@@ -1,0 +1,9 @@
+question: Na co pozwala rozszerzony klucz publiczny?
+answer: Tylko zwykłe dziecięce klucze publiczne
+wrong_answers:
+  - Tylko zwykłe klucze prywatne dzieci
+  - Zarówno wzmocnione, jak i zwykłe dziecięce klucze publiczne
+  - Zarówno wzmocnione, jak i zwykłe klucze prywatne dzieci
+explanation: |
+  Rozszerzony klucz publiczny umożliwia jedynie wyprowadzanie zwykłych kluczy publicznych, a nie kluczy prywatnych lub kluczy wzmocnionych.
+reviewed: false

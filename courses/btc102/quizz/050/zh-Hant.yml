@@ -1,0 +1,12 @@
+question: Bitcoin 有別於其他加密貨幣的主要特徵是什麼？
+answer: Bitcoin 是唯一真正去中心化、可抵抗審查、自由且嚴肅的加密貨幣
+wrong_answers:
+  - Bitcoin 是唯一可開採的加密貨幣
+  - Bitcoin 是唯一可以在 Exchange 平台上買賣的加密貨幣
+  - Bitcoin 是唯一可以儲存在 Wallet 中的加密貨幣。
+explanation: |
+  章節內容指出，Bitcoin 是唯一真正去中心化、
+  抗檢查、自由且嚴肅的加密貨幣，足以證明數以千計的
+  小時的工作。這是 Bitcoin 有別於其他
+  加密貨幣的關鍵特徵。
+reviewed: false

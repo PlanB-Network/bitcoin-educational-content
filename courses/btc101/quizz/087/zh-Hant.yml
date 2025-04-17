@@ -1,0 +1,13 @@
+question: 什麼是 Multisig Wallet？
+answer: 一套需要多個簽名才能執行交易的錢包。
+wrong_answers:
+  - 需要單一簽章才能執行交易的 Wallet。
+  - 不需要簽名即可執行交易的 Wallet。
+  - 需要實體簽名才能執行交易的 Wallet。
+explanation: |
+  Multisig Wallet 是 Bitcoin Wallet 的一種，需要多個簽名才能執行交易。
+  多個簽章才能執行交易。這增加了
+  額外的 Layer 安全性，因為這意味著一個人
+  不能在沒有其他人同意的情況下執行交易。
+  其他人。
+reviewed: true

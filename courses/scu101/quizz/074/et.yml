@@ -1,0 +1,9 @@
+question: Millised on paroolihalduri peamised funktsioonid?
+answer: Paroolide salvestamine, genereerimine ja korraldamine.
+wrong_answers:
+  - Viiruste analüüsimine ja eemaldamine.
+  - Isiklike dokumentide varundamine ja korraldamine.
+  - Ühenduse kiiruse optimeerimine.
+explanation: |
+  Peamised funktsioonid hõlmavad paroolide salvestamist, genereerimist ja korraldamist.
+reviewed: false

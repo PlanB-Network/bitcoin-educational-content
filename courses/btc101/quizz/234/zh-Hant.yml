@@ -1,0 +1,8 @@
+question: Lightning Network 在日常生活中的一個潛在應用是什麼？
+answer: 商業中的即時計費。
+wrong_answers:
+  - Mining 新的比特幣。
+  - 創造新的加密貨幣。
+  - 增加 Bitcoin 的值。
+explanation: >-
+reviewed: true

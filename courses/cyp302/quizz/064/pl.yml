@@ -1,0 +1,9 @@
+question: Co zapewnia kod uwierzytelniania wiadomości (MAC) w schemacie kryptograficznym?
+answer: Integralność i autentyczność wiadomości
+wrong_answers:
+  - Poufność wiadomości
+  - Kompresja wiadomości
+  - Konwersja wiadomości na format binarny
+explanation: |
+  Kod uwierzytelniania wiadomości (MAC) służy do zapewnienia, że wiadomość nie została zmieniona i rzeczywiście pochodzi od domniemanego nadawcy.
+reviewed: false

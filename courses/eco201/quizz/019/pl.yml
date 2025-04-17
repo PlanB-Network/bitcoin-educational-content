@@ -1,0 +1,16 @@
+question: Czym jest pojęcie przewagi komparatywnej w kontekście podziału pracy?
+answer: Dana osoba ma większą zdolność do wykonywania pewnych zadań niż innych.
+wrong_answers:
+  - Dana osoba ma taką samą zdolność do wykonywania wszystkich zadań jak inni.
+  - Jednostka ma gorszą zdolność do wykonywania pewnych zadań niż innych.
+  - Dana osoba ma większą zdolność do wykonywania wszystkich zadań niż inni.
+explanation: |
+  W kontekście podziału pracy, przewaga komparatywna
+  przewaga komparatywna odnosi się do sytuacji, w której dana osoba ma
+  wyższą zdolność do wykonywania pewnych zadań niż innych.
+  Nawet jeśli dana osoba nie ma absolutnej przewagi
+  w produkcji jakiegokolwiek dobra, nadal będą istniały rodzaje produkcji, w których dana osoba jest lepsza od innych
+  produkcji, w których dana osoba jest lepsza niż w
+  niż w innych, i z tego powodu nadal jest zainteresowana specjalizacją
+  specjalizacją.
+reviewed: true

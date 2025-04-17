@@ -1,0 +1,9 @@
+question: Dlaczego przymusowe zamknięcie jest mniej pożądane?
+answer: Jest wolniejszy, a opłaty mogą być nieodpowiednie
+wrong_answers:
+  - Wymaga to autoryzacji od Satoshi Nakamoto
+  - Wymusza to późniejsze odtworzenie kanału
+  - Zapobiega to użyciu klucza odwołania
+explanation: |
+  Wymuszone zamknięcie jest mniej pożądane, ponieważ zawiera blokadę czasową, która spowalnia proces, a opłaty mogą być nieodpowiednie, ponieważ zostały ustalone w momencie tworzenia kanału.
+reviewed: false

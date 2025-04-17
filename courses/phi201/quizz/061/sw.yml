@@ -1,0 +1,9 @@
+question: Je, ni mji gani wa wafanyabiashara wa Italia ambao Henri Pirenne anauchukulia kuwa chimbuko la ubepari unaoibukia?
+answer: Venice.
+wrong_answers:
+  - Genoa.
+  - Florence.
+  - Yote ya hapo juu.
+explanation: |
+  Henri Pirenne anaiona Venice kuwa chimbuko la ubepari kutokana na jukumu lake kuu katika biashara ya baharini na maendeleo yake ya awali ya mazoea ya juu ya kibiashara, kama vile ubia na mikopo.
+reviewed: false

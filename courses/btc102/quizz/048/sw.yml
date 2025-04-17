@@ -1,0 +1,11 @@
+question: Je, ni sifa gani kuu ya Blockchain bila Proof of Work?
+answer: Haina thamani halisi
+wrong_answers:
+  - Ni salama zaidi
+  - Ni kasi zaidi
+  - Imegawanyika zaidi
+explanation: |
+  Maudhui ya sura inasema kwamba bila Proof of Work, Blockchain
+  haina thamani halisi. Hii ni sifa kuu inayoweka Bitcoin kando na nyingine
+  fedha za siri.
+reviewed: false

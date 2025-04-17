@@ -1,0 +1,9 @@
+question: Ni aina gani ya ukwasi lazima muuzaji kwenye Lightning Network asimamie ili kukubali malipo?
+answer: Ukwasi unaoingia
+wrong_answers:
+  - Ukwasi unaomaliza muda wake
+  - Jumla ya uwezo wa juu wa chaneli
+  - Usawa wa juu wa On-Chain
+explanation: |
+  Ili kupokea malipo, muuzaji anahitaji kuwa na ukwasi unaoingia, kumaanisha kwamba ni lazima fedha zipatikane upande wa pili wa kituo ili akubali malipo.
+reviewed: false

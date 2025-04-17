@@ -1,0 +1,9 @@
+question: 由 Ryan Fugger 於 2004 年設計，並由 Satoshi Nakamoto 在其著作中多次提及的分散式信用協定的名稱是什麼？
+answer: 漣漪
+wrong_answers:
+  - 波浪
+  - 海嘯
+  - 腫脹
+explanation: |
+  2009 年，Satoshi [寫道](https: //diyhpl.us/~bryan/irc/Bitcoin-Satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2009-February/001362.html)，Ripple \[被\] 的獨特之處在於它分散信任而不是集中信任。
+reviewed: false

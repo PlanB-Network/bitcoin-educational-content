@@ -1,0 +1,10 @@
+question: Ni muundo gani wa hati unapendekezwa zaidi mnamo 2024 kwa faragha iliyoimarishwa kwenye Bitcoin?
+answer: P2TR
+wrong_answers:
+  - P2PK
+  - P2PKH
+  - P2SH
+explanation: |
+  Ili kujumuika katika umati mkubwa zaidi unaowezekana, inashauriwa kutumia muundo wa hati uliopitishwa zaidi. Hati za P2TR ndizo zinazotumika zaidi katika shughuli za Bitcoin kwa sasa.
+  
+reviewed: false

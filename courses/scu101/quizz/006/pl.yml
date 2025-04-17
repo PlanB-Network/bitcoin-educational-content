@@ -1,0 +1,13 @@
+question: Czym są pliki cookie w kontekście przeglądania Internetu?
+answer: Pliki tworzone przez strony internetowe w celu przechowywania informacji na urządzeniu użytkownika.
+wrong_answers:
+  - Małe fragmenty danych wysyłane ze strony internetowej i przechowywane na komputerze użytkownika przez jego przeglądarkę internetową.
+  - Programy śledzące aktywność użytkownika w Internecie.
+  - Wirusy, które mogą uszkodzić urządzenie.
+explanation: |
+  W kontekście przeglądania Internetu pliki cookie to pliki
+  tworzone przez strony internetowe w celu przechowywania informacji na urządzeniu użytkownika.
+  Służą one do zapamiętywania preferencji użytkownika
+  informacje i inne dane w celu poprawy komfortu przeglądania
+  przeglądania.
+reviewed: true

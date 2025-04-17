@@ -1,23 +1,21 @@
 id: 77406b61-d645-45e4-bc49-7611e41fd505
 year: 2023
 name: Dakar Bitcoin Day 2023
-builder: ₿itcoin Sénégal
 location: Dakar, Senegal
 language:
   - fr
 links:
   twitter: https://twitter.com/dakarbtcdays
-tags:
-  - International
-  - All Public
-  - General
-# Proofreading metadata
 project_id: b2cdb3d7-9f8a-4452-8715-dc91bac82345
 original_language: en
 proofreading:
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 0
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
     reward: 0.05
+tags:
+  - adoption
+  - market-trends
+  - user-friendly

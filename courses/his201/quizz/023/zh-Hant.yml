@@ -1,0 +1,9 @@
+question: 2008 年 10 月 31 日，Satoshi Nakamoto 在哪裡發表 Bitcoin 白皮書？
+answer: 密碼學郵件列表
+wrong_answers:
+  - Reddit
+  - 推特
+  - 黑客新聞
+explanation: |
+  作為 cypherpunks 郵件列表的繼承者，此電子郵件列表自 1996 年起由開發者 Perry Metzger 管理。
+reviewed: false

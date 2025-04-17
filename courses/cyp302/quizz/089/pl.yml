@@ -1,0 +1,9 @@
+question: Jakie znaczenie ma użycie losowego Nonce w metodach CBC i OFB?
+answer: Zapewnia to, że każda sesja szyfrowania jest unikalna, nawet w przypadku identycznych danych.
+wrong_answers:
+  - Zmniejsza długość klucza w całym procesie szyfrowania.
+  - Przyspiesza to szyfrowanie.
+  - Sprawia to, że kod algorytmu jest piękniejszy dla ludzi.
+explanation: |
+  Używając losowego Nonce dla każdej sesji, metody CBC i OFB zapewniają, że każde szyfrowanie jest unikalne, co zapobiega atakom wykorzystującym identyczne dane.
+reviewed: false

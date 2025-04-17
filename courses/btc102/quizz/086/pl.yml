@@ -1,0 +1,11 @@
+question: Co to jest sposób kupowania lub sprzedawania bitcoinów bez KYC?
+answer: Korzystanie z rozwiązań peer-to-peer, takich jak Peach.
+wrong_answers:
+  - Korzystanie z Hot Wallet.
+  - Korzystanie z Cold Wallet.
+  - Korzystanie z Hardware Wallet.
+explanation: |
+  KYC, czyli Know Your Customer, to proces, który firmy wykorzystują do weryfikacji
+  tożsamości swoich klientów. Metody inne niż KYC, takie jak rozwiązania peer-to-peer,
+  pozwalają użytkownikom kupować lub sprzedawać bitcoiny bez konieczności podawania danych osobowych.
+reviewed: false

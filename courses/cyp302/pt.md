@@ -1,7 +1,7 @@
 ---
 name: Introdução à criptografia formal
 goal: Uma introdução aprofundada à ciência e à prática da criptografia.
-objectives: 
+objectives:
 
   - Explorar as cifras de Beale e os métodos criptográficos modernos para compreender os conceitos básicos e históricos da criptografia.
   - Aprofunde-se na teoria dos números, grupos e campos para dominar os principais conceitos matemáticos subjacentes à criptografia.
@@ -22,14 +22,15 @@ Esta introdução à criptografia procura captar o meio-termo. Embora deva ser r
 
 <partId>bbed2f46-d64c-5fb5-b892-d726032f2494</partId>
 
-## Breve descrição
+## Visão geral do curso
 
 <chapterId>bb8a8b73-7fb2-50da-bf4e-98996d79887b</chapterId>
+Bem-vindo ao curso CYP302!
 
 Este livro oferece uma introdução aprofundada à ciência e à prática da criptografia. Sempre que possível, centra-se na exposição concetual, em vez de formal, do material.
 
-> Este curso é baseado no repositório de [JWBurgers] (https://github.com/JWBurgers/An_Introduction_to_Cryptography). Tudo bem para ele. O conteúdo ainda não está terminado e só está aqui para mostrar como o podemos integrar se o JWburger concordar.
-### Motivação e objectivos
+> Este curso é baseado no repositório de [JWBurgers](https://github.com/JWBurgers/An_Introduction_to_Cryptography). Tudo bem para ele. O conteúdo ainda não está terminado e só está aqui para mostrar como o podemos integrar se o JWburger concordar.
+**Motivação e objectivos**
 
 É difícil encontrar muitos materiais que ofereçam um bom meio-termo no ensino da criptografia.
 
@@ -37,11 +38,11 @@ Por um lado, há tratados longos e formais, acessíveis apenas a quem tem uma s�
 
 Esta introdução à criptografia procura captar o meio-termo. Embora deva ser relativamente desafiadora e detalhada para qualquer pessoa nova na criptografia, não é a toca do coelho de um típico tratado fundamental.
 
-### Público-alvo
+**Público-alvo**
 
 Desde programadores a curiosos intelectuais, este livro é útil para qualquer pessoa que pretenda mais do que uma compreensão superficial da criptografia. Se o seu objetivo é dominar o campo da criptografia, então este livro é também um bom ponto de partida.
 
-### Orientações de leitura
+**Orientações de leitura**
 
 O livro contém atualmente sete capítulos: "O que é criptografia?" (Capítulo 1), "Fundamentos matemáticos da criptografia I" (Capítulo 2), "Fundamentos matemáticos da criptografia II" (Capítulo 3), "Criptografia simétrica" (Capítulo 4), "RC4 e AES" (Capítulo 5), "Criptografia assimétrica" (Capítulo 6) e "O criptossistema RSA" (Capítulo 7). Um último capítulo, "Criptografia na prática", será ainda acrescentado. Este capítulo centra-se em várias aplicações criptográficas, incluindo a segurança da camada de transporte, o onion routing e o sistema de troca de valores da Bitcoin.
 
@@ -49,21 +50,21 @@ A menos que tenha uma sólida formação em matemática, a teoria dos números �
 
 Se tiver dificuldades com os pormenores formais destas partes do livro, recomendo que se contente com uma leitura de alto nível da primeira vez.
 
-### Agradecimentos
+**Agradecimentos**
 
 O livro mais influente na formação deste foi o _Introduction to Modern Cryptography_ de Jonathan Katz e Yehuda Lindell, CRC Press (Boca Raton, FL), 2015. Um curso de acompanhamento está disponível no Coursera chamado "Cryptography"
 
-As principais fontes adicionais que foram úteis para criar a visão geral deste livro são Simon Singh, _The Code Book_, Fourth Estate (Londres, 1999); Christof Paar e Jan Pelzl, _Understanding Cryptography_, Springer (Heidelberg, 2010) e [um curso baseado no livro de Paar chamado "Introduction to Cryptography"] (https://www.youtube.com/channel/UC1usFRN4LCMcfIV7UjHNuQg); e Bruce Schneier, Applied Cryptography, 2nd edn, 2015 (Indianapolis, IN: John Wiley & Sons).
+As principais fontes adicionais que foram úteis para criar a visão geral deste livro são Simon Singh, _The Code Book_, Fourth Estate (Londres, 1999); Christof Paar e Jan Pelzl, _Understanding Cryptography_, Springer (Heidelberg, 2010) e [um curso baseado no livro de Paar chamado "Introduction to Cryptography"](https://www.youtube.com/channel/UC1usFRN4LCMcfIV7UjHNuQg); e Bruce Schneier, Applied Cryptography, 2nd edn, 2015 (Indianapolis, IN: John Wiley & Sons).
 
 Apenas citarei informações e resultados muito específicos que retiro destas fontes, mas quero reconhecer aqui a minha dívida geral para com elas.
 
 Para os leitores que desejam procurar conhecimentos mais avançados sobre criptografia após esta introdução, recomendo vivamente o livro de Katz e Lindell. O curso de Katz no Coursera é um pouco mais acessível do que o livro.
 
-### Contribuições
+**Contribuições**
 
-Por favor, consulte [o ficheiro de contribuições no repositório] (https://github.com/JWBurgers/An_Introduction_to_Cryptography/blob/master/Contributions.md) para obter algumas orientações sobre como apoiar o projeto.
+Por favor, consulte [o ficheiro de contribuições no repositório](https://github.com/JWBurgers/An_Introduction_to_Cryptography/blob/master/Contributions.md) para obter algumas orientações sobre como apoiar o projeto.
 
-### Notação
+**Notação**
 
 **Termos-chave
 
@@ -85,6 +86,8 @@ A notação formal refere-se principalmente a variáveis, variáveis aleatórias
 - Variáveis: São normalmente indicadas apenas por uma letra minúscula (por exemplo, "x" ou "y"). Por vezes, são indicadas em maiúsculas para maior clareza (por exemplo, "M" ou "K").
 - Variáveis aleatórias: São sempre indicadas por uma letra maiúscula (por exemplo, "X" ou "Y")
 - Conjuntos: São sempre indicados por letras maiúsculas e a negrito (por exemplo, **S**)
+
+Pronto para explorar o fascinante universo da criptografia? Vamos lá!
 
 # O que é a criptografia?
 
@@ -126,7 +129,7 @@ Após a descodificação, a segunda mensagem fornece o conteúdo detalhado do te
 
 **Notas:**
 
-[1] Para um bom resumo da história, ver Simon Singh, *The Code Book*, Fourth Estate (Londres, 1999), pp. 82-99. Um pequeno filme da história foi realizado por Andrew Allen em 2010. Pode encontrar o filme, "The Thomas Beale Cipher", [no seu sítio Web] (http://www.thomasbealecipher.com/).
+[1] Para um bom resumo da história, ver Simon Singh, *The Code Book*, Fourth Estate (Londres, 1999), pp. 82-99. Um pequeno filme da história foi realizado por Andrew Allen em 2010. Pode encontrar o filme, "The Thomas Beale Cipher", [no seu sítio Web](http://www.thomasbealecipher.com/).
 
 [2] Esta imagem está disponível na página da Wikipédia sobre as cifras de Beale.
 
@@ -136,7 +139,7 @@ Após a descodificação, a segunda mensagem fornece o conteúdo detalhado do te
 
 Histórias coloridas, como a das cifras de Beale, são o que a maioria de nós associa à criptografia. No entanto, a criptografia moderna difere em pelo menos quatro aspectos importantes deste tipo de exemplos históricos.
 
-Em primeiro lugar, historicamente, a criptografia tem-se preocupado apenas com o **secreto** (ou confidencialidade)[3]. [Os textos cifrados seriam criados para garantir que apenas certas partes poderiam ter acesso à informação contida nos textos simples, como no caso das cifras de Beale. Para que um esquema de encriptação sirva bem este propósito, decifrar o texto cifrado só deve ser possível se se tiver a chave.
+Em primeiro lugar, historicamente, a criptografia tem-se preocupado apenas com o **secreto** (ou confidencialidade)[3]. Os textos cifrados seriam criados para garantir que apenas certas partes poderiam ter acesso à informação contida nos textos simples, como no caso das cifras de Beale. Para que um esquema de encriptação sirva bem este propósito, decifrar o texto cifrado só deve ser possível se se tiver a chave.
 
 A criptografia moderna preocupa-se com uma gama mais vasta de temas do que apenas o segredo. Estes temas incluem principalmente (1) **integridade da mensagem**-isto é, garantir que uma mensagem não foi alterada; (2) **autenticidade da mensagem**-isto é, garantir que uma mensagem veio efetivamente de um determinado remetente; e (3) **não repúdio**-isto é, garantir que um remetente não pode negar falsamente mais tarde que enviou uma mensagem. [4]
 
@@ -174,7 +177,7 @@ Por exemplo, os ataques de **phishing** são um problema comum na nossa era mode
 
 **Notas:**
 
-[Para ser exato, as aplicações importantes dos esquemas criptográficos têm sido relacionadas com o segredo. As crianças, por exemplo, utilizam frequentemente esquemas criptográficos simples para se "divertirem". Nestes casos, o segredo não é uma preocupação real.
+Para ser exato, as aplicações importantes dos esquemas criptográficos têm sido relacionadas com o segredo. As crianças, por exemplo, utilizam frequentemente esquemas criptográficos simples para se "divertirem". Nestes casos, o segredo não é uma preocupação real.
 
 [4] Bruce Schneier, *Applied Cryptography*, 2.ª ed., 2015 (Indianapolis, IN: John Wiley & Sons), p. 2.
 
@@ -291,7 +294,7 @@ Na expressão "variável aleatória", o termo "aleatório" significa apenas "pro
 
 Uma **variável uniforme** é um caso especial de uma variável aleatória. Pode assumir dois ou mais valores, todos com a mesma probabilidade. A variável aleatória $X$ representada na *Figura 1* é claramente uma variável uniforme, uma vez que ambos os resultados possíveis ocorrem com uma probabilidade de $0,5$. Existem, no entanto, muitas variáveis aleatórias que não são instâncias de variáveis uniformes.
 
-Considere, por exemplo, a variável aleatória $Y$. Tem um conjunto de resultados $\{1, 2, 3, 8, 10\}$ e a seguinte distribuição de probabilidade:
+Considere, por exemplo, a variável aleatória $Y$. Tem um conjunto de resultados ${1, 2, 3, 8, 10}$ e a seguinte distribuição de probabilidade:
 
 $$
 \Pr[Y = 1] = 0.25
@@ -423,7 +426,6 @@ A variável $x$ é designada por dividendo e a variável $y$ por divisor. Para e
 
 Por exemplo, considere a expressão $25 \mod 4$. O número 4 entra no número 25 um total de 6 vezes. O resto dessa divisão é 1. Portanto, $25 \mod 4$ é igual a 1. De maneira semelhante, podemos avaliar as expressões abaixo:
 
-
 - $29 \mod 30 = 29$ (porque 30 entra em 29 um total de 0 vezes e o resto é 29)
 - $42 \mod 2 = 0$ (porque 2 entra em 42 um total de 21 vezes e o resto é 0)
 - $12 \mod 5 = 2$ (porque 5 entra em 12 um total de 2 vezes e o resto é 2)
@@ -433,12 +435,10 @@ Quando o dividendo ou divisor é negativo, as operações de módulo podem ser t
 
 De certeza que vai encontrar casos com um dividendo negativo na criptografia. Nestes casos, a abordagem típica é a seguinte:
 
-
 - Primeiro, determine o valor mais próximo *inferior ou igual* ao dividendo no qual o divisor se divide com um resto de zero. Chamemos a esse valor $p$.
 - Se o dividendo for $x$, então o resultado da operação de módulo é o valor de $x - p$.
 
 Por exemplo, suponha que o dividendo é $-20$ e o divisor 3. O valor mais próximo inferior ou igual a $-20$ em que 3 se divide uniformemente é $-21$. O valor de $x - p$ neste caso é $-20 - (-21)$. Este valor é igual a 1 e, portanto, $-20 \mod 3$ é igual a 1. De forma semelhante, podemos calcular as expressões abaixo:
-
 
 - $-8 \mod 5 = 2$
 - $-19 \mod 16 = 13$
@@ -455,7 +455,6 @@ O ramo da matemática que envolve operações de módulo em números e expressõ
 A operação de módulo é frequentemente utilizada em criptografia. Para ilustrar, consideremos um dos mais famosos esquemas históricos de encriptação: a cifra de deslocamento.
 
 Comecemos por defini-lo. Suponhamos um dicionário *D* que equaciona todas as letras do alfabeto inglês, por ordem, com o conjunto de números $\{0, 1, 2, \ldots, 25\}$. Suponha-se um espaço de mensagem **M**. A **cifra de deslocamento** é, então, um esquema de encriptação definido da seguinte forma:
-
 
 - Selecionar uniformemente uma chave $k$ do espaço de chaves **K**, em que **K** = $\{0, 1, 2, \ldots, 25\}$ [1]
 - Encriptar uma mensagem $m \in \mathbf{M}$, da seguinte forma:
@@ -475,7 +474,6 @@ O operador de módulo na cifra de deslocamento assegura que as letras se envolve
 Suponha que selecionou uniformemente uma chave para ter o valor de 17. A letra "O" equivale a 15. Sem a operação de módulo, a adição deste número de texto simples com a chave resultaria num número de texto cifrado de 32. No entanto, esse número de texto cifrado não pode ser transformado numa letra de texto cifrado, uma vez que o alfabeto inglês só tem 26 letras. A operação de módulo garante que o número do texto cifrado é efetivamente 6 (o resultado de $32 \mod 26$), o que equivale à letra de texto cifrado "G".
 
 A encriptação completa da palavra "DOG" com um valor de chave de 17 é a seguinte:
-
 
 - Mensagem = DOG = D,O,G = 3,15,6
 - $c_0 = [(3 + 17) \mod 26] = [(20) \mod 26] = 20 = U$
@@ -509,14 +507,12 @@ Por exemplo, suponhamos que escreveu uma mensagem de correio eletrónico na sua 
 
 Uma operação matemática fundamental a compreender para a criptografia moderna, para além da operação de módulo, é a operação **XOR**, ou operação "exclusive or". Esta operação recebe como entrada dois bits e produz como saída outro bit. A operação XOR será simplesmente designada por "XOR". A operação produz 0 se os dois bits forem iguais e 1 se os dois bits forem diferentes. Pode ver as quatro possibilidades abaixo. O símbolo $\oplus$ representa "XOR" :
 
-
 - $0 \oplus 0 = 0$
 - $0 \oplus 1 = 1$
 - $1 \oplus 0 = 1$
 - $1 \oplus 1 = 0$
 
 Para ilustrar, suponha que tem uma mensagem $m_1$ (01111001) e uma mensagem $m_2$ (01011001). A operação XOR destas duas mensagens pode ser vista abaixo.
-
 
 - $m_1 \oplus m_2 = 01111001 \oplus 01011001 = 00100000$
 
@@ -774,7 +770,7 @@ Um campo é derivado da noção de grupo. Especificamente, um **campo** é um co
 
 1. O conjunto **S** equipado com $\circ$ é um grupo abeliano.
 
-2. O conjunto **S** equipado com $\diamante$ é um grupo abeliano para os elementos "não nulos".
+2. O conjunto **S** equipado com $\diamond$ é um grupo abeliano para os elementos "não nulos".
 
 3. O conjunto **S** equipado com os dois operadores satisfaz o que é conhecido como a condição distributiva: Suponhamos que $a$, $b$ e $c$ são elementos de **S**. Então **S** equipado com os dois operadores satisfaz a propriedade distributiva quando $a \circ (b \diamond c) = (a \circ b) \diamond (a \circ c)$.
 
@@ -1053,7 +1049,7 @@ Pode também encontrar os termos **encriptar** ou **decifrar**. Estes termos sã
 
 <chapterId>2d73ef97-26c5-5d11-8815-0ddbe89c8003</chapterId>
 
-A cifra shift é um esquema de encriptação simétrica muito inseguro, pelo menos no mundo moderno[1]. [Um atacante pode simplesmente tentar desencriptar qualquer texto cifrado com todas as 26 chaves possíveis para ver qual o resultado que faz sentido. Este tipo de ataque, em que o atacante está apenas a percorrer as chaves para ver o que funciona, é conhecido como **brute force attack** ou **exhaustive key search**.
+A cifra shift é um esquema de encriptação simétrica muito inseguro, pelo menos no mundo moderno[1]. Um atacante pode simplesmente tentar desencriptar qualquer texto cifrado com todas as 26 chaves possíveis para ver qual o resultado que faz sentido. Este tipo de ataque, em que o atacante está apenas a percorrer as chaves para ver o que funciona, é conhecido como **brute force attack** ou **exhaustive key search**.
 
 Para que qualquer esquema de encriptação cumpra uma noção mínima de segurança, deve ter um conjunto de chaves possíveis, ou **espaço de chaves**, que seja tão grande que os ataques de força bruta sejam inviáveis. Todos os esquemas de encriptação modernos cumprem esta norma. É conhecido como o princípio do **espaço de chaves suficiente**. Um princípio semelhante aplica-se tipicamente em diferentes tipos de esquemas criptográficos.
 
@@ -1233,7 +1229,7 @@ Esta construção é muito mais segura do que o modo de livro de códigos eletr�
 
 Por outras palavras, o seu vetor de inicialização deve ser um nonce aleatório ou pseudo-aleatório, onde um **nonce** significa "um número que só é usado uma vez" Se mantiver esta prática, então o modo CBC com uma cifra de bloco garante que quaisquer dois blocos de texto simples idênticos serão geralmente encriptados de forma diferente de cada vez.
 
-Por fim, vamos debruçar-nos sobre o modo de feedback de saída** (modo **OFB**). Pode ver uma representação deste modo na *Figura 7*.
+Por fim, vamos debruçar-nos sobre o **modo de feedback de saída** (modo **OFB**). Pode ver uma representação deste modo na *Figura 7*.
 
 *Figura 7: Uma cifra de bloco com modo OFB*
 
@@ -1259,7 +1255,7 @@ A cifra de bloco AES será explicada em pormenor no *Capítulo 5*.
 
 [5] A importância da encriptação probabilística foi salientada pela primeira vez por Shafi Goldwasser e Silvio Micali, "Probabilistic encryption," _Journal of Computer and System Sciences_, 28 (1984), 270-99.
 
-[6] Ver NSA, "Commercial National Security Algorithm Suite", [https://apps.nsa.gov/iaarchive/programs/iad-initiatives/cnsa-suite.cfm] (https://apps.nsa.gov/iaarchive/programs/iad-initiatives/cnsa-suite.cfm).
+[6] Ver NSA, "Commercial National Security Algorithm Suite", [https://apps.nsa.gov/iaarchive/programs/iad-initiatives/cnsa-suite.cfm](https://apps.nsa.gov/iaarchive/programs/iad-initiatives/cnsa-suite.cfm).
 
 ## Esclarecer a confusão
 
@@ -1448,29 +1444,19 @@ Continuamos com este processo até produzirmos a linha final na parte inferior d
 
 *Quadro 1: Quadro de programação de chaves*
 
-| Rodada | i | j | | S[0] | S[1] | S[2] | S[3] | S[4] | S[5] | S[6] | S[7] |
-
+| Round   | i   | j   |     | S[0] | S[1] | S[2] | S[3] | S[4] | S[5] | S[6] | S[7] |
 | ------- | --- | --- | --- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+|         |     |     |     |      |      |      |      |      |      |      |      |
+| Initial |     | 0   |     | 0    | 1    | 2    | 3    | 4    | 5    | 6    | 7    |
+| 1       | 0   | 6   |     | 6    | 1    | 2    | 3    | 4    | 5    | 0    | 7    |
+| 2       | 1   | 7   |     | 6    | 7    | 2    | 3    | 4    | 5    | 0    | 1    |
+| 3       | 2   | 2   |     | 6    | 7    | 2    | 3    | 4    | 5    | 0    | 1    |
+| 4       | 3   | 3   |     | 6    | 7    | 2    | 3    | 4    | 5    | 0    | 1    |
+| 5       | 4   | 3   |     | 6    | 7    | 2    | 0    | 3    | 5    | 4    | 1    |
+| 6       | 5   | 6   |     | 6    | 4    | 2    | 0    | 3    | 7    | 5    | 1    |
+| 7       | 6   | 1   |     | 6    | 4    | 2    | 0    | 3    | 7    | 5    | 2    |
+| 8       | 7   | 2   |     | 6    | 4    | 1    | 0    | 3    | 7    | 5    | 2    |
 
-| | | | | | | | | | | | |
-
-| Inicial | | | 0 | | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
-
-| 1 | 0 | 6 | | 6 | 1 | 2 | 3 | 4 | 5 | 0 | 7 |
-
-| 2 | 1 | 7 | | 6 | 7 | 2 | 3 | 4 | 5 | 0 | 1 |
-
-| 3 | 2 | 2 | | 6 | 7 | 2 | 3 | 4 | 5 | 0 | 1 |
-
-| 4 | 3 | 3 | | 6 | 7 | 2 | 3 | 4 | 5 | 0 | 1 |
-
-| 5 | 4 | 3 | | 6 | 7 | 2 | 0 | 3 | 5 | 4 | 1 |
-
-| 6 | 5 | 6 | | 6 | 4 | 2 | 0 | 3 | 7 | 5 | 1 |
-
-| 7 | 6 | 1 | | 6 | 4 | 2 | 0 | 3 | 7 | 5 | 2 |
-
-| 8 | 7 | 2 | | 6 | 4 | 1 | 0 | 3 | 7 | 5 | 2 |
 
 ### Passo 4
 
@@ -1499,23 +1485,18 @@ O que aconteceria se a palavra a encriptar fosse maior do que a matriz **S**? Ne
 
 *Quadro 2: Geração de fluxos principais*
 
-| i | j | t | Keystream | S[0] | S[1] | S[2] | S[3] | S[4] | S[5] | S[6] | S[7] |
 
+| i   | j   | t   | Keystream | S[0] | S[1] | S[2] | S[3] | S[4] | S[5] | S[6] | S[7] |
 | --- | --- | --- | --------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+|     |     |     |           |      |      |      |      |      |      |      |      |
+|     | 0   |     |           | 6    | 4    | 1    | 0    | 3    | 7    | 5    | 2    |
+| 1   | 4   | 7   | 2         | 6    | 3    | 1    | 0    | 4    | 7    | 5    | 2    |
+| 2   | 5   | 0   | 6         | 6    | 3    | 7    | 0    | 4    | 1    | 5    | 2    |
+| 3   | 5   | 1   | 3         | 6    | 3    | 7    | 1    | 4    | 0    | 5    | 2    |
+| 4   | 1   | 7   | 2         | 6    | 4    | 7    | 1    | 3    | 0    | 5    | 2    |
 
-| | | | | | | | | | | | |
 
-| | 0 | | | 6 | 4 | 1 | 0 | 3 | 7 | 5 | 2 |
-
-| 1 | 4 | 7 | 2 | 6 | 3 | 1 | 0 | 4 | 7 | 5 | 2 |
-
-| 2 | 5 | 0 | 6 | 6 | 3 | 7 | 0 | 4 | 1 | 5 | 2 |
-
-| 3 | 5 | 1 | 3 | 6 | 3 | 7 | 1 | 4 | 0 | 5 | 2 |
-
-| 4 | 1 | 7 | 2 | 6 | 4 | 7 | 1 | 3 | 0 | 5 | 2 |
-
-O exemplo que acabámos de discutir é apenas uma versão diluída do **RC4 stream cipher**. A verdadeira cifra de fluxo RC4 tem uma matriz **S** de 256 bytes de comprimento, não 8 bytes, e uma chave que pode ter entre 1 e 256 bytes, não entre 1 e 8 bytes. O array de chaves e os keystreams são então todos produzidos considerando o comprimento de 256 bytes do array **S**. Os cálculos tornam-se imensamente mais complexos, mas os princípios permanecem os mesmos. Usando a mesma chave, [14,48,9], com a cifra RC4 padrão, a mensagem de texto simples "SOUP" é encriptada como 67 02 ed df em formato hexadecimal.
+O exemplo que acabámos de discutir é apenas uma versão diluída do **RC4 stream cipher**. A verdadeira cifra de fluxo RC4 tem uma matriz **S** de 256 bytes de comprimento, não 8 bytes, e uma chave que pode ter entre 1 e 256 bytes, não entre 1 e 8 bytes. O array de chaves e os keystreams são então todos produzidos considerando o comprimento de 256 bytes do array **S**. Os cálculos tornam-se imensamente mais complexos, mas os princípios permanecem os mesmos. Usando a mesma chave, 14,48,9, com a cifra RC4 padrão, a mensagem de texto simples "SOUP" é encriptada como 67 02 ed df em formato hexadecimal.
 
 Uma cifra de fluxo em que o fluxo de chaves é atualizado independentemente da mensagem de texto simples ou do texto cifrado é uma **cifra de fluxo síncrona**. O keystream depende apenas da chave. Claramente, o RC4 é um exemplo de uma cifra de fluxo síncrono, uma vez que o fluxo de chaves não tem qualquer relação com o texto simples ou o texto cifrado. Todas as nossas cifras de fluxo primitivas mencionadas no capítulo anterior, incluindo a cifra de deslocamento, a cifra de Vigenère e o bloco de tempo único, eram também da variedade síncrona.
 
@@ -1589,41 +1570,26 @@ Segundo, a operação de **substituição de bytes** é executada no estado atua
 
 *Figura 3: S-Box* do Rijndael
 
-| 00 | 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 0A | 0B | 0C | 0D | 0E | 0F |
 
+|     | 00  | 01  | 02  | 03  | 04  | 05  | 06  | 07  | 08  | 09  | 0A  | 0B  | 0C  | 0D  | 0E  | 0F  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 00  | 63  | 7C  | 77  | 7B  | F2  | 6B  | 6F  | C5  | 30  | 01  | 67  | 2B  | FE  | D7  | AB  | 76  |
+| 10  | CA  | 82  | C9  | 7D  | FA  | 59  | 47  | F0  | AD  | D4  | A2  | AF  | 9C  | A4  | 72  | C0  |
+| 20  | B7  | FD  | 93  | 26  | 36  | 3F  | F7  | CC  | 34  | A5  | E5  | F1  | 71  | D8  | 31  | 15  |
+| 30  | 04  | C7  | 23  | C3  | 18  | 96  | 05  | 9A  | 07  | 12  | 80  | E2  | EB  | 27  | B2  | 75  |
+| 40  | 09  | 83  | 2C  | 1A  | 1B  | 6E  | 5A  | A0  | 52  | 3B  | D6  | B3  | 29  | E3  | 2F  | 84  |
+| 50  | 53  | D1  | 00  | ED  | 20  | FC  | B1  | 5B  | 6A  | CB  | BE  | 39  | 4A  | 4C  | 58  | CF  |
+| 60  | D0  | EF  | AA  | FB  | 43  | 4D  | 33  | 85  | 45  | F9  | 02  | 7F  | 50  | 3C  | 9F  | A8  |
+| 70  | 51  | A3  | 40  | 8F  | 92  | 9D  | 38  | F5  | BC  | B6  | DA  | 21  | 10  | FF  | F3  | D2  |
+| 80  | CD  | 0C  | 13  | EC  | 5F  | 97  | 44  | 17  | C4  | A7  | 7E  | 3D  | 64  | 5D  | 19  | 73  |
+| 90  | 60  | 81  | 4F  | DC  | 22  | 2A  | 90  | 88  | 46  | EE  | B8  | 14  | DE  | 5E  | 0B  | DB  |
+| A0  | E0  | 32  | 3A  | 0A  | 49  | 06  | 24  | 5C  | C2  | D3  | AC  | 62  | 91  | 95  | E4  | 79  |
+| B0  | E7  | C8  | 37  | 6D  | 8D  | D5  | 4E  | A9  | 6C  | 56  | F4  | EA  | 65  | 7A  | AE  | 08  |
+| C0  | BA  | 78  | 25  | 2E  | 1C  | A6  | B4  | C6  | E8  | DD  | 74  | 1F  | 4B  | BD  | 8B  | 8A  |
+| D0  | 70  | 3E  | B5  | 66  | 48  | 03  | F6  | 0E  | 61  | 35  | 57  | B9  | 86  | C1  | 1D  | 9E  |
+| E0  | E1  | F8  | 98  | 11  | 69  | D9  | 8E  | 94  | 9B  | 1E  | 87  | E9  | CE  | 55  | 28  | DF  |
+| F0  | 8C  | A1  | 89  | 0D  | BF  | E6  | 42  | 68  | 41  | 99  | 2D  | 0F  | B0  | 54  | BB  | 16  |
 
-| 00 | 63 | 7C | 77 | 7B | F2 | 6B | 6F | C5 | 30 | 01 | 67 | 2B | FE | D7 | AB | 76 |
-
-| 10 | CA | 82 | C9 | 7D | FA | 59 | 47 | F0 | AD | D4 | A2 | AF | 9C | A4 | 72 | C0 |
-
-| 20 | B7 | FD | 93 | 26 | 36 | 3F | F7 | CC | 34 | A5 | E5 | F1 | 71 | D8 | 31 | 15 |
-
-| 30 | 04 | C7 | 23 | C3 | 18 | 96 | 05 | 9A | 07 | 12 | 80 | E2 | EB | 27 | B2 | 75 |
-
-| 40 | 09 | 83 | 2C | 1A | 1B | 6E | 5A | A0 | 52 | 3B | D6 | B3 | 29 | E3 | 2F | 84 |
-
-| 50 | 53 | D1 | 00 | ED | 20 | FC | B1 | 5B | 6A | CB | BE | 39 | 4A | 4C | 58 | CF |
-
-| 60 | D0 | EF | AA | FB | 43 | 4D | 33 | 85 | 45 | F9 | 02 | 7F | 50 | 3C | 9F | A8 |
-
-| 70 | 51 | A3 | 40 | 8F | 92 | 9D | 38 | F5 | BC | B6 | DA | 21 | 10 | FF | F3 | D2 |
-
-| 80 | CD | 0C | 13 | EC | 5F | 97 | 44 | 17 | C4 | A7 | 7E | 3D | 64 | 5D | 19 | 73 |
-
-| 90 | 60 | 81 | 4F | DC | 22 | 2A | 90 | 88 | 46 | EE | B8 | 14 | DE | 5E | 0B | DB |
-
-| A0 | E0 | 32 | 3A | 0A | 49 | 06 | 24 | 5C | C2 | D3 | AC | 62 | 91 | 95 | E4 | 79 |
-
-| B0 | E7 | C8 | 37 | 6D | 8D | D5 | 4E | A9 | 6C | 56 | F4 | EA | 65 | 7A | AE | 08 |
-
-| C0 | BA | 78 | 25 | 2E | 1C | A6 | B4 | C6 | E8 | DD | 74 | 1F | 4B | BD | 8B | 8A |
-
-| D0 | 70 | 3E | B5 | 66 | 48 | 03 | F6 | 0E | 61 | 35 | 57 | B9 | 86 | C1 | 1D | 9E |
-
-| E0 | E1 | F8 | 98 | 11 | 69 | D9 | 8E | 94 | 9B | 1E | 87 | E9 | CE | 55 | 28 | DF |
-
-| F0 | 8C | A1 | 89 | 0D | BF | E6 | 42 | 68 | 41 | 99 | 2D | 0F | B0 | 54 | BB | 16 |
 
 Esta S-Box é um dos locais onde a álgebra abstrata entra em jogo na cifra Rijndael, especificamente os **campos de Galois**.
 
@@ -1637,39 +1603,31 @@ Uma vez construída a matriz de **S**, as quatro linhas são deslocadas. A prime
 
 *Figura 4: Operação de deslocação de linhas*
 
-| F1 | A0 | B1 | 23 |
 
+| F1   | A0   | B1   | 23   |
 |------|------|------|------|
+| 59   | EF   | 09   | 82   |
+| 97   | 01   | B0   | CC   |
+| D4   | 72   | 04   | 21   |
 
-| 59 | EF | 09 | 82 |
-
-| 97 | 01 | B0 | CC |
-
-| D4 | 72 | 04 | 21 |
-
-| F1 | A0 | B1 | 23 |
-
+| F1   | A0   | B1   | 23   |
 |------|------|------|------|
+| EF   | 09   | 82   | 59   |
+| B0   | CC   | 97   | 01   |
+| 21   | D4   | 72   | 04   |
 
-| EF | 09 | 82 | 59 |
-
-| B0 | CC | 97 | 01 |
-
-| 21 | D4 | 72 | 04 |
 
 No quarto passo, os **campos de Galois** voltam a aparecer. Para começar, cada coluna da matriz **S** é multiplicada pela coluna da matriz 4 x 4 vista na *Figura 5*. Mas em vez de ser uma multiplicação matricial normal, é uma multiplicação vetorial **módulo de um polinómio irredutível**, $x^8 + x^4 + x^3 + x + 1$. Os coeficientes do vetor resultante representam os bits individuais de um byte.
 
 *Figura 5: Matriz de colunas mistas*
 
-| 02 | 03 | 01 | 01 |
 
+| 02   | 03   | 01   | 01   |
 |------|------|------|------|
+| 01   | 02   | 03   | 01   |
+| 01   | 01   | 02   | 03   |
+| 03   | 01   | 01   | 02   |
 
-| 01 | 02 | 03 | 01 |
-
-| 01 | 01 | 02 | 03 |
-
-| 03 | 01 | 01 | 02 |
 
 A multiplicação da primeira coluna da matriz **S** com a matriz 4 x 4 acima produz o resultado na *Figura 6*.
 
@@ -1773,6 +1731,7 @@ Na década de 1970, os problemas de distribuição e gestão de chaves tinham at
 Pelo menos uma das principais motivações para o seu empreendimento foi a previsão de que as comunicações abertas por computador iriam afetar profundamente o nosso mundo. Como referem Diffie e Helmann em 1976,
 
 > O desenvolvimento de redes de comunicação controladas por computador promete um contacto sem esforço e pouco dispendioso entre pessoas ou computadores em lados opostos do mundo, substituindo a maior parte do correio e muitas excursões por telecomunicações. Para muitas aplicações, estes contactos devem ser seguros, tanto contra a escuta como contra a injeção de mensagens ilegítimas. Atualmente, porém, a solução dos problemas de segurança está muito atrasada em relação a outros domínios da tecnologia das comunicações. *A criptografia contemporânea não é capaz de satisfazer os requisitos, na medida em que a sua utilização imporia inconvenientes tão graves aos utilizadores do sistema que eliminaria muitos dos benefícios do teleprocessamento.* [1]
+
 A tenacidade de Diffie, Hellman e Merkle deu frutos. A primeira publicação dos seus resultados foi um artigo de Diffie e Helmann em 1976 intitulado "New Diretions in Cryptography" Nele, apresentaram duas formas originais de resolver os problemas de distribuição de chaves e de gestão de chaves.
 
 A primeira solução que propuseram foi um *protocolo de troca de chaves* remoto, ou seja, um conjunto de regras para a troca de uma ou mais chaves simétricas através de um canal de comunicação inseguro. Este protocolo é atualmente conhecido como *Diffie-Helmann key exchange* ou *Diffie-Helmann-Merkle key exchange*. [2]
@@ -1815,7 +1774,7 @@ De seguida, passaremos a uma visão geral de alto nível do sigilo e da autentic
 
 Atualmente, parece plausível que um grupo de criptógrafos e matemáticos britânicos que trabalhavam para o Government Communications Headquarters (GCHQ) tenha feito, de forma independente, as descobertas acima mencionadas alguns anos antes. Este grupo era constituído por James Ellis, Clifford Cocks e Malcolm Williamson.
 
-De acordo com os seus próprios relatos e os do GCHQ, foi James Ellis quem primeiro concebeu o conceito de criptografia de chave pública em 1969. Supostamente, Clifford Cocks descobriu depois o sistema criptográfico RSA em 1973 e Malcolm Williamson o conceito de troca de chaves Diffie Helmann em 1974[4]. [No entanto, as suas descobertas só foram reveladas em 1997, dado o carácter secreto do trabalho realizado no GCHQ.
+De acordo com os seus próprios relatos e os do GCHQ, foi James Ellis quem primeiro concebeu o conceito de criptografia de chave pública em 1969. Supostamente, Clifford Cocks descobriu depois o sistema criptográfico RSA em 1973 e Malcolm Williamson o conceito de troca de chaves Diffie Helmann em 1974[4]. No entanto, as suas descobertas só foram reveladas em 1997, dado o carácter secreto do trabalho realizado no GCHQ.
 
 **Notas:**
 
@@ -1943,7 +1902,7 @@ As funções hash resistentes a colisões são importantes, por exemplo, na veri
 
 2.	De seguida, é necessário verificar as chaves públicas que importou. Pelo menos um passo que deve dar é verificar se as chaves públicas que encontrou são as mesmas que foram publicadas em vários outros locais. Pode, por exemplo, consultar as páginas Web pessoais, as páginas do Twitter ou as páginas do Github das pessoas cujas chaves públicas importou. Normalmente, esta comparação de chaves públicas é efectuada através da comparação de um hash curto da chave pública, conhecido como impressão digital.
 
-3.	Em seguida, é necessário descarregar o executável para o Bitcoin Core a partir do seu [website] (www.bitcoincore.org). Haverá pacotes disponíveis para os sistemas operativos Linux, Windows e MAC.
+3.	Em seguida, é necessário descarregar o executável para o Bitcoin Core a partir do seu [website](www.bitcoincore.org). Haverá pacotes disponíveis para os sistemas operativos Linux, Windows e MAC.
 
 4.	A seguir, tem de localizar dois ficheiros de lançamento. O primeiro contém o hash SHA-256 oficial para o executável que descarregou juntamente com os hashes de todos os outros pacotes que foram lançados. Outro ficheiro de lançamento conterá as assinaturas de vários contribuidores sobre o ficheiro de lançamento com os hashes dos pacotes. Ambos os ficheiros de lançamento devem estar localizados no site do Bitcoin Core.
 
@@ -2078,7 +2037,7 @@ $$ \frac{2^{1024}}{\ln(2^{1024})} - \frac{2^{1023}}{\ln(2^{1023})} $$
 
 ...o que equivale a aproximadamente $1,265 \times 10^{305}$.
 
-[O mesmo se aplica aos problemas de logaritmos discretos. É por isso que as construções assimétricas funcionam com chaves muito maiores do que as construções criptográficas simétricas.
+O mesmo se aplica aos problemas de logaritmos discretos. É por isso que as construções assimétricas funcionam com chaves muito maiores do que as construções criptográficas simétricas.
 
 ## Resultados da teoria dos números
 
@@ -2287,7 +2246,7 @@ No entanto, com a adição de um pouco de complexidade inteligente, o problema R
 
 [4] Ver, por exemplo, Jonathan Katz e Yehuda Lindell, _Introduction to Modern Cryptography_, CRC Press (Boca Raton, FL: 2015), pp. 410-32 sobre a encriptação RSA e pp. 444-41 sobre as assinaturas digitais RSA.
 
-# Conclusão
+# Seção final
 
 <partId>e538fb79-bf28-40cd-a5c3-badf864d8567</partId>
 
@@ -2295,7 +2254,7 @@ No entanto, com a adição de um pouco de complexidade inteligente, o problema R
 
 <chapterId>366d6fd0-ceb2-4299-bf37-8c6dfcb681d5</chapterId>
 <isCourseReview>true</isCourseReview>
- 
+
 ## Exame Final
 
 <chapterId>44882d2b-63cd-4fde-8485-f76f14d8b2fe</chapterId>

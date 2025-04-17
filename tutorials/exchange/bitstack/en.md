@@ -53,7 +53,8 @@ Choose a strong password to secure access to your account, then click on "*Conti
 
 For secure password management on a daily basis, the use of a password manager is highly recommended. On Plan ₿ Network, you'll find several tutorials on the best existing solutions, such as Bitwarden :
 
-https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+
 You will then be asked to verify your identity (KYC). In accordance with French regulations, you will be asked to provide your personal details and proof of identity. Fill in the boxes with your surname, first name and date of birth.
 
 ![Image](assets/fr/07.webp)
@@ -183,7 +184,7 @@ Determine the transaction priority. For a no-fee withdrawal, choose "*Standard*"
 
 ![Image](assets/fr/32.webp)
 
-If you're not familiar with how a self-custody portfolio works, we offer tutorials on most of the solutions available [on Plan ₿ Network in the "*Wallet*" section](https://planb.network/tutorials/wallet).
+If you're not familiar with how a self-custody wallet works, we offer tutorials on most of the solutions available [on Plan ₿ Network in the "*Wallet*" section](https://planb.network/tutorials/wallet).
 
 ## Selling bitcoin
 

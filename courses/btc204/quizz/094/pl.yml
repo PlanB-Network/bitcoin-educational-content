@@ -1,0 +1,10 @@
+question: Która z poniższych odpowiedzi nie jest zalecaną praktyką zarządzania zmianą doxxic?
+answer: Łączenie doxxic UTXO razem.
+wrong_answers:
+  - Mieszanie doxxic UTXO w mniejszej puli.
+  - Przekazywanie swoich doxxic UTXO.
+  - Oznaczanie swoich doxxic UTXO jako niewydawalnych.
+explanation: |
+  Odradza się łączenie doxxic UTXO razem, ponieważ pozwala to na połączenie różnych wpisów użytkownika w Whirlpool.
+  
+reviewed: false

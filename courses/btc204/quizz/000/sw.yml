@@ -1,0 +1,9 @@
+question: Je, kifupi cha UTXO kinamaanisha nini kwa Kiingereza?
+answer: Pato la Muamala Usilotumika
+wrong_answers:
+  - Pato la Muamala Iliyounganishwa
+  - Muamala wa Mtumiaji Pekee
+  - Chaguo la Ishara ya Utility Exchange
+explanation: |
+  UTXO ni matokeo ya shughuli ambayo bado haijatumika.
+reviewed: false

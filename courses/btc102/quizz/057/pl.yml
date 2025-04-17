@@ -1,0 +1,10 @@
+question: Co oznacza skrót DCA w kontekście inwestycji Bitcoin?
+answer: Uśrednianie kosztu dolara
+wrong_answers:
+  - Bezpośrednie nabycie waluty
+  - Alokacja monet cyfrowych
+  - Zdecentralizowane aktywa kryptograficzne
+explanation: |
+  Dollar Cost Averaging (DCA) to strategia polegająca na dzieleniu całkowitej
+  kwotę, którą chcesz zainwestować, na okresowe zakupy, aby zmniejszyć wpływ zmienności.
+reviewed: false

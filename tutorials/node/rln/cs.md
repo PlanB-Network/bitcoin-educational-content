@@ -32,6 +32,7 @@ Smlouva RGB je strukturována jako evoluční stavový stroj. Začíná Genesis,
 Chcete-li se dozvědět více o tom, jak protokol RGB funguje, doporučuji vám absolvovat toto komplexní školení:
 
 https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+
 ## Instalace uzlu Lightning kompatibilního s RGB
 
 Pro kompilaci a instalaci binárního souboru `rgb-lightning-node` začneme klonováním úložiště a jeho podmodulů a poté spustíme příkaz :
@@ -371,4 +372,4 @@ Pokud vám tento návod přišel užitečný, budu vám vděčný, když mi pod 
 
 Doporučuji také tento další návod, ve kterém vysvětluji, jak použít nástroj RGB CLI vyvinutý sdružením LNP/BP k vytvoření smlouvy RGB:
 
-https://planb.network/tutorials/node/rgb/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4
+https://planb.network/tutorials/node/others/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4

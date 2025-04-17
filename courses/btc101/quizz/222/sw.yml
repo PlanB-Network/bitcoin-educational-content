@@ -1,0 +1,8 @@
+question: Tatizo la Bitcoin ni nini?
+answer: Changamoto ya kutekeleza mfumo wa fedha wenye uwezo wa kutoa idadi inayoongezeka ya miamala kwa sekunde kadri inavyokubaliwa.
+wrong_answers:
+  - Ugumu wa Mining Bitcoins mpya na thamani inayoongezeka kwa wakati.
+  - Kubadilika kwa bei ya Bitcoin ambayo itaongezeka baada ya kila Halving.
+  - Ukosefu wa udhibiti wa Bitcoin ambao utafanya shughuli kuwa haramu.
+explanation: >-
+reviewed: true

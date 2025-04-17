@@ -1,94 +1,91 @@
 id: ee2c284a-0e23-49a4-b0ca-4a4702072973
-builder: Seed Signer
 
 level: advanced
 
 category: hardware
 
-tags:
-  - DIY
-  - Open-source
-  - self-custodial
-
-# Proofreading metadata
 project_id: 975d23f6-4ee3-4e31-b39f-9acca196d4b4
 original_language: en
 proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 2.37
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 1.23
+    contributor_names:
+    reward: 1.8
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
-    reward: 0.62
+    reward: 0.9
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 1.8
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 2.37
   - language: fr
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 1.23
+    contributor_names:
+    reward: 1.8
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 1.8
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 3.5
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 1.23
+    contributor_names:
+    reward: 1.8
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 2.37
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 3.5
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 2.37
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 2.94
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 2.94
 
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 2.37
+tags:
+  - DIY
+  - hardware
+  - keys

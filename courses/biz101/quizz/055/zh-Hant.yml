@@ -1,0 +1,9 @@
+question: 專用 Bitcoin 會計工具的主要目標是什麼？
+answer: 簡化 Bitcoin 相關資料的自動收集與處理程序
+wrong_answers:
+  - 為了加強 Bitcoin 私密金鑰的安全性
+  - 方便企業在分散式交易所直接交易 Bitcoin
+  - 建立 PoS 系統以接受 Bitcoin 付款
+explanation: |
+  這些工具旨在自動化資料收集、格式轉換、稅金計算及交易分類。
+reviewed: false

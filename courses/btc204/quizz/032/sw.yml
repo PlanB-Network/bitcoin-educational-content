@@ -1,0 +1,9 @@
+question: Iwapo katika shughuli rahisi ya malipo inaonekana kwamba aina hiyo hiyo ya hati inatumiwa katika ingizo na kwenye matokeo moja tu kati ya 2, ni matokeo gani ambayo huenda yakawakilisha mabadiliko?
+answer: Ile iliyo na aina sawa ya hati na ingizo.
+wrong_answers:
+  - Ile iliyo na aina ya hati ya hivi majuzi zaidi.
+  - Ile iliyo na aina tofauti ya hati kutoka kwa ingizo.
+  - Ile iliyo na aina isiyo ya kawaida ya hati.
+explanation: |
+  Ikiwa utumiaji upya wa toleo utatokea ndani ya shughuli ya ununuzi, ni busara kudhani kuwa mtumiaji bado ana UTXO inayohusishwa. Kwa hivyo, matokeo yaliyo na toleo la hati sawa na ingizo linaweza kuwa mabadiliko.
+reviewed: false

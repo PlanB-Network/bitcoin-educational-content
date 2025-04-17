@@ -1,98 +1,94 @@
 id: 48c4a8ee-07da-4a6a-b931-f4fd1a66f328
 en_word: SEGWIT
-related_words: []
-tags:
-  - ''
-
-# Proofreading metadata
+related_words: 
 original_language: fr
 proofreading:
   - language: en
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.24
+    contributor_names:
+    reward: 0.31
   - language: fr
     last_contribution_date: 2024-07-26
     urgency: 1
-    contributors_id:
+    contributor_names:
       - LoicPandul
-    reward: 0.12
+    reward: 0.16
 
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.38
 
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.24
+    contributor_names:
+    reward: 0.31
 
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.31
 
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.38
 
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.38
 
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.46
 
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.31
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.38
 
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.24
+    contributor_names:
+    reward: 0.31
 
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.38
 
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.53
 
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.46
 
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.53

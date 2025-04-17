@@ -1,0 +1,14 @@
+question: Unahitaji nini kuhifadhi nakala wakati wa kutumia Wallet na passphrase?
+answer: Unahitaji kuhifadhi nakala za orodha ya maneno 12 au 24 na passphrase yako.
+wrong_answers:
+  - Unahitaji tu kuhifadhi orodha ya maneno 12 au 24.
+  - Unahitaji tu kuhifadhi passphrase yako.
+  - Huhitaji kuhifadhi nakala ya orodha ya maneno 12 au 24 wala passphrase yako.
+explanation: |
+  Unapotumia Wallet na passphrase, unahitaji kuhifadhi nakala
+  orodha ya maneno 12 au 24 na passphrase yako,
+  kwa sababu orodha ya maneno na passphrase ni zote mbili
+  muhimu kwa kurejesha ufikiaji wa pesa zako ikiwa ni
+  kupoteza simu au kompyuta yako. Bila moja au nyingine,
+  fedha hazipatikani.
+reviewed: true

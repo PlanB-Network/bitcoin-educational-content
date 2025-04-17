@@ -6,8 +6,6 @@ L'aggiustamento della difficoltà è un processo periodico che ridefinisce l'obi
 
 $$N = A \cdot \left(\frac{T}{1.209.600}\right)$$
 
-&nbsp;
-
 Dove:
 
 

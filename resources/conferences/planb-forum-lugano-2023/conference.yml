@@ -1,7 +1,6 @@
 id: eaf58b01-b777-479f-b3f8-1da630c866da
 year: 2023-10
 name: PlanB Lugano Forum 2023
-builder: Lugano's Plan ₿
 location: Lugano, Switzerland
 language:
   - en
@@ -9,18 +8,16 @@ language:
 links:
   website: https://planb.lugano.ch/planb-forum/
   twitter: https://twitter.com/LuganoPlanB
-tags:
-  - International
-  - All Public
-  - General
-
-# Proofreading metadata
 project_id: cf0fecdf-6a70-40ec-869d-c6c78f9fac01
 original_language: en
 proofreading:
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 0
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
     reward: 0.05
+tags:
+  - adoption
+  - regulation
+  - finance

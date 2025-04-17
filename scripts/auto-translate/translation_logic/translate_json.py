@@ -1,10 +1,12 @@
 import json
 import os
 import time
+import yaml
+import re
 from abc import ABC, abstractmethod
 from openai import OpenAI
 import deepl
-from typing import Dict, Any, List, Optional, Union
+from typing import Dict, Any, List, Optional, Union, Tuple
 from dataclasses import dataclass
 from pathlib import Path
 from dotenv import load_dotenv
@@ -22,6 +24,64 @@ class TranslationConfig:
     target_lang: str
     source_translator_code: str
     target_translator_code: str
+
+class GlossaryManager:
+    def __init__(self, glossary_path: str = 'glossary.yml'):
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        self.glossary_path = os.path.join(script_dir, glossary_path)
+        self.glossary_terms = self._load_glossary()
+        self.current_index = 0
+
+    def _load_glossary(self) -> List[str]:
+        try:
+            with open(self.glossary_path, 'r', encoding='utf-8') as f:
+                data = yaml.safe_load(f)
+                return data.get('non_translatable', [])
+        except FileNotFoundError:
+            print(f"Warning: Glossary file not found at {self.glossary_path}")
+            return []
+
+    def _create_replacement_token(self) -> str:
+        token = f"GW-{self.current_index}"
+        self.current_index += 1
+        return token
+
+    def prepare_text(self, text: str) -> Tuple[str, Dict[str, str]]:
+        working_text = text
+        local_replacements = {}
+        
+        
+        sorted_terms = sorted(self.glossary_terms, key=len, reverse=True)
+        
+        for term in sorted_terms:
+            pattern = re.compile(r'\b' + re.escape(term) + r'\b', re.IGNORECASE)
+            if pattern.search(working_text):
+                replacement = self._create_replacement_token()
+                working_text = pattern.sub(replacement, working_text)
+                local_replacements[replacement] = term
+                
+        return working_text, local_replacements
+
+    def restore_text(self, text: str, replacements: Dict[str, str]) -> str:
+        result = text
+        for token, original in replacements.items():
+            result = result.replace(token, original)
+        return result
+
+class TranslationProcessor:
+    def __init__(self, translator: 'BaseTranslator'):
+        self.translator = translator
+        self.glossary_manager = GlossaryManager()
+
+    def process_text(self, text: str) -> str:
+        if not text or not text.strip():
+            return text
+
+        prepared_text, replacements = self.glossary_manager.prepare_text(text)
+        translated_text = self.translator.translate_text(prepared_text)
+        final_text = self.glossary_manager.restore_text(translated_text, replacements)
+        
+        return final_text
 
 class BaseTranslator(ABC):
     @abstractmethod
@@ -63,13 +123,14 @@ class DeepLTranslator(BaseTranslator):
             return text
 
 class OpenAITranslator(BaseTranslator):
-    def __init__(self, source_lang: str, target_lang: str):
+    def __init__(self, source_lang: str, target_lang: str, custom_prompt: Optional[str] = None):
         api_key = os.getenv('OPENAI_API_KEY')
         if not api_key:
             raise ValueError("OPENAI_API_KEY not found in environment variables")
         self.client = OpenAI(api_key=api_key)
         self.source_lang = source_lang
         self.target_lang = target_lang
+        self.custom_prompt = custom_prompt
         self.last_request_time = 0
         self.min_request_interval = 0.01
 
@@ -84,10 +145,12 @@ class OpenAITranslator(BaseTranslator):
         self.last_request_time = time.time()
 
         try:
+            system_prompt = self.custom_prompt if self.custom_prompt else f"You are a translator from {self.source_lang} to {self.target_lang}. EXCLUSIVELY Translate the text exactly as provided, preserving formatting and special characters."
+            
             response = self.client.chat.completions.create(
-                model="gpt-4",
+                model="gpt-4o",
                 messages=[
-                    {"role": "system", "content": f"You are a translator from {self.source_lang} to {self.target_lang}. EXCLUSIVELY Translate the text exactly as provided, preserving formatting and special characters."},
+                    {"role": "system", "content": system_prompt},
                     {"role": "user", "content": text}
                 ],
                 temperature=0.1
@@ -99,13 +162,14 @@ class OpenAITranslator(BaseTranslator):
             return text
 
 class DeepSeekTranslator(BaseTranslator):
-    def __init__(self, source_lang: str, target_lang: str):
+    def __init__(self, source_lang: str, target_lang: str, custom_prompt: Optional[str] = None):
         api_key = os.getenv('DEEPSEEK_API_KEY')
         if not api_key:
             raise ValueError("DEEPSEEK_API_KEY not found in environment variables")
         self.client = OpenAI(api_key=api_key, base_url="https://api.deepseek.com")
         self.source_lang = source_lang
         self.target_lang = target_lang
+        self.custom_prompt = custom_prompt
         self.last_request_time = 0
         self.min_request_interval = 0.01
 
@@ -120,10 +184,12 @@ class DeepSeekTranslator(BaseTranslator):
         self.last_request_time = time.time()
 
         try:
+            system_prompt = self.custom_prompt if self.custom_prompt else f"You are a translator from {self.source_lang} to {self.target_lang}. EXCLUSIVELY Translate the text exactly as provided, preserving formatting and special characters."
+            
             response = self.client.chat.completions.create(
                 model="deepseek-chat",
                 messages=[
-                    {"role": "system", "content": f"You are a translator from {self.source_lang} to {self.target_lang}. EXCLUSIVELY Translate the text exactly as provided, preserving formatting and special characters."},
+                    {"role": "system", "content": system_prompt},
                     {"role": "user", "content": text}
                 ],
                 temperature=0.1
@@ -133,9 +199,6 @@ class DeepSeekTranslator(BaseTranslator):
             print(f"\nError translating text: {text}")
             print(f"Error: {e}")
             return text
-
-
-
 
 
 class GoogleTranslator(BaseTranslator):
@@ -148,13 +211,13 @@ class GoogleTranslator(BaseTranslator):
         if not credentials_path:
             raise ValueError("GOOGLE_APPLICATION_CREDENTIALS not found in environment variables")
         
-        # Load credentials explicitly
+        
         credentials = service_account.Credentials.from_service_account_file(
             credentials_path,
             scopes=['https://www.googleapis.com/auth/cloud-platform']
         )
         
-        # Initialize the client with credentials
+        
         self.client = translate.TranslationServiceClient(credentials=credentials)
         self.location = "global"
         self.parent = f"projects/{self.project_id}/locations/{self.location}"
@@ -189,9 +252,6 @@ class GoogleTranslator(BaseTranslator):
             print(f"Error: {e}")
             return text
 
-
-
-
 class FileTranslator:
     def __init__(self, config: TranslationConfig):
         self.config = config
@@ -214,63 +274,87 @@ class FileTranslator:
         if not lang:
             raise ValueError(f"Unsupported target language: {config.target_lang}")
         
+        
         translator_type = lang['translator']
+        custom_prompt = lang.get('custom_prompt')
+        base_translator = self._create_base_translator(translator_type, custom_prompt)
+        
+        
+        self.translator = TranslationProcessor(base_translator)
+
+    def _create_base_translator(self, translator_type: str, custom_prompt: Optional[str] = None) -> BaseTranslator:
         if translator_type == "deepl":
-            self.translator = DeepLTranslator(
-                config.source_lang.upper(),
-                config.target_translator_code
+            return DeepLTranslator(
+                self.config.source_lang.upper(),
+                self.config.target_translator_code
             )
         elif translator_type == "openai":
-            self.translator = OpenAITranslator(
-                config.source_translator_code,
-                config.target_translator_code
+            return OpenAITranslator(
+                self.config.source_translator_code,
+                self.config.target_translator_code,
+                custom_prompt
             )
         elif translator_type == "deepseek":
-            self.translator = DeepSeekTranslator(
-                config.source_translator_code,
-                config.target_translator_code
+            return DeepSeekTranslator(
+                self.config.source_translator_code,
+                self.config.target_translator_code,
+                custom_prompt
             )
         elif translator_type == "google":
-            self.translator = GoogleTranslator(
-                config.source_translator_code,
-                config.target_translator_code
+            return GoogleTranslator(
+                self.config.source_translator_code,
+                self.config.target_translator_code
             )
         else:
             raise ValueError(f"Unsupported translator type: {translator_type}")
 
     def translate_object(self, obj: Dict[str, Any]) -> Dict[str, Any]:
         """Translate an object based on its type and translation flag"""
-        if not obj.get('translate', True):  # Skip if explicitly marked as non-translatable
+        if not obj.get('translate', True):
             return obj.copy()
-            
+
         new_obj = obj.copy()
         obj_type = obj.get('type')
-        
+
         if obj_type == 'yml_property':
             if obj.get('is_list', False):
-                # Translate each item in the list
+                
+                original_content = obj.get('content', [])
+                if original_content is None: original_content = [] 
                 new_obj['content'] = [
-                    self.translator.translate_text(str(item))
-                    for item in obj['content']
+                    self.translator.process_text(str(item))
+                    for item in original_content
                 ]
+            
             elif obj.get('is_multiline', False):
-                # Translate each line of multiline content
-                new_obj['content'] = [
-                    self.translator.translate_text(str(line))
-                    for line in obj['content']
-                ]
-            else:
-                # Translate simple content
+                
+                multiline_content_string = obj.get('content')
+                if multiline_content_string is not None:
+                    
+                    translated_multiline_string = self.translator.process_text(str(multiline_content_string))
+                    
+                    new_obj['content'] = translated_multiline_string
+                else:
+                    
+                    new_obj['content'] = None
+            
+            else: 
                 content = obj.get('content')
                 if content is not None:
-                    new_obj['content'] = self.translator.translate_text(str(content))
-                    
-        elif obj_type in ['list', 'paragraph', 'markdown_header', 'quote']:
-            content = obj.get('content')
-            if content:
-                new_obj['content'] = self.translator.translate_text(str(content))
+                    new_obj['content'] = self.translator.process_text(str(content))
                 
+
+        elif obj_type in ['list', 'paragraph', 'markdown_header', 'quote']: 
+            content = obj.get('content')
+            if content: 
+                new_obj['content'] = self.translator.process_text(str(content))
+            
+
+        
+        
+
         return new_obj
+
 
     def translate_file(self, input_path: Union[str, Path], output_path: Union[str, Path]) -> None:
         try:

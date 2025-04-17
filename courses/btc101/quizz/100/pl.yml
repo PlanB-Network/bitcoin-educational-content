@@ -1,0 +1,12 @@
+question: Co oznacza brak frazy Mnemonic w Wallet?
+answer: Wskazuje to, że Wallet nie jest bezpieczny dla długoterminowego przechowywania Bitcoin.
+wrong_answers:
+  - Oznacza to, że Wallet jest w pełni bezpieczny i nie wymaga tworzenia kopii zapasowych.
+  - Oznacza to, że Wallet może przechowywać wiele różnych obligacji.
+  - Sugeruje to, że kopia zapasowa Wallet jest automatycznie tworzona przez urządzenie.
+explanation: |
+  Brak listy 12 lub 24 słów, czyli frazy Mnemonic, w Wallet powinien ostrzegać
+  Mnemonic, w Wallet powinien ostrzegać, że
+  Wallet nie jest bezpieczny, ponieważ nie jest zgodny ze standardowymi procedurami tworzenia kopii zapasowych
+  procedur.
+reviewed: true

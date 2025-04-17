@@ -21,17 +21,17 @@ Sie brauchen keine besonderen Vorkenntnisse, um loszulegen. Die folgenden Inhalt
 
 <partId>3cd2ac82-026c-53e1-874a-baf5842adc6d</partId>
 
-## Ein Sprung ins Ungewisse
+## Kursüberblick
 
 <chapterId>27e3fb60-4b50-556b-9e70-c4f5475c121d</chapterId>
 
-### Willkommen in einem neuen monetären und technologischen Paradigma.
+Willkommen im Kurs BTC101!
 
 Bitcoin ist eine technologische und monetäre Revolution, die unser Verhältnis zu Geld und Gesellschaft in Frage stellen kann. In der Tat ist Bitcoin (BTC) eine **neutrale** und **dezentrale** Währung, was bedeutet, dass sie von keiner Einrichtung oder Institution kontrolliert wird. Es handelt sich um eine Innovation, die über eine bloße "Internetwährung" hinausgeht: Sie ist sowohl ein Computerprotokoll (Bitcoin) als auch eine Geldeinheit (Bitcoin).
 
 Das Protokoll nutzt zugrundeliegende Technologien wie Kryptografie, Netzwerkkommunikation und die berühmte "Blockchain", während die Bitcoin-Einheit als notwendige Währung für das ordnungsgemäße Funktionieren des Protokolls dient. Im täglichen Leben verwenden Salvadorianer und Bitcoiner auf der ganzen Welt die Bitcoin-Währung, um Waren und Dienstleistungen zu kaufen und zu verkaufen, und verlassen sich auf diese Technologie, um ihr Leben zu verbessern.
 
-### Ein umfassender und dennoch zugänglicher Lehrplan
+**Ein umfassendes, aber zugängliches Studienprogramm:**
 
 In diesem Kurs werden wir einige monetäre Aspekte von Bitcoin besprechen, einschließlich der Frage, wie man Bitcoins kauft und verkauft, sie sicher in digitalen Brieftaschen aufbewahrt und sie für Transaktionen verwendet. Wir werden auch die Rolle der Miner untersuchen, die für die Schaffung neuer Bitcoins und die Sicherung des Bitcoin-Netzwerks unerlässlich sind. Schließlich werden wir die Zukunft von Bitcoin erforschen und wie die Lightning Network-Technologie Bitcoin-Transaktionen verbessern kann.
 
@@ -39,38 +39,39 @@ In diesem Kurs werden wir einige monetäre Aspekte von Bitcoin besprechen, einsc
 
 Es ist wichtig zu verstehen, dass Bitcoin ein neues Geldsystem ist, das unsere Beziehung zum Geld völlig verändert. Daher ist das Erlernen des Umgangs mit Bitcoin eine notwendige Fähigkeit für jeden, der die Kontrolle über sein eigenes Geld haben möchte.
 
-**Abschnitt 1 - Geld**
+**Abschnitt 1 - Einführung**  
+- Kapitel 1 - Kursüberblick  
+- Kapitel 2 - Die Vorgeschichte von Bitcoin  
 
-- Kapitel 1 - Was ist Geld?
-- Kapitel 2 - Fiatgeld
-- Kapitel 3 - Hyperinflation
-- Kapitel 4 - Bitcoin-Geldpolitik
+**Abschnitt 2 - Geld**  
+- Kapitel 3 - Geld im Laufe der Geschichte  
+- Kapitel 4 - Fiat-Währungen  
+- Kapitel 5 - Hyperinflation  
+- Kapitel 6 - 21 Millionen Bitcoins  
 
-**Abschnitt 2 - Bitcoin-Wallets**
+**Abschnitt 3 - Bitcoin-Wallets**  
+- Kapitel 7 - Was ist ein Bitcoin-Wallet?  
+- Kapitel 8 - Bitcoin-Wallets und Sicherheit  
+- Kapitel 9 - Einrichtung eines Wallets  
+- Kapitel 10 - Die Zeit überdauern  
 
-- Kapitel 5 - Wie funktionieren Bitcoin-Wallets?
-- Kapitel 6 - Die Wahl der Sicherheit
-- Kapitel 7 - Einrichten der Brieftasche
-- Kapitel 8 - Schutz vor der Zeit
+**Abschnitt 4 - Die technischen Aspekte von Bitcoin**  
+- Kapitel 11 - Start von Bitcoin  
+- Kapitel 12 - Bitcoin-Transaktionen  
+- Kapitel 13 - Bitcoin-Knoten  
+- Kapitel 14 - Miner  
+- Kapitel 15 - Bitcoin und Ökologie  
 
-**Abschnitt 3 - Technische Merkmale von Bitcoin**
+**Abschnitt 5 - Wie erhält man Bitcoins?**  
+- Kapitel 16 - Bitcoin schläft nie!  
+- Kapitel 17 - Bitcoins durch Arbeit verdienen  
+- Kapitel 18 - Sparen mit Bitcoin  
+- Kapitel 19 - Hyperbitcoinisierung  
 
-- Kapitel 9 - Was ist eine Transaktion?
-- Kapitel 10 - Bitcoin-Knoten
-- Kapitel 11 - Bergleute
-- Kapitel 12 - Bergleute und Ökologie
-
-**Abschnitt 4 - Sparen in Bitcoin**
-
-- Kapitel 13 - Bitcoin-Preis
-- Kapitel 14 - Wie kann man Bitcoin kaufen?
-- Kapitel 15 - Arbeiten für Bitcoin
-- Kapitel 16 - Hyper-Bitcoinisierung
-
-**Abschnitt 5 - Blitz-Netzwerk**
-
-- Kapitel 17 - Einführung in das Lightning-Netzwerk
-- Kapitel 18 - Anwendungsfälle für das Lightning Network
+**Abschnitt 6 - Die Zukunft von Bitcoin: das Lightning Network**  
+- Kapitel 20 - Eine kurze Einführung in das Lightning Network  
+- Kapitel 21 - Anwendungsfälle des Lightning Network  
+- Kapitel 22 - Rote Pille oder blaue Pille?  
 
 Bevor wir die Definition von Geld und seine Funktion in der Gesellschaft vorstellen (Kapitel 1), sollten wir mit der Entstehungsgeschichte von Bitcoin beginnen. Bitcoin wurde 2009 eingeführt und ist eine relativ neue Technologie, die sich von allen anderen unterscheidet. Es ist daher normal, dass man nicht alles auf einmal versteht. Genau wie beim Erlernen der Internetnutzung oder des Autofahrens müssen Sie nicht sofort alle technischen Details kennen: Sie können damit beginnen, zu lernen, wie man Geld empfängt, bezahlt und sichert, und sich dann in kleinen Schritten eingehender damit befassen.
 
@@ -79,6 +80,8 @@ Schließlich stehen wir erst am Anfang ihrer Einführung, da wir die Startphase 
 ![image](assets/en/02.webp)
 
 Das Wichtigste ist, diese neue Technologie allgemein zu verstehen. Wir wünschen Ihnen viel Spaß mit diesem Kurs und hoffen, dass Sie in diesem neuen globalen Währungsparadigma weitere Fortschritte machen.
+
+Bereit, in die faszinierende Welt von Bitcoin einzutauchen und all seine Mechanismen zu verstehen? Los geht's!
 
 ## Die Vorgeschichte von Bitcoin
 
@@ -516,7 +519,7 @@ Glücklicherweise kann der private Schlüssel seit 2017 durch eine einfache List
 
 ### Was ist mit Hackern?
 
-Was ist, wenn jemand versehentlich unsere Liste mit 12 oder 24 Wörtern errät? Die kurze Antwort lautet, dass dies dank der Kryptographie, die zur Erstellung der Brieftasche verwendet wird, höchst unwahrscheinlich ist. Um es ins rechte Licht zu rücken: Die zufällige Entdeckung des gleichen mnemonischen Satzes ist vergleichbar mit der Suche nach der "richtigen" Zahl zwischen 1 und $2^256$, was fast der Suche nach dem "richtigen" Atom im Universum entspricht. Wenn Sie jedoch mit dieser Standardsicherheit nicht zufrieden sind, können Sie sie jederzeit erhöhen, indem Sie eine Passphrase (ein zusätzliches Wort) zu Ihrer Bitcoin-Brieftasche hinzufügen.
+Was ist, wenn jemand versehentlich unsere Liste mit 12 oder 24 Wörtern errät? Die kurze Antwort lautet, dass dies dank der Kryptographie, die zur Erstellung der Brieftasche verwendet wird, höchst unwahrscheinlich ist. Um es ins rechte Licht zu rücken: Die zufällige Entdeckung des gleichen mnemonischen Satzes ist vergleichbar mit der Suche nach der "richtigen" Zahl zwischen 1 und 2 hoch 256, was fast der Suche nach dem "richtigen" Atom im Universum entspricht. Wenn Sie jedoch mit dieser Standardsicherheit nicht zufrieden sind, können Sie sie jederzeit erhöhen, indem Sie eine Passphrase (ein zusätzliches Wort) zu Ihrer Bitcoin-Brieftasche hinzufügen.
 
 ![image](assets/en/29.webp)
 
@@ -557,15 +560,18 @@ Im Folgenden werden wir verschiedene Sicherheitsstufen definieren:
 
 Sie können zum Beispiel Sparrow Wallet als Hot Wallet verwenden:
 
-https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - Stufe 2\*\*: Sie verwenden eine physische Geldbörse und haben Ihre Liste mit 12/24 Wörtern gesichert. Sie wird oft als "Cold Wallet" bezeichnet, weil Ihre Schlüssel auf einem Gerät gespeichert sind, das nicht mit dem Internet verbunden ist. In diesem Fall müssen Sie jede Transaktion immer mit Ihrem Gerät unterschreiben, was den täglichen Zugriff auf Ihr Geld erschwert.
 
 Sie könnten zum Beispiel ein Ledger, einen Satochip oder einen Tapsigner verwenden:
 
 https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
 https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+
 https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+
 ![image](assets/en/32.webp)
 
 - Stufe 3**: Sie verwenden eine Brieftasche der Stufe 1 oder 2, haben aber eine zusätzliche Passphrase hinzugefügt. In diesem Fall müssen Sie sowohl die Liste der 12/24 Wörter **als auch\*\* Ihre Passphrase sichern. Idealerweise werden diese beiden Informationen an zwei verschiedenen Orten gespeichert.
@@ -573,6 +579,7 @@ https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 Um mehr über die Verwendung und Funktionsweise des BIP39-Passphrases zu erfahren:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 ![image](assets/en/33.webp)
 
 - Stufe 4\*\*: Sie verwenden eine Reihe von Brieftaschen, um eine "Multisig"-Brieftasche zu erstellen, was bedeutet, dass mehrere Signaturen erforderlich sind, um eine Transaktion durchzuführen. In diesem Fall ist zu beachten, dass jeder Teil der Multisig an verschiedenen Orten gespeichert werden sollte. Dieser Ansatz wird oft als fortschrittliche Nutzung von Bitcoin angesehen, vor allem für die Verwaltung großer Beträge und für Unternehmenszwecke.
@@ -829,7 +836,7 @@ Es gibt mehrere Optionen, wenn Sie Ihren eigenen Knotenpunkt installieren möcht
 
 ![image](assets/en/53.webp)
 
-Eine zweite Möglichkeit ist die Verwendung einer speziellen Hardware für diesen Zweck, z. B. eines Raspberry Pi 4 mit einer ausreichend großen SSD (ca. 1 TB). Diese andere Option ist zwar teurer, wenn Sie die Hardware kaufen müssen, aber der Stromverbrauch liegt bei etwas weniger als 10,00 € pro Jahr.
+Eine zweite Möglichkeit ist die Verwendung einer speziellen Hardware für diesen Zweck, z. B. eines Raspberry Pi 4 mit einer ausreichend großen SSD (ca. 2 TB). Diese andere Option ist zwar teurer, wenn Sie die Hardware kaufen müssen, aber der Stromverbrauch liegt bei etwas weniger als 10,00 € pro Jahr.
 
 Aus Sicht der Bandbreite entspricht ein Block von 1 MB alle 10 Minuten ungefähr 5 GB pro Monat.
 
@@ -1044,6 +1051,8 @@ Heute überlebt der Bitcoin und wächst weiter, indem er mehr und mehr in den tr
 
 ![image](assets/en/71.webp)
 
+
+
 ## Bitcoins durch Arbeit erhalten
 
 <chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>
@@ -1074,13 +1083,17 @@ Wir werden dieses Thema in einem anderen Kurs ausführlich behandeln, aber um es
 
 - Einfache Online-Lösung: OpenNode
 
-https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - Lösung für Hobby-Händler: Swiss Bitcoin Pay
 
-https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Lösung für große Strukturen oder passionierte Bitcoiner: BTCpay Server
+
+Um dieses Thema weiter zu vertiefen, empfehlen wir Ihnen unseren Kurs BIZ101! Erfahren Sie, wie Sie Bitcoin effektiv in Ihre Unternehmensfinanzen integrieren, Bitcoin als Zahlungsmittel je nach Profil Ihrer Organisation akzeptieren und die damit verbundenen steuerlichen und buchhalterischen Anforderungen verstehen:
+
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## Sparen mit Bitcoin
 
@@ -1122,6 +1135,8 @@ Eine schrittweise Strategie beinhaltet wiederkehrende Käufe, d. h. den Kauf kle
 ![image](assets/en/74.webp)
 
 **Vorsicht vor UTXOs**: Denken Sie daran, Ihre UTXOs von Zeit zu Zeit in Ihren Geldbörsen zu konsolidieren. Diese Praxis ist wichtig, um Ihre Bitcoins effektiv zu verwalten und unnötige Gebühren bei Transaktionen zu vermeiden.
+
+Ein [UTXO](https://planb.network/resources/glossary/utxo#:~:text=UTXO) (Unspent Transaction Output) ist ein Ausgang einer Transaktion, der noch nicht ausgegeben wurde, was bedeutet, dass er nicht als Eingabe für eine neue Transaktion verwendet wurde. Die Konsolidierung von UTXOs bedeutet, mehrere kleine UTXOs zu einem größeren zusammenzufassen, um das "Gewicht" der Transaktion zu verringern und somit niedrigere Gebühren zu zahlen.
 
 - Spontankauf
 
@@ -1348,7 +1363,7 @@ Satoshi schuf Bitcoin im Jahr 2008, um eine Änderung des Finanzsystems durch di
 
 Sind Sie bereit, mitzumachen?
 
-# Schlussfolgerung
+# Abschließender Abschnitt
 
 <partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 

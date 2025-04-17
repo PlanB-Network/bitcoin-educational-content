@@ -1,0 +1,8 @@
+question: Ni kazi gani kuu ya maelezo ya hati ya pato?
+answer: Ili kuelezea kikamilifu hati ya pato na kutoa maelezo yanayohitajika kurejesha Wallet
+wrong_answers:
+  - Anwani nyingi za generate kiotomatiki
+  - Badilisha maneno ya Mnemonic katika chelezo za Wallet
+  - Rahisisha hesabu za sahihi za dijiti
+explanation: |
+  Vifafanuzi hujumuisha maelezo yote muhimu ili kufuatilia hati fulani, ikiwa ni pamoja na njia ya utokaji na funguo zilizotumiwa, lakini si maneno ya kurejesha.

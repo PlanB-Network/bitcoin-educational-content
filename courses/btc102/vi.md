@@ -23,7 +23,7 @@ Những thay đổi về mặt công nghệ và tài chính trong thế giới B
 
 <partId>008c49b7-5e17-5973-87f2-ba28429b2697</partId>
 
-## Giới thiệu về khóa học BTC102
+## Tổng quan về khóa học
 
 <chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 
@@ -605,15 +605,21 @@ Nếu chúng ta quên rằng mình đã có bitcoin trong 3 năm, không vấn �
 Hướng dẫn Ví Liên Quan:
 
 https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+
 https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+
 https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
-https://planb.network/tutorials/wallet/hardware/trezor-441fa7a1-4aac-4b6a-984f-3dd428ba0c84
+
+https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
 Lựa Chọn Giao Dịch:
 
 https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
+
 https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+
 https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
+
 Nếu người giữ muốn tiến xa hơn: thực hiện một kế hoạch DCA giống như người tích lũy và sử dụng một ví Lightning Network nóng để chi tiêu bitcoin.
 
 ### Liệu đó có phải là chiến lược dành cho bạn?
@@ -660,20 +666,27 @@ Các giải pháp khác có thể bao gồm bắt đầu bán hàng hóa hoặc 
 Một ví nóng cho việc tích lũy nhanh chóng
 
 https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+
 https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 Một ví lạnh cho sự an toàn dài hạn
 
 https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+
 https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+
 https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
-https://planb.network/tutorials/wallet/hardware/trezor-441fa7a1-4aac-4b6a-984f-3dd428ba0c84
+
+https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
 Một nền tảng DCA để tích lũy bitcoin.
 
 https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+
 https://planb.network/tutorials/exchange/centralized/bull-bitcoin-60a58596-e54c-41ba-855d-f9edb76cfb0e
+
 Những người theo chiến lược này cũng có thể, tất nhiên, sử dụng một môi giới để mua số lượng lớn trong một lần như một hodler, nhưng nói chung, stacking là khái niệm về việc thường xuyên thêm sats vào ví của họ. Một cách tiếp cận phổ biến hơn sẽ là học cách sử dụng Bitcoin theo cách ngang hàng và do đó mua bitcoin trực tiếp bằng tiền mặt với bạn bè hoặc các thành viên của cộng đồng Bitcoin.
 
 ### Điều này có phải là dành cho bạn?
@@ -721,19 +734,25 @@ Người dùng loại này có lẽ sẽ chọn một ví dựa trên Lightning 
 Ví Nóng Lightning Network
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-c4792842-b046-44f9-a6f1-351191b7cc2b
+
+https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+
 https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
 Ví Lạnh
 
 https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+
 https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+
 https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
-https://planb.network/tutorials/wallet/hardware/trezor-441fa7a1-4aac-4b6a-984f-3dd428ba0c84
+
+https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
 Nền Tảng Mua
 
 https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+
 https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
 ### Bạn có phải là người dùng loại này?
@@ -773,12 +792,16 @@ https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-2
 
 Ví lạnh:
 https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
+
 https://planb.network/tutorials/wallet/hardware/seed-signer-ee2c284a-0e23-49a4-b0ca-4a4702072973
 
 Mua bán không KYC giữa các cá nhân:
-https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028
+https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+
 https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+
 https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+
 https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
 ### Bạn có phù hợp để trở thành một Bitcoiner "hoài nghi"?
@@ -799,6 +822,9 @@ https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f
   Trong khi đánh giá cao sự ẩn danh và an toàn, Bitcoiner "hoài nghi" vẫn thực dụng trong các lựa chọn của mình, sử dụng các giải pháp đã được kiểm chứng và đáng tin cậy để bảo vệ bitcoin của mình trong quá trình khám phá hệ sinh thái tiền mã hóa.
   Trong tâm trí của Bitcoiner "hoài nghi", sự cẩn trọng, bảo mật và ẩn danh là tối quan trọng. Những ưu tiên này định hình một cách tiếp cận cẩn thận và được suy nghĩ kỹ lưỡng khi sử dụng Bitcoin, thúc đẩy sự tự lực và cẩn trọng. Bitcoiner "hoài nghi" sẵn lòng đầu tư thời gian và công sức để đảm bảo an toàn và riêng tư cho bitcoin của họ, đồng thời khéo léo khám phá, sử dụng hệ sinh thái để không làm lộ thông tin. Mặc dù sẽ có một số người "cẩn thận quá mức", Bitcoiner "hoài nghi" cho rằng sự chăm chỉ và chú ý tới các chi tiết là điều cốt lõi dẫn tới sự thành công và an toàn của họ trong thế giới Bitcoin.
 
+# Bảo vệ người thừa kế và tài sản của bạn
+
+<partId>0b8a9528-719b-4a2d-bd50-1e173a896570</partId>
 
 ## Tạo kế hoạch thừa kế
 
@@ -994,7 +1020,7 @@ Tôi thực sự tự hào vì bạn đã đạt đến giai đoạn này. Bạn
 
 Dù trường hợp nào, tất cả các khóa học của chúng tôi đều miễn phí, và nhiều tài nguyên hoặc hướng dẫn có sẵn trên nền tảng của chúng tôi để đi cùng bạn. Chúc bạn may mắn với việc học!
 
-# Kết luận
+# Phần cuối
 
 <partId>a8425389-4a53-4b57-b9b4-36c1cab12de5</partId>
 
@@ -1012,3 +1038,4 @@ Dù trường hợp nào, tất cả các khóa học của chúng tôi đều m
 
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
 <isCourseConclusion>true</isCourseConclusion>
+

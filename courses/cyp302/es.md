@@ -22,14 +22,15 @@ Esta introducción a la criptografía pretende situarse en un término medio. Au
 
 <partId>bbed2f46-d64c-5fb5-b892-d726032f2494</partId>
 
-## Descripción breve
+## Descripción del curso
 
 <chapterId>bb8a8b73-7fb2-50da-bf4e-98996d79887b</chapterId>
+¡Bienvenido al curso CYP302!
 
 Este libro ofrece una introducción en profundidad a la ciencia y la práctica de la criptografía. En la medida de lo posible, se centra en la exposición conceptual, más que formal, del material.
 
 > Este curso se basa en [JWBurgers's repo](https://github.com/JWBurgers/An_Introduction_to_Cryptography). Todo el derecho a él. El contenido aún no está terminado y sólo está aquí para mostrar cómo podríamos integrarlo si JWburger's está de acuerdo.
-### Motivación y objetivos
+**Motivación y objetivos**
 
 Es difícil encontrar muchos materiales que ofrezcan un buen término medio en la enseñanza de la criptografía.
 
@@ -37,11 +38,11 @@ Por un lado, hay tratados largos y formales, sólo accesibles para quienes tenga
 
 Esta introducción a la criptografía pretende situarse en un término medio. Aunque debería ser relativamente desafiante y detallada para cualquier persona nueva en criptografía, no es la madriguera de conejo de un típico tratado fundacional.
 
-### Destinatarios
+**Destinatarios**
 
 Desde desarrolladores hasta curiosos intelectuales, este libro es útil para cualquiera que desee algo más que una comprensión superficial de la criptografía. Si su objetivo es dominar el campo de la criptografía, este libro es también un buen punto de partida.
 
-### Pautas de lectura
+**Pautas de lectura**
 
 Actualmente, el libro contiene siete capítulos: "¿Qué es la criptografía?" (capítulo 1), "Fundamentos matemáticos de la criptografía I" (capítulo 2), "Fundamentos matemáticos de la criptografía II" (capítulo 3), "Criptografía simétrica" (capítulo 4), "RC4 y AES" (capítulo 5), "Criptografía asimétrica" (capítulo 6) y "El criptosistema RSA" (capítulo 7). Todavía se añadirá un último capítulo, "La criptografía en la práctica". Se centra en varias aplicaciones criptográficas, como la seguridad de la capa de transporte, el enrutamiento cebolla y el sistema de intercambio de valores de Bitcoin.
 
@@ -49,7 +50,7 @@ A menos que tengas una sólida formación en matemáticas, la teoría de número
 
 Si realmente tiene dificultades con los detalles formales de estas partes del libro, le recomiendo que se conforme con una lectura de alto nivel de las mismas la primera vez.
 
-### Agradecimientos
+**Agradecimientos**
 
 El libro que más ha influido en la configuración de esta ha sido _Introduction to Modern Cryptography_, de Jonathan Katz y Yehuda Lindell, CRC Press (Boca Ratón, FL), 2015. Hay un curso complementario disponible en Coursera llamado "Cryptography"
 
@@ -59,11 +60,11 @@ Sólo citaré información y resultados muy concretos que extraigo de estas fuen
 
 Para aquellos lectores que deseen buscar conocimientos más avanzados sobre criptografía después de esta introducción, recomiendo encarecidamente el libro de Katz y Lindell. El curso de Katz en Coursera es algo más accesible que el libro.
 
-### Contribuciones
+**Contribuciones**
 
 Por favor, eche un vistazo a [el archivo de contribuciones en el repositorio](https://github.com/JWBurgers/An_Introduction_to_Cryptography/blob/master/Contributions.md) para ver algunas directrices sobre cómo apoyar el proyecto.
 
-### Notación
+**Notación**
 
 **Términos clave:**
 
@@ -85,6 +86,8 @@ La notación formal se refiere principalmente a variables, variables aleatorias 
 - Variables: Normalmente se indican con una letra minúscula (por ejemplo, "x" o "y"). A veces se escriben en mayúsculas para mayor claridad (por ejemplo, "M" o "K").
 - Variables aleatorias: Se indican siempre con una letra mayúscula (por ejemplo, "X" o "Y")
 - Conjuntos: Se indican siempre con letras mayúsculas y en negrita (por ejemplo, **S**)
+
+¿Listo para explorar el fascinante universo de la criptografía? ¡Vamos allá!
 
 # ¿Qué es la criptografía?
 
@@ -110,7 +113,7 @@ Morris intentó descifrar los tres textos cifrados durante veinte años. Esto ha
 
 Al final de su vida, Morriss cedió la caja a un amigo en 1862. Este amigo publicó posteriormente un panfleto en 1885, bajo el seudónimo de J.B. Ward. Incluía una descripción de la (supuesta) historia de la caja, los tres textos cifrados y una solución que había encontrado para el segundo texto cifrado. (Aparentemente, hay una clave para cada texto cifrado, y no una clave que funcione con los tres textos cifrados, como Beale parece haber sugerido originalmente en su carta a Morriss)
 
-Puedes ver el segundo texto cifrado en la *Figura 2* de abajo. [La clave de este texto cifrado es la Declaración de Independencia de los Estados Unidos. El procedimiento de descifrado se reduce a la aplicación de las dos reglas siguientes:
+Puedes ver el segundo texto cifrado en la *Figura 2* de abajo. La clave de este texto cifrado es la Declaración de Independencia de los Estados Unidos. El procedimiento de descifrado se reduce a la aplicación de las dos reglas siguientes:
 
 
 - Para cualquier número n en el texto cifrado, localice la enésima palabra en la Declaración de Independencia de los Estados Unidos
@@ -136,7 +139,7 @@ Una vez descifrado, el segundo mensaje proporciona el contenido detallado del te
 
 Historias pintorescas como la de los cifradores Beale son las que la mayoría de nosotros asociamos con la criptografía. Sin embargo, la criptografía moderna difiere al menos en cuatro aspectos importantes de este tipo de ejemplos históricos.
 
-En primer lugar, históricamente la criptografía sólo se ha ocupado del **secreto** (o confidencialidad). [Los textos cifrados se creaban para garantizar que sólo determinadas partes pudieran conocer la información de los textos sin cifrar, como en el caso de los cifrados Beale. Para que un sistema de cifrado cumpla bien este propósito, sólo se puede descifrar el texto cifrado si se tiene la clave.
+En primer lugar, históricamente la criptografía sólo se ha ocupado del **secreto** (o confidencialidad). Los textos cifrados se creaban para garantizar que sólo determinadas partes pudieran conocer la información de los textos sin cifrar, como en el caso de los cifrados Beale. Para que un sistema de cifrado cumpla bien este propósito, sólo se puede descifrar el texto cifrado si se tiene la clave.
 
 La criptografía moderna se ocupa de una gama de temas más amplia que el secreto. Estos temas incluyen principalmente (1) **la integridad del mensaje**, es decir, garantizar que un mensaje no ha sido modificado; (2) **la autenticidad del mensaje**, es decir, garantizar que un mensaje procede realmente de un remitente concreto; y (3) **el no repudio**, es decir, garantizar que un remitente no puede negar falsamente más tarde que ha enviado un mensaje. [4]
 
@@ -164,7 +167,7 @@ En concreto, la criptografía moderna se centra en **pruebas formales de segurid
 
 En cuarto lugar, mientras que históricamente la criptografía se utilizaba sobre todo en entornos militares, en la era digital ha llegado a impregnar nuestras actividades cotidianas. La criptografía es la condición sine qua non de nuestra era digital, ya sea para realizar operaciones bancarias en línea, publicar en las redes sociales, comprar un producto en Amazon con tarjeta de crédito o dar una propina en bitcoin a un amigo.
 
-Teniendo en cuenta estos cuatro aspectos de la criptografía moderna, podríamos caracterizar la **criptografía** moderna como la ciencia que se ocupa del desarrollo formal y el análisis de esquemas criptográficos para asegurar la información digital contra ataques adversarios[6]. [La seguridad debe entenderse en sentido amplio como la prevención de ataques que dañan el secreto, la integridad, la autenticación y/o el no repudio en las comunicaciones.
+Teniendo en cuenta estos cuatro aspectos de la criptografía moderna, podríamos caracterizar la **criptografía** moderna como la ciencia que se ocupa del desarrollo formal y el análisis de esquemas criptográficos para asegurar la información digital contra ataques adversarios[6]. La seguridad debe entenderse en sentido amplio como la prevención de ataques que dañan el secreto, la integridad, la autenticación y/o el no repudio en las comunicaciones.
 
 La criptografía se considera una subdisciplina de la **ciberseguridad**, que se ocupa de prevenir el robo, el daño y el uso indebido de los sistemas informáticos. Hay que tener en cuenta que muchos problemas de ciberseguridad están poco o nada relacionados con la criptografía.
 
@@ -174,7 +177,7 @@ Por ejemplo, los ataques de suplantación de identidad (phishing)** son un probl
 
 **Notas:**
 
-[Para ser exactos, las aplicaciones importantes de los esquemas criptográficos han estado relacionadas con el secreto. Los niños, por ejemplo, suelen utilizar esquemas criptográficos sencillos para "divertirse". El secreto no es realmente una preocupación en esos casos.
+Para ser exactos, las aplicaciones importantes de los esquemas criptográficos han estado relacionadas con el secreto. Los niños, por ejemplo, suelen utilizar esquemas criptográficos sencillos para "divertirse". El secreto no es realmente una preocupación en esos casos.
 
 [4] Bruce Schneier, *Applied Cryptography*, 2ª edn, 2015 (Indianápolis, IN: John Wiley & Sons), p. 2.
 
@@ -291,7 +294,7 @@ En la expresión "variable aleatoria", el término "aleatorio" sólo significa "
 
 Una **variable uniforme** es un caso especial de variable aleatoria. Puede tomar dos o más valores, todos con la misma probabilidad. La variable aleatoria $X$ representada en la *Figura 1* es claramente una variable uniforme, ya que ambos resultados posibles se producen con una probabilidad de $0,5$. Sin embargo, hay muchas variables aleatorias que no son casos de variables uniformes.
 
-Consideremos, por ejemplo, la variable aleatoria $Y$. Tiene un conjunto de resultados ${1, 2, 3, 8, 10\}$ y la siguiente distribución de probabilidad:
+Consideremos, por ejemplo, la variable aleatoria $Y$. Tiene un conjunto de resultados ${1, 2, 3, 8, 10}$ y la siguiente distribución de probabilidad:
 
 $$
 \Pr[Y = 1] = 0.25
@@ -321,7 +324,7 @@ En la *Figura 2* se ofrece una representación gráfica de $Y$.
 
 ![Figure 2: Random variable Y.](assets/Figure2-2.webp "Figure 2: Random variable Y")
 
-Como último ejemplo, consideremos la variable aleatoria Z. Tiene el conjunto de resultados {1,3,7,11,12} y la siguiente distribución de probabilidad:
+Como último ejemplo, consideremos la variable aleatoria Z. Tiene el conjunto de resultados ${1,3,7,11,12}$ y la siguiente distribución de probabilidad:
 
 $$
 \Pr[Z = 2] = 0.2
@@ -446,7 +449,7 @@ Por ejemplo, supongamos que el dividendo es $-20$ y el divisor 3. El valor más 
 
 En cuanto a la notación, normalmente verás los siguientes tipos de expresiones: $x = [y \mod z]$. Debido a los paréntesis, la operación módulo en este caso sólo se aplica al lado derecho de la expresión. Si $y$ es igual a 25 y $z$ es igual a 4, por ejemplo, entonces $x$ se evalúa como 1.
 
-Sin paréntesis, la operación módulo actúa sobre *ambos lados* de una expresión. Supongamos, por ejemplo, la siguiente expresión: $x = y \mod z$. Si $y$ es igual a 25 y $z$ es igual a 4, entonces todo lo que sabemos es que $x \mod 4$ se evalúa a 1. Esto es consistente con cualquier valor de $x$ del conjunto ${{ldots,-7, -3, 1, 5, 9,\ldots\}$.
+Sin paréntesis, la operación módulo actúa sobre *ambos lados* de una expresión. Supongamos, por ejemplo, la siguiente expresión: $x = y \mod z$. Si $y$ es igual a 25 y $z$ es igual a 4, entonces todo lo que sabemos es que $x \mod 4$ se evalúa a 1. Esto es consistente con cualquier valor de $x$ del conjunto $\{\dots, -7, -3, 1, 5, 9, \dots\}$.
 
 La rama de las matemáticas que incluye operaciones modulares con números y expresiones se denomina **aritmética modular**. Se puede considerar esta rama como aritmética para casos en los que la recta numérica no es infinitamente larga. Aunque normalmente nos encontramos con operaciones modulares para números enteros (positivos) dentro de la criptografía, también se pueden realizar operaciones modulares utilizando cualquier número real.
 
@@ -454,11 +457,11 @@ La rama de las matemáticas que incluye operaciones modulares con números y exp
 
 La operación módulo es frecuente en criptografía. Para ilustrarlo, consideremos uno de los esquemas de cifrado históricos más famosos: el cifrado por turnos.
 
-Definámoslo primero. Supongamos un diccionario *D* que equipara todas las letras del alfabeto inglés, en orden, con el conjunto de números ${0, 1, 2, \ldots, 25\}$. Supongamos un espacio de mensajes **M**. El **cifrado por desplazamiento** es, entonces, un esquema de cifrado definido como sigue:
+Definámoslo primero. Supongamos un diccionario *D* que equipara todas las letras del alfabeto inglés, en orden, con el conjunto de números ${0, 1, 2, \ldots, 25}$. Supongamos un espacio de mensajes **M**. El **cifrado por desplazamiento** es, entonces, un esquema de cifrado definido como sigue:
 
 
 - Seleccionar uniformemente una clave $k$ del espacio de claves **K**, donde **K** = $\{0, 1, 2, \ldots, 25\}$ [1]
-- Cifrar un mensaje $m \en \mathbf{M}$, de la siguiente manera:
+- Cifrar un mensaje $m \in \mathbf{M}$, de la siguiente manera:
     - Separar $m$ en sus letras individuales $m_0, m_1, \ldots, m_i, \ldots, m_l$
     - Convertir cada $m_i$ en un número según *D*
     - Para cada $m_i$, $c_i = [(m_i + k) \mod 26]$
@@ -542,7 +545,7 @@ En nuestra discusión sobre variables aleatorias y uniformes, establecimos una d
 
 Para empezar, podemos llamar a una cadena binaria de longitud $n$ **aleatoria** (o **uniforme**), si fuera el resultado del muestreo de una variable uniforme $S$ que da a cada cadena binaria de dicha longitud $n$ una probabilidad igual de selección.
 
-Supongamos, por ejemplo, el conjunto de todas las cadenas binarias de longitud 8: ${0000\ 0000, 0000\ 0001, \ldots, 1111\ 1111\}$. (Es típico escribir una cadena de 8 bits en dos cuartetos, cada uno llamado **nibble**) Llamemos a este conjunto de cadenas **$S_8$**.
+Supongamos, por ejemplo, el conjunto de todas las cadenas binarias de longitud 8: ${0000\ 0000, 0000\ 0001, \ldots, 1111\ 1111}$. (Es típico escribir una cadena de 8 bits en dos cuartetos, cada uno llamado **nibble**) Llamemos a este conjunto de cadenas **$S_8$**.
 
 Según la definición anterior, podemos llamar aleatoria (o uniforme) a una cadena binaria concreta de longitud 8, si es el resultado del muestreo de una variable uniforme $S$ que da a cada cadena de **$S_8$** la misma probabilidad de selección. Dado que el conjunto **$S_8$** incluye $2^8$ elementos, la probabilidad de selección en el muestreo tendría que ser $1/2^8$ para cada cadena del conjunto.
 
@@ -685,7 +688,7 @@ Dentro de la criptografía de clave pública, cierta clase de grupos abelianos f
 
 Supongamos un grupo $G$ con una operación de grupo $\circ$, y que $a$ es un elemento de $G$. La expresión $a^n$ debe, entonces, interpretarse como el elemento $a$ combinado consigo mismo un total de $n - 1$ veces. Por ejemplo, $a^2$ significa $a \circ a$, $a^3$ significa $a \circ a \circ a$, y así sucesivamente. (Nótese que la exponenciación aquí no es necesariamente exponenciación en el sentido aritmético estándar)
 
-Veamos un ejemplo. Supongamos que $G = \lángulo \mathbb{Z} \mod 7, + \rangle$, y que nuestro valor para $a$ es igual a 4. En este caso, $a^2 = [4 + 4 \mod 7] = [8 \mod 7] = 1 \mod 7$. Alternativamente, $a^4$ representaría $[4 + 4 + 4 + 4 \mod 7] = [16 \mod 7] = 2 \mod 7$.
+Veamos un ejemplo. Supongamos que $G = \langle \mathbb{Z} \mod 7, + \rangle$, y que nuestro valor para $a$ es igual a 4. En este caso, $a^2 = [4 + 4 \mod 7] = [8 \mod 7] = 1 \mod 7$. Alternativamente, $a^4$ representaría $[4 + 4 + 4 + 4 \mod 7] = [16 \mod 7] = 2 \mod 7$.
 
 Algunos grupos abelianos tienen uno o más elementos que pueden dar lugar a todos los demás elementos del grupo mediante exponenciación continua. Estos elementos se denominan **generadores** o **elementos primitivos**.
 
@@ -780,7 +783,7 @@ Un campo se deriva de la noción de grupo. En concreto, un **campo** es un conju
 
 Obsérvese que, como en el caso de los grupos, la definición de campo es muy abstracta. No hace ninguna afirmación sobre los tipos de elementos de **S**, ni sobre las operaciones $\c$ y $\diamond$. Sólo afirma que un campo es cualquier conjunto de elementos con dos operaciones para las que se cumplen las tres condiciones anteriores. (El elemento "cero" en el segundo grupo abeliano puede interpretarse de forma abstracta)
 
-Entonces, ¿cuál podría ser un ejemplo de un campo? Un buen ejemplo es el conjunto $\mathbb{Z} \mod 7$, o ${0, 1, \ldots, 7\}$ definido sobre la suma estándar (en lugar de $\circ$ más arriba) y la multiplicación estándar (en lugar de $\diamond$ más arriba).
+Entonces, ¿cuál podría ser un ejemplo de un campo? Un buen ejemplo es el conjunto $\mathbb{Z} \mod 7$, o ${0, 1, \ldots, 7}$ definido sobre la suma estándar (en lugar de $\circ$ más arriba) y la multiplicación estándar (en lugar de $\diamond$ más arriba).
 
 En primer lugar, $\mathbb{Z} \mod 7$ cumple la condición de ser un grupo abeliano sobre la suma, y cumple la condición de ser un grupo abeliano sobre la multiplicación si sólo se consideran los elementos distintos de cero. En segundo lugar, la combinación del conjunto con los dos operadores cumple la condición distributiva.
 
@@ -824,7 +827,7 @@ En criptografía, nos interesan principalmente los campos finitos. En general, s
 
 Si un campo finito tiene un número primo de elementos, se denomina **campo primo**. Si el número de elementos del campo finito es una potencia prima, el campo se denomina **campo de extensión**. En criptografía, nos interesan tanto los campos primos como los campos de extensión. [2]
 
-Los principales campos primos de interés en criptografía son aquellos en los que el conjunto de todos los números enteros está modulado por algún número primo, y los operadores son la suma y la multiplicación estándar. Esta clase de campos finitos incluiría $\mathbb{Z} \mod 2$, $\mathbb{Z} \módulo 3$, $\mathbb{Z} \módulo 5$, $\mathbb{Z} \Mod 7$, $\mathbb{Z} \módulo 11$, $\mathbb{Z} \mod 13$, y así sucesivamente. Para cualquier campo primo $\mathbb{Z} \mod p$, el conjunto de enteros del campo es el siguiente: ${0, 1, \ldots, p - 2, p - 1\}$.
+Los principales campos primos de interés en criptografía son aquellos en los que el conjunto de todos los números enteros está modulado por algún número primo, y los operadores son la suma y la multiplicación estándar. Esta clase de campos finitos incluiría $\mathbb{Z} \mod 2$, $\mathbb{Z} \mod 3$, $\mathbb{Z} \mod 5$, $\mathbb{Z} \mod 7$, $\mathbb{Z} \mod 11$, $\mathbb{Z} \mod 13$, y así sucesivamente. Para cualquier campo primo $\mathbb{Z} \mod p$, el conjunto de enteros del campo es el siguiente: $\{0, 1, \dots, p - 2, p - 1\}$.
 
 En criptografía, también nos interesan los campos de extensión, en particular cualquier campo con $2^m$ elementos donde $m > 1$. Estos campos finitos se utilizan, por ejemplo, en el cifrado Rijndael, que constituye la base del estándar de cifrado avanzado. Mientras que los campos primos son relativamente intuitivos, estos campos de extensión de base 2 probablemente no sean para nadie que no esté familiarizado con el álgebra abstracta.
 
@@ -925,7 +928,7 @@ Pero si eres una persona con inclinaciones prácticas, puede que en este punto t
 
 Sin entrar en demasiados detalles, la respuesta es "sí". Los grupos fueron creados por primera vez en el siglo XIX por el matemático francés Evariste Galois. Los utilizó para sacar conclusiones sobre la resolución de ecuaciones polinómicas de grado superior a cinco.
 
-Desde entonces, el concepto de grupo ha contribuido a arrojar luz sobre numerosos problemas matemáticos y de otros ámbitos. Basándose en ellos, por ejemplo, el físico Murray-Gellman pudo predecir la existencia de una partícula antes de que se observara realmente en experimentos[3]. [Otro ejemplo: los químicos utilizan la teoría de grupos para clasificar las formas de las moléculas. Los matemáticos incluso han utilizado el concepto de grupo para sacar conclusiones sobre algo tan concreto como el papel pintado
+Desde entonces, el concepto de grupo ha contribuido a arrojar luz sobre numerosos problemas matemáticos y de otros ámbitos. Basándose en ellos, por ejemplo, el físico Murray-Gellman pudo predecir la existencia de una partícula antes de que se observara realmente en experimentos[3]. Otro ejemplo: los químicos utilizan la teoría de grupos para clasificar las formas de las moléculas. Los matemáticos incluso han utilizado el concepto de grupo para sacar conclusiones sobre algo tan concreto como el papel pintado
 
 Esencialmente, demostrar que un conjunto de elementos con algún operador es un grupo, significa que lo que estás describiendo tiene una simetría particular. No una simetría en el sentido común de la palabra, sino en una forma más abstracta. Y esto puede aportar información sustancial sobre sistemas y problemas concretos. Las nociones más complejas del álgebra abstracta sólo nos dan información adicional.
 
@@ -1019,10 +1022,10 @@ Bob cifra el mensaje $M$ en el tiempo $T_0$ con la clave $K$ para producir el te
 
 En el capítulo 2 vimos el cifrado por turnos, que es un ejemplo de esquema de cifrado simétrico muy sencillo. Veámoslo de nuevo aquí.
 
-Supongamos un diccionario *D* que equipara todas las letras del alfabeto inglés, en orden, con el conjunto de números ${0,1,2,\dots,25\}$. Supongamos un conjunto de mensajes posibles **M**. El cifrado por turnos es, entonces, un esquema de cifrado definido como sigue:
+Supongamos un diccionario *D* que equipara todas las letras del alfabeto inglés, en orden, con el conjunto de números ${0,1,2,\dots,25}$. Supongamos un conjunto de mensajes posibles **M**. El cifrado por turnos es, entonces, un esquema de cifrado definido como sigue:
 
 
-- Seleccionar aleatoriamente una clave $k$ del conjunto de posibles claves **K**, donde **K** = ${0,1,2,\dots,25\}$
+- Seleccionar aleatoriamente una clave $k$ del conjunto de posibles claves **K**, donde **K** = ${0,1,2,\dots,25}$
 - Cifrar un mensaje $m \in$ **M**, de la siguiente manera:
     - Separar $m$ en sus letras individuales $m_0, m_1,\dots, m_i, \dots, m_l$
     - Convertir cada $m_i$ en un número según *D*
@@ -1057,9 +1060,9 @@ El cifrado por turnos es un esquema de cifrado simétrico muy inseguro, al menos
 
 Para que un sistema de cifrado cumpla una noción mínima de seguridad, debe tener un conjunto de claves posibles, o **espacio de claves**, tan amplio que los ataques de fuerza bruta sean inviables. Todos los sistemas de cifrado modernos cumplen esta norma. Es lo que se conoce como el **principio del espacio de claves suficiente**. Un principio similar se aplica normalmente en diferentes tipos de esquemas criptográficos.
 
-Para hacernos una idea del enorme tamaño del espacio de claves de los sistemas de cifrado modernos, supongamos que un archivo se ha cifrado con una clave de 128 bits utilizando el estándar de cifrado avanzado. Esto significa que un atacante dispone de un conjunto de claves de $2^{128}$ que necesita recorrer para realizar un ataque de fuerza bruta. Una probabilidad de éxito del 0,78% con esta estrategia requeriría que el atacante recorriera aproximadamente 2,65 veces 10^{36}$ claves.
+Para hacernos una idea del enorme tamaño del espacio de claves de los sistemas de cifrado modernos, supongamos que un archivo se ha cifrado con una clave de 128 bits utilizando el estándar de cifrado avanzado. Esto significa que un atacante dispone de un conjunto de claves de $2^{128}$ que necesita recorrer para realizar un ataque de fuerza bruta. Una probabilidad de éxito del 0,78% con esta estrategia requeriría que el atacante recorriera aproximadamente $2,65 \times 10^{36}$ claves.
 
-Supongamos que un atacante puede probar 10^16}$ claves por segundo (es decir, 10 cuatrillones de claves por segundo). Para probar el 0,78% de todas las claves del espacio de claves, su ataque tendría que durar 2,65 veces 10^{20}$ segundos. Esto equivale a unos 8,4 billones de años. Así que ni siquiera un ataque de fuerza bruta por parte de un adversario absurdamente poderoso es realista con un esquema de cifrado moderno de 128 bits. Este es el principio de espacio de claves suficiente en juego.
+Supongamos que un atacante puede probar $10^{16}$ claves por segundo (es decir, 10 cuatrillones de claves por segundo). Para probar el 0,78% de todas las claves del espacio de claves, su ataque tendría que durar $2,65 \times 10^{20}$ segundos. Esto equivale a unos 8,4 billones de años. Así que ni siquiera un ataque de fuerza bruta por parte de un adversario absurdamente poderoso es realista con un esquema de cifrado moderno de 128 bits. Este es el principio de espacio de claves suficiente en juego.
 
 ¿Es el cifrado por turnos más seguro si el atacante no conoce el algoritmo de cifrado? Tal vez, pero no mucho.
 
@@ -1069,7 +1072,7 @@ La idea de que la seguridad de un esquema de cifrado simétrico sólo puede basa
 
 Tal como lo concibió Kerckhoffs, este principio sólo se aplica a los sistemas de cifrado simétricos. Sin embargo, una versión más general del principio se aplica también a todos los demás tipos de esquemas criptográficos actuales: No se debe exigir que el diseño de cualquier esquema criptográfico sea secreto para que sea seguro; el secreto sólo puede extenderse a algunas cadenas de información, normalmente una clave privada.
 
-El principio de Kerckhoffs es fundamental para la criptografía moderna por cuatro razones. [En primer lugar, sólo existe un número limitado de esquemas criptográficos para determinados tipos de aplicaciones. Por ejemplo, la mayoría de las aplicaciones modernas de cifrado simétrico utilizan el cifrado Rijndael. Por tanto, el secreto sobre el diseño de un esquema es muy limitado. Sin embargo, hay mucha más flexibilidad en mantener en secreto alguna clave privada para el cifrado Rijndael.
+El principio de Kerckhoffs es fundamental para la criptografía moderna por cuatro razones. En primer lugar, sólo existe un número limitado de esquemas criptográficos para determinados tipos de aplicaciones. Por ejemplo, la mayoría de las aplicaciones modernas de cifrado simétrico utilizan el cifrado Rijndael. Por tanto, el secreto sobre el diseño de un esquema es muy limitado. Sin embargo, hay mucha más flexibilidad en mantener en secreto alguna clave privada para el cifrado Rijndael.
 
 En segundo lugar, es más fácil sustituir una cadena de información que todo un esquema criptográfico. Supongamos que todos los empleados de una empresa disponen del mismo software de cifrado y que cada dos empleados tienen una clave privada para comunicarse confidencialmente. En este escenario, las claves comprometidas son una molestia, pero al menos la empresa podría conservar el software con tales fallos de seguridad. Si la empresa confiara en el secreto del esquema, cualquier violación de ese secreto exigiría sustituir todo el software.
 
@@ -1448,29 +1451,19 @@ Continuamos con este proceso hasta que producimos la fila final en la parte infe
 
 *Cuadro 1: Tabla de programación*
 
-| Ronda | i | j | | S[0] | S[1] | S[2] | S[3] | S[4] | S[5] | S[6] | S[7] |
-
+| Round   | i   | j   |     | S[0] | S[1] | S[2] | S[3] | S[4] | S[5] | S[6] | S[7] |
 | ------- | --- | --- | --- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+|         |     |     |     |      |      |      |      |      |      |      |      |
+| Initial |     | 0   |     | 0    | 1    | 2    | 3    | 4    | 5    | 6    | 7    |
+| 1       | 0   | 6   |     | 6    | 1    | 2    | 3    | 4    | 5    | 0    | 7    |
+| 2       | 1   | 7   |     | 6    | 7    | 2    | 3    | 4    | 5    | 0    | 1    |
+| 3       | 2   | 2   |     | 6    | 7    | 2    | 3    | 4    | 5    | 0    | 1    |
+| 4       | 3   | 3   |     | 6    | 7    | 2    | 3    | 4    | 5    | 0    | 1    |
+| 5       | 4   | 3   |     | 6    | 7    | 2    | 0    | 3    | 5    | 4    | 1    |
+| 6       | 5   | 6   |     | 6    | 4    | 2    | 0    | 3    | 7    | 5    | 1    |
+| 7       | 6   | 1   |     | 6    | 4    | 2    | 0    | 3    | 7    | 5    | 2    |
+| 8       | 7   | 2   |     | 6    | 4    | 1    | 0    | 3    | 7    | 5    | 2    |
 
-| | | | | | | | | | | | |
-
-| Inicial | | 0 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
-
-| 1 | 0 | 6 | | 6 | 1 | 2 | 3 | 4 | 5 | 0 | 7 |
-
-| 2 | 1 | 7 | | 6 | 7 | 2 | 3 | 4 | 5 | 0 | 1 |
-
-| 3 | 2 | 2 | | 6 | 7 | 2 | 3 | 4 | 5 | 0 | 1 |
-
-| 4 | 3 | 3 | | 6 | 7 | 2 | 3 | 4 | 5 | 0 | 1 |
-
-| 5 | 4 | 3 | | 6 | 7 | 2 | 0 | 3 | 5 | 4 | 1 |
-
-| 6 | 5 | 6 | | 6 | 4 | 2 | 0 | 3 | 7 | 5 | 1 |
-
-| 7 | 6 | 1 | | 6 | 4 | 2 | 0 | 3 | 7 | 5 | 2 |
-
-| 8 | 7 | 2 | | 6 | 4 | 1 | 0 | 3 | 7 | 5 | 2 |
 
 ### Paso 4
 
@@ -1499,23 +1492,16 @@ Para empezar, utilizando una tabla ASCII, podemos ver que "SOUP" codificado por 
 
 *Cuadro 2: Generación de flujos clave*
 
-| i | j | t | Keystream | S[0] | S[1] | S[2] | S[3] | S[4] | S[5] | S[6] | S[7] |
-
+| i   | j   | t   | Keystream | S[0] | S[1] | S[2] | S[3] | S[4] | S[5] | S[6] | S[7] |
 | --- | --- | --- | --------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+|     |     |     |           |      |      |      |      |      |      |      |      |
+|     | 0   |     |           | 6    | 4    | 1    | 0    | 3    | 7    | 5    | 2    |
+| 1   | 4   | 7   | 2         | 6    | 3    | 1    | 0    | 4    | 7    | 5    | 2    |
+| 2   | 5   | 0   | 6         | 6    | 3    | 7    | 0    | 4    | 1    | 5    | 2    |
+| 3   | 5   | 1   | 3         | 6    | 3    | 7    | 1    | 4    | 0    | 5    | 2    |
+| 4   | 1   | 7   | 2         | 6    | 4    | 7    | 1    | 3    | 0    | 5    | 2    |
 
-| | | | | | | | | | | | |
-
-| | 0 | | | 6 | 4 | 1 | 0 | 3 | 7 | 5 | 2 |
-
-| 1 | 4 | 7 | 2 | 6 | 3 | 1 | 0 | 4 | 7 | 5 | 2 |
-
-| 2 | 5 | 0 | 6 | 6 | 3 | 7 | 0 | 4 | 1 | 5 | 2 |
-
-| 3 | 5 | 1 | 3 | 6 | 3 | 7 | 1 | 4 | 0 | 5 | 2 |
-
-| 4 | 1 | 7 | 2 | 6 | 4 | 7 | 1 | 3 | 0 | 5 | 2 |
-
-El ejemplo que acabamos de discutir es sólo una versión diluida del **cifrado de flujo RC4**. El cifrado de flujo RC4 real tiene una matriz **S** de 256 bytes de longitud, no 8 bytes, y una clave que puede estar entre 1 y 256 bytes, no entre 1 y 8 bytes. La matriz de claves y los flujos de claves se producen teniendo en cuenta la longitud de 256 bytes de la matriz **S**. Los cálculos se vuelven inmensamente más complejos, pero los principios siguen siendo los mismos. Utilizando la misma clave, [14,48,9], con el cifrado estándar RC4, el mensaje en texto plano "SOUP" se cifra como 67 02 ed df en formato hexadecimal.
+El ejemplo que acabamos de discutir es sólo una versión diluida del **cifrado de flujo RC4**. El cifrado de flujo RC4 real tiene una matriz **S** de 256 bytes de longitud, no 8 bytes, y una clave que puede estar entre 1 y 256 bytes, no entre 1 y 8 bytes. La matriz de claves y los flujos de claves se producen teniendo en cuenta la longitud de 256 bytes de la matriz **S**. Los cálculos se vuelven inmensamente más complejos, pero los principios siguen siendo los mismos. Utilizando la misma clave, 14,48,9, con el cifrado estándar RC4, el mensaje en texto plano "SOUP" se cifra como 67 02 ed df en formato hexadecimal.
 
 Un cifrado de flujo en el que el flujo de claves se actualiza independientemente del mensaje en claro o del texto cifrado es un **cifrado de flujo síncrono**. El flujo de claves sólo depende de la clave. Claramente, RC4 es un ejemplo de cifrado de flujo síncrono, ya que el flujo de claves no tiene relación con el texto plano o el texto cifrado. Todos nuestros cifradores de flujo primitivos mencionados en el capítulo anterior, incluidos el cifrado por desplazamiento, el cifrado de Vigenère y la almohadilla de un solo uso, también eran de la variedad síncrona.
 
@@ -1589,41 +1575,26 @@ En segundo lugar, la operación de **sustitución de bytes** se realiza en el es
 
 *Figura 3: S-Box* de Rijndael
 
-| | 00 | 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 0A | 0B | 0C | 0D | 0E | 0F |
 
+|     | 00  | 01  | 02  | 03  | 04  | 05  | 06  | 07  | 08  | 09  | 0A  | 0B  | 0C  | 0D  | 0E  | 0F  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 00  | 63  | 7C  | 77  | 7B  | F2  | 6B  | 6F  | C5  | 30  | 01  | 67  | 2B  | FE  | D7  | AB  | 76  |
+| 10  | CA  | 82  | C9  | 7D  | FA  | 59  | 47  | F0  | AD  | D4  | A2  | AF  | 9C  | A4  | 72  | C0  |
+| 20  | B7  | FD  | 93  | 26  | 36  | 3F  | F7  | CC  | 34  | A5  | E5  | F1  | 71  | D8  | 31  | 15  |
+| 30  | 04  | C7  | 23  | C3  | 18  | 96  | 05  | 9A  | 07  | 12  | 80  | E2  | EB  | 27  | B2  | 75  |
+| 40  | 09  | 83  | 2C  | 1A  | 1B  | 6E  | 5A  | A0  | 52  | 3B  | D6  | B3  | 29  | E3  | 2F  | 84  |
+| 50  | 53  | D1  | 00  | ED  | 20  | FC  | B1  | 5B  | 6A  | CB  | BE  | 39  | 4A  | 4C  | 58  | CF  |
+| 60  | D0  | EF  | AA  | FB  | 43  | 4D  | 33  | 85  | 45  | F9  | 02  | 7F  | 50  | 3C  | 9F  | A8  |
+| 70  | 51  | A3  | 40  | 8F  | 92  | 9D  | 38  | F5  | BC  | B6  | DA  | 21  | 10  | FF  | F3  | D2  |
+| 80  | CD  | 0C  | 13  | EC  | 5F  | 97  | 44  | 17  | C4  | A7  | 7E  | 3D  | 64  | 5D  | 19  | 73  |
+| 90  | 60  | 81  | 4F  | DC  | 22  | 2A  | 90  | 88  | 46  | EE  | B8  | 14  | DE  | 5E  | 0B  | DB  |
+| A0  | E0  | 32  | 3A  | 0A  | 49  | 06  | 24  | 5C  | C2  | D3  | AC  | 62  | 91  | 95  | E4  | 79  |
+| B0  | E7  | C8  | 37  | 6D  | 8D  | D5  | 4E  | A9  | 6C  | 56  | F4  | EA  | 65  | 7A  | AE  | 08  |
+| C0  | BA  | 78  | 25  | 2E  | 1C  | A6  | B4  | C6  | E8  | DD  | 74  | 1F  | 4B  | BD  | 8B  | 8A  |
+| D0  | 70  | 3E  | B5  | 66  | 48  | 03  | F6  | 0E  | 61  | 35  | 57  | B9  | 86  | C1  | 1D  | 9E  |
+| E0  | E1  | F8  | 98  | 11  | 69  | D9  | 8E  | 94  | 9B  | 1E  | 87  | E9  | CE  | 55  | 28  | DF  |
+| F0  | 8C  | A1  | 89  | 0D  | BF  | E6  | 42  | 68  | 41  | 99  | 2D  | 0F  | B0  | 54  | BB  | 16  |
 
-
-| 00 | 63 | 7C | 77 | 7B | F2 | 6B | 6F | C5 | 30 | 01 | 67 | 2B | FE | D7 | AB | 76 |
-
-| 10 | CA | 82 | C9 | 7D | FA | 59 | 47 | F0 | AD | D4 | A2 | AF | 9C | A4 | 72 | C0 | |
-
-| 20 | B7 | FD | 93 | 26 | 36 | 3F | F7 | CC | 34 | A5 | E5 | F1 | 71 | D8 | 31 | 15 |
-
-| 30 | 04 | C7 | 23 | C3 | 18 | 96 | 05 | 9A | 07 | 12 | 80 | E2 | EB | 27 | B2 | 75 |
-
-| 40 | 09 | 83 | 2C | 1A | 1B | 6E | 5A | A0 | 52 | 3B | D6 | B3 | 29 | E3 | 2F | 84 |
-
-| 50 | 53 | D1 | 00 | ED | 20 | FC | B1 | 5B | 6A | CB | BE | 39 | 4A | 4C | 58 | CF | |
-
-| 60 | D0 | EF | AA | FB | 43 | 4D | 33 | 85 | 45 | F9 | 02 | 7F | 50 | 3C | 9F | A8 |
-
-| 70 | 51 | A3 | 40 | 8F | 92 | 9D | 38 | F5 | BC | B6 | DA | 21 | 10 | FF | F3 | D2 |
-
-| 80 | CD | 0C | 13 | EC | 5F | 97 | 44 | 17 | C4 | A7 | 7E | 3D | 64 | 5D | 19 | 73 |
-
-| 90 | 60 | 81 | 4F | DC | 22 | 2A | 90 | 88 | 46 | EE | B8 | 14 | DE | 5E | 0B | DB |
-
-| A0 | E0 | 32 | 3A | 0A | 49 | 06 | 24 | 5C | C2 | D3 | AC | 62 | 91 | 95 | E4 | 79 |
-
-| B0 | E7 | C8 | 37 | 6D | 8D | D5 | 4E | A9 | 6C | 56 | F4 | EA | 65 | 7A | AE | 08 | |
-
-| C0 | BA | 78 | 25 | 2E | 1C | A6 | B4 | C6 | E8 | DD | 74 | 1F | 4B | BD | 8B | 8A |
-
-| D0 | 70 | 3E | B5 | 66 | 48 | 03 | F6 | 0E | 61 | 35 | 57 | B9 | 86 | C1 | 1D | 9E |
-
-| E0 | E1 | F8 | 98 | 11 | 69 | D9 | 8E | 94 | 9B | 1E | 87 | E9 | CE | 55 | 28 | DF |
-
-| F0 8C A1 89 0D BF E6 42 68 41 99 2D 0F B0 54 BB 16
 
 Esta S-Box es uno de los lugares donde el álgebra abstracta entra en juego en el cifrado Rijndael, concretamente en los **campos de Galois**.
 
@@ -1637,39 +1608,30 @@ Una vez construida la matriz de **S**, se desplazan las cuatro filas. La primera
 
 *Figura 4: Operación de desplazamiento de filas*
 
-| ... F1 ... A0 ... B1 ... 23 ..
 
+| F1   | A0   | B1   | 23   |
 |------|------|------|------|
+| 59   | EF   | 09   | 82   |
+| 97   | 01   | B0   | CC   |
+| D4   | 72   | 04   | 21   |
 
-| 59 | EF | 09 | 82 |
-
-| 97 | 01 | B0 | CC |
-
-| D4 | 72 | 04 | 21 |
-
-| ... F1 ... A0 ... B1 ... 23 ..
-
+| F1   | A0   | B1   | 23   |
 |------|------|------|------|
+| EF   | 09   | 82   | 59   |
+| B0   | CC   | 97   | 01   |
+| 21   | D4   | 72   | 04   |
 
-| EF | 09 | 82 | 59 |
-
-| B0 CC 97 01
-
-| 21 | D4 | 72 | 04 |
 
 En el cuarto paso, los **campos de Galois** vuelven a hacer acto de presencia. Para empezar, cada columna de la matriz **S** se multiplica por la columna de la matriz 4 x 4 que se ve en la *Figura 5*. Pero en lugar de ser una multiplicación matricial normal, es una multiplicación vectorial **módulo de un polinomio irreducible**, $x^8 + x^4 + x^3 + x + 1$. Los coeficientes vectoriales resultantes representan los bits individuales de un byte.
 
 *Figura 5: Matriz de columnas de la mezcla*
 
-| 02 | 03 | 01 | 01 |
 
+| 02   | 03   | 01   | 01   |
 |------|------|------|------|
-
-| 01 | 02 | 03 | 01 |
-
-| 01 | 01 | 02 | 03 |
-
-| 03 | 01 | 01 | 02 |
+| 01   | 02   | 03   | 01   |
+| 01   | 01   | 02   | 03   |
+| 03   | 01   | 01   | 02   |
 
 La multiplicación de la primera columna de la matriz **S** por la matriz 4 x 4 anterior da el resultado de la *Figura 6*.
 
@@ -1773,6 +1735,7 @@ En los años 70, los problemas de distribución y gestión de claves habían cap
 Al menos una de las principales motivaciones de su aventura fue la previsión de que las comunicaciones informáticas abiertas afectarían profundamente a nuestro mundo. Como señalaron Diffie y Helmann en 1976,
 
 > El desarrollo de redes de comunicación controladas por ordenador promete un contacto sin esfuerzo y barato entre personas u ordenadores situados en puntos opuestos del planeta, sustituyendo la mayor parte del correo y muchas excursiones por las telecomunicaciones. Para muchas aplicaciones, estos contactos deben ser seguros tanto contra las escuchas como contra la inyección de mensajes ilegítimos. En la actualidad, sin embargo, la solución de los problemas de seguridad va muy a la zaga de otras áreas de la tecnología de las comunicaciones. *La criptografía contemporánea es incapaz de cumplir los requisitos, en el sentido de que su uso impondría inconvenientes tan graves a los usuarios del sistema, como para eliminar muchos de los beneficios del teleproceso.* [1]
+
 La tenacidad de Diffie, Hellman y Merkle dio sus frutos. La primera publicación de sus resultados fue un artículo de Diffie y Helmann en 1976 titulado "New Directions in Cryptography" En él, presentaban dos formas originales de abordar los problemas de distribución y gestión de claves.
 
 La primera solución que ofrecieron fue un *protocolo de intercambio de claves* remoto, es decir, un conjunto de reglas para el intercambio de una o más claves simétricas a través de un canal de comunicación inseguro. Este protocolo se conoce ahora como *intercambio de claves Diffie-Helmann* o *intercambio de claves Diffie-Helmann-Merkle*. [2]
@@ -1801,7 +1764,7 @@ La segunda forma que Diffie y Helmann ofrecieron para abordar el problema de la 
 
 En contraste con su presentación del intercambio de claves Diffie-Hellman, sólo proporcionaron los contornos generales de cómo podrían construirse esquemas criptográficos asimétricos. No ofrecían ninguna función unidireccional que pudiera cumplir específicamente las condiciones necesarias para una seguridad razonable en dichos esquemas.
 
-Sin embargo, un año más tarde, tres criptógrafos y matemáticos académicos encontraron una aplicación práctica de un esquema asimétrico: Ronald Rivest, Adi Shamir y Leonard Adleman [3]. [El criptosistema que introdujeron se conoció como el **criptosistema RSA** (por sus apellidos).
+Sin embargo, un año más tarde, tres criptógrafos y matemáticos académicos encontraron una aplicación práctica de un esquema asimétrico: Ronald Rivest, Adi Shamir y Leonard Adleman [3]. El criptosistema que introdujeron se conoció como el **criptosistema RSA** (por sus apellidos).
 
 Las funciones de trampilla utilizadas en la criptografía asimétrica (y en el intercambio de claves Diffie Helmann) están relacionadas con dos **problemas informáticos** principales: la factorización de números primos y el cálculo de logaritmos discretos.
 
@@ -1815,7 +1778,7 @@ A continuación, pasaremos a una visión general de alto nivel del secreto y la 
 
 Ahora parece verosímil que un grupo de criptógrafos y matemáticos británicos que trabajaban para el Cuartel General de Comunicaciones del Gobierno (GCHQ) hubiera realizado de forma independiente los descubrimientos mencionados unos años antes. Este grupo estaba formado por James Ellis, Clifford Cocks y Malcolm Williamson.
 
-Según sus propios relatos y los del GCHQ, fue James Ellis quien ideó por primera vez el concepto de criptografía de clave pública en 1969. Supuestamente, Clifford Cocks descubrió después el sistema criptográfico RSA en 1973, y Malcolm Williamson el concepto de intercambio de claves Diffie Helmann en 1974[4]. [Sin embargo, sus descubrimientos no se revelaron hasta 1997, dada la naturaleza secreta del trabajo realizado en el GCHQ.
+Según sus propios relatos y los del GCHQ, fue James Ellis quien ideó por primera vez el concepto de criptografía de clave pública en 1969. Supuestamente, Clifford Cocks descubrió después el sistema criptográfico RSA en 1973, y Malcolm Williamson el concepto de intercambio de claves Diffie Helmann en 1974[4]. Sin embargo, sus descubrimientos no se revelaron hasta 1997, dada la naturaleza secreta del trabajo realizado en el GCHQ.
 
 **Notas:**
 
@@ -2029,17 +1992,17 @@ Supongamos ahora que $N$ es muy grande. Sería muy difícil reducir $N$ a sus fa
 Eso depende realmente de $N$. Supongamos, por ejemplo, que $N$ es 50.450.400. Aunque este número parece intimidante, los cálculos no son tan complicados y se pueden hacer fácilmente a mano. Como en el caso anterior, basta con empezar por 2 e ir avanzando. A continuación, puedes ver el resultado de este proceso de forma similar al anterior.
 
 
-- 2: 25.225.200 (50.450.400 $ = 2 \cdot 25.225.200 $)
-- 2: 12.612.600 (50.450.400 $ = 2^2 \cdot 12.612.600$)
-- 2: 6.306.300 (50.450.400 $ = 2^3 \cdot 6.306.300$)
-- 2: 3.153.150 (50.450.400 $ = 2^4 \cdot 3.153.150$)
-- 2: 1.576.575 (50.450.400 $ = 2^5 \cdot 1.576.575$)
+- 2: 25.225.200 ($50.450.400  = 2 \cdot 25.225.200$)
+- 2: 12.612.600 ($50.450.400  = 2^2 \cdot 12.612.600$)
+- 2: 6.306.300 ($50.450.400 = 2^3 \cdot 6.306.300$)
+- 2: 3.153.150 ($50.450.400 = 2^4 \cdot 3.153.150$)
+- 2: 1.576.575 ($50.450.400 = 2^5 \cdot 1.576.575$)
 - 3: 525,525 ($50,450,400 = 2^5 \cdot 3 \cdot 525,525$)
 - 3: 175,175 ($50,450,400 = 2^5 \cdot 3^2 \cdot 175,175$)
 - 5: 35,035 ($50,450,400 = 2^5 \cdot 3^2 \cdot 5 \cdot 35,035$)
 - 5: 7,007 ($50,450,400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7,007$)
 - 7: 1,001 ($50,450,400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7 \cdot 1,001$)
-- 7: 143 (50.450.400 $ = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 143$)
+- 7: 143 ($50.450.400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 143$)
 - 11: 13 ($50,450,400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 11 \cdot 13$)
 - Como 13 es un número primo, el resultado es $2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 11 \cdot 13$.
 
@@ -2100,13 +2063,13 @@ Ahora podemos definir el orden de $N$ como sigue. Supongamos que $N$ es un enter
 
 Por ejemplo, si $N = 12$, entonces 1, 5, 7 y 11 son los únicos coprimos que cumplen el requisito anterior. Por lo tanto, el orden de 12 es igual a 4.
 
-Supongamos que $N$ es un número primo. Entonces cualquier número entero menor que $N$ pero mayor o igual que 1 es coprimo con él. Esto incluye todos los elementos del siguiente conjunto: ${1,2,3,....,N - 1\}$. Por tanto, cuando $N$ es primo, el orden de $N$ es $N - 1$. Esto se afirma en la proposición 1, donde $\phi(N)$ denota el orden de $N$.
+Supongamos que $N$ es un número primo. Entonces cualquier número entero menor que $N$ pero mayor o igual que 1 es coprimo con él. Esto incluye todos los elementos del siguiente conjunto: ${1,2,3,....,N - 1}$. Por tanto, cuando $N$ es primo, el orden de $N$ es $N - 1$. Esto se afirma en la proposición 1, donde $\phi(N)$ denota el orden de $N$.
 
 **Proposición 1**. $\phi(N) = N - 1$ cuando $N$ es primo
 
 Supongamos que $N$ no es primo. En ese caso, se puede calcular su orden mediante la **función Phi de Euler**. Aunque calcular el orden de un número entero pequeño es relativamente sencillo, la función Phi de Euler adquiere especial importancia para los números enteros más grandes. A continuación se expone la proposición de la función Phi de Euler.
 
-**Teorema 2**. Sea $N$ igual a $p_1^{e_1} \cdot p_2^{e_2} \cdot \ldots \cdot p_i^{e_i} \cdot \ldots \cdot p_n^{e_n}$, donde el conjunto $\{p_i}}$ está formado por todos los factores primos distintos de $N$ y cada $e_i$ indica cuántas veces se da el factor primo $p_i$ para $N$. Entonces,
+**Teorema 2**. Sea $N$ igual a $p_1^{e_1} \cdot p_2^{e_2} \cdot \ldots \cdot p_i^{e_i} \cdot \ldots \cdot p_n^{e_n}$, donde el conjunto ${{p_i}}$ está formado por todos los factores primos distintos de $N$ y cada $e_i$ indica cuántas veces se da el factor primo $p_i$ para $N$. Entonces,
 
 $$\phi(N) = p_1^{e_1 - 1} \cdot (p_1 - 1) \cdot p_2^{e_2 - 1} \cdot (p_2 - 1) \cdot \ldots \cdot p_n^{e_n - 1} \cdot (p_n - 1)$$
 
@@ -2132,7 +2095,8 @@ En otras palabras, el número entero 119 tiene 96 coprimos en el intervalo de 1 
 
 De aquí en adelante, vamos a denotar el conjunto de coprimas que determina el orden de $N$ como $C_N$. Para nuestro ejemplo en el que $N = 119$, el conjunto $C_{119}$ es demasiado grande para enumerarlo completamente. Pero algunos de los elementos son los siguientes:
 
-$$C_{119} = \$1, 2, \$puntos 6, 8 \$puntos 13, 15, 16, 18, \$puntos 33, 35 \$puntos 96\$$
+$$C_{119} = \{1, 2, \dots, 6, 8, \dots, 13, 15, 16, 18, \dots, 33, 35, \dots, 96\}$$
+
 
 ### Invertibilidad módulo N
 
@@ -2226,7 +2190,8 @@ El problema RSA consiste en encontrar una $x$ tal que $x^e = y$, con sólo un su
 
 Una forma fácil de calcular $x$ cuando $x^e \mod N = y \mod N$ es simplemente calculando $y^d \mod N$. Sabemos $y^d \mod N = x \mod N$ por los siguientes cálculos:
 
-$$ y^d \mod N = x^{e \cdot d}} \mod N = x^{e \cdot d \mod \phi(N)} \mod N = x^{1 \mod \phi(N)} \mod N = x \mod N. $$
+$$ y^d \mod N = x^{e \cdot d} \mod N = x^{e \cdot d \mod \phi(N)} \mod N = x^{1 \mod \phi(N)} \mod N = x \mod N. $$
+
 
 El problema es que no conocemos el valor $d$, ya que no se da en el problema. Por lo tanto, no podemos calcular directamente $y^d \mod N$ para producir $x \mod N$.
 
@@ -2281,13 +2246,13 @@ Desgraciadamente, convertir lo que de por sí es un problema difícil, el proble
 
 Los problemas se agravan aún más para nuestro sencillo esquema de firma digital. Tal y como está, cualquier atacante puede falsificar fácilmente firmas digitales simplemente seleccionando primero un coprimo de $N$ como firma y calculando después el mensaje original correspondiente. Esto incumple claramente el requisito de infalsificabilidad existencial.
 
-No obstante, añadiendo un poco de complejidad inteligente, el problema RSA puede utilizarse para crear un esquema seguro de cifrado de clave pública, así como un esquema seguro de firma digital. No entraremos aquí en los detalles de tales construcciones. [Sin embargo, es importante destacar que esta complejidad adicional no cambia el problema fundamental subyacente de RSA en el que se basan estos esquemas.
+No obstante, añadiendo un poco de complejidad inteligente, el problema RSA puede utilizarse para crear un esquema seguro de cifrado de clave pública, así como un esquema seguro de firma digital. No entraremos aquí en los detalles de tales construcciones. Sin embargo, es importante destacar que esta complejidad adicional no cambia el problema fundamental subyacente de RSA en el que se basan estos esquemas.
 
 **Notas:**
 
 [4] Véase, por ejemplo, Jonathan Katz y Yehuda Lindell, _Introduction to Modern Cryptography_, CRC Press (Boca Ratón, FL: 2015), pp. 410-32 sobre cifrado RSA y pp. 444-41 para firmas digitales RSA.
 
-# Conclusión
+# Sección final
 <partId>e538fb79-bf28-40cd-a5c3-badf864d8567</partId>
 
 ## Reseñas & Valoraciones

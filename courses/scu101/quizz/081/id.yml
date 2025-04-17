@@ -1,0 +1,9 @@
+question: Apa yang bisa dilakukan di situs Have I Been Pwned?
+answer: Memeriksa apakah alamat email telah dikompromikan.
+wrong_answers:
+  - Menghasilkan kata sandi yang kuat dan acak.
+  - Membuat kotak masuk email yang aman.
+  - Menyinkronkan akun email untuk kemudahan penggunaan.
+explanation: |
+  Situs ini membantu mendeteksi kebocoran data dan memverifikasi keamanan alamat email.
+reviewed: false

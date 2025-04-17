@@ -1,9 +1,9 @@
---- 
+---
 name: Building on Bitcoin 2018
 description: Breaking bitcoin is an event for the technical community focusing on the security of Bitcoin and everything around it.
 ---
 
-# Key note
+# Keynote Day 1
 
 ## Bryan Bishop: State of Bitcoin Over the Years
 
@@ -17,10 +17,9 @@ Speaker: Bryan Bishop
 
 Speaker: Adam Ficsor
 
-##  Current state and the future of wallets 
+##  Current state and the future of wallets
 
-
-![video](https://youtu.be/QiySI4-MWww?si=x0J1gd01HxvWwejT)
+![video](https://youtu.be/CO2NXDWJa08)
 
 Speaker: Jonas Schnell
 
@@ -35,7 +34,7 @@ Speaker: Patrícia Estevão
 
 ![video](https://youtu.be/1U-1xkhJeEo?si=Ozp-OAz0w1aQKRc8)
 
-Speaker: Peter Todd: 
+Speaker: Peter Todd
 
 ## Contour
 
@@ -49,7 +48,7 @@ Speaker: Mustafa Al-Bassam
 
 Speaker: Thomas Kerin
 
-##  How to make everyone use their own full node 
+##  How to make everyone use their own full node
 
 ![video](https://youtu.be/0UiMhpz9eLA?si=VUpeBe3U4Fm2uvZW)
 
@@ -61,17 +60,21 @@ Speaker: Nicolas Dorier
 
 Speaker: Adam Gibson
 
+## Dandelion: Privacy-Preserving Transaction Forwarding in Bitcoin's Peer-to-Peer Network
+
+![video](https://youtu.be/SrE6KdBgI1o?si=FOIeiaFLF9Uw6rZc)
+
+Speaker: Giulia Fanti
+
 ## Blind Signatures in Scriptless Scripts
 
 ![video](https://youtu.be/_1dcU70zhqs?si=Ko5ypVY9buL4zMgC)
 
 Speaker: Jonas Nick
 
-## Dandelion: Privacy-Preserving Transaction Forwarding in Bitcoin's Peer-to-Peer Network
 
-![video](https://youtu.be/SrE6KdBgI1o?si=FOIeiaFLF9Uw6rZc)
 
-Speaker: Giulia Fanti
+# Keynote Day 2
 
 ## Regulatory strategies
 
@@ -139,11 +142,15 @@ Speaker: Jorge Timon
 
 Speaker: Paul Sztorc
 
-# Panel 
 
-## LN Panel
 
-![video](https://youtu.be/jcMXaFiFvTM?si=99m-KUulzYYm4oWk)
+# Panel
+
+## Tooling Panel
+
+![video](https://youtu.be/fjtmyaH6MG8?si=767etw6wp0H3HxNw)
+
+Panel Lawrence Nahum, Nicolas Dorier and Eric Voskuil
 
 ## Privacy Panel
 
@@ -151,8 +158,6 @@ Speaker: Paul Sztorc
 
 Privacy Panel with Adam Gibson, Adam Ficsor, Tim Ruffing and Thomas Voegtlin
 
-## Tooling Panel 
+## LN Panel
 
-![video](https://youtu.be/fjtmyaH6MG8?si=767etw6wp0H3HxNw)
-
-Panel Lawrence Nahum, Nicolas Dorier and Eric Voskuil
+![video](https://youtu.be/jcMXaFiFvTM?si=99m-KUulzYYm4oWk)

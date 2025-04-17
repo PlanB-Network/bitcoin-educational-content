@@ -8,8 +8,9 @@ links:
   twitter: https://twitter.com/CanadianBTCPod
 description: |
   The Canadian Bitcoiner Podcast - a show which talks about Bitcoin news & equities exposed to Bitcoin, all with a Canadian slant.
+contributor_names:
+  - Rogzy-DB
 tags:
-  - bitcoin
-  - technology
-contributors:
-  - rabbit-hole
+  - market-trends
+  - investment
+  - business

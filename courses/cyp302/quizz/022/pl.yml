@@ -1,0 +1,9 @@
+question: Jaki jest wynik szyfrowania shift dla słowa DOG z kluczem 17?
+answer: UFX
+wrong_answers:
+  - ZKH
+  - TPG
+  - UVW
+explanation: |
+  Z przesunięciem o 17 w alfabecie, D staje się U, O staje się F, a G staje się X. Dlatego zaszyfrowane słowo to UFX.
+reviewed: false

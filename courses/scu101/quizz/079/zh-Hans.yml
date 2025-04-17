@@ -1,0 +1,9 @@
+question: 类似 ProtonMail 的安全邮件服务提供商的优势是什么？
+answer: 保护隐私并增强安全性。
+wrong_answers:
+  - 更简单的界面，适合初学者。
+  - 通过减少功能来降低攻击面。
+  - 集成算法自动生成电子邮件。
+explanation: |
+  ProtonMail 以其隐私政策和增强的安全措施而闻名。
+reviewed: false

@@ -1,0 +1,10 @@
+question: Jaki jest średni odstęp czasu między utworzeniem dwóch bloków w protokole Bitcoin?
+answer: 10 minut.
+wrong_answers:
+  - 5 minut.
+  - 15 minut.
+  - 20 minut.
+explanation: |
+  Średni odstęp czasu między utworzeniem dwóch bloków w protokole Bitcoin wynosi 10 minut
+  bloków w protokole Bitcoin wynosi 10 minut.
+reviewed: true

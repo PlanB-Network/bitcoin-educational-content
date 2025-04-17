@@ -2,98 +2,94 @@ id: 2d361453-d99e-438e-9c92-61511d75fc30
 en_word: LUCK
 related_words:
   - SHARES
-tags:
-  - ''
-
-# Proofreading metadata
 original_language: fr
 proofreading:
   - language: en
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.25
+    contributor_names:
+    reward: 0.32
   - language: fr
     last_contribution_date: 2024-07-26
     urgency: 1
-    contributors_id:
+    contributor_names:
       - LoicPandul
-    reward: 0.12
+    reward: 0.16
 
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.4
 
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.25
+    contributor_names:
+    reward: 0.32
 
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.32
 
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.4
 
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.4
 
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.47
 
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.32
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.4
 
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.25
+    contributor_names:
+    reward: 0.32
 
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.4
 
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.54
 
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.47
 
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.54

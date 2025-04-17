@@ -1,0 +1,10 @@
+question: Jaki jest główny cel kursu?
+answer: Kurs ma na celu zbadanie podstawowych koncepcji ekonomii austriackiej.
+wrong_answers:
+  - Kurs ma na celu promowanie doktryny Keynesa.
+  - Kurs ma na celu wyjaśnienie funkcjonowania banków centralnych.
+  - Kurs ma na celu promowanie centralizacji władzy monetarnej.
+explanation: |
+  W rozdziale wspomniano, że kurs ma na celu zbadanie
+  podstawowych pojęć ekonomii austriackiej.
+reviewed: true

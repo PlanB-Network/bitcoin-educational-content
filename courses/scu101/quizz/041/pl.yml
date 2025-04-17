@@ -1,0 +1,12 @@
+question: Jakie są zalety korzystania z samodzielnego menedżera haseł, takiego jak Bitwarden lub KeePass?
+answer: Możesz kontrolować, gdzie przechowywane są Twoje hasła, oferując większe bezpieczeństwo i kontrolę.
+wrong_answers:
+  - Są one łatwiejsze i zawsze bezpieczniejsze w użyciu niż usługi innych firm.
+  - Zwykle oferują one więcej funkcji niż usługi innych firm, choć są droższe.
+  - Są one tańsze i szybsze niż usługi innych firm.
+explanation: |
+  Samoobsługowe menedżery haseł, takie jak Bitwarden lub KeePass
+  pozwalają kontrolować miejsce przechowywania haseł,
+  potencjalnie oferując większe bezpieczeństwo i kontrolę. Jednakże,
+  mogą jednak wymagać większej wiedzy technicznej.
+reviewed: true

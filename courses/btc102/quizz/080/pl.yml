@@ -1,0 +1,10 @@
+question: Ile łącznie jest bitcoinów?
+answer: 21 milionów
+wrong_answers:
+  - 21 miliardów
+  - 21 tys
+  - 21 bilionów
+explanation: |
+  W sumie jest tylko 21 milionów bitcoinów. Jest to fundamentalny aspekt
+  projektu Bitcoin i przyczynia się do jego rzadkości.
+reviewed: false

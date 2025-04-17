@@ -1,23 +1,25 @@
 id: 50c813b9-45e8-46bc-8e1b-30cb25544c87
 start_date: 2024-09-29
 end_date: 2024-09-29
-address_line_1: Victoria BC, Canada
+address_city_country: Victoria BC, Canada
 address_line_2: The Crystal Garden
 address_line_3:
 name: Learning Bitcoin Conference
-builder: Learning Bitcoin
 type: conference
 book_online: false
 book_in_person: false
 price_dollars: 0
-description: A Bitcoin Education Event presented by our inclusive approach ensures that everyone, regardless of their background or experience level, can embark on a journey of discovery and empowerment
+description: A Bitcoin Education Event presented by our inclusive approach ensures
+  that everyone, regardless of their background or experience level, can embark on
+  a journey of discovery and empowerment
 language:
   - en
 links:
   website: https://www.learningbitcoin.ca/
   replay_url:
   live_url:
-tags:
-  - bitcoiner
-  - General
 project_id: f5e52863-408b-4139-839c-891c12da32a9
+tags:
+  - adoption
+  - user-friendly
+  - guides

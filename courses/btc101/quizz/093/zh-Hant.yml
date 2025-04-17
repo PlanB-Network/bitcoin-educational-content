@@ -1,0 +1,14 @@
+question: 使用 Wallet 和 passphrase 時需要備份什麼？
+answer: 您需要備份 12 或 24 個單字的清單和您的 passphrase。
+wrong_answers:
+  - 您只需要備份 12 或 24 個單字的清單。
+  - 您只需要備份您的 passphrase。
+  - 您既不需要備份 12 或 24 個單字的清單，也不需要備份您的 passphrase。
+explanation: |
+  當您使用 Wallet 和 passphrase 時，您需要備份
+  12 或 24 個詞彙清單和您的 passphrase、
+  因為字詞清單和 passphrase 都是
+  在您的手機或電腦遺失時，要重新取得您的資金，必須同時備份 12 或 24 個詞彙清單和 passphrase。
+  遺失您的電話或電腦。缺少其中一個、
+  資金將無法存取。
+reviewed: true

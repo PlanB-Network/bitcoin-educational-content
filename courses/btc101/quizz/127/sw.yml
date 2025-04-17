@@ -1,0 +1,12 @@
+question: Je, madhumuni ya ada za miamala katika miamala ya Bitcoin ni nini?
+answer: Wao ni motisha kwa wachimbaji kujumuisha shughuli katika block ifuatayo.
+wrong_answers:
+  - Ni ushuru unaotozwa na serikali.
+  - Ni ada inayotozwa na mtandao wa Bitcoin kwa kutumia huduma zake.
+  - Ni ada inayotozwa na mtoa huduma wa Wallet.
+explanation: |
+  Ada za muamala katika miamala ya Bitcoin hutumika kama malipo
+  motisha kwa wachimbaji kujumuisha shughuli katika ijayo
+  kuzuia. Ada hizo huunda soko huria la kujumuisha
+  shughuli katika vitalu.
+reviewed: true

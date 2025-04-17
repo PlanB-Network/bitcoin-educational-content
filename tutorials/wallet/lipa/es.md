@@ -11,6 +11,7 @@ Los monederos Lightning, como todos los monederos móviles, se consideran monede
 Si quieres saber más sobre la red Lightning y entender cómo funciona técnicamente, te recomiendo que sigas este curso:
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 En este tutorial, echaremos un vistazo a **Lipa**, un monedero Lightning sencillo y eficaz desarrollado en Suiza.
 
 ## Presentación de Lipa
@@ -91,6 +92,7 @@ Para hacer una copia de seguridad de tu cartera, ve a la pestaña "Configuració
 Para más información sobre cómo hacer copias de seguridad y gestionar correctamente tu frase de recuperación, te recomiendo encarecidamente que sigas este otro tutorial, especialmente si eres principiante:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 ## Recibir bitcoins
 
 Para recibir bitcoins, tienes dos opciones. Para acceder a estas opciones, vuelve a la pantalla de inicio y baja la pantalla. A continuación, puede :

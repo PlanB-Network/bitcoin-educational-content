@@ -1,0 +1,13 @@
+question: Jaka jest główna zachęta finansowa dla górników do udziału w procesie Bitcoin Mining?
+answer: Nagroda Mining
+wrong_answers:
+  - Możliwość kontrolowania sieci Bitcoin
+  - Możliwość dowolnego tworzenia nowych bitcoinów
+  - Możliwość manipulowania ceną Bitcoin
+explanation: |
+  Główną zachętą finansową dla górników do udziału w procesie Bitcoin
+  gW-5 Mining jest nagroda Mining. Nagroda ta
+  służy jako silna zachęta do zachęcania górników do
+  do uczestniczenia w procesie Mining pomimo jego kosztu energetycznego
+  kosztów energii.
+reviewed: true

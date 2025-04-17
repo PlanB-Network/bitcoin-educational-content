@@ -172,18 +172,18 @@ def check_language_existence(data, language):
     return exist
 
 def get_proofreading_state(data, language):
-    contributors_id = get_proofreading_property(data, language, 'contributors_id')
-    if contributors_id == None:
+    contributor_names = get_proofreading_property(data, language, 'contributor_names')
+    if contributor_names == None:
         return 0
     else:
-        return  len(contributors_id)
+        return  len(contributor_names)
   
-def add_proofreading_contributor(data, language, contributor_id):
+def add_proofreading_contributor(data, language, contributor_names):
     for entry in data['proofreading']:
         if entry['language'] == language:
-            if entry['contributors_id'] is None:
-                entry['contributors_id'] = []
+            if entry['contributor_names'] is None:
+                entry['contributor_names'] = []
 
-            entry['contributors_id'].append(contributor_id)
+            entry['contributor_names'].append(contributor_names)
             break
     

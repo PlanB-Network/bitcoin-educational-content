@@ -24,10 +24,10 @@ Whether you're a **small business or a large corporation**, integrating Bitcoin 
 <partId>326cf945-5d3f-4d86-8c3e-4d1c35959799</partId>
 
 
-## Onboard your company to Bitcoin
+## Course overview
 <chapterId>1be42be9-4080-49f5-b5b2-6b531dd55f5f</chapterId>
 
-Kickstart your company’s journey on the Bitcoin network with this comprehensive training course - a gateway to understanding how Bitcoin and the Lightning Network can revolutionize traditional business operations. This course is designed for retailers, entrepreneurs, managers, and corporate decision-makers who wish to explore the practical capabilities of Bitcoin as a global, internet-native monetary network and a robust means of value exchange.
+Welcome to the BIZ101 course! Kickstart your company’s journey on the Bitcoin network with this comprehensive training course - a gateway to understanding how Bitcoin and the Lightning Network can revolutionize traditional business operations. This course is designed for retailers, entrepreneurs, managers, and corporate decision-makers who wish to explore the practical capabilities of Bitcoin as a global, internet-native monetary network and a robust means of value exchange.
 
 Throughout the course, you will be introduced to the foundational principles that make Bitcoin and the Lightning Network distinctly transformative. You will learn how these technologies offer a spectrum of use cases, from digital capital storage to fast, economical, and scalable payments, and how they provide critical improvements over traditional currency and payment systems. BIZ101 course connects economic theory with real-world applications, clarifying how decentralization can reduce dependencies on intermediaries and overcome limitations inherent in legacy systems.
 
@@ -35,7 +35,7 @@ The course begins with a detailed examination of conventional currencies and pay
 
 Whether you represent a small enterprise or a large corporation, this course aims to equip you with the knowledge to integrate Bitcoin into your daily operations, thereby enhancing your company’s resilience, efficiency, and competitive edge. As Bitcoin continue to reshape the economic landscape, understanding these groundbreaking technologies is not merely an option but a strategic necessity. Prepare to engage with insightful content, practical examples, and strategic guidance that will enable you to navigate and leverage the evolving world of Bitcoin!
 
-
+Ready to dive into the world of Bitcoin for businesses? Let's go!
 
 # Currency, payment systems, and Bitcoin
 <partId>d9bd0e21-8488-44e0-af55-6d0b934f83c2</partId>
@@ -578,9 +578,9 @@ This is by far the most common method, done either via peer-to-peer exchanges or
 
 To learn how to open a business account and use it to buy, sell, and transfer bitcoins, you can check out these two tutorials specifically designed for businesses, covering the Kraken and Bitfinex platforms in their corporate versions:
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
+https://planb.network/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
 
-https://planb.network/tutorials/exchange/centralized/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
 
 To learn more about methods for acquiring bitcoins via an exchange or peer-to-peer, you can [consult the "exchange" section in our tutorials](https://planb.network/tutorials/exchange).
 
@@ -825,7 +825,7 @@ https://planb.network/tutorials/wallet/mobile/zeus-3e89603c-501d-439c-8691-d4a0d
 
 **Custodial LN wallets:**
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-c4792842-b046-44f9-a6f1-351191b7cc2b
+https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
@@ -859,17 +859,17 @@ Although the Essential profile does not demand highly sophisticated accounting s
 
 The most suitable hybrid solution for your profile is likely Swiss Bitcoin Pay:
 
-https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 
 Another easy-to-implement solution, but with the drawback of being 100% custodial, is Open Node:
 
-https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 
 If you are ready to get your hands dirty and want full control over the process, the BTCPay Server software is an excellent option. However, the major drawback of BTCPay Server is that its setup and management are time-consuming and require a certain level of technical expertise, but you can follow our guides:
 
-https://planb.network/tutorials/merchant/merchant/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 
 Finally, as a complement for physical points of sale, you could consider setting up [a Bitcoinize PoS](https://bitcoinize.com/).
@@ -1264,7 +1264,7 @@ Finally, whether you are a small merchant or a more established business, it is 
 
 
 
-# Conclusion
+# Final Section
 <partId>f6ca8d01-a4f3-449b-ac9f-c5fba9a69178</partId>
 
 ## Evaluate this course

@@ -1,0 +1,12 @@
+question: Jakie są cechy dobrego hasła?
+answer: Długie, złożone, unikalne i nie oparte na danych osobowych.
+wrong_answers:
+  - Krótkie, proste i łatwe do zapamiętania.
+  - Na podstawie danych osobowych, takich jak daty urodzenia i imiona.
+  - To samo hasło dla wszystkich kont.
+explanation: |
+  Dobre hasło jest długie (co najmniej 12 znaków), złożone
+  (mieszanka wielkich i małych liter, cyfr i symboli), unikalne (nie jest
+  symboli), unikalne (nie jest używane ponownie dla różnych kont) i
+  nie opiera się na danych osobowych.
+reviewed: true

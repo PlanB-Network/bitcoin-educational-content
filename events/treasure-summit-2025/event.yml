@@ -1,0 +1,18 @@
+id: 67b4f5ba-13c4-11f0-a8dc-2f2256a9d8dc
+start_date: 2025-03-15 14:00:00
+end_date: 2025-03-15 23:00:00
+timezone: America/New_York
+address_city_country: Miami, USA
+address_line_2: Online
+name: Bitcoin Treasure Summit 2025
+type: conference
+description: A conference focusing on innovation, networking, and emerging trends.
+language:
+  - en
+links:
+  website: https://lu.ma/61kly0km
+project_id: 31ecc08e-b46e-493f-9e7f-41f41a0bd50c
+tags:
+  - proof-of-work
+  - user-friendly
+  - adoption

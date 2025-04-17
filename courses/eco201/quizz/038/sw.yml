@@ -1,0 +1,11 @@
+question: Je, ni jukumu gani la bei linganishi katika Nadharia ya Austria ya Mzunguko wa Biashara?
+answer: Bei jamaa ni muhimu kuratibu mawakala wa kiuchumi.
+wrong_answers:
+  - Bei jamaa hazina umuhimu katika Nadharia ya Austria ya Mzunguko wa Biashara.
+  - Bei za jamaa ni muhimu kuamua kiwango cha ajira.
+  - Bei za jamaa ni muhimu kuamua kiwango cha Pato la Taifa.
+explanation: |
+  Shule ya Austria inasisitiza juu ya umuhimu wa bei zinazohusiana na
+  kuratibu mawakala wa kiuchumi. Bei jamaa zinaonyesha uhaba halisi
+  ya mambo ya uzalishaji na kuruhusu mawakala wa kiuchumi kurekebisha maamuzi yao.
+reviewed: true

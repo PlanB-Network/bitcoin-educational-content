@@ -1,0 +1,11 @@
+question: Je! ni muda gani kwa kampuni inayoendelea kufanya kazi hasa kupitia ukopaji wa gharama nafuu, licha ya kuwa mfilisi au karibu na kufilisika chini ya hali ya kawaida ya soko?
+answer: Kampuni ya Zombie
+wrong_answers:
+  - Kampuni ya Ghost
+  - Kampuni ya Vampire
+  - Kampuni ya Phantom
+explanation: |
+  Kampuni ya zombie ni kampuni ambayo, chini ya hali ya kawaida ya soko, ingefanya
+  kuwa mfilisi au karibu na kufilisika, lakini inaendelea kufanya kazi hasa kwa gharama ya chini
+  kukopa.
+reviewed: false

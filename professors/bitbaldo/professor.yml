@@ -8,10 +8,9 @@ links:
   twitter: https://twitter.com/bitbaldo
   nostr: npub16c5gruzygxj3y8hfhxxuqrx0mdu9dtkqyh2s0a2evau6ngzqtfqqx3walf
 
-tags:
-  - bitcoin
-  - education
-  - accountability
-
 tips:
   lightning_address: bitbaldo@getalby.com
+tags:
+  - guides
+  - user-friendly
+  - easy-explain

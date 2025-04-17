@@ -1,0 +1,13 @@
+question: 離線或 Cold 實體 Wallet 的建議使用方式是什麼？
+answer: 大量儲存。
+wrong_answers:
+  - 儲存日常開支。
+  - 少量儲存。
+  - 儲存短期儲蓄。
+explanation: |
+  建議使用離線或 Cold 實體 Wallet
+  儲存大筆資金，因為它比 Hot 錢包更不容易受到
+  線上威脅。但是，它不
+  不建議用於日常支出，因為它較少
+  日常交易。
+reviewed: true

@@ -1,0 +1,9 @@
+question: Która organizacja zaczęła przyjmować Bitcoin w listopadzie 2010 r. w wyniku lobbingu społeczności?
+answer: Fundacja Electronic Frontier
+wrong_answers:
+  - WikiLeaks
+  - Czerwony Krzyż
+  - Amnesty International
+explanation: |
+  Organizacja ta, współzałożona w 1900 roku przez Mitcha Kapora, Johna Gilmore'a i Johna Perry'ego Barlowa, miała na celu ochronę wolności w Internecie. Rozpoczęła ona przyjmowanie Bitcoin 9 listopada.
+reviewed: false

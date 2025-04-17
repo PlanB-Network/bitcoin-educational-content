@@ -1,0 +1,8 @@
+question: Jaki jest jeden ze sposobów na zdobycie bitcoinów bez ich kupowania?
+answer: Akceptuj je jako środek płatności za oferowane produkty lub usługi.
+wrong_answers:
+  - Pożycz je od przyjaciela i nigdy nie oddawaj.
+  - Wygraj je na loterii.
+  - Znajdź ich na ulicy.
+explanation: >-
+reviewed: true

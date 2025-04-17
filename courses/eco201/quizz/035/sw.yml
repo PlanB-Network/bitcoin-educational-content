@@ -1,0 +1,14 @@
+question: Ni nini hufanyika wakati viwango vya riba vinapungua kutokana na ongezeko la akiba kulingana na Nadharia ya Austria ya Mzunguko wa Biashara?
+answer: Kiasi cha bidhaa za mwisho zinazotumiwa kitapungua, viwango vya riba vitashuka, wajasiriamali watatumia utitiri huu wa mtaji kuunda bidhaa mpya za uwekezaji na hivyo kurefusha muundo wa uzalishaji.
+wrong_answers:
+  - Kiasi cha bidhaa za mwisho zinazotumiwa kitaongezeka, viwango vya riba vitapanda, wajasiriamali watatumia utitiri huu wa mtaji kuunda bidhaa mpya za uwekezaji na hivyo kufupisha muundo wa uzalishaji.
+  - Kiasi cha bidhaa za mwisho zinazotumiwa kitapungua, viwango vya riba vitapanda, wajasiriamali watatumia utitiri huu wa mtaji kuunda bidhaa mpya za uwekezaji na hivyo kufupisha muundo wa uzalishaji.
+  - Kiasi cha bidhaa za mwisho zinazotumiwa kitaongezeka, viwango vya riba vitashuka, wajasiriamali watatumia utitiri huu wa mtaji kuunda bidhaa mpya za uwekezaji na hivyo kufupisha muundo wa uzalishaji.
+explanation: |
+  Kulingana na Nadharia ya Austria ya Mzunguko wa Biashara, wakati kuna
+  kupungua kwa viwango vya riba kutokana na ongezeko la akiba, kiasi cha mwisho
+  bidhaa zinazotumiwa zitapungua kwani kuokoa kunahusisha kuahirisha sehemu ya matumizi ya mtu
+  hadi tarehe ya baadaye. Matokeo yake, viwango vya riba vitashuka kwa sababu Supply ya mtaji
+  inaongezeka. Hii inaruhusu wajasiriamali kutumia utitiri huu wa mtaji kuunda
+  bidhaa mpya za uwekezaji na hivyo kurefusha muundo wa uzalishaji.
+reviewed: true

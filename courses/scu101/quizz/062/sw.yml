@@ -1,0 +1,11 @@
+question: Je, ni baadhi ya vipengele vipi vya maarifa ya mtandao vinavyohitajika katika usalama wa mtandao?
+answer: TCP/IP, VPN, firewall
+wrong_answers:
+  - HTTP, FTP, SMTP
+  - POP3, IMAP, SSH
+  - DHCP, DNS, ARP
+explanation: |
+  Sura inataja TCP/IP, VPN, na firewall kama baadhi ya
+  vipengele vya maarifa ya mtandao vinavyohitajika katika
+  usalama wa mtandao.
+reviewed: true

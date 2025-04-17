@@ -1,0 +1,11 @@
+question: Je, ni baadhi ya suluhu za usimbaji fiche wa data kwenye mifumo tofauti ya uendeshaji?
+answer: BitLocker ya Windows, LUKS ya Linux, na chaguo la ndani la Mac.
+wrong_answers:
+  - BitLocker ya Linux, LUKS ya Mac, na chaguo la kujengwa ndani la Windows.
+  - BitLocker ya Mac, LUKS ya Windows, na chaguo la kujengwa ndani la Linux.
+  - LUKS kwa mifumo yote ya uendeshaji.
+explanation: |
+  Mifumo tofauti ya uendeshaji ina suluhisho tofauti kwa
+  usimbaji fiche wa data. BitLocker ni ya Windows, LUKS ni ya
+  Linux, na Mac ina chaguo la ndani la usimbuaji data.
+reviewed: true

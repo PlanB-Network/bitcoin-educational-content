@@ -14,7 +14,7 @@ def template_language_specific(lang):
   - {lang}
       - last_contridution_date: 
       - urgency: 
-      - contributors_id: 
+      - contributor_names: 
       - reward: """
     return content
 
@@ -62,7 +62,7 @@ def process_directory(root_dir, subfolders):
   - {lang}
       - last_contribution_date: 
       - urgency: 
-      - contributors_id: 
+      - contributor_names: 
       - reward: """
                         append_to_yaml(file_path, content_to_append)
                         print(f"Processed {file_path}")

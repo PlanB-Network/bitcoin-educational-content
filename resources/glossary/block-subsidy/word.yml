@@ -1,98 +1,94 @@
 id: 5cd05be5-cfe6-4417-a26f-aca9453ce4bd
 en_word: BLOCK SUBSIDY
-related_words: []
-tags:
-  - ''
-
-# Proofreading metadata
+related_words: 
 original_language: fr
 proofreading:
   - language: en
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.19
+    contributor_names:
+    reward: 0.23
   - language: fr
     last_contribution_date: 2024-07-26
     urgency: 1
-    contributors_id:
+    contributor_names:
       - LoicPandul
-    reward: 0.09
+    reward: 0.11
 
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.27
 
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.19
+    contributor_names:
+    reward: 0.23
 
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.23
 
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.27
 
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.27
 
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.32
 
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.23
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.27
 
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.19
+    contributor_names:
+    reward: 0.23
 
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.27
 
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.36
 
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.36
 
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.32

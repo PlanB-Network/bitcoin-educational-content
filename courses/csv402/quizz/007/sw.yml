@@ -1,0 +1,9 @@
+question: RGB inapunguzaje mwonekano wake?
+answer: Taproot (Tapret)
+wrong_answers:
+  - OP_RETURN (Opret)
+  - Sig tweak
+  - Marekebisho muhimu
+explanation: |
+  Taproot (Tapret) huwezesha ahadi kuingizwa katika shughuli kwa uangalifu na kwa ufanisi, huku ikihakikisha upatanifu na viwango vya sasa.
+reviewed: false

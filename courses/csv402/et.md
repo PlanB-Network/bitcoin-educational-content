@@ -46,6 +46,7 @@ Viimase osa juhivad teised kõnelejad, kes tutvustavad konkreetseid RGB-põhisei
 See koolituskursus kasvas algselt välja kahenädalasest edasijõudnute arenduslaagrist Viareggios, Toscanas, mille korraldas [Fulgur'Ventures] (https://fulgur.ventures/). Esimene nädal, mis keskendus Rustile ja SDK-dele, on leitav sellest teisest kursusest:
 
 https://planb.network/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
+
 Sellel kursusel keskendume stardilaagri teisele nädalale, mis keskendub RGB-le.
 
 **Nädal 1 - LNP402:**
@@ -69,6 +70,8 @@ Selle koolituskursuse kirjaliku versiooni koostamisel kasutati 2 peamist allikat
 - Videod Maxim Orlovsky, Hunter Trujilo ja Frederico Tenga seminarist Lightning Bootcampis ;
 - RGB dokumentatsioon, mille koostamist sponsoreeris [Bitfinex](https://www.bitfinex.com/).
 
+Kas olete valmis sukelduma RGB keerukasse ja põnevasse maailma? Lähme!
+
 # RGB teoreetiliselt
 
 <partId>80e797ee-3f33-599f-ab82-e82eeee08219</partId>
@@ -77,7 +80,7 @@ Selle koolituskursuse kirjaliku versiooni koostamisel kasutati 2 peamist allikat
 
 <chapterId>f52f8af5-5d7c-588b-b56d-99b97176204b</chapterId>
 
-![video](https://youtu.be/AF2XbifPGXM)
+:::video id=f27338bc-4210-4a2e-9b27-30278ed3282c:::
 
 RGB on protokoll, mis on loodud digitaalsete õiguste (lepingute ja varade kujul) kohaldamiseks ja jõustamiseks skaleeritaval ja konfidentsiaalsel viisil, mis põhineb Bitcoini plokiahela konsensusreeglitel ja toimingutel. Käesoleva esimese peatüki eesmärk on tutvustada RGB-protokolliga seotud põhimõisteid ja terminoloogiat, rõhutades eelkõige selle tihedat seost selliste põhiliste hajutatud arvutuskontseptsioonide nagu kliendipoolne valideerimine ja ühekordsed pitsatid.
 
@@ -310,15 +313,12 @@ Järgnev võrdlus aitab seda põhimõtet mõista:
 - Ajatempel (plokiahela)**: Lisades selle hash'i plokiahelasse, tõestame ka, et me teadsime seda konkreetsel hetkel (plokki lisamise ajal);
 - Ühekordselt kasutatav pitsat**: Ühekordsete pitserite puhul läheme sammu võrra kaugemale, muutes kohustuse ainulaadseks. Ühe hashiga saab paralleelselt luua mitu vastandlikku kohustust (arstide probleem, kes teatab perele "*See on poiss*" ja oma isiklikus päevikusse "*See on tüdruk*"). Ühekordne pitsat välistab selle võimaluse, ühendades kohustuse avaldustõendiga, näiteks Bitcoini plokiahelaga, nii et UTXO kulutamine pitseerib kohustuse lõplikult. Pärast kulutamist ei saa sama UTXO-d uuesti kulutada, et asendada kohustust.
 
-| Ühekordsed pitsatid | Ajatemplid | Lihtne kohustus (digest/hash) | Ühekordsed pitsatid | Ühekordsed pitsatid |
+|                                                                                  | Lihtne kohustus (digest/hash) | Ajatemplid | Ühekordsed pitsatid |
+| -------------------------------------------------------------------------------- | ----------------------------- | ---------- | ------------------- |
+| Kohustuse avaldamine ei avalda sõnumit                                          | Jah                           | Jah        | Jah               |
+| Tõend kohustuse kuupäevast / sõnumi olemasolust enne kindlat kuupäeva         | Võimatu                       | Võimalik   | Võimalik          |
+| Tõend, et ühtegi alternatiivset kohustust ei saa eksisteerida                  | Võimatu                       | Võimatu    | Võimalik          |
 
-| -------------------------------------------------------------------------------- | ------------------------------- | ---------- | ---------------- |
-
-| Kohustuse avaldamine ei avalda sõnumit | Jah | Jah | Jah | Jah | Jah | Jah | Jah | Jah
-
-| Kohustuse kuupäevade tõendamine / sõnumi olemasolu enne teatud kuupäeva | Võimatu | Võimalik | Võimalik | Võimalik | Võimalik | Võimalik
-
-| Tõend, et muud alternatiivset kohustust ei saa olla | Võimatu | Võimalik | Võimalik |
 
 Ühekordsed tihendid töötavad kolmes peamises etapis:
 
@@ -424,7 +424,7 @@ Enne teise peatüki tehnilistesse üksikasjadesse sukeldumist lugege julgelt uue
 
 <chapterId>cc2fe85a-9cc7-5b8c-a00a-c0a867241061</chapterId>
 
-![video](https://youtu.be/FS6PDprWl5Q)
+:::video id=73ddea2d-c243-479d-a3dc-12d7db8eef70:::
 
 Selles peatükis vaatleme kliendipoolse valideerimise ja ühekordselt kasutatavate pitserite rakendamist Bitcoini plokiahelas. Tutvustame RGB **commitment layer** (1. kiht) peamisi põhimõtteid, keskendudes eelkõige **TxO2** skeemile, mida RGB kasutab pitseri defineerimiseks ja sulgemiseks Bitcoini tehingus. Seejärel arutame kahte olulist punkti, mida ei ole veel üksikasjalikult käsitletud:
 
@@ -460,17 +460,12 @@ RGB kallal töötades leidsime vähemalt 4 erinevat võimalust nende pitserite r
 - Määrake pitser avaliku võtme väärtuse kaudu ja sulgege see _sisendisse_ ;
 - Määrake pitsat _väljundpunkti_ kaudu ja sulgege see _sisendpunkti_ kaudu.
 
-| Pitseri määratlus | Pitseri sulgemine | Täiendavad nõuded | Põhirakendus | Võimalikud kaasamisskeemid |
-
-| ------------- | ------------------------- | --------------------- | ----------------------------------------------------------------- | ---------------------------- | ------------------------------ |
-
-| P2(W)PKH | Praegu puudub | Keytweak, taptweak, opret |
-
-| TxO2 | Tehingu väljund | Tehingu väljund | Nõuab Bitcoini deterministlikke kohustusi | RGBv1 (universaalne) | Keytweak, tapret, opret |
-
-| PkI | Avaliku võtme väärtus | Tehingukanne | Ainult Taproot & ei ühildu Legacy rahakottidega | Bitcoin-põhised identiteedid | Sigtweak, witweak |
-
-| TxO1 | Tehingu väljund | Tehingu sisend | Ainult Taproot & ei ühildu Legacy rahakottidega | Hetkel puudub | Sigtweak, witweak |
+| Skeemi nimi  | Pitseri definitsioon      | Pitseri sulgemine       | Lisatingimused                                                  | Peamine rakendus           | Võimalikud kohustuslikud skeemid |
+| ------------- | ------------------------- | ----------------------- | -------------------------------------------------------------- | -------------------------- | -------------------------------- |
+| PkO           | Avaliku võtme väärtus     | Tehingu väljund         | P2(W)PKH                                                        | Hetkel puudub              | Keytweak, taptweak, opret       |
+| TxO2          | Tehingu väljund           | Tehingu väljund         | Nõuab Bitcoinis deterministlikke kohustusi                      | RGBv1 (universaalne)       | Keytweak, tapret, opret         |
+| PkI           | Avaliku võtme väärtus     | Tehingu sisend          | Ainult Taproot & ei ühildu vanade rahakottidega                 | Bitcoinil põhinevad identiteedid | Sigtweak, witweak              |
+| TxO1          | Tehingu väljund           | Tehingu sisend          | Ainult Taproot & ei ühildu vanade rahakottidega                 | Hetkel puudub              | Sigtweak, witweak               |
 
 Me ei hakka iga sellise konfiguratsiooni kohta üksikasjalikult rääkima, sest RGB-s oleme otsustanud kasutada **pitseri määratlusena **väljundit** ja paigutada _sisselülitus_ tehingu väljundisse, mis kulutab seda _väljundit_. Seega võime järgmiseks kasutusele võtta järgmised mõisted:
 
@@ -740,79 +735,53 @@ Kui me alustasime RGBga, vaatasime kõik need meetodid läbi, et määrata kindl
 - Rakendamise ja hoolduse keerukus ;
 - Konfidentsiaalsus ja vastupanu tsensuurile.
 
-| Jälgimine ja ahelasisene dimensioneerimine | Kliendipoolne dimensioneerimine | Portfelli integreerimine | Riistvara ühilduvus | Lightning ühilduvus | Taproot ühilduvus |
+| Meetod                                             | On-chain jälg ja suurus | Kliendi poole suurus | Rahakoti integreerimine | Riistvara ühilduvus | Lightning ühilduvus | Taproot ühilduvus |
+| -------------------------------------------------- | ---------------------- | ------------------ | ---------------------- | ------------------ | ----------------- | --------------- |
+| Keytweak (deterministlik P2C)                      | 🟢                     | 🟡                 | 🔴                      | 🟠                 | 🔴 BOLT, 🔴 Bifrost | 🟠 Taproot, 🟢 MuSig |
+| Sigtweak (deterministlik S2C)                      | 🟢                     | 🟢                 | 🟠                      | 🔴                 | 🔴 BOLT, 🔴 Bifrost | 🟠 Taproot, 🔴 MuSig |
+| Opret (OP_RETURN)                                  | 🔴                     | 🟢                 | 🟢                      | 🟠                 | 🔴 BOLT, 🟠 Bifrost | -               |
+| Tapret algoritm: vasak-ülemine sõlm               | 🟠                     | 🔴                 | 🟠                      | 🟢                 | 🔴 BOLT, 🟢 Bifrost | 🟢 Taproot, 🟢 MuSig |
+| Tapret algoritm #4: suvaline sõlm + tõend         | 🟢                     | 🟠                 | 🟠                      | 🟢                 | 🔴 BOLT, 🟢 Bifrost | 🟢 Taproot, 🟢 MuSig |
 
-| --------------------------------------------------- | ------------------------ | ------------------ | ----------------------------- | ------------------------ | ----------------------- | --------------------- |
 
-| Keytweak (deterministlik P2C) | 🟢 | 🟡 | 🔴 | 🟠 | 🔴 BOLT, 🔴 Bifrost | 🟠 Taproot, 🟢 MuSig | 🟢 MuSig |
+| Deterministlik kohustuse skeem                                | Standard       | On-chain kulud                                                                                                       | Kliendipoolse tõendi suurus                                                                                     |
+| ------------------------------------------------------------- | -------------- | -------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| Keytweak (deterministlik P2C)                                 | LNPBP-1, 2     | 0 baiti                                                                                                              | 33 baiti (muutmata võti)                                                                                        |
+| Sigtweak (deterministlik S2C)                                 | WIP (LNPBP-39) | 0 baiti                                                                                                              | 0 baiti                                                                                                         |
+| Opret (OP_RETURN)                                             | -              | 36 (v)baiti (lisatud TxOut)                                                                                          | 0 baiti                                                                                                         |
+| Tapret algoritm: vasak-ülemine sõlm                           | LNPBP-6        | 32 baiti tunnistajas (8 v-baiti) igas n-of-m multisigis ja skriptiraja kaudu kulutamisel                           | 0 baiti scriptless scripts taproot ~270 baiti ühe skripti korral, ~128 baiti mitme skripti korral               |
+| Tapret algoritm #4: suvaline sõlm + unikaalsuse tõend         | LNPBP-6        | 32 baiti tunnistajas (8 v-baiti) ühe skripti juhtudel, 0 baiti tunnistajas enamikul muudel juhtudel                 | 0 baiti scriptless scripts taproot, 65 baiti kuni Taptree sisaldab tosinat skripti                             |
 
-| Sigtweak (deterministlik S2C) | 🟢 | 🟠 | 🔴 | 🔴 BOLT, 🔴 Bifrost | 🟠 Taproot, 🔴 MuSig | 🟠 Sigtweak |
+| Kiht                           | On-chain kulud (bytes/vbytes) | On-chain kulud (bytes/vbytes) | On-chain kulud (bytes/vbytes) | On-chain kulud (bytes/vbytes) | On-chain kulud (bytes/vbytes) | Kliendi kulud (bytes) | Kliendi kulud (bytes) | Kliendi kulud (bytes) | Kliendi kulud (bytes) | Kliendi kulud (bytes) |
+| ------------------------------ | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- | --------------------- | --------------------- | --------------------- | --------------------- | --------------------- |
+| **Tüüp**                       | **Tapret**                   | **Tapret #4**                | **Keytweak**                 | **Sigtweak**                 | **Opret**                    | **Tapret**            | **Tapret #4**         | **Keytweak**         | **Sigtweak**         | **Opret**            |
+| Single-sig                     | 0                            | 0                            | 0                            | 0                            | 32                           | 0                     | 0                     | 32                    | 0?                    | 0                     |
+| MuSig (n-of-n)                 | 0                            | 0                            | 0                            | 0                            | 32                           | 0                     | 0                     | 32                    | ? > 0                 | 0                     |
+| Multi-sig 2-of-3               | 32/8                         | 32/8 või 0                   | 0                            | n/a                          | 32                           | ~270                  | 65                    | 32                    | n/a                   | 0                     |
+| Multi-sig 3-of-5               | 32/8                         | 32/8 või 0                   | 0                            | n/a                          | 32                           | ~340                  | 65                    | 32                    | n/a                   | 0                     |
+| Multi-sig 2-of-3 koos timeoutidega | 32/8                         | 0                            | 0                            | n/a                          | 32                           | 64                     | 65                    | 32                    | n/a                   | 0                     |
 
-| Opret (OP_RETURN) | 🔴 | 🟢 | 🟢 | 🟠 | 🔴 BOLT, 🟠 Bifrost | - | |
 
-| Tapret algoritm: vasakpoolne ülemine sõlmpunkt | 🟠 | 🔴 | 🟠 | 🟢 | 🔴 BOLT, 🟢 Bifrost | 🟢 Taproot, 🟢 MuSig | 🟢 MuSig |
+| Kiht                             | On-chain kulud (vbytes) | On-chain kulud (vbytes) | On-chain kulud (vbytes) | Kliendi kulud (bytes) | Kliendi kulud (bytes) |
+| -------------------------------- | ---------------------- | ---------------------- | ---------------------- | -------------------- | -------------------- |
+| **Tüüp**                         | **Baas**               | **Tapret #2**          | **Tapret #4**          | **Tapret #2**        | **Tapret #4**        |
+| MuSig (n-of-n)                   | 16.5                   | 0                      | 0                      | 0                    | 0                    |
+| FROST (n-of-m)                   | ?                      | 0                      | 0                      | 0                    | 0                    |
+| Multi_a (n-of-m)                 | 1+16n+8m               | 8                      | 8                      | 33 * m               | 65                   |
+| MuSig / Multi_a haru (n-of-m)     | 1+16n+8n+8xlog(n)      | 8                      | 0                      | 64                   | 65                   |
+| Ajastusega (n-of-m)               | 1+16n+8n+8xlog(n)      | 8                      | 0                      | 64                   | 65                   |
 
-| Tapret algoritm #4: iga sõlme + tõend | 🟢 | 🟠 | 🟢 | 🔴 BOLT, 🟢 Bifrost | 🟢 Taproot, 🟢 MuSig | 🟢 Taproot |
+| Meetod                                   | Privaatsus ja skaleeritavus | Interoperatiivsus | Ühilduvus | Portatiivsus | Keerukus |
+| ---------------------------------------- | ------------------------- | -------------- | ---------- | ----------- | ---------- |
+| Keytweak (deterministlik P2C)           | 🟢                         | 🔴             | 🔴        | 🟡          | 🟡         |
+| Sigtweak (deterministlik S2C)           | 🟢                         | 🔴             | 🔴        | 🟢          | 🔴         |
+| Opret (OP_RETURN)                       | 🔴                         | 🟠             | 🔴        | 🟢          | 🟢         |
+| Algo Tapret: vasak ülemine sõlm         | 🟠                         | 🟢             | 🟢        | 🔴          | 🟠         |
+| Algo Tapret #4: Suvaline sõlm + tõend   | 🟢                         | 🟢             | 🟢        | 🟠          | 🔴         |
 
-| Deterministlik kulukohustusskeem | Standard | Kulud ahelas | Kliendipoolse tõendusmaterjali suurus |
 
-| ------------------------------------------------------------- | -------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
 
-| Keytweak (deterministlik P2C) | LNPBP-1, 2 | 0 baiti | 33 baiti (parandamata võti) |
 
-| Sigtweak (deterministlik S2C) | WIP (LNPBP-39) | 0 baiti | 0 baiti | 0 baiti |
-
-| Opret (OP_RETURN) | - | 36 (v)baiti (TxOut täiendav) | 0 baiti |
-
-| Tapret algoritm: vasakpoolne ülemine sõlm | LNPBP-6 | 32 baiti tunnistaja (8 vbaiti) igal n-m multisigil ja kulutab ühe skripti tee kohta | 0 baiti taproot skriptita skriptidel ~270 baiti ühe skripti puhul, ~128 baiti, kui mitu skripti |
-
-| Tapret algoritm #4: iga sõlme + unikaalsuse tõestus | LNPBP-6 | 32 baiti tunnistajas (8 vb) ühe skripti puhul, 0 baiti tunnistajas enamikul muudel juhtudel | 0 baiti taproot skriptita skriptide puhul, 65 baiti kuni Taptree on tosin skripti |
-
-| Kiht | Kettakulu (baidid/vbait) | Kettakulu (baidid/vbait) | Kettakulu (baidid/vbait) | Kettakulu (baidid/vbait) | Kettakulu (baidid/vbait) | Kettakulu (baidid/vbait) | Kliendipoolne kulu (baidid) | Kliendipoolne kulu (baidid) | Kliendipoolne kulu (baidid) | Kliendipoolne kulu (baidid) | Kliendipoolne kulu (baidid) | Kliendipoolne kulu (baidid) |
-
-| ------------------------------ | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- | ------------------------ | ------------------------ | ------------------------ | ------------------------ | ------------------------ |
-
-| **Tüüp** | **Tapret** | **Tapret #4** | **Keytweak** | **Sigtweak** | **Opret** | **Tapret** | **Tapret #4** | **Keytweak** | **Sigtweak** | **Opret** | **Tapret #4** | **Tapret #4** | **Keytweak** | **Sigtweak** | **Opret** | **Opret** |
-
-| Single-sig | 0 | 0 | 0 | 0 | 0 | 0 | 32 | 0 | 0 | 0 | 32 | 0? | 0 | 0 |
-
-| MuSig (n-n) | 0 | 0 | 0 | 0 | 0 | 32 | 0 | 0 | 0 | 32 | ? > 0 | 0 |
-
-| Multi-sig 2-of-3 | 32/8 | 32/8 või 0 | 0 n/a | 32 | ~270 | 65 | 32 | n/a | 0 | 0 |
-
-| Multi-sig 3-of-5 | 32/8 | 32/8 või 0 | 0 n/a | 32 | ~340 | 65 | 32 | n/a | 0 | 0 |
-
-| Multi-sig 2-of-3 ajavaruga | 32/8 | 0 | 0 n/a | 32 | 64 | 65 | 32 | n/a | 0 | 0 | 0
-
-| Kiht | Kulu ahelas (vb) | Kulu ahelas (vb) | Kulu ahelas (vb) | Kulu kliendi poolel (baidid) | Kulu kliendi poolel (baidid) | Kulu kliendi poolel (baidid) |
-
-| -------------------------------- | ---------------------- | ---------------------- | ---------------------- | ------------------------ | ------------------------ |
-
-| **Tüüp** | **Base** | **Tapret #2** | **Tapret #4** | **Tapret #2** | **Tapret #4** | **Tapret #4** |
-
-| MuSig (n-n) | 16,5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0
-
-| FROST (n-of-m) | ? | 0 | 0 | 0 | 0 |
-
-| Multi_a (n-m) | 1+16n+8m | 8 | 8 | 33 * m | 65 | 65 |
-
-| MuSig haru / Multi_a (n-ist-m) | 1+16n+8n+8xlog(n) | 8 | 0 | 64 | 65 | 65 |
-
-| Aegumistega (n-ist-m) | 1+16n+8n+8xlog(n) | 8 | 0 | 64 | 65 | 65 |
-
-| Meetod | Konfidentsiaalsus ja skaleeritavus | Koostalitlusvõime | Ühilduvus | Kaasaskantavus | Keerukus | Komplekssus |
-
-| ----------------------------------------- | ------------------------------ | ---------------- | ------------- | ----------- | ---------- |
-
-| Keytweak (deterministlik P2C) | 🟢 | 🔴 | 🔴 | 🟡 | 🟡 | 🟡 |
-
-| Sigtweak (deterministlik S2C) | 🟢 | 🔴 | 🔴 | 🟢 | 🔴 | 🟢 | 🔴 |
-
-| Opret (OP_RETURN) | 🔴 | 🟠 | 🔴 | 🟢 | 🟢 | 🟢 |
-
-| Algo Tapret: ülemine vasakpoolne sõlm | 🟠 | 🟢 | 🔴 | 🟠 | 🟠 |
-
-| Algo Tapret #4: Iga sõlme + tõend | 🟢 | 🟢 | 🟠 | 🔴 | 🟢 |
 
 Uuringu käigus selgus, et ükski kohustusskeemidest ei ole täielikult ühilduv praeguse Lightning-standardiga (mis ei kasuta Taproot, _muSig2_ või täiendavat _commitment_-tuge). Praegu tehakse jõupingutusi, et muuta Lightning'i kanali konstruktsiooni (*BiFrost*), et võimaldada RGB-kohustuste lisamist. See on veel üks valdkond, kus me peame üle vaatama tehingu struktuuri, võtmed ja viisi, kuidas kanali uuendused allkirjastatakse.
 
@@ -1042,7 +1011,7 @@ Järgmises peatükis vaatleme RGB puhtalt ahelavälise komponendi, nimelt leping
 
 <chapterId>04a9569f-3563-5382-bf53-0c7069343ba0</chapterId>
 
-![video](https://youtu.be/tmAVdyXGmj4)
+:::video id=db4ee09f-1352-4ad1-9f7a-c962df7ea9fa:::
 
 Selles ja järgmises peatükis vaatleme RGB-keskkonna raames mõistet **armas leping** ja uurime erinevaid viise, kuidas need lepingud saavad määratleda ja arendada oma *seisundit*. Me näeme, miks RGB arhitektuur, kasutades ühekordsete pitserite järjestatud jada, võimaldab erinevaid ***sõlmimisoperatsioone*** skaleeritaval viisil ja ilma tsentraliseeritud registri kaudu käimata teostada. Samuti vaatleme ***Business Logic*** fundamentaalset rolli lepingu staatuse arengu kujundamisel.
 
@@ -1134,7 +1103,7 @@ Järgmises peatükis käsitleme üksikasjalikumalt nende ***seisundite*** ja ***
 
 <chapterId>78c44e88-50c4-5ec4-befe-456c1a9f080b</chapterId>
 
-![video](https://youtu.be/lUTjeuM0oTA)
+:::video id=1caec34d-f214-425b-a1a4-0a40ae7d3e0e:::
 
 Selles peatükis vaatleme, kuidas toimivad operatsioonid nutikontraktides ja olekute üleminekud, jällegi RGB-protokollis. Eesmärk on ka mõista, kuidas mitu osalejat teevad koostööd vara omandiõiguse üleandmiseks.
 
@@ -1400,19 +1369,14 @@ Kui lepingus ei ole seisundielementi määratletud muutuva või kumulatiivse ele
 
 Alljärgnevas tabelis on näidatud, kuidas iga lepinguoperatsiooni tüüp võib manipuleerida (või mitte) globaalset ja omandatud riiki:
 
-| Genesis | Riigi laiendamine | Riigi üleminek | State Transition |
+|                              | Algus  | Seisundi laiendus | Seisundi üleminek |
+| ---------------------------- | :----: | :--------------: | :--------------: |
+| **Global State lisamine**    |   +    |        -        |        +        |
+| **Global State mutatsioon**  |  n/a   |        -        |        +        |
+| **Owned State lisamine**     |   +    |        -        |        +        |
+| **Owned State mutatsioon**   |  n/a   |       Ei        |        +        |
+| **Valencies lisamine**       |   +    |        +        |        +        |
 
-| ---------------------------- | :-----: | :-------------: | :--------------: |
-
-| **Add Global State** | + | | - | + | | | |
-
-| k.a. | - | + | **Ülemaailmse seisundi muutumine** | - | + | | |
-
-| **Omaniku staatuse lisamine** | + | | - | + | | |
-
-| **Omaniku staatuse muutmine** | n/a | Ei | + | | |
-
-| **Lisatakse väärtused** | + | + | + | + | + | + | | | |
 
 **`+`** : tegevus võimalik, kui lepingu skeem seda võimaldab.
 
@@ -1420,15 +1384,12 @@ Alljärgnevas tabelis on näidatud, kuidas iga lepinguoperatsiooni tüüp võib 
 
 Lisaks sellele saab järgmises tabelis eristada iga andmetüübi ajalist ulatust ja ajakohastamisõigusi:
 
-| Metaandmed | Üldine riik | Omaniku riik |
+|                                 | Metaandmed                               | Globaalne olek                               | Omanikule kuuluv olek                                                                                      |
+| ------------------------------- | ---------------------------------------- | ------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| **Ulatus**                      | Määratletud ühele lepingulisele operatsioonile | Globaalne määratlus lepingule             | Määratletud igale pitserile (*Assignment*)                                                               |
+| **Kes saab seda uuendada?**     | Mitte uuendatav (ajutised andmed)       | Toiming, mille väljastavad osapooled (väljastaja jne.) | Sõltub seaduslikust omanikust, kes omab pitserit (see, kes saab seda järgmises tehingus kulutada)       |
+| **Ajaline ulatus**              | Ainult praeguse operatsiooni jaoks      | Olek määratakse operatsiooni lõpus         | Olek on määratletud enne operatsiooni (*Seal Definition* eelmisest operatsioonist)                      |
 
-| ------------------------------- | ---------------------------------------- | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-
-| Määratletud ühele lepinguoperatsioonile | Määratletud ülemaailmselt lepingu jaoks | Määratletud igale pitserile (*Ülesanne*) | Määratletud ühele lepinguoperatsioonile | Määratletud ülemaailmselt lepingu jaoks | Määratletud igale pitserile (*Ülesanne*) | Määratletud igale pitserile (*Ülesanne*) | Määratletud igale lepingule
-
-| Mitte-aktualiseeritav (efemeersed andmed) | Toimijate (emitent jne) poolt väljastatud tehing | Sõltub pitseri õigustatud omanikust (kes saab seda hilisemas tehingus kulutada) |
-
-| Seisund on määratletud enne operatsiooni (eelmise operatsiooni *Seal Definition* poolt) | Seisund on määratud operatsiooni lõpus | Seisund on määratud operatsiooni lõpus | Seisund on määratud enne operatsiooni (eelmise operatsiooni *Seal Definition* poolt) | Seisund on määratud operatsiooni lõpus | Seisund on määratud enne operatsiooni (eelmise operatsiooni *Seal Definition* poolt) | Seisund on määratud enne operatsiooni (eelmise operatsiooni *Seal Definition* poolt)
 
 ### Ülemaailmne riik
 
@@ -1544,17 +1505,13 @@ Attachments        | |     Tagged Hash      | | <========== | | File Hash | | Me
 +--------------------------+             +---------------------------------------+
 ```
 
-| **Etteavaldav** | **Kõnestatav** | **Struktureeritud** | **Attachments** | |
+| **Element**        | **Deklareeritud** | **Fungible**                        | **Struktureeritud**             | **Manused**                    |
+| ------------------ | -------------- | ----------------------------------- | ----------------------------- | ----------------------------- |
+| **Andmed**        | Puuduvad       | 64-bitine allkirjastatud või allkirjastamata täisarv | Kõik ranged andmetüübid       | Kõik failid                    |
+| **Infotüüp**      | Puudub         | Allkirjastatud või allkirjastamata  | Ranged tüübid                  | MIME tüüp                       |
+| **Privaatsus**    | Pole nõutav    | Pedersen commitment                 | Räsi koos osaliselt peidetud andmetega | Räsi-põhine failituvastus |
+| **Suuruse piirangud** | N/A         | 256 baiti                           | Kuni 64 KB                      | Kuni ~500 GB                    |
 
-| --------------------- | -------------- | ------------------------------------ | ----------------------------- | ---------------------------- |
-
-| Puudub | 64-bitine märgistatud või märkimata täisarv | Mis tahes range andmetüüp | Mis tahes fail |
-
-| Info type** | None | Signed or unsigned | Strict types | MIME type |
-
-| Pederseni kohustus | Pimestamine koos pimestamisega | Faili pimestatud ID
-
-| Suuruse piirangud** | N/A | 256 baiti | Kuni 64 KB | Kuni ~500 Gb |
 
 ### Sisendid
 
@@ -1866,6 +1823,7 @@ Lightning Network on Bitcoini detsentraliseeritud maksekanalite (või _state cha
 Lisateabe saamiseks selle kohta, kuidas Lightning töötab, soovitan teil läbida selle teise kursuse:
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 #### Mitme protokolliga seotud kohustused - MPC
 
 Multi Protocol Commitment (MPC) viitab RGB-s kasutatavale Merkle-puu struktuurile, mis hõlmab ühe Bitcoini tehingu raames mitmeid **Transitsioonipakke** erinevatest lepingutest. Idee on koondada mitu kohustust (mis võivad vastata erinevatele lepingutele või erinevatele varadele) ühte ankurduspunkti, et optimeerida plokiruumi hõivatust.
@@ -1968,7 +1926,7 @@ Tunnistaja tehing on Bitcoini tehing, mis sulgeb ühekordselt kasutatava pitseri
 
 <chapterId>8333ea5f-51c7-5dd5-b1d7-47d491e58e51</chapterId>
 
-![video](https://youtu.be/Uo1UoxiImsI)
+:::video id=97d81b85-5a82-40a5-b111-7d96be5afd0f:::
 
 Selles peatükis vaatleme lähemalt, kuidas RGB-lepingut defineeritakse ja rakendatakse. Me näeme, millised on RGB-lepingu komponendid, milline on nende roll ja kuidas nad on üles ehitatud.
 
@@ -1998,17 +1956,13 @@ Oluline on märkida, et selleks, et rahakott saaks hallata RGB vara (olgu see si
 
 Nende mõistete selgitamiseks on siin kokkuvõtlik tabel, milles võrreldakse RGB-lepingu komponente kas objektorienteeritud programmeerimise (OOP) või Ethereumi ökosüsteemis juba tuntud mõistetega:
 
-| RGB lepingu komponent | Tähendus | OOP ekvivalent | Ethereum ekvivalent |
+| RGB lepingu komponent        | Tähendus                              | OOP ekvivalent                            | Ethereum ekvivalent               |
+| ---------------------------- | ------------------------------------- | ----------------------------------------- | --------------------------------- |
+| **Genesis**                  | Lepingu algseisund                   | Klassi konstruktor                        | Lepingu konstruktor               |
+| **Schema**                   | Lepingu äriloogika                   | Klass                                     | Leping                           |
+| **Interface**                | Lepingu semantika                    | Liides (Java) / Trait (Rust) / Protokoll (Swift) | ERC Standard                      |
+| **Interface Implementation** | Semantika ja loogika kaardistamine   | Impl (Rust) / Implements (Java)           | Application Binary Interface (ABI) |
 
-| ---------------------------- | --------------------------------------- | -------------------------------------------------- | ---------------------------------- |
-
-| Klassi konstruktor | Lepingu konstruktor | Lepingu algseisund
-
-| Klass | Lepingu äriloogika
-
-| Lepingu semantika | Liides (Java) / tunnus (Rust) / protokoll (Swift) | ERC standard |
-
-| Application Binary Interface (ABI) | Impl (Rust) / Implements (Java) | Semantika ja loogika kaardistamine
 
 Vasakpoolne veerg näitab RGB-protokollile omaseid elemente. Keskmine veerg näitab iga komponendi konkreetset funktsiooni. Seejärel leiame veerus "OOP-ekvivalent" samaväärse termini objektorienteeritud programmeerimises:
 
@@ -2660,7 +2614,7 @@ Järgmises peatükis vaatleme, kuidas lepingu ülekandmine toimib ja kuidas RGB-
 
 <chapterId>f043a307-d420-5752-b0d7-ebfd845802c0</chapterId>
 
-![video](https://youtu.be/sVoKIi-1XbY)
+:::video id=75eb5a8d-1910-4155-b5e3-81204c9a8901:::
 
 Selles peatükis analüüsime lepingu üleandmise protsessi RGB ökosüsteemis. Selle illustreerimiseks vaatleme Alice'i ja Bobi, meie tavalisi peategelasi, kes soovivad vahetada RGB vara. Näitame ka mõned käsu väljavõtted käsurea tööriistast `rgb`, et näha, kuidas see praktikas töötab.
 
@@ -2954,7 +2908,7 @@ Nüüd, kui me oleme vaadanud RGB-programmeerimise põhielemente, tutvustan teil
 
 <chapterId>0e0a645c-0049-588d-8965-b8c536590cc9</chapterId>
 
-![video](https://youtu.be/GRwS-NvWF3I)
+:::video id=a3ad6dcd-90b8-4272-9dfc-76c85c859167:::
 
 Selles peatükis läheneme lepingu kirjutamisele samm-sammult, kasutades käsurea tööriista `rgb`. Eesmärk on näidata, kuidas paigaldada ja manipuleerida CLI-d, koostada **Skeem**, importida **Interface** ja **Interface Implementation**, seejärel väljastada (*väljastada*) vara. Samuti vaatleme aluseks olevat loogikat, sealhulgas kompileerimist ja oleku valideerimist. Selle peatüki lõpuks peaksite olema võimelised seda protsessi reprodutseerima ja looma oma RGB-lepinguid.
 
@@ -3253,7 +3207,7 @@ Järgmises peatükis vaatleme lähemalt RGB integreerimist Lightning-võrku.
 
 <chapterId>0962980a-8f94-5d0f-9cd0-43d7f884a01d</chapterId>
 
-![video](https://youtu.be/mqCupTlDbA0)
+:::video id=be25a165-6e23-488c-91d8-3dcfccc6eca1:::
 
 Käesolevas peatükis teen ettepaneku uurida, kuidas RGB-d saab kasutada Lightning Networkis, et integreerida ja liigutada RGB varasid (märgid, NFT-d jne) ahelavälise maksekanali kaudu.
 
@@ -3306,6 +3260,7 @@ Tegelikkuses võimaldab Lightning Network makseid suunata mitme kanali kaudu, ka
 Seetõttu tuleb RGB toimimist Lightning'ile vaadelda paralleelselt Lightning-võrgu enda toimimisega. Kui soovite selles teemas sügavamalt süveneda, siis soovitan kindlasti vaadata seda teist põhjalikku koolituskursust:
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 ### RGB koodikaart
 
 Lõpuks, enne järgmise jaotise juurde minekut, tahaksin anda teile ülevaate RGB-s kasutatavast koodist. Protokoll põhineb Rusti raamatukogudel ja avatud lähtekoodiga spetsifikatsioonidel. Siin on ülevaade peamistest repositooriumidest ja kastidest:
@@ -3407,7 +3362,7 @@ Bitcoini protokolli (tehingud, ümbersõidud jne) toetavad lisaseadmed.
 
 <chapterId>dc92a5e8-ed93-5a3f-bcd0-d433932842f4</chapterId>
 
-![video](https://youtu.be/nbUtV8GOR_U)
+:::video id=2ec9a181-a8b0-4da2-b7b5-9dfaaaeb10ba:::
 
 See kursuse viimane osa põhineb erinevate RGB bootcamp'i esinejate ettekannetel. See sisaldab RGB ja selle ökosüsteemi kohta käivaid iseloomustusi ja mõtisklusi, samuti protokollile tuginevate vahendite ja projektide tutvustusi. Seda esimest peatükki modereerib Hunter Beast ja kahte järgmist Frederico Tenga.
 
@@ -3473,7 +3428,7 @@ Kogu protsess näitab, kuidas RGB ökosüsteemi saab kasutusele võtta ja lõppk
 
 <chapterId>d4d80e07-5eac-5b29-a93a-123180e97047</chapterId>
 
-![vidéo](https://youtu.be/5iAhsgCSL3U)
+:::video id=04555813-516f-4eea-9767-7082c2ea6f01:::
 
 Selles peatükis, mis põhineb Frederico Tenga ettekandel, vaatleme Bitfinexi meeskonna poolt loodud RGB-le pühendatud vahendeid ja projekte, mille eesmärk on edendada selle protokolli ümber rikkaliku ja mitmekesise ökosüsteemi tekkimist. Meeskonna esialgne eesmärk ei ole välja anda konkreetset kaubanduslikku toodet, vaid pigem pakkuda tarkvara ehitusplokke, aidata kaasa RGB-protokollile endale ja pakkuda välja konkreetseid rakendusviiteid, näiteks mobiilne rahakott (*Iris Wallet*) või RGB-ga ühilduv Lightning-sõlm.
 
@@ -3587,7 +3542,7 @@ Järgmises peatükis vaatleme lähemalt, kuidas RGB Lightning-sõlme käivitada.
 
 <chapterId>ecaabe32-20ba-5f8c-8ca1-a3f095792958</chapterId>
 
-![vidéo](https://youtu.be/piQQH4Q2nr0)
+:::video id=d1e9753e-6093-4a47-bcdc-da1aebaefffc:::
 
 Selles viimases peatükis viib teid Frederico Tenga samm-sammult läbi Lightning RGB-sõlme seadistamise Regtest-keskkonnas ja näitab, kuidas luua RGB-märke. Käivitades kaks eraldi sõlme, avastate ka, kuidas avada nende vahel Lightning-kanal ja vahetada RGB-vara.
 
@@ -3954,7 +3909,7 @@ Projekt on endiselt alfa-staadiumis. Seetõttu on tungivalt soovitatav piirduda 
 
 LN-RGB ühilduvuse poolt avanevad võimalused on märkimisväärsed: stabiilsed mündid Lightningil, DEX layer-2, asendatavate žetoonide või NFT-de ülekandmine väga väikeste kuludega... Eelmistes peatükkides on kirjeldatud kontseptuaalset arhitektuuri ja valideerimisloogikat. Nüüd on teil praktiline ülevaade sellest, kuidas saada selline sõlme üles ja tööle, teie tulevaste arenduste või testide jaoks.
 
-# Kokkuvõte
+# Lõpusektsioon
 
 <partId>b0baebfc-d146-5938-849a-f835fafb386f</partId>
 

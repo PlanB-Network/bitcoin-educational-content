@@ -1,16 +1,10 @@
 id: 9876f960-e964-4d20-8a6e-36231de1f4d9
-builder: Samourai
-
-tags:
-  - watch-only
-  - xpub
 
 category: mobile
 
 level: beginner
 
-credits:
-  professor: pretty-private
+professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
 
 # Proofreading metadata
 project_id: f8ab03d0-0308-4ac1-a223-9c8e7600ff63
@@ -19,79 +13,83 @@ proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 2.23
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 1.17
+    contributor_names:
+    reward: 1.7
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
-    reward: 0.58
+    reward: 0.85
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 1.7
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 2.23
   - language: fr
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 1.17
+    contributor_names:
+    reward: 1.7
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 1.7
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 3.3
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 1.17
+    contributor_names:
+    reward: 1.7
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 2.23
   - language: vi
     last_contribution_date: 2024-11-16
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Henry-Da0
     reward: 1.65
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 2.23
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 2.77
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 2.77
 
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 2.23
+tags:
+  - wallets
+  - good-practice
+  - user-friendly

@@ -1,0 +1,9 @@
+question: Jakie są konsekwencje utraty Stash w protokole RGB?
+answer: Historia Contract i powiązane dane stają się nieodwracalne
+wrong_answers:
+  - Dane można odtworzyć z Blockchain, jeśli posiadasz seed
+  - Kopia danych jest dostępna na serwerach RGB w Szwajcarii
+  - Dane są automatycznie replikowane dla wszystkich uczestników
+explanation: |
+  W Client-side Validation każdy użytkownik jest odpowiedzialny za swój Stash, który nie jest replikowany gdzie indziej, co sprawia, że jego utrata jest ostateczna.
+reviewed: false

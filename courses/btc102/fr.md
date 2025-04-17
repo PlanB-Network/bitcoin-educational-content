@@ -23,7 +23,7 @@ Pour vous aider à commencer cette aventure, j’ai créé ce cours gratuit. Uni
 
 <partId>008c49b7-5e17-5973-87f2-ba28429b2697</partId>
 
-## Introduction à la formation BTC102
+## Aperçu du cours
 
 <chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 
@@ -58,7 +58,7 @@ Nous sommes dans une industrie ou deux branches principales émergent dans le se
 
 L'intégralité de cette université est porté sur l'univers Bitcoin et non crypto.
 
-![Arnaque et fraude financière](https://youtu.be/LeyI3CBw2g4)
+:::video id=c1a469c0-77ed-4c7d-aff0-acb1cc727d76:::
 
 Le domaine des cryptomonnaies, dont le Bitcoin, reste relativement jeune et légèrement régulé. Il est ainsi riche en escroqueries diverses. La compréhension des dangers et la reconnaissance des pièges typiques sont essentielles. Voici quelques situations d'escroquerie fréquemment rencontrées :
 
@@ -164,7 +164,7 @@ Gardez toujours à l'esprit que tout le monde ne sera pas nécessairement transp
 
 <chapterId>f0873bf2-6a6f-5485-bb7a-d84be14f404d</chapterId>
 
-![sécurité en ligne](https://youtu.be/d9Ccy17yWB0)
+:::video id=bbd89739-728c-49d5-85ab-487881d82246:::
 
 Outre les arnaques en crypto-monnaie et autour de la finance, la première raison de perdre des bitcoins est liée à une mauvaise gestion de sa sécurité en ligne. Il arrive souvent que les gens utilisent le même mot de passe pour toutes leurs comptes, oublient de mettre à jour leur ordinateur et négligent de sauvegarder régulièrement leurs données. Si vous vous sentez concerné par ces pratiques, ne vous inquiétez pas, il est toujours possible d'améliorer vos habitudes de sécurité en ligne. Voici quelques mesures de base à mettre en place :
 
@@ -213,7 +213,7 @@ Ecnore une fois, si ce sujet vous intéresse, la formation SECU 101 est disponib
 
 <chapterId>33134b3f-92c1-5185-afb6-88599e47e801</chapterId>
 
-![Conseil pour débutant](https://youtu.be/juMUJ3MWeZY)
+:::video id=93612ecc-08a2-4242-9879-38970b052f44:::
 
 L'éducation formelle nous apprend peu de choses sur l'investissement. En conséquence, nous nous aventurons souvent seuls dans ce paysage d'investissement nouveau et complexe.
 
@@ -348,7 +348,7 @@ Si cela est nouveau pour vous, je vous encourage vivement à suivre BTC 101 avan
 
 <chapterId>d4327ac4-9ff8-5192-b542-cb78c0bd0aa7</chapterId>
 
-![pourquoi bitcoin est-il si important](https://youtu.be/Iq0wZF3Ui9A)
+:::video id=047c7ad4-1cd4-4d19-8255-700add7ba656:::
 
 Pourquoi l'importance de Bitcoin est-elle si cruciale ? C'est là la question centrale de cette université. Que cela concerne vos études ou votre stratégie d'investissement, sans une compréhension claire de l'importance de Bitcoin, vous risquez de dévier de votre plan d'action. L'objectif est donc de toujours garder à l'esprit les fondamentaux de Bitcoin, afin d'assurer que votre stratégie reste en phase avec vos convictions.
 
@@ -430,7 +430,7 @@ Bitcoin possède une dimension hautement philosophique, éthique et politique to
 
 <chapterId>e106c6f1-d75b-5a62-b245-0ea2e4d02ef8</chapterId>
 
-![comprendre l'industrie du bitcoin](https://youtu.be/fcXvjghA-uM)
+:::video id=e7016d07-9fce-42d2-8d33-51139fb485e2:::
 
 Avec l'arrivé de Bitcoin en 2009 par Satoshi Nakamoto, une industrie de plusieurs milliard de dollars est née. Cette industrie malgres, ca jeunesse, a connu une croissance exponentielle au cours des dix dernières années. De nouveaux acteurs arrivent chaque jour avec de grosse somme d'argent et sont prêts à pénétrer en force dans cette nouvelle industrie. Aujorud'hui l'industrie a atteint un point de non-retour où les gouvernements, banques, géant d'internet ou autres ont rejoint le mouvement avec toute sorte d'intervention.
 
@@ -652,14 +652,19 @@ Pour ce type de profil, il est conseillé d'utiliser un portefeuille de type fro
 Tutoriel Portfeuille pertinant:
 
 https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+
 https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+
 https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
-https://planb.network/tutorials/wallet/hardware/trezor-441fa7a1-4aac-4b6a-984f-3dd428ba0c84
+
+https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
 Moyen d'échange qui permet de faire du volume:
 
 https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
+
 https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+
 https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
 Si le hold veut allez plus loins: mise en place d'un plan de DCA comme le stacker et un portfeuille chaud LN d'utilisation pour dépenser un peu de bitcoin
@@ -708,19 +713,25 @@ D'autres solutions peuvent consister à commencer à vendre des biens ou des ser
 Un portefuille chaud pour accumulé rapidement
 
 https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+
 https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 Un portefeuille froid pour la sécurisation long terme
 
 https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+
 https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+
 https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
-https://planb.network/tutorials/wallet/hardware/trezor-441fa7a1-4aac-4b6a-984f-3dd428ba0c84
+
+https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
 Une plateforme de DCA pour acculumuer du bitccoin.
 
 https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+
 https://planb.network/tutorials/exchange/centralized/bull-bitcoin-60a58596-e54c-41ba-855d-f9edb76cfb0e
 
 Ce type de profile peut aussi bien evidement utilsier unbroker pour faire un gros achat d'un coup comme un holds, mais genement le stacking esty concepte de rajouter régulierement des sat a son portfeuille. Une approche plus courrente serait donc d'apprendre a utiliser bitcoin de facon pair a pair et ainsi acheter des bitcoin directement en cash avec des proche ou des membre de la communauté bitcoin
@@ -770,19 +781,25 @@ Pour s'exposer à Bitcoin, ce type de profil aura plusieurs options :
 Portefeuille chaud LN
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-c4792842-b046-44f9-a6f1-351191b7cc2b
+
+https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+
 https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
 Portefeuille froid
 
 https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+
 https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+
 https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
-https://planb.network/tutorials/wallet/hardware/trezor-441fa7a1-4aac-4b6a-984f-3dd428ba0c84
+
+https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
 Plateforme d'achat
 
 https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+
 https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
 ### Est-ce pour vous ?
@@ -823,13 +840,17 @@ https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-2
 
 Portefeuille froid :
 https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
+
 https://planb.network/tutorials/wallet/hardware/seed-signer-ee2c284a-0e23-49a4-b0ca-4a4702072973
 
 Achat non KYC entre particuliers :
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-wallet-db64fe42-17ca-4b24-abb8-e7d4c03b2028
+https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+
 https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+
 https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+
 https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
 ### Est-ce pour vous ?
@@ -851,6 +872,9 @@ https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f
 
 Dans l'esprit du Parano, la prudence, la sécurité et l'anonymat sont primordiaux. Ces priorités dictent une approche délibérée et bien réfléchie de l'utilisation de Bitcoin, favorisant l'auto-suffisance et la prudence. Le Parano est prêt à investir du temps et des efforts pour assurer la sécurité et la confidentialité de ses bitcoin, tout en naviguant habilement dans l'écosystème pour éviter toute exposition inutile. Bien qu'il puisse sembler excessivement prudent pour certains, le Parano considère que sa diligence et son attention aux détails sont essentielles pour une participation réussie et sécurisée dans le monde du Bitcoin.
 
+# Protéger ses héritiers et son patrimoine
+
+<partId>0b8a9528-719b-4a2d-bd50-1e173a896570</partId>
 
 ## Création d'un plan d'héritage
 
@@ -1050,7 +1074,7 @@ Je suis vraiment fier que vous ayez atteint ce stade. Je le pense sincèrement. 
 
 Dans tous les cas, toutes nos formations restent gratuites et de nombreuses ressources ou tutoriels sont disponibles sur notre plateforme pour vous accompagner. Bonne continuation dans vos études !## Note la formation !
 
-# Conclusion
+# Section finale
 
 <partId>a8425389-4a53-4b57-b9b4-36c1cab12de5</partId>
 
@@ -1068,3 +1092,4 @@ Dans tous les cas, toutes nos formations restent gratuites et de nombreuses ress
 
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
 <isCourseConclusion>true</isCourseConclusion>
+

@@ -1,0 +1,9 @@
+question: 計算 ECDSA 簽署的起點是什麼？
+answer: 訊息 Hash
+wrong_answers:
+  - 公開金鑰
+  - 固定的 Nonce
+  - 自訂橢圓曲線
+explanation: |
+  ECDSA 簽署首先要計算要簽署的訊息的 Hash，通常使用 SHA256。
+reviewed: false

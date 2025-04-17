@@ -1,0 +1,9 @@
+question: Jak można przekształcić szyfr blokowy w szyfr strumieniowy?
+answer: Używając trybów takich jak OFB, który generate strumień klucza z szyfru blokowego
+wrong_answers:
+  - Dzieląc tekst jawny na bajty i szyfrując je jeden po drugim
+  - Stosując wypełnianie wiadomości przed szyfrowaniem
+  - Zwiększając długość klucza dla każdego zaszyfrowanego bloku
+explanation: |
+  Tryby takie jak OFB pozwalają szyfrowi blokowemu działać jako szyfr strumieniowy poprzez generowanie strumienia klucza, który jest następnie używany dla każdej części tekstu jawnego.
+reviewed: false

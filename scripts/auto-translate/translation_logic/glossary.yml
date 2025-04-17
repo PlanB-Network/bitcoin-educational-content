@@ -1,0 +1,224 @@
+non_translatable:
+  #  - second layer
+  - ASIC
+  - Address
+  - off chain
+  - off-chain
+  - Altcoin
+  - AluVM
+  - Anchor
+  - Aqua
+  - Assignment
+  - Attacco Sybil # ?
+  - B-CERT
+  - BDK
+  - BUIDL
+  - Bitcoin
+  - Bitcoin Dev Kit
+  - Block explorer
+  - Block reward
+  - Blockchain
+  - Blockstream Green
+  - Bolt
+  - Business Logic
+  - CLI
+  - CPFP
+  - Child pay for parent
+  - Child-pay-for-parent
+  - Client-side Validation
+  - CoinJoin
+  - Coinbase Transaction
+  - Cold
+  - Commitment
+  - Commitment Transaction
+  - Confidential Transactions
+  - Consignment
+  - Consignment Endpoint
+  - Contract
+  - Contract Operation
+  - Contract Participant
+  - Contract Rights
+  - Contract State
+  - Cypherpunk
+  - Debugger
+  - Decouvre Bitcoin
+  - Descriptor Wallets
+  - Deterministic Bitcoin Commitment
+  - Directed Acyclic Graph
+  - Double-spending
+  - Dust
+  - Découvre Bitcoin
+  - Elements
+  - Engraving Extra Transaction Proof
+  - Exchange
+  - Faucet
+  - Federated 2-Way Peg
+  - Fork
+  - Full node
+  - Full-node
+  - Genesis
+  - Global State
+  - Green
+  - HODL
+  - HTLC
+  - Halving
+  - Hard
+  - Hardware Wallet
+  - Hash
+  - Hashrate
+  - Hot 
+  - Interface
+  - Interface Implementation
+  - Invoice
+  - Issued Assets
+  - LN
+  - LND
+  - Layer
+  - Ledger
+  - Liana
+  - Lightning Network
+  - Lightning Network Daemon
+  - Liquid
+  - Liquid Network
+  - Mainnet
+  - Maximalist
+  - Mempool
+  - Merkle Root
+  - Merkle Tree
+  - Miner
+  - Mining
+  - Mining pool
+  - Mnemonic
+  - Multi Protocol Commitment
+  - Multisig
+  - Nonce
+  - OP_CODE
+  - OP_RETURN
+  - On-Chain
+  - Orphan block
+  - Owned State
+  - Ownership
+  - P2P
+  - P2SH
+  - P2TR
+  - P2WPKH
+  - PSBT
+  - Partially Signed Bitcoin Transaction
+  - Pay-to-Script-Hash
+  - Pay-to-Taproot
+  - Pay-to-Witness-Public-Key-Hash
+  - PayJoin
+  - Pedersen commitment
+  - Plan ₿
+  - Plan ₿ Network
+  - Proof of Work
+  - Proof-of-Work
+  - RBF
+  - RGB
+  - RPC
+  - Redeem
+  - Replace by fee
+  - Replace-by-fee
+  - Rust
+  - Satoshi
+  - Sats
+  - Schema
+  - Seal
+  - Seal Definition
+  - SegWit
+  - Shard
+  - Sidechain
+  - Single-Use Seal
+  - Smart contract
+  - Soft
+  - Software Wallet
+  - Stash
+  - State Extension
+  - State Transition
+  - Strong Federation
+  - Supply
+  - Taproot
+  - Terminal Consignment
+  - Testnet
+  - Timestamp
+  - Transition Bundle
+  - Trustless
+  - UTXO
+  - Valency
+  - Wallet
+  - Watch Tower
+  - Watch Towers
+  - watch towers
+  - watch tower
+  - Watch-only wallet
+  - Watchtower
+  - Whirlpool
+  - Witness Transaction
+  - \langle
+  - \ldots
+  - \rangle
+  - anyone-can-spend
+  - b-cli
+  - bitcoin-cli
+  - bitcoind
+  - blinded
+  - block signer
+  - block signing
+  - block size war
+  - claimpegin
+  - combineblocksigs
+  - commitment transaction
+  - con_max_block_sig_size
+  - daemon
+  - default asset
+  - destroyamount
+  - double-spending
+  - dumpprivkey
+  - dynafed
+  - elements-cli
+  - elementsd
+  - federated peg script
+  - fork
+  - full node
+  - generate
+  - generate
+  - getnewaddress
+  - getnewblockhex
+  - getpeginaddress
+  - getrawtransaction
+  - gettransaction
+  - gettxoutproof
+  - getwalletinfo
+  - hashrate
+  - importaddress
+  - importprivkey
+  - issueasset
+  - listissuances
+  - mainchain
+  - mainnet
+  - merkle path
+  - multi-sig
+  - on chain
+  - on-chain
+  - passphrase
+  - pegged asset
+  - proof of work
+  - proof-of-work
+  - redeemscript
+  - reissuance token
+  - reissueasset
+  - satoshi
+  - sats
+  - seed
+  - seedphrase
+  - sendtoaddress
+  - sendtomainchain
+  - signblock
+  - signblockscript
+  - submitblock
+  - transaction ID
+  - txid
+  - unblinded
+  - wallet
+  - watchmen
+  - ₿-CERT

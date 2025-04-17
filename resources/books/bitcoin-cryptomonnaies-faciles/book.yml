@@ -1,93 +1,101 @@
 id: 8b4b20e3-2ec4-421f-a032-581bc53e6067
 author: Claire Bava, Alexandre Stachtchenko
 level: beginner
-tags:
-  - easy-explain
-
-# Proofreading metadata
 original_language: fr
 proofreading:
   - language: fr
     last_contribution_date: 2025-01-13
     urgency: 1
-    contributors_id:
+    contributor_names:
       - hunt-wood
-    reward: 0.09
+    reward: 0.1
 
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.25
 
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.17
+    contributor_names:
+    reward: 0.21
 
   - language: en
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.17
+    contributor_names:
+    reward: 0.21
 
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.21
 
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.25
 
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.25
 
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.28
 
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.21
 
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.32
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.25
 
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.17
+    contributor_names:
+    reward: 0.21
 
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.25
 
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.28
+
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.32
+tags:
+  - user-friendly
+  - easy-explain
+  - high-level
+contributor_names:
+  - PaoloFoti

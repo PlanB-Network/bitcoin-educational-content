@@ -20,11 +20,12 @@ objectives:
 # 引言
 <partId>41dc2815-c63a-4ce1-9b88-e7b3825e958e</partId>
 
-## 比特币创造历史简介
+## 课程概述
 <chapterId>85290407-1aa3-4cb4-890a-aed23441afb7</chapterId>
+欢迎来到 HIS201 课程！
 这个课程旨在以你从未读过的方式讲述比特币的创造故事。尽管充满了迷人的细节，但这个故事经常被忽视。我们将努力描述其所有复杂性，从中本聪的构想到他早期的消失以及向社区的交接。
 
-### 简要概述
+**简要概述**
 
 比特币是由使用化名中本聪的个人（或团体）设计的。2008年10月31日，他通过一个不太为人知的电子邮件邮件列表在互联网上分享了描述他模型的白皮书。2008年1月8日，他通过发布软件的源代码和挖掘链的第一个区块来实现他的概念，从而启动了网络。为了吸引足够数量的用户，他通过各种通信渠道推广他的创造。
 
@@ -46,7 +47,7 @@ objectives:
 
 最后，比特币项目是90年代反叛密码学家运动——密码朋克运动的继承者，这些人试图通过积极使用密码学来保护人们在互联网上的隐私和自由。比特币符合这些个体在90年代末和2000年代初想象的项目，如b-money、bit gold或RPOW。尽管在设计比特币之前他并不知道这些项目，中本聪也可能不是原始运动的一部分，但他提到了它们。
 
-### 课程大纲
+**课程大纲**
 
 本课程分为四个部分，分别关注比特币的起源（3章）、其缓慢的出现（3章）、其初期的崛起（3章）以及其社区的形成（4章）。总共包括以下12章（同时指定了相关时期）：
 
@@ -63,7 +64,7 @@ objectives:
 - 中本聪的消失（2010年12月-2011年4月）
 - 社区接管（2011年4月-2011年9月）
 
-### 详情
+**详情**
 
 所有日期和时间都是根据UTC时区（对应于格林威治子午线）给出的，因此可能与美国的日期有所不同。中本聪在研究他的项目时很可能在美国。然而，比特币是一个国际项目，特别包括了来自芬兰开发者马蒂·马尔米（东欧时间，UTC+2 / UTC+3）的贡献，因此我们将参考通用时区。因此，我们说主网络的有效启动发生在1月9日凌晨2:54，而不是对应于东海岸时区（太平洋时间，UTC-8 / UTC-7）的1月8日下午6:54。
 
@@ -77,6 +78,7 @@ objectives:
 
 请注意，对于本课程的非英文版本，大多数引用来自美国英语，并且已经为此次机会翻译。当提到账户单位时，术语*coin*通常被翻译为“单位”（而不是“片”）。
 
+准备好探索比特币诞生的精彩传奇了吗？那就让我们一起深入这段非凡的历史吧！
 # 比特币的起源
 <partId>25a75ed6-f34b-4c9a-8224-e099a3e774dc</partId>
 
@@ -357,7 +359,7 @@ Ripple的概念基于这样一个观点，即金钱本质上是由借据组成�
 
 这是2011年制作的Ripple的介绍视频：
 
-![Ripple 2011年介绍的视频 (Youtube)](https://www.youtube.com/watch?v=f9KqSgRZYgg)
+:::video id=056364f2-a222-4d79-a4a1-cb0dc4cea751:::
 
 尽管社区对此充满热情并且拥有几千名用户，但Ripple存在重大缺陷，阻碍了其成功。特别是，它[遭受](https://fiatjaf.com/3cb7c325.html)了“分散承诺问题”：在支付过程中，参与者无法以安全的方式承诺以确保贷款链，这是一个后来由Lightning解决的问题。（*原文：“the problem of the decentralized commit”*）
 
@@ -1105,7 +1107,7 @@ EFF在开始接受公众捐款之前花了一些时间。经过协商，社区�
 
 几天后，博客作者jimbobway就此主题撰写了一篇[文章](https://web.archive.org/web/20101117060233/http://www.bitcoinblogger.com/2010/11/bitcoin-gains-legal-protection-through.html)，引起了人们对比特币的关注。这篇文章在HackerNews上被[分享](https://news.ycombinator.com/item?id=1905522)。BitcoinMedia还使用Xtranormal将其转录成视频：
 
-![视频 "比特币和EFF."](https://www.youtube.com/watch?v=AiGCuyRJe8s)
+:::video id=03dfd302-1e05-4cad-a91a-e5e65f1d0932:::
 
 这对比特币来说是个好消息，因为两个倡议共享共同的价值观。此外，EFF因为为Tor和BitTorrent等隐私保护和数据共享项目提供法律保护而闻名。中本聪本人也意识到这一点，并特别支持该组织的行动，正如他在2011年1月6日致Gavin Andresen的一封电子邮件中所做的[评论](https://mmalmi.github.io/satoshi/#email-254)所示：
 > "EFF真的很重要。&nbsp;我们想要与他们保持良好的关系。&nbsp;我们是他们欣赏的那种项目；他们帮助了TOR项目，并为保护P2P文件共享做了很多工作。"
@@ -1235,15 +1237,6 @@ Satoshi将网站、论坛和wiki的控制权转移给了Martti，Martti已经在
 >
 > S代表什么？"
 
-
-## 评价 & 评分
-<chapterId>73825805-29e2-54bf-a8c3-62614b52fbef</chapterId>
-<isCourseReview>true</isCourseReview>
-
-## 期末考试
-<chapterId>39e43ec2-5b38-5174-882a-c1f7d284b9e6</chapterId>
-<isCourseExam>true</isCourseExam>
-
 ## 社区接管
 <chapterId>16c5e6d6-2412-48c6-9687-6af92cf0d89a</chapterId>
 
@@ -1302,7 +1295,7 @@ Satoshi将网站、论坛和wiki的控制权转移给了Martti，Martti已经在
 不仅仅是技术方面受到创始人离开和合作需求的影响：社交方面也受到影响，它通过在成员之间建立联系来加强社区。这就是为什么会组织“现实生活中”的聚会和会议。这些活动还有一个优势，就是向可能对在线内容更抗拒的人介绍比特币。
 比特币首次用户聚会是由布鲁斯·瓦格纳（Bruce Wagner）发起的，他是纽约一位YouTube频道的主持人，该频道播放关于技术主题的电视辩论，他在2011年4月创建了一个名为*Bitcoin Show*的节目。第一次会议[发生在](https://bitcointalk.org/index.php?topic=1891.msg29174#msg29174)2010年12月11日（UTC）的纽约。随后，同类型的会议[在华盛顿特区举行](https://web.archive.org/web/20110413231434/http://bitcoin.meetup.com/)。2011年2月5日，迈克·赫恩（Mike Hearn）还在瑞士苏黎世[组织了](https://bitcointalk.org/index.php?topic=2716.msg36886#msg36886)一次聚会，克里斯蒂安·德克尔（Christian Decker）和斯特凡·托马斯（Stefan Thomas，即justmoon）加入了聚会。2月还标志着比特币的[首次录制演讲](https://www.youtube.com/watch?v=koIq58UoNfE)，由加文·安德森（Gavin Andresen）在2月8日他的家乡马萨诸塞州阿默斯特（Amherst）组织的活动中进行。演讲题为“制造金钱”，这位项目的新主要维护者的演讲包含了许多语言元素，这些元素在接下来的几年里将成为加密货币介绍的特点。
 
-![2011年2月加文在阿默斯特的演讲视频（Youtube）](https://www.youtube.com/watch?v=koIq58UoNfE)
+:::video id=92b9aa30-1479-4d4f-b57f-f07b660145f2:::
 
 尽管首批活动是在美国举行的，但法国社区并未落后。5月25日，为了纪念加文·安德森（Gavin Andresen）访问巴黎，一个午餐会在拉德芳斯区组织，出席的知名人士包括卢西恩·格隆丁（Lucien Grondin），大卫·弗朗索瓦（David François），和正在访问的乔恩·马托尼斯（Jon Matonis）。
 
@@ -1316,7 +1309,7 @@ Satoshi将网站、论坛和wiki的控制权转移给了Martti，Martti已经在
 
 在这次经历之后，巴黎社区[组织了](https://bitcointalk.org/index.php?topic=21991.msg276443#msg276443)一个社交聚会，于7月11日举行。这次活动汇聚了像皮埃尔·诺伊扎特（Pierre Noizat）或埃米利安·杜唐（Émilien Dutang）这样的个人。
 在国际舞台上，第一次关于比特币的集体会议于8月19日至21日在纽约举行。这次会议由Bruce Wagner组织，汇集了如Roger Ver、Jesse Powell、Jed McCaleb、Mark Karpelès和Charlie Lee等人物。尽管Wagner承诺举办三天的活动，但只进行了四场演讲：他自己的演讲以及Gavin Andresen、Jeff Garzik和Stefan Thomas的演讲。
-![Gavin在2011年8月20日的干预视频（Youtube）](https://www.youtube.com/watch?v=0ljx4bbJrYE)
+:::video id=bca0217c-29ee-49b2-8d16-d9efe6f390da:::
 
 年底的11月，一场欧洲会议[将在布拉格举行](https://bitcointalk.org/index.php?topic=40272.msg490901#msg490901)。知名演讲者将包括开发者Amir Taaki、瑞典海盗党创始人Rick Falkvinge和主持人Max Keiser。次年，一个类似的活动将在[伦敦组织](https://blog.bitmex.com/london-2012-the-2nd-bitcoin-conference/)。
 
@@ -1326,7 +1319,7 @@ Satoshi将网站、论坛和wiki的控制权转移给了Martti，Martti已经在
 
 首先，关于这个主题的视频在Youtube上开始大量增加。3月22日，第一个高质量的关于比特币的视频出现了。这个视频简单地命名为“What is Bitcoin?”，由Stefan Thomas（justmoon）感谢社区的[众筹](https://bitcointalk.org/index.php?topic=697.msg70001#msg70001)制作。它发布在致力于教育和普及加密货币的WeUseCoins门户网站上。其他独立制作的介绍视频随后出现，如[howtovanish的视频](https://www.youtube.com/watch?v=LSLByqTusaQ)在4月，[Reason的视频](https://www.youtube.com/watch?v=yYTqvYqXRbY)，或[Rocketboom的视频](https://www.youtube.com/watch?v=9LaSrxtWfgc)在6月。
 
-![什么是比特币？](https://www.youtube.com/watch?v=Um63OQz3bjo)
+:::video id=6147a351-da80-4331-9d79-d3156889ac62:::
 4月份，数字货币这一话题被主流媒体广泛报道，包括[The Atlantic](https://www.theatlantic.com/business/archive/2011/04/how-to-start-your-own-private-currency/73327/)、[时代杂志](https://techland.time.com/2011/04/16/online-cash-bitcoin-could-challenge-governments/)和[福布斯](https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html)。到了5月，这一运动获得了更大的动力，比特币几乎无处不在，尤其是在[Wired UK](https://web.archive.org/web/20110517122859/http://www.wired.co.uk/news/archive/2011-05/16/bitcoin-p2p-currency)、[Slate](https://slate.com/business/2011/05/bitcoin-why-the-new-electronic-currency-is-a-favorite-of-libertarian-hipsters-and-criminals.html)、[Gizmodo](https://gizmodo.com/what-is-bitcoin-5803124)和[TechCrunch](https://techcrunch.com/2011/05/20/bitcoin-ven-and-the-end-of-currency/)上的报道。
 ![2011年4月Gavin Andresen在福布斯](assets/en/68.webp)
 2011年4月Gavin Andresen在福布斯（来源：[福布斯档案](https://web.archive.org/web/20110502052302/https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html)）

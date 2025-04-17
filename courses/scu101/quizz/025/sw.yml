@@ -1,0 +1,11 @@
+question: Je, ni mazoezi gani yanayopendekezwa ya kuhifadhi nenosiri kwa usimbaji fiche wa data?
+answer: Andika nenosiri kwenye karatasi ili kuwekwa mahali salama.
+wrong_answers:
+  - Hifadhi nenosiri katika faili ya maandishi kwenye kompyuta.
+  - Shiriki nenosiri na marafiki unaowaamini.
+  - Tumia nenosiri la kawaida ambalo ni rahisi kukumbuka.
+explanation: |
+  Inashauriwa kuandika nenosiri kwa data
+  usimbaji fiche kwenye karatasi na uiweke mahali salama. Hii ni
+  ili kuzuia upotezaji wa ufikiaji wa data iliyosimbwa.
+reviewed: true

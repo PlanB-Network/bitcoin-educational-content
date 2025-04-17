@@ -1,0 +1,9 @@
+question: Kto założył pierwszą spółdzielnię Mining produkującą blok na Bitcoin?
+answer: doublec
+wrong_answers:
+  - breja
+  - puddinpop
+  - m0mchil
+explanation: |
+  Promował go 1 grudnia. Blok został [znaleziony](https: //bitcointalk.org/index.php?topic=2027.msg26688#msg26688) 4 grudnia 2010 roku. Z kolei spółdzielnia Slush została uruchomiona 16 grudnia.
+reviewed: false

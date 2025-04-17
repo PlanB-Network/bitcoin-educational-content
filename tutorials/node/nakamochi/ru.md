@@ -30,22 +30,31 @@ Nakamochi - это полноценный узел, работающий тол�
 
 3. Используйте приложение для управления узлами (Zeus или BitBanana) для подключения к вашему Nakamochi:
 
+4. Откройте приложение и отсканируйте QR-код, отображаемый на вашем Nakamochi.
 
-   - Откройте приложение и отсканируйте QR-код, отображаемый на вашем Nakamochi.
+5. Для дополнительной безопасности установите на устройстве PIN-код.
 
-4. Для дополнительной безопасности установите на устройстве PIN-код.
+![image](assets/en/01.webp)
 
-![Connect to power and write down your 24-word seed phrase](assets/en/01.webp)
+подключитесь к сети и запишите свою начальную фразу из 24 слов
 
-![Wait until the Blockchain has caught up](assets/en/02.webp)
+![image](assets/en/02.webp)
 
-![Set up new wallet in Lightning Tab](assets/en/03.webp)
+подождите, пока блокчейн не догонит вас
 
-![Scan QR Code with Node Management App](assets/en/04.webp)
+![image](assets/en/03.webp)
 
-![For additional safety set a PIN code](asset/en/05.webp)
+установите новый кошелек на вкладке Lightning
 
-примечание: Дайте узлу Nakamochi синхронизироваться с блокчейном. Этот процесс может занять некоторое время в зависимости от вашего интернет-соединения._
+![image](assets/en/04.webp)
+
+сканирование QR-кода с помощью приложения Node Management App_
+
+![image](assets/en/05.webp)
+
+для дополнительной безопасности установите PIN-код_
+
+**Примечание:** _Позвольте вашему узлу Nakamochi синхронизироваться с блокчейном. Этот процесс может занять некоторое время в зависимости от вашего интернет-соединения
 
 ## О сети Lightning Network
 
@@ -77,9 +86,11 @@ Nakamochi - это полноценный узел, работающий тол�
 
 5. Нажмите на **"Открыть канал "**.
 
-![ZEUS Screenshot](asset/en/06.webp)
+![image](assets/en/06.webp)
 
-Дополнительная информация: [Каналы | Документация Zeus](https://zeusln.app)
+скриншот _ZEUS_
+
+Дополнительная информация: [Каналы | Документация Zeus](https://docs.zeusln.app/)
 
 ### Открытие каналов на BitBanana (Android):
 
@@ -93,7 +104,9 @@ Nakamochi - это полноценный узел, работающий тол�
 
 5. Введите сумму блокировки (выберите ее вместе с коллегой или используйте минимальную фиксированную сумму для известных узлов).
 
-![Bitbanana Screenshot](asset/en/07.webp)
+![image](assets/en/07.webp)
+
+скриншот _Битбанана_
 
 Дополнительная информация: [BitBanana](https://bitbanana.com)
 
@@ -107,4 +120,4 @@ Nakamochi - это полноценный узел, работающий тол�
 
 
 - [О Накамоти](https://nakamochi.io/)
-- [Подпишитесь на нашу рассылку](https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)
+- [Подписаться на рассылку Накамоти](https://90c7addc.sibforms.com/serve/MUIFAHG7H5YBPpm-kZ8G6TuS-nmL4uaq85rlpBfI__S79tZ5jheIJfF3kJYudycgs_6_RUdDBkt8Sd7OyNL_JDTTJvOb36ifF6vcQoabBXKp4cbefzh1DYqnok_jItexICcQL13ucd2aS581ngqy7jr0Q1H3HhxV3z2eWKE5-Z-YMasj-MMotQeDvdorMCSi0XgCWDqs8rEMQC7E)

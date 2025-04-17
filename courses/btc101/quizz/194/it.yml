@@ -1,7 +1,7 @@
 question: Qual è uno strumento per accettare Bitcoin per grandi organizzazioni o appassionati di Bitcoin?
 answer: BTCpay Server.
 wrong_answers:
-  - Portafoglio Bitcoin.
+  - Wallet Bitcoin.
   - Scambio Bitcoin.
   - BTCpay Mining.
 explanation: |

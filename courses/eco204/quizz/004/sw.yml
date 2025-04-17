@@ -1,0 +1,10 @@
+question: Ni nini ufafanuzi wa mfumuko wa bei kulingana na Larousse?
+answer: Mfumuko wa bei ni jambo linalojulikana na kupanda kwa jumla na kuendelea kwa kiwango cha bei.
+wrong_answers:
+  - Mfumuko wa bei ni jambo linalojulikana kwa kupungua kwa jumla na kuendelea kwa kiwango cha bei.
+  - Mfumuko wa bei ni jambo linalojulikana na ongezeko maalum na la kuendelea kwa kiwango cha bei.
+  - Mfumuko wa bei ni jambo linalojulikana kwa kupanda kwa jumla na kwa vipindi kwa kiwango cha bei.
+explanation: |
+  Kulingana na Larousse, mfumuko wa bei hufafanuliwa kama jambo linalojulikana
+  kwa kupanda kwa jumla na kuendelea kwa kiwango cha bei.
+reviewed: false

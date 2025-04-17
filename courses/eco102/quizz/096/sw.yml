@@ -1,0 +1,9 @@
+question: Je, ni sifa gani ya haki hasi kwa mujibu wa Bastiat?
+answer: Huzuia haki za wengine kunyakuliwa na wengine.
+wrong_answers:
+  - Haifanyi chochote na huruhusu mizozo kutatuliwa peke yao.
+  - Mbaya kwa haki za pande zote mbili.
+  - Huunda usawa kati ya haki za mtu binafsi na za pamoja.
+explanation: |
+  Haki hasi, kulingana na Bastiat, inajumuisha kuzuia unyakuzi wa haki, hivyo kujiwekea kikomo katika kulinda haki za asili bila kuweka hatua chanya kwa watu binafsi.
+reviewed: false

@@ -1,0 +1,10 @@
+question: Je, ni baadhi ya majukwaa gani ambayo Bitcoiner mwenye mkanganyiko anaweza kutumia kwa ununuzi usio wa KYC kati ya watu binafsi?
+answer: Peach, Robosati, Bisq, HodlHodl
+wrong_answers:
+  - Coinbase, Binance, Kraken
+  - PayPal, Venmo, Programu ya Pesa
+  - Kadi ya mkopo, uhamishaji wa benki, pesa taslimu
+explanation: |
+  Sura inataja Peach, Robosats, Bisq, na HodlHodl kama majukwaa
+  ambayo Bitcoiner mbishi anaweza kutumia kwa manunuzi yasiyo ya KYC kati ya watu binafsi.
+reviewed: false

@@ -27,6 +27,7 @@ Che siate una **piccola impresa o una grande azienda**, integrare Bitcoin nelle 
 
 Benvenuti al corso BIZ101! Date il via al viaggio della vostra azienda nella rete Bitcoin con questo corso di formazione completo, che vi permetterà di capire come Bitcoin e Lightning Network possano rivoluzionare le operazioni commerciali tradizionali. Questo corso è pensato per rivenditori, imprenditori, manager e responsabili aziendali che desiderano esplorare le capacità pratiche di Bitcoin come rete monetaria globale e nativa di Internet e come solido mezzo di scambio di valore.
 
+
 Nel corso del corso verranno introdotti i principi fondamentali che rendono Bitcoin e Lightning Network decisamente trasformativi. Imparerete come queste tecnologie offrano uno spettro di casi d'uso, dall'immagazzinamento di capitale digitale ai pagamenti veloci, economici e scalabili, e come forniscano miglioramenti critici rispetto alla valuta e ai sistemi di pagamento tradizionali. Il corso BIZ101 collega la teoria economica con le applicazioni del mondo reale, chiarendo come la decentralizzazione possa ridurre la dipendenza dagli intermediari e superare i limiti insiti nei sistemi tradizionali.
 
 Il corso inizia con un esame dettagliato delle valute e dei meccanismi di pagamento convenzionali, gettando le basi per esplorare come la moneta funzioni come una rete per consentire il commercio, il risparmio e la specializzazione economica. Successivamente, ci addentreremo nella tecnologia alla base di Bitcoin e nelle innovazioni introdotte dalla Lightning Network, rivelando il loro ruolo nel facilitare le transazioni senza soluzione di continuità, sicure e quasi istantanee che possono servire alle aziende di tutte le dimensioni. Poi ci immergeremo nelle sezioni pratiche di questo corso, iniziando con una parte sulla detenzione di bitcoin come tesoreria, seguita da una parte finale sull'accettazione di bitcoin come mezzo di pagamento.
@@ -34,6 +35,8 @@ Il corso inizia con un esame dettagliato delle valute e dei meccanismi di pagame
 Sia che rappresentiate una piccola impresa o una grande società, questo corso mira a fornirvi le conoscenze necessarie per integrare Bitcoin nelle vostre operazioni quotidiane, migliorando così la resilienza, l'efficienza e il vantaggio competitivo della vostra azienda. Poiché Bitcoin continua a ridisegnare il panorama economico, la comprensione di queste tecnologie rivoluzionarie non è solo un'opzione, ma una necessità strategica. Preparatevi a partecipare con contenuti interessanti, esempi pratici e indicazioni strategiche che vi permetteranno di navigare e sfruttare il mondo in evoluzione di Bitcoin!
 
 Pronti a immergervi nel mondo di Bitcoin per le aziende? Andiamo!
+
+Pronto a immergerti nel mondo di Bitcoin per le aziende? Andiamo!
 
 # Valuta, sistemi di pagamento e Bitcoin
 
@@ -181,6 +184,7 @@ L'industria dei pagamenti tradizionali rappresenta un'economia del valore annual
 | Creazione ripetuta di account online  | Gli utenti devono spesso creare più account online, con conseguente stanchezza, minore comodità e maggiore esposizione dei dati personali.                                                                                                                                                                         | Peggiora l'esperienza dell'utente, solleva problemi di privacy e aumenta il rischio di violazione dei dati.                |
 | Tariffe scambi esteri (FX)            | La mancanza di un'unità di conto universale costringe a costose conversioni di valuta per le transazioni transfrontaliere.                                                                                                                                                                                         | Aggiunge costi aggiuntivi al commercio internazionale, rendendo le transazioni globali meno convenienti.                   |
 
+
 Così come siamo passati dal pagamento al minuto delle chiamate vocali all'utilizzo quasi gratuito delle comunicazioni su IP, l'emergere di reti più aperte ed efficienti può ridefinire i pagamenti, riducendo i costi e gli intermediari e favorendo nuovi modelli di business.
 
 ## Bitcoin per le aziende: una valuta emergente
@@ -239,7 +243,9 @@ Bitcoin ci sfida a riconsiderare la natura stessa del denaro. Potresti spiegare 
 Per ulteriori informazioni su Bitcoin, la sua storia, il suo funzionamento e il suo utilizzo, suggerisco di seguire anche questo altro corso completo:
 
 https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
+
 ## Introduzione a Lightning Network
+
 
 <chapterId>c095c7ad-5469-4c7b-9510-b6c0b86244e7</chapterId>
 
@@ -320,6 +326,7 @@ Lightning Network è ideale per i pagamenti in Bitcoin nei negozi fisici o onlin
 Per ulteriori informazioni sul funzionamento tecnico di Lightning Network, vi suggerisco di seguire questo altro corso completo:
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 # Bitcoin in tesoreria
 
 <partId>bf45c1e8-af97-4b6b-af42-2866f493b14d</partId>
@@ -446,6 +453,7 @@ https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 ## Detenzione dei bitcoin in tesoreria
 
+
 <chapterId>89622a40-d14f-4c37-a075-8e7e1731ec26</chapterId>
 
 ### Le sfide della tesoreria aziendale
@@ -522,6 +530,7 @@ Bitcoin ora compete nel **mercato** degli "store of value". Rappresenta solo una
 | GBTC       | 0.00              | +5,16             | -81,42            | -1503,84          | -20.141,85         |
 
 *20 miliardi di dollari in 10 mesi: Gli ETF in bitcoin hanno raggiunto in meno di un anno quello che gli ETF sull'oro sono riusciti a fare in 5 anni. Fonte: Flussi di investimento dei fondi in USD. Bloomberg Terminal, Bloomberg L.P., 2024.*
+
 
 ### Bitcoin nel kit di strumenti aziendali
 
@@ -602,8 +611,10 @@ Questo è di gran lunga il metodo più comune, effettuato tramite scambi peer-to
 
 Per sapere come aprire un conto aziendale e utilizzarlo per acquistare, vendere e trasferire dei bitcoin, potete consultare questi due tutorial specificamente pensati per le aziende, che coprono le piattaforme Kraken e Bitfinex nelle loro versioni aziendali:
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
-https://planb.network/tutorials/exchange/centralized/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+https://planb.network/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
+
+https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+
 Per saperne di più sui metodi di acquisizione dei bitcoin tramite un exchange o un peer-to-peer, potete [consultare la sezione "exchange" nei nostri tutorial](https://planb.network/tutorials/exchange).
 
 ![BIZ101](assets/en/16.webp)
@@ -803,6 +814,7 @@ Per semplificare il processo decisionale, abbiamo definito quattro profili azien
 | **Esportazioni contabili**           | Esportazioni contabili completamente personalizzate                                                                                                              |
 | **API**                              | Sì                                                                                                                                                               |
 
+
 Nei capitoli successivi, illustreremo nel dettaglio ogni profilo aziendale e le soluzioni adatte a ciascuno di essi.
 
 ## Lo "Starter"
@@ -836,17 +848,24 @@ Per informazioni dettagliate sui portafogli consigliati e sulla configurazione d
 **Portafogli/nodi LN non custodial:**
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+
 https://planb.network/tutorials/wallet/mobile/Bitkit-Wallet-a7224674-85c4-4045-9baf-37018d89550c
+
 https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+
 https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+
 https://planb.network/tutorials/wallet/mobile/zeus-3e89603c-501d-439c-8691-d4a0d0de459b
 
 **Portafogli LN custodial:**
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-c4792842-b046-44f9-a6f1-351191b7cc2b
+
+https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+
 https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
 ## L'"Essential"
+
 
 <chapterId>89be421f-f7df-4bcc-a9e4-df96e39ef249</chapterId>
 
@@ -885,6 +904,7 @@ https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8
 Se siete pronti a sporcarvi le mani e volete avere il pieno controllo del processo, il software BTCPay Server è un'opzione eccellente. Tuttavia, il principale svantaggio di BTCPay Server è che la sua configurazione e gestione richiedono tempo e un certo livello di competenza tecnica, ma potete seguire le nostre guide:
 
 https://planb.network/tutorials/merchant/merchant/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+
 
 Infine, come complemento ai punti vendita fisici, si potrebbe considerare la creazione di [un Bitcoinize PoS](https://bitcoinize.com/).
 
@@ -1162,6 +1182,7 @@ Per chi custodisce autonomamente i propri bitcoin, la gestione degli UTXO (*Unsp
 
 https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
+
 Infine, che si tratti di un piccolo commerciante o di un'azienda più consolidata, è possibile **regolare una fattura in bitcoin**. Il segreto è documentare correttamente la transazione. Se si paga da un wallet non-custodial, è ideale generare una transazione annotando il numero della fattura e lo scopo del pagamento nelle proprie etichette. Se preferite saldare la fattura tramite uno scambio, avrete anche la possibilità di esportare una ricevuta o la cronologia della transazione da includere nei vostri registri contabili. Questa trasparenza semplificherà la tracciabilità e la rendicontazione di tutte le operazioni BTC.
 
 ## Esempi pratici di contabilità in bitcoin
@@ -1206,8 +1227,8 @@ Infine, che si tratti di un piccolo commerciante o di un'azienda più consolidat
 - **Transazione da parte del cliente**: Il cliente acquista pasticcini per 50 euro.
     - Equivalente in bitcoin: (50 / 40.000) = 0,00125 bitcoin = 125.000 satoshi.
     - Conversione (50%): 25 euro di bitcoin = 0,000625 bitcoin = 62.500 satoshi.
-        - Commissione di conversione: 1,5% (25 euro × 0,015) = 0,375 euro.
-        - Netto ricevuto in euro: 25 euro - 0,375 euro = 24,625 euro.
+      - Commissione di conversione: 1,5% (25 euro × 0,015) = 0,375 euro.
+      - Netto ricevuto in euro: 25 euro - 0,375 euro = 24,625 euro.
     - Ritenuta in Bitcoin (50%): 62.500 satoshi = 0,000625 bitcoin.
 
 **Riepilogo**:

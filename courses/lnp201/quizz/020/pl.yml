@@ -1,0 +1,9 @@
+question: Jakie jest główne ryzyko w transakcjach Commitment na Lightning Network?
+answer: Opublikowanie starej transakcji w celu odzyskania większej ilości środków
+wrong_answers:
+  - Zapomnienie o podpisaniu Commitment Transaction
+  - Przypadkowe wysłanie środków do innego kanału
+  - Zablokowanie transakcji nieodpowiednią blokadą czasową
+explanation: |
+  Główne ryzyko polega na tym, że strona może próbować oszukiwać, publikując stare Commitment Transaction, co może pozwolić jej odzyskać środki, których już nie posiada.
+reviewed: false

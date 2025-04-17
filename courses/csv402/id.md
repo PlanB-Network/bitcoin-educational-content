@@ -46,6 +46,7 @@ Bagian terakhir dipandu oleh pembicara lain yang menyajikan aplikasi berbasis RG
 Kursus pelatihan ini awalnya berkembang dari bootcamp pengembangan lanjutan selama dua minggu di Viareggio, Tuscany, yang diselenggarakan oleh [Fulgur'Ventures](https://fulgur.ventures/). Minggu pertama, yang berfokus pada Rust dan SDK, dapat ditemukan di kursus lainnya:
 
 https://planb.network/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
+
 Dalam kursus ini, kita akan fokus pada minggu kedua bootcamp, yang berfokus pada RGB.
 
 **Minggu 1 - LNP402:**
@@ -69,6 +70,8 @@ Versi tertulis dari kursus pelatihan ini disusun dengan menggunakan 2 sumber uta
 - Video seminar Maxim Orlovsky, Hunter Trujilo dan Frederico Tenga di Lightning Bootcamp ;
 - Dokumentasi RGB, yang produksinya disponsori oleh [Bitfinex](https://www.bitfinex.com/).
 
+Siap menyelami dunia RGB yang kompleks dan menarik? Ayo mulai!
+
 # RGB dalam teori
 
 <partId>80e797ee-3f33-599f-ab82-e82eeee08219</partId>
@@ -77,7 +80,7 @@ Versi tertulis dari kursus pelatihan ini disusun dengan menggunakan 2 sumber uta
 
 <chapterId>f52f8af5-5d7c-588b-b56d-99b97176204b</chapterId>
 
-![video](https://youtu.be/AF2XbifPGXM)
+:::video id=f27338bc-4210-4a2e-9b27-30278ed3282c:::
 
 RGB adalah sebuah protokol yang didesain untuk menerapkan dan menegakkan hak-hak digital (dalam bentuk kontrak dan aset) dengan cara yang terukur dan rahasia, berdasarkan aturan konsensus dan operasi blockchain Bitcoin. Tujuan dari bab pertama ini adalah untuk menyajikan konsep dasar dan terminologi seputar protokol RGB, menyoroti secara khusus hubungan eratnya dengan konsep komputasi terdistribusi dasar seperti Validasi Sisi Klien dan Segel Sekali Pakai.
 
@@ -310,15 +313,12 @@ Perbandingan berikut ini membantu untuk memahami prinsip ini:
 - Stempel waktu (blockchain)**: Dengan memasukkan hash ini ke dalam blockchain, kita juga membuktikan bahwa kita mengetahuinya pada saat yang tepat (saat dimasukkan ke dalam blok);
 - Segel sekali pakai**: Dengan segel sekali pakai, kami melangkah lebih jauh dengan membuat komitmen yang unik. Dengan satu hash, Anda dapat membuat beberapa komitmen yang bertentangan secara paralel (masalah dokter yang mengumumkan "*Ini anak laki-laki*" kepada keluarga dan "*Ini anak perempuan*" dalam buku harian pribadinya). Segel Sekali Pakai menghilangkan kemungkinan ini dengan menghubungkan komitmen ke media bukti publikasi, seperti blockchain Bitcoin, sehingga pengeluaran UTXO secara definitif menyegel komitmen tersebut. Setelah dibelanjakan, UTXO yang sama tidak dapat dibelanjakan kembali untuk menggantikan komitmen.
 
-| Segel sekali pakai | Stempel waktu | Komitmen sederhana (digest/hash) | Segel sekali pakai
+|                                                                                  | Komitmen sederhana (digest/hash) | Timestamps | Segel sekali pakai |
+| -------------------------------------------------------------------------------- | -------------------------------- | ---------- | ------------------ |
+| Publikasi komitmen tidak mengungkapkan pesan                                   | Ya                              | Ya         | Ya                |
+| Bukti tanggal komitmen / keberadaan pesan sebelum tanggal tertentu            | Tidak mungkin                   | Mungkin    | Mungkin           |
+| Bukti bahwa tidak ada komitmen alternatif yang dapat ada                      | Tidak mungkin                   | Tidak mungkin | Mungkin         |
 
-| -------------------------------------------------------------------------------- | ------------------------------- | ---------- | ---------------- |
-
-| Publikasi komitmen tidak mengungkapkan pesan | Ya | Ya | Ya | Ya
-
-| Bukti tanggal komitmen / keberadaan pesan sebelum tanggal tertentu | Tidak mungkin | Mungkin | Mungkin | Mungkin
-
-| Bukti bahwa tidak ada komitmen alternatif lain yang dapat dilakukan | Tidak mungkin | Mungkin |
 
 Segel sekali pakai bekerja dalam tiga tahap utama:
 
@@ -424,7 +424,7 @@ Sebelum masuk ke dalam detail yang lebih teknis pada bab kedua, jangan ragu untu
 
 <chapterId>cc2fe85a-9cc7-5b8c-a00a-c0a867241061</chapterId>
 
-![video](https://youtu.be/FS6PDprWl5Q)
+:::video id=73ddea2d-c243-479d-a3dc-12d7db8eef70:::
 
 Pada bab ini, kita akan melihat implementasi Validasi Sisi Klien dan Segel Sekali Pakai di dalam blockchain Bitcoin. Kami akan menyajikan prinsip-prinsip utama dari **lapisan komitmen** (lapisan 1) RGB, dengan fokus khusus pada skema **TxO2**, yang digunakan RGB untuk mendefinisikan dan menutup segel dalam transaksi Bitcoin. Selanjutnya, kita akan membahas dua poin penting yang belum dibahas secara mendetail:
 
@@ -460,17 +460,12 @@ Ketika mengerjakan RGB, kami mengidentifikasi setidaknya 4 cara berbeda untuk me
 - Tentukan segel melalui nilai kunci publik, dan tutup dalam _input_ ;
 - Tentukan segel melalui _outpoint_, dan tutup dengan _input_.
 
-| Definisi segel | Penutupan segel | Persyaratan tambahan | Aplikasi utama | Skema pertunangan yang memungkinkan |
-
-| ------------- | ------------------------- | --------------------- | ----------------------------------------------------------------- | ---------------------------- | ------------------------------ |
-
-| P2 (W) PKH | Tidak ada saat ini | Keytweak, taptweak, opret |
-
-| TxO2 | Keluaran transaksi | Keluaran transaksi | Membutuhkan komitmen deterministik pada Bitcoin | RGBv1 (universal) | Keytweak, tapret, opret
-
-| PkI | Nilai kunci publik | Entri transaksi | Hanya Taproot & tidak kompatibel dengan dompet lama | Identitas berbasis Bitcoin | Sigtweak, witweak
-
-| TxO1 | Keluaran transaksi | Masukan transaksi | Hanya Taproot & tidak kompatibel dengan dompet lama | Tidak ada saat ini | Sigtweak, witweak |
+| Nama Skema  | Definisi Segel           | Penutupan Segel         | Persyaratan Tambahan                                            | Aplikasi Utama             | Skema Komitmen yang Mungkin       |
+| ----------- | ------------------------ | ----------------------- | -------------------------------------------------------------- | -------------------------- | ---------------------------------- |
+| PkO         | Nilai Kunci Publik       | Keluaran Transaksi      | P2(W)PKH                                                        | Belum ada saat ini        | Keytweak, taptweak, opret         |
+| TxO2        | Keluaran Transaksi       | Keluaran Transaksi      | Memerlukan komitmen deterministik di Bitcoin                    | RGBv1 (universal)         | Keytweak, tapret, opret           |
+| PkI         | Nilai Kunci Publik       | Masukan Transaksi       | Hanya Taproot & tidak kompatibel dengan dompet Legacy           | Identitas berbasis Bitcoin | Sigtweak, witweak                 |
+| TxO1        | Keluaran Transaksi       | Masukan Transaksi       | Hanya Taproot & tidak kompatibel dengan dompet Legacy           | Belum ada saat ini        | Sigtweak, witweak                 |
 
 Kita tidak akan membahas secara detail mengenai masing-masing konfigurasi ini, karena dalam RGB kita telah memilih untuk menggunakan _outpoint_ sebagai definisi seal**, dan menempatkan _commitment_ pada keluaran transaksi yang menggunakan _outpoint_ ini. Oleh karena itu, kita dapat memperkenalkan konsep-konsep berikut untuk sekuelnya:
 
@@ -740,79 +735,54 @@ Ketika kami memulai RGB, kami meninjau semua metode ini untuk menentukan di mana
 - Kesulitan implementasi dan pemeliharaan;
 - Kerahasiaan dan ketahanan terhadap sensor.
 
-| Ukuran jejak dan on-chain | Ukuran sisi klien | Integrasi portofolio | Kompatibilitas perangkat keras | Kompatibilitas Lightning | Kompatibilitas Taproot |
+| Metode                                            | Jejak & ukuran on-chain | Ukuran sisi klien | Integrasi dompet | Kompatibilitas perangkat keras | Kompatibilitas Lightning | Kompatibilitas Taproot |
+| ------------------------------------------------- | ---------------------- | ---------------- | --------------- | -------------------------- | -------------------- | ------------------ |
+| Keytweak (P2C deterministik)                     | 🟢                     | 🟡                | 🔴                | 🟠                           | 🔴 BOLT, 🔴 Bifrost | 🟠 Taproot, 🟢 MuSig |
+| Sigtweak (S2C deterministik)                     | 🟢                     | 🟢                | 🟠                | 🔴                           | 🔴 BOLT, 🔴 Bifrost | 🟠 Taproot, 🔴 MuSig |
+| Opret (OP_RETURN)                                 | 🔴                     | 🟢                | 🟢                | 🟠                           | 🔴 BOLT, 🟠 Bifrost | -                     |
+| Algoritma Tapret: simpul kiri atas               | 🟠                     | 🔴                | 🟠                | 🟢                           | 🔴 BOLT, 🟢 Bifrost | 🟢 Taproot, 🟢 MuSig |
+| Algoritma Tapret #4: simpul mana saja + bukti    | 🟢                     | 🟠                | 🟠                | 🟢                           | 🔴 BOLT, 🟢 Bifrost | 🟢 Taproot, 🟢 MuSig |
 
-| --------------------------------------------------- | ------------------------ | ------------------ | ----------------------------- | ------------------------ | ----------------------- | --------------------- |
 
-| Keytweak (P2C deterministik) | 🟢 | 🟡 | 🔴 | 🟠 | 🔴 BOLT, 🔴 Bifrost | 🟠 Taproot, 🟢 MuSig |
+| Skema Komitmen Deterministik                                | Standar        | Biaya On-Chain                                                                                                      | Ukuran Bukti di Sisi Klien                                                                                      |
+| ---------------------------------------------------------- | -------------- | ------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| Keytweak (P2C deterministik)                              | LNPBP-1, 2     | 0 byte                                                                                                             | 33 byte (kunci tidak diubah)                                                                                     |
+| Sigtweak (S2C deterministik)                              | WIP (LNPBP-39) | 0 byte                                                                                                             | 0 byte                                                                                                          |
+| Opret (OP_RETURN)                                         | -              | 36 (v)byte (TxOut tambahan)                                                                                        | 0 byte                                                                                                          |
+| Algoritma Tapret: simpul kiri atas                        | LNPBP-6        | 32 byte dalam saksi (8 vbyte) untuk setiap multisig n-of-m dan pengeluaran melalui jalur skrip                    | 0 byte dalam scriptless scripts taproot ~270 byte dalam kasus satu skrip, ~128 byte jika lebih dari satu skrip  |
+| Algoritma Tapret #4: simpul mana saja + bukti unik        | LNPBP-6        | 32 byte dalam saksi (8 vbyte) untuk kasus skrip tunggal, 0 byte dalam saksi di sebagian besar kasus lainnya        | 0 byte dalam scriptless scripts taproot, 65 byte hingga Taptree memiliki selusin skrip                          |
 
-| Sigtweak (S2C deterministik) | 🟢 | 🟠 | 🔴 | 🔴 BOLT, 🔴 Bifrost | 🟠 Taproot, 🔴 MuSig |
-
-| Opret (OP_RETURN) | 🔴 | 🟢 | 🟢 | 🟠 | 🔴 BOLT, 🟠 Bifrost | - |
-
-| Algoritma Tapret: simpul kiri atas | 🟠 | 🔴 | 🟠 | 🟢 | 🔴 BOLT, 🟢 Bifrost | 🟢 Taproot, 🟢 MuSig |
-
-| Algoritma Tapret #4: simpul apa saja + bukti | 🟢 | 🟠 | 🟢 | 🔴 BOLT, 🟢 Bifrost | 🟢 Taproot, 🟢 MuSig |
-
-| Skema komitmen deterministik | Standar | Biaya on-chain | Ukuran bukti dari sisi pelanggan |
-
-| ------------------------------------------------------------- | -------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-
-| Keytweak (P2C deterministik) | LNPBP-1, 2 | 0 byte | 33 byte (kunci yang tidak diubah) |
-
-| Sigtweak (S2C deterministik) | WIP (LNPBP-39) | 0 byte | 0 byte |
-
-| Opret (OP_RETURN) | - | 36 (v) byte (TxOut tambahan) | 0 byte
-
-| Algoritma Tapret: simpul kiri atas | LNPBP-6 | 32 byte dalam saksi (8 vbytes) pada multisig n-of-m dan pengeluaran per jalur skrip | 0 byte pada skrip tanpa skrip taproot ~ 270 byte dalam satu kasus skrip, ~ 128 byte jika lebih dari satu skrip
-
-| Algoritma Tapret #4: simpul apa pun + bukti keunikan | LNPBP-6 | 32 byte pada saksi (8 vbyte) untuk kasus skrip tunggal, 0 byte pada saksi di sebagian besar kasus lainnya | 0 byte pada skrip tanpa skrip taproot, 65 byte hingga Taptree memiliki selusin skrip
-
-| Lapisan | Biaya on-chain (byte/vbyte) | Biaya on-chain (byte/vbyte) | Biaya on-chain (byte/vbyte) | Biaya on-chain (byte/vbyte) | Biaya on-chain (byte/vbyte) | Biaya sisi-klien (byte) | Biaya sisi-klien (byte) | Biaya sisi-klien (byte) | Biaya sisi-klien (byte) | Biaya sisi-klien (byte) | Biaya sisi-klien (byte)
-
+| Lapisan                        | Biaya on-chain (bytes/vbytes) | Biaya on-chain (bytes/vbytes) | Biaya on-chain (bytes/vbytes) | Biaya on-chain (bytes/vbytes) | Biaya on-chain (bytes/vbytes) | Biaya sisi klien (bytes) | Biaya sisi klien (bytes) | Biaya sisi klien (bytes) | Biaya sisi klien (bytes) | Biaya sisi klien (bytes) |
 | ------------------------------ | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- | ------------------------ | ------------------------ | ------------------------ | ------------------------ | ------------------------ |
+| **Tipe**                       | **Tapret**                   | **Tapret #4**                | **Keytweak**                 | **Sigtweak**                 | **Opret**                    | **Tapret**               | **Tapret #4**            | **Keytweak**             | **Sigtweak**             | **Opret**                |
+| Single-sig                     | 0                            | 0                            | 0                            | 0                            | 32                           | 0                        | 0                        | 32                       | 0?                       | 0                        |
+| MuSig (n-of-n)                 | 0                            | 0                            | 0                            | 0                            | 32                           | 0                        | 0                        | 32                       | ? > 0                    | 0                        |
+| Multi-sig 2-of-3               | 32/8                         | 32/8 atau 0                  | 0                            | n/a                          | 32                           | ~270                     | 65                       | 32                       | n/a                      | 0                        |
+| Multi-sig 3-of-5               | 32/8                         | 32/8 atau 0                  | 0                            | n/a                          | 32                           | ~340                     | 65                       | 32                       | n/a                      | 0                        |
+| Multi-sig 2-of-3 dengan batas waktu | 32/8                         | 0                            | 0                            | n/a                          | 32                           | 64                       | 65                       | 32                       | n/a                      | 0                        |
 
-| **Tipe** | **Tapret** | **Tapret #4** | **Keytweak** | **Sigtweak** | **Opret** | **Tapret** | **Tapret #4** | **Keytweak** | **Sigtweak** | **Opret** |
 
-| Tanda tunggal | 0 | 0 | 0 | 0 | 32 | 0 | 0 | 32 | 0? | 0 | 0 |
-
-| MuSig (n-of-n) | 0 | 0 | 0 | 32 | 0 | 0 | 32 | ? > 0 | 0 |
-
-| Multi-sig 2-dari-3 | 32/8 | 32/8 atau 0 | 0 n/a | 32 | ~270 | 65 | 32 | n/a | 0 |
-
-| Multi-sig 3-dari-5 | 32/8 | 32/8 atau 0 | 0 n/a | 32 | ~340 | 65 | 32 | n/a | 0 |
-
-| Multi-sig 2-dari-3 dengan batas waktu | 32/8 | 0 | 0 n/a | 32 | 64 | 65 | 32 | n/a | 0 | 0
-
-| Lapisan | Biaya pada rantai (vbytes) | Biaya pada rantai (vbytes) | Biaya pada rantai (vbytes) | Biaya di sisi klien (byte) | Biaya di sisi klien (byte)
-
+| Lapisan                          | Biaya on-chain (vbytes) | Biaya on-chain (vbytes) | Biaya on-chain (vbytes) | Biaya sisi klien (bytes) | Biaya sisi klien (bytes) |
 | -------------------------------- | ---------------------- | ---------------------- | ---------------------- | ------------------------ | ------------------------ |
+| **Tipe**                         | **Dasar**              | **Tapret #2**          | **Tapret #4**          | **Tapret #2**            | **Tapret #4**            |
+| MuSig (n-of-n)                   | 16.5                   | 0                      | 0                      | 0                        | 0                        |
+| FROST (n-of-m)                   | ?                      | 0                      | 0                      | 0                        | 0                        |
+| Multi_a (n-of-m)                 | 1+16n+8m               | 8                      | 8                      | 33 * m                   | 65                       |
+| Cabang MuSig / Multi_a (n-of-m)   | 1+16n+8n+8xlog(n)      | 8                      | 0                      | 64                       | 65                       |
+| Dengan batas waktu (n-of-m)       | 1+16n+8n+8xlog(n)      | 8                      | 0                      | 64                       | 65                       |
 
-| **Tipe** | **Dasar** | **Tapret #2** | **Tapret #4** | **Tapret #2** | **Tapret #4** |
+| Metode                                   | Privasi & Skalabilitas | Interoperabilitas | Kompatibilitas | Portabilitas | Kompleksitas |
+| ---------------------------------------- | --------------------- | ---------------- | ------------- | ----------- | ---------- |
+| Keytweak (P2C deterministik)             | 🟢                     | 🔴               | 🔴            | 🟡          | 🟡         |
+| Sigtweak (S2C deterministik)             | 🟢                     | 🔴               | 🔴            | 🟢          | 🔴         |
+| Opret (OP_RETURN)                         | 🔴                     | 🟠               | 🔴            | 🟢          | 🟢         |
+| Algo Tapret: Simpul kiri atas             | 🟠                     | 🟢               | 🟢            | 🔴          | 🟠         |
+| Algo Tapret #4: Simpul mana saja + bukti  | 🟢                     | 🟢               | 🟢            | 🟠          | 🔴         |
 
-| MuSig (n-of-n) | 16.5 | 0 | 0 | 0 | 0 | 0
 
-| FROST (n-dari-m) | ? | 0 | 0 | 0 | 0 |
 
-| Multi_a (n-dari-m) | 1+16n+8m | 8 | 8 | 33 * m | 65 |
 
-| Cabang MuSig / Multi_a (n-dari-m) | 1+16n+8n+8xlog(n) | 8 | 0 | 64 | 65 |
 
-| Dengan batas waktu (n-dari-m) | 1+16n+8n+8xlog(n) | 8 | 0 | 64 | 65 |
-
-| Metode | Kerahasiaan dan skalabilitas | Interoperabilitas | Kompatibilitas | Portabilitas | Kompleksitas |
-
-| ----------------------------------------- | ------------------------------ | ---------------- | ------------- | ----------- | ---------- |
-
-| Keytweak (P2C deterministik) | 🟢 | 🔴 | 🔴 | 🟡 | 🟡 |
-
-| Sigtweak (S2C deterministik) | 🟢 | 🔴 | 🔴 | 🟢 | 🔴 |
-
-| Opret (OP_RETURN) | 🔴 | 🟠 | 🔴 | 🟢 | 🟢 |
-
-| Algo Tapret: simpul kiri atas | 🟠 | 🟢 | 🔴 | 🟠 |
-
-| Algo Tapret #4: Simpul apa saja + bukti | 🟢 | 🟢 | 🟢 | 🟠 | 🔴 |
 
 Selama penelitian, menjadi jelas bahwa tidak ada skema komitmen yang sepenuhnya kompatibel dengan standar Lightning saat ini (yang tidak menggunakan Taproot, _muSig2_ atau dukungan _komitmen_ tambahan). Upaya sedang dilakukan untuk memodifikasi konstruksi saluran Lightning (*BiFrost*) untuk memungkinkan penyisipan komitmen RGB. Ini adalah area lain di mana kita perlu meninjau struktur transaksi, kunci dan cara di mana pembaruan saluran ditandatangani.
 
@@ -1042,7 +1012,7 @@ Pada bab selanjutnya, kita akan melihat komponen off-chain murni dari RGB, yaitu
 
 <chapterId>04a9569f-3563-5382-bf53-0c7069343ba0</chapterId>
 
-![video](https://youtu.be/tmAVdyXGmj4)
+:::video id=db4ee09f-1352-4ad1-9f7a-c962df7ea9fa:::
 
 Pada bab ini dan bab berikutnya, kita akan melihat gagasan **kontrak pintar** dalam lingkungan RGB dan mengeksplorasi berbagai cara di mana kontrak ini dapat mendefinisikan dan mengembangkan *state* mereka. Kita akan melihat mengapa arsitektur RGB, dengan menggunakan urutan yang teratur dari Segel Sekali Pakai, memungkinkan untuk mengeksekusi berbagai jenis ***Operasi Kontrak*** dengan cara yang dapat diskalakan dan tanpa melalui registri terpusat. Kita juga akan melihat peran mendasar dari ***Business Logic*** dalam membingkai evolusi status kontrak.
 
@@ -1134,7 +1104,7 @@ Pada bab selanjutnya, kita akan membahas lebih detail mengenai representasi konk
 
 <chapterId>78c44e88-50c4-5ec4-befe-456c1a9f080b</chapterId>
 
-![video](https://youtu.be/lUTjeuM0oTA)
+:::video id=1caec34d-f214-425b-a1a4-0a40ae7d3e0e:::
 
 Pada bab ini, kita akan melihat bagaimana operasi dalam smart contract dan transisi state bekerja, sekali lagi dalam protokol RGB. Tujuannya juga untuk memahami bagaimana beberapa peserta bekerja sama untuk mentransfer kepemilikan aset.
 
@@ -1400,19 +1370,14 @@ Jika, dalam kontrak, sebuah elemen state tidak didefinisikan sebagai dapat diuba
 
 Tabel di bawah ini mengilustrasikan bagaimana setiap jenis Operasi Kontrak dapat memanipulasi (atau tidak) Global State dan Owned State:
 
-| Kejadian | Perpanjangan Status | Transisi Status |
+|                              | Genesis | Ekstensi Status | Transisi Status |
+| ---------------------------- | :-----: | :------------: | :------------: |
+| **Penambahan Global State**  |    +    |       -       |       +       |
+| **Mutasi Global State**      |   n/a   |       -       |       +       |
+| **Penambahan Owned State**   |    +    |       -       |       +       |
+| **Mutasi Owned State**       |   n/a   |      Tidak    |       +       |
+| **Penambahan Valencies**     |    +    |       +       |       +       |
 
-| ---------------------------- | :-----: | :-------------: | :--------------: |
-
-| **Tambahkan Status Global** | + | - | + |
-
-| n/a | - | + | **Mutasi Status Global** | - | + |
-
-| **Tambahkan Negara Bagian Milik** | + | - | + |
-
-| **Mutasi Status Kepemilikan** | n/a | Tidak | + |
-
-| **Tambahkan Nilai** | + | + | + | + |
 
 **`+`** : tindakan yang mungkin dilakukan jika Skema kontrak mengizinkannya.
 
@@ -1420,15 +1385,12 @@ Tabel di bawah ini mengilustrasikan bagaimana setiap jenis Operasi Kontrak dapat
 
 Selain itu, cakupan temporal dan hak pembaruan setiap jenis data dapat dibedakan dalam tabel berikut:
 
-| Metadata | Negara Global | Negara Milik
+|                                 | Metadata                                 | Global State                                  | Owned State                                                                                                |
+| ------------------------------- | ---------------------------------------- | --------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| **Lingkup**                     | Ditetapkan untuk satu Operasi Kontrak    | Ditetapkan secara global untuk kontrak       | Ditetapkan untuk setiap segel (*Assignment*)                                                              |
+| **Siapa yang bisa memperbaruinya?** | Tidak dapat diperbarui (data sementara)  | Operasi yang diterbitkan oleh aktor (penerbit, dll.) | Bergantung pada pemegang sah yang memiliki segel (yang dapat membelanjakannya dalam transaksi berikutnya) |
+| **Lingkup Temporal**            | Hanya untuk operasi saat ini             | Status ditetapkan pada akhir operasi         | Status ditetapkan sebelum operasi (oleh *Seal Definition* dari operasi sebelumnya)                        |
 
-| ------------------------------- | ---------------------------------------- | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-
-| Ditetapkan untuk satu Operasi Kontrak | Ditetapkan secara global untuk kontrak | Ditetapkan untuk setiap segel (*Penugasan*) | Ditetapkan untuk satu Operasi Kontrak | Ditetapkan secara global untuk kontrak | Ditetapkan untuk setiap segel (*Penugasan*) | Ditetapkan untuk setiap segel (*Penugasan*) | Ditetapkan untuk setiap kontrak
-
-| Tidak dapat diaktualisasikan (data sementara) | Transaksi yang dikeluarkan oleh aktor (penerbit, dll.) | Tergantung pada pemegang segel yang sah (orang yang dapat membelanjakannya dalam transaksi berikutnya)
-
-status ditetapkan sebelum operasi (oleh *Seal Definition* dari operasi sebelumnya) | Status ditetapkan di akhir operasi | Status ditetapkan di akhir operasi | Status ditetapkan di akhir operasi | Status ditetapkan sebelum operasi (oleh *Seal Definition* dari operasi sebelumnya) | Status ditetapkan di akhir operasi | Status ditetapkan sebelum operasi (oleh *Seal Definition* dari operasi sebelumnya)
 
 ### Status Global
 
@@ -1544,17 +1506,13 @@ Attachments        | |     Tagged Hash      | | <========== | | File Hash | | Me
 +--------------------------+             +---------------------------------------+
 ```
 
-**Deklaratif** | **Bisa Dipadukan** | **Terstruktur** | **Lampiran** |
+| **Elemen**         | **Deklaratif** | **Fungible**                         | **Terstruktur**                 | **Lampiran**                   |
+| ------------------ | -------------- | ------------------------------------ | ----------------------------- | ----------------------------- |
+| **Data**          | Tidak ada      | Bilangan bulat 64-bit bertanda atau tanpa tanda | Jenis data ketat apa pun    | File apa pun                  |
+| **Jenis Info**    | Tidak ada      | Bertanda atau tanpa tanda            | Jenis ketat                    | Jenis MIME                     |
+| **Privasi**       | Tidak diperlukan | Pedersen commitment                 | Hash dengan blinding           | Identifikasi file ter-hash     |
+| **Batas Ukuran**  | N/A            | 256 byte                             | Hingga 64 KB                    | Hingga ~500 GB                 |
 
-| --------------------- | -------------- | ------------------------------------ | ----------------------------- | ---------------------------- |
-
-| Tidak ada | Bilangan bulat bertanda tangan atau tidak bertanda tangan 64-bit | Semua tipe data yang ketat | File apa pun |
-
-| Jenis informasi** | Tidak ada | Tidak ada | Ditandatangani atau tidak ditandatangani | Jenis ketat | Jenis MIME
-
-| Komitmen Pedersen | Hashing dengan membutakan | ID file ter-hash
-
-| Batas ukuran** | N/A | 256 byte | Hingga 64 KB | Hingga ~500 Gb |
 
 ### Masukan
 
@@ -1866,6 +1824,7 @@ Lightning Network adalah sebuah jaringan terdesentralisasi dari saluran pembayar
 Untuk informasi lebih lanjut mengenai cara kerja Lightning, saya sarankan Anda mengikuti kursus lainnya:
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 #### Komitmen Multi Protokol - MPC
 
 Multi Protocol Commitment (MPC) mengacu pada struktur pohon Merkle yang digunakan dalam RGB untuk menyertakan, dalam satu transaksi Bitcoin, beberapa **Transition Bundle** dari kontrak yang berbeda. Idenya adalah untuk mengelompokkan beberapa komitmen (yang mungkin berhubungan dengan kontrak yang berbeda atau aset yang berbeda) dalam satu titik jangkar untuk mengoptimalkan penggunaan ruang blok.
@@ -1968,7 +1927,7 @@ Transaksi Saksi adalah transaksi Bitcoin yang menutup Segel Sekali Pakai di seki
 
 <chapterId>8333ea5f-51c7-5dd5-b1d7-47d491e58e51</chapterId>
 
-![video](https://youtu.be/Uo1UoxiImsI)
+:::video id=97d81b85-5a82-40a5-b111-7d96be5afd0f:::
 
 Pada bab ini, kita akan melihat lebih dekat bagaimana kontrak RGB didefinisikan dan diimplementasikan. Kita akan melihat apa saja komponen-komponen dari kontrak RGB, apa saja perannya, dan bagaimana cara membuatnya.
 
@@ -1998,17 +1957,13 @@ Penting untuk diperhatikan bahwa agar dompet dapat mengelola aset RGB (baik itu 
 
 Untuk membantu memperjelas pengertian ini, berikut adalah tabel ringkasan yang membandingkan komponen-komponen kontrak RGB dengan konsep-konsep yang telah dikenal baik dalam pemrograman berorientasi objek (OOP) atau dalam ekosistem Ethereum:
 
-| Komponen Kontrak RGB | Arti | Setara OOP | Setara Ethereum |
+| Komponen Kontrak RGB         | Makna                                | Ekuivalen OOP                          | Ekuivalen Ethereum                |
+| ---------------------------- | ----------------------------------- | ------------------------------------- | --------------------------------- |
+| **Genesis**                  | Keadaan awal kontrak               | Konstruktor kelas                    | Konstruktor kontrak               |
+| **Schema**                   | Logika bisnis kontrak              | Kelas                                 | Kontrak                           |
+| **Interface**                | Semantik kontrak                   | Antarmuka (Java) / Trait (Rust) / Protokol (Swift) | Standar ERC                      |
+| **Interface Implementation** | Pemetaan semantik dan logika       | Impl (Rust) / Implements (Java)      | Application Binary Interface (ABI) |
 
-| ---------------------------- | --------------------------------------- | -------------------------------------------------- | ---------------------------------- |
-
-| Konstruktor kelas | Konstruktor kontrak | Status awal kontrak
-
-| Kelas | Logika bisnis kontrak
-
-| Semantik kontrak | Antarmuka (Java) / sifat (Rust) / protokol (Swift) | Standar ERC |
-
-| Antarmuka Biner Aplikasi (ABI) | Impl (Rust) / Implementasi (Java) | Pemetaan semantik dan logika
 
 Kolom sebelah kiri menunjukkan elemen yang spesifik untuk protokol RGB. Kolom tengah menunjukkan fungsi konkret dari masing-masing komponen. Kemudian, di kolom "OOP equivalent", kita menemukan istilah yang setara dalam pemrograman berorientasi objek:
 
@@ -2660,7 +2615,7 @@ Pada bab berikutnya, kita akan melihat cara kerja transfer kontrak, dan bagaiman
 
 <chapterId>f043a307-d420-5752-b0d7-ebfd845802c0</chapterId>
 
-![video](https://youtu.be/sVoKIi-1XbY)
+:::video id=75eb5a8d-1910-4155-b5e3-81204c9a8901:::
 
 Pada bab ini, kita akan menganalisis proses transfer kontrak dalam ekosistem RGB. Untuk mengilustrasikan hal ini, kita akan melihat Alice dan Bob, tokoh protagonis yang biasa kita temui, yang ingin menukarkan aset RGB. Kita juga akan menunjukkan beberapa kutipan perintah dari alat bantu baris perintah `rgb`, untuk melihat bagaimana cara kerjanya dalam praktik.
 
@@ -2954,7 +2909,7 @@ Sekarang, setelah kita melihat elemen utama pemrograman RGB, saya akan mengajak 
 
 <chapterId>0e0a645c-0049-588d-8965-b8c536590cc9</chapterId>
 
-![video](https://youtu.be/GRwS-NvWF3I)
+:::video id=a3ad6dcd-90b8-4272-9dfc-76c85c859167:::
 
 Pada bab ini, kita akan melakukan pendekatan langkah demi langkah untuk menulis kontrak, menggunakan alat bantu baris perintah `rgb`. Tujuannya adalah untuk menunjukkan cara menginstal dan memanipulasi CLI, mengkompilasi **Skema**, mengimpor **Interface** dan **Implementasi Antarmuka**, kemudian menerbitkan (*issue*) aset. Kita juga akan melihat logika yang mendasarinya, termasuk kompilasi dan validasi state. Pada akhir bab ini, Anda seharusnya dapat mereproduksi proses tersebut dan membuat kontrak RGB Anda sendiri.
 
@@ -3253,7 +3208,7 @@ Dalam bab berikutnya, kita akan melihat lebih dekat pada pengintegrasian RGB ke 
 
 <chapterId>0962980a-8f94-5d0f-9cd0-43d7f884a01d</chapterId>
 
-![video](https://youtu.be/mqCupTlDbA0)
+:::video id=be25a165-6e23-488c-91d8-3dcfccc6eca1:::
 
 Dalam bab ini, saya mengusulkan untuk memeriksa bagaimana RGB dapat digunakan dalam Lightning Network, untuk mengintegrasikan dan memindahkan aset RGB (token, NFT, dll.) melalui saluran pembayaran off-chain.
 
@@ -3306,6 +3261,7 @@ Pada kenyataannya, Lightning Network memungkinkan pembayaran untuk dirutekan mel
 Oleh karena itu, pengoperasian RGB pada Lightning harus dipertimbangkan secara paralel dengan pengoperasian Lightning Network itu sendiri. Jika Anda ingin mempelajari subjek ini lebih dalam, saya sangat menyarankan Anda untuk melihat kursus pelatihan komprehensif lainnya:
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 ### Peta kode RGB
 
 Terakhir, sebelum beralih ke bagian berikutnya, saya ingin memberikan gambaran umum tentang kode yang digunakan dalam RGB. Protokol ini didasarkan pada seperangkat pustaka Rust dan spesifikasi sumber terbuka. Berikut ini adalah gambaran umum dari repositori dan crate utama:
@@ -3407,7 +3363,7 @@ Ekosistem yang terkait dengan pengembangan deterministik sumber terbuka.
 
 <chapterId>dc92a5e8-ed93-5a3f-bcd0-d433932842f4</chapterId>
 
-![video](https://youtu.be/nbUtV8GOR_U)
+:::video id=2ec9a181-a8b0-4da2-b7b5-9dfaaaeb10ba:::
 
 Bagian terakhir dari kursus ini didasarkan pada presentasi yang dibuat oleh berbagai pembicara pada pelatihan RGB. Bagian ini mencakup testimoni dan refleksi tentang RGB dan ekosistemnya, serta presentasi alat dan proyek berdasarkan protokol. Bab pertama ini dimoderatori oleh Hunter Beast, dan dua bab berikutnya oleh Frederico Tenga.
 
@@ -3473,7 +3429,7 @@ Dompet **Bitmask** adalah bagian dari pendekatan ini: di sisi blockchain, yang A
 
 <chapterId>d4d80e07-5eac-5b29-a93a-123180e97047</chapterId>
 
-![vidéo](https://youtu.be/5iAhsgCSL3U)
+:::video id=04555813-516f-4eea-9767-7082c2ea6f01:::
 
 Dalam bab ini, berdasarkan presentasi oleh Frederico Tenga, kita akan melihat seperangkat alat dan proyek yang dibuat oleh tim Bitfinex yang didedikasikan untuk RGB, dengan tujuan untuk mendorong munculnya ekosistem yang kaya dan beragam di sekitar protokol ini. Tujuan awal tim ini bukan untuk merilis produk komersial tertentu, melainkan untuk menyediakan blok bangunan perangkat lunak, berkontribusi pada protokol RGB itu sendiri, dan mengusulkan referensi implementasi konkret seperti dompet seluler (*Iris Wallet *) atau simpul Lightning yang kompatibel dengan RGB.
 
@@ -3587,7 +3543,7 @@ Dalam bab berikutnya, kita akan melihat lebih dekat pada cara meluncurkan node R
 
 <chapterId>ecaabe32-20ba-5f8c-8ca1-a3f095792958</chapterId>
 
-![vidéo](https://youtu.be/piQQH4Q2nr0)
+:::video id=d1e9753e-6093-4a47-bcdc-da1aebaefffc:::
 
 Dalam bab terakhir ini, Frederico Tenga akan memandu Anda langkah demi langkah dalam menyiapkan node Lightning RGB di lingkungan Regtest, dan menunjukkan kepada Anda cara membuat token RGB di dalamnya. Dengan meluncurkan dua node terpisah, Anda juga akan menemukan cara membuka saluran Lightning di antara keduanya dan bertukar aset RGB.
 
@@ -3954,7 +3910,7 @@ Proyek ini masih dalam tahap alfa. Oleh karena itu, sangat disarankan agar Anda 
 
 Peluang yang dibuka oleh kompatibilitas LN-RGB ini cukup besar: stablecoin di Lightning, DEX layer-2, transfer token yang dapat dipertukarkan atau NFT dengan biaya yang sangat rendah... Bab-bab sebelumnya telah menguraikan arsitektur konseptual dan logika validasi. Sekarang Anda memiliki pandangan praktis tentang cara membuat node seperti itu aktif dan berjalan, untuk pengembangan atau pengujian di masa mendatang.
 
-# Kesimpulan
+# Bagian Akhir
 
 <partId>b0baebfc-d146-5938-849a-f835fafb386f</partId>
 

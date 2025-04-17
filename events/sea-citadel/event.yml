@@ -1,11 +1,10 @@
 id: 3eaaed21-3073-4c97-bb86-b43fd7c0960a
 start_date: 2024-09-07
 end_date: 2024-09-07
-address_line_1: Berlengas, Portugal
+address_city_country: Berlengas, Portugal
 address_line_2: Port of Peniche
 address_line_3:
 name: Satoshi Sea Citadel 2024
-builder: OesteBitcoin
 type: conference
 book_online: false
 book_in_person: false
@@ -15,12 +14,12 @@ language:
   - pt
   - en
 links:
-  website: https://primal.net/p/npub1va4vvlyfwnqss496f3dc4rsa4gtpfdx6crr8ppp8sz82uf9fczxq4wda00
+  website: 
+    https://primal.net/p/npub1va4vvlyfwnqss496f3dc4rsa4gtpfdx6crr8ppp8sz82uf9fczxq4wda00
   replay_url:
-  live_url :
-tags:
-  - International
-  - bitcoiner
-  - General
-
+  live_url:
 project_id: 615f613f-2d57-4ce3-83c0-baf6f87f7c9b
+tags:
+  - use-case
+  - adoption
+  - case-studies

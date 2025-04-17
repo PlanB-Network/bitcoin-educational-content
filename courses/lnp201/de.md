@@ -21,6 +21,33 @@ Viel Spaß bei Ihrer Entdeckung!
 
 +++
 
+# Einführung
+<partId>9da7290a-3895-49a2-93ea-2a6272ca4af4</partId>
+
+## Kursübersicht
+<chapterId>f2e71062-5121-4114-a7f8-27df69884ce8</chapterId>
+
+Willkommen im Kurs LNP201!
+
+Dieser Kurs soll Ihnen ein tiefgehendes technisches Verständnis des Lightning Network vermitteln, einem Overlay-Netzwerk, das entwickelt wurde, um Bitcoin-Transaktionen schnell und oft kostengünstig abzuwickeln. Sie werden nach und nach die grundlegenden Konzepte entdecken, die dieses System steuern, von der Eröffnung von Zahlungskanälen bis hin zu Routing-Techniken und Liquiditätsmanagement.
+
+**Abschnitt 1: Die Grundlagen**  
+Wir beginnen mit einer allgemeinen Einführung in das Lightning Network, indem wir die grundlegenden Konzepte von Bitcoin, seinen Adressen, UTXOs und der Funktionsweise von Transaktionen behandeln. Dieses Basiswissen ist unerlässlich, um zu verstehen, wie das Lightning Network auf den Mechanismen der Bitcoin-Blockchain aufbaut, um sicher zu funktionieren.
+
+**Abschnitt 2: Eröffnung und Schließung von Kanälen**  
+In diesem Abschnitt werden wir den Prozess der Kanaleröffnung untersuchen, der das Fundament des Lightning Network bildet. Sie lernen, wie Commitment-Transaktionen erstellt werden, welche Rolle Widerrufsschlüssel für die Sicherheit spielen und wie Kanäle auf kooperative oder einseitige Weise geschlossen werden können. Jeder Schritt wird präzise und technisch erklärt, damit Sie alle Feinheiten verstehen können.
+
+**Abschnitt 3: Ein Liquiditätsnetzwerk**  
+Das Lightning Network beschränkt sich nicht nur auf einzelne Kanäle; es ist ein echtes Zahlungsnetzwerk. Wir werden sehen, wie Transaktionen durch Zwischenknoten mithilfe von HTLCs weitergeleitet werden können. Dieser Teil führt Sie auch in die Herausforderungen der eingehenden und ausgehenden Liquidität ein.
+
+**Abschnitt 4: Werkzeuge des Lightning Network**  
+Dieser Abschnitt stellt die praktischen Werkzeuge des Lightning Network vor, wie *Invoices*, *LNURL* und *Keysend*. Sie werden auch lernen, wie Sie die Liquidität Ihrer Kanäle verwalten können, ein wichtiger Aspekt, um die Zahlungsflüssigkeit zu gewährleisten und die Effizienz Ihrer Transaktionen im Lightning Network zu maximieren.
+
+**Abschnitt 5: Gehen Sie weiter**  
+Abschließend fassen wir die behandelten Konzepte zusammen und eröffnen den Weg zu fortgeschritteneren Themen für diejenigen, die ihr Wissen über das Lightning Network weiter vertiefen möchten.
+
+Bereit, die technischen Mechanismen des Lightning Network zu entdecken? Auf geht’s!
+
 # Die Grundlagen
 
 <partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>
@@ -28,10 +55,8 @@ Viel Spaß bei Ihrer Entdeckung!
 ## Das Lightning-Netzwerk verstehen
 
 <chapterId>df6230ae-ff35-56ea-8651-8e65580730a8</chapterId>
-![video en](https://youtu.be/QDQ8NG0l3hk)
+:::video id=ba99951f-81d2-418f-b5e7-4b8c9f8b8cc8:::
 
-
-Willkommen beim LNP201-Kurs, der darauf abzielt, die technische Funktionsweise des Lightning-Netzwerks zu erklären.
 
 Das Lightning-Netzwerk ist ein Netzwerk von Zahlungskanälen, das auf dem Bitcoin-Protokoll aufbaut und darauf abzielt, schnelle und kostengünstige Transaktionen zu ermöglichen. Es erlaubt die Erstellung von Zahlungskanälen zwischen Teilnehmern, innerhalb derer Transaktionen fast augenblicklich und mit minimalen Gebühren durchgeführt werden können, ohne jede Transaktion einzeln auf der Blockchain aufzeichnen zu müssen. Somit sucht das Lightning-Netzwerk die Skalierbarkeit von Bitcoin zu verbessern und es für Zahlungen von geringem Wert nutzbar zu machen.
 
@@ -85,7 +110,7 @@ Dies ist das Ende dieses ersten Kapitels, in dem wir die Grundlagen für das Lig
 ## Bitcoin, Adressen, UTXO und Transaktionen
 
 <chapterId>0cfb7e6b-96f0-508b-9210-90bc1e28649d</chapterId>
-![video en](https://youtu.be/U9l5IVriCss)
+:::video id=75323eef-ea03-45ac-9a6e-46d73ca255de:::
 
 Dieses Kapitel ist ein wenig besonders, da es nicht direkt dem Lightning-Netzwerk gewidmet ist, sondern Bitcoin. Tatsächlich ist das Lightning-Netzwerk eine Schicht auf Bitcoin. Es ist daher wesentlich, bestimmte grundlegende Konzepte von Bitcoin zu verstehen, um die Funktionsweise von Lightning in den nachfolgenden Kapiteln richtig zu erfassen. In diesem Kapitel werden wir die Grundlagen von Bitcoin-Empfangsadressen, UTXOs sowie die Funktionsweise von Bitcoin-Transaktionen überprüfen.
 
@@ -150,7 +175,7 @@ Dieses Kapitel über Bitcoin hat es uns ermöglicht, einige wesentliche Begriffe
 ## Kanaleröffnung
 
 <chapterId>96243eb0-f6b5-5b68-af1f-fffa0cc16bfe</chapterId>
-![video en](https://youtu.be/Ty80WuN5X-g)
+:::video id=6098fee1-735e-4d8d-9f57-0faf5fef6d76:::
 
 
 In diesem Kapitel werden wir genauer sehen, wie man einen Zahlungskanal im Lightning-Netzwerk öffnet und den Zusammenhang zwischen dieser Operation und dem zugrundeliegenden Bitcoin-System verstehen.
@@ -174,27 +199,27 @@ Es ist erwähnenswert, dass ein Lightning-Knoten über das P2P-Protokoll kommuni
 
 ### Schritte zum Öffnen eines Lightning-Kanals
 
-1. **Nachrichtenaustausch**: Alice möchte einen Kanal mit Bob öffnen. Sie sendet ihm eine Nachricht, die den Betrag enthält, den sie im Kanal hinterlegen möchte (130.000 Sats) und ihren öffentlichen Schlüssel. Bob antwortet, indem er seinen eigenen öffentlichen Schlüssel teilt.
+- **Nachrichtenaustausch**: Alice möchte einen Kanal mit Bob öffnen. Sie sendet ihm eine Nachricht, die den Betrag enthält, den sie im Kanal hinterlegen möchte (130.000 Sats) und ihren öffentlichen Schlüssel. Bob antwortet, indem er seinen eigenen öffentlichen Schlüssel teilt.
 
 ![LNP201](assets/en/11.webp)
 
-2. **Erstellung der Multisignatur-Adresse**: Mit diesen beiden öffentlichen Schlüsseln erstellt Alice eine **2/2 Multisignatur-Adresse**, was bedeutet, dass die später auf dieser Adresse hinterlegten Gelder beide Unterschriften (Alice und Bob) benötigen, um ausgegeben zu werden.
+- **Erstellung der Multisignatur-Adresse**: Mit diesen beiden öffentlichen Schlüsseln erstellt Alice eine **2/2 Multisignatur-Adresse**, was bedeutet, dass die später auf dieser Adresse hinterlegten Gelder beide Unterschriften (Alice und Bob) benötigen, um ausgegeben zu werden.
 
 ![LNP201](assets/en/12.webp)
 
-3. **Einzahlungstransaktion**: Alice bereitet eine Bitcoin-Transaktion vor, um Gelder auf dieser Multisignatur-Adresse zu hinterlegen. Zum Beispiel könnte sie entscheiden, **130.000 Satoshis** an diese Multisignatur-Adresse zu senden. Diese Transaktion wird **konstruiert, aber noch nicht auf der Blockchain veröffentlicht**.
+- **Einzahlungstransaktion**: Alice bereitet eine Bitcoin-Transaktion vor, um Gelder auf dieser Multisignatur-Adresse zu hinterlegen. Zum Beispiel könnte sie entscheiden, **130.000 Satoshis** an diese Multisignatur-Adresse zu senden. Diese Transaktion wird **konstruiert, aber noch nicht auf der Blockchain veröffentlicht**.
 
 ![LNP201](assets/en/13.webp)
 
-4. **Auszahlungstransaktion**: Bevor sie die Einzahlungstransaktion veröffentlicht, erstellt Alice eine Auszahlungstransaktion, damit sie ihre Gelder im Falle eines Problems mit Bob zurückerhalten kann. Tatsächlich, sobald Alice die Einzahlungstransaktion veröffentlicht, werden ihre Sats auf einer 2/2 Multisignatur-Adresse gesperrt, die sowohl ihre Unterschrift als auch Bobs Unterschrift benötigt, um entsperrt zu werden. Alice schützt sich vor diesem Verlustrisiko, indem sie die Auszahlungstransaktion konstruiert, die es ihr ermöglicht, ihre Gelder zurückzuerhalten.
+- **Auszahlungstransaktion**: Bevor sie die Einzahlungstransaktion veröffentlicht, erstellt Alice eine Auszahlungstransaktion, damit sie ihre Gelder im Falle eines Problems mit Bob zurückerhalten kann. Tatsächlich, sobald Alice die Einzahlungstransaktion veröffentlicht, werden ihre Sats auf einer 2/2 Multisignatur-Adresse gesperrt, die sowohl ihre Unterschrift als auch Bobs Unterschrift benötigt, um entsperrt zu werden. Alice schützt sich vor diesem Verlustrisiko, indem sie die Auszahlungstransaktion konstruiert, die es ihr ermöglicht, ihre Gelder zurückzuerhalten.
 
 ![LNP201](assets/en/14.webp)
 
-5. **Bobs Unterschrift**: Alice sendet die Einzahlungstransaktion als Beweis an Bob und bittet ihn, die Auszahlungstransaktion zu unterschreiben. Sobald Bobs Unterschrift auf der Auszahlungstransaktion erhalten ist, ist sich Alice sicher, ihre Gelder jederzeit zurückerhalten zu können, da nun nur noch ihre eigene Unterschrift benötigt wird, um die Multisignatur zu entsperren.
+- **Bobs Unterschrift**: Alice sendet die Einzahlungstransaktion als Beweis an Bob und bittet ihn, die Auszahlungstransaktion zu unterschreiben. Sobald Bobs Unterschrift auf der Auszahlungstransaktion erhalten ist, ist sich Alice sicher, ihre Gelder jederzeit zurückerhalten zu können, da nun nur noch ihre eigene Unterschrift benötigt wird, um die Multisignatur zu entsperren.
 
 ![LNP201](assets/en/15.webp)
 
-6. **Veröffentlichung der Einzahlungstransaktion**: Sobald Bobs Unterschrift erhalten ist, kann Alice die Einzahlungstransaktion auf der Bitcoin-Blockchain veröffentlichen und damit offiziell den Lightning-Kanal zwischen den beiden Nutzern eröffnen.
+- **Veröffentlichung der Einzahlungstransaktion**: Sobald Bobs Unterschrift erhalten ist, kann Alice die Einzahlungstransaktion auf der Bitcoin-Blockchain veröffentlichen und damit offiziell den Lightning-Kanal zwischen den beiden Nutzern eröffnen.
 
 ![LNP201](assets/en/16.webp)
 
@@ -213,7 +238,7 @@ Im nächsten Kapitel werden wir die technische Funktionsweise einer Transaktion 
 ## Commitment-Transaktion
 
 <chapterId>7d3fd135-129d-5c5a-b306-d5f2f1e63340</chapterId>
-![video en](https://youtu.be/dzPMGiR_JSE)
+:::video id=c17454f3-14c5-47a0-8c9c-42ee12932bd3:::
 
 
 In diesem Kapitel werden wir die technische Funktionsweise einer Transaktion innerhalb eines Kanals im Lightning-Netzwerk entdecken, das heißt, wenn Gelder von einer Seite des Kanals zur anderen bewegt werden.
@@ -269,7 +294,7 @@ Allerdings hat dieses System einen potenziellen Fehler, den wir im nächsten Kap
 ## Widerrufsschlüssel
 
 <chapterId>f2f61e5b-badb-5947-9a81-7aa530b44e59</chapterId>
-![video en](https://youtu.be/veCs39uVFUk)
+:::video id=1d850f23-eff1-4725-b284-ce12456a2c26:::
 In diesem Kapitel werden wir tiefer in die Funktionsweise von Transaktionen im Lightning-Netzwerk eintauchen, indem wir die Mechanismen diskutieren, die zum Schutz vor Betrug eingerichtet sind, um sicherzustellen, dass jede Partei die Regeln innerhalb eines Kanals einhält.
 
 ### Erinnerung: Commitment-Transaktionen
@@ -301,8 +326,8 @@ Noch schlimmer, Alice könnte die allererste Auszahlungstransaktion veröffentli
 
 Um diese Art von Betrug durch Alice zu verhindern, werden im Lightning-Netzwerk **Sicherheitsmechanismen** zu den Commitment-Transaktionen hinzugefügt:
 
-1. **Die Zeitverriegelung**: Jede Commitment-Transaktion beinhaltet eine Zeitverriegelung für Alices Gelder. Die Zeitverriegelung ist ein Smart-Contract-Primitiv, das eine Zeitbedingung festlegt, die erfüllt sein muss, damit eine Transaktion einem Block hinzugefügt werden kann. Das bedeutet, dass Alice ihre Gelder nicht zurückerhalten kann, bis eine bestimmte Anzahl von Blöcken vergangen ist, falls sie eine der Commitment-Transaktionen veröffentlicht. Diese Zeitverriegelung beginnt mit der Bestätigung der Commitment-Transaktion. Ihre Dauer ist im Allgemeinen proportional zur Größe des Kanals, kann aber auch manuell konfiguriert werden.
-2. **Widerrufsschlüssel**: Alices Gelder können auch sofort von Bob ausgegeben werden, wenn er den **Widerrufsschlüssel** besitzt. Dieser Schlüssel besteht aus einem Geheimnis, das von Alice gehalten wird, und einem Geheimnis, das von Bob gehalten wird. Beachten Sie, dass dieses Geheimnis für jede Commitment-Transaktion unterschiedlich ist.
+- **Die Zeitverriegelung**: Jede Commitment-Transaktion beinhaltet eine Zeitverriegelung für Alices Gelder. Die Zeitverriegelung ist ein Smart-Contract-Primitiv, das eine Zeitbedingung festlegt, die erfüllt sein muss, damit eine Transaktion einem Block hinzugefügt werden kann. Das bedeutet, dass Alice ihre Gelder nicht zurückerhalten kann, bis eine bestimmte Anzahl von Blöcken vergangen ist, falls sie eine der Commitment-Transaktionen veröffentlicht. Diese Zeitverriegelung beginnt mit der Bestätigung der Commitment-Transaktion. Ihre Dauer ist im Allgemeinen proportional zur Größe des Kanals, kann aber auch manuell konfiguriert werden.
+- **Widerrufsschlüssel**: Alices Gelder können auch sofort von Bob ausgegeben werden, wenn er den **Widerrufsschlüssel** besitzt. Dieser Schlüssel besteht aus einem Geheimnis, das von Alice gehalten wird, und einem Geheimnis, das von Bob gehalten wird. Beachten Sie, dass dieses Geheimnis für jede Commitment-Transaktion unterschiedlich ist.
    Dank dieser 2 kombinierten Mechanismen hat Bob die Zeit, Alices Versuch zu betrügen zu erkennen und sie zu bestrafen, indem er seinen Output mit dem Widerrufsschlüssel zurückholt, was für Bob bedeutet, alle Gelder des Kanals zurückzuerhalten. Unsere neue Commitment-Transaktion wird nun so aussehen:
    ![LNP201](assets/en/25.webp)
 
@@ -317,11 +342,11 @@ Wenn Alice und Bob den Zustand des Kanals mit einer neuen Lightning-Transaktion 
 
 Lassen Sie uns ein Beispiel nehmen, um diesen Prozess gut zu verstehen:
 
-1. **Ausgangszustand**: Alice hat **100.000 Satoshis**, Bob **30.000 Satoshis**.
+- **Ausgangszustand**: Alice hat **100.000 Satoshis**, Bob **30.000 Satoshis**.
 
 ![LNP201](assets/en/26.webp)
 
-2. Bob möchte 40.000 Satoshis von Alice über ihren Lightning-Kanal erhalten. Um dies zu tun:
+- Bob möchte 40.000 Satoshis von Alice über ihren Lightning-Kanal erhalten. Um dies zu tun:
    - Er sendet ihr eine Rechnung zusammen mit seinem Geheimnis für den Widerrufsschlüssel seiner vorherigen Commitment-Transaktion.
    - Als Antwort liefert Alice ihre Unterschrift für Bobs neue Commitment-Transaktion sowie ihr Geheimnis für den Widerrufsschlüssel ihrer vorherigen Transaktion.
    - Schließlich sendet Bob seine Unterschrift für Alices neue Commitment-Transaktion.
@@ -329,7 +354,7 @@ Lassen Sie uns ein Beispiel nehmen, um diesen Prozess gut zu verstehen:
 
 ![LNP201](assets/en/27.webp)
 
-3. Wenn Alice versucht, die alte Commitment-Transaktion zu veröffentlichen, in der sie noch **100.000 Satoshis** besaß, kann Bob, nachdem er den Widerrufsschlüssel erhalten hat, sofort die Gelder mit diesem Schlüssel zurückholen, während Alice durch den Timelock blockiert wird.
+- Wenn Alice versucht, die alte Commitment-Transaktion zu veröffentlichen, in der sie noch **100.000 Satoshis** besaß, kann Bob, nachdem er den Widerrufsschlüssel erhalten hat, sofort die Gelder mit diesem Schlüssel zurückholen, während Alice durch den Timelock blockiert wird.
 
 ![LNP201](assets/en/28.webp)
 
@@ -345,7 +370,7 @@ Zu diesem Zeitpunkt im Training wissen Sie nun, wie Lightning-Kanäle geöffnet 
 ## Kanalschließung
 
 <chapterId>29a72223-2249-5400-96f0-3756b1629bc2</chapterId>
-![video en](https://youtu.be/zmAa2fj_V7w)
+:::video id=4d8ad4e6-32ff-46d3-bd17-343929aa863b:::
 
 
 In diesem Kapitel werden wir das **Schließen eines Kanals** im Lightning-Netzwerk besprechen, was durch eine Bitcoin-Transaktion erfolgt, genau wie das Öffnen eines Kanals. Nachdem wir gesehen haben, wie Transaktionen innerhalb eines Kanals funktionieren, ist es nun an der Zeit zu sehen, wie man einen Kanal schließt und die Mittel auf der Bitcoin-Blockchain wiederherstellt.
@@ -360,9 +385,9 @@ Der **Lebenszyklus eines Kanals** beginnt mit seiner **Eröffnung**, über eine 
 
 Es gibt drei Hauptwege, diesen Kanal zu schließen, die als **der Gute, der Grobe und der Faulenzer** bezeichnet werden können (inspiriert von Andreas Antonopoulos in _Mastering the Lightning Network_):
 
-1. **Der Gute**: die **kooperative Schließung**, bei der Alice und Bob sich einigen, den Kanal zu schließen.
-2. **Der Grobe**: die **erzwungene Schließung**, bei der eine der Parteien beschließt, den Kanal ehrlich, aber ohne die Zustimmung des anderen zu schließen.
-3. **Der Hässliche**: die **Schließung mit Betrug**, bei der eine der Parteien versucht, Mittel zu stehlen, indem sie eine alte Commitment-Transaktion veröffentlicht (jede außer der letzten, die die tatsächliche und faire Verteilung der Mittel widerspiegelt).
+- **Der Gute**: die **kooperative Schließung**, bei der Alice und Bob sich einigen, den Kanal zu schließen.
+- **Der Grobe**: die **erzwungene Schließung**, bei der eine der Parteien beschließt, den Kanal ehrlich, aber ohne die Zustimmung des anderen zu schließen.
+- **Der Hässliche**: die **Schließung mit Betrug**, bei der eine der Parteien versucht, Mittel zu stehlen, indem sie eine alte Commitment-Transaktion veröffentlicht (jede außer der letzten, die die tatsächliche und faire Verteilung der Mittel widerspiegelt).
 
 Nehmen wir ein Beispiel:
 
@@ -375,13 +400,13 @@ Nehmen wir ein Beispiel:
 
 Bei einer **kooperativen Schließung** einigen sich Alice und Bob darauf, den Kanal zu schließen. So läuft es ab:
 
-1. Alice sendet eine Nachricht an Bob über das Lightning-Kommunikationsprotokoll, um den Kanalschluss vorzuschlagen.
-2. Bob stimmt zu, und die beiden Parteien tätigen keine weiteren Transaktionen im Kanal.
+- Alice sendet eine Nachricht an Bob über das Lightning-Kommunikationsprotokoll, um den Kanalschluss vorzuschlagen.
+- Bob stimmt zu, und die beiden Parteien tätigen keine weiteren Transaktionen im Kanal.
 
 ![LNP201](assets/en/31.webp)
 
-3. Alice und Bob verhandeln gemeinsam über die Gebühren der **Abschlusstransaktion**. Diese Gebühren werden in der Regel basierend auf dem Bitcoin-Gebührenmarkt zum Zeitpunkt der Schließung berechnet. Es ist wichtig zu beachten, dass **immer die Person, die den Kanal eröffnet hat** (Alice in unserem Beispiel), die Abschlussgebühren zahlt.
-4. Sie erstellen eine neue **Abschlusstransaktion**. Diese Transaktion ähnelt einer Commitment-Transaktion, jedoch ohne Zeitbeschränkungen oder Widerrufsmechanismen, da beide Parteien kooperieren und kein Risiko des Betrugs besteht. Diese kooperative Abschlusstransaktion unterscheidet sich daher von Commitment-Transaktionen.
+- Alice und Bob verhandeln gemeinsam über die Gebühren der **Abschlusstransaktion**. Diese Gebühren werden in der Regel basierend auf dem Bitcoin-Gebührenmarkt zum Zeitpunkt der Schließung berechnet. Es ist wichtig zu beachten, dass **immer die Person, die den Kanal eröffnet hat** (Alice in unserem Beispiel), die Abschlussgebühren zahlt.
+- Sie erstellen eine neue **Abschlusstransaktion**. Diese Transaktion ähnelt einer Commitment-Transaktion, jedoch ohne Zeitbeschränkungen oder Widerrufsmechanismen, da beide Parteien kooperieren und kein Risiko des Betrugs besteht. Diese kooperative Abschlusstransaktion unterscheidet sich daher von Commitment-Transaktionen.
    Zum Beispiel, wenn Alice **100.000 Satoshis** besitzt und Bob **30.000 Satoshis**, wird die Abschlusstransaktion **100.000 Satoshis** an Alices Adresse und **30.000 Satoshis** an Bobs Adresse senden, ohne Zeitbeschränkungen. Sobald diese Transaktion von beiden Parteien unterzeichnet ist, wird sie von Alice veröffentlicht. Sobald die Transaktion auf der Bitcoin-Blockchain bestätigt ist, wird der Lightning-Kanal offiziell geschlossen.
    ![LNP201](assets/en/32.webp)
 
@@ -418,9 +443,9 @@ Offensichtlich kann der Betrug potenziell erfolgreich sein, wenn Bob nicht inner
 
 Es gibt drei Wege, einen Kanal zu schließen:
 
-1. **Kooperative Schließung**: Schnell und weniger teuer, wo beide Parteien zustimmen, den Kanal zu schließen und eine maßgeschneiderte Abschlusstransaktion zu veröffentlichen.
-2. **Erzwungene Schließung**: Weniger wünschenswert, da sie sich auf die Veröffentlichung einer Verpflichtungstransaktion stützt, mit potenziell ungeeigneten Gebühren und einer Zeitbeschränkung, die die Schließung verlangsamt.
-3. **Betrug**: Wenn eine der Parteien versucht, Gelder zu stehlen, indem sie eine alte Transaktion veröffentlicht, kann die andere den Widerrufsschlüssel verwenden, um diesen Betrug zu bestrafen.
+- **Kooperative Schließung**: Schnell und weniger teuer, wo beide Parteien zustimmen, den Kanal zu schließen und eine maßgeschneiderte Abschlusstransaktion zu veröffentlichen.
+- **Erzwungene Schließung**: Weniger wünschenswert, da sie sich auf die Veröffentlichung einer Verpflichtungstransaktion stützt, mit potenziell ungeeigneten Gebühren und einer Zeitbeschränkung, die die Schließung verlangsamt.
+- **Betrug**: Wenn eine der Parteien versucht, Gelder zu stehlen, indem sie eine alte Transaktion veröffentlicht, kann die andere den Widerrufsschlüssel verwenden, um diesen Betrug zu bestrafen.
    In den kommenden Kapiteln werden wir das Lightning-Netzwerk aus einer breiteren Perspektive erkunden und uns darauf konzentrieren, wie sein Netzwerk funktioniert.
 
 # Ein Liquiditätsnetzwerk
@@ -430,7 +455,7 @@ Es gibt drei Wege, einen Kanal zu schließen:
 ## Lightning-Netzwerk
 
 <chapterId>45a7252c-fa4f-554b-b8bb-47449532918e</chapterId>
-![video en](https://youtu.be/44oBdNdXtEQ)
+:::video id=38419c23-5592-4573-b0a7-84824a5bfb77:::
 
 
 In diesem Kapitel werden wir erkunden, wie Zahlungen im Lightning-Netzwerk einen Empfänger erreichen können, auch wenn sie nicht direkt durch einen Zahlungskanal verbunden sind. Lightning ist tatsächlich ein **Netzwerk von Zahlungskanälen**, das es ermöglicht, Gelder über die Kanäle anderer Teilnehmer an einen entfernten Knoten zu senden. Wir werden entdecken, wie Zahlungen durch das Netzwerk geleitet werden, wie Liquidität zwischen Kanälen fließt und wie Transaktionsgebühren berechnet werden.
@@ -452,8 +477,8 @@ Wenn Alice Gelder an Bob senden möchte, ohne einen direkten Kanal mit ihm zu ö
 
 Angenommen, Alice möchte **50.000 Satoshis** an Bob senden:
 
-1. **Alice** sendet 50.000 Satoshis an **Suzie** in ihrem gemeinsamen Kanal.
-2. **Suzie** repliziert diese Übertragung, indem sie 50.000 Satoshis an **Bob** in ihrem Kanal sendet.
+- **Alice** sendet 50.000 Satoshis an **Suzie** in ihrem gemeinsamen Kanal.
+- **Suzie** repliziert diese Übertragung, indem sie 50.000 Satoshis an **Bob** in ihrem Kanal sendet.
 
 ![LNP201](assets/en/38.webp)
 Daher wird die Zahlung an Bob über eine Bewegung der Liquidität in jedem Kanal weitergeleitet. Am Ende der Operation hat Alice 50.000 Sats. Sie hat tatsächlich 50.000 Sats übertragen, da sie anfangs 100.000 hatte. Bob erhält auf seiner Seite zusätzliche 50.000 Sats. Für Suzie (den Zwischenknoten) ist diese Operation neutral: anfangs hatte sie 30.000 Sats in ihrem Kanal mit Alice und 250.000 Sats in ihrem Kanal mit Bob, insgesamt also 280.000 Sats. Nach der Operation hält sie 80.000 Sats in ihrem Kanal mit Alice und 200.000 Sats in ihrem Kanal mit Bob, was derselben Summe wie zu Beginn entspricht.
@@ -472,9 +497,9 @@ Nehmen wir ein theoretisches Beispiel eines anderen Netzwerks mit:
 Das Maximum, das Alice an Bob in dieser Konfiguration senden kann, beträgt **90.000 Satoshis**, da sie durch die kleinste verfügbare Liquidität im Kanal von **Suzie zu Carol** begrenzt ist. In der entgegengesetzten Richtung (von Bob zu Alice) ist keine Zahlung möglich, da **Suzies** Seite im Kanal mit **Alice** keine Satoshis enthält. Daher gibt es **keine nutzbare Route** für eine Übertragung in dieser Richtung.
 Alice sendet **40.000 Satoshis** an Bob durch die Kanäle:
 
-1. Alice überträgt 40.000 Satoshis in ihren Kanal mit Suzie.
-2. Suzie überträgt 40.000 Satoshis an Carol in ihrem gemeinsamen Kanal.
-3. Carol überträgt schließlich 40.000 Satoshis an Bob.
+- Alice überträgt 40.000 Satoshis in ihren Kanal mit Suzie.
+- Suzie überträgt 40.000 Satoshis an Carol in ihrem gemeinsamen Kanal.
+- Carol überträgt schließlich 40.000 Satoshis an Bob.
 
 ![LNP201](assets/en/40.webp)
 
@@ -490,8 +515,8 @@ Die Rolle der Zwischenknoten ist daher sehr wichtig für das Funktionieren des L
 
 Die Zwischenknoten erheben Gebühren, um Zahlungen durch ihre Kanäle zu ermöglichen. Diese Gebühren werden von **jedem Knoten für jeden Kanal** festgelegt. Die Gebühren bestehen aus 2 Elementen:
 
-1. "**Basisgebühr**": ein fester Betrag pro Kanal, oft standardmäßig **1 Sat**, aber anpassbar.
-2. "**Variable Gebühr**": ein Prozentsatz des übertragenen Betrags, berechnet in **Teilen pro Million (ppm)**. Standardmäßig beträgt sie **1 ppm** (1 Sat pro Million übertragene Satoshis), kann aber auch angepasst werden.
+- "**Basisgebühr**": ein fester Betrag pro Kanal, oft standardmäßig **1 Sat**, aber anpassbar.
+- "**Variable Gebühr**": ein Prozentsatz des übertragenen Betrags, berechnet in **Teilen pro Million (ppm)**. Standardmäßig beträgt sie **1 ppm** (1 Sat pro Million übertragene Satoshis), kann aber auch angepasst werden.
    Die Gebühren unterscheiden sich auch je nach Übertragungsrichtung. Zum Beispiel gelten für eine Überweisung von Alice zu Suzie die Gebühren von Alice. Umgekehrt, von Suzie zu Alice, werden Suzies Gebühren verwendet.
 
 Zum Beispiel könnten wir für einen Kanal zwischen Alice und Suzie haben:
@@ -534,16 +559,16 @@ Um eine Zahlung vom Sender zum Empfänger zu leiten, verwendet das Lightning-Net
 - **Jeder Zwischenknoten kennt nur seinen unmittelbaren Nachbarn**: Suzie weiß nur, dass sie Gelder von Alice erhalten hat und dass sie diese an Carol weiterleiten muss. Allerdings weiß Suzie nicht, ob Alice der Quellknoten oder ein Zwischenknoten ist, und sie weiß auch nicht, ob Carol der Empfängerknoten oder nur ein weiterer Zwischenknoten ist. Dieses Prinzip gilt auch für Carol und alle anderen Knoten auf dem Pfad. Onion-Routing bewahrt somit die Vertraulichkeit von Transaktionen, indem es die Identität des Senders und des endgültigen Empfängers verbirgt. Um sicherzustellen, dass der sendende Knoten eine vollständige Route zum Empfänger im Onion-Routing berechnen kann, muss er einen **Netzwerkgraphen** pflegen, um seine Topologie zu kennen und mögliche Routen zu bestimmen.
   **Was sollten Sie aus diesem Kapitel mitnehmen?**
 
-1. Auf Lightning können Zahlungen indirekt über Zwischenkanäle zwischen Knoten geroutet werden. Jeder dieser Zwischenknoten erleichtert das Liquiditäts-Relay.
-2. Zwischenknoten erhalten eine Provision für ihren Dienst, bestehend aus festen und variablen Gebühren.
-3. Onion-Routing ermöglicht es dem sendenden Knoten, die komplette Route zu berechnen, ohne dass Zwischenknoten die Quelle oder das endgültige Ziel kennen.
+- Auf Lightning können Zahlungen indirekt über Zwischenkanäle zwischen Knoten geroutet werden. Jeder dieser Zwischenknoten erleichtert das Liquiditäts-Relay.
+- Zwischenknoten erhalten eine Provision für ihren Dienst, bestehend aus festen und variablen Gebühren.
+- Onion-Routing ermöglicht es dem sendenden Knoten, die komplette Route zu berechnen, ohne dass Zwischenknoten die Quelle oder das endgültige Ziel kennen.
 
 In diesem Kapitel haben wir das Routing von Zahlungen im Lightning-Netzwerk erkundet. Aber es stellt sich eine Frage: Was verhindert, dass Zwischenknoten eine eingehende Zahlung akzeptieren, ohne sie an das nächste Ziel weiterzuleiten, mit dem Ziel, die Transaktion abzufangen? Dies ist genau die Rolle von HTLCs, die wir im folgenden Kapitel untersuchen werden.
 
 ## HTLC – Hashed Time Locked Contract
 
 <chapterId>4369b85a-1365-55d8-99e1-509088210116</chapterId>
-![video en](https://youtu.be/jI4nM297aHA)
+:::video id=6f204b92-55a5-4939-9440-7c5b96a297bf:::
 
 
 In diesem Kapitel werden wir entdecken, wie Lightning Zahlungen durch Zwischenknoten ermöglicht, ohne dass diesen vertraut werden muss, dank **HTLC** (_Hashed Time-Locked Contracts_). Diese Smart Contracts stellen sicher, dass jeder Zwischenknoten die Gelder aus seinem Kanal nur dann erhält, wenn er die Zahlung an den endgültigen Empfänger weiterleitet, andernfalls wird die Zahlung nicht validiert.
@@ -652,16 +677,16 @@ Schließlich, im Falle einer kooperativen Kanalschließung, während ein HTLC ak
 
 HTLCs ermöglichen das Routing von Lightning-Zahlungen durch mehrere Knoten, ohne ihnen vertrauen zu müssen. Hier sind die Schlüsselpunkte, die Sie sich merken sollten:
 
-1. HTLCs gewährleisten die Sicherheit von Zahlungen durch ein Geheimnis (Preimage) und eine Ablaufzeit.
-2. Die Auflösung oder das Ablaufen von HTLCs folgt einer spezifischen Reihenfolge: dann vom Ziel zum Ursprung, um jeden Knoten zu schützen.
-3. Solange ein HTLC weder aufgelöst noch abgelaufen ist, wird es als Ausgabe in den neuesten Commitment-Transaktionen beibehalten.
+- HTLCs gewährleisten die Sicherheit von Zahlungen durch ein Geheimnis (Preimage) und eine Ablaufzeit.
+- Die Auflösung oder das Ablaufen von HTLCs folgt einer spezifischen Reihenfolge: dann vom Ziel zum Ursprung, um jeden Knoten zu schützen.
+- Solange ein HTLC weder aufgelöst noch abgelaufen ist, wird es als Ausgabe in den neuesten Commitment-Transaktionen beibehalten.
 
 Im nächsten Kapitel werden wir entdecken, wie ein Knoten, der eine Lightning-Transaktion ausstellt, Routen findet und auswählt, damit seine Zahlung den Empfängerknoten erreicht.
 
 ## Ihren Weg finden
 
 <chapterId>7e2ae959-c2a1-512e-b5d6-8fd962e819da</chapterId>
-![video en](https://youtu.be/CqetCElRjUQ)
+:::video id=e5baa834-111d-46f5-a28b-3538bed2bbb0:::
 
 
 In den vorherigen Kapiteln haben wir gesehen, wie man die Kanäle anderer Knoten nutzen kann, um Zahlungen zu routen und einen Knoten zu erreichen, ohne direkt über einen Kanal mit ihm verbunden zu sein. Wir haben auch besprochen, wie man die Sicherheit der Übertragung ohne Vertrauen in die Zwischenknoten gewährleistet. In diesem Kapitel werden wir uns darauf konzentrieren, die bestmögliche Route zu finden, um einen Zielknoten zu erreichen.
@@ -715,9 +740,9 @@ Da Alice jedoch die genaue Verteilung der Mittel in jedem Kanal nicht kennt, mus
 - **Anzahl der Zwischenknoten**: Schließlich wird der sendende Knoten versuchen, eine Route mit der geringstmöglichen Anzahl von Knoten zu finden, um das Risiko eines Ausfalls zu verringern und die Lightning-Transaktionsgebühren zu begrenzen.
   Durch die Analyse dieser Kriterien kann der sendende Knoten die wahrscheinlichsten Routen testen und versuchen, sie zu optimieren. In unserem Beispiel könnte Alice die besten Routen wie folgt einstufen:
 
-1. `Alice → 1 → 2 → 5 → Bob`, weil es die kürzeste Route mit der höchsten Kapazität ist.
-2. `Alice → 1 → 2 → 4 → 5 → Bob`, weil diese Route gute Kapazitäten bietet, obwohl sie länger als die erste ist.
-3. `Alice → 1 → 2 → 3 → Bob`, weil diese Route den Kanal `2 → 3` beinhaltet, der eine sehr begrenzte Kapazität hat, aber potenziell nutzbar bleibt.
+- `Alice → 1 → 2 → 5 → Bob`, weil es die kürzeste Route mit der höchsten Kapazität ist.
+- `Alice → 1 → 2 → 4 → 5 → Bob`, weil diese Route gute Kapazitäten bietet, obwohl sie länger als die erste ist.
+- `Alice → 1 → 2 → 3 → Bob`, weil diese Route den Kanal `2 → 3` beinhaltet, der eine sehr begrenzte Kapazität hat, aber potenziell nutzbar bleibt.
 
 ### Zahlungsausführung
 
@@ -735,9 +760,9 @@ Es ist erwähnenswert, dass Bob Alice Informationen in der **Rechnung** zur Verf
 
 **Was sollten Sie aus diesem Kapitel mitnehmen?**
 
-1. Knoten halten eine Karte der Netzwerktopologie durch Ankündigungen und durch Überwachung von Kanalschließungen auf der Bitcoin-Blockchain aufrecht.
-2. Die Suche nach einer optimalen Route für eine Zahlung bleibt probabilistisch und hängt von vielen Kriterien ab.
-3. Bob kann Hinweise in der **Rechnung** geben, um Alices Routing zu leiten und sie davon abzuhalten, unwahrscheinliche Routen zu testen.
+- Knoten halten eine Karte der Netzwerktopologie durch Ankündigungen und durch Überwachung von Kanalschließungen auf der Bitcoin-Blockchain aufrecht.
+- Die Suche nach einer optimalen Route für eine Zahlung bleibt probabilistisch und hängt von vielen Kriterien ab.
+- Bob kann Hinweise in der **Rechnung** geben, um Alices Routing zu leiten und sie davon abzuhalten, unwahrscheinliche Routen zu testen.
 
 Im folgenden Kapitel werden wir speziell die Funktionsweise von Rechnungen studieren, zusätzlich zu einigen anderen Tools, die im Lightning-Netzwerk verwendet werden.
 
@@ -748,7 +773,7 @@ Im folgenden Kapitel werden wir speziell die Funktionsweise von Rechnungen studi
 ## Rechnung, LNURL und Keysend
 
 <chapterId>e34c7ecd-2327-52e3-b61e-c837d9e5e8b0</chapterId>
-![video en](https://youtu.be/XANzf1Qqp9I)
+:::video id=309c3412-506e-4189-ad46-5e5088c55008:::
 In diesem Kapitel werden wir uns genauer mit der Funktionsweise von Lightning **Rechnungen** befassen, also Zahlungsanforderungen, die vom Empfängerknoten an den Senderknoten gesendet werden. Ziel ist es zu verstehen, wie man auf Lightning bezahlt und Zahlungen empfängt. Wir werden auch 2 Alternativen zu klassischen Rechnungen besprechen: LNURL und Keysend.
 ![LNP201](assets/en/68.webp)
 
@@ -756,8 +781,8 @@ In diesem Kapitel werden wir uns genauer mit der Funktionsweise von Lightning **
 
 Wie im Kapitel über HTLCs erklärt, beginnt jede Zahlung mit der Erstellung einer **Rechnung** durch den Empfänger. Diese Rechnung wird dann an den Zahler übermittelt (über einen QR-Code oder durch Kopieren und Einfügen), um die Zahlung einzuleiten. Eine Rechnung besteht aus zwei Hauptteilen:
 
-1. **Der für Menschen lesbare Teil**: dieser Abschnitt enthält klar sichtbare Metadaten, um die Benutzererfahrung zu verbessern.
-2. **Der Payload**: dieser Abschnitt enthält Informationen, die für Maschinen zur Verarbeitung der Zahlung bestimmt sind.
+- **Der für Menschen lesbare Teil**: dieser Abschnitt enthält klar sichtbare Metadaten, um die Benutzererfahrung zu verbessern.
+- **Der Payload**: dieser Abschnitt enthält Informationen, die für Maschinen zur Verarbeitung der Zahlung bestimmt sind.
 
 Die typische Struktur einer Rechnung beginnt mit einem Identifikator `ln` für "Lightning", gefolgt von `bc` für Bitcoin, dann der Betrag der Rechnung. Ein Separator `1` unterscheidet den für Menschen lesbaren Teil vom Daten- (Payload-)Teil.
 
@@ -785,7 +810,7 @@ Im ersten Teil können wir sehen, dass:
 
 - `ln` darauf hinweist, dass es sich um eine Lightning-Transaktion handelt.
 - `bc` darauf hinweist, dass das Lightning-Netzwerk auf der Bitcoin-Blockchain ist (und nicht auf dem Testnet oder auf Litecoin).
-- `100u` gibt den Betrag der Rechnung an, ausgedrückt in **Mikrosatoshis** (`u` bedeutet "Mikro"), was hier 10.000 Sats entspricht.
+- `100u` gibt den Betrag der Rechnung an, ausgedrückt in **Mikrobitcoins** (`u` bedeutet "Mikro"), was hier 10.000 Sats entspricht.
 
 Um den Zahlungsbetrag zu bezeichnen, wird er in Untereinheiten von Bitcoin ausgedrückt. Hier sind die verwendeten Einheiten:
 
@@ -847,16 +872,16 @@ Einfach ausgedrückt, ist es in diesem Protokoll der Sender, der das Geheimnis g
 
 **Was sollten Sie aus diesem Kapitel mitnehmen?**
 
-1. Eine **Lightning-Rechnung** ist eine Zahlungsanforderung, die aus einem für Menschen lesbaren Teil und einem Maschinendatenteil besteht.
-2. Die Rechnung ist in **bech32** kodiert, mit einem `1` Separator, um das Kopieren zu erleichtern, und einem Datenteil, der alle Informationen enthält, die zur Verarbeitung der Zahlung notwendig sind.
-3. Es existieren andere Zahlungsprozesse auf Lightning, insbesondere **LNURL-Withdraw**, um Abhebungen zu erleichtern, und **Keysend** für direkte Überweisungen ohne Rechnung.
+- Eine **Lightning-Rechnung** ist eine Zahlungsanforderung, die aus einem für Menschen lesbaren Teil und einem Maschinendatenteil besteht.
+- Die Rechnung ist in **bech32** kodiert, mit einem `1` Separator, um das Kopieren zu erleichtern, und einem Datenteil, der alle Informationen enthält, die zur Verarbeitung der Zahlung notwendig sind.
+- Es existieren andere Zahlungsprozesse auf Lightning, insbesondere **LNURL-Withdraw**, um Abhebungen zu erleichtern, und **Keysend** für direkte Überweisungen ohne Rechnung.
 
 Im folgenden Kapitel werden wir sehen, wie ein Knotenbetreiber die Liquidität in seinen Kanälen verwalten kann, um nie blockiert zu sein und immer in der Lage zu sein, Zahlungen im Lightning-Netzwerk zu senden und zu empfangen.
 
 ## Ihre Liquidität verwalten
 
 <chapterId>cc76d0c4-d958-57f5-84bf-177e21393f48</chapterId>
-![video en](https://youtu.be/MIbej28La7Y)
+:::video id=96096aef-e4ce-4c44-a022-57e27082232a:::
 
 
 In diesem Kapitel werden wir Strategien zur effektiven Verwaltung der Liquidität im Lightning-Netzwerk erkunden. Die Verwaltung der Liquidität variiert je nach Benutzertyp und Kontext. Wir werden uns die Hauptprinzipien und bestehenden Techniken ansehen, um besser zu verstehen, wie man diese Verwaltung optimieren kann.
@@ -865,9 +890,9 @@ In diesem Kapitel werden wir Strategien zur effektiven Verwaltung der Liquiditä
 
 Es gibt drei Hauptnutzerprofile auf Lightning, jedes mit spezifischen Liquiditätsbedürfnissen:
 
-1. **Der Zahler**: Dies ist derjenige, der Zahlungen tätigt. Sie benötigen ausgehende Liquidität, um Gelder an andere Nutzer überweisen zu können. Zum Beispiel könnte dies ein Verbraucher sein.
-2. **Der Verkäufer (oder Zahlungsempfänger)**: Dies ist derjenige, der Zahlungen erhält. Sie benötigen eingehende Liquidität, um Zahlungen an ihren Knoten akzeptieren zu können. Zum Beispiel könnte dies ein Geschäft oder ein Online-Shop sein.
-3. **Der Router**: Ein Zwischenknoten, oft spezialisiert auf das Routen von Zahlungen, der seine Liquidität in jedem Kanal optimieren muss, um so viele Zahlungen wie möglich zu routen und Gebühren zu verdienen.
+- **Der Zahler**: Dies ist derjenige, der Zahlungen tätigt. Sie benötigen ausgehende Liquidität, um Gelder an andere Nutzer überweisen zu können. Zum Beispiel könnte dies ein Verbraucher sein.
+- **Der Verkäufer (oder Zahlungsempfänger)**: Dies ist derjenige, der Zahlungen erhält. Sie benötigen eingehende Liquidität, um Zahlungen an ihren Knoten akzeptieren zu können. Zum Beispiel könnte dies ein Geschäft oder ein Online-Shop sein.
+- **Der Router**: Ein Zwischenknoten, oft spezialisiert auf das Routen von Zahlungen, der seine Liquidität in jedem Kanal optimieren muss, um so viele Zahlungen wie möglich zu routen und Gebühren zu verdienen.
 
 Diese Profile sind natürlich nicht festgelegt; ein Nutzer kann je nach den Transaktionen zwischen Zahler und Zahlungsempfänger wechseln. Zum Beispiel könnte Bob sein Gehalt auf Lightning von seinem Arbeitgeber erhalten, was ihn in die Position eines "Verkäufers" mit Bedarf an eingehender Liquidität versetzt. Anschließend, wenn er sein Gehalt verwenden möchte, um Lebensmittel zu kaufen, wird er zum "Zahler" und muss dann über ausgehende Liquidität verfügen.
 
@@ -923,10 +948,10 @@ Im nächsten Kapitel schlage ich vor, die wichtigsten Konzepte dieser Schulung z
 
 <partId>6bbf107d-a224-5916-9f0c-2b4d30dd0b17</partId>
 
-## Schlussfolgerung der Schulung
+## Zusammenfassung der Schulung
 
 <chapterId>a65a571c-561b-5e1c-87bf-494644653c22</chapterId>
-![video en](https://youtu.be/coaskEGRjiU)
+:::video id=5f4f4344-ef27-4765-8f09-8262e6833bde:::
 
 In diesem abschließenden Kapitel, das das Ende des LNP201-Trainings markiert, schlage ich vor, die wichtigen Konzepte, die wir gemeinsam behandelt haben, noch einmal zu besuchen.
 Das Ziel dieses Trainings war es, Ihnen ein umfassendes und technisches Verständnis des Lightning-Netzwerks zu vermitteln. Wir haben entdeckt, wie das Lightning-Netzwerk auf der Bitcoin-Blockchain basiert, um Off-Chain-Transaktionen durchzuführen, während es die grundlegenden Eigenschaften von Bitcoin beibehält, insbesondere die Abwesenheit der Notwendigkeit, anderen Knoten zu vertrauen.
@@ -935,12 +960,12 @@ Das Ziel dieses Trainings war es, Ihnen ein umfassendes und technisches Verstän
 
 In den ersten Kapiteln haben wir erkundet, wie zwei Parteien durch das Öffnen eines Zahlungskanals Transaktionen außerhalb der Bitcoin-Blockchain durchführen können. Hier sind die abgedeckten Schritte:
 
-1. **Kanalöffnung**: Die Erstellung des Kanals erfolgt durch eine Bitcoin-Transaktion, die die Mittel in einer 2/2-Multisignatur-Adresse sperrt. Diese Einzahlung repräsentiert den Lightning-Kanal auf der Blockchain.
+- **Kanalöffnung**: Die Erstellung des Kanals erfolgt durch eine Bitcoin-Transaktion, die die Mittel in einer 2/2-Multisignatur-Adresse sperrt. Diese Einzahlung repräsentiert den Lightning-Kanal auf der Blockchain.
 
 ![LNP201](assets/en/76.webp) 2. **Transaktionen im Kanal**: In diesem Kanal ist es dann möglich, zahlreiche Transaktionen durchzuführen, ohne sie auf der Blockchain veröffentlichen zu müssen. Jede Lightning-Transaktion erzeugt einen neuen Zustand des Kanals, der in einer Commitment-Transaktion widergespiegelt wird.
 ![LNP201](assets/en/77.webp)
 
-3. **Sicherung und Schließung**: Die Teilnehmer verpflichten sich zum neuen Zustand des Kanals, indem sie Widerrufsschlüssel austauschen, um die Mittel zu sichern und Betrug zu verhindern. Beide Parteien können den Kanal kooperativ schließen, indem sie eine neue Transaktion auf der Bitcoin-Blockchain durchführen, oder als letzten Ausweg durch eine erzwungene Schließung. Diese letztere Option, obwohl weniger effizient, weil sie länger dauert und manchmal in Bezug auf die Gebühren schlecht bewertet wird, ermöglicht dennoch die Wiederherstellung der Mittel. Im Falle eines Betrugs kann das Opfer den Betrüger bestrafen, indem es alle Mittel aus dem Kanal auf der Blockchain zurückerhält.
+- **Sicherung und Schließung**: Die Teilnehmer verpflichten sich zum neuen Zustand des Kanals, indem sie Widerrufsschlüssel austauschen, um die Mittel zu sichern und Betrug zu verhindern. Beide Parteien können den Kanal kooperativ schließen, indem sie eine neue Transaktion auf der Bitcoin-Blockchain durchführen, oder als letzten Ausweg durch eine erzwungene Schließung. Diese letztere Option, obwohl weniger effizient, weil sie länger dauert und manchmal in Bezug auf die Gebühren schlecht bewertet wird, ermöglicht dennoch die Wiederherstellung der Mittel. Im Falle eines Betrugs kann das Opfer den Betrüger bestrafen, indem es alle Mittel aus dem Kanal auf der Blockchain zurückerhält.
 
 ![LNP201](assets/en/78.webp)
 
@@ -976,7 +1001,7 @@ Wir haben gesehen, dass das Liquiditätsmanagement im Lightning eine Herausforde
 
 ![LNP201](assets/en/84.webp)
 
-# Fazit
+# Abschließender Abschnitt
 
 <partId>b8715c1c-7ae2-49b7-94c7-35bf85346ad3</partId>
 

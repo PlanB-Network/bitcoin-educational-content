@@ -301,4 +301,4 @@ Vous savez dorénavant comment émettre un contrat RGB et le transférer. Si vou
 
 Je vous conseille également de découvrir cet autre tutoriel dans lequel je vous explique comment lancer un nœud Lightning compatible avec RGB pour échanger des tokens de manière quasiment instantanée :
 
-https://planb.network/tutorials/node/rgb/rln-ffc02528-329b-4e16-bd83-873d0299feea
+https://planb.network/tutorials/node/others/rln-ffc02528-329b-4e16-bd83-873d0299feea

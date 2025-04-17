@@ -1,24 +1,18 @@
 id: e66ecf6b-71a3-49ea-8c42-fb42ce565148
 year: 2023-11
 name: B-Only 2023
-builder: B-Only
 location: Annecy, France
 language:
   - fr
 links:
   website: https://b-only.org/
   twitter: https://twitter.com/AnnecyBitcoin
-tags:
-  - Bitcoiner
-  - General
-
-# Proofreading metadata
 project_id: a0d135dd-3161-430f-b7c3-4807641dadaf
 original_language: en
 proofreading:
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 0
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
     reward: 0.05

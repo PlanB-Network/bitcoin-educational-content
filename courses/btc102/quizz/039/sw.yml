@@ -1,0 +1,11 @@
+question: Je, ni sababu gani kuu ya kuanzishwa kwa tawala za kidikteta kwa mujibu wa sura hiyo?
+answer: Ukosefu wa usawa wa utajiri unaozidi kuongezeka duniani
+wrong_answers:
+  - Ukosefu wa elimu duniani
+  - Ukosefu wa rasilimali duniani
+  - Ukosefu wa demokrasia duniani
+explanation: |
+  Sura hiyo inataja kwamba ukosefu wa usawa wa mali unaozidi kuwa mbaya duniani
+  yamesababisha kuongezeka kwa itikadi kali, ambayo wakati mwingine imesababisha kuanzishwa
+  wa tawala za kidikteta.
+reviewed: false

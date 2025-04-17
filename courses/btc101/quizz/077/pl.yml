@@ -1,0 +1,12 @@
+question: Jakie jest ryzyko udostępnienia klucza publicznego Bitcoin Wallet?
+answer: Utrata prywatności.
+wrong_answers:
+  - Zniszczenie Bitcoin Wallet.
+  - Utrata Bitcoinów.
+  - Hakowanie Bitcoin Wallet.
+explanation: |
+  Udostępnianie klucza publicznego wiąże się z ryzykiem dla prywatności, ale nie
+  dla bezpieczeństwa. Dzieje się tak, ponieważ klucz publiczny jest używany do
+  generate Bitcoin adresów, a tym samym otrzymywania pieniędzy, ale nie
+  nie reprezentuje Ownership Bitcoinów.
+reviewed: true

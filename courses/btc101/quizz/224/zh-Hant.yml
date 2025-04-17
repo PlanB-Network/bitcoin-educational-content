@@ -1,0 +1,8 @@
+question: Lightning Network 允許什麼？
+answer: 即時、低成本的 Bitcoin 交易。
+wrong_answers:
+  - 即時、高成本的 Bitcoin 交易。
+  - 延遲、低成本的 Bitcoin 交易。
+  - 延遲、高成本的 Bitcoin 交易。
+explanation: >-
+reviewed: true

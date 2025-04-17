@@ -1,18 +1,11 @@
 id: 306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
-builder: Wizard Sardine
-
-tags:
-  - wallets
-  - personal-security
-  - keys
 
 category: desktop
 
 level: intermediate
 
-credits:
-  professor: satoshi-brother
+professor_id: 81e18c30-579e-46c1-a197-98cd32cb37ae
 
 # Proofreading metadata
 
@@ -22,91 +15,95 @@ proofreading:
   - language: fr
     last_contribution_date: 2025-01-17
     urgency: 1
-    contributors_id:
+    contributor_names:
       - lugaxker
-    reward: 2.58
+    reward: 3.84
 
 
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 10.2
 
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 5.15
+    contributor_names:
+    reward: 7.68
 
   - language: en
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 5.15
+    contributor_names:
+    reward: 7.68
 
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 7.68
 
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 10.2
 
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 10.2
 
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 12.73
 
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 7.68
 
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 15.25
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 10.2
 
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 5.15
+    contributor_names:
+    reward: 7.68
 
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 10.2
 
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 15.25
 
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 12.73
+tags:
+  - wallets
+  - guides
+  - good-practice

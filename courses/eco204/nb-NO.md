@@ -20,41 +20,24 @@ Her vil vi fremheve trender og vanlige mønstre i episoder av hyperinflasjon gje
 
 <partId>6fe4d15d-f6e6-54be-9e04-0a75ac98df8b</partId>
 
-## Introduksjon
+## Kursoversikt
 
 <chapterId>9d1aba8d-0485-5020-9863-5de37e6db8e0</chapterId>
 
-Dette programmet har som mål å gi en dyp forståelse av fremveksten av hyperinflasjoner i en verden dominert av Fiat-valuta og å undersøke deres betydelige konsekvenser. Deltakerne vil utforske hyperinflasjonssykluser i detalj, analysere årsakene, utløserne, og historiske og samtidige eksempler. De vil også undersøke den håndgripelige effekten av hyperinflasjoner på økonomien og dagliglivet, studere konsekvensene på valutaverdi, kjøpekraft, og individuelle og kollektive sparemidler.
+Velkommen til kurset ECO204!
 
-Her vil vi fremheve trender og vanlige mønstre i episoder av hyperinflasjon gjennom historien, samtidig som vi tilbyr effektive og konkrete strategier for å beskytte seg selv under perioder med hyperinflasjon. Deltakerne vil ha muligheten til å utforske ulike investeringsalternativer og finansielle forsvarsmekanismer, og tilegne seg praktiske verktøy og essensiell kunnskap for å navigere rolig i et ustabil økonomisk klima.
+Målet med dette kurset er å hjelpe deg med å forstå de grunnleggende årsakene, mekanismene og konsekvensene av hyperinflasjon i konteksten av et fiat-pengesystem. Gjennom konkrete eksempler og historiske analyser vil du lære å gjenkjenne de tilbakevendende mønstrene som går forut for hyperinflasjonsperioder, og identifisere tiltak for å beskytte deg selv.
 
-### Pensum
+**Del 2: Hva er inflasjon?**  
+Før vi går dypere inn i emnet, skal vi se på det grunnleggende: Hva er inflasjon? Denne delen vil presentere inflasjonens monetære opprinnelse, de forskjellige typene inflasjon og hvordan de passer inn i en bredere økonomisk dynamikk. Dette er et viktig steg for å forstå hvordan vanlig inflasjon kan utvikle seg til hyperinflasjon.
 
-Seksjon 1 - Introduksjon
+**Del 3: Hva er hyperinflasjon?**  
+I denne delen vil du studere de nøyaktige definisjonene av hyperinflasjon samt flere betydelige historiske episoder, inkludert Weimar-Tyskland og Zimbabwe. Vi vil analysere deres likheter, forskjeller og moderne paralleller. Du vil også oppdage mindre kjente tilfeller, som de gjentatte valutareformene i Latin-Amerika, og løsningene som enkelte land har brukt for å komme seg ut av krisen.
 
-- 1.1 - Kursintroduksjon av Rogzy & David
+**Del 4: Hvordan havnet vi her?**  
+Denne delen tar sikte på å forstå de strukturelle mekanismene som muliggjør hyperinflasjon, spesielt gjennom utviklingen av det monetære "andre laget" og sentralbankenes rolle. Ytterligere ressurser og anbefalte lesninger vil bli foreslått for videre utforskning.
 
-Seksjon 2 - Hva er inflasjon?
-
-- 2.1 - Et monetært fenomen
-- 2.2 - Typer inflasjon
-- 2.3 - Deflasjon
-
-Seksjon 3 - Hva er hyperinflasjon?
-
-- 3.1 - Definisjoner
-- 3.2 - Weimar vs Zimbabwe likheter
-- 3.3 - Weimar vs Zimbabwe forskjeller og samtidige paralleller
-- 3.4 - Redenominasjoner i Latin-Amerika
-- 3.5 - Hvordan komme ut av hyperinflasjon
-- 3.6 - Presentasjon av hyperinflasjons seddelsamlingen
-
-Seksjon 4 - Hvordan kom vi hit?
-
-- 4.1 - Fremveksten av det andre laget av penger og sentralbanker
-- 4.2 - Bøker og ressurser
-
-Lykke til!
+Hva om pengehistorien gjentar seg rett foran øynene våre? Døm selv i de følgende kapitlene!
 
 # Hva er inflasjon?
 
@@ -504,7 +487,7 @@ Når valuta raskt mister sin verdi, kan selv de enkleste transaksjonene bli arbe
 
 > Zimbabwe: "Butikksjefer fikk også lov til å ansette en midlertidig arbeider for å erstatte den ansatte som telte penger hele dagen. Selvfølgelig, å telle penger i butikken for administrasjon og bankinnskudd var én ting, men hele prosessen måtte gjentas i banken under innskuddet."
 
-![video](https://www.youtube.com/watch?v=OMwkb5rpm_w&t=20s)
+:::video id=910231d7-af90-4ab8-b74c-bfb81caebfb2:::
 
 Teknikk for pengeregning fra Usbekistan
 
@@ -930,7 +913,7 @@ Hyperinflasjon er et fascinerende emne som har blitt studert gjennom ulike histo
 
 - "Valutastyrer for U-land: En Håndbok" av Steve Hanke og Kurt Schuler. Selv om fokuset er på valutastyrer, tilbyr denne boken et perspektiv på hvordan man kan unngå situasjoner med hyperinflasjon.
 
-# Konklusjon
+# Siste seksjon
 
 <partId>cb1f4a4b-556a-4e47-a5cc-136be35a1f9a</partId>
 

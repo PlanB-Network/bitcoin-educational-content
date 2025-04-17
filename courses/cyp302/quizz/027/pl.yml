@@ -1,0 +1,9 @@
+question: Jaka jest własność komutacyjna operacji XOR?
+answer: Kolejność operandów nie ma wpływu na wynik operacji
+wrong_answers:
+  - XOR działa tylko z liczbami parzystymi
+  - XOR wymaga operandów o tej samej długości
+  - Pozycja bitów w operandach nie ma wpływu na wynik operacji
+explanation: |
+  XOR jest komutatywne, co oznacza, że a XOR b jest równe b XOR a.
+reviewed: false

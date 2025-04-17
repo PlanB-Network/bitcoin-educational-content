@@ -1,18 +1,10 @@
 id: 848b6a23-deb2-4c5f-a27e-93e2f842140f
-builder: Plan ₿ Network
 
 category: on-chain
 
-tags:
-  - privacy
-  - education
-  - payjoin
-  - P2EP
-
 level: advanced
 
-credits:
-  professor: pretty-private
+professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
 # Proofreading metadata
 project_id: cd62a137-baad-4133-b90d-711963e510c7
 original_language: fr
@@ -20,79 +12,83 @@ proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 3.88
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 1.99
+    contributor_names:
+    reward: 2.93
   - language: en
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 1.99
+    contributor_names:
+    reward: 2.93
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 2.93
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 3.88
   - language: fr
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
-    reward: 0.99
+    reward: 1.47
   - language: it
     last_contribution_date: 2024-09-09
     urgency: 1
-    contributors_id:
+    contributor_names:
       - TinF0ilHat1
     reward: 1.47
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 5.77
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 1.99
+    contributor_names:
+    reward: 2.93
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 3.88
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 5.77
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 3.88
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 4.82
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 4.82
 
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 3.88
+tags:
+  - privacy
+  - onchain
+  - technical-analysis

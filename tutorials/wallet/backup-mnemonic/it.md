@@ -85,9 +85,11 @@ Se si utilizza un portafoglio multisig o un portafoglio con script complessi che
 D'altra parte, se utilizzate una passphrase, assicuratevi di non scriverla sullo stesso supporto della vostra frase mnemonica. Lo scopo della passphrase è quello di proteggere il portafoglio in caso di furto. Per saperne di più su come utilizzare una passphrase, date un'occhiata a questo tutorial complementare:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 Una volta salvata la frase mnemonica su un supporto fisico, si consiglia vivamente di eseguire un test di ripristino quando il portafoglio appena creato è ancora vuoto. Questo test consiste nell'annotare un campione di informazioni, cancellare deliberatamente il portafoglio vuoto e poi provare a ripristinarlo utilizzando solo il backup fisico della frase mnemonica. In questo modo è possibile verificare che il backup sia completo e privo di errori di inserimento. Inoltre, consente di familiarizzare con il processo di ripristino. In questo modo, se in futuro avrete bisogno di un ripristino, sarete meglio preparati ed eviterete lo stress di un primo tentativo in una situazione reale. Per saperne di più su come eseguire questo test, vedere quest'altra esercitazione:
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+
 Infine, c'è la questione del numero di backup. Questa scelta dipende interamente dalla vostra situazione personale. Limitare il numero di copie, ad esempio scrivendo la frase mnemonica solo una volta su un supporto, riduce il rischio di furto, ma aumenta il rischio di perdita. Al contrario, fare più copie riduce il rischio di perdita, ma aumenta il rischio di furto. Sta quindi a voi trovare il giusto equilibrio per le vostre esigenze e stabilire il numero di copie che ritenete più opportuno.
 
 ## Immagazzinamento
@@ -117,4 +119,5 @@ Per fare un ulteriore passo avanti e rafforzare la vostra strategia di sicurezza
 Ecco perché vi invito a seguire il corso di formazione gratuito CYP201 offerto da Plan ₿ Network. Questo corso di formazione spiega in dettaglio tutti i meccanismi dei portafogli Bitcoin, consentendovi di padroneggiare gli aspetti tecnici essenziali per proteggere efficacemente i vostri fondi:
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+
 Se avete trovato utile questa guida, vi sarei grato se lasciaste un pollice verde qui sotto. Sentitevi liberi di condividere questo articolo sui vostri social network. Grazie mille!

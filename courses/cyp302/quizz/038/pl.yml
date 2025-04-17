@@ -1,0 +1,9 @@
+question: Która dziedzina matematyki dostarcza nowoczesnych narzędzi dla teorii liczb?
+answer: Algebra abstrakcyjna
+wrong_answers:
+  - Geometria
+  - Statystyki
+  - Analiza złożona
+explanation: |
+  Algebra abstrakcyjna, jako subdyscyplina matematyki, dostarcza struktur matematycznych, które umożliwiają analizę i zrozumienie właściwości liczb wykorzystywanych w teorii liczb.
+reviewed: false

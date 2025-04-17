@@ -1,0 +1,11 @@
+question: Jakie jest główne ryzyko związane z pozostawieniem bitcoinów na platformie Exchange?
+answer: Platforma może zostać zhakowana, przejęta, zbankrutować lub po prostu zniknąć wraz z pieniędzmi użytkownika
+wrong_answers:
+  - Cena Bitcoin może nagle spaść
+  - Platforma może zwiększyć swoje opłaty
+  - Platforma może ograniczyć liczbę bitcoinów, które można kupić lub sprzedać
+explanation: |
+  Treść rozdziału ostrzega, że platformy Exchange stwarzają znaczne
+  ryzyko i należy ich unikać w miarę możliwości. Mogą zostać zhakowane, przejęte, zbankrutować lub po prostu
+  zbankrutować lub po prostu zniknąć wraz z pieniędzmi.
+reviewed: false

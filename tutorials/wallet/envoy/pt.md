@@ -6,7 +6,7 @@ description: Configurar e utilizar um Passaporte com a aplicação Envoy
 
 Envoy é uma aplicação de gestão de carteiras Bitcoin desenvolvida pela Foundation. Foi especialmente concebida para ser utilizada com a carteira de hardware Passport.
 
-O Passport "*Batch 2*" que apresentamos neste tutorial com a aplicação Envoy é o sucessor do "*Founder's Edition*". Apresenta um design premium, um ecrã a cores de alta definição e um teclado físico ergonómico. Funciona em modo "*Air-Gap*", assegurando que as chaves privadas da sua carteira permanecem totalmente isoladas, com trocas possíveis através de um cartão MicroSD ou códigos QR. O dispositivo inclui uma bateria amovível de 1200 mAh.
+O Passport "*Batch 2*" apresentado neste tutorial com o aplicativo Envoy é o sucessor da edição "*Founder's Edition*". Ele se destaca pelo design premium, tela colorida de alta definição e teclado físico ergonômico. Opera no modo "*Air-Gap*", garantindo que as chaves privadas da sua carteira permaneçam totalmente isoladas, com trocas possíveis via cartão MicroSD ou códigos QR. O dispositivo possui uma bateria removível e recarregável Nokia BL-5C de 1200 mAh. Esta bateria não proprietária pode ser facilmente substituída, pois o modelo BL-5C é amplamente disponível no mercado.
 
 Quanto à conetividade, o Passport está equipado com uma porta MicroSD, uma porta USB-C para carregamento e uma câmara traseira para leitura de códigos QR.
 
@@ -23,6 +23,7 @@ Neste tutorial, destinado a utilizadores principiantes e intermédios, vamos des
 Se for um utilizador avançado e quiser explorar funcionalidades mais complexas, recomendo que consulte este outro tutorial onde configuramos o Passport com a Sparrow Wallet :
 
 https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+
 ## Desembalar o Passaporte
 
 Quando receber o seu Passport, certifique-se de que a caixa e o selo da embalagem estão intactos para confirmar que a embalagem não foi aberta. Será também efectuada uma verificação de software da autenticidade e integridade do dispositivo quando este for configurado.
@@ -169,7 +170,8 @@ Para o fazer, utilize o cartão MicroSD incluído na caixa do Passport (ou outro
 
 Antes de o instalar no seu dispositivo, aconselhamos vivamente que verifique a autenticidade e a integridade do firmware descarregado. Se precisar de ajuda para o fazer, consulte este tutorial :
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 ### Com a aplicação Envoy
 
 A outra opção, mais simples, é utilizar diretamente a aplicação Envoy. Clique em "*Download Firmware*".
@@ -253,6 +255,7 @@ Clique no botão de confirmação para ver a sua frase mnemónica.
 Para mais informações sobre a forma correta de guardar e gerir a sua frase mnemónica, recomendo vivamente que siga este outro tutorial, especialmente se for um principiante:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 é claro que nunca deve partilhar estas palavras na Internet, como eu estou a fazer neste tutorial. Este exemplo de portefólio será utilizado apenas na Testnet e será eliminado no final do tutorial
 
 Fazer uma cópia de segurança física desta frase.

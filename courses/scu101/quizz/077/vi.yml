@@ -1,0 +1,9 @@
+question: Tại sao bảo mật hộp thư điện tử của bạn lại là điều rất quan trọng ?
+answer: Bởi vì nó cho phép bạn đặt lại mật khẩu của bạn
+wrong_answers:
+- Bởi vì nó được dùng để nhận bản tin
+- Vì nó chứa toàn bộ mật khẩu của bạn
+- Vì nó chứa dữ liệu tài khoản ngân hàng của bạn
+explanation: Hộp thư điện tử là điểm truy cập trung tâm để lấy mật khẩu và đánh cắp
+  nhiều tài khoản trong trường hợp bị tấn công.
+reviewed: false

@@ -230,7 +230,7 @@ Bitcoin challenges us to reconsider the nature of money itself. Could you explai
 - **Marketing:** None
 - **R&D:** Volunteer-driven
 - **Governance:** By the users
-- **Innovative economic model:** 
+- **Innovative economic model:** Block creation is subsidized by transaction fees (auction-based)
 
 For more information on Bitcoin, its history, how it works, and its use, I also suggest following this other comprehensive course:
 

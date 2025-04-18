@@ -29,7 +29,9 @@ Green is a very easy-to-use application, making it particularly suitable for beg
 In this tutorial, we'll concentrate solely on creating a watch-only portfolio. To explore other uses of Green, please consult our other dedicated tutorials:
 
 https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+
 https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+
 ## Installing and configuring the Blockstream Green application
 
 The first step is of course to download the Green application. Go to your application store:

@@ -1,0 +1,9 @@
+question: Lord Acton 給出的自由定義是什麼？
+answer: 即使違反大多數人的意見，也能依據自己的良知行事的權力
+wrong_answers:
+  - 為所欲為的能力
+  - 沒有任何約束
+  - 防止外部入侵
+explanation: |
+  Lord Acton 將自由定義為依據個人良知行事的能力，突顯出個人做出個人決定的能力的重要性，即使這些決定與大多數人的意見相悖。
+reviewed: false

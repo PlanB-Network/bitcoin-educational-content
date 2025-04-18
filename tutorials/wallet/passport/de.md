@@ -6,7 +6,7 @@ description: Konfigurieren und Verwenden der Passport-Hardware-Geldbörse im man
 
 Der Passport ist eine reine Bitcoin-Hardware-Wallet, entwickelt von Foundation Devices, einem amerikanischen Unternehmen, das im April 2020 in Boston gegründet wurde.
 
-Der Passport "*Batch 2*", den wir in diesem Tutorial vorstellen, ist der Nachfolger der "*Founder's Edition*". Er verfügt über ein hochwertiges Design, einen hochauflösenden Farbbildschirm und eine ergonomische Tastatur. Es arbeitet im "*Air-Gap*"-Modus, der sicherstellt, dass die privaten Schlüssel Ihrer Brieftasche völlig isoliert bleiben, wobei der Austausch über eine MicroSD-Karte oder QR-Codes möglich ist. Das Gerät verfügt über einen herausnehmbaren 1200-mAh-Akku.
+Der Passport "*Batch 2*", den wir in diesem Tutorial vorstellen, ist der Nachfolger der "*Founder's Edition*". Er zeichnet sich durch ein hochwertiges Design, ein hochauflösendes Farbdisplay und eine ergonomische physische Tastatur aus. Er arbeitet im "*Air-Gap*"-Modus, wodurch die privaten Schlüssel Ihrer Wallet vollständig isoliert bleiben, mit Datenaustausch über eine MicroSD-Karte oder QR-Codes. Das Gerät ist mit einem herausnehmbaren, wiederaufladbaren Nokia BL-5C-Akku mit 1200 mAh ausgestattet. Diese handelsübliche Batterie kann leicht ersetzt werden, da das BL-5C-Modell weit verbreitet ist.
 
 Was die Konnektivität betrifft, so ist das Passport mit einem MicroSD-Anschluss, einem USB-C-Anschluss zum Aufladen und einer Rückkamera zum Scannen von QR-Codes ausgestattet.
 
@@ -21,6 +21,7 @@ Um Ihre sichere Geldbörse auf einem Passport zu verwalten, haben Sie mehrere M�
 Für Anfänger ist es am einfachsten, den Passport mit der von Foundation entwickelten Anwendung Envoy zu verwenden. Um herauszufinden, wie Sie Envoy mit Ihrem Passport verwenden können, lesen Sie diese Anleitung:
 
 https://planb.network/tutorials/wallet/mobile/envoy-3ae5d6c7-623b-45b3-bb34-abcf9572b7cb
+
 ## Auspacken des Passes
 
 Vergewissern Sie sich bei Erhalt Ihres Passport, dass die Verpackung und das Siegel auf dem Karton intakt sind, um sicherzustellen, dass das Paket nicht geöffnet wurde. Bei der Einrichtung des Geräts wird auch eine Softwareüberprüfung seiner Authentizität und Integrität durchgeführt.
@@ -138,7 +139,8 @@ Verwenden Sie dazu die MicroSD-Karte, die in Ihrer Passport-Box enthalten ist (o
 
 Wir raten Ihnen dringend, die Authentizität und Integrität der heruntergeladenen Firmware zu überprüfen, bevor Sie sie auf Ihrem Gerät installieren. Wenn Sie dabei Hilfe benötigen, lesen Sie dieses Tutorial:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 Nachdem Sie die "bin"-Datei überprüft haben, legen Sie sie auf Ihrer MicroSD-Karte ab und stecken sie in den Passport. Der Passport-Dateiexplorer wird geöffnet. Wählen Sie die Datei "vN.N.N-passport.bin".
 
 ![Image](assets/fr/22.webp)
@@ -204,6 +206,7 @@ Klicken Sie auf die Bestätigungsschaltfläche, um Ihre mnemonische Phrase zu se
 Für weitere Informationen über die richtige Art und Weise, wie Sie Ihre mnemotechnische Phrase speichern und verwalten können, empfehle ich Ihnen, diese andere Anleitung zu lesen, insbesondere wenn Sie Anfänger sind:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 natürlich dürfen Sie diese Worte niemals im Internet weitergeben, wie ich es in diesem Tutorium tue. Dieses Musterportfolio wird nur im Testnet verwendet und am Ende des Tutoriums gelöscht.**_
 
 Machen Sie eine physische Sicherung dieses Satzes.
@@ -290,6 +293,7 @@ Bevor Sie fortfahren, können Sie, wenn Sie möchten, eine BIP39-Passphrase hinz
 Bevor Sie diese Option auf Ihrem Passport konfigurieren, empfehlen wir Ihnen dringend, diesen Artikel zu lesen, um die theoretische Funktionsweise der Passphrase vollständig zu verstehen und Fehler zu vermeiden, die zum Verlust Ihrer Bitcoins führen könnten:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 Um sie zu aktivieren, gehen Sie zum Menü "*Mehr*" und klicken Sie auf "*Passphrase eingeben*".
 
 ![Image](assets/fr/50.webp)
@@ -311,6 +315,7 @@ Jedes Mal, wenn Sie Ihren Passport entsperren, müssen Sie zu diesem Menü zurü
 Bevor Sie Ihre ersten Bitcoins auf Ihrer Wallet erhalten, **empfehle ich Ihnen dringend, einen Test zur Wiederherstellung der leeren Wallet durchzuführen**. Notieren Sie sich einige Referenzinformationen, z. B. Ihre xpub- oder erste Empfangsadresse, und löschen Sie dann Ihre Geldbörse auf dem Passport, solange sie noch leer ist (Einstellungen -> Erweitert -> Passport löschen). Versuchen Sie dann, Ihre Brieftasche mit Hilfe Ihrer Sicherungskopien der mnemonischen Phrase und einer eventuellen Passphrase wiederherzustellen. Überprüfen Sie, ob die Cookie-Informationen, die nach der Wiederherstellung generiert werden, mit denen übereinstimmen, die Sie ursprünglich aufgeschrieben haben. Wenn dies der Fall ist, können Sie sicher sein, dass Ihre Sicherungskopien zuverlässig sind. Weitere Informationen über die Durchführung einer Testwiederherstellung finden Sie in diesem anderen Tutorial:
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+
 ![Image](assets/fr/53.webp)
 
 ## Konfigurieren der Brieftasche auf Sparrow Wallet
@@ -323,7 +328,8 @@ Beginnen Sie mit dem Herunterladen und Installieren von Sparrow Wallet [von der 
 
 Stellen Sie sicher, dass Sie die Echtheit und Integrität der Software vor der Installation überprüfen. Wenn Sie nicht wissen, wie man das macht, lesen Sie bitte diese Anleitung:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 Sobald Sparrow Wallet geöffnet ist, klicken Sie auf die Registerkarte "*Datei*" und dann auf "*New Wallet*".
 
 ![Image](assets/fr/55.webp)

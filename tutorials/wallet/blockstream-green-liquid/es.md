@@ -33,8 +33,11 @@ Green es una aplicación particularmente fácil de usar, lo que la hace interesa
 Blockstream Green también es compatible con la red Liquid, y eso es lo que vamos a descubrir en este tutorial. Si quieres utilizar Green para otras aplicaciones, te recomiendo que también eches un vistazo a estos otros tutoriales:
 
 https://planb.network/tutorials/wallet/desktop/blockstream-green-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+
 https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+
 https://planb.network/tutorials/wallet/mobile/blockstream-green-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+
 ## Instalación y configuración de la aplicación Blockstream Green
 
 El primer paso es, por supuesto, descargar la aplicación Green. Ve a tu tienda de aplicaciones:
@@ -132,6 +135,7 @@ Y ya está, ¡tu monedero Liquid ha sido creado utilizando la aplicación Green!
 Antes de recibir sus primeros bitcoins en su monedero Liquid, **le aconsejo encarecidamente que realice una prueba de recuperación en vacío**. Anote algunos datos de referencia, como su xpub o su primera dirección de recepción y, a continuación, elimine su monedero en la aplicación Green mientras esté vacío. A continuación, intenta restaurar tu monedero en Green utilizando tus copias de seguridad en papel. Comprueba que la información de la cookie generada tras la restauración coincide con la que anotaste originalmente. Si es así, puede estar seguro de que sus copias de seguridad en papel son fiables. Para saber más sobre cómo realizar una recuperación de prueba, consulta este otro tutorial:
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+
 ## Configurar su cartera de liquidez
 
 Si desea personalizar su cartera, haga clic en los tres puntitos de la esquina superior derecha.

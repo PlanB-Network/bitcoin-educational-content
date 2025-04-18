@@ -1,0 +1,11 @@
+question: Jaka jest rola górników w sieci Bitcoin?
+answer: Aby zarejestrować propagowane transakcje w Bitcoin Blockchain
+wrong_answers:
+  - Aby utworzyć nowe bitcoiny
+  - Regulacja wartości bitcoinów
+  - Aby zweryfikować tożsamość użytkowników Bitcoin
+explanation: |
+  Górnicy w sieci Bitcoin są odpowiedzialni za rejestrowanie transakcji
+  które zostały rozpropagowane w sieci do Bitcoin Blockchain. Zapewnia to
+  ostateczność transakcji.
+reviewed: false

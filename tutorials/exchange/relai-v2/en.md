@@ -55,7 +55,7 @@ Relai’s Bitcoin savings plan allows you to automate regular investments, makin
 
 ### Step 4: Monitor Your Progress
 
-- Check your portfolio regularly in the app to see how your investments are growing.
+- Check your wallet regularly in the app to see how your investments are growing.
 - Adjust your plan anytime to match your financial goals.
 
 ![RELAI-APP](assets/en/01.webp)

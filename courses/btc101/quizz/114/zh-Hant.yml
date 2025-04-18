@@ -1,0 +1,11 @@
+question: Bitcoin 是何時首次面世的？
+answer: 2008 年 10 月 31 日。
+wrong_answers:
+  - 2009 年 1 月 3 日。
+  - 2009 年 11 月 22 日。
+  - 2010 年 12 月 12 日。
+explanation: |
+  Bitcoin 於 2008 年 10 月 31 日首次呈現在世人面前、
+  2008 年 10 月 31 日，Satoshi Nakamoto 向 Cypherpunk
+  郵寄清單，其中包含 Bitcoin 白皮書。
+reviewed: true

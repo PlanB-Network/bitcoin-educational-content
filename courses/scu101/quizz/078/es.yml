@@ -1,0 +1,9 @@
+question: ¿Qué criterio es fundamental al crear una nueva cuenta de correo electrónico?
+answer: Usar una contraseña única y segura.
+wrong_answers:
+  - Reutilizar la contraseña de otras cuentas.
+  - Elegir una contraseña sencilla para recordarla fácilmente.
+  - Elegir una contraseña con el nombre de su mascota.
+explanation: |
+  Una contraseña única y segura es indispensable para evitar que los piratas informáticos accedan a la cuenta de correo electrónico.
+reviewed: false

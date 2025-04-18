@@ -1,0 +1,9 @@
+question: Ni tofauti gani kuu kati ya kamba ya nasibu na kamba ya uwongo?
+answer: Mfuatano wa nasibu hutoka kwa mchakato safi wa nasibu, huku mfuatano wa pseudorandom ukitolewa na algoriti kutoka kwa seed.
+wrong_answers:
+  - Mfuatano wa pseudorandom hutumia biti 1 pekee.
+  - Mfuatano wa nasibu kila mara ni mrefu kuliko mfuatano wa uwongo kwa sababu kuna kitendo cha asili juu yake.
+  - Mfuatano wa pseudorandom unafafanuliwa kwa mtindo wa binary madhubuti, wakati mfuatano wa nasibu unafafanuliwa kwa kielelezo madhubuti cha heksadesimali.
+explanation: |
+  Mfuatano wa nasibu hutoka kwa mchakato wa nasibu wa moja kwa moja, ambapo mfuatano wa pseudorandom unatolewa kwa kutumia algoriti ya upanuzi na seed ya awali.
+reviewed: false

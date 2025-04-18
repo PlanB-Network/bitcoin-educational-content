@@ -3,92 +3,86 @@ chapterId: 29faebd9-9326-52de-8161-e4bb33033cd6
 difficulty: easy
 duration: 15
 author: DecouvreBitcoin
-tags:
-  - Economics
-  - Austrian Economics
-  - Course Production
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.15
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.12
+    contributor_names:
+    reward: 0.13
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
-    reward: 0.06
+    reward: 0.07
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.13
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.15
   - language: fr
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.12
+    contributor_names:
+    reward: 0.13
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.13
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.17
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.12
+    contributor_names:
+    reward: 0.13
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.17
 
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.15
 
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.16
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.15
 
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.15
 
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.16

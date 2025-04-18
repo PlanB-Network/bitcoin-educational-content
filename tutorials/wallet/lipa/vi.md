@@ -11,6 +11,7 @@ Ví Lightning, giống như tất cả các ví di động, được coi là ví
 Nếu bạn muốn tìm hiểu thêm về mạng Lightning và hiểu cách thức hoạt động về mặt kỹ thuật của nó, tôi khuyên bạn nên tham gia khóa học này:
 
 https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
 Trong hướng dẫn này, chúng ta sẽ xem xét **Lipa**, một ví Lightning đơn giản và hiệu quả được phát triển tại Thụy Sĩ.
 
 ## Giới thiệu Lipa
@@ -91,6 +92,7 @@ Cử chỉ này cho thấy các chức năng bổ sung như:
 Để biết thêm thông tin về cách sao lưu và quản lý cụm từ khôi phục đúng cách, tôi thực sự khuyên bạn nên làm theo hướng dẫn khác này, đặc biệt nếu bạn là người mới bắt đầu:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 ## Nhận bitcoin
 
 Để nhận bitcoin, bạn có hai lựa chọn. Để truy cập các tùy chọn này, hãy quay lại màn hình chính và kéo màn hình xuống. Sau đó, bạn có thể:

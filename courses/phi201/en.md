@@ -17,11 +17,43 @@ From the Renaissance to the Enlightenment, the course examines the rise of freed
 
 +++
 
+# Introduction
+
+<partId>6edada19-3af3-411b-8483-3fe45cfe1c54</partId>
+
+## Course Overview
+
+<chapterId>14d810d3-883c-4f5c-8593-f532530e7b7a</chapterId>
+
+Welcome to PHI201!
+
+This course invites you to explore the evolution of freedom throughout history by analyzing the major schools of thought that have shaped it. You will discover how the concept of freedom has been constructed over the centuries, either in opposition to or collaboration with power, through a historical journey from Antiquity to contemporary debates.
+
+**Section 1: Freedom or Power**  
+We will begin with an overview of the two major political philosophies that have marked history: freedom and power. This section will examine the visions of thinkers such as Frédéric Bastiat on production versus spoliation, Lord Acton who sees freedom as the driving force of history, Karl Marx with his theory of class struggle, and Murray Rothbard who opposes the state to society. This conceptual introduction will provide a framework of analysis for the historical periods.
+
+**Section 2: The Origins of Freedom: Antiquity**  
+Here, we will return to the roots of philosophical thought with the Greeks, who invented critical rationality, and the Romans, who laid the foundations of modern law. We will also examine the fall of Rome as a pivotal moment that redefined political and social organization around the notion of freedom.
+
+**Section 3: The Origins of Freedom: The Middle Ages**  
+The Middle Ages are often seen as a dark period, but we will discover that it actually laid the foundations of modern freedom. We will study the assertion of human freedom, the debates between reason and faith, the birth of the sovereign state, the biblical ethics valuing the individual, and the first outlines of capitalism that appear at this time.
+
+**Section 4: The Rise of Freedom: From the Renaissance to the Enlightenment**  
+This section will focus on the emergence of religious tolerance and economic freedom, which gained momentum during the Renaissance and the Enlightenment. We will also analyze the importance of the year 1776, which marked a major turning point with key events for the free world, before diving into the era of revolutions that redefined the very notion of freedom.
+
+**Section 5: Apex and Decline: From the 19th to the 20th Century**  
+We will continue by studying the upheavals of the 19th and 20th centuries, highlighting the strengths and weaknesses of democracy, Marxist critiques of capitalism, and the Austrian response to these criticisms. We will also explore warnings about the dangers of collectivism through major works such as "The Road to Serfdom".
+
+**Section 6: The Rise of the Welfare State in the 20th Century**  
+Finally, this section will examine how the welfare state gradually took precedence over the ideas of economic freedom, notably through the triumph of Keynes and the abandonment of the gold standard. We will conclude by emphasizing the importance of ideas in shaping the course of history and the role freedom still plays in our modern societies.
+
+Ready to embark on this unique philosophical journey on the quest for freedom? Let's go!
+
 # Freedom or Power
 
 <partId>e59475e9-3ae4-5e66-a17e-218de0281b06</partId>
 
-## Introduction: There are only two political philosophies
+## There are only two political philosophies
 
 <chapterId>ffa60c0d-ee2b-575d-a4ac-4e9ccdad396f</chapterId>
 
@@ -1517,7 +1549,7 @@ In a certain sense, our situation is better than in the past. After the successi
 
 (_Economic Policy: Thoughts for Today and Tomorrow_, 1979).
 
-# Conclusion
+# Final Section
 
 <partId>df550767-5876-4034-9c6a-31238363e85f</partId>
 

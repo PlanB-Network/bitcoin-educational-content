@@ -1,0 +1,8 @@
+question: Jaka jest główna zaleta Bitcoin dla osób żyjących w warunkach ucisku finansowego lub reżimów dyktatorskich?
+answer: Możliwość uniknięcia cenzury i ograniczeń bankowych.
+wrong_answers:
+  - Korzystanie ze stabilnej waluty o stałej wartości.
+  - Umożliwienie anonimowych transakcji.
+  - Uzyskanie wysokiego zwrotu z inwestycji.
+explanation: >-
+reviewed: true

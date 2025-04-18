@@ -1,18 +1,11 @@
 id: 3728773e-74d4-4177-b39f-bd923700c76a
 
-builder: Ledger
-
-tags:
-  - hardware
-  - wallets
-  - keys
 
 category: hardware
 
 level: intermediate
 
-credits:
-  professor: pretty-private
+professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
 
 # Proofreading metadata
 
@@ -22,78 +15,82 @@ proofreading:
   - language: fr
     last_contribution_date: 2024-09-27
     urgency: 1
-    contributors_id:
+    contributor_names:
       - LoicPandul
-    reward: 2.04
+    reward: 3.04
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 8.07
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 4.08
+    contributor_names:
+    reward: 6.08
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 12.05
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 8.07
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 10.06
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 8.07
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 8.07
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 4.08
+    contributor_names:
+    reward: 6.08
   - language: en
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 4.08
+    contributor_names:
+    reward: 6.08
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 6.08
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 10.06
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 6.08
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 12.05
 
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 8.07
+tags:
+  - hardware
+  - wallets
+  - guides

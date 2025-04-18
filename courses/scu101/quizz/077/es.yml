@@ -1,0 +1,9 @@
+question: Por qué es esencial asegurar su buzón de correo?
+answer: Porque permite reiniciar sus contraseñas
+wrong_answers:
+- Porque sirve para recibir boletines
+- Porque contiene toda tu información de contraseñas
+- Porque contiene tus datos bancarios
+explanation: La bandeja de correo electrónico es el punto de acceso central para recuperar
+  las contraseñas y comprometer varios cuentas en caso de fallo.
+reviewed: false

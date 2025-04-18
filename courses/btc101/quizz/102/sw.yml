@@ -1,0 +1,12 @@
+question: Ni njia gani moja ya kupata bitcoins zako kwa muda mrefu?
+answer: Kuchora maneno yako ya Mnemonic kwenye nyenzo sugu kama vile chuma.
+wrong_answers:
+  - Kuwahifadhi katika Hot Wallet.
+  - Kuwaweka kwenye jukwaa la Exchange.
+  - Kushiriki maneno yako ya Mnemonic na mfanyakazi mwenzako.
+explanation: |
+  Kuchora maneno yako ya Mnemonic kwenye nyenzo sugu kama
+  chuma huunda nakala rudufu ya funguo zako ambazo ni
+  sugu kwa uharibifu wa maji na moto, na hivyo kupata yako
+  bitcoins kwa muda mrefu.
+reviewed: true

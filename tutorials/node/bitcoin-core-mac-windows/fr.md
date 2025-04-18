@@ -1,5 +1,5 @@
 ---
-name: Noeud Bitcoin Core (mac & windows)
+name: Bitcoin Core (macOS & Windows)
 description: Installer Bitcoin Core sur Mac ou Windows
 ---
 
@@ -145,3 +145,4 @@ Une fois que vous confirmez, le téléchargement de la blockchain commencera. Ce
 ![image](assets/15.webp)
 
 Vous pouvez éteindre l'ordinateur et revenir pour télécharger si vous le souhaitez, cela ne causera aucun dommage.
+

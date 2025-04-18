@@ -1,0 +1,11 @@
+question: 礦工在 Bitcoin 網路中的主要角色是什麼？
+answer: 他們透過執行 Bitcoin 的 Proof-of-Work 流程來確保網路安全
+wrong_answers:
+  - 他們創造新的比特幣
+  - 他們調節 Bitcoin 的價格
+  - 他們控制 Bitcoin 網路
+explanation: |
+  本章內容說明，礦工負責保護
+  Bitcoin 網路。他們使用電力來執行 Bitcoin 的 Proof-of-Work 程序、
+  產生新區塊。
+reviewed: false

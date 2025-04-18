@@ -1,0 +1,9 @@
+question: 根據 Laffer 的說法，當稅率過度提高時，稅收會發生什麼變化？
+answer: 它們會減少
+wrong_answers:
+  - 它們會增加
+  - 它們保持穩定
+  - 它們的波動難以預測
+explanation: |
+  根據拉弗曲線，過度提高稅率會導致稅收減少，因為這會打擊工作、投資和生產。
+reviewed: false

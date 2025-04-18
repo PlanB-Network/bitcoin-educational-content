@@ -1,0 +1,9 @@
+question: 購買 Bitcoin 時，有什麼建議的方法可以處理其價格波動？
+answer: 定期逐步累積 Bitcoin，並保持長期的觀點。
+wrong_answers:
+  - 嘗試預測短期市場高峰並立即賣出。
+  - 一次投入公司的全部資金。
+  - 只在 Bitcoin 價格大幅上漲的日子購買。
+explanation: |
+  長期定期購買（平均美元成本法）有助於平滑波動。較長的投資年限（例如 4 年）可減少短期價格波動的影響。
+reviewed: false

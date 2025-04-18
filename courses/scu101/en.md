@@ -26,11 +26,11 @@ Théo; contribution
 
 <partId>534ab66c-b0e6-5757-a7dd-6ea04647edf2</partId>
 
-## Course Introduction
+## Course overview
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
-### Objective: Update your security skills !
+**Objective: Update your security skills !**
 
 Welcome everyone to this educational program dedicated to digital security. This training is designed to be accessible to everyone, so no prior knowledge of computer science is required. Our main goal is to provide you with the knowledge and skills necessary to navigate the digital world more safely and privately.
 
@@ -46,7 +46,7 @@ Your digital hygiene is crucial in an increasingly digital world. Despite the co
 In this training, we are not trying to make you an expert, anonymous, or invulnerable, as this is impossible. Instead, we offer you some simple and accessible solutions for everyone to start transforming your online habits and regain control of your digital sovereignty.
 If you are looking for more advanced skills on the subject, our resources, tutorials, or other cybersecurity training are here for you. In the meantime, here is a brief overview of our program for the next few hours together.
 
-### Section 1: Everything you need to know about online browsing
+**Section 1: Everything you need to know about online browsing**
 
 - Chapter 1 - Online browsing
 - Chapter 2 - Using the internet securely
@@ -55,7 +55,7 @@ To start, we will discuss the importance of choosing a web browser and its impli
 
 ![](assets/en/1.webp)
 
-### Section 2: Best practices for computer usage
+**Section 2: Best practices for computer usage**
 
 - Chapter 3 - Computer usage
 - Chapter 4 - Hacking & backup management
@@ -63,7 +63,7 @@ To start, we will discuss the importance of choosing a web browser and its impli
 In this section, we will cover three key areas of computer security. First, we will explore different operating systems: Mac, PC, and Linux, highlighting their specificities and strengths. Then, we will delve into methods to effectively protect against hacking attempts and strengthen the security of your devices. Finally, we will emphasize the importance of regularly protecting and backing up your data to prevent any loss or ransomware.
 ![](assets/en/2.webp)
 
-### Section 3: Implementation of solutions
+**Section 3: Implementation of solutions**
 
 - Chapter 6 - Email management
 - Chapter 7 - Password manager
@@ -74,6 +74,7 @@ In this practical third section, we will move on to the implementation of your c
 First, we will see how to protect your email inbox, which is essential for your communications and often targeted by hackers. Then, we will introduce you to a password manager: a practical solution to no longer forget or mix up your passwords while keeping them secure. Finally, we will discuss an additional security measure, two-factor authentication, which adds an extra layer of protection to your accounts. Everything will be explained clearly and accessibly.
 ![](assets/en/3.webp)
 
+Ready to strengthen your digital security and take back control of your data? Let's go!
 # Everything you need to know about online browsing
 
 <partId>b4b5379a-d8ef-59ae-94d3-a6e88959c149</partId>
@@ -116,7 +117,7 @@ A more advanced alternative is the TOR (The Onion Router) network, which offers 
 TOR is legal and is used by journalists, freedom activists, and others wishing to escape censorship in authoritarian countries. However, it is important to understand that TOR does not secure the visited sites or the computer itself. Additionally, using TOR can slow down the internet connection as data passes through three other people's computers before reaching its destination. It is also essential to note that TOR is not a foolproof solution to guarantee 100% anonymity and should not be used for illegal activities.
 ![](assets/notext/7.webp)
 
-https://planb.network/tutorials/others/general/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## VPN and internet connection
 
@@ -137,9 +138,9 @@ However, using a consumer VPN does not guarantee complete anonymity. Many VPN pr
 ![](assets/notext/9.webp)
 Finally, a VPN can also be used to block online advertisements, providing a more enjoyable and secure browsing experience. However, it is important to do your own research to find the VPN that best suits your specific needs. Using a VPN is recommended to enhance security, even when browsing the internet at home. This helps ensure a higher level of security for exchanged data online. Finally, make sure to check the URLs and the small padlock in the address bar to confirm that you are on the site you intend to visit.
 
-https://planb.network/tutorials/others/general/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/others/general/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### HTTPS & public Wi-Fi networks'
 
@@ -239,9 +240,9 @@ NO, it is generally not recommended to pay hackers in the case of ransomware or 
 
 If you detect a virus on your computer, disconnect it from the internet, perform a full antivirus scan, and delete infected files. Then, update your software and operating system, and change your passwords to prevent further intrusions.
 
-https://planb.network/tutorials/others/general/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-https://planb.network/tutorials/others/general/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Implementation of solutions.
 
@@ -274,7 +275,7 @@ It is advisable to use the website Have I Been Pwned (https://haveibeenpwned.com
 In general, starting to use a new, more secure email address is not a bad practice and even necessary if one wants to start fresh on a healthy basis.
 Bonus Bitcoin: It may be advisable to create a specific email address for our Bitcoin activities (creating exchange accounts) in order to truly separate the areas of activity in our lives.
 
-https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Password Manager
 
@@ -316,9 +317,9 @@ To create a strong password, it is recommended to use a large number of random c
 
 Randomly generated passwords offer a higher level of security, although they may be more difficult to remember. Password managers can generate more secure random passwords. By using a password manager, you do not need to memorize all your passwords. It is important to gradually replace your old passwords with those generated by the manager, as they are stronger and longer. Make sure that the master password of your password manager is also strong and secure.
 
-https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/others/general/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Two-Factor Authentication
 
@@ -365,9 +366,9 @@ Keep learning and gradually implement good practices!
 
 Golden rule: Cybersecurity is a moving target that will adapt to your learning journey!
 
-https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 # Practical Section
 
@@ -379,7 +380,7 @@ https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-8
 
 Protecting your email account is an important step to secure your online activities and safeguard your personal data. This tutorial will guide you, step by step, in creating and setting up a ProtonMail account, a provider known for its high level of security that offers end-to-end encryption of your communications. Whether you are a novice or an experienced user, the best practices presented here will help you strengthen the security of your email, while taking advantage of ProtonMail's advanced features:
 
-https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Securing in 2FA
 
@@ -387,11 +388,11 @@ https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b3
 
 Two-factor authentication (2FA) has become essential for securing your online accounts. In this tutorial, you will learn how to set up and use the 2FA app Authy, which generates dynamic 6-digit codes to protect your accounts. Authy is very easy to use and synchronizes across multiple devices. Discover how to install and configure Authy, and thus strengthen the security of your online accounts right now:
 
-https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Another option is to use a physical security key. This additional tutorial shows you how to set up and use a security key as a second authentication factor:
 
-https://planb.network/tutorials/others/general/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ## Creating a password manager
 
@@ -401,11 +402,11 @@ Password management is a challenge in the digital age. We all have numerous onli
 
 In this tutorial, learn how to set up Bitwarden, an open-source password manager, and how to sync your credentials across all your devices to simplify your daily use:
 
-https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 For more advanced users, I also offer a tutorial on another free and open-source software to use locally for managing your passwords:
 
-https://planb.network/tutorials/others/general/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Securing your accounts
 
@@ -413,9 +414,9 @@ https://planb.network/tutorials/others/general/keepass-f8073bb7-5b4a-4664-9246-2
 
 In these two tutorials, I also guide you in securing your online accounts and explain how to gradually adopt more secure practices for managing your passwords on a daily basis.
 
-https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/others/general/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## Back-up set-up
 
@@ -423,11 +424,11 @@ https://planb.network/tutorials/others/general/keepass-f8073bb7-5b4a-4664-9246-2
 
 Protecting your personal files is also a crucial point. This tutorial shows you how to implement an effective backup strategy using Proton Drive. Discover how to use this secure cloud solution to apply the 3-2-1 method: three copies of your data on two different media, with one copy offsite. This ensures the accessibility and security of your sensitive files:
 
-https://planb.network/tutorials/others/general/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 And to secure your files stored on removable media like a USB drive or external hard drive, I also show you how to easily encrypt and decrypt these media using VeraCrypt:
 
-https://planb.network/tutorials/others/general/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 ## Change of browser & VPN
 
@@ -437,13 +438,13 @@ Protecting your online privacy is also a crucial point to ensure your security. 
 
 I suggest discovering two reliable VPN solutions that are payable in Bitcoin, namely IVPN and Mullvad. These tutorials guide you on how to install, configure, and use Mullvad or IVPN on all your devices:
 
-https://planb.network/tutorials/others/general/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/others/general/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Also, learn how to use Tor Browser, a browser specifically designed to protect your online privacy:
 
-https://planb.network/tutorials/others/general/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 # Go further
 
@@ -520,7 +521,7 @@ Alternatives to intrusive advertisements include Google DNS, OpenDNS, and other 
 
 As part of the "Security 101" training module on Découvre Bitcoin Academy, we also discussed Lightning authentication. This system generates a different identifier for each service, without the need to provide an email address or personal information. It is possible to have user-controlled decentralized identities, but there is a lack of standardization and normalization in decentralized identity projects. Package managers such as Nuget and Chocolaté, which allow downloading open-source software outside of the Microsoft Store, are recommended to avoid malicious attacks. In summary, DNS is crucial for online security, but it is necessary to remain vigilant against potential attacks on DNS servers.
 
-# Conclusion
+# Final Section
 
 <partId>3d8ac4c9-f05b-4133-a40a-6e19d579f05f</partId>
 

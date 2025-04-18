@@ -1,0 +1,13 @@
+question: Jaka jest ekonomiczna zachęta do korzystania z Bitcoin Miner zamiast zwykłego grzejnika elektrycznego?
+answer: Miner zapewnia nie tylko ciepło, ale także nagrodę Bitcoin.
+wrong_answers:
+  - Miner zużywa mniej energii elektrycznej niż zwykły grzejnik elektryczny.
+  - Miner wytwarza więcej ciepła niż zwykły grzejnik elektryczny.
+  - Miner jest tańszy niż zwykły grzejnik elektryczny.
+explanation: |
+  Różnica między Miner a zwykłym grzejnikiem elektrycznym
+  grzałką elektryczną polega na tym, że Miner zapewnia nie tylko
+  ciepło, ale także nagrodę Bitcoin. Ta dodatkowa nagroda
+  może pomóc złagodzić obawy związane z wysokim zużyciem energii
+  zużycia energii przez górników.
+reviewed: true

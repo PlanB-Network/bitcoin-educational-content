@@ -22,7 +22,7 @@ The process of the test is quite simple:
 - After creating your new Bitcoin wallet, and before depositing your first satoshis, note down a witness information such as an xpub, the first receiving address, or even the master key fingerprint;
 - Then, deliberately delete the still empty wallet, for example, by resetting your hardware wallet to factory settings;
 - Next, simulate a recovery of your wallet using only the paper backups of your mnemonic phrase and your passphrase if you use one;
-- Finally, check if the witness information matches that of the regenerated portfolio. If the information matches, you can be assured of the reliability of your physical backup, and you can then send your first bitcoins to this wallet.
+- Finally, check if the witness information matches that of the regenerated wallet. If the information matches, you can be assured of the reliability of your physical backup, and you can then send your first bitcoins to this wallet.
 Be careful, during a recovery test, **you must use the same device intended for your final wallet**, in order not to increase the attack surface of your wallet. For example, if you create a wallet on a Trezor Safe 5, make sure to perform the recovery test on this same Trezor Safe 5. It is important not to enter your recovery phrase into any other software, as this would compromise the security provided by your hardware wallet, even if the wallet is still empty.
 
 ## How to perform a recovery test?

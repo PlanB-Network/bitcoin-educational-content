@@ -21,17 +21,17 @@ Pro začátek nepotřebujete žádné specifické znalosti. Ve skutečnosti je n
 
 <partId>3cd2ac82-026c-53e1-874a-baf5842adc6d</partId>
 
-## Skok do neznáma
+## Přehled kurzu
 
 <chapterId>27e3fb60-4b50-556b-9e70-c4f5475c121d</chapterId>
 
-### Vítejte v novém měnovém a technologickém paradigmatu.
+Vítejte v kurzu BTC101!
 
 Bitcoin je technologická a peněžní revoluce, která nás může přimět zpochybnit náš vztah k penězům a společnosti. Bitcoin (označovaný jako BTC) je totiž **neutrální** a **decentralizovaná** měna, což znamená, že není kontrolována žádným subjektem ani institucí. Jedná se o inovaci, která přesahuje rámec pouhé "internetové měny": je to jak počítačový protokol (bitcoin), tak peněžní jednotka (bitcoin).
 
 Protokol využívá základní technologie, jako je kryptografie, síťová komunikace a známý "blockchain", zatímco jednotka bitcoin slouží jako nezbytná měna pro správné fungování tohoto protokolu. V každodenním životě používají obyvatelé Salvadoru a bitcoinů po celém světě měnu bitcoin k nákupu a prodeji zboží a služeb a spoléhají na to, že jim tato technologie zlepší život.
 
-### Komplexní a zároveň přístupný učební plán
+**Komplexní, ale přístupný studijní program:**
 
 V tomto kurzu probereme některé peněžní aspekty bitcoinu, včetně toho, jak bitcoiny nakupovat a prodávat, bezpečně je ukládat do digitálních peněženek a používat je k transakcím. Prozkoumáme také úlohu těžařů, kteří jsou nezbytní pro vytváření nových bitcoinů a zabezpečení sítě Bitcoin. Nakonec se budeme zabývat budoucností Bitcoinu a tím, jak může technologie Lightning Network vylepšit bitcoinové transakce.
 
@@ -39,38 +39,39 @@ V tomto kurzu probereme některé peněžní aspekty bitcoinu, včetně toho, ja
 
 Je nutné si uvědomit, že Bitcoin je nový peněžní systém, který zcela mění náš vztah k penězům, takže naučit se ho používat je nezbytnou dovedností pro každého, kdo chce mít kontrolu nad svými vlastními prostředky.
 
-**Díl 1 - Peníze**
+**Sekce 1 - Úvod**  
+- Kapitola 1 - Přehled kurzu  
+- Kapitola 2 - Prehistorie Bitcoinu  
 
-- Kapitola 1 - Co jsou peníze?
-- Kapitola 2 - Fiatové peníze
-- Kapitola 3 - Hyperinflace
-- Kapitola 4 - Měnová politika bitcoinu
+**Sekce 2 - Peníze**  
+- Kapitola 3 - Peníze napříč historií  
+- Kapitola 4 - Fiat měny  
+- Kapitola 5 - Hyperinflace  
+- Kapitola 6 - 21 milionů bitcoinů  
 
-**Část 2 - Bitcoinové peněženky**
+**Sekce 3 - Bitcoinové peněženky**  
+- Kapitola 7 - Co je to bitcoinová peněženka?  
+- Kapitola 8 - Bitcoinové peněženky a bezpečnost  
+- Kapitola 9 - Nastavení peněženky  
+- Kapitola 10 - Překonání zkoušky času  
 
-- Kapitola 5 - Jak fungují peněženky Bitcoin?
-- Kapitola 6 - Výběr zabezpečení
-- Kapitola 7 - Nastavení peněženky
-- Kapitola 8 - Ochrana před časem
+**Sekce 4 - Technické aspekty Bitcoinu**  
+- Kapitola 11 - Spuštění Bitcoinu  
+- Kapitola 12 - Bitcoinové transakce  
+- Kapitola 13 - Bitcoinové uzly  
+- Kapitola 14 - Mineři  
+- Kapitola 15 - Bitcoin a ekologie  
 
-**Odddíl 3 - Technické vlastnosti Bitcoinu**
+**Sekce 5 - Jak získat bitcoiny?**  
+- Kapitola 16 - Bitcoin nikdy nespí!  
+- Kapitola 17 - Získání bitcoinů prací  
+- Kapitola 18 - Spoření s Bitcoinem  
+- Kapitola 19 - Hyperbitcoinizace  
 
-- Kapitola 9 - Co je to transakce?
-- Kapitola 10 - Uzly Bitcoin
-- Kapitola 11 - Horníci
-- Kapitola 12 - Horníci a ekologie
-
-**Část 4 - Ukládání v bitcoinech**
-
-- Kapitola 13 - Cena bitcoinu
-- Kapitola 14 - Jak si koupíte Bitcoin?
-- Kapitola 15 - Práce pro Bitcoin
-- Kapitola 16 - Hyperbitcoinizace
-
-**Odddíl 5 - Síť blesků**
-
-- Kapitola 17 - Úvod do sítě Lightning
-- Kapitola 18 - Případy použití sítě Lightning
+**Sekce 6 - Budoucnost Bitcoinu: Lightning Network**  
+- Kapitola 20 - Stručný úvod do Lightning Network  
+- Kapitola 21 - Případové použití Lightning Network  
+- Kapitola 22 - Červená pilulka nebo modrá pilulka?  
 
 Než se seznámíme s definicí peněz a jejich funkcí ve společnosti (kapitola 1), měli bychom začít od vzniku bitcoinu. Bitcoin, který byl uveden na trh v roce 2009, je relativně nová technologie, která se liší od všech ostatních. Je proto normální, že o něm nepochopíme všechno a najednou. Ve skutečnosti, stejně jako když se učíte používat internet nebo řídit auto, nemusíte hned znát všechny technické detaily: můžete začít tím, že se naučíte přijímat, platit a zabezpečovat své finanční prostředky, a pak po malých krocích studovat hlouběji.
 
@@ -79,6 +80,8 @@ Koneckonců jsme teprve v počáteční fázi jeho zavádění, protože jsme pr
 ![image](assets/en/02.webp)
 
 Důležité je pochopit tuto novou technologii v obecné rovině, takže doufáme, že se vám tento kurz bude líbit a budete pokračovat v pokroku v tomto novém globálním měnovém paradigmatu.
+
+Připraveni ponořit se do fascinujícího světa Bitcoinu a pochopit všechny jeho mechanismy? Jdeme na to!
 
 ## Prehistorie bitcoinu
 
@@ -516,7 +519,7 @@ Od roku 2017 lze naštěstí soukromý klíč reprezentovat jednoduchým sezname
 
 ### A co hackeři?
 
-Co když někdo náhodou uhodne náš seznam 12 nebo 24 slov? Stručná odpověď zní, že je to velmi nepravděpodobné díky kryptografii použité k vytvoření peněženky. Abychom to uvedli na pravou míru, náhodné objevení stejné mnemotechnické fráze se podobá nalezení "správného" čísla mezi 1 a $2^256$, což je téměř ekvivalentní nalezení "správného" atomu ve vesmíru. Pokud však nejste s tímto výchozím zabezpečením spokojeni, můžete ho vždy zvýšit přidáním heslové fráze (dalšího slova) do své bitcoinové peněženky.
+Co když někdo náhodou uhodne náš seznam 12 nebo 24 slov? Stručná odpověď zní, že je to velmi nepravděpodobné díky kryptografii použité k vytvoření peněženky. Abychom to uvedli na pravou míru, náhodné objevení stejné mnemotechnické fráze se podobá nalezení "správného" čísla mezi 1 a 2 na 256, což je téměř ekvivalentní nalezení "správného" atomu ve vesmíru. Pokud však nejste s tímto výchozím zabezpečením spokojeni, můžete ho vždy zvýšit přidáním heslové fráze (dalšího slova) do své bitcoinové peněženky.
 
 ![image](assets/en/29.webp)
 
@@ -557,15 +560,18 @@ Níže definujeme několik úrovní zabezpečení:
 
 Například peněženku Sparrow Wallet můžete používat jako horkou peněženku:
 
-https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - Na úrovni 2\*\* používáte fyzickou peněženku a máte zajištěn seznam 12/24 slov. Často se označuje jako "studená peněženka", protože vaše klíče jsou uloženy v zařízení, které není připojeno k internetu. V tomto případě musíte každou transakci vždy podepisovat svým zařízením, což zhoršuje každodenní dostupnost vašich prostředků.
 
 Můžete například použít Ledger, Satochip nebo Tapsigner:
 
 https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
 https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+
 https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+
 ![image](assets/en/32.webp)
 
 - Úroveň 3**, používáte peněženku úrovně 1 nebo 2, ale přidali jste další přístupovou frázi. V takovém případě si uvědomte, že je třeba zálohovat jak seznam 12/24 slov **a\*\* vaši přístupovou frázi. V ideálním případě jsou tyto dvě informace uloženy na dvou různých místech.
@@ -573,6 +579,7 @@ https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 Další informace o používání a fungování hesla BIP39:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 ![image](assets/en/33.webp)
 
 - Na úrovni 4\*\* vytvoříte pomocí sady peněženek "multisig peněženku", což znamená, že k provedení transakce je zapotřebí více podpisů. V tomto případě mějte na paměti, že každá část multisig by měla být uložena na jiném místě. Tento přístup je často považován za pokročilé využití Bitcoinu, především pro správu velkých částek a pro firemní účely.
@@ -829,7 +836,7 @@ Pokud si chcete nainstalovat vlastní uzel, máte k dispozici několik možnost�
 
 ![image](assets/en/53.webp)
 
-Druhou možností je použít k tomuto účelu specializovaný hardware, například Raspberry Pi 4 s dostatečně velkým SSD (asi ~1TB). Tato druhá možnost je sice dražší, pokud si musíte hardware koupit, ale z hlediska spotřeby elektřiny představuje o něco méně než 10,00 EUR ročně.
+Druhou možností je použít k tomuto účelu specializovaný hardware, například Raspberry Pi 4 s dostatečně velkým SSD (asi ~2TB). Tato druhá možnost je sice dražší, pokud si musíte hardware koupit, ale z hlediska spotřeby elektřiny představuje o něco méně než 10,00 EUR ročně.
 
 Z hlediska šířky pásma, pokud vezmeme v úvahu 1 blok o velikosti 1 MB každých 10 minut, to odpovídá přibližně 5 GB měsíčně.
 
@@ -1044,6 +1051,8 @@ V současné době bitcoin stále přežívá a ještě více roste díky tomu, 
 
 ![image](assets/en/71.webp)
 
+
+
 ## Získání bitcoinů prací
 
 <chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>
@@ -1074,13 +1083,17 @@ Podrobně se tomuto tématu budeme věnovat v jiném kurzu, ale abychom to zjedn
 
 - Jednoduché online řešení: OpenNode
 
-https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - Řešení pro amatérské obchodníky: Švýcarský Bitcoin Pay
 
-https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Řešení pro velké struktury nebo vášnivé bitcoinery: BTCpay Server
+
+Pro lepší pochopení tohoto tématu vám doporučujeme naši formaci BIZ101! Objevte, jak efektivně integrovat bitcoin do firemní pokladny, přijímat bitcoin jako platební prostředek podle profilu vaší organizace a porozumět souvisejícím daňovým a účetním požadavkům:
+
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## Spoření s Bitcoinem
 
@@ -1122,6 +1135,8 @@ Postupná strategie zahrnuje opakované nákupy, což znamená nákup malých mn
 ![image](assets/en/74.webp)
 
 **Pozor na UTXO**: Nezapomeňte čas od času konsolidovat své UTXO v peněženkách. Tento postup je nezbytný pro efektivní správu vašich bitcoinů a vyhnutí se zbytečným poplatkům při transakcích.
+
+[UTXO](https://planb.network/resources/glossary/utxo#:~:text=UTXO) (Unspent Transaction Output) je výstup transakce, který dosud nebyl utracen, což znamená, že nebyl použit jako vstup pro novou transakci. Konsolidace UTXO znamená sloučení několika malých UTXO do jednoho většího, aby se snížila "hmotnost" transakce a tím se platily nižší poplatky.
 
 - Spontánní nákup
 
@@ -1348,7 +1363,7 @@ Satoshi vytvořil Bitcoin v roce 2008 navrhnout změnu finančního systému, pr
 
 Jste připraveni se připojit?
 
-# Závěr
+# Sekce finále
 
 <partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 

@@ -1,0 +1,9 @@
+question: Ni programu gani kati ya zifuatazo sio suluhisho la uhasibu la Bitcoin?
+answer: Sparrow
+wrong_answers:
+  - CoinTracker
+  - Koinly
+  - ZenLedger
+explanation: |
+  Sparrow sio suluhisho la uhasibu la Bitcoin, wakati zingine ni (ni programu ya Bitcoin Wallet).
+reviewed: false

@@ -1,0 +1,9 @@
+question: Je, ukosoaji wa Constant wa Rousseau na dhana yake ya uhuru ni nini?
+answer: Constant anamkosoa Rousseau kwa kuchanganya uhuru wa watu wa Kale na ule wa kisasa.
+wrong_answers:
+  - Constant anamkosoa Rousseau kwa kutetea demokrasia.
+  - Constant anamkosoa Rousseau kwa kukataa umuhimu wa uchaguzi.
+  - Constant anamkosoa Rousseau kwa kuunga mkono vurugu za kimapinduzi.
+explanation: |
+  Lawama za mara kwa mara Rousseau kwa kuthamini dhana ya uhuru iliyochochewa na Watu wa Kale, iliyolenga ushiriki wa pamoja, kwa gharama ya tabia ya uhuru wa mtu binafsi wa jamii za kisasa, ambapo nyanja ya kibinafsi lazima ilindwe.
+reviewed: false

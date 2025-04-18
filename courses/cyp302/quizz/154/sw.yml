@@ -1,0 +1,9 @@
+question: Katika mfumo wa kificho wa RSA, kwa nini ni vigumu kupata thamani ya d?
+answer: Kwa sababu inahitaji maarifa ya φ(N), ambayo inategemea mambo makuu ya N
+wrong_answers:
+  - Kwa sababu d ni nambari ya nasibu
+  - Kwa sababu d ni kubwa kuliko N
+  - Kwa sababu d imekokotolewa bila φ(N)
+explanation: |
+  Kupata d ni ngumu kwa sababu inategemea maarifa ya φ(N), ambayo kwa upande inategemea maadili ya p na q, sababu kuu za N.
+reviewed: false

@@ -1,93 +1,88 @@
 id: b0e71de5-862e-4d36-9f04-f9ce649279fc
-chapterId: afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c
+chapterId: aad1ae27-4280-5b07-b9ab-118ae013951a
 difficulty: easy
 duration: 30
 author: DecouvreBitcoin
-tags:
-  - Cybersecurity
-  - Threat Monitoring
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.16
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.13
+    contributor_names:
+    reward: 0.14
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
-    reward: 0.06
+    reward: 0.07
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.14
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.16
   - language: fr
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.13
+    contributor_names:
+    reward: 0.14
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.14
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.19
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.13
+    contributor_names:
+    reward: 0.14
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.19
 
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.16
 
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.17
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.16
 
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.16
 
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.17

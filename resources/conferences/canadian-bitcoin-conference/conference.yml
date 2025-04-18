@@ -1,22 +1,22 @@
 id: 89a279b2-765d-470f-b6a5-5edd9ee0b2ca
 year: 2024-05
 name: The Canadian Bitcoin Conference 2024
-builder: The Canadian Bitcoin Conference
 location: Montreal, Canada
 language:
   - en
 links:
   twitter: https://x.com/CdnBitcoinConf
   website: https://canadianbitcoinconf.com/
-tags:
-  - business
-  - adoption
 project_id: 8f47ba8c-1ed5-470b-89f2-cfd83a11df36
 original_language: en
 proofreading:
   - language: en
     last_contribution_date: "2024-12-13"
     urgency: 0
-    contributors_id:
+    contributor_names:
       - jramos0
     reward: 0.05
+tags:
+  - mining
+  - market-trends
+  - future-outlook

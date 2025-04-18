@@ -1,0 +1,9 @@
+question: Ni kipengele gani muhimu cha mihuri ya matumizi moja inayotumiwa katika RGB?
+answer: Wanaweza kufungwa mara moja tu
+wrong_answers:
+  - Wanaweza tu kufungwa mara mbili
+  - Wanahakikisha usiri wa shughuli
+  - Wanaondoa hitaji la makubaliano juu ya Blockchain
+explanation: |
+  Mihuri ya matumizi moja huwezesha uundaji wa ahadi za kipekee za kriptografia, kuzuia kurudia au kutumia mara mbili.
+reviewed: false

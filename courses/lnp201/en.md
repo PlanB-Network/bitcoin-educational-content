@@ -21,6 +21,33 @@ Enjoy your discovery!
 
 +++
 
+# Introduction
+<partId>9da7290a-3895-49a2-93ea-2a6272ca4af4</partId>
+
+## Course Overview
+<chapterId>f2e71062-5121-4114-a7f8-27df69884ce8</chapterId>
+
+Welcome to the LNP201 course!
+
+This training aims to provide you with an in-depth technical understanding of the Lightning Network, an overlay network designed to facilitate fast and often low-cost Bitcoin transactions. You will gradually discover the fundamental concepts that govern this system, from opening payment channels to routing techniques and liquidity management.
+
+**Section 1: Fundamentals**  
+We will start with a general introduction to the Lightning Network, establishing essential foundations about Bitcoin, its addresses, UTXOs, and how transactions work. This fundamental review is necessary to understand how the Lightning Network relies on the underlying blockchain mechanisms to operate securely.
+
+**Section 2: Opening and Closing Channels**  
+In this section, we will explore the channel opening process, which is the cornerstone of the Lightning Network. You will learn how commitment transactions are created, the role of revocation keys for security, and how channels can be closed either collaboratively or unilaterally. Each step will be explained precisely and technically to help you grasp all the subtleties.
+
+**Section 3: A Liquidity Network**  
+The Lightning Network is not limited to individual channels; it is a real payment network. We will see how transactions can be routed through intermediary nodes using HTLCs. This section will also introduce you to the challenges of inbound and outbound liquidity.
+
+**Section 4: Lightning Network Tools**  
+This section presents practical tools of the Lightning Network, such as *Invoices*, *LNURL*, and *Keysend*. You will also learn how to manage your channels' liquidity, an essential aspect to ensure smooth payments and maximize the efficiency of your transactions on Lightning.
+
+**Section 5: Going Further**  
+Finally, we will conclude the training by recapping the concepts covered and paving the way for more advanced topics for those who wish to deepen their knowledge of the Lightning Network.
+
+Ready to uncover the technical mechanisms of the Lightning Network? Let’s dive in!
+
 # The Fundamentals
 
 <partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>
@@ -29,9 +56,8 @@ Enjoy your discovery!
 
 <chapterId>df6230ae-ff35-56ea-8651-8e65580730a8</chapterId>
 
-![video en](https://youtu.be/QDQ8NG0l3hk)
+:::video id=ba99951f-81d2-418f-b5e7-4b8c9f8b8cc8:::
 
-Welcome to the LNP201 course, which aims to explain the technical functioning of the Lightning Network.
 
 The Lightning Network is a network of payment channels built on top of the Bitcoin protocol, aiming to enable fast and low-cost transactions. It allows the creation of payment channels between participants, within which transactions can be made almost instantly and with minimal fees, without having to record each transaction individually on the blockchain. Thus, the Lightning Network seeks to improve Bitcoin's scalability and make it usable for low-value payments.
 
@@ -86,7 +112,7 @@ This is the end of this first chapter, where we have laid the groundwork for the
 
 <chapterId>0cfb7e6b-96f0-508b-9210-90bc1e28649d</chapterId>
 
-![video en](https://youtu.be/U9l5IVriCss)
+:::video id=75323eef-ea03-45ac-9a6e-46d73ca255de:::
 
 This chapter is a bit special since it will not be directly dedicated to Lightning, but to Bitcoin. Indeed, the Lightning Network is a layer on top of Bitcoin. It is therefore essential to understand certain fundamental concepts of Bitcoin to properly grasp the functioning of Lightning in the subsequent chapters. In this chapter, we will review the basics of Bitcoin receiving addresses, UTXOs, as well as the functioning of Bitcoin transactions.
 
@@ -152,7 +178,7 @@ This chapter on Bitcoin has allowed us to review some essential notions for what
 
 <chapterId>96243eb0-f6b5-5b68-af1f-fffa0cc16bfe</chapterId>
 
-![video en](https://youtu.be/Ty80WuN5X-g)
+:::video id=6098fee1-735e-4d8d-9f57-0faf5fef6d76:::
 
 In this chapter, we will see more precisely how to open a payment channel on the Lightning Network and understand the link between this operation and the underlying Bitcoin system.
 
@@ -176,27 +202,27 @@ It's worth noting that a Lightning node can communicate via the P2P protocol wit
 
 ### Steps to Open a Lightning Channel
 
-1. **Message exchange**: Alice wants to open a channel with Bob. She sends him a message containing the amount she wants to deposit in the channel (130,000 sats) and her public key. Bob responds by sharing his own public key.
+- **Message exchange**: Alice wants to open a channel with Bob. She sends him a message containing the amount she wants to deposit in the channel (130,000 sats) and her public key. Bob responds by sharing his own public key.
 
 ![LNP201](assets/en/11.webp)
 
-2. **Creation of the multisignature address**: With these two public keys, Alice creates a **2/2 multisignature address**, meaning that the funds that will later be deposited on this address will require both signatures (Alice and Bob) to be spent.
+- **Creation of the multisignature address**: With these two public keys, Alice creates a **2/2 multisignature address**, meaning that the funds that will later be deposited on this address will require both signatures (Alice and Bob) to be spent.
 
 ![LNP201](assets/en/12.webp)
 
-3. **Deposit transaction**: Alice prepares a Bitcoin transaction to deposit funds on this multisignature address. For example, she may decide to send **130,000 satoshis** to this multisignature address. This transaction is **constructed but not yet published** on the blockchain.
+- **Deposit transaction**: Alice prepares a Bitcoin transaction to deposit funds on this multisignature address. For example, she may decide to send **130,000 satoshis** to this multisignature address. This transaction is **constructed but not yet published** on the blockchain.
 
 ![LNP201](assets/en/13.webp)
 
-4. **Withdrawal transaction**: Before publishing the deposit transaction, Alice constructs a withdrawal transaction so she can recover her funds in case of a problem with Bob. Indeed, once Alice publishes the deposit transaction, her sats will be locked on a 2/2 multisignature address which requires both her signature and Bob's signature to be unlocked. Alice protects against this loss risk by constructing the withdrawal transaction that allows her to recover her funds.
+- **Withdrawal transaction**: Before publishing the deposit transaction, Alice constructs a withdrawal transaction so she can recover her funds in case of a problem with Bob. Indeed, once Alice publishes the deposit transaction, her sats will be locked on a 2/2 multisignature address which requires both her signature and Bob's signature to be unlocked. Alice protects against this loss risk by constructing the withdrawal transaction that allows her to recover her funds.
 
 ![LNP201](assets/en/14.webp)
 
-5. **Bob's signature**: Alice sends the deposit transaction to Bob as proof and asks him to sign the withdrawal transaction. Once Bob's signature is obtained on the withdrawal transaction, Alice is assured of being able to recover her funds at any time, as only her own signature is now needed to unlock the multisignature.
+- **Bob's signature**: Alice sends the deposit transaction to Bob as proof and asks him to sign the withdrawal transaction. Once Bob's signature is obtained on the withdrawal transaction, Alice is assured of being able to recover her funds at any time, as only her own signature is now needed to unlock the multisignature.
 
 ![LNP201](assets/en/15.webp)
 
-6. **Publication of the deposit transaction**: Once Bob's signature is obtained, Alice can publish the deposit transaction on the Bitcoin blockchain, thereby officially opening the Lightning channel between the two users.
+- **Publication of the deposit transaction**: Once Bob's signature is obtained, Alice can publish the deposit transaction on the Bitcoin blockchain, thereby officially opening the Lightning channel between the two users.
 
 ![LNP201](assets/en/16.webp)
 
@@ -216,7 +242,7 @@ In the next chapter, we will explore the technical workings of a Lightning trans
 
 <chapterId>7d3fd135-129d-5c5a-b306-d5f2f1e63340</chapterId>
 
-![video en](https://youtu.be/dzPMGiR_JSE)
+:::video id=c17454f3-14c5-47a0-8c9c-42ee12932bd3:::
 
 In this chapter, we will discover the technical functioning of a transaction within a channel on the Lightning Network, that is, when funds are moved from one side of the channel to the other.
 
@@ -273,7 +299,7 @@ However, this system has a potential flaw, which we will address in the next cha
 ## Revocation Key
 
 <chapterId>f2f61e5b-badb-5947-9a81-7aa530b44e59</chapterId>
-![video en](https://youtu.be/veCs39uVFUk)
+:::video id=1d850f23-eff1-4725-b284-ce12456a2c26:::
 In this chapter, we will delve deeper into how transactions work on the Lightning Network by discussing the mechanisms in place to protect against cheating, ensuring that each party adheres to the rules within a channel.
 
 ### Reminder: Commitment Transactions
@@ -305,8 +331,8 @@ Even worse, Alice could publish the very first withdrawal transaction, the one b
 
 To prevent this kind of cheating by Alice, on the Lightning Network, **security mechanisms** are added to the commitment transactions:
 
-1. **The timelock**: Each commitment transaction includes a timelock for Alice's funds. The timelock is a smart contract primitive that sets a time condition that must be met for a transaction to be added to a block. This means that Alice cannot recover her funds until a certain number of blocks have passed if she publishes one of the commitment transactions. This timelock starts to apply from the confirmation of the commitment transaction. Its duration is generally proportional to the size of the channel, but it can also be manually configured.
-2. **Revocation Key**: Alice's funds can also be immediately spent by Bob if he possesses the **revocation key**. This key consists of a secret held by Alice and a secret held by Bob. Note that this secret is different for each commitment transaction.
+- **The timelock**: Each commitment transaction includes a timelock for Alice's funds. The timelock is a smart contract primitive that sets a time condition that must be met for a transaction to be added to a block. This means that Alice cannot recover her funds until a certain number of blocks have passed if she publishes one of the commitment transactions. This timelock starts to apply from the confirmation of the commitment transaction. Its duration is generally proportional to the size of the channel, but it can also be manually configured.
+- **Revocation Key**: Alice's funds can also be immediately spent by Bob if he possesses the **revocation key**. This key consists of a secret held by Alice and a secret held by Bob. Note that this secret is different for each commitment transaction.
    Thanks to these 2 combined mechanisms, Bob has the time to detect Alice's attempt to cheat, and to punish her by retrieving his output with the revocation key, which for Bob means recovering all the funds of the channel. Our new commitment transaction will now look like this:
 
 ![LNP201](assets/en/25.webp)
@@ -322,11 +348,11 @@ When Alice and Bob update the state of the channel with a new Lightning transact
 
 Let's take an example to understand this process well:
 
-1. **Initial State**: Alice has **100,000 satoshis**, Bob **30,000 satoshis**.
+- **Initial State**: Alice has **100,000 satoshis**, Bob **30,000 satoshis**.
 
 ![LNP201](assets/en/26.webp)
 
-2. Bob wants to receive 40,000 satoshis from Alice via their Lightning channel. To do this:
+- Bob wants to receive 40,000 satoshis from Alice via their Lightning channel. To do this:
    - He sends her an invoice along with his secret for the revocation key of his previous commitment transaction.
    - In response, Alice provides her signature for Bob's new commitment transaction, as well as her secret for the revocation key of her previous transaction.
    - Finally, Bob sends his signature for Alice's new commitment transaction.
@@ -334,7 +360,7 @@ Let's take an example to understand this process well:
 
 ![LNP201](assets/en/27.webp)
 
-3. If Alice attempts to publish the old commitment transaction where she still owned **100,000 satoshis**, Bob, having obtained the revocation key, can immediately recover the funds using this key, while Alice is blocked by the timelock.
+- If Alice attempts to publish the old commitment transaction where she still owned **100,000 satoshis**, Bob, having obtained the revocation key, can immediately recover the funds using this key, while Alice is blocked by the timelock.
 
 ![LNP201](assets/en/28.webp)
 
@@ -352,7 +378,7 @@ At this point in the training, you now know how Lightning channels are opened an
 
 <chapterId>29a72223-2249-5400-96f0-3756b1629bc2</chapterId>
 
-![video en](https://youtu.be/zmAa2fj_V7w)
+:::video id=4d8ad4e6-32ff-46d3-bd17-343929aa863b:::
 
 In this chapter, we will discuss **closing a channel** on the Lightning Network, which is done through a Bitcoin transaction, just like opening a channel. After seeing how transactions within a channel work, it is now time to see how to close a channel and recover the funds on the Bitcoin blockchain.
 
@@ -366,9 +392,9 @@ The **lifecycle of a channel** begins with its **opening**, via a Bitcoin transa
 
 There are three main ways to close this channel, which can be called **the good, the brute, and the truant** (inspired by Andreas Antonopoulos in _Mastering the Lightning Network_):
 
-1. **The Good**: the **cooperative closure**, where Alice and Bob agree to close the channel.
-2. **The Bad**: the **forced closure**, where one of the parties decides to close the channel honestly, but without the other's agreement.
-3. **The Ugly**: the **closure with cheating**, where one of the parties attempts to steal funds by publishing an old commitment transaction (any but not the last one, which reflects the actual and fair distribution of funds).
+- **The Good**: the **cooperative closure**, where Alice and Bob agree to close the channel.
+- **The Bad**: the **forced closure**, where one of the parties decides to close the channel honestly, but without the other's agreement.
+- **The Ugly**: the **closure with cheating**, where one of the parties attempts to steal funds by publishing an old commitment transaction (any but not the last one, which reflects the actual and fair distribution of funds).
 
 Let's take an example:
 
@@ -381,13 +407,13 @@ Let's take an example:
 
 In a **cooperative closure**, Alice and Bob agree to close the channel. Here's how it goes:
 
-1. Alice sends a message to Bob via the Lightning communication protocol to propose closing the channel.
-2. Bob agrees, and the two parties make no further transactions in the channel.
+- Alice sends a message to Bob via the Lightning communication protocol to propose closing the channel.
+- Bob agrees, and the two parties make no further transactions in the channel.
 
 ![LNP201](assets/en/31.webp)
 
-3. Alice and Bob negotiate together the fees of the **closing transaction**. These fees are generally calculated based on the Bitcoin fee market at the time of closure. It is important to note that **it is always the person who opened the channel** (Alice in our example) who pays the closing fees.
-4. They construct a new **closing transaction**. This transaction resembles a commitment transaction, but without timelocks or revocation mechanisms, since both parties are cooperating and there is no risk of cheating. This cooperative closing transaction is therefore different from commitment transactions.
+- Alice and Bob negotiate together the fees of the **closing transaction**. These fees are generally calculated based on the Bitcoin fee market at the time of closure. It is important to note that **it is always the person who opened the channel** (Alice in our example) who pays the closing fees.
+- They construct a new **closing transaction**. This transaction resembles a commitment transaction, but without timelocks or revocation mechanisms, since both parties are cooperating and there is no risk of cheating. This cooperative closing transaction is therefore different from commitment transactions.
 
 For example, if Alice owns **100,000 satoshis** and Bob **30,000 satoshis**, the closing transaction will send **100,000 satoshis** to Alice's address and **30,000 satoshis** to Bob's address, without timelock constraints. Once this transaction is signed by both parties, it is published by Alice. Once the transaction is confirmed on the Bitcoin blockchain, the Lightning channel will be officially closed.
 
@@ -426,9 +452,9 @@ Obviously, cheating can potentially succeed if Bob does not act within the time 
 
 There are three ways to close a channel:
 
-1. **Cooperative Closure**: Fast and less expensive, where both parties agree to close the channel and publish a tailored closing transaction.
-2. **Forced Closure**: Less desirable, as it relies on publishing a commitment transaction, with potentially unsuitable fees and a timelock, which slows down the closure.
-3. **Cheating**: If one of the parties tries to steal funds by publishing an old transaction, the other can use the revocation key to punish this cheating.
+- **Cooperative Closure**: Fast and less expensive, where both parties agree to close the channel and publish a tailored closing transaction.
+- **Forced Closure**: Less desirable, as it relies on publishing a commitment transaction, with potentially unsuitable fees and a timelock, which slows down the closure.
+- **Cheating**: If one of the parties tries to steal funds by publishing an old transaction, the other can use the revocation key to punish this cheating.
 
 In the upcoming chapters, we will explore the Lightning Network from a broader perspective, focusing on how its network operates.
 
@@ -440,7 +466,7 @@ In the upcoming chapters, we will explore the Lightning Network from a broader p
 
 <chapterId>45a7252c-fa4f-554b-b8bb-47449532918e</chapterId>
 
-![video en](https://youtu.be/44oBdNdXtEQ)
+:::video id=38419c23-5592-4573-b0a7-84824a5bfb77:::
 
 In this chapter, we will explore how payments on the Lightning Network can reach a recipient even if they are not directly connected by a payment channel. Lightning is, indeed, a **network of payment channels**, which allows funds to be sent to a distant node through the channels of other participants. We will discover how payments are routed across the network, how liquidity moves between channels, and how transaction fees are calculated.
 
@@ -461,8 +487,8 @@ If Alice wants to send funds to Bob without opening a direct channel with him, s
 
 Suppose Alice wants to send **50,000 satoshis** to Bob:
 
-1. **Alice** sends 50,000 satoshis to **Suzie** in their common channel.
-2. **Suzie** replicates this transfer by sending 50,000 satoshis to **Bob** in their channel.
+- **Alice** sends 50,000 satoshis to **Suzie** in their common channel.
+- **Suzie** replicates this transfer by sending 50,000 satoshis to **Bob** in their channel.
 
 ![LNP201](assets/en/38.webp)
 
@@ -483,9 +509,9 @@ Let's take a theoretical example of another network with:
 The maximum Alice can send to Bob in this configuration is **90,000 satoshis**, as she is limited by the smallest liquidity available in the channel from **Suzie to Carol**. In the opposite direction (from Bob to Alice), no payment is possible because **Suzie's** side in the channel with **Alice** contains no satoshis. Therefore, there is **no route** usable for a transfer in this direction.
 Alice sends **40,000 satoshis** to Bob through the channels:
 
-1. Alice transfers 40,000 satoshis to her channel with Suzie.
-2. Suzie transfers 40,000 satoshis to Carol in their shared channel.
-3. Carol finally transfers 40,000 satoshis to Bob.
+- Alice transfers 40,000 satoshis to her channel with Suzie.
+- Suzie transfers 40,000 satoshis to Carol in their shared channel.
+- Carol finally transfers 40,000 satoshis to Bob.
 
 ![LNP201](assets/en/40.webp)
 
@@ -501,8 +527,8 @@ The role of the intermediate nodes is therefore very important in the functionin
 
 The intermediate nodes apply fees to allow payments to pass through their channels. These fees are set by **each node for each channel**. The fees consist of 2 elements:
 
-1. "**Base fee**": a fixed amount per channel, often **1 sat** by default, but customizable.
-2. "**Variable fee**": a percentage of the transferred amount, calculated in **parts per million (ppm)**. By default, it is **1 ppm** (1 sat per million satoshis transferred), but it can also be adjusted.
+- "**Base fee**": a fixed amount per channel, often **1 sat** by default, but customizable.
+- "**Variable fee**": a percentage of the transferred amount, calculated in **parts per million (ppm)**. By default, it is **1 ppm** (1 sat per million satoshis transferred), but it can also be adjusted.
 
 The fees also differ depending on the direction of the transfer. For example, for a transfer from Alice to Suzie, Alice's fees apply. Conversely, from Suzie to Alice, Suzie's fees are used.
 
@@ -547,9 +573,9 @@ To route a payment from the sender to the recipient, the Lightning Network uses 
   To ensure the transmitting node can calculate a complete route to the recipient in onion routing, it must maintain a **network graph** to know its topology and determine possible routes.
   **What should you take away from this chapter?**
 
-1. On Lightning, payments can be routed between nodes indirectly connected through intermediary channels. Each of these intermediary nodes facilitates the liquidity relay.
-2. Intermediary nodes receive a commission for their service, consisting of fixed and variable fees.
-3. Onion routing allows the transmitting node to calculate the complete route without intermediary nodes knowing the source or final destination.
+- On Lightning, payments can be routed between nodes indirectly connected through intermediary channels. Each of these intermediary nodes facilitates the liquidity relay.
+- Intermediary nodes receive a commission for their service, consisting of fixed and variable fees.
+- Onion routing allows the transmitting node to calculate the complete route without intermediary nodes knowing the source or final destination.
 
 In this chapter, we explored payment routing on the Lightning Network. But a question arises: what prevents intermediary nodes from accepting an incoming payment without forwarding it to the next destination, with the aim of intercepting the transaction? This is precisely the role of HTLCs that we will study in the following chapter.
 
@@ -557,7 +583,7 @@ In this chapter, we explored payment routing on the Lightning Network. But a que
 
 <chapterId>4369b85a-1365-55d8-99e1-509088210116</chapterId>
 
-![video en](https://youtu.be/jI4nM297aHA)
+:::video id=6f204b92-55a5-4939-9440-7c5b96a297bf:::
 
 In this chapter, we will discover how Lightning allows payments to transit through intermediary nodes without needing to trust them, thanks to **HTLC** (_Hashed Time-Locked Contracts_). These smart contracts ensure that each intermediary node will only receive the funds from its channel if it forwards the payment to the final recipient, otherwise, the payment will not be validated.
 
@@ -667,9 +693,9 @@ Finally, in the case of a cooperative channel closure while an HTLC is active, A
 
 HTLCs enable the routing of Lightning payments through multiple nodes without having to trust them. Here are the key points to remember:
 
-1. HTLCs ensure the security of payments through a secret (preimage) and an expiration time.
-2. The resolution or expiration of HTLCs follows a specific order: then from the destination towards the source, in order to protect each node.
-3. As long as an HTLC is neither resolved nor expired, it is maintained as an output in the most recent commitment transactions.
+- HTLCs ensure the security of payments through a secret (preimage) and an expiration time.
+- The resolution or expiration of HTLCs follows a specific order: then from the destination towards the source, in order to protect each node.
+- As long as an HTLC is neither resolved nor expired, it is maintained as an output in the most recent commitment transactions.
 
 In the next chapter, we will discover how a node issuing a Lightning transaction finds and selects routes for its payment to reach the recipient node.
 
@@ -677,7 +703,7 @@ In the next chapter, we will discover how a node issuing a Lightning transaction
 
 <chapterId>7e2ae959-c2a1-512e-b5d6-8fd962e819da</chapterId>
 
-![video en](https://youtu.be/CqetCElRjUQ)
+:::video id=e5baa834-111d-46f5-a28b-3538bed2bbb0:::
 
 In the previous chapters, we saw how to use other nodes' channels to route payments and reach a node without being directly connected to it via a channel. We also discussed how to ensure the security of the transfer without trusting the intermediary nodes. In this chapter, we will focus on finding the best possible route to reach a target node.
 
@@ -732,9 +758,9 @@ But since Alice does not know the exact distribution of funds in each channel, s
 
 By analyzing these criteria, the sending node can test the most probable routes and attempt to optimize them. In our example, Alice could rank the best routes as follows:
 
-1. `Alice → 1 → 2 → 5 → Bob`, because it's the shortest route with the highest capacity.
-2. `Alice → 1 → 2 → 4 → 5 → Bob`, because this route offers good capacities, although it is longer than the first.
-3. `Alice → 1 → 2 → 3 → Bob`, because this route includes the channel `2 → 3`, which has very limited capacity, but remains potentially usable.
+- `Alice → 1 → 2 → 5 → Bob`, because it's the shortest route with the highest capacity.
+- `Alice → 1 → 2 → 4 → 5 → Bob`, because this route offers good capacities, although it is longer than the first.
+- `Alice → 1 → 2 → 3 → Bob`, because this route includes the channel `2 → 3`, which has very limited capacity, but remains potentially usable.
 
 ### Payment Execution
 
@@ -752,9 +778,9 @@ It's worth noting that Bob can provide Alice with information in the **invoice**
 
 **What should you take away from this chapter?**
 
-1. Nodes maintain a map of the network topology through announcements and by monitoring channel closures on the Bitcoin blockchain.
-2. The search for an optimal route for a payment remains probabilistic and depends on many criteria.
-3. Bob can provide indications in the **invoice** to guide Alice's routing and save her from testing unlikely routes.
+- Nodes maintain a map of the network topology through announcements and by monitoring channel closures on the Bitcoin blockchain.
+- The search for an optimal route for a payment remains probabilistic and depends on many criteria.
+- Bob can provide indications in the **invoice** to guide Alice's routing and save her from testing unlikely routes.
 
 In the following chapter, we will specifically study the functioning of invoices, in addition to some other tools used on the Lightning Network.
 
@@ -765,7 +791,7 @@ In the following chapter, we will specifically study the functioning of invoices
 ## Invoice, LNURL, and Keysend
 
 <chapterId>e34c7ecd-2327-52e3-b61e-c837d9e5e8b0</chapterId>
-![video en](https://youtu.be/XANzf1Qqp9I)
+:::video id=309c3412-506e-4189-ad46-5e5088c55008:::
 
 In this chapter, we will take a closer look at the operation of Lightning **invoices**, that is, payment requests sent by the recipient node to the sender node. The goal is to understand how to pay and receive payments on Lightning. We will also discuss 2 alternatives to classic invoices: LNURL and Keysend.
 
@@ -775,8 +801,8 @@ In this chapter, we will take a closer look at the operation of Lightning **invo
 
 As explained in the chapter on HTLCs, each payment begins with the generation of an **invoice** by the recipient. This invoice is then transmitted to the payer (via a QR code or by copy-pasting) to initiate the payment. An invoice consists of two main parts:
 
-1. **The Human Readable Part**: this section contains clearly visible metadata to enhance the user experience.
-2. **The Payload**: this section includes information intended for machines to process the payment.
+- **The Human Readable Part**: this section contains clearly visible metadata to enhance the user experience.
+- **The Payload**: this section includes information intended for machines to process the payment.
 
 The typical structure of an invoice starts with an identifier `ln` for "Lightning", followed by `bc` for Bitcoin, then the amount of the invoice. A separator `1` distinguishes the human-readable part from the data (payload) part.
 
@@ -805,7 +831,7 @@ In the first part, we can see that:
 
 - `ln` indicates that it's a Lightning transaction.
 - `bc` indicates that the Lightning network is on the Bitcoin blockchain (and not on the testnet or on Litecoin).
-- `100u` indicates the amount of the invoice, expressed in **microsatoshis** (`u` meaning "micro"), which here equals 10,000 sats.
+- `100u` indicates the amount of the invoice, expressed in **microbitcoins** (`u` meaning "micro"), which here equals 10,000 sats.
 
 To designate the payment amount, it is expressed in sub-units of bitcoin. Here are the units used:
 
@@ -868,9 +894,9 @@ To simplify, in this protocol, it is the sender who generates the secret used in
 
 **What should you take away from this chapter?**
 
-1. A **Lightning Invoice** is a payment request consisting of a human-readable part and a machine data part.
-2. The invoice is encoded in **bech32**, with a `1` separator to facilitate copying and a data part containing all the information necessary to process the payment.
-3. Other payment processes exist on Lightning, notably **LNURL-Withdraw** to facilitate withdrawals, and **Keysend** for direct transfers without an invoice.
+- A **Lightning Invoice** is a payment request consisting of a human-readable part and a machine data part.
+- The invoice is encoded in **bech32**, with a `1` separator to facilitate copying and a data part containing all the information necessary to process the payment.
+- Other payment processes exist on Lightning, notably **LNURL-Withdraw** to facilitate withdrawals, and **Keysend** for direct transfers without an invoice.
 
 In the following chapter, we will see how a node operator can manage liquidity in their channels, to never be blocked and always be able to send and receive payments on the Lightning Network.
 
@@ -878,7 +904,7 @@ In the following chapter, we will see how a node operator can manage liquidity i
 
 <chapterId>cc76d0c4-d958-57f5-84bf-177e21393f48</chapterId>
 
-![video en](https://youtu.be/MIbej28La7Y)
+:::video id=96096aef-e4ce-4c44-a022-57e27082232a:::
 
 In this chapter, we will explore strategies for effectively managing liquidity on the Lightning Network. Liquidity management varies depending on the type of user and context. We will look at the main principles and existing techniques to better understand how to optimize this management.
 
@@ -886,9 +912,9 @@ In this chapter, we will explore strategies for effectively managing liquidity o
 
 There are three main user profiles on Lightning, each with specific liquidity needs:
 
-1. **The Payer**: This is the one who makes payments. They need outgoing liquidity to be able to transfer funds to other users. For example, this could be a consumer.
-2. **The Seller (or Payee)**: This is the one who receives payments. They need incoming liquidity to be able to accept payments to their node. For example, this could be a business or an online store.
-3. **The Router**: An intermediary node, often specialized in routing payments, that must optimize its liquidity in each channel to route as many payments as possible and earn fees.
+- **The Payer**: This is the one who makes payments. They need outgoing liquidity to be able to transfer funds to other users. For example, this could be a consumer.
+- **The Seller (or Payee)**: This is the one who receives payments. They need incoming liquidity to be able to accept payments to their node. For example, this could be a business or an online store.
+- **The Router**: An intermediary node, often specialized in routing payments, that must optimize its liquidity in each channel to route as many payments as possible and earn fees.
 
 These profiles are obviously not fixed; a user can switch between payer and payee depending on the transactions. For example, Bob could receive his salary on Lightning from his employer, placing him in the position of a "seller" requiring incoming liquidity. Subsequently, if he wants to use his salary to buy food, he becomes a "payer" and must then have outgoing liquidity.
 
@@ -946,11 +972,12 @@ In the next chapter, I propose to review the most important concepts of this tra
 
 <partId>6bbf107d-a224-5916-9f0c-2b4d30dd0b17</partId>
 
-## Training Conclusion
+## Course Summary
+
 
 <chapterId>a65a571c-561b-5e1c-87bf-494644653c22</chapterId>
 
-![video en](https://youtu.be/coaskEGRjiU)
+:::video id=5f4f4344-ef27-4765-8f09-8262e6833bde:::
 
 In this final chapter marking the end of the LNP201 training, I propose to revisit the important concepts we have covered together.
 
@@ -960,12 +987,12 @@ The goal of this training was to provide you with a comprehensive and technical 
 
 In the initial chapters, we explored how two parties, by opening a payment channel, can conduct transactions outside of the Bitcoin blockchain. Here are the steps covered:
 
-1. **Channel Opening**: The creation of the channel is done through a Bitcoin transaction that locks the funds in a 2/2 multisignature address. This deposit represents the Lightning channel on the blockchain.
+- **Channel Opening**: The creation of the channel is done through a Bitcoin transaction that locks the funds in a 2/2 multisignature address. This deposit represents the Lightning channel on the blockchain.
 
 ![LNP201](assets/en/76.webp) 2. **Transactions in the Channel**: In this channel, it is then possible to carry out numerous transactions without having to publish them on the blockchain. Each Lightning transaction creates a new state of the channel reflected in a commitment transaction.
 ![LNP201](assets/en/77.webp)
 
-3. **Securing and Closing**: Participants commit to the new state of the channel by exchanging revocation keys to secure the funds and prevent any cheating. Both parties can close the channel cooperatively by making a new transaction on the Bitcoin blockchain, or as a last resort through a forced closure. This latter option, although less efficient because it is longer and sometimes poorly evaluated in terms of fees, still allows for the recovery of funds. In case of cheating, the victim can punish the cheater by recovering all the funds from the channel on the blockchain.
+- **Securing and Closing**: Participants commit to the new state of the channel by exchanging revocation keys to secure the funds and prevent any cheating. Both parties can close the channel cooperatively by making a new transaction on the Bitcoin blockchain, or as a last resort through a forced closure. This latter option, although less efficient because it is longer and sometimes poorly evaluated in terms of fees, still allows for the recovery of funds. In case of cheating, the victim can punish the cheater by recovering all the funds from the channel on the blockchain.
 
 ![LNP201](assets/en/78.webp)
 
@@ -1001,7 +1028,7 @@ We have seen that liquidity management is a challenge on Lightning to ensure the
 
 ![LNP201](assets/en/84.webp)
 
-# Conclusion
+# Final Section
 
 <partId>b8715c1c-7ae2-49b7-94c7-35bf85346ad3</partId>
 

@@ -6,7 +6,9 @@ links:
   trailer: https://youtu.be/2pDlaOGA2ac?feature=shared
 description: |
   I make bitcoin videos.
+contributor_names:
+  - PaoloFoti
 tags:
-  - easy-explain
-contributors:
-  - hunt-wood
+  - user-friendly
+  - guides
+  - wallets

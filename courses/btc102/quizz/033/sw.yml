@@ -1,0 +1,12 @@
+question: Je, ni itikadi gani mbili zinazopingana katika ulimwengu wa Bitcoin?
+answer: Kuwaleta wasiokuwa na benki kwenye mfumo wa benki na kuwaondoa walio katika mfumo wa benki
+wrong_answers:
+  - Kumfanya kila mtu kuwa tajiri na kumfanya kila mtu kuwa maskini
+  - Kuweka madaraka kati na madaraka ya ugatuzi
+  - Kukuza faragha na kukuza uwazi
+explanation: |
+  Sura inataja itikadi mbili zinazopingana katika ulimwengu wa Bitcoin.
+  Moja ni kuleta mabilioni ya watu ambao hawako katika mfumo wa benki ndani yake.
+  Nyingine ni kuwaondoa mabilioni ya watu walio katika mfumo wa benki
+  ni.
+reviewed: false

@@ -7,15 +7,15 @@ links:
   twitter: https://twitter.com/_einundzwanzig_
   youtube: https://www.youtube.com/c/EinundzwanzigPodcast
 
-tags:
-  - adoption
-  - easy-explain
-
 original_language: de
 proofreading:
   - language: de
     last_contribution_date: 2025-01-20
     urgency: 1
-    contributors_id:
+    contributor_names:
       - hunt-wood
     reward: 0.06
+tags:
+  - guides
+  - easy-explain
+  - user-friendly

@@ -1,0 +1,9 @@
+question: 哪種情況最能說明 Bitcoin 付款的基本配置文件用途？
+answer: 每月接受數筆 Bitcoin 付款的餐廳
+wrong_answers:
+  - 每天處理數以千計交易的跨國企業
+  - 接受比特幣付款的獨立自由職業者
+  - 高頻 Bitcoin 交易台
+explanation: |
+  Essential profile 針對只有很少 Bitcoin 交易的中小型企業，例如餐廳。
+reviewed: false

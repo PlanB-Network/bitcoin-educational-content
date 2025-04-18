@@ -20,11 +20,12 @@ Tento kurz je samozřejmě zaměřen na postavu Satoshi Nakamota, jehož slova a
 # Úvod
 <partId>41dc2815-c63a-4ce1-9b88-e7b3825e958e</partId>
 
-## Úvod do historie vzniku Bitcoinu
+## Přehled kurzu
 <chapterId>85290407-1aa3-4cb4-890a-aed23441afb7</chapterId>
+Vítejte v kurzu HIS201!
 Tento kurz má za cíl vyprávět vám příběh o vzniku Bitcoinu způsobem, jaký jste dosud nečetli. Často je přehlížen, přestože je plný fascinujících detailů. Budeme se snažit popsat ho ve vší jeho složitosti, od jeho početí Satoshi Nakamotem až po jeho brzké zmizení a předání do rukou komunity.
 
-### Stručný přehled
+**Stručný přehled**
 
 Bitcoin byl navržen jednotlivcem (nebo skupinou) používajícím pseudonym Satoshi Nakamoto. Dne 31. října 2008 sdílel white paper popisující jeho model prostřednictvím nejasného e-mailového mailing listu na internetu. Dne 8. ledna 2008 implementoval svůj koncept zveřejněním zdrojového kódu softwaru a spuštěním sítě těžbou prvních bloků řetězce. Aby přilákal kritické množství uživatelů, propagoval své dílo prostřednictvím různých komunikačních kanálů.
 
@@ -46,7 +47,7 @@ Vznik Bitcoinu byl také v kontextu uzavření soukromých měnových systémů,
 
 Nakonec je projekt Bitcoinu dědicem etosu hnutí cypherpunk, hnutí rebelujících kryptografů z 90. let, kteří usilovali o zachování soukromí a svobody lidí na internetu prostřednictvím proaktivního používání kryptografie. Bitcoin je v souladu s projekty jako b-money, bit gold nebo RPOW, které si tyto osoby představily na konci 90. let a na začátku 2000. Satoshi Nakamoto je zmínil, ačkoli o nich před návrhem Bitcoinu nevěděl a pravděpodobně nebyl součástí původního hnutí.
 
-### Struktura kurzu
+**Struktura kurzu**
 
 Tento kurz je rozdělen do čtyř částí, které se postupně zaměřují na původ Bitcoinu (3 kapitoly), jeho pomalý vznik (3 kapitoly), jeho počáteční vzestup (3 kapitoly) a formování jeho komunity (4 kapitoly). Celkem obsahuje 12 kapitol, které jsou následující (je také specifikováno období, na které se vztahují):
 
@@ -64,7 +65,7 @@ Tento kurz je rozdělen do čtyř částí, které se postupně zaměřují na p
 - Zmizení Satoshiho (prosinec 2010–duben 2011)
 - Komunita přebírá kontrolu (duben 2011–září 2011)
 
-### Detaily
+**Detaily**
 
 Všechna data a časy jsou uvedeny podle časového pásma UTC (odpovídajícího Greenwichskému meridiánu), a mohou se tedy lišit od amerických dat. Je pravděpodobné, že Satoshi Nakamoto byl ve Spojených státech, když pracoval na svém projektu. Bitcoin je však mezinárodní projekt, který zahrnoval i příspěvky od finského vývojáře Marttiho Malmiho (Východoevropský čas, UTC+2 / UTC+3), a proto se budeme odvolávat na univerzální časové pásmo. Tímto způsobem říkáme, že efektivní spuštění hlavní sítě proběhlo 9. ledna ve 2:54 ráno, namísto 8. ledna v 6:54 večer, což odpovídá časovému pásmu východního pobřeží (Pacifický čas, UTC-8 / UTC-7).
 
@@ -78,6 +79,7 @@ Obsah je částečně přizpůsoben z francouzské knihy [*L'Élégance de Bitco
 
 Vezměte na vědomí, že pro neanglické verze tohoto kurzu byly většinou citace přeloženy z americké angličtiny pro danou příležitost. Termín *coin* je obecně přeložen jako "jednotka" (a ne "kus"), když se odkazuje na účetní jednotku.
 
+Připraveni prozkoumat neuvěřitelný příběh vzniku Bitcoinu? Tak pojďme společně ponořit do tohoto výjimečného dobrodružství!
 # Původ Bitcoinu
 <partId>25a75ed6-f34b-4c9a-8224-e099a3e774dc</partId>
 
@@ -353,7 +355,7 @@ Koncept Ripple byl založen na myšlence, že peníze jsou v podstatě tvořeny 
 
 Zde je úvodní video o Ripple z roku 2011:
 
-![Video (Youtube) prezentace Ripple z roku 2011](https://www.youtube.com/watch?v=f9KqSgRZYgg)
+:::video id=056364f2-a222-4d79-a4a1-cb0dc4cea751:::
 
 Přes nadšení jeho komunity a několika tisíc uživatelů měl Ripple zásadní nedostatky, které mu bránily v úspěchu. Zejména [trpěl](https://fiatjaf.com/3cb7c325.html) "problémem decentralizovaného závazku": během platby se účastníci nemohli zavázat bezpečným způsobem, aby zajistili řetězec půjček, problém, který byl později vyřešen pomocí Lightning. (*originál: "the problem of the decentralized commit"*)
 
@@ -1090,7 +1092,7 @@ Dva týdny později, v nepřítomnosti odpovědi, mu přišel na pomoc další �
 EFF si dala nějaký čas, než začala přijímat veřejné dary. Po jednání komunita přesvědčila organizaci, aby na svém webu zveřejnila adresu pro dary. 9. listopadu se adresa objevila na [stránce pro dary](https://web.archive.org/web/20101130105838/http://www.eff.org/helpout). Uživatelé Bitcoinu začali [převádět](https://mempool.space/tx/8ca2d206bc41b9ffa36cf4ea9ce9d3b0751fd653b6ec8f2979bfdddc4a631731) finanční prostředky.
 O několik dní později byl na toto téma napsán [příspěvek](https://web.archive.org/web/20101117060233/http://www.bitcoinblogger.com/2010/11/bitcoin-gains-legal-protection-through.html) blogerem jimbobway, který upoutal pozornost k Bitcoinu. Tento článek byl [sdílen](https://news.ycombinator.com/item?id=1905522) na HackerNews. Byl také přepsán do videa BitcoinMedia pomocí Xtranormal:
 
-![Video "Bitcoin a EFF."](https://www.youtube.com/watch?v=AiGCuyRJe8s)
+:::video id=03dfd302-1e05-4cad-a91a-e5e65f1d0932:::
 
 To je velmi dobrá zpráva pro Bitcoin, protože obě iniciativy sdílejí společné hodnoty. Navíc je EFF proslulá poskytováním právní ochrany projektům zaměřeným na ochranu soukromí a sdílení dat, jako jsou Tor a BitTorrent. Sám Satoshi Nakamoto je si toho vědom a je zvláště podporující akcí organizace, jak je vidět v jeho [komentáři](https://mmalmi.github.io/satoshi/#email-254) uvedeném v jednom z jeho emailů adresovaných Gavinu Andresenovi 6. ledna 2011:
 > "EFF je opravdu důležitá. &nbsp;Chceme udržovat dobré vztahy s nimi. &nbsp;Jsme typ projektu, který si váží; pomohli projektu TOR a udělali hodně pro ochranu P2P sdílení souborů."
@@ -1217,14 +1219,6 @@ Tento záhadný aspekt obklopující tvůrce Bitcoinu byl dobře shrnut Hal Finn
 >
 > Co znamená to S?"
 
-## Recenze & Hodnocení
-<chapterId>73825805-29e2-54bf-a8c3-62614b52fbef</chapterId>
-<isCourseReview>true</isCourseReview>
-
-## Závěrečná zkouška
-<chapterId>39e43ec2-5b38-5174-882a-c1f7d284b9e6</chapterId>
-<isCourseExam>true</isCourseExam>
-
 ## Převzetí komunity
 <chapterId>16c5e6d6-2412-48c6-9687-6af92cf0d89a</chapterId>
 
@@ -1282,7 +1276,7 @@ První setkání uživatelů Bitcoinu zorganizoval Bruce Wagner, moderátor z Ne
 
 Únor také znamenal [první filmovanou prezentaci](https://www.youtube.com/watch?v=koIq58UoNfE) Bitcoinu, kterou provedl Gavin Andresen 8. února během akce organizované ve svém rodném městě Amherst v Massachusetts. Prezentace s názvem "Making Money" od nového hlavního správce projektu zahrnovala mnoho jazykových prvků, které by charakterizovaly způsob prezentace kryptoměny v následujících letech.
 
-![Video (Youtube) Gavinova projevu v Amherstu v únoru 2011](https://www.youtube.com/watch?v=koIq58UoNfE)
+:::video id=92b9aa30-1479-4d4f-b57f-f07b660145f2:::
 
 I když se první akce konaly ve Spojených státech, francouzská komunita nezůstala pozadu. Dne 25. května, aby se připomněla návštěva Gavina Andresena v Paříži, byl v oblasti La Défense uspořádán oběd, kterého se zúčastnili významné osobnosti jako Lucien Grondin, David François a Jon Matonis (který také navštívil).
 
@@ -1296,7 +1290,7 @@ Prezentace Bitcoinu od Renauda Lifchitze 15. června 2011 (zdroj: [archiv fóra]
 
 Po této zkušenosti pařížská komunita [zorganizovala](https://bitcointalk.org/index.php?topic=21991.msg276443#msg276443) společenské setkání, které se konalo 11. července. Tato akce spojila jednotlivce jako Pierre Noizat nebo Émilien Dutang.
 Na mezinárodní scéně se první kolektivní konference o Bitcoinu konala od 19. do 21. srpna v New Yorku. Toto setkání, které organizoval Bruce Wagner, spojilo osobnosti jako Roger Ver, Jesse Powell, Jed McCaleb, Mark Karpelès a Charlie Lee. Ačkoliv Wagner sliboval tři dny událostí, odehrály se pouze čtyři prezentace: jeho vlastní a ty od Gavina Andresena, Jeffa Garzika a Stefana Thomase.
-![Video (Youtube) z Gavina vystoupení 20. srpna 2011](https://www.youtube.com/watch?v=0ljx4bbJrYE)
+:::video id=bca0217c-29ee-49b2-8d16-d9efe6f390da:::
 
 Později v roce, v listopadu, se v Praze [uskuteční](https://bitcointalk.org/index.php?topic=40272.msg490901#msg490901) evropská konference. Mezi významné řečníky budou patřit vývojář Amir Taaki, zakladatel Švédské pirátské strany Rick Falkvinge a moderátor Max Keiser. Následující rok bude [organizována podobná akce v Londýně](https://blog.bitmex.com/london-2012-the-2nd-bitcoin-conference/).
 
@@ -1306,7 +1300,7 @@ Rok 2011 byl také rokem, kdy mediální pokrytí výrazně vzrostlo. Případ W
 
 Za prvé, na Youtube začaly proliferovat videa na toto téma. Dne 22. března se objevilo první video o Bitcoinu vysoké kvality. Toto video, jednoduše nazvané "Co je Bitcoin?", bylo vyrobeno Stefanem Thomasem (justmoon) díky [crowdfunding](https://bitcointalk.org/index.php?topic=697.msg70001#msg70001) od komunity. Bylo zveřejněno na portálu WeUseCoins věnovaném vzdělávání a popularizaci kryptoměny. Následovala další nezávisle vyrobená úvodní videa, jako [to od howtovanish](https://www.youtube.com/watch?v=LSLByqTusaQ) v dubnu, [to od Reason](https://www.youtube.com/watch?v=yYTqvYqXRbY), nebo [to od Rocketboom](https://www.youtube.com/watch?v=9LaSrxtWfgc) v červnu.
 
-![Co je Bitcoin?](https://www.youtube.com/watch?v=Um63OQz3bjo)
+:::video id=6147a351-da80-4331-9d79-d3156889ac62:::
 V dubnu bylo téma digitální měny pokryto hlavními mainstreamovými médii, jako jsou [The Atlantic](https://www.theatlantic.com/business/archive/2011/04/how-to-start-your-own-private-currency/73327/), [Time Magazine](https://techland.time.com/2011/04/16/online-cash-bitcoin-could-challenge-governments/), a [Forbes](https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html). V květnu získal tento pohyb na momentu a Bitcoin byl zmíněn téměř všude, zejména na [Wired UK](https://web.archive.org/web/20110517122859/http://www.wired.co.uk/news/archive/2011-05/16/bitcoin-p2p-currency), na [Slate](https://slate.com/business/2011/05/bitcoin-why-the-new-electronic-currency-is-a-favorite-of-libertarian-hipsters-and-criminals.html), na [Gizmodo](https://gizmodo.com/what-is-bitcoin-5803124), a na [TechCrunch](https://techcrunch.com/2011/05/20/bitcoin-ven-and-the-end-of-currency/).
 ![Gavin Andresen v Forbes v dubnu 2011](assets/en/68.webp)
 Gavin Andresen v Forbes v dubnu 2011 (zdroj: [archiv Forbes](https://web.archive.org/web/20110502052302/https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html))
@@ -1339,7 +1333,7 @@ Zatřetí, Bitcoin rostl organicky. Byl schopen se vyvíjet diskrétně, postupn
 Za čtvrté, Bitcoin byl altruistickým výtvorem. Satoshi Nakamoto nabídl Bitcoin světu. Program uvolnil pod svobodnou licencí. Nehledal slávu, zisk ani moc. Více než rok zajišťoval bezpečnost těžby sítě, aniž by požadoval jakoukoliv kompenzaci. Přestože nahromadil více než milion bitcoinů, nikdy je neutratil. Nakonec zmizel, hlavně kvůli obavám souvisejícím s pozorností, kterou vyvolal případ WikiLeaks, a projekt nechal odpočívat na komunitě, bez jediné dominantní postavy.
 V roce 2011 Satoshi zmizel, ale Bitcoin přežil. Kryptoměna dokonce definitivně vystřelila, jak z mediálního, tak z ekonomického hlediska. Stroj byl spuštěn a nikdo ho nemohl zastavit.
 
-# Závěr
+# Sekce finále
 <partId>89532d9b-af1f-49f3-b87a-b11987e303d5</partId>
 ## Recenze & Hodnocení
 <chapterId>8f27cc89-8759-4a4f-aff2-c1d3d9ecf14e</chapterId>

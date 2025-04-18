@@ -1,0 +1,9 @@
+question: Mengapa disarankan untuk membuat dua alamat email terpisah?
+answer: Untuk memisahkan komunikasi umum dari pemulihan akun.
+wrong_answers:
+  - Untuk memisahkan komunikasi profesional dari komunikasi pribadi.
+  - Untuk membuat banyak akun dan meningkatkan visibilitas online.
+  - Untuk menerima lebih banyak spam.
+explanation: |
+  Memisahkan alamat email membantu mengurangi risiko dan melindungi akses ke akun penting dengan lebih baik.
+reviewed: false

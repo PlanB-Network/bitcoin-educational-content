@@ -1,0 +1,9 @@
+question: Hva er hovedfordelen med å bruke en passordbehandler?
+answer: Huske bare ett hovedpassord.
+wrong_answers:
+  - Aldri lage nye passord igjen.
+  - Hjelpe med å huske alle passord ved hjelp av mnemoniske teknikker.
+  - Eliminere behovet for nettbaserte kontoer.
+explanation: |
+  Brukeren trenger bare å huske ett passord for å få tilgang til alle de andre.
+reviewed: false

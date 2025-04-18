@@ -1,0 +1,12 @@
+question: Dlaczego Bitcoin nie jest obecnie powszechnie akceptowany w handlu?
+answer: Ponieważ nie jest on powszechnie stosowany przez osoby fizyczne.
+wrong_answers:
+  - Ponieważ nie można go transportować.
+  - Ponieważ nie można go podzielić na małe jednostki.
+  - Ponieważ nie jest to Liquid.
+explanation: |
+  Pomimo swoich właściwości, takich jak ściśle ograniczony
+  Supply, Bitcoin nadal nie jest powszechnie akceptowany w handlu
+  w handlu, ze względu na brak akceptacji przez osoby fizyczne, więc
+  sprzedawcy nie są zachęcani do jego akceptowania.
+reviewed: true

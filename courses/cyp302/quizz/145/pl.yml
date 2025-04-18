@@ -1,0 +1,9 @@
+question: Jakie są implikacje twierdzenia Eulera w kontekście kryptografii asymetrycznej?
+answer: Upraszcza to obliczanie mocy
+wrong_answers:
+  - Pozwala na bezpośrednie szyfrowanie wiadomości
+  - Służy do znajdowania liczb pierwszych
+  - Służy do weryfikacji parzystości liczby
+explanation: |
+  W kryptografii asymetrycznej twierdzenie Eulera upraszcza obliczanie potęg w schematach takich jak RSA, ponieważ zapewnia metodę manipulowania wykładnikami modułowymi.
+reviewed: false

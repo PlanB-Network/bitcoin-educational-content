@@ -1,0 +1,9 @@
+question: AES 標準採用的區塊加密算法是什麼？
+answer: Rijndael 密碼
+wrong_answers:
+  - DES
+  - RSA
+  - Diffie-Hellman
+explanation: |
+  Rijndael Cipher 因其高效能和安全性，被 NIST 採用為對稱加密標準 (AES)。
+reviewed: false

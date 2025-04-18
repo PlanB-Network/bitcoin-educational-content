@@ -1,0 +1,10 @@
+question: Jaka jest rola aksjomatów w austriackim rozumowaniu ekonomicznym?
+answer: Aksjomaty są podstawowymi Elements, z których można dokonywać logicznych dedukcji.
+wrong_answers:
+  - Aksjomaty są nieistotne w austriackim rozumowaniu ekonomicznym.
+  - Aksjomaty są wykorzystywane do ustalania relacji między zmiennymi na podstawie danych empirycznych.
+  - Aksjomaty są wykorzystywane do potwierdzania lub obalania hipotez poprzez tymczasowe eksperymenty.
+explanation: |
+  W austriackim rozumowaniu ekonomicznym aksjomaty odgrywają kluczową rolę. Są one
+  fundamentalne Elements, z których można wyciągać logiczne wnioski.
+reviewed: true

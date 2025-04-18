@@ -6,16 +6,17 @@ links:
   website: https://bitpay.com/
   twitter: https://x.com/BitPay
 
-tags:
-  - business
-  - adoption
-  - user-friendly
-
 original_language: en
 proofreading:
   - language: en
     last_contribution_date: 2025-02-18
     urgency: 1
-    contributors_id:
+    contributor_names:
       - jramos0
     reward: 0
+tags:
+  - business
+  - wallets
+  - adoption
+contributor_names:
+  - Asi0Flammeus

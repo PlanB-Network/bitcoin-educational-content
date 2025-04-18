@@ -1,0 +1,12 @@
+question: Jaka jest jedna z motywacji stojących za Bitcoin zużywającym energię przez Mining?
+answer: Zapewnienie potężnego mechanizmu obrony przed centralizacją
+wrong_answers:
+  - Aby korzystanie z Bitcoin było droższe
+  - Zmniejszenie jego wartości poprzez zwiększenie kosztów energii
+  - Zniechęcanie nowych użytkowników do dołączania do sieci
+explanation: |
+  Jednym z powodów, dla których Bitcoin zużywa energię przez Mining jest
+  zapewnienie potężnego mechanizmu obronnego przed centralizacją i
+  nadmiernej manipulacji. Rozproszona sieć górników pomaga zapobiegać
+  scentralizowanych podmiotów przed kooptacją sieci lub manipulowaniem zasadami na ich korzyść.
+reviewed: true

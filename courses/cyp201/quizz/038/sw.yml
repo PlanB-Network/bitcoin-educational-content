@@ -1,0 +1,9 @@
+question: Kwa nini kutumia tena Bitcoin Address haipendekezwi?
+answer: Inawezesha ufuatiliaji wa shughuli za watu wengine
+wrong_answers:
+  - Inaonyesha ufunguo wa kibinafsi kwa sababu ya Nonce
+  - Inafanya miamala kuwa ghali zaidi
+  - Inabatilisha sahihi za dijitali
+explanation: |
+  Kutumia tena Address huruhusu waangalizi kuunganisha kwa urahisi miamala tofauti kwa mtumiaji yuleyule, hivyo kuhatarisha faragha yao.
+reviewed: false

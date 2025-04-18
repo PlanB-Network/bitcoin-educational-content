@@ -21,17 +21,17 @@ Alkuun pääsemiseksi ei tarvita mitään erityisiä tietoja. Itse asiassa seura
 
 <partId>3cd2ac82-026c-53e1-874a-baf5842adc6d</partId>
 
-## Hyppy tuntemattomaan
+## Kurssin yleiskatsaus
 
 <chapterId>27e3fb60-4b50-556b-9e70-c4f5475c121d</chapterId>
 
-### Tervetuloa uuteen rahapoliittiseen ja teknologiseen paradigmaan.
+Tervetuloa BTC101-kurssille!
 
 Bitcoin on teknologinen ja rahapoliittinen vallankumous, joka saa meidät kyseenalaistamaan suhteemme rahaan ja yhteiskuntaan. Bitcoin (BTC) on itse asiassa **neutraali** ja **hajautettu** valuutta, mikä tarkoittaa, että mikään taho tai instituutio ei valvo sitä. Se on innovaatio, joka menee pelkkää "internet-valuuttaa" pidemmälle: se on sekä tietokoneprotokolla (Bitcoin) että rahayksikkö (bitcoin).
 
 Protokolla käyttää taustalla olevia tekniikoita, kuten salausta, verkkoviestintää ja kuuluisaa "lohkoketjua", kun taas bitcoin-yksikkö toimii tämän protokollan moitteettoman toiminnan kannalta välttämättömänä valuuttana. Jokapäiväisessä elämässä salvadorilaiset ja bitcoinilaiset ympäri maailmaa käyttävät bitcoin-valuuttaa ostaessaan ja myydessään tavaroita ja palveluita ja luottavat siihen, että tämä teknologia parantaa heidän elämäänsä.
 
-### Kattava mutta helposti lähestyttävä opetussuunnitelma
+**Kattava mutta helposti lähestyttävä opinto-ohjelma:**
 
 Tällä kurssilla keskustelemme Bitcoinin rahapoliittisista näkökohdista, kuten siitä, miten bitcoineja voi ostaa ja myydä, säilyttää niitä turvallisesti digitaalisissa lompakoissa ja käyttää niitä liiketoimiin. Tarkastelemme myös louhijoiden roolia, sillä louhijat ovat välttämättömiä uusien bitcoinien luomisessa ja Bitcoin-verkon turvaamisessa. Lopuksi tarkastelemme Bitcoinin tulevaisuutta ja sitä, miten Lightning Network -tekniikka voi parantaa Bitcoin-tapahtumia.
 
@@ -39,38 +39,39 @@ Tällä kurssilla keskustelemme Bitcoinin rahapoliittisista näkökohdista, kute
 
 On tärkeää ymmärtää, että Bitcoin on uusi rahajärjestelmä, joka muuttaa täysin suhteemme rahaan, joten sen käytön oppiminen on välttämätön taito kaikille, jotka haluavat hallita omia varojaan.
 
-**Luku 1 - Raha**
+**Osio 1 - Johdanto**  
+- Luku 1 - Kurssin yleiskatsaus  
+- Luku 2 - Bitcoinin esihistoria  
 
-- Luku 1 - Mitä raha on?
-- 2 luku - Fiat-raha
-- 3 luku - Hyperinflaatio
-- 4 luku - Bitcoinin rahapolitiikka
+**Osio 2 - Raha**  
+- Luku 3 - Raha historian aikana  
+- Luku 4 - Fiat-valuutat  
+- Luku 5 - Hyperinflaatio  
+- Luku 6 - 21 miljoonaa bitcoinia  
 
-**Luku 2 - Bitcoin-lompakot**
+**Osio 3 - Bitcoin-lompakot**  
+- Luku 7 - Mikä on Bitcoin-lompakko?  
+- Luku 8 - Bitcoin-lompakot ja turvallisuus  
+- Luku 9 - Lompakon käyttöönotto  
+- Luku 10 - Ajan testin läpäiseminen  
 
-- Luku 5 - Miten Bitcoin-lompakot toimivat?
-- 6 luku - Turvallisuuden valitseminen
-- Luku 7 - Lompakon määrittäminen
-- 8 luku - Suojautuminen ajalta
+**Osio 4 - Bitcoinin tekniset näkökohdat**  
+- Luku 11 - Bitcoinin käynnistäminen  
+- Luku 12 - Bitcoin-tapahtumat  
+- Luku 13 - Bitcoin-solmut  
+- Luku 14 - Louhijat  
+- Luku 15 - Bitcoin ja ekologia  
 
-**Luku 3 - Bitcoinin tekniset ominaisuudet**
+**Osio 5 - Miten hankkia bitcoineja?**  
+- Luku 16 - Bitcoin ei koskaan nuku!  
+- Luku 17 - Bitcoinien ansaitseminen työn kautta  
+- Luku 18 - Säästäminen Bitcoinilla  
+- Luku 19 - Hyperbitcoinisaatio  
 
-- 9 luku - Mikä on transaktio?
-- Luku 10 - Bitcoin-solmut
-- 11 luku - Kaivosmiehet
-- 12 luku - Kaivosmiehet ja ekologia
-
-**Luku 4 - Tallentaminen Bitcoinissa**
-
-- Luku 13 - Bitcoinin hinta
-- Luku 14 - Miten Bitcoinia voi ostaa?
-- Luku 15 - Työskentely Bitcoinin hyväksi
-- Luku 16 - Hyper-bitcoinisaatio
-
-**Luku 5 - Salamaverkko**
-
-- Luku 17 - Johdatus salamaverkkoon
-- Luku 18 - Salamaverkon käyttötapaukset
+**Osio 6 - Bitcoinin tulevaisuus: Lightning Network**  
+- Luku 20 - Lyhyt johdanto Lightning Networkiin  
+- Luku 21 - Lightning Network -käyttötapaukset  
+- Luku 22 - Punainen pilleri vai sininen pilleri?  
 
 Ennen kuin esitellään rahan määritelmä ja sen tehtävä yhteiskunnassa (luku 1), on syytä aloittaa Bitcoinin synnystä. Vuonna 2009 lanseerattu Bitcoin on suhteellisen uusi teknologia, joka eroaa kaikesta muusta. Siksi on normaalia, ettei siitä ymmärrä kaikkea kerralla. Itse asiassa, aivan kuten internetin käytön tai auton ajamisen opettelun yhteydessä, sinun ei tarvitse tietää kaikkia teknisiä yksityiskohtia heti: voit aloittaa opettelemalla, miten varoja vastaanotetaan, maksetaan ja turvataan, ja tutkia sitä sitten pienin askelin syvällisemmin.
 
@@ -79,6 +80,8 @@ Loppujen lopuksi olemme vasta sen käyttöönoton alkuvaiheessa, sillä olemme o
 ![image](assets/en/02.webp)
 
 Tärkeintä on ymmärtää tätä uutta teknologiaa yleisellä tasolla, joten toivomme, että nautit tästä kurssista ja edistyt edelleen tässä uudessa globaalissa rahaparadigmassa.
+
+Oletko valmis sukeltamaan Bitcoinin kiehtovaan maailmaan ja ymmärtämään sen kaikki toimintamekanismit? Lähdetään liikkeelle!
 
 ## Bitcoinin esihistoria
 
@@ -516,7 +519,7 @@ Onneksi vuodesta 2017 lähtien yksityinen avain voidaan esittää yksinkertaisel
 
 ### Entä hakkerit?
 
-Entä jos joku vahingossa arvaa 12 tai 24 sanan listamme? Lyhyt vastaus on, että se on erittäin epätodennäköistä lompakon luomisessa käytetyn salauksen ansiosta. Jos asiaa tarkastellaan oikeassa mittasuhteessa, saman muistisäännön löytäminen vahingossa on sama asia kuin "oikean" luvun löytäminen 1:n ja $2^256$:n väliltä, mikä vastaa melkeinpä "oikean" atomin löytämistä maailmankaikkeudesta. Jos et kuitenkaan ole tyytyväinen tähän oletusturvaan, voit aina parantaa sitä lisäämällä Bitcoin-lompakkoosi tunnuslauseen (ylimääräisen sanan).
+Entä jos joku vahingossa arvaa 12 tai 24 sanan listamme? Lyhyt vastaus on, että se on erittäin epätodennäköistä lompakon luomisessa käytetyn salauksen ansiosta. Jos asiaa tarkastellaan oikeassa mittasuhteessa, saman muistisäännön löytäminen vahingossa on sama asia kuin "oikean" luvun löytäminen 1:n ja 2 potenssiin 256:n väliltä, mikä vastaa melkeinpä "oikean" atomin löytämistä maailmankaikkeudesta. Jos et kuitenkaan ole tyytyväinen tähän oletusturvaan, voit aina parantaa sitä lisäämällä Bitcoin-lompakkoosi tunnuslauseen (ylimääräisen sanan).
 
 ![image](assets/en/29.webp)
 
@@ -557,15 +560,18 @@ Seuraavassa määritellään useita turvallisuustasoja:
 
 Voit esimerkiksi käyttää Sparrow-lompakkoa kuumana lompakkona:
 
-https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - Taso 2\*\*, käytät fyysistä lompakkoa ja olet varmistanut 12/24 sanan luettelon. Sitä kutsutaan usein "kylmäksi lompakoksi", koska avaimesi on tallennettu laitteeseen, joka ei ole yhteydessä internetiin. Tässä tapauksessa sinun on aina allekirjoitettava jokainen maksutapahtuma laitteellasi, jolloin varojesi päivittäinen saatavuus heikkenee.
 
 Voit käyttää esimerkiksi Ledgeriä, Satochipiä tai Tapsigneria:
 
 https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
 https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+
 https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+
 ![image](assets/en/32.webp)
 
 - Taso 3**, käytät tason 1 tai 2 lompakkoa, mutta olet lisännyt ylimääräisen salasanan. Tässä tapauksessa sinun on otettava varmuuskopio sekä 12/24 sanan luettelosta **että\*\* tunnuslauseestasi. Ihannetapauksessa nämä kaksi tietoa tallennetaan kahteen eri paikkaan.
@@ -573,6 +579,7 @@ https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 Saat lisätietoja BIP39-salasanan käytöstä ja toiminnasta:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
 ![image](assets/en/33.webp)
 
 - Taso 4\*\*, käytät useita lompakoita luodaksesi "multisig"-lompakon, mikä tarkoittaa, että tapahtuman suorittamiseen tarvitaan useita allekirjoituksia. Tässä tapauksessa on huomioitava, että multisigin jokainen osa on tallennettava eri paikkoihin. Tätä lähestymistapaa pidetään usein Bitcoinin edistyneenä käyttönä, lähinnä suurten määrien hallintaan ja yrityskäyttöön.
@@ -829,7 +836,7 @@ Kun haluat asentaa oman solmun, käytettävissä on useita vaihtoehtoja, joiden 
 
 ![image](assets/en/53.webp)
 
-Toinen vaihtoehto on käyttää tähän tarkoitukseen tarkoitettua laitteistoa, kuten Raspberry Pi 4:ää, jossa on riittävän suuri SSD-levy (noin ~1TB). Tämä toinen vaihtoehto on kalliimpi, jos joudut ostamaan laitteiston, mutta sähkönkulutuksen osalta se on hieman alle 10,00 euroa vuodessa.
+Toinen vaihtoehto on käyttää tähän tarkoitukseen tarkoitettua laitteistoa, kuten Raspberry Pi 4:ää, jossa on riittävän suuri SSD-levy (noin ~2TB). Tämä toinen vaihtoehto on kalliimpi, jos joudut ostamaan laitteiston, mutta sähkönkulutuksen osalta se on hieman alle 10,00 euroa vuodessa.
 
 Kaistanleveyden näkökulmasta katsottuna, kun otetaan huomioon 1 1MB:n lohko 10 minuutin välein, se vastaa noin 5GB kuukaudessa.
 
@@ -1044,6 +1051,8 @@ Nykyään Bitcoin jatkaa selviytymistään ja kasvuaan entisestään integroitum
 
 ![image](assets/en/71.webp)
 
+
+
 ## Bitcoinsin hankkiminen työskentelemällä
 
 <chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>
@@ -1074,13 +1083,17 @@ Käsittelemme tätä aihetta yksityiskohtaisesti toisella kurssilla, mutta yksin
 
 - Yksinkertainen online-ratkaisu: OpenNode
 
-https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - Ratkaisu amatöörikauppiaille: Bitcoin Pay
 
-https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Ratkaisu suurille rakenteille tai intohimoisille bitcoin-asiakkaille: BTCpay Server
+
+Tämän aiheen syvällisempään ymmärtämiseen suosittelemme koulutustamme BIZ101! Opi, kuinka voit tehokkaasti integroida bitcoinit yrityksesi kassavirtaan, hyväksyä bitcoin maksutapana organisaatiosi profiilin mukaan ja ymmärtää asiaan liittyvät vero- ja kirjanpitovaatimukset:
+
+https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## Säästäminen Bitcoinilla
 
@@ -1122,6 +1135,8 @@ Asteittaiseen strategiaan kuuluu toistuvat ostot, eli pienten Bitcoin-määrien 
 ![image](assets/en/74.webp)
 
 **Varokaa UTXO:ta**: Muista aika ajoin konsolidoida UTXO:t lompakkoihisi. Tämä käytäntö on välttämätön, jotta voit hallita bitcoinejasi tehokkaasti ja välttää turhat maksut transaktioiden aikana.
+
+[UTXO](https://planb.network/resources/glossary/utxo#:~:text=UTXO) (Unspent Transaction Output) on transaktion ulosmeno, jota ei ole vielä käytetty, mikä tarkoittaa, että sitä ei ole käytetty uuden transaktion sisäänmenona. UTXOjen konsolidointi tarkoittaa useiden pienten UTXOjen yhdistämistä yhdeksi suuremmaksi, jotta transaktion "painoa" voidaan vähentää ja siten maksaa alhaisempia maksuja.
 
 - Spontaani osto
 
@@ -1348,7 +1363,7 @@ Satoshi loi Bitcoinin vuonna 2008 ehdottaakseen rahoitusjärjestelmän muuttamis
 
 Oletko valmis liittymään?
 
-# Päätelmä
+# Lopullinen osio
 
 <partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 

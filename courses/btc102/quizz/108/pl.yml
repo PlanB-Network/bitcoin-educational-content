@@ -1,0 +1,10 @@
+question: Co należy zrobić po przechowaniu koperty zgodnie z rozdziałem?
+answer: Upewnij się, że spadkobiercy wiedzą, że w razie potrzeby muszą odzyskać tę kopertę.
+wrong_answers:
+  - Upewnij się, że spadkobiercy nie wiedzą, że w razie potrzeby muszą odzyskać tę kopertę.
+  - Upewnij się, że spadkobiercy wiedzą, że w razie potrzeby nie muszą odzyskiwać tej koperty.
+  - Upewnij się, że spadkobiercy nie wiedzą, że nie muszą odzyskać tej koperty
+explanation: |
+  Po przechowaniu koperty należy upewnić się, że spadkobiercy wiedzą, że
+  muszą odzyskać tę kopertę w razie potrzeby, zgodnie z sugestiami zawartymi w tym rozdziale.
+reviewed: false

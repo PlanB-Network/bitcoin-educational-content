@@ -6,5 +6,3 @@ description: |
   ACINQ on merkittävä toimija ja likviditeetin tarjoaja Lightning-verkossa. Pyöritämme verkoston suurinta solmua, jossa hyödynnämme Lightning-osaamistamme.
 
   Olemme myös Phoenixin, huippumodernin itsehallinnollisen Bitcoin Lightning -lompakon, kehittäjiä.
-contributors:
-  - rabbit-hole

@@ -1,0 +1,9 @@
+question: Bitcoin 交易對輸入的 UTXO 有何作用？
+answer: 它消耗它們來滿足輸出。
+wrong_answers:
+  - 它會將資料存檔到 Blockchain 中，以供日後參考。
+  - 它會加密這些資料，以確保交易安全。
+  - 它會複製它們來建立新的 UTXO。
+explanation: |
+  交易中的輸入 UTXO 被消耗，以便為輸出提供資金。在某種程度上，這是資金的來源。
+reviewed: false

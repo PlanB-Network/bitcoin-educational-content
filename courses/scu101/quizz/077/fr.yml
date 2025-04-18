@@ -1,0 +1,9 @@
+question: Pourquoi est-il essentiel de sécuriser sa boîte mail ?
+answer: Parce qu'elle permet de réinitialiser vos mots de passe
+wrong_answers:
+  - Parce qu'elle sert à recevoir des newsletters
+  - Parce qu'elle contient l'intégralité de vos mots de passe
+  - Parce qu'elle contient vos données bancaires
+explanation: |
+  La boîte mail est le point d'accès central pour récupérer les mots de passe et compromettre plusieurs comptes en cas de faille.
+reviewed: false

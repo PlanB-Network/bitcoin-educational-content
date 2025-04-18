@@ -1,0 +1,23 @@
+id: a769742c-c047-4317-b36d-cd4aab3e02da
+year: 2024-08
+name: Baltic Honeybadger 2024
+location: Riga, Latvia
+language:
+  - en
+links:
+  twitter: https://x.com/hodlhodl
+  website: https://baltichoneybadger.com/
+project_id: 5e8b6610-44b7-4a69-be02-a5c62187dd02
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: "2025-03-04"
+    urgency: 0
+    contributor_names:
+      - PaoloFoti
+    reward: 0.05
+tags:
+  - adoption
+  - cypherpunk
+  - future-outlook
+

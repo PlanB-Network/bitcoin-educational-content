@@ -1,0 +1,9 @@
+question: Co je správce hesel?
+answer: Nástroj, který ukládá, generuje a spravuje hesla.
+wrong_answers:
+  - Antivirový software proti hackerským útokům.
+  - Bezpečná e-mailová služba.
+  - Nástroj pro zálohování osobních identifikačních údajů.
+explanation: |
+  Správce hesel centralizuje ukládání a tvorbu hesel.
+reviewed: false

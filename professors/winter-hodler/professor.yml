@@ -8,14 +8,14 @@ links:
   nostr: winterhodler@agora256.com
   website: https://agora256.com
 
-tags:
-  - bitcoin
-  - privacy
-
 tips:
   lightning_address: agora256@getalby.com
 
 company: agora256
 
 affiliations:
-  - agora256
+  - 64f64e0a-7788-46cf-be46-c781b4ec259e
+tags:
+  - cypherpunk
+  - self-sovereignty
+  - finance

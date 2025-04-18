@@ -21,6 +21,33 @@ Nyt oppdagelsen!
 
 +++
 
+# Introduksjon
+<partId>9da7290a-3895-49a2-93ea-2a6272ca4af4</partId>
+
+## Kursoversikt
+<chapterId>f2e71062-5121-4114-a7f8-27df69884ce8</chapterId>
+
+Velkommen til LNP201-kurset!
+
+Dette kurset har som mål å gi deg en dyptgående teknisk forståelse av Lightning Network, et overlagringsnettverk designet for å muliggjøre raske og ofte rimelige bitcoin-transaksjoner. Du vil gradvis oppdage de grunnleggende konseptene som styrer dette systemet, fra åpning av betalingskanaler til rutingsteknikker og likviditetsstyring.
+
+**Del 1: Grunnleggende prinsipper**  
+Vi starter med en generell introduksjon til Lightning Network, hvor vi etablerer essensielle grunnprinsipper om Bitcoin, dets adresser, UTXO-er og hvordan transaksjoner fungerer. Denne gjennomgangen er nødvendig for å forstå hvordan Lightning Network bygger på mekanismene i grunnblokkjedeteknologien for å fungere trygt.
+
+**Del 2: Åpning og lukking av kanaler**  
+I denne delen vil vi utforske prosessen med å åpne kanaler, som er selve grunnmuren i Lightning Network. Du vil lære hvordan forpliktelsestransaksjoner opprettes, hvilken rolle tilbakekallingsnøkler spiller for sikkerhet, og hvordan kanaler kan lukkes enten samarbeidsvillig eller ensidig. Hvert trinn blir forklart nøye og teknisk slik at du kan forstå alle detaljene.
+
+**Del 3: Et likviditetsnettverk**  
+Lightning Network er ikke begrenset til enkeltkanaler; det er et ekte betalingsnettverk. Vi vil se hvordan transaksjoner kan dirigeres gjennom mellomliggende noder ved hjelp av HTLC-er. Denne delen vil også introdusere deg for utfordringene med innkommende og utgående likviditet.
+
+**Del 4: Lightning Network-verktøy**  
+Denne delen presenterer praktiske verktøy for Lightning Network, som *Invoices*, *LNURL* og *Keysend*. Du vil også lære å administrere likviditeten i dine kanaler, som er viktig for å sikre smidige betalinger og maksimere effektiviteten av dine transaksjoner på Lightning.
+
+**Del 5: Gå videre**  
+Til slutt vil vi oppsummere de behandlede konseptene og åpne veien for mer avanserte emner for de som ønsker å utdype sin kunnskap om Lightning Network.
+
+Klar til å oppdage de tekniske mekanismene i Lightning Network? La oss sette i gang!
+
 # Grunnleggende
 
 <partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>
@@ -28,10 +55,8 @@ Nyt oppdagelsen!
 ## Forstå Lightning Network
 
 <chapterId>df6230ae-ff35-56ea-8651-8e65580730a8</chapterId>
-![video en](https://youtu.be/QDQ8NG0l3hk)
+:::video id=ba99951f-81d2-418f-b5e7-4b8c9f8b8cc8:::
 
-
-Velkommen til LNP201-kurset, som har som mål å forklare den tekniske funksjonen til Lightning Network.
 
 Lightning Network er et nettverk av betalingskanaler bygget på toppen av Bitcoin-protokollen, med mål om å muliggjøre raske og kostnadseffektive transaksjoner. Det tillater opprettelsen av betalingskanaler mellom deltakere, hvor transaksjoner kan gjøres nesten øyeblikkelig og med minimale gebyrer, uten å måtte registrere hver transaksjon individuelt på blockchainen. Dermed søker Lightning Network å forbedre Bitcoins skalerbarhet og gjøre den brukbar for betalinger av lav verdi.
 
@@ -85,7 +110,7 @@ Dette er slutten på dette første kapittelet, hvor vi har lagt grunnlaget for L
 ## Bitcoin, adresser, UTXO og transaksjoner
 
 <chapterId>0cfb7e6b-96f0-508b-9210-90bc1e28649d</chapterId>
-![video en](https://youtu.be/U9l5IVriCss)
+:::video id=75323eef-ea03-45ac-9a6e-46d73ca255de:::
 
 Dette kapittelet er litt spesielt siden det ikke vil være direkte viet til Lightning, men til Bitcoin. Faktisk er Lightning Network et lag på toppen av Bitcoin. Det er derfor essensielt å forstå visse grunnleggende konsepter av Bitcoin for å ordentlig forstå hvordan Lightning fungerer i de påfølgende kapitlene. I dette kapittelet vil vi gå gjennom grunnleggende om Bitcoin mottaksadresser, UTXOer, samt funksjonen til Bitcoin-transaksjoner.
 
@@ -150,7 +175,7 @@ Dette kapittelet om Bitcoin har tillatt oss å gjennomgå noen essensielle begre
 ## Kanalåpning
 
 <chapterId>96243eb0-f6b5-5b68-af1f-fffa0cc16bfe</chapterId>
-![video en](https://youtu.be/Ty80WuN5X-g)
+:::video id=6098fee1-735e-4d8d-9f57-0faf5fef6d76:::
 
 
 I dette kapittelet vil vi se mer presist hvordan man åpner en betalingskanal på Lightning Network og forstå koblingen mellom denne operasjonen og det underliggende Bitcoin-systemet.
@@ -174,27 +199,27 @@ Det er verdt å merke seg at en Lightning-node kan kommunisere via P2P-protokoll
 
 ### Steg for å åpne en Lightning-kanal
 
-1. **Meldingsutveksling**: Alice ønsker å åpne en kanal med Bob. Hun sender ham en melding som inneholder beløpet hun ønsker å sette inn i kanalen (130 000 sats) og hennes offentlige nøkkel. Bob svarer ved å dele sin egen offentlige nøkkel.
+- **Meldingsutveksling**: Alice ønsker å åpne en kanal med Bob. Hun sender ham en melding som inneholder beløpet hun ønsker å sette inn i kanalen (130 000 sats) og hennes offentlige nøkkel. Bob svarer ved å dele sin egen offentlige nøkkel.
 
 ![LNP201](assets/en/11.webp)
 
-2. **Opprettelse av multisignaturadressen**: Med disse to offentlige nøklene skaper Alice en **2/2 multisignaturadresse**, noe som betyr at midlene som senere blir satt inn på denne adressen vil kreve begge signaturene (Alice og Bob) for å bli brukt.
+- **Opprettelse av multisignaturadressen**: Med disse to offentlige nøklene skaper Alice en **2/2 multisignaturadresse**, noe som betyr at midlene som senere blir satt inn på denne adressen vil kreve begge signaturene (Alice og Bob) for å bli brukt.
 
 ![LNP201](assets/en/12.webp)
 
-3. **Innskuddstransaksjon**: Alice forbereder en Bitcoin-transaksjon for å sette inn midler på denne multisignaturadressen. For eksempel kan hun bestemme seg for å sende **130 000 satoshier** til denne multisignaturadressen. Denne transaksjonen er **konstruert, men ikke ennå publisert** på blokkjeden.
+- **Innskuddstransaksjon**: Alice forbereder en Bitcoin-transaksjon for å sette inn midler på denne multisignaturadressen. For eksempel kan hun bestemme seg for å sende **130 000 satoshier** til denne multisignaturadressen. Denne transaksjonen er **konstruert, men ikke ennå publisert** på blokkjeden.
 
 ![LNP201](assets/en/13.webp)
 
-4. **Uttakstransaksjon**: Før hun publiserer innskuddstransaksjonen, konstruerer Alice en uttakstransaksjon slik at hun kan gjenvinne sine midler i tilfelle et problem med Bob. Faktisk, når Alice publiserer innskuddstransaksjonen, vil hennes sats være låst på en 2/2 multisignaturadresse som krever begge hennes signatur og Bobs signatur for å bli låst opp. Alice beskytter seg mot dette tapet ved å konstruere uttakstransaksjonen som lar henne gjenvinne sine midler.
+- **Uttakstransaksjon**: Før hun publiserer innskuddstransaksjonen, konstruerer Alice en uttakstransaksjon slik at hun kan gjenvinne sine midler i tilfelle et problem med Bob. Faktisk, når Alice publiserer innskuddstransaksjonen, vil hennes sats være låst på en 2/2 multisignaturadresse som krever begge hennes signatur og Bobs signatur for å bli låst opp. Alice beskytter seg mot dette tapet ved å konstruere uttakstransaksjonen som lar henne gjenvinne sine midler.
 
 ![LNP201](assets/en/14.webp)
 
-5. **Bobs signatur**: Alice sender innskuddstransaksjonen til Bob som bevis og ber ham om å signere uttakstransaksjonen. Når Bobs signatur er oppnådd på uttakstransaksjonen, er Alice sikret at hun kan gjenvinne sine midler når som helst, ettersom nå kun hennes egen signatur er nødvendig for å låse opp multisignaturen.
+- **Bobs signatur**: Alice sender innskuddstransaksjonen til Bob som bevis og ber ham om å signere uttakstransaksjonen. Når Bobs signatur er oppnådd på uttakstransaksjonen, er Alice sikret at hun kan gjenvinne sine midler når som helst, ettersom nå kun hennes egen signatur er nødvendig for å låse opp multisignaturen.
 
 ![LNP201](assets/en/15.webp)
 
-6. **Publisering av innskuddstransaksjonen**: Når Bobs signatur er oppnådd, kan Alice publisere innskuddstransaksjonen på Bitcoin-blokkjeden, og dermed offisielt åpne Lightning-kanalen mellom de to brukerne.
+- **Publisering av innskuddstransaksjonen**: Når Bobs signatur er oppnådd, kan Alice publisere innskuddstransaksjonen på Bitcoin-blokkjeden, og dermed offisielt åpne Lightning-kanalen mellom de to brukerne.
 
 ![LNP201](assets/en/16.webp)
 
@@ -213,7 +238,7 @@ I neste kapittel vil vi utforske den tekniske funksjonen av en Lightning-transak
 ## Forpliktelsestransaksjon
 
 <chapterId>7d3fd135-129d-5c5a-b306-d5f2f1e63340</chapterId>
-![video en](https://youtu.be/dzPMGiR_JSE)
+:::video id=c17454f3-14c5-47a0-8c9c-42ee12932bd3:::
 
 
 I dette kapittelet vil vi oppdage den tekniske funksjonen av en transaksjon innenfor en kanal på Lightning-nettverket, det vil si når midler flyttes fra den ene siden av kanalen til den andre.
@@ -269,7 +294,7 @@ Imidlertid har dette systemet en potensiell feil, som vi vil adressere i neste k
 ## Tilbakekallingsnøkkel
 
 <chapterId>f2f61e5b-badb-5947-9a81-7aa530b44e59</chapterId>
-![video en](https://youtu.be/veCs39uVFUk)
+:::video id=1d850f23-eff1-4725-b284-ce12456a2c26:::
 I dette kapittelet vil vi gå dypere inn i hvordan transaksjoner fungerer på Lightning Network ved å diskutere mekanismene som er på plass for å beskytte mot juks, og sikre at hver part følger reglene innenfor en kanal.
 
 ### Påminnelse: Forpliktelsestransaksjoner
@@ -301,8 +326,8 @@ Enda verre, Alice kunne publisere den aller første uttakstransaksjonen, den fø
 
 For å forhindre denne typen juks fra Alice, på Lightning Network, legges **sikkerhetsmekanismer** til forpliktelsestransaksjonene:
 
-1. **Tidsbegrensningen**: Hver forpliktelsestransaksjon inkluderer en tidsbegrensning for Alices midler. Tidsbegrensningen er en smart kontrakt-primitiv som setter en tidsbetingelse som må oppfylles for at en transaksjon skal legges til i en blokk. Dette betyr at Alice ikke kan gjenopprette sine midler før et visst antall blokker har passert hvis hun publiserer en av forpliktelsestransaksjonene. Denne tidsbegrensningen begynner å gjelde fra bekreftelsen av forpliktelsestransaksjonen. Varigheten er generelt proporsjonal med størrelsen på kanalen, men den kan også manuelt konfigureres.
-2. **Tilbakekallingsnøkkelen**: Alices midler kan også umiddelbart brukes av Bob hvis han besitter **tilbakekallingsnøkkelen**. Denne nøkkelen består av en hemmelighet holdt av Alice og en hemmelighet holdt av Bob. Merk at denne hemmeligheten er forskjellig for hver forpliktelsestransaksjon.
+- **Tidsbegrensningen**: Hver forpliktelsestransaksjon inkluderer en tidsbegrensning for Alices midler. Tidsbegrensningen er en smart kontrakt-primitiv som setter en tidsbetingelse som må oppfylles for at en transaksjon skal legges til i en blokk. Dette betyr at Alice ikke kan gjenopprette sine midler før et visst antall blokker har passert hvis hun publiserer en av forpliktelsestransaksjonene. Denne tidsbegrensningen begynner å gjelde fra bekreftelsen av forpliktelsestransaksjonen. Varigheten er generelt proporsjonal med størrelsen på kanalen, men den kan også manuelt konfigureres.
+- **Tilbakekallingsnøkkelen**: Alices midler kan også umiddelbart brukes av Bob hvis han besitter **tilbakekallingsnøkkelen**. Denne nøkkelen består av en hemmelighet holdt av Alice og en hemmelighet holdt av Bob. Merk at denne hemmeligheten er forskjellig for hver forpliktelsestransaksjon.
    Takket være disse to kombinerte mekanismene, har Bob tid til å oppdage Alices forsøk på å jukse, og straffe henne ved å hente ut sitt resultat med tilbakekallingsnøkkelen, noe som for Bob betyr å gjenvinne alle midlene i kanalen. Vår nye forpliktelsestransaksjon vil nå se slik ut:
    ![LNP201](assets/en/25.webp)
 
@@ -317,11 +342,11 @@ Når Alice og Bob oppdaterer tilstanden til kanalen med en ny Lightning-transaks
 
 La oss ta et eksempel for å forstå denne prosessen godt:
 
-1. **Opprinnelig Tilstand**: Alice har **100,000 satoshis**, Bob **30,000 satoshis**.
+- **Opprinnelig Tilstand**: Alice har **100,000 satoshis**, Bob **30,000 satoshis**.
 
 ![LNP201](assets/en/26.webp)
 
-2. Bob ønsker å motta 40,000 satoshis fra Alice via deres Lightning-kanal. For å gjøre dette:
+- Bob ønsker å motta 40,000 satoshis fra Alice via deres Lightning-kanal. For å gjøre dette:
    - Han sender henne en faktura sammen med sin hemmelighet for tilbakekallingsnøkkelen til hans forrige forpliktelsestransaksjon.
    - Som svar gir Alice sin signatur for Bobs nye forpliktelsestransaksjon, samt hennes hemmelighet for tilbakekallingsnøkkelen til hennes forrige transaksjon.
    - Til slutt sender Bob sin signatur for Alices nye forpliktelsestransaksjon.
@@ -329,7 +354,7 @@ La oss ta et eksempel for å forstå denne prosessen godt:
 
 ![LNP201](assets/en/27.webp)
 
-3. Hvis Alice forsøker å publisere den gamle forpliktelsestransaksjonen der hun fortsatt eide **100,000 satoshis**, kan Bob, etter å ha fått tilbakekallingsnøkkelen, umiddelbart gjenvinne midlene ved å bruke denne nøkkelen, mens Alice er blokkert av tidsbegrensningen.
+- Hvis Alice forsøker å publisere den gamle forpliktelsestransaksjonen der hun fortsatt eide **100,000 satoshis**, kan Bob, etter å ha fått tilbakekallingsnøkkelen, umiddelbart gjenvinne midlene ved å bruke denne nøkkelen, mens Alice er blokkert av tidsbegrensningen.
 
 ![LNP201](assets/en/28.webp)
 
@@ -345,7 +370,7 @@ På dette tidspunktet i opplæringen vet du nå hvordan Lightning-kanaler åpnes
 ## Kanallukking
 
 <chapterId>29a72223-2249-5400-96f0-3756b1629bc2</chapterId>
-![video en](https://youtu.be/zmAa2fj_V7w)
+:::video id=4d8ad4e6-32ff-46d3-bd17-343929aa863b:::
 
 
 I dette kapittelet skal vi diskutere **å lukke en kanal** på Lightning-nettverket, som gjøres gjennom en Bitcoin-transaksjon, akkurat som å åpne en kanal. Etter å ha sett hvordan transaksjoner innenfor en kanal fungerer, er det nå på tide å se hvordan man lukker en kanal og gjenoppretter midlene på Bitcoin-blokkjeden.
@@ -360,9 +385,9 @@ I dette kapittelet skal vi diskutere **å lukke en kanal** på Lightning-nettver
 
 Det er tre hovedmåter å lukke denne kanalen på, som kan kalles **den gode, den brutale og den unnvikende** (inspirert av Andreas Antonopoulos i _Mastering the Lightning Network_):
 
-1. **Den Gode**: den **kooperative lukkingen**, hvor Alice og Bob er enige om å lukke kanalen.
-2. **Den Dårlige**: den **tvungne lukkingen**, hvor en av partene bestemmer seg for å lukke kanalen ærlig, men uten den andres samtykke.
-3. **Den Stygge**: lukkingen med **juks**, hvor en av partene forsøker å stjele midler ved å publisere en gammel forpliktelsestransaksjon (enhver, men ikke den siste, som reflekterer den faktiske og rettferdige fordelingen av midler).
+- **Den Gode**: den **kooperative lukkingen**, hvor Alice og Bob er enige om å lukke kanalen.
+- **Den Dårlige**: den **tvungne lukkingen**, hvor en av partene bestemmer seg for å lukke kanalen ærlig, men uten den andres samtykke.
+- **Den Stygge**: lukkingen med **juks**, hvor en av partene forsøker å stjele midler ved å publisere en gammel forpliktelsestransaksjon (enhver, men ikke den siste, som reflekterer den faktiske og rettferdige fordelingen av midler).
 
 La oss ta et eksempel:
 
@@ -375,13 +400,13 @@ La oss ta et eksempel:
 
 I en **kooperativ lukking** er Alice og Bob enige om å lukke kanalen. Slik går det til:
 
-1. Alice sender en melding til Bob via Lightning-kommunikasjonsprotokollen for å foreslå å lukke kanalen.
-2. Bob er enig, og de to partene gjør ingen ytterligere transaksjoner i kanalen.
+- Alice sender en melding til Bob via Lightning-kommunikasjonsprotokollen for å foreslå å lukke kanalen.
+- Bob er enig, og de to partene gjør ingen ytterligere transaksjoner i kanalen.
 
 ![LNP201](assets/en/31.webp)
 
-3. Alice og Bob forhandler sammen om gebyrene for **lukkingstransaksjonen**. Disse gebyrene beregnes generelt basert på Bitcoin-gebyrmarkedet på tidspunktet for lukking. Det er viktig å merke seg at **det alltid er personen som åpnet kanalen** (Alice i vårt eksempel) som betaler lukkegebyrene.
-4. De konstruerer en ny **lukkingstransaksjon**. Denne transaksjonen ligner en forpliktelsestransaksjon, men uten tidsbegrensninger eller tilbakekallingsmekanismer, siden begge parter samarbeider og det er ingen risiko for juks. Denne kooperative lukkingstransaksjonen er derfor forskjellig fra forpliktelsestransaksjoner.
+- Alice og Bob forhandler sammen om gebyrene for **lukkingstransaksjonen**. Disse gebyrene beregnes generelt basert på Bitcoin-gebyrmarkedet på tidspunktet for lukking. Det er viktig å merke seg at **det alltid er personen som åpnet kanalen** (Alice i vårt eksempel) som betaler lukkegebyrene.
+- De konstruerer en ny **lukkingstransaksjon**. Denne transaksjonen ligner en forpliktelsestransaksjon, men uten tidsbegrensninger eller tilbakekallingsmekanismer, siden begge parter samarbeider og det er ingen risiko for juks. Denne kooperative lukkingstransaksjonen er derfor forskjellig fra forpliktelsestransaksjoner.
    For eksempel, hvis Alice eier **100,000 satoshis** og Bob **30,000 satoshis**, vil den avsluttende transaksjonen sende **100,000 satoshis** til Alices adresse og **30,000 satoshis** til Bobs adresse, uten tidsbegrensninger. Når denne transaksjonen er signert av begge parter, publiseres den av Alice. Når transaksjonen er bekreftet på Bitcoin-blockchainen, vil Lightning-kanalen offisielt være lukket.
    ![LNP201](assets/en/32.webp)
 
@@ -418,9 +443,9 @@ Bob, for å forhindre dette juks, overvåker Bitcoin-blockchainen og dens mempoo
 
 Det er tre måter å lukke en kanal på:
 
-1. **Samarbeidslukking**: Rask og mindre kostbar, hvor begge parter er enige om å lukke kanalen og publisere en skreddersydd avsluttende transaksjon.
-2. **Tvungen Lukking**: Mindre ønskelig, ettersom den er avhengig av å publisere en forpliktelsestransaksjon, med potensielt uegnede gebyrer og en tidsbegrensning, som bremser ned lukkingen.
-3. **Juks**: Hvis en av partene prøver å stjele midler ved å publisere en gammel transaksjon, kan den andre bruke tilbakekallingsnøkkelen til å straffe dette juksinget.
+- **Samarbeidslukking**: Rask og mindre kostbar, hvor begge parter er enige om å lukke kanalen og publisere en skreddersydd avsluttende transaksjon.
+- **Tvungen Lukking**: Mindre ønskelig, ettersom den er avhengig av å publisere en forpliktelsestransaksjon, med potensielt uegnede gebyrer og en tidsbegrensning, som bremser ned lukkingen.
+- **Juks**: Hvis en av partene prøver å stjele midler ved å publisere en gammel transaksjon, kan den andre bruke tilbakekallingsnøkkelen til å straffe dette juksinget.
    I de kommende kapitlene vil vi utforske Lightning Network fra et bredere perspektiv, med fokus på hvordan nettverket opererer.
 
 # Et Likviditetsnettverk
@@ -430,7 +455,7 @@ Det er tre måter å lukke en kanal på:
 ## Lightning Network
 
 <chapterId>45a7252c-fa4f-554b-b8bb-47449532918e</chapterId>
-![video en](https://youtu.be/44oBdNdXtEQ)
+:::video id=38419c23-5592-4573-b0a7-84824a5bfb77:::
 
 
 I dette kapittelet skal vi utforske hvordan betalinger på Lightning Network kan nå en mottaker selv om de ikke er direkte koblet gjennom en betalingskanal. Lightning er faktisk et **nettverk av betalingskanaler**, som tillater at midler sendes til en fjern node gjennom kanalene til andre deltakere. Vi vil oppdage hvordan betalinger rutes gjennom nettverket, hvordan likviditet beveger seg mellom kanaler, og hvordan transaksjonsgebyrer beregnes.
@@ -452,8 +477,8 @@ Hvis Alice ønsker å sende midler til Bob uten å åpne en direkte kanal med ha
 
 Anta at Alice ønsker å sende **50,000 satoshis** til Bob:
 
-1. **Alice** sender 50,000 satoshis til **Suzie** i deres felles kanal.
-2. **Suzie** replikerer denne overføringen ved å sende 50,000 satoshis til **Bob** i deres kanal.
+- **Alice** sender 50,000 satoshis til **Suzie** i deres felles kanal.
+- **Suzie** replikerer denne overføringen ved å sende 50,000 satoshis til **Bob** i deres kanal.
 
 ![LNP201](assets/en/38.webp)
 Således blir betalingen sendt til Bob via en bevegelse av likviditet i hver kanal. Ved slutten av operasjonen, ender Alice opp med 50 000 sats. Hun har faktisk overført 50 000 sats siden hun opprinnelig hadde 100 000. Bob, på sin side, ender opp med en ekstra 50 000 sats. For Suzie (den mellomliggende noden), er denne operasjonen nøytral: opprinnelig hadde hun 30 000 sats i sin kanal med Alice og 250 000 sats i sin kanal med Bob, en total på 280 000 sats. Etter operasjonen, holder hun 80 000 sats i sin kanal med Alice og 200 000 sats i sin kanal med Bob, som er det samme summen som i starten.
@@ -472,9 +497,9 @@ La oss ta et teoretisk eksempel på et annet nettverk med:
 Det maksimale Alice kan sende til Bob i denne konfigurasjonen er **90 000 satoshis**, ettersom hun er begrenset av den minste tilgjengelige likviditeten i kanalen fra **Suzie til Carol**. I motsatt retning (fra Bob til Alice) er ingen betaling mulig fordi **Suzies** side i kanalen med **Alice** ikke inneholder noen satoshis. Derfor er det **ingen rute** som kan brukes for en overføring i denne retningen.
 Alice sender **40 000 satoshis** til Bob gjennom kanalene:
 
-1. Alice overfører 40 000 satoshis til sin kanal med Suzie.
-2. Suzie overfører 40 000 satoshis til Carol i deres felles kanal.
-3. Carol overfører til slutt 40 000 satoshis til Bob.
+- Alice overfører 40 000 satoshis til sin kanal med Suzie.
+- Suzie overfører 40 000 satoshis til Carol i deres felles kanal.
+- Carol overfører til slutt 40 000 satoshis til Bob.
 
 ![LNP201](assets/en/40.webp)
 
@@ -490,8 +515,8 @@ Rollen til de mellomliggende nodene er derfor veldig viktig i funksjonen til Lig
 
 De mellomliggende nodene pålegger avgifter for å tillate betalinger å passere gjennom deres kanaler. Disse avgiftene er satt av **hver node for hver kanal**. Avgiftene består av 2 elementer:
 
-1. "**Base fee**": et fast beløp per kanal, ofte **1 sat** som standard, men tilpassbart.
-2. "**Variabel avgift**": en prosentandel av det overførte beløpet, beregnet i **deler per million (ppm)**. Som standard er den **1 ppm** (1 sat per million satoshier overført), men den kan også justeres.
+- "**Base fee**": et fast beløp per kanal, ofte **1 sat** som standard, men tilpassbart.
+- "**Variabel avgift**": en prosentandel av det overførte beløpet, beregnet i **deler per million (ppm)**. Som standard er den **1 ppm** (1 sat per million satoshier overført), men den kan også justeres.
    Avgiftene varierer også avhengig av overføringens retning. For eksempel, for en overføring fra Alice til Suzie, gjelder Alices avgifter. Omvendt, fra Suzie til Alice, brukes Suzies avgifter.
 
 For eksempel, for en kanal mellom Alice og Suzie, kunne vi ha:
@@ -534,16 +559,16 @@ For å rute en betaling fra avsenderen til mottakeren, bruker Lightning Network 
 - **Hver mellomliggende node kjenner bare sin umiddelbare nabo**: Suzie vet bare at hun mottok midler fra Alice og at hun må overføre dem til Carol. Suzie vet imidlertid ikke om Alice er kildenoden eller en mellomliggende node, og hun vet heller ikke om Carol er mottakernoden eller bare en annen mellomliggende node. Dette prinsippet gjelder også for Carol og alle andre noder på veien. Løkruting (Onion routing) bevarer dermed konfidensialiteten til transaksjonene ved å maskere identiteten til avsenderen og den endelige mottakeren. For å sikre at den sendende noden kan beregne en komplett rute til mottakeren i løkruting, må den opprettholde et **nettverkskart** for å kjenne sin topologi og bestemme mulige ruter.
   **Hva bør du ta med deg fra dette kapittelet?**
 
-1. På Lightning kan betalinger rutes mellom noder som ikke er direkte koblet gjennom mellomliggende kanaler. Hver av disse mellomliggende nodene letter likviditetsstafetten.
-2. Mellomliggende noder mottar en kommisjon for tjenesten sin, som består av faste og variable gebyrer.
-3. Løkruting lar den sendende noden beregne den komplette ruten uten at mellomliggende noder kjenner kilden eller det endelige bestemmelsesstedet.
+- På Lightning kan betalinger rutes mellom noder som ikke er direkte koblet gjennom mellomliggende kanaler. Hver av disse mellomliggende nodene letter likviditetsstafetten.
+- Mellomliggende noder mottar en kommisjon for tjenesten sin, som består av faste og variable gebyrer.
+- Løkruting lar den sendende noden beregne den komplette ruten uten at mellomliggende noder kjenner kilden eller det endelige bestemmelsesstedet.
 
 I dette kapittelet utforsket vi betalingsruting på Lightning-nettverket. Men et spørsmål oppstår: hva hindrer mellomliggende noder i å akseptere en innkommende betaling uten å videresende den til neste destinasjon, med mål om å avskjære transaksjonen? Dette er nettopp rollen til HTLC-er som vi vil studere i det følgende kapittelet.
 
 ## HTLC – Hashed Time Locked Contract
 
 <chapterId>4369b85a-1365-55d8-99e1-509088210116</chapterId>
-![video en](https://youtu.be/jI4nM297aHA)
+:::video id=6f204b92-55a5-4939-9440-7c5b96a297bf:::
 
 
 I dette kapittelet vil vi oppdage hvordan Lightning tillater betalinger å transittere gjennom mellomliggende noder uten å måtte stole på dem, takket være **HTLC** (_Hashed Time-Locked Contracts_). Disse smartkontraktene sikrer at hver mellomliggende node bare vil motta midlene fra sin kanal hvis den videresender betalingen til den endelige mottakeren, ellers vil ikke betalingen bli validert.
@@ -649,16 +674,16 @@ Til slutt, i tilfellet med en samarbeidsvillig kanallukking mens en HTLC er akti
 
 HTLC-er muliggjør ruting av Lightning-betalinger gjennom flere noder uten å måtte stole på dem. Her er de viktigste punktene å huske:
 
-1. HTLC-er sikrer sikkerheten til betalinger gjennom en hemmelighet (preimage) og en utløpstid.
-2. Løsningen eller utløpet av HTLC-er følger en spesifikk rekkefølge: deretter fra destinasjonen mot kilden, for å beskytte hver node.
-3. Så lenge en HTLC verken er løst eller utløpt, opprettholdes den som en utgang i de mest nylige forpliktelsestransaksjonene.
+- HTLC-er sikrer sikkerheten til betalinger gjennom en hemmelighet (preimage) og en utløpstid.
+- Løsningen eller utløpet av HTLC-er følger en spesifikk rekkefølge: deretter fra destinasjonen mot kilden, for å beskytte hver node.
+- Så lenge en HTLC verken er løst eller utløpt, opprettholdes den som en utgang i de mest nylige forpliktelsestransaksjonene.
 
 I neste kapittel vil vi oppdage hvordan en node som utsteder en Lightning-transaksjon finner og velger ruter for sin betaling for å nå mottakernoden.
 
 ## Finne Veien
 
 <chapterId>7e2ae959-c2a1-512e-b5d6-8fd962e819da</chapterId>
-![video en](https://youtu.be/CqetCElRjUQ)
+:::video id=e5baa834-111d-46f5-a28b-3538bed2bbb0:::
 
 
 I de foregående kapitlene så vi hvordan man kan bruke andre noders kanaler for å rute betalinger og nå en node uten å være direkte koblet til den via en kanal. Vi diskuterte også hvordan man sikrer sikkerheten til overføringen uten å stole på mellomliggende noder. I dette kapittelet vil vi fokusere på å finne den best mulige ruten for å nå en målnode.
@@ -712,9 +737,9 @@ Men siden Alice ikke kjenner den eksakte fordelingen av midler i hver kanal, må
 - **Antall mellomliggende noder**: til slutt, mer generelt, vil den sendende noden forsøke å finne en rute med færrest mulige noder for å redusere risikoen for feil og begrense Lightning-transaksjonsgebyrer.
   Ved å analysere disse kriteriene, kan den sendende noden teste de mest sannsynlige rutene og forsøke å optimalisere dem. I vårt eksempel kunne Alice rangere de beste rutene som følger:
 
-1. `Alice → 1 → 2 → 5 → Bob`, fordi det er den korteste ruten med høyest kapasitet.
-2. `Alice → 1 → 2 → 4 → 5 → Bob`, fordi denne ruten tilbyr gode kapasiteter, selv om den er lengre enn den første.
-3. `Alice → 1 → 2 → 3 → Bob`, fordi denne ruten inkluderer kanalen `2 → 3`, som har veldig begrenset kapasitet, men forblir potensielt brukbar.
+- `Alice → 1 → 2 → 5 → Bob`, fordi det er den korteste ruten med høyest kapasitet.
+- `Alice → 1 → 2 → 4 → 5 → Bob`, fordi denne ruten tilbyr gode kapasiteter, selv om den er lengre enn den første.
+- `Alice → 1 → 2 → 3 → Bob`, fordi denne ruten inkluderer kanalen `2 → 3`, som har veldig begrenset kapasitet, men forblir potensielt brukbar.
 
 ### Utførelse av betaling
 
@@ -732,9 +757,9 @@ Det er verdt å merke seg at Bob kan gi Alice informasjon i **fakturaen** for å
 
 **Hva bør du ta med deg fra dette kapittelet?**
 
-1. Noder opprettholder et kart over nettverkstopologien gjennom kunngjøringer og ved å overvåke kanallukninger på Bitcoin-blockchainen.
-2. Søket etter en optimal rute for en betaling forblir sannsynlig og avhenger av mange kriterier.
-3. Bob kan gi indikasjoner i **fakturaen** for å veilede Alices ruting og spare henne for å teste usannsynlige ruter.
+- Noder opprettholder et kart over nettverkstopologien gjennom kunngjøringer og ved å overvåke kanallukninger på Bitcoin-blockchainen.
+- Søket etter en optimal rute for en betaling forblir sannsynlig og avhenger av mange kriterier.
+- Bob kan gi indikasjoner i **fakturaen** for å veilede Alices ruting og spare henne for å teste usannsynlige ruter.
 
 I det følgende kapittelet vil vi spesifikt studere funksjonen av fakturaer, i tillegg til noen andre verktøy som brukes på Lightning Network.
 
@@ -745,7 +770,7 @@ I det følgende kapittelet vil vi spesifikt studere funksjonen av fakturaer, i t
 ## Faktura, LNURL, og Keysend
 
 <chapterId>e34c7ecd-2327-52e3-b61e-c837d9e5e8b0</chapterId>
-![video en](https://youtu.be/XANzf1Qqp9I)
+:::video id=309c3412-506e-4189-ad46-5e5088c55008:::
 I dette kapittelet vil vi ta en nærmere titt på hvordan **fakturaer** i Lightning fungerer, det vil si betalingsforespørsler sendt av mottaker-noden til sender-noden. Målet er å forstå hvordan man betaler og mottar betalinger på Lightning. Vi vil også diskutere 2 alternativer til klassiske fakturaer: LNURL og Keysend.
 ![LNP201](assets/en/68.webp)
 
@@ -753,8 +778,8 @@ I dette kapittelet vil vi ta en nærmere titt på hvordan **fakturaer** i Lightn
 
 Som forklart i kapittelet om HTLCs, begynner hver betaling med at mottakeren genererer en **faktura**. Denne fakturaen blir deretter overført til betaleren (via en QR-kode eller ved å kopiere og lime inn) for å initiere betalingen. En faktura består av to hoveddeler:
 
-1. **Den menneskelesbare delen**: denne seksjonen inneholder tydelig synlig metadata for å forbedre brukeropplevelsen.
-2. **Nyttelasten**: denne seksjonen inkluderer informasjon ment for maskiner for å behandle betalingen.
+- **Den menneskelesbare delen**: denne seksjonen inneholder tydelig synlig metadata for å forbedre brukeropplevelsen.
+- **Nyttelasten**: denne seksjonen inkluderer informasjon ment for maskiner for å behandle betalingen.
 
 Den typiske strukturen til en faktura starter med en identifikator `ln` for "Lightning", etterfulgt av `bc` for Bitcoin, deretter beløpet på fakturaen. En separator `1` skiller den menneskelesbare delen fra data (nyttelast) delen.
 
@@ -783,7 +808,7 @@ I den første delen kan vi se at:
 
 - `ln` indikerer at det er en Lightning-transaksjon.
 - `bc` indikerer at Lightning-nettverket er på Bitcoin blockchain (og ikke på testnet eller på Litecoin).
-- `100u` indikerer mengden av fakturaen, uttrykt i **mikrosatoshi** (`u` som betyr "mikro"), som her tilsvarer 10 000 sats.
+- `100u` indikerer mengden av fakturaen, uttrykt i **mikrobitcoins** (`u` som betyr "mikro"), som her tilsvarer 10 000 sats.
 
 For å angi betalingsbeløpet, uttrykkes det i sub-enheter av bitcoin. Her er enhetene som brukes:
 
@@ -845,16 +870,16 @@ For å forenkle, i denne protokollen, er det avsenderen som genererer hemmelighe
 
 **Hva bør du ta med deg fra dette kapittelet?**
 
-1. En **Lightning-faktura** er en betalingsforespørsel bestående av en menneskelesbar del og en maskindatadel.
-2. Fakturaen er kodet i **bech32**, med en `1` separator for å lette kopiering og en datadel som inneholder all informasjonen som er nødvendig for å behandle betalingen.
-3. Andre betalingsprosesser eksisterer på Lightning, spesielt **LNURL-Withdraw** for å forenkle uttak, og **Keysend** for direkte overføringer uten en faktura.
+- En **Lightning-faktura** er en betalingsforespørsel bestående av en menneskelesbar del og en maskindatadel.
+- Fakturaen er kodet i **bech32**, med en `1` separator for å lette kopiering og en datadel som inneholder all informasjonen som er nødvendig for å behandle betalingen.
+- Andre betalingsprosesser eksisterer på Lightning, spesielt **LNURL-Withdraw** for å forenkle uttak, og **Keysend** for direkte overføringer uten en faktura.
 
 I det følgende kapittelet vil vi se hvordan en nodeoperatør kan håndtere likviditet i sine kanaler, for aldri å bli blokkert og alltid kunne sende og motta betalinger på Lightning-nettverket.
 
 ## Administrere din likviditet
 
 <chapterId>cc76d0c4-d958-57f5-84bf-177e21393f48</chapterId>
-![video en](https://youtu.be/MIbej28La7Y)
+:::video id=96096aef-e4ce-4c44-a022-57e27082232a:::
 
 
 I dette kapittelet vil vi utforske strategier for effektiv håndtering av likviditet på Lightning-nettverket. Likviditetsstyring varierer avhengig av brukertype og kontekst. Vi vil se på hovedprinsippene og eksisterende teknikker for å bedre forstå hvordan man kan optimalisere denne styringen.
@@ -863,9 +888,9 @@ I dette kapittelet vil vi utforske strategier for effektiv håndtering av likvid
 
 Det er tre hovedbrukerprofiler på Lightning, hver med spesifikke likviditetsbehov:
 
-1. **Betalende**: Dette er den som utfører betalinger. De trenger utgående likviditet for å kunne overføre midler til andre brukere. For eksempel kan dette være en forbruker.
-2. **Selgeren (eller Mottakeren)**: Dette er den som mottar betalinger. De trenger innkommende likviditet for å kunne akseptere betalinger til sin node. For eksempel kan dette være en bedrift eller en nettbutikk.
-3. **Ruteren**: En mellomliggende node, ofte spesialisert i å rute betalinger, som må optimalisere sin likviditet i hver kanal for å rute så mange betalinger som mulig og tjene avgifter.
+- **Betalende**: Dette er den som utfører betalinger. De trenger utgående likviditet for å kunne overføre midler til andre brukere. For eksempel kan dette være en forbruker.
+- **Selgeren (eller Mottakeren)**: Dette er den som mottar betalinger. De trenger innkommende likviditet for å kunne akseptere betalinger til sin node. For eksempel kan dette være en bedrift eller en nettbutikk.
+- **Ruteren**: En mellomliggende node, ofte spesialisert i å rute betalinger, som må optimalisere sin likviditet i hver kanal for å rute så mange betalinger som mulig og tjene avgifter.
 
 Disse profilene er åpenbart ikke faste; en bruker kan bytte mellom betaler og mottaker avhengig av transaksjonene. For eksempel kan Bob motta sin lønn på Lightning fra sin arbeidsgiver, noe som plasserer ham i posisjonen som en "selger" som krever innkommende likviditet. Deretter, hvis han ønsker å bruke sin lønn til å kjøpe mat, blir han en "betalende" og må da ha utgående likviditet.
 
@@ -921,10 +946,11 @@ I neste kapittel foreslår jeg å gjennomgå de viktigste konseptene fra denne o
 
 <partId>6bbf107d-a224-5916-9f0c-2b4d30dd0b17</partId>
 
-## Opplæringens Konklusjon
+## Sammendrag av opplæringen
+
 
 <chapterId>a65a571c-561b-5e1c-87bf-494644653c22</chapterId>
-![video en](https://youtu.be/coaskEGRjiU)
+:::video id=5f4f4344-ef27-4765-8f09-8262e6833bde:::
 
 I dette siste kapittelet som markerer slutten på LNP201-opplæringen, foreslår jeg å gjenoppta de viktige konseptene vi har dekket sammen.
 Målet med denne opplæringen var å gi deg en omfattende og teknisk forståelse av Lightning Network. Vi oppdaget hvordan Lightning Network stoler på Bitcoin-blockchainen for å utføre transaksjoner utenfor kjeden, samtidig som de grunnleggende egenskapene til Bitcoin beholdes, spesielt fraværet av behovet for å stole på andre noder.
@@ -933,12 +959,12 @@ Målet med denne opplæringen var å gi deg en omfattende og teknisk forståelse
 
 I de innledende kapitlene utforsket vi hvordan to parter, ved å åpne en betalingskanal, kan gjennomføre transaksjoner utenfor Bitcoin-blockchainen. Her er trinnene som ble dekket:
 
-1. **Kanalåpning**: Opprettelsen av kanalen gjøres gjennom en Bitcoin-transaksjon som låser midlene i en 2/2 multisignaturadresse. Dette innskuddet representerer Lightning-kanalen på blockchainen.
+- **Kanalåpning**: Opprettelsen av kanalen gjøres gjennom en Bitcoin-transaksjon som låser midlene i en 2/2 multisignaturadresse. Dette innskuddet representerer Lightning-kanalen på blockchainen.
 
 ![LNP201](assets/en/76.webp) 2. **Transaksjoner i Kanalen**: I denne kanalen er det deretter mulig å utføre tallrike transaksjoner uten å måtte publisere dem på blockchainen. Hver Lightning-transaksjon skaper en ny tilstand av kanalen reflektert i en forpliktelsestransaksjon.
 ![LNP201](assets/en/77.webp)
 
-3. **Sikring og Lukking**: Deltakerne forplikter seg til den nye tilstanden av kanalen ved å utveksle tilbakekallingsnøkler for å sikre midlene og forhindre juks. Begge parter kan lukke kanalen samarbeidsvillig ved å lage en ny transaksjon på Bitcoin-blockchainen, eller som en siste utvei gjennom en tvungen lukking. Denne siste muligheten, selv om den er mindre effektiv fordi den er lengre og noen ganger dårlig vurdert i form av gebyrer, tillater fortsatt gjenoppretting av midler. I tilfelle juks, kan offeret straffe juksemakeren ved å gjenopprette alle midlene fra kanalen på blockchainen.
+- **Sikring og Lukking**: Deltakerne forplikter seg til den nye tilstanden av kanalen ved å utveksle tilbakekallingsnøkler for å sikre midlene og forhindre juks. Begge parter kan lukke kanalen samarbeidsvillig ved å lage en ny transaksjon på Bitcoin-blockchainen, eller som en siste utvei gjennom en tvungen lukking. Denne siste muligheten, selv om den er mindre effektiv fordi den er lengre og noen ganger dårlig vurdert i form av gebyrer, tillater fortsatt gjenoppretting av midler. I tilfelle juks, kan offeret straffe juksemakeren ved å gjenopprette alle midlene fra kanalen på blockchainen.
 
 ![LNP201](assets/en/78.webp)
 
@@ -974,7 +1000,7 @@ Vi har sett at likviditetsstyring er en utfordring på Lightning for å sikre en
 
 ![LNP201](assets/en/84.webp)
 
-# Konklusjon
+# Siste seksjon
 
 <partId>b8715c1c-7ae2-49b7-94c7-35bf85346ad3</partId>
 

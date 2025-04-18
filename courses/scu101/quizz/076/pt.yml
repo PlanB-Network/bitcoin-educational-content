@@ -1,0 +1,9 @@
+question: Por que é recomendado usar senhas geradas aleatoriamente?
+answer: Para resistir a ataques de força bruta.
+wrong_answers:
+  - Para facilitar a memorização.
+  - Para reduzir sua complexidade.
+  - Para resistir a ataques Sybil.
+explanation: |
+  A aleatoriedade torna as senhas mais difíceis de serem adivinhadas por tentativa e erro, aumentando assim sua segurança contra ataques de força bruta.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Je, kulingana na Comte na Dunoyer, ni suluhisho gani la mzozo kati ya madarasa?
+answer: Kuzuia serikali kusambaza na kudhibiti mali
+wrong_answers:
+  - Ondoa darasa
+  - Sambaza rasilimali kwa usawa
+  - Kukuza mapambano ya darasa
+explanation: |
+  Wanaamini kuwa njia pekee ya kupunguza unyonyaji ni kupunguza uwezo wa serikali kusambaza na kudhibiti mali.
+reviewed: false

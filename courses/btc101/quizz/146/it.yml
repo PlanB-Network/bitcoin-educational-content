@@ -3,9 +3,9 @@ answer: Perché facilita la decentralizzazione della rete.
 wrong_answers:
   - Perché aumenta la capacità di transazione della rete.
   - Perché diminuisce la capacità di transazione della rete.
-  - Perché aumenta la ricompensa per i minatori.
+  - Perché aumenta la ricompensa per i miner.
 explanation: |
-  Il costo accessibile e l'accessibilità di un nodo Bitcoin sono
+  Il costo accessibile e la disponibilità online di un nodo Bitcoin sono
   importanti perché facilitano la decentralizzazione della
   rete.
 reviewed: true

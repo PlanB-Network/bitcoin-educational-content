@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Core Node (linux)
+name: Bitcoin Core (Linux)
 description: Spuštění vlastního uzlu s Bitcoin Core
 ---
 

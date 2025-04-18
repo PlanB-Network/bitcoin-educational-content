@@ -1,0 +1,9 @@
+question: 什么是密码管理器？
+answer: 一个存储、生成和管理密码的工具。
+wrong_answers:
+  - 用于防止黑客攻击的防病毒软件。
+  - 安全的邮件服务。
+  - 个人身份数据的备份工具。
+explanation: |
+  密码管理器集中管理密码的存储和创建。
+reviewed: false

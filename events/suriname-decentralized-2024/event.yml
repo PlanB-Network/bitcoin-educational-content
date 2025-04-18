@@ -1,25 +1,25 @@
 id: 401094f8-34fe-4a77-8dfb-30e63787d760
 start_date: 2024-11-08
 end_date: 2024-11-10
-address_line_1: Paramaribo, Suriname
+address_city_country: Paramaribo, Suriname
 address_line_2:
 address_line_3:
 name: The Bitcoin & Nostr conference in the Amazon
-builder: Suriname Decentralized
 type: conference
 book_online: false
 book_in_person: false
 price_dollars: 0
-description: In the heart of the Amazon, where nature meets innovation, our Bitcoin & Nostr conference explores the symbiosis of technology and financial freedom, creating a harmonious future for businesses and individuals alike.
+description: In the heart of the Amazon, where nature meets innovation, our Bitcoin
+  & Nostr conference explores the symbiosis of technology and financial freedom, creating
+  a harmonious future for businesses and individuals alike.
 language:
   - en
 links:
   website: https://surinamedecentralized.com/
   replay_url:
-  live_url :
-tags:
-  - International
-  - Bitcoiner
-  - Education
-
+  live_url:
 project_id: 2bad0707-20f4-44ff-b2da-873ae54ee537
+tags:
+  - business
+  - innovation
+  - future-outlook

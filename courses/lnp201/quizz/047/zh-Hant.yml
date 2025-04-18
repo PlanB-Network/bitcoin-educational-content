@@ -1,0 +1,9 @@
+question: LNURL 在 Lightning 交易中扮演什麼角色？
+answer: 簡化節點與 Lightning 應用程式之間的互動
+wrong_answers:
+  - 促進每筆付款的通路建立
+  - 確保付款資訊的機密性
+  - 自動計算交易費用
+explanation: |
+  LNURL 是一種通訊協定，旨在簡化節點與 Lightning 應用程式之間的互動，例如提款和付款。
+reviewed: false

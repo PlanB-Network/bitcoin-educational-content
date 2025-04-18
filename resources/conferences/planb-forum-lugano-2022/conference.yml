@@ -1,7 +1,6 @@
 id: 179b669d-2687-41d0-9ffb-c170490c7c27
 year: 2022-10
 name: PlanB Lugano Forum 2022
-builder: Lugano's Plan ₿
 location: Lugano, Switzerland
 language:
   - en
@@ -9,18 +8,16 @@ language:
 links:
   website: https://planb.lugano.ch/planb-forum/
   twitter: https://twitter.com/LuganoPlanB
-tags:
-  - International
-  - All Public
-  - General
-
-# Proofreading metadata
 project_id: cf0fecdf-6a70-40ec-869d-c6c78f9fac01
 original_language: en
 proofreading:
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 0
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
     reward: 0.05
+tags:
+  - adoption
+  - finance
+  - business

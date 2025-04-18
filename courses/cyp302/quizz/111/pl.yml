@@ -1,0 +1,9 @@
+question: Czym jest asynchroniczne szyfrowanie strumieniowe?
+answer: Szyfrowanie, którego strumień klucza zależy zarówno od klucza, jak i Elements wcześniej zaszyfrowanego tekstu
+wrong_answers:
+  - Szyfrowanie, które generuje losowy strumień kluczy przy każdym użyciu
+  - Szyfrowanie, w którym klucz musi być zmieniany dla każdej wiadomości
+  - Szyfrowanie, którego strumień klucza zależy tylko od klucza początkowego
+explanation: |
+  Asynchroniczne szyfrowanie strumieniowe to rodzaj szyfrowania, w którym strumień klucza zależy od klucza i Elements zaszyfrowanego tekstu.
+reviewed: false

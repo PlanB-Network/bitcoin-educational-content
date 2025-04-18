@@ -37,6 +37,7 @@ custode | 🔴 | 🟢 | 🔴 | 🔴 | 🟢 | 🔴 | 🟢 | 🔴 |
 In questo tutorial, configureremo e utilizzeremo Jade Plus con l'applicazione mobile Green Wallet di Blockstream tramite una connessione Bluetooth. Questa configurazione è ideale per i principianti. Se siete alla ricerca di un approccio più avanzato, vi consiglio di dare un'occhiata a questo tutorial in cui utilizziamo Jade Plus con Sparrow Wallet in modalità codici QR:
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+
 ## Il modello di sicurezza Jade Plus
 
 Jade Plus utilizza un modello di sicurezza basato su un "elemento sicuro virtuale", materializzato da un "oracolo cieco". In concreto, questo meccanismo combina il PIN scelto dall'utente, un segreto ospitato sul Jade e un segreto detenuto dall'oracolo (un server gestito da Blockstream), per creare una chiave AES-256 distribuita su due entità. Durante l'avvio, uno scambio ECDH protegge la comunicazione con l'oracolo e cripta la frase di recupero sul portafoglio hardware. In termini pratici, quando si vuole accedere al seed per firmare le transazioni, è necessario accedere a :
@@ -109,6 +110,7 @@ Potete scriverlo sul cartoncino fornito nella scatola, oppure, per maggiore sicu
 Per ulteriori informazioni sul modo corretto di salvare e gestire la frase mnemonica, vi consiglio di seguire quest'altro tutorial, soprattutto se siete principianti:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 ***Ovviamente, non dovete mai condividere queste parole su Internet, come faccio io in questo tutorial. Questo portfolio di esempio sarà utilizzato solo su Testnet e sarà cancellato alla fine del tutorial
 
 Fate clic sulla freccia a destra dello schermo per visualizzare le seguenti parole.
@@ -124,9 +126,11 @@ Una volta salvata la frase, Jade Plus chiede di confermarla. Selezionare la paro
 In questa esercitazione, utilizzeremo l'applicazione Green Wallet per gestire il portafoglio ospitato su Jade Plus. Questo metodo è particolarmente adatto ai principianti. Se desiderate gestire il vostro portafoglio Bitcoin in modo più dettagliato, potete anche utilizzare Sparrow Wallet, che tratteremo in un tutorial separato:
 
 https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+
 Per le istruzioni sull'installazione e la configurazione dell'applicazione Blockstream Green, consultare la prima parte di quest'altro tutorial:
 
 https://planb.network/tutorials/wallet/mobile/blockstream-green-e84edaa9-fb65-48c1-a357-8a5f27996143
+
 Una volta entrati nell'applicazione Blockstream Green, cliccate sul pulsante "*Configura un nuovo portafoglio*".
 
 ![JADE-PLUS-GREEN](assets/fr/13.webp)
@@ -204,6 +208,7 @@ Scegliere "*Standard*" se si desidera creare un portafoglio classico a sigla sin
 Per ulteriori informazioni sull'opzione "*2FA*", potete seguire quest'altra guida:
 
 https://planb.network/tutorials/wallet/mobile/blockstream-green-2FA-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
+
 Il vostro account è stato creato.
 
 ![JADE-PLUS-GREEN](assets/fr/30.webp)
@@ -229,6 +234,7 @@ Il vostro Jade viene sbloccato tramite il "virtual secure element" di Blockstrea
 Prima di ricevere i primi bitcoin nel portafoglio, **consiglio vivamente di eseguire un test di ripristino a vuoto**. Annotate alcune informazioni di riferimento, come il vostro indirizzo xpub o il primo indirizzo di ricezione, quindi cancellate il vostro portafoglio sull'app Green e su Jade Plus mentre è ancora vuoto (`Opzioni -> Dispositivo -> Ripristino dati di fabbrica`). Quindi provare a ripristinare il portafoglio utilizzando i backup cartacei della frase mnemonica. Verificare che le informazioni del cookie generate dopo il ripristino corrispondano a quelle annotate in origine. Se è così, potete essere certi che i vostri backup cartacei sono affidabili. Per saperne di più su come effettuare un ripristino di prova, consultate quest'altro tutorial:
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+
 ## Ricevere bitcoin
 
 Ora che il vostro portafoglio Bitcoin è stato configurato, siete pronti a ricevere i vostri primi satelliti! Basta cliccare sul pulsante "*Ricevi*" nell'applicazione Green.

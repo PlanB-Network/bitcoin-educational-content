@@ -1,7 +1,7 @@
 id: 254c1311-7974-447f-95f9-ebf10104cec7
 name: Bitcoin House Bali
 category: communities
-address_line_1: Bali, Indonesia
+address_city_country: Bali, Indonesia
 address_line_2:
 address_line_3:
 language:
@@ -12,99 +12,99 @@ links:
   twitter: https://x.com/btchousebali
   instagram: https://www.instagram.com/bitcoinindo21
   youtube: https://www.youtube.com/@BitcoinIndo21
-  nostr: https://primal.net/p/npub1fpqlfgejlvnv5swanf0398y6k9vvheqs9g4zmjlthrga7ytn53dq3pqwcz
+  nostr: 
+    https://primal.net/p/npub1fpqlfgejlvnv5swanf0398y6k9vvheqs9g4zmjlthrga7ytn53dq3pqwcz
 
-tags:
-  - finance
-  - education
-  - community
-
-# Proofreading metadata
 original_language: en
 proofreading:
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
     reward: 0.1
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.29
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.34
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.34
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.29
 
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.29
 
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.2
 
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.24
 
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.29
 
   - language: fr
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.2
 
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.24
 
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.39
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.29
 
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.2
 
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.39
+tags:
+  - adoption
+  - use-case
+contributor_names:
+  - Rogzy-DB

@@ -1,98 +1,94 @@
 id: 54e66ce0-0226-4632-8233-e4b63da0ffa7
 en_word: OP_CHECKSIGVERIFY (0XAD)
-related_words: []
-tags:
-  - ''
-
-# Proofreading metadata
+related_words: 
 original_language: fr
 proofreading:
   - language: en
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.14
+    contributor_names:
+    reward: 0.16
   - language: fr
     last_contribution_date: 2024-07-26
     urgency: 1
-    contributors_id:
+    contributor_names:
       - LoicPandul
-    reward: 0.07
+    reward: 0.08
 
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.19
 
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.14
+    contributor_names:
+    reward: 0.16
 
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.16
 
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.19
 
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.19
 
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.21
 
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.16
 
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.23
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.19
 
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.14
+    contributor_names:
+    reward: 0.16
 
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.19
 
   - language: vi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.23
 
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.21

@@ -2,18 +2,18 @@ id: 43c50be9-b11a-4710-a88b-40e2ce703f2f
 start_date: 2025-03-25 16:00:00
 end_date: 2025-03-27 23:00:00
 timezone: US/Eastern
-address_line_1: Fort Lauderdale, Florida, USA
+address_city_country: Fort Lauderdale, Florida, USA
 address_line_2: Broward County Convention Center
 name: Mining Disrupt 2025
-builder: Mining Disrupt
 type: conference
-description: Join us and thousands of Bitcoin mining professionals and enthusiasts from around the globe for an electrifying experience at Mining Disrupt!
+description: Join us and thousands of Bitcoin mining professionals and enthusiasts
+  from around the globe for an electrifying experience at Mining Disrupt!
 language:
   - en
 links:
   website: https://miningdisrupt.com/
+project_id: 56624e97-e1a8-460e-b727-e0aa4da94aa8
 tags:
   - mining
-  - hardware
-  - software
-project_id: 56624e97-e1a8-460e-b727-e0aa4da94aa8
+  - business
+  - market-trends

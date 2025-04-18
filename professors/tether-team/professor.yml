@@ -4,11 +4,10 @@ contributor_id: stable-coin
 links:
   website: https://tether.to/
   twitter: https://x.com/Tether_to/
-affiliations:
-- Tether
-tags:
-- guides
-- DIY
 tips:
   lightning_address:
 company: Tether
+tags:
+  - finance
+  - business
+  - market-trends

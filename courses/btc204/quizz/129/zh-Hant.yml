@@ -1,0 +1,10 @@
+question: 在換幣過程中使用的智能合約有哪兩種主要變體？
+answer: HTLC 和 PTLC
+wrong_answers:
+  - 多重簽名和單一簽名
+  - 智慧契約與 DApps
+  - SegWit 和 Taproot
+explanation: |
+  要執行換幣，可以使用 HTLC（Hash 鎖定時間合約）或 PTLC（點鎖定時間合約）。
+  
+reviewed: false

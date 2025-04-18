@@ -1,0 +1,11 @@
+question: Jakie ryzyko wiąże się z przechowywaniem Bitcoinów na platformie Exchange?
+answer: Platforma może zbankrutować, Twoje Bitcoiny mogą zostać skonfiskowane lub platforma może zostać zhakowana.
+wrong_answers:
+  - Platforma może podnieść opłaty, Bitcoiny mogą stracić na wartości lub platforma może zostać zhakowana.
+  - Platforma może zbankrutować, wartość Bitcoinów może wzrosnąć lub platforma może zostać zhakowana.
+  - Platforma może zbankrutować, Twoje Bitcoiny mogą zostać skonfiskowane lub platforma może podnieść swoje opłaty.
+explanation: |
+  Przechowywanie Bitcoinów na platformie Exchange wiąże się z ryzykiem, takim jak
+  bankructwo, konfiskata Bitcoinów lub włamanie na platformę.
+  Dlatego ważne jest, aby mieć kontrolę nad swoim kluczem prywatnym.
+reviewed: false

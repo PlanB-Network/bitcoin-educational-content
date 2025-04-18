@@ -1,0 +1,9 @@
+question: Ni udanganyifu gani wa kimsingi wa Jimbo kulingana na Marx?
+answer: Inawakilisha maslahi ya jumla na si maslahi maalum ya darasa.
+wrong_answers:
+  - Ina uwezo wa kuhakikisha kutopendelea.
+  - Inahudumia asasi za kiraia.
+  - Inakuza mapambano ya kitabaka.
+explanation: |
+  Kwa Marx, Serikali inadai kuwakilisha masilahi ya jumla, lakini kwa kweli, ni chombo cha kutumikia masilahi ya tabaka kubwa, na hivyo kuendeleza ukandamizaji wa tabaka za chini.
+reviewed: false

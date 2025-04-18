@@ -1,0 +1,9 @@
+question: ¿Cuál es la principal ventaja de usar un gestor de contraseñas?
+answer: Recordar solo una contraseña maestra.
+wrong_answers:
+  - No volver a crear nuevas contraseñas.
+  - Ayudar a memorizar todas las contraseñas mediante técnicas mnemotécnicas.
+  - Eliminar la necesidad de tener cuentas en línea.
+explanation: |
+  El usuario solo necesita recordar una única contraseña para acceder a todas las demás.
+reviewed: false

@@ -6,7 +6,7 @@ description: Mengonfigurasi dan menggunakan dompet perangkat keras Passport dala
 
 Passport adalah dompet perangkat keras khusus Bitcoin, yang dirancang oleh Foundation Devices, sebuah perusahaan Amerika yang didirikan pada bulan April 2020 di Boston.
 
-Passport "*Batch 2*" yang kami sajikan dalam tutorial ini adalah penerus "*Founder's Edition*". Passport ini memiliki desain premium, layar warna definisi tinggi dan keyboard fisik yang ergonomis. Perangkat ini beroperasi dalam mode "*Air-Gap*", memastikan bahwa kunci pribadi dompet Anda tetap terisolasi sepenuhnya, dengan pertukaran dapat dilakukan melalui kartu MicroSD atau kode QR. Perangkat ini dilengkapi baterai 1200 mAh yang dapat dilepas.
+Passport "*Batch 2*" yang kami perkenalkan dalam tutorial ini adalah penerus dari edisi "*Founder's Edition*". Perangkat ini memiliki desain premium, layar warna berdefinisi tinggi, dan keyboard fisik yang ergonomis. Beroperasi dalam mode "*Air-Gap*", memastikan kunci pribadi dompet Anda tetap sepenuhnya terisolasi, dengan pertukaran data yang dilakukan melalui kartu MicroSD atau kode QR. Perangkat ini dilengkapi dengan baterai isi ulang yang dapat dilepas, Nokia BL-5C berkapasitas 1200 mAh. Baterai non-proprietary ini mudah diganti karena model BL-5C tersedia luas di pasaran.
 
 Sedangkan untuk konektivitas, Passport dilengkapi dengan port MicroSD, port USB-C untuk pengisian daya, dan kamera belakang untuk memindai kode QR.
 
@@ -21,6 +21,7 @@ Untuk mengelola dompet aman Anda pada Passport, Anda memiliki beberapa opsi. Dom
 Jika Anda seorang pemula, pilihan termudah adalah menggunakan Passport Anda dengan aplikasi asli Envoy, yang dikembangkan oleh Foundation. Untuk mengetahui cara menggunakan Envoy dengan Passport Anda, lihat tutorial lainnya:
 
 https://planb.network/tutorials/wallet/mobile/envoy-3ae5d6c7-623b-45b3-bb34-abcf9572b7cb
+
 ## Membuka Kotak Paspor
 
 Ketika Anda menerima Paspor, pastikan kotak dan segel pada karton masih utuh untuk mengonfirmasi bahwa paket tersebut belum dibuka. Verifikasi perangkat lunak terhadap keaslian dan integritas perangkat juga akan dilakukan saat perangkat diatur.
@@ -138,7 +139,8 @@ Untuk melakukan ini, gunakan kartu MicroSD yang disertakan dalam kotak Passport 
 
 Sebelum menginstalnya di perangkat Anda, kami sangat menyarankan Anda untuk memeriksa keaslian dan integritas firmware yang diunduh. Jika Anda memerlukan bantuan dalam hal ini, bacalah tutorial ini:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 Setelah memeriksa file `.bin`, letakkan file tersebut di MicroSD Anda, lalu masukkan ke dalam Passport. Penjelajah file Passport akan terbuka. Pilih file `vN.N.N-passport.bin`.
 
 ![Image](assets/fr/22.webp)
@@ -193,7 +195,8 @@ Jika MicroSD telah dimasukkan, cadangan terenkripsi portofolio Anda telah disimp
 
 Paspor Anda akan menampilkan frasa mnemonik 12 kata. Kata mnemonik ini memberikan Anda akses penuh dan tidak terbatas ke semua bitcoin Anda. Siapa pun yang memiliki frasa ini dapat mencuri dana Anda, bahkan tanpa akses fisik ke Paspor Anda.
 
-Frasa 12 kata ini akan memulihkan akses ke bitcoin Anda jika terjadi kehilangan, pencurian, atau kerusakan pada Paspor Anda. Oleh karena itu, sangat penting untuk menyimpannya dengan hati-hati dan menyimpannya di lokasi yang aman.
+Frasa 12 kata ini mengembalikan akses ke bitcoin Anda jika terjadi kehilangan, pencurian, atau kerusakan pada Paspor Anda. Oleh karena itu, sangat penting untuk menyimpannya dengan hati-hati dan menyimpannya di lokasi yang aman.
+
 
 Anda bisa menuliskannya pada karton yang disertakan dalam kotak, atau untuk keamanan tambahan, saya sarankan untuk mengukirnya pada dasar baja tahan karat untuk melindunginya dari kebakaran, banjir atau keruntuhan.
 
@@ -204,6 +207,7 @@ Klik tombol konfirmasi untuk melihat frasa mnemonik Anda.
 Untuk informasi lebih lanjut mengenai cara yang tepat untuk menyimpan dan mengelola frasa mnemonik Anda, saya sangat merekomendasikan untuk mengikuti tutorial lainnya, khususnya jika Anda seorang pemula:
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+
 tentu saja, Anda tidak boleh membagikan kata-kata ini di Internet, seperti yang saya lakukan dalam tutorial ini. Portofolio contoh ini hanya akan digunakan di Testnet dan akan dihapus di akhir tutorial.**_
 
 Buatlah cadangan fisik dari kalimat ini.
@@ -290,6 +294,8 @@ Sebelum melanjutkan, jika Anda mau, Anda dapat menambahkan kata sandi BIP39. Kat
 Sebelum mengonfigurasi opsi ini pada Passport Anda, sangat disarankan agar Anda membaca artikel ini untuk memahami sepenuhnya operasi teoritis dari kata sandi dan menghindari kesalahan yang dapat menyebabkan hilangnya bitcoin Anda:
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+
+
 Untuk mengaktifkannya, buka menu "*Lainnya*" dan klik "*Masukkan Kata Sandi*".
 
 ![Image](assets/fr/50.webp)
@@ -298,7 +304,8 @@ Masukkan kata sandi Anda menggunakan keypad aA1, dan pastikan Anda menyimpannya 
 
 ![Image](assets/fr/51.webp)
 
-Harap diperhatikan bahwa kata sandi BIP39 peka terhadap huruf besar-kecil dan kesalahan pengetikan. Jika Anda memasukkan kata sandi yang sedikit berbeda dengan yang dikonfigurasikan pada awalnya, Passport tidak akan melaporkan kesalahan, tetapi akan mendapatkan satu set kunci kriptografi lain yang tidak sama dengan kunci yang ada di dompet awal Anda.
+Harap diperhatikan bahwa kata sandi BIP39 peka terhadap huruf besar-kecil dan kesalahan ketik. Jika Anda memasukkan kata sandi yang sedikit berbeda dengan yang dikonfigurasikan pada awalnya, Passport tidak akan melaporkan kesalahan, tetapi akan mendapatkan satu set kunci kriptografi lain yang tidak sama dengan kunci yang ada di dompet awal Anda.
+
 
 Oleh karena itu, penting sekali, ketika mengonfigurasi, untuk mencatat di suatu tempat sidik jari kunci utama yang akan diberikan pada langkah berikutnya. Sebagai contoh, dengan kata sandi saya `Plan B Network`, sidik jari kunci utama saya adalah `745D526B`.
 
@@ -306,11 +313,15 @@ Oleh karena itu, penting sekali, ketika mengonfigurasi, untuk mencatat di suatu 
 
 Setiap kali Anda membuka kunci Passport, Anda harus kembali ke menu ini untuk memasukkan kata sandi dan menerapkannya ke dompet. Passport tidak menyimpan kata sandi.
 
-Setiap kali Anda membuka kunci, setelah menuliskan kata sandi, periksa pada layar konfirmasi bahwa sidik jari yang diberikan sama dengan yang Anda tuliskan selama konfigurasi. Jika ya, kata sandi Anda sudah benar dan Anda mengakses dompet Bitcoin yang benar. Jika tidak, Anda berada di dompet yang salah dan perlu mencoba lagi, berhati-hatilah agar tidak melakukan kesalahan input.
+
+Setiap kali Anda membuka kunci, setelah menuliskan kata sandi, periksa pada layar konfirmasi bahwa sidik jari yang diberikan sama dengan yang Anda tuliskan selama konfigurasi. Jika ya, kata sandi Anda sudah benar dan Anda mengakses dompet Bitcoin yang benar. Jika tidak, Anda menggunakan dompet yang salah dan perlu mencoba lagi, berhati-hatilah agar tidak melakukan kesalahan input.
+
 
 Sebelum Anda menerima bitcoin pertama Anda di dompet Anda, **Saya sangat menyarankan Anda untuk melakukan tes pemulihan kosong**. Catatlah beberapa informasi referensi, seperti xpub atau alamat penerima pertama Anda, kemudian hapus wallet Anda di Passport saat masih kosong (`Pengaturan -> Lanjutan -> Hapus Passport`). Kemudian coba pulihkan dompet Anda menggunakan cadangan kertas dari frasa mnemonik dan kata sandi apa pun. Periksa apakah informasi cookie yang dihasilkan setelah pemulihan sesuai dengan yang Anda tulis sebelumnya. Jika sesuai, Anda bisa yakin bahwa cadangan kertas Anda dapat diandalkan. Untuk mengetahui lebih lanjut tentang cara melakukan pemulihan tes, silakan baca tutorial lainnya:
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+
+
 ![Image](assets/fr/53.webp)
 
 ## Mengonfigurasi dompet di Dompet Sparrow
@@ -323,7 +334,8 @@ Mulailah dengan mengunduh dan menginstal Sparrow Wallet [dari situs web resmi] (
 
 Pastikan untuk memeriksa keaslian dan integritas perangkat lunak sebelum instalasi. Jika Anda tidak tahu cara melakukannya, silakan baca tutorial ini:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 Setelah Sparrow Wallet terbuka, klik tab "*File*", lalu "*Dompet Baru*".
 
 ![Image](assets/fr/55.webp)

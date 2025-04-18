@@ -1,0 +1,9 @@
+question: Millist eelist pakub turvaline e-posti teenusepakkuja nagu ProtonMail?
+answer: Privaatsuse kaitse ja tugevdatud turvalisus.
+wrong_answers:
+  - Lihtsam kasutajaliides algajatele.
+  - Funktsioonide vähendamine, et piirata ründevektoreid.
+  - Algoritmi integreerimine e-kirjade automaatseks genereerimiseks.
+explanation: |
+  ProtonMail paistab silma oma privaatsuspoliitika ja tugevdavate turvameetmetega.
+reviewed: false

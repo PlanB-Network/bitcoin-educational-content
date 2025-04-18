@@ -77,7 +77,7 @@ Si vous préférez alimenter votre COLDCARD sans la connecter à un ordinateur (
 
 Pour ce tutoriel, vous aurez également besoin du logiciel Sparrow Wallet pour gérer votre portefeuille Bitcoin sur votre ordinateur. Téléchargez [Sparrow Wallet](https://sparrowwallet.com/download/) depuis le site officiel. Je vous conseille vivement de vérifier à la fois son authenticité (avec GnuPG) et son intégrité (via le hash) avant de procéder à l'installation. Si vous ne savez pas comment effectuer ces vérifications, suivez ce tutoriel :
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Choix du code PIN
 
@@ -157,7 +157,7 @@ Vérifiez [sur le site officiel de COLDCARD](https://coldcard.com/downloads) si 
 
 Si vous n'êtes pas familier avec ce processus de vérification, je vous recommande de suivre ce tutoriel :
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Munissez-vous d'une carte microSD et transférez-y le fichier firmware (document en `.dfu`). Insérez la carte microSD dans l'un des ports de votre COLDCARD.
 
@@ -479,3 +479,4 @@ Si vous avez trouvé ce tutoriel utile, je vous serais très reconnaissant de la
 Je vous conseille également de découvrir cet autre tutoriel dans lequel nous abordons les options avancées de la COLDCARD Q :
 
 https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+

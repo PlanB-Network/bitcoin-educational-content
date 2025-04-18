@@ -26,7 +26,32 @@ Begleiten Sie Damien Theillier auf dieser bereichernden Erkundung von Frédéric
 
 <partId>e4a0cf13-2fc5-5ced-a528-ace3f9029f22</partId>
 
-## Kurseinführung
+## Kursübersicht
+<chapterId>aa493f46-2d3a-4b76-ad79-ed44113a97f4</chapterId>
+
+Ziel dieses Kurses ist es, Ihnen ein tiefes Verständnis des Lebens, der intellektuellen Einflüsse, der ideologischen Gegner und der wirtschaftlichen Theorien von Frédéric Bastiat zu vermitteln. Durch diesen strukturierten Kurs werden Sie entdecken, wie seine Ideen das ökonomische Denken geprägt haben und weiterhin die aktuellen Debatten beeinflussen.
+
+**Abschnitt 1: Einführung**  
+Wir beginnen mit einem allgemeinen Überblick über Frédéric Bastiat, ein weitgehend unbekanntes Genie der Wirtschaft. Sie werden sein Leben, seinen intellektuellen Werdegang sowie den historischen Kontext kennenlernen, in dem er seine Gedanken entwickelte. Das Verständnis dieses Rahmens ist wesentlich, um die Tragweite seiner Schriften und Theorien vollständig zu erfassen.
+
+**Abschnitt 2: Die Einflüsse**  
+Wir fahren fort mit der Analyse der Denker, die das ökonomische Denken von Frédéric Bastiat beeinflussten. Sie erfahren, wie bedeutende Persönlichkeiten wie Adam Smith, Jean-Baptiste Say, Antoine Destutt de Tracy, Charles Comte, Charles Dunoyer und Richard Cobden zu seiner intellektuellen Entwicklung beitrugen und die Grundlagen seiner Überlegungen zum Freihandel und zur Marktwirtschaft legten.
+
+**Abschnitt 3: Die Gegner**  
+Anschließend werden wir Bastiats Kritik an seinen ideologischen Gegnern untersuchen. Ob Rousseau, klassische Bildung, Protektionismus, Sozialismus oder Proudhon – Sie werden verstehen, warum Bastiat diese Doktrinen als Hindernisse für wirtschaftlichen und sozialen Fortschritt betrachtete und wie er auf ihre Argumente mit schlagkräftiger Logik antwortete.
+
+**Abschnitt 4: Wirtschaftliche Sophismen**  
+Dieser Abschnitt ist den von Bastiat kritisierten wirtschaftlichen Sophismen gewidmet, darunter die berühmten "*Was man sieht und was man nicht sieht*" und die "*Petition der Kerzenmacher*". Wir werden untersuchen, wie er durch Satire und präzise Analyse die wirtschaftlichen Fehler seiner Zeit aufzeigte, die bis heute relevant sind.
+
+**Abschnitt 5: Wirtschaftliche Harmonien**  
+Hier werden Sie Bastiats positive Vision der Wirtschaft entdecken. Wir werden Konzepte wie das Wunder des Marktes, die Kraft der individuellen Verantwortung und die Unterscheidung zwischen echter und falscher Solidarität ansprechen. Bastiat sah die Wirtschaft als ein kohärentes System, in dem das gut verstandene Eigeninteresse dem Gemeinwohl dient. Wir werden herausfinden, warum.
+
+**Abschnitt 6: Das Gesetz**  
+Zum Abschluss dieses Kurses tauchen wir in Bastiats Hauptwerk "*Das Gesetz*" ein, in dem er seine Überlegungen zu Eigentumsrechten, legalem Raub und der begrenzten Rolle des Staates darlegt. Sie werden verstehen, warum dieser Aufsatz als eines der prägnantesten Manifeste für individuelle Freiheit und Marktwirtschaft gilt.
+
+Bereit herauszufinden, wie Frédéric Bastiats Ideen auch heute noch relevant sind? Begleiten Sie uns auf dieser intellektuellen Reise, die Ihre Vorstellung von Wirtschaft grundlegend verändern könnte!
+
+## Bastiat: Ein unbekanntes Genie
 
 <chapterId>7f21b617-9810-5484-ad1c-befc61432126</chapterId>
 
@@ -1014,7 +1039,7 @@ Wenn wir die Dinge aus diesem Blickwinkel betrachten, erklärte Reagan den GE-Mi
 ![Bild](assets/test/143.webp)
 Im Wesentlichen übernahm Reagan von Bastiat mehrere Schlüsselelemente einer liberalen Vision von Gesellschaft und Mensch: die Vorrangstellung der Zivilgesellschaft vor dem Staat, den Wert der Wahl und der individuellen Verantwortung, die Bedeutung des Unternehmers bei der Schaffung von Wohlstand, die Wichtigkeit eines flexiblen und minimalen rechtlichen Rahmens, der Vertrauen und Respekt für Verträge ermöglicht, das grundlegende Gesetz, dass Wohlstand geschaffen werden muss, bevor er verteilt werden kann, den Wunsch, jedem eine Chance auf wettbewerbsorientierten Märkten zu geben…
 
-# Fazit
+# Abschließender Abschnitt
 
 <partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
 

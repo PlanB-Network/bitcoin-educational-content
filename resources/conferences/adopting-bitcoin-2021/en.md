@@ -1,7 +1,7 @@
---- 
+---
 name: Adopting Bitcoin 2021
-description: El Salvador is the first country to adopt Bitcoin, making it the ground-zero for global Bitcoin adoption. This novel situation presents both the challenge of onboarding users and the opportunity to learn from them, benefiting the entire ecosystem, from protocol and application developers to entrepreneurs, investors, and the many communities around the world that followed Bitcoin Beach's example by establishing circular Bitcoin economies. 
---- 
+description: El Salvador is the first country to adopt Bitcoin, making it the ground-zero for global Bitcoin adoption. This novel situation presents both the challenge of onboarding users and the opportunity to learn from them, benefiting the entire ecosystem, from protocol and application developers to entrepreneurs, investors, and the many communities around the world that followed Bitcoin Beach's example by establishing circular Bitcoin economies.
+---
 
 # ECON Track
 
@@ -15,7 +15,7 @@ Speaker: Chris Hunter
 
 ![video](https://youtu.be/jpFrZvdFtLo?si=tmk3JmxocrO1-mXx)
 
-Speaker: Minister of Economy Maria Luisa Hayem Brevé 
+Speaker: Minister of Economy Maria Luisa Hayem Brevé
 
 ## Welcome to El Salvador
 
@@ -43,13 +43,13 @@ Carlos is an experienced lawyer in cross-border transactions and has been workin
 
 Camila had a background in Human Communications and Advertising before she fell down the Bitcoin rabbit hole in 2020 and consequently started to work with Swan Bitcoin as Social Media Manager and community builder. Together with Javier Bastardo she is co-hosting "Bitcoin en Español" - a show dedicated to making Bitcoin accessible for Spanish speakers.
 
-## Bitcoin for Non-Profits 
+## Bitcoin for Non-Profits
 
 ![video](https://youtu.be/y1CsEI-UHdw?si=bHxWC4H6GDzE2oVu)
 
 Speaker: Enrique Berrios & Josh Young
 
-## Free Private Cities and Bitcoin 
+## Free Private Cities and Bitcoin
 
 ![video](https://youtu.be/OP5HHoBsV7Q?si=TLkBWzI3yXhmpeX0)
 
@@ -83,9 +83,9 @@ Speaker: Moritz Wietersheim
 
 ![video](https://youtu.be/o0m9aq8N7js?si=QVnogiYeyxYrhBIW)
 
-Speaker: Michael Atwood 
+Speaker: Michael Atwood
 
-## Bitcoin for Institutions 
+## Bitcoin for Institutions
 
 ![video](https://youtu.be/BYFAwnlE0x0?si=KH_M7udeOerMT0LO)
 
@@ -95,7 +95,7 @@ Speaker: Alex Leishman
 
 ![video](https://youtu.be/zypluv8u228?si=ThLVV3rcdQOPnsbD)
 
-Speaker: Alex Gladstein 
+Speaker: Alex Gladstein
 
 ## The State of Lightning: A Helicopter View
 
@@ -109,11 +109,11 @@ Speaker: Anders Helseth
 
 Speaker: Adam Jonas
 
-## Lightning and the Creator Economy 
+## Lightning and the Creator Economy
 
 ![video](https://youtu.be/qWkwYhL6XHg?si=xZsLJPdMXh-2GrsP)
 
-Speaker: Tidwell, Sheinfeld, Harper, Dickerson 
+Speaker: Tidwell, Sheinfeld, Harper, Dickerson
 
 ## El Salvador's Future is Bright with Bitcoin
 
@@ -127,7 +127,7 @@ Speaker: Monica Taher
 
 Speaker: James Andrew, Max Webster
 
-## Bitcoin's Next Chapter(s) 
+## Bitcoin's Next Chapter(s)
 
 ![video](https://youtu.be/N3NsshDWSu0?si=QDF1JZjEXh5hs-TG)
 
@@ -149,7 +149,7 @@ Speaker: Ray Youssef
 
 ![video](https://youtu.be/xgR-SOP0L2E?si=o-h6slWN5dTl1OBp)
 
-Speaker: Fodé Diop 
+Speaker: Fodé Diop
 
 ## Building for the Remnant
 
@@ -161,7 +161,7 @@ Speaker: Aleks Svetski
 
 ![video](https://youtu.be/wpFYIP-sJsg?si=bneWVVRuly-v_3U-)
 
-Speaker: Almeida, Aguiluz 
+Speaker: Almeida, Aguiluz
 
 ## Closing Remarks
 
@@ -175,13 +175,13 @@ Speaker: Chris Hunter
 
 ![video](https://youtu.be/5IOKEB9zY7o?si=h4SGF8ytLG9695Nq)
 
-Speaker: Nicolas Burtey 
+Speaker: Nicolas Burtey
 
 ## Introduction to Chaincode's Lightning Protocol Development
 
 ![video](https://youtu.be/CSZHQEYW-_g?si=Gl5wxXMcKKdAA6OZ)
 
-Speaker: Josie 
+Speaker: Josie
 
 ## PeerSwap Decentralized P2P LN Balance Protocol
 
@@ -189,13 +189,19 @@ Speaker: Josie
 
 Speaker: Togami & Nick
 
-## Improving the developer experience with BDK & LDK 
+## Onboarding a Country to Lightning
+
+![video](https://youtu.be/VIiXM-jScjU?si=y5qmcI3EJU2fLUL1)
+
+Speaker: Rafael Cordon
+
+## Improving the developer experience with BDK & LDK
 
 ![video](https://youtu.be/cw4qoyN6neM?si=Rr1NBWNyAbuG9ZUc)
 
 Speaker: Conor Okus
 
-## Where do you fit in the Lightning Network? 
+## Where do you fit in the Lightning Network?
 
 ![video](https://youtu.be/gdMzicMg80c?si=3xstpVUukLvLr6xG)
 
@@ -217,9 +223,9 @@ Speaker: Gloria Zhao
 
 ![video](https://youtu.be/0XdN0Qcxlxg?si=358Qron1qNWklF8r)
 
-Speaker: Nicolas Burtey, Roy Sheinfeld, Conor Okus 
+Speaker: Nicolas Burtey, Roy Sheinfeld, Conor Okus
 
-## Lightning Node Observability 
+## Lightning Node Observability
 
 ![video](https://youtu.be/ei9SpOpAeXg?si=A2hMwewIM_oDjB4Y)
 
@@ -229,13 +235,7 @@ Speaker: Bob The Coder
 
 ![video](https://youtu.be/6n5eaI6glHA?si=RU1Y78zN2u_4l1_b)
 
-Speaker: Sergi Delgado Segura 
-
-## Onboarding a Country to Lightning 
-
-![video](https://youtu.be/VIiXM-jScjU?si=y5qmcI3EJU2fLUL1)
-
-Speaker: Rafa Cordon 
+Speaker: Sergi Delgado Segura
 
 ## The perfect LN wallet: what we dream of, what we have now
 
@@ -259,7 +259,7 @@ Speaker: Bastien Teinturier
 
 ![video](https://youtu.be/rR_Y4tX5rvs?si=RGt4B9e8rh5UlXMN)
 
-Speaker: Richter 
+Speaker: Richter
 
 ## All About LNbits and Local Custodianship
 
@@ -277,15 +277,15 @@ Speaker: Togami, Nick , Roose, Greco
 
 ![video](https://youtu.be/H8k0iJBQKgw?si=rfBD9BpZwpCw649_)
 
-Speaker: Chris Stewart 
+Speaker: Chris Stewart
 
-## Running a big Lightning node 
+## Running a big Lightning node
 
 ![video](https://youtu.be/4_29eLYnkBY?si=VYVLfEvrErEkvquk)
 
 Speaker: Romain Rouphael, Victor Afanassieff
 
-## Lightning Privacy 
+## Lightning Privacy
 
 ![video](https://youtu.be/_UYdyzCyO0c?si=8vCyqgzfPQ--2lt9)
 
@@ -295,13 +295,13 @@ Speaker: Ficsor, Teinturier, Openoms
 
 ![video](https://youtu.be/TjLGFFDwn5o?si=IWSrNvVrJD_7AGrO)
 
-Speaker: Justin Carter 
+Speaker: Justin Carter
 
 ## Improving Bitcoin Privacy with Federated E-Cash Mints
 
 ![video](https://youtu.be/eE895YTHjn0?si=by0v2BfE1sY_4xZf)
 
-Speaker: elsirion 
+Speaker: elsirion
 
 ## Onboarding Bitcoin and Lightning Developers
 

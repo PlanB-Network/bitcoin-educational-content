@@ -20,6 +20,7 @@ In this tutorial, I'd like to introduce you to one such solution: the **COLDCARD
 As the COLDCARD Q offers a multitude of functions, I propose to divide its use into 2 tutorials. In this first tutorial, we'll look at the initial configuration and basic functions of the device. Then, in a second tutorial, we'll look at how to take advantage of all your COLDCARD's advanced options.
 
 https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+
 ---
 ## Introducing COLDCARD Q
 
@@ -80,7 +81,8 @@ If you prefer to power your COLDCARD without connecting it to a computer (air-ga
 
 For this tutorial, you'll also need Sparrow Wallet to manage your Bitcoin wallet on your computer. Download [Sparrow Wallet](https://sparrowwallet.com/download/) from the official website. I strongly advise you to check both its authenticity (with GnuPG) and integrity (via hash) before proceeding with the installation. If you don't know how to do this, follow this tutorial:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 ## PIN code selection
 
 You can now switch on your COLDCARD by pressing the button in the top left-hand corner.
@@ -159,7 +161,8 @@ At this point, we strongly recommend checking the integrity and authenticity of 
 
 If you are not familiar with this verification process, I recommend you follow this tutorial:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+
 Take a microSD card and transfer the firmware file (document in `.dfu`) to it. Insert the microSD card into one of your COLDCARD's ports.
 
 ![CCQ](assets/fr/021.webp)
@@ -199,6 +202,7 @@ In this menu, you'll find various customization options, such as setting the scr
 We'll look at other advanced settings in the next tutorial:
 
 https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+
 ## Creating a Bitcoin wallet
 
 Now it's time to generate a new Bitcoin wallet! To do this, you need to create a mnemonic phrase. On Coldcard, you have three methods for generating this phrase:
@@ -218,7 +222,7 @@ Click on "*New Seed Words*".
 
 ![CCQ](assets/fr/029.webp)
 
-You can choose the length of your sentence. I recommend that you opt for a 12-word sentence, as it's less complex to manage and offers no less portfolio security than a 24-word sentence.
+You can choose the length of your sentence. I recommend that you opt for a 12-word sentence, as it's less complex to manage and offers no less wallet security than a 24-word sentence.
 
 ![CCQ](assets/fr/030.webp)
 
@@ -238,7 +242,7 @@ You can write it down on the cardboard supplied with your COLDCARD, or for added
 
 Write down the words provided on the screen on the physical medium of your choice. Depending on your security strategy, you may consider making several complete physical copies of the sentence (but above all, don't split it up). It's important to keep the words numbered and in sequential order.
 
-Obviously, **you must never share these words** on the Internet, unlike in this tutorial. This sample portfolio will be used only on Testnet and will be deleted at the end of the tutorial.
+Obviously, **you must never share these words** on the Internet, unlike in this tutorial. This sample wallet will be used only on Testnet and will be deleted at the end of the tutorial.
 
 After writing down the words, press "*ENTER*".
 
@@ -256,7 +260,7 @@ You now access your COLDCARD's main menu.
 
 ![CCQ](assets/fr/036.webp)
 
-## Setting up a new portfolio on Sparrow
+## Setting up a new wallet on Sparrow
 
 There are several options for establishing communication between the Sparrow Wallet software and your COLDCARD. The most straightforward is to use a USB-C cable. However, by default, your COLDCARD has cable and NFC communications disabled. To reactivate them, navigate to "*Settings*", then "*Hardware On/Off*", and activate the desired communication option.
 
@@ -329,6 +333,7 @@ Before you receive your first bitcoins in your wallet, **I strongly advise you t
 To learn more about how to perform a recovery test, I suggest you consult this other tutorial:
 
 https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+
 ## Receive bitcoins
 
 To receive your first bitcoins, start by switching on and unlocking your COLDCARD.
@@ -380,6 +385,7 @@ You can now add a "*Label*" to describe the source of bitcoins that will be secu
 For more information on labeling, I also recommend this other tutorial:
 
 https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+
 You can then use this address to receive bitcoins.
 
 ![CCQ](assets/fr/063.webp)

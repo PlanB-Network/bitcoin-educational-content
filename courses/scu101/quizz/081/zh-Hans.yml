@@ -1,0 +1,9 @@
+question: 网站 Have I Been Pwned 可以做什么？
+answer: 检查电子邮件地址是否已被泄露。
+wrong_answers:
+  - 生成新的强密码和随机密码。
+  - 创建一个安全的邮箱。
+  - 同步电子邮件账户以方便使用。
+explanation: |
+  该网站可以帮助检测数据泄露，并验证电子邮件地址的安全性。
+reviewed: false

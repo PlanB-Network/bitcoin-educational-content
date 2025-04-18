@@ -1,0 +1,9 @@
+question: Commitment Transaction inachapishwa lini kwenye Bitcoin Blockchain?
+answer: Hatimaye kituo kitakapofungwa
+wrong_answers:
+  - Mara tu baada ya kila uhamishaji kwenye chaneli
+  - Kabla ya kila Commitment Transaction mpya
+  - Wakati fedha zilizopo zimeisha
+explanation: |
+  Shughuli za Commitment hujengwa na kusainiwa kwa kila mabadiliko katika mgao, lakini hatimaye huchapishwa kwenye Blockchain katika tukio la kufungwa kwa kituo.
+reviewed: false

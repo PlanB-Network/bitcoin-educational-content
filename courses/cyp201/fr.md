@@ -91,7 +91,7 @@ Ces fonctions de hachage cryptographiques possèdent plusieurs caractéristiques
 
 #### 1. L'irréversibilité (résistance à la préimage) :
 
-L'irréversibilité signifie qu'il est facile de calculer le hash à partir de l'information en entrée, mais que le calcul inverse, c'est-à-dire retrouver l'entrée à partir du hash, est pratiquement impossible. Cette propriété rend les fonctions de hachage parfaites pour créer des empreintes numériques uniques sans compromettre les informations d'origine. On parle souvent de fonction à sens unique ou de "_trap door function_" pour décrire cette caractéristique.
+L'irréversibilité signifie qu'il est facile de calculer le hash à partir de l'information en entrée, mais que le calcul inverse, c'est-à-dire retrouver l'entrée à partir du hash, est pratiquement impossible. Cette propriété rend les fonctions de hachage parfaites pour créer des empreintes numériques uniques sans compromettre les informations d'origine.
 
 Dans l'exemple donné, obtenir le hash `24f1b9…` en connaissant l'entrée "_PlanB_" est simple et rapide. Toutefois, retrouver le message "_PlanB_" en connaissant uniquement `24f1b9…` est impossible.
 
@@ -2308,7 +2308,7 @@ Ensuite, la génération de l’adresse suit le même processus, en utilisant la
 
 Et voilà ! Nous arrivons à la fin de cette formation CYP201. Si ce cours vous a été utile, je vous serais très reconnaissant de prendre quelques instants pour lui attribuer une bonne note dans le chapitre d’évaluation qui suit. N’hésitez pas également à le partager avec vos proches ou sur vos réseaux sociaux. Enfin, si vous souhaitez obtenir votre diplôme pour cette formation, vous pouvez passer l’examen final juste après le chapitre de l'évaluation.
 
-# Conclusion
+# Section finale
 
 <partId>58111408-b734-54db-9ea7-0d5b67f99f99</partId>
 

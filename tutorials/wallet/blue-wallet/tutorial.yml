@@ -1,18 +1,11 @@
 id: 2f4093da-6d03-4f26-8378-b9351d0dbc90
-builder: Blue Wallet
 
 level: beginner
 
 category: mobile
 
-tags:
-  - open-source
-  - lightning
-  - self-custodial
-
-credits:
-  professor: dance-attack
-  link: https://agora256.com/bluewallet-une-introduction/
+professor_id: ba061ee9-ef85-40a9-aa0b-a46cff642ca7
+credit_link: https://agora256.com/bluewallet-une-introduction/
 
 # Proofreading metadata
 project_id: 448e0634-3970-4863-8e50-08c658e8374d
@@ -21,79 +14,83 @@ proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.52
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.31
+    contributor_names:
+    reward: 0.41
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
-    reward: 0.15
+    reward: 0.21
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.41
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.52
   - language: fr
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.31
+    contributor_names:
+    reward: 0.41
   - language: it
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.41
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.72
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 0.31
+    contributor_names:
+    reward: 0.41
   - language: ru
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.52
   - language: vi
     last_contribution_date: 2024-09-24
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Henry-Da0
     reward: 0.36
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.52
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.62
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.62
 
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 0.52
+tags:
+  - wallets
+  - user-friendly
+  - software

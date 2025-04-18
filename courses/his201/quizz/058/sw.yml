@@ -1,0 +1,9 @@
+question: Je, kiwango cha Hash cha mtandao kinapimwa katika kitengo gani katika nusu ya pili ya mwaka wa 2010?
+answer: Katika GH/s
+wrong_answers:
+  - Katika MH/s
+  - Katika TH/s
+  - Katika PH/s
+explanation: |
+  Kiwango cha Hash kiliongezeka kutoka 1.35 GH/s mnamo Julai 13 hadi 120 GH/s mnamo Desemba 31, 2010.
+reviewed: false

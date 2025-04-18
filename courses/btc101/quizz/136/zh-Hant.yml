@@ -1,0 +1,8 @@
+question: Bitcoin 網路如何確保在 Bitcoin 通訊協定內進行惡意行動的成本過高？
+answer: 通過協議規則和經濟獎勵。
+wrong_answers:
+  - 透過嚴格的規範和監督。
+  - 透過使用先進的安全措施。
+  - 透過法律行動的威脅。
+explanation: >-
+reviewed: true

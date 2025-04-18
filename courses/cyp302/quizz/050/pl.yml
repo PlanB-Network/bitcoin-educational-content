@@ -1,0 +1,9 @@
+question: Dlaczego pola rozszerzeń o podstawie 2 są przydatne w kryptografii?
+answer: Pozwalają one na bezpieczną manipulację ciągami binarnymi.
+wrong_answers:
+  - Upraszczają one obliczenia poprzez zmniejszenie liczby operacji.
+  - Zapobiegają one błędom obliczeniowym poprzez dodanie nadmiarowości.
+  - Ograniczają one zakres możliwości poprzez zmniejszenie liczby Elements.
+explanation: |
+  Pola rozszerzeń o podstawie 2 są wygodne, ponieważ ich Elements można postrzegać jako ciągi binarne, co ułatwia wykonywanie operacji na danych cyfrowych na poziomie binarnym w systemach.
+reviewed: false

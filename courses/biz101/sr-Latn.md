@@ -65,22 +65,22 @@ Zaključak je da su valute mreže dizajnirane da efikasno prenose vrednost. One 
 Dobra valuta poseduje nekoliko suštinskih osobina koje je čine efikasnom za olakšavanje razmene vrednosti. Evo sažetog objašnjenja svake:
 
 
-- Sigurnost**: Valuta mora biti zaštićena od krađe ili neovlašćenog pristupa, osiguravajući da korisnici mogu držati i prenositi je sa poverenjem. Sigurnost je ključna za izgradnju poverenja u sistem.
-- Otpornost na falsifikovanje**: Valuta mora biti izuzetno teška ili nemoguća za falsifikovanje. Ovo osigurava da je svaka jedinica autentična, održava svoju vrednost i sprečava inflaciju uzrokovanu ulaskom lažnih jedinica u cirkulaciju. Na primer, istorijski gledano, zlato je bilo cenjeno ne samo zbog svoje lepote i retkosti, već i zato što je izuzetno teško za proizvodnju. Za razliku od papirnih novčanica ili digitalnih unosa, zlato se ne možete jednostavno "napraviti"—mora se iskopati iz zemlje. Ova prirodna oskudica i težina proizvodnje pomogli su zlatu da održi svoj status kao pouzdano sredstvo čuvanja vrednosti i merilo autentičnosti.
-- Oskudnost** Osnovna karakteristika dobre valute je njena ograničena ponuda ili kontrolisana emisija. Oskudnost osigurava da se njena vrednost očuva tokom vremena, sprečavajući prekomernu proizvodnju koja bi umanjila kupovnu moć. Na primer, određena plemena američkih domorodaca koristila su perle kao oblik valute. U početku, ove perle su bile teške za proizvesti, održavajući njihovu oskudnost i vrednost. Međutim, kada su evropski trgovci počeli masovno da proizvode i preplavljuju tržište perlama, njihova retkost je nestala. Kako je ponuda naglo porasla, perle su izgubile svoju kupovnu moć, potkopavajući njihovu ulogu kao pouzdanog sredstva očuvanja vrednosti.
-- Bez dozvole**: U prošlosti su valute poput zlatnih i srebrnih novčića često kovane od strane privatnih pojedinaca, lokalnih vlasti ili trgovaca koji su imali pristup sirovinama. Ovaj sistem je ponekad funkcionisao pod sporazumima ili licencama koje su izdavali kraljevi ili vladari. Vremenom su kraljevi i vlade centralizovali ovaj proces kako bi dobili veću kontrolu nad ekonomskom stabilnošću, oporezivanjem i monetarnim sistemom. Jedan poznati primer je **talir**, srebrni novčić prvi put kovan 1518. godine u **Joachimsthal dolini** (današnji Jáchymov u Češkoj) od strane lokalnih rudara i vlasti. Ime "talir" potiče od nemačke reči **"Thal"** što znači "dolina." Ovi novčići, poznati po visokom kvalitetu srebra, postali su široko rasprostranjeni širom Evrope. Vremenom je termin lingvistički i geografski evoluirao, na kraju dovodeći do naziva "dolar," koji je usvojen u Sjedinjenim Američkim Državama za njihovu valutu.
+- **Sigurnost**: Valuta mora biti zaštićena od krađe ili neovlašćenog pristupa, osiguravajući da korisnici mogu držati i prenositi je sa poverenjem. Sigurnost je ključna za izgradnju poverenja u sistem.
+- **Otpornost na falsifikovanje**: Valuta mora biti izuzetno teška ili nemoguća za falsifikovanje. Ovo osigurava da je svaka jedinica autentična, održava svoju vrednost i sprečava inflaciju uzrokovanu ulaskom lažnih jedinica u cirkulaciju. Na primer, istorijski gledano, zlato je bilo cenjeno ne samo zbog svoje lepote i retkosti, već i zato što je izuzetno teško za proizvodnju. Za razliku od papirnih novčanica ili digitalnih unosa, zlato se ne možete jednostavno "napraviti"—mora se iskopati iz zemlje. Ova prirodna oskudica i težina proizvodnje pomogli su zlatu da održi svoj status kao pouzdano sredstvo čuvanja vrednosti i merilo autentičnosti.
+- **Oskudnost** Osnovna karakteristika dobre valute je njena ograničena ponuda ili kontrolisana emisija. Oskudnost osigurava da se njena vrednost očuva tokom vremena, sprečavajući prekomernu proizvodnju koja bi umanjila kupovnu moć. Na primer, određena plemena američkih domorodaca koristila su perle kao oblik valute. U početku, ove perle su bile teške za proizvesti, održavajući njihovu oskudnost i vrednost. Međutim, kada su evropski trgovci počeli masovno da proizvode i preplavljuju tržište perlama, njihova retkost je nestala. Kako je ponuda naglo porasla, perle su izgubile svoju kupovnu moć, potkopavajući njihovu ulogu kao pouzdanog sredstva očuvanja vrednosti.
+- **Bez dozvole**: U prošlosti su valute poput zlatnih i srebrnih novčića često kovane od strane privatnih pojedinaca, lokalnih vlasti ili trgovaca koji su imali pristup sirovinama. Ovaj sistem je ponekad funkcionisao pod sporazumima ili licencama koje su izdavali kraljevi ili vladari. Vremenom su kraljevi i vlade centralizovali ovaj proces kako bi dobili veću kontrolu nad ekonomskom stabilnošću, oporezivanjem i monetarnim sistemom. Jedan poznati primer je **talir**, srebrni novčić prvi put kovan 1518. godine u **Joachimsthal dolini(današnji Jáchymov u Češkoj) od strane lokalnih rudara i vlasti. Ime "talir" potiče od nemačke reči **"Thal"** što znači "dolina." Ovi novčići, poznati po visokom kvalitetu srebra, postali su široko rasprostranjeni širom Evrope. Vremenom je termin lingvistički i geografski evoluirao, na kraju dovodeći do naziva "dolar," koji je usvojen u Sjedinjenim Američkim Državama za njihovu valutu.
 
 U modernoj eri, valute su postale potpuno dozvoljene pod sistemom seigniorage, što znači da samo ovlašćeni entiteti—kao što su centralne banke ili trezori—mogu kovati novčiće ili štampati novčanice. Pojedincima više nije zakonski dozvoljeno da proizvode valutu, čime se osigurava centralizovana kontrola nad njenim izdavanjem i ponudom.
 
 Danas, princip seigniorage je izazvan od strane Bitkoin kriptovalute, koja funkcioniše bez centralizovane kontrole. Bitkoin je sistem "bez dozvole" gde svako može učestvovati u korišćenju valute bez traženja dozvole, i, kroz rudarenje, u njenom stvaranju. Ova decentralizacija uklanja monopol izdavanja od vlada, postavljajući pitanja o potencijalnom povratku na konkurentne valutne sisteme slobodnog tržišta.
 
 
-- Jedinica obračuna**: Valuta treba da obezbedi standardnu meru za poređenje vrednosti robe i usluga. Ovo pojednostavljuje trgovinu i čini cene transparentnim i doslednim kroz transakcije.
-- Trajnost**: Valuta mora izdržati habanje tokom vremena. Fizičke valute, poput kovanica ili novčanica, treba da budu otporne na oštećenja, dok digitalne valute moraju biti sigurno pohranjene bez rizika od gubitka podataka.
-- Prenosivost**: Valuta mora biti laka za prenošenje i korišćenje, omogućavajući trgovinu na daljinu. Ovo se može postići fizičkom prenosivošću (lagani novčići ili novčanice) ili digitalnim sistemima prenosa.
-- Deljivost**: Valuta treba da bude deljiva na manje jedinice kako bi se olakšale transakcije različitih veličina. Ova fleksibilnost osigurava da je praktična i za male kupovine i za trgovinu velikih razmera.
-- Zamenljivost**: Sve jedinice valute moraju biti zamenljive i jednake vrednosti. Na primer, jedna novčanica od jednog dolara mora biti ekvivalentna bilo kojoj drugoj novčanici od jednog dolara. Ova uniformnost osigurava pravičnost i jednostavnost u transakcijama.
-- Prepoznatljivost**: Valuta mora biti lako prepoznatljiva i pouzdana. Fizičke valute to postižu kroz jedinstvene dizajne i sigurnosne karakteristike, dok se digitalne valute mogu osloniti na verifikacione protokole. Ovo osigurava široko prihvatanje i smanjuje rizik od prevare.
+- **Jedinica obračuna**: Valuta treba da obezbedi standardnu meru za poređenje vrednosti robe i usluga. Ovo pojednostavljuje trgovinu i čini cene transparentnim i doslednim kroz transakcije.
+- **Trajnost**: Valuta mora izdržati habanje tokom vremena. Fizičke valute, poput kovanica ili novčanica, treba da budu otporne na oštećenja, dok digitalne valute moraju biti sigurno pohranjene bez rizika od gubitka podataka.
+- **Prenosivost**: Valuta mora biti laka za prenošenje i korišćenje, omogućavajući trgovinu na daljinu. Ovo se može postići fizičkom prenosivošću (lagani novčići ili novčanice) ili digitalnim sistemima prenosa.
+- **Deljivost**: Valuta treba da bude deljiva na manje jedinice kako bi se olakšale transakcije različitih veličina. Ova fleksibilnost osigurava da je praktična i za male kupovine i za trgovinu velikih razmera.
+- **Zamenljivost**: Sve jedinice valute moraju biti zamenljive i jednake vrednosti. Na primer, jedna novčanica od jednog dolara mora biti ekvivalentna bilo kojoj drugoj novčanici od jednog dolara. Ova uniformnost osigurava pravičnost i jednostavnost u transakcijama.
+- **Prepoznatljivost**: Valuta mora biti lako prepoznatljiva i pouzdana. Fizičke valute to postižu kroz jedinstvene dizajne i sigurnosne karakteristike, dok se digitalne valute mogu osloniti na verifikacione protokole. Ovo osigurava široko prihvatanje i smanjuje rizik od prevare.
 
 Ove karakteristike čine valutu praktičnom, pouzdanom i efikasnom za olakšavanje trgovine i čuvanje vrednosti u ekonomiji.
 
@@ -133,11 +133,11 @@ Sistemi plaćanja su metode i infrastrukture koje omogućavaju transfer sredstav
 **Upotreba u B2C i B2B:**
 
 
-- B2C (Preduzeće-sa-potrošačem):**
+- **B2C (Preduzeće-sa-potrošačem):**
     - Potrošači često koriste gotovinu, kartice i digitalne novčanike za svakodnevne kupovine—kao što su namirnice, online kupovina ili usluge poput vožnje taksijem.
     - Brzina, pogodnost i niske naknade (za potrošača) često su ključni prioriteti.
     - Beskontaktna i mobilna plaćanja postaju sve popularnija u ovom prostoru zbog njihove jednostavnosti korišćenja.
-- B2B (Preduzeće-sa-preduzećem):**
+- **B2B (Preduzeće-sa-preduzećem):**
     - Preduzeća se obično oslanjaju na bankovne transfere, čekove i fakturisanje za plaćanje dobavljača, izmirivanje velikih računa ili upravljanje redovnim plaćanjima.
     - Fokus je često na sledljivosti, dokumentaciji i sposobnosti da se obrade transakcije većih vrednosti.
     - Korišćenje kartica postoji, ali je manje uobičajeno zbog viših naknada i ograničenja transakcija. Digitalna rešenja poput integrisanih platformi za plaćanje se pojavljuju kako bi pojednostavila i automatizovala procese potraživanja/obaveza.
@@ -193,9 +193,9 @@ Baš kao što smo prešli sa plaćanja po minuti za glasovne pozive na korišće
 Bitkoin je **peer-to-peer sistem plaćanja baziran na digitalnoj valuti** (elektronski novac). Termin "Bitkoin" odnosi se na sledeće komponente:
 
 
-- Kompjuterski protokol** koji omogućava razmenu vrednosti na internetu bez posrednika, bez potrebe za dozvolom i pod pseudonimom. Koristi napredne kriptografske principe.
-- Fizička mreža** mašina povezanih na internet (čvorovi, rudari, itd.) kojima upravljaju pojedinci i preduzeća, formirajući decentralizovani sistem (bez centralnog autoriteta ili jedne tačke kontrole).
-- Jedinica obračuna** unutar sistema. Nikada neće biti više od 21 milion bitkoina u opticaju. Svaki bitkoin je deljiv na 100 miliona jedinica nazvanih „satoši“, u čast njegovog anonimnog tvorca.
+- **Kompjuterski protokol** koji omogućava razmenu vrednosti na internetu bez posrednika, bez potrebe za dozvolom i pod pseudonimom. Koristi napredne kriptografske principe.
+- **Fizička mreža** mašina povezanih na internet (čvorovi, rudari, itd.) kojima upravljaju pojedinci i preduzeća, formirajući decentralizovani sistem (bez centralnog autoriteta ili jedne tačke kontrole).
+- **Jedinica obračuna** unutar sistema. Nikada neće biti više od 21 milion bitkoina u opticaju. Svaki bitkoin je deljiv na 100 miliona jedinica nazvanih „satoši“, u čast njegovog anonimnog tvorca.
 
 Zajedno čine Bitkoin **imovinom na donosioca** i digitalnom valutom **bez izdavaoca**. Vlasništvo je osigurano isključivo držanjem **privatnog kriptografskog ključa**, što omogućava potpunu kontrolu **bez posrednika ili pouzdanih trećih strana**. Kada se prenese, vlasništvo je **konačno**: novi vlasnik ga u potpunosti poseduje bez oslanjanja na centralni autoritet za zaštitu ili konvertibilnost. Transakcije su **nepromenljive**—jednom zabeležene na Blockchain-u, ne mogu se izmeniti ili obrisati.
 
@@ -216,26 +216,26 @@ Bitkoin nas izaziva da preispitamo samu prirodu novca. Možete li objasniti šta
 **Bitkoin LIČNA KARTA**
 
 
-- Starost:** 15 godina (3. januar 2009.)
-- Dnevna vrednost razmene:** $10 milijardi (> CAC40)
-- Tržišna kapitalizacija:** $1.8 triliona (> Meta, Visa, Silver ; < Apple, Google, Gold)
-- Korisnici:** ~100 do 200 miliona (1-2% globalne populacije)
-- Volatilnost:** Intrinzično nema (1 Bitkoin = 1 Bitkoin), veoma visoka eksterno (u razmenama fiat valuta)
-- Performanse:** Prva transakcija na $0.0009; sada $100,000 (x100 miliona)
-- Dostupnost mreže (uptime):** 100% od 2013.
-- Proglašen mrtvim ili kritikovan:** Jednom mesečno
+- **Starost:** 15 godina (3. januar 2009.)
+- **Dnevna vrednost razmene:** $10 milijardi (> CAC40)
+- **Tržišna kapitalizacija:** $1.8 triliona (> Meta, Visa, Silver ; < Apple, Google, Gold)
+- **Korisnici:** ~100 do 200 miliona (1-2% globalne populacije)
+- **Volatilnost:** Intrinzično nema (1 Bitkoin = 1 Bitkoin), veoma visoka eksterno (u razmenama fiat valuta)
+- **Performanse:** Prva transakcija na $0.0009; sada $100,000 (x100 miliona)
+- **Dostupnost mreže (uptime):** 100% od 2013.
+- **Proglašen mrtvim ili kritikovan:** Jednom mesečno
 
 **Čudo ljudske saradnje:**
 
 
 - Potpuno **open-source (otvorenog koda)** 
-- Pravno lice:** Nema
-- CEO:** Nema
-- Investicije rizičnog kapitala:** Nema
-- Marketing:** Nema
-- Istraživanje i razvoj:** Vođeno volonterima
-- Upravljanje:** Od strane korisnika
-- Inovativni ekonomski model:** Kreiranje blokova se subvencioniše transakcionim naknadama (zasnovano na aukciji)
+- **Pravno lice:** Nema
+- **CEO:** Nema
+- **Investicije rizičnog kapitala:** Nema
+- **Marketing:** Nema
+- **Istraživanje i razvoj:** Vođeno volonterima
+- **Upravljanje:** Od strane korisnika
+- **Inovativni ekonomski model:** Kreiranje blokova se subvencioniše transakcionim naknadama (zasnovano na aukciji)
 
 Za više informacija o Bitkoinu, njegovoj istoriji, načinu rada i upotrebi, takođe predlažem da pratite ovaj drugi sveobuhvatni kurs:
 
@@ -249,11 +249,11 @@ https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 Lightning Mreža je **protokol i mreža** koja omogućava Bitkoin transakcije uz minimalnu interakciju sa glavnim Blockchain-om Bitkoina. Evo kako funkcioniše:
 
 
-- Početno podešavanje:** Sredstva se zaključavaju (deponuju) na glavnom Blockchain-u kako bi se uspostavio kanal plaćanja između 2 strane.
-- Mreža plaćanja:** Mreža kanala plaćanja između više strana formira mrežu plaćanja (usmeravanje i međusobno povezivanje).
-- off-chain transakcije -  (van blockchain-a):** Transakcije se odvijaju između strana, ali **nisu odmah objavljene** na glavnom Bitkoin Blockchain-u (**"off-chain"**).
-- On-Chain poravnanja:** Samo **konačno stanje** transakcija kanala se objavljuje na glavnom Bitkoin Blockchain-u (**"On-Chain**"), omogućavajući da se u međuvremenu dogodi mnoštvo transakcija. Ovo grupisanje više uplata smanjuje zagušenje i time snižava naknade u poređenju sa obavljanjem mnogih On-Chain transakcija.
-- Zatvaranje kanala:** Korisnik može zatvoriti svoj kanal u bilo kom trenutku i povratiti svoj bitkoin objavljivanjem najnovijeg stanja transakcije. Ovo je princip da transakcije mogu biti **"objavljene" u bilo kom trenutku, ali "neobjavljene"** dok ne postanu neophodne. Izlaz (zatvaranje kanala) može biti jednostran (odlučen od strane bilo koje od 2 strane u bilo kom trenutku) ili uzajamno dogovoren (što rezultira nižim On-Chain naknadama).
+- **Početno podešavanje:** Sredstva se zaključavaju (deponuju) na glavnom Blockchain-u kako bi se uspostavio kanal plaćanja između 2 strane.
+- **Mreža plaćanja:** Mreža kanala plaćanja između više strana formira mrežu plaćanja (usmeravanje i međusobno povezivanje).
+- **off-chain transakcije -  (van blockchain-a):** Transakcije se odvijaju između strana, ali **nisu odmah objavljene** na glavnom Bitkoin Blockchain-u (**"off-chain"**).
+- **On-Chain poravnanja:** Samo **konačno stanje** transakcija kanala se objavljuje na glavnom Bitkoin Blockchain-u (**"On-Chain**"), omogućavajući da se u međuvremenu dogodi mnoštvo transakcija. Ovo grupisanje više uplata smanjuje zagušenje i time snižava naknade u poređenju sa obavljanjem mnogih On-Chain transakcija.
+- **Zatvaranje kanala:** Korisnik može zatvoriti svoj kanal u bilo kom trenutku i povratiti svoj bitkoin objavljivanjem najnovijeg stanja transakcije. Ovo je princip da transakcije mogu biti **"objavljene" u bilo kom trenutku, ali "neobjavljene"** dok ne postanu neophodne. Izlaz (zatvaranje kanala) može biti jednostran (odlučen od strane bilo koje od 2 strane u bilo kom trenutku) ili uzajamno dogovoren (što rezultira nižim On-Chain naknadama).
 
 ![BIZ101](assets/en/04.webp)
 
@@ -270,9 +270,9 @@ Lightning Mreža omogućava trenutnu razmenu vrednosti brzinom svetlosti. To je 
 **Ključne prednosti:**
 
 
-- Brzina:** Trenutne transakcije.
-- Niske naknade:** Mnogo niži troškovi u poređenju sa tradicionalnim bankarskim mrežama.
-- Jednostavnost usvajanja:** Poslovanja mogu brzo postaviti prihvatanje Lightning plaćanja koristeći samo aplikaciju na pametnom telefonu ili dugme za plaćanje na svojoj veb stranici.
+- **Brzina:** Trenutne transakcije.
+- **Niske naknade:** Mnogo niži troškovi u poređenju sa tradicionalnim bankarskim mrežama.
+- **Jednostavnost usvajanja:** Poslovanja mogu brzo postaviti prihvatanje Lightning plaćanja koristeći samo aplikaciju na pametnom telefonu ili dugme za plaćanje na svojoj veb stranici.
 
 Infrastruktura Lightning-a nadmašuje tradicionalne platne sisteme u pogledu brzine, troškova i energetske efikasnosti. Sa sve većim usvajanjem od strane trgovaca, zamah će se ubrzati: ako plaćanja mogu zaobići zarobljenu međubankarsku mrežu, zašto nastaviti odricati se značajnog procenta prihoda današnjim posrednicima?
 
@@ -293,23 +293,23 @@ Lightning pruža uvid u budućnost gde će svi poslovi koji su postali internet-
 Lightning Mreža je idealna za Bitkoin plaćanja u fizičkim ili online prodavnicama zbog svoje brzine i konačnosti plaćanja.
 
 
-- Brzina:** Lightning (~500ms do nekoliko sekundi) je značajno brži od glavne Bitkoin mreže, gde transakcije mogu čekati i oko 30 minuta da se potvrde. Za velike kupovine (znatno više od $1,000), glavna Bitkoin mreža može i dalje biti preferirana, jer brzina nije toliko kritična. Međutim, ovi detalji su često skriveni od prosečnog korisnika, jer aplikacije ove odluke obrađuju neprimetno u pozadini.
-- Konačnost:** Jednom kada se uplata izvrši na Lightning mreži, ona je konačna. Ne postoji mogućnost povrata sredstava od strane trećih lica ili sporova vezanih za prevaru.
-- Naknade:** Naknade za transakcije na Lightning mreži su minimalne i plaća ih korisnik, a ne trgovac. Trgovci snose naknade samo ako kasnije trebaju preneti svoj bitkoin na drugu mrežu ili uslugu.
+- **Brzina:** Lightning (~500ms do nekoliko sekundi) je značajno brži od glavne Bitkoin mreže, gde transakcije mogu čekati i oko 30 minuta da se potvrde. Za velike kupovine (znatno više od $1,000), glavna Bitkoin mreža može i dalje biti preferirana, jer brzina nije toliko kritična. Međutim, ovi detalji su često skriveni od prosečnog korisnika, jer aplikacije ove odluke obrađuju neprimetno u pozadini.
+- **Konačnost:** Jednom kada se uplata izvrši na Lightning mreži, ona je konačna. Ne postoji mogućnost povrata sredstava od strane trećih lica ili sporova vezanih za prevaru.
+- **Naknade:** Naknade za transakcije na Lightning mreži su minimalne i plaća ih korisnik, a ne trgovac. Trgovci snose naknade samo ako kasnije trebaju preneti svoj bitkoin na drugu mrežu ili uslugu.
 
 **LIGHTNING LIČNA KARTA**
 
 
-- Izumljen:** 2015.
-- Lansiranje:** 2016.
-- Starost:** 7 godina (prva transakcija: 28. decembar 2017.)
-- Tehnička sposobnost mreže:** u velikim razmerama može da obradi 1.000 puta više instant transakcija nego tradicionalni sistemi.
-- Veličine transakcija:** Kreću se od veoma velikih do onih koje su do 1.000 puta manje od tradicionalnih sistema.
-- Brzina transakcije:** Do 100 puta brža.
-- Naknade:** Do 90% niže.
-- Konačnost plaćanja:** Gotovo trenutna (često ~500 milisekundi, ponekad nekoliko sekundi).
-- Potrošnja energije:** ~8% tradicionalnog globalnog monetarnog sistema.
-- Karakteristike:**
+- **Izumljen:** 2015.
+- **Lansiranje:** 2016.
+- **Starost:** 7 godina (prva transakcija: 28. decembar 2017.)
+- **Tehnička sposobnost mreže:** u velikim razmerama može da obradi 1.000 puta više instant transakcija nego tradicionalni sistemi.
+- **Veličine transakcija:** Kreću se od veoma velikih do onih koje su do 1.000 puta manje od tradicionalnih sistema.
+- **Brzina transakcije:** Do 100 puta brža.
+- **Naknade:** Do 90% niže.
+- **Konačnost plaćanja:** Gotovo trenutna (često ~500 milisekundi, ponekad nekoliko sekundi).
+- **Potrošnja energije:** ~8% tradicionalnog globalnog monetarnog sistema.
+- **Karakteristike:**
     - Od osobe do osobe (Peer-to-peer (P2P))
     - Univerzalno
     - Nije potrebna dozvola
@@ -388,10 +388,10 @@ Austrijska škola ekonomije je nazvana po svojim osnivačima i ranim saradnicima
 U austrijskom pogledu, kapital je duboko povezan s idejom odlaganja potrošnje kako bi se izgradili alati ili produktivni resursi koji poboljšavaju buduću proizvodnju. Ovaj proces, poznat kao akumulacija kapitala, je centralan za austrijsku ekonomsku teoriju. Ključni elementi ove perspektive uključuju:
 
 
-- Vremensku preferenciju i odloženu potrošnju**: Pojedinci prirodno preferiraju konzumiranje sada umesto kasnije, ali mogu odlučiti da odlože potrošnju ako očekuju veće nagrade u budućnosti. Štednjom danas, resursi se mogu uložiti u kapitalna dobra (alatke, mašine, infrastrukturu) koja poboljšavaju produktivnost tokom vremena. Društva ili pojedinci sa nižom vremenskom preferencijom više štede i ulažu u dugoročne projekte, podstičući održivi rast.
-- Kapital kao pokretač buduće proizvodnje**: Kapitalna dobra se smatraju posrednim alatima koji se koriste za proizvodnju konačnih potrošačkih dobara. Akumulacijom kapitala, preduzetnici mogu poboljšati produktivnost i stvoriti više bogatstva u budućnosti. Na primer, umesto da odmah proizvode potrošačka dobra, resursi se mogu koristiti za izgradnju fabrika ili mašina. Iako ovo smanjuje kratkoročnu potrošnju, rezultirajuća efikasnost omogućava veću proizvodnju i prosperitet kasnije.
-- Indirektna proizvodnja i efikasnost**: Austrijski ekonomisti, kao što je Eugen Böhm-Bawerk, istakli su ideju indirektne proizvodnje—duži i složeniji proizvodni procesi koji uključuju više faza. Iako ovi procesi zahtevaju vreme, oni na kraju donose efikasnije i produktivnije rezultate, kao što je izgradnja pilane za obradu drveta umesto sakupljanja trupaca ručno.
-- Kamatne stope kao signali**: Kamatne stope, prema austrijskoj perspektivi, prirodno odražavaju vremenske preferencije pojedinaca. Visoke stope ukazuju na preferenciju za trenutnu potrošnju, dok niske stope podstiču štednju i dugoročna ulaganja. Kada centralne banke veštački manipulišu kamatnim stopama, one iskrivljuju ove prirodne signale, što dovodi do pogrešne alokacije resursa i neodrživih ulaganja (pogrešna ulaganja).
+- **Vremensku preferenciju i odloženu potrošnju**: Pojedinci prirodno preferiraju konzumiranje sada umesto kasnije, ali mogu odlučiti da odlože potrošnju ako očekuju veće nagrade u budućnosti. Štednjom danas, resursi se mogu uložiti u kapitalna dobra (alatke, mašine, infrastrukturu) koja poboljšavaju produktivnost tokom vremena. Društva ili pojedinci sa nižom vremenskom preferencijom više štede i ulažu u dugoročne projekte, podstičući održivi rast.
+- **Kapital kao pokretač buduće proizvodnje**: Kapitalna dobra se smatraju posrednim alatima koji se koriste za proizvodnju konačnih potrošačkih dobara. Akumulacijom kapitala, preduzetnici mogu poboljšati produktivnost i stvoriti više bogatstva u budućnosti. Na primer, umesto da odmah proizvode potrošačka dobra, resursi se mogu koristiti za izgradnju fabrika ili mašina. Iako ovo smanjuje kratkoročnu potrošnju, rezultirajuća efikasnost omogućava veću proizvodnju i prosperitet kasnije.
+- **Indirektna proizvodnja i efikasnost**: Austrijski ekonomisti, kao što je Eugen Böhm-Bawerk, istakli su ideju indirektne proizvodnje—duži i složeniji proizvodni procesi koji uključuju više faza. Iako ovi procesi zahtevaju vreme, oni na kraju donose efikasnije i produktivnije rezultate, kao što je izgradnja pilane za obradu drveta umesto sakupljanja trupaca ručno.
+- **Kamatne stope kao signali**: Kamatne stope, prema austrijskoj perspektivi, prirodno odražavaju vremenske preferencije pojedinaca. Visoke stope ukazuju na preferenciju za trenutnu potrošnju, dok niske stope podstiču štednju i dugoročna ulaganja. Kada centralne banke veštački manipulišu kamatnim stopama, one iskrivljuju ove prirodne signale, što dovodi do pogrešne alokacije resursa i neodrživih ulaganja (pogrešna ulaganja).
 
 **Dva oblika kapitala u modernim ekonomijama**
 
@@ -418,16 +418,16 @@ Bitkoin nudi način za akumulaciju i očuvanje kapitala na duži rok bez erozije
 **Ključne ličnosti Austrijske škole**
 
 
-- Carl Menger**: Osnivač Austrijske škole, Menger je razvio teoriju subjektivne vrednosti, koja tvrdi da vrednost dobara zavisi od individualnih preferencija, a ne od troškova proizvodnje.
-- Ludwig von Mises**: Kamen temeljac Austrijske škole, Mises je uveo prakseologiju (teoriju ljudske akcije) i napisao knjigu _Ljudska akcija_, duboku kritiku socijalizma i centralnog planiranja.
-- Friedrich Hayek**: Student Misesa, Hayek je osvojio Nobelovu nagradu za ekonomiju 1974. godine za svoj rad na decentralizovanom znanju i spontanosti tržišta. U svojoj knjizi _Put u ropstvo_, oštro je kritikovao centralizovanu kontrolu.
-- Murray Rothbard**: Učenik Misesa i odlučan zagovornik libertarijanizma, Rothbard je razvio teoriju anarho-kapitalizma, zamišljajući društvo bez države kojim upravljaju dobrovoljni ugovori. Njegova knjiga _Man, Economy, and State_ (_Čovek, ekonomija i država) je ključno delo u austrijskoj ekonomiji.
+- **Carl Menger**: Osnivač Austrijske škole, Menger je razvio teoriju subjektivne vrednosti, koja tvrdi da vrednost dobara zavisi od individualnih preferencija, a ne od troškova proizvodnje.
+- **Ludwig von Mises**: Kamen temeljac Austrijske škole, Mises je uveo prakseologiju (teoriju ljudske akcije) i napisao knjigu _Ljudska akcija_, duboku kritiku socijalizma i centralnog planiranja.
+- **Friedrich Hayek**: Student Misesa, Hayek je osvojio Nobelovu nagradu za ekonomiju 1974. godine za svoj rad na decentralizovanom znanju i spontanosti tržišta. U svojoj knjizi _Put u ropstvo_, oštro je kritikovao centralizovanu kontrolu.
+- **Murray Rothbard**: Učenik Misesa i odlučan zagovornik libertarijanizma, Rothbard je razvio teoriju anarho-kapitalizma, zamišljajući društvo bez države kojim upravljaju dobrovoljni ugovori. Njegova knjiga _Man, Economy, and State_ (_Čovek, ekonomija i država) je ključno delo u austrijskoj ekonomiji.
 
 **Drugi uticajni ekonomisti**
 
 
-- Milton Friedman**: Iako nije direktno povezan sa Austrijskom školom, Friedman je podržavao mnoge pro-tržišne i liberalne ideje. Njegova monetaristička politika se razlikuje od austrijskog mišljenja, ali deli njihovu kritiku prekomerne državne intervencije u ekonomiji.
-- Frédéric Bastiat**: Francuski ekonomista iz 19. veka, Bastiat je uticao na Austrijsku školu svojim radovima o slobodnoj trgovini i nevidljivim posledicama ekonomskih politika. Njegov esej _What Is Seen and What Is Not Seen_ (_Šta se vidi i šta se ne vidi_) je osnovni tekst ekonomskog liberalizma.
+- **Milton Friedman**: Iako nije direktno povezan sa Austrijskom školom, Friedman je podržavao mnoge pro-tržišne i liberalne ideje. Njegova monetaristička politika se razlikuje od austrijskog mišljenja, ali deli njihovu kritiku prekomerne državne intervencije u ekonomiji.
+- **Frédéric Bastiat**: Francuski ekonomista iz 19. veka, Bastiat je uticao na Austrijsku školu svojim radovima o slobodnoj trgovini i nevidljivim posledicama ekonomskih politika. Njegov esej _What Is Seen and What Is Not Seen_ (_Šta se vidi i šta se ne vidi_) je osnovni tekst ekonomskog liberalizma.
 
 ![BIZ101](assets/en/06.webp)
 
@@ -557,10 +557,10 @@ U ovom drugom scenariju, usklađivanje različitih gledišta postaje ključno, j
 Trenutno, scenario u kojem većinski vlasnik donosi odluku je najreprezentativniji među kompanijama koje poseduju bitkoin. Evo nekoliko pravih primera :
 
 
-- Nezavisni profesionalci**: Konsultanti, zdravstveni radnici ili advokati koji ulažu deo svoje dugoročne imovine u Bitkoin. Generalno, ovi profesionalci već imaju štedne ili oročene depozitne račune sa skromnim prinosima.
-- Izvršni direktori tehnološkog sektora**: Izvršni direktor koji je prodao svoju kompaniju i uložio deo prihoda iz svoje lične holding kompanije u bitkoin pre nekoliko godina. Danas uživaju u udobnoj finansijskoj situaciji i reinvestiraju u nove poduhvate.
-- Vlasnici veoma malih preduzeća** : Preduzetnici u uslužnim delatnostima, poljoprivredi ili zanatskim industrijama koji su razumeli potencijal Bitkoina i izdvajaju deo svojih sredstava za to. Njihova primarna motivacija leži u diverzifikaciji i slobodi koju pruža.
-- Kompanije čijim se akcijama trguje na berzi** poput MicroStrategy postavile su presedan konvertovanjem značajnog dela svoje korporativne imovine u bitkoin, pokazujući globalnu promenu u strategijama alokacije korporativnog kapitala. Do jeseni 2024. godine, brojne druge kompanije su sledile njihov primer, dodatno legitimizujući ovaj trend.
+- **Nezavisni profesionalci**: Konsultanti, zdravstveni radnici ili advokati koji ulažu deo svoje dugoročne imovine u Bitkoin. Generalno, ovi profesionalci već imaju štedne ili oročene depozitne račune sa skromnim prinosima.
+- **Izvršni direktori tehnološkog sektora**: Izvršni direktor koji je prodao svoju kompaniju i uložio deo prihoda iz svoje lične holding kompanije u bitkoin pre nekoliko godina. Danas uživaju u udobnoj finansijskoj situaciji i reinvestiraju u nove poduhvate.
+- **Vlasnici veoma malih preduzeća** : Preduzetnici u uslužnim delatnostima, poljoprivredi ili zanatskim industrijama koji su razumeli potencijal Bitkoina i izdvajaju deo svojih sredstava za to. Njihova primarna motivacija leži u diverzifikaciji i slobodi koju pruža.
+- **Kompanije čijim se akcijama trguje na berzi** poput MicroStrategy postavile su presedan konvertovanjem značajnog dela svoje korporativne imovine u bitkoin, pokazujući globalnu promenu u strategijama alokacije korporativnog kapitala. Do jeseni 2024. godine, brojne druge kompanije su sledile njihov primer, dodatno legitimizujući ovaj trend.
 
 ### Oporezivanje bitkoina koji drže preduzeća
 
@@ -583,19 +583,19 @@ Postoje tri načina za nabavku bitkoina:
 ![BIZ101](assets/en/09.webp)
 
 
-- U zamenu za robu ili usluge:**
+- **U zamenu za robu ili usluge:**
 
 Pošto bitkoin funkcioniše kao sredstvo razmene, moguće je zamisliti cirkularnu ekonomiju. Iako je ovo danas još uvek retko, sve više preduzeća počinje da prihvata Bitkoin plaćanja—zašto ne i vaše? (Pogledajte naše sledeće poglavlje)
 
 
-- Rudarenje bitkoina:**
+- **Rudarenje bitkoina:**
 
 Ovo podrazumeva zarađivanje nagrada od rada na mašinama za rudarenje. Za nespecijalizovane firme, ovo ostaje relativno marginalno. Možete učestvovati preko posrednika koji će vam prodati ili iznajmiti računarsku snagu, mrežu i održavanje. Ako posedujete mašine, možete ih računati kao amortizovanu imovinu. U velikim razmerama, moraćete pažljivo izračunati povrat investicije jer je tržište veoma konkurentno i zahteva dobro predviđanje troškova, posebno električne energije.
 
 Da biste saznali više o metodama rudarenja, možete [pogledati "Mining" odeljak u našim tutorijalima](https://planb.network/tutorials/Mining).
 
 
-- Kupovina bitkoina:**
+- **Kupovina bitkoina:**
 
 Ovo je daleko najčešći metod, koji se sprovodi ili putem peer-to-peer razmene ili, češće, na specijalizovanim platformama za trgovanje. Ali kada se bitkoin nabavlja kao korporativna trezorska imovina, kompanije moraju da se pridržavaju strogih regulatornih standarda i procedura Poznavanja Svog Klijenta (KYC-Know Your Customer). Kada ga kupuju na specijalizovanim platformama za trgovanje, od preduzeća se obično zahteva da dostave detaljne informacije o kompaniji, uključujući identifikaciona dokumenta, finansijske izveštaje i dokaz o adresi, kako bi zadovoljili KYC i zahteve za sprečavanje pranja novca (AML-anti-money laundering).
 
@@ -642,17 +642,17 @@ Ovaj kriptografski ključ je izuzetno veliki nasumični broj. Da bi se pojednost
 Ovo dovodi do pitanja starateljstva: držanje Bitkoin znači držanje ključa(čeva). Ili ih držite sami, ili zadatak delegirate trećoj strani. Postoje i međurešenja. Hajde da pregledamo najčešće scenarije:
 
 
-- Samostalno čuvanje:**
+- **Samostalno čuvanje:**
 
 Ovo je opcija koju preporučuju pravi entuzijasti Bitkoina, jer je u skladu sa originalnim dizajnom Bitkoina. Vi delujete kao sopstvena banka: nema rizika da Vas prevari treća strana, ali ste odgovorni za obezbeđivanje ključa(čeva). Imate potpuni pristup svojim sredstvima 24/7. U poslovnom okruženju, ako više ljudi treba da obavlja transakcije, biće vam potrebni odgovarajući alati i procedure za upravljanje pristupom i sigurnošću.
 
 
-- Čuvanje kod treće strane:**
+- **Čuvanje kod treće strane:**
 
 Na primer, menjačnica ili neki drugi servis za kupovinu može kreirati nalog za Vas, konvertovati Vašu tradicionalnu valutu u bitkoin i čuvati je u Vaše ime koristeći njihove sigurnosne sisteme. Većina takvih usluga omogućava Vam da povučete svoje bitkoine na novčanik od kog samo Vi imate ključ. Dok to ne uradite, ne posedujete zaista bitkoine; oslanjate se na njihovo obećanje da će vam ih vratiti. Ovo uključuje balansiranje sigurnosnih rizika (njihovih naspram vaših) i rizika druge ugovorne strane (oni bi mogli propasti ili nestati). Neka preduzeća smatraju ovo prihvatljivim, iako se generalno ne preporučuje za dugoročno skladištenje ili za 100% vaše alokacije. Institucije koje čuvaju bitcoin mogu takođe naplaćivati naknade za to.
 
 
-- „Papirni bitkoin“ (ETF-ovi ili ETP-ovi):**
+- **„Papirni bitkoin“ (ETF-ovi ili ETP-ovi):**
 
 Ovo su tradicionalni finansijski instrumenti koji predstavljaju delove bitkoina, replicirajući njegovu cenovnu performansu. Institucija koja stoji iza proizvoda teoretski kupuje i drži osnovni bitkoin. Vaši depoziti i povlačenja se vrše u tradicionalnoj valuti (npr. dolarima ili evrima), a ne u bitkoinu. Osim za određene proizvode koji dozvoljavaju povlačenje u stvarnom bitkoinu (da bi se izbegao oporezivi događaj u nekim jurisdikcijama), ovi instrumenti uključuju godišnje naknade za upravljanje. Ovde se oslanjate na sigurnost institucije i suočavate se sa rizikom druge strane (na primer, ako bi vlada odlučila da zapleni sav institucionalno držani bitkoin, kao što se desilo sa zlatom 1933. pod američkim Izvršnim naređenjem 6102). Njihova primarna prednost je lak pristup, jer se distribuiraju kroz tradicionalne finansijske kanale. Oni zaobilaze potrebu za obezbeđivanjem kriptografskih ključeva, ali ne nude nijedno od inherentnih svojstava bitkoina: ne možete koristiti Bitkoin mrežu 24/7 za slobodno premeštanje vrednosti bez dozvole. Oni samo repliciraju finansijsku performansu, a ne funkcionalnost ili suverenitet samog Bitkoina.
 
@@ -669,12 +669,12 @@ Ako se odlučite za „papirni bitkoin“, obratićete se finansijskim instituci
 Ako odlučite da kupite stvarni bitkoin preko menjačnice ili brokera, imate nekoliko glavnih kategorija:
 
 
-- Velike međunarodne ili strane platforme:**
+- **Velike međunarodne ili strane platforme:**
 
 Primeri uključuju Kraken, Coinbase, ili Binance, koje su mnogi pojedinci koristili. Neki su naišli na probleme, i teško je dati jasnu preporuku. Savet: ako ih koristite, ne ostavljajte svoje bitkoine tamo duže nego što je potrebno.
 
 
-- Regulisani pružaoci usluga (Registrovani pružaoci usluga digitalne imovine):**
+- **Regulisani pružaoci usluga (Registrovani pružaoci usluga digitalne imovine):**
 
 Na primer, u Francuskoj platforme kao što su Paymium (menjačnica) ili BullBitkoin (broker) su poznate po tome što imaju prave entuzijaste bitkoina na čelu i izgradile su solidnu reputaciju. U SAD-u imate pružaoce usluga kao što su River ili Swann. Generalno, važno je ispitati pedigre pružaoca usluga: njihovu reputaciju, dosadašnje rezultate, popularnost unutar Bitkoin zajednice i da li je njihovo rukovodstvo usklađeno sa osnovnim vrednostima Bitkoina.
 
@@ -687,12 +687,12 @@ Na primer, u Francuskoj platforme kao što su Paymium (menjačnica) ili BullBitk
 Pored naknada i brzine izvršenja—koji su manje bitni ako razmišljate dugoročno (nekoliko godina)—poslovanje bi takođe trebalo da razmotri:
 
 
-- Korisnički izgled (Interface):** Da li je platforma laka za korišćenje?
-- Računovodstvene funkcije:** Minimalno, mogućnost izvoza istorije transakcija u .CSV formatu.
-- Vlasništvo i sigurnost:** Da li platforma drži bitkoine u Vaše ime, ili vam prenosi vlsništvo? Kakva je njihova sigurnosna postavka? Da li imaju „zaključavanje povlačenja“ ili druga ograničenja povlačenja?
-- Korisnička podrška:** Kvalitet, ažurnost i personalizovana pomoć, posebno kada tek počinjete.
-- Reputacija i Etika:** Pouzdanost i vrednosti platforme.
-- Podrška za ponavljajuće kupovine:** Ako planirate da akumulirate bitkoin tokom vremena sa zakazanim kupovinama.
+- **Korisnički izgled (Interface):** Da li je platforma laka za korišćenje?
+- **Računovodstvene funkcije:** Minimalno, mogućnost izvoza istorije transakcija u .CSV formatu.
+- **Vlasništvo i sigurnost:** Da li platforma drži bitkoine u Vaše ime, ili vam prenosi vlsništvo? Kakva je njihova sigurnosna postavka? Da li imaju „zaključavanje povlačenja“ ili druga ograničenja povlačenja?
+- **Korisnička podrška:** Kvalitet, ažurnost i personalizovana pomoć, posebno kada tek počinjete.
+- **Reputacija i Etika:** Pouzdanost i vrednosti platforme.
+- **Podrška za ponavljajuće kupovine:** Ako planirate da akumulirate bitkoin tokom vremena sa zakazanim kupovinama.
 
 # Prilagođena Bitkoin rešenja plaćanja za svaki posao
 
@@ -713,32 +713,32 @@ Bitkoin je infrastruktura poverenja, čija je prva primena uklanjanje posrednika
 Sada, razmotrite perspektivu praktičnog poslovanja čija osnovna delatnost nema nikakve veze sa Bitkoinom. Zašto bi odlučio da prihvati bitkoin plaćanja?
 
 
-- Izgradnja Bitkoin rezervi:**
+- **Izgradnja Bitkoin rezervi:**
 
 Pogledajte naš prethodni članak o kupovini bitkoina. Bilo zbog uverenja ili kao strategija diverzifikacije, neki profesionalci odlučuju da prihvate bitkoin plaćanja. Neki Bitkoin entuzijasti tvrde da što je kompanija manje finansijski sklona—što znači da nema ni vremena ni alata za angažovanje u složenim finansijskim manevrima—**to postaje kritičnije da ta firma bude plaćena u najtvrđem dostupnom obliku novca**. Na taj način, izjednačava se teren, omogućavajući čak i malim, vremenski ograničenim preduzećima da očuvaju vrednost bez upuštanja u finansijske igre.
 
 
-- Dostizanje nove demografske grupe:**
+- **Dostizanje nove demografske grupe:**
 
 Broj korisnika bitkoina raste, i oni imaju značajnu kupovnu moć. Prirodno će se okrenuti ka poslovanjima koja prihvataju njihovu valutu. Štaviše, pošto je ovo prva univerzalna, internet-nativna valuta, možete privući i međunarodne kupce koji prolaze kroz Vašu oblast.
 
 
-- Povećanje Vidljivosti:**
+- **Povećanje Vidljivosti:**
 
 Navođenjem Vašeg poslovanja na platformama kao što je BTCmap.org, na primer. Samo nekoliko preduzeća trenutno prihvata bitkoin, tako da usmena preporuka radi u vašu korist. Takođe vas izdvaja od konkurencije.
 
 
-- Niže Naknade:**
+- **Niže Naknade:**
 
 Instant Bitkoin plaćanja se obavljaju preko Lightning mreže. **Naknade su minimalne i plaća ih kupac**. Nema naknada za platne terminale, nema neuspeha u autorizaciji plaćanja i nema prevara. U poređenju, industrija plaćanja (kartice, terminali, transferi, PSP-ovi, itd.) košta oko 2,2 triliona dolara godišnje globalno. Dodajte tome povraćaje sredstava i prevare, i ukupno, skoro jedna desetina ekvivalenta BDP-a SAD-a se "skida" sa produktivnih preduzeća širom sveta samo da bi se prenela vrednost. Bez obzira na vaše poslovanje, finansijske naknade su teret koji treba optimizovati, a u nekim slučajevima, visoke naknade mogu ugušiti određene poslovne modele.
 
 
-- Sloboda i bez dozvole, 24/7:**
+- **Sloboda i bez dozvole, 24/7:**
 
 Nema potrebe da tražite dozvolu za korišćenje bitkoina. Svako može učestvovati u ekonomiji u roku od nekoliko minuta koristeći aplikaciju na pametnom telefonu. Možete poslati ili primiti uplatu od bilo koga—pojedinca ili preduzeća—u bilo koje vreme, bez vremenskih ograničenja ili kašnjenja.
 
 
-- Iskoristite prednosti Bitkoin mreže:**
+- **Iskoristite prednosti Bitkoin mreže:**
 
 Niste obavezni da zadržavate svoje uplate u bitkoin formi—posebno ako treba da platite dobavljače ili uplatite PDV. Određeni servisi mogu konvertovati sve ili deo vaših bitkoin uplata u valutu po vašem izboru (npr. evre na vaš IBAN) uz naknadu. U ovom scenariju, prednost prihvatanja bitkoina može ležati u privlačenju novih korisnika ili u intrinzičnim prednostima bitkoina (kao što su niže naknade, rad bez prekida i bez rizika od prevare ili povrata sredstava).
 
@@ -974,8 +974,8 @@ Jedna od ključnih prednosti bitkoina je mogućnost premeštanja sredstava po ž
 Ako počinjete od nule—bez prodavnice, softvera za upravljanje proizvodima i sistema za prodajna mesta (POS)—imate nekoliko opcija:
 
 
-- Outsourcing:** Možete angažovati spoljne saradnike za kreiranje veb-sajta sa opcijama kupovine, a zatim dodati mogućnost za bitkoin plaćanja uz tradicionalna rešenja u prodavnici.
-- Jednostavna rešenja:** Alternativno, možete koristiti platforme kao što je Accessing.app da to uradite sami. Ključne prednosti uključuju:
+- **Outsourcing:** Možete angažovati spoljne saradnike za kreiranje veb-sajta sa opcijama kupovine, a zatim dodati mogućnost za bitkoin plaćanja uz tradicionalna rešenja u prodavnici.
+- **Jednostavna rešenja:** Alternativno, možete koristiti platforme kao što je Accessing.app da to uradite sami. Ključne prednosti uključuju:
     - Brzo i povoljno postavljanje online ili fizičke prodavnice.
     - Pogodno za sezonske poslove, događaje, restorane ili maloprodajne radnje.
     - Definisanje i upravljanje proizvodima za fizičku i online prodaju.
@@ -993,19 +993,19 @@ Iako Lightning mreža nudi superiornu efikasnost i niže naknade, njena primena 
 Nove infrastrukture uspevaju jer su efikasnije, a rani usvojitelji se pridružuju jer ostvaruju opipljive koristi. Evo zapažanja o Lightning mreži u 2024.:
 
 
-- Ultra-brze transakcije:** Transakcije su često gotovo trenutne (<500ms) i imaju izuzetno nisku stopu neuspeha.
-- Profesionalizacija mreže:** Veći igrači osiguravaju likvidnost širom mreže, dok su pojedinci uglavnom prestali sa usmeravanjem plaćanja i sada uglavnom upravljaju "čvorovima".
-- Poboljšano korisničko iskustvo:** Mobilne aplikacije za individualne korisnike su značajno poboljšane. Funkcije kao što su spajanje, statične Bolt12 fakture i plaćanja bez potvrde (0-conf) su široko dostupne, čineći interakcije besprekornim. Problemi sa interoperabilnošću (npr. prisilna zatvaranja) više nisu glavne brige.
-- Poboljšano upravljanje čvorovima i kanalima:** I pojedinačna i profesionalna rešenja su napredovala. Na primer, BTC Pay Server sada podržava brojne dodatke za povezivanje sa drugim provajderima (PSP-ovima, on/off rampama, itd.). Novi provajderi infrastrukture, kao što su LightSpark i Alby Hub, takođe ulaze u proizvodnju.
-- Rast usvajanja od strane trgovaca:** Trgovci poput BitRefill-a izveštavaju o porastu bitkoin plaćanja među svojim aktivnim korisnicima, uz jasan pomak ka Bitkoin mreži u odnosu na Lightning. Pored toga, ultra-niske naknade Lightning-a čine ga preferiranim izborom za mala plaćanja (prosečno €32 po transakciji).
+- **Ultra-brze transakcije:** Transakcije su često gotovo trenutne (<500ms) i imaju izuzetno nisku stopu neuspeha.
+- **Profesionalizacija mreže:** Veći igrači osiguravaju likvidnost širom mreže, dok su pojedinci uglavnom prestali sa usmeravanjem plaćanja i sada uglavnom upravljaju "čvorovima".
+- **Poboljšano korisničko iskustvo:** Mobilne aplikacije za individualne korisnike su značajno poboljšane. Funkcije kao što su spajanje, statične Bolt12 fakture i plaćanja bez potvrde (0-conf) su široko dostupne, čineći interakcije besprekornim. Problemi sa interoperabilnošću (npr. prisilna zatvaranja) više nisu glavne brige.
+- **Poboljšano upravljanje čvorovima i kanalima:** I pojedinačna i profesionalna rešenja su napredovala. Na primer, BTC Pay Server sada podržava brojne dodatke za povezivanje sa drugim provajderima (PSP-ovima, on/off rampama, itd.). Novi provajderi infrastrukture, kao što su LightSpark i Alby Hub, takođe ulaze u proizvodnju.
+- **Rast usvajanja od strane trgovaca:** Trgovci poput BitRefill-a izveštavaju o porastu bitkoin plaćanja među svojim aktivnim korisnicima, uz jasan pomak ka Bitkoin mreži u odnosu na Lightning. Pored toga, ultra-niske naknade Lightning-a čine ga preferiranim izborom za mala plaćanja (prosečno €32 po transakciji).
 
 ![BIZ101-profiles](assets/en/30.webp)
 
 *[Izvor: BTC Map](https://btcmap.org/)*
 
 
-- Metrike mreže:** Ukupan broj kanala i bitkoina zaključan na Lightning mreži ostaje stabilan, sa približno 20,000 čvorova (nodova), 5,200 BTC, i 60,000 kanala. Međutim, ovo odražava samo deo mreže i ukazuje na rotaciju među učesnicima, sa manje pojedinaca i više profesionalaca koji učestvuju.
-- Lightning kao most između mreža:** Efikasnost i dostupnost Lightning mreže već su je pozicionirali kao most ka drugim međusobno povezanim mrežama (npr. FediMint, Liquid, itd.).
+- **Metrike mreže:** Ukupan broj kanala i bitkoina zaključan na Lightning mreži ostaje stabilan, sa približno 20,000 čvorova (nodova), 5,200 BTC, i 60,000 kanala. Međutim, ovo odražava samo deo mreže i ukazuje na rotaciju među učesnicima, sa manje pojedinaca i više profesionalaca koji učestvuju.
+- **Lightning kao most između mreža:** Efikasnost i dostupnost Lightning mreže već su je pozicionirali kao most ka drugim međusobno povezanim mrežama (npr. FediMint, Liquid, itd.).
 
 **Povratak novčanika**
 
@@ -1036,8 +1036,8 @@ Najvažnija posledica koju treba imati na umu je da, u većini jurisdikcija, zar
 Još jedan aspekt računovodstva važan za Bitkoin je razlikovanje između dve vrste kapitalnih dobitaka:
 
 
-- Latentni Dobici/Gubici:** Nerealizovane dobici ili gubici zasnovani na vrednosti Bitkoina koji se drži na kraju računovodstvenog perioda.
-- Efektivni Dobici/Gubici:** Realizovani dobici ili gubici kada se Bitkoin proda ili zameni tokom fiskalne godine.
+- **Latentni Dobici/Gubici:** Nerealizovane dobici ili gubici zasnovani na vrednosti Bitkoina koji se drži na kraju računovodstvenog perioda.
+- **Efektivni Dobici/Gubici:** Realizovani dobici ili gubici kada se Bitkoin proda ili zameni tokom fiskalne godine.
 
 Ove kalkulacije u velikoj meri zavise od toga da li se Bitkoin drži za dugoročna ulaganja ili za kratkoročnu operativnu upotrebu. Pored toga, preduzeća moraju uskladiti svoje računovodstvene prakse sa lokalnim poreskim strukturama, jer se propisi značajno razlikuju po zemljama.
 
@@ -1088,9 +1088,9 @@ Pravni i računovodstveni tretman Bitkoin značajno se razlikuje između pojedin
 Za preduzeća Bitkoin može biti klasifikovan pod različitim računima glavne knjige u zavisnosti od njegove namene:
 
 
-- Fiksna imovina:** Za bitkoin koji se drži dugoročno kao strateška investicija.
-- Zalihe:** Za Bitkoin koji se koristi u proizvodnim procesima (retka upotreba, na primer, ovo je slučaj kod profesionalnih trgovaca).
-- Gotovina ili računi:** Za Bitkoin koji se drži kao likvidna imovina, prvenstveno za operativne transakcije ili kratkoročno upravljanje sredstvima.
+- **Fiksna imovina:** Za bitkoin koji se drži dugoročno kao strateška investicija.
+- **Zalihe:** Za Bitkoin koji se koristi u proizvodnim procesima (retka upotreba, na primer, ovo je slučaj kod profesionalnih trgovaca).
+- **Gotovina ili računi:** Za Bitkoin koji se drži kao likvidna imovina, prvenstveno za operativne transakcije ili kratkoročno upravljanje sredstvima.
 
 Izbor klasifikacije zavisi od aktivnosti i strategije kompanije, sa implikacijama na finansijsko izveštavanje i poreske obaveze. Uvek proverite lokalne propise, jer se ove klasifikacije mogu razlikovati po zemljama.
 
@@ -1101,16 +1101,16 @@ Pravno priznavanje i tretman bitkoina variraju u zavisnosti od jurisdikcije. Nek
 U većini zemalja, bitkoin je kategorizovan kao digitalna imovina, a njegovo tretiranje je regulisano opštim računovodstvenim standardima. Preduzeća moraju evidentirati bitkoin transakcije na sledeći način:
 
 
-- Evidentiranje kapitalnih dobitaka/gubitaka:** Preduzeća moraju evidentirati ostvarene dobitke ili gubitke u svojim finansijskim rezultatima.
-- Procene Latentne Dobiti/Gubici:** Nerealizovani dobici ili gubici često moraju biti prijavljeni, ali možda neće direktno uticati na oporezivi prihod.
-- Usklađenost sa računovodstvenim standardima:** Preduzeća moraju integrisati bitkoin transakcije u standardne knjigovodstvene prakse, osiguravajući transparentnost i tačnost.
+- **Evidentiranje kapitalnih dobitaka/gubitaka:** Preduzeća moraju evidentirati ostvarene dobitke ili gubitke u svojim finansijskim rezultatima.
+- **Procene Latentne Dobiti/Gubici:** Nerealizovani dobici ili gubici često moraju biti prijavljeni, ali možda neće direktno uticati na oporezivi prihod.
+- **Usklađenost sa računovodstvenim standardima:** Preduzeća moraju integrisati bitkoin transakcije u standardne knjigovodstvene prakse, osiguravajući transparentnost i tačnost.
 
 Pristup računovodstva bitkoinu varira u zavisnosti od geografije:
 
 
-- Sjedinjene Američke Države:** Poreska uprava (IRS) klasifikuje Bitkoin kao **imovinu, slično akcijama, obveznicama ili nekretninama**. Ova klasifikacija znači da bilo koja transakcija koja uključuje kriptovalutu, kao što je zarađivanje, prodaja, trgovanje ili čak korišćenje za kupovinu, može stvoriti oporezivi događaj i dobici podležu porezu na kapitalnu dobit.
-- Evropska unija:** Države članice generalno tretiraju bitkoin kao spekulativnu imovinu, a ne kao funkcionalnu valutu. Stoga su dobici često podložni porezu na kapitalnu dobit.
-- Azija:** Zemlje poput Singapura i Japana usvojile su progresivne regulatorne okvire, tretirajući Bitkoin transakcije povoljno u specifičnim kontekstima. Međutim, Bitkoin se generalno računa kao **nematerijalna imovina**, i meri se po fer vrednosti na datum izveštavanja, sa promenama priznatim u dobitku ili gubitku.
+- **Sjedinjene Američke Države:** Poreska uprava (IRS) klasifikuje Bitkoin kao **imovinu, slično akcijama, obveznicama ili nekretninama**. Ova klasifikacija znači da bilo koja transakcija koja uključuje kriptovalutu, kao što je zarađivanje, prodaja, trgovanje ili čak korišćenje za kupovinu, može stvoriti oporezivi događaj i dobici podležu porezu na kapitalnu dobit.
+- **Evropska unija:** Države članice generalno tretiraju bitkoin kao spekulativnu imovinu, a ne kao funkcionalnu valutu. Stoga su dobici često podložni porezu na kapitalnu dobit.
+- **Azija:** Zemlje poput Singapura i Japana usvojile su progresivne regulatorne okvire, tretirajući Bitkoin transakcije povoljno u specifičnim kontekstima. Međutim, Bitkoin se generalno računa kao **nematerijalna imovina**, i meri se po fer vrednosti na datum izveštavanja, sa promenama priznatim u dobitku ili gubitku.
 
 Važno je razumeti propise u zemlji u kojoj poslujete i prilagoditi svoje računovodstvene prakse u skladu s tim.
 
@@ -1119,9 +1119,9 @@ Važno je razumeti propise u zemlji u kojoj poslujete i prilagoditi svoje račun
 Brzi tempo inovacija u kriptovalutama često nadmašuje regulatorne okvire. Od priznavanja bitkoina kao digitalne imovine, globalni propisi su doživeli postepena ažuriranja, ali praznine i dalje postoje:
 
 
-- Nedostatak Jurisprudencije:** Malo pravnih slučajeva je razjasnilo specifične računovodstvene prakse, ostavljajući prostor za interpretaciju.
-- Aktuelne debate:** Pitanja kao što je poreski tretman latentnih gubitaka ostaju nerešena u mnogim jurisdikcijama.
-- Kompleksnost prekograničnog poslovanja:** Kompanije koje posluju na međunarodnom nivou suočavaju se sa izazovima usklađivanja različitih nacionalnih računovodstvenih standarda.
+- **Nedostatak Jurisprudencije:** Malo pravnih slučajeva je razjasnilo specifične računovodstvene prakse, ostavljajući prostor za interpretaciju.
+- **Aktuelne debate:** Pitanja kao što je poreski tretman latentnih gubitaka ostaju nerešena u mnogim jurisdikcijama.
+- **Kompleksnost prekograničnog poslovanja:** Kompanije koje posluju na međunarodnom nivou suočavaju se sa izazovima usklađivanja različitih nacionalnih računovodstvenih standarda.
 
 Uprkos ovim izazovima, proaktivni stavovi mnogih zemalja pružaju solidnu osnovu za preduzeća da uključe bitkoin u svoje poslovanje. Kontinuirana ažuriranja i međunarodna harmonizacija biće od suštinskog značaja za rešavanje složenosti koje se pojavljuju računovodstvu kriptovaluta.
 
@@ -1130,9 +1130,9 @@ Uprkos ovim izazovima, proaktivni stavovi mnogih zemalja pružaju solidnu osnovu
 Klasifikacija Bitkoin u finansijskim izveštajima varira u zavisnosti od jurisdikcije i zavisi od njegove namene unutar preduzeća. Generalno, bitkoin se tretira kao digitalna imovina, slična zalihama, investicijama ili valutama, ali sa jedinstvenim karakteristikama koje utiču na njegov računovodstveni tretman.
 
 
-- Digitalna imovina ili nematerijalna imovina**: Mnoge jurisdikcije, uključujući Francusku i Evropsku uniju, klasifikuju bitkoin kao digitalnu ili nematerijalnu imovinu, a ne kao zakonsko sredstvo plaćanja. Ova klasifikacija zahteva od preduzeća da bitkoin evidentiraju drugačije nego fiat valute.
-- Zalihe**: Ako osnovna delatnost preduzeća uključuje trgovinu bitkoinom, kao što su kripto berze ili brokeri, bitkoin se klasifikuje kao zalihe. U ovom slučaju, vrednovanje se vrši prema računovodstvenim standardima za zalihe.
-- Finansijska investicija**: Kompanije koje drže Bitkoin kao dugoročnu imovinu mogu ga klasifikovati kao finansijsku investiciju. Na primer, u Sjedinjenim Američkim Državama, preduzeća bi mogla evidentirati bitkoin prema smernicama Odbora za finansijske računovodstvene standarde (FASB), priznajući umanjenja kada tržišne vrednosti opadnu.
+- **Digitalna imovina ili nematerijalna imovina**: Mnoge jurisdikcije, uključujući Francusku i Evropsku uniju, klasifikuju bitkoin kao digitalnu ili nematerijalnu imovinu, a ne kao zakonsko sredstvo plaćanja. Ova klasifikacija zahteva od preduzeća da bitkoin evidentiraju drugačije nego fiat valute.
+- **Zalihe**: Ako osnovna delatnost preduzeća uključuje trgovinu bitkoinom, kao što su kripto berze ili brokeri, bitkoin se klasifikuje kao zalihe. U ovom slučaju, vrednovanje se vrši prema računovodstvenim standardima za zalihe.
+- **Finansijska investicija**: Kompanije koje drže Bitkoin kao dugoročnu imovinu mogu ga klasifikovati kao finansijsku investiciju. Na primer, u Sjedinjenim Američkim Državama, preduzeća bi mogla evidentirati bitkoin prema smernicama Odbora za finansijske računovodstvene standarde (FASB), priznajući umanjenja kada tržišne vrednosti opadnu.
 
 **Implikacije klasifikacije :**
 
@@ -1145,8 +1145,8 @@ Klasifikacija Bitkoin u finansijskim izveštajima varira u zavisnosti od jurisdi
 Metode vrednovanja su računovodstvene tehnike koje se koriste za određivanje osnovne cene bitkoina, što je ključno za tačno izračunavanje dobitaka ili gubitaka tokom transakcija. Generalno, najbolje je **održavati uvek ažuriranu vrednost troškova trenutnih zaliha bitkoin sredstava** u računovodstvenom sistemu. Ovo osigurava transparentnost, usklađenost sa poreskim propisima i sprečava zaostajanje kada je potrebno izvršiti proračune.
 
 
-- First In, First Out (FIFO)- Prvi ulaz, prvi izlaz**: Uobičajena metoda u jurisdikcijama kao što su Australija i Indija, ova metoda vrednuje bitkoin na osnovu najranije nabavne cene. Ovo može postati prilično **kompleksno** jer može zahtevati praćenje svake frakcije bitkoina zasebno kada dođe do prodaje.
-- Ponderisana prosečna cena (WAC)**: Često se preferira za transakcije velikog obima zbog svoje **jednostavnosti**, kao što je slučaj u zemljama poput Sjedinjenih Američkih Država.
+- **First In, First Out (FIFO)- Prvi ulaz, prvi izlaz**: Uobičajena metoda u jurisdikcijama kao što su Australija i Indija, ova metoda vrednuje bitkoin na osnovu najranije nabavne cene. Ovo može postati prilično **kompleksno** jer može zahtevati praćenje svake frakcije bitkoina zasebno kada dođe do prodaje.
+- **Ponderisana prosečna cena (WAC)**: Često se preferira za transakcije velikog obima zbog svoje **jednostavnosti**, kao što je slučaj u zemljama poput Sjedinjenih Američkih Država.
 
 Preporučuje se da se vodi detaljna evidencija za praćenje troškova bitkoina **od trenutka kada kompanija počne da kupuje bitkoin ili ga prihvata kao plaćanje** kako bi se osiguralo tačno i organizovano vođenje evidencije. Samo ta razmatranja treba da budu prioritet pri izboru softverskog rešenja za prihvatanje plaćanja bitkoinom ili za kupovinu bitkoina.
 
@@ -1164,11 +1164,11 @@ Preduzeća moraju osigurati da alati za **Plaćanje** koje koriste omogućavaju:
 ### Izazovi
 
 
-- Volatilnost**: Cena bitkoina značajno varira, stvarajući poteškoće u proceni vrednosti imovine i predviđanju budućih finansijskih ishoda.
-- Regulatorni nadzor**: U zemljama poput Kine, ograničeni status bitkoina ograničava njegovu upotrebu kao sredstva za čuvanje vrednosti.
-- Regulatorna neizvesnost:** : Evoluirajući regulatorni pejzaž bitkoina često ostavlja preduzeća u neizvesnosti. Na primer, promene u poreskim politikama, kao što su one u Indiji ili Sjedinjenim Američkim Državama, mogu preko noći uticati na računovodstvene prakse.
-- Rizici lošeg upravljanja** : Nepravilna klasifikacija ili neuspeh u praćenju bitkoin transakcija može dovesti do problema sa usklađenošću, kazni ili oštećenja reputacije.
-- Rizici ponovne kvalifikacije**: Održavanje značajnog dela sredstava kompanije u bitkoinu izlaže preduzeće potencijalnim gubicima usled pada cena. Ovo može imati ozbiljne posledice, naročito ako se takvi padovi dogode kada su dospele isplate dobavljačima, zaposlenima ili porezi. Pored toga, vlasnik kompanije može biti odgovoran, što može rezultirati kaznama ili drugim pravnim problemima, kao što su optužbe za zloupotrebu imovine kompanije.
+- **Volatilnost**: Cena bitkoina značajno varira, stvarajući poteškoće u proceni vrednosti imovine i predviđanju budućih finansijskih ishoda.
+- **Regulatorni nadzor**: U zemljama poput Kine, ograničeni status bitkoina ograničava njegovu upotrebu kao sredstva za čuvanje vrednosti.
+- **Regulatorna neizvesnost:** : Evoluirajući regulatorni pejzaž bitkoina često ostavlja preduzeća u neizvesnosti. Na primer, promene u poreskim politikama, kao što su one u Indiji ili Sjedinjenim Američkim Državama, mogu preko noći uticati na računovodstvene prakse.
+- **Rizici lošeg upravljanja** : Nepravilna klasifikacija ili neuspeh u praćenju bitkoin transakcija može dovesti do problema sa usklađenošću, kazni ili oštećenja reputacije.
+- **Rizici ponovne kvalifikacije**: Održavanje značajnog dela sredstava kompanije u bitkoinu izlaže preduzeće potencijalnim gubicima usled pada cena. Ovo može imati ozbiljne posledice, naročito ako se takvi padovi dogode kada su dospele isplate dobavljačima, zaposlenima ili porezi. Pored toga, vlasnik kompanije može biti odgovoran, što može rezultirati kaznama ili drugim pravnim problemima, kao što su optužbe za zloupotrebu imovine kompanije.
 
 ## Računovodstveni alati i softver
 
@@ -1204,12 +1204,12 @@ Konačno, bilo da ste mali trgovac ili već etablirano preduzeće, moguće je **
 **Primer**:
 
 
-- Kurs konverzije bitkoina**: 1 Bitkoin = €40,000.
-- Transakcija 1**: Kupac kupuje više peciva za €20.
+- **Kurs konverzije bitkoina**: 1 Bitkoin = €40,000.
+- **Transakcija 1**: Kupac kupuje više peciva za €20.
     - Bitkoin ekvivalent: (20 / 40,000) = 0.0005 Bitkoin = 50,000 Satošija.
     - Naknada za konverziju: 1.5% (€20 × 0.015) = €0.30.
     - Neto primljeno: €20 - €0.30 = €19.70.
-- Transakcija 2**: Kupac kupuje kafu za €5.
+- **Transakcija 2**: Kupac kupuje kafu za €5.
     - Bitkoin ekvivalent: (5 / 40,000) = 0.000125 Bitkoin = 12,500 Satošija.
     - Naknada za konverziju: 1.5% (€5 × 0.015) = €0.075.
     - Neto primljeno: €5 - €0.075 = €4.93.
@@ -1217,9 +1217,9 @@ Konačno, bilo da ste mali trgovac ili već etablirano preduzeće, moguće je **
 **Rezime transakcija**:
 
 
-- Ukupna prodaja**: €25.
-- Ukupne naknade**: €0.375.
-- Neto primljeni evri**: €24.625.
+- **Ukupna prodaja**: €25.
+- **Ukupne naknade**: €0.375.
+- **Neto primljeni evri**: €24.625.
 
 **Računovodstvene implikacije**:
 
@@ -1235,8 +1235,8 @@ Konačno, bilo da ste mali trgovac ili već etablirano preduzeće, moguće je **
 **Primer**:
 
 
-- Kurs konverzije bitkoina**: 1 Bitkoin = €40,000.
-- Transakcija od kupca**: Kupac kupuje peciva za €50.
+- **Kurs konverzije bitkoina**: 1 Bitkoin = €40,000.
+- **Transakcija od kupca**: Kupac kupuje peciva za €50.
     - Bitkoin ekvivalent: (50 / 40,000) = 0.00125 Bitkoin = 125,000 Satošija.
     - Konverzija (50%): €25 vrednosti Bitkoin = 0.000625 Bitkoin = 62,500 Satošija.
         - Naknada za konverziju: 1.5% (€25 × 0.015) = €0.375.
@@ -1246,10 +1246,10 @@ Konačno, bilo da ste mali trgovac ili već etablirano preduzeće, moguće je **
 **Rezime**:
 
 
-- Ukupna prodaja**: €50.
-- Naknade**: €0.375.
-- Neto primljeni evri**: €24.625.
-- Zadržan bitkoin**: 62,500 Satošija.
+- **Ukupna prodaja**: €50.
+- **Naknade**: €0.375.
+- **Neto primljeni evri**: €24.625.
+- **Zadržan bitkoin**: 62,500 Satošija.
 
 **Računovodstvene implikacije**:
 
@@ -1266,10 +1266,10 @@ Konačno, bilo da ste mali trgovac ili već etablirano preduzeće, moguće je **
 **Primer**:
 
 
-- Kurs bitkoina u trenutku plaćanja**: 1 Bitkoin = €30,000.
-- Transakcija od kupca**: Klijent plaća za usluge u vrednosti od €3,000.
+- **Kurs bitkoina u trenutku plaćanja**: 1 Bitkoin = €30,000.
+- **Transakcija od kupca**: Klijent plaća za usluge u vrednosti od €3,000.
     - Bitkoin ekvivalent: (3,000 / 30,000) = 0.1 Bitkoin = 10,000,000 Satošija.
-- Godišnja procena vrednosti**:
+- **Godišnja procena vrednosti**:
     - Kurs bitkoina na kraju godine: 1 Bitkoin = €35,000.
     - Procena vrednosti bitkoin imovine: 0.1 Bitkoin × €35,000 = €3,500.
     - Nerealizovani dobitak: €3,500 - €3,000 = €500.
@@ -1277,9 +1277,9 @@ Konačno, bilo da ste mali trgovac ili već etablirano preduzeće, moguće je **
 **Rezime**:
 
 
-- Ukupni priznati prihod**: €3,000.
-- Zadržani bitkoin**: 0.1 bitkoin vrednovan na €3,500 u bilansu stanja.
-- Nerealizovani dobitak**: €500 prikazan u finansijskim napomenama, ali nije realizovano kao prihod.
+- **Ukupni priznati prihod**: €3,000.
+- **Zadržani bitkoin**: 0.1 bitkoin vrednovan na €3,500 u bilansu stanja.
+- **Nerealizovani dobitak**: €500 prikazan u finansijskim napomenama, ali nije realizovano kao prihod.
 
 **Računovodstvene implikacije**:
 
@@ -1295,16 +1295,16 @@ Konačno, bilo da ste mali trgovac ili već etablirano preduzeće, moguće je **
 **Primer**:
 
 
-- Bitkoin kupovine od kupaca**:
+- **Bitkoin kupovine od kupaca**:
     - Kupovina 1: €2,000 po €20,000/BTC = 0.1 Bitkoin = 10,000,000 Satošija.
     - Kupovina 2: €3,000 po €25,000/BTC = 0.12 Bitkoin = 12,000,000 Satošija.
     - Kupovina 3: €5,000 po €30,000/BTC = 0.1667 Bitkoin = 16,670,000 Satošija.
-    - Ukupno zadržani bitkoin**: 0.3867 Bitkoin = 38,670,000 Satošija.
-- Godišnja procena vrednosti**:
+    - **Ukupno zadržani bitkoin**: 0.3867 Bitkoin = 38,670,000 Satošija.
+- **Godišnja procena vrednosti**:
     - Cena bitkoina na kraju godine: €40,000/BTC.
     - Ukupna vrednost: 0.3867 Bitkoin × €40,000 = €15,468.
     - Nerealizovani dobitak: €15,468 - €10,000 (ukupni trošak) = €5,468.
-- Prodaja 50% bitkoina**:
+- **Prodaja 50% bitkoina**:
     - Prodat bitkoin : 0.19335 bitkoin.
     - Prihodi od prodaje: 0.19335 Bitkoin × €40,000 = €7,734.
     - Osnovica troškova (ponderisani prosek):
@@ -1316,9 +1316,9 @@ Konačno, bilo da ste mali trgovac ili već etablirano preduzeće, moguće je **
 **Rezime**:
 
 
-- Preostali bitkoin**: 0.19335 bitkoin procenjeno na €7,734 (pri €40,000/BTC).
-- Realizovani dobitak**: €2,735 uključen u bilans uspeha.
-- Nerealizovani dobitak**: €5,468 prikazano u finansijskim napomenama (uključujući nerealizovanu vrednost preostalog bitkoina).
+- **Preostali bitkoin**: 0.19335 bitkoin procenjeno na €7,734 (pri €40,000/BTC).
+- **Realizovani dobitak**: €2,735 uključen u bilans uspeha.
+- **Nerealizovani dobitak**: €5,468 prikazano u finansijskim napomenama (uključujući nerealizovanu vrednost preostalog bitkoina).
 
 **Računovodstvene implikacije**:
 

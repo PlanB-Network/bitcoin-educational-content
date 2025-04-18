@@ -20,7 +20,7 @@ Kurz s přednáškami odborníků z oboru zahrnuje témata, jako je architektura
 
 <partId>9f8a83d5-27e0-4e6d-af12-6cd6eb667291</partId>
 
-## Úvod do Liquid Bootcampu
+## Přehled kurzu
 
 <chapterId>3192ee7d-255b-4c4f-ba18-e08c5ab98577</chapterId>
 
@@ -32,6 +32,7 @@ Tento bootcamp byl původně pořádán jako osobní akce podle strukturovaného
 
 Tato cesta je strukturována tak, aby vyhovovala účastníkům s různou úrovní odborných znalostí, a nabízí kombinaci teoretických znalostí a praktických zkušeností. Na konci tohoto bootcampu budete dobře rozumět architektuře systému Liquid, jeho integraci s Bitcoinem a tomu, jak využívat jeho inovativní funkce k vytváření a optimalizaci finančních řešení.
 
+Ponořte se do světa sidechainu Liquid a odhalte jeho plný potenciál právě teď!
 # Základy
 
 <partId>6dd86449-c0f7-4e51-9252-5f135cf019df</partId>
@@ -40,7 +41,7 @@ Tato cesta je strukturována tak, aby vyhovovala účastníkům s různou úrovn
 
 <chapterId>4bca9c70-d54d-4e9a-b2db-17c3a6fa655b</chapterId>
 
-![Video](https://youtu.be/QCyWXVWkcAM)
+:::video id=ff6899d2-b47f-4c3d-983d-3bd66d2be59d:::
 
 Pablo představuje architekturu sítě Liquid Network a zdůrazňuje její roli federativního sidechainu k Bitcoinu. Věnuje se klíčovým vlastnostem, jako jsou důvěrné transakce, model federace a její funkce jako pískoviště pro inovace. Účastníci získají přehled o tom, jak Liquid doplňuje Bitcoin tím, že nabízí rychlejší a soukromější transakce.
 
@@ -48,7 +49,7 @@ Pablo představuje architekturu sítě Liquid Network a zdůrazňuje její roli 
 
 <chapterId>1e9cfbed-108e-4067-afb9-4cf950cb43d3</chapterId>
 
-![Video](https://youtu.be/9Yu0dPAJSek)
+:::video id=5652dcb2-4303-484c-8be5-d98063b39c1c:::
 
 James představuje software Elements a jeho integraci se sítí Liquid Network. Tato část obsahuje praktického průvodce spuštěním uzlu Liquid, lokální konfigurací systému Elements a správou transakcí pomocí příkazů CLI a RPC.
 
@@ -56,7 +57,7 @@ James představuje software Elements a jeho integraci se sítí Liquid Network. 
 
 <chapterId>3ff2df4a-8995-4d5e-9b8a-cd114880e666</chapterId>
 
-![Video](https://youtu.be/zFvv0bn4ZWY)
+:::video id=31368c02-b979-44d7-b217-ceed96c7ca5c:::
 
 Michael se zabývá tím, jak vícevrstvé technologie, včetně Liquidu, Lightningu a Bitcoinu, zvyšují efektivitu a spolehlivost transakcí. Mezi klíčová témata patří HTLC pro bezpečné transakce napříč vrstvami a pokročilé skriptovací funkce, které optimalizují ekosystém Bitcoinu.
 
@@ -64,7 +65,7 @@ Michael se zabývá tím, jak vícevrstvé technologie, včetně Liquidu, Lightn
 
 <chapterId>1968db03-2364-46c0-9670-9e9844289ca1</chapterId>
 
-![Video](https://youtu.be/6wNeHQBlhA4)
+:::video id=0bac0a62-90f2-41da-ac7c-330c0604bc61:::
 
 Bozza se zabývá federativní strukturou sítě Liquid Network a jejími technickými prvky. Témata zahrnují inovace testované v síti Liquid, jako jsou podpisy Schnorr a skriptování Simplicity, a kompromisy spojené s používáním řešení druhé vrstvy.
 
@@ -72,7 +73,7 @@ Bozza se zabývá federativní strukturou sítě Liquid Network a jejími techni
 
 <chapterId>5f4c0e50-b435-4b6c-b8b7-c55cc1a35431</chapterId>
 
-![Video](https://youtu.be/IAdOxZyx7-Y)
+:::video id=07e0b82f-2d60-4eb3-9b5d-2ccb7ad06e8a:::
 
 Chase upozorňuje na ekosystém Liquid a jeho využití na kapitálových trzích. Hovoří o tokenizaci, komunitních zdrojích a nástrojích jako Sid Swap a Stokr pro správu aktiv, jakož i o rostoucím využití Liquidu v podnikatelském prostředí.
 
@@ -80,7 +81,7 @@ Chase upozorňuje na ekosystém Liquid a jeho využití na kapitálových trzíc
 
 <chapterId>4f21a0a7-0dc0-44cf-8a3a-d9e2f8a3f05f</chapterId>
 
-![Video](https://youtu.be/AnMiD9amSUg)
+:::video id=f00822b4-dc1a-46ff-adfc-ff7c97a0024d:::
 
 Nardo poskytuje přehled o Blockstream AMP, platformě pro správu digitálních aktiv na platformě Liquid. Zkoumá architekturu AMP, její schopnost řídit převody aktiv a její praktické využití pro vývojáře. Upozorňuje také na výzvy a budoucí vylepšení AMP.
 
@@ -94,11 +95,11 @@ Nardo poskytuje přehled o Blockstream AMP, platformě pro správu digitálních
 
 <chapterId>fb77442c-3d1e-427e-b2f5-16668ce4c643</chapterId>
 
-![Video](https://youtu.be/ucc3a-udbgo)
+:::video id=1a6289b5-fdae-4320-b5b1-41925150108c:::
 
 Antonio představuje Breeze, open-source SDK určené pro decentralizované transakce v síti Liquid Network. Věnuje se jeho funkcím, včetně podpory vícejazyčných vazeb a bezpečných transakčních procesů, a zároveň zdůrazňuje jeho cíl zjednodušit finanční technologie pro vývojáře
 
-# Závěr
+# Sekce finále
 
 <partId>7ec65e6b-6e63-41b6-92ea-6a13bc77c3ff</partId>
 
@@ -106,7 +107,7 @@ Antonio představuje Breeze, open-source SDK určené pro decentralizované tran
 
 <chapterId>e5f6348c-e207-40ae-8fef-6a068a6bf741</chapterId>
 
-<isCourseReview>pravdivé</isCourseReview>
+<isCourseReview>true</isCourseReview>
 
 ## Závěr
 

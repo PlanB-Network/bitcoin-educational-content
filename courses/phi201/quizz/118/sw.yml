@@ -1,0 +1,9 @@
+question: Nani alipendekeza wazo la ushindani kati ya sarafu za kibinafsi?
+answer: Friedrich Hayek
+wrong_answers:
+  - John Maynard Keynes
+  - Jacques Rueff
+  - Satoshi Nakamoto
+explanation: |
+  Friedrich Hayek alipendekeza wazo la ushindani kati ya sarafu za kibinafsi ili kupunguza ushawishi wa serikali kwenye sarafu na kuhimiza utulivu wa kifedha kulingana na soko badala ya sera za serikali kuu.
+reviewed: false

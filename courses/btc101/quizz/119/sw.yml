@@ -1,0 +1,11 @@
+question: BitcoinTalk ni nini?
+answer: Mahali pa majadiliano kwa watumiaji wa Bitcoin.
+wrong_answers:
+  - Programu ya Bitcoin Mining.
+  - Bitcoin Wallet.
+  - Mkutano wa Bitcoin.
+explanation: |
+  Jukwaa la BitcoinTalk ni mahali pa majadiliano kwa Bitcoin
+  watumiaji. Iliundwa na Satoshi Nakamoto mnamo Novemba 22,
+  2009.
+reviewed: true

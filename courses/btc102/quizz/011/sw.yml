@@ -1,0 +1,12 @@
+question: Ni faida gani kuu ya kutumia VPN?
+answer: Inalinda faragha yako kwa kuficha IP yako Address
+wrong_answers:
+  - Inaharakisha muunganisho wako wa mtandao
+  - Inatoa ufikiaji wa bure kwa huduma zinazolipwa
+  - Inalinda kompyuta yako kutoka kwa virusi
+explanation: |
+  VPN, au Mtandao Pepe wa Kibinafsi, hulinda faragha yako kwa kuficha
+  yako
+  IP Address. Ingawa haikufanyi usijulikane kabisa, bado ni rahisi
+  na hatua madhubuti ya kuboresha ufaragha wako mtandaoni.'
+reviewed: false

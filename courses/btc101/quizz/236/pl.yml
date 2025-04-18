@@ -1,0 +1,14 @@
+question: Czym jest pojęcie "skin in the game" w kontekście branży gier wideo?
+answer: Posiadanie finansowego udziału w wyniku gry.
+wrong_answers:
+  - Dostosowywanie postaci za pomocą unikalnych skórek, które usprawniają rozgrywkę.
+  - Kupowanie przedmiotów w grze za prawdziwe pieniądze.
+  - Sprzedaż skórek do gier za prawdziwe pieniądze.
+explanation: |
+  Koncepcja skórki w grze to pomysł, który
+  ostatnio zyskała popularność w branży gier wideo. Jest to
+  zasadniczo odnosi się do pomysłu, że deweloperzy i
+  mają osobistą inwestycję lub udział w sukcesie
+  sukces gry, co łączy ich interesy z dostarczaniem wysokiej jakości produktu
+  z dostarczaniem produktu wysokiej jakości.
+reviewed: true

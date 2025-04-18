@@ -1,0 +1,12 @@
+question: Je, kazi tatu za kisheria za pesa ni zipi?
+answer: Hifadhi ya thamani, Kati ya Exchange, Kitengo cha akaunti.
+wrong_answers:
+  - Hifadhi ya thamani, Kati ya Exchange, Njia za uzalishaji.
+  - Hifadhi ya thamani, Njia za uzalishaji, Kitengo cha akaunti.
+  - Kati ya Exchange, Njia za uzalishaji, Kitengo cha akaunti.
+explanation: |
+  Kulingana na Aristotle, pesa hufanya kazi tatu: ni
+  duka la thamani, wastani wa Exchange, na kitengo cha
+  akaunti. Siku hizi, kati ya kazi ya Exchange ni
+  inayotambulika sana kama ile kuu, kabla ya hizo mbili.
+reviewed: true

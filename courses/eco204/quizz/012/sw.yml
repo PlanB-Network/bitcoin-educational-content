@@ -1,0 +1,13 @@
+question: Je, mizania ya benki na benki kuu ina athari gani kwenye mfumuko wa bei?
+answer: Ikiwa pesa mpya zilizoundwa zinabaki kwenye mizania ya benki za kibinafsi bila kukopeshwa kwa watendaji wa kiuchumi, haitaathiri moja kwa moja uchumi halisi na, kwa hivyo, haitasababisha mfumuko wa bei.
+wrong_answers:
+  - Ikiwa pesa mpya zilizoundwa zinabaki kwenye mizania ya benki za kibinafsi, itasababisha mfumuko wa bei kila wakati.
+  - Mizania ya benki na benki kuu haina athari kwa mfumuko wa bei.
+  - Ikiwa pesa mpya zilizoundwa zimekopeshwa kwa watendaji wa kiuchumi, haitasababisha mfumuko wa bei.
+explanation: |
+  Sura hiyo inaeleza kuwa uhusiano kati ya uchapishaji wa fedha
+  na mfumuko wa bei unarekebishwa na jinsi pesa mpya zinavyoingizwa katika uchumi.
+  Ikiwa pesa hizi zitabaki kwenye mizania ya benki za kibinafsi bila kukopeshwa
+  kwa wahusika wa uchumi, haitaathiri moja kwa moja uchumi halisi na, kwa hivyo,
+  haitasababisha mfumuko wa bei.
+reviewed: false

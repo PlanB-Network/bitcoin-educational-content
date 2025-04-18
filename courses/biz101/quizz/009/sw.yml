@@ -1,0 +1,9 @@
+question: Je, lengo kuu la Lightning Network lililojengwa juu ya Bitcoin ni lipi?
+answer: Ili kuwezesha malipo ya haraka, karibu ya haraka na maingiliano machache ya On-Chain.
+wrong_answers:
+  - Ili kuchukua nafasi ya Blockchain ya Bitcoin kabisa na kuhifadhi miamala yote ndani ya nchi.
+  - Ili kutoa mtandao ulioidhinishwa unaodhibitiwa na huluki moja.
+  - Ili kupunguza kasi ya malipo ili kuhakikisha kuwa yanasalia kufuatiliwa na serikali.
+explanation: |
+  Lightning Network ni itifaki ya "Layer ya pili" ambayo inaruhusu washiriki kuunda njia za malipo, kufanya miamala ya off-chain, na kulipa salio la mwisho la Bitcoin Blockchain pekee. Ubunifu huu unafikia kasi ya haraka na gharama ya chini.
+reviewed: false

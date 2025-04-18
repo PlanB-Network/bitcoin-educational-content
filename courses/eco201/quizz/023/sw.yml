@@ -1,0 +1,14 @@
+question: Kwa nini tatizo la uratibu katika mgawanyiko wa kazi huibuka tena katika jamii kubwa zaidi?
+answer: Kwa sababu wanadamu wamewekewa mipaka na uwezo wao wa utambuzi, na kipimo kinachokubalika na kijamii cha thamani ya michango katika Exchange ni tatizo lisilo la kawaida.
+wrong_answers:
+  - Kwa sababu wanadamu hawapendi kufanya kazi na vikundi vikubwa na wanapendelea jamii ndogo.
+  - Kwa sababu jumuiya kubwa zina rasilimali nyingi, na hivyo kusababisha uhitaji mdogo wa mgawanyo wa kazi.
+  - Kwa sababu jumuiya kubwa zina migogoro mingi, hivyo kufanya uratibu kuwa mgumu.
+explanation: |
+  Katika jamii kubwa, haiwezekani mtu kufanya hivyo
+  kudumisha na kukumbuka uhusiano thabiti wa kijamii na zaidi
+  zaidi ya watu 150, na kutengeneza mfumo wa sifa
+  haitoshi kushinda shida ya mfungwa kwa kiwango.
+  Pia, kutathmini thamani ya michango katika Exchange ni
+  tatizo tata katika jamii kubwa.
+reviewed: true

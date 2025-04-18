@@ -1,0 +1,13 @@
+question: 法規和電費如何影響 Bitcoin Mining？
+answer: 法規和電費對 Bitcoin Mining 有重大影響。礦工為了獲取最大利潤，不斷尋找低成本電力。因此，某些地區的高電價並不能吸引礦工前往這些地區。礦工傾向於低電價的地區，通常是在新興國家或能源盈餘的國家。
+wrong_answers:
+  - 法規和電費通過決定可使用的 Mining 機器類型來影響 Bitcoin Mining。
+  - 法規和電費通過決定可使用的 Mining 軟體類型來影響 Bitcoin Mining。
+  - 法規和電費會影響 Bitcoin Mining，決定可形成的 Mining pool 的規模。
+explanation: |
+  本章說明監管和電力
+  關稅對 Bitcoin Mining 有重大影響。
+  礦工們不斷尋找低成本的電力，以
+  最大化其利潤，因此傾向於
+  向電費低的地區發展。
+reviewed: true

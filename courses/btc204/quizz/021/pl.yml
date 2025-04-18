@@ -1,0 +1,9 @@
+question: Jaki jest wzór uproszczonej płatności na Bitcoin?
+answer: 1 lub więcej UTXO na wejściach i 2 UTXO na wyjściach.
+wrong_answers:
+  - 1 UTXO na wejściu i 1 UTXO na wyjściu
+  - Kilka UTXO na wejściu i 1 UTXO na wyjściu
+  - 5 UTXO na wejściach i 5 UTXO na wyjściach
+explanation: |
+  W uproszczonej płatności użytkownik zużywa jeden lub więcej UTXO jako dane wejściowe, aby zrealizować na wyjściu płatność UTXO i zmianę UTXO (a więc 2 UTXO).
+reviewed: false

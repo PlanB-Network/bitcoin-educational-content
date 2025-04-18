@@ -1,0 +1,9 @@
+question: Jaka jest jedna korzyść z korzystania z Wallet dla profilu Starter?
+answer: Ograniczone obowiązki techniczne
+wrong_answers:
+  - Zwiększona kontrola nad kluczami prywatnymi
+  - Zwiększona prywatność z pełną autonomią nad transakcjami
+  - Eliminacja opłat transakcyjnych
+explanation: |
+  Portfele powiernicze zarządzają kluczami prywatnymi, odciążając użytkowników pod względem technicznym.
+reviewed: false

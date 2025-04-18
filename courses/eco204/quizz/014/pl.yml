@@ -1,0 +1,11 @@
+question: Jaka jest różnica między inflacją typu Demand Pull i Cost Push?
+answer: Inflacja popytowa to sytuacja, w której popyt w gospodarce przewyższa dostępną produkcję, podczas gdy inflacja kosztowa jest przypisywana wzrostowi kosztów produkcji.
+wrong_answers:
+  - Inflacja popytowa przypisywana jest wzrostowi kosztów produkcji, podczas gdy inflacja kosztowa to sytuacja, w której popyt w gospodarce przewyższa dostępną produkcję.
+  - Inflacja Demand Pull i Cost Push są takie same, obie odnoszą się do sytuacji, w której popyt w gospodarce przewyższa dostępną produkcję.
+  - Inflacja Demand Pull i Cost Push są takie same, obie odnoszą się do wzrostu kosztów produkcji.
+explanation: |
+  W rozdziale tym wyjaśniono, że inflacja Demand Pull jest często tłumaczona jako
+  sytuacja, w której popyt w gospodarce przewyższa dostępną produkcję. Z drugiej strony
+  z drugiej strony, inflacja Cost Push jest przypisywana wzrostowi kosztów produkcji.
+reviewed: false

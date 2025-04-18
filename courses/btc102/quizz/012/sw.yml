@@ -1,0 +1,10 @@
+question: Ni sababu gani kuu ya kupoteza bitcoins kulingana na sura?
+answer: Usimamizi duni wa usalama mtandaoni
+wrong_answers:
+  - Kashfa za Cryptocurrency
+  - Ulaghai wa kifedha
+  - Kushindwa kwa kompyuta
+explanation: |
+  Sura hiyo inataja kwamba pamoja na kashfa za cryptocurrency na kifedha
+  ulaghai, sababu kuu ya kupoteza bitcoins ni kuhusiana na usimamizi mbovu wa usalama mtandaoni.'
+reviewed: false

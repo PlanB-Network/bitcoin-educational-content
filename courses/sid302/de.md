@@ -20,7 +20,7 @@ Mit Präsentationen von Branchenexperten behandelt der Kurs Themen wie die Liqui
 
 <partId>9f8a83d5-27e0-4e6d-af12-6cd6eb667291</partId>
 
-## Einführung in das Liquid Bootcamp
+## Kursübersicht
 
 <chapterId>3192ee7d-255b-4c4f-ba18-e08c5ab98577</chapterId>
 
@@ -32,6 +32,7 @@ Dieses Bootcamp wurde ursprünglich als Präsenzveranstaltung durchgeführt und 
 
 Diese Reise ist so strukturiert, dass sie Teilnehmer mit unterschiedlichem Wissensstand anspricht und eine Mischung aus theoretischem Wissen und praktischer Erfahrung bietet. Am Ende dieses Bootcamps werden Sie ein solides Verständnis der Architektur von Liquid, seiner Integration mit Bitcoin und der Nutzung seiner innovativen Funktionen zur Entwicklung und Optimierung von Finanzlösungen haben.
 
+Tauchen Sie ein in die Welt der Liquid-Sidechain und enthüllen Sie ihr volles Potenzial jetzt!
 # Grundlagen
 
 <partId>6dd86449-c0f7-4e51-9252-5f135cf019df</partId>
@@ -40,7 +41,7 @@ Diese Reise ist so strukturiert, dass sie Teilnehmer mit unterschiedlichem Wisse
 
 <chapterId>4bca9c70-d54d-4e9a-b2db-17c3a6fa655b</chapterId>
 
-![Video](https://youtu.be/QCyWXVWkcAM)
+:::video id=ff6899d2-b47f-4c3d-983d-3bd66d2be59d:::
 
 Pablo stellt die Architektur des Liquid Network vor und betont dabei seine Rolle als föderierte Sidechain zu Bitcoin. Schlüsselmerkmale wie Confidential Transactions, das Föderationsmodell und seine Funktion als Sandkasten für Innovationen werden behandelt. Die Teilnehmer werden einen Einblick erhalten, wie Liquid Bitcoin ergänzt, indem es schnellere und privatere Transaktionen bietet.
 
@@ -48,7 +49,7 @@ Pablo stellt die Architektur des Liquid Network vor und betont dabei seine Rolle
 
 <chapterId>1e9cfbed-108e-4067-afb9-4cf950cb43d3</chapterId>
 
-![Video](https://youtu.be/9Yu0dPAJSek)
+:::video id=5652dcb2-4303-484c-8be5-d98063b39c1c:::
 
 James stellt die Elements-Software und ihre Integration mit dem Liquid Network vor. Diese Sitzung umfasst eine praktische Anleitung zum Betrieb eines Liquid-Knotens, zur lokalen Konfiguration von Elements und zur Verwaltung von Transaktionen mithilfe von CLI- und RPC-Befehlen.
 
@@ -56,7 +57,7 @@ James stellt die Elements-Software und ihre Integration mit dem Liquid Network v
 
 <chapterId>3ff2df4a-8995-4d5e-9b8a-cd114880e666</chapterId>
 
-![Video](https://youtu.be/zFvv0bn4ZWY)
+:::video id=31368c02-b979-44d7-b217-ceed96c7ca5c:::
 
 Michael erörtert, wie Multi-Layer-Technologien, einschließlich Liquid, Lightning und Bitcoin, die Effizienz und Zuverlässigkeit von Transaktionen verbessern. Zu den wichtigsten Themen gehören HTLCs für sichere Cross-Layer-Transaktionen und erweiterte Skripting-Funktionen, die das Bitcoin-Ökosystem optimieren.
 
@@ -64,7 +65,7 @@ Michael erörtert, wie Multi-Layer-Technologien, einschließlich Liquid, Lightni
 
 <chapterId>1968db03-2364-46c0-9670-9e9844289ca1</chapterId>
 
-![Video](https://youtu.be/6wNeHQBlhA4)
+:::video id=0bac0a62-90f2-41da-ac7c-330c0604bc61:::
 
 Bozza behandelt die föderale Struktur des Liquid Network und seine technischen Komponenten. Zu den Themen gehören Innovationen, die in Liquid getestet wurden, wie Schnorr-Signaturen und Simplicity-Skripting, sowie die Kompromisse bei der Verwendung von Layer Two-Lösungen.
 
@@ -72,7 +73,7 @@ Bozza behandelt die föderale Struktur des Liquid Network und seine technischen 
 
 <chapterId>5f4c0e50-b435-4b6c-b8b7-c55cc1a35431</chapterId>
 
-![Video](https://youtu.be/IAdOxZyx7-Y)
+:::video id=07e0b82f-2d60-4eb3-9b5d-2ccb7ad06e8a:::
 
 Chase beleuchtet das Ökosystem von Liquid und seine Anwendungen auf den Kapitalmärkten. Er erörtert die Tokenisierung, Community-Ressourcen und Tools wie Sid Swap und Stokr für die Vermögensverwaltung sowie die wachsende Akzeptanz von Liquid im Geschäftsumfeld.
 
@@ -80,7 +81,7 @@ Chase beleuchtet das Ökosystem von Liquid und seine Anwendungen auf den Kapital
 
 <chapterId>4f21a0a7-0dc0-44cf-8a3a-d9e2f8a3f05f</chapterId>
 
-![Video](https://youtu.be/AnMiD9amSUg)
+:::video id=f00822b4-dc1a-46ff-adfc-ff7c97a0024d:::
 
 Nardo gibt einen Überblick über Blockstream AMP, eine Plattform zur Verwaltung digitaler Vermögenswerte auf Liquid. Er untersucht die Architektur von AMP, seine Fähigkeit, Asset-Transfers zu kontrollieren, und seine praktischen Anwendungen für Entwickler. Herausforderungen und zukünftige Verbesserungen für AMP werden ebenfalls hervorgehoben.
 
@@ -94,11 +95,11 @@ Nardo gibt einen Überblick über Blockstream AMP, eine Plattform zur Verwaltung
 
 <chapterId>fb77442c-3d1e-427e-b2f5-16668ce4c643</chapterId>
 
-![Video](https://youtu.be/ucc3a-udbgo)
+:::video id=1a6289b5-fdae-4320-b5b1-41925150108c:::
 
 Antonio stellt Breeze vor, ein Open-Source-SDK, das für dezentralisierte Transaktionen im Liquid Network entwickelt wurde. Er geht auf die Funktionen ein, einschließlich der Unterstützung für mehrsprachige Bindungen und sichere Transaktionsprozesse, und betont gleichzeitig das Ziel, die Finanztechnologie für Entwickler zu vereinfachen
 
-# Schlussfolgerung
+# Abschließender Abschnitt
 
 <partId>7ec65e6b-6e63-41b6-92ea-6a13bc77c3ff</partId>
 

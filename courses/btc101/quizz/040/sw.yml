@@ -1,0 +1,12 @@
+question: Je, ni mkakati gani unaotumiwa na taasisi kuu kupunguza thamani ya sarafu ya fiat?
+answer: Wanaongeza misa ya fedha kwa asilimia chache kila mwaka.
+wrong_answers:
+  - Wanapunguza misa ya fedha kwa asilimia chache kila mwaka.
+  - Wanaweka misa yake ya pesa mara kwa mara ikilinganishwa na misa ya awali.
+  - Zina misa yake ya pesa inayobadilika nasibu kwa kulinganisha na misa ya awali.
+explanation: |
+  Huluki kuu mara nyingi hushusha thamani ya sarafu kwa kuiongeza
+  wingi wa fedha ikilinganishwa na ile ya awali kwa asilimia chache
+  kila mwaka. Devaluation hii ya kimya mara nyingi inahesabiwa haki kama
+  kuwa kwa maslahi ya wananchi.
+reviewed: true

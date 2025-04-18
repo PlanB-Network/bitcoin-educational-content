@@ -1,0 +1,9 @@
+question: Czym jest atak refleksyjny w sesji komunikacyjnej?
+answer: Atakujący wysyła z powrotem do Alice wiadomość, którą przechwycił między Alice i Bobem
+wrong_answers:
+  - Atakujący odwraca kolejność wiadomości w komunikacji
+  - Atakujący wysyła zmodyfikowaną wiadomość bez znacznika
+  - Atakujący wykorzystuje starą wiadomość do utworzenia nowej
+explanation: |
+  W ataku z odbicia atakujący przechwytuje wiadomość od Alice do Boba i wysyła tę samą wiadomość z powrotem do Alice, powodując zamieszanie w sesji.
+reviewed: false

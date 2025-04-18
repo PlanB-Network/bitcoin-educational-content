@@ -1,0 +1,12 @@
+question: Je, ni nini madhumuni ya kujielimisha kuhusu vipengele vya kiufundi, kiitikadi na kifalsafa vya Bitcoin?
+answer: Ili kuelewa vyema Bitcoin na athari zake zinazowezekana kwa ulimwengu.
+wrong_answers:
+  - Ili kuchimba Bitcoins mpya.
+  - Kufanya biashara ya Bitcoins.
+  - Kubadilisha Bitcoins kuwa cryptocurrencies nyingine.
+explanation: |
+  Kujielimisha juu ya nyanja za kiufundi, kiitikadi, na falsafa
+  ya Bitcoin ni muhimu kwa kuelewa vyema Bitcoin na athari zake zinazowezekana
+  duniani. Haitumiki kwa Mining Bitcoins mpya, kufanya biashara ya Bitcoins, au kubadilisha
+  Bitcoins kwenye sarafu nyinginezo.
+reviewed: false

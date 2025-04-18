@@ -1,0 +1,10 @@
+question: Co wpływa na wagę transakcji Bitcoin?
+answer: Liczba wejść i wyjść.
+wrong_answers:
+  - Rozmiar Blockchain.
+  - Ilość wejść i wyjść.
+  - Wiek używanych UTXO.
+explanation: |
+  Im więcej wejść i wyjść ma transakcja Bitcoin, tym będzie ona cięższa w vB.
+  
+reviewed: false

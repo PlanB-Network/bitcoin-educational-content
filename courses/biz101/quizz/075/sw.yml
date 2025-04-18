@@ -1,0 +1,9 @@
+question: Je, ni lengo gani kuu la utekelezaji wa malipo wa kiwango cha Enterprise Bitcoin?
+answer: Ili kuunganisha kikamilifu malipo ya Bitcoin katika michakato ya msingi ya shirika
+wrong_answers:
+  - Kufanya majaribio ya Bitcoin kwa kiwango kidogo
+  - Kutumia Bitcoin kwa madhumuni ya uuzaji
+  - Kukubali Bitcoin bila kuunganishwa kwenye mifumo mingine
+explanation: |
+  Suluhu za biashara zinalenga kuoanisha malipo ya Bitcoin na mtiririko wa kazi kuu wa biashara na mifumo.
+reviewed: false

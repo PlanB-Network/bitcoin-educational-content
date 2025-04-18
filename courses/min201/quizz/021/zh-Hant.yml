@@ -1,0 +1,13 @@
+question: 使用 Bitcoin Miner 而非簡單的電暖器的經濟誘因是什麼？
+answer: Miner 不僅提供熱能，還提供 Bitcoin 獎勵。
+wrong_answers:
+  - Miner 比簡單的電暖器用電量更少。
+  - Miner 比簡單的電暖器產生更多熱量。
+  - Miner 比簡單的電暖器便宜。
+explanation: |
+  使用 Miner 與簡單的電動
+  加熱器在於 Miner 不僅提供了
+  熱量，但也有 Bitcoin 獎勵。此額外獎勵
+  可以幫助減輕對高能量
+  礦工的消費。
+reviewed: true

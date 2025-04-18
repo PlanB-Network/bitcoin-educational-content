@@ -1,0 +1,12 @@
+question: Kwa nini ni muhimu kutumia manenosiri yaliyotolewa bila mpangilio?
+answer: Zinastahimili mashambulizi ya nguvu kuliko manenosiri yenye urefu sawa na maneno ya kamusi.
+wrong_answers:
+  - Ni rahisi kukumbuka lakini polepole kuandika.
+  - Daima huwa salama kwani huzidi herufi 20 nasibu.
+  - Huduma nyingi za mtandaoni huuliza tu urefu wa chini na seti ya wahusika, ukijazaji wa kigezo hiki inamaanisha manenosiri yana nguvu ya kutosha.
+explanation: |
+  Nenosiri zinazozalishwa bila mpangilio hutoa kiwango cha juu cha
+  usalama kwa sababu wanastahimili nguvu za kinyama
+  mashambulizi, ambayo hujaribu kubahatisha nywila kwa kujaribu yote
+  mchanganyiko unaowezekana wa wahusika.
+reviewed: true

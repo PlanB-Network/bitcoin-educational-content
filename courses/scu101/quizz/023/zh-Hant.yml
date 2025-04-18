@@ -1,0 +1,10 @@
+question: 使用強大的密碼對電腦安全有什麼重要性？
+answer: 防止未經授權存取系統。
+wrong_answers:
+  - 使系統執行更快。
+  - 增加儲存容量。
+  - 改善使用者 Interface。
+explanation: |
+  強大的密碼對電腦安全至關重要，以
+  防止未經授權存取系統。
+reviewed: true

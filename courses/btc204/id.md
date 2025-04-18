@@ -24,10 +24,11 @@ Bergabunglah dengan kami untuk mengubah penggunaan Bitcoin Anda dan menjadi peng
 
 <partId>e17474a8-8899-4bdb-a7f8-bc52ddb01440</partId>
 
-## Pengenalan pelatihan
+## Ikhtisar Kursus
 
 <chapterId>08ba1933-f393-4fb5-8279-777d874caedb</chapterId>
 
+Selamat datang di kursus BTC204!
 
 Di dunia di mana kerahasiaan transaksi keuangan secara bertahap menjadi sebuah kemewahan, memahami dan menguasai prinsip-prinsip perlindungan privasi saat menggunakan Bitcoin sangatlah penting. Kursus pelatihan ini memberikan Anda semua kunci, baik secara teoritis maupun praktis, untuk mencapai hal ini secara mandiri.
 
@@ -45,37 +46,38 @@ Kursus pelatihan ini dirancang untuk memberikan gambaran umum yang komprehensif 
 
 Tujuan dari kursus pelatihan ini bukan untuk membuat Anda benar-benar anonim dalam penggunaan Bitcoin, melainkan untuk memberi Anda alat penting untuk mengetahui cara melindungi kerahasiaan Anda sesuai dengan tujuan pribadi Anda. Anda akan memiliki kebebasan untuk memilih dari konsep dan alat yang disajikan untuk mengembangkan strategi Anda sendiri, yang disesuaikan dengan tujuan dan kebutuhan Anda.
 
-### Bagian 1: Definisi dan konsep utama
+**Bagian 1: Definisi dan konsep utama**
 
 Sebagai permulaan, kita akan meninjau prinsip-prinsip dasar yang mengatur pengoperasian Bitcoin, sehingga kita dapat dengan tenang membahas pengertian-pengertian yang berkaitan dengan kerahasiaan. Sangat penting untuk menguasai beberapa konsep dasar, seperti UTXO, menerima alamat dan skrip, sebelum Anda dapat sepenuhnya memahami konsep-konsep yang akan kita bahas di bagian berikut. Kami juga akan memperkenalkan model kerahasiaan umum Bitcoin, seperti yang dibayangkan oleh Satoshi Nakamoto, yang akan memungkinkan kita untuk memahami taruhan dan risiko yang terkait.
 
 ![BTC204](assets/fr/001.webp)
 
-### Bagian 2: Memahami dan melindungi dari analisis rantai
+**Bagian 2: Memahami dan melindungi dari analisis rantai**
 
 Pada bagian kedua, kita akan melihat teknik yang digunakan oleh perusahaan analisis blockchain untuk melacak aktivitas Anda di Bitcoin. Memahami metode-metode ini sangat penting untuk memperkuat perlindungan privasi Anda. Tujuan dari bagian ini adalah untuk memeriksa strategi penyerang untuk lebih memahami risiko dan mempersiapkan diri untuk teknik-teknik yang akan kita pelajari di bagian selanjutnya. Kita akan menganalisa pola-pola transaksi, heuristik internal dan eksternal, dan kemungkinan interpretasi dari pola-pola ini. Selain teori, kita akan mempelajari cara menggunakan block explorer untuk analisis rantai, melalui contoh-contoh praktis dan latihan.
 
 ![BTC204](assets/fr/002.webp)
 
-### Bagian 3: Menguasai praktik terbaik untuk melindungi privasi Anda
+**Bagian 3: Menguasai praktik terbaik untuk melindungi privasi Anda**
 
 Pada bagian ketiga dari kursus pelatihan ini, kita akan membahas hal-hal yang lebih detail: latihan! Tujuannya adalah untuk menguasai semua praktik terbaik yang penting yang seharusnya menjadi refleks alami bagi setiap pengguna Bitcoin. Kita akan membahas penggunaan alamat kosong, penandaan, konsolidasi, penggunaan node lengkap, serta metode KYC dan akuisisi. Tujuannya adalah untuk memberikan Anda gambaran umum yang komprehensif mengenai jebakan-jebakan yang perlu dihindari untuk membangun fondasi yang kuat dalam upaya kita melindungi privasi. Untuk beberapa praktik ini, Anda akan dipandu ke tutorial khusus tentang cara menerapkannya.
 
 ![BTC204](assets/fr/003.webp)
 
-### Bagian 4: Memahami transaksi coinjoin
+**Bagian 4: Memahami transaksi coinjoin**
 
 Bagaimana kita bisa membicarakan privasi di Bitcoin tanpa menyebutkan koin bersama? Di bagian 4, Anda akan mengetahui semua yang perlu Anda ketahui tentang metode pencampuran ini. Anda akan mempelajari apa itu coinjoin, sejarah dan tujuannya, serta berbagai jenis coinjoin yang ada. Terakhir, untuk pengguna yang lebih berpengalaman, kita akan melihat apa itu anonset dan entropi, dan bagaimana cara menghitungnya.
 
 ![BTC204](assets/fr/004.webp)
 
-### Bagian 5: Memahami tantangan teknik kerahasiaan tingkat lanjut lainnya
+**Bagian 5: Memahami tantangan teknik kerahasiaan tingkat lanjut lainnya**
 
 Pada bagian kelima, kita akan melihat semua teknik lain yang tersedia untuk melindungi privasi Anda di Bitcoin, selain coinjoin. Selama bertahun-tahun, para pengembang telah menunjukkan kreativitas yang luar biasa dalam mendesain alat yang didedikasikan untuk privasi. Kita akan melihat semua metode ini, seperti payjoin, transaksi kolaboratif, Coin Swap dan Atomic Swap, dengan merinci cara kerjanya, tujuan dan kelemahannya.
 
 Kita juga akan melihat privasi pada tingkat jaringan node dan penyebaran transaksi. Kita juga akan mendiskusikan berbagai protokol yang telah diusulkan selama bertahun-tahun untuk meningkatkan privasi pengguna Bitcoin, termasuk protokol alamat statis.
 
 ![BTC204](assets/fr/005.webp)
+Siap menjelajahi seluk-beluk privasi di Bitcoin? Ayo mulai!
 
 # Definisi dan konsep utama
 
@@ -4220,7 +4222,7 @@ Karena fitur ini masih baru, kami menyarankan Anda untuk berhati-hati dan menghi
 
 *Untuk membuat bab tentang Pembayaran Diam, saya menggunakan [situs penjelasan Pembayaran Diam](https://silentpayments.xyz/) dan [dokumen penjelasan BIP352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki).*
 
-# Kesimpulan
+# Bagian Akhir
 
 <partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 
@@ -4240,4 +4242,4 @@ Karena fitur ini masih baru, kami menyarankan Anda untuk berhati-hati dan menghi
 
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>
 
-<isCourseConclusion>benar</isCourseConclusion>
+<isCourseConclusion>true</isCourseConclusion>

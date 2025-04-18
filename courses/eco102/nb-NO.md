@@ -26,7 +26,32 @@ Bli med Damien Theillier på denne berikende utforskningen av Frédéric Bastiat
 
 <partId>e4a0cf13-2fc5-5ced-a528-ace3f9029f22</partId>
 
-## Kursintroduksjon
+## Kursoversikt
+<chapterId>aa493f46-2d3a-4b76-ad79-ed44113a97f4</chapterId>
+
+Målet med denne opplæringen er å gi deg en dyp forståelse av livet, de intellektuelle påvirkningene, ideologiske motstandere og økonomiske teorier til Frédéric Bastiat. Gjennom denne strukturerte reisen vil du oppdage hvordan hans ideer har formet økonomisk tenkning og fortsetter å påvirke dagens debatter.
+
+**Seksjon 1: Introduksjon**  
+Vi starter med en generell oversikt over Frédéric Bastiat, et ukjent geni innen økonomi. Du vil lære om hans liv, intellektuelle utvikling og den historiske konteksten han utviklet sine tanker i. Å forstå denne rammen er avgjørende for å fullt ut forstå rekkevidden av hans skrifter og teorier.
+
+**Seksjon 2: Påvirkninger**  
+Vi vil fortsette med å analysere tenkerne som påvirket Frédéric Bastiats økonomiske tenkning. Du vil lære hvordan store skikkelser som Adam Smith, Jean-Baptiste Say, Antoine Destutt de Tracy, Charles Comte, Charles Dunoyer og Richard Cobden bidro til hans intellektuelle utvikling, og la grunnlaget for hans refleksjoner om frihandel og markedsøkonomi.
+
+**Seksjon 3: Motstandere**  
+Deretter vil vi utforske Bastiat sin kritikk av sine ideologiske motstandere. Enten det er Rousseau, klassisk utdanning, proteksjonisme, sosialisme eller Proudhon, vil du forstå hvorfor Bastiat betraktet disse doktrinene som hindringer for økonomisk og sosial fremgang, og hvordan han svarte på deres argumenter med skarp logikk.
+
+**Seksjon 4: Økonomiske Sofismer**  
+Denne delen er dedikert til de økonomiske sofismene som Bastiat avslørte, inkludert de berømte "*Det man ser og det man ikke ser*" og "*Lysprodusentenes petisjon*". Vi vil undersøke hvordan han gjennom satire og grundig analyse demonstrerte de vanlige økonomiske feilene i sin tid, som fortsatt er relevante i dag.
+
+**Seksjon 5: Økonomiske Harmonier**  
+Her vil du oppdage Bastiat sin positive visjon av økonomien. Vi vil diskutere konsepter som markedets mirakel, kraften i individuell ansvarlighet og skillet mellom ekte og falsk solidaritet. Bastiat så på økonomien som et sammenhengende system der vel forstått egeninteresse gagner fellesskapets beste. Vi vil utforske hvorfor.
+
+**Seksjon 6: Loven**  
+For å avslutte dette kurset vil vi fordype oss i Bastiat sitt hovedverk, "*Loven*", hvor han presenterer sine refleksjoner om eiendomsrett, lovlig plyndring og statens begrensede rolle. Du vil forstå hvorfor dette essayet regnes som en av de mest overbevisende manifestene til fordel for individuell frihet og markedsøkonomi.
+
+Klar til å oppdage hvordan Frédéric Bastiat sine ideer fortsatt kan gi gjenklang i dag? Bli med oss på denne intellektuelle reisen som kan utfordre din forståelse av økonomi!
+
+## Bastiat: Et ukjent geni
 
 <chapterId>7f21b617-9810-5484-ad1c-befc61432126</chapterId>
 
@@ -1034,7 +1059,7 @@ Hvis vi ser på ting fra denne vinkelen, forklarte Reagan til GE-ansatte, fremst
 ![bilde](assets/test/143.webp)
 I bunn og grunn tok Reagan fra Bastiat flere nøkkelelementer av et liberalt syn på samfunn og menneske: primatet til sivilsamfunnet over Staten, verdien av valg og individuelt ansvar, betydningen av entreprenøren i rikdomsskaping, viktigheten av et fleksibelt og minimalt lovverk, som tillater tillit og respekt for kontrakter, den grunnleggende loven om at rikdom må skapes før den kan distribueres, ønsket om å gi alle en sjanse i konkurranseutsatte markeder…
 
-# Konklusjon
+# Siste seksjon
 
 <partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
 

@@ -50,7 +50,7 @@ _Sett opp en ny lommebok i Lightning Tab_
 
 _Skann QR-kode med Node Management App_
 
-![image](asset/en/05.webp)
+![image](assets/en/05.webp)
 
 _For ekstra sikkerhet, angi en PIN-kode_
 
@@ -86,7 +86,7 @@ Når Nakamochi er satt opp og koblet til en nodeadministrasjonsapp, kan du begyn
 
 5. Klikk på **"Åpne kanal"**.
 
-![image](asset/en/06.webp)
+![image](assets/en/06.webp)
 
 _ZEUS Skjermbilde_ _ZEUS
 
@@ -104,7 +104,7 @@ For mer informasjon: [Kanaler | Zeus-dokumentasjon](https://docs.zeusln.app/)
 
 5. Angi det låste beløpet (velg sammen med kollegaen din eller bruk det faste minimumsbeløpet for kjente noder).
 
-![image](asset/en/07.webp)
+![image](assets/en/07.webp)
 
 _Bitbanana Skjermbilde
 

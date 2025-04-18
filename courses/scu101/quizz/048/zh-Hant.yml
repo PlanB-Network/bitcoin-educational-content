@@ -1,0 +1,12 @@
+question: 在 2FA 認證中，以下哪項是良好且安全的方法？
+answer: 由 Google Authenticator 或 Authy 等應用程式產生的驗證碼。
+wrong_answers:
+  - 電話或 SMS 碼發送給帳戶持有人
+  - 向帳戶持有人發送一封包含 10 分鐘到期代碼的電子郵件
+  - 寄往帳戶持有人家的信件 Address
+explanation: |
+  2FA 的第二步可以是透過以下方式發送臨時代碼
+  簡訊、電子郵件、應用程式產生的代碼或
+  實體安全鑰匙。然而，並非所有此方法
+  讓我們保持相同的安全層級。
+reviewed: true

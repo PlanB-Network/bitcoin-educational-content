@@ -1,0 +1,9 @@
+question: Je, RGB inaboresha vipi uzani ikilinganishwa na Blockchain ya jadi?
+answer: Kwa kupunguza uhifadhi na uthibitishaji kwa mabadiliko ya hali husika pekee
+wrong_answers:
+  - Kwa kuongeza ukubwa wa vitalu vya Bitcoin
+  - Kwa kuunganisha kila Contract moja kwa moja na UTXO zote
+  - Kwa kuweka data ya Contract katikati kwenye seva chache za kati
+explanation: |
+  RGB inapunguza mahitaji ya kuhifadhi na uthibitishaji kwa kubakiza tu data inayofaa kwa kila mshiriki.
+reviewed: false

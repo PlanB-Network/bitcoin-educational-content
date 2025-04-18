@@ -1,0 +1,9 @@
+question: Je, ni neno gani la taarifa inayounganisha shughuli nyingi za On-Chain na aina ya utambulisho halisi?
+answer: Sehemu ya kuingilia.
+wrong_answers:
+  - Kitufe cha kuunganisha.
+  - Kiungo cha alama za vidole.
+  - Alama ya uchanganuzi.
+explanation: |
+  Tabia na maelezo ambayo yanaweza kuunganisha utambulisho halisi kwa shughuli ya On-Chain huitwa sehemu za kuingilia.
+reviewed: false

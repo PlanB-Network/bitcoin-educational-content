@@ -1,0 +1,9 @@
+question: Jakie są trzy podstawowe kroki w schemacie MAC?
+answer: Generowanie kluczy, generowanie znaczników, weryfikacja
+wrong_answers:
+  - Szyfrowanie, deszyfrowanie, transmisja
+  - Generowanie klucza publicznego, szyfrowanie klucza prywatnego, walidacja
+  - Haszowanie wiadomości, szyfrowanie tagów, dystrybucja tagów
+explanation: |
+  Schemat MAC składa się z trzech głównych etapów: generowania tajnego klucza, tworzenia znacznika dla wiadomości i weryfikacji, czy otrzymana wiadomość i jej znacznik są zgodne.
+reviewed: false

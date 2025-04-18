@@ -1,0 +1,10 @@
+question: Lightning Network ilithibitishwa na kutekelezwa lini kwa mara ya kwanza?
+answer: 2017
+wrong_answers:
+  - 2015
+  - 2016
+  - 2018
+explanation: |
+  Lightning Network ilithibitishwa kwanza na kutekelezwa
+  mwaka 2017.
+reviewed: true

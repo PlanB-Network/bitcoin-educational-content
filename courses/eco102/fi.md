@@ -26,7 +26,32 @@ Liity Damien Theillierin mukaan tähän rikastavaan tutkimusmatkaan Frédéric B
 
 <partId>e4a0cf13-2fc5-5ced-a528-ace3f9029f22</partId>
 
-## Kurssin esittely
+## Kurssin yleiskatsaus
+<chapterId>aa493f46-2d3a-4b76-ad79-ed44113a97f4</chapterId>
+
+Tämän koulutuksen tavoitteena on tarjota sinulle syvällinen ymmärrys Frédéric Bastiat'n elämästä, älyllisistä vaikutteista, ideologisista vastustajista ja talousteorioista. Tämän jäsennellyn oppimismatkan avulla huomaat, kuinka hänen ajatuksensa ovat muokanneet taloudellista ajattelua ja vaikuttavat edelleen nykyisiin keskusteluihin.
+
+**Osa 1: Johdanto**  
+Aloitamme yleiskatsauksella Frédéric Bastiat'sta, taloustieteen unohdetusta nerosta. Opit tuntemaan hänen elämänsä, älyllisen kehityksensä ja historiallisen kontekstin, jossa hän kehitti ajatuksiaan. Tämän viitekehyksen ymmärtäminen on olennaista, jotta voisit täysin ymmärtää hänen kirjoitustensa ja teorioidensa merkityksen.
+
+**Osa 2: Vaikutteet**  
+Jatkamme analyysillä ajattelijoista, jotka muokkasivat Frédéric Bastiat'n taloudellista ajattelua. Saat tietää, kuinka merkittävät henkilöt, kuten Adam Smith, Jean-Baptiste Say, Antoine Destutt de Tracy, Charles Comte, Charles Dunoyer ja Richard Cobden vaikuttivat hänen älylliseen kehitykseensä ja loivat perustan hänen pohdinnoilleen vapaakaupasta ja markkinataloudesta.
+
+**Osa 3: Vastustajat**  
+Seuraavaksi tutkimme Bastiat'n kritiikkiä hänen ideologisia vastustajiaan kohtaan. Olipa kyseessä Rousseau, klassinen koulutus, protektionismi, sosialismi tai Proudhon, ymmärrät, miksi Bastiat piti näitä oppeja esteinä taloudelliselle ja sosiaaliselle edistykselle ja kuinka hän vastasi heidän argumentteihinsa terävällä logiikalla.
+
+**Osa 4: Taloudelliset Sofismit**  
+Tämä osa on omistettu Bastiat'n paljastamille taloudellisille sofismeille, kuten kuuluisat "*Mitä nähdään ja mitä ei nähdä*" ja "*Kynttiläntekijöiden vetoomus*". Tarkastelemme, kuinka hän satiirin ja tarkan analyysin avulla osoitti aikansa yleiset taloudelliset virheet, jotka ovat yhä ajankohtaisia.
+
+**Osa 5: Taloudelliset Harmoniat**  
+Tässä osiossa tutustut Bastiat'n positiiviseen näkemykseen taloudesta. Käymme läpi käsitteitä, kuten markkinoiden ihme, yksilön vastuun voima ja oikean ja väärän solidaarisuuden ero. Bastiat näki talouden johdonmukaisena järjestelmänä, jossa hyvin ymmärretty henkilökohtainen etu hyödyttää yhteistä hyvää. Tarkastelemme, miksi näin on.
+
+**Osa 6: Laki**  
+Kurssin lopuksi sukellamme Bastiat'n pääteokseen "*Laki*", jossa hän esittää näkemyksensä omaisuudensuojasta, laillisesta ryöstöstä ja valtion rajallisesta roolista. Ymmärrät, miksi tätä esseetä pidetään yhtenä vaikuttavimmista manifesteista yksilönvapauden ja markkinatalouden puolesta.
+
+Oletko valmis selvittämään, kuinka Frédéric Bastiat'n ajatukset voivat edelleen resonoida nykypäivänä? Liity mukaan tälle älylliselle matkalle, joka saattaa haastaa käsityksesi taloustieteestä!
+
+## Bastiat: Tuntematon nero
 
 <chapterId>7f21b617-9810-5484-ad1c-befc61432126</chapterId>
 
@@ -1025,7 +1050,7 @@ Jos tarkastelemme asioita tästä näkökulmasta, Reagan selitti GE:n työntekij
 ![kuva](assets/test/143.webp)
 Ytimessään Reagan otti Bastiatilta useita avainelementtejä liberaalin yhteiskunta- ja ihmiskuvan osalta: siviiliyhteiskunnan ensisijaisuus valtioon nähden, valinnan ja yksilöllisen vastuun arvo, yrittäjän merkitys vaurauden luomisessa, joustavan ja minimaalisen lainsäädännön tärkeys, mikä mahdollistaa luottamuksen ja sopimusten kunnioittamisen, peruslaki, jonka mukaan vauraus on luotava ennen kuin sitä voidaan jakaa, halu antaa jokaiselle mahdollisuus kilpailullisilla markkinoilla…
 
-# Yhteenveto
+# Lopullinen osio
 
 <partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
 

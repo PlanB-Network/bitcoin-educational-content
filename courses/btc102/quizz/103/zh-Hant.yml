@@ -1,0 +1,14 @@
+question: 根據 Pamela Morgan 在 Cryptoasset Inheritance Planning 一書中所說，關於建立遺產繼承計畫的常見誤解有哪些？
+answer: 我需要聘請律師；我需要信任第三方；規劃會讓我的資產容易被竊；我的加密貨幣價值太低，無法規劃；我的繼承人會自己想清楚一切；所有這些都可以透過簡單的 Smart contract 完成。
+wrong_answers:
+  - 我不需要聘請律師；我不需要信任第三方；規劃會讓我的資產被 Hard 竊取；我的加密貨幣價值太高，無法規劃；我的繼承人不會自己想清楚一切；所有這些都不是簡單的 Smart contract 就能做到的。
+  - 我需要聘請律師；我需要信任第三方；規劃會讓我的資產被 Hard 竊取；我的加密貨幣價值太高，無法規劃；我的繼承人會自己想出一切辦法；所有這些都不是簡單的 Smart contract 就能做到的。
+  - 我不需要聘請律師；我不需要信任第三方；規劃會讓我的資產容易被竊；我的加密貨幣價值太低，無法規劃；我的繼承人不會自己想清楚一切；所有這些都可以用簡單的 Smart contract 來完成。
+explanation: |
+  Pamela Morgan 在 Cryptoasset Inherance Planning（加密資產繼承計劃）一書中指出，關於制定繼承計劃的常見誤解包括
+  Pamela Morgan 在 Cryptoasset Inheritance Planning（加密資產繼承計劃）一書中指出，您需要聘請
+  律師；您需要信任第三方；計劃會使您的資產容易被
+  偷竊；您的加密貨幣價值太低，無法進行規劃；您的繼承人將會
+  會自己想出一切辦法；而這一切都可以用一個簡單的智慧型
+  Contract。
+reviewed: false

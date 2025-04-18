@@ -1,0 +1,10 @@
+question: Je! anoset ya nyuma inaonyesha nini?
+answer: Idadi ya vyanzo vinavyowezekana vya UTXO mwishoni mwa mizunguko.
+wrong_answers:
+  - Ukubwa wa kikundi cha UTXO zisizoweza kutofautishwa mwishoni mwa mizunguko.
+  - Idadi ya vyanzo vinavyowezekana vya UTXO mwanzoni mwa mizunguko.
+  - Muda unaohitajika kukamilisha CoinJoin.
+explanation: |
+  Anoset ya kurudi nyuma inaonyesha idadi ya vyanzo vinavyowezekana vya sarafu fulani, kwa kuzingatia UTXO mwishoni mwa mzunguko.
+  
+reviewed: false

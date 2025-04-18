@@ -1,0 +1,8 @@
+question: Bitcoin Blockchain ni nini?
+answer: Ledger ya umma na isiyoweza kubadilika ya miamala yote ya Bitcoin.
+wrong_answers:
+  - Ledger ya kibinafsi na inayoweza kubadilishwa ya shughuli zote za Bitcoin.
+  - Ledger ya umma na inayoweza kubadilishwa ya shughuli zote za Bitcoin.
+  - Ledger ya kibinafsi na isiyoweza kubadilika ya shughuli zote za Bitcoin.
+explanation: >-
+reviewed: true

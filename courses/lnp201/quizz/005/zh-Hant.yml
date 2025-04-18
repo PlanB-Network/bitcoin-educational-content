@@ -1,0 +1,9 @@
+question: 私密金鑰在 Bitcoin 系統中的主要作用是什麼？
+answer: 簽署交易以滿足腳本
+wrong_answers:
+  - 作為接收比特幣的識別碼
+  - 將資金安全地儲存在 Blockchain 上
+  - 建立鎖定腳本來保護比特幣
+explanation: |
+  私密金鑰用於簽署交易，以滿足腳本和解鎖比特幣。
+reviewed: false

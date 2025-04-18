@@ -1,0 +1,11 @@
+question: Co często reprezentuje klucz prywatny w Bitcoin Wallet?
+answer: Lista 12 lub 24 słów.
+wrong_answers:
+  - Lista 12 lub 48 słów.
+  - Lista 32 słów.
+  - Lista 64 słów.
+explanation: |
+  W Bitcoin Wallet klucz prywatny jest często reprezentowany przez
+  przez listę 12 lub 24 słów, znaną również jako fraza seed
+  lub frazą Mnemonic.
+reviewed: true

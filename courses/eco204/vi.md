@@ -20,41 +20,24 @@ Tại đây, chúng ta sẽ nêu bật xu hướng và mô hình chung của cá
 
 <partId>6fe4d15d-f6e6-54be-9e04-0a75ac98df8b</partId>
 
-## Giới thiệu
+## Tổng quan về khóa học
 
 <chapterId>9d1aba8d-0485-5020-9863-5de37e6db8e0</chapterId>
 
-Khoá học này nhằm mang đến một hiểu biết sâu sắc về sự xuất hiện của các đợt siêu lạm phát trong một thế giới được thống trị bởi tiền pháp định và xem xét những hậu quả to lớn của nó. Người tham gia sẽ khám phá chi tiết các chu kỳ siêu lạm phát, phân tích nguyên nhân, yếu tố kích hoạt và các ví dụ trong lịch sử và đương đại. Họ cũng sẽ xem xét tác động cụ thể của siêu lạm phát đối với nền kinh tế và cuộc sống hàng ngày của người dân, nghiên cứu những hậu quả đối với giá trị tiền tệ, sức mua và các khoản tiết kiệm của cá nhân và tập thể.
+Chào mừng bạn đến với khóa học ECO204!
 
-Tại đây, chúng ta sẽ nêu bật xu hướng và mô hình chung của các đợt siêu lạm phát trong lịch sử, đồng thời cung cấp các chiến lược hiệu quả và cụ thể để bảo vệ bản thân trong thời kỳ siêu lạm phát. Người tham gia sẽ có cơ hội khám phá các lựa chọn đầu tư và cơ chế phòng thủ tài chính khác nhau, thu thập công cụ thực tế và kiến thức thiết yếu để bình tĩnh vượt qua những khó khăn trong một bối cảnh kinh tế không ổn định.
+Mục tiêu của khóa học này là giúp bạn hiểu rõ các nguyên nhân sâu xa, cơ chế và hậu quả của siêu lạm phát trong bối cảnh hệ thống tiền tệ fiat. Thông qua các ví dụ cụ thể và phân tích lịch sử, bạn sẽ học cách nhận diện các mô hình lặp lại trước các thời kỳ siêu lạm phát, và xác định các công cụ hành động để bảo vệ chính mình.
 
-### Chương trình học
+**Phần 2: Lạm phát là gì?**  
+Trước khi đi sâu vào chủ đề chính, chúng ta sẽ quay lại các khái niệm cơ bản: Lạm phát là gì? Phần này sẽ trình bày các nguồn gốc tiền tệ của lạm phát, các loại lạm phát khác nhau và cách chúng phù hợp trong một động thái kinh tế rộng lớn hơn. Đây là một bước thiết yếu để hiểu được cách lạm phát thông thường có thể biến đổi thành siêu lạm phát.
 
-Phần 1 - Giới thiệu
+**Phần 3: Siêu lạm phát là gì?**  
+Trong phần này, bạn sẽ tìm hiểu các định nghĩa chính xác của siêu lạm phát và một số giai đoạn lịch sử quan trọng, bao gồm Đức thời Weimar và Zimbabwe. Chúng tôi sẽ phân tích những điểm tương đồng, sự khác biệt và những tương đồng hiện đại. Bạn cũng sẽ khám phá các trường hợp ít được biết đến hơn, như việc thay đổi tiền tệ liên tục ở Mỹ Latinh, và các con đường thoát ra được quan sát ở một số quốc gia.
 
-- 1.1 - Giới thiệu khóa học bởi Rogzy & David
+**Phần 4: Chúng ta đã đến đây như thế nào?**  
+Phần này nhằm hiểu các cơ chế cấu trúc khiến siêu lạm phát trở nên khả thi, đặc biệt là thông qua sự phát triển của "lớp thứ hai" của hệ thống tiền tệ và vai trò của các ngân hàng trung ương. Các tài nguyên bổ sung và đề xuất đọc thêm sẽ được cung cấp để tìm hiểu sâu hơn.
 
-Phần 2 - Lạm phát là gì?
-
-- 2.1 - Một hiện tượng tiền tệ
-- 2.2 - Các loại lạm phát
-- 2.3 - Giảm phát
-
-Phần 3 - siêu lạm phát là gì?
-
-- 3.1 - Định nghĩa
-- 3.2 - Sự tương đồng giữa Weimar và Zimbabwe
-- 3.3 - Sự khác biệt giữa Weimar và Zimbabwe và thế giới song song hiện đại
-- 3.4 - Các đợt đổi tiền ở Mỹ Latinh
-- 3.5 - Cách thoát khỏi siêu lạm phát
-- 3.6 - Trình diễn bộ sưu tập tiền siêu lạm phát
-
-Phần 4 - Chúng ta đã đến đây như thế nào?
-
-- 4.1 - Sự xuất hiện của tiền tệ lớp thứ hai và ngân hàng trung ương
-- 4.2 - Sách và nguồn tài liệu
-
-Chúc bạn may mắn!
+Điều gì sẽ xảy ra nếu lịch sử tiền tệ đang lặp lại ngay trước mắt chúng ta? Hãy tự mình đánh giá trong các chương tiếp theo!
 
 # Lạm phát là gì?
 
@@ -501,7 +484,7 @@ Weimar: "Việc mua sắm bình thường nhất tại cửa hàng cũng đòi h
 
 Zimbabwe: "Các quản lý cửa hàng cũng được phép thuê một nhân viên tạm thời để thay thế người nhân viên phải đếm tiền suốt cả ngày. Tất nhiên, việc đếm tiền trong cửa hàng để quản lý và việc đếm để gửi vào ngân hàng là một, nhưng toàn bộ quy trình phải được lặp lại tại ngân hàng khi gửi tiền."
 
-![video](https://www.youtube.com/watch?v=OMwkb5rpm_w&t=20s)
+:::video id=910231d7-af90-4ab8-b74c-bfb81caebfb2:::
 
 Kỹ thuật đếm tiền từ Uzbekistan
 
@@ -953,7 +936,7 @@ Siêu lạm phát là một chủ đề thú vị đã được nghiên cứu qu
 
 - "Currency Boards for Developing Countries: A Handbook" của Steve Hanke và Kurt Schuler. Mặc dù tập trung vào các khung tiền tệ, cuốn sách này cung cấp một góc nhìn về cách phòng tránh tình trạng siêu lạm phát.
 
-# Kết luận
+# Phần cuối
 
 <partId>cb1f4a4b-556a-4e47-a5cc-136be35a1f9a</partId>
 

@@ -1,0 +1,9 @@
+question: Jaka jest prawidłowa kolejność operacji w szyfrowaniu uwierzytelnionym?
+answer: Najpierw zaszyfruj, a następnie utwórz tag na zaszyfrowanym tekście
+wrong_answers:
+  - Najpierw utwórz tag, a następnie zaszyfruj wiadomość i tag
+  - Połącz zwykły tekst ze znacznikiem, a następnie zaszyfruj
+  - Utwórz tag, a następnie użyj klucza publicznego do jego zaszyfrowania
+explanation: |
+  Aby zapewnić bezpieczeństwo, uwierzytelnione szyfrowanie musi najpierw zaszyfrować wiadomość, a następnie generate znacznik na zaszyfrowanym tekście. Inne rozkazy są potencjalnie podatne na ataki.
+reviewed: false

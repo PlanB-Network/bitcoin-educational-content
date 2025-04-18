@@ -1,0 +1,9 @@
+question: Jaki jest cel SIGHASH_SINGLE?
+answer: Aby objąć jedno wejście i odpowiadające mu wyjście
+wrong_answers:
+  - Obejmuje wszystkie wejścia i wyjścia
+  - Obejmuje tylko wejścia
+  - Obejmuje wszystkie wyjścia z wyjątkiem jednego
+explanation: |
+  SIGHASH_SINGLE obejmuje pojedyncze wejście i pojedyncze wyjście odpowiadające indeksowi podpisanego wejścia, pozostawiając resztę modyfikowalną.
+reviewed: false

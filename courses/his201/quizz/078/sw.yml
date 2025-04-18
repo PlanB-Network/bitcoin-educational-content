@@ -1,0 +1,9 @@
+question: Satoshi Nakamoto ilihamishia nani udhibiti wa tovuti (ambayo pia inajumuisha kongamano na wiki) alipoondoka?
+answer: Marti Malmi
+wrong_answers:
+  - Gavin Andresen
+  - Hal Finney
+  - Mike Hearn
+explanation: |
+  Hakuwa na muda wa kuisimamia na haraka akaikabidhi kazi hiyo. Tovuti na kongamano lilichukuliwa na Theymos na Cøbra.
+reviewed: false

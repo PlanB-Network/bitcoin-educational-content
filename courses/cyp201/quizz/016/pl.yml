@@ -1,0 +1,9 @@
+question: Który algorytm podpisu został wprowadzony w Bitcoin z Taproot?
+answer: Schemat podpisu Schnorra
+wrong_answers:
+  - ECDSA
+  - SHA256
+  - PBKDF2
+explanation: |
+  Schemat podpisu Schnorr został wprowadzony w listopadzie 2021 r. wraz z aktualizacją Taproot.
+reviewed: false

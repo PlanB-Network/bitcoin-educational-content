@@ -1,0 +1,9 @@
+question: Je, HD Wallet inakuruhusu kufanya nini ikilinganishwa na JBOK Wallet?
+answer: generate funguo zote za kibinafsi kutoka kwa seed moja
+wrong_answers:
+  - Kuongeza usalama wa sahihi digital
+  - Tumia tena Address ile ile kwa miamala mingi
+  - Epuka kabisa matumizi ya funguo za umma
+explanation: |
+  Pochi za HD hupata funguo zote za faragha kutoka kwa seed ya kipekee, ambayo hurahisisha kuhifadhi nakala na kuboresha faragha kwa njia isiyo ya moja kwa moja.
+reviewed: false

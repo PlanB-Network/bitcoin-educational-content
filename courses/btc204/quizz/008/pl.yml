@@ -1,0 +1,9 @@
+question: Jeśli transakcja ma 2 UTXO o wartości 5 000 Sats jako dane wejściowe i 3 UTXO o wartości 3 000 Sats jako dane wyjściowe, jakie są opłaty transakcyjne?
+answer: 1,000 Sats
+wrong_answers:
+  - 1,500 Sats
+  - 2,500 Sats
+  - 3,000 Sats
+explanation: |
+  Opłaty za transakcję stanowią różnicę między całkowitymi nakładami a całkowitymi wynikami. Jest to to, co pozostaje po zużyciu wszystkich danych wejściowych i utworzeniu wszystkich danych wyjściowych. Obliczenie jest zatem następujące: opłaty = (5000x2) - (3000x3) = 10000 - 9000 = 1000.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Kusudi la mkate na michezo iliyopangwa na watawala wa Kirumi lilikuwa nini?
+answer: Kuburudisha watu na kugeuza mawazo yao kutoka kwa shida za kisiasa
+wrong_answers:
+  - Kukuza utamaduni na sanaa ya Kirumi
+  - Kufundisha askari na kuandaa raia kwa vita
+  - Kukuza uchumi na kutengeneza ajira
+explanation: |
+  Mikate na michezo hiyo ilibuniwa ili kuwaburudisha watu na kugeuza mawazo yao kutoka kwa matatizo ya kisiasa na kiuchumi, kuruhusu viongozi kudumisha amani ya kijamii kwa kutoa burudani na ugawaji wa chakula.
+reviewed: false

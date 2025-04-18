@@ -33,13 +33,13 @@ Du trenger ikke å være en GitHub-ekspert for å vurdere innhold. Selv om det a
 
 Men hvis du ikke er kjent med Git og GitHub og ønsker å lære mer, kan du ta en titt på vår introduksjonsartikkel om disse verktøyene:
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 ## 1. Opprett en konto
 
 
 - Opprett en konto på [GitHub] (https://github.com/) for å begynne å bidra. Hvis du vil ha veiledning om hvordan du oppretter en GitHub-konto, har vi også en detaljert veiledning:
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 - Du trenger også en konto på meldingsappen [Telegram] (https://telegram.org/).
 
@@ -144,7 +144,7 @@ NB. Det anbefales å se gjennom i kodevinduet, med det opprinnelige innholdet vi
 - Om du finn sitat, sørg for å gjere litt research på nettet for å finne den rette oversetjinga på språket ditt.
 - IKKJE oversett dei statiske orda i starten av teksten, som blir brukt til å beskrive innhaldet: "name", "description", "objectives".
 - Om du finn "Plan ₿ Network" i teksten, lat det stå i denne originale forma. Ikkje oversett ordet "plan" eller ordet "network". I tillegg, IKKJE bruk artikkelen når du introduserer Plan ₿ Network, og betrakt det som eit merke. Det same gjeld for "₿-CERT", "BIZ SCHOOL", "TECH SCHOOL", som også bør haldast i originalform.
-- Ver merksam på rar interpunkjson som `\*\*\`, som kan representere ei dårleg rendering av det fete symbolet **. Sjekk alltid den originale engelske teksten for å sjå om det skal vere ein fet tekst der. Du kan finne meir informasjon om markdown-språket [her](https://www.markdownguide.org/basic-syntax/).
+- Vær oppmerksom på merkelig tegnsetting som '\*\*\', som kan representere en dårlig gjengivelse av fet skrift-symbolet **. Sjekk alltid den originale engelske teksten for å se om det skal være fet tekst. Generelt, for å gjengi fet tekst, vennligst sett inn to stjerner ** både før og etter ordet/setningen. Du kan finne mer informasjon om markdown-språket [her](https://www.markdownguide.org/basic-syntax/).
 - Når du er ferdig med korrekturen, kan du gå tilbake til det første issue som vart opna av koordinatoren, kommentere med "Proofreading done" og sette inn PR-lenken din der.
 
 ## 7. Vent på vurdering

@@ -22,17 +22,18 @@ Tanto si es una **pequeña empresa como una gran corporación**, integrar Bitcoi
 
 <partId>326cf945-5d3f-4d86-8c3e-4d1c35959799</partId>
 
-## Incorpore Bitcoin a su empresa
-
+## Descripción del curso
 <chapterId>1be42be9-4080-49f5-b5b2-6b531dd55f5f</chapterId>
 
-Inicie el viaje de su empresa en la red Bitcoin con este completo curso de formación - una puerta de entrada a la comprensión de cómo Bitcoin y la Lightning Network pueden revolucionar las operaciones comerciales tradicionales. Este curso está diseñado para minoristas, empresarios, gerentes y responsables de la toma de decisiones corporativas que deseen explorar las capacidades prácticas de Bitcoin como una red monetaria global, nativa de Internet y un medio robusto de intercambio de valor.
+¡Bienvenido al curso BIZ101! Inicie el viaje de su empresa en la red Bitcoin con este completo curso de formación - una puerta de entrada a la comprensión de cómo Bitcoin y la Lightning Network pueden revolucionar las operaciones comerciales tradicionales. Este curso está diseñado para minoristas, empresarios, gerentes y responsables de la toma de decisiones corporativas que deseen explorar las capacidades prácticas de Bitcoin como una red monetaria global, nativa de Internet y un medio robusto de intercambio de valor.
 
 A lo largo del curso, se le presentarán los principios fundamentales que hacen que Bitcoin y la Lightning Network sean claramente transformadores. Aprenderá cómo estas tecnologías ofrecen un espectro de casos de uso, desde el almacenamiento de capital digital a pagos rápidos, económicos y escalables, y cómo proporcionan mejoras críticas sobre la moneda tradicional y los sistemas de pago. El curso BIZ101 conecta la teoría económica con las aplicaciones del mundo real, aclarando cómo la descentralización puede reducir la dependencia de los intermediarios y superar las limitaciones inherentes a los sistemas heredados.
 
 El curso comienza con un examen detallado de las monedas convencionales y los mecanismos de pago, sentando las bases mediante la exploración de cómo la moneda funciona como una red para permitir el comercio, el ahorro y la especialización económica. Posteriormente, profundizaremos en la tecnología que hay detrás de Bitcoin y en las innovaciones introducidas por la Lightning Network, revelando su papel a la hora de facilitar transacciones fluidas, seguras y casi instantáneas que pueden servir a empresas de todos los tamaños. A continuación, nos sumergiremos en las secciones prácticas de este curso, comenzando con una parte sobre la tenencia de bitcoins como tesorería, seguida de una parte final sobre la aceptación de bitcoin como medio de pago.
 
 Tanto si representa a una pequeña empresa como a una gran corporación, este curso pretende dotarle de los conocimientos necesarios para integrar Bitcoin en sus operaciones diarias, mejorando así la resistencia, eficiencia y ventaja competitiva de su empresa. A medida que Bitcoin continúa remodelando el panorama económico, la comprensión de estas tecnologías innovadoras no es simplemente una opción, sino una necesidad estratégica. Prepárese para participar con un contenido perspicaz, ejemplos prácticos y orientación estratégica que le permitirán navegar y aprovechar el mundo en evolución de Bitcoin
+
+¿Listo para sumergirte en el mundo de Bitcoin para empresas? ¡Vamos allá!
 
 # Moneda, sistemas de pago y Bitcoin
 
@@ -1348,7 +1349,7 @@ Por último, tanto si es un pequeño comerciante como una empresa más estableci
 - Bitcoin retenido (0,19335) aparece en el balance valorado en 7.734 euros.
 - Ganancias no realizadas de 5.468 euros en Bitcoin retenido consignadas en notas financieras.
 
-# Conclusión
+# Sección final
 
 <partId>f6ca8d01-a4f3-449b-ac9f-c5fba9a69178</partId>
 
@@ -1356,16 +1357,16 @@ Por último, tanto si es un pequeño comerciante como una empresa más estableci
 
 <chapterId>0fe8c49e-b7f8-46f7-9c42-b8a9a99a7b46</chapterId>
 
-<isCourseReview>verdadero</isCourseReview>
+<isCourseReview>true</isCourseReview>
 
 ## Examen final
 
 <chapterId>40a0f18c-bdc9-45b2-8dea-15f7e574230e</chapterId>
 
-<isCursoExamen>true</isCursoExamen>
+<isCourseExam>true</isCourseExam>
 
 ## Conclusión
 
 <chapterId>5503c23e-3a90-4a23-8d89-75e3cc1ee53e</chapterId>
 
-<isConclusionCurso>true</isConclusionCurso>
+<isCourseConclusion>true</isCourseConclusion>

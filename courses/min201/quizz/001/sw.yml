@@ -1,0 +1,14 @@
+question: Ni nini madhumuni ya utaratibu wa kurekebisha ugumu katika mtandao wa Bitcoin?
+answer: Ili kuhakikisha kuwa vitalu vinachimbwa kwa wastani kila dakika 10
+wrong_answers:
+  - Ili kuongeza ugumu wa Mining kwa muda
+  - Ili kupunguza ugumu wa Mining kwa muda
+  - Ili kuhakikisha kuwa Miner sawa haitoi vitalu mfululizo
+explanation: |
+  Marekebisho ya ugumu ni utaratibu muhimu katika
+  uendeshaji wa mtandao wa Bitcoin, kuhakikisha kwamba vitalu ni
+  kuchimbwa kwa wastani kila dakika 10. Marekebisho haya
+  utaratibu huhakikisha kwamba muda wa Mining kwa vitalu vipya
+  inabaki mara kwa mara kwa wakati, bila kujali idadi ya
+  wachimbaji au nguvu ya jumla ya kompyuta ya mtandao.
+reviewed: true

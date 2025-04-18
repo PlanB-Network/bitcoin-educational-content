@@ -1,0 +1,10 @@
+question: Ni nini sifa kuu ya mfumuko wa bei kulingana na ufafanuzi wa Cagan?
+answer: Kiwango cha juu sana cha mfumuko wa bei wa kila mwezi
+wrong_answers:
+  - Kiwango cha juu sana cha mfumuko wa bei kwa mwaka
+  - Mfumuko wa bei wa kila wiki wa juu sana
+  - Kiwango cha juu sana cha mfumuko wa bei wa kila siku
+explanation: |
+  Kulingana na ufafanuzi wa Cagan, mfumuko wa bei una sifa ya
+  mfumuko wa bei wa kila mwezi wa juu sana unaozidi 50%.
+reviewed: false

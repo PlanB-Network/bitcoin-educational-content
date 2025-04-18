@@ -1,0 +1,13 @@
+question: Jakie jest zalecane zastosowanie Multisig Wallet?
+answer: Przechowywanie dużych ilości do użytku korporacyjnego.
+wrong_answers:
+  - Przechowywanie niewielkich ilości na własny użytek.
+  - Przechowywanie średnich ilości do użytku non-profit.
+  - Przechowywanie codziennych wydatków do indywidualnego użytku.
+explanation: |
+  Multisig Wallet jest zalecany do przechowywania dużych ilości danych
+  i do użytku korporacyjnego, ponieważ wymaga wielu
+  podpisów do wykonania transakcji. Ten proces dodaje
+  dodatkowy Layer bezpieczeństwa, ponieważ pojedyncza osoba nie może
+  przeprowadzić transakcji bez zgody innych osób.
+reviewed: true

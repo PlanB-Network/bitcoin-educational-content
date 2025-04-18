@@ -1,0 +1,9 @@
+question: 誰在 2010 年 11 月創建了第一台 Block explorer？
+answer: Michael Marquardt (Theymos)
+wrong_answers:
+  - Jeff Garzik (jgarzik)
+  - Nils Schneider (tcatm)
+  - Pieter Wuille (sipa)
+explanation: |
+  此 Bitcoin Block explorer 允許使用者透過網路瀏覽器檢視區塊、位址和交易的詳細資訊。
+reviewed: false

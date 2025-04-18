@@ -147,6 +147,7 @@ Nota: Se recomienda revisar en la ventana de código, con el contenido original 
 - Presta atención a puntuaciones extrañas como `\*\*\`, que podría representar una mala representación del símbolo de negrita **. Siempre verifica el texto original en inglés para ver si se supone que debe haber un texto en negrita. Puedes encontrar más información sobre el lenguaje markdown [aquí](https://www.markdownguide.org/basic-syntax/).
 - Cuando termines tu corrección, puedes volver al issue inicial abierto por el coordinador, comentar con "Proofreading done" e insertar el enlace de tu PR allí.
 
+
 ## 7. Espera la revisión
 
 

@@ -1,0 +1,9 @@
+question: Jakie są główne komponenty wymagane do uruchomienia węzła Lightning kompatybilnego z RGB?
+answer: bitcoind, indeksator i serwer proxy RGB
+wrong_answers:
+  - Węzeł Lightning, indeksator i serwer IPFS
+  - RGB mobilny Wallet, serwer proxy RGB i bitcoind
+  - Klient sieciowy, indeksator i serwer proxy RGB
+explanation: |
+  Aby uruchomić węzeł Lightning z obsługą RGB, potrzebny jest węzeł bitcoind do interakcji z Bitcoin Blockchain, indeksator do wydobywania transakcji On-Chain oraz serwer proxy RGB, aby ułatwić Exchange przesyłanie przesyłek między podmiotami równorzędnymi.
+reviewed: false

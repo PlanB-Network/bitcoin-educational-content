@@ -1,0 +1,13 @@
+question: Kwa nini SMS haizingatiwi kuwa chaguo bora kwa 2FA?
+answer: Njia hii inaweza kuathiriwa na mashambulizi tofauti, kama vile ulaghai wa kubadilisha SIM.
+wrong_answers:
+  - Ni polepole sana na ya gharama kubwa, simu itakuwa na ufanisi zaidi.
+  - Inatoa tu uthibitisho wa kumiliki nambari ya simu.
+  - Ni ngumu sana kusanidi kwa kiwango cha kiufundi.
+explanation: |
+  SMS haizingatiwi chaguo bora kwa 2FA kwa sababu ni
+  njia ya 2FA inaweza kuathiriwa na mashambulizi tofauti, kama SIM
+  kubadilishana kashfa. Mara baada ya kunyonywa kwa mafanikio, haya
+  udhaifu huharibu kabisa ulinzi wowote unaotolewa na
+  Layer ya ziada ya uthibitishaji wa 2FA.
+reviewed: true

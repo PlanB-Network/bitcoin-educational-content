@@ -1,0 +1,10 @@
+question: 是誰提出 Bitcoin 高速公路的構想？
+answer: Andreas Antonopoulos
+wrong_answers:
+  - Satoshi Nakamoto
+  - Elon Musk
+  - Vitalik Buterin
+explanation: |
+  著名的 Bitcoin 倡導者和教育家 Andreas Antonopoulos 提出了
+  Bitcoin 高速公路的構想。
+reviewed: false

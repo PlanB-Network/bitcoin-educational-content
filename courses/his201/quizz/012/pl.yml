@@ -1,0 +1,9 @@
+question: Jak nazywa się problem konsensusu w sieci rozproszonej?
+answer: Problem bizantyjskich generałów
+wrong_answers:
+  - Problem rzymskich centurionów
+  - Problem albańskich pułkowników
+  - Problem japońskich Taishos
+explanation: |
+  Nazwa tego problemu (sformalizowana przez Lamporta, Shostaka i Pease'a w 1982 roku) została wybrana, aby nie urazić czytelnika, ponieważ nikt nigdy nie określił się jako bizantyjczyk.
+reviewed: false

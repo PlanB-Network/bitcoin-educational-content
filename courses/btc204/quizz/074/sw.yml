@@ -1,0 +1,8 @@
+question: Kati ya majibu yafuatayo, ni ipi ambayo haiwakilishi faida ya kutumia nodi yako mwenyewe?
+answer: Kupunguza ada za muamala.
+wrong_answers:
+  - Kushiriki katika maelewano.
+  - Kuwa huru kutoka kwa wahusika wengine.
+  - Kuwa na uwezo wa kupinga udhibiti wa shughuli.
+explanation: |
+  Hii ndiyo sababu kuwa na nodi yako mwenyewe ni muhimu kwa matumizi kamili ya Bitcoin: Upinzani wa udhibiti; Shughuli zako haziwezi kuzuiwa na mtu yeyote; Uhuru kutoka kwa lugha ya sehemu ya tatu; es Hutegemei tena huduma yoyote ya nje ili kuthibitisha data ya Blockchain; Kushiriki kikamilifu; Una uwezo wa kuweka sheria zako za uthibitishaji na kushiriki moja kwa moja katika makubaliano; Mchango kwa mtandao; Kwa kuendesha node, unasaidia kuimarisha na kusambaza mtandao wa Bitcoin; Elimu ya kiufundi; Kudhibiti Full node ni njia bora ya kuongeza ujuzi wako wa kiufundi kuhusu Bitcoin.

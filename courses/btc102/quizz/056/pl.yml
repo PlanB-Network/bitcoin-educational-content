@@ -1,0 +1,11 @@
+question: Jaka jest ostateczna wizja Bitcoin zgodnie z metaforą autostrady Bitcoin?
+answer: Stanie się autostradą dla ruchu internetowego i dla 90% światowej populacji.
+wrong_answers:
+  - Stanie się dobrem luksusowym dostępnym tylko dla bogatych.
+  - Stanie się narzędziem do nielegalnych działań.
+  - Stanie się ona przestarzała i zostanie zastąpiona przez inne kryptowaluty.
+explanation: |
+  Metafora autostrady Bitcoin przewiduje, że Bitcoin stanie się autostradą dla
+  ruchu internetowego i dla 90% światowej populacji, z towarami i usługami
+  bezpośrednio dostępne na tej autostradzie.
+reviewed: false

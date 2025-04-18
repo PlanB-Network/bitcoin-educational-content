@@ -1,0 +1,9 @@
+question: 哪種衍生演算法可用於根據秘密金鑰計算驗證碼？
+answer: HMAC-SHA512
+wrong_answers:
+  - SHA512
+  - SHA256
+  - RIPEMD160
+explanation: |
+  HMAC-SHA512 是一種結合 Hash 函數和秘訣來計算驗證碼的演算法。
+reviewed: false

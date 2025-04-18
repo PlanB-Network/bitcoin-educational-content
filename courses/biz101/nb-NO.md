@@ -22,9 +22,10 @@ Enten du er en **småbedrift eller et stort konsern**, kan integrering av Bitcoi
 
 <partId>326cf945-5d3f-4d86-8c3e-4d1c35959799</partId>
 
-## Innfør Bitcoin i bedriften din
-
+## Kursoversikt
 <chapterId>1be42be9-4080-49f5-b5b2-6b531dd55f5f</chapterId>
+
+Velkommen til BIZ101-kurset!
 
 Kickstart bedriftens reise i Bitcoin-nettverket med dette omfattende kurset - en inngangsport til å forstå hvordan Bitcoin og Lightning Network kan revolusjonere tradisjonell forretningsdrift. Kurset er utviklet for forhandlere, entreprenører, ledere og beslutningstakere i bedrifter som ønsker å utforske de praktiske mulighetene som ligger i Bitcoin som et globalt, internettbasert pengenettverk og et robust middel for verdiutveksling.
 
@@ -33,6 +34,8 @@ I løpet av kurset vil du bli introdusert for de grunnleggende prinsippene som g
 Kurset begynner med en detaljert gjennomgang av konvensjonelle valutaer og betalingsmekanismer, og legger grunnlaget ved å utforske hvordan valuta fungerer som et nettverk for å muliggjøre handel, sparing og økonomisk spesialisering. Deretter går vi nærmere inn på teknologien bak Bitcoin og nyvinningene som er introdusert av Lightning Network, og ser på hvordan de bidrar til å legge til rette for sømløse, sikre og nesten øyeblikkelige transaksjoner som kan betjene bedrifter av alle størrelser. Deretter går vi inn i de praktiske delene av kurset, som starter med en del om å holde bitcoins som en skattkiste, etterfulgt av en siste del om å akseptere bitcoin som betalingsmiddel.
 
 Enten du representerer en liten bedrift eller et stort konsern, har dette kurset som mål å gi deg kunnskapen du trenger for å integrere Bitcoin i den daglige driften, og dermed øke bedriftens motstandskraft, effektivitet og konkurransefortrinn. Etter hvert som Bitcoin fortsetter å omforme det økonomiske landskapet, er det ikke bare et alternativ, men en strategisk nødvendighet å forstå disse banebrytende teknologiene. Gjør deg klar til å engasjere deg med innsiktsfullt innhold, praktiske eksempler og strategisk veiledning som vil gjøre deg i stand til å navigere og utnytte Bitcoins verden i utvikling!
+
+Klar til å dykke ned i Bitcoin-verdenen for bedrifter? La oss gå!
 
 # Valuta, betalingssystemer og Bitcoin
 
@@ -1349,7 +1352,7 @@ Til slutt, uansett om du er en liten kjøpmann eller en mer etablert virksomhet,
 - Beholdningen av Bitcoin (0,19335) er oppført i balansen til en verdi av 7 734 euro.
 - Urealiserte gevinster på 5 468 euro på tilbakeholdt Bitcoin er oppgitt i finansielle noter.
 
-# Konklusjon
+# Siste seksjon
 
 <partId>f6ca8d01-a4f3-449b-ac9f-c5fba9a69178</partId>
 

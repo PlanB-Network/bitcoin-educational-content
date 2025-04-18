@@ -1,0 +1,8 @@
+question: Jaka stała jest używana do wyprowadzenia głównego klucza prywatnego z seed?
+answer: Bitcoin seed
+wrong_answers:
+  - Klucz główny
+  - HD Wallet seed
+  - Blockchain Root
+explanation: |
+  Stała Bitcoin seed jest używana jako klucz w funkcji HMAC-SHA512 w celu uzyskania głównego klucza prywatnego i głównego kodu łańcucha.

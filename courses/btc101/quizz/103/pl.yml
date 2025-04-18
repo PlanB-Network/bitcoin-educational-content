@@ -1,0 +1,13 @@
+question: Jaki jest cel tworzenia planu dziedziczenia bitcoinów?
+answer: Aby zapewnić, że Twoje bitcoiny będą odpowiednio zarządzane po Twojej śmierci.
+wrong_answers:
+  - Aby uniknąć podatków od bitcoinów.
+  - Aby zmniejszyć wartość swoich bitcoinów.
+  - Aby zapobiec kradzieży bitcoinów.
+explanation: |
+  Plan spadkowy gwarantuje, że bitcoiny będą odpowiednio zarządzane po śmierci
+  odpowiednio zarządzane po Twojej śmierci. Może on zawierać
+  odręczny list z wyszczególnieniem aktywów, metod dostępu do nich
+  oraz dane kontaktowe zaufanych osób, z którymi należy się skontaktować
+  z którymi należy się skontaktować.
+reviewed: true

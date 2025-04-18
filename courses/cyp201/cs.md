@@ -2178,7 +2178,7 @@ Generování adresy pak pokračuje stejným procesem, přičemž surový veřejn
 
 A to je vše! Dospěli jsme ke konci tohoto kurzu CYP201. Pokud jste tento kurz považovali za užitečný, byl bych velmi vděčný, pokud byste si našli chvilku na to, abyste mu dali dobré hodnocení v následující kapitole hodnocení. Neváhejte jej také sdílet s vašimi blízkými nebo na sociálních sítích. Nakonec, pokud si přejete získat diplom za tento kurz, můžete po kapitole hodnocení absolvovat závěrečnou zkoušku.
 
-# Závěr
+# Sekce finále
 
 <partId>58111408-b734-54db-9ea7-0d5b67f99f99</partId>
 

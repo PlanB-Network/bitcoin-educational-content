@@ -1,0 +1,9 @@
+question: Kulingana na Marx, ni kikomo gani kikubwa cha haki za binadamu?
+answer: Wanalinda tu uhuru rasmi na wa kufikirika.
+wrong_answers:
+  - Ni haki za asili.
+  - Ni haki za hiari.
+  - Wanazuia mapinduzi.
+explanation: |
+  Marx anakosoa haki za binadamu kwa kuziita rasmi kwa sababu zinahakikisha uhuru wa mtu binafsi, bila kubadilisha hali halisi ya unyonyaji katika jamii ya kibepari.
+reviewed: false

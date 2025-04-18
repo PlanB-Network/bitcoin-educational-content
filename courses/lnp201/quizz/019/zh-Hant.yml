@@ -1,0 +1,9 @@
+question: Commitment Transaction 系統對 Lightning 通道的參與者有什麼保證？
+answer: 每個人都可以透過公佈最後一次簽署的交易來收回他們的資金
+wrong_answers:
+  - 該交易在 Bitcoin Blockchain 上可見
+  - 通道的容量會隨著每次交易而增加
+  - 費用由兩個參與者共同分擔
+explanation: |
+  經簽署的 Commitment 交易可確保在通道關閉時，每位參與者都能透過發佈最新版本來收回資金。
+reviewed: false

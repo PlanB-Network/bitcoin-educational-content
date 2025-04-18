@@ -1,0 +1,9 @@
+question: Jaka jest jedna kluczowa zaleta ekosystemu płatności Bitcoin pod względem przełączania się między rozwiązaniami?
+answer: Zmiana dostawcy lub aktualizacja narzędzi jest stosunkowo łatwa, ponieważ otwarte, interoperacyjne standardy Bitcoin umożliwiają płynne transfery środków.
+wrong_answers:
+  - Po wybraniu dostawcy firma nigdy nie może zmienić rozwiązania.
+  - Rozwiązania Bitcoin są zastrzeżone i powiązane z jednym dostawcą.
+  - Zmiana dostawcy wymaga zgody rządu i długiego procesu prawnego.
+explanation: |
+  Ponieważ Bitcoin opiera się na otwartych protokołach, sprzedawcy mogą swobodnie przenosić swoje środki lub przyjmować nowe rozwiązania w miarę rozwoju lub zmiany potrzeb. Ta elastyczność zapewnia firmom możliwość wyboru najlepszych narzędzi bez uzależnienia od dostawcy.
+reviewed: false

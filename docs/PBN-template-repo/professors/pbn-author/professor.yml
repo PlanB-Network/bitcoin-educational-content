@@ -1,12 +1,13 @@
-# randonmly generated uuid v4
+# generate a random uuid v4
 id: 17f8bc5b-7034-4ff6-96e0-11484a133642
+
 ## Professor characteristics
 
 # Name
 # Write author's complete name
 name: Plan ₿ Network Author
 
-# contributor_id
+# contributor_id (*)
 # Define its id using the 2 words of the bip39 dictionary by using the associated PlanB-UID (see /docs/planb-uid.md)
 contributor_id: another-satoshi
 
@@ -15,27 +16,29 @@ contributor_id: another-satoshi
 links:
   twitter: https://twitter.com/asi0_flammeus
   website: https://awesome.site
+  nostr:
 
-# tags
-# List the associated tags to the author
-# The list of tags is composed of 21 items that can be found here (list not yet available)
+# Tags
+# Choose from the list the associated tags to this content
+# The list of tags is composed of 51 items that can be found here (bitcoin-education-content/docs/50-planb-tags.md)
 tags:
   - cypherpunk
   - lightning
+
 # tips
 # List the possibility to directly tip the author
-# For the moment only the lightning_address is supported on planb.network
+# Right now only the lightning_address is supported
 tips:
   lightning_address: awesome@lnaddress.com
 
 # company
 # Define for which company the author is working with
-# Ideally this company is already present in the builders folder
+# Ideally this company is already present in the projects folder
 company: ACME
 
 # affiliations
 # List the closest affiliations the author has with any actors of the industry or else.
-# Ideally the cited affiliations are present in the builders folder
+# Ideally the cited affiliations are present in the projects folder
 affiliations:
   - uuid
   - uuid

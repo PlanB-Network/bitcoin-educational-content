@@ -1,0 +1,11 @@
+question: Je! ni jukumu gani la bei katika shule ya uchumi ya Austria?
+answer: Bei zina jukumu muhimu katika shirika la kimantiki la watu binafsi walio na taarifa za sehemu.
+wrong_answers:
+  - Bei hazina umuhimu katika shule ya uchumi ya Austria.
+  - Bei huamuliwa na serikali katika shule ya uchumi ya Austria.
+  - Bei zimewekwa na hazibadilika katika shule ya uchumi ya Austria.
+explanation: |
+  Katika shule ya uchumi ya Austria, bei ina jukumu muhimu katika
+  shirika la busara la watu binafsi na taarifa za sehemu. Wanasaidia kusawazisha
+  Supply na mahitaji ya mtaji katika soko, hivyo kukuza uchumi.
+reviewed: true

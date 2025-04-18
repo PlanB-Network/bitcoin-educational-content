@@ -1,0 +1,9 @@
+question: Którym systemem cyfrowej waluty interesował się inżynier Google Mike Hearn przed odkryciem Bitcoin?
+answer: Ripple
+wrong_answers:
+  - Liberty Reserve
+  - eLD
+  - RPOW
+explanation: |
+  Ryan Fugger po raz pierwszy usłyszał o Bitcoin w kwietniu 2009 r. w grupie Google Group. Natychmiast skontaktował się z Satoshi, aby zadać pytania.
+reviewed: false

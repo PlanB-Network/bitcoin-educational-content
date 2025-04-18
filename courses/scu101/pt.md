@@ -26,11 +26,11 @@ Théo; Contribuição
 
 <partId>534ab66c-b0e6-5757-a7dd-6ea04647edf2</partId>
 
-## Introdução ao curso
+## Visão geral do curso
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
-### Objetivo: atualização!
+**Objetivo: atualização!**
 
 Bem-vindos a todos a este programa de ensino dedicado à segurança digital. Este treinamento foi projetado para ser acessível a todos, portanto, nenhum conhecimento prévio em informática é necessário. Nosso objetivo principal é fornecer a você o conhecimento e as habilidades necessárias para navegar de forma mais segura e privada no mundo digital.
 
@@ -46,7 +46,7 @@ Sua higiene digital é crucial em um mundo cada vez mais digital. Apesar do aume
 'Dans esta formação, não estamos buscando torná-lo um especialista, anônimo ou inatacável, isso é impossível. Em vez disso, oferecemos algumas soluções simples e acessíveis a todos para começar a transformar seus hábitos online e retomar o controle de sua soberania digital.
 Se você estiver procurando por habilidades mais avançadas sobre o assunto, nossos recursos, tutoriais ou outros cursos sobre cibersegurança estão disponíveis para você. Enquanto isso, aqui está uma breve visão geral do nosso programa nas próximas horas juntos.
 
-### Seção 1: Tudo sobre navegação online
+**Seção 1: Tudo sobre navegação online**
 
 - Capítulo 1 - Navegação online
 - Capítulo 2 - Usar a internet com segurança
@@ -54,7 +54,7 @@ Se você estiver procurando por habilidades mais avançadas sobre o assunto, nos
 Para começar, discutiremos a importância da escolha de um navegador da web e suas implicações em termos de segurança. Em seguida, exploraremos as especificidades dos navegadores, especialmente no que diz respeito à gestão de cookies. Também veremos como garantir uma navegação mais segura e anônima, usando ferramentas como o TOR. Em seguida, daremos ênfase ao uso de VPNs para fortalecer a proteção de seus dados. Por fim, terminaremos com recomendações sobre o uso seguro de conexões WiFi.
 ![](assets/pt/1.webp)
 
-### Seção 2: Boas práticas de uso do computador
+**Seção 2: Boas práticas de uso do computador**
 
 - Capítulo 3 - Uso do computador
 - Capítulo 4 - Hack e gerenciamento de backup
@@ -62,7 +62,7 @@ Para começar, discutiremos a importância da escolha de um navegador da web e s
 Nesta seção, abordaremos três áreas-chave da segurança da informática. Primeiro, exploraremos os diferentes sistemas operacionais: Mac, PC e Linux, destacando suas especificidades e pontos fortes. Em seguida, abordaremos métodos para se proteger efetivamente contra tentativas de hacking e fortalecer a segurança de seus dispositivos. Por fim, daremos ênfase à importância de proteger e fazer backup regularmente de seus dados para evitar perdas ou ransomware.
 ![](assets/pt/2.webp)
 
-### Seção 3: Implementação das soluções.
+**Seção 3: Implementação das soluções.**
 
 - Capítulo 6 - Gerenciamento de e-mails
 - Capítulo 7 - Gerenciador de senhas
@@ -73,6 +73,7 @@ Nesta terceira seção prática, vamos colocar em prática suas soluções concr
 Primeiro, veremos como proteger sua caixa de e-mails, essencial para suas comunicações e frequentemente alvo de hackers. Em seguida, apresentaremos o que é um gerenciador de senhas: uma solução prática para não esquecer ou misturar suas senhas, mantendo-as seguras. Por fim, abordaremos uma medida de segurança adicional, a autenticação de dois fatores, que adiciona uma camada de proteção às suas contas. Tudo será explicado de forma clara e acessível.
 ![](assets/pt/3.webp)
 
+Pronto para fortalecer sua segurança digital e retomar o controle de seus dados? Vamos lá!
 # Tudo sobre navegação online
 
 <partId>b4b5379a-d8ef-59ae-94d3-a6e88959c149</partId>
@@ -508,7 +509,7 @@ Des alternativas aos anúncios intrusivos incluem o Google DNS, OpenDNS e outros
 
 No módulo de treinamento "Segurança 101" do Descubra Bitcoin na Academia, também discutimos a autenticação do Lightning. Esse sistema gera um identificador diferente para cada serviço, sem a necessidade de fornecer um endereço de e-mail ou informações pessoais. É possível ter identidades descentralizadas controladas pelo usuário, mas falta padronização e normalização nos projetos de identidade descentralizada. Gerenciadores de pacotes como Nuget e Chocolaté, que permitem baixar software de código aberto fora da Microsoft Store, são recomendados para evitar ataques maliciosos. Em resumo, o DNS é crucial para a segurança online, mas é necessário permanecer vigilante contra possíveis ataques aos servidores DNS.
 
-# Conclusão
+# Seção final
 
 <partId>3d8ac4c9-f05b-4133-a40a-6e19d579f05f</partId>
 

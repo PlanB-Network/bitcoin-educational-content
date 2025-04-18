@@ -21,14 +21,15 @@ This introduction to cryptography seeks to capture the middle ground. While it s
 # Introduction
 <partId>bbed2f46-d64c-5fb5-b892-d726032f2494</partId>
 
-## Short description
+## Course overview
 <chapterId>bb8a8b73-7fb2-50da-bf4e-98996d79887b</chapterId>
+Welcome to the CYP302 course!
 
 This book offers a deep-dive introduction to the science and practice of cryptography. Where possible it focuses on conceptual, rather than formal exposition of the material.
 
 > This course is based on [JWBurgers's repo](https://github.com/JWBurgers/An_Introduction_to_Cryptography). All right to him. The content is not yet finished and only here to showcase how we could integrate it if JWburger's agree.
 
-### Motivation and aims
+**Motivation and aims**
 
 It is difficult to find many materials that offer a good middle ground in cryptography education.
 
@@ -37,12 +38,12 @@ On the one hand, there are lengthy, formal treatises, really only accessible to 
 This introduction to cryptography seeks to capture the middle ground. While it should be relatively challenging and detailed for anyone new to cryptography, it is not the rabbit hole of a typical foundational treatise.
 
 
-### Target audience
+**Target audience**
 
 From developers to the intellectually curious, this book is useful for anyone that wants more than a superficial understanding of cryptography. If your aim is to master the field of cryptography, then this book is also a good starting point.
 
 
-### Reading guidelines
+**Reading guidelines**
 
 The book currently contains seven chapters: "What is Cryptography?" (Chapter 1), "Mathematical Foundations of Cryptography I" (Chapter 2), "Mathematical Foundations of Cryptography II" (Chapter 3), "Symmetric Cryptography" (Chapter 4), "RC4 and AES" (Chapter 5), "Asymmetric Cryptography" (Chapter 6), and "The RSA cryptosystem" (Chapter 7). A final chapter, "Cryptography in Practice," will still be added. It focuses on various cryptographic applications, including transport layer security, onion routing, and Bitcoin's value exchange system.
 
@@ -51,7 +52,7 @@ Unless you have a strong background in mathematics, number theory is probably th
 If you are really struggling with the formal details in these parts of the book, I recommend you settle for a high-level reading of them the first time around.
 
 
-### Acknowledgements
+**Acknowledgements**
 
 The most influential book in shaping this one has been Jonathan Katz and Yehuda Lindell’s _Introduction to Modern Cryptography_, CRC Press (Boca Raton, FL), 2015. An accompanying course is available on Coursera called "Cryptography."
 
@@ -62,12 +63,12 @@ I will only cite very specific information and results I take from these sources
 For those readers who wish to seek out more advanced knowledge on cryptography after this introduction, I highly recommend Katz and Lindell’s book. Katz's course on Coursera is somewhat more accessible than the book.
 
 
-### Contributions
+**Contributions**
 
 Please have a look at [the contributions file in the repository](https://github.com/JWBurgers/An_Introduction_to_Cryptography/blob/master/Contributions.md) for some guidelines on how to support the project.
 
 
-### Notation
+**Notation**
 
 **Key terms:**
 
@@ -91,6 +92,7 @@ The formal notation mainly concerns variables, random variables, and sets.
 * Random variables: These are always indicated by an uppercase letter (e.g., "X" or "Y")
 * Sets: These are always indicated by bold, upper-case letters (e.g., **S**)
 
+Ready to explore the fascinating world of cryptography? Let's go!
 
 # What is Cryptography?
 <partId>48e4d6d5-cd00-5c00-8adb-ae8477ff47c4</partId>
@@ -2210,7 +2212,7 @@ Nevertheless, with adding a bit of clever complexity, the RSA problem can be use
 
 
 
-# Conclusion
+# Final Section
 <partId>e538fb79-bf28-40cd-a5c3-badf864d8567</partId>
 
 ## Reviews & Ratings

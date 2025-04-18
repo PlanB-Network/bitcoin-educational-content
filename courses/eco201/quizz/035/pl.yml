@@ -1,0 +1,14 @@
+question: Co się dzieje, gdy następuje spadek stóp procentowych z powodu wzrostu oszczędności zgodnie z austriacką teorią cyklu koniunkturalnego?
+answer: Ilość konsumowanych dóbr finalnych zmniejszy się, stopy procentowe spadną, przedsiębiorcy wykorzystają ten napływ kapitału do tworzenia nowych dóbr inwestycyjnych, a tym samym wydłużą strukturę produkcji.
+wrong_answers:
+  - Ilość konsumowanych dóbr finalnych wzrośnie, stopy procentowe wzrosną, przedsiębiorcy wykorzystają ten napływ kapitału do tworzenia nowych dóbr inwestycyjnych, a tym samym skrócą strukturę produkcji.
+  - Ilość konsumowanych dóbr finalnych zmniejszy się, stopy procentowe wzrosną, przedsiębiorcy wykorzystają ten napływ kapitału do tworzenia nowych dóbr inwestycyjnych, a tym samym skrócą strukturę produkcji.
+  - Ilość konsumowanych dóbr finalnych wzrośnie, stopy procentowe spadną, przedsiębiorcy wykorzystają ten napływ kapitału do tworzenia nowych dóbr inwestycyjnych, a tym samym skrócą strukturę produkcji.
+explanation: |
+  Zgodnie z austriacką teorią cyklu koniunkturalnego, gdy następuje
+  spadek stóp procentowych spowodowany wzrostem oszczędności, ilość konsumowanych dóbr finalnych
+  konsumpcji zmniejszy się, ponieważ oszczędzanie wiąże się z odłożeniem części konsumpcji na później
+  na później. W rezultacie stopy procentowe spadną, ponieważ wzrasta Supply kapitału
+  rośnie. Pozwala to przedsiębiorcom na wykorzystanie tego napływu kapitału do tworzenia
+  nowych dóbr inwestycyjnych, a tym samym wydłużyć strukturę produkcji.
+reviewed: true

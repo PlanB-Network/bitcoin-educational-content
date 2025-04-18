@@ -1,0 +1,9 @@
+question: 1998 年，Nick Szabo 在哪裡首次提出比特金的概念？
+answer: libtech-l 郵件列表
+wrong_answers:
+  - cypherpunks 郵件列表
+  - 密碼學郵件列表
+  - extropians 郵件列表
+explanation: |
+  這是他自己的私人郵件列表，其中包括戴偉 (Wei Dai) 和 Hal Finney 等 cypherpunks，以及 Larry White 和 George Selgin 等經濟學家。
+reviewed: false

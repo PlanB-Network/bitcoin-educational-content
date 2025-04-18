@@ -1,0 +1,9 @@
+question: 在 Bitcoin 中，所有參與者用來計算公開金鑰的共同點是什麼？
+answer: 產生點 G
+wrong_answers:
+  - SHA256 Hash
+  - A Mnemonic 詞組
+  - 壓縮的公開金鑰
+explanation: |
+  橢圓曲線 secp256k1 的產生點 G 用來從私人密碼匙計算公開密碼匙。
+reviewed: false

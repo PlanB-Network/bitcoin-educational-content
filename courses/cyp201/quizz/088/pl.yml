@@ -1,0 +1,9 @@
+question: Jaki prefiks jest używany do wskazania skompresowanego klucza publicznego o nieparzystej współrzędnej y?
+answer: 0x03
+wrong_answers:
+  - 0x02
+  - 0x04
+  - 0x00
+explanation: |
+  Prefiks 0x03 oznacza skompresowany klucz publiczny o nieparzystej współrzędnej y.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Je, Lightning Network imebadilika vipi ili kuboresha matumizi ya mtumiaji tangu kuanzishwa kwake?
+answer: Imeanzisha vipengele kama vile kuunganisha, ankara tuli za Bolt12, na usimamizi bora wa ukwasi, na kufanya miamala kuwa laini na ya kuaminika zaidi.
+wrong_answers:
+  - Imeondoa vipengele vyote vya usalama ili kuharakisha miamala.
+  - Sasa inahitaji idhini ya serikali kwa kila malipo.
+  - Imeacha kufanya kazi kwenye vipengele vipya, kutegemea muundo wa awali pekee.
+explanation: |
+  Baada ya muda, Lightning Network imeona maboresho ya kiufundi ambayo hupunguza msuguano kwa watumiaji. Vipengele vipya na zana bora za udhibiti wa nodi zimechangia utumiaji usio na mshono na unaomfaa mtumiaji.
+reviewed: false

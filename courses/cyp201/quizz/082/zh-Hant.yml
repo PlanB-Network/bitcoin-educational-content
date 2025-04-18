@@ -1,0 +1,9 @@
+question: P2PK 和 P2PKH 的主要差異是什麼？
+answer: P2PK 直接使用原始公開金鑰，而 P2PKH 則使用公開金鑰的 Hash。
+wrong_answers:
+  - P2PK 與 SegWit 相容，而 P2PKH 則不相容。
+  - P2PK 使用 Schnorr 簽署，而 P2PKH 則使用 ECDSA 簽署。
+  - P2PK 適用於多重序列表，而 P2PKH 則適用於簡單的腳本。
+explanation: |
+  P2PK 使用原始公開金鑰鎖定資金，而 P2PKH 則使用公開金鑰的 Hash。
+reviewed: false

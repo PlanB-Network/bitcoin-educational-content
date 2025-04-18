@@ -22,17 +22,18 @@ Egal ob Sie ein **kleines Unternehmen oder ein großer Konzern** sind, die Integ
 
 <partId>326cf945-5d3f-4d86-8c3e-4d1c35959799</partId>
 
-## Ihr Unternehmen auf Bitcoin umstellen
-
+## Kursübersicht
 <chapterId>1be42be9-4080-49f5-b5b2-6b531dd55f5f</chapterId>
 
-Starten Sie die Reise Ihres Unternehmens in das Bitcoin-Netzwerk mit diesem umfassenden Trainingskurs - ein Tor zum Verständnis, wie Bitcoin und das Lightning Network die traditionellen Geschäftsabläufe revolutionieren können. Dieser Kurs richtet sich an Einzelhändler, Unternehmer, Manager und Entscheidungsträger in Unternehmen, die die praktischen Möglichkeiten von Bitcoin als globales, internetbasiertes monetäres Netzwerk und robustes Mittel des Wertaustauschs erkunden möchten.
+Willkommen im BIZ101-Kurs! Starten Sie die Reise Ihres Unternehmens in das Bitcoin-Netzwerk mit diesem umfassenden Trainingskurs - ein Tor zum Verständnis, wie Bitcoin und das Lightning Network die traditionellen Geschäftsabläufe revolutionieren können. Dieser Kurs richtet sich an Einzelhändler, Unternehmer, Manager und Entscheidungsträger in Unternehmen, die die praktischen Möglichkeiten von Bitcoin als globales, internetbasiertes monetäres Netzwerk und robustes Mittel des Wertaustauschs erkunden möchten.
 
 Im Laufe des Kurses werden Sie mit den grundlegenden Prinzipien vertraut gemacht, die Bitcoin und das Lightning Network so einzigartig und transformativ machen. Sie werden lernen, wie diese Technologien ein Spektrum von Anwendungsfällen bieten, von der digitalen Kapitalspeicherung bis zu schnellen, wirtschaftlichen und skalierbaren Zahlungen, und wie sie entscheidende Verbesserungen gegenüber traditionellen Währungs- und Zahlungssystemen bieten. Der BIZ101-Kurs verbindet ökonomische Theorie mit realen Anwendungen und verdeutlicht, wie Dezentralisierung die Abhängigkeit von Zwischenhändlern reduzieren und die Einschränkungen bestehender Systeme überwinden kann.
 
 Der Kurs beginnt mit einer detaillierten Untersuchung herkömmlicher Währungen und Zahlungsmechanismen, wobei die Grundlagen geschaffen werden, indem untersucht wird, wie Währungen als Netzwerk funktionieren, um Handel, Sparen und wirtschaftliche Spezialisierung zu ermöglichen. Anschließend werden wir uns mit der Technologie hinter Bitcoin und den vom Lightning Network eingeführten Innovationen befassen und ihre Rolle bei der Erleichterung nahtloser, sicherer und nahezu sofortiger Transaktionen aufzeigen, die Unternehmen jeder Größe dienen können. Dann werden wir in die praktischen Abschnitte dieses Kurses eintauchen, beginnend mit einem Teil über das Halten von Bitcoins als Zahlungsmittel, gefolgt von einem letzten Teil über die Annahme von Bitcoin als Zahlungsmittel.
 
 Egal, ob Sie ein kleines Unternehmen oder einen großen Konzern vertreten, dieser Kurs zielt darauf ab, Sie mit dem Wissen auszustatten, das Sie benötigen, um Bitcoin in Ihre täglichen Abläufe zu integrieren und dadurch die Widerstandsfähigkeit, die Effizienz und den Wettbewerbsvorteil Ihres Unternehmens zu verbessern. Da Bitcoin weiterhin die wirtschaftliche Landschaft umgestalten wird, ist das Verständnis dieser bahnbrechenden Technologie nicht nur eine Option, sondern eine strategische Notwendigkeit. Bereiten Sie sich auf aufschlussreiche Inhalte, praktische Beispiele und strategische Anleitungen vor, die Sie in die Lage versetzen, die sich entwickelnde Welt des Bitcoin zu navigieren und zu nutzen!
+
+Bereit, in die Welt von Bitcoin für Unternehmen einzutauchen? Los geht's!
 
 # Währung, Zahlungssysteme und Bitcoin
 
@@ -1342,7 +1343,7 @@ Ob Sie nun ein kleiner Händler oder ein etablierteres Unternehmen sind, es ist 
 - Der einbehaltene Bitcoin (0,19335) erscheint in der Bilanz mit einem Wert von 7.734 €.
 - Nicht realisierte Gewinne in Höhe von 5.468 € aus zurückbehaltenen Bitcoin werden im Anhang ausgewiesen.
 
-# Schlussfolgerung
+# Abschließender Abschnitt
 
 <partId>f6ca8d01-a4f3-449b-ac9f-c5fba9a69178</partId>
 

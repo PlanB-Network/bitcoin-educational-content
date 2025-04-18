@@ -1,0 +1,9 @@
+question: Je, ni sifa gani kuu za kidhibiti nenosiri?
+answer: Hifadhi, generate, na upange manenosiri.
+wrong_answers:
+  - Kuchambua na kuondoa virusi.
+  - Hifadhi nakala na upange hati za kibinafsi.
+  - Boresha kasi ya muunganisho.
+explanation: |
+  Kazi muhimu ni pamoja na kuhifadhi, kutengeneza na kupanga nywila.
+reviewed: false

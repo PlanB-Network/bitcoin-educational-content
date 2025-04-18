@@ -1,0 +1,9 @@
+question: Ni aina gani ya ufunguo unaohusishwa na kiambishi awali cha zpub?
+answer: Ufunguo uliopanuliwa wa umma wa SegWit V0 kwenye Mainnet
+wrong_answers:
+  - Ufunguo uliopanuliwa wa faragha wa SegWit V1 kwenye Mainnet
+  - Ufunguo uliopanuliwa wa umma kwa Legacy kwenye Testnet
+  - Ufunguo uliopanuliwa wa umma wa SegWit V2 kwenye Testnet
+explanation: |
+  Kiambishi awali cha zpub kinaashiria ufunguo uliopanuliwa wa umma kwa hati za SegWit V0 kwenye Mainnet.
+reviewed: false

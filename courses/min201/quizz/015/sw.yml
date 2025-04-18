@@ -1,0 +1,12 @@
+question: Je, ni kanuni gani ambayo Bitcoin Mining inafanya kazi?
+answer: Bitcoin Mining hufanya kazi kwa kanuni ya bahati nasibu, ambapo nafasi ya kushinda block (na kwa hivyo tuzo ya Bitcoin) kila dakika kumi ni ya chini sana kwa Miner ndogo.
+wrong_answers:
+  - Bitcoin Mining hufanya kazi kwa kanuni ya kuja-kwanza-kutumikia, ambapo Miner ya kwanza ya kutatua tatizo changamano la hisabati inapata thawabu ya Bitcoin.
+  - Bitcoin Mining hufanya kazi kwa kanuni ya zabuni, ambapo Miner anayetoa zabuni ya juu zaidi anapata zawadi ya Bitcoin.
+  - Bitcoin Mining hufanya kazi kwa kanuni ya mzunguko, ambapo kila Miner inapata zamu ya kuchimba kizuizi na kupokea tuzo ya Bitcoin.
+explanation: |
+  Sura hiyo inaeleza kuwa Bitcoin Mining inafanya kazi kwenye bahati nasibu
+  kanuni, ambapo nafasi za kushinda block (na
+  kwa hivyo malipo ya Bitcoin) kila dakika kumi ni
+  chini sana kwa Miner ndogo.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Ni maono gani ya historia yaliyopendekezwa na Marx?
+answer: Historia ni matokeo ya mapambano kati ya tabaka za kijamii
+wrong_answers:
+  - Historia ni maendeleo ya mstari kuelekea jamii ya ubepari
+  - Historia ni mzunguko wa marudio na vipindi vya uhuru vinavyofuatiwa na vipindi vya dhuluma
+  - Historia imedhamiriwa na sababu za hali ya hewa
+explanation: |
+  Marx anaiona historia kuwa ni zao la migogoro kati ya tabaka za kijamii, akisisitiza kwamba mivutano kati ya tabaka zinazokandamizwa na kukandamizwa ndiyo msukumo wa mabadiliko ya kijamii na kiuchumi katika enzi zote.
+reviewed: false

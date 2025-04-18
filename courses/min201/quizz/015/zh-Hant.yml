@@ -1,0 +1,12 @@
+question: Bitcoin Mining 的工作原理是什麼？
+answer: Bitcoin Mining 以抽獎原則運作，對個人小型 Miner 而言，每十分鐘贏得一個區塊（因此也是 Bitcoin 獎勵）的機會極低。
+wrong_answers:
+  - Bitcoin Mining 的工作原則是先到先得，最先解決複雜數學問題的 Miner 可以獲得 Bitcoin 的獎勵。
+  - Bitcoin Mining 以出價原則運作，出價最高的 Miner 可獲得 Bitcoin 獎勵。
+  - Bitcoin Mining 以輪流原則運作，每個 Miner 輪流開採一個區塊並獲得 Bitcoin 獎勵。
+explanation: |
+  本章說明 Bitcoin Mining 以抽獎方式運作
+  原則，其中贏得區塊的機會（和
+  因此 Bitcoin 獎勵）每十分鐘為
+  對於個別的小型 Miner 而言是極低的。
+reviewed: true

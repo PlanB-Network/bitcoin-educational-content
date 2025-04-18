@@ -1,0 +1,9 @@
+question: 使用誘餌 Wallet 搭配 passphrase 的目的是什麼？
+answer: 為了模擬 Wallet，在受到物理強制的情況下會有少量
+wrong_answers:
+  - 新增交易自動備份
+  - generate 一個額外的 Mnemonic 語句
+  - 保護 UTXOs 免於雙重花費
+explanation: |
+  誘餌 Wallet 用來轉移攻擊者的注意力，方法是提供存取內含少量比特幣的 Wallet。
+reviewed: false

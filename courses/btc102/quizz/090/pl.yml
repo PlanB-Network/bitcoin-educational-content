@@ -1,0 +1,10 @@
+question: Jaka jest jedna cecha charakterystyczna użytkownika Bitcoin, który jest elastyczny i potrafi się dostosować?
+answer: Chętnie korzystają z różnych rozwiązań i platform, aby zaspokoić swoje stale zmieniające się potrzeby.
+wrong_answers:
+  - Używają tylko jednego typu Bitcoin Wallet.
+  - Używają Bitcoin tylko do inwestycji długoterminowych.
+  - Używają tylko Bitcoin na jednej platformie Exchange.
+explanation: |
+  Elastyczni i elastyczni użytkownicy Bitcoin są skłonni korzystać z różnych
+  rozwiązań i platform, aby zaspokoić swoje potrzeby, które z czasem mogą ulec zmianie.
+reviewed: false

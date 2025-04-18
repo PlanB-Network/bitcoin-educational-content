@@ -1,0 +1,9 @@
+question: Jaki jest cel operacji przesunięcia wierszy w AES?
+answer: Aby zwiększyć dyfuzję poprzez zmianę kolejności bajtów w tabeli stanów
+wrong_answers:
+  - Upewnij się, że każdy blok ma taką samą długość
+  - Zastosowanie tajnego klucza do każdego wiersza tabeli stanów
+  - Wprowadzenie dodatkowego zamieszania poprzez zastąpienie bajtów
+explanation: |
+  Operacja przesunięcia wierszy w AES zmienia kolejność bajtów w tabeli stanów, aby rozłożyć informacje, zwiększając w ten sposób rozproszenie.
+reviewed: false

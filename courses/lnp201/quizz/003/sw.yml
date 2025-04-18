@@ -1,0 +1,9 @@
+question: Je, ni kanuni gani kuu kuhusu pesa ambazo mshiriki anaweza kutuma katika njia ya malipo?
+answer: Wanaweza tu kutuma pesa kutoka upande wao wa kituo.
+wrong_answers:
+  - Wanaweza kutuma hadi nusu ya jumla ya uwezo wa kituo.
+  - Wanaweza kutuma kiasi chochote, mradi tu kuna makubaliano ya awali.
+  - Wanaweza kukopa fedha kutoka kwa upande wa mshiriki mwingine ikihitajika.
+explanation: |
+  Kila mshiriki amepunguzwa na kiasi cha satoshis anachoshikilia kwenye chaneli kwa shughuli zao, kuhakikisha kuwa pesa hulipwa kila wakati.
+reviewed: false

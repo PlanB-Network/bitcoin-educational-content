@@ -25,13 +25,14 @@ Trong khóa học này, những điều liên quan đến Bitcoin được chia 
 
 <chapterId>27e3fb60-4b50-556b-9e70-c4f5475c121d</chapterId>
 
-### Chào mừng bạn đã đến với một hình thái công nghệ và tiền tệ mới.
+Chào mừng bạn đến với khóa học BTC101!
 
 Bitcoin là một cuộc cách mạng về công nghệ và tiền tệ, có thể khiến chúng ta đặt câu hỏi về mối quan hệ của mình với tài sản\tiền bạc và xã hội. Trên thực tế, Bitcoin (còn được gọi là BTC) được xem là một loại tiền tệ **trung lập** và **phi tập trung**, có nghĩa là nó không bị bất kỳ pháp nhân hay tổ chức nào kiểm soát. Đây là một sáng kiến vượt ra ngoài phạm vi đơn thuần chỉ là "tiền internet": nó vừa là một giao thức máy tính (Bitcoin) đồng thời là một đơn vị tiền tệ (bitcoin).
 
 Giao thức này sử dụng các công nghệ cơ bản như mật mã học, mạng truyền thông và "dữ liệu chuỗi khối (Blockchain)" nổi tiếng, trong khi đơn vị bitcoin đóng vai trò là loại tiền tệ thiết yếu để giao thức này hoạt động hiệu quả. Trong cuộc sống hàng ngày, người dân El Salvador và những người sở hữu bitcoin (bitcoiners) trên toàn thế giới sử dụng tiền bitcoin trong mua và bán hàng hóa và dịch vụ, có thể nói họ dựa vào công nghệ này để cải thiện cuộc sống.
 
-### Giáo trình giảng dạy toàn diện và dễ tiếp thu
+**Giáo trình giảng dạy toàn diện và dễ tiếp thu:**
+
 
 Trong khóa học, chúng ta sẽ thảo luận về một số khía cạnh khi vai trò của Bitcoin là tiền tệ, bao gồm cách mua và bán bitcoin, lưu trữ chúng một cách an toàn trong ví kỹ thuật số và sử dụng chúng cho các giao dịch. Chúng ta cũng sẽ xem xét vai trò của thợ đào, những người đóng vai trò thiết yếu trong việc tạo ra bitcoin mới và bảo mật mạng Bitcoin. Cuối cùng là khám phá tương lai của Bitcoin và làm thế nào công nghệ mạng tia chớp (Lightning)có thể cải tiến các giao dịch Bitcoin.
 
@@ -77,6 +78,8 @@ Trong khóa học, chúng ta sẽ thảo luận về một số khía cạnh khi
 - Chương 17 - Giới thiệu về mạng tia chớp (Lightning)
 - Chương 18 - Các ứng dụng của mạng tia chớp (Lightning)
 
+
+
 Trước khi tìm hiểu về tiền và chức năng của tiền trong xã hội trong Chương 1, chúng ta nên bắt đầu từ nguồn cội của Bitcoin. Ra mắt vào năm 2009, Bitcoin là một công nghệ khá mới mẻ không giống với các công nghệ khác. Do đó, việc không hiểu gì về nó hay không có một cái nhìn toàn diện trong giai đoạn đầu là điều hiển nhiên. Giống như khi học cách sử dụng Internet hoặc lái xe, bạn không cần phải biết tất cả các chi tiết kỹ thuật ngay lập tức: bạn có thể bắt đầu bằng cách học cách nhận Bitcoin, thanh toán và bảo lưu nguồn vốn của mình bằng Bitcoin, sau đó từng bước nghiên cứu sâu hơn.
 
 Hiện tại, chúng ta đã qua giai đoạn cất cánh nhưng chỉ mới ở giai đoạn đầu của quá trình áp dụng: vì thế bạn đang ở đúng thời điểm như mong muốn để đạt được nhiều kiến thức nhất có thể về cải tiến quan trọng này.
@@ -87,7 +90,11 @@ Hiện tại, chúng ta đã qua giai đoạn cất cánh nhưng chỉ mới ở
 
 ## Lịch sử của Bitcoin
 
+
 <chapterId>9a94b627-5b69-5d81-9125-f1fa9b0aa6ad</chapterId>
+
+Sẵn sàng khám phá thế giới hấp dẫn của Bitcoin và hiểu rõ mọi cơ chế của nó chưa? Đi thôi!
+
 
 Trước khi thuật ngữ "Bitcoin" được sử dụng và biết tới như cuộc cách mạng về tiền\tài sản và tài chính kỹ thuật số, sự ra đời của nó dựa trên nền tảng của một loạt các ý tưởng, sáng kiến và phong trào xã hội. Trong số đó, phong trào mật mã học (cypherpunk) nổi lên như một phần then chốt trong quá trình hình thành Bitcoin.
 
@@ -539,6 +546,7 @@ May mắn là, kể từ năm 2017, khóa riêng có thể được thể hiện
 ### Còn tin tặc thì sao?
 
 Nếu ai đó vô tình đoán được danh sách 12 hoặc 24 từ của chúng ta thì sao? Câu trả lời ngắn gọn là khả năng này rất thấp, nhờ vào hàm mã hóa được sử dụng để tạo ví. Để hiểu rõ hơn, việc vô tình khám phá ra cùng một cụm từ mật khẩu của bạn cũng giống như việc đoán ra 1 số "đúng" giữa 1 và $2^256$, gần như tương đương với việc tìm ra nguyên tử "đúng" trong Vũ trụ. Tuy nhiên, nếu bạn không hài lòng với bảo mật mặc định này, bạn luôn có thể nâng cao nó bằng cách thêm một cụm mật khẩu (một từ bổ sung) vào ví Bitcoin của mình.
+
 
 ![image](assets/en/29.webp)
 
@@ -1168,6 +1176,7 @@ Chiến lược này liên quan đến việc mua định kỳ, nghĩa là mua m
 
 Một [UTXO]((https://planb.network/resources/glossary/utxo)) là một đầu ra của một giao dịch chưa được chi tiêu, có nghĩa là nó chưa được sử dụng làm đầu vào cho một giao dịch mới. Việc hợp nhất chúng có nghĩa là kết hợp nhiều UTXO nhỏ thành một UTXO lớn hơn, nhằm giảm "trọng lượng" của giao dịch và do đó trả phí thấp hơn.
 
+[UTXO](https://planb.network/resources/glossary/utxo#:~:text=UTXO) (Unspent Transaction Output) là một đầu ra của một giao dịch chưa được chi tiêu, có nghĩa là nó chưa được sử dụng làm đầu vào cho một giao dịch mới. Việc hợp nhất UTXO có nghĩa là kết hợp nhiều UTXO nhỏ thành một UTXO lớn hơn, nhằm giảm "trọng lượng" của giao dịch và do đó phải trả phí thấp hơn.
 
 - Mua tự phát
 
@@ -1401,6 +1410,7 @@ Satoshi đã tạo ra Bitcoin vào năm 2008 để đề xuất thay đổi hệ
 Bạn đã sẵn sàng tham gia chưa?
 
 # Phần Cuối
+
 
 <partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 

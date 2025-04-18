@@ -1,0 +1,9 @@
+question: Dlaczego zaleca się używanie losowo generowanych haseł?
+answer: Aby oprzeć się atakom typu brute-force.
+wrong_answers:
+  - Aby ułatwić ich zapamiętanie.
+  - Aby zmniejszyć ich złożoność.
+  - Aby oprzeć się atakom Sybil.
+explanation: |
+  Losowość sprawia, że hasła są trudniejsze do odgadnięcia metodą prób i błędów, co zwiększa ich bezpieczeństwo przed atakami typu brute-force.
+reviewed: false

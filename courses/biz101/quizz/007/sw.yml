@@ -1,0 +1,9 @@
+question: Ni ipi kati ya zifuatazo inaelezea vyema jinsi shughuli za Bitcoin zinafikia ukamilifu?
+answer: Baada ya kurekodiwa kwenye Blockchain, miamala haiwezi kubadilika na haiwezi kubadilishwa.
+wrong_answers:
+  - Miamala inaweza kubatilishwa na benki iwapo mzozo utatokea.
+  - Watumiaji lazima wapate idhini kutoka kwa vyombo vingi vya serikali ili kukamilisha muamala.
+  - Mshiriki yeyote anaweza kuhariri miamala ya awali atakavyo, ikiwa ana msimbo maalum.
+explanation: |
+  Bitcoin s Blockchain ni Ledger isiyoweza kuchezewa. Baada ya shughuli kuthibitishwa na kujumuishwa kwenye kizuizi, inakuwa sehemu ya rekodi ya kudumu, ambayo inahakikisha ukamilifu.
+reviewed: false

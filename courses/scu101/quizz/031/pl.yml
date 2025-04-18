@@ -1,0 +1,12 @@
+question: Co należy zrobić w przypadku wykrycia wirusa na komputerze?
+answer: Odłącz go od Internetu, przeprowadź pełne skanowanie antywirusowe i usuń zainfekowane pliki.
+wrong_answers:
+  - Kontynuuj normalne korzystanie z komputera.
+  - Wyłącz komputer i pozostaw go wyłączonego na kilka godzin.
+  - Usuń wszystkie pliki na komputerze.
+explanation: |
+  W przypadku wykrycia wirusa na komputerze należy
+  odłączyć go od Internetu, aby uniemożliwić wirusowi
+  rozprzestrzenianiu się wirusa lub komunikacji z hakerem. Następnie należy wykonać
+  pełne skanowanie antywirusowe i usunąć zainfekowane pliki.
+reviewed: true

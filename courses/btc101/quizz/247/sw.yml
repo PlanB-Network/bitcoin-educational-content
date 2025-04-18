@@ -1,0 +1,8 @@
+question: Je, ni swali gani kuu linaloulizwa kuhusu mustakabali wa fedha?
+answer: Ni nani anayepaswa kushikilia, kuidhinisha, na kufuatilia pesa tunazotumia?
+wrong_answers:
+  - Tunawezaje kuondoa pesa kabisa?
+  - Je, tunawezaje kuhakikisha kwamba kila mtu ana kiasi sawa cha pesa?
+  - Tunawezaje kufanya pesa ziwe za kizamani?
+explanation: >-
+reviewed: true

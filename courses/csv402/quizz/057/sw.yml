@@ -1,0 +1,9 @@
+question: Kwenye RLN, ni amri gani inayosanikisha "RGB-lightning-node" binary baada ya kuunda hazina?
+answer: "cargo install --locked --debug --path ."
+wrong_answers:
+  - "cargo build --release --path ."
+  - "cargo run --locked --path ."
+  - "cargo deploy --debug --path ."
+explanation: |
+  "Usakinishaji wa mizigo --locked --debug --path ." amri inakusanya na kusakinisha "RGB-lightning-nodi" binary.
+reviewed: false

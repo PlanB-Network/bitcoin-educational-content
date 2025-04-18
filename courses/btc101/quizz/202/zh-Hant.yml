@@ -1,0 +1,10 @@
+question: 在沒有 KYC 的情況下獲取比特幣的方法之一是什麼？
+answer: Bitcoin ATM。
+wrong_answers:
+  - 經紀人平台。
+  - DCA 平台。
+  - 銀行轉帳。
+explanation: |
+  課程中提到有幾種方法可以在沒有 KYC 的情況下獲得比特幣
+  其中之一是 Bitcoin ATM。
+reviewed: true

@@ -1,0 +1,11 @@
+question: 在 Bitcoin 的情況下，Hot Wallet 用來做什麼？
+answer: 定期發送和接收比特幣，供日常使用。
+wrong_answers:
+  - 長期安全地儲存比特幣。
+  - 開採新的 bitcoins。
+  - 在 Exchange 平台上交易比特幣。
+explanation: |
+  Hot Wallet 是 Bitcoin Wallet 的一種，可連接至網際網路、
+  使其適用於日常交易。但是，它比 Cold Wallet 更容易受到黑客攻擊
+  和盜竊。
+reviewed: false

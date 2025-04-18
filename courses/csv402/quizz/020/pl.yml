@@ -1,0 +1,9 @@
+question: Jaki jest kluczowy element, który gwarantuje, że Bob otrzyma aktywa podczas State Transition w RGB?
+answer: Nowy Seal Definition wskazujący na UTXO Boba
+wrong_answers:
+  - Transakcja kontrolna bez odniesienia do UTXO
+  - Publiczne oświadczenie Alice
+  - Podwójny podpis współdzielony przez Alice i Boba
+explanation: |
+  Seal Definition kryptograficznie łączy zasób z UTXO Boba, zapewniając, że jest on jego właścicielem.
+reviewed: false

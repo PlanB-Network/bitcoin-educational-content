@@ -13,51 +13,59 @@ project_id: uuid_of_the_project_author_of_tutorial
 # - beginner
 # - intermediate
 # - advanced
+# - expert
 level: intermediate
 
 # Category
-# Category can be choosen from the following list:
+# Category can be choosen from the following list (only look at words with lowercase letters):
 #Tutorials/
 #├── WALLET/
-#│   ├── Desktop
-#│   ├── Hardware
-#│   ├── Mobile
-#│   └── Backup
+#│   ├── desktop
+#│   ├── hardware
+#│   ├── mobile
+#│   └── backup
 #├── NODE/
-#│   ├── Bitcoin
-#│   ├── Lightning Network
-#│   └── Others
+#│   ├── bitcoin
+#│   ├── lightning-network
+#│   └── others
 #├── MINING/
-#│   ├── Hardware
-#│   └── Pool
+#│   ├── hardware
+#│   └── pool
 #├── BUSINESS/
-#│   ├── Point-of-Sale
-#│   └── Others
+#│   ├── point-of-sale
+#│   └── others
 #├── EXCHANGE/
-#│   ├── Peer-to-Peer
-#│   └── Centralized
+#│   ├── peer-to-peer
+#│   └── centralized
 #├── PRIVACY/
-#│   ├── On-Chain
-#│   └── Analysis
+#│   ├── on-chain
+#│   └── analysis
 #├── COMPUTER SECURITY/
-#│   ├── Authentication
-#│   ├── Communication
-#│   ├── Operating System
-#│   └── Data
+#│   ├── authentication
+#│   ├── communication
+#│   ├── operating system
+#│   └── data
 #└── CONTRIBUTION/
-#    ├── Tutorial
-#    ├── Resource
-#    └── Others
-
+#    ├── tutorial
+#    ├── resource
+#    └── others
 category: authentication
 
+# Professor
+# Insert the UUID of the person that authored this tutorial
+professor_id: uuid_of_the_professor_author_of_tutorial
+
 # Tags
-# List the associated tags to the tutorial
-# The list of tags is composed of 21 items that can be found here (list not yet available)
+# Choose from the list the associated tags to this content
+# The list of tags is composed of 51 items that can be found here (bitcoin-education-content/docs/50-planb-tags.md)
 tags:
   - cypherpunk
   - proof-of-work
   - privacy
+
+# OPTIONAL
+# its use is to mention the original source at both the beginning and at the end of the tutorial
+credit_link: https://link_to_the_original_tuto.com
 
 # Proofreading metadata
 # Only the original author needs to add this data related to initial proofreading

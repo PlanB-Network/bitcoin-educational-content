@@ -1,0 +1,8 @@
+question: Jaki jest jeden z powodów, dla których Bitcoin nie jest bańką, która zniknie?
+answer: Ponieważ jest to waluta używana na całym świecie.
+wrong_answers:
+  - Ponieważ w rzeczywistości nie jest nigdzie używany.
+  - Ponieważ jest kontrolowany przez władze centralne.
+  - Ponieważ jest łatwy do podrobienia.
+explanation: >-
+reviewed: true

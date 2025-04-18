@@ -1,0 +1,12 @@
+question: Je, sarafu za sarafu, kama vile USDt, hufikiaje uthabiti wa kiasi katika thamani?
+answer: Wamewekwa kwenye mali au sarafu thabiti.
+wrong_answers:
+  - Wanaungwa mkono na mamlaka kuu au serikali.
+  - Wanategemea teknolojia ya Blockchain kwa shughuli salama.
+  - Wanakabiliwa na kushuka kwa thamani sawa na sarafu nyingine za siri.
+explanation: |
+  Stablecoins hudumisha utulivu wa jamaa katika thamani kwa kupigwa
+  kwa mali au sarafu thabiti zaidi, kama vile dola ya Marekani au dhahabu.
+  Pegging hii husaidia kupunguza tete ambayo mara nyingi huhusishwa na nyingine
+  mali dijitali kama Bitcoin.
+reviewed: true

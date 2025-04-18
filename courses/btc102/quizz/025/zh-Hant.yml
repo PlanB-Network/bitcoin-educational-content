@@ -1,0 +1,11 @@
+question: 礦工在 Bitcoin 網路中扮演什麼角色？
+answer: 在 Bitcoin Blockchain 中記錄傳播的交易
+wrong_answers:
+  - 要建立新的 bitcoins
+  - 監管比特幣的價值
+  - 驗證 Bitcoin 使用者的身分
+explanation: |
+  Bitcoin 網路中的礦工負責記錄在整個網路中傳播到 Bitcoin Blockchain 中的交易。
+  已在整個網路中傳播到 Bitcoin Blockchain。這可確保
+  交易的終局性。
+reviewed: false

@@ -1,0 +1,11 @@
+question: Bitcoin 錢包的用途是什麼？
+answer: 發送和接收比特幣
+wrong_answers:
+  - 開採比特幣
+  - 儲存實體比特幣
+  - 將比特幣兌換成其他貨幣
+explanation: |
+  Bitcoin 錢包用於發送和接收比特幣。它們是數位
+  錢包中儲存存取 Bitcoin Address 所需的數位憑證。
+  和花費比特幣所需的數位憑證。
+reviewed: false

@@ -1,0 +1,9 @@
+question: 英文縮寫 UTXO 代表什麼？
+answer: 未使用的交易輸出
+wrong_answers:
+  - 統一交易輸出
+  - 僅限使用者交易
+  - 公用令牌 Exchange 選項
+explanation: |
+  UTXO 是尚未支出的交易輸出。
+reviewed: false

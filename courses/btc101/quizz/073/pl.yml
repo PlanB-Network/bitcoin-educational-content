@@ -1,0 +1,8 @@
+question: Jaki jest klucz prywatny w Bitcoin Wallet?
+answer: Tajny klucz umożliwiający podpisywanie transakcji.
+wrong_answers:
+  - Klucz publiczny używany do adresów generate Bitcoin.
+  - Tajna lista słów do zniszczenia Wallet w razie potrzeby.
+  - Tajny klucz do szyfrowania transakcji Bitcoin.
+explanation: >-
+reviewed: true

@@ -1,0 +1,10 @@
+question: Jaka jest różnica między zewnętrznym i wewnętrznym ponownym wykorzystaniem Address w transakcji?
+answer: Zewnętrzne ponowne wykorzystanie jest obserwowane w wielu transakcjach, podczas gdy wewnętrzne ponowne wykorzystanie jest obserwowane w ramach tej samej transakcji.
+wrong_answers:
+  - Zewnętrzne ponowne użycie dotyczy adresów publicznych, podczas gdy wewnętrzne ponowne użycie dotyczy adresów prywatnych używanych w skryptach transakcji.
+  - Wewnętrzne ponowne wykorzystanie jest obserwowane w wielu transakcjach, podczas gdy zewnętrzne ponowne wykorzystanie jest obserwowane w ramach tej samej transakcji.
+  - Wewnętrzne ponowne użycie dotyczy adresów publicznych, podczas gdy zewnętrzne ponowne użycie dotyczy adresów prywatnych używanych w skryptach transakcji.
+explanation: |
+  Zewnętrzne ponowne wykorzystanie Address obserwuje się, gdy Address jest ponownie wykorzystywany w kilku różnych transakcjach, podczas gdy wewnętrzne ponowne wykorzystanie dotyczy Address, który jest używany zarówno na wejściach, jak i na wyjściach tej samej transakcji.
+  
+reviewed: false

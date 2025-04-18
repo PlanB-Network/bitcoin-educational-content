@@ -1,0 +1,11 @@
+question: OpenNode、Swiss Bitcoin Pay 和 BTCPay 等公司在 Bitcoin 生態系統中扮演什麼角色？
+answer: 他們提供的工具可讓企業輕鬆接受 Bitcoin。
+wrong_answers:
+  - 他們開採 Bitcoin。
+  - 他們監管 Bitcoin。
+  - 他們發行 Bitcoin。
+explanation: |
+  OpenNode、Swiss Bitcoin Pay 和 BTCPay 等公司提供工具，讓企業可以輕鬆接受 Bitcoin。
+  等公司提供的工具，讓企業可以輕鬆接受 Bitcoin，有助於在日常交易中採用
+  和日常交易中的使用。
+reviewed: false

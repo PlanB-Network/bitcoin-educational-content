@@ -1,0 +1,10 @@
+question: 交易的最大熵是多少？
+answer: 交易結構所能達到的最高熵。
+wrong_answers:
+  - 交易結構所能達到的最低熵。
+  - 交易的實際熵。
+  - 交易的效率。
+explanation: |
+  最大熵是指特定交易結構理論上可以達到的最高熵。
+  
+reviewed: false

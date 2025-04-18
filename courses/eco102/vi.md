@@ -26,8 +26,32 @@ Tham gia cùng Damien Theillier trong cuộc khám phá thú vị này về tư 
 
 <partId>e4a0cf13-2fc5-5ced-a528-ace3f9029f22</partId>
 
-## Giới thiệu khoá học
+## Tổng quan về khóa học
+<chapterId>aa493f46-2d3a-4b76-ad79-ed44113a97f4</chapterId>
 
+Mục tiêu của khóa học này là cung cấp cho bạn sự hiểu biết sâu sắc về cuộc đời, các ảnh hưởng trí tuệ, các đối thủ tư tưởng và các lý thuyết kinh tế của Frédéric Bastiat. Thông qua hành trình có cấu trúc này, bạn sẽ khám phá cách mà những ý tưởng của ông đã đánh dấu tư duy kinh tế và tiếp tục ảnh hưởng đến các cuộc tranh luận hiện nay.
+
+**Phần 1 : Giới thiệu**  
+Chúng ta sẽ bắt đầu với cái nhìn tổng quan về Frédéric Bastiat, một thiên tài ít được biết đến trong lĩnh vực kinh tế. Bạn sẽ tìm hiểu về cuộc đời, hành trình trí tuệ của ông, cũng như bối cảnh lịch sử mà trong đó ông đã phát triển tư tưởng của mình. Hiểu được bối cảnh này là điều cần thiết để nắm bắt đầy đủ tầm ảnh hưởng của các tác phẩm và lý thuyết của ông.
+
+**Phần 2 : Những ảnh hưởng**  
+Chúng ta sẽ tiếp tục với phân tích về những nhà tư tưởng đã định hình tư duy kinh tế của Frédéric Bastiat. Bạn sẽ học được cách mà các nhân vật quan trọng như Adam Smith, Jean-Baptiste Say, Antoine Destutt de Tracy, Charles Comte, Charles Dunoyer và Richard Cobden đã góp phần vào sự phát triển trí tuệ của ông, đặt nền tảng cho những suy nghĩ của ông về tự do thương mại và kinh tế thị trường.
+
+**Phần 3 : Các đối thủ tư tưởng**  
+Sau đó, chúng ta sẽ khám phá những phê phán của Bastiat đối với các đối thủ tư tưởng của mình. Dù là Rousseau, nền giáo dục cổ điển, chủ nghĩa bảo hộ, chủ nghĩa xã hội hay Proudhon, bạn sẽ hiểu tại sao Bastiat coi những học thuyết này là trở ngại đối với sự tiến bộ kinh tế và xã hội, và cách ông đáp trả các lập luận của họ bằng một logic sắc bén.
+
+**Phần 4 : Những ngụy biện kinh tế**  
+Phần này dành riêng cho các ngụy biện kinh tế mà Bastiat đã lên án, bao gồm những tác phẩm nổi tiếng như "*Những gì người ta thấy và những gì người ta không thấy*" và "*Đơn kiến nghị của các nhà sản xuất nến*". Chúng ta sẽ xem xét cách ông đã chứng minh, bằng sự trào phúng và phân tích nghiêm túc, những sai lầm kinh tế phổ biến trong thời đại của ông, những vấn đề mà vẫn còn tồn tại đến ngày nay.
+
+**Phần 5 : Những hòa hợp kinh tế**  
+Ở đây, bạn sẽ khám phá tầm nhìn tích cực của Bastiat về kinh tế. Chúng ta sẽ đề cập đến các khái niệm như phép màu của thị trường, sức mạnh của trách nhiệm cá nhân và sự phân biệt giữa tình đoàn kết thật sự và giả tạo. Bastiat coi kinh tế là một hệ thống nhất quán, trong đó lợi ích cá nhân được hiểu đúng đắn sẽ mang lại lợi ích chung. Chúng ta sẽ khám phá lý do tại sao.
+
+**Phần 6 : Luật pháp**  
+Để kết thúc khóa học này, chúng ta sẽ đắm chìm vào tác phẩm quan trọng nhất của Bastiat, "*Luật pháp*", nơi ông trình bày những suy nghĩ về quyền sở hữu, sự chiếm đoạt hợp pháp và vai trò giới hạn của nhà nước. Bạn sẽ hiểu tại sao tác phẩm này được coi là một trong những tuyên ngôn mạnh mẽ nhất ủng hộ tự do cá nhân và nền kinh tế thị trường.
+
+Sẵn sàng khám phá cách mà những ý tưởng của Frédéric Bastiat vẫn còn vang vọng đến ngày nay? Hãy tham gia cùng chúng tôi trong hành trình trí tuệ này, điều có thể sẽ làm thay đổi cách nhìn nhận của bạn về kinh tế!
+
+## Bastiat : Một thiên tài ít được biết đến
 <chapterId>7f21b617-9810-5484-ad1c-befc61432126</chapterId>
 
 Đây là phần giới thiệu về Frédéric Bastiat, một thiên tài không được công nhận và một ngọn hải đăng cho thời đại chúng ta. Trong bài giới thiệu ngắn gọn này, tôi sẽ cố gắng giúp bạn khám phá Frédéric Bastiat là ai và những chủ đề chính mà chúng ta sẽ có trong loạt bài này.
@@ -1025,7 +1049,7 @@ Nếu nhìn nhận vấn đề từ góc độ này, Reagan giải thích với 
 
 Về bản chất, Reagan đã lấy từ Bastiat một số yếu tố then chốt của một tầm nhìn tự do về xã hội và con người: ưu tiên hơn vai trò của xã hội dân sự so với Nhà nước, giá trị của sự lựa chọn và trách nhiệm cá nhân, tầm quan trọng của doanh nhân trong việc tạo ra của cải, vật chất, tầm quan trọng của một khung pháp lý linh hoạt và tối thiểu, để tạo niềm tin và sự tôn trọng đối với các hợp đồng, quy luật cơ bản rằng của cải phải được tạo ra trước khi nó có thể được phân phối, mong muốn mang lại cho mọi người một cơ hội trong thị trường cạnh tranh...
 
-# Kết luận
+# Phần cuối
 
 <partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
 

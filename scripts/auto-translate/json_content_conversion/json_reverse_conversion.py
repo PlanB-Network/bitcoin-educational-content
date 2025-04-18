@@ -14,8 +14,8 @@ class JsonToFileConverter:
         if not json_data:
             return False
             
-        # Check for YML-specific structures
-        first_items = json_data[:3]  # Check first few items for typical YML patterns
+        
+        first_items = json_data[:3]  
         return all(
             item['type'] == 'yml_property' 
             and 'key' in item 
@@ -23,33 +23,80 @@ class JsonToFileConverter:
             for item in first_items
         )
 
+
+
     def handle_yml_property(self, item: Dict[str, Any]) -> List[str]:
         """Handle YAML property with proper formatting"""
         indent = ' ' * item.get('indent', 0)
         key = item['key']
-        
+
         if item.get('is_list', False):
-            # Handle list property
+            
             lines = [f"{indent}{key}:"]
             list_indent = ' ' * item.get('list_indent', item['indent'] + 2)
-            for list_item in item['content']:
-                lines.append(f"{list_indent}- {list_item}")
-            return lines
+            list_content = item.get('content', []) 
+            if list_content is None: 
+                list_content = []
             
+            if not list_content:
+                 
+                 
+                 
+                 
+                 lines = [f"{indent}{key}:"]
+            else:
+                for list_item in list_content:
+                    
+                    lines.append(f"{list_indent}- {str(list_item)}")
+            return lines
+
         elif item.get('is_multiline', False):
-            # Handle multiline property with pipe
-            lines = [f"{indent}{key}: |"]
-            content_indent = ' ' * item.get('content_indent', item['indent'] + 2)
-            for content_line in item['content']:
-                lines.append(f"{content_indent}{content_line}")
-            return lines
             
+            lines = [f"{indent}{key}: |"]
+            content_indent_spaces = ' ' * item.get('content_indent', item['indent'] + 2)
+
+            multiline_content_raw = item.get('content', '') 
+
+            
+            
+            
+            if isinstance(multiline_content_raw, list):
+                
+                
+                print(f"Warning: Multiline content for key '{key}' was a list. Joining elements.")
+                try:
+                    
+                    multiline_content_str = "".join(map(str, multiline_content_raw))
+                except Exception as e:
+                    print(f"Error joining list content for key '{key}': {e}. Using empty string.")
+                    multiline_content_str = "" 
+            elif multiline_content_raw is None:
+                multiline_content_str = "" 
+            else:
+                
+                multiline_content_str = str(multiline_content_raw)
+            
+
+            
+            content_lines = multiline_content_str.split('\n')
+
+            for content_line in content_lines:
+                
+                lines.append(f"{content_indent_spaces}{content_line}")
+            return lines
+
         else:
-            # Handle simple property
-            content = item['content'] if item['content'] is not None else ''
-            if key == 'objectives' and not content:
-                return [f"{indent}{key}:"]
-            return [f"{indent}{key}: {content}"]
+            
+            content = item.get('content') 
+            if key == 'objectives' and content is None:
+                 return [f"{indent}{key}:"]
+            if content is None:
+                
+                
+                content = ''
+            
+            return [f"{indent}{key}: {str(content)}"]
+
 
     def handle_md_property(self, item: Dict[str, Any]) -> List[str]:
         """Handle markdown-specific properties"""
@@ -87,9 +134,16 @@ class JsonToFileConverter:
             else:
                 lines = item.get('lines', item['content'].split('\n'))
                 return lines + ['$$', '']
-                
+        
+        elif item_type == 'table':
+            lines = item.get('lines', item['content'].split('\n'))
+            return lines
+        
         elif item_type in ['embed_links', 'paragraph', 'chapterId', 'partId']:
             return [item['content'], '']
+        
+        elif item_type == 'empty_line':
+            return ['']
             
         return [item['content']]
 
@@ -98,6 +152,7 @@ class JsonToFileConverter:
         is_yml = self.is_yml_json(json_data)
         formatted_lines = []
         prev_was_list = False
+        prev_was_table = False
         
         for item in json_data:
             if is_yml:
@@ -105,20 +160,25 @@ class JsonToFileConverter:
             else:
                 lines = self.handle_md_property(item)
             
-            # Handle spacing between items
+            
             if not is_yml:
                 if item['type'] == 'list':
                     if not prev_was_list and formatted_lines:
                         formatted_lines.append('')
                     prev_was_list = True
+                    prev_was_table = False
+                elif item['type'] == 'table':
+                    prev_was_table = True
+                    prev_was_list = False
                 else:
-                    if prev_was_list:
+                    if prev_was_list or prev_was_table:
                         formatted_lines.append('')
                     prev_was_list = False
+                    prev_was_table = False
             
             formatted_lines.extend(lines)
         
-        # Clean up trailing empty lines
+        
         while formatted_lines and not formatted_lines[-1]:
             formatted_lines.pop()
         
@@ -144,7 +204,7 @@ class JsonToFileConverter:
         return output_path
 
 def main():
-    # Example usage
+    
     test_cases = [
         ('output_yml.json', 'output_reverse.yml'),
         ('output_md.json', 'output_reverse.md'),
@@ -159,3 +219,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

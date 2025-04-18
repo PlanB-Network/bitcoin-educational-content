@@ -1,0 +1,13 @@
+question: Jaka jest główna korzyść z używania menedżera haseł według rozdziału?
+answer: Dzięki temu nigdy nie użyjesz tego samego hasła dwa razy
+wrong_answers:
+  - Pomaga zapamiętać nazwy użytkowników
+  - Chroni komputer przed wirusami
+  - Generuje losowe hasła
+explanation: |
+  Zgodnie z tym rozdziałem, menedżer haseł pomaga nigdy nie używać
+  
+  tego samego hasła, wybierać złożone i bezpieczne hasła oraz ułatwia korzystanie z Internetu
+  
+  zarządzanie bezpieczeństwem online"
+reviewed: false

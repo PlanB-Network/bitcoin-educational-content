@@ -1,0 +1,12 @@
+question: Je, mfumuko wa bei unaathiri vipi uwezo wa kununua wa wanaolipwa mshahara kwa wakati?
+answer: Mfumuko wa bei unapunguza uwezo wa kununua kwani mishahara mara nyingi huwa nyuma ya kiwango halisi cha mfumuko wa bei.
+wrong_answers:
+  - Mfumuko wa bei huongeza uwezo wa kununua huku mishahara ikipanda haraka kuliko bei.
+  - Mfumuko wa bei hauna athari kwa nguvu ya ununuzi.
+  - Mfumuko wa bei huathiri tu uwezo wa ununuzi wa wale wanaowekeza katika masoko ya fedha.
+explanation: |
+  Mfumuko wa bei husababisha ongezeko la mara kwa mara la bei za walaji, na hivyo kudidimiza ununuzi
+  nguvu ya wanaopata mishahara kwani mishahara yao kwa kawaida huwa nyuma ya kiwango halisi cha mfumuko wa bei.
+  Hii inafanya kuwa vigumu kwa wanaopata mishahara kufikia malengo yao ya kuokoa muda mrefu
+  na kudumisha kiwango chao cha maisha.
+reviewed: true

@@ -1,0 +1,11 @@
+question: Jakie jest główne ograniczenie klasycznych tabel hiperinflacji?
+answer: Wykluczają one pewne historyczne okresy wysokiej inflacji ze względu na ścisłe kryteria klasyfikacji
+wrong_answers:
+  - Obejmują one zbyt wiele epizodów inflacji, które nie kwalifikują się jako hiperinflacja
+  - Są one przestarzałe i nie mają zastosowania do nowoczesnych gospodarek
+  - Nie uwzględniają one wpływu inflacji na gospodarkę
+explanation: |
+  Klasyczne tabele hiperinflacji, takie jak tabela Hanke-Krusa, często
+  wykluczają pewne historyczne okresy wysokiej inflacji ze względu na ścisłe kryteria klasyfikacji, takie jak
+  kryteria, takie jak próg 50% miesięcznej inflacji określony w definicji Cagana.
+reviewed: false

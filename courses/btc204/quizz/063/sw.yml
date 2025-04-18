@@ -1,0 +1,10 @@
+question: Je, ni hatari gani 2 za faragha zinazohusiana na kuchagua sarafu?
+answer: CIOH na kiungo kati ya pembejeo / utambulisho na mpokeaji.
+wrong_answers:
+  - Ufuatiliaji wa IP Address na uunganisho wa shughuli.
+  - Ufuatiliaji wa muda na utumiaji tena wa Address.
+  - Utumiaji tena wa Address na kiungo kati ya pembejeo / utambulisho na mwangalizi wa nje.
+explanation: |
+  Hatari mbili zinahitaji kuzingatiwa wakati wa kuchagua sarafu: uwezekano wa mpokeaji malipo kuunganisha sehemu ya utambulisho wako na UTXO zinazotumiwa kama pembejeo na uwezo wa mwangalizi wa nje kuanzisha viungo kati ya UTXO zote zinazotumiwa kama pembejeo (CIOH).
+  
+reviewed: false

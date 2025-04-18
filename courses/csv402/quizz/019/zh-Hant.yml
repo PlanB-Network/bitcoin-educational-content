@@ -1,0 +1,9 @@
+question: 智能合約在 RGB 環境中的主要目的是什麼？
+answer: 在沒有中央登錄的情況下實施自動化 Bitcoin 交易
+wrong_answers:
+  - 促進中央 Bitcoin 登錄的建立
+  - 為所有 Bitcoin 交易提供公共 Interface
+  - 簡化 ERC-20 代幣在 Bitcoin 上的執行
+explanation: |
+  RGB 智慧契約可實現協議的自動化，同時避免使用集中式寄存器，依賴 Bitcoin 作為加密錨點。
+reviewed: false

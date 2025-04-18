@@ -1,0 +1,11 @@
+question: Je, stablecoins husaidiaje kupunguza gharama zinazohusiana na utumaji pesa?
+answer: Kwa kutoa ada ya chini kuliko huduma za jadi
+wrong_answers:
+  - Kwa kutoa huduma za kutuma pesa bila malipo
+  - Kwa kuwapa watu viwango bora vya Exchange kuliko huduma za kitamaduni
+  - Kwa kuweka sarafu za kidigitali
+explanation: |
+  Stablecoins, tofauti na huduma za jadi za uhamisho wa fedha, zina kiasi kikubwa
+  ada za chini kwa sababu hazihitaji wasuluhishi kama vile benki au pesa
+  huduma za uhamisho.
+reviewed: true

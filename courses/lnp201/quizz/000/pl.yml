@@ -1,0 +1,9 @@
+question: Jaki jest główny cel Lightning Network?
+answer: Poprawa skalowalności Bitcoin w celu umożliwienia szybkich i tanich płatności
+wrong_answers:
+  - Eliminacja opłat transakcyjnych na Bitcoin Blockchain
+  - Stworzenie alternatywy dla Bitcoin dla płatności o wysokiej wartości
+  - Uproszczenie wymiany między różnymi kryptowalutami
+explanation: |
+  Lightning Network ma na celu zwiększenie skalowalności Bitcoin poprzez umożliwienie szybkich i niedrogich transakcji za pośrednictwem kanałów płatności off-chain.
+reviewed: false

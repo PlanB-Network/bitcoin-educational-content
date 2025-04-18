@@ -1,0 +1,10 @@
+question: 交易 Tx0 在 Whirlpool 中的主要作用是什麼？
+answer: 使 UTXOs 平衡。
+wrong_answers:
+  - 執行第一次混合。
+  - 要從池中移除 UTXO。
+  - 花費混合 UTXOs。
+explanation: |
+  Tx0 旨在為 CoinJoin 準備和均勻UTXO，將其分割成與所選池量相對應的單位，以確保混合的均勻性。
+  
+reviewed: false

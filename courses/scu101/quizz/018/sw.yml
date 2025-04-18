@@ -1,0 +1,12 @@
+question: Ni mazoezi gani yanayopendekezwa ya kutumia akaunti ya msimamizi kwenye Windows?
+answer: Unda akaunti mbili tofauti; akaunti ya msimamizi na akaunti ya matumizi ya kila siku.
+wrong_answers:
+  - Tumia akaunti ya msimamizi kwa matumizi ya kila siku, ikiwa PC haijaunganishwa kwenye mtandao.
+  - Unda akaunti mbili tofauti za msimamizi; moja kwa matumizi ya kila siku na moja kwa usimamizi wa mfumo wa uendeshaji.
+  - Usifungue akaunti ya msimamizi.
+explanation: |
+  Kutumia akaunti ya msimamizi kwa matumizi ya kila siku kwenye Windows kunaweza
+  kufichua mfumo kwa hatari zaidi za usalama. Inapendekezwa
+  kuunda akaunti mbili tofauti; moja kwa ajili ya utawala
+  kazi na nyingine kwa matumizi ya kila siku.
+reviewed: true

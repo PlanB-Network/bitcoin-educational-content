@@ -24,10 +24,11 @@ El curso está diseñado para ser exhaustivo y general. Cada concepto técnico s
 
 <partId>e17474a8-8899-4bdb-a7f8-bc52ddb01440</partId>
 
-## Introducción a la formación
+## Descripción del curso
 
 <chapterId>08ba1933-f393-4fb5-8279-777d874caedb</chapterId>
 
+¡Bienvenido al curso BTC204!
 
 En un mundo en el que la confidencialidad de las transacciones financieras se está convirtiendo poco a poco en un lujo, comprender y dominar los principios de protección de la privacidad cuando se utiliza Bitcoin es esencial. Este curso de formación le da todas las claves, tanto teóricas como prácticas, para conseguirlo de forma autónoma.
 
@@ -45,37 +46,38 @@ Este curso de formación está diseñado para ofrecer una visión general y exha
 
 El objetivo de este curso de formación no es que usted sea totalmente anónimo en el uso de Bitcoin, sino proporcionarle las herramientas esenciales para saber cómo proteger su confidencialidad en función de sus objetivos personales. Tendrá la libertad de elegir entre los conceptos y herramientas presentados para desarrollar sus propias estrategias, adaptadas a sus objetivos y necesidades específicas.
 
-### Sección 1: Definiciones y conceptos clave
+**Sección 1: Definiciones y conceptos clave**
 
 Para empezar, vamos a repasar los principios fundamentales que rigen el funcionamiento de Bitcoin, para luego poder abordar con calma las nociones relativas a la confidencialidad. Es esencial dominar algunos conceptos básicos, como UTXO, la recepción de direcciones y el scripting, antes de poder entender completamente los conceptos que trataremos en las siguientes secciones. También presentaremos el modelo general de confidencialidad de Bitcoin, tal y como lo imaginó Satoshi Nakamoto, lo que nos permitirá comprender las apuestas y los riesgos asociados.
 
 ![BTC204](assets/fr/001.webp)
 
-### Sección 2: Comprender el análisis de la cadena y protegerse contra él
+**Sección 2: Comprender el análisis de la cadena y protegerse contra él**
 
 En la segunda sección, examinamos las técnicas utilizadas por las empresas de análisis de blockchain para rastrear su actividad en Bitcoin. Comprender estos métodos es crucial para reforzar la protección de su privacidad. El objetivo de esta sección es examinar las estrategias de los atacantes para comprender mejor los riesgos y preparar el terreno para las técnicas que estudiaremos en las siguientes secciones. Analizaremos patrones de transacciones, heurísticas internas y externas, e interpretaciones probables de estos patrones. Además de la teoría, aprenderemos a utilizar un explorador de bloques para el análisis de cadenas, mediante ejemplos prácticos y ejercicios.
 
 ![BTC204](assets/fr/002.webp)
 
-### Sección 3: Dominar las mejores prácticas para proteger su privacidad
+**Sección 3: Dominar las mejores prácticas para proteger su privacidad**
 
 En la tercera sección de nuestro curso de formación, vamos al grano: ¡la práctica! El objetivo es dominar todas las buenas prácticas esenciales que deberían convertirse en reflejos naturales para cualquier usuario de Bitcoin. Vamos a cubrir el uso de direcciones en blanco, etiquetado, consolidación, el uso de nodos completos, así como KYC y métodos de adquisición. El objetivo es proporcionarle una visión global de las trampas que debe evitar para establecer una base sólida en nuestra búsqueda de la protección de la privacidad. Para algunas de estas prácticas, se le guiará a un tutorial específico sobre cómo ponerlas en práctica.
 
 ![BTC204](assets/fr/003.webp)
 
-### Sección 4: Entender las transacciones coinjoin
+**Sección 4: Entender las transacciones coinjoin**
 
 ¿Cómo podemos hablar de privacidad en Bitcoin sin mencionar los coinjoins? En la sección 4, descubrirá todo lo que necesita saber sobre este método de mezcla. Aprenderá qué son los coinjoins, su historia y objetivos, así como los diferentes tipos de coinjoin que existen. Por último, para los usuarios más experimentados, veremos qué son los anonsets y la entropía, y cómo calcularlos.
 
 ![BTC204](assets/fr/004.webp)
 
-### Sección 5: Comprender los retos de otras técnicas avanzadas de confidencialidad
+**Sección 5: Comprender los retos de otras técnicas avanzadas de confidencialidad**
 
 En la quinta sección, echaremos un vistazo a todas las demás técnicas disponibles para proteger su privacidad en Bitcoin, aparte de coinjoin. A lo largo de los años, los desarrolladores han mostrado una notable creatividad en el diseño de herramientas dedicadas a la privacidad. Veremos todos estos métodos, como payjoin, transacciones colaborativas, Coin Swap y Atomic Swap, detallando cómo funcionan, sus objetivos y sus puntos débiles.
 
 También estudiaremos la privacidad a nivel de la red de nodos y la difusión de transacciones. También discutiremos los diversos protocolos que se han propuesto a lo largo de los años para mejorar la privacidad del usuario en Bitcoin, incluyendo los protocolos de direcciones estáticas.
 
 ![BTC204](assets/fr/005.webp)
+¿Listo para explorar los entresijos de la privacidad en Bitcoin? ¡Vamos allá!
 
 # Definiciones y conceptos clave
 
@@ -4220,7 +4222,7 @@ Dado que esta función es nueva, le aconsejamos que actúe con cautela y evite u
 
 *Para crear este capítulo sobre los pagos silenciosos, he utilizado [el sitio explicativo de los pagos silenciosos](https://silentpayments.xyz/) y [el documento explicativo del PIF352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki).*
 
-# Conclusión
+# Sección final
 
 <partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 
@@ -4228,16 +4230,16 @@ Dado que esta función es nueva, le aconsejamos que actúe con cautela y evite u
 
 <chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
 
-<isCourseReview>verdadero</isCourseReview>
+<isCourseReview>true</isCourseReview>
 
 ## Examen final
 
 <chapterId>e803d394-e3c1-5816-a6b4-a69a2472019c</chapterId>
 
-<isCursoExamen>true</isCursoExamen>
+<isCourseExam>true</isCourseExam>
 
 ## Conclusión
 
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>
 
-<isConclusionCurso>true</isConclusionCurso>
+<isCourseConclusion>true</isCourseConclusion>

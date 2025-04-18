@@ -1,0 +1,9 @@
+question: Jaka jest podstawowa iluzja państwa według Marksa?
+answer: Reprezentuje interes ogólny, a nie konkretne interesy danej klasy.
+wrong_answers:
+  - Jest w stanie zagwarantować bezstronność.
+  - Służy społeczeństwu obywatelskiemu.
+  - Promuje walkę klas.
+explanation: |
+  Dla Marksa państwo twierdzi, że reprezentuje interes ogółu, ale w rzeczywistości jest instrumentem służącym interesom klasy dominującej, utrwalając w ten sposób ucisk klas podporządkowanych.
+reviewed: false

@@ -70,6 +70,8 @@ La versión escrita de este curso de formación se redactó utilizando 2 recurso
 - Vídeos del seminario de Maxim Orlovsky, Hunter Trujilo y Frederico Tenga en Lightning Bootcamp ;
 - La documentación RGB, cuya producción fue patrocinada por [Bitfinex](https://www.bitfinex.com/).
 
+¿Listo para sumergirte en el complejo y fascinante universo de RGB? ¡Vamos allá!
+
 # RGB en teoría
 
 <partId>80e797ee-3f33-599f-ab82-e82eeee08219</partId>
@@ -78,7 +80,7 @@ La versión escrita de este curso de formación se redactó utilizando 2 recurso
 
 <chapterId>f52f8af5-5d7c-588b-b56d-99b97176204b</chapterId>
 
-![video](https://youtu.be/AF2XbifPGXM)
+:::video id=f27338bc-4210-4a2e-9b27-30278ed3282c:::
 
 RGB es un protocolo diseñado para aplicar y hacer cumplir derechos digitales (en forma de contratos y activos) de forma escalable y confidencial, basado en las reglas de consenso y las operaciones de la blockchain de Bitcoin. El objetivo de este primer capítulo es presentar los conceptos básicos y la terminología en torno al protocolo RGB, destacando en particular sus estrechos vínculos con conceptos básicos de computación distribuida como la Validación del lado del cliente y los Sellos de un solo uso.
 
@@ -421,7 +423,7 @@ Antes de sumergirse en los detalles más técnicos del segundo capítulo, no dud
 
 <chapterId>cc2fe85a-9cc7-5b8c-a00a-c0a867241061</chapterId>
 
-![video](https://youtu.be/FS6PDprWl5Q)
+:::video id=73ddea2d-c243-479d-a3dc-12d7db8eef70:::
 
 En este capítulo, veremos la implementación de la Validación del Lado del Cliente y los Sellos de un solo uso dentro de la blockchain de Bitcoin. Presentaremos los principios fundamentales de la **capa de compromiso** (capa 1) de RGB, con especial atención al esquema **TxO2**, que RGB utiliza para definir y cerrar un sello en una transacción Bitcoin. A continuación, discutiremos dos puntos importantes que aún no han sido tratados en detalle:
 
@@ -1011,7 +1013,7 @@ En el próximo capítulo, veremos el componente puramente fuera de la cadena de 
 
 <chapterId>04a9569f-3563-5382-bf53-0c7069343ba0</chapterId>
 
-![video](https://youtu.be/tmAVdyXGmj4)
+:::video id=db4ee09f-1352-4ad1-9f7a-c962df7ea9fa:::
 
 En este capítulo y en el siguiente, estudiaremos la noción de **contrato inteligente** dentro del entorno RGB y exploraremos las diferentes formas en que estos contratos pueden definir y evolucionar su *estado*. Veremos por qué la arquitectura RGB, utilizando la secuencia ordenada de Sellos de un solo uso, hace posible ejecutar varios tipos de ***Operaciones contractuales*** de forma escalable y sin pasar por un registro centralizado. También veremos el papel fundamental de la ***Lógica Empresarial*** a la hora de enmarcar la evolución del estado del contrato.
 
@@ -1103,7 +1105,7 @@ En el próximo capítulo, entraremos en más detalle sobre la representación co
 
 <chapterId>78c44e88-50c4-5ec4-befe-456c1a9f080b</chapterId>
 
-![video](https://youtu.be/lUTjeuM0oTA)
+:::video id=1caec34d-f214-425b-a1a4-0a40ae7d3e0e:::
 
 En este capítulo, veremos cómo funcionan las operaciones en los contratos inteligentes y las transiciones de estado, de nuevo dentro del protocolo RGB. También se tratará de entender cómo cooperan varios participantes para transferir la propiedad de un activo.
 
@@ -1926,7 +1928,7 @@ La Transacción Testigo es la transacción Bitcoin que cierra el Sello de un sol
 
 <chapterId>8333ea5f-51c7-5dd5-b1d7-47d491e58e51</chapterId>
 
-![video](https://youtu.be/Uo1UoxiImsI)
+:::video id=97d81b85-5a82-40a5-b111-7d96be5afd0f:::
 
 En este capítulo veremos más de cerca cómo se define e implementa un contrato RGB. Veremos cuáles son los componentes de un contrato RGB, cuáles son sus funciones y cómo se construyen.
 
@@ -2614,7 +2616,7 @@ En el próximo capítulo veremos cómo funciona una transferencia de contrato y 
 
 <chapterId>f043a307-d420-5752-b0d7-ebfd845802c0</chapterId>
 
-![video](https://youtu.be/sVoKIi-1XbY)
+:::video id=75eb5a8d-1910-4155-b5e3-81204c9a8901:::
 
 En este capítulo, vamos a analizar el proceso de transferencia de un contrato en el ecosistema RGB. Para ilustrarlo, veremos a Alice y Bob, nuestros protagonistas habituales, que desean intercambiar un activo RGB. También mostraremos algunos extractos de comandos de la herramienta de línea de comandos `rgb`, para ver cómo funciona en la práctica.
 
@@ -2908,7 +2910,7 @@ Ahora que ya hemos visto los principales elementos de la programación RGB, en e
 
 <chapterId>0e0a645c-0049-588d-8965-b8c536590cc9</chapterId>
 
-![video](https://youtu.be/GRwS-NvWF3I)
+:::video id=a3ad6dcd-90b8-4272-9dfc-76c85c859167:::
 
 En este capítulo, tomaremos un enfoque paso a paso para escribir un contrato, utilizando la herramienta de línea de comandos `rgb`. El objetivo es mostrar cómo instalar y manipular la CLI, compilar un **Esquema**, importar la **Interfaz** y la **Implementación de la Interfaz**, y luego emitir (*emitir*) un activo. También veremos la lógica subyacente, incluyendo la compilación y la validación del estado. Al final de este capítulo, deberías ser capaz de reproducir el proceso y crear tus propios contratos RGB.
 
@@ -3207,7 +3209,7 @@ En el próximo capítulo, veremos más de cerca la integración de RGB en la Red
 
 <chapterId>0962980a-8f94-5d0f-9cd0-43d7f884a01d</chapterId>
 
-![video](https://youtu.be/mqCupTlDbA0)
+:::video id=be25a165-6e23-488c-91d8-3dcfccc6eca1:::
 
 En este capítulo, propongo examinar cómo se puede utilizar RGB dentro de la Lightning Network, para integrar y mover activos RGB (tokens, NFTs, etc.) a través de canales de pago fuera de la cadena.
 
@@ -3362,7 +3364,7 @@ Ecosistema vinculado a desarrollos deterministas de código abierto.
 
 <chapterId>dc92a5e8-ed93-5a3f-bcd0-d433932842f4</chapterId>
 
-![video](https://youtu.be/nbUtV8GOR_U)
+:::video id=2ec9a181-a8b0-4da2-b7b5-9dfaaaeb10ba:::
 
 Esta sección final del curso se basa en las presentaciones realizadas por varios ponentes en el RGB bootcamp. Incluye testimonios y reflexiones sobre RGB y su ecosistema, así como presentaciones de herramientas y proyectos basados en el protocolo. Este primer capítulo está moderado por Hunter Beast, y los dos siguientes por Frederico Tenga.
 
@@ -3428,7 +3430,7 @@ El monedero **Bitmask** forma parte de este enfoque: en el lado de la blockchain
 
 <chapterId>d4d80e07-5eac-5b29-a93a-123180e97047</chapterId>
 
-![vidéo](https://youtu.be/5iAhsgCSL3U)
+:::video id=04555813-516f-4eea-9767-7082c2ea6f01:::
 
 En este capítulo, basado en una presentación de Frederico Tenga, examinamos un conjunto de herramientas y proyectos creados por el equipo de Bitfinex dedicados al RGB, con el objetivo de fomentar la aparición de un ecosistema rico y diverso en torno a este protocolo. El objetivo inicial del equipo no es lanzar un producto comercial específico, sino proporcionar bloques de construcción de software, contribuir al propio protocolo RGB y proponer referencias de implementación concretas, como un monedero móvil (*Iris Wallet*) o un nodo Lightning compatible con RGB.
 
@@ -3542,7 +3544,7 @@ En el próximo capítulo, veremos más detenidamente cómo lanzar un nodo RGB Li
 
 <chapterId>ecaabe32-20ba-5f8c-8ca1-a3f095792958</chapterId>
 
-![vidéo](https://youtu.be/piQQH4Q2nr0)
+:::video id=d1e9753e-6093-4a47-bcdc-da1aebaefffc:::
 
 En este capítulo final, Frederico Tenga te lleva paso a paso a través de la configuración de un nodo Lightning RGB en un entorno Regtest, y te muestra cómo crear tokens RGB en él. Al lanzar dos nodos separados, también descubrirás cómo abrir un canal Lightning entre ellos e intercambiar activos RGB.
 
@@ -3909,7 +3911,7 @@ El proyecto sigue en fase alfa. Por tanto, se recomienda encarecidamente limitar
 
 Las oportunidades que abre esta compatibilidad LN-RGB son considerables: stablecoins en Lightning, DEX layer-2, transferencia de tokens fungibles o NFT a muy bajo coste... Los capítulos anteriores han esbozado la arquitectura conceptual y la lógica de validación. Ahora tienes una visión práctica de cómo poner en marcha un nodo de este tipo, para tus futuros desarrollos o pruebas.
 
-# Conclusión
+# Sección final
 
 <partId>b0baebfc-d146-5938-849a-f835fafb386f</partId>
 
@@ -3917,10 +3919,10 @@ Las oportunidades que abre esta compatibilidad LN-RGB son considerables: stablec
 
 <chapterId>0217e8b0-942a-5fee-bd91-9a866551eff3</chapterId>
 
-<isCourseReview>verdadero</isCourseReview>
+<isCourseReview>true</isCourseReview>
 
 ## Conclusión
 
 <chapterId>0309536d-c336-56a0-869e-a8395ed8d9ae</chapterId>
 
-<isConclusionCurso>true</isConclusionCurso>
+<isCourseConclusion>true</isCourseConclusion>

@@ -1,0 +1,10 @@
+question: 哪種啟發式可以用來連結合併的所有輸入？
+answer: CIOH.
+wrong_answers:
+  - Address 重複使用。
+  - 最大的輸出。
+  - 回合付款。
+explanation: |
+  外部觀察者可以運用 CIOH 來假設整合的所有輸入都屬於同一個實體。
+  
+reviewed: false

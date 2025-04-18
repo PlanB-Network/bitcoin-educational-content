@@ -1,0 +1,13 @@
+question: Ni nini cha muhimu kutoka kwa hotuba ya jinsi ya kushinda mfumuko wa bei?
+answer: Kuna mikakati kadhaa ya kushinda mfumuko wa bei, lakini itafanya kazi tu ikiwa idadi ya watu ina imani nao na vikwazo vikali vimewekwa kwa serikali.
+wrong_answers:
+  - Njia pekee ya kuondokana na mfumuko wa bei ni kupitia dola
+  - Njia pekee ya kuondokana na mfumuko wa bei ni kwa kuanzisha sarafu mpya
+  - Mfumuko wa bei unaweza kushindwa kwa kuongeza tu pesa Supply
+explanation: |
+  Mhadhara unapendekeza kuwa kuna mikakati kadhaa ya kushinda
+  mfumuko wa bei,
+  kama vile dola au kuanzisha sarafu mpya. Walakini, suluhisho hizi zitafanya
+  kazi tu ikiwa idadi ya watu ina imani nao na vizuizi vikali vimewekwa
+  juu ya serikali.
+reviewed: false

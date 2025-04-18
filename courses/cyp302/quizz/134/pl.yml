@@ -1,0 +1,9 @@
+question: Jaki jest główny cel kryptografii asymetrycznej w kontekście komunikacji między Alice i Bobem?
+answer: Aby umożliwić Bobowi przesłanie tajnej wiadomości do Alice przy użyciu jej klucza publicznego
+wrong_answers:
+  - Aby umożliwić Bobowi szyfrowanie i odszyfrowywanie wiadomości bez klucza publicznego
+  - Aby uniemożliwić Alicji odszyfrowanie wiadomości Boba
+  - Aby umożliwić Alice zaszyfrowanie wiadomości w celu zweryfikowania jej integralności
+explanation: |
+  W kryptografii asymetrycznej klucz publiczny Alicji umożliwia Bobowi wysłanie zaszyfrowanej wiadomości, którą tylko ona może odszyfrować, zapewniając w ten sposób poufność wiadomości.
+reviewed: false

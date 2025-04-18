@@ -1,0 +1,9 @@
+question: Ni nani anayechukuliwa kuwa mshindani asiyefaa wa watengeneza mishumaa katika hadithi hii?
+answer: Jua
+wrong_answers:
+  - Watengeneza mishumaa wa kigeni
+  - Umeme
+  - Taa za mafuta
+explanation: |
+  Katika kejeli yake, Bastiat anarejelea jua kuwa mshindani asiyefaa, akionyesha upuuzi wa hatua za ulinzi kwa kutia chumvi madai ya watengeneza mishumaa.
+reviewed: false

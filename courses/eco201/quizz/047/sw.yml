@@ -1,0 +1,12 @@
+question: Kwa nini wachumi wa kawaida na wapangaji mipango wakuu mara nyingi hawapendi wachumi wa Austria?
+answer: Wanauchumi wa Austria wanaangazia kutokuwa na uhakika wa siku zijazo, uwongo wa utabiri wa idadi kubwa ya uchumi, na athari mbaya za kuingilia uchumi.
+wrong_answers:
+  - Wanauchumi wa Austria wanatetea ujamaa.
+  - Wanauchumi wa Austria hawaamini katika nguvu ya soko.
+  - Wanauchumi wa Austria hawatumii mifano ya hisabati.
+explanation: |
+  Wanauchumi wa Austria wanaangazia kutokuwa na uhakika wa siku zijazo, uwongo
+  utabiri wa kiasi cha uchumi, na athari mbaya za kuingilia kiuchumi,
+  ambayo inakwenda kinyume na imani na desturi za wachumi wa kawaida na wa kati
+  wapangaji.
+reviewed: true

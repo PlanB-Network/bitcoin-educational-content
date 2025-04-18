@@ -1,0 +1,9 @@
+question: Co w kontekście kryptosystemu RSA oznacza iloczyn dwóch liczb pierwszych p i q?
+answer: Stanowi on liczbę całkowitą N używaną jako moduł dla operacji
+wrong_answers:
+  - Stanowi on klucz publiczny
+  - Służy on jako klucz deszyfrujący
+  - Jest on używany tylko do generate wykładnika e
+explanation: |
+  W RSA liczba całkowita N jest iloczynem dwóch dużych liczb pierwszych p i q i jest używana jako moduł dla operacji szyfrowania i deszyfrowania.
+reviewed: false

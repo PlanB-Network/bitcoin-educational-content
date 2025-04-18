@@ -203,11 +203,6 @@ Ainsi, l'idée de garder les communications secrètes en protégeant le canal de
 
 [7] Voir, par exemple, Olga Khazan, “The creepy, long-standing practice of undersea cable tapping”, *The Atlantic*, 16 juillet 2013 (disponible sur [The Atlantic](https://www.theatlantic.com/international/archive/2013/07/the-creepy-long-standing-practice-of-undersea-cable-tapping/277855/)).
 
-
-# Fondements mathématiques de la cryptographie 1
-
-<partId>1bf9f0aa-0f68-5493-83fb-2167238ff9de</partId>
-
 # Fondements Mathématiques de la Cryptographie 1
 <partId>1bf9f0aa-0f68-5493-83fb-2167238ff9de</partId>
 
@@ -577,9 +572,6 @@ La raison de l’abandon de la distinction entre « aléatoire » et « uniforme
 
 # Fondements mathématiques de la cryptographie 2
 
-<partId>d7245cc9-bb6d-5403-b3d5-9c703d9a2f81</partId>
-
-# Fondements mathématiques de la cryptographie 2
 <partId>d7245cc9-bb6d-5403-b3d5-9c703d9a2f81</partId>
 
 ## Qu'est-ce que la théorie des nombres ?
@@ -2166,7 +2158,7 @@ Cependant, en ajoutant une certaine complexité astucieuse, le problème RSA peu
 [4] Voir par exemple Jonathan Katz et Yehuda Lindell, *Introduction to Modern Cryptography*, CRC Press (Boca Raton, FL : 2015), pp. 410–32 pour le chiffrement RSA et pp. 444–41 pour les signatures numériques RSA.
 
 
-# Conclusion
+# Section finale
 <partId>e538fb79-bf28-40cd-a5c3-badf864d8567</partId>
 
 ## Avis & Notes

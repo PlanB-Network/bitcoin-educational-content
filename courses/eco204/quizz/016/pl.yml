@@ -1,0 +1,10 @@
+question: Jaki jest próg hiperinflacji według definicji Philipa Cagana?
+answer: Miesięczna inflacja przekracza 50%
+wrong_answers:
+  - Miesięczna inflacja przekracza 40%
+  - Miesięczna inflacja przekracza 60%
+  - Miesięczna inflacja przekracza 70%
+explanation: |
+  Zgodnie z definicją Philipa Cagana, hiperinflacja zaczyna się, gdy miesięczna inflacja przekracza 50%
+  inflacja przekracza 50%.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Co oznacza skrót KYC?
+answer: Poznaj swojego klienta.
+wrong_answers:
+  - Zatrzymaj swoją gotówkę.
+  - Kluczowanie kodów.
+  - Zgodność z przepisami.
+explanation: |
+  KYC lub Know Your Customer odnosi się do procedury, którą
+  firmy przyjmują w celu weryfikacji tożsamości swoich klientów.
+  Zazwyczaj ma to na celu zapewnienie zgodności z
+  przepisami i zapobieganie nielegalnym działaniom, takim jak
+  pranie pieniędzy lub oszustwa.
+reviewed: true

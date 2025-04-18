@@ -145,7 +145,7 @@ Salasanaa ei tule sekoittaa PIN-koodiin. Se toimii roolissa kryptografisten avai
 
 Salasana on erittäin tehokas työkalu bitcoinsien turvallisuuden parantamiseen. On kuitenkin erittäin tärkeää ymmärtää, miten se toimii ennen sen käyttöönottoa, välttääksesi pääsyn menettämisen lompakkoosi. Tämän vuoksi suosittelen, että konsultoit tätä toista opasta, jos haluat asettaa salasanan Ledgeriisi:
 
-https://planb.network/tutorials/wallet/hardware/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 "*PIN-lukitus*" -valikko mahdollistaa Ledgerisi automaattisen lukituksen konfiguroinnin ja aktivoimisen määrätyn toimettomuusajan jälkeen.
 
@@ -333,3 +333,4 @@ Jos pidit tätä opasta hyödyllisenä, arvostaisin, jos jättäisit peukun ylö
 Suosittelen myös, että tutustut tähän kattavaan oppaaseen Ledger Flexistä:
 
 https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+

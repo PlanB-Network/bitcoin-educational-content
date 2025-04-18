@@ -22,16 +22,16 @@ Chúc bạn học tốt!
 # Giới thiệu
 <partId>594ab43f-7216-5326-ab41-f92b85be4581</partId>
 
-## Chương trình học & giới thiệu
+## Tổng quan về khóa học
 <chapterId>36526df2-66a2-58df-8f38-378fb553f08c</chapterId>
 
-### Giới thiệu
+**Giới thiệu**
 
 Chào mừng bạn đến với khóa học lập trình nâng cao về SDK. Trong khóa đào tạo này, bạn sẽ học cơ bản về Rust, sau đó tập trung vào BTC & Rust, và kết thúc với một số bài tập thực hành sử dụng SDK.
 
 Khóa đào tạo này hiện chỉ có sẵn bằng tiếng Anh và là một phần của hội thảo trực tiếp được tổ chức vào tháng 10 vừa qua tại Tuscany bởi Fulgure Venture. Chương trình của sự kiện TRỰC TIẾP có thể được tìm thấy bên dưới, và khóa đào tạo này sẽ tập trung vào tuần đầu tiên chỉ. Nửa sau được nhắm đến RGB và có thể được tìm thấy trong khóa học RGB.
 
-### Giáo viên
+**Giáo viên**
 
 Xin cảm ơn các giáo viên đã tham gia vào chương trình này:
 
@@ -40,7 +40,7 @@ Xin cảm ơn các giáo viên đã tham gia vào chương trình này:
 - Gabriel: "Tôi viết mã và làm đủ thứ."
 - Jesse de Wit: "Người hâm mộ mạng Lightning | nhà phát triển | Breez"
 
-### Lịch trình hội thảo
+**Lịch trình hội thảo**
 
 Tuần 1 của sự kiện LN Tuscany
 ![hình ảnh](assets/1.webp)
@@ -48,8 +48,20 @@ Tuần 1 của sự kiện LN Tuscany
 Một khi bạn đã hoàn thành khóa học này, nếu bạn quan tâm đến khóa đào tạo tiếp theo, đây là phần thứ hai của lịch trình:
 ![hình ảnh](assets/2.webp)
 
-Chúc bạn học tốt.
 
+
+Khóa học này cung cấp cho bạn cơ hội phát triển kỹ năng lập trình trên Lightning Network bằng cách sử dụng Rust và các SDK khác nhau. Nó được thiết kế cho các nhà phát triển đã có kiến thức vững chắc về lập trình và muốn đi sâu vào phát triển liên quan đến Lightning Network. Bạn sẽ học các kiến thức cơ bản về ngôn ngữ Rust, lý do tại sao nó phù hợp cho phát triển trên Bitcoin, sau đó chuyển sang thực hành với các SDK chuyên biệt.
+
+**Phần 2: Học lập trình với Rust**  
+Trong phần này, bạn sẽ khám phá các kiến thức cơ bản về Rust thông qua một loạt các chương học theo cấp độ. Bạn sẽ học cách viết mã bằng Rust, hiểu các đặc điểm riêng của nó và làm chủ các tính năng quan trọng của ngôn ngữ này qua bảy phần chi tiết. Module này rất quan trọng để hiểu tại sao Rust được ưa chuộng trong việc phát triển trên Bitcoin.
+
+**Phần 3: Rust & Bitcoin**  
+Ở đây, chúng ta sẽ khám phá kỹ càng lý do tại sao Rust là một lựa chọn phù hợp cho việc phát triển Bitcoin. Bạn sẽ tìm hiểu về mô hình xử lý lỗi, công cụ UniFFI, và các đặc điểm không đồng bộ - những yếu tố quan trọng trong việc xây dựng phần mềm mạnh mẽ và an toàn.
+
+**Phần 4: Phát triển LNP/BP với SDKs**  
+Bạn sẽ học cách phát triển các nút LN bằng cách sử dụng các SDK khác nhau như Breez SDK và Greenlight dành cho Lipa. Bạn sẽ thấy cách triển khai các ứng dụng Lightning Network bằng cách sử dụng các thư viện được thiết kế để đơn giản hóa quá trình phát triển ứng dụng Bitcoin và Lightning.
+
+Sẵn sàng phát triển kỹ năng của bạn với Lightning Network bằng Rust chưa? Hãy bắt đầu nào!
 # Học cách lập trình với sách Rust
 <partId>152b58c9-fb33-5d3b-9c15-64919869aa34</partId>
 
@@ -57,37 +69,37 @@ Chúc bạn học tốt.
 <chapterId>af7108eb-4974-5ac2-9784-d2a5c0d77a45</chapterId>
 <professorId>e7e63d59-ea19-4960-9446-61bd4dcc98f0</professorId>
 
-![video](https://www.youtube.com/watch?v=aZYhDXE_Gas)
+:::video id=12a518cf-64be-43f1-b6d4-f6592a1324ea:::
 
 ## Giới thiệu về Rust (2/7)
 <chapterId>918ca359-c123-5414-af01-253016670f3a</chapterId>
 
-![video](https://youtu.be/Xm8eCv4LQPc)
+:::video id=8ed76bae-7c30-4aac-9f28-bb4cbb9180e4:::
 
 ## Giới thiệu về Rust (3/7)
 <chapterId>0278ed13-68b6-59e1-97c5-f8dde505549b</chapterId>
 
-![video](https://youtu.be/R8NeHvHT0uc)
+:::video id=c78a543f-1462-43a1-9845-889d310d31a4:::
 
 ## Giới thiệu về Rust (4/7)
 <chapterId>915e523a-8fbd-5789-ab42-99b56a2a16c3</chapterId>
 
-![video](https://youtu.be/et8pKvYiO4c)
+:::video id=0f2f6f68-52ca-474f-a64f-ba61cdc92821:::
 
 ## Giới thiệu về Rust (5/7)
 <chapterId>96d54999-cdbc-5601-acac-1bc7acbe2eb7</chapterId>
 
-![video](https://youtu.be/PxQkVmxOc40)
+:::video id=5514da77-5b71-4763-96b8-49eb21291c2b:::
 
 ## Giới thiệu về Rust (6/7)
 <chapterId>a66c63ed-9514-51d1-b3a0-c8edb57603bb</chapterId>
 
-![video](https://youtu.be/3C6hl9BW-Ho)
+:::video id=44c681d1-d154-4240-b3e8-15590cbfcbd2:::
 
 ## Giới thiệu về Rust (7/7)
 <chapterId>21cf8dab-239a-580a-85cd-34326aeb1b26</chapterId>
 
-![video](https://youtu.be/SBDcb_AauHM)
+:::video id=5e96914d-df02-4781-ae54-b06008952301:::
 
 # Rust & BTC
 <partId>0f4f2ff0-7f41-5ce3-8f64-9ecff69c5355</partId>
@@ -95,45 +107,45 @@ Chúc bạn học tốt.
 ## Tại sao Rust cho Bitcoin
 <chapterId>92f13f36-70bd-5b00-8c6c-fcd1a1bd1531</chapterId>
 
-![video](https://youtu.be/veLj2w6ulpc)
+:::video id=f59c4951-e109-4c70-b7da-41721e50ab04:::
 
 ## Mô hình lỗi
 <chapterId>1a648363-0aff-54dd-a79d-ead75231e5d6</chapterId>
 
-![video](https://youtu.be/X3VKhLtKTRU)
+:::video id=9fac0184-8443-4c36-8afd-8acb21fb43c3:::
 
 ## Unniffit
 <chapterId>fe1be3e3-2288-5a10-b64b-9ba72fb985d1</chapterId>
 
-![video](https://youtu.be/zro9GQpJrH0)
+:::video id=b1a0f5f6-fc29-4b83-9c09-0b24711654e2:::
 
 ## Đặc tính bất đồng bộ
 <chapterId>e1610abe-574c-5995-abe4-a92b0dca4c93</chapterId>
 
-![video](https://youtu.be/cz66eTfk0lw)
+:::video id=8926dd48-3613-43b6-a509-60ba26ec337f:::
 # Phát triển LNP/BP với SDK
 <partId>42e8e0f8-1c07-5c71-8378-c57afb38e25d</partId>
 ## Node LN trên SDK
 <chapterId>643e4670-bb1f-581f-a102-f84e8e5d2a02</chapterId>
 
-![video](https://youtu.be/aEzpxuhLdeo)
+:::video id=94b9bee6-154e-4b9c-a8ce-5e2d9e9656a2:::
 
 ## Breez sdk
 <chapterId>52f20a4d-7d81-58e4-be00-9d39334352af</chapterId>
 
-![video](https://youtu.be/M3ad9BE6ovo)
+:::video id=68d1f253-6210-4eab-8329-b676e5772eac:::
 
 ## Greenlight cho lipa
 <chapterId>7ba30435-d26e-5e6f-a973-94080d44bf27</chapterId>
 
-![video](https://youtu.be/gKiIPF4apeE)
+:::video id=c3dec3df-1416-4761-b7c8-e1d66d27e390:::
 
 ## Breez sdk cho lipa
 <chapterId>93d87d63-dd7b-5e05-ad2e-dda12915ea32</chapterId>
 
-![video](https://youtu.be/6VaIVvBKjLY)
+:::video id=f2770a37-a22f-43d7-9334-8de60eaacff8:::
 
-# Kết luận
+# Phần cuối
 <partId>aff1e861-e6a3-58ad-af6a-33ceaedbda99</partId>
 
 

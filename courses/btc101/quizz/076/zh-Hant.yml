@@ -1,0 +1,10 @@
+question: 公開金鑰在 Bitcoin Wallet 中扮演什麼角色？
+answer: 它用於 generate Bitcoin 位址，從而接收金錢。
+wrong_answers:
+  - 它用於加密 Bitcoin 交易。
+  - 它用於存取 Bitcoin Wallet。
+  - 它用於備份 Bitcoin Wallet。
+explanation: |
+  公開金鑰來自私人金鑰，並用於
+  到 generate Bitcoin 位址以收取金錢。
+reviewed: true

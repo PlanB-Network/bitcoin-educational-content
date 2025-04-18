@@ -41,7 +41,7 @@ Lancez-vous dans l'univers de la sidechain Liquid et révélez tout son potentie
 
 <partId>6dd86449-c0f7-4e51-9252-5f135cf019df</partId>
 
-## Architecture liquide
+## Architecture Liquid
 
 <chapterId>4bca9c70-d54d-4e9a-b2db-17c3a6fa655b</chapterId>
 

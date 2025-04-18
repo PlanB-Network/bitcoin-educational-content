@@ -20,7 +20,7 @@ Dalla barra di ricerca di Telegram, cercare "satsmobi" e comparirà il link al [
 
 ![image](assets/it/01.webp)
 
-Tutto quello che serve per avviarlo, è premere _START_
+Tutto quello che serve per avviarlo, è premere _START_.
 
 ![image](assets/it/02.webp)
 

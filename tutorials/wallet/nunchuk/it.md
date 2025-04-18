@@ -258,7 +258,7 @@ La successiva schermata è il riepilogo completo della transazione. Se è tutto 
 
 ![image](assets/en/49.webp)
 
-Con _Pending signatures_ Nunchuk ti avvisa che la transazionep è in attesa della firma per approvare la spesa, che si appone cliccando _Sign_.
+Con _Pending signatures_ Nunchuk ti avvisa che la transazione è in attesa della firma per approvare la spesa, che si appone cliccando _Sign_.
 
 ![image](assets/en/50.webp)
 

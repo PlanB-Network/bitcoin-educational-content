@@ -12,11 +12,11 @@ Per gli scopi del corso [BTC105 - Trovarsi Ora](https://planb.network/it/courses
 
 **Ricordate sempre**: _not your keys, not your coins_
 
-I wallet custodial, non consentono agli utenti di disporre completamente dei propri fondi. Sono normalmente sconsigliati, se non per chi inizia da zero. WoS deve essere utilizzato come wallet di passaggio o per conservare la pocket money, non per accumulare fondi a lungo termine.
+I wallet custodial, non consentono agli utenti di disporre completamente dei propri fondi. Sono normalmente sconsigliati, se non per chi inizia da zero. Wallet of Satoshi (WoS) deve essere utilizzato come wallet di passaggio o per conservare la pocket money, non per accumulare fondi a lungo termine.
 
 ---
 
-Wallet of Satoshi (WoS) è un prodotto custodial, che ha però una certa reputazione. Possiamo ragionevolmente rivolgerci ad uno strumento come WoS, ad esempio per aumentare la nostra capacità di ricevere liquidità. Deleghiamo temporaneamente a WoS “il lavoro sporco” di gestire la liquidità dei canali per noi. Una volta raggiunto un certo importo, svuoteremo WoS on-chain sul nostro wallet non-custodial.
+Wallet of Satoshi è un prodotto custodial, che ha però una certa reputazione. Possiamo ragionevolmente rivolgerci ad uno strumento come WoS, ad esempio per aumentare la nostra capacità di ricevere liquidità. Deleghiamo temporaneamente a WoS “il lavoro sporco” di gestire la liquidità dei canali per noi. Una volta raggiunto un certo importo, svuoteremo WoS on-chain sul nostro wallet non-custodial.
 
 **ATTENZIONE⚠️: Si consiglia di leggere il tutorial nella sua completezza, prima di procedere**
 
@@ -46,7 +46,7 @@ Essendo WoS uno strumento custodial, non possiamo fare il back up del wallet con
 
 ![image](assets/it/07.webp)
 
-Appare la finestra nella quale ci viene chiesto di inserire un indirizzo email. Può essere **una mail di Proton** (consigliata), comunque funzionante, perché è quella che ci permetterà di recuperare i fondi del wallet, in caso di smarrimento/furto o rottura del cellulare
+Appare la finestra nella quale ci viene chiesto di inserire un indirizzo email. Può essere **una mail di Proton** (consigliata), comunque funzionante, perché è quella che ci permetterà di recuperare i fondi del wallet, in caso di smarrimento/furto o rottura del cellulare.
 
 ![image](assets/it/08.webp)
 
@@ -54,7 +54,7 @@ Wallet of Satoshi ha inviato un messaggio nella casella email segnalata
 
 ![image](assets/it/09.webp)
 
-Nella casella di posta troveremo due parole, le dobbiamo inserire, riscrivendole, nello spazio che ci presenta l’app
+Nella casella di posta troveremo due parole che dobbiamo riscrivere nello spazio che ci presenta l’app:
 - **non attivare il traduttore: le parole sono e devono rimanere in inglese**
 - **riscrivere le due parole facendo attenzione a maiuscole/minuscole**
 
@@ -78,7 +78,7 @@ Per ricevere su WoS cliccare _Receive_ ed appaiono una serie di comandi.
 
 ![image](assets/it/14.webp)
 
-Si può ricevere
+Si può ricevere:
 - via LN-Address **a**
 - via LN, impostando l'invoice **b**
 - on chain (WoS supporta la rete Bitcoin ma con dei submarine swap a pagamento) **c**

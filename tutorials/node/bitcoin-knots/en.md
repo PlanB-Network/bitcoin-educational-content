@@ -71,11 +71,11 @@ In the "*Main*" tab, you access the node's main parameters:
 - "*Start...*" automatically launches the node when your computer starts up to begin synchronization immediately;
 - "*Prune...*" adjusts the storage limit if you have chosen to prune the Blockchain ;
 - "*Database cache...*" sets the maximum amount of RAM allowed to your node;
-- Finally, activate "*Enable RPC server*" if you wish to connect your Bitcoin Knots node to other portfolio software, such as Sparrow Wallet or Liana for example.
+- Finally, activate "*Enable RPC server*" if you wish to connect your Bitcoin Knots node to other wallet software, such as Sparrow Wallet or Liana for example.
 
 ![Image](assets/fr/09.webp)
 
-In the "*Wallet*" tab, you'll find the settings for the integrated portfolio you can create later on Knots. I recommend that you activate RBF and coin control. You can also define the type of script to be used.
+In the "*Wallet*" tab, you'll find the settings for the integrated wallet you can create later on Knots. I recommend that you activate RBF and coin control. You can also define the type of script to be used.
 
 ![Image](assets/fr/10.webp)
 
@@ -103,7 +103,7 @@ Finally, the "*Display*" tab concerns parameters relating to the Interface graph
 
 ![Image](assets/fr/15.webp)
 
-## Creating a Bitcoin portfolio
+## Creating a Bitcoin wallet
 
 Once the initial synchronization is complete, your Bitcoin Knots node is fully functional. You now have the option of connecting this node to other wallet software, or using the built-in hot wallet directly. To do so, click on the "*Create a new Wallet*" button.
 
@@ -120,11 +120,11 @@ If you have activated the passphrase option, choose a robust one and save it car
 
 ![Image](assets/fr/18.webp)
 
-Your Bitcoin portfolio is now created.
+Your Bitcoin wallet is now created.
 
 ![Image](assets/fr/19.webp)
 
-## Backing up your Bitcoin portfolio
+## Backing up your Bitcoin wallet
 
 Even before you receive your first bitcoins, it's essential to make a backup of your Bitcoin wallet so that you can recover your funds in the event of loss or computer failure. To do this, click on the "*File*" tab and then on "*Backup Wallet*".
 
@@ -190,9 +190,9 @@ Your transaction awaiting confirmation now appears in the "*Transactions*" tab.
 
 ## Connecting your node to another program
 
-Bitcoin Knots' integrated Interface for managing your Bitcoin portfolio is not necessarily the most intuitive, and its functionality remains relatively limited. However, you can connect your Bitcoin Knots node to specialized portfolio management software to easily access Blockchain Bitcoin data and broadcast your transactions.
+Bitcoin Knots' integrated Interface for managing your Bitcoin wallet is not necessarily the most intuitive, and its functionality remains relatively limited. However, you can connect your Bitcoin Knots node to specialized wallet management software to easily access Blockchain Bitcoin data and broadcast your transactions.
 
-The procedure will depend on the software used, but there are two main scenarios: either Bitcoin Knots is installed on the same computer as your portfolio software, or it runs on a separate machine.
+The procedure will depend on the software used, but there are two main scenarios: either Bitcoin Knots is installed on the same computer as your wallet software, or it runs on a separate machine.
 
 ### With local Bitcoin Knots :
 
@@ -210,7 +210,7 @@ Don't forget to restart the software after making these changes.
 
 ![Image](assets/fr/34.webp)
 
-Then go to your portfolio management software (e.g. Sparrow Wallet or Liana) and enter the path to your cookie file, usually located in the same folder as the `Bitcoin.conf`, depending on your operating system:
+Then go to your wallet management software (e.g. Sparrow Wallet or Liana) and enter the path to your cookie file, usually located in the same folder as the `Bitcoin.conf`, depending on your operating system:
 
 |**macOS**|~/Library/Application Support/Bitcoin|
 
@@ -273,7 +273,7 @@ rpcpassword=my_password
 
 After modifying and saving the file, restart Bitcoin Knots.
 
-You can now go to your portfolio management software (e.g. Sparrow Wallet or Liana). On Sparrow, go to the "*User / Pass*" tab. Enter the username and password you have configured in the `Bitcoin.conf` file. Leave the other parameters as default, i.e. URL `127.0.0.1` and port `8332`. Then click on "*Test Connection*".
+You can now go to your wallet management software (e.g. Sparrow Wallet or Liana). On Sparrow, go to the "*User / Pass*" tab. Enter the username and password you have configured in the `Bitcoin.conf` file. Leave the other parameters as default, i.e. URL `127.0.0.1` and port `8332`. Then click on "*Test Connection*".
 
 ![Image](assets/fr/40.webp)
 

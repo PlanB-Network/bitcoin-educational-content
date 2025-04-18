@@ -1,0 +1,13 @@
+question: Pesa ina nafasi gani katika uratibu wa baina ya wakati wa utendaji wa mwanadamu?
+answer: Inaruhusu uhifadhi wa thamani katika sasa na uhamisho wake kwa ubinafsi wa mtu wa baadaye.
+wrong_answers:
+  - Inaruhusu uhifadhi wa thamani katika siku zijazo na uhamishaji wake kwa ubinafsi wa sasa wa mtu.
+  - Inaruhusu uhifadhi wa thamani katika sasa na uhamisho wake kwa watu wengine.
+  - Inaruhusu uhifadhi wa thamani katika siku zijazo na uhamisho wake kwa watu wengine.
+explanation: |
+  Kwa kuhifadhi fedha, yaani, kuokoa, watu binafsi hulinda
+  kutokuwa na uhakika wa siku zijazo na hivyo kujiwezesha kuelekeza
+  matendo yao kuelekea upeo wa muda mrefu zaidi. Hata hivyo, wao
+  inaweza tu kufikia hili ikiwa pesa iliyotumiwa inajumuisha duka
+  ya thamani.
+reviewed: true

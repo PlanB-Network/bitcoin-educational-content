@@ -1,0 +1,8 @@
+question: Jaki jest cel basenów Mining?
+answer: Pule Mining pozwalają górnikom łączyć swoje zasoby obliczeniowe i otrzymywać mniejsze, ale bardziej regularne nagrody.
+wrong_answers:
+  - Pule Mining są wykorzystywane do zwiększenia Hashrate całej sieci Bitcoin.
+  - Pule Mining są używane w celu zmniejszenia trudności Mining.
+  - Pule Mining są wykorzystywane do zwiększenia nagrody za Mining.
+explanation: >-
+reviewed: true

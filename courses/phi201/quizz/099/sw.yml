@@ -1,0 +1,9 @@
+question: Ni hali gani ya lazima kwa ukombozi wa kweli kulingana na Marx?
+answer: Utekelezaji wa mapinduzi ya kiuchumi na kijamii yanayoondoa ubepari.
+wrong_answers:
+  - Kuanzishwa kwa hali isiyo na upendeleo na isiyo na upande.
+  - Kuondolewa kwa dini na udanganyifu wake.
+  - Uharibifu wa McDonald's.
+explanation: |
+  Kwa Marx, ukombozi wa kweli unahitaji mageuzi makubwa ya miundo ya kiuchumi na kijamii kupitia mapinduzi, ili kukomesha unyonyaji wa kibepari na kuanzisha jamii isiyo na matabaka.
+reviewed: false

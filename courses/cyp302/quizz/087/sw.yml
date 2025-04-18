@@ -1,0 +1,9 @@
+question: Ni njia gani ya block cipher hutumia vekta ya uanzishaji na kuunda usimbuaji wa uwezekano?
+answer: CBC (Cipher Block Chaining)
+wrong_answers:
+  - ECB (Kitabu cha Msimbo wa Kielektroniki)
+  - AES-128
+  - SHA-256
+explanation: |
+  Mbinu ya CBC hutumia vekta ya uanzishaji na hutumia XOR kati ya kila kizuizi cha maandishi wazi na kizuizi cha awali kilichosimbwa, na kufanya usimbaji fiche kuwa wa uwezekano na salama zaidi kuliko ECB.
+reviewed: false

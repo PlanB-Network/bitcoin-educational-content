@@ -1,0 +1,57 @@
+# generate a random uuid v4
+id: d0670bd1-5326-4551-8c3f-ddcef5af490c
+
+## Community Project Characteristic
+
+# Complete name of the project
+name: Community Project Complete name
+
+# Define Project category
+# Can only be communities
+category: communities
+
+# Define Builder address
+# line 1 for more precise, name of the place
+address_city_country: PBN HQ
+# line 2 for the steet name
+address_line_2: 21st Satoshi's Place
+# line 3 for the City, Country
+address_line_3: CyberTown, CyberSpace
+
+# Community Language
+# Define the spoken language of the community
+# format: use code langugage (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)
+language:
+  - en
+  - es
+
+# links
+# list releated online presence like twitter and/or website
+links:
+  website: https://planb.network
+  twitter:
+  Github: https://github.com/DecouvreBitcoin/sovereign-university-data
+  youtube: https://www.youtube.com/@PlanBNetwork
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: YYYY-MM-DD
+    urgency: # leave as empty
+    contributor_names:
+      - author_github_username #insert your github username
+    reward: # leave as empty
+
+# Tags
+# Choose from the list the associated tags to this content
+# The list of tags is composed of 51 items that can be found here (bitcoin-education-content/docs/50-planb-tags.md)
+tags:
+  - finance
+  - education
+
+# Contributor section
+# List all the contributors who help format, review and translate the content.
+# They are identified by their Github usernames
+contributor_names:
+  - author1_github_username #insert your github username

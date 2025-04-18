@@ -1,0 +1,9 @@
+question: 以下哪項不是所提及的獲取 Bitcoin 的三種主要方法之一？
+answer: 獲得 Bitcoin 作為企業發展的政府補助金。
+wrong_answers:
+  - 以 Exchange 取得 Bitcoin 的商品或服務。
+  - Mining Bitcoin 透過專門的硬體和能源使用。
+  - 從平台或經紀人處購買 Bitcoin。
+explanation: |
+  本章提到獲取 Bitcoin 的三種主要方式：接受付款、開採或購買。以政府補助金的方式接受 Bitcoin 並不是公認的標準取得方式。
+reviewed: false

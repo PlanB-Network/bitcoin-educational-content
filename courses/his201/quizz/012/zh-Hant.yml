@@ -1,0 +1,9 @@
+question: 分散式網路中的共識問題的名稱是什麼？
+answer: 拜占庭將軍問題
+wrong_answers:
+  - 羅馬百夫長問題
+  - 阿爾巴尼亞上校問題
+  - 日本大正問題
+explanation: |
+  選擇這個問題的名稱（由 Lamport、Shostak 和 Pease 於 1982 年正式定名）是為了避免冒犯讀者，因為從來沒有人自稱是拜占庭人。
+reviewed: false

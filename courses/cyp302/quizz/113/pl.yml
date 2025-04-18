@@ -1,0 +1,9 @@
+question: Jaka jest rola tablicy K w szyfrowaniu RC4?
+answer: Inicjalizuje i przekształca tablicę S do generate strumienia klucza
+wrong_answers:
+  - Szyfruje bezpośrednio tekst jawny
+  - Przechowuje zaszyfrowany tekst
+  - Służy jedynie jako tymczasowe miejsce przechowywania danych do końca procesu
+explanation: |
+  Tablica K jest używana do przekształcania tablicy S w procesie planowania klucza, co pozwala na generowanie pseudolosowego strumienia klucza do szyfrowania tekstu jawnego.
+reviewed: false

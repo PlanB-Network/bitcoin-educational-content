@@ -1,0 +1,8 @@
+question: Czym jest przycięty węzeł w kontekście Bitcoin?
+answer: Węzeł, który przechowuje w pamięci tylko N ostatnich bloków.
+wrong_answers:
+  - Węzeł, który tylko zatwierdza transakcje.
+  - Węzeł, który przesyła informacje tylko do innych węzłów.
+  - Węzeł, który egzekwuje tylko zasady protokołu Bitcoin.
+explanation: >-
+reviewed: true

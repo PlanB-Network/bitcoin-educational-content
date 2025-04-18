@@ -1,0 +1,9 @@
+question: 路由費在 Lightning Network 中扮演什麼角色？
+answer: 激勵中介節點為轉移支付提供其流動性
+wrong_answers:
+  - 要限制網路中的交易數量
+  - 確保每個通路都有足夠的資金
+  - 要自動計算最短路徑
+explanation: |
+  路由費是用來補償中介節點的，這些節點透過提供其流動資金來中繼付款，以實現整個網路的資金轉移。
+reviewed: false

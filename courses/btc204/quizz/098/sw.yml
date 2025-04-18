@@ -1,0 +1,10 @@
+question: Je, kutokujulikana kwa mbele kunapima nini?
+answer: Upinzani wa faragha dhidi ya uchanganuzi wa zamani hadi sasa.
+wrong_answers:
+  - Upinzani wa faragha dhidi ya uchanganuzi wa sasa hadi wa zamani.
+  - Upinzani wa faragha dhidi ya uchanganuzi wa siku zijazo hadi sasa.
+  - Upinzani wa faragha dhidi ya uchanganuzi wa siku zijazo hadi zilizopita.
+explanation: |
+  Sambaza kutokujulikana hupima ukinzani wa ufaragha wa sarafu dhidi ya uchanganuzi wa sasa hadi wa sasa (ingizo kwenye pato).
+  
+reviewed: false

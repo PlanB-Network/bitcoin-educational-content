@@ -1,0 +1,9 @@
+question: Ni nini nadharia kuu ya Voltaire kuhusu uhusiano kati ya biashara na uvumilivu wa kidini?
+answer: Biashara huhimiza watu kushirikiana na kuheshimu maoni ya kila mmoja wao, ikiwa ni pamoja na imani zao za kidini, kupitia ufuatiliaji wa pamoja wa faida.
+wrong_answers:
+  - Biashara huunganisha watu kupitia mtazamo wa ulimwengu ulioshirikiwa kulingana na mbinu ya kisayansi.
+  - Biashara inakuza anasa na uvivu.
+  - Majibu mengine yote ni sahihi.
+explanation: |
+  Voltaire anasema kuwa biashara inakuza uvumilivu wa kidini kwa kuwahimiza watu binafsi wa imani tofauti kushirikiana na kuheshimu maoni yao katika kutafuta maslahi ya pamoja ya kiuchumi.
+reviewed: false

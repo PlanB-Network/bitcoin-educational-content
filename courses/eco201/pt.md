@@ -16,28 +16,36 @@ Essa escola de pensamento já tem vários séculos de história e conta com uma 
 
 +++
 
-# Introdução à ECON
+# Introdução
 
 <partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>
 
-## Introdução
+## Visão Geral do Curso
 
 <chapterId>eae3de7b-cce6-516d-83d9-28fbd582c0ca</chapterId>
 
-Olá a todos e bem-vindos ao Econ 201: Introdução à Economia Austríaca.
+Bem-vindo ao curso ECO201!
 
-Neste curso oferecido por Théo Mogenet, você descobrirá essa vertente da economia que difere bastante da doutrina keynesiana. Até agora, você pode ter aprendido que a produção e a gestão do dinheiro eram responsabilidade dos bancos centrais, com a ideia de que a impressão e o gasto monetário promovem o crescimento. No entanto, existe outra escola de pensamento econômico: a economia austríaca. Com mais de 200 anos de pesquisa e desenvolvimento, reflexões filosóficas e escritos de autores renomados, essa abordagem enfatiza uma visão mais sóbria do crescimento e da racionalidade humana em nossa economia.
+Neste curso, apresentado por Théo Mogenet, você descobrirá uma escola de pensamento econômico que se diferencia fundamentalmente da doutrina keynesiana predominante. Até agora, você pode ter aprendido que a gestão da moeda e a política econômica são principalmente responsabilidades dos bancos centrais, com a ideia de que a impressão de dinheiro e os gastos públicos estimulam o crescimento econômico. No entanto, existe uma abordagem alternativa mais coerente: **A Escola Austríaca de Economia**.
 
-Na realidade, a economia é um campo extremamente social e complexo, composto por uma infinidade de pequenos atores interconectados que, juntos, contribuem para formar um todo coerente. Em vez de abordar essa disciplina por meio de equações matemáticas, devemos entendê-la a partir da perspectiva da lógica humana e da sociologia. Neste curso, exploraremos os conceitos fundamentais da economia austríaca. Seu instrutor, Théo Mogenet, é um professor apaixonado e competente de economia austríaca.
+Com mais de dois séculos de pesquisa, reflexões filosóficas e escritos de autores renomados como Carl Menger, Ludwig von Mises e Friedrich Hayek, esta escola de pensamento adota uma perspectiva diferente, favorecendo uma visão descentralizada da economia, baseada no indivíduo e na racionalidade humana.
 
-Para começar, oferecemos a você um vídeo bônus que explicará como funciona nosso sistema financeiro atual. Você descobrirá como os bancos comerciais e os bancos centrais interagem e impulsionam a economia. Abordaremos os principais atores do nosso mundo financeiro e como essa centralização de poder entre certas instituições econômicas pode levar a abusos e crises financeiras.
+A economia é, na realidade, um campo profundamente social e complexo, composto por diversos atores independentes que interagem livremente para formar um todo coerente. Para entender esse sistema dinâmico, a Escola Austríaca privilegia a análise qualitativa, baseada na lógica humana, na sociologia e no estudo dos processos de mercado, ao invés de equações matemáticas rígidas.
 
-Na segunda parte deste curso, examinaremos a diferença entre o Keynesianismo e a economia austríaca, explorando suas respectivas escolas de pensamento, métodos de reflexão e ferramentas que utilizam para estabelecer a verdade econômica. Também estudaremos a formação das crises econômicas. Elas são causadas pela incompetência humana, manipulação de mercado ou euforia coletiva das pessoas? Exploraremos como nossos ciclos de crescimento, declínio, recessão e idade de ouro são criados pelas emoções humanas.
+Neste curso, você explorará os princípios fundamentais dessa escola de pensamento. Théo Mogenet, seu instrutor, é um entusiasta dessa abordagem econômica e o guiará pedagogicamente pelos conceitos-chave da Escola Austríaca, mostrando como essas ideias se aplicam particularmente bem ao mundo do Bitcoin.
 
-Este curso será uma combinação de economia e filosofia, com uma discussão aberta entre Théo e eu. Se você tiver alguma dúvida durante este curso, não hesite em fazê-la em nosso Discord, cujo link você encontrará na descrição.
+**Seção 1: Introdução à ECON**  
+Começaremos com uma introdução geral à Escola Austríaca de Economia, explorando suas origens históricas e os fundamentos de seu pensamento. Esta seção também aborda conceitos essenciais como dinheiro, crédito, bancos e bancos centrais. Você entenderá por que essas instituições desempenham um papel central no pensamento austríaco, especialmente em sua crítica às intervenções monetárias.
 
-Agradeço calorosamente a Théo por produzir este curso e espero que ele seja um excelente professor para você. Nos divertimos muito criando este conteúdo. Este curso é acessível a todos e será, eu acredito, essencial para acompanhar nossos futuros cursos mais aprofundados sobre economia. Este curso estabelecerá as bases necessárias para explorar certas teorias econômicas com mais detalhes, que abordaremos apenas brevemente aqui.
-Se você está pronto para embarcar nessa aventura, convido você a clicar no seguinte vídeo e começar com o vídeo bônus sobre nosso sistema financeiro atual. Agora, dou a palavra ao Théo. Agradeço a ele por colaborar com o Descoupes Bitcoin na realização deste vídeo. Até breve. Adeus!
+**Seção 2: Fundamentos Teóricos**  
+Esta seção aprofundará os conceitos fundamentais da Escola Austríaca, como a teoria subjetiva do valor, que explica por que o valor de um bem não é objetivo, mas depende da utilidade percebida por cada indivíduo. Você também descobrirá como o dinheiro surge naturalmente como um fenômeno social, além dos conceitos de preferência temporal, juros e capital que estão no centro da teoria de livre mercado austríaca.
+
+**Seção 3: Perspectivas Econômicas Austríacas**  
+Aqui, exploraremos as aplicações práticas da teoria austríaca. Você aprenderá em detalhes sobre a Teoria Austríaca do Ciclo Econômico, que explica como as manipulações monetárias criam booms artificiais seguidos de recessões. Também veremos por que o cálculo econômico é impossível em um sistema socialista e como a metodologia austríaca, baseada na praxeologia (o estudo da ação humana), constitui uma abordagem única e coerente para compreender os fenômenos econômicos.
+
+Este curso é uma fusão entre economia e filosofia, conduzido por uma discussão aberta entre Théo e eu (Rogzy). Gostaria de agradecer calorosamente a Théo Mogenet pela criação deste curso. Tivemos muito prazer em desenvolver este conteúdo, que foi projetado para ser acessível a todos. Este curso constitui uma introdução essencial e lançará as bases para nossos futuros módulos mais avançados sobre economia.
+
+E se a chave para entender a economia atual estiver em uma teoria de vários séculos? Vamos descobrir juntos!
 
 ## Dinheiro, Crédito, Bancos e Bancos Centrais
 
@@ -531,7 +539,7 @@ Um exemplo de diferença metodológica é a posição dos defensores da Teoria M
 
 A metodologia é um aspecto essencial na economia e nas ciências sociais em geral. Ela influencia como as perguntas são feitas, as hipóteses são formuladas e os dados são interpretados. Compreender as diferenças metodológicas entre as escolas de pensamento econômico pode nos ajudar a apreciar perspectivas diversas e desenvolver nossas próprias opiniões sobre os tópicos discutidos nos episódios anteriores.
 
-# Conclusão
+# Seção final
 
 <partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
 

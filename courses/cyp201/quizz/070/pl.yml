@@ -1,0 +1,9 @@
+question: Co oznacza głębokość 0 w hierarchii portfeli HD?
+answer: Klucz główny i kod łańcucha głównego
+wrong_answers:
+  - Zewnętrzny łańcuch adresów
+  - Konto domyślne
+  - Rodzaj waluty
+explanation: |
+  Głębokość 0 odpowiada kluczowi głównemu i głównemu kodowi łańcucha, które są punktami początkowymi dla wszystkich pochodnych w HD Wallet.
+reviewed: false

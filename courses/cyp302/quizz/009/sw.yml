@@ -1,0 +1,9 @@
+question: Ni hatua gani ambayo haijajumuishwa katika uthibitisho wa usalama wa mpango wa kisasa wa kriptografia?
+answer: Kuanzisha mtumiaji Interface
+wrong_answers:
+  - Kuelezea ufafanuzi wa usalama
+  - Mawazo ya utata wa hisabati
+  - Maonyesho ya hisabati ya usalama
+explanation: |
+  Uthibitisho wa usalama katika usimbaji fiche wa kisasa huangazia malengo na mawazo ya kihisabati, bila kujumuisha vipengele kama vile mtumiaji Interface, ambavyo havihusiani na usalama wa kriptografia.
+reviewed: false

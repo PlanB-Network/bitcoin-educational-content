@@ -1,0 +1,9 @@
+question: W przypadku płatności w kanale RGB, co dzieje się z wyjściami RGB w transakcjach Commitment?
+answer: Są one aktualizowane w celu odzwierciedlenia redystrybucji aktywów wśród uczestników
+wrong_answers:
+  - Pozostają one niezmienione, aby zachować początkową historię do momentu zamknięcia kanału
+  - Są one usuwane i zastępowane nowymi multi-sig
+  - Są one konwertowane na klasyczne Bitcoin UTXO
+explanation: |
+  Po dokonaniu płatności RGB State Transition dostosowuje wyjścia RGB w celu redystrybucji aktywów zgodnie z nowym bilansem kanałów.
+reviewed: false

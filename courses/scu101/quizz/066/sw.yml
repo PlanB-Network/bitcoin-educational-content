@@ -1,0 +1,14 @@
+question: Je, ni faida gani za kutumia Vifunguo vya siri kama njia mbadala ya nywila za jadi?
+answer: Wanatoa funguo za nasibu zilizosimbwa kwa njia fiche pamoja na kipengele cha ndani, ambacho hupangishwa na mtoa huduma lakini hubaki nje ya kuzifikia.
+wrong_answers:
+  - Ni rahisi kukumbuka kuliko nywila za kawaida.
+  - Hazihitaji vipengele vyovyote vya ziada vya uthibitishaji.
+  - Wanaweza kutumika kwenye tovuti zote bila masasisho yoyote.
+explanation: |
+  Vifunguo vya siri hutoa funguo za nasibu zilizosimbwa kwa njia fiche, zikiunganishwa na za ndani
+  kipengele (bayometriki au PIN), ambazo hupangishwa na mtoa huduma
+  lakini kubaki nje ya uwezo wao. Mbinu hii inaondoa
+  haja ya nywila, hivyo kutoa kiwango cha juu cha usalama
+  bila vikwazo vinavyohusishwa na jadi
+  nywila.
+reviewed: true

@@ -1,0 +1,8 @@
+question: Bitcoin Pay ya Uswisi ni nini?
+answer: Suluhisho kwa wauzaji mahiri kukubali Bitcoin.
+wrong_answers:
+  - Benki ya Uswizi inayokubali Bitcoin.
+  - Bitcoin Exchange kutoka Uswizi.
+  - Kampuni ya Mining inayofanya kazi nchini Uswizi.
+explanation: >-
+reviewed: true

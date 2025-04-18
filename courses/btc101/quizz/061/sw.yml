@@ -1,0 +1,11 @@
+question: Jina la tukio ni nini wakati zawadi ya Mining inapunguzwa kwa nusu?
+answer: Halving
+wrong_answers:
+  - Kuongezeka maradufu
+  - Robo
+  - Kupanda mara tatu
+explanation: |
+  Tukio wakati malipo ya Mining yamepunguzwa nusu inaitwa
+  Halving. Tukio hili linatoa mkondo wa utoaji wa fedha a
+  umbo la ngazi.
+reviewed: true

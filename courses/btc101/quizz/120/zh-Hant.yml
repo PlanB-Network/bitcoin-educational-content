@@ -1,0 +1,11 @@
+question: 第一次使用 Bitcoin 購買實體商品是何時？
+answer: 當 Laszlo Hanyecz 用 10,000 BTC 買了 2 個披薩。
+wrong_answers:
+  - 當 Hal Finney 用 100,000 BTC 買了一輛車。
+  - 當 Satoshi Nakamoto 用 1,000,000,000 BTC 買了一棟房子。
+  - 其他選項都沒有。
+explanation: |
+  第一次使用 Bitcoin 購買實物時，Laszlo Hanyecz 用 10,000 美元買了兩個披薩。
+  商品是 Laszlo Hanyecz 用 10,000
+  BTC, 在 2010/05/22, 也就是現在的披薩日
+reviewed: true

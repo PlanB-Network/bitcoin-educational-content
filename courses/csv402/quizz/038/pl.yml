@@ -1,0 +1,9 @@
+question: Które pole w pliku YAML używanym do wydania zasobu definiuje całkowitą liczbę wydanych tokenów?
+answer: issuedSupply
+wrong_answers:
+  - assetOwner
+  - spec
+  - kwota
+explanation: |
+  Pole "issuedSupply" w pliku YAML określa całkowitą ilość tokenów wydanych dla Contract.
+reviewed: false

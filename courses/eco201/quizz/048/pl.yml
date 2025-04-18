@@ -1,0 +1,12 @@
+question: Czym jest metoda aksjomatyczno-dedukcyjna zaproponowana przez Ludwiga von Misesa w naukach społecznych?
+answer: Podejście to opiera się na podstawowych propozycjach zwanych aksjomatami, podobnych do tych stosowanych w matematyce.
+wrong_answers:
+  - Podejście to opiera się na danych empirycznych i obserwacjach.
+  - Podejście to opiera się na tymczasowych eksperymentach i hipotezach.
+  - Podejście to opiera się na pozytywistycznym podejściu często stosowanym w naukach społecznych.
+explanation: |
+  Eksperymentów ekonomicznych nie da się odtworzyć w laboratorium i należy zauważyć, że
+  że zaobserwowanie korelacji między dwiema zmiennymi nie dowodzi związku przyczynowo-skutkowego między nimi
+  związku przyczynowego między nimi. Jest to powód, dla którego Ludwig von Mises zaproponował metodę aksjomatyczno-dedukcyjną
+  metodę aksjomatyczno-dedukcyjną.
+reviewed: true

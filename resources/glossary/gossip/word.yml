@@ -1,6 +1,6 @@
-id: dfa4cd89-c5cb-40ab-afe1-757a417ffe1b
+id: c9d05856-fb9c-4d98-b648-e167befa6160
 en_word: GOSSIP
-related_words: []
+related_words: 
 original_language: fr
 proofreading:
   - language: en
@@ -9,7 +9,7 @@ proofreading:
     contributor_names:
     reward: 0.18
   - language: fr
-    last_contribution_date: 2024-07-26
+    last_contribution_date: 2025-03-04
     urgency: 1
     contributor_names:
       - LoicPandul

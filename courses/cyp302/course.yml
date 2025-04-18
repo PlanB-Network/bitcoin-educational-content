@@ -53,10 +53,11 @@ proofreading:
     reward: 134.4
 
   - language: fr
-    last_contribution_date:
+    last_contribution_date: 2025-03-25
     urgency: 1
     contributor_names:
-    reward: 100.82
+      - LoicPandul
+    reward: 0
 
   - language: id
     last_contribution_date:

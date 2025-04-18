@@ -1,0 +1,10 @@
+question: 在硬幣交換中使用什麼加密方法可以確保 Exchange 的安全性而不需要信任？
+answer: 適配器簽名
+wrong_answers:
+  - 對稱加密
+  - ECDH
+  - 非對稱加密
+explanation: |
+  要執行換幣，可以使用 HTLC 或 PTLC。這兩種協定的運作方式類似，都使用時間鎖系統，確保 Exchange 成功完成或完全取消，從而保護雙方資金的完整性。HTLCs 和 PTLCs 的主要差異在於 HTLCs 使用哈希值和預先影像來確保交易安全，而 PTLCs 則使用 Adaptor Signatures。
+  
+reviewed: false

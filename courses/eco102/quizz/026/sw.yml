@@ -1,0 +1,9 @@
+question: Je, Cobden alifafanuaje ukiritimba wa mkate?
+answer: Kama uhaba wa mkate
+wrong_answers:
+  - Kama upendeleo wa kifalme
+  - Kama ushuru wa mkate
+  - Kama udhibiti wa bei
+explanation: |
+  Cobden alitumia neno hili kukashifu sheria za kulinda, akidai kuwa zinapunguza ufikiaji wa mkate kwa kuongeza bei yake kiholela.
+reviewed: false

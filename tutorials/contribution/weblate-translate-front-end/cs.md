@@ -14,7 +14,7 @@ V tomto návodu vám ukážeme, jak snadno přispět k překladu statických prv
 
 K překladu vzdělávacího obsahu používáme [umělou inteligenci](https://github.com/Asi0Flammeus/LLM-Translator). K opravě případných chyb v těchto souborech pak vyzýváme korektory, aby přispěli. Pokud chcete provést korekturu některého obsahu, nahlédněte do následujícího návodu:
 
-https://planb.network/tutorials/contribution/content/content-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
 Na druhou stranu, pokud máte zájem o překlad statických prvků webových stránek (kromě vzdělávacího obsahu), jste na správném místě! K efektivnímu překladu frontendu používáme nástroj Weblate, který je velmi jednoduchý na používání a usnadňuje přístup k překladu.
 
 Pokud chcete do sítě Plan ₿ Network přidat zcela nový jazyk, kontaktujte tým Plan ₿ Network prostřednictvím naší [telegramové skupiny](https://t.me/PlanBNetwork_ContentBuilder). Pokud telegram nemáte, můžete poslat e-mail na adresu mari@planb.network. Nezapomeňte napsat malou prezentaci o tom, kdo jste a jaké jazyky ovládáte.

@@ -1,0 +1,9 @@
+question: ArtForz 在 2010 年 7 月 28 日報告的漏洞，允許使用特定腳本從任何 Address 花費比特幣？
+answer: 1 RETURN bug
+wrong_answers:
+  - 值溢出錯誤
+  - OP_NOP bug
+  - LSHIFT bug
+explanation: |
+  該漏洞未被利用。Satoshi 迅速在軟體中加入修補程式，並建議所有使用者升級。
+reviewed: false

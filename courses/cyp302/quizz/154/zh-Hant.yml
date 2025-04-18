@@ -1,0 +1,9 @@
+question: 在 RSA 密碼系統中，為什麼很難找到 d 的值？
+answer: 因為它需要知道φ(N)，而φ(N)取決於 N 的素因子。
+wrong_answers:
+  - 因為 d 是隨機數
+  - 因為 d 大於 N
+  - 因為 d 的計算與φ(N) 無關
+explanation: |
+  尋找 d 是很困難的，因為它依賴於φ(N) 的知識，而φ(N) 又依賴於 N 的素因子 p 和 q 的值。
+reviewed: false

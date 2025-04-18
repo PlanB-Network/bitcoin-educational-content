@@ -1,0 +1,9 @@
+question: Jaka luka zgłoszona przez ArtForz 28 lipca 2010 r. umożliwiała wydawanie bitcoinów z dowolnego Address przy użyciu określonego skryptu?
+answer: Błąd 1 RETURN
+wrong_answers:
+  - Błąd przepełnienia wartości
+  - Błąd OP_NOP
+  - Błąd LSHIFT
+explanation: |
+  Usterka nie została wykorzystana. Satoshi szybko wprowadziło poprawkę do oprogramowania i zaleciło wszystkim użytkownikom aktualizację.
+reviewed: false

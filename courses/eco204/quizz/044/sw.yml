@@ -1,0 +1,11 @@
+question: Kiwango cha mfumuko wa bei nchini Bolivia mwaka wa 1985 kilikuwa kipi?
+answer: 11,749%
+wrong_answers:
+  - 12,800%
+  - 10,000%
+  - 15,000%
+explanation: |
+  Mwaka 1985, mfumuko wa bei wa Bolivia kwa mwaka ulifikia 11,749%, ikionyesha
+  kwamba karibu kila mwezi, mfumuko wa bei ulikuwa karibu au ulizidi kizingiti cha mfumuko wa bei
+  ya 50%.'
+reviewed: false

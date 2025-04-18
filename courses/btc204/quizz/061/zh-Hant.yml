@@ -1,0 +1,10 @@
+question: Bitcoin Wallet 軟體中的硬幣控制選項有何作用？
+answer: 選擇要使用哪些 UTXO 作為交易的輸入。
+wrong_answers:
+  - 加密 UTXO，以加強 Wallet 的安全性。
+  - 偵測並封鎖來自可疑來源的 UTXO。
+  - 在 Wallet 中標示每個 UTXO。
+explanation: |
+  硬幣控制是 Bitcoin Wallet 軟體中的一項功能，可讓您在進行交易時，手動選擇特定的 UTXO 作為輸入。
+  
+reviewed: false

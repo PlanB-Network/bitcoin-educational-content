@@ -16,28 +16,36 @@ Sekolah pemikiran ini sudah memiliki beberapa abad di belakangnya dan memiliki p
 
 +++
 
-# Pengantar EKON
+# Pendahuluan
 
 <partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>
 
-## Pengantar
+## Gambaran Umum Kursus
 
 <chapterId>eae3de7b-cce6-516d-83d9-28fbd582c0ca</chapterId>
 
-Halo semua dan selamat datang di Econ 201: Pengantar Ekonomi Austria.
+Selamat datang di kursus ECO201!
 
-Dalam kursus yang ditawarkan oleh Théo Mogenet ini, Anda akan menemukan cabang ekonomi ini yang sangat berbeda dari doktrin Keynesian. Sampai sekarang, Anda mungkin telah belajar bahwa produksi dan pengelolaan uang adalah tanggung jawab bank sentral, dengan ide bahwa pencetakan uang dan pengeluaran mempromosikan pertumbuhan. Namun, ada sekolah pemikiran ekonomi lain: ekonomi Austria. Dengan lebih dari 200 tahun penelitian dan pengembangan, refleksi filosofis, dan tulisan oleh penulis terkenal, pendekatan ini menekankan visi pertumbuhan yang lebih sederhana dan rasionalitas manusia dalam ekonomi kita.
+Dalam kursus ini yang disajikan oleh Théo Mogenet, Anda akan menemukan sebuah aliran pemikiran ekonomi yang sangat berbeda dari doktrin Keynesian yang dominan. Sampai sekarang, Anda mungkin telah diajarkan bahwa pengelolaan uang dan kebijakan ekonomi sebagian besar berada di bawah kendali bank sentral, dengan gagasan bahwa pencetakan uang dan pengeluaran publik mendorong pertumbuhan ekonomi. Namun, ada pendekatan alternatif yang lebih koheren: **Ekonomi Austria**.
 
-Pada kenyataannya, ekonomi adalah bidang yang sangat sosial dan kompleks, terdiri dari miriade aktor kecil yang saling terhubung yang bersama-sama berkontribusi membentuk keseluruhan yang koheren. Daripada mendekati disiplin ini melalui persamaan matematika, kita harus memahaminya dari perspektif logika manusia dan sosiologi. Dalam kursus ini, kita akan menjelajahi konsep-konsep fundamental ekonomi Austria. Instruktur Anda, Théo Mogenet, adalah seorang profesor ekonomi Austria yang bersemangat dan kompeten.
+Dengan lebih dari dua abad penelitian, refleksi filosofis, dan tulisan-tulisan dari penulis terkemuka seperti Carl Menger, Ludwig von Mises, dan Friedrich Hayek, aliran pemikiran ini mengambil perspektif yang berbeda, mengutamakan pandangan terdesentralisasi tentang ekonomi, yang didasarkan pada individu dan rasionalitas manusia.
 
-Untuk memulai, kami menawarkan Anda video bonus yang akan menjelaskan bagaimana sistem keuangan kita saat ini bekerja. Anda akan menemukan bagaimana bank komersial dan bank sentral berinteraksi dan mendorong ekonomi. Kami akan membahas pemain utama di dunia keuangan kita dan bagaimana sentralisasi kekuasaan di antara lembaga ekonomi tertentu dapat menyebabkan penyalahgunaan dan krisis keuangan.
+Ekonomi, pada kenyataannya, adalah bidang yang sangat sosial dan kompleks, terdiri dari banyak aktor independen yang berinteraksi secara bebas untuk membentuk keseluruhan yang koheren. Untuk memahami sistem dinamis ini, Ekonomi Austria mengutamakan analisis kualitatif, yang didasarkan pada logika manusia, sosiologi, dan studi proses pasar, daripada persamaan matematika yang kaku.
 
-Dalam bagian kedua dari kursus ini, kita akan memeriksa perbedaan antara Keynesianisme dan ekonomi Austria, menjelajahi sekolah pemikiran mereka, metode refleksi, dan alat yang mereka gunakan untuk menetapkan kebenaran ekonomi. Kami juga akan mempelajari pembentukan krisis ekonomi. Apakah itu disebabkan oleh ketidakmampuan manusia, manipulasi pasar, atau euforia kolektif orang-orang? Kami akan menjelajahi bagaimana siklus pertumbuhan, penurunan, resesi, dan zaman keemasan kita diciptakan oleh emosi manusia.
+Dalam kursus ini, Anda akan mengeksplorasi prinsip-prinsip dasar dari aliran pemikiran ini. Théo Mogenet, instruktur Anda, adalah pendukung yang bersemangat dari pendekatan ekonomi ini dan akan membimbing Anda melalui konsep-konsep utama Ekonomi Austria, menunjukkan bagaimana ide-ide ini dapat diterapkan dengan baik di dunia Bitcoin.
 
-Kursus ini akan menjadi kombinasi ekonomi dan filsafat, dengan diskusi terbuka antara Théo dan saya. Jika Anda memiliki pertanyaan selama kursus ini, jangan ragu untuk bertanya di Discord kami, yang akan Anda temukan tautannya di deskripsi.
-Saya mengucapkan terima kasih yang tulus kepada Théo karena telah memproduksi kursus ini, dan saya berharap dia akan menjadi guru yang luar biasa bagi Anda. Kami sangat menikmati dalam menciptakan konten ini. Kursus ini dapat diakses oleh semua orang dan akan, menurut saya, menjadi penting untuk diikuti agar dapat mengikuti kursus kami yang lebih mendalam tentang ekonomi di masa depan. Kursus ini akan meletakkan dasar yang diperlukan untuk menjelajahi teori-teori ekonomi tertentu secara lebih detail yang hanya akan kami singgung di sini.
+**Bagian 1: Pengantar ke ECON**  
+Kita akan memulai dengan pengantar umum tentang Ekonomi Austria, mengeksplorasi asal-usul sejarahnya dan landasan pemikirannya. Bagian ini juga mencakup konsep-konsep penting seperti uang, kredit, bank, dan bank sentral. Anda akan memahami mengapa institusi-institusi ini memainkan peran sentral dalam pemikiran Austria, khususnya dalam kritik mereka terhadap intervensi moneter.
 
-Jika Anda siap untuk memulai petualangan ini, saya mengundang Anda untuk mengklik video berikut dan memulai dengan video bonus tentang sistem keuangan kita saat ini. Saya sekarang memberikan kesempatan kepada Théo. Terima kasih kepadanya karena telah berkolaborasi dengan Descoupes Bitcoin untuk realisasi video ini. Saya akan bertemu Anda sangat segera. Selamat tinggal!
+**Bagian 2: Landasan Teoretis**  
+Bagian ini akan memperdalam konsep-konsep dasar Ekonomi Austria, seperti teori nilai subjektif, yang menjelaskan mengapa nilai suatu barang tidak bersifat objektif tetapi tergantung pada utilitas yang dirasakan oleh setiap individu. Anda juga akan menemukan bagaimana uang secara alami muncul sebagai fenomena sosial, bersama dengan konsep-konsep preferensi waktu, bunga, dan modal yang menjadi inti dari teori pasar bebas Austria.
+
+**Bagian 3: Perspektif Ekonomi Austria**  
+Di sini, kita akan menjelajahi aplikasi praktis dari teori Austria. Anda akan mempelajari secara rinci tentang Teori Siklus Bisnis Austria, yang menjelaskan bagaimana manipulasi moneter menciptakan ledakan buatan yang diikuti oleh resesi. Kita juga akan melihat mengapa perhitungan ekonomi tidak mungkin dilakukan di bawah sistem sosialis dan bagaimana metodologi Austria, yang didasarkan pada praxeologi (studi tentang tindakan manusia), memberikan pendekatan unik dan koheren untuk memahami fenomena ekonomi.
+
+Kursus ini adalah perpaduan antara ekonomi dan filsafat, dipimpin oleh diskusi terbuka antara Théo dan saya (Rogzy). Saya ingin mengucapkan terima kasih yang tulus kepada Théo Mogenet atas pembuatan kursus ini. Kami sangat menikmati mengembangkan konten ini, yang dirancang agar dapat diakses oleh semua orang. Kursus ini merupakan pengantar penting dan akan menjadi dasar untuk modul ekonomi yang lebih maju di masa depan.
+
+Dan bagaimana jika kunci untuk memahami ekonomi saat ini terletak pada teori yang sudah berusia beberapa abad? Mari kita temukan bersama!
 
 ## Uang, Kredit, Bank, dan Bank Sentral
 
@@ -518,7 +526,7 @@ Penting untuk dicatat bahwa cherry-picking, yang melibatkan pemilihan data secar
 
 Metodologi adalah aspek penting dalam ekonomi dan dalam ilmu sosial pada umumnya. Ini mempengaruhi bagaimana pertanyaan diajukan, hipotesis dirumuskan, dan data ditafsirkan. Memahami perbedaan metodologis antara sekolah pemikiran ekonomi dapat membantu kita menghargai perspektif yang beragam dan mengembangkan opini kita sendiri tentang topik yang dibahas dalam episode sebelumnya.
 
-# Kesimpulan
+# Bagian Akhir
 
 <partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
 

@@ -1,0 +1,11 @@
+question: Jaka jest przewaga haseł jednorazowych (HOTP i TOTP) nad SMS dla 2FA?
+answer: Wymagają one obliczeń kryptograficznych i są przechowywane lokalnie, a nie w pamięci.
+wrong_answers:
+  - Wymagają one obliczeń kryptograficznych i są przechowywane w pamięci, a nie lokalnie.
+  - Nie wymagają one obliczeń kryptograficznych i są przechowywane zarówno lokalnie, jak i w pamięci.
+  - Są one łatwiejsze do zapamiętania i szybsze do wpisania.
+explanation: |
+  Hasła jednorazowe (HOTP i TOTP) są bezpieczniejsze niż SMS
+  ponieważ wymagają obliczeń kryptograficznych i są
+  przechowywane lokalnie, a nie w pamięci.
+reviewed: true

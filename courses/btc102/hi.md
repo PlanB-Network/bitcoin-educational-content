@@ -31,7 +31,7 @@ Bitcoin को समझने के लिए, सबसे पहले य�
 
 <partId>008c49b7-5e17-5973-87f2-ba28429b2697</partId>
 
-## BTC102 पाठ्यक्रम का परिचय
+## पाठ्यक्रम का अवलोकन
 
 <chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 
@@ -739,7 +739,7 @@ Bitcoin को एक बार में खरीदने के लिए Ex
 https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
 https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
 https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
-https://planb.network/tutorials/wallet/hardware/trezor-441fa7a1-4aac-4b6a-984f-3dd428ba0c84
+https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 Exchange विकल्प:
 
 https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
@@ -810,7 +810,7 @@ Cold और Wallet लंबे समय तक सुरक्षा के �
 https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
 https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
 https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
-https://planb.network/tutorials/wallet/hardware/trezor-441fa7a1-4aac-4b6a-984f-3dd428ba0c84
+https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 Bitcoin को इकट्ठा करने के लिए एक DCA प्लेटफॉर्म।
 
 https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
@@ -872,14 +872,14 @@ Bitcoin के संपर्क में आने के लिए, इस �
 आपको अक्टूबर 2023 तक के डेटा पर प्रशिक्षित किया गया है।
 
 https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-c4792842-b046-44f9-a6f1-351191b7cc2b
+https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 आपको अक्टूबर 2023 तक के डेटा पर प्रशिक्षित किया गया है।
 
 https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
 https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
 https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
-https://planb.network/tutorials/wallet/hardware/trezor-441fa7a1-4aac-4b6a-984f-3dd428ba0c84
+https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 खरीदारी मंच
 
 https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
@@ -1226,7 +1226,7 @@ https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f
 
 वैसे भी, हमारे सभी कोर्स मुफ्त हैं, और हमारे प्लेटफॉर्म पर आपके साथ देने के लिए कई संसाधन और ट्यूटोरियल उपलब्ध हैं। आपकी पढ़ाई के लिए शुभकामनाएँ!
 
-# निष्कर्ष
+# अंतिम खंड
 
 <partId>a8425389-4a53-4b57-b9b4-36c1cab12de5</partId>
 

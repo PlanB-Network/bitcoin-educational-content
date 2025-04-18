@@ -6,8 +6,6 @@ term: PŘIZPŮSOBENÍ OBTÍŽNOSTI
 
 $$N = A \cdot \left(\frac{T}{1,209,600}\right)$$
 
-&nbsp;
-
 Kde:
 
 

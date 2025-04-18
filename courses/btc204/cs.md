@@ -24,10 +24,11 @@ Připojte se k nám, abyste změnili způsob používání bitcoinu a stali se i
 
 <partId>e17474a8-8899-4bdb-a7f8-bc52ddb01440</partId>
 
-## Úvod do školení
+## Přehled kurzu
 
 <chapterId>08ba1933-f393-4fb5-8279-777d874caedb</chapterId>
 
+Vítejte v kurzu BTC204!
 
 Ve světě, kde se důvěrnost finančních transakcí postupně stává luxusem, je pochopení a zvládnutí zásad ochrany soukromí při používání Bitcoinu nezbytné. Tento vzdělávací kurz vám poskytne všechny klíče, teoretické i praktické, jak toho samostatně dosáhnout.
 
@@ -45,37 +46,38 @@ Tento školicí kurz je navržen tak, aby poskytl ucelený obecný přehled o pr
 
 Cílem tohoto školení není zajistit, abyste byli při používání Bitcoinu zcela anonymní, ale spíše vám poskytnout základní nástroje, abyste věděli, jak chránit svou důvěrnost v souladu s vašimi osobními cíli. Budete si moci svobodně vybrat z představených konceptů a nástrojů a vytvořit si vlastní strategie, přizpůsobené vašim konkrétním cílům a potřebám.
 
-### Oddíl 1: Definice a klíčové pojmy
+**Oddíl 1: Definice a klíčové pojmy**
 
 Nejprve si projdeme základní principy fungování Bitcoinu, abychom se pak mohli v klidu věnovat pojmům týkajícím se důvěrnosti. Než budete moci plně pochopit pojmy, kterými se budeme zabývat v následujících kapitolách, je nezbytné zvládnout několik základních pojmů, jako je UTXO, přijímání adres a skriptování. Představíme si také obecný model důvěrnosti Bitcoinu, jak si jej představoval Satoshi Nakamoto, což nám umožní pochopit související sázky a rizika.
 
 ![BTC204](assets/fr/001.webp)
 
-### Oddíl 2: Porozumění analýze řetězce a ochrana před ní
+**Oddíl 2: Porozumění analýze řetězce a ochrana před ní**
 
 Ve druhé části se podíváme na techniky, které používají společnosti zabývající se analýzou blockchainu ke sledování vaší aktivity na Bitcoinu. Pochopení těchto metod je zásadní pro posílení ochrany vašeho soukromí. Cílem této části je prozkoumat strategie útočníků, abychom lépe pochopili rizika a připravili si půdu pro techniky, které budeme studovat v následujících částech. Budeme analyzovat vzory transakcí, vnitřní a vnější heuristiky a pravděpodobné interpretace těchto vzorů. Kromě teorie se na praktických příkladech a cvičeních naučíme používat průzkumníka bloků pro analýzu řetězců.
 
 ![BTC204](assets/fr/002.webp)
 
-### Oddíl 3: Osvojení osvědčených postupů pro ochranu soukromí
+**Oddíl 3: Osvojení osvědčených postupů pro ochranu soukromí**
 
 Ve třetí části našeho vzdělávacího kurzu přejdeme k samotné podstatě: praxi! Cílem je osvojit si všechny základní osvědčené postupy, které by se měly stát přirozenými reflexy každého uživatele Bitcoinu. Budeme se zabývat používáním prázdných adres, tagováním, konsolidací, používáním kompletních uzlů a také metodami KYC a akvizice. Cílem je poskytnout vám ucelený přehled nástrah, kterým je třeba se vyhnout, abyste si vytvořili pevné základy v naší snaze o ochranu soukromí. U některých z těchto postupů budete odkázáni na konkrétní návod, jak je implementovat.
 
 ![BTC204](assets/fr/003.webp)
 
-### Oddíl 4: Porozumění transakcím coinjoin
+**Oddíl 4: Porozumění transakcím coinjoin**
 
 Jak můžeme mluvit o soukromí v Bitcoinu, aniž bychom zmínili coinjoiny? V části 4 se dozvíte vše, co potřebujete vědět o této metodě míchání. Dozvíte se, co jsou coinjoiny, jaká je jejich historie a cíle a jaké různé typy coinjoinů existují. Nakonec se pro zkušenější uživatele podíváme na to, co jsou to anonsety a entropie a jak je vypočítat.
 
 ![BTC204](assets/fr/004.webp)
 
-### Oddíl 5: Porozumění problémům dalších pokročilých technik utajení
+**Oddíl 5: Porozumění problémům dalších pokročilých technik utajení**
 
 V páté části se podíváme na všechny ostatní dostupné techniky ochrany soukromí na Bitcoinu, kromě coinjoinu. V průběhu let prokázali vývojáři pozoruhodnou kreativitu při navrhování nástrojů věnovaných ochraně soukromí. Podíváme se na všechny tyto metody, jako je payjoin, kolaborativní transakce, coin swap a atomic swap, a podrobně popíšeme, jak fungují, jaké jsou jejich cíle a případné slabiny.
 
 Budeme se také zabývat soukromím na úrovni sítě uzlů a šířením transakcí. Probereme také různé protokoly, které byly v průběhu let navrženy ke zvýšení soukromí uživatelů v Bitcoinu, včetně protokolů statických adres.
 
 ![BTC204](assets/fr/005.webp)
+Připraveni prozkoumat zákoutí soukromí na Bitcoinu? Jdeme na to!
 
 # Definice a klíčové pojmy
 
@@ -4220,7 +4222,7 @@ Vzhledem k tomu, že tato funkce je nová, doporučujeme vám, abyste byli opatr
 
 *K vytvoření této kapitoly o tichých platbách jsem použil [stránku s vysvětlením tichých plateb](https://silentpayments.xyz/) a [dokument s vysvětlením BIP352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki).*
 
-# Závěr
+# Sekce finále
 
 <partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 
@@ -4228,7 +4230,7 @@ Vzhledem k tomu, že tato funkce je nová, doporučujeme vám, abyste byli opatr
 
 <chapterId>195d149f-80fa-5816-8b46-995a9226d082</chapterId>
 
-<isCourseReview>pravdivé</isCourseReview>
+<isCourseReview>true</isCourseReview>
 
 ## Závěrečná zkouška
 
@@ -4240,4 +4242,4 @@ Vzhledem k tomu, že tato funkce je nová, doporučujeme vám, abyste byli opatr
 
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>
 
-<isCourseConclusion>pravdivý</isCourseConclusion>
+<isCourseConclusion>true</isCourseConclusion>

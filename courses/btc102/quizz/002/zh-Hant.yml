@@ -1,0 +1,11 @@
+question: Bitcoin Hard Fork 的顯著例子是什麼？
+answer: Bitcoin 現金 (BCH)
+wrong_answers:
+  - 以太坊 (ETH)
+  - 比特幣 (LTC)
+  - 瑞波 (XRP)
+explanation: |
+  隨著時間的推移，Bitcoin 經歷了數次 Hard 分叉，產生了各種
+  原始貨幣的其他版本。這些偏差的顯著例子
+  包括 Bitcoin Cash (BCH) 和 Bitcoin Satoshi Vision (BSV)。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Kwa nini SHA256 inatumia usindikaji wa awali kwa ujumbe wa ingizo?
+answer: Ili kuhakikisha urefu wa biti 512
+wrong_answers:
+  - Ili kuthibitisha uadilifu wa ujumbe
+  - Ili kusimba data kabla ya hashing
+  - Ili kuongeza ukubwa wa heshi zinazozalishwa
+explanation: |
+  Usindikaji wa awali hurekebisha urefu wa ujumbe kwa kuongeza vipande vya pedi na uwakilishi wa binary wa urefu wake.
+reviewed: false

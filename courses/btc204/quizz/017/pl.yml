@@ -1,0 +1,9 @@
+question: Jak nazywa się informacja, która łączy wiązkę działań On-Chain z formą prawdziwej tożsamości?
+answer: Punkt wejścia.
+wrong_answers:
+  - Klucz łączący.
+  - Łącze odcisku palca.
+  - Znacznik analizy.
+explanation: |
+  Zachowania i informacje, które mogą łączyć prawdziwą tożsamość z aktywnością On-Chain, nazywane są punktami wejścia.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Nani alianzisha huduma ya kwanza ya Exchange kati ya Bitcoin na dola mnamo Oktoba 2009?
+answer: NewLibertyStandard
+wrong_answers:
+  - sirius-m
+  - dwdollar
+  - MoshiTooMuch
+explanation: |
+  Huduma hii ilikuwa ya kawaida: ubadilishanaji ulijadiliwa kupitia barua pepe, na malipo yalifanywa kupitia PayPal. Kiwango cha Exchange kilitokana na gharama za Mining za NewLibertyStandard mwenyewe.
+reviewed: false

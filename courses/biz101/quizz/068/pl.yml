@@ -1,0 +1,9 @@
+question: Jak można wdrożyć BTC Pay Server w środowisku profesjonalnym?
+answer: Lokalnie lub za pośrednictwem hostingu w chmurze
+wrong_answers:
+  - Wyłącznie na dedykowanych urządzeniach sprzętowych
+  - Za pośrednictwem w pełni outsourcowanej usługi zewnętrznej
+  - Jako aplikacja mobilna
+explanation: |
+  Elastyczność wdrożenia BTC Pay Server lokalnie lub w chmurze pozwala firmom wybrać konfigurację, która najlepiej odpowiada ich potrzebom operacyjnym.
+reviewed: false

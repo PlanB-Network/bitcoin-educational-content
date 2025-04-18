@@ -1,0 +1,11 @@
+question: 軟體更新的主要目的是什麼？
+answer: 修復軟體的錯誤並改進安全性
+wrong_answers:
+  - 新增新功能
+  - 若要變更軟體 Interface
+  - 要增加軟體大小
+explanation: |
+  雖然軟體更新通常會帶來新功能，但其主要目的
+  主要目的是修復錯誤和提高軟體的安全性。這對於保持
+  您的電腦處於最佳工作狀態。
+reviewed: false

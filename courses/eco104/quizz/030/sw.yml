@@ -1,0 +1,11 @@
+question: Ni sababu gani moja kwa nini ni muhimu kufanya utafiti wa kina kabla ya kuamini stablecoin?
+answer: Baadhi ya stablecoins hawana uwazi na bidii
+wrong_answers:
+  - Stablecoins hawana hatari zinazohusiana nao
+  - Stablecoins daima husaidiwa kikamilifu na hifadhi
+  - Baadhi ya stablecoins zinadhibitiwa na serikali
+explanation: |
+  Sio stablecoins zote zinazotoa kiwango sawa cha uwazi.
+  Kwa hiyo, ni muhimu kufanya utafiti wa kina
+  kabla ya kukabidhi utajiri mkubwa kwa stablecoin yoyote.
+reviewed: true

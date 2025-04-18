@@ -1,0 +1,12 @@
+question: Je, si maneno ya Mnemonic katika muktadha wa Bitcoin?
+answer: Nenosiri la Bitcoin Wallet yako.
+wrong_answers:
+  - Orodha ya maneno 12 kutoka kwa kamusi maalum.
+  - Orodha ya maneno 24 kutoka kwa kamusi maalum.
+  - Siri ya kufikia mfuko wako wa Bitcoin.
+explanation: |
+  Kifungu cha maneno cha Mnemonic katika muktadha wa Bitcoin ni orodha ya 12
+  au maneno 24 ambayo hukuruhusu kurejesha Wallet yako yoyote
+  Bitcoin Wallet maombi. Yeyote anayeweza kufikia orodha hii
+  cal pia fikia bitcoins zako.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Je, ni kazi gani ya seva mbadala ya RGB katika mazingira ya Njia ya Umeme ya RGB?
+answer: Kuwezesha Exchange ya mizigo ya RGB
+wrong_answers:
+  - Toa funguo za umma kwa nodi ili kufungua vituo
+  - Weka historia ya mabadiliko ya hali ya RGB
+  - Epuka nakala za tiki za tokeni za RGB
+explanation: |
+  Seva ya proksi ya RGB hurahisisha mawasiliano ya shehena ya RGB kati ya washiriki wa Radi kwa kufanya kazi kama mpatanishi, kuwezesha utumiaji rahisi zaidi wa uzoefu wa sasa wa Bitcoin na Umeme.
+reviewed: false

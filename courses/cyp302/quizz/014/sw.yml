@@ -1,0 +1,9 @@
+question: Je, watumiaji wanapaswa kuwa na mtazamo gani kuhusu faragha ya mawasiliano yao katika mazingira ya kisasa?
+answer: Fikiria kwamba mtu anasikiliza kila wakati
+wrong_answers:
+  - Tegemea Wi-Fi pekee
+  - Amini kwamba data ya simu ni salama kabisa
+  - Tumia miunganisho ya waya pekee
+explanation: |
+  Katika ulimwengu ambamo njia nyingi za mawasiliano zinaweza kutekwa, ni jambo la hekima kudhania kwamba huenda mtu mwingine anasikiliza, na hivyo kufanya cryptography kuwa muhimu.
+reviewed: false

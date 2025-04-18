@@ -1,0 +1,9 @@
+question: Co Bitcoin pozwala robić bez pośredników?
+answer: Wartość Exchange w Internecie
+wrong_answers:
+  - Tworzenie scentralizowanych aplikacji
+  - Uzyskanie pożyczki bankowej
+  - Przechowywanie danych osobowych
+explanation: |
+  Bitcoin umożliwia Exchange wartości w Internecie bez pośredników dzięki protokołowi peer-to-peer.  
+reviewed: false

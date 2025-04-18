@@ -78,7 +78,6 @@ Fill in the required information (please note that all this information will be 
 
 - Name of your teacher file (use your first and last name or a pseudonym, in lower case) ;
 - Your name or nickname ;
-- Random generation of your login ;
 - Your website and profile X (optional) ;
 - A Lightning address to receive donations from readers (optional) ;
 - Select 2 or 3 tags from the list;

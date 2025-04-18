@@ -1,0 +1,13 @@
+question: Jaki jest cel społeczności Bitcoin w zakresie zarządzania siecią?
+answer: Wzmocnienie dystrybucji, odporność na cenzurę i przeciwdziałanie niestabilności sieci.
+wrong_answers:
+  - Aby podnieść cenę Bitcoin.
+  - Aby przyspieszyć transakcje.
+  - Aby zwiększyć poziom trudności Mining.
+explanation: |
+  Społeczność Bitcoin nieustannie dąży do wzmocnienia
+  dystrybucji, odporności na cenzurę i antykruchości
+  sieci. Jest to zgodne z podstawową misją Bitcoin, którą jest
+  misją Bitcoin jest bycie odporną na cenzurę wartością Exchange
+  sieć.
+reviewed: true

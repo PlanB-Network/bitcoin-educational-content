@@ -1,0 +1,9 @@
+question: Jaki jest najbardziej znany wkład Adama Smitha w ekonomię?
+answer: Opracował teorię niewidzialnej ręki.
+wrong_answers:
+  - Opracował teorię widzialnego palca.
+  - Opracował teorię niewidzialnego palca.
+  - Opracował teorię widzialnej ręki.
+explanation: |
+  Adam Smith jest znany ze swojej teorii niewidzialnej ręki, która zakłada, że indywidualne działania motywowane własnym interesem nieumyślnie przyczyniają się do dobrobytu gospodarczego społeczeństwa jako całości.
+reviewed: false

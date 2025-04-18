@@ -1,0 +1,9 @@
+question: Kwa nini tunalipa ada katika Bitcoin?
+answer: Kuunda soko huria la kujumuisha miamala kwenye vitalu.
+wrong_answers:
+  - Kuanzisha jinsi ya kuchimba Bitcoin.
+  - Kuwaacha matajiri walipe zaidi.
+  - Kuondoa serikali kwenye mtandao.
+explanation: |
+  Ada ni muhimu ili kuunda soko huria la kujumuisha miamala kwenye vitalu. Kwa kweli, block ina ukubwa wa 1 MB (ambayo ilipanuliwa hadi 4MB baada ya sasisho la SegWit), hivyo idadi ya shughuli ambazo zinaweza "kuingizwa" katika block ni mdogo kwa shughuli elfu chache kwa kila block.
+reviewed: true

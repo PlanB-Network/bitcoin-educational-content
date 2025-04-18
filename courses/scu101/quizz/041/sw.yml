@@ -1,0 +1,12 @@
+question: Ni faida gani ya kutumia kidhibiti cha nenosiri kinachojipangisha mwenyewe kama Bitwarden au KeePass?
+answer: Unaweza kudhibiti mahali ambapo manenosiri yako yamehifadhiwa, hivyo kutoa usalama na udhibiti zaidi.
+wrong_answers:
+  - Ni rahisi na salama zaidi kutumia kuliko huduma za watu wengine.
+  - Kawaida hutoa huduma nyingi kuliko huduma za mtu wa tatu, ingawa ni ghali zaidi.
+  - Wao ni nafuu na haraka zaidi kuliko huduma za tatu.
+explanation: |
+  Vidhibiti vya nenosiri vinavyojipangisha binafsi kama Bitwarden au KeePass
+  kukuruhusu kudhibiti mahali nywila zako zimehifadhiwa,
+  uwezekano wa kutoa usalama na udhibiti zaidi. Hata hivyo,
+  wanaweza kuhitaji maarifa zaidi ya kiufundi kutumia.
+reviewed: true

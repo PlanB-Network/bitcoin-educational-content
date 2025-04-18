@@ -1,0 +1,12 @@
+question: 本課程如何描述 Bitcoin？
+answer: 多學科科目。
+wrong_answers:
+  - 一個簡單的主題。
+  - 一個物理課題。
+  - 單一學科科目。
+explanation: |
+  Bitcoin 被描述為多學科的主題，因為
+  它提出了與不同領域相關的問題，包括
+  密碼學、博弈論、經濟學和貨幣政策、
+  電腦科學、哲學、能源、法律和法規。
+reviewed: true

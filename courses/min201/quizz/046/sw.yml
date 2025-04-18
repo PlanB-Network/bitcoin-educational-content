@@ -1,0 +1,14 @@
+question: Kwa nini elimu na maelezo yanachukuliwa kuwa silaha yenye nguvu zaidi dhidi ya kanuni zinazoweza kuweka vikwazo kwenye Bitcoin Mining?
+answer: Uelewa wazi na sahihi wa Mining unaweza kusaidia kufichua tasnia na kupambana na habari potofu.
+wrong_answers:
+  - Kwa sababu inaweza kusaidia wachimbaji kutafuta njia za kukwepa kanuni.
+  - Kwa sababu inaweza kusaidia kuwashawishi wasimamizi kubadili mawazo yao.
+  - Kwa sababu inaweza kuwasaidia wachimbaji kuelewa kanuni vizuri zaidi.
+explanation: |
+  Elimu na habari zinachukuliwa kuwa zenye nguvu zaidi
+  silaha dhidi ya kanuni zinazoweza kuzuia kwenye Bitcoin
+  Mining kwa sababu uelewa wazi na sahihi wa Mining,
+  jinsi inavyofanya kazi, na athari zake zinaweza kusaidia kufifisha
+  viwanda na kupambana na taarifa potofu. Hii inaweza kutoa bora
+  upinzani dhidi ya kanuni zinazoweza kudhuru.
+reviewed: true

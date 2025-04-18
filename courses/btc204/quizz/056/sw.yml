@@ -1,0 +1,10 @@
+question: Anwani hutumika vipi kufunga UTXO?
+answer: Zimeunganishwa kwenye ScriptPubKey
+wrong_answers:
+  - Zimeunganishwa kwenye ScriptSig
+  - Wameunganishwa kwenye coinbase.
+  - Wameunganishwa popote.
+explanation: |
+  Wakati malipo yanafanywa, muamala huunda UTXO mpya kama pato kutoka kwa UTXO zinazotumiwa kama pembejeo. Kwenye pato hili, hati imewekwa kufafanua jinsi UTXO hii inaweza kutumika baadaye. Hati hii inajulikana kama ScriptPubKey. Address inayopokea imeunganishwa kwenye hati hii.
+  
+reviewed: false

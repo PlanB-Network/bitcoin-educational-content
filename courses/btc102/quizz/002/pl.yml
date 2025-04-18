@@ -1,0 +1,11 @@
+question: Jaki jest godny uwagi przykład Bitcoin Hard Fork?
+answer: Bitcoin Cash (BCH)
+wrong_answers:
+  - Ethereum (ETH)
+  - Litecoin (LTC)
+  - Ripple (XRP)
+explanation: |
+  Bitcoin przeszedł z czasem kilka rozwidleń Hard, dając początek różnym
+  alternatywne wersje oryginalnej waluty. Godne uwagi przykłady tych odchyleń
+  obejmują Bitcoin Cash (BCH) i Bitcoin Satoshi Vision (BSV).
+reviewed: false

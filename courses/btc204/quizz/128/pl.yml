@@ -1,0 +1,10 @@
+question: Jaka jest użyteczność Smart contract w tajnej własności Exchange?
+answer: Jednoczesne i systematyczne ujawnianie informacji umożliwiających obu stronom odzyskanie środków drugiej strony.
+wrong_answers:
+  - Zapewnienie poufności poprzez szyfrowanie informacji o własności, tak aby tylko uprawniony odbiorca mógł je odszyfrować.
+  - Zautomatyzuj proces transferu, aby zminimalizować interakcje międzyludzkie i zmniejszyć liczbę błędów.
+  - Ułatwienie rozwiązywania sporów poprzez przechowywanie bitcoinów obu stron w przypadku prób oszustwa.
+explanation: |
+  Aby umożliwić wymianę między stronami, które sobie nie ufają, stosuje się systemy Smart contract. Smart contract to program, który automatycznie wykonuje się, gdy spełnione są wcześniej określone warunki, co w naszym przypadku zapewnia, że właściwość Exchange jest wykonywana automatycznie bez konieczności wzajemnego zaufania. Smart contract pozwala na jednoczesne ujawnienie dwóch wrażliwych informacji między uczestnikami. Albo wykona się normalnie, a każda ze stron odzyska środki drugiej strony, albo nie powiedzie się, a wszyscy zachowają swoje oryginalne środki.
+  
+reviewed: false

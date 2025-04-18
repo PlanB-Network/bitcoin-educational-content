@@ -1,0 +1,9 @@
+question: Je, ukosoaji wa Kimaksi wa dini ni upi?
+answer: Inaelekeza watu kutoka kwenye mapambano ya ukombozi wao halisi.
+wrong_answers:
+  - Ni kasumba ya wasomi.
+  - Haiendani na kanuni za uhuru na usawa.
+  - Haitoi thamani ya ziada katika kazi.
+explanation: |
+  Marx anaiona dini kama chombo kinachowaelekeza wafanyakazi kutoka katika mapambano yao ya ukombozi kwa kuwafariji kuhusu hali zao za kimwili bila kuwahimiza kubadili miundo ya unyonyaji.
+reviewed: false

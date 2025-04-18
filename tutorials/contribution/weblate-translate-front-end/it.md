@@ -14,8 +14,10 @@ In questo tutorial ti mostreremo come contribuire facilmente alla traduzione deg
 
 Per tradurre i contenuti didattici, utilizziamo [l'intelligenza artificiale] (https://github.com/Asi0Flammeus/LLM-Translator). Poi, per correggere gli eventuali errori presenti in questi file, invitiamo i correttori di bozze a contribuire. Se desideri correggere alcuni contenuti, consulta il seguente tutorial:
 
-https://planb.network/tutorials/contribution/content/content-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+
 Se invece sei interessato a tradurre gli elementi statici del sito web (esclusi i contenuti didattici), sei nel posto giusto! Per tradurre efficacemente il frontend, utilizziamo lo strumento Weblate, che è molto semplice da usare e facilita l'approccio alla traduzione.
+
 
 Se desideri aggiungere una lingua completamente nuova a Plan ₿ Network, assicurati di contattare il team di Plan ₿ Network tramite il nostro [gruppo Telegram](https://t.me/PlanBNetwork_ContentBuilder). Se non hai Telegram, potete inviare un'e-mail a mari@planb.network. Assicurati di scrivere una piccola presentazione su chi sei e sulle lingue che parli.
 
@@ -24,6 +26,7 @@ I membri del nostro team ti daranno istruzioni specifiche e apriranno le relativ
 Segui questa guida specifica prima di aggiungere una nuova lingua a Weblate.
 
 https://planb.network/tutorials/contribution/content/weblate-add-new-language-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
+
 Quando si è pronti per iniziare a tradurre, tornare a questa esercitazione e passare in rassegna i punti seguenti.
 
 ## Registrati su Weblate

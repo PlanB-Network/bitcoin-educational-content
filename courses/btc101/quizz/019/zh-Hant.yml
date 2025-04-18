@@ -1,0 +1,12 @@
+question: 貨幣的三個典型功能是什麼？
+answer: 價值儲存、Exchange 媒介、會計單位。
+wrong_answers:
+  - 價值儲存、Exchange 媒介、生產手段。
+  - 價值儲存、生產手段、會計單位。
+  - Exchange 媒介、生產手段、會計單位。
+explanation: |
+  根據亞裏斯多德的說法，貨幣有三種功能：它是
+  貨幣有三種功能：它是價值的儲存、Exchange 的媒介，以及計算單位。
+  帳戶單位。如今，Exchange 媒介功能已被廣泛認可為主要功能，其次才是其他兩種功能。
+  現在，Exchange 的媒介功能已被廣泛認可為主要功能，然後才是其他兩個功能。
+reviewed: true

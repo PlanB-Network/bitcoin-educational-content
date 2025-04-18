@@ -1,9 +1,9 @@
 question: Qual è una delle possibili conseguenze del non seguire le normative del proprio paese quando si acquista Bitcoin?
-answer: Potresti metterti a rischio.
+answer: Mettere a rischio sé stessi.
 wrong_answers:
-  - Potresti aumentare il prezzo del Bitcoin.
-  - Potresti controllare l'offerta di Bitcoin.
-  - Potresti impedire ad altri di acquistare Bitcoin.
+  - L'aumento del prezzo di Bitcoin.
+  - Controllare l'offerta di Bitcoin.
+  - Impedire ad altri di acquistare Bitcoin.
 explanation: |
-  Il testo del corso menziona che non seguire le normative del proprio paese quando si acquista Bitcoin può metterti a rischio.
+  Il testo del corso menziona che non seguire le normative del proprio paese quando si acquista Bitcoin può mettere a rischio sé stessi.
 reviewed: true

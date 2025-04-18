@@ -1,0 +1,9 @@
+question: Je, ni hatua gani ya kwanza ya kufungua kituo cha Umeme kati ya washiriki wawili?
+answer: Ujumbe wa Exchange ulio na kiasi na vitufe vya umma
+wrong_answers:
+  - Chapisha mara moja muamala wa amana kwenye Blockchain
+  - Unda saini 2/2 za Address bila Exchange ya awali
+  - Saini shughuli ya uondoaji kabla ya Exchange ya funguo za umma
+explanation: |
+  Ufunguzi wa kituo huanza na Exchange ya ujumbe kati ya pande hizo mbili, ambapo wanashiriki kiasi wanachotaka kufanya na funguo zao za umma.
+reviewed: false

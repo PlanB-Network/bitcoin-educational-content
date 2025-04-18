@@ -1,0 +1,9 @@
+question: Kulingana na Keynes, shida kuu ya kiwango cha dhahabu ni nini?
+answer: Inapunguza uwezo wa serikali kufadhili matumizi yake
+wrong_answers:
+  - Inakuza mfumuko wa bei
+  - Inazuia biashara ya kimataifa
+  - Majibu mengine yote ni sahihi.
+explanation: |
+  Keynes aliamini kuwa kiwango cha dhahabu kilizuia uwezo wa serikali wa kurekebisha pesa za Supply, na kuwazuia kufadhili matumizi yao kwa urahisi, haswa wakati wa migogoro ya kiuchumi.
+reviewed: false

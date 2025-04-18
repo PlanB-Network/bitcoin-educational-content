@@ -1,0 +1,9 @@
+question: Jeśli liczba całkowita N jest iloczynem dwóch liczb pierwszych p i q, to jak oblicza się rząd liczby N?
+answer: (p - 1) * (q - 1)
+wrong_answers:
+  - (p * q) - 1
+  - p + q
+  - (p - 1) + (q - 1)
+explanation: |
+  Dla N równego iloczynowi dwóch liczb pierwszych p i q, rząd N jest obliczany jako (p - 1) * (q - 1).
+reviewed: false

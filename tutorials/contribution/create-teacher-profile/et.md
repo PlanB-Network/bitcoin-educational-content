@@ -78,7 +78,6 @@ Täitke nõutav teave (palun arvestage, et kogu see teave on avalik nii meie pla
 
 - Õpetaja faili nimi (kasutage oma ees- ja perekonnanime või pseudonüümi, väiketähtedega) ;
 - Teie nimi või hüüdnimi ;
-- Teie sisselogimise juhuslik genereerimine ;
 - Teie veebisait ja profiil X (vabatahtlik) ;
 - Lightning Address, et võtta lugejatelt vastu annetusi (vabatahtlik) ;
 - Valige loendist 2 või 3 sildi;

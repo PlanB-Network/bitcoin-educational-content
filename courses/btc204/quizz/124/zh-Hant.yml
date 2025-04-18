@@ -1,0 +1,10 @@
+question: 哪個選項允許在 Bitcoin 核心設定檔中啟用或停用 P2P 傳輸 V2？
+answer: v2transport=
+wrong_answers:
+  - p2penable=
+  - networkv2=
+  - enablev2=
+explanation: |
+  P2P V2 傳輸可以使用核心節點設定檔中的 v2transport= 選項來修改。
+  
+reviewed: false

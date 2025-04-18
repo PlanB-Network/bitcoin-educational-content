@@ -1,0 +1,12 @@
+question: Ni utaratibu gani unaohakikisha kizuizi kipya kinaongezwa kwa Blockchain kila baada ya dakika kumi?
+answer: Urekebishaji wa ugumu.
+wrong_answers:
+  - Marekebisho ya kasi.
+  - Marekebisho ya wakati.
+  - Marekebisho ya kuzuia.
+explanation: |
+  Utaratibu unaohakikisha kizuizi kipya kinaongezwa kwa
+  Blockchain kila dakika kumi ni marekebisho ya ugumu.
+  Marekebisho haya hufanyika kila vitalu vya 2016, au karibu
+  wiki mbili.
+reviewed: true

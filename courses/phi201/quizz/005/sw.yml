@@ -1,0 +1,9 @@
+question: Je, ni mtazamo gani mkuu wa nguvu katika falsafa na historia ya Magharibi?
+answer: Nguvu ni nguvu ya uharibifu ambayo inaongoza kwa ukandamizaji
+wrong_answers:
+  - Nguvu ni muhimu kwa maendeleo na ustawi wa wanadamu
+  - Nguvu ni chombo kisicho na upande ambacho kinaweza kutumika kwa mema au mabaya
+  - Yote ya hapo juu
+explanation: |
+  Katika falsafa na historia ya Kimagharibi, mamlaka mara nyingi huonekana kama nguvu inayoharibu, ambayo inaweza kusababisha ukandamizaji na unyanyasaji, ikionyesha hatari za mkusanyiko wa mamlaka na athari mbaya kwa uhuru wa mtu binafsi.
+reviewed: false

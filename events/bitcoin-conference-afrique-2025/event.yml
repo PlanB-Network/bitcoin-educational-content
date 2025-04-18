@@ -1,7 +1,8 @@
 id: 2dbe4f31-1c11-4d18-a9d1-4691193744c2
-start_date: 2025-04-24
-end_date: 2025-04-27
-address_line_1: Douala, Akwa, Cameroon
+start_date: 2025-04-24 08:00:00
+end_date: 2025-04-27 17:00:00
+timezone: Africa/Douala
+address_city_country: Douala, Cameroon
 name: Conference Bitcoin Afrique 2025
 type: conference
 price_dollars: 20
@@ -10,7 +11,7 @@ language:
   - fr
   - en
 links:
-  website: https://afriquebitcoin.org/index.html
+  website: https://afriquebitcoin.org/en
 tags: 
   - Bitcoin
   - Afrique

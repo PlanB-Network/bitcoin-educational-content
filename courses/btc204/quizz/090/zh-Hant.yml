@@ -1,0 +1,10 @@
+question: 與其他 CoinJoin 實作相比，Whirlpool 中的混音有何獨特之處？
+answer: 它們完全免費。
+wrong_answers:
+  - 他們只需要支付 Mining 費用。
+  - 每個使用者只能使用一個。
+  - 他們只需要支付服務費。
+explanation: |
+  Whirlpool 混音 100% 免費：無需額外服務費或 Mining 費用。
+  
+reviewed: false

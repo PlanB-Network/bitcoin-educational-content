@@ -1,0 +1,9 @@
+question: Dlaczego Bastiat krytykuje koncepcję progresywnego podatku redystrybucyjnego?
+answer: Ponieważ pozwala na zalegalizowaną grabież przez większość kosztem mniejszości
+wrong_answers:
+  - Ponieważ jest nieskuteczny w generowaniu dochodów podatkowych
+  - Ponieważ jest to korzystne tylko dla klasy robotniczej
+  - Ponieważ przynosi korzyści przede wszystkim firmom prywatnym
+explanation: |
+  Bastiat uważa, że progresywny podatek redystrybucyjny pozwala większości wykorzystywać mniejszość, przekształcając podatek w narzędzie zalegalizowanej grabieży.
+reviewed: false

@@ -4,8 +4,8 @@ goal: Entdecken Sie das Lightning-Netzwerk aus technischer Perspektive
 objectives:
   - Verstehen Sie die Funktionsweise der Kanäle des Netzwerks.
   - Machen Sie sich mit den Begriffen HTLC, LNURL und UTXO vertraut.
-  - Assimilieren Sie das Management von Liquidität und die Gebühren des LNN.
-  - Erkennen Sie das Lightning-Netzwerk als ein Netzwerk.
+  - Lernen Sie, wie man Liquidität verwaltet und welche Gebühren im Lightning-Netzwerk anfallen.
+  - Erkennen Sie das Lightning-Netzwerk als eigenständiges Netzwerk .
   - Verstehen Sie die theoretischen Anwendungen des Lightning-Netzwerks.
 ---
 
@@ -58,7 +58,7 @@ Bereit, die technischen Mechanismen des Lightning Network zu entdecken? Auf geht
 :::video id=ba99951f-81d2-418f-b5e7-4b8c9f8b8cc8:::
 
 
-Das Lightning-Netzwerk ist ein Netzwerk von Zahlungskanälen, das auf dem Bitcoin-Protokoll aufbaut und darauf abzielt, schnelle und kostengünstige Transaktionen zu ermöglichen. Es erlaubt die Erstellung von Zahlungskanälen zwischen Teilnehmern, innerhalb derer Transaktionen fast augenblicklich und mit minimalen Gebühren durchgeführt werden können, ohne jede Transaktion einzeln auf der Blockchain aufzeichnen zu müssen. Somit sucht das Lightning-Netzwerk die Skalierbarkeit von Bitcoin zu verbessern und es für Zahlungen von geringem Wert nutzbar zu machen.
+Das Lightning-Netzwerk ist ein Netzwerk von Zahlungskanälen, das auf dem Bitcoin-Protokoll aufbaut und darauf abzielt, schnelle und kostengünstige Transaktionen zu ermöglichen. Es erlaubt die Erstellung von Zahlungskanälen zwischen Teilnehmern, innerhalb derer Transaktionen fast augenblicklich und mit minimalen Gebühren durchgeführt werden können, ohne jede Transaktion einzeln auf der Blockchain aufzeichnen zu müssen. Somit versucht das Lightning-Netzwerk, die Skalierbarkeit von Bitcoin zu verbessern und es für Zahlungen mit geringem Wert nutzbar zu machen.
 
 Bevor wir den "Netzwerk"-Aspekt erkunden, ist es wichtig, das Konzept eines **Zahlungskanals** bei Lightning zu verstehen, wie er funktioniert und seine Besonderheiten. Dies ist das Thema dieses ersten Kapitels.
 
@@ -72,7 +72,8 @@ In unserem Beispiel hat Alice 100.000 Satoshis auf ihrer Seite des Kanals und Bo
 
 **Aber was ist ein Satoshi?**
 
-Der **Satoshi** (oder "Sat") ist eine Recheneinheit bei Bitcoin. Ähnlich wie ein Cent für den Euro, ist ein Satoshi einfach ein Bruchteil von Bitcoin. Ein Satoshi entspricht **0,00000001 Bitcoin**, oder einem hundertmillionsten eines Bitcoin. Die Verwendung des Satoshi wird zunehmend praktisch, da der Wert von Bitcoin steigt.
+Der Satoshi (oder „Sat“) ist die kleinste Recheneinheit bei Bitcoin. Ähnlich wie der Cent beim Euro ist ein Satoshi einfach ein Bruchteil von Bitcoin. Ein Satoshi entspricht 0,00000001 Bitcoin, also einem Hundertmillionstel eines Bitcoin.
+ Die Verwendung des Satoshi wird zunehmend praktisch, da der Wert von Bitcoin steigt.
 
 ### Die Zuweisung von Geldern im Kanal
 
@@ -116,7 +117,7 @@ Dieses Kapitel ist ein wenig besonders, da es nicht direkt dem Lightning-Netzwer
 
 ### Bitcoin-Adressen, Private Schlüssel und Öffentliche Schlüssel
 
-Eine Bitcoin-Adresse ist eine Reihe von Zeichen, die von einem **öffentlichen Schlüssel** abgeleitet wird, der wiederum aus einem **privaten Schlüssel** berechnet wird. Wie Sie sicherlich wissen, wird sie verwendet, um Bitcoins zu sperren, was dem Empfangen in unserer Wallet entspricht.
+Eine Bitcoin-Adresse ist eine Zeichenfolge, die aus einem öffentlichen Schlüssel abgeleitet wird, welcher wiederum aus einem privaten Schlüssel berechnet wird. Wie Sie sicherlich wissen, dient sie dazu, Bitcoin zu empfangen – technisch gesprochen: um Bitcoin zu sperren.
 
 Der private Schlüssel ist ein geheimes Element, das **niemals geteilt werden sollte**, während der öffentliche Schlüssel und die Adresse ohne Sicherheitsrisiko geteilt werden können (ihre Offenlegung stellt nur ein Risiko für Ihre Privatsphäre dar). Hier ist eine gängige Darstellung, die wir während dieser Schulung übernehmen werden:
 
@@ -299,7 +300,7 @@ In diesem Kapitel werden wir tiefer in die Funktionsweise von Transaktionen im L
 
 ### Erinnerung: Commitment-Transaktionen
 
-Wie zuvor gesehen, basieren Transaktionen im Lightning auf unveröffentlichten **Commitment-Transaktionen**. Diese Transaktionen spiegeln die aktuelle Verteilung der Gelder im Kanal wider. Wenn eine neue Lightning-Transaktion gemacht wird, wird eine neue Commitment-Transaktion erstellt und von beiden Parteien unterschrieben, um den neuen Zustand des Kanals widerzuspiegeln.
+Wie zuvor gesehen, basieren Transaktionen im Lightning-Netzwerk auf unveröffentlichten Commitment-Transaktionen. Diese zeigen die aktuelle Verteilung der Gelder im Kanal. Wird eine neue Lightning-Transaktion durchgeführt, entsteht eine neue Commitment-Transaktion, die von beiden Parteien signiert wird, um den neuen Zustand des Kanals widerzuspiegeln.
 
 Nehmen wir ein einfaches Beispiel:
 
@@ -433,8 +434,9 @@ Schließlich tritt eine Schließung mit **Betrug** auf, wenn eine der Parteien v
 
 ![LNP201](assets/en/35.webp)
 
-Bob, um diesen Betrug zu verhindern, überwacht die Bitcoin-Blockchain und ihren Mempool, um sicherzustellen, dass Alice keine alte Transaktion veröffentlicht. Wenn Bob einen Betrugsversuch entdeckt, kann er den **Revokationsschlüssel** verwenden, um Alices Mittel zurückzuholen und sie zu bestrafen, indem er die gesamten Mittel des Kanals nimmt. Da Alice durch die Zeitbeschränkung auf ihrem Ausgang blockiert ist, hat Bob Zeit, sie ohne Zeitbeschränkung auf seiner Seite zu verbringen, um die gesamte Summe auf eine Adresse zu übertragen, die er besitzt.
+Bob überwacht die Bitcoin-Blockchain und den Mempool, um sicherzustellen, dass Alice keine alte Transaktion veröffentlicht und somit keinen Betrug versucht. Entdeckt Bob einen solchen Betrugsversuch, kann er den Revokationsschlüssel verwenden, um Alices Mittel zurückzuholen und sie zu bestrafen, indem er den gesamten Betrag des Kanals auf sich überträgt.
 
+Da Alice durch eine Zeitbeschränkung auf ihrem Ausgang blockiert ist, hat Bob genug Zeit, um – ohne zeitliche Einschränkung – die gesamten Mittel auf eine Adresse zu übertragen, die er kontrolliert.
 ![LNP201](assets/en/36.webp)
 
 Offensichtlich kann der Betrug potenziell erfolgreich sein, wenn Bob nicht innerhalb der Zeit handelt, die durch die Zeitbeschränkung auf Alices Ausgang vorgegeben ist. In diesem Fall wird Alices Ausgang entsperrt, was ihr erlaubt, ihn zu verbrauchen, um einen neuen Ausgang zu einer Adresse zu erstellen, die sie kontrolliert.
@@ -693,7 +695,9 @@ In den vorherigen Kapiteln haben wir gesehen, wie man die Kanäle anderer Knoten
 
 ### Das Problem des Routings im Lightning
 
-Wie wir gesehen haben, ist es im Lightning das zahlungssendende Knoten, das die komplette Route zum Empfänger berechnen muss, weil wir ein Zwiebel-Routing-System verwenden. Die Zwischenknoten kennen weder den Ausgangspunkt noch das endgültige Ziel. Sie wissen nur, woher die Zahlung kommt und an welchen Knoten sie als nächstes übertragen werden muss. Das bedeutet, dass das sendende Knoten eine dynamische lokale Topologie des Netzwerks aufrechterhalten muss, mit den vorhandenen Lightning-Knoten und den Kanälen zwischen jedem, unter Berücksichtigung von Öffnungen, Schließungen und Statusaktualisierungen.
+Wie wir gesehen haben, ist es im Lightning-Netzwerk der zahlungssendende Knoten, der die komplette Route zum Empfänger berechnen muss – denn es wird ein Onion-Routing-System verwendet. Die Zwischenknoten kennen weder den Ursprung noch das endgültige Ziel der Zahlung. Sie wissen nur, woher die Zahlung kommt und an welchen Knoten sie als Nächstes weitergeleitet werden muss.
+
+Das bedeutet, dass der sendende Knoten eine dynamische lokale Topologie des Netzwerks aufrechterhalten muss – mit allen bekannten Lightning-Knoten und den Kanälen dazwischen, unter Berücksichtigung von Öffnungen, Schließungen und Statusaktualisierungen.
 
 ![LNP201](assets/en/61.webp)
 Selbst mit dieser Topologie des Lightning-Netzwerks gibt es wesentliche Informationen für das Routing, die dem sendenden Knoten nicht zugänglich sind, nämlich die genaue Verteilung der Liquidität in den Kanälen zu einem bestimmten Zeitpunkt. Tatsächlich zeigt jeder Kanal nur seine **gesamte Kapazität** an, aber die interne Verteilung der Mittel ist nur den beiden teilnehmenden Knoten bekannt. Dies stellt Herausforderungen für ein effizientes Routing dar, da der Erfolg der Zahlung insbesondere davon abhängt, ob ihr Betrag geringer ist als die niedrigste Liquidität auf der gewählten Route. Die Liquiditäten sind jedoch nicht alle für das sendende Knoten sichtbar.

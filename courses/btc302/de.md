@@ -759,7 +759,7 @@ Twitter ist sehr einfach zu bedienen, wobei einige Einstellungen zur Verbesserun
 
 2. **das Logo und das Banner**, die Sie für Ihre Gemeinschaft oder Ihr Treffen erstellt haben (siehe Abschnitt [Erstellen eines Logos, Posters und Banners] (LINK));
 
-3. **die Beschreibung**, die es Ihnen ermöglicht, in etwa hundert Zeichen wichtige Informationen über Ihre Gemeinschaft zu geben. Das könnte zum Beispiel so aussehen:
+3. **die Beschreibung**, die es Ihnen ermöglicht, mit einer Textlänge von etwa hundert Zeichen wichtige Informationen über Ihre Gemeinschaft zu geben. Das könnte zum Beispiel so aussehen:
 
 > Offizieller Bitcoin-Community-Account [STADT] #BTC | Meet-up jeden ersten Mittwoch im Monat in [NAME DER_BAR] in [STADT] 🍻 | Join us on Telegram 🔽
 4. Unter dieser Beschreibung können Sie auch **einen Link** einfügen. Dieser kann die Nutzer zu einer "Social Networking"-Seite auf Ihrer Community-Website führen oder sie zu Ihrem Telegram-Kommunikationskanal leiten.
@@ -770,8 +770,8 @@ Darüber hinaus sollten **einige Datenschutzeinstellungen geändert werden**; di
 
 
 - die Möglichkeit, **das Twitter-Konto im "öffentlichen" Modus** zu belassen (Beiträge für jeden sichtbar);
-- für jedermann **identifizierbar** sein (Vorsicht vor Betrug);
-- die Standortverfolgung und die gemeinsame Nutzung von Daten mit anderen Einrichtungen** (Datenschutz) zu deaktivieren.
+- für jederzeit und für jeden **identifizierbar** zu sein (Vorsicht vor Betrug);
+- die Standortverfolgung und das Teilen von Daten mit Dritten zu deaktivieren (Datenschutz).
 
 ####
 
@@ -783,23 +783,23 @@ Um Ihnen viel Zeit zu ersparen, haben wir uns die Zeit genommen, den [Quellcode 
 
 
 - Allgemeines:
-    - tweeten Sie in der Sprache, die Sie in Ihrem Twitter-Konto eingestellt haben**, oder auf Englisch (andernfalls droht eine empfindliche Strafe);
-    - tweeten Sie nur Informationen, die sich auf die Domäne Ihres Kontos beziehen** (andernfalls droht eine empfindliche Strafe);
-    - 1 bis 2 Mal am Tag zwitschern (Beständigkeit ist wichtig);
-- tweeten Sie zu Zeiten mit hoher Sichtbarkeit** (am interessantesten sind Donnerstag oder Freitag zwischen 8 und 10 Uhr; siehe den Abschnitt "Twitter Analytics" in Ihrem Konto).
+    - **tweeten Sie in der Sprache, die Sie in Ihrem Twitter-Konto eingestellt haben**, oder auf Englisch (andernfalls droht eine empfindliche Strafe);
+    - **tweeten Sie nur Informationen, die sich auf die Domäne Ihres Kontos beziehen** (andernfalls droht eine empfindliche Strafe);
+    - 1 bis 2 Mal am Tag tweeten (Beständigkeit ist wichtig);
+- **tweeten Sie zu Zeiten mit hoher Sichtbarkeit** (am interessantesten sind Donnerstag oder Freitag zwischen 8 und 10 Uhr; siehe den Abschnitt "Twitter Analytics" in Ihrem Konto).
 - Wenn Sie einen Tweet schreiben:
-    - ein Foto** (oder Video) hinzufügen;
-    - fügen Sie nur einen Hashtag zu Ihrem Tweet hinzu** (#Bitcoin ist in der Regel der relevanteste. Wenn es Sinn macht und mit dem Bereich Ihres Kontos zusammenhängt, fügen Sie einen Trending-Hashtag hinzu);
-    - ermutigt Ihre Community zu Likes** (Gewichtung von 0,5), **Retweets** (Gewichtung von 1) **aber vor allem zu Antworten** (Gewichtung von 27!);
-    - auf Menschen zu reagieren, die auf Ihre Tweets reagieren** (Gewicht von 75!);
-    - fügen Sie in Ihrem ersten Tweet** keinen Link ein (dies kann z. B. im ersten Kommentar geschehen);
+    - **ein Foto** (oder Video) hinzufügen;
+    - **fügen Sie nur einen Hashtag zu Ihrem Tweet hinzu** (#Bitcoin ist in der Regel der relevanteste. Wenn es Sinn macht und mit dem Bereich Ihres Kontos zusammenhängt, fügen Sie einen Trending-Hashtag hinzu);
+    - **ermutigen Sie Ihre Community zu:** **Likes** (Gewichtung von 0,5), **Retweets** (Gewichtung von 1) **aber vor allem zu Antworten** (Gewichtung von 27!);
+    - **auf Menschen zu reagieren, die auf Ihre Tweets reagieren** (Gewicht von 75!);
+    - **fügen Sie in Ihrem ersten Tweet** keinen Link ein (dies kann z. B. im ersten Kommentar geschehen);
     - schreiben Sie die Wörter vollständig, ohne Abkürzungen zu verwenden.
 - Weitere Punkte sind zu beachten:
-    - tweets auf der Grundlage von Trends, sofern sie sich im Rahmen Ihres Kontos bewegen;
-    - die meistgelesenen Tweets reposten/retweeten**;
-    - führt gelegentlich Umfragen durch**;
-    - wenn möglich einen Thread schreiben**;
-    - ermutigt Ihre Community, Ihr Profil zu besuchen und ihm zu folgen.
+    - Nutzen Sie Tweets auf der Grundlage von Trends, sofern sie sich im Rahmen Ihres Kontos bewegen;
+    - **Reposten oder retweeten Sie Ihre erfolgreichsten Tweets.**;
+    - **Führen Sie gelegentlich Umfragen durch.**;
+    - **Schreiben Sie, wenn möglich, einen Thread**;
+    - Ermutigen Sie Ihre Community, Ihr Profil zu besuchen und zu folgen.
 
 ####
 
@@ -807,7 +807,7 @@ Außerdem können **Sie einen Tweet auf Ihrem Twitter-Profil fixieren, den Sie b
 
 ![immagine](assets/fr/25.webp)
 
-Beachten Sie auch, dass es sowohl auf dem Telefon als auch auf dem Computer möglich ist, bei zwei Twitter-Konten gleichzeitig eingeloggt zu sein. Das kann sehr praktisch sein, damit Sie sich nicht zwischen Ihrem persönlichen und Ihrem Community-Konto ein- und ausloggen müssen; es kann aber auch nach hinten losgehen, wenn Sie versehentlich ein Foto von sich im Kostüm mit dem Community-Konto posten... Seien Sie also vorsichtig!
+Beachten Sie auch, dass es sowohl auf dem Smartphone, als auch auf dem Computer möglich ist, bei zwei Twitter-Konten gleichzeitig eingeloggt zu sein. Das kann sehr praktisch sein, damit Sie sich nicht zwischen Ihrem persönlichen und Ihrem Community-Konto ein- und ausloggen müssen; es kann aber auch nach hinten losgehen, wenn Sie versehentlich ein Foto von sich im Kostüm mit dem Community-Konto posten... Seien Sie also vorsichtig!
 
 Obwohl Ihr Benutzername "@Bitcoin[CITY]" einzigartig ist und Ihnen gehört, ist es ratsam, im Voraus Konten wie "@Bitcoin_[CITY]", "@[CITY]Bitcoin" oder "@[CITY]_Bitcoin" einzurichten, um **sicherzustellen, dass niemand versucht, Ihre Identität zu duplizieren**. Es ist in der Tat besser, vorausschauend zu handeln!
 

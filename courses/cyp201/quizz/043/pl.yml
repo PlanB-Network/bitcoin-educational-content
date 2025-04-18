@@ -1,0 +1,9 @@
+question: Ile bitów entropii jest używanych dla 24-wyrazowej frazy Mnemonic?
+answer: 256 bitów
+wrong_answers:
+  - 128 bitów
+  - 512 bitów
+  - 64 bity
+explanation: |
+  24-wyrazowa fraza Mnemonic opiera się na 256 bitach entropii, zapewniając bardzo wysoki poziom bezpieczeństwa.
+reviewed: false

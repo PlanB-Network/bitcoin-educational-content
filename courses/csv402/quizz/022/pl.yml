@@ -1,0 +1,9 @@
+question: Który RGB Contract Operation tworzy nowy stan bez zamykania Seal?
+answer: State Extension
+wrong_answers:
+  - State Transition
+  - Genesis
+  - Aktywacja Valency
+explanation: |
+  State Extension umożliwia utworzenie nowego stanu lub uprawnień (Valencies) bez natychmiastowego zamykania Seal.
+reviewed: false

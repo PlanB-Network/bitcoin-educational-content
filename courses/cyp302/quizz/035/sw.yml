@@ -1,0 +1,9 @@
+question: Ni nini lengo kuu la nadharia ya nambari?
+answer: Kusoma mali ya nambari kamili na kazi zinazofanya kazi nazo
+wrong_answers:
+  - Kuchambua mabadiliko ya kijiometri
+  - Soma muundo wa takwimu za kijiometri bila mpangilio katika kikundi chenye kikomo
+  - Tengeneza algoriti za usimbaji linganifu
+explanation: |
+  Nadharia ya nambari inaangazia sifa za nambari kamili na kazi zinazotumika kwa nambari kamili, mara nyingi kwa programu katika kriptografia, haswa katika muktadha wa ufunguo wa ufunguo wa umma.
+reviewed: false

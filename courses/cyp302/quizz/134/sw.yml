@@ -1,0 +1,9 @@
+question: Ni nini lengo kuu la cryptography isiyo ya kawaida katika muktadha wa mawasiliano kati ya Alice na Bob?
+answer: Ili kumruhusu Bob kusambaza ujumbe wa siri kwa Alice kwa kutumia ufunguo wake wa umma
+wrong_answers:
+  - Ili kumruhusu Bob kusimba na kusimbua ujumbe bila ufunguo wa umma
+  - Ili kumzuia Alice kusimbua ujumbe wa Bob
+  - Ili kumruhusu Alice kusimba ujumbe huo kwa njia fiche ili kuthibitisha uadilifu wake
+explanation: |
+  Katika usimbaji fiche usiolinganishwa, ufunguo wa umma wa Alice humwezesha Bob kutuma ujumbe uliosimbwa ambao ni yeye pekee anayeweza kusimbua, hivyo basi kuhakikisha usiri wa ujumbe huo.
+reviewed: false

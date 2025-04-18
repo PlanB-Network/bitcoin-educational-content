@@ -1,0 +1,8 @@
+question: 哪個國家已宣布 Bitcoin 為法定貨幣？
+answer: 薩爾瓦多。
+wrong_answers:
+  - 美國。
+  - 中國。
+  - 印度。
+explanation: >-
+reviewed: true

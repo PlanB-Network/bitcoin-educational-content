@@ -23,7 +23,7 @@ For å hjelpe deg med å starte dette eventyret, har jeg laget dette gratis kurs
 
 <partId>008c49b7-5e17-5973-87f2-ba28429b2697</partId>
 
-## Introduksjon til BTC102-kurset
+## Kursoversikt
 
 <chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 
@@ -611,7 +611,7 @@ https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83
 
 https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
 
-https://planb.network/tutorials/wallet/hardware/trezor-441fa7a1-4aac-4b6a-984f-3dd428ba0c84
+https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
 Børsalternativer:
 
@@ -679,7 +679,7 @@ https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83
 
 https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
 
-https://planb.network/tutorials/wallet/hardware/trezor-441fa7a1-4aac-4b6a-984f-3dd428ba0c84
+https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
 En DCA-plattform for å akkumulere Bitcoin.
 
@@ -746,7 +746,7 @@ https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83
 
 https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
 
-https://planb.network/tutorials/wallet/hardware/trezor-441fa7a1-4aac-4b6a-984f-3dd428ba0c84
+https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
 Kjøpsplattform
 
@@ -1017,7 +1017,7 @@ Jeg er virkelig stolt over at du har nådd dette stadiet. Jeg mener det opprikti
 
 Uansett er alle våre kurs gratis, og mange ressurser eller opplæringer er tilgjengelige på vår plattform for å følge deg. Lykke til med studiene!
 
-# Konklusjon
+# Siste seksjon
 
 <partId>a8425389-4a53-4b57-b9b4-36c1cab12de5</partId>
 
@@ -1035,3 +1035,4 @@ Uansett er alle våre kurs gratis, og mange ressurser eller opplæringer er tilg
 
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
 <isCourseConclusion>true</isCourseConclusion>
+

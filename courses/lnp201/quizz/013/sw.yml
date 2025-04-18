@@ -1,0 +1,9 @@
+question: Nini kitatokea ikiwa Alice hatapata saini ya Bob kwa shughuli ya uondoaji?
+answer: Ana hatari ya kupoteza ufikiaji wa pesa zake zilizowekwa kwenye saini nyingi za Address
+wrong_answers:
+  - Hawezi tena kuwasiliana na Bob kwenye Lightning Network
+  - Kituo kinafungua kwa uwezo mdogo
+  - Bob hupokea pesa kwenye kituo kiotomatiki
+explanation: |
+  Bila saini ya Bob kwenye shughuli ya uondoaji, Alice hawezi kuhakikisha urejeshwaji wa pesa zake endapo kutakuwa na suala, na hivyo kusababisha hatari ya hasara.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Co jest ogólnie zalecane w przypadku alokacji części skarbu spółki na Bitcoin?
+answer: Inwestuj tylko nadwyżki płynności, których nie będziesz potrzebować przez kilka lat i utrzymuj horyzont czasowy wynoszący co najmniej cztery lata.
+wrong_answers:
+  - Natychmiastowe wykorzystanie całej gotówki operacyjnej bez uwzględnienia potrzeb w zakresie płynności.
+  - Staraj się kupować i sprzedawać w ciągu kilku tygodni, aby zmaksymalizować krótkoterminowe zyski.
+  - Inwestuj tylko wtedy, gdy potrzebujesz pilnej pożyczki krótkoterminowej na pokrycie wydatków.
+explanation: |
+  Ponieważ cena Bitcoin może być zmienna w krótkim okresie, rozsądnie jest wykorzystać fundusze, których nie potrzebujesz od razu i trzymać je przez co najmniej cztery lata. Takie podejście łagodzi zmienność i zwiększa szanse na długoterminowy wzrost wartości.
+reviewed: false

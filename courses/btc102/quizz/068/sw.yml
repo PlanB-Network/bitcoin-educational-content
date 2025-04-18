@@ -1,0 +1,11 @@
+question: Ni nini madhumuni ya kuanzisha mpango wa ununuzi wa mara kwa mara kwa Hodler?
+answer: Ili kuendelea kununua Bitcoin mara kwa mara kiotomatiki.
+wrong_answers:
+  - Ili kuuza Bitcoin wakati bei iko juu.
+  - Kufanya biashara ya Bitcoin mara kwa mara.
+  - Kubadilisha Bitcoin kuwa fedha zingine za siri.
+explanation: |
+  Hodler huanzisha mpango wa ununuzi unaorudiwa ili kuendelea kununua Bitcoin
+  mara kwa mara kiotomatiki, kuweka kamari juu ya kuongezeka kwa matumizi na uhaba wake
+  yajayo.
+reviewed: false

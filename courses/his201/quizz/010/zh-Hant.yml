@@ -1,0 +1,9 @@
+question: 誰是 PayPal 創立背後的主要人物？
+answer: Peter Thiel
+wrong_answers:
+  - Elon Musk
+  - Marc Andreessen
+  - 馬克扎克伯格
+explanation: |
+  PayPal 產品由 Confinity Inc. 於 1999 年開發，Confinity Inc. 由 Peter Thiel 和 Max Levchin 於 1998 年 12 月在舊金山共同創立。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Je, jina la kampuni ya David Chaum ambayo kupitia kwayo alitekeleza dhana yake ya sarafu ya kidijitali ilikuwaje?
+answer: DigiCash B.V.
+wrong_answers:
+  - eCash Ltd.
+  - CyberCash Inc.
+  - First Virtual Holdings Inc.
+explanation: |
+  Ilianzishwa mwaka wa 1990, DigiCash B.V. ilikuwa na makao yake huko Amsterdam, Uholanzi, na ilishikilia hataza za uvumbuzi wa David Chaum, eCash.
+reviewed: false

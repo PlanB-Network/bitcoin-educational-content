@@ -1,0 +1,9 @@
+question: Ni tofauti gani kuu kati ya PRNG na TRNG?
+answer: PRNG ni ya kuamua, wakati TRNG inazalisha nambari za nasibu za kweli.
+wrong_answers:
+  - PRNG ina kasi zaidi kuliko TRNG kwa idadi kubwa.
+  - PRNG inatumika kwa usimbaji fiche pekee, sio TRNG.
+  - PRNG hutumia funguo za kibinafsi, TRNG hutumia funguo za umma.
+explanation: |
+  PRNG ni za kubainisha, kumaanisha kwamba zinaweza kuzalisha mfuatano kutoka hali ya awali, tofauti na TRNG.
+reviewed: false

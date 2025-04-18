@@ -1,0 +1,11 @@
+question: 網路安全需要哪些方面的網路知識？
+answer: TCP/IP、VPN、防火牆
+wrong_answers:
+  - http、FTP、SMTP
+  - pop3、imap、ssh
+  - DHCP、DNS、ARP
+explanation: |
+  本章提到的 TCP/IP、VPN 和防火牆是其中幾個例子。
+  網路知識的各個層面
+  網路安全。
+reviewed: true

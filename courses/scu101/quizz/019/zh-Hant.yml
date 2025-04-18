@@ -1,0 +1,11 @@
+question: 為什麼定期更新作業系統和應用程式至關重要？
+answer: 防範新的威脅和弱點。
+wrong_answers:
+  - 讓機器過時。
+  - 要減慢機器的速度。
+  - 若要變更使用者 Interface。
+explanation: |
+  定期更新對於保護系統免於
+  新的威脅和弱點。它們並非旨在
+  使機器過時或變慢。
+reviewed: true

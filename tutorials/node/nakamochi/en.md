@@ -44,7 +44,7 @@ _Set up new wallet in Lightning Tab_
 ![image](assets/en/04.webp)
 _Scan QR Code with Node Management App_
 
-![image](asset/en/05.webp)
+![image](assets/en/05.webp)
 _For additional safety set a PIN code_
 
 **Note:** _Allow your Nakamochi node to sync with the blockchain. This process may take some time depending on your internet connection._
@@ -76,7 +76,7 @@ Once your Nakamochi is set up and connected to a node management app, you can be
 4. Enter the locked amount (choose with your peer or use the minimum fixed amount for well-known nodes).
 5. Click on **“Open Channel”**.
 
-![image](asset/en/06.webp)
+![image](assets/en/06.webp)
 _ZEUS Screenshot_
 
 For more information: [Channels | Zeus Documentation](https://docs.zeusln.app/)
@@ -89,7 +89,7 @@ For more information: [Channels | Zeus Documentation](https://docs.zeusln.app/)
 4. Scan or paste the pubkey.
 5. Enter the locked amount (choose with your peer or use the minimum fixed amount for well-known nodes).
 
-![image](asset/en/07.webp)
+![image](assets/en/07.webp)
 _Bitbanana Screenshot_
 
 For more information: [BitBanana](https://bitbanana.com)

@@ -1,0 +1,9 @@
+question: Bitcoin 的簡化付款模式是什麼？
+answer: 輸入端有 1 個或多個 UTXO，輸出端有 2 個 UTXO。
+wrong_answers:
+  - 輸入 1 UTXO，輸出 1 UTXO
+  - 輸入端有數個 UTXO，輸出端有 1 個 UTXO
+  - 輸入端有 5 個 UTXO，輸出端有 5 個 UTXO
+explanation: |
+  在簡化的付款中，使用者消耗一個或多個 UTXOs 作為輸入，在輸出中完成付款 UTXO 和變更 UTXO（因此是 2 個 UTXOs）。
+reviewed: false

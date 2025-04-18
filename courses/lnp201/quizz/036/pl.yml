@@ -1,0 +1,9 @@
+question: Jaki warunek musi zostać spełniony, aby odbiorca HTLC otrzymał środki?
+answer: Muszą podać sekret (obraz wstępny), aby odblokować płatność.
+wrong_answers:
+  - Muszą zaakceptować opłaty za routing każdego węzła pośredniczącego.
+  - Muszą oni podpisać nowy Commitment Transaction.
+  - Muszą poczekać na wygaśnięcie blokady czasowej przed odzyskaniem środków.
+explanation: |
+  Aby otrzymać środki w HTLC, odbiorca musi podać określony sekret, który umożliwia odblokowanie płatności zabezpieczonej przez Hash.
+reviewed: false

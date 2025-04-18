@@ -1,0 +1,8 @@
+question: Jaki jest jeden z powodów, dla których Bitcoin jest atrakcyjny dla niektórych grup?
+answer: Jego zdolność do oferowania rozwiązań takich jak elektroniczna gotówka Trustless, odporność na cenzurę czy przejrzysta i niezmienna polityka pieniężna.
+wrong_answers:
+  - Jest łatwy do podrobienia i może tworzyć rozwiązania umożliwiające otrzymanie większej ilości pieniędzy za pomocą jednego kliknięcia.
+  - Jest on kontrolowany przez centralny organ, który swobodnie dystrybuuje kapitał wśród użytkowników.
+  - Nie jest pseudonimowy, więc każdy użytkownik jest dobrze znany i zaufany.
+explanation: >-
+reviewed: true

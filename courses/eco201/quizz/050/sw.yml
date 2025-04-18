@@ -1,0 +1,12 @@
+question: Je, ni maoni gani ya wanauchumi wa Austria kuhusu kuweka viwango vya riba?
+answer: Wanauchumi wa Austria wanasisitiza kuwa kuweka kiwango cha riba kiholela kunaweza kusababisha migogoro ya kiuchumi.
+wrong_answers:
+  - Wanauchumi wa Austria wanaamini kwamba serikali inapaswa kuweka viwango vya riba.
+  - Wanauchumi wa Austria wanaamini kwamba viwango vya riba vinapaswa kurekebishwa na kutobadilika.
+  - Wanauchumi wa Austria wanaamini kuwa viwango vya riba vinapaswa kuwekwa na benki kuu.
+explanation: |
+  Wanauchumi wa Austria wanasisitiza hilo kwa kuweka kiwango cha riba kiholela
+  inaweza kusababisha migogoro ya kiuchumi na kufanya hesabu isiwezekane katika utawala wa kijamaa.
+  Wanasema kuwa mahusiano ya uthamini ni ya kibinafsi, kwa hivyo viwango vya riba vinaweza kutofautiana
+  kulingana na watu binafsi na hali.
+reviewed: true

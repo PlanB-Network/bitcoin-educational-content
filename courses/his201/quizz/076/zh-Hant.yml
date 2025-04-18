@@ -1,0 +1,9 @@
+question: 誰於 2011 年 9 月啟動了 Bitcoin 改善提案系統，這是一個旨在協調 Bitcoin 改善的程序？
+answer: Amir Taaki
+wrong_answers:
+  - Gavin Andresen
+  - Jeff Garzik
+  - Nils Schneider
+explanation: |
+  此系統是以 Python 程式語言特有的 Python Enhancement Proposals (PEP) 為藍本。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Co system Commitment Transaction gwarantuje uczestnikom kanału Lightning?
+answer: Każdy z nich może odzyskać swoje środki, publikując ostatnią podpisaną transakcję
+wrong_answers:
+  - Transakcje te są widoczne na Bitcoin Blockchain
+  - Przepustowość kanału wzrasta z każdą transakcją
+  - Opłaty są dzielone między dwóch uczestników
+explanation: |
+  Podpisane transakcje Commitment zapewniają, że każdy uczestnik może odzyskać swoje środki, publikując najnowszą wersję w przypadku zamknięcia kanału.
+reviewed: false

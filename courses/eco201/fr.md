@@ -16,34 +16,42 @@ Cette école de pensée a déjà plusieurs siècles d'existence et compte de nom
 
 +++
 
-# Introduction à ECON
+# Introduction
 
 <partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>
 
-## Introduction
+## Aperçu du cours
 
 <chapterId>eae3de7b-cce6-516d-83d9-28fbd582c0ca</chapterId>
 
-Bonjour à tous et bienvenue à l'Econ 201 : Introduction à l'économie autrichienne.
+Bienvenue dans la formation ECO201 !
 
-Dans ce cours proposé par Théo Mogenet, vous découvrirez cette branche de l'économie qui diffère grandement de la doctrine keynésienne. Jusqu'à présent, vous avez peut-être appris que la production et la gestion de la monnaie étaient du ressort des banques centrales, avec l'idée que l'impression monétaire et les dépenses favorisent la croissance. Cependant, il existe une autre école de pensée économique : l'économie autrichienne. Avec plus de 200 ans de recherche et de développement, de réflexions philosophiques et d'écrits d'auteurs renommés, cette approche met l'accent sur une vision plus sobre de la croissance et de la rationalité humaine dans notre économie.
+Dans ce cours proposé par Théo Mogenet, vous découvrirez une école de pensée économique qui se distingue fondamentalement de la doctrine keynésienne prédominante. Jusqu'à présent, on vous a peut-être enseigné que la gestion de la monnaie et la politique économique sont principalement du ressort des banques centrales, avec l'idée que l'impression monétaire et les dépenses publiques stimulent la croissance économique. Pourtant, il existe une approche alternative plus cohérente : **l'économie autrichienne**.
 
-En réalité, l'économie est un domaine extrêmement social et complexe, composé d'une myriade de petits acteurs interconnectés qui contribuent ensemble à former un ensemble cohérent. Plutôt que d'aborder cette discipline à travers des équations mathématiques, nous devons la comprendre du point de vue de la logique humaine et de la sociologie. Dans ce cours, nous explorerons les concepts fondamentaux de l'économie autrichienne. Votre instructeur, Théo Mogenet, est un professeur passionné et compétent en économie autrichienne.
+Forte de plus de deux siècles de recherche, de réflexions philosophiques et d'écrits d'auteurs de renom tels que Carl Menger, Ludwig von Mises ou encore Friedrich Hayek, cette école de pensée adopte une perspective différente, privilégiant une vision décentralisée de l'économie, fondée sur l'individu et la rationalité humaine.
 
-Pour commencer, nous vous proposons une vidéo bonus qui expliquera comment fonctionne notre système financier actuel. Vous découvrirez comment les banques commerciales et les banques centrales interagissent et stimulent l'économie. Nous aborderons les acteurs majeurs de notre monde financier et comment cette centralisation du pouvoir parmi certaines institutions économiques peut conduire à des abus et des crises financières.
+L'économie est, en réalité, un domaine profondément social et complexe, composé d'une multitude d'acteurs indépendants qui interagissent librement pour former un ensemble cohérent. Pour comprendre ce système dynamique, l'économie autrichienne privilégie l'analyse qualitative, fondée sur la logique humaine, la sociologie, et l'étude des processus de marché, plutôt que sur des équations mathématiques rigides.
 
-Dans la deuxième partie de ce cours, nous examinerons la différence entre le keynésianisme et l'économie autrichienne, en explorant leurs écoles de pensée respectives, leurs méthodes de réflexion et les outils qu'ils utilisent pour établir la vérité économique. Nous étudierons également la formation des crises économiques. Est-ce dû à l'incompétence humaine, à la manipulation des marchés ou à l'euphorie collective des gens ? Nous explorerons comment nos cycles de croissance, de déclin, de récession et d'âge d'or sont créés par les émotions humaines.
+Dans ce cours, vous explorerez les principes fondamentaux de cette école de pensée. Théo Mogenet, votre instructeur, est un passionné de cette approche économique et vous guidera avec pédagogie à travers les concepts clés de l'économie autrichienne, en vous montrant comment ces idées s'appliquent particulièrement bien au monde de Bitcoin.
 
-Ce cours sera une combinaison d'économie et de philosophie, avec une discussion ouverte entre Théo et moi-même. Si vous avez des questions pendant ce cours, n'hésitez pas à les poser sur notre Discord, dont vous trouverez le lien dans la description.
+**Section 1 : Introduction à ECON**  
+Nous débuterons par une introduction générale à l'économie autrichienne, en explorant ses origines historiques et les fondements de sa pensée. Cette section couvre également des notions essentielles telles que l'argent, le crédit, les banques et les banques centrales. Vous comprendrez pourquoi ces institutions jouent un rôle central dans la pensée autrichienne, en particulier dans leur critique des interventions monétaires.
 
-Je remercie chaleureusement Théo d'avoir produit ce cours et j'espère qu'il sera un excellent professeur pour vous. Nous avons eu beaucoup de plaisir à créer ce contenu. Ce cours est accessible à tous et sera, je pense, essentiel pour suivre nos futurs cours plus approfondis sur l'économie. Ce cours posera les bases nécessaires pour explorer plus en détail certaines théories économiques que nous n'aborderons qu'en surface ici.
-Si vous êtes prêt à vous lancer dans cette aventure, je vous invite à cliquer sur la vidéo suivante et à commencer par la vidéo bonus sur notre système financier actuel. Je laisse maintenant la parole à Théo. Merci à lui de collaborer avec Descoupes Bitcoin pour la réalisation de cette vidéo. Je vous reverrai très bientôt. Au revoir !
+**Section 2 : Fondements théoriques**  
+Cette section approfondira les concepts fondamentaux de l'économie autrichienne, comme la théorie subjective de la valeur, qui explique pourquoi la valeur d'un bien n'est pas objective mais dépend de l'utilité perçue par chaque individu. Vous découvrirez également comment l'argent émerge naturellement en tant que phénomène social, ainsi que les concepts de préférence temporelle, d'intérêt et de capital qui sont au cœur de la théorie autrichienne du marché libre.
+
+**Section 3 : Perspectives économiques autrichiennes**  
+Ici, nous explorerons les applications pratiques de la théorie autrichienne. Vous apprendrez en détail la théorie autrichienne du cycle économique, qui explique comment les manipulations monétaires provoquent des booms artificiels suivis de récessions. Nous verrons également pourquoi le calcul économique est impossible sous un système socialiste et en quoi la méthodologie autrichienne, basée sur la praxéologie (l'étude de l'action humaine), constitue une approche unique et cohérente pour comprendre les phénomènes économiques.
+
+Ce cours est une fusion entre économie et philosophie, animé par une discussion ouverte entre Théo et moi (Rogzy). Je tiens à remercier chaleureusement Théo Mogenet pour la création de ce cours. Nous avons pris beaucoup de plaisir à développer ce contenu, qui est conçu pour être accessible à tous. Ce cours constitue une introduction essentielle et posera les bases pour nos futurs modules plus avancés sur l'économie.
+
+Et si la clé pour comprendre l'économie actuelle résidait dans une théorie vieille de plusieurs siècles ? Découvrons-la ensemble !
 
 ## L'argent, le crédit, les banques et les banques centrales
 
 <chapterId>29faebd9-9326-52de-8161-e4bb33033cd6</chapterId>
 
-![Explication du système bancaire traditionnel](https://youtu.be/pz0RxlXNs7Y)
+:::video id=d29b87ef-78fe-451d-afb4-be3b57096afb:::
 
 > "Le problème fondamental avec la monnaie conventionnelle est toute la confiance qui est nécessaire pour la faire fonctionner. La banque centrale doit être digne de confiance pour ne pas dévaluer la monnaie, mais l'histoire des monnaies fiduciaires est pleine de violations de cette confiance. Les banques doivent être dignes de confiance pour garder notre argent et le transférer électroniquement, mais elles le prêtent en vagues de bulles de crédit avec à peine une fraction en réserve. Nous devons leur faire confiance pour notre vie privée, leur faire confiance pour ne pas laisser les voleurs d'identité vider nos comptes."
 >
@@ -142,7 +150,7 @@ Dans le prochain chapitre, nous nous pencherons sur la pierre angulaire fondamen
 >
 > Carl Menger, Principes d'économie politique
 
-![Introduction à l'économie autrichienne](https://youtu.be/ZSDCepNNacI)
+:::video id=0bda55c3-4c47-4559-b429-f01ea43f8c0d:::
 
 ### La révolution marginale
 
@@ -223,7 +231,7 @@ Les chapitres suivants seront consacrés à l'émergence de l'argent en tant que
 
 <chapterId>14ded794-0578-5478-ba5b-b2106c74f3ef</chapterId>
 
-![Argent](https://youtu.be/Dt8ounex2jg)
+:::video id=914b78a2-3b88-43cb-8acb-93cd76e90d26:::
 
 Bien que les individus aient un intérêt commun pour la spécialisation et la maximisation de la division du travail, il existe encore des problèmes de coordination qui limitent cette expansion.
 
@@ -381,7 +389,7 @@ C'est ce que nous découvrirons dans le prochain chapitre consacré à la théor
 
 <chapterId>718afaa8-ce78-58aa-9477-073eef0bd137</chapterId>
 
-![Cycles économiques pour l'école autrichienne](https://youtu.be/CrPE6mcOjx4)
+:::video id=40e2807d-4418-4a24-898e-ece159654bda:::
 
 > "Plus le boom du crédit bancaire inflationniste dure longtemps, plus les investissements non rentables dans les biens d'équipement sont nombreux et plus la nécessité de liquider ces investissements insensés est grande. Lorsque l'expansion du crédit s'arrête, se retourne, ou même ralentit significativement, les investissements non rentables sont révélés."
 >
@@ -458,7 +466,7 @@ Cela sera le sujet du prochain et dernier chapitre de ce cours.
 
 <chapterId>2578a9d8-90e9-58dd-a8c5-6366948564c7</chapterId>
 
-![L'impossibilité du calcul économique dans un système socialiste](https://youtu.be/E-9Fl6eg-mo)
+:::video id=d891caed-0ffa-4f0c-a32b-940e207a20bc:::
 
 > "Lorsqu'il n'y a pas de prix du marché pour les facteurs de production car ils ne sont ni achetés ni vendus, il est impossible de recourir au calcul pour planifier l'action future et déterminer le résultat de l'action passée. Une gestion socialiste de la production ne saurait tout simplement pas savoir si ce qu'elle planifie et exécute est le moyen le plus approprié pour atteindre les fins recherchées. Elle opérera dans l'obscurité, pour ainsi dire. Elle gaspillera les facteurs de production rares, tant matériels qu'humains (travail). Le chaos et la pauvreté pour tous en résulteront inévitablement."
 >
@@ -529,7 +537,7 @@ La tradition autrichienne incarne une approche humble de l'action humaine, tiran
 
 <chapterId>419129c1-82ba-54e3-b385-95d4d89a447e</chapterId>
 
-![la méthodologie autrichienne](https://youtu.be/hMyYGwU76dI)
+:::video id=bd52d8e9-b8ca-4451-bf20-8fb210a3e7a5:::
 
 L'école autrichienne d'économie se distingue des autres écoles par sa méthodologie axiomatique-déductive, qui diffère de l'approche positiviste souvent utilisée dans les sciences sociales. L'approche positiviste est basée sur des lois établies à partir de données empiriques, adoptant une méthode similaire à celle des sciences physiques. Elle formule des hypothèses à partir d'observations, qui sont ensuite confirmées ou réfutées par des expériences temporaires. La méthode scientifique consiste à retenir l'hypothèse qui explique le mieux les données et à continuer à l'explorer jusqu'à ce qu'une hypothèse plus précise soit trouvée.
 
@@ -548,7 +556,7 @@ Il est important de noter que la sélection des données, qui consiste à choisi
 
 La méthodologie est un aspect essentiel en économie et en sciences sociales en général. Elle influence la façon dont les questions sont posées, les hypothèses sont formulées et les données sont interprétées. Comprendre les différences méthodologiques entre les écoles de pensée économique peut nous aider à apprécier les perspectives diverses et à développer nos propres opinions sur les sujets abordés dans les épisodes précédents.
 
-# Conclusion
+# Section finale
 
 <partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
 

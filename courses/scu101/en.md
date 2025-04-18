@@ -26,11 +26,11 @@ Théo; contribution
 
 <partId>534ab66c-b0e6-5757-a7dd-6ea04647edf2</partId>
 
-## Course Introduction
+## Course overview
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
-### Objective: Update your security skills !
+**Objective: Update your security skills !**
 
 Welcome everyone to this educational program dedicated to digital security. This training is designed to be accessible to everyone, so no prior knowledge of computer science is required. Our main goal is to provide you with the knowledge and skills necessary to navigate the digital world more safely and privately.
 
@@ -46,7 +46,7 @@ Your digital hygiene is crucial in an increasingly digital world. Despite the co
 In this training, we are not trying to make you an expert, anonymous, or invulnerable, as this is impossible. Instead, we offer you some simple and accessible solutions for everyone to start transforming your online habits and regain control of your digital sovereignty.
 If you are looking for more advanced skills on the subject, our resources, tutorials, or other cybersecurity training are here for you. In the meantime, here is a brief overview of our program for the next few hours together.
 
-### Section 1: Everything you need to know about online browsing
+**Section 1: Everything you need to know about online browsing**
 
 - Chapter 1 - Online browsing
 - Chapter 2 - Using the internet securely
@@ -55,7 +55,7 @@ To start, we will discuss the importance of choosing a web browser and its impli
 
 ![](assets/en/1.webp)
 
-### Section 2: Best practices for computer usage
+**Section 2: Best practices for computer usage**
 
 - Chapter 3 - Computer usage
 - Chapter 4 - Hacking & backup management
@@ -63,7 +63,7 @@ To start, we will discuss the importance of choosing a web browser and its impli
 In this section, we will cover three key areas of computer security. First, we will explore different operating systems: Mac, PC, and Linux, highlighting their specificities and strengths. Then, we will delve into methods to effectively protect against hacking attempts and strengthen the security of your devices. Finally, we will emphasize the importance of regularly protecting and backing up your data to prevent any loss or ransomware.
 ![](assets/en/2.webp)
 
-### Section 3: Implementation of solutions
+**Section 3: Implementation of solutions**
 
 - Chapter 6 - Email management
 - Chapter 7 - Password manager
@@ -74,6 +74,7 @@ In this practical third section, we will move on to the implementation of your c
 First, we will see how to protect your email inbox, which is essential for your communications and often targeted by hackers. Then, we will introduce you to a password manager: a practical solution to no longer forget or mix up your passwords while keeping them secure. Finally, we will discuss an additional security measure, two-factor authentication, which adds an extra layer of protection to your accounts. Everything will be explained clearly and accessibly.
 ![](assets/en/3.webp)
 
+Ready to strengthen your digital security and take back control of your data? Let's go!
 # Everything you need to know about online browsing
 
 <partId>b4b5379a-d8ef-59ae-94d3-a6e88959c149</partId>
@@ -520,7 +521,7 @@ Alternatives to intrusive advertisements include Google DNS, OpenDNS, and other 
 
 As part of the "Security 101" training module on Découvre Bitcoin Academy, we also discussed Lightning authentication. This system generates a different identifier for each service, without the need to provide an email address or personal information. It is possible to have user-controlled decentralized identities, but there is a lack of standardization and normalization in decentralized identity projects. Package managers such as Nuget and Chocolaté, which allow downloading open-source software outside of the Microsoft Store, are recommended to avoid malicious attacks. In summary, DNS is crucial for online security, but it is necessary to remain vigilant against potential attacks on DNS servers.
 
-# Conclusion
+# Final Section
 
 <partId>3d8ac4c9-f05b-4133-a40a-6e19d579f05f</partId>
 

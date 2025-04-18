@@ -13,10 +13,42 @@ project_id: uuid_of_the_project_author_of_tutorial
 # - beginner
 # - intermediate
 # - advanced
+# - expert
 level: beginner
 
 # Category
-# Category can be choosen from a specific list you can find [here](../../../../tutorial-categories.md)
+# Category can be choosen from the following list (only look at words with lowercase letters):
+#Tutorials/
+#├── WALLET/
+#│   ├── desktop
+#│   ├── hardware
+#│   ├── mobile
+#│   └── backup
+#├── NODE/
+#│   ├── bitcoin
+#│   ├── lightning-network
+#│   └── others
+#├── MINING/
+#│   ├── hardware
+#│   └── pool
+#├── BUSINESS/
+#│   ├── point-of-sale
+#│   └── others
+#├── EXCHANGE/
+#│   ├── peer-to-peer
+#│   └── centralized
+#├── PRIVACY/
+#│   ├── on-chain
+#│   └── analysis
+#├── COMPUTER SECURITY/
+#│   ├── authentication
+#│   ├── communication
+#│   ├── operating system
+#│   └── data
+#└── CONTRIBUTION/
+#    ├── tutorial
+#    ├── resource
+#    └── others
 category: peer-to-peer
 
 # Professor
@@ -24,12 +56,16 @@ category: peer-to-peer
 professor_id: uuid_of_the_professor_author_of_tutorial
 
 # Tags
-# List the associated tags to the tutorial
+# Choose from the list the associated tags to this content
 # The list of tags is composed of 51 items that can be found here (bitcoin-education-content/docs/50-planb-tags.md)
 tags:
   - cypherpunk
-  - proof-of-work
+  - personal-security
   - privacy
+
+# OPTIONAL
+# its use is to mention the original source at both the beginning and at the end of the tutorial
+credit_link: https://link_to_the_original_tuto.com
 
 # Proofreading metadata
 # Only the original author needs to add this data related to initial proofreading

@@ -3,7 +3,7 @@ topic: business
 subtopic: business
 level: beginner
 hours: 102
-test_only: true
+test_only: false
 
 professors_id:
   - dac3b166-31ef-41f3-bfef-6e9d3855c12c
@@ -17,7 +17,7 @@ professors_id:
 contributor_names:
   - Asi0Flammeus
 
-published_at: 2025-02-27
+published_at: 2025-04-11
 
 original_language: en
 proofreading:
@@ -31,3 +31,55 @@ tags:
   - business
   - finance
   - case-studies
+videos:
+  - id: d4f63391-3df7-472d-a3fa-083647d323c9
+    youtube:
+      - en: 8OrIOik0rjM
+  - id: 14ac3978-1796-4bb3-9a5a-315cfe7ab844
+    youtube:
+      - en: CnSwXsNO-kE
+  - id: a21dbb01-01be-492f-a076-dd53e3d9e000
+    youtube:
+      - en: EZEHfr_1-qA
+  - id: 876655e3-a88f-4721-8401-dba913c720d8
+    youtube:
+      - en: GhDAOEZn3s0
+  - id: 9a8dcd11-1ca1-4980-a571-5adf9a40d5ed
+    youtube:
+      - en: 83k4E-NnCb4
+  - id: 0ec9c975-3d44-4d08-a1f0-18dcc5ff45f3
+    youtube:
+      - en: bsBE-EweqT0
+  - id: 13490b9a-f4a0-4f38-bb18-78db480e6a2a
+    youtube:
+      - en: mnDRVQ8hcUU
+  - id: 3a775e45-6325-45bb-8e56-ba25b625b345
+    youtube:
+      - en: P2-7cDNrq9Q
+  - id: c2d5d713-944b-4c85-9776-1f2abd21ce11
+    youtube:
+      - en: TKW7GeJg4lY
+  - id: b0fdbdbc-55a7-4ca2-a6c2-443c82663e7a
+    youtube:
+      - en: vCcnpe5FWNk
+  - id: ba5f2686-02b9-4a0f-bdc4-677fe6e70e4a
+    youtube:
+      - en: 8KmhuHqbreo
+  - id: c320e9bb-ecf5-4fdd-895d-21ff080c1a98
+    youtube:
+      - en: BDeWbWJp5Dw
+  - id: 20fc8bc3-2455-4c55-9a85-120ba7a5fd00
+    youtube:
+      - en: gRFiMrOeG5U
+  - id: 64790418-6667-4807-be54-a690ad564584
+    youtube:
+      - en: OD0__M63Ccw
+  - id: 395e024b-5a17-4b02-9f6a-b9e7a20a4010
+    youtube:
+      - en: Bf05Nw89qtM
+  - id: 6156f0be-54da-4c4b-bb50-b6e3899f8f09
+    youtube:
+      - en: ePhqCCWfoGE
+  - id: a4fc6a92-464f-4864-9a15-6992c2ecc3b1
+    youtube:
+      - en: OZHCjky5f2w

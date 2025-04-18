@@ -1,0 +1,9 @@
+question: Je, ni kazi gani kuu ya Blockchain katika dhana ya Client-side Validation inayotumiwa na RGB?
+answer: Toa muhuri wa wakati na uzuie matumizi mara mbili
+wrong_answers:
+  - Hifadhi mabadiliko yote ya serikali
+  - Kuiga data ya Smart contract
+  - Thibitisha upatikanaji wa data duniani kote
+explanation: |
+  Bitcoin Blockchain inatumika katika RGB kwa ahadi za muhuri wa wakati na kuzuia Double-spending, bila kuhifadhi mabadiliko yote ya serikali.
+reviewed: false

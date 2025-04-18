@@ -1,0 +1,9 @@
+question: Co oznacza atak siłowy?
+answer: Wypróbowanie wszystkich możliwych kluczy, aż do znalezienia właściwego
+wrong_answers:
+  - Zmiana tekstu w celu uczynienia go niezrozumiałym
+  - Używanie klucza publicznego do odszyfrowania wiadomości
+  - Uderzenie komputera w Hard w celu zmuszenia go do wydania tajnego klucza
+explanation: |
+  Atak brute force polega na systematycznym testowaniu wszystkich możliwych kluczy w celu odszyfrowania zaszyfrowanej wiadomości.
+reviewed: false

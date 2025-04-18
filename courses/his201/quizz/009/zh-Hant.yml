@@ -1,0 +1,9 @@
+question: 美國當局在哪一年關閉了自由儲備系統？
+answer: 2013
+wrong_answers:
+  - 2007
+  - 2009
+  - 2011
+explanation: |
+  2013 年 5 月 24 日，其創辦人 Arthur Budovsky 及其主要夥伴被起訴逮捕，主網站也被美國司法部查封。
+reviewed: false

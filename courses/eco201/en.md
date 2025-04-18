@@ -16,29 +16,36 @@ This school of thought has already had several centuries behind it and has a who
 
 +++
 
-# Introduction to ECON
+# Introduction
 
 <partId>265aa8b0-dd89-5456-b72a-656e988013d5</partId>
 
-## Introduction
+## Course Overview
 
 <chapterId>eae3de7b-cce6-516d-83d9-28fbd582c0ca</chapterId>
 
-Hello everyone and welcome to Econ 201: Introduction to Austrian Economics.
+Welcome to the ECO201 course!
 
-In this course offered by Théo Mogenet, you will discover this branch of economics that differs greatly from Keynesian doctrine. Until now, you may have learned that the production and management of money were the responsibility of central banks, with the idea that monetary printing and spending promote growth. However, there is another school of economic thought: Austrian economics. With over 200 years of research and development, philosophical reflections, and writings by renowned authors, this approach emphasizes a more sober vision of growth and human rationality in our economy.
+In this course offered by Théo Mogenet, you will discover a school of economic thought that fundamentally differs from the prevailing Keynesian doctrine. So far, you may have been taught that money management and economic policy are primarily the domain of central banks, with the idea that monetary printing and public spending stimulate economic growth. However, there exists a more coherent alternative approach: **Austrian Economics**.
 
-In reality, economics is an extremely social and complex field, composed of a myriad of interconnected small actors who together contribute to forming a coherent whole. Rather than approaching this discipline through mathematical equations, we must understand it from the perspective of human logic and sociology. In this course, we will explore the fundamental concepts of Austrian economics. Your instructor, Théo Mogenet, is a passionate and competent professor of Austrian economics.
+With over two centuries of research, philosophical reflection, and writings by renowned authors such as Carl Menger, Ludwig von Mises, and Friedrich Hayek, this school of thought takes a different perspective, favoring a decentralized view of the economy based on the individual and human rationality.
 
-To start, we offer you a bonus video that will explain how our current financial system works. You will discover how commercial banks and central banks interact and drive the economy. We will address the major players in our financial world and how this centralization of power among certain economic institutions can lead to abuses and financial crises.
+Economics is, in reality, a deeply social and complex field, composed of numerous independent actors who interact freely to form a coherent whole. To understand this dynamic system, Austrian Economics favors qualitative analysis, based on human logic, sociology, and the study of market processes, rather than rigid mathematical equations.
 
-In the second part of this course, we will examine the difference between Keynesianism and Austrian economics, exploring their respective schools of thought, methods of reflection, and tools they use to establish economic truth. We will also study the formation of economic crises. Is it due to human incompetence, market manipulation, or collective euphoria of people? We will explore how our cycles of growth, decline, recession, and golden age are created by human emotions.
+In this course, you will explore the fundamental principles of this school of thought. Théo Mogenet, your instructor, is a passionate advocate of this economic approach and will guide you through the key concepts of Austrian Economics, showing you how these ideas particularly apply to the world of Bitcoin.
 
-This course will be a combination of economics and philosophy, with an open discussion between Théo and myself. If you have any questions during this course, do not hesitate to ask them in our Discord, which you will find the link to in the description.
+**Section 1: Introduction to ECON**  
+We will begin with a general introduction to Austrian Economics, exploring its historical origins and the foundations of its thought. This section also covers essential concepts such as money, credit, banks, and central banks. You will understand why these institutions play a central role in Austrian thought, particularly in their criticism of monetary interventions.
 
-I warmly thank Théo for producing this course, and I hope he will be an excellent teacher for you. We had a lot of fun creating this content. This course is accessible to everyone and will, I think, be essential to follow our future more in-depth courses on economics. This course will lay the necessary foundations to explore certain economic theories in more detail that we will only briefly touch on here.
+**Section 2: Theoretical Foundations**  
+This section will delve into the fundamental concepts of Austrian Economics, such as the subjective theory of value, which explains why the value of a good is not objective but depends on the perceived utility by each individual. You will also discover how money naturally emerges as a social phenomenon, along with the concepts of time preference, interest, and capital that are at the heart of the Austrian free-market theory.
 
-If you are ready to embark on this adventure, I invite you to click on the following video and start with the bonus video on our current financial system. I now give the floor to Théo. Thank you to him for collaborating with Descoupes Bitcoin for the realization of this video. I will see you very soon. Goodbye!
+**Section 3: Austrian Economic Perspectives**  
+Here, we will explore the practical applications of Austrian theory. You will learn in detail about the Austrian Business Cycle Theory, which explains how monetary manipulations create artificial booms followed by recessions. We will also see why economic calculation is impossible under a socialist system and how the Austrian methodology, based on praxeology (the study of human action), provides a unique and coherent approach to understanding economic phenomena.
+
+This course is a blend of economics and philosophy, led by an open discussion between Théo and me (Rogzy). I would like to warmly thank Théo Mogenet for creating this course. We greatly enjoyed developing this content, which is designed to be accessible to everyone. This course serves as an essential introduction and will lay the groundwork for our future, more advanced economic modules.
+
+And what if the key to understanding today's economy lies in a theory several centuries old? Let's discover it together!
 
 ## Money, Credit, Banks, and Central Banks
 
@@ -557,7 +564,7 @@ It is important to note that cherry-picking, which involves selectively choosing
 
 Methodology is an essential aspect in economics and in social sciences in general. It influences how questions are asked, hypotheses are formulated, and data is interpreted. Understanding the methodological differences between economic schools of thought can help us appreciate diverse perspectives and develop our own opinions on the topics discussed in previous episodes.
 
-# Conclusion
+# Final Section
 
 <partId>ae828713-d133-559f-93c2-101cb5245fca</partId>
 

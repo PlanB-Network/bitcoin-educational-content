@@ -1,0 +1,14 @@
+question: Jaki jest ostateczny cel działalności gospodarczej według Carla Mengera?
+answer: Ostatecznym celem działalności gospodarczej jest konsumpcja.
+wrong_answers:
+  - Ostatecznym celem działalności gospodarczej jest produkcja.
+  - Ostatecznym celem działalności gospodarczej są oszczędności.
+  - Ostatecznym celem działalności gospodarczej są inwestycje.
+explanation: |
+  Według Carla Mengera dobra są uważane za
+  ekonomiczne (cenione), ponieważ służą jako środki do celów
+  wybranych i cenionych przez jednostki. Dlatego dla Mengera,
+  punktem wyjścia analizy ekonomicznej są dobra konsumpcyjne,
+  lub dobra finalne, ponieważ reprezentują one ostateczny cel działalności gospodarczej
+  działalności gospodarczej.
+reviewed: true

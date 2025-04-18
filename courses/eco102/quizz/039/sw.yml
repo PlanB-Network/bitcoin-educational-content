@@ -1,0 +1,9 @@
+question: Ni ipi kanuni ya mafaqihi kwa mujibu wa Bastiat?
+answer: Ni kanuni ya utangulizi wa sheria juu ya mali
+wrong_answers:
+  - Ni kanuni ya utangulizi wa mali juu ya sheria
+  - Ni kanuni ya usawa mbele ya sheria
+  - Ni haki ya kumiliki mali bila serikali kuingilia kati
+explanation: |
+  Kwa Bastiat, kanuni ya wanasheria, kinyume na ile ya wanauchumi, inaiweka sheria kama mali iliyotangulia, nafasi ambayo anaikosoa kwa uwezo wake wa kuanzisha dhuluma.
+reviewed: false

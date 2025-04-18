@@ -1,0 +1,9 @@
+question: Ni hatua gani tatu za msingi katika mpango wa MAC?
+answer: Uzalishaji muhimu, utengenezaji wa lebo, uthibitishaji
+wrong_answers:
+  - Usimbaji fiche, usimbuaji, usambazaji
+  - Uzalishaji wa ufunguo wa umma, usimbaji fiche wa ufunguo wa kibinafsi, uthibitishaji
+  - Hashing ya ujumbe, usimbaji wa lebo, usambazaji wa lebo
+explanation: |
+  Mpango wa MAC una hatua tatu kuu: kutengeneza ufunguo wa siri, kutoa lebo ya ujumbe, na kuthibitisha kuwa ujumbe uliopokelewa na lebo yake zinalingana.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Ile epizodów hiperinflacji udokumentowano w tabeli Hanke-Krusa?
+answer: 56
+wrong_answers:
+  - 46
+  - 66
+  - 76
+explanation: |
+  Tabela Hanke-Krusa dokumentuje 56 epizodów hiperinflacji. Jednakże,
+  nie obejmuje jednak wszystkich epizodów, takich jak ten w Wenezueli w 2016 r., co zwiększa ich łączną liczbę do 57
+  do 57.
+reviewed: false

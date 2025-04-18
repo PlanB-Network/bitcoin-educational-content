@@ -1,0 +1,10 @@
+question: Je! ni tabia gani ya kawaida ya ulaghai katika kikoa cha sarafu-fiche?
+answer: Ahadi za kurudi zisizo za kweli.
+wrong_answers:
+  - Ahadi za bidhaa za kimwili.
+  - Ahadi za bidhaa za programu.
+  - Ahadi za fedha za fiat.
+explanation: |
+  Ulaghai katika kikoa cha sarafu-fiche mara nyingi huahidi mapato yasiyo ya kweli.
+  Ni muhimu kutokuamini kwa upofu, haswa linapokuja suala la bango la mtandao.
+reviewed: false

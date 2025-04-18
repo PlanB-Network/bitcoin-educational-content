@@ -1,0 +1,9 @@
+question: Nini maana ya apostrofi (') au h katika njia ya unyambulishaji?
+answer: Utoaji mgumu
+wrong_answers:
+  - Utoaji wa kawaida
+  - Toleo la nje
+  - Utoaji usio wa kawaida
+explanation: |
+  Apostrofi inaonyesha kwamba utokaji ni mgumu, unaohitaji ufunguo wa faragha wa mzazi kwa generate ufunguo wa mtoto.
+reviewed: false

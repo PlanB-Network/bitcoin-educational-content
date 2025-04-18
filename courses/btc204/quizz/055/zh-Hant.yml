@@ -1,0 +1,10 @@
+question: 什麼是 Bitcoin 接收 Address？
+answer: 用於接收 bitcoins 的字符串。
+wrong_answers:
+  - 用於傳送 bitcoins 的代碼。
+  - Mining bitcoins 的演算法。
+  - A Smart contract。
+explanation: |
+  接收 Address 用於接收比特幣到 Wallet。
+  
+reviewed: false

@@ -1,0 +1,9 @@
+question: Madhumuni ya SIGHASH_SINGLE ni nini?
+answer: Ili kufunika ingizo moja na matokeo yake yanayolingana
+wrong_answers:
+  - Ili kufunika pembejeo na matokeo yote
+  - Ili kufunika pembejeo pekee
+  - Ili kufunika matokeo yote isipokuwa moja
+explanation: |
+  SIGHASH_SINGLE inashughulikia ingizo moja na towe moja linalolingana na faharasa ya ingizo lililotiwa sahihi, na kuacha mengine yaweze kurekebishwa.
+reviewed: false

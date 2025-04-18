@@ -1,0 +1,8 @@
+question: Ni hatari gani kuu ya kutumia huduma ya uhifadhi kuhifadhi bitcoins zako?
+answer: Mtu mwingine anayeaminika anaweza kukuwekea kikomo ufikiaji wa pesa zako wakati wowote.
+wrong_answers:
+  - Mtu wa tatu anayeaminika anaweza kuongeza thamani ya bitcoins zako wakati wowote.
+  - Mtu wa tatu anayeaminika anaweza kupunguza thamani ya bitcoins zako wakati wowote.
+  - Mtu wa tatu anayeaminika hawezi kunakili bitcoins zako wakati wowote.
+explanation: >-
+reviewed: true

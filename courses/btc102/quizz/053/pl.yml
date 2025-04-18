@@ -1,0 +1,11 @@
+question: Co oznacza stwierdzenie, że Bitcoin jest jak czarna dziura?
+answer: Nie zniknie i z czasem pochłonie wszystko na swojej drodze.
+wrong_answers:
+  - W końcu zawali się pod własnym ciężarem.
+  - Jest to zagrożenie dla globalnego systemu finansowego.
+  - Jest to tajemnica, którą naukowcy wciąż próbują zrozumieć.
+explanation: |
+  Stwierdzenie, że Bitcoin jest jak czarna dziura, odnosi się do jego odporności
+  i jego potencjału do stania się dominującym systemem finansowym, pochłaniającym wszystkie inne systemy
+  na swojej drodze.
+reviewed: false

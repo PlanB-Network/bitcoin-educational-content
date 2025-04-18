@@ -6,4 +6,3 @@ Dans le cadre du portefeuille Samourai Wallet et d'autres logiciels de portefeui
 * Les transactions Stowaway (Payjoin) ;
 * Les transactions Stonewall x2 ;
 * Les transactions Joinbot.
-

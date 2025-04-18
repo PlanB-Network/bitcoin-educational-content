@@ -1,4 +1,6 @@
+# generate a random uuid v4
 id: 574fefe7-c787-4ed7-a36e-3203bad80f70
+
 ## Characteristics of the podcast
 
 # Name
@@ -10,12 +12,12 @@ name: PBN podcast
 host: Host 1 and Host 2
 
 # Language
-# Insert 2-digits ISO 639 language code (E.g. en for English, es for Spanish, th for Thai, etc...)
+# Insert 2-digits ISO 639 language code (e.g. en for English, es for Spanish, th for Thai, etc...)
 language: en
 
 # Links
 # Please, specify the following complete links (including https://):
-# - podcast: direct link to audio feed via the streaming service platform used (E.g.: apple podcast, spotify, fountain, etc...) 
+# - podcast: direct link to audio feed via the streaming service platform used (E.g.: apple podcast, spotify, fountain, etc...)
 # - twitter: link to twitter profile
 # - website: link to podcast's website if any
 links:
@@ -24,21 +26,21 @@ links:
   website: https://planb.network
 
 # Description
-# Write the main description of the podcast
+# Write the main description of the content
 description: |
   The journey from Normie to Bitcoiner.
   Normal people tell the story of how they found the greatest money ever invented. Contact www.twitter.com/2BitIdiots if you'd like to come on as a guest.
 
 # Tags
-# List the associated tags to the podcast
-# The list of tags is composed of 21 items that can be found here (list not yet available)
+# Choose from the list the associated tags to this content
+# The list of tags is composed of 51 items that can be found here (bitcoin-education-content/docs/50-planb-tags.md)
 tags:
   - bitcoin
-  - technology
+  - finance
+  - easy-explain
 
-# Contributors
-# List all the contributors who help format, review and translate the course.
-# They are identified by their UUID
-# Currently, there are no shared record of these UUIDs
+# Contributor section
+# List all the contributors who help format, review and translate the content.
+# They are identified by their Github usernames
 contributor_names:
-  - Asi0Flammeus
+  - author1_github_username #insert your github username

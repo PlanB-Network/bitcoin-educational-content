@@ -1,0 +1,11 @@
+question: Vita vya kuzuia vilihusu nini mnamo 2017?
+answer: Mzozo kuhusu kama kuongeza ukubwa wa kizuizi ili kupanua uwezo wa muamala.
+wrong_answers:
+  - Mzozo kuhusu kupunguza ukubwa wa block ili kupunguza uwezo wa muamala.
+  - Mgogoro kuhusu kama kuongeza Block reward ili kutoa motisha kwa wachimbaji.
+  - Mgogoro kuhusu kupunguza Block reward ili kuwakatisha tamaa wachimbaji.
+explanation: |
+  Vita vya kuzuia mnamo 2017 vilikuwa mzozo kuhusu ikiwa itafanyika
+  rekebisha Bitcoin kwa kuongeza ukubwa wa block ili kupanua
+  uwezo wa muamala.
+reviewed: true

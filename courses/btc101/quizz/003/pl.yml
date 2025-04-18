@@ -1,0 +1,9 @@
+question: Dlaczego płacimy opłaty w Bitcoin?
+answer: Stworzenie wolnego rynku dla transakcji w blokach.
+wrong_answers:
+  - Przedstawienie sposobu wydobywania Bitcoin.
+  - Aby bogaci ludzie płacili więcej.
+  - Aby wykluczyć rządy z sieci.
+explanation: |
+  Opłaty są niezbędne do stworzenia wolnego rynku dla włączania transakcji do bloków. W rzeczywistości blok ma rozmiar 1 MB (który został rozszerzony do 4 MB po aktualizacji SegWit), więc liczba transakcji, które można "wstawić" do bloku, jest ograniczona do kilku tysięcy transakcji na blok.
+reviewed: true

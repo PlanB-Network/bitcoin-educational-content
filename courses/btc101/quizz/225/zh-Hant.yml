@@ -1,0 +1,10 @@
+question: Lightning Network 是何時首次驗證和實施的？
+answer: 2017
+wrong_answers:
+  - 2015
+  - 2016
+  - 2018
+explanation: |
+  Lightning Network 於 2017 年首次驗證並實施
+  於 2017 年。
+reviewed: true

@@ -1,0 +1,8 @@
+question: Bitcoin 網路中的節點的主要功能是什麼？
+answer: 維護 Bitcoin Blockchain 的副本、驗證交易、傳送資訊給其他節點，以及執行 Bitcoin 通訊協定的規則。
+wrong_answers:
+  - 維護 Bitcoin Blockchain 的副本、驗證交易、傳送資訊給政府，以及變更 Bitcoin 通訊協定的規則。
+  - 僅維持 Bitcoin Blockchain 的副本。
+  - 僅傳送資訊給其他節點。
+explanation: >-
+reviewed: true

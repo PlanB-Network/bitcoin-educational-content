@@ -1,0 +1,12 @@
+question: Je! ni trilemma ya Blockchain katika ulimwengu wa sarafu-fiche?
+answer: Biashara kati ya scalability, usalama, na madaraka katika cryptocurrencies
+wrong_answers:
+  - Sifa ya Bitcoin inayotanguliza ugatuaji na usalama kuliko upunguzaji
+  - Ugumu wa kuamua trajectory na maadili ya cryptocurrencies
+  - Kizuizi cha teknolojia ya Bitcoin ikilinganishwa na sarafu zingine za siri
+explanation: |
+  Wazo la trilemma ya Blockchain ni wazo kwamba sarafu za siri
+  lazima kutanguliza sifa mbili kati ya tatu muhimu; scalability,
+  usalama, na ugatuzi. Bitcoin inatanguliza ugatuzi na usalama,
+  ambayo huathiri scalability yake, lakini bado inaifanikisha kupitia njia mbadala.
+reviewed: true

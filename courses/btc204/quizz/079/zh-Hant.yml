@@ -1,0 +1,10 @@
+question: 什麼詞彙描述 CoinJoin 所提供的針對硬幣未來交易分析的保護？
+answer: 前瞻性不發作。
+wrong_answers:
+  - 溯及既往。
+  - 耐追溯性。
+  - 時間隱私。
+explanation: |
+  防止從過去分析到現在的保護，就是所謂的前瞻性取消。
+  
+reviewed: false

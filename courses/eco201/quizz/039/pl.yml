@@ -1,0 +1,12 @@
+question: Jaka jest przyczyna depresji według monetarystów i keynesistów?
+answer: Niewystarczający zagregowany popyt
+wrong_answers:
+  - Nadprodukcja
+  - Wysokie stopy procentowe
+  - Wysoka inflacja
+explanation: |
+  Zarówno dla monetarystów, jak i keynesistów przyczyną depresji jest
+  niewystarczający zagregowany popyt. Uważają oni, że zapewnienie bodźca
+  do ekspansji kredytowej (obniżenie stóp procentowych) i wykorzystanie państwowych
+  deficytu w celu pobudzenia popytu zapoczątkuje ożywienie.
+reviewed: true

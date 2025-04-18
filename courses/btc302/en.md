@@ -28,9 +28,10 @@ Finally, a deeper reflection will be conducted on the **evolution of communities
 
 <partId>81318b8f-d316-5787-aa4c-4ec8370ba668</partId>
 
-## Recontextualization
+## Course overview
 
 <chapterId>e8991b82-4966-5e04-8f05-7cae46eacbaa</chapterId>
+Welcome to the BTC302 course!
 
 Since 2009, Bitcoin has continued to develop. This includes the implementation of new Bitcoin Improvement Proposals (BIPs), the creation of new layers to scale the network (among others, Lightning Network), and the development of multiple companies and startups.
 
@@ -59,6 +60,34 @@ On the other hand, how could we encourage new people who arrive attracted by the
 ####
 
 For these two problems, the best solution is to be in the field and educate.
+
+The purpose of this course is to provide you with all the essential tools to effectively create and organize a Bitcoin community or meetup. Whether you want to build a local initiative or develop an online group, this course will guide you through each step of the process, from creating your visual identity to setting up regular events and managing your communication channels.  
+
+**Section 1: Introduction**  
+We will begin by putting into context the importance of bringing people together around Bitcoin, whether through online communities or local meetups. You will learn why and where to launch your community, as well as how to define clear objectives to ensure its growth and sustainability.  
+
+**Section 2: Designing a Unique Identity for Your Bitcoin Community**  
+To attract new members and establish a sense of belonging, it's essential to create a unique identity. This section will teach you how to design a logo, poster, or banner that accurately reflects the spirit of your Bitcoin community.  
+
+**Section 3: Creating Communication Channels for Your Bitcoin Community**  
+Communication is at the heart of any community. Here, we will discuss the various communication channels to prioritize and how to effectively set up a Telegram group or Discord server. We will also cover integrating multi-purpose bots to facilitate community management.  
+
+**Section 4: Launching Your Social Media Presence**  
+Visibility is crucial for developing your community. You will learn how to create a dedicated Twitter profile, establish connections with other meetups near you, and use platforms like btcmap.org to enhance your visibility and attract new members.  
+
+**Section 5: Organizing a Bitcoin Meetup**  
+This section focuses on organizing meetups, from finding a suitable venue to planning the event itself. We will also explore ways to build participant loyalty to ensure sustainable growth for your community.  
+
+**Section 6: Examples of Projects and Initiatives**  
+To go beyond simple gatherings, this section offers concrete and original project ideas: themed events, workshops, educational content creation, local collaborations, and much more. You will also learn how to design physical and digital materials to promote your community.  
+
+**Section 7: Anticipating the Future**  
+Finally, we will address the natural evolution of your community. What if your group grows too quickly? How do you decentralize the organization? And how should you react if the regulatory environment becomes hostile? This section will help you anticipate upcoming challenges.  
+
+**Section 8: Bringing Bitcoiners Together**  
+This final section focuses on the very essence of your project: uniting Bitcoin enthusiasts around a shared vision. You will learn how to structure your approach to attract and retain new members, how to delegate tasks within your group, and how to grow your community sustainably.  
+
+Ready to learn how to build a strong and dynamic Bitcoin community? Let's go!  
 
 ## Why create a bitcoin community or meet-up?
 
@@ -332,7 +361,7 @@ In short, **the possibilities are endless and depend on your needs but also on t
 
 To guide you in more detail, we offer below a non-exhaustive video tutorial that presents some possibilities:
 
-![Tutorial Canva](https://www.youtube.com/watch?v=sgloI_v-nAk)
+:::video id=d11ae0ed-eacd-4924-afd3-75aff95d2899:::
 
 ####
 
@@ -479,7 +508,7 @@ We'll see later, but **it is highly recommended that you choose "Telegram group"
 
 For the tutorials that follow, we will use the "Telegram+" APK application; an application that allows more advanced configuration of Telegram. However, this is not necessary, as creating a group or super-group on Telegram can now be done very easily on a phone:
 
-![Tutorial Telegram+](https://www.youtube.com/watch?v=Z5mE-LksBZw)
+:::video id=b1da7cb4-5fb1-4a41-a1d4-bd90686826a9:::
 
 ### Creating a Telegram Channel
 
@@ -497,7 +526,7 @@ However, it is possible to add the ability for channel members to comment on eac
 
 Tutorial for creating a Telegram channel:
 
-![Tutorial Canale Telegram](https://www.youtube.com/watch?v=N5S7cgySV8U)
+:::video id=98be4709-d221-4030-8c31-e10113482515:::
 
 ### Create a Telegram Group
 
@@ -521,7 +550,7 @@ Administrators of this channel will then be able to:
 
 Tutorial for creating a Telegram group:
 
-![Tutorial canale Telegram](https://www.youtube.com/watch?v=u1BuxEsmFuA)
+:::video id=3d4792a7-1345-475b-93b1-b3a3945fb567:::
 
 A note: as mentioned before, the above tutorial was made on a computer with the "Telegram+" APK. However, it is now very easy to create a Telegram group on a phone.
 
@@ -561,7 +590,7 @@ In general, there is no specific number of members at which it becomes relevant 
 
 Tutorial for creating a Telegram supergroup:
 
-![Tutorial supergruppo Telegram](https://www.youtube.com/watch?v=GWVqpjBtg-U)
+:::video id=f78800ae-d8ca-479a-b913-99abd9916bff:::
 
 Note: As mentioned above, the above tutorial was made on a computer with the "Telegram+" APK. However, it is now very easy to create a Telegram supergroup on a phone.
 
@@ -639,7 +668,7 @@ Numerous additional options are also available to you. However, a word of advice
 
 Tutorial for adding a multifunctional bot to a group or super-group on Telegram:
 
-![Tutorial bot Telegram multifunzione](https://www.youtube.com/watch?v=l72GZcEFDtU)
+:::video id=cdbf82d6-3530-45c4-90de-593f100863bb:::
 
 Small note: as mentioned before, now all this procedure can be done on phone.
 
@@ -657,7 +686,7 @@ Obviously, besides Telegram and Twitter, this requires even more time in managem
 
 To make things easier for you, **we share a [pre-made, duplicable and editable Discord server](https://discord.com/template/bDY4eXXJk2C8) that you can customize as you wish**:
 
-![Tutorial server Discord duplicabile](https://www.youtube.com/watch?v=i3V6_359Ajw)
+:::video id=e647458a-a21e-44e0-bd03-20b82a871777:::
 
 ####
 
@@ -669,7 +698,7 @@ However, it is important to note that its installation is not very easy, that **
 
 With the goal of saving you time, here is a tutorial on how to add a multifunctional bot to a Telegram group or super-group:
 
-![Tutorial bot TediCross Discord - Telegram](https://www.youtube.com/watch?v=e4YAPG0ITF8)
+:::video id=6a0283f6-6d6c-4e81-8b2f-644b33c52fe6:::
 
 ## Consider other, private and more secure channels of communication
 
@@ -783,7 +812,7 @@ Finally, although your "@Bitcoin[CITY]" username is unique and now belongs to yo
 
 Tutorial for creating a Twitter account:
 
-![Tutorial account Twitter](https://www.youtube.com/watch?v=pp3DDakV0bA)
+:::video id=4648976f-41ec-499a-b7ec-a53e796f71b4:::
 
 ## Connecting with nearby meet-ups
 
@@ -1411,7 +1440,7 @@ To simplify this creation task, the tutorial below shows you in half an hour the
 
 Later, you will be able to purchase your own domain and even host it on your own server if you wish.
 
-![Tutorial per creare un sito web WordPress gratuito](https://www.youtube.com/watch?v=cZzH4gj_kZY)
+:::video id=a1b25c18-5fc1-4b97-baef-816d819c9382:::
 
 ####
 
@@ -1481,7 +1510,7 @@ In case you would like to **record on your computer, free software such as ["Aud
 
 Here is a short tutorial that presents, in 10 minutes, the main features you need to know about making a podcast with Audacity.
 
-![Tutorial per creare un podcast con Audacity](https://www.youtube.com/watch?v=z471_Ye6Y0I)
+:::video id=67d80ac7-253f-40a5-b621-fef2fb7174bd:::
 
 Note: As mentioned earlier, in the event that, one day, Bitcoin is banned or censored, it may be relevant **always keep a local copy on a hard drive of the podcasts** you publish.
 
@@ -1748,7 +1777,7 @@ Of course, we should not fall into a form of conspiratorial thinking. But **noth
 
 ![image](assets/fr/59.webp)
 
-# Conclusion
+# Bringing Bitcoiners Together
 
 <partId>62bc2138-c0be-5d39-a341-594690863257</partId>
 
@@ -1812,7 +1841,7 @@ Finally:
 
 In slightly less detail, in a 21-minute video, it looks like this:
 
-![Tutorial Comunità Bitcoin](https://www.youtube.com/watch?v=EHLAmHHuZd8)
+:::video id=a59956da-f554-4b54-89dd-5ca55b722686:::
 
 In any case, **remember that you are not alone and that the existing communities are there to help you**.
 
@@ -1845,7 +1874,7 @@ To achieve this, we will start with the experience of several French communities
 
 Of course, **in other countries, the legislation and operation of associations are different**. However, several points will be very helpful in creating an association or organizing an important event; and **we hope that other bitcoiners will come and integrate this training specifically for their country**.
 
-# Conclusion
+# Final Section
 
 <partId>e9bdddf4-54c9-4de9-bbce-c3eade8c32e5</partId>
 

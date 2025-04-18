@@ -23,7 +23,7 @@ Những thay đổi về mặt công nghệ và tài chính trong thế giới B
 
 <partId>008c49b7-5e17-5973-87f2-ba28429b2697</partId>
 
-## Giới thiệu về khóa học BTC102
+## Tổng quan về khóa học
 
 <chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 
@@ -610,7 +610,7 @@ https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83
 
 https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
 
-https://planb.network/tutorials/wallet/hardware/trezor-441fa7a1-4aac-4b6a-984f-3dd428ba0c84
+https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
 Lựa Chọn Giao Dịch:
 
@@ -679,7 +679,7 @@ https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83
 
 https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
 
-https://planb.network/tutorials/wallet/hardware/trezor-441fa7a1-4aac-4b6a-984f-3dd428ba0c84
+https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
 Một nền tảng DCA để tích lũy bitcoin.
 
@@ -747,7 +747,7 @@ https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83
 
 https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
 
-https://planb.network/tutorials/wallet/hardware/trezor-441fa7a1-4aac-4b6a-984f-3dd428ba0c84
+https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
 Nền Tảng Mua
 
@@ -1020,7 +1020,7 @@ Tôi thực sự tự hào vì bạn đã đạt đến giai đoạn này. Bạn
 
 Dù trường hợp nào, tất cả các khóa học của chúng tôi đều miễn phí, và nhiều tài nguyên hoặc hướng dẫn có sẵn trên nền tảng của chúng tôi để đi cùng bạn. Chúc bạn may mắn với việc học!
 
-# Kết luận
+# Phần cuối
 
 <partId>a8425389-4a53-4b57-b9b4-36c1cab12de5</partId>
 
@@ -1038,3 +1038,4 @@ Dù trường hợp nào, tất cả các khóa học của chúng tôi đều m
 
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
 <isCourseConclusion>true</isCourseConclusion>
+

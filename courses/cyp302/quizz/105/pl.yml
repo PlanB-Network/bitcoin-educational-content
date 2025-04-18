@@ -1,0 +1,9 @@
+question: W jaki sposób strony mogą zapewnić prawidłową kolejność wiadomości w bezpiecznej sesji?
+answer: Używając numerów sekwencyjnych w każdej wiadomości
+wrong_answers:
+  - Poprzez wymianę kluczy dla każdej wiadomości
+  - Dodając opóźnienia między wiadomościami
+  - Szyfrowanie wiadomości za pomocą innego algorytmu
+explanation: |
+  Numery sekwencyjne zapewniają, że wiadomości są odbierane we właściwej kolejności i zapobiegają zmianie ich kolejności.
+reviewed: false

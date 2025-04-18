@@ -1,0 +1,10 @@
+question: Jakie jest ryzyko nieposiadania klucza prywatnego do Bitcoin Wallet?
+answer: Bitcoiny użytkownika podlegają ryzyku, takiemu jak włamanie, przejęcie, regulacja lub bankructwo
+wrong_answers:
+  - Twoje bitcoiny zostaną automatycznie przekonwertowane na inną kryptowalutę
+  - Twoje bitcoiny stracą na wartości
+  - Twoje bitcoiny zostaną przeniesione do innego Wallet
+explanation: |
+  Jeśli użytkownik nie posiada klucza prywatnego do swojego Bitcoin Wallet, jego bitcoiny
+  są narażone na ryzyko, takie jak włamanie, przejęcie, regulacja lub bankructwo.
+reviewed: false

@@ -8,8 +8,6 @@ level: advanced
 
 project_id: 7dc44e54-3092-4250-8203-888aebc5f5a4
 
-test_only: true
-
 # Proofreading metadata
 original_language: en
 proofreading:
@@ -22,13 +20,13 @@ proofreading:
     last_contribution_date: 2025-02-20
     urgency: 1
     contributor_names:
-      - PaoloFoti
+      - k-nakamochi
     reward: 1.36
   - language: en
     last_contribution_date: 2025-02-20
     urgency: 1
     contributor_names:
-      - PaoloFoti
+      - k-nakamochi
     reward: 1.36
   - language: es
     last_contribution_date:

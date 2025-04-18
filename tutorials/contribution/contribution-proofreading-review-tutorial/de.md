@@ -33,13 +33,13 @@ Sie müssen kein GitHub-Experte sein, um Inhalte zu überprüfen. Obwohl es imme
 
 Wenn Sie jedoch mit Git und GitHub nicht vertraut sind und mehr darüber erfahren möchten, können Sie sich unseren Einführungsartikel über diese Tools ansehen:
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 ## 1. Ein Konto erstellen
 
 
 - Erstellen Sie ein Konto auf [GitHub] (https://github.com/), um Beiträge zu leisten. Wenn Sie eine Anleitung zur Erstellung Ihres GitHub-Kontos benötigen, finden Sie hier eine ausführliche Anleitung:
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 - Sie benötigen außerdem ein Konto bei der Messaging-App [Telegram] (https://telegram.org/).
 
@@ -144,7 +144,7 @@ NB. Es wird empfohlen, den Text im Code-Fenster zu überprüfen, wobei der Origi
 - Wenn Sie Zitate finden, stellen Sie sicher, dass Sie online recherchieren, um die richtige Übersetzung in Ihrer Sprache zu finden.
 - ÜBERSETZEN SIE NICHT die statischen Wörter am Anfang des Textes, die verwendet werden, um dessen Inhalt zu beschreiben: "name", "description", "objectives".
 - Wenn Sie im Text "Plan ₿ Network" finden, lassen Sie es in dieser ursprünglichen Form. Übersetzen Sie das Wort "plan" oder das Wort "network" nicht. Verwenden Sie außerdem NICHT den Artikel, wenn Sie Plan ₿ Network einführen, und betrachten Sie es als Marke. Das Gleiche gilt für "₿-CERT", "BIZ SCHOOL", "TECH SCHOOL", die ebenfalls in der ursprünglichen Form beibehalten werden sollten.
-- Achten Sie auf seltsame Interpunktion wie `\*\*\` , die möglicherweise eine schlechte Darstellung des Fettdrucksymbols ** darstellt. Überprüfen Sie immer den ursprünglichen englischen Text, um zu sehen, ob dort ein fetter Text stehen soll. Weitere Informationen zur Markdown-Sprache finden Sie [hier](https://www.markdownguide.org/basic-syntax/).
+- Achten Sie auf seltsame Interpunktion wie '\*\*\', die eine fehlerhafte Darstellung des Fettdrucksymbols ** darstellen könnte. Überprüfen Sie immer den ursprünglichen englischen Text, um festzustellen, ob ein fetter Text vorhanden sein soll. Im Allgemeinen fügen Sie bitte zwei Sternchen ** sowohl vor als auch nach dem Wort/Satz ein, um den Fettdruck darzustellen. Weitere Informationen zur Markdown-Sprache finden Sie [hier](https://www.markdownguide.org/basic-syntax/).
 - Wenn Sie Ihre Korrektur abgeschlossen haben, können Sie zum ursprünglichen Issue zurückkehren, das vom Koordinator eröffnet wurde, mit "Proofreading done" kommentieren und dort Ihren PR-Link einfügen.
 
 ## 7. Warten Sie auf die Überprüfung

@@ -9,49 +9,27 @@ Cryptographic method that allows combining a genuine signature with an additiona
 
 $$s_A = n_A + t + H(N_A + T \parallel P_A \parallel m_A) \cdot p_A$$
 
-&nbsp;
-
-
 - Alice calculates the adaptor signature $s_A'$ from the secret $t$ and her real signature $s_A$:
 
 $$s_A' = s_A - t$$
-
-&nbsp;
-
 
 - Alice sends to Bob her adaptor signature $s_A'$, her unsigned transaction $m_A$, the point corresponding to the secret $T$, and the point corresponding to the nonce $N_A$. We call these pieces of information an "adaptor". Note that with just this information, Bob is not able to recover Alice's BTC.
 - However, Bob can verify that Alice is not deceiving him. To do this, he checks that Alice's adaptor signature $s_A'$ matches the promised transaction $m_A$. If the following equation is correct, then he is convinced that Alice's adaptor signature is valid:
 
 $$s_A' \cdot G = N_A + H(N_A + T \parallel P_A \parallel m_A) \cdot P_A$$
 
-&nbsp;
-
-
 - This verification provides Bob with assurances from Alice, so that he can continue the atomic swap process with peace of mind. He will then create his own transaction $m_B$ sending 1 BTC to Alice and his own adaptor signature $s_B'$, which will be linked with the same secret $t$ that only Alice knows for now (Bob does not know this value $t$, but only its corresponding point $T$ that Alice has provided him): $$s_B' = n_B + H(N_B + T \parallel P_B \parallel m_B) \cdot p_B$$
-
-&nbsp;
-
 
 - Bob sends to Alice his adaptor signature $s_B'$, his unsigned transaction $m_B$, the point corresponding to the secret $T$, and the point corresponding to the nonce $N_B$. Alice can now combine Bob's adaptor signature $s_B'$ with the secret $t$, which only she knows, to calculate a valid signature $s_B$ for the transaction $m_B$ that sends her Bob's BTC:
 
 $$s_B = s_B' + t$$
 
-&nbsp;
-
 $$(s_B' + t) \cdot G = N_B + T + H(N_B + T \parallel P_B \parallel m_B) \cdot P_B$$
-
-&nbsp;
-
 
 - Alice broadcasts this signed transaction $m_B$ on the Bitcoin blockchain to recover the BTC that Bob promised her. Bob learns of this transaction on the blockchain. He is thus able to extract the signature $s_B = s_B' + t$. From this information, Bob can isolate the famous secret $t$ he needed:
 
 $$t = (s_B' + t) - s_B' = s_B - s_B'$$
 
-&nbsp;
-
-
 - However, this secret $t$ was the only missing information for Bob to produce the valid signature $s_A$, from Alice's adaptor signature $s_A'$, which will allow him to validate the transaction $m_A$ sending a BTC from Alice to Bob. He then calculates $s_A$ and broadcasts the transaction $m_A$ in turn: $$s_A = s_A' + t$$
-
-&nbsp;
 
 $$(s_A' + t) \cdot G = N_A + T + H(N_A + T \parallel P_A \parallel m_A) \cdot P_A$$

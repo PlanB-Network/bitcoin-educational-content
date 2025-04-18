@@ -1,0 +1,9 @@
+question: Ni kirekebishaji gani ambacho kinaweza kuunganishwa na bendera za kimsingi za sighash?
+answer: SIGHASH_ANYONECANPAY
+wrong_answers:
+  - SGHASH_NOOUTPUT
+  - SIGHASH_ALL WASHIRIKI
+  - SIGHASH_NONSTANDARD
+explanation: |
+  SIGHASH_ANYONECANPAY hurekebisha alama za sighash ili kujumuisha ingizo moja pekee huku zikiacha zingine ziweze kurekebishwa.
+reviewed: false

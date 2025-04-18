@@ -1,0 +1,11 @@
+question: Kiedy po raz pierwszy użyto Bitcoin do zakupu fizycznych towarów?
+answer: Kiedy Laszlo Hanyecz kupił 2 pizze za 10 000 BTC.
+wrong_answers:
+  - Kiedy Hal Finney kupił samochód za 100 000 BTC.
+  - Kiedy Satoshi Nakamoto kupił dom za 1 000 000 000 BTC.
+  - Żadna z pozostałych opcji.
+explanation: |
+  Pierwszy raz Bitcoin został użyty do zakupu fizycznych towarów
+  towarów był wtedy, gdy Laszlo Hanyecz kupił 2 pizze za 10,000
+  BTC, w dniu 2010/05/22, który jest obecnie znany jako Dzień Pizzy
+reviewed: true

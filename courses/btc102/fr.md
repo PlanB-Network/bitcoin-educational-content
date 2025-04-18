@@ -23,7 +23,7 @@ Pour vous aider à commencer cette aventure, j’ai créé ce cours gratuit. Uni
 
 <partId>008c49b7-5e17-5973-87f2-ba28429b2697</partId>
 
-## Introduction à la formation BTC102
+## Aperçu du cours
 
 <chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 
@@ -58,7 +58,7 @@ Nous sommes dans une industrie ou deux branches principales émergent dans le se
 
 L'intégralité de cette université est porté sur l'univers Bitcoin et non crypto.
 
-![Arnaque et fraude financière](https://youtu.be/LeyI3CBw2g4)
+:::video id=c1a469c0-77ed-4c7d-aff0-acb1cc727d76:::
 
 Le domaine des cryptomonnaies, dont le Bitcoin, reste relativement jeune et légèrement régulé. Il est ainsi riche en escroqueries diverses. La compréhension des dangers et la reconnaissance des pièges typiques sont essentielles. Voici quelques situations d'escroquerie fréquemment rencontrées :
 
@@ -164,7 +164,7 @@ Gardez toujours à l'esprit que tout le monde ne sera pas nécessairement transp
 
 <chapterId>f0873bf2-6a6f-5485-bb7a-d84be14f404d</chapterId>
 
-![sécurité en ligne](https://youtu.be/d9Ccy17yWB0)
+:::video id=bbd89739-728c-49d5-85ab-487881d82246:::
 
 Outre les arnaques en crypto-monnaie et autour de la finance, la première raison de perdre des bitcoins est liée à une mauvaise gestion de sa sécurité en ligne. Il arrive souvent que les gens utilisent le même mot de passe pour toutes leurs comptes, oublient de mettre à jour leur ordinateur et négligent de sauvegarder régulièrement leurs données. Si vous vous sentez concerné par ces pratiques, ne vous inquiétez pas, il est toujours possible d'améliorer vos habitudes de sécurité en ligne. Voici quelques mesures de base à mettre en place :
 
@@ -213,7 +213,7 @@ Ecnore une fois, si ce sujet vous intéresse, la formation SECU 101 est disponib
 
 <chapterId>33134b3f-92c1-5185-afb6-88599e47e801</chapterId>
 
-![Conseil pour débutant](https://youtu.be/juMUJ3MWeZY)
+:::video id=93612ecc-08a2-4242-9879-38970b052f44:::
 
 L'éducation formelle nous apprend peu de choses sur l'investissement. En conséquence, nous nous aventurons souvent seuls dans ce paysage d'investissement nouveau et complexe.
 
@@ -348,7 +348,7 @@ Si cela est nouveau pour vous, je vous encourage vivement à suivre BTC 101 avan
 
 <chapterId>d4327ac4-9ff8-5192-b542-cb78c0bd0aa7</chapterId>
 
-![pourquoi bitcoin est-il si important](https://youtu.be/Iq0wZF3Ui9A)
+:::video id=047c7ad4-1cd4-4d19-8255-700add7ba656:::
 
 Pourquoi l'importance de Bitcoin est-elle si cruciale ? C'est là la question centrale de cette université. Que cela concerne vos études ou votre stratégie d'investissement, sans une compréhension claire de l'importance de Bitcoin, vous risquez de dévier de votre plan d'action. L'objectif est donc de toujours garder à l'esprit les fondamentaux de Bitcoin, afin d'assurer que votre stratégie reste en phase avec vos convictions.
 
@@ -430,7 +430,7 @@ Bitcoin possède une dimension hautement philosophique, éthique et politique to
 
 <chapterId>e106c6f1-d75b-5a62-b245-0ea2e4d02ef8</chapterId>
 
-![comprendre l'industrie du bitcoin](https://youtu.be/fcXvjghA-uM)
+:::video id=e7016d07-9fce-42d2-8d33-51139fb485e2:::
 
 Avec l'arrivé de Bitcoin en 2009 par Satoshi Nakamoto, une industrie de plusieurs milliard de dollars est née. Cette industrie malgres, ca jeunesse, a connu une croissance exponentielle au cours des dix dernières années. De nouveaux acteurs arrivent chaque jour avec de grosse somme d'argent et sont prêts à pénétrer en force dans cette nouvelle industrie. Aujorud'hui l'industrie a atteint un point de non-retour où les gouvernements, banques, géant d'internet ou autres ont rejoint le mouvement avec toute sorte d'intervention.
 
@@ -657,7 +657,7 @@ https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83
 
 https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
 
-https://planb.network/tutorials/wallet/hardware/trezor-441fa7a1-4aac-4b6a-984f-3dd428ba0c84
+https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
 Moyen d'échange qui permet de faire du volume:
 
@@ -726,7 +726,7 @@ https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83
 
 https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
 
-https://planb.network/tutorials/wallet/hardware/trezor-441fa7a1-4aac-4b6a-984f-3dd428ba0c84
+https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
 Une plateforme de DCA pour acculumuer du bitccoin.
 
@@ -794,7 +794,7 @@ https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83
 
 https://planb.network/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
 
-https://planb.network/tutorials/wallet/hardware/trezor-441fa7a1-4aac-4b6a-984f-3dd428ba0c84
+https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
 Plateforme d'achat
 
@@ -1074,7 +1074,7 @@ Je suis vraiment fier que vous ayez atteint ce stade. Je le pense sincèrement. 
 
 Dans tous les cas, toutes nos formations restent gratuites et de nombreuses ressources ou tutoriels sont disponibles sur notre plateforme pour vous accompagner. Bonne continuation dans vos études !## Note la formation !
 
-# Conclusion
+# Section finale
 
 <partId>a8425389-4a53-4b57-b9b4-36c1cab12de5</partId>
 
@@ -1092,3 +1092,4 @@ Dans tous les cas, toutes nos formations restent gratuites et de nombreuses ress
 
 <chapterId>b082b8eb-dabc-5d79-94cf-eb8f48fc1968</chapterId>
 <isCourseConclusion>true</isCourseConclusion>
+

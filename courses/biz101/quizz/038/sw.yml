@@ -1,0 +1,9 @@
+question: Kwa nini utunzaji wa kumbukumbu kwa uangalifu ni muhimu unaposhughulika na Bitcoin katika uhasibu wa kampuni?
+answer: Kwa sababu kila muamala wa Bitcoin unaweza kuunda tukio linalotozwa kodi, na rekodi sahihi zinahitajika ili kukokotoa faida, hasara na madeni ya kodi.
+wrong_answers:
+  - Kwa sababu Blockchain hutuma ushuru kiotomatiki kwa niaba ya kampuni.
+  - Kwa sababu hakuna viwango vya uhasibu vinavyotumika kwa miamala ya Bitcoin hata kidogo.
+  - Kwa sababu haiwezekani kufuatilia shughuli za Bitcoin mara moja zimerekodiwa.
+explanation: |
+  Kila ununuzi, mauzo au malipo yanayofanywa katika Bitcoin yanaweza kuwa na athari za kodi. Kuweka rekodi za kina za msingi wa gharama, bei ya mauzo, na muda huhakikisha ripoti sahihi na inayozingatia kodi.
+reviewed: false

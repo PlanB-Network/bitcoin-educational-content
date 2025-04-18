@@ -1,0 +1,10 @@
+question: Czym jest UTXO w kontekście Bitcoin?
+answer: Niewydane dane wyjściowe transakcji
+wrong_answers:
+  - Niezidentyfikowane wyjście transakcji
+  - Wyjście transakcji niemożliwe do prześledzenia
+  - Dane wyjściowe niezweryfikowanej transakcji
+explanation: |
+  W kontekście Bitcoin, UTXO oznacza niewydane środki z transakcji.
+  Jest to termin używany do opisania wyniku transakcji, który użytkownik może wydać.
+reviewed: false

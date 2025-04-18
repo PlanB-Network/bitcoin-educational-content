@@ -1,0 +1,11 @@
+question: Ni maudhui gani hasidi yanaweza kuwa na viambatisho vya barua pepe na picha?
+answer: Programu hasidi
+wrong_answers:
+  - Barua taka
+  - Matangazo
+  - Maudhui ya utangazaji
+explanation: |
+  Viambatisho vya barua pepe na picha zinaweza kuwa na programu hasidi.
+  Kwa hivyo, hupaswi kupakua au kufungua viambatisho kutoka
+  watumaji wasiojulikana au wanaotiliwa shaka.
+reviewed: true

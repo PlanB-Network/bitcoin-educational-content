@@ -1,0 +1,9 @@
+question: Nini madhumuni ya maneno ya Mnemonic katika Bitcoin HD Wallet?
+answer: Kwa kuamua kupata funguo zote
+wrong_answers:
+  - Ili kusaini shughuli moja kwa moja
+  - Ili kusimba kwa njia fiche anwani za Bitcoin
+  - Kwa generate Hash kwa UTXOs
+explanation: |
+  Kifungu cha maneno cha Mnemonic kinaruhusu kupatikana kwa funguo zote za kibinafsi na za umma katika Wallet, hivyo kuwezesha kuhifadhi na kurejesha.
+reviewed: false

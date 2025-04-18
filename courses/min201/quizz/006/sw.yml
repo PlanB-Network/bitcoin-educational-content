@@ -1,0 +1,14 @@
+question: Ni kazi gani kuu ya wachimbaji katika mtandao wa Bitcoin?
+answer: Ili kutatua fumbo la kidijitali na kuthibitisha kizuizi kipya
+wrong_answers:
+  - Ili kuunda bitcoins mpya
+  - Ili kudhibiti bei ya Bitcoin
+  - Ili kuthibitisha utambulisho wa watumiaji wa Bitcoin
+explanation: |
+  Katika muktadha wa Bitcoin Mining, wachimbaji wanajitahidi haraka
+  suluhisha fumbo la kidijitali. Miner ya kwanza ya kutatua fumbo
+  inatoa suluhisho lao kwa mtandao mzima, ambao unaweza
+  kisha uthibitishe uhalali wake kwa urahisi. Hii imefanikiwa
+  uthibitishaji huruhusu Miner kuhalalisha kizuizi kipya na
+  iongeze kwenye Msururu wa Muda wa Bitcoin.
+reviewed: true

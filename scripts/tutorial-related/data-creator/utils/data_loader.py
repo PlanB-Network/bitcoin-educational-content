@@ -47,3 +47,30 @@ def load_all_builders(base_path):
                 if b_id and b_name:
                     builders[b_name] = b_id
     return builders
+
+def load_all_professors(base_path):
+
+    professors = {}
+    if not base_path:
+        return professors
+    professors_dir = os.path.join(base_path, "professors")
+    if not os.path.exists(professors_dir):
+        return professors
+    
+    for folder in os.listdir(professors_dir):
+        folder_path = os.path.join(professors_dir, folder)
+        if os.path.isdir(folder_path):
+            yaml_path = os.path.join(folder_path, "professor.yml")
+            if os.path.exists(yaml_path):
+                with open(yaml_path, "r", encoding="utf-8") as f:
+                    content = f.readlines()
+                p_id = None
+                p_name = None
+                for line in content:
+                    if line.startswith("id:"):
+                        p_id = line.split(":", 1)[1].strip()
+                    elif line.startswith("name:"):
+                        p_name = line.split(":", 1)[1].strip()
+                if p_id and p_name:
+                    professors[p_name] = p_id
+    return professors

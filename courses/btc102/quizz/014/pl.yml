@@ -1,0 +1,11 @@
+question: Jaki jest główny cel korzystania z narzędzi takich jak Signal, Tor i ProtonMail?
+answer: Cenić i chronić prywatność użytkowników
+wrong_answers:
+  - Aby przyspieszyć połączenie internetowe
+  - Aby chronić komputer przed wirusami
+  - Zapewnienie bezpłatnego dostępu do płatnych usług
+explanation: |
+  Narzędzia takie jak Signal, Tor i ProtonMail są używane do wartościowania i ochrony
+  
+  prywatności. Są one częścią środków mających na celu poprawę nawyków bezpieczeństwa online"
+reviewed: false

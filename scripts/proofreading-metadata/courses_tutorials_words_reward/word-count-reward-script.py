@@ -15,7 +15,7 @@ def count_words_in_file(file_path):
 def calculate_reward_multiplier(lines, start_idx):
     """
     Calculate reward multiplier based on number of contributors
-    between contributors_id: and reward:
+    between contributor_names: and reward:
     """
     contributor_count = 0
     idx = start_idx + 1  # Start from next line after contributors_id
@@ -51,7 +51,7 @@ def read_yaml_file(yaml_path):
                     i += 1  # Move to the next line
                     continue
                 
-                if line.startswith('contributors_id:') and current_language:
+                if line.startswith('contributor_names:') and current_language:
                     # Find reward multiplier based on contributors
                     multiplier = calculate_reward_multiplier(lines, i)
                     

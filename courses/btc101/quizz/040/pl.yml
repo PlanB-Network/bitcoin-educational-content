@@ -1,0 +1,12 @@
+question: Jaka jest strategia stosowana przez podmioty centralne w celu dewaluacji waluty fiducjarnej?
+answer: Zwiększają one masę pieniężną o kilka procent każdego roku.
+wrong_answers:
+  - Zmniejszają one masę monetarną o kilka procent każdego roku.
+  - Utrzymują one stałą masę pieniężną w porównaniu do masy początkowej.
+  - Ich masa pieniężna losowo zmienia się w porównaniu do masy początkowej.
+explanation: |
+  Podmioty centralne często dewaluują walutę, zwiększając jej masę
+  masę monetarną w porównaniu do początkowej o kilka procent rocznie
+  każdego roku. Ta cicha dewaluacja jest często uzasadniana
+  w interesie ludzi.
+reviewed: true

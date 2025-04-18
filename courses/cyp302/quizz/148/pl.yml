@@ -1,0 +1,9 @@
+question: Która funkcja jest używana do obliczania liczby liczb całkowitych współliniowych z liczbą całkowitą N?
+answer: Funkcja Phi Eulera
+wrong_answers:
+  - Funkcja logarytmiczna
+  - Funkcja Gamma Eulera
+  - Funkcja Gaussa
+explanation: |
+  Funkcja Phi Eulera (lub funkcja sumy) jest używana do obliczania liczby pierwiastków z liczby całkowitej N, szczególnie dla liczb całkowitych nie będących liczbami pierwszymi.
+reviewed: false

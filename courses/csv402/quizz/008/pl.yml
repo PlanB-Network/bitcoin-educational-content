@@ -1,0 +1,9 @@
+question: Jaki jest główny cel deterministycznych zobowiązań Bitcoin?
+answer: Upewnij się, że w transakcji wstawiany jest pojedynczy Commitment
+wrong_answers:
+  - Uproszczenie struktury transakcji Bitcoin
+  - Zmniejszenie kosztów transakcji RGB
+  - Optymalizacja generowania wielu podpisów RGB
+explanation: |
+  Zobowiązania deterministyczne Bitcoin gwarantują, że pojedynczy Commitment jest wstawiany do transakcji, aby uniknąć ukrytych konkurencyjnych zobowiązań.
+reviewed: false

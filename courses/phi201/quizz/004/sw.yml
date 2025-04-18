@@ -1,0 +1,9 @@
+question: Kuna tofauti gani ya kimsingi kati ya falsafa ya uhuru na falsafa ya nguvu?
+answer: Majibu mengine yote
+wrong_answers:
+  - Falsafa ya uhuru inampendelea mtu binafsi huku falsafa ya madaraka ikipendelea jamii
+  - Falsafa ya uhuru inathamini mali ya kibinafsi wakati falsafa ya mamlaka inathamini maslahi ya pamoja
+  - Falsafa ya uhuru inategemea sheria ya asili wakati falsafa ya nguvu inategemea sheria chanya
+explanation: |
+  Tofauti ya kimsingi iko katika ukweli kwamba falsafa ya uhuru inasisitiza mtu binafsi na haki zake, ambapo falsafa ya mamlaka inazingatia miundo ya kijamii na kisiasa, mara nyingi kwa gharama ya uhuru wa mtu binafsi na mali ya kibinafsi.
+reviewed: false

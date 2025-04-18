@@ -1,0 +1,9 @@
+question: Ni suala gani la usalama linalotokea ikiwa ujumbe huo huo umesimbwa kwa njia fiche mara nyingi katika mfumo wa kificho wa RSA uliorahisishwa?
+answer: Ujumbe utatoa usimbaji sawa kila wakati
+wrong_answers:
+  - Ujumbe huo utakuwa hatarini kwa mashambulizi ya kikatili
+  - Ujumbe utabadilishwa
+  - Ujumbe hautawezekana kusimbua
+explanation: |
+  Katika RSA iliyorahisishwa, kusimba ujumbe mara nyingi kutazalisha matokeo sawa kila wakati, na kufanya usimbaji fiche kuwa katika hatari ya kushambuliwa.
+reviewed: false

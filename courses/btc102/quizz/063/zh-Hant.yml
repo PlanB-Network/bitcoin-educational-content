@@ -1,0 +1,10 @@
+question: 不擁有 Bitcoin Wallet 私密金鑰的風險為何？
+answer: 您的比特幣會受到黑客入侵、扣押、監管或破產等風險的影響
+wrong_answers:
+  - 您的比特幣會自動轉換成另一種加密貨幣
+  - 您的比特幣將會貶值
+  - 您的比特幣將會轉移到另一個 Wallet
+explanation: |
+  如果您不擁有 Bitcoin Wallet 的私人密碼匙，您的 bitcoins
+  會受到黑客入侵、扣押、規管或破產等風險的影響。
+reviewed: false

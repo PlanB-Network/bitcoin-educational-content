@@ -1,0 +1,11 @@
+question: 在 Bitcoin 中，DCA 代表什麼？
+answer: 美元成本平均法
+wrong_answers:
+  - 數位貨幣協會
+  - 直接現金存取
+  - 分散式加密資產
+explanation: |
+  在 Bitcoin 中，DCA 代表美元成本平均法。這是一種
+  這是一種策略，投資人將投資總額分開定期購買，以減少波動對整體購買的影響。
+  定期購買，以減少波動對整體購買的影響。
+reviewed: false

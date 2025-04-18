@@ -4,8 +4,6 @@ description: Kuidas lihtsalt vastu võtta Bitcoini makseid?
 ---
 ![kaas](assets/cover.webp)
 
-![video](https://youtu.be/_yAyJReq3Dg)
-
 Tänapäeval on kauplejatel, kes soovivad vastu võtta Bitcoini makseviisina, olemas mitmeid lahendusi. Väikestele ettevõtetele, kes otsivad mitteametlikku seadistust, piisab kuumast rahakotist või isegi Lightning rahakotist, et otse sinna makseid vastu võtta. Suuremad ettevõtted, kes peavad pidama raamatupidamisarvestust, peaksid pigem valima spetsialiseeritud maksetöötlussüsteemi. Ka selles valdkonnas on mitmeid võimalusi saadaval.
 
 Neile, kes eelistavad mitte vaeva näha ja saada vahendid otse oma pangakontole fiat valuutas, on saadaval hoiustamislahendused nagu Open Node:

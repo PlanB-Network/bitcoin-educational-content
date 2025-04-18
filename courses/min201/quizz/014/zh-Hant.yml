@@ -1,0 +1,11 @@
+question: Mining 集中於 Bitcoin 的潛在風險為何？
+answer: Bitcoin 中的 Mining 集中化可能會導致交易審查，並使網路容易受到攻擊，包括 51% 攻擊，即行為人或團體控制超過 50% 的網路散列能力，允許他們控制並操縱網路。
+wrong_answers:
+  - Mining 集中於 Bitcoin 有可能導致 Bitcoin 價值下降，使網路容易受到通貨膨脹的影響。
+  - Mining 集中在 Bitcoin 有可能導致 Block reward 減少，使網路容易陷入停滯。
+  - Mining 集中在 Bitcoin 有可能導致交易速度下降，並使網路容易受到擁塞的影響。
+explanation: |
+  本章說明 Mining 集中於 Bitcoin
+  可能會導致交易審查，並使
+  網路容易受到攻擊，包括 51% 攻擊。
+reviewed: true

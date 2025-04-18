@@ -1,0 +1,11 @@
+question: Ni ipi mojawapo ya hatua za kimsingi za kuboresha tabia za usalama mtandaoni?
+answer: Washa uthibitishaji wa vipengele viwili (2FA)
+wrong_answers:
+  - Tumia nenosiri sawa kwa akaunti zote
+  - Puuza kuhifadhi nakala za data mara kwa mara
+  - Shiriki manenosiri yako
+explanation: |
+  Kuwezesha uthibitishaji wa vipengele viwili (2FA) ni mojawapo ya hatua za kimsingi
+  ili kuboresha tabia za usalama mtandaoni. Inatoa Layer ya ziada ya usalama kwa
+  akaunti zako nyeti zaidi.'
+reviewed: false

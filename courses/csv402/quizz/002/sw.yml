@@ -1,0 +1,9 @@
+question: Katika trilemma ya CAP, ni biashara gani kati ya uthibitishaji wa upande wa mteja na upatikanaji?
+answer: Kila mshiriki lazima ahifadhi data husika ndani ya nchi
+wrong_answers:
+  - Data ni ya umma na inaigwa kiotomatiki duniani kote
+  - Uthabiti uliotolewa kwa ajili ya kupatikana
+  - Mabadiliko ya serikali huchapishwa kila wakati kwenye Umeme
+explanation: |
+  Katika Client-side Validation, upatikanaji wa kimataifa haujahakikishiwa, kwani washiriki wanapaswa kudhibiti data zao wenyewe.
+reviewed: false

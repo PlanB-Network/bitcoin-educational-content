@@ -24,41 +24,31 @@ Hvis du trenger hjelp med oppsettet ditt, har en Telegram-gruppe blitt opprettet
 
 <partId>a99dc130-3650-563f-8d42-a0b5160af0ab</partId>
 
-## Velkommen!
+## Kursoversikt
 
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
-Velkommen til MINING 201: en introduksjon til mining. Ajelex, Jim & Rogzy er spente på å følge deg i dine første konkrete steg i denne nye industrien. Vi håper du nyter kurset og blir med på eventyret med hjemmemining!
+Velkommen til kurset MIN201: En introduksjon til mining. Ajelex, Jim & Rogzy er glade for å guide deg gjennom dine første steg i denne industrien. Vi håper du liker kurset og at du starter eventyret med hjemmemining!
 
-### Kurs Oversikt
+Denne opplæringen tar deg med inn i kjernen av Bitcoin-miningindustrien ved å gi deg en forståelse av både teoretiske og praktiske aspekter. Enten du er nybegynner eller allerede kjent med emnet, vil dette kurset hjelpe deg med å forstå de økonomiske og tekniske utfordringene knyttet til mining, mens du fullfører et praktisk prosjekt med å gjenbruke en ASIC til hjemmeklimaoppvarming.
 
-I dette kurset vil den første delen fokusere på teorien om mining med Ajelex. Vi vil ha grundige diskusjoner om ulike emner relatert til mining, som vil hjelpe oss å bedre forstå denne industrien og de økonomiske og geopolitiske problemstillingene knyttet til den.
+**Del 2: Alt om mining**  
+I denne delen vil vi gi deg en grundig forståelse av Bitcoin-mining. Vi vil dekke den tekniske funksjonen til mining, dens rolle i Bitcoin-protokollen, samt de økonomiske og geopolitiske implikasjonene. Du vil også lære om det komplekse forholdet mellom bitcoin-prisen og hashrate, samt spørsmål relatert til suverenitet og regulering i denne industrien.
 
-I den andre delen vil vi begi oss ut på en fascinerende praktisk sak, lære hvordan vi kan transformere en brukt S9 miner til et hjemmevarmesystem. Gjennom skriftlige guider og videoer vil alle nødvendige steg bli nøye forklart, og sikre din suksess i dette innovative prosjektet.
+**Del 3: Hjemmemining og gjenbruk av varme**  
+Deretter vil vi dykke ned i praktisk anvendelse med konseptet Attakai, som har som mål å demokratisere hjemmemining ved å omdanne brukte S9-minere til husholdningsvarmeenheter. Du vil lære hvordan du kjøper og modifiserer en brukt ASIC, og hvordan du forbereder nødvendig utstyr for maskinvaremodifikasjoner.
 
-Denne læringsreisen vil vise deg at gruveindustrien er mer kompleks enn den ser ut som, og tilbyr et balansert perspektiv på den økologiske debatten knyttet til den. Løpende assistanse vil være tilgjengelig gjennom en dedikert Telegram-gruppe for studenter, og alle nødvendige komponenter vil være lett tilgjengelige på vår e-handelsplattform.
+**Del 4: Attakai - Modifisering av programvaren til en Antminer S9**  
+Her vil du lære hvordan du konfigurerer din Antminer S9 til hjemmebruk. Vi vil lede deg gjennom oppsett av en Wi-Fi/Ethernet-bro, tilbakestilling av enheten, installasjon av BraiinsOS+ og optimalisering av den for mining.
 
-### Pensum:
+**Del 5: Attakai - Modifikasjon av vifter**  
+For å optimalisere din Antminer S9 for bruk som en tilleggsvarmekilde, vil denne delen lære deg hvordan du bytter ut strømforsyningsvifter og hovedvifter. Disse modifikasjonene er essensielle for å redusere støy og forbedre den termiske effektiviteten til enheten.
 
-Teoretisk Seksjon:
+**Del 6: Attakai - Konfigurasjon**  
+Til slutt vil du lære hvordan du kobler deg til en mining-pool og optimaliserer ytelsen til din Antminer S9. Du vil finne ut hvordan du oppnår optimal energieffektivitet og effektivt miner dine første satoshis.
 
-- Forklaring av mining.
-- Gruveindustrien.
-- Nyanser av gruveindustrien.
-- Mining i Bitcoin-protokollen.
-- Bitcoin Pris og Hashrate, en Korrelasjon? Suverenitet og Regulering
-- Intervju med en profesjonell innen gruveindustrien
+Klar til å utforske Bitcoin-miningverdenen og ta på deg den praktiske utfordringen med Attakai? La oss komme i gang!
 
-Praktisk Seksjon: Attakai
-
-- Introduksjon til Attakai.
-- Kjøpsguide.
-- Modifisering av programvaren til en Antminer S9.
-- Bytte av vifter for å redusere støy.
-- Pool-konfigurasjon.
-- Konfigurering av Antminer S9 med Braiins OS+.
-
-Klar til å begi deg ut på dette fengslende eventyret? La oss dykke sammen inn i den fascinerende verdenen av hjemmemining!
 
 # Alt du trenger å vite om Mining
 
@@ -197,7 +187,7 @@ Det spekuleres i fremtidig bruk av blokkplass, men det er generelt akseptert at 
 
 <chapterId>879a66b0-c20a-56b5-aad0-8a21be61e338</chapterId>
 
-![Hvem holder makten? Bitcoin, Energi og Produsenter](https://www.youtube.com/watch?v=4wywK6BfDw8)
+:::video id=0cda8911-caa3-4b1a-acff-4e2225f6aa58:::
 
 Rollen til gruvearbeidere i Bitcoin-nettverket har vært et emne for intens debatt under blokkstørrelseskrigene. Selv om de er essensielle for sikkerheten og funksjonaliteten til nettverket, holder ikke nødvendigvis gruvearbeiderne den ultimate makten i Bitcoin-økosystemet. Balansen mellom gruvearbeidere, noder og sluttbrukere sikrer integriteten og distribusjonen av nettverket.
 
@@ -238,7 +228,7 @@ For å oppsummere, minerne styrker Bitcoin-nettverket mot sensur ved å bruke el
 
 <chapterId>e6676214-007c-5181-968e-c27536231bd6</chapterId>
 
-![Hvordan skaffe en ren og uberørt bitcoin?](https://youtu.be/A5MTtn4mm44?si=D1Yi0dVwkyafeHv-)
+:::video id=c02c71dc-0398-4f24-b9c6-c2cf4da4d696:::
 
 ### Hashrate, pris og lønnsomhet
 
@@ -305,7 +295,7 @@ Konklusjonen er at til tross for den regulatoriske risikoen og muligheten for et
 
 ### Bak kulissene i industriell gruvedrift - Sebastien Gouspillou
 
-![Bak kulissene i industriell gruvedrift - Sebastien Gouspillou](https://www.youtube.com/watch?v=vYaQRLSDr5E&t=69s)
+:::video id=ed6bcd17-c486-46bd-bfb3-96c0d121ecdb:::
 
 # Hjemmegruvedrift og gjenbruk av varme
 
@@ -763,7 +753,7 @@ Dette setter en øvre grense for hash rate en maskin kan ha. Autotuning er en pr
 
 Resultatet er en høyere hash rate per watt elektrisitet, noe som betyr større fortjenestemarginer for gruvearbeidere. Grunnen til at maskiner ikke distribueres med denne typen programvare er at maskinvarians er uønsket, ettersom kunder ønsker å vite nøyaktig hva de får, så det er en dårlig idé for produsenter å selge et produkt som ikke har konsekvent og forutsigbar ytelse fra en maskin til en annen. I tillegg krever autotuning på brikkenivå betydelige utviklingsressurser, da det er komplekst å implementere. Produsenter bruker allerede mange ressurser på å utvikle sine egne firmwares. Det finnes programvareløsninger som tillater autotuning, som Braiins OS+. I tillegg til å forbedre ASIC-ytelsen med opptil 20%.
 
-# Konklusjon
+# Siste seksjon
 
 <partId>fa42ec0b-b1fd-47f6-8268-6eab684c1d2b</partId>
 

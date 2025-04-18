@@ -1,0 +1,8 @@
+question: Jaka jest główna nowość skryptów P2WPKH w porównaniu do P2PKH?
+answer: Podpisy są przenoszone do pola Świadek.
+wrong_answers:
+  - Adresy są kodowane w base58check.
+  - Pole scriptPubKey zawiera Hash klucza prywatnego.
+  - P2WPKH jest niekompatybilny z SegWit.
+explanation: |
+  P2WPKH, wprowadzony wraz z SegWit, przenosi podpisy do oddzielnej sekcji o nazwie Witness, aby zapobiec możliwościom manipulowania transakcjami.

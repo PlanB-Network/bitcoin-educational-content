@@ -1,0 +1,10 @@
+question: Je, ni baadhi ya lugha gani za programu zinazotumiwa katika usalama wa mtandao?
+answer: Chatu, C, Java
+wrong_answers:
+  - HTML, CSS, JavaScript
+  - Swift, Kotlin, Ruby
+  - PHP, Perl, Lua
+explanation: |
+  Sura hiyo inaorodhesha Python, C, na Java kama baadhi ya
+  lugha za programu zinazotumika katika usalama wa mtandao.
+reviewed: true

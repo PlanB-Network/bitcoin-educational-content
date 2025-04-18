@@ -1,0 +1,8 @@
+question: Je, ni nini nafasi ya wachimbaji katika mtandao wa Bitcoin?
+answer: Wachimbaji hulinda mtandao na kuongeza shughuli kwenye vitalu.
+wrong_answers:
+  - Wachimbaji hutengeneza bitcoins mpya.
+  - Wachimbaji huthibitisha utambulisho wa watumiaji wa Bitcoin.
+  - Wachimbaji huweka bei ya Bitcoin.
+explanation: >-
+reviewed: true

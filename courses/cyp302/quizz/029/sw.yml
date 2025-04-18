@@ -1,0 +1,9 @@
+question: Operesheni ya XOR inamaanisha nini inapotumika kati ya biti mbili?
+answer: Inarudi 1 ikiwa bits ni tofauti, vinginevyo inarudi 0
+wrong_answers:
+  - Inarudi 1 ikiwa biti zote mbili ni 1
+  - Inaongeza bits na kurudisha jumla
+  - Daima inarudi 0 bila kujali matokeo
+explanation: |
+  Operesheni ya XOR (au ya kipekee au) hutoa 1 ikiwa biti mbili ni tofauti (0 na 1 au 1 na 0) na 0 ikiwa ni sawa.
+reviewed: false

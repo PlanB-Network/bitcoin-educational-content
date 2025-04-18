@@ -1,0 +1,9 @@
+question: Jaki jest pierwszy krok do otwarcia kanału Lightning między dwoma uczestnikami?
+answer: Wiadomości Exchange zawierające kwoty i klucze publiczne
+wrong_answers:
+  - Natychmiastowa publikacja transakcji depozytowej na Blockchain
+  - Utworzenie wielopodpisowego Address 2/2 bez wcześniejszego Exchange
+  - Podpisanie transakcji wypłaty przed Exchange kluczy publicznych
+explanation: |
+  Otwarcie kanału rozpoczyna się od Exchange wiadomości między dwiema stronami, w których dzielą się one kwotami, które chcą zaangażować, oraz swoimi kluczami publicznymi.
+reviewed: false

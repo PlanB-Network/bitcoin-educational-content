@@ -1,7 +1,6 @@
 id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
 name: Loïc Morel
 
-contributor_id: pretty-private
 
 links:
   website: https://www.pandul.fr/
@@ -9,9 +8,8 @@ links:
   nostr: npub1x2kakfryyzw7gfh9n8d53w7669ck0ly9k2ayj0l9h7wfa829n7dqyp6jgd
 
 affiliations:
-  - Pandul
-  - DécouvreBitcoin
-
+  - 47c4770c-c738-442c-b723-8131a3cd34b4
+  - 77f56919-1875-45ab-8c4c-b8fb26b021de
 tips:
   lightning_address: pandul@sats.rs
 

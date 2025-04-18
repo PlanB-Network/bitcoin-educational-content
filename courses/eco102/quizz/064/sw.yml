@@ -1,0 +1,9 @@
+question: Kwa nini Bastiat anakosoa dhana ya ushuru wa ugawaji upya wa maendeleo?
+answer: Kwa sababu inaruhusu uporaji uliohalalishwa na wengi kwa gharama ya wachache
+wrong_answers:
+  - Kwa sababu haina ufanisi katika kuzalisha mapato ya kodi
+  - Kwa sababu inafaidika tu madarasa ya kazi
+  - Kwa sababu kimsingi inanufaisha makampuni binafsi
+explanation: |
+  Bastiat anaamini kwamba ushuru unaoendelea wa ugawaji upya unaruhusu walio wengi kuwanyonya wachache, na kugeuza ushuru kuwa chombo cha uporaji uliohalalishwa.
+reviewed: false

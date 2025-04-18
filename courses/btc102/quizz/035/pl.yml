@@ -1,0 +1,10 @@
+question: Kto opisał Bitcoin jako szwajcarski bank w kieszeni?
+answer: Barack Obama
+wrong_answers:
+  - Donald Trump
+  - Bill Gates
+  - Elon Musk
+explanation: |
+  Rozdział wspomina, że Barack Obama opisał kiedyś Bitcoin jako szwajcarski bank w kieszeni
+  bank w kieszeni.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Bitcoin 的擴充性問題是什麼？
+answer: 當採用貨幣系統時，如何實現每秒能夠提供越來越多交易的挑戰。
+wrong_answers:
+  - 隨著時間的推移，Mining 新比特幣的價值不斷增加，其難度也隨之增加。
+  - 每次 Halving 之後，Bitcoin 的價格波動性都會增加。
+  - Bitcoin 缺乏監管，會使交易變成非法。
+explanation: >-
+reviewed: true

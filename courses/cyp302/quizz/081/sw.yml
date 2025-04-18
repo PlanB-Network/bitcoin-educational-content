@@ -1,0 +1,9 @@
+question: Ni operesheni gani ambayo kwa kawaida hutumiwa kuchanganya mtiririko wa ufunguo na ujumbe katika msimbo wa mtiririko?
+answer: XOR
+wrong_answers:
+  - Kuzidisha
+  - Kuhama kwa moduli
+  - Uingizwaji wa kila barua
+explanation: |
+  Katika msimbo wa mtiririko, operesheni ya XOR kwa ujumla hutumiwa kuchanganya mtiririko wa vitufe na ujumbe kwa sababu ni rahisi na inaweza kutenduliwa.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Czym jest ciąg pseudolosowy?
+answer: Ciąg znaków, który wydaje się pochodzić z jednolitej zmiennej, ale jest generowany przez algorytm rozszerzania
+wrong_answers:
+  - Ciąg wygenerowany z identycznym prawdopodobieństwem dla każdego znaku
+  - Ciąg o stałej długości z naturalnego zdarzenia losowego
+  - Losowy ciąg wybrany tylko spośród wartości binarnych 0 i 1
+explanation: |
+  Ciąg pseudolosowy jest tworzony przez algorytm rozszerzania z mniejszego seed, w sposób naśladujący jednolity wybór spośród wszystkich ciągów o tej samej długości.
+reviewed: false

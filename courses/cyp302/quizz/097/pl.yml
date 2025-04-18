@@ -1,0 +1,9 @@
+question: Dlaczego sama poufność nie wystarczy do zapewnienia bezpiecznej komunikacji?
+answer: Ponieważ atakujący nadal może przechwycić i zmodyfikować wiadomość bez zrozumienia jej treści.
+wrong_answers:
+  - Ponieważ uzyskanie poufności jest zbyt trudne.
+  - Ponieważ klucze prywatne można łatwo odgadnąć.
+  - Ponieważ wiadomości nie mogą być uwierzytelniane bez podpisu cyfrowego.
+explanation: |
+  Poufność chroni treść wiadomości, ale bez MAC atakujący może przechwycić i zmodyfikować wiadomość bez jej zrozumienia, naruszając w ten sposób integralność komunikacji.
+reviewed: false

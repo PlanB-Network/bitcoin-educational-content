@@ -1,0 +1,9 @@
+question: Kwa nini kuhifadhi mtaji ni muhimu kwa kampuni yenye afya katika siku zijazo zisizo na uhakika?
+answer: Kudumisha akiba ya mtaji huruhusu kampuni kubadilika, kuwekeza katika ukuaji, na kushuka kwa uchumi wa hali ya hewa.
+wrong_answers:
+  - Kuhifadhi mtaji kunahakikisha kuwa hakuna mshindani anayeweza kuingia sokoni.
+  - Kuhifadhi mtaji huhakikisha kinga ya kudumu kutokana na mabadiliko yote ya udhibiti.
+  - Kuhifadhi mtaji ni muhimu tu ikiwa kampuni inapanga kutokua kamwe.
+explanation: |
+  Hali za siku zijazo hazitabiriki. Kwa kuweka akiba ya mtaji, biashara inaweza kuchukua fursa mpya, kushughulikia changamoto zisizotarajiwa, na kuwekeza katika mipango ya muda mrefu bila kutegemea tu fedha za nje.
+reviewed: false

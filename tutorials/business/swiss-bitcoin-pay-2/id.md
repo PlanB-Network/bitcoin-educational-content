@@ -4,8 +4,6 @@ description: Bagaimana cara mudah menerima pembayaran Bitcoin?
 ---
 ![cover](assets/cover.webp)
 
-![video](https://youtu.be/_yAyJReq3Dg)
-
 Hari ini, banyak solusi tersedia bagi pedagang yang ingin menerima Bitcoin sebagai metode pembayaran. Untuk entitas kecil yang mencari pengaturan informal, memasang dompet panas (hot wallet), atau bahkan dompet Lightning, cukup untuk menerima pembayaran langsung ke dalamnya. Bisnis yang lebih besar, yang perlu memelihara catatan akuntansi, sebaiknya memilih sistem pemrosesan pembayaran yang khusus. Beberapa opsi juga tersedia di area ini.
 
 Bagi mereka yang lebih memilih untuk tidak repot dan menerima dana dalam mata uang fiat langsung ke rekening bank mereka, solusi kustodian seperti Open Node tersedia:

@@ -1,0 +1,9 @@
+question: 這所大學課程的重點是什麼？
+answer: Bitcoin 宇宙。
+wrong_answers:
+  - 全球加密貨幣產業。
+  - 金融科技產業。
+  - Blockchain 產業。
+explanation: |
+  這所大學的全部重點都在 Bitcoin 宇宙，而非加密貨幣。
+reviewed: false

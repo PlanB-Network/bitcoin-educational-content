@@ -1,0 +1,9 @@
+question: Je! ni aina gani ya Address inayoanza na `1` na ni ya kiwango cha Urithi?
+answer: P2PKH
+wrong_answers:
+  - P2WPKH
+  - P2SH
+  - P2TR
+explanation: |
+  Anwani za P2PKH, zilizosimbwa katika base58check, hutoka kwenye kiwango cha Urithi na kuanza na tarakimu `1`.
+reviewed: false

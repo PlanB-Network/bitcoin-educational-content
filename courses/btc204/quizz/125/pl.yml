@@ -1,0 +1,10 @@
+question: Jaki jest główny cel wymiany monet?
+answer: Aby potajemnie przenieść Ownership bitcoinów
+wrong_answers:
+  - Zwiększenie szybkości transakcji
+  - Mieszanie bitcoinów
+  - Potajemnie Exchange i Altcoin dla Bitcoin
+explanation: |
+  Coinswap wykorzystuje inteligentne kontrakty, aby umożliwić transfer Bitcoin Ownership między dwoma użytkownikami, bez potrzeby zaufania i bez widoczności tego transferu na Blockchain.
+  
+reviewed: false

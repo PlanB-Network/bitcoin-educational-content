@@ -11,10 +11,12 @@ proofreading:
   - language: en
     last_contribution_date: 2025-02-17
     urgency: 1
-    contributors_id:
+    contributor_names:
       - jramos0
     reward: 0
 tags:
   - business
   - finance
   - guides
+contributor_names:
+  - Asi0Flammeus

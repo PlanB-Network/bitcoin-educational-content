@@ -1,0 +1,10 @@
+question: चौथे Halving के बाद BTC इनाम कितना है?
+answer: 3.125 बीटीसी।
+wrong_answers:
+  - 1.5625 बीटीसी।
+  - 6.25 बीटीसी।
+  - 12.5 बीटीसी।
+explanation: |
+  चौथे Halving के बाद, जो ब्लॉक हाइट पर होता है
+  8,40,000, Mining के लिए BTC इनाम है 3.125 BTC।
+reviewed: true

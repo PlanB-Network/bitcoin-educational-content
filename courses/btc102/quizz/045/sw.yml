@@ -1,0 +1,11 @@
+question: Je, ni jukumu gani kuu la watengenezaji wa Bitcoin Core?
+answer: Wao ni wajibu wa maendeleo kuu ya itifaki ya Bitcoin na vipengele vyake vya msingi
+wrong_answers:
+  - Wanadhibiti mtandao wa Bitcoin
+  - Wanaunda bitcoins mpya
+  - Wanadhibiti bei ya Bitcoin
+explanation: |
+  Maudhui ya sura yanaeleza kuwa watengenezaji wa Bitcoin Core wanawajibika
+  kwa ajili ya maendeleo kuu ya itifaki ya Bitcoin na vipengele vyake vya msingi. Wanafanya hivyo
+  si kudhibiti mtandao wa Bitcoin, kuunda bitcoins mpya, au kudhibiti bei ya Bitcoin.
+reviewed: false

@@ -1,0 +1,10 @@
+question: 什麼是石牆交易？
+answer: 可模仿迷你 CoinJoin 但又不是迷你 CoinJoin 的交易
+wrong_answers:
+  - 迷你 CoinJoin 形式的付款交易
+  - 涉及三個參與者的合作交易
+  - 收件人參與輸入的交易
+explanation: |
+  Stonewall 是一種特殊形式的 Bitcoin 交易，目的在於透過模仿兩個人之間的迷你 CoinJoin 來增加使用者在消費時的隱私，但實際上卻不是。
+  
+reviewed: false

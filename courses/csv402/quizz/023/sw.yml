@@ -1,0 +1,9 @@
+question: RGB inazuiaje Double-spending wakati wa State Transition?
+answer: Kufunga Seal iliyopo na kuunda mpya
+wrong_answers:
+  - Kwa kuthibitisha miamala yote kwenye Blockchain
+  - Kwa kuweka saini za multi-sig kwa kila operesheni
+  - Inathibitisha data ya Global State
+explanation: |
+  Kufunga Seal na UTXO iliyotumika inathibitisha kuwa mpito ni wa kipekee na hauwezi kubatilishwa.
+reviewed: false

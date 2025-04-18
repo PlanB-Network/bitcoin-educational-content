@@ -1,0 +1,9 @@
+question: Jak brzmiało imię inżyniera telekomunikacji z Temple City, który został błędnie zidentyfikowany przez dziennikarza Newsweeka jako Satoshi Nakamoto w marcu 2014 roku?
+answer: Dorian
+wrong_answers:
+  - Prentice
+  - Satoshi
+  - Patoshi
+explanation: |
+  Jego pełne imię i nazwisko brzmiało Dorian Prentice Satoshi Nakamoto. Był pochodzenia japońskiego. Zobacz [artykuł w Newsweeku](https: //www.newsweek.com/2014/03/14/face-behind-Bitcoin-247957.html).
+reviewed: false

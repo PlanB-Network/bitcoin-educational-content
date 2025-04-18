@@ -1,0 +1,9 @@
+question: Jaką rolę odgrywają urzędy certyfikacji w procesie dystrybucji kluczy publicznych?
+answer: Wydają one certyfikaty, które gwarantują autentyczność kluczy publicznych
+wrong_answers:
+  - generate klucze prywatne dla użytkowników
+  - Przechowują klucze publiczne wszystkich użytkowników
+  - Zapewniają szyfrowanie wiadomości między użytkownikami
+explanation: |
+  Urzędy certyfikacji wydają certyfikaty, które łączą klucz publiczny z jego właścicielem, umożliwiając użytkownikom weryfikację autentyczności używanych przez nich kluczy publicznych.
+reviewed: false

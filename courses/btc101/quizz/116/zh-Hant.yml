@@ -1,0 +1,10 @@
+question: 第一筆 Bitcoin 交易記錄是什麼？
+answer: Satoshi Nakamoto 與 Hal Finney 之間的 10 BTC 交易。
+wrong_answers:
+  - 交易 10,000 BTC 購買 2 個披薩。
+  - Satoshi Nakamoto 與 Hal Finney 之間的 1 BTC 交易。
+  - Laszlo Hanyecz 和 Hal Finney 之間的 10,000 BTC 交易。
+explanation: |
+  記錄的第一筆 Bitcoin 交易是
+  Satoshi Nakamoto 和 Hal Finney 之間的 10 BTC 交易。
+reviewed: true

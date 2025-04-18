@@ -1,0 +1,9 @@
+question: Jakie jest włoskie miasto kupieckie, które Henri Pirenne uważa za kolebkę rodzącego się kapitalizmu?
+answer: Wenecja.
+wrong_answers:
+  - Genua.
+  - Florencja.
+  - Wszystkie powyższe.
+explanation: |
+  Henri Pirenne uważa Wenecję za kolebkę kapitalizmu ze względu na jej kluczową rolę w handlu morskim i wczesny rozwój zaawansowanych praktyk handlowych, takich jak partnerstwo i kredyt.
+reviewed: false

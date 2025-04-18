@@ -1,0 +1,11 @@
+question: Je! ni tabia gani ya kawaida ya miradi ya Ponzi katika kikoa cha cryptocurrency?
+answer: Wanatumia pesa za wawekezaji wapya kulipa washiriki wakubwa.
+wrong_answers:
+  - Daima huhusisha Bitcoin.
+  - Wao ni daima kisheria na umewekwa.
+  - Daima huhusisha mali ya kimwili.
+explanation: |
+  Miradi ya Ponzi katika kikoa cha sarafu-fiche mara nyingi hufanya kazi kwa kutumia mpya
+  fedha za wawekezaji kulipa washiriki wazee. Hali hii isiyo endelevu na utegemezi
+  kwa wanaowasili wapya huwafanya kuwa na uwezekano wa kuanguka bila kuepukika.
+reviewed: false

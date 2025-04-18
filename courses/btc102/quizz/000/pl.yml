@@ -1,0 +1,11 @@
+question: Jaka jest wspólna cecha schematów Ponziego w domenie kryptowalut?
+answer: Wykorzystują oni pieniądze nowych inwestorów, aby płacić starszym uczestnikom.
+wrong_answers:
+  - Zawsze dotyczą Bitcoin.
+  - Są one zawsze legalne i regulowane.
+  - Zawsze wiążą się one z aktywami fizycznymi.
+explanation: |
+  Schematy Ponzi w domenie kryptowalut często działają poprzez wykorzystywanie pieniędzy nowych
+  pieniędzy nowych inwestorów, aby płacić starszym uczestnikom. Ten niezrównoważony charakter i zależność
+  od nowych uczestników sprawiają, że mogą one nieuchronnie upaść.
+reviewed: false

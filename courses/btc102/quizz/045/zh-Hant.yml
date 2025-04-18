@@ -1,0 +1,11 @@
+question: Bitcoin Core 開發人員的主要角色是什麼？
+answer: 他們負責 Bitcoin 通訊協定及其核心功能的主要開發工作
+wrong_answers:
+  - 他們控制 Bitcoin 網路
+  - 他們創造新的比特幣
+  - 他們調節 Bitcoin 的價格
+explanation: |
+  本章內容說明 Bitcoin Core 開發人員負責
+  Bitcoin 通訊協定及其核心功能的主要開發工作。他們不
+  不控制 Bitcoin 網路、不創造新的比特幣，也不調節 Bitcoin 的價格。
+reviewed: false

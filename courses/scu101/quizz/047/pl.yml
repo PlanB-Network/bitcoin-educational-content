@@ -1,0 +1,12 @@
+question: Jaki jest cel wdrożenia 2FA?
+answer: Aby chronić swoje konta online przed nieautoryzowanym dostępem.
+wrong_answers:
+  - Aby utrudnić użytkownikowi dostęp do własnego konta
+  - Aby śledzić swoją aktywność online
+  - Aby zwiększyć szybkość połączenia internetowego
+explanation: |
+  2FA dodaje dodatkowe Layer bezpieczeństwa do kont online
+  kont online. Nawet jeśli haker uzyska twoje hasło, nie będzie w stanie
+  nie będzie w stanie uzyskać dostępu do konta bez drugiego
+  weryfikacji.
+reviewed: true

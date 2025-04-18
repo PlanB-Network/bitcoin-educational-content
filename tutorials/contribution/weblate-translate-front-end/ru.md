@@ -14,7 +14,7 @@ description: Как вы можете принять участие в пере�
 
 Для перевода образовательного контента мы используем [искусственный интеллект](https://github.com/Asi0Flammeus/LLM-Translator). Затем, чтобы исправить возможные ошибки в этих файлах, мы приглашаем к сотрудничеству корректоров. Если вы хотите вычитать некоторые материалы, обратитесь к следующему руководству:
 
-https://planb.network/tutorials/contribution/content/content-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
+https://planb.network/tutorials/contribution/content/contribution-proofreading-review-tutorial-1ee068ca-ddaf-4bec-b44e-b41a9abfdef6
 С другой стороны, если вы заинтересованы в переводе статических элементов сайта (за исключением образовательного контента), вы попали по адресу! Для эффективного перевода фронтенда мы используем инструмент Weblate, который очень прост в использовании и облегчает подход к переводу.
 
 Если вы хотите добавить в Plan ₿ Network совершенно новый язык, обязательно свяжитесь с командой Plan ₿ Network через нашу [Telegram-группу](https://t.me/PlanBNetwork_ContentBuilder). Если у вас нет Telegram, вы можете отправить письмо по адресу mari@planb.network. Обязательно напишите небольшую презентацию о том, кто вы и какими языками владеете.
@@ -23,7 +23,7 @@ https://planb.network/tutorials/contribution/content/content-review-tutorial-1ee
 
 Прежде чем следовать этому специальному руководству, добавьте новый язык в Weblate.
 
-https://planb.network/tutorials/others/contribution/add-new-language-weblate-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
+https://planb.network/tutorials/contribution/content/weblate-add-new-language-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
 Когда вы будете готовы приступить к переводу, вернитесь к этому руководству и пройдитесь по следующим пунктам.
 
 ## Зарегистрируйтесь на Weblate

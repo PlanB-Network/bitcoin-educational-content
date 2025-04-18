@@ -87,7 +87,7 @@ Những hàm băm mật mã này có một số đặc điểm thiết yếu là
 
 #### 1. Khả năng không thể đảo ngược (kháng ảnh trước):
 
-Khả năng không thể đảo ngược có nghĩa là việc tính toán băm từ thông tin đầu vào là dễ dàng, nhưng phép tính ngược lại, tức là tìm thông tin đầu vào từ băm, là gần như không thể. Tính chất này làm cho hàm băm hoàn hảo cho việc tạo ra các dấu vân tay số duy nhất mà không làm lộ thông tin gốc. Đặc điểm này thường được gọi là một hàm một chiều hoặc "_hàm cửa bẫy_".
+Tính không thể đảo ngược có nghĩa là rất dễ tính toán hàm băm từ thông tin đầu vào, nhưng phép tính ngược lại, tức là tìm đầu vào từ hàm băm, là hầu như không thể. Tính chất này khiến các hàm băm trở nên hoàn hảo để tạo dấu vân tay kỹ thuật số độc nhất mà không làm lộ thông tin gốc.
 
 Trong ví dụ đã cho, việc thu được băm `24f1b9…` bằng cách biết đầu vào "_PlanB_" là đơn giản và nhanh chóng. Tuy nhiên, việc tìm ra thông điệp "_PlanB_" chỉ bằng cách biết `24f1b9…` là không thể.
 
@@ -2252,7 +2252,7 @@ Sau đó, việc tạo địa chỉ sẽ tiếp tục theo cùng một quy trìn
 
 Và đó là tất cả! Chúng ta đã đến cuối khóa học CYP201. Nếu bạn thấy khóa học này hữu ích, tôi sẽ rất biết ơn nếu bạn có thể dành vài phút để đánh giá cao nó trong chương đánh giá tiếp theo. Đừng ngần ngại chia sẻ nó với người thân yêu của bạn hoặc trên các mạng xã hội của bạn. Cuối cùng, nếu bạn muốn nhận bằng chứng nhận cho khóa học này, bạn có thể tham gia kỳ thi cuối cùng ngay sau chương đánh giá.
 
-# Kết luận
+# Phần cuối
 <partId>58111408-b734-54db-9ea7-0d5b67f99f99</partId>
 
 ## Nhận xét & Đánh giá

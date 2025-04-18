@@ -1,0 +1,9 @@
+question: Schema 在 RGB Contract 中的主要作用是什麼？
+answer: 說明 Business Logic 和 Contract 的資料結構
+wrong_answers:
+  - 為 RGB 錢包定義 Interface
+  - 在 Blockchain 上管理腳本的編譯
+  - On-Chain 加密驗證
+explanation: |
+  Schema 定義了 Contract 的宣告式結構、資料類型和驗證規則，讓您可以在客戶端管理 Business Logic。
+reviewed: false

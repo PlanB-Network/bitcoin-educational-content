@@ -1,11 +1,10 @@
 id: 48023c7d-e4a4-4b9d-82bf-2bd43fead60a
 start_date: 2024-06-28
 end_date: 2024-06-30
-address_line_1: Germany
+address_city_country: Germany
 address_line_2:
 address_line_3:
 name: Bitcoin im Ländle 2024
-builder: EINUNDZWANZIG
 type: conference
 book_online: false
 book_in_person: false

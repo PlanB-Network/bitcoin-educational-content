@@ -1,0 +1,12 @@
+question: W którym roku przewiduje się zaprzestanie tworzenia bitcoinów?
+answer: 2140
+wrong_answers:
+  - 2050
+  - 2030
+  - 2200
+explanation: |
+  Ze względu na mechanizm Halving można matematycznie przewidzieć, że
+  przewidzieć, że tworzenie bitcoinów zakończy się w 2140 roku,
+  kiedy całkowita liczba bitcoinów osiągnie limit 21
+  milionów.
+reviewed: true

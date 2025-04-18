@@ -1,0 +1,10 @@
+question: 為什麼建議不要在 CoinJoin 循環之後合併數個 UTXO？
+answer: 這可能會因 CIOH 而損害隱私。
+wrong_answers:
+  - 它會降低交易速度。
+  - 它會向協調員揭露可疑的活動。
+  - 由於回合付款啟發式，這可能會損害隱私。
+explanation: |
+  重要的是要避免在同一個交易中結合混合的 UTXO 與未混合的 UTXO，而且也要避免 UTXO 之間的混合，以避免共用輸入-Ownership-Heuristic (CIOH)。
+  
+reviewed: false

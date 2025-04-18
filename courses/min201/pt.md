@@ -24,41 +24,31 @@ Se você precisar de ajuda para sua empreitada, um grupo no Telegram foi criado 
 
 <partId>a99dc130-3650-563f-8d42-a0b5160af0ab</partId>
 
-## Bem-vindo!
+## Visão Geral do Curso
 
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
-Bem-vindo ao MINING 201: uma introdução à mineração. Ajelex, Jim & Rogzy estão felizes em acompanhá-lo em seus primeiros passos concretos nesta nova indústria. Esperamos que você goste do curso e se junte à aventura da mineração doméstica!
+Bem-vindo ao curso MIN201: Uma introdução à mineração. Ajelex, Jim & Rogzy estão animados para guiá-lo em seus primeiros passos nesta indústria. Esperamos que você aproveite o curso e embarque na aventura do home mining!
 
-### Visão geral do curso
+Este treinamento leva você ao coração da indústria de mineração de Bitcoin, oferecendo uma compreensão dos aspectos teóricos e práticos. Seja você um iniciante ou alguém já familiarizado com o assunto, este curso o ajudará a entender os desafios econômicos e técnicos relacionados à mineração, enquanto realiza um projeto prático de reutilização de um ASIC para aquecimento doméstico.
 
-Neste curso, a primeira seção será dedicada à teoria da mineração com Ajelex. Discutiremos em profundidade os diversos temas relacionados à mineração, o que nos permitirá entender melhor essa indústria, bem como as questões econômicas e geopolíticas envolvidas.
+**Seção 2: Tudo sobre mineração**  
+Nesta seção, forneceremos um entendimento aprofundado sobre a mineração de Bitcoin. Cobriremos o funcionamento técnico da mineração, seu papel no protocolo do Bitcoin e suas implicações econômicas e geopolíticas. Você também aprenderá sobre a relação complexa entre o preço do bitcoin e o hashrate, além dos desafios relacionados à soberania e regulamentação desta indústria.
 
-Na segunda seção, embarcaremos em um caso prático fascinante, aprendendo a transformar um minerador S9 usado em um aquecedor de ambiente. Através de guias escritos e vídeos, todas as etapas necessárias serão explicadas minuciosamente, garantindo o seu sucesso neste projeto inovador.
+**Seção 3: Home mining e reutilização de calor**  
+A seguir, vamos explorar a aplicação prática com o conceito de Attakai, que visa democratizar o home mining transformando mineradores S9 usados em dispositivos de aquecimento doméstico. Você aprenderá a comprar e modificar um ASIC usado, preparando o equipamento necessário para as modificações de hardware.
 
-Esta jornada de aprendizado mostrará que a indústria de mineração é mais complexa do que parece, oferecendo uma perspectiva equilibrada sobre o debate ecológico relacionado. Ajuda contínua estará disponível através de um grupo dedicado no Telegram para os alunos, e todas as peças necessárias serão facilmente acessíveis em nossa plataforma de comércio eletrônico.
+**Seção 4: Attakai - Modificação do software de um Antminer S9**  
+Aqui, você aprenderá a configurar seu Antminer S9 para uso doméstico. Vamos guiá-lo através da configuração de uma ponte Wi-Fi/Ethernet, redefinição do dispositivo, instalação do BraiinsOS+ e otimização para mineração.
 
-### Currículo:
+**Seção 5: Attakai - Modificação das ventoinhas**  
+Para otimizar o uso do seu Antminer S9 como um aquecedor auxiliar, esta seção ensinará como substituir as ventoinhas da fonte de alimentação e as ventoinhas principais. Essas modificações são essenciais para reduzir o ruído e melhorar a eficiência térmica do dispositivo.
 
-Seção Teórica:
+**Seção 6: Attakai - Configuração**  
+Finalmente, você aprenderá a se conectar a um pool de mineração e otimizar o desempenho do seu Antminer S9. Descubra como alcançar a eficiência energética ideal e minerar seus primeiros satoshis de maneira eficaz.
 
-- Explicação da mineração.
-- A indústria de mineração.
-- As nuances da indústria de mineração.
-- A mineração no protocolo bitcoin.
-- Preço do bitcoin e hashrate, uma correlação?\* Soberania e regulamentação
-- Entrevista com um profissional da indústria de mineração
+Pronto para descobrir o mundo da mineração de Bitcoin e enfrentar o desafio prático do Attakai? Vamos começar!
 
-Seção Prática: Attakai
-
-- Introdução ao Attakai.
-- Guia de compra.
-- Modificação do software de um Antminer S9.
-- Substituição dos ventiladores para reduzir o ruído.
-- Configuração de um pool.
-- Configurando seu Antminer S9 com o Braiins OS+.
-
-Pronto para começar essa aventura cativante? Vamos mergulhar juntos no fascinante mundo da mineração caseira!
 
 # Tudo o que você precisa saber sobre mineração
 
@@ -193,7 +183,7 @@ A especulação cerca do uso futuro do espaço de blocos, mas é geralmente acei
 
 <chapterId>7b9ee427-316a-54e3-a2d4-4ea97839a31b</chapterId>
 
-![Quem tem o poder? Bitcoin, energia e fabricantes](https://www.youtube.com/watch?v=4wywK6BfDw8)
+:::video id=0cda8911-caa3-4b1a-acff-4e2225f6aa58:::
 
 O papel dos mineradores na rede Bitcoin foi um tópico de debate intenso durante a guerra dos blocos. Embora sejam essenciais para a segurança e a funcionalidade da rede, os mineradores não necessariamente detêm o poder supremo no ecossistema Bitcoin. O equilíbrio entre os mineradores, os nós e os usuários finais garante a integridade e a distribuição da rede.
 
@@ -234,7 +224,7 @@ Para recapitular, os mineradores fortalecem a rede Bitcoin contra a censura usan
 
 <chapterId>879a66b0-c20a-56b5-aad0-8a21be61e338</chapterId>
 
-![Como obter um bitcoin branco e puro?](https://youtu.be/A5MTtn4mm44?si=D1Yi0dVwkyafeHv-)
+:::video id=c02c71dc-0398-4f24-b9c6-c2cf4da4d696:::
 
 ### Hashrate, Preço e Rentabilidade
 
@@ -305,7 +295,7 @@ Em conclusão, apesar do risco regulatório e da possibilidade de uma proibiçã
 
 ### Bastidores da mineração industrial - Sebastien Gouspillou
 
-![Bastidores da mineração industrial - Sebastien Gouspillou](https://www.youtube.com/watch?v=vYaQRLSDr5E&t=69s)
+:::video id=ed6bcd17-c486-46bd-bfb3-96c0d121ecdb:::
 
 # Mineração doméstica e reutilização de calor
 
@@ -781,7 +771,7 @@ Isso impõe um limite superior à taxa de hashing que uma máquina pode ter. O a
 
 O resultado final é uma taxa de hashing mais alta por watt de eletricidade, o que significa margens de lucro maiores para os mineradores. A razão pela qual as máquinas não são distribuídas com esse tipo de software é que a variação por máquina não é desejável, pois os clientes querem saber exatamente o que estão obtendo, e, portanto, é uma má ideia para os fabricantes venderem um produto que não tenha desempenho consistente e previsível de uma máquina para outra. Além disso, o ajuste automático por chip requer recursos de desenvolvimento consideráveis, pois é complexo de implementar. Os fabricantes já gastam muitos recursos para desenvolver seus próprios firmwares. Existem soluções de software que permitem implementar o autotuning, como o Braiins OS+. Além de melhorar o desempenho do ASIC em até 20%.
 
-# Conclusão
+# Seção final
 
 <partId>fa42ec0b-b1fd-47f6-8268-6eab684c1d2b</partId>
 

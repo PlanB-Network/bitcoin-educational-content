@@ -1,0 +1,11 @@
+question: Czy ktoś może zduplikować kod Bitcoin?
+answer: tak, ale nie można skopiować wartości sieci Bitcoin
+wrong_answers:
+  - tak i skopiowałbyś również wartość sieci Bitcoin
+  - nie i można skopiować wartość sieci Bitcoin
+  - nie, ponieważ kod Bitcoin jest zamknięty
+explanation: |
+  Podczas gdy kod Bitcoin jest open source i może być kopiowany,
+  wartość Bitcoin nie wynika z jego kodu. Jej źródłem jest
+  jego sieci użytkowników oraz zaufania i adopcji, które zbudował z biegiem czasu.
+reviewed: true

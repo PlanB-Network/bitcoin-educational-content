@@ -1,0 +1,10 @@
+question: Tukio hilo linaitwaje wakati zawadi ya miamala ya Mining Bitcoin inapopunguzwa kwa nusu?
+answer: Halving
+wrong_answers:
+  - Kuongezeka maradufu
+  - Robo
+  - Kupanda mara tatu
+explanation: |
+  Kupunguzwa kwa programu kwa zawadi za Mining, Halving kila
+  miaka minne, ni tukio linalojulikana kama Halving.
+reviewed: true

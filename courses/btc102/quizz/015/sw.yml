@@ -1,0 +1,11 @@
+question: Je, ni faida gani kuu ya kutumia kidhibiti nenosiri kulingana na sura?
+answer: Inakusaidia usiwahi kutumia nenosiri sawa mara mbili
+wrong_answers:
+  - Inakusaidia kukumbuka majina yako ya watumiaji
+  - Inalinda kompyuta yako kutoka kwa virusi
+  - Inazalisha nywila za nasibu
+explanation: |
+  Kulingana na sura, kidhibiti cha nenosiri hukusaidia kamwe kutumia
+  nenosiri sawa mara mbili, chagua manenosiri tata na salama, na kuwezesha mtandao wako
+  usimamizi wa usalama.'
+reviewed: false

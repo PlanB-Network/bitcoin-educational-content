@@ -1,0 +1,10 @@
+question: 1923 年 10 月德國的通貨膨脹率是多少？
+answer: 29.50%.
+wrong_answers:
+  - 200.9%.
+  - 50.51%.
+  - 25.98%.
+explanation: |
+  德國通貨膨脹率最高的月份是
+  1923 年 10 月，最高為 29.50%。
+reviewed: true

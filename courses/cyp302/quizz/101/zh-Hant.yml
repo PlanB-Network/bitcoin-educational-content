@@ -1,0 +1,9 @@
+question: 什麼是 HMAC？
+answer: 以 Hash 函數為基礎的訊息驗證碼
+wrong_answers:
+  - 基於 Hash 函數的非對稱加密算法
+  - 基於 Diffie-Hellman 的非對稱加密算法
+  - 基於 Diffie-Hellman 的訊息驗證碼
+explanation: |
+  HMAC 是一種訊息驗證碼，它使用 Hash 函數 (例如 SHA-256)來建立一個標記，以驗證訊息的完整性和真實性。
+reviewed: false

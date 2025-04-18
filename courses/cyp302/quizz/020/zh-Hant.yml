@@ -1,0 +1,9 @@
+question: 模運算在數學中代表什麼？
+answer: 分割的剩餘部分
+wrong_answers:
+  - 除法的商
+  - 起始數的兩倍
+  - 除數沒有餘數
+explanation: |
+  模運算包括確定除法的餘數，例如，25 mod 4 等於 1，因為除法的餘數是 1。
+reviewed: false

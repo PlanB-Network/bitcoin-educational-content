@@ -13,10 +13,12 @@ proofreading:
   - language: fr
     last_contribution_date: 2025-02-11
     urgency: 1
-    contributors_id:
+    contributor_names:
       - LoicPandul
     reward:
 tags:
   - business
   - adoption
   - wallets
+contributor_names:
+  - LoicPandul

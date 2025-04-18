@@ -1,0 +1,8 @@
+question: Je, ni kwa jinsi gani mshikamano wa lazima ni mshikamano wa uongo?
+answer: Kwa sababu inapelekea kutoa kwa njia isiyo ya hiari
+wrong_answers:
+  - Kwa sababu si mara zote huamuliwa kidemokrasia
+  - Kwa sababu inahitaji utawala mwingi
+  - Kwa sababu ni vigumu kuomba
+explanation: |
+  Mshikamano wa kulazimishwa, kulingana na Bastiat, hauwezi kuwa wa kimaadili kwa sababu unalazimisha kutoa bila ridhaa ya hiari.

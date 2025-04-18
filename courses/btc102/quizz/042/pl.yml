@@ -1,0 +1,11 @@
+question: Jaka jest główna różnica między Bitcoin a alt-coinami pod względem decentralizacji?
+answer: Bitcoin jest zdecentralizowany, podczas gdy większość alt-coinów nie jest
+wrong_answers:
+  - Zarówno Bitcoin, jak i alt-coiny są zdecentralizowane
+  - Zarówno Bitcoin, jak i alt-coiny nie są zdecentralizowane
+  - Alt-monety są zdecentralizowane, podczas gdy Bitcoin nie jest
+explanation: |
+  Treść rozdziału wyraźnie stwierdza, że Bitcoin jest zdecentralizowany, podczas gdy
+  większość alt-coinów nie jest. Jest to kluczowa cecha odróżniająca Bitcoin od innych kryptowalut
+  innych kryptowalut.
+reviewed: false

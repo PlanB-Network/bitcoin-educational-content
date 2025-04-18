@@ -4,12 +4,11 @@ subtopic: economy
 level: intermediate
 hours: 5
 
-professors:
-  - hazard-bonus
-
-contributors:
-  - rabbit-hole
-  - another-satoshi
+professors_id:
+  - 3a838eea-570a-494e-b641-23d5b39f2927
+contributor_names:
+  - Rogzy-DB
+  - Asi0Flammeus
 
 published_at: 2023-05-17
 # Proofreading metadata
@@ -18,85 +17,110 @@ proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 30.46
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 15.28
+    contributor_names:
+    reward: 22.87
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
-    reward: 7.64
+    reward: 11.44
   - language: es
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 22.87
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 30.46
   - language: fr
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 15.28
+    contributor_names:
+    reward: 22.87
   - language: it
     last_contribution_date: 2024-03-27
     urgency: 1
-    contributors_id:
+    contributor_names:
       - TinF0ilHat1
     reward: 11.44
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 45.64
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 15.28
+    contributor_names:
+    reward: 22.87
   - language: ru
     last_contribution_date: 2024-09-09
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Reshetenko
     reward: 15.23
   - language: vi
     last_contribution_date: 2024-11-16
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Henry-Da0
     reward: 22.82
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 38.05
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 38.05
 
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 30.46
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
+    contributor_names:
     reward: 30.46
 tags:
   - finance
   - market-trends
   - historical
+videos:
+  - id: d29b87ef-78fe-451d-afb4-be3b57096afb
+    youtube:
+      - ja: pz0RxlXNs7Y
+      - fr: pz0RxlXNs7Y
+  - id: 0bda55c3-4c47-4559-b429-f01ea43f8c0d
+    youtube:
+      - ja: ZSDCepNNacI
+      - fr: ZSDCepNNacI
+  - id: 914b78a2-3b88-43cb-8acb-93cd76e90d26
+    youtube:
+      - ja: Dt8ounex2jg
+      - fr: Dt8ounex2jg
+  - id: 40e2807d-4418-4a24-898e-ece159654bda
+    youtube:
+      - ja: CrPE6mcOjx4
+      - fr: CrPE6mcOjx4
+  - id: d891caed-0ffa-4f0c-a32b-940e207a20bc
+    youtube:
+      - ja: E-9Fl6eg-mo
+      - fr: E-9Fl6eg-mo
+  - id: bd52d8e9-b8ca-4451-bf20-8fb210a3e7a5
+    youtube:
+      - ja: hMyYGwU76dI
+      - fr: hMyYGwU76dI

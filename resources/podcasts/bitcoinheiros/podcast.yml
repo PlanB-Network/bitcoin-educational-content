@@ -8,8 +8,8 @@ links:
   website: https://www.bitcoinheiros.com/
 description: |
   O melhor podcast sobre Bitcoin em português. Junte-se todas as semanas ao Allan, Becas, Dov, Ivan e convidados especiais para uma discussão sobre a tecnologia que está revolucionando o mundo.
-contributors:
-  - hunt-wood
+contributor_names:
+  - PaoloFoti
 tags:
   - market-trends
   - user-friendly

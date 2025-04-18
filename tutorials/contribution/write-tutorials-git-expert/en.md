@@ -10,19 +10,17 @@ https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-91
 
 You already have :
 
-
 - Choose a theme for your tutorial;
 - Contacted the Plan ₿ Network team via [Telegram group](https://t.me/PlanBNetwork_ContentBuilder) or paolo@planb.network ;
 - Choose your contribution tools.
 
 In this tutorial for experienced Git users, we'll briefly summarize the key steps and essential guidelines for offering a new Plan ₿ Network tutorial. If you're unfamiliar with Git and GitHub, I recommend you instead follow one of these other 2 more detailed tutorials that will take you step by step :
 
-
-- Intermediate (GitHub Desktop)** :
+- Intermediate (GitHub Desktop) :
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
-- Beginners (web interface)** :
+- Beginners (web interface) :
 
 https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
@@ -30,70 +28,71 @@ https://planb.network/tutorials/contribution/content/write-tutorials-github-web-
 
 For editing Markdown files :
 
-
-- Obsidian** (Free, not open-source)
-- Mark Text** (Free, open-source)
-- Zettlr** (Free, open-source)
-- Typora** (Payware, ~€15, not open-source)
+- Obsidian (Free, not open-source)
+- Mark Text (Free, open-source)
+- Zettlr (Free, open-source)
+- Typora (Payware, ~€15, not open-source)
 
 For Git :
 
-
-- Git** (Free, open-source)
-- GitHub Desktop** (Free, open-source)
-- Sourcetree** (Free, not open-source)
+- Git (Free, open-source)
+- GitHub Desktop (Free, open-source)
+- Sourcetree (Free, not open-source)
 
 For editing YAML files :
 
-
-- Visual Studio Code** (Free, open-source)
-- Sublime Text** (Free with limitations, not open-source)
+- Visual Studio Code (Free, open-source)
+- Sublime Text (Free with limitations, not open-source)
 
 To create diagrams and visuals :
 
-
-- Canva** (Free with paid options, not open-source)
-- Inkscape** (Free, open-source)
-- Penpot** (Free, open-source)
+- Canva (Free with paid options, not open-source)
+- Inkscape (Free, open-source)
+- Penpot (Free, open-source)
 
 ## Workflows
 
 ### 1 - Configure your local environment
-
 
 - You must have your own fork of the [Plan ₿ Network repository on GitHub](https://github.com/PlanB-Network/bitcoin-educational-content).
 - Synchronize the main branch (`dev`) of your fork with the source repository.
 - Update your local clone.
 
 ```
-# Cloner votre fork (si ce n'est pas déjà fait)
-git clone https://github.com/<votre-nom-utilisateur>/bitcoin-educational-content.git
+# Clone your fork (if not already done)
+git clone https://github.com/<your-username>/bitcoin-educational-content.git
 cd bitcoin-educational-content
-# Ajouter le dépôt source en tant que remote upstream
+
+# Add the source repository as a remote upstream
 git remote add upstream https://github.com/PlanB-Network/bitcoin-educational-content.git
-# Récupérer les dernières modifications depuis le dépôt source
+
+# Fetch the latest changes from the source repository
 git fetch upstream
-# Se positionner sur la branche principale 'dev'
+
+# Switch to the main 'dev' branch
 git checkout dev
-# Fusionner les modifications de la branche 'dev' du dépôt source dans votre fork
+
+# Merge the changes from the source repository's 'dev' branch into your fork
 git merge upstream/dev
-# Pousser les mises à jour vers votre fork sur GitHub
+
+# Push the updates to your fork on GitHub
 git push origin dev
 ```
 
 ### 2 - Create a new branch
-
 
 - Make sure you're on the `dev` branch.
 - Create a new branch with a descriptive name (e.g. `tuto-green-wallet-loic`).
 - Publish this branch on your online fork.
 
 ```
-# Assurez-vous d’être sur la branche 'dev'
+# Make sure you are on the 'dev' branch
 git checkout dev
-# Créez une nouvelle branche avec un nom descriptif
+
+# Create a new branch with a descriptive name
 git checkout -b tuto-green-wallet-loic
-# Publiez cette branche sur votre fork en ligne
+
+# Publish this branch to your online fork
 git push -u origin tuto-green-wallet-loic
 ```
 
@@ -102,7 +101,6 @@ git push -u origin tuto-green-wallet-loic
 ***Note:*** You can automate steps 3 and 4 using [my Python GUI script](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation). Run it directly from its folder in your local clone, then fill in the required fields on the GUI. For more information on how to install and use it, see the [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
 
 If you prefer to do it manually, follow these steps :
-
 
 - Locate the appropriate folder in the local repository (e.g. `tutorials/wallet`).
 - Create a directory dedicated to the tutorial with a clear name (e.g. `green-wallet`). This folder name will also determine the URL path of the tutorial. It should be in lower case, with no special characters (except hyphens) and no spaces.
@@ -116,66 +114,81 @@ If you prefer to do it manually, follow these steps :
     - A Markdown file containing the tutorial, named according to the language code (e.g. `fr.md`, `en.md`, etc.).
 
 ```
-# Positionnez-vous dans le dossier approprié
+# Navigate to the appropriate folder
 cd tutorials/wallet
-# Créez le répertoire dédié au tutoriel
+
+# Create the directory dedicated to the tutorial
 mkdir green-wallet
 cd green-wallet
-# Créez le sous-dossier 'assets'
+
+# Create the 'assets' subfolder
 mkdir -p assets
-# Créez le sous-dossier pour le code de la langue d’origine (exemple : 'en' pour l’anglais)
+
+# Create the subfolder for the original language code (e.g., 'en' for English)
 mkdir -p assets/en
-# Créez les fichiers de métadonnées et le tutoriel Markdown (exemple : 'en.md' pour l’anglais)
+
+# Create the metadata file and the Markdown tutorial file (e.g., 'en.md' for English)
 touch tutorial.yml en.md
 ```
 
 ### 4 - Fill in the YAML file
 
-
 - Complete the `tutorial.yml` file as follows:
 
 ```
-id:
-project_id:
+id: 
+
+project_id: 
+
 tags:
--
--
--
-category:
-level:
-credits:
-professor:
+  - 
+  - 
+  - 
+
+category: 
+
+level: 
+
+professor_id:
+
 # Proofreading metadata
+
 original_language:
 proofreading:
-- language:
-last_contribution_date:
-urgency:
-contributors_id:
--
-reward:
+  - language: 
+    last_contribution_date:
+    urgency:
+    contributor_names:
+      - 
+    reward:
 ```
 
 Here are the required fields:
 
+- **id** : A UUID (_Universally Unique Identifier_) that uniquely identifies the tutorial. You can generate it using [an online tool](https://www.uuidgenerator.net/version4). The only requirement is that this UUID is random to avoid conflicts with another UUID on the platform;
 
-- id**: A UUID (_Universally Unique Identifier_) to uniquely identify the tutorial. You can generate it with [an online tool](https://www.uuidgenerator.net/version4). The only constraint is that this UUID must be random, so as not to conflict with another UUID on the platform;
-- project_id** : The UUID of the company or organization behind the tool presented in the tutorial [from the list of projects](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). For example, if you're doing a tutorial on the Green Wallet software, you can find this `project_id` in the following file: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. This information is added in the YAML file of your tutorial because Plan ₿ Network maintains a database of all companies and organizations operating on Bitcoin or related projects. By adding the `project_id` of the linked entity to your tutorial, you create a link between the two elements;
-- tags**: 2 or 3 relevant keywords related to the tutorial content, chosen exclusively [from the Plan ₿ Network tag list](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
-- category** : The subcategory corresponding to the tutorial content, according to the Plan ₿ Network structure (e.g. for wallets: `desktop`, `hardware`, `mobile`, `backup`) ;
-- level** : Tutorial difficulty level, from :
-    - beginner`
+- **project_id** : The UUID of the company or organization behind the tool presented in the tutorial [from the project list](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). For example, if you are creating a tutorial about the Green Wallet software, you can find this `project_id` in the following file: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. This information is added to your tutorial's YAML file because Plan ₿ Network maintains a database of all companies and organizations operating on Bitcoin or related projects. By adding the `project_id` of the entity linked to your tutorial, you create a link between the two elements;
+
+- **tags** : 2 or 3 relevant keywords related to the tutorial content, exclusively chosen [from the Plan ₿ Network tag list](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+
+- **category** : The sub-category corresponding to the tutorial content, according to the Plan ₿ Network website structure (for example, for wallets: `desktop`, `hardware`, `mobile`, `backup`);
+
+- **level** : The difficulty level of the tutorial, chosen from:
+    - `beginner`
     - `intermediate`
     - `advanced`
     - `expert`
-- professor**: Your `contributor_id` (BIP39 words) as displayed on [your teacher profile](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
-- original_language** : The original language of the tutorial (e.g. `fr`, `en`, etc.) ;
-- proofreading**: Information about the proofreading process. Fill in the first part, because proofreading your own tutorial counts as a first validation:
-    - language**: Proofreading language code (e.g. `fr`, `en`, etc.).
-    - last_contribution_date**: Today's date.
-    - urgency** : Leave blank.
-    - contributors_id** : Your GitHub ID.
-    - reward** : Leave blank.
+
+- **professor_id** : Your `professor_id` (UUID) as displayed on [your professor profile](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
+
+- **original_language** : The original language of the tutorial (e.g., `fr`, `en`, etc.);
+
+- **proofreading** : Information about the proofreading process. Complete the first part, as proofreading your own tutorial counts as a first validation:
+    - **language** : Language code of the proofreading (e.g., `fr`, `en`, etc.).
+    - **last_contribution_date** : Date of the day.
+    - **urgency** : 1
+    - **contributor_names** : Your GitHub ID.
+    - **reward** : 0
 
 For more details on your teacher ID, please refer to the corresponding tutorial :
 
@@ -183,28 +196,33 @@ https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9b
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
+
 project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
+
 tags:
-- wallets
-- software
-- keys
+  - wallets
+  - software
+  - keys
+
 category: mobile
+
 level: beginner
-credits:
-professor: pretty-private
+
+professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
+
 # Proofreading metadata
+
 original_language: fr
 proofreading:
-- language: fr
-last_contribution_date: 2024-11-20
-urgency:
-contributors_id:
-- LoicPandul
-reward:
+  - language: fr
+    last_contribution_date: 2024-11-20
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0
 ```
 
 ### 5 - Write the content
-
 
 - Complete the Markdown file properties with :
     - The title (`name`).
@@ -214,7 +232,6 @@ reward:
 ```
 ![cover-green](assets/cover.webp)
 ```
-
 
 - Write the tutorial content in Markdown :
     - Use well-structured headings (`##`), lists and paragraphs.
@@ -229,39 +246,36 @@ reward:
 
 ### 6 - Save and submit the tutorial
 
-
 - Save your changes locally by creating a commit with a descriptive message.
 - Push the changes to your GitHub fork.
 
 ```
-# Créez un commit avec un message descriptif
-git commit -m "Ajout du tutoriel green-wallet"
-# Poussez vos modifications sur votre fork
+# Create a commit with a descriptive message
+git commit -m "Added green-wallet tutorial"
+
+# Push your changes to your fork
 git push origin tuto-green-wallet-loic
 ```
-
 
 - Once finished, create a Pull Request (PR) on GitHub to propose the integration of your modifications.
 - Add a title and a brief description to the PR. Mention the corresponding issue number in the comment.
 
 ### 7 - Proofreading and merging
 
-
 - Wait for validation or feedback from an administrator.
 - If necessary, make corrections and push new commits.
 
 ```
-# Créez un commit décrivant les corrections apportées
-git commit -m "Corrections suite à la revue du tutoriel green-wallet"
-# Poussez les corrections sur votre fork
+# Create a commit describing the corrections made
+git commit -m "Corrections following the review of the green-wallet tutorial"
+
+# Push the corrections to your fork
 git push origin tuto-green-wallet-loic
 ```
-
 
 - Once the PR has been merged, you can delete your working branch.
 
 ## Content creation standards
-
 
 - Formatting supported on the platform** :
     - Classic Markdown: lists, links, images, quotes, bold, italics, etc.
@@ -272,7 +286,6 @@ git push origin tuto-green-wallet-loic
 ```
 print("Hello, Bitcoin!")
 ```
-
 
 - Illustrations and diagrams** :
     - All images must be in WebP format. Use this free tool to convert them if required: [ImagesConverter](https://github.com/LoicPandul/ImagesConverter).

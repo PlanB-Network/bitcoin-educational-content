@@ -6,8 +6,8 @@ links:
   podcast: https://www.fountain.fm/show/VDaMppQRUBZioj2XkaLn
 description: |
   Join ODELL and Marty as they sit down to discuss the latest news in Bitcoin every week.
-contributors:
-  - hunt-wood
+contributor_names:
+  - PaoloFoti
 tags:
   - market-trends
   - adoption

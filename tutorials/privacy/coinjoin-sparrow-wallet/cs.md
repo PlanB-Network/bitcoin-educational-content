@@ -174,7 +174,7 @@ Používání Sparrow má tu výhodu, že je poměrně snadné začít, rychle s
 ### Instalace Sparrow Wallet
 Začněte tím, že samozřejmě budete potřebovat software Sparrow Wallet. Můžete ho přímo stáhnout z [oficiálních stránek](https://sparrowwallet.com/download/) nebo na [jejich GitHubu](https://github.com/sparrowwallet/sparrow/releases).
 
-Před instalací softwaru bude důležité ověřit podpis a integritu staženého spustitelného souboru. Pokud chcete více informací o procesu instalace a ověření softwaru Sparrow, doporučuji si přečíst tento další tutoriál: *[The Sparrow Wallet Guides](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607)*
+Před instalací softwaru bude důležité ověřit podpis a integritu staženého spustitelného souboru. Pokud chcete více informací o procesu instalace a ověření softwaru Sparrow, doporučuji si přečíst tento další tutoriál: *[The Sparrow Wallet Guides](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)*
 
 ### Vytvoření softwarové peněženky
 Po instalaci softwaru budete muset pokračovat ve vytvoření Bitcoin peněženky. Je důležité poznamenat, že pro účast na coinjoinech je nezbytné použití softwarové peněženky (také nazývané "hot wallet"). Proto **nebude možné provádět coinjoiny s peněženkou zabezpečenou hardware peněženkou**.
@@ -341,7 +341,7 @@ Dále je třeba být opatrný při správě doxxic změny, změny, která nemohl
 Podrobné tutoriály k implementaci těchto různých technik budou brzy nabízeny na PlanB Network.
 
 **Další zdroje:**
-[Video tutoriál Sparrow Wallet](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607)
+[Video tutoriál Sparrow Wallet](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
 [Video tutoriál Samourai Wallet](https://planb.network/tutorials/wallet/mobile/samourai-46f88b20-5d1e-47e0-be53-237ff8737956)
 - [Dokumentace Samourai Wallet - Whirlpool](https://docs.samourai.io/whirlpool/basic-concepts);
 - [Twitter vlákno o CoinJoins](https://twitter.com/SamouraiWallet/status/1489220847336308739);

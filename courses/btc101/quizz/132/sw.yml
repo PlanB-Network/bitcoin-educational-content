@@ -1,0 +1,12 @@
+question: Ni nini umuhimu wa usambazaji wa kijiografia wa nodi za Bitcoin?
+answer: Inafanya kuwa haiwezekani kuharibu nakala zote za Blockchain.
+wrong_answers:
+  - Huamua bei ya Bitcoin katika mikoa tofauti.
+  - Inathiri kasi ya shughuli za Bitcoin.
+  - Huamua idadi ya bitcoins ambazo zinaweza kuchimbwa katika kanda.
+explanation: |
+  Usambazaji wa kijiografia wa nodes za Bitcoin hufanya hivyo
+  kivitendo haiwezekani kuharibu nakala zote za
+  Blockchain. Kwa kuwa nodes zimeenea, ni vigumu
+  kimwili kuwakamata wote.
+reviewed: true

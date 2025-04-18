@@ -1,0 +1,11 @@
+question: Jaka jest jedna korzyść z używania VPN do przeglądania Internetu w domu?
+answer: Zwiększa bezpieczeństwo ruchu online, zmniejszając zagrożenie stwarzane przez osoby trzecie.
+wrong_answers:
+  - Może to zwiększyć prędkość bazową połączenia internetowego.
+  - Zawsze umożliwia dostęp do większej liczby stron internetowych.
+  - Oszczędza to zużycie danych mobilnych w porównaniu do braku ustanowionego połączenia VPN.
+explanation: |
+  Korzystanie z VPN w domu może zwiększyć bezpieczeństwo danych
+  gW-0 online. Dzieje się tak, ponieważ sieci VPN szyfrują dane,
+  co utrudnia przechwycenie ich przez osoby trzecie.
+reviewed: true

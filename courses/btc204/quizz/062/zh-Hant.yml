@@ -1,0 +1,10 @@
+question: 在這些選項中，哪一項不是自動選擇零件的方法？
+answer: 無聲付款
+wrong_answers:
+  - 分支與邊界
+  - 先進先出
+  - Knapsack 解算器
+explanation: |
+  與其他三種選項不同，Silent Payments 不是一種選擇零件的方法，而是一種使用靜態位址的通訊協定。
+  
+reviewed: false

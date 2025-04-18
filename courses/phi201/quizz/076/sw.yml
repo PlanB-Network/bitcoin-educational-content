@@ -1,0 +1,9 @@
+question: Kuna tofauti gani ya kimsingi kati ya nadharia za Turgot na zile za Adam Smith juu ya thamani?
+answer: Turgot aliamini kwamba thamani iliamuliwa na kazi, wakati Smith aliamini iliamuliwa na matumizi.
+wrong_answers:
+  - Turgot aliamini kuwa biashara huria ndiyo sera bora ya kiuchumi huku Smith akiamini katika ulinzi.
+  - Turgot aliamini kuwa jukumu la serikali lilikuwa kuondoka sokoni bila malipo huku Smith akiamini kuwa serikali inapaswa kuingilia kati uchumi.
+  - Hakuna tofauti ya kimsingi kati ya nadharia za Turgot na zile za Smith juu ya thamani.
+explanation: |
+  Turgot alizingatia kazi kama kigezo kikuu cha thamani, ilhali Adam Smith alianzisha dhana ya thamani inayoathiriwa na matumizi na mahitaji, ikionyesha hali ya uchumi inayojitegemea.
+reviewed: false

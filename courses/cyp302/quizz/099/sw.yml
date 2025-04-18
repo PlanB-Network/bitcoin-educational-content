@@ -1,0 +1,9 @@
+question: Je, kazi ya msingi ya Nambari ya Uthibitishaji wa Ujumbe (MAC) ni ipi?
+answer: Hakikisha ukweli na uadilifu wa ujumbe
+wrong_answers:
+  - Simba ujumbe ili kuhakikisha usiri
+  - Zuia kukatiza ujumbe
+  - generate funguo binafsi kwa kila mawasiliano
+explanation: |
+  MAC ni mpango wa kriptografia unaoruhusu uthibitishaji kwamba ujumbe unatoka kwa mtumaji halali na haujabadilishwa, hivyo basi kuhakikisha ukweli na uadilifu.
+reviewed: false

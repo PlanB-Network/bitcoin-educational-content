@@ -1,0 +1,10 @@
+question: Jak nazywa się pieniądz awaryjny używany w Niemczech podczas kryzysu gospodarczego?
+answer: Notgeld
+wrong_answers:
+  - Marka Rzeszy
+  - Euro
+  - Deutsche Mark
+explanation: |
+  Podczas kryzysu gospodarczego w Niemczech, Notgeld (pieniądz awaryjny) został
+  został użyty do Address w przypadku niedoboru wspólnej waluty.
+reviewed: false

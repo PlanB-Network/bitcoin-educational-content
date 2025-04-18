@@ -1,0 +1,9 @@
+question: Je, ni takwimu zipi za uchanganuzi zilizotajwa na Satoshi Nakamoto kwenye Karatasi Nyeupe ya Bitcoin? (jibu moja tu linawezekana)
+answer: CIOH na Address zinatumia tena.
+wrong_answers:
+  - Kuunganisha kwa saini na uwiano wa wakati.
+  - Malipo ya nambari zote na pato kubwa.
+  - Uchambuzi wa kiasi na ulinganifu wa hati.
+explanation: |
+  Katika sehemu ya 10 ya Karatasi Nyeupe ya Bitcoin, Satoshi Nakamoto huwaonya watumiaji kuhusu CIOH (Common Input Ownership Heuristic) na utumiaji tena wa funguo sawa.
+reviewed: false

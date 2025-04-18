@@ -1,0 +1,12 @@
+question: Jaki jest jeden ze sposobów potwierdzenia, że znajdujesz się na stronie, którą zamierzasz odwiedzić?
+answer: Sprawdź adresy URL i małą kłódkę na pasku Address.
+wrong_answers:
+  - Sprawdź liczbę reklam na stronie.
+  - Sprawdź szybkość witryny.
+  - Sprawdź schemat kolorów witryny.
+explanation: |
+  Sprawdzanie adresów URL i małej kłódki na pasku Address
+  jest jednym ze sposobów potwierdzenia, że znajdujesz się na stronie, którą zamierzasz odwiedzić
+  odwiedzić. Kłódka wskazuje, że witryna korzysta z protokołu
+  HTTPS, który szyfruje dane w celu zapewnienia bezpieczeństwa Exchange.
+reviewed: true

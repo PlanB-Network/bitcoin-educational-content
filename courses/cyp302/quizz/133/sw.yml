@@ -1,0 +1,9 @@
+question: Saini ya dijiti ni nini katika muktadha wa kriptografia isiyolinganishwa?
+answer: Utaratibu wa kuthibitisha uhalisi wa ujumbe kwa kutumia ufunguo wa faragha
+wrong_answers:
+  - Mchakato wa kusimba ujumbe kwa nguvu zaidi
+  - Ufunguo wa ziada wa umma ili kuthibitisha ujumbe uliosimbwa
+  - Nakala ya dijitali ya sahihi iliyoandikwa kwa mkono
+explanation: |
+  Sahihi ya dijiti ni mbinu ya kriptografia ambayo inathibitisha kwamba ujumbe uliundwa na mmiliki wa ufunguo wa kibinafsi unaolingana, na hivyo kuhakikisha uhalisi wake.
+reviewed: false

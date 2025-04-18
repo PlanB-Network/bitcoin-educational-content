@@ -1,0 +1,9 @@
+question: Jak obliczany jest klucz publiczny na podstawie klucza prywatnego?
+answer: Używając mnożenia skalarnego na krzywej eliptycznej
+wrong_answers:
+  - Stosując Hash na kluczu prywatnym
+  - Poprzez szyfrowanie asymetryczne
+  - Z wielokrotnym dodawaniem wartości liczbowych
+explanation: |
+  Klucz publiczny jest uzyskiwany przez skalarne mnożenie klucza prywatnego z punktem generatora G na krzywej eliptycznej.
+reviewed: false

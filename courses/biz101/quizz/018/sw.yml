@@ -1,0 +1,9 @@
+question: Je, ni sababu gani wawekezaji wa kitaasisi na makampuni makubwa yamevutiwa na Bitcoin?
+answer: Kupitishwa kwa Bitcoin na wachezaji wakuu wa kifedha, kama vile BlackRock na mafanikio ya Spot Bitcoin ETFs, kumeihalalisha kama mali ya duka la thamani.
+wrong_answers:
+  - Bei ya Bitcoin imewekwa na kuthibitishwa na mashirika ya serikali.
+  - Shughuli za Bitcoin zina bima kikamilifu na benki kuu.
+  - Haihitaji ufahamu wa mali ya kidijitali au kanuni za kifedha.
+explanation: |
+  Taasisi kuu zinapotambua Bitcoin kama uwekezaji halali, inaashiria soko kuwa imekomaa zaidi ya kubahatisha. Bidhaa kama vile Spot Bitcoin ETFs hurahisisha biashara kupata kufichuliwa, na hivyo kusukuma zaidi ukubalikaji wa kawaida.
+reviewed: false

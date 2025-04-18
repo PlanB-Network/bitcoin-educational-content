@@ -1,0 +1,9 @@
+question: Ni nini kilikuwa kwenye sanduku la chuma lililokabidhiwa kwa Robert Morriss?
+answer: Maandishi matatu yaliyosimbwa kwa njia fiche na dokezo
+wrong_answers:
+  - Ramani na vidokezo
+  - Kitufe cha kipekee cha usimbaji fiche
+  - Orodha moja ya majina
+explanation: |
+  Kisanduku hicho kilikuwa na maandishi matatu yaliyosimbwa kwa njia fiche na barua iliyoeleza kugunduliwa kwa hazina na kutoa maagizo ya jinsi ya kupata yaliyomo.
+reviewed: false

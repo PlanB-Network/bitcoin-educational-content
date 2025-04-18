@@ -1,0 +1,8 @@
+question: 礦工如何驗證交易並將其納入區塊？
+answer: 透過 Proof of Work 的過程。
+wrong_answers:
+  - 透過 Proof of stake 流程。
+  - 透過權限證明程序。
+  - 透過 Proof of Burn 流程。
+explanation: >-
+reviewed: true

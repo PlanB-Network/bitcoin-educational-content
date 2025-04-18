@@ -1,0 +1,8 @@
+question: Które z poniższych działań mogą pomóc tym, którzy chcą korzystać z Bitcoin w codziennym życiu?
+answer: Przygotuj listę wszystkich sprzedawców, którzy akceptują Bitcoin.
+wrong_answers:
+  - Podnieść cenę Bitcoin.
+  - Zmniejszenie liczby bitcoinów.
+  - Ograniczenie wykorzystania Bitcoin.
+explanation: >-
+reviewed: true

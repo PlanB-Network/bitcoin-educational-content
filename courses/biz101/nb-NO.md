@@ -160,12 +160,12 @@ Alt i alt er denne prosessen innviklet, tidkrevende og kostbar for det som burde
 ### Sammenligning av betalingsmetoder
 
 | Betalingsmåte | Autorisasjon nødvendig?           transaksjonsgodkjenningstid (forhandlervisning) | Oppgjørshastighet (full oppgjørshastighet) | Endelighet (enkel reversering) | Antall mellomledd | Typiske gebyrer (til betalingsmottaker) | Antall betalingsformidlere | Typiske gebyrer (til betalingsmottaker)
-| ------------------------------ | ------------------------------- | ----------------------------------------- | ---------------------------------------------- | ---------------------------------------- | ------------------------------ | ---------------------------------- |
+| ------------------------------ | ------------- | ------------------ | ----------------------------------------- | ---------------------------------------------- | ---------------------------------------- | ------------------------------ | ---------------------------------- |
 | **Kontanter** | Nei | Umiddelbar (fysisk veksling) | Umiddelbar (ingen oppgjørsforsinkelse) | Høy (irreversibel når betalt) | Ingen | Ingen | Ingen |
-| **Sjekker** | Ja (bankclearing) | Godkjennelse ved innskudd (ikke garantert) | Flere dager (sjekkklareringsprosess) | Middels (kan prelle av/stoppe før clearing) | Bank | **Lav til middels** (bankgebyrer) | **Lav til middels** (bankgebyrer)
+| **Sjekker** | Ja (bankclearing) | Godkjennelse ved innskudd (ikke garantert) | Flere dager (sjekkklareringsprosess) | Middels (kan prelle av/stoppe før clearing) | Bank | **Lav til middels** (bankgebyrer) | **Lav til middels** (bankgebyrer) |
 | **Overføringer** | Ja (bank/nettverk) | Bekreftelse innen få timer | Samme dag eller neste dag (innenlands) | Høy (vanligvis irreversibel når den er sendt) | Banker, betalingsnettverk | **Middels (fast/prosentvis)** |
-| **Betalingskort** | Ja (kortutsteders autorisasjon) | Sekunder til minutter (autorisasjonskode) | Noen få dager (interbankoppgjør) | Middels (tilbakeføringer mulig) | Kortutsteder, kortinnløser, kortnettverk | **Variabel (1-3 % av transaksjonen)** | **Variabel (1-3 % av transaksjonen)**
-| **Digitale lommebøker/Mobile Pay** | Ja (lommebokleverandør/bank) | Sekunder (øyeblikkelig bekreftelse) | Vanligvis 1-2 dager (avhenger av finansieringskilde) | Middels (tilbakebetaling/tvist mulig) | Banker, lommebokoperatører | **Lav til middels (varierer)** | | Lommebokoperatører
+| **Betalingskort** | Ja (kortutsteders autorisasjon) | Sekunder til minutter (autorisasjonskode) | Noen få dager (interbankoppgjør) | Middels (tilbakeføringer mulig) | Kortutsteder, kortinnløser, kortnettverk | **Variabel (1-3 % av transaksjonen)** | **Variabel (1-3 % av transaksjonen)** |
+| **Digitale lommebøker/Mobile Pay** | Ja (lommebokleverandør/bank) | Sekunder (øyeblikkelig bekreftelse) | Vanligvis 1-2 dager (avhenger av finansieringskilde) | Middels (tilbakebetaling/tvist mulig) | Banker, lommebokoperatører | **Lav til middels (varierer)** | | Lommebokoperatører |
 
 ### Begrensninger ved eksisterende løsninger
 
@@ -182,6 +182,7 @@ Den tradisjonelle betalingsbransjen representerer en årlig økonomi på ca. 2 2
 | Behov for en bank- eller kortkonto | Tilgang til disse betalingsmåtene krever en tilknyttet bank- eller kortkonto, noe som automatisk ekskluderer dem som ikke har en slik konto.                                                                                                       | Begrenset finansiell inkludering, noe som reduserer tilgangen for personer som ikke har bankkonto eller er underfinansiert.                 |
 | Gjentatt opprettelse av kontoer på nettet | Brukerne må ofte opprette flere kontoer på nettet, noe som fører til utmattelse, redusert brukervennlighet og økt eksponering av personopplysninger.                                                                                                | Forringer brukeropplevelsen, øker bekymringene for personvernet og øker risikoen for datainnbrudd.          |
 | Valutagebyr | Mangelen på en universell regningsenhet tvinger frem kostbare valutaomregninger ved transaksjoner på tvers av landegrensene.                                                                                                                              | Det gir ekstra kostnader for internasjonal handel, noe som gjør globale transaksjoner mindre overkommelige.             |
+
 
 På samme måte som vi gikk fra å betale per minutt for telefonsamtaler til å bruke nesten gratis IP-basert kommunikasjon, kan fremveksten av mer åpne og effektive nettverk omdefinere betalinger, redusere kostnader og mellomledd, og fremme nye forretningsmodeller.
 
@@ -508,22 +509,23 @@ Bitcoin-ETF-er leder med god margin når det gjelder **institusjonell adopsjon**
 
 Bitcoin deltar nå i verdilagrings-**markedet**. Det representerer bare en dråpe i havet når det gjelder skala: bare ca. 1 800 milliarder dollar sammenlignet med gullets 18 000 milliarder dollar eller eiendomsmeglingens 500 000 milliarder dollar. Med en markedsandel på rundt 0,1 % har de imidlertid et enormt rom for vekst, spesielt med tanke på at konkurrentene sliter med å tiltrekke seg nye brukere.
 
-| Ticker | 1D Flow (M USD) | 1W Flow (M USD) | 1M Flow (M USD) | 3M Flow (M USD) | YTD Flow (M USD) |
+
+| Ticker  | 1D Flyt (M USD) | 1W Flyt (M USD) | 1M Flyt (M USD) | 3M Flyt (M USD) | YTD Flyt (M USD) |
 | ------- | --------------- | --------------- | --------------- | --------------- | ---------------- |
-| **Sum** | +457,19 | +1 507,95 | +2 888,01 | +3 672,29 | **+20 262,94** | | **Sum** | +457,19 | +1 507,95 | +2 888,01 | +3 672,29 | **+20 262,94
-| IBIT | +393,40 | +750,91 | +1 536,47 | +3 821,37 | +22 460,44 | | IBIT | +393,40 | +750,91 | +1 536,47 | +3 821,37 | +22 460,44 | IBIT
-| FBTC | +14,81 | +372,40 | +627,16 | +458,71 | +10 266,69 | | +10 266,69
-| ARKB | +11,51 | +163,26 | +295,92 | -3,88 | +2 647,32 | | +11,51 | +163,26 | +295,92 | -3,88 | +2 647,32 | | +11,51 | +11,51 | +163,26 | +295,92 | -3,88 | +2 647,32
-| BITB | +12,93 | +146,50 | +263,30 | +97,46 | +2 262,69 | | | +12,93 | +146,50 | +263,30 | +97,46 | +2 262,69
-| HODL | +5,75 | +38,77 | +94,54 | +100,39 | +682,03 | | +682,03
-| BRRR | +1,92 | +4,72 | +17,76 | +20,54 | +540,19 | | +540,19
-| EZBC | +11,79 | +17,53 | +39,29 | +47,48 | +439,45 | | EZBC | +11,79 | +17,53 | +39,29 | +47,48 | +439,45 |
-| BTC | .00 | -3,13 | +36,59 | +419,18 | +419,18 | | +419,18 |
-| BTCO | +6,43 | +19,25 | +47,30 | +56,41 | +394,82 | | | BTCO | +6,43 | +19,25 | +47,30 | +56,41 | +394,82 | | BTCO
-| BTCW | .00 | +2,84 | +6,04 | +146,69 | +217,47 | | BTCW | .00 | +2,84 | +6,04 | +146,69 | +217,47 | BTCW
-| YBIT | -1,34 | -10,26 | +5,06 | +13,81 | +76,30 | | +76,30
-| DEFI | .00 | .00 | .00 | .00 | -2.03 | -1.79 | | -2.03 | -1.79 | -2.03 | -1.79
-| GBTC | .00 | +5,16 | -81,42 | -1503,84 | -20 141,85 | | GBTC | .00 | +5,16 | -81,42 | -1503,84 | -20 141,85 |
+| **Sum** | +457,19         | +1 507,95       | +2 888,01       | +3 672,29       | **+20 262,94**   |
+| IBIT    | +393,40         | +750,91         | +1 536,47       | +3 821,37       | +22 460,44       |
+| FBTC    | +14,81          | +372,40         | +627,16         | +458,71         | +10 266,69       |
+| ARKB    | +11,51          | +163,26         | +295,92         | -3,88           | +2 647,32        |
+| BITB    | +12,93          | +146,50         | +263,30         | +97,46          | +2 262,69        |
+| HODL    | +5,75           | +38,77          | +94,54          | +100,39         | +682,03          |
+| BRRR    | +1,92           | +4,72           | +17,76          | +20,54          | +540,19          |
+| EZBC    | +11,79          | +17,53          | +39,29          | +47,48          | +439,45          |
+| BTC     | .00             | -3,13           | +36,59          | +419,18         | +419,18          |
+| BTCO    | +6,43           | +19,25          | +47,30          | +56,41          | +394,82          |
+| BTCW    | .00             | +2,84           | +6,04           | +146,69         | +217,47          |
+| YBIT    | -1,34           | -10,26          | +5,06           | +13,81          | +76,30           |
+| DEFI    | .00             | .00             | .00             | -2,03           | -1,79            |
+| GBTC    | .00             | +5,16           | -81,42          | -1 503,84       | -20 141,85       |
 
 *20 milliarder dollar på 10 måneder: Bitcoin-ETF-er oppnådde på mindre enn ett år det samme som gull-ETF-er brukte fem år på å oppnå. Kilde: Fondets investeringsstrømmer i USD. Bloomberg Terminal, Bloomberg L.P., 2024*
 
@@ -606,9 +608,9 @@ Dette er den klart vanligste metoden, enten via peer-to-peer-børser eller, mer 
 
 Hvis du vil lære hvordan du åpner en bedriftskonto og bruker den til å kjøpe, selge og overføre bitcoin, kan du sjekke ut disse to veiledningene som er spesielt utviklet for bedrifter, og som dekker Kraken- og Bitfinex-plattformene i deres bedriftsversjoner:
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
+https://planb.network/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
 
-https://planb.network/tutorials/exchange/centralized/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
 
 Hvis du vil lære mer om metoder for å anskaffe bitcoin via en børs eller peer-to-peer, kan du [se avsnittet "børs" i veiledningene våre] (https://planb.network/tutorials/exchange).
 
@@ -833,6 +835,7 @@ For å forenkle beslutningsprosessen har vi definert fire forskjellige forretnin
 | **Regnskapseksport** | Fullt tilpasset regnskapseksport |
 | **API** | Ja |
 
+
 I de følgende kapitlene vil vi gå nærmere inn på hver enkelt virksomhetsprofil og de løsningene som er skreddersydd for hver av dem.
 
 ## Nybegynneren
@@ -877,7 +880,7 @@ https://planb.network/tutorials/wallet/mobile/zeus-3e89603c-501d-439c-8691-d4a0d
 
 **Tredjepartsforvaltede LN-lommebøker:**
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-c4792842-b046-44f9-a6f1-351191b7cc2b
+https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 

@@ -50,7 +50,7 @@ _Thiết lập ví mới trong Lightning Tab_
 
 _Quét mã QR bằng ứng dụng Node Management_
 
-![image](asset/en/05.webp)
+![image](assets/en/05.webp)
 
 _Để an toàn hơn, hãy đặt mã PIN_
 
@@ -86,7 +86,7 @@ Sau khi Nakamochi của bạn được thiết lập và kết nối với ứng
 
 5. Nhấp vào **“Mở kênh”**.
 
-![image](asset/en/06.webp)
+![image](assets/en/06.webp)
 
 _Ảnh chụp màn hình ZEUS_
 
@@ -104,7 +104,7 @@ _Ảnh chụp màn hình ZEUS_
 
 5. Nhập số tiền bị khóa (chọn cùng với bạn bè hoặc sử dụng số tiền cố định tối thiểu cho các nút nổi tiếng).
 
-![image](asset/en/07.webp)
+![image](assets/en/07.webp)
 
 _Ảnh chụp màn hình Bitbanana_
 

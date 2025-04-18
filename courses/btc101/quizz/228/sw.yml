@@ -1,0 +1,8 @@
+question: Ada za miamala kwenye Lightning Network ni ndogo sana, mara nyingi chini ya...?
+answer: 0.5%.
+wrong_answers:
+  - 1%.
+  - 2%.
+  - 3%.
+explanation: >-
+reviewed: true

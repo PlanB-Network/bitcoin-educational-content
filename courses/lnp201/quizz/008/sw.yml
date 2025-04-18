@@ -1,0 +1,9 @@
+question: Je, Address ya saini 2/2 inafanya kazi vipi katika Bitcoin?
+answer: Inahitaji saini mbili kufungua na kutumia pesa.
+wrong_answers:
+  - Inaruhusu kutumia pesa na funguo moja tu kati ya hizo mbili.
+  - Inaidhinisha shughuli tu katika kesi maalum za kufunga.
+  - Inatumika tu kutuma pesa kwa anwani za umma.
+explanation: |
+  Address ya saini nyingi ya 2/2 inahitaji saini za pande zote mbili zinazohusika ili pesa zitumike, ambazo hutumika kwa usalama wa njia za Umeme.
+reviewed: false

@@ -1,0 +1,14 @@
+question: Kwa nini inashauriwa kufuta vidakuzi kila baada ya kutembelea tovuti?
+answer: Ili kuzuia tovuti za watu wengine zisifuatilie shughuli zako za mtandaoni.
+wrong_answers:
+  - Ili kuhifadhi nafasi kwenye kifaa chako.
+  - Ili kuzuia tovuti kukumbuka maelezo yako ya kuingia.
+  - Ili kuzuia tovuti kukuonyesha matangazo yaliyolengwa.
+explanation: |
+  Vidakuzi ni faili zilizoundwa na tovuti ili kuhifadhi habari
+  kwenye kifaa chako. Ingawa tovuti zingine zinahitaji vidakuzi hivi
+  zinafanya kazi vizuri, zinaweza pia kutumiwa na
+  tovuti za watu wengine, haswa kwa ufuatiliaji wa utangazaji
+  makusudi. Kufuta vidakuzi baada ya kila ziara kwenye tovuti kunaweza
+  kusaidia kuzuia hili.
+reviewed: true

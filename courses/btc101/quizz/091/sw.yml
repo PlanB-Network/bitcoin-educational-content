@@ -1,0 +1,13 @@
+question: Je, ni matumizi gani yanayopendekezwa ya Wallet ya nje ya mtandao, au Cold, halisi?
+answer: Kuhifadhi kiasi kikubwa.
+wrong_answers:
+  - Kuhifadhi gharama za kila siku.
+  - Kuhifadhi kiasi kidogo.
+  - Kuhifadhi akiba ya muda mfupi.
+explanation: |
+  Wallet ya nje ya mtandao, au Cold, halisi inapendekezwa
+  kuhifadhi kiasi kikubwa kwa sababu ni chini ya hatari
+  vitisho vya mtandaoni kuliko pochi za Hot. Hata hivyo, sivyo
+  inapendekezwa kwa matumizi ya kila siku kwa sababu ni kidogo
+  kupatikana kwa shughuli za kila siku.
+reviewed: true

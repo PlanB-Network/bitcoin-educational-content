@@ -1,0 +1,11 @@
+question: Je, ni suluhisho gani lililopitishwa na Zimbabwe kukabiliana na mfumuko wa bei?
+answer: Uwekezaji wa dola
+wrong_answers:
+  - Kuchapisha pesa zaidi
+  - Tunaanzisha sarafu mpya
+  - Kupunguza pesa Supply
+explanation: |
+  Zimbabwe ilipitisha matumizi ya dola kukabiliana na mfumuko wa bei. Hii ina maana wao
+  iliyopitishwa dola ya Marekani au sarafu nyingine kutoka nchi jirani, ambayo inazuia
+  serikali kutokana na kuchapisha pesa ipendavyo.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Ufunguo wa kibinafsi mara nyingi huwakilishwa na Bitcoin Wallet ni nini?
+answer: Orodha ya maneno 12 au 24.
+wrong_answers:
+  - Orodha ya maneno 12 au 48.
+  - Orodha ya maneno 32.
+  - Orodha ya maneno 64.
+explanation: |
+  Katika Bitcoin Wallet, ufunguo wa kibinafsi mara nyingi huwakilishwa
+  kwa orodha ya maneno 12 au 24, pia inajulikana kama maneno ya seed
+  au maneno ya Mnemonic.
+reviewed: true

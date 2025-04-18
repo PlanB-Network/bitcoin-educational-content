@@ -1,0 +1,9 @@
+question: Watengenezaji wa mishumaa hutoa ombi gani kwa manaibu?
+answer: Kupiga marufuku matumizi ya jua kama chanzo cha mwanga
+wrong_answers:
+  - Kuongeza kodi kwenye mishumaa
+  - Kufunga viwanda vya mishumaa ya kigeni
+  - Ili kutoa ruzuku kwa utengenezaji wa mishumaa
+explanation: |
+  Katika satire hii, watengenezaji mishumaa wanaomba kupigwa marufuku kwa mwanga wa jua ili kuonyesha upuuzi wa sera fulani za ulinzi.
+reviewed: false

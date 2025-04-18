@@ -1,0 +1,9 @@
+question: Jaka jest główna cecha mnożenia skalarnego na krzywych eliptycznych?
+answer: Funkcja jednokierunkowa
+wrong_answers:
+  - Łatwo odwracalny
+  - Na podstawie faktoryzacji liczb pierwszych
+  - Bardzo długi czas obliczeń
+explanation: |
+  Mnożenie skalarne na krzywych eliptycznych jest funkcją jednokierunkową, co uniemożliwia odzyskanie klucza prywatnego z klucza publicznego.
+reviewed: false

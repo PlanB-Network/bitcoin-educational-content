@@ -1,0 +1,9 @@
+question: Jaka jest iluzja dotycząca bezpieczeństwa kanałów komunikacji we współczesnym świecie?
+answer: Przekonanie, że fizyczna ochrona kanału zapobiega przechwytywaniu danych
+wrong_answers:
+  - Myślenie, że sieci bezprzewodowe są nieefektywne
+  - Przekonanie, że kryptografia nie jest konieczna do komunikacji lokalnej
+  - Biorąc pod uwagę, że tylko agencje krajowe mogą przechwytywać dane
+explanation: |
+  Iluzją jest myślenie, że samo fizyczne zabezpieczenie kanału jest wystarczające do zapewnienia poufności, ponieważ wiele punktów przechwytywania pozostaje dostępnych, zwłaszcza w przypadku komunikacji bezprzewodowej.
+reviewed: false

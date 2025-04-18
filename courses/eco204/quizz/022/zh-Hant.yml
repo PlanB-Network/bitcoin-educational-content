@@ -1,0 +1,10 @@
+question: 根據 Cagan 的定義，惡性通貨膨脹的主要特徵是什麼？
+answer: 極高的每月通膨率
+wrong_answers:
+  - 極高的年度通貨膨脹率
+  - 極高的每週通膨率
+  - 極高的每日通膨率
+explanation: |
+  根據 Cagan 的定義，惡性通貨膨脹的特徵為
+  每月通膨率極高，超過 50%。
+reviewed: false

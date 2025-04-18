@@ -1,0 +1,12 @@
+question: 調整難度的頻率是多少？
+answer: 每 2016 個區塊。
+wrong_answers:
+  - 每 1048 個區塊。
+  - 每 512 個區塊。
+  - 每 4032 個區塊。
+explanation: |
+  難度調整是一種機制，每
+  每 2016 個區塊，或約兩個星期，以確保
+  新區塊平均每十分鐘就會加入 Blockchain
+  不論全球 Hashrate。
+reviewed: true

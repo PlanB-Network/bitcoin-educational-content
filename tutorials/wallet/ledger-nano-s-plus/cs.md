@@ -145,7 +145,7 @@ Heslová fráze by neměla být zaměňována s PIN kódem. Hraje roli v derivac
 
 Heslová fráze je velmi mocným nástrojem pro zvýšení zabezpečení vašich bitcoinů. Je však velmi důležité rozumět, jak funguje, než ji implementujete, abyste se vyhnuli ztrátě přístupu k vaší peněžence. Proto vám radím, abyste si přečetli tento další tutoriál věnovaný nastavení heslové fráze na vašem Ledgeru:
 
-https://planb.network/tutorials/wallet/hardware/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 Menu "*Zámek PIN*" vám umožní nastavit a aktivovat automatické uzamčení vašeho Ledgeru po určité době nečinnosti.
 
@@ -333,3 +333,4 @@ Pokud se vám tento tutoriál zdál užitečný, ocenil bych, kdybyste níže za
 Doporučuji také, abyste se podívali na tento kompletní tutoriál k Ledger Flex:
 
 https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+

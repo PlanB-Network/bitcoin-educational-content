@@ -1,0 +1,9 @@
+question: Je, muda unachukua nafasi gani katika utendakazi wa HTLC?
+answer: Inatoa muda wa kukamilisha malipo kabla ya kughairiwa
+wrong_answers:
+  - Inaongeza uwezo wa chaneli inayotumika
+  - Inaongeza Layer ya faragha kwenye shughuli
+  - Inatumika ada za ziada kwa kila nodi ya mpatanishi
+explanation: |
+  Muda wa muda huweka muda wa kukamilisha HTLC, ambayo inaruhusu kurejesha fedha ikiwa shughuli haitafanikiwa, kwa kufuta malipo baada ya kipindi hiki.
+reviewed: false

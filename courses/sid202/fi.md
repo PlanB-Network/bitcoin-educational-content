@@ -24,23 +24,38 @@ Tule mukaan kehittämään taitojasi, vapauttamaan Liquidin ja Elementsin koko p
 
 <partId>8f34de87-6e9a-4e3b-a326-50fc7c1803b3</partId>
 
-## Kurssit Johdanto
+## Kurssin yleiskatsaus
 
 <chapterId>a721398e-7040-4edd-be53-b485ea759fa9</chapterId>
 
-![Video](https://youtu.be/gkQfnwYLyI0?si=H6cIPhgZaSAwHaHI)
+:::video id=e0166470-5561-4b3b-9d0d-4edee69b64d8:::
 
-Elements Academyn tarkoituksena on esitellä ja selittää Liquidin perustana olevan avoimen lähdekoodin Elements-alustan keskeiset käsitteet. Kurssin loppuun mennessä sinulla pitäisi olla hyvä käsitys Elementsin tärkeimmistä ominaisuuksista, kuten Confidential Transactions ja Issued Assets, sekä Elements Coren käyttämiseen liittyvistä prosesseista.
+Tervetuloa kurssille SID202!
 
-Jokaisessa osiossa on oppitunteja, joissa on selittävä teksti ja video, joka päättyy tietokilpailuun. Kysymysten määrä liittyy edeltävän aiheen laajuuteen. Osiossa 10 tehdään yhteenveto kurssin sisällöstä ja se päättyy suurempaan tietokilpailuun.
+*Elements Academy* -kurssin tavoitteena on esitellä ja selittää *Elements*-alustan keskeisiä käsitteitä, joka on avoimen lähdekoodin alusta, jonka päälle Liquid-sidechain on rakennettu. Kurssin lopussa sinun tulisi hallita Elementsin pääominaisuudet, kuten luottamukselliset tapahtumat ja liikkeeseen lasketut omaisuuserät, sekä Elements Core -toiminnan prosessit. Jokainen kurssin osa sisältää oppitunteja, joissa on selittäviä tekstejä ja videoita, ja jotka päättyvät kyselyyn.
 
-Kaikki kysymykset, lisätietopyynnöt tai kyselyiden vastauksia koskevat kysymykset voit osoittaa opettajallesi James Dorfmanille.
+Tämän kurssin tarkoituksena on opettaa sinua käyttämään ja kehittämään Elements-alustalla keskittyen Liquid-verkkoon. Saat selville, kuinka nämä teknologiat voivat parantaa yksityisyyttä, skaalautuvuutta ja toiminnallisuutta kehitysprojekteissasi. Olitpa aloittelija tai kokenut kehittäjä, tämä kurssi tarjoaa sinulle vahvan perustan Elementsin ja Liquidin peruskäsitteiden sekä niiden käytännön sovellusten hallintaan.
+
+**Osa 1: Johdanto**  
+Aloitamme kattavalla katsauksella Elements-käsitteisiin. Opit, kuinka tämä alusta on suunniteltu tarjoamaan modulaarinen ja joustava perusta sellaisille sidechaineille kuten Liquid. Tavoitteena on ymmärtää Elementsin rakenne ennen käytännön sovellusten tarkastelua.
+
+**Osa 2: Elements**  
+Tässä osiossa keskitytään Elementsin toimintaan. Opit konfiguroimaan Elements-solmun, käyttämään sitä itsenäisessä tilassa tai sidechainina.
+
+**Osa 3: Elementsin käyttö - Käytännön esimerkit**  
+Kun teoreettiset perusteet ovat hallinnassa, käsittelemme Elementsin käytännön sovelluksia. Opit suorittamaan luottamuksellisia tapahtumia, laskemaan liikkeelle omaisuuseriä ja hallitsemaan omaisuuserien uudelleenliikkeellelaskua.
+
+**Osa 4: Elementsin liittouma**  
+Tässä osiossa käsitellään kehittyneitä mekanismeja, mukaan lukien liittoutuneiden lohkojen allekirjoitukset, Elementsin käyttöä sidechainina ja itsenäisten lohkoketjujen luomista. Tämä osio auttaa ymmärtämään, kuinka varmistaa Elementsiin perustuvien lohkoketjujen turvallisuus, eheys ja yhteentoimivuus.
+
+Oletko valmis tutkimaan Elementsin ja Liquid-sidechainin potentiaalia? Aloitetaan!
+
 
 ## Elementtien yleiskatsaus
 
 <chapterId>7a7f2712-5300-4a6d-b1ed-05eab731bc35</chapterId>
 
-![Video](https://youtu.be/ns-JLGdkNig?si=fmWye_boRSvVF1Bt)
+:::video id=eae666b4-eddc-4e00-adea-2a5f94396044:::
 
 Elements on avoimen lähdekoodin, sivuketjuihin soveltuva lohkoketjualusta, joka tarjoaa pääsyn yhteisön jäsenten kehittämiin tehokkaisiin ominaisuuksiin, kuten luottamuksellisiin transaktioihin ja liikkeeseen laskettuihin varoihin.
 
@@ -82,7 +97,7 @@ Elements lisää kaikki nämä ominaisuudet Bitcoin Core -koodipohjan päälle, 
 
 <chapterId>05d88877-58b0-455b-9ae6-a72d19070525</chapterId>
 
-![Video](https://youtu.be/v0lzmfH81AY?si=V-xDWfmDLKyBcdPs)
+:::video id=7c8c7981-11e5-47a2-a257-ef998f4892f5:::
 
 Elements tarjoaa teknisen ratkaisun ongelmiin, joita lohkoketjun käyttäjät kohtaavat päivittäin: transaktioiden viive, yksityisyyden puute ja korvaavuuden riski.
 
@@ -143,7 +158,7 @@ Siirtääkseen varoja takaisin pääketjuun käyttäjä tekee erityisen peg-out-
 
 <chapterId>cc806e5a-81ab-457b-9531-9f863120a019</chapterId>
 
-![Video](https://youtu.be/Frr_OjTEPAM?si=iq5XonJyQk8S5OAu)
+:::video id=1f73dfee-3623-483b-ab42-07d9286ed999:::
 
 Koska Elements perustuu Bitcoinin koodipohjaan, toimivan verkon osatekijät ovat hyvin samankaltaisia.
 
@@ -224,7 +239,7 @@ Tämän avulla voimme suorittaa kaikenlaisia toimintoja, kuten omaisuuserien vä
 
 <chapterId>263b1c5b-59ed-49e7-b811-95c354f41eae</chapterId>
 
-![Video](https://youtu.be/-by2xBtXQeE?si=7bLo_geGn3qh7MXN)
+:::video id=ea2121b6-24a8-458d-91e6-0c92eaf4dc65:::
 
 Tässä osiossa opit käyttämään Elements-ohjelman Luottamukselliset tapahtumat -ominaisuutta.
 
@@ -336,7 +351,7 @@ Siinä kaikki tältä oppitunnilta; onnea tietokilpailuun ja nähdään seuraava
 
 <chapterId>c33c7020-5975-457a-99db-4f8b90d1fa1c</chapterId>
 
-![Video](https://youtu.be/XnY4WZUNSs4?si=dG8I5OoSh_0EBdvL)
+:::video id=7ac63148-d730-496d-85d4-0032aaf09be1:::
 
 Tässä osiossa opit käyttämään Elements-ohjelman Issued Assets -ominaisuutta.
 
@@ -515,7 +530,7 @@ Tässä jaksossa olemme nähneet, miten omaisuuseriä annetaan ja merkitään. S
 
 <chapterId>78751b21-1dc8-4877-a406-e71bc80a95b0</chapterId>
 
-![Video](https://youtu.be/5em79YHtYk0?si=rhponm6Hw9AB6RJp)
+:::video id=7df967b0-ffff-42e1-b1d5-868e76289faf:::
 
 Tässä osiossa opit, miten voit laskea liikkeelle lisää jo liikkeelle laskettua omaisuuserää ja miten voit tuhota tietyn määrän liikkeelle laskettua omaisuuserää.
 
@@ -663,7 +678,7 @@ Tässä osiossa olemme nähneet, miten omaisuuserä lasketaan liikkeeseen ja mit
 
 <chapterId>c47b217e-db14-4843-a66f-3e5f3a00a808</chapterId>
 
-![Video](https://youtu.be/kxWX91fCnus?si=KItm_Am3_RrBcLBN)
+:::video id=c5a81820-77d7-4a0c-9a4e-9323386a74ac:::
 
 Elements tukee federoitua allekirjoitusmallia, jonka avulla voit määrittää niiden vahvan federaation jäsenten määrän, joiden on allekirjoitettava ehdotettu lohko, jotta lohko olisi kelvollinen.
 
@@ -822,7 +837,7 @@ Kun tietty määrä allekirjoittajia on allekirjoittanut ehdotetun lohkon, se yh
 
 <chapterId>432d7a65-255f-44a3-8b38-78508202cb37</chapterId>
 
-![Video](https://youtu.be/egYzj4N8CB8?si=v7_-IXsjHPE-ARDe)
+:::video id=c15e7eaf-9b5d-4696-bb36-bd10e7b56967:::
 
 Elements on avoimen lähdekoodin yleiskäyttöinen lohkoketjualusta, joka voidaan myös "liittää" olemassa olevaan lohkoketjuun, kuten Bitcoiniin. Kun Elements on liitetty toiseen lohkoketjuun, sen sanotaan toimivan "sivuketjuna". Sivuketjut mahdollistavat varojen kaksisuuntaisen siirron ketjusta toiseen. Kun Elements toteutetaan sivuketjuna, voit kiertää joitakin pääketjun luontaisia rajoituksia ja säilyttää samalla pääketjussa suojattujen varojen tarjoaman turvallisuuden.
 
@@ -1025,7 +1040,7 @@ Peg-out tapahtuu, kun Elements-solmu kutsuu komentoa `sendtomainchain`, joka ott
 
 <chapterId>50dff39b-2702-47d7-9c15-0b54b845e99f</chapterId>
 
-![Video](https://youtu.be/u-3rV7DGtD0?si=G1__H0Uelf4sTUDM)
+:::video id=4955306b-4be3-429c-9d30-068f7644ea73:::
 
 Tähän mennessä olemme tarkastelleet, miten Elementsia voidaan käyttää sivuketjuna. Se voi kuitenkin toimia myös itsenäisenä lohkoketjuratkaisuna, jolla on oma oletusarvoinen natiivi omaisuuserä. Tässä kokoonpanossa Elements-lohkoketju säilyttää edelleen kaikki sivuketjutoteutuksen ominaisuudet, kuten luottamukselliset transaktiot ja liikkeeseen lasketut omaisuuserät, mutta se ei tarvitse peg-in- tai peg-out-toimintoa oletusomaisuuserien määrän lisäämiseksi tai poistamiseksi kierrosta.
 
@@ -1211,7 +1226,7 @@ Käyttämällä edellä mainittuja parametreja voit käyttää Elementsia itsen�
 
 <chapterId>7e2c916d-8114-424c-97f5-cbff9d73b8e3</chapterId>
 
-![Video](https://youtu.be/CTMdamTZBBM?si=16LBcXvN4pBfC7lr)
+:::video id=bd5167d5-edba-40b0-a8b1-ba8b74493a08:::
 
 Tällä kurssilla olemme oppineet, että Elements on avoimen lähdekoodin verkkoprotokolla, joka voidaan toteuttaa toisen lohkoketjun sivuketjuna tai itsenäisenä lohkoketjuratkaisuna.
 
@@ -1219,7 +1234,7 @@ Olemme nähneet, että Elementsin lähdekoodia ja verkkosivustoa (https://github
 
 Seuraava askel on haastaa itsesi kumulatiivisella tietokilpailulla, joka kattaa kaikki aiemmat osiot, ja aloittaa sitten Elementtien matka... onnea matkaan!
 
-# Päätelmä
+# Lopullinen osio
 
 <partId>d5dbd616-e291-42bc-aae3-6c44599dbd06</partId>
 

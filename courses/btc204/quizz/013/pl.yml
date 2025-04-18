@@ -1,0 +1,9 @@
+question: Jaki jest model prywatności systemu bankowego?
+answer: Tylko bank ma dostęp do szczegółów transakcji.
+wrong_answers:
+  - Transakcje są publiczne, ale tożsamość użytkowników nie jest znana.
+  - Transakcje są anonimowe i ukryte przed wszystkimi, w tym przed bankiem.
+  - Tylko rządy mają dostęp do szczegółów transakcji.
+explanation: |
+  W tradycyjnym systemie każde konto bankowe jest powiązane z tożsamością. Jednak przepływ informacji jest odcięty między bankiem a domeną publiczną.
+reviewed: false

@@ -1,0 +1,12 @@
+question: 在選擇 Bitcoin Wallet 時，自我監護的核心問題是什麼？
+answer: 您是資金的所有人，還是將資金的控制權交給第三方？
+wrong_answers:
+  - Wallet 是否與 passphrase 一起固定？
+  - Wallet 允許接收和發送比特幣嗎？
+  - 我可以與他人共用 Wallet嗎？
+explanation: |
+  選擇 Bitcoin Wallet 時，核心問題是：
+  您是資金的所有者，還是將資金的控制權交給第三方？
+  您的資金是由第三方控制嗎？這是因為
+  私鑰的持有者就是比特幣的擁有者。
+reviewed: true

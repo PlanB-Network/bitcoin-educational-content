@@ -1,0 +1,9 @@
+question: Która flaga sighash pozwala na crowdfunding poprzez pokrycie pojedynczego wejścia i wszystkich wyjść?
+answer: SIGHASH_ALL | SIGHASH_ANYONECANPAY
+wrong_answers:
+  - SIGHASH_NONE | SIGHASH_ANYONECANPAY
+  - SIGHASH_SINGLE | SIGHASH_ANYONECANPAY
+  - SIGHASH_ALL
+explanation: |
+  SIGHASH_ALL w połączeniu z SIGHASH_ANYONECANPAY umożliwia dodawanie wejść bez modyfikowania wyjść.
+reviewed: false

@@ -21,17 +21,17 @@ Du trenger ingen spesielle forkunnskaper for å komme i gang. Det følgende innh
 
 <partId>3cd2ac82-026c-53e1-874a-baf5842adc6d</partId>
 
-## Et sprang inn i det ukjente
+## Kursoversikt
 
 <chapterId>27e3fb60-4b50-556b-9e70-c4f5475c121d</chapterId>
 
-### Velkommen til et nytt monetært og teknologisk paradigme.
+Velkommen til BTC101-kurset!
 
 Bitcoin er en teknologisk og monetær revolusjon som kan få oss til å stille spørsmål ved vårt forhold til penger og samfunnet. Faktisk er Bitcoin (omtalt som BTC) en **nøytral** og **desentralisert** valuta, noe som betyr at den ikke kontrolleres av noen enhet eller institusjon. Det er en innovasjon som går lenger enn bare en "internettvaluta": Det er både en dataprotokoll (Bitcoin) og en pengeenhet (bitcoin).
 
 Protokollen bruker underliggende teknologier som kryptografi, nettverkskommunikasjon og den berømte "blokkjeden", mens bitcoin-enheten fungerer som den nødvendige valutaen for at protokollen skal fungere som den skal. I hverdagen bruker salvadoranere og bitcoinere over hele verden bitcoin-valutaen til å kjøpe og selge varer og tjenester, og de er avhengige av denne teknologien for å gjøre livene sine bedre.
 
-### Et omfattende, men likevel tilgjengelig pensum
+**Et omfattende, men tilgjengelig pensum:**
 
 I dette kurset tar vi for oss noen av de monetære aspektene ved Bitcoin, blant annet hvordan man kjøper og selger bitcoins, lagrer dem sikkert i digitale lommebøker og bruker dem til transaksjoner. Vi skal også se nærmere på utvinnernes rolle, som er avgjørende for å skape nye bitcoins og sikre Bitcoin-nettverket. Til slutt utforsker vi Bitcoins fremtid og hvordan Lightning Network-teknologien kan forbedre Bitcoin-transaksjoner.
 
@@ -39,38 +39,39 @@ I dette kurset tar vi for oss noen av de monetære aspektene ved Bitcoin, blant 
 
 Det er viktig å forstå at Bitcoin er et nytt pengesystem som fullstendig endrer vårt forhold til penger, så å lære seg å bruke det er en nødvendig ferdighet for alle som ønsker å ha kontroll over sine egne midler.
 
-**Seksjon 1 - Penger**
+**Seksjon 1 - Introduksjon**  
+- Kapittel 1 - Kursoversikt  
+- Kapittel 2 - Bitcoins forhistorie  
 
-- Kapittel 1 - Hva er penger?
-- Kapittel 2 - Fiatpenger
-- Kapittel 3 - Hyperinflasjon
-- Kapittel 4 - Bitcoin-pengepolitikk
+**Seksjon 2 - Penger**  
+- Kapittel 3 - Penger gjennom historien  
+- Kapittel 4 - Fiat-valutaer  
+- Kapittel 5 - Hyperinflasjon  
+- Kapittel 6 - 21 millioner bitcoins  
 
-**Avsnitt 2 - Bitcoin-lommebøker**
+**Seksjon 3 - Bitcoin-lommebøker**  
+- Kapittel 7 - Hva er en Bitcoin-lommebok?  
+- Kapittel 8 - Bitcoin-lommebøker og sikkerhet  
+- Kapittel 9 - Sette opp en lommebok  
+- Kapittel 10 - Å bestå tidens prøve  
 
-- Kapittel 5 - Hvordan fungerer Bitcoin-lommebøker?
-- Kapittel 6 - Valg av sikkerhet
-- Kapittel 7 - Sette opp lommeboken din
-- Kapittel 8 - Sikring mot tiden
+**Seksjon 4 - De tekniske aspektene ved Bitcoin**  
+- Kapittel 11 - Lansering av Bitcoin  
+- Kapittel 12 - Bitcoin-transaksjoner  
+- Kapittel 13 - Bitcoin-noder  
+- Kapittel 14 - Minere  
+- Kapittel 15 - Bitcoin og økologi  
 
-**Avsnitt 3 - Tekniske egenskaper ved Bitcoin**
+**Seksjon 5 - Hvordan skaffe seg bitcoins?**  
+- Kapittel 16 - Bitcoin sover aldri!  
+- Kapittel 17 - Tjene bitcoins gjennom arbeid  
+- Kapittel 18 - Spare med Bitcoin  
+- Kapittel 19 - Hyperbitcoinisering  
 
-- Kapittel 9 - Hva er en transaksjon?
-- Kapittel 10 - Bitcoin-noder
-- Kapittel 11 - Gruvearbeidere
-- Kapittel 12 - Gruvearbeidere og økologi
-
-**Avsnitt 4 - Sparing i Bitcoin**
-
-- Kapittel 13 - Bitcoin-pris
-- Kapittel 14 - Hvordan kjøper du Bitcoin?
-- Kapittel 15 - Å jobbe for Bitcoin
-- Kapittel 16 - Hyper-bitcoinisering
-
-**Avsnitt 5 - Lynnettverk**
-
-- Kapittel 17 - Introduksjon til Lightning Network
-- Kapittel 18 - Bruksområder for Lightning Network
+**Seksjon 6 - Fremtiden for Bitcoin: Lightning Network**  
+- Kapittel 20 - En kort introduksjon til Lightning Network  
+- Kapittel 21 - Brukstilfeller for Lightning Network  
+- Kapittel 22 - Rød pille eller blå pille?  
 
 Før vi introduserer definisjonen av penger og deres funksjon i samfunnet (kapittel 1), bør vi ta utgangspunkt i opprinnelsen til Bitcoin. Bitcoin ble lansert i 2009, og er en relativt ny teknologi som skiller seg fra alt annet. Det er derfor normalt at man ikke forstår alt om den på en gang. Akkurat som når du lærer deg å bruke Internett eller å kjøre bil, trenger du ikke å kunne alle de tekniske detaljene med en gang: Du kan begynne med å lære hvordan du mottar, betaler og sikrer pengene dine, og deretter ta små skritt for å studere det dypere.
 
@@ -79,6 +80,8 @@ Vi er tross alt bare i begynnelsen av innføringen, og vi har passert startfasen
 ![image](assets/en/02.webp)
 
 Det viktige poenget her er å forstå denne nye teknologien på en generell måte, så vi håper du liker dette kurset og fortsetter å gjøre fremskritt i dette nye globale monetære paradigmet.
+
+Klar til å dykke ned i den fascinerende verdenen av Bitcoin og forstå alle dets mekanismer? La oss gå!
 
 ## Bitcoins forhistorie
 
@@ -516,7 +519,7 @@ Siden 2017 kan den private nøkkelen heldigvis representeres av en enkel liste m
 
 ### Hva med hackere?
 
-Hva om noen ved et uhell gjetter listen vår med 12 eller 24 ord? Det korte svaret er at det er svært usannsynlig, takket være kryptografien som brukes til å lage lommeboken. For å sette det i perspektiv, er det å oppdage den samme mnemoniske frasen ved et uhell det samme som å finne det "riktige" tallet mellom 1 og $2^256$, noe som nesten tilsvarer å finne det "riktige" atomet i universet. Hvis du ikke er fornøyd med denne standardsikkerheten, kan du imidlertid alltid forbedre den ved å legge til en passordfrase (et ekstra ord) i Bitcoin-lommeboken din.
+Hva om noen ved et uhell gjetter listen vår med 12 eller 24 ord? Det korte svaret er at det er svært usannsynlig, takket være kryptografien som brukes til å lage lommeboken. For å sette det i perspektiv, er det å oppdage den samme mnemoniske frasen ved et uhell det samme som å finne det "riktige" tallet mellom 1 og 2 opphøyd i 256, noe som nesten tilsvarer å finne det "riktige" atomet i universet. Hvis du ikke er fornøyd med denne standardsikkerheten, kan du imidlertid alltid forbedre den ved å legge til en passordfrase (et ekstra ord) i Bitcoin-lommeboken din.
 
 ![image](assets/en/29.webp)
 
@@ -1132,6 +1135,8 @@ En gradvis strategi innebærer gjentatte kjøp, det vil si å kjøpe små mengde
 
 **Pass deg for UTXO-er**: Husk å konsolidere UTXO-er i lommebøkene dine fra tid til annen. Denne praksisen er viktig for å administrere bitcoinsene dine effektivt og unngå unødvendige gebyrer under transaksjoner.
 
+[UTXO](https://planb.network/resources/glossary/utxo#:~:text=UTXO) (Unspent Transaction Output) er en utgang fra en transaksjon som ennå ikke er brukt, noe som betyr at den ikke har blitt brukt som en inngang for en ny transaksjon. Å konsolidere UTXOer betyr å kombinere flere små UTXOer til én større, for å redusere "vekten" av transaksjonen og dermed betale lavere gebyrer.
+
 - Spontankjøp
 
 En løsning kan være et spontankjøp, som brukes til å få umiddelbar eksponering mot bitcoin. Enten du kjøper under et krakk eller utnytter en bonus, er det opp til deg. Du må bare ta mot til deg og trykke på kjøp-knappen.
@@ -1357,7 +1362,7 @@ Satoshi skapte Bitcoin i 2008 for å foreslå en endring av det finansielle syst
 
 Er du klar til å bli med?
 
-# Konklusjon
+# Siste seksjon
 
 <partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 

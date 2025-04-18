@@ -1,0 +1,11 @@
+question: Co podkreśla fraza Nie twoje klucze, nie twoje Bitcoiny?
+answer: Znaczenie posiadania klucza prywatnego do Bitcoin Wallet
+wrong_answers:
+  - Znaczenie posiadania fizycznego klucza dostępu do Bitcoinów
+  - Znaczenie przechowywania Bitcoinów w bezpiecznym miejscu
+  - Znaczenie nieudostępniania danych konta Bitcoin
+explanation: |
+  Rozdział wyjaśnia, że wyrażenie Nie twoje klucze, nie twoje Bitcoiny
+  podkreśla znaczenie posiadania klucza prywatnego do Bitcoin Wallet. Posiadając klucz
+  klucz prywatny, masz pełną kontrolę nad zawartymi w nim Bitcoinami.
+reviewed: false

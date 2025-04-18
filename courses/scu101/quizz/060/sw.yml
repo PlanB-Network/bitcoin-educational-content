@@ -1,0 +1,10 @@
+question: Je, ni kipengele gani kimojawapo cha usalama wa mtandao kinachohitaji ufuatiliaji wa mara kwa mara?
+answer: Maendeleo ya mara kwa mara ya vitisho
+wrong_answers:
+  - Soko la hisa
+  - Hali ya hewa
+  - habari
+explanation: |
+  Sura inataja kwamba mageuzi ya mara kwa mara ya vitisho
+  katika usalama wa mtandao inahitaji ufuatiliaji wa mara kwa mara.
+reviewed: true

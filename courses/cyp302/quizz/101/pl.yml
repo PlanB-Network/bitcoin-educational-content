@@ -1,0 +1,9 @@
+question: Co to jest HMAC?
+answer: Kod uwierzytelniania wiadomości oparty na funkcji Hash
+wrong_answers:
+  - Algorytm szyfrowania asymetrycznego oparty na funkcji Hash
+  - Algorytm szyfrowania asymetrycznego oparty na algorytmie Diffiego-Hellmana
+  - Kod uwierzytelniania wiadomości oparty na Diffie-Hellmanie
+explanation: |
+  HMAC to kod uwierzytelniania wiadomości, który wykorzystuje funkcję Hash, taką jak SHA-256, do utworzenia znacznika weryfikującego integralność i autentyczność wiadomości.
+reviewed: false

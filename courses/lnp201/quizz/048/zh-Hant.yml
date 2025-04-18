@@ -1,0 +1,9 @@
+question: Keysend 技術如何在沒有 Invoice 的情況下實現資金轉移？
+answer: 寄件者在 HTLC 中產生一個秘密，以解除資金鎖定
+wrong_answers:
+  - 收件人產生 Hash 以驗證傳輸
+  - 付款是透過寄件者與收件者之間的直接管道來驗證的
+  - 資金直接存入，無需額外保證
+explanation: |
+  Keysend 允許寄件者 generate 嵌入 HTLC 中的秘密，使收件者無需發出 Invoice 即可解鎖資金。
+reviewed: false

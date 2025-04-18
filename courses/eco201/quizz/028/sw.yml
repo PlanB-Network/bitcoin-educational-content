@@ -1,0 +1,18 @@
+question: Je, kuna uhusiano gani kati ya upendeleo wa wakati na viwango vya riba katika uchumi na masoko ya mitaji yasiyoendeshwa?
+answer: Kuongezeka kwa viwango vya riba kunatokana na ongezeko linganifu la mahitaji ya mtaji ikilinganishwa na Supply, kuonyesha mapendeleo ya muda wa juu. Kinyume chake, kupungua kwa viwango vya riba hutokea kutokana na ongezeko la akiba, ambayo ni ongezeko la Supply ya mtaji, inayoonyesha kupunguzwa kwa mapendekezo ya wakati.
+wrong_answers:
+  - Kuongezeka kwa viwango vya riba kunaonyesha kupungua kwa upendeleo wa wakati, wakati kupungua kwa viwango vya riba kunaonyesha ongezeko la upendeleo wa wakati.
+  - Upendeleo wa wakati na viwango vya riba vinahusiana kinyume.
+  - Upendeleo wa wakati na viwango vya riba havina uhusiano wa moja kwa moja.
+explanation: |
+  Katika uchumi wenye masoko ya mitaji ambayo hayajadhibitiwa, kumbukumbu
+  viwango vya riba huamuliwa kwenye makutano ya
+  mtaji Supply na mahitaji. Kwa hiyo, viwango hivi vinawakilisha
+  hali ya upendeleo wa wakati kwa uchumi mzima. An
+  ongezeko la kiwango cha riba kutoka kwa jamaa
+  ongezeko la mahitaji ya mtaji ikilinganishwa na Supply,
+  ikionyesha upendeleo wa wakati wa juu. Kinyume chake, kupungua
+  katika viwango vya riba hutokea kutokana na ongezeko la akiba,
+  ambayo ni ongezeko la Supply ya mtaji, ikionyesha a
+  kupunguzwa kwa upendeleo wa wakati.
+reviewed: true

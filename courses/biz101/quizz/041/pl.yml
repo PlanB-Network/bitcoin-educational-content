@@ -1,0 +1,9 @@
+question: Dlaczego zaleca się eksport CSV wszystkich transakcji Bitcoin?
+answer: Zapewnia przejrzysty, ustrukturyzowany zapis każdej transakcji, ułatwiając księgowym zintegrowanie ich z raportami finansowymi i zeznaniami podatkowymi.
+wrong_answers:
+  - Ponieważ papierowe paragony są jedynymi prawnie akceptowalnymi dokumentami księgowymi.
+  - Ponieważ eksport danych automatycznie uzupełnia zeznanie podatkowe bez konieczności sprawdzania.
+  - Ponieważ pliki CSV eliminują potrzebę śledzenia podstawy kosztowej.
+explanation: |
+  Posiadanie cyfrowego zapisu we wspólnym formacie pozwala na płynną integrację z systemami księgowymi, pomaga w utrzymaniu ścieżek audytu i wspiera dokładne raportowanie podatkowe i zgodności.
+reviewed: false

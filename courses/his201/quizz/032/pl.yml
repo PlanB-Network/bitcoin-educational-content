@@ -1,0 +1,9 @@
+question: Jak nazywał się młody Fin, który pomagał Satoshi w komunikacji na temat jego projektu w 2009 roku, w szczególności zarządzając stroną internetową i forum Bitcoin?
+answer: Martti Malmi
+wrong_answers:
+  - Mike Hearn
+  - Gavin Andresen
+  - RPOW
+explanation: |
+  Skontaktował się z Satoshi w kwietniu 2009 roku. Satoshi natychmiast zlecił mu napisanie FAQ i prezentacji na stronę internetową. Martti Malmi był prawą ręką Satoshi przez ponad rok.
+reviewed: false

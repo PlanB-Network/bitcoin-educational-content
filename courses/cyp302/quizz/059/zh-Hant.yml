@@ -1,0 +1,9 @@
+question: 哪位法國數學家在 19 世紀提出群的概念？
+answer: Évariste Galois
+wrong_answers:
+  - Henri Poincaré
+  - 皮埃爾-西蒙-拉普拉斯
+  - Joseph Fourier
+explanation: |
+  Évariste Galois 發展了群論來研究高於五度的多项式方程式的解。
+reviewed: false

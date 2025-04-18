@@ -1,0 +1,11 @@
+question: 什麼是 BitcoinTalk？
+answer: Bitcoin 使用者的討論場所。
+wrong_answers:
+  - A Bitcoin Mining 軟體。
+  - A Bitcoin Wallet。
+  - Bitcoin 會議。
+explanation: |
+  BitcoinTalk 論壇是 Bitcoin
+  用戶的討論場所。它是由 Satoshi Nakamoto 在 11 月 22 日創建的、
+  2009.
+reviewed: true

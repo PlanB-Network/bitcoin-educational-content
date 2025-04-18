@@ -15,6 +15,18 @@ Dans cette formation, nous allons approfondir l’industrie du minage afin de d�
 La 1ère section sera théorique où avec Ajelex, nous aurons une discussion approfondie sur de nombreux thèmes autour du minage, ceci nous permettra de mieux comprendre cette industrie et les enjeux économiques et géopolitiques qui y sont liés.
 Dans une deuxième section, nous attaquerons avec un cas pratique. En effet, nous allons apprendre à transformer un mineur S9 d'occasion en chauffage d'appoint maison ! À travers des guides écrits et vidéos, nous vous montrerons et expliquerons toutes les étapes pour y arriver chez vous :)
 
+Nous espérons à travers cette vidéo vous montrer que l'industrie du minage est plus complexe qu'il y paraît et l’étudier permet de nuancer le débat écologique qui lui est lié !
+Si vous avez besoin d’aide pour votre montage, un Telegram a été créé pour les étudiants et toutes les pièces nécessaires pour y parvenir peuvent être trouvées sur notre plateforme e-commerce !
+
++++
+
+# Vos premiers pas dans le minage !
+
+Dans cette formation, nous allons approfondir l’industrie du minage afin de démystifier ce sujet si complexe ! La formation est accessible pour tous et ne demande pas d’investissement initial.
+
+La 1ère section sera théorique où avec Ajelex, nous aurons une discussion approfondie sur de nombreux thèmes autour du minage, ceci nous permettra de mieux comprendre cette industrie et les enjeux économiques et géopolitiques qui y sont liés.
+Dans une deuxième section, nous attaquerons avec un cas pratique. En effet, nous allons apprendre à transformer un mineur S9 d'occasion en chauffage d'appoint maison ! À travers des guides écrits et vidéos, nous vous montrerons et expliquerons toutes les étapes pour y arriver chez vous :)
+
 Nous espérons à travers cette vidéo vous montrer que l'industrie du minage est plus complexe qu'il y paraît et l’étudier permet de nuancer le débat écologique qui est lui lié !
 Si vous avez besoin d’aide pour votre attaque, un Telegram a été créé pour les étudiants et toutes les pièces nécessaires pour y parvenir peuvent être trouvées sur notre e-commerce !
 
@@ -24,42 +36,30 @@ Si vous avez besoin d’aide pour votre attaque, un Telegram a été créé pour
 
 <partId>a99dc130-3650-563f-8d42-a0b5160af0ab</partId>
 
-## Bienvenue!
+## Aperçu du cours
 
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
-Bienvenue dans MINAGE 201: une introduction au minage. Ajelex, Jim & Rogzy sont heureux de vous accompagner dans vos premiers pas concrets dans cette nouvelle industrie. En espérant que le cours vous plaise et que vous rejoignez l'aventure du home mining !
+Bienvenue dans le cours MIN201 : une introduction au minage. Ajelex, Jim & Rogzy sont ravis de vous guider dans vos premiers pas dans cette industrie. Nous espérons que le cours vous sera agréable et que vous vous lancerez dans l'aventure du home mining !
 
-### Aperçu du Cours
+Cette formation vous plonge au cœur de l’industrie du minage de Bitcoin en vous proposant d’en comprendre les aspects théoriques et pratiques. Que vous soyez novice ou déjà familiarisé avec le sujet, ce parcours vous permettra de saisir les enjeux économiques et techniques liés au minage, tout en réalisant un projet pratique de réutilisation d’un ASIC pour le chauffage domestique.
 
-Dans ce cours la première section sera consacrée à la théorie du minage avec Ajelex. Nous discuterons en profondeur des nombreux thèmes autour du minage, ce qui nous permettra de mieux comprendre cette industrie ainsi que les enjeux économiques et géopolitiques liés.
+**Section 2 : Tout connaître sur le minage**  
+Dans cette section, nous vous fournirons une compréhension approfondie du minage de Bitcoin. Nous aborderons le fonctionnement technique du minage, son rôle dans le protocole Bitcoin, ainsi que ses implications économiques et géopolitiques. Vous découvrirez également la relation complexe entre le prix du bitcoin et le hashrate, ainsi que les enjeux liés à la souveraineté et à la régulation de cette industrie.
 
-Dans la deuxième section, nous nous lancerons dans un cas pratique fascinant, apprenant à transformer un mineur S9 d'occasion en chauffage d'appoint maison. Grâce à des guides écrits et vidéos, toutes les étapes nécessaires seront minutieusement expliquées, garantissant ainsi votre succès dans ce projet innovant.
+**Section 3 : Home-mining et réutilisation de la chaleur**  
+Nous entrerons ensuite dans l’application pratique avec le concept d’Attakai, qui vise à démocratiser le home-mining en transformant des mineurs S9 d’occasion en dispositifs de chauffage domestique. Vous apprendrez à acheter et modifier un ASIC d’occasion, tout en préparant le matériel nécessaire pour les modifications matérielles.
 
-Ce voyage d'apprentissage vous montrera que l'industrie du minage est plus complexe qu'elle n’y paraît, offrant une perspective équilibrée sur le débat écologique lié. Une aide continue sera disponible via un groupe Telegram dédié pour les étudiants, et toutes les pièces nécessaires seront facilement accessibles sur notre plateforme e-commerce.
+**Section 4 : Attakai - modification du logiciel d’un Antminer S9**  
+Ici, vous apprendrez à configurer votre Antminer S9 pour un usage domestique. Nous vous guiderons à travers les étapes de configuration d’un bridge Wi-Fi/Ethernet, la réinitialisation de votre appareil, l’installation de BraiinsOS+, et la configuration optimale de celui-ci pour le minage.
 
-### Curriculum:
+**Section 5 : Attakai - Modification des ventilateurs**  
+Afin d’optimiser votre Antminer S9 pour une utilisation en tant que chauffage d’appoint, cette section vous apprendra à remplacer les ventilateurs de l’alimentation et les ventilateurs principaux. Ces modifications sont essentielles pour réduire le bruit et améliorer l’efficacité thermique de l’appareil.
 
-Section Théorique :
+**Section 6 : Attakai - Paramétrage**  
+Pour conclure, vous apprendrez à rejoindre une pool de minage et à optimiser les performances de votre Antminer S9. Vous découvrirez comment obtenir un rendement énergétique optimal et miner efficacement vos premiers satoshis.
 
-- Explication du minage.
-- L'industrie du minage.
-- Les nuances de l’industrie du minage.
-- Le minage dans le protocole bitcoin.
-- Prix du bitcoin et hashrate, une corrélation ?
-- Souveraineté et régulation
-- Interview d'un professionnel de l'industrie du minage
-
-Section Pratique : Attakai
-
-- Introduction à Attakai.
-- Guide d’achat.
-- Modification du logiciel d’un Antminer S9.
-- Remplacer les ventilateurs pour réduire les nuisances sonores
-- Configuration d’une pool.
-- Configurer son Antminer S9 avec Braiins OS+.
-
-Prêts à commencer cette aventure captivante ? Plongeons ensemble dans le monde fascinant du home-mining !
+Alors, prêt à découvrir l’univers du minage de Bitcoin et à relever le défi pratique d’Attakai ? Allons-y !
 
 # Tout connaître sur le minage
 
@@ -69,7 +69,7 @@ Prêts à commencer cette aventure captivante ? Plongeons ensemble dans le monde
 
 <chapterId>36a82de7-87ee-5e7a-b69e-48fc30030447</chapterId>
 
-![Qu'est-ce que le minage de bitcoin ?](https://www.youtube.com/watch?v=neEQzEQzmPQ)
+:::video id=1f60c1c6-726e-4ac5-bf1d-9655e7b1ba39:::
 
 ### Le Minage Expliqué : L'Analogie du Puzzle
 
@@ -102,13 +102,13 @@ L'ajustement de la difficulté est un mécanisme crucial dans le fonctionnement 
 ![image](assets/en/03.webp)
 
 - Exemple de la Chine:
-  Le cas de la Chine illustre parfaitement ce mécanisme d’ajustement de la difficulté, riche en énergie abondante et bon marché, elle était le hub principal mondial de minage de Bitcoin. En 2021, le pays a brusquement interdit le minage de Bitcoin sur son territoire, entraînant une chute massive du hashrate global du réseau Bitcoin, de l'ordre de 50%. Cette diminution rapide de la puissance de minage aurait pu perturber gravement le réseau Bitcoin, en augmentant le temps moyen de minage des blocs. Cependant, le mécanisme d’ajustement de la difficulté est intervenu, réduisant la difficulté de minage pour garantir que la fréquence de minage des blocs reste en moyenne à 10 minutes. Ce cas démontre l’efficacité et la résilience du mécanisme d’ajustement de la difficulté du Bitcoin, qui assure la stabilité et la prévisibilité du réseau, même en cas de changements brusques et importants dans le paysage du minage mondial.
+  Le cas de la Chine illustre parfaitement ce mécanisme d’ajustement de la difficulté, riche en énergie abondante et bon marché, elle était le hub principal mondial du minage de Bitcoin. En 2021, le pays a brusquement interdit le minage de Bitcoin sur son territoire, entraînant une chute massive du hashrate global du réseau Bitcoin, de l'ordre de 50%. Cette diminution rapide de la puissance de minage aurait pu perturber gravement le réseau Bitcoin, en augmentant le temps moyen de minage des blocs. Cependant, le mécanisme d’ajustement de la difficulté est intervenu, réduisant la difficulté de minage pour garantir que la fréquence de minage des blocs reste en moyenne à 10 minutes. Ce cas démontre l’efficacité et la résilience du mécanisme d’ajustement de la difficulté de Bitcoin, qui assure la stabilité et la prévisibilité du réseau, même en cas de changements brusques et importants dans le paysage du minage mondial.
 
 ### Évolution des Machines de Minage de Bitcoin
 
-Concernant l'évolution des machines de minage de Bitcoin, il est primordial de souligner que le contexte est plus orienté vers un modèle d'affaires traditionnel. Les mineurs tirent leurs revenus de la validation des blocs, une tâche dont la probabilité de succès est relativement basse. Le modèle de machine actuellement en usage, le Antminer S9, bien qu'étant un modèle plus ancien lancé aux alentours de 2016, demeure en circulation sur le marché de l'occasion, se négocient aux alentours entre 100€ et 200€. Cependant, le prix des machines de minage varie en fonction de la valeur du Bitcoin, et un modèle plus récent, le Antminer S19, est actuellement estimé à environ 3000€.
+Concernant l'évolution des machines de minage de Bitcoin, il est primordial de souligner que le contexte est plus orienté vers un business model traditionnel. Les mineurs tirent leurs revenus de la validation des blocs, une tâche dont la probabilité de succès est relativement basse. Le modèle de machine actuellement en usage, le Antminer S9, bien qu'étant un modèle plus ancien lancé vers 2016, demeure en circulation sur le marché de l'occasion, se négociant entre 100€ et 200€. Cependant, le prix des machines de minage varie en fonction de la valeur du Bitcoin, et un modèle plus récent, le Antminer S19, est actuellement estimé à environ 3000€.
 
-Face à l'évolution technologique constante dans le domaine du minage, les professionnels doivent se positionner de manière stratégique. L'industrie du minage est en proie à des innovations continuelles, comme le démontre la sortie récente de la version J du S19, et celle anticipée du S19 XP, offrant des capacités de minage nettement supérieures. De plus, les améliorations ne sont pas uniquement liées aux performances brutes des machines. Par exemple, le nouveau modèle S19 XP utilise un système de refroidissement par liquide, une modification technique qui permet une amélioration significative de l'efficience énergétique. Bien que l'innovation reste une constante, les gains d'efficience futurs seront probablement moindres par rapport à ceux observés jusqu'à présent, en raison de l'atteinte d'un certain seuil d'innovation technologique.
+Face à l'évolution technologique constante dans le domaine du minage, les professionnels doivent se positionner de manière stratégique. L'industrie du minage est rythmée par des innovations continuelles, comme le démontre la sortie récente de la version J du S19, et celle anticipée du S19 XP, offrant des capacités de minage nettement supérieures. De plus, les améliorations ne sont pas uniquement liées aux performances brutes des machines. Par exemple, le nouveau modèle S19 XP utilise un système de refroidissement par liquide, une modification technique qui permet une amélioration significative de l'efficience énergétique. Bien que l'innovation reste une constante, les gains d'efficience futurs seront probablement moindres par rapport à ceux observés jusqu'à présent, en raison de l'atteinte d'un certain seuil d'innovation technologique.
 
 ![image](assets/en/04.webp)
 
@@ -118,29 +118,29 @@ En conclusion, l'industrie du minage de Bitcoin continue de s'adapter et de se d
 
 <chapterId>0896dfc1-c97e-5bec-9bf1-8c20b3388a2c</chapterId>
 
-![Le minage de Bitcoin trop centralisé ? Risques et solutions](https://www.youtube.com/watch?v=xkiY8DgkcLQ)
+:::video id=2635c965-8d2a-42e2-83df-517bcea25c86:::
 
 ### Les Pools de Minage
 
-À l’heure actuelle, le minage de Bitcoin a évolué pour devenir une industrie sérieuse, substantielle, avec de nombreux acteurs désormais publics et un nombre croissant de mineurs significatifs. Cette évolution a rendu le minage presque inaccessible pour les petits acteurs en raison du coût élevé associé à l'acquisition de nouvelles machines de minage. La question se pose donc de la distribution du hashrate parmi divers acteurs du marché. La situation est complexe, car il est essentiel d’examiner à la fois la répartition du hashrate parmi différentes sociétés et parmi différents pools de minage.
+À l’heure actuelle, le minage de Bitcoin a évolué pour devenir une industrie sérieuse, substantielle, avec de nombreux acteurs désormais publics et un nombre croissant de mineurs significatifs. Cette évolution a rendu le minage presque inaccessible pour les petits acteurs en raison du coût élevé associé à l'acquisition de nouvelles machines de minage. La question se pose donc de la distribution du hashrate parmi divers acteurs du marché. La situation est complexe, car il est essentiel d’examiner à la fois la répartition du hashrate parmi différentes sociétés et parmi différentes pools de minage.
 
 ![image](assets/en/05.webp)
 
-Un pool de minage est un regroupement de mineurs qui unissent leurs ressources de calcul pour augmenter leurs chances de minage. Cette coopération est nécessaire car une petite machine de minage isolée est en compétition avec des géants de l'industrie, réduisant ses chances de succès à un niveau négligeable. Le minage fonctionne selon un principe de loterie, et les chances de gagner un bloc (et donc la récompense en Bitcoin) toutes les dix minutes sont extrêmement faibles pour un petit mineur individuel. En se regroupant en pools, les mineurs peuvent combiner leur puissance de calcul, trouver des blocs plus fréquemment et distribuer ensuite les récompenses de manière proportionnelle à la contribution de chaque mineur au pool.
+Une pool de minage est un regroupement de mineurs qui unissent leurs ressources de calcul pour augmenter leurs chances de minage. Cette coopération est nécessaire car une petite machine de minage isolée est en compétition avec des géants de l'industrie, réduisant ses chances de succès à un niveau négligeable. Le minage fonctionne selon un principe de loterie, et les chances de gagner un bloc (et donc la récompense en Bitcoin) toutes les dix minutes sont extrêmement faibles pour un petit mineur individuel. En se regroupant en pools, les mineurs peuvent combiner leur puissance de calcul, trouver des blocs plus fréquemment et distribuer ensuite les récompenses de manière proportionnelle à la contribution de chaque mineur à la pool.
 
-Par exemple, si un pool trouve un bloc et remporte 6,25 bitcoins, un mineur contribuant à 1% de la puissance de calcul totale du pool recevrait 1% des 6,25 bitcoins gagnés. Cependant, il est à noter que les pools de minage prennent généralement une petite commission (généralement autour de 2%) pour couvrir les coûts de fonctionnement de la coopérative.
+Par exemple, si une pool trouve un bloc et remporte 6,25 bitcoins, un mineur contribuant à 1% de la puissance de calcul totale de la pool recevrait 1% des 6,25 bitcoins gagnés. Cependant, il est à noter que les pools de minage prennent généralement une petite commission (généralement autour de 2%) pour couvrir les coûts de fonctionnement de la coopérative.
 
 ### Les softwares utilisées par l'industrie
 
-Dans le contexte du minage de Bitcoin, le rôle des logiciels est tout aussi crucial que le matériel. Un exemple de ceci est illustré par le rôle de Bitmain, un fabricant prolifique qui a mis au point l'Antminer S9. En plus du matériel de minage, l'industrie repose fortement sur les pools de minage collaboratifs, tels que Brainspool, qui contrôle environ 5% du hashrate global du réseau Bitcoin.
+Dans le contexte du minage de Bitcoin, le rôle des logiciels est tout aussi crucial que le matériel. Un exemple de ceci est illustré par le rôle de Bitmain, le fabricant prolifique qui a mis au point l'Antminer S9. En plus du matériel de minage, l'industrie repose fortement sur les pools de minage collaboratifs, tels que Brainspool, qui contrôle environ 5% du hashrate global du réseau Bitcoin.
 
-Les acteurs de cette industrie cherchent continuellement à augmenter l'efficience à travers le hardware et le software. Par exemple, un logiciel populaire utilisé dans ce contexte est BrainsOS Plus. Ce logiciel remplace le système d'exploitation d'origine de la machine de minage, permettant ainsi d'exécuter les mêmes opérations de manière plus efficiente. Avec un tel logiciel, un mineur peut augmenter l'efficience de sa machine de 25%. Cela signifie que pour une quantité d'électricité équivalente, la machine peut produire 25% de hashrate supplémentaire, augmentant ainsi les récompenses reçues par le mineur. Cette optimisation logicielle est un élément essentiel de la compétitivité dans le minage de Bitcoin, démontrant l'importance d'une approche intégrée, combinant à la fois des améliorations matérielles et logicielles pour maximiser l'efficacité et les rendements.
+Les acteurs de cette industrie cherchent continuellement à augmenter l'efficience à travers le hardware et le software. Par exemple, un logiciel populaire utilisé dans ce contexte est BraiinsOS Plus. Ce logiciel remplace le système d'exploitation d'origine de la machine de minage, permettant ainsi d'exécuter les mêmes opérations de manière plus efficiente. Avec un tel logiciel, un mineur peut augmenter l'efficience de sa machine de 25%. Cela signifie que pour une quantité d'électricité équivalente, la machine peut produire 25% de hashrate supplémentaire, augmentant ainsi les récompenses reçues par le mineur. Cette optimisation logicielle est un élément essentiel de la compétitivité dans le minage de Bitcoin, démontrant l'importance d'une approche intégrée, combinant à la fois des améliorations matérielles et logicielles pour maximiser l'efficacité et les rendements.
 
-### La régulation et le tarrif electricité
+### La régulation et le tarif d'electricité
 
 Comme observé en Chine et ailleurs, la régulation influence considérablement le minage. Bien qu'il n’y ait pas de mineurs significatifs en France, la régulation et les tarifs d'électricité élevés en Europe constituent des obstacles importants. Les mineurs sont continuellement à la recherche d'électricité à moindre coût pour maximiser leurs gains. Ainsi, le coût élevé de l'électricité en Europe et en France ne favorise pas l'attraction des mineurs dans ces régions.
 
-Les mineurs ont tendance à se diriger vers des régions avec des tarifs d'électricité bas, souvent dans des pays émergents ou des pays avec des surplus énergétiques. Par exemple, une grande partie du hashrate mondial se situe au Texas, aux États-Unis. Le Texas possède un réseau électrique indépendant, ne partageant pas ses ressources énergétiques avec les autres États. Cette particularité oblige le Texas à produire souvent plus d'électricité que nécessaire pour éviter toute pénurie, créant ainsi un surplus. Les mineurs de Bitcoin tirent parti de cette surproduction en s’installant au Texas, où ils peuvent miner des bitcoins à des tarifs d'électricité très bas lors des périodes de surplus énergétique. Cette situation démontre l'influence significative des régulations et des tarifs d'électricité sur le minage de Bitcoin, soulignant l'importance de ces facteurs dans la décision des mineurs sur l’emplacement de leurs opérations de minage.
+Les mineurs ont tendance à se diriger vers des endroits avec des tarifs d'électricité bas, souvent dans des pays émergents ou des pays avec des surplus énergétiques. Par exemple, une grande partie du hashrate mondial se situe au Texas, aux États-Unis. Le Texas possède un réseau électrique indépendant, ne partageant pas ses ressources énergétiques avec les autres États. Cette particularité oblige le Texas à produire souvent plus d'électricité que nécessaire pour éviter toute pénurie, créant ainsi un surplus. Les mineurs de Bitcoin tirent parti de cette surproduction en s’installant au Texas, où ils peuvent miner des bitcoins à des tarifs d'électricité très bas lors des périodes de surplus énergétique. Cette situation démontre l'influence significative des régulations et des tarifs d'électricité sur le minage de Bitcoin, soulignant l'importance de ces facteurs dans la décision des mineurs sur l’emplacement de leurs opérations de minage.
 
 ### Où vont les mineurs et la gestion de l'énergie?
 
@@ -148,12 +148,12 @@ En soulignant l'impact des mineurs de bitcoins dans le monde de l'énergie, la t
 
 Prenons un exemple. Dans un pays en cours de construction d’un barrage, la production d'électricité démarre souvent avant que les lignes de distribution ne soient entièrement opérationnelles. Ce décalage peut engendrer un coût considérable et décourager l'investissement dans de tels projets d'infrastructure. Cependant, les mineurs de bitcoins peuvent intervenir comme une source de demande flexible, prêts à consommer cette électricité "orpheline", aidant ainsi à amortir les coûts d'infrastructure. L'implication ici est qu'on peut ainsi rentabiliser immédiatement de nouvelles installations, favorisant la création de nouvelles sources d'électricité. Ce principe s'applique également à des échelles plus petites. Que ce soit un particulier utilisant un générateur hydroélectrique sur une petite rivière ou un foyer équipé de panneaux solaires, l'excédent d'électricité produit peut être utilisé pour alimenter une opération de minage de bitcoins.
 
-En France, par exemple, les surplus d'électricité des panneaux solaires sont réinjectés dans le réseau et les producteurs sont rémunérés par un crédit de consommation de la part d'EDF. De manière similaire, on peut imaginer un mineur opérant sur ces surplus d'électricité, s'éteignant lorsque la demande locale égale l'offre. Bien que cela puisse sembler égoïste, privilégiant la production de bitcoins plutôt que de soutenir le réseau électrique local, cela présente un autre angle : la stabilisation du réseau électrique. La gestion complexe des surplus d'électricité, avec parfois même des coûts associés à leur élimination, peut être grandement simplifiée. Les mineurs de bitcoins peuvent absorber ces surplus, agissant comme un tampon flexible, ajustant la demande plutôt que l'offre. Dans un monde où la production d'électricité à partir de sources renouvelables (peu pilotables) est en augmentation constante, les mineurs peuvent jouer un rôle clé pour assurer l'équilibre de nos réseaux électriques, tout en profitant de l'électricité bon marché ou excédentaire pour alimenter leurs opérations de minage.
+En France, par exemple, les surplus d'électricité des panneaux solaires sont réinjectés dans le réseau et les producteurs sont rémunérés par un crédit de consommation de la part d'EDF. De manière similaire, on peut imaginer un mineur opérant sur ces surplus d'électricité, s'éteignant lorsque la demande locale égale l'offre. Bien qu'il puisse sembler égoïste de privilégier la production de bitcoins plutôt que de soutenir le réseau électrique local, cela présente un autre angle : la stabilisation du réseau électrique. La gestion complexe des surplus d'électricité, avec parfois même des coûts associés à leur élimination, peut être grandement simplifiée. Les mineurs de bitcoins peuvent absorber ces surplus, agissant comme un tampon flexible, ajustant la demande plutôt que l'offre. Dans un monde où la production d'électricité à partir de sources renouvelables (peu pilotables) est en augmentation constante, les mineurs peuvent jouer un rôle clé pour assurer l'équilibre de nos réseaux électriques, tout en profitant de l'électricité bon marché ou excédentaire pour alimenter leurs opérations de minage.
 
 ### La centralisation du minage
 
 La centralisation du minage est abordée comme un défi majeur. De grands acteurs, tels que Foundry, dominent le marché, ce qui peut potentiellement entraîner la censure des transactions. Cette centralisation peut également rendre le réseau vulnérable à des attaques, notamment l'attaque des 51%, où un acteur ou un groupe contrôle plus de 50% de la puissance de hachage du réseau, leur permettant ainsi de contrôler et de manipuler le réseau.
-Risque de Régulation Il est souligné que si un pays comme les États-Unis décidait de réguler ou d'interdire certaines transactions Bitcoin, cela pourrait avoir un impact considérable sur le réseau, en particulier si une grande partie de la puissance de hachage est centralisée dans ce pays.
+Risque de Régulation. Il est souligné que si un pays comme les États-Unis décidait de réguler ou d'interdire certaines transactions Bitcoin, cela pourrait avoir un impact considérable sur le réseau, en particulier si une grande partie de la puissance de hachage est centralisée dans ce pays.
 
 ![image](assets/en/06.webp)
 
@@ -163,15 +163,15 @@ Pour lutter contre cette centralisation, différentes stratégies sont abordées
 - Stratum V2 : Le protocole Stratum V2 offre une autre approche. Contrairement à son prédécesseur, Stratum V2 permet aux mineurs de choisir les transactions à inclure dans les blocs qu'ils minent. Cette capacité renforce la résistance à la censure et diminue la capacité des grandes pools de minage à dominer le réseau. En donnant plus de pouvoir aux mineurs individuels, le protocole Stratum V2 peut jouer un rôle déterminant dans la lutte contre la centralisation du hashrate.
   Open-Sourcing des Logiciels de Minage
 - L’open-sourcing des logiciels de minage: Ceci est une autre stratégie potentiellement efficace. En rendant les logiciels de minage accessibles à tous, les petits mineurs auraient les mêmes opportunités que les grandes entreprises de minage pour participer et contribuer au réseau de blockchain. Cette démarche encouragerait une distribution plus large du hashrate, contribuant ainsi à la décentralisation du réseau.
-- Diversification des Acteurs et de la Géographie: Encourager la participation de divers acteurs de différentes régions géographiques dans le minage de cryptomonnaies peut aussi s’avérer efficace. En diversifiant géographiquement le hashrate, il devient plus difficile pour un seul acteur ou pays d'exercer un contrôle ou une influence disproportionnée sur le réseau. Cette approche peut contribuer à protéger le réseau contre les attaques potentielles et renforcer sa décentralisation.
+- Diversification des Acteurs et de la Géographie: Encourager la participation de divers acteurs de différentes zones géographiques au minage de cryptomonnaies peut aussi s’avérer efficace. En diversifiant géographiquement le hashrate, il devient plus difficile pour un seul acteur ou pays d'exercer un contrôle ou une influence disproportionnée sur le réseau. Cette approche peut contribuer à protéger le réseau contre les attaques potentielles et renforcer sa décentralisation.
 
-La conclusion générale est que la décentralisation est cruciale pour la sécurité et la résilience du réseau Bitcoin. Bien que la centralisation puisse offrir des avantages en termes d'efficacité, elle expose le réseau à des risques significatifs, notamment la censure et les attaques des 51%. Des initiatives comme Takai et l'adoption de nouveaux protocoles comme Stratum V2 sont des étapes importantes vers la décentralisation et la protection du réseau Bitcoin contre ces menaces.
+La conclusion générale est que la décentralisation est cruciale pour la sécurité et la résilience du réseau Bitcoin. Bien que la centralisation puisse offrir des avantages en termes d'efficacité, elle expose le réseau à des risques significatifs, notamment la censure et les attaques des 51%. Des initiatives comme Attakai et l'adoption de nouveaux protocoles comme Stratum V2 sont des étapes importantes vers la décentralisation et la protection du réseau Bitcoin contre ces menaces.
 
 ## Les nuances de l'industrie du minage
 
 <chapterId>7b9ee427-316a-54e3-a2d4-4ea97839a31b</chapterId>
 
-![Chauffer son domicile en minant des bitcoins ?](https://www.youtube.com/watch?v=SQaK4_8M0kA)
+:::video id=8a16aa8a-1434-4d3a-8435-dabc62d00efa:::
 
 ### Le principe de Attakai
 
@@ -179,7 +179,7 @@ Dans le contexte actuel, la pratique du minage de Bitcoin en S9 peut paraître c
 
 L'initiative Attakai découle d’une expérimentation personnelle de minage à domicile, réalisée par deux amis désireux de participer activement au réseau de Bitcoin. Ils se heurtèrent à des obstacles majeurs, tels que le niveau sonore élevé des équipements de minage, conçus pour une utilisation industrielle et non domestique. Pour pallier ce problème, des modifications matérielles furent apportées aux machines de minage. Des ventilateurs plus performants et silencieux remplacèrent les équipements d’origine, rendant ainsi le minage à domicile plus accessible et moins dérangeant. De plus, l'ajout d'un adaptateur Wi-Fi élimina le besoin d'une connexion par câble Ethernet, simplifiant davantage le processus de minage à domicile. L’hiver, ces mineurs modifiés furent utilisés comme source de chauffage, transformant une nuisance en bénéfice.
 
-En exposant leur projet à la communauté Bitcoin et face à l'intérêt suscité, les inventeurs d’Ataka décidèrent de publier des guides détaillés sur la plateforme Découvre Bitcoin, permettant ainsi à quiconque de reproduire leur expérience de minage à domicile. Ils envisagent désormais d’élargir ce concept au-delà du cadre domestique. L'objectif est de démontrer comment un mineur modifié peut être transformé en un chauffage d'appoint silencieux utilisable pendant l’hiver, offrant une transition douce vers une seconde partie de formation consacrée à la mise en place pratique de ces modifications, illustrée par des vidéos explicatives. La question demeure cependant de savoir si cette initiative peut être étendue à une échelle plus grande, proposant ainsi une alternative réaliste et durable aux structures de minage centralisées actuelles.
+En exposant leur projet à la communauté Bitcoin et face à l'intérêt suscité, les inventeurs d’Attakai décidèrent de publier des guides détaillés sur la plateforme Découvre Bitcoin, permettant ainsi à quiconque de reproduire leur expérience de minage à domicile. Ils envisagent désormais d’élargir ce concept au-delà du cadre domestique. L'objectif est de démontrer comment un mineur modifié peut être transformé en un chauffage d'appoint silencieux utilisable pendant l’hiver, offrant une transition douce vers une seconde partie de formation consacrée à la mise en place pratique de ces modifications, illustrée par des vidéos explicatives. La question demeure cependant de savoir si cette initiative peut être étendue à une échelle plus grande, proposant ainsi une alternative réaliste et durable aux structures de minage centralisées actuelles.
 
 ![image](assets/en/07.webp)
 
@@ -195,7 +195,7 @@ La question de l'efficacité et de la faisabilité à long terme de l'utilisatio
 
 La question de la récompense en bitcoin plutôt qu’en une autre devise est essentielle dans le système imaginé par Satoshi Nakamoto. La création du Bitcoin se caractérise par un plafond fixe de 21 millions d'unités. L'objectif était de trouver un moyen équitable de distribuer ces unités nouvellement créées. Les mineurs, en fournissant leur puissance de calcul pour sécuriser le réseau, en rendant toute attaque de plus en plus coûteuse, protègent ainsi efficacement le réseau Bitcoin. En retour de cette contribution cruciale, ils sont récompensés par les nouveaux bitcoins créés, facilitant ainsi la distribution des coins dans l'écosystème.
 
-C'est un système gagnant-gagnant. Les mineurs sont rémunérés à la fois pour la sécurisation du réseau et l'approbation des transactions. Les nouveaux bitcoins créés sont donnés comme une incitation pour renforcer la sécurité, et les frais de transaction sont un revenu supplémentaire pour approuver les transactions. Ces deux éléments combinés constituent la récompense totale pour le minage. La question du futur du minage se pose en raison de la réduction programmée des récompenses de minage, diminuant de moitié tous les quatre ans, un événement connu sous le nom de "halving". D'ici 2032, la récompense du bloc sera inférieure à un bitcoin, et en 2140, aucun nouveau bitcoin ne sera créé. À ce stade, les mineurs dépendront uniquement des frais de transaction pour la rémunération. Le réseau Bitcoin devra soutenir une grande quantité de transactions, avec des frais suffisamment élevés, pour assurer la rentabilité du minage.
+C'est un système gagnant-gagnant. Les mineurs sont rémunérés à la fois pour la sécurisation du réseau et l'approbation des transactions. Les nouveaux bitcoins créés sont donnés comme une incitation pour renforcer la sécurité, et les frais de transaction sont un revenu supplémentaire pour avoir approuvé les transactions. Ces deux éléments combinés constituent la récompense totale pour le minage. La question du futur du minage se pose en raison de la réduction programmée des récompenses de minage, diminuant de moitié tous les quatre ans, un événement connu sous le nom de "halving". D'ici 2032, la récompense du bloc sera inférieure à un bitcoin, et en 2140, aucun nouveau bitcoin ne sera créé. À ce stade, les mineurs dépendront uniquement des frais de transaction pour leur rémunération. Le réseau Bitcoin devra soutenir une grande quantité de transactions, avec des frais suffisamment élevés, pour assurer la rentabilité du minage.
 
 La montée du Lightning Network, permettant des transactions rapides et à faible coût en dehors de la chaîne principale de Bitcoin, soulève des questions sur l'avenir du minage. Le Lightning Network a le potentiel de réduire considérablement les frais de transaction, impactant ainsi le revenu des mineurs. Cependant, cela dépendra de l'adoption et de l'utilisation du Lightning Network par rapport au réseau Bitcoin principal. Dans un scénario pessimiste, les mineurs pourraient trouver rentable de miner même à perte, s'ils ont amorti leurs coûts et ont accès à une électricité bon marché. Dans un scénario plus optimiste, les frais de transaction sur le réseau Bitcoin principal pourraient rester suffisamment élevés pour maintenir la rentabilité du minage.
 
@@ -203,23 +203,23 @@ La montée du Lightning Network, permettant des transactions rapides et à faibl
 
 Concernant la question de ce qui devrait être inclus dans un bloc Bitcoin, il est crucial de considérer la nature complémentaire des différentes couches du réseau Bitcoin. Bien que le Lightning Network puisse permettre des transactions plus rapides et moins coûteuses, il dépend toujours de la couche de base du Bitcoin, souvent appelée « settlement layer », pour l’ouverture et la fermeture des canaux de paiement.
 
-Avec la croissance prévue du Lightning Network et l'augmentation conséquente des ouvertures et fermetures de canaux, l'espace dans les blocs Bitcoin deviendra de plus en plus précieux. La communauté Bitcoin a déjà tendance à valoriser la préservation de cet espace, reconnaissant sa limitation intrinsèque. Cette prise de conscience a donné lieu à des discussions sur l’utilisation légitime ou non de l'espace des blocs, avec des préoccupations concernant le « spam » sur la blockchain par des transactions considérées comme non essentielles.
+Avec la croissance attendue du Lightning Network et l'augmentation conséquente des ouvertures et fermetures de canaux, l'espace dans les blocs Bitcoin deviendra de plus en plus précieux. La communauté Bitcoin a déjà tendance à valoriser la préservation de cet espace, reconnaissant sa limitation intrinsèque. Cette prise de conscience a donné lieu à des discussions sur l’utilisation légitime ou non de l'espace des blocs, avec des préoccupations concernant le « spam » sur la blockchain par des transactions considérées comme non essentielles.
 
 ![image](assets/en/08.webp)
 
-La spéculation entoure l'utilisation future de l'espace des blocs, mais il est généralement admis que c'est une ressource rare qui devrait être utilisée judicieusement. Même si l'envie est là de le combler, il est essentiel de le préserver pour assurer la viabilité à long terme du réseau Bitcoin, anticipant une augmentation future de la demande d'espace dans les blocs. Comme dans tout marché libre, l’offre et la demande réguleront l'utilisation de l'espace des blocs. Avec une offre limitée, les parties prenantes devront faire des choix éclairés sur l'utilisation de cet espace précieux pour garantir l’efficacité et la sécurité du réseau Bitcoin à long terme.
+La spéculation grandit sur la future utilisation de l'espace des blocs, mais il est généralement admis que c'est une ressource rare qui devrait être utilisée judicieusement. Malgré l'envie de le combler, il est essentiel de le préserver pour assurer la viabilité à long terme du réseau Bitcoin, anticipant une augmentation future de la demande d'espace dans les blocs. Comme dans tout marché libre, l’offre et la demande réguleront l'utilisation de l'espace des blocs. Avec une offre limitée, les parties prenantes devront faire des choix éclairés sur l'utilisation de cet espace précieux pour garantir l’efficacité et la sécurité du réseau Bitcoin à long terme.
 
 ## Le minage dans le protocole bitcoin
 
 <chapterId>879a66b0-c20a-56b5-aad0-8a21be61e338</chapterId>
 
-![Qui a le pouvoir ? Bitcoin, énergie et fabricants ](https://www.youtube.com/watch?v=4wywK6BfDw8)
+:::video id=0cda8911-caa3-4b1a-acff-4e2225f6aa58:::
 
-Le rôle des mineurs dans le réseau Bitcoin à été un sujet de débat intense pendant la guerre des blocs. Bien que essentiels pour la sécurité et la fonctionnalité du réseau, les mineurs ne détiennent pas nécessairement le pouvoir ultime dans l'écosystème Bitcoin. L'équilibre entre les mineurs, les nœuds et les utilisateurs finaux garantit l'intégrité et la distribution du réseau.
+Le rôle des mineurs dans le réseau Bitcoin a fait l'objet d'un débat intense pendant la guerre des blocs. Bien qu'essentiels pour la sécurité et la fonctionnalité du réseau, les mineurs ne détiennent pas nécessairement le pouvoir ultime dans l'écosystème Bitcoin. L'équilibre entre les mineurs, les nœuds et les utilisateurs finaux garantit l'intégrité et la distribution du réseau.
 
 ### La guerre des blocs
 
-Lors de la guerre des blocs, de nombreux mineurs étaient opposés à certaines évolutions du réseau, soulignant la tension entre les différents acteurs de l'écosystème. La question reste de savoir comment équilibrer le pouvoir entre les mineurs, les nœuds et les utilisateurs pour assurer la sécurité à long terme de Bitcoin.
+Lors de la guerre des blocs, de nombreux mineurs étaient opposés à certaines évolutions du réseau, démontrant une tension entre les différents acteurs de l'écosystème. La question reste de savoir comment équilibrer le pouvoir entre les mineurs, les nœuds et les utilisateurs pour assurer la sécurité à long terme de Bitcoin.
 Sécurité et Équilibre de Pouvoir
 
 ![image](assets/en/09.webp)
@@ -232,11 +232,11 @@ En fin de compte, la responsabilité est partagée entre tous les acteurs du ré
 
 ### Le pouvoir des mineurs
 
-L'élégante théorie du jeu de Satoshi Nakamoto a établi une situation où chaque acteur du réseau Bitcoin est incité à agir correctement pour protéger à la fois ses propres intérêts et ceux des autres participants. Cela crée un équilibre où le mauvais comportement peut être réprimandé, renforçant ainsi la sécurité et la stabilité de l'ensemble du système. Malgré cet équilibre, les États restent une menace potentielle. Comme l'indique la présentation à Surfing Bitcoin 2022, les États peuvent tenter d'attaquer l'industrie du minage, exposant le réseau Bitcoin à des risques de centralisation et d'attaque. Des scénarios hypothétiques comme une attaque militaire ciblant les installations de production de matériel de minage soulignent l'importance de la diversification géographique et industrielle pour la résilience du réseau Bitcoin.
+L'élégante théorie du jeu de Satoshi Nakamoto a établi une situation où chaque acteur du réseau Bitcoin est incité à agir correctement pour protéger à la fois ses propres intérêts et ceux des autres participants. Cela crée un équilibre où le mauvais comportement peut être réprimandé, renforçant ainsi la sécurité et la stabilité de l'ensemble du système. Malgré cet équilibre, les États restent une menace potentielle. Comme l'indique la présentation à Surfing Bitcoin 2022, les États peuvent tenter d'attaquer l'industrie du minage, exposant le réseau Bitcoin à des risques de centralisation et d'attaque. Des scénarios hypothétiques comme une attaque militaire ciblant les installations de production de matériel de minage prouvent l'importance de la diversification géographique et industrielle pour la résilience du réseau Bitcoin.
 
 ![image](assets/en/10.webp)
 
-La centralisation de la production de matériel de minage en Chine pose un autre risque. Un refus d'exporter des machines de minage ou une accumulation de hashrate pour une potentielle attaque 51% par la Chine soulignent la nécessité d'une production diversifiée de matériel de minage. Face à ces risques, la communauté Bitcoin explore activement des solutions. Des entreprises comme Intel envisagent de produire des équipements de minage aux États-Unis, contribuant à la distribution de la production. D'autres initiatives, comme celle de Block avec son Mining Development Kit (MDK) open source, visent à diminuer les monopole de la conception et la production de matériel de minage, permettant une distribution plus large du hashrate. Au cœur de ces discussions se trouve la mission fondamentale de Bitcoin: être un réseau d’échange de valeur résistant à la censure. La communauté Bitcoin s'efforce constamment de renforcer la distribution, la résistance à la censure et l'anti-fragilité du réseau, rejetant des propositions telles que le passage au proof of stake, qui ne s'alignent pas sur ces principes fondamentaux.
+La centralisation de la production de matériel de minage en Chine pose un autre risque. Un refus d'exporter des machines de minage ou une accumulation de hashrate pour une potentielle attaque 51% par la Chine soulignent la nécessité d'une production diversifiée des matériels de minage. Face à ces risques, la communauté Bitcoin explore activement des solutions. Des entreprises comme Intel envisagent de produire des équipements de minage aux États-Unis, contribuant à la distribution de la production. D'autres initiatives, comme celle de Block avec son Mining Development Kit (MDK) open source, visent à diminuer les monopoles de la conception et la production de matériel de minage, permettant une distribution plus large du hashrate. Au cœur de ces discussions se trouve la mission fondamentale de Bitcoin: être un réseau d’échange de valeur résistant à la censure. La communauté Bitcoin s'efforce constamment de renforcer la distribution, la résistance à la censure et l'anti-fragilité du réseau, rejetant des propositions telles que le passage au proof of stake, qui ne s'alignent pas sur ces principes fondamentaux.
 
 ### Le Lien physique de la preuve de travail vs la Preuve d'enjeu
 
@@ -256,11 +256,11 @@ Pour récapituler, les mineurs fortifient le réseau Bitcoin contre la censure e
 
 <chapterId>e6676214-007c-5181-968e-c27536231bd6</chapterId>
 
-![Comment obtenir un bitcoin blanc et vierge ? ](https://youtu.be/A5MTtn4mm44?si=D1Yi0dVwkyafeHv-)
+:::video id=c02c71dc-0398-4f24-b9c6-c2cf4da4d696:::
 
 ### Hashrate, prix et rentabilité
 
-Le taux de hachage actuel bien que le prix du Bitcoin soit à 30 000$ par rapport à son sommet précédent de 69 000$, souligne le lien tangible entre le minage et le monde réel. Les périodes de hausse des prix (bull market) entraînent une forte demande de minage de Bitcoin et une augmentation des commandes de machines auprès de fabricants tels qu'Avalon et Bitmain. Cependant, la production et la livraison ne sont pas instantanées, créant une inadéquation entre une demande accrue et une disponibilité ultérieure. Cela peut conduire à la livraison de machines commandées pendant un bull market dans un marché en baisse, soulignant une asymétrie notable entre un prix bas et un taux de hachage élevé.
+Le taux de hachage actuel, bien que le prix du Bitcoin soit à 30 000$ par rapport à son précédent sommet de 69 000$, souligne le lien tangible entre le minage et le monde réel. Les périodes de hausse des prix (bull market) entraînent une forte demande de minage de Bitcoin et une augmentation des commandes de machines auprès de fabricants tels qu'Avalon et Bitmain. Cependant, la production et la livraison ne sont pas instantanées, créant une inadéquation entre une demande accrue et une disponibilité ultérieure. Cela peut conduire à la livraison de machines commandées pendant un bull market dans un marché en baisse, opposant une asymétrie notable entre un prix bas et un taux de hachage élevé.
 
 Cette situation illustre également la résilience du Bitcoin, souvent évaluée en fonction de son prix. Toutefois, une analyse plus profonde de la santé du Bitcoin nécessite l'examen de son taux de hachage, qui mesure les calculs par seconde dans le réseau Bitcoin. Alors que le prix du Bitcoin fluctue, son coût, lié à l'électricité nécessaire pour faire fonctionner les machines de minage, reste essentiel pour comprendre la dynamique du marché. En se concentrant sur le coût plutôt que sur le prix, on obtient une perspective plus cohérente sur la stabilité et la viabilité à long terme du Bitcoin. En général, le coût du Bitcoin est proportionnel à son prix, offrant une meilleure compréhension des fluctuations de prix et des perspectives futures.
 
@@ -268,7 +268,7 @@ Cette situation illustre également la résilience du Bitcoin, souvent évaluée
 
 ### Taux de Hachage et Récompense
 
-Le minage établit un prix plancher pour le Bitcoin, sous lequel les mineurs vendraient à perte. Le coût du minage influence considérablement le prix, comme illustré par l'interdiction du minage en Chine, où le taux de hachage et le prix ont chuté de manière significative, mais ont rapidement été récupéré. Se focaliser uniquement sur le prix peut être trompeur. L'étude du coût, via des calculateurs de rentabilité, offre une perspective plus équilibrée. Cependant, le marché peut se comporter de manière irrationnelle, les mineurs pouvant être contraints de vendre à perte, abaissant potentiellement le prix sous le coût de minage. Pour évaluer la santé du Bitcoin et sa décentralisation, une équation intégrant divers facteurs, tels que le nombre de nœuds et le prix, pourrait être développée. Cette approche pourrait fournir une analyse plus nuancée du Bitcoin par rapport aux discussions basées uniquement sur le prix.
+Le minage établit un prix plancher pour le Bitcoin, sous lequel les mineurs vendraient à perte. Le coût du minage influence considérablement le prix, comme illustré par l'interdiction du minage en Chine, où le taux de hachage et le prix ont chuté de manière significative, mais ont rapidement été récupérés. Se focaliser uniquement sur le prix peut être trompeur. L'étude du coût, via des calculateurs de rentabilité, offre une perspective plus équilibrée. Cependant, le marché peut se comporter de manière irrationnelle, les mineurs pouvant être contraints de vendre à perte, abaissant potentiellement le prix sous le coût de minage. Pour évaluer la santé du Bitcoin et sa décentralisation, une équation intégrant divers facteurs, tels que le nombre de nœuds et le prix, pourrait être développée. Cette approche pourrait fournir une analyse plus nuancée du Bitcoin par rapport aux discussions basées uniquement sur le prix.
 
 ### Miner pour le profit ou pour le réseau ?
 
@@ -294,7 +294,7 @@ L'initiative Attakai met en avant l'importance de la contribution au réseau tou
 
 Pour aborder la question cruciale de la richesse via le minage, il est important de considérer diverses perspectives et approches. Les interrogations concernant la rentabilité du minage sont fréquentes, avec des questions entourant l'achat de parts d'entreprises telles que Riot ou la location de machines à miner dans des pays à faible coût énergétique comme l'Islande ou la Russie. Avant de s'aventurer dans le minage, une considération essentielle serait de comparer la profitabilité du minage à l'achat direct de Bitcoin. Si le coût de minage d'un Bitcoin dépasse le coût d'achat direct, il est généralement plus judicieux d'acheter le Bitcoin directement. Cela évite les multiples défis et coûts associés au processus de minage.
 
-Cependant, le minage offre des avenues uniques pour s'impliquer dans l'écosystème Bitcoin. Par exemple, miner du Bitcoin en hiver peut être une manière ingénieuse de chauffer votre logement tout en générant des revenus en Bitcoin. Une autre option consiste à investir dans des entreprises qui vendent du matériel de minage et qui stockent et gèrent les machines dans des emplacements à faible coût énergétique, offrant ainsi l'accès à des tarifs électriques avantageux sans les tracas de la gestion des équipements.
+Cependant, le minage offre des façons uniques de s'impliquer dans l'écosystème Bitcoin. Par exemple, miner du Bitcoin en hiver peut être une manière ingénieuse de chauffer votre logement tout en générant des revenus en Bitcoin. Une autre option consiste à investir dans des entreprises qui vendent du matériel de minage et qui stockent et gèrent les machines dans des emplacements à faible coût énergétique, offrant ainsi l'accès à des tarifs électriques avantageux sans les tracas de la gestion des équipements.
 
 Malgré ces options, le minage présente des défis significatifs. L'adage bien connu du monde des cryptomonnaies, "Pas tes clés, pas tes Bitcoins", trouve une résonance similaire dans le monde du minage : "Pas ton hashrate, pas ta récompense". Les histoires de déceptions et de machines déconnectées sont monnaie courante, avec de nombreux acteurs promettant des résultats exceptionnels mais ne les livrant pas. Les problèmes d'approvisionnement en électricité et les pannes de machines peuvent laisser les investisseurs impuissants, avec des équipements coûteux qu'ils ne contrôlent pas. Dans ce contexte, la prudence et une compréhension approfondie du secteur du minage sont cruciales avant de s'y aventurer. Bien que les opportunités de gains existent, les risques sont significatifs, et une approche informée et réfléchie est essentielle pour naviguer dans ce domaine complexe et souvent imprévisible. Il est donc vital de faire des recherches approfondies et de bien peser les avantages et les inconvénients avant de s'engager dans le minage de Bitcoin.
 
@@ -302,21 +302,21 @@ Malgré ces options, le minage présente des défis significatifs. L'adage bien 
 
 ### Des Bitcoins Vierges
 
-L'aspiration à posséder son propre hashrate se présente comme une voie prometteuse dans l'univers du minage. Cependant, naviguer dans cet écosystème complexe requiert une approche prudente. Le domaine du cloud mining est marqué par un grand nombre d'escroqueries, alimentées par un manque de compréhension du minage de la part de nombreux investisseurs. Les offres alléchantes, emballées de diverses manières, peuvent facilement induire en erreur ceux qui ne sont pas assez informés. En revanche, posséder son propre équipement de minage offre des avantages considérables. Outre la satisfaction personnelle de contribuer activement à la sécurisation du réseau Bitcoin et de voir les récompenses tomber sur son portefeuille, il y a l'aspect attrayant des "bitcoins vierges". Il s'agit de bitcoins fraîchement minés, qui n'ont jamais été dépensés et qui n'ont aucune histoire attachée à eux. Ces bitcoins sont souvent considérés comme plus précieux car ils n'ont jamais été "souillés", offrant une certaine garantie contre le rejet par des régulateurs ou des grandes plateformes d'échange.
+L'aspiration à posséder son propre hashrate se présente comme une voie prometteuse dans l'univers du minage. Cependant, naviguer dans cet écosystème complexe requiert une approche prudente. Le domaine du cloud mining est taché d'un grand nombre d'escroqueries, favorisées par un manque de compréhension du minage de la part de nombreux investisseurs. Les offres alléchantes, emballées de diverses manières, peuvent facilement induire en erreur ceux qui ne sont pas assez informés. En revanche, posséder son propre équipement de minage offre des avantages considérables. Outre la satisfaction personnelle de contribuer activement à la sécurisation du réseau Bitcoin et de voir les récompenses tomber sur son portefeuille, il y a l'aspect attrayant des "bitcoins vierges". Il s'agit de bitcoins fraîchement minés, qui n'ont jamais été dépensés et qui n'ont aucune histoire attachée à eux. Ces bitcoins sont souvent considérés comme plus précieux car ils n'ont jamais été "souillés", offrant une certaine garantie contre le rejet par des régulateurs ou des grandes plateformes d'échange.
 
-La possibilité de miner des bitcoins vierges tout en évitant les procédures de connaissance du client (KYC) est une autre valeur ajoutée. De nombreux pools de minage ne demandent pas l'identité des mineurs, permettant ainsi d'acquérir des bitcoins sans passer par des vérifications d'identité fastidieuses. Les bitcoins vierges sont perçus comme "blancs", ne portant aucune histoire ni association passée. Ils sont particulièrement recherchés par les gros acteurs institutionnels qui peuvent garantir la légitimité de leurs actifs numériques face aux autorités de régulation. Cependant, malgré ces avantages, il est crucial de reconnaître que l'industrie du minage reste extrêmement compétitive et volatile et des incidents imprévus peuvent perturber les opérations de minage.
+La possibilité de miner des bitcoins vierges tout en évitant les procédures de connaissance du client (KYC) est une autre valeur ajoutée. De nombreux pools de minage ne demandent pas l'identité des mineurs, permettant ainsi d'acquérir des bitcoins sans passer par de fastidieuses vérifications d'identité. Les bitcoins vierges sont perçus comme "blancs", ne portant aucune histoire ni association passée. Ils sont particulièrement recherchés par les gros acteurs institutionnels qui peuvent garantir la légitimité de leurs actifs numériques face aux autorités de régulation. Cependant, malgré ces avantages, il est crucial de reconnaître que l'industrie du minage reste extrêmement compétitive et volatile et que des incidents imprévus peuvent perturber les opérations de minage.
 
 Dans ce contexte, le choix d'une démarche autonome et éduquée en matière de minage apparaît judicieux. L'acquisition de son propre hashrate et l'investissement dans des équipements de minage personnels, tout en restant conscient des risques et des défis, peut potentiellement offrir une voie plus sûre et plus satisfaisante vers l'acquisition de bitcoins vierges, renforçant ainsi la souveraineté financière de l'individu tout en soutenant l'écosystème Bitcoin dans son ensemble.
 
 ### Le minage interdit en Europe ?
 
-Avec la question du potentiel d'interdiction du minage en Europe, les discussions sur la régulation deviennent de plus en plus pertinentes. Le paysage réglementaire fluctuant peut, en effet, influencer considérablement l'industrie du minage de Bitcoin. L'interdiction du minage en Europe est un scénario envisageable, notamment en considérant les précédents en Chine. Bien que des opérations de minage continuent en Chine malgré l'interdiction, l'Europe pourrait suivre un chemin similaire. Une distribution plus large du hashrate dans différentes régions pourrait aider à renforcer la communauté des mineurs en Europe, leur permettant de s'opposer efficacement aux malentendus et aux idées fausses concernant le minage, son impact environnemental et son empreinte sur le réseau électrique.
+Avec la question de la potentielle interdiction du minage en Europe, les discussions sur la législation deviennent de plus en plus pertinentes. Un paysage réglementaire fluctuant peut, en effet, influencer considérablement l'industrie du minage de Bitcoin. L'interdiction du minage en Europe est un scénario envisageable, notamment en considérant les précédents en Chine. Bien que des opérations de minage continuent en Chine malgré l'interdiction, l'Europe pourrait suivre un chemin similaire. Une distribution plus large du hashrate dans différentes régions pourrait aider à renforcer la communauté des mineurs en Europe, leur permettant de s'opposer efficacement aux malentendus et aux idées fausses concernant le minage, son impact environnemental et son empreinte sur le réseau électrique.
 
 ![image](assets/en/14.webp)
 
-Face à des campagnes comme celles de Greenpeace et aux chiffres souvent trompeurs de certaines études, la meilleure arme reste l'information véridique. Il est essentiel d'informer le grand public et les décideurs sur la réalité du minage, sa complexité, et sa nuance, plutôt que de les laisser s'appuyer sur des clichés et des informations inexactes. Plus il y aura de personnes informées et conscientes de ce qu'est réellement le minage, mieux l'industrie pourra se défendre contre les éventuelles réglementations restrictives.
+Face à des campagnes comme celles de Greenpeace et aux chiffres souvent trompeurs de certaines études, la meilleure arme reste la vérité. Il est essentiel d'informer le grand public et les décideurs sur la réalité du minage, sa complexité, et sa nuance, plutôt que de les laisser s'appuyer sur des clichés et des informations inexactes. Plus il y aura de personnes informées et conscientes de ce qu'est réellement le minage, mieux l'industrie pourra se défendre contre les éventuelles réglementations restrictives.
 
-En conclusion, malgré le risque réglementaire et la possibilité d'une interdiction du minage en Europe, l'arme la plus puissante reste l'éducation et l'information. La compréhension claire et précise du minage, son fonctionnement, et son impact peut aider à démystifier l'industrie et à lutter contre la désinformation, offrant ainsi une meilleure résistance aux régulations potentiellement dommageables. L'initiative de former et d'informer les gens sur le minage, comme le fait cette discussion, est un pas dans la bonne direction pour garantir la pérennité et la croissance du minage en Europe, et partout dans le monde. Les efforts continus pour éduquer et informer sont essentiels pour assurer un avenir sûr et prospère pour l'industrie du minage de Bitcoin.
+En conclusion, malgré le risque réglementaire et la possibilité d'une interdiction du minage en Europe, l'arme la plus puissante reste l'éducation et l'information. La compréhension claire et précise du minage, son fonctionnement, et son impact peut aider à démystifier l'industrie et à lutter contre la désinformation, offrant ainsi une meilleure résistance aux législations potentiellement dommageables. L'initiative de former et d'informer les gens sur le minage, comme le fait cette discussion, est un pas dans la bonne direction pour garantir la pérennité et la croissance du minage en Europe, et partout dans le monde. Les efforts continus pour éduquer et informer sont essentiels pour assurer un avenir sûr et prospère pour l'industrie du minage de Bitcoin.
 
 ### Interview d'un professionnel de l'industrie du minage
 
@@ -324,7 +324,7 @@ En conclusion, malgré le risque réglementaire et la possibilité d'une interdi
 
 #### Les coulisses du minage industriel - Sebastien Gouspillou
 
-![Les coulisses du minage industriel - Sebastien Gouspillou](https://www.youtube.com/watch?v=vYaQRLSDr5E&t=69s)
+:::video id=ed6bcd17-c486-46bd-bfb3-96c0d121ecdb:::
 
 # Home-mining et réutilisation de la chaleur
 
@@ -334,11 +334,11 @@ En conclusion, malgré le risque réglementaire et la possibilité d'une interdi
 
 <chapterId>1f5d1b74-2f99-5f31-a088-a73d36491ebf</chapterId>
 
-![On vous présente Attakaï !](https://www.youtube.com/watch?v=gKoh44UCSnE&t=3s)
+:::video id=ecc73ef7-e9bf-4061-a910-8f2d2a1916f3:::
 
-Attakai, qui signifie « la température idéal » en japonais, est le nom de l’initiative visant à découvrir le minage de bitcoins à travers la réutilisation de la chaleur lancée par @ajelexBTC et @jimzap21 avec Découvre Bitcoin.
+Attakai, qui signifie « la température idéale » en japonais, est le nom de l’initiative visant à découvrir le minage de bitcoins à travers la réutilisation de la chaleur lancée par @ajelexBTC et @jimzap21 avec Découvre Bitcoin.
 
-Ce guide de retrofitting d’un ASIC servira de base pour en apprendre plus sur le minage, son fonctionnement et l’économie sous-jacente en démontrant la possibilité d’adapter un mineur Bitcoin à une utilisation en tant que radiateurs dans les logements. Cela offre ainsi plus de confort et d'économies, permettant aux participants d’avoir du cash back en BTC non KYC sur leur facture de chauffage électrique.
+Ce guide de retrofitting d’un ASIC servira de base pour en apprendre plus sur le minage, son fonctionnement et l’économie sous-jacente en démontrant la possibilité d’adapter un mineur Bitcoin à une utilisation en tant que radiateur dans un logement. Cela offre ainsi plus de confort et d'économies, permettant aux participants d’avoir du cash back en BTC non KYC sur leur facture de chauffage électrique.
 
 Bitcoin ajuste automatiquement la difficulté du minage et récompense les mineurs pour leur participation, cependant, la concentration du hashrate peut poser des risques pour la neutralité du réseau. Utiliser la puissance de calcul de Bitcoin pour des solutions de chauffage bénéfice directement au réseau lui-même, en augmentant la distribution de la puissance de calcul.
 
@@ -348,11 +348,11 @@ Il est important de comprendre la relation entre l’énergie et la production d
 
 Pour un investissement de 1 kW d’énergie électrique, un radiateur électrique produit 1 kW de chaleur, ni plus ni moins. Les nouveaux radiateurs ne sont pas plus performants que les radiateurs traditionnels. Leur avantage réside dans leur capacité à diffuser la chaleur de manière continue et homogène dans une pièce, apportant ainsi plus de confort par rapport aux radiateurs traditionnels qui alternent entre une forte puissance de chauffage et une absence de chauffage, générant ainsi des variations de température régulières et de l’inconfort.
 
-Un ordinateur, ou plus largement une carte électronique, ne consomme pas d’énergie pour effectuer des calculs, il a simplement besoin que de l’énergie circule dans ses composants pour fonctionner. La consommation d’énergie est dû à la résistance électrique des composants qui produit des pertes créant ainsi de la chaleur c’est ce qu’on appelle l’effet joule.
+Un ordinateur, ou plus largement une carte électronique, ne consomme pas d’énergie pour effectuer des calculs, il a simplement besoin que de l’énergie circule dans ses composants pour fonctionner. La consommation d’énergie est dûe à la résistance électrique des composants qui produit des pertes créant ainsi de la chaleur c’est ce qu’on appelle l’effet joule.
 
-Certaines entreprises ont eu l’idée de mutualiser les besoins en puissance de calcul et les besoins de chauffage grâce à des radiateurs/serveur. L’idée étant de distribuer les serveurs d’une entreprise en petites unités qui pourraient être placées dans des logements ou des bureaux. Cependant, cette idée rencontre plusieurs problèmes. La besoin des serveurs n’est pas liée au besoin de chauffage et les entreprises ne peuvent pas utiliser les capacités de calcul de leurs serveurs de façon flexible. Il existe aussi des limites à la bande passante que des particuliers peuvent posséder. Toutes ces contraintes ne permettent pas à l’entreprise de rentabiliser ces installations coûteuses ni de fournir une offre de serveur en ligne stable sans avoir des centres de données capables de prendre le relais quand le besoin de chauffage n’est pas présent.
+Certaines entreprises ont eu l’idée de mutualiser les besoins en puissance de calcul et les besoins de chauffage grâce à des radiateurs/serveur. L’idée étant de distribuer les serveurs d’une entreprise en petites unités qui pourraient être placées dans des logements ou des bureaux. Cependant, cette idée rencontre plusieurs problèmes. Le besoin des serveurs n’est pas lié au besoin de chauffage et les entreprises ne peuvent pas utiliser les capacités de calcul de leurs serveurs de façon flexible. Il existe aussi des limites à la bande passante que des particuliers peuvent posséder. Toutes ces contraintes ne permettent pas à l’entreprise de rentabiliser ces installations coûteuses ni de fournir une offre de serveur en ligne stable sans avoir des centres de données capables de prendre le relais quand le besoin de chauffage n’est pas présent.
 
-> La chaleur de votre ordinateur n’est pas gaspillée si vous devez chauffer chez vous. Si vous utilisez un chauffage électrique là où vous habitez, alors la chaleur de votre ordinateur n’est pas un gâchis. C’est le même prix si vous générer cette chaleur avec votre ordinateur.Si vous avez un autre système de chauffe moins cher que l’électrique alors le gaspillage est seulement dans la différence de coût. Si c’est l’été et que vous utilisez la climatisation alors c’est le double. La création de bitcoins devrait avoir lieu là où elle est moins chère. Peut-être que ce sera là où le climat est froid et là où le chauffage est électrique, où miner deviendra gratuit.  
+> La chaleur de votre ordinateur n’est pas gaspillée si vous devez chauffer chez vous. Si vous utilisez un chauffage électrique là où vous habitez, alors la chaleur de votre ordinateur n’est pas un gâchis. C’est le même prix si vous générez cette chaleur avec votre ordinateur. Si vous avez un autre système de chauffe moins cher que l’électrique alors le gaspillage est seulement dans la différence de coût. Si c’est l’été et que vous utilisez la climatisation alors c’est le double. La création de bitcoins devrait avoir lieu là où elle est moins chère. Peut-être que ce sera là où le climat est froid et là où le chauffage est électrique, où miner deviendra gratuit.  
 >  
 > Satoshi Nakamoto – 8 août 2010  
 
@@ -366,7 +366,7 @@ Ce qu’il est important de comprendre, c’est la manière dont le minage parti
 Plusieurs technologies déjà existantes ont été ingénieusement combinées pour donner vie au consensus de Nakamoto. Ce consensus permet de récompenser économiquement les acteurs honnêtes pour leur participation au fonctionnement du réseau Bitcoin, tout en décourageant les acteurs malhonnêtes. C’est l’un des points clés qui permet au réseau d’exister de façon durable.
 Les acteurs honnêtes, ceux qui effectuent du minage selon les règles, sont tous en concurrence les uns avec les autres pour obtenir la plus grande part possible de la récompense pour la production de nouveaux blocs. Cette incitation économique conduit naturellement à une forme de centralisation car des entreprises choisissent de se spécialiser dans cette activité lucrative en réduisant leurs coûts grâce aux économies d’échelle. Ces acteurs industriels ont une position avantageuse, pour l’achat, la maintenance de machines mais aussi pour la négociation de tarifs d’électricité de gros.
 
-> Au début, la plupart des utilisateurs exécuteraient des nœuds de réseau, mais à mesure que le réseau se développerait au-delà d’un certain point, il serait de plus en plus laissé aux spécialistes avec des fermes de serveurs de matériel spécialisé. Une batterie de serveurs n’aurait besoin que d’un seul nœud sur le réseau et le reste du LAN se connecte à ce nœud.  
+> Au début, la plupart des utilisateurs exécuteraient des nœuds de réseau, mais à mesure que le réseau se développerait au-delà d’un certain point, il serait de plus en plus laissé aux spécialistes avec des fermes de serveurs de matériel spécialisé. Une batterie de serveurs n’aurait besoin que d’un seul nœud sur le réseau et que le reste du LAN se connecte à ce nœud.  
 >  
 > Satoshi Nakamoto – 2 novembre 2008  
 
@@ -376,7 +376,7 @@ Ce sujet pourrait devenir problématique et apporte un risque important pour la 
 
 **Si les mineurs sont répartis dans des milliers, voire des millions de logements à travers le monde, il devient très compliqué pour un État d’en prendre le contrôle.**
 
-À sa sortie d’usine, un mineur n’est pas approprié pour servir de radiateur dans un logement, en raison de deux problèmes principaux : un bruit excessif et l’absence de réglage. Cependant, ces problèmes peuvent être facilement résolus grâce à des modifications hardware et software, permettant d’obtenir un mineur beaucoup plus silencieux et pouvant être paramétré et automatisé comme les chauffages électriques modernes.
+À sa sortie d’usine, un mineur n’est pas adapté pour servir de radiateur dans un logement, en raison de deux problèmes principaux : un bruit excessif et l’absence de réglage. Cependant, ces problèmes peuvent être facilement résolus grâce à des modifications hardware et software, permettant d’obtenir un mineur beaucoup plus silencieux et pouvant être paramétré et automatisé comme les chauffages électriques modernes.
 
 **Attakaï est une initiative éducative qui vous apprend à effectuer un retrofitting de l’Antminer S9 de la manière la plus économique possible.**
 
@@ -386,7 +386,7 @@ C’est une excellente opportunité pour apprendre en pratiquant tout en étant 
 
 <chapterId>3b0b3bf0-859b-57f2-b92f-843ac70b7e68</chapterId>
 
-![Introduction à Attakaï: se chauffer avec Bitcoin](https://www.youtube.com/watch?v=U_PLo59lp-g)
+:::video id=e39add7e-aa01-4a5f-bd53-d307d0e3c6be:::
 
 Dans cette section nous allons voir les bonnes pratiques afin d’acheter un Bitmain Antminer S9 d’occasion, la machine sur laquelle ce tutoriel de retrofitting en radiateur sera basé. Ce guide fonctionne aussi pour d’autres modèles d’ASIC car il s’agit d’un guide d’achat général pour du matériel de minage d’occasion.
 
@@ -394,7 +394,7 @@ Le Antminer S9 est un appareil proposé par Bitmain depuis mai 2016. Il consomme
 
 Le Antminer S9 existe en plusieurs déclinaisons (i,j) qui apportent des modifications mineures au matériel de première génération. Nous ne pensons pas que cet élément devrait orienter votre décision d’achat et ce guide fonctionne pour toutes ces déclinaisons.
 
-Le prix des ASIC varie en fonction de nombreux facteurs comme le cours du prix du bitcoin, la difficulté du réseau, l’efficience de la machine et le coût de l’électricité. Il est donc difficile de donner une estimation précise pour l’achat d’une machine d’occasion. En février 2023, le prix attendu en France se situe généralement entre 100€ et 200€ mais ces prix sont susceptible de changer très rapidement
+Le prix des ASIC varie en fonction de nombreux facteurs comme le cours du prix du bitcoin, la difficulté du réseau, l’efficience de la machine et le coût de l’électricité. Il est donc difficile de donner une estimation précise pour l’achat d’une machine d’occasion. En février 2023, le prix attendu en France se situe généralement entre 100€ et 200€ mais ces prix sont susceptibles de changer très rapidement
 
 ![image](assets/en/15.webp)
 
@@ -445,7 +445,7 @@ Pour synthétiser ce guide en une phrase : **« Ne faites pas confiance, vérifi
 
 <chapterId>fa5f5eca-bcbf-5a83-9b03-98ecbadbabd6</chapterId>
 
-![Introduction à Attakaï: se chauffer avec Bitcoin](https://www.youtube.com/watch?v=U_PLo59lp-g)
+:::video id=e39add7e-aa01-4a5f-bd53-d307d0e3c6be:::
 
 Propriétaire d’un Antminer S9, vous savez probablement à quel point cet équipement peut être bruyant et encombrant. Cependant, il est possible de le transformer en un chauffage silencieux et connecté en suivant quelques étapes simples. Dans cette partie nous allons vous présenter les équipements nécessaires pour effectuer les modifications.
 
@@ -453,7 +453,7 @@ Si vous êtes un bricoleur averti et que vous cherchez à transformer un mineur 
 
 1. Remplacer les ventilateurs
 
-Les ventilateurs d’origine de l’Antminer S9 sont trop bruyants pour utiliser votre Antminer en chauffage. La solution est de les remplacer par des ventilateurs plus silencieux. Notre équipe a testé plusieurs modèles de la marque Noctua et à sélectionné le Noctua NF-A14 iPPC-2000 PWM comme le meilleur compromis, attention à bien choisir la version 12V des ventilateurs. Ce ventilateur de 140mm peut permettre de produire jusqu’à 1200W de chauffage tout en maintenant un niveau de bruit théorique de 31 dB. Pour pouvoir installer ces ventilateurs de 140mm, il faudra utiliser un adaptateur 140mm vers 120mm que vous pourrez retrouver sur la boutique de DécouvreBitcoin. Et nous ajouterons également des grilles de protection 140mm.
+Les ventilateurs d’origine de l’Antminer S9 sont trop bruyants pour utiliser votre Antminer en chauffage. La solution est de les remplacer par des ventilateurs plus silencieux. Notre équipe a testé plusieurs modèles de la marque Noctua et à sélectionné le Noctua NF-A14 iPPC-2000 PWM comme le meilleur compromis, attention à bien choisir la version 12V des ventilateurs. Ce ventilateur de 140mm peut permettre de produire jusqu’à 1200W de chauffage tout en maintenant un niveau de bruit théorique de 31 dB. Pour pouvoir installer ces ventilateurs de 140mm, il faudra utiliser un adaptateur 140mm vers 120mm que vous pourrez retrouver sur la boutique de Découvre Bitcoin. Et nous ajouterons également des grilles de protection 140mm.
 
 ![image](assets/en/24.webp)
 ![image](assets/en/25.webp)
@@ -500,7 +500,7 @@ Liste du matériel et liens
 
 <chapterId>3cf487a4-21ef-5b24-83d5-789b811f740f</chapterId>
 
-![Connecter un Antminer S9 à son réseau Wifi](https://www.youtube.com/watch?v=y4oYURBaPqg)
+:::video id=20a6f41c-03e5-4ead-bd0a-248c248a63b5:::
 
 Pour connecter votre ASIC en WIFI vous aurez besoin d’un appareil appelé bridge celui-ci permet de récupérer le signal WIFI de votre box et de le transmettre à un autre appareil en Ethernet.
 
@@ -527,14 +527,14 @@ ATTENTION le bridge Vonet fonctionne uniquement en 2,4GHz, aujourd’hui les rou
 ![image](assets/en/35.webp)
 
 Entrer le mot de passe de votre réseau WIFI dans “Source WIFI hotspot password”
-Si vous ne souhaitez pas utiliser votre bridge Vonet pour étendre votre réseau WIFI cochez la case “Disable Hotspot” autrement vous pouvez laissez cette case décoché.
+Si vous ne souhaitez pas utiliser votre bridge Vonet pour étendre votre réseau WIFI cochez la case “Disable Hotspot” autrement vous pouvez laissez cette case décochée.
 
 Vous pouvez ensuite cliquer sur Apply
 
 Et pour terminer il faudra cliquer sur reboot, le bridge va redémarrer en quelques minutes.
 
-Le bridge devrais se connecter à votre routeur ou il apparaitra sous le nom de “[VONETS.COM](http://vonets.com/)”
-Il est possible qu’il soit nécessaire de débrancher/rebrancher le bridge s'il n’est toujours pas connecté après quelque minutes.
+Le bridge devrait se connecter à votre routeur où il apparaitra sous le nom de “[VONETS.COM](http://vonets.com/)”
+Il est possible qu’il soit nécessaire de débrancher/rebrancher le bridge s'il n’est toujours pas connecté après quelques minutes.
 
 Une fois le bridge connecté branchez le câble Ethernet du bridge à votre ASIC puis branchez l’ASIC au secteur, vous pourrez alors vous connecter à l’interface de l’ASIC de la même manière que s’il était connecté directement en Ethernet à votre routeur.
 
@@ -544,7 +544,7 @@ Une fois le bridge connecté branchez le câble Ethernet du bridge à votre ASIC
 
 Avant d’installer BraiinOS+ il peut être nécessaire de réinitialiser votre S9 avec ses paramètres d’usine.
 
-Cette méthode peut être appliquée entre 2 minutes et 10 minutes après le démarrage du mineur.
+Cette méthode peut être appliquée entre 2 et 10 minutes après le démarrage du mineur.
 
 2 minutes après avoir allumé le mineur, veuillez appuyer sur le bouton « Reset » pendant 5 secondes, puis relâchez-le. Le mineur sera restauré aux paramètres d’usine dans les 4 minutes et redémarrera automatiquement (il n’est pas nécessaire de l’éteindre).
 
@@ -554,9 +554,9 @@ Cette méthode peut être appliquée entre 2 minutes et 10 minutes après le dé
 
 <chapterId>38e8b1a8-8b1d-51ed-8b92-59d4ddb15184</chapterId>
 
-![Installer Braiins OS+ sur son Antminer S9](https://www.youtube.com/watch?v=luqwlvzGsO4)
+:::video id=0751df86-9850-40d4-8e3e-c8bee61041fa:::
 
-Le logiciel d'origine installé par Antminer, sur leur machines de minage est limité en fonctionnalité. C'est pourquoi dans ce guide nous allons installer un autre logiciel appelé BraiinsOS+. C'est un logiciel tiers qui est développé par la toute première pool de minage Bitcoin qui possède plus de fonctionnalités et qui permet par exemple de modifier la puissance de la machine.
+Le logiciel d'origine installé par Antminer sur leurs machines de minage est limité en fonctionnalité. C'est pourquoi dans ce guide nous allons installer un autre logiciel appelé BraiinsOS+. C'est un logiciel tiers qui est développé par la toute première pool de minage Bitcoin qui possède plus de fonctionnalités et qui permet par exemple de modifier la puissance de la machine.
 
 Il existe plusieurs façons d’installer Braiins OS+ sur un ASIC. Vous pouvez vous référer à ce guide mais aussi à la [documentation officielle de Braiins](https://academy.braiins.com/en/braiins-os/about/).
 
@@ -564,15 +564,15 @@ Nous allons voir ici comment installer facilement Braiins OS+ directement sur la
 
 1. Alimentez votre Antmner et branchez le à votre Box internet
 2. Télécharger BOS toolbox Windows / Linux
-3. Décompressez le fichier téléchargé et ouvrez le fichier bos-toolbox.bat choisissez la langue puis après quelque instant vous verrez cette fenêtre:
+3. Décompressez le fichier téléchargé et ouvrez le fichier bos-toolbox.bat choisissez la langue puis après quelques instants vous verrez cette fenêtre:
 
 ![image](assets/en/37.webp)
 
-4. Bos toolbox va vous permettre de facilement trouver l’adresse IP de votre Antminer et installer BraiinsOS+. Si vous connaissez déjà l’adresse IP de votre machine vous pouvez passer à l’étape 8. Autrement, aller dans l’onglet scan.
+4. Bos toolbox va vous permettre de facilement trouver l’adresse IP de votre Antminer et installer BraiinsOS+. Si vous connaissez déjà l’adresse IP de votre machine vous pouvez passer à l’étape 8. Autrement, allez dans l’onglet scan.
 
 ![image](assets/en/38.webp)
 
-5. Habituellement sur les réseaux domestique la plage d’adresse IP se situe entre 192.168.1.1 et 192.168.1.255, mettez donc dans le champ IP range “192.168.1.0/24. Si votre réseau est différent veuillez changer ces adresses en fonction. Puis cliquez sur “Start”
+5. Habituellement sur les réseaux domestiques la plage d’adresse IP se situe entre 192.168.1.1 et 192.168.1.255, mettez donc dans le champ IP range “192.168.1.0/24. Si votre réseau est différent veuillez changer ces adresses en fonction. Puis cliquez sur “Start”
 
 6. Attention, si le Antminer possède un mot de passe alors la détection ne fonctionnera pas. Si c’est le cas alors le plus simple est d’effectuer une réinitialisation.
 
@@ -586,13 +586,13 @@ Nous allons voir ici comment installer facilement Braiins OS+ directement sur la
 
 ![image](assets/en/40.webp)
 
-9. Après quelques instants, votre Antminer va redémarrer et vous pourrez accéder à l’interface de Braiins OS+ à l’adresse IP en question, ici 192.168.1.37 à rentrer directement dans la barre d’adresse de votre navigateur, username par défaut “root” pas de password par défaut.
+9. Après quelques instants, votre Antminer va redémarrer et vous pourrez accéder à l’interface de Braiins OS+ à l’adresse IP en question, ici 192.168.1.37 à rentrer directement dans la barre d’adresse de votre navigateur, username par défaut “root”, pas de password par défaut.
 
 ## Configurer BraiinsOS+
 
 <chapterId>36e432f2-85bc-52d0-a62a-009fc4c69338</chapterId>
 
-![Configurer son Antminer S9 avec Braiins OS+](https://www.youtube.com/watch?v=dK0t8M8kLYg)
+:::video id=0f2833f0-4e64-43b0-ab2e-e35d772b1ba8:::
 
 Vous devrez vous connecter à votre ASIC en utilisant l’adresse IP locale de votre appareil sur votre réseau à travers un navigateur.
 
@@ -603,7 +603,7 @@ Les identifiants par défaut sont les mêmes que le système d’exploitation d�
 - username: root
 - password: (aucun)
 
-Vous serez alors accueilli par le Dashboard de Brains OS+
+Vous serez alors accueilli par le Dashboard de Braiins OS+
 
 ### Dashboard
 
@@ -617,7 +617,7 @@ Sur cette première page vous pourrez observer les performances de votre machine
 
 ![image](assets/en/42.webp)
 
-- Plus bas vous trouverez une vue détaillée de chaque hashboard. La température moyenne de la board et des puces qui la compose, la tension et la fréquence.
+- Plus bas vous trouverez une vue détaillée de chaque hashboard. La température moyenne de la board et des puces qui la composent, la tension et la fréquence.
 - Un détail sur les pools de minage active dans Pools.
 - Le statut de l’autotuning dans Tuner Status.
 - Sur la droite des détails sur les données transmises à la pool.
@@ -642,7 +642,7 @@ Sur cette première page vous pourrez observer les performances de votre machine
 
 <chapterId>0c6befa7-f3ef-5bcf-ae8d-0ad5e5d41d70</chapterId>
 
-![Remplacer les ventilateurs pour réduire les nuisances sonores](https://www.youtube.com/watch?v=2CNGKZiveuc)
+:::video id=315a18c7-bc66-458b-b052-ece18f6cbad5:::
 
 > ATTENTION : Il est essentiel d’avoir préalablement installé Braiins OS+ sur votre mineur, ou tout autre logiciel ayant la capacité de réduire les performances de votre machine. Cette mesure est cruciale, car dans le but de réduire le bruit, nous allons installer des ventilateurs moins puissants, qui pourront dissiper moins de chaleur.  
 
@@ -679,11 +679,11 @@ Sur le nouveau ventilateur, utilisez un cutter et coupez délicatement les conto
 
 ![image](assets/en/54.webp)
 
-Puis en tirant la gaine principale vers le bas, coupez les gaines des câble rouge et noir de la même manière que précédemment. Et coupez le câble jaune à ras.
+Puis en tirant la gaine principale vers le bas, coupez les gaines des câbles rouges et noirs de la même manière que précédemment. Et coupez le câble jaune à ras.
 
 ![image](assets/en/55.webp)
 
-Sur l’ancien ventilateur il est plus délicat de découper la gaine principale sans abîmer les gaines des files rouge et noir. Pour cela, nous avons utilisé une aiguille que nous avons glissé entre la gaine principale et les fils rouges et noirs.
+Sur l’ancien ventilateur il est plus délicat de découper la gaine principale sans abîmer les gaines des fils rouges et noirs. Pour cela, nous avons utilisé une aiguille que nous avons glissé entre la gaine principale et les fils rouges et noirs.
 
 ![image](assets/en/56.webp)
 ![image](assets/en/57.webp)
@@ -692,7 +692,7 @@ Une fois les fils rouges et noirs dégagés, coupez les gaines toujours délicat
 
 ![image](assets/en/58.webp)
 
-Puis relier les câbles avec un sucre, le fil noir avec le noir et le fil rouge avec le rouge. Vous pouvez également rajouter du scotch d’électricien.
+Puis reliez les câbles avec un sucre, le fil noir avec le noir et le fil rouge avec le rouge. Vous pouvez également rajouter du scotch d’électricien.
 
 ![image](assets/en/59.webp)
 ![image](assets/en/60.webp)
@@ -706,7 +706,7 @@ Une fois le branchement effectué, il est temps de mettre en place le nouveau ve
 
 ![image](assets/en/63.webp)
 
-Une fois les branchements effectués, remettez bien le plastique du couvercle par-dessus le plastique du boîtier et pas à l’intérieur.
+Une fois les branchements effectués, remettez bien le plastique du couvercle par-dessus le plastique du boîtier et non à l’intérieur.
 
 ![image](assets/en/64.webp)
 
@@ -716,7 +716,7 @@ Enfin, remettez le couvercle du boîtier en place puis revissez les 6 vis sur le
 
 <chapterId>a29f60f1-3fa3-57fc-a630-9c97cec30e56</chapterId>
 
-![Remplacer les ventilateurs pour réduire les nuisances sonores](https://www.youtube.com/watch?v=2CNGKZiveuc)
+:::video id=315a18c7-bc66-458b-b052-ece18f6cbad5:::
 
 > ATTENTION : Il est essentiel d’avoir préalablement installé Braiins OS+ sur votre mineur, ou tout autre logiciel ayant la capacité de réduire les performances de votre machine. Cette mesure est cruciale, car dans le but de réduire le bruit, nous allons installer des ventilateurs moins puissants, qui pourront dissiper moins de chaleur.  
 
@@ -776,9 +776,9 @@ Et voilà, bravo ! Vous venez de remplacer l’ensemble de la partie mécanique 
 
 <chapterId>b57a6105-0a53-5fe9-bad1-d6d9daf97c0d</chapterId>
 
-![Rejoindre une pool de minage avec un Antminer S9](https://www.youtube.com/watch?v=wM-dRog6mls&t=166s)
+:::video id=6b66edf5-c749-4e13-8dd9-a655cfd0539b:::
 
-On peut imaginer une pool de minage comme une coopérative agricole. Les agriculteurs mettent en commun leur production pour réduire la variance de l’offre et de la demande et ainsi obtenir des revenus plus stables pour leur exploitation. Une pool de minage fonctionne de la même manière et la matière première mise en commun sont des hash. En effet, la découverte d’un seul hash valide permet la création d’un bloc et ainsi de remporter la coinbase ou la récompense aujourd’hui de 6,25 BTC plus les frais des transactions inclus dans le bloc. Si vous minez seul, vous ne serez récompensé que lorsque vous trouverez un bloc. Étant en compétition contre tous les autres mineurs de la planète, vous auriez donc très peu de chances de remporter ce grand loto et vous devriez malgré tout payer les frais associés à l’utilisation de votre mineur sans aucune garantie de réussite. Les pools de minage viennent répondre à cette problématique en mutualisant la puissance de calcul de plusieurs (milliers) de mineurs et en partageant la récompense de ces derniers en fonction du pourcentage de participation au hashrate de la pool lorsqu’un bloc a été trouvé. Pour visualiser vos chance de miner un block de miner un block seul vous pouvez utiliser cet outil. En rentrant les informations d’un Antminer S9 on voit que les chances de trouver un hash permettant la création d’un block sont de 1/24 777 849 chaque bloc ou de 1/ 172 068 par jour. Il faudrait en moyenne (avec un hashrate et une difficulté constante) 471 ans pour trouver un bloc.
+On peut imaginer une pool de minage comme une coopérative agricole. Les agriculteurs mettent en commun leur production pour réduire la variance de l’offre et de la demande et ainsi obtenir des revenus plus stables pour leur exploitation. Une pool de minage fonctionne de la même manière et la matière première mise en commun sont des hash. En effet, la découverte d’un seul hash valide permet la création d’un bloc et ainsi de remporter la coinbase ou la récompense aujourd’hui de 6,25 BTC plus les frais des transactions inclus dans le bloc. Si vous minez seul, vous ne serez récompensé que lorsque vous trouverez un bloc. Étant en compétition contre tous les autres mineurs de la planète, vous auriez donc très peu de chances de remporter ce grand loto et vous devriez malgré tout payer les frais associés à l’utilisation de votre mineur sans aucune garantie de réussite. Les pools de minage viennent répondre à cette problématique en mutualisant la puissance de calcul de plusieurs (milliers) de mineurs et en partageant la récompense de ces derniers en fonction du pourcentage de participation au hashrate de la pool lorsqu’un bloc a été trouvé. Pour visualiser vos chance de miner un bloc seul vous pouvez utiliser cet outil. En rentrant les informations d’un Antminer S9 on voit que les chances de trouver un hash permettant la création d’un block sont de 1/24 777 849 chaque bloc ou de 1/ 172 068 par jour. Il faudrait en moyenne (avec un hashrate et une difficulté constante) 471 ans pour trouver un bloc.
 
 Malgré tout, comme dans Bitcoin tout est probabilité, il arrive parfois que des “solo miner” soit récompensés pour cette prise de risque : Solo Bitcoin Miner Solves Block With Hash Rate of Just 10 TH/s, Beating Extremely Unlikely Odds – Decrypt
 
@@ -786,13 +786,13 @@ Si vous aimez jouer, vous pouvez essayer, mais notre guide ne s’orientera pas 
 
 Les considérations à avoir en choisissant une pool de minage sont le fonctionnement des récompenses de la pool, qui peuvent être différentes, ainsi que le montant minimum avant de pouvoir retirer les récompenses sur une adresse. Par exemple, Braiins, qui propose le logiciel dont nous parlons ici, propose également une pool. Cette pool a un système de récompense appelé “Score” qui encourage les mineurs à miner pendant de longues périodes. La participation inclut un facteur de temps d’activité qui est exprimé avec un “scoring hashrate”. Dans notre cas, où nous souhaitons un système de chauffage qui peut être allumé pendant quelques minutes seulement, ce n’est pas le système de récompense idéal. Nous préférons plutôt un système de récompense qui nous donne une récompense égale pour chaque participation. De plus, le montant minimum de retrait pour Braiins Pool est de 100 000 sats et On-Chain. Nous perdons donc quelques sats en frais de transaction et une partie de notre récompense peut être bloquée si nous ne minons pas suffisamment pendant l’hiver.
 
-Le modèle de récompense qui nous intéresse est le PPS, qui signifie « pay-per-share ». Cela signifie que le mineur recevra une récompense pour chaque partage valide. Il existe également une variante de ce système, le FPPS (Full Pay Per Share), qui divise non seulement la récompense de la coinbase, mais aussi les frais de transaction inclus dans le bloc. Les pools de minage que nous vous recommandons pour connecter votre minage/chauffage sont Linecoin Pool (FPPS) et Nicehash (PPS).
+Le modèle de récompense qui nous intéresse est le PPS, qui signifie « pay-per-share ». Cela signifie que le mineur recevra une récompense pour chaque partage valide. Il existe également une variante de ce système, le FPPS (Full Pay Per Share), qui divise non seulement la récompense de la coinbase, mais aussi les frais de transaction inclus dans le bloc. Les pools de minage que nous vous recommandons pour connecter votre minage/chauffage sont Lincoin Pool (FPPS) et Nicehash (PPS).
 
 - Nicehash : L’avantage de Nicehash est que le retrait peut être effectué en utilisant Lightning avec des frais minimes. De plus, le montant minimum de retrait est de 2000 sats. L’inconvénient est que Nicehash utilise son hashrate pour la blockchain la plus rentable, sans donner vraiment le contrôle à l’utilisateur et elle ne participe donc pas forcément au hashrate de Bitcoin.
 
-- Lincoin : L’avantage de Linecoin est le nombre de fonctionnalités proposées, telles qu’un tableau de bord détaillé, la possibilité de faire des retraits avec un Paynym (BIP 47) pour une meilleure protection de la vie privée, et l’intégration d’un bot Telegram ainsi que des automatisations directement configurables dans l’application mobile. Cette pool ne mine que des blocs Bitcoin mais le montant minimum pour retirer reste élevé à 100 000 sats. Nous examinerons plus en détail l’interface d’une de ces pools dans un prochain article.
+- Lincoin : L’avantage de Lincoin est le nombre de fonctionnalités proposées, tels qu’un tableau de bord détaillé, la possibilité de faire des retraits avec un Paynym (BIP 47) pour une meilleure protection de la vie privée, et l’intégration d’un bot Telegram ainsi que des automatisations directement configurables dans l’application mobile. Cette pool ne mine que des blocs Bitcoin mais le montant minimum pour retirer reste élevé à 100 000 sats. Nous examinerons plus en détail l’interface d’une de ces pools dans un prochain article.
 
-Pour configurer une pool dans Braiins 0S+, il faudra créer un compte dans l’une des pool de votre choix. Ici nous allons prendre l’exemple de Lincoin :
+Pour configurer une pool dans Braiins 0S+, il faudra créer un compte dans l’une des pools de votre choix. Ici nous allons prendre l’exemple de Lincoin :
 
 ![image](assets/en/76.webp)
 
@@ -806,29 +806,29 @@ Vous pouvez à présent retourner dans l’interface de Braiins OS+ afin de rent
 
 ![image](assets/en/78.webp)
 
-## Optimiser les performances de sont Antminer S9
+## Optimiser les performances de son Antminer S9
 
 <chapterId>25380972-31c7-540d-80d8-17a06b171ca0</chapterId>
 
-![Optimiser les performances de son Antminer S9 avec l'auto-tunning](https://www.youtube.com/watch?v=yh8U9Ay1i-E&t=277s)
+:::video id=197108db-e8ac-4625-9714-7cf9fb8273f5:::
 
-L’overclocking et l’autotuning consiste tous les deux à ajuster les fréquences sur les cartes de hachage pour améliorer les performances de l’ASIC. La différence entre les deux réside dans la complexité de ces réglages de fréquence.
+L’overclocking et l’autotuning consistent tous deux à ajuster les fréquences sur les cartes de hachage pour améliorer les performances de l’ASIC. La différence entre les deux réside dans la complexité de ces réglages de fréquence.
 
-L’overclocking est un ajustement simple qui consiste à augmenter la fréquence sur les cartes de hachage pour augmenter le taux de hachage de la machine. L’underclocking, quant à lui, consiste à diminuer la fréquence d’horloge d’un circuit intégré en dessous de sa fréquence nominale En réduisant la fréquence d’horloge d’un ASIC par l’underclocking, on réduit également la chaleur générée par le matériel. Cela permet de diminuer la vitesse des ventilateurs nécessaires pour refroidir l’ASIC, car ils n’ont pas à travailler aussi dur pour maintenir une température appropriée. En réduisant la vitesse des ventilateurs, le bruit généré par l’ASIC est également réduit. Cela peut être particulièrement utile pour les utilisateurs qui utilisent des ASIC à la maison et qui cherchent à minimiser les perturbations sonores causées par le matériel de minage.
+L’overclocking est un ajustement simple qui consiste à augmenter la fréquence sur les cartes de hachage pour augmenter le taux de hachage de la machine. L’underclocking, quant à lui, consiste à diminuer la fréquence d’horloge d’un circuit intégré en dessous de sa fréquence nominale. En réduisant la fréquence d’horloge d’un ASIC par l’underclocking, on réduit également la chaleur générée par le matériel. Cela permet de diminuer la vitesse des ventilateurs nécessaires pour refroidir l’ASIC, car ils n’ont pas à travailler aussi dur pour maintenir une température appropriée. En réduisant la vitesse des ventilateurs, le bruit généré par l’ASIC est également réduit. Cela peut être particulièrement utile pour les utilisateurs qui utilisent des ASIC à la maison et qui cherchent à minimiser les perturbations sonores causées par le matériel de minage.
 
 Braiins OS+ prend en charge l’overclocking, l’underclocking des ASICs et l’autotuning. Il permet aux utilisateurs de régler la fréquence d’horloge de leur matériel de manière flexible pour maximiser les performances ou économiser de l’énergie selon leurs préférences.
 
-### Optimiser les performances de son Antminer S9 avec l'auto-tunning
+### Optimiser les performances de son Antminer S9 avec l'auto-tuning
 
 Avant 2018, les mineurs avaient deux moyens de gagner un avantage dans leur activité : trouver de l’électricité à un coût raisonnable et acheter du matériel plus efficace. Cependant, en 2018, une nouvelle avancée a été découverte dans le domaine des logiciels et des micrologiciels miniers, appelée AsicBoost. Cette technique permet aux mineurs de réduire leurs coûts d’environ 13% en modifiant le micrologiciel exécuté sur leurs appareils.
 
-Aujourd’hui, il existe une nouvelle avancée dans le secteur des logiciels et des micrologiciels miniers appelée autoréglage (ou autotuning) qui offre un avantage encore plus important qu’AsicBoost. Les ASIC sont composées de nombreuses petites puces informatiques qui effectuent le hachage. Ces puces sont faites de silicium, le même élément largement utilisé dans les semi-conducteurs et autres composants microélectroniques. La compréhension clé ici est que toutes les puces de silicium ne sont pas identiques, chacune peut varier légèrement dans ses propriétés électriques. Les fabricants de matériel le savent et publient les spécifications de performances de leurs machines minières en fonction de la limite inférieure de leurs tolérances. En d’autres termes, les fabricants connaissent la fréquence qui fonctionne le mieux pour les puces moyennes et ils utilisent cette fréquence de manière uniforme pour toutes les puces de la machine.
+Aujourd’hui, il existe une nouvelle avancée dans le secteur des logiciels et des micrologiciels miniers appelée autoréglage (ou autotuning) qui offre un avantage encore plus important qu’AsicBoost. Les ASIC sont composés de nombreuses petites puces informatiques qui effectuent le hachage. Ces puces sont faites de silicium, le même élément largement utilisé dans les semi-conducteurs et autres composants microélectroniques. Le point clé ici est que toutes les puces de silicium ne sont pas identiques, chacune peut varier légèrement dans ses propriétés électriques. Les fabricants de matériel le savent et publient les spécifications de performances de leurs machines minières en fonction de la limite inférieure de leurs tolérances. En d’autres termes, les fabricants connaissent la fréquence qui fonctionne le mieux pour les puces moyennes et ils utilisent cette fréquence de manière uniforme pour toutes les puces de la machine.
 
-Cela met une limite supérieure au taux de hachage qu’une machine peut avoir. L’auto-réglage est un processus dans lequel des algorithmes évaluent les fréquences optimales pour le hachage puce par puce, au lieu de traiter l’ensemble de la machine comme une seule unité. Cela signifie qu’une puce de meilleure qualité qui peut effectuer plus de hachages par seconde obtiendra une fréquence plus élevée, et une puce de qualité inférieure qui peut effectuer relativement moins obtiendra une fréquence plus faible. Le réglage automatique par puce est essentiellement un moyen d’optimiser les performances d’un ASIC via le logiciel et le micrologiciel qui y sont exécutés.
+Cela met une limite supérieure au taux de hachage qu’une machine peut avoir. L’auto-tuning est un processus par lequel des algorithmes évaluent les fréquences optimales pour le hachage puce par puce, au lieu de traiter l’ensemble de la machine comme une seule unité. Cela signifie qu’une puce de meilleure qualité qui peut effectuer plus de hachages par seconde obtiendra une fréquence plus élevée, et une puce de qualité inférieure qui peut effectuer relativement moins obtiendra une fréquence plus faible. Le réglage automatique par puce est essentiellement un moyen d’optimiser les performances d’un ASIC via le logiciel et le micrologiciel qui y sont exécutés.
 
 Le résultat final est un taux de hachage plus élevé par watt d’électricité, ce qui signifie des marges bénéficiaires plus importantes pour les mineurs. La raison pour laquelle les machines ne sont pas distribuées avec ce type de logiciel est que la variance par machine n’est pas souhaitable, car les clients veulent savoir exactement ce qu’ils obtiennent et il est donc une mauvaise idée pour les fabricants de vendre un produit qui n’a pas des performances constantes et prévisibles d’une machine à l’autre. En outre, le réglage automatique par puce nécessite des ressources de développement considérables, car il est complexe à mettre en place. Les fabricants dépensent déjà beaucoup de ressources pour développer leurs propres firmwares. Il existe des solutions logicielles qui permettent de mettre en place l’autotuning, comme Braiins OS+. En plus d’améliorer les performances de l’ASIC jusqu’à 20%.
 
-# Conclusion
+# Section finale
 
 <partId>fa42ec0b-b1fd-47f6-8268-6eab684c1d2b</partId>
 

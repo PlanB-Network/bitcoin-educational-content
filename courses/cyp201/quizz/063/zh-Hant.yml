@@ -1,0 +1,9 @@
+question: 擴充金鑰中不包含哪些資訊？
+answer: 鑰匙的交易記錄
+wrong_answers:
+  - 鑰匙的索引編號
+  - 金鑰 (私人或公開)
+  - 連鎖碼
+explanation: |
+  擴展金鑰只包含衍生子金鑰所需的資訊，而不包含與交易相關的資訊。
+reviewed: false

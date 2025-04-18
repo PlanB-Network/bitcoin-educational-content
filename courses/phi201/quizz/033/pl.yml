@@ -1,0 +1,9 @@
+question: Według rzymskiego filozofa Seneki, na czym polega szczęście?
+answer: Praktyka cnoty
+wrong_answers:
+  - Bogactwo
+  - Przyjemność
+  - Wszystkie powyższe
+explanation: |
+  Dla Seneki prawdziwe szczęście leży w praktyce cnoty, która pozwala jednostce żyć zgodnie z rozumem i osiągnąć trwały wewnętrzny spokój, niezależny od przyjemności czy bogactwa.
+reviewed: false

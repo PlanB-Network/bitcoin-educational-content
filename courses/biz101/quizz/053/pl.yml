@@ -1,0 +1,9 @@
+question: Jakie kluczowe szczegóły płatności muszą być udokumentowane dla każdej transakcji Bitcoin?
+answer: Data, kwota, ekwiwalent wartości fiat i powiązane adresy
+wrong_answers:
+  - transaction ID, opłata sieciowa i Address sprzedawcy
+  - Data, wskaźnik Exchange, typ Wallet i położenie geograficzne
+  - Numer bloku Bitcoin, Timestamp i użyty skrypt
+explanation: |
+  Dokumentowanie tych szczegółów zapewnia przejrzystość i pomaga księgowym w rozróżnianiu przepływów przychodzących i wychodzących.
+reviewed: false

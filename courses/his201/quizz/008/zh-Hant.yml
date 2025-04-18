@@ -1,0 +1,9 @@
+question: e-gold 是什麼？
+answer: 以儲存在金庫中的等量黃金為擔保的數位貨幣
+wrong_answers:
+  - 魔獸世界中的一種貨幣單位
+  - 以 Proof of Work 為發行基礎的數位貨幣概念
+  - 黃金珠寶的線上 Exchange 系統
+explanation: |
+  該系統由 Douglas Jackson 和 Barry Downey 於 1996 年共同創立，只需簡單的網頁瀏覽器即可存取。
+reviewed: false

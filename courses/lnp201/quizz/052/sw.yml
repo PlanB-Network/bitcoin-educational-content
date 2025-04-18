@@ -1,0 +1,9 @@
+question: Je, ni huduma gani inayoruhusu kuhamisha ukwasi hadi upande mwingine wa chaneli huku ikirejesha pesa za On-Chain?
+answer: Loop Out
+wrong_answers:
+  - Keysend
+  - LNURL
+  - Ubadilishanaji wa Sarafu
+explanation: |
+  Huduma ya Loop Out kutoka kwa Maabara ya Umeme huwezesha uhamisho wa fedha kutoka kwa chaneli ya Umeme hadi On-Chain Blockchain, na hivyo kuboresha uwezo wa kupokea wakati wa kurejesha bitcoins kwenye mnyororo mkuu.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Je, ni ipi mojawapo ya faida kuu kwa wafanyabiashara wanaotumia Lightning Network?
+answer: Ada za ununuzi zilizopunguzwa
+wrong_answers:
+  - Malipo yamehakikishwa na benki
+  - Kuongezeka kwa mauzo moja kwa moja
+  - Kuondolewa kwa ushuru wa kibiashara
+explanation: |
+  Ada za miamala kwenye Lightning Network ni za chini sana, na kuifanya kuwa suluhisho la gharama nafuu kwa wafanyabiashara.
+reviewed: false

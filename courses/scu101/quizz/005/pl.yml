@@ -1,0 +1,11 @@
+question: Dlaczego zaleca się unikanie przeglądarki Google Chrome?
+answer: Dzięki swoim trackerom.
+wrong_answers:
+  - Ponieważ nie jest to bezpieczne.
+  - Ponieważ nie jest przyjazny dla użytkownika.
+  - Ponieważ nie obsługuje rozszerzeń.
+explanation: |
+  Przeglądarka Google Chrome jest znana z modułów śledzących, które mogą
+  gromadzić dane o aktywności użytkownika w Internecie. Dla niektórych użytkowników
+  prywatności dla niektórych użytkowników.
+reviewed: true

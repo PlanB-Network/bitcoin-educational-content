@@ -1,0 +1,9 @@
+question: sighash 標誌 SIGHASH_NONE 允許什麼？
+answer: 簽署後修改輸出
+wrong_answers:
+  - 簽署後修改輸入
+  - 涵蓋所有輸入和輸出
+  - 限制修改僅限於一個輸出
+explanation: |
+  SIGHASH_NONE 只涵蓋輸入，而輸出在簽署後仍可修改。
+reviewed: false

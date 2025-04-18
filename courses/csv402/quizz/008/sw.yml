@@ -1,0 +1,9 @@
+question: Je, madhumuni makuu ya ahadi za Bitcoin ni zipi?
+answer: Hakikisha kuwa Commitment moja imeingizwa katika muamala
+wrong_answers:
+  - Kurahisisha muundo wa shughuli za Bitcoin
+  - Punguza gharama za shughuli za RGB
+  - Kuboresha uzalishaji wa saini nyingi za RGB
+explanation: |
+  Ahadi bainifu za Bitcoin zinahakikisha kwamba Commitment moja inaingizwa katika shughuli, ili kuepuka ahadi fiche zinazoshindana.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Je, unapaswa kufanya nini mara tu maneno ya kifungu chako cha Mnemonic yanapoandikwa?
+answer: Tengeneza nakala ya pili na uihifadhi mahali tofauti.
+wrong_answers:
+  - Shiriki na rafiki unayemwamini.
+  - Tuma barua pepe kwako.
+  - Hifadhi kwenye simu yako.
+explanation: |
+  Mara tu maneno ya kifungu chako cha Mnemonic yanapoandikwa, ndivyo inavyokuwa
+  ilipendekeza kutengeneza nakala ya pili na kuihifadhi katika a
+  eneo tofauti na la kwanza. Hii hutoa chelezo katika
+  kesi ya hasara au ajali na nakala ya kwanza.
+reviewed: true

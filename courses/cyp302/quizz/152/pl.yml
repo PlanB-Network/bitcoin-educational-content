@@ -1,0 +1,9 @@
+question: Jaka jest funkcja klucza prywatnego d w kryptosystemie RSA?
+answer: Służy do odszyfrowywania wiadomości przy użyciu modułu N
+wrong_answers:
+  - Jest on używany tylko do szyfrowania wiadomości
+  - Służy do odblokowywania bitcoinów
+  - Jest on używany do obliczania φ(N)
+explanation: |
+  Klucz prywatny d jest używany do odszyfrowywania zaszyfrowanych wiadomości poprzez wykonanie obliczeń z modułem N.
+reviewed: false

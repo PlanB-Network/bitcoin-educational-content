@@ -24,10 +24,10 @@ Whether you're a **small business or a large corporation**, integrating Bitcoin 
 <partId>326cf945-5d3f-4d86-8c3e-4d1c35959799</partId>
 
 
-## Onboard your company to Bitcoin
+## Course overview
 <chapterId>1be42be9-4080-49f5-b5b2-6b531dd55f5f</chapterId>
 
-Kickstart your company’s journey on the Bitcoin network with this comprehensive training course - a gateway to understanding how Bitcoin and the Lightning Network can revolutionize traditional business operations. This course is designed for retailers, entrepreneurs, managers, and corporate decision-makers who wish to explore the practical capabilities of Bitcoin as a global, internet-native monetary network and a robust means of value exchange.
+Welcome to the BIZ101 course! Kickstart your company’s journey on the Bitcoin network with this comprehensive training course - a gateway to understanding how Bitcoin and the Lightning Network can revolutionize traditional business operations. This course is designed for retailers, entrepreneurs, managers, and corporate decision-makers who wish to explore the practical capabilities of Bitcoin as a global, internet-native monetary network and a robust means of value exchange.
 
 Throughout the course, you will be introduced to the foundational principles that make Bitcoin and the Lightning Network distinctly transformative. You will learn how these technologies offer a spectrum of use cases, from digital capital storage to fast, economical, and scalable payments, and how they provide critical improvements over traditional currency and payment systems. BIZ101 course connects economic theory with real-world applications, clarifying how decentralization can reduce dependencies on intermediaries and overcome limitations inherent in legacy systems.
 
@@ -35,7 +35,7 @@ The course begins with a detailed examination of conventional currencies and pay
 
 Whether you represent a small enterprise or a large corporation, this course aims to equip you with the knowledge to integrate Bitcoin into your daily operations, thereby enhancing your company’s resilience, efficiency, and competitive edge. As Bitcoin continue to reshape the economic landscape, understanding these groundbreaking technologies is not merely an option but a strategic necessity. Prepare to engage with insightful content, practical examples, and strategic guidance that will enable you to navigate and leverage the evolving world of Bitcoin!
 
-
+Ready to dive into the world of Bitcoin for businesses? Let's go!
 
 # Currency, payment systems, and Bitcoin
 <partId>d9bd0e21-8488-44e0-af55-6d0b934f83c2</partId>
@@ -1264,7 +1264,7 @@ Finally, whether you are a small merchant or a more established business, it is 
 
 
 
-# Conclusion
+# Final Section
 <partId>f6ca8d01-a4f3-449b-ac9f-c5fba9a69178</partId>
 
 ## Evaluate this course

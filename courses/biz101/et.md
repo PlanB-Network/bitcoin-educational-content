@@ -22,17 +22,18 @@ Olenemata sellest, kas olete **väikeettevõte või suurkorporatsioon**, võib B
 
 <partId>326cf945-5d3f-4d86-8c3e-4d1c35959799</partId>
 
-## Teie ettevõtte pardal on Bitcoin
-
+## Kursuse ülevaade
 <chapterId>1be42be9-4080-49f5-b5b2-6b531dd55f5f</chapterId>
 
-Alustage oma ettevõtte teekonda Bitcoini võrgus selle põhjaliku koolituskursusega - see on värav, mis aitab mõista, kuidas Bitcoin ja Lightning Network võivad muuta traditsioonilisi äritegevusi. See kursus on mõeldud jaemüüjatele, ettevõtjatele, juhtidele ja ettevõtte otsustajatele, kes soovivad uurida Bitcoini kui ülemaailmse, internetipõhise rahavõrgustiku ja jõulise väärtusvahetuse vahendi praktilisi võimalusi.
+Tere tulemast BIZ101 kursusele! Alustage oma ettevõtte teekonda Bitcoini võrgus selle põhjaliku koolituskursusega - see on värav, mis aitab mõista, kuidas Bitcoin ja Lightning Network võivad muuta traditsioonilisi äritegevusi. See kursus on mõeldud jaemüüjatele, ettevõtjatele, juhtidele ja ettevõtte otsustajatele, kes soovivad uurida Bitcoini kui ülemaailmse, internetipõhise rahavõrgustiku ja jõulise väärtusvahetuse vahendi praktilisi võimalusi.
 
 Kursuse käigus tutvustatakse teile põhiprintsiipe, mis muudavad Bitcoini ja Lightning Networki selgelt ümberkujundavaks. Te saate teada, kuidas need tehnoloogiad pakuvad mitmesuguseid kasutusviise, alates digitaalse kapitali säilitamisest kuni kiirete, ökonoomsete ja skaleeritavate makseteni, ning kuidas nad pakuvad kriitilisi täiustusi võrreldes traditsiooniliste valuuta- ja maksesüsteemidega. BIZ101 kursus ühendab majandusteooria tegelike rakendustega, selgitades, kuidas detsentraliseerimine võib vähendada sõltuvust vahendajatest ja ületada vanadele süsteemidele omaseid piiranguid.
 
 Kursus algab tavapäraste valuutade ja maksemehhanismide üksikasjaliku uurimisega, mis paneb aluse sellele, kuidas valuuta toimib võrgustikuna, mis võimaldab kaubandust, säästmist ja majanduslikku spetsialiseerumist. Seejärel süveneme Bitcoini taga olevasse tehnoloogiasse ja Lightning Networki poolt kasutusele võetud uuendustesse, paljastades nende rolli sujuvate, turvaliste ja peaaegu hetkeliste tehingute hõlbustamisel, mis võivad teenida igas suuruses ettevõtteid. Seejärel sukeldume selle kursuse praktilistesse osadesse, alustades bitcoinide kui varade hoidmise osaga, millele järgneb viimane osa bitcoinide kui maksevahendi aktsepteerimisest.
 
 Olenemata sellest, kas esindate väikeettevõtet või suurt korporatsiooni, on selle kursuse eesmärk anda teile teadmised, et integreerida Bitcoin oma igapäevastesse toimingutesse, suurendades seeläbi teie ettevõtte vastupidavust, tõhusust ja konkurentsieelist. Kuna Bitcoin jätkab majandusmaastiku ümberkujundamist, ei ole nende murranguliste tehnoloogiate mõistmine pelgalt võimalus, vaid strateegiline vajadus. Valmistuge osalema sisuka sisu, praktiliste näidete ja strateegiliste juhiste abil, mis võimaldavad teil Bitcoini arenevas maailmas navigeerida ja seda ära kasutada!
+
+Olete valmis sukelduma ettevõtete jaoks mõeldud Bitcoini maailma? Lähme!
 
 # Valuuta, maksesüsteemid ja Bitcoin
 
@@ -1344,7 +1345,7 @@ Lõpuks, olenemata sellest, kas olete väike kaupmees või väljakujunenud ettev
 - Säilitatud Bitcoin (0,19335) kajastub bilansis 7 734 euro väärtuses.
 - Realiseerimata kasum summas 5468 eurot säilitatud Bitcoinist, mis on esitatud finantsteatistes.
 
-# Kokkuvõte
+# Lõpusektsioon
 
 <partId>f6ca8d01-a4f3-449b-ac9f-c5fba9a69178</partId>
 

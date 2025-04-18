@@ -1,0 +1,9 @@
+question: Nini kitatokea ikiwa malipo kupitia HTLC hayatakamilika ndani ya muda uliowekwa?
+answer: Malipo yameghairiwa na pesa zinarudi kwa mtumaji.
+wrong_answers:
+  - Malipo yanatunzwa na nodi ya mwisho ya mpatanishi
+  - Fedha hizo zinasambazwa kwa nodi zote kwenye njia
+  - Fedha zimezuiwa kabisa
+explanation: |
+  Ikiwa HTLC itaisha bila siri kufichuliwa, malipo yanaghairiwa na fedha zinarudi kwa mtumaji, na hivyo kuzuia node yoyote ya mpatanishi kutunza fedha.
+reviewed: false

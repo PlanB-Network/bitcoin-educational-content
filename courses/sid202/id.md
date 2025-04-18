@@ -24,23 +24,38 @@ Bergabunglah bersama kami untuk meningkatkan keterampilan Anda, membuka potensi 
 
 <partId>8f34de87-6e9a-4e3b-a326-50fc7c1803b3</partId>
 
-## Pengenalan Kursus
+## Ikhtisar Kursus
 
 <chapterId>a721398e-7040-4edd-be53-b485ea759fa9</chapterId>
 
-![Video](https://youtu.be/gkQfnwYLyI0?si=H6cIPhgZaSAwHaHI)
+:::video id=e0166470-5561-4b3b-9d0d-4edee69b64d8:::
 
-Tujuan dari Elements Academy adalah untuk memperkenalkan dan menjelaskan konsep-konsep utama Elements, platform sumber terbuka yang menjadi dasar dari Liquid. Pada akhir kursus, Anda akan memiliki pemahaman yang baik tentang fitur utama Elements, seperti Transaksi Rahasia dan Aset yang Diterbitkan, dan proses yang terlibat dalam menjalankan Elements Core.
+Selamat datang di kursus SID202!
 
-Setiap bagian akan memiliki pelajaran dengan teks penjelasan dan video yang diakhiri dengan kuis. Jumlah pertanyaan berhubungan dengan ukuran topik sebelumnya. Bagian 10 akan merangkum konten kursus dan diakhiri dengan kuis yang lebih besar.
+Tujuan dari *Elements Academy* adalah untuk memperkenalkan dan menjelaskan konsep-konsep utama dari *Elements*, platform open-source yang menjadi dasar dari sidechain Liquid. Pada akhir kursus ini, Anda diharapkan memiliki pemahaman yang solid tentang fitur-fitur utama Elements, seperti transaksi rahasia dan aset yang diterbitkan, serta proses yang terlibat dalam pengoperasian Elements Core. Setiap bagian dari kursus mencakup pelajaran yang dilengkapi dengan teks penjelasan dan video, yang diakhiri dengan kuis.
 
-Setiap pertanyaan, permintaan informasi tambahan, atau pertanyaan mengenai jawaban kuis dapat ditujukan kepada guru Anda, James Dorfman.
+Pelatihan ini bertujuan untuk mengajarkan Anda cara menggunakan dan mengembangkan dengan platform open-source Elements, dengan penekanan pada jaringan Liquid. Anda akan mempelajari bagaimana teknologi ini dapat meningkatkan privasi, skalabilitas, dan fungsionalitas proyek pengembangan Anda. Baik Anda pemula atau pengembang berpengalaman, kursus ini akan memberikan dasar yang kuat untuk menguasai konsep-konsep dasar dari Elements dan Liquid serta aplikasinya dalam praktik.
+
+**Bagian 1: Pengantar**  
+Kami akan memulai dengan gambaran menyeluruh tentang konsep-konsep Elements. Anda akan belajar bagaimana platform ini dirancang untuk menyediakan dasar modular dan fleksibel untuk membuat sidechain seperti Liquid. Tujuannya adalah untuk memahami struktur Elements sebelum masuk ke aplikasi praktisnya.
+
+**Bagian 2: Elements**  
+Bagian ini akan fokus pada cara kerja Elements. Anda akan belajar bagaimana mengonfigurasi node Elements, mengoperasikannya dalam mode mandiri, atau menggunakannya sebagai sidechain.
+
+**Bagian 3: Penggunaan Elements – Studi Kasus Praktis**  
+Setelah menguasai dasar-dasar teoretis, kami akan membahas aplikasi praktis dari Elements. Anda akan belajar bagaimana melakukan transaksi rahasia, menerbitkan aset, dan mengelola penerbitan ulang aset.
+
+**Bagian 4: Federasi Elements**  
+Di sini, kita akan membahas mekanisme lanjutan, termasuk penandatanganan blok federasi, penggunaan Elements sebagai sidechain, dan pembuatan blockchain independen. Bagian ini akan membantu Anda memahami bagaimana memastikan keamanan, integritas, dan interoperabilitas dari blockchain berbasis Elements.
+
+Siap untuk menjelajahi potensi Elements dan Liquid sidechain? Ayo mulai!
+
 
 ## Ikhtisar Elemen
 
 <chapterId>7a7f2712-5300-4a6d-b1ed-05eab731bc35</chapterId>
 
-![Video](https://youtu.be/ns-JLGdkNig?si=fmWye_boRSvVF1Bt)
+:::video id=eae666b4-eddc-4e00-adea-2a5f94396044:::
 
 Elements adalah platform blockchain open source berkemampuan sidechain, yang menyediakan akses ke fitur-fitur canggih yang dikembangkan oleh anggota komunitas, seperti Transaksi Rahasia dan Aset yang Diterbitkan.
 
@@ -82,7 +97,7 @@ Elements menambahkan semua fitur ini di atas basis kode Bitcoin Core, memperluas
 
 <chapterId>05d88877-58b0-455b-9ae6-a72d19070525</chapterId>
 
-![Video](https://youtu.be/v0lzmfH81AY?si=V-xDWfmDLKyBcdPs)
+:::video id=7c8c7981-11e5-47a2-a257-ef998f4892f5:::
 
 Elements menyediakan solusi teknis untuk masalah yang dihadapi pengguna blockchain setiap hari; latensi transaksi, kurangnya privasi, dan risiko terhadap fungibilitas.
 
@@ -143,7 +158,7 @@ Untuk mentransfer aset kembali ke mainchain, pengguna melakukan transaksi peg-ou
 
 <chapterId>cc806e5a-81ab-457b-9531-9f863120a019</chapterId>
 
-![Video](https://youtu.be/Frr_OjTEPAM?si=iq5XonJyQk8S5OAu)
+:::video id=1f73dfee-3623-483b-ab42-07d9286ed999:::
 
 Karena Elements didasarkan pada basis kode Bitcoin, komponen-komponen yang membentuk jaringan yang berfungsi sangat mirip.
 
@@ -224,7 +239,7 @@ Hal ini akan memungkinkan kita untuk melakukan berbagai macam operasi seperti tr
 
 <chapterId>263b1c5b-59ed-49e7-b811-95c354f41eae</chapterId>
 
-![Video](https://youtu.be/-by2xBtXQeE?si=7bLo_geGn3qh7MXN)
+:::video id=ea2121b6-24a8-458d-91e6-0c92eaf4dc65:::
 
 Pada bagian ini, Anda akan mempelajari cara menggunakan fitur Transaksi Rahasia di Elements.
 
@@ -336,7 +351,7 @@ Sekian untuk pelajaran kali ini; semoga berhasil dalam kuis dan sampai jumpa di 
 
 <chapterId>c33c7020-5975-457a-99db-4f8b90d1fa1c</chapterId>
 
-![Video](https://youtu.be/XnY4WZUNSs4?si=dG8I5OoSh_0EBdvL)
+:::video id=7ac63148-d730-496d-85d4-0032aaf09be1:::
 
 Pada bagian ini anda akan mempelajari bagaimana cara menggunakan fitur Issued Assets di Elements.
 
@@ -515,7 +530,7 @@ Pada bagian ini kita telah melihat bagaimana cara menerbitkan dan melabeli aset.
 
 <chapterId>78751b21-1dc8-4877-a406-e71bc80a95b0</chapterId>
 
-![Video](https://youtu.be/5em79YHtYk0?si=rhponm6Hw9AB6RJp)
+:::video id=7df967b0-ffff-42e1-b1d5-868e76289faf:::
 
 Pada bagian ini Anda akan mempelajari cara menerbitkan lebih banyak aset yang sudah diterbitkan dan juga cara menghancurkan sejumlah aset yang sudah diterbitkan.
 
@@ -663,7 +678,7 @@ Pada bagian ini kita telah melihat bagaimana cara menerbitkan aset, bersama deng
 
 <chapterId>c47b217e-db14-4843-a66f-3e5f3a00a808</chapterId>
 
-![Video](https://youtu.be/kxWX91fCnus?si=KItm_Am3_RrBcLBN)
+:::video id=c5a81820-77d7-4a0c-9a4e-9323386a74ac:::
 
 Elements mendukung model penandatanganan federasi yang memungkinkan Anda untuk menentukan jumlah anggota Strong Federation yang harus menandatangani blok yang diusulkan untuk menghasilkan blok yang valid.
 
@@ -822,7 +837,7 @@ Setelah sejumlah penandatangan menandatangani blok yang diusulkan, blok tersebut
 
 <chapterId>432d7a65-255f-44a3-8b38-78508202cb37</chapterId>
 
-![Video](https://youtu.be/egYzj4N8CB8?si=v7_-IXsjHPE-ARDe)
+:::video id=c15e7eaf-9b5d-4696-bb36-bd10e7b56967:::
 
 Elements adalah sebuah platform blockchain open-source, tujuan umum yang juga dapat "dipasangkan" ke blockchain yang sudah ada, seperti Bitcoin. Ketika dipasangkan ke blockchain lain, Elements dikatakan beroperasi sebagai `sidechain`. Sidechain memungkinkan transfer aset dua arah dari satu rantai ke rantai lainnya. Menerapkan Elements sebagai sidechain memungkinkan Anda untuk mengatasi beberapa keterbatasan yang melekat pada blockchain utama, sambil mempertahankan tingkat keamanan yang baik yang disediakan oleh aset yang diamankan di blockchain utama.
 
@@ -1025,7 +1040,7 @@ Peg-out terjadi ketika node Elements memanggil perintah `sendtomainchain`, yang 
 
 <chapterId>50dff39b-2702-47d7-9c15-0b54b845e99f</chapterId>
 
-![Video](https://youtu.be/u-3rV7DGtD0?si=G1__H0Uelf4sTUDM)
+:::video id=4955306b-4be3-429c-9d30-068f7644ea73:::
 
 Sejauh ini, kita telah melihat cara menjalankan Elements sebagai sidechain. Akan tetapi, ia juga dapat beroperasi sebagai solusi blockchain mandiri dengan aset asli bawaannya sendiri. Dalam pengaturan ini, blockchain Elements masih mempertahankan semua fitur implementasi sidechain, seperti Transaksi Rahasia dan Aset yang Diterbitkan, tetapi tidak memerlukan peg-in atau peg-out untuk menambah atau menghapus jumlah aset default dari sirkulasi.
 
@@ -1211,7 +1226,7 @@ Dengan menggunakan parameter di atas, Anda dapat mengoperasikan Elements sebagai
 
 <chapterId>7e2c916d-8114-424c-97f5-cbff9d73b8e3</chapterId>
 
-![Video](https://youtu.be/CTMdamTZBBM?si=16LBcXvN4pBfC7lr)
+:::video id=bd5167d5-edba-40b0-a8b1-ba8b74493a08:::
 
 Dalam kursus ini, kita telah mempelajari bahwa Elements adalah protokol jaringan sumber terbuka yang dapat diimplementasikan sebagai sidechain ke blockchain lain, atau sebagai solusi blockchain mandiri.
 
@@ -1219,7 +1234,7 @@ Kita telah melihat bahwa kode sumber dan situs web untuk Elements (https://githu
 
 Langkah selanjutnya adalah menantang diri Anda dengan kuis kumulatif yang mencakup semua bagian sebelumnya, kemudian memulai perjalanan Elements Anda...semoga berhasil!
 
-# Kesimpulan
+# Bagian Akhir
 
 <partId>d5dbd616-e291-42bc-aae3-6c44599dbd06</partId>
 

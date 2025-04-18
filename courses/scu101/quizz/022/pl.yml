@@ -1,0 +1,12 @@
+question: Jaka jest zalecana praktyka podczas wkładania klucza USB do komputera?
+answer: Nie należy wkładać nieznanych lub podejrzanych kluczy USB.
+wrong_answers:
+  - Włóż dowolny klucz USB bez sprawdzania.
+  - Przed włożeniem klucza USB należy go zawsze sformatować.
+  - Włóż klucz USB, a następnie sprawdź, czy nie zawiera wirusów.
+explanation: |
+  Wkładanie nieznanych lub podejrzanych kluczy USB może narazić
+  na działanie złośliwych programów, które mogą zostać automatycznie uruchomione
+  po włożeniu. Sprawdzanie klucza USB będzie bezużyteczne po jego włożeniu
+  po jego włożeniu.
+reviewed: true

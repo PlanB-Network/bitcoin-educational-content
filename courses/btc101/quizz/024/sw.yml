@@ -1,0 +1,13 @@
+question: Je, ni hasara kuu ya fedha za fiat?
+answer: Thamani yao mara kwa mara inamomonyoka na mfumuko wa bei wa fedha.
+wrong_answers:
+  - Hazisafirishwi kwa urahisi.
+  - Thamani yao inathaminiwa kila wakati na mfumuko wa bei wa fedha.
+  - Hazigawanyiki.
+explanation: |
+  Hasara kuu ya sarafu za fiat, kama vile
+  dola na euro, ni kwamba thamani yao ni daima
+  kumomonyoka na mfumuko wa bei wa fedha. Hii ni kutokana na
+  kushuka kwa thamani kunakosababishwa na vyombo vinavyowadhibiti (mfalme,
+  benki kuu, mfalme, dikteta).
+reviewed: true

@@ -33,8 +33,9 @@ Non è necessario essere esperti di GitHub per revisionare i contenuti. Anche se
 
 Tuttavia, se non conosci Git e GitHub e vuoi saperne di più, puoi consultare il nostro articolo introduttivo su questi strumenti:
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 ## 1. Crea un account
+
 
 
 - Crea un account su [GitHub](https://github.com/) per iniziare a contribuire. Se vuoi una guida alla creazione del tuo account GitHub, puoi cliccare sul tutorial menzionato qui sopra.
@@ -143,6 +144,7 @@ NB. Si consiglia di effettuare la revisione nella finestra del codice, con il co
 - NON tradurre le parole statiche all'inizio del testo, che vengono utilizzate per descrivere il suo contenuto: "name", "description", "objectives".
 - Se nel testo trovi "Plan ₿ Network", lascialo in questa forma originale. Non tradurre la parola "plan" o la parola "network". Inoltre, NON utilizzare l'articolo "IL" quando presenti Plan ₿ Network, e consideralo come un marchio. Lo stesso vale per "B-CERT", "BIZ SCHOOL", "TECH SCHOOL", che dovranno mantenere questa forma originale.
 - Fai attenzione a punteggiature strane come `\*\*\`, che potrebbero indicare un errore nella visualizzazione del grassetto **. Controlla sempre il testo originale in inglese per vedere se è previsto un testo in grassetto. Puoi trovare ulteriori informazioni sul linguaggio markdown [qui](https://www.markdownguide.org/basic-syntax/).
+
 - Quando hai finito la tua revisione, puoi tornare alla issue iniziale aperta dal coordinatore, commentare con "Proofreading done" e inserire il link della tua PR.
 
 7. In attesa di revisione

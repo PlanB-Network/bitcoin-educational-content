@@ -1,0 +1,12 @@
+question: Je! ni njia gani ya kihistoria inayofuatwa na taasisi katika kuanzishwa kwa sarafu za fiat?
+answer: Viongozi huweka dhahabu katikati na kuanzisha sarafu mpya inayolingana na thamani ya dhahabu, ambayo inashushwa polepole.
+wrong_answers:
+  - Viongozi huanzisha sarafu mpya inayoungwa mkono na dhahabu, ambayo huongezeka polepole kwa thamani.
+  - Viongozi huanzisha sarafu mpya isiyo na thamani ya ndani, ambayo huongezeka polepole kwa thamani.
+  - Viongozi huanzisha sarafu mpya inayoungwa mkono na kikapu cha bidhaa, ambacho hutunzwa kuwa thabiti katika thamani.
+explanation: |
+  Kihistoria, viongozi wameweka dhahabu katikati na kuletwa
+  sarafu mpya inayolingana na thamani ya dhahabu. Hii mpya
+  fedha basi hatua kwa hatua devalued, mara nyingi chini ya kivuli
+  kuwa kwa maslahi ya wananchi.
+reviewed: true

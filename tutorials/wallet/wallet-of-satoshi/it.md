@@ -1,11 +1,11 @@
 ---
-name: Wallet of Satoshi (WoS)
+name: Wallet of Satoshi
 description: Il più semplice wallet (custodial) per iniziare
 ---
 ![cover](assets/cover.webp)
-_Questo tutorial stato scritto da_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
+_Questo tutorial è stato scritto da_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
-# Scaricare, configurare e usare Wallet of Satoshi
+## Scaricare, configurare e usare Wallet of Satoshi
 
 Wallet of Satoshi è un wallet lightning network, custodial, molto semplice da utilizzare.
 Per gli scopi del corso [BTC105 - Trovarsi Ora](https://planb.network/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5), è utilizzato per riscattare i voucher Lightning Network.
@@ -20,7 +20,7 @@ Wallet of Satoshi (WoS) è un prodotto custodial, che ha però una certa reputaz
 
 **ATTENZIONE⚠️: Si consiglia di leggere il tutorial nella sua completezza, prima di procedere**
 
-## Download di Wallet of Satoshi
+### Download di Wallet of Satoshi
 
 Andiamo sul playstore e scarichiamao WoS
 
@@ -34,13 +34,13 @@ Wallet of Satoshi si apre con la seguente schermata ed è necessario cliccare su
 
 ![image](assets/it/03.webp)
 
-## Registrazione di un account per WoS
+### Registrazione di un account per WoS
 
 A questo punto il wallet è già funzionante, ma per una maggiore sicurezza andiamo a impostare un login: servirà per recuperare i fondi in caso di guasto o perdita del dispositivo. Selezionare quindi il menu in alto a sinistra.
 
 ![image](assets/it/04.webp)
 
-Si apre tutta la fiestra dei menu, nella quale si deve esclusivamente impostare la valuta (Wallet of Satoshi di default presenta il dollaro USA come valuta di riferimento) ed il colore del tema (chiaro/scuro), a seconda dei gusti. Non utilizzare gli altri comandi.
+Si apre tutta la finestra dei menu, nella quale si deve esclusivamente impostare la valuta (Wallet of Satoshi di default presenta il dollaro USA come valuta di riferimento) ed il colore del tema (chiaro/scuro), a seconda dei gusti. Non utilizzare gli altri comandi.
 
 Essendo WoS uno strumento custodial, non possiamo fare il back up del wallet con la mnemonic phrase, però possiamo abilitare WoS per recuperare i nostri fondi, nel caso di smarrimento o inutilizzo del dispositivo mobile, cliccando su _Login/Register_
 
@@ -72,7 +72,7 @@ mentre nella sezione dei settings, la banda rossa di _Login/Register_ visualizza
 
 ![image](assets/it/13.webp)
 
-## Ricezione pagamenti
+### Ricezione pagamenti
 
 Per ricevere su WoS cliccare _Receive_ ed appaiono una serie di comandi.
 
@@ -86,7 +86,7 @@ Si può ricevere
 
 ![image](assets/it/15.webp)
 
-## Creazione invoice
+### Creazione invoice
 
 Cliccare su _Receive_ e scegliere il comando con il simbolo di Lightning Network
 
@@ -104,7 +104,7 @@ per poi farci pagare l'invoice. Il pagamento ricevuto compare così:
 
 ![image](assets/it/19.webp)
 
-## Incasso da POS
+### Incasso da POS
 
 Wallet of Satoshi ha di default un'interessante funzione, che lo rende particolarmente adatto per i commercianti: il POS. Vediamo come attivarla.
 
@@ -120,7 +120,7 @@ Con l'ultima release di WoS, prestare attenzione di selezionare il _Keypad_
 
 ![image](assets/it/22.webp)
 
-e quindi digitare l'importo sul tastierino, nell'esempio che segue pari a 18 centesimi / 118 sats. Aggiungere una descrizione per l'incasso, in questo caso «my second with POS». Si illumina un grande pulsante verde, ed è da cliccare
+e quindi digitare l'importo sul tastierino, nell'esempio che segue pari a 10 centesimi / 118 sats. Aggiungere una descrizione per l'incasso, in questo caso «my second with POS». Si illumina un grande pulsante verde, ed è da cliccare
 
 ![image](assets/it/23.webp)
 
@@ -132,7 +132,7 @@ Anche questo pagamento è incassato!
 
 ![image](assets/it/25.webp)
 
-## Invio di pagamenti
+### Invio di pagamenti
 
 La semplicità è un punto di forza della schermata principale di WoS. Per pagare una invoice, cliccare su _Send_
 
@@ -158,7 +158,7 @@ Dalla schermata princicpale, cliccando su _History_ (subito sotto il saldo) comp
 
 ![image](assets/it/31.webp)
 
-### Recupero dell’account di WoS
+#### Recupero dell’account di WoS
 
 Adesso, vedremo come fare per installare WoS su un nuovo dispositivo; ciò sarà utile anche nei casi di furto, smarrimento o impossibilità di far funzionare il cellulare su cui era stato precedentemente installato il Wallet. Una volta re-installato, si deve rifare la procedura di registrazione account appena spiegata, con un’unica variante: al termine della richiesta di login con la mail precedentemente impostata, WoS apparirà così:
 
@@ -166,7 +166,7 @@ Adesso, vedremo come fare per installare WoS su un nuovo dispositivo; ciò sarà
 
 Un messaggio ci avvisa che è stata mandata via email la procedura per riattivare l’account. Si deve aprire la propria casella di posta elettronica.
 
-**IMPORTANTE**: aprire la mail da PC o, comunque, da un dispositivo diverso da quelle su cui si sta per recuperare l’account di WoS. Nella inbox troviamo un messaggi che ci mostra un QR code da inquadrare
+**IMPORTANTE**: aprire la mail da PC o, comunque, da un dispositivo diverso da quello su cui si sta per recuperare l’account di WoS. Nella inbox troviamo un messaggi che ci mostra un QR code da inquadrare
 
 ![image](assets/it/34.webp)
 

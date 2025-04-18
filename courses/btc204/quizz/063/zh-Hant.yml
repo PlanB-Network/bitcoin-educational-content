@@ -1,0 +1,10 @@
+question: 選擇硬幣的 2 個隱私風險是什麼？
+answer: CIOH 與收件人的輸入/身份之間的聯繫。
+wrong_answers:
+  - IP Address 追蹤和活動關聯。
+  - 時間追蹤和 Address 重複使用。
+  - Address 重複使用以及外部觀察者的輸入 / 身分之間的連結。
+explanation: |
+  選擇硬幣時需要考慮兩個風險：付款收款人將您的部分身份與用作輸入的 UTXOs 連結起來的可能性，以及外部觀察者在所有用作輸入的 UTXOs 之間建立連結的能力 (CIOH)。
+  
+reviewed: false

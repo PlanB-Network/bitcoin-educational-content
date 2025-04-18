@@ -1,0 +1,9 @@
+question: Kulingana na Tocqueville, ni nini matokeo ya usawazishaji wa masharti?
+answer: Watu binafsi huwa dhaifu zaidi na kutengwa.
+wrong_answers:
+  - Watu binafsi huwa huru zaidi na huru.
+  - Watu binafsi wanakuwa matajiri na kufanikiwa zaidi.
+  - Kuna vurugu kidogo.
+explanation: |
+  Tocqueville anaona kwamba usawazishaji wa hali unaweza kusababisha watu kujiondoa ndani yao wenyewe, na kuwafanya wawe hatarini zaidi na kutengwa, kwani wanapoteza vifungo vya kijamii na usaidizi wa pamoja uliotolewa hapo awali na viwango vya jadi.
+reviewed: false

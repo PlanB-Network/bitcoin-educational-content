@@ -1,0 +1,13 @@
+question: Hot Wallet ni nini?
+answer: Bitcoin Wallet kwenye simu au kompyuta yako iliyounganishwa kwenye mtandao.
+wrong_answers:
+  - Wallet ambayo ni Hot ya kugusa.
+  - Wallet ambayo ni maarufu kati ya watumiaji wa Bitcoin.
+  - Wallet ambayo inapendekezwa kwa kuhifadhi kiasi kikubwa cha bitcoins.
+explanation: |
+  Hot Wallet ni neno linalotumiwa kuelezea Bitcoin Wallet
+  ambayo imehifadhiwa kwenye kifaa chenye ufikiaji wa mtandao, kama vile a
+  simu au kompyuta. Kwa njia hii, ni rahisi kutekeleza
+  shughuli, lakini pia ina maana kwamba Wallet ni
+  uwezekano wa kuathiriwa na vitisho vya mtandaoni.
+reviewed: true

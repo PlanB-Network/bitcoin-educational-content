@@ -1,0 +1,12 @@
+question: Kwa nini ni vigumu sana kununua nyumba leo kuliko miaka ya 1980?
+answer: Viwango vya riba vilivyokandamizwa hufanya deni kuvutia zaidi na mfumuko wa bei
+wrong_answers:
+  - Mfumuko wa bei na viwango vya kukodisha
+  - Kupanda kwa gharama ya maisha na ukuaji wa idadi ya watu
+  - Ukosefu wa mali na viwango vya riba vilivyokandamizwa na kufanya deni kuvutia zaidi
+explanation: |
+  Ingawa mfumuko wa bei unashusha thamani ya uwezo wetu wa kununua wa sarafu yetu, hivyo kuifanya
+  vigumu kuokoa, viwango vya riba vilivyopunguzwa vinafanya matumizi ya madeni
+  kuvutia zaidi. Wakati gharama ya mtaji ni nafuu sana, watu hukopa zaidi
+  uwezo wao, kuingiza mtaji zaidi katika mali, na kuongeza bei.
+reviewed: true

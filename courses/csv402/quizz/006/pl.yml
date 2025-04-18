@@ -1,0 +1,9 @@
+question: Gdzie w RGB znajduje się Commitment, gdy Single-Use Seal jest zamknięty?
+answer: Na wyjściu transakcji wydającej punkt wyjścia
+wrong_answers:
+  - Na wejściu transakcji wydającej punkt wyjścia
+  - W skrypcieSig transakcji wydającej punkt wyjścia
+  - Świadek transakcji wydający punkt wyjścia
+explanation: |
+  Commitment jest wstawiany do wyjścia transakcji, która wydaje punkt wyjścia definiujący Single-Use Seal.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Je, ni baadhi ya mazoea bora ambayo Bitcoiner mwenye hasira anaweza kujielimisha juu ya?
+answer: Kuchanganya sarafu na usimamizi wa UTXO
+wrong_answers:
+  - Jinsi ya kuamini mifumo ya kati
+  - Jinsi ya kushiriki habari za kibinafsi kwa usalama
+  - Jinsi ya kutumia kadi ya mkopo kununua Bitcoin mtandaoni
+explanation: |
+  Sura hiyo inataja kwamba Bitcoiner mwenye paranoid anaweza kujielimisha
+  kuhusu mbinu bora kama vile kuchanganya sarafu na usimamizi wa UTXO kama sehemu ya lengo lao
+  juu ya faragha na usalama.
+reviewed: false

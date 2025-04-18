@@ -158,7 +158,7 @@ Passordfrasen må ikke forveksles med PIN-koden. Den spiller en rolle i utlednin
 
 Passordfrasen er et veldig kraftig verktøy for å øke sikkerheten til bitcoinsene dine. Det er imidlertid veldig viktig å forstå hvordan det fungerer før du implementerer det, for å unngå å miste tilgangen til lommeboken din. Derfor anbefaler jeg deg å lese denne andre veiledningen hvis du ønsker å sette opp en passordfrase på din Ledger:
 
-https://planb.network/tutorials/wallet/hardware/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 I menyen "*PIN-lås*" kan du konfigurere og aktivere automatisk låsing av hovedboken etter en bestemt periode med inaktivitet.
 
@@ -359,3 +359,4 @@ Hvis du fant denne opplæringen nyttig, vil jeg sette pris på det hvis du kan l
 Jeg anbefaler også at du sjekker ut denne komplette veiledningen om Ledger Flex:
 
 https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+

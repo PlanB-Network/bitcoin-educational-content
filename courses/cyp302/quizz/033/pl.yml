@@ -1,0 +1,9 @@
+question: Jaka jest główna funkcja seed w kontekście łańcuchów pseudolosowych?
+answer: Aby służyć jako punkt wyjścia do wygenerowania dłuższego łańcucha
+wrong_answers:
+  - Aby zdefiniować stałą długość łańcucha pseudolosowego
+  - Aby zweryfikować integralność łańcucha pseudolosowego
+  - Aby dodać jednolity rozkład do wartości łańcucha
+explanation: |
+  seed jest krótszym łańcuchem używanym jako punkt początkowy przez algorytm rozszerzający do generate dłuższego łańcucha pseudolosowego.
+reviewed: false

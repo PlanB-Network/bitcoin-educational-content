@@ -1,0 +1,12 @@
+question: Je, cypherpunks ni akina nani?
+answer: Kundi la watu walioanza kutilia shaka kwa kina jukumu la faragha na uhuru katika enzi ya kidijitali.
+wrong_answers:
+  - Kundi la wadukuzi walioiba taarifa kutoka kwa serikali.
+  - Kundi la watu waliovumbua Bitcoin na fedha zingine za siri.
+  - Kundi la watu waliopinga matumizi ya teknolojia.
+explanation: |
+  Cypherpunks ni kundi la watu walioamini
+  kwamba cryptography inaweza kutumika kama chombo cha kulinda
+  haki za mtu binafsi dhidi ya kuingiliwa kwa serikali
+  na mashirika makubwa.
+reviewed: true

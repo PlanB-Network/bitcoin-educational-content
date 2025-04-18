@@ -1,0 +1,10 @@
+question: Jaka jest rola Hot LN Wallet dla Hodlera, który chce pójść dalej?
+answer: Za wydanie Bitcoin.
+wrong_answers:
+  - Za zakup większej ilości Bitcoin.
+  - Do przechowywania wszystkich Bitcoin.
+  - Do obrotu Bitcoin.
+explanation: |
+  Hodler, który chce pójść dalej, może użyć Hot LN Wallet do wydania niektórych Bitcoin
+  trochę Bitcoin, oprócz utrzymywania go przez długi czas.
+reviewed: false

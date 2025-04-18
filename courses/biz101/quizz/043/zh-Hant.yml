@@ -1,0 +1,9 @@
+question: Bitcoin 能讓您在沒有中介的情況下做什麼？
+answer: Exchange 在網際網路上的價值
+wrong_answers:
+  - 建立集中式應用程式
+  - 取得銀行貸款
+  - 儲存個人資料
+explanation: |
+  Bitcoin 可透過其點對點通訊協定，在網際網路上無中介地實現價值的 Exchange。
+reviewed: false

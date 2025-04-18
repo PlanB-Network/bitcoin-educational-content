@@ -1,0 +1,9 @@
+question: 與 Bitcoin Blockchain 上的傳統交易相比，Lightning Network 允許什麼？
+answer: 快速交易，費用最低
+wrong_answers:
+  - 匿名且無法追蹤的交易
+  - 無量限制的大量交易
+  - 不同區塊鏈之間的交易
+explanation: |
+  Lightning Network 可透過 off-chain 付款管道進行快速且低成本的交易，這與 Blockchain 上的一般交易不同。
+reviewed: false

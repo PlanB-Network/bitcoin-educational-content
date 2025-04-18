@@ -1,0 +1,9 @@
+question: W którym dniu została utworzona lista mailingowa Bitcoin-development?
+answer: 12 czerwca 2011 r
+wrong_answers:
+  - 13 stycznia 2011 r
+  - 7 marca 2011 r
+  - 19 września 2011 r
+explanation: |
+  Została ona stworzona przez dewelopera Jeffa Garzika i umożliwiała formalne dyskusje na temat zmian wprowadzanych do Bitcoin.
+reviewed: false

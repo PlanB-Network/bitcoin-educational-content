@@ -1,0 +1,9 @@
+question: Je, ni hoja gani kuu ya Bastiat dhidi ya wazo la mkopo wa bure?
+answer: Majibu mengine yote
+wrong_answers:
+  - Inapendelea uboreshaji wa benki kwa gharama ya watu binafsi
+  - Inahimiza tabia ya kutowajibika na kuchukua hatari kupita kiasi
+  - Hairuhusu ongezeko endelevu la uwezo wa ununuzi
+explanation: |
+  Bastiat anakanusha wazo la mkopo wa bure kwa kuangazia kwamba husababisha tabia ya kifedha kutowajibika, kuongezeka kwa hatari, na kutokuwa na uwezo wa kuongeza nguvu ya ununuzi.
+reviewed: false

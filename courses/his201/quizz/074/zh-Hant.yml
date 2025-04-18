@@ -1,0 +1,9 @@
+question: 來自天普市的電信工程師在 2014 年 3 月被《新聞週刊》記者誤認為 Satoshi Nakamoto，他的名字是什麼？
+answer: Dorian
+wrong_answers:
+  - Prentice
+  - Satoshi
+  - Patoshi
+explanation: |
+  他的全名是 Dorian Prentice Satoshi Nakamoto。他是日本人。請參閱 [Newsweek 文章](https: //www.newsweek.com/2014/03/14/face-behind-Bitcoin-247957.html)。
+reviewed: false

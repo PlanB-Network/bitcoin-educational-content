@@ -1,0 +1,10 @@
+question: Ni asilimia ngapi ya jumla ya kiasi cha malipo ya Bitcoin imetumika kwa shughuli haramu?
+answer: Chini ya 1%
+wrong_answers:
+  - 2-4%
+  - Zaidi ya 5%
+  - Haijulikani
+explanation: |
+  Kulingana na ripoti ya Chainalysis mnamo 2020, shughuli haramu pekee
+  inachukua takriban 0.34% ya shughuli zote za Bitcoin.
+reviewed: true

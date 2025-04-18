@@ -20,41 +20,24 @@ Hier werden wir die gemeinsamen Trends und Muster in den Episoden der Hyperinfla
 
 <partId>6fe4d15d-f6e6-54be-9e04-0a75ac98df8b</partId>
 
-## Einführung
+## Kursübersicht
 
 <chapterId>9d1aba8d-0485-5020-9863-5de37e6db8e0</chapterId>
 
-Dieses Programm zielt darauf ab, ein tiefes Verständnis für das Aufkommen von Hyperinflationen in einer von Fiat-Währungen dominierten Welt zu vermitteln und ihre erheblichen Auswirkungen zu untersuchen. Die Teilnehmer werden detailliert die Zyklen der Hyperinflation untersuchen, indem sie die Ursachen, Auslöser und historischen sowie zeitgenössischen Beispiele analysieren. Sie werden auch die greifbaren Auswirkungen von Hyperinflationen auf die Wirtschaft und das tägliche Leben untersuchen, indem sie die Auswirkungen auf den Wert der Währung, die Kaufkraft und die individuelle und kollektive Ersparnis untersuchen.
+Willkommen im Kurs ECO204!
 
-Hier werden wir die gemeinsamen Trends und Muster in den Episoden der Hyperinflation im Laufe der Geschichte beleuchten und gleichzeitig effektive und konkrete Strategien zum Schutz vor Hyperinflationen in Zeiten wirtschaftlicher Instabilität bereitstellen. Die Teilnehmer haben die Möglichkeit, verschiedene Investitionsmöglichkeiten und Mechanismen zur finanziellen Absicherung zu erkunden und dabei praktische Werkzeuge und wesentliche Kenntnisse zu erwerben, um in einem instabilen wirtschaftlichen Klima souverän zu navigieren.
+Ziel dieses Kurses ist es, Ihnen ein Verständnis für die tieferliegenden Ursachen, Mechanismen und Folgen von Hyperinflationen im Kontext eines Fiat-Währungssystems zu vermitteln. Anhand konkreter Beispiele und historischer Analysen lernen Sie, wiederkehrende Muster zu erkennen, die Hyperinflationsphasen vorausgehen, und geeignete Maßnahmen zum Schutz davor zu identifizieren.
 
-### Lehrplan
+**Abschnitt 2: Was ist Inflation?**  
+Bevor wir in das Kernthema einsteigen, kehren wir zu den Grundlagen zurück: Was ist Inflation? In diesem Abschnitt werden ihre monetären Ursprünge, die verschiedenen Arten von Inflation und deren Einbettung in breitere wirtschaftliche Zusammenhänge vorgestellt. Dies ist ein unverzichtbarer Schritt, um zu verstehen, wie gewöhnliche Inflation in Hyperinflation übergehen kann.
 
-Abschnitt 1 - Einführung
+**Abschnitt 3: Was ist Hyperinflation?**  
+In diesem Abschnitt untersuchen Sie die genauen Definitionen von Hyperinflation sowie mehrere bedeutende historische Episoden, darunter das Weimarer Deutschland und Simbabwe. Wir analysieren Gemeinsamkeiten, Unterschiede und moderne Parallelen. Sie entdecken auch weniger bekannte Fälle, wie wiederholte Währungsumstellungen in Lateinamerika, sowie Auswege, die einige Länder gefunden haben.
 
-- 1.1 - Kurseinführung von Rogzy & David
+**Abschnitt 4: Wie sind wir hierher gekommen?**  
+In diesem Teil geht es um die strukturellen Mechanismen, die Hyperinflation ermöglichen, insbesondere durch die Entwicklung der „zweiten Geldschicht“ und die Rolle der Zentralbanken. Ergänzende Ressourcen und weiterführende Literaturvorschläge werden bereitgestellt.
 
-Abschnitt 2 - Was ist Inflation?
-
-- 2.1 - Ein monetäres Phänomen
-- 2.2 - Die Arten von Inflation
-- 2.3 - Die Deflation
-
-Abschnitt 3 - Was ist Hyperinflation?
-
-- 3.1 - Definitionen
-- 3.2 - Ähnlichkeiten zwischen Weimar und Simbabwe
-- 3.3 - Unterschiede und zeitgenössische Parallelen zwischen Weimar und Simbabwe
-- 3.4 - Währungsumstellungen in Lateinamerika
-- 3.5 - Wie man aus der Hyperinflation herauskommt
-- 3.6 - Vorstellung der Sammlung von Hyperinflationsbanknoten
-
-Abschnitt 4 - Wie sind wir hierher gekommen?
-
-- 4.1 - Das Aufkommen der zweiten Geldschicht und der Zentralbanken
-- 4.2 - Bücher und Ressourcen
-
-Viel Glück!
+Wiederholt sich die Geldgeschichte gerade vor unseren Augen? Urteilen Sie selbst in den folgenden Kapiteln!
 
 # Was ist Inflation?
 

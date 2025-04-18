@@ -1,0 +1,9 @@
+question: Jak wybierany jest wykładnik e w kryptosystemie RSA?
+answer: Musi to być liczba całkowita większa niż 2, współliniowa z φ(N)
+wrong_answers:
+  - Musi to być liczba pierwsza mniejsza niż N
+  - Jest on wybierany losowo bez ograniczeń
+  - Musi on być równy φ(N)
+explanation: |
+  W RSA wykładnik e jest wybierany w taki sposób, aby był większy niż 2 i współliniowy z φ(N), co zapewnia bezpieczeństwo operacji.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Je, ni mlinganisho gani unaotumika katika kozi hii kueleza jinsi unavyoweza kupokea bitcoins bila kumruhusu mtumaji kuiba pesa zako?
+answer: Sanduku la barua.
+wrong_answers:
+  - Akaunti ya benki.
+  - Salama.
+  - Nyumba.
+explanation: |
+  Ulinganisho unaotumika kueleza jinsi unavyoweza kupokea Bitcoins
+  bila kumruhusu mtumaji kuiba pesa zako ni a
+  sanduku la barua. Watu huweka pesa ndani yake, lakini wewe ndiye pekee
+  anayeweza kuifungua.
+reviewed: true

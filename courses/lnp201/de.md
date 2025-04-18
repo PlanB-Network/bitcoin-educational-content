@@ -4,8 +4,8 @@ goal: Entdecken Sie das Lightning-Netzwerk aus technischer Perspektive
 objectives:
   - Verstehen Sie die Funktionsweise der Kanäle des Netzwerks.
   - Machen Sie sich mit den Begriffen HTLC, LNURL und UTXO vertraut.
-  - Assimilieren Sie das Management von Liquidität und die Gebühren des LNN.
-  - Erkennen Sie das Lightning-Netzwerk als ein Netzwerk.
+  - Lernen Sie, wie man Liquidität verwaltet und welche Gebühren im Lightning-Netzwerk anfallen.
+  - Erkennen Sie das Lightning-Netzwerk als eigenständiges Netzwerk .
   - Verstehen Sie die theoretischen Anwendungen des Lightning-Netzwerks.
 ---
 
@@ -21,6 +21,33 @@ Viel Spaß bei Ihrer Entdeckung!
 
 +++
 
+# Einführung
+<partId>9da7290a-3895-49a2-93ea-2a6272ca4af4</partId>
+
+## Kursübersicht
+<chapterId>f2e71062-5121-4114-a7f8-27df69884ce8</chapterId>
+
+Willkommen im Kurs LNP201!
+
+Dieser Kurs soll Ihnen ein tiefgehendes technisches Verständnis des Lightning Network vermitteln, einem Overlay-Netzwerk, das entwickelt wurde, um Bitcoin-Transaktionen schnell und oft kostengünstig abzuwickeln. Sie werden nach und nach die grundlegenden Konzepte entdecken, die dieses System steuern, von der Eröffnung von Zahlungskanälen bis hin zu Routing-Techniken und Liquiditätsmanagement.
+
+**Abschnitt 1: Die Grundlagen**  
+Wir beginnen mit einer allgemeinen Einführung in das Lightning Network, indem wir die grundlegenden Konzepte von Bitcoin, seinen Adressen, UTXOs und der Funktionsweise von Transaktionen behandeln. Dieses Basiswissen ist unerlässlich, um zu verstehen, wie das Lightning Network auf den Mechanismen der Bitcoin-Blockchain aufbaut, um sicher zu funktionieren.
+
+**Abschnitt 2: Eröffnung und Schließung von Kanälen**  
+In diesem Abschnitt werden wir den Prozess der Kanaleröffnung untersuchen, der das Fundament des Lightning Network bildet. Sie lernen, wie Commitment-Transaktionen erstellt werden, welche Rolle Widerrufsschlüssel für die Sicherheit spielen und wie Kanäle auf kooperative oder einseitige Weise geschlossen werden können. Jeder Schritt wird präzise und technisch erklärt, damit Sie alle Feinheiten verstehen können.
+
+**Abschnitt 3: Ein Liquiditätsnetzwerk**  
+Das Lightning Network beschränkt sich nicht nur auf einzelne Kanäle; es ist ein echtes Zahlungsnetzwerk. Wir werden sehen, wie Transaktionen durch Zwischenknoten mithilfe von HTLCs weitergeleitet werden können. Dieser Teil führt Sie auch in die Herausforderungen der eingehenden und ausgehenden Liquidität ein.
+
+**Abschnitt 4: Werkzeuge des Lightning Network**  
+Dieser Abschnitt stellt die praktischen Werkzeuge des Lightning Network vor, wie *Invoices*, *LNURL* und *Keysend*. Sie werden auch lernen, wie Sie die Liquidität Ihrer Kanäle verwalten können, ein wichtiger Aspekt, um die Zahlungsflüssigkeit zu gewährleisten und die Effizienz Ihrer Transaktionen im Lightning Network zu maximieren.
+
+**Abschnitt 5: Gehen Sie weiter**  
+Abschließend fassen wir die behandelten Konzepte zusammen und eröffnen den Weg zu fortgeschritteneren Themen für diejenigen, die ihr Wissen über das Lightning Network weiter vertiefen möchten.
+
+Bereit, die technischen Mechanismen des Lightning Network zu entdecken? Auf geht’s!
+
 # Die Grundlagen
 
 <partId>32647d62-102b-509f-a3ba-ad1d6a4345f1</partId>
@@ -28,12 +55,10 @@ Viel Spaß bei Ihrer Entdeckung!
 ## Das Lightning-Netzwerk verstehen
 
 <chapterId>df6230ae-ff35-56ea-8651-8e65580730a8</chapterId>
-![video en](https://youtu.be/QDQ8NG0l3hk)
+:::video id=ba99951f-81d2-418f-b5e7-4b8c9f8b8cc8:::
 
 
-Willkommen beim LNP201-Kurs, der darauf abzielt, die technische Funktionsweise des Lightning-Netzwerks zu erklären.
-
-Das Lightning-Netzwerk ist ein Netzwerk von Zahlungskanälen, das auf dem Bitcoin-Protokoll aufbaut und darauf abzielt, schnelle und kostengünstige Transaktionen zu ermöglichen. Es erlaubt die Erstellung von Zahlungskanälen zwischen Teilnehmern, innerhalb derer Transaktionen fast augenblicklich und mit minimalen Gebühren durchgeführt werden können, ohne jede Transaktion einzeln auf der Blockchain aufzeichnen zu müssen. Somit sucht das Lightning-Netzwerk die Skalierbarkeit von Bitcoin zu verbessern und es für Zahlungen von geringem Wert nutzbar zu machen.
+Das Lightning-Netzwerk ist ein Netzwerk von Zahlungskanälen, das auf dem Bitcoin-Protokoll aufbaut und darauf abzielt, schnelle und kostengünstige Transaktionen zu ermöglichen. Es erlaubt die Erstellung von Zahlungskanälen zwischen Teilnehmern, innerhalb derer Transaktionen fast augenblicklich und mit minimalen Gebühren durchgeführt werden können, ohne jede Transaktion einzeln auf der Blockchain aufzeichnen zu müssen. Somit versucht das Lightning-Netzwerk, die Skalierbarkeit von Bitcoin zu verbessern und es für Zahlungen mit geringem Wert nutzbar zu machen.
 
 Bevor wir den "Netzwerk"-Aspekt erkunden, ist es wichtig, das Konzept eines **Zahlungskanals** bei Lightning zu verstehen, wie er funktioniert und seine Besonderheiten. Dies ist das Thema dieses ersten Kapitels.
 
@@ -47,7 +72,8 @@ In unserem Beispiel hat Alice 100.000 Satoshis auf ihrer Seite des Kanals und Bo
 
 **Aber was ist ein Satoshi?**
 
-Der **Satoshi** (oder "Sat") ist eine Recheneinheit bei Bitcoin. Ähnlich wie ein Cent für den Euro, ist ein Satoshi einfach ein Bruchteil von Bitcoin. Ein Satoshi entspricht **0,00000001 Bitcoin**, oder einem hundertmillionsten eines Bitcoin. Die Verwendung des Satoshi wird zunehmend praktisch, da der Wert von Bitcoin steigt.
+Der Satoshi (oder „Sat“) ist die kleinste Recheneinheit bei Bitcoin. Ähnlich wie der Cent beim Euro ist ein Satoshi einfach ein Bruchteil von Bitcoin. Ein Satoshi entspricht 0,00000001 Bitcoin, also einem Hundertmillionstel eines Bitcoin.
+ Die Verwendung des Satoshi wird zunehmend praktisch, da der Wert von Bitcoin steigt.
 
 ### Die Zuweisung von Geldern im Kanal
 
@@ -85,13 +111,13 @@ Dies ist das Ende dieses ersten Kapitels, in dem wir die Grundlagen für das Lig
 ## Bitcoin, Adressen, UTXO und Transaktionen
 
 <chapterId>0cfb7e6b-96f0-508b-9210-90bc1e28649d</chapterId>
-![video en](https://youtu.be/U9l5IVriCss)
+:::video id=75323eef-ea03-45ac-9a6e-46d73ca255de:::
 
 Dieses Kapitel ist ein wenig besonders, da es nicht direkt dem Lightning-Netzwerk gewidmet ist, sondern Bitcoin. Tatsächlich ist das Lightning-Netzwerk eine Schicht auf Bitcoin. Es ist daher wesentlich, bestimmte grundlegende Konzepte von Bitcoin zu verstehen, um die Funktionsweise von Lightning in den nachfolgenden Kapiteln richtig zu erfassen. In diesem Kapitel werden wir die Grundlagen von Bitcoin-Empfangsadressen, UTXOs sowie die Funktionsweise von Bitcoin-Transaktionen überprüfen.
 
 ### Bitcoin-Adressen, Private Schlüssel und Öffentliche Schlüssel
 
-Eine Bitcoin-Adresse ist eine Reihe von Zeichen, die von einem **öffentlichen Schlüssel** abgeleitet wird, der wiederum aus einem **privaten Schlüssel** berechnet wird. Wie Sie sicherlich wissen, wird sie verwendet, um Bitcoins zu sperren, was dem Empfangen in unserer Wallet entspricht.
+Eine Bitcoin-Adresse ist eine Zeichenfolge, die aus einem öffentlichen Schlüssel abgeleitet wird, welcher wiederum aus einem privaten Schlüssel berechnet wird. Wie Sie sicherlich wissen, dient sie dazu, Bitcoin zu empfangen – technisch gesprochen: um Bitcoin zu sperren.
 
 Der private Schlüssel ist ein geheimes Element, das **niemals geteilt werden sollte**, während der öffentliche Schlüssel und die Adresse ohne Sicherheitsrisiko geteilt werden können (ihre Offenlegung stellt nur ein Risiko für Ihre Privatsphäre dar). Hier ist eine gängige Darstellung, die wir während dieser Schulung übernehmen werden:
 
@@ -150,7 +176,7 @@ Dieses Kapitel über Bitcoin hat es uns ermöglicht, einige wesentliche Begriffe
 ## Kanaleröffnung
 
 <chapterId>96243eb0-f6b5-5b68-af1f-fffa0cc16bfe</chapterId>
-![video en](https://youtu.be/Ty80WuN5X-g)
+:::video id=6098fee1-735e-4d8d-9f57-0faf5fef6d76:::
 
 
 In diesem Kapitel werden wir genauer sehen, wie man einen Zahlungskanal im Lightning-Netzwerk öffnet und den Zusammenhang zwischen dieser Operation und dem zugrundeliegenden Bitcoin-System verstehen.
@@ -213,7 +239,7 @@ Im nächsten Kapitel werden wir die technische Funktionsweise einer Transaktion 
 ## Commitment-Transaktion
 
 <chapterId>7d3fd135-129d-5c5a-b306-d5f2f1e63340</chapterId>
-![video en](https://youtu.be/dzPMGiR_JSE)
+:::video id=c17454f3-14c5-47a0-8c9c-42ee12932bd3:::
 
 
 In diesem Kapitel werden wir die technische Funktionsweise einer Transaktion innerhalb eines Kanals im Lightning-Netzwerk entdecken, das heißt, wenn Gelder von einer Seite des Kanals zur anderen bewegt werden.
@@ -269,12 +295,12 @@ Allerdings hat dieses System einen potenziellen Fehler, den wir im nächsten Kap
 ## Widerrufsschlüssel
 
 <chapterId>f2f61e5b-badb-5947-9a81-7aa530b44e59</chapterId>
-![video en](https://youtu.be/veCs39uVFUk)
+:::video id=1d850f23-eff1-4725-b284-ce12456a2c26:::
 In diesem Kapitel werden wir tiefer in die Funktionsweise von Transaktionen im Lightning-Netzwerk eintauchen, indem wir die Mechanismen diskutieren, die zum Schutz vor Betrug eingerichtet sind, um sicherzustellen, dass jede Partei die Regeln innerhalb eines Kanals einhält.
 
 ### Erinnerung: Commitment-Transaktionen
 
-Wie zuvor gesehen, basieren Transaktionen im Lightning auf unveröffentlichten **Commitment-Transaktionen**. Diese Transaktionen spiegeln die aktuelle Verteilung der Gelder im Kanal wider. Wenn eine neue Lightning-Transaktion gemacht wird, wird eine neue Commitment-Transaktion erstellt und von beiden Parteien unterschrieben, um den neuen Zustand des Kanals widerzuspiegeln.
+Wie zuvor gesehen, basieren Transaktionen im Lightning-Netzwerk auf unveröffentlichten Commitment-Transaktionen. Diese zeigen die aktuelle Verteilung der Gelder im Kanal. Wird eine neue Lightning-Transaktion durchgeführt, entsteht eine neue Commitment-Transaktion, die von beiden Parteien signiert wird, um den neuen Zustand des Kanals widerzuspiegeln.
 
 Nehmen wir ein einfaches Beispiel:
 
@@ -345,7 +371,7 @@ Zu diesem Zeitpunkt im Training wissen Sie nun, wie Lightning-Kanäle geöffnet 
 ## Kanalschließung
 
 <chapterId>29a72223-2249-5400-96f0-3756b1629bc2</chapterId>
-![video en](https://youtu.be/zmAa2fj_V7w)
+:::video id=4d8ad4e6-32ff-46d3-bd17-343929aa863b:::
 
 
 In diesem Kapitel werden wir das **Schließen eines Kanals** im Lightning-Netzwerk besprechen, was durch eine Bitcoin-Transaktion erfolgt, genau wie das Öffnen eines Kanals. Nachdem wir gesehen haben, wie Transaktionen innerhalb eines Kanals funktionieren, ist es nun an der Zeit zu sehen, wie man einen Kanal schließt und die Mittel auf der Bitcoin-Blockchain wiederherstellt.
@@ -408,8 +434,9 @@ Schließlich tritt eine Schließung mit **Betrug** auf, wenn eine der Parteien v
 
 ![LNP201](assets/en/35.webp)
 
-Bob, um diesen Betrug zu verhindern, überwacht die Bitcoin-Blockchain und ihren Mempool, um sicherzustellen, dass Alice keine alte Transaktion veröffentlicht. Wenn Bob einen Betrugsversuch entdeckt, kann er den **Revokationsschlüssel** verwenden, um Alices Mittel zurückzuholen und sie zu bestrafen, indem er die gesamten Mittel des Kanals nimmt. Da Alice durch die Zeitbeschränkung auf ihrem Ausgang blockiert ist, hat Bob Zeit, sie ohne Zeitbeschränkung auf seiner Seite zu verbringen, um die gesamte Summe auf eine Adresse zu übertragen, die er besitzt.
+Bob überwacht die Bitcoin-Blockchain und den Mempool, um sicherzustellen, dass Alice keine alte Transaktion veröffentlicht und somit keinen Betrug versucht. Entdeckt Bob einen solchen Betrugsversuch, kann er den Revokationsschlüssel verwenden, um Alices Mittel zurückzuholen und sie zu bestrafen, indem er den gesamten Betrag des Kanals auf sich überträgt.
 
+Da Alice durch eine Zeitbeschränkung auf ihrem Ausgang blockiert ist, hat Bob genug Zeit, um – ohne zeitliche Einschränkung – die gesamten Mittel auf eine Adresse zu übertragen, die er kontrolliert.
 ![LNP201](assets/en/36.webp)
 
 Offensichtlich kann der Betrug potenziell erfolgreich sein, wenn Bob nicht innerhalb der Zeit handelt, die durch die Zeitbeschränkung auf Alices Ausgang vorgegeben ist. In diesem Fall wird Alices Ausgang entsperrt, was ihr erlaubt, ihn zu verbrauchen, um einen neuen Ausgang zu einer Adresse zu erstellen, die sie kontrolliert.
@@ -430,7 +457,7 @@ Es gibt drei Wege, einen Kanal zu schließen:
 ## Lightning-Netzwerk
 
 <chapterId>45a7252c-fa4f-554b-b8bb-47449532918e</chapterId>
-![video en](https://youtu.be/44oBdNdXtEQ)
+:::video id=38419c23-5592-4573-b0a7-84824a5bfb77:::
 
 
 In diesem Kapitel werden wir erkunden, wie Zahlungen im Lightning-Netzwerk einen Empfänger erreichen können, auch wenn sie nicht direkt durch einen Zahlungskanal verbunden sind. Lightning ist tatsächlich ein **Netzwerk von Zahlungskanälen**, das es ermöglicht, Gelder über die Kanäle anderer Teilnehmer an einen entfernten Knoten zu senden. Wir werden entdecken, wie Zahlungen durch das Netzwerk geleitet werden, wie Liquidität zwischen Kanälen fließt und wie Transaktionsgebühren berechnet werden.
@@ -543,7 +570,7 @@ In diesem Kapitel haben wir das Routing von Zahlungen im Lightning-Netzwerk erku
 ## HTLC – Hashed Time Locked Contract
 
 <chapterId>4369b85a-1365-55d8-99e1-509088210116</chapterId>
-![video en](https://youtu.be/jI4nM297aHA)
+:::video id=6f204b92-55a5-4939-9440-7c5b96a297bf:::
 
 
 In diesem Kapitel werden wir entdecken, wie Lightning Zahlungen durch Zwischenknoten ermöglicht, ohne dass diesen vertraut werden muss, dank **HTLC** (_Hashed Time-Locked Contracts_). Diese Smart Contracts stellen sicher, dass jeder Zwischenknoten die Gelder aus seinem Kanal nur dann erhält, wenn er die Zahlung an den endgültigen Empfänger weiterleitet, andernfalls wird die Zahlung nicht validiert.
@@ -661,14 +688,16 @@ Im nächsten Kapitel werden wir entdecken, wie ein Knoten, der eine Lightning-Tr
 ## Ihren Weg finden
 
 <chapterId>7e2ae959-c2a1-512e-b5d6-8fd962e819da</chapterId>
-![video en](https://youtu.be/CqetCElRjUQ)
+:::video id=e5baa834-111d-46f5-a28b-3538bed2bbb0:::
 
 
 In den vorherigen Kapiteln haben wir gesehen, wie man die Kanäle anderer Knoten nutzen kann, um Zahlungen zu routen und einen Knoten zu erreichen, ohne direkt über einen Kanal mit ihm verbunden zu sein. Wir haben auch besprochen, wie man die Sicherheit der Übertragung ohne Vertrauen in die Zwischenknoten gewährleistet. In diesem Kapitel werden wir uns darauf konzentrieren, die bestmögliche Route zu finden, um einen Zielknoten zu erreichen.
 
 ### Das Problem des Routings im Lightning
 
-Wie wir gesehen haben, ist es im Lightning das zahlungssendende Knoten, das die komplette Route zum Empfänger berechnen muss, weil wir ein Zwiebel-Routing-System verwenden. Die Zwischenknoten kennen weder den Ausgangspunkt noch das endgültige Ziel. Sie wissen nur, woher die Zahlung kommt und an welchen Knoten sie als nächstes übertragen werden muss. Das bedeutet, dass das sendende Knoten eine dynamische lokale Topologie des Netzwerks aufrechterhalten muss, mit den vorhandenen Lightning-Knoten und den Kanälen zwischen jedem, unter Berücksichtigung von Öffnungen, Schließungen und Statusaktualisierungen.
+Wie wir gesehen haben, ist es im Lightning-Netzwerk der zahlungssendende Knoten, der die komplette Route zum Empfänger berechnen muss – denn es wird ein Onion-Routing-System verwendet. Die Zwischenknoten kennen weder den Ursprung noch das endgültige Ziel der Zahlung. Sie wissen nur, woher die Zahlung kommt und an welchen Knoten sie als Nächstes weitergeleitet werden muss.
+
+Das bedeutet, dass der sendende Knoten eine dynamische lokale Topologie des Netzwerks aufrechterhalten muss – mit allen bekannten Lightning-Knoten und den Kanälen dazwischen, unter Berücksichtigung von Öffnungen, Schließungen und Statusaktualisierungen.
 
 ![LNP201](assets/en/61.webp)
 Selbst mit dieser Topologie des Lightning-Netzwerks gibt es wesentliche Informationen für das Routing, die dem sendenden Knoten nicht zugänglich sind, nämlich die genaue Verteilung der Liquidität in den Kanälen zu einem bestimmten Zeitpunkt. Tatsächlich zeigt jeder Kanal nur seine **gesamte Kapazität** an, aber die interne Verteilung der Mittel ist nur den beiden teilnehmenden Knoten bekannt. Dies stellt Herausforderungen für ein effizientes Routing dar, da der Erfolg der Zahlung insbesondere davon abhängt, ob ihr Betrag geringer ist als die niedrigste Liquidität auf der gewählten Route. Die Liquiditäten sind jedoch nicht alle für das sendende Knoten sichtbar.
@@ -748,7 +777,7 @@ Im folgenden Kapitel werden wir speziell die Funktionsweise von Rechnungen studi
 ## Rechnung, LNURL und Keysend
 
 <chapterId>e34c7ecd-2327-52e3-b61e-c837d9e5e8b0</chapterId>
-![video en](https://youtu.be/XANzf1Qqp9I)
+:::video id=309c3412-506e-4189-ad46-5e5088c55008:::
 In diesem Kapitel werden wir uns genauer mit der Funktionsweise von Lightning **Rechnungen** befassen, also Zahlungsanforderungen, die vom Empfängerknoten an den Senderknoten gesendet werden. Ziel ist es zu verstehen, wie man auf Lightning bezahlt und Zahlungen empfängt. Wir werden auch 2 Alternativen zu klassischen Rechnungen besprechen: LNURL und Keysend.
 ![LNP201](assets/en/68.webp)
 
@@ -856,7 +885,7 @@ Im folgenden Kapitel werden wir sehen, wie ein Knotenbetreiber die Liquidität i
 ## Ihre Liquidität verwalten
 
 <chapterId>cc76d0c4-d958-57f5-84bf-177e21393f48</chapterId>
-![video en](https://youtu.be/MIbej28La7Y)
+:::video id=96096aef-e4ce-4c44-a022-57e27082232a:::
 
 
 In diesem Kapitel werden wir Strategien zur effektiven Verwaltung der Liquidität im Lightning-Netzwerk erkunden. Die Verwaltung der Liquidität variiert je nach Benutzertyp und Kontext. Wir werden uns die Hauptprinzipien und bestehenden Techniken ansehen, um besser zu verstehen, wie man diese Verwaltung optimieren kann.
@@ -923,10 +952,10 @@ Im nächsten Kapitel schlage ich vor, die wichtigsten Konzepte dieser Schulung z
 
 <partId>6bbf107d-a224-5916-9f0c-2b4d30dd0b17</partId>
 
-## Schlussfolgerung der Schulung
+## Zusammenfassung der Schulung
 
 <chapterId>a65a571c-561b-5e1c-87bf-494644653c22</chapterId>
-![video en](https://youtu.be/coaskEGRjiU)
+:::video id=5f4f4344-ef27-4765-8f09-8262e6833bde:::
 
 In diesem abschließenden Kapitel, das das Ende des LNP201-Trainings markiert, schlage ich vor, die wichtigen Konzepte, die wir gemeinsam behandelt haben, noch einmal zu besuchen.
 Das Ziel dieses Trainings war es, Ihnen ein umfassendes und technisches Verständnis des Lightning-Netzwerks zu vermitteln. Wir haben entdeckt, wie das Lightning-Netzwerk auf der Bitcoin-Blockchain basiert, um Off-Chain-Transaktionen durchzuführen, während es die grundlegenden Eigenschaften von Bitcoin beibehält, insbesondere die Abwesenheit der Notwendigkeit, anderen Knoten zu vertrauen.
@@ -976,7 +1005,7 @@ Wir haben gesehen, dass das Liquiditätsmanagement im Lightning eine Herausforde
 
 ![LNP201](assets/en/84.webp)
 
-# Fazit
+# Abschließender Abschnitt
 
 <partId>b8715c1c-7ae2-49b7-94c7-35bf85346ad3</partId>
 

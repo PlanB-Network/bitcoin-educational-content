@@ -1,0 +1,9 @@
+question: Jaka jest rola zasady Kerckhoffa w kryptografii?
+answer: Aby zapewnić, że bezpieczeństwo opiera się na tajnym kluczu, a nie na tajności schematu
+wrong_answers:
+  - Aby zapewnić, że bezpieczeństwo opiera się na tajności schematu, a nie na tajnym kluczu
+  - Aby wymagać bardzo długiego klucza szyfrowania
+  - Aby zagwarantować, że każda wiadomość ma unikalny klucz
+explanation: |
+  Zgodnie z zasadą Kerckhoffa, bezpieczeństwo systemu kryptograficznego powinno opierać się wyłącznie na tajnym kluczu, a nie na tajności samego algorytmu.
+reviewed: false

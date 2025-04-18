@@ -86,7 +86,7 @@ Disse kryptografiske hashfunksjonene har flere essensielle egenskaper som gjør 
 
 #### 1. Irreversibilitet (preimage-motstand):
 
-Irreversibilitet betyr at det er enkelt å beregne hashen fra inndatainformasjonen, men den inverse beregningen, det vil si å finne inndataen fra hashen, er praktisk talt umulig. Denne egenskapen gjør hashfunksjoner perfekte for å skape unike digitale fingeravtrykk uten å kompromittere den opprinnelige informasjonen. Denne karakteristikken omtales ofte som en enveisfunksjon eller en "_felle dør-funksjon_".
+Irreversibilitet betyr at det er enkelt å beregne hash fra inndata, men at den omvendte beregningen, altså å finne inndata fra hashen, er praktisk talt umulig. Denne egenskapen gjør hash-funksjoner perfekte for å lage unike digitale fingeravtrykk uten å kompromittere den opprinnelige informasjonen.
 
 I det gitte eksemplet er det enkelt og raskt å oppnå hashen `24f1b9…` ved å kjenne inndataen "_PlanB_". Imidlertid er det umulig å finne meldingen "_PlanB_" ved kun å kjenne `24f1b9…`.
 
@@ -2199,7 +2199,7 @@ Genereringen av adressen følger deretter samme prosess, hvor den rå offentlige
 
 Og der har du det! Vi har nådd slutten av dette CYP201-kurset. Hvis du fant dette kurset nyttig, ville jeg være veldig takknemlig hvis du kunne ta deg noen øyeblikk til å gi det en god vurdering i det følgende evalueringskapittelet. Føl deg også fri til å dele det med dine kjære eller på dine sosiale nettverk. Til slutt, hvis du ønsker å oppnå ditt diplom for dette kurset, kan du ta den endelige eksamenen rett etter evalueringskapittelet.
 
-# Konklusjon
+# Siste seksjon
 
 <partId>58111408-b734-54db-9ea7-0d5b67f99f99</partId>
 

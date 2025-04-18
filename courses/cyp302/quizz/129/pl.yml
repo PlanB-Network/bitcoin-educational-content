@@ -1,0 +1,9 @@
+question: Jakie inne brytyjskie odkrycie dokonane przez badaczy z GCHQ poprzedziło odkrycie Diffiego i Hellmana, ale pozostało tajne?
+answer: Pojęcia kryptografii asymetrycznej i klucza Exchange
+wrong_answers:
+  - Symetryczny protokół szyfrowania zaawansowany bez konieczności posiadania klucza
+  - Nowa metoda asymetrycznego haszowania kryptograficznego
+  - Metoda tworzenia pieniądza elektronicznego
+explanation: |
+  Brytyjscy kryptografowie, pracujący dla GCHQ, niezależnie opracowali pomysły podobne do tych Diffiego i Hellmana, ale te postępy pozostały poufne do czasu ich ujawnienia w 1997 roku.
+reviewed: false

@@ -81,7 +81,7 @@ Jos haluat syöttää COLDCARD-korttiin virtaa kytkemättä sitä tietokoneeseen
 
 Tätä opetusohjelmaa varten tarvitset myös Sparrow Walletin, jolla voit hallita Bitcoin-lompakkoasi tietokoneellasi. Lataa [Sparrow Wallet](https://sparrowwallet.com/download/) virallisilta verkkosivuilta. Suosittelen vahvasti tarkistamaan sekä sen aitouden (GnuPG:n avulla) että eheyden (hash-arvon avulla) ennen asennuksen aloittamista. Jos et tiedä, miten tämä tehdään, seuraa tätä ohjetta:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## PIN-koodin valinta
 
@@ -161,7 +161,7 @@ Tässä vaiheessa suosittelemme, että tarkistat ladatun laiteohjelmiston eheyde
 
 Jos et ole perehtynyt tähän todentamisprosessiin, suosittelen seuraamaan tätä ohjetta:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Ota microSD-kortti ja siirrä laiteohjelmistotiedosto (tiedostomuoto `.dfu`) sille. Aseta microSD-kortti johonkin COLDCARDin porttiin.
 

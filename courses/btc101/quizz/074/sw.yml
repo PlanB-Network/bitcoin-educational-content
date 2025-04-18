@@ -1,0 +1,12 @@
+question: Je, bitcoins zimehifadhiwa wapi?
+answer: Katika Bitcoin Blockchain.
+wrong_answers:
+  - Katika Bitcoin Wallet.
+  - Kwenye kifaa ambapo Wallet imewekwa.
+  - Katika hifadhi ya Shirikisho.
+explanation: |
+  Ingawa funguo zako za kibinafsi zimehifadhiwa kwenye Wallet yako, the
+  bitcoins zenyewe zimehifadhiwa kwenye Bitcoin
+  Blockchain, ambayo ni ya umma iliyosambazwa Ledger ndani
+  mtandao wa rika-kwa-rika wa Bitcoin.
+reviewed: true

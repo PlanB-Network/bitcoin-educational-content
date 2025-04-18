@@ -139,7 +139,7 @@ Passport của bạn đã sẵn sàng nhận chương trình cơ sở mới thô
 
 Trước khi cài đặt trên thiết bị của bạn, chúng tôi khuyên bạn nên kiểm tra tính xác thực và toàn vẹn của phần mềm đã tải xuống. Nếu bạn cần trợ giúp về vấn đề này, hãy tham khảo hướng dẫn này:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Sau khi kiểm tra tệp `.bin`, hãy đặt tệp đó vào MicroSD của bạn, sau đó lắp vào Passport. Trình khám phá tệp Passport sẽ mở ra. Chọn tệp `vN.N.N-passport.bin`.
 
@@ -328,7 +328,7 @@ Bắt đầu bằng cách tải xuống và cài đặt Sparrow Wallet [từ tra
 
 Hãy chắc chắn kiểm tra tính xác thực và tính toàn vẹn của phần mềm trước khi cài đặt. Nếu bạn không biết cách thực hiện, vui lòng tham khảo hướng dẫn này:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Sau khi mở Sparrow Wallet, hãy nhấp vào tab "*File*", sau đó nhấp vào "*New Wallet*".
 

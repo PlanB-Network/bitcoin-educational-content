@@ -1,0 +1,22 @@
+id: d60f87d2-ddc8-4283-89b3-8fe85ce57e17
+
+category: others
+
+level: beginner
+
+professor_id: 46dad7c8-b8e2-45f0-ab03-b9e67a7c4301
+
+# Proofreading metadata
+project_id: cd62a137-baad-4133-b90d-711963e510c7
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-03-18
+    urgency: 1
+    contributor_names:
+      - jramos0
+    reward: 1
+
+tags:
+  - guides
+  - software

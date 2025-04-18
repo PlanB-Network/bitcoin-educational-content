@@ -1,0 +1,9 @@
+question: 在 RGB 使用的 Client-side Validation 模式中，Blockchain 的主要功能是什麼？
+answer: 提供時間戳記，防止重複支出
+wrong_answers:
+  - 儲存所有狀態轉換
+  - 複製 Smart contract 資料
+  - 保證全球資料可用性
+explanation: |
+  在 RGB 中使用 Bitcoin Blockchain 來為承諾加上時間戳記，並防止 Double-spending，而不儲存所有的狀態轉換。
+reviewed: false

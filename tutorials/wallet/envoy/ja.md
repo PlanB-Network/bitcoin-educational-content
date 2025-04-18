@@ -170,7 +170,7 @@ PINコードが登録されました。
 
 お使いのデバイスにインストールする前に、ダウンロードしたファームウェアの信頼性と完全性を確認することを強くお勧めします。チュートリアルをご参照ください：
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### エンボイ・アプリケーション
 

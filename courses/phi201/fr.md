@@ -17,11 +17,43 @@ De la Renaissance aux Lumières, le cours examine la montée de la liberté, mar
 
 +++
 
+# Introduction
+
+<partId>6edada19-3af3-411b-8483-3fe45cfe1c54</partId>
+
+## Aperçu du cours
+
+<chapterId>14d810d3-883c-4f5c-8593-f532530e7b7a</chapterId>
+
+Bienvenu dans le cours PHI201 !
+
+Cette formation vous invite à explorer l’évolution de la liberté à travers l’histoire en analysant les grands courants de pensée qui l’ont façonnée. Vous découvrirez comment la notion de liberté s’est construite au fil des siècles, en opposition ou en collaboration avec le pouvoir, à travers un parcours historique allant de l’Antiquité aux débats contemporains.
+
+**Section 1 : La liberté ou le pouvoir**  
+Nous débuterons par un panorama des deux grandes philosophies politiques qui ont marqué l’histoire : la liberté et le pouvoir. Cette section examinera les visions de penseurs tels que Frédéric Bastiat sur la production versus la spoliation, Lord Acton qui voit la liberté comme moteur de l’histoire, Karl Marx avec sa théorie de la lutte des classes, ou encore Murray Rothbard qui oppose l’État à la société. Cette introduction conceptuelle permettra de poser un cadre d’analyse pour les périodes historiques.
+
+**Section 2 : Les origines de la liberté : l’Antiquité**  
+Ici, nous remonterons aux racines de la pensée philosophique avec les Grecs, qui ont inventé la rationalité critique, et les Romains, qui ont établi les bases du droit moderne. Nous examinerons également la chute de Rome comme un moment charnière qui redéfinit l’organisation politique et sociale autour de la notion de liberté.
+
+**Section 3 : Les origines de la liberté : le Moyen-Âge**  
+Le Moyen-Âge est souvent perçu comme une période obscure, mais nous découvrirons qu’il a en réalité jeté les bases de la liberté moderne. Nous étudierons l’affirmation de la liberté humaine, les débats entre raison et foi, la naissance de l’État souverain, l’éthique biblique valorisant l’individu, ainsi que les premières ébauches du capitalisme qui apparaissent à cette époque.
+
+**Section 4 : L’essor de la liberté : de la Renaissance aux Lumières**  
+Cette section portera sur l’émergence de la tolérance religieuse et de la liberté économique, qui prendront leur essor lors de la Renaissance et des Lumières. Nous analyserons aussi l’importance de l’année 1776, qui marque un tournant majeur avec des événements clés pour le monde libre, avant de plonger dans l’ère des révolutions qui redéfiniront la notion même de liberté.
+
+**Section 5 : Apogée et déclin : du XIXe au XXe siècle**  
+Nous poursuivrons par l’étude des bouleversements des XIXe et XXe siècles, en mettant en perspective les forces et faiblesses de la démocratie, les critiques marxistes du capitalisme et la réponse autrichienne à ces critiques. Nous explorerons aussi les avertissements sur les dangers du collectivisme à travers des œuvres majeures telles que "La route de la servitude".
+
+**Section 6 : L’essor de l’État providence au XXe siècle**  
+Enfin, cette section examinera comment l’État providence a progressivement pris le pas sur les idées de liberté économique, en analysant notamment le triomphe de Keynes et l’abandon de l’étalon-or. Nous conclurons sur l’importance des idées pour influer sur le cours de l’histoire et la place que la liberté occupe encore dans nos sociétés modernes.
+
+Prêt à plonger dans ce parcours philosophique unique sur la quête de la liberté ? Allons-y !
+
 # La liberté ou le pouvoir
 
 <partId>e59475e9-3ae4-5e66-a17e-218de0281b06</partId>
 
-## Introduction: Il n’y a que deux philosophies politiques
+## Il n’y a que deux philosophies politiques
 
 <chapterId>ffa60c0d-ee2b-575d-a4ac-4e9ccdad396f</chapterId>
 
@@ -1633,7 +1665,7 @@ En un certain sens, notre situation est meilleure que par le passé. Après les 
 >
 > (_Politique économique. Réflexions pour aujourd’hui et pour demain_, 1979).
 
-# Conclusion
+# Section finale
 
 <partId>df550767-5876-4034-9c6a-31238363e85f</partId>
 

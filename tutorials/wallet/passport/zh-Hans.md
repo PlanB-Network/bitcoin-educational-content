@@ -139,7 +139,7 @@ https://planb.network/tutorials/wallet/mobile/envoy-3ae5d6c7-623b-45b3-bb34-abcf
 
 在您的设备上安装之前，我们强烈建议您检查下载固件的真实性和完整性。如果您需要帮助，请参阅本教程 ：
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 检查`.bin`文件后，将其放在 MicroSD 上，然后插入 Passport。Passport 文件资源管理器将打开。选择文件 `vN.N.N-passport.bin`。
 
@@ -328,7 +328,7 @@ https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 
 安装前请务必检查软件的真实性和完整性。如果您不知道如何操作，请参考本教程：
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 打开麻雀钱包后，点击 "*文件*"标签，然后点击 "*新建钱包*"。
 

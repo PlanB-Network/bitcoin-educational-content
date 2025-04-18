@@ -372,4 +372,4 @@ Si este tutorial te ha resultado útil, te agradecería mucho que pusieras un pu
 
 También recomiendo este otro tutorial en el que explico cómo utilizar la herramienta RGB CLI desarrollada por la asociación LNP/BP para crear un contrato RGB:
 
-https://planb.network/tutorials/node/rgb/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4
+https://planb.network/tutorials/node/others/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4

@@ -8,6 +8,7 @@ objectives:
   - Esplorare l'uso di transazioni riservate e l'emissione di asset sulla Liquid Network.
   - Cogliere gli aspetti commerciali e tecnici di Liquid per le applicazioni nei mercati finanziari.
 
+
 ---
 # Introduzione alla Liquid Network
 
@@ -15,12 +16,13 @@ Inizia un percorso educativo progettato per fornire una comprensione profonda de
 
 Con presentazioni di esperti del settore, il corso copre argomenti quali l'architettura di Liquid, le applicazioni di tokenizzazione, i concetti tecnici di Elements e casi d'uso innovativi come il Breeze SDK. Progettato per essere accessibile sia ai principianti che agli utenti intermedi, il corso offre valore anche agli sviluppatori esperti che desiderano padroneggiare Liquid come piattaforma per ottimizzare i loro progetti.
 
+
 +++
 # Introduzione
 
 <partId>9f8a83d5-27e0-4e6d-af12-6cd6eb667291</partId>
 
-## Introduzione al Liquid Bootcamp
+## Panoramica del corso
 
 <chapterId>3192ee7d-255b-4c4f-ba18-e08c5ab98577</chapterId>
 
@@ -32,6 +34,7 @@ Questo bootcamp è stato originariamente condotto come evento di persona, seguen
 
 Questo percorso è strutturato per accogliere partecipanti con diversi livelli di competenza, offrendo un mix di conoscenze teoriche ed esperienza pratica. Alla fine di questo bootcamp, avrai una solida conoscenza dell'architettura di Liquid, della sua integrazione con Bitcoin e di come utilizzare le sue caratteristiche innovative per sviluppare e ottimizzare soluzioni finanziarie.
 
+Immergiti nel mondo della sidechain Liquid e svela tutto il suo potenziale adesso!
 # Fondamenti
 
 <partId>6dd86449-c0f7-4e51-9252-5f135cf019df</partId>
@@ -40,7 +43,7 @@ Questo percorso è strutturato per accogliere partecipanti con diversi livelli d
 
 <chapterId>4bca9c70-d54d-4e9a-b2db-17c3a6fa655b</chapterId>
 
-![Video](https://youtu.be/QCyWXVWkcAM)
+:::video id=ff6899d2-b47f-4c3d-983d-3bd66d2be59d:::
 
 Pablo presenta l'architettura della Liquid Network, sottolineando il suo ruolo di sidechain federata di Bitcoin. Vengono trattate le caratteristiche principali, come le transazioni riservate, il modello di federazione e la sua funzione di sandbox per l'innovazione. I partecipanti acquisiranno una visione approfondita di come Liquid completi Bitcoin, offrendo transazioni più veloci e private.
 
@@ -48,7 +51,7 @@ Pablo presenta l'architettura della Liquid Network, sottolineando il suo ruolo d
 
 <chapterId>1e9cfbed-108e-4067-afb9-4cf950cb43d3</chapterId>
 
-![Video](https://youtu.be/9Yu0dPAJSek)
+:::video id=5652dcb2-4303-484c-8be5-d98063b39c1c:::
 
 James presenta il software Elements e la sua integrazione con la rete Liquid. Questa sessione comprende una guida pratica all'esecuzione di un nodo Liquid, alla configurazione di Elements a livello locale e alla gestione delle transazioni tramite comandi CLI e RPC.
 
@@ -56,7 +59,7 @@ James presenta il software Elements e la sua integrazione con la rete Liquid. Qu
 
 <chapterId>3ff2df4a-8995-4d5e-9b8a-cd114880e666</chapterId>
 
-![Video](https://youtu.be/zFvv0bn4ZWY)
+:::video id=31368c02-b979-44d7-b217-ceed96c7ca5c:::
 
 Michael discute di come le tecnologie multi-layer, tra cui Liquid, Lightning e Bitcoin, migliorino l'efficienza e l'affidabilità delle transazioni. Tra gli argomenti principali figurano gli HTLC per transazioni sicure su più livelli e le funzioni di scripting avanzate che ottimizzano l'ecosistema Bitcoin.
 
@@ -64,7 +67,7 @@ Michael discute di come le tecnologie multi-layer, tra cui Liquid, Lightning e B
 
 <chapterId>1968db03-2364-46c0-9670-9e9844289ca1</chapterId>
 
-![Video](https://youtu.be/6wNeHQBlhA4)
+:::video id=0bac0a62-90f2-41da-ac7c-330c0604bc61:::
 
 Bozza tratta la struttura federata della rete Liquid e i suoi componenti tecnici. Gli argomenti trattati includono le innovazioni testate su Liquid, come le firme Schnorr e il linguaggio di scripting Simplicity, oltre ai compromessi che comporta l'utilizzo di soluzioni Layer Two.
 
@@ -72,7 +75,7 @@ Bozza tratta la struttura federata della rete Liquid e i suoi componenti tecnici
 
 <chapterId>5f4c0e50-b435-4b6c-b8b7-c55cc1a35431</chapterId>
 
-![Video](https://youtu.be/IAdOxZyx7-Y)
+:::video id=07e0b82f-2d60-4eb3-9b5d-2ccb7ad06e8a:::
 
 Chase evidenzia l'ecosistema di Liquid e le sue applicazioni nei mercati di capitali. Parla della tokenizzazione, delle risorse della comunità e di strumenti come Sid Swap e Stokr per la gestione degli asset, oltre che della crescente adozione di Liquid negli ambienti aziendali.
 
@@ -80,7 +83,7 @@ Chase evidenzia l'ecosistema di Liquid e le sue applicazioni nei mercati di capi
 
 <chapterId>4f21a0a7-0dc0-44cf-8a3a-d9e2f8a3f05f</chapterId>
 
-![Video](https://youtu.be/AnMiD9amSUg)
+:::video id=f00822b4-dc1a-46ff-adfc-ff7c97a0024d:::
 
 Nardo fornisce una panoramica di Blockstream AMP, una piattaforma per la gestione degli asset digitali su Liquid. Esplora l'architettura di AMP, la sua capacità di controllare i trasferimenti di asset e le sue applicazioni pratiche per gli sviluppatori. Vengono inoltre evidenziate le sfide e i miglioramenti futuri di AMP.
 
@@ -94,11 +97,11 @@ Nardo fornisce una panoramica di Blockstream AMP, una piattaforma per la gestion
 
 <chapterId>fb77442c-3d1e-427e-b2f5-16668ce4c643</chapterId>
 
-![Video](https://youtu.be/ucc3a-udbgo)
+:::video id=1a6289b5-fdae-4320-b5b1-41925150108c:::
 
 Antonio presenta Breeze, un SDK open-source progettato per le transazioni decentralizzate sulla rete Liquid. Ne illustra le funzionalità, tra cui il supporto per i binding multilingue e i processi di transazione sicuri, sottolineando il suo obiettivo di semplificare la tecnologia finanziaria per gli sviluppatori.
 
-# Conclusione
+# Sezione finale
 
 <partId>7ec65e6b-6e63-41b6-92ea-6a13bc77c3ff</partId>
 
@@ -112,6 +115,4 @@ Antonio presenta Breeze, un SDK open-source progettato per le transazioni decent
 
 <chapterId>e30a5587-d74b-4360-87fb-bbf3de1b0ba8</chapterId>
 
-Congratulazioni per aver completato questo corso!
-
-Siamo entusiasti che tu abbia raggiunto questo importante traguardo nel tuo percorso di apprendimento. Grazie alla tua dedizione e al tuo impegno, hai acquisito conoscenze e competenze preziose che saranno utili per il tuo sviluppo professionale.
+<isCourseConclusion>true</isCourseConclusion>

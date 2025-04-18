@@ -1,0 +1,12 @@
+question: Jaka jest rola węzłów w sieci Bitcoin?
+answer: Węzły utrzymują integralność poprzez weryfikację i walidację transakcji i bloków.
+wrong_answers:
+  - Węzły tworzą i zatwierdzają bloki.
+  - Węzły weryfikują tylko transakcje.
+  - Węzły nie odgrywają żadnej roli w sieci Bitcoin.
+explanation: |
+  W sieci Bitcoin węzły utrzymują integralność sieci poprzez
+  poprzez weryfikację i walidację transakcji i bloków
+  bloków. Nieprawidłowy lub fałszywy blok zostanie odrzucony
+  przez węzły, zachowując bezpieczeństwo sieci.
+reviewed: true

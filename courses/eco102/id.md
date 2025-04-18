@@ -26,7 +26,32 @@ Bergabunglah dengan Damien Theillier dalam eksplorasi memperkaya pemikiran Fréd
 
 <partId>e4a0cf13-2fc5-5ced-a528-ace3f9029f22</partId>
 
-## Pengantar Kursus
+## Ikhtisar Kursus
+<chapterId>aa493f46-2d3a-4b76-ad79-ed44113a97f4</chapterId>
+
+Tujuan dari pelatihan ini adalah untuk memberi Anda pemahaman yang mendalam tentang kehidupan, pengaruh intelektual, lawan ideologis, dan teori ekonomi dari Frédéric Bastiat. Melalui perjalanan terstruktur ini, Anda akan menemukan bagaimana ide-idenya membentuk pemikiran ekonomi dan terus memengaruhi perdebatan saat ini.
+
+**Bagian 1: Pengantar**  
+Kita akan mulai dengan gambaran umum tentang Frédéric Bastiat, seorang jenius yang kurang dikenal di bidang ekonomi. Anda akan mempelajari tentang kehidupannya, perjalanan intelektualnya, serta konteks sejarah di mana ia mengembangkan pemikirannya. Memahami konteks ini sangat penting untuk sepenuhnya memahami cakupan tulisannya dan teorinya.
+
+**Bagian 2: Pengaruh**  
+Kita akan melanjutkan dengan menganalisis para pemikir yang membentuk pemikiran ekonomi Frédéric Bastiat. Anda akan mempelajari bagaimana tokoh-tokoh besar seperti Adam Smith, Jean-Baptiste Say, Antoine Destutt de Tracy, Charles Comte, Charles Dunoyer, dan Richard Cobden berkontribusi pada perkembangan intelektualnya, meletakkan dasar bagi refleksinya tentang perdagangan bebas dan ekonomi pasar.
+
+**Bagian 3: Para Penentang**  
+Selanjutnya, kita akan mengeksplorasi kritik Bastiat terhadap lawan ideologisnya. Baik itu Rousseau, pendidikan klasik, proteksionisme, sosialisme, atau Proudhon, Anda akan memahami mengapa Bastiat menganggap doktrin-doktrin ini sebagai penghalang bagi kemajuan ekonomi dan sosial, dan bagaimana dia menanggapi argumen mereka dengan logika yang tajam.
+
+**Bagian 4: Kekeliruan Ekonomi**  
+Bagian ini didedikasikan untuk kekeliruan ekonomi yang diungkapkan oleh Bastiat, termasuk "*Apa yang Dilihat dan Apa yang Tidak Dilihat*" dan "*Petisi dari Pembuat Lilin*". Kita akan memeriksa bagaimana dia dengan cermat menunjukkan, melalui satire dan analisis yang ketat, kesalahan ekonomi umum di masanya, yang tetap relevan hingga saat ini.
+
+**Bagian 5: Harmoni Ekonomi**  
+Di sini, Anda akan menemukan visi positif Bastiat tentang ekonomi. Kita akan membahas konsep-konsep seperti keajaiban pasar, kekuatan tanggung jawab individu, dan perbedaan antara solidaritas yang benar dan yang salah. Bastiat memandang ekonomi sebagai sistem yang koheren di mana kepentingan pribadi yang dipahami dengan baik bermanfaat bagi kepentingan umum. Kita akan mengeksplorasi mengapa demikian.
+
+**Bagian 6: Hukum**  
+Untuk menyelesaikan kursus ini, kita akan menyelami karya utama Bastiat, "*Hukum*", di mana ia menguraikan pemikirannya tentang hak milik, perampokan yang dilegalkan, dan peran negara yang terbatas. Anda akan memahami mengapa esai ini dianggap sebagai salah satu manifesto paling meyakinkan yang mendukung kebebasan individu dan ekonomi pasar.
+
+Siap untuk menemukan bagaimana ide-ide Frédéric Bastiat masih relevan hingga hari ini? Bergabunglah dengan kami dalam perjalanan intelektual ini yang dapat menantang pemahaman Anda tentang ekonomi!
+
+## Bastiat: Seorang Jenius yang Tidak Dikenal
 
 <chapterId>7f21b617-9810-5484-ad1c-befc61432126</chapterId>
 
@@ -1018,7 +1043,7 @@ Jika kita melihat hal-hal dari sudut pandang ini, Reagan menjelaskan kepada kary
 
 Pada intinya, Reagan mengambil dari Bastiat beberapa elemen kunci dari visi liberal masyarakat dan manusia: supremasi masyarakat sipil atas Negara, nilai pilihan dan tanggung jawab individu, pentingnya pengusaha dalam penciptaan kekayaan, pentingnya kerangka hukum yang fleksibel dan minimal, yang memungkinkan kepercayaan dan penghormatan terhadap kontrak, hukum fundamental bahwa kekayaan harus diciptakan sebelum dapat didistribusikan, keinginan untuk memberikan kesempatan kepada semua orang di pasar yang kompetitif…
 
-# Kesimpulan
+# Bagian Akhir
 
 <partId>3b62de5c-5d4a-5182-ab14-f7ef13c97e28</partId>
 

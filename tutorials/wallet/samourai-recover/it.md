@@ -145,7 +145,7 @@ Se stai usando un software diverso da Sparrow, come Electrum, per recuperare il 
 - Premix: `m/84'/0'/2147483645'`
 - Postmix: `m/84'/0'/2147483646'`
 
-Ora hai accesso ai tuoi bitcoin su Sparrow. Se hai bisogno di aiuto nell'uso di Sparrow Wallet, puoi anche consultare [il nostro tutorial dedicato](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607).
+Ora hai accesso ai tuoi bitcoin su Sparrow. Se hai bisogno di aiuto nell'uso di Sparrow Wallet, puoi anche consultare [il nostro tutorial dedicato](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
 
 Raccomando inoltre di importare manualmente le etichette che avevi associato ai tuoi UTXO su Samourai. Questo ti permetterà di eseguire un controllo efficace delle monete su Sparrow successivamente.
 
@@ -201,7 +201,7 @@ Se stai utilizzando un altro software come Electrum per recuperare il tuo portaf
 - Premix: `m/84'/0'/2147483645'`
 - Postmix: `m/84'/0'/2147483646'`
 
-Ora hai accesso ai tuoi bitcoin su Sparrow. Se hai bisogno di aiuto nell'utilizzo di Sparrow Wallet, puoi anche consultare [il nostro tutorial dedicato](https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607).
+Ora hai accesso ai tuoi bitcoin su Sparrow. Se hai bisogno di aiuto nell'utilizzo di Sparrow Wallet, puoi anche consultare [il nostro tutorial dedicato](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
 
 Raccomando inoltre di importare manualmente le etichette che avevi associato ai tuoi UTXO su Samourai. Ciò ti permetterà di eseguire un controllo efficace delle monete su Sparrow successivamente.
 

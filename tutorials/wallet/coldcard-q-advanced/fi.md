@@ -247,4 +247,4 @@ Jos löysit tämän ohjeen hyödylliseksi, olisin hyvin kiitollinen, jos jättä
 
 Suosittelen myös tätä toista opetusohjelmaa, jossa keskustelemme CCQ:n suoran kilpailijan, Ledger Flexin, käytöstä:
 
-https://planb.network/fr/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

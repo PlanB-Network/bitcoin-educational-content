@@ -1,0 +1,9 @@
+question: Ni kizuizi gani kikuu cha vitendo cha pedi ya wakati mmoja?
+answer: Ufunguo lazima uwe mrefu kama ujumbe na usitumike tena
+wrong_answers:
+  - Ufunguo lazima ubadilishwe kila siku
+  - Ufunguo lazima uwe mrefu mara tatu kuliko ujumbe
+  - Ufunguo lazima lazima uhifadhiwe kwenye Minitel ya Kifaransa
+explanation: |
+  Ufunguo katika pedi ya wakati mmoja lazima uwe mrefu kama ujumbe na usitumike tena, ambayo inatatiza matumizi yake katika miktadha ya vitendo. Hii ni kwa sababu ikiwa mtu anaweza kusambaza data mradi ujumbe kwa njia salama, itakuwa na maana zaidi kusambaza ujumbe moja kwa moja badala ya ufunguo.
+reviewed: false

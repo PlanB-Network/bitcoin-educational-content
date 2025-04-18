@@ -139,7 +139,7 @@ For å gjøre dette bruker du MicroSD-kortet som fulgte med Passport-esken (elle
 
 Før du installerer den på enheten din, anbefaler vi deg på det sterkeste å sjekke ektheten og integriteten til den nedlastede fastvaren. Hvis du trenger hjelp med dette, kan du se denne veiledningen :
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Etter at du har sjekket `.bin`-filen, plasserer du den på MicroSD-kortet og setter den deretter inn i Passport. Filutforskeren i Passport åpnes. Velg filen `vN.N.N-passport.bin`.
 
@@ -328,7 +328,7 @@ Start med å laste ned og installere Sparrow Wallet [fra det offisielle nettsted
 
 Sørg for å kontrollere ektheten og integriteten til programvaren før du installerer den. Hvis du ikke vet hvordan du gjør dette, kan du se denne veiledningen:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Når Sparrow Wallet er åpen, klikker du på "*File*"-fanen og deretter på "*New Wallet*".
 

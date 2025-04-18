@@ -1,0 +1,11 @@
+question: Jaka jest standardowa metoda przywracania Wallet?
+answer: Wprowadzanie frazy Mnemonic do dowolnego oprogramowania Wallet.
+wrong_answers:
+  - Zapisywanie frazy Mnemonic w pliku cyfrowym.
+  - Zapisanie frazy Mnemonic na tablicy.
+  - Dzielenie się frazą Mnemonic z zaufanym przyjacielem.
+explanation: |
+  Standardową metodą tworzenia kopii zapasowej klucza prywatnego w urządzeniu
+  Bitcoin Wallet jest wprowadzenie frazy Mnemonic do dowolnego oprogramowania
+  Wallet. Umożliwia to przywrócenie Wallet.
+reviewed: false

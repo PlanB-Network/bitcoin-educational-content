@@ -148,7 +148,7 @@ PINを確認するため、2回目の入力を行います。
 
 その後、2/2マルチシグの2つ目の鍵にアクセスするための認証方法を選択できるようになる。このチュートリアルでは、認証アプリケーションを使います。このタイプのアプリケーションに慣れていない場合は、Authyのチュートリアルを参照することをお勧めします：
 
-https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Authenticator Application*」を選択する。
 

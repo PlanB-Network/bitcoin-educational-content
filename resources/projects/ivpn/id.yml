@@ -8,5 +8,3 @@ description: |
   Fitur kami termasuk pilihan protokol WireGuard, OpenVPN atau IPSec, AntiTracker yang memblokir iklan dan pelacak, opsi Killswitch/Firewall, server DNS pribadi yang tidak mencatat, rute VPN multi-hop, port forwarding, dan Obfsproxy untuk mengatasi sensor.
 
   Sementara kami menjelaskan bahwa VPN tidak dapat mencapai anonimitas atau mencegah pengumpulan data oleh raksasa seperti Google atau Facebook, kami menjamin bahwa VPN yang dapat dipercaya seperti kami dapat secara efektif mengenkripsi data dan permintaan DNS Anda, meningkatkan keamanan di jaringan publik yang tidak terpercaya, menyamarkan alamat IP Anda, dan mengatasi sensor atau pemblokiran geografis. Kami adalah bagian yang dapat diandalkan dari strategi perlindungan privasi Anda, asalkan Anda mempercayai kami lebih dari ISP Anda.
-contributors:
-  - rabbit-hole

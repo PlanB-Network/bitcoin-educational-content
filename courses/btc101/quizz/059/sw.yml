@@ -1,0 +1,9 @@
+question: Ni ipi kati ya zifuatazo ambayo sio tabia ya Bitcoin?
+answer: Inadhibitiwa kwa urahisi.
+wrong_answers:
+  - Inasafirishwa papo hapo.
+  - Ina gharama kidogo za uthibitishaji.
+  - Ina sera ya fedha isiyobadilika.
+explanation: |
+  Bitcoin ina sifa zote zinazohitajika ili kuwa sarafu bora na yenye afya: inayoweza kugawanywa, kusafirishwa papo hapo, isiyoweza kubatilishwa, gharama isiyo na maana ya uthibitishaji, na yenye sera ya fedha ambayo tayari imewekwa kwa karne kadhaa kuja na vitengo milioni 21.
+reviewed: true

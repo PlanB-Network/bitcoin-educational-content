@@ -1,0 +1,12 @@
+question: Je, kazi kuu tatu za Bitcoin Wallet ni zipi?
+answer: Kupokea bitcoins, kutuma bitcoins, kuwalinda dhidi ya majaribio ya hacking na wizi.
+wrong_answers:
+  - Hifadhi bitcoins, kutuma bitcoins, salama dhidi ya majaribio ya udukuzi na wizi.
+  - Ruhusu kupokea bitcoins, hifadhi bitcoins, zihifadhi dhidi ya udukuzi na majaribio ya wizi.
+  - Ruhusu kupokea bitcoins, kuruhusu kutuma bitcoins, kuuza bitcoins.
+explanation: |
+  Bitcoin Wallet hutumiwa kuingiliana na Bitcoin
+  mtandao. Kazi zake kuu tatu ni kuruhusu kupokea
+  bitcoins, kuruhusu kutuma bitcoins, na kuzilinda dhidi ya
+  majaribio ya udukuzi na wizi.
+reviewed: true

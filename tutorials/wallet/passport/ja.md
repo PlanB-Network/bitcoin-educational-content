@@ -139,7 +139,7 @@ PINコードが登録されました。
 
 お使いのデバイスにインストールする前に、ダウンロードしたファームウェアの信頼性と完全性を確認することを強くお勧めします。チュートリアルをご参照ください：
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 .bin`ファイルを確認したら、MicroSDに入れ、パスポートに挿入します。パスポートのファイルエクスプローラーが開きます。vN.N.N-passport.bin`ファイルを選択します。
 
@@ -328,7 +328,7 @@ Sparrow Wallet [公式ウェブサイトから](https://sparrowwallet.com/)を�
 
 インストール前に必ずソフトウェアの信頼性と完全性を確認してください。その方法がわからない場合は、こちらのチュートリアルを参考にしてください：
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Sparrow Walletを開いたら、"*File*"タブをクリックし、"*New Wallet*"をクリックしてください。
 

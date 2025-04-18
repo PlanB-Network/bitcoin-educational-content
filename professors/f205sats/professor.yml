@@ -7,6 +7,9 @@ links:
   website:
   nostr: npub1c2p82fyndhk66hmz808c5pxjq8el60kh6jgj5xgdhmhksh69ktmsz8dcj5
 
+tips:
+  lightning_address: f205sats@sats.mobi
+
 tags:
   - wallets
   - guides

@@ -8,9 +8,9 @@ links:
   website: https://bitcoinitaliapodcast.it/
 description: |
   Il primo #Bitcoin Podcast in lingua italiana. Ogni giovedì alle 17 un nuovo episodio sul tuo pod-player preferito.
-contributors:
-  - rabbit-hole
-  - hunt-wood
+contributor_names:
+  - Rogzy-DB
+  - PaoloFoti
 tags:
   - easy-explain
   - high-level

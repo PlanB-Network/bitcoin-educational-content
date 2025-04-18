@@ -81,7 +81,7 @@ Se si preferisce alimentare la COLDCARD senza collegarla a un computer (air-gap)
 
 Per questa esercitazione, è necessario anche Sparrow Wallet per gestire il portafoglio Bitcoin sul computer. Scaricate [Sparrow Wallet](https://sparrowwallet.com/download/) dal sito ufficiale. Vi consiglio vivamente di verificarne l'autenticità (con GnuPG) e l'integrità (tramite hash) prima di procedere all'installazione. Se non sapete come fare, seguite questo tutorial:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Selezione del codice PIN
 
@@ -161,7 +161,7 @@ A questo punto, si consiglia vivamente di verificare l'integrità e l'autenticit
 
 Se non avete familiarità con questo processo di verifica, vi consiglio di seguire questa guida:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Prendete una scheda microSD e trasferiteci il file del firmware (documento in `.dfu`). Inserire la scheda microSD in una delle porte della COLDCARD.
 

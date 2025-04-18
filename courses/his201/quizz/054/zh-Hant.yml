@@ -1,0 +1,9 @@
+question: 在 2010 年 8 月 15 日的數值溢出事件中，哪位美國開發人員發現了一個奇怪的區塊？
+answer: Jeff Garzik
+wrong_answers:
+  - Gavin Andresen
+  - Nils Schneider
+  - Christian Decker
+explanation: |
+  這個區塊利用了一個漏洞，創造了超過 1,840 億個比特幣。
+reviewed: false

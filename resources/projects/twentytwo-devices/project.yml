@@ -14,10 +14,12 @@ proofreading:
   - language: fr
     last_contribution_date: 2025-02-22
     urgency: 1
-    contributors_id:
+    contributor_names:
       - LoicPandul
     reward: 0
 tags:
   - hardware
   - DIY
   - node
+contributor_names:
+  - LoicPandul

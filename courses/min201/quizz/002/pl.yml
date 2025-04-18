@@ -1,0 +1,16 @@
+question: Jaka jest główna różnica między CPU a ASIC w kontekście Bitcoin Mining?
+answer: Procesor może wykonywać wiele różnych typów obliczeń, nie będąc szczególnie zoptymalizowanym pod kątem jednego typu obliczeń, podczas gdy ASIC może wykonywać tylko jeden typ obliczeń, ale bardzo wydajnie
+wrong_answers:
+  - Procesor jest bardziej energooszczędny niż ASIC
+  - ASIC jest bardziej wszechstronny niż CPU
+  - CPU może wykonywać tylko jeden typ obliczeń, podczas gdy ASIC może wykonywać wiele różnych typów obliczeń
+explanation: |
+  Układy ASIC to chipy porównywalne z układami CPU, jednak
+  są opracowywane w celu wykonywania tylko jednego
+  obliczeń w możliwie najbardziej wydajny sposób. Innymi słowy
+  innymi słowy, procesor jest w stanie wykonać wiele
+  różnych typów obliczeń, nie będąc szczególnie
+  zoptymalizowany pod kątem tego czy innego typu obliczeń, podczas gdy
+  gW-7 będzie w stanie wykonać tylko jeden rodzaj obliczeń, ale bardzo wydajnie
+  obliczeń, ale bardzo wydajnie.
+reviewed: true

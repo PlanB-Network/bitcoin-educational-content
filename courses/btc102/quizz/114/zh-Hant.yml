@@ -1,0 +1,11 @@
+question: 在 Bitcoin 中，繼承計劃的目的是什麼？
+answer: 確保您的摯愛在您死後可以存取您的比特幣。
+wrong_answers:
+  - 開採新的 Bitcoins。
+  - 交易比特幣。
+  - 將比特幣兌換成其他加密貨幣。
+explanation: |
+  Bitcoin 中的繼承計劃是一個確保您的摯愛在您死後
+  在您去世後，您的親人可以使用您的比特幣。它不適用於 Mining 新的比特幣、
+  交易比特幣，或將比特幣轉換為其他加密貨幣。
+reviewed: false

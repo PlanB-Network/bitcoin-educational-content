@@ -4,6 +4,3 @@ description: |
   Eines ihrer Hauptprodukte ist das Lightning Terminal, eine benutzerfreundliche Schnittstelle, die das Management von Lightning-Knoten vereinfacht. Dieses Tool bietet ein webbasiertes Dashboard, einen Netzwerk-Explorer und eine Suite von Liquiditätsmanagement-Tools, um hochvolumige, sofortige Bitcoin-Transaktionen mit minimalen Gebühren durchzuführen.
 
   Neben dem Lightning Terminal bietet Lightning Labs auch eine Reihe von verifizierbaren, nicht verwahrten Finanzdienstleistungen auf Basis des Lightning-Netzwerks an, die die Lücke zwischen Open-Source-Software und Bitcoin-Finanzanwendungen der nächsten Generation schließen.
-contributors:
-  - rabbit-hole
-  - another-satoshi

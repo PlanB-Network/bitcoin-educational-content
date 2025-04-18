@@ -1,0 +1,9 @@
+question: Je, ufafanuzi wa uhuru uliotolewa na Lord Acton ni upi?
+answer: Uwezo wa kutenda kulingana na dhamiri ya mtu mwenyewe hata dhidi ya maoni ya wengi
+wrong_answers:
+  - Uwezo wa kufanya chochote anachotaka
+  - Kutokuwepo kwa kizuizi chochote
+  - Ulinzi dhidi ya uvamizi wa nje
+explanation: |
+  Lord Acton anafafanua uhuru kuwa uwezo wa kutenda kulingana na dhamiri ya mtu mwenyewe, akikazia umuhimu wa uwezo wa mtu binafsi wa kufanya maamuzi ya kibinafsi, hata yanapopingana na maoni ya wengi.
+reviewed: false

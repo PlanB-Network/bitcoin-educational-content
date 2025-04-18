@@ -30,7 +30,7 @@ Rendez-vous [sur le site officiel de Bitcoin Knots](https://bitcoinknots.org/#do
 
 Avant d'installer le logiciel sur votre machine, il est fortement recommandé d'en vérifier l'authenticité et l'intégrité. Si vous ne savez pas comment le faire, consultez cet autre tutoriel :
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Une fois le logiciel vérifié, installez-le en suivant les étapes indiquées dans le panneau d'installation.
 

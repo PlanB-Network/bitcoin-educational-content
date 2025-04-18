@@ -148,7 +148,7 @@ Klikněte na zelené tlačítko "*Zvýšit zabezpečení účtu přidáním 2FA*
 
 Poté budete moci zvolit metodu ověřování pro přístup k druhému klíči 2/2 multisig. V tomto tutoriálu budeme používat ověřovací aplikaci. Pokud tento typ aplikace neznáte, doporučuji vám prostudovat náš návod Authy :
 
-https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Vyberte možnost "*Autentizační aplikace*".
 

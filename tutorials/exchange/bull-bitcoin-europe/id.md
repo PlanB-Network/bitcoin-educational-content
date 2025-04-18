@@ -48,7 +48,7 @@ Pindai kode QR dengan aplikasi autentikasi Anda, masukkan kode 6 digit dan klik 
 
 Jika Anda tidak terbiasa menggunakan aplikasi autentikasi untuk 2FA, saya sarankan Anda untuk melihat tutorial tentang aplikasi Authy ini:
 
-https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Masukkan kata sandi Anda untuk mengonfirmasi.
 

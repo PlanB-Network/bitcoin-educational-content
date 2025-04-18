@@ -31,7 +31,7 @@ def check_files_for_original_language(root_dir):
                         file.write('  - language: fr\n')
                         file.write('    last_contribution_date: 2024-08-31\n')
                         file.write('    urgency: 1\n')
-                        file.write('    contributors_id:\n')
+                        file.write('    contributor_names:\n')
                         file.write('      - LoicPandul\n')
                         file.write('    reward:\n')
     

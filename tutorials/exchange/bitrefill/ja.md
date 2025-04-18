@@ -28,9 +28,9 @@ Bitrefillは、小売店からファーストフード、ストリーミング�
 ![BITREFILL](assets/notext/05.webp)
 なお、安全なメールボックスの作成方法とパスワードの管理方法を学びたい場合は、以下2つのチュートリアルをおすすめします：
 
-https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 その後、"*Create account*"ボタンをクリックします。
 ![BITREFILL](assets/notext/06.webp)
@@ -49,7 +49,7 @@ https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba
 ![BITREFILL](assets/notext/13.webp)
 なお、オンラインアカウントを保護するために、二要素認証を使用する方法についてもっと知りたい場合は、以下のチュートリアルをご覧になることをおすすめします：
 
-https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 ## BitrefillでBTCギフトカードを購入する方法は？
 
@@ -89,5 +89,5 @@ Bitrefillアプリのダウンロードもおすすめです。これは、[Goog
 ビットコインの普及に貢献し、商店（事業主）にこの支払い方法を受け入れてもらいたい場合は、Swiss Bitcoin Payに関するチュートリアルを参照することをおすすめします。これはBTC支払いプロセスのためのオールインワンソリューションで、日常的に簡単にインストールして管理することができます：
 
 
-https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 

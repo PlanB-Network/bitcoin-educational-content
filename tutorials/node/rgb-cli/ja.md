@@ -309,4 +309,4 @@ bob$ rgb check <sig> && wallet sign --publish tx.psbt
 
 また、RGB互換のLightningノードを起動し、ほぼ瞬時にトークンを交換する方法を説明した別のチュートリアルもお勧めする：
 
-https://planb.network/tutorials/node/rgb/rln-ffc02528-329b-4e16-bd83-873d0299feea
+https://planb.network/tutorials/node/others/rln-ffc02528-329b-4e16-bd83-873d0299feea

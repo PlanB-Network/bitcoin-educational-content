@@ -1,0 +1,9 @@
+question: Czym jest entropia w kontekście kryptografii?
+answer: Miara nieprzewidywalności związanej z procesem losowym
+wrong_answers:
+  - Metoda szyfrowania wrażliwych danych
+  - Algorytm obliczania kluczy publicznych
+  - Technika kompresji danych
+explanation: |
+  W kryptografii entropia określa ilościowo poziom niepewności lub chaosu w losowym źródle, niezbędny do generowania bezpiecznych kluczy.
+reviewed: false

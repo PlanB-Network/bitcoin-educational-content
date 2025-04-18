@@ -8,7 +8,7 @@ description: How to use an awesome tool
 
 Fix the money fix the world
 
-_Don't trust, verify._
+**Note**: _Don't trust, verify._
 
 ## paragraph 1
 
@@ -16,3 +16,8 @@ text to be written here
 
 ## paragraph 2
 
+Some text before an image
+
+![image](assets/en/01.webp)
+
+Other text after an image

@@ -17,11 +17,43 @@ Fra renessansen til opplysningstiden undersøker kurset fremveksten av frihet, p
 
 +++
 
+# Introduksjon
+
+<partId>6edada19-3af3-411b-8483-3fe45cfe1c54</partId>
+
+## Kursoversikt
+
+<chapterId>14d810d3-883c-4f5c-8593-f532530e7b7a</chapterId>
+
+Velkommen til kurset PHI201!
+
+Dette kurset inviterer deg til å utforske frihetens utvikling gjennom historien ved å analysere de store tankeretningene som har formet den. Du vil oppdage hvordan frihetsbegrepet har blitt konstruert gjennom århundrene, enten i opposisjon til eller i samarbeid med makt, gjennom en historisk reise fra antikken til dagens debatter.
+
+**Del 1: Frihet eller makt**  
+Vi starter med en oversikt over de to store politiske filosofiene som har preget historien: frihet og makt. Denne delen undersøker tenkerne som Frédéric Bastiat om produksjon versus plyndring, Lord Acton som ser frihet som historiens drivkraft, Karl Marx med sin teori om klassekamp, og Murray Rothbard som setter staten opp mot samfunnet. Denne konseptuelle introduksjonen gir et analysegrunnlag for de historiske periodene.
+
+**Del 2: Frihetens opprinnelse: Antikken**  
+Her vender vi tilbake til filosofiens røtter med grekerne som oppfant kritisk rasjonalitet, og romerne som la grunnlaget for moderne lovgivning. Vi vil også undersøke Romas fall som et sentralt øyeblikk som redefinerte politisk og sosial organisering rundt frihetsbegrepet.
+
+**Del 3: Frihetens opprinnelse: Middelalderen**  
+Middelalderen oppfattes ofte som en mørk periode, men vi vil oppdage at den faktisk la grunnlaget for moderne frihet. Vi vil studere bekreftelsen av menneskelig frihet, debatter mellom fornuft og tro, fremveksten av den suverene staten, bibelsk etikk som verdsetter individet, og de første konturene av kapitalisme som dukket opp på denne tiden.
+
+**Del 4: Frihetens oppblomstring: Fra renessansen til opplysningstiden**  
+Denne delen fokuserer på fremveksten av religiøs toleranse og økonomisk frihet, som fikk fotfeste under renessansen og opplysningstiden. Vi analyserer også betydningen av året 1776, som markerte et vendepunkt med viktige hendelser for den frie verden, før vi dykker ned i revolusjonenes æra som redefinerte selve frihetsbegrepet.
+
+**Del 5: Høydepunkt og nedgang: Fra 1800-tallet til 1900-tallet**  
+Vi fortsetter med å studere omveltningene på 1800- og 1900-tallet, med fokus på demokratiets styrker og svakheter, marxistisk kritikk av kapitalismen, og den østerrikske responsen på disse kritikkene. Vi vil også utforske advarslene om farene ved kollektivisme gjennom viktige verker som "Veien til trelldom".
+
+**Del 6: Fremveksten av velferdsstaten på 1900-tallet**  
+Til slutt vil denne delen undersøke hvordan velferdsstaten gradvis overtok ideene om økonomisk frihet, spesielt gjennom Keynes’ seier og oppgivelsen av gullstandarden. Vi vil avslutte med å understreke betydningen av ideer for å påvirke historiens gang og frihetens rolle i dagens samfunn.
+
+Klar til å begi deg ut på denne unike filosofiske reisen for å utforske frihetens historie? La oss starte!
+
 # Frihet eller Makt
 
 <partId>e59475e9-3ae4-5e66-a17e-218de0281b06</partId>
 
-## Introduksjon: Det finnes bare to politiske filosofier
+## Det finnes bare to politiske filosofier
 
 <chapterId>ffa60c0d-ee2b-575d-a4ac-4e9ccdad396f</chapterId>
 
@@ -1426,7 +1458,7 @@ På en måte er vår situasjon bedre enn i fortiden. Etter de påfølgende feile
 Alt som skjer i det globale samfunnet vi lever i, er resultatet av ideer. Det gode og det dårlige. Det som er nødvendig, er å bekjempe falske ideer. (...) Vår sivilisasjon kan overleve, og den må. Og den vil overleve takket være bedre ideer enn de som styrer verden i dag; og disse bedre ideene vil bli utviklet av den oppvoksende generasjonen.
 (_Economic Policy: Thoughts for Today and Tomorrow_, 1979).
 
-# Konklusjon
+# Siste seksjon
 
 <partId>df550767-5876-4034-9c6a-31238363e85f</partId>
 

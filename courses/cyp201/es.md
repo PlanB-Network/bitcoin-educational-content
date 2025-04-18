@@ -86,7 +86,7 @@ Estas funciones hash criptográficas tienen varias características esenciales q
 
 #### 1. Irreversibilidad (resistencia a la imagen previa):
 
-La irreversibilidad significa que es fácil calcular el hash a partir de la información de entrada, pero el cálculo inverso, es decir, encontrar la entrada a partir del hash, es prácticamente imposible. Esta propiedad hace que las funciones hash sean perfectas para crear huellas digitales únicas sin comprometer la información original. Esta característica se conoce a menudo como una función unidireccional o una "_función de trampa_".
+La irreversibilidad significa que es fácil calcular el hash a partir de la información de entrada, pero que el cálculo inverso, es decir, encontrar la entrada a partir del hash, es prácticamente imposible. Esta propiedad hace que las funciones hash sean perfectas para crear huellas digitales únicas sin comprometer la información original.
 
 En el ejemplo dado, obtener el hash `24f1b9…` sabiendo la entrada "_PlanB_" es simple y rápido. Sin embargo, encontrar el mensaje "_PlanB_" solo sabiendo `24f1b9…` es imposible.
 
@@ -2298,7 +2298,7 @@ Luego, la generación de la dirección sigue el mismo proceso, utilizando la cla
 
 ¡Y ahí lo tienes! Hemos llegado al final de este curso CYP201. Si encontraste este curso útil, estaría muy agradecido si pudieras tomar unos momentos para darle una buena calificación en el siguiente capítulo de evaluación. Siéntete libre de compartirlo también con tus seres queridos o en tus redes sociales. Finalmente, si deseas obtener tu diploma para este curso, puedes tomar el examen final justo después del capítulo de evaluación.
 
-# Conclusión
+# Sección final
 
 <partId>58111408-b734-54db-9ea7-0d5b67f99f99</partId>
 

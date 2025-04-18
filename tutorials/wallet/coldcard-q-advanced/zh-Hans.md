@@ -247,4 +247,4 @@ Trick PIN 是一个辅助 PIN 码，与初始设备配置时定义的 PIN 码不
 
 我还推荐另一篇教程，其中讨论了 CCQ 的直接竞争对手 Ledger Flex 的使用：
 
-https://planb.network/fr/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

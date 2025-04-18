@@ -1,0 +1,9 @@
+question: Katika kikundi chenye kikomo, ni neno gani linalorejelea idadi ya Elements kwenye kikundi?
+answer: Utaratibu wa kikundi
+wrong_answers:
+  - Uwezo wa kikundi
+  - Urefu wa kikundi
+  - Kiwango cha kikundi
+explanation: |
+  Mpangilio wa kikundi ni jumla ya nambari ya Elements iliyomo.
+reviewed: false

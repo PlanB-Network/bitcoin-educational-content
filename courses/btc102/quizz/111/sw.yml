@@ -1,0 +1,11 @@
+question: Ni nini madhumuni ya nodi ya Bitcoin katika muktadha wa Lightning Network?
+answer: Ili kusaidia kuelewa na kuchunguza vipengele vipya vya Bitcoin vinavyoletwa na Lightning Network.
+wrong_answers:
+  - Ili kuchimba Bitcoins mpya.
+  - Kufanya biashara ya Bitcoins.
+  - Ili kuhifadhi Bitcoins.
+explanation: |
+  Nodi ya Bitcoin katika muktadha wa Lightning Network inatumika kuelewa
+  na kuchunguza vipengele vipya vya Bitcoin vinavyoletwa na Lightning Network. Ni
+  haichimbui Bitcoins mpya, haifanyi biashara ya Bitcoins, au kuhifadhi Bitcoins.
+reviewed: false

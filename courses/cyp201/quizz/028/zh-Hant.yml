@@ -1,0 +1,9 @@
+question: 使用 Schnorr 協定的壓縮公開金鑰的大小是多少？
+answer: 32 位元組
+wrong_answers:
+  - 33 位元組
+  - 64 位元組
+  - 128 位元
+explanation: |
+  Schnorr 公開金鑰只用橢圓曲線上的點的 x 坐標來表示，這可將其大小縮小為 32 位元組。
+reviewed: false

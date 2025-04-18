@@ -1,0 +1,9 @@
+question: Je, ni muda gani uliokadiriwa wa kuweka nambari kamili ya 2048-bit kwa kutumia rasilimali zote za sasa za kompyuta?
+answer: Vizuri zaidi ya umri wa ulimwengu
+wrong_answers:
+  - Miezi michache na kompyuta za classical
+  - Dakika chache na kompyuta kuu
+  - Miongo michache kwa shamba la Bitcoin Mining
+explanation: |
+  Utata wa kuhesabu nambari za 2048-bit ni kwamba itakuwa vigumu kabisa kusuluhisha, hata kwa kutumia rasilimali zote zilizopo za kompyuta kwa muda unaozidi umri wa ulimwengu.
+reviewed: false

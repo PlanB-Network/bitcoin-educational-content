@@ -1,0 +1,9 @@
+question: 為什麼建議使用隨機產生的密碼？
+answer: 為了抵抗暴力攻擊。
+wrong_answers:
+  - 讓他們更容易記住。
+  - 降低其複雜性。
+  - 抵禦 Sybil 攻擊。
+explanation: |
+  隨機性會使密碼更難被猜中，從而加強密碼的安全性，以對抗暴力攻擊。
+reviewed: false

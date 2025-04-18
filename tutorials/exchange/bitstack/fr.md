@@ -49,7 +49,7 @@ Choisissez un mot de passe fort pour sécuriser l'accès à votre compte, puis c
 
 Pour une gestion sécurisée de vos mots de passe au quotidien, l'utilisation d'un gestionnaire de mots de passe est vivement recommandée. Sur Plan ₿ Network, vous trouverez plusieurs tutoriels sur les meilleures solutions existantes, comme par exemple Bitwarden :
 
-https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Ensuite, vous devrez procéder à la vérification d'identité (KYC). Conformément aux réglementations françaises, vous serez invité à fournir vos informations personnelles et une pièce d'identité. Complétez les cases avec votre nom, prénom et date de naissance.
 

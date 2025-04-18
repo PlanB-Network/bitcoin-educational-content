@@ -309,4 +309,4 @@ Nyní víte, jak vystavit a převést smlouvu RGB. Pokud se vám tento návod zd
 
 Doporučuji také tento další tutoriál, ve kterém vysvětluji, jak spustit uzel Lightning kompatibilní s RGB a vyměňovat tokeny téměř okamžitě:
 
-https://planb.network/tutorials/node/rgb/rln-ffc02528-329b-4e16-bd83-873d0299feea
+https://planb.network/tutorials/node/others/rln-ffc02528-329b-4e16-bd83-873d0299feea

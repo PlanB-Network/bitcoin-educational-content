@@ -1,0 +1,11 @@
+question: Ni nini sababu kuu ya mtumiaji wa mara kwa mara wa Bitcoin kuchagua Wallet kulingana na Lightning Network kwa shughuli za kila siku?
+answer: Inaboresha ufanisi wa shughuli za Bitcoin.
+wrong_answers:
+  - Inaongeza thamani ya Bitcoin.
+  - Inaruhusu shughuli zisizojulikana.
+  - Inatoa jukwaa la biashara ya Bitcoin.
+explanation: |
+  Lightning Network ni itifaki ya malipo ya Layer 2 inayofanya kazi
+  juu ya sarafu ya siri ya Blockchain kama Bitcoin. Imeundwa ili kuwezesha
+  haraka, shughuli za gharama nafuu.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Jaka jest podstawowa różnica między wzrostem cen a inflacją?
+answer: Wzrost cen może być specyficzny dla danego sektora i wywołany różnymi czynnikami, podczas gdy inflację definiuje się jako uogólniony wzrost cen w całym zakresie towarów i usług.
+wrong_answers:
+  - Wzrost cen jest uogólnionym wzrostem cen w szerokim zakresie towarów i usług, podczas gdy inflacja jest specyficzna dla sektora i wywołana różnymi czynnikami.
+  - Wzrost cen i inflacja to to samo, oba odnoszą się do ogólnego wzrostu cen w szerokim zakresie towarów i usług.
+  - Wzrost cen odnosi się do spadku cen, podczas gdy inflacja odnosi się do wzrostu cen.
+explanation: |
+  W rozdziale wyjaśniono, że wzrost cen może być specyficzny dla danego sektora i
+  wywołany różnymi czynnikami, takimi jak spadek produkcji ropy naftowej w OPEC lub niekorzystne warunki pogodowe dla pszenicy
+  warunki pogodowe dla pszenicy. Inflacja, z drugiej strony, jest definiowana przez uogólniony
+  wzrost cen w całym zakresie towarów i usług, a nie tylko w konkretnym sektorze
+  sektorze.
+reviewed: false

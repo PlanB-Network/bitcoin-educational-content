@@ -1,5 +1,5 @@
 ---
-name: Noeud Bitcoin Core (mac & windows)
+name: Bitcoin Core (macOS & Windows)
 description: Instalace Bitcoin Core na Mac nebo Windows
 ---
 

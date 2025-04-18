@@ -334,7 +334,7 @@ Bắt đầu bằng cách tải xuống và cài đặt Sparrow Wallet [từ tra
 
 Hãy chắc chắn kiểm tra tính xác thực và tính toàn vẹn của phần mềm trước khi cài đặt. Nếu bạn không biết cách thực hiện, vui lòng tham khảo hướng dẫn này:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Sau khi mở Sparrow Wallet, hãy nhấp vào tab "*File*", sau đó nhấp vào "*New Wallet*".
 

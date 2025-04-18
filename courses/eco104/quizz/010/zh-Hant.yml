@@ -1,0 +1,11 @@
+question: Bitcoin 網路中的節點有何作用？
+answer: 維護和保護 Blockchain
+wrong_answers:
+  - 處理交易
+  - 提出並實施 Bitcoin 代碼庫的變更
+  - 與其他礦工競爭
+explanation: |
+  節點對 Bitcoin 網路的完整性和安全性至關重要。
+  他們是系統的看門人，確保交易
+  根據規則準確處理。
+reviewed: true

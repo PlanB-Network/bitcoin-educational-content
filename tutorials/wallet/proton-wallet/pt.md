@@ -14,7 +14,7 @@ A caraterística especial desta carteira é a capacidade de enviar bitcoins util
 
 Para utilizar a Carteira Proton, precisa de uma conta Proton. Pode criar uma gratuitamente seguindo os primeiros passos deste tutorial dedicado à criação de uma caixa de correio Proton (apenas a secção "*Criar uma conta Proton*"). Assim que a sua conta estiver configurada, pode continuar com o resto deste tutorial.
 
-https://planb.network/tutorials/others/general/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Ligar à Carteira Proton
 

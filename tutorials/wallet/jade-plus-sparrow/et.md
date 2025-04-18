@@ -334,7 +334,7 @@ Alustage Sparrow Walleti allalaadimisest ja installimisest [ametlikul veebisaidi
 
 Enne paigaldamist kontrollige kindlasti tarkvara autentsust ja terviklikkust. Kui te ei tea, kuidas seda teha, vaadake seda õpetust:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Kui Sparrow Wallet on avatud, klõpsake vahekaardil "*Fail*" ja seejärel "*Uus rahakott*".
 

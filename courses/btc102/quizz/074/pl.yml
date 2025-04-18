@@ -1,0 +1,11 @@
+question: Jaki jest główny cel układarki Bitcoin?
+answer: Zgromadzić jak najwięcej satoshi
+wrong_answers:
+  - Aby zgromadzić jak najwięcej bitcoinów
+  - Sprzedaż towarów lub usług w Bitcoin
+  - Aby kupić Bitcoin bezpośrednio za gotówkę z przyjaciółmi lub członkami społeczności Bitcoin
+explanation: |
+  Głównym celem układarki Bitcoin jest zgromadzenie jak największej liczby satoshi
+  jak to tylko możliwe. Osiąga się to poprzez ustanowienie planu uśredniania kosztów w dolarach (DCA) i
+  szukanie innych rozwiązań do gromadzenia satoshi.
+reviewed: false

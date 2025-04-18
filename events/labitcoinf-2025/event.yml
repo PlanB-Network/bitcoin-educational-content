@@ -1,0 +1,19 @@
+id: c420a3b3-0889-4959-96fa-9df8ff0c64e3
+start_date: 2025-11-01 13:00:00
+end_date: 2025-11-01 21:00:00
+timezone: America/Buenos_Aires
+address_city_country: Buenos Aires, Argentina
+name: LABITCONF 2025
+type: conference
+description: |
+  The Latin American Bitcoin Conference (LABITCONF) is the leading event in Latin America that brings together the top industry leaders and entrepreneurs in the Bitcoin and blockchain space.
+  Since 2013, LABITCONF has been a key meeting point to discuss and promote the latest trends, developments and challenges. In this edition, we will analyze how our relationship with technology, finance and society has changed, inviting you to reboot the system and rethink the society of the future.
+language:
+  - es
+  - en
+links:
+  website: https://www.labitconf.com/
+project_id: 
+tags:
+  - adoption
+  - market-trends

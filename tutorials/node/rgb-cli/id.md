@@ -309,4 +309,4 @@ Sekarang Anda sudah tahu cara menerbitkan dan mentransfer kontrak RGB. Jika Anda
 
 Saya juga merekomendasikan tutorial lain di mana saya menjelaskan cara meluncurkan node Lightning yang kompatibel dengan RGB untuk menukar token secara instan:
 
-https://planb.network/tutorials/node/rgb/rln-ffc02528-329b-4e16-bd83-873d0299feea
+https://planb.network/tutorials/node/others/rln-ffc02528-329b-4e16-bd83-873d0299feea

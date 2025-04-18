@@ -1,0 +1,10 @@
+question: Bitcoin 的原產地是哪裡？
+answer: 網際網路
+wrong_answers:
+  - Blockchain
+  - 銀行系統
+  - 股票市場
+explanation: |
+  本章指出，Bitcoin 是網際網路的本機，因此
+  任何人都可以存取。
+reviewed: false

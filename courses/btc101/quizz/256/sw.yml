@@ -1,0 +1,8 @@
+question: Je, ni moja ya matokeo kuu ya Bitcoin kwenye mfumo wa benki?
+answer: Inaruhusu ukombozi kutoka kwa mfumo wa benki.
+wrong_answers:
+  - Inaruhusu udhibiti wa mfumo wa benki.
+  - Inaruhusu kuondoa mfumo wa benki.
+  - Inaruhusu ufisadi wa mfumo wa benki.
+explanation: >-
+reviewed: true

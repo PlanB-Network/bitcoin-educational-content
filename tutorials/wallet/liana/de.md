@@ -63,7 +63,7 @@ Besuchen Sie die offizielle Wizardsardine-Website und laden Sie Liana unter http
 
 Um herauszufinden, wie Sie die Authentizität und Integrität von Software vor der Installation manuell überprüfen können, empfehlen wir Ihnen diese Anleitung:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Installieren Sie die Software auf Ihrem Rechner und starten Sie sie. Wählen Sie die Option "*Erstelle eine neue Liana-Brieftasche*", um Ihre Brieftasche zu konfigurieren.
 

@@ -1,0 +1,9 @@
+question: Jakie korzyści oferuje Lightning sprzedawcom w zakresie finalizacji płatności?
+answer: Płatności w usłudze Lightning są finalizowane niemal natychmiast, co zmniejsza ryzyko cofnięcia lub oszustwa.
+wrong_answers:
+  - Wymaga 24 godzin oczekiwania, zanim środki będą mogły zostać wydane.
+  - Pozwala to klientom na odzyskanie płatności w dowolnym momencie.
+  - Dzięki temu transakcje są w pełni odwracalne przez okres do 90 dni.
+explanation: |
+  Dzięki Lightning, gdy płatność zostanie przekierowana i rozliczona przez sieć, jest ona ostateczna. Eliminuje to scenariusze obciążeń zwrotnych obserwowane w tradycyjnych systemach płatności.
+reviewed: false

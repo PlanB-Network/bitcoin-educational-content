@@ -22,17 +22,18 @@ Que vous soyez une **petite entreprise ou une grande société**, l'intégration
 
 <partId>326cf945-5d3f-4d86-8c3e-4d1c35959799</partId>
 
-## Lancez votre entreprise sur le bitcoin
-
+## Aperçu du cours
 <chapterId>1be42be9-4080-49f5-b5b2-6b531dd55f5f</chapterId>
 
-Démarrez le voyage de votre entreprise sur le réseau Bitcoin avec ce cours de formation complet - une passerelle pour comprendre comment Bitcoin et le Lightning Network peuvent révolutionner les opérations commerciales traditionnelles. Ce cours est conçu pour les marchands, les entrepreneurs, les gestionnaires et les décideurs d'entreprise qui souhaitent explorer les capacités pratiques de Bitcoin en tant que réseau monétaire mondial natif de l'Internet et en tant que moyen robuste d'échange de valeurs.
+Bienvenue dans le cours BIZ101 ! Démarrez le voyage de votre entreprise sur le réseau Bitcoin avec ce cours complet - une passerelle pour comprendre comment Bitcoin et le Lightning Network peuvent révolutionner les opérations commerciales traditionnelles. Ce cours est conçu pour les marchands, les entrepreneurs, les gestionnaires et les décideurs d'entreprise qui souhaitent explorer les capacités pratiques de Bitcoin en tant que réseau monétaire mondial natif de l'Internet et en tant que moyen robuste d'échange de valeurs.
 
 Tout au long du cours, vous serez initié aux principes fondamentaux qui font de Bitcoin et du Lightning Network des outils de transformation distincts. Vous apprendrez comment ces technologies offrent un éventail de cas d'utilisation, du stockage de capital numérique aux paiements rapides, économiques et évolutifs, et comment elles apportent des améliorations essentielles par rapport à la monnaie traditionnelle et aux systèmes de paiement. Le cours BIZ101 relie la théorie économique aux applications du monde réel, en clarifiant comment la décentralisation peut réduire les dépendances aux intermédiaires et surmonter les limitations inhérentes aux systèmes existants.
 
 Le cours commence par un examen détaillé des monnaies conventionnelles et des mécanismes de paiement, posant les bases en explorant comment la monnaie fonctionne comme un réseau pour permettre le commerce, l'épargne et la spécialisation économique. Ensuite, nous nous pencherons sur la technologie qui sous-tend le bitcoin et les innovations introduites par le Lightning Network, révélant leur rôle dans la facilitation de transactions transparentes, sécurisées et quasi-instantanées qui peuvent servir les entreprises de toutes tailles. Nous nous plongerons ensuite dans les sections pratiques de ce cours, en commençant par une partie sur la détention de bitcoins en tant que trésorerie, suivie d'une dernière partie sur l'acceptation de bitcoins comme moyen de paiement.
 
 Que vous représentiez une petite entreprise ou une grande société, ce cours vise à vous fournir les connaissances nécessaires pour intégrer Bitcoin dans vos opérations quotidiennes, améliorant ainsi la résilience, l'efficacité et l'avantage concurrentiel de votre entreprise. Alors que le bitcoin continue de remodeler le paysage économique, la compréhension de ces technologies révolutionnaires n'est pas simplement une option mais une nécessité stratégique. Préparez-vous à vous engager dans un contenu perspicace, des exemples pratiques et des conseils stratégiques qui vous permettront de naviguer et de tirer parti du monde en évolution du bitcoin !
+
+Prêt à plonger dans l'univers de Bitcoin pour les entreprises ? C'est parti !
 
 # Monnaie, systèmes de paiement et Bitcoin
 
@@ -592,9 +593,9 @@ C'est de loin la méthode la plus courante, qui s'effectue soit par l'intermédi
 
 Pour savoir comment ouvrir un compte professionnel et l'utiliser pour acheter, vendre et transférer des bitcoins, vous pouvez consulter ces deux tutoriels spécialement conçus pour les entreprises, qui couvrent les plateformes Kraken et Bitfinex dans leurs versions professionnelles :
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
+https://planb.network/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
 
-https://planb.network/tutorials/exchange/centralized/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
 
 Pour en savoir plus sur les méthodes d'acquisition de bitcoins via un échange ou en peer-to-peer, vous pouvez [consulter la section "échange" de nos tutoriels] (https://planb.network/tutorials/exchange).
 
@@ -858,7 +859,7 @@ https://planb.network/tutorials/wallet/mobile/zeus-3e89603c-501d-439c-8691-d4a0d
 
 **Custodial LN wallets:**
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-c4792842-b046-44f9-a6f1-351191b7cc2b
+https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
@@ -892,15 +893,15 @@ Bien que le profil Essentiel n'exige pas de systèmes comptables très sophistiq
 
 La solution hybride la plus adaptée à votre profil est probablement Swiss Bitcoin Pay :
 
-https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 Open Node est une autre solution facile à mettre en œuvre, mais qui présente l'inconvénient d'être 100 % conservateur :
 
-https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 Si vous êtes prêt à mettre les mains dans le cambouis et que vous souhaitez avoir un contrôle total sur le processus, le logiciel BTCPay Server est une excellente option. Cependant, le principal inconvénient de BTCPay Server est que sa configuration et sa gestion prennent du temps et nécessitent un certain niveau d'expertise technique, mais vous pouvez suivre nos guides :
 
-https://planb.network/tutorials/merchant/merchant/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 Enfin, en complément des points de vente physiques, vous pouvez envisager de mettre en place [un point de vente Bitcoinize] (https://bitcoinize.com/).
 
@@ -1304,7 +1305,7 @@ Enfin, que vous soyez un petit commerçant ou une entreprise plus établie, il e
 - Le bitcoin retenu (0,19335) apparaît au bilan pour une valeur de 7 734 €.
 - Gains non réalisés de 5 468 € sur les bitcoins conservés présentés dans les notes financières.
 
-# Conclusion
+# Section finale
 
 <partId>f6ca8d01-a4f3-449b-ac9f-c5fba9a69178</partId>
 

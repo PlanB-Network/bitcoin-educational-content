@@ -1,0 +1,9 @@
+question: Je, ni hatua gani 3 kuu za uchanganuzi wa Blockchain?
+answer: Kuchunguza Blockchain, kutambua sifa, na kutoa dhana.
+wrong_answers:
+  - Ukusanyaji wa data, hifadhi salama, na kuripoti.
+  - Kutambua watumiaji, kudhibiti ubadilishanaji na kulinda dhidi ya ulaghai.
+  - Mkusanyiko wa data, uteuzi nasibu, na kukashifu.
+explanation: |
+  Uchambuzi wa Blockchain kwanza unahusisha kupata data ya Bitcoin Blockchain, kisha kujaribu kutambua sifa katika data hii, na hatimaye kufanya tafsiri zinazokubalika.
+reviewed: false

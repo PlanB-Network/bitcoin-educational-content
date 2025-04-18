@@ -1,0 +1,12 @@
+question: Jaki jest cel uwierzytelniania dwuskładnikowego (2FA) w Bitcoin?
+answer: Zwiększenie bezpieczeństwa transakcji Bitcoin.
+wrong_answers:
+  - Aby wydobywać nowe Bitcoiny.
+  - Aby handlować Bitcoinami.
+  - Aby zamienić Bitcoiny na inne kryptowaluty.
+explanation: |
+  Uwierzytelnianie dwuskładnikowe (2FA) to metoda potwierdzania deklarowanej przez użytkownika
+  tożsamość, wykorzystując coś, co zna (hasło) i drugi czynnik inny niż
+  coś, co ma lub coś, czym jest. Jest ona stosowana w celu zwiększenia bezpieczeństwa
+  Transakcji Bitcoin.
+reviewed: false

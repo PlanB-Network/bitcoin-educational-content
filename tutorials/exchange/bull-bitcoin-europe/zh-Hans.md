@@ -48,7 +48,7 @@ Bull Bitcoin 始终坚持提供透明的服务，不收取任何隐藏费用。�
 
 如果你不熟悉如何使用身份验证应用程序进行 2FA，我建议你看看 Authy 应用程序的教程：
 
-https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 输入密码确认。
 

@@ -309,4 +309,4 @@ You now know how to issue and transfer an RGB contract. If you found this tutori
 
 I also recommend this other tutorial in which I explain how to launch an RGB-compatible Lightning node to exchange tokens almost instantaneously:
 
-https://planb.network/tutorials/node/rgb/rln-ffc02528-329b-4e16-bd83-873d0299feea
+https://planb.network/tutorials/node/others/rln-ffc02528-329b-4e16-bd83-873d0299feea

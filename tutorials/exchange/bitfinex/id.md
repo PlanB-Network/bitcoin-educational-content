@@ -22,11 +22,11 @@ Lengkapi informasi yang diperlukan: masukkan alamat email dan negara tempat ting
 
 Untuk tips menggunakan dan melindungi kata sandi yang kuat dan unik, lihat juga tutorial ini:
 
-https://planb.network/tutorials/others/general/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Sekarang kita akan mengonfigurasi 2FA untuk mengamankan akun. Gunakan aplikasi otentikasi pada ponsel cerdas Anda, seperti Google Authenticator atau Authy misalnya. Anda akan menemukan tutorial tentang alat ini di sini:
 
-https://planb.network/tutorials/others/general/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Pindai kode QR dengan aplikasi Anda dan masukkan 6 digit yang disediakan.
 

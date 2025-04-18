@@ -7,8 +7,8 @@ links:
 description: |
   Bitcoin information and news with a focus on philosophy. All shorts are coded from scratch using processing. Code can be found on my GitHub.
   GitHub.com/lukasdanielian
-contributors:
-  - hunt-wood
+contributor_names:
+  - PaoloFoti
 tags:
   - high-level
   - development

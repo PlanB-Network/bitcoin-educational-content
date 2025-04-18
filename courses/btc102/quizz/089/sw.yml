@@ -1,0 +1,11 @@
+question: Je, ni sifa gani moja ya mtumiaji wa Bitcoin ambaye ana uwezo wa kiteknolojia?
+answer: Wana ufahamu mzuri wa teknolojia, ikiwa ni pamoja na pochi za Hot na Cold Bitcoin na Lightning Network.
+wrong_answers:
+  - Wanatumia Bitcoin pekee kwa uwekezaji wa muda mrefu.
+  - Wanatumia Bitcoin pekee kwa shughuli za kila siku.
+  - Wanatumia Bitcoin pekee kwenye majukwaa ya Exchange.
+explanation: |
+  Watumiaji wenye uwezo wa kiteknolojia wa Bitcoin wanaelewa teknolojia zinazohusika
+  katika shughuli za Bitcoin, ikijumuisha aina tofauti za pochi na Umeme
+  Mtandao.
+reviewed: false

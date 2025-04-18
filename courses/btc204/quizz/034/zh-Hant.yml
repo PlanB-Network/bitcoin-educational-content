@@ -1,0 +1,9 @@
+question: 在一個簡單的付款交易中，有 500,000 Sats 的輸入分成 47,500 Sats 和 451,000 Sats 的輸出，哪個 UTXO 可能是變化？
+answer: 451,000 Sats 的那個。
+wrong_answers:
+  - 500,000 Sats 的那個。
+  - 47,500 Sats 的那個。
+  - 一個都沒有
+explanation: |
+  當簡單付款模式的交易中兩項輸出有足夠大的差異時，可以估計較大的輸出很可能是變更。
+reviewed: false

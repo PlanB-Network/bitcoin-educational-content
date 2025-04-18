@@ -334,7 +334,7 @@ Iniziate scaricando e installando Sparrow Wallet [dal sito ufficiale](https://sp
 
 Assicuratevi di verificare l'autenticità e l'integrità del software prima dell'installazione. Se non sapete come fare, consultate questa guida:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Una volta aperto Sparrow Wallet, fare clic sulla scheda "*File*", quindi su "*Nuovo portafoglio*".
 

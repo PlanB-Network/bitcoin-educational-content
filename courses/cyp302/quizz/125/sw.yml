@@ -1,0 +1,9 @@
+question: Ni tatizo gani kuu ambalo waandishi wa maandishi Diffie, Hellman, na Merkle walitafuta kutatua katika miaka ya 1970?
+answer: Shida za usambazaji na usimamizi muhimu
+wrong_answers:
+  - Ukuzaji wa kriptografia ya baada ya quantum
+  - Kulinda mawasiliano ya kijeshi
+  - Kuboresha mbinu za usimbaji fiche linganifu
+explanation: |
+  Diffie, Hellman, na Merkle walichochewa na ugumu wa kiutendaji wa usambazaji na usimamizi muhimu ili kupata mawasiliano, changamoto muhimu katika mabadiliko ya ulimwengu kuelekea mawasiliano ya dijiti.
+reviewed: false

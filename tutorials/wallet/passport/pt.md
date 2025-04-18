@@ -139,7 +139,7 @@ Para o fazer, utilize o cartão MicroSD incluído na caixa do Passport (ou outro
 
 Antes de o instalar no seu dispositivo, aconselhamos vivamente que verifique a autenticidade e a integridade do firmware descarregado. Se precisar de ajuda para o fazer, consulte este tutorial :
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Depois de verificar o arquivo `.bin`, coloque-o no seu MicroSD e insira-o no Passport. O explorador de arquivos do Passport será aberto. Selecione o ficheiro `vN.N.N-passport.bin`.
 
@@ -328,7 +328,7 @@ Comece por descarregar e instalar a Sparrow Wallet [a partir do site oficial] (h
 
 Certifique-se de que verifica a autenticidade e a integridade do software antes da instalação. Se não souber como o fazer, consulte este tutorial:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Quando a Sparrow Wallet estiver aberta, clique no separador "*Arquivo*" e depois em "*Nova carteira*".
 

@@ -1,0 +1,9 @@
+question: Jaki jest główny cel wdrożenia płatności Bitcoin na poziomie przedsiębiorstwa?
+answer: Aby w pełni zintegrować płatności Bitcoin z podstawowymi procesami organizacji
+wrong_answers:
+  - Eksperymentowanie z Bitcoin na małą skalę
+  - Wykorzystanie Bitcoin do celów marketingowych
+  - Akceptacja Bitcoin bez integracji z innymi systemami
+explanation: |
+  Rozwiązania dla przedsiębiorstw mają na celu dostosowanie płatności Bitcoin do podstawowych przepływów pracy i systemów biznesowych.
+reviewed: false

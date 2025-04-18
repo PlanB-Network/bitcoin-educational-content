@@ -372,4 +372,4 @@ curl -X 'GET' \
 
 Я также рекомендую этот учебник, в котором я объясняю, как использовать инструмент RGB CLI, разработанный ассоциацией LNP/BP, для создания контракта RGB:
 
-https://planb.network/tutorials/node/rgb/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4
+https://planb.network/tutorials/node/others/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4

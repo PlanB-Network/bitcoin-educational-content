@@ -309,4 +309,4 @@ Agora já sabe como emitir e transferir um contrato RGB. Se este tutorial lhe fo
 
 Também recomendo este outro tutorial no qual explico como lançar um nó Lightning compatível com RGB para trocar tokens quase instantaneamente:
 
-https://planb.network/tutorials/node/rgb/rln-ffc02528-329b-4e16-bd83-873d0299feea
+https://planb.network/tutorials/node/others/rln-ffc02528-329b-4e16-bd83-873d0299feea

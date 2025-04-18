@@ -81,7 +81,7 @@ Kui eelistate COLDCARDi toiteallikana kasutada ilma arvutiga ühendamata (õhuva
 
 Selle õpetuse jaoks on teil vaja ka Sparrow Wallet'i, et hallata oma Bitcoini rahakotti arvutis. Laadige [Sparrow Wallet] (https://sparrowwallet.com/download/) alla ametlikust veebisaidist. Soovitan tungivalt kontrollida nii selle autentsust (GnuPG abil) kui ka terviklikkust (hashi kaudu) enne paigaldamise jätkamist. Kui te ei tea, kuidas seda teha, järgige seda õpetust:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## PIN-koodi valik
 
@@ -161,7 +161,7 @@ Siinkohal soovitame tungivalt kontrollida allalaaditud püsivara terviklikkust j
 
 Kui te ei ole selle kontrollimise protsessiga tuttav, soovitan teil jälgida seda õpetust:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Võtke microSD-kaart ja kandke sellele püsivara fail (dokument faili `.dfu`). Sisestage microSD-kaart ühte COLDCARDi porti.
 

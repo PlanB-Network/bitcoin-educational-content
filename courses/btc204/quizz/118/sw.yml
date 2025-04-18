@@ -1,0 +1,10 @@
+question: Miongoni mwa majibu yafuatayo, ni ipi ambayo haiwakilishi hatari wakati wa kutuma bitcoins ambazo zimepata CoinJoin kwenye jukwaa lililodhibitiwa?
+answer: Mfumo unaweza kuongeza ada za muamala
+wrong_answers:
+  - Jukwaa linaweza kufungia pesa
+  - Mfumo unaweza kuzuia akaunti ya mtumiaji
+  - Jukwaa linaweza kuripoti tabia ya kutiliwa shaka kwa mamlaka
+explanation: |
+  Ukituma sarafu yako kwa jukwaa linalodhibitiwa la Exchange, lakini hivi karibuni limepitia CoinJoin, zana ya uchambuzi wa msururu wa jukwaa itagundua ukweli huu. Mfumo unaweza kukataa kukubali UTXO yako ambayo imepitia CoinJoin, au hata kudai maelezo kutoka kwako, kwa hatari ya kuona akaunti yako imesimamishwa au pesa zako zisisonge. Katika baadhi ya matukio, jukwaa linaweza pia kuripoti tabia yako kwa mamlaka za serikali.
+  
+reviewed: false

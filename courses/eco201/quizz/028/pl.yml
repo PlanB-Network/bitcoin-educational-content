@@ -1,0 +1,18 @@
+question: Jaki jest związek między preferencją czasową a stopami procentowymi w gospodarce z niezmanipulowanymi rynkami kapitałowymi?
+answer: Wzrost stóp procentowych wynika ze względnego wzrostu popytu na kapitał w porównaniu do Supply, co wskazuje na wyższe preferencje czasowe. I odwrotnie, spadek stóp procentowych wynika ze wzrostu oszczędności, co oznacza wzrost Supply kapitału, wskazując na zmniejszenie preferencji czasowych.
+wrong_answers:
+  - Wzrost stóp procentowych wskazuje na spadek preferencji czasowych, podczas gdy spadek stóp procentowych wskazuje na wzrost preferencji czasowych.
+  - Preferencja czasowa i stopy procentowe są odwrotnie powiązane.
+  - Preferencja czasowa i stopy procentowe nie mają bezpośredniego związku.
+explanation: |
+  W gospodarce z niezmanipulowanymi rynkami kapitałowymi, referencyjne
+  stopy procentowe są ustalane na przecięciu
+  kapitału Supply i popytu. Dlatego też stopy te reprezentują
+  stan preferencji czasowych dla całej gospodarki. Wzrost
+  wzrost stopy procentowej wynika ze względnego
+  wzrost popytu na kapitał w porównaniu do Supply,
+  co wskazuje na wyższą preferencję czasową. I odwrotnie, spadek
+  stóp procentowych wynika ze wzrostu oszczędności,
+  co oznacza wzrost Supply kapitału, wskazujący na obniżenie preferencji czasowych
+  zmniejszenie preferencji czasowych.
+reviewed: true

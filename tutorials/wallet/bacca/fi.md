@@ -142,5 +142,5 @@ Jos löysit tämän ohjeen hyödylliseksi, olisin kiitollinen, jos jättäisit v
 Suosittelen myös tutustumaan tähän GnuPG:tä käsittelevään oppaaseen, jossa kerrotaan, miten tarkistat ohjelmiston eheyden ja aitouden ennen sen asentamista. Tämä on tärkeä käytäntö erityisesti silloin, kun asennat salkunhallintaohjelmistoja, kuten Liana tai Sparrow :
 
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 

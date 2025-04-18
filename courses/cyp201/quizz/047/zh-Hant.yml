@@ -1,0 +1,9 @@
+question: 用來建立每個 Mnemonic 字元的二進位段的位元大小是多少？
+answer: 11 位元
+wrong_answers:
+  - 8 位元
+  - 16 位元
+  - 10 位元
+explanation: |
+  每個 11 位元區段對應 BIP39 中標準化的 2048 個字清單中的一個字。
+reviewed: false

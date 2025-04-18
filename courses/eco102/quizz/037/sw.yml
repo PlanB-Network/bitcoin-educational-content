@@ -1,0 +1,9 @@
+question: Ufafanuzi wa mali katika Kilatini kulingana na Warumi ulikuwaje?
+answer: Jus utendi et abutendi
+wrong_answers:
+  - Lex specialis derogat legi generali
+  - Utilitas publica praeferenda est privatorum contractibus
+  - Res publica et privatus separanda est
+explanation: |
+  Katika sheria ya Kirumi, jus utendi et abutendi inafafanua mali kama haki ya kutumia na matumizi mabaya, ikisisitiza matumizi bila kutafakari sababu zake.
+reviewed: false

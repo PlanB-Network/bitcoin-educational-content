@@ -1,0 +1,10 @@
+question: Ni tofauti gani kuu kati ya CoinJoin na mchanganyiko wa uhifadhi?
+answer: CoinJoin hukuruhusu kudumisha udhibiti kamili wa pesa zako.
+wrong_answers:
+  - CoinJoin inahitaji kuachiliwa kwa muda kwa ulezi wa fedha.
+  - Mixers ni salama zaidi kuliko coinjoins.
+  - Wachanganyaji hutoa mchanganyiko bora zaidi.
+explanation: |
+  Hasara kuu ya vichanganyaji ikilinganishwa na coinjoins ni kwamba huhitaji mtumiaji kuacha kutunza pesa zao wakati wa mchakato wa kuchanganya, ambayo huwaweka kwenye hatari za wizi.
+  
+reviewed: false

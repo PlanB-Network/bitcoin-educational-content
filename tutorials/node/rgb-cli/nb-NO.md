@@ -309,4 +309,4 @@ Du vet nå hvordan du utsteder og overfører en RGB-kontrakt. Hvis du synes denn
 
 Jeg anbefaler også denne andre veiledningen, der jeg forklarer hvordan du starter en RGB-kompatibel Lightning-node for å utveksle tokens nesten umiddelbart:
 
-https://planb.network/tutorials/node/rgb/rln-ffc02528-329b-4e16-bd83-873d0299feea
+https://planb.network/tutorials/node/others/rln-ffc02528-329b-4e16-bd83-873d0299feea

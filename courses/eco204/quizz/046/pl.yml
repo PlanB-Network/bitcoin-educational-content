@@ -1,0 +1,10 @@
+question: Jaka była maksymalna wartość pierwszej Cordoby w Nikaragui?
+answer: 1 milion.
+wrong_answers:
+  - 500,000
+  - 10 milionów
+  - 100 milionów
+explanation: |
+  W Nikaragui pierwsza Cordoba osiągnęła wartość 1 miliona. Druga
+  Cordoba osiągnęła wartość 10 milionów.
+reviewed: false

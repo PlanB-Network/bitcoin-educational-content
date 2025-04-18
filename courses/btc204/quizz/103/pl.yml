@@ -1,0 +1,10 @@
+question: W jaki sposób obliczana jest efektywność transakcji Bitcoin pod względem prywatności?
+answer: Porównując rzeczywistą entropię transakcji z maksymalną możliwą entropią.
+wrong_answers:
+  - Mnożąc liczbę wejść przez liczbę wyjść.
+  - Mnożąc rzeczywistą entropię transakcji przez liczbę wejść i wyjść.
+  - Porównując liczbę wejść z liczbą wyjść.
+explanation: |
+  Wydajność transakcji jest obliczana poprzez odjęcie maksymalnej entropii od rzeczywistej entropii analizowanej transakcji.
+  
+reviewed: false

@@ -1,0 +1,12 @@
+question: Dlaczego zakup domu jest dziś znacznie trudniejszy niż w latach 80-tych?
+answer: Tłumione stopy procentowe sprawiają, że dług staje się bardziej atrakcyjny, a inflacja rośnie
+wrong_answers:
+  - Inflacja i stawki czynszu
+  - Rosnące koszty utrzymania i wzrost populacji
+  - Brak nieruchomości i obniżone stopy procentowe sprawiają, że zadłużenie jest bardziej atrakcyjne
+explanation: |
+  Podczas gdy inflacja dewaluuje siłę nabywczą naszej waluty, sprawiając, że
+  utrudnia oszczędzanie, a obniżone stopy procentowe sprawiają, że konsumpcja długu jest
+  bardziej kusząca. Gdy koszt kapitału jest tak niski, ludzie pożyczają ponad stan
+  pożyczają ponad stan, przeznaczając więcej kapitału na aktywa i podnosząc ceny.
+reviewed: true

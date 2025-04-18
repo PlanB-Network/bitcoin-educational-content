@@ -170,7 +170,7 @@ https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866
 
 Прежде чем устанавливать ее на свое устройство, мы настоятельно рекомендуем вам проверить подлинность и целостность загруженной прошивки. Если вам нужна помощь в этом, обратитесь к этому руководству:
 
-https://planb.network/tutorials/others/general/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### С помощью приложения Envoy
 

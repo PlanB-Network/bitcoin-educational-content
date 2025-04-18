@@ -4,11 +4,10 @@ subtopic: bitcoin
 level: beginner
 hours: 9
 
-professors:
-  - rabbit-hole
-
-contributors:
-  - another-satoshi
+professors_id:
+  - 2e1b5182-567e-453a-af29-36009340ff02
+contributor_names:
+  - Asi0Flammeus
 published_at: 2023-05-17
 
 # Proofreading metadata
@@ -17,86 +16,106 @@ proofreading:
   - language: cs
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 18.53
+    contributor_names:
+    reward: 18.54
   - language: de
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 9.31
+    contributor_names:
+    reward: 13.93
   - language: en
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 9.31
+    contributor_names:
+    reward: 13.93
   - language: es
     last_contribution_date: 2024-11-16
     urgency: 1
-    contributors_id:
+    contributor_names:
       - OscarG673
     reward: 6.96
   - language: fi
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 18.53
+    contributor_names:
+    reward: 18.54
   - language: fr
     last_contribution_date: 2024-09-01
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Asi0Flammeus
-    reward: 4.66
+    reward: 6.96
   - language: it
     last_contribution_date: 2024-05-27
     urgency: 1
-    contributors_id:
+    contributor_names:
       - TinF0ilHat
     reward: 6.96
   - language: ja
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 27.74
+    contributor_names:
+    reward: 27.75
   - language: pt
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 9.31
+    contributor_names:
+    reward: 13.93
   - language: ru
     last_contribution_date: 2024-11-16
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Reshetenko
-    reward: 9.26
+    reward: 9.27
   - language: vi
     last_contribution_date: 2024-11-16
     urgency: 1
-    contributors_id:
+    contributor_names:
       - Henry-Da0
-    reward: 13.87
+    reward: 13.88
   - language: et
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 18.53
+    contributor_names:
+    reward: 18.54
   - language: id
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 23.13
+    contributor_names:
+    reward: 23.14
   - language: zh-Hans
     last_contribution_date: 2024-09-24
     urgency: 1
-    contributors_id:
+    contributor_names:
       - MilankovicProtocol
     reward: 11.57
 
   - language: nb-NO
     last_contribution_date:
     urgency: 1
-    contributors_id:
-    reward: 18.53
+    contributor_names:
+    reward: 18.54
 tags:
   - wallets
   - user-friendly
   - personal-security
+videos:
+  - id: c1a469c0-77ed-4c7d-aff0-acb1cc727d76
+    youtube:
+      - ja: LeyI3CBw2g4
+      - fr: LeyI3CBw2g4
+  - id: 93612ecc-08a2-4242-9879-38970b052f44
+    youtube:
+      - ja: juMUJ3MWeZY
+      - fr: juMUJ3MWeZY
+  - id: 047c7ad4-1cd4-4d19-8255-700add7ba656
+    youtube:
+      - ja: Iq0wZF3Ui9A
+      - fr: Iq0wZF3Ui9A
+  - id: e7016d07-9fce-42d2-8d33-51139fb485e2
+    youtube:
+      - ja: fcXvjghA-uM
+      - fr: fcXvjghA-uM
+  - id: bbd89739-728c-49d5-85ab-487881d82246
+    youtube:
+      - fr: d9Ccy17yWB0

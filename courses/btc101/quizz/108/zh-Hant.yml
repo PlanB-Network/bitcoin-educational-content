@@ -1,0 +1,11 @@
+question: Bitcoin Wallet 的用途是什麼？
+answer: 用來儲存私密金鑰，以便進行比特幣交易。
+wrong_answers:
+  - 使用裝置資源來開採比特幣。
+  - 透過公開金鑰購買 bitcoins。
+  - 將 bitcoins 儲存在裝置上。
+explanation: |
+  Bitcoin 錢包是一種軟體，用來
+  儲存私人密碼匙，讓您可以交易您的
+  比特幣。
+reviewed: true

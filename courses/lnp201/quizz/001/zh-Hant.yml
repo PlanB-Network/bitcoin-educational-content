@@ -1,0 +1,9 @@
+question: 在付款通道中，通道的容量是多少？
+answer: 兩位參與者可 Exchange 的資金總額
+wrong_answers:
+  - 通道保持開啟的時間限制
+  - 一位參與者在單筆交易中可傳送的最高金額
+  - 頻道每天可支援的交易數量
+explanation: |
+  通道的容量對應於兩個參與者的總資金，並保持固定，以決定可能的交換。
+reviewed: false

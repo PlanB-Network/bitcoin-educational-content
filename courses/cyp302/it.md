@@ -22,14 +22,15 @@ Questa introduzione alla crittografia cerca di cogliere la via di mezzo. Pur ess
 
 <partId>bbed2f46-d64c-5fb5-b892-d726032f2494</partId>
 
-## Breve descrizione
+## Panoramica del corso
 
 <chapterId>bb8a8b73-7fb2-50da-bf4e-98996d79887b</chapterId>
+Benvenuto al corso CYP302!
 
 Questo libro offre un'introduzione approfondita alla scienza e alla pratica della crittografia. Dove possibile, si concentra sull'esposizione concettuale piuttosto che formale del materiale.
 
 > Questo corso è basato sul repo di [JWBurgers](https://github.com/JWBurgers/An_Introduction_to_Cryptography). Tutto a posto per lui. Il contenuto non è ancora finito ed è qui solo per mostrare come potremmo integrarlo se JWburger è d'accordo.
-### Motivazione e obiettivi
+**Motivazione e obiettivi**
 
 È difficile trovare molti materiali che offrano una buona via di mezzo nell'educazione alla crittografia.
 
@@ -37,11 +38,11 @@ Da un lato, ci sono lunghi trattati formali, accessibili solo a chi ha un solido
 
 Questa introduzione alla crittografia cerca di cogliere la via di mezzo. Pur essendo relativamente impegnativa e dettagliata per chiunque sia alle prime armi con la crittografia, non è la tana del coniglio di un tipico trattato di fondamenti.
 
-### Pubblico di riferimento
+**Pubblico di riferimento**
 
 Dagli sviluppatori ai curiosi, questo libro è utile per tutti coloro che desiderano una comprensione più che superficiale della crittografia. Se il vostro obiettivo è quello di padroneggiare il campo della crittografia, questo libro è anche un buon punto di partenza.
 
-### Linee guida per la lettura
+**Linee guida per la lettura**
 
 Il libro contiene attualmente sette capitoli: "Che cos'è la crittografia?" (Capitolo 1), "Fondamenti matematici della crittografia I" (Capitolo 2), "Fondamenti matematici della crittografia II" (Capitolo 3), "Crittografia simmetrica" (Capitolo 4), "RC4 e AES" (Capitolo 5), "Crittografia asimmetrica" (Capitolo 6) e "Il crittosistema RSA" (Capitolo 7). Verrà inoltre aggiunto un capitolo finale, "La crittografia nella pratica". Si concentra su varie applicazioni crittografiche, tra cui la sicurezza del livello di trasporto, il routing a cipolla e il sistema di scambio di valore di Bitcoin.
 
@@ -49,7 +50,7 @@ A meno che non abbiate una solida preparazione matematica, la teoria dei numeri 
 
 Se vi trovate in difficoltà con i dettagli formali di queste parti del libro, vi consiglio di accontentarvi di una lettura di alto livello la prima volta.
 
-### Ringraziamenti
+**Ringraziamenti**
 
 Il libro più influente per la formazione di questo è stato _Introduction to Modern Cryptography_ di Jonathan Katz e Yehuda Lindell, CRC Press (Boca Raton, FL), 2015. Su Coursera è disponibile un corso di accompagnamento intitolato "Cryptography"
 
@@ -59,11 +60,11 @@ Citerò solo le informazioni e i risultati specifici che ho tratto da queste fon
 
 Per i lettori che desiderano approfondire le conoscenze sulla crittografia dopo questa introduzione, consiglio vivamente il libro di Katz e Lindell. Il corso di Katz su Coursera è un po' più accessibile del libro.
 
-### Contributi
+**Contributi**
 
 Si prega di dare un'occhiata a [il file dei contributi nel repository](https://github.com/JWBurgers/An_Introduction_to_Cryptography/blob/master/Contributions.md) per alcune linee guida su come sostenere il progetto.
 
-### Notazione
+**Notazione**
 
 **Termini chiave:**
 
@@ -85,6 +86,8 @@ La notazione formale riguarda principalmente variabili, variabili casuali e insi
 - Variabili: Di solito sono indicate con una lettera minuscola (ad esempio, "x" o "y"). A volte vengono indicate con la lettera maiuscola per chiarezza (ad esempio, "M" o "K").
 - Variabili casuali: Sono sempre indicate con una lettera maiuscola (ad esempio, "X" o "Y")
 - Insiemi: Sono sempre indicati con lettere maiuscole e in grassetto (ad esempio, **S**)
+
+Pronto a esplorare l'affascinante universo della crittografia? Andiamo!
 
 # Che cos'è la crittografia?
 
@@ -110,7 +113,7 @@ Morris tentò di decifrare i tre testi cifrati per vent'anni. Con la chiave sare
 
 Verso la fine della sua vita, Morriss passò la scatola a un amico nel 1862. Questo amico pubblicò poi un opuscolo nel 1885, con lo pseudonimo di J.B. Ward. L'opuscolo includeva una descrizione della (presunta) storia della scatola, i tre testi cifrati e una soluzione che aveva trovato per il secondo testo cifrato. (A quanto pare, esiste una chiave per ogni testo cifrato, e non una chiave che funziona su tutti e tre i testi cifrati, come sembra aver suggerito Beale nella sua lettera a Morriss)
 
-Il secondo testo cifrato è visibile nella *Figura 2* qui sotto. [La chiave di questo testo cifrato è la Dichiarazione di Indipendenza degli Stati Uniti. La procedura di decrittazione si riduce all'applicazione delle due regole seguenti:
+Il secondo testo cifrato è visibile nella *Figura 2* qui sotto. La chiave di questo testo cifrato è la Dichiarazione di Indipendenza degli Stati Uniti. La procedura di decrittazione si riduce all'applicazione delle due regole seguenti:
 
 
 - Per qualsiasi numero n nel testo cifrato, individuare l'ennesima parola della Dichiarazione d'Indipendenza degli Stati Uniti
@@ -136,7 +139,7 @@ Dopo la decrittazione, il secondo messaggio fornisce il contenuto dettagliato de
 
 Storie colorate come quella dei cifrari di Beale sono ciò che la maggior parte di noi associa alla crittografia. Tuttavia, la crittografia moderna si differenzia per almeno quattro aspetti importanti da questi esempi storici.
 
-In primo luogo, storicamente la crittografia si è occupata solo di **segretezza** (o riservatezza). [I crittogrammi verrebbero creati per garantire che solo alcuni soggetti possano essere a conoscenza delle informazioni contenute nei testi in chiaro, come nel caso dei cifrari di Beale. Affinché uno schema di crittografia serva bene a questo scopo, la decrittazione del testo cifrato deve essere possibile solo se si possiede la chiave.
+In primo luogo, storicamente la crittografia si è occupata solo di **segretezza** (o riservatezza). I crittogrammi verrebbero creati per garantire che solo alcuni soggetti possano essere a conoscenza delle informazioni contenute nei testi in chiaro, come nel caso dei cifrari di Beale. Affinché uno schema di crittografia serva bene a questo scopo, la decrittazione del testo cifrato deve essere possibile solo se si possiede la chiave.
 
 La crittografia moderna si occupa di una gamma di temi più ampia della semplice segretezza. Questi temi includono principalmente (1) l'**integrità del messaggio**, cioè la garanzia che un messaggio non sia stato modificato; (2) l'**autenticità del messaggio**, cioè la garanzia che un messaggio provenga realmente da un determinato mittente; e (3) il **non ripudio**, cioè la garanzia che un mittente non possa falsamente negare in seguito di aver inviato un messaggio. [4]
 
@@ -164,7 +167,7 @@ In particolare, la crittografia moderna è incentrata sulle **prove di sicurezza
 
 In quarto luogo, mentre storicamente la crittografia veniva utilizzata principalmente in ambito militare, nell'era digitale è arrivata a permeare le nostre attività quotidiane. Che si tratti di effettuare operazioni bancarie online, di postare sui social media, di acquistare un prodotto su Amazon con la carta di credito o di dare una mancia in bitcoin a un amico, la crittografia è la conditio sine qua non della nostra era digitale.
 
-Considerati questi quattro aspetti della crittografia moderna, potremmo definire la **crittografia** moderna come la scienza che si occupa dello sviluppo e dell'analisi formale di schemi crittografici per proteggere le informazioni digitali da attacchi avversari. [La sicurezza deve essere intesa in senso lato come la prevenzione di attacchi che danneggiano la segretezza, l'integrità, l'autenticazione e/o il non ripudio delle comunicazioni.
+Considerati questi quattro aspetti della crittografia moderna, potremmo definire la **crittografia** moderna come la scienza che si occupa dello sviluppo e dell'analisi formale di schemi crittografici per proteggere le informazioni digitali da attacchi avversari. La sicurezza deve essere intesa in senso lato come la prevenzione di attacchi che danneggiano la segretezza, l'integrità, l'autenticazione e/o il non ripudio delle comunicazioni.
 
 La crittografia è vista come una sottodisciplina della **cbersicurezza**, che si occupa di prevenire il furto, il danneggiamento e l'uso improprio dei sistemi informatici. Si noti che molti problemi di cybersecurity hanno una connessione minima o parziale con la crittografia.
 
@@ -227,7 +230,7 @@ Ogni volta che si **campiona** una variabile casuale, si estrae un particolare v
 Passiamo a un semplice esempio. Supponiamo che una variabile X sia definita come segue:
 
 
-- X ha l'insieme di risultati ${1,2\}$
+- X ha l'insieme di risultati ${1,2}$
 
 $$
 Pr[X = 1] = 0.5
@@ -291,7 +294,7 @@ Nell'espressione "variabile casuale", il termine "casuale" significa semplicemen
 
 Una variabile **uniforme** è un caso speciale di variabile casuale. Può assumere due o più valori, tutti con la stessa probabilità. La variabile casuale $X$ rappresentata nella *Figura 1* è chiaramente una variabile uniforme, poiché entrambi i possibili risultati si verificano con una probabilità di $0,5$. Esistono tuttavia molte variabili casuali che non sono istanze di variabili uniformi.
 
-Consideriamo, ad esempio, la variabile casuale $Y$. Essa ha un insieme di risultati $\{1, 2, 3, 8, 10}$ e la seguente distribuzione di probabilità:
+Consideriamo, ad esempio, la variabile casuale $Y$. Essa ha un insieme di risultati ${1, 2, 3, 8, 10}$ e la seguente distribuzione di probabilità:
 
 $$
 \Pr[Y = 1] = 0.25
@@ -417,7 +420,7 @@ Potrei, per esempio, chiedervi la probabilità che i maiali volino entro il 2030
 
 ### Modulo
 
-L'espressione più elementare con l'operazione **modulo** è della forma seguente: $x \modo y$.
+L'espressione più elementare con l'operazione **modulo** è della forma seguente: $x \mod y$.
 
 La variabile $x$ è chiamata dividendo e la variabile $y$ divisore. Per eseguire un'operazione modulo con un dividendo positivo e un divisore positivo, basta determinare il resto della divisione.
 
@@ -440,13 +443,13 @@ Si incontreranno sicuramente casi con un dividendo negativo in crittografia. In 
 Per esempio, supponiamo che il dividendo sia $20$ e il divisore 3. Il valore più vicino inferiore o uguale a $20$ in cui 3 si divide uniformemente è $21$. Il valore di $x - p$ in questo caso è $-20 - (-21)$. Questo valore è uguale a 1 e, quindi, $-20 \mod 3$ è uguale a 1. In modo analogo, possiamo valutare le espressioni seguenti:
 
 
-- $-8 ´mod 5 = 2$
-- $-19 ´mod 16 = 13$
-- $-14 ´mod 6 = 4$
+- $-8 \mod 5 = 2$
+- $-19 \mod 16 = 13$
+- $-14 \mod 6 = 4$
 
 Per quanto riguarda la notazione, in genere si vedono i seguenti tipi di espressioni: $x = [y \mod z]$. A causa delle parentesi, in questo caso l'operazione modulo si applica solo al lato destro dell'espressione. Se $y$ è uguale a 25 e $z$ è uguale a 4, ad esempio, allora $x$ è valutato 1.
 
-Senza parentesi, l'operazione modulo agisce su *entrambi* i lati di un'espressione. Supponiamo, ad esempio, la seguente espressione: $x = y \modulo z$. Se $y$ è uguale a 25 e $z$ è uguale a 4, tutto ciò che sappiamo è che $x \mod 4$ è valutato 1. Questo è coerente con qualsiasi valore di $x$ dell'insieme ${\ldots,-7, -3, 1, 5, 9,\ldots\}$.
+Senza parentesi, l'operazione modulo agisce su *entrambi* i lati di un'espressione. Supponiamo, ad esempio, la seguente espressione: $x = y \mod z$. Se $y$ è uguale a 25 e $z$ è uguale a 4, tutto ciò che sappiamo è che $x \mod 4$ è valutato 1. Questo è coerente con qualsiasi valore di $x$ dell'insieme ${\ldots,-7, -3, 1, 5, 9,\ldots}$
 
 Il ramo della matematica che coinvolge le operazioni modulo su numeri ed espressioni è denominato **aritmetica modulare**. Si può pensare a questo ramo come all'aritmetica per i casi in cui la linea dei numeri non è infinitamente lunga. Sebbene in crittografia le operazioni modulo siano tipicamente eseguite con numeri interi (positivi), è possibile eseguire operazioni modulo anche con qualsiasi numero reale.
 
@@ -454,10 +457,10 @@ Il ramo della matematica che coinvolge le operazioni modulo su numeri ed espress
 
 L'operazione modulo si incontra spesso in crittografia. Per illustrarla, consideriamo uno degli schemi di crittografia storici più famosi: il cifrario a turni.
 
-Definiamolo innanzitutto. Supponiamo un dizionario *D* che equipara tutte le lettere dell'alfabeto inglese, in ordine, con l'insieme dei numeri ${0, 1, 2, \ldots, 25\}$. Si assuma uno spazio dei messaggi **M**. Il **cifrario a spostamento** è, quindi, uno schema di cifratura definito come segue:
+Definiamolo innanzitutto. Supponiamo un dizionario *D* che equipara tutte le lettere dell'alfabeto inglese, in ordine, con l'insieme dei numeri ${0, 1, 2, \ldots, 25}$. Si assuma uno spazio dei messaggi **M**. Il **cifrario a spostamento** è, quindi, uno schema di cifratura definito come segue:
 
 
-- Selezionare uniformemente una chiave $k$ dallo spazio delle chiavi **K**, dove **K** = ${0, 1, 2, \ldots, 25\}$ [1]
+- Selezionare uniformemente una chiave $k$ dallo spazio delle chiavi **K**, dove **K** = ${0, 1, 2, \ldots, 25}$ [1]
 - Crittografare un messaggio $m \ in \mathbf{M}$, come segue:
     - Separare $m$ nelle sue singole lettere $m_0, m_1, \ldots, m_i, \ldots, m_l$
     - Convertire ogni $m_i$ in un numero secondo *D*
@@ -478,7 +481,7 @@ L'intera codifica della parola "DOG" con un valore chiave di 17 è la seguente:
 
 
 - Messaggio = DOG = D,O,G = 3,15,6
-- $c_0 = [(3 + 17) \modulo 26] = [(20) \modulo 26] = 20 = U$
+- $c_0 = [(3 + 17) \mod 26] = [(20) \mod 26] = 20 = U$
 - $c_1 = [(15 + 17) \mod 26] = [(32) \mod 26] = 6 = G$
 - $c_2 = [(6 + 17) \mod 26] = [(23) \mod 26] = 23 = X$
 - $c = UGX$
@@ -511,8 +514,8 @@ Un'operazione matematica chiave da comprendere per la crittografia moderna, oltr
 
 
 - $0 \oplus 0 = 0$
-- 0$ \oplus 1 = 1$
-- 1$ \oplus 0 = 1$
+- $0 \oplus 1 = 1$
+- $1 \oplus 0 = 1$
 - $1 \oplus 1 = 0$
 
 A titolo di esempio, si supponga di avere un messaggio $m_1$ (01111001) e un messaggio $m_2$ (01011001). L'operazione XOR di questi due messaggi può essere vista qui sotto.
@@ -608,11 +611,11 @@ Gli insiemi dell'algebra astratta possono trattare molti tipi di oggetti, dalle 
 
 Un concetto fondamentale in matematica è quello di insieme di elementi. Un insieme è solitamente indicato da segni di riconoscimento con gli elementi separati da virgole.
 
-Ad esempio, l'insieme di tutti i numeri interi è ${{..., -2, -1, 0, 1, 2, ...\}$. Le ellissi qui significano che un certo schema continua in una particolare direzione. Quindi l'insieme di tutti i numeri interi comprende anche $3, 4, 5, 6$ e così via, così come $3, -4, -5, -6$ e così via. Questo insieme di tutti i numeri interi è tipicamente indicato con $mathbb{Z}$.
+Ad esempio, l'insieme di tutti i numeri interi è $\{..., -2, -1, 0, 1, 2, ...\}$. Le ellissi qui significano che un certo schema continua in una particolare direzione. Quindi l'insieme di tutti i numeri interi comprende anche $3, 4, 5, 6$ e così via, così come $-3, -4, -5, -6$ e così via. Questo insieme di tutti i numeri interi è tipicamente indicato con $\mathbb{Z}$.
 
-Un altro esempio di insieme è $mathbb{Z} \mod 11$, ovvero l'insieme di tutti i numeri interi modulo 11$. A differenza dell'intero insieme $\mathbb{Z}$, questo insieme contiene solo un numero finito di elementi, ovvero $\{0, 1, \ldots, 9, 10\}$.
+Un altro esempio di insieme è $\mathbb{Z} \mod 11$, ovvero l'insieme di tutti i numeri interi modulo $11$. A differenza dell'intero insieme $\mathbb{Z}$, questo insieme contiene solo un numero finito di elementi, ovvero $\{0, 1, \ldots, 9, 10\}$.
 
-Un errore comune è pensare che l'insieme $mathbb{Z} \mod 11$ sia in realtà $\{-10, -9, \ldots, 0, \ldots, 9, 10\}$. Ma non è questo il caso, dato il modo in cui abbiamo definito l'operazione modulo in precedenza. Qualsiasi intero negativo ridotto con modulo 11 si avvolge su $\{0, 1, \ldots, 9, 10\}$. Per esempio, l'espressione $-2 \mod 11$ si avvolge su $9$, mentre l'espressione $-27 \mod 11$ si avvolge su $5$.
+Un errore comune è pensare che l'insieme $\mathbb{Z} \mod 11$ sia in realtà $\{-10, -9, \ldots, 0, \ldots, 9, 10\}$. Ma non è questo il caso, dato il modo in cui abbiamo definito l'operazione modulo in precedenza. Qualsiasi intero negativo ridotto con modulo 11 si avvolge su $\{0, 1, \ldots, 9, 10\}$. Per esempio, l'espressione $-2 \mod 11$ si avvolge su $9$, mentre l'espressione $-27 \mod 11$ si avvolge su $5$.
 
 Un altro concetto fondamentale della matematica è quello di operazione binaria. Si tratta di qualsiasi operazione che prende due elementi per produrne un terzo. Per esempio, dall'aritmetica e dall'algebra di base si conoscono le quattro operazioni binarie fondamentali: addizione, sottrazione, moltiplicazione e divisione.
 
@@ -620,31 +623,30 @@ Questi due concetti matematici di base, gli insiemi e le operazioni binarie, son
 
 In particolare, supponiamo un'operazione binaria $circ$. Inoltre, supponiamo un insieme di elementi **S** dotato di tale operazione. "Dotato" significa solo che l'operazione $circ$ può essere eseguita tra due elementi qualsiasi dell'insieme **S**.
 
-La combinazione $angolo \mathbf{S}, \circ \rangolo$ è, quindi, un **gruppo** se soddisfa quattro condizioni specifiche, note come assiomi di gruppo.
+La combinazione $\langle \mathbf{S}, \circ \rangle$ è, quindi, un **gruppo** se soddisfa quattro condizioni specifiche, note come assiomi di gruppo.
+1. Per ogni $a$ e $b$ che sono elementi di $\mathbf{S}$, $a \circ b$ è anche un elemento di $\mathbf{S}$. Questa è nota come **condizione di chiusura**.
 
-1. Per ogni $a$ e $b$ che sono elementi di $mathbf{S}$, $a \circ b$ è anche un elemento di $mathbf{S}$. Questa è nota come **condizione di chiusura**.
+2. Per qualsiasi $a$, $b$ e $c$ che siano elementi di $\mathbf{S}$, si ha che $(a \circ b) \circ c = a \circ (b \circ c)$. Questa è nota come **condizione di associabilità**.
 
-2. Per qualsiasi $a$, $b$ e $c$ che siano elementi di $mathbf{S}$, si ha che $(a \circ b) \circ c = a \circ (b \circ c)$. Questa è nota come **condizione di associabilità**.
+3. Esiste un unico elemento $e$ in $\mathbf{S}$, tale che per ogni elemento $a$ in $\mathbf{S}$, vale la seguente equazione: $e \circ a = a \circ e = a$. Poiché esiste un solo elemento di questo tipo, $e$ è chiamato **elemento di identità**. Questa condizione è nota come **condizione di identità**.
 
-3. Esiste un unico elemento $e$ in $mathbf{S}$, tale che per ogni elemento $a$ in $mathbf{S}$, vale la seguente equazione: $e \circ a = a \circ e = a$. Poiché esiste un solo elemento di questo tipo, $e$ è chiamato **elemento di identità**. Questa condizione è nota come **condizione di identità**.
+4. Per ogni elemento $a$ in $\mathbf{S}$, esiste un elemento $b$ in $\mathbf{S}$, tale che la seguente equazione sia valida: $a \circ b = b \circ a = e$, dove $e$ è l'elemento identità. L'elemento $b$ è noto come **elemento inverso** e viene comunemente indicato come $a^{-1}$. Questa condizione è nota come **condizione inversa** o **condizione di invertibilità**.
 
-4. Per ogni elemento $a$ in $mathbf{S}$, esiste un elemento $b$ in $mathbf{S}$, tale che la seguente equazione sia valida: $a \circ b = b \circ a = e$, dove $e$ è l'elemento identità. L'elemento $b$ è noto come **elemento inverso** e viene comunemente indicato come $a^{-1}$. Questa condizione è nota come **condizione inversa** o **condizione di invertibilità**.
+Esploriamo ulteriormente i gruppi. Si consideri l'insieme di tutti gli interi con $\mathbb{Z}$. Questo insieme, combinato con l'addizione standard, ovvero $\langle \mathbb{Z}, + \rangle$, corrisponde chiaramente alla definizione di gruppo, in quanto soddisfa i quattro assiomi di cui sopra.
 
-Esploriamo ulteriormente i gruppi. Si consideri l'insieme di tutti gli interi con $mathbb{Z}$. Questo insieme, combinato con l'addizione standard, ovvero $mathbb{Z}, + \rangolo$, corrisponde chiaramente alla definizione di gruppo, in quanto soddisfa i quattro assiomi di cui sopra.
+1. Per ogni $x$ e $y$ che sono elementi di $\mathbb{Z}$, anche $x + y$ è un elemento di $\mathbb{Z}$. Quindi $\langle \mathbb{Z}, + \rangle$ soddisfa la condizione di chiusura.
 
-1. Per ogni $x$ e $y$ che sono elementi di $mathbb{Z}$, anche $x + y$ è un elemento di $mathbb{Z}$. Quindi $mathbb{Z}, + \rangolo$ soddisfa la condizione di chiusura.
+2. Per ogni $x$, $y$ e $z$ che sono elementi di $\mathbb{Z}$, $(x + y) + z = x + (y + z)$. Pertanto, $\langle \mathbb{Z}, + \rangle$ soddisfa la condizione di associatività.
 
-2. Per ogni $x$, $y$ e $z$ che sono elementi di $mathbb{Z}$, $(x + y) + z = x + (y + z)$. Pertanto, $il triangolo \mathbb{Z}, + \rangolo$ soddisfa la condizione di associatività.
+3. Esiste un elemento di identità in $\langle \mathbb{Z}, + \rangle$, cioè $0$. Per qualsiasi $x$ in $\mathbb{Z}$, vale cioè che: $0 + x = x + 0 = x$. Quindi $\langle \mathbb{Z}, + \rangle$ soddisfa la condizione di identità.
 
-3. Esiste un elemento di identità in $mathbb{Z}, + \rangolo$, cioè 0. Per qualsiasi $x$ in $mathbb{Z}$, vale cioè che: $0 + x = x + 0 = x$. Quindi il $angolo \mathbb{Z}, + \rangolo$ soddisfa la condizione di identità.
+4. Infine, per ogni elemento $x$ in $\mathbb{Z}$, esiste un $y$ tale che $x + y = y + x = 0$. Se $x$ fosse $10$, per esempio, $y$ sarebbe $-10$ (nel caso in cui $x$ sia $0$, anche $y$ è $0$). Quindi $\langle \mathbb{Z}, + \rangle$ soddisfa la condizione inversa.
 
-4. Infine, per ogni elemento $x$ in $mathbb{Z}$, esiste un $y$ tale che $x + y = y + x = 0$. Se $x$ fosse 10, per esempio, $y$ sarebbe $-10$ (nel caso in cui $x$ sia 0, anche $y$ è 0). Quindi il triangolo $mathbb{Z}, + \rangolo$ soddisfa la condizione inversa.
+È importante notare che il fatto che l'insieme dei numeri interi con l'addizione costituisca un gruppo non significa che costituisca un gruppo con la moltiplicazione. Lo si può verificare testando $\langle \mathbb{Z}, \cdot \rangle$ con i quattro assiomi di gruppo (dove $\cdot$ significa moltiplicazione standard).
 
-È importante notare che il fatto che l'insieme dei numeri interi con l'addizione costituisca un gruppo non significa che costituisca un gruppo con la moltiplicazione. Lo si può verificare testando $angolo ´mathbb{Z}, ´cdot ´rangolo$ con i quattro assiomi di gruppo (dove $cdot$ significa moltiplicazione standard).
+I primi due assiomi sono ovviamente validi. Inoltre, in caso di moltiplicazione, l'elemento $1$ può fungere da elemento identità. Qualsiasi intero $x$ moltiplicato per $1$, produce $x$. Tuttavia, $\langle \mathbb{Z}, \cdot \rangle$ non soddisfa la condizione inversa. Cioè, non esiste un elemento unico $y$ in $\mathbb{Z}$ per ogni $x$ in $\mathbb{Z}$, in modo che $x \cdot y = 1$.
 
-I primi due assiomi sono ovviamente validi. Inoltre, in caso di moltiplicazione, l'elemento 1 può fungere da elemento identità. Qualsiasi intero $x$ moltiplicato per 1, produce $x$. Tuttavia, il triangolo $mathbb{Z}, \cdot \rangle$ non soddisfa la condizione inversa. Cioè, non esiste un elemento unico $y$ in $mathbb{Z}$ per ogni $x$ in $mathbb{Z}$, in modo che $x \cdot y = 1$.
-
-Per esempio, supponiamo che $x = 22$. Quale valore di $y$ dell'insieme $mathbb{Z}$ moltiplicato per $x$ darebbe l'elemento identità 1? Il valore $1/22$ funzionerebbe, ma non è compreso nell'insieme $mathbb{Z}$. In effetti, il problema si presenta per qualsiasi intero $x$, a parte i valori 1 e -1 (dove $y$ dovrebbe essere rispettivamente 1 e -1).
+Per esempio, supponiamo che $x = 22$. Quale valore di $y$ dell'insieme $\mathbb{Z}$ moltiplicato per $x$ darebbe l'elemento identità $1$? Il valore $1/22$ funzionerebbe, ma non è compreso nell'insieme $\mathbb{Z}$. In effetti, il problema si presenta per qualsiasi intero $x$, a parte i valori $1$ e $-1$ (dove $y$ dovrebbe essere rispett
 
 Se ammettiamo i numeri reali per il nostro insieme, i problemi scompaiono in gran parte. Per qualsiasi elemento $x$ dell'insieme, la moltiplicazione per $1/x$ dà come risultato 1. Poiché le frazioni sono incluse nell'insieme dei numeri reali, è possibile trovare un inverso per ogni numero reale. L'eccezione è rappresentata dallo zero, in quanto qualsiasi moltiplicazione con lo zero non produrrà mai l'elemento identità 1. Quindi, l'insieme dei numeri reali non nulli dotati di moltiplicazione è effettivamente un gruppo.
 
@@ -685,74 +687,72 @@ Nell'ambito della crittografia a chiave pubblica, una certa classe di gruppi abe
 
 Supponiamo un gruppo $G$ con un'operazione di gruppo $\circ$ e che $a$ sia un elemento di $G$. L'espressione $a^n$ va quindi interpretata come l'elemento $a$ combinato con se stesso per un totale di $n - 1$ volte. Ad esempio, $a^2$ significa $a \circ a$, $a^3$ significa $a \circ a \circ a$, e così via. (Si noti che l'esponenziazione in questo caso non è necessariamente un'esponenziazione in senso aritmetico standard)
 
-Facciamo un esempio. Supponiamo che $G = \langle \mathbb{Z} \mod 7, + \rangle$, e che il nostro valore per $a$ sia uguale a 4. In questo caso, $a^2$ = [4 + 4 \mod 7] = [8 \mod 7] = 1 \mod 7$. In alternativa, $a^4$ rappresenterebbe $[4 + 4 + 4 + 4 \mod 7] = [16 \mod 7] = 2 \mod 7$.
+Facciamo un esempio. Supponiamo che $G = \langle \mathbb{Z} \mod 7, + \rangle$, e che il nostro valore per $a$ sia uguale a $4$. In questo caso, $a^2 = [4 + 4 \mod 7] = [8 \mod 7] = 1 \mod 7$. In alternativa, $a^4$ rappresenterebbe $[4 + 4 + 4 + 4 \mod 7] = [16 \mod 7] = 2 \mod 7$.
+
 
 Alcuni gruppi abeliani hanno uno o più elementi che possono generare tutti gli altri elementi del gruppo attraverso l'esponenziazione continua. Questi elementi sono chiamati **generatori** o **elementi primitivi**.
 
-Un'importante classe di tali gruppi è quella dei $mathbb{Z}^* \mod N, \cdot \rangle$, dove $N$ è un numero primo. La notazione $mathbb{Z}^*$ significa che il gruppo contiene tutti i numeri interi positivi non nulli minori di $N$. Un gruppo di questo tipo, quindi, ha sempre $N - 1$ elementi.
+Un'importante classe di tali gruppi è quella dei $\mathbb{Z}^* \mod N, \cdot \rangle$, dove $N$ è un numero primo. La notazione $\mathbb{Z}^*$ significa che il gruppo contiene tutti i numeri interi positivi non nulli minori di $N$. Un gruppo di questo tipo, quindi, ha sempre $N - 1$ elementi.
 
-Consideriamo, ad esempio, $G = \langolo \mathbb{Z}^* \mod 11, \cdot \rangolo$. Questo gruppo ha i seguenti elementi: $\{1, 2, 3, 4, 5, 6, 7, 8, 9, 10\}$. L'ordine di questo gruppo è 10 (che è appunto uguale a $11 - 1$).
+Consideriamo, ad esempio, $G = \langle \mathbb{Z}^* \mod 11, \cdot \rangle$. Questo gruppo ha i seguenti elementi: $\{1, 2, 3, 4, 5, 6, 7, 8, 9, 10\}$. L'ordine di questo gruppo è $10$ (che è appunto uguale a $11 - 1$).
 
 Esploriamo l'esponenziazione dell'elemento 2 di questo gruppo. I calcoli fino a $2^{12}$ sono mostrati di seguito. Si noti che sul lato sinistro dell'equazione, l'esponente si riferisce all'esponenziazione dell'elemento del gruppo. Nel nostro esempio particolare, si tratta effettivamente di un'esponenziazione aritmetica sul lato destro dell'equazione (ma potrebbe anche trattarsi, per esempio, di un'addizione). Per chiarire, ho scritto l'operazione ripetuta, piuttosto che la forma dell'esponente sul lato destro.
-
-
-- $2^1 = 2 ´modulo 11$
+- $2^1 = 2 \mod 11$
 - $2^2 = 2 \cdot 2 \mod 11 = 4 \mod 11$
 - $2^3 = 2 \cdot 2 \cdot 2 \mod 11 = 8 \mod 11$
-- $2^4 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 11 = 16 \cdot 11 = 5 \cdot 11$
-- $2^5 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 11 = 32 \cdot 11 = 10 \cdot 11$
-- $2^6 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 11 = 64 \cdot 11 = 9 \cdot 11$
-- $2^7 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 11 = 128 \cdot 11 = 7 \cdot 11$
-- $2^8 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 11 = 256 \cdot 11 = 3 \cdot 11$
-- $2^9 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 11 = 512 \cdot 11 = 6 \cdot 11$
-- $2^{10} = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 11 = 1024 \cdot 11 = 1 \cdot 11$
-- $2^{11} = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 11 = 2048 \cdot 11 = 2 \cdot 11$
-- $2^{12} = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 11 = 4096 \cdot 11 = 4 \cdot 11$
+- $2^4 = 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 16 \mod 11 = 5$
+- $2^5 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 32 \mod 11 = 10$
+- $2^6 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 64 \mod 11 = 9$
+- $2^7 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 128 \mod 11 = 7$
+- $2^8 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 256 \mod 11 = 3$
+- $2^9 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 512 \mod 11 = 6$
+- $2^{10} = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 1024 \mod 11 = 1$
+- $2^{11} = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 2048 \mod 11 = 2$
+- $2^{12} = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 4096 \mod 11 = 4$
 
-Se si osserva attentamente, si può notare che l'esponenziazione dell'elemento 2 attraversa tutti gli elementi del $angolo \mathbb{Z}^* \mod 11, \cdot \rangle$ nel seguente ordine: 2, 4, 8, 5, 10, 9, 7, 3, 6, 1. Dopo $2^{10}$, l'esponenziazione continua dell'elemento 2 attraversa nuovamente tutti gli elementi nello stesso ordine. Quindi, l'elemento 2 è un generatore in $angolo \mathbb{Z}^* \mod 11, \cdot \rangle$.
+Se si osserva attentamente, si può notare che l'esponenziazione dell'elemento $2$ attraversa tutti gli elementi del $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$ nel seguente ordine: $2, 4, 8, 5, 10, 9, 7, 3, 6, 1$. Dopo $2^{10}$, l'esponenziazione continua dell'elemento $2$ attraversa nuovamente tutti gli elementi nello stesso ordine. Quindi, l'elemento $2$ è un generatore in $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$.
 
-Sebbene il $angolo \mathbb{Z}^* \mod 11, \cdot \rangle$ abbia più generatori, non tutti gli elementi di questo gruppo sono generatori. Consideriamo, ad esempio, l'elemento 3. Eseguendo le prime 10 esponenziazioni, senza mostrare i complicati calcoli, si ottengono i seguenti risultati:
+Sebbene il $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$ abbia più generatori, non tutti gli elementi di questo gruppo sono generatori. Consideriamo, ad esempio, l'elemento $3$. Eseguendo le prime $10$ esponenziazioni, senza mostrare i complicati calcoli, si ottengono i seguenti risultati:
 
-
-- $3^1 = 3 \code(01)\code(01)‖
-- $3^2 = 9 \modo 11$
+- $3^1 = 3 \mod 11$
+- $3^2 = 9 \mod 11$
 - $3^3 = 5 \mod 11$
-- $3^4 = 4 \code(01)\code(01)‖
-- $3^5 = 1 ´modulo 11$
+- $3^4 = 4 \mod 11$
+- $3^5 = 1 \mod 11$
 - $3^6 = 3 \mod 11$
-- $3^7 = 9 \modo 11$
-- $3^8 = 5 \modo 11$
-- $3^9 = 4 ´modulo 11$
-- $3^{10} = 1 ´modulo 11$
+- $3^7 = 9 \mod 11$
+- $3^8 = 5 \mod 11$
+- $3^9 = 4 \mod 11$
+- $3^{10} = 1 \mod 11$
 
-Invece di scorrere tutti i valori in $angolo \mathbb{Z}^* \mod 11, \cdot \rangolo$, l'esponenziazione dell'elemento 3 porta solo a un sottoinsieme di questi valori: 3, 9, 5, 4 e 1. Dopo la quinta esponenziazione, questi valori iniziano a ripetersi.
+Invece di scorrere tutti i valori in $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$, l'esponenziazione dell'elemento $3$ porta solo a un sottoinsieme di questi valori: $3, 9, 5, 4$ e $1$. Dopo la quinta esponenziazione, questi valori iniziano a ripetersi.
 
 Possiamo ora definire un **gruppo ciclico** come qualsiasi gruppo con almeno un generatore. Cioè, esiste almeno un elemento del gruppo dal quale è possibile produrre tutti gli altri elementi del gruppo attraverso l'esponenziazione.
 
-Avrete notato nell'esempio precedente che sia $2^{10}$ che $3^{10}$ sono uguali a $1 \mod 11$. In effetti, anche se non eseguiremo i calcoli, l'esponenziazione per 10 di qualsiasi elemento del gruppo $angolo \mathbb{Z}^* \modulo 11, \cdot \rangolo$ darà come risultato $1 \modulo 11$. Perché è così?
+Avrete notato nell'esempio precedente che sia $2^{10}$ che $3^{10}$ sono uguali a $1 \mod 11$. In effetti, anche se non eseguiremo i calcoli, l'esponenziazione per $10$ di qualsiasi elemento del gruppo $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$ darà come risultato $1 \mod 11$. Perché è così?
 
 Si tratta di una domanda importante, ma la risposta richiede un po' di lavoro.
 
 Per iniziare, supponiamo due numeri interi positivi $a$ e $N$. Un importante teorema della teoria dei numeri afferma che $a$ ha un inverso moltiplicativo modulo $N$ (cioè un intero $b$ tale che $a \cdot b = 1 \mod N$) se e solo se il massimo comun divisore tra $a$ e $N$ è uguale a 1. Ovvero, se $a$ e $N$ sono coprimari.
 
-Quindi, per qualsiasi gruppo di interi dotato di moltiplicazione modulo $N$, solo i coprimeri minori con $N$ sono inclusi nell'insieme. Possiamo indicare questo insieme con $mathbb{Z}^c \mod N$.
+Quindi, per qualsiasi gruppo di interi dotato di moltiplicazione modulo $N$, solo i coprimeri minori con $N$ sono inclusi nell'insieme. Possiamo indicare questo insieme con $\mathbb{Z}^c \mod N$.
 
-Ad esempio, supponiamo che $N$ sia 10. Solo i numeri interi 1, 3, 7 e 9 sono coprimari di 10. Quindi l'insieme $mathbb{Z}^c \mod 10$ include solo ${1, 3, 7, 9}$. Non è possibile creare un gruppo con moltiplicazione intera modulo 10 usando altri numeri interi tra 1 e 10. Per questo particolare gruppo, gli inversi sono le coppie 1 e 9 e 3 e 7.
+Ad esempio, supponiamo che $N$ sia $10$. Solo i numeri interi $1$, $3$, $7$ e $9$ sono coprimari di $10$. Quindi l'insieme $\mathbb{Z}^c \mod 10$ include solo $\{1, 3, 7, 9\}$. Non è possibile creare un gruppo con moltiplicazione intera modulo $10$ usando altri numeri interi tra $1$ e $10$. Per questo particolare gruppo, gli inversi sono le coppie $1$ e $9$ e $3$ e $7$.
 
-Nel caso in cui $N$ stesso sia primo, tutti i numeri interi da 1 a $N - 1$ sono coprimari di $N$. Un gruppo di questo tipo ha quindi un ordine di $N - 1$. Utilizzando la notazione precedente, $mathbb{Z}^c \mod N$ equivale a $mathbb{Z}^* \mod N$ quando $N$ è primo. Il gruppo scelto per l'esempio precedente, $mathbb{Z}^* \mod 11, \cdot \rangle$, è un'istanza particolare di questa classe di gruppi.
+Nel caso in cui $N$ stesso sia primo, tutti i numeri interi da $1$ a $N - 1$ sono coprimari di $N$. Un gruppo di questo tipo ha quindi un ordine di $N - 1$. Utilizzando la notazione precedente, $\mathbb{Z}^c \mod N$ equivale a $\mathbb{Z}^* \mod N$ quando $N$ è primo. Il gruppo scelto per l'esempio precedente, $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$, è un'istanza particolare di questa classe di gruppi.
 
-Successivamente, la funzione $\phi(N)$ calcola il numero di coprimi fino a un numero $N$, ed è nota come **funzione Phi di Eulero**. [Secondo il **teorema di Eulero**, quando due numeri interi $a$ e $N$ sono coprimi, vale quanto segue:
+Successivamente, la funzione $\phi(N)$ calcola il numero di coprimi fino a un numero $N$, ed è nota come **funzione Phi di Eulero**. Secondo il **teorema di Eulero**, quando due numeri interi $a$ e $N$ sono coprimi, vale quanto segue:
 
 
 - $a^{\phi(N)} \mod N = 1 \mod N$
 
-Ciò ha un'importante implicazione per la classe di gruppi $angolo \mathbb{Z}^* \mod N, \cdot \rangolo$ dove $N$ è primo. Per questi gruppi, l'esponenziazione degli elementi del gruppo rappresenta l'esponenziazione aritmetica. Cioè, $a^{\phi(N)} \mod N$ rappresenta l'operazione aritmetica $a^{\phi(N)} \mod N$. Poiché qualsiasi elemento $a$ in questi gruppi moltiplicativi è coprimo con $N$, significa che $a^{\phi(N)} \mod N = a^{N - 1} \mod N = 1 \mod N$.
+Ciò ha un'importante implicazione per la classe di gruppi $\langle \mathbb{Z}^* \mod N, \cdot \rangle$ dove $N$ è primo. Per questi gruppi, l'esponenziazione degli elementi del gruppo rappresenta l'esponenziazione aritmetica. Cioè, $a^{\phi(N)} \mod N$ rappresenta l'operazione aritmetica $a^{\phi(N)} \mod N$. Poiché qualsiasi elemento $a$ in questi gruppi moltiplicativi è coprimo con $N$, significa che $a^{\phi(N)} \mod N = a^{N - 1} \mod N = 1 \mod N$.
 
-Il teorema di Eulero è un risultato molto importante. Per cominciare, implica che tutti gli elementi del $angolo \mathbb{Z}^* \mod N, \cdot \rangle$ possono passare attraverso un numero di valori per esponenziazione che si divide in $N - 1$. Nel caso del $angolo \mathbb{Z}^* \mod 11, \cdot \rangle$, ciò significa che ogni elemento può percorrere solo 2, 5 o 10 elementi. Il gruppo di valori attraverso i quali un elemento può passare attraverso l'esponenziazione è noto come **ordine dell'elemento**. Un elemento con un ordine equivalente all'ordine di un gruppo è un generatore.
+Il teorema di Eulero è un risultato molto importante. Per cominciare, implica che tutti gli elementi del $\langle \mathbb{Z}^* \mod N, \cdot \rangle$ possono passare attraverso un numero di valori per esponenziazione che si divide in $N - 1$. Nel caso del $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$, ciò significa che ogni elemento può percorrere solo $2$, $5$ o $10$ elementi. Il gruppo di valori attraverso i quali un elemento può passare attraverso l'esponenziazione è noto come **ordine dell'elemento**. Un elemento con un ordine equivalente all'ordine di un gruppo è un generatore.
 
-Inoltre, il teorema di Eulero implica che possiamo sempre conoscere il risultato di $a^{N - 1} \modo N$ per qualsiasi gruppo $angolo \mathbb{Z}^* \modo N, \cdot \rangolo$ dove $N$ è primo. Questo vale indipendentemente dalla complessità dei calcoli effettivi.
+Inoltre, il teorema di Eulero implica che possiamo sempre conoscere il risultato di $a^{N - 1} \mod N$ per qualsiasi gruppo $\langle \mathbb{Z}^* \mod N, \cdot \rangle$ dove $N$ è primo. Questo vale indipendentemente dalla complessità dei calcoli effettivi.
 
-Per esempio, supponiamo che il nostro gruppo sia $mathbb{Z}^* \mod 160,481,182$ (dove 160,481,182 è effettivamente un numero primo). Sappiamo che tutti gli interi da 1 a 160.481.181 devono essere elementi di questo gruppo e che $\phi(n) = 160.481.181$. Anche se non possiamo fare tutti i calcoli, sappiamo che espressioni come $514^{160,481,181}$, $2,005^{160,481,181}$ e $256,212^{160,481,181}$ devono essere tutte valutate come $1^{160,481,182$.
+Per esempio, supponiamo che il nostro gruppo sia $\mathbb{Z}^* \mod 160,481,182$ (dove $160,481,182$ è effettivamente un numero primo). Sappiamo che tutti gli interi da $1$ a $160,481,181$ devono essere elementi di questo gruppo e che $\phi(n) = 160,481,181$. Anche se non possiamo fare tutti i calcoli, sappiamo che espressioni come $514^{160,481,181}$, $2,005^{160,481,181}$ e $256,212^{160,481,181}$ devono essere tutte valutate come $1 \mod 160,481,182$.
 
 **Note:**
 
@@ -770,25 +770,25 @@ Formula della funzione Phi di Eulero per la fattorizzazione dei primi di $N$.
 
 Un gruppo è la struttura algebrica di base dell'algebra astratta, ma ne esistono molte altre. L'unica altra struttura algebrica con cui è necessario avere familiarità è quella di un **campo**, in particolare di un **campo finito**. Questo tipo di struttura algebrica è spesso utilizzata in crittografia, come ad esempio nell'Advanced Encryption Standard. Quest'ultimo è il principale schema di crittografia simmetrica che si incontra nella pratica.
 
-Un campo deriva dalla nozione di gruppo. In particolare, un **campo** è un insieme di elementi **S** dotato di due operatori binari $circ$ e $diamond$, che soddisfa le seguenti condizioni:
+Un campo deriva dalla nozione di gruppo. In particolare, un **campo** è un insieme di elementi **S** dotato di due operatori binari $\circ$ e $\diamond$, che soddisfa le seguenti condizioni:
 
-1. L'insieme **S** dotato di $circ$ è un gruppo abeliano.
+1. L'insieme **S** dotato di $\circ$ è un gruppo abeliano.
 
-2. L'insieme **S** dotato di $diamante$ è un gruppo abeliano per gli elementi "non nulli".
+2. L'insieme **S** dotato di $\diamond$ è un gruppo abeliano per gli elementi "non nulli".
 
 3. L'insieme **S** dotato dei due operatori soddisfa la cosiddetta condizione distributiva: Supponiamo che $a$, $b$ e $c$ siano elementi di **S**. Allora **S** dotato dei due operatori soddisfa la proprietà distributiva quando $a \circ (b \diamond c) = (a \circ b) \diamond (a \circ c)$.
 
 Si noti che, come per i gruppi, la definizione di campo è molto astratta. Non fa affermazioni sui tipi di elementi in **S**, né sulle operazioni $\circ$ e $\diamond$. Si limita ad affermare che un campo è un qualsiasi insieme di elementi con due operazioni per il quale valgono le tre condizioni di cui sopra. (L'elemento "zero" del secondo gruppo abeliano può essere interpretato astrattamente)
 
-Quale potrebbe essere un esempio di campo? Un buon esempio è l'insieme $mathbb{Z} \mod 7$, ovvero ${0, 1, \ldots, 7\}$ definito su addizione standard (al posto del precedente $circ$) e moltiplicazione standard (al posto del precedente $diamond$).
+Quale potrebbe essere un esempio di campo? Un buon esempio è l'insieme $\mathbb{Z} \mod 7$, ovvero $\{0, 1, \ldots, 6\}$ definito su addizione standard (al posto del precedente $\circ$) e moltiplicazione standard (al posto del precedente $\diamond$).
 
-Innanzitutto, $mathbb{Z} \mod 7$ soddisfa la condizione di gruppo abeliano per addizione, e soddisfa la condizione di gruppo abeliano per moltiplicazione se si considerano solo gli elementi non nulli. In secondo luogo, la combinazione dell'insieme con i due operatori soddisfa la condizione distributiva.
+Innanzitutto, $\mathbb{Z} \mod 7$ soddisfa la condizione di gruppo abeliano per addizione, e soddisfa la condizione di gruppo abeliano per moltiplicazione se si considerano solo gli elementi non nulli. In secondo luogo, la combinazione dell'insieme con i due operatori soddisfa la condizione distributiva.
 
-È didatticamente utile esplorare queste affermazioni utilizzando alcuni valori particolari. Prendiamo i valori sperimentali 5, 2 e 3, elementi scelti a caso dall'insieme $mathbb{Z} \mod 7$, per ispezionare il campo $angolo \mathbb{Z} \mod 7, +, \cdot \rangle$. Utilizzeremo questi tre valori in ordine sparso, secondo le necessità, per esplorare condizioni particolari.
+È didatticamente utile esplorare queste affermazioni utilizzando alcuni valori particolari. Prendiamo i valori sperimentali $5$, $2$ e $3$, elementi scelti a caso dall'insieme $\mathbb{Z} \mod 7$, per ispezionare il campo $\langle \mathbb{Z} \mod 7, +, \cdot \rangle$. Utilizzeremo questi tre valori in ordine sparso, secondo le necessità, per esplorare condizioni particolari.
 
-Cerchiamo innanzitutto di capire se $mathbb{Z} \mod 7$ dotato di addizione è un gruppo abeliano.
+Cerchiamo innanzitutto di capire se $\mathbb{Z} \mod 7$ dotato di addizione è un gruppo abeliano.
 
-1. **Condizione di chiusura**: Prendiamo 5 e 2 come valori. In questo caso, $[5 + 2] \mod 7 = 7 \mod 7 = 0$. Questo è effettivamente un elemento di $mathbb{Z} \mod 7$, quindi il risultato è coerente con la condizione di chiusura.
+1. **Condizione di chiusura**: Prendiamo $5$ e $2$ come valori. In questo caso, $[5 + 2] \mod 7 = 7 \mod 7 = 0$. Questo è effettivamente un elemento di $\mathbb{Z} \mod 7$, quindi il risultato è coerente con la condizione di chiusura.
 
 2. **Condizione di associabilità**: Prendiamo 5, 2 e 3 come valori. In questo caso, $[(5 + 2) + 3] \mod 7 = [5 + (2 + 3)] \mod 7 = 10 \mod 7 = 3$. Questo è coerente con la condizione di associatività.
 
@@ -798,7 +798,7 @@ Cerchiamo innanzitutto di capire se $mathbb{Z} \mod 7$ dotato di addizione è un
 
 5. **Condizione di commutatività**: Prendiamo 5 e 3 come valori. In questo caso, $[5 + 3] \mod 7 = [3 + 5] \mod 7 = 1$. Questo è coerente con la condizione di commutatività.
 
-L'insieme $mathbb{Z} \mod 7$ dotato di addizione appare chiaramente come un gruppo abeliano. Vediamo ora se $mathbb{Z} \mod 7$ dotato di moltiplicazione è un gruppo abeliano per tutti gli elementi non nulli.
+L'insieme $\mathbb{Z} \mod 7$ dotato di addizione appare chiaramente come un gruppo abeliano. Vediamo ora se $\mathbb{Z} \mod 7$ dotato di moltiplicazione è un gruppo abeliano per tutti gli elementi non nulli.
 
 1. **Condizione di chiusura**: Prendiamo 5 e 2 come valori. In questo caso, $[5 \cdot 2] \mod 7 = 10 \mod 7 = 3$. Anche questo è un elemento di $mathbb{Z} \mod 7$, quindi il risultato è coerente con la condizione di chiusura.
 
@@ -806,25 +806,25 @@ L'insieme $mathbb{Z} \mod 7$ dotato di addizione appare chiaramente come un grup
 
 3. **Condizione di identità**: Prendiamo 5 come valore. In questo caso, $[5 \cdot 1] \mod 7 = [1 \cdot 5] \mod 7 = 5$. Quindi 1 sembra essere l'elemento di identità per la moltiplicazione.
 
-4. **Condizione inversa**: Consideriamo l'inverso di 5. Deve essere il caso che $[5 \cdot d] \mod 7 = 1$, per qualche valore di $d$. L'unico valore di $mathbb{Z} \mod 7$ che soddisfa questa condizione è 3$. Questo è coerente con la condizione inversa.
+4. **Condizione inversa**: Consideriamo l'inverso di $5$. Deve essere il caso che $[5 \cdot d] \mod 7 = 1$, per qualche valore di $d$. L'unico valore di $\mathbb{Z} \mod 7$ che soddisfa questa condizione è $3$. Questo è coerente con la condizione inversa.
 
 5. **Condizione di commutatività**: Prendiamo 5 e 3 come valori. In questo caso, $[5 \cdot 3] \mod 7 = [3 \cdot 5] \mod 7 = 15 \mod 7 = 1$. Questo è coerente con la condizione di commutatività.
 
-L'insieme $mathbb{Z} \mod 7$ sembra chiaramente soddisfare le regole per essere un gruppo abeliano se combinato con l'addizione o la moltiplicazione sugli elementi non nulli.
+L'insieme $\mathbb{Z} \mod 7$ sembra chiaramente soddisfare le regole per essere un gruppo abeliano se combinato con l'addizione o la moltiplicazione sugli elementi non nulli.
 
 Infine, questo insieme combinato con entrambi gli operatori sembra soddisfare la condizione distributiva. Prendiamo 5, 2 e 3 come valori. Vediamo che $[5 \cdot (2 + 3)] \mod 7 = [5 \cdot 2 + 5 \cdot 3] \mod 7 = 25 \mod 7 = 4$.
 
-Abbiamo visto che $mathbb{Z} \mod 7$ dotato di addizione e moltiplicazione soddisfa gli assiomi per un campo finito quando viene testato con valori particolari. Naturalmente possiamo anche dimostrarlo in generale, ma non lo faremo qui.
+Abbiamo visto che $\mathbb{Z} \mod 7$ dotato di addizione e moltiplicazione soddisfa gli assiomi per un campo finito quando viene testato con valori particolari. Naturalmente possiamo anche dimostrarlo in generale, ma non lo faremo qui.
 
 Una distinzione fondamentale è tra due tipi di campi: campi finiti e campi infiniti.
 
-Un **campo infinito** è un campo in cui l'insieme **S** è infinitamente grande. L'insieme dei numeri reali $mathbb{R}$ dotato di addizione e moltiplicazione è un esempio di campo infinito. Un **campo finito**, noto anche come **campo di Galileois**, è un campo in cui l'insieme **S** è finito. L'esempio precedente del $angolo \mathbb{Z} \mod 7, +, \cdot \rangle$ è un campo finito.
+Un **campo infinito** è un campo in cui l'insieme **S** è infinitamente grande. L'insieme dei numeri reali $\mathbb{R}$ dotato di addizione e moltiplicazione è un esempio di campo infinito. Un **campo finito**, noto anche come **campo di Galois**, è un campo in cui l'insieme **S** è finito. L'esempio precedente del $\langle \mathbb{Z} \mod 7, +, \cdot \rangle$ è un campo finito.
 
 In crittografia, siamo principalmente interessati ai campi finiti. In generale, si può dimostrare che un campo finito esiste per un certo insieme di elementi **S** se e solo se ha $p^m$ elementi, dove $p$ è un numero primo e $m$ un intero positivo maggiore o uguale a uno. In altre parole, se l'ordine di un insieme **S** è un numero primo ($p^m$ dove $m = 1$) o una potenza prima ($p^m$ dove $m > 1$), è possibile trovare due operatori $\circ$ e $\diamond$ tali da soddisfare le condizioni per un campo.
 
 Se un campo finito ha un numero di elementi primi, si chiama **campo primo**. Se il numero di elementi del campo finito è una potenza prima, allora il campo è chiamato **campo di estensione**. In crittografia, siamo interessati sia ai campi primi che a quelli di estensione. [2]
 
-I principali campi primi di interesse per la crittografia sono quelli in cui l'insieme di tutti i numeri interi è modulato da qualche numero primo e gli operatori sono l'addizione e la moltiplicazione standard. Questa classe di campi finiti comprende $\mathbb{Z} \mod 2$, $\mathbb{Z} \mod 3$, $\mathbb{Z} \mod 5$, $\mathbb{Z} \mod 7$, $\mathbb{Z} \mod 11$, $\mathbb{Z} \mod 13$, e così via. Per qualsiasi campo primo $mathbb{Z} \mod p$, l'insieme dei numeri interi del campo è il seguente: ${0, 1, \ldots, p - 2, p - 1\}$.
+I principali campi primi di interesse per la crittografia sono quelli in cui l'insieme di tutti i numeri interi è modulato da qualche numero primo e gli operatori sono l'addizione e la moltiplicazione standard. Questa classe di campi finiti comprende $\mathbb{Z} \mod 2$, $\mathbb{Z} \mod 3$, $\mathbb{Z} \mod 5$, $\mathbb{Z} \mod 7$, $\mathbb{Z} \mod 11$, $\mathbb{Z} \mod 13$, e così via. Per qualsiasi campo primo $\mathbb{Z} \mod p$, l'insieme dei numeri interi del campo è il seguente: $\{0, 1, \ldots, p - 2, p - 1\}$.
 
 In crittografia, ci interessano anche i campi di estensione, in particolare i campi con $2^m$ elementi dove $m > 1$. Tali campi finiti sono utilizzati, ad esempio, nel cifrario Rijndael, che costituisce la base dell'Advanced Encryption Standard. Mentre i campi primi sono relativamente intuitivi, questi campi di estensione in base 2 non sono probabilmente adatti a chi non ha familiarità con l'algebra astratta.
 
@@ -832,7 +832,7 @@ Per cominciare, è vero che a qualsiasi insieme di interi con $2^m$ elementi si 
 
 Come si è visto, i campi di estensione di $2^m$ particolarmente applicabili in crittografia sono quelli definiti su particolari insiemi di espressioni polinomiali, piuttosto che su un insieme di numeri interi.
 
-Per esempio, supponiamo di volere un campo di estensione con $2^3$ (cioè 8) elementi nell'insieme. Sebbene esistano molti insiemi diversi che possono essere utilizzati per campi di queste dimensioni, uno di questi include tutti i polinomi unici della forma $a_2x^2 + a_1x + a_0$, dove ogni coefficiente $a_i$ è 0 o 1. Quindi, questo insieme **S** include i seguenti elementi: $a_2x^2$ + a_1x + a_0$ + a_0$. Quindi, questo insieme **S** comprende i seguenti elementi:
+Per esempio, supponiamo di volere un campo di estensione con $2^3$ (cioè $8$) elementi nell'insieme. Sebbene esistano molti insiemi diversi che possono essere utilizzati per campi di queste dimensioni, uno di questi include tutti i polinomi unici della forma $a_2x^2 + a_1x + a_0$, dove ogni coefficiente $a_i$ è $0$ o $1$. Quindi, questo insieme **S** include i seguenti elementi:
 
 1. $0$: Il caso in cui $a_2 = 0$, $a_1 = 0$ e $a_0 = 0$.
 
@@ -852,14 +852,14 @@ Per esempio, supponiamo di volere un campo di estensione con $2^3$ (cioè 8) ele
 
 Quindi **S** sarebbe l'insieme ${0, 1, x, x + 1, x^2, x^2 + 1, x^2 + x, x^2 + x + 1}$. Quali operazioni si possono definire su questo insieme di elementi per garantire che la loro combinazione sia un campo?
 
-La prima operazione sull'insieme **S** ($circ$) può essere definita come una normale addizione di polinomi modulo 2. Tutto ciò che si deve fare è sommare i polinomi come si farebbe normalmente e poi applicare il modulo 2 a ciascun coefficiente risultante. Tutto ciò che si deve fare è sommare i polinomi come si farebbe normalmente, e poi applicare il modulo 2 a ciascuno dei coefficienti del polinomio risultante. Ecco alcuni esempi:
+La prima operazione sull'insieme **S** ($\circ$) può essere definita come una normale addizione di polinomi modulo $2$. Tutto ciò che si deve fare è sommare i polinomi come si farebbe normalmente e poi applicare il modulo $2$ a ciascun coefficiente risultante. Tutto ciò che si deve fare è sommare i polinomi come si farebbe normalmente, e poi applicare il modulo $2$ a ciascuno dei coefficienti del polinomio risultante. Ecco alcuni esempi:
 
 
 - $[(x^2) + (x^2 + x + 1)] \mod 2 = [2x^2 + x + 1] \mod 2 = x + 1$
 - $[(x^2 + x) + (x)] \mod 2 = [x^2 + 2x] \mod 2 = x^2$
 - $[(x + 1) + (x^2 + x + 1)] \mod 2 = [x^2 + 2x + 2] \mod 2 = x^2 + 1$
 
-La seconda operazione sull'insieme **S** ($diamond$), necessaria per creare il campo, è più complicata. È una sorta di moltiplicazione, ma non la moltiplicazione standard dell'aritmetica. Bisogna invece vedere ogni elemento come un vettore e intendere l'operazione come la moltiplicazione di questi due vettori modulo un polinomio irriducibile.
+La seconda operazione sull'insieme **S** ($\diamond$), necessaria per creare il campo, è più complicata. È una sorta di moltiplicazione, ma non la moltiplicazione standard dell'aritmetica. Bisogna invece vedere ogni elemento come un vettore e intendere l'operazione come la moltiplicazione di questi due vettori modulo un polinomio irriducibile.
 
 Per prima cosa parliamo dell'idea di polinomio irriducibile. Un **polinomio irriducibile** è un polinomio che non può essere fattorizzato (così come un numero primo non può essere fattorizzato in componenti diverse da 1 e dal numero primo stesso). Per i nostri scopi, siamo interessati ai polinomi irriducibili rispetto all'insieme di tutti i numeri interi. (Si noti che si può essere in grado di fattorizzare alcuni polinomi, ad esempio con i numeri reali o complessi, anche se non è possibile farlo con i numeri interi)
 
@@ -869,9 +869,9 @@ Passiamo ora al concetto di moltiplicazione vettoriale. Non approfondiremo quest
 
 Ad esempio, si consideri l'espressione $x^6 + x + 1 \mod x^5 + x^2$. Questa chiaramente si riduce ulteriormente, poiché il grado del dividendo, 6, è maggiore del grado del divisore, 5. Consideriamo ora l'espressione $x^5 + x + 1 \mod x^5 + x^2$. Anche questa si riduce ulteriormente, poiché il grado del dividendo, 5, e del divisore, 5, sono uguali.
 
-Tuttavia, consideriamo ora l'espressione $x^4 + x + 1 ´modello x^5 + x^2$. Questa espressione non si riduce ulteriormente, poiché il grado del dividendo, 4, è inferiore al grado del divisore, 5.
+Tuttavia, consideriamo ora l'espressione $x^4 + x + 1 \mod x^5 + x^2$. Questa espressione non si riduce ulteriormente, poiché il grado del dividendo, $4$, è inferiore al grado del divisore, $5$.
 
-Sulla base di queste informazioni, siamo ora pronti a trovare la nostra seconda operazione per l'insieme ${0, 1, x, x + 1, x^2, x^2 + 1, x^2 + x, x^2 + x + 1\}$.
+Sulla base di queste informazioni, siamo ora pronti a trovare la nostra seconda operazione per l'insieme $\{0, 1, x, x + 1, x^2, x^2 + 1, x^2 + x, x^2 + x + 1\}$.
 
 Ho già detto che la seconda operazione deve essere intesa come una moltiplicazione vettoriale modulo qualche polinomio irriducibile. Questo polinomio irriducibile dovrebbe garantire che la seconda operazione definisca un gruppo abeliano su **S** e sia coerente con la condizione distributiva. Quale dovrebbe essere questo polinomio irriducibile?
 
@@ -886,15 +886,14 @@ Vediamo un esempio della seconda operazione utilizzando il polinomio $x^3 + x + 
 
 - $[(x^2 + 1) \cdot (x^2 + x)] \mod x^3 + x + 1 =$
 - $[x^2 \cdot x^2 + x^2 \cdot x + 1 \cdot x^2 + 1 \cdot x] \mod x^3 + x + 1 =$
-- $[x^4 + x^3 + x^2 + x] \modo x^3 + x + 1$
+- $[x^4 + x^3 + x^2 + x] \mod x^3 + x + 1$
 
 Sappiamo che $[x^4 + x^3 + x^2 + x] \mod x^3 + x + 1$ può essere ridotto poiché il dividendo ha un grado superiore (4) rispetto al divisore (3).
 
 Per cominciare, si può notare che l'espressione $x^3 + x + 1$ entra in $x^4 + x^3 + x^2 + x$ per un totale di $x$ volte. Lo si può verificare moltiplicando $x^3 + x + 1$ per $x$, che è $x^4 + x^2 + x$. Poiché quest'ultimo termine ha lo stesso grado del dividendo, cioè 4, sappiamo che funziona. È possibile calcolare il resto di questa divisione per $x$ come segue:
 
-
-- $[(x^4 + x^3 + x^2 + x) - (x^4 + x^2 + x)] \mod x^3 + x + 1 =$
-- $[x^3] ´mod x^3 + x + 1 =$
+- $[(x^4 + x^3 + x^2 + x) - (x^4 + x^2 + x)] \mod (x^3 + x + 1) =$
+- $[x^3] \mod (x^3 + x + 1) =$
 - $x^3$
 
 Quindi, dopo aver diviso $x^4 + x^3 + x^2 + x$ per $x^3 + x + 1$ per un totale di $x$ volte, abbiamo un resto di $x^3$. È possibile dividerlo ulteriormente per $x^3 + x + 1$?
@@ -1019,23 +1018,23 @@ Bob cripta il messaggio $M$ al tempo $T_0$ con la chiave $K$ per produrre il tes
 
 Nel Capitolo 2 abbiamo incontrato il cifrario a turni, che è un esempio di schema di crittografia simmetrica molto semplice. Riportiamolo qui di seguito.
 
-Supponiamo un dizionario *D* che equipara tutte le lettere dell'alfabeto inglese, in ordine, con l'insieme di numeri ${0,1,2,\dots,25\}$. Si supponga un insieme di possibili messaggi **M**. Il cifrario a turni è quindi uno schema di crittografia definito come segue:
+Supponiamo un dizionario *D* che equipara tutte le lettere dell'alfabeto inglese, in ordine, con l'insieme di numeri ${0,1,2,\dots,25}$. Si supponga un insieme di possibili messaggi **M**. Il cifrario a turni è quindi uno schema di crittografia definito come segue:
 
 
-- Selezionare casualmente una chiave $k$ dall'insieme delle possibili chiavi **K**, dove **K** = ${0,1,2,\dots,25\}$
-- Crittografare un messaggio $m \ in$ **M**, come segue:
-    - Separare $m$ nelle sue singole lettere $m_0, m_1, punti, m_i, punti, m_l$
+- Selezionare casualmente una chiave $k$ dall'insieme delle possibili chiavi **K**, dove **K** = ${0,1,2,\dots,25}$.
+- Crittografare un messaggio $m \in$ **M**, come segue:
+    - Separare $m$ nelle sue singole lettere $m_0, m_1, \dots, m_i, \dots, m_l$
     - Convertire ogni $m_i$ in un numero secondo *D*
-    - Per ogni $m_i$, $c_i = [(m_i + k) ´mod 26]$
+    - Per ogni $m_i$, $c_i = [(m_i + k) \mod 26]$
     - Convertire ogni $c_i$ in una lettera secondo *D*
-    - Quindi, combinando $c_0, c_1, c_punti, c_l$ si ottiene il testo cifrato $c$
+    - Quindi, combinando $c_0, c_1, \dots, c_l$ si ottiene il testo cifrato $c$
 - Decifrare un testo cifrato $c$ come segue:
     - Convertire ogni $c_i$ in un numero secondo *D*
-    - Per ogni $c_i$, $m_i = [(c_i - k) ´mod 26]$
+    - Per ogni $c_i$, $m_i = [(c_i - k) \mod 26]$
     - Convertire ogni $m_i$ in una lettera secondo *D*
-    - Quindi combinare $m_0, m_1,\punti, m_l$ per ottenere il messaggio originale $m$
+    - Quindi combinare $m_0, m_1, \dots, m_l$ per ottenere il messaggio originale $m$
 
-Ciò che rende il cifrario a turni uno schema di crittografia simmetrica è che la stessa chiave viene utilizzata sia per il processo di crittografia che per quello di decrittografia. Per esempio, supponiamo di voler criptare il messaggio "CANE" utilizzando il cifrario a turni e di aver scelto a caso "24" come chiave. Cifrando il messaggio con questa chiave si otterrebbe "BME". L'unico modo per recuperare il messaggio originale è utilizzare la stessa chiave, "24", per il processo di decifrazione.
+Ciò che rende il cifrario a turni uno schema di crittografia simmetrica è che la stessa chiave viene utilizzata sia per il processo di crittografia che per quello di decrittografia. Per esempio, supponiamo di voler criptare il messaggio "DOG" utilizzando il cifrario a turni e di aver scelto a caso "24" come chiave. Cifrando il messaggio con questa chiave si otterrebbe "BME". L'unico modo per recuperare il messaggio originale è utilizzare la stessa chiave, "24", per il processo di decifrazione.
 
 Questo cifrario Shift è un esempio di **cifrario di sostituzione monoalfabetico**: uno schema di crittografia in cui l'alfabeto del testo cifrato è fisso (cioè viene utilizzato un solo alfabeto). Assumendo che l'algoritmo di decifrazione sia deterministico, ogni simbolo del testo cifrato di sostituzione può corrispondere al massimo a un simbolo del testo in chiaro.
 
@@ -1057,9 +1056,9 @@ Il cifrario a turni è uno schema di crittografia simmetrica molto insicuro, alm
 
 Affinché un sistema di crittografia soddisfi una nozione minima di sicurezza, deve avere un insieme di chiavi possibili, o **spazio delle chiavi**, talmente ampio da rendere impraticabili gli attacchi di forza bruta. Tutti i moderni schemi di crittografia soddisfano questo standard. È noto come **principio dello spazio chiave sufficiente**. Un principio simile si applica in genere a diversi tipi di schemi crittografici.
 
-Per avere un'idea delle enormi dimensioni dello spazio delle chiavi nei moderni schemi di crittografia, supponiamo che un file sia stato crittografato con una chiave a 128 bit utilizzando lo standard di crittografia avanzato. Ciò significa che un attaccante dispone di una serie di chiavi da $2^{128}$ che deve scorrere per un attacco a forza bruta. Per avere una probabilità di successo dello 0,78% con questa strategia, l'attaccante dovrebbe utilizzare circa 2,65 volte 10^{36}$ chiavi.
+Per avere un'idea delle enormi dimensioni dello spazio delle chiavi nei moderni schemi di crittografia, supponiamo che un file sia stato crittografato con una chiave a 128 bit utilizzando lo standard di crittografia avanzato. Ciò significa che un attaccante dispone di una serie di chiavi da $2^{128}$ che deve scorrere per un attacco a forza bruta. Per avere una probabilità di successo dello 0,78% con questa strategia, l'attaccante dovrebbe utilizzare circa 2,65 volte $10^{36}$ chiavi.
 
-Supponiamo ottimisticamente che un attaccante possa tentare 10^{16}$ chiavi al secondo (cioè 10 quadrilioni di chiavi al secondo). Per testare lo 0,78% di tutte le chiavi nello spazio delle chiavi, il suo attacco dovrebbe durare 2,65 ´times 10^{20}$ secondi. Ciò equivale a circa 8,4 trilioni di anni. Quindi anche un attacco a forza bruta da parte di un avversario assurdamente potente non è realistico con un moderno schema di crittografia a 128 bit. Questo è il principio dello spazio sufficiente per le chiavi.
+Supponiamo ottimisticamente che un attaccante possa tentare $10^{16}$ chiavi al secondo (cioè 10 quadrilioni di chiavi al secondo). Per testare lo 0,78% di tutte le chiavi nello spazio delle chiavi, il suo attacco dovrebbe durare 2,65 ´times $10^{20}$ secondi. Ciò equivale a circa 8,4 trilioni di anni. Quindi anche un attacco a forza bruta da parte di un avversario assurdamente potente non è realistico con un moderno schema di crittografia a 128 bit. Questo è il principio dello spazio sufficiente per le chiavi.
 
 Il cifrario a turni è più sicuro se l'attaccante non conosce l'algoritmo di crittografia? Forse, ma non di molto.
 
@@ -1084,7 +1083,6 @@ La capacità dell'apertura di rafforzare la qualità e la sicurezza si estende a
 Non si può mai affermare senza ambiguità che uno schema crittografico sia "sicuro" o "insicuro" Esistono invece varie nozioni di sicurezza per gli schemi crittografici. Ogni **definizione di sicurezza crittografica** deve specificare (1) gli obiettivi di sicurezza e (2) le capacità di un attaccante. L'analisi degli schemi crittografici rispetto a una o più nozioni specifiche di sicurezza fornisce indicazioni sulle loro applicazioni e sui loro limiti.
 
 Anche se non ci addentreremo in tutti i dettagli delle varie nozioni di sicurezza crittografica, è bene sapere che due presupposti sono onnipresenti in tutte le moderne nozioni di sicurezza crittografica relative agli schemi simmetrici e asimmetrici (e in qualche forma ad altre primitive crittografiche):
-
 
 - La conoscenza dello schema da parte dell'attaccante è conforme al principio di Kerckhoffs.
 - L'attaccante non può eseguire un attacco di forza bruta allo schema. In particolare, i modelli di minaccia delle nozioni di sicurezza crittografica di solito non ammettono nemmeno gli attacchi a forza bruta, in quanto presuppongono che non siano una considerazione rilevante.
@@ -1369,7 +1367,7 @@ Uno schema di crittografia autenticata consente al destinatario di un messaggio 
 
 Il motivo principale è che uno schema di crittografia autenticata non fornisce alcuna garanzia che il messaggio sia stato effettivamente inviato anche dall'agente che lo ha creato all'interno di una sessione di comunicazione. Si considerino i seguenti tre vettori di attacco:
 
-1. *attacco *Replay**: Un attaccante invia nuovamente un testo cifrato e un tag che ha intercettato tra due parti in un momento precedente.
+1. **attacco Replay**: Un attaccante invia nuovamente un testo cifrato e un tag che ha intercettato tra due parti in un momento precedente.
 
 2. **Attacco di riordino**: Un aggressore intercetta due messaggi in momenti diversi e li invia al destinatario nell'ordine inverso.
 
@@ -1448,29 +1446,18 @@ Continuiamo con questo processo fino a produrre la riga finale in basso per l'ar
 
 *Tabella 1: Tabella delle chiavi di programmazione*
 
-| Round | i | j | | S[0] | S[1] | S[2] | S[3] | S[4] | S[5] | S[6] | S[7] |
+| Round    | i   | j   |     | S[0] | S[1] | S[2] | S[3] | S[4] | S[5] | S[6] | S[7] |
+| -------- | --- | --- | --- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| Iniziale | 0   | 0   | 0   | 1    | 2    | 3    | 4    | 5    | 6    | 7    |      |
+| 1        | 0   | 6   |     | 6    | 1    | 2    | 3    | 4    | 5    | 0    | 7    |
+| 2        | 1   | 7   |     | 6    | 7    | 2    | 3    | 4    | 5    | 0    | 1    |
+| 3        | 2   | 2   |     | 6    | 7    | 2    | 3    | 4    | 5    | 0    | 1    |
+| 4        | 3   | 3   |     | 6    | 7    | 2    | 3    | 4    | 5    | 0    | 1    |
+| 5        | 4   | 3   |     | 6    | 7    | 2    | 0    | 3    | 5    | 4    | 1    |
+| 6        | 5   | 6   |     | 6    | 4    | 2    | 0    | 3    | 7    | 5    | 1    |
+| 7        | 6   | 1   |     | 6    | 4    | 2    | 0    | 3    | 7    | 5    | 2    |
+| 8        | 7   | 2   |     | 6    | 4    | 1    | 0    | 3    | 7    | 5    | 2    |
 
-| ------- | --- | --- | --- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-
-| | | | | | | | | | | | |
-
-| Iniziale | 0 | 0 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
-
-| 1 | 0 | 6 | | 6 | 1 | 2 | 3 | 4 | 5 | 0 | 7 |
-
-| 2 | 1 | 7 | | 6 | 7 | 2 | 3 | 4 | 5 | 0 | 1 |
-
-| 3 | 2 | 2 | | 6 | 7 | 2 | 3 | 4 | 5 | 0 | 1 |
-
-| 4 | 3 | 3 | | 6 | 7 | 2 | 3 | 4 | 5 | 0 | 1 |
-
-| 5 | 4 | 3 | | 6 | 7 | 2 | 0 | 3 | 5 | 4 | 1 |
-
-| 6 | 5 | 6 | | 6 | 4 | 2 | 0 | 3 | 7 | 5 | 1 |
-
-| 7 | 6 | 1 | | 6 | 4 | 2 | 0 | 3 | 7 | 5 | 2 |
-
-| 8 | 7 | 2 | | 6 | 4 | 1 | 0 | 3 | 7 | 5 | 2 |
 
 ### Passo 4
 
@@ -1482,10 +1469,10 @@ Il flusso di chiavi viene prodotto dal seguente pseudocodice:
 - Creare le variabili **j**, **i** e **t**.
 - Impostare $j = 0$.
 - Per ogni $i$ del testo in chiaro, a partire da $i = 1$ e fino a $i = 4$, ogni byte del flusso di chiavi viene prodotto come segue:
-    - $j = (j + S[i]) ´modulo 8$
-    - Scambiare $S[i]$ e $S[j]$.
-    - $t = (S[i] + S[j]) ´modulo 8$
-    - Il byte $i^{th}$ del flusso di chiavi = $S[t]$
+- $j = (j + S[i]) \mod 8$
+- Scambiare $S[i]$ e $S[j]$.
+- $t = (S[i] + S[j]) \mod 8$
+- Il byte $i^{th}$ del flusso di chiavi = $S[t]$
 
 I calcoli sono riportati nella *Tabella 2*.
 
@@ -1497,25 +1484,18 @@ Per cominciare, utilizzando una tabella ASCII, possiamo vedere che "SOUP" codifi
 
 Cosa succede se la parola da criptare fosse più lunga dell'array **S**? In questo caso, l'array **S** continua a trasformarsi nel modo mostrato sopra per ogni byte **i** del testo in chiaro, finché non si ottiene un numero di byte nel flusso di chiavi pari al numero di lettere del testo in chiaro.
 
-*Tabella 2: Generazione del flusso di chiavi*
+*Tabella 2: Generazione del flusso di chiavi*  
 
-| i | j | t | Keystream | S[0] | S[1] | S[2] | S[3] | S[4] | S[5] | S[6] | S[7] |
+| i   | j   | t | Keystream | S[0] | S[1] | S[2] | S[3] | S[4] | S[5] | S[6] | S[7] |
+| --- | --- |---| --------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+|     | 0   |   |           | 6    | 4    | 1    | 0    | 3    | 7    | 5    | 2    |
+| 1   | 4   | 7 | 2         | 6    | 3    | 1    | 0    | 4    | 7    | 5    | 2    |
+| 2   | 5   | 0 | 6         | 6    | 3    | 7    | 0    | 4    | 1    | 5    | 2    |
+| 3   | 5   | 1 | 3         | 6    | 3    | 7    | 1    | 4    | 0    | 5    | 2    |
+| 4   | 1   | 7 | 2         | 6    | 4    | 7    | 1    | 3    | 0    | 5    | 2    |
 
-| --- | --- | --- | --------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 
-| | | | | | | | | | | | |
-
-| | 0 | | | 6 | 4 | 1 | 0 | 3 | 7 | 5 | 2 |
-
-| 1 | 4 | 7 | 2 | 6 | 3 | 1 | 0 | 4 | 7 | 5 | 2 |
-
-| 2 | 5 | 0 | 6 | 6 | 3 | 7 | 0 | 4 | 1 | 5 | 2 |
-
-| 3 | 5 | 1 | 3 | 6 | 3 | 7 | 1 | 4 | 0 | 5 | 2 |
-
-| 4 | 1 | 7 | 2 | 6 | 4 | 7 | 1 | 3 | 0 | 5 | 2 |
-
-L'esempio appena discusso è solo una versione annacquata del **codificatore di flusso RC4**. Il vero cifrario di flusso RC4 ha un array **S** di 256 byte di lunghezza, non di 8 byte, e una chiave che può essere compresa tra 1 e 256 byte, non tra 1 e 8 byte. L'array di chiavi e i flussi di chiavi vengono quindi prodotti considerando la lunghezza di 256 byte dell'array **S**. I calcoli diventano immensamente più complessi, ma i principi rimangono gli stessi. Utilizzando la stessa chiave, [14,48,9], con il cifrario RC4 standard, il messaggio in chiaro "SOUP" viene cifrato come 67 02 ed df in formato esadecimale.
+L'esempio appena discusso è solo una versione annacquata del **codificatore di flusso RC4**. Il vero cifrario di flusso RC4 ha un array **S** di 256 byte di lunghezza, non di 8 byte, e una chiave che può essere compresa tra 1 e 256 byte, non tra 1 e 8 byte. L'array di chiavi e i flussi di chiavi vengono quindi prodotti considerando la lunghezza di 256 byte dell'array **S**. I calcoli diventano immensamente più complessi, ma i principi rimangono gli stessi. Utilizzando la stessa chiave, 14,48,9, con il cifrario RC4 standard, il messaggio in chiaro "SOUP" viene cifrato come 67 02 ed df in formato esadecimale.
 
 Un cifrario a flusso in cui il flusso di chiavi si aggiorna indipendentemente dal messaggio in chiaro o dal testo cifrato è un **cifrario a flusso sincrono**. Il flusso di chiavi dipende solo dalla chiave. Chiaramente, l'RC4 è un esempio di cifrario a flusso sincrono, poiché il flusso di chiavi non ha alcuna relazione con il testo in chiaro o il testo cifrato. Tutti i cifrari a flusso primitivi menzionati nel capitolo precedente, tra cui il cifrario a turni, il cifrario di Vigenère e il one-time pad, erano anch'essi di tipo sincrono.
 
@@ -1587,43 +1567,27 @@ Nel round 1, l'array $S_0$ viene prima combinato con la chiave del round $K_1$ u
 
 In secondo luogo, l'operazione **sostituzione di byte** viene eseguita sullo stato corrente di $S$. Funziona prendendo ogni byte dell'array di 16 byte $S$ e sostituendolo con un byte di un array chiamato **Scatola di Rijndael**. Ogni byte ha una trasformazione unica e il risultato è un nuovo stato di $S$. La S-box di Rijndael è mostrata nella *Figura 3*.
 
-*Figura 3: S-Box* di Rijndael
+*Figura 3: S-Box* di Rijndael  
 
-| | 00 | 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 0A | 0B | 0C | 0D | 0E | 0F |
-
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-
+|    | 00 | 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 0A | 0B | 0C | 0D | 0E | 0F |
+|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
 | 00 | 63 | 7C | 77 | 7B | F2 | 6B | 6F | C5 | 30 | 01 | 67 | 2B | FE | D7 | AB | 76 |
-
 | 10 | CA | 82 | C9 | 7D | FA | 59 | 47 | F0 | AD | D4 | A2 | AF | 9C | A4 | 72 | C0 |
-
 | 20 | B7 | FD | 93 | 26 | 36 | 3F | F7 | CC | 34 | A5 | E5 | F1 | 71 | D8 | 31 | 15 |
-
 | 30 | 04 | C7 | 23 | C3 | 18 | 96 | 05 | 9A | 07 | 12 | 80 | E2 | EB | 27 | B2 | 75 |
-
 | 40 | 09 | 83 | 2C | 1A | 1B | 6E | 5A | A0 | 52 | 3B | D6 | B3 | 29 | E3 | 2F | 84 |
-
 | 50 | 53 | D1 | 00 | ED | 20 | FC | B1 | 5B | 6A | CB | BE | 39 | 4A | 4C | 58 | CF |
-
 | 60 | D0 | EF | AA | FB | 43 | 4D | 33 | 85 | 45 | F9 | 02 | 7F | 50 | 3C | 9F | A8 |
-
 | 70 | 51 | A3 | 40 | 8F | 92 | 9D | 38 | F5 | BC | B6 | DA | 21 | 10 | FF | F3 | D2 |
-
 | 80 | CD | 0C | 13 | EC | 5F | 97 | 44 | 17 | C4 | A7 | 7E | 3D | 64 | 5D | 19 | 73 |
-
 | 90 | 60 | 81 | 4F | DC | 22 | 2A | 90 | 88 | 46 | EE | B8 | 14 | DE | 5E | 0B | DB |
-
 | A0 | E0 | 32 | 3A | 0A | 49 | 06 | 24 | 5C | C2 | D3 | AC | 62 | 91 | 95 | E4 | 79 |
-
 | B0 | E7 | C8 | 37 | 6D | 8D | D5 | 4E | A9 | 6C | 56 | F4 | EA | 65 | 7A | AE | 08 |
-
 | C0 | BA | 78 | 25 | 2E | 1C | A6 | B4 | C6 | E8 | DD | 74 | 1F | 4B | BD | 8B | 8A |
-
 | D0 | 70 | 3E | B5 | 66 | 48 | 03 | F6 | 0E | 61 | 35 | 57 | B9 | 86 | C1 | 1D | 9E |
-
 | E0 | E1 | F8 | 98 | 11 | 69 | D9 | 8E | 94 | 9B | 1E | 87 | E9 | CE | 55 | 28 | DF |
-
 | F0 | 8C | A1 | 89 | 0D | BF | E6 | 42 | 68 | 41 | 99 | 2D | 0F | B0 | 54 | BB | 16 |
+
 
 Questa S-Box è uno dei punti in cui l'algebra astratta entra in gioco nel cifrario Rijndael, in particolare i **campi di Galileois**.
 
@@ -1635,41 +1599,32 @@ La terza operazione sulla matrice **S** è l'operazione **shift rows**. Essa pre
 
 Una volta costruita la matrice di **S**, le quattro righe vengono spostate. La prima riga rimane invariata. La seconda riga si sposta di uno a sinistra. La terza si sposta di due a sinistra. La quarta si sposta di tre a sinistra. Un esempio del processo è riportato nella *Figura 4*. Lo stato originale di **S** è mostrato in alto, mentre lo stato risultante dopo l'operazione di spostamento delle righe è mostrato sotto.
 
-*Figura 4: Operazione di spostamento delle righe*
+*Figura 4: Operazione di spostamento delle righe*  
 
-| F1 | A0 | B1 | 23 |
+| F1  | A0  | B1  | 23  |
+|-----|-----|-----|-----|
+| 59  | EF  | 09  | 82  |
+| 97  | 01  | B0  | CC  |
+| D4  | 72  | 04  | 21  |
 
-|------|------|------|------|
+| F1  | A0  | B1  | 23  |
+|-----|-----|-----|-----|
+| EF  | 09  | 82  | 59  |
+| B0  | CC  | 97  | 01  |
+| 21  | D4  | 72  | 04  |
 
-| 59 | EF | 09 | 82 |
-
-| 97 | 01 | B0 | CC |
-
-| D4 | 72 | 04 | 21 |
-
-| F1, A0, B1, 23..
-
-|------|------|------|------|
-
-| EF | 09 | 82 | 59 |
-
-| B0 | CC | 97 | 01 |
-
-| 21 | D4 | 72 | 04 |
 
 Nella quarta fase, i **campi di Galois** fanno di nuovo la loro comparsa. Per iniziare, ogni colonna della matrice **S** viene moltiplicata per la colonna della matrice 4 x 4 vista in *Figura 5*. Ma invece di essere una normale moltiplicazione matriciale, si tratta di una moltiplicazione vettoriale **modulo di un polinomio irriducibile**, $x^8 + x^4 + x^3 + x + 1$. I coefficienti del vettore risultante rappresentano i singoli bit di un byte.
 
 *Figura 5: Matrice delle colonne di miscela*
 
-| 02 | 03 | 01 | 01 |
 
+| 02   | 03   | 01   | 01   |
 |------|------|------|------|
+| 01   | 02   | 03   | 01   |
+| 01   | 01   | 02   | 03   |
+| 03   | 01   | 01   | 02   |
 
-| 01 | 02 | 03 | 01 |
-
-| 01 | 01 | 02 | 03 |
-
-| 03 | 01 | 01 | 02 |
 
 La moltiplicazione della prima colonna della matrice **S** con la matrice 4 x 4 di cui sopra dà il risultato della *Figura 6*.
 
@@ -1699,11 +1654,10 @@ Come passo finale, l'array **S** viene nuovamente combinato con la chiave circol
 
 I round da 2 a 9 sono solo una ripetizione del round 1, *mutatis mutandis*. L'ultimo round è molto simile ai precedenti, tranne per il fatto che viene eliminata la fase di **miscelazione delle colonne**. In altre parole, il round 10 viene eseguito come segue:
 
-
 - $S_9 \oplus K_{10}$
 - Sostituzione di byte
 - Spostare le righe
-- $S_{10} = S ´oplus K_{10}$
+- $S_{10} = S \oplus K_{10}$
 
 Lo stato $S_{10}$ è ora impostato su $C_1$, i primi 128 bit del testo cifrato. Procedendo attraverso i restanti blocchi di testo in chiaro a 128 bit si ottiene il testo cifrato completo **C**.
 
@@ -1773,6 +1727,7 @@ Negli anni '70, i problemi di distribuzione e gestione delle chiavi avevano atti
 Almeno una delle motivazioni principali della loro impresa è stata la previsione che le comunicazioni informatiche aperte avrebbero influenzato profondamente il nostro mondo. Come notano Diffie e Helmann nel 1976,
 
 > Lo sviluppo di reti di comunicazione controllate da computer promette contatti senza sforzo e a basso costo tra persone o computer che si trovano ai lati opposti del mondo, sostituendo la maggior parte della posta e molte escursioni con le telecomunicazioni. Per molte applicazioni questi contatti devono essere resi sicuri sia contro le intercettazioni che contro l'immissione di messaggi illegittimi. Attualmente, tuttavia, la soluzione dei problemi di sicurezza è in ritardo rispetto ad altre aree della tecnologia delle comunicazioni. *La crittografia contemporanea non è in grado di soddisfare i requisiti, in quanto il suo utilizzo imporrebbe gravi inconvenienti agli utenti del sistema, tanto da eliminare molti dei vantaggi della teleelaborazione.* [1]
+
 La tenacia di Diffie, Hellman e Merkle fu ripagata. La prima pubblicazione dei loro risultati fu un articolo di Diffie e Helmann del 1976 intitolato "New Directions in Cryptography" In esso presentavano due modi originali per affrontare i problemi di distribuzione e gestione delle chiavi.
 
 La prima soluzione offerta è stata un *protocollo di scambio di chiavi* a distanza, ovvero un insieme di regole per lo scambio di una o più chiavi simmetriche su un canale di comunicazione non sicuro. Questo protocollo è oggi noto come *scambio di chiavi di Diffie-Helmann* o *scambio di chiavi di Diffie-Helmann-Merkle*. [2]
@@ -1805,7 +1760,7 @@ Un'implementazione pratica di uno schema asimmetrico fu tuttavia trovata un anno
 
 Le funzioni trapdoor utilizzate nella crittografia asimmetrica (e nello scambio di chiavi Diffie Helmann) sono tutte legate a due problemi principali **difficili dal punto di vista computazionale**: la fattorizzazione dei primi e il calcolo dei logaritmi discreti.
 
-*la *fattorizzazione dei primi** richiede, come dice il nome, la scomposizione di un intero nei suoi fattori primi. Il problema RSA è di gran lunga l'esempio più noto di crittosistema legato alla fattorizzazione dei primi.
+*La **fattorizzazione dei primi** richiede, come dice il nome, la scomposizione di un intero nei suoi fattori primi. Il problema RSA è di gran lunga l'esempio più noto di crittosistema legato alla fattorizzazione dei primi.
 
 Il **problema del logaritmo discreto** è un problema che si presenta nei gruppi ciclici. Dato un generatore in un particolare gruppo ciclico, richiede il calcolo dell'esponente unico necessario per produrre un altro elemento del gruppo a partire dal generatore.
 
@@ -1939,11 +1894,11 @@ Una funzione hash $H$ si dice **resistente alle collisioni** se è impossibile t
 
 Le funzioni hash resistenti alle collisioni sono importanti, ad esempio, nella verifica del software. Supponiamo di voler scaricare la versione Windows di Bitcoin Core 0.21.0 (un'applicazione server per l'elaborazione del traffico di rete Bitcoin). I passi principali da compiere per verificare la legittimità del software sono i seguenti:
 
-1.	Per prima cosa è necessario scaricare e importare le chiavi pubbliche di uno o più collaboratori di Bitcoin Core in un software in grado di verificare le firme digitali (ad esempio Kleopetra). È possibile trovare queste chiavi pubbliche [qui] (https://github.com/bitcoin/bitcoin/blob/master/contrib/builder-keys/keys.txt). Si raccomanda di verificare il software Bitcoin Core con le chiavi pubbliche di più collaboratori.
+1.	Per prima cosa è necessario scaricare e importare le chiavi pubbliche di uno o più collaboratori di Bitcoin Core in un software in grado di verificare le firme digitali (ad esempio Kleopetra). È possibile trovare queste chiavi pubbliche [qui](https://github.com/bitcoin/bitcoin/blob/master/contrib/builder-keys/keys.txt). Si raccomanda di verificare il software Bitcoin Core con le chiavi pubbliche di più collaboratori.
 
 2.	Successivamente, è necessario verificare le chiavi pubbliche importate. Almeno uno dei passi da compiere è verificare che le chiavi pubbliche trovate siano le stesse pubblicate in altri luoghi. Ad esempio, si possono consultare le pagine web personali, le pagine Twitter o le pagine Github delle persone di cui si sono importate le chiavi pubbliche. In genere, il confronto tra le chiavi pubbliche viene effettuato confrontando un breve hash della chiave pubblica, noto come impronta digitale.
 
-3.	Successivamente, è necessario scaricare l'eseguibile per Bitcoin Core dal loro [sito web] (www.bitcoincore.org). Sono disponibili pacchetti per i sistemi operativi Linux, Windows e MAC.
+3.	Successivamente, è necessario scaricare l'eseguibile per Bitcoin Core dal loro [sito web](www.bitcoincore.org). Sono disponibili pacchetti per i sistemi operativi Linux, Windows e MAC.
 
 4.	Successivamente, è necessario individuare due file di rilascio. Il primo contiene l'hash SHA-256 ufficiale dell'eseguibile scaricato insieme agli hash di tutti gli altri pacchetti rilasciati. Un altro file di rilascio conterrà le firme dei vari collaboratori sul file di rilascio con gli hash dei pacchetti. Entrambi i file di rilascio si trovano sul sito web di Bitcoin Core.
 
@@ -2009,10 +1964,10 @@ Circa 2.500 anni fa, il matematico greco Euclide di Alessandria scoprì un teore
 
 L'ultima parte di questa affermazione significa che è possibile prendere qualsiasi intero non primo $N$ maggiore di 1 e scriverlo come una moltiplicazione di numeri primi. Di seguito sono riportati diversi esempi di numeri interi non primi scritti come prodotto di fattori primi.
 
-
-- 18$ = 2 \cdot 3 \cdot 3 = 2 \cdot 3^2$
+- $18 = 2 \cdot 3 \cdot 3 = 2 \cdot 3^2$
 - $84 = 2 \cdot 2 \cdot 3 \cdot 7 = 2^2 \cdot 3 \cdot 7$
-- 144 $ = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 3 \cdot 3 = 2^4 \cdot 3^2 $
+- $144 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 3 \cdot 3 = 2^4 \cdot 3^2$
+
 
 Per tutti e tre i numeri interi di cui sopra, calcolare i loro fattori primi è relativamente facile, anche se si dispone solo di $N$. Si inizia con il numero primo più piccolo, cioè 2, e si vede quante volte il numero intero $N$ è divisibile per esso. Si passa poi a verificare la divisibilità di $N$ per 3, 5, 7 e così via. Continuate questo processo finché il vostro intero $N$ non sarà scritto come il prodotto di soli numeri primi.
 
@@ -2029,19 +1984,20 @@ Supponiamo ora che $N$ sia molto grande. Quanto sarebbe difficile ridurre $N$ in
 Questo dipende da $N$. Supponiamo, ad esempio, che $N$ sia pari a 50.450.400. Anche se questo numero sembra spaventoso, i calcoli non sono così complicati e possono essere facilmente eseguiti a mano. Come sopra, è sufficiente iniziare con 2 e proseguire. Di seguito, è possibile vedere il risultato di questo processo in modo simile a quello descritto sopra.
 
 
-- 2: 25.225.200 (50.450.400 $ = 2 \cdot 25.225.200 $)
-- 2: 12.612.600$ (50.450.400$ = 2^2 \cdot 12.612.600$)
-- 2: 6.306.300$ (50.450.400$ = 2^3 \cdot 6.306.300$)
-- 2: 3.153.150$ (50.450.400$ = 2^4 \cdot 3.153.150$)
-- 2: 1.576.575$ (50.450.400$ = 2^5 \cdot 1.576.575$)
-- 3: 525.525$ (50.450.400$ = 2^5 \cdot 3 \cdot 525.525$)
-- 3: 175.175 (50.450.400$ = 2^5 \cdot 3^2 \cdot 175.175$)
-- 5: 35.035 (50.450.400$ = 2^5 \cdot 3^2 \cdot 5 \cdot 35.035$)
-- 5: 7.007 (50.450.400$ = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7.007$)
-- 7: 1.001 (50.450.400$ = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7 \cdot 1.001$)
-- 7: 143 (50.450.400$ = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 143$)
-- 11: 13 (50.450.400 $ = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 11 \cdot 13$)
+- 2: $25.225.200$ ($50.450.400 = 2 \cdot 25.225.200$)
+- 2: $12.612.600$ ($50.450.400 = 2^2 \cdot 12.612.600$)
+- 2: $6.306.300$ ($50.450.400 = 2^3 \cdot 6.306.300$)
+- 2: $3.153.150$ ($50.450.400 = 2^4 \cdot 3.153.150$)
+- 2: $1.576.575$ ($50.450.400 = 2^5 \cdot 1.576.575$)
+- 3: $525.525$ ($50.450.400 = 2^5 \cdot 3 \cdot 525.525$)
+- 3: $175.175$ ($50.450.400 = 2^5 \cdot 3^2 \cdot 175.175$)
+- 5: $35.035$ ($50.450.400 = 2^5 \cdot 3^2 \cdot 5 \cdot 35.035$)
+- 5: $7.007$ ($50.450.400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7.007$)
+- 7: $1.001$ ($50.450.400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7 \cdot 1.001$)
+- 7: $143$ ($50.450.400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 143$)
+- 11: $13$ ($50.450.400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 11 \cdot 13$)
 - Poiché 13 è un numero primo, il risultato è $2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 11 \cdot 13$.
+
 
 Risolvere questo problema a mano richiede un po' di tempo. Un computer, ovviamente, potrebbe fare tutto questo in una piccola frazione di secondo. Anzi, spesso un computer può persino fattorizzare numeri interi estremamente grandi in una frazione di secondo.
 
@@ -2076,7 +2032,7 @@ Pertanto, il problema della fattorizzazione, in determinate circostanze, può es
 
 $$ \frac{2^{1024}}{\ln(2^{1024})} - \frac{2^{1023}}{\ln(2^{1023})} $$
 
-...che equivale a circa 1,265 volte 10^{305}$.
+...che equivale a circa $1,265 \times 10^{305}$.
 
 [3] Lo stesso vale per i problemi di logaritmo discreto. Ecco perché le costruzioni asimmetriche funzionano con chiavi molto più grandi rispetto alle costruzioni crittografiche simmetriche.
 
@@ -2102,7 +2058,9 @@ Ad esempio, se $N = 12$, 1, 5, 7 e 11 sono gli unici numeri coprimari che soddis
 
 Supponiamo che $N$ sia un numero primo. Allora ogni intero minore di $N$ ma maggiore o uguale a 1 è coprimo con esso. Questo include tutti gli elementi del seguente insieme: $\{1,2,3,....,N - 1\}$. Quindi, quando $N$ è primo, l'ordine di $N$ è $N - 1$. Ciò è affermato nella proposizione 1, dove $\phi(N)$ indica l'ordine di $N$.
 
-**Proposizione 1**. $$phi(N) = N - 1$ quando $N$ è primo
+**Proposizione 1**. 
+
+$$phi(N) = N - 1$ quando $N$ è primo$$
 
 Supponiamo che $N$ non sia primo. È quindi possibile calcolare il suo ordine utilizzando la **funzione Phi di Eulero**. Mentre il calcolo dell'ordine di un intero piccolo è relativamente semplice, la funzione Phi di Eulero diventa particolarmente importante per gli interi più grandi. La proposizione della funzione Phi di Eulero è riportata di seguito.
 
@@ -2126,33 +2084,32 @@ Si tratta di un risultato fondamentale, in particolare per il problema RSA, e vi
 
 Per illustrare, supponiamo che $N = 119$. Questo numero intero può essere scomposto in due numeri primi, 7 e 17. Quindi, la funzione Phi di Eulero suggerisce che l'ordine di 119$ è il seguente:
 
-$$\phi(119) = (7 - 1) \cdot (17 - 1) = 6 \cdot 16 = 96$$$
+$$\phi(119) = (7 - 1) \cdot (17 - 1) = 6 \cdot 16 = 96$$
 
 In altre parole, l'intero 119 ha 96 coprimeri nell'intervallo da 1 a 119. In effetti, questo insieme comprende tutti i numeri interi da 1 a 119 che non sono multipli di 7 o di 17.
 
 D'ora in poi, indicheremo l'insieme dei coprimeri che determina l'ordine di $N$ come $C_N$. Per il nostro esempio in cui $N = 119$, l'insieme $C_{119}$ è troppo grande per essere elencato completamente. Ma alcuni degli elementi sono i seguenti:
 
-$$C_{119} = ´{1, 2, ´punti 6, 8 ´punti 13, 15, 16, 18, ´punti 33, 35 ´punti 96}$
+$$C_{119} = \{1, 2, \dots, 6, 8, \dots, 13, 15, 16, 18, \dots, 33, 35, \dots, 96\}$$
 
 ### Invertibilità modulo N
 
 Possiamo dire che un intero $a$ è **invertibile modulo N**, se esiste almeno un intero $b$ tale che $a \cdot b \mod N = 1 \mod N$. Un tale intero $b$ viene definito **inverso** (o **inverso moltiplicativo**) di $a$, data la riduzione per modulo di $N$.
 
-Supponiamo, ad esempio, che $a = 5$ e $N = 11$. Esistono molti numeri interi per i quali è possibile moltiplicare 5, in modo che $5$ \cdot b \mod 11$ = 1 \mod 11$. Si considerino, ad esempio, i numeri interi 20 e 31. È facile vedere che entrambi questi numeri interi sono inversi di 5 per la riduzione modulo 11.
+Supponiamo, ad esempio, che $a = 5$ e $N = 11$. Esistono molti numeri interi per i quali è possibile moltiplicare 5, in modo che $5 \cdot b \mod 11 = 1 \mod 11$. Si considerino, ad esempio, i numeri interi 20 e 31. È facile vedere che entrambi questi numeri interi sono inversi di 5 per la riduzione modulo 11.
 
-
-- 5$ \cdot 20 \code 11 = 100 \code 11 = 1 \code 11$
+- $5 \cdot 20 \mod 11 = 100 \mod 11 = 1 \mod 11$
 - $5 \cdot 31 \mod 11 = 155 \mod 11 = 1 \mod 11$
 
 Mentre 5 ha molte riduzioni di inversi modulo 11, è possibile dimostrare che esiste un solo inverso positivo di 5 che è minore di 11. In realtà, questo non è un risultato unico per il nostro esempio particolare, ma generale.
 
-**Proposizione 3**. Se l'intero $a$ è invertibile modulo $N$, deve esserci esattamente un inverso positivo di $a$ minore di $N$ (quindi, questo unico inverso di $a$ deve provenire dall'insieme ${1, \punti, N - 1\}$).
+**Proposizione 3**. Se l'intero $a$ è invertibile modulo $N$, deve esserci esattamente un inverso positivo di $a$ minore di $N$ (quindi, questo unico inverso di $a$ deve provenire dall'insieme $\{1, \dots, N - 1\}$).
 
 Indichiamo l'inverso unico di $a$ dalla **Proposizione 3** come $a^{-1}$. Per il caso in cui $a = 5$ e $N = 11$, si può vedere che $a^{-1} = 9$, dato che $5 \cdot 9 \mod 11 = 45 \mod 11 = 1 \mod 11$.
 
-Si noti che è possibile ottenere il valore 9 per $a^{-1}$ nel nostro esempio anche riducendo semplicemente qualsiasi altro inverso di $a$ per modulo 11. Ad esempio, $20 \modulo 11$ = 31 \modulo 11$ = 9 \modulo 11$. Quindi, ogni volta che un intero $a > N$ è invertibile modulo $N$, allora anche $a \mod N$ deve essere invertibile modulo $N$.
+Si noti che è possibile ottenere il valore 9 per $a^{-1}$ nel nostro esempio anche riducendo semplicemente qualsiasi altro inverso di $a$ per modulo 11. Ad esempio, $20 \mod 11$ = 31 \modulo $11 = 9 \mod 11$. Quindi, ogni volta che un intero $a > N$ è invertibile modulo $N$, allora anche $a \mod N$ deve essere invertibile modulo $N$.
 
-Non è detto che esista una riduzione dell'inverso di $a$ modulo $N$. Supponiamo, ad esempio, che $a = 2$ e $N = 8$. Non esiste $b$, o qualsiasi $a^{-1}$ in particolare, tale che $2 \cdot b \mod 8$ = 1 \mod 8$. Questo perché qualsiasi valore di $b$ produrrà sempre un multiplo di 2, quindi nessuna divisione per 8 potrà mai produrre un resto uguale a 1.
+Non è detto che esista una riduzione dell'inverso di $a$ modulo $N$. Supponiamo, ad esempio, che $a = 2$ e $N = 8$. Non esiste $b$, o qualsiasi $a^{-1}$ in particolare, tale che $2 \cdot b \mod 8$ = $1 \mod 8$. Questo perché qualsiasi valore di $b$ produrrà sempre un multiplo di 2, quindi nessuna divisione per 8 potrà mai produrre un resto uguale a 1.
 
 Come facciamo a sapere se un intero $a$ ha un inverso per un dato $N$? Come avrete notato nell'esempio precedente, il massimo comun divisore tra 2 e 8 è maggiore di 1, cioè 2. E questo è in realtà esemplificativo del seguente risultato generale:
 
@@ -2179,9 +2136,9 @@ Il numero intero 7 si divide in 15.624 per un totale di 2.233 volte. Quindi, il 
 
 Quindi, utilizzando la funzione Phi di Eulero, **Teorema 2**, si può ricavare la **Proposizione 5** che segue.
 
-**Proposizione 5**. $´phi(a \cdot b) = \phi(a) \cdot \phi(b)$ per qualsiasi numero intero positivo $a$ e $b$.
+**Proposizione 5**. $\varphi(a \cdot b) = \varphi(a) \cdot \varphi(b)$ per qualsiasi numero intero positivo $a$ e $b$.
 
-Non mostreremo perché questo è il caso. Ma ci limitiamo a notare che la prova di questa proposizione è già stata data dal fatto che $pifo(p \cdot q) = \pifo(p) \cdoto \pifo(q) = (p - 1) \cdoto (q - 1)$ quando $p$ e $q$ sono primi, come affermato nella **Proposizione 2**.
+Non mostreremo perché questo è il caso. Ma ci limitiamo a notare che la prova di questa proposizione è già stata data dal fatto che $\varphi(p \cdot q) = \varphi(p) \cdot \varphi(q) = (p - 1) \cdot (q - 1)$ quando $p$ e $q$ sono primi, come affermato nella **Proposizione 2**.
 
 Il teorema di Eulero, insieme alla **Proposizione 5**, ha importanti implicazioni. Si veda, ad esempio, cosa accade nelle espressioni seguenti, dove $a$ e $N$ sono coprimari.
 
@@ -2192,7 +2149,7 @@ Il teorema di Eulero, insieme alla **Proposizione 5**, ha importanti implicazion
 
 Quindi, la combinazione del teorema di Eulero e della **Proposizione 5** ci permette di calcolare semplicemente una serie di espressioni. In generale, possiamo riassumere l'intuizione come nella **Proposizione 6**.
 
-**Proposizione 6**. $a^x \modo N = a^{x \modo \phi(N)}$
+**Proposizione 6**. $a^x \mod N = a^{x \mod \varphi(N)}$
 
 Ora dobbiamo mettere tutto insieme in un ultimo complicato passaggio.
 
@@ -2228,7 +2185,7 @@ Un modo semplice per calcolare $x$ quando $x^e \mod N = y \mod N$ è semplicemen
 
 $$ y^d \mod N = x^{e \cdot d} \mod N = x^{e \cdot d \mod \phi(N)} \mod N = x^{1 \mod \phi(N)} \mod N = x \mod N. $$
 
-Il problema è che non conosciamo il valore $d$, poiché non è indicato nel problema. Pertanto, non possiamo calcolare direttamente $y^d \mode N$ per produrre $x \mode N$.
+Il problema è che non conosciamo il valore $d$, poiché non è indicato nel problema. Pertanto, non possiamo calcolare direttamente $y^d \mod N$ per produrre $x \mod N$.
 
 Potremmo tuttavia essere in grado di calcolare indirettamente $d$ dall'ordine di $N$, $\phi(N)$, poiché sappiamo che $e \cdot d \mod \phi(N) = 1 \mod \phi(N)$. Ma per ipotesi il problema non fornisce un valore nemmeno per $\phi(N)$.
 
@@ -2265,7 +2222,7 @@ Sarebbe facile (almeno per un computer) calcolare $x$ se sapessimo che $d = 7$. 
 
 - $x = y^7 \mod 403 = 349^7 \mod 403 = 630,634,881,591,804,949 \mod 403 = 2 \mod 403$
 
-Il problema è che non è stata fornita l'informazione che $d = 7$. Si potrebbe ovviamente calcolare $d$ dal fatto che $103 \cdot d = 1 \mod 360$. Il problema è che non vi è stata fornita l'informazione che l'ordine di $N = 360$. Infine, si potrebbe anche calcolare l'ordine di 403$ calcolando il seguente prodotto: $(p - 1) \cdot (q - 1)$. Ma non vi viene detto che $p = 13$ e $q = 31$.
+Il problema è che non è stata fornita l'informazione che $d = 7$. Si potrebbe ovviamente calcolare $d$ dal fatto che $103 \cdot d = 1 \mod 360$. Il problema è che non vi è stata fornita l'informazione che l'ordine di $N = 360$. Infine, si potrebbe anche calcolare l'ordine di $403$ calcolando il seguente prodotto: $(p - 1) \cdot (q - 1)$. Ma non vi viene detto che $p = 13$ e $q = 31$.
 
 Naturalmente, un computer potrebbe ancora risolvere il problema RSA per questo esempio con relativa facilità, perché i numeri primi coinvolti non sono grandi. Ma quando i numeri primi diventano molto grandi, si trova di fronte a un compito praticamente impossibile.
 
@@ -2287,7 +2244,7 @@ Tuttavia, aggiungendo un po' di complessità intelligente, il problema RSA può 
 
 [4] Si veda, ad esempio, Jonathan Katz e Yehuda Lindell, _Introduction to Modern Cryptography_, CRC Press (Boca Raton, FL: 2015), pp. 410-32 sulla crittografia RSA e pp. 444-41 per le firme digitali RSA.
 
-# Conclusione
+# Sezione finale
 
 <partId>e538fb79-bf28-40cd-a5c3-badf864d8567</partId>
 

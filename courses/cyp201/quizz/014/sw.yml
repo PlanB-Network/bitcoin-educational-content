@@ -1,0 +1,9 @@
+question: Ni idadi gani ya marudio inayotumiwa na PBKDF2 katika Bitcoin?
+answer: 2048
+wrong_answers:
+  - 1024
+  - 4096
+  - 512
+explanation: |
+  PBKDF2 hurudia mchakato wa HMAC-SHA512 mara 2048 ili kuimarisha usalama.
+reviewed: false

@@ -1,0 +1,9 @@
+question: W jaki sposób zobowiązania kryptograficzne (za pośrednictwem Taproot lub OP_RETURN) są wykorzystywane w RGB?
+answer: Przejścia stanu Anchor w Blockchain
+wrong_answers:
+  - Przechowują one dane Contract na Blockchain
+  - Zastępują Client-side Validation wykonaniem On-Chain Smart contract
+  - Tworzą węzły do weryfikacji transakcji
+explanation: |
+  Zobowiązania umożliwiają bezpieczne powiązanie aktualizacji statusu z UTXO w celu udowodnienia istnienia określonej informacji w danym czasie, bez ujawniania samej informacji.
+reviewed: false

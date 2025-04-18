@@ -1,0 +1,8 @@
+question: Ni ipi njia moja ya kujijaribu mwenyewe Lightning Network?
+answer: Kwa kujaribu programu ya podikasti inayoitwa Fountain.
+wrong_answers:
+  - Na Mining Bitcoin kwa kutumia kompyuta binafsi.
+  - Kwa kununua Bitcoin kutoka benki.
+  - Kwa kuunda cryptocurrency mpya.
+explanation: >-
+reviewed: true

@@ -1,0 +1,9 @@
+question: Je, Lightning Network inaruhusuje kutuma pesa kwa nodi ambayo haijaunganishwa moja kwa moja?
+answer: Kwa kuelekeza malipo kupitia nodi za kati
+wrong_answers:
+  - Kwa kutumia shughuli za On-Chain kati ya kila nodi
+  - Kwa kuanzisha kituo cha muda kiotomatiki
+  - Kwa kutuma pesa moja kwa moja na anwani nyingi
+explanation: |
+  Lightning Network huwezesha uelekezaji wa malipo kupitia nodi kadhaa za kati, bila kuhitaji kituo cha moja kwa moja kati ya mtumaji na mpokeaji.
+reviewed: false

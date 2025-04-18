@@ -1,0 +1,9 @@
+question: Have I Been Pwned 網站能讓您做什麼？
+answer: 檢查電子郵件 Address 是否已外洩。
+wrong_answers:
+  - generate 新的強大隨機密碼。
+  - 建立安全的電子郵件收件匣。
+  - 同步電子郵件帳戶，使用更方便。
+explanation: |
+  此網站有助於偵測資料外洩，並驗證電子郵件 Address 的安全性。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Kazi kuu ya sarafu ni nini?
+answer: Kufanya kama mpatanishi anayerahisisha Exchange ya thamani
+wrong_answers:
+  - Kuhifadhi thamani ya asili katika umbo la kimwili
+  - Kubadilisha kubadilishana kabisa na bidhaa za moja kwa moja kwa bidhaa Exchange
+  - Kuweka kati shughuli zote za kiuchumi kupitia mamlaka moja
+explanation: |
+  Sarafu hurahisisha biashara kwa kutumika kama njia ya kawaida inayopunguza mtandao changamano wa viwango vya Exchange vinavyohitajika katika mfumo wa kubadilishana vitu, na hivyo kurahisisha miamala.
+reviewed: false

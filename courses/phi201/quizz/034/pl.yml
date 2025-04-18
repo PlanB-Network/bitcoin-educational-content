@@ -1,0 +1,9 @@
+question: Jaka jest różnica między prawem naturalnym a prawem pozytywnym według myśli rzymskiej?
+answer: Prawo naturalne jest uniwersalne i niezmienne, podczas gdy prawo pozytywne jest zmienne i zależy od praw ludzkich.
+wrong_answers:
+  - Prawo naturalne jest prawem silnych, podczas gdy prawo pozytywne jest prawem słabych.
+  - Prawo naturalne opiera się na religii, podczas gdy prawo pozytywne opiera się na rozumie.
+  - Prawo naturalne ma zastosowanie tylko do obywateli rzymskich, podczas gdy prawo pozytywne ma zastosowanie do wszystkich mieszkańców Imperium.
+explanation: |
+  W myśli rzymskiej prawo naturalne jest uważane za uniwersalne i niezmienne, wynikające z niezmiennych zasad, podczas gdy prawo pozytywne jest zbiorem reguł ustanowionych przez ludzi i podlegających zmianom w zależności od kontekstu społecznego i politycznego.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Na co pozwala Lightning Network?
+answer: Natychmiastowe, tanie transakcje Bitcoin.
+wrong_answers:
+  - Natychmiastowe, wysokokosztowe transakcje Bitcoin.
+  - Opóźnione, tanie transakcje Bitcoin.
+  - Opóźnione, wysokokosztowe transakcje Bitcoin.
+explanation: >-
+reviewed: true

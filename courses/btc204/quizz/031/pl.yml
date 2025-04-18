@@ -1,0 +1,9 @@
+question: Jeśli w prostej transakcji płatniczej ten sam Address jest używany na wejściu i na jednym z 2 wyjść, które wyjście prawdopodobnie reprezentuje zmianę?
+answer: Ten z takim samym Address jak wejście.
+wrong_answers:
+  - Ten z najnowszym Address.
+  - Ten z innym Address niż na wejściu.
+  - Ten z nieznanym Address.
+explanation: |
+  Jeśli ponowne użycie Address nastąpi w ramach tej samej transakcji, rozsądne jest założenie, że użytkownik nadal posiada powiązany UTXO. Dlatego wyjście z tym samym Address co wejście jest prawdopodobnie zmianą.
+reviewed: false

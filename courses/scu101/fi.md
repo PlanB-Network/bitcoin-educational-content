@@ -26,11 +26,11 @@ Théo; panos
 
 <partId>534ab66c-b0e6-5757-a7dd-6ea04647edf2</partId>
 
-## Kurssin esittely
+## Kurssin yleiskatsaus
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
-### Tavoite: Päivitä turvallisuustaitosi!
+**Tavoite: Päivitä turvallisuustaitosi!**
 
 Tervetuloa kaikille tähän digitaalisen turvallisuuden koulutusohjelmaan. Tämä koulutus on suunniteltu kaikille saavutettavaksi, joten aiempaa tietotekniikan osaamista ei vaadita. Päätavoitteenamme on tarjota teille tietoa ja taitoja, jotka ovat tarpeen digitaalisessa maailmassa turvallisemmin ja yksityisemmin liikkumiseen.
 
@@ -46,7 +46,7 @@ Digitaalinen hygienia on ratkaisevan tärkeää yhä digitaalisemmassa maailmass
 Tässä koulutuksessa emme yritä tehdä sinusta asiantuntijaa, anonyymiä tai haavoittumatonta, sillä se on mahdotonta. Sen sijaan tarjoamme sinulle joitakin yksinkertaisia ja saavutettavia ratkaisuja kaikille aloittamaan online-tapojen muuttamisen ja digitaalisen suvereniteettisi takaisin saamisen.
 Jos etsit aiheesta edistyneempiä taitoja, resurssimme, tutoriaalimme tai muut kyberturvallisuuskoulutuksemme ovat käytettävissäsi. Sillä välin tässä on lyhyt yleiskatsaus ohjelmastamme seuraavien yhdessä vietettyjen tuntien aikana.
 
-### Osa 1: Kaikki mitä sinun tarvitsee tietää online-selailusta
+**Osa 1: Kaikki mitä sinun tarvitsee tietää online-selailusta**
 
 - Luku 1 - Online-selailu
 - Luku 2 - Internetin turvallinen käyttö
@@ -55,13 +55,13 @@ Aloitamme keskustelemalla web-selaimen valinnan tärkeydestä ja sen merkitykses
 
 ![](assets/en/1.webp)
 
-### Osa 2: Parhaat käytännöt tietokoneen käytössä
+**Osa 2: Parhaat käytännöt tietokoneen käytössä**
 
 - Luku 3 - Tietokoneen käyttö
 - Luku 4 - Hakkerointi & varmuuskopioiden hallinta
   Tässä osiossa käsittelemme kolmea tietoturvan keskeistä aluetta. Ensiksi tutustumme eri käyttöjärjestelmiin: Mac, PC ja Linux, korostaen niiden erityispiirteitä ja vahvuuksia. Sen jälkeen syvennymme menetelmiin, joilla voidaan tehokkaasti suojautua hakkerointiyrityksiltä ja vahvistaa laitteidesi turvallisuutta. Lopuksi korostamme säännöllisen suojauksen ja datan varmuuskopioinnin tärkeyttä, jotta voit välttää tietojen menetyksen tai kiristyshaittaohjelmat.![](assets/en/2.webp)
 
-### Osa 3: Ratkaisujen toteuttaminen
+**Osa 3: Ratkaisujen toteuttaminen**
 
 - Luku 6 - Sähköpostinhallinta
 - Luku 7 - Salasananhallinta
@@ -72,6 +72,7 @@ Tässä käytännönläheisessä kolmannessa osassa siirrymme konkreettisten rat
 Ensin näemme, miten suojata sähköpostilaatikkosi, joka on olennainen viestintävälineesi ja usein hakkerien kohteena. Sen jälkeen esittelemme sinulle salasananhallinnan: käytännöllisen ratkaisun, jolla et enää unohda tai sekoita salasanojasi samalla kun pidät ne turvassa. Lopuksi keskustelemme lisäturvatoimesta, kahden tekijän tunnistautumisesta, joka lisää ylimääräisen suojakerroksen tileillesi. Kaikki selitetään selkeästi ja ymmärrettävästi.
 ![](assets/en/3.webp)
 
+Oletko valmis vahvistamaan digitaalista turvallisuuttasi ja ottamaan hallinnan takaisin tietoihisi? Mennään!
 # Kaikki mitä sinun tarvitsee tietää online-selailusta
 
 <partId>b4b5379a-d8ef-59ae-94d3-a6e88959c149</partId>
@@ -500,7 +501,7 @@ On myös huomattava, että Internet on erittäin keskitetty ja suurelta osin ame
 
 Osana "Security 101" -koulutusmoduulia Découvre Bitcoin Academyssa keskustelimme myös Lightning-autentikoinnista. Tämä järjestelmä luo erilaisen tunnisteen kullekin palvelulle, ilman että tarvitsee antaa sähköpostiosoitetta tai henkilökohtaisia tietoja. On mahdollista omistaa käyttäjän hallitsemia hajautettuja identiteettejä, mutta hajautettujen identiteettiprojektien standardoinnissa ja normalisoinnissa on puutteita. Paketinhallintajärjestelmiä, kuten Nuget ja Chocolaté, jotka mahdollistavat avoimen lähdekoodin ohjelmiston lataamisen Microsoft Storen ulkopuolelta, suositellaan välttämään haitallisia hyökkäyksiä. Yhteenvetona DNS on ratkaisevan tärkeä online-turvallisuudelle, mutta on välttämätöntä pysyä valppaana mahdollisten hyökkäysten varalta DNS-palvelimia vastaan.
 
-# Yhteenveto
+# Lopullinen osio
 
 <partId>3d8ac4c9-f05b-4133-a40a-6e19d579f05f</partId>
 

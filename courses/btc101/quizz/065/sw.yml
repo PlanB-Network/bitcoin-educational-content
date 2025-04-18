@@ -1,0 +1,12 @@
+question: Bitcoin inalingana na kanuni gani za kiuchumi?
+answer: Kanuni za uchumi wa Austria.
+wrong_answers:
+  - Kanuni za uchumi wa Keynesi.
+  - Kanuni za uchumi wa Kimaksi.
+  - Kanuni za Uchumi wa Neoclassical.
+explanation: |
+  Bitcoin inalingana na kanuni za uchumi wa Austria.
+  Kiasi chake kilichofungwa na ukosefu wa chombo kikuu huilinda
+  kutokana na hatari za asili za mfumuko wa bei zinazoonekana
+  sarafu za jadi.
+reviewed: true

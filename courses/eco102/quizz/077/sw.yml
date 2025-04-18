@@ -1,0 +1,9 @@
+question: Ni kikwazo gani kikuu cha kuingilia kati kwa serikali kulingana na Bastiat?
+answer: Wanaofanya maamuzi hadharani sio wanaopata madhara
+wrong_answers:
+  - Wanaofanya maamuzi ya umma wanapenda pesa kupita kiasi
+  - Wanaofanya maamuzi ya umma hawana akili za kutosha
+  - Wanaofanya maamuzi ya umma hukosa ujasiri
+explanation: |
+  Bastiat anakosoa uingiliaji kati wa serikali kwa kuangazia kwamba watoa maamuzi wa umma hawasumbuki na matokeo ya maamuzi yao wenyewe, na kusababisha uchaguzi usio na uwajibikaji.
+reviewed: false

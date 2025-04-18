@@ -1,0 +1,9 @@
+question: Jaka była zmiana ceny Bitcoin w ciągu tygodnia po jego wprowadzeniu na Slashdot?
+answer: Od 0,008 USD do 0,08 USD
+wrong_answers:
+  - Od 0,001 USD do 0,008 USD
+  - Od 0,08 USD do 0,50 USD
+  - Od 0,50 USD do 1 USD
+explanation: |
+  Zmiana ta odpowiadała dziesięciokrotnemu wzrostowi! Wskaźnik Hash doświadczył podobnego wzrostu.
+reviewed: false

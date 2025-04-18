@@ -1,0 +1,9 @@
+question: Kwa nini mpango wa usimbaji ulioidhinishwa pekee hautoshi katika kipindi cha mawasiliano?
+answer: Haihakikishi kuwa ujumbe ulitumwa na mtumaji wakati wa kipindi.
+wrong_answers:
+  - Inatumia vitufe ambavyo ni vifupi sana.
+  - Haisimbi kwa njia fiche ujumbe uliotumwa wakati wa kipindi.
+  - Hairuhusu uthibitishaji wa mtumaji wakati wa kipindi.
+explanation: |
+  Mpango wa usimbaji ulioidhinishwa haulinde dhidi ya mashambulizi kama vile kucheza tena, kupanga upya na kuakisi bila kuongezwa kwa viashirio kama vile vitambulishi na nambari za mfuatano.
+reviewed: false

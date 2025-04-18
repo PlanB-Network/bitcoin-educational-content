@@ -1,0 +1,11 @@
+question: Jaki jest cel węzłów w sieci Bitcoin?
+answer: Aby utrzymać i zabezpieczyć Blockchain
+wrong_answers:
+  - Przetwarzanie transakcji
+  - Proponowanie i wdrażanie zmian w bazie kodu Bitcoin
+  - Aby konkurować z innymi górnikami
+explanation: |
+  Węzły mają zasadnicze znaczenie dla integralności i bezpieczeństwa sieci Bitcoin.
+  Służą jako strażnicy systemu, zapewniając, że transakcje są przetwarzane dokładnie i zgodnie z zasadami
+  są przetwarzane dokładnie i zgodnie z zasadami.
+reviewed: true

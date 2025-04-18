@@ -1,0 +1,10 @@
+question: Z jakich portfeli może korzystać paranoiczny Bitcoiner?
+answer: Samourai Wallet dla Hot Wallet, Coldcard i/lub seed Signer dla Cold Wallet
+wrong_answers:
+  - Coinbase Wallet dla Hot Wallet, Ledger dla Cold Wallet
+  - Binance Wallet dla Hot Wallet, Trezor dla Cold Wallet
+  - PayPal dla Hot Wallet, konto bankowe dla Cold Wallet
+explanation: |
+  Rozdział wspomina o Samourai Wallet dla Hot Wallet i Coldcard i/lub
+  seed Signer dla Cold Wallet jako portfele, z których może korzystać paranoiczny Bitcoiner.
+reviewed: false

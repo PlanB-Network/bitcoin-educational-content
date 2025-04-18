@@ -1,0 +1,9 @@
+question: Jeśli zaobserwujemy transakcję z 6 UTXO jako wejściami i tylko jednym UTXO jako wyjściem, jaką prawdopodobną interpretację możemy wyciągnąć?
+answer: Wszystkie UTXO na wejściu należały do tego samego użytkownika i ten użytkownik nadal jest w posiadaniu UTXO na wyjściu.
+wrong_answers:
+  - Dane wejściowe UTXO pochodziły od różnych użytkowników współpracujących przy jednej transakcji.
+  - Wszystkie UTXO na wejściu należały do tego samego użytkownika, a ten na wyjściu należy teraz do innego użytkownika.
+  - UTXO na wejściu pochodzą od 2 różnych użytkowników, a ten na wyjściu nadal należy do tych 2 użytkowników.
+explanation: |
+  Prawdopodobnie mamy do czynienia z konsolidacją. W związku z tym istnieje wspólny Ownership wejść i wyjść.
+reviewed: false

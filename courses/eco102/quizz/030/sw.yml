@@ -1,0 +1,9 @@
+question: Bastiat anamchukulia Rousseau kuwa mtangulizi wa vuguvugu lipi la kisiasa?
+answer: Ujamaa
+wrong_answers:
+  - Ukomunisti
+  - Kuheshimiana
+  - Anarchism
+explanation: |
+  Bastiat anamwona Rousseau kama mtangulizi wa ujamaa, kwa sababu ya mtazamo wake wa pamoja kwa jamii, ambapo mtu lazima ajisalimishe kwa utashi wa jumla.
+reviewed: false

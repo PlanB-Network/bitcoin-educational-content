@@ -9,8 +9,5 @@ Transaction Bitcoin construite et signée, qui se trouve dans sa forme binaire. 
 * Les outputs ;
 * Le locktime ;
 * Le witness.
-
 Ce que l'on appelle « *raw transaction* » représente les données brutes qui sont passées deux fois dans la fonction de hachage SHA256 pour générer le TXID de la transaction. Ces données sont ensuite utilisées dans l'arbre de Merkle du bloc pour intégrer la transaction dans la blockchain.
-
-> ► *Ce concept est également parfois nommé « Serialized Transaction ». En français, on pourrait traduire ces termes respectivement par « transaction brute » et « transaction sérialisée ».*
-
+> ► *Ce concept est également parfois nommé « Serialized Transaction ».*

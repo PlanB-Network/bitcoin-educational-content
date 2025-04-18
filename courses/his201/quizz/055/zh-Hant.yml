@@ -1,0 +1,9 @@
+question: 發生數值溢出事件後，Satoshi 在軟體中加入了什麼機制來限制潛在漏洞對系統的影響？
+answer: 警報系統
+wrong_answers:
+  - 交易的標準性質
+  - 區塊大小限制
+  - OP_NOP 操作代碼
+explanation: |
+  這個有效的警報系統讓他可以利用私人金鑰，在發生技術問題時警告網路節點，並暫停某些 API 指令。
+reviewed: false

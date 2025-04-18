@@ -1,0 +1,11 @@
+question: Jakie są niektóre aspekty kryptografii wykorzystywane w cyberbezpieczeństwie?
+answer: SSL/TLS, szyfrowanie symetryczne/asymetryczne
+wrong_answers:
+  - RSA, DSA, ECC
+  - AES, DES, 3DES
+  - MD5, SHA-1, SHA-256
+explanation: |
+  W rozdziale wymieniono SSL/TLS i symetryczne/asymetryczne szyfrowanie
+  szyfrowanie jako niektóre z aspektów kryptografii wykorzystywanych w
+  cyberbezpieczeństwie.
+reviewed: true

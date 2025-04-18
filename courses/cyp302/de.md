@@ -22,14 +22,15 @@ Diese Einführung in die Kryptographie versucht, einen Mittelweg zu finden. Wäh
 
 <partId>bbed2f46-d64c-5fb5-b892-d726032f2494</partId>
 
-## Kurzbeschreibung
+## Kursübersicht
 
 <chapterId>bb8a8b73-7fb2-50da-bf4e-98996d79887b</chapterId>
+Willkommen im Kurs CYP302!
 
 Dieses Buch bietet eine tiefgehende Einführung in die Wissenschaft und Praxis der Kryptographie. Wo immer möglich, konzentriert es sich auf die konzeptionelle und nicht auf die formale Darstellung des Materials.
 
 > Dieser Kurs basiert auf [JWBurgers' Repo](https://github.com/JWBurgers/An_Introduction_to_Cryptography). Alles klar für ihn. Der Inhalt ist noch nicht fertig und nur hier, um zu zeigen, wie wir es integrieren könnten, wenn JWburger's zustimmen.
-### Motivation und Ziele
+**Motivation und Ziele**
 
 Es ist schwierig, viele Materialien zu finden, die einen guten Mittelweg im Kryptographieunterricht bieten.
 
@@ -37,11 +38,11 @@ Auf der einen Seite gibt es lange, formale Abhandlungen, die wirklich nur für d
 
 Diese Einführung in die Kryptographie versucht, einen Mittelweg zu finden. Während sie für jeden, der neu in die Kryptographie einsteigt, relativ anspruchsvoll und detailliert sein sollte, ist sie nicht das Kaninchenloch einer typischen Grundlagenabhandlung.
 
-### Zielpublikum
+**Zielpublikum**
 
 Vom Entwickler bis zum intellektuell Neugierigen ist dieses Buch für jeden nützlich, der mehr als nur ein oberflächliches Verständnis der Kryptographie haben möchte. Wenn Sie das Ziel haben, das Gebiet der Kryptographie zu beherrschen, ist dieses Buch ebenfalls ein guter Ausgangspunkt.
 
-### Leitlinien zum Lesen
+**Leitlinien zum Lesen**
 
 Das Buch besteht derzeit aus sieben Kapiteln: "Was ist Kryptographie?" (Kapitel 1), "Mathematische Grundlagen der Kryptographie I" (Kapitel 2), "Mathematische Grundlagen der Kryptographie II" (Kapitel 3), "Symmetrische Kryptographie" (Kapitel 4), "RC4 und AES" (Kapitel 5), "Asymmetrische Kryptographie" (Kapitel 6) und "Das RSA-Kryptosystem" (Kapitel 7). Ein letztes Kapitel, "Kryptographie in der Praxis", wird noch hinzugefügt werden. Es befasst sich mit verschiedenen kryptografischen Anwendungen, darunter Sicherheit auf der Transportschicht, Onion-Routing und das Bitcoin-Wertesystem.
 
@@ -49,21 +50,21 @@ Die Zahlentheorie ist wahrscheinlich das schwierigste Thema in diesem Buch, es s
 
 Wenn Sie sich mit den formalen Details in diesen Teilen des Buches wirklich schwer tun, empfehle ich Ihnen, sich beim ersten Mal mit dem Lesen auf hohem Niveau zu begnügen.
 
-### Danksagung
+**Danksagung**
 
 Das einflussreichste Buch bei der Entwicklung dieses Themas war Jonathan Katz und Yehuda Lindell's _Introduction to Modern Cryptography_, CRC Press (Boca Raton, FL), 2015. Ein begleitender Kurs mit dem Titel "Kryptografie" ist auf Coursera verfügbar
 
-Die wichtigsten zusätzlichen Quellen, die bei der Erstellung des Überblicks in diesem Buch hilfreich waren, sind Simon Singh, _The Code Book_, Fourth Estate (London, 1999); Christof Paar und Jan Pelzl, _Understanding Cryptography_, Springer (Heidelberg, 2010) und [ein auf dem Buch von Paar basierender Kurs namens "Introduction to Cryptography"] (https://www.youtube.com/channel/UC1usFRN4LCMcfIV7UjHNuQg); und Bruce Schneier, Applied Cryptography, 2nd edn, 2015 (Indianapolis, IN: John Wiley & Sons).
+Die wichtigsten zusätzlichen Quellen, die bei der Erstellung des Überblicks in diesem Buch hilfreich waren, sind Simon Singh, _The Code Book_, Fourth Estate (London, 1999); Christof Paar und Jan Pelzl, _Understanding Cryptography_, Springer (Heidelberg, 2010) und [ein auf dem Buch von Paar basierender Kurs namens "Introduction to Cryptography"](https://www.youtube.com/channel/UC1usFRN4LCMcfIV7UjHNuQg); und Bruce Schneier, Applied Cryptography, 2nd edn, 2015 (Indianapolis, IN: John Wiley & Sons).
 
 Ich werde nur ganz bestimmte Informationen und Ergebnisse zitieren, die ich aus diesen Quellen entnommen habe, möchte aber an dieser Stelle meine allgemeine Dankbarkeit gegenüber diesen Quellen zum Ausdruck bringen.
 
 Denjenigen Lesern, die nach dieser Einführung fortgeschrittenere Kenntnisse über Kryptografie erwerben möchten, empfehle ich das Buch von Katz und Lindell sehr. Der Kurs von Katz auf Coursera ist etwas zugänglicher als das Buch.
 
-### Beiträge
+**Beiträge**
 
-Bitte werfen Sie einen Blick auf [die Beitragsdatei im Repository] (https://github.com/JWBurgers/An_Introduction_to_Cryptography/blob/master/Contributions.md) für einige Richtlinien, wie Sie das Projekt unterstützen können.
+Bitte werfen Sie einen Blick auf [die Beitragsdatei im Repository](https://github.com/JWBurgers/An_Introduction_to_Cryptography/blob/master/Contributions.md) für einige Richtlinien, wie Sie das Projekt unterstützen können.
 
-### Notation
+**Notation**
 
 **Schlüsselbegriffe:**
 
@@ -85,6 +86,8 @@ Die formale Notation betrifft hauptsächlich Variablen, Zufallsvariablen und Men
 - Variablen: Diese werden in der Regel nur mit einem Kleinbuchstaben angegeben (z. B. "x" oder "y"). Manchmal werden sie aus Gründen der Übersichtlichkeit großgeschrieben (z. B. "M" oder "K").
 - Zufallsvariablen: Diese werden immer mit einem Großbuchstaben gekennzeichnet (z. B. "X" oder "Y")
 - Gruppen: Diese sind immer durch fette Großbuchstaben gekennzeichnet (z. B. **S**)
+
+Bereit, die faszinierende Welt der Kryptographie zu erkunden? Los geht's!
 
 # Was ist Kryptographie?
 
@@ -126,7 +129,7 @@ Nach der Entschlüsselung liefert die zweite Nachricht den genauen Inhalt des Sc
 
 **Anmerkungen:**
 
-[1] Für eine gute Zusammenfassung der Geschichte siehe Simon Singh, *The Code Book*, Fourth Estate (London, 1999), S. 82-99. Ein kurzer Film über die Geschichte wurde 2010 von Andrew Allen gedreht. Sie finden den Film, "The Thomas Beale Cipher", [auf seiner Website] (http://www.thomasbealecipher.com/).
+[1] Für eine gute Zusammenfassung der Geschichte siehe Simon Singh, *The Code Book*, Fourth Estate (London, 1999), S. 82-99. Ein kurzer Film über die Geschichte wurde 2010 von Andrew Allen gedreht. Sie finden den Film, "The Thomas Beale Cipher", [auf seiner Website](http://www.thomasbealecipher.com/).
 
 [2] Dieses Bild ist auf der Wikipedia-Seite für die Beale-Chiffren verfügbar.
 
@@ -200,7 +203,7 @@ Daher ist die Idee, Kommunikation durch den Schutz des Kommunikationskanals gehe
 
 **Anmerkungen:**
 
-[7] Siehe z. B. Olga Khazan, "The creepy, long-standing practice of undersea cable tapping", *The Atlantic*, 16. Juli 2013 (abrufbar unter [The Atlantic] (https://www.theatlantic.com/international/archive/2013/07/the-creepy-long-standing-practice-of-undersea-cable-tapping/277855/)).
+[7] Siehe z. B. Olga Khazan, "The creepy, long-standing practice of undersea cable tapping", *The Atlantic*, 16. Juli 2013 (abrufbar unter [The Atlantic](https://www.theatlantic.com/international/archive/2013/07/the-creepy-long-standing-practice-of-undersea-cable-tapping/277855/)).
 
 # Mathematische Grundlagen der Kryptographie 1
 
@@ -291,7 +294,7 @@ Im Ausdruck "Zufallsvariable" bedeutet der Begriff "zufällig" einfach "probabil
 
 Eine **uniforme Variable** ist ein Spezialfall einer Zufallsvariablen. Sie kann zwei oder mehr Werte annehmen, die alle die gleiche Wahrscheinlichkeit haben. Die in *Abbildung 1* dargestellte Zufallsvariable $X$ ist eindeutig eine gleichförmige Variable, da beide möglichen Ergebnisse mit einer Wahrscheinlichkeit von $0,5$ auftreten. Es gibt jedoch viele Zufallsvariablen, die nicht zu den gleichförmigen Variablen gehören.
 
-Betrachten wir zum Beispiel die Zufallsvariable $Y$. Sie hat eine Ergebnismenge $\{1, 2, 3, 8, 10}$ und die folgende Wahrscheinlichkeitsverteilung:
+Betrachten wir zum Beispiel die Zufallsvariable $Y$. Sie hat eine Ergebnismenge ${1, 2, 3, 8, 10}$ und die folgende Wahrscheinlichkeitsverteilung:
 
 $$
 \Pr[Y = 1] = 0.25
@@ -1057,9 +1060,9 @@ Die Shift-Chiffre ist ein sehr unsicheres symmetrisches Verschlüsselungsverfahr
 
 Damit ein Verschlüsselungsverfahren einem Minimalbegriff von Sicherheit entspricht, muss es über eine Menge möglicher Schlüssel, den **Schlüsselraum**, verfügen, die so groß ist, dass Brute-Force-Angriffe nicht durchführbar sind. Alle modernen Verschlüsselungsverfahren erfüllen diesen Standard. Dieser Grundsatz ist als **Prinzip des ausreichenden Schlüsselraums** bekannt. Ein ähnliches Prinzip gilt in der Regel für verschiedene Arten von kryptografischen Verfahren.
 
-Um ein Gefühl für die enorme Größe des Schlüsselraums in modernen Verschlüsselungsverfahren zu bekommen, nehmen wir an, dass eine Datei mit einem 128-Bit-Schlüssel nach dem fortgeschrittenen Verschlüsselungsstandard verschlüsselt wurde. Dies bedeutet, dass ein Angreifer einen Satz von $2^{128}$ Schlüsseln hat, die er für einen Brute-Force-Angriff durchgehen muss. Bei einer Erfolgschance von 0,78% mit dieser Strategie müsste der Angreifer etwa $2,65 \mal 10^{36}$ Schlüssel durchprobieren.
+Um ein Gefühl für die enorme Größe des Schlüsselraums in modernen Verschlüsselungsverfahren zu bekommen, nehmen wir an, dass eine Datei mit einem 128-Bit-Schlüssel nach dem fortgeschrittenen Verschlüsselungsstandard verschlüsselt wurde. Dies bedeutet, dass ein Angreifer einen Satz von $2^{128}$ Schlüsseln hat, die er für einen Brute-Force-Angriff durchgehen muss. Bei einer Erfolgschance von 0,78% mit dieser Strategie müsste der Angreifer etwa $2,65 \times 10^{36}$ Schlüssel durchprobieren.
 
-Nehmen wir optimistisch an, dass ein Angreifer $10^{16}$ Schlüssel pro Sekunde testen kann (d.h. 10 Billiarden Schlüssel pro Sekunde). Um 0,78 % aller Schlüssel im Schlüsselraum zu testen, müsste ihr Angriff $2,65 \mal 10^{20}$ Sekunden dauern. Das sind etwa 8,4 Billionen Jahre. Selbst ein Brute-Force-Angriff eines absurd mächtigen Gegners ist also bei einem modernen 128-Bit-Verschlüsselungssystem nicht realistisch. Hier kommt das Prinzip des ausreichenden Schlüsselraums zum Tragen.
+Nehmen wir optimistisch an, dass ein Angreifer $10^{16}$ Schlüssel pro Sekunde testen kann (d.h. 10 Billiarden Schlüssel pro Sekunde). Um 0,78 % aller Schlüssel im Schlüsselraum zu testen, müsste ihr Angriff $2,65 \times 10^{20}$ Sekunden dauern. Das sind etwa 8,4 Billionen Jahre. Selbst ein Brute-Force-Angriff eines absurd mächtigen Gegners ist also bei einem modernen 128-Bit-Verschlüsselungssystem nicht realistisch. Hier kommt das Prinzip des ausreichenden Schlüsselraums zum Tragen.
 
 Ist die Shift-Chiffre sicherer, wenn der Angreifer den Verschlüsselungsalgorithmus nicht kennt? Vielleicht, aber nicht viel.
 
@@ -1448,29 +1451,19 @@ Wir fahren mit diesem Vorgang fort, bis wir die letzte Zeile am unteren Rand fü
 
 *Tabelle 1: Schlüsseldispositionstabelle*
 
-| Runde | i | j | | S[0] | S[1] | S[2] | S[3] | S[4] | S[5] | S[6] | S[7] |
-
+| Round   | i   | j   |     | S[0] | S[1] | S[2] | S[3] | S[4] | S[5] | S[6] | S[7] |
 | ------- | --- | --- | --- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+|         |     |     |     |      |      |      |      |      |      |      |      |
+| Initial |     | 0   |     | 0    | 1    | 2    | 3    | 4    | 5    | 6    | 7    |
+| 1       | 0   | 6   |     | 6    | 1    | 2    | 3    | 4    | 5    | 0    | 7    |
+| 2       | 1   | 7   |     | 6    | 7    | 2    | 3    | 4    | 5    | 0    | 1    |
+| 3       | 2   | 2   |     | 6    | 7    | 2    | 3    | 4    | 5    | 0    | 1    |
+| 4       | 3   | 3   |     | 6    | 7    | 2    | 3    | 4    | 5    | 0    | 1    |
+| 5       | 4   | 3   |     | 6    | 7    | 2    | 0    | 3    | 5    | 4    | 1    |
+| 6       | 5   | 6   |     | 6    | 4    | 2    | 0    | 3    | 7    | 5    | 1    |
+| 7       | 6   | 1   |     | 6    | 4    | 2    | 0    | 3    | 7    | 5    | 2    |
+| 8       | 7   | 2   |     | 6    | 4    | 1    | 0    | 3    | 7    | 5    | 2    |
 
-| | | | | | | | | | | | |
-
-| Initial | | 0 | | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
-
-| 1 | 0 | 6 | | 6 | 1 | 2 | 3 | 4 | 5 | 0 | 7 |
-
-| 2 | 1 | 7 | | 6 | 7 | 2 | 3 | 4 | 5 | 0 | 1 |
-
-| 3 | 2 | 2 | | 6 | 7 | 2 | 3 | 4 | 5 | 0 | 1 |
-
-| 4 | 3 | 3 | | 6 | 7 | 2 | 3 | 4 | 5 | 0 | 1 |
-
-| 5 | 4 | 3 | | 6 | 7 | 2 | 0 | 3 | 5 | 4 | 1 |
-
-| 6 | 5 | 6 | | 6 | 4 | 2 | 0 | 3 | 7 | 5 | 1 |
-
-| 7 | 6 | 1 | | 6 | 4 | 2 | 0 | 3 | 7 | 5 | 2 |
-
-| 8 | 7 | 2 | | 6 | 4 | 1 | 0 | 3 | 7 | 5 | 2 |
 
 ### Schritt 4
 
@@ -1499,23 +1492,17 @@ Was passiert, wenn das zu verschlüsselnde Wort länger wäre als das Array **S*
 
 *Tabelle 2: Keystream-Erzeugung*
 
-| i | j | t | Keystream | S[0] | S[1] | S[2] | S[3] | S[4] | S[5] | S[6] | S[7] |
-
+| i   | j   | t   | Keystream | S[0] | S[1] | S[2] | S[3] | S[4] | S[5] | S[6] | S[7] |
 | --- | --- | --- | --------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+|     |     |     |           |      |      |      |      |      |      |      |      |
+|     | 0   |     |           | 6    | 4    | 1    | 0    | 3    | 7    | 5    | 2    |
+| 1   | 4   | 7   | 2         | 6    | 3    | 1    | 0    | 4    | 7    | 5    | 2    |
+| 2   | 5   | 0   | 6         | 6    | 3    | 7    | 0    | 4    | 1    | 5    | 2    |
+| 3   | 5   | 1   | 3         | 6    | 3    | 7    | 1    | 4    | 0    | 5    | 2    |
+| 4   | 1   | 7   | 2         | 6    | 4    | 7    | 1    | 3    | 0    | 5    | 2    |
 
-| | | | | | | | | | | | |
 
-| | 0 | | | 6 | 4 | 1 | 0 | 3 | 7 | 5 | 2 |
-
-| 1 | 4 | 7 | 2 | 6 | 3 | 1 | 0 | 4 | 7 | 5 | 2 |
-
-| 2 | 5 | 0 | 6 | 6 | 3 | 7 | 0 | 4 | 1 | 5 | 2 |
-
-| 3 | 5 | 1 | 3 | 6 | 3 | 7 | 1 | 4 | 0 | 5 | 2 |
-
-| 4 | 1 | 7 | 2 | 6 | 4 | 7 | 1 | 3 | 0 | 5 | 2 |
-
-Das Beispiel, das wir gerade besprochen haben, ist nur eine verwässerte Version der **RC4-Stromchiffre**. Die eigentliche RC4-Stromchiffre hat ein **S**-Array mit einer Länge von 256 Byte, nicht 8 Byte, und einen Schlüssel, der zwischen 1 und 256 Byte und nicht zwischen 1 und 8 Byte lang sein kann. Das Schlüssel-Array und die Schlüsselströme werden dann alle unter Berücksichtigung der 256-Byte-Länge des **S**-Arrays erzeugt. Die Berechnungen werden immens komplexer, aber die Prinzipien bleiben dieselben. Unter Verwendung desselben Schlüssels, [14,48,9], mit der Standard-RC4-Chiffre wird die Klartextnachricht "SOUP" als 67 02 ed df im Hexadezimalformat verschlüsselt.
+Das Beispiel, das wir gerade besprochen haben, ist nur eine verwässerte Version der **RC4-Stromchiffre**. Die eigentliche RC4-Stromchiffre hat ein **S**-Array mit einer Länge von 256 Byte, nicht 8 Byte, und einen Schlüssel, der zwischen 1 und 256 Byte und nicht zwischen 1 und 8 Byte lang sein kann. Das Schlüssel-Array und die Schlüsselströme werden dann alle unter Berücksichtigung der 256-Byte-Länge des **S**-Arrays erzeugt. Die Berechnungen werden immens komplexer, aber die Prinzipien bleiben dieselben. Unter Verwendung desselben Schlüssels, 14,48,9, mit der Standard-RC4-Chiffre wird die Klartextnachricht "SOUP" als 67 02 ed df im Hexadezimalformat verschlüsselt.
 
 Eine Stromchiffre, bei der der Schlüsselstrom unabhängig von der Klartextnachricht oder dem Chiffretext aktualisiert wird, ist eine **synchrone Stromchiffre**. Der Keystream ist nur vom Schlüssel abhängig. RC4 ist eindeutig ein Beispiel für eine synchrone Stromchiffre, da der Schlüsselstrom keine Beziehung zum Klartext oder zum Chiffretext hat. Alle unsere im vorigen Kapitel erwähnten primitiven Stromchiffren, einschließlich der Shift-Chiffre, der Vigenère-Chiffre und des One-Time-Pad, waren ebenfalls synchroner Natur.
 
@@ -1589,41 +1576,26 @@ Zweitens wird die Operation **Bytesubstitution** mit dem aktuellen Zustand von $
 
 *Abbildung 3: Rijndaels S-Box*
 
-| | 00 | 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 0A | 0B | 0C | 0D | 0E | 0F |
 
+|     | 00  | 01  | 02  | 03  | 04  | 05  | 06  | 07  | 08  | 09  | 0A  | 0B  | 0C  | 0D  | 0E  | 0F  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 00  | 63  | 7C  | 77  | 7B  | F2  | 6B  | 6F  | C5  | 30  | 01  | 67  | 2B  | FE  | D7  | AB  | 76  |
+| 10  | CA  | 82  | C9  | 7D  | FA  | 59  | 47  | F0  | AD  | D4  | A2  | AF  | 9C  | A4  | 72  | C0  |
+| 20  | B7  | FD  | 93  | 26  | 36  | 3F  | F7  | CC  | 34  | A5  | E5  | F1  | 71  | D8  | 31  | 15  |
+| 30  | 04  | C7  | 23  | C3  | 18  | 96  | 05  | 9A  | 07  | 12  | 80  | E2  | EB  | 27  | B2  | 75  |
+| 40  | 09  | 83  | 2C  | 1A  | 1B  | 6E  | 5A  | A0  | 52  | 3B  | D6  | B3  | 29  | E3  | 2F  | 84  |
+| 50  | 53  | D1  | 00  | ED  | 20  | FC  | B1  | 5B  | 6A  | CB  | BE  | 39  | 4A  | 4C  | 58  | CF  |
+| 60  | D0  | EF  | AA  | FB  | 43  | 4D  | 33  | 85  | 45  | F9  | 02  | 7F  | 50  | 3C  | 9F  | A8  |
+| 70  | 51  | A3  | 40  | 8F  | 92  | 9D  | 38  | F5  | BC  | B6  | DA  | 21  | 10  | FF  | F3  | D2  |
+| 80  | CD  | 0C  | 13  | EC  | 5F  | 97  | 44  | 17  | C4  | A7  | 7E  | 3D  | 64  | 5D  | 19  | 73  |
+| 90  | 60  | 81  | 4F  | DC  | 22  | 2A  | 90  | 88  | 46  | EE  | B8  | 14  | DE  | 5E  | 0B  | DB  |
+| A0  | E0  | 32  | 3A  | 0A  | 49  | 06  | 24  | 5C  | C2  | D3  | AC  | 62  | 91  | 95  | E4  | 79  |
+| B0  | E7  | C8  | 37  | 6D  | 8D  | D5  | 4E  | A9  | 6C  | 56  | F4  | EA  | 65  | 7A  | AE  | 08  |
+| C0  | BA  | 78  | 25  | 2E  | 1C  | A6  | B4  | C6  | E8  | DD  | 74  | 1F  | 4B  | BD  | 8B  | 8A  |
+| D0  | 70  | 3E  | B5  | 66  | 48  | 03  | F6  | 0E  | 61  | 35  | 57  | B9  | 86  | C1  | 1D  | 9E  |
+| E0  | E1  | F8  | 98  | 11  | 69  | D9  | 8E  | 94  | 9B  | 1E  | 87  | E9  | CE  | 55  | 28  | DF  |
+| F0  | 8C  | A1  | 89  | 0D  | BF  | E6  | 42  | 68  | 41  | 99  | 2D  | 0F  | B0  | 54  | BB  | 16  |
 
-| 00 | 63 | 7C | 77 | 7B | F2 | 6B | 6F | C5 | 30 | 01 | 67 | 2B | FE | D7 | AB | 76 |
-
-| 10 | CA | 82 | C9 | 7D | FA | 59 | 47 | F0 | AD | D4 | A2 | AF | 9C | A4 | 72 | C0 |
-
-| 20 | B7 | FD | 93 | 26 | 36 | 3F | F7 | CC | 34 | A5 | E5 | F1 | 71 | D8 | 31 | 15 |
-
-| 30 | 04 | C7 | 23 | C3 | 18 | 96 | 05 | 9A | 07 | 12 | 80 | E2 | EB | 27 | B2 | 75 |
-
-| 40 | 09 | 83 | 2C | 1A | 1B | 6E | 5A | A0 | 52 | 3B | D6 | B3 | 29 | E3 | 2F | 84 |
-
-| 50 | 53 | D1 | 00 | ED | 20 | FC | B1 | 5B | 6A | CB | BE | 39 | 4A | 4C | 58 | CF |
-
-| 60 | D0 | EF | AA | FB | 43 | 4D | 33 | 85 | 45 | F9 | 02 | 7F | 50 | 3C | 9F | A8 |
-
-| 70 | 51 | A3 | 40 | 8F | 92 | 9D | 38 | F5 | BC | B6 | DA | 21 | 10 | FF | F3 | D2 |
-
-| 80 | CD | 0C | 13 | EC | 5F | 97 | 44 | 17 | C4 | A7 | 7E | 3D | 64 | 5D | 19 | 73 |
-
-| 90 | 60 | 81 | 4F | DC | 22 | 2A | 90 | 88 | 46 | EE | B8 | 14 | DE | 5E | 0B | DB |
-
-| A0 | E0 | 32 | 3A | 0A | 49 | 06 | 24 | 5C | C2 | D3 | AC | 62 | 91 | 95 | E4 | 79 |
-
-| B0 | E7 | C8 | 37 | 6D | 8D | D5 | 4E | A9 | 6C | 56 | F4 | EA | 65 | 7A | AE | 08 |
-
-| C0 | BA | 78 | 25 | 2E | 1C | A6 | B4 | C6 | E8 | DD | 74 | 1F | 4B | BD | 8B | 8A |
-
-| D0 | 70 | 3E | B5 | 66 | 48 | 03 | F6 | 0E | 61 | 35 | 57 | B9 | 86 | C1 | 1D | 9E |
-
-| E0 | E1 | F8 | 98 | 11 | 69 | D9 | 8E | 94 | 9B | 1E | 87 | E9 | CE | 55 | 28 | DF |
-
-| F0 | 8C | A1 | 89 | 0D | BF | E6 | 42 | 68 | 41 | 99 | 2D | 0F | B0 | 54 | BB | 16 |
 
 Diese S-Box ist ein Ort, an dem abstrakte Algebra in der Rijndael-Chiffre ins Spiel kommt, insbesondere **Galois-Felder**.
 
@@ -1637,39 +1609,31 @@ Nachdem die Matrix **S** erstellt wurde, werden die vier Zeilen verschoben. Die 
 
 *Abbildung 4: Zeilenverschiebung*
 
-| F1 | A0 | B1 | 23 |
 
+| F1   | A0   | B1   | 23   |
 |------|------|------|------|
+| 59   | EF   | 09   | 82   |
+| 97   | 01   | B0   | CC   |
+| D4   | 72   | 04   | 21   |
 
-| 59 | EF | 09 | 82 |
-
-| 97 | 01 | B0 | CC |
-
-| D4 | 72 | 04 | 21 |
-
-| F1 | A0 | B1 | 23 |
-
+| F1   | A0   | B1   | 23   |
 |------|------|------|------|
+| EF   | 09   | 82   | 59   |
+| B0   | CC   | 97   | 01   |
+| 21   | D4   | 72   | 04   |
 
-| EF | 09 | 82 | 59 |
-
-| B0 | CC | 97 | 01 |
-
-| 21 | D4 | 72 | 04 |
 
 Im vierten Schritt treten die **Galoisfelder** wieder in Erscheinung. Zu Beginn wird jede Spalte der **S**-Matrix mit der Spalte der 4 x 4-Matrix aus *Abbildung 5* multipliziert. Aber statt einer normalen Matrixmultiplikation handelt es sich um eine Vektormultiplikation **modulo eines irreduziblen Polynoms**, $x^8 + x^4 + x^3 + x + 1$. Die resultierenden Vektorkoeffizienten stellen die einzelnen Bits eines Bytes dar.
 
 *Abbildung 5: Matrix der Mischspalten*
 
-| 02 | 03 | 01 | 01 |
 
+| 02   | 03   | 01   | 01   |
 |------|------|------|------|
+| 01   | 02   | 03   | 01   |
+| 01   | 01   | 02   | 03   |
+| 03   | 01   | 01   | 02   |
 
-| 01 | 02 | 03 | 01 |
-
-| 01 | 01 | 02 | 03 |
-
-| 03 | 01 | 01 | 02 |
 
 Die Multiplikation der ersten Spalte der **S**-Matrix mit der obigen 4 x 4-Matrix ergibt das Ergebnis in *Abbildung 6*.
 
@@ -1773,6 +1737,7 @@ In den 1970er Jahren hatten die Probleme der Schlüsselverteilung und -verwaltun
 Zumindest eine der Hauptmotivationen für ihr Vorhaben war die Voraussicht, dass die offene Computerkommunikation unsere Welt tiefgreifend beeinflussen würde. Wie Diffie und Helmann 1976 feststellten,
 
 > Die Entwicklung computergesteuerter Kommunikationsnetze verspricht mühelose und kostengünstige Kontakte zwischen Menschen oder Computern auf entgegengesetzten Seiten der Welt und ersetzt die meiste Post und viele Ausflüge durch Telekommunikation. Für viele Anwendungen müssen diese Kontakte sowohl gegen Abhören als auch gegen das Einschleusen unzulässiger Nachrichten gesichert werden. Die Lösung von Sicherheitsproblemen hinkt derzeit jedoch weit hinter anderen Bereichen der Kommunikationstechnologie hinterher. *Die gegenwärtige Kryptographie ist nicht in der Lage, den Anforderungen gerecht zu werden, da ihre Anwendung den Systembenutzern so große Unannehmlichkeiten auferlegen würde, dass viele der Vorteile der Telekommunikation zunichte gemacht würden.* [1]
+
 Die Hartnäckigkeit von Diffie, Hellman und Merkle zahlte sich aus. Die erste Veröffentlichung ihrer Ergebnisse war ein Papier von Diffie und Helmann aus dem Jahr 1976 mit dem Titel "New Directions in Cryptography" Darin präsentierten sie zwei originelle Wege, um das Problem der Schlüsselverteilung und der Schlüsselverwaltung zu lösen.
 
 Die erste Lösung, die sie anboten, war ein entferntes *Schlüsselaustauschprotokoll*, d. h. eine Reihe von Regeln für den Austausch eines oder mehrerer symmetrischer Schlüssel über einen unsicheren Kommunikationskanal. Dieses Protokoll ist heute als *Diffie-Helmann-Schlüsselaustausch* oder *Diffie-Helmann-Merkle-Schlüsselaustausch* bekannt. [2]
@@ -2029,12 +1994,12 @@ Nehmen wir nun an, dass $N$ sehr groß ist. Wie schwierig wäre es, $N$ in seine
 Das hängt wirklich von $N$ ab. Nehmen wir zum Beispiel an, dass $N$ 50.450.400 ist. Obwohl diese Zahl einschüchternd aussieht, sind die Berechnungen nicht so kompliziert und können leicht von Hand durchgeführt werden. Wie oben beginnen Sie einfach mit 2 und arbeiten sich weiter vor. Unten sehen Sie das Ergebnis dieses Prozesses auf ähnliche Weise wie oben.
 
 
-- 2: 25.225.200 (50.450.400 $ = 2 \cdot 25.225.200$)
+- 2: 25.225.200 ($50.450.400 = 2 \cdot 25.225.200$)
 - 2: 12.612.600 ($50.450.400 = 2^2 \cdot 12.612.600$)
-- 2: 6.306.300 (50.450.400 $ = 2^3 \cdot 6.306.300$)
+- 2: 6,306,300 ($50,450,400 = 2^3 \cdot 6,306,300$)
 - 2: 3.153.150 ($50.450.400 = 2^4 \cdot 3.153.150$)
 - 2: 1.576.575 ($50.450.400 = 2^5 \cdot 1.576.575$)
-- 3: 525.525 (50.450.400 $ = 2^5 \cdot 3 \cdot 525.525$)
+- 3: 525.525 ($50.450.400 = 2^5 \cdot 3 \cdot 525.525$)
 - 3: 175,175 ($50.450.400 = 2^5 \cdot 3^2 \cdot 175,175$)
 - 5: 35.035 ($50.450.400 = 2^5 \cdot 3^2 \cdot 5 \cdot 35.035$)
 - 5: 7.007 ($50.450.400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7.007$)
@@ -2076,7 +2041,7 @@ Daher kann das Faktorisierungsproblem unter bestimmten Umständen plausibel als 
 
 $$ \frac{2^{1024}}{\ln(2^{1024})} - \frac{2^{1023}}{\ln(2^{1023})} $$
 
-...was ungefähr $1,265 \mal 10^{305}$ entspricht.
+...was ungefähr $1,265 \times 10^{305}$ entspricht.
 
 [3] Das Gleiche gilt für diskrete Logarithmusprobleme. Daher funktionieren asymmetrische Konstruktionen mit viel größeren Schlüsseln als symmetrische kryptografische Konstruktionen.
 
@@ -2132,7 +2097,8 @@ Mit anderen Worten: Die ganze Zahl 119 hat 96 Koprimzahlen im Bereich von 1 bis 
 
 Von nun an bezeichnen wir die Menge der Koprimzahlen, die die Ordnung von $N$ bestimmt, als $C_N$. Für unser Beispiel mit $N = 119$ ist die Menge $C_{119}$ viel zu groß, um sie vollständig aufzulisten. Aber einige der Elemente sind wie folgt:
 
-$$C_{119} = \{1, 2, \Punkte 6, 8 \Punkte 13, 15, 16, 18, \Punkte 33, 35 \Punkte 96\}$$$
+$$C_{119} = \{1, 2, \dots, 6, 8, \dots, 13, 15, 16, 18, \dots, 33, 35, \dots, 96\}$$
+
 
 ### Invertierbarkeit modulo N
 
@@ -2287,7 +2253,7 @@ Dennoch kann das RSA-Problem mit ein wenig cleverer Komplexität verwendet werde
 
 [4] Siehe z. B. Jonathan Katz und Yehuda Lindell, _Introduction to Modern Cryptography_, CRC Press (Boca Raton, FL: 2015), S. 410-32 zur RSA-Verschlüsselung und S. 444-41 für digitale RSA-Signaturen.
 
-# Schlussfolgerung
+# Abschließender Abschnitt
 <partId>e538fb79-bf28-40cd-a5c3-badf864d8567</partId>
 
 ## Bewertung & Beurteilung

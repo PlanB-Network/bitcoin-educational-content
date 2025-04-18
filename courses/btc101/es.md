@@ -21,17 +21,17 @@ No necesitas ningún conocimiento específico para empezar. De hecho, el siguien
 
 <partId>3cd2ac82-026c-53e1-874a-baf5842adc6d</partId>
 
-## Un salto a lo desconocido
+## Descripción del curso
 
 <chapterId>27e3fb60-4b50-556b-9e70-c4f5475c121d</chapterId>
 
-### Bienvenidos a un nuevo paradigma monetario y tecnológico.
+¡Bienvenido al curso BTC101!
 
 Bitcoin es una revolución tecnológica y monetaria, capaz de hacernos cuestionar nuestra relación con el dinero y la sociedad. De hecho, Bitcoin (referido como BTC) es una moneda **neutral** y **descentralizada**, lo que significa que no está controlada por ninguna entidad o institución. Es una innovación que va más allá de una mera "moneda de Internet": es a la vez un protocolo informático (Bitcoin) y una unidad monetaria (bitcoin).
 
 El protocolo utiliza tecnologías subyacentes como la criptografía, la comunicación en red y el famoso "blockchain", mientras que la unidad bitcoin sirve como moneda necesaria para el correcto funcionamiento de este protocolo. En la vida cotidiana, salvadoreños y bitcoiners de todo el mundo utilizan la moneda bitcoin para comprar y vender bienes y servicios, confiando en esta tecnología para mejorar sus vidas.
 
-### Un plan de estudios completo pero accesible
+**Un programa de estudios completo pero accesible:**
 
 En este curso, discutiremos algunos aspectos monetarios de Bitcoin, incluyendo cómo comprar y vender bitcoins, almacenarlos de forma segura en carteras digitales y utilizarlos para transacciones. También examinaremos el papel de los mineros, que son esenciales para crear nuevos bitcoins y asegurar la red Bitcoin. Por último, exploraremos el futuro de Bitcoin y cómo la tecnología Lightning Network puede mejorar las transacciones de Bitcoin.
 
@@ -39,38 +39,40 @@ En este curso, discutiremos algunos aspectos monetarios de Bitcoin, incluyendo c
 
 Es esencial entender que Bitcoin es un nuevo sistema monetario que cambia por completo nuestra relación con el dinero, por lo que aprender a usarlo es una habilidad necesaria para cualquiera que quiera tener el control de sus propios fondos.
 
-**Sección 1 - Dinero**
 
-- Capítulo 1 - ¿Qué es el dinero?
-- Capítulo 2 - Dinero fiduciario
-- Capítulo 3 - Hiperinflación
-- Capítulo 4 - La política monetaria de Bitcoin
+**Sección 1 - Introducción**  
+- Capítulo 1 - Descripción del curso  
+- Capítulo 2 - La prehistoria de Bitcoin  
 
-**Sección 2 - Monederos Bitcoin**
+**Sección 2 - El dinero**  
+- Capítulo 3 - El dinero a través de la historia  
+- Capítulo 4 - Monedas fiduciarias  
+- Capítulo 5 - Hiperinflación  
+- Capítulo 6 - 21 millones de bitcoins  
 
-- Capítulo 5 - ¿Cómo funcionan los monederos Bitcoin?
-- Capítulo 6 - Elección de la seguridad
-- Capítulo 7 - Configurar el monedero
-- Capítulo 8 - Protección contra el paso del tiempo
+**Sección 3 - Carteras Bitcoin**  
+- Capítulo 7 - ¿Qué es una cartera Bitcoin?  
+- Capítulo 8 - Carteras Bitcoin y seguridad  
+- Capítulo 9 - Configuración de una cartera  
+- Capítulo 10 - Superar la prueba del tiempo  
 
-**Sección 3 - Características técnicas de Bitcoin**
+**Sección 4 - Aspectos técnicos de Bitcoin**  
+- Capítulo 11 - Lanzamiento de Bitcoin  
+- Capítulo 12 - Transacciones en bitcoins  
+- Capítulo 13 - Nodos de Bitcoin  
+- Capítulo 14 - Mineros  
+- Capítulo 15 - Bitcoin y ecología  
 
-- Capítulo 9 - ¿Qué es una transacción?
-- Capítulo 10 - Nodos Bitcoin
-- Capítulo 11 - Mineros
-- Capítulo 12 - Mineros y ecología
+**Sección 5 - ¿Cómo obtener bitcoins?**  
+- Capítulo 16 - ¡Bitcoin nunca duerme!  
+- Capítulo 17 - Obtener bitcoins trabajando  
+- Capítulo 18 - Ahorrar con Bitcoin  
+- Capítulo 19 - La hiperbitcoinización  
 
-**Sección 4 - Ahorrar en Bitcoin**
-
-- Capítulo 13 - Precio del Bitcoin
-- Capítulo 14 - ¿Cómo se compra Bitcoin?
-- Capítulo 15 - Trabajar para Bitcoin
-- Capítulo 16 - Hiperbitcoinización
-
-**Sección 5 - Red de relámpagos**
-
-- Capítulo 17 - Introducción a la Red del Rayo
-- Capítulo 18 - Casos de uso de la Red del Rayo
+**Sección 6 - El futuro de Bitcoin: Lightning Network**  
+- Capítulo 20 - Una breve introducción a Lightning Network  
+- Capítulo 21 - Casos de uso de Lightning Network  
+- Capítulo 22 - ¿Píldora roja o píldora azul?  
 
 Antes de introducir la definición de dinero y su función en la sociedad (Capítulo 1), debemos partir de la génesis de Bitcoin. Lanzado en 2009, Bitcoin es una tecnología relativamente nueva y diferente a todo lo demás. Por lo tanto, es normal no entenderlo todo sobre ella, todo a la vez. De hecho, al igual que cuando se aprende a utilizar Internet o a conducir un coche, no es necesario conocer todos los detalles técnicos de inmediato: se puede empezar por aprender a recibir, pagar y asegurar los fondos, y luego dar pequeños pasos para estudiarlo más a fondo.
 
@@ -79,6 +81,8 @@ Al fin y al cabo, sólo estamos en las primeras fases de su adopción, ya que he
 ![image](assets/en/02.webp)
 
 Lo importante aquí es comprender esta nueva tecnología de forma general, así que esperamos que disfrute de este curso y siga avanzando en este nuevo paradigma monetario mundial.
+
+¿Listo para sumergirte en el fascinante universo de Bitcoin y comprender todos sus engranajes? ¡Vamos allá!
 
 ## La prehistoria de Bitcoin
 
@@ -516,7 +520,7 @@ Afortunadamente, desde 2017, la clave privada puede representarse mediante una s
 
 ### ¿Y los piratas informáticos?
 
-¿Y si alguien adivina accidentalmente nuestra lista de 12 o 24 palabras? La respuesta corta es que es muy poco probable, gracias a la criptografía utilizada para crear el monedero. Para ponerlo en perspectiva, descubrir accidentalmente su misma frase mnemotécnica se asemeja a encontrar el número "correcto" entre 1 y $2^256$, que es casi equivalente a encontrar el átomo "correcto" en el Universo. Sin embargo, si no está satisfecho con esta seguridad por defecto, siempre puede mejorarla añadiendo una frase de contraseña (una palabra extra) a su monedero Bitcoin.
+¿Y si alguien adivina accidentalmente nuestra lista de 12 o 24 palabras? La respuesta corta es que es muy poco probable, gracias a la criptografía utilizada para crear el monedero. Para ponerlo en perspectiva, descubrir accidentalmente su misma frase mnemotécnica se asemeja a encontrar el número "correcto" entre 1 y 2 elevado a 256, que es casi equivalente a encontrar el átomo "correcto" en el Universo. Sin embargo, si no está satisfecho con esta seguridad por defecto, siempre puede mejorarla añadiendo una frase de contraseña (una palabra extra) a su monedero Bitcoin.
 
 ![image](assets/en/29.webp)
 
@@ -1133,6 +1137,8 @@ Una estrategia gradual implica compras recurrentes, es decir, comprar pequeñas 
 
 **Cuidado con los UTXOs**: Recuerda consolidar tus UTXOs en tus carteras de vez en cuando. Esta práctica es esencial para gestionar eficazmente tus bitcoins y evitar comisiones innecesarias durante las transacciones.
 
+Un [UTXO](https://planb.network/resources/glossary/utxo#:~:text=UTXO) (Unspent Transaction Output) es una salida de una transacción que aún no ha sido gastada, lo que significa que no se ha utilizado como entrada para una nueva transacción. Consolidar UTXOs significa combinar varios UTXOs pequeños en uno más grande, con el fin de disminuir el "peso" de la transacción y, por lo tanto, pagar tarifas más bajas.
+
 - Compra espontánea
 
 Una solución inmediata podría ser una compra espontánea, que se utiliza para exponerse inmediatamente al bitcoin. Ya sea comprando durante una caída o aprovechando una bonificación, la decisión es suya. Tendrá que armarse de valor y pulsar el botón de compra.
@@ -1358,7 +1364,7 @@ Satoshi creó Bitcoin en 2008 para proponer un cambio del sistema financiero, a 
 
 ¿Estás listo para unirte?
 
-# Conclusión
+# Sección final
 
 <partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 
@@ -1366,7 +1372,7 @@ Satoshi creó Bitcoin en 2008 para proponer un cambio del sistema financiero, a 
 
 <chapterId>585729e2-b0ab-51b5-89ec-593e3ea22c57</chapterId>
 
-<isCourseReview>verdadero</isCourseReview>
+<isCourseReview>true</isCourseReview>
 
 ## Examen final
 

@@ -1,0 +1,16 @@
+question: Je, ni dhana gani ya faida linganishi katika muktadha wa mgawanyo wa kazi?
+answer: Mtu ana uwezo wa juu wa kufanya kazi fulani kuliko zingine.
+wrong_answers:
+  - Mtu ana uwezo sawa wa kufanya kazi zote kama wengine.
+  - Mtu ana uwezo duni wa kufanya kazi fulani kuliko zingine.
+  - Mtu ana uwezo wa juu wa kufanya kazi zote kuliko wengine.
+explanation: |
+  Katika muktadha wa mgawanyiko wa kazi, kulinganisha
+  faida inahusu hali ambapo mtu binafsi ana
+  uwezo wa juu wa kufanya kazi fulani kuliko zingine.
+  Hata kama mtu hana faida kabisa
+  katika uzalishaji wa nzuri yoyote, bado kutakuwa na aina za
+  uzalishaji ambao mtu binafsi ni bora kuliko ndani
+  wengine, na kwa sababu hii, bado wana nia
+  utaalam.
+reviewed: true

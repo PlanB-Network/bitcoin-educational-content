@@ -1,0 +1,12 @@
+question: Ni ipi njia kuu ya uchumi wa Austria kuelewa uchumi?
+answer: Uchumi wa Austria unaelewa uchumi kutoka kwa mtazamo wa mantiki ya binadamu na sosholojia.
+wrong_answers:
+  - Uchumi wa Austria unaelewa uchumi kupitia milinganyo ya hisabati.
+  - Uchumi wa Austria unaelewa uchumi kutoka kwa mtazamo wa uchapishaji wa fedha na matumizi.
+  - Uchumi wa Austria unaelewa uchumi kutoka kwa mtazamo wa benki kuu.
+explanation: |
+  Sura hiyo inaeleza kuwa uchumi wa Austria unaelewa
+  uchumi kwa mtazamo wa mantiki ya binadamu na
+  sosholojia, badala ya kukaribia taaluma hii kupitia
+  milinganyo ya hisabati.
+reviewed: true

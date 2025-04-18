@@ -1,0 +1,10 @@
+question: Je, watengenezaji hulipwa vipi katika JoinMarket?
+answer: Kupitia ada zinazolipwa na wapokeaji.
+wrong_answers:
+  - Kupitia ada za Mining.
+  - Kupitia michango ya hiari kutoka kwa wapokeaji.
+  - Kupitia ruzuku kutoka kwa jumuiya ya Bitcoin.
+explanation: |
+  Watengenezaji huacha bitcoins zao zipatikane kwa wachukuaji na hupokea ada kama malipo ya huduma zao. Wachukuaji, kwa upande wake, hulipa kutumia bitcoins za watunga ili kutekeleza shughuli zao za CoinJoin.
+  
+reviewed: false

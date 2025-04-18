@@ -1,0 +1,9 @@
+question: Gavin Andresen 於 2010 年 6 月創造的 Bitcoin Faucet 提供了什麼？
+answer: 比特幣
+wrong_answers:
+  - 購物禮券
+  - Bitcoin 市場的費用折扣
+  - 開採一個區塊的機會
+explanation: |
+  這項服務最初為了讓人們試用系統，每次請求分發 5 個比特幣。隨著時間的推移，這個數量逐漸減少，Faucet 於 2012 年關閉。
+reviewed: false

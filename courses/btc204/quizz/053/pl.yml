@@ -1,0 +1,10 @@
+question: Jaki jest cel etykiet w Silent Payments?
+answer: Aby korzystać z wielu różnych adresów statycznych bez nadmiernego zwiększania obciążenia skanowaniem.
+wrong_answers:
+  - Szyfrowanie transakcji Silent Payments w celu ukrycia prawdziwego odbiorcy transakcji.
+  - Aby użyć wielu różnych adresów statycznych, które nie mogą być połączone przez zewnętrznego obserwatora.
+  - Umieszczenie widocznej etykiety na Blockchain w celu identyfikacji Cichej Płatności w sposób odniesienia do płatności.
+explanation: |
+  Etykiety są używane do generate wielu adresów statycznych z głównego statycznego Address, co ułatwia organizację Wallet. Zewnętrzny obserwator może jednak łatwo utworzyć łącze między tymi oznaczonymi adresami statycznymi, ponieważ klucz publiczny skanowania jest taki sam dla wszystkich.
+  
+reviewed: false

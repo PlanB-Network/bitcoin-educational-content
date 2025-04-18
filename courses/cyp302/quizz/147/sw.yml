@@ -1,0 +1,9 @@
+question: Ikiwa nambari kamili N ni zao la nambari kuu mbili p na q, mpangilio wa N huhesabiwaje?
+answer: (uk - 1) * (q - 1)
+wrong_answers:
+  - (p * q) - 1
+  - p + q
+  - (p - 1) + (q - 1)
+explanation: |
+  Kwa N sawa na bidhaa ya nambari kuu mbili p na q, mpangilio wa N huhesabiwa kama (p - 1) * (q - 1).
+reviewed: false

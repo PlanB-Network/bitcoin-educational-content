@@ -1,0 +1,12 @@
+question: Jakie jest potencjalne ryzyko spadku liczby użytkowników, węzłów lub górników w sieci Bitcoin?
+answer: Może to osłabić sieć, zwiększając ryzyko centralizacji i podatności na ataki.
+wrong_answers:
+  - Może to zwiększyć cenę Bitcoin.
+  - Może to zmniejszyć szybkość transakcji, a także trudność Mining.
+  - Może to zwiększyć trudność Mining i podatność na ataki, jednocześnie zmniejszając ryzyko centralizacji.
+explanation: |
+  Spadek liczby użytkowników, węzłów lub górników może
+  osłabić sieć Bitcoin. Może to zwiększyć ryzyko
+  centralizacji i uczynić sieć bardziej podatną na ataki
+  ataki.
+reviewed: true

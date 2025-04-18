@@ -1,0 +1,13 @@
+question: Jakie są ostateczne konsekwencje spadku stóp procentowych w wyniku wzrostu akcji kredytowej zgodnie z austriacką teorią cyklu koniunkturalnego?
+answer: Gospodarka wchodzi w recesję; ceny aktywów spadają, płace realne spadają, ceny konsumpcyjne spadają, a zapasy gromadzą się.
+wrong_answers:
+  - Gospodarka wchodzi w fazę boomu; ceny aktywów rosną, płace realne rosną, ceny konsumpcyjne rosną, a zapasy maleją.
+  - Gospodarka wchodzi w stagnację; ceny aktywów pozostają takie same, płace realne pozostają takie same, ceny konsumpcyjne pozostają takie same, a zapasy pozostają takie same.
+  - Gospodarka wchodzi w deflację; ceny aktywów spadają, płace realne rosną, ceny konsumpcyjne spadają, a zapasy rosną.
+explanation: |
+  Zgodnie z austriacką teorią cyklu koniunkturalnego, gdy następuje
+  spadek stóp procentowych spowodowany wzrostem akcji kredytowej, gospodarka wchodzi w recesję
+  recesję; ceny aktywów spadają, płace realne spadają, ceny konsumpcyjne spadają, a zapasy
+  zapasów. Dzieje się tak, ponieważ spadek stóp procentowych prowadzi do błędnej alokacji
+  kapitału, co ostatecznie prowadzi do recesji.
+reviewed: true

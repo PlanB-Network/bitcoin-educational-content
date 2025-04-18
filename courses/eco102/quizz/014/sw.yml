@@ -1,0 +1,9 @@
+question: Sheria ya Say inatamkwaje kulingana na Jean-Baptiste Say na Bastiat?
+answer: Bidhaa na huduma hubadilishwa kwa bidhaa na huduma
+wrong_answers:
+  - Supply inaunda mahitaji yake mwenyewe
+  - Bidhaa nyingi zaidi zinazalishwa, ndivyo zinatumiwa zaidi
+  - Mahitaji huamua Supply
+explanation: |
+  Sheria ya Say's inasema kwamba uzalishaji wa bidhaa huwezesha kubadilishana, hivyo kuthamini uchumi wa soko.
+reviewed: false

@@ -50,7 +50,7 @@ _Nastavení nové peněženky na kartě Lightning_
 
 _Skenování QR kódu pomocí aplikace pro správu uzlů_
 
-![image](asset/en/05.webp)
+![image](assets/en/05.webp)
 
 _Pro větší bezpečnost nastavte kód PIN_
 
@@ -86,7 +86,7 @@ Jakmile je vaše zařízení Nakamochi nastaveno a připojeno k aplikaci pro spr
 
 5. Klikněte na **"Otevřít kanál "**.
 
-![image](asset/en/06.webp)
+![image](assets/en/06.webp)
 
 _ZEUS Screenshot_
 
@@ -104,7 +104,7 @@ Další informace: [Kanály | Dokumentace Zeus](https://docs.zeusln.app/)
 
 5. Zadejte uzamčenou částku (vyberte si ji společně s partnerem nebo použijte minimální pevnou částku pro známé uzly).
 
-![image](asset/en/07.webp)
+![image](assets/en/07.webp)
 
 _Bitbanana Snímek obrazovky_
 

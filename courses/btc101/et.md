@@ -21,17 +21,17 @@ Alustamiseks ei ole vaja mingeid eriteadmisi. Tegelikult on järgmine sisu kätt
 
 <partId>3cd2ac82-026c-53e1-874a-baf5842adc6d</partId>
 
-## Hüpe tundmatusse
+## Kursuse ülevaade
 
 <chapterId>27e3fb60-4b50-556b-9e70-c4f5475c121d</chapterId>
 
-### Tere tulemast uude rahalisse ja tehnoloogilisse paradigmasse.
+Tere tulemast BTC101 kursusele!
 
 Bitcoin on tehnoloogiline ja rahaline revolutsioon, mis võib panna meid kahtlema meie suhetes raha ja ühiskonnaga. Tegelikult on Bitcoin (edaspidi BTC) **neutraalne** ja **detsentraliseeritud** valuuta, mis tähendab, et seda ei kontrolli ükski üksus ega institutsioon. Tegemist on uuendusega, mis läheb kaugemale pelgalt "internetivaluutast": see on nii arvutiprotokoll (Bitcoin) kui ka rahaühik (Bitcoin).
 
 Protokolli aluseks on sellised tehnoloogiad nagu krüptograafia, võrguside ja kuulus "plokiahel", samas kui bitcoini ühik on selle protokolli nõuetekohaseks toimimiseks vajalik valuuta. Igapäevaelus kasutavad Salvadori elanikud ja bitcoin'i kasutajad kogu maailmas bitcoini valuutat kaupade ja teenuste ostmiseks ja müümiseks, tuginedes sellele tehnoloogiale, mis muudab nende elu paremaks.
 
-### Põhjalik, kuid kättesaadav õppekava
+**Terviklik, kuid ligipääsetav õppekava:**
 
 Sellel kursusel arutame Bitcoini mõningaid rahalisi aspekte, sealhulgas seda, kuidas osta ja müüa bitcoine, kuidas neid turvaliselt digitaalsetes rahakottides hoida ja kuidas neid tehinguteks kasutada. Samuti uurime kaevurite rolli, kes on olulised uute bitcoinide loomiseks ja Bitcoini võrgu kindlustamiseks. Lõpuks uurime Bitcoini tulevikku ja seda, kuidas Lightning Network'i tehnoloogia võib Bitcoini tehinguid parandada.
 
@@ -39,38 +39,41 @@ Sellel kursusel arutame Bitcoini mõningaid rahalisi aspekte, sealhulgas seda, k
 
 Oluline on mõista, et Bitcoin on uus rahasüsteem, mis muudab täielikult meie suhet rahaga, nii et selle kasutamise õppimine on vajalik oskus kõigile, kes soovivad oma raha kontrolli all hoida.
 
-**1. jagu - raha**
 
-- 1. peatükk - Mis on raha?
-- 2. peatükk - Fiatraha
-- 3. peatükk - Hüperinflatsioon
-- 4. peatükk - Bitcoini rahapoliitika
+**Sektsioon 1 - Sissejuhatus**  
+- Peatükk 1 - Kursuse ülevaade  
+- Peatükk 2 - Bitcoini eellugu  
 
-**Jagu 2 - Bitcoin rahakotid**
+**Sektsioon 2 - Raha**  
+- Peatükk 3 - Raha läbi ajaloo  
+- Peatükk 4 - Fiat-valuutad  
+- Peatükk 5 - Hüperinflatsioon  
+- Peatükk 6 - 21 miljonit bitcoini  
 
-- 5. peatükk - Kuidas Bitcoini rahakotid töötavad?
-- 6. peatükk - Turvalisuse valimine
-- 7. peatükk - Rahakoti seadistamine
-- 8. peatükk - Kaitsmine aja eest
+**Sektsioon 3 - Bitcoin Rahakotid**  
+- Peatükk 7 - Mis on Bitcoin rahakott?  
+- Peatükk 8 - Bitcoin Rahakotid ja Turvalisus  
+- Peatükk 9 - Rahakoti seadistamine  
+- Peatükk 10 - Ajaproovile vastu pidamine  
 
-**Jagu 3 - Bitcoini tehnilised omadused**
+**Sektsioon 4 - Bitcoini tehnilised aspektid**  
+- Peatükk 11 - Bitcoini käivitamine  
+- Peatükk 12 - Bitcoini tehingud  
+- Peatükk 13 - Bitcoini sõlmed  
+- Peatükk 14 - Kaevandajad  
+- Peatükk 15 - Bitcoin ja ökoloogia  
 
-- 9. peatükk - Mis on tehing?
-- 10. peatükk - Bitcoini sõlmed
-- 11. peatükk - Kaevurid
-- 12. peatükk - Kaevurid ja ökoloogia
+**Sektsioon 5 - Kuidas bitcoine saada?**  
+- Peatükk 16 - Bitcoin ei maga kunagi!  
+- Peatükk 17 - Bitcoinide saamine töö kaudu  
+- Peatükk 18 - Säästmine Bitcoiniga  
+- Peatükk 19 - Hüperbitcoiniseerimine  
 
-**Lõik 4 - Salvestamine Bitcoinis**
+**Sektsioon 6 - Bitcoini tulevik: Lightning Network**  
+- Peatükk 20 - Lühike sissejuhatus Lightning Networki  
+- Peatükk 21 - Lightning Networki kasutusjuhtumid  
+- Peatükk 22 - Punane pill või sinine pill?  
 
-- 13. peatükk - Bitcoini hind
-- 14. peatükk - Kuidas osta Bitcoini?
-- 15. peatükk - Töö Bitcoini jaoks
-- 16. peatükk - Hüperbitcoiniseerimine
-
-**Lõik 5 - Välkkiirtevõrk**
-
-- 17. peatükk - Sissejuhatus välguvõrku
-- 18. peatükk - Välguvõrgu kasutusjuhtumid
 
 Enne raha määratluse ja selle funktsiooni tutvustamist ühiskonnas (1. peatükk) peaksime alustama Bitcoini tekkimisest. 2009. aastal käivitatud Bitcoin on suhteliselt uus tehnoloogia, mis erineb kõigest muust. Seetõttu on normaalne, et sellest ei saa kõike korraga aru. Tegelikult, nagu interneti kasutamise või autojuhtimise õppimisel, ei pea te kohe kõiki tehnilisi üksikasju tundma: võite alustada sellest, kuidas raha vastu võtta, maksta ja kindlustada, ning seejärel astuda väikeste sammudega sügavamale õppimisse.
 
@@ -79,6 +82,8 @@ Lõppude lõpuks oleme alles selle kasutuselevõtu algusjärgus, sest oleme läb
 ![image](assets/en/02.webp)
 
 Oluline on mõista seda uut tehnoloogiat üldiselt, nii et loodame, et teile meeldib see kursus ja te jätkate edusamme selles uues globaalses rahaparadigmas.
+
+Kas olete valmis sukelduma Bitcoini põnevasse maailma ja mõistma kõiki selle mehhanisme? Lähme!
 
 ## Bitcoini eelajalugu
 
@@ -516,7 +521,7 @@ Kuigi teie võtmeid hoitakse teie rahakotis, on bitcoinid ise tegelikult "salves
 
 ### Kuidas on lood häkkeritega?
 
-Mis siis, kui keegi arvab kogemata ära meie 12 või 24 sõna nimekirja? Lühike vastus on, et tänu rahakoti loomiseks kasutatud krüptograafiale on see väga ebatõenäoline. Kui panna see perspektiivi, siis on sama mnemoonilise fraasi juhuslik avastamine võrreldav "õige" arvu leidmisega 1 ja $2^256$ vahel, mis on peaaegu samaväärne "õige" aatomi leidmisega Universumis. Kui te siiski ei ole selle vaikimisi turvalisusega rahul, saate seda alati suurendada, lisades oma Bitcoini rahakotile paroolfraasi (täiendava sõna).
+Mis siis, kui keegi arvab kogemata ära meie 12 või 24 sõna nimekirja? Lühike vastus on, et tänu rahakoti loomiseks kasutatud krüptograafiale on see väga ebatõenäoline. Kui panna see perspektiivi, siis on sama mnemoonilise fraasi juhuslik avastamine võrreldav "õige" arvu leidmisega 1 ja 2 astmes 256 vahel, mis on peaaegu samaväärne "õige" aatomi leidmisega Universumis. Kui te siiski ei ole selle vaikimisi turvalisusega rahul, saate seda alati suurendada, lisades oma Bitcoini rahakotile paroolfraasi (täiendava sõna).
 
 ![image](assets/en/29.webp)
 
@@ -1132,6 +1137,8 @@ Järkjärguline strateegia hõlmab korduvaid oste, mis tähendab, et regulaarsel
 
 **Vältige UTXOsid**: Ärge unustage aeg-ajalt oma UTXO-d oma rahakotis konsolideerida. See tava on oluline oma bitcoinide tõhusaks haldamiseks ja tarbetute tasude vältimiseks tehingute ajal.
 
+[UTXO](https://planb.network/resources/glossary/utxo#:~:text=UTXO) (Unspent Transaction Output) on tehingu väljund, mida ei ole veel kulutatud, mis tähendab, et seda ei ole kasutatud uue tehingu sisendina. UTXOde konsolideerimine tähendab mitme väikese UTXO ühendamist üheks suuremaks, et vähendada tehingu "kaalu" ja seega maksta madalamaid tasusid.
+
 - Spontaanne ostmine
 
 Ühekordne lahendus võiks olla spontaanne ostmine, mida kasutatakse bitcoin'i koheseks kasutuselevõtuks. Kas see on ostmine krahhi ajal või boonuse ärakasutamine, otsus on teie teha. Peate koguma oma julguse ja vajutama ostunuppu.
@@ -1357,7 +1364,7 @@ Satoshi lõi Bitcoini 2008. aastal, et teha ettepanek muuta finantssüsteemi val
 
 Kas olete valmis liituma?
 
-# Kokkuvõte
+# Lõpusektsioon
 
 <partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 

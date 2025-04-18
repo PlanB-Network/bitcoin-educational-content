@@ -2199,7 +2199,7 @@ Genereringen av adressen følger deretter samme prosess, hvor den rå offentlige
 
 Og der har du det! Vi har nådd slutten av dette CYP201-kurset. Hvis du fant dette kurset nyttig, ville jeg være veldig takknemlig hvis du kunne ta deg noen øyeblikk til å gi det en god vurdering i det følgende evalueringskapittelet. Føl deg også fri til å dele det med dine kjære eller på dine sosiale nettverk. Til slutt, hvis du ønsker å oppnå ditt diplom for dette kurset, kan du ta den endelige eksamenen rett etter evalueringskapittelet.
 
-# Konklusjon
+# Siste seksjon
 
 <partId>58111408-b734-54db-9ea7-0d5b67f99f99</partId>
 

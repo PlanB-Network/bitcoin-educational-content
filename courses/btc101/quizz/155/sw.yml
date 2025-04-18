@@ -1,0 +1,8 @@
+question: Coinbase Transaction ni nini?
+answer: Muamala wa kwanza wa kizuizi unaojumuisha malipo ya Miner.
+wrong_answers:
+  - Shughuli iliyofanywa kwenye Exchange Coinbase.
+  - Muamala wa pili wa kizuizi unaojumuisha ada za juu zaidi.
+  - Shughuli iliyofanywa na Miner baada ya kupokea tuzo.
+explanation: >-
+reviewed: true

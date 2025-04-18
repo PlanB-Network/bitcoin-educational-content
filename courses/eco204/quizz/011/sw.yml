@@ -1,0 +1,12 @@
+question: Je, ni nini mtazamo wa Nadharia ya Kisasa ya Fedha (MMT) kuhusu uundaji wa pesa na mfumuko wa bei?
+answer: Kulingana na MMT, pesa kimsingi hutoka kwa serikali, ambayo inaweza kuchapisha kiasi kikubwa kufadhili mahitaji yake bila kusababisha mfumuko wa bei mradi tu sekta zinazolengwa na fedha hizi hazijashiba.
+wrong_answers:
+  - Kulingana na MMT, pesa kimsingi hutoka kwa sekta ya kibinafsi na uchapishaji wa pesa nyingi kila wakati husababisha mfumuko wa bei.
+  - Kulingana na MMT, pesa kimsingi hutoka kwa serikali, lakini kuchapisha pesa nyingi kila mara husababisha mfumuko wa bei.
+  - Kulingana na MMT, pesa kimsingi hutoka kwa sekta ya kibinafsi na uchapishaji wa pesa nyingi hauleti kamwe mfumuko wa bei.
+explanation: |
+  Sura inaeleza kuwa Nadharia ya Kisasa ya Fedha (MMT) inatoa tofauti
+  mtazamo wa kutengeneza fedha na mfumuko wa bei. Kulingana na MMT, pesa huanzia
+  kutoka kwa serikali, ambayo inaweza kuchapisha kiasi kikubwa kufadhili mahitaji yake bila
+  kusababisha mfumuko wa bei ilimradi sekta zinazolengwa na mifuko hii hazijashiba.
+reviewed: false

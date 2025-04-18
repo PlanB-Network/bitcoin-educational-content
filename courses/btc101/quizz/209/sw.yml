@@ -1,0 +1,8 @@
+question: Je! curve ya kupitishwa kwa Bitcoin inafanana na nini?
+answer: S-curve.
+wrong_answers:
+  - U-curve.
+  - Mviringo wa V.
+  - Mzunguko wa W.
+explanation: >-
+reviewed: true

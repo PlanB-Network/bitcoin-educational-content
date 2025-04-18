@@ -22,14 +22,15 @@ Denne introduksjonen til kryptografi forsøker å finne en mellomting. Selv om d
 
 <partId>bbed2f46-d64c-5fb5-b892-d726032f2494</partId>
 
-## Kort beskrivelse
+## Kursoversikt
 
 <chapterId>bb8a8b73-7fb2-50da-bf4e-98996d79887b</chapterId>
+Velkommen til CYP302-kurset!
 
 Denne boken gir en grundig innføring i vitenskapen om og utøvelsen av kryptografi. Der det er mulig, fokuserer den på konseptuell snarere enn formell fremstilling av materialet.
 
-> Dette kurset er basert på [JWBurgers' repo] (https://github.com/JWBurgers/An_Introduction_to_Cryptography). All right til ham. Innholdet er ennå ikke ferdig og er bare her for å vise hvordan vi kan integrere det hvis JWburger er enig.
-### Motivasjon og mål
+> Dette kurset er basert på [JWBurgers' repo](https://github.com/JWBurgers/An_Introduction_to_Cryptography). All right til ham. Innholdet er ennå ikke ferdig og er bare her for å vise hvordan vi kan integrere det hvis JWburger er enig.
+**Motivasjon og mål**
 
 Det er vanskelig å finne mye materiale som tilbyr en god mellomting i kryptografiundervisningen.
 
@@ -37,11 +38,11 @@ På den ene siden finnes det lange, formelle avhandlinger som egentlig bare er t
 
 Denne introduksjonen til kryptografi forsøker å finne en mellomting. Selv om den bør være relativt utfordrende og detaljert for alle som er nye i kryptografi, er den ikke et kaninhull av en typisk grunnleggende avhandling.
 
-### Målgruppe
+**Målgruppe**
 
 Denne boken er nyttig for alle som ønsker mer enn en overfladisk forståelse av kryptografi, fra utviklere til intellektuelt nysgjerrige. Hvis målet ditt er å mestre kryptografifaget, er denne boken også et godt utgangspunkt.
 
-### Retningslinjer for lesing
+**Retningslinjer for lesing**
 
 Boken inneholder for tiden syv kapitler: "Hva er kryptografi?" (kapittel 1), "Kryptografiens matematiske grunnlag I" (kapittel 2), "Kryptografiens matematiske grunnlag II" (kapittel 3), "Symmetrisk kryptografi" (kapittel 4), "RC4 og AES" (kapittel 5), "Asymmetrisk kryptografi" (kapittel 6) og "RSA-kryptosystemet" (kapittel 7). Et siste kapittel, "Kryptografi i praksis", vil fortsatt bli lagt til. Det fokuserer på ulike kryptografiske anvendelser, blant annet transportlagssikkerhet, onion routing og Bitcoins verdiutvekslingssystem.
 
@@ -49,21 +50,21 @@ Med mindre du har en sterk bakgrunn i matematikk, er tallteori sannsynligvis det
 
 Hvis du virkelig sliter med de formelle detaljene i disse delene av boken, anbefaler jeg at du nøyer deg med å lese dem på et høyt nivå første gang.
 
-### Erkjennelser
+**Erkjennelser**
 
 Den boken som har hatt størst innflytelse på denne, er Jonathan Katz og Yehuda Lindells _Introduction to Modern Cryptography_, CRC Press (Boca Raton, FL), 2015. Et tilhørende kurs er tilgjengelig på Coursera under tittelen "Cryptography"
 
-De viktigste tilleggskildene som har vært nyttige for å skape oversikten i denne boken, er Simon Singh, _The Code Book_, Fourth Estate (London, 1999); Christof Paar og Jan Pelzl, _Understanding Cryptography_, Springer (Heidelberg, 2010) og [et kurs basert på boken til Paar kalt "Introduction to Cryptography"] (https://www.youtube.com/channel/UC1usFRN4LCMcfIV7UjHNuQg); og Bruce Schneier, Applied Cryptography, 2nd edn, 2015 (Indianapolis, IN: John Wiley & Sons).
+De viktigste tilleggskildene som har vært nyttige for å skape oversikten i denne boken, er Simon Singh, _The Code Book_, Fourth Estate (London, 1999); Christof Paar og Jan Pelzl, _Understanding Cryptography_, Springer (Heidelberg, 2010) og [et kurs basert på boken til Paar kalt "Introduction to Cryptography"](https://www.youtube.com/channel/UC1usFRN4LCMcfIV7UjHNuQg); og Bruce Schneier, Applied Cryptography, 2nd edn, 2015 (Indianapolis, IN: John Wiley & Sons).
 
 Jeg vil bare sitere helt spesifikk informasjon og resultater jeg har hentet fra disse kildene, men jeg vil gjerne anerkjenne min generelle gjeld til dem her.
 
 For de leserne som ønsker å oppsøke mer avansert kunnskap om kryptografi etter denne introduksjonen, anbefaler jeg Katz og Lindells bok på det varmeste. Katz' kurs på Coursera er noe mer tilgjengelig enn boken.
 
-### Bidrag
+**Bidrag**
 
-Ta en titt på [bidragsfilen i depotet] (https://github.com/JWBurgers/An_Introduction_to_Cryptography/blob/master/Contributions.md) for å finne noen retningslinjer for hvordan du kan støtte prosjektet.
+Ta en titt på [bidragsfilen i depotet](https://github.com/JWBurgers/An_Introduction_to_Cryptography/blob/master/Contributions.md) for å finne noen retningslinjer for hvordan du kan støtte prosjektet.
 
-### Notasjon
+**Notasjon**
 
 **Nøkkelord:**
 
@@ -85,6 +86,8 @@ Den formelle notasjonen gjelder hovedsakelig variabler, tilfeldige variabler og 
 - Variabler: Disse angis vanligvis bare med en liten bokstav (f.eks. "x" eller "y"). Noen ganger skrives de med stor forbokstav for å gjøre det tydeligere (f.eks. "M" eller "K").
 - Tilfeldige variabler: Disse angis alltid med en stor bokstav (f.eks. "X" eller "Y")
 - Sett: Disse er alltid angitt med fete, store bokstaver (f.eks. **S**)
+
+Klar til å utforske den fascinerende verdenen av kryptografi? La oss gå!
 
 # Hva er kryptografi?
 
@@ -110,7 +113,7 @@ Morris forsøkte å dekryptere de tre krypteringstekstene i tjue år. Med nøkke
 
 På slutten av sitt liv ga Morriss boksen videre til en venn i 1862. Denne vennen publiserte deretter en pamflett i 1885, under pseudonymet J.B. Ward. Den inneholdt en beskrivelse av boksens (påståtte) historie, de tre chiffertekstene og en løsning som han hadde funnet for den andre chifferteksten. (Tilsynelatende er det én nøkkel for hver chiffertekst, og ikke én nøkkel som fungerer på alle tre chiffertekstene, slik Beale opprinnelig ser ut til å ha antydet i brevet til Morriss)
 
-Du kan se den andre krypteringsteksten i *Figur 2* nedenfor. [Nøkkelen til denne krypteringsteksten er USAs uavhengighetserklæring. Dekrypteringsprosedyren går ut på å bruke følgende to regler:
+Du kan se den andre krypteringsteksten i *Figur 2* nedenfor. Nøkkelen til denne krypteringsteksten er USAs uavhengighetserklæring. Dekrypteringsprosedyren går ut på å bruke følgende to regler:
 
 
 - Finn det n-te ordet i USAs uavhengighetserklæring for et hvilket som helst tall n i krypteringsteksten
@@ -126,7 +129,7 @@ Etter dekryptering gir den andre meldingen en detaljert beskrivelse av skattens 
 
 **Noter:**
 
-[1] For en god oppsummering av historien, se Simon Singh, *The Code Book*, Fourth Estate (London, 1999), s. 82-99. Andrew Allen laget en kortfilm av historien i 2010. Du finner filmen, "The Thomas Beale Cipher", [på nettsiden] (http://www.thomasbealecipher.com/).
+[1] For en god oppsummering av historien, se Simon Singh, *The Code Book*, Fourth Estate (London, 1999), s. 82-99. Andrew Allen laget en kortfilm av historien i 2010. Du finner filmen, "The Thomas Beale Cipher", [på nettsiden](http://www.thomasbealecipher.com/).
 
 [2] Dette bildet er tilgjengelig på Wikipedia-siden for Beale-chiffrene.
 
@@ -136,7 +139,7 @@ Etter dekryptering gir den andre meldingen en detaljert beskrivelse av skattens 
 
 Fargerike historier som den om Beale-chiffrene er det de fleste av oss forbinder med kryptografi. Moderne kryptografi skiller seg imidlertid fra denne typen historiske eksempler på minst fire viktige måter.
 
-For det første har kryptografi historisk sett kun vært opptatt av **hemmelighet** (eller konfidensialitet). [Krypteringstekster ble laget for å sikre at bare visse parter kunne få tilgang til informasjonen i klartekstene, som i tilfellet med Beale-kryptering. For at et krypteringsopplegg skal tjene dette formålet på en god måte, bør det bare være mulig å dekryptere chifferteksten hvis du har nøkkelen.
+For det første har kryptografi historisk sett kun vært opptatt av **hemmelighet** (eller konfidensialitet). Krypteringstekster ble laget for å sikre at bare visse parter kunne få tilgang til informasjonen i klartekstene, som i tilfellet med Beale-kryptering. For at et krypteringsopplegg skal tjene dette formålet på en god måte, bør det bare være mulig å dekryptere chifferteksten hvis du har nøkkelen.
 
 Moderne kryptografi er opptatt av et bredere spekter av temaer enn bare hemmeligholdelse. Disse temaene omfatter først og fremst (1) **meldingsintegritet** - det vil si å sikre at en melding ikke har blitt endret; (2) **meldingsautentisitet** - det vil si å sikre at en melding virkelig kommer fra en bestemt avsender; og (3) **uavviselighet** - det vil si å sikre at en avsender ikke senere kan nekte for at hun har sendt en melding. [4]
 
@@ -200,7 +203,7 @@ Derfor er ideen om å holde kommunikasjonen hemmelig ved å beskytte kommunikasj
 
 **Noter:**
 
-[7] Se for eksempel Olga Khazan, "The creepy, long-standing practice of undersea cable tapping", *The Atlantic*, 16. juli 2013 (tilgjengelig på [The Atlantic] (https://www.theatlantic.com/international/archive/2013/07/the-creepy-long-standing-practice-of-undersea-cable-tapping/277855/)).
+[7] Se for eksempel Olga Khazan, "The creepy, long-standing practice of undersea cable tapping", *The Atlantic*, 16. juli 2013 (tilgjengelig på [The Atlantic](https://www.theatlantic.com/international/archive/2013/07/the-creepy-long-standing-practice-of-undersea-cable-tapping/277855/)).
 
 # Kryptografiens matematiske grunnlag 1
 
@@ -291,7 +294,7 @@ I uttrykket "tilfeldig variabel" betyr begrepet "tilfeldig" bare "probabilistisk
 
 En **uniform variabel** er et spesialtilfelle av en tilfeldig variabel. Den kan anta to eller flere verdier, alle med samme sannsynlighet. Den tilfeldige variabelen $X$ i *Figur 1* er helt klart en uniform variabel, ettersom begge de mulige utfallene inntreffer med sannsynligheten $0,5$. Det finnes imidlertid mange tilfeldige variabler som ikke er forekomster av uniforme variabler.
 
-Tenk for eksempel på den tilfeldige variabelen $Y$. Den har et utfallssett $\{1, 2, 3, 8, 10}$ og følgende sannsynlighetsfordeling:
+Tenk for eksempel på den tilfeldige variabelen $Y$. Den har et utfallssett ${1, 2, 3, 8, 10}$ og følgende sannsynlighetsfordeling:
 
 $$
 \Pr[Y = 1] = 0.25
@@ -518,7 +521,7 @@ En matematisk operasjon som er viktig å forstå i moderne kryptografi, i tilleg
 For å illustrere dette kan vi anta at du har en melding $m_1$ (01111001) og en melding $m_2$ (01011001). XOR-operasjonen av disse to meldingene kan ses nedenfor.
 
 
-- $m_1 \oplus m_2 = 01111001 \oplus 01011001 = 00100000$$
+- $m_1 \oplus m_2 = 01111001 \oplus 01011001 = 00100000$
 
 Prosessen er enkel. Du XOR'er først bitene lengst til venstre i $m_1$ og $m_2$. I dette tilfellet er det $0 \oplus 0 = 0$. Deretter XOR-ODER du det andre paret av biter fra venstre. I dette tilfellet er det $1 \oplus 1 = 0$. Du fortsetter denne prosessen til du har utført XOR-operasjonen på bitene lengst til høyre.
 
@@ -529,10 +532,10 @@ En XOR-operasjon på to strenger av ulik lengde kan tolkes på ulike måter, avh
 En XOR-operasjon tilsvarer spesialtilfellet med å utføre en modulooperasjon på addisjonen av biter når divisoren er 2. Du kan se ekvivalensen i de følgende resultatene:
 
 
-- $(0 + 0) \mod 2 = 0 \oplus 0 = 0$$
-- $(1 + 0) \mod 2 = 1 \oplus 0 = 1$$
-- $(0 + 1) \mod 2 = 0 \oplus 1 = 1$$
-- $(1 + 1) \mod 2 = 1 \oplus 1 = 0$$
+- $(0 + 0) \mod 2 = 0 \oplus 0 = 0$
+- $(1 + 0) \mod 2 = 1 \oplus 0 = 1$
+- $(0 + 1) \mod 2 = 0 \oplus 1 = 1$
+- $(1 + 1) \mod 2 = 1 \oplus 1 = 0$
 
 ## Pseudotilfeldighet
 
@@ -697,13 +700,13 @@ La oss utforske eksponentiering av elementet 2 fra denne gruppen. Beregningene o
 
 
 - $2^1 = 2 \mod 11$
-- $2^2 = 2 \cdot 2 \mod 11 = 4 \mod 11$$
-- $2^3 = 2 \cdot 2 \cdot 2 \mod 11 = 8 \mod 11$$
+- $2^2 = 2 \cdot 2 \mod 11 = 4 \mod 11$
+- $2^3 = 2 \cdot 2 \cdot 2 \mod 11 = 8 \mod 11$
 - $2^4 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 16 \mod 11 = 5 \mod 11$
 - $2^5 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 32 \mod 11 = 10 \mod 11$
 - $2^6 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 64 \mod 11 = 9 \mod 11$
 - $2^7 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 128 \mod 11 = 7 \mod 11$
-- $2^8 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 256 \mod 11 = 3 \mod 11$$
+- $2^8 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 256 \mod 11 = 3 \mod 11$
 - $2^9 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 512 \mod 11 = 6 \mod 11$
 - $2^{10} = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 1024 \mod 11 = 1 \mod 11$
 - $2^{11} = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 2048 \mod 11 = 2 \mod 11$
@@ -723,7 +726,7 @@ Selv om $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$ har flere generatorer, er 
 - $3^7 = 9 \mod 11$
 - $3^8 = 5 \mod 11$
 - $3^9 = 4 \mod 11$
-- $3^{10} = 1 \mod 11$$
+- $3^{10} = 1 \mod 11$
 
 I stedet for å sykle gjennom alle verdiene i $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$, fører eksponentiering av elementet 3 bare til en delmengde av disse verdiene: 3, 9, 5, 4 og 1. Etter den femte eksponentialiseringen begynner disse verdiene å gjenta seg.
 
@@ -852,12 +855,11 @@ Anta for eksempel at vi ønsket et utvidelsesfelt med $2^3$ (dvs. 8) elementer i
 
 Så **S** vil være mengden $\{0, 1, x, x + 1, x^2, x^2 + 1, x^2 + x, x^2 + x + x + 1\}$. Hvilke to operasjoner kan defineres over denne mengden av elementer for å sikre at kombinasjonen av dem er et felt?
 
-Den første operasjonen på mengden **S** ($\circ$) kan defineres som standard polynomadisjon modulo 2. Alt du trenger å gjøre er å legge sammen polynomene som du vanligvis ville gjort, og deretter bruke modulo 2 på hver av koeffisientene i det resulterende polynomet. Her er noen eksempler:
+Den første operasjonen på mengden **S** ($\circ$) kan defineres som standard polynomaddisjon modulo 2. Alt du trenger å gjøre er å legge sammen polynomene som du vanligvis ville gjort, og deretter bruke modulo 2 på hver av koeffisientene i det resulterende polynomet. Her er noen eksempler:
 
-
-- $[(x^2) + (x^2 + x + 1)] \mod 2 = [2x^2 + x + 1] \mod 2 = x + 1$$
-- $[(x^2 + x) + (x)] \mod 2 = [x^2 + 2x] \mod 2 = x^2$ $[(x^2 + x) + (x)] \mod 2 = x^2
-- $[(x + 1) + (x^2 + x + 1)] \mod 2 = [x^2 + 2x + 2] \mod 2 = x^2 + 1$$
+- $[(x^2) + (x^2 + x + 1)] \mod 2 = [2x^2 + x + 1] \mod 2 = x + 1$
+- $[(x^2 + x) + (x)] \mod 2 = [x^2 + 2x] \mod 2 = x^2$
+- $[(x + 1) + (x^2 + x + 1)] \mod 2 = [x^2 + 2x + 2] \mod 2 = x^2 + 1$
 
 Den andre operasjonen på mengden **S** ($\diamond$) som er nødvendig for å lage feltet, er mer komplisert. Det er en slags multiplikasjon, men ikke en standard multiplikasjon fra aritmetikken. I stedet må du se hvert element som en vektor og forstå operasjonen som en multiplikasjon av disse to vektorene modulert med et irreduserbart polynom.
 
@@ -883,10 +885,9 @@ I vårt eksempel velger vi polynomet $x^3 + x + 1$. Dette er irreduserbart, ford
 
 La oss gå gjennom et eksempel på den andre operasjonen ved å bruke polynomet $x^3 + x + 1$ som divisor for å illustrere hvordan den fungerer. Anta at du multipliserer elementene $x^2 + 1$ med $x^2 + x$ i vår mengde **S**. Vi må da beregne uttrykket $[(x^2 + 1) \cdot (x^2 + x)] \mod x^3 + x + 1$. Dette kan forenkles på følgende måte:
 
-
-- $[(x^2 + 1) \cdot (x^2 + x)] \mod x^3 + x + 1 =$$
-- $[x^2 \cdot x^2 + x^2 \cdot x + 1 \cdot x^2 + 1 \cdot x] \mod x^3 + x + 1 =$
-- $[x^4 + x^3 + x^2 + x] \mod x^3 + x + 1$ $[x^4 + x^3 + x^2 + x
+- $[(x^2 + 1) \cdot (x^2 + x)] \mod x^3 + x + 1 =$
+- $[x^2 \cdot x^2 + x^2 \cdot x + 1 \cdot x^2 + 1 \cdot x] \mod x^3 + x + 1$
+- $[x^4 + x^3 + x^2 + x] \mod x^3 + x + 1$
 
 Vi vet at $[x^4 + x^3 + x^2 + x] \mod x^3 + x + 1$ kan reduseres ettersom dividenden har en høyere grad (4) enn divisoren (3).
 
@@ -925,7 +926,7 @@ Men hvis du er en praktisk anlagt person, lurer du kanskje på dette punktet: Hv
 
 Uten å gå for mye i detalj, er svaret "ja". Grupper ble først skapt på 1800-tallet av den franske matematikeren Evariste Galois. Han brukte dem til å trekke konklusjoner om løsning av polynomlikninger av en grad høyere enn fem.
 
-Siden den gang har gruppebegrepet bidratt til å kaste lys over en rekke problemer i blant annet matematikken. På grunnlag av gruppeteori kunne for eksempel fysikeren Murray-Gellman forutsi eksistensen av en partikkel før den faktisk ble observert i eksperimenter [3]. [Et annet eksempel er kjemikere som bruker gruppeteori til å klassifisere molekylers form. Matematikere har til og med brukt gruppebegrepet til å trekke konklusjoner om noe så konkret som veggpapir!
+Siden den gang har gruppebegrepet bidratt til å kaste lys over en rekke problemer i blant annet matematikken. På grunnlag av gruppeteori kunne for eksempel fysikeren Murray-Gellman forutsi eksistensen av en partikkel før den faktisk ble observert i eksperimenter [3]. Et annet eksempel er kjemikere som bruker gruppeteori til å klassifisere molekylers form. Matematikere har til og med brukt gruppebegrepet til å trekke konklusjoner om noe så konkret som veggpapir!
 
 Å vise at en mengde elementer med en eller annen operator er en gruppe, betyr at det du beskriver har en bestemt symmetri. Ikke en symmetri i vanlig forstand, men i en mer abstrakt form. Og dette kan gi betydelig innsikt i spesielle systemer og problemer. De mer komplekse begrepene fra abstrakt algebra gir oss bare tilleggsinformasjon.
 
@@ -937,9 +938,9 @@ For videre diskusjon om moderne tallteori kan du konsultere mange avanserte disk
 
 **Noter:**
 
-[3] Se [YouTube-video] (https://www.youtube.com/watch?v=NOMUnMuxDZY&feature=youtu.be)
+[3] Se [YouTube-video](https://www.youtube.com/watch?v=NOMUnMuxDZY&feature=youtu.be)
 
-[4] Socratica, [Abstrakt algebra] (https://www.socratica.com/subject/abstract-algebra)
+[4] Socratica, [Abstrakt algebra](https://www.socratica.com/subject/abstract-algebra)
 
 [5] Katz og Lindell, *Introduction to Modern Cryptography*, 2. utgave, 2015 (CRC Press: Boca Raton, FL). Paar og Pelzl, *Understanding Cryptography*, 2010 (Springer-Verlag: Berlin).
 
@@ -1057,9 +1058,9 @@ Shift-kryptering er et svært usikkert symmetrisk krypteringsskjema, i hvert fal
 
 For at et krypteringssystem skal oppfylle et minimumskrav til sikkerhet, må det ha et sett med mulige nøkler, eller **nøkkelrom**, som er så stort at brute-force-angrep er ugjennomførbare. Alle moderne krypteringssystemer oppfyller denne standarden. Det er kjent som **tilstrekkelig nøkkelrom-prinsippet**. Et lignende prinsipp gjelder vanligvis i ulike typer kryptografiske systemer.
 
-For å få en fornemmelse av den enorme størrelsen på nøkkelområdet i moderne krypteringssystemer kan vi tenke oss at en fil er kryptert med en 128-biters nøkkel i henhold til den avanserte krypteringsstandarden. Dette betyr at en angriper har et sett med $2^{128}$ nøkler som hun må gå gjennom for å utføre et brute force-angrep. En sjanse på 0,78 % for å lykkes med denne strategien vil kreve at angriperen går gjennom omtrent 2,65 ganger 10^{36}$ nøkler.
+For å få en fornemmelse av den enorme størrelsen på nøkkelområdet i moderne krypteringssystemer kan vi tenke oss at en fil er kryptert med en 128-biters nøkkel i henhold til den avanserte krypteringsstandarden. Dette betyr at en angriper har et sett med $2^{128}$ nøkler som hun må gå gjennom for å utføre et brute force-angrep. En sjanse på 0,78 % for å lykkes med denne strategien vil kreve at angriperen går gjennom omtrent $2,65 \times 10^{36}$ nøkler.
 
-Anta at vi optimistisk antar at en angriper kan prøve $10^{16}$ nøkler per sekund (dvs. 10 kvadrillioner nøkler per sekund). For å teste 0,78 % av alle nøklene i nøkkelområdet må angrepet hennes vare i 2,65 ganger 10^{20}$ sekunder. Dette tilsvarer omtrent 8,4 billioner år. Så selv et brute force-angrep fra en absurd kraftig motstander er ikke realistisk med et moderne 128-bits krypteringsskjema. Dette er prinsippet om tilstrekkelig nøkkelplass.
+Anta at vi optimistisk antar at en angriper kan prøve $10^{16}$ nøkler per sekund (dvs. 10 kvadrillioner nøkler per sekund). For å teste 0,78 % av alle nøklene i nøkkelområdet må angrepet hennes vare i $2,65 \times 10^{20}$ sekunder. Dette tilsvarer omtrent 8,4 billioner år. Så selv et brute force-angrep fra en absurd kraftig motstander er ikke realistisk med et moderne 128-bits krypteringsskjema. Dette er prinsippet om tilstrekkelig nøkkelplass.
 
 Er shift-krypteringen sikrere hvis angriperen ikke kjenner krypteringsalgoritmen? Kanskje, men ikke mye.
 
@@ -1069,7 +1070,7 @@ Ideen om at sikkerheten til et symmetrisk krypteringssystem bare kan baseres på
 
 Slik Kerckhoffs opprinnelig tenkte seg, gjelder prinsippet bare for symmetriske krypteringssystemer. En mer generell versjon av prinsippet gjelder imidlertid også for alle andre moderne typer kryptografiske systemer: Det må ikke kreves at et kryptografisk system må være hemmelig for at det skal være sikkert; hemmeligholdet kan bare omfatte noen strenger med informasjon, typisk en privat nøkkel.
 
-Kerckhoffs prinsipp er sentralt i moderne kryptografi av fire grunner. [For det første finnes det bare et begrenset antall kryptografiske ordninger for bestemte typer applikasjoner. For eksempel bruker de fleste moderne symmetriske krypteringsapplikasjoner Rijndael-krypteringen. Så hemmeligholdet ditt når det gjelder utformingen av et skjema er svært begrenset. Det er imidlertid mye mer fleksibelt å holde en privat nøkkel for Rijndael-krypteringen hemmelig.
+Kerckhoffs prinsipp er sentralt i moderne kryptografi av fire grunner. For det første finnes det bare et begrenset antall kryptografiske ordninger for bestemte typer applikasjoner. For eksempel bruker de fleste moderne symmetriske krypteringsapplikasjoner Rijndael-krypteringen. Så hemmeligholdet ditt når det gjelder utformingen av et skjema er svært begrenset. Det er imidlertid mye mer fleksibelt å holde en privat nøkkel for Rijndael-krypteringen hemmelig.
 
 For det andre er det lettere å bytte ut en streng med informasjon enn et helt kryptografisk system. Anta at alle de ansatte i en bedrift har den samme krypteringsprogramvaren, og at to og to ansatte har hver sin private nøkkel for å kommunisere konfidensielt. I dette scenariet er det vanskelig å kompromittere nøkler, men selskapet kan i det minste beholde programvaren med slike sikkerhetsbrudd. Hvis selskapet var avhengig av at ordningen var hemmelig, ville ethvert brudd på denne hemmeligheten kreve at all programvaren ble byttet ut.
 
@@ -1448,29 +1449,19 @@ Vi fortsetter med denne prosessen til vi får den siste raden nederst for matris
 
 *Tabell 1: Nøkkeltabell for planlegging*
 
-| S[0] | S[1] | S[2] | S[3] | S[4] | S[5] | S[6] | S[7] | S[8] | S[9] | S[10
-
+| Round   | i   | j   |     | S[0] | S[1] | S[2] | S[3] | S[4] | S[5] | S[6] | S[7] |
 | ------- | --- | --- | --- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+|         |     |     |     |      |      |      |      |      |      |      |      |
+| Initial |     | 0   |     | 0    | 1    | 2    | 3    | 4    | 5    | 6    | 7    |
+| 1       | 0   | 6   |     | 6    | 1    | 2    | 3    | 4    | 5    | 0    | 7    |
+| 2       | 1   | 7   |     | 6    | 7    | 2    | 3    | 4    | 5    | 0    | 1    |
+| 3       | 2   | 2   |     | 6    | 7    | 2    | 3    | 4    | 5    | 0    | 1    |
+| 4       | 3   | 3   |     | 6    | 7    | 2    | 3    | 4    | 5    | 0    | 1    |
+| 5       | 4   | 3   |     | 6    | 7    | 2    | 0    | 3    | 5    | 4    | 1    |
+| 6       | 5   | 6   |     | 6    | 4    | 2    | 0    | 3    | 7    | 5    | 1    |
+| 7       | 6   | 1   |     | 6    | 4    | 2    | 0    | 3    | 7    | 5    | 2    |
+| 8       | 7   | 2   |     | 6    | 4    | 1    | 0    | 3    | 7    | 5    | 2    |
 
-
-
-| Initial | | 0 | | 0 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | | 1 | 2 | 3 | 4 | 5 | 6 | 7
-
-| 1 | 0 | 6 | | 6 | 1 | 2 | 3 | 4 | 5 | 0 | 7 |
-
-| 2 | 1 | 7 | | 6 | 7 | 2 | 3 | 4 | 5 | 0 | 1 |
-
-| 3 | 2 | 2 | | 6 | 7 | 2 | 3 | 4 | 5 | 0 | 1 |
-
-| 4 | 3 | 3 | | 6 | 7 | 2 | 3 | 4 | 5 | 0 | 1 |
-
-| 5 | 4 | 3 | | 6 | 7 | 2 | 0 | 3 | 5 | 4 | 1 |
-
-| 6 | 5 | 6 | | 6 | 4 | 2 | 0 | 3 | 7 | 5 | 1 |
-
-| 7 | 6 | 1 | | 6 | 4 | 2 | 0 | 3 | 7 | 5 | 2 |
-
-| 8 | 7 | 2 | | 6 | 4 | 1 | 0 | 3 | 7 | 5 | 2 |
 
 ### Trinn 4
 
@@ -1499,21 +1490,16 @@ Hva skjer hvis ordet som skal krypteres er lengre enn matrisen **S**? I så fall
 
 *Tabell 2: Generering av nøkkelstrømmer*
 
-i | j | t | Keystream | S[0] | S[1] | S[2] | S[3] | S[4] | S[5] | S[6] | S[7] | S[7] | S[8] | S[9] | S[10
 
+| i   | j   | t   | Keystream | S[0] | S[1] | S[2] | S[3] | S[4] | S[5] | S[6] | S[7] |
 | --- | --- | --- | --------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+|     |     |     |           |      |      |      |      |      |      |      |      |
+|     | 0   |     |           | 6    | 4    | 1    | 0    | 3    | 7    | 5    | 2    |
+| 1   | 4   | 7   | 2         | 6    | 3    | 1    | 0    | 4    | 7    | 5    | 2    |
+| 2   | 5   | 0   | 6         | 6    | 3    | 7    | 0    | 4    | 1    | 5    | 2    |
+| 3   | 5   | 1   | 3         | 6    | 3    | 7    | 1    | 4    | 0    | 5    | 2    |
+| 4   | 1   | 7   | 2         | 6    | 4    | 7    | 1    | 3    | 0    | 5    | 2    |
 
-
-
-| | 0 | | | 6 | 4 | 1 | 0 | 3 | 7 | 5 | 2 |
-
-| 1 | 4 | 7 | 2 | 6 | 3 | 1 | 0 | 4 | 7 | 5 | 2 |
-
-| 2 | 5 | 0 | 6 | 6 | 3 | 7 | 0 | 4 | 1 | 5 | 2 |
-
-| 3 | 5 | 1 | 3 | 6 | 3 | 7 | 1 | 4 | 0 | 5 | 2 |
-
-| 4 | 1 | 7 | 2 | 6 | 4 | 7 | 1 | 3 | 0 | 5 | 2 |
 
 Eksemplet vi nettopp diskuterte, er bare en utvannet versjon av **RC4 stream cipher**. Den faktiske RC4-strømmekrypteringen har en **S**-array på 256 byte, ikke 8 byte, og en nøkkel som kan være mellom 1 og 256 byte, ikke mellom 1 og 8 byte. Nøkkelarrayen og nøkkelstrømmene produseres deretter med utgangspunkt i **S**-arrayens lengde på 256 byte. Beregningene blir enormt mye mer komplekse, men prinsippene forblir de samme. Ved å bruke den samme nøkkelen, [14,48,9], med standard RC4-kryptering, blir klartekstmeldingen "SOUP" kryptert som 67 02 ed df i heksadesimalt format.
 
@@ -1589,41 +1575,26 @@ For det andre utføres operasjonen **byte substitusjon** på den nåværende til
 
 *Figur 3: Rijndaels S-boks*
 
-| 00 | 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 0A | 0B | 0C | 0D | 0E | 0F | | 0B | 0C | 0D | 0E | 0F
 
+|     | 00  | 01  | 02  | 03  | 04  | 05  | 06  | 07  | 08  | 09  | 0A  | 0B  | 0C  | 0D  | 0E  | 0F  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 00  | 63  | 7C  | 77  | 7B  | F2  | 6B  | 6F  | C5  | 30  | 01  | 67  | 2B  | FE  | D7  | AB  | 76  |
+| 10  | CA  | 82  | C9  | 7D  | FA  | 59  | 47  | F0  | AD  | D4  | A2  | AF  | 9C  | A4  | 72  | C0  |
+| 20  | B7  | FD  | 93  | 26  | 36  | 3F  | F7  | CC  | 34  | A5  | E5  | F1  | 71  | D8  | 31  | 15  |
+| 30  | 04  | C7  | 23  | C3  | 18  | 96  | 05  | 9A  | 07  | 12  | 80  | E2  | EB  | 27  | B2  | 75  |
+| 40  | 09  | 83  | 2C  | 1A  | 1B  | 6E  | 5A  | A0  | 52  | 3B  | D6  | B3  | 29  | E3  | 2F  | 84  |
+| 50  | 53  | D1  | 00  | ED  | 20  | FC  | B1  | 5B  | 6A  | CB  | BE  | 39  | 4A  | 4C  | 58  | CF  |
+| 60  | D0  | EF  | AA  | FB  | 43  | 4D  | 33  | 85  | 45  | F9  | 02  | 7F  | 50  | 3C  | 9F  | A8  |
+| 70  | 51  | A3  | 40  | 8F  | 92  | 9D  | 38  | F5  | BC  | B6  | DA  | 21  | 10  | FF  | F3  | D2  |
+| 80  | CD  | 0C  | 13  | EC  | 5F  | 97  | 44  | 17  | C4  | A7  | 7E  | 3D  | 64  | 5D  | 19  | 73  |
+| 90  | 60  | 81  | 4F  | DC  | 22  | 2A  | 90  | 88  | 46  | EE  | B8  | 14  | DE  | 5E  | 0B  | DB  |
+| A0  | E0  | 32  | 3A  | 0A  | 49  | 06  | 24  | 5C  | C2  | D3  | AC  | 62  | 91  | 95  | E4  | 79  |
+| B0  | E7  | C8  | 37  | 6D  | 8D  | D5  | 4E  | A9  | 6C  | 56  | F4  | EA  | 65  | 7A  | AE  | 08  |
+| C0  | BA  | 78  | 25  | 2E  | 1C  | A6  | B4  | C6  | E8  | DD  | 74  | 1F  | 4B  | BD  | 8B  | 8A  |
+| D0  | 70  | 3E  | B5  | 66  | 48  | 03  | F6  | 0E  | 61  | 35  | 57  | B9  | 86  | C1  | 1D  | 9E  |
+| E0  | E1  | F8  | 98  | 11  | 69  | D9  | 8E  | 94  | 9B  | 1E  | 87  | E9  | CE  | 55  | 28  | DF  |
+| F0  | 8C  | A1  | 89  | 0D  | BF  | E6  | 42  | 68  | 41  | 99  | 2D  | 0F  | B0  | 54  | BB  | 16  |
 
-| 00 | 63 | 7C | 77 | 7B | F2 | 6B | 6F | C5 | 30 | 01 | 67 | 2B | FE | D7 | AB | 76 |
-
-| 10 | CA | 82 | C9 | 7D | FA | 59 | 47 | F0 | AD | D4 | A2 | AF | 9C | A4 | 72 | C0 |
-
-| 20 | B7 | FD | 93 | 26 | 36 | 3F | F7 | CC | 34 | A5 | E5 | F1 | 71 | D8 | 31 | 15 |
-
-| 30 | 04 | C7 | 23 | C3 | 18 | 96 | 05 | 9A | 07 | 12 | 80 | E2 | EB | 27 | B2 | 75 |
-
-| 40 | 09 | 83 | 2C | 1A | 1B | 6E | 5A | A0 | 52 | 3B | D6 | B3 | 29 | E3 | 2F | 84 |
-
-| 50 | 53 | D1 | 00 | ED | 20 | FC | B1 | 5B | 6A | CB | BE | 39 | 4A | 4C | 58 | CF | | 50 | 53 | D1 | 00 | ED | 20 | FC | B1 | 5B | 6A | CB | BE | 39 | 4A | 4C | 58 | CF
-
-| 60 | D0 | EF | AA | FB | 43 | 4D | 33 | 85 | 45 | F9 | 02 | 7F | 50 | 3C | 9F | A8 |
-
-| 70 | 51 | A3 | 40 | 8F | 92 | 9D | 38 | F5 | BC | B6 | DA | 21 | 10 | FF | F3 | D2 |
-
-| 80 | CD | 0C | 13 | EC | 5F | 97 | 44 | 17 | C4 | A7 | 7E | 3D | 64 | 5D | 19 | 73 |
-
-| 90 | 60 | 81 | 4F | DC | 22 | 2A | 90 | 88 | 46 | EE | B8 | 14 | DE | 5E | 0B | DB |
-
-| A0 | E0 | 32 | 3A | 0A | 49 | 06 | 24 | 5C | C2 | D3 | AC | 62 | 91 | 95 | E4 | 79 |
-
-| B0 E7 C8 37 6D 8D D5 4E A9 6C 56 F4 EA 65 7A AE 08
-
-| C0 | BA | 78 | 25 | 2E | 1C | A6 | B4 | C6 | E8 | DD | 74 | 1F | 4B | BD | 8B | 8A |
-
-| D0 70 3E B5 66 48 03 F6 0E 61 35 57 B9 86 C1 1D 9E
-
-| E0 | E1 | F8 | 98 | 11 | 69 | D9 | 8E | 94 | 9B | 1E | 87 | E9 | CE | 55 | 28 | DF |
-
-| F0 | 8C | A1 | 89 | 0D | BF | E6 | 42 | 68 | 41 | 99 | 2D | 0F | B0 | 54 | BB | 16 |
 
 Denne S-Boxen er et av stedene der abstrakt algebra kommer inn i bildet i Rijndael-krypteringen, nærmere bestemt **Galois-felt**.
 
@@ -1637,39 +1608,31 @@ Når matrisen **S** er konstruert, forskyves de fire radene. Den første raden f
 
 *Figur 4: Operasjon med skiftrader*
 
-| F1 | A0 | B1 | 23 | 23
 
+| F1   | A0   | B1   | 23   |
 |------|------|------|------|
+| 59   | EF   | 09   | 82   |
+| 97   | 01   | B0   | CC   |
+| D4   | 72   | 04   | 21   |
 
-| 59 EF 09 82
-
-| 97 01 B0 CC
-
-| D4 | 72 | 04 | 21 |
-
-| F1 | A0 | B1 | 23 | 23
-
+| F1   | A0   | B1   | 23   |
 |------|------|------|------|
+| EF   | 09   | 82   | 59   |
+| B0   | CC   | 97   | 01   |
+| 21   | D4   | 72   | 04   |
 
-| EF | 09 | 82 | 59 | | | 59
-
-| B0 CC 97 01
-
-| 21 | D4 | 72 | 04 |
 
 I det fjerde trinnet dukker **Galois-feltene** opp igjen. Til å begynne med multipliseres hver kolonne i **S**-matrisen med kolonnen i 4 x 4-matrisen i *Figur 5*. Men i stedet for å være en vanlig matrisemultiplikasjon, er det en vektormultiplikasjon **modulo et irreduserbart polynom**, $x^8 + x^4 + x^3 + x + 1$. De resulterende vektorkoeffisientene representerer de enkelte bitene i en byte.
 
 *Figur 5: Blandingskolonnematrise*
 
-| 02 | 03 | 01 | 01 |
 
+| 02   | 03   | 01   | 01   |
 |------|------|------|------|
+| 01   | 02   | 03   | 01   |
+| 01   | 01   | 02   | 03   |
+| 03   | 01   | 01   | 02   |
 
-| 01 | 02 | 03 | 01 |
-
-| 01 | 01 | 02 | 03 |
-
-| 03 | 01 | 01 | 02 |
 
 Multiplikasjon av den første kolonnen i **S**-matrisen med 4 x 4-matrisen ovenfor gir resultatet i *Figur 6*.
 
@@ -1773,6 +1736,7 @@ På 1970-tallet hadde problemene med nøkkeldistribusjon og nøkkelhåndtering f
 I hvert fall en av hovedmotivasjonene bak satsingen deres var at de forutså at åpen datakommunikasjon ville påvirke verden på en dyptgripende måte. Som Diffie og Helmann bemerker i 1976,
 
 > Utviklingen av datastyrte kommunikasjonsnettverk lover enkel og billig kontakt mellom mennesker eller datamaskiner på hver sin side av jordkloden, og erstatter det meste av post og mange utflukter med telekommunikasjon. For mange bruksområder må disse kontaktene gjøres sikre både mot avlytting og mot tilførsel av uautoriserte meldinger. I dag ligger imidlertid løsningen av sikkerhetsproblemene langt etter andre områder av kommunikasjonsteknologien. *Moderne kryptografi er ikke i stand til å oppfylle kravene, i og med at bruken av den ville medføre så store ulemper for brukerne av systemet at mange av fordelene ved teleprosessering ville bli eliminert* [1]
+
 Diffie, Hellman og Merkles utholdenhet ga resultater. Den første publikasjonen av resultatene deres var en artikkel av Diffie og Hellman i 1976 med tittelen "New Directions in Cryptography" Her presenterte de to originale måter å løse problemene med nøkkeldistribusjon og nøkkeladministrasjon på.
 
 Den første løsningen de tilbød, var en ekstern *nøkkelutvekslingsprotokoll*, det vil si et sett med regler for utveksling av en eller flere symmetriske nøkler over en usikker kommunikasjonskanal. Denne protokollen er nå kjent som *Diffie-Helmann-nøkkelutveksling* eller *Diffie-Helmann-Merkle-nøkkelutveksling*. [2]
@@ -1939,11 +1903,11 @@ En hashfunksjon $H$ sies å være **kollisjonsresistent** hvis det er umulig å 
 
 Kollisjonsresistente hash-funksjoner er viktige, for eksempel ved verifisering av programvare. Anta at du ønsker å laste ned Windows-versjonen av Bitcoin Core 0.21.0 (en serverapplikasjon for behandling av Bitcoin-nettverkstrafikk). De viktigste stegene du må ta for å verifisere programvarens legitimitet, er som følger:
 
-1.	Du må først laste ned og importere de offentlige nøklene til en eller flere bidragsytere til Bitcoin Core til programvare som kan verifisere digitale signaturer (f.eks. Kleopetra). Du finner disse offentlige nøklene [her] (https://github.com/bitcoin/bitcoin/blob/master/contrib/builder-keys/keys.txt). Det anbefales at du verifiserer Bitcoin Core-programvaren med de offentlige nøklene fra flere bidragsytere.
+1.	Du må først laste ned og importere de offentlige nøklene til en eller flere bidragsytere til Bitcoin Core til programvare som kan verifisere digitale signaturer (f.eks. Kleopetra). Du finner disse offentlige nøklene [her](https://github.com/bitcoin/bitcoin/blob/master/contrib/builder-keys/keys.txt). Det anbefales at du verifiserer Bitcoin Core-programvaren med de offentlige nøklene fra flere bidragsytere.
 
 2.	Deretter må du verifisere de offentlige nøklene du har importert. Du bør i det minste kontrollere at de offentlige nøklene du har funnet, er de samme som er publisert på andre steder. Du kan for eksempel sjekke de personlige nettsidene, Twitter-sidene eller Github-sidene til personene du har importert de offentlige nøklene til. Vanligvis gjøres denne sammenligningen av offentlige nøkler ved å sammenligne en kort hash av den offentlige nøkkelen, et såkalt fingeravtrykk.
 
-3.	Deretter må du laste ned den kjørbare filen for Bitcoin Core fra deres [nettsted] (www.bitcoincore.org). Det vil være pakker tilgjengelig for Linux-, Windows- og MAC-operativsystemer.
+3.	Deretter må du laste ned den kjørbare filen for Bitcoin Core fra deres [nettsted](www.bitcoincore.org). Det vil være pakker tilgjengelig for Linux-, Windows- og MAC-operativsystemer.
 
 4.	Deretter må du finne to utgivelsesfiler. Den første inneholder den offisielle SHA-256-hashingen for den kjørbare filen du lastet ned, sammen med hashene for alle de andre pakkene som ble utgitt. En annen utgivelsesfil vil inneholde signaturene fra ulike bidragsytere over utgivelsesfilen med pakkehashene. Begge disse utgivelsesfilene skal finnes på Bitcoin Core-nettstedet.
 
@@ -2010,9 +1974,9 @@ For rundt 2500 år siden oppdaget den greske matematikeren Euklid av Alexandria 
 Alt den siste delen av dette utsagnet betyr er at du kan ta et hvilket som helst ikke-primtal $N$ større enn 1, og skrive det ut som en multiplikasjon av primtall. Nedenfor er det flere eksempler på ikke-prime heltall skrevet som produktet av primtallsfaktorer.
 
 
-- $18 = 2 \cdot 3 \cdot 3 = 2 \cdot 3^2$$
-- $84 = 2 \cdot 2 \cdot 3 \cdot 7 = 2^2 \cdot 3 \cdot 7$$
-- $144 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 3 \cdot 3 = 2^4 \cdot 3^2$$
+- $18 = 2 \cdot 3 \cdot 3 = 2 \cdot 3^2$
+- $84 = 2 \cdot 2 \cdot 3 \cdot 7 = 2^2 \cdot 3 \cdot 7$
+- $144 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 3 \cdot 3 = 2^4 \cdot 3^2$
 
 For alle de tre heltallene ovenfor er det relativt enkelt å beregne primtallsfaktorene, selv om du bare har $N$. Du starter med det minste primtallet, nemlig 2, og ser hvor mange ganger heltallet $N$ er delelig med det. Deretter går du videre til å teste delbarheten av $N$ med 3, 5, 7 og så videre. Du fortsetter denne prosessen helt til heltallet $N$ er skrevet som et produkt av bare primtall.
 
@@ -2028,19 +1992,18 @@ Anta nå at $N$ er veldig stort. Hvor vanskelig vil det være å redusere $N$ ti
 
 Det avhenger virkelig av $N$. Anta for eksempel at $N$ er 50 450 400. Selv om dette tallet ser skremmende ut, er beregningene ikke så kompliserte og kan enkelt gjøres for hånd. Som ovenfor begynner du bare med 2 og jobber deg videre. Nedenfor kan du se resultatet av denne prosessen på samme måte som ovenfor.
 
-
-- 2: 25 225 200 (50 450 400 $ = 2 \cdot 25 225 200 $)
-- 2: 12 612 600 (50 450 400 $ = 2^2 \cdot 12 612 600 $)
-- 2: 6 306 300 $ (50 450 400 $ = 2^3 \cdot 6 306 300 $)
-- 2: 3 153 150 (50 450 400 $ = 2^4 \cdot 3 153 150 $)
-- 2: 1 576 575 (50 450 400 $ = 2^5 \cdot 1 576 575 $)
-- 3: 525 525 (50 450 400 $ = 2^5 \cdot 3 \cdot 525 525 $)
-- 3: 175 175 (50 450 400 $ = 2^5 \cdot 3^2 \cdot 175 175$)
-- 5: 35 035 (50 450 400 $ = 2^5 \cdot 3^2 \cdot 5 \cdot 35 035$)
-- 5: 7 007 (50 450 400 $ = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7 007$)
-- 7: 1 001 (50 450 400 $ = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7 \cdot 1 001$)
+- 2: 25 225 200 ($50 450 400 = 2 \cdot 25 225 200$)
+- 2: 12 612 600 ($50 450 400 = 2^2 \cdot 12 612 600$)
+- 2: 6 306 300 ($50 450 400 = 2^3 \cdot 6 306 300$)
+- 2: 3 153 150 ($50 450 400 = 2^4 \cdot 3 153 150$)
+- 2: 1 576 575 ($50 450 400 = 2^5 \cdot 1 576 575$)
+- 3: 525 525 ($50 450 400 = 2^5 \cdot 3 \cdot 525 525$)
+- 3: 175 175 ($50 450 400 = 2^5 \cdot 3^2 \cdot 175 175$)
+- 5: 35 035 ($50 450 400 = 2^5 \cdot 3^2 \cdot 5 \cdot 35 035$)
+- 5: 7 007 ($50 450 400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7 007$)
+- 7: 1 001 ($50 450 400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7 \cdot 1 001$)
 - 7: 143 ($50 450 400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 143$)
-- 11: 13 (50 450 400 $ = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 11 \cdot 13$)
+- 11: 13 ($50 450 400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 11 \cdot 13$)
 - Ettersom 13 er et primtall, blir resultatet $2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 11 \cdot 13$.
 
 Det tar litt tid å regne ut dette problemet for hånd. En datamaskin kan selvsagt gjøre alt dette på en brøkdel av et sekund. Faktisk kan en datamaskin ofte til og med faktorisere ekstremt store heltall på en brøkdel av et sekund.
@@ -2050,7 +2013,6 @@ Det finnes imidlertid visse unntak. Anta at vi først velger to svært store pri
 La oss si at $p$ og $q$ begge er 1024-biters primtall, og at de faktisk krever minst 1024 bits for å kunne representeres (så den første biten må være 1). Så for eksempel 37 kan ikke være et av primtallene. Du kan absolutt representere 37 med 1024 bits. Men det er klart at *du ikke trenger* så mange bits for å representere det. Du kan representere 37 med en hvilken som helst streng som har 6 bits eller mer. (Med 6 bits kan 37 representeres som $100101$).
 
 Det er viktig å forstå hvor store $p$ og $q$ er hvis de velges under betingelsene ovenfor. Som et eksempel har jeg valgt et tilfeldig primtall som trenger minst 1024 bits for representasjon nedenfor.
-
 
 - 14,752,173,874,503,595,484,930,006,383,670,759,559,764,562,721,397,166,747,289,220,945,457,932,666,751,048,198,854,920,097,085,690,793,755,254,946,188,163,753,506,778,089,706,699,671,722,089,715,624,760,049,594,106,189,662,669,156,149,028,900,805,928,183,585,427,782,974,951,355,515,394,807,209,836,870,484,558,332,897,443,152,653,214,483,870,992,618,171,825,921,582,253,023,974,514,209,142,520,026,807,636,589
 
@@ -2076,9 +2038,9 @@ Derfor kan faktoriseringsproblemet, under visse omstendigheter, antas å være e
 
 $$ \frac{2^{1024}}{\ln(2^{1024})} - \frac{2^{1023}}{\ln(2^{1023})} $$
 
-...som tilsvarer omtrent 1,265 ganger 10^{305}$.
+...som tilsvarer omtrent $1,265 \times 10^{305}$.
 
-[Det samme gjelder for diskrete logaritmeproblemer. Derfor fungerer asymmetriske konstruksjoner med mye større nøkler enn symmetriske kryptografiske konstruksjoner.
+Det samme gjelder for diskrete logaritmeproblemer. Derfor fungerer asymmetriske konstruksjoner med mye større nøkler enn symmetriske kryptografiske konstruksjoner.
 
 ## Tallteoretiske resultater
 
@@ -2132,7 +2094,8 @@ Med andre ord har heltallet 119 96 koprim i området fra 1 til 119. Faktisk inkl
 
 Fra nå av betegner vi mengden av koprim som bestemmer rekkefølgen av $N$ som $C_N$. For vårt eksempel der $N = 119$, er mengden $C_{119}$ altfor stor til å liste opp i sin helhet. Men noen av elementene er som følger:
 
-$$C_{119} = \{1, 2, \prikkene 6, 8 \prikkene 13, 15, 16, 18, \prikkene 33, 35 \prikkene 96\}$$$
+$$C_{119} = \{1, 2, \dots 6, 8, \dots 13, 15, 16, 18, \dots 33, 35, \dots 96\}$$
+
 
 ### Invertibilitet modulo N
 
@@ -2226,7 +2189,7 @@ RSA-problemet består i å finne en $x$ slik at $x^e = y$, samtidig som man bare
 
 En enkel måte å beregne $x$ når $x^e \mod N = y \mod N$ er ganske enkelt ved å beregne $y^d \mod N$. Vi vet at $y^d \mod N = x \mod N$ ved hjelp av følgende beregninger:
 
-$$ y^d \mod N = x^{e \cdot d} \mod N = x^{e \cdot d \mod \phi(N)} \mod N = x^{1 \mod \phi(N)} \mod N = x \mod N. $$$
+$$ y^d \mod N = x^{e \cdot d} \mod N = x^{e \cdot d \mod \phi(N)} \mod N = x^{1 \mod \phi(N)} \mod N = x \mod N. $$
 
 Problemet er at vi ikke kjenner verdien $d$, siden den ikke er gitt i oppgaven. Derfor kan vi ikke direkte beregne $y^d \mod N$ for å produsere $x \mod N$.
 
@@ -2249,7 +2212,7 @@ Trinn 4 krever nå at vi beregner en verdi $d$ slik at $103 \cdot d \mod 360 = 1
 Selv om jeg ikke viser fremgangsmåten her, gir den verdien 7 når $e = 103$. Du kan verifisere at verdiparet 103 og 7 faktisk oppfyller den generelle betingelsen $e \cdot d \mod \phi(n) = 1$ ved hjelp av beregningene nedenfor.
 
 
-- $103 \cdot 7 \mod 360 = 721 \mod 360 = 1 \mod 360$$
+- $103 \cdot 7 \mod 360 = 721 \mod 360 = 1 \mod 360$
 
 Det er viktig å merke seg at gitt *Proposisjon 4*, vet vi at ingen andre heltall mellom 1 og 360 for $d$ vil gi resultatet at $103 \cdot d = 1 \mod 360$. I tillegg impliserer proposisjonen at valg av en annen verdi for $e$ vil gi en annen unik verdi for $d$.
 
@@ -2258,14 +2221,13 @@ I trinn 5 av RSA-problemet må vi velge et positivt heltall $y$ som er et mindre
 
 - $2^{103} \mod 403 = 10 141 204 801 825 835 835 211 973 625 643 008 \mod 403 = 349 \mod 403$
 
-RSA-problemet i dette eksemplet er nå som følger: Du får $N = 403$, $e = 103$ og $y = 349 \mod 403$. Du må nå beregne $x$ slik at $x^{103} = 349 \mod 403$. Det vil si at du må finne ut at den opprinnelige verdien før eksponentiering med 103 var 2.
+RSA-problemet i dette eksemplet er nå som følger: Du får $N = 403$, $e = 103$ og $y = 349 \mod 403$. Du må nå beregne $x$ slik at $x^{103} \equiv 349 \mod 403$. Det vil si at du må finne ut at den opprinnelige verdien før eksponentiering med 103 var 2.
 
 Det ville være enkelt (i hvert fall for en datamaskin) å beregne $x$ hvis vi visste at $d = 7$. I så fall kunne du bare bestemme $x$ som nedenfor.
 
+- $x = y^7 \mod 403 = 349^7 \mod 403 = 630 634 881 591 804 949 \mod 403 = 2 \mod 403$.
 
-- $x = y^7 \mod 403 = 349^7 \mod 403 = 630 634 881 591 804 949 \mod 403 = 2 \mod 403$ $x = y^7 \mod 403 = 349^7
-
-Problemet er at du ikke har fått informasjon om at $d = 7$. Du kan selvfølgelig regne ut $d$ ut fra det faktum at $103 \cdot d = 1 \mod 360$. Problemet er at du heller ikke har fått informasjon om at rekkefølgen til $N = 360$. Til slutt kan du også beregne rekkefølgen av 403 ved å beregne følgende produkt: $(p - 1) \cdot (q - 1)$. Men du får heller ikke vite at $p = 13$ og $q = 31$.
+Problemet er at du ikke har fått informasjon om at $d = 7$. Du kan selvfølgelig regne ut $d$ ut fra det faktum at $103 \cdot d \equiv 1 \mod 360$. Problemet er at du heller ikke har fått informasjon om at rekkefølgen til $N = 360$. Til slutt kan du også beregne rekkefølgen av 403 ved å beregne følgende produkt: $(p - 1) \cdot (q - 1)$. Men du får heller ikke vite at $p = 13$ og $q = 31$.
 
 En datamaskin kan selvfølgelig fortsatt løse RSA-problemet for dette eksemplet relativt enkelt, fordi primtallene som er involvert, ikke er så store. Men når primtallene blir veldig store, blir det en praktisk talt umulig oppgave.
 
@@ -2287,7 +2249,7 @@ Likevel kan RSA-problemet brukes til å lage et sikkert krypteringssystem med of
 
 [4] Se for eksempel Jonathan Katz og Yehuda Lindell, _Introduction to Modern Cryptography_, CRC Press (Boca Raton, FL: 2015), s. 410-32 om RSA-kryptering og s. 444-41 om RSA-digitale signaturer.
 
-# Konklusjon
+# Siste seksjon
 
 <partId>e538fb79-bf28-40cd-a5c3-badf864d8567</partId>
 

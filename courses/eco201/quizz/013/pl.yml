@@ -1,0 +1,13 @@
+question: Jaki jest główny problem z systemem rezerwy cząstkowej?
+answer: Głównym problemem systemu rezerwy cząstkowej jest to, że znaczące wypłaty z danego banku mogą potencjalnie doprowadzić do jego bankructwa.
+wrong_answers:
+  - Głównym problemem systemu rezerwy cząstkowej jest to, że uniemożliwia on bankom pożyczanie pieniędzy.
+  - Głównym problemem systemu rezerwy cząstkowej jest to, że wymaga on od banków utrzymywania większej ilości rezerw niż otrzymują w depozytach.
+  - Głównym problemem systemu rezerwy cząstkowej jest to, że uniemożliwia on bankom tworzenie nowych pieniędzy.
+explanation: |
+  W systemie rezerwy cząstkowej banki utrzymują tylko część środków
+  środków swoich deponentów w rezerwie, pożyczając resztę
+  resztę. Jeśli wielu klientów jednocześnie
+  swoich środków, bank może nie mieć wystarczających rezerw, aby zaspokoić te
+  aby zaspokoić te żądania, potencjalnie prowadząc do bankructwa.
+reviewed: true

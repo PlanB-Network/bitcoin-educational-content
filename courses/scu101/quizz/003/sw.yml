@@ -1,0 +1,13 @@
+question: Ni faida gani kuu ya kutumia programu huria?
+answer: Inaruhusu uthibitishaji kuwa hakuna ufikiaji uliofichwa wa kuiba data yako ya kibinafsi.
+wrong_answers:
+  - Daima ni bure.
+  - Daima ni salama zaidi kuliko programu iliyofungwa.
+  - Daima ni rahisi zaidi kwa mtumiaji kuliko programu iliyofungwa.
+explanation: |
+  Programu huria ni programu ambayo msimbo wake unajulikana na
+  kupatikana kwa kila mtu. Hii inaruhusu uthibitishaji, kati ya
+  vitu vingine, kwamba hakuna ufikiaji uliofichwa wa kuiba yako
+  data ya kibinafsi. Walakini, sio bure kila wakati, salama, au
+  kirafiki zaidi kuliko programu-jalizi-msingi.
+reviewed: true

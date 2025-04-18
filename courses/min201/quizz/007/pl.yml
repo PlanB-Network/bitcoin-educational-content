@@ -1,0 +1,13 @@
+question: Co dzieje się z nagrodą Mining w sieci Bitcoin mniej więcej co cztery lata?
+answer: Poddawany jest działaniu Halving
+wrong_answers:
+  - Podwaja się
+  - Potraja się
+  - Pozostaje bez zmian
+explanation: |
+  Nagroda Mining w sieci Bitcoin przechodzi proces Halving co 210 000 bloków
+  Halving co 210 000 bloków, mniej więcej co cztery lata
+  lata. Wynagrodzenie to służy jako silna zachęta do
+  do zachęcania górników do udziału w procesie Mining
+  pomimo jego kosztu energetycznego.
+reviewed: true

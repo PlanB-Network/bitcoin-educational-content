@@ -1,0 +1,9 @@
+question: 搜尋模式時，我們要研究交易的哪一部分？
+answer: 其結構
+wrong_answers:
+  - 其元資料
+  - 其腳本
+  - 其特色
+explanation: |
+  交易模式只是 Blockchain 上可以找到的典型交易的模型或整體結構，其可能的解釋是已知的。
+reviewed: false

@@ -1,0 +1,8 @@
+question: Jakie jest jedno z potencjalnych zastosowań Lightning Network w życiu codziennym?
+answer: Natychmiastowe rozliczenia w handlu.
+wrong_answers:
+  - Mining nowe Bitcoiny.
+  - Tworzenie nowych kryptowalut.
+  - Zwiększenie wartości Bitcoin.
+explanation: >-
+reviewed: true

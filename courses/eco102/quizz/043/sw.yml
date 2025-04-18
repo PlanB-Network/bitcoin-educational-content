@@ -1,0 +1,9 @@
+question: Je, ni jambo gani la kawaida kati ya watetezi na wajamaa kwa mujibu wa Bastiat?
+answer: Wote wawili wanataka kupendelea unyonyaji wa sehemu ya idadi ya watu
+wrong_answers:
+  - Wote wawili wanatetea uhuru wa kiuchumi
+  - Wote wawili wanataka usawa zaidi wa kijamii
+  - Wote wawili wanapinga uingiliaji kati wa serikali katika uchumi
+explanation: |
+  Bastiat anazikosoa itikadi zote mbili kwa mwelekeo wao wa kupendelea unyonyaji wa tabaka moja na jingine, kwa hasara ya maslahi ya jumla.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jaka jest rola wielomianu nieredukowalnego w polu skończonym?
+answer: Zdefiniuj operacje mnożenia w polu
+wrong_answers:
+  - Zdefiniuj addytywną odwrotność każdego elementu
+  - Zapewnienie zamknięcia pola
+  - Wyznacz tożsamość multiplikatywną
+explanation: |
+  Nieredukowalne wielomiany są używane do strukturyzacji mnożenia w skończonych polach, zapewniając, że każdy element pozostaje w polu.
+reviewed: false

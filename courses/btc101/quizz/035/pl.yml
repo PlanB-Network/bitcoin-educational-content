@@ -1,0 +1,9 @@
+question: Jakie jest znaczenie pieniądza fiducjarnego?
+answer: Pieniądz fiat to waluta, która ma wartość, ponieważ utrzymuje ją rząd, a ludzie wierzą w jej wartość, a nie jest zabezpieczona fizycznym towarem, takim jak złoto.
+wrong_answers:
+  - Pieniądz fiat to waluta, która jest zabezpieczona fizycznym towarem, takim jak złoto lub srebro, co oznacza, że jej wartość jest bezpośrednio powiązana z wartością tego towaru.
+  - Fiat money to rodzaj kryptowaluty, która działa w zdecentralizowanej sieci, umożliwiając transakcje peer-to-peer bez potrzeby posiadania centralnego organu.
+  - Pieniądz fiat to waluta, która nie ma wartości wewnętrznej i nie może być wykorzystywana do transakcji, co czyni ją zasadniczo bezwartościową w gospodarce.
+explanation: |
+  Pieniądz fiat jest prawnym środkiem płatniczym ustanowionym dekretem rządowym, a jego wartość nie pochodzi z żadnego fizycznego towaru.
+reviewed: true

@@ -22,14 +22,15 @@ Tässä johdannossa kryptografiaan pyritään löytämään keskitie. Vaikka sen
 
 <partId>bbed2f46-d64c-5fb5-b892-d726032f2494</partId>
 
-## Lyhyt kuvaus
+## Kurssin yleiskatsaus
 
 <chapterId>bb8a8b73-7fb2-50da-bf4e-98996d79887b</chapterId>
+Tervetuloa CYP302-kurssille!
 
 Tämä kirja tarjoaa syvällisen johdatuksen salakirjoituksen tieteeseen ja käytäntöön. Siinä keskitytään mahdollisuuksien mukaan pikemminkin käsitteelliseen kuin muodolliseen esittelyyn.
 
 > Tämä kurssi perustuu [JWBurgersin repoon](https://github.com/JWBurgers/An_Introduction_to_Cryptography). Kaikki oikein hänelle. Sisältö ei ole vielä valmis ja vain täällä esittelemässä, miten voisimme integroida sen, jos JWburgerin suostuu.
-### Motivaatio ja tavoitteet
+**Motivaatio ja tavoitteet**
 
 On vaikea löytää monia materiaaleja, jotka tarjoaisivat hyvän keskitason kryptografian opetuksessa.
 
@@ -37,11 +38,11 @@ Toisaalta on olemassa pitkiä, muodollisia tutkielmia, jotka ovat oikeastaan vai
 
 Tässä johdannossa kryptografiaan pyritään löytämään keskitie. Vaikka sen pitäisi olla suhteellisen haastava ja yksityiskohtainen kaikille kryptografian aloittelijoille, se ei ole tyypillisen perustavanlaatuisen tutkielman kaninkolo.
 
-### Kohderyhmä
+**Kohderyhmä**
 
 Tämä kirja on hyödyllinen kaikille kehittäjistä älyllisesti uteliaisiin, jotka haluavat kryptografiasta muutakin kuin pintapuolisen ymmärryksen. Jos tavoitteenasi on hallita kryptografian alaa, tämä kirja on myös hyvä lähtökohta.
 
-### Lukemisohjeet
+**Lukemisohjeet**
 
 Kirjassa on tällä hetkellä seitsemän lukua: "(luku 1), "Kryptografian matemaattiset perusteet I" (luku 2), "Kryptografian matemaattiset perusteet II" (luku 3), "Symmetrinen kryptografia" (luku 4), "RC4 ja AES" (luku 5), "Epäsymmetrinen kryptografia" (luku 6) ja "RSA-salausjärjestelmä" (luku 7). Viimeinen luku, "Kryptografia käytännössä", lisätään vielä. Siinä keskitytään erilaisiin kryptografiasovelluksiin, kuten kuljetuskerroksen tietoturvaan, sipulireititykseen ja Bitcoinin arvonvaihtojärjestelmään.
 
@@ -49,7 +50,7 @@ Jos sinulla ei ole vahvaa matemaattista taustaa, numeroteoria on luultavasti tä
 
 Jos sinulla on todella vaikeuksia kirjan näiden osien muodollisten yksityiskohtien kanssa, suosittelen, että tyydyt lukemaan ne korkeatasoisesti ensimmäisellä kerralla.
 
-### Kiitokset
+**Kiitokset**
 
 Vaikuttavin kirja, joka on vaikuttanut tähän, on ollut Jonathan Katzin ja Yehuda Lindellin teos _Introduction to Modern Cryptography_, CRC Press (Boca Raton, FL), 2015. Siihen liittyvä kurssi on saatavilla Courserassa nimellä "Cryptography"
 
@@ -59,11 +60,11 @@ Siteeraan vain hyvin erityisiä tietoja ja tuloksia, jotka olen saanut näistä 
 
 Niille lukijoille, jotka haluavat tämän johdannon jälkeen etsiä syvällisempää tietoa kryptografiasta, suosittelen lämpimästi Katzin ja Lindellin kirjaa. Katzin kurssi Courserassa on hieman helpommin lähestyttävä kuin kirja.
 
-### Maksut
+**Maksut**
 
 Tutustu [arkistossa olevaan contributions-tiedostoon](https://github.com/JWBurgers/An_Introduction_to_Cryptography/blob/master/Contributions.md), josta löydät ohjeita siitä, miten projektia voi tukea.
 
-### Merkintä
+**Merkintä**
 
 **Keskeiset termit:**
 
@@ -85,6 +86,8 @@ Muodollinen merkintätapa koskee pääasiassa muuttujia, satunnaismuuttujia ja j
 - Muuttujat: Muuttujat: Nämä merkitään yleensä vain pienellä kirjaimella (esim. "x" tai "y"). Joskus ne kirjoitetaan suuraakkosin selkeyden vuoksi (esim. "M" tai "K").
 - Satunnaismuuttujat: Muuttujat: Nämä merkitään aina isolla kirjaimella (esim. "X" tai "Y")
 - Sarjat: **S**)
+
+Oletko valmis tutkimaan kryptografian kiehtovaa maailmaa? Lähdetään liikkeelle!
 
 # Mitä on kryptografia?
 
@@ -291,7 +294,7 @@ Ilmaisussa "satunnaismuuttuja" termi "satunnainen" tarkoittaa vain "todennäköi
 
 **yhtenäinen muuttuja** on satunnaismuuttujan erikoistapaus. Se voi saada kaksi tai useampia arvoja, joilla kaikilla on sama todennäköisyys. Kuvassa 1 esitetty satunnaismuuttuja $X$ on selvästi tasainen muuttuja, koska molemmat mahdolliset tulokset esiintyvät todennäköisyydellä $0.5$. On kuitenkin olemassa monia satunnaismuuttujia, jotka eivät ole yhdenmukaisia muuttujia.
 
-Tarkastellaan esimerkiksi satunnaismuuttujaa $Y$. Sillä on tulosjoukko $\{1, 2, 3, 8, 10}$ ja seuraava todennäköisyysjakauma:
+Tarkastellaan esimerkiksi satunnaismuuttujaa $Y$. Sillä on tulosjoukko ${1, 2, 3, 8, 10}$ ja seuraava todennäköisyysjakauma:
 
 $$
 \Pr[Y = 1] = 0.25
@@ -544,7 +547,7 @@ Aluksi voimme kutsua binäärijonoa, jonka pituus on $n$, **sattumanvaraiseksi**
 
 Oletetaan esimerkiksi, että kaikkien sellaisten binäärijonojen joukko, joiden pituus on 8: $\{0000\ 0000, 0000\ 0001, \ldots, 1111\ 1111\}$. (Tyypillistä on kirjoittaa 8-bittinen merkkijono kahtena kvarttina, joita kutakin kutsutaan **nibbleksi**) Kutsutaan tätä merkkijonojen joukkoa **$S_8$**.
 
-Yllä olevan määritelmän mukaan voimme siis kutsua tiettyä binäärijonoa, jonka pituus on 8, satunnaiseksi (tai yhtenäiseksi), jos se on tulosta näytteenotosta yhtenäisestä muuttujasta $S$$, joka antaa jokaiselle merkkijonolle **$S_8$** yhtä suuren todennäköisyyden tulla valituksi. Koska joukko **$$S_8$** sisältää $2^8$ elementtiä, otannan valinnan todennäköisyyden on oltava $1/2^8$ jokaiselle joukon merkkijonolle.
+Yllä olevan määritelmän mukaan voimme siis kutsua tiettyä binäärijonoa, jonka pituus on 8, satunnaiseksi (tai yhtenäiseksi), jos se on tulosta näytteenotosta yhtenäisestä muuttujasta $S$, joka antaa jokaiselle merkkijonolle **$S_8$** yhtä suuren todennäköisyyden tulla valituksi. Koska joukko **$S_8$** sisältää $2^8$ elementtiä, otannan valinnan todennäköisyyden on oltava $1/2^8$ jokaiselle joukon merkkijonolle.
 
 Binäärijonon satunnaisuuteen liittyy olennaisesti se, että se määritellään suhteessa prosessiin, jolla se on valittu. Minkä tahansa binäärijonon muoto ei siis yksinään kerro mitään sen satunnaisuudesta valinnassa.
 
@@ -556,9 +559,9 @@ Voimme myös puhua satunnaisista merkkijonoista tarkoittamatta erityisesti binä
 
 Tyypillisesti ilmaus "satunnainen merkkijono" viittaa ilman tarkennuksia merkkijonoon, joka on valittu satunnaisesti kaikkien samanpituisten merkkijonojen joukosta. Näin olen kuvannut asian edellä. Pituudeltaan $n$ merkkijono voidaan tietysti valita satunnaisesti myös muusta joukosta. Esimerkiksi sellaisesta, joka muodostaa vain osajoukon kaikista merkkijonoista, joiden pituus on $n$, tai ehkä joukosta, joka sisältää eri pituisia merkkijonoja. Näissä tapauksissa emme kuitenkaan kutsuisi sitä "satunnaiseksi merkkijonoksi" vaan "merkkijonoksi, joka on valittu satunnaisesti joukosta **S**".
 
-Pseudosatunnaisuuden käsite on keskeinen käsite kryptografiassa. Pituudeltaan $n$:n pituinen **pseudosatunnainen merkkijono** näyttää * ikään kuin* se olisi tulosta näytteenotosta yhtenäisestä muuttujasta $S$$, joka antaa jokaiselle merkkijonolle **$S_n$** yhtäläisen valintatodennäköisyyden. Tosiasiassa merkkijono on kuitenkin tulosta näytteenotosta yhtenäisestä muuttujasta $S'$, joka määrittelee vain todennäköisyysjakauman - ei välttämättä sellaista, jossa kaikilla mahdollisilla tuloksilla on yhtäläiset todennäköisyydet **$S_n$**:n osajoukossa. Ratkaisevaa tässä on se, että kukaan ei voi oikeastaan erottaa näytteitä $S$:sta ja $S'$:sta, vaikka niitä otettaisiinkin paljon.
+Pseudosatunnaisuuden käsite on keskeinen käsite kryptografiassa. Pituudeltaan $n$:n pituinen **pseudosatunnainen merkkijono** näyttää *ikään kuin* se olisi tulosta näytteenotosta yhtenäisestä muuttujasta $S$, joka antaa jokaiselle merkkijonolle **$S_n$** yhtäläisen valintatodennäköisyyden. Tosiasiassa merkkijono on kuitenkin tulosta näytteenotosta yhtenäisestä muuttujasta $S'$, joka määrittelee vain todennäköisyysjakauman - ei välttämättä sellaista, jossa kaikilla mahdollisilla tuloksilla on yhtäläiset todennäköisyydet **$S_n$**:n osajoukossa. Ratkaisevaa tässä on se, että kukaan ei voi oikeastaan erottaa näytteitä $S$:sta ja $S'$:sta, vaikka niitä otettaisiinkin paljon.
 
-Oletetaan esimerkiksi satunnaismuuttuja $S$. Sen tulosjoukko on **$$S_{256}$**, joka on kaikkien niiden binäärijonojen joukko, joiden pituus on 256. Tällä joukolla on $2^{256}$ alkioita. Jokaisella elementillä on otannassa yhtä suuri todennäköisyys, $1/2^{256}$, tulla valituksi.
+Oletetaan esimerkiksi satunnaismuuttuja $S$. Sen tulosjoukko on **$S_{256}$**, joka on kaikkien niiden binäärijonojen joukko, joiden pituus on 256. Tällä joukolla on $2^{256}$ alkioita. Jokaisella elementillä on otannassa yhtä suuri todennäköisyys, $1/2^{256}$, tulla valituksi.
 
 Lisäksi oletetaan satunnaismuuttuja $S'$. Sen tulosjoukko sisältää vain $2^{128}$ binäärijonoja, joiden pituus on 256. Sillä on jokin todennäköisyysjakauma näille merkkijonoille, mutta tämä jakauma ei välttämättä ole tasainen.
 
@@ -572,7 +575,7 @@ Jos emme pystyisi tuottamaan tällaista pseudosatunnaismerkkijonoa virran salaus
 
 Tässä jaksossa käsitelty pseudosatunnaisuuden käsite voidaan määritellä muodollisemmin. Se ulottuu myös muihin yhteyksiin. Meidän ei kuitenkaan tarvitse syventyä tähän keskusteluun tässä yhteydessä. Intuitiivisesti on ymmärrettävä suurimmassa osassa kryptografiaa vain satunnaisen ja pseudosatunnaisen merkkijonon välinen ero. [2]
 
-Syy siihen, miksi "satunnaisen" ja "yhdenmukaisen" välinen ero on poistettu keskustelustamme, pitäisi nyt myös olla selvä. Käytännössä kaikki käyttävät termiä pseudosattumanvarainen merkitsemään merkkijonoa, joka näyttää ** ikään kuin** se olisi tulosta yhdenmukaisen muuttujan $S$ näytteenotosta. Tarkkaan ottaen meidän pitäisi kutsua tällaista merkkijonoa "pseudo-epätasaiseksi", jolloin ottaisimme käyttöön aiemmat kielenkäyttömme. Koska termi "pseudo-epätasainen" on sekä kömpelö että epäsäännöllinen, emme ota sitä tässä käyttöön selkeyden vuoksi. Sen sijaan jätämme vain pois eron "satunnaisen" ja "yhtenäisen" välillä tässä yhteydessä.
+Syy siihen, miksi "satunnaisen" ja "yhdenmukaisen" välinen ero on poistettu keskustelustamme, pitäisi nyt myös olla selvä. Käytännössä kaikki käyttävät termiä pseudosattumanvarainen merkitsemään merkkijonoa, joka näyttää **ikään kuin** se olisi tulosta yhdenmukaisen muuttujan $S$ näytteenotosta. Tarkkaan ottaen meidän pitäisi kutsua tällaista merkkijonoa "pseudo-epätasaiseksi", jolloin ottaisimme käyttöön aiemmat kielenkäyttömme. Koska termi "pseudo-epätasainen" on sekä kömpelö että epäsäännöllinen, emme ota sitä tässä käyttöön selkeyden vuoksi. Sen sijaan jätämme vain pois eron "satunnaisen" ja "yhtenäisen" välillä tässä yhteydessä.
 
 **Huomautuksia**
 
@@ -632,13 +635,13 @@ Yhdistelmä $\langle \mathbf{S}, \circ \rangle$ on siis **ryhmä**, jos se täyt
 
 Tutustutaan ryhmiin hieman tarkemmin. Merkitään kaikkien kokonaislukujen joukkoa $\mathbb{Z}$. Tämä joukko yhdistettynä tavanomaiseen yhteenlaskuun eli $\langle \mathbb{Z}, + \rangle$ vastaa selvästi ryhmän määritelmää, sillä se täyttää edellä mainitut neljä aksioomaa.
 
-1. Jos $x$ ja $y$ ovat $\mathbb{Z}$:n alkioita, $x + y$ on myös $\mathbb{Z}$:n alkio. Joten $\nurkka \mathbb{Z}, + \nurkka$ täyttää sulkemisehdon.
+1. Jos $x$ ja $y$ ovat $\mathbb{Z}$:n alkioita, $x + y$ on myös $\mathbb{Z}$:n alkio. Joten $\langle \mathbb{Z}, + \rangle$ täyttää sulkemisehdon.
 
-2. Kaikille $x$, $y$ ja $z$, jotka ovat $\mathbb{Z}$:n alkioita, pätee $(x + y) + z = x + (y + z)$. Joten $\nurkka \mathbb{Z}, + \nurkka$ täyttää assosiatiivisuusehdon.
+2. Kaikille $x$, $y$ ja $z$, jotka ovat $\mathbb{Z}$:n alkioita, pätee $(x + y) + z = x + (y + z)$. Joten $\langle \mathbb{Z}, + \rangle$ täyttää assosiatiivisuusehdon.
 
-3. On olemassa identtinen alkio $\langle \mathbb{Z}, + \rangle$, nimittäin 0. Mille tahansa $x$:lle $\mathbb{Z}$:ssa pätee nimittäin, että: $0 + x = x + 0 = x$. Joten $\kulma \mathbb{Z}, + \rangle$ täyttää identiteettiehdon.
+3. On olemassa identtinen alkio $\langle \mathbb{Z}, + \rangle$, nimittäin 0. Mille tahansa $x$:lle $\mathbb{Z}$:ssa pätee nimittäin, että: $0 + x = x + 0 = x$. Joten $\langle \mathbb{Z}, + \rangle$ täyttää identiteettiehdon.
 
-4. Lopuksi, jokaiselle $\mathbb{Z}$:n $x$ alkioille $\mathbb{Z}$ on olemassa $y$ siten, että $x + y = y + x = 0$. Jos $x$ olisi esimerkiksi 10, $y$ olisi $-10$ (jos $x$ on 0, myös $y$ on 0). Joten $\nurkka \mathbb{Z}, + \nurkka$ täyttää käänteisehdon.
+4. Lopuksi, jokaiselle $\mathbb{Z}$:n $x$ alkioille $\mathbb{Z}$ on olemassa $y$ siten, että $x + y = y + x = 0$. Jos $x$ olisi esimerkiksi 10, $y$ olisi $-10$ (jos $x$ on 0, myös $y$ on 0). Joten $\langle \mathbb{Z}, + \rangle$ täyttää käänteisehdon.
 
 On tärkeää, että se, että kokonaislukujen joukko yhteenlaskun kanssa muodostaa ryhmän, ei tarkoita, että se muodostaa ryhmän kertolaskun kanssa. Voit todentaa tämän testaamalla $\langle \mathbb{Z}, \cdot \rangle$ neljää ryhmäaksioomaa vastaan (jossa $\cdot$ tarkoittaa tavallista kertolaskua).
 
@@ -649,7 +652,6 @@ Oletetaan esimerkiksi, että $x = 22$. Mikä arvo $y$ joukosta $\mathbb{Z}$ kerr
 Jos sallimme reaaliluvut joukossamme, ongelmamme häviävät suurelta osin. Minkä tahansa joukkoon kuuluvan alkion $x$ kertolasku luvulla $1/x$ antaa tulokseksi 1. Koska murtoluvut sisältyvät reaalilukujen joukkoon, jokaiselle reaaliluvulle voidaan löytää käänteisluku. Poikkeuksena on nolla, sillä kertolasku nollalla ei koskaan tuota identtistä alkiota 1. Nollasta poikkeavien reaalilukujen joukko, joka on varustettu kertolaskulla, on siis todellakin ryhmä.
 
 Jotkut ryhmät täyttävät viidennen yleisen ehdon, joka tunnetaan nimellä **kommutatiivisuusehto**. Tämä ehto on seuraava:
-
 
 - Oletetaan ryhmä $G$, jolla on joukko **S** ja binäärioperaattori $\circ$. Oletetaan, että $a$ ja $b$ ovat **S**:n alkioita. Jos pätee, että $a \circ b = b \circ a$ mille tahansa kahdelle **S**:n elementille $a$ ja $b$, niin $G$ täyttää kommutatiivisuusehdon.
 
@@ -685,13 +687,13 @@ Julkisen avaimen salakirjoituksessa erityisen tärkeitä ovat tietyt äärellise
 
 Oletetaan, että on olemassa ryhmä $G$, jolla on ryhmäoperaatio $\circ$, ja että $a$ on $G$:n alkio. Lauseke $a^n$ on tällöin tulkittava siten, että alkio $a$ yhdistetään itseensä yhteensä $n - 1$ kertaa. Esimerkiksi $a^2$ tarkoittaa $a \circ a$, $a^3$ tarkoittaa $a \circ a \circ a$ ja niin edelleen. (Huomaa, että tässä eksponentointi ei välttämättä ole eksponentointia tavallisessa aritmeettisessa mielessä.)
 
-Otetaanpa esimerkki. Oletetaan, että $G = \särmi \mathbb{Z} \mod 7, + \monikulmio$, ja että arvomme $a$ on 4. Tällöin $a^2 = [4 + 4 \mod 7] = [8 \mod 7] = 1 \mod 7$. Vaihtoehtoisesti $a^4$ edustaisi $[4 + 4 + 4 + 4 + 4 \mod 7] = [16 \mod 7] = 2 \mod 7$.
+Otetaanpa esimerkki. Oletetaan, että $G = \langle \mathbb{Z} \mod 7, + \rangle$, ja että arvomme $a$ on 4. Tällöin $a^2 = [4 + 4 \mod 7] = [8 \mod 7] = 1 \mod 7$. Vaihtoehtoisesti $a^4$ edustaisi $[4 + 4 + 4 + 4 \mod 7] = [16 \mod 7] = 2 \mod 7$.
 
 Joillakin abelilaisilla ryhmillä on yksi tai useampi alkio, joka voi saada kaikki muut ryhmän alkiot jatkuvan potensoinnin avulla. Näitä elementtejä kutsutaan **generoijiksi** tai **primitiivielementeiksi**.
 
 Tärkeä tällaisten ryhmien luokka on $\langle \mathbb{Z}^* \mod N, \cdot \rangle$, jossa $N$ on alkuluku. Merkintä $\mathbb{Z}^*$ tarkoittaa tässä, että ryhmä sisältää kaikki nollasta poikkeavat positiiviset kokonaisluvut, jotka ovat pienempiä kuin $N$. Tällaisella ryhmällä on siis aina $N - 1$ alkioita.
 
-Tarkastellaan esimerkiksi $G = \kulma \mathbb{Z}^* \mod 11, \cdot \rangle$. Tällä ryhmällä on seuraavat alkiot: $\{1, 2, 3, 4, 5, 6, 7, 8, 9, 10\}$. Tämän ryhmän järjestys on 10 (joka on todellakin yhtä suuri kuin $11 - 1$).
+Tarkastellaan esimerkiksi $G = \langle \mathbb{Z}^* \mod 11, \cdot \rangle$. Tällä ryhmällä on seuraavat alkiot: $\{1, 2, 3, 4, 5, 6, 7, 8, 9, 10\}$. Tämän ryhmän järjestys on 10 (joka on todellakin yhtä suuri kuin $11 - 1$).
 
 Tutkitaan tämän ryhmän alkion 2 potensointia. Alla on esitetty laskutoimitukset $2^{12}$ asti. Huomaa, että yhtälön vasemmalla puolella eksponentti viittaa ryhmän alkuaineiden eksponentointiin. Meidän esimerkissämme tämä tosiaan tarkoittaa yhtälön oikealla puolella aritmeettista eksponentointia (mutta se olisi voinut sisältää myös esimerkiksi yhteenlaskun). Selvyyden vuoksi olen kirjoittanut toistetun operaation, enkä eksponenttimuotoa oikealla puolella.
 
@@ -743,7 +745,6 @@ Jos $N$ itsessään on alkuluku, kaikki kokonaisluvut 1:stä $N - 1$:iin ovat $N
 
 Seuraavaksi funktio $\phi(N)$ laskee koprimien määrän tiettyyn lukuun $N$ asti, ja se tunnetaan nimellä **Eulerin Phi-funktio**. [1] **Eulerin lauseen** mukaan aina kun kaksi kokonaislukua $a$ ja $N$ ovat kopriimejä, pätee seuraava:
 
-
 - $a^{\phi(N)} \mod N = 1 \mod N$
 
 Tällä on tärkeä vaikutus ryhmäluokkaan $\langle \mathbb{Z}^* \mod N, \cdot \rangle$, jossa $N$ on alkuluku. Näissä ryhmissä ryhmäelementtien eksponentointi vastaa aritmeettista eksponentointia. Toisin sanoen $a^{\phi(N)} \mod N$ edustaa aritmeettista operaatiota $a^{\phi(N)} \mod N$. Koska mikä tahansa alkio $a$ näissä multiplikatiivisissa ryhmissä on koprimäinen $N$:n kanssa, se tarkoittaa, että $a^{\phi(N)} \mod N = a^{N - 1} \mod N = 1 \mod N$.
@@ -774,7 +775,7 @@ Kenttä on johdettu ryhmän käsitteestä. Tarkemmin sanottuna **kenttä** on al
 
 1. Joukko **S**, joka on varustettu $\circ$:llä, on abelilainen ryhmä.
 
-2. Joukko **S**, joka on varustettu $\diamondilla$, on abelilainen ryhmä "nollasta poikkeavien" alkioiden osalta.
+2. Joukko **S**, joka on varustettu $\diamond$, on abelilainen ryhmä "nollasta poikkeavien" alkioiden osalta.
 
 3. Joukko **S**, joka on varustettu näillä kahdella operaattorilla, täyttää niin sanotun distributiivisen ehdon: Oletetaan, että $a$, $b$ ja $c$ ovat **S**:n alkioita. Tällöin **S**, joka on varustettu kahdella operaattorilla, täyttää distributiivisen ominaisuuden, kun $a \circ (b \diamond c) = (a \circ b) \diamond (a \circ c)$.
 
@@ -1024,16 +1025,16 @@ Oletetaan sanakirja *D*, joka rinnastaa kaikki englannin aakkosten kirjaimet jä
 
 - Valitaan satunnaisesti avain $k$ mahdollisten avainten joukosta **K**, jossa **K** = $\{0,1,2,\dots,25\}$
 - Salaa viesti $m \in$ **M** seuraavasti:
-    - Erottele $m$ yksittäisiin kirjaimiin $m_0, m_1,\pisteet, m_i, \pisteet, m_l$
+    - Erottele $m$ yksittäisiin kirjaimiin $m_0, m_1, \dots, m_i, \dots, m_l$
     - Muunnetaan jokainen $m_i$ luvuksi *D*:n mukaisesti
     - Jokaisen $m_i$ osalta $c_i = [(m_i + k) \mod 26]$
     - Muunna jokainen $c_i$ kirjaimeksi *D*:n mukaisesti
-    - Yhdistetään sitten $c_0, c_1,\dots, c_l$, jolloin saadaan salattu teksti $c$
+    - Yhdistetään sitten $c_0, c_1, \dots, c_l$, jolloin saadaan salattu teksti $c$
 - Puretaan salattu teksti $c$ seuraavasti:
     - Muunnetaan jokainen $c_i$ luvuksi *D*:n mukaisesti
     - Jokaisen $c_i$ osalta $m_i = [(c_i - k) \mod 26]$
     - Muunna jokainen $m_i$ kirjaimeksi *D*:n mukaisesti
-    - Yhdistetään sitten $m_0, m_1,\dots, m_l$, jolloin saadaan alkuperäinen viesti $m$
+    - Yhdistetään sitten $m_0, m_1, \dots, m_l$, jolloin saadaan alkuperäinen viesti $m$
 
 Siirtymäsalakirjoitus on symmetrinen salausjärjestelmä, koska samaa avainta käytetään sekä salauksessa että salauksen purkamisessa. Oletetaan esimerkiksi, että haluat salata viestin "DOG" käyttämällä shift-salakirjoitusta ja valitset avaimeksi satunnaisesti arvon "24". Kun viesti salataan tällä avaimella, tulokseksi saadaan "BME". Ainoa tapa saada alkuperäinen viesti takaisin on käyttää samaa avainta, "24", salauksen purkamiseen.
 
@@ -1448,29 +1449,19 @@ Jatketaan tätä prosessia, kunnes saadaan matriisin **S** viimeinen rivi alareu
 
 *Taulukko 1: Keskeinen aikataulutaulukko*
 
-| Round | i | j | | | S[0] | S[1] | S[2] | S[3] | S[4] | S[5] | S[6] | S[7] | S[7] |
+| Round   | i   | j   |     | S[0] | S[1] | S[2] | S[3] | S[4] | S[5] | S[6] | S[7] |
+| ------- | --- | --- | --- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+|         |     |     |     |      |      |      |      |      |      |      |      |
+| Initial |     | 0   |     | 0    | 1    | 2    | 3    | 4    | 5    | 6    | 7    |
+| 1       | 0   | 6   |     | 6    | 1    | 2    | 3    | 4    | 5    | 0    | 7    |
+| 2       | 1   | 7   |     | 6    | 7    | 2    | 3    | 4    | 5    | 0    | 1    |
+| 3       | 2   | 2   |     | 6    | 7    | 2    | 3    | 4    | 5    | 0    | 1    |
+| 4       | 3   | 3   |     | 6    | 7    | 2    | 3    | 4    | 5    | 0    | 1    |
+| 5       | 4   | 3   |     | 6    | 7    | 2    | 0    | 3    | 5    | 4    | 1    |
+| 6       | 5   | 6   |     | 6    | 4    | 2    | 0    | 3    | 7    | 5    | 1    |
+| 7       | 6   | 1   |     | 6    | 4    | 2    | 0    | 3    | 7    | 5    | 2    |
+| 8       | 7   | 2   |     | 6    | 4    | 1    | 0    | 3    | 7    | 5    | 2    |
 
-
-
-| | | | | | | | | | | | |
-
-| Alkuperäinen | | 0 | | 0 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
-
-| 1 | 0 | 6 | | 6 | 1 | 2 | 3 | 4 | 5 | 0 | 7 |
-
-| 2 | 1 | 7 | | 6 | 7 | 2 | 3 | 4 | 5 | 0 | 1 |
-
-| 3 | 2 | 2 | | 6 | 7 | 2 | 3 | 4 | 5 | 0 | 1 |
-
-| 4 | 3 | 3 | | 6 | 7 | 2 | 3 | 4 | 5 | 0 | 1 |
-
-| 5 | 4 | 3 | | 6 | 7 | 2 | 0 | 3 | 5 | 4 | 1 |
-
-| 6 | 5 | 6 | | 6 | 4 | 2 | 0 | 3 | 7 | 5 | 1 |
-
-| 7 | 6 | 1 | | 6 | 4 | 2 | 0 | 3 | 7 | 5 | 2 |
-
-| 8 | 7 | 2 | | 6 | 4 | 1 | 0 | 3 | 7 | 5 | 2 |
 
 ### Vaihe 4
 
@@ -1499,23 +1490,18 @@ Mitä tapahtuu, jos salattava sana olisi pidempi kuin joukko **S**? Tällöin jo
 
 *Taulukko 2: Keystream-tuotanto*
 
-| i | j | t | Avainvirta | S[0] | S[1] | S[2] | S[3] | S[4] | S[5] | S[6] | S[7] | S[7] |
 
+| i   | j   | t   | Keystream | S[0] | S[1] | S[2] | S[3] | S[4] | S[5] | S[6] | S[7] |
 | --- | --- | --- | --------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+|     |     |     |           |      |      |      |      |      |      |      |      |
+|     | 0   |     |           | 6    | 4    | 1    | 0    | 3    | 7    | 5    | 2    |
+| 1   | 4   | 7   | 2         | 6    | 3    | 1    | 0    | 4    | 7    | 5    | 2    |
+| 2   | 5   | 0   | 6         | 6    | 3    | 7    | 0    | 4    | 1    | 5    | 2    |
+| 3   | 5   | 1   | 3         | 6    | 3    | 7    | 1    | 4    | 0    | 5    | 2    |
+| 4   | 1   | 7   | 2         | 6    | 4    | 7    | 1    | 3    | 0    | 5    | 2    |
 
-| | | | | | | | | | | | |
 
-| | 0 | | | 6 | 4 | 1 | 0 | 3 | 7 | 5 | 2 |
-
-| 1 | 4 | 7 | 2 | 6 | 3 | 1 | 0 | 4 | 7 | 5 | 2 |
-
-| 2 | 5 | 0 | 6 | 6 | 3 | 7 | 0 | 4 | 1 | 5 | 2 |
-
-| 3 | 5 | 1 | 3 | 6 | 3 | 7 | 1 | 4 | 0 | 5 | 2 |
-
-| 4 | 1 | 7 | 2 | 6 | 4 | 7 | 1 | 3 | 0 | 5 | 2 |
-
-Äsken käsittelemämme esimerkki on vain vesitetty versio **RC4-virtasalauksesta**. Varsinaisessa RC4-suoritussalakirjoituksessa **S**-joukon pituus on 256 tavua, ei 8 tavua, ja avain voi olla 1 ja 256 tavun välillä, ei 1 ja 8 tavun välillä. Avainjoukko ja avainvirrat tuotetaan kaikki ottaen huomioon **S**-joukon 256 tavun pituus. Laskutoimituksista tulee huomattavasti monimutkaisempia, mutta periaatteet pysyvät samoina. Käyttämällä samaa avainta [14,48,9] tavallisella RC4-salakirjoituksella selkotekstiviesti "SOUP" salataan muodossa 67 02 ed df heksadesimaalimuodossa.
+Äsken käsittelemämme esimerkki on vain vesitetty versio **RC4-virtasalauksesta**. Varsinaisessa RC4-suoritussalakirjoituksessa **S**-joukon pituus on 256 tavua, ei 8 tavua, ja avain voi olla 1 ja 256 tavun välillä, ei 1 ja 8 tavun välillä. Avainjoukko ja avainvirrat tuotetaan kaikki ottaen huomioon **S**-joukon 256 tavun pituus. Laskutoimituksista tulee huomattavasti monimutkaisempia, mutta periaatteet pysyvät samoina. Käyttämällä samaa avainta 14,48,9 tavallisella RC4-salakirjoituksella selkotekstiviesti "SOUP" salataan muodossa 67 02 ed df heksadesimaalimuodossa.
 
 Virtasalaus, jossa avainvirta päivittyy riippumatta selväkielisestä viestistä tai salatekstistä, on **synkroninen virtasalaus**. Avainvirta on riippuvainen vain avaimesta. RC4 on selvästikin esimerkki synkronisesta virtasalakirjoituksesta, koska avainvirralla ei ole mitään yhteyttä selkotekstiin tai salakirjoitustekstiin. Kaikki edellisessä luvussa mainitut primitiiviset virta-salakirjoituksemme, mukaan lukien siirtosalakirjoitus, Vigenèren salakirjoitus ja kertakäyttösalakirjoitus, olivat myös synkronisia.
 
@@ -1589,41 +1575,26 @@ Toiseksi **byte-korvausoperaatio** suoritetaan $S$:n nykyiselle tilalle. Se toim
 
 *Kuva 3: Rijndaelin S-Box*
 
-| | 00 | 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 0A | 0B | 0C | 0D | 0E | 0F | 0F |
 
+|     | 00  | 01  | 02  | 03  | 04  | 05  | 06  | 07  | 08  | 09  | 0A  | 0B  | 0C  | 0D  | 0E  | 0F  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 00  | 63  | 7C  | 77  | 7B  | F2  | 6B  | 6F  | C5  | 30  | 01  | 67  | 2B  | FE  | D7  | AB  | 76  |
+| 10  | CA  | 82  | C9  | 7D  | FA  | 59  | 47  | F0  | AD  | D4  | A2  | AF  | 9C  | A4  | 72  | C0  |
+| 20  | B7  | FD  | 93  | 26  | 36  | 3F  | F7  | CC  | 34  | A5  | E5  | F1  | 71  | D8  | 31  | 15  |
+| 30  | 04  | C7  | 23  | C3  | 18  | 96  | 05  | 9A  | 07  | 12  | 80  | E2  | EB  | 27  | B2  | 75  |
+| 40  | 09  | 83  | 2C  | 1A  | 1B  | 6E  | 5A  | A0  | 52  | 3B  | D6  | B3  | 29  | E3  | 2F  | 84  |
+| 50  | 53  | D1  | 00  | ED  | 20  | FC  | B1  | 5B  | 6A  | CB  | BE  | 39  | 4A  | 4C  | 58  | CF  |
+| 60  | D0  | EF  | AA  | FB  | 43  | 4D  | 33  | 85  | 45  | F9  | 02  | 7F  | 50  | 3C  | 9F  | A8  |
+| 70  | 51  | A3  | 40  | 8F  | 92  | 9D  | 38  | F5  | BC  | B6  | DA  | 21  | 10  | FF  | F3  | D2  |
+| 80  | CD  | 0C  | 13  | EC  | 5F  | 97  | 44  | 17  | C4  | A7  | 7E  | 3D  | 64  | 5D  | 19  | 73  |
+| 90  | 60  | 81  | 4F  | DC  | 22  | 2A  | 90  | 88  | 46  | EE  | B8  | 14  | DE  | 5E  | 0B  | DB  |
+| A0  | E0  | 32  | 3A  | 0A  | 49  | 06  | 24  | 5C  | C2  | D3  | AC  | 62  | 91  | 95  | E4  | 79  |
+| B0  | E7  | C8  | 37  | 6D  | 8D  | D5  | 4E  | A9  | 6C  | 56  | F4  | EA  | 65  | 7A  | AE  | 08  |
+| C0  | BA  | 78  | 25  | 2E  | 1C  | A6  | B4  | C6  | E8  | DD  | 74  | 1F  | 4B  | BD  | 8B  | 8A  |
+| D0  | 70  | 3E  | B5  | 66  | 48  | 03  | F6  | 0E  | 61  | 35  | 57  | B9  | 86  | C1  | 1D  | 9E  |
+| E0  | E1  | F8  | 98  | 11  | 69  | D9  | 8E  | 94  | 9B  | 1E  | 87  | E9  | CE  | 55  | 28  | DF  |
+| F0  | 8C  | A1  | 89  | 0D  | BF  | E6  | 42  | 68  | 41  | 99  | 2D  | 0F  | B0  | 54  | BB  | 16  |
 
-| 00 | 63 | 7C | 77 | 7B | F2 | 6B | 6F | C5 | 30 | 01 | 67 | 2B | FE | D7 | AB | 76 |
-
-| 10 | CA | 82 | C9 | 7D | FA | 59 | 47 | F0 | AD | D4 | A2 | AF | 9C | A4 | 72 | C0 | C0 |
-
-| 20 | B7 | FD | 93 | 26 | 36 | 3F | F7 | CC | 34 | A5 | E5 | F1 | 71 | D8 | 31 | 15 | 15 |
-
-| 30 | 04 | C7 | 23 | C3 | 18 | 96 | 05 | 9A | 07 | 12 | 80 | E2 | EB | 27 | B2 | 75 |
-
-| 40 | 09 | 83 | 2C | 1A | 1B | 6E | 5A | A0 | 52 | 3B | D6 | B3 | 29 | E3 | 2F | 84 |
-
-| 50 | 53 | D1 | 00 | ED | 20 | FC | B1 | 5B | 6A | CB | BE | 39 | 4A | 4C | 58 | CF |
-
-| 60 | D0 | EF | AA | FB | 43 | 4D | 33 | 85 | 45 | F9 | 02 | 7F | 50 | 3C | 9F | A8 | A8 |
-
-| 70 | 51 | A3 | 40 | 8F | 92 | 9D | 38 | F5 | BC | B6 | DA | 21 | 10 | FF | F3 | D2 |
-
-| 80 | CD | 0C | 13 | EC | 5F | 97 | 44 | 17 | C4 | A7 | 7E | 3D | 64 | 5D | 19 | 73 |
-
-| 90 | 60 | 81 | 4F | DC | 22 | 2A | 90 | 88 | 46 | EE | B8 | 14 | DE | 5E | 0B | DB |
-
-| A0 | E0 | 32 | 3A | 0A | 49 | 06 | 24 | 5C | C2 | D3 | AC | 62 | 91 | 95 | E4 | 79 |
-
-| B0 | E7 | C8 | 37 | 6D | 8D | D5 | 4E | A9 | 6C | 56 | F4 | EA | 65 | 7A | AE | 08 | |
-
-| C0 | BA | 78 | 25 | 2E | 1C | A6 | B4 | C6 | E8 | DD | 74 | 1F | 4B | BD | 8B | 8A | 8B | 8A |
-
-| D0 | 70 | 3E | B5 | 66 | 48 | 03 | F6 | 0E | 61 | 35 | 57 | B9 | 86 | C1 | 1D | 9E |
-
-| E0 | E1 | F8 | 98 | 11 | 69 | D9 | 8E | 94 | 9B | 1E | 87 | E9 | CE | 55 | 28 | DF | DF |
-
-| F0 | 8C | A1 | 89 | 0D | BF | E6 | 42 | 68 | 41 | 99 | 2D | 0F | B0 | 54 | BB | 16 |
 
 Tämä S-Box on yksi paikka, jossa abstrakti algebra tulee mukaan Rijndaelin salakirjoitukseen, erityisesti **Galois-kentät**.
 
@@ -1637,39 +1608,31 @@ Kun **S**-matriisi on muodostettu, neljä riviä siirretään. Ensimmäinen rivi
 
 *Kuva 4: Rivien siirtäminen*
 
-| F1 | A0 | B1 | 23 | |
 
+| F1   | A0   | B1   | 23   |
 |------|------|------|------|
+| 59   | EF   | 09   | 82   |
+| 97   | 01   | B0   | CC   |
+| D4   | 72   | 04   | 21   |
 
-| 59 | EF | 09 | 82 |
-
-| 97 | 01 | B0 | CC |
-
-| D4 | 72 | 04 | 21 |
-
-| F1 | A0 | B1 | 23 | |
-
+| F1   | A0   | B1   | 23   |
 |------|------|------|------|
+| EF   | 09   | 82   | 59   |
+| B0   | CC   | 97   | 01   |
+| 21   | D4   | 72   | 04   |
 
-| EF | 09 | 82 | 59 |
-
-| B0 | CC | 97 | 01 |
-
-| 21 | D4 | 72 | 04 |
 
 Neljännessä vaiheessa **Galois-kentät** tulevat jälleen esiin. Aluksi **S**-matriisin jokainen sarake kerrotaan *Kuvassa 5* olevan 4 x 4 -matriisin sarakkeella. Mutta sen sijaan, että kyseessä olisi tavallinen matriisikertolasku, kyseessä on vektorikertolasku **modulo redusoimaton polynomi**, $x^8 + x^4 + x^3 + x + 1$. Tuloksena saadut vektorikertoimet edustavat tavun yksittäisiä bittejä.
 
 *Kuva 5: Sekoitussarakkeiden matriisi*
 
-| 02 | 03 | 01 | 01 |
 
+| 02   | 03   | 01   | 01   |
 |------|------|------|------|
+| 01   | 02   | 03   | 01   |
+| 01   | 01   | 02   | 03   |
+| 03   | 01   | 01   | 02   |
 
-| 01 | 02 | 03 | 01 |
-
-| 01 | 01 | 02 | 03 |
-
-| 03 | 01 | 01 | 02 |
 
 Kun **S**-matriisin ensimmäinen sarake kerrotaan edellä esitetyllä 4 x 4 -matriisilla, saadaan *Kuvion 6* mukainen tulos.
 
@@ -1773,6 +1736,7 @@ Mitä tapahtui 1970-luvulla? Miten on mahdollista, että voimme tehdä ostoksia 
 Ainakin yksi tärkeimmistä motiiveista heidän yritykselleen oli ennakointi siitä, että avoin tietokoneviestintä vaikuttaisi syvällisesti maailmaamme. Kuten Diffie ja Helmann totesivat vuonna 1976,
 
 > Tietokoneohjattujen viestintäverkkojen kehittyminen lupaa vaivattoman ja edullisen yhteydenpidon eri puolilla maailmaa olevien ihmisten tai tietokoneiden välillä, mikä korvaa suurimman osan postista ja monet retket televiestinnällä. Monissa sovelluksissa nämä yhteydet on suojattava sekä salakuuntelulta että laittomien viestien lähettämiseltä. Tällä hetkellä tietoturvaongelmien ratkaiseminen on kuitenkin huomattavasti jäljessä muista viestintätekniikan aloista. *Nykyinen kryptografia ei pysty täyttämään vaatimuksia, koska sen käyttö aiheuttaisi niin vakavia haittoja järjestelmän käyttäjille, että monet etäkäsittelyn eduista jäisivät pois.* [1]
+
 Diffien, Hellmanin ja Merklen sitkeys kannatti. Ensimmäinen julkaisu heidän tuloksistaan oli Diffien ja Helmannin vuonna 1976 julkaisema artikkeli "New Directions in Cryptography" Siinä he esittivät kaksi omaperäistä tapaa ratkaista avainjakelu- ja avainhallintaongelmat.
 
 Ensimmäinen heidän tarjoamansa ratkaisu oli etäkäyttöön tarkoitettu *avaintenvaihtoprotokolla*, eli joukko sääntöjä yhden tai useamman symmetrisen avaimen vaihtamiseksi turvattomalla viestintäkanavalla. Tämä protokolla tunnetaan nykyään nimellä *Diffie-Helmann-avaimenvaihto* tai *Diffie-Helmann-Merkle-avaimenvaihto*. [2]
@@ -2028,20 +1992,20 @@ Oletetaan nyt, että $N$ on hyvin suuri. Kuinka vaikeaa olisi pelkistää $N$ al
 
 Se riippuu todella $N$:sta. Oletetaan esimerkiksi, että $N$ on 50 450 400. Vaikka tämä luku näyttääkin pelottavalta, laskutoimitukset eivät ole kovin monimutkaisia, ja ne voidaan tehdä helposti käsin. Kuten edellä, aloitetaan vain numerosta 2 ja edetään siitä eteenpäin. Alla näet tämän prosessin tuloksen samalla tavalla kuin edellä.
 
-
-- 2: 25 225 200 (50 450 400 dollaria = 2 \cdot 25 225 200$)
-- 2: 12 612 600 (50 450 400 dollaria = 2^2 \cdot 12 612 600$)
-- 2: 6 306 300 (50 450 400 dollaria = 2^3 \cdot 6 306 300$)
-- 2: 3 153 150 (50 450 400 dollaria = 2^4 \cdot 3 153 150$)
-- 2: 1,576,575 (50,450,400 $ = 2^5 \cdot 1,576,575$)
-- 3: 525,525 (50 450 400 dollaria = 2^5 \cdot 3 \cdot 525,525$)
-- 3: 175,175 (50 450 400 dollaria = 2^5 \cdot 3^2 \cdot 175,175$)
-- 5: 35,035 ($50,450,400 = 2^5 \cdot 3^2 \cdot 5 \cdot 35,035$)
-- 5: 7,007 ($50,450,400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7,007$)
-- 7: 1,001 (50 450 400 dollaria = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7 \cdot 1,001$)
-- 7: 143 (50 450 400 dollaria = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 143$)
-- 11: 13 (50 450 400 dollaria = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 11 \cdot 13$)
+- 2: $25,225,200$ (50,450,400 = $2 \cdot 25,225,200$)
+- 2: $12,612,600$ (50,450,400 = $2^2 \cdot 12,612,600$)
+- 2: $6,306,300$ (50,450,400 = $2^3 \cdot 6,306,300$)
+- 2: $3,153,150$ (50,450,400 = $2^4 \cdot 3,153,150$)
+- 2: $1,576,575$ (50,450,400 = $2^5 \cdot 1,576,575$)
+- 3: $525,525$ (50,450,400 = $2^5 \cdot 3 \cdot 525,525$)
+- 3: $175,175$ (50,450,400 = $2^5 \cdot 3^2 \cdot 175,175$)
+- 5: $35,035$ (50,450,400 = $2^5 \cdot 3^2 \cdot 5 \cdot 35,035$)
+- 5: $7,007$ (50,450,400 = $2^5 \cdot 3^2 \cdot 5^2 \cdot 7,007$)
+- 7: $1,001$ (50,450,400 = $2^5 \cdot 3^2 \cdot 5^2 \cdot 7 \cdot 1,001$)
+- 7: $143$ (50,450,400 = $2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 143$)
+- 11: $13$ (50,450,400 = $2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 11 \cdot 13$)
 - Koska 13 on alkuluku, tulos on $2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 11 \cdot 13$.
+
 
 Tämän ongelman selvittäminen käsin vie jonkin aikaa. Tietokone voisi tietysti tehdä kaiken tämän sekunnin murto-osassa. Itse asiassa tietokone pystyy usein jopa kertomaan erittäin suuria kokonaislukuja sekunnin murto-osassa.
 
@@ -2076,7 +2040,7 @@ Näin ollen faktorointiongelman voidaan tietyissä olosuhteissa uskottavasti ole
 
 $$ \frac{2^{1024}}{\ln(2^{1024})} - \frac{2^{1023}}{\ln(2^{1023})} $$
 
-...mikä vastaa noin 1,265 \ kertaa 10^{305}$.
+...mikä vastaa noin $1,265 \times 10^{305}$.
 
 [3] Sama pätee myös diskreetin logaritmin ongelmiin. Tästä syystä epäsymmetriset salausrakenteet toimivat paljon suuremmilla avaimilla kuin symmetriset salausrakenteet.
 
@@ -2108,17 +2072,17 @@ Oletetaan, että $N$ ei ole alkuluku. Silloin voit laskea sen järjestyksen **Eu
 
 **Teoreema 2**. Olkoon $N$ yhtä suuri kuin $p_1^{e_1} \cdot p_2^{e_2} \cdot \ldots \cdot p_i^{e_i} \cdot \ldots \cdot p_n^{e_n}$, jossa joukko $\{p_i\}$ koostuu kaikista $N$:n eri alkutekijöistä ja jokainen $e_i$ osoittaa, kuinka monta kertaa alkutekijä $p_i$ esiintyy $N$:n kohdalla. Sitten,
 
-$$\phi(N) = p_1^{e_1 - 1} \cdot (p_1 - 1) \cdot p_2^{e_2 - 1} \cdot (p_2 - 1) \cdot \ldots \cdot p_n^{e_n - 1} \cdot (p_n - 1)$$$
+$$\phi(N) = p_1^{e_1 - 1} \cdot (p_1 - 1) \cdot p_2^{e_2 - 1} \cdot (p_2 - 1) \cdot \ldots \cdot p_n^{e_n - 1} \cdot (p_n - 1)$$
 
 **Teoreema 2** osoittaa, että kun jokin ei-primus $N$ on jaettu erillisiin primustekijöihin, on helppo laskea $N$:n järjestys.
 
 Oletetaan esimerkiksi, että $N = 270$. Tämä ei selvästikään ole alkuluku. Kun $N$ hajotetaan alkutekijöihin, saadaan lauseke: $2 \cdot 3^3 \cdot 5$. Eulerin Phi-funktion mukaan $N$:n järjestys on tällöin seuraava:
 
-$$\phi(N) = 2^{1 - 1} \cdot (2 - 1) + 3^{3 - 1} \cdot (3 - 1) + 5^{1 - 1} \cdot (5 - 1) = 1 \cdot 1 + 9 \cdot 2 + 1 \cdot 4 = 1 + 18 + 4 = 23 $$$
+$$\phi(N) = 2^{1 - 1} \cdot (2 - 1) + 3^{3 - 1} \cdot (3 - 1) + 5^{1 - 1} \cdot (5 - 1) = 1 \cdot 1 + 9 \cdot 2 + 1 \cdot 4 = 1 + 18 + 4 = 23 $$
 
 Oletetaan seuraavaksi, että $N$ on kahden alkuluvun $p$ ja $q$ tulo. **Yllä oleva lause 2** sanoo, että $N$:n järjestys on seuraava:
 
-$$p^{1 - 1} \cdot (p - 1) \cdot q^{1 - 1} \cdot (q - 1) = (p - 1) \cdot (q - 1)$$$
+$$p^{1 - 1} \cdot (p - 1) \cdot q^{1 - 1} \cdot (q - 1) = (p - 1) \cdot (q - 1)$$
 
 Tämä on keskeinen tulos erityisesti RSA-ongelmaa varten, ja se esitetään jäljempänä olevassa **Propositiossa 2**.
 
@@ -2126,13 +2090,14 @@ Tämä on keskeinen tulos erityisesti RSA-ongelmaa varten, ja se esitetään jä
 
 Kuvitellaan, että $N = 119$. Tämä kokonaisluku voidaan jakaa kahteen alkulukuun, nimittäin 7:ään ja 17:ään. Näin ollen Eulerin Phi-funktion mukaan 119:n järjestys on seuraava:
 
-$$\phi(119) = (7 - 1) \cdot (17 - 1) = 6 \cdot 16 = 96$$$
+$$\phi(119) = (7 - 1) \cdot (17 - 1) = 6 \cdot 16 = 96$$
 
 Toisin sanoen kokonaisluvulla 119 on 96 koprimaa välillä 1-119. Itse asiassa tähän joukkoon kuuluvat kaikki kokonaisluvut 1-119, jotka eivät ole 7:n tai 17:n kertalukuja.
 
 Tästä eteenpäin merkitään $N$:n järjestyksen määräävää koprimien joukkoa $C_N$:ksi. Esimerkissämme, jossa $N = 119$, joukko $C_{119}$ on aivan liian suuri lueteltavaksi kokonaan. Jotkin sen alkioista ovat kuitenkin seuraavat:
 
-$$C_{119} = \{1, 2, \pisteet 6, 8 \pisteet 13, 15, 16, 18, \pisteet 33, 35 \pisteet 96\}$$$
+$$C_{119} = \{1, 2, \dots, 6, 8, \dots, 13, 15, 16, 18, \dots, 33, 35, \dots, 96\}$$
+
 
 ### Käänteistettävyys modulo N
 
@@ -2146,7 +2111,7 @@ Oletetaan esimerkiksi, että $a = 5$ ja $N = 11$. On monia kokonaislukuja, joill
 
 Vaikka 5:llä on monia käänteislukuja, jotka redusoituvat modulo 11:een, voit osoittaa, että 5:lle on olemassa vain yksi positiivinen käänteisluku, joka on pienempi kuin 11. Itse asiassa tämä ei koske vain tätä esimerkkiä, vaan on yleinen tulos.
 
-**Ehdotus 3**. Jos kokonaisluku $a$ on käänteisluku modulo $N$, on oltava niin, että täsmälleen yksi positiivinen käänteisluku $a$ on pienempi kuin $N$. (Tämän ainoan käänteisluvun $a$ on siis tultava joukosta $\{1, \pisteet, N - 1\}$).
+**Ehdotus 3**. Jos kokonaisluku $a$ on käänteisluku modulo $N$, on oltava niin, että täsmälleen yksi positiivinen käänteisluku $a$ on pienempi kuin $N$. (Tämän ainoan käänteisluvun $a$ on siis tultava joukosta $\{1, \dots, N - 1\}$).
 
 Merkitään $a^{-1}$:lla **Propositiosta 3** saatavan $a$:n ainoaa käänteislukua $a^{-1}$. Tapauksessa, jossa $a = 5$ ja $N = 11$, nähdään, että $a^{-1} = 9$, koska $5 \cdot 9 \mod 11 = 45 \mod 11 = 1 \mod 11$.
 

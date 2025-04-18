@@ -1,0 +1,13 @@
+question: KYC 代表什麼？
+answer: 瞭解您的客戶。
+wrong_answers:
+  - 保留您的現金。
+  - 鍵入您的代碼。
+  - 懇請符合規定。
+explanation: |
+  KYC 或「認識您的客戶」指的是
+  企業採用的驗證客戶身份的程序。
+  這通常是為了確保符合
+  法規，並防止非法活動，例如
+  洗錢或欺詐。
+reviewed: true

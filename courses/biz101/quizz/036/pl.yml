@@ -1,0 +1,9 @@
+question: W jaki sposób Lightning Network pomaga kształtować przyszłość handlu internetowego i usług cyfrowych?
+answer: Umożliwiając płynne, natychmiastowe i niewymagające zezwoleń mikrotransakcje, otwierając nowe modele biznesowe i źródła przychodów.
+wrong_answers:
+  - Zapobiegając powstawaniu nowych modeli biznesowych online.
+  - Wymagając od sprzedawców korzystania z tych samych powolnych i kosztownych szyn płatności, co wcześniej.
+  - Uniemożliwiając sprzedaż towarów cyfrowych z powodu wysokich opłat.
+explanation: |
+  Zdolność Lightning do wysyłania niewielkich kwot wartości natychmiast i przy niskich kosztach zachęca do innowacji w takich obszarach, jak treści płatne zgodnie z rzeczywistym użyciem, płatności strumieniowe i transakcje maszyna-maszyna, potencjalnie zmieniając sposób zarabiania na usługach online.
+reviewed: false

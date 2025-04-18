@@ -1,0 +1,10 @@
+question: Czym jest OP_RETURN w transakcji Bitcoin?
+answer: Kod operacyjny, który oznacza wyjście jako nieprawidłowe i pozwala na przechowywanie danych.
+wrong_answers:
+  - Kod operacyjny, który weryfikuje ważność podpisu w transakcji Bitcoin.
+  - Kod operacyjny zawierający hiperłącze do pliku przechowywanego w IPFS.
+  - Polecenie usuwające transakcję z Bitcoin Blockchain.
+explanation: |
+  OP_RETURN to kod operacyjny, który sygnalizuje nieprawidłowy skrypt, sprawiając, że zawarte w nim dane wyjściowe są możliwe do udowodnienia. W ten sposób węzły sieci mogą usunąć te dane wyjściowe ze swojego zestawu UTXO. OP_RETURN jest często używany do rejestrowania dowolnych danych w Blockchain.
+  
+reviewed: false

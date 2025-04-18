@@ -1,0 +1,11 @@
+question: Jaki jest główny cel aktualizacji oprogramowania?
+answer: Aby naprawić błędy i poprawić bezpieczeństwo oprogramowania
+wrong_answers:
+  - Aby dodać nowe funkcje
+  - Aby zmienić oprogramowanie Interface
+  - Aby zwiększyć rozmiar oprogramowania
+explanation: |
+  Podczas gdy aktualizacje oprogramowania często zawierają nowe funkcje, ich głównym celem
+  jest naprawa błędów i poprawa bezpieczeństwa oprogramowania. Ma to kluczowe znaczenie dla utrzymania
+  komputera w optymalnym stanie.
+reviewed: false

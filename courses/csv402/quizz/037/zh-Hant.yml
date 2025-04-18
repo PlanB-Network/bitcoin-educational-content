@@ -1,0 +1,9 @@
+question: 如何將「NonInflatableAsset.RGB」Schema 匯入本機 Stash？
+answer: RGB 匯入 schemata/NonInflatableAssets.RGB
+wrong_answers:
+  - RGB 匯入 Schema/NonInflatableAssets.RGB
+  - RGB clone schemata/NonInflatableAssets.RGB
+  - RGB 克隆 Schema/NonInflatableAssets.RGB
+explanation: |
+  使用「RGB import schemata/NonInflatableAssets.RGB」指令將已編譯的 Schema 匯入本機 Stash。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Czym jest szyfr strumieniowy w kryptografii?
+answer: Szyfrowanie symetryczne, które generuje strumień kluczy o tej samej długości co wiadomość
+wrong_answers:
+  - Szyfrowanie asymetryczne oparte na liczbach pierwszych
+  - Szyfrowanie wykorzystujące wiele różnych kluczy deszyfrujących
+  - Szyfrowanie, które dzieli wiadomość na bloki danych
+explanation: |
+  Szyfr strumieniowy to szyfr symetryczny, w którym strumień kluczy o tej samej długości co wiadomość jest łączony z tą ostatnią w celu uzyskania zaszyfrowanego tekstu.
+reviewed: false

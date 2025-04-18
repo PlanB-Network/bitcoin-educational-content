@@ -1,0 +1,11 @@
+question: Je, madhumuni ya Cold Wallet katika Bitcoin ni nini?
+answer: Ili kuhifadhi Bitcoins kwa usalama.
+wrong_answers:
+  - Ili kuchimba Bitcoins mpya.
+  - Kufanya biashara ya Bitcoins.
+  - Kubadilisha Bitcoins kuwa cryptocurrensets nyingine.
+explanation: |
+  Cold Wallet, pia inajulikana kama Hardware Wallet, ni kifaa kilichoundwa
+  kuhifadhi salama Bitcoins. Haitumiki kwa Bitcoins mpya za Mining, biashara ya Bitcoins,
+  au kubadilisha Bitcoins katika sarafu nyinginezo.
+reviewed: false

@@ -22,17 +22,18 @@ Apakah Anda seorang **bisnis kecil atau perusahaan besar**, mengintegrasikan Bit
 
 <partId>326cf945-5d3f-4d86-8c3e-4d1c35959799</partId>
 
-## Masukkan perusahaan Anda ke Bitcoin
-
+## Ikhtisar Kursus
 <chapterId>1be42be9-4080-49f5-b5b2-6b531dd55f5f</chapterId>
 
-Mulailah perjalanan perusahaan Anda di jaringan Bitcoin dengan kursus pelatihan komprehensif ini - pintu gerbang untuk memahami bagaimana Bitcoin dan Lightning Network dapat merevolusi operasi bisnis tradisional. Kursus ini dirancang untuk pengecer, pengusaha, manajer, dan pengambil keputusan perusahaan yang ingin mengeksplorasi kemampuan praktis Bitcoin sebagai jaringan moneter global yang berasal dari internet dan sarana pertukaran nilai yang kuat.
+Selamat datang di kursus BIZ101! Mulailah perjalanan perusahaan Anda di jaringan Bitcoin dengan kursus pelatihan komprehensif ini - pintu gerbang untuk memahami bagaimana Bitcoin dan Lightning Network dapat merevolusi operasi bisnis tradisional. Kursus ini dirancang untuk pengecer, pengusaha, manajer, dan pengambil keputusan perusahaan yang ingin mengeksplorasi kemampuan praktis Bitcoin sebagai jaringan moneter global yang berasal dari internet dan sarana pertukaran nilai yang kuat.
 
 Selama kursus ini, Anda akan diperkenalkan dengan prinsip-prinsip dasar yang membuat Bitcoin dan Lightning Network menjadi sangat transformatif. Anda akan belajar bagaimana teknologi ini menawarkan spektrum kasus penggunaan, mulai dari penyimpanan modal digital hingga pembayaran yang cepat, ekonomis, dan dapat diskalakan, dan bagaimana teknologi ini memberikan peningkatan penting atas mata uang tradisional dan sistem pembayaran. Kursus BIZ101 menghubungkan teori ekonomi dengan aplikasi dunia nyata, mengklarifikasi bagaimana desentralisasi dapat mengurangi ketergantungan pada perantara dan mengatasi keterbatasan yang melekat pada sistem lama.
 
 Kursus ini dimulai dengan pemeriksaan terperinci tentang mata uang konvensional dan mekanisme pembayaran, meletakkan dasar dengan mengeksplorasi bagaimana mata uang berfungsi sebagai jaringan untuk memungkinkan perdagangan, tabungan, dan spesialisasi ekonomi. Selanjutnya, kita akan mempelajari teknologi di balik Bitcoin dan inovasi yang diperkenalkan oleh Lightning Network, mengungkapkan peran mereka dalam memfasilitasi transaksi yang mulus, aman, dan hampir seketika yang dapat melayani bisnis dari semua ukuran. Kemudian kita akan masuk ke bagian praktis dari kursus ini, dimulai dengan bagian tentang menyimpan bitcoin sebagai perbendaharaan, diikuti dengan bagian terakhir tentang menerima bitcoin sebagai alat pembayaran.
 
 Baik Anda mewakili perusahaan kecil maupun perusahaan besar, kursus ini bertujuan untuk membekali Anda dengan pengetahuan untuk mengintegrasikan Bitcoin ke dalam operasi harian Anda, sehingga meningkatkan ketahanan, efisiensi, dan daya saing perusahaan Anda. Karena Bitcoin terus membentuk kembali lanskap ekonomi, memahami teknologi terobosan ini bukan hanya sebuah pilihan, tetapi juga kebutuhan strategis. Bersiaplah untuk terlibat dengan konten yang penuh wawasan, contoh-contoh praktis, dan panduan strategis yang akan membantu Anda menavigasi dan memanfaatkan dunia Bitcoin yang terus berkembang!
+
+Siap menyelami dunia Bitcoin untuk bisnis? Ayo mulai!
 
 # Mata uang, sistem pembayaran, dan Bitcoin
 
@@ -1349,7 +1350,7 @@ Terakhir, baik Anda seorang pedagang kecil atau bisnis yang sudah mapan, Anda bi
 - Bitcoin yang ditahan (0.19335) muncul di neraca senilai €7,734.
 - Keuntungan yang belum direalisasi sebesar €5.468 dari Bitcoin yang ditahan diungkapkan dalam catatan keuangan.
 
-# Kesimpulan
+# Bagian Akhir
 
 <partId>f6ca8d01-a4f3-449b-ac9f-c5fba9a69178</partId>
 
@@ -1369,4 +1370,4 @@ Terakhir, baik Anda seorang pedagang kecil atau bisnis yang sudah mapan, Anda bi
 
 <chapterId>5503c23e-3a90-4a23-8d89-75e3cc1ee53e</chapterId>
 
-<isCourseConclusion>benar</isCourseConclusion>
+<isCourseConclusion>true</isCourseConclusion>

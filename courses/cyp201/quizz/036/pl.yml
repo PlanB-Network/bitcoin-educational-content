@@ -1,0 +1,9 @@
+question: Na co pozwala HD Wallet w porównaniu do JBOK Wallet?
+answer: generate wszystkie klucze prywatne z pojedynczego seed
+wrong_answers:
+  - Zwiększenie bezpieczeństwa podpisów cyfrowych
+  - Ponowne użycie tego samego Address dla wielu transakcji
+  - Całkowite unikanie używania kluczy publicznych
+explanation: |
+  Portfele HD wyprowadzają wszystkie klucze prywatne z unikalnego seed, co upraszcza tworzenie kopii zapasowych i pośrednio zwiększa prywatność.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Dlaczego krzywa eliptyczna secp256r1 nie została użyta w Bitcoin?
+answer: Potencjalnie w celu uniknięcia backdoora
+wrong_answers:
+  - Ponieważ jest zbyt wolny
+  - Ponieważ nie jest ustandaryzowany
+  - Ponieważ wymaga specjalistycznego sprzętu
+explanation: |
+  Satoshi Nakamoto prawdopodobnie preferował krzywą secp256k1, ponieważ parametry secp256r1 mogły zawierać ukrytą lukę.
+reviewed: false

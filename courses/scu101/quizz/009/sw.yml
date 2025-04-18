@@ -1,0 +1,13 @@
+question: Je, kazi kuu ya VPN katika muktadha wa kitaaluma ni ipi?
+answer: Inaruhusu wafanyikazi kufikia mtandao wa ndani wa kampuni kwa usalama kwa mbali.
+wrong_answers:
+  - Inaruhusu wafanyikazi kupita kwa usalama vikwazo vya kijiografia.
+  - Inaruhusu wafanyikazi kuzuia kabisa utangazaji mkondoni.
+  - Inaruhusu wafanyikazi kutumia mitandao ya umma ya Wi-Fi kwa usalama.
+explanation: |
+  Katika muktadha wa kitaalam, VPN hutumiwa kimsingi
+  kutoa ufikiaji salama wa mbali kwa kampuni ya ndani
+  mtandao. Hii inafanikiwa kwa kusimba data iliyobadilishwa
+  kati ya mfanyakazi na mtandao wa kampuni, kuifanya
+  vigumu kwa watu wa tatu kukatiza.
+reviewed: true

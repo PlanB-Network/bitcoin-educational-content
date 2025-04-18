@@ -24,10 +24,11 @@ Junte-se a nós para transformar a sua utilização da Bitcoin e tornar-se um ut
 
 <partId>e17474a8-8899-4bdb-a7f8-bc52ddb01440</partId>
 
-## Introdução à formação
+## Visão geral do curso
 
 <chapterId>08ba1933-f393-4fb5-8279-777d874caedb</chapterId>
 
+Bem-vindo ao curso BTC204!
 
 Num mundo em que a confidencialidade das transacções financeiras se está a tornar gradualmente um luxo, é essencial compreender e dominar os princípios de proteção da privacidade quando se utiliza Bitcoin. Este curso de formação dá-lhe todas as chaves, teóricas e práticas, para o conseguir de forma autónoma.
 
@@ -45,37 +46,38 @@ Este curso de formação foi concebido para fornecer uma visão geral e abrangen
 
 O objetivo deste curso de formação não é torná-lo totalmente anónimo na sua utilização da Bitcoin, mas sim fornecer-lhe as ferramentas essenciais para saber como proteger a sua confidencialidade de acordo com os seus objectivos pessoais. Terá a liberdade de escolher entre os conceitos e ferramentas apresentados para desenvolver as suas próprias estratégias, adaptadas aos seus objectivos e necessidades específicas.
 
-### Secção 1: Definições e conceitos-chave
+**Secção 1: Definições e conceitos-chave**
 
 Para começar, vamos rever os princípios fundamentais que regem o funcionamento da Bitcoin, para depois podermos abordar com calma as noções relacionadas com a confidencialidade. É essencial dominar alguns conceitos básicos, tais como UTXO, receção de endereços e scripting, antes de poder compreender plenamente os conceitos que iremos abordar nas secções seguintes. Introduziremos também o modelo geral de confidencialidade da Bitcoin, tal como imaginado por Satoshi Nakamoto, o que nos permitirá compreender as apostas e os riscos associados.
 
 ![BTC204](assets/fr/001.webp)
 
-### Secção 2: Compreender e proteger-se contra a análise da cadeia
+**Secção 2: Compreender e proteger-se contra a análise da cadeia**
 
 Na segunda secção, analisamos as técnicas utilizadas pelas empresas de análise de blockchain para rastrear a sua atividade no Bitcoin. Compreender estes métodos é crucial para reforçar a proteção da sua privacidade. O objetivo desta secção é examinar as estratégias dos atacantes para melhor compreender os riscos e preparar o terreno para as técnicas que estudaremos nas secções seguintes. Analisaremos padrões de transação, heurísticas internas e externas e interpretações prováveis desses padrões. Para além da teoria, aprenderemos a utilizar um explorador de blocos para análise de cadeias, através de exemplos práticos e exercícios.
 
 ![BTC204](assets/fr/002.webp)
 
-### Secção 3: Dominar as melhores práticas para proteger a sua privacidade
+**Secção 3: Dominar as melhores práticas para proteger a sua privacidade**
 
 Na terceira secção do nosso curso de formação, vamos ao que interessa: a prática! O objetivo é dominar todas as melhores práticas essenciais que devem tornar-se reflexos naturais para qualquer utilizador de Bitcoin. Iremos abordar a utilização de endereços em branco, etiquetagem, consolidação, utilização de nós completos, bem como KYC e métodos de aquisição. O objetivo é fornecer-lhe uma visão geral abrangente das armadilhas a evitar, a fim de estabelecer uma base sólida na nossa busca para proteger a privacidade. Para algumas destas práticas, será orientado para um tutorial específico sobre a forma de as implementar.
 
 ![BTC204](assets/fr/003.webp)
 
-### Secção 4: Compreender as transacções coinjoin
+**Secção 4: Compreender as transacções coinjoin**
 
 Como é que podemos falar de privacidade na Bitcoin sem mencionar os coinjoins? Na secção 4, descobrirá tudo o que precisa de saber sobre este método de mistura. Aprenderá o que são coinjoins, a sua história e objectivos, bem como os diferentes tipos de coinjoins que existem. Finalmente, para os utilizadores mais experientes, veremos o que são os anonsets e a entropia e como calculá-los.
 
 ![BTC204](assets/fr/004.webp)
 
-### Secção 5: Compreender os desafios de outras técnicas avançadas de confidencialidade
+**Secção 5: Compreender os desafios de outras técnicas avançadas de confidencialidade**
 
 Na quinta secção, vamos dar uma vista de olhos a todas as outras técnicas disponíveis para proteger a sua privacidade na Bitcoin, para além do coinjoin. Ao longo dos anos, os programadores têm demonstrado uma criatividade notável na conceção de ferramentas dedicadas à privacidade. Analisaremos todos estes métodos, como o payjoin, as transacções colaborativas, o Coin Swap e o Atomic Swap, detalhando o seu funcionamento, os seus objectivos e as suas fraquezas.
 
 Também analisaremos a privacidade ao nível da rede de nós e da disseminação de transacções. Também discutiremos os vários protocolos que foram propostos ao longo dos anos para melhorar a privacidade do utilizador na Bitcoin, incluindo protocolos de endereço estático.
 
 ![BTC204](assets/fr/005.webp)
+Pronto para explorar os meandros da privacidade no Bitcoin? Vamos lá!
 
 # Definições e conceitos-chave
 
@@ -4220,7 +4222,7 @@ Uma vez que esta funcionalidade é nova, aconselhamos-te a ter cuidado e a evita
 
 *Para criar este capítulo sobre Pagamentos Silenciosos, utilizei [o sítio de explicação sobre Pagamentos Silenciosos] (https://silentpayments.xyz/) e [o documento de explicação sobre o BIP352] (https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki).*
 
-# Conclusão
+# Seção final
 
 <partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 
@@ -4234,10 +4236,10 @@ Uma vez que esta funcionalidade é nova, aconselhamos-te a ter cuidado e a evita
 
 <chapterId>e803d394-e3c1-5816-a6b4-a69a2472019c</chapterId>
 
-<isCourseExam>verdadeiro</isCourseExam>
+<isCourseExam>true</isCourseExam>
 
 ## Conclusão
 
 <chapterId>cd8e5c67-50e4-4dcd-8e04-88ba5ec95305</chapterId>
 
-<isCourseConclusion>verdadeiro</isCourseConclusion>
+<isCourseConclusion>true</isCourseConclusion>

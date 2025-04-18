@@ -1,0 +1,9 @@
+question: Co zabezpiecza UTXO na Bitcoin?
+answer: Poprzez skrypty, które definiują warunki wydatków.
+wrong_answers:
+  - Poprzez okresową weryfikację przez górników.
+  - Poprzez scentralizowaną bazę danych.
+  - Poprzez weryfikację tożsamości użytkownika.
+explanation: |
+  Wynikami transakcji Bitcoin są UTXO, które są zabezpieczone skryptem. Skrypt ten wymaga spełnienia predefiniowanych warunków wydatkowania w celu wydania UTXO.
+reviewed: false

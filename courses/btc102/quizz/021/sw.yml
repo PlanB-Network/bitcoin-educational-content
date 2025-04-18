@@ -1,0 +1,11 @@
+question: Je, ni makosa gani ya kawaida ambayo wawekezaji wanaoanza kufanya wanapoingia kwenye ulimwengu wa Bitcoin?
+answer: Uwekezaji kupita kiasi
+wrong_answers:
+  - Uwekezaji mdogo
+  - Kuwekeza katika Bitcoin pekee
+  - Si kuwekeza katika Bitcoin wakati wote
+explanation: |
+  Moja ya makosa ya kawaida wawekezaji Beginner kufanya wakati wa kuingia
+  ulimwengu wa Bitcoin ni uwekezaji kupita kiasi, ambayo inamaanisha kuwekeza pesa nyingi kuliko wanavyoweza
+  kumudu kupoteza. Hii inaweza kusababisha matatizo ya kifedha ikiwa thamani ya Bitcoin itapungua.
+reviewed: false

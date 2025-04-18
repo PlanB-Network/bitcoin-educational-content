@@ -1,0 +1,9 @@
+question: Ni nini kazi ya ufunguo wa kibinafsi d katika mfumo wa siri wa RSA?
+answer: Inatumika kusimbua ujumbe kwa kutumia moduli N
+wrong_answers:
+  - Inatumika tu kusimba ujumbe
+  - Inatumika kufungua bitcoins
+  - Inatumika kukokotoa φ(N)
+explanation: |
+  Ufunguo wa faragha d hutumika kusimbua ujumbe uliosimbwa kwa njia fiche, kwa kukamilisha hesabu kwa moduli N.
+reviewed: false

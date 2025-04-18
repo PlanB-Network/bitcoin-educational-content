@@ -1,0 +1,13 @@
+question: Ni nini athari inayowezekana ya udhibiti kwenye Bitcoin Mining?
+answer: Iwapo nchi kama Marekani ingeamua kudhibiti au kupiga marufuku shughuli fulani za Bitcoin, inaweza kuwa na athari kubwa kwenye mtandao, hasa ikiwa sehemu kubwa ya nishati ya hashing imewekwa kati katika nchi hiyo.
+wrong_answers:
+  - Ikiwa nchi kama Marekani ingeamua kudhibiti au kupiga marufuku Bitcoin Mining, inaweza kusababisha ongezeko la thamani ya Bitcoin.
+  - Ikiwa nchi kama Marekani ingeamua kudhibiti au kupiga marufuku Bitcoin Mining, inaweza kusababisha ongezeko la Block reward.
+  - Ikiwa nchi kama Marekani ingeamua kudhibiti au kupiga marufuku Bitcoin Mining, inaweza kusababisha ongezeko la kasi ya ununuzi.
+explanation: |
+  Sura inaeleza kuwa kama nchi kama United
+  Mataifa yalipaswa kuamua kudhibiti au kupiga marufuku baadhi ya Bitcoin
+  shughuli, inaweza kuwa na athari kubwa kwa
+  mtandao, haswa ikiwa sehemu kubwa ya nguvu ya hashing
+  iko katikati katika nchi hiyo.
+reviewed: true

@@ -1,0 +1,12 @@
+question: Je, ni tishio gani linalowezekana la Uthibitisho wa Wadau katika mtandao wa Bitcoin?
+answer: Wale ambao tayari wana kiasi kikubwa cha sarafu wana uwezo usio na uwiano, unaoonyesha usawa uliopo wa nguvu.
+wrong_answers:
+  - Ingewakilisha kikwazo kikubwa kwa wathibitishaji walio na kiasi kikubwa cha fedha.
+  - Hairuhusu ushiriki mdogo.
+  - Haihitaji rasilimali zinazoonekana.
+explanation: |
+  Katika mtandao wa Uthibitisho wa Wadau, wale ambao tayari wanashikilia kubwa
+  kiasi cha fedha kuwa na nguvu zisizo na uwiano. Hii
+  dynamic inaweza uwezekano wa kuendeleza centralization na
+  mkusanyiko wa madaraka mikononi mwa wachache.
+reviewed: true

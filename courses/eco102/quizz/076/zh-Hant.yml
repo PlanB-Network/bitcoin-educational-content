@@ -1,0 +1,9 @@
+question: 根據 Bastiat 的說法，國家主義減去了個人什麼？
+answer: 其行為的後果
+wrong_answers:
+  - 來自他們的家庭
+  - 來自自由實驗的樂趣
+  - 來自他們的朋友
+explanation: |
+  對 Bastiat 來說，過度的國家干預會消除個人行為的直接後果，從而降低個人責任，助長不負責任的行為。
+reviewed: false

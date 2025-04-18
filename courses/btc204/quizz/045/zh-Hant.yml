@@ -1,0 +1,10 @@
+question: BIP47 的主要目標是什麼？
+answer: 要有唯一的識別碼接收 BTC，而不會重複使用地址。
+wrong_answers:
+  - 增加區塊大小以加快交易速度。
+  - 允許在 Bitcoin 網路上進行無費交易。
+  - 在 Bitcoin 上進行完全匿名的交易。
+explanation: |
+  BIP47 的目標是提供一個獨特的識別碼，允許多次接收來自多人的比特幣，但不會重複使用地址，因為對使用者隱私而言，這是非常不好的做法。
+  
+reviewed: false

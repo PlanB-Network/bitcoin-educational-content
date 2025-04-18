@@ -80,7 +80,7 @@ _(लैंड्स में मुग्रोन का बाजार, ब
 
 ![image](assets/en/009.webp)
 
-_(कहो, कोबडेन, स्मिथ, शेवालियर, डुनोयर, डेस्टुट डी ट्रेसी)_  
+_(से, कोबडेन, स्मिथ, शेवालियर, ड्यूनोयर, डेस्टुट डे ट्रैसी)_  
 
 (Note: Names like Cobden, Smith, etc., are kept as-is since they are proper nouns and commonly recognized in their original form even in Hindi contexts.)
 

@@ -1,6 +1,6 @@
 id: 385649df-bd16-443a-ba47-026feeb1c092
 en_word: CONCATENATION
-related_words: 
+related_words:
 original_language: fr
 proofreading:
   - language: en
@@ -14,79 +14,66 @@ proofreading:
     contributor_names:
       - LoicPandul
     reward: 0.09
-
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.2
-
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.18
-
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.18
-
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.2
-
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.2
-
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.23
-
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.18
-
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.2
-
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.18
-
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.2
-
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.25
-
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.23
-
   - language: ja
     last_contribution_date:
     urgency: 1

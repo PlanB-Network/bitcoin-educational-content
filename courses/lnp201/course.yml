@@ -61,18 +61,18 @@ proofreading:
     last_contribution_date: 2023-12-24
     urgency: 1
     contributor_names:
-    reward: 23.75
+    reward: 24.34
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 31.63
+    reward: 32.42
   - language: vi
     last_contribution_date: 2024-11-16
     urgency: 1
     contributor_names:
       - Henry-Da0
-    reward: 23.7
+    reward: 24.29
   - language: et
     last_contribution_date:
     urgency: 1
@@ -87,13 +87,17 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 39.51
-
+    reward: 40.49
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 31.63
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 32.42
 tags:
   - lightning
   - layers

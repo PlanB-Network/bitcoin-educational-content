@@ -60,19 +60,19 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 13.93
+    reward: 13.92
   - language: ru
     last_contribution_date: 2024-11-16
     urgency: 1
     contributor_names:
       - Reshetenko
-    reward: 9.27
+    reward: 9.26
   - language: vi
     last_contribution_date: 2024-11-16
     urgency: 1
     contributor_names:
       - Henry-Da0
-    reward: 13.88
+    reward: 13.87
   - language: et
     last_contribution_date:
     urgency: 1
@@ -88,13 +88,17 @@ proofreading:
     urgency: 1
     contributor_names:
       - MilankovicProtocol
-    reward: 11.57
-
+    reward: 11.56
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 18.54
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 18.52
 tags:
   - wallets
   - user-friendly

@@ -1,6 +1,6 @@
 id: d499f2eb-79f4-401b-9a97-5bf201b2821f
 en_word: COLORED COINS
-related_words: 
+related_words:
 original_language: fr
 proofreading:
   - language: en
@@ -14,79 +14,66 @@ proofreading:
     contributor_names:
       - LoicPandul
     reward: 0.09
-
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.19
-
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.17
-
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.17
-
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.19
-
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.19
-
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.22
-
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.17
-
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.19
-
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.17
-
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.19
-
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.24
-
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.24
-
   - language: zh-Hans
     last_contribution_date:
     urgency: 1

@@ -1,6 +1,6 @@
 id: 3fd7f174-5075-48b0-9a45-f7fc2a5a69b3
 en_word: INDEX (KEY)
-related_words: 
+related_words:
 original_language: fr
 proofreading:
   - language: fr
@@ -8,4 +8,4 @@ proofreading:
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 0
+    reward: 0.1

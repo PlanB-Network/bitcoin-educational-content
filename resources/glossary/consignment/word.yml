@@ -1,6 +1,6 @@
 id: 02f479ec-48d8-4bd6-8d14-f5d574d745dc
 en_word: CONSIGNMENT
-related_words: 
+related_words:
 original_language: fr
 proofreading:
   - language: fr
@@ -8,4 +8,4 @@ proofreading:
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 0
+    reward: 0.1

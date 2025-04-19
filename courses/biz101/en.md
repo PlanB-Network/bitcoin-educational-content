@@ -949,7 +949,7 @@ If you're starting from scratch—no store, no product management software, and 
     - Suitable for seasonal businesses, events, restaurants, or retail shops.
     - Defining and managing products for both physical and online sales.
     - Fiat payment processing (e.g., euros, dollars) via your own Stripe account.
-    - Bitcoin payment processing via your own SwissBitcoinPay account.
+    - Bitcoin payment processing via your own Swiss Bitcoin Pay account.
 
 ### How Is Lightning Payment Adoption Progressing ?
 

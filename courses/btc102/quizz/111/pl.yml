@@ -1,0 +1,11 @@
+question: Jaki jest cel węzła Bitcoin w kontekście Lightning Network?
+answer: Pomoc w zrozumieniu i zbadaniu nowych aspektów Bitcoin spowodowanych przez Lightning Network.
+wrong_answers:
+  - Aby wydobywać nowe Bitcoiny.
+  - Aby handlować Bitcoinami.
+  - Do przechowywania Bitcoinów.
+explanation: |
+  Węzeł Bitcoin w kontekście Lightning Network jest wykorzystywany do zrozumienia
+  i zbadania nowych aspektów Bitcoin wprowadzonych przez Lightning Network. Węzeł
+  nie wydobywa nowych Bitcoinów, nie handluje Bitcoinami ani nie przechowuje Bitcoinów.
+reviewed: false

@@ -1,6 +1,6 @@
 id: ddea01a9-4f7c-419a-a785-110a0a04b596
 en_word: INVOICE LIGHTNING
-related_words: 
+related_words:
 original_language: fr
 proofreading:
   - language: fr
@@ -8,4 +8,4 @@ proofreading:
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 0
+    reward: 0.1

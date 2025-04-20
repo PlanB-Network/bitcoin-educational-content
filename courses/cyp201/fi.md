@@ -2213,7 +2213,7 @@ Osoitteen luominen jatkuu samalla prosessilla, jossa raakajulkinen avain $Q$ toi
 
 Ja siinä kaikki! Olemme saapuneet CYP201-kurssin päätökseen. Jos pidit kurssia hyödyllisenä, olisin erittäin kiitollinen, jos voisit käyttää muutaman hetken antaaksesi sille hyvän arvostelun seuraavassa arviointiluvussa. Voit myös mielellään jakaa sen läheistesi tai sosiaalisten verkostojesi kanssa. Lopuksi, jos haluat saada diplomisi tälle kurssille, voit suorittaa loppukokeen heti arviointiluvun jälkeen.
 
-# Yhteenveto
+# Lopullinen osio
 
 <partId>58111408-b734-54db-9ea7-0d5b67f99f99</partId>
 

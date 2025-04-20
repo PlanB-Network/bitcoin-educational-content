@@ -1,0 +1,9 @@
+question: Blockchain 分析的 3 個主要步驟是什麼？
+answer: 觀察 Blockchain、識別特徵、推理假設。
+wrong_answers:
+  - 資料收集、安全儲存和報告。
+  - 識別使用者、規範交換和防詐騙。
+  - 資料收集、隨機抽選和告發。
+explanation: |
+  Blockchain 分析首先涉及存取 Bitcoin Blockchain 資料，然後嘗試找出此資料中的特徵，最後再做出可信的詮釋。
+reviewed: false

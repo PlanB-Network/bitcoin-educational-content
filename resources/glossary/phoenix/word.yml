@@ -1,6 +1,6 @@
 id: 0a18fa48-605b-4de2-af8f-6dd480ca365f
 en_word: PHOENIX
-related_words: 
+related_words:
 original_language: fr
 proofreading:
   - language: en
@@ -14,79 +14,66 @@ proofreading:
     contributor_names:
       - LoicPandul
     reward: 0.12
-
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.29
-
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.24
-
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.24
-
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.29
-
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.29
-
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.34
-
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.24
-
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.29
-
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.24
-
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.29
-
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.38
-
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.38
-
   - language: zh-Hans
     last_contribution_date:
     urgency: 1

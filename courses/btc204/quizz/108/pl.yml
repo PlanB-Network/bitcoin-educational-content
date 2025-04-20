@@ -1,0 +1,10 @@
+question: Jaką analizę heurystyczną łańcucha wykorzystuje transakcja PayJoin, aby działać jako oszustwo do analizy?
+answer: CIOH
+wrong_answers:
+  - Ponowne użycie Address
+  - Odcisk palca Wallet
+  - Ponowne wykorzystanie wersji
+explanation: |
+  Gdy analityk bada transakcję PayJoin, jest przekonany, że wszystkie dane wejściowe pochodzą od tej samej osoby ze względu na CIOH. Jednak takie postrzeganie jest błędne, ponieważ odbiorca płatności również przyczynia się do wkładu obok faktycznego płatnika. W związku z tym analiza łańcucha jest ukierunkowana na interpretację, która okazuje się fałszywa.
+  
+reviewed: false

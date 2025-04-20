@@ -1,0 +1,9 @@
+question: Na co pozwala klucz unieważniający w przypadku oszustwa?
+answer: Odzyskanie wszystkich środków poprzez ukaranie oszusta
+wrong_answers:
+  - Anuluj Commitment Transaction
+  - Podwojenie przepustowości kanału
+  - Zapobieganie dalszym transakcjom w kanale
+explanation: |
+  Klucz unieważniający umożliwia stronie poszkodowanej odzyskanie wszystkich środków w przypadku próby oszustwa przez drugą stronę.
+reviewed: false

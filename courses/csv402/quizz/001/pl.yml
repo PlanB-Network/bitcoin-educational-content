@@ -1,0 +1,9 @@
+question: Jaka jest istotna cecha uszczelek jednorazowego użytku stosowanych w RGB?
+answer: Można je zamknąć tylko raz
+wrong_answers:
+  - Można je zamknąć tylko dwa razy
+  - Gwarantują one poufność transakcji
+  - Eliminują potrzebę konsensusu w sprawie Blockchain
+explanation: |
+  Plomby jednorazowego użytku umożliwiają tworzenie unikalnych zobowiązań kryptograficznych, zapobiegając powielaniu lub podwójnym wydatkom.
+reviewed: false

@@ -4,5 +4,6 @@ wrong_answers:
   - sirius-m
   - 美元
   - SmokeTooMuch
-  This service was rudimentary: exchanges were negotiated via email, and payments were made through PayPal. The exchange rate was based on the mining costs of NewLibertyStandard himself.
+explanation: |
+  這項服務非常簡陋：通過電子郵件協商交換，並透過 PayPal 付款。Exchange 的費率是根據 NewLibertyStandard 本人的 Mining 費用計算出來的。
 reviewed: false

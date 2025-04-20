@@ -1,135 +1,125 @@
 ---
-name: Wallet of Satoshi (WoS)
-description: The simplest Wallet (custodial) to start with
+name: Wallet of Satoshi
+description: The simplest custodial wallet to get started
 ---
 ![cover](assets/cover.webp)
-
 _This tutorial was written by_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
-# Download, configure and use Wallet of Satoshi
+## Downloading, Setting Up, and Using Wallet of Satoshi
 
-Wallet of Satoshi is a Wallet Lightning Network, custodial, very simple to use.
+Wallet of Satoshi is a lightning network wallet, custodial, and very simple to use.
+For the purposes of the course [BTC105 - Finding Now](https://planb.network/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5), it is used to redeem Lightning Network vouchers.
 
-For the purposes of the course [BTC105 - Finding Yourself Now](https://planb.network/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5), it is used to redeem Lightning Network vouchers.
+**Always remember**: _not your keys, not your coins_
 
-**always remember**: _not your keys, not your coins_
-
-Wallet custodial, do not allow users to fully dispose of their funds. They are normally not recommended, except for those starting from scratch. WoS should be used as a gateway Wallet or to store pocket money, not to accumulate funds for the long term.
+Custodial wallets do not allow users full control over their funds. They are normally not recommended, except for beginners. WoS should be used as a transitional wallet or for holding pocket money, not for long-term fund accumulation.
 
 ---
-Wallet of Satoshi (WoS) is a custodial product, but it has a certain reputation. We can reasonably turn to a tool like WoS, for example, to increase our ability to receive liquidity. We temporarily delegate to WoS "the dirty work" of managing channel liquidity for us. Once we reach a certain amount, we will empty WoS On-Chain on our Wallet non-custodial.
 
-**ATTENZIONE⚠️: It is recommended that you read the tutorial in its entirety before proceeding**
+Wallet of Satoshi (WoS) is a custodial product, but it has a certain reputation. We can reasonably turn to a tool like WoS, for example, to increase our ability to receive liquidity. We temporarily delegate to WoS the "dirty work" of managing the liquidity of the channels for us. Once a certain amount is reached, we will empty WoS on-chain to our non-custodial wallet.
 
-## Downloading Wallet of Satoshi
+**WARNING⚠️: It is recommended to read the tutorial in its entirety before proceeding**
 
-Let's go to the playstore and download WoS
+### Downloading Wallet of Satoshi
+
+Go to the Play Store and download WoS
 
 ![image](assets/it/01.webp)
 
-**Note:** WoS is downloaded only from the official stores. If the device operating system is programmed, a verification part by the OS itself takes place before opening WoS. Once the verification phase has passed, choose _Open_.
+**Note:** WoS is only downloaded from official stores. If the device's operating system is programmed, before opening WoS there is a verification part by the OS itself. After the verification phase, choose _Open_.
 
 ![image](assets/it/02.webp)
 
-Wallet of Satoshi opens with the following screen and you need to click on _Start_
+Wallet of Satoshi opens with the following screen, and it is necessary to click on _Start_
 
 ![image](assets/it/03.webp)
 
-## Registering an account for WoS
+### Registering an Account for WoS
 
-At this point Wallet is up and running, but for added security let's set up a login: this will be used to recover funds in case of device failure or loss. Then select the menu at the top left.
+At this point, the wallet is already operational, but for greater security, we proceed to set up a login: it will be needed to recover funds in case of device malfunction or loss. Therefore, select the menu at the top left.
 
 ![image](assets/it/04.webp)
 
-The whole menu window opens, in which you only need to set the currency (Wallet of Satoshi by default presents the U.S. dollar as the reference currency) and the theme color (light/dark), depending on your taste. Do not use the other controls.
+The entire menu window opens, in which you must exclusively set the currency (Wallet of Satoshi by default presents the US dollar as the reference currency) and the theme color (light/dark), according to taste. Do not use the other commands.
 
-Since WoS is a custodial tool, we cannot back up Wallet with Mnemonic phrase, however, we can enable WoS to retrieve our funds, in case of lost or unused mobile device, by clicking on _Login/Register_
-
-![image](assets/it/07.webp)
-
-A window appears in which we are asked to enter an email address. It can be **a Proton email** (recommended), however it works, because it is the one that will allow us to recover Wallet funds, in case of lost/stolen or broken cell phone
+Being WoS a custodial tool, we cannot back up the wallet with the mnemonic phrase, but we can enable WoS to recover our funds, in case of loss or non-use of the mobile device, by clicking on _Login/Register_
+A window appears asking us to enter an email address. It can be **a Proton mail** (recommended), but it must be functional, as it will allow us to recover the funds in the wallet in case of loss/theft or damage to the mobile phone.
 
 ![image](assets/it/08.webp)
 
-Wallet of Satoshi sent a message to the reported email box
+Wallet of Satoshi has sent a message to the indicated email inbox.
 
 ![image](assets/it/09.webp)
 
-In the inbox we will find two words, we have to enter them, rewriting them, in the space that the app presents to us
-
-
-- do not activate the translator: the words are and should remain in English**
-- rewrite the two words paying attention to upper/lower case**
+In the mailbox, we will find two words, which we need to enter, rewriting them, in the space provided by the app.
+- **do not activate the translator: the words are and must remain in English**
+- **rewrite the two words paying attention to uppercase/lowercase**
 
 ![image](assets/it/10.webp)
 
-After transcribing the two words, click _OK_
+After transcribing the two words, click _OK_.
 
 ![image](assets/it/11.webp)
 
-The result is that a figure should appear at the top, with a check mark symbol for verification
+The result should be an image appearing at the top, with the checkmark symbol for verification.
 
 ![image](assets/it/12.webp)
 
-while in the settings section, the red band of _Login/Register_ now displays the user's email address.
+while in the settings section, the red _Login/Register_ bar now displays the user's email address.
 
 ![image](assets/it/13.webp)
 
-## Receiving payments
+### Receiving Payments
 
-To receive on WoS click _Receive_ and a series of commands appear.
+To receive on WoS, click _Receive_ and a series of commands will appear.
 
 ![image](assets/it/14.webp)
 
 You can receive
-
-
 - via LN-Address **a**
-- via LN, setting Invoice **b**
-- on chain (WoS supports the Bitcoin network but with submarine swaps for a fee) **c**
-- framing the QR code of an LNurl-p **d**
+- via LN, by setting the invoice **b**
+- on chain (WoS supports the Bitcoin network but with paid submarine swaps) **c**
+- by scanning the QR code of an LNurl-p **d**
 
 ![image](assets/it/15.webp)
 
-## Invoice Creation
+### Creating an Invoice
 
-Click on _Receive_ and choose the command with the symbol of Lightning Network
+Click on _Receive_ and choose the command with the Lightning Network symbol.
 
 ![image](assets/it/16.webp)
 
-Just the Invoice creation menu appears, where we click _Add Amount_ to write the exact amount and add a description, in this example "My first Invoice."
+The invoice creation menu appears, where we click _Add Amount_ to write the exact amount and add a description, in this example, «My first invoice».
 
 ![image](assets/it/17.webp)
 
-Using the keyboard we set the amount
+With the keyboard, we set the amount.
 
 ![image](assets/it/18.webp)
 
-and then get Invoice paid. The payment received appears like this:
+to then get paid the invoice. The received payment appears like this:
 
 ![image](assets/it/19.webp)
 
-## Collection from POS
+### Collection from POS
 
-Wallet of Satoshi has an interesting feature by default, making it especially suitable for merchants: POS. Let's see how to activate it.
+Wallet of Satoshi has a default feature, which makes it particularly suitable for merchants: the POS. Let's see how to activate it.
 
-From the main screen, select the menu in the upper right corner
+From the main screen, select the menu at the top right.
 
 ![image](assets/it/20.webp)
 
-After that, select _Point of Sale_
+Then select _Point of Sale_.
 
 ![image](assets/it/21.webp)
 
-With the latest release of WoS, pay attention to select the _Keypad_
+With the latest release of WoS, make sure to select the _Keypad_.
 
 ![image](assets/it/22.webp)
-
-and then type the amount on the keypad, in the following example equal to 18 cents / 118 Sats. Add a description for the collection, in this case "my second with POS." A large green button lights up, and it is to click
-
+and then type the amount on the keypad, in the example that follows equal to 10 cents / 118 sats. Add a description for the collection, in this case "my second with POS". A large green button lights up, and it is to be clicked
 ![image](assets/it/23.webp)
 
-in order to generate the Invoice and show it-for example-to a client.
+to generate the invoice and show it - for example - to a customer.
 
 ![image](assets/it/24.webp)
 
@@ -137,42 +127,42 @@ This payment is also collected!
 
 ![image](assets/it/25.webp)
 
-## Sending payments
+### Sending payments
 
-Simplicity is a strength of the WoS main screen. To pay for a Invoice, click on _Send_
+Simplicity is a strength of the WoS main screen. To pay an invoice, click on _Send_
 
 ![image](assets/it/26.webp)
 
-On first use, WoS asks for permissions to access the camera
+At first use, WoS asks for permission to access the camera
 
 ![image](assets/it/27.webp)
 
-From this moment, the camera is activated
+From this moment the camera activates
 
 ![image](assets/it/28.webp)
 
-Framing Invoice, we see that a payment of 210 Sats has been requested. It also reads a description, if the requester has set one. This screen is the summary and also a request for confirmation: WoS "asks for permission" to send the payment, which is granted by clicking the green _Send_ button
+Framing the invoice, we see that a payment of 210 sats has been requested. A description is also read, if the requester has set one. This screen is the summary and also a request for confirmation: WoS "asks for authorization" to send the payment, which is granted by clicking the green _Send_ button
 
 ![image](assets/it/29.webp)
 
-When the payment arrives at its destination, WoS alerts with this screen
+When the payment reaches its destination, WoS notifies with this screen
 
 ![image](assets/it/30.webp)
 
-From the princicpal screen, clicking on _History_ (just below the balance) brings up the list of transactions
+From the main screen, clicking on _History_ (just below the balance) the list of transactions appears
 
 ![image](assets/it/31.webp)
 
-### WoS account recovery
+#### Recovering the WoS account
 
-Now, we will see how to install WoS on a new device; this will also be useful in cases of theft, loss, or inability to operate the cell phone on which Wallet was previously installed. Once re-installed, you have to redo the account registration procedure just explained, with one variation: at the end of the login request with the previously set email, WoS will appear like this:
+Now, we will see how to install WoS on a new device; this will also be useful in cases of theft, loss, or inability to operate the mobile phone on which the Wallet was previously installed. Once re-installed, you must redo the account registration procedure just explained, with a single variant: at the end of the request to log in with the previously set email, WoS will appear like this:
 
 ![image](assets/it/33.webp)
 
-A message alerts us that the procedure to reactivate the account has been emailed. One has to open one's mailbox.
+A message warns us that an email has been sent with the procedure to reactivate the account. You must open your email inbox.
 
-**IMPORTANT**: open the email from a PC or, at any rate, from a device other than those on which you are going to retrieve the WoS account. In the inbox we find a message that shows us a QR code to frame
+**IMPORTANT**: open the email from a PC or, in any case, from a device different from the one on which you are about to recover the WoS account. In the inbox, we find a message that shows us a QR code to frame
 
 ![image](assets/it/34.webp)
 
-Once the QR code is framed, the retrieved account will appear on the WoS main page, with the balance and history.
+Once the QR code is framed, on the main page of WoS the recovered account will appear, with the balance and history.

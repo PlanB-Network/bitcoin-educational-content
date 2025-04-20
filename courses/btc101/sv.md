@@ -538,7 +538,7 @@ Lyckligtvis kan den privata nyckeln sedan 2017 representeras av en enkel lista m
 
 ### Hur är det med hackare?
 
-Vad händer om någon av misstag gissar vår lista med 12 eller 24 ord? Det korta svaret är att det är mycket osannolikt, tack vare den kryptografi som används för att skapa plånboken. För att sätta det i perspektiv, att av misstag upptäcka samma minnesfras är som att hitta "rätt" nummer mellan 1 och $2^256$, vilket nästan är likvärdigt med att hitta "rätt" atom i universum. Men om du inte är nöjd med denna standardsäkerhet kan du alltid förbättra den genom att lägga till en lösenfras (ett extra ord) i din Bitcoin-plånbok.
+Vad händer om någon av misstag gissar vår lista med 12 eller 24 ord? Det korta svaret är att det är mycket osannolikt, tack vare den kryptografi som används för att skapa plånboken. För att sätta det i perspektiv, att av misstag upptäcka samma minnesfras är som att hitta "rätt" nummer mellan 1 och 2 upphöjt till 256, vilket nästan är likvärdigt med att hitta "rätt" atom i universum. Men om du inte är nöjd med denna standardsäkerhet kan du alltid förbättra den genom att lägga till en lösenfras (ett extra ord) i din Bitcoin-plånbok.
 
 ![image](assets/en/29.webp)
 
@@ -581,7 +581,7 @@ Här nedan kommer vi att definiera flera säkerhetsnivåer:
 
 Du kan till exempel använda Sparrow Wallet som en varm plånbok:
 
-https://planb.network/tutorials/wallet/desktop/sparrow-7e9a77c0-013d-4f8e-a811-408b71dc7607
+https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - Nivå 2**, du använder en fysisk plånbok och du har säkrat din lista med 12/24 ord. Det kallas ofta för "cold Wallet" eftersom dina nycklar lagras på en enhet som inte är ansluten till internet. I det här fallet måste du alltid signera varje transaktion med din enhet, vilket gör dina pengar mindre tillgängliga på daglig basis.
 
@@ -1107,11 +1107,11 @@ Vi kommer att behandla detta ämne i detalj i en annan kurs, men för att hålla
 
 - Enkel lösning online: OpenNode
 
-https://planb.network/tutorials/merchant/merchant/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 - Lösning för amatörhandlare: Schweiziska Bitcoin Pay
 
-https://planb.network/tutorials/merchant/merchant/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 - Lösning för stora strukturer eller passionerade bitcoinare: BTCpay-server
 

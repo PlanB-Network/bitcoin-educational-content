@@ -1,0 +1,8 @@
+question: Do czego podobna jest krzywa adopcji Bitcoin?
+answer: Krzywa S.
+wrong_answers:
+  - Krzywa w kształcie litery U.
+  - Krzywa V.
+  - Krzywa W.
+explanation: >-
+reviewed: true

@@ -1,6 +1,6 @@
 id: a1e7a83f-0c94-4f2f-ba85-ed24918fc176
 en_word: CHANGE
-related_words: 
+related_words:
 original_language: fr
 proofreading:
   - language: en
@@ -14,79 +14,66 @@ proofreading:
     contributor_names:
       - LoicPandul
     reward: 0.11
-
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.26
-
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.22
-
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.22
-
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.26
-
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.26
-
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.3
-
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.22
-
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.26
-
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.22
-
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.26
-
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.34
-
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.3
-
   - language: ja
     last_contribution_date:
     urgency: 1

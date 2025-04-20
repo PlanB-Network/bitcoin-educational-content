@@ -22,14 +22,15 @@ Käesolev sissejuhatus krüptograafiasse püüab leida kesktee. Kuigi see peaks 
 
 <partId>bbed2f46-d64c-5fb5-b892-d726032f2494</partId>
 
-## Lühikirjeldus
+## Kursuse ülevaade
 
 <chapterId>bb8a8b73-7fb2-50da-bf4e-98996d79887b</chapterId>
+Tere tulemast kursusele CYP302!
 
 See raamat pakub põhjalikku sissejuhatust krüptograafia teadusse ja praktikasse. Võimaluse korral keskendutakse pigem materjali kontseptuaalsele kui formaalsele eksponeerimisele.
 
 > See kursus põhineb [JWBurgersi repol](https://github.com/JWBurgers/An_Introduction_to_Cryptography). Kõik õigused talle. Sisu ei ole veel valmis ja ainult siin näidata, kuidas me võiksime seda integreerida, kui JWburger on nõus.
-### Motivatsioon ja eesmärgid
+**Motivatsioon ja eesmärgid**
 
 On raske leida palju materjale, mis pakuksid krüptograafiaõppes head keskteed.
 
@@ -37,11 +38,11 @@ On raske leida palju materjale, mis pakuksid krüptograafiaõppes head keskteed.
 
 Käesolev sissejuhatus krüptograafiasse püüab leida kesktee. Kuigi see peaks olema suhteliselt keeruline ja üksikasjalik kõigile krüptograafia algajaile, ei ole see tüüpilise alusdokumendi küülikupea.
 
-### Sihtrühm
+**Sihtrühm**
 
 Alates arendajatest kuni intellektuaalselt uudishimulike inimesteni on see raamat kasulik kõigile, kes soovivad krüptograafiast rohkem kui pealiskaudset arusaamist. Kui teie eesmärk on krüptograafia valdkonnaga tegelemine, siis on see raamat samuti hea lähtepunkt.
 
-### Lugemisjuhised
+**Lugemisjuhised**
 
 Raamatus on praegu seitse peatükki: "Mis on krüptograafia?" (1. peatükk), "Krüptograafia matemaatilised alused I" (2. peatükk), "Krüptograafia matemaatilised alused II" (3. peatükk), "Sümmeetriline krüptograafia" (4. peatükk), "RC4 ja AES" (5. peatükk), "Asümmeetriline krüptograafia" (6. peatükk) ja "RSA krüptosüsteem" (7. peatükk). Lisandub veel viimane peatükk "Krüptograafia praktikas". Selles keskendutakse erinevatele krüptograafilistele rakendustele, sealhulgas transpordikihi turvalisusele, sibulareitingule ja Bitcoini väärtusvahetussüsteemile.
 
@@ -49,7 +50,7 @@ Kui teil ei ole tugevat matemaatilist tausta, on arvuteooria ilmselt kõige rask
 
 Kui teil on tõesti raskusi raamatu nende osade formaalsete üksikasjadega, siis soovitan teil esimesel korral leppida nende kõrgetasemelise lugemisega.
 
-### Tänuavaldused
+**Tänuavaldused**
 
 Kõige mõjukam raamat selle kujundamisel on olnud Jonathan Katzi ja Yehuda Lindelli raamat _Introduction to Modern Cryptography_, CRC Press (Boca Raton, FL), 2015. Coursera's on saadaval sellega kaasnev kursus "Cryptography"
 
@@ -59,11 +60,11 @@ Tsiteerin ainult väga konkreetset teavet ja tulemusi, mida ma nendest allikates
 
 Neile lugejatele, kes soovivad pärast seda sissejuhatust otsida edasijõudnuid teadmisi krüptograafiast, soovitan väga Katzi ja Lindelli raamatut. Katzi kursus Courseras on raamatust mõnevõrra kättesaadavam.
 
-### Panused
+**Panused**
 
 Palun vaadake [repositooriumis olevast panuste failist](https://github.com/JWBurgers/An_Introduction_to_Cryptography/blob/master/Contributions.md) mõningaid juhiseid projekti toetamiseks.
 
-### Märgistus
+**Märgistus**
 
 **Välisterminid:**
 
@@ -85,6 +86,8 @@ Formaalne notatsioon käsitleb peamiselt muutujaid, juhuslikke muutujaid ja kogu
 - Muutujad: Need tähistatakse tavaliselt lihtsalt väikese tähega (nt "x" või "y"). Mõnikord kirjutatakse need selguse huvides suurtähtedega (nt "M" või "K").
 - Juhuslikud muutujad: Need on alati tähistatud suure tähega (nt "X" või "Y")
 - Komplektid: Need on alati tähistatud rasvaste suurtähtedega (nt **S**)
+
+Kas olete valmis uurima krüptograafia põnevat maailma? Lähme!
 
 # Mis on krüptograafia?
 
@@ -126,7 +129,7 @@ Pärast dekrüpteerimist esitatakse teises sõnumis aarde üksikasjalik sisu (ku
 
 **Märkused:**
 
-[1] Hea kokkuvõte loost on esitatud Simon Singh, *The Code Book*, Fourth Estate (London, 1999), lk 82-99. Loo lühifilmi tegi Andrew Allen 2010. aastal. Filmi "The Thomas Beale Cipher" [selle veebisaidilt] (http://www.thomasbealecipher.com/) leiate.
+[1] Hea kokkuvõte loost on esitatud Simon Singh, *The Code Book*, Fourth Estate (London, 1999), lk 82-99. Loo lühifilmi tegi Andrew Allen 2010. aastal. Filmi "The Thomas Beale Cipher" [selle veebisaidilt](http://www.thomasbealecipher.com/) leiate.
 
 [2] See pilt on saadaval Beale'i šifrite Vikipeedia lehel.
 
@@ -291,7 +294,7 @@ Väljenduses "juhuslik muutuja" tähendab mõiste "juhuslik" lihtsalt "tõenäos
 
 **Ühetaoline muutuja** on juhusliku muutuja erijuhtum. See võib võtta kaks või enam väärtust, mis kõik on võrdse tõenäosusega. Joonisel 1 kujutatud juhuslik muutuja $X$ on selgelt ühtlane muutuja, sest mõlemad võimalikud tulemused esinevad tõenäosusega $0.5$. Siiski on palju juhuslikke muutujaid, mis ei ole ühetaolised muutujad.
 
-Võtame näiteks juhusliku muutuja $Y$. Sellel on tulemuse hulk $\{1, 2, 3, 8, 10}$ ja järgmine tõenäosusjaotus:
+Võtame näiteks juhusliku muutuja $Y$. Sellel on tulemuse hulk ${1, 2, 3, 8, 10}$ ja järgmine tõenäosusjaotus:
 
 $$
 \Pr[Y = 1] = 0.25
@@ -446,7 +449,7 @@ Oletame näiteks, et dividend on $-20$ ja jagaja 3. Lähim väärtus, mis on vä
 
 Märkimisviiside puhul näete tavaliselt järgmist tüüpi väljendeid: $x = [y \mod z]$. Sulgude tõttu kehtib modulo-operatsioon sel juhul ainult väljendi paremale poolele. Kui $y$ on näiteks 25 ja $z$ on 4, siis $x$ saab väärtuseks 1.
 
-Ilma sulgudeta mõjub modulo-operatsioon *kummagi poole* väljendile. Oletame näiteks järgmist väljendit: $x = y \mod z$. Kui $y$ on võrdne 25 ja $z$ võrdne 4, siis teame ainult, et $x \mod 4$ on 1. See on kooskõlas mis tahes väärtusega $x$ hulgast $\\\ldots,-7, -3, 1, 5, 9,\ldots}$.
+Ilma sulgudeta mõjub modulo-operatsioon *kummagi poole* väljendile. Oletame näiteks järgmist väljendit: $x = y \mod z$. Kui $y$ on võrdne 25 ja $z$ võrdne 4, siis teame ainult, et $x \mod 4$ on 1. See on kooskõlas mis tahes väärtusega $x$ hulgast $\{\dots, -7, -3, 1, 5, 9, \dots\}$.
 
 Matemaatika haru, mis hõlmab arvude ja väljenditega tehtavaid modulooperatsioone, nimetatakse **modulaararitmeetikaks**. Seda haru võib pidada aritmeetikaks juhtudeks, mille puhul arvjoon ei ole lõpmatult pikk. Kuigi tavaliselt puutume krüptograafias kokku (positiivsete) täisarvudega tehtavate modulooperatsioonidega, saab modulooperatsioone teha ka mis tahes reaalarvudega.
 
@@ -544,7 +547,7 @@ Alustuseks võime nimetada binaarset stringi pikkusega $n$ **juhuslikuks** (või
 
 Oletame näiteks, et kõigi 8 pikkusega binaarsete stringide kogum: $\{0000\ 0000, 0000\ 0001, \ldots, 1111\ 1111\}$. (Tüüpiliselt kirjutatakse 8-bitine string kahes kvartalis, mida nimetatakse **nibble**) Nimetagem seda stringide kogumit **$S_8$**.
 
-Vastavalt ülaltoodud definitsioonile võime me siis nimetada teatud binaarset stringi pikkusega 8 juhuslikuks (või ühtlaseks), kui see on ühtlase muutuja $S$ valimi tulemus, mis annab igale stringile **$S_8$** võrdse tõenäosuse valimiseks. Arvestades, et hulk **$$S_8$** sisaldab $2^8$ elemente, peaks valiku tõenäosus valimi võtmisel olema $1/2^8$ iga stringi jaoks selles kogumis.
+Vastavalt ülaltoodud definitsioonile võime me siis nimetada teatud binaarset stringi pikkusega 8 juhuslikuks (või ühtlaseks), kui see on ühtlase muutuja $S$ valimi tulemus, mis annab igale stringile **$S_8$** võrdse tõenäosuse valimiseks. Arvestades, et hulk **$S_8$** sisaldab $2^8$ elemente, peaks valiku tõenäosus valimi võtmisel olema $1/2^8$ iga stringi jaoks selles kogumis.
 
 Binaarse stringi juhuslikkuse võtmeaspekt on see, et see on määratletud viitega protsessile, mille abil see on valitud. Seega ei ütle mis tahes konkreetse binaarse stringi vorm iseenesest midagi selle juhuslikkuse kohta valimisel.
 
@@ -556,9 +559,9 @@ Me võime rääkida ka juhuslikest jadadest, ilma et mõtleksime konkreetselt bi
 
 Tavaliselt viitab väljend "juhuslik string" ilma täpsustusteta kõikide sama pikkusega stringide hulgast juhuslikult valitud stringile. Nii olen ma seda eespool kirjeldanud. Loomulikult võib string pikkusega $n$ olla juhuslikult valitud ka teisest hulgast. Näiteks sellisest, mis moodustab ainult kõigi stringide alamhulga, mille pikkus on $n$, või võib-olla kogumist, mis sisaldab erineva pikkusega stringe. Sellistel juhtudel ei nimetaksime seda aga "juhuslikuks stringiks", vaid pigem "stringiks, mis on juhuslikult valitud mingist hulgast **S**".
 
-Krüptograafia võtmekontseptsioon on pseudoristentsus. Pseudoristring** pikkusega $n$ näib *kui* see oleks ühtlase muutuja $S$ proovivõtu tulemus, mis annab igale stringile **$S_n$** võrdse valiku tõenäosuse. Tegelikult on string aga ühtlase muutuja $S'$ valimi võtmise tulemus, mis määratleb ainult tõenäosusjaotuse - mitte tingimata kõigi võimalike tulemuste jaoks võrdse tõenäosusega - **$S_n$** alamhulga kohta. Oluline on siinkohal see, et keegi ei saa tegelikult vahet teha proovide $S$ ja $S'$ vahel, isegi kui neid võtta palju.
+Krüptograafia võtmekontseptsioon on pseudoristentsus. Pseudoristring **pikkusega $n$** näib *kui* see oleks ühtlase muutuja $S$ proovivõtu tulemus, mis annab igale stringile **$S_n$** võrdse valiku tõenäosuse. Tegelikult on string aga ühtlase muutuja $S'$ valimi võtmise tulemus, mis määratleb ainult tõenäosusjaotuse - mitte tingimata kõigi võimalike tulemuste jaoks võrdse tõenäosusega - **$S_n$** alamhulga kohta. Oluline on siinkohal see, et keegi ei saa tegelikult vahet teha proovide $S$ ja $S'$ vahel, isegi kui neid võtta palju.
 
-Oletame näiteks, et on olemas juhuslik muutuja $S$. Selle tulemuse hulk on **$$S_{256}$**, see on kõigi 256 pikkusega binaarsete stringide hulk. Sellel hulgal on $2^{256}$ elemente. Igal elemendil on valimi võtmisel võrdne tõenäosus, $1/2^{256}$.
+Oletame näiteks, et on olemas juhuslik muutuja $S$. Selle tulemuse hulk on **$S_{256}$**, see on kõigi 256 pikkusega binaarsete stringide hulk. Sellel hulgal on $2^{256}$ elemente. Igal elemendil on valimi võtmisel võrdne tõenäosus, $1/2^{256}$.
 
 Lisaks oletame, et on olemas juhuslik muutuja $S'$. Selle tulemuste hulk sisaldab ainult $2^{128}$ binaarsed stringid pikkusega 256. Sellel on mingi tõenäosusjaotus nende stringide üle, kuid see jaotus ei pruugi olla ühtlane.
 
@@ -608,7 +611,7 @@ Abstraktsest algebrast pärit hulkade abil saab käsitleda paljusid objekte, ala
 
 Matemaatika põhimõiste on elementide hulk. Kogumit tähistatakse tavaliselt akkordi märkidega, mille elemendid on eraldatud komadega.
 
-Näiteks kõigi täisarvude hulk on $\..., -2, -1, 0, 1, 2, ...\}$. Ellipsid tähendavad siin, et teatud muster jätkub teatud suunas. Seega kuulub kõikide täisarvude hulka ka $3, 4, 5, 6$ jne, samuti $-3, -4, -5, -6$ jne. Seda kõikide täisarvude hulka tähistatakse tavaliselt $\mathbb{Z}$.
+Näiteks kõigi täisarvude hulk on $\{\dots, -2, -1, 0, 1, 2, \dots\}$. Ellipsid tähendavad siin, et teatud muster jätkub teatud suunas. Seega kuulub kõikide täisarvude hulka ka $3, 4, 5, 6$ jne, samuti $-3, -4, -5, -6$ jne. Seda kõikide täisarvude hulka tähistatakse tavaliselt $\mathbb{Z}$.
 
 Teine näide kogumi kohta on $\mathbb{Z} \mod 11$ ehk kõigi täisarvude hulk modulo 11. Erinevalt kogu hulgast $\mathbb{Z}$ sisaldab see hulk ainult piiratud arvu elemente, nimelt $\{0, 1, \ldots, 9, 10\}$.
 
@@ -636,9 +639,9 @@ Uurime gruppe veidi lähemalt. Tähistame kõigi täisarvude hulka $\mathbb{Z}$.
 
 2. Mis tahes $x$, $y$ ja $z$ jaoks, mis on $\mathbb{Z}$ elemendid, kehtib $(x + y) + z = x + (y + z)$. Seega $\langle \mathbb{Z}, + \rangle$ vastab assotsiatiivsuse tingimusele.
 
-3. On olemas identne element $\langle \mathbb{Z}, + \rangle$, nimelt 0. Mis tahes $x$ jaoks $\mathbb{Z}$-s kehtib nimelt, et: $0 + x = x + 0 = x$. Seega $\nurk \mathbb{Z}, + \rangle$ vastab identsustingimusele.
+3. On olemas identne element $\langle \mathbb{Z}, + \rangle$, nimelt 0. Mis tahes $x$ jaoks $\mathbb{Z}$-s kehtib nimelt, et: $0 + x = x + 0 = x$. Seega $\langle \mathbb{Z}, + \rangle$ vastab identsustingimusele.
 
-4. Lõpuks on iga elemendi $x$ jaoks $\mathbb{Z}$ olemas $y$, nii et $x + y = y + x = 0$. Kui $x$ oleks näiteks 10, oleks $y$ $-10$ (juhul, kui $x$ on 0, on ka $y$ 0). Seega $\nurk \mathbb{Z}, + \nurk$ vastab pöördtingimusele.
+4. Lõpuks on iga elemendi $x$ jaoks $\mathbb{Z}$ olemas $y$, nii et $x + y = y + x = 0$. Kui $x$ oleks näiteks 10, oleks $y$ $-10$ (juhul, kui $x$ on 0, on ka $y$ 0). Seega $\langle \mathbb{Z}, + \rangle$ vastab pöördtingimusele.
 
 Oluline on see, et täisarvude hulk liitmisega moodustab grupi, mis ei tähenda, et see moodustab grupi korrutamisega. Seda saab kontrollida, kui testida $\langle \mathbb{Z}, \cdot \rangle$ nelja rühmaaksioomi vastu (kus $\cdot$ tähendab tavalist korrutamist).
 
@@ -774,7 +777,7 @@ Väli on tuletatud grupi mõistest. Täpsemalt on **väli** elementide hulk **S*
 
 1. Kogum **S**, mis on varustatud $\circ$-ga, on Abeli rühm.
 
-2. Kogum **S**, mis on varustatud $\diamondiga$, on Abeli rühm "nullist erinevate" elementide jaoks.
+2. Kogum **S**, mis on varustatud $\diamond$, on Abeli rühm "nullist erinevate" elementide jaoks.
 
 3. Nende kahe operaatoriga varustatud hulk **S** vastab nn distributiivsele tingimusele: Oletame, et $a$, $b$ ja $c$ on **S** elemendid. Siis vastab kahe operaatoriga varustatud **S** distributiivsele omadusele, kui $a \circ (b \diamond c) = (a \circ b) \diamond (a \circ c)$.
 
@@ -824,7 +827,7 @@ Krüptograafias huvitavad meid eelkõige lõplikud väljad. Üldiselt võib näi
 
 Kui mõnel piiratud väljal on algarv elemente, siis nimetatakse seda **põhiväljaks**. Kui lõpliku välja elementide arv on primaarne potensiaal, siis nimetatakse seda välja **väljaks**. Krüptograafias huvitavad meid nii prima- kui ka laiendusväljad. [2]
 
-Peamised krüptograafias huvipakkuvad primaarväljad on need, kus kõikide täisarvude hulk on moduleeritud mingi primaarvuga ning operaatoriteks on standardne liitmine ja korrutamine. Sellesse klassi lõplike väljade hulka kuuluvad $\mathbb{Z} \mod 2$, $\mathbb{Z} \mod 3$, $\mathbb{Z} \mod 5$, $\mathbb{Z} \mod 7$, $\mathbb{Z} \mod 11$, $\mathbb{Z} \mod 13$ ja nii edasi. Mis tahes primaarvälja $\mathbb{Z} jaoks on $\mathbb{Z} \mod p$ on selle välja täisarvude hulk järgmine: $\{0, 1, \ldots, p - 2, p - 1\}$.
+Peamised krüptograafias huvipakkuvad primaarväljad on need, kus kõikide täisarvude hulk on moduleeritud mingi primaarvuga ning operaatoriteks on standardne liitmine ja korrutamine. Sellesse klassi lõplike väljade hulka kuuluvad $\mathbb{Z} \mod 2$, $\mathbb{Z} \mod 3$, $\mathbb{Z} \mod 5$, $\mathbb{Z} \mod 7$, $\mathbb{Z} \mod 11$, $\mathbb{Z} \mod 13$ ja nii edasi. Mis tahes primaarvälja $\mathbb{Z}$ jaoks on $\mathbb{Z} \mod p$ on selle välja täisarvude hulk järgmine: $\{0, 1, \dots, p - 2, p - 1\}$.
 
 Krüptograafias huvitavad meid ka laiendusväljad, eriti mis tahes väljad, millel on $2^m$ elemente, kus $m > 1$. Selliseid lõplikke välju kasutatakse näiteks Rijndaeli šifris, mis on täiustatud krüpteerimisstandardi aluseks. Kuigi primaarväljad on suhteliselt intuitiivsed, ei ole need baasi 2 laiendusväljad tõenäoliselt mõeldud kõigile, kes ei ole abstraktse algebraga tuttavad.
 
@@ -892,9 +895,8 @@ Me teame, et $[x^4 + x^3 + x^2 + x] \mod x^3 + x + 1$ saab vähendada, kuna divi
 
 Alustuseks näete, et väljend $x^3 + x + 1$ läheb kokku $x^4 + x^3 + x^2 + x$ korda $x$. Seda saab kontrollida, korrutades $x^3 + x + 1$ arvuga $x$, mis on $x^4 + x^2 + x$. Kuna viimane termin on sama astmega kui dividend, nimelt 4, siis teame, et see töötab. Selle jagamise jäägi $x$-ga saab arvutada järgmiselt:
 
-
 - $[(x^4 + x^3 + x^2 + x) - (x^4 + x^2 + x)] \mod x^3 + x + 1 =$
-- $[x^3] \mod x^3 + x + 1 =$ [x^3] \mod x^3 + x + 1 =$
+- $[x^3] \mod x^3 + x + 1 =$
 - $x^3$
 
 Seega pärast $x^4 + x^3 + x^2 + x$ jagamist $x^3 + x + 1$-ga kokku $x$ korda, saame jäägiks $x^3$. Kas seda saab veel jagada $x^3 + x + 1$-ga?
@@ -1057,9 +1059,9 @@ Nihkešifreering on väga ebaturvaline sümmeetriline krüpteerimisskeem, vähem
 
 Selleks, et mis tahes krüpteerimisskeem vastaks minimaalsele turvalisuse mõistele, peab sellel olema võimalike võtmete hulk ehk **võtmeruum**, mis on nii suur, et brute-force rünnakud on teostamatud. Kõik kaasaegsed krüpteerimisskeemid vastavad sellele standardile. Seda tuntakse kui **piisava võtmeruumi põhimõtet**. Sarnane põhimõte kehtib tavaliselt eri tüüpi krüptograafiliste skeemide puhul.
 
-Et saada aimu kaasaegsete krüpteerimisskeemide tohutu võtmeruumi suurusest, oletame, et fail on krüpteeritud 128-bitise võtmega, kasutades täiustatud krüpteerimisstandardit. See tähendab, et ründajal on hulk $2^{128}$ võtmeid, mida ta peab brute force'i rünnakuks läbi käima. Selle strateegia 0,78%-lise edu tõenäosusega peaks ründaja läbima umbes 2,65 \ korda 10^{36}$ võtmeid.
+Et saada aimu kaasaegsete krüpteerimisskeemide tohutu võtmeruumi suurusest, oletame, et fail on krüpteeritud 128-bitise võtmega, kasutades täiustatud krüpteerimisstandardit. See tähendab, et ründajal on hulk $2^{128}$ võtmeid, mida ta peab brute force'i rünnakuks läbi käima. Selle strateegia 0,78%-lise edu tõenäosusega peaks ründaja läbima umbes $2,65 \times 10^{36}$ võtmeid.
 
-Oletame optimistlikult, et ründaja suudab proovida 10^{16}$ võtmeid sekundis (st 10 kvadriljonit võtmeid sekundis). Et testida 0,78% kõigist võtmete ruumi võtmetest, peaks tema rünnak kestma 2,65 \ korda 10^{20}$ sekundit. See on umbes 8,4 triljonit aastat. Seega ei ole isegi absurdselt võimsa vastase poolt sooritatav brutaalrünnak kaasaegse 128-bitise krüpteerimisskeemi puhul realistlik. See on piisava võtmeruumi põhimõte.
+Oletame optimistlikult, et ründaja suudab proovida $10^{16}$ võtmeid sekundis (st 10 kvadriljonit võtmeid sekundis). Et testida 0,78% kõigist võtmete ruumi võtmetest, peaks tema rünnak kestma $2,65 \times 10^{20}$ sekundit. See on umbes 8,4 triljonit aastat. Seega ei ole isegi absurdselt võimsa vastase poolt sooritatav brutaalrünnak kaasaegse 128-bitise krüpteerimisskeemi puhul realistlik. See on piisava võtmeruumi põhimõte.
 
 Kas nihkešifreering on turvalisem, kui ründaja ei tea krüpteerimisalgoritmi? Võib-olla, kuid mitte palju.
 
@@ -1448,29 +1450,19 @@ Jätkame seda protsessi, kuni saame massiivi **S** lõpliku rea allosas, $[6, 4,
 
 *Tabel 1: võtmeplaanide tabel*
 
-| Round | i | j | | S[0] | S[1] | S[2] | S[3] | S[4] | S[5] | S[6] | S[7] | S[7] |
-
+| Round   | i   | j   |     | S[0] | S[1] | S[2] | S[3] | S[4] | S[5] | S[6] | S[7] |
 | ------- | --- | --- | --- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+|         |     |     |     |      |      |      |      |      |      |      |      |
+| Initial |     | 0   |     | 0    | 1    | 2    | 3    | 4    | 5    | 6    | 7    |
+| 1       | 0   | 6   |     | 6    | 1    | 2    | 3    | 4    | 5    | 0    | 7    |
+| 2       | 1   | 7   |     | 6    | 7    | 2    | 3    | 4    | 5    | 0    | 1    |
+| 3       | 2   | 2   |     | 6    | 7    | 2    | 3    | 4    | 5    | 0    | 1    |
+| 4       | 3   | 3   |     | 6    | 7    | 2    | 3    | 4    | 5    | 0    | 1    |
+| 5       | 4   | 3   |     | 6    | 7    | 2    | 0    | 3    | 5    | 4    | 1    |
+| 6       | 5   | 6   |     | 6    | 4    | 2    | 0    | 3    | 7    | 5    | 1    |
+| 7       | 6   | 1   |     | 6    | 4    | 2    | 0    | 3    | 7    | 5    | 2    |
+| 8       | 7   | 2   |     | 6    | 4    | 1    | 0    | 3    | 7    | 5    | 2    |
 
-| | | | | | | | | | | | |
-
-| Algne | | 0 | | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
-
-| 1 | 0 | 6 | | 6 | 1 | 2 | 3 | 4 | 5 | 0 | 7 |
-
-| 2 | 1 | 7 | | 6 | 7 | 2 | 3 | 4 | 5 | 0 | 1 |
-
-| 3 | 2 | 2 | | 6 | 7 | 2 | 3 | 4 | 5 | 0 | 1 |
-
-| 4 | 3 | 3 | | 6 | 7 | 2 | 3 | 4 | 5 | 0 | 1 |
-
-| 5 | 4 | 3 | | 6 | 7 | 2 | 0 | 3 | 5 | 4 | 1 |
-
-| 6 | 5 | 6 | | 6 | 4 | 2 | 0 | 3 | 7 | 5 | 1 |
-
-| 7 | 6 | 1 | | 6 | 4 | 2 | 0 | 3 | 7 | 5 | 2 |
-
-| 8 | 7 | 2 | | 6 | 4 | 1 | 0 | 3 | 7 | 5 | 2 |
 
 ### 4. samm
 
@@ -1499,21 +1491,16 @@ Mis juhtub, kui krüpteeritav sõna oleks pikem kui massiiv **S**? Sellisel juhu
 
 *Tabel 2: Võtmevoo genereerimine*
 
-| i | j | t | Võtmevoog | S[0] | S[1] | S[2] | S[3] | S[4] | S[5] | S[6] | S[7] | S[7] |
 
+| i   | j   | t   | Keystream | S[0] | S[1] | S[2] | S[3] | S[4] | S[5] | S[6] | S[7] |
 | --- | --- | --- | --------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+|     |     |     |           |      |      |      |      |      |      |      |      |
+|     | 0   |     |           | 6    | 4    | 1    | 0    | 3    | 7    | 5    | 2    |
+| 1   | 4   | 7   | 2         | 6    | 3    | 1    | 0    | 4    | 7    | 5    | 2    |
+| 2   | 5   | 0   | 6         | 6    | 3    | 7    | 0    | 4    | 1    | 5    | 2    |
+| 3   | 5   | 1   | 3         | 6    | 3    | 7    | 1    | 4    | 0    | 5    | 2    |
+| 4   | 1   | 7   | 2         | 6    | 4    | 7    | 1    | 3    | 0    | 5    | 2    |
 
-| | | | | | | | | | | | |
-
-| | 0 | | | 6 | 4 | 1 | 0 | 3 | 7 | 5 | 2 |
-
-| 1 | 4 | 7 | 2 | 6 | 3 | 1 | 0 | 4 | 7 | 5 | 2 |
-
-| 2 | 5 | 0 | 6 | 6 | 3 | 7 | 0 | 4 | 1 | 5 | 2 |
-
-| 3 | 5 | 1 | 3 | 6 | 3 | 7 | 1 | 4 | 0 | 5 | 2 |
-
-| 4 | 1 | 7 | 2 | 6 | 4 | 7 | 1 | 3 | 0 | 5 | 2 |
 
 Näide, mida me just arutasime, on vaid **RC4 voogkooderite** lahjendatud versioon. Tegelik RC4 voogsalvesti on **S** massiiviga, mille pikkus on 256 baiti, mitte 8 baiti, ja võti, mis võib olla vahemikus 1 kuni 256 baiti, mitte vahemikus 1 kuni 8 baiti. Võtmemassiivi ja võtmevooge toodetakse siis kõik, võttes arvesse **S**-massiivi 256 baidi pikkust. Arvutused muutuvad tohutult keerulisemaks, kuid põhimõtted jäävad samaks. Kasutades sama võtit [14,48,9] ja standardset RC4-krüpteerimist, krüpteeritakse selge tekst "SOUP" kuueteistkümnendsüsteemi kujul 67 02 ed df.
 
@@ -1589,41 +1576,26 @@ Teiseks tehakse **baitide asendamise** operatsioon $S$ praeguse seisuga. See toi
 
 *Joonis 3: Rijndaeli S-Box*
 
-| | 00 | 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 0A | 0B | 0C | 0D | 0E | 0F | 0F |
 
+|     | 00  | 01  | 02  | 03  | 04  | 05  | 06  | 07  | 08  | 09  | 0A  | 0B  | 0C  | 0D  | 0E  | 0F  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 00  | 63  | 7C  | 77  | 7B  | F2  | 6B  | 6F  | C5  | 30  | 01  | 67  | 2B  | FE  | D7  | AB  | 76  |
+| 10  | CA  | 82  | C9  | 7D  | FA  | 59  | 47  | F0  | AD  | D4  | A2  | AF  | 9C  | A4  | 72  | C0  |
+| 20  | B7  | FD  | 93  | 26  | 36  | 3F  | F7  | CC  | 34  | A5  | E5  | F1  | 71  | D8  | 31  | 15  |
+| 30  | 04  | C7  | 23  | C3  | 18  | 96  | 05  | 9A  | 07  | 12  | 80  | E2  | EB  | 27  | B2  | 75  |
+| 40  | 09  | 83  | 2C  | 1A  | 1B  | 6E  | 5A  | A0  | 52  | 3B  | D6  | B3  | 29  | E3  | 2F  | 84  |
+| 50  | 53  | D1  | 00  | ED  | 20  | FC  | B1  | 5B  | 6A  | CB  | BE  | 39  | 4A  | 4C  | 58  | CF  |
+| 60  | D0  | EF  | AA  | FB  | 43  | 4D  | 33  | 85  | 45  | F9  | 02  | 7F  | 50  | 3C  | 9F  | A8  |
+| 70  | 51  | A3  | 40  | 8F  | 92  | 9D  | 38  | F5  | BC  | B6  | DA  | 21  | 10  | FF  | F3  | D2  |
+| 80  | CD  | 0C  | 13  | EC  | 5F  | 97  | 44  | 17  | C4  | A7  | 7E  | 3D  | 64  | 5D  | 19  | 73  |
+| 90  | 60  | 81  | 4F  | DC  | 22  | 2A  | 90  | 88  | 46  | EE  | B8  | 14  | DE  | 5E  | 0B  | DB  |
+| A0  | E0  | 32  | 3A  | 0A  | 49  | 06  | 24  | 5C  | C2  | D3  | AC  | 62  | 91  | 95  | E4  | 79  |
+| B0  | E7  | C8  | 37  | 6D  | 8D  | D5  | 4E  | A9  | 6C  | 56  | F4  | EA  | 65  | 7A  | AE  | 08  |
+| C0  | BA  | 78  | 25  | 2E  | 1C  | A6  | B4  | C6  | E8  | DD  | 74  | 1F  | 4B  | BD  | 8B  | 8A  |
+| D0  | 70  | 3E  | B5  | 66  | 48  | 03  | F6  | 0E  | 61  | 35  | 57  | B9  | 86  | C1  | 1D  | 9E  |
+| E0  | E1  | F8  | 98  | 11  | 69  | D9  | 8E  | 94  | 9B  | 1E  | 87  | E9  | CE  | 55  | 28  | DF  |
+| F0  | 8C  | A1  | 89  | 0D  | BF  | E6  | 42  | 68  | 41  | 99  | 2D  | 0F  | B0  | 54  | BB  | 16  |
 
-| 00 | 63 | 7C | 77 | 7B | F2 | 6B | 6F | C5 | 30 | 01 | 67 | 2B | FE | D7 | AB | 76 |
-
-| 10 | CA | 82 | C9 | 7D | FA | 59 | 47 | F0 | AD | D4 | A2 | AF | 9C | A4 | 72 | C0 |
-
-| 20 | B7 | FD | 93 | 26 | 36 | 3F | F7 | CC | 34 | A5 | E5 | F1 | 71 | D8 | 31 | 15 | 15 |
-
-| 30 | 04 | C7 | 23 | C3 | 18 | 96 | 05 | 9A | 07 | 12 | 80 | E2 | EB | 27 | B2 | 75 | 75 |
-
-| 40 | 09 | 83 | 2C | 1A | 1B | 6E | 5A | A0 | 52 | 3B | D6 | B3 | 29 | E3 | 2F | 84 |
-
-| 50 | 53 | D1 | 00 | ED | 20 | FC | B1 | 5B | 6A | CB | BE | 39 | 4A | 4C | 58 | CF |
-
-| 60 | D0 | EF | AA | FB | 43 | 4D | 33 | 85 | 45 | F9 | 02 | 7F | 50 | 3C | 9F | A8 |
-
-| 70 | 51 | A3 | 40 | 8F | 92 | 9D | 38 | F5 | BC | B6 | DA | 21 | 10 | FF | F3 | D2 |
-
-| 80 | CD | 0C | 13 | EC | 5F | 97 | 44 | 17 | C4 | A7 | 7E | 3D | 64 | 5D | 19 | 73 |
-
-| 90 | 60 | 81 | 4F | DC | 22 | 2A | 90 | 88 | 46 | EE | B8 | 14 | DE | 5E | 0B | DB |
-
-| A0 | E0 | 32 | 3A | 0A | 49 | 06 | 24 | 5C | C2 | D3 | AC | 62 | 91 | 95 | E4 | 79 |
-
-| B0 | E7 | C8 | 37 | 6D | 8D | D5 | 4E | A9 | 6C | 56 | F4 | EA | 65 | 7A | AE | 08 |
-
-| C0 | BA | 78 | 25 | 2E | 1C | A6 | B4 | C6 | E8 | DD | 74 | 1F | 4B | BD | 8B | 8A | 8B | 8A |
-
-| D0 | 70 | 3E | B5 | 66 | 48 | 03 | F6 | 0E | 61 | 35 | 57 | B9 | 86 | C1 | 1D | 9E |
-
-| E0 | E1 | F8 | 98 | 11 | 69 | D9 | 8E | 94 | 9B | 1E | 87 | E9 | CE | 55 | 28 | DF | DF |
-
-| F0 | 8C | A1 | 89 | 0D | BF | E6 | 42 | 68 | 41 | 99 | 2D | 0F | B0 | 54 | BB | 16 |
 
 See S-box on üks koht, kus abstraktne algebra tuleb mängu Rijndaeli salakirjas, täpsemalt **Galois' väljad**.
 
@@ -1637,39 +1609,31 @@ Kui maatriks **S** on konstrueeritud, nihutatakse neli rida. Esimene rida jääb
 
 *Joonis 4: Ridade nihutamise operatsioon*
 
-| F1 | A0 | B1 | 23 |
 
+| F1   | A0   | B1   | 23   |
 |------|------|------|------|
+| 59   | EF   | 09   | 82   |
+| 97   | 01   | B0   | CC   |
+| D4   | 72   | 04   | 21   |
 
-| 59 | EF | 09 | 82 |
-
-| 97 | 01 | B0 | CC |
-
-| D4 | 72 | 04 | 21 |
-
-| F1 | A0 | B1 | 23 |
-
+| F1   | A0   | B1   | 23   |
 |------|------|------|------|
+| EF   | 09   | 82   | 59   |
+| B0   | CC   | 97   | 01   |
+| 21   | D4   | 72   | 04   |
 
-| EF | 09 | 82 | 59 |
-
-| B0 | CC | 97 | 01 |
-
-| 21 | D4 | 72 | 04 |
 
 Neljandas etapis ilmuvad taas **Galois'i väljad**. Alustuseks korrutatakse iga **S** maatriksi veerg *Andmel 5* vaadeldava 4 x 4 maatriksi veeruga. Kuid tavalise maatriksi korrutamise asemel on see vektori korrutamine **modulo taandamatu polünoomi**, $x^8 + x^4 + x^3 + x + 1$. Saadud vektorkoefitsiendid kujutavad baitide üksikuid bitte.
 
 *Joonis 5: Segu veergude maatriks*
 
-| 02 | 03 | 01 | 01 |
 
+| 02   | 03   | 01   | 01   |
 |------|------|------|------|
+| 01   | 02   | 03   | 01   |
+| 01   | 01   | 02   | 03   |
+| 03   | 01   | 01   | 02   |
 
-| 01 | 02 | 03 | 01 |
-
-| 01 | 01 | 02 | 03 |
-
-| 03 | 01 | 01 | 02 |
 
 **S** maatriksi esimese veeru korrutamisel ülaltoodud 4 x 4 maatriksiga saadakse tulemus *Kujul 6*.
 
@@ -1773,6 +1737,7 @@ Mis juhtus siis 1970ndatel? Kuidas on võimalik, et me saame koheselt internetis
 Vähemalt üks nende ettevõtmise peamine ajend oli ettenägemine, et avatud arvutiside mõjutab põhjalikult meie maailma. Nagu Diffie ja Helmann 1976. aastal märkisid,
 
 > Arvutiga juhitavate sidevõrkude areng lubab vaevata ja odavat kontakti maailma eri pooltel asuvate inimeste või arvutite vahel, asendades enamiku posti ja paljud ekskursioonid telekommunikatsiooniga. Paljude rakenduste puhul tuleb need kontaktid muuta turvaliseks nii pealtkuulamise kui ka ebaseaduslike sõnumite sisestamise vastu. Praegu on aga turvaprobleemide lahendamine teistest sidetehnoloogiavaldkondadest oluliselt maha jäänud. *Kaasaegne krüptograafia ei ole võimeline vastama nõuetele, sest selle kasutamine tekitaks süsteemi kasutajatele nii suuri ebamugavusi, et kaotaks paljud kaugtöötluse eelised* [1]
+
 Diffie, Hellmani ja Merkle'i visadus tasus end ära. Nende tulemused avaldati esmakordselt 1976. aastal Diffie ja Helmanni artiklis "New Directions in Cryptography" (Uued suundumused krüptograafias) Selles esitasid nad kaks originaalset viisi võtmete jaotamise ja võtmehalduse probleemide lahendamiseks.
 
 Esimene lahendus, mida nad pakkusid, oli *võtmevahetusprotokoll*, st reeglite kogum ühe või mitme sümmeetrilise võtme vahetamiseks ebaturvalise sidekanali kaudu. See protokoll on nüüd tuntud kui *Diffie-Helmanni võtmevahetus* või *Diffie-Helmanni-Merkle võtmevahetus*. [2]
@@ -2029,16 +1994,16 @@ Oletame nüüd, et $N$ on väga suur. Kui raske oleks $N$ redutseerida algteguri
 See sõltub tõesti $N$-st. Oletame näiteks, et $N$ on 50 450 400. Kuigi see arv tundub hirmutav, ei ole arvutused nii keerulised ja neid saab hõlpsasti käsitsi teha. Nagu eespool, alustate lihtsalt 2-st ja liigute edasi. Allpool näete selle protsessi tulemust samamoodi nagu eespool.
 
 
-- 2: 25 225 200 (50 450 400 $ = 2 \cdot 25 225 200$)
-- 2: 12 612 600 (50 450 400 $ = 2^2 \cdot 12 612 600$)
-- 2: 6 306 300 (50 450 400 $ = 2^3 \cdot 6 306 300$)
-- 2: 3 153 150 (50 450 400 $ = 2^4 \cdot 3 153 150$)
-- 2: 1,576,575 (50,450,400 $ = 2^5 \cdot 1,576,575$)
-- 3: 525,525 (50 450 400 $ = 2^5 \cdot 3 \cdot 525,525$)
+- 2: 25 225 200 ($50 450 400 = 2 \cdot 25 225 200$)
+- 2: 12 612 600 ($50 450 400 = 2^2 \cdot 12 612 600$)
+- 2: 6 306 300 ($50 450 400 = 2^3 \cdot 6 306 300$)
+- 2: 3 153 150 ($50 450 400 = 2^4 \cdot 3 153 150$)
+- 2: 1,576,575 ($50,450,400 = 2^5 \cdot 1,576,575$)
+- 3: 525,525 ($50 450 400 = 2^5 \cdot 3 \cdot 525,525$)
 - 3: 175,175 ($50,450,400 = 2^5 \cdot 3^2 \cdot 175,175$)
 - 5: 35,035 ($50,450,400 = 2^5 \cdot 3^2 \cdot 5 \cdot 35,035$)
 - 5: 7,007 ($50,450,400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7,007$)
-- 7: 1,001 (50 450 400 $ = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7 \cdot 1,001$)
+- 7: 1,001 ($50 450 400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7 \cdot 1,001$)
 - 7: 143 ($50 450 400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 143$)
 - 11: 13 ($50 450 400 = 2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 11 \cdot 13$)
 - Kuna 13 on algarv, on tulemus $2^5 \cdot 3^2 \cdot 5^2 \cdot 7^2 \cdot 11 \cdot 13$.
@@ -2058,7 +2023,7 @@ Oletame nüüd, et pärast juhusliku algarvude $p$ ja $q$ valimist korrutame nei
 
 Oletame, et annate arvutile ainult $N$ ja palute tal leida kaks 1024-bitist priimafaktorit arvust $N$. Tõenäosus, et arvuti leiab $p$ ja $q$, on äärmiselt väike. Võib öelda, et see on praktiliselt võimatu. See on nii isegi siis, kui kasutada superarvutit või isegi superarvutite võrgustikku.
 
-Alustuseks oletame, et arvuti üritab probleemi lahendada, käies läbi 1024 bittilist arvu, testides igal juhul, kas need on algarvud ja kas need on $N$ faktorid. Testitavate algarvude hulk on siis umbes 1,265 $ \cdot 10^{305}$. [2]
+Alustuseks oletame, et arvuti üritab probleemi lahendada, käies läbi 1024 bittilist arvu, testides igal juhul, kas need on algarvud ja kas need on $N$ faktorid. Testitavate algarvude hulk on siis umbes $1,265 \cdot 10^{305}$. [2]
 
 Isegi kui võtta kõik arvutid planeedil ja lasta neil püüda leida ja testida 1024-bitiseid algarvusid sel viisil, siis 1 miljardist tõenäosus leida edukalt $N$ algarvu tegur nõuab palju pikemat arvutamisperioodi kui Universumi vanus.
 
@@ -2076,7 +2041,7 @@ Seega võib faktoriseerimisprobleemi teatud tingimustel usutavalt pidada raskeks
 
 $$ \frac{2^{1024}}{\ln(2^{1024})} - \frac{2^{1023}}{\ln(2^{1023})} $$
 
-...mis võrdub umbes 1,265 \kordse 10^{305}$ dollariga.
+...mis võrdub umbes $1,265 \times 10^{305}$ dollariga.
 
 [3] Sama kehtib ka diskreetsete logaritmiprobleemide kohta. Seetõttu töötavad asümmeetrilised konstruktsioonid palju suuremate võtmetega kui sümmeetrilised krüptograafilised konstruktsioonid.
 
@@ -2132,7 +2097,8 @@ Teisisõnu, täisarvul 119 on 96 koopriimi vahemikus 1 kuni 119. Tegelikult sisa
 
 Edaspidi tähistame $N$ järjestuse määravat koprimeetrite kogumit $C_N$-ga. Meie näite puhul, kus $N = 119$, on hulk $C_{119}$ liiga suur, et seda täielikult loetleda. Kuid mõned elemendid on järgmised:
 
-$$C__119} = \{1, 2, \punkti 6, 8 \punkti 13, 15, 16, 18, \punkti 33, 35 \punkti 96\}$$$
+$$C_{119} = \{1, 2, \dots, 6, 8, \dots, 13, 15, 16, 18, \dots, 33, 35, \dots, 96\}$$
+
 
 ### Inverteeritavus modulo N
 
@@ -2226,7 +2192,7 @@ RSA-probleem seisneb sellise $x$ leidmises, et $x^e = y$, kusjuures ette on antu
 
 Lihtne viis arvutada $x$, kui $x^e \mod N = y \mod N$, on lihtsalt arvutada $y^d \mod N$. Me teame $y^d \mod N = x \mod N$ järgmiste arvutuste abil:
 
-$$ y^d \mod N = x^{e \cdot d} \mod N = x^{e \cdot d \mod \phi(N)} \mod N = x^{1 \mod \phi(N)} \mod N = x \mod N. $$$
+$$ y^d \mod N = x^{e \cdot d} \mod N = x^{e \cdot d \mod \phi(N)} \mod N = x^{1 \mod \phi(N)} \mod N = x \mod N. $$
 
 Probleem seisneb selles, et me ei tea väärtust $d$, sest see ei ole ette antud. Seega ei saa me otseselt arvutada $y^d \mod N$, et saada $x \mod N$.
 
@@ -2287,7 +2253,7 @@ Sellegipoolest saab RSA-probleemi kasutades, lisades sellele veidi tarka keeruku
 
 [4] Vt näiteks Jonathan Katz ja Yehuda Lindell, _Introduction to Modern Cryptography_, CRC Press (Boca Raton, FL: 2015), lk 410-32 RSA krüpteerimise kohta ja lk 444-41 RSA digitaalallkirjade kohta.
 
-# Järeldus
+# Lõpusektsioon
 <partId>e538fb79-bf28-40cd-a5c3-badf864d8567</partId>
 
 ## Ülevaade & Hinnang

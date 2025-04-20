@@ -4,5 +4,6 @@ wrong_answers:
   - 換向條件
   - 對稱條件
   - 分佈性條件
-  A set S with a binary operation must satisfy several conditions to form a group, and the first is the closure condition: the operation between two elements of S must yield an element of S.
+explanation: |
+  具有二元運算的集合 S 必須滿足幾個條件才能組成群組，第一個條件是封閉條件：S 的兩個 Elements 之間的運算必須產生 S 的一個元素。
 reviewed: false

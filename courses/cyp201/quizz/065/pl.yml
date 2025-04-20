@@ -1,0 +1,9 @@
+question: Jaka jest różnica między zwykłym kluczem podrzędnym a wzmocnionym kluczem podrzędnym?
+answer: Wzmocniony klucz podrzędny wymaga nadrzędnego klucza prywatnego do jego wyprowadzenia.
+wrong_answers:
+  - Zwykły klucz podrzędny nie może wywodzić się z kluczy publicznych.
+  - Utwardzony klucz podrzędny używa nieparzystego indeksu.
+  - Zwykły klucz podrzędny jest bezpieczniejszy niż wzmocniony klucz podrzędny.
+explanation: |
+  Normalny klucz podrzędny może być wyprowadzony z nadrzędnego klucza publicznego, w przeciwieństwie do wzmocnionego klucza podrzędnego, który wymaga nadrzędnego klucza prywatnego.
+reviewed: false

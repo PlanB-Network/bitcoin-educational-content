@@ -4,5 +4,6 @@ wrong_answers:
   - 0111
   - 0000
   - 1101
-  By applying XOR bit by bit: 0 XOR 1 = 1, 1 XOR 1 = 0, 1 XOR 0 = 1, 0 XOR 1 = 1, thus the result is 1011.
+explanation: |
+  Kwa kutumia XOR kidogo kidogo: 0 XOR 1 = 1, 1 XOR 1 = 0, 1 XOR 0 = 1, 0 XOR 1 = 1, kwa hivyo matokeo ni 1011.
 reviewed: false

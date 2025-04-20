@@ -1,0 +1,9 @@
+question: Jak nazywa się unikalny element w grupie, który po zastosowaniu do innego elementu nie zmienia go?
+answer: Element tożsamości
+wrong_answers:
+  - Element odwrotny
+  - Element przemienny
+  - Element asocjacyjny
+explanation: |
+  Element tożsamości grupy jest unikalnym elementem, który po zastosowaniu do innego elementu pozostawia go bez zmian. Na przykład, w grupie liczb całkowitych w dodawaniu, elementem tożsamości jest 0.
+reviewed: false

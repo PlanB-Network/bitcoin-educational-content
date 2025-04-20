@@ -22,9 +22,10 @@ objectives:
 
 <partId>326cf945-5d3f-4d86-8c3e-4d1c35959799</partId>
 
-## 让您的公司加入比特币
-
+## 课程概述
 <chapterId>1be42be9-4080-49f5-b5b2-6b531dd55f5f</chapterId>
+
+欢迎来到 BIZ101 课程！
 
 本综合培训课程是了解比特币和闪电网络如何彻底改变传统商业运作的入口，它将开启贵公司的比特币网络之旅。本课程专为希望探索比特币作为全球互联网原生货币网络和强大的价值交换手段的实际能力的零售商、企业家、经理和企业决策者而设计。
 
@@ -33,6 +34,8 @@ objectives:
 课程从详细研究传统货币和支付机制开始，通过探讨货币如何作为一个网络来实现贸易、储蓄和经济专业化，奠定基础。随后，我们将深入探讨比特币背后的技术和闪电网络引入的创新，揭示它们在促进无缝、安全和近乎瞬时的交易方面的作用，从而为各种规模的企业提供服务。然后，我们将进入本课程的实践部分，首先是关于将比特币作为金库持有的部分，最后是关于接受比特币作为支付手段的部分。
 
 无论您代表的是小企业还是大公司，本课程都旨在让您掌握将比特币融入日常运营的知识，从而提高公司的应变能力、效率和竞争优势。随着比特币不断重塑经济格局，了解这些突破性技术不仅是一种选择，更是一种战略需要。请做好准备，通过深入浅出的内容、实际案例和战略指导，您将能够驾驭和利用不断发展的比特币世界！
+
+准备好探索企业的比特币世界了吗？让我们开始吧！
 
 # 货币、支付系统和比特币
 
@@ -1356,7 +1359,7 @@ https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45
 - 留存比特币（0.19335）在资产负债表中的价值为 7 734 欧元。
 - 财务附注中披露的保留比特币未实现收益 5 468 欧元。
 
-# 结论
+# 最终部分
 
 <partId>f6ca8d01-a4f3-449b-ac9f-c5fba9a69178</partId>
 
@@ -1364,16 +1367,16 @@ https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45
 
 <chapterId>0fe8c49e-b7f8-46f7-9c42-b8a9a99a7b46</chapterId>
 
-<isCourseReview>真</isCourseReview>。
+<isCourseReview>true</isCourseReview>
 
 ## 期末考试
 
 <chapterId>40a0f18c-bdc9-45b2-8dea-15f7e574230e</chapterId>
 
-<isCourseExam>真</isCourseExam>。
+<isCourseExam>true</isCourseExam>
 
 ## 结论
 
 <chapterId>5503c23e-3a90-4a23-8d89-75e3cc1ee53e</chapterId>
 
-<isCourseConclusion>true</isCourseConclusion>（是课程结论）。
+<isCourseConclusion>true</isCourseConclusion>

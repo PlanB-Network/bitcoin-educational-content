@@ -4,5 +4,6 @@ wrong_answers:
   - Proof of Work
   - 簡化付款驗證
   - Blockchain
-  The initial monetary policy corresponded to a constant issuance (X BTC/block) as indicated by the first version of the white paper and Satoshi's [exchanges](https: //www.metzdowd.com/pipermail/cryptography/2008-November/014831.html) with Ray Dillinger.
+explanation: |
+  如第一版白皮書和 Satoshi 與 Ray Dillinger 的 [交流](https://www.metzdowd.com/pipermail/cryptography/2008-November/014831.html)所示，最初的貨幣政策對應於恆定發行量 (X BTC/block)。
 reviewed: false

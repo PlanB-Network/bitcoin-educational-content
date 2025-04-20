@@ -1,6 +1,6 @@
 id: 962ad6c9-f52a-4895-a0d0-866170c01626
 en_word: DIFFIE-HELLMAN
-related_words: 
+related_words:
 original_language: fr
 proofreading:
   - language: en
@@ -14,79 +14,66 @@ proofreading:
     contributor_names:
       - LoicPandul
     reward: 0.09
-
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.21
-
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.19
-
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.19
-
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.21
-
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.21
-
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.24
-
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.19
-
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.21
-
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.19
-
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.21
-
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.27
-
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.27
-
   - language: zh-Hans
     last_contribution_date:
     urgency: 1

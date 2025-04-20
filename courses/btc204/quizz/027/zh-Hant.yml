@@ -1,0 +1,9 @@
+question: 哪種技術有助於防範 KYC 引起的追蹤風險？
+answer: CoinJoin 交易
+wrong_answers:
+  - 使用 VPN
+  - 使用 Full node
+  - 通過 Proof of Work 驗證
+explanation: |
+  Coinjoins 具有打破硬幣歷史的效果，可協助您抵銷與 KYC 相關的追蹤風險。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Co odróżnia strumień klucza RC4 o standardowej długości od uproszczonej wersji przedstawionej w przykładzie?
+answer: Długość tablicy S w standardowym RC4 wynosi 256 bajtów
+wrong_answers:
+  - Tablica S jest ograniczona do 128 bajtów
+  - Użyty klucz musi mieć więcej niż 8 bajtów
+  - Nie ma stałej długości dla S w standardowym RC4
+explanation: |
+  W standardowym RC4 tablica S zawiera 256 bajtów, co znacznie zwiększa złożoność obliczeń i poprawia bezpieczeństwo w porównaniu do uproszczonej wersji z tylko 8 bajtami.
+reviewed: false

@@ -1,0 +1,8 @@
+question: 以下哪項特點有助於 Bitcoin 在絲綢之路等暗網交易市場中的使用擴大？
+answer: 它的不可控性和假名性。
+wrong_answers:
+  - 其集中控制。
+  - 其可追溯性和可控性。
+  - 其缺乏假名性。
+explanation: >-
+reviewed: true

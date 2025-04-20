@@ -21,17 +21,17 @@ Non sono necessarie conoscenze specifiche per iniziare. In effetti, i contenuti 
 
 <partId>3cd2ac82-026c-53e1-874a-baf5842adc6d</partId>
 
-## Un salto nel buio
+## Panoramica del corso
 
 <chapterId>27e3fb60-4b50-556b-9e70-c4f5475c121d</chapterId>
 
-### Benvenuti in un paradigma monetario e tecnologico tutto nuovo
+Benvenuto nel corso BTC101!
 
 Bitcoin è una rivoluzione tecnologica e monetaria, capace di farci mettere in discussione il nostro rapporto con il denaro e la società. Bitcoin (indicato come BTC) è infatti una moneta **neutrale** e **decentralizzata**, cioè non controllata da alcuna entità o istituzione. È un'innovazione che va oltre la semplice "moneta di internet": è sia un protocollo informatico (Bitcoin) che un'unità monetaria (bitcoin).
 
 Il protocollo utilizza tecnologie sottostanti come la crittografia, la comunicazione in rete e la famosa "blockchain", mentre l'unità bitcoin rappresenta la valuta necessaria per il corretto funzionamento di questo protocollo. Nella vita di tutti i giorni, i salvadoregni e i bitcoiner di tutto il mondo utilizzano la valuta bitcoin per acquistare e vendere beni e servizi, affidandosi a questa tecnologia per migliorare la propria vita.
 
-### Un programma di studi completo ma accessibile
+**Un programma di studi completo ma accessibile:**
 
 In questo corso discuteremo alcuni aspetti monetari di Bitcoin, tra cui come acquistare e vendere bitcoin, conservarli in modo sicuro nei wallet digitali e utilizzarli per le transazioni. Esamineremo anche il ruolo dei miner, essenziali per la creazione di nuovi bitcoin e per la sicurezza della rete Bitcoin. Infine, esploreremo il futuro di Bitcoin e come la tecnologia Lightning Network possa migliorare le transazioni Bitcoin.
 
@@ -39,38 +39,39 @@ In questo corso discuteremo alcuni aspetti monetari di Bitcoin, tra cui come acq
 
 È essenziale capire che Bitcoin è un nuovo sistema monetario che cambia completamente il nostro rapporto con il denaro, quindi imparare a usarlo è una competenza necessaria per chiunque voglia avere il controllo dei propri fondi.
 
-**Sezione 1 - Il Denaro**
+**Sezione 1 - Introduzione**  
+- Capitolo 1 - Panoramica del corso  
+- Capitolo 2 - La preistoria di Bitcoin  
 
-- Capitolo 1 - Che cos'è il denaro?
-- Capitolo 2 - La moneta Fiat
-- Capitolo 3 - Iperinflazione
-- Capitolo 4 - La politica monetaria di Bitcoin
+**Sezione 2 - Il Denaro**  
+- Capitolo 3 - Che cos'è il denaro? 
+- Capitolo 4 - La moneta Fiat 
+- Capitolo 5 - Iperinflazione  
+- Capitolo 6 - La politica monetaria di Bitcoin  
 
-**Sezione 2 - Wallet Bitcoin**
+**Sezione 3 - Wallet Bitcoin**  
+- Capitolo 7 - Come funzionano i wallet Bitcoin?
+- Capitolo 8 - Scelta della sicurezza
+- Capitolo 9 - Impostazione del tuo wallet
+- Capitolo 10 - Salvaguardia nel tempo
 
-- Capitolo 5 - Come funzionano i wallet Bitcoin?
-- Capitolo 6 - Scelta della sicurezza
-- Capitolo 7 - Impostazione del tuo wallet
-- Capitolo 8 - Salvaguardia nel tempo
+**Sezione 4 - Aspetti tecnici di Bitcoin**  
+- Capitolo 11 - Lancio di Bitcoin  
+- Capitolo 12 - Che cos'è una transazione?  
+- Capitolo 13 - Nodi Bitcoin  
+- Capitolo 14 - Miner  
+- Capitolo 15 - Miner ed ecologia 
 
-**Sezione 3 - Caratteristiche tecniche di Bitcoin**
+**Sezione 5 - Come ottenere bitcoin?**  
+- Capitolo 16 - Bitcoin non dorme mai!  
+- Capitolo 17 - Guadagnare bitcoin lavorando  
+- Capitolo 18 - Risparmiare con Bitcoin  
+- Capitolo 19 - L'iperbitcoinizzazione  
 
-- Capitolo 9 - Che cos'è una transazione?
-- Capitolo 10 - Nodi Bitcoin
-- Capitolo 11 - Miner
-- Capitolo 12 - Miner ed ecologia
-
-**Sezione 4 - Risparmiare in Bitcoin**
-
-- Capitolo 13 - Prezzo di Bitcoin
-- Capitolo 14 - Come si acquista Bitcoin?
-- Capitolo 15 - Lavorare in cambio di Bitcoin (non mi piace: in alternativa preferisco «Guadagnare in Bitcoin»)
-- Capitolo 16 - Iper-bitcoinizzazione
-
-**Sezione 5 - Lightning Network**
-
-- Capitolo 17 - Introduzione a Lightning Network
-- Capitolo 18 - Casi d'uso per Lightning Network
+**Sezione 6 - Il futuro di Bitcoin: Lightning Network**  
+- Capitolo 20 - Introduzione a Lightning Network  
+- Capitolo 21 - Casi d'uso per Lightning Network 
+- Capitolo 22 - Pillola rossa o pillola blu?
 
 Prima di introdurre la definizione di denaro e la sua funzione nella società (Capitolo 1), dovremmo partire dalla genesi di Bitcoin. Lanciato nel 2009, Bitcoin è una tecnologia relativamente nuova e diversa da qualsiasi altra. È quindi normale che non si riesca a capire tutto e subito. Proprio come quando si impara a usare Internet o a guidare un'automobile, non è necessario conoscere subito tutti i dettagli tecnici: si può iniziare imparando a ricevere, inviare e mettere al sicuro i propri fondi, per poi fare piccoli passi approfondendo l'argomento'.
 
@@ -80,7 +81,9 @@ In fondo siamo solo agli inizi della sua adozione, avendo appena superato la fas
 
 L'importante è capire questa nuova tecnologia in modo generale, quindi vi auguriamo di godervi questo corso e di continuare a fare progressi in questo nuovo paradigma monetario globale.
 
-## Cosa è successo prima di Bitcoin
+Pronto a tuffarti nell'affascinante universo di Bitcoin e a comprenderne tutti i meccanismi? Andiamo!
+
+## La preistoria del Bitcoin
 
 <chapterId>9a94b627-5b69-5d81-9125-f1fa9b0aa6ad</chapterId>
 
@@ -516,7 +519,7 @@ Fortunatamente, dal 2017, la chiave privata può essere rappresentata da un semp
 
 ### E riguardo agli hacker?
 
-Cosa succede se qualcuno indovina per sbaglio il nostro elenco di 12 o 24 parole? La risposta breve è che è altamente improbabile, grazie alla crittografia utilizzata per creare il wallet. Per intenderci: scoprire per sbaglio la vostra stessa frase mnemonica è come trovare il numero "giusto" compreso tra 1 e $2^256$, che è quasi equivalente a trovare l'atomo "giusto" nell'universo. Tuttavia, se non siete soddisfatti di questa sicurezza predefinita, potete sempre migliorarla aggiungendo una passphrase (una parola in più) al vostro wallet Bitcoin.
+Cosa succede se qualcuno indovina per sbaglio il nostro elenco di 12 o 24 parole? La risposta breve è che è altamente improbabile, grazie alla crittografia utilizzata per creare il wallet. Per intenderci: scoprire per sbaglio la vostra stessa frase mnemonica è come trovare il numero "giusto" compreso tra 1 e 2 alla potenza di 256, che è quasi equivalente a trovare l'atomo "giusto" nell'universo. Tuttavia, se non siete soddisfatti di questa sicurezza predefinita, potete sempre migliorarla aggiungendo una passphrase (una parola in più) al vostro wallet Bitcoin.
 
 ![image](assets/en/29.webp)
 
@@ -1354,7 +1357,7 @@ Satoshi ha creato Bitcoin nel 2008 per proporre un cambiamento del sistema finan
 
 Siete pronti a partecipare?
 
-# Conclusione
+# Sezione finale
 
 <partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 

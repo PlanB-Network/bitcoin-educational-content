@@ -1,0 +1,11 @@
+question: 在 Bitcoin 繼承的情況下，公證人的角色是什麼？
+answer: 他們確保符合稅務規定。
+wrong_answers:
+  - 他們會在您死後管理您的 bitcoins。
+  - 他們會修改您的繼承計劃。
+  - 他們會將您的 bitcoins 放在安全的地方。
+explanation: |
+  在 Bitcoin 繼承的情況下，重要的是要
+  與公證人討論比特幣的繼承，以確保
+  符合稅務規定。
+reviewed: false

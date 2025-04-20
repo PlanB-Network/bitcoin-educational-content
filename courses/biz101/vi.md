@@ -22,9 +22,10 @@ Cho dù bạn là **doanh nghiệp nhỏ hay tập đoàn lớn**, việc tích 
 
 <partId>326cf945-5d3f-4d86-8c3e-4d1c35959799</partId>
 
-## Đưa công ty của bạn lên Bitcoin
-
+## Tổng quan về khóa học
 <chapterId>1be42be9-4080-49f5-b5b2-6b531dd55f5f</chapterId>
+
+Chào mừng bạn đến với khóa học BIZ101!
 
 Khởi động hành trình của công ty bạn trên mạng lưới Bitcoin với khóa đào tạo toàn diện này - một cánh cổng để hiểu cách Bitcoin và Lightning Network có thể cách mạng hóa các hoạt động kinh doanh truyền thống. Khóa học này được thiết kế cho các nhà bán lẻ, doanh nhân, nhà quản lý và người ra quyết định của công ty muốn khám phá khả năng thực tế của Bitcoin như một mạng lưới tiền tệ toàn cầu, gốc internet và một phương tiện trao đổi giá trị mạnh mẽ.
 
@@ -33,6 +34,8 @@ Trong suốt khóa học, bạn sẽ được giới thiệu về các nguyên t
 Khóa học bắt đầu bằng việc kiểm tra chi tiết các loại tiền tệ thông thường và cơ chế thanh toán, đặt nền tảng bằng cách khám phá cách tiền tệ hoạt động như một mạng lưới để cho phép giao dịch, tiết kiệm và chuyên môn hóa kinh tế. Sau đó, chúng ta sẽ đi sâu vào công nghệ đằng sau Bitcoin và những cải tiến được giới thiệu bởi Lightning Network, tiết lộ vai trò của chúng trong việc tạo điều kiện cho các giao dịch liền mạch, an toàn và gần như tức thời có thể phục vụ cho các doanh nghiệp ở mọi quy mô. Sau đó, chúng ta sẽ đi sâu vào các phần thực hành của khóa học này, bắt đầu bằng một phần về việc nắm giữ bitcoin làm kho bạc, tiếp theo là phần cuối cùng về việc chấp nhận bitcoin làm phương tiện thanh toán.
 
 Cho dù bạn đại diện cho một doanh nghiệp nhỏ hay một tập đoàn lớn, khóa học này đều hướng đến mục tiêu trang bị cho bạn kiến thức để tích hợp Bitcoin vào các hoạt động hàng ngày của mình, qua đó nâng cao khả năng phục hồi, hiệu quả và lợi thế cạnh tranh của công ty bạn. Khi Bitcoin tiếp tục định hình lại bối cảnh kinh tế, việc hiểu các công nghệ đột phá này không chỉ là một lựa chọn mà còn là một điều cần thiết về mặt chiến lược. Hãy chuẩn bị tham gia vào nội dung sâu sắc, các ví dụ thực tế và hướng dẫn chiến lược sẽ giúp bạn điều hướng và tận dụng thế giới Bitcoin đang phát triển!
+
+Sẵn sàng khám phá thế giới Bitcoin dành cho doanh nghiệp chưa? Đi thôi!
 
 # Tiền tệ, hệ thống thanh toán và Bitcoin
 
@@ -1327,7 +1330,7 @@ Cuối cùng, cho dù bạn là một thương gia nhỏ hay một doanh nghiệ
 - Số Bitcoin được giữ lại (0,19335) xuất hiện trên bảng cân đối kế toán có giá trị là 7.734 €.
 - Lợi nhuận chưa thực hiện là 5.468 euro từ số Bitcoin được giữ lại được tiết lộ trong các ghi chú tài chính.
 
-# Phần kết luận
+# Phần cuối
 
 <partId>f6ca8d01-a4f3-449b-ac9f-c5fba9a69178</partId>
 

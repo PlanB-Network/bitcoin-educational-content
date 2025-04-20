@@ -1,0 +1,12 @@
+question: 偏執狂比特币玩家使用自己的 LN 節點的主要原因是什麼？
+answer: 維護隱私與安全
+wrong_answers:
+  - 避免 KYC 程序
+  - 管理其 UTXOs
+  - 混合他們的硬幣
+explanation: |
+  本章提到，偏執狂比特币玩家會使用自己的 LN
+  節點作為他們對安全的重視的一部分。雖然避免 KYC 程序、管理
+  UTXOs和混幣也是偏執狂比特幣玩家可能會參與的活動、
+  這些與使用 LN 節點沒有直接關係。
+reviewed: false

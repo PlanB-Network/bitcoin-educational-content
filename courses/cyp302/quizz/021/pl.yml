@@ -1,0 +1,9 @@
+question: Jaki jest termin matematyczny dla obliczeń obejmujących operacje modulo?
+answer: Arytmetyka modułowa
+wrong_answers:
+  - Algebra liniowa
+  - Trygonometria
+  - Geometria dyskretna
+explanation: |
+  Arytmetyka modularna to gałąź matematyki, która zajmuje się operacjami na liczbach w skończonych ramach, przy użyciu operacji modulo.
+reviewed: false

@@ -1,0 +1,11 @@
+question: 驗證 Bitcoin 網路上交易的程序稱為什麼？
+answer: Mining
+wrong_answers:
+  - 挖掘
+  - 收穫
+  - 農業
+explanation: |
+  驗證 Bitcoin 網路上交易的程序稱為 Mining。
+  稱為 Mining。礦工執行加密
+  任務，並獲得發行新比特幣的獎勵。
+reviewed: true

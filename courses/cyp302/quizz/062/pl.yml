@@ -1,0 +1,9 @@
+question: Jaki rodzaj szyfrowania symetrycznego jest używany głównie do ciągłej komunikacji, takiej jak strumienie audio lub wideo?
+answer: Szyfrowanie strumieniowe
+wrong_answers:
+  - Szyfrowanie blokowe
+  - Kod weryfikacyjny
+  - Haszowanie wiadomości
+explanation: |
+  Szyfrowanie strumieniowe jest szczególnie odpowiednie do ciągłej komunikacji, ponieważ szyfruje dane w sposób ciągły, w przeciwieństwie do szyfrowania blokowego, które dzieli je na bloki.
+reviewed: false

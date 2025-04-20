@@ -1,0 +1,11 @@
+question: 在 Bitcoin 的情況下，什麼是 Wallet？
+answer: 比特幣的數位保險箱
+wrong_answers:
+  - 儲存比特幣的實體裝置
+  - Mining 比特幣軟體
+  - 買賣比特幣的平台
+explanation: |
+  本章內容說明比特幣儲存於所謂的
+  Wallet，它是您的錢的數位保險箱。只有鑰匙持有人可以存取
+  它。
+reviewed: false

@@ -16,90 +16,77 @@ proofreading:
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 1.35
+    reward: 1.34
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.57
-
+    reward: 3.55
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.71
-
+    reward: 2.69
   - language: en
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.71
-
+    reward: 2.69
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.71
-
+    reward: 2.69
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.57
-
+    reward: 3.55
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.57
-
+    reward: 3.55
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.44
-
+    reward: 4.41
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.71
-
+    reward: 2.69
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.31
-
+    reward: 5.28
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.57
-
+    reward: 3.55
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.71
-
+    reward: 2.69
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.57
-
+    reward: 3.55
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.31
-
+    reward: 5.28
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.44
+    reward: 4.41
 tags:
   - guides
   - user-friendly

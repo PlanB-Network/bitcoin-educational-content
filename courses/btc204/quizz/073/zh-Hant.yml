@@ -1,0 +1,10 @@
+question: 在下列答案中，哪一個不允許欺騙鏈式分析啟發法？
+answer: 總是使用相同的接收 Address。
+wrong_answers:
+  - 建立數值接近付款的變更。
+  - 製作不規則、非圓形數量的輸出。
+  - 分散全天的交易差異。
+explanation: |
+  尤其不應多次使用接收 Address。所有其他答案都可以避免使用連鎖分析啟發式方法。
+  
+reviewed: false

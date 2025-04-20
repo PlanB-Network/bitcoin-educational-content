@@ -40,7 +40,7 @@ Safari hii imeundwa ili kuwashughulikia washiriki walio na viwango tofauti vya u
 
 <chapterId>4bca9c70-d54d-4e9a-b2db-17c3a6fa655b</chapterId>
 
-![Video](https://youtu.be/QCyWXVWkcAM)
+:::video id=ff6899d2-b47f-4c3d-983d-3bd66d2be59d:::
 
 Pablo anatanguliza usanifu wa Liquid Network, akisisitiza jukumu lake kama Sidechain iliyoshirikishwa hadi Bitcoin. Vipengele muhimu kama vile Confidential Transactions, muundo wa shirikisho, na kazi yake kama sanduku la mchanga kwa uvumbuzi hufunikwa. Washiriki watapata maarifa kuhusu jinsi Liquid inavyokamilisha Bitcoin kwa kutoa miamala ya haraka na ya faragha zaidi.
 
@@ -48,7 +48,7 @@ Pablo anatanguliza usanifu wa Liquid Network, akisisitiza jukumu lake kama Sidec
 
 <chapterId>1e9cfbed-108e-4067-afb9-4cf950cb43d3</chapterId>
 
-![Video](https://youtu.be/9Yu0dPAJSek)
+:::video id=5652dcb2-4303-484c-8be5-d98063b39c1c:::
 
 James anatanguliza programu ya Elements na ushirikiano wake na Liquid Network. Kipindi hiki kinajumuisha mwongozo wa vitendo wa kuendesha nodi ya Liquid, kusanidi Elements ndani ya nchi, na kudhibiti miamala kwa kutumia amri za CLI na RPC.
 
@@ -56,7 +56,7 @@ James anatanguliza programu ya Elements na ushirikiano wake na Liquid Network. K
 
 <chapterId>3ff2df4a-8995-4d5e-9b8a-cd114880e666</chapterId>
 
-![Video](https://youtu.be/zFvv0bn4ZWY)
+:::video id=31368c02-b979-44d7-b217-ceed96c7ca5c:::
 
 Michael anajadili jinsi teknolojia za Layer nyingi, ikiwa ni pamoja na Liquid, Umeme, na Bitcoin, kuboresha ufanisi wa muamala na kutegemewa. Mada kuu ni pamoja na HTLC kwa miamala salama ya Layer na vipengele vya hali ya juu vya uandishi vinavyoboresha mfumo ikolojia wa Bitcoin.
 
@@ -64,7 +64,7 @@ Michael anajadili jinsi teknolojia za Layer nyingi, ikiwa ni pamoja na Liquid, U
 
 <chapterId>1968db03-2364-46c0-9670-9e9844289ca1</chapterId>
 
-![Video](https://youtu.be/6wNeHQBlhA4)
+:::video id=0bac0a62-90f2-41da-ac7c-330c0604bc61:::
 
 Bozza inashughulikia muundo wa shirikisho wa Liquid Network na vipengele vyake vya kiufundi. Mada ni pamoja na ubunifu uliojaribiwa kwenye Liquid, kama vile saini za Schnorr na uandishi wa Urahisi, na usuluhishi unaohusishwa katika kutumia Layer suluhu Mbili.
 
@@ -72,7 +72,7 @@ Bozza inashughulikia muundo wa shirikisho wa Liquid Network na vipengele vyake v
 
 <chapterId>5f4c0e50-b435-4b6c-b8b7-c55cc1a35431</chapterId>
 
-![Video](https://youtu.be/IAdOxZyx7-Y)
+:::video id=07e0b82f-2d60-4eb3-9b5d-2ccb7ad06e8a:::
 
 Chase inaangazia mfumo ikolojia wa Liquid na matumizi yake katika masoko ya mitaji. Anajadili uwekaji tokeni, rasilimali za jumuiya, na zana kama vile Sid Swap na Stokr kwa usimamizi wa mali, pamoja na kuongezeka kwa matumizi ya Liquid katika mazingira ya biashara.
 
@@ -80,7 +80,7 @@ Chase inaangazia mfumo ikolojia wa Liquid na matumizi yake katika masoko ya mita
 
 <chapterId>4f21a0a7-0dc0-44cf-8a3a-d9e2f8a3f05f</chapterId>
 
-![Video](https://youtu.be/AnMiD9amSUg)
+:::video id=f00822b4-dc1a-46ff-adfc-ff7c97a0024d:::
 
 Nardo hutoa muhtasari wa Blockstream AMP, jukwaa la kudhibiti mali ya kidijitali kwenye Liquid. Anachunguza usanifu wa AMP, uwezo wake wa kudhibiti uhamishaji wa mali, na matumizi yake ya vitendo kwa wasanidi programu. Changamoto na maboresho ya baadaye ya AMP pia yameangaziwa.
 
@@ -94,7 +94,7 @@ Nardo hutoa muhtasari wa Blockstream AMP, jukwaa la kudhibiti mali ya kidijitali
 
 <chapterId>fb77442c-3d1e-427e-b2f5-16668ce4c643</chapterId>
 
-![Video](https://youtu.be/ucc3a-udbgo)
+:::video id=1a6289b5-fdae-4320-b5b1-41925150108c:::
 
 Antonio anawasilisha Breeze, SDK ya chanzo huria iliyoundwa kwa ajili ya shughuli zilizogatuliwa kwenye Liquid Network. Anashughulikia vipengele vyake, ikiwa ni pamoja na usaidizi wa vifungo vya lugha nyingi na michakato salama ya shughuli, huku akisisitiza lengo lake la kurahisisha teknolojia ya kifedha kwa watengenezaji.
 

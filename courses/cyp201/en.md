@@ -2345,7 +2345,7 @@ $$
 Then, the generation of the address follows the same process, using the raw public key $Q$ as the payload, accompanied by some additional metadata.
 
 And there you have it! We have reached the end of this CYP201 course. If you found this course helpful, I would be very grateful if you could take a few moments to give it a good rating in the following evaluation chapter. Feel free to also share it with your loved ones or on your social networks. Finally, if you wish to obtain your diploma for this course, you can take the final exam right after the evaluation chapter.
-# Conclusion
+# Final Section
 <partId>58111408-b734-54db-9ea7-0d5b67f99f99</partId>
 
 ## Reviews & Ratings

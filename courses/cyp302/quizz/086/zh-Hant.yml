@@ -4,5 +4,6 @@ wrong_answers:
   - 它需要長度可變的金鑰
   - 它無法處理 128 位元以上的訊息
   - 它無法處理超過 256 位元的訊息
-  The ECB method (Electronic Code Book) is deterministic: identical blocks of data are encrypted in the same way, which allows patterns to be detected in the encrypted text.
+explanation: |
+  ECB 方法（電子編碼簿）是確定性的：相同的資料區塊以相同的方式加密，因此可以從加密的文字中偵測出模式。
 reviewed: false

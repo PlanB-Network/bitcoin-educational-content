@@ -1,0 +1,9 @@
+question: Jaką koncepcję ekonomiczną podkreśla Bastiat w swojej analizie kosztów zniszczenia?
+answer: Koszt alternatywny
+wrong_answers:
+  - Koszt krańcowy
+  - Wydajność krańcowa
+  - Koszt produkcji
+explanation: |
+  Bastiat podkreśla znaczenie kosztu alternatywnego, ilustrując, że zasoby wykorzystane do naprawy zniszczeń mogły zostać wykorzystane do stworzenia bogactwa w innym miejscu.
+reviewed: false

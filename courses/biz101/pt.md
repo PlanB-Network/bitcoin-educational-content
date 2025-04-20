@@ -22,9 +22,10 @@ Quer seja uma **pequena empresa ou uma grande corporação**, integrar o Bitcoin
 
 <partId>326cf945-5d3f-4d86-8c3e-4d1c35959799</partId>
 
-## Integrar a sua empresa na Bitcoin
-
+## Visão geral do curso
 <chapterId>1be42be9-4080-49f5-b5b2-6b531dd55f5f</chapterId>
+
+Bem-vindo ao curso BIZ101!
 
 Comece a jornada da sua empresa na rede Bitcoin com este curso de treinamento abrangente - uma porta de entrada para entender como o Bitcoin e a Lightning Network podem revolucionar as operações comerciais tradicionais. Este curso foi concebido para retalhistas, empresários, gestores e decisores empresariais que pretendam explorar as capacidades práticas da Bitcoin como uma rede monetária global, nativa da Internet, e um meio robusto de troca de valores.
 
@@ -33,6 +34,8 @@ Ao longo do curso, ser-lhe-ão apresentados os princípios fundamentais que torn
 O curso começa com uma análise detalhada das moedas convencionais e dos mecanismos de pagamento, lançando as bases ao explorar a forma como a moeda funciona como uma rede para permitir o comércio, a poupança e a especialização económica. Posteriormente, iremos aprofundar a tecnologia por detrás da Bitcoin e as inovações introduzidas pela Lightning Network, revelando os seus papéis na facilitação de transacções contínuas, seguras e quase instantâneas que podem servir empresas de todas as dimensões. Em seguida, mergulharemos nas secções práticas deste curso, começando com uma parte sobre a posse de bitcoins como tesouraria, seguida de uma parte final sobre a aceitação da bitcoin como meio de pagamento.
 
 Quer represente uma pequena empresa ou uma grande corporação, este curso tem como objetivo equipá-lo com os conhecimentos necessários para integrar a Bitcoin nas suas operações diárias, aumentando assim a resiliência, a eficiência e a vantagem competitiva da sua empresa. À medida que a Bitcoin continua a remodelar a paisagem económica, compreender estas tecnologias inovadoras não é apenas uma opção, mas uma necessidade estratégica. Prepare-se para se envolver com conteúdos perspicazes, exemplos práticos e orientações estratégicas que lhe permitirão navegar e tirar partido do mundo em evolução da Bitcoin!
+
+Pronto para mergulhar no mundo do Bitcoin para empresas? Vamos lá!
 
 # Moeda, sistemas de pagamento e Bitcoin
 
@@ -1353,7 +1356,7 @@ Finalmente, quer se trate de um pequeno comerciante ou de uma empresa mais estab
 - O Bitcoin retido (0,19335) aparece no balanço avaliado em 7 734 euros.
 - Ganhos não realizados de €5.468 em Bitcoin retido divulgados em notas financeiras.
 
-# Conclusão
+# Seção final
 
 <partId>f6ca8d01-a4f3-449b-ac9f-c5fba9a69178</partId>
 
@@ -1367,10 +1370,10 @@ Finalmente, quer se trate de um pequeno comerciante ou de uma empresa mais estab
 
 <chapterId>40a0f18c-bdc9-45b2-8dea-15f7e574230e</chapterId>
 
-<isCourseExam>verdadeiro</isCourseExam>
+<isCourseExam>true</isCourseExam>
 
 ## Conclusão
 
 <chapterId>5503c23e-3a90-4a23-8d89-75e3cc1ee53e</chapterId>
 
-<isCourseConclusion>verdadeiro</isCourseConclusion>
+<isCourseConclusion>true</isCourseConclusion>

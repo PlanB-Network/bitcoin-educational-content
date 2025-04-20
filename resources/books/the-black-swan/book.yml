@@ -7,7 +7,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.44
+    reward: 0.43
   - language: de
     last_contribution_date:
     urgency: 1
@@ -18,7 +18,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - Asi0Flammeus
-    reward: 0.18
+    reward: 0.17
   - language: es
     last_contribution_date:
     urgency: 1
@@ -28,7 +28,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.44
+    reward: 0.43
   - language: fr
     last_contribution_date:
     urgency: 1
@@ -43,7 +43,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.61
+    reward: 0.6
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -53,33 +53,32 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.44
+    reward: 0.43
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.61
+    reward: 0.6
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.52
+    reward: 0.51
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.52
+    reward: 0.51
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.44
-
+    reward: 0.43
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.44
+    reward: 0.43
 tags:
   - risks
   - technical-analysis

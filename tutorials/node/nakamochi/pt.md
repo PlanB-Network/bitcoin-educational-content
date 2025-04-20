@@ -50,7 +50,7 @@ _Configurar nova carteira no separador Relâmpago_
 
 _Scan QR Code with Node Management App_
 
-![image](asset/en/05.webp)
+![image](assets/en/05.webp)
 
 _Para maior segurança, definir um código PIN_
 
@@ -86,7 +86,7 @@ Assim que a sua Nakamochi estiver configurada e ligada a uma aplicação de gest
 
 5. Clique em **"Abrir canal "**.
 
-![image](asset/en/06.webp)
+![image](assets/en/06.webp)
 
 captura de ecrã de _ZEUS_
 
@@ -104,7 +104,7 @@ Para obter mais informações: [Channels | Zeus Documentation](https://docs.zeus
 
 5. Introduza o montante bloqueado (escolha com o seu par ou utilize o montante fixo mínimo para nós bem conhecidos).
 
-![image](asset/en/07.webp)
+![image](assets/en/07.webp)
 
 captura de ecrã de Bitbanana_
 

@@ -1,0 +1,11 @@
+question: Czym jest Hot Wallet w kontekście Bitcoin?
+answer: Cyfrowy Wallet używany do przechowywania, wysyłania i odbierania Bitcoin
+wrong_answers:
+  - Fizyczny Wallet używany do przechowywania Bitcoin
+  - Metoda zakupu Bitcoin
+  - Platforma Bitcoin Exchange
+explanation: |
+  W kontekście Bitcoin, Hot Wallet jest cyfrowym Wallet używanym do
+  przechowywania, wysyłania i odbierania Bitcoin. Jest on zazwyczaj połączony z Internetem
+  i dlatego jest mniej bezpieczny niż Cold Wallet.
+reviewed: false

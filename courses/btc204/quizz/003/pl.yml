@@ -1,0 +1,9 @@
+question: Jaki jest wpływ transakcji Bitcoin na wyjścia UTXO?
+answer: Tworzy je przy użyciu UTXO zużywanych w wejściach.
+wrong_answers:
+  - Zużywa je, aby zaspokoić potrzeby wejściowe.
+  - Szyfruje je w celu anonimizacji odbiorcy.
+  - Tymczasowo dzieli je w celu weryfikacji.
+explanation: |
+  UTXO na wyjściu transakcji są tworzone poprzez konsumpcję UTXO na wejściu. Jest to w pewnym sensie przeznaczenie pieniędzy.
+reviewed: false

@@ -212,5 +212,6 @@ https://armantheparman.com/ledgersparrow/
 
 Чтобы углубить знания по этой теме и усилить безопасность вашего кошелька на Ledger Nano с BIP39 passphrase, я приглашаю вас ознакомиться с этим полным руководством:
 
-https://planb.network/tutorials/wallet/hardware/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+
 

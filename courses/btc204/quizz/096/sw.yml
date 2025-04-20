@@ -5,5 +5,6 @@ wrong_answers:
   - Idadi ya vyanzo vinavyowezekana vya UTXO mwanzoni mwa mizunguko.
   - Muda unaohitajika kukamilisha CoinJoin.
 explanation: |
-Anoset ya kurudi nyuma inaonyesha idadi ya vyanzo vinavyowezekana vya sarafu fulani, kwa kuzingatia UTXO mwishoni mwa mzunguko.
+  Anoset ya kurudi nyuma inaonyesha idadi ya vyanzo vinavyowezekana vya sarafu fulani, kwa kuzingatia UTXO mwishoni mwa mzunguko.
+  
 reviewed: false

@@ -4,5 +4,6 @@ wrong_answers:
   - Hali ya mawasiliano
   - Hali ya ulinganifu
   - Hali ya usambazaji
-  A set S with a binary operation must satisfy several conditions to form a group, and the first is the closure condition: the operation between two elements of S must yield an element of S.
+explanation: |
+  Seti ya S yenye operesheni ya binary lazima ikidhi masharti kadhaa ili kuunda kikundi, na ya kwanza ni hali ya kufungwa: operesheni kati ya Elements mbili za S lazima itoe kipengele cha S.
 reviewed: false

@@ -6,157 +6,159 @@ description: Come partecipare alla revisione dei contenuti didattici di Plan ₿
 
 ## In sintesi
 
-Se vuoi partecipare al proofreading o alla correzione di contenuti per Plan ₿ Network, unisciti al [nostro gruppo Telegram](https://t.me/PlanBNetwork_ContentBuilder) dedicato ai contributi. Presentati brevemente, poi specifica il contenuto che vorresti revisionare e la lingua. Apportate le vostre correzioni su un ramo funzionante e inviate un PR una volta completata la revisione.
+Se vuoi partecipare al proofreading o alla correzione di contenuti per Plan ₿ Network, unisciti al [nostro gruppo Telegram](https://t.me/PlanBNetwork_ContentBuilder) dedicato alle collaborazioni. Presentati brevemente, poi specifica il contenuto che vorresti revisionare e la lingua. Apporta le tue correzioni su un 'branch' di lavoro e invia un PR una volta completata la revisione.
 
-Se non avete capito la parte precedente, non preoccupatevi: questo tutorial è per voi!
+Se non hai capito quello che hai appena letto, non preoccuparti: questo tutorial è per te!
 
 ---
 ## Che cos'è Plan ₿ Network?
 
-Plan ₿ Network è una piattaforma per imparare a conoscere Bitcoin attraverso numerosi corsi e tutorial per tutti. Attualmente, tutti i nostri contenuti sono open-source, ospitati su un repository GitHub e aperti a contributi per la revisione e la creazione di contenuti.
+Plan ₿ Network è una piattaforma per imparare a conoscere Bitcoin attraverso numerosi corsi e tutorial per tutti. Attualmente, tutti i nostri contenuti sono open-source, ospitati su un repository GitHub e aperti a collaborazioni per la revisione e la creazione di contenuti.
 
 Plan ₿ Network mira a diventare la piazza pubblica del cyberspazio Bitcoin, collegando e incoraggiando le comunità Bitcoin in tutto il mondo.
 
 ## Perché contribuire?
 
-Plan ₿ Network è fondamentalmente multilingue, poiché il nostro obiettivo è quello di rendere le risorse Bitcoin accessibili a tutti in tutto il mondo. Crediamo che la lingua non debba essere una barriera per la moneta sovrana.
+Plan ₿ Network è fondamentalmente multilingue, poiché il nostro obiettivo è quello di rendere le risorse su Bitcoin accessibili a tutti, in tutto il mondo. Crediamo che la lingua non debba essere un ostacolo alla moneta libera.
 
-Per raggiungere questo obiettivo, utilizziamo un approccio Human x AI. Grazie al nostro [programma] (https://github.com/Asi0Flammeus/LLM-Translator), possiamo tradurre automaticamente i nostri contenuti in molte lingue. Tuttavia, abbiamo bisogno di una persona che parli correntemente per verificare che il contenuto sia comprensibile e privo di termini inappropriati.
+Per raggiungere questo obiettivo, utilizziamo un approccio Human x AI. Attraverso il nostro [programma] (https://github.com/Asi0Flammeus/LLM-Translator), possiamo tradurre automaticamente i nostri contenuti in molte lingue. Tuttavia, abbiamo bisogno di una persona che parli correntemente per verificare che il contenuto sia comprensibile e privo di termini inappropriati.
 
-Se volete contribuire a costruire questo progetto educativo per promuovere l'educazione alla Bitcoin nella vostra comunità, potete iniziare recensendo un corso o un'esercitazione.
+Se vuoi contribuire a costruire questo progetto educativo per promuovere l'educazione su Bitcoin nella tua comunità, puoi iniziare revisionando un corso o un'esercitazione.
 
-Inoltre, poiché abbiamo a cuore il modello *Value4Value*, premieremo i contributi delle recensioni. La ricompensa si baserà sulla lunghezza del contenuto, sull'accuratezza linguistica della nostra auto-traduzione e sulla difficoltà del contenuto.
+Inoltre, poiché abbiamo a cuore il modello *Value4Value*, premieremo i contributi alle recensioni. La ricompensa si baserà sulla lunghezza del contenuto, sull'accuratezza linguistica della nostra auto-traduzione e sulla difficoltà del contenuto.
 
 ## Devo sapere come funziona GitHub?
 
-Non è necessario essere un esperto di GitHub per revisionare i contenuti. Anche se è sempre meglio capire cosa si sta facendo (e perché), per contribuire è sufficiente seguire le istruzioni riportate di seguito.
+Non è necessario essere esperti di GitHub per revisionare i contenuti. Anche se è sempre meglio capire cosa si sta facendo (e perché), è sufficiente seguire le istruzioni riportate di seguito per contribuire.
 
-Tuttavia, se non conoscete Git e GitHub e volete saperne di più, potete consultare il nostro articolo introduttivo su questi strumenti:
+Tuttavia, se non conosci Git e GitHub e vuoi saperne di più, puoi consultare il nostro articolo introduttivo su questi strumenti:
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
-## 1. Creare un account
-
-
-- Create un account su [GitHub](https://github.com/) per iniziare a contribuire. Se volete una guida alla creazione del vostro account GitHub, si può cliccare sul tutorial menzionato sopra.
-
-- È inoltre necessario un account sull'app di messaggistica [Telegram] (https://telegram.org/).
-
-## 2. Unitevi al gruppo Telegram
+https://planb.network/tutorials/others/contribution/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+## 1. Crea un account
 
 
-- Unitevi a [il gruppo PBN Content Builder](https://t.me/PlanBNetwork_ContentBuilder) su Telegram.
+
+- Crea un account su [GitHub](https://github.com/) per iniziare a contribuire. Se vuoi una guida alla creazione del tuo account GitHub, puoi cliccare sul tutorial menzionato qui sopra.
+
+- Avrai anche bisogno di un account sull'app di messaggistica [Telegram] (https://telegram.org/).
+
+## 2. Unisciti al gruppo Telegram
+
+
+- Unisciti a [il gruppo PBN Content Builder](https://t.me/PlanBNetwork_ContentBuilder) su Telegram.
 
 ![REVIEW](assets/fr/01.webp)
 
 
-- Presentatevi brevemente e specificate il contenuto a cui volete contribuire e la lingua in un messaggio al canale "Generale".
-- Un membro del team creerà quindi un problema su GitHub per il vostro futuro contributo. Lì troverete tutte le informazioni necessarie per iniziare la vostra revisione.
+- Presentati brevemente e specifica, in un messaggio nel canale "General" il contenuto a cui vuoi contribuire e in che lingua.
+- Un membro del team creerà quindi una 'issue' su GitHub per il tuo futuro contributo. Lì troverai tutte le informazioni necessarie per iniziare la tua revisione.
 
 ![REVIEW](assets/fr/02.webp)
 
-## 3. Rivedere e modificare il contenuto tramite l'interfaccia di GitHub
+## 3. Rivedi e modifica il contenuto tramite l'interfaccia di GitHub
 
 
-- Il problema contiene una descrizione (cfr. \**A\**) con link al contenuto originale e al file da revisionare.
-- Se volete occuparvi della revisione, lasciate un commento sul problema (cfr. \**B\**) per indicare che ve ne occuperete. In questo modo si evita di duplicare gli sforzi.
-- Fare clic sul link accanto al file da esaminare (cfr. \**C\**) per accedere al contenuto.
+- La 'issue' contiene una descrizione (cfr. \**A\**) con i link al contenuto originale e al file da revisionare.
+- Se vuoi occuparti della revisione, lascia un commento sulla 'issue' (cfr. \**B\**) per indicare che te ne occuperai. In questo modo si evita che ci siano revisioni sovrapposte.
+- Fai clic sul link accanto al file da esaminare (cfr. \**C\**) per accedere al contenuto.
 
 ![REVIEW](assets/fr/03.webp)
 
 
-- Ora è possibile visualizzare l'interfaccia GitHub del file da esaminare.
-- Il pannello di sinistra consente di navigare tra i rami (cfr. \**A\**) e i file (cfr. \**B\**).
-- Fare clic sull'icona della matita per avviare la revisione (cfr. \**C\**).
+- Ora puoi visualizzare l'interfaccia GitHub del file da revisionare.
+- Il pannello di sinistra consente di navigare nel tuo branch (cfr. \**A\**) e nei file (cfr. \**B\**).
+- Clicca sull'icona a forma di matita per avviare la revisione (cfr. \**C\**).
 
 ![REVIEW](assets/fr/04.webp)
 
 
-- Se questo è il vostro primo contributo, GitHub vi chiederà di creare un fork del repository sorgente. Basta fare clic sul pulsante.
+- Se questo è il tuo primo contributo, GitHub ti chiederà di creare un fork del repository sorgente. Basta fare clic sul pulsante.
 
 ![REVIEW](assets/fr/05.webp)
 
 
-- Si arriva quindi all'interfaccia dell'editor (cfr. \**A\**), dove è possibile vedere il percorso del file e il ramo corrispondente (cfr. \**B\**) e passare dalla modalità di modifica a quella di anteprima (cfr. \**C\**).
+- Arriverai poi all'interfaccia dell'editor (cfr. \**A\**), dove potrai vedere il percorso del file e il 'branch' corrispondente (cfr. \**B\**) e passare dalla modalità di modifica a quella di anteprima (cfr. \**C\**).
 
 ![REVIEW](assets/fr/06.webp)
 
-NB. Si consiglia di effettuare la revisione nella finestra del codice, con il contenuto originale visualizzato in una finestra separata. Ad esempio, è possibile visualizzare il testo sul sito web di Plan ₿ Network o nell'anteprima di GitHub in una scheda del browser. Utilizzare `ctrl + F` per individuare gli errori e apportare le correzioni nella visualizzazione del codice mentre si procede.
+NB. Si consiglia di effettuare la revisione nella finestra del codice, con il contenuto originale visualizzato in una finestra separata. Ad esempio, puoi visualizzare il testo sul sito web di Plan ₿ Network o nell'anteprima di GitHub in una scheda del browser. Utilizza `ctrl + F` per individuare gli errori e apportare le correzioni nella visualizzazione del codice mentre procedi.
 
-## 4. Impegnare le modifiche
+## 4. Conferma le modifiche
 
 
-- Potete iniziare a rivedere e correggere i contenuti, se necessario.
-- Quando si desidera mettere in pausa la sessione, è possibile eseguire il commit delle modifiche, anche se la revisione non è ancora terminata. È come salvare i propri progressi su GitHub.
-- Fare clic sul pulsante "Impegna le modifiche...".
+- Puoi iniziare a rivedere e correggere i contenuti, se necessario.
+- Quando vuoi mettere in pausa la sessione, è possibile eseguire la conferma delle modifiche, anche se la revisione non è ancora terminata. È come salvare i propri progressi su GitHub.
+- Fare clic sul pulsante "Commit Changes...".
 
 ![REVIEW](assets/fr/07.webp)
 
 
-- Aggiungere un messaggio descrittivo per le modifiche (cfr. \**A\**).
-- Se necessario, aggiungere ulteriore contesto nella descrizione (cfr. \**B\**).
-- Fare clic sul pulsante "Proporre modifiche" (cfr. \**C\**).
+- Inserisci un messaggio descrittivo per le tue modifiche (cfr. \**A\**).
+- Se necessario, aggiungi più dettagli nella descrizione (cfr. \**B\**).
+- Clicca sul pulsante "Propose changes" (cfr. \**C\**).
 
 ![REVIEW](assets/fr/08.webp)
 
 
-- Se questo non è il vostro primo contributo, GitHub vi chiederà di creare un nuovo ramo. Non si dovrebbe mai fare un commit direttamente sul ramo principale `dev`. Se sono già stati fatti dei commit su un ramo di lavoro esistente, selezionare quel ramo. Altrimenti, scegliere l'opzione "Crea un nuovo ramo" per crearne uno nuovo.
+- Se questo non è il tuo primo contributo, GitHub ti chiederà di creare un nuovo branch. Non devi mai fare un commit (salvataggio) direttamente sul branch principale `dev`. Se hai gia effettuato dei commit su un branch di lavoro esistente, seleziona quello. Altrimenti, scegli l'opzione "Create a new branch" per crearne uno nuovo.
 
 ![REVIEW](assets/fr/13.webp)
 
 
-- Si accede quindi a una pagina che riassume tutte le modifiche apportate. Scorrendola, si possono vedere le modifiche precise: le voci eliminate appaiono in rosso, mentre quelle aggiunte in verde.
+- Accederai poi ad una pagina che riassume tutte le modifiche apportate. Scorrendola, potrai vedere le modifiche precise: le voci eliminate appaiono in rosso, mentre quelle aggiunte in verde.
 
 ![REVIEW](assets/fr/09.webp)
 
 
-- Se non si è completata la revisione e si desidera continuare il lavoro in un secondo momento, è sufficiente uscire.
-- Finché le modifiche sono state impegnate, vengono salvate sul proprio fork GitHub.
-- Per riprendere il lavoro, accedere al proprio fork del repository dei contenuti di Plan ₿ Network tramite il proprio profilo GitHub.
+- Se non hai completato la tua revisione e desideri continuare il lavoro in un secondo momento, è sufficiente uscire.
+- Dal momento in cui è stato fatto un "commit changes", le modifiche vengono salvate sul tuo fork GitHub.
+- Per riprendere il lavoro, accedi alla repository dei contenuti di Plan ₿ Network del tuo fork, tramite il tuo profilo GitHub.
 
 ![REVIEW](assets/fr/14.webp)
 
 
-- Selezionate il ramo che contiene i vostri progressi (cfr. \**A\**), individuate il vostro file di contenuto (cfr. \**B\**), quindi fate clic sull'icona della matita per continuare la revisione.
+- Seleziona il branch che contiene i tuoi progressi (cfr. \**A\**), individua il tuo file di contenuto (cfr. \**B\**), quindi fai clic sull'icona della matita per continuare la revisione.
 
 ![REVIEW](assets/fr/15.webp)
 
-## 5. Creare una PR con il ramo dedicato
+## 5. Creare una PR con il branch dedicato
 
 
-- Se tutto sembra a posto e le modifiche sono state completate, fare clic sul pulsante verde "Create Pull Request".
+- Se tutto ti sembra a posto e le modifiche sono state completate, fai clic sul pulsante verde "Create Pull Request".
 
 ![REVIEW](assets/fr/10.webp)
 
 
-- Si arriva quindi alla pagina PR. Una richiesta di pull è una richiesta di invio di modifiche apportate a un ramo di un repository remoto per la revisione e l'eventuale fusione nel ramo principale.
-- Aggiungete un titolo e una breve descrizione alla vostra PR. Il titolo deve corrispondere al tema su cui si sta lavorando. Ad esempio, se il titolo del numero è `[TRANSLATION] Course CYP201 - FR`, usate lo stesso titolo per la vostra PR (cfr. \**A\**). Nella descrizione, menzionate il problema associato usando il suo numero, preceduto da "Chiude". Questo chiuderà automaticamente il problema una volta che la PR sarà unita (cfr. \**B\**).
-- Se tutto sembra a posto, fare clic sul pulsante verde "Create Pull Request" (cfr. \**C\**).
+- A questo punto arrivi alla pagina PR. Una Pull Request è una richiesta di sottoporre le modifiche apportate su un branch di un repository remoto per la revisione e l'eventuale integrazione nel branch principale.
+- Aggiungi un titolo e una breve descrizione alla tua PR. Il titolo deve corrispondere alla issue su cui si sta lavorando. Ad esempio, se il titolo della issue è `[TRANSLATION] Course CYP201 - FR`, usate lo stesso titolo per la vostra PR (cfr. \**A\**). Nella descrizione, menzionate il problema associato usando il suo numero, preceduto da "Closes". In questo modo la issue verrà chiusa automaticamente una volta che la PR sarà accettata e integrata (cfr. \**B\**).
+- Se tutto ti sembra a posto, fai clic sul pulsante verde "Create Pull Request" (cfr. \**C\**).
 
 ![REVIEW](assets/fr/11.webp)
 
 6. Regole da seguire durante il proofreading dei contenuti
 
-- Prima di iniziare una nuova revisione, annuncialo nel [gruppo Telegram](https://t.me/PlanBNetwork_ContentBuilder) o informa il tuo coordinatore di Plan ₿ Network. Apriranno una [issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues), dove puoi commentare che stai iniziando il lavoro.
-- È importante controllare sempre la versione originale in inglese (o francese) del corso/tutorial durante la revisione. Sentiti libero di apportare modifiche per migliorare la fluidità, ma non cambiare il significato originale complessivo.
-- Gli strumenti LLM possono tradurre letteralmente alcune parole relative a Bitcoin, come Lightning Network, che diventerebbe "Rete Fulmine" in italiano. In casi come questo, è consigliabile utilizzare la parola originale in inglese per una maggiore chiarezza, a meno che le regole della tua lingua non ti impongano di tradurre ogni singola parola.
-- Se trovi citazioni, assicurati di fare delle ricerche online per trovare la traduzione corretta nella tua lingua.
+- Prima di iniziare una nuova revisione, annuncialo nel [gruppo Telegram](https://t.me/PlanBNetwork_ContentBuilder) o informa il tuo coordinatore di Plan ₿ Network. Verrà aperta una [issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues), dove potrai commentare per comunicare che stai iniziando il lavoro.
+- È importante controllare sempre la versione originale in inglese (o francese) del corso/tutorial durante la revisione. Sentiti libero di apportare modifiche per migliorare la fluidità, ma non cambiare il significato complessivo del testo.
+- Gli strumenti LLM possono tradurre letteralmente alcune parole relative a Bitcoin, come Lightning Network, che diventerebbe "Rete Fulmine" in italiano. In casi come questo, è consigliabile mantenere il termine originale in inglese per una maggiore chiarezza, a meno che le regole grammaticali della tua lingua non impongano la traduzione di ogni singola parola.
+- Se trovi delle citazioni, assicurati di fare delle ricerche online per trovare la traduzione corretta nella tua lingua.
 - NON tradurre le parole statiche all'inizio del testo, che vengono utilizzate per descrivere il suo contenuto: "name", "description", "objectives".
-- Se trovi "Plan ₿ Network" nel testo, lascialo in questa forma originale. Non tradurre la parola "plan" o la parola "network". Inoltre, NON utilizzare l'articolo "IL" quando presenti Plan ₿ Network, e consideralo come un marchio. Lo stesso vale per "B-CERT", "BIZ SCHOOL", "TECH SCHOOL", che dovrebbero essere mantenuti anche nella forma originale.
-- Fai attenzione a punteggiatura strana come `\*\*\`, che potrebbe rappresentare una cattiva resa del simbolo in grassetto **. Controlla sempre il testo originale in inglese per vedere se è previsto un testo in grassetto. Puoi trovare ulteriori informazioni sul linguaggio markdown [qui](https://www.markdownguide.org/basic-syntax/).
+- Se nel testo trovi "Plan ₿ Network", lascialo in questa forma originale. Non tradurre la parola "plan" o la parola "network". Inoltre, NON utilizzare l'articolo "IL" quando presenti Plan ₿ Network, e consideralo come un marchio. Lo stesso vale per "B-CERT", "BIZ SCHOOL", "TECH SCHOOL", che dovranno mantenere questa forma originale.
+- Fai attenzione a punteggiature strane come `\*\*\`, che potrebbero indicare un errore nella visualizzazione del grassetto **. Controlla sempre il testo originale in inglese per vedere se è previsto un testo in grassetto. Puoi trovare ulteriori informazioni sul linguaggio markdown [qui](https://www.markdownguide.org/basic-syntax/).
+
 - Quando hai finito la tua revisione, puoi tornare alla issue iniziale aperta dal coordinatore, commentare con "Proofreading done" e inserire il link della tua PR.
 
-7. Attendere la revisione degli admin
+7. In attesa di revisione
 
 
-- Congratulazioni, la tua PR è stata inviata! È possibile seguirne l'avanzamento nella scheda "Richieste di modifica" del [repository GitHub di Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/pulls):
+- Congratulazioni, la tua PR è stata inviata! puoi seguirne l'avanzamento nella sezione "Pull requests" del [repository GitHub di Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/pulls):
 
 ![REVIEW](assets/fr/12.webp)
 
 
-- Grazie mille per il vostro contributo! Dopo l'approvazione, un membro del team di Plan ₿ Network vi contatterà per inviare la vostra ricompensa. \**I pagamenti vengono effettuati esclusivamente tramite la rete Lightning\**.
-- Se volete ricominciare, tornate al punto 2 e inviate un nuovo messaggio nel gruppo Telegram per continuare a contribuire ad altri contenuti. Assicuratevi di sincronizzare il vostro fork prima di creare un nuovo ramo di lavoro. Per farlo, andate nella homepage del vostro fork, selezionate il ramo principale chiamato `dev` (cfr. \**A\**), quindi fate clic sul pulsante "Sync fork" (cfr. \**B\**). Se sono disponibili aggiornamenti per il vostro fork, apparirà il pulsante "Update branch". È sufficiente fare clic su di esso per eseguire l'aggiornamento.
+- Grazie mille per il tuo contributo! Dopo l'approvazione, un membro del team di Plan ₿ Network ti contatterà per inviati la tua ricompensa. \**I pagamenti vengono effettuati esclusivamente tramite la rete Lightning\**.
+- Se vuoi contribuire di nuovo, torna al punto 2 e invia un nuovo messaggio nel gruppo Telegram per iniziare a lavorare su un altro contenuto. Assicurati di sincronizzare il tuo fork prima di creare un nuovo branch di lavoro. Per farlo, vai nella homepage del tuo fork, seleziona il branch principale chiamato `dev` (cfr. \**A\**), quindi fai clic sul pulsante "Sync fork" (cfr. \**B\**). Se sono disponibili aggiornamenti per il tuo fork, apparirà un pulsante "Update branch". Ti basterà cliccarlo per eseguire l'aggiornamento.
 
 ![REVIEW](assets/fr/16.webp)
 
 
-- Se avete osservazioni, domande o commenti su questo progetto, sentitevi liberi di inviare un DM [al gruppo Telegram dei collaboratori](https://t.me/PlanBNetwork_ContentBuilder).
+- Se hai osservazioni, domande o commenti su questo progetto, sentiti libero di inviare un DM [al gruppo Telegram dei collaboratori](https://t.me/PlanBNetwork_ContentBuilder).

@@ -5,8 +5,5 @@ wrong_answers:
   - Si riferisce a valute che hanno valore solo per transazioni fiduciarie.
   - Si riferisce a valute che sono utilizzate solo all'interno di una specifica istituzione.
 explanation: |
-  Le valute fiduciarie non sono supportate da una merce fisica
-  come l'oro o l'argento. Il loro valore deriva dalla fiducia
- che le persone hanno nelle istituzioni che le emettono
-  e le regolano.
+  Le valute fiduciarie non sono supportate da una merce fisica come l'oro o l'argento. Il loro valore deriva dalla fiducia che le persone hanno nelle istituzioni che le emettono e le regolano.
 reviewed: true

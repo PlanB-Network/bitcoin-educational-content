@@ -1,0 +1,10 @@
+question: Który algorytm Exchange klucza kryptograficznego jest podstawą działania BIP47?
+answer: ECDH
+wrong_answers:
+  - RSA
+  - ElGamal
+  - Diffie-Hellman
+explanation: |
+  Stosowany algorytm to ECDH (Elliptic Curve Diffie-Hellman). Jest to wariant klasycznego algorytmu Diffie-Hellmana, który wykorzystuje krzywe eliptyczne.
+  
+reviewed: false

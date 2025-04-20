@@ -4,5 +4,6 @@ wrong_answers:
   - Sehemu moja ya biti 512
   - Sehemu tatu za bits 170
   - Sehemu nne za bits 128
-  The output of HMAC-SHA512 is divided into two parts: the master private key (256 bits) and the master chain code (256 bits).
+explanation: |
+  Matokeo ya HMAC-SHA512 imegawanywa katika sehemu mbili: ufunguo wa kibinafsi wa bwana (256 bits) na msimbo wa mnyororo mkuu (256 bits).
 reviewed: false

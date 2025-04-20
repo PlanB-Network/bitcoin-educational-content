@@ -7,7 +7,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.36
+    reward: 0.35
   - language: de
     last_contribution_date:
     urgency: 1
@@ -18,7 +18,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - Asi0Flammeus
-    reward: 0.15
+    reward: 0.14
   - language: es
     last_contribution_date:
     urgency: 1
@@ -28,7 +28,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.36
+    reward: 0.35
   - language: fr
     last_contribution_date:
     urgency: 1
@@ -43,7 +43,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.49
+    reward: 0.47
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -53,33 +53,32 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.36
+    reward: 0.35
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.49
+    reward: 0.47
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.42
+    reward: 0.41
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.42
+    reward: 0.41
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.36
-
+    reward: 0.35
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.36
+    reward: 0.35
 tags:
   - good-practice
   - protocols

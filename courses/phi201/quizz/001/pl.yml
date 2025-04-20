@@ -1,0 +1,9 @@
+question: Jaka jest różnica między historią a filozofią?
+answer: Wszystkie pozostałe odpowiedzi
+wrong_answers:
+  - Historia opisuje przeszłość, podczas gdy filozofia ją osądza
+  - Historia jest faktem, podczas gdy filozofia jest normatywna
+  - Historia koncentruje się na wydarzeniach, podczas gdy filozofia skupia się na koncepcjach
+explanation: |
+  Różnica między historią a filozofią polega na ich podejściu: historia koncentruje się na opisywaniu i analizowaniu przeszłych wydarzeń, podczas gdy filozofia stara się oceniać, interpretować i ustanawiać normy oparte na abstrakcyjnych pojęciach.
+reviewed: false

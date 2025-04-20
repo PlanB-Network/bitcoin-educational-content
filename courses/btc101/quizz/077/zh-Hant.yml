@@ -1,0 +1,12 @@
+question: 共用 Bitcoin Wallet 的公開金鑰會有什麼風險？
+answer: 失去隱私
+wrong_answers:
+  - 摧毀 Bitcoin Wallet。
+  - 失去比特幣
+  - 破解 Bitcoin Wallet。
+explanation: |
+  共用公開金鑰涉及隱私風險，但不涉及
+  安全性。這是因為公開密碼匙是用來
+  generate Bitcoin 地址，從而收到錢，但它並不代表比特幣的 Ownership
+  不代表比特幣的 Ownership。
+reviewed: true

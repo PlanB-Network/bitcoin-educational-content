@@ -1,0 +1,9 @@
+question: Jaki podstawowy warunek musi spełniać zbiór S z operacją binarną, aby być grupą?
+answer: Warunek zamknięcia
+wrong_answers:
+  - Warunek przemienności
+  - Warunek symetrii
+  - Warunek rozdzielności
+explanation: |
+  Zbiór S z operacją binarną musi spełniać kilka warunków, aby utworzyć grupę, a pierwszym z nich jest warunek zamknięcia: operacja między dwoma Elements S musi dać element S.
+reviewed: false

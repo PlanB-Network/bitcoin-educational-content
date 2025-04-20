@@ -24,10 +24,11 @@ Schließen Sie sich uns an, um Ihre Nutzung von Bitcoin zu verändern und ein in
 
 <partId>e17474a8-8899-4bdb-a7f8-bc52ddb01440</partId>
 
-## Einführung in die Ausbildung
+## Kursübersicht
 
 <chapterId>08ba1933-f393-4fb5-8279-777d874caedb</chapterId>
 
+Willkommen im Kurs BTC204!
 
 In einer Welt, in der die Vertraulichkeit von Finanztransaktionen allmählich zum Luxus wird, ist das Verständnis und die Beherrschung der Grundsätze des Datenschutzes bei der Verwendung von Bitcoin unerlässlich. Dieser Kurs gibt Ihnen alle Schlüssel, sowohl theoretisch als auch praktisch, um dies selbstständig zu erreichen.
 
@@ -45,37 +46,38 @@ Diese Schulung soll einen umfassenden, allgemeinen Überblick über die mit der 
 
 Ziel dieses Kurses ist es nicht, Sie bei der Nutzung von Bitcoin völlig anonym zu machen, sondern Ihnen die wesentlichen Werkzeuge an die Hand zu geben, damit Sie wissen, wie Sie Ihre Vertraulichkeit entsprechend Ihren persönlichen Zielen schützen können. Sie werden die Freiheit haben, aus den vorgestellten Konzepten und Werkzeugen zu wählen, um Ihre eigenen Strategien zu entwickeln, die auf Ihre spezifischen Ziele und Bedürfnisse zugeschnitten sind.
 
-### Abschnitt 1: Definitionen und Schlüsselbegriffe
+**Abschnitt 1: Definitionen und Schlüsselbegriffe**
 
 Zunächst werden wir uns mit den grundlegenden Prinzipien der Funktionsweise von Bitcoin befassen, damit wir uns in Ruhe mit den Begriffen der Vertraulichkeit befassen können. Es ist unerlässlich, einige grundlegende Konzepte wie UTXO, Empfangsadressen und Scripting zu beherrschen, bevor Sie die Konzepte, die wir in den folgenden Abschnitten behandeln werden, vollständig verstehen können. Wir werden auch das allgemeine Vertraulichkeitsmodell von Bitcoin einführen, wie es sich Satoshi Nakamoto vorgestellt hat, um die damit verbundenen Risiken und Gefahren zu verstehen.
 
 ![BTC204](assets/fr/001.webp)
 
-### Abschnitt 2: Verständnis und Schutz vor Kettenanalysen
+**Abschnitt 2: Verständnis und Schutz vor Kettenanalysen**
 
 Im zweiten Abschnitt befassen wir uns mit den Techniken, die von Blockchain-Analyseunternehmen verwendet werden, um Ihre Aktivitäten auf Bitcoin zu verfolgen. Das Verständnis dieser Methoden ist entscheidend für die Stärkung des Schutzes Ihrer Privatsphäre. Das Ziel dieses Abschnitts ist es, die Strategien der Angreifer zu untersuchen, um die Risiken besser zu verstehen und den Boden für die Techniken zu bereiten, die wir in den folgenden Abschnitten untersuchen werden. Wir werden Transaktionsmuster, interne und externe Heuristiken und mögliche Interpretationen dieser Muster analysieren. Neben der Theorie werden wir anhand von praktischen Beispielen und Übungen lernen, wie man einen Block-Explorer für die Kettenanalyse verwendet.
 
 ![BTC204](assets/fr/002.webp)
 
-### Abschnitt 3: Bewährte Praktiken zum Schutz Ihrer Privatsphäre beherrschen
+**Abschnitt 3: Bewährte Praktiken zum Schutz Ihrer Privatsphäre beherrschen**
 
 Im dritten Teil unseres Trainingskurses geht es ans Eingemachte: die Praxis! Das Ziel ist es, alle wesentlichen Best Practices zu beherrschen, die für jeden Bitcoin-Nutzer zu natürlichen Reflexen werden sollten. Wir werden die Verwendung von leeren Adressen, Tagging, Konsolidierung, die Verwendung kompletter Nodes sowie KYC und Erwerbsmethoden behandeln. Ziel ist es, Ihnen einen umfassenden Überblick über die zu vermeidenden Fallstricke zu geben, um eine solide Grundlage für den Schutz der Privatsphäre zu schaffen. Für einige dieser Praktiken werden Sie zu einer speziellen Anleitung geführt, wie sie umzusetzen sind.
 
 ![BTC204](assets/fr/003.webp)
 
-### Abschnitt 4: Verständnis von Coinjoin-Transaktionen
+**Abschnitt 4: Verständnis von Coinjoin-Transaktionen**
 
 Wie können wir über Datenschutz bei Bitcoin sprechen, ohne Coinjoins zu erwähnen? In Abschnitt 4 erfahren Sie alles, was Sie über diese Mischmethode wissen müssen. Sie erfahren, was Coinjoins sind, ihre Geschichte und Ziele sowie die verschiedenen Arten von Coinjoin, die es gibt. Und schließlich erfahren Sie, was Anonsets und Entropie sind und wie man sie berechnet.
 
 ![BTC204](assets/fr/004.webp)
 
-### Abschnitt 5: Verständnis der Herausforderungen anderer fortgeschrittener Vertraulichkeitstechniken
+**Abschnitt 5: Verständnis der Herausforderungen anderer fortgeschrittener Vertraulichkeitstechniken**
 
 Im fünften Abschnitt werfen wir einen Blick auf all die anderen Techniken, die neben Coinjoin zur Verfügung stehen, um Ihre Privatsphäre auf Bitcoin zu schützen. Im Laufe der Jahre haben die Entwickler bemerkenswerte Kreativität bei der Entwicklung von Tools zum Schutz der Privatsphäre gezeigt. Wir werden uns all diese Methoden wie Payjoin, kollaborative Transaktionen, Coin Swap und Atomic Swap ansehen und detailliert beschreiben, wie sie funktionieren, welche Ziele sie verfolgen und welche Schwächen sie haben.
 
 Wir werden auch die Privatsphäre auf der Ebene des Netzwerks der Knoten und der Transaktionsverbreitung betrachten. Wir werden auch die verschiedenen Protokolle diskutieren, die im Laufe der Jahre vorgeschlagen wurden, um die Privatsphäre der Nutzer von Bitcoin zu verbessern, einschließlich statischer Adressprotokolle.
 
 ![BTC204](assets/fr/005.webp)
+Bereit, die Tiefen der Privatsphäre bei Bitcoin zu erkunden? Los geht's!
 
 # Definitionen und Schlüsselbegriffe
 
@@ -4220,7 +4222,7 @@ Da diese Funktion neu ist, raten wir Ihnen, Vorsicht walten zu lassen und Silent
 
 *Zur Erstellung dieses Kapitels über stille Zahlungen habe ich [die Website mit Erläuterungen zu stillen Zahlungen] (https://silentpayments.xyz/) und [das Dokument mit Erläuterungen zu BIP352] (https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki) verwendet
 
-# Schlussfolgerung
+# Abschließender Abschnitt
 
 <partId>2aee56c0-b285-4799-b4f7-373a552ee2b2</partId>
 

@@ -1,0 +1,10 @@
+question: Address 在 Bitcoin 上的整體重複使用率大約是多少？
+answer: 約 50%
+wrong_answers:
+  - 約 5%
+  - 約 15%
+  - 約 40
+explanation: |
+  自 2010 年代初以來，Address 在 Bitcoin 上的整體再利用率一直在 50% 左右浮動。
+  
+reviewed: false

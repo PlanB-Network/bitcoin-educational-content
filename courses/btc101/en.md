@@ -21,17 +21,17 @@ You don't need any specific knowledge to get started. In fact, the following con
 
 <partId>3cd2ac82-026c-53e1-874a-baf5842adc6d</partId>
 
-## A Leap into the Unknown
+## Course overview
 
 <chapterId>27e3fb60-4b50-556b-9e70-c4f5475c121d</chapterId>
 
-### Welcome to a new monetary and technological paradigm.
+Welcome to the BTC101 course!
 
 Bitcoin is a technological and a monetary revolution, capable of making us question our relationship with money and society. In fact, Bitcoin (referred to as BTC) is a **neutral** and **decentralized** currency, which means that it is not controlled by any entity or institution. It is an innovation that goes beyond a mere "internet currency": it is both a computer protocol (Bitcoin) and a monetary unit (bitcoin).
 
 The Bitcoin protocol uses underlying technologies such as cryptography, network communication, and the famous "blockchain", while the bitcoin unit serves as the necessary currency for the proper functioning of this protocol. In everyday life, Salvadorians and bitcoiners around the world use the bitcoin currency to buy and sell goods and services, relying on this technology to make their lives better.
 
-### A comprehensive yet accessible curriculum
+**A comprehensive yet accessible curriculum:**
 
 In this course, we will discuss some monetary aspects of Bitcoin, including how to buy and sell bitcoins, securely store them in digital wallets, and use them for transactions. We will also examine the role of miners, who are essential for creating new bitcoins and securing the Bitcoin network. Finally, we will explore the future of Bitcoin and how the Lightning Network technology can improve Bitcoin transactions.
 
@@ -39,38 +39,39 @@ In this course, we will discuss some monetary aspects of Bitcoin, including how 
 
 It is essential to understand that Bitcoin is a new monetary system that completely changes our relationship with money, so learning how to use it is a necessary skill for anyone who wants to be in control of their own funds.
 
-**Section 1 - Money**
+**Section 1 - Introduction**  
+- Chapter 1 - Course Overview  
+- Chapter 2 - The Prehistory of Bitcoin  
 
-- Chapter 1 - What is money?
-- Chapter 2 - Fiat money
-- Chapter 3 - Hyperinflation
-- Chapter 4 - Bitcoin monetary policy
+**Section 2 - Money**  
+- Chapter 3 - Money Throughout History  
+- Chapter 4 - Fiat Currencies  
+- Chapter 5 - Hyperinflation  
+- Chapter 6 - 21 Million Bitcoins  
 
-**Section 2 - Bitcoin Wallets**
+**Section 3 - Bitcoin Wallets**  
+- Chapter 7 - What is a Bitcoin Wallet?  
+- Chapter 8 - Bitcoin Wallets and Security  
+- Chapter 9 - Setting Up a Wallet  
+- Chapter 10 - Standing the Test of Time  
 
-- Chapter 5 - How do Bitcoin wallets work?
-- Chapter 6 - Choosing your security
-- Chapter 7 - Setting up your wallet
-- Chapter 8 - Safeguarding against time
+**Section 4 - The Technical Aspects of Bitcoin**  
+- Chapter 11 - Launching Bitcoin  
+- Chapter 12 - Bitcoin Transactions  
+- Chapter 13 - Bitcoin Nodes  
+- Chapter 14 - Miners  
+- Chapter 15 - Bitcoin and Ecology  
 
-**Section 3 - Technical features of Bitcoin**
+**Section 5 - How to Obtain Bitcoins?**  
+- Chapter 16 - Bitcoin Never Sleeps!  
+- Chapter 17 - Earning Bitcoins Through Work  
+- Chapter 18 - Saving with Bitcoin  
+- Chapter 19 - Hyperbitcoinization  
 
-- Chapter 9 - What is a transaction?
-- Chapter 10 - Bitcoin nodes
-- Chapter 11 - Miners
-- Chapter 12 - Miners and ecology
-
-**Section 4 - Saving in Bitcoin**
-
-- Chapter 13 - Bitcoin price
-- Chapter 14 - How do you buy Bitcoin?
-- Chapter 15 - Working for Bitcoin
-- Chapter 16 - Hyper-bitcoinization
-
-**Section 5 - Lightning Network**
-
-- Chapter 17 - Introduction to the Lightning Network
-- Chapter 18 - Use cases for the Lightning Network
+**Section 6 - The Future of Bitcoin: The Lightning Network**  
+- Chapter 20 - A Brief Introduction to the Lightning Network  
+- Chapter 21 - Lightning Network Use Cases  
+- Chapter 22 - Red Pill or Blue Pill?  
 
 Before introducing the definition of money and its function in society (Chapter 1), we should start from the genesis of Bitcoin. Launched in 2009, Bitcoin is a relatively new technology unlike anything else. It is therefore normal not to understand everything about it, all at once. In fact, just like when learning how to use the Internet or to drive a car, you don’t need to know all the technical details right away: you can start by learning how to receive, pay, and secure your funds, and then take small steps to study it more deeply.
 
@@ -79,6 +80,8 @@ After all, we are only at the beginning stages of its adoption, as we have passe
 ![image](assets/en/02.webp)
 
 The important point here is to understand this new technology in a general way, so we hope you enjoy this course and continue to make progress in this new global monetary paradigm.
+
+Ready to dive into the fascinating world of Bitcoin and understand all its inner workings? Let's go!
 
 ## The Prehistory of Bitcoin
 
@@ -490,7 +493,7 @@ Fortunately, since 2017, the private key can be represented by a simple list of 
 
 ### What about hackers?
 
-What if someone accidentally guesses our list of 12 or 24 words? The short answer is that it is highly unlikely, thanks to the cryptography used to create the wallet. To put it into perspective, accidentally discovering your same mnemonic phrase is akin to finding the "right" number between 1 and $2^256$, which is almost equivalent to finding the "right" atom in the Universe. However, if you are not satisfied with this default security, you can always enhance it by adding a passphrase (an extra word) to your Bitcoin wallet.
+What if someone accidentally guesses our list of 12 or 24 words? The short answer is that it is highly unlikely, thanks to the cryptography used to create the wallet. To put it into perspective, accidentally discovering your same mnemonic phrase is akin to finding the "right" number between 1 and 2 raised to the power of 256, which is almost equivalent to finding the "right" atom in the Universe. However, if you are not satisfied with this default security, you can always enhance it by adding a passphrase (an extra word) to your Bitcoin wallet.
 
 ![image](assets/en/29.webp)
 
@@ -1328,7 +1331,7 @@ Satoshi created Bitcoin in 2008 to propose a change to the financial system by r
 
 Are you ready to join?
 
-# Conclusion
+# Final Section
 
 <partId>9ed4b454-2950-40b4-a56b-68d109689a82</partId>
 

@@ -588,7 +588,7 @@ Wakati sarafu inapoteza thamani yake haraka, hata shughuli rahisi zaidi zinaweza
 
 > Weimar: "Ununuzi wa kawaida zaidi katika duka ulihitaji hesabu ya dakika tatu au nne, na mara tu bei ilipoamuliwa, dakika kadhaa zaidi zilihitajika kuhesabu noti."
 > Zimbabwe: "Wasimamizi wa maduka pia waliruhusiwa kuajiri mfanyakazi wa muda kuchukua nafasi ya mfanyakazi ambaye alihesabu pesa siku nzima. Bila shaka, kuhesabu fedha katika duka kwa ajili ya usimamizi na amana ya benki ilikuwa jambo moja, lakini mchakato mzima ulipaswa kurudiwa katika benki wakati wa kuweka amana."
-![video](https://www.youtube.com/watch?v=OMwkb5rpm_w&t=20s)
+:::video id=910231d7-af90-4ab8-b74c-bfb81caebfb2:::
 
 Mbinu ya kuhesabu pesa kutoka Uzbekistan
 

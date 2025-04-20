@@ -4,5 +4,6 @@ wrong_answers:
   - Leslie Lamport, Robert Shostak, na Marshall Pease
   - Cynthia Dwork na Moni Naor
   - Ronald Rivest na Adi Shamir
-  Three papers by Haber and Stornetta from the 90s were cited in the white paper. They are known for creating [the first timestamped blockchain](https: //www.vice.com/en/article/j5nzx4/what-was-the-first-blockchain), published in the New York Times starting in 1992.
+explanation: |
+  Karatasi tatu za Haber na Stornetta kutoka miaka ya 90 zilitajwa kwenye karatasi nyeupe. Zinajulikana kwa kuunda [Blockchain iliyotiwa muhuri ya kwanza](https: //www.vice.com/en/article/j5nzx4/what-was-the-first-Blockchain), iliyochapishwa katika New York Times kuanzia 1992.
 reviewed: false

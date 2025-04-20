@@ -1,0 +1,10 @@
+question: Wabisabi 使用何種策略來增加參與者的自發性？
+answer: 有幾筆非常大的交易。
+wrong_answers:
+  - 與許多非常小的交易。
+  - 透過單筆小額交易。
+  - 沒有交易。
+explanation: |
+  為了增加參與者的數目，Wabisabi 使用非常大型的 CoinJoin 交易，將數十位參與者聚集在一起。
+  
+reviewed: false

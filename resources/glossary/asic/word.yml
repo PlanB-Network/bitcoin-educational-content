@@ -1,6 +1,6 @@
 id: 3822f103-01f0-4d4f-945d-32e95e2adc06
 en_word: ASIC
-related_words: 
+related_words:
 original_language: fr
 proofreading:
   - language: en
@@ -14,81 +14,68 @@ proofreading:
     contributor_names:
       - LoicPandul
     reward: 0.13
-
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.31
-
+    reward: 0.32
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.26
-
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.26
-
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.31
-
+    reward: 0.32
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.31
-
+    reward: 0.32
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.37
-
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.26
-
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.31
-
+    reward: 0.32
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.26
-
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.31
-
+    reward: 0.32
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.42
-
+    reward: 0.43
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.37
-
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.42
+    reward: 0.43

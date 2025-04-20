@@ -5,5 +5,6 @@ wrong_answers:
   - Kwa kuchagua kwa nasibu UTXO ili kuepuka mifumo inayotambulika.
   - Kwa kuunganisha UTXO wakati wa shughuli za chini.
 explanation: |
-Ikiwa unajikuta unahitaji kuunganisha bitcoins zako, weka kipaumbele kuunganisha UTXO kutoka chanzo sawa kwanza.
+  Ikiwa unajikuta unahitaji kuunganisha bitcoins zako, weka kipaumbele kuunganisha UTXO kutoka chanzo sawa kwanza.
+  
 reviewed: false

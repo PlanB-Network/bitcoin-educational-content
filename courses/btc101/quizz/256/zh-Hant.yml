@@ -1,0 +1,8 @@
+question: Bitcoin 對銀行體系的主要後果之一是什麼？
+answer: 它允許從銀行體系中解放出來。
+wrong_answers:
+  - 它允許控制銀行系統。
+  - 它允許消除銀行系統。
+  - 它允許銀行系統的腐敗。
+explanation: >-
+reviewed: true

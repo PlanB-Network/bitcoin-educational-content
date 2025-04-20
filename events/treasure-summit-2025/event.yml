@@ -1,4 +1,4 @@
-id: a1b2c3d4-1234-4a56-9abc-123456789abc
+id: 67b4f5ba-13c4-11f0-a8dc-2f2256a9d8dc
 start_date: 2025-03-15 14:00:00
 end_date: 2025-03-15 23:00:00
 timezone: America/New_York
@@ -11,6 +11,7 @@ language:
   - en
 links:
   website: https://lu.ma/61kly0km
+project_id: 31ecc08e-b46e-493f-9e7f-41f41a0bd50c
 tags:
   - proof-of-work
   - user-friendly

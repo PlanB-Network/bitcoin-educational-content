@@ -20,41 +20,24 @@ Tässä korostamme hyperinflaation jaksoissa historian aikana esiintyviä trende
 
 <partId>6fe4d15d-f6e6-54be-9e04-0a75ac98df8b</partId>
 
-## Johdanto
+## Kurssin yleiskatsaus
 
 <chapterId>9d1aba8d-0485-5020-9863-5de37e6db8e0</chapterId>
 
-Tämä ohjelma pyrkii tarjoamaan syvällisen ymmärryksen hyperinflaatioiden esiintymisestä Fiat-valuutan hallitsemassa maailmassa ja tutkimaan niiden merkittäviä seurauksia. Osallistujat tutkivat yksityiskohtaisesti hyperinflaatiokiertoja, analysoiden niiden syitä, laukaisevia tekijöitä sekä historiallisia ja nykyaikaisia esimerkkejä. He tutkivat myös hyperinflaatioiden konkreettista vaikutusta talouteen ja päivittäiseen elämään, tarkastellen seurauksia valuutan arvoon, ostovoimaan sekä yksilöiden ja yhteisöjen säästöihin.
+Tervetuloa ECO204-kurssille!
 
-Tässä korostamme hyperinflaation jaksoissa historian aikana esiintyviä trendejä ja yhteisiä kaavoja, samalla tarjoten tehokkaita ja konkreettisia strategioita suojautumiseen hyperinflaation aikoina. Osallistujilla on mahdollisuus tutkia erilaisia sijoitusvaihtoehtoja ja taloudellisia puolustusmekanismeja, hankkien käytännöllisiä työkaluja ja olennaista tietoa navigoidakseen rauhallisesti epävakaassa taloudellisessa ilmastossa.
+Tämän kurssin tavoitteena on auttaa sinua ymmärtämään hyperinflaatioiden syvällisiä syitä, mekanismeja ja seurauksia fiat-rahajärjestelmän kontekstissa. Käyttämällä konkreettisia esimerkkejä ja historiallisia analyysejä opit tunnistamaan toistuvia kaavoja, jotka edeltävät hyperinflaation jaksoja, ja löytämään keinoja suojautua niiltä.
 
-### Opetussuunnitelma
+**Osa 2: Mitä on inflaatio?**  
+Ennen kuin siirrymme varsinaiseen aiheeseen, palaamme perusasioihin: mitä inflaatio on? Tässä osiossa käsitellään sen rahallisia alkuperiä, erilaisia inflaatiotyyppejä ja sitä, miten ne liittyvät laajempaan taloudelliseen dynamiikkaan. Tämä on välttämätön vaihe ymmärtääksemme, kuinka tavallinen inflaatio voi muuttua hyperinflaatioksi.
 
-Osa 1 - Johdanto
+**Osa 3: Mitä on hyperinflaatio?**  
+Tässä osiossa tarkastelet tarkkoja hyperinflaation määritelmiä sekä useita merkittäviä historiallisia jaksoja, kuten Weimarin Saksaa ja Zimbabwea. Analysoimme niiden yhteisiä piirteitä, eroja ja nykyaikaisia ​​paralleeleja. Saat myös tietää vähemmän tunnetuista tapauksista, kuten Latinalaisen Amerikan toistuvista rahauudistuksista, ja ratkaisuista, joita tietyt maat ovat löytäneet kriisistä selviytymiseksi.
 
-- 1.1 - Kurssin esittely Rogzy & Davidin toimesta
+**Osa 4: Kuinka olemme päätyneet tähän tilanteeseen?**  
+Tässä osiossa pyritään ymmärtämään rakenteellisia mekanismeja, jotka tekevät hyperinflaatiosta mahdollisen, erityisesti "toisen kerroksen" rahajärjestelmän kehittymisen ja keskuspankkien roolin kautta. Lisäresursseja ja lukusuosituksia tarjotaan jatkoa varten.
 
-Osa 2 - Mikä on inflaatio?
-
-- 2.1 - Rahailmiö
-- 2.2 - Inflaation tyypit
-- 2.3 - Deflaatio
-
-Osa 3 - Mikä on hyperinflaatio?
-
-- 3.1 - Määritelmät
-- 3.2 - Weimarin ja Zimbabwen yhtäläisyydet
-- 3.3 - Weimarin ja Zimbabwen erot ja nykyaikaiset paralleelit
-- 3.4 - Uudelleennimeämiset Latinalaisessa Amerikassa
-- 3.5 - Miten päästä eroon hyperinflaatiosta
-- 3.6 - Hyperinflaation setelikokoelman esittely
-
-Osa 4 - Miten tähän päädyttiin?
-
-- 4.1 - Toisen kerroksen rahan ja keskuspankkien esiinmarssi
-- 4.2 - Kirjat ja resurssit
-
-Onnea matkaan!
+Entä jos rahahistoria toistaa itseään juuri nyt silmiemme edessä? Päätä itse seuraavissa luvuissa!
 
 # Mikä on inflaatio?
 
@@ -498,7 +481,7 @@ Kun valuutta menettää nopeasti arvoaan, jopa yksinkertaisimmat transaktiot voi
 
 > Zimbabwe: "Kaupanhoitajat saivat myös palkata tilapäisen työntekijän korvaamaan henkilökunnan jäsentä, joka laski rahaa koko päivän. Tietenkin rahan laskeminen kaupassa hallinnointia ja pankkitalletusta varten oli yksi asia, mutta koko prosessi piti toistaa pankissa talletuksen yhteydessä."
 
-![video](https://www.youtube.com/watch?v=OMwkb5rpm_w&t=20s)
+:::video id=910231d7-af90-4ab8-b74c-bfb81caebfb2:::
 
 Rahojen laskentatekniikka Uzbekistanista
 
@@ -923,7 +906,7 @@ Hyperinflaatio on kiehtova aihe, jota on tutkittu eri historiallisten tapahtumie
 
 - "Valuuttalautakunnat kehitysmaille: Käsikirja" Steve Hanken ja Kurt Schulerin kirjoittama. Vaikka keskitytään valuuttalautakuntiin, tämä kirja tarjoaa näkökulman hyperinflaatiotilanteiden välttämiseen.
 
-# Yhteenveto
+# Lopullinen osio
 
 <partId>cb1f4a4b-556a-4e47-a5cc-136be35a1f9a</partId>
 

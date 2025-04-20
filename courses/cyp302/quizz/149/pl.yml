@@ -1,0 +1,9 @@
+question: Jaka jest definicja liczby całkowitej będącej wspak innej liczby całkowitej?
+answer: Liczba całkowita, która ma największy wspólny dzielnik równy 1 z tą inną liczbą całkowitą
+wrong_answers:
+  - Liczba całkowita, która jest podzielna przez inną liczbę całkowitą bez reszty
+  - Liczba całkowita, która jest pierwsza
+  - Liczba całkowita, która jest większa od drugiej
+explanation: |
+  Liczba całkowita jest parzysta z inną, jeśli ich największy wspólny dzielnik wynosi 1, co oznacza, że nie mają one żadnego innego wspólnego czynnika.
+reviewed: false

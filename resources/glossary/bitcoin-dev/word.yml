@@ -1,6 +1,6 @@
 id: c73a5e14-ae3a-4b0e-89bb-55ffd705d5a5
 en_word: BITCOIN-DEV
-related_words: 
+related_words:
 original_language: fr
 proofreading:
   - language: fr
@@ -8,4 +8,4 @@ proofreading:
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 0
+    reward: 0.13

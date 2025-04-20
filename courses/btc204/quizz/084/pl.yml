@@ -1,0 +1,10 @@
+question: Jaka jest rola Wallet po wymieszaniu w protokole Zerolink?
+answer: Przechowywanie UTXO po wymieszaniu.
+wrong_answers:
+  - Przechowywanie UTXO przed mieszaniem.
+  - Aby zapisać zmianę UTXO.
+  - Aby zapisać konsolidację UTXO.
+explanation: |
+  Wallet po wymieszaniu jest zarezerwowany dla monet, które zostały wymieszane.
+  
+reviewed: false

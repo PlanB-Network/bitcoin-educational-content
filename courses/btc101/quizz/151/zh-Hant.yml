@@ -1,0 +1,8 @@
+question: 什麼是 Proof of Work (POW)？
+answer: 它是 Bitcoin 通訊協定的安全共識。
+wrong_answers:
+  - 這是創造新比特幣的過程。
+  - 這是驗證 Bitcoin 交易的方法。
+  - 它是用來挖掘比特幣的演算法。
+explanation: >-
+reviewed: true

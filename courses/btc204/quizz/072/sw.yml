@@ -5,5 +5,6 @@ wrong_answers:
   - P2PKH
   - P2SH
 explanation: |
-Ili kujumuika katika umati mkubwa zaidi unaowezekana, inashauriwa kutumia muundo wa hati uliopitishwa zaidi. Hati za P2TR ndizo zinazotumika zaidi katika shughuli za Bitcoin kwa sasa.
+  Ili kujumuika katika umati mkubwa zaidi unaowezekana, inashauriwa kutumia muundo wa hati uliopitishwa zaidi. Hati za P2TR ndizo zinazotumika zaidi katika shughuli za Bitcoin kwa sasa.
+  
 reviewed: false

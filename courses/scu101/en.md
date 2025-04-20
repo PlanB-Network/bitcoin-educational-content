@@ -127,7 +127,7 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 Protecting your internet connection is a crucial aspect of online security, and using virtual private networks (VPNs) is an effective method to enhance this security, both for businesses and individual users.
 
-'VPNs are tools that encrypt data transmitted over the internet, making the connection more secure. In a professional context, VPNs allow employees to securely access the company's internal network remotely. The exchanged data is encrypted, making it much more difficult for third parties to intercept. In addition to securing access to an internal network, using a VPN can allow a user to route their internet connection through the company's internal network, giving the impression that their connection is coming from the company. This can be particularly useful for accessing online services that are geographically restricted.
+VPNs are tools that encrypt data transmitted over the internet, making the connection more secure. In a professional context, VPNs allow employees to securely access the company's internal network remotely. The exchanged data is encrypted, making it much more difficult for third parties to intercept. In addition to securing access to an internal network, using a VPN can allow a user to route their internet connection through the company's internal network, giving the impression that their connection is coming from the company. This can be particularly useful for accessing online services that are geographically restricted.
 ![](assets/en/8.webp)
 
 ### Types of VPNs

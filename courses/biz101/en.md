@@ -753,7 +753,7 @@ To simplify the decision-making process, we have defined four distinct business 
 | **Business Type Examples**       | E-commerce sites with moderate volume, small marketplaces, groups of physical stores (e.g., Click & Collect), SME operations                           |
 | **Payment Type**                 | Generally ranging from a few euros/dollars to a few hundred; no set payment size limit; less than 250,000 per year                                     |
 | **Settings Complexity**          | Light to fully featured (local or cloud hosting), often requires an e-commerce storefront                                                              |
-| **Example Recommended Solution** | BTC Pay Server for e-commerce and/or physical environments; ZapRite, Musqet or PayWithFlash for checkout, Be-BOP for an integrated e-store             |
+| **Example Recommended Solution** | BTCPay Server for e-commerce and/or physical environments; ZapRite, Musqet or PayWithFlash for checkout, Be-BOP for an integrated e-store             |
 | **Merchant Interface**           | Website (mobile and desktop) with invoice editing, shopping cart options, and payment button creation; automated invoicing with e-commerce integration |
 | **Customer Interface**           | Bitcoin QR payment code, scanned via the customer's personal wallet                                                                                    |
 | **Fees**                         | Mix of free open-source backend and paid Lightning hosting/service fees; front-end fees include Bitcoin Lightning fees and <1.5% conversion fees       |
@@ -888,7 +888,7 @@ A restaurant group, for instance, may have staff members dedicated to invoicing 
 
 ![BIZ101-profiles](assets/en/26.webp)
 
-Regarding technology and tools, solutions like **BTC Pay Server** often form the core of a Professional setup. BTC Pay Server is an open-source platform that can be deployed either on-premises or via cloud hosting and that offers extensive integration options for websites and e-commerce platforms. By running their own instance, businesses retain a high degree of control over every aspect of the payment flow, from automatically generated checkout pages to notifications that trigger internal processes once a payment is confirmed.
+Regarding technology and tools, solutions like **BTCPay Server** often form the core of a Professional setup. BTCPay Server is an open-source platform that can be deployed either on-premises or via cloud hosting and that offers extensive integration options for websites and e-commerce platforms. By running their own instance, businesses retain a high degree of control over every aspect of the payment flow, from automatically generated checkout pages to notifications that trigger internal processes once a payment is confirmed.
 
 ![BIZ101-profiles](assets/en/27.webp)
 
@@ -900,13 +900,13 @@ Implementing these technologies within a professional setting means paying close
 
 Security and role management constitute another pivotal consideration for Professional users. As daily Bitcoin transactions accumulate, controlling access to administrative functions becomes an essential risk-mitigation measure. In many solutions, administrators can assign varying levels of permission (perhaps restricting some employees to viewing transaction histories and generating invoices, while granting others authority to manage inventory or configure system-wide settings...). This hierarchical structure not only safeguards sensitive data but also streamlines operations by clarifying which staff members have responsibility for each segment of the payment infrastructure.
 
-When it comes to real-world examples, consider a mid-sized e-commerce store specializing in technology accessories. The company could integrate BTC Pay Server into its existing online storefront, automatically generating Bitcoin payment addresses during checkout. Customers complete their purchases by scanning a Lightning or on-chain address, and the store’s platform instantly confirms the payment. At the same time, an internal system updates order status and triggers shipping notifications. Thanks to the advanced reporting features, the finance team can easily review daily Bitcoin sales, export a consolidated ledger for auditing, and track the value of any BTC holdings the company decides to retain.
+When it comes to real-world examples, consider a mid-sized e-commerce store specializing in technology accessories. The company could integrate BTCPay Server into its existing online storefront, automatically generating Bitcoin payment addresses during checkout. Customers complete their purchases by scanning a Lightning or on-chain address, and the store’s platform instantly confirms the payment. At the same time, an internal system updates order status and triggers shipping notifications. Thanks to the advanced reporting features, the finance team can easily review daily Bitcoin sales, export a consolidated ledger for auditing, and track the value of any BTC holdings the company decides to retain.
 
 ![BIZ101-profiles](assets/en/29.webp)
 
 *[Credit: Bitcoin Bazar shop in Paris, France.](https://bitcoinbazar.fr/)*
 
-To delve deeper into implementation specifics and to explore hands-on configurations of BTC Pay Server, refer to the following course:
+To delve deeper into implementation specifics and to explore hands-on configurations of BTCPay Server, refer to the following course:
 
 https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1
 
@@ -966,7 +966,7 @@ New infrastructures succeed because they are more efficient, and early adopters 
 
 - **Improved User Experience:** Mobile apps for individual users have significantly improved. Features like splicing, static Bolt12 invoices, and zero-confirmation payments (0-conf) are widely available, making interactions seamless. Interoperability issues (e.g., force-closes) are no longer major concerns.
 
-- **Enhanced Node and Channel Management:** Both individual and professional solutions have advanced. For example, BTC Pay Server now supports numerous plugins for connecting with other providers (PSPs, on/off ramps, etc.). New infrastructure providers, such as LightSpark and Alby Hub, are also entering production.
+- **Enhanced Node and Channel Management:** Both individual and professional solutions have advanced. For example, BTCPay Server now supports numerous plugins for connecting with other providers (PSPs, on/off ramps, etc.). New infrastructure providers, such as LightSpark and Alby Hub, are also entering production.
 
 - **Merchant Adoption Growth:** Merchants like BitRefill are reporting an increase in Bitcoin payments among their active users, with a clear shift toward Bitcoin over Lightning. Additionally, Lightning's ultra-low fees make it the preferred choice for small payments (average of €32 per transaction).
 
@@ -1137,7 +1137,7 @@ They are often a wise complement for large organizations with multiple wallets a
 
 ![BIZ101](assets/en/31.webp)
 
-However, a simple `.csv` file containing the transaction history is often sufficient for most small businesses. The goal is to document, for each payment, the date, amount, equivalent value in euros/dollars, and the relevant Bitcoin addresses. The vast majority of Bitcoin payment solutions (BTC Pay Server, Swiss Bitcoin Pay, etc.) or exchange platforms (Bitfinex, Kraken, Coinbase, etc.) already offer a mechanism to export transaction histories. By providing this file to an accountant, it becomes possible to streamline data entry and clearly distinguish incoming and outgoing flows related to Bitcoin.
+However, a simple `.csv` file containing the transaction history is often sufficient for most small businesses. The goal is to document, for each payment, the date, amount, equivalent value in euros/dollars, and the relevant Bitcoin addresses. The vast majority of Bitcoin payment solutions (BTCPay Server, Swiss Bitcoin Pay, etc.) or exchange platforms (Bitfinex, Kraken, Coinbase, etc.) already offer a mechanism to export transaction histories. By providing this file to an accountant, it becomes possible to streamline data entry and clearly distinguish incoming and outgoing flows related to Bitcoin.
 
 For those who self-custody their Bitcoin, managing UTXOs (*Unspent Transaction Outputs*) is an important step. Proper UTXO labelling helps trace the origin of each BTC fragment, differentiate transactions related to professional activity from those for personal expenses, and facilitate traceability for legal or tax purposes. Most good Bitcoin wallet software allows you to import your wallet using your backup file (or your xpub, depending on your setup) and tag UTXOs based on their origin or destination. To assist you, here is a complete tutorial dedicated to this practice:
 

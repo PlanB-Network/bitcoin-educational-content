@@ -1,24 +1,24 @@
 ---
-name: Perbarui Keamanan Online Anda
-goal: Perbarui manajemen kata sandi dan data pribadi. Buat cadangan, lindungi dari peretas, dan tingkatkan kesadaran tentang pengawasan massal.
+name: Perkuat Keamanan Online Anda
+goal: Perkuat manajemen kata sandi dan data pribadi Anda. Buat cadangan data, lindungi diri Anda dari peretas, dan tingkatkan kesadaran tentang pelacakan digital skala besar.
 objectives:
-  - Pembaruan tentang manajemen data pribadi dan alat yang meningkatkan keamanan Anda.
-  - Implementasikan manajer kata sandi yang aman dan mudah digunakan.
-  - Implementasikan otentikasi dua faktor untuk memperkuat keamanan dan meminimalkan risiko peretasan.
+  - Pembaruan seputar pengelolaan data pribadi dan alat yang dapat meningkatkan keamanan Anda.
+  - Gunakan aplikasi pengelola kata sandi yang aman dan mudah digunakan.
+  - Aktifkan otentikasi dua faktor (2FA) demi memperkuat keamanan dan meminimalkan risiko pembobolan.
 ---
 
 # Perjalanan Menuju Perlindungan Data Anda
 
-Selamat datang semua orang di program pendidikan ini yang didedikasikan untuk keamanan digital. Pelatihan ini dirancang agar dapat diakses oleh semua orang, sehingga tidak diperlukan pengetahuan sebelumnya tentang ilmu komputer. Tujuan utama kami adalah untuk memberi Anda pengetahuan dan keterampilan yang diperlukan untuk menavigasi dunia digital dengan lebih aman dan privat.
+Selamat datang, semuanya, di program edukasi ini yang dirancang khusus dan mencakup topik tentang keamanan digital. Pelatihan ini dirancang agar dapat dipahami oleh semua orang, sehingga Anda tidak perlu untuk memiliki pengetahuan yang dalam tentang ilmu komputer untuk memahami konten ini. Tujuan utama kami adalah untuk memberi Anda pengetahuan dan keterampilan yang diperlukan untuk menjaga keamanan dan privasi Anda di dunia digital dengan lebih baik.
 
-Ini akan melibatkan implementasi beberapa alat seperti layanan email yang aman, alat untuk mengelola kata sandi Anda dengan lebih baik, dan berbagai perangkat lunak untuk mengamankan aktivitas online Anda.
+Hal ini akan melibatkan penggunaan beberapa alat seperti layanan email yang aman, alat untuk mengelola kata sandi Anda dengan lebih baik, dan berbagai perangkat lunak untuk mengamankan aktivitas online Anda.
 
-Dalam pelatihan ini, kami tidak bertujuan untuk membuat Anda menjadi ahli, anonim, atau tidak terkalahkan, karena ini adalah hal yang mustahil. Sebagai gantinya, kami menawarkan beberapa solusi sederhana dan dapat diakses untuk mulai mengubah kebiasaan online Anda dan merebut kembali kontrol atas kedaulatan digital Anda.
+Dalam pelatihan ini, kami tidak bertujuan untuk membuat Anda menjadi seorang ahli, anonim sepenuhnya, atau kebal terhadap ancaman digital, karena ini adalah hal yang mustahil. Sebagai gantinya, kami menawarkan beberapa solusi sederhana dan mudah dipahami untuk mulai mengubah kebiasaan Anda di dunia online dan mendapat kembali kendali atas kedaulatan digital Anda.
 
 Tim kontributor:
-Muriel; desain
-Rogzy Noury & Fabian; produksi
-Théo; kontribusi
+Muriel (desain)
+Rogzy Noury & Fabian (produksi)
+Théo (kontribusi)
 
 +++
 
@@ -30,46 +30,46 @@ Théo; kontribusi
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
-**Tujuan: Perbarui keterampilan keamanan Anda!**
+**Tujuan: Tingkat keterampilan untuk menjaga keamanan Anda!**
 
-Selamat datang semua orang di program pendidikan ini yang didedikasikan untuk keamanan digital. Pelatihan ini dirancang agar dapat diakses oleh semua orang, sehingga tidak diperlukan pengetahuan sebelumnya tentang ilmu komputer. Tujuan utama kami adalah untuk memberi Anda pengetahuan dan keterampilan yang diperlukan untuk menavigasi dunia digital dengan lebih aman dan privat.
+Selamat datang, semuanya, di program edukasi ini yang dirancang khusus dan mencakup topik tentang keamanan digital. Pelatihan ini dirancang agar dapat dipahami oleh semua orang, sehingga Anda tidak perlu untuk memiliki pengetahuan yang dalam tentang ilmu komputer untuk memahami konten ini. Tujuan utama kami adalah untuk memberi Anda pengetahuan dan keterampilan yang diperlukan untuk menjaga keamanan dan privasi Anda di dunia digital dengan lebih baik.
 
-Ini akan melibatkan implementasi beberapa alat seperti layanan email yang aman, alat untuk mengelola kata sandi Anda dengan lebih baik, dan berbagai perangkat lunak untuk mengamankan aktivitas online Anda.
+Hal ini akan melibatkan penggunaan beberapa alat seperti layanan email yang aman, alat untuk mengelola kata sandi Anda dengan lebih baik, dan berbagai perangkat lunak untuk mengamankan aktivitas online Anda.
 
-Pelatihan ini adalah upaya kolaboratif dari tiga profesor kami:
+Pelatihan ini adalah hasil kolaborasi dari tiga profesor kami:
 
 - Renaud Lifchitz, ahli keamanan siber
 - Théo Pantamis, PhD dalam matematika terapan
 - Rogzy, CEO DécouvreBitcoin
 
-Kebersihan digital Anda sangat penting dalam dunia yang semakin digital. Meskipun terus terjadi peningkatan dalam peretasan dan pengawasan massal, tidak terlambat untuk mengambil langkah pertama dan melindungi diri Anda.
-Dalam pelatihan ini, kami tidak mencoba membuat Anda menjadi ahli, anonim, atau tidak terkalahkan, karena ini adalah hal yang mustahil. Sebagai gantinya, kami menawarkan beberapa solusi sederhana dan dapat diakses untuk semua orang untuk mulai mengubah kebiasaan online Anda dan merebut kembali kontrol atas kedaulatan digital Anda.
-Jika Anda mencari keterampilan yang lebih lanjut tentang subjek ini, sumber daya kami, tutorial, atau pelatihan keamanan siber lainnya ada untuk Anda. Sementara itu, berikut adalah gambaran singkat program kami untuk beberapa jam ke depan bersama.
+Dalam dunia yang terus mengalami digitalisasi, keamanan online Anda sangatlah penting. Meskipun ancaman peretasan dan pengawasan massal terus meningkat, Anda masih ada waktu untuk mulai belajar dan melindungi diri Anda.
+Dalam pelatihan ini, kami tidak bertujuan untuk membuat Anda menjadi seorang ahli, anonim sepenuhnya, atau kebal terhadap ancaman digital, karena ini adalah hal yang mustahil. Sebagai gantinya, kami menawarkan beberapa solusi sederhana dan mudah dipahami untuk mulai mengubah kebiasaan Anda di dunia online dan mendapat kembali kendali atas kedaulatan digital Anda.
+Jika Anda mendalami topik ini lebih lanjut, kami memiliki banyak materi, tutorial, atau pelatihan keamanan siber lainnya. Tetapi, berikut adalah gambaran singkat program kami untuk beberapa jam ke depan.
 
 **Bagian 1: Semua yang Perlu Anda Ketahui tentang Penjelajahan Online**
 
 - Bab 1 - Penjelajahan Online
 - Bab 2 - Menggunakan Internet dengan Aman
 
-Untuk memulai, kami akan membahas pentingnya memilih peramban web dan implikasinya terhadap keamanan. Kami kemudian akan menjelajahi spesifik dari peramban, terutama mengenai manajemen cookie. Kami juga akan melihat bagaimana memastikan pengalaman penjelajahan yang lebih aman dan anonim, menggunakan alat seperti TOR. Setelah itu, kami akan fokus pada penggunaan VPN untuk meningkatkan perlindungan data Anda. Akhirnya, kami akan mengakhiri dengan rekomendasi untuk penggunaan koneksi WiFi yang aman.
+Untuk memulai, kami akan membahas pentingnya memilih peramban web dan implikasinya terhadap keamanan. Kemudian, kita akan menjelajahi detail-detail dari peramban, khususnya mengenai pengelolaan cookie. Kita juga akan melihat bagaimana memastikan penjelajahan internet yang lebih aman dan anonim dengan menggunakan alat seperti TOR. Setelah itu, kita akan fokus pada penggunaan VPN untuk meningkatkan perlindungan data Anda. Terakhir, kita akan mengakhiri dengan memberi rekomendasi tentang penggunaan koneksi WiFi yang aman.
 
 ![](assets/en/1.webp)
 
-**Bagian 2: Praktik Terbaik untuk Penggunaan Komputer**
+**Bagian 2: Praktik Terbaik Penggunaan Komputer**
 
 - Bab 3 - Penggunaan Komputer
-- Bab 4 - Peretasan & Manajemen Cadangan
-  Pada bagian ini, kita akan membahas tiga area kunci keamanan komputer. Pertama, kita akan menjelajahi berbagai sistem operasi: Mac, PC, dan Linux, menyoroti spesifisitas dan kekuatan mereka. Kemudian, kita akan menggali metode untuk melindungi secara efektif dari upaya peretasan dan memperkuat keamanan perangkat Anda. Akhirnya, kita akan menekankan pentingnya melindungi dan membackup data Anda secara rutin untuk mencegah kehilangan atau ransomware.![](assets/en/2.webp)
+- Bab 4 - Peretasan & Pengelolaan Cadangan
+Pada bagian ini, kita akan membahas tiga lingkup kunci tentang keamanan komputer. Pertama, kita akan memahami berbagai sistem operasi: Mac, PC, dan Linux, dan menjelaskan detail dan kelebihan mereka. Kemudian, kita akan mendalami metode-metode untuk melindungi diri dari upaya peretasan secara efektif dan memperkuat keamanan perangkat Anda. Terakhir, kami akan menekankan pentingnya melindungi dan melakukan pencadangan data Anda secara rutin untuk mencegah kehilangan atau ransomware.![](assets/en/2.webp)
 
-**Bagian 3: Implementasi solusi**
+**Bagian 3: Penerapan Langkah-langkah solusi**
 
 - Bab 6 - Manajemen email
-- Bab 7 - Manajer kata sandi
-- Bab 8 - Otentikasi dua faktor
+- Bab 7 - Pengelola kata sandi
+- Bab 8 - Otentikasi dua faktor (2FA)
 
-Pada bagian ketiga yang praktis ini, kita akan beralih ke implementasi solusi konkret Anda.
+Pada bagian ketiga ini, kita akan fokus pada langkah praktis untuk solusi konkret guna meningkatkan keamanan digital Anda.
 
-Pertama, kita akan melihat cara melindungi kotak masuk email Anda, yang sangat penting untuk komunikasi Anda dan sering menjadi target peretas. Kemudian, kita akan memperkenalkan Anda pada manajer kata sandi: solusi praktis untuk tidak lagi lupa atau mencampuradukkan kata sandi Anda sambil menjaga keamanannya. Akhirnya, kita akan membahas ukuran keamanan tambahan, otentikasi dua faktor, yang menambahkan lapisan perlindungan ekstra untuk akun Anda. Semuanya akan dijelaskan dengan jelas dan mudah diakses.
+Pertama, kita akan melihat cara melindungi kotak masuk email Anda, yang sangat berperan penting sebagai saluran komunikasi Anda dan seringkali menjadi target para peretas. Kemudian, kami akan memperkenalkan manajer kata sandi kepada Anda: solusi praktis untuk Anda agar tidak lagi lupa atau bingung kata sandi Anda sambil menjaga keamanannya. Akhirnya, kita akan membahas langkah keamanan tambahan, yaitu otentikasi dua faktor, yang berguna lapisan perlindungan ekstra untuk akun-akun Anda. Semuanya akan dijelaskan dengan jelas dan mudah dipahami.
 ![](assets/en/3.webp)
 
 Siap untuk memperkuat keamanan digital Anda dan mengambil kembali kendali atas data Anda? Ayo mulai!
@@ -81,38 +81,38 @@ Siap untuk memperkuat keamanan digital Anda dan mengambil kembali kendali atas d
 
 <chapterId>3a935da9-fa6e-57eb-bf85-7b3ec35e6ee2</chapterId>
 
-Saat menjelajahi internet, penting untuk menghindari beberapa kesalahan umum untuk menjaga keamanan online Anda. Berikut adalah beberapa tips untuk menghindarinya:
+Saat Anda menjelajahi internet, penting untuk menghindari beberapa kesalahan umum untuk menjaga keamanan online Anda. Berikut adalah beberapa tips untuk menghindarinya:
 
-### Berhati-hatilah dengan unduhan perangkat lunak:
+### Berhati-hatilah dengan pengunduhan perangkat lunak:
 
-Disarankan untuk mengunduh perangkat lunak dari situs resmi penerbit daripada situs generik.
-Contoh: Gunakan www.signal.org/download daripada www.logicieltelechargement.fr/signal.
+Disarankan untuk mengunduh perangkat lunak dari situs resminya dan bukan dari situs umum.
+Contoh: Gunakan www.signal.org/download dan hindari pengunduhan melalui www.logicieltelechargement.fr/signal.
 ![](assets/notext/4.webp)
 
-Juga disarankan untuk memprioritaskan perangkat lunak open-source karena mereka seringkali lebih aman dan bebas dari perangkat lunak jahat. Perangkat lunak "open-source" adalah perangkat lunak yang kodenya diketahui dan dapat diakses oleh semua orang. Ini memungkinkan untuk verifikasi, di antara hal lain, bahwa tidak ada akses tersembunyi untuk mencuri data pribadi Anda.
+Anda juga disarankan untuk memprioritaskan perangkat lunak *open-source* karena seringkali lebih aman dan bebas dari perangkat lunak berbahaya. Perangkat lunak "*open-source*" adalah perangkat lunak yang kode sumbernya transparan dan dapat diakses oleh semua orang. Hal ini memungkinkan orang-orang untuk melakukan pemeriksaan untuk memastikan bahwa tidak ada jalan tersembunyi untuk peretas mencuri data pribadi Anda.
 
-> Bonus: Perangkat lunak open-source seringkali gratis! Universitas ini 100% open source, jadi Anda juga dapat memeriksa kode kami di GitHub kami.
+> Bonus: Mayoritas perangkat lunak *open-source* seringkali bersifat gratis! Kode universitas ini juga 100% *open source*, jadi Anda juga dapat memeriksa kode kami di GitHub kami.
 > ![](assets/notext/5.webp)
 
-### Manajemen Cookie: Kesalahan dan praktik terbaik
+### Pengelolaan *Cookie*: Kesalahan dan solusi praktis terbaik
 
-Cookie adalah file yang dibuat oleh situs web untuk menyimpan informasi di perangkat Anda. Meskipun beberapa situs memerlukan cookie ini untuk berfungsi dengan baik, mereka juga dapat dimanfaatkan oleh situs pihak ketiga, terutama untuk tujuan pelacakan iklan. Sesuai dengan peraturan seperti GDPR, dimungkinkan - dan disarankan - untuk menolak cookie pelacakan pihak ketiga sambil menerima cookie yang penting untuk fungsi situs yang tepat. Setelah setiap kunjungan ke situs, bijaksana untuk menghapus cookie yang terkait, baik secara manual atau melalui ekstensi atau program khusus. Beberapa browser bahkan menawarkan kemungkinan untuk menghapus cookie secara selektif. Meskipun dengan tindakan pencegahan ini, penting untuk memahami bahwa informasi yang dikumpulkan oleh berbagai situs dapat tetap saling terhubung, oleh karena itu pentingnya menemukan keseimbangan antara kenyamanan dan keamanan.
+*Cookie* adalah file yang dibuat oleh situs web untuk menyimpan informasi di perangkat Anda. Meskipun beberapa situs memerlukan *cookie* untuk berfungsi dengan baik, *cookie* juga bisa dimanfaatkan oleh situs pihak ketiga, terutama untuk tujuan pelacakan iklan. Sesuai dengan peraturan seperti GDPR (*General Data Protection Regulation*), Anda bisa dan juga disarankan untuk menolak *cookie* pelacakan pihak ketiga sambil menerima *cookie* yang diperlukan untuk kelancaran situs yang tersebut. Setelah setiap Anda masuk ke situs, langkah yang bijak adalah untuk menghapus *cookie* yang terkait, baik secara manual atau menggunakan ekstensi atau program/aplikasi khusus. Beberapa peramban bahkan menawarkan opsi untuk memilih *cookie* yang ingin dihapus. Meskipun Anda sudah melakukan tindakan pencegahan ini, penting untuk memahami bahwa informasi yang dikumpulkan oleh berbagai situs dapat tetap saling terhubung. Karena itu, penting untuk menemukan keseimbangan antara kemudahan penggunaan dan keamanan.
 
-> Catatan: Juga batasi jumlah ekstensi yang dipasang di browser Anda untuk menghindari potensi masalah keamanan dan kinerja.
+> Catatan: Batasi juga jumlah ekstensi yang dipasang di peramban Anda untuk menghindari potensi masalah keamanan dan kinerja.
 
-### Browser web: pilihan, keamanan
+### Peramban web: pilihan dan keamanan
 
-Ada dua keluarga besar browser: yang berbasis Chrome dan yang berbasis Firefox.
-Meskipun kedua keluarga tersebut menawarkan tingkat keamanan yang serupa, disarankan untuk menghindari browser Google Chrome karena pelacaknya. Alternatif yang lebih ringan dari Chrome, seperti Chromium atau Brave, mungkin lebih disukai. Brave khususnya direkomendasikan karena memiliki pemblokir iklan bawaan. Mungkin diperlukan untuk menggunakan beberapa browser untuk mengakses situs web tertentu.
+Ada dua kategori besar untuk peramban web: yang berbasis Chrome dan yang berbasis Firefox.
+Meskipun peramban dari kedua kategori tersebut menawarkan tingkat keamanan yang serupa, Anda disarankan untuk menghindari Google Chrome karena adanya pelacak. Alternatif Chrome yang lebih ringan, seperti Chromium atau Brave, bisa jadi pilihan yang lebih baik. Brave sangat direkomendasikan karena sudah dilengkapi oleh pemblokir iklan bawaan. Dalam beberapa kasus, mungkin Anda perlu menggunakan lebih dari satu peramban untuk bisa mengakses situs-situs tertentu.
 ![](assets/notext/6.webp)
 
 ### Penjelajahan Pribadi, TOR, dan alternatif lainnya untuk penjelajahan yang lebih aman dan anonim
 
-Penjelajahan pribadi, meskipun tidak menyembunyikan penjelajahan dari penyedia layanan internet Anda, memungkinkan Anda untuk tidak meninggalkan jejak lokal di komputer Anda. Cookie secara otomatis dihapus di akhir setiap sesi, memungkinkan Anda untuk menerima semua cookie tanpa diikuti. Penjelajahan pribadi dapat berguna saat membeli layanan online, karena situs web melacak kebiasaan pencarian kita dan menyesuaikan harga sesuai. Namun, penting untuk dicatat bahwa penjelajahan pribadi direkomendasikan untuk sesi sementara dan spesifik, bukan untuk penjelajahan internet umum.
+Mode penjelajahan pribadi, meskipun tidak menyembunyikan aktivitas Anda dari penyedia layanan internet, dapat memungkinkan Anda untuk tidak meninggalkan jejak di komputer Anda. *Cookie* akan secara otomatis dihapus setiap kali Anda selesai, memungkinkan Anda untuk menerima semua *cookie* tanpa dilacak. Mode ini berguna, contohnya saat membeli layanan online, karena situs web karena banyak situs memantau kebiasaan pencarian kita dan menyesuaikan harga berdasarkan itu. Namun, penting untuk dicatat bahwa mode penjelajahan pribadi sebaiknya digunakan untuk tujuan-tujuan tertentu saja, dan bukan untuk penjelajahan internet secara umum.
 
-Alternatif yang lebih lanjut adalah jaringan TOR (The Onion Router), yang menawarkan anonimitas dengan menyamarkan alamat IP pengguna dan memungkinkan akses ke Darknet. TOR Browser adalah browser yang dirancang khusus untuk menggunakan jaringan TOR. Ini memungkinkan Anda untuk mengunjungi situs web konvensional dan situs web .onion, yang biasanya dioperasikan oleh individu dan mungkin bersifat ilegal.
+Salah satu alternatif lebih lanjut adalah jaringan TOR (*The Onion Router*), yang menawarkan anonimitas dengan menyamarkan alamat IP pengguna dan memungkinkan akses ke Darknet. TOR Browser adalah browser yang dirancang khusus untuk menggunakan jaringan TOR. Peramban ini memungkinkan Anda untuk mengunjungi situs web konvensional dan situs web .onion, yang biasanya dijalankan oleh individu dan mungkin bersifat ilegal.
 
-TOR legal dan digunakan oleh jurnalis, aktivis kebebasan, dan orang lain yang ingin lolos dari sensor di negara-negara otoriter. Namun, penting untuk memahami bahwa TOR tidak mengamankan situs yang dikunjungi atau komputer itu sendiri. Selain itu, menggunakan TOR dapat memperlambat koneksi internet karena data melewati komputer tiga orang lain sebelum mencapai tujuannya. Juga penting untuk dicatat bahwa TOR bukan solusi sempurna untuk menjamin anonimitas 100% dan tidak seharusnya digunakan untuk aktivitas ilegal.
+TOR bersifat legal dan digunakan oleh jurnalis, aktivis kebebasan, dan orang lain yang ingin lolos dari sensor di negara-negara otoriter. Namun, penting untuk memahami bahwa TOR tidak mengamankan situs yang dikunjungi atau komputer itu sendiri. Selain itu, penggunaan TOR dapat memperlambat koneksi internet karena data harus melewati komputer milik tiga orang lain sebelum mencapai tujuannya. Juga penting untuk dicatat bahwa TOR bukan solusi sempurna untuk menjamin anonimitas 100% dan tidak seharusnya digunakan untuk aktivitas ilegal.
 ![](assets/notext/7.webp)
 
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
@@ -121,18 +121,18 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 <chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
 
-### VPN
+### VPN (*Virtual Private Network*)
 
-Melindungi koneksi internet Anda adalah aspek penting dari keamanan online, dan menggunakan jaringan pribadi virtual (VPN) adalah metode efektif untuk meningkatkan keamanan ini, baik untuk bisnis maupun pengguna individu.
+Melindungi koneksi internet Anda adalah aspek penting dari keamanan online, dan menggunakan jaringan pribadi virtual (VPN) adalah cara yang untuk meningkatkannya, baik untuk bisnis maupun pengguna individu.
 
-'VPN adalah alat yang mengenkripsi data yang ditransmisikan melalui internet, membuat koneksi menjadi lebih aman. Dalam konteks profesional, VPN memungkinkan karyawan untuk mengakses jaringan internal perusahaan secara aman dari jarak jauh. Data yang ditukar dienkripsi, membuatnya jauh lebih sulit bagi pihak ketiga untuk mencegat. Selain mengamankan akses ke jaringan internal, menggunakan VPN dapat memungkinkan pengguna untuk merutekan koneksi internet mereka melalui jaringan internal perusahaan, memberikan kesan bahwa koneksi mereka berasal dari perusahaan. Ini bisa sangat berguna untuk mengakses layanan online yang dibatasi secara geografis.
+VPN adalah alat yang menyamarkan data yang dikirimkan melalui internet, sehingga koneksi menjadi lebih aman. Dalam konteks profesional, VPN memungkinkan karyawan untuk mengakses jaringan internal perusahaan secara aman dari jarak jauh. Data yang dipertukarkan akan disamarkan, membuatnya jauh lebih sulit untuk dilihat atau dicuri oleh pihak ketiga. Selain itu, penggunaan VPN juga memungkinkan pengguna mengarahkan koneksi internet mereka seolah-olah berasal dari jaringan internal perusahaan. Hal ini sangat berguna untuk mengakses layanan online yang dibatasi secara geografis.
 ![](assets/en/8.webp)
 
-### Jenis VPN
+### Jenis-jenis VPN
 
-Ada dua jenis utama VPN: VPN perusahaan dan VPN konsumen, seperti NordVPN. VPN perusahaan cenderung lebih mahal dan kompleks, sementara VPN konsumen umumnya lebih mudah diakses dan ramah pengguna. Misalnya, NordVPN memungkinkan pengguna untuk terhubung ke internet melalui server yang berlokasi di negara lain, yang dapat melewati pembatasan geografis.
-Namun, menggunakan VPN konsumen tidak menjamin anonimitas yang lengkap. Banyak penyedia VPN menyimpan informasi tentang penggunanya, yang dapat berpotensi mengkompromikan anonimitas mereka. Meskipun VPN dapat berguna untuk meningkatkan keamanan online, mereka bukan solusi universal. Mereka efektif untuk penggunaan tertentu, seperti mengakses layanan yang terbatas secara geografis atau meningkatkan keamanan saat bepergian, tetapi mereka tidak menjamin keamanan total. Saat memilih VPN, sangat penting untuk memprioritaskan keandalan dan teknisitas daripada popularitas. Penyedia VPN yang mengumpulkan sedikit informasi pribadi umumnya adalah yang paling aman. Layanan seperti iVPN dan Mullvad tidak mengumpulkan informasi pribadi dan bahkan memungkinkan pembayaran dalam Bitcoin untuk privasi yang meningkat.![](assets/notext/9.webp)
-Akhirnya, VPN juga dapat digunakan untuk memblokir iklan online, menyediakan pengalaman menjelajah yang lebih menyenangkan dan aman. Namun, penting untuk melakukan penelitian sendiri untuk menemukan VPN yang paling sesuai dengan kebutuhan spesifik Anda. Menggunakan VPN disarankan untuk meningkatkan keamanan, bahkan saat menjelajah internet di rumah. Ini membantu memastikan tingkat keamanan yang lebih tinggi untuk data yang ditukar secara online. Akhirnya, pastikan untuk memeriksa URL dan gembok kecil di bilah alamat untuk memastikan bahwa Anda berada di situs yang ingin Anda kunjungi.
+Ada dua jenis utama VPN: VPN perusahaan dan VPN konsumen, seperti NordVPN. VPN perusahaan cenderung lebih mahal dan kompleks, sementara VPN konsumen umumnya lebih mudah diakses dan ramah pengguna. Misalnya, NordVPN memungkinkan pengguna untuk terhubung ke internet melalui server yang berlokasi di negara lain, sehingga bisa membuka situs atau layanan yang dibatasi berdasarkan lokasi geografis.
+Namun, menggunakan VPN konsumen tidak menjamin anonimitas secara menyeluruh. Banyak penyedia VPN menyimpan informasi tentang penggunanya, yang dapat berpotensi mengancam anonimitas mereka. Meskipun VPN dapat berguna untuk meningkatkan keamanan online, VPN bukanlah solusi universal. VPN bisa efektif untuk tujuan tertentu, seperti mengakses layanan yang terbatas secara geografis atau meningkatkan keamanan saat bepergian, tetapi VPN tidak menjamin keamanan Anda secara total. Saat memilih VPN, sangat penting untuk memprioritaskan keandalan dan aspek teknis daripada popularitasnya. Penyedia VPN yang mengumpulkan paling sedikit informasi pribadi pengguna umumnya merupakan yang paling aman. Layanan seperti iVPN dan Mullvad tidak mengumpulkan informasi pribadi dan bahkan memungkinkan pembayaran dalam Bitcoin untuk privasi yang lebih baik.![](assets/notext/9.webp)
+VPN juga dapat digunakan untuk memblokir iklan online, menyediakan pengalaman penjelajahan internet yang lebih lancar dan aman. Namun, penting untuk melakukan riset Anda sendiri untuk menemukan VPN yang paling sesuai dengan kebutuhan Anda. Menggunakan VPN disarankan untuk meningkatkan keamanan, bahkan saat menjelajah internet di rumah. Hal ini membantu memastikan tingkat keamanan yang lebih tinggi untuk data yang dipertukarkan secara online. Terakhir, pastikan untuk memeriksa URL dan gembok kecil di bilah alamat web untuk memastikan bahwa Anda berada di situs yang benar-benar ingin Anda kunjungi.
 
 https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
@@ -140,13 +140,13 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 
 ### HTTPS & jaringan Wi-Fi publik
 
-Dalam hal keamanan online, penting untuk memahami bahwa 4G umumnya lebih aman daripada Wi-Fi publik. Namun, menggunakan 4G dapat dengan cepat menghabiskan paket data seluler Anda. Protokol HTTPS telah menjadi standar untuk mengenkripsi data di situs web. Ini memastikan bahwa data yang ditukar antara pengguna dan situs web aman. Oleh karena itu, sangat penting untuk memverifikasi bahwa situs yang Anda kunjungi menggunakan protokol HTTPS.
+Dalam hal keamanan online, penting untuk memahami bahwa 4G umumnya lebih aman daripada Wi-Fi publik. Namun, menggunakan 4G dapat dengan cepat menghabiskan paket data seluler Anda. Protokol HTTPS telah menjadi standar untuk menyamarkan data di situs web, yang memastikan bahwa data yang ditukar antara pengguna dan situs web aman. Oleh karena itu, sangat penting untuk memastikan bahwa situs yang Anda kunjungi menggunakan protokol HTTPS.
 
-Di Uni Eropa, perlindungan data diatur oleh General Data Protection Regulation (GDPR). Oleh karena itu, lebih aman untuk menggunakan penyedia titik akses Wi-Fi Eropa, seperti SNCF, yang tidak menjual kembali data koneksi pengguna. Namun, sekadar tampilnya gembok tidak menjamin keaslian situs. Penting untuk memverifikasi kunci publik situs menggunakan sistem sertifikat untuk mengonfirmasi keasliannya. Meskipun enkripsi data mencegah pihak ketiga dari menyadap data yang ditukar, masih mungkin bagi individu jahat untuk menyamar sebagai situs dan mentransfer data dalam teks biasa.
+Di Uni Eropa, perlindungan data diatur oleh *General Data Protection Regulation* (GDPR). Oleh karena itu, lebih aman untuk menggunakan penyedia titik akses Wi-Fi Eropa, seperti SNCF, yang tidak menjual kembali data koneksi pengguna. Namun, hanya dengan adanya ada ikon gembok pada situs tidak menjamin keasliannya. Penting untuk memverifikasi kunci publik situs menggunakan sistem sertifikat untuk mengonfirmasi keasliannya. Meskipun enkripsi data mencegah pihak ketiga menyadap data yang ditukar, masih ada kemungkinan bagi individu jahat untuk menyamar sebagai situs tersebut dan mentransfer data dalam format teks biasa.
 
 Untuk menghindari penipuan online, sangat penting untuk memverifikasi identitas situs yang Anda jelajahi, terutama dengan memeriksa ekstensi dan nama domain. Selain itu, waspadalah terhadap penipu yang menggunakan huruf serupa dalam URL untuk menipu pengguna.
 ![](assets/en/10.webp)
-Secara keseluruhan, penggunaan VPN dapat sangat meningkatkan keamanan online, baik untuk bisnis maupun pengguna individu. Selain itu, praktik kebiasaan menjelajah yang baik dapat berkontribusi pada kebersihan digital yang lebih baik. Dalam segmen berikutnya dari kursus ini, kami akan membahas keamanan komputer, termasuk pembaruan, antivirus, dan manajemen kata sandi.
+Secara keseluruhan, penggunaan VPN dapat meningkatkan keamanan online, baik untuk bisnis maupun pengguna individu. Selain itu, praktik kebiasaan menjelajah yang baik dapat bermanfaat untuk keamanan digital Anda. Dalam segmen berikutnya dari kursus ini, kami akan membahas aspek-aspek keamanan komputer, termasuk pembaruan, antivirus, dan pengelolaan kata sandi.
 
 # Praktik Terbaik Penggunaan Komputer
 
@@ -156,87 +156,87 @@ Secara keseluruhan, penggunaan VPN dapat sangat meningkatkan keamanan online, ba
 
 <chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
 
-Keamanan komputer kita adalah perhatian utama di dunia digital saat ini. Hari ini, kami akan membahas tiga poin kunci:
+Keamanan komputer kita adalah hal utama yang harus diperhatikan di dunia digital saat ini. Saat ini, kami akan membahas tiga poin kunci:
 
 - Memilih komputer
-- Pembaruan dan antivirus untuk keamanan optimal
+- Pembaruan dan antivirus untuk keamanan yang optimal
 - Praktik terbaik untuk keamanan komputer dan data Anda.
 
 ### Memilih Komputer dan Sistem Operasi
 
-Mengenai pilihan komputer, tidak ada perbedaan signifikan dalam keamanan antara komputer lama dan baru. Namun, perbedaan keamanan ada antara sistem operasi: Windows, Linux, dan Mac.
-Mengenai Windows, disarankan untuk tidak menggunakan akun administrator sehari-hari, melainkan membuat dua akun terpisah: sebuah akun administrator dan akun untuk penggunaan sehari-hari. Windows sering kali lebih terpapar pada malware karena jumlah penggunanya yang besar dan kemudahan beralih dari pengguna ke administrator. Di sisi lain, ancaman lebih jarang terjadi pada Linux dan Mac.
+Saat membicarakan pemilihan komputer, tidak ada perbedaan yang signifikan dalam aspek keamanan komputer lama dan baru. Namun, terdapat beberapa perbedaan pada aspek keamanan pada beberapa sistem operasi: Windows, Linux, dan Mac.
+Terkait dengan Windows, Anda disarankan untuk tidak menggunakan akun administrator sehari-hari. Kami menyarankan untuk membuat dua akun terpisah: satu akun administrator dan akun untuk penggunaan sehari-hari. Windows sering kali lebih rentan terhadap *malware* karena jumlah penggunanya yang besar dan mudahnya untuk berpindah-pindah dari menggunakan akun pengguna ke administrator. Di sisi lain, ancaman lebih jarang terjadi pada sistem operasi Linux dan Mac.
 
-Pilihan sistem operasi harus didasarkan pada kebutuhan dan preferensi Anda. Sistem Linux telah berkembang pesat dalam beberapa tahun terakhir, menjadi semakin ramah pengguna. Ubuntu adalah alternatif menarik untuk pemula, dengan antarmuka grafis yang mudah digunakan. Memungkinkan untuk mempartisi komputer untuk bereksperimen dengan Linux sambil tetap mempertahankan Windows, namun ini bisa kompleks. Seringkali lebih disukai untuk memiliki komputer khusus, mesin virtual, atau USB key untuk menguji Linux atau Ubuntu.
+Pilihan sistem operasi harus didasarkan pada kebutuhan dan preferensi Anda. Sistem Linux telah berkembang pesat dalam beberapa tahun terakhir, menjadi semakin ramah pengguna. Ubuntu merupakan alternatif yang menarik untuk pemula, dengan antarmuka grafis yang mudah digunakan. Anda bisa mengalokasikan ruang pada komputer untuk mencoba Linux tanpa menghapus Windows, namun hal ini bisa jadi cukup rumit untuk dilakukan. Hal yang seringkali lebih disukai adalah memiliki komputer khusus, mesin virtual, atau *flash drive* USB untuk menguji penggunaan Linux atau Ubuntu.
 
 ### Pembaruan Perangkat Lunak
 
-Mengenai pembaruan, aturannya sederhana: **memperbarui sistem operasi dan aplikasi secara teratur adalah esensial.**
+Aspek penting dari pembaruan sangat sederhana: **memperbarui sistem operasi dan aplikasi secara teratur adalah hal yang penting.**
 
-Pada Windows 10, pembaruan hampir terus-menerus dan sangat penting untuk tidak memblokir atau menunda mereka. Setiap tahun, sekitar 15.000 kerentanan diidentifikasi, menyoroti pentingnya menjaga perangkat lunak tetap terbaru untuk melindungi dari virus. Secara umum, dukungan perangkat lunak berakhir antara 3 dan 5 tahun setelah rilisnya, sehingga perlu untuk meningkatkan ke versi yang lebih tinggi untuk terus mendapatkan keamanan.
+Pada sistem operasi Windows 10, opsi pembaruan hampir terus-menerus ada dan sangat penting untuk tidak memblokir atau menunda melakukannya. Setiap tahun, sekitar 15.000 aspek kerentanan berhasil diidentifikasi, dan hal ini menyoroti pentingnya menjaga perangkat lunak tetap diperbarui untuk melindunginya dari virus. Secara umum, ketersediaan dukungan untuk perangkat lunak berakhir antara 3 hingga 5 tahun setelah dirilis, sehingga Anda perlu untuk memperbarui ke versi yang lebih tinggi untuk terus mendapatkan manfaat keamanan.
 
-Aturan ini berlaku untuk hampir semua perangkat lunak. Memang, pembaruan tidak dimaksudkan untuk membuat mesin Anda usang atau lambat, tetapi untuk melindunginya dari ancaman baru. Beberapa pembaruan bahkan dianggap besar, dan tanpanya, komputer Anda berisiko serius untuk dieksploitasi.
+Aturan ini berlaku untuk hampir semua perangkat lunak. Memang benar bahwa pembaruan tidak dimaksudkan untuk membuat mesin Anda usang atau lambat, tetapi untuk melindunginya dari ancaman baru. Beberapa pembaruan bahkan dianggap penting, dan tanpa pembaruan tersebut, komputer Anda berisiko besar untuk disalahgunakan.
 
-Untuk memberi Anda contoh konkret dari sebuah kesalahan: perangkat lunak bajakan yang tidak dapat diperbarui mewakili ancaman ganda. Kedatangan virus selama pengunduhan ilegal dari situs web yang mencurigakan dan penggunaan yang tidak aman terhadap bentuk serangan baru.
+Untuk memberi Anda contoh konkret dari sebuah kesalahan: perangkat lunak bajakan yang tidak dapat diperbarui melibatkan bahaya ganda. Potensi adanya virus selama pengunduhan ilegal dari situs web yang mencurigakan serta penggunaan yang tidak aman terhadap bentuk serangan baru karena tidak bisa diperbarui.
 
 ### Anti-virus
 
 - Apakah Anda memerlukan anti-virus? YA
 - Apakah Anda harus membayar? Tergantung!
 
-Pilihan dan implementasi anti-virus itu penting. Windows Defender, antivirus bawaan di Windows, adalah solusi yang aman dan efektif. Untuk solusi gratis, ini sangat baik dan jauh lebih baik dari banyak solusi gratis yang ditemukan online. Memang, harus berhati-hati dengan antivirus yang diunduh dari Internet, karena bisa jadi berbahaya atau usang.
-Bagi mereka yang ingin berinvestasi dalam antivirus berbayar, disarankan untuk memilih antivirus yang menganalisis ancaman yang tidak dikenal dan muncul secara cerdas, seperti Kaspersky. Pembaruan antivirus sangat penting untuk melindungi dari ancaman baru.
+Pilihan dan penggunaan anti-virus bersifat penting. Windows Defender, antivirus bawaan di Windows, adalah solusi yang aman dan efektif. Karena bersifat gratis, antivirus ini sangat baik dan jauh lebih baik dari banyak antivirus gratis yang dapat ditemukan online. Namun, Anda harus berhati-hati dengan antivirus yang diunduh dari Internet, karena bisa jadi berbahaya atau usang.
+Bagi yang ingin menggunakan antivirus berbayar, pilihlah antivirus yang bisa mendeteksi ancaman baru yang belum dikenal, seperti Kaspersky. Pastikan untuk selalu memperbarui antivirus, karena itu penting untuk melindungi diri dari ancaman terbaru.
 
 > Catatan: Linux dan Mac, berkat sistem pemisahan hak pengguna mereka, seringkali tidak memerlukan antivirus.
 
-Akhirnya, berikut adalah beberapa praktik baik untuk keamanan komputer dan data Anda. Penting untuk memilih antivirus yang efektif dan ramah pengguna. Juga sangat penting untuk mengadopsi praktik baik pada komputer Anda, seperti tidak memasukkan USB key yang tidak dikenal atau mencurigakan. USB key ini dapat berisi program jahat yang dapat secara otomatis diluncurkan saat dimasukkan. Memeriksa USB key akan sia-sia setelah telah dimasukkan. Beberapa perusahaan telah menjadi korban peretasan karena USB key yang ceroboh ditinggalkan di area yang dapat diakses, seperti tempat parkir.
+Berikut adalah beberapa praktik yang baik untuk keamanan komputer dan data Anda. Penting untuk memilih antivirus yang efektif dan ramah pengguna. Aspek lainnya yang sangat penting adalah untuk memiliki kebiasaan praktik baik saat menggunakan komputer Anda, seperti tidak memasukkan USB tidak dikenal atau mencurigakan. USB ini dapat berisi program berbahaya yang dapat secara otomatis aktif saat USB dimasukkan. Pemeriksaan USB akan sia-sia setelah USB dipasang. Beberapa perusahaan telah menjadi korban peretasan karena kecerobohan seperti meninggalkan USB di tempat yang rawan, seperti tempat parkir.
 
-Perlakukan komputer Anda seperti Anda memperlakukan rumah Anda: tetap waspada, perbarui secara teratur, hapus file yang tidak perlu, dan gunakan kata sandi yang kuat untuk keamanan. Sangat penting untuk mengenkripsi data pada laptop dan smartphone untuk mencegah pencurian atau kehilangan data. BitLocker untuk Windows, LUKS untuk Linux, dan opsi bawaan untuk Mac adalah solusi untuk enkripsi data. Disarankan untuk mengaktifkan enkripsi data tanpa ragu dan menuliskan kata sandi pada kertas yang disimpan di tempat yang aman.
-Kesimpulan, sangat penting untuk memilih sistem operasi yang sesuai dengan kebutuhan Anda dan secara rutin memperbaruinya, begitu juga dengan aplikasi yang terinstal. Juga penting untuk menggunakan antivirus yang efektif dan ramah pengguna serta mengadopsi praktik baik untuk keamanan komputer dan data Anda.
+Perlakukanlah komputer Anda seperti Anda memperlakukan rumah Anda: tetap waspada, perbarui secara teratur, hapus file yang tidak diperlukan, dan gunakan kata sandi yang kuat untuk keamanan. Sangat penting untuk mengenkripsi data pada laptop dan smartphone guna mencegah pencurian atau kehilangan data. BitLocker untuk Windows, LUKS untuk Linux, dan opsi bawaan untuk Mac adalah contoh solusi untuk enkripsi data. Anda disarankan untuk mengaktifkan enkripsi data tanpa ragu dan menuliskan kata sandi pada kertas yang disimpan di tempat yang aman.
+Sebagai penutup, sangat penting untuk memilih sistem operasi yang cocok dengan kebutuhan Anda dan secara rutin memperbaruinya, begitu juga dengan aplikasi yang sudah terinstal. Hal penting lainnya yaitu untuk menggunakan antivirus yang efektif dan ramah pengguna serta memiliki kebiasaan praktik yang baik untuk menjaga keamanan komputer dan data Anda.
 
-## Manajemen Hacking & Backup: Melindungi Data Anda
+## Peretasan & Pengelolaan Pencadangan: Melindungi Data Anda
 
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
 
 ### Bagaimana peretas menyerang?
 
-Untuk melindungi diri dengan baik, sangat penting untuk memahami bagaimana peretas mencoba menyusup ke komputer Anda. Memang, virus tidak sering muncul secara ajaib, tetapi lebih sering merupakan akibat dari tindakan kita, bahkan tanpa sengaja!
+Untuk melindungi diri Anda dengan baik, sangat penting untuk memahami bagaimana peretas mencoba menyusup ke komputer Anda. Memang, virus tidak sering muncul secara ajaib, tetapi lebih sering merupakan konsekuensi dari tindakan kita, bahkan tindakan kita yang tak sengaja!
 
-Sebagai aturan umum, virus datang karena Anda telah membiarkan komputer Anda mengundang mereka ke rumah Anda. Ini dapat divisualisasikan dengan mengunduh perangkat lunak yang mencurigakan, file torrent yang terkompromi, atau hanya dengan mengklik tautan email penipuan!
+Secara umum, virus datang karena Anda telah membiarkan komputer Anda mengundang mereka ke rumah Anda. Misalnya, dengan mengunduh perangkat lunak yang mencurigakan, file torrent yang telah disusupi, atau hanya dengan mengklik tautan email penipuan!
 
-### Phishing, kewaspadaan terhadap email penipuan:
+### *Phishing*, kewaspadaan terhadap email penipuan:
 
-Perhatian! Email adalah vektor serangan pertama, berikut beberapa tips:
+Perhatian! Email adalah media penyerangan retasan dan pembobolan pertama, berikut beberapa tips:
 
-- Tetap waspada terhadap upaya phishing yang bertujuan untuk mengekstrak informasi sensitif seperti kredensial dan kata sandi Anda. Hindari mengklik tautan mencurigakan dan berbagi informasi pribadi Anda tanpa memverifikasi legitimasi pengirim.
+- Tetap waspada terhadap upaya *phishing* yang bertujuan untuk mengambil informasi sensitif seperti nama pengguna dan kata sandi Anda. Hindari mengklik tautan mencurigakan dan berbagi informasi pribadi Anda tanpa memastikan keaslian identitas pengirimnya.
 - Berhati-hatilah dengan lampiran email dan gambar:
-  Lampiran email dan gambar dapat mengandung malware. Jangan mengunduh atau membuka lampiran dari pengirim yang tidak dikenal atau mencurigakan, dan pastikan antivirus Anda terbaru.
+  Lampiran email dan gambar dapat mengandung *malware*. Jangan mengunduh atau membuka lampiran dari pengirim yang tidak dikenal atau mencurigakan, dan pastikan antivirus Anda sudah diperbarui.
 
-Aturan emas di sini adalah untuk memeriksa dengan cermat nama lengkap pengirim serta asal email. Jika ragu, hapus saja!
+Aturan penting di sini adalah untuk memeriksa dengan cermat nama lengkap pengirim serta asal email. Jika Anda ragu, hapus saja!
 
-### Ransomware dan jenis serangan siber:
+### *Ransomware* dan jenis serangan siber:
 
-Ransomware adalah jenis perangkat lunak berbahaya yang mengenkripsi data pengguna dan menuntut tebusan untuk mendekripsinya. Jenis serangan ini menjadi semakin umum dan dapat sangat merepotkan bagi sebuah perusahaan atau individu. Untuk melindungi diri, sangat penting untuk membuat cadangan dari file paling sensitif! Ini tidak akan menghentikan ransomware, tetapi akan memungkinkan Anda untuk mengabaikannya.
+*Ransomware* adalah jenis perangkat lunak berbahaya yang mengunci data pengguna dan meminta tebusan untuk membukanya kembali. Jenis serangan ini menjadi semakin sering terjadi dan dapat menimbulkan masalah serius bagi sebuah perusahaan atau individu. Untuk melindungi diri, penting untuk membuat salinan cadangan untuk file-file yang paling penting! Hal ini tidak akan menghentikan *ransomware*, tapi setidaknya Anda bisa mengabaikannya dan tetap punya akses ke data kamu.
 ![](assets/notext/14.webp)
-Secara rutin cadangkan data penting Anda ke perangkat penyimpanan eksternal atau layanan penyimpanan online yang aman. Dengan cara ini, dalam hal serangan siber atau kegagalan perangkat keras, Anda dapat memulihkan data Anda tanpa kehilangan informasi penting.
+Anda sebaiknya secara rutin mencadangkan data penting Anda ke perangkat penyimpanan eksternal atau layanan penyimpanan online yang aman. Dengan cara ini, apabila terjadi serangan siber atau kerusakan atau kegagalan perangkat keras, Anda dapat memulihkan data Anda tanpa kehilangan informasi penting.
 
 Solusi sederhana:
 
-- Beli hard drive eksternal dan salin data Anda ke dalamnya. Putuskan koneksi dan simpan di suatu tempat di rumah. (Melakukan ini dua kali dan menyimpan salah satu drive di lokasi lain membantu melindungi dari potensi kebakaran.)
+- Beli *hard drive* eksternal dan salin data Anda ke dalamnya. Lepas *hard drive* eksternal tersebut dan simpan di suatu tempat di rumah. (Melakukan ini dua kali dan menyimpan salah satu pencadangan di lokasi lain akan membantu Anda untuk melindungi dari potensi kebakaran.)
 
-- Buat cadangan "cloud" menggunakan ProtonMail Drive, Sync, atau bahkan Google Drive. Cukup unggah data sensitif Anda ke host online ini. Namun, sadarilah bahwa data Anda berpotensi ada di internet dan dipegang oleh pihak ketiga yang terpercaya.
+- Buat cadangan "cloud" menggunakan ProtonMail Drive, Sync, atau Google Drive. Cukup dengan mengunggah data sensitif Anda ke platform online ini. Namun, penting untuk disadari bahwa data Anda berpotensi ada di internet dan dipegang oleh pihak ketiga yang terpercaya.
 
 ### Apakah Anda harus membayar peretas?
 
-TIDAK, umumnya tidak disarankan untuk membayar peretas dalam kasus ransomware atau jenis serangan lainnya. Membayar tebusan tidak menjamin pemulihan data Anda dan dapat mendorong penjahat siber untuk melanjutkan aktivitas jahat mereka. Sebagai gantinya, prioritaskan pencegahan dan cadangan rutin data Anda untuk melindungi diri.
+TIDAK, umumnya tidak disarankan untuk membayar peretas dalam kasus *ransomware* atau jenis serangan lainnya. Membayar tebusan tidak menjamin pemulihan data Anda dan dapat menjadi insentif bagi penjahat siber untuk melanjutkan aktivitas jahat mereka. Sebagai gantinya, prioritaskan pencegahan dan cadangan rutin data Anda untuk melindungi diri.
 
-Jika Anda mendeteksi virus di komputer Anda, putuskan koneksi dari internet, lakukan pemindaian antivirus penuh, dan hapus file yang terinfeksi. Kemudian, perbarui perangkat lunak dan sistem operasi Anda, dan ubah kata sandi Anda untuk mencegah intrusi lebih lanjut.
+Jika Anda mendeteksi virus di komputer Anda, matikan koneksi internet, lakukan pemindaian antivirus menyeluruh, dan hapus file yang terkena virus. Kemudian, perbarui perangkat lunak dan sistem operasi Anda, dan ubah kata sandi Anda untuk mencegah pembobolan lebih lanjut.
 
 https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
-# Implementasi solusi.
+# Penerapan solusi.
 
 <partId>215ec902-ba05-5549-87fc-cb8d82665f7b</partId>
 
@@ -244,13 +244,13 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 <chapterId>dfceea33-8712-5557-ace1-6ba5598d33d8</chapterId>
 
-### Menyiapkan akun email baru!
+### Membuat akun email baru!
 
-Akun email merupakan pusat dari aktivitas online Anda: jika akun tersebut dikompromikan, peretas dapat menggunakannya untuk mereset semua kata sandi Anda melalui fungsi "lupa kata sandi" dan mendapatkan akses ke banyak situs lain. Itulah mengapa Anda perlu mengamankannya dengan benar.
+Akun email merupakan pusat dari aktivitas online Anda: jika akun tersebut memiliki celah untuk diserang, peretas dapat menggunakannya untuk mengatur ulang semua kata sandi Anda melalui fungsi "lupa kata sandi" dan mendapatkan akses ke banyak situs lain. Itulah mengapa Anda perlu mengamankannya dengan benar.
 
-Akun email harus dibuat dengan kata sandi yang unik dan kuat (detail di bab 7) dan idealnya dengan sistem otentikasi dua faktor (detail di bab 8).
+Akun email harus dibuat dengan kata sandi yang unik dan kuat (detail akan dibahas di bab 7) dan idealnya dengan sistem otentikasi dua faktor, 2FA (detail akan dibahas di bab 8).
 
-Meskipun kita semua sudah memiliki akun email, penting untuk mempertimbangkan membuat yang baru, yang lebih modern untuk memulai dari awal.
+Meskipun kita semua sudah memiliki akun email, ada baiknya kita mempertimbangkan untuk membuat akun baru yang lebih modern — sebagai permulaan yang lebih tertata dan aman.
 
 ### Memilih penyedia email dan mengelola alamat email
 

@@ -1162,7 +1162,7 @@ Finally, whether you are a small merchant or a more established business, it is 
 - **Transaction 2**: Customer purchases coffee for €5.
     - Bitcoin equivalent: (5 / 40,000) = 0.000125 Bitcoin = 12,500 Satoshis.
     - Conversion fee: 1.5% (€5 × 0.015) = €0.075.
-    - Net received: €5 - €0.075 = €4.93.
+    - Net received: €5 - €0.075 = €4.925.
 
 
 **Summary of Transactions**:
@@ -1190,7 +1190,7 @@ Finally, whether you are a small merchant or a more established business, it is 
     - Retained in Bitcoin (50%): 62,500 Satoshis = 0.000625 Bitcoin.
 
 
-**Summary**:
+**Summary of Transactions**:
 - **Total Sales**: €50.
 - **Fees**: €0.375.
 - **Net Euros Received**: €24.625.
@@ -1215,7 +1215,7 @@ Finally, whether you are a small merchant or a more established business, it is 
     - Valuation of Bitcoin Holding: 0.1 Bitcoin × €35,000 = €3,500.
     - Unrealized Gain: €3,500 - €3,000 = €500.
 
-**Summary**:
+**Summary of Transactions**:
 - **Total Revenue Recognized**: €3,000.
 - **Bitcoin Holding**: 0.1 Bitcoin valued at €3,500 on the balance sheet.
 - **Unrealized Gain**: €500 disclosed in financial notes but not realized as income.
@@ -1251,7 +1251,7 @@ Finally, whether you are a small merchant or a more established business, it is 
         - Cost of Bitcoin Sold: 0.19335 Bitcoin × €25,850 = €4,999.
     - Realized Gain: €7,734 - €4,999 = €2,735.
 
-**Summary**:
+**Summary of Transactions**:
 - **Bitcoin Remaining**: 0.19335 Bitcoin valued at €7,734 (at €40,000/BTC).  
 - **Realized Gain**: €2,735 included in income statement.
 - **Unrealized Gain**: €5,468 disclosed in financial notes (including unrealized value of remaining Bitcoin).

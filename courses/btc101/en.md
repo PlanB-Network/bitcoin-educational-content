@@ -1,7 +1,7 @@
 ---
-name: The Bitcoin Journey
-goal: Discover Bitcoin fundamentals, including its monetary value proposition, miners, transactions, and wallets.
-objectives:
+Izina: The Bitcoin Journey
+Intego: Discover Bitcoin fundamentals, including its monetary value proposition, miners, transactions, and wallets.
+Ihangiro:
   - Gain a general understanding of the Bitcoin technology
   - Understand how to buy and secure bitcoins
   - Have a general understanding of the Blockchain technology

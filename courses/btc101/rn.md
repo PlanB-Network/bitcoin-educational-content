@@ -107,39 +107,39 @@ Ni ngombwa gutahura ko Bitcoin ari uburyo bushasha bw’amahera buhindura burund
 - Igice ca 22 - Ikirungo c'umutuku canke ikirungo c'ubururu?
 
 
-Imbere yo gutanga insobanuro y’amahera n’igikorwa cayo mu kibano (Igice ca 1), dukwiye gutangura kuri Genesis ya Bitcoin. Bitcoin yatangujwe mu mwaka w’2009, ni ubuhinga bushasha cane butandukanye n’ibindi vyose. Ni ibisanzwe rero kudatahura vyose ku bijanye na vyo, vyose icarimwe. Nkako, nk’uko nyene bigenda igihe wiga gukoresha Internet canke gutwara imodoka, ntukeneye guca umenya ibintu vyose bijanye n’ubuhinga: urashobora gutangura wiga ingene wokwakira, wokwishura no kubungabunga amahera yawe, hanyuma ugatera intambwe ntoyi kugira ngo uyige bimwe bigera kure.
+Imbere yo gutangura kubabwira  indangurakintu y'amafaranga n'akamaro kayo mukibano (Ikigabane ca 1 ), Twari dukwiye kubanza kubabwira intango ya Bitcoin. Yatangujwe muri 2009, Bitcoin n'ubuhinga bushasha cane akaba arinaco butandukaniyeko n'ubundi bwose. Wanashima n'ibintu bisanzwe kudatahura burikintu kurivyo, icarimwe. Ariko, nkakurya bigenda uriko uriga gukoresha Ubuhinga ngurukana bumenyi canke kunyonga imodoka, ntukeneye guca ugirako umenya ibintu vyose bijanye n’ubuhinga: urashobora gutangura kwiga ingene wokwakira, woriha no gukingira ubutunzi bwawe, hanyuma ugatera intambwe ntoyi ukayiga bimwe vyimbitse .
 
 
-Nakare, turi mu ntango gusa zo kwemerwa kwayo, kuko twaciye mu gihe co guhaguruka: uri mu gihe gusa co kuronka ubumenyi bwinshi nk’uko wipfuza ku bijanye n’ico gishasha gihambaye.
+Wanashima, turacari mugice c'intango cokuyemeza, nkuko twamaze kurengana igice co guhaguruka: uri mu gihe co kwakira ubumenyi bwose wipfuza kuvyerekeye buno buhinga bushasha ngirakamaro.
 
 
 ![image](assets/en/02.webp)
 
 
-Iciyumviro gihambaye aha ni ugutahura ubu buhinga bushasha mu buryo rusangi, rero twizigiye ko muzonezerwa n’iri shure kandi mukabandanya mutera imbere muri iyo nzira nshasha y’amahera y’isi yose.
+Iciyumviro nyamukuru hano ni gutahura bunobuhinga bushasha murirusangi, rero twizigiyeko munezerewe nakino cigwa hanyuma mukabandanya mutera intambwe murikinogihe gishasha camahera mpuzamakungu .
 
 
 Ni mwiteguye kwisuka mw’isi iryoshe cane ya Bitcoin no gutahura ingene ikora vyose imbere mu mutima? Reka tugende!
 
 
-## Imbere y'amateka ya Bitcoin
+## Imbere yakahise ka Bitcoin
 
 
 <chapterId>9a94b627-5b69-5d81-9125-f1fa9b0aa6ad</chapterId>
 
 
-Imbere y'uko ijambo "Bitcoin" rihinduka amafaranga y'ubuhinga bwa none n'uguhindura ivy'ubutunzi, umushinge wo kuyirema warashizweho n'urutonde rw'ivyiyumviro, ubuhinga bushasha, n'imigwi y'abantu. Muri ivyo, umuhari Cypherpunk uragaragara nk'ikintu nyamukuru mu mateka ya Bitcoin.
+Imbere y'uko ijambo "Bitcoin" rihinduka amafaranga yo kubuhinga ngurukana bumenyi hamwe n'ihinduka ryubutunzi, umushinge w'ishirwaho ryayo ushingiye kuruhererekane rw'iviyumviro, ubuhinga bushasha, hamwe n'imigwi y'abantu. Muri ivyo, umurwi Cypherpunk uraboneka nk'ikintu nyamukuru catanguriye kahise ka Bitcoin.
 
 
-### Cypherpunks: ababona isi y'ubuhinga bwa none
+### Cypherpunks: Imbonerakure z'isi ishingiye kubuhinga bwa none
 
 
 ![image](assets/en/03.webp)
 
-Mu mutima w’iterambere ry’ubuhinga ryo mu myaka ya 1980 na 1990, umugwi w’abantu watanguye kwibaza cane uruhara rw’ubuzima bwite n’umwidegemvyo mu gihe c’ubuhinga bwa none. Abo bantu, bazokwitwa "cypherpunks", barizera cane ko ubuhinga bwo gukingira amakuru bushobora kuba igikoresho co kurinda uburenganzira bw'umuntu ku giti ciwe ku bijanye n'ukwivanga mu bikorwa vya Leta n'amashirahamwe maninimanini.
+Hagati mw'iterambere ry'ubuhinga ryo mumyaka ya 1980 na 1990, umugwi w’abantu watanguye kwibaza vyimbitse akamaro k'ibanga hamwe n'ubwigenge murirusangi mugihe c'ubuhinga bwanone . Abo bantu, bashoboye kwitwa munyuma "cypherpunks", barizera cane ko ubuhinga bwo gukingira inyandiko bushobora kuba igikoresho co kurinda uburenganzira bw'umuntu ku giti ciwe ku bijanye n'ukwivanga kwa Leta mhamwe n'amashirahamwe maninimanini.
 
 
-Abantu bazwi cane nka Julian Assange, Wei Dai, Tim May na David Chaum baragize uruhara runini mu guhingura ubuhinga n’iyerekwa ry’uwo muhari. Abo biyumvira barasangiye ivyiyumviro vyabo ku rutonde rw’abarungikirwa ubutumwa, aho abaje muri iyo nama bavuye hirya no hino kw’isi bariko baraganira ku buryo bwiza bwo gukoresha ubuhinga bwa none kugira ngo umuntu agire umwidegemvyo mwinshi.
+Abantu bazwi cane nka Julian Assange, Wei Dai, Tim May na David Chaum baragize uruhara runini mu gushushanya ivyiyumviro hamwe n'imbonakazoza yunomuhari. zino cambwenge zarasangije ivyiyumviro vyabo kurutonde rwabakira ubutumwa vyagize akamaro, aho abitabiriye akamo bomumihingo yose y'isi bahanahanye ivyiyumviro kuvyerekeye uburyo bwiza bwo gukoresha ubuhinga bwa none kugira ngo habeho ubwigenge bwakiremwa muntu.
 
 
 ### Impapuro zitatu z’ishimikiro z’aba Cypherpunks .

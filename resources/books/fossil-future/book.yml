@@ -7,7 +7,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.24
+    reward: 0.23
   - language: de
     last_contribution_date:
     urgency: 1
@@ -28,7 +28,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.24
+    reward: 0.23
   - language: fr
     last_contribution_date:
     urgency: 1
@@ -53,7 +53,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.24
+    reward: 0.23
   - language: vi
     last_contribution_date:
     urgency: 1
@@ -69,18 +69,16 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 0.27
-
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.24
-
+    reward: 0.23
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.24
+    reward: 0.23
 tags:
   - future-outlook
   - high-level

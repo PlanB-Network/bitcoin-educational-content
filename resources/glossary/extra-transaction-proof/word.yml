@@ -1,6 +1,6 @@
 id: b11c1a82-2137-45ef-9122-c4a37c38a475
 en_word: EXTRA TRANSACTION PROOF
-related_words: 
+related_words:
 original_language: fr
 proofreading:
   - language: fr
@@ -8,4 +8,4 @@ proofreading:
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 0
+    reward: 0.08

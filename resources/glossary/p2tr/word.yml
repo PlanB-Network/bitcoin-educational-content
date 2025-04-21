@@ -1,6 +1,6 @@
 id: 355fe728-619d-45bb-968e-0b1e558dc576
 en_word: P2TR
-related_words: 
+related_words:
 original_language: fr
 proofreading:
   - language: en
@@ -14,79 +14,66 @@ proofreading:
     contributor_names:
       - LoicPandul
     reward: 0.19
-
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.48
-
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.39
-
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.39
-
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.48
-
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.48
-
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.58
-
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.39
-
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.48
-
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.39
-
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.48
-
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.67
-
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.58
-
   - language: ja
     last_contribution_date:
     urgency: 1

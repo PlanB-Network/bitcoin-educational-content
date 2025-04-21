@@ -1,94 +1,81 @@
 id: ef71b88e-9b56-4681-b1c5-a28ab025b625
 en_word: HASHRATE
-related_words: 
+related_words:
 original_language: fr
 proofreading:
   - language: en
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.27
+    reward: 0.25
   - language: fr
     last_contribution_date: 2024-07-26
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 0.14
-
+    reward: 0.12
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.33
-
+    reward: 0.3
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.27
-
+    reward: 0.25
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.27
-
+    reward: 0.25
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.33
-
+    reward: 0.3
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.33
-
+    reward: 0.3
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.39
-
+    reward: 0.35
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.27
-
+    reward: 0.25
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.33
-
+    reward: 0.3
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.27
-
+    reward: 0.25
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.33
-
+    reward: 0.3
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.45
-
+    reward: 0.4
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.39
-
+    reward: 0.35
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.45
+    reward: 0.4

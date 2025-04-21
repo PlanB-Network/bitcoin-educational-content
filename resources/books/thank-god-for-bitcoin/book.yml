@@ -1,6 +1,5 @@
 id: faf2dfc8-b732-4955-887f-c667500cb169
-author: Bitcoin and Bible Group, Jimmy Song, Gabe Higgins, Derek Waltchack, Robert
-  Breedlove, J.M. Bush, Julia Tourianski, Lyle Pratt, George Mekhail
+author: Bitcoin and Bible Group, Jimmy Song, Gabe Higgins, Derek Waltchack, Robert Breedlove, J.M. Bush, Julia Tourianski, Lyle Pratt, George Mekhail
 level: beginner
 original_language: en
 proofreading:
@@ -8,12 +7,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.31
+    reward: 0.3
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.26
+    reward: 0.25
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
@@ -24,22 +23,22 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.26
+    reward: 0.25
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.31
+    reward: 0.3
   - language: fr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.26
+    reward: 0.25
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.26
+    reward: 0.25
   - language: ja
     last_contribution_date:
     urgency: 1
@@ -49,12 +48,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.26
+    reward: 0.25
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.31
+    reward: 0.3
   - language: vi
     last_contribution_date:
     urgency: 1
@@ -64,23 +63,22 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.36
+    reward: 0.35
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.36
+    reward: 0.35
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.31
-
+    reward: 0.3
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.31
+    reward: 0.3
 tags:
   - finance
   - cypherpunk

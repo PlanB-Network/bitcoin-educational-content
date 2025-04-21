@@ -1,6 +1,6 @@
 id: 73042ab1-05e6-4835-b60d-02141a7b04f6
 en_word: RECEIVING ADDRESS
-related_words: 
+related_words:
 original_language: fr
 proofreading:
   - language: en
@@ -14,81 +14,68 @@ proofreading:
     contributor_names:
       - LoicPandul
     reward: 0.2
-
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.49
-
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.39
-
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.39
-
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.49
-
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.49
-
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.59
-
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.39
-
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.49
-
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.39
-
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.49
-
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.69
-
+    reward: 0.68
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.59
-
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.69
+    reward: 0.68

@@ -1,14 +1,15 @@
 ---
 name: Liquid Bootcamp Essentials
-goal: Acquérir une compréhension globale du réseau Liquid et du projet Elements, et apprendre à mettre en œuvre des solutions avancées en matière de transactions confidentielles, de symbolisation et d'architecture de réseau décentralisé.
+goal: Acquérir une compréhension globale du réseau Liquid et du projet Elements, et apprendre à mettre en œuvre des solutions avancées en matière de transactions confidentielles, de tokenisation et d'architecture de réseau décentralisé.
 objectives: 
 
-  - Comprendre les principes fondamentaux de l'architecture liquide et sa relation avec le bitcoin.
+  - Comprendre les principes fondamentaux de l'architecture du réseau Liquid et sa relation avec le bitcoin.
   - Apprendre à configurer et à utiliser les nœuds Liquid à l'aide du logiciel Elements.
   - Étudier l'utilisation de transactions confidentielles et l'émission d'actifs sur le réseau Liquid.
-  - Comprendre les aspects commerciaux et techniques du liquide pour les applications sur les marchés des capitaux.
+  - Comprendre les aspects commerciaux et techniques du réseau Liquid pour les applications sur les marchés des capitaux.
 
 ---
+
 # Introduction au réseau Liquid
 
 Embarquez pour un voyage éducatif conçu pour fournir une compréhension approfondie du réseau Liquid et du projet Elements. Ce bootcamp combine théorie et pratique pour vous enseigner les fondamentaux techniques, architecturaux et commerciaux nécessaires à la mise en œuvre et à l'exploitation des capacités de Liquid. Des transactions confidentielles à la conception de l'écosystème, ce cours est idéal pour ceux qui cherchent à étendre leurs connaissances des outils avancés de l'écosystème Bitcoin.
@@ -16,6 +17,7 @@ Embarquez pour un voyage éducatif conçu pour fournir une compréhension approf
 Avec des présentations d'experts de l'industrie, le cours couvre des sujets tels que l'architecture de Liquid, les applications de tokenisation, les concepts techniques d'Elements, et des cas d'utilisation innovants comme le SDK Breeze. Conçu pour être accessible aux débutants et aux utilisateurs intermédiaires, le cours offre également de la valeur aux développeurs expérimentés qui cherchent à maîtriser Liquid en tant que plateforme pour optimiser leurs projets.
 
 +++
+
 # Introduction
 
 <partId>9f8a83d5-27e0-4e6d-af12-6cd6eb667291</partId>
@@ -33,11 +35,13 @@ Ce camp d'entraînement était à l'origine organisé en personne, selon un prog
 Cette formation est structurée de manière à pouvoir accueillir des participants ayant des niveaux d'expertise variés, en offrant un mélange de connaissances théoriques et d'expériences pratiques. A la fin de ce bootcamp, vous aurez une solide compréhension de l'architecture de Liquid, de son intégration avec Bitcoin, et de la manière d'utiliser ses fonctionnalités innovantes pour construire et optimiser des solutions financières.
 
 Lancez-vous dans l'univers de la sidechain Liquid et révélez tout son potentiel dès maintenant !
+
+
 # Principes de base
 
 <partId>6dd86449-c0f7-4e51-9252-5f135cf019df</partId>
 
-## Architecture liquide
+## Architecture Liquid
 
 <chapterId>4bca9c70-d54d-4e9a-b2db-17c3a6fa655b</chapterId>
 
@@ -67,7 +71,7 @@ Michael explique comment les technologies multicouches, notamment Liquid, Lightn
 
 :::video id=0bac0a62-90f2-41da-ac7c-330c0604bc61:::
 
-Bozza couvre la structure fédérée du réseau Liquid et ses composants techniques. Les sujets abordés incluent les innovations testées sur Liquid, telles que les signatures Schnorr et les scripts Simplicity, ainsi que les compromis liés à l'utilisation de solutions de niveau 2.
+Bozza couvre la structure fédérée du réseau Liquid et ses composants techniques. Les sujets abordés incluent les innovations testées sur Liquid, telles que les signatures Schnorr et les scripts Simplicity, ainsi que les compromis liés à l'utilisation de solutions de Layers 2.
 
 ## Écosystème et marchés des capitaux
 

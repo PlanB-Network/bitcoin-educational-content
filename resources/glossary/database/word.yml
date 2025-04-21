@@ -1,6 +1,6 @@
 id: a8075fbb-5eaf-47d1-91c7-04d0cc9f16cc
 en_word: DATABASE/
-related_words: 
+related_words:
 original_language: fr
 proofreading:
   - language: en
@@ -14,79 +14,66 @@ proofreading:
     contributor_names:
       - LoicPandul
     reward: 0.06
-
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.14
-
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.13
-
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.13
-
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.14
-
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.14
-
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.15
-
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.13
-
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.16
-
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.14
-
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.13
-
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.14
-
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.16
-
   - language: zh-Hans
     last_contribution_date:
     urgency: 1

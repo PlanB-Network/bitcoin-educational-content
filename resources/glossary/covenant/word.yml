@@ -1,6 +1,6 @@
 id: b2035b8f-1143-481d-acbc-f22d8922105d
 en_word: COVENANT
-related_words: 
+related_words:
 original_language: fr
 proofreading:
   - language: en
@@ -14,79 +14,66 @@ proofreading:
     contributor_names:
       - LoicPandul
     reward: 0.24
-
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.61
-
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.48
-
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.48
-
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.61
-
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.61
-
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.74
-
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.48
-
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.61
-
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.48
-
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.61
-
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.86
-
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.74
-
   - language: ja
     last_contribution_date:
     urgency: 1

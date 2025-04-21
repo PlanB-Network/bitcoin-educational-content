@@ -1,6 +1,6 @@
 id: 44075063-91f4-4fe0-ae08-167fb65391ac
 en_word: BGP HIJACKING
-related_words: 
+related_words:
 original_language: fr
 proofreading:
   - language: fr
@@ -8,4 +8,4 @@ proofreading:
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 0
+    reward: 0.13

@@ -1,94 +1,81 @@
 id: 3f888704-14d7-441f-b8c1-9c3b7695d824
 en_word: SHARES
-related_words: 
+related_words:
 original_language: fr
 proofreading:
   - language: en
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.53
+    reward: 0.52
   - language: fr
     last_contribution_date: 2024-07-26
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 0.27
-
+    reward: 0.26
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.68
-
+    reward: 0.66
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.53
-
+    reward: 0.52
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.53
-
+    reward: 0.52
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.68
-
+    reward: 0.66
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.68
-
+    reward: 0.66
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.82
-
+    reward: 0.8
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.53
-
+    reward: 0.52
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.68
-
+    reward: 0.66
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.53
-
+    reward: 0.52
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.68
-
+    reward: 0.66
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.97
-
+    reward: 0.94
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.82
-
+    reward: 0.8
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.97
+    reward: 0.94

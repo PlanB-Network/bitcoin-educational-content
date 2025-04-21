@@ -60,17 +60,17 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 74.58
+    reward: 74.68
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 99.41
+    reward: 99.54
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 149.07
+    reward: 149.26
   - language: et
     last_contribution_date:
     urgency: 1
@@ -85,13 +85,17 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 124.24
-
+    reward: 124.4
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 99.41
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 99.54
 tags:
   - development
   - protocols

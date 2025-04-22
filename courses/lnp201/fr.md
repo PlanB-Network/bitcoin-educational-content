@@ -99,7 +99,7 @@ Le premier point à retenir est que la **capacité du canal** est fixe. C’est 
 
 Prenons un exemple : si Alice possède 130 000 satoshis de son côté, elle ne peut envoyer à Bob que 130 000 satoshis au maximum en une seule transaction. Cependant, Bob pourra ensuite renvoyer ces fonds à Alice, partiellement ou en totalité.
 
-Ce qu’il est important de comprendre, c’est que la capacité fixe du canal limite le montant maximal d’une transaction, mais pas le nombre total de transactions possibles, ni le volume global de fonds échangés au sein du canal.
+Ce qu’il est important de comprendre, c’est que la capacité fixe du canal limite le montant maximal d’une transaction, mais pas le nombre total de transactions possible, ni le volume global de fonds échangés au sein du canal.
 
 **Que devez-vous retenir de ce chapitre ?**
 
@@ -441,15 +441,15 @@ Cette transaction inclut un **timelock** pour les fonds d'Alice, ce qui rend la 
 
 Aussi, les frais de la transaction d’engagement peuvent être inadaptés au moment de la fermeture, car ils ont été définis à l'époque où la transaction a été créée, parfois plusieurs mois auparavant. En général, les clients Lightning surévaluent les frais pour éviter les problèmes futurs, mais cela peut entraîner des frais excessifs, ou bien à l'inverse trop faibles.
 
-En résumé, la **fermeture forcée** est une option de dernier recourt lorsque le pair ne répond plus. Elle est plus lente et moins économique qu'une fermeture coopérative. Elle est donc à éviter autant que possible.
+En résumé, la **fermeture forcée** est une option de dernier recours lorsque le pair ne répond plus. Elle est plus lente et moins économique qu'une fermeture coopérative. Elle est donc à éviter autant que possible.
 
 ### Le truand : la tricherie
 
-Enfin, une fermeture avec **tricherie** survient lorsque l'une des parties tente de publier une ancienne transaction d’engagement, souvent où elle détenait plus de fonds qu’elle ne devrait. Par exemple, Alice pourrait publier une ancienne transaction où elle possédait **120 000 satoshis**, alors qu’elle n’en possède plus que **100 000** en réalité.
+Enfin, une fermeture avec **tricherie** survient lorsque l'une des parties tente de publier une ancienne transaction d’engagement, souvent celle où elle détenait plus de fonds qu’elle ne devrait. Par exemple, Alice pourrait publier une ancienne transaction où elle possédait **120 000 satoshis**, alors qu’elle n’en possède plus que **100 000** en réalité.
 
 ![LNP201](assets/fr/35.webp)
 
-Bob, pour éviter cette triche, surveille la blockchain Bitcoin et son mempool pour s’assurer qu’Alice ne publie pas une ancienne transaction. Si Bob détecte une tentative de tricherie, il peut utiliser la **clé de révocation** pour récupérer les fonds d’Alice et la punir en prenant l’intégralité des fonds du canal. Puisque Alice est bloquée par le timelock sur son output, Bob a le temps de le dépenser sans timelock de son côté pour récupérer toute la somme sur une adresse lui appartenant.
+Bob, pour éviter cette tricherie, surveille la blockchain Bitcoin et son mempool pour s’assurer qu’Alice ne publie pas une ancienne transaction. Si Bob détecte une tentative de tricherie, il peut utiliser la **clé de révocation** pour récupérer les fonds d’Alice et la punir en prenant l’intégralité des fonds du canal. Puisque Alice est bloquée par le timelock sur son output, Bob a le temps de le dépenser sans timelock de son côté pour récupérer toute la somme sur une adresse lui appartenant.
 
 ![LNP201](assets/fr/36.webp)
 
@@ -617,7 +617,7 @@ Pour éviter cette situation, sur Lightning on utilise les HTLC, qui rendent le 
 
 Un HTLC est un contrat spécial qui repose sur deux principes :
 
-- **La condition d’accès** : Le destinataire doit révéler un secret pour déverrouiller le paiement qui lui est du.
+- **La condition d’accès** : Le destinataire doit révéler un secret pour déverrouiller le paiement qui lui est dû.
 - **L'expiration** : Si le paiement n’est pas entièrement complété dans un délai défini, il est annulé et les fonds retournent à l’expéditeur.
 
 Voici comment ce processus fonctionne dans notre exemple avec Alice, Suzie et Bob :
@@ -686,7 +686,7 @@ Avant le début du paiement de 40 000 sats entre Alice et Bob, Alice possède 10
 
 ![LNP201](assets/fr/58.webp)
 
-Alice vient de recevoir l'invoice de Bob qui contient notamment _r_, le hachage du secret. Elle peut donc construire un HTLC de 40 000 satoshis avec Suzie. Cet HTLC est représenté dans les dernières transactions d’engagement sous la forme d’un output appelé "**_HTLC Out_**" du côté d’Alice, puisque les fonds sont sortants, et "**_HTLC In_**" du côté de Suzie, puisque les fond son entrant.
+Alice vient de recevoir l'invoice de Bob qui contient notamment _r_, le hachage du secret. Elle peut donc construire un HTLC de 40 000 satoshis avec Suzie. Cet HTLC est représenté dans les dernières transactions d’engagement sous la forme d’un output appelé "**_HTLC Out_**" du côté d’Alice, puisque les fonds sont sortants, et "**_HTLC In_**" du côté de Suzie, puisque les fonds sont entrants.
 
 ![LNP201](assets/fr/59.webp)
 
@@ -695,7 +695,7 @@ Ces outputs associés aux HTLC partagent exactement les mêmes conditions, à sa
 - Si Suzie est capable de fournir le secret _s_, elle peut déverrouiller cet output immédiatement et le transférer vers une adresse qu'elle contrôle.
 - Si Suzie ne possède pas le secret _s_, elle ne peut pas déverrouiller cet output, et Alice pourra le déverrouiller après un timelock pour l'envoyer vers une adresse qu'elle contrôle. Le timelock accorde ainsi à Suzie un délai pour réagir si elle obtient _s_.
 
-Ces conditions s'appliquent uniquement si le canal est fermé (qu'une transaction d'engagement est publiée on-chain) alors que le HTLC est encore actif sur Lightning, c'est-à-dire que le paiement entre Alice et Bob n'a pas encore été finalisé, et que les HTLC n'ont pas encore expiré. Grâce à ces conditions, Suzie peut récupérer les 40 000 satoshis du HTLC qui lui sont dus en fournissant _s_. Sinon, Alice récupère les fonds après l'expiration du timelock, car si Suzie ne connaît pas _s_, cela signifie qu'elle n'a pas transmis les 40 000 satoshis à Bob, et que les fonds d'Alice ne lui sont donc pas dus.
+Ces conditions s'appliquent uniquement si le canal est fermé (qu'une transaction d'engagement est publiée on-chain) alors que le HTLC est encore actif sur Lightning, c'est-à-dire que le paiement entre Alice et Bob n'a pas encore été finalisé, et que les HTLC n'ont pas encore expiré. Grâce à ces conditions, Suzie peut récupérer les 40 000 satoshis du HTLC qui lui sont dûs en fournissant _s_. Sinon, Alice récupère les fonds après l'expiration du timelock, car si Suzie ne connaît pas _s_, cela signifie qu'elle n'a pas transmis les 40 000 satoshis à Bob, et que les fonds d'Alice ne lui sont donc pas dûs.
 
 Par ailleurs, si le canal est fermé alors que plusieurs HTLC sont en attente, il y aura autant d'output en plus que de HTLC en cours.
 
@@ -892,7 +892,7 @@ Les invoices sont ensuite encodées en **bech32**, le même format que pour les 
 
 ### Retrait LNURL
 
-Dans une transaction classique, comme un achat en magasin par exemple, l'invoice est générée pour le montant total à payer. Une fois l’invoice présentée (sous forme de QR code ou chaîne de caractères), le client peut la scanner et finaliser la transaction. Le paiement suit alors le processus classique que nous avons étudié dans la section précédente. Toutefois, ce processus peut parfois être très embêtant pour l'expérience utilisateur, car il nécessite que le receveur envoi des informations à l'émetteur via l'invoice.
+Dans une transaction classique, comme un achat en magasin par exemple, l'invoice est générée pour le montant total à payer. Une fois l’invoice présentée (sous forme de QR code ou chaîne de caractères), le client peut la scanner et finaliser la transaction. Le paiement suit alors le processus classique que nous avons étudié dans la section précédente. Toutefois, ce processus peut parfois être très embêtant pour l'expérience utilisateur, car il nécessite que le receveur envoie des informations à l'émetteur via l'invoice.
 
 Pour certaines situations, comme par exemple le retrait de bitcoins d’un service en ligne, le processus traditionnel est trop contraignant. On peut alors utiliser la solution de retrait **LNURL** qui simplifie ce processus en affichant un QR code que le wallet du destinataire scanne pour créer automatiquement l’invoice. Le service paie ensuite l’invoice, et l’utilisateur voit simplement un retrait instantané.
 

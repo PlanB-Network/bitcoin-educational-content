@@ -1,6 +1,6 @@
 id: b67c1620-a829-4548-bb47-ad5f655a2099
 en_word: TERMINAL CONSIGNEMENT
-related_words: 
+related_words:
 original_language: fr
 proofreading:
   - language: fr
@@ -8,4 +8,4 @@ proofreading:
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 0
+    reward: 0.08

@@ -1,6 +1,6 @@
 id: d363bdef-67de-400e-8f87-96912b5b6bdc
 en_word: DLP (DISCREET LOG PROBLEM)
-related_words: 
+related_words:
 original_language: fr
 proofreading:
   - language: en
@@ -14,79 +14,66 @@ proofreading:
     contributor_names:
       - LoicPandul
     reward: 0.16
-
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.39
-
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.31
-
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.31
-
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.39
-
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.39
-
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.46
-
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.31
-
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.39
-
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.31
-
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.39
-
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.53
-
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.46
-
   - language: ja
     last_contribution_date:
     urgency: 1

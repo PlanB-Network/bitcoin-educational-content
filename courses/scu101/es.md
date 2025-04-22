@@ -2,7 +2,7 @@
 name: Seguridad informática y gestión de datos
 goal: Actualizar la gestión de contraseñas y datos personales. Crear una copia de seguridad, protegerse de los hackers y concienciarse sobre la vigilancia masiva.
 objectives:
-  - Actualizar sobre la gestión de sus datos personales y las herramientas que refuerzan su seguridad.
+  - Optimizar la gestión de datos personales y conocer las herramientas que refuerzan su seguridad.
   - Implementar un gestor de contraseñas seguro y fácil de usar.
   - Implementar una autenticación de dos factores para fortalecer su seguridad y minimizar los riesgos de hackeo.
 ---
@@ -30,7 +30,8 @@ Théo; contribución
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
-**Objetivo: ¡actualización!**
+
+**Objetivo: ¡Mejorar tus habilidades en seguridad!**
 
 Bienvenidos a todos a este programa de enseñanza dedicado a la seguridad digital. Esta formación está diseñada para ser accesible para todos, por lo que no se requieren conocimientos previos de informática. Nuestro objetivo principal es proporcionarles los conocimientos y habilidades necesarios para navegar de manera más segura y privada en el mundo digital.
 
@@ -42,11 +43,12 @@ Esta formación es un esfuerzo conjunto de tres de nuestros profesores:
 - Théo Pantamis, doctor en matemáticas aplicadas
 - Rogzy, CEO de DécouvreBitcoin
 
-Su higiene digital es crucial en un mundo cada vez más digital. A pesar del constante aumento de los ataques informáticos y la vigilancia masiva, aún no es demasiado tarde para dar el primer paso y protegerse.
+Su salud digital es crucial en un mundo cada vez más digital. A pesar del constante aumento de los ataques informáticos y la vigilancia masiva, aún no es demasiado tarde para dar el primer paso y protegerse.
 En esta formación, no buscamos convertirte en un experto, anónimo o invulnerable, esto es imposible. En cambio, te ofrecemos algunas soluciones simples y accesibles para todos, para comenzar a transformar tus hábitos en línea y recuperar el control de tu soberanía digital.
 Si estás buscando habilidades más avanzadas sobre el tema, nuestras recursos, tutoriales u otras formaciones sobre ciberseguridad están aquí para ti. Mientras tanto, aquí tienes un pequeño vistazo de nuestro programa durante las próximas horas juntos.
 
-**Sección 1: Todo sobre la navegación en línea**
+
+**Sección 1: Todo lo que necesitas saber sobre la navegación en líneaa**
 
 - Capítulo 1 - Navegación en línea
 - Capítulo 2 - Uso seguro de internet
@@ -59,7 +61,7 @@ Para empezar, discutiremos la importancia de elegir un navegador web y sus impli
 - Capítulo 3 - Uso de la computadora
 - Capítulo 4 - Hackeo y gestión de copias de seguridad
 
-En esta sección, abordaremos tres áreas clave de la seguridad informática. En primer lugar, exploraremos los diferentes sistemas operativos: Mac, PC y Linux, destacando sus especificidades y fortalezas. Luego, nos enfocaremos en métodos para protegerte eficazmente contra intentos de piratería y fortalecer la seguridad de tus dispositivos. Por último, haremos hincapié en la importancia de proteger y hacer copias de seguridad regularmente tus datos para prevenir pérdidas o ransomware.
+En esta sección, abordaremos tres áreas clave de la seguridad informática. En primer lugar, exploraremos los diferentes sistemas operativos: Mac, PC y Linux, destacando sus especificidades y fortalezas. Luego, nos enfocaremos en métodos para protegerte eficazmente contra intentos de piratería y fortalecer la seguridad de tus dispositivos. Por último, haremos hincapié en la importancia de proteger y hacer copias de seguridad regularmente de tus datos para prevenir pérdidas y ataques ransomware.
 ![](assets/es/2.webp)
 
 **Sección 3: Implementación de soluciones**
@@ -75,7 +77,7 @@ Primero, veremos cómo proteger tu correo electrónico, que es esencial para tus
 
 **Sección Bonus: Entrevista con Pantamis y Renaud**
 
-En bonus, te ofrecemos una entrevista exclusiva con Pantamis y Renaud, nuestros expertos en seguridad digital. Compartirán sus conocimientos profundos y consejos adicionales para fortalecer tu higiene digital. La idea es aprender más de estos profesionales experimentados.
+En bonus, te ofrecemos una entrevista exclusiva con Pantamis y Renaud, nuestros expertos en seguridad digital. Compartirán sus conocimientos profundos y consejos adicionales para fortalecer tu salud digital. La idea es aprender más de estos profesionales experimentados.
 
 Este programa de formación se ofrece de forma gratuita bajo una licencia redistribuible CC BY SA. Queremos expresar nuestra gratitud a nuestros Patreons y a nuestro equipo de grabación por su apoyo indispensable en la realización de esta formación. También agradecemos a todos nuestros donantes y seguidores que nos permiten seguir produciendo contenido educativo gratuito a nivel mundial.
 
@@ -110,7 +112,7 @@ Las cookies son archivos creados por los sitios web para almacenar información 
 ### Navegadores web: elección, seguridad
 
 Existen dos grandes familias de navegadores: aquellos basados en Chrome y aquellos basados en Firefox.
-Aunque ambas familias ofrecen un nivel de seguridad similar, se recomienda evitar el navegador Chrome de Google debido a sus rastreadores. Se pueden preferir alternativas más ligeras de Chrome, como Chromium o Brave. Brave es especialmente recomendado por su bloqueador de anuncios integrado. Puede ser necesario utilizar varios navegadores para acceder a ciertos sitios.
+Aunque ambas familias ofrecen un nivel de seguridad similar, se recomienda evitar el navegador Chrome de Google debido a sus rastreadores. Se pueden preferir alternativas más ligeras de Chrome, como Chromium o Brave. Brave es especialmente recomendado por su bloqueador de anuncios integrado. Puede ser necesario utilizar distintos navegadores segun los sitios que se desean visitar.
 ![](assets/notext/6.webp)
 
 ### Navegación privada, TOR y otras alternativas para una navegación más segura y anónima
@@ -154,7 +156,7 @@ En la Unión Europea, la protección de datos está regulada por el Reglamento G
 
 Para evitar estafas en línea, es crucial verificar la identidad del sitio en el que estás navegando, especialmente controlando la extensión y el nombre de dominio. Además, mantente alerta ante los estafadores que utilizan letras similares en las URL para engañar a los usuarios.
 ![](assets/es/10.webp)
-En resumen, el uso de una VPN puede mejorar en gran medida la seguridad en línea, tanto para las empresas como para los usuarios individuales. Además, poner en práctica buenos hábitos de navegación puede contribuir a una mejor higiene digital. En el próximo segmento de este curso, abordaremos la seguridad de la computadora, incluyendo las actualizaciones, el antivirus y la gestión de contraseñas.
+En resumen, el uso de una VPN puede mejorar en gran medida la seguridad en línea, tanto para las empresas como para los usuarios individuales. Además, poner en práctica buenos hábitos de navegación puede contribuir a una mejor salud digital. En el próximo segmento de este curso, abordaremos la seguridad de la computadora, incluyendo las actualizaciones, el antivirus y la gestión de contraseñas.
 
 # Buenas prácticas para el uso de la computadora
 
@@ -168,13 +170,13 @@ La seguridad de nuestras computadoras es un tema importante en el mundo digital 
 
 - la elección de la computadora
 - las actualizaciones y el antivirus para una seguridad óptima
-- las buenas prácticas para la seguridad de la computadora y los datos.
+- las buenas prácticas para optimizar la seguridad de la computadora y proteger los datos.
 
 ### La elección de la computadora y del sistema operativo
 
 En cuanto a la elección de la computadora, no hay una diferencia significativa en seguridad entre las computadoras antiguas y las nuevas. Sin embargo, existen diferencias de seguridad entre los sistemas operativos: Windows, Linux y Mac.
 ![](assets/notext/11.webp)
-En cuanto a Windows, se recomienda no utilizar una cuenta de administrador a diario, sino crear dos cuentas distintas: una cuenta de administrador y una cuenta para uso diario. Windows suele estar más expuesto a software malicioso debido a su gran cantidad de usuarios y a la facilidad de cambiar de usuario a administrador. Por otro lado, las amenazas son menos frecuentes en Linux y Mac.
+En cuanto a Windows, se recomienda no utilizar una cuenta de administrador a diario, sino crear dos cuentas distintas: una cuenta de administrador y otra cuenta normal para uso diario. Windows suele estar más expuesto a software malicioso debido a su gran cantidad de usuarios y a la facilidad de cambiar de usuario a administrador. Por otro lado, las amenazas son menos frecuentes en Linux y Mac.
 
 La elección del sistema operativo debe realizarse en función de sus necesidades y preferencias. Los sistemas Linux han evolucionado considerablemente en los últimos años, volviéndose cada vez más amigables. Ubuntu es una alternativa interesante para principiantes, con una interfaz gráfica fácil de usar. Es posible particionar un ordenador para experimentar con Linux manteniendo Windows, pero esto puede resultar complicado. A menudo es mejor tener un ordenador dedicado, una máquina virtual o una memoria USB para probar Linux o Ubuntu.
 ![](assets/notext/12.webp)
@@ -187,7 +189,7 @@ En Windows 10, las actualizaciones son casi constantes y es crucial no bloquearl
 
 La regla se aplica a casi todos los programas. De hecho, las actualizaciones no tienen como objetivo volver obsoleta o lenta su máquina, sino protegerla de las nuevas amenazas. Algunas actualizaciones se consideran importantes y sin ellas, su ordenador corre serios riesgos de explotación.
 
-Para darle un ejemplo concreto de error: un software pirateado que no se puede actualizar representa una doble amenaza potencial. La llegada del virus al descargarlo ilegalmente desde un sitio sospechoso y su uso no seguro frente a las nuevas formas de ataque.
+Para darle un ejemplo concreto de vulnerabilidad: un software pirateado que no se puede actualizar representa una doble amenaza potencial. La llegada del virus al descargarlo ilegalmente desde un sitio sospechoso y su uso no seguro frente a las nuevas formas de ataque.
 
 ### Antivirus
 
@@ -219,15 +221,15 @@ En general, los virus llegan porque usted ha permitido que su computadora los in
 
 ¡Atención! Los correos electrónicos son el primer vector de ataque, aquí hay algunos consejos:
 
-- Manténgase alerta ante intentos de phishing para obtener información sensible como sus credenciales y contraseñas. Evite hacer clic en enlaces sospechosos y compartir su información personal sin verificar la legitimidad del remitente.
+- Manténgase alerta ante intentos de phishing que intentan obtener información sensible como credenciales y contraseñas. Evite hacer clic en enlaces sospechosos y compartir su información personal sin verificar la legitimidad del remitente.
 - Tenga precaución con los archivos adjuntos e imágenes en los correos electrónicos:
-  Los archivos adjuntos e imágenes en los correos electrónicos pueden contener software malicioso. No descargue ni abra archivos adjuntos de remitentes desconocidos o sospechosos, y asegúrese de que su antivirus esté actualizado.
+  Los archivos adjuntos e imágenes: Los correos electrónicos pueden contener software malicioso. No descargue ni abra archivos adjuntos de remitentes desconocidos o sospechosos, y asegúrese de que su antivirus esté actualizado.
 
 La regla de oro aquí es verificar correctamente el nombre completo del remitente y el origen del correo electrónico. ¡Ante la duda, elimínelo!
 
 ### Ransomware y tipos de ciberataques:
 
-El ransomware es un tipo de software malicioso que cifra los datos del usuario y exige un rescate para descifrarlos. Este tipo de ataque es cada vez más común y puede resultar muy molesto para una empresa o un individuo. Para protegerse, es imperativo crear copias de seguridad de los archivos más sensibles. Esto no detendrá el ransomware, pero le permitirá simplemente ignorarlo.
+El ransomware es un tipo de software malicioso que cifra los datos del usuario y exige un rescate para descifrarlos, un secuestro de datos. Este tipo de ataque es cada vez más común y puede resultar muy molesto para una empresa o un individuo. Para protegerse, es imperativo crear copias de seguridad de los archivos más sensibles. Esto no detendrá el ransomware, pero le permitirá simplemente ignorarlo.
 ![](assets/notext/14.webp)
 Realice copias de seguridad regularmente de sus datos importantes en un dispositivo externo o un servicio de almacenamiento en línea seguro. De esta manera, en caso de un ataque informático o un fallo de hardware, podrá recuperar sus datos sin perder información crucial.
 
@@ -235,7 +237,7 @@ Solución sencilla:
 
 - Comprar un disco duro externo y copiar sus datos en él. Desconéctelo y guárdelo en algún lugar de la casa. (Hacer esto dos veces y almacenar uno de los discos en otro lugar ayudará a protegerlo de un posible incendio).
 
-- Crear una copia de seguridad "en la nube" a través de ProtonMail Drive, Sync o incluso Google Drive. Solo tiene que cargar sus datos sensibles en este servicio de alojamiento en línea. Sin embargo, tenga en cuenta que sus datos estarán potencialmente en Internet y serán propiedad de un tercero de confianza.
+- Crear una copia de seguridad "en la nube" a través de ProtonMail Drive, Sync o incluso Google Drive. Solo tiene que cargar sus datos sensibles en este servicio de alojamiento en línea. Sin embargo, tenga en cuenta que sus datos estarán potencialmente en Internet y serán custodiados en la computadora de un tercero de confianza.
 
 ### ¿Debería pagar a los hackers?
 
@@ -267,9 +269,9 @@ Aunque todos tenemos una cuenta de correo electrónico, es importante considerar
 
 La gestión adecuada de nuestras direcciones de correo electrónico es crucial para garantizar la seguridad de nuestros accesos en línea. Es importante elegir un proveedor de correo electrónico seguro y respetuoso de la privacidad. Por ejemplo, ProtonMail es un servicio de correo electrónico seguro y respetuoso de la privacidad.
 ![](assets/notext/15.webp)
-Al elegir un proveedor de correo electrónico y crear una contraseña, es esencial no reutilizar la misma contraseña para diferentes servicios en línea. Se recomienda crear nuevas direcciones de correo electrónico regularmente y separar los usos utilizando diferentes direcciones de correo electrónico. Es mejor optar por un servicio de correo electrónico seguro para las cuentas críticas. También es importante tener en cuenta que algunos servicios limitan la longitud de las contraseñas, por lo que es importante tener en cuenta esta limitación. También hay servicios disponibles para la creación de direcciones de correo electrónico temporales, que se pueden utilizar para cuentas de duración limitada.
+Al elegir un proveedor de correo electrónico y crear una contraseña, es esencial no reutilizar la misma contraseña para diferentes servicios en línea. Se recomienda crear nuevas direcciones de correo electrónico regularmente y separar los usos utilizando diferentes direcciones de correo electrónico. Es mejor optar por un servicio de correo electrónico seguro para las cuentas críticas. También es importante tener en cuenta que algunos servicios limitan la longitud de las contraseñas, considere tambien esta limitación. También hay servicios disponibles para la creación de direcciones de correo electrónico temporales, que se pueden utilizar para cuentas de duración limitada.
 
-Es importante tener en cuenta que los proveedores de correo electrónico antiguos como La Poste, Arobase, Wig, Hotmail, todavía se utilizan, pero sus prácticas de seguridad pueden ser peores que las de Gmail. Por lo tanto, se recomienda tener dos direcciones de correo electrónico distintas, una para comunicaciones generales y otra para la recuperación de cuentas, esta última debe estar más segura. Es mejor evitar mezclar la dirección de correo electrónico con el operador de telefonía o proveedor de servicios de Internet, ya que esto puede ser un vector de ataque.
+Es importante tener en cuenta que los proveedores de correo electrónico antiguos como La Poste, Arobase, Wig, Hotmail, todavía se utilizan, pero sus prácticas de seguridad pueden ser peores que las de Gmail. Por lo tanto, se recomienda tener dos direcciones de correo electrónico distintas, una para comunicaciones generales y otra para la recuperación de cuentas, esta última debe estar más segura. Se recomienda no utilizar correos electrónicos proporcionados por tu operador o proveedor de servicios de Internet, ya que representan un posible vector de ataque.
 
 ### ¿Debo cambiar de cuenta de correo electrónico?
 
@@ -277,6 +279,7 @@ Se recomienda utilizar el sitio Have I Been Pwned (¿Me han pirateado?) - https:
 ![](assets/notext/16.webp)
 
 En general, comenzar a utilizar una nueva dirección de correo electrónico más segura no es una mala práctica e incluso es necesario si queremos empezar de nuevo en bases sólidas.
+
 Bonus Bitcoin: Puede ser recomendable crear una dirección de correo electrónico específicamente para nuestras actividades de Bitcoin (creación de cuentas de intercambio) para separar realmente las áreas de actividad en nuestras vidas.
 
 https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
@@ -298,11 +301,11 @@ Con un gestor de contraseñas, ya no tienes que preocuparte por olvidar tus cont
 - Dashlane: También es un servicio de terceros, con una interfaz intuitiva y características adicionales como el seguimiento de la información de tarjetas de crédito y notas seguras.
   ![](assets/notext/17.webp)
 
-### Autohospedaje para más control:
+### Alojamiento propio para tener más control:
 
-- Bitwarden: Es una herramienta de código abierto, lo que significa que puedes revisar su código para verificar su seguridad. Aunque Bitwarden ofrece un servicio hospedado, también permite a los usuarios autohospedarse, lo que significa que puedes controlar dónde se almacenan tus contraseñas, ofreciendo potencialmente más seguridad y control.
+- Bitwarden: Es una herramienta de código abierto, lo que significa que puedes revisar su código para verificar su seguridad. Aunque Bitwarden ofrece un servicio de alojamiento, también permite a los usuarios de conservar localmente sus propios datos (self-hosting), lo que significa que puedes controlar dónde se almacenan tus contraseñas, ofreciendo potencialmente más seguridad y control.
 
-- KeePass: Es una solución de código abierto que está principalmente destinada al autohospedaje. Tus datos se almacenan localmente de forma predeterminada, pero puedes sincronizar la base de datos de contraseñas utilizando diferentes métodos si lo deseas. KeePass es ampliamente reconocido por su seguridad y flexibilidad, aunque puede ser un poco menos intuitivo para los principiantes.
+- KeePass: Es una solución de código abierto que está principalmente destinada al alojamiento propio. Tus datos se almacenan localmente de forma predeterminada, pero puedes sincronizar la base de datos de contraseñas utilizando diferentes métodos si lo deseas. KeePass es ampliamente reconocido por su seguridad y flexibilidad, aunque puede ser un poco menos intuitivo para los principiantes.
   ![](assets/notext/18.webp)
   (Nota: Elegir entre un servicio de terceros o un servicio de autohospedaje depende de tu nivel de comodidad tecnológica y de cómo priorices el control frente a la conveniencia. Los servicios de terceros suelen ser más convenientes para la mayoría de las personas, mientras que el autohospedaje requiere más conocimientos técnicos pero puede ofrecer más control y tranquilidad en términos de seguridad.)
 
@@ -315,7 +318,7 @@ Un buen contraseña generalmente es:
 - Única: no reutilizar la misma contraseña para diferentes cuentas.
 - No basada en información personal: evitar fechas de nacimiento, nombres, etc.
 
-Para garantizar la seguridad de su cuenta, es crucial crear contraseñas fuertes y seguras. La longitud de la contraseña no es suficiente para asegurar su seguridad. Los caracteres deben ser completamente aleatorios para resistir los ataques de fuerza bruta. La independencia de los eventos también es importante para evitar las combinaciones más probables. Las contraseñas comunes como "password" son fácilmente comprometidas.
+Para garantizar la seguridad de su cuenta, es crucial crear contraseñas fuertes y seguras. La longitud de la contraseña no es suficiente para asegurar su seguridad. Los caracteres deben ser completamente aleatorios para resistir los ataques de fuerza bruta. Evita usar datos personales relacionados, como fechas o nombres significativos, ya que pueden formar combinaciones fáciles de adivinar. Las contraseñas comunes como "password" son fácilmente comprometidas.
 
 Para crear una contraseña fuerte, se recomienda utilizar una gran cantidad de caracteres aleatorios, sin utilizar palabras o patrones predecibles. También es esencial incluir números y caracteres especiales. Sin embargo, cabe señalar que algunos sitios pueden restringir el uso de ciertos caracteres especiales. Las contraseñas que no se generan de manera aleatoria son fáciles de adivinar. Las variantes o adiciones a las contraseñas no son seguras. Los sitios web no pueden garantizar la seguridad de las contraseñas elegidas por los usuarios.
 
@@ -337,7 +340,7 @@ Este segundo paso puede ser:
 
 - Un código temporal enviado por SMS.
 - Un código generado por una aplicación como Google Authenticator o Authy.
-- Una clave de seguridad física que insertas en tu computadora.
+- Una llave electronica de seguridad que insertas fisicamente en tu computadora.
   ![](assets/notext/19.webp)
   Con la autenticación de dos factores (2FA), incluso si un pirata informático obtiene tu contraseña, no podrá acceder a tu cuenta sin este segundo factor de verificación. Esto hace que la 2FA sea esencial para proteger tus cuentas en línea contra accesos no autorizados.
 
@@ -349,13 +352,13 @@ Las diferentes opciones para la autenticación fuerte ofrecen niveles variables 
 - La autenticación de dos factores (2FA) es más segura porque utiliza varios tipos de pruebas, como el conocimiento, la posesión y la identificación. Los códigos de contraseña de un solo uso (HOTP y TOTP) son más seguros que los mensajes de texto porque requieren un cálculo criptográfico y se almacenan localmente en lugar de en la memoria.
 - Los tokens físicos, como las llaves USB o las tarjetas inteligentes, ofrecen una seguridad óptima al generar una clave privada única para cada sitio y verificar la URL antes de autorizar la conexión.
 
-Para una seguridad óptima con la autenticación fuerte, se recomienda utilizar una dirección de correo electrónico segura, un administrador de contraseñas seguro y adoptar el 2FA utilizando YubiKey. También se recomienda comprar dos YubiKey para prever la pérdida o el robo, por ejemplo, mantener una copia de seguridad en casa y otra en tu persona.
+Para una seguridad óptima con una autenticación mas fuerte, se recomienda utilizar una dirección de correo electrónico segura, un administrador de contraseñas seguro y adoptar el 2FA utilizando YubiKey. También se recomienda comprar dos YubiKey para prever la pérdida o el robo, por ejemplo, mantener una copia de seguridad en casa y otra en tu persona.
 
 La biometría se puede utilizar como un sustituto, pero es menos segura que la combinación de conocimiento y posesión. Los datos biométricos deben permanecer en el dispositivo de autenticación y no deben divulgarse en línea. Es importante tener en cuenta el modelo de amenaza asociado con los diferentes métodos de autenticación y adaptar tus prácticas en consecuencia.
 
 ### Conclusión del curso:
 
-Como has entendido, establecer una buena higiene digital no siempre es sencillo, ¡pero sigue siendo accesible!
+Como has entendido, establecer una buena salud digital no siempre es sencillo, ¡pero sigue siendo accesible!
 
 - Crear una nueva dirección de correo electrónico segura.
 - Utilizar un administrador de contraseñas.
@@ -394,7 +397,7 @@ Otra opción es utilizar una clave de seguridad física. Este otro tutorial te m
 
 https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
-## Creación de un gestor de contraseñas
+## Implementa un gestor de contraseñas
 
 <chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
 
@@ -404,7 +407,7 @@ En este tutorial, descubre cómo configurar Bitwarden, un gestor de contraseñas
 
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-Para usuarios más avanzados, también ofrezco un tutorial sobre otro software gratuito y de código abierto para usar localmente en la gestión de tus contraseñas:
+Para usuarios más avanzados, también ofrezco un tutorial sobre otro software gratuito y de código abierto que permite gestionar las contraseñas localmente:
 
 https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
@@ -412,7 +415,7 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 <chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
 
-En estos dos tutoriales, también te guío en la seguridad de tus cuentas en línea y te explico cómo adoptar progresivamente prácticas más seguras para la gestión de tus contraseñas en el día a día.
+En estos dos tutoriales, también te guío en como asegurar tus cuentas en línea y te explico cómo adoptar progresivamente prácticas más seguras para la gestión de tus contraseñas en el suo cotidiano.
 
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
@@ -450,7 +453,7 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 <partId>77113cad-a6d8-57e5-b903-50c223b277ba</partId>
 
-## Cómo trabajar en esta industria de ciberseguridad
+## Cómo trabajar en la industria de la ciberseguridad
 
 <chapterId>aad1ae27-4280-5b07-b9ab-118ae013951a</chapterId>
 
@@ -462,7 +465,7 @@ Una sólida formación en informática, sistemas de información o en un campo r
 
 La ciberseguridad es un campo amplio y en constante evolución. Familiarizarse con las herramientas esenciales y los diferentes sistemas es crucial. Además, con tantos subcampos, desde la respuesta a incidentes hasta el hacking ético, es beneficioso encontrar tu nicho y especializarte en él.
 
-### Ganar experiencia práctica:
+### Obtener experiencia práctica:
 
 La importancia de la experiencia práctica no debe subestimarse. Buscar pasantías o puestos junior en empresas con equipos de seguridad informática es una excelente manera de aplicar tus conocimientos teóricos. Además, participar en competiciones de hacking ético o simulaciones de ciberseguridad puede afinar tus habilidades en situaciones concretas.
 
@@ -491,7 +494,7 @@ Dominando estas habilidades y herramientas, estarás bien equipado para navegar 
 
 ### Gestión eficiente de contraseñas y fortalecimiento de la autenticación: un enfoque académico
 
-En el módulo de formación "Seguridad 101" ofrecido por Découvre Bitcoin en la Academia, hemos abordado la importancia de los gestores de contraseñas. Tres dimensiones son esenciales a considerar: la creación, la actualización y la implementación de contraseñas en los sitios web.
+En el módulo de formación "Seguridad 101" ofrecido por *Découvre Bitcoin* en la Academia, hemos abordado la importancia de los gestores de contraseñas. Tres dimensiones son esenciales a considerar: la creación, la actualización y la implementación de contraseñas en los sitios web.
 
 Generalmente se desaconseja el uso de extensiones de navegador para el llenado automático de contraseñas. Estas herramientas pueden hacer que el usuario sea más vulnerable a ataques de phishing. Renaud, un experto reconocido en ciberseguridad, prefiere una gestión manual a través de KeePass, lo que implica copiar y pegar manualmente la contraseña. Las extensiones tienden a aumentar la superficie de ataque, pueden ralentizar el rendimiento del navegador y, por lo tanto, presentan un riesgo significativo. Por lo tanto, se recomienda minimizar el uso de extensiones en el navegador.
 
@@ -504,7 +507,7 @@ La cuestión de la herencia digital y el duelo digital destaca la importancia de
 Las contraseñas, aunque omnipresentes, tienen muchas desventajas, especialmente la posibilidad de una transmisión riesgosa durante el proceso de autenticación. Empresas líderes como Microsoft y Apple ofrecen alternativas innovadoras como la biometría y los tokens de hardware, lo que indica una tendencia progresiva hacia el abandono de las contraseñas.
 'Passkeys, por ejemplo, ofrece claves aleatorias cifradas, combinadas con un factor local (biometría o NIP), que son alojadas por un proveedor pero que permanecen fuera de su alcance. Aunque esto requiere una actualización de los sitios web, el enfoque elimina la necesidad de contraseñas, ofreciendo así un alto nivel de seguridad sin las limitaciones asociadas a las contraseñas tradicionales o la problemática de la gestión de la caja fuerte digital.
 
-Passkiz es otra alternativa viable y segura para la gestión de contraseñas. Sin embargo, una pregunta importante sigue sin answer: la disponibilidad en caso de fallo del proveedor. Sería deseable que los gigantes de internet ofrecieran sistemas para garantizar esta disponibilidad.
+Passkiz es otra alternativa viable y segura para la gestión de contraseñas. Sin embargo, una pregunta importante sigue sin respuesta: la disponibilidad en caso de fallo del proveedor. Sería deseable que los gigantes de internet ofrecieran sistemas para garantizar la disponibilidad.
 
 La autenticación directa en el servicio correspondiente es una opción interesante para no depender de un tercero. Sin embargo, el SSO (Single Sign-On) propuesto por los gigantes de internet también plantea problemas en términos de disponibilidad y riesgos de censura. Para evitar fugas de datos, es crucial minimizar la cantidad de información recopilada durante el proceso de autenticación.
 
@@ -512,10 +515,10 @@ La autenticación directa en el servicio correspondiente es una opción interesa
 
 La seguridad informática puede verse comprometida por prácticas simples y el uso de contraseñas predeterminadas, como "admin". No siempre son necesarios ataques sofisticados para poner en peligro la seguridad informática. Por ejemplo, las contraseñas de administrador de un canal de YouTube estaban escritas en el código fuente privado de una empresa. Las vulnerabilidades de seguridad suelen ser consecuencia de la negligencia humana.
 
-También cabe destacar que Internet está muy centralizado y ampliamente bajo control estadounidense. El servidor DNS puede estar sujeto a censura y a menudo utiliza DNS falsos para bloquear el acceso a ciertos sitios. DNS es un protocolo antiguo e insuficientemente seguro, lo que puede ocasionar problemas de seguridad. Han surgido nuevos protocolos, como DNSsec, pero todavía se utilizan poco. Para evitar la censura y el bloqueo de anuncios, es posible elegir proveedores DNS alternativos.'
+También cabe destacar que Internet está muy centralizado y ampliamente bajo control estadounidense. El servidor DNS puede estar sujeto a censura y a menudo utiliza DNS falsos para bloquear el acceso a ciertos sitios. DNS es un protocolo antiguo e insuficientemente seguro, por lo que puede ocasionar problemas de seguridad. Han surgido nuevos protocolos, como DNSsec, pero todavía se utilizan poco. Para evitar la censura y el bloqueo de anuncios, es posible elegir proveedores DNS alternativos.
 Des alternatives a los anuncios intrusivos incluyen Google DNS, OpenDNS y otros servicios independientes. El protocolo DNS estándar deja las consultas DNS visibles para el proveedor de servicios de Internet. DOH (DNS sobre HTTPS) y DOT (DNS sobre TLS) permiten cifrar la conexión DNS, ofreciendo mayor privacidad y seguridad. Estos protocolos son ampliamente utilizados en empresas debido a su mayor seguridad y son compatibles de forma nativa con Windows, Android e iPhone. Para utilizar DOH y DOT, se debe ingresar un nombre de host TLS en lugar de una dirección IP. Los proveedores gratuitos de DOH y DOT están disponibles en línea. DOH y DOT mejoran la privacidad y la seguridad al evitar ataques de tipo "man in the middle". Otras consideraciones clave
 
-En el marco del módulo de formación "Seguridad 101" de Découvre Bitcoin en la Academia, también discutimos la autenticación Lightning. Este sistema genera una identificación diferente por servicio, sin necesidad de proporcionar una dirección de correo electrónico o información personal. Es posible tener identidades descentralizadas controladas por el usuario, pero falta normalización y estandarización en los proyectos de identidad descentralizada. Se recomiendan los administradores de paquetes como Nuget y Chocolaté, que permiten descargar software de código abierto fuera de Microsoft Store, para evitar ataques maliciosos. En resumen, el DNS es crucial para la seguridad en línea, pero es necesario estar atento a posibles ataques a los servidores DNS.
+En el marco del módulo de formación "Seguridad 101" de *Découvre Bitcoin* en la Academia, también discutimos la autenticación Lightning. Este sistema genera una identificación diferente por servicio, sin necesidad de proporcionar una dirección de correo electrónico o información personal. Es posible tener identidades descentralizadas controladas por el usuario, pero falta normalización y estandarización en los proyectos de identidad descentralizada. Se recomiendan los administradores de paquetes como Nuget y Chocolaté, que permiten descargar software de código abierto fuera de Microsoft Store, para evitar ataques maliciosos. En resumen, el DNS es crucial para la seguridad en línea, pero es necesario estar atento a posibles ataques a los servidores DNS.
 
 # Sección final
 

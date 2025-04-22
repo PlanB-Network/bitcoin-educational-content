@@ -517,7 +517,7 @@ sudo make install
 
 **सिस्टमडी सर्विस को ऑटो-स्टार्ट के लिए कॉन्फ़िगर करें**
 
-# C-Lightning के लिए systemd सर्विस फाइल
+C-Lightning के लिए systemd सर्विस फाइल
 
 ```
 [Unit]

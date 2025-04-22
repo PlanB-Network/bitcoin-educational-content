@@ -16,69 +16,69 @@ Dans ce tutoriel nous allons découvrir comment activer U2F et FIDO2 pour l’au
 
 ## Installer l'application Ledger Security Key
 
-Si vous utilisez un appareil Ledger, vous savez probablement que le firmware ne contient pas, à lui seul, toutes les fonctionnalités nécessaires à la gestion de portefeuilles crypto. Par exemple, pour utiliser un portefeuille Bitcoin, il faut installer l’application "Bitcoin". De la même manière, pour gérer les clés utilisées dans le cadre du MFA, vous devrez installer l’application "Security Key".
+Si vous utilisez un appareil Ledger, vous savez probablement que le firmware ne contient pas, à lui seul, toutes les fonctionnalités nécessaires à la gestion de portefeuilles crypto. Par exemple, pour utiliser un portefeuille Bitcoin, il faut installer l’application "*Bitcoin*". De la même manière, pour gérer les clés utilisées dans le cadre du MFA, vous devrez installer l’application "*Security Key*".
 
-Avant de commencer, assurez-vous d'avoir configuré votre portefeuille Bitcoin sur votre Ledger. Il est important de sauvegarder correctement votre phrase mnémonique, car les clés utilisées pour le 2FA sont dérivées de cette phrase. En cas de perte ou de dommage de votre Ledger, vous pourrez récupérer l'accès à vos clés en saisissant votre phrase mnémonique sur un autre appareil Ledger (pour le moment, les identifiants FIDO2 en mode "passwordless" ne sont pas encore pris en charge sur les Ledger, il n'y a donc pas d'identifiants résidents).
+Avant de commencer, assurez-vous d'avoir configuré votre portefeuille Bitcoin sur votre Ledger. Il est important de sauvegarder correctement votre phrase mnémonique, car les clés utilisées pour le 2FA sont dérivées de cette phrase. En cas de perte ou de dommage de votre Ledger, vous pourrez récupérer l'accès à vos clés en saisissant votre phrase mnémonique sur un autre appareil Ledger (pour le moment, les identifiants FIDO2 en mode "*passwordless*" ne sont pas encore pris en charge sur les Ledger, il n'y a donc pas d'identifiants résidents).
 
 Branchez votre Ledger à votre ordinateur et déverrouillez-la.
 
-01
+![Image](assets/fr/01.webp)
 
-Pour installer l’application, ouvrez le logiciel [Ledger Live](https://www.ledger.com/ledger-live), puis rendez-vous dans l’onglet "My Ledger". Recherchez l’application "Security Key" et installez-la sur votre appareil.
+Pour installer l’application, ouvrez le logiciel [Ledger Live](https://www.ledger.com/ledger-live), puis rendez-vous dans l’onglet "*My Ledger*". Recherchez l’application "*Security Key*" et installez-la sur votre appareil.
 
-02
+![Image](assets/fr/02.webp)
 
-L’application "Security Key" devrait maintenant apparaître aux côtés des autres applications installées sur votre Ledger.
+L’application "*Security Key*" devrait maintenant apparaître aux côtés des autres applications installées sur votre Ledger.
 
-03
+![Image](assets/fr/03.webp)
 
 Cliquez sur l’application pour la laisser ouverte en vue des prochaines étapes du tutoriel.
 
-04
+![Image](assets/fr/04.webp)
 
 ## Utiliser U2F/FIDO2 pour du 2FA avec une Ledger
 
-Accédez au compte que vous souhaitez sécuriser avec une authentification à deux facteurs. Par exemple, je vais utiliser un compte Bitwarden. Vous trouverez généralement l'option du 2FA dans les paramètres du service, sous les onglets "authentification", "sécurité", "connexion" ou bien "mot de passe".
+Accédez au compte que vous souhaitez sécuriser avec une authentification à deux facteurs. Par exemple, je vais utiliser un compte Bitwarden. Vous trouverez généralement l'option du 2FA dans les paramètres du service, sous les onglets "*authentification*", "*sécurité*", "*connexion*" ou bien "*mot de passe*".
 
-05
+![Image](assets/fr/05.webp)
 
-Dans la section dédiée à l'authentification à deux facteurs, sélectionnez l'option "Passkey" (le terme peut varier selon le site que vous utilisez).
+Dans la section dédiée à l'authentification à deux facteurs, sélectionnez l'option "*Passkey*" (le terme peut varier selon le site que vous utilisez).
 
-06
+![Image](assets/fr/06.webp)
 
 Il vous sera souvent demandé de confirmer votre mot de passe actuel.
 
-07
+![Image](assets/fr/07.webp)
 
-Donnez un nom à votre clé de sécurité pour pouvoir la reconnaître facilement, puis cliquez sur "Read Key".
+Donnez un nom à votre clé de sécurité pour pouvoir la reconnaître facilement, puis cliquez sur "*Read Key*".
 
-08
+![Image](assets/fr/08.webp)
 
-Les détails de votre compte s’afficheront sur l’écran de la Ledger. Appuyez sur le bouton "Register" pour confirmer (ou sur les deux boutons simultanément, selon le modèle que vous utilisez).
+Les détails de votre compte s’afficheront sur l’écran de la Ledger. Appuyez sur le bouton "*Register*" pour confirmer (ou sur les deux boutons simultanément, selon le modèle que vous utilisez).
 
-09
+![Image](assets/fr/09.webp)
 
 La clé d'accès a bien été enregistrée.
 
-10
+![Image](assets/fr/10.webp)
 
 Enregistrez cette clé de sécurité.
 
-11
+![Image](assets/fr/11.webp)
 
 Désormais, lorsque vous voudrez vous connecter à votre compte, en plus de votre mot de passe habituel, on vous demandera de connecter votre Ledger.
 
-12
+![Image](assets/fr/12.webp)
 
-Vous pourrez alors appuyer sur le bouton "Log in" affiché sur l’écran de votre Ledger pour valider l’authentification (ou sur les deux boutons simultanément, selon le modèle que vous utilisez).
+Vous pourrez alors appuyer sur le bouton "*Log in*" affiché sur l’écran de votre Ledger pour valider l’authentification (ou sur les deux boutons simultanément, selon le modèle que vous utilisez).
 
-13
+![Image](assets/fr/13.webp)
 
 L'utilisation d'un hardware wallet Ledger pour l'authentification à deux facteurs présente l'avantage de pouvoir récupérer facilement vos clés grâce à la phrase mnémonique. En plus de cette sauvegarde de base, vous pouvez aussi utiliser un code d'urgence fourni par chaque service où vous avez activé le 2FA. Ce code d'urgence vous permet de vous connecter à votre compte en cas de perte de votre clé de sécurité. Il remplace donc le 2FA pour une connexion si nécessaire.
 
-Par exemple, sur Bitwarden, vous pouvez accéder à ce code en cliquant sur "View recovery code".
+Par exemple, sur Bitwarden, vous pouvez accéder à ce code en cliquant sur "*View recovery code*".
 
-14
+![Image](assets/fr/14.webp)
 
 Je vous recommande de conserver ce code dans un endroit différent de celui où vous stockez votre mot de passe principal, afin d'éviter qu'ils ne soient volés ensemble. Par exemple, si votre mot de passe est sauvegardé dans un gestionnaire de mots de passe, gardez votre code d'urgence du 2FA sur papier, séparément.
 

@@ -18,86 +18,72 @@ proofreading:
     contributor_names:
       - Asi0Flammeus
     reward: 0.46
-
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 1.2
-
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.92
-
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.92
-
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 1.2
-
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 1.2
-
   - language: fr
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.92
-
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 1.47
-
   - language: it
     last_contribution_date: 2024-11-24
     urgency: 1
     contributor_names:
       - alevandx
-    reward: 0.92
-
+    reward: 0.46
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 1.75
-
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 1.2
-
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.92
-
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 1.2
-
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 1.75
-
   - language: zh-Hans
     last_contribution_date:
     urgency: 1

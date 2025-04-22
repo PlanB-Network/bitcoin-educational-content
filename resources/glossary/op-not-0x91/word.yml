@@ -1,6 +1,6 @@
 id: f7fbc505-3d4e-4511-bda9-59028e61db67
 en_word: OP_NOT (0X91)
-related_words: 
+related_words:
 original_language: fr
 proofreading:
   - language: en
@@ -14,79 +14,66 @@ proofreading:
     contributor_names:
       - LoicPandul
     reward: 0.06
-
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.13
-
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.13
-
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.13
-
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.13
-
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.13
-
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.14
-
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.13
-
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.13
-
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.13
-
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.13
-
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.15
-
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.14
-
   - language: ja
     last_contribution_date:
     urgency: 1

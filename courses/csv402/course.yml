@@ -68,12 +68,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 178.35
+    reward: 178.36
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 267.48
+    reward: 267.49
   - language: et
     last_contribution_date:
     urgency: 1
@@ -89,12 +89,16 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 222.92
-
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 178.35
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 178.36
 tags:
   - protocols
   - complex-DIY

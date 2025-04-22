@@ -1,6 +1,6 @@
 id: 6f069a8e-f5d1-4a63-b03e-c60358c05541
 en_word: BDK (BITCOIN DEV KIT)
-related_words: 
+related_words:
 original_language: fr
 proofreading:
   - language: en
@@ -14,79 +14,66 @@ proofreading:
     contributor_names:
       - LoicPandul
     reward: 0.11
-
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.25
-
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.22
-
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.22
-
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.25
-
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.25
-
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.29
-
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.22
-
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.25
-
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.22
-
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.25
-
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.33
-
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.29
-
   - language: ja
     last_contribution_date:
     urgency: 1

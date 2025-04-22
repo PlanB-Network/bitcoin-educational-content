@@ -60,43 +60,44 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 104.05
+    reward: 103.9
   - language: ru
     last_contribution_date: 2024-11-16
     urgency: 1
     contributor_names:
       - Reshetenko
-    reward: 69.35
+    reward: 69.25
   - language: vi
     last_contribution_date: 2024-09-24
     urgency: 1
     contributor_names:
       - Henry-Da0
-    reward: 104.0
-
+    reward: 103.85
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 138.7
-
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 173.35
-
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 138.7
-
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 173.35
+    reward: 173.11
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 138.51
 tags:
   - privacy
   - personal-security

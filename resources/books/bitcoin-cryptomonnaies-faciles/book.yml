@@ -9,90 +9,76 @@ proofreading:
     contributor_names:
       - hunt-wood
     reward: 0.1
-
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.25
-
+    reward: 0.24
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.21
-
   - language: en
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.21
-
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.21
-
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.25
-
+    reward: 0.24
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.25
-
+    reward: 0.24
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.28
-
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.21
-
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.32
-
+    reward: 0.31
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.25
-
+    reward: 0.24
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.21
-
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.25
-
+    reward: 0.24
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.28
-
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.32
+    reward: 0.31
 tags:
   - user-friendly
   - easy-explain

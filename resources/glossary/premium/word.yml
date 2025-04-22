@@ -1,94 +1,81 @@
 id: 0800b506-45ec-401d-8450-ff142eed4a26
 en_word: PREMIUM
-related_words: 
+related_words:
 original_language: fr
 proofreading:
   - language: en
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.34
+    reward: 0.32
   - language: fr
     last_contribution_date: 2024-07-26
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 0.17
-
+    reward: 0.16
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.42
-
+    reward: 0.39
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.34
-
+    reward: 0.32
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.34
-
+    reward: 0.32
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.42
-
+    reward: 0.39
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.42
-
+    reward: 0.39
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.5
-
+    reward: 0.47
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.34
-
+    reward: 0.32
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.42
-
+    reward: 0.39
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.34
-
+    reward: 0.32
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.42
-
+    reward: 0.39
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.58
-
+    reward: 0.54
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.5
-
+    reward: 0.47
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.58
+    reward: 0.54

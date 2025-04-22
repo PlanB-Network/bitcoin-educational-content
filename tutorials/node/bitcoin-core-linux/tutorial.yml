@@ -15,7 +15,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.37
+    reward: 5.36
   - language: de
     last_contribution_date:
     urgency: 1
@@ -26,7 +26,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - Asi0Flammeus
-    reward: 2.03
+    reward: 2.02
   - language: es
     last_contribution_date:
     urgency: 1
@@ -36,7 +36,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.37
+    reward: 5.36
   - language: fr
     last_contribution_date:
     urgency: 1
@@ -51,7 +51,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.0
+    reward: 7.99
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -61,17 +61,17 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.37
+    reward: 5.36
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.0
+    reward: 7.99
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.37
+    reward: 5.36
   - language: id
     last_contribution_date:
     urgency: 1
@@ -82,13 +82,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 6.68
-
-
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.37
+    reward: 5.36
 tags:
   - node
   - guides

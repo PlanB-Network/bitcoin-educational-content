@@ -86,18 +86,18 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 61.37
+    reward: 62.15
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 81.8
+    reward: 82.84
   - language: vi
     last_contribution_date: 2024-09-24
     urgency: 1
     contributor_names:
       - Henry-Da0
-    reward: 61.32
+    reward: 62.1
   - language: et
     last_contribution_date:
     urgency: 1
@@ -113,13 +113,17 @@ proofreading:
     urgency: 1
     contributor_names:
       - MilankovicProtocol
-    reward: 51.11
-
+    reward: 51.76
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 81.8
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 82.84
 tags:
   - guides
   - business

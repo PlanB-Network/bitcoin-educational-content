@@ -63,17 +63,17 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.76
+    reward: 2.53
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.31
+    reward: 3.34
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.42
+    reward: 4.95
   - language: id
     last_contribution_date:
     urgency: 1
@@ -83,19 +83,22 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.87
-
+    reward: 4.14
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 2.31
-
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 2.31
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.34
 tags:
   - development
   - lightning

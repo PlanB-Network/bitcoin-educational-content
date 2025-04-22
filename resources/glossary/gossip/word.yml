@@ -1,6 +1,6 @@
 id: c9d05856-fb9c-4d98-b648-e167befa6160
 en_word: GOSSIP
-related_words: 
+related_words:
 original_language: fr
 proofreading:
   - language: en
@@ -13,80 +13,67 @@ proofreading:
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 0.09
-
+    reward: 0.12
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.2
-
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.18
-
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.18
-
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.2
-
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.2
-
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.23
-
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.18
-
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.18
-
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.2
-
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.26
-
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.23
-
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.26
-
   - language: nb-NO
     last_contribution_date:
     urgency: 1

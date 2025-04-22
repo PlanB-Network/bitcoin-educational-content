@@ -1,6 +1,6 @@
 id: 350bc6e2-0ae2-4914-b172-b1e7011fa122
 en_word: BIP
-related_words: 
+related_words:
 original_language: fr
 proofreading:
   - language: en
@@ -14,79 +14,66 @@ proofreading:
     contributor_names:
       - LoicPandul
     reward: 0.44
-
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 1.14
-
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.88
-
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.88
-
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 1.14
-
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 1.14
-
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 1.4
-
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.88
-
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 1.14
-
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.88
-
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 1.14
-
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 1.66
-
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 1.4
-
   - language: ja
     last_contribution_date:
     urgency: 1

@@ -37,6 +37,8 @@ Pour mettre en place un portefeuille multisignature, il vous faudra différents 
 - Un Ledger Flex ;
 - Une Coldcard MK3.
 
+03
+
 Il est judicieux d'utiliser des marques de hardware wallet différentes au sein de votre configuration multisig. Cela garantit que si un modèle spécifique rencontre un problème grave, cela n'affectera pas la sécurité globale de votre multisig. De plus, cela vous permet de profiter des avantages spécifiques de chaque appareil. Par exemple, dans ma configuration :
 
 - Le Trezor Model One est entièrement open-source, ce qui permet de vérifier la génération de la seed. Cependant, comme il n'est pas équipé d'un Secure Element, il reste vulnérable aux attaques physiques ;
@@ -57,133 +59,135 @@ Comme nous allons le voir plus tard dans ce tutoriel, il est également possible
 
 ## Créer un portefeuille multisig
 
-Ouvrez Sparrow Wallet, puis cliquez sur l'onglet "File" puis "New Wallet".
-
-03
-
-Choisissez un nom pour votre portefeuille multisig, puis cliquez sur le bouton "Create Wallet".
+Ouvrez Sparrow Wallet, cliquez sur l'onglet "File", puis sélectionnez "New Wallet".
 
 04
 
-Dans la liste déroulante "Policy Type", il faut choisir "Multi Signature".
+Attribuez un nom à votre portefeuille multisignature, puis validez en cliquant sur "Create Wallet".
 
 05
 
-En haut à droite, vous pouvez maintenant ajuster le nombre de clés dans votre multisig et le nombre de co-signataire nécessaire pour débloquer les bitcoins. Dans mon cas, je fais un 2-de-3.
+Dans le menu déroulant "Policy Type", sélectionnez l’option "Multi Signature".
 
 06
 
-En bas de la fenêtre, vous pouvez voir que Sparrow Wallet indique 3 "Keystore". Chaque "Keystore" correspond à un ensemble de clés. Dans mon cas, j'utilise 3 hardware wallets, donc chaque "Keystore" sera un de mes hardware wallets. Il va falloir maintenant les paramétrer.
-
-Commençons avec la Coldcard. Sur l'onglet "Keystore 1", je sélectionne "Airgapped Hardware Wallet".
+En haut à droite, vous pouvez désormais définir le nombre total de clés de votre multisig ainsi que le nombre de co-signataires requis pour autoriser une dépense. Dans mon exemple, il s’agit d’un schéma 2-de-3.
 
 07
 
-Sur la Coldcard, après l'avoir déverouillée, je vais dans le menu "Settings", puis "Multisig Wallets".
+En bas de la fenêtre, Sparrow Wallet affiche trois "Keystore". Chacun représente un ensemble de clés. Ici, j’utilise trois portefeuilles matériels, chaque "Keystore" correspond donc à l’un d’entre eux. Nous allons maintenant les configurer.
+
+Je commence avec la Coldcard. Dans l’onglet "Keystore 1", je choisis l’option "Airgapped Hardware Wallet".
 
 08
 
-C'est dans ce menu que l'on peut gérer les multisigs danbs lesquels participe le portfeuille de la Coldcard. Je souahite en créer un nouveau donc je clique sur "Export XPUB".
+Sur la Coldcard, une fois l’appareil déverrouillé, je me rends dans le menu "Settings", puis dans "Multisig Wallets".
 
 09
 
-Pour le numéro de compte, si vous n'en utilisez qu'un seul, vous pouvez laisser cette information vide et cliquer sur le bouton de validation.
+Ce menu permet de gérer les portefeuilles multisigs auxquels la Coldcard participe. Je souhaite en créer un nouveau, je sélectionne donc "Export XPUB".
 
 10
 
-La Coldcard va générer un fichier contenant votre xpub sur la carte Micro SD.
+Pour le champ "Account number", si vous ne gérez qu’un seul compte, vous pouvez le laisser vide et valider directement en appuyant sur le bouton de confirmation.
 
 11
 
-Insérez la Micro SD dans votre ordinateur, puis sur Sparrow Wallet cliquez sur le bouton "Import File..." à côté de "Coldcard Multisig". Choisissez le fichier généré par la Coldcard sur la Micro SD.
+La Coldcard va alors générer un fichier contenant votre xpub, enregistré sur la carte Micro SD.
 
 12
 
-Votre xpub a bien été ajoutée. Nous allons maintenant répéter l'opération pour les deux autre hardware wallets.
+Insérez cette Micro SD dans votre ordinateur. Dans Sparrow Wallet, cliquez sur le bouton "Import File..." situé à côté de "Coldcard Multisig", puis sélectionnez le fichier créé par la Coldcard sur la carte.
 
 13
 
-Pour la Ledger Flex, je clique sur "Keystore 2", puis sur "Conencted Hardware Wallet". La Ledger doit être branchée à l'ordinateur, déverouillée, et avec l'application Bitcoin ouverte.
+Votre xpub a bien été importée. Nous allons maintenant répéter la procédure avec les deux autres hardware wallets.
 
 14
 
-Cliquez sur le bouton "Scan...".
+Pour la Ledger Flex, je sélectionne "Keystore 2", puis je clique sur "Connected Hardware Wallet". Assurez-vous que la Ledger est connectée à l’ordinateur, déverrouillée, et que l’application Bitcoin est bien ouverte.
 
 15
 
-À côté de votre hardware wallet, cliquez sur "Import Keystore".
+Cliquez ensuite sur le bouton "Scan...".
 
 16
 
-Votre second signataire est bien enregistré sur Sparrow.
+À côté du nom de votre portefeuille matériel, cliquez sur "Import Keystore".
 
 17
 
-Je répète exactement la même opération avec le Trezor One pour compléter la configuraiton du multisig.
+Le second signataire est maintenant correctement enregistré dans Sparrow Wallet.
 
 18
 
-Maintenant que tous vos appareils de signature ont été importé sur Sparrow, vous pouvez confirmer la création du multisig en cliquant sur le bouton "Apply".
+Je réitère exactement la même procédure avec le Trezor One afin de finaliser la configuration du multisig.
 
 19
 
-Définissez un mot de passe robuste pour sécuriser l'accès à votre portefeuille sur Sparrow Wallet. Ce mot de passe protégera vos clés publiques, vos adresses, vos étiquettes, et l'historique de vos transactions contre les accès non autorisés.
+Dans ma configuration nous ne couvrons pas ce cas, mais si vous souhaitez inclure une signature via un portefeuille logiciel dans Sparrow (portefeuille chaud) au sein de votre multisig, cliquez simplement sur le bouton "New or Imported Software Wallet".
 
-Il est recommandé de sauvegarder ce mot de passe pour éviter de l'oublier (par exemple dans un gestionnaire de mots de passe).
+Maintenant que tous vos dispositifs de signature sont importés dans Sparrow Wallet, vous pouvez finaliser la création du multisig en cliquant sur "Apply".
 
 20
 
-## Sauvegarder un portefeuille multisig
+Choisissez un mot de passe robuste pour sécuriser l’accès à votre portefeuille sur Sparrow Wallet. Ce mot de passe protège vos clés publiques, vos adresses, vos étiquettes et l’historique de vos transactions contre tout accès non autorisé.
 
-Nous allons maintenant enregistrer notre *Output Script Descriptor* sur la Coldcard (valable uniquement si vous utilisez une Coldcard dans votre multisig), et surtout, nous allons également en faire une sauvegarde sur un support différent.
-
-Le *Descriptor* contient toutes les xpubs de votre portefeuille multisig, ainsi que les chemins de dérivations utilisés pour dériver les différentes clés. Rappelez-vous de ce que je vous ai expliqué dans la première partie : pour récupérer un portefeuille multisig, vous avez besoin soit d'avoir accès à **toutes** les phrase mnémoniques, soit au nombre minimal de phrases mnémoniques pour atteindre le seuil nécessaire de signatures, mais dans ce second cas, vous devez également avoir accès aux xpubs des signataires manquants. Cela tombe bien, le *Descriptor* contient toutes les xpubs de votre multisig.
-
-Si vous n'avez pas ciompris, pour simplifier : pour récupérer un multisig, vous avez besoin à la fois des phrases mnémoniques de chaque hardware wallet, et du *Descriptor*.
-
-Ce *Descriptor* ne contient aucune information sur vos clés privées. Il ne contient que vos clés publiques. Cela signifie que ce n'est pas une information aussi sensible que vos phrase mnémoniques (qui elles, donnent accès à tous vos bitcoins). Le *Descriptor* est donc uniquement un risque de confidentialité. Si vous vous le faites voler, la personne en sa possession ne pourra pas voler les bitcoins de votre multisig, en revanche, il pourra observer toutes vos transactions.
-
-Je vous conseille donc de réaliser plusieurs copies de ce *Descriptor*, et si possible, de les conserver avec chaque facteur de signature de votre multisig. Par exemple, dans mon cas, je vais imprimer sur papier le *Descriptor* et conserver une copie papier avec la Coldcard, une autre avec le Trezor et une dernière avec le Ledger. Je vais également mettre ce *Descriptor* sous forme de fichier PDF dans 3 clés USB, et conserver une clé USB avec chaque hardware wallet. Ainsi, je suis maximise mes chances de ne pas perdre ce *Descriptor*, et je sais que j'en ai 2 copies (une physique et une numréique) avec chaque hardware wallet du multisig.
-
-Après la création de votre wallet, Sparrow vous donne votre *Descriptor*. Vous pouvez cliquer sur le bouton "Save PDF..." pour l'enregistrer à la fois en version écrite et sous forme de QR code.
+Pensez à sauvegarder ce mot de passe dans un endroit sûr, comme un gestionnaire de mots de passe, afin d’éviter de le perdre.
 
 21
 
-Vous pourrez ensuite imprimer ce PDF et le mettre sur les clés USB.
+## Sauvegarder un portefeuille multisig
+
+Nous allons maintenant enregistrer notre *Output Script Descriptor* sur la Coldcard (cela ne concerne que les utilisateurs intégrant une Coldcard dans leur multisig), et surtout, nous allons en conserver une sauvegarde sur un support indépendant.
+
+Le *Descriptor* regroupe l’ensemble des xpubs de votre portefeuille multisig, ainsi que les chemins de dérivation utilisés pour générer les clés. Souvenez-vous de ce que nous avons vu dans la première partie : pour restaurer un portefeuille multisig, il faut soit disposer **de toutes** les phrases mnémoniques, soit uniquement du nombre minimal requis pour atteindre le seuil de signatures. Toutefois, dans ce second cas, il est également indispensable d’avoir **les xpubs** des signataires manquants. Le *Descriptor* contient justement toutes les xpubs de votre multisig.
+
+Si ce n’est pas clair, retenez simplement ceci : pour récupérer un multisig, il vous faut le nombre minimal de phrases mnémoniques de chaque hardware wallet utilisé en fonction du seuil (dans mon cas : 2 phrases), ainsi que le *Descriptor*.
+
+Ce *Descriptor* ne contient aucune clé privée, uniquement des clés publiques. Cela signifie qu’il ne permet pas d’accéder aux fonds. Il n’est donc pas aussi critique que les phrases mnémoniques, qui, elles, donnent un accès total à vos bitcoins. Le risque avec le *Descriptor* est uniquement lié à la confidentialité : en cas de compromission, une tierce personne pourrait observer toutes vos transactions, mais ne pourrait pas dépenser vos fonds.
+
+Je vous recommande vivement de créer plusieurs copies de ce *Descriptor*, et de les conserver avec chaque dispositif de signature de votre multisig. Par exemple, dans mon cas, j’imprime le *Descriptor* sur papier et j’en conserve une copie avec la Coldcard, une autre avec le Trezor, et une dernière avec la Ledger. J’enregistre aussi ce *Descriptor* sous forme de fichier PDF sur trois clés USB, chacune rangée avec l’un des portefeuilles matériels. De cette manière, je maximise mes chances de ne jamais perdre ce *Descriptor*, et je suis certain d’avoir deux copies (une physique et une numérique) avec chaque appareil.
+
+Une fois votre portefeuille multisig créé, Sparrow vous fournit automatiquement ce *Descriptor*. Cliquez sur le bouton "Save PDF..." pour le sauvegarder à la fois en version texte et sous forme de QR code.
 
 22
 
-Ce *Descriptor*, nous allons également l'enregistrer dans notre Coldcard (si vous en avez une dans votre setup). Cela va permettre à la Coldcard de vérifier que chaque transaction que nous signerons par la suite correspond bien à la configuration d’origine : bonnes xpubs, bon ordre des clés, bon type d’adresse, bon chemin de dérivation... Sans ce *Descriptor* enregistré, la Coldcard ne peut pas s’assurer que les adresses de change ne sont pas détournées ni que la PSBT n’a pas été manipulée.
-
-C'est pour cela que la Coldcard est très intéressante dans un multisig. Elle permet de vérifier des paramètres supplémentaires pour faire face à certaines attaques avancées que les autres hardware wallets ne permettent pas (à condition de l'utiliser lorsque l'on signe évidemment).
-
-Sur Sparrow, dans le menu "Settings", cliquez sur le bouton "Export...".
+Vous pourrez ensuite imprimer ce PDF et le copier sur vos clés USB.
 
 23
 
-À côté de "Coldcard Multisig", cliquez sur le bouton "Export File...", puis enregistrez le fichier texte sur votre carte Micro SD.
+Nous allons également enregistrer ce *Descriptor* dans la Coldcard (si vous en utilisez une dans votre configuration). Cela permettra à la Coldcard de vérifier que chaque transaction signée ultérieurement correspond bien au portefeuille d’origine : bonnes xpubs, bon format d’adresse, bon chemin de dérivation... Sans ce *Descriptor* importé, la Coldcard ne peut pas confirmer que les adresses de change n’ont pas été détournées ou que la PSBT n’a pas été altérée.
+
+C’est ce qui fait tout l’intérêt de la Coldcard dans un multisig : elle offre des vérifications supplémentaires contre certaines attaques sophistiquées, que d’autres hardware wallets ne permettent pas (à condition bien sûr de l’utiliser pour signer).
+
+Dans Sparrow, accédez au menu "Settings", puis cliquez sur "Export...".
 
 24
 
-Aprez avoir inséré cette carte Micro SD dans la Coldcard, rendez-vous de nouveau dans le menu "Settings" puis "Multisig Wallets" et sélectionnez l'option "Import from SD".
+À côté de l’option "Coldcard Multisig", cliquez sur "Export File..." et enregistrez le fichier texte sur la carte Micro SD.
 
 25
 
-Choisissez le bon fichier puis confirmez.
+Insérez ensuite la carte dans la Coldcard. Allez dans le menu "Settings", puis "Multisig Wallets", et sélectionnez "Import from SD".
 
 26
 
-Cliquez sur le nom de votre multisig.
+Choisissez le fichier approprié et confirmez l’importation.
 
 27
 
-Vérifiez les paramètres de votre multisig, puis confirmez son enregistrement.
+Cliquez sur le nom de votre multisig nouvellement importé.
 
 28
 
-Votre multisig est dorénavant bien enregistré dans votre Coldcard. Si vous avez plusieurs Coldcard au sein de votre multisig, répétez cette opération.
+Vérifiez les paramètres de configuration du multisig, puis confirmez son enregistrement.
 
-En plus de la sauvegarde du *Descriptor*, vous devez évidemment soigner la sauvegarde des phrase mnémoniques de chacun de vos facteurs de signature. Pour plus d'informations sur la manière adéquate de sauvegarder et de gérer votre phrase mnémonique, je vous recommande vivement de suivre cet autre tutoriel, particulièrement si vous êtes débutant :
+29
+
+Votre multisig est désormais correctement sauvegardé dans votre Coldcard. Si vous possédez plusieurs Coldcard au sein du même multisig, répétez cette procédure pour chacune d’elles.
+
+Au-delà de la sauvegarde du *Descriptor*, n’oubliez pas de porter une attention toute particulière à la sauvegarde des phrases mnémoniques de chacun de vos dispositifs de signature. Si vous débutez, je vous recommande vivement de consulter cet autre tutoriel pour apprendre à les sauvegarder et les gérer correctement :
 
 https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
@@ -195,115 +199,115 @@ https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 
 ## Recevoir des bitcoins sur son multisig
 
-Maintenant que votre portefeuille est créé, vous allez pouvoir recevoir des bitcoins. Sur Sparrow, cliquez sur l'onglet "Receive".
-
-29
-
-Avant d'utiliser l'adresse proposée par Sparrow Wallet, vérifiez-la sur l'écran de vos hardware wallets. Cette pratique vous permet de confirmer que l'adresse affichée sur Sparrow n'est pas frauduleuse et que les hardwares wallet détiennent bien les clés privées nécessaires pour dépenser ultérieurement les bitcoins sécurisés avec cette adresse. Cela vous permet d'éviter plusieurs types d'attaques.
-
-Pour effectuer cette vérification, cliquez sur le bouton "Display Address" pour la Trezor ou laLedger qui foncitonnent par cable.
+Votre portefeuille est désormais prêt à recevoir des bitcoins. Dans Sparrow, cliquez sur l’onglet "Receive".
 
 30
 
-Sur la Coldcard, vous pouvez vérifier l'adresse sans avoir à communiquer avec Sparrow. Rendez-vous dans le menu "Address Explorer", puis sélectionnez votre multisig en bas du menu.
+Avant d’utiliser l’adresse générée par Sparrow Wallet, prenez le temps de la vérifier directement sur l’écran de vos hardware wallets. Cette vérification vous garantit que l’adresse n’a pas été modifiée et que vos dispositifs détiennent bien les clés privées nécessaires pour dépenser les fonds associés. Cela permet de se prémunir contre plusieurs vecteurs d’attaques.
+
+Pour cela, cliquez sur "Display Address" pour afficher l’adresse sur votre Trezor ou votre Ledger, lorsqu’ils sont connectés par câble.
 
 31
 
-Vous pouvez alors voir vos adresses de réceptions.
+Avec la Coldcard, cette vérification peut s’effectuer sans aucune interaction avec Sparrow. Il suffit d’ouvrir le menu "Address Explorer", puis de sélectionner votre multisig tout en bas du menu.
 
 32
 
-Vérifiez que l'adresse affichée sur votre les hardware wallets correspond à celle indiquée sur Sparrow Wallet. Il est également recommandé de réaliser cette vérification juste avant de communiquer votre adresse à l'envoyeur, afin d'être sûr de sa validité.
-
-Vous pouvez ensuite ajouter un "Label" pour décrire la source des bitcoins qui seront sécurisés avec cette adresse. C'est une bonne pratique qui vous permet de mieux gérer vos UTXOs.
+Vous verrez alors les adresses de réception générées par le multisig.
 
 33
 
-Vous pouvez ensuite utiliser cette adresse pour recevoir des bitcoins.
+Vérifiez que l’adresse affichée sur chacun des hardware wallets correspond exactement à celle indiquée dans Sparrow Wallet. Il est conseillé de faire cette vérification juste avant de partager l’adresse au payeur, pour être certain de son intégrité.
+
+Vous pouvez ensuite attribuer un "Label" à cette adresse, afin d’indiquer la provenance des bitcoins reçus. C’est une bonne pratique pour mieux organiser la gestion de vos UTXOs.
 
 34
 
-## Envoyer des bitcoins avec son multisig
-
-Maintenant que vous avez reçu vos premiers sats sur votre portefeuille multisig, vous pouvez également les dépenser ! Sur Sparrow, rendez-vous dans l'onglet "Send" pour construire une nouvelle transaction.
+Une fois cette vérification effectuée, vous pouvez utiliser l’adresse pour recevoir des bitcoins.
 
 35
 
-Si vous souhaitez faire du *Coin Control*, c'est-à-dire choisir spécifiquement quels UTXOs consommer dans la transaction, rendez-vous dans l'onglet "UTXOs". Sélectionnez les UTXOs que vous souhaitez dépenser, puis cliquez sur "Send Selected". Vous serez redirigé vers le même écran de l'onglet "Send", mais avec vos UTXOs déjà sélectionnés pour la transaction.
+## Envoyer des bitcoins avec son multisig
+
+Maintenant que vous avez reçu vos premiers sats sur votre portefeuille multisig, vous pouvez également les dépenser ! Dans Sparrow, rendez-vous dans l’onglet "Send" pour construire une nouvelle transaction.
 
 36
 
-Entrez l'adresse de destination. Vous pouvez également entrer plusieurs adresses en cliquant sur le bouton "+ Add".
+Si vous souhaitez pratiquer le *Coin Control*, c’est-à-dire sélectionner manuellement les UTXOs à dépenser, allez dans l’onglet "UTXOs". Choisissez les UTXOs désirés, puis cliquez sur "Send Selected". Vous serez automatiquement redirigé vers l’onglet "Send", avec les UTXOs déjà pré-remplis.
 
 37
 
-Notez un "Label" pour vous souvenir de l'objet de cette dépense.
+Renseignez l’adresse de destination. Il est possible d’ajouter plusieurs adresses en cliquant sur "+ Add".
 
 38
 
-Choisissez le montant envoyé à cette adresse.
+Ajoutez un "Label" pour décrire l’objet de cette dépense, afin de faciliter le suivi de vos transactions.
 
 39
 
-Ajustez le taux de frais de votre transaction en fonction du marché du moment. Vous pouvez par exemple utiliser [mempool.space](https://mempool.space/) pour choisir un taux de frais adapté.
-
-Assurez-vous que tous les paramètres de votre transaction sont corrects, puis cliquez sur "Create Transaction".
+Indiquez le montant à envoyer vers l’adresse sélectionnée.
 
 40
 
-Si tout vous convient, cliquez sur "Finalize Transaction for Signing".
+Ajustez le taux de frais selon les conditions actuelles du réseau. Vous pouvez par exemple consulter [mempool.space](https://mempool.space/) pour choisir un niveau de frais adapté.
+
+Après avoir vérifié tous les paramètres de la transaction, cliquez sur "Create Transaction".
 
 41
 
-Vous pouvez voir sur le bas de la page que Sparrow attend 2 signatures. C'est normal, j'ai réalisé ici un portefeuille multisig 2-de-3.
+Si tout vous convient, poursuivez en cliquant sur "Finalize Transaction for Signing".
 
 42
 
-Je vais commencer par signer avec ma Coldcard. Pour ce faire, il faut insérer une carte Micro SD dans l'ordinateur, puis cliquer sur le bouton "Save Transaction".
+En bas de l’écran, vous verrez que Sparrow attend 2 signatures. C’est normal : le portefeuille utilisé ici est un multisig 2-de-3.
 
 43
 
-Il existe en tout 3 options pour communiquer la transaction à signer au hardware wallet, puis pour la récupérer sur Sparrow. Il y a celle avec la Micro SD comme nous allons faire ici. Il y a également la méthode de communication par cable que nous allons voir avec la seconde signature. Et enfin, il y a l'option avec QR code pour les hardware wallets qui sont équipés d'une caméra comme la Coldcard Q, le Jade Plus ou encore le Passport V2.
-
-Après avoir enregistré la PSBT (*Partially signed bitcoin transactions*) sur la micro SD, je l'insère dans la Coldcard MK3. Il faut donc cliquer sur le menu "Ready to Sign"
+Je commence la signature avec ma Coldcard. Pour cela, j’insère une carte Micro SD dans l’ordinateur, puis je clique sur "Save Transaction".
 
 44
 
-Vérifiez les paramètres de la transaction sur l'écran de votre hardware wallet, notamment l'adresse de réception du destinataire, le montant envoyé et le montant des frais. Une fois la transaciton vérifiée, cliquez sur le bouton de validation pour la signer.
+Il existe 3 méthodes pour transmettre la transaction à signer à votre hardware wallet, puis la récupérer dans Sparrow. La première consiste à utiliser une carte Micro SD, comme nous allons le faire ici pour la Coldcard. La seconde passe par une connexion par câble, que nous utiliserons pour la seconde signature (Ledger et Trezor). Enfin, il est possible d'utiliser une communication par QR code, pour les appareils dotés d’une caméra comme la Coldcard Q, le Jade Plus ou encore le Passport V2.
+
+Une fois la PSBT (*Partially Signed Bitcoin Transaction*) enregistrée sur la Micro SD, je l’insère dans la Coldcard MK3, puis je sélectionne le menu "Ready to Sign".
 
 45
 
-Placez de nouveau la Micro SD dans votre ordinateur, puis cliquez sur le bouton "Load Transaction" sur Sparrow. Puis, sélectionnez la PSBT signée par la Coldcard parmis vos fichiers.
+Sur l’écran de votre hardware wallet, vérifiez attentivement les paramètres de la transaction : l’adresse du destinataire, le montant envoyé, ainsi que les frais. Une fois la transaction confirmée, validez pour procéder à la signature.
 
 46
 
-On peut voir que la signature de la Coldcard a bien été ajoutée. Je peux maintenant choisir de signer avec un second périphérique, soit le Trezor, soit la Ledger. Ici je vais le faire avec la Ledger. Je clique donc sur "Sign" après l'avoir branchée et déverouillée.
+Replacez ensuite la Micro SD dans votre ordinateur, puis cliquez sur "Load Transaction" dans Sparrow. Sélectionnez alors la PSBT signée par la Coldcard parmi vos fichiers.
 
 47
 
-Cliquez sur "Sign" à côté de votre hardware wallet.
+Vous pouvez constater que la signature de la Coldcard a bien été ajoutée. Je vais maintenant utiliser un second appareil, ici la Ledger, pour réaliser la seconde signature nécessaire. Je la connecte, je la déverrouille, puis je clique sur "Sign" sur Sparrow.
 
 48
 
-La première fois que vous utilisez la Ledger avec votre mutlisig, il vous sera demandé de vérifier les clés publiques étendues des co-signataires. De la même manière que pour la Coldcard, cela vous permet de ne pas signer à l'aveugle par la suite. Pour être sûr que ces informations sont bien bonnes, vous pouvez comparer la xpub sur l'écran de la Ledger avec la xpub donnée par chaque hardware wallet sur son écran.
+Cliquez sur "Sign" à côté du nom de votre hardware wallet.
 
 49
 
-Vous pourrez ensuite signer la transaction. De la même manière que pour la signature avec la Coldcard, vérifiez les paramètres de la transaction, notamment l'adresse de réception du destinataire, le montant envoyé et le montant des frais.
+Lors de la première utilisation de votre Ledger avec ce multisig, Sparrow vous demandera de vérifier les clés publiques étendues (xpubs) des co-signataires. Comme avec la Coldcard, cette étape évite de signer à l’aveugle par la suite. Pour valider ces informations, comparez la xpub affichée sur l’écran de la Ledger avec celles fournies directement par vos autres hardware wallets.
 
 50
 
-Une fois la transaction vérifiée, appuyez de manière prolongée sur l'écran pour la signer.
+Vérifiez l’adresse du destinataire, le montant transféré et les frais de transaction, puis vous pouvez ensuite signer la transaction.
 
 51
 
-Sur Sparrow, vous avez maintenant les 2 signatures nécessaire pour dépenser les fonds de votre multisig. Vérifiez une dernière fois la transaciton, et si tout vous convient, vous pouvez la diffuser aux noeud du réseau en cliquant sur le bouton "Broadcast Transaction".
+Appuyez sur l’écran pour signer.
 
 52
 
-Vous pouvez la retrouver dans l'onglet "Transactions" de Sparrow Wallet.
+Sparrow dispose désormais des deux signatures nécessaires pour débloquer les fonds du portefeuille multisig. Vérifiez une dernière fois la transaction, et si tout vous convient, cliquez sur "Broadcast Transaction" pour la diffuser sur le réseau.
 
 53
+
+Vous retrouverez cette transaction dans l’onglet "Transactions" de Sparrow Wallet.
+
+54
 
 Félicitations, vous savez dorénavant comment configurer et utiliser un portefeuille multisignature sur Sparrow. Si vous avez trouvé ce tutoriel utile, je vous serais reconnaissant de laisser un pouce vert ci-dessous. N'hésitez pas à partager cet article sur vos réseaux sociaux. Merci !
 

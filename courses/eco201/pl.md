@@ -469,13 +469,13 @@ W następnym rozdziale zagłębimy się w koncepcję preferencji czasowej i wyja
 Ostatni rozdział zakończyliśmy wyjaśnieniem, w jaki sposób podmioty gospodarcze wykorzystują najbardziej zbywalne dobro, tj. pieniądze, aby odeprzeć przyszłą niepewność. Wyjaśniliśmy również, że sekwencyjna natura zjawisk czasowych prowadzi nas do stopniowego zwalczania niepewności: tylko wtedy, gdy wiemy, że nasze utrzymanie będzie zapewnione przez następny tydzień, możemy skoncentrować się na celach w dalszej przyszłości.
 
 
-Albo inaczej: jako istoty ludzkie dyskontujemy wartość przyszłych dóbr.
+Albo inaczej: jako istoty ludzkie zaniżamy wartość przyszłych dóbr.
 
 
-Ta subiektywna ocena wartości dóbr przyszłych w porównaniu z dobrami teraźniejszymi określana jest mianem preferencji czasowej. Przy założeniu, że wszystko inne jest równe, dobra teraźniejsze są z natury preferowane w stosunku do dóbr przyszłych. Ponieważ jesteśmy śmiertelni, a przyszłość jest zawsze niepewna, naturalnie wolimy mieć dostęp do danego dobra teraz niż później. Chociaż preferencje czasowe mogą różnić się między poszczególnymi osobami ze względu na niezliczone czynniki, takie jak kultura, zamożność, wykształcenie, fizjologia itp., preferencje czasowe są zawsze dodatnie, co oznacza, że wszystkie rzeczy są równe, zawsze cenimy dobra teraźniejsze bardziej niż przyszłe.
+Ta subiektywna ocena wartości dóbr przyszłych w porównaniu z dobrami teraźniejszymi określana jest mianem preferencji czasowej. Przy założeniu, że wszystko inne jest równe, dobra teraźniejsze są z natury preferowane w stosunku do dóbr przyszłych. Ponieważ jesteśmy śmiertelni, a przyszłość jest zawsze niepewna, naturalnie wolimy mieć dostęp do danego dobra teraz niż później. Chociaż preferencje czasowe mogą różnić się między poszczególnymi osobami ze względu na niezliczone czynniki, takie jak kultura, zamożność, wykształcenie, fizjologia itp., preferencje czasowe są zawsze dodatnie, co oznacza, że jesli wszystkie czynniki są równe, zawsze cenimy dobra teraźniejsze bardziej niż przyszłe.
 
 
-Ta koncepcja względnej wyceny dóbr przyszłych w stosunku do dóbr teraźniejszych leży u podstaw zjawiska odsetek. Rzeczywiście, w gospodarce z niezmanipulowanymi rynkami kapitałowymi referencyjne stopy procentowe (uważane za wolne od ryzyka niewypłacalności) są określane na przecięciu kapitału Supply i popytu. W związku z tym stopy te reprezentują stan preferencji czasowych dla całej gospodarki: wzrost stopy procentowej wynika ze względnego wzrostu popytu na kapitał w porównaniu do Supply, co wskazuje na wyższe preferencje czasowe. I odwrotnie, spadek stóp procentowych wynika ze wzrostu oszczędności, co oznacza wzrost Supply kapitału, wskazując na zmniejszenie preferencji czasowych.
+Ta koncepcja względnej wyceny dóbr przyszłych w stosunku do dóbr teraźniejszych leży u podstaw zjawiska odsetek. Rzeczywiście, w gospodarce z niezmanipulowanymi rynkami kapitałowymi referencyjne stopy procentowe (uważane za wolne od ryzyka niewypłacalności) są określane na przecięciu kapitału podaży i popytu. W związku z tym stopy te reprezentują stan preferencji czasowych dla całej gospodarki: wzrost stopy procentowej wynika ze względnego wzrostu popytu na kapitał w porównaniu do podaży, co wskazuje na dłuższe preferencje czasowe. I odwrotnie, spadek stóp procentowych wynika ze wzrostu oszczędności, co oznacza wzrost podaży kapitału, wskazując na zmniejszenie preferencji czasowych.
 
 
 ![image](assets/en/12.webp)
@@ -493,25 +493,25 @@ Koncepcja preferencji czasowej i sposób, w jaki wyrażamy własne preferencje c
 ![image](assets/en/13.webp)
 
 
-Na początku tego kursu zobaczyliśmy, że dla Carla Mengera dobra są uważane za dobra ekonomiczne (cenione) tylko dlatego, że służą jako środki do celów wybranych i cenionych przez jednostki. Zgodnie z tym poglądem, cała analiza ekonomiczna obraca się wokół konsumpcji, ponieważ jest ona ostatecznie motywującym celem całej działalności gospodarczej. Dlatego dla Mengera punktem wyjścia analizy ekonomicznej są dobra konsumpcyjne lub dobra finalne, ponieważ reprezentują one ostateczny cel działalności gospodarczej. Wszystkie inne dobra w gospodarce, które możemy nazwać "dobrami pośrednimi", mają wartość tylko dlatego, że umożliwiają jednostkom uzyskanie tych dóbr konsumpcyjnych: są to dobra wykorzystywane do produkcji innych dóbr.
+Na początku tego kursu zobaczyliśmy, że dla Carla Mengera dobra są dobrami ekonomicznymi (cenionymi) tylko dlatego, że służą jako środki do celów wybranych i cenionych przez jednostki. Zgodnie z tym poglądem, cała analiza ekonomiczna obraca się wokół konsumpcji, ponieważ jest ona ostatecznie motywującym celem całej działalności gospodarczej. Dlatego dla Mengera punktem wyjścia analizy ekonomicznej są dobra konsumpcyjne lub dobra finalne, ponieważ reprezentują one ostateczny cel działalności gospodarczej. Wszystkie inne dobra w gospodarce, które możemy nazwać „dobrami pośrednimi”, mają wartość tylko dlatego, że umożliwiają jednostkom uzyskanie tych dóbr konsumpcyjnych: są to dobra wykorzystywane do produkcji innych dóbr.
 
 
-Aby wyprodukować dobra konsumpcyjne, przedsiębiorcy łączą te różne dobra pośrednie z pierwotnymi czynnikami produkcji (pracą, ziemią i kapitałem) zgodnie ze schematem, który maksymalizuje wynikową produkcję. Ten układ, stworzony przez przedsiębiorców lub struktura produkcji, obejmuje różne etapy, podczas których dobra pośrednie przechodzą transformacje, aż w końcu stają się dobrami konsumpcyjnymi.
+Aby wyprodukować dobra konsumpcyjne, przedsiębiorcy łączą różne dobra pośrednie z pierwotnymi czynnikami produkcji (pracą, ziemią i kapitałem) zgodnie ze schematem, który maksymalizuje wynik produkcji. Układ ten, stworzony przez przedsiębiorców lub strukturę produkcji, obejmuje różne etapy, podczas których dobra pośrednie przechodzą transformacje, aż w końcu stają się dobrami konsumpcyjnymi.
 
 
-Tak więc, podobnie jak Menger, możemy zdefiniować dobra konsumpcyjne jako dobra pierwszego rzędu, dobra zaangażowane na poprzednim etapie jako dobra drugiego rzędu, te na etapie wcześniejszym jako dobra trzeciego rzędu i tak dalej, aż dojdziemy do czynników pierwotnych (ziemia, praca, kapitał). Liczba etapów, które rozważamy, zasadniczo zależy od struktury produkcji przyjętej przez przedsiębiorców i nie powinna być postrzegana jako obiektywna cecha struktury produkcji. Wręcz przeciwnie, etapy produkcji i dobra pośrednie istnieją tylko w kontekście teleologicznym: podmiot przewiduje sekwencję działań, dzięki którym osiągnie pożądany cel, i mentalnie dzieli swoje działania na kolejne etapy.
+Tak więc, podobnie jak Menger, możemy zdefiniować dobra konsumpcyjne jako dobra pierwszego rzędu, dobra zaangażowane na poprzednim etapie jako dobra drugiego rzędu, te na etapie wcześniejszym jako dobra trzeciego rzędu i tak dalej, aż dojdziemy do czynników pierwotnych (ziemia, praca, kapitał). Liczba etapów, które rozważamy, zasadniczo zależy od struktury produkcji przyjętej przez przedsiębiorców i nie powinna być postrzegana jako obiektywna cecha struktury produkcji. Wręcz przeciwnie, etapy produkcji i dobra pośrednie istnieją tylko w kontekście teleologicznym: podmiot przewiduje sekwencję działań, dzięki którym osiągnie pożądany cel i mentalnie dzieli swoje działania na kolejne etapy.
 
 
-Ta cecha mentalnej projekcji działania w sekwencyjnym wzorcu jest narzucona przez czasową naturę ludzkiego działania. Każde działanie podejmowane przez ludzi wymaga czasu; natychmiastowe działanie jest niemożliwe. Dlatego aktor zawsze ma wybór między wzorcami działania, które zajmują więcej lub mniej czasu.
+Ta cecha mentalnej projekcji działania we wzorcu sekwencyjnym jest narzucona przez czasową naturę ludzkiego działania. Każde działanie podejmowane przez ludzi wymaga czasu - natychmiastowe działanie jest niemożliwe. Dlatego jednostka zawsze ma wybór między wzorcami działania, które zajmują więcej lub mniej czasu.
 
 
-Odtąd, ponieważ jednostki z konieczności mają dodatnie preferencje czasowe, co oznacza, że wolą dobra teraźniejsze od dóbr przyszłych, wybiorą dłuższą ścieżkę tylko wtedy, gdy uzyskany wynik ma dla nich większą subiektywną wartość niż to, co osiągnęliby, wybierając bezpośrednią ścieżkę. W przeciwnym razie nikt nie zastosowałby bardziej czasochłonnych metod: przy równoważnych wynikach najkrótsza ścieżka pozostaje preferowanym wyborem.
+Odtąd, ponieważ jednostki z konieczności mają dodatnie preferencje czasowe, co oznacza, że wolą dobra teraźniejsze od dóbr przyszłych, wybiorą dłuższą ścieżkę tylko wtedy, gdy uzyskany wynik ma dla nich większą subiektywną wartość niż to, co osiągnęliby, wybierając ścieżkę bezpośrednią. W przeciwnym razie nikt nie stosowałby bardziej czasochłonnych metod: przy równoważnych wynikach najkrótsza ścieżka pozostaje wyborem preferowanym.
 
 
-Ze względu na sekwencyjny charakter ludzkiego działania, te międzyokresowe wybory zawsze mają wpływ na sekwencję działań. Innymi słowy, podejmowane przeze mnie działania krótkoterminowe są podporządkowane wyznaczonym przeze mnie celom długoterminowym, a moje działania krótkoterminowe wpłyną na to, co będę mógł zrobić w przyszłości. Implikacją tego oczywistego punktu dotyczącego działalności produkcyjnej jest to, że każdy objazd produkcyjny, tj. każde wydłużenie struktury produkcji, wymaga wcześniejszych oszczędności. Jeśli zdecyduję się przydzielić więcej zasobów w teraźniejszości, aby osiągnąć przyszły cel, muszę najpierw odłożyć to, co pozwoli mi utrzymać się przez czas trwania inwestycji.
+Ze względu na sekwencyjny charakter ludzkiego działania, te międzyokresowe wybory zawsze mają wpływ na sekwencję działań. Innymi słowy, podejmowane przeze mnie działania krótkoterminowe są podporządkowane wyznaczonym przeze mnie celom długoterminowym, a moje działania krótkoterminowe wpłyną na to, co będę mógł zrobić w przyszłości. Implikacją tej oczywistej obserwacji dotyczącej działalności produkcyjnej jest to, że każda zmiana procesu produkcji, tj. każde wydłużenie struktury produkcji, wymaga wcześniejszych oszczędności. Jeśli zdecyduję się przydzielić więcej zasobów w teraźniejszości, aby osiągnąć przyszły cel, muszę najpierw odłożyć to, co pozwoli mi utrzymać się przez czas trwania inwestycji.
 
 
-Aby zilustrować ten punkt, powróćmy do przykładu podanego przez Böhm-Bawerka w jego pracy "Kapitał i odsetki":
+Aby zilustrować ten punkt, powróćmy do przykładu podanego przez Böhm-Bawerka w jego pracy „Kapitał i odsetki”:
 
 
 ![image](assets/en/14.webp)
@@ -520,7 +520,7 @@ Aby zilustrować ten punkt, powróćmy do przykładu podanego przez Böhm-Bawerk
 Eugen von Böhm-Bawerk (1851-1914)
 
 
-### Robinson Crusoe i Production Detour/Roundabout:
+### Robinson Crusoe i Zmiana Procesu Produkcji:
 
 
 ![image](assets/en/15.webp)
@@ -529,7 +529,7 @@ Eugen von Böhm-Bawerk (1851-1914)
 Sklep Robinson Crusoe wyładowany z wraku, John Alexander Gilfillan (1793-1864)
 
 
-W swojej książce austriacki ekonomista zachęca nas do rozważenia międzyokresowych kompromisów nieodłącznie związanych z objazdami produkcyjnymi poprzez eksperyment myślowy oparty na Robinsonie Crusoe samotnie przebywającym na swojej wyspie.
+W swojej książce ekonomista  austriacki zachęca nas do rozważenia międzyokresowych kompromisów nieodłącznie związanych z objazdami produkcyjnymi poprzez eksperyment myślowy oparty na Robinsonie Crusoe samotnie przebywającym na swojej wyspie.
 
 
 Robinson, podobnie jak prymitywny człowiek, polega na żerowaniu i polowaniu. Wyobraźmy sobie, że Robinson może zebrać wystarczającą ilość jagód, aby wyżywić się przez cały dzień w ciągu ośmiu godzin. W takich warunkach ma niewiele czasu na inne zajęcia. Robinson uważa jednak, że wykonując drewnianą tyczkę, mógłby z łatwością strącać jagody i zdobywać codzienne pożywienie w ciągu zaledwie czterech godzin pracy. Co więcej, szacuje, że wykonanie tyczki zajmie mu pięć dni, pracując po dwie godziny dziennie. W związku z tym dochodzi do wniosku, że musi zaoszczędzić 1/5 swojej produkcji jagód przez pięć dni lub alternatywnie spędzić dodatkowe 2 godziny dziennie na zbieraniu przez 5 dni, aby zaoszczędzić wystarczającą ilość jagód, aby utrzymać się przez czas, który spędza na robieniu słupa.

@@ -20,3 +20,8 @@ proofreading:
     contributor_names:
       - f205sats
     reward:
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.53

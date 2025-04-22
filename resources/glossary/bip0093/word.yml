@@ -1,6 +1,6 @@
 id: 276fae07-e3df-4aff-a1cd-e3c1f5392e85
 en_word: BIP0093
-related_words: 
+related_words:
 original_language: fr
 proofreading:
   - language: fr
@@ -8,4 +8,4 @@ proofreading:
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 0
+    reward: 0.09

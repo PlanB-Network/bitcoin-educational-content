@@ -1,6 +1,6 @@
 id: f56ff567-5280-427f-829b-b8a57383a988
 en_word: PRNG
-related_words: 
+related_words:
 original_language: fr
 proofreading:
   - language: fr
@@ -8,4 +8,4 @@ proofreading:
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 0
+    reward: 0.1

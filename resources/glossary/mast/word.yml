@@ -1,6 +1,6 @@
 id: f978d279-2630-406d-890c-b77db8a27735
 en_word: MAST
-related_words: 
+related_words:
 original_language: fr
 proofreading:
   - language: en
@@ -14,79 +14,66 @@ proofreading:
     contributor_names:
       - LoicPandul
     reward: 0.14
-
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.34
-
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.28
-
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.28
-
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.34
-
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.34
-
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.4
-
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.28
-
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.34
-
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.28
-
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.34
-
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.45
-
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.4
-
   - language: ja
     last_contribution_date:
     urgency: 1

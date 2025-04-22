@@ -1,6 +1,6 @@
 id: 5bd1d337-24df-4c49-91c9-941bfa814eeb
 en_word: DIRECTED ACYCLIC GRAPH
-related_words: 
+related_words:
 original_language: fr
 proofreading:
   - language: fr
@@ -8,4 +8,4 @@ proofreading:
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 0
+    reward: 0.08

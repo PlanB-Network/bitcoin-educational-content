@@ -18,85 +18,71 @@ proofreading:
     contributor_names:
       - LoicPandul
     reward: 0.67
-
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 1.75
-
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 1.34
-
   - language: en
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 1.34
-
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 1.34
-
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 1.75
-
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 1.75
-
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 2.17
-
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 1.34
-
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 2.58
-
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 1.75
-
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 1.34
-
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 1.75
-
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 2.58
-
   - language: zh-Hans
     last_contribution_date:
     urgency: 1

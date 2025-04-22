@@ -7,7 +7,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.16
+    reward: 0.15
   - language: de
     last_contribution_date:
     urgency: 1
@@ -28,7 +28,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.16
+    reward: 0.15
   - language: fr
     last_contribution_date:
     urgency: 1
@@ -43,7 +43,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.19
+    reward: 0.17
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -53,33 +53,32 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.16
+    reward: 0.15
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.19
+    reward: 0.17
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.17
+    reward: 0.16
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.17
+    reward: 0.16
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.16
-
+    reward: 0.15
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.16
+    reward: 0.15
 tags:
   - experimental
   - deep-dive

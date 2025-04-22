@@ -1,6 +1,6 @@
 id: b27e7c39-1a71-42a1-ac2d-57b674621f70
 en_word: CYPHERPUNKS
-related_words: 
+related_words:
 original_language: fr
 proofreading:
   - language: en
@@ -14,79 +14,66 @@ proofreading:
     contributor_names:
       - LoicPandul
     reward: 0.17
-
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.42
-
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.34
-
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.34
-
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.42
-
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.42
-
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.5
-
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.34
-
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.42
-
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.34
-
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.42
-
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.59
-
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.5
-
   - language: ja
     last_contribution_date:
     urgency: 1

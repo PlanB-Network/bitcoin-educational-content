@@ -8,10 +8,10 @@ level: beginner
 professor_id: 94b1f27b-c0bd-432c-a2b5-17db0f6dd435
 
 tags:
-- bitcoin-only
-- finance
-- guides
-- user-friendly
+  - bitcoin-only
+  - finance
+  - guides
+  - user-friendly
 
 # Proofreading metadata
 original_language: it
@@ -22,3 +22,73 @@ proofreading:
     contributor_names:
       - f205sats
     reward: 1
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.15
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.64
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.64
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.64
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.15
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.15
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.64
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.66
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.17
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.15
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.64
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.15
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.17
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.66

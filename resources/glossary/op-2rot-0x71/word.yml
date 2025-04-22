@@ -1,6 +1,6 @@
 id: a8aa2078-eb5a-49f0-8b5e-f92380209c59
 en_word: OP_2ROT (0X71)
-related_words: 
+related_words:
 original_language: fr
 proofreading:
   - language: en
@@ -14,79 +14,66 @@ proofreading:
     contributor_names:
       - LoicPandul
     reward: 0.07
-
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.16
-
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.15
-
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.15
-
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.16
-
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.16
-
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.18
-
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.15
-
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.16
-
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.15
-
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.16
-
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.2
-
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.18
-
   - language: ja
     last_contribution_date:
     urgency: 1

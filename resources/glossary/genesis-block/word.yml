@@ -1,6 +1,6 @@
 id: 9060546b-3173-41dc-aa9d-f2d48dd05726
 en_word: GENESIS BLOCK
-related_words: 
+related_words:
 original_language: fr
 proofreading:
   - language: en
@@ -13,82 +13,69 @@ proofreading:
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 0.14
-
+    reward: 0.13
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.33
-
+    reward: 0.32
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.27
-
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.27
-
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.33
-
+    reward: 0.32
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.33
-
+    reward: 0.32
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.39
-
+    reward: 0.38
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.27
-
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.33
-
+    reward: 0.32
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.27
-
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.33
-
+    reward: 0.32
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.44
-
+    reward: 0.43
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.39
-
+    reward: 0.38
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.44
+    reward: 0.43

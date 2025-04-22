@@ -21,90 +21,81 @@ proofreading:
     contributor_names:
       - NetworkEffect
     reward: 8.79
-
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 23.4
-
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 17.57
-
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 17.57
-
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 23.4
-
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 23.4
-
   - language: fr
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 17.57
-
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 29.22
-
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 17.57
-
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 35.04
-
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 23.4
-
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 17.57
-
+    reward: 17.59
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 23.4
-
+    reward: 23.41
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 35.04
-
+    reward: 35.07
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 29.22
+    reward: 29.24
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 23.41
 tags:
   - business
   - adoption

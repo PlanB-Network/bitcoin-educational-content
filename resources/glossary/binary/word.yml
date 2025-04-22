@@ -1,6 +1,6 @@
 id: 0bd15ab4-c84d-479f-98a9-a0ac51d1fa01
 en_word: BINARY
-related_words: 
+related_words:
 original_language: fr
 proofreading:
   - language: en
@@ -14,79 +14,66 @@ proofreading:
     contributor_names:
       - LoicPandul
     reward: 0.08
-
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.19
-
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.17
-
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.17
-
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.19
-
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.19
-
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.21
-
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.17
-
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.19
-
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.17
-
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.19
-
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.24
-
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.21
-
   - language: ja
     last_contribution_date:
     urgency: 1

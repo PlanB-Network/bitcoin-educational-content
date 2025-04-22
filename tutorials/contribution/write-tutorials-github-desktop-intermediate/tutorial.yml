@@ -16,90 +16,77 @@ proofreading:
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 1.63
+    reward: 1.65
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.32
-
+    reward: 4.36
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.26
-
+    reward: 3.29
   - language: en
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.26
-
+    reward: 3.29
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.26
-
+    reward: 3.29
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.32
-
+    reward: 4.36
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.32
-
+    reward: 4.36
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.37
-
+    reward: 5.42
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.26
-
+    reward: 3.29
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.43
-
+    reward: 6.49
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.32
-
+    reward: 4.36
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.26
-
+    reward: 3.29
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.32
-
+    reward: 4.36
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.43
-
+    reward: 6.49
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.37
+    reward: 5.42
 tags:
   - guides
   - DIY

@@ -1,6 +1,6 @@
 id: 9c449812-9b76-460c-945b-269ca03a8657
 en_word: BTCD (BTC SUITE)
-related_words: 
+related_words:
 original_language: fr
 proofreading:
   - language: fr
@@ -8,4 +8,4 @@ proofreading:
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 0
+    reward: 0.08

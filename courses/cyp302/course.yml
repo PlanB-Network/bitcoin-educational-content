@@ -21,91 +21,82 @@ proofreading:
     contributor_names:
       - Asi0Flammeus
     reward: 50.41
-
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 134.4
-
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 100.82
-
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 100.82
-
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 134.4
-
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 134.4
-
   - language: fr
     last_contribution_date: 2025-03-25
     urgency: 1
     contributor_names:
       - LoicPandul
     reward: 0
-
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 167.97
-
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 100.82
-
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 201.55
-
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 134.4
-
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 100.82
-
+    reward: 100.85
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 134.4
-
+    reward: 134.43
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 201.55
-
+    reward: 201.6
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 167.97
+    reward: 168.02
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 134.43
 tags:
   - deep-dive
   - historical

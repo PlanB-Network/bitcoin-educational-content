@@ -1,5 +1,5 @@
 ---
-name: Bitcoin untuk Bisnis
+name: Bitcoin untuk Bisnis.
 goal: Pelajari dasar-dasar pembayaran dan perbendaharaan untuk membawa perusahaan Anda ke bitcoin
 objectives: 
 

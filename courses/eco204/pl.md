@@ -1,19 +1,19 @@
 ---
 name: Badania nad hiperinflacją
-goal: Zrozumienie powstawania hiperinflacji w świecie Fiata i ich konsekwencji
+goal: Zrozumienie powstawania hiperinflacji w świecie walut fiducjarnych i ich konsekwencji
 objectives: 
 
   - Badanie cykli hiperinflacji
   - Zrozumienie rzeczywistego wpływu hiperinflacji na nasze codzienne życie
   - Badanie podobieństw hiperinflacji na przestrzeni czasu
-  - Mieć konkretny pomysł na to, jak chronić się przed hiperinflacją
+  - Konkretny pomysł na to, jak chronić się przed hiperinflacją
 
 ---
 
 # Podróż w głąb gospodarki
 
 
-Program ten ma na celu dogłębne zrozumienie powstawania hiperinflacji w świecie zdominowanym przez walutę fiat oraz zbadanie ich znaczących konsekwencji. Uczestnicy szczegółowo zbadają cykle hiperinflacji, analizując przyczyny, czynniki wyzwalające oraz historyczne i współczesne przykłady. Przeanalizują również namacalny wpływ hiperinflacji na gospodarkę i życie codzienne, badając reperkusje dla wartości waluty, siły nabywczej oraz indywidualnych i zbiorowych oszczędności.
+Program ten ma na celu dogłębne zrozumienie procesu powstawania hiperinflacji w świecie zdominowanym przez waluty fiducjarne oraz zbadanie ich istotnych konsekwencji. Uczestnicy kursu szczegółowo zbadają cykle hiperinflacji, analizując ich przyczyny, okoliczności powstawania oraz historyczne i współczesne przykłady. Przeanalizują również namacalny wpływ hiperinflacji na gospodarkę i codzienne życie, badając reperkusje dla wartości waluty, siły nabywczej oraz indywidualnych i zbiorowych oszczędności.
 
 
 W tym miejscu podkreślimy trendy i wspólne wzorce w epizodach hiperinflacji w całej historii, zapewniając jednocześnie skuteczne i konkretne strategie ochrony w okresach hiperinflacji. Uczestnicy będą mieli okazję zapoznać się z różnymi opcjami inwestycyjnymi i mechanizmami obrony finansowej, zdobywając praktyczne narzędzia i niezbędną wiedzę do spokojnego poruszania się w niestabilnym klimacie gospodarczym.
@@ -33,7 +33,7 @@ W tym miejscu podkreślimy trendy i wspólne wzorce w epizodach hiperinflacji w 
 <chapterId>9d1aba8d-0485-5020-9863-5de37e6db8e0</chapterId>
 
 
-Witamy w kursie ECO204!
+Witamy na kursie ECO204!
 
 
 Celem tego kursu jest pomoc w zrozumieniu podstawowych przyczyn, mechanizmów i konsekwencji hiperinflacji w kontekście fiducjarnego systemu monetarnego. Dzięki konkretnym przykładom i analizie historycznej nauczysz się rozpoznawać powtarzające się wzorce, które poprzedzają okresy hiperinflacji i zidentyfikujesz dźwignie działania, aby się chronić.
@@ -41,17 +41,17 @@ Celem tego kursu jest pomoc w zrozumieniu podstawowych przyczyn, mechanizmów i 
 
 **Sekcja 2: Czym jest inflacja?
 
-Zanim zagłębimy się w sedno tematu, powrócimy do podstaw: czym jest inflacja? W tej sekcji przedstawimy jej monetarne pochodzenie, różne rodzaje inflacji i to, jak wpisują się one w szerszą dynamikę gospodarczą. Jest to niezbędny krok do zrozumienia, w jaki sposób zwykła inflacja może przekształcić się w hiperinflację.
+Zanim zagłębimy się w sedno tematu, powrócimy do podstaw: czym jest inflacja? W tej sekcji przedstawimy jej pochodzenie monetarne, różne rodzaje inflacji i to, jak wpisują się one w szerszą dynamikę gospodarczą. Jest to niezbędny krok do zrozumienia, w jaki sposób zwykła inflacja może przekształcić się w hiperinflację.
 
 
 **Sekcja 3: Czym jest hiperinflacja?
 
-W tej sekcji zapoznasz się z dokładnymi definicjami hiperinflacji i kilkoma ważnymi epizodami historycznymi, w tym w Niemczech Weimarskich i Zimbabwe. Przeanalizujemy ich podobieństwa, różnice i współczesne podobieństwa. Poznasz również mniej znane przypadki, takie jak kolejne redenominacje w Ameryce Łacińskiej, a także strategie wyjścia zaobserwowane w niektórych krajach.
+W tej sekcji zapoznasz się z dokładnymi definicjami hiperinflacji i kilkoma ważnymi epizodami historycznymi, w tym w Niemczech Weimarskich i Zimbabwe. Przeanalizujemy ich podobieństwa, różnice i współczesne analogie. Poznasz również mniej znane przypadki, takie jak kolejne denominacje w Ameryce Łacińskiej, a także strategie wyjścia z hiperinflacji zaobserwowane w niektórych krajach.
 
 
 **Sekcja 4: Jak się tu znaleźliśmy?
 
-Ta część ma na celu zrozumienie mechanizmów strukturalnych, które umożliwiają hiperinflację, w szczególności poprzez rozwój monetarnego "drugiego Layer" i rolę banków centralnych. Dodatkowe zasoby i sugestie dotyczące lektury zostaną przedstawione w celu dalszej eksploracji.
+Ta część ma na celu zrozumienie mechanizmów strukturalnych, które umożliwiają hiperinflację, w szczególności poprzez rozwój --drugiej warstwy-- monetarnej i rolę banków centralnych. Dodatkowe zasoby i sugestie dotyczące lektury zostaną przedstawione w celu dalszej eksploracji.
 
 
 Co by było, gdyby historia monetarna powtarzała się na naszych oczach? Ty będziesz sędzią w kolejnych rozdziałach!

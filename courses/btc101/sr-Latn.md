@@ -662,22 +662,22 @@ Ukratko, Bitkoin, sa svojom decentralizovanom prirodom, programiranom oskudicom 
 <chapterId>1c0166ab-cb7a-5bc6-9175-d13482bd91f1</chapterId>
 
 
-U odeljku 2, istražićemo skladištenje i sigurnost bitkoin kroz korišćenje novčanika, kako bismo razumeli gde se nalaze ovi poznati bitkoini i kako komunicirati sa njima!
+U odeljku 2, istražićemo skladištenje i sigurnost Bitkoina kroz korišćenje novčanika, kako bismo razumeli gde se nalaze ovi poznati bitkoini i kako komunicirati sa njima!
 
 
-### Demistifikacija bitkoin novčanika
+  ### Demistifikacija Bitkoin novčanika
 
 
-Koristimo novčanike za interakciju sa bitkoin mrežom na tri glavna načina:
+Koristimo novčanike za interakciju sa Bitkoin mrežom na tri glavna načina:
 
 
 
-- Da primite bitkoine
-- Da pošaljete bitkoine
-- Da ih zaštitite od pokušaja hakovanja i krađe
+- Da primamo bitkoine
+- Da šaljemo bitkoine
+- Da ih zaštitimo od pokušaja hakovanja i krađe
 
 
-bitkoin Wallet može imati mnogo oblika i formi: softver na vašem računaru, aplikacija na vašem pametnom telefonu, fizički uređaj poput USB ključa, ili čak komad papira. Svaki od njih služi različitim slučajevima upotrebe. Zapravo, neki su dizajnirani za velike transakcije sa naglaskom na sigurnost, dok drugi daju prioritet privatnosti, ili su namenjeni za svakodnevna plaćanja malih iznosa.
+Bitkoin novčanik može imati mnogo oblika i formi: softver na vašem računaru, aplikacija na vašem pametnom telefonu, fizički uređaj poput USB ključa, ili čak komad papira. Svaki od njih služi različitim slučajevima upotrebe. Zapravo, neki su dizajnirani za velike transakcije sa naglaskom na sigurnost, dok drugi daju prioritet privatnosti, ili su namenjeni za svakodnevna plaćanja malih iznosa.
 
 
 Portfolija se tako mogu kategorizovati u široke porodice upotrebe, uvek fokusirane na ključno pitanje: da li ste vi vlasnik sredstava ili prepuštate kontrolu nad svojim novcem trećoj strani? Ovu temu ćemo detaljno istražiti u narednom poglavlju, ali pitanje ostaje jednostavno: da li je novac u vašem džepu ili u džepu vašeg bankara?
@@ -686,33 +686,33 @@ Portfolija se tako mogu kategorizovati u široke porodice upotrebe, uvek fokusir
 ![image](assets/en/26.webp)
 
 
-### Kako funkcioniše bitkoin Wallet?
+### Kako funkcioniše Bitkoin novčanik?
 
 
-Bilo da je to vaš bitkoin "bankar" ili vi sami, velika većina bitkoin novčanika radi sa sličnom tehnologijom zasnovanom na asimetričnoj kriptografiji, koja uključuje sistem parova ključeva: privatni ključ za trošenje i javni ključ za primanje.
+Bilo da je to vaš bitkoin "bankar" ili vi sami, velika većina Bitkoin novčanika radi sa sličnom tehnologijom zasnovanom na asimetričnoj kriptografiji, koja uključuje sistem parova ključeva: privatni ključ za trošenje i javni ključ za primanje.
 
 
 
 - Privatni ključ
 
 
-Kada inicijalizujete Wallet, tajna fraza za oporavak, takođe poznata kao Mnemonic fraza (privatni ključ), generiše se i prikazuje vam se u obliku od 12 ili 24 reči.
+Kada inicijalizujete novčanik, generiše se tajna fraza za oporavak, takođe poznata kao Mnemonic fraza (privatni ključ) i prikazuje vam se u obliku od 12 ili 24 reči.
 
 
-Privatni ključ je fundamentalan jer čini Ownership bitkoina i stoga pravo da ih koristite ili šaljete. Dakle, vlasnik privatnog ključa je pravi vlasnik bitkoina. Kao što popularna izreka kaže, „Nisu tvoji ključevi, nisu tvoji novčići.“
+Privatni ključ je fundamentalan jer predstavlja vlasništvo nad bitkoinom i stoga pravo da ih koristite ili šaljete. Dakle, vlasnik privatnog ključa je pravi vlasnik bitkoina. Kao što popularna izreka kaže, „Nisu tvoji ključevi, nisu tvoji novčići.“
 
 
 Ovaj ključ mora biti čuvan u tajnosti i dobro zaštićen, jer otključava tvoje bogatstvo!
 
 
 
-- Javni ključ & Address
+- Javni ključ & Adresa 
 
 
-Javni ključ se generiše iz privatnog ključa i povezan je s njim. Deljenje javnog ključa predstavlja rizik za privatnost (jer drugi korisnici mogu videti vaš saldo), ali ne i za sigurnost (jer ne mogu trošiti vaša sredstva bez posedovanja privatnog ključa). Javni ključ se koristi za kreiranje bitkoin adresa, i na taj način primanje novca.
+Javni ključ se generiše iz privatnog ključa i povezan je s njim. Deljenje javnog ključa predstavlja rizik za privatnost (jer drugi korisnici mogu videti vaš saldo), ali ne i za sigurnost (jer ne mogu trošiti vaša sredstva bez posedovanja privatnog ključa). Javni ključ se koristi za kreiranje Bitkoin adresa, i na taj način primanje novca.
 
 
-Ove adrese automatski kreira vaš Wallet i mogu se sigurno deliti. Da biste maksimalno zaštitili svoju privatnost, preporučljivo je da ih koristite samo jednom.
+Ove adrese automatski kreira vaš novčanik i mogu se sigurno deliti. Da biste maksimalno zaštitili svoju privatnost, preporučljivo je da ih koristite samo jednom.
 
 
 Ukratko, ova tehnologija nam omogućava da primamo bitkoine bez da primalac može ukrasti naša sredstva! Poštansko sanduče bi moglo biti prikladna metafora: ljudi mogu u njega ubaciti novac, ali samo vi možete da ga otvorite.
@@ -721,39 +721,39 @@ Ukratko, ova tehnologija nam omogućava da primamo bitkoine bez da primalac mož
 ![image](assets/en/27.webp)
 
 
-### Da li su bitkoini u Wallet?
+### Da li su bitkoini u novčaniku?
 
 
-Iako su vaši ključevi sačuvani u vašem Wallet, sami bitkoini su zapravo "sačuvani" u bitkoin Blockchain, što je javno distribuirani Ledger unutar bitkoin peer-to-peer mreže (o tome ćemo detaljnije govoriti u odeljku 3). To znači da gubitak uređaja koji sadrži vaš Wallet ne dovodi nužno do gubitka vaših bitkoina. Ono što vam omogućava da ponovo kreirate vaš Wallet i trošite vaš bitkoin je zapravo privatni ključ, zato ga uvek pravilno osigurajte!
+Iako su vaši ključevi sačuvani u vašem novčaniku, sami bitkoini su zapravo "sačuvani" u bitkoin Blockchain-u, što je javno distribuirani Ledger(registar) unutar Bitkoin peer-to-peer mreže (o tome ćemo detaljnije govoriti u odeljku 3). To znači da gubitak uređaja koji sadrži vaš novčanik ne dovodi nužno do gubitka vaših bitkoina. Ono što vam omogućava da ponovo kreirate vaš novčanik i trošite vaš bitkoin je zapravo privatni ključ, zato ga uvek pravilno osigurajte!
 
 
 ![image](assets/en/28.webp)
 
 
-Srećom, od 2017. godine, privatni ključ može biti predstavljen jednostavnom listom od 12 ili 24 reči, poznatom kao 'Mnemonic fraza, koje je prilično lako sačuvati. Ova fraza služi kao rezervna kopija za vaša sredstva i omogućava vam da ponovo kreirate vaš Wallet koristeći bilo koji bitkoin Wallet softver ili aplikaciju. Stoga, svako ko pronađe ovu listu reči može pristupiti vašim bitkoinima.
+Srećom, od 2017. godine, privatni ključ može biti predstavljen jednostavnom listom od 12 ili 24 reči, poznatom kao 'Mnemonic fraza, koje je prilično lako sačuvati. Ova fraza služi kao rezervna kopija za vaša sredstva i omogućava vam da ponovo kreirate vaš novčanik koristeći bilo koji Bitkoin softver ili aplikaciju. Stoga, svako ko pronađe ovu listu reči može pristupiti vašim bitkoinima.
 
 
 ### Šta je sa hakerima?
 
 
-Šta ako neko slučajno pogodi našu listu od 12 ili 24 reči? Kratak odgovor je da je to veoma malo verovatno, zahvaljujući kriptografiji koja se koristi za kreiranje Wallet. Da bismo to stavili u perspektivu, slučajno otkrivanje vaše iste Mnemonic fraze je slično pronalaženju "pravog" broja između 1 i 2 podignuto na stepen 256, što je gotovo ekvivalentno pronalaženju "pravog" atoma u Univerzumu. Međutim, ako niste zadovoljni ovom podrazumevanom sigurnošću, uvek je možete poboljšati dodavanjem passphrase (dodatne reči) vašem bitkoin Wallet.
+Šta ako neko slučajno pogodi našu listu od 12 ili 24 reči? Kratak odgovor je da je to veoma malo verovatno, zahvaljujući kriptografiji koja se koristi za kreiranje novčanika. Da bismo to stavili u perspektivu, slučajno otkrivanje vaše iste Mnemonic fraze je slično pronalaženju "pravog" broja između 1 i 2 podignuto na stepen 256, što je gotovo ekvivalentno pronalaženju "pravog" atoma u Univerzumu. Međutim, ako niste zadovoljni ovom podrazumevanom sigurnošću, uvek je možete poboljšati dodavanjem passphrase (dodatne reči) vašem bitkoin Wallet.
 
 
 ![image](assets/en/29.webp)
 
 
-Dakle, verovatnoća hakovanja vašeg bitkoin Wallet je astronomski niska ako pratite dobre bezbednosne prakse koje ćemo detaljno opisati u sledećem odeljku.
+Dakle, verovatnoća hakovanja vašeg Bitkoin novčanika je astronomski niska ako pratite dobre bezbednosne prakse koje ćemo detaljno opisati u sledećem odeljku.
 
 
-Imajte na umu da odaberete pravi Wallet za vaše potrebe i upotrebu: detaljni tutorijali o upravljanju i osiguravanju različitih novčanika dostupni su u [odeljku sa tutorijalima našeg univerziteta](https://planb.network/tutorials/Wallet).
+Imajte na umu da odaberete pravi novčanik za vaše potrebe i upotrebu: detaljni tutorijali o upravljanju i osiguravanju različitih novčanika dostupni su u [odeljku sa tutorijalima našeg univerziteta](https://planb.network/tutorials/Wallet).
 
 
-Ako, tokom vašeg putovanja niz zečju rupu, želite da saznate više o izgradnji bitkoin Wallet, od entropije do primanja adresa, preporučujemo CYP 201 kurs posvećen ovoj temi:
+Ako, tokom vašeg putovanja kroz zečju rupu, želite da saznate više o izgradnji bitkoin novčanika, od entropije do primanja adresa, preporučujemo CYP 201 kurs posvećen ovoj temi:
 
 
 https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
-## bitkoin Novčanici i sigurnost
+## Bitkoin Novčanici i sigurnost
 
 
 <chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>
@@ -767,8 +767,8 @@ Kada posedujete bitkoine, bezbednost vaših sredstava je glavna briga. Najbolji 
 
 
 - Ko može pristupiti vašim sredstvima? Drugim rečima, da li imate isključiv pristup vašim bitkoinima, ili vam treća strana (kao što je kompanija) omogućava pristup vašim sredstvima?
-- Kako planirate da koristite bitkoine u tom konkretnom Wallet? Redovno? Za srednjoročnu ili dugoročnu štednju?
-- Koje su tvoje tehničke veštine?
+- Kako planirate da koristite bitkoine u tom konkretnom novčaniku? Redovno? Za srednjoročnu ili dugoročnu štednju?
+- Koje su vaše tehničke veštine?
 - Koliki je vaš budžet za bezbednost?
 
 
@@ -778,30 +778,30 @@ Zapravo ne postoji univerzalni odgovor ili rešenje, zato odvojite vreme da odgo
 ![image](assets/en/30.webp)
 
 
-### Razmišljanje o bitkoin novčanicima u smislu složenosti
+### Razmišljanje o Bitkoin novčanicima u smislu složenosti
 
 
 Ovde dole, definisaćemo nekoliko nivoa bezbednosti:
 
 
 
-- Nivo 0**, koristite takozvanu "uslužnu službu" gde niste jedini vlasnik svojih bitkoina. Budite svesni da vam ova pouzdana treća strana može ograničiti pristup vašim sredstvima u bilo kom trenutku. U ovom slučaju, vaš nivo finansijskog suvereniteta je sličan onom u tradicionalnom bankarskom sistemu sa bankovnim računom.
+- **Nivo 0**, koristite takozvanu "uslužnu službu" gde niste jedini vlasnik svojih bitkoina. Budite svesni da vam ova pouzdana treća strana može ograničiti pristup vašim sredstvima u bilo kom trenutku. U ovom slučaju, vaš nivo finansijskog suvereniteta je sličan onom u tradicionalnom bankarskom sistemu sa bankovnim računom.
 
 
 ![image](assets/en/31.webp)
 
 
 
-- Level 1**, you use a bitkoin Wallet na vašem telefonu ili računaru, gde ste vi jedini vlasnik vaših bitkoina i možete lako obavljati vaše transakcije. Gorepomenuti alat se naziva "Hot Wallet", jer je privatni ključ sačuvan na uređaju sa pristupom internetu. U ovom slučaju, ključno je napraviti rezervnu kopiju vaše Mnemonic fraze kako biste ponovo dobili pristup vašim sredstvima u slučaju gubitka telefona ili računara.
+- **Nivo 1**, koristite Bitkoin novčanik na vašem telefonu ili računaru, gde ste vi jedini vlasnik vaših bitkoina i možete lako obavljati vaše transakcije. Gorepomenuti alat se naziva "Hot Wallet"(Vrući novčanik), jer je privatni ključ sačuvan na uređaju sa pristupom internetu. U ovom slučaju, ključno je napraviti rezervnu kopiju vaše Mnemonic fraze kako biste ponovo dobili pristup vašim sredstvima u slučaju gubitka telefona ili računara.
 
 
-Na primer, možete koristiti Sparrow Wallet kao Hot Wallet:
+Na primer, možete koristiti Sparrow novčanik kao Hot Wallet:
 
 
 https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 
-- Nivo 2**, koristite fizički Wallet, i obezbedili ste svoju listu od 12/24 reči. Često se naziva "Cold Wallet" jer su vaši ključevi pohranjeni na uređaju koji nije povezan na internet. U ovom slučaju, uvek ćete morati da potpisujete svaku transakciju sa svojim uređajem, što čini vaša sredstva manje dostupnim na dnevnoj bazi.
+- **Nivo 2**, koristite fizički novčanik, i obezbedili ste svoju listu od 12/24 reči. Često se naziva "Cold Wallet" (Hladni novčanik), jer su vaši ključevi pohranjeni na uređaju koji nije povezan na internet. U ovom slučaju, uvek ćete morati da potpisujete svaku transakciju sa svojim uređajem, što čini vaša sredstva manje dostupnim na dnevnoj bazi.
 
 
 Na primer, možete koristiti Ledger, Satochip ili Tapsigner:
@@ -817,10 +817,10 @@ https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 
 
 
-- Nivo 3**, koristite nivo 1 ili 2 Wallet, ali ste dodali dodatni passphrase. U ovom slučaju, budite svesni da treba da napravite rezervnu kopiju i liste od 12/24 reči **i** vašeg passphrase. Idealno bi bilo da ove dve informacije budu sačuvane na dva različita mesta.
+- **Nivo 3**, koristite novčanik nivoa 1 ili 2, ali ste dodali dodatni passphrase (lozinku). U ovom slučaju, budite svesni da treba da napravite rezervnu kopiju i liste od 12/24 reči **i** vašeg passphrase. Idealno bi bilo da ove dve informacije budu sačuvane na dva različita mesta.
 
 
-Da biste saznali više o upotrebi i funkcionisanju BIP39 passphrase:
+Da biste saznali više o upotrebi i funkcionisanju BIP39 passphrase (lozinke):
 
 
 https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
@@ -829,34 +829,34 @@ https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14
 
 
 
-- Nivo 4**, koristite skup novčanika za kreiranje "Multisig" Wallet, što znači da su potrebni višestruki potpisi za obavljanje transakcije. U ovom slučaju, budite svesni da svaki deo Multisig treba biti uskladišten na različitim lokacijama. Ovaj pristup se često smatra naprednom upotrebom bitkoin, prvenstveno za upravljanje velikim iznosima i za korporativne svrhe.
+- **Nivo 4**, koristite skup novčanika za kreiranje "Multisig" novčanik, što znači da su potrebni višestruki potpisi za obavljanje transakcije. U ovom slučaju, budite svesni da svaki deo Multisig treba biti uskladišten na različitim lokacijama. Ovaj pristup se često smatra naprednom upotrebom Bitkoina, prvenstveno za upravljanje velikim iznosima i za korporativne svrhe.
 
 
 ![image](assets/en/34.webp)
 
 
-Naravno, različiti slučajevi upotrebe takođe zahtevaju različite bitkoin novčanike, i ne postoji univerzalno rešenje.
+Naravno, različiti slučajevi upotrebe takođe zahtevaju različite Bitkoin novčanike, i ne postoji univerzalno rešenje.
 
 
 ### Bezbednost mora biti prilagođena
 
 
-Iznos koji je neko spreman da ostavi na određenom nivou sigurnosti zavisi od svake osobe. Za neke je ostavljanje 1 BTC na Hot Wallet razumno, dok je za druge suprotno. U svakom slučaju, kada želite da osigurate manji iznos, savetujemo da ne trošite previše na sigurnost kupovinom fizičkog Wallet. Osim toga, imajte na umu da prekomplikovanje sigurnosti i pristupačnosti vaših bitkoina može biti štetno, posebno ako loše rukujete rezervnim kopijama vaših novčanika.
+Iznos koji je neko spreman da ostavi na određenom nivou sigurnosti zavisi od svake osobe. Za neke je ostavljanje 1 BTC na "Hot Wallet-u" razumno, dok je za druge suprotno. U svakom slučaju, kada želite da osigurate manji iznos, savetujemo da ne trošite previše na sigurnost kupovinom fizičkog novčanika. Osim toga, imajte na umu da prekomplikovanje sigurnosti i pristupačnosti vaših bitkoina može biti štetno, posebno ako loše rukujete rezervnim kopijama vaših novčanika.
 
 
-U zaključku, direktno Ownership svojih bitkoina je suštinski element za osiguranje finansijskog suvereniteta. Preporučuje se korišćenje mobilnog Wallet za dnevne troškove i offline, ili "Cold," fizički Wallet za čuvanje većih iznosa. Poslovanja, s druge strane, treba da razmotre korišćenje sistema sa više potpisa, ili "Multisig," za povećanu i zajedničku sigurnost. Takođe je važno izbegavati usluge skrbništva, koje mogu replicirati neke ranjivosti tradicionalnog finansijskog sistema.
+U zaključku, direktno vlasništvo nad bitkoinima je ključni element za osiguranje finansijskog suvereniteta. Preporučuje se korišćenje mobilnog novčanika za dnevne troškove i offline, ili "Cold (hladnog)," fizičkog novčanika za čuvanje većih iznosa. Preduzeća, s druge strane, treba da razmotre korišćenje sistema sa više potpisa, ili "Multisig", za povećanu i zajedničku sigurnost. Takođe je važno izbegavati usluge skrbništva (gde ključeve čuva treća strana), koje mogu replicirati neke ranjivosti tradicionalnog finansijskog sistema.
 
 
-Imajući ovo na umu, sada možemo preći na sledeći deo gde opisujemo kako kreirati bitkoin Wallet. Međutim, ako želite dalje istražiti temu bezbednosti, možete pročitati ovaj [članak od DarthCoin](https://asi0.substack.com/p/bitkoin-soyez-votre-propre-banque).
+Imajući ovo na umu, sada možemo preći na sledeći deo gde opisujemo kako kreirati Bitkoin novčanik. Međutim, ako želite dalje istražiti temu bezbednosti, možete pročitati ovaj [članak od DarthCoin](https://asi0.substack.com/p/bitkoin-soyez-votre-propre-banque).
 
 
-## Postavljanje Wallet
+## Podešavanje Novčanika
 
 
 <chapterId>615519eb-4565-557d-86a0-021badf7616f</chapterId>
 
 
-Bezbednost vaših bitkoina ima presudnu važnost, i jednostavna greška može imati katastrofalne posledice. Zato moramo naučiti najbolje prakse koje treba usvojiti prilikom kreiranja novog bitkoin Wallet.
+Bezbednost vaših bitkoina je od presudnog značaja, i jednostavna greška može imati katastrofalne posledice. Zato moramo naučiti najbolje prakse koje treba usvojiti prilikom kreiranja novog Bitkoin novčanika.
 
 
 Imajte na umu da će vas kurs BTC102 voditi kroz ovaj korak.
@@ -867,49 +867,49 @@ https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 ### Ovaj korak nije šala!
 
 
-Kada postavljate Wallet, softver obično kreira vaš privatni ključ, koji je obično predstavljen listom od 12/24 reči (često nazvan "seed fraza" ili "Mnemonic fraza"): ove reči predstavljaju pristup vašim sredstvima. Ako ovaj ključ ikada bude otkriven trećoj strani, trebalo bi da smatrate da su povezana sredstva kompromitovana. Stoga, kada postavljate vaš Wallet, neophodno je da pratite ova pravila:
+Kada podešavate novčanik, softver obično kreira vaš privatni ključ, koji je obično predstavljen listom od 12/24 reči (često nazvan "seed fraza" ili "Mnemonic fraza"): ove reči predstavljaju pristup vašim sredstvima. Ako ovaj ključ ikada bude otkriven trećoj strani, trebalo bi da smatrate da su povezana sredstva kompromitovana. Stoga, kada posešavate vaš novčanik, neophodno je da pratite ova pravila:
 
 
 
-- Pokrij sve kamere.
+- Pokrijte sve kamere.
 - Nemojte fotografisati spisak reči.
-- Ne unosite to na računar ili telefon.
-- Nemojte ga sačuvati kao kontakt ili poslati sebi putem SMS-a.
-- Nikada ne ostavljaj svoje reči bez nadzora na stolu.
-- Nikada ne skrivaj svoju listu reči na neobičnom mestu.
+- Ne unosite reči na računar ili telefon.
+- Nemojte ih sačuvati kao kontakt ili poslati sebi putem SMS-a.
+- Nikada ne ostavljajte svoje reči bez nadzora na stolu.
+- Nikada ne skrivajte svoju listu reči na neobičnom mestu.
 
 
 Treba bukvalno da uzmete prazan list papira ili da odštampate ovaj [šablon](https://bitkoiner.guide/backup.pdf), i da napišete listu reči olovkom, prateći predstavljeni redosled uredno i jasno. Budite svesni da ako mastilo izblede tokom vremena, možete izgubiti svoja sredstva. Stoga je važno da ovaj papir zaštitite od onih faktora iz okoline koji bi ga mogli potencijalno oštetiti, kao što su vlaga ili vatra.
 
 
-Molimo pronađite primer kako sastaviti rad ispod: reči su lažne, zato ih nemojte koristiti!
+Evo primera kako da sastavite papir: reči su lažne, zato ih nemojte koristiti!
 
 
 ![image](assets/en/35.webp)
 
 
-### Naši saveti kako to uraditi kako treba
+### Naši saveti za pravilno postupanje
 
 
-Obavezno pazite da ne napravite greške dok jasno i čitko prepisujete frazu Mnemonic, inače bi vaši naslednici mogli imati poteškoća da je pročitaju i možda neće moći da povrate sredstva. Kada sačuvate reči, preporučljivo je napraviti drugu kopiju i čuvati je na drugom mestu od prve. Ovo osigurava da imate rezervnu kopiju u slučaju da se original izgubi ili ošteti.
+Obavezno pazite da ne napravite greške dok jasno i čitko prepisujete Mnemonic frazu , inače bi vaši naslednici mogli imati poteškoća da je pročitaju i možda neće moći da povrate sredstva. Kada sačuvate reči, preporučljivo je napraviti drugu kopiju i čuvati je na drugom mestu od prve. Ovo osigurava da imate rezervnu kopiju u slučaju da se original izgubi ili ošteti.
 
 
 ![image](assets/en/36.webp)
 
 
-Reči liste treba čuvati na sigurnom mestu koje možete lako zapamtiti. Izbegavajte kreiranje previše komplikovanih planova skrivanja koji bi mogli dovesti do njihovog gubitka.
+Liste reči treba čuvati na sigurnom mestu koje možete lako zapamtiti. Izbegavajte kreiranje previše komplikovanih planova skrivanja koji bi mogli dovesti do njihovog gubitka.
 
 
 **Tvoje reči = tvoj novac.**
 
 
-I 'Cold' i 'Hot' novčanici koriste metodu liste reči kao standard za bekap privatnih ključeva. Kao rezultat, možete uneti svoju Mnemonic frazu u bilo koji kompatibilni Wallet softver ili uređaj da biste povratili pristup. S druge strane, snažno savetujemo protiv korišćenja novčanika koji ne pružaju seed frazu, jer mogu zahtevati da navedete nalog, email Address, ili, još gore, ID.
+I 'Cold'(hladni) i 'Hot'(vrući) novčanici koriste metodu liste reči kao standard za bekap privatnih ključeva. Kao rezultat, možete uneti svoju Mnemonic frazu u bilo koji kompatibilni softver ili uređaj da biste povratili pristup. S druge strane, snažno savetujemo da ne koristite novčanike koji ne pružaju seed frazu, jer mogu zahtevati da navedete nalog, email adresu, ili, još gore, ID (identifikaciju).
 
 
 **PAŽNJA: Odsustvo liste od 12/24 reči treba da vas upozori.**
 
 
-Ako želite da otkrijete, korak po korak, kako da postavite svoj sopstveni Wallet i dobijete svoje prve bitkoine, preporučujemo da pohađate ovaj drugi kurs:
+Ako želite da otkrijete, korak po korak, kako da podesite svoj sopstveni novčanik i dobijete svoje prve bitkoine, preporučujemo da pohađate ovaj drugi kurs:
 
 
 https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
@@ -920,7 +920,7 @@ https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 <chapterId>f58cd446-c202-5eff-aab7-e61cc40e5c06</chapterId>
 
 
-Kao i svaki oblik bogatstva, vaši bitkoini moraju biti zaštićeni od gubitka, krađe i degradacije, posebno na duži rok. Zaštita vaših bitkoina zahteva određeno tehničko znanje i razumevanje povezanih rizika, što otvara put ka dve glavne strategije: graviranje vaših bitkoina na čeličnu ploču i uspostavljanje plana nasledstva.
+Kao i svaki oblik bogatstva, vaši bitkoini moraju biti zaštićeni od gubitka, krađe i degradacije, posebno na duži rok. Zaštita vaših bitkoina zahteva određeno tehničko znanje i razumevanje povezanih rizika, što otvara put ka dve glavne strategije: graviranje vaših reči na čeličnu ploču i uspostavljanje plana nasledstva.
 
 
 ### Graviranje u čeliku
@@ -935,7 +935,7 @@ Različita rešenja su dostupna: neka od njih su niskobudžetna, kao što je "Bl
 ![image](assets/en/37.webp)
 
 
-### Razmišljaj o sledećoj generaciji!
+### Razmišljajte o sledećoj generaciji!
 
 
 Uporedo sa ovom prvom praksom, kreiranje plana nasledstva je ključni korak kako biste osigurali da su vaši bitkoini pravilno upravljani nakon vaše smrti. Ovaj plan uključuje pisanje pisma rukom u kojem navodite prirodu vaše imovine, metode pristupa i kontakt informacije poverljivih osoba koje su odgovorne za njih. Takođe je važno razgovarati o nasledstvu bitkoina sa računovođom i/ili advokatom za imovinska pitanja kako biste osigurali usklađenost sa porezima, čak i ako ovoj osobi nikada ne bi trebalo direktno poveriti upravljanje vašim bitkoinima.
@@ -953,16 +953,16 @@ Ako želite dalje istražiti temu plana nasleđivanja za vaše bitkoine, preporu
 Pored kreiranja fizičkih rezervnih kopija i razvijanja plana nasleđivanja, privatnost je još jedna važna tema kada je u pitanju dugoročna sigurnost vaših bitkoina. Na primer, poželjno je kupovati bitkoine bez pružanja identifikacije kako bi se minimizirali rizici od krađe identiteta ili praćenja vaših sredstava od strane onih entiteta koji imaju odgovarajuće alate.
 
 
-Što se tiče privatnosti, ključno je izbegavati razgovor sa bilo kim o vašim bitkoinima. Ne možemo predvideti kako će ova tehnologija biti percipirana u budućnosti, tako da je održavanje diskrecije o vašem Ownership pametan izbor: ne želite da privučete pažnju na sebe ili vaš Wallet.
+Što se tiče privatnosti, ključno je izbegavati razgovor sa bilo kim o vašim bitkoinima. Ne možemo predvideti kako će ova tehnologija biti percipirana u budućnosti, tako da je održavanje diskrecije o vašem vlasništvu pametan izbor: ne želite da privučete pažnju na sebe ili vaš novčanik.
 
 
 Slično tome, izbegavajte otvoreno deljenje detalja o vašem sigurnosnom sistemu tokom bitkoin sastanaka ili susreta sa strancima...
 
 
-### Rezime o bitkoin Wallet Sigurnosti
+### Rezime o bezbednosti bitkoin novčanika
 
 
-Novčanici bitkoin omogućavaju vam pristup bitkoinima i obavljanje transakcija. Postoji nekoliko tipova:
+Bitkoin novčanici omogućavaju vam pristup bitkoinima i obavljanje transakcija. Postoji nekoliko tipova:
 
 
 
@@ -971,28 +971,28 @@ Novčanici bitkoin omogućavaju vam pristup bitkoinima i obavljanje transakcija.
 - Multisig novčanici, koji su složeniji za upravljanje i zahtevaju više potpisa za obavljanje transakcija.
 
 
-Kada kreirate Wallet, izuzetno je važno da prvo napravite rezervnu kopiju vaše liste od 12 ili 24 reči na papiru ili metalnoj ploči. Ova takozvana Mnemonic fraza omogućava vam da obnovite vaš Wallet putem bilo koje bitkoin Wallet aplikacije. Budite svesni da svako ko dobije pristup ovoj listi takođe dobija pristup vašim sredstvima.
+Kada kreirate novčanik, izuzetno je važno da prvo napravite rezervnu kopiju vaše liste od 12 ili 24 reči na papiru ili metalnoj ploči. Ova takozvana Mnemonic fraza omogućava vam da obnovite vaš novčanik putem bilo koje bitkoin aplikacije za novčanike. Budite svesni da svako ko dobije pristup ovoj listi takođe dobija pristup vašim sredstvima.
 
 
-U svetu bitkoin, finansijski suverenitet je usko povezan sa individualnom odgovornošću, što čini neophodnim obezbeđivanje pristupa vašim novčanicima i rezervnim kopijama. Da biste to postigli, važno je pratiti određene smernice:
+U svetu Bitkoina, finansijski suverenitet je usko povezan sa individualnom odgovornošću, što čini neophodnim obezbeđivanje pristupa vašim novčanicima i rezervnim kopijama. Da biste to postigli, važno je pratiti određene smernice:
 
 
 
 - Kreirajte plan nasleđivanja kako biste osigurali da vaši voljeni mogu preuzeti novac u slučaju bilo kakvog problema.
-- Izbegavajte ostavljanje svojih bitkoina na Exchange platformama jer mogu biti podložne hakerskim napadima.
-- Prilagodite nivo bezbednosti svojim potrebama i slučajevima upotrebe, kako biste dobro izabrali među mnogim različitim bitkoin novčanicima dostupnim.
+- Izbegavajte ostavljanje svojih bitkoina na menjačnicama (platformama) jer mogu biti podložne hakerskim napadima.
+- Prilagodite nivo bezbednosti svojim potrebama i slučajevima upotrebe, kako biste dobro izabrali među mnogim različitim Bitkoin novčanicima dostupnim.
 
 
-Sada kada smo pokrili osnove bitkoin novčanika i najbolje prakse za njihovo osiguranje, u sledećem poglavlju ćemo istražiti tehničke karakteristike bitkoin. Još jednom, razumevanje osnova bitkoin protokola će poboljšati vaše razumevanje kako funkcioniše, omogućavajući vam da ga bolje koristite.
+Sada kada smo pokrili osnove Bitkoin novčanika i najbolje prakse za njihovu zaštitu, u sledećem poglavlju ćemo istražiti tehničke karakteristike Bitkoina. Još jednom, razumevanje osnova Bitkoin protokola će poboljšati vaše razumevanje kako funkcioniše, omogućavajući vam da ga bolje koristite.
 
 
-# Tehnički aspekti bitkoin.
+# Tehnički aspekti Bitkoina.
 
 
 <partId>a86d7439-e7a2-5f21-b1e9-6b5e23ca265b</partId>
 
 
-## Pokretanje bitkoin
+## Pokretanje Bitkoin
 
 
 <chapterId>b7561082-8943-519d-95d1-a5f60dd2686d</chapterId>

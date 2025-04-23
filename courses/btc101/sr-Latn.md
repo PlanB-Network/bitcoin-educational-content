@@ -1,6 +1,6 @@
 ---
-name: Putovanje Bitcoin
-goal: Otkrijte osnove Bitcoin, uključujući njegovu novčanu vrednost, rudare, transakcije i novčanike.
+name: Putovanje Bitkoina
+goal: Otkrijte osnove Bitkoina, uključujući njegovu novčanu vrednost, rudarenje, transakcije i novčanike.
 objectives: 
 
   - Steknite opšte razumevanje Bitcoin tehnologije

@@ -335,7 +335,7 @@ Opierając się na spostrzeżeniach dotyczących subiektywnej wartości porządk
 Kolejne rozdziały będą poświęcone pojawieniu się pieniądza jako instytucji społecznej, teorii kapitału i odsetek, która posłuży jako podstawa teorii cyklu koniunkturalnego, i wreszcie roli cen w obliczeniach ekonomicznych.
 
 
-## Pojawienie się pieniądza jako zjawiska społecznego
+## Pojawienie się pieniądza jako zjawisko społeczne
 
 
 <chapterId>14ded794-0578-5478-ba5b-b2106c74f3ef</chapterId>
@@ -472,7 +472,7 @@ Ostatni rozdział zakończyliśmy wyjaśnieniem, w jaki sposób podmioty gospoda
 Albo inaczej: jako istoty ludzkie zaniżamy wartość przyszłych dóbr.
 
 
-Ta subiektywna ocena wartości dóbr przyszłych w porównaniu z dobrami teraźniejszymi określana jest mianem preferencji czasowej. Przy założeniu, że wszystko inne jest równe, dobra teraźniejsze są z natury preferowane w stosunku do dóbr przyszłych. Ponieważ jesteśmy śmiertelni, a przyszłość jest zawsze niepewna, naturalnie wolimy mieć dostęp do danego dobra teraz niż później. Chociaż preferencje czasowe mogą różnić się między poszczególnymi osobami ze względu na niezliczone czynniki, takie jak kultura, zamożność, wykształcenie, fizjologia itp., preferencje czasowe są zawsze dodatnie, co oznacza, że jesli wszystkie czynniki są równe, zawsze cenimy dobra teraźniejsze bardziej niż przyszłe.
+Ta subiektywna ocena wartości dóbr przyszłych w porównaniu z dobrami teraźniejszymi określana jest mianem preferencji czasowej. Przy założeniu, że wszystko inne jest równoważne, dobra teraźniejsze są z natury bardziej preferowane niż dobra w przyszłości. Ponieważ jesteśmy śmiertelni, a przyszłość jest zawsze niepewna, naturalnie wolimy mieć dostęp do danego dobra teraz niż później. Chociaż preferencje czasowe mogą różnić się między poszczególnymi osobami ze względu na niezliczone czynniki, takie jak kultura, zamożność, wykształcenie, fizjologia itp., preferencje czasowe są zawsze dodatnie, co oznacza, że jesli wszystkie czynniki są równoważne, zawsze cenimy dobra teraźniejsze bardziej niż przyszłe.
 
 
 Ta koncepcja względnej wyceny dóbr przyszłych w stosunku do dóbr teraźniejszych leży u podstaw zjawiska odsetek. Rzeczywiście, w gospodarce z niezmanipulowanymi rynkami kapitałowymi referencyjne stopy procentowe (uważane za wolne od ryzyka niewypłacalności) są określane na przecięciu kapitału podaży i popytu. W związku z tym stopy te reprezentują stan preferencji czasowych dla całej gospodarki: wzrost stopy procentowej wynika ze względnego wzrostu popytu na kapitał w porównaniu do podaży, co wskazuje na dłuższe preferencje czasowe. I odwrotnie, spadek stóp procentowych wynika ze wzrostu oszczędności, co oznacza wzrost podaży kapitału, wskazując na zmniejszenie preferencji czasowych.
@@ -481,7 +481,7 @@ Ta koncepcja względnej wyceny dóbr przyszłych w stosunku do dóbr teraźniejs
 ![image](assets/en/12.webp)
 
 
-W gospodarce, w której stopy procentowe nie są manipulowane przez bank centralny, mamy tendencję do obserwowania krzywej dochodowości nachylonej w górę: im dłuższy termin zapadalności długu, tym wyższa stopa procentowa. Odwrotna sytuacja nie może mieć miejsca, ponieważ oznaczałoby to, że przyszłość jest bardziej pewna niż teraźniejszość, co jest logiczną niemożliwością.
+W gospodarce, w której bank centralny nie malipuluje stopami procentowymi, mamy tendencję do obserwowania krzywej dochodowości nachylonej w górę: im dłuższy termin zapadalności długu, tym wyższa stopa procentowa. Odwrotna sytuacja nie może mieć miejsca, ponieważ oznaczałoby to, że przyszłość jest bardziej pewna niż teraźniejszość, co jest logiczną niemożliwością.
 
 
 Koncepcja preferencji czasowej i sposób, w jaki wyrażamy własne preferencje czasowe poprzez konsumpcję i oszczędzanie, ma fundamentalne znaczenie dla procesów alokacji kapitału i produkcji. Zwróćmy się do ucznia Mengera, Eugena von Böhm-Bawerka, i jego teorii kapitału, aby dokładnie zrozumieć, w jaki sposób preferencje czasowe wpływają na organizację produkcji.

@@ -1,0 +1,12 @@
+question: Kako korisnici prenose Ownership svog novca u Bitcoin mreži?
+answer: Digitalnim potpisivanjem transakcija svojim privatnim ključevima.
+wrong_answers:
+  - Fizičkim predavanjem svojih Bitcoina.
+  - Slanjem e-pošte primaocu.
+  - Pružanjem njihovog Bitcoin Address primaocu.
+explanation: |
+  Korisnici u mreži Bitcoin prenose Ownership svog
+  novca digitalnim potpisivanjem transakcija svojim privatnim
+  ključevima. Ovo potvrđuje da su oni vlasnici
+  bitcoina koje žele preneti.
+reviewed: true

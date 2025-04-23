@@ -1,0 +1,9 @@
+question: Koja je glavna karakteristika kriptografske Hash funkcije?
+answer: Generi izlaz fiksne dužine za bilo koji ulaz, bez obzira na njegovu veličinu.
+wrong_answers:
+  - Šifruje podatke koristeći simetrični ključ.
+  - Proizvodi promenljiv izlaz u zavisnosti od dužine unosa.
+  - Dešifruje poruke koristeći javni ključ.
+explanation: |
+  Funkcija Hash generiše Hash fiksne dužine, bez obzira na veličinu ulaza.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Koliko je iznosila inflacija u Zimbabveu u novembru 2008?
+answer: 79,600,000,000%
+wrong_answers:
+  - 796%
+  - 79.600.000.000.000.000%
+  - 100%
+explanation: |
+  U novembru 2008. godine, mesečna stopa inflacije zimbabveanske valute dostigla je vrhunac od 79.600.000.000%, što je srozalo vrednost zimbabveanskog dolara na 0.
+reviewed: true

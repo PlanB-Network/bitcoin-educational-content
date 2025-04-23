@@ -1,0 +1,9 @@
+question: Koji je istorijski put koji su institucije sledile uvođenjem fiat valuta?
+answer: Lideri centralizuju zlato i uvode novu valutu ekvivalentnu zlatu po vrednosti, koja se zatim postepeno devalvira.
+wrong_answers:
+  - Lideri uvode novu valutu podržanu zlatom, koja se zatim postepeno povećava u vrednosti.
+  - Lideri uvode novu valutu bez unutrašnje vrednosti, koja se zatim postepeno povećava u vrednosti.
+  - Lideri uvode novu valutu podržanu korpom roba, koja se zatim održava stabilnom u vrednosti.
+explanation: |
+  Istorijski gledano, lideri su centralizovali zlato i uveli novu valutu ekvivalentnu vrednosti zlata. Ova nova valuta se zatim postepeno devalvira, često pod izgovorom da je to u interesu naroda.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Koja je bila definicija imovine na latinskom prema Rimljanima?
+answer: Jus utendi et abutendi
+wrong_answers:
+  - Lex specialis derogat legi generali
+  - Javna korist ima prednost nad privatnim ugovorima
+  - Res publica et privatus separanda est
+explanation: |
+  U rimskom pravu, jus utendi et abutendi definiše vlasništvo kao pravo korišćenja i zloupotrebe, naglašavajući upotrebu bez ulaska u njene uzroke.
+reviewed: false

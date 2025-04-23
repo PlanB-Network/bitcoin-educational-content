@@ -1,0 +1,9 @@
+question: Koja je definicija inflacije prema Robertu?
+answer: Inflacija je prekomerno povećanje platnih instrumenata koje uzrokuje rast cena i devalvaciju valute.
+wrong_answers:
+  - Inflacija je smanjenje platnih instrumenata koje uzrokuje rast cena i devalvaciju valute.
+  - Inflacija je prekomerno povećanje platnih instrumenata što uzrokuje pad cena i devalvaciju valute.
+  - Inflacija je prekomerno povećanje platnih instrumenata koje uzrokuje rast cena i aprecijaciju valute.
+explanation: |
+  Prema Robertu, inflacija se definiše kao prekomerno povećanje instrumenata plaćanja (novčanice, kapital) što uzrokuje rast cena i deprecijaciju valute.
+reviewed: false

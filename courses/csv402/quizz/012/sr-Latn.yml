@@ -1,0 +1,9 @@
+question: Šta je Assignment u RGB protokolu?
+answer: Izlaz koji modifikuje, ažurira ili kreira svojstva u stanju Contract
+wrong_answers:
+  - Jedinstveni kriptografski Commitment sačuvan u Bitcoin transakciji
+  - Delimično potpisana transakcija Bitcoin pre konačne validacije
+  - Javna ažuriranja Global State
+explanation: |
+  Assignment kombinuje Seal Definition i Owned State da predstavlja dodeljeni deo države.
+reviewed: false

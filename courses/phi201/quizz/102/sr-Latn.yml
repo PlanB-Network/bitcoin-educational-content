@@ -1,0 +1,9 @@
+question: Kakva je austrijska kritika Marksove teorije vrednosti rada?
+answer: Austrijanci tvrde da je vrednost subjektivna i određena potrošačkim preferencijama, a ne radom.
+wrong_answers:
+  - Oni tvrde da Marksova teorija ne uzima u obzir težinu rada.
+  - Austrijanci kritikuju Marksovu teoriju jer je neefikasna.
+  - Austrijanci kritikuju Marksovu teoriju jer je radna vrednost buržoaska vrlina.
+explanation: |
+  Austrijska škola tvrdi da je vrednost subjektivna, definisana individualnim preferencijama potrošača, za razliku od marksističke teorije koja vrednost povezuje sa vremenom i trudom uloženim u rad.
+reviewed: false

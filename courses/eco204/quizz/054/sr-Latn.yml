@@ -1,0 +1,9 @@
+question: Koji je zvanični prag da bi se zemlja smatrala u hiperinflaciji?
+answer: 50% mesečno
+wrong_answers:
+  - 10% po mesecu
+  - 25% mesečno
+  - 75% mesečno
+explanation: |
+  Godine 2007, inflacija u Zimbabveu dostigla je prag od 50% mesečno, zvanično označavajući zemlju kao onu koja je u hiperinflaciji.
+reviewed: false

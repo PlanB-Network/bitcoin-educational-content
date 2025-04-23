@@ -1,0 +1,9 @@
+question: Koja je uloga post-mix Wallet u Zerolink protokolu?
+answer: Da se skladište UTXO-i nakon mešanja.
+wrong_answers:
+  - Da se UTXO-ovi sačuvaju pre mešanja.
+  - Da se čuvaju promenjeni UTXO-ovi.
+  - Da se skladište konsolidacioni UTXO-ovi.
+explanation: |
+  Post-mix Wallet je rezervisan za kovanice koje su bile mešane.
+reviewed: false

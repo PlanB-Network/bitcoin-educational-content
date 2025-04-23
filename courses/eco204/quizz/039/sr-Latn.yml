@@ -1,0 +1,9 @@
+question: Kakav je uticaj hiperinflacije na vrednost novca?
+answer: To uzrokuje da novac brzo izgubi svoju vrednost.
+wrong_answers:
+  - To uzrokuje da novac dobija na vrednosti.
+  - To nema uticaja na vrednost novca.
+  - To uzrokuje da vrednost novca nepredvidivo fluktuira.
+explanation: |
+  U periodu hiperinflacije, novac brzo gubi svoju vrednost, što otežava dugoročno planiranje.
+reviewed: false

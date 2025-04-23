@@ -1,0 +1,9 @@
+question: Koji je proces koji verifikuje transakcije na Bitcoin mreži?
+answer: Mining
+wrong_answers:
+  - Kopanje
+  - Žetva
+  - Poljoprivreda
+explanation: |
+  Proces koji verifikuje transakcije na Bitcoin mreži naziva se Mining. Rudari obavljaju kriptografski zadatak i nagrađuju se izdavanjem novih bitkoina.
+reviewed: true

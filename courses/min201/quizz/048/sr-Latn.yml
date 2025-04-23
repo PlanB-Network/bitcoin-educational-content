@@ -1,0 +1,12 @@
+question: Koji je jedinstven način da se uključite u Bitcoin ekosistem putem Mining?
+answer: Mining Bitcoin u zimskom periodu može biti pametan način da zagrejete svoj dom dok generišete prihod u Bitcoin.
+wrong_answers:
+  - Mining Bitcoin može biti način da se dobije besplatna struja.
+  - Mining Bitcoin može biti način da se dobije besplatan internet.
+  - Mining Bitcoin može biti način da se dobije besplatan hardver.
+explanation: |
+  Jedinstven način da se uključite u ekosistem Bitcoin
+  kroz Mining je Mining Bitcoin zimi. Ovo može
+  biti pametan način da zagrejete svoj dom dok generišete prihod
+  u Bitcoin.
+reviewed: true

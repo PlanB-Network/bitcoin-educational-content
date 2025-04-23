@@ -1,0 +1,9 @@
+question: U CAP trilemi, kakav je kompromis između validacije na strani korisnika i dostupnosti?
+answer: Svaki učesnik mora čuvati relevantne podatke lokalno
+wrong_answers:
+  - Podaci su javni i automatski replicirani globalno
+  - Doslednost žrtvovana za dostupnost
+  - Prelazi stanja su uvek objavljeni na Lightning
+explanation: |
+  U Client-side Validation, globalna dostupnost nije zagarantovana, jer učesnici moraju sami upravljati svojim podacima.
+reviewed: false

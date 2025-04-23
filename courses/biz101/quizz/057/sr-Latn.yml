@@ -1,0 +1,9 @@
+question: Zašto je važno pratiti fiat vrednost u trenutku svake Bitcoin transakcije?
+answer: Da bi se osigurala tačna knjigovodstvena evidencija i poreska usklađenost
+wrong_answers:
+  - Da biste automatski povećali Wallet saldo
+  - Da biste omogućili trgovanje na tržištu u realnom vremenu direktno sa Wallet
+  - Da bi se smanjile naknade za transakcije koje nameće mreža
+explanation: |
+  Praćenje fiat vrednosti pomaže preduzećima da upravljaju knjigovodstvom uz promene cena Bitcoin.
+reviewed: false

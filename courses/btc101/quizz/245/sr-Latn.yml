@@ -1,0 +1,8 @@
+question: Koja je jedna potencijalna implikacija napretka AI tehnologija?
+answer: AI tehnologije će dovesti do nestanka preko 80% današnjih poslova.
+wrong_answers:
+  - AI tehnologije će uništiti sve računare.
+  - AI tehnologije će dovesti do smanjenja ljudske inteligencije.
+  - AI tehnologije će izazvati globalni ekonomski kolaps.
+explanation: >-
+reviewed: true

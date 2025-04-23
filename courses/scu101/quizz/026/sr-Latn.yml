@@ -1,0 +1,9 @@
+question: Da li Linux i Mac često trebaju antivirus?
+answer: Ovo je netačno
+wrong_answers:
+  - Ovo je tačno
+  - Samo Linuxu je potreban antivirus.
+  - Samo Mac treba antivirus.
+explanation: |
+  Linux i Mac, zahvaljujući svom sistemu razdvajanja korisničkih prava, često ne trebaju antivirus.
+reviewed: true

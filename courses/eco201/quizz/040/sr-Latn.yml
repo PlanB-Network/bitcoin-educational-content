@@ -1,0 +1,9 @@
+question: Koje su eventualne posledice smanjenja kamatnih stopa usled povećanja kredita prema Austrijskoj teoriji poslovnog ciklusa?
+answer: Ekonomija ulazi u recesiju; cene imovine padaju, realne plate opadaju, potrošačke cene padaju, a zalihe se gomilaju.
+wrong_answers:
+  - Ekonomija ulazi u procvat; cene imovine rastu, realne plate se povećavaju, potrošačke cene rastu, a zalihe se smanjuju.
+  - Ekonomija ulazi u stagnaciju; cene imovine ostaju iste, realne plate ostaju iste, potrošačke cene ostaju iste, a zalihe ostaju iste.
+  - Ekonomija ulazi u deflaciju; cene imovine padaju, realne plate rastu, potrošačke cene padaju, a zalihe rastu.
+explanation: |
+  Prema Austrijskoj teoriji poslovnog ciklusa, kada dođe do smanjenja kamatnih stopa usled povećanja kredita, ekonomija ulazi u recesiju; cene imovine padaju, realne plate opadaju, potrošačke cene padaju, a zalihe se gomilaju. To je zato što smanjenje kamatnih stopa dovodi do pogrešne alokacije kapitala, što na kraju rezultira recesijom.
+reviewed: true

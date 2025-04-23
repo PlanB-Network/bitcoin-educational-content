@@ -1,0 +1,11 @@
+question: Koja je krajnja vizija za Bitcoin prema metafori autoputa Bitcoin?
+answer: Postaće autoput za internet saobraćaj i za 90% svetske populacije.
+wrong_answers:
+  - Postaće luksuzna roba dostupna samo bogatima.
+  - Postaće alat za ilegalne aktivnosti.
+  - Postaće zastarelo i biće zamenjeno drugim kriptovalutama.
+explanation: |
+  Metafora autoputa Bitcoin predviđa da Bitcoin postane autoput za
+  internet saobraćaj i za 90% svetske populacije, sa robom i uslugama
+  direktno dostupnim na ovom autoputu.
+reviewed: false

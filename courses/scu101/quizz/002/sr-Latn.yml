@@ -1,0 +1,9 @@
+question: Zašto se preporučuje preuzimanje softvera sa zvanične veb stranice izdavača umesto sa generičkih sajtova?
+answer: Da bi se osiguralo da softver nije zaražen zlonamernim softverom.
+wrong_answers:
+  - Da finansijski podržite izdavača.
+  - Zato što je softver obično jeftiniji na zvaničnom sajtu.
+  - Zato što je softver na generičkim sajtovima obično zastareo.
+explanation: |
+  Preuzimanje softvera sa zvanične veb stranice izdavača osigurava da dobijate legitimnu verziju softvera, koja je bez zlonamernog softvera koji bi mogao naštetiti vašem uređaju ili ukrasti vaše podatke.
+reviewed: true

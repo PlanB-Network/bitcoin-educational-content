@@ -1,0 +1,9 @@
+question: Koji je tačan redosled operacija u autentifikovanoj enkripciji?
+answer: Prvo šifrujte, zatim kreirajte oznaku na šifrovanom tekstu.
+wrong_answers:
+  - Prvo kreirajte oznaku, zatim šifrujte poruku i oznaku
+  - Kombinujte običan tekst sa oznakom, a zatim šifrujte.
+  - Kreiraj oznaku, zatim koristi javni ključ za njeno šifrovanje.
+explanation: |
+  Da bi se osigurala bezbednost, autentifikovano šifrovanje mora prvo da šifruje poruku, a zatim generate oznaku na šifrovanom tekstu. Drugi redosledi su potencijalno ranjivi.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Koji je glavni cilj integracije RGB u Lightning Network?
+answer: Prenesi RGB sredstva putem off-chain kanala
+wrong_answers:
+  - Izvršavanje RGB ugovora direktno na Bitcoin Blockchain
+  - Zamenite konvencionalne Lightning transakcije sa RGB pametnim ugovorima
+  - Povećajte kapacitet kanala dodavanjem novih UTXO-a
+explanation: |
+  RGB integrisan u Lightning Network omogućava da se RGB sredstva premeste putem prelaza stanja ugrađenih u Commitment transakcije, dok ostaju off-chain.
+reviewed: false

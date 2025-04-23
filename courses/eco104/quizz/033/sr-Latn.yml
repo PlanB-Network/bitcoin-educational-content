@@ -1,0 +1,9 @@
+question: Koja je jedna prednost centralizovanih stabilnih kovanica uprkos njihovoj sposobnosti zamrzavanja sredstava?
+answer: Oni mogu brzo reagovati kako bi zaštitili korisnike u određenim situacijama.
+wrong_answers:
+  - Oni nude potpunu decentralizaciju i sigurnost
+  - Oni nisu podložni nikakvim propisima ili intervencijama
+  - Oni rade nezavisno od organa za sprovođenje zakona
+explanation: |
+  Centralizovane stabilne kovanice imaju sposobnost da intervenišu kada je to u najboljem interesu korisnika i ukupne stabilnosti sistema, kao što su pokazali primeri gde su zamrznuta sredstva korišćena za zaštitu potrošača i sprečavanje hakera da profitiraju.
+reviewed: true

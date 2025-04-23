@@ -1,0 +1,9 @@
+question: Ko je Bernard von NotHaus stvorio 1998. godine valutu zasnovanu na zlatu i srebru?
+answer: Liberty Dollar
+wrong_answers:
+  - Liberty Reserve
+  - e-gold
+  - GoldMoney
+explanation: |
+  Ova valuta je bila dostupna u obliku srebrnih kovanica i reprezentativnih novčanica, a zatim u digitalnom obliku počevši od 2003.
+reviewed: false

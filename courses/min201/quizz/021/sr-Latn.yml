@@ -1,0 +1,13 @@
+question: Koji je ekonomski podsticaj za korišćenje Bitcoin Miner umesto jednostavnog električnog grejača?
+answer: Miner ne samo da pruža toplotu već i nagradu Bitcoin.
+wrong_answers:
+  - Miner koristi manje električne energije od običnog električnog grejača.
+  - Miner proizvodi više toplote nego jednostavan električni grejač.
+  - Miner je jeftiniji od običnog električnog grejača.
+explanation: |
+  Razlika između korišćenja Miner i običnog električnog
+  grejača leži u činjenici da Miner ne samo da pruža
+  toplotu već i Bitcoin nagradu. Ova dodatna nagrada
+  mogla bi pomoći u ublažavanju zabrinutosti zbog visoke
+  potrošnje energije rudara.
+reviewed: true

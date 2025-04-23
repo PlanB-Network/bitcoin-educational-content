@@ -1,0 +1,9 @@
+question: Šta tehnika otvaranja trougla omogućava učesničkim čvorovima da postignu?
+answer: Dolazna i odlazna likvidnost u svakom kanalu
+wrong_answers:
+  - Smanjene naknade za usmeravanje
+  - Neograničen broj transakcija bez potvrde
+  - Direktna veza sa svakim drugim čvorom mreže
+explanation: |
+  Tehnika otvaranja trougla omogućava svakom čvoru da postigne uravnoteženu likvidnost, kako dolaznu tako i odlaznu, formiranjem petlje kanala među nekoliko učesnika.
+reviewed: false

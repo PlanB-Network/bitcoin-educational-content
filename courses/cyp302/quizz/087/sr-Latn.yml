@@ -1,0 +1,9 @@
+question: Koji metod blok šifriranja koristi vektor inicijalizacije i stvara probabilističko šifrovanje?
+answer: CBC (Cipher Block Chaining)
+wrong_answers:
+  - ECB (Elektronska knjiga kodova)
+  - AES-128
+  - SHA-256
+explanation: |
+  CBC metoda koristi vektor inicijalizacije i primenjuje XOR između svakog bloka otvorenog teksta i prethodnog šifrovanog bloka, čineći šifrovanje probabilističkim i sigurnijim od ECB.
+reviewed: false

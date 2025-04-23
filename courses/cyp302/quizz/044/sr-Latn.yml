@@ -1,0 +1,9 @@
+question: Zašto je skup celih brojeva sa sabiranjem grupa, dok sa množenjem nije?
+answer: Skup ne zadovoljava uslov inverzije pod množenjem
+wrong_answers:
+  - Skup nije zatvoren pod množenjem
+  - Množenje nije asocijativno nad celim brojevima
+  - Ne postoji neutralni element za množenje
+explanation: |
+  Skup celih brojeva ne zadovoljava uslov inverzije pod množenjem jer ne postoji inverz za svaki ceo broj koji bi dao 1 kada se pomnoži. Samo Elements 1 i -1 ispunjavaju ovaj uslov.
+reviewed: false

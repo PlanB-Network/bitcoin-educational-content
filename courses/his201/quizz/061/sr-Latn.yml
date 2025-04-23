@@ -1,0 +1,9 @@
+question: Koja funkcija, dizajnirana u oktobru 2010. od strane Miner m0mchil, je omogućila klijentskim čvorovima da preuzmu kandidatski blok i vrate Proof of Work ako je rešenje pronađeno?
+answer: getwork
+wrong_answers:
+  - stratum
+  - gethash
+  - getcredit
+explanation: |
+  Objavljeno je 1. oktobra. Satoshi je uključio modifikovanu verziju ove funkcije u glavni softver 23. novembra.
+reviewed: false

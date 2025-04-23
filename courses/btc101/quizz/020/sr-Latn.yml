@@ -1,0 +1,9 @@
+question: Koje su glavne karakteristike efektivne valute?
+answer: Fungible, Divisible, Liquid.
+wrong_answers:
+  - Fungibilno, Deljivo, Kvarljivo.
+  - Fungible, Indivisible, Liquid.
+  - Nefungibilno, Deljivo, Liquid.
+explanation: |
+  Efektivna valuta mora biti fungibilna (zamenljiva bez gubitka vrednosti), deljiva (razdvojiva na manje delove radi olakšavanja transakcija različitih obima) i Liquid (lako konvertibilna u robu ili usluge).
+reviewed: true

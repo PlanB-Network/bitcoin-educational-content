@@ -1,0 +1,9 @@
+question: Koji tip ključa se koristi za zaključavanje UTXO-ova na Bitcoin?
+answer: Javni ključ
+wrong_answers:
+  - Privatni ključ
+  - seed Hash
+  - Mnemonic fraza
+explanation: |
+  UTXO-i su zaključani javnim ključem ili njegovim Hash, a otključavaju se odgovarajućim privatnim ključem.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Koja konstanta se koristi za izvođenje master privatnog ključa iz seed?
+answer: Bitcoin seed
+wrong_answers:
+  - Master Key
+  - HD Wallet seed
+  - Blockchain Root
+explanation: |
+  Bitcoin seed konstanta se koristi kao ključ u HMAC-SHA512 funkciji za izvođenje glavnog privatnog ključa i glavnog lanca koda.

@@ -1,0 +1,9 @@
+question: Koji element je nedostajao u dizajnu Bitcoin 31. oktobra 2008?
+answer: Konačan broj jedinica
+wrong_answers:
+  - Proof of Work
+  - Pojednostavljena verifikacija plaćanja
+  - Blockchain
+explanation: |
+  Početna monetarna politika odgovarala je konstantnom izdavanju (X BTC/blok) kako je navedeno u prvoj verziji bele knjige i Satoshi [razmenama](https: //www.metzdowd.com/pipermail/cryptography/2008-November/014831.html) sa Ray Dillingerom.
+reviewed: false

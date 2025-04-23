@@ -1,0 +1,9 @@
+question: Zašto je pažljivo vođenje evidencije ključno kada se radi sa Bitcoin u računovodstvu kompanije?
+answer: Jer svaki Bitcoin transakcija može stvoriti oporezivi događaj, i tačni zapisi su potrebni za izračunavanje dobitaka, gubitaka i poreskih obaveza.
+wrong_answers:
+  - Jer Blockchain automatski podnosi poreze u ime kompanije.
+  - Zato što se nikakvi računovodstveni standardi ne primenjuju na Bitcoin transakcije uopšte.
+  - Zato što je nemoguće pratiti Bitcoin transakcije jednom kada su zabeležene.
+explanation: |
+  Svaka kupovina, prodaja ili uplata izvršena u Bitcoin može imati poreske implikacije. Vođenje detaljnih evidencija o osnovici troškova, prodajnoj ceni i vremenu osigurava tačno i usklađeno poresko izveštavanje.
+reviewed: false

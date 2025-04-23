@@ -1,0 +1,9 @@
+question: Koji je jedan nedostatak modernih centralizovanih valutnih sistema?
+answer: Često im nedostaje transparentnost i mogućnost revizije u upravljanju novcem Supply.
+wrong_answers:
+  - Oni pružaju stabilnu, nepromenljivu vrednost za svaku jedinicu valute.
+  - Oni uklanjaju sve posrednike i ubrzavaju poravnanja na milisekunde.
+  - Oni osiguravaju da je izdavanje novca potpuno decentralizovano i otporno na inflaciju.
+explanation: |
+  Centralizovani sistemi mogu izdavati novac po volji, često bez transparentnog nadzora. Ovo može narušiti poverenje zbog inflacije, složenih međubankarskih poravnanja i potencijalnog lošeg upravljanja.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Među ovim opcijama, koja nije metoda za automatski odabir delova?
+answer: Tihi Plaćanja
+wrong_answers:
+  - Branch-and-Bound
+  - FIFO
+  - Knapsack Solver
+explanation: |
+  Za razliku od ostale tri opcije, Silent Payments nije metoda za odabir delova, već protokol za korišćenje statičkih adresa.
+reviewed: false

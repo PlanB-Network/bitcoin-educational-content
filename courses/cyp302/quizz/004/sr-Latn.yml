@@ -1,0 +1,9 @@
+question: Koji je glavni razlog zašto ostali Beale šifri ostaju neodgonetnuti?
+answer: Ključ za ove šifre je još uvek nepoznat
+wrong_answers:
+  - Šifrovani tekstovi su previše stari
+  - Kutija je izgubljena pre nego što je mogla biti dešifrovana.
+  - Istraživačima nedostaju pouzdani istorijski dokumenti
+explanation: |
+  Ostali Beale šifri nikada nisu dešifrovani jer je neophodan ključ za njihovo čitanje i dalje nepoznat, uprkos brojnim pokušajima.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Koja je svrha ovog kursa?
+answer: Sve od navedenog
+wrong_answers:
+  - Proučavanje istorijskih događaja koji su obeležili borbu za slobodu
+  - Razumeti odnos između ideja i događaja kako bi se bolje delovalo danas
+  - Definišite filozofske pojmove povezane sa slobodom.
+explanation: |
+  Svrha ovog kursa je višestruka: ima za cilj proučavanje uticajnih istorijskih događaja u borbi za slobodu, analizu veze između ideja i događaja kako bi se osvetlila naša trenutna delovanja, i razjašnjavanje filozofskih pojmova vezanih za slobodu.
+reviewed: false

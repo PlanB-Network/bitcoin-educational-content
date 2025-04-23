@@ -1,0 +1,9 @@
+question: Kako funkcioniše 2/2 multisignature Address u Bitcoin?
+answer: Za otključavanje i trošenje sredstava potrebna su dva potpisa.
+wrong_answers:
+  - Omogućava trošenje sredstava sa samo jednim od dva ključa.
+  - Ovlašćuje transakcije samo u specifičnim slučajevima zaključavanja.
+  - Koristi se samo za slanje sredstava na javne adrese.
+explanation: |
+  2/2 multisignature Address zahteva potpise obe uključene strane kako bi sredstva bila potrošena, što se koristi za sigurnost Lightning kanala.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Koji je jedan faktor koji otežava finansijskim vlastima regulisanje Bitcoin?
+answer: Radi na globalnom nivou, 24 sata dnevno, 7 dana u nedelji.
+wrong_answers:
+  - Kontroliše ga centralna vlast.
+  - Ne koristi se nigde u svetu.
+  - Lako je falsifikovati.
+explanation: >-
+reviewed: true

@@ -1,0 +1,9 @@
+question: Koja je osnovna karakteristika jednokratnih plombi korišćenih u RGB?
+answer: Mogu se zatvoriti samo jednom
+wrong_answers:
+  - Mogu se zatvoriti samo dva puta
+  - Oni garantuju poverljivost transakcija
+  - Oni eliminišu potrebu za konsenzusom na Blockchain
+explanation: |
+  Jednokratne plombe omogućavaju kreiranje jedinstvenih kriptografskih obaveza, sprečavajući dupliranje ili dvostruko trošenje.
+reviewed: false

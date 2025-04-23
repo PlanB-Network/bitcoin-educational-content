@@ -1,0 +1,9 @@
+question: Koji francuski matematičar je uveo koncept grupa u 19. veku?
+answer: Évariste Galois
+wrong_answers:
+  - Henri Poincaré
+  - Pierre-Simon Laplace
+  - Joseph Fourier
+explanation: |
+  Évariste Galois je razvio teoriju grupa kako bi proučavao rešenja polinomskih jednačina stepena višeg od pet.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Koji je osnovni koncept protokola RGB?
+answer: Validacija na strani korisnika putem kriptografskih obaveza On-Chain
+wrong_answers:
+  - On-Chain validacija putem Turing-kompletnih pametnih ugovora
+  - Isključiva upotreba nešifrovanih Bitcoin transakcija
+  - Izvršavanje Contract na Blockchain posvećenom pametnim ugovorima
+explanation: |
+  RGB se zasniva na modelu Client-side Validation gde se obaveze (putem Taproot ili OP_RETURN) unose On-Chain, dok se većina logike i podataka čuva off-chain.
+reviewed: false

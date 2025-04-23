@@ -1,0 +1,12 @@
+question: Koja je prednost korišćenja menadžera lozinki koji se hostuje lokalno, kao što su Bitwarden ili KeePass?
+answer: Možete kontrolisati gde su vaši lozinke sačuvane, nudeći veću sigurnost i kontrolu.
+wrong_answers:
+  - Oni su lakši i uvek sigurniji za korišćenje od usluga trećih strana.
+  - Oni obično nude više funkcija nego usluge trećih strana, iako su skuplji.
+  - Oni su jeftiniji i brži od usluga trećih strana.
+explanation: |
+  Menadžeri lozinki koji se sami hostuju, kao što su Bitwarden ili KeePass,
+  omogućavaju vam da kontrolišete gde su vaše lozinke pohranjene,
+  što potencijalno nudi veću sigurnost i kontrolu. Međutim,
+  mogu zahtevati više tehničkog znanja za korišćenje.
+reviewed: true

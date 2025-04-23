@@ -1,0 +1,9 @@
+question: Šta je privatno pregledanje?
+answer: Funkcija koja sprečava internet pretraživače da čuvaju istoriju pretraživanja, privremene internet datoteke, podatke iz obrazaca, kolačiće, kao i korisnička imena i lozinke.
+wrong_answers:
+  - Funkcija koja skriva vašu online aktivnost od vašeg internet provajdera.
+  - Funkcija koja vam omogućava anonimno pretraživanje interneta.
+  - Funkcija koja štiti vaš uređaj od virusa i drugog zlonamernog softvera.
+explanation: |
+  Privatno pregledanje je funkcija koja sprečava internet pregledače da čuvaju istoriju pregledanja, privremene internet fajlove, podatke iz formulara, kolačiće, kao i korisnička imena i lozinke. Međutim, ne skriva vašu online aktivnost od vašeg internet provajdera niti vam omogućava anonimno pregledanje interneta.
+reviewed: true

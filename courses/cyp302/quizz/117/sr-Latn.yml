@@ -1,0 +1,9 @@
+question: U kojoj fazi AES enkripcije se koriste Galoisova polja?
+answer: U zameni bajtova i operaciji MixColumns
+wrong_answers:
+  - U generisanju privatnog ključa
+  - Kada se tekst deli na blokove od 128 bita
+  - U svakoj fazi XOR operacije
+explanation: |
+  Galoisova polja se koriste u zameni bajtova za izračunavanje multiplikativnog inverza i u operaciji MixColumns za izvođenje množenja modulo ireducibilni polinom.
+reviewed: false

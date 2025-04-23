@@ -1,0 +1,11 @@
+question: Koja su neka rešenja za šifrovanje podataka na različitim operativnim sistemima?
+answer: BitLocker za Windows, LUKS za Linux, i ugrađena opcija za Mac.
+wrong_answers:
+  - BitLocker za Linux, LUKS za Mac, i ugrađena opcija za Windows.
+  - BitLocker za Mac, LUKS za Windows, i ugrađena opcija za Linux.
+  - LUKS za sve operativne sisteme.
+explanation: |
+  Različiti operativni sistemi imaju različita rešenja za
+  enkripciju podataka. BitLocker je za Windows, LUKS je za
+  Linux, a Mac ima ugrađenu opciju za enkripciju podataka.
+reviewed: true

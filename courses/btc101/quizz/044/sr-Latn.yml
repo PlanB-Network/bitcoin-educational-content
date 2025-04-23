@@ -1,0 +1,11 @@
+question: Koji je potencijalni ishod nagle deprecijacije ili gubitka poverenja u fiducijarnu valutu?
+answer: Hiperinflacija.
+wrong_answers:
+  - Deflacija.
+  - Stabilna ekonomija.
+  - Povećanje vrednosti valute.
+explanation: |
+  Iznenadna devalvacija ili gubitak poverenja u fiducijarnu
+  valutu može dovesti do hiperinflacije. Ovo je situacija
+  gde cene dobara i usluga rastu izuzetno visokim tempom, često dovodeći do ekonomske nestabilnosti.
+reviewed: true

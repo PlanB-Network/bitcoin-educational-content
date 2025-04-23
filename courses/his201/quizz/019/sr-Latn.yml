@@ -1,0 +1,9 @@
+question: Koji je bio naziv distribuiranog kreditnog protokola koji je dizajnirao Ryan Fugger 2004. godine i koji je nekoliko puta spomenuo Satoshi Nakamoto u svojim spisima?
+answer: Ripple
+wrong_answers:
+  - Talasi
+  - Tsunami
+  - Nabujati
+explanation: |
+  2009. godine, Satoshi [je napisao](https: //diyhpl.us/~bryan/irc/Bitcoin-Satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2009-February/001362.html) da je Ripple \[bio\] jedinstven po tome što širi poverenje umesto da ga koncentriše.
+reviewed: false

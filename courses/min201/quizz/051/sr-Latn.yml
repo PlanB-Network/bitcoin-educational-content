@@ -1,0 +1,9 @@
+question: Koja je glavna prednost Mining virgin bitcoina?
+answer: Nikada nisu potrošeni i nemaju istoriju vezanu za njih.
+wrong_answers:
+  - Mogu se prodati po višoj ceni.
+  - Mogu se koristiti za ilegalne aktivnosti.
+  - Mogu se čuvati dugo vremena bez gubitka vrednosti.
+explanation: |
+  Glavna prednost Mining virgin bitcoina je što nikada nisu potrošeni i nemaju istoriju vezanu za njih. Ovi bitcoini se često smatraju vrednijim jer nikada nisu bili "ukaljani", pružajući određenu garanciju protiv odbijanja od strane regulatora ili glavnih Exchange platformi.
+reviewed: true

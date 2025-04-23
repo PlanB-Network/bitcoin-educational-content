@@ -1,0 +1,9 @@
+question: Šta je bilo jedinstveno u vezi sa RPOW u poređenju sa drugim konceptima digitalne valute kao što su eCash, b-money i bit gold?
+answer: Bilo je zasnovano na transparentnom serveru
+wrong_answers:
+  - Koristilo je Proof of Work
+  - Njegova obračunska jedinica nije bila podržana ničim
+  - Korisnici su držali digitalne novčanice određenih denominacija umesto računa
+explanation: |
+  Koristio je Proof of Work poput b-money i bit gold. Nije bilo podrške kao kod bit gold. Kao eCash (i kao Bitcoin kasnije), RPOW je omogućavao držanje pojedinačnih digitalnih novčanica, umesto računa, i u tom pogledu bio je relativno poverljiv.
+reviewed: false

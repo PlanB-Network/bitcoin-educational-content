@@ -1,0 +1,9 @@
+question: Koja je glavna karakteristika hiperinflacije prema Kaganovoj definiciji?
+answer: Izuzetno visoka mesečna stopa inflacije
+wrong_answers:
+  - Izuzetno visoka godišnja stopa inflacije
+  - Izuzetno visoka nedeljna stopa inflacije
+  - Izuzetno visoka dnevna stopa inflacije
+explanation: |
+  Prema Caganovoj definiciji, hiperinflacija je karakterizovana izuzetno visokom mesečnom stopom inflacije koja prelazi 50%.
+reviewed: false

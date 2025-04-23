@@ -1,0 +1,9 @@
+question: Grupa koja zadovoljava uslov komutativnosti naziva se abelova grupa.
+answer: Abelova grupa
+wrong_answers:
+  - Zatvorena grupa
+  - Asocijativna grupa
+  - Inverzna grupa
+explanation: |
+  Abelova, ili komutativna, grupa je grupa u kojoj redosled Elements u binarnoj operaciji ne utiče na ishod. To znači da za bilo koje a i b, a ∘ b = b ∘ a.
+reviewed: false

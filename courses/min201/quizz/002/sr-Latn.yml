@@ -1,0 +1,9 @@
+question: Koja je glavna razlika između CPU i ASIC u kontekstu Bitcoin Mining?
+answer: CPU može izvršiti mnoštvo različitih vrsta proračuna bez da je posebno optimizovan za jednu vrstu proračuna, dok ASIC može izvršiti samo jednu vrstu proračuna, ali vrlo efikasno.
+wrong_answers:
+  - CPU je energetski efikasniji od ASIC
+  - An ASIC je svestraniji od CPU-a
+  - CPU može izvršiti samo jednu vrstu proračuna, dok ASIC može izvršiti mnoštvo različitih vrsta proračuna.
+explanation: |
+  ASIC-i su čipovi, uporedivi sa CPU čipom, međutim, oni su razvijeni da obavljaju samo jednu specifičnu vrstu proračuna na najefikasniji mogući način. Drugim rečima, CPU je sposoban da obavlja mnoštvo različitih vrsta proračuna bez da je posebno optimizovan za jednu ili drugu vrstu proračuna, dok će ASIC moći da obavlja samo jednu vrstu proračuna, ali veoma efikasno.
+reviewed: true

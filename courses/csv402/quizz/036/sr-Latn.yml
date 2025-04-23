@@ -1,0 +1,9 @@
+question: Koja je uloga Stash?
+answer: Čuvajte sve podatke na strani klijenta lokalno
+wrong_answers:
+  - Automatski objavi transakcije na Blockchain
+  - Kompiluj i čuvaj sve generisane fakture
+  - Upravljanje privatnim ključevima Bitcoin
+explanation: |
+  Stash je skup klijentskih podataka koje korisnik lokalno čuva za jedan ili više RGB ugovora, kako bi izvršio Client-side Validation.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Koja osobina Schnorra omogućava kombinovanje više javnih ključeva u jedan?
+answer: Ključna agregacija
+wrong_answers:
+  - Provera serije
+  - Malleability
+  - Kompaktiranje potpisa
+explanation: |
+  Schnorr omogućava agregaciju više javnih ključeva u jedan ključ.
+reviewed: false

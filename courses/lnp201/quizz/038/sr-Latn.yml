@@ -1,0 +1,9 @@
+question: Kakvu ulogu ima vremenska brava u radu HTLC-ova?
+answer: Pruža vremenski okvir za završetak plaćanja pre otkazivanja.
+wrong_answers:
+  - Povećava kapacitet korišćenog kanala
+  - Dodaje Layer privatnosti transakciji
+  - Primjenjuje dodatne naknade za svaki posrednički čvor
+explanation: |
+  Tajmer zaključavanje nameće vremenski okvir za završetak HTLC, što omogućava povrat sredstava ako transakcija ne uspe, otkazivanjem plaćanja nakon ovog perioda.
+reviewed: false

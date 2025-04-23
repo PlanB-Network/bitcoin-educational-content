@@ -1,0 +1,9 @@
+question: Koja je jedna prednost počinjanja s malim kada prvi put prihvatate Bitcoin uplate?
+answer: Omogućava preduzeću da uči iz nekoliko početnih transakcija i postepeno pređe na sofisticiranija rešenja ako potražnja kupaca poraste.
+wrong_answers:
+  - To prisiljava preduzeće da odmah koristi samo rešenja za samostalno čuvanje.
+  - Sprečava preduzeće da kasnije unapredi ili promeni provajdere.
+  - To zahteva od kompanije da prihvati Bitcoin od svakog kupca pre nego što razume proces.
+explanation: |
+  Počevši sa jednostavnim, početničkim pristupom omogućava preduzeću da stekne praktično iskustvo bez značajnog rizika. Ako se interesovanje za Bitcoin plaćanja pokaže vrednim, kompanija može zatim unaprediti svoju infrastrukturu i integrisati naprednije alate.
+reviewed: false

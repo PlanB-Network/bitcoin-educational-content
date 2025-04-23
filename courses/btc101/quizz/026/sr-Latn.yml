@@ -1,0 +1,13 @@
+question: Zašto zlato ne može dobro da posluje u globalizovanom i digitalnom svetu?
+answer: Zato što mu je potrebna centralna entitet da bi bio deljiv i lako zamenljiv.
+wrong_answers:
+  - Zato što nije dovoljno vredno.
+  - Zato što nije dovoljno retko.
+  - Jer se vremenom erodira.
+explanation: |
+  Zlato ne može da održi korak u globalizovanom i digitalnom svetu
+  jer mu je potrebna centralna entitet da bi bilo deljivo i
+  lako zamenljivo. To ga čini manje praktičnim za korišćenje u
+  svetu gde su transakcije sve više digitalne i
+  decentralizovane.
+reviewed: true

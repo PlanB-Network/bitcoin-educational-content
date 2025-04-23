@@ -1,0 +1,16 @@
+question: Koja je uloga kapitalnih dobara u ekonomiji?
+answer: Kapitalna dobra se koriste u proizvodnji drugih dobara. Omogućavaju pojedincima da dobiju potrošačka dobra.
+wrong_answers:
+  - Kapitalna dobra se koriste za potrošnju.
+  - Kapitalna dobra nemaju ulogu u ekonomiji.
+  - Kapitalna dobra se koriste za proizvodnju drugih kapitalnih dobara.
+explanation: |
+  Da bi proizveli potrošačka dobra, preduzetnici kombinuju razne
+  međuproizvode sa originalnim faktorima proizvodnje
+  (rad, zemlja i kapital) prema obrascu koji
+  maksimizira rezultujuću proizvodnju. Sva ostala dobra u
+  privredi, koja možemo nazvati međuproizvodima, imaju vrednost
+  samo zato što omogućavaju pojedincima da dobiju ova
+  potrošačka dobra; to su dobra koja se koriste u proizvodnji
+  drugih dobara.
+reviewed: true

@@ -1,0 +1,13 @@
+question: Koja je jedna od osnovnih mera za poboljšanje navika u vezi sa bezbednošću na mreži?
+answer: Omogući dvofaktorsku autentifikaciju (2FA)
+wrong_answers:
+  - Koristi istu lozinku za sve naloge
+  - Zanemarivanje redovnog pravljenja rezervnih kopija podataka
+  - Ne deli svoje lozinke.
+explanation: |
+  Omogućavanje dvofaktorske autentifikacije (2FA) jedna je od osnovnih mera
+  
+  za poboljšanje navika u vezi sa onlajn bezbednošću. Ona pruža dodatni Layer nivo bezbednosti za
+  
+  vaše najosetljivije naloge.'
+reviewed: false

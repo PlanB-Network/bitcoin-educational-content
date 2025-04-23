@@ -1,0 +1,9 @@
+question: Koji od sledećih odgovora ne omogućava obmanjivanje heuristike analize lanca?
+answer: Uvek koristiti isti prijemni Address.
+wrong_answers:
+  - Kreiranje kusura čija je vrednost bliska uplati.
+  - Izrada izlaza nepravilnih, neokruglih iznosa.
+  - Distribuiranje raspodele transakcija tokom dana.
+explanation: |
+  Posebno se ne bi trebalo koristiti prijemni Address više puta. Svi ostali odgovori omogućavaju izbegavanje heuristike analize lanca.
+reviewed: false

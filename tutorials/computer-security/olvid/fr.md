@@ -1,5 +1,107 @@
 ---
-name: 
-description: 
+name: Olvid
+description: La messagerie privée pour tous
 ---
 ![cover](assets/cover.webp)
+
+Olvid est une application de messagerie instantanée française lancée en 2019, pensée pour offrir un haut niveau de sécurité, sans compromis sur la vie privée. Contrairement à WhatsApp ou Signal, Olvid ne demande aucune donnée personnelle à l’inscription : pas de numéro de téléphone, pas d’email, rien. L’identification entre utilisateurs repose sur un échange de clés, sans serveur d’annuaire ni carnet d’adresses partagé.
+
+Tous les messages sont chiffrés de bout en bout avec un protocole cryptographique original, conçu pour protéger aussi les métadonnées : personne ne sait avec qui vous discutez, ni quand. Le code des clients est open source, mais le serveur central utilisé pour acheminer les messages chiffrés reste propriétaire et hébergé sur AWS.
+
+Olvid propose une version gratuite et une version payante avec abonnement à 4,99 € par mois. La version gratuite offre l’ensemble des fonctionnalités, à l’exception de l'émission d'appels audio et vidéo (il est toutefois possible d’en recevoir), et ne permet pas la synchronisation du compte sur plusieurs appareils. Donc si vous envisagez un usage exclusivement sur votre smartphone et que vous n’avez pas besoin de passer d’appels, Olvid constitue une excellente solution.
+
+Olvid est certifiée par l’ANSSI (autorité française chargée de la cybersécurité). Cette application est une excellente alternative aux messageries traditionnelles (WhatsApp, Facebook Messenger, WeChat...) pour ceux qui recherchent la confidentialité tout en conservant une simplicité d’usage.
+
+| Application          | E2EE 1:1       | E2EE groupes   | Inscription anonyme | Licence client open-source | Licence serveur open-source | Serveur décentralisé | Année de création |
+| -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ----------------- |
+| WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2009              |
+| WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
+| Facebook Messenger   | ✅              | 🟡 (optionnel) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
+| Telegram             | 🟡 (optionnel) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
+| LINE                 | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
+| Signal               | ✅              | ✅              | ❌                   | ✅                          | ✅                           | ❌                    | 2014              |
+| Threema              | ✅              | ✅              | ✅                   | ✅                          | ❌                           | ❌                    | 2012              |
+| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2016              |
+| Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (via email)       | 2017              |
+| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2014              |
+| Session              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2020              |
+| SimpleX              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2021              |
+| **Olvid**                | **✅**              | **✅**              | **✅**                   | **✅**                          | **❌**                           | **❌**                    | **2019**              |
+| Keet                 | ✅              | ✅              | ✅                   | ❌                          | N/A                         | ✅                    | 2022              |
+| Jami                 | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2005              |
+| Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |
+| Tox                  | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2013              |
+
+*E2EE = Chiffrement de bout en bout.*
+
+## Installer l'application Olvid
+
+Olvid est disponible sur toutes les plateformes. Vous pouvez télécharger l’application directement depuis la boutique d’applications de votre téléphone :
+- [Google Play](https://play.google.com/store/apps/details?id=io.olvid.messenger) ;
+- [App Store](https://apps.apple.com/app/olvid/id1414865219) ;
+
+Sur Android, il est également possible de [l’installer via l’APK](https://www.olvid.io/download/).
+
+Dans ce tutoriel, nous nous concentrerons sur la version mobile, mais sachez que [des versions pour ordinateur sont également disponibles](https://www.olvid.io/download/) (MacOS, Linux et Windows). Si vous choisissez la version payante, vous pourrez synchroniser votre compte sur plusieurs appareils.
+
+01
+
+## Créer un compte sur Olvid
+
+Lors du premier lancement de l’application, cliquez sur le bouton "Je suis un nouvel utilisateur".
+
+02
+
+Choisissez un pseudo ou bien indiquez votre nom et prénom.
+
+03
+
+Ajoutez une photo de profil.
+
+04
+
+Votre compte est maintenant créé.
+
+05
+
+Pour éviter toute perte d’accès à votre compte Olvid, il est recommandé de configurer des sauvegardes automatiques. Pour cela, ouvrez les paramètres en cliquant sur les trois points situés en haut à droite de l’interface, puis sélectionnez "Paramètres".
+
+06
+
+Accédez au menu "Sauvegarde des clés et contacts".
+
+07
+
+Cliquez ensuite sur "Générer une clé de sauvegarde". Cette clé permettra de chiffrer vos sauvegardes. Si vous devez récupérer votre compte sur un autre appareil et que vous n'avez plus accès à celui-ci, vous aurez besoin à la fois d’une sauvegarde et de cette clé pour la déchiffrer.
+
+08
+
+Conservez cette clé dans un endroit sécurisé. Vous pouvez également en faire une copie papier.
+
+09
+
+Vous pouvez alors choisir de créer une sauvegarde locale ou une sauvegarde automatique sur un service cloud. Cette seconde option est fortement recommandée pour garantir l’accès à votre compte Olvid en toutes circonstances, même si vous perdez votre téléphone.
+
+10
+
+Assurez-vous que l’option "Activer la sauvegarde automatique" est bien cochée.
+
+11
+
+Vous pouvez également explorer les autres paramètres disponibles afin de personnaliser l’application selon vos besoins.
+
+12
+
+## Envoyer des messages avec Olvid
+
+Pour pouvoir envoyer des messages, vous devez d’abord ajouter des contacts. Depuis la page d’accueil, cliquez sur le bouton bleu "+".
+
+13
+
+Olvid vous affiche alors votre identifiant utilisateur. Vous pouvez le transmettre aux personnes avec qui vous souhaitez échanger afin qu'elles vous ajoute comme contact.
+
+
+
+
+
+

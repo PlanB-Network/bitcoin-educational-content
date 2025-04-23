@@ -1,22 +1,22 @@
 ---
-name: Badania nad hiperinflacją
-goal: Zrozumienie powstawania hiperinflacji w świecie walut fiducjarnych i ich konsekwencji
+name: Analiza hiperinflacji
+goal: Zrozumienie mechanizmów powstawania hiperinflacji w świecie walut fiducjarnych oraz jej konsekwencji
 objectives: 
 
-  - Badanie cykli hiperinflacji
+  - Analiza cykli hiperinflacji
   - Zrozumienie rzeczywistego wpływu hiperinflacji na nasze codzienne życie
-  - Badanie podobieństw hiperinflacji na przestrzeni czasu
+  - Analiza podobieństw hiperinflacji na przestrzeni dziesięcioleci
   - Konkretny pomysł na to, jak chronić się przed hiperinflacją
 
 ---
-
+„t”
 # Podróż w głąb gospodarki
 
 
-Program ten ma na celu dogłębne zrozumienie procesu powstawania hiperinflacji w świecie zdominowanym przez waluty fiducjarne oraz zbadanie ich istotnych konsekwencji. Uczestnicy kursu szczegółowo zbadają cykle hiperinflacji, analizując ich przyczyny, okoliczności powstawania oraz historyczne i współczesne przykłady. Przeanalizują również namacalny wpływ hiperinflacji na gospodarkę i codzienne życie, badając reperkusje dla wartości waluty, siły nabywczej oraz indywidualnych i zbiorowych oszczędności.
+Program ten ma na celu dogłębne zrozumienie procesu powstawania hiperinflacji w świecie zdominowanym przez waluty fiducjarne oraz zbadanie jej istotnych konsekwencji. Uczestnicy kursu szczegółowo zbadają cykle hiperinflacji, analizując ich przyczyny, okoliczności powstawania oraz historyczne i współczesne przykłady. Przeanalizują również namacalny wpływ hiperinflacji na gospodarkę i codzienne życie, badając reperkusje dla wartości waluty, siły nabywczej oraz indywidualnych i zbiorowych oszczędności.
 
 
-W tym miejscu podkreślimy trendy i wspólne wzorce w epizodach hiperinflacji w całej historii, zapewniając jednocześnie skuteczne i konkretne strategie ochrony w okresach hiperinflacji. Uczestnicy będą mieli okazję zapoznać się z różnymi opcjami inwestycyjnymi i mechanizmami obrony finansowej, zdobywając praktyczne narzędzia i niezbędną wiedzę do spokojnego poruszania się w niestabilnym klimacie gospodarczym.
+W tym miejscu podkreślimy trendy i cechy wspólne epizodów hiperinflacji w całej historii, proponując jednocześnie skuteczne i konkretne strategie ochrony w okresach hiperinflacji. Uczestnicy będą mieli okazję zapoznać się z różnymi opcjami inwestycyjnymi i mechanizmami obrony finansowej, zdobywając praktyczne narzędzia i niezbędną wiedzę do spokojnego poruszania się w niestabilnym klimacie gospodarczym.
 
 
 +++
@@ -36,7 +36,7 @@ W tym miejscu podkreślimy trendy i wspólne wzorce w epizodach hiperinflacji w 
 Witamy na kursie ECO204!
 
 
-Celem tego kursu jest pomoc w zrozumieniu podstawowych przyczyn, mechanizmów i konsekwencji hiperinflacji w kontekście fiducjarnego systemu monetarnego. Dzięki konkretnym przykładom i analizie historycznej nauczysz się rozpoznawać powtarzające się wzorce, które poprzedzają okresy hiperinflacji i zidentyfikujesz dźwignie działania, aby się chronić.
+Celem tego kursu jest pomoc w zrozumieniu podstawowych przyczyn, mechanizmów i konsekwencji hiperinflacji w kontekście fiducjarnego systemu monetarnego. Dzięki konkretnym przykładom i analizie historycznej nauczysz się rozpoznawać powtarzające się schematy, które poprzedzają okresy hiperinflacji i zidentyfikujesz efektywne działania, aby się chronić.
 
 
 **Sekcja 2: Czym jest inflacja?
@@ -46,15 +46,15 @@ Zanim zagłębimy się w sedno tematu, powrócimy do podstaw: czym jest inflacja
 
 **Sekcja 3: Czym jest hiperinflacja?
 
-W tej sekcji zapoznasz się z dokładnymi definicjami hiperinflacji i kilkoma ważnymi epizodami historycznymi, w tym w Niemczech Weimarskich i Zimbabwe. Przeanalizujemy ich podobieństwa, różnice i współczesne analogie. Poznasz również mniej znane przypadki, takie jak kolejne denominacje w Ameryce Łacińskiej, a także strategie wyjścia z hiperinflacji zaobserwowane w niektórych krajach.
+W tej sekcji zapoznasz się z dokładnymi definicjami hiperinflacji i kilkoma ważnymi wydarzeniami historycznymi, w tym w Niemczech Weimarskich i Zimbabwe. Przeanalizujemy ich podobieństwa, różnice i współczesne analogie. Poznasz również mniej znane przypadki, takie jak kolejne denominacje w Ameryce Łacińskiej, a także strategie wyjścia z hiperinflacji zaobserwowane w niektórych krajach.
 
 
 **Sekcja 4: Jak się tu znaleźliśmy?
 
-Ta część ma na celu zrozumienie mechanizmów strukturalnych, które umożliwiają hiperinflację, w szczególności poprzez rozwój --drugiej warstwy-- monetarnej i rolę banków centralnych. Dodatkowe zasoby i sugestie dotyczące lektury zostaną przedstawione w celu dalszej eksploracji.
+Ta część ma na celu zrozumienie mechanizmów strukturalnych, które umożliwiają hiperinflację, w szczególności poprzez rozwój „drugiej warstwy” monetarnej i rolę banków centralnych. Przedstawimy również dodatkowe materiały i sugestie dotyczące lektur.
 
 
-Co by było, gdyby historia monetarna powtarzała się na naszych oczach? Ty będziesz sędzią w kolejnych rozdziałach!
+Co by było, gdyby historia monetarna powtórzyła się na naszych oczach? Ty będziesz sędzią w kolejnych rozdziałach!
 
 
 # Czym jest inflacja?
@@ -72,29 +72,29 @@ Co by było, gdyby historia monetarna powtarzała się na naszych oczach? Ty bę
 ### Definicje inflacji
 
 
-Inflacja to pojęcie, które jest często źle rozumiane ze względu na wiele związanych z nim definicji. Postrzeganie inflacji różni się w różnych grupach, takich jak bitcoinery i tradycyjni ekonomiści. Najpierw wyjaśnijmy definicje, zanim omówimy hiperinflację:
+Inflacja to pojęcie, które jest często źle rozumiane ze względu na wiele związanych z nim definicji. Postrzeganie inflacji różni się w różnych grupach, takich jak bitcoinerzy i tradycyjni ekonomiści. Najpierw wyjaśnijmy definicje, zanim omówimy hiperinflację:
 
 
 
-- Definicja od Roberta: Inflacja to nadmierny wzrost wartości instrumentów płatniczych (banknotów, kapitału) powodujący wzrost cen i deprecjację waluty.
+- Definicja Roberta: Inflacja to nadmierny wzrost wartości instrumentów płatniczych (banknotów, kapitału) powodujący wzrost cen i deprecjację waluty.
 
 
 
-- Definicja z Larousse: Inflacja to zjawisko charakteryzujące się uogólnionym i ciągłym wzrostem poziomu cen. Słowo "uogólniony" jest tutaj kluczowe.
+- Definicja encyklopedii Larousse: Inflacja to zjawisko charakteryzujące się uogólnionym i ciągłym wzrostem poziomu cen. Słowo „uogólniony” jest tutaj kluczowe.
 
 
 ![image](assets/chapitre-2.1/4.webp)
 
 
-W świetle tych definicji ważne jest, aby zrozumieć, że dla Roberta inflacja dotyczy głównie wzrostu Supply pieniądza. Z drugiej strony Larousse koncentruje się na konsekwencjach tej ekspansji, a mianowicie na uogólnionym wzroście cen.
+W świetle tych definicji ważne jest, aby zrozumieć, że dla Roberta inflacja dotyczy głównie wzrostu podaży pieniądza. Z drugiej strony encyklopedia Larousse koncentruje się na konsekwencjach tej ekspansji, a mianowicie na uogólnionym wzroście cen.
 
 
-W naszym badaniu hiperinflacji przyjmiemy drugą definicję, uogólnionego wzrostu cen, ponieważ jest ona bardziej odpowiednia i jasna dla naszego tematu. Należy jednak pamiętać, że wzrost cen jest generalnie wynikiem ekspansji pieniądza Supply.
+W naszej analizie hiperinflacji przyjmiemy drugą definicję, uogólnionego wzrostu cen, ponieważ jest ona bardziej odpowiednia i jasna w kontekście naszego tematu. Należy jednak pamiętać, że wzrost cen jest generalnie wynikiem zwiększenia podaży pieniądza.
 
 Znany ekonomista Milton Friedman stwierdził:
 
 
-> "Inflacja jest zawsze i wszędzie zjawiskiem pieniężnym"
+> „Inflacja jest zawsze i wszędzie zjawiskiem pieniężnym”
 
 Stwierdzenie to podkreśla nieodłączny związek między ekspansją monetarną a inflacją. W kolejnych sekcjach zbadamy interakcje między inflacją a wzrostem gospodarczym w oparciu o te podstawowe definicje.
 
@@ -102,12 +102,12 @@ Stwierdzenie to podkreśla nieodłączny związek między ekspansją monetarną 
 ### Zrozumienie zjawiska monetarnego
 
 
-Odnosząc się do zjawiska monetarnego, mamy na myśli sposób, w jaki wpływa ono na Supply pieniądza w gospodarce. Milton Friedman zasadniczo postrzegał to jako wzrost Supply. W przeszłości istniały dwie główne metody zwiększania Supply pieniądza:
+Odnosząc się do zjawiska monetarnego, mamy na myśli sposób, w jaki wpływa ono na podaż pieniądza w gospodarce. Milton Friedman zasadniczo postrzegał to jako wzrost podaży. W przeszłości istniały dwie główne metody zwiększania podaży pieniądza:
 
 
 1. Druk monetarny:
 
-W tradycyjnych systemach monetarnych wzrost Supply pieniądza był osiągany poprzez fizyczne drukowanie nowych banknotów. Chociaż obecnie, przy dominacji waluty cyfrowej, drukowanie to odbywa się głównie elektronicznie (za pośrednictwem baz danych banków centralnych i innych instytucji finansowych), historia pokazuje nam okresy, w których dosłowne drukowanie banknotów doprowadziło do hiperinflacji.
+W tradycyjnych systemach monetarnych wzrost podaży pieniądza był osiągany poprzez fizyczne drukowanie nowych banknotów. Chociaż obecnie, przy dominacji waluty cyfrowej, drukowanie to odbywa się głównie elektronicznie (za pośrednictwem baz danych banków centralnych i innych instytucji finansowych), historia pokazuje nam okresy, w których dosłowne drukowanie banknotów doprowadziło do hiperinflacji.
 
 
 2. Redukcja zawartości metalu:
@@ -118,19 +118,19 @@ Inną metodą było zmniejszenie ilości metali szlachetnych w walutach opartych
 ![image](assets/chapitre-2.1/1.webp)
 
 
-Należy podkreślić, że hiperinflację obserwuje się głównie w przypadku walut fiducjarnych odłączonych od aktywów bazowych, takich jak metale szlachetne. W przeszłości, gdy waluta opierała się na takich aktywach, zdarzały się epizody inflacji (np. poprzez dewaluację zawartości metalu), ale epizody te nigdy nie osiągnęły ekstremalnych poziomów hiperinflacji. W kolejnych sekcjach szczegółowo przeanalizujemy okresy dewaluacji pieniądza i wpływ tych różnych systemów monetarnych na inflację.
+Należy podkreślić, że hiperinflację obserwuje się głównie w przypadku walut fiducjarnych odłączonych od aktywów bazowych takich jak metale szlachetne. W przeszłości, gdy waluta opierała się na takich aktywach, zdarzały się epizody inflacji (np. poprzez dewaluację zawartości metalu), ale epizody te nigdy nie osiągały ekstremalnych poziomów hiperinflacji. W kolejnych sekcjach szczegółowo przeanalizujemy okresy dewaluacji pieniądza i wpływ różnych systemów monetarnych na inflację.
 
 
-### Badanie okresów dewaluacji monetarnej
+### Analiza okresów dewaluacji monetarnej
 
 
-Na przestrzeni dziejów różne cywilizacje doświadczały okresów dewaluacji pieniądza. Niektóre z tych okresów zbiegają się z ważnymi wydarzeniami lub wojnami, które wywierają presję na gospodarkę.
+Na przestrzeni dziejów różne cywilizacje doświadczały okresów dewaluacji pieniądza. Niektóre z tych okresów zbiegają się z ważnymi wydarzeniami lub wojnami, które wywierały presję na gospodarkę.
 
 
 #### 1. Wojna peloponeska i druga wojna punicka:
 
 
-Wojna peloponeska, konflikt między Atenami a Spartą, oraz druga wojna punicka, między Republiką Rzymską a Kartaginą, to najwcześniejsze przykłady dewaluacji waluty znalezione w archiwach. Aby sfinansować te wojny, cywilizacje te zdewaluowały swoje waluty, zmniejszając zawartość srebra i włączając inne metale, jednocześnie zwiększając liczbę produkowanych monet.
+Wojna peloponeska, konflikt między Atenami a Spartą, oraz druga wojna punicka, między Republiką Rzymską a Kartaginą, to najwcześniejsze przykłady dewaluacji waluty znalezione w archiwach. Aby sfinansować wspomniane wojny, cywilizacje te zdewaluowały swoje waluty, zmniejszając zawartość srebra i włączając inne metale, jednocześnie zwiększając liczbę produkowanych monet.
 
 ![image](assets/chapitre-2.1/8.webp)
 
@@ -141,10 +141,10 @@ Rycina przedstawiająca masakrę Ateńczyków nad brzegiem Assinaros.
 #### 2. Starożytny Rzym w czasach Imperium:
 
 
-Po erze Republiki Rzymskiej, w okresie Cesarstwa, w III i IV wieku nastąpiła znaczna dewaluacja waluty. Ilustruje to spadek zawartości srebra w monetach, jak widać na poprzednim wykresie. Badanie pokazuje, że cena pszenicy w Egipcie, mierzona w drachmach, wzrosła milion razy w okresie około 400 lat, od 40 r. p.n.e. do 360 r. n.e.. W tym okresie oznacza to średnią roczną inflację wynoszącą około 4,4%. Inflacja ta nie była jednak równomiernie rozłożona. Rozpoczęła się ona tak naprawdę około 238 r. n.e. Od 250 do 293 roku stopa inflacji wynosiła około 3,65% i wzrosła do 22,28% między 293 a 301 rokiem.
+Po erze Republiki Rzymskiej w okresie Cesarstwa w III i IV wieku nastąpiła znaczna dewaluacja waluty. Ilustruje to spadek zawartości srebra w monetach, jak widać na poprzednim wykresie. Analiza pokazuje, że cena pszenicy w Egipcie, mierzona w drachmach, wzrosła milion razy w okresie około 400 lat, od 40 r. p.n.e. do 360 r. n.e.. W tym okresie oznacza to średnią roczną inflację wynoszącą około 4,4%. Inflacja ta nie była jednak równomiernie rozłożona. Rozpoczęła się ona tak naprawdę około 238 r. n.e. Od 250 do 293 roku stopa inflacji wynosiła około 3,65% i wzrosła do 22,28% między 293 a 301 rokiem.
 
 
-Chociaż okresy te doświadczyły znacznej inflacji, nie osiągnęły one poziomów hiperinflacji, które możemy zaobserwować w niektórych współczesnych sytuacjach. Powodem tego jest fakt, że choć waluta została zdewaluowana, nadal opierała się na metalach szlachetnych. Ten solidny fundament zapewniał pewną ochronę przed ekstremalnymi poziomami inflacji. W kolejnych sekcjach przyjrzymy się bardziej szczegółowo naturze i konsekwencjom hiperinflacji.
+Chociaż w tych okresach doświadczono znacznej inflacji, nie osiągnęły one poziomów hiperinflacji, które możemy zaobserwować w niektórych współczesnych sytuacjach. Powodem tego jest fakt, że choć waluta została zdewaluowana, nadal opierała się na metalach szlachetnych. Ten solidny fundament zapewniał pewną ochronę przed ekstremalnymi poziomami inflacji. W kolejnych sekcjach przyjrzymy się bardziej szczegółowo naturze i konsekwencjom hiperinflacji.
 
 
 ![image](assets/chapitre-2.1/2.webp)

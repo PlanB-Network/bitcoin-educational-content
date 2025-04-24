@@ -4,3 +4,154 @@ description: Peer-to-peer chat
 ---
 ![cover](assets/cover.webp)
 
+Keet est une messagerie instantanée pensée pour fonctionner sans aucun serveur. Lancée en 2022 par la société Holepunch (une entreprise financée par Tether et Bitfinex), l'application repose entièrement sur un réseau pair-à-pair et se distingue par une approche radicalement décentralisée : les messages, appels et fichiers sont échangés directement entre les utilisateurs, sans intermédiaire.
+
+Keet chiffre toutes les communications de bout en bout et ne demande aucune donnée personnelle. L’inscription est anonyme, il n’y a ni numéro de téléphone ni email requis. En plus des échanges de messages texte, Keet propose des appels vidéo en très haute qualité, ainsi que le partage de fichiers volumineux sans limite de taille. Cette application peut donc être utilisée de manière hybride, à la fois pour un usage personnel et professionnel.
+
+01
+
+Pour le moment (avril 2025), Keet n’est pas entièrement open-source. Une partie du code source est disponible sur [le dépôt GitHub de Holepunch](https://github.com/holepunchto), notamment les composants liés à la cryptographie et au réseau, mais l’interface du client ne l’est pas encore. Holepunch a toutefois annoncé son intention de rendre l’ensemble de l’application open-source à terme. Selon le moment où vous découvrez ce tutoriel, cela a peut-être déjà été fait.
+
+## Installer Keet
+
+Keet est disponible sur toutes les plateformes. Vous pouvez télécharger l’application directement depuis la boutique d’applications de votre téléphone :
+- [Google Play](https://play.google.com/store/apps/details?id=io.keet.app&pli=1) ;
+- [App Store](https://apps.apple.com/us/app/keet-by-holepunch/id6443880549) ;
+
+Sur Android, il est également possible de [l’installer via l’APK](https://github.com/holepunchto/keet-mobile-releases/releases).
+
+Dans ce tutoriel, nous nous concentrerons sur la version mobile, mais sachez que [des versions pour ordinateur sont également disponibles](https://keet.io/) (MacOS, Linux et Windows). Il est d'ailleurs possible de synchroniser son compte sur plusieurs appareil.
+
+## Créer un compte sur Keet
+
+Lors du premier lancement, vous pouvez ignorer les écrans de présentation.
+
+02
+
+Cliquez sur le bouton "I'm a new user".
+
+03
+
+Acceptez les conditions d’utilisation, puis cliquez sur "Quick setup".
+
+04
+
+Choisissez un nom ou un pseudo, puis cliquez sur "Finish setup".
+
+05
+
+Votre profil est désormais créé. Cliquez à nouveau sur "Finish setup" pour finaliser.
+
+06
+
+Vous pouvez personnaliser votre profil à tout moment depuis l’onglet "Profile".
+
+## Sauvegarder son compte Keet
+
+La première chose à faire avec votre nouveau compte Keet est de sauvegarder votre phrase de récupération. Il s’agit d’une suite de 24 mots qui vous permettra de restaurer l’accès à votre compte en cas de perte ou de changement d’appareil. Cette phrase donne un accès complet à votre compte à toute personne qui la connaît : il est donc important d’en faire une sauvegarde fiable et de ne jamais la divulguer.
+
+Pour ce faire, cliquez sur l’onglet "Profile" situé en bas à droite de l’interface.
+
+07
+
+Puis accédez au menu "Settings".
+
+08
+
+Sélectionnez "Privacy and Security".
+
+09
+
+Cliquez ensuite sur "Recovery phrase".
+
+10
+
+Appuyez sur le bouton "View phrase" pour afficher votre phrase de récupération. Copiez-la soigneusement et conservez-la dans un endroit sécurisé.
+
+11
+
+## Envoyer des messages avec Keet
+
+Pour communiquer sur Keet, il faut créer des "Room". Pour cela, cliquez sur l’icône en forme de crayon située en haut à droite de l’interface.
+
+12
+
+Sélectionnez "New group chat".
+
+13
+
+Choisissez un nom et une description pour votre "Room", puis cliquez sur "Create group chat".
+
+14
+
+Votre "Room" est maintenant créée. Cliquez sur l’icône "+" en haut à droite pour inviter des participants.
+
+15
+
+Définissez les droits que vous accordez aux nouveaux membres via le lien d’invitation, ainsi que la durée de validité du lien. Cliquez ensuite sur "Generate invite".
+
+16
+
+Keet va générer un lien pour rejoindre votre "Room". Vous pouvez soit le copier et le partager, soit faire scanner son QR code par les personnes que vous souhaitez inviter.
+
+17
+
+Vous pouvez à présent commencer à échanger des messages et des fichiers multimédias. Pour lancer un appel, cliquez sur l’icône de téléphone en haut à droite.
+
+18
+
+Depuis ce groupe, vous pouvez également envoyer des messages privés à un membre spécifique. Cliquez sur la photo de profil du groupe, puis sélectionnez le membre souhaité dans la section "Members".
+
+19
+
+Cliquez sur le bouton "DM request" et saisissez votre message.
+
+20
+
+Une fois la demande de DM acceptée, vous retrouverez ce contact sur la page d’accueil et pourrez échanger avec lui en privé.
+
+21
+
+## Synchroniser son compte sur plusieurs appareils
+
+Maintenant que vous savez utiliser Keet et que vous disposez d’un compte, vous pouvez également le synchroniser sur un autre appareil, comme un ordinateur. Pour cela, ouvrez l’application sur votre mobile, puis cliquez sur "Profile" et accédez aux "Settings".
+
+22
+
+Rendez-vous ensuite dans le menu "My devices".
+
+23
+
+Cliquez sur "Add device". Keet va générer un lien permettant de synchroniser un nouvel appareil. Copiez ce lien.
+
+24
+
+Sur votre second appareil, installez Keet. Sur l’écran d’accueil, sélectionnez l’option "I'm a current user".
+
+25
+
+Cliquez ensuite sur "Link device".
+
+26
+
+Collez le lien fourni par votre premier appareil, puis cliquez sur "Start syncing".
+
+27
+
+Sur votre premier appareil, cliquez sur "Confirm link devices" pour autoriser la connexion.
+
+28
+
+Sur le second appareil, finalisez le processus en cliquant sur "Link devices".
+
+29
+
+Vous avez maintenant accès à toutes vos "Room" et à vos conversations depuis ce nouvel appareil.
+
+30
+
+Félicitations, vous êtes maintenant au point sur l'utilisation de la messagerie Keet, une excellente alternative à WathsApp ! Si vous avez trouvé ce tutoriel utile, je vous serais très reconnaissant de laisser un pouce vert ci-dessous. N'hésitez pas à partager ce tutoriel sur vos réseaux sociaux. Merci beaucoup !
+
+Je vous recommande également de découvrir cet autre tutoriel, dans lequel je vous présente Proton Mail, une alternative à Gmail bien plus respectueuse de votre vie privée :
+
+https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

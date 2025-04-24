@@ -8,7 +8,7 @@ Keet est une messagerie instantanée pensée pour fonctionner sans aucun serveur
 
 Keet chiffre toutes les communications de bout en bout et ne demande aucune donnée personnelle. L’inscription est anonyme, il n’y a ni numéro de téléphone ni email requis. En plus des échanges de messages texte, Keet propose des appels vidéo en très haute qualité, ainsi que le partage de fichiers volumineux sans limite de taille. Cette application peut donc être utilisée de manière hybride, à la fois pour un usage personnel et professionnel.
 
-01
+![Image](assets/fr/01.webp)
 
 Pour le moment (avril 2025), Keet n’est pas entièrement open-source. Une partie du code source est disponible sur [le dépôt GitHub de Holepunch](https://github.com/holepunchto), notamment les composants liés à la cryptographie et au réseau, mais l’interface du client ne l’est pas encore. Holepunch a toutefois annoncé son intention de rendre l’ensemble de l’application open-source à terme. Selon le moment où vous découvrez ce tutoriel, cela a peut-être déjà été fait.
 
@@ -26,129 +26,129 @@ Dans ce tutoriel, nous nous concentrerons sur la version mobile, mais sachez que
 
 Lors du premier lancement, vous pouvez ignorer les écrans de présentation.
 
-02
+![Image](assets/fr/02.webp)
 
-Cliquez sur le bouton "I'm a new user".
+Cliquez sur le bouton "*I'm a new user*".
 
-03
+![Image](assets/fr/03.webp)
 
-Acceptez les conditions d’utilisation, puis cliquez sur "Quick setup".
+Acceptez les conditions d’utilisation, puis cliquez sur "*Quick setup*".
 
-04
+![Image](assets/fr/04.webp)
 
-Choisissez un nom ou un pseudo, puis cliquez sur "Finish setup".
+Choisissez un nom ou un pseudo, puis cliquez sur "*Finish setup*".
 
-05
+![Image](assets/fr/05.webp)
 
-Votre profil est désormais créé. Cliquez à nouveau sur "Finish setup" pour finaliser.
+Votre profil est désormais créé. Cliquez à nouveau sur "*Finish setup*" pour finaliser.
 
-06
+![Image](assets/fr/06.webp)
 
-Vous pouvez personnaliser votre profil à tout moment depuis l’onglet "Profile".
+Vous pouvez personnaliser votre profil à tout moment depuis l’onglet "*Profile*".
 
 ## Sauvegarder son compte Keet
 
 La première chose à faire avec votre nouveau compte Keet est de sauvegarder votre phrase de récupération. Il s’agit d’une suite de 24 mots qui vous permettra de restaurer l’accès à votre compte en cas de perte ou de changement d’appareil. Cette phrase donne un accès complet à votre compte à toute personne qui la connaît : il est donc important d’en faire une sauvegarde fiable et de ne jamais la divulguer.
 
-Pour ce faire, cliquez sur l’onglet "Profile" situé en bas à droite de l’interface.
+Pour ce faire, cliquez sur l’onglet "*Profile*" situé en bas à droite de l’interface.
 
-07
+![Image](assets/fr/07.webp)
 
-Puis accédez au menu "Settings".
+Puis accédez au menu "*Settings*".
 
-08
+![Image](assets/fr/08.webp)
 
-Sélectionnez "Privacy and Security".
+Sélectionnez "*Privacy and Security*".
 
-09
+![Image](assets/fr/09.webp)
 
-Cliquez ensuite sur "Recovery phrase".
+Cliquez ensuite sur "*Recovery phrase*".
 
-10
+![Image](assets/fr/10.webp)
 
-Appuyez sur le bouton "View phrase" pour afficher votre phrase de récupération. Copiez-la soigneusement et conservez-la dans un endroit sécurisé.
+Appuyez sur le bouton "*View phrase*" pour afficher votre phrase de récupération. Copiez-la soigneusement et conservez-la dans un endroit sécurisé.
 
-11
+![Image](assets/fr/11.webp)
 
 ## Envoyer des messages avec Keet
 
-Pour communiquer sur Keet, il faut créer des "Room". Pour cela, cliquez sur l’icône en forme de crayon située en haut à droite de l’interface.
+Pour communiquer sur Keet, il faut créer des "*Room*". Pour cela, cliquez sur l’icône en forme de crayon située en haut à droite de l’interface.
 
-12
+![Image](assets/fr/12.webp)
 
-Sélectionnez "New group chat".
+Sélectionnez "*New group chat*".
 
-13
+![Image](assets/fr/13.webp)
 
-Choisissez un nom et une description pour votre "Room", puis cliquez sur "Create group chat".
+Choisissez un nom et une description pour votre "*Room*", puis cliquez sur "*Create group chat*".
 
-14
+![Image](assets/fr/14.webp)
 
-Votre "Room" est maintenant créée. Cliquez sur l’icône "+" en haut à droite pour inviter des participants.
+Votre "*Room*" est maintenant créée. Cliquez sur l’icône "*+*" en haut à droite pour inviter des participants.
 
-15
+![Image](assets/fr/15.webp)
 
-Définissez les droits que vous accordez aux nouveaux membres via le lien d’invitation, ainsi que la durée de validité du lien. Cliquez ensuite sur "Generate invite".
+Définissez les droits que vous accordez aux nouveaux membres via le lien d’invitation, ainsi que la durée de validité du lien. Cliquez ensuite sur "*Generate invite*".
 
-16
+![Image](assets/fr/16.webp)
 
-Keet va générer un lien pour rejoindre votre "Room". Vous pouvez soit le copier et le partager, soit faire scanner son QR code par les personnes que vous souhaitez inviter.
+Keet va générer un lien pour rejoindre votre "*Room*". Vous pouvez soit le copier et le partager, soit faire scanner son QR code par les personnes que vous souhaitez inviter.
 
-17
+![Image](assets/fr/17.webp)
 
 Vous pouvez à présent commencer à échanger des messages et des fichiers multimédias. Pour lancer un appel, cliquez sur l’icône de téléphone en haut à droite.
 
-18
+![Image](assets/fr/18.webp)
 
-Depuis ce groupe, vous pouvez également envoyer des messages privés à un membre spécifique. Cliquez sur la photo de profil du groupe, puis sélectionnez le membre souhaité dans la section "Members".
+Depuis ce groupe, vous pouvez également envoyer des messages privés à un membre spécifique. Cliquez sur la photo de profil du groupe, puis sélectionnez le membre souhaité dans la section "*Members*".
 
-19
+![Image](assets/fr/19.webp)
 
-Cliquez sur le bouton "DM request" et saisissez votre message.
+Cliquez sur le bouton "*Send DM request*" et saisissez votre message.
 
-20
+![Image](assets/fr/20.webp)
 
 Une fois la demande de DM acceptée, vous retrouverez ce contact sur la page d’accueil et pourrez échanger avec lui en privé.
 
-21
+![Image](assets/fr/21.webp)
 
 ## Synchroniser son compte sur plusieurs appareils
 
-Maintenant que vous savez utiliser Keet et que vous disposez d’un compte, vous pouvez également le synchroniser sur un autre appareil, comme un ordinateur. Pour cela, ouvrez l’application sur votre mobile, puis cliquez sur "Profile" et accédez aux "Settings".
+Maintenant que vous savez utiliser Keet et que vous disposez d’un compte, vous pouvez également le synchroniser sur un autre appareil, comme un ordinateur. Pour cela, ouvrez l’application sur votre mobile, puis cliquez sur "*Profile*" et accédez aux "*Settings*".
 
-22
+![Image](assets/fr/22.webp)
 
-Rendez-vous ensuite dans le menu "My devices".
+Rendez-vous ensuite dans le menu "*My devices*".
 
-23
+![Image](assets/fr/23.webp)
 
-Cliquez sur "Add device". Keet va générer un lien permettant de synchroniser un nouvel appareil. Copiez ce lien.
+Cliquez sur "*Add device*". Keet va générer un lien permettant de synchroniser un nouvel appareil. Copiez ce lien.
 
-24
+![Image](assets/fr/24.webp)
 
-Sur votre second appareil, installez Keet. Sur l’écran d’accueil, sélectionnez l’option "I'm a current user".
+Sur votre second appareil, installez Keet. Sur l’écran d’accueil, sélectionnez l’option "*I'm a current user*".
 
-25
+![Image](assets/fr/25.webp)
 
-Cliquez ensuite sur "Link device".
+Cliquez ensuite sur "*Link device*".
 
-26
+![Image](assets/fr/26.webp)
 
-Collez le lien fourni par votre premier appareil, puis cliquez sur "Start syncing".
+Collez le lien fourni par votre premier appareil, puis cliquez sur "*Start syncing*".
 
-27
+![Image](assets/fr/27.webp)
 
-Sur votre premier appareil, cliquez sur "Confirm link devices" pour autoriser la connexion.
+Sur votre premier appareil, cliquez sur "*Confirm link devices*" pour autoriser la connexion.
 
-28
+![Image](assets/fr/28.webp)
 
-Sur le second appareil, finalisez le processus en cliquant sur "Link devices".
+Sur le second appareil, finalisez le processus en cliquant sur "*Link devices*".
 
-29
+![Image](assets/fr/29.webp)
 
-Vous avez maintenant accès à toutes vos "Room" et à vos conversations depuis ce nouvel appareil.
+Vous avez maintenant accès à toutes vos "*Room*" et à vos conversations depuis ce nouvel appareil.
 
-30
+![Image](assets/fr/30.webp)
 
 Félicitations, vous êtes maintenant au point sur l'utilisation de la messagerie Keet, une excellente alternative à WathsApp ! Si vous avez trouvé ce tutoriel utile, je vous serais très reconnaissant de laisser un pouce vert ci-dessous. N'hésitez pas à partager ce tutoriel sur vos réseaux sociaux. Merci beaucoup !
 

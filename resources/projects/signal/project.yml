@@ -1,0 +1,26 @@
+id: 3012bfc8-9a21-4681-b68e-571ba7ce3013
+name: Signal Foundation
+
+links:
+  website: https://signal.org/
+  twitter: https://x.com/signalapp
+
+category: privacy
+
+contributor_names:
+  - LoicPandul
+
+tags:
+  - personal-security
+  - privacy
+  - software
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-04-24
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0

@@ -1,6 +1,6 @@
 ---
 name: Olvid
-description: La messagerie privée pour tous
+description: La messagerie privée, pour tous
 ---
 ![cover](assets/cover.webp)
 
@@ -100,8 +100,36 @@ Pour pouvoir envoyer des messages, vous devez d’abord ajouter des contacts. De
 
 Olvid vous affiche alors votre identifiant utilisateur. Vous pouvez le transmettre aux personnes avec qui vous souhaitez échanger afin qu'elles vous ajoute comme contact.
 
+Pour ajouter une personne, scannez son identifiant à l’aide de votre caméra, ou collez-le manuellement en cliquant sur les trois petits points situés en haut à droite.
 
+14
 
+Une fois l’identifiant scanné, vous devez soit faire scanner par votre interlocuteur le QR code affiché, soit lui envoyer une demande de connexion à distance en cliquant sur "Entrer en contact à distance".
 
+15
 
+La connexion est désormais établie.
 
+16
+
+Vous pouvez commencer à échanger des messages et autres contenus avec votre correspondant !
+
+17
+
+Depuis la page d’accueil, vous retrouverez toutes vos conversations.
+
+18
+
+Le second onglet regroupe l’ensemble de vos contacts.
+
+19
+
+Il est également possible de créer des discussions de groupe.
+
+20
+
+Félicitations, vous êtes maintenant au point sur l'utilisation de la messagerie Olvid, une excellente alternative à WathsApp ! Si vous avez trouvé ce tutoriel utile, je vous serais très reconnaissant de laisser un pouce vert ci-dessous. N'hésitez pas à partager ce tutoriel sur vos réseaux sociaux. Merci beaucoup !
+
+Je vous recommande également de découvrir cet autre tutoriel, dans lequel je vous présente Proton Mail, une alternative à Gmail bien plus respectueuse de votre vie privée :
+
+https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

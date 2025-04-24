@@ -44,89 +44,89 @@ Sur Android, il est également possible de [l’installer via l’APK](https://w
 
 Dans ce tutoriel, nous nous concentrerons sur la version mobile, mais sachez que [des versions pour ordinateur sont également disponibles](https://www.olvid.io/download/) (MacOS, Linux et Windows). Si vous choisissez la version payante, vous pourrez synchroniser votre compte sur plusieurs appareils.
 
-01
+![Image](assets/fr/01.webp)
 
 ## Créer un compte sur Olvid
 
-Lors du premier lancement de l’application, cliquez sur le bouton "Je suis un nouvel utilisateur".
+Lors du premier lancement de l’application, cliquez sur le bouton "*Je suis un nouvel utilisateur*".
 
-02
+![Image](assets/fr/02.webp)
 
 Choisissez un pseudo ou bien indiquez votre nom et prénom.
 
-03
+![Image](assets/fr/03.webp)
 
 Ajoutez une photo de profil.
 
-04
+![Image](assets/fr/04.webp)
 
 Votre compte est maintenant créé.
 
-05
+![Image](assets/fr/05.webp)
 
-Pour éviter toute perte d’accès à votre compte Olvid, il est recommandé de configurer des sauvegardes automatiques. Pour cela, ouvrez les paramètres en cliquant sur les trois points situés en haut à droite de l’interface, puis sélectionnez "Paramètres".
+Pour éviter toute perte d’accès à votre compte Olvid, il est recommandé de configurer des sauvegardes automatiques. Pour cela, ouvrez les paramètres en cliquant sur les trois points situés en haut à droite de l’interface, puis sélectionnez "*Paramètres*".
 
-06
+![Image](assets/fr/06.webp)
 
-Accédez au menu "Sauvegarde des clés et contacts".
+Accédez au menu "*Sauvegarde des clés et contacts*".
 
-07
+![Image](assets/fr/07.webp)
 
-Cliquez ensuite sur "Générer une clé de sauvegarde". Cette clé permettra de chiffrer vos sauvegardes. Si vous devez récupérer votre compte sur un autre appareil et que vous n'avez plus accès à celui-ci, vous aurez besoin à la fois d’une sauvegarde et de cette clé pour la déchiffrer.
+Cliquez ensuite sur "*Générer une clé de sauvegarde*". Cette clé permettra de chiffrer vos sauvegardes. Si vous devez récupérer votre compte sur un autre appareil et que vous n'avez plus accès à celui-ci, vous aurez besoin à la fois d’une sauvegarde et de cette clé pour la déchiffrer.
 
-08
+![Image](assets/fr/08.webp)
 
 Conservez cette clé dans un endroit sécurisé. Vous pouvez également en faire une copie papier.
 
-09
+![Image](assets/fr/09.webp)
 
 Vous pouvez alors choisir de créer une sauvegarde locale ou une sauvegarde automatique sur un service cloud. Cette seconde option est fortement recommandée pour garantir l’accès à votre compte Olvid en toutes circonstances, même si vous perdez votre téléphone.
 
-10
+![Image](assets/fr/10.webp)
 
-Assurez-vous que l’option "Activer la sauvegarde automatique" est bien cochée.
+Assurez-vous que l’option "*Activer la sauvegarde automatique*" est bien cochée.
 
-11
+![Image](assets/fr/11.webp)
 
 Vous pouvez également explorer les autres paramètres disponibles afin de personnaliser l’application selon vos besoins.
 
-12
+![Image](assets/fr/12.webp)
 
 ## Envoyer des messages avec Olvid
 
-Pour pouvoir envoyer des messages, vous devez d’abord ajouter des contacts. Depuis la page d’accueil, cliquez sur le bouton bleu "+".
+Pour pouvoir envoyer des messages, vous devez d’abord ajouter des contacts. Depuis la page d’accueil, cliquez sur le bouton bleu "*+*".
 
-13
+![Image](assets/fr/13.webp)
 
 Olvid vous affiche alors votre identifiant utilisateur. Vous pouvez le transmettre aux personnes avec qui vous souhaitez échanger afin qu'elles vous ajoute comme contact.
 
 Pour ajouter une personne, scannez son identifiant à l’aide de votre caméra, ou collez-le manuellement en cliquant sur les trois petits points situés en haut à droite.
 
-14
+![Image](assets/fr/14.webp)
 
-Une fois l’identifiant scanné, vous devez soit faire scanner par votre interlocuteur le QR code affiché, soit lui envoyer une demande de connexion à distance en cliquant sur "Entrer en contact à distance".
+Une fois l’identifiant scanné, vous devez soit faire scanner par votre interlocuteur le QR code affiché, soit lui envoyer une demande de connexion à distance en cliquant sur "*Entrer en contact à distance*".
 
-15
+![Image](assets/fr/15.webp)
 
 La connexion est désormais établie.
 
-16
+![Image](assets/fr/16.webp)
 
 Vous pouvez commencer à échanger des messages et autres contenus avec votre correspondant !
 
-17
+![Image](assets/fr/17.webp)
 
 Depuis la page d’accueil, vous retrouverez toutes vos conversations.
 
-18
+![Image](assets/fr/18.webp)
 
 Le second onglet regroupe l’ensemble de vos contacts.
 
-19
+![Image](assets/fr/19.webp)
 
 Il est également possible de créer des discussions de groupe.
 
-20
+![Image](assets/fr/20.webp)
 
 Félicitations, vous êtes maintenant au point sur l'utilisation de la messagerie Olvid, une excellente alternative à WathsApp ! Si vous avez trouvé ce tutoriel utile, je vous serais très reconnaissant de laisser un pouce vert ci-dessous. N'hésitez pas à partager ce tutoriel sur vos réseaux sociaux. Merci beaucoup !
 

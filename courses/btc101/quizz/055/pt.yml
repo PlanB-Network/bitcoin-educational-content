@@ -1,10 +1,9 @@
-question: Qual foi a taxa de inflação na Alemanha em outubro de 1923?
-answer: 29,50%.
+question: Qual foi aproximadamente a taxa de inflação na Alemanha em outubro de 1923, no auge da hiperinflação?
+answer: 29 500 %
 wrong_answers:
-  - 200,9%.
-  - 50,51%.
-  - 25,98%.
+  - 5 200 %
+  - 76 %
+  - 110 %
 explanation: |
-  O mês com a maior taxa de inflação na Alemanha foi
-  outubro de 1923, atingindo 29,50%.
-reviewed: true
+  O mês com a maior taxa de inflação na Alemanha foi outubro de 1923, atingindo um pico de 29 500 %.
+reviewed: false

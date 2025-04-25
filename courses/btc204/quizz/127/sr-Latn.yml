@@ -1,0 +1,9 @@
+question: Koji je glavni nedostatak coinswaps i atomic swaps u pogledu privatnosti?
+answer: Oni ne prekidaju istoriju razmenjenih novčića
+wrong_answers:
+  - Oni su veoma skupi u transakcionim naknadama.
+  - Oni zahtevaju Exchange ličnih informacija između strana
+  - Mogu biti podložni analizi od strane Exchange platformi
+explanation: |
+  Glavni nedostatak ovih metoda je što su veoma rizične bez korišćenja dodatne tehnike za prekid istorije novčića.
+reviewed: false

@@ -1,0 +1,10 @@
+question: Kolika je BTC nagrada nakon četvrtog Halving?
+answer: 3.125 BTC.
+wrong_answers:
+  - 1.5625 BTC.
+  - 6.25 BTC.
+  - 12.5 BTC.
+explanation: |
+  Nakon četvrtog Halving, koji se dešava na visini bloka
+  840,000, BTC nagrada za Mining je 3.125 BTC.
+reviewed: true

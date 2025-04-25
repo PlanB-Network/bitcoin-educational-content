@@ -1,0 +1,12 @@
+question: Kakva je perspektiva Moderne monetarne teorije (MMT) o kreiranju novca i inflaciji?
+answer: Prema MMT-u, novac prvenstveno potiče od vlade, koja može štampati značajne količine za finansiranje svojih potreba bez izazivanja inflacije sve dok sektori na koje su ta sredstva usmerena nisu zasićeni.
+wrong_answers:
+  - Prema MMT-u, novac prvenstveno potiče iz privatnog sektora i štampanje više novca uvek dovodi do inflacije.
+  - Prema MMT-u, novac prvenstveno potiče od vlade, ali štampanje više novca uvek dovodi do inflacije.
+  - Prema MMT-u, novac prvenstveno potiče iz privatnog sektora i štampanje više novca nikada ne dovodi do inflacije.
+explanation: |
+  Poglavlje objašnjava da Moderna monetarna teorija (MMT) nudi poseban
+  pogled na kreiranje novca i inflaciju. Prema MMT-u, novac prvenstveno potiče
+  od vlade, koja može štampati znatne količine kako bi finansirala svoje potrebe bez
+  izazivanja inflacije sve dok sektori kojima su ta sredstva namenjena nisu zasićeni.
+reviewed: false

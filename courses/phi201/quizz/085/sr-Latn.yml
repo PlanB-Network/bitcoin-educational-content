@@ -1,0 +1,9 @@
+question: Koja je granica državnog suvereniteta prema John Stuart Millu?
+answer: Država može intervenisati samo kada postupci pojedinca nanose štetu drugima.
+wrong_answers:
+  - Država je suverena pod svim okolnostima i ne može biti ograničena od strane bilo koje pojedinačne osobe ili grupe pojedinaca.
+  - Državni suverenitet je ograničen ekonomskim sredstvima.
+  - Suverenitet države je ograničen zakonima prirode.
+explanation: |
+  John Stuart Mill tvrdi da je intervencija države legitimna samo kada postupci pojedinca nanose štetu drugima, kako bi se zaštitila lična sloboda u oblastima koje ne štete drugima.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Nakon incidenta prelivanja vrednosti, koji mehanizam je dodat softveru od strane Satoshi kako bi se ograničio uticaj potencijalnih ranjivosti na sistem?
+answer: Sistem upozorenja
+wrong_answers:
+  - Standardna priroda transakcija
+  - Ograničenje veličine bloka
+  - OP_NOP op kodovi
+explanation: |
+  Ovaj efikasan sistem upozorenja omogućio mu je, uz korišćenje privatnog ključa, da upozori čvorove mreže u slučaju tehničkog problema i da suspenduje neke API komande.
+reviewed: false

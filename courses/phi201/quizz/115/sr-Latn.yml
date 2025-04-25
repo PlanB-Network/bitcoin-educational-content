@@ -1,0 +1,9 @@
+question: Koji metal se istorijski smatrao standardnom referencom za valutu?
+answer: Zlato
+wrong_answers:
+  - Srebro
+  - Bakar
+  - Bronza
+explanation: |
+  Zlato je istorijski služilo kao standard zbog svoje oskudice, izdržljivosti i univerzalno priznate vrednosti, čineći ga stabilnom osnovom za monetarne sisteme.
+reviewed: false

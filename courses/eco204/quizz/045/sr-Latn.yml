@@ -1,0 +1,11 @@
+question: Koja je bila valuta Perua pre 19. veka?
+answer: Špansko zlato.
+wrong_answers:
+  - Peruanski dolar.
+  - Peruanski real.
+  - Soldi oro.
+explanation: |
+  Peru je koristio špansko zlato do 19. veka. Peruanski dolar je bio
+  
+  u upotrebi od 1822. do 1863.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Koji je standardni metod za vraćanje vašeg Wallet?
+answer: Unos vaše Mnemonic fraze u bilo koji Wallet softver.
+wrong_answers:
+  - Čuvanje vaše Mnemonic fraze u digitalnom fajlu.
+  - Pisanje vaše Mnemonic fraze na beloj tabli.
+  - Deljenje vaše Mnemonic fraze sa pouzdanim prijateljem.
+explanation: |
+  Standardna metoda za pravljenje rezervne kopije privatnog ključa u
+  Bitcoin Wallet je unosom vaše Mnemonic fraze u bilo koji
+  Wallet softver. Ovo vam omogućava da povratite vaš Wallet.
+reviewed: false

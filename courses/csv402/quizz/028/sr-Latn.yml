@@ -1,0 +1,9 @@
+question: U RGB Contract, koja je funkcija Interface?
+answer: Olakšajte čitanje i manipulaciju podacima Contract
+wrong_answers:
+  - Pokretanje skripti za validaciju na Blockchain
+  - Skladišti Genesis podatke na strani kupca
+  - Definiši striktni tip sistema za izveštaje
+explanation: |
+  Cilj Interface je da predstavi informacije Contract na način koji je jasan korisnicima i softveru, bez uticaja na Business Logic.
+reviewed: false

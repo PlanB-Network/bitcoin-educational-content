@@ -1,0 +1,9 @@
+question: Kako se izračunava kontrolni zbir za SegWit v0 adrese kodirane u bech32?
+answer: Korišćenje BCH kodova
+wrong_answers:
+  - Primeni HASH256 dvaput
+  - Dodavanjem RIPEMD160 Hash
+  - Direktnim kodiranjem u base64
+explanation: |
+  Bech32 adrese koriste BCH kodove za izračun kontrolnog zbira.
+reviewed: false

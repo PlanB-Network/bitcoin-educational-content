@@ -1,0 +1,9 @@
+question: Koja je glavna karakteristika DIY (Uradi Sam) Wallet?
+answer: To je 100% open source rešenje koje se može napraviti kod kuće kako bi se smanjili rizici poverenja prema drugim akterima u lancu proizvodnje ili kreacije.
+wrong_answers:
+  - To je hardverski uređaj za čuvanje bitkoina
+  - To je softver za Mining bitkoine
+  - To je platforma za kupovinu i prodaju bitkoina.
+explanation: |
+  Sadržaj poglavlja objašnjava da su DIY (Uradi Sam) novčanici 100% open source rešenja koja se mogu napraviti kod kuće kako bi se smanjili rizici poverenja prema drugim akterima u lancu proizvodnje ili kreacije.
+reviewed: false

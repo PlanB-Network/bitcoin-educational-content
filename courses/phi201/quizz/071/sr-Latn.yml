@@ -1,0 +1,9 @@
+question: Koji je moto fiziokrata?
+answer: Laissez-faire, laissez passer.
+wrong_answers:
+  - Država je istovremeno bankar, trgovac i dobavljač.
+  - Francuska može postati bogata samo kroz propast Engleske i Holandije.
+  - Politička ekonomija, kako je sažeo Dupont de Nemours, je nauka o prirodnom zakonu primenjena na civilizovana društva.
+explanation: |
+  Moto Laissez-faire, laissez passer fiziokrata izražava njihovo uverenje da ekonomija napreduje kada je slobodna od državnih intervencija, omogućavajući prirodnim silama tržišta da se slobodno balansiraju.
+reviewed: false

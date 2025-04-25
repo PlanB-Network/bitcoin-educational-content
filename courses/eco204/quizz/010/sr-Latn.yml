@@ -1,0 +1,9 @@
+question: Kakav je uticaj indeksa potrošačkih cena (CPI) na merenje inflacije?
+answer: CPI može potceniti stvarnu inflaciju jer ne uzima sveobuhvatno u obzir kretanje cena nekretnina i može neutralisati ili prikriti stvarna povećanja cena.
+wrong_answers:
+  - CPI uvek tačno meri inflaciju.
+  - CPI precenjuje stvarnu inflaciju.
+  - CPI nema uticaja na merenje inflacije.
+explanation: |
+  Poglavlje objašnjava da CPI, korišćen kao glavni pokazatelj inflacije, ima određena ograničenja. Na primer, ne uzima sveobuhvatno u obzir evoluciju cena nekretnina. Takođe, izračunavanje CPI uključuje određene metodologije koje mogu neutralisati ili prikriti stvarna povećanja cena.
+reviewed: false

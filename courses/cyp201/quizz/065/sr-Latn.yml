@@ -1,0 +1,9 @@
+question: Koja je razlika između normalnog ključa deteta i ojačanog ključa deteta?
+answer: Za izvodjenje očvrslog ključa deteta potreban je privatni ključ roditelja.
+wrong_answers:
+  - Normalan ključ deteta ne može se izvesti iz javnih ključeva.
+  - Otvrđeni ključ deteta koristi neparan indeks.
+  - Normalan ključ deteta je sigurniji od ojačanog ključa deteta.
+explanation: |
+  Normalan ključ deteta može se izvesti iz javnog ključa roditelja, za razliku od ojačanog ključa deteta koji zahteva privatni ključ roditelja.
+reviewed: false

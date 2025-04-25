@@ -1,0 +1,9 @@
+question: Šta se dešava tokom svake runde kompresije u SHA256?
+answer: Promenljive stanja se ažuriraju iz reči poruke i konstanti
+wrong_answers:
+  - Konačni Hash se progresivno generiše nakon svake runde
+  - Poruke bitovi su preuređeni
+  - Početne vrednosti promenljivih ostaju nepromenjene
+explanation: |
+  Svaka runda modifikuje promenljive stanja koristeći reči, konstante i logičke operacije kako bi se informacija proširila.
+reviewed: false

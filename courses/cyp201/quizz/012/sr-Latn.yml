@@ -1,0 +1,9 @@
+question: Koja je veličina bloka koju koristi SHA512 u HMAC-u?
+answer: 128 bajtova
+wrong_answers:
+  - 64 bajta
+  - 256 bajtova
+  - 1024 bajta
+explanation: |
+  SHA512 koristi blokove od 128 bajtova, što je ekvivalentno 1024 bita, za svoje proračune.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Koliki procenat ukupnog obima transakcija Bitcoin je korišćen za nezakonite aktivnosti?
+answer: Manje od 1%
+wrong_answers:
+  - 2-4%
+  - Više od 5%
+  - Nepoznato je
+explanation: |
+  Prema izveštaju Chainalysis-a iz 2020. godine, nezakonite aktivnosti čine samo oko 0,34% svih Bitcoin transakcija.
+reviewed: true

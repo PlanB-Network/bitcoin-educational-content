@@ -1,0 +1,13 @@
+question: Koji je potencijalni nedostatak kreiranja rezervne kopije u oblaku koristeći usluge kao što su ProtonMail Drive, Sync ili Google Drive?
+answer: Vaši podaci su potencijalno na internetu i kod pouzdane treće strane.
+wrong_answers:
+  - Ove usluge potencijalno nisu pouzdane za bekap podataka.
+  - Ove usluge ponekad gube korisničke podatke i može biti teško preneti ih na drugog provajdera u oblaku.
+  - Ove usluge obično ne pružaju dovoljno prostora za skladištenje i pate od niske brzine veze.
+explanation: |
+  Iako usluge bekapa u oblaku pružaju zgodan način za
+  pravljenje rezervnih kopija vaših podataka, one takođe znače da su vaši podaci
+  potencijalno na internetu i kod pouzdane treće
+  strane. Ovo bi moglo potencijalno izložiti vaše podatke
+  dodatnim rizicima.
+reviewed: true

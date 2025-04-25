@@ -1,0 +1,13 @@
+question: Zašto je sigurnije koristiti evropske provajdere Wi-Fi pristupnih tačaka, kao što je SNCF?
+answer: Oni ne bi trebalo da preprodaju podatke o korisničkim vezama, zbog GDPR propisa.
+wrong_answers:
+  - Oni pružaju brže internet brzine u poređenju sa američkim provajderima.
+  - Oni često omogućavaju korisnicima da zaobiđu geografska ograničenja.
+  - Blokiraju online oglase ako ste identifikovani kao evropski građanin.
+explanation: |
+  U Evropskoj uniji, zaštita podataka je regulisana
+  Opštom uredbom o zaštiti podataka (GDPR). Stoga,
+  evropski provajderi pristupnih tačaka za Wi-Fi, kao što je SNCF, ne
+  preprodaju podatke o korisničkim konekcijama, što ih čini sigurnijim za korišćenje sa
+  stanovišta lične privatnosti.
+reviewed: true

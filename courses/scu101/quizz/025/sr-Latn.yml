@@ -1,0 +1,9 @@
+question: Koja je preporučena praksa za čuvanje lozinke za šifrovanje podataka?
+answer: Napiši lozinku na papir koji će biti čuvan na sigurnom mestu.
+wrong_answers:
+  - Sačuvaj lozinku u tekstualnoj datoteci na računaru.
+  - Podeli lozinku sa pouzdanim prijateljima.
+  - Koristite uobičajenu lozinku koju je lako zapamtiti.
+explanation: |
+  Preporučuje se da zapišete lozinku za šifrovanje podataka na papir i čuvate je na sigurnom mestu. Ovo je da biste sprečili gubitak pristupa šifrovanim podacima.
+reviewed: true

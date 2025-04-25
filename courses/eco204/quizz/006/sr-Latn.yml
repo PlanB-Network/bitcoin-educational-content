@@ -1,0 +1,9 @@
+question: Koji je bio glavni uzrok revolucije cena između 15. i 17. veka u Evropi?
+answer: Revolucija cena je uglavnom bila izazvana masovnim prilivom plemenitih metala, posebno zlata i srebra, iz Amerika.
+wrong_answers:
+  - Revolucija cena je uglavnom bila izazvana masovnim odlaskom plemenitih metala, posebno zlata i srebra, u Amerike.
+  - Revolucija cena je uglavnom bila izazvana masovnim prilivom plemenitih metala, posebno zlata i srebra, iz Azije.
+  - Revolucija cena je uglavnom bila izazvana masovnim odlaskom plemenitih metala, posebno zlata i srebra, u Aziju.
+explanation: |
+  Između 15. i 17. veka, Evropa je bila svedok izuzetnog ekonomskog fenomena, često nazivanog revolucija cena. Ovaj period inflacije je uglavnom bio izazvan masovnim prilivom plemenitih metala, posebno zlata i srebra, iz Amerika.
+reviewed: false

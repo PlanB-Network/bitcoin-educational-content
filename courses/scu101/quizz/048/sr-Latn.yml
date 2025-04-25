@@ -1,0 +1,12 @@
+question: Koji od sledećih je dobar i siguran metod u 2FA autentifikaciji?
+answer: Kod generisan od strane aplikacije kao što su Google Authenticator ili Authy.
+wrong_answers:
+  - Telefonski poziv ili SMS kod vlasniku naloga
+  - E-mail sa kodom koji ističe za 10 minuta unutar njega za vlasnika naloga
+  - Pismo poslato na kućnu adresu vlasnika računa Address
+explanation: |
+  Drugi korak u 2FA može biti privremeni kod poslat putem
+  SMS-a, e-pošte, kod generisan aplikacijom ili
+  fizički sigurnosni ključ. Međutim, ne omogućavaju svi ovi
+  metodi održavanje istog nivoa sigurnosti.
+reviewed: true

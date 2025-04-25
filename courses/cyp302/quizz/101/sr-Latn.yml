@@ -1,0 +1,9 @@
+question: Šta je HMAC?
+answer: Kod za autentifikaciju poruke zasnovan na Hash funkciji
+wrong_answers:
+  - Asimetrični algoritam šifrovanja zasnovan na Hash funkciji
+  - Asimetrični algoritam za šifrovanje zasnovan na Diffie-Hellman
+  - Kod za autentifikaciju poruka zasnovan na Diffie-Hellman
+explanation: |
+  HMAC je kod za autentifikaciju poruka koji koristi Hash funkciju, kao što je SHA-256, da kreira oznaku koja verifikuje integritet i autentičnost poruke.
+reviewed: false

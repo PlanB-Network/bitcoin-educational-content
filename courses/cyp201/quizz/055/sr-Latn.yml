@@ -1,0 +1,9 @@
+question: Na koliko delova je izlaz funkcije HMAC-SHA512 primenjene na seed podeljen?
+answer: Dva dela od 256 bita
+wrong_answers:
+  - Jedan jedini deo od 512 bita
+  - Tri dela od 170 bita
+  - Četiri dela od 128 bita
+explanation: |
+  Izlaz HMAC-SHA512 je podeljen na dva dela: glavni privatni ključ (256 bita) i glavni lančani kod (256 bita).
+reviewed: false

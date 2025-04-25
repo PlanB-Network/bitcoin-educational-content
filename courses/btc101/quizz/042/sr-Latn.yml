@@ -1,0 +1,13 @@
+question: Koja je potencijalna mana digitalnih valuta centralnih banaka (CBDC)?
+answer: Mogli bi ometati finansijsku slobodu pojedinaca i olakšati autoritarne zloupotrebe.
+wrong_answers:
+  - Oni bi mogli dovesti do smanjenja novca Supply.
+  - Oni bi mogli dovesti do smanjenja vrednosti Bitcoin.
+  - Oni bi mogli dovesti do smanjenja vrednosti zlata.
+explanation: |
+  Digitalne valute centralne banke (CBDC) mogle bi potencijalno
+  ometati finansijsku slobodu pojedinaca i olakšati
+  autoritarne zloupotrebe. To je zato što bi one nudile
+  više centralno planiranu ekonomiju, pri čemu bi centralna banka
+  imala još veću kontrolu nad novcem Supply.
+reviewed: true

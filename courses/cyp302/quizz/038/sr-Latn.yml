@@ -1,0 +1,9 @@
+question: Koja matematička oblast pruža savremene alate za teoriju brojeva?
+answer: Apstraktna algebra
+wrong_answers:
+  - Geometrija
+  - Statistika
+  - Kompleksna analiza
+explanation: |
+  Apstraktna algebra, kao poddisciplina matematike, pruža matematičke strukture koje omogućavaju analizu i razumevanje svojstava brojeva korišćenih u teoriji brojeva.
+reviewed: false

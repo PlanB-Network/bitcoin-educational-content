@@ -1,0 +1,11 @@
+question: Koliko košta pokretanje Bitcoin čvora na Raspberry Pi 4 u smislu potrošnje električne energije godišnje (od 2023)?
+answer: Malo manje od 10€ godišnje.
+wrong_answers:
+  - Malo više od 50€ godišnje.
+  - Malo manje od 100€ godišnje.
+  - Oko 200€ godišnje.
+explanation: |
+  Pokretanje Bitcoin čvora na Raspberry Pi 4 košta nešto
+  manje od 10€ godišnje u smislu potrošnje električne energije
+  od 2023.
+reviewed: true

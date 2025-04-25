@@ -1,0 +1,9 @@
+question: U kom slučaju možemo reći da su dva događaja nezavisna?
+answer: Verovatnoća jednog ne utiče na verovatnoću drugog
+wrong_answers:
+  - Dva događaja se uvek dešavaju istovremeno
+  - Oni se međusobno isključuju
+  - Njihova kombinovana verovatnoća jednaka je najvećoj verovatnoći od te dve.
+explanation: |
+  Dva događaja su nezavisna ako verovatnoća jednog ne menja verovatnoću drugog, kao što izvlačenje lutrije nema uticaj na vreme sledećeg dana.
+reviewed: false

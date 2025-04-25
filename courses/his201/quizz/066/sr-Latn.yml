@@ -1,0 +1,9 @@
+question: Ime bloga koji je vodio Jon Matonis i koji je pokrivao digitalne valute (uključujući Bitcoin od marta 2010) bilo je "The Monetary Future".
+answer: Monetarna Budućnost
+wrong_answers:
+  - Klasične ekonomske studije
+  - Povratak na gotovinu
+  - Nakamoto Institut
+explanation: |
+  Objavio je svoj [prvi članak o Bitcoin](https: //themonetaryfuture.blogspot.com/2010/03/Bitcoin-peer-to-peer-electronic-cash.html) 13. marta 2010, nakon razmene e-mailova sa Satoshi.
+reviewed: false

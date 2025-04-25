@@ -1,0 +1,9 @@
+question: Ko je bio glavni tvorac PayPal-a?
+answer: Peter Thiel
+wrong_answers:
+  - Elon Musk
+  - Marc Andreessen
+  - Mark Zuckerberg
+explanation: |
+  PayPal proizvod je razvijen 1999. godine od strane Confinity Inc., koju su u decembru 1998. godine u San Francisku osnovali Peter Thiel i Max Levchin.
+reviewed: false

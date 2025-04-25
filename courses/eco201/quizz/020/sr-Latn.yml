@@ -1,0 +1,9 @@
+question: Prema austrijskim ekonomistima, rezultat specijalizacije pojedinaca u svom radu i angažovanja u razmenama je povećanje efikasnosti i produktivnosti, što vodi ka većem prosperitetu i ekonomskom rastu.
+answer: Pojedinci su uvek u boljoj poziciji.
+wrong_answers:
+  - Pojedinci su uvek u lošijem položaju.
+  - Nema promene u situaciji pojedinaca.
+  - Rezultat varira u zavisnosti od pojedinca.
+explanation: |
+  Prema austrijskim ekonomistima, rezultat specijalizacije pojedinaca u svom radu i angažovanja u razmenama je da su oni uvek u boljoj poziciji. To je zato što specijalizacija i Exchange omogućavaju pojedincima da maksimiziraju svoju subjektivnu korisnost.
+reviewed: true

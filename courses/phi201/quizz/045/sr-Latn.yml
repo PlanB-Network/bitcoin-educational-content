@@ -1,0 +1,9 @@
+question: Koja je glavna teza Tome Akvinskog u vezi sa odnosom između razuma i vere?
+answer: Razum i vera su komplementarni i mogu podržavati jedno drugo.
+wrong_answers:
+  - Razum i vera su dva nezavisna i kontradiktorna izvora znanja.
+  - Svi ostali odgovori su tačni.
+  - Vera je superiornija od razuma i može bez njegovih argumenata.
+explanation: |
+  Thomas Aquinas tvrdi da su razum i vera komplementarni: razum može pomoći u razumevanju i objašnjavanju istina vere, dok vera vodi razum ka istinama koje bi mu inače bile nedostupne.
+reviewed: false

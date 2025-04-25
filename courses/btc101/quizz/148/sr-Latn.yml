@@ -1,0 +1,8 @@
+question: Kakav je bio ishod blokovskog rata 2017. godine?
+answer: Korisnici i čvorovi odbacili su predloženu promenu za povećanje veličine bloka i aktivirali ažuriranje pod nazivom SegWit.
+wrong_answers:
+  - Korisnici i čvorovi su prihvatili predloženu promenu za povećanje veličine bloka i aktivirali ažuriranje pod nazivom SegWit.
+  - Korisnici i čvorovi su odbili predloženu promenu za povećanje veličine bloka i nisu aktivirali nikakva ažuriranja.
+  - Korisnici i čvorovi prihvatili su predloženu promenu za povećanje veličine bloka i nisu aktivirali nikakva ažuriranja.
+explanation: >-
+reviewed: true

@@ -1,0 +1,9 @@
+question: Koji je ekonomista izjavio 1999. godine da jedina stvar koja nedostaje, ali će uskoro biti razvijena, jeste pouzdan elektronski novac?
+answer: Milton Friedman
+wrong_answers:
+  - Friedrich Hayek
+  - Murray Rothbard
+  - Paul Krugman
+explanation: |
+  Dobitnik Nobelove nagrade za ekonomiju i osnivač Čikaške škole, dao je ovu prognozu na mikrofonu Nacionalne fondacije poreskih obveznika. [micro](https: //www.youtube.com/watch?v=mlwxdyLnMXM&t=872s)
+reviewed: false

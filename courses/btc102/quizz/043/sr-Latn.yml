@@ -1,0 +1,11 @@
+question: Koji je glavni razlog zašto vlade i centralne banke istražuju mogućnost kreiranja digitalne verzije svoje fiat valute?
+answer: Da bi se osigurala kontrola i usklađenost sa lokalnim propisima
+wrong_answers:
+  - Da se takmiči sa Bitcoin
+  - Da bi se obezbedila zaštita privatnosti
+  - Da se poveća masovni nadzor
+explanation: |
+  Sadržaj poglavlja objašnjava da, iako ovi projekti tvrde da konkurišu
+  sa Bitcoin, oni ostaju centralizovani kako bi se osigurala kontrola i usklađenost sa
+  lokalnim propisima.
+reviewed: false

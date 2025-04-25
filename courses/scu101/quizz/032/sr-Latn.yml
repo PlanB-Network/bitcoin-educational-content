@@ -1,0 +1,12 @@
+question: Šta je ransomware?
+answer: Vrsta zlonamernog softvera koji šifruje korisničke podatke i zahteva otkupninu za njihovo dešifrovanje.
+wrong_answers:
+  - Vrsta antivirusnog softvera koji je sposoban očistiti keš memoriju i kolačiće računara uz plaćanje jednokratne naknade.
+  - Vrsta softvera koji se koristi za oporavak podataka, postaje prilično uobičajen u Evropi danas.
+  - Vrsta softvera koji se koristi za pravljenje rezervnih kopija podataka, obično vrši jednu rezervnu kopiju svakih 7 dana.
+explanation: |
+  Ransomware je vrsta zlonamernog softvera koji šifruje
+  korisničke podatke i zahteva otkupninu za njihovo dešifrovanje. Postaje
+  sve češći i može biti veoma problematičan
+  za kompaniju ili pojedinca.
+reviewed: true

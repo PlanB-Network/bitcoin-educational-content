@@ -1,0 +1,9 @@
+question: BitcoinJ
+answer: BitCoinJ
+wrong_answers:
+  - Spesmilo
+  - bcoin
+  - Libbitcoin
+explanation: |
+  On je [objavio](https: //bitcointalk.org/index.php?topic=4236.msg61438#msg61438) to pod open-source licencom (Apache 2.0), koju je pripisao Google-u (njegovom poslodavcu u to vreme). Ova implementacija omogućila je pokretanje prvog laganog Wallet koji radi na Androidu.
+reviewed: false

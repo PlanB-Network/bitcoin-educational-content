@@ -1,0 +1,9 @@
+question: Šta se dešava ako se ključ 7 koristi za šifrovanje reči CAT?
+answer: Reč postaje JHA
+wrong_answers:
+  - Reč postaje JBA
+  - Reč postaje JHB
+  - Reč postaje ZHA
+explanation: |
+  Sa ključem 7, svako slovo reči CAT pomera se za 7 pozicija u abecedi, što proizvodi šifrovanu reč JHA.
+reviewed: false

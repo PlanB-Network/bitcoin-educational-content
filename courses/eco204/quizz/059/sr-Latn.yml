@@ -1,0 +1,11 @@
+question: Koja je bila prva Layer novca u Italiji 13. veka?
+answer: Zlato, predstavljeno florinom
+wrong_answers:
+  - Računi Exchange
+  - Zadužnice
+  - Srebrni novčići
+explanation: |
+  U Italiji 13. veka, tačnije u Firenci, prvi Layer novca
+  bio je pravi zlato, predstavljen florinom. Zlatari su izdavali račune Exchange u
+  Exchange za deponovane florine, što je činilo drugi Layer novca.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Koja je primarna funkcija koda za autentifikaciju poruke (MAC)?
+answer: Osigurajte autentičnost i integritet poruke
+wrong_answers:
+  - Šifrujte poruke kako biste osigurali poverljivost
+  - Sprečiti presretanje poruka
+  - generate privatni ključevi za svaku komunikaciju
+explanation: |
+  MAC je kriptografska šema koja omogućava verifikaciju da poruka zaista dolazi od legitimnog pošiljaoca i da nije izmenjena, čime se osigurava autentičnost i integritet.
+reviewed: false

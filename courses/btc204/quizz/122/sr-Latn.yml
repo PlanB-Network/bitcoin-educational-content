@@ -1,0 +1,9 @@
+question: Kako P2P transport V2 poboljšava privatnost i sigurnost komunikacije između čvorova?
+answer: Integrisanjem oportunističke enkripcije
+wrong_answers:
+  - Integracijom autentifikacije
+  - Korišćenjem dodatnih releja
+  - Korišćenjem Tor-a
+explanation: |
+  P2P transport V2 uključuje Layer oportunističke enkripcije kako bi poboljšao privatnost i sigurnost komunikacije između čvorova.
+reviewed: false

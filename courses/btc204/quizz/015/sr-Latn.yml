@@ -1,0 +1,9 @@
+question: Koja su 3 glavna koraka Blockchain analize?
+answer: Posmatranje Blockchain, identifikacija karakteristika i izvođenje hipoteza.
+wrong_answers:
+  - Prikupljanje podataka, sigurno skladištenje i izveštavanje.
+  - Identifikacija korisnika, regulisanje razmena i zaštita od prevara.
+  - Prikupljanje podataka, nasumičan odabir i denuncijacija.
+explanation: |
+  Analiza Blockchain prvo uključuje pristupanje podacima Bitcoin Blockchain, zatim pokušaj identifikacije karakteristika u tim podacima, i na kraju pravljenje mogućih interpretacija.
+reviewed: false

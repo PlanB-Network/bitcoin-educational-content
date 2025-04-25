@@ -1,0 +1,11 @@
+question: Koji je ugrađeni antivirus u Windowsu?
+answer: Windows Defender
+wrong_answers:
+  - Kaspersky
+  - Norton
+  - McAfee
+explanation: |
+  Windows Defender je ugrađeni antivirus u Windowsu. To
+  je sigurno i efikasno rešenje za zaštitu sistema
+  od pretnji.
+reviewed: true

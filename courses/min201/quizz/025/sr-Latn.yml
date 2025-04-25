@@ -1,0 +1,11 @@
+question: Koja je osnovna Layer mreže Bitcoin često nazivana?
+answer: Naselje Layer
+wrong_answers:
+  - Transakcija Layer
+  - Bezbednost Layer
+  - Konsenzus Layer
+explanation: |
+  Osnovna stanica Layer mreže Bitcoin, na koju se Lightning
+  Network oslanja za otvaranje i zatvaranje platnih kanala,
+  često se naziva settlement Layer.
+reviewed: true

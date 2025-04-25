@@ -1,0 +1,9 @@
+question: Koja bi trebala biti glavna briga kada posedujete Bitcoin?
+answer: Bezbednost vaših sredstava.
+wrong_answers:
+  - Vrednost Bitcoin u dolarima.
+  - Legalnost posedovanja bitkoina.
+  - Dozvola za trošenje vaših sredstava.
+explanation: |
+  Kada posedujete bitkoine, primarna briga je bezbednost vaših sredstava. Ovo je zato što Bitcoin, kao i bilo koji drugi oblik valute, može biti ukraden ili izgubljen ako nije pravilno obezbeđen.
+reviewed: true

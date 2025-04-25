@@ -1,0 +1,9 @@
+question: Šta treba da uradite nakon kupovine Bitcoin na Exchange platformi?
+answer: Povuci bitkoine i pošalji ih na svoj Wallet.
+wrong_answers:
+  - Ostavite bitkoine na platformi.
+  - Prodaj bitkoine odmah.
+  - Prenesite bitkoine na drugu Exchange platformu.
+explanation: |
+  Tekst kursa savetuje da nakon kupovine Bitcoin, treba odmah povući UTXO-e sa Exchange platformi kako bi se smanjili rizici od hakovanja i blokiranja sredstava.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Koji model skripte se najviše preporučuje u 2024. za poboljšanu privatnost na Bitcoin?
+answer: P2TR
+wrong_answers:
+  - P2PK
+  - P2PKH
+  - P2SH
+explanation: |
+  Da biste se uklopili u najveću moguću gužvu, preporučuje se korišćenje najšire prihvaćenog modela skripte. P2TR skripte su trenutno najčešće korišćene u Bitcoin transakcijama.
+reviewed: false

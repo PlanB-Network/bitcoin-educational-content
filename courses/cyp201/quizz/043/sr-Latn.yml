@@ -1,0 +1,9 @@
+question: Koliko bitova entropije se koristi za 24-rečnu Mnemonic frazu?
+answer: 256 bita
+wrong_answers:
+  - 128 bita
+  - 512 bita
+  - 64 bita
+explanation: |
+  24-reči Mnemonic fraza zasnovana je na 256 bita entropije, što osigurava veoma visok nivo sigurnosti.
+reviewed: false

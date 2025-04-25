@@ -1,0 +1,10 @@
+question: Koliko zemalja širom sveta ograničava ženama otvaranje bankovnih računa na svoje ime?
+answer: 72
+wrong_answers:
+  - 36
+  - 75
+  - 100
+explanation: |
+  U 72 zemlje širom sveta, ženama nije dozvoljeno da otvore 
+  bankovne račune na svoje ime.
+reviewed: true

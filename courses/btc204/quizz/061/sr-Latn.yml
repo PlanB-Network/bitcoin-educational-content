@@ -1,0 +1,9 @@
+question: Koja je svrha opcije kontrole novčića u Bitcoin Wallet softveru?
+answer: Da izaberete koje UTXO-e da koristite kao ulaze za transakcije.
+wrong_answers:
+  - Da bi se šifrovali UTXO-i radi poboljšanja sigurnosti Wallet.
+  - Da otkrije i blokira UTXO-ove iz sumnjivih izvora.
+  - Da označite svaki UTXO u Wallet.
+explanation: |
+  Kontrola novčića je funkcija koja se nalazi u dobrom Bitcoin Wallet softveru, koja vam daje mogućnost da ručno odaberete specifične UTXO-e koje ćete koristiti kao ulaze prilikom obavljanja transakcije.
+reviewed: false

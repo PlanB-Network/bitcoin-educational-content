@@ -1,0 +1,9 @@
+question: Koje funkcije bi država trebalo da ispunjava prema Bastijatu?
+answer: Unutrašnja bezbednost, spoljašnja bezbednost i pravda
+wrong_answers:
+  - Regulacija, redistribucija i pravda
+  - Bezbednost, pravda i jednakost
+  - Obrazovanje, zdravlje i pravda
+explanation: |
+  Bastiat zagovara ograničenu ulogu države na funkcije unutrašnje i spoljašnje bezbednosti i pravde, kako bi zaštitila prirodna prava pojedinaca.
+reviewed: false

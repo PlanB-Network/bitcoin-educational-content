@@ -1,0 +1,9 @@
+question: Zašto je argument da je Bitcoin bezvredan jer nije podržan ničim pogrešan?
+answer: Vrednost je subjektivna i zasniva se na verovanjima i iskustvima ljudi.
+wrong_answers:
+  - Bitcoin je podržan zlatom, što mu daje inherentnu vrednost.
+  - Vrednost Bitcoin određena je njegovom oskudicom i sigurnosnim karakteristikama.
+  - Vrednost Bitcoin zasniva se na njegovom prihvatanju od strane vlada i banaka.
+explanation: |
+  Vrednost je subjektivna i u oku posmatrača. Bitcoin je vredan jer ljudi veruju da je tako, baš kao što umetnost može biti vredna uprkos tome što je napravljena od platna i boje. Argument da valuta mora biti podržana nečim vrednim je netačan, jer se vrednost fiat valuta poput američkog dolara takođe zasniva na poverenju i verovanju.
+reviewed: true

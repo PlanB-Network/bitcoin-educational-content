@@ -1,0 +1,9 @@
+question: Koja je svrha indeksa u izvođenju ključeva za decu?
+answer: Razlikuj parove ključeva braće i sestara
+wrong_answers:
+  - Identifikujte prirodu ključa (javni ili privatni)
+  - Navedite nivo bezbednosti ključa
+  - Dodajte dodatni Layer nivo sigurnosti.
+explanation: |
+  Indeks omogućava razlikovanje dečijih ključeva izvedenih iz istog roditeljskog para.
+reviewed: false

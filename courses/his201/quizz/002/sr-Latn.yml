@@ -1,0 +1,9 @@
+question: Na kom procesu se zasniva model elektronskog novca eCash?
+answer: Slepi potpisi
+wrong_answers:
+  - Grupni potpisi
+  - Prstenasti potpisi
+  - Pragovi potpisa
+explanation: |
+  eCash se zasniva na procesu slepog potpisa, koji omogućava potpisniku da potpiše nešto bez da vidi šta potpisuje.
+reviewed: false

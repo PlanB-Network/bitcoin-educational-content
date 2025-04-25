@@ -1,0 +1,9 @@
+question: Koji je Kaganov kriterijum za hiperinflaciju?
+answer: Stopa inflacije od 50% mesečno.
+wrong_answers:
+  - Stopa inflacije od 50% godišnje.
+  - Stopa inflacije od 25% mesečno.
+  - Stopa inflacije od 25% godišnje.
+explanation: |
+  Kaganov kriterijum definiše hiperinflaciju kao stopu inflacije od 50% mesečno. Ovaj kriterijum ponekad može dovesti do dvosmislenih interpretacija, sa godinama koje imaju visoke stope inflacije, ali ne ispunjavaju strogu definiciju hiperinflacije.
+reviewed: false

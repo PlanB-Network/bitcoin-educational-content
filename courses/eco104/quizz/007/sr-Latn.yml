@@ -1,0 +1,16 @@
+question: Kakav je uticaj štampanja više novca na kupovnu moć valute?
+answer: Pogoršanje kupovne moći valute
+wrong_answers:
+  - Porast kupovne moći valute
+  - Nema uticaja
+  - Više novca = veća kupovna moć
+explanation: |
+  Kada centralne banke odluče da štampaju novac, ne mogu jednostavno stvoriti više vrednosti. 
+  Da bi ovaj novoštampani novac imao neku vrednost, njegova vrednost mora doći od 
+  prethodnih vlasnika valute.
+  Zamislite novac Supply kao picu, i zamislite da je isečena na četiri parčeta. 
+  Udvostručavanje novca Supply ne bi bilo ekvivalentno udvostručavanju količine pice. 
+  Umesto toga, bilo bi ekvivalentno sečenju tih četiri parčeta na pola kako bi se stvorilo 
+  osam parčeta. Nismo dobili dodatnu picu. Samo imamo više parčeta, svako manje po veličini. 
+  Stoga, kada štampamo više novca, obezvređujemo novac koji već postoji.
+reviewed: true

@@ -8,7 +8,7 @@ Signal est une application de messagerie chiffrée de bout en bout, conçue pour
 
 Signal a été lancé en 2014 par Moxie Marlinspike (pseudo) et développé depuis 2018 par la Signal Foundation, une organisation à but non lucratif créée avec le soutien de Brian Acton (cofondateur de WhatsApp).
 
-01
+![Image](assets/fr/01.webp)
 
 Par rapport à WhatsApp, Signal se distingue par sa transparence : le code de l’application, tant côté client que côté serveur, est entièrement open source. Cela permet à quiconque de l’auditer, et notamment de vérifier que le chiffrement est bien appliqué conformément à ce qui est annoncé.
 
@@ -49,75 +49,75 @@ Dans ce tutoriel, nous nous concentrerons sur la version mobile, mais sachez que
 
 ## Créer un compte sur Signal
 
-Lors du premier lancement de l’application, cliquez sur le bouton "Continue".
+Lors du premier lancement de l’application, cliquez sur le bouton "*Continue*".
 
-02
+![Image](assets/fr/02.webp)
 
-Saisissez votre numéro de téléphone, puis cliquez sur "Next".
+Saisissez votre numéro de téléphone, puis cliquez sur "*Next*".
 
-03
+![Image](assets/fr/03.webp)
 
 Un code de vérification vous sera envoyé par SMS. Renseignez ce code dans l’application Signal.
 
-04
+![Image](assets/fr/04.webp)
 
 Choisissez un code PIN pour sécuriser votre compte Signal. Ce code permet de chiffrer vos données et vous servira à restaurer l’accès à votre compte en cas de perte de votre appareil. Il est donc important de choisir un code PIN robuste, aussi long et aléatoire que possible, et d’en effectuer une sauvegarde fiable.
 
-05
+![Image](assets/fr/05.webp)
 
 Confirmez une seconde fois ce code PIN.
 
-06
+![Image](assets/fr/06.webp)
 
-Vous pouvez maintenant personnaliser votre profil utilisateur. Choisissez une photo, indiquez votre nom ou un pseudo. À cette étape, vous pouvez également définir qui peut vous retrouver sur Signal via votre numéro. Sélectionnez "Everyone" si vous souhaitez être visible, ou "Nobody" pour rester introuvable via le numéro de téléphone (vous pourrez alors être ajouté uniquement avec votre "Username"). Une fois vos choix effectués, cliquez sur "Next".
+Vous pouvez maintenant personnaliser votre profil utilisateur. Choisissez une photo, indiquez votre nom ou un pseudo. À cette étape, vous pouvez également définir qui peut vous retrouver sur Signal via votre numéro. Sélectionnez "*Everyone*" si vous souhaitez être visible, ou "*Nobody*" pour rester introuvable via le numéro de téléphone (vous pourrez alors être ajouté uniquement avec votre "*Username*"). Une fois vos choix effectués, cliquez sur "*Next*".
 
-07
+![Image](assets/fr/07.webp)
 
 Vous êtes désormais connecté à Signal et prêt à échanger des messages.
 
-08
+![Image](assets/fr/08.webp)
 
 ## Paramétrer votre compte Signal
 
 En cliquant sur votre photo de profil en haut à gauche, vous accédez aux paramètres de l’application.
 
-09
+![Image](assets/fr/09.webp)
 
-Le menu "Account" vous permet de gérer les paramètres liés à votre profil. Je vous conseille de conserver les réglages par défaut. Vous pouvez également activer l’option "Registration Lock", qui protège votre compte contre certains types d'attaques. Ce menu contient également les options nécessaires pour transférer votre compte vers un nouvel appareil.
+Le menu "*Account*" vous permet de gérer les paramètres liés à votre profil. Je vous conseille de conserver les réglages par défaut. Vous pouvez également activer l’option "*Registration Lock*", qui protège votre compte contre certains types d'attaques. Ce menu contient également les options nécessaires pour transférer votre compte vers un nouvel appareil.
 
-10
+![Image](assets/fr/10.webp)
 
-En cliquant à nouveau sur votre image de profil dans les paramètres, vous accédez aux options de personnalisation de votre profil. Je vous recommande de définir un "Username" : cela vous permettra d’entrer en contact avec d’autres personnes sans exposer votre numéro de téléphone.
+En cliquant à nouveau sur votre image de profil dans les paramètres, vous accédez aux options de personnalisation de votre profil. Je vous recommande de définir un "*Username*" : cela vous permettra d’entrer en contact avec d’autres personnes sans exposer votre numéro de téléphone.
 
-11
+![Image](assets/fr/11.webp)
 
-En sélectionnant "QR code or link", vous obtiendrez les informations à partager avec une personne souhaitant vous ajouter sur Signal.
+En sélectionnant "*QR code or link*", vous obtiendrez les informations à partager avec une personne souhaitant vous ajouter sur Signal.
 
-12
+![Image](assets/fr/12.webp)
 
-Le menu "Privacy" est particulièrement important. Vous y trouverez des options permettant de contrôler la visibilité de votre numéro, la gestion de vos messages avec vos contacts, ainsi que diverses autorisations accordées sur l’application.
+Le menu "*Privacy*" est particulièrement important. Vous y trouverez des options permettant de contrôler la visibilité de votre numéro, la gestion de vos messages avec vos contacts, ainsi que diverses autorisations accordées sur l’application.
 
-13
+![Image](assets/fr/13.webp)
 
-N’hésitez pas non plus à explorer les menus "Appearance", "Chats" et "Notifications" pour adapter l’interface et le fonctionnement de l’application à vos besoins personnels.
+N’hésitez pas non plus à explorer les menus "*Appearance*", "*Chats*" et "*Notifications*" pour adapter l’interface et le fonctionnement de l’application à vos besoins personnels.
 
 ## Connecter l'application desktop
 
-Pour connecter l’application desktop, commencez par installer le logiciel sur votre ordinateur (voir la première partie de ce tutoriel). Ensuite, sur votre téléphone, accédez aux paramètres et ouvrez la section "Linked devices".
+Pour connecter l’application desktop, commencez par installer le logiciel sur votre ordinateur (voir la première partie de ce tutoriel). Ensuite, sur votre téléphone, accédez aux paramètres et ouvrez la section "*Linked devices*".
 
-14
+![Image](assets/fr/14.webp)
 
-Cliquez sur le bouton "Link a new device".
+Cliquez sur le bouton "*Link a new device*".
 
-15
+![Image](assets/fr/15.webp)
 
-Sur votre ordinateur, lancez le logiciel, puis scannez le QR code affiché à l’écran à l’aide de votre téléphone. Si vous souhaitez importer vos conversations, sélectionnez l’option "Transfer message history".
+Sur votre ordinateur, lancez le logiciel, puis scannez le QR code affiché à l’écran à l’aide de votre téléphone. Si vous souhaitez importer vos conversations, sélectionnez l’option "*Transfer message history*".
 
-16
+![Image](assets/fr/16.webp)
 
 Vos appareils sont désormais bien synchronisés.
 
-17
+![Image](assets/fr/17.webp)
 
 ## Envoyer des messages avec Signal
 
@@ -125,23 +125,23 @@ Pour communiquer avec quelqu’un sur Signal, il faut d’abord l’ajouter comm
 
 Cliquez sur l’icône en forme de crayon en bas à droite de l’interface.
 
-18
+![Image](assets/fr/18.webp)
 
-Dans mon cas, je souhaite ajouter la personne via son nom d’utilisateur. Je clique donc sur "Find by username".
+Dans mon cas, je souhaite ajouter la personne via son nom d’utilisateur. Je clique donc sur "*Find by username*".
 
-19
+![Image](assets/fr/19.webp)
 
 Vous pouvez ensuite soit coller son identifiant, soit scanner son QR code de connexion.
 
-20
+![Image](assets/fr/20.webp)
 
 Envoyez-lui un message pour établir le contact.
 
-21
+![Image](assets/fr/21.webp)
 
 La conversation apparaîtra ensuite sur la page d’accueil. Si la personne accepte votre demande de contact, vous pourrez voir son nom et sa photo de profil.
 
-22
+![Image](assets/fr/22.webp)
 
 Félicitations, vous êtes maintenant au point sur l'utilisation de la messagerie Signal, une excellente alternative à WathsApp ! Si vous avez trouvé ce tutoriel utile, je vous serais très reconnaissant de laisser un pouce vert ci-dessous. N'hésitez pas à partager ce tutoriel sur vos réseaux sociaux. Merci beaucoup !
 

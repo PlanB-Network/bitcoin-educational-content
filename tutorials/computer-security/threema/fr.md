@@ -166,19 +166,68 @@ Attention : "Data Backup" ne fonctionne que si vous restez sur le même système
 
 ## Personnaliser son profil Threema
 
+En haut à gauche de l’interface, cliquez sur votre image de profil, puis sélectionnez "My Profile".
 
+22
+
+Vous pouvez ici personnaliser votre profil : ajouter une photo, choisir qui peut la voir, ou encore consulter votre identifiant Threema.
+
+23
+
+## Synchroniser le logiciel PC
+
+Si vous souhaitez accéder à vos conversations sur PC, vous pouvez synchroniser votre compte Threema avec le logiciel dédié. Téléchargez le logiciel correspondant à votre système d’exploitation [depuis le site officiel](https://threema.ch/en/download).
+
+24
+
+Sur votre téléphone, cliquez sur les trois points en haut à droite, puis ouvrez le menu "Threema 2.0 for Desktop".
+
+25
+
+Cliquez sur "Add device", puis scannez avec votre téléphone le QR code affiché par le logiciel sur votre ordinateur.
+
+26
+
+Pour confirmer la synchronisation, cliquez sur le groupe d’émojis affiché dans le logiciel.
+
+27
+
+Sur votre ordinateur, connectez-vous ensuite en utilisant votre mot de passe.
+
+28
+
+Vous avez désormais accès à votre compte Threema directement depuis votre ordinateur en plus de l'application mobile.
+
+29
 
 ## Envoyer des messages avec Threema
 
+Maintenant que tout est correctement configuré, vous pouvez commencer à communiquer. Cliquez sur le bouton "Start chat".
 
+30
 
+Sélectionnez "New contact".
 
+31
 
+Saisissez ou scannez le "Threema ID" de votre correspondant.
 
+32
 
+Cliquez sur l’icône de message.
 
+33
 
+Envoyez un premier message à votre correspondant.
 
+34
 
+Lorsque votre correspondant vous répondra, la connexion sera établie, et vous pourrez voir son nom ainsi que sa photo de profil. Vous pourrez alors échanger des messages, des fichiers multimédias et même passer des appels.
 
-oaiD.ef6516$1az51!!aZEFbgb651!
+35
+
+Félicitations, vous êtes maintenant au point sur l'utilisation de la messagerie Threema, une excellente alternative à WathsApp ! Si vous avez trouvé ce tutoriel utile, je vous serais très reconnaissant de laisser un pouce vert ci-dessous. N'hésitez pas à partager ce tutoriel sur vos réseaux sociaux. Merci beaucoup !
+
+Je vous recommande également de découvrir cet autre tutoriel, dans lequel je vous présente Proton Mail, une alternative à Gmail bien plus respectueuse de votre vie privée :
+
+https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
